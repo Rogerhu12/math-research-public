@@ -1,0 +1,64 @@
+{
+  "format": "r150-third-publication-transport-recovery-v2",
+  "mathematicsRerun": false,
+  "firstPublicationRun": 43664532571,
+  "firstFailure": "180-second staging push timeout",
+  "secondPublicationRun": 43665755992,
+  "secondFailure": "git push returned HTTP500/curl22 and disconnected, exit1",
+  "secondActualState": {
+    "format": "r150-saturated-third-page-terminal-publication-v1",
+    "status": "publication-failed",
+    "run_id": "43664532571",
+    "run_attempt": "1",
+    "source_commit": "39c27f127fa63240629ecb60fe8e13628fee631f",
+    "publicationExecutionRunId": "43665755992",
+    "publicationExecutionAttempt": "1",
+    "publicationExecutionSourceCommit": "82e2a56226565df5a120f7d30f427eb8f7d22230",
+    "mathematicsRerun": false,
+    "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1",
+    "sharedResearchIndicesEdited": false,
+    "forcePushUsed": false,
+    "rulesAtSource": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "pulls": [
+      {
+        "beforeReadCommit": "82e2a56226565df5a120f7d30f427eb8f7d22230",
+        "originMainAfterPull": "de61f27510a191a0363cf16938fc3b21629e6e08",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-1.patch"
+      }
+    ],
+    "pushes": [],
+    "stagingPushes": [
+      {
+        "commit": "384b38764b2284bc1123f642ca5f9063a75b14f6",
+        "branch": "isp-789f-data-43664532571-1-384b38764b22",
+        "exitCode": 1
+      }
+    ],
+    "actualOutputsPreservedBeforeGit": true,
+    "actualRecoveryPreservation": {
+      "allActualRecoveryFilesPreserved": true,
+      "allStageCachesIncluded": true,
+      "originalFiles": 197,
+      "originalBytes": 440770011,
+      "fallbackFiles": 0
+    },
+    "preparedStoredFiles": 254,
+    "preparedOriginalBytes": 227177322,
+    "lastRulesReadCommit": "de61f27510a191a0363cf16938fc3b21629e6e08",
+    "errorType": "RuntimeError",
+    "error": "actual data staging push failed; all recovery bytes retained"
+  },
+  "remoteRefAndPreparedCommitNotFoundAfterFailure": true,
+  "nextStep": "Only unshallow main commit metadata while retaining blob:none and sparse paths; enable push.negotiate and --progress; restore the same original artifacts; actual pull/rebase and no-force main push remain required.",
+  "runnerSourceSHA256": "2335bd4ac3621b3ff7fcb7b66bce5eb06eeb924a511385e6b1cf236f5ead4ee4",
+  "newMathematicsExecuted": false
+}

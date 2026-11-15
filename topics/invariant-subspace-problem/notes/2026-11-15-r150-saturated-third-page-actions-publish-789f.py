@@ -241,12 +241,13 @@ def main():
     source_commit = args.mathematical_source_commit or execution_source_commit
     authentication = base64.b64encode(("x-access-token:" + os.environ["GH_TOKEN"]).encode()).decode()
     git_environment = dict(os.environ)
-    git_environment.update(GIT_CONFIG_COUNT="4",
+    git_environment.update(GIT_CONFIG_COUNT="5",
         GIT_CONFIG_KEY_0="http.https://github.com/.extraheader",
         GIT_CONFIG_VALUE_0="AUTHORIZATION: basic " + authentication,
         GIT_CONFIG_KEY_1="credential.helper", GIT_CONFIG_VALUE_1="",
         GIT_CONFIG_KEY_2="pack.window", GIT_CONFIG_VALUE_2="0",
-        GIT_CONFIG_KEY_3="pack.depth", GIT_CONFIG_VALUE_3="0")
+        GIT_CONFIG_KEY_3="pack.depth", GIT_CONFIG_VALUE_3="0",
+        GIT_CONFIG_KEY_4="push.negotiate", GIT_CONFIG_VALUE_4="true")
     source = json.loads((results / "actions-source.json").read_text())
     expected = source["rules_sha256"]
     if set(expected) != set(RULES):
@@ -274,7 +275,7 @@ def main():
         # Command-scoped Git environment only: no expanded credential is written.
         command = ["git"] + list(arguments)
         proc = subprocess.run(command, cwd=checkout, env=git_environment,
-                              capture_output=True, text=True, timeout=900 if arguments and arguments[0] == "push" else 180)
+                              capture_output=True, text=True, timeout=900 if arguments and arguments[0] in ("push", "fetch") else 180)
         safe_stdout, safe_stderr = proc.stdout, proc.stderr
         token = os.environ.get("GH_TOKEN", "")
         if token:
@@ -293,6 +294,13 @@ def main():
     try:
         if git("status", "--porcelain")[1].strip():
             raise RuntimeError("source checkout must be clean before publication")
+        if git("rev-parse", "--is-shallow-repository")[1].strip() == "true":
+            # Keep blob:none and the exact sparse working tree. Only main commit
+            # ancestry is fetched so a new ref need not resend the repository snapshot.
+            git("fetch", "--no-tags", "--unshallow", "--filter=blob:none", "origin", "main")
+            state["mainCommitMetadataUnshallowed"] = True
+            state["blobFilterRetained"] = True
+            save()
         recovery_manifest = preserve_recovery(recovery, results, work)
         state["actualRecoveryPreservation"] = {k: recovery_manifest[k] for k in
             ("allActualRecoveryFilesPreserved", "allStageCachesIncluded", "originalFiles", "originalBytes", "fallbackFiles")}
@@ -364,7 +372,7 @@ def main():
         while True:
             staged_commit = git("rev-parse", "HEAD")[1].strip()
             staged_branch = "isp-789f-data-" + run_id + "-" + attempt + "-" + staged_commit[:12]
-            proc, stdout, stderr = git("push", "origin", "HEAD:refs/heads/" + staged_branch, check=False)
+            proc, stdout, stderr = git("push", "--progress", "origin", "HEAD:refs/heads/" + staged_branch, check=False)
             state["stagingPushes"].append({"commit": staged_commit, "branch": staged_branch, "exitCode": proc.returncode})
             save()
             if proc.returncode == 0:
@@ -379,7 +387,7 @@ def main():
             return
         while True:
             commit = git("rev-parse", "HEAD")[1].strip()
-            proc, stdout, stderr = git("push", "origin", "HEAD:refs/heads/main", check=False)
+            proc, stdout, stderr = git("push", "--progress", "origin", "HEAD:refs/heads/main", check=False)
             state["pushes"].append({"commit": commit, "exitCode": proc.returncode})
             save()
             if proc.returncode == 0:

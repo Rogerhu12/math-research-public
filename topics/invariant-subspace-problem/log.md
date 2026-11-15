@@ -705,3 +705,8 @@
 - 从第三真实20011+16·20012两列得到父ω3…8常整数[344,409,327,102,1,16]，只需K2…8七raw第一来源。
 - 同一六槽四次whole-P费用177→469→761→1053→1345；D2≤665、四W2≤957，全部来源比较与carry保留。
 - 完整证明立即推；normal继续5native/1024MiB实际全局入口，publication-only恢复仍运行，未把条件界当原式证书。
+
+### 2026-11-15 Astra-ISP-789f：第三保存数据的Git传输恢复
+- publication-only run43665755992只在数据分支push失败：HTTP500/curl22断连；197恢复全部保，数学未重算，远端ref/commit未见。
+- 保blob:none和精确sparse，补main提交祖先并启用push.negotiate/进度，继续真实pull/rebase及无force推送；不把原临时commit报为已推。
+- 更新本课题发布脚本并立即再调度现有workflow；原17全局六槽入口并行继续。
