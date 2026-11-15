@@ -165,3 +165,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 当前实际帽的moving读出已闭；同一内端还须匹配
 
 [Y1–19](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)已给X的真实物理→moving全局复条带逆及原相位规范，两个mean按准确公式输出。这个读出保同固定η0/α/ν、内B/Cmean/phase未预设相等，q≤8160有限高界不冒极小M8212球。下一把该真实inner输出与mixed-body/ν端列合并；zero-width两未知输入的finite-Sob映射另外建设，不从Y的analytic域免费扩授。
+
+### 当前实际帽的zero-width全周期Φ及finite-Sob接口已成
+
+[F1–28](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)补真实Bmean后重建当前X帽的完整full4Z辅助值图，固定analytic γ、非解析fB低A0/高有限；完整Taylor绝对列和、one-high tame与四commutator的半阶/伴随门已付。下一将γ也作零宽未知输入（newton负责混合species图），并把真Φ方向按long完整Green送入far非mean行；独立meanheight不可乘筛选ε。tail接同a94界面lifting/实际graph种子；全augmented Schur/inner mean/phase/ν继续。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 F：实际零宽全周期帽图与finite-Sob Φ](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)：真实Bmean右lift补入而完整压缩<.881/端保持不变；固定analytic γ，接受低小高有限非解析fB。known-only复平移→逐Taylor张量加权列和→one-high Young，q≤8160/Cq=2^{96(q+32)+16384}，不用未知复角值。完整4jet commutator与双向Schur给Φ半阶/帽曲率−3/2及两mean/height列<2^128；physical w/aw/唯一λ仍在，全augmented onto独立。SHA256 3959bb3674bcbd119568299a28c7f6f96d9fb27c3f8348cfa65cbd0ae49a834a。
+
 - [R133 Y：实际帽的moving读出、归一角与两mean](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)：任意物理复pair邻域ρ3e−6中j=C/C0，Rej>15/32，周期全局inverse含S_(σ/16)；τ=2^-18完整joint moving pair<2^21。复contour证明原zero-mean角规范及m=1/C0、ubar=<B>/C0准确，无丢phase/mean。用于实际X后解析参数依赖与q≤8160有限值/两参数半球导<2^262144已付；不授rough输入、原tiny高球或全匹配。SHA256 0a08995fcfc7699249e9ef20bb661bfdcd3545896dbb4b2cc81f61c0eaf963ee。
 
 - [R119 P：新fixed-stop对象与实际帽的完整94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)：同S25/S26/C18/J18，全部复标签球/导数/94步严格a_-m=a_m，与当前X/H复偶域同轴；全正负mode都计。小σ帽通过同真实long Green另付incoming大宽与非零fB mixed（320/5⁄8/mean1⁄24）；Ra2^-55000000、β94=66624、真实far斜率<2^-5280041760。每步保Γ/Φ及真mean/物理w_B/唯一λ；仍须界面lifting/三径graph源和augmented全入口，非旧94改名。SHA256 83381f93444f8929eda0ec667fdd36e451bb420a4dc63c61e8648d80d731dc4b。
