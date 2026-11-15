@@ -1,0 +1,61 @@
+{
+  "format": "isp-infinity-p200-p486-restored-small-text-only-v1",
+  "rulesReadAtCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+  "noBinaryGitBlobsToPublish": true,
+  "noReleaseAssetsToCreate": true,
+  "allListedFilesAreUTF8Below100KB": true,
+  "files": [
+    {
+      "file": "results/R150-appendix-selected-infinity-exact-dixon-through-p200.md",
+      "blob": "19eabd5a76f9d97ab51a787622018461b83c72ae",
+      "bytes": 4812,
+      "sha256": "5657b02db016b8127b503394355a1e1fa7a7745736cacdc16d324b102167a723"
+    },
+    {
+      "file": "results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md",
+      "blob": "0ae22be6ff146541fa1a7732629dd99517f0a188",
+      "bytes": 7099,
+      "sha256": "b1a431eb7b8376e17f25de8c6de3c1a5fb40cdc385267099eb6586cc7d3256a9"
+    },
+    {
+      "file": "results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md",
+      "blob": "75bffb874c64ed3f54ca1e6bb469df844ba64c57",
+      "bytes": 6645,
+      "sha256": "d4a03ef77aed6776136e342696fdb0c2980800609c402208633f1f90b7668ebd"
+    },
+    {
+      "file": "notes/2026-11-15-r150-selected-infinity-dixon-resume184-runner-789f.py",
+      "blob": "2bce94952e298b38c1c6a2e2179597059a9a80de",
+      "bytes": 20783,
+      "sha256": "557781f04d406af1904b10b0d3415af0737610aabc7b122a6b45c1a9493fdd1e"
+    },
+    {
+      "file": "notes/2026-11-15-r150-selected-infinity-dixon-resume200-runner-789f.py",
+      "blob": "36f5e2f6fdea9d2a91ea892e065b735b0ae0f3e6",
+      "bytes": 20948,
+      "sha256": "c08e6c6f03af78bee56fc19e0b2b104208edeb4a801753affe8423935fa7c618"
+    },
+    {
+      "file": "notes/2026-11-15-r150-selected-infinity-dixon-through512-789f.cpp",
+      "blob": "4b18a704f5c9b0ada02bd36fd8ac154c23a5c01f",
+      "bytes": 19376,
+      "sha256": "535e0a4635924c1eb594224984d9cab99aad90b07137f9acb3acac0f2f5a041a"
+    },
+    {
+      "file": "notes/2026-11-15-r150-selected-infinity-dixon-resume256-runner-789f.py",
+      "blob": "cc5e8089d3628f47c33d7db7fb85c771b382686e",
+      "bytes": 21314,
+      "sha256": "690f9349ce96fc2a02492142a9e734b7c8af02e8a18dae10a2e12ffc2baed70d"
+    }
+  ],
+  "latestActualExponent": 486,
+  "latestExactFull4367RationalKernelCount": 23,
+  "selectedCharacteristicZeroRankBounds": [
+    4318,
+    4331
+  ],
+  "mathematicalSourcesRestoredByteExactly": true,
+  "historicalStorageLabelsNotFuturePolicy": true,
+  "largeDataRegeneration": "Use exact historical source hashes and parameters; keep working data temporary. Do not publish regenerable data to Git or Release.",
+  "obsoleteAssemblerNotNeededForMathematicalReplay": true
+}
