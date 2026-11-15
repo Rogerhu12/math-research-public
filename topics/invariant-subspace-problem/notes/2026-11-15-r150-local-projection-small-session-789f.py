@@ -128,7 +128,9 @@ def publish(rel,summary,message):
   if not any(s in msg for s in ("non-fast-forward","fetch first","[rejected]","failed to update ref","cannot lock ref")):
    raise RuntimeError("push failed for a reason other than non-fast-forward: "+clean(msg[-1500:]))
   pull()
-  compact,raw=compact_summary(summary);target.write_bytes(raw)
+  # A rebase can remove directories excluded by sparse checkout.
+  # Recreate the exact authorized receipt parent before every retry write.
+  compact,raw=compact_summary(summary);target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(raw)
   record_handoff();git("add","--sparse","--",rel,ROOT+"HANDOFF.md")
   git("commit","--amend","--no-edit")
 def bootstrap():

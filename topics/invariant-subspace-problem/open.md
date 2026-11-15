@@ -131,3 +131,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。保同w、同u_Q、完整fut
 $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起、无Q因子。固定finite f逼近w后，完整同串链双线性配对的每个late cut左锚≥7||w||²/16，两端partial全保。下一步须真实估计顺次MP合并算子在此端的作用；交换行预算本身不支配整个负谱。
 
 原T局部读数、G_reg同一Neumann forcing与carry预算、原正常有限秩相容链、Haar普通循环性以及上文/归档所有未闭接口继续，完成标准不变。
+
+[整条真实正交jet旗](results/R271-appendix-complete-orthogonal-jet-flag-preserves-fixed-test-exchange-row-budget.md)支付全部n/r/i交换行平方和≤49||f||²/x，无Q/h/log损失；核心[D,H_i]与D对易，使真旗只升一级、完整酉输运范数≤2。仍须控制顺次MP的非正交返回混合及全部窗口端点。

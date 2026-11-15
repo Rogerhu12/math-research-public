@@ -1,0 +1,77 @@
+{
+  "format": "isp-full-infinity-dual27-minimal-session-request-v1",
+  "rulesReadAtCommit": "3c5dc213e0e986e9fc3bcf548f7f1f0e2c0d1068",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "largeDataPersistenceAllowed": false,
+  "releaseAssetsUsedOrCreated": false,
+  "historicalInputs": [
+    {
+      "key": "model",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "scope": "repo",
+      "file": "native-normal-form-input.txt"
+    },
+    {
+      "key": "forward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "rawBytes": 2378937,
+      "rawSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "scope": "repo",
+      "file": "nf-forward.bin.gz"
+    },
+    {
+      "key": "backward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "rawBytes": 3052119,
+      "rawSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "scope": "repo",
+      "file": "nf-backward.bin.gz"
+    },
+    {
+      "key": "full-operations",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-operations.bin-789f.gz",
+      "bytes": 4706546,
+      "sha256": "bfcc10520abedfab362b91adc6414481660d4a951aae0d7dfd13da3efba4e3ec",
+      "rawBytes": 8548344,
+      "rawSHA256": "d2555a117c9f79db448e8eb183d5420952fe001707f5ca81e20e98705b83a3ad",
+      "scope": "repo",
+      "file": "2026-11-14-r150-infinity-first-jet-operations.bin-789f.gz"
+    },
+    {
+      "key": "full-receipt",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-receipt-789f.json",
+      "bytes": 72072,
+      "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e",
+      "scope": "repo",
+      "file": "2026-11-14-r150-infinity-first-jet-receipt-789f.json"
+    },
+    {
+      "key": "primitive",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+      "rawSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+      "scope": "repo",
+      "file": "original-primitive-integer-equations.json.gz"
+    }
+  ],
+  "maximumIdleSeconds": 2700,
+  "closeSessionWhenStepsComplete": false,
+  "steps": [],
+  "mathematicalProgramStatus": "Six-input bootstrap only; exact new dual27 consumer will be queued after source review. No new Smith values preset."
+}

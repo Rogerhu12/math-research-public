@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "7dfcbc00acf76c39a80d87bc00aef76a6d178b0c",
+  "rulesReadAtCommit": "3c5dc213e0e986e9fc3bcf548f7f1f0e2c0d1068",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -431,6 +431,19 @@
       ],
       "timeoutSeconds": 1880,
       "receiptPath": "{work}/third-missing-four-constant-unit-pipeline/missing-third-constant-unit-pipeline-receipt.json"
+    },
+    {
+      "id": "preserve-actual-receipt-directory-across-rebase",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-preserve-existing-session-receipt-directory-789f.py",
+      "scriptSHA256": "e6a3cd4a2196ce57ab5592c8f70a0c082b283e0e703196c6bd19afc46e8656a3",
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/receipt-directory-preservation-receipt.json"
+      ],
+      "timeoutSeconds": 45,
+      "receiptPath": "{work}/receipt-directory-preservation-receipt.json"
     },
     {
       "id": "koszul-outside-field-smith-first120",

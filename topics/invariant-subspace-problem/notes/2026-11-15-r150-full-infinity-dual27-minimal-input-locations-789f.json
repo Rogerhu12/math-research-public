@@ -1,0 +1,118 @@
+{
+  "format": "isp-full-infinity-dual27-minimal-history-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "assistance": "AI-assisted, GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "persistentLargeDataAllowed": false,
+  "workingFilesTemporaryOnly": true,
+  "restoration": "git show historicalCommit:historicalPath into current job; verify exact stored and raw bytes/SHA before use",
+  "historicalInputs": [
+    {
+      "key": "model",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    {
+      "key": "forward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "rawBytes": 2378937,
+      "rawSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    {
+      "key": "backward",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "rawBytes": 3052119,
+      "rawSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    {
+      "key": "full-operations",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-operations.bin-789f.gz",
+      "bytes": 4706546,
+      "sha256": "bfcc10520abedfab362b91adc6414481660d4a951aae0d7dfd13da3efba4e3ec",
+      "rawBytes": 8548344,
+      "rawSHA256": "d2555a117c9f79db448e8eb183d5420952fe001707f5ca81e20e98705b83a3ad"
+    },
+    {
+      "key": "full-receipt",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-receipt-789f.json",
+      "bytes": 72072,
+      "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e"
+    },
+    {
+      "key": "primitive",
+      "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+      "rawSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+    }
+  ],
+  "smallPaidCutoffSource": {
+    "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+    "bytes": 26242,
+    "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657",
+    "completeSelectedOrder": 243,
+    "completeSelectedMaximumPositiveExponent": 21
+  },
+  "newMathematicsNotExecuted": true,
+  "planned": {
+    "field": 31,
+    "originalOutputs": 4367,
+    "originalSources": 6188,
+    "constantUnitRank": 4340,
+    "dualHeads": 27,
+    "unitPrebasis": 3333,
+    "additionalPaidFullBasis": 1007,
+    "smallSeriesRows": 1848,
+    "smallSeriesColumns": 27,
+    "expectedGenericRank": 14,
+    "expectedFormalKernelRank": 13,
+    "maximumDegreeInclusive": 21,
+    "mathematicalSeconds": 180,
+    "memoryMiB": 1024,
+    "nativeCompileSeconds": 30,
+    "newLargeGaussianEliminations": 0
+  },
+  "unneededLegacyInputs": [
+    "selected985 source DAG",
+    "selected kernel36",
+    "Dixon p-adic sources",
+    "1603 rational Koszul basis",
+    "old full polynomial normal-form output"
+  ],
+  "selected985ComplementPaidFullBasisIndicesZeroBased": [
+    447,
+    448,
+    449,
+    450,
+    451,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    781,
+    788,
+    789,
+    790,
+    791,
+    952,
+    1001,
+    1003,
+    1004,
+    1006
+  ],
+  "complementInterpretation": "These are full1007 DAG-corrected basis directions, not individual original raw witness columns."
+}
