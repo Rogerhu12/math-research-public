@@ -113,3 +113,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:08:17 UTC，B外行差独推 b7661dd0…/22464B，root全读原篇及最终条件化diff，tail/phase窄核mean/Schur/finitejets/real-angle费用。发现并明确基点raw与good输出区别，B25不先占未证的基逆。fresh 9dc01afb868480521a7b8287a9c7d06365890150 两README未变，H/open同步。
 
 2026-11-15 07:09:19 UTC，K两层true-long结论独推 1aaa27fe9c4a5c340e7f573757a27bd963af3793b6e7cc20dce2acac124d671c；tail独核K6–18 Fourier核/one-high/adjoint及常数，phase独核K17–23 source/mean/能量并回读N/S。root全文核并将K21a源与归一读出明确化，physical chiR/高度两导/独立f*src均保。fresh c161c1504d5d84a0e970db39ff3a51889a4a126f 两README未变，H/open同步；无本机数值。
+
+2026-11-15 07:12:35 UTC，真实scalar结论独推188cd247…/11950B；root亲读actual1d619b1a…/8437B与executionfabe59ee…/16120B，全16门/9pins/2AST及原source身份通过。两真pull至07:07:23.486571 e4544af…README空。同步真实失败：Green v2 43681612825/1首group nonfinite exact dyadic slack、child1/0group，process0b2e0815…/39023B；不误计成功、不掩未保存新prefix。前H735b4dfe…/9749B、open41cb6563…/29328B逐字归档后压缩；fresh 6fdaebf4cac4381e8bfb90fe187ef3641dadf361 两README未变。

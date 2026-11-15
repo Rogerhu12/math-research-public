@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual43688459733：真实两列与整片旧圆逆](results/R133-supplement-actual-genuine-common-radial-columns-and-old-circle-inverse.md)：child0/16门、math.004610519999999951s、9pins/2AST，整原2549旧圆h1/20000的H_V gap>.9999880505123，A1/128逆/两角导<1.000382716/.048988522/12.541136604；完整两实列/root shear/双向propagator过门。0旧数值重算、0新data上传；仍不授complex角列norm、正物理Schur或fullhigh。
+
 - [R133 K：真实long外口的两层有限Sobolev tame](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md)：q≤8160、背景q+32≤8192的完整协变Fourier Taylor核给DN/E_B及真adjoint的one-high界Cq(A64·high+Aq·low)，Cq=2^(96q+16384)；真实Poisson保sB εDq，cap读出逐列给δZ/za和|D|²δf/rB。低A64小、高范数仅有限；两mean、unscreened高度跨度及affine源不丢，未授全mixed网络或变化metric列。
 
 - [R133 B：高背景真实外行差及 good-height](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md)：在M8212/H8197背景、S≤8192方向窗，将H0/原source先预合，付完整2^2097152D外行差及offshell运输、两mean与实角费用。明确原G的固定physical good行与raw移动输出基点多出的bR_x不同；B25仅以另证的同基点C_raw为条件。极小球及高窗本身不授实际非线性解。
