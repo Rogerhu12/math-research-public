@@ -1,64 +1,32 @@
 {
-  "request": "ninth-G-last-possible-nonzero-orbit-weight-only",
-  "created_at": "2026-11-15 00:12:55 UTC",
+  "request": "one-complete-h-axis-sharp-action-coefficient-after-G-chain-ended",
+  "created_at": "2026-11-15 00:18:12 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "g_translation_successor"
+    "h_axis_sharp"
   ],
-  "goal": "Only N^9 G and the new complete weight -8 block. Existing N^10 G=0 bound determines the orbit dimension as soon as this target is resolved.",
+  "goal": "One complete two-mode D0 with the original v4 IBP and exactly two missing unreduced N2 contractions; compare against the already published 42-dimensional response-G-J space. G translation chain is finished exactly at quotient dimension nine.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
-    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
+    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
   },
   "jobs": {
-    "g_translation_successor": {
+    "h_axis_sharp": {
+      "development": [
+        "--toy-only",
+        "--output",
+        "@OUT@/h-axis-sharp-development.json"
+      ],
       "research": [
-        "--order",
-        "9",
-        "--previous-report",
-        "topics/visible-flex-new-mechanism/notes/actions-43656638584-1-g_translation_successor/G-eighth-translation.json",
-        "--previous-publication",
-        "topics/visible-flex-new-mechanism/notes/actions-43656638584-1-g_translation_successor/receipt.json",
-        "--previous-run",
-        "43656638584",
-        "--previous-commit",
-        "6d02617d127fc9c6d3fbbd7d3458281603f16b52",
-        "--previous-lane",
-        "g_translation_successor",
-        "--previous-report-sha256",
-        "86e032bb35f19c429d9f46217623fc972ff7fc4cf8071b82624da219c2f4bf55",
-        "--previous-publication-sha256",
-        "3e383001b2a63fc462cae22980a28937244e953220dffc13802007c15c679e68",
-        "--previous-driver-filename",
-        "literature_G_translation_successor.py",
-        "--previous-driver-sha256",
-        "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
-        "--previous-report-bytes",
-        "19980",
-        "--previous-publication-bytes",
-        "35431",
-        "--previous-driver-bytes",
-        "39670",
-        "--previous-target-minus-four-sha256",
-        "1e0bc8e1d5e16c5b8da865563c6fde3d60bb5702f8a693590b9d3c22a7e4b792",
-        "--previous-target-minus-two-sha256",
-        "eeb1d70da81a2a498e8bb6cc6bccbc8f4143e16a290889660b1757a13ca47df6",
         "--max-seconds",
-        "240",
+        "180",
         "--memory-mib",
         "1024",
         "--output",
-        "@OUT@/G-ninth-translation.json"
-      ],
-      "completed_development": {
-        "report": "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor/G-translation-successor-development.json",
-        "sha256": "10a1fd8184d8fc89c6bd521545bc27ca07b61a2496cd1ae88b7c0d9b3e5aba7a",
-        "run": "43653293263",
-        "source": "2f0add61f44365d713abf836beaa8b0be2806a3d",
-        "driver_sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
-        "all_19_artificial_checks_already_passed": true,
-        "same_source_development_not_repeated_under_root_rule_12": true
-      }
+        "@OUT@/h-axis-sharp.json"
+      ]
     }
   },
   "other_active_research_runs_at_dispatch": [],

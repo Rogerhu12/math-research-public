@@ -305,3 +305,5 @@
 - [R146：五族完整商协变与80起始条目](results/R146-acceleration-family-quotient-covariance-and-eighty-seeds.md) — 任意商泛函经真实端口补偿、八矩乘子及时长权分离，得到H^e[F(S_Hd)]=P[F(S)]于U/R，故ω_j=N^jω0/j!。已发表五族314条目化为80个ω0起始条目（每族16），只成员问题缩减、不宣称80维或有符号控制；下一仍只J。
 
 - [R147：第八次G平移分离与237个真实共同查询](results/R147-eighth-G-translation-and-237-query-control.md) — 真权−7的8完整原列经1原依赖成7维，原7/8有理子式证明N⁸G非成员，9≤s≤10。同一pure核总197，R8≥228、A_G/lineality/共同查询≥237，R136的J只使U≥238。4.910s/RSS125.082；下一仅N⁹G，N10G=0上界已经证明。
+
+- [R149：第九次G平移成员，商轨道恰九维](results/R149-ninth-G-membership-and-exact-nine-dimensional-orbit-quotient.md) — actual43657083833/source daf7ef2原两mode共同证明N⁹G=−5670B_r0(W19)，W19为v2原索引19；结合此前九个不同真权非成员，dim(A_G/R8)=9恰好。G链结束，不派N10。新块2列仅上界，不滥加R维数；保至少237已付共同查询，J仍外于整个A_G。立即接完整D0、一般pure J和几何阶梯。
