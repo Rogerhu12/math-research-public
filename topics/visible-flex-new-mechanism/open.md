@@ -130,6 +130,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)真实联合支付多宽度圆的三矩/全third/六能量/全A−2,−3及36 odd；锐S/C比值与真实实现分开。它的特定排序被[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)真实Q<0排除。[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)用每外包TM3伴随方向保所有diagonal输出/交叉三矩，把imaginary primitive平台局限在外包内；固定大间距后重新联解原准确IFT得Q>0。在两个最终不交位置分别完成全部条件，再正幅四次混合，准确Q0且保全部先前门。**下一用同一真实母包联调其余even向量/完整面积，再接全部period/同w；新增仅一条even线性组合，不据30−1称rank29。** 新seed另冻结目标，大有限复制仍只作存在证明。
 
+[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已从原[P,p0]/[P,s1]完整self三外矩及非紧Green端项，将A−1,−3所有even归为同母Fκ=Kκ/C−ν=0。中央真实幅γ/宽s使(H,Fκ)在h0处Jac=−16L⁴/3，固定正h后主α/γ/s三变量IFT同时付六能量/整个新面积；同源伴随与Q正负余量、最终正幅混合均保持。现已付两个整面积及一条剩even组合；余24表项不是rank，仍有居中另一even限制。**下一改变真实高低次序并重付三矩/IFT/完整包装，再联调剩外矩，不把局部shape或Q标量当full ruling。**
+
 ## O1：双圆领相位机制，保留备选
 
 本题没有δE正下限。同轴双圆领可先行；若非轴对称环带与两端开圆领相接且度量旋转不变，相位可固定材料握持区而改变整像，允许如实δE=0。偏心/非平行端口另有完整端口门；帽材料刚体位移不是整体Hausdorff下界。R17只处理旋转参考的m≥2线性端口，m=1或非旋转参考须自己的完整方程。
