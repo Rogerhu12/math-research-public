@@ -74,3 +74,5 @@
 
 
 - [R827](../results/R827-original-angular-balance-and-complete-profile-threshold.md)：R827付原全nef精确平方差κ=47b²/12+2bτ−Σ_Nm_i²/n_i−V及0≤B∞C−e≤√(47V/12)，全r2实际τ≤13/4；满自交临界强制十九重数/ u / e的唯一主比。完整整数来源交数B_D.C≤D(B∞C)+35b/6，故p>47b²+156b+38付全部r2 profile（含移动H和+1例外）的真实一维核/下一单位行；唯一Δ/p仍未知，不代全M。
+
+- [R826](../results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md)：R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
