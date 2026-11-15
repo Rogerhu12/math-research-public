@@ -8,19 +8,9 @@
 
 唯一已接受起点是 M96/N1024、scalar .99 的开放大核；材料三分量误差5.77368e−7不是全相对度量operator证书。后续 .996/.9975超限、.997875失败均已存。当前 M112/T112/N2048、699节点、453状态（338physical、112core、3p）、236036自由坐标，原scalar/控制/core与全部physical/constant行保持。原T112零H的完整J及audit已完成；七件身份完全相同且exact H=0首请求可复用，当前非零H及最终audit必须真worker，不能归零或拿T96代T112。
 
-### 1A. 前缀：实际84接受1/4；86同25重新线性化
+### 1A. 已完成前缀历史
 
-[实际84完整结论](notes/2026-11-15-actual-request84-twenty-five-query-quarter-step.md)、[三档原试步读数](notes/2026-11-15-actual84-original-readout.json)、[17关系/64源身份](notes/2026-11-15-actual84-primary-identity-readback.json)已保存。run43666177645/source39799fc1/job132665958586接受1/4，同轮固定W merit43.56581593085674→43.48929991208616，ratio.9876503855457118。全部原node/mid、uniform-angle guard、两组698点原RMS通过；physicalmax.007108203814352419/BC1.3149281045422406e-8，新的完整affine物理边界FD四阶9.901031794093097e-10。success/new coupled acceptance仍false；FD不冒当前H非线性尾已解。
-
-最近1/2在原MID479/486/487失域，同时只读25查询中已有LEFT465失域；原完整RMS和merit未执行，其余24selected正。51200线性reserve全正不保证有限步真实域。不能把多个已建模/未建模的失败归为单一漏MID487；[86已发布接口](notes/2026-11-15-request86-same-twenty-five-query-relinearization.md)及workflow893ca5c1/request95bb7549先从真实84新pair保持同25、55冻结源/λ270/512working/200sweeps/17trial与全部原预算/门，重新建一个实际模型，不自动添第26查询。最坏physical row155819/interval461仍在完整A/fullH，当前权重199.03226329104072非零；旧跨模型W不可相减。QP512预算stop与−1.37e-13原slack、1.76e-12浮点gap不冒已证主障碍或严格最优。
-
-新warm4880394B/fead4e7b8c1c78b62c8adef0d122a09ea12e7e3a94b0586ba2e59a63c3b429af；原decoded status2620898B/8ad4ae64ccf4a84106a22db9f60c3abedfe4efae67d467b59aa6c06480b9bbde，公开gzip305169B/bbd61744b2457b40654573460fbd25433f406f3a41d79bbae4fd3f56e5a65d38。25查询17LEFT+8MID/51200行、nodes465..486+p/7439支持、zero[]，C4059及fulloutside包括465，完整H/原FD保持。
-
-[84完整byte附记](notes/2026-11-15-actual84-completed-reader-and-primary-identity-addendum.md)、[123项衔接回执](notes/2026-11-15-actual84-completed-reader-primary-byte-crosswalk.json)及[原完整审计无损gzip](notes/2026-11-15-actual84-complete-original-byte-audit.json.gz)已保存：reader43668049680/source7181完整读取原670263923B/fb8d56c1，398原文件1021335590B；224domain/1454阵、108condensed/38完整阵42refs、14raw454456080B、11collocation/8mid全部已付。原17primary关系/64源全保，新增十observer源恰成74；没有R276调用，未导出chainQR仍不冒file-byte审计。原84 quarter-step科学不变，86同25继续；79/76/74已付不重跑。
-
-[实际86完整结论](notes/2026-11-15-actual-request86-same-twenty-five-query-mid479-limit.md)、[完整原读数](notes/2026-11-15-actual86-original-readout.json.gz)、[17关系/64源身份](notes/2026-11-15-actual86-primary-identity-readback.json)已保存：run43668743515/source8d199eda/job132673870743全success，同25查询重建模型后接受1/16，同W merit43.48685863012245→43.46927199458273。最近1/8仅原MID479失域，beta²=-.07269811719200936，而25selected全正；原完整RMS与merit未到。另更大步各有不同mid/selected失败，不能推失败集合单调。接受步全部原node/mid/uniform/two698RMS通过，col.007108126495669972/BC1.2327443292297831e-8/原FD四阶7.06625124394275e-10；native/fullBVP仍false。最坏physical row155819仍在fullA/H，QP512stop和浮点gap不冒严格最优。
-
-[86完整byte附记](notes/2026-11-15-actual86-completed-reader-byte-audit-appendix.md)已保存：17关系、64原FD源→74完整源、18小原件和371描述器对应全核；Actions完整224domain/1454NPY、108condensed/38full/42refs、14raw454456080B、13observer/8mid已付，未导出QR仍非payload、无R276调用。89只补MID479的真实新轮和正式原读数已完成，见1F；不重复86科学或运输。
+84、86的科学原件和完整导出字节均已支付；89正式和完整byte-reader已完成，94真实结果见1I。此前本文件完整逐字保存在[截至97检查点](open-checkpoint-through-request97-2026-11-15.md)，含全部84/86读数、原17关系、完整source/array范围与链接；不重复旧科学、下载或factor缺件审计。最新真实父为94的warm292732a8和decodedstatus8b65e2f9。
 
 ### 1B. Native73原平台已归因；95一词候选占原首correction
 
@@ -123,3 +113,9 @@ root全文22096B结论、八文件SHA、29原件、72真实dispatch源、15inner
 [94完整结论](notes/2026-11-15-actual-request94-twenty-eight-query-eighth-step.md)、[全部原读数](notes/2026-11-15-actual94-original-readout.json.gz)、[B/C/H原支持](notes/2026-11-15-actual94-original-B-C-H-support-readout.json.gz)和17关系/69实际dispatch来源已保存。run43674854261/sourceb75f/job132692676503全success；实际B/H8115、C4059，四试步后接受1/8，同W merit43.45995557126006→43.42759299648642；col.007107934489485174/BC1.0449450756812296e-8/原FD四阶9.6173575870726e-10。原success/native/BVP/closed仍false，原RMS仅域通过不冒1e-6残差通过。root全文29911B/全部reader变更、原完整source与输出逐byte重放、19725JSON节点3543floatwords均核；未下载746MB完整科学artifact，不冒NPZ/factor payload已审。
 
 最近1/4仅未选MID486失域，merit/RMS未执行；另1/2全部node/mid/28selected有效且merit43.344792966854236真下降，原LEFT RMS464/486失败。这是非单调实际域记录。98决定同时加LEFT464、LEFT486、MID486为31查询，唯一新增节点464，完整B/H8453与原C4059完整outside都fresh形成；不加29/30中间轮、不改λ270/512working/200sweeps/17trial或原预算/门。四独立源与共享接线由geometry准备，未预填成功。
+
+### 1J. 实际96八全步完整证据已保存；99独立入口试较小η
+
+[96完整结论](notes/2026-11-15-actual96-inexact-p3-eight-full-step-acceptances.md)、[全部原读数](notes/2026-11-15-actual96-literal-readout.json.gz)、[2824项原字节审计](notes/2026-11-15-actual96-byte-audit.json.gz)及完整status/352events/8inner原文本已保存。root完整18563B正文、八SHA、21原件、72实际c43源码与已付97主控回执、8inner原数值tokens、55254JSON节点53206浮点词均核；四数学输入沿92完整payload，不冒本轮重读。八次首alpha1接受，2inner达原阈值、6未达仍由原full3 Armijo接受；最终unit/full112/native仍false。原末η.1模型弱残差retention .9923973591696935只说明当次局部滤波，不证明新η效果。
+
+97实际43676647334又接受八个首alpha1，merit16791.96200276451→15400.321596660777，末unit[-175.4927978505483,1.7091213848475404,-5.313809937131531e-8]；全部最终门仍false。末方向基点的原弱retention .9956458018520519说明下降变慢的局部模型机制。99决定从真末p试η.01；源核发现ce93 main硬锁η=.1，故必须独立新basename/schema和诚实新闭包，不能只改CLI或改写旧源。原Schur/inner/full3 merit/gdot/.2Armijo、8x20/12x20及全部final实现保持。新效果只由Actions实际输出决定。
