@@ -146,11 +146,13 @@ R343全RS self/方差、真实双排序与普通/伴随给B1/B2四目标正核�
 仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。[R351](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)新增完整D1=Qf(g)+μ0gμ2g/4：Q的三个系数显式用原Pf/Yf，IBP只紧outer g，全尾保。Af0幂段Pf二次令V0=0；右向主系数有严格负平方分解；左向必须保Yu″(β−)=−225A²β4/64，真势常数73/12严格正，实际C∞截尾误差Oε²保号，有限频率g给两个真实rank-two弱核心。它们尚未三矩配平，不是完成旧门的正corrector。R347负向可用R349十目标正核保12矩延伸；正方向仍须原R263 partial-block Γ、补矩与旧门完整入账。root续这项完整配平/当前三中心依赖；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
 
 
-### R344/R350：全响应与原U加速度平方总通量因子化，续其它真实成本层
+### R344/R350/R352：自然全U总通量读出，续其它真实成本层
 
-[R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)原多项式输入保左尾，逐槽8Γ=q_J/三阶真Green h_J=3C；三个真正右bump矩反演μu，Ω=16Lπ/5+(32/15)Σc∫u‴Γπ对全R成立，含原全Z而非只R71，不假奇权pure秩。Λ在全U可定义并消整个R；U−6借R207像相等aux无关，未授U全体aux无关/非零。R335反例尾由交叉项准确恢复。[R342](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286只是预定C7族精确零，不重换族/旧根/旧秩。
+[R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)原有序8Γ=q_J/真Green h_J=3C及三个实际右bump矩基给全R（含全Z）Ω=16Lπ/5+(32/15)Σc∫u‴Γπ，不删R335真尾。[R342](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286只是声明C7族精确零，不重换族/旧根/旧秩。
 
-[R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)新证Λ在原R134三个Abar_hh/hk/kk的全部状态值及有限独立系数跨度为0。原R56二阶真实右锚a′=Qlu‴/(8h³)、第三accel系数及rawpure qq″伙伴β=(Qlj−t k1)/(8h5)全保；正规化A−β给ΩΠ=5Ωself+2a_Lj_L/h²。完整有序2+2系数的三个积分各贡献−1，总−3a_L(v)j_L(u)/h²，a_L恰原三矩线性式，所以原R344读出准确抵消尾，非删尾16/5。三Abar的实际U成员由原R134/R130支付，不假任意geometry monomial可达。下一原H1/H2、静态、速度二次/四次全式（保N0/N2势响应），不扩三层结论至U或商零。R345部分Af flux仍别于整包Ω；全period/同规范未付。
+[R352](results/R352-ordered-three-moment-tail-map-and-natural-total-flux-quotient.md)现从原canonical完整第二尾支付整个U的辅助独立性：p_n=[(1+d²)n0+2hdn1+h²n2]/8h，W_n是真∫(K0p−λp_s)，原尾分子各仿射。rawpure2+2恰−2K(Zu,Tn)−4K(Yu,RangeH(Yu,Tn))，故Γ对右包只通过三矩线性进入，整个输出而非仅积分成立。任意真实有序矩匹配方案给同一G_V,u(μu)，且G只依赖πV；自然Λ在U/R上定义、五次profile并满足N协变。真左尾/全部s-history/可能αβ³period项均未删，不宣全U类零或非零。
+
+[R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)已付原R134三个Abar_hh/hk/kk所有状态值及实际跨度Λ0：原a′、第三accel及qq″正规化β全保，ΩΠ=5Ωself+2a_Lj_L/h²，真实有序2+2收缩−3a_L(v)j_L(u)/h²、a_L原三矩线性，所以尾准确抵消。下一H1/H2、静态、速度二/四次全normal密度（含N0/N2响应），利用R352同一明确读出逐层算值；任意形式模板未证属于U前不冒可调真实成本。逐包平台、更多Af、整period与13同规范仍欠。
 
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period

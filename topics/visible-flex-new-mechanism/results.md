@@ -390,3 +390,7 @@ C1全权−2与旧B1/B2/C0的−5/−4/−3三角分离，四新列H2幅与旧�
 [R351完整恒等与光滑构造](results/R351-complete-quadratic-form-and-two-genuine-weak-core-signs-for-the-first-PY-moment.md)对任意真实紧f/g得D1=Qf(g)+μ0gμ2g/4。P槽为1/2∫(b″−xb‴)g″²，Y槽的V2/V1/V0全式通过只紧outer的IBP给出，a=Pf/b=Yf真实常/二次左尾完整保。纯自项负1/4的规范准确，非rank-one微包替代wholeweak。
 
 Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再减原正尾，有限频率/小幅给D1负。朝左理想C²右端须保Yu″(β−)=−225A²β4/64，得到常数73/12的严格正势；用真实C∞ cutoff使两个尾误差Oε²且核心幂段不变，再选有限频率给D1正。两者弱hook0且导数rank-two真，不是已排强圆。尚未同时配三矩/十二旧外矩，故只构成真实正核心入口，不能冒当前完整残差正或新门已付。原R263有序Γ仍须带入全补矩。R347负模块论证可用R349十目标正核保持12旧矩，成本仍H−3。无新执行，完成即推。
+
+## R352：整个原U的有序三矩尾映射与自然总通量商类
+
+[完整证明](results/R352-ordered-three-moment-tail-map-and-natural-total-flux-quotient.md)，2026-11-15，13672B/SHA256 98a3d30c844e5fcc90d288e5de00c004c81bf593e1b19536bae224b9d9216272。原R56同锚第二场的左尾由真实三矩及完整s-history线性决定；对左u/右w，rawpure2+2=−2K(Zu,T_μw)−4K(Yu,RangeH(Yu,T_μw))，Γ的1/8、1/4规范全保。三实际bump矩基证明该尾映射在原U中独立于路径表示，只依赖πV。R344所有辅助方案于是给同一完整函数，Λ_u成为自然(U/R)*五次profile读出，且Λ_u(NV)=−D_uΛ_u(V)[u′]。未删二阶/三阶左尾或其它αβ³period项；不是全U零/非零值判定。R350三加速度平方Λ0保持，继续H1/H2/其它normal及真实period/joint。不执行新科学或重复旧计算。
