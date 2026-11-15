@@ -482,3 +482,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 原十二LP内primary/SOC配额：设计与三源已完成，尚未运行
 
 [设计](notes/twelve-LP-primary-SOC-pair-reservation-design-20261115.md)，17590B/SHA256 9151aa68efd72b24b3ef80445a4aba4a185bfb53b5dd49f28449e668385b5407。准确当前best43753280651的22bank/两池/159接续；r≥5/4/3/2给primary3/2/1/1，r≤1不启动新primary，保SOC机会但不保证eligibility/成功且可能未用1 LP。仅cfg副本的局部绝对ceiling，原total12/40values/120active/单LP10s/真实门/RHS/原半径全保；frozen完整修rho/incumbent/后加cuts/tie不变。same-layout改接已付before-call收费入口，所有真实数值数组不变。3新源码分别11361/43551/17615B；root全文核core/dev/显式outer对原完整差异及原solve_remembered_primary/solve_rebound_correction。4新组仅源码，未称通过；随后接5源绑定和单次新公开科学，不回历史较差m10/不重复旧阶段。
+
+## R372：完整ZZ0角商与同一有限频率九行控制
+
+[R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md](results/R372-complete-ZZ-zero-angular-quotient-and-nine-target-finite-frequency-control.md)。合法整个q的真紧Zq²允许原FZ0变分，完整KZZ0含A2；保primitive边项后由PY0/PZ2/ZW1三已付面积和T=0得ReJ=ReK=0，五积分沿(8,5,2,4,−4)，整个角商0。原四χ/真实偏移的新行余−9ed(d+4e)V/(d+6e)≠0，2高/4二次/3常满9；48实际列有严格正核，有限N完整C1根同时保持旧P²/PW/PZ/PY/ZW、18面积/T/Ψ/三行并付ZZ0全角。只ZZ0；ZZ2及其它七反射允许位置仍欠。根全文审与tail独核三关键块通过；补明full面积I、diagonal2I规范。新证明未运行程序。

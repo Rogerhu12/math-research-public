@@ -202,3 +202,7 @@
 ## 2026-11-15 20:32:33 UTC — SOC-pair reservation 单次请求
 
 request-soc-pair-reservation.json：33631B，SHA256 4ac9b699a252931fe29a209b17ba579055a9ad401d0af88a5b95a65b4caf02fb，134绑定。源run43753280651/job132931742484/source52a48854e30ddc3d2351ec24274dbe222ef05d9a；当前bestη.26632415509189855、22bank、4419/4277、B1/8000、streak0。独立push仅触发一次新四组及一次continuation，原12/40/120/10不改；公开/私有actual pull及规则差异先于科学，若差异则停在核规则后按新规恢复。未执行结果不能称passed；等待原run/job消费，不重旧检查或回放旧优化。
+
+## 2026-11-15 20:33:15 UTC — R372 完整ZZ0角商和九行联合有限支付
+
+根全文审核未挂blobc1658041…，tail独核原R275四表合并、五self系数/primitive和新principal二次项；根加入full area=I、diagonal=2I澄清。17642B，SHA256 7a69f9d6ffab5a6427df04a3978da6c26c325c1d03abbfaef479a9b58535d300。得到同一最终弱圆的ZZ0全角真零，旧五乘积/18面积/T/Ψ/三行保持；余8位置与其它history/period仍未付。纸证，无新符号/求积/人工/研究执行；完成即普通提交推送。
