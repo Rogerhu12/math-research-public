@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [强层衰减与实际齐次深尾的物理C²延拓](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)：w=δ^-64与完整有序源G给全root状态W_-2H8<2^1600000G；mean真实向外因果和双PoissonF³保留。实际root/strict/positive二jet≤2^131072J12δ^-32，根状态δ54合为物理δ22，原ρ/ε_s及高度gauge全保。此结论限齐次深尾；无限深源particular jets、参数源域与非线性仍待支付。
+
 - [相关完整local Airy分子与Taylor尾](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)：准确保D=−∂ρ−d∂φ及μ=Q²B+，Nraw0..10各Fourier signed项先合并；同旧复product给全部n≥11的正U/V尾、角Leibniz及独立sup/Wiener费用，mean与两ε branch全保。解析合同已证；新数值改善须公开Actions实际门，未授完整nonlocal/strong-return。
 
 - [完整7908帽伴随Gram覆盖合同](notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-contract.md)：原四格实际结果及同一257×97 Hermite提案逐字复用，32互斥范围仅补7904新格；保九类97 signed covariance、独立mean、完整Hessian/无限尾与真实9/10到25/8径向链。五件/341pin已接公开Actions，尚无全覆盖actual，不转授边界/high或无限BVP。

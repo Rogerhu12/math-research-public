@@ -205,3 +205,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:00:20 UTC — 相关完整local Airy分子和高阶尾合同
 
 读main 20ecf0d35a3f6f43a00393cc6bc4b7b5de1cfbed，两README不变。root全文核N.1–N.12及式N.1–N.17，blob0ecfdae7…14646B/SHA68ad0339…；逐项核D²−T0D展开、signed K及μ、ε反对称、degree10只需w1到12、乘积Cauchy hockey-stick因子、正U/V尾、角Leibniz和S0..4。有限项先signed相加，完整旧R1/6000/Σ1/128和复δ1e−8尾不删；条带sup与Wiener明确分付。只读既有26stage的新数值consumer由phase继续，未预设改善，不重算原280stage，不转授完整nine-word或物理seam/strong-return。
+
+### 2026-11-15 02:01:35 UTC — 强层衰减及实际齐次深尾物理C²独立结论
+
+读main 4467022cbf2089f6554073230ef31cb6b3c0f579，两README不变。root全文核D1–30（原21626B/SHA9bff80b6…），另核原strict S9/10/17/33–36、完整positive C2–28与root真实源文；只将状态行改为准确已证范围。w=δ^-64，remaining频率换层余939/32，mean向外核W_-1←W1留下δ_j^6·2^-64(k−j)，全有序Schur差保两PoissonF³和U三段N。完整G源的全root强状态已付；三段无源物理二jet严格负段最坏87/4<22，统一δ^-32，层状态δ54最终δ22。保实际ρ/ε_s、共同高度gauge、相邻胞和所有mean/high/deep；一般无限深ordinary/weak/BV的particular二jet不在齐次结论内，代理继续，无新增数值数学。

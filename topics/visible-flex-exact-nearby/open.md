@@ -60,7 +60,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 [U完整1024角窗](results/R119-supplement-complete-1024-angular-Sobolev-network-and-physical-cap-Schur.md)重新付B*=2^65536、真实commutator与全lag，Tsharp=max(2^1048704J²δ^-9,2^1056768)、vsharp=2^-600000J^-4165δ^(1073/32)。同公共点从旧full inverse准确恢复新增remaining频带，mixed差<2^-4300000、全mean强source逆<2，物理η0δ0帽反馈<2^-31000000。
 
-U仅是有限Sobolev窗，既非原ℓ1_224解析标签逆，也非平端C²。tail正在以remaining频率下限把角衰减转层衰减，逐片付真实root/strict/positive物理单位及mean向外因果Green，保high/deep/全部source。一般体源或BV原子不能只靠endpoint荷得到C²，非紧参数/Γ列也须自己的particular jet门。
+[D强层衰减与物理平端C²](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)已证：w=δ^-64，remaining H1024→H9给δ939/32，actual mean向外因果Green与完整双PoissonF³保留；完整有序D.3源域的所有root状态W_-2H8<2^1600000G。齐次深尾按真实root/strict/positive三段支付物理二jet<2^131072J12δ^-32，连层δ54得δ22且保ρ/ε_s，故真实平端C²延拓成立。一般无限深体源、weak/BV原子仍须胞内particular二jet；非紧参数/Γ列必须逐项入源域并支付这些真实jets。tail续付此项，不能仅从endpoint荷冒称C²。U/D都未授原ℓ1_224解析标签逆。
 
 root另做moving/all4Z residual-sensitive Hessian的负Sobolev转移；真正角规范与rotation/两个mean有限行保持，尚未当作已证。固定η0δ0与全δ转授分开。
 
