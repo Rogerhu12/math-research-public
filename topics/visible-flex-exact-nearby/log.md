@@ -115,3 +115,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:09:19 UTC，K两层true-long结论独推 1aaa27fe9c4a5c340e7f573757a27bd963af3793b6e7cc20dce2acac124d671c；tail独核K6–18 Fourier核/one-high/adjoint及常数，phase独核K17–23 source/mean/能量并回读N/S。root全文核并将K21a源与归一读出明确化，physical chiR/高度两导/独立f*src均保。fresh c161c1504d5d84a0e970db39ff3a51889a4a126f 两README未变，H/open同步；无本机数值。
 
 2026-11-15 07:12:35 UTC，真实scalar结论独推188cd247…/11950B；root亲读actual1d619b1a…/8437B与executionfabe59ee…/16120B，全16门/9pins/2AST及原source身份通过。两真pull至07:07:23.486571 e4544af…README空。同步真实失败：Green v2 43681612825/1首group nonfinite exact dyadic slack、child1/0group，process0b2e0815…/39023B；不误计成功、不掩未保存新prefix。前H735b4dfe…/9749B、open41cb6563…/29328B逐字归档后压缩；fresh 6fdaebf4cac4381e8bfb90fe187ef3641dadf361 两README未变。
+
+2026-11-15 07:13:13 UTC，R基点raw运输独推 2a38367a2ce2515cea4fa080067580493bf0efc1e92cafe00fee16c286435423；root全文/原O、W、T、Q与23649B实际summary769204e8…核，phase和tail独核R10–20 full4Z weighted projection/两测度/mean0/B-only/source符号。新增反馈<1/16，总<7/16，新raw高逆2^4194304，旧G/有限193算子身份不改。出版只修R14a显示公式，不改数学。fresh 6f924f5251d617fd09721784d3e3c0fcaba8ef0f 两README未变，H/open现按已付基点继续全附近组合。

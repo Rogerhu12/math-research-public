@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 R：基点真实残差运输与完整raw帽逆](results/R133-supplement-base-off-shell-outer-transport-and-raw-cap-inverse.md)：同known Qδ/实际long背景处，完整weighted投影和B-only lift使raw新列反馈<24·41·2^-14<1/16；原主体/outer与之同方程相加<7/16。新known analytic列2^80加入原Q signed-lag，全−3/2..8212源gain仍<2^4194304。准确区分旧good G与新raw G，两个mean/相位荷/全频source保；B25基点条件已闭，实际非线性中心仍未授。
+
 - [R133 actual43688459733：真实两列与整片旧圆逆](results/R133-supplement-actual-genuine-common-radial-columns-and-old-circle-inverse.md)：child0/16门、math.004610519999999951s、9pins/2AST，整原2549旧圆h1/20000的H_V gap>.9999880505123，A1/128逆/两角导<1.000382716/.048988522/12.541136604；完整两实列/root shear/双向propagator过门。0旧数值重算、0新data上传；仍不授complex角列norm、正物理Schur或fullhigh。
 
 - [R133 K：真实long外口的两层有限Sobolev tame](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md)：q≤8160、背景q+32≤8192的完整协变Fourier Taylor核给DN/E_B及真adjoint的one-high界Cq(A64·high+Aq·low)，Cq=2^(96q+16384)；真实Poisson保sB εDq，cap读出逐列给δZ/za和|D|²δf/rB。低A64小、高范数仅有限；两mean、unscreened高度跨度及affine源不丢，未授全mixed网络或变化metric列。

@@ -116,7 +116,7 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [J完整long](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 和[E4480窗](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 已保zero-width真实图、C_R反馈、DN/Poisson/E_B全mean/伴随及有限jets；[K两层tame](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md) 进一步分开低A64小和高Aq/Dq有限，q≤8160/背景q+32≤8192、Cq=2^(96q+16384)。Poisson保sB ε，K21a明确原curvature/height两导，cap两mean及aw(L)/165高度跨度不screen。固定metric参数之外的Γ/ν/长度列仍独立。
 
-[B真实外行差](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 已保H0/source预合、good/raw两mean与2^2097152D；背景M8212/H8197、方向S≤8192。B25显式依赖同源raw基点逆，不能将旧fixedphysical good G改名顶替。必须与主体、独立height背景和全部荷同时组合；即使成立也不授实际中心入球。
+[B真实外行差](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 已保H0/source预合、good/raw两mean与2^2097152D；背景M8212/H8197、方向S≤8192。[R基点raw补证](results/R133-supplement-base-off-shell-outer-transport-and-raw-cap-inverse.md) 现以准确B-only/全4Z weighted projection付新增transport<1/16，与原3/8同方程相加<7/16；known analytic新列并入Q高窗，Craw<2^4194304，B25的基点条件已付。仍须与主体、独立height背景和全部荷组合；局部极小球不证明实际中心入球。
 
 尾部[C受控径向域](results/R119-supplement-off-shell-controlled-radial-jets-and-exact-holonomy-retraction.md) 保R_s=B_(s+4)+N^[3]_(s+4)、δ16/根三导δ13和全Π_A mean；[B第二参数gap](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md) 保fixed γ2/fulln及Ct4域。[I完整proxy逆](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md)、[T4384窗](results/R119-supplement-4384-angular-window-1730-loss-and-finite-tame-budgets.md) 保同T#/v#/全部ordinary、weak、jump、mean、高度、外源。T给s≤2656真实loss1730、余反馈<2^-190000；Y2656不自动返H8196/三径jets4420。
 
@@ -146,7 +146,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 
 ### 高背景真 outer 的差已付，raw 基点必须独立补齐
 
-[B1–25](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 给M8212/H8197背景上的方向S≤8192外行差2^2097152D；完整H0/原source预合，真实phase、good-height、两mean与raw offshell运输均保。原Gδ对应固定physical good行，raw输出另有基点b_H Rδ,x；B25显式写C_raw，未暗中认原逆已有该列。紧接用原实际long背景付该known analytic运输列的低反馈和Q高窗，再与帽主体/独立高度背景/全部荷组合；极小球的actual residual入球仍独立。
+[B1–25](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 给M8212/H8197背景上的方向S≤8192外行差2^2097152D；完整H0/原source预合，真实phase、good-height、两mean与raw offshell运输均保。原Gδ对应固定physical good行，raw输出另有基点b_H Rδ,x；B25显式写C_raw，未暗中认原逆已有该列。R补证已用原实际long背景付该known analytic运输列：新增<1/16、总<7/16，原Q高窗给新raw逆<2^4194304。紧接与帽主体/独立高度背景/全部荷组合；极小球的actual residual入球仍独立。
 
 ### long 外口已取得真实两层 tame
 
