@@ -513,3 +513,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R800**：[原J/E同观察消元、零W缺陷与第三中央](results/R800-original-je-elimination-and-zero-w-third-central-defect.md)。原W四格准确外积分解；真实Ψ=(1_E−λN)qB有零W边际、第一态零Y边际却非零Z/Y，第二态完整PU行准确−49λ2N U/(3cB)。第四块逆Y/W深补回同Ψ实际移动观察，216 CM源/全部质量仍保；不重复计同W表为独立中央零。
 
 - **R803**：[原零常数charge三次r2强窗的全素数排除](results/R803-original-zero-constant-cubic-all-prime-exclusion-and-full-r2-window.md)。56个真实profile的两最大子式共同坏素数≤283、最高行33，付全部p>407；十九角κ≤17准确21类，四剩余p的40类/36完整矩阵全不解。证明只用同p/h及强窗，故覆盖ell1/2；合R799，原r2全q的b3强窗不存在，变动b和同R仍开。
+
+- **R801**：[原E深实际非零二阶来源与完整负二行](results/R801-original-nonzero-second-e-source-and-complete-negative-two-row.md)。同q/58行/全E逆读取四辅助点，六θ系数非零；固定CM密度引理付旧ray两η/全N六坐标unit、真实Yunit正四×Z²矩unit。型四三维X³+ω给K上循环性，真实σ(2z)²σ(z)^26因子和JE二阶分割保；指定负二仍三值组合，ζ伴随项及完整W浅补不删。

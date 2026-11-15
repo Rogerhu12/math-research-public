@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：2f057b3c1ce9e3264ccf485db145119a9d532e6a；2026-11-15 17:27:46 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:27:45 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
+- 最近已读规则提交：224b0fcbd858c67ee907c2fc529cc6ebcd6bdb9c；2026-11-15 17:30:33 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 17:30:32 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 
@@ -12,17 +12,16 @@
 
 ## 检查点、完整归档和分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r803.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–800、802–803已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
-root唯一metadata/ref写者。root续更高b/原指定配对；deep续变动b目标p接触与原normal；theta续R801实际二阶；literature续R804零W缺陷的完整CM余域。
+[压缩前全文](notes/2026-11-15-frontier-before-r801.md)沿归档链保全部来源、十九角、常数、射线、坏集、run/hash与未闭接口。[完整open归档](notes/2026-11-15-open-before-r782.md)保旧主列表。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–803已登记；R364/R561/R654/R712及主目标仍开；旧未发表R235/R237已重做。
+root唯一metadata/ref写者。root续更高b/原指定配对；deep续变动b目标p接触与原normal；theta续原负二算术连接/临界权；literature续R804零W缺陷的完整CM余域。
 固定E17及j0 E17/E24/E2312秩2已付；尚缺无穷不同p至少一条固定原J′非零。条件负矩、邻近来源、外部非零和有限p均非完成。
 
 实际pull及库存认证重试17:17:31全成功，run43740261274/job132891647699；两README差异空/blob核同。回执ci/rule-pull-20261115T171731.json；下一18:00前。
 
 ## 正在执行、未推内容与下一动作
 
-R803已完成并登记正式全p证书（run43739961915/job132890717650）；producer、完整56格和有限36矩阵的hash见原证，无未推数学输出。
-R801同run完成：四组(τ2/3,η±)原B0二阶θ系数均[592,97,226,801,233,153] mod1009非零；仅付有限来源单位密度子集，负二矩仍开。脚本check-r798-native-second-z-source.js及run/hash保，R801原证明整合中。
+R801/R803均已完成并推送，正式run43739961915/job132890717650及producer/参数/hash见两篇原证；无待重跑输出。主目标仍开，继续变动b/指定配对及负二算术连接。
 
 ## 普通：同q、原中央与全部真实补域
 
@@ -38,7 +37,7 @@ R791原J深浅t/Y值M±各非零且Qbar独立；同旧射线两η/allN4两arith�
 R794整E_V偶核λr与119/144/263物理矩阵已付，Jdeep上Edeep恰EVdeep；所有U/t/P/CD门须转置。JEdeep t/Y=λN(119+144u)M_J/263，旧帽交Edeep=tdeepN，故完整帽外负一全N非零。Z偶环带全首来源和原W局部中央非零，完整E深外部X_Nj仍反号保。
 R796全六变量半周期/canonical相位证明h_W=H_Ye0，Y⊥的原E/J/q门真交换。用R719 full(Y,Z)与Z1=0，物理EdeepB0整Z首矩0；JEdeep/JEshallow首来源准确∓aλN L_J，各非零而相反。全Edeep W相对log从二阶开始，指定负二尚未赋非零。
 
-R798完整PB把B0型五压至两arith，primitive3全杀；型四rank3/charX³+ω。原Edeep Z²为λ2NΩ² P4F2，三个负二值未赋非零；公开run/hash和全矩阵见原证。
+R798/R801付完整PB：型五恰两arith、primitive3全杀；型四rank3/charX³+ω。原Edeep Z²=λ2NΩ² P4F2的六坐标在旧ray两η/全N均unit，真实Yunit正四×Z²矩unit，三维K循环性及σ(2z)²σ26因子已付；指定负二仍三值组合未赋非零，ζ伴随/全W浅补保。
 
 R789原W帽返回固定D°，第三逆Y帽/浅补归一稳定；固定观察外部Δ2质量0/中央非零，余215必须补偿。两类外部互斥，R483/R493 whole PU B0=0已付，全部CM/局部质量保。
 R793原z°2808/Θ锚/完整中心与保W双偶框架已付，D°双返保U300/Yunit/log。第四块原J/E表的交域已由R800消去；两个E门、逆Y/Wdeep补及z°与Qα不交换保持。
