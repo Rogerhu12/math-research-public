@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：f1f4ce7d041f2a501bc841b353c8d27c96b5a91c；2026-11-15 12:05:48 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:05:48 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
+- 最近已读规则提交：91fbd81eb539c07f11e21116e71def91fdab5254；2026-11-15 12:10:50 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:10:49 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；API仅小文本追加，拒推立即尝试pull --rebase并接fresh head循环。CI实际pull与本地失败分记。11:55:55 run43711278156/job132803152030，回执ci/rule-pull-20261115T115555.json；27,211,719B/1964文件无超限，旧3真实输入块保；下次实际pull最迟12:40。
@@ -13,8 +13,8 @@
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r748.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–749、753；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747，续全坏处谱与中央关系；literature已付R748，续全p-Schwartz谱；deep已付R743，续R750完整WD同R。root已付R749 point-only投影，续原中央桥。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r751.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–749、751、753；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747，续R752真实浅Y有限谱；literature已付R748/R751，续R754原三区域平均；deep续R750完整WD同R。root已付R749/R753，续原中央桥。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
 ## 普通：同一测试、完整有限门及实际点
@@ -30,13 +30,15 @@ R739/R744全p AST相对分离：Q2/Q4不能由E17/E24在17-unram域的点，以�
 
 R747：λHW/γλHV连同投影/完整观察/全部门逆搬为原e0的Wdeep/Vdeep子域，四指示逐点分区；全来源Ω^-1Y_*(Zφm e0)。Y+伙伴isogeny在p-primary上唯一提升，共同[barπ^M]^*杀flat twists进入S_(34p^M)，M125足够且变量倍率p-unit。只增p层，原2/3/17有限向量和t_+全保；全相位使K-defined自然下降，不等point-only平均。无条件总式仍外部反号，整log尚非有限门。
 
-## 全finite角色：R746/R748/R749
+## 全finite角色、实际点及第二dyadic线
 
-R746两原Dk对全部合法finiteχ精确
-Katz(barψkρ)=34c_kθ11Ω χ(34)^−1 I_kχ²；χ|μ6≠1则I=0。完整tame/weight-disc延拓保，ρ=χ∘(ψhat/barψhat)只p分歧，p/ barp conductor p^n，Hχ在2/3/17 unram；不取错torsion稠密极限。
-**R748已付全部这些χ的线性点身份(H)**：ΩI_kχ=A_kχ logE1(φkP_kχ)，A²=εχ(34)θ^(−k−12)/(34c_k)∈Qbar×，P∈Ek(Hχ)_Q⊗KQbar，point-factor角色ρ。zero取零pointtensor。good pair的ψ p-unram而ξ可p-ram；LZZ真实有限CM点、BDP精确归一/全部local Q保，非匿名Λunit。两period的dual型N/ψ*及负locus共轭reciprocity各付后同ν；仅在Katz非零时由GZ/Kolyvagin推rank1再乘积化平方。辅助域按实际twist/isogeny消，未预设rank/Sha。
-R749全E1点tensor→Cp log为Qbar单射；已具完整点表示的关系可唯一回点空间，按point-only Gal投影、固定全部系数。不同(k,ρ)的非零I_kχ现由R748(H)全部独立；一变量Φ门平凡部准确hatΦ(1)ΩI_k1，平均非零即值非零。
-自然semilinear trace不同：Q2⊗t²非零且自然不变，但point-only平均0。K-defined门不自动消非平凡点特征；全六变量/partner/flat pool尚未证明只在这两来源内。原各O_i^T完整log不是有限p门，只有已付u一阶极限回负一行；不能由新谱给中央附加零。
+R746/R748两Dk全合法finiteχ：χ|μ6=1，ρ=χΓk只p分歧；精确Katz=34c_kθ11Ωχ(34)^−1I_kχ²及ΩI_kχ=A_kχ logE1(φkP)，A²=εχ(34)θ^(−k−12)/(34c_k)。P∈Ek(Hχ)_Q⊗KQbar具point角色ρ，zero取零tensor。good pair ψ p-unram/ξ可p-ram；LZZ实际点与BDP完整local Q/归一、dual型N/ψ*和负locus共轭reciprocity全付，两period同ν，仅非零后GZ/Kolyvagin推rank1转平方，辅助域实际消；未预设Sha。
+
+R749全代数点tensor的log Qbar单射；已具有限点身份的数值关系可固定系数施point-only Galois投影。不同(k,χ)非零值独立；一变量Φ平凡部hatΦ(1)ΩI_k1。自然semilinear trace不等它：Q2⊗t²自然不变却point-only平均零。
+
+R751第二dyadic t_+实际type3、同τk但正权属ψ_(6−k)，原degree34/half-character及2/3/17全向量齐付；首阶r_k∈{3,9,15,21,27}按真实首非零定义，常数c_+代数非零。负一仅χ(ζ)=ζ4；ρ惯性2为Teich²、17为u^(96(6−k))，不再只p分歧。实际point公式ΩI_+χ=A_+ logφ_(6−k)P，A_+²=εχ(34)θ^(−j−2r_k−2)/(34c_+)。映E1后17角色与Dk相同、2角色不同；有限point-I_p平均杀全plus和minus非平凡χ，准确留ΣhatΦ_−k(1)ΩI_k1。全四族非零值按2/17/p惯性独立；实际完整gate分解由在做R752支付，不假设混合分歧域直积。
+
+原各O_i^T整log有无限负j矩；只有已付u一阶极限回有限负一来源，有限谱不提供中央附加零。R753证明point-only投影不连续；原Q2/Q4与固定数域有界系数已给反例，须实际有限point载体/逐系数代数极限才可交换，R742先有限来源取极限再识别合法。
 
 ## 深支：同一个R及完整WD
 
@@ -54,4 +56,3 @@ R716第一wild阶p/导子p²/root+，L/Ω=48940416|S_r|²/p；边界零iffΦp因
 R736原B3/R10404坏2/3/17、2176→368/plus184/47整坐标；公开43705223442核47→7→1，base0/值0,±1,±2/c_int81/68。全A_t由primitive Normβp²、ell_p=t读取，全modp²二位保；A_t∈2Z、ΣA0。
 [normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正、Gaussian真base A0∈4Z，下一位保全paired f；公开43705781851固定2048类仅0/2。同R全αj仅Qi/K；C_pv无限p非零及原中央→边界仍均开。全部脚本/参数/run/hash沿前检保，不存输出。
 
-R753：point-only投影在Cp数值拓扑不连续：固定L=K(t)、a_n∈L有界且趋logQ2/logQ4，a_n logQ4→logQ2却投影前者全0/后者非0。只有实际有限point载体、逐系数代数极限（如Qbar(u)正则0）才可交换。原完整log有无限负j矩，有限点公式+数值尾界不够；R742先在有限来源取真Φ∞再识别不受此限制。
