@@ -512,3 +512,9 @@
 - IO43757804827读回4pairs/28格/84行含8零D，49不同候选全首z0[0,1]非零，scan next25/firstpositions9,10，候选空间未尽；新完整诊断保存必要pins。
 - 保两列8907fb65/manifestcdf06cf3与旧扫描，继续审计真实短乘法链；不重Wvg/旧RR/28格，不任意假设Wej=e(j+1)。
 - 本push规则：本地真实pull至2666de66b4634bec28c7c1ea5e15fdc697055eeb（2026-11-15T20:30:54.835723+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:33 Asia/Taipei — serre-public-astra-20261115
+- 登记原PF/Schwarz/Lagrange稿cd831959：从原Serre导子推出D0ρ″−24U²ρ′−8Uρ=0，保Ω初值得到t=−2A/(3αC)、K=αCx/12。
+- 首p整范围/首次p分母已逐项证，临界卷积准确为−[U^(p−1)]x²A⁵/(D0C⁵)/4374；原C^-5不能删，固定PF不提供逆Schwarz下的固定宽递推。
+- 双留数保同h primitive/Legendre平方筛，未筛及指定非零均未证；H以已推两篇实际诊断压缩重复状态，全部真实pins仍有入口。
+- 本push规则：本地真实pull至2942840b7fcf3aa2cbc2149c5378da64e322a04c（2026-11-15T20:33:27.720201+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
