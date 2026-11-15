@@ -121,7 +121,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [完整∞第二连接与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)已实核38×10包络全零及全部1700左校正，纯20泛函可提至u³；真实β2≤3，δ4354≥31、δ4353≥28。下界不等于首项单位。有限s0第二纯包络已实成全零及1700原校正，保r1≤4、r1+r2≤7，公共零阶≥31/K77已付；原29精确形式核曲线与完整Smith的组合已单独严格支付60/59/56。
 
 
-[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。已排[原自然连接入口](notes/2026-11-15-r150-selected-natural-first-connection-f31-interface-789f.md)，30秒/512MiB，用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
+[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。已排去NumPy版[原自然连接入口](notes/2026-11-15-r150-selected-natural-first-connection-f31-interface-789f.md)，30秒/512MiB，仅FLINT/std库；首版inputs缺依赖未添结论，新版复用已核历史primitive字节，用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
 
 ### 强联块同w、同源普通封口
 
