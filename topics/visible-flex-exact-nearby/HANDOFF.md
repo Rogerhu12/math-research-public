@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:10:30 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:11:02 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及08:44非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:03:33.114875 UTC aa622bafea7666f3888b8b10eff7d2ebc0a47979，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：f18f47408f097b6d417cd2a77651ed9a76fc8beb；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：59b8045f6865a14588aef1a22a30334faf01edf1；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前全部逐字检查点保存在7acf18ba28b29550117544e5e7b42b923587f6c5:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
@@ -27,7 +27,7 @@ v2 43681612825/1 child1/0groups：finite Arb转binary64溢出，失去新future2
 全部原Taylor/Nraw/六profile/完整九词五mean/seam/ledger身份和成功失败见压缩前H，仅恢复。actual共同势43685624307/old-circle43688459733两实列/根点signed43692226895已成，不授complex两列或正物理Schur。
 整片whole Taylor actual43694458725/1九门，报告4de2b072…；67pin/54旧Taylor+2stage、零旧重算。fa/fb/a1/b1实角<.280094/14.228337/2.495771e−5/14.600552，二径fb/b1仍1.526e12/1.569e12。full mixed/mean/两尾保，不能猜tail份额。
 G/c3267f91…已付有序μC无除T、三local向量、六old-circle余项和五mean；两负窗及physical/reference seam分账。whole相关forcing先signed消共同径向项；Vr由同fullmean Gbar，非离根z0势；ΔV0/ΔR/μM0及−16K(2ηα+zα²)保。G36给同域ΔA特征积分。G15真列范数/正graph/strong return独立。
-S合同f39ba88e…16022B/ee408a3c…已全读；新RF3/20000、原final Rs3/40000/σs1/256，所有域/像/路径、零点、rawmatrix有序cancel与双全尾保，尚未独推/获实际新数值。SCI9b513cf6…、25pin25ca0b4a…、worker6aec30dc…/flow35957926…root审查；只新RF disk球代数，旧producer禁重跑。phase接G15源列。
+S/ee408a3c…完整scalar合同已独推（16022B）：新RF3/20000、原final Rs3/40000/σs1/256，所有域/像/路径、零点、rawmatrix有序cancel与双全尾保；实际新域门/数值尚待。SCI9b513cf6…、25pin25ca0b4a…、worker6aec30dc…/flow35957926…root审查；只新RF disk球代数，旧producer禁重跑。phase接G15源列。
 
 ## 全网络、有限迭代与新94链：tail_connector/root
 

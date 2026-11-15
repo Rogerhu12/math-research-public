@@ -169,3 +169,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 当前实际帽的zero-width全周期Φ及finite-Sob接口已成
 
 [F1–28](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)补真实Bmean后重建当前X帽的完整full4Z辅助值图，固定analytic γ、非解析fB低A0/高有限；完整Taylor绝对列和、one-high tame与四commutator的半阶/伴随门已付。下一将γ也作零宽未知输入（newton负责混合species图），并把真Φ方向按long完整Green送入far非mean行；独立meanheight不可乘筛选ε。tail接同a94界面lifting/实际graph种子；全augmented Schur/inner mean/phase/ν继续。
+
+### S：新整域相关scalar合同已付，实际域门仍待
+
+[完整合同](results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md)固定新RF3/20000和原final Rs3/40000/σs1/256，逐一保所有Cauchy/像/特征路径、真实zero factor、signed ΔV0与raw M0次序、原forced两列积分和全尾/mean。root独核S10 Leibniz零点、S19–20次序、S22原producer公式；新版仅补新disk algebra范围。SCI/25pin/worker/flow审查后由public Actions首次执行新门；不把条件预算冒实际数值。G15全真实源列、两负窗forward/positivegraph与全strong return仍需接续。

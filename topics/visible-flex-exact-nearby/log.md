@@ -215,3 +215,7 @@ root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B sum
 ### 2026-11-15 09:10:30 UTC — 精确两件旧计算输出普通删除部署；压缩检查点
 
 根/题README在f18f47408f097b6d417cd2a77651ed9a76fc8beb只读核无变；runner09:03:33.114875已真pull到aa622bafea7666f3888b8b10eff7d2ebc0a47979、两diff空。压缩前完整HANDOFF保于7acf18ba28b29550117544e5e7b42b923587f6c5同路径，全部门/失败/恢复身份有效。已全文原R57§2/5、R56§5及两producer，确认仅526295B real parameter N与779017B complex-angle certificate为computed输出。新allowlist只path/blob/bytes两个原版本，R57 SHA已知，R56由runnerstream实际记录；旧逻辑不变，零数学/无artifact/普通删除留历史，所有inputs/code/parameters/结论保。worker SHA09f9d899988b5699169d57e12f0235c446b0d928571bf866fcc63a740ba7fa77，flow ba697bcece70433e882612e6f4e6af60ca416505b26fb5e4b1eccd0aec6de153；静态diff/括号核已过，AST/实际删除/体积等待本公开仓库Actions，不预称成功。
+
+### 2026-11-15 09:11:02 UTC — S整域相关scalar合同单独推送
+
+README只读核59b8045f6865a14588aef1a22a30334faf01edf1无变。全文核S1–23，并对S10 root零点Cauchy、S19–20 rawmatrix有序消去与S22原forced_case逐式独核；final16022B/SHA ee408a3c1c2dcfaf24ab04ffa2b65eecff14c10311951a1b93937dcf88b516cf。新RF3/20000仅是待实际验证域，原final radius/strip零改；完整means、finite-z curvature与无限Fourier/径尾保。新domain disk products不重建旧root Taylor系数或保存旧norm。尚未运行新数值，下一独立动作审查部署consumer；无全network授予。
