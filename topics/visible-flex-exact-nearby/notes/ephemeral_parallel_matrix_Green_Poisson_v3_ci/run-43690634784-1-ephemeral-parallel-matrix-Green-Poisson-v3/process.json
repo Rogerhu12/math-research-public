@@ -138,6 +138,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T08:53:30.521237+00:00",
+      "before": "1802ea4bb3b7905224dcb8d189835d86a3a43bc6",
+      "after": "664026df7a8e29197e90bc10831ce894c46d5721",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
   "published_checkpoints": [
@@ -175,6 +183,11 @@
       "time": "2026-11-15T08:33:26.030581+00:00",
       "final": false,
       "commit": "ad1d0ec782a43891529bfb347e4accdf3fb9124a"
+    },
+    {
+      "time": "2026-11-15T08:43:29.264979+00:00",
+      "final": false,
+      "commit": "1a3cda291829b486965fcb0a85d64ecba5a67dff"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -285,7 +298,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1802ea4bb3b7905224dcb8d189835d86a3a43bc6",
+  "last_read_commit": "664026df7a8e29197e90bc10831ce894c46d5721",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -341,40 +354,40 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T08:43:27.651912+00:00",
-  "wall_seconds": 3908.3017254439997,
+  "snapshot_utc": "2026-11-15T08:53:30.584000+00:00",
+  "wall_seconds": 4511.233812791,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T08:43:13Z",
+      "actual_utc": "2026-11-15T08:53:16Z",
       "streams": {
-        "future": 2960,
-        "past": 816,
-        "product": 1152
+        "future": 3136,
+        "past": 976,
+        "product": 1312
       },
       "complete_groups": 0,
       "queued_groups": 0,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "937e1136d9562e9b02529dbef4a3011b4c7e038c500e3288947b43e811c518a5"
+      "original_temporary_receipt_sha256": "66992d1d7b1a793c761ea90db5ba81411f36896c0f6831bd599319d17d047b8f"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T08:43:24Z",
-      "completed_rows": 2976,
+      "actual_utc": "2026-11-15T08:53:01Z",
+      "completed_rows": 3136,
       "reused_rows": 1886,
-      "new_rows": 1090,
+      "new_rows": 1250,
       "done": false,
-      "seconds": 3539.529811824,
-      "original_temporary_receipt_sha256": "50ee8733ac64e8f5c621ebaa40c03a76d6b5d28ded1905325871ed62b06c6699"
+      "seconds": 4116.436775218001,
+      "original_temporary_receipt_sha256": "46dcc412277b60147c2ba729307bbae2f599eab3bcd880d17bec2af26c1def29"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T08:42:40Z",
-      "completed_rows": 816,
+      "actual_utc": "2026-11-15T08:53:01Z",
+      "completed_rows": 976,
       "done": false,
-      "seconds": 3495.194373907,
-      "original_temporary_receipt_sha256": "7f09b40353829ed6a5cdad1e1b9aafb01fffaa3fe39ffcdd308deef247116273"
+      "seconds": 4116.948718011,
+      "original_temporary_receipt_sha256": "7a2adb5aa6ddfcfd2ba6c94f9ed3bd7f2ade200d7264436b183e346a01b90315"
     },
     "preflight": {
       "stage": "preflight",
@@ -394,19 +407,19 @@
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T08:42:47Z",
-      "completed_rows": 1152,
+      "actual_utc": "2026-11-15T08:52:33Z",
+      "completed_rows": 1312,
       "done": false,
-      "seconds": 3502.777957664,
+      "seconds": 4088.909502328,
       "diagnostic_exponents": {
-        "local_complete_rounding_log2_upper": -112,
-        "old_scalar_error_diagnostic_log2_upper": 1549,
-        "selected_product_norm_log2_upper": -4,
-        "signed_error_norm_log2_upper": -103,
+        "local_complete_rounding_log2_upper": -114,
+        "old_scalar_error_diagnostic_log2_upper": 1745,
+        "selected_product_norm_log2_upper": -6,
+        "signed_error_norm_log2_upper": -104,
         "single_true_Di_norm_log2_upper": 2
       },
       "reused_same_run_preflight_rows": 32,
-      "original_temporary_receipt_sha256": "cf626bb94e83e75956c6b8aef0d68d7e889339a950bfa3b31fe0955d4a66d7de"
+      "original_temporary_receipt_sha256": "1f4259a9b6aa9bce7e14b5656756610e5c1feced1421d5e2d1102c4f262c24bc"
     }
   },
   "required_original_array_artifacts": 34,
