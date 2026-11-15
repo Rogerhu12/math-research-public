@@ -273,3 +273,7 @@
 - 2026-11-15 13:49:49 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读86b8875cd749cff5524ad707a510ab0a29b25e15已记H；继续非force推送同一结论。
 
 - 2026-11-15 13:50:50 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读6f52083c9d7bd4c7d91ce412bea86017e40c41fb已记H；继续非force推送同一结论。
+
+- 2026-11-15 13:51:46 UTC，Astra-new-mechanism-9974ea84：仿射谱设计note已独立推cd825df；先前H更新因10KB限制未写入，现压缩已付基础为原文索引并同步H/open/results，不改变证明范围。root全文核norm epigraph/cuts/rho_aff/同预算返回，回读原build_correction确认rho_lin由同p重新计算。新增纯数组/观测源由mechanism独审，root审outerloop/driver；全部新执行仍公共Actions，暂无passed/科学结论。
+
+- 2026-11-15 13:51:58 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读2e3dcae9564490f016b073d506f6df65e2dea8f2已记H；继续非force推送同一结论。

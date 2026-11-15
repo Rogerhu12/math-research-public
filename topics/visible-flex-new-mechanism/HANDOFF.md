@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`6f52083c9d7bd4c7d91ce412bea86017e40c41fb`；时间2026-11-15 13:50:50 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`2e3dcae9564490f016b073d506f6df65e2dea8f2`；时间2026-11-15 13:51:58 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -23,17 +23,15 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual完成**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16/job132820200829。三新开发组全过6.57835秒；唯一新stageη.2664285858004584→.2663989905276839，两网14原门/精确物理盒过，.26/1e−4未达。11primary+1SOC、10新接受、26共享值+2末验；active43.32511秒，新audit48.67288秒；七必要恢复1175.76681秒各一次，不能算新下降。新coarse/fine选J7.32903/15.96631秒，虚轴≤27，full163/159向量J张量0；旧父projection说明标签过时，历史原件不改，不宣同点加速。m5SOC17守卫全真持B.000125，m6确用但ratio.11484缩半；m8新增1+5行且fineη升而拒。下一新模型处理实际预测缺陷，不延12LP/120秒或重跑同stage。首43716207246只人工fixture漏known_fine_metric_locations，0科学；失败与最小修复仍保原note。45/97源及24输入核对全合。
 
+**仿射谱模型设计已发、未执行**：[方案](notes/affine-spectral-metric-model-design-20261115.md)。保φ±范数曲率，只仿射化e/f；同159/163/原门。cuts每outer≤3且全计共享12LP/120秒；返回完整rho_aff修复，原SOC保真实rho_lin(p)较严格RHS。候选base-total统一实际总步的affine预测，新增两误差/遗漏行/εbias账。八必要恢复各一次后唯一新stage；新源码与公共开发准备中，不追认m6原因或称passed。
+
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
 ## 4. 纸证的当前边界
 
-**完整pure控制已付（R208–210）**：真实S=P、闭锥Cp=P，权0/−2/−6/−4像维3/9/3/9等；真桥、基准和整数复制保留。Q=P/πR仍未知；正λ+不下降pure，不能再用它否定已成pure控制。
+**已付基础接口**：R208–210准确whole pure S=P、Cp=P；Q=P/πR仍未知，不能再用λ+否定pure。R223/227真闭hook付M0、TκH、frame/位移及例外芽安装，通常重设seed/g，不冒同g有限flex。
 
-**实际hook（R223/227）**：M0、TκH、Klein位移、wholepure0、全h Morse及非零ke例外端芽已由末frame/九参数/fullE真实IFT安装。一般重设g，不冒此前同g有限flex。旧芽R216/224/228/249–253只在各自明确类失败。
-
-**完整第三核（R254/258/261）**：Z=H7⊕J3⊕χ8、dim18；43712266529/a934b45c/job132806237299八新人工通过，八D³K全四阶/局部/自伴、Af f0。原5条raw差须fresh同锚IBP才零；不是字面零。K=−J³Af保原右三常数/左二次尾。全Rp0=(R71∩kerπ)+B(E,χ8)，首项不可删；B(E,Z)只是子像。旧已付目标不重算。
-
-**原全角接口（R259/263）**：6面积×3外矩×4角系数=72形式条目非rank；9二次矩+72=81固定位置状态有方向结合律。右inner三矩圆才杀真实跨项，单位置数据不授任意平移/O2。完整12副本消36odd，even和内部history保留；完整block第四按a⁴可加、平移≤10，Gaussian21历史独立。
+R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右三常数/左尾；43712266529八新人工已过不重。全Rp0=(R71∩kerπ)+B(E,χ8)，不可删首项。R259/263的72全角条目和81有序状态非rank；右inner三矩0才消cross，12完整copy付36odd，平移≤10和内部history均保。
 
 **R267/270/273旧有限正宽圆**：同源TM3/odd母扰动和四变量真实IFT付三矩/全third/六能量、全A−2,−3/A−1,−3、36odd、A1,−1 I0及A−1,−2 I0。R271六最终位置先各IFT，再Q正幅与三比值混合付A1,−3 I0/I1；I按有限几何/桥包络先选，不迁旧g/F8。正面等式仍真，但此小h双斜率族已被下条排除full面积；不再增其位置重复试解。完整证明均保results。
 

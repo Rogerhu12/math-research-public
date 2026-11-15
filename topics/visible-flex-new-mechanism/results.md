@@ -374,3 +374,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R279 完整证明](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)保R238原S/T bulk及总体真左尾，全部实际copy的γ⁴与d先固定。C²多项式minor沿实线非零保证可在u″(0)≠0的邻域选光滑最大秩母包；原principal聚合比值ρ_i=−3/Ξ+3(t_i+dbar)/Ξ²+O(Ξ^-3)，在一个预选有限Ξ上给high–low–high三包严格ρ1<ρ2<ρ3。其负/正/负能量向量有显式严格正balance且spanR²，可将任意完整基线(Lc,Mc)移为正幅正则极限根。
 
 真实扰动N^-3 zχcosNy先由固定minor准确保完整F，纠正C³及z导均O(N^-1)，真实三导主项zχsinNy。对原完整能量及参数导数逐项IBP得C¹收敛，先固定正幅盒和可逆Jac，再选择一个有限整数N，用压缩映射得到准确Lc=Mc0；不是将principal/无穷频率当全解。原十二copy逐函数付Ls/Ms0，已付R256一般微包共振身份Nc=6Mc/Ns=6Ms遂给六能量全0。全72Gaussian观测在每步准确不变，已有30even/36odd零保，余六even仍欠。root全文核原bulk、真副本均值/ρ排序、正锥、常秩纤维、C¹余项和有限N根，并回读R256一般六门原式；未运行新科学。
+
+
+## 159 维新仿射谱模型：准确凸 epigraph 与同预算切平面设计
+
+[完整设计](notes/affine-spectral-metric-model-design-20261115.md)保φ±(e+de·p,f+df·p)的完整范数曲率，实际de/df由同选行virtual jets收缩，不从branch J反除f。新epigraph等价norm≤2(b+rho)−σE，旧LP是零步supporting cut；每次返回独立计算全部旧soft行的rho_aff、上调辅助rho并重核原单位残差。未收敛只返回真实模型有原floor下降的合格incumbent，保gap/失败。每outer最多3次LP，全部共享原12LP/120秒/40值，不追加预算。
+
+冻结build_correction实际调用predicted_slack(primary,p)取得rho_lin(p)，非LP辅助rho；rho_lin≤rho_aff故SOC保较严格原RHS。primary/SOC/parabolic的base-total预测统一原接受点到实际舍入候选的总步；17持径规则/真实门保持，非有限或无正gain不造ratio。新增行级谱曲率/e,f非线性两项，加最大值/遗漏行/εbias准确全账，消费已有ordinary缓存不增几何调用。设计已发cd825df，当前新源码准备，未执行新开发或科学；不能追认旧m6主因。
