@@ -1,0 +1,99 @@
+{
+  "kind": "actual_cached_scalar_complete97_physical_adjoint_Hermite_proposal_v2",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "actual_complete7908_quarters_and64_original_native_points_are_successful",
+      "passed": true
+    },
+    {
+      "name": "all7908_original_whole_jets_and_all7908_native_midpoints_reused_without_target_calls",
+      "passed": true
+    },
+    {
+      "name": "all257_states_and97_independent_boundary_inputs_retained_on_the_complete_cap",
+      "passed": true
+    },
+    {
+      "name": "all97_complete_finite_actions_and_both_boundaries_pass_the_original5e8_gate",
+      "passed": true
+    },
+    {
+      "name": "exact_shared_dyadic_Hermite_arrays_and_all_input_columns_are_saved",
+      "passed": true
+    }
+  ],
+  "stage": "complete_selected_adjoint_Hermite_proposal",
+  "seconds": 286.218807219,
+  "radial_nodes": 1977,
+  "collocation_intervals": 1976,
+  "case": "1c9f70aa9900f88638d29b688a03e03af5e0bd840ff4cdc82fa89527e7c946db",
+  "original_scalar_domain_count": 7908,
+  "original_native_midpoints_count": 7908,
+  "counted_new_blocks_in_this_child": 7904,
+  "atomic_batches_completed": 30,
+  "actual_checkpoint_progress": {
+    "factor-prefix.json": {
+      "next_index": 1976,
+      "nodes": 1977,
+      "array_file": "factor-prefix-001976-27b6abc9a09144299ca2737d6c33339f.npz",
+      "array_sha256": "63affd748e1b532d8b05560772dca423f0bad6a7ba69f903d4f40d807f24edc7",
+      "complete_checkpoint_seed_count": 248
+    },
+    "factor.json": {
+      "complete": true,
+      "nodes": 1977
+    },
+    "matrix-RHS/progress.json": {
+      "stage": "complete",
+      "next_index": -1,
+      "complete_columns": 97
+    },
+    "matrix-RHS/independent-check.json": {
+      "complete": true,
+      "next_index": 1976,
+      "full_relative_residual": 6.968799796965097e-15,
+      "passed": true
+    }
+  },
+  "actual_finite_backward_check": {
+    "identity": "f88ed00f3251162c88f6311ef1bd79531be0a04ca1b80bf18123d22d63ff949b",
+    "complete": true,
+    "next_index": 1976,
+    "squared_error": 9.528520915466017e-26,
+    "maximum_error": 9.631184738623233e-15,
+    "finite_backward_gate": 5e-08,
+    "complete_state_dimension": 257,
+    "complete_input_columns": 97,
+    "source_is_physical_adjoint": true,
+    "complete_even_mean_retained": true,
+    "complete_continuous_residual_certified": false,
+    "full_relative_residual": 6.968799796965097e-15,
+    "maximum_boundary_error": 5.329070518200751e-15,
+    "passed": true,
+    "shared_exact_dyadic_endpoint_Hermite_definition": true,
+    "original_forward_cap_columns_transposed_as_certificate": false
+  },
+  "end_model_condition_2": 1.4142136199410753,
+  "new_target_evaluations": 0,
+  "all_original7908_scalar_domains_recomputed": 0,
+  "all_original64_native_points_recomputed": 0,
+  "original_forward_cap_columns_recomputed_or_transposed_as_certificate": false,
+  "complete_continuous_adjoint_bound_proved": false,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "mathematical_certificate": false,
+  "maximum_floating_inverse_angle_residual": 2.220446049250313e-16,
+  "minimum_floating_inverse_angle_jacobian": 0.9870150460226266,
+  "native_sha256": "acb2151b60f24ad88b30e6f7d1d966851abc53c15e45df19df2bfca27c2393c7",
+  "latest_actual_readme_check": [
+    {
+      "time": "2026-11-15T01:31:13.918318+00:00",
+      "before": "067aed719b9ba26a50ecf9f950bab460c57e8566",
+      "after": "31d2ad909638aa3eb3211a9ea0feed632c0e9a2b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ]
+}
