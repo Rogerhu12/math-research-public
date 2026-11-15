@@ -36,7 +36,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R170](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md)已完整支付固定k的0/2/4 action：A,D,C≥0与B+2√C(4√A/3+√D)≥0充要，等价全t,s∈Q正的B+4(tA+C/t)/3+sC+D/s≥0。只在新点有严格违例时定向选有理κ,t,s；不盲加时长/参数网，不把B单独判负。
 
-[R169](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md)已完成：全实p的真实k=Kh^p给A(p)及Ω(p)必要门，sharp有限flat构造与Gram可实现曲线齐备。读取联合43668125602新有理点后才定向选严格违例p；不预设外点被切，不盲扩路径网。
+[R169](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md)已完成：全实p的真实k=Kh^p给A(p)及Ω(p)必要门，sharp有限flat构造与Gram可实现曲线齐备。联合新点最高层已由R172全路径平方证支付，不再为它测p；仅对未来改变该层且出现严格违例的点定向补行。
 
 R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实查询t1/35、ΛJ6=1266268570、新44det1176345646 mod2147483647，零旧列/NF重跑。E6真44、pure9、纯核/balanced像35，U≥240但lineality/query仍237。此原成员问题已结束；不追第45孤立列，转完整字符分母R−2+N U−1中J6是否为零。R163已证明全部14族最高层协变、低阶同一八矩cocycle及 Hσ=(Rσ+Tσ)/(Rσ+Dσ)。Dσ仅用同权正规系数与静态修正生成全部N Uσ+1模R，权−2无需另编−1。完整head actual43665345551已付107原记录/66平移组合，Q4_0/1本权原式零；计数不是维数。有限必要actual43665971895已完整消费：124外等式秩84、23外自由、63必要半空间仍有准确非零外部候选。它不是真实字符；继续消费其具体失败方向，不重编旧static/3974/N收缩。
 
@@ -53,6 +53,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 - R146完整商协变将五族314条目缩为80个ω0起始记录，后继ω_j=N^jω0/j!模R。R154再由真实反号与k次数≤6的七点插值，给h1/ω0/k0,1,2,3共20状态值的正仿射轨道生成全部五族。20不是维数/实际控制/有限点正性；一般pure成员亦可如此缩减，但不盲扫。
 
 ### 当前真正的完整商与正性任务
+
+[R172](results/R172-exact-highest-and-quadratic-certificates-for-the-updated-outer-point.md)已准确证明当前新点的完整最高action全路径非负、修正二次层逐点正定。若后继保这两个修正层且静态全非负，则所有路径条件均无法切掉那个点，须判断真实原函数关系/头部泛函良定义性。tail推进107normal+40R已存双mode原列的准确字面关系，lit推进当前静态多项式解析分离；不把外点当真字符，也不重跑最高层负路径搜索。
 
 [R171](results/R171-static-negative-interval-of-the-parity-corrected-outer-candidate.md)已排联合新外点：a_static(1/2)=0但a_static(2/3)=−371/11664。完整静态为p(k²)、deg p≤3；下一仅对当前准确p解析端点、无穷和正局部极小，严格负输出有理k，全半轴非负输出准确证书。不能仅逐格追加k，也不能把本点边界导数条件强加所有未知字符。
 
