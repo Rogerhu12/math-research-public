@@ -111,3 +111,6 @@
 
 
 - [R624：原两forcing行列式的真双输入观察与四位division返回](../results/R624-original-paired-forcing-determinant-and-four-digit-division-return.md)：Lucas把固定Hadamard核的一条原系数准确读成det(c,d₂)/8；完整S12 addition保坐标除子和Gaussian三项。原ψp最高2s系数模p⁴经先证整体p²整除恢复同一二块不变量，并接原两j0的全残差/实际a/p必要式；未将浅单位或固定核非零当指定行非零。
+
+
+- [R632：原p次幂的精确形式群边界与整个首野分支域](../results/R632-original-pth-power-formal-group-boundary-and-full-kummer-range.md)：原u参数完整对数在闭R_E只有一个临界Gaussian，所有高尾/形式对数/真实反演范数均付，原f4/f1/S/T/H38归一B^p准确R_E且闭非Tate。整个S≤R<R_E的原sigma域degree p，七原积分仍独立；保p次真实来源成本，未将原中央解或全p²Gaussian域无证外推。

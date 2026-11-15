@@ -194,3 +194,6 @@ R628由原整联合单Y核/四层W核与共同平面深核真相消，付E_Y=R�
 
 
 R624付同一原det(c,d₂)的真正观察：8倍Hadamard核指定[z^(2p−5)t^(p−2)]行恰读整个det，Lucas杀全部其它实际系数；原固定S12 addition分子须保(z²−t²)^−3坐标除子和1−Bmix+Bmix²/2三项。原ψp最高2s系数modp⁴经整体p²合法除法恢复相同二块det，保R606 canonical gauge。原两j0后的必要式仍含R₁/R₂及真实a/p。**R630继续：** 原division p³修正或完整双输入行的实际非零；固定核非零、浅Frobenius单位和ordinary C12均不能替代。
+
+
+R632付原未去Gaussian f4/f1/S/T/H38归一B的p次幂准确R_E=p^-1/(p²−1)、闭非Tate；u参数p logK在全n<p²整，仅n=s在边界临界，全部高尾严格可指数化。原H闭R_E Tate及开R_E逆的完整范数使原z侧上下界同时成立。整个S≤R<R_E的原F_R(σ)准确degree p，七原积分仍代数独立。**R635继续：** 原中央连接能否全范围支付、真正来源/全旗标成本；未扩张两个Gaussian全p²域，也未无证外推R622中央Tate解，p次幂真实源度p不可省。
