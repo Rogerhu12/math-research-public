@@ -269,3 +269,8 @@
 ## R237：例外主层消去后的完整下一 mixed 能量门
 
 [R237 完整次层证明](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)固定b0例外germ并假定Lc=Ls0。原二阶零次h层准确给D=Φp1−Φt1/8与C=(4ε²ke²/5)σ⁵D+Oσ³；第三history完整抽取β²G(φ,GDθ)+2βG(φ,CDθ)，其余hOσ4。root据R56原分子逐类核局部第三恢复与二阶交叉最高h²σ²、R73的Ψ零次层−vT/8，以及能量j层最高h²σ⁴，未丢真history或frame导数。故完整K/(h²σ⁶)→(8ε²ke³/5)E(Gff,D Dθ)，原gauge空间除该尺度皆零，得到两个新必要门Mc=E(Gff,Dgg−Dff)=0、Ms=E(Gff,Dfg)=0。两数在R235新圆上尚未评价；完整三矩不交block按真左尾正交可加，不宣第四/joint已解。
+
+
+## 159首次公共开发的严格JSON输出修复
+
+Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报告失败：两个人工比较值为NumPy bool。尚未打印passed、没有进入任何科学prefix。只在两处原比较外显式bool，blocks源码27974B/6aa3e08b；其余五源、生产LP/原门/预算不变。新request继续未完成开发，过后才首次进入真实159阶段。不能据计算曾返回推断检查通过；无科学结果被重跑。

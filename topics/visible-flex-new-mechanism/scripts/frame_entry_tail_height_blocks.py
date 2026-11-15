@@ -438,12 +438,12 @@ def developer_check():
         'actual_same_y_soft_residual_used':np.allclose(soc.b[:len(model.active_values)][model.active_groups<2],
             soc.active_trial_values[model.active_groups<2]+info['metric_slack_budget'],rtol=0,atol=0),
         'current_height_can_change_but_same_y_grids_agree':info['status']=='original-unit-mapped159-SOC-arrays-ready',
-        'positive_scaling_bijection_in_original_units':relation<1e-12 and np.max(abs(scaled.to_scaled(oldvars)-trial))<4*np.finfo(float).eps,
+        'positive_scaling_bijection_in_original_units':bool(relation<1e-12 and np.max(abs(scaled.to_scaled(oldvars)-trial))<4*np.finfo(float).eps),
         'physical_L1_counts_compensation_slot':norms['physical_L1']==2.5 and norms['physical_infinity']==1.5,
         'exact_null_unchanged_by_nonbinary_nine_coefficients':exact_null==0,
         'radius_enlargement_same_physical_step':np.allclose(primary_independent_step(model,variable),
             primary_independent_step(larger,lifted),rtol=0,atol=1e-20),
-        'radius_enlargement_same_total_objective':abs(model.c@variable-larger.c@lifted)<1e-15,
+        'radius_enlargement_same_total_objective':bool(abs(model.c@variable-larger.c@lifted)<1e-15),
         'old_and_new_current_b_diagnostics_not_mislabeled_fixed':
             'fixed_height_Jensen_lower_bound_evaluated' not in model.information['fixed_domain']}
     return {'schema':SCHEMA+'-artificial-development','passed':all(checks.values()),'checks':checks,

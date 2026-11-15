@@ -2,7 +2,7 @@
 
 This implements [the five-height design](same-g-entry-tail-five-height-null-design-20261115.md) as one new public-Actions stage. The original physical family still has 163 coefficients. Its selected subfamily now has 159 independent coordinates: the existing 154 tangent coordinates followed by five height coordinates. The metric, immutable $b_0$, permanent enriched $c_0$, core and cap definitions are inherited.
 
-The new code has **not yet executed its artificial/API/IO checks**. Local work has only written source, compared text, and compiled Python syntax without importing or running the modules. The first artificial entry is the new driver's public `--check-only`; it does not repeat any old scientific prefix or old development suite.
+The first public artificial/API/IO entry ran in `43701306331` but failed while serializing its final report; no `passed` result was emitted and no scientific prefix began. The two NumPy Boolean leaves are now converted explicitly to native `bool`; this repaired entry has **not yet completed its checks**. Local work has only written source, compared text, and compiled Python syntax without importing or running the modules. The first artificial entry is the new driver's public `--check-only`; it does not repeat any old scientific prefix or old development suite.
 
 ## 1. Exact physical state and actual geometry
 
@@ -108,8 +108,12 @@ The lane `metric_entry_tail_height159` is now wired with its `--check-only` flag
 - `scripts/frame_height_null_coordinates.py`: 23303 bytes, SHA256 `5ebfde0a3322bd119704fda517b2f15db48964fad7a3a344b1e863ec4c2f2f22`.
 - `scripts/frame_five_height_field.py`: 15725 bytes, SHA256 `549e61db392f318260d636d41a090bd56e8c96b2eab580075707b5e25a24f656`.
 - `scripts/frame_height_null_gate.py`: 9623 bytes, SHA256 `2b79490f44ab4bfc3d70324850c5b71949a5a7dfaf4a9f0948d52394f0be734b`.
-- `scripts/frame_entry_tail_height_blocks.py`: 27962 bytes, SHA256 `dd17e4686760beb8fcc89ca22943ca290c0416a3c89789c9aaa0d439825e454b`.
+- `scripts/frame_entry_tail_height_blocks.py`: 27974 bytes, SHA256 `6aa3e08be5504b11d2fe14b07ee812b37ae064dd7033ec96673f027b6877d6b1`.
 - `scripts/frame_metric_entry_tail_height159.py`: 64733 bytes, SHA256 `670c9314558441fb15fd572e5f853475aced4d1bdbbe8fa7f67024609b8ab86a`.
 - `scripts/frame_metric_entry_tail_height159_audit.py`: 88201 bytes, SHA256 `ff0b8cfb3f8052d77dba7153abe8f1151a371469c5fba589a0e2c2f82e8a265b`.
 
 The objective library's two final production edits relative to the root-reviewed v2 are the finish key `entry_tail_height159` and the explicit canonical physical hash on each trial record. Neither changes the solver. A complete textual diff of the new driver against the frozen 154 driver is supplied separately in pending storage. Syntax compilation passed without importing modules; there is no artificial/API/geometry/LP execution receipt yet.
+
+## 7. First public development output repair
+
+Run `43701306331`, source `40c0f4d660cf395576f1274c96b96d94a7996e16`, job `132772851014` reached the new development return and then failed strict JSON serialization. The two leaves were `positive_scaling_bijection_in_original_units` and `radius_enlargement_same_total_objective` inside the new array checks. Only their explicit native `bool` conversion changed. No mathematical comparison, production LP, geometry gate, parameter, or budget changed. The failed attempt has no observed pass and entered no scientific prefix; the repaired request continues that unfinished development before the first actual stage.

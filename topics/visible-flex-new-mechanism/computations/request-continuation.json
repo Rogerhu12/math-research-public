@@ -36,7 +36,7 @@
     "topics/visible-flex-new-mechanism/scripts/frame_height_null_coordinates.py": "5ebfde0a3322bd119704fda517b2f15db48964fad7a3a344b1e863ec4c2f2f22",
     "topics/visible-flex-new-mechanism/scripts/frame_five_height_field.py": "549e61db392f318260d636d41a090bd56e8c96b2eab580075707b5e25a24f656",
     "topics/visible-flex-new-mechanism/scripts/frame_height_null_gate.py": "2b79490f44ab4bfc3d70324850c5b71949a5a7dfaf4a9f0948d52394f0be734b",
-    "topics/visible-flex-new-mechanism/scripts/frame_entry_tail_height_blocks.py": "dd17e4686760beb8fcc89ca22943ca290c0416a3c89789c9aaa0d439825e454b",
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_tail_height_blocks.py": "6aa3e08be5504b11d2fe14b07ee812b37ae064dd7033ec96673f027b6877d6b1",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159.py": "670c9314558441fb15fd572e5f853475aced4d1bdbbe8fa7f67024609b8ab86a",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_entry_tail_height159_audit.py": "ff0b8cfb3f8052d77dba7153abe8f1151a371469c5fba589a0e2c2f82e8a265b"
   },
@@ -225,5 +225,14 @@
   "sync_private_rules": false,
   "publication_policy": "Root README15: no recomputable payload/artifact/Release; only source, parameters, run and output hash metadata, plus human conclusions.",
   "completion_claim": false,
-  "private_rules_note": "This single public geometry lane consumes no private input. Root retains separate private README/QUEUE synchronization; this request makes no new private-pull claim."
+  "private_rules_note": "This single public geometry lane consumes no private input. Root retains separate private README/QUEUE synchronization; this request makes no new private-pull claim.",
+  "repair_of_first_development": {
+    "run": "43701306331",
+    "job": "132772851014",
+    "source": "40c0f4d660cf395576f1274c96b96d94a7996e16",
+    "failure": "Two new artificial comparison leaves were NumPy bool objects; final development report JSON serialization failed. No passed result was observed.",
+    "minimal_change": "native bool conversion around exactly two existing artificial comparison expressions",
+    "scientific_prefixes_or_new_stage_started": false,
+    "same_unfinished_development_then_first_research": true
+  }
 }
