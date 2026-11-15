@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:54:04 UTC root终端已恢复，真实 git pull --rebase origin main 后读main c46cc01a8ca5d26f912e2b8979f3576a52e41274；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c46cc01a8ca5d26f912e2b8979f3576a52e41274。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 09:54:48 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 3a8dd03419fd5c4a9c7ee163a921f9996cc7fbdc；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3a8dd03419fd5c4a9c7ee163a921f9996cc7fbdc。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -24,7 +24,7 @@ root唯一Git/pull/push/ref及workflow发布者；每条结论立即推，每pus
 
 [126 R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad，8批64接受/112trial，W279.1236575692574→49.739792814348064，20接受inner tol=false保原Armijo，全final false。8primary/64group/8fullview及域/FD/圆完整读回，raw全清。
 
-[127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success。8批64接受/130trial/66拒绝，fresh W49.73979281434833→11.126800189953372，末unit首项−4.717371832840097，全final false。14接受inner tol=false仍原Armijo；第5末FD最高1.092813e−7、末Arb1499叶/0未解，全部FD/圆保留。8primary/64groups/8fullview身份已核，原8批数止/raw全清；末primary62531B/bc100938、status1812905B/1c4e24d0、view117124B/14c62763。原wrapper b15a/family0865/search824c/readerf57及84+2/own26保持；真末p接128九H正λ=.001和129同源搜索，未预填未来接受。
+[127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success。8批64接受/130trial/66拒绝，fresh W49.73979281434833→11.126800189953372，末unit首项−4.717371832840097，全final false。14接受inner tol=false仍原Armijo；第5末FD最高1.092813e−7、末Arb1499叶/0未解，全部FD/圆保留。8primary/64groups/8fullview身份已核，原8批数止/raw全清；末primary62531B/bc100938、status1812905B/1c4e24d0、view117124B/14c62763。原wrapper b15a/family0865/search824c/readerf57及84+2/own26保持；真末p接128九H正λ=.001；[129原搜索入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)已发recipe3971018d/request45f221e1/workflow7f33349e，原8批/3600s批间和所有科学源不变，结果待读。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101已接原00e4九设计和e830同worker全112H(s)；[独立runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保持原进程组/300min总deadline/90KB原字段。完整六shape/三active453、真H路径端点全J→原FD→同owner fullDN/finalJ/audit，原门不减。fresh-circle只是初猜，新recipe须显式真九p/正λ/来源；中途收敛不冒完整接受。无实际九正λ结果。
 

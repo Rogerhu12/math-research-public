@@ -1,4 +1,4 @@
-name: visible-larger actual126 nine-control bounded temporary batches
+name: visible-larger actual127 nine-control bounded temporary batches
 'on':
   push:
     branches:
@@ -58,7 +58,7 @@ jobs:
         python-version: 3.12.14
     - name: Install unchanged original operator runtime
       run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
-    - name: Bind actual126 own-nine literals, original83 sources, wrapper and2 support sources
+    - name: Bind actual127 own-nine literals, original83 sources, wrapper and2 support sources
       run: |
         python - <<'PYPINS'
         import ast,hashlib,json,os,subprocess
@@ -66,7 +66,7 @@ jobs:
         repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
         input_root=Path(os.environ['VISIBLE_INPUTS']);input_root.mkdir(parents=True,exist_ok=False)
         raw=(comp/'public-nine-control-batch-request.json').read_bytes();request=json.loads(raw)
-        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==127
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==129
         assert request['schema']=='public-nine-control-own-source-temporary-batch-request-v1'
         assert request['lanes']==['smallcoreresonance']
         entry='geometry_20261115_small_core_nine_control_curved_recipe.py';family_name='geometry_20261115_small_core_nine_control_family.py'
@@ -77,7 +77,7 @@ jobs:
         assert request['source_sha256'][entry]=='824c0967e5de5cc9079a80018b66b1232c78ce406a6de4e0d7ab4cdee876bdaf'
         assert request['source_sha256'][family_name]=='086572f9a9fc172d671f050e9b343b66c4a57c5c88867537a1e8a3daa5ab9629'
         assert request['workflow_support_source_sha256']['root_20261115_small_core_nine_control_curved_scalar_readout.py']=='f57a7dfae95f3e629aa412003e10ea4e32a9821b754c3d575318f97b09b7317d'
-        expected=json.loads(r'''{"parameters":[0.35492774711914105,0.21566361592859798,0.4379141866432249,-0.07589766636480334,-0.029272702912017837,0.7848308334598069,0.6773078757503707,0.4883556214691533,0.21781452899246784],"backtracks":20,"candidate_resonance_tolerance":1e-08,"interval_bits":160,"interval_depth":14,"original_mesh_nodes":699,"field_modes":112,"tail_modes":112,"physical_angle_grid":2048,"material_and_boundary_angles":4096,"original_RHS_workers":1,"initial_relative_radius":0.1,"candidate_steps":8,"normal_iterations":12,"normal_backtracks":20,"normal_target_tolerance":1e-08}''')
+        expected=json.loads(r'''{"parameters":[0.32187323564609926,0.21204423511345535,0.3992005008064338,-0.08290967451783622,-0.021154050830509367,0.8576496337449642,0.9744108740349993,0.6297613969180598,0.43487814523197305],"backtracks":20,"candidate_resonance_tolerance":1e-08,"interval_bits":160,"interval_depth":14,"original_mesh_nodes":699,"field_modes":112,"tail_modes":112,"physical_angle_grid":2048,"material_and_boundary_angles":4096,"original_RHS_workers":1,"initial_relative_radius":0.1,"candidate_steps":8,"normal_iterations":12,"normal_backtracks":20,"normal_target_tolerance":1e-08}''')
         assert request['diagnostic']==expected
         for path,blob in request['reviewed_README_blobs'].items():
          assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply new rules'
@@ -95,7 +95,7 @@ jobs:
         assert request['source_closure']['origin_producer']==closure
         item=request['parameter_recipe'];recipe_raw=(repo/item['file']).read_bytes()
         assert len(recipe_raw)==2288==item['bytes']
-        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='e667ca5fcd73821b1394e09459022cd0b4c1f2310cb31deab2e036c75ef1adc0'
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='3971018d8c164fbbbc90ab385ea7f26bbfc935f47ef066897eb7841fa583859a'
         recipe=json.loads(recipe_raw)
         assert recipe['schema']=='R259-explicit-nine-control-raw-quadratic-shape-recipe-v1'
         assert recipe['literal_parameters']==expected['parameters'] and recipe['origin']==item['origin']
@@ -104,10 +104,10 @@ jobs:
         assert recipe['origin']['producer_file']==entry
         assert recipe['origin']['producer_schema']=='R259-nine-control-full-three-two-normal-curved-trust-recipe-v1'
         assert recipe['origin']['producer_sha256']==request['source_sha256'][entry]
-        assert recipe['origin']['run_id']=='43699369075' and recipe['origin']['source_commit']=='b80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a'
-        assert recipe['origin']['status_sha256']=='0b18be04bcd7331138c326d78a4975fdfb11fbc9a5b1b60418c0159812c8848b'
-        assert recipe['origin']['log_summary_sha256']=='c3126e3d46b1be0e3880e8f096db9b79172ef7649484e4ac4d94f9630ffa0613'
-        assert request['original126_summary_provenance']['available_primary_is_normal_not_metadata_over_budget_fallback'] is True
+        assert recipe['origin']['run_id']=='43700393105' and recipe['origin']['source_commit']=='47bda30230e7aea8a85b5ecd039832c023249f87'
+        assert recipe['origin']['status_sha256']=='1c4e24d005620ec08e87bf4450cd69e8d5d2f1203922a73cf122b1c9c859ab74'
+        assert recipe['origin']['log_summary_sha256']=='bc100938dfdc657560e84d52b49f5432cfb94c7b4e2d251bd1147ced09033bd5'
+        assert request['original127_summary_provenance']['available_primary_is_normal_not_metadata_over_budget_fallback'] is True
         assert request['trust_radius_restart']['per_batch_initial_radius']==0.1
         assert request['trust_radius_restart']['continuation_of_stored_trust_state'] is False
         assert request['scalar_family']['zero_added_quadratic_bitwise_equality_is_not_an_acceptance_or_execution_gate'] is True
@@ -125,7 +125,7 @@ jobs:
         (out/'original-input-paths.json').write_text(json.dumps(paths,sort_keys=True)+'\n')
         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
         assert head==os.environ['GITHUB_SHA']
-        print(json.dumps(dict(event='request127-source-input-identity',source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),source_count=84,workflow_support_source_count=2,origin_child_source_count=26,current_child_source_count=26,parameter_recipe_sha256=request['parameter_recipe']['sha256'],actual_origin_summary_is_fallback=False,parent_model_arrays_reused=False,math_inputs_restored_only_under_RUNNER_TEMP=True,old_publisher_executed=False,raw_output_retention=False)),flush=True)
+        print(json.dumps(dict(event='request129-source-input-identity',source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),source_count=84,workflow_support_source_count=2,origin_child_source_count=26,current_child_source_count=26,parameter_recipe_sha256=request['parameter_recipe']['sha256'],actual_origin_summary_is_fallback=False,parent_model_arrays_reused=False,math_inputs_restored_only_under_RUNNER_TEMP=True,old_publisher_executed=False,raw_output_retention=False)),flush=True)
         PYPINS
     - name: Restore original78 public numerical source files once
       run: |
@@ -165,7 +165,7 @@ jobs:
          baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
         old={name:item['blob'] for name,item in runner.BASELINES.items()}
         runner.BASELINES=baselines
-        print(json.dumps(dict(event='request127_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_diff_and_stop_on_new_rules_retained=True)),flush=True)
+        print(json.dumps(dict(event='request129_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_diff_and_stop_on_new_rules_retained=True)),flush=True)
         request_path=comp/'public-nine-control-batch-request.json'
         request_sha=hashlib.sha256(request_path.read_bytes()).hexdigest()
         argv=[sys.executable,'-u',str(comp/request['execution_entry']),
@@ -174,8 +174,8 @@ jobs:
           '--original-input-paths',str(out/'original-input-paths.json'),
           '--rules-directory',str(out/'rule-sync'),
           '--out',str(out/request['output_directory'])]
-        print(json.dumps(dict(event='request127_nine_control_batch_argv',argv=argv,
-          batch_chain=request['batch_chain'],same_nine_control_family_as_actual126=True,
+        print(json.dumps(dict(event='request129_nine_control_batch_argv',argv=argv,
+          batch_chain=request['batch_chain'],same_nine_control_family_as_actual127=True,
           all_nine_parameter_columns_retained=True,
           actual_initial_parameters=request['diagnostic']['parameters'],
           each_original_batch_resets_radius_point_one=True,
@@ -223,7 +223,7 @@ jobs:
          target.resolve().relative_to(runner)
          if target.is_dir():
           own_tree_writable(target);shutil.rmtree(target);removed.append(str(target.relative_to(runner)))
-        print(json.dumps(dict(event='request127_temporary_scientific_payloads_removed',relative_directories=removed,compact_chain_index_step_precedes_cleanup=True,readout_success_not_inferred_from_cleanup=True,raw_artifact_or_Release_upload=False)),flush=True)
+        print(json.dumps(dict(event='request129_temporary_scientific_payloads_removed',relative_directories=removed,compact_chain_index_step_precedes_cleanup=True,readout_success_not_inferred_from_cleanup=True,raw_artifact_or_Release_upload=False)),flush=True)
         PYCLEAN
   report:
     name: Bounded chain index only; all original batch primaries and direction segments remain in compute log
@@ -245,7 +245,7 @@ jobs:
         import hashlib,json,os
         text=os.environ.get('CHAIN_SUMMARY','')
         if not text:
-         payload=dict(schema='request127-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         payload=dict(schema='request129-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
          raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
         else:
          raw=text.encode('utf-8')
@@ -253,8 +253,8 @@ jobs:
          if len(raw)!=int(os.environ['CHAIN_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['CHAIN_SUMMARY_SHA256']:
           raise ValueError('The original compute-to-report JSON output identity changed')
          json.loads(raw)
-        print('BEGIN_VISIBLE127_CHAIN_SUMMARY')
+        print('BEGIN_VISIBLE129_CHAIN_SUMMARY')
         print(raw.decode('utf-8'))
-        print('END_VISIBLE127_CHAIN_SUMMARY')
-        print(json.dumps(dict(event='visible127-chain-summary-sha256',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
+        print('END_VISIBLE129_CHAIN_SUMMARY')
+        print(json.dumps(dict(event='visible129-chain-summary-sha256',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
         PYREPORT

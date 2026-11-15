@@ -52,3 +52,5 @@
 - [R290：actual127八批64接受与130原试探](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)：fresh W49.73979281434833→11.126800189953372、14接受inner tol=false，全final仍false；保第5末FD1.092813e−7及所有域/圆责任，8primary/64groups/8完整view原身份已核，仅8批数停止，真末九p继续。
 
 - [九冻结450 v2显式H(s)父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)：5e95afdb/92cfb070分别绑定00e4或0433真实producer及完整来源/H回执，原两有限标量路径/450求解数学保持；无实际父、参数或run，回执不冒缓存/接受。
+
+- [request129：actual127第8真末九p原批次继续](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)：原84+2/own26/全部科学源与8批资源合同保持，只换真实参数来源及传输身份；recipe3971018d/request45f221e1，无未来接受预填。

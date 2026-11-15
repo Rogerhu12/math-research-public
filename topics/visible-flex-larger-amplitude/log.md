@@ -287,3 +287,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 九冻结450 v2实际producer兼容源
 
 [完整v2接口](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)及两源相对差异已完整读取，5e95afdb/92cfb070独立schema明确支持真00e4/0433父和真自身v2；保各自完整闭包与H端点原receipt，不重标或伪读已删payload。旧070b/1610及原点/批算法、全部450科学/main AST保持，无本地科学、新fixture或未来接受值；SavedPrefix/closed适配继续。
+
+### 2026-11-15 request129从actual127真末九p接续
+
+[完整接口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)和recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e已发布。root已读完整request/workflow差异和原第8参数/primary身份；原family0865/search824c/wrapperb15a/readerf57、84+2/own26、.1重置/8×8/全FD/Arb/圆/final门不改。source闭包/科学输入/runtime/batch合同逐原文本保持，无本地科学/新增测试或接受门；真正原读回后继续，128非零实验独立。

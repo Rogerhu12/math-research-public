@@ -14,7 +14,7 @@
 
 [R290实际127](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87、compute132770038307/report132770558044均success，八批各8接受，共64接受/130trial/66外拒绝。fresh W49.73979281434833→11.126800189953372，末unit[-4.717371832840097,-.0018359077734816124,-8.732263938333927e−6]，所有五final标志仍false。14次接受inner tol=false均由原完整Armijo裁决；后3批首接受1/16、末radius.00625，继续保真实回溯，不添内tol门。
 
-八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。真正末p只取R290原值接129同源原批次，同时128明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
+八批初末全部九列三档FD有效，但第5末eta3最高1.0928131834783939e−7，不能概括统一e−9；新Arb末1499叶/0未解及原完整453圆域/两RMS/边界已读。8primary/64完整方向组/8fullview逐字身份吻合，无moved/omission；链96.12924756899997秒，仅explicit_independent_batch_count_completed，raw全清。[129完整入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)已从R290真第8末九p形成：recipe2288B/3971018d、request41954B/45f221e1、workflow18134B/7f33349e，84+2/own26与原wrapper b15a及全部科学门/8批预算不变，实际结果待读；128另明确正λ=.001九H(s)完整112实验。原搜索的低三通过与否均不能替代高109/完整112/native非零场。
 
 此前三/四/六控制的实际106–121、归一化、微步全拒、补控制及传输责任见检查点与原notes。121第五正常summary93000B引fallback，wrapper70是传输停止；第五trial原件已删不能补造。当前126不重命名为121未保存现场。
 
