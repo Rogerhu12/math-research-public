@@ -271,3 +271,7 @@
 - **保原D的交换resolvent与同源合法链平滑。** [完整证明](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)构造uniform2的R_x，与D/C/cut对易且保持核旗，R/R*强趋I；整合法链差在同K_Q，paired commutator零、两端与原w锚保全。future端交换能量1/x、完整ℒ残量12/x及整旗行81/x已付，非正交返回仍开。
 
 - **原正常9维pencil非幂零。** [精确原点证书](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)三点真实计算0.049385118秒，s4非零trace排全正常有限几何级数逆，不否九目标及完整Γ反馈。
+
+## 2026-11-15：原连续尾的全阶共同热平滑
+
+[统一扇形形式、全阶热平滑与同顶部配对](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)证明同一T_x=e^(−xℒ/4)满足uniform e^.5和全部||ℒ^kT_x||≤e^1.5 k!(8/x)^k，保原D/C/孔cut、完整两端partial及同一实际u配对。完整正交旗交换行<160||v||²/x；非正交返回预算与普通N=M仍未解决。
