@@ -69,3 +69,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:12:06 UTC — common-T 完整最小势预算
 
 全文核B1–19；newton独核B2–5完整遗漏级数与B14–15普通/T导数。原root15+完整M3付新增K5，所有reciprocal/finite-z denominator须同一域真下界；未把free-Airy源冒充共同参考列。独推完整12776B证明，归档此前H(9908e050a8336020ef2602dc967eaa890a424b6dac909a9bd956d16b1033c331)并压缩已归档原run细节留当前接口。README 824aa442dd7cd49f3b18bfe8110c42779d680743 两项无变。
+
+## 2026-11-15 06:21:44 UTC — 帽有限 Sobolev 球进入真实物理曲率有限jet域
+
+全文核F1–24，并回读T24原实际端点/完整S20–21及C10的H费用：fixed Π0相位、signed m、real j范围、finite inverse递推、D_j组合r!²和physical A0读出全部保。tail另独核组合常数。独推11688B证明，原两curvature mean独立；新数学仅符号推导。README 72fa825bb954ac14836c3666ccae18dba0fa7173两项无变。

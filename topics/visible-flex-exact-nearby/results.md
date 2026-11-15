@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 有限帽球到真实物理曲率 jets（2026-11-15）**：[F.1–F.24](results/R133-supplement-cap-finite-Sobolev-ball-to-physical-curvature-jets.md) 从完整 M_{8212} 半径2^{-8388608}球、固定完整逆规范H与实际 endpoint数据，沿真实相位/mean/reciprocal证明0≤q≤8192的 physical Z jets<q!128^q2^{-36}。完整曲率差费<2^{1048576}||zcap||；最后才作nonmean投影，两个实际curvature mean另保。11688B；blob950edb77252f1cb5822da8418234221773ce0972；SHA256a31faadf521ea4ff71f096e01555fc6aef1c498db00077ccbad13d50a96b8d11。无未知复角延拓/新数值，非全匹配存在定理。
+
 - **R133 common-T 势与两阶 T 导数的完整最小预算（2026-11-15）**：[B.1–B.19](results/R133-supplement-minimal-complete-common-radial-potential-and-derivative-budget.md) 从原0..15根jets/三阶整复域付K至5阶及其余至4阶的完整尾；signed c/V抵消后一次生成W、V、V_T、V_TT。整个复z盘|z|≤97^{-2}保全部|j|≥97和双sign，物理even mean独立。所有κ/η/Abar及旧圆gap、真实inverse-image、seam与非零G入口列为实际数值合同，未宣称这些门或参考两列成功。12776B；blob71064dc5456a0ff8f4f0f3326b51d79d6e478163；SHA256cae161da962d9dc6e8f53934ebdf5b2410f75718439736f1b61d673ed6fe6fe5。
 
 - **R133 实角的完整弱 DN / density 接口（2026-11-15）**：[D.1–D.17](results/R133-supplement-real-angle-full-weak-DN-and-good-density.md) 从完整圆周双积分核证明 j∈[1/2,2] 时 scalar height H^{1/2} 与 conormal density H^{-1/2} 正逆各<5；同一 j 的 DN差<25倍、相对完整型误差准确不变。真实非自伴配对、独立N23/N24源、curvature两mean/高度gauge保；density good导为 δλ−∂x(ηn)，不可用scalar good导代替。10142B；blob24110ae1ae005f7c279a776e737ca4009f42c905；SHA25610b50937ac99443f130625424fa672ad0ad3c674e5039e32be5dddf1f9fb3c84。未把共拉回参考换成裸Dx乘子，未授physical DN差。
