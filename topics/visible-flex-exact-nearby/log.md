@@ -67,3 +67,11 @@ root原检索发现正侧fullδ早已成功，不需拟议的新δ转移。亲�
 ## 2026-11-15 15:14:37 UTC：四件旧可再生数值输出普通清理与日志压缩
 
 精确白名单3a55b0030967f9b1c486756279882633d763ce2f /16543B /SHAae406265c1e9c68df3eb30b3aef3e94d1a7913e1b4a1802f4d8e2a789d83d30c。R91 factorized383440B、R64 collar264350B、R66 family-collar265160B、R95 quarter-lift136084B，合1049034B；root亲核13个现存小manifest/producer/proof的字节SHA与执行参数/成功范围，immutable dc10bb948416e2f89f4cd487867b6a06cceb5f48四层Git tree及四输出blob/size精确匹配。fresh main同路径metadata guard后普通删，不读大输出body，不重旧成功数学，不重写历史。每件原path/wholeSHA/bytes/参数/输入pin与scope保清单；R66 55格根collar与已删64格graft不混，R95完整contact不冒primal/dual gap。当前日志仅移旧文本到52bc87b9同log永久历史，并保最近上下文；所有未付义务/失败/恢复均保。下一consumer实际重新清点容量，未把删除前199263450B冒当前实测；0b166cbd163233c727dd074e8abc8eafbace5f1d两README无变。
+
+### 2026-11-15 15:20:45 UTC — RJ 实际27门与完整十项核验，继续传播主线
+
+报告2f2a51cedbd4213293328e48ce3841f9009bfe8d/31628B/b39ef91597d5a5d2063d5a2b558d496590b27803fc972ee79d92d7036e6d33ee全文亲读。原execution d43351d3/58674B/042031e1、actual-result.md b444bc0f/15444B/816acb6b亲读；27门全true，10accepted=BG且selected=new，21其他term/local/W2/域/units逐字同。103球79unique全找到原件，唯一KaTeX +/-只做文字正规化。run43728317408/1 job132855004917 15:09:48→15:10:30 success，jobs3233B/2748cbdc95893629647102ec523b540ff7547df12812ba107b47a1448a635d81独核；原publication c8fe6775612a0f337118f2fb807b41d5780b0f2c/15:10:27。math.170001514，92pins/29AST，SCI c1ed2857/worker49f31cde/manifest e0a36c82；27门与全部原旧零计数一致。
+
+Q/QT/V/Δinverse新jets接完整p/rank/g与25A，十density1全改善；pair5308194833.395487…、mean34452257.343616…、local870062069.272384…原字。旧幅度/word/calibration/dr积分无重算；真实source-to-trace、全δ端口、strict传播/waist/strong-return仍未闭。
+
+Green15:15:57 process a9f0b83591cc66ab579ed6de3efb86eae3b70c57/49507B/f25488489828007d17f78048e247bb0aa31ab89b7365fc149a4cf65e94749def亲读：future/product5970done、past3664（combined3648为早3秒）、groups62/queued114/3consumers、childnull。真实pull15:15:55.814391 35690c77→40a7a66526fbc186372664f9e796cfb5da21a9b0两README空diff；该commit完整容量198171914B，inventory f732ca7c。RJ两真实pull15:10:19/25→55285b73两README空diff。15:20检查本机本轮真CLI依然无环境，未伪称ref为pull。当前只读README核40c4026f640fb082d1d02e2f1758bc34a635ed37无变化；H/open短化前完整状态5d5024736de60ca3459a35a303835b0c8c2e4b77，全部历史义务仍有效。

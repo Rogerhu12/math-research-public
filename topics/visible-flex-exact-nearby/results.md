@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RJ：保留径向系数 jets 的实际完整源](results/R133-supplement-actual-retained-radial-coefficient-jets-and-density-one-sources.md)：public Actions 43728317408/1、27/27 门、child0，十个 density-one 项全改善，21 其他项逐字保 BG。两窗/六 true-dr/η^-1/独立均值保全，总 pair<5.308195e9、mean<3.445226e7；local<8.700621e8 原字。92 pins/29 AST，旧成功数学及积分零重算；root 全报告、103 球/79 unique、jobs 与原始回执独核。属于完整负源预算，strict传播/腰/强返回继续另付。
+
 - [既成fullδ正侧七输入图](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)及[负一阶七输入八输出](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)重新接入当前检查点：原43617150971/10与43627228225/18成功证据完整只读；后者ordinary H−2/3→raw H−1、全mean/端口/jump与独立外mean保。纠正近期压缩遗漏，不重算或称为新数学；真实source/jump/root/return接线和全Schur仍待付。
 
 - [真帽局部核与径向weighted后验](results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md)：同一真q的双向signed核、left H=0及全频/两mean加权正预算；原M域13ρ与真outer给条件χw<1后的同解Xw/右ordinary body/inner B,Cmean。DB/RBδ0另保高投影准确抵消；新λ/积分尚未执行，不授实际低门。

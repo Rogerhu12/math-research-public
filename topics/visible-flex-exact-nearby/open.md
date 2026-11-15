@@ -67,15 +67,15 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 ## 3. 真实共同参考、完整源与强返回
 
-phase_inverse负责完整负侧。此前逐字源链、输入/域/源单位、success/失败、restore与未付义务保 dc10bb948416e2f89f4cd487867b6a06cceb5f48 本路径第3节及同H/log；该快照继续指向24b/40eb/acfd与各actual。共同势/root/whole Taylor/G15/C/D/P/B/L2/G、1328/六profile/9词5mean/1079seam/653ledger/2547及2551的旧成功全部只恢复，不重FFT/fold/Taylor/transport/profile/径积分。
+phase_inverse负责完整负侧。此前逐字源链、所有源单位/域/success/失败/restore与未付义务保5d5024736de60ca3459a35a303835b0c8c2e4b77本路径第3节及H/log；原档递归保52bc/dc10bb/24b/40eb/acfd与各actual。共同势/root/wholeTaylor/1328六行/9词5mean的所有真实接口不变，旧成功禁止重算。
 
 当前仍为完整21 first+10 mean、十八正coeff、六true-dr行、两sign/两genuine列、两J窗、uncertain root和真实seam。AJ43718112378/29、RV43719681982/27、DG43720766795/27、M43721735003/23、SV43722805762/23、ER43724065270/20、S143724817779/21成功锁；原失败和lost新恢复不删。真实w1V及fullrank n^-2、q=vg−vφp和所有mean不变，SV physical n≥388逆gap不转为独立complex-z。ER七M非E逐字复用，仅raw1<4.348065e8/local<8.700621e8；S1只更新三density1，其他28原字。全部旧值/证据和校验数保上述不可变快照与各actual，不重成功闭包。
 
-[HP准确normalized p与十h](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)、[actual43726426053/1](results/R133-supplement-actual-exact-normalized-p-columns-and-complete-h-sources.md)：child0/25/math.134433171，report e9151554/execution01d99900/resultd67104c1；82pin/25AST、77旧零改。完整W(sTy,−x)+y³/y²、两density η^-1/六dr/全mean/三wholeword保，15A使十h项全改善，另21逐字S1/ER/local/W2；101报告球核。pair<1.133017e10/mean<1.104186e8；新W/Ty/Bp0/Zp可仅读，SVgap不变，成功HP禁重。
+[HP actual43726426053/25](results/R133-supplement-actual-exact-normalized-p-columns-and-complete-h-source-ledger.md)e9151554/01d99900/d67104c1锁，15A十h全改善、21原字，完整W/Ty/y³/y²、两density η^-1/六dr/全mean保。后继只读其已成标量。
 
-[BG精确leading g逆列](results/R133-supplement-exact-inverse-leading-transport-and-five-density-zero-sources.md)、[actual43726985545/1](results/R133-supplement-actual-exact-inverse-leading-transport-and-five-density-zero-sources.md)：child0/24/math.151850595，report7c53f3c6/execution7736f33c/resulteb999876；87pins/27AST、HP82零改。完整signed c*y消去、q修正/BV∂φR0/fullSG holXi/SB、六row和fullmean保；20A只改五density0、26逐字HP/local/W2，68球核。当前pair<6.749289e9/mean<5.243255e7，g0RQJ<1.746569e9/primitive<1.159522e9。新Bplus1..3供RJ只读，Bplus0端点再编码radius3.40e−64，不要求同HP字符串。源预算不等于strong-return常数。
+[BG actual43726985545/24](results/R133-supplement-actual-exact-inverse-leading-transport-and-five-density-zero-sources.md)7c53f3c6/7736f33c/eb999876锁，20A五density0全改善、26原字HP/local/W2；完整signed c*y消去/q修正/BV∂φR0/fullSG holXi/SB和全mean保。Bplus0定向再编码radius3.40e−64不冒HP原字。
 
-[RJ保径向系数jets与density1十整项](results/R133-supplement-retained-radial-coefficient-jets-and-density-one-transport-sources.md)f63693dd合同：Q=W/G及(QT)φ=Qy/2先准确消去；原Gi为fullSG scalar逆，VTTT=7U3仅读RV原正预算。14幅度/HP W/SV GXY/BG Bplus仅读，Δ逆jets/ordered rank/物理g=Dw−pφ完整；25A拟只换7first+3独立mean、另21原字BG。保原analytic列与real参数rows各自域、两窗/六dr/η^-1/全mean；新SCI c1ed2857/worker49f31cde/manifest e0a36c82已根审部署，92pins/7468911B、BG87旧dict零改；668行与稳定worker差分/flow全核，27门及实际AST待Actions，不提前称改善/GH。
+[RJ actual43728317408/27](results/R133-supplement-actual-retained-radial-coefficient-jets-and-density-one-sources.md)b39ef915/042031e1/816acb6b：child0/math.170001514，92pins/29AST、BG87零改；25A十density1全改善、21原字BG，root逐项/103球79unique核。pair<5.308195e9、mean<3.445226e7、local<8.700621e8原字。Q=W/G、(QT)φ=Qy/2、VTTT=7RV原正预算、Δ逆/rank/g完整；14幅度只读，analytic列/real rows各自域、两窗/六dr/η/mean全保。旧源/幅度/积分零重算；仍待source-to-trace/return。
 
 [K真实径reference两ordinary源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)保n^-7/6、κ/真实dr、独立F2且不微分F2，Σmode sup在积分前；root仍付n^7/6混合迹。它只授真实径reference，不授非径耦合/两端选择/GH。
 [N完整负源→strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)、[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)锁child0/17、22pins/六cut/旧math0，report59ab1bb6/execution318dd25b/result72745bf3。ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer的完整身份保。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709；.001/.002充分门失败不冒奇异，不拼不同cut最小值。
@@ -175,8 +175,6 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 
 再依规则15普通删R64/R66/R91/R95四旧数值输出1049034B，见[四件精确清单](notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json)。restore dc10bb948416e2f89f4cd487867b6a06cceb5f48同path+bytes/SHA；13份小producer/proof/manifest及原参数/输入pin保，R66 collar55格不冒graft64，R95完整contact不冒尚未付gap；成功数学不重算。
 
-每结论独推；非FF马上真pull --rebase再推到成功，禁force。
-每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，14:22:21定时及14:17两次非FF即时真pull均无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。root亲读runner SV14:10:23.119638→f584eb77a27ba508510a8ab29fb6ed938bdcc0cf、WC14:11:01.078340→868f4e139f7df0596613675e4aac00efd80f395d、Green14:15:21.938283→2319d0ca32343c59c54adb504a1be2c1830e8f07，两README diff均空；完整记录保log/actual，终端恢复即pull查差。
+每结论独推；非FF马上真CLI pull --rebase后保远端循环到成功，禁force。每小时真pull查两README，只读变化diff立即遵循并记H。15:20检查本轮CLI仍无executor；根规8准<100KB UTF8 connector，禁binary/gzip/ref冒pull。root亲读runner RJ15:10:25.173318→55285b73、Green15:15:55.814391→40a7a665，两README空diff。Green该commit完整容量198171914B；后续重核≤200MB/120KB预留。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
