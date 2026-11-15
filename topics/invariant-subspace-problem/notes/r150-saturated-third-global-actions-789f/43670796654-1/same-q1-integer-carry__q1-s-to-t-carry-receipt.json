@@ -1,0 +1,88 @@
+{
+  "TaylorCenter": 2,
+  "TaylorPrecision": 20,
+  "actualGlobalSourceCosts": [
+    175,
+    175,
+    175,
+    175,
+    175,
+    175,
+    175,
+    -1,
+    -1
+  ],
+  "all197PaidTargetLabelsAndPaddingVerified": true,
+  "allFieldJetsMatch": true,
+  "allInputTailBytesVerified": true,
+  "allOriginal6188RowsVerified": true,
+  "allOriginalRowsVerified": true,
+  "allPaidFieldCoefficientsCanonical": true,
+  "allSevenRawSectionsEqualPaidModulo31": true,
+  "bindingSHA256": "e896cf26a7404a3f711d2b81a6c2296ccb82100bf60ae7128a0fbc1b6e43ba7d",
+  "canonicalSTCarryIdentityModulo961Verified": true,
+  "carryModulus": 31,
+  "declaredGlobalBound": 177,
+  "elapsedSeconds": 4.412475494999995,
+  "evaluationModulo961SHA256": "cbe36eb9354222ffaaa553b333f746e71939813c43ed4333416581118988dcde",
+  "evaluationModulus": 961,
+  "format": "r150-raw-q1-canonical-carry-v1",
+  "globalOriginal17IdentityClaimed": false,
+  "globalQ1NonzeroCoefficientsRead": 4905506,
+  "globalSlotLabels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "globalSlots8And9ExactlyZero": true,
+  "inputPathsAuditOnly": {
+    "globalSource": "/home/runner/work/_temp/isp-r150-saturated-third-global-output/recovery/seven-q1-original/seven-q1-original-primitive-source-mod31.bin",
+    "oldKernel": "/home/runner/work/_temp/isp-r150-saturated-third-global-output/recovery/inputs/oldK.bin",
+    "paidJets": "/home/runner/work/_temp/isp-r150-saturated-third-global-output/recovery/inputs/paidQ1Twenty.bin"
+  },
+  "inputSHA256": {
+    "globalSource": "b3ffacfab605bf0cf22b46170e1ea653ba40b7a43720246d8ba80fe205b288f7",
+    "oldKernel": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88",
+    "paidJets": "4b02069c7654c942cfa6e180bec630b32b4121bf66e941443cef74b6a1cae5d2"
+  },
+  "integerCarryIdentityVerified": true,
+  "newVQOrMathematicalSearchExecuted": false,
+  "nonzeroCarryCoordinates": 737149,
+  "oldKernelNonzeroCoefficientsRead": 40324826,
+  "originalRowDictionarySHA256": "cdaef76a626df4e5874c822df6a8e36acbd8b5ae648df55fc4976e893fbfd089",
+  "output": {
+    "SHA256": "e3333681f9755146f507904f406533c99e8d553c109d808824d42e392173a1ad",
+    "bytes": 959268,
+    "coefficientOrder": "row then Taylor degree then selected source",
+    "coefficientType": "uint8",
+    "file": "q1-s-to-t-carry.bin",
+    "magic": "R150QC31",
+    "recordDictionaryBytes": 15,
+    "shape": [
+      6188,
+      20,
+      7
+    ]
+  },
+  "paidJetBindingSHA256": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+  "paidKernelLabels": [
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095
+  ],
+  "prime": 31,
+  "q2Transport": "q2_local := q2_local - c; after whole P use P*c",
+  "rows": 6188,
+  "scriptSHA256": "23a67f61007a74b03e23dacca2b77fc5f8db313a6d484cf08838b7c9a66f5b0f",
+  "sourceMap": "global slots1..7 = old K2..K8; slots8/9 exactly zero",
+  "status": "completed",
+  "verifiedCarryCoordinates": 866320
+}
