@@ -589,3 +589,7 @@ P只读统计实付完成19/第20待约化、basis24452bits/provenance44184bits�
 ## 2026-11-15 21:11:17 UTC — 实际低forcing全对正Gram与无维数moving行
 真实加权交换给整个forcing空间删除正Gram；分块共用正Mα、ΣMα≤I，变分式付Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3。
 双缺陷保同GΔ†和真实Δ，完整标量行≤(8/3)Δ²||w||²，无Q/头维损失；未搬到物理返回帽列或升范数行。原顺次MP继续，逐pull核两README后实际push。
+
+## 2026-11-15 21:13:13 UTC — 新原始子式无穷远66与首项31单位
+同E202源补的块三角单位及原13free左图给新B*余核恰fulltors，故∞66/leading31单位；原H8835、仿射degree8769，replacement≥66/cofactor≥55。
+排两历史字典临时恢复及5输入全SHA/原索引权和核，512MiB/外30秒，不造大det；旧243子式不改。逐pull核两README后实际push。

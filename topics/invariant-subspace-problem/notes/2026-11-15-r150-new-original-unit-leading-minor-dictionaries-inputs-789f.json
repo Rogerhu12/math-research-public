@@ -1,0 +1,100 @@
+{
+  "format": "r150-new-original-unit-leading-minor-dictionary-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "status": "frozen-small-dictionary-reader-not-yet-executed",
+  "source": {
+    "path": "notes/2026-11-15-r150-new-original-unit-leading-minor-dictionaries-789f.py",
+    "blob": "67f18ecd6c1a26373fb55c19ea18edff5a788e64",
+    "bytes": 10513,
+    "sha256": "653808b60f2c4a2d307e1546642892a3d4881d10033b00624e0296e452834dc7"
+  },
+  "inputs": [
+    {
+      "key": "native_model",
+      "ref": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "path": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "destination": "{work}/inputs/repo/native-normal-form-input.txt"
+    },
+    {
+      "key": "paid_full_receipt",
+      "ref": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-infinity-first-jet-receipt-789f.json",
+      "bytes": 72072,
+      "sha256": "d904b1afcd6feb6d07e310e758869aa345342f7d013773aa0c433203291c438e",
+      "destination": "{work}/inputs/repo/infinity-first-jet-receipt.json"
+    },
+    {
+      "key": "mapper_receipt",
+      "ref": "main",
+      "blob": "df3675be93e1bfba7f6bcb30c2fd17c5dbd77d3c",
+      "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-higher-two-regular202-mappers-preparation.json",
+      "bytes": 25756,
+      "sha256": "17bc63e12c112de4ec35e443cb6fc4897fab0c6ed5c3711cf9509ddcb634bc52",
+      "destination": "{scripts}/43740928483-higher-two-regular202-mappers-preparation.json"
+    },
+    {
+      "key": "left_receipt",
+      "ref": "main",
+      "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43736746064-original-characteristic-zero-free13-projection.json",
+      "bytes": 52012,
+      "sha256": "2057846f5adb75ed84f20a144f4cb2da436f9b1db5674612ac376f9b4b503248",
+      "destination": "{scripts}/43736746064-original-characteristic-zero-free13-projection.json"
+    },
+    {
+      "key": "full66_receipt",
+      "ref": "main",
+      "blob": "de765f02df3d6f3ee8a1724c10742f18264170e6",
+      "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-infinity-complete-tenth-after-high-probe.json",
+      "bytes": 15355,
+      "sha256": "bd3bd1c9395562b2b34baed09864f2b2a5650f4f3a9da949c35f843e0b2cf0ad",
+      "destination": "{scripts}/43756208221-infinity-complete-tenth-after-high-probe.json"
+    }
+  ],
+  "argvTemplate": [
+    "--native-model",
+    "{work}/inputs/repo/native-normal-form-input.txt",
+    "--paid-full-receipt",
+    "{work}/inputs/repo/infinity-first-jet-receipt.json",
+    "--mapper-receipt",
+    "{scripts}/43740928483-higher-two-regular202-mappers-preparation.json",
+    "--left-receipt",
+    "{scripts}/43736746064-original-characteristic-zero-free13-projection.json",
+    "--full66-receipt",
+    "{scripts}/43756208221-infinity-complete-tenth-after-high-probe.json",
+    "--out",
+    "{work}/new-original-unit-leading-minor-dictionaries-receipt.json"
+  ],
+  "resourceBudget": {
+    "memoryMiB": 512,
+    "expectedSecondsUnder": 10,
+    "outerTimeoutSeconds": 30
+  },
+  "mathematicalPrerequisites": [
+    {
+      "path": "results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md",
+      "blob": "c93addf114642045331d3d7c27008b1c50ed4ebd",
+      "bytes": 11655,
+      "sha256": "b5b388fd28488ca06a045feb51db0a234e6d96dcdbe9f71252cca210bc0b0f92"
+    },
+    {
+      "path": "results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md",
+      "blob": "a8ae90acfa39e0b16a3fabcee4e0630636cc0b9a",
+      "bytes": 9664,
+      "sha256": "cbc77ce0ec52dfde7390d2e1a87444655de6c7ee02227232685bbdf559a3ac7a"
+    }
+  ],
+  "outputs": {
+    "receipt": "{work}/new-original-unit-leading-minor-dictionaries-receipt.json",
+    "largeOutputs": false
+  },
+  "scope": {
+    "originalDictionaryArithmeticOnly": true,
+    "newMatrixElimination": false,
+    "newLargeDeterminantEvaluation": false,
+    "oldSelectedOrder243MinorUnchanged": true,
+    "onlyTemporaryHistoricalInputs": true
+  }
+}
