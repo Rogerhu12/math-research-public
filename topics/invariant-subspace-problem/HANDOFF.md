@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 461a49af24caa186365ea8353d2e2f83ce38d727（2026-11-15 14:53:42 UTC，Actions run43726822740实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43726822740-1.json。
+- **最近成功实际 pull 与已读规则提交：** efdea4a20c4a53a9d90e350f119b84ca22b8b6b9（2026-11-15 14:57:33 UTC，Actions run43727160653实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43727160653-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -31,6 +31,8 @@
 - 18准备输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。系统FLINT3.4.0/g++15.2.0实际可用；wrapper15b4fcae…/native d592f208…已根完整审，接口单独存档。
 - 累计step49首600实际到653完整digits/18938bits、16重建未成，非数学失败；binding2cd043a0…，p536870923。slot0=185877697B/ff745877…，inverse74580576B/29a660c2…，input9919512B/02a794f5…；raw5420B/ec62ce00…，全整digit除法真、77724单位产品尚未完成。累计step50同源码/out续1200秒/4GiB --through final，复用inverse/653位及所有完整阶段；先真单位解再全4354回填、2缺二阶/4缺三阶/joint24/21与29×81完整第四秩，未预填结果。
 - 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
+
+- 累计step51负六原投影入口73c11b1d…已审排60秒/1GiB：真224×155、170原行+54个g倍行，保918原one-normal及5100高行；只除η_i的局部单位，不除g。0…4阶完整unit-Schur实算；仅δP实达原全长上界12才闭九目标局部像，尚未报结果。
 
 ## 原同w边界：完整负部仍开
 
