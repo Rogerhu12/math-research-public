@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 3aef181804f66fa2029524f5d757ea85db2b66d7（2026-11-15 11:51:33 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 0e4b7e602d60c3767d0c162ed2a41b8b281180a4（2026-11-15 11:55:06 UTC，Actions run43711202875实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43711202875-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -11,13 +11,13 @@
 
 ## 完整旧状态与当前入口
 
-全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-true-global-anisotropic-readout-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
+全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-canonical-anisotropic-formal-readout-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
 - 原A为4367×6188、泛秩4354，同I,J4354/H8770；h0度24≠H0=(s−2)h0。[常数模型](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)给Q/F31同选秩4318/核36及D31单位规范；原完整细节、29显式核及p768身份保H全文。
-- [完整selected余空间](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：full49=20pure+29、square36=10pure+26，Q/D31/F31一致；高normal≥3在selected像，36常核full一阶可升，非新formal曲线。
-- [特征零自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：同I,J/u，33头全部143682原产品真；λ0=ΛCc、λ1=E_oldXc+Λd，保36常核自由。D31[[u]]消I4318/uI3给第二Q下界9，未另验额外13输出。
+- [完整selected余空间](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：full49=20pure+29、square36=10pure+26，Q/D31/F31一致；常左核normal≥3零，36常核full一阶可升。
+- [自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：同I,J/u，33头/143682原产品真；D31消I4318/uI3给第二Q下界9。完整旧E/X和36常核自由保留，额外13输出未验。
 - [第二真22头与条件费8627](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：新gauge只换1坐标，fielddet11/M0′31rank1546/unitdet5；103.869162799秒、全95788原产品，normal≤3完整头22维，故9≤Qβ2≤11，未排normal4/5。36/33/22阈值给同选D阶≥91/cofactor≥88，原换列正则Laplace≥88；K99下q8428…8580，非基8624/transfer8627/目标209，统一条件8627，原成员性未付。
 - [∞第二连接](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)恰β1=4、β2=0。两端第五均17真头，累计≤4/4/5/8/10、公共53/47；零点不假r1=4/β2=0。[K99](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)=s39K60，degree99/lc5^6为31单位。当前条件费用8627。
 - [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：同样17真头、累计≤4/4/5/8/10，完整公共53/47。29曲线指定82/81/75已被91/88/88改进。两端受限第五余rank2均非完整连接下界。
@@ -33,7 +33,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 
 - 任意四头反例、首bit完整Schur、三列硬核正角见H归档；原W移动整行上界/普通封口仍未付，原反向投影无已付速率。
 - [联合归一bit反馈](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)：原Ni保carry、ΣNiNi*≥I−Ptop，同H给核内dist²≤C_m整行能量。任意原w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²；原W只付每个固定i列强零，移动全行上界仍开，正查相邻投影/同W共同抵消。
-- [低物理孔真实借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：保每词未归并频数，E≥(C/4)^4；原N/Y所有头及全局||A^kP≤s||≤6^k exp[−(770/256)(k−s)+^4]。完整H低源压缩≤D_s=exp[1+sτ+τ^(4/3)]、完整逆低源二次型≥D_s^-1；等权池真实Green只投低孔输出可付4D_s(S/4)/S，保原H_pool^-1。N型低孔测试同核反馈行≥(m−s)D_(s+1)^-1||P_m^Bf||²。仅付等权池此读数；原W整行上界继续。
+- [低孔借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：原N/Y全头/全局6^k四次借位界、完整Gram低源与等权池低输出已付；逆不保孔数，原W移动整行仍开。
 - [原连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)给强头7^k四次借位界与L_m局部B_s(x)，保全部强位、逐孔尾逆及完整核。
 - Riordan已付完整右/裸/全旗及同窗误差O(C0²h/Q)→0；不运输整个左L。原强gauge末端与返回主项未付，须保原Cg及完整Gram逆。
 - 等权长池L≥2d完整Green已付；原连续尾固定f的O(R³)、共同高孔残量及ordinary两费仍开，特定Artin大列不下界真Green。
@@ -41,6 +41,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - [增长远孔](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)同B_s扩至Pstr≤s Pfar≤N、N≤floor(x/48)，完整MP为G*(I−Pker L_m)；不替PEhat/正向返回。
 
 - [原T定量运输](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：u=N+s+1024、m=ceil log2u、x=48u，初始G0输出孔<4u；全部carry在X3中≤B_s e^(-40u⁴)。用已付G3一次修正得TGtrue=Π，Π(T*)†=Gtrue*(I−PkerT)，固定s成本exp[O_s(log^(4/3)(N+2))]。仅低早孔/增长远孔乘积窗口，原W/返回forcing仍待运输。
+
+- [同N⊥规范形式读数](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：(s,N+1)真右逆经远位Ni平均后T Gtilde=Π、range⊂任意RanB^r、norm≤2B#。完整有限旗给(Gtilde−J)Π⊂N，故真实f∈N⊥（含W）的形式h有Πh=Gtilde*f及同准多项式费；未假h∈H，不放宽MP域。实际返回投影/相邻孔通量仍开。
 
 ## 临时数学会话与恢复
 
