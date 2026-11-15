@@ -1,11 +1,11 @@
 {
-  "request": 84,
-  "requested_at": "2026-11-15T01:52:58.469649Z",
+  "request": 86,
+  "requested_at": "2026-11-15T02:30:04.598398Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "From the exact actual79 new warm/status pair, add only the nearest observed original left-RMS465 grid to all24 retained queries. Actual79 accepted alpha1/32; its nearest alpha1/16 had every original node/midpoint and all24 modeled grids valid, actual merit decrease, and only left-RMS465 invalid in the full original RMS pass. Use17LEFT+8MID=25 grids/51200 rows, full actual/declared local nodes465..486+p=7439, same C4059 and complete outside offsets including465. Capture the added endpoint465 from the same original full A/J. Keep lambda270, 512/200, all original budgets/trials/FD/domain rules. Do not add the farther midpoint487 or claim a larger step or accepted BVP.",
+  "purpose": "Relinearize exactly once at the actual84 saved warm/status pair using the unchanged twenty-five-query own-schema source. Actual84 accepted alpha1/4 with all original node/midpoint and both RMS families valid and real affine Rphi FD passed. Its nearest rejected alpha1/2 failed at original midpoints479/486/487 and the already modeled selected left-RMS465; the original full RMS scan and actual merit were not reached there. Retain all25 queries/51200 rows, actual7439 support, C4059 and complete outside offsets, lambda270, 512/200 and all original budgets/seventeen-trial/FD rules. Do not attribute the rejection to one omitted midpoint or add a query. Build a fresh model at the new optimization warm, preserve its complete producer tree and keep scientific success false unless the separate original full BVP/tail procedure actually accepts.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -63,9 +63,9 @@
     "geometry_20261114_twenty_five_query_condensed_response.py": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d",
     "geometry_20261114_twenty_five_query_collocation_observer_warm.py": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55"
   },
-  "actual_parent_run": 43663293492,
-  "actual_parent_warm_sha256": "565e2487317ffbc85560dd01efa2cfb4e479447d51a17216deb4ef61f55b4504",
-  "actual_parent_status_sha256": "e790e998ed6eebdc084546131e206dd4e5d723aebf7f92830b3153f82a25a8c0",
+  "actual_parent_run": 43666177645,
+  "actual_parent_warm_sha256": "fead4e7b8c1c78b62c8adef0d122a09ea12e7e3a94b0586ba2e59a63c3b429af",
+  "actual_parent_status_sha256": "8ad4ae64ccf4a84106a22db9f60c3abedfe4efae67d467b59aa6c06480b9bbde",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -86,7 +86,7 @@
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
   "original_left_RMS482_retained": true,
-  "new_queries_added": true,
+  "new_queries_added": false,
   "source_entry": "geometry_20261114_twenty_five_query_collocation_observer_warm.py",
   "mathematical_producer": "geometry_20261114_twenty_five_query_condensed_warm.py",
   "observer_read_only": true,
@@ -94,7 +94,7 @@
   "original_midpoint481_retained": true,
   "original_left_RMS468_retained": true,
   "one_complete_model_call": true,
-  "actual_parent_source_commit": "31d2ad909638aa3eb3211a9ea0feed632c0e9a2b",
+  "actual_parent_source_commit": "39799fc1a52b91629b3deed3b4fb45e29ae7b6e7",
   "complete_B_physical_nodes": [
     465,
     466,
@@ -133,73 +133,149 @@
     486
   ],
   "nearest_rejection": {
-    "parent_run": 43663293492,
-    "original_model_sha256": "66f99fcc91f07ad472fab3f0d7a65f2a30fdc12afabb75f3820a78cebf20f174",
-    "original_trial_index": 4,
-    "alpha": 0.0625,
+    "parent_run": 43666177645,
+    "original_model_sha256": "53b62f1ec963c917f4587ba655fab170568360a8eb719eb06e2303d36b298ae6",
+    "original_trial_index": 1,
+    "alpha": 0.5,
     "accepted": false,
     "all_original_nodes_valid": true,
-    "all_original_midpoints_valid": true,
+    "all_original_midpoints_valid": false,
     "original_node_failure_count": 0,
-    "original_midpoint_failure_count": 0,
-    "all_previous_twenty_four_modeled_grids_valid": true,
-    "existing_selected_query_failures": [],
+    "original_midpoint_failure_count": 3,
+    "all_previous_twenty_five_modeled_grids_valid": false,
+    "original_bad_midpoints": [
+      {
+        "interval": 479,
+        "station": 1.217222883746318,
+        "middle_input_finite": true,
+        "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.02975376921808004,
+          "angle_index": 131,
+          "phi": 0.401902966426038,
+          "negative_count": 4,
+          "zero_count": 0
+        },
+        "original_scalar_jets": [
+          1.1870987372875565,
+          -0.19054973950294768,
+          -2.4541938553924365
+        ],
+        "original_middle_sha256": "29962d6eb55af0e7c5f8e7caa737462d37c2118c2ae51872ac0153f9be5e58db",
+        "original_midpoint_rhs_sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+        "raw_original_arrays": {
+          "file": "midpoint-observer/evaluate-0003-midpoint-00479.npz",
+          "bytes": 9563,
+          "sha256": "36dcd0ab44c3f344dcbd147c3e58c039d8f20e62d79794bb528634081031227b",
+          "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+        }
+      },
+      {
+        "interval": 486,
+        "station": 1.2516837037373927,
+        "middle_input_finite": true,
+        "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.011979899118687687,
+          "angle_index": 1005,
+          "phi": 3.083301383650139,
+          "negative_count": 8,
+          "zero_count": 0
+        },
+        "original_scalar_jets": [
+          1.1790840214108724,
+          -0.2743119815065325,
+          -2.4041018811631605
+        ],
+        "original_middle_sha256": "5b96692a03275d91bae11a1357ce9f440493c73676001f6a986f9c19d72721fe",
+        "original_midpoint_rhs_sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+        "raw_original_arrays": {
+          "file": "midpoint-observer/evaluate-0003-midpoint-00486.npz",
+          "bytes": 9666,
+          "sha256": "919af47409da9eca52c93c02bada2d631cfa41233478b755a0cd6b3495767093",
+          "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+        }
+      },
+      {
+        "interval": 487,
+        "station": 1.2566681552371528,
+        "middle_input_finite": true,
+        "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.04159807851745456,
+          "angle_index": 982,
+          "phi": 3.0127382674073995,
+          "negative_count": 4,
+          "zero_count": 0
+        },
+        "original_scalar_jets": [
+          1.1776868977517243,
+          -0.28627350334365187,
+          -2.3953698582934853
+        ],
+        "original_middle_sha256": "ae4d55ac96820bec521fcf8a64bf5313af8b3ab988e05587b5724248d82c511e",
+        "original_midpoint_rhs_sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+        "raw_original_arrays": {
+          "file": "midpoint-observer/evaluate-0003-midpoint-00487.npz",
+          "bytes": 9618,
+          "sha256": "e311d113e95946a53e783fd2ef1ccdd33a692c4b35496bbbcb8e123bb1f052e9",
+          "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+        }
+      }
+    ],
+    "existing_selected_query_failures": [
+      {
+        "query_index": 0,
+        "kind": "left-RMS",
+        "interval": 465,
+        "fraction": 0.17267316464601146,
+        "station": 1.1603320320063233,
+        "original_query_input_finite": true,
+        "original_beta_squared": {
+          "finite_count": 2048,
+          "nonfinite_count": 0,
+          "minimum": -0.953396699525703,
+          "angle_index": 65,
+          "phi": 0.19941750242513334,
+          "negative_count": 12,
+          "zero_count": 0
+        }
+      }
+    ],
     "original_linear_beta_squared": {
-      "size": 49152,
-      "finite_count": 49152,
-      "minimum": 0.0011482324473354715,
-      "maximum": 0.9997745486535188,
+      "size": 51200,
+      "finite_count": 51200,
+      "minimum": 0.0008750389292574434,
+      "maximum": 2.1861120489197017,
       "negative_count": 0,
       "zero_count": 0
     },
-    "full_original_RMS_scan_executed": true,
-    "original_RMS_query_checks": [
-      {
-        "fraction": 0.17267316464601146,
-        "points": 698,
-        "invalid_count": 1,
-        "first_invalid_points": [
-          {
-            "interval": 465,
-            "left": 1.1594713509918353,
-            "right": 1.1644558024915952,
-            "s": 1.1603320320063233,
-            "a": 1.193937869693328,
-            "ap": -0.04947478091233733,
-            "app": -2.4969384329285087,
-            "minimum_beta_squared": -0.421944063367393,
-            "phi": 0.0,
-            "curve_curvature_at_minimum": 0.03475048706032548,
-            "scalar_parameters": [
-              -1.4605208188738784e-18,
-              6.317643981509982e-19,
-              -1.0784609328182093e-18
-            ]
-          }
-        ]
-      },
-      {
-        "fraction": 0.8273268353539885,
-        "points": 698,
-        "invalid_count": 0,
-        "first_invalid_points": []
-      }
-    ],
-    "actual_merit_evaluated": true,
-    "original_fixed_weight_merit_before": 43.57627837509625,
-    "original_actual_merit": {
-      "actual_fixed_weight_merit": 43.55604559818204,
-      "actual_merit_reduction": 0.02023277691421299,
-      "actual_to_predicted_ratio": 0.9991216630485871,
-      "predicted_unregularized_merit_reduction": 0.0202505637326263
+    "original_linear_reserve_slack": {
+      "size": 51200,
+      "finite_count": 51200,
+      "minimum": 0.0002916796430858515,
+      "maximum": 1.8911260104680823,
+      "negative_count": 0,
+      "zero_count": 0
     },
-    "scope": "Only original left-RMS465 is invalid at the nearest rejected1/16 trial; nodes, midpoints, all24 selected grids and actual merit descent passed. The farther1/2 midpoint487 failure is retained in original evidence but not added. No larger-step or complete nonlinear-domain guarantee."
+    "full_original_RMS_scan_executed": false,
+    "original_RMS_query_checks": null,
+    "actual_merit_evaluated": false,
+    "original_fixed_weight_merit_before": 43.56581593085674,
+    "scope": "Original midpoints479/486/487 failed and the already modeled selected left-RMS465 grid was also invalid. The full RMS scan and actual merit were not evaluated. All51200 saved linear reserve rows were feasible; this is not evidence of a sole missing row, nor a larger-step guarantee."
   },
-  "parent_status_transport_validation": "Require the actual79 compressed warm identity, original decoded status identity and exact published gzip identity when that alias is used; preserve original JSON bytes without reserialization.",
-  "actual_parent_schema": "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1",
+  "parent_status_transport_validation": "Require the actual84 compressed warm identity, original decoded status identity and exact published gzip identity when that alias is used; preserve original JSON bytes without reserialization.",
+  "actual_parent_schema": "exact-constraint-twenty-five-query-condensed-complete-H-warm-v1",
   "original_left_RMS467_retained": true,
-  "actual_parent_accepted_alpha": 0.03125,
+  "actual_parent_accepted_alpha": 0.25,
   "existing_left_RMS_intervals": [
+    465,
     466,
     467,
     468,
@@ -227,14 +303,10 @@
     484,
     485
   ],
-  "actual_parent_warm_bytes": 4868398,
+  "actual_parent_warm_bytes": 4880394,
   "optimizer_schema": "exact-constraint-twenty-five-query-condensed-complete-H-warm-v1",
   "current_entry_supports_own_schema_resume": true,
-  "added_query": {
-    "kind": "left-RMS",
-    "interval": 465,
-    "fraction": 0.17267316464601146
-  },
+  "added_query": null,
   "original_left_RMS480_separately_retained": true,
   "parent_status_compression_alias_supported": true,
   "existing_original_midpoint_intervals": [
@@ -308,33 +380,29 @@
     484,
     485
   ],
-  "declared_continuous_support_expanded": true,
-  "actual_query_endpoint_support_expanded": true,
+  "declared_continuous_support_expanded": false,
+  "actual_query_endpoint_support_expanded": false,
   "declared_local_layout_equals_actual_B_column_union": true,
   "original_left_RMS466_retained": true,
-  "actual_parent_original_status_bytes": 2683314,
-  "complete_B_capture_support_unchanged_from_parent": false,
+  "actual_parent_original_status_bytes": 2620898,
+  "complete_B_capture_support_unchanged_from_parent": true,
   "original_left_RMS484_separately_retained": true,
-  "actual_parent_public_directory": "notes/public-actions-43663293492-1-condensedqp/twenty-four-condensed-warm",
+  "actual_parent_public_directory": "notes/public-actions-43666177645-1-condensedqp/twenty-five-condensed-warm",
   "original_midpoint484_retained": true,
-  "actual_parent_compressed_status_bytes": 312135,
-  "actual_parent_compressed_status_sha256": "aea13404a1cd1109f207cbb2a6f3c46fb885518ab7e29c480ba332ea21d756b6",
-  "previous_twenty_four_queries_retained": true,
-  "same_schema_parent": false,
+  "actual_parent_compressed_status_bytes": 305169,
+  "actual_parent_compressed_status_sha256": "bbd61744b2457b40654573460fbd25433f406f3a41d79bbae4fd3f56e5a65d38",
+  "same_schema_parent": true,
   "original_left_RMS485_retained": true,
   "actual_parent_accepted_original_merit": {
-    "alpha": 0.03125,
-    "actual_fixed_weight_merit": 43.5661119869748,
-    "actual_merit_reduction": 0.010166388121447767,
-    "actual_to_predicted_ratio": 0.9995443258196769,
-    "predicted_unregularized_merit_reduction": 0.010171022793922435
+    "alpha": 0.25,
+    "actual_fixed_weight_merit": 43.48929991208616,
+    "actual_merit_reduction": 0.07651601877058312,
+    "actual_to_predicted_ratio": 0.9876503855457118,
+    "predicted_unregularized_merit_reduction": 0.07747277770595443
   },
   "cross_model_merit_subtraction_performed": false,
-  "initial_parent_uses_previous_twenty_four_schema": true,
   "all_51_prior_source_pins_retained_without_changes": true,
-  "original_left_RMS465_explicitly_added": true,
-  "farther_original_midpoint487_not_added": true,
-  "added_original_capture_endpoint": 465,
+  "added_original_capture_endpoint": null,
   "parent_frozen_entry_introduction_history": {
     "request": 76,
     "original_actual74_parent_run": 43659610548,
@@ -358,7 +426,15 @@
       "interval": 465,
       "fraction": 0.17267316464601146
     },
-    "original_twenty_four_parent_producer_subtree_preserved": true
+    "original_twenty_four_parent_producer_subtree_preserved": true,
+    "original_actual79_model_sha256": "66f99fcc91f07ad472fab3f0d7a65f2a30fdc12afabb75f3820a78cebf20f174",
+    "frozen_entry_initial_parent_aliases_remain_historical": true,
+    "added_query_metadata_in_frozen_source_is_introduction_history": true
   },
-  "actual79_original_model_sha256": "66f99fcc91f07ad472fab3f0d7a65f2a30fdc12afabb75f3820a78cebf20f174"
+  "previous_twenty_five_queries_retained": true,
+  "source_entry_and_all_55_pins_unchanged_from_actual84": true,
+  "same_query_one_model_relinearization_at_new_warm": true,
+  "original_left_RMS465_retained": true,
+  "original_midpoints479_486_487_not_added": true,
+  "actual84_original_model_sha256": "53b62f1ec963c917f4587ba655fab170568360a8eb719eb06e2303d36b298ae6"
 }

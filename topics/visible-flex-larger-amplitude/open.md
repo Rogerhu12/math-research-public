@@ -12,7 +12,7 @@
 
 [实际84完整结论](notes/2026-11-15-actual-request84-twenty-five-query-quarter-step.md)、[三档原试步读数](notes/2026-11-15-actual84-original-readout.json)、[17关系/64源身份](notes/2026-11-15-actual84-primary-identity-readback.json)已保存。run43666177645/source39799fc1/job132665958586接受1/4，同轮固定W merit43.56581593085674→43.48929991208616，ratio.9876503855457118。全部原node/mid、uniform-angle guard、两组698点原RMS通过；physicalmax.007108203814352419/BC1.3149281045422406e-8，新的完整affine物理边界FD四阶9.901031794093097e-10。success/new coupled acceptance仍false；FD不冒当前H非线性尾已解。
 
-最近1/2在原MID479/486/487失域，同时只读25查询中已有LEFT465失域；原完整RMS和merit未执行，其余24selected正。51200线性reserve全正不保证有限步真实域。不能把多个已建模/未建模的失败归为单一漏MID487；86先从真实84新pair保持同25、55冻结源/λ270/512working/200sweeps/17trial与全部原预算/门，重新建一个实际模型，不自动添第26查询。最坏physical row155819/interval461仍在完整A/fullH，当前权重199.03226329104072非零；旧跨模型W不可相减。QP512预算stop与−1.37e-13原slack、1.76e-12浮点gap不冒已证主障碍或严格最优。
+最近1/2在原MID479/486/487失域，同时只读25查询中已有LEFT465失域；原完整RMS和merit未执行，其余24selected正。51200线性reserve全正不保证有限步真实域。不能把多个已建模/未建模的失败归为单一漏MID487；[86已发布接口](notes/2026-11-15-request86-same-twenty-five-query-relinearization.md)及workflow893ca5c1/request95bb7549先从真实84新pair保持同25、55冻结源/λ270/512working/200sweeps/17trial与全部原预算/门，重新建一个实际模型，不自动添第26查询。最坏physical row155819/interval461仍在完整A/fullH，当前权重199.03226329104072非零；旧跨模型W不可相减。QP512预算stop与−1.37e-13原slack、1.76e-12浮点gap不冒已证主障碍或严格最优。
 
 新warm4880394B/fead4e7b8c1c78b62c8adef0d122a09ea12e7e3a94b0586ba2e59a63c3b429af；原decoded status2620898B/8ad4ae64ccf4a84106a22db9f60c3abedfe4efae67d467b59aa6c06480b9bbde，公开gzip305169B/bbd61744b2457b40654573460fbd25433f406f3a41d79bbae4fd3f56e5a65d38。25查询17LEFT+8MID/51200行、nodes465..486+p/7439支持、zero[]，C4059及fulloutside包括465，完整H/原FD保持。
 
@@ -24,7 +24,7 @@
 
 reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/104检查/18源闭合；每轮576J/577因子与常数/1167f64/129248 exact行已付，未导出formedV/rho仅hash。R276独立Actions给全部30原alpha严格affine∞下降、endpoint约9.6856e-11、alpha*约2；不能把实际全拒归为该保存J方向无十档线性下降。完整未预条件gradient仍大，finite J不冒真实DF；历史ULP只it0stage11Pi75，非末it2stage10Pi76。publisher后发H冲突与原科学失败独立，原件已恢复出版。
 
-末failed state f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6，delta4b4b1aaacd96910635a03f97d45957ae995c724997a0e18b66ac1d06408e294a，完整577×224 JSON比特同/负零0，仍不是成功尾锚。83固定上述原件及H/target/sigma/far，只重放原alpha1/512：原JS形成roundedstate，evaluate(false)一次，保全out/r/cut/far/norm/argmax及原root字段。精确h=trial-base不先round，用保存A分开state-add项和其余flow/tangent-model差；后者不预断唯一非线性/root/J原因。旧73源/η/原门保持，geometry/exact准备独立源码，root统一公开Actions接线；实际未来SHA仅runtime形成。[已付末轮R276原小gzip](notes/2026-11-15-actual73-r276-iteration002-original.json.gz)可直接作83绑定输入，无第二次取包。
+末failed state f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6，delta4b4b1aaacd96910635a03f97d45957ae995c724997a0e18b66ac1d06408e294a，完整577×224 JSON比特同/负零0，仍不是成功尾锚。83固定上述原件及H/target/sigma/far，只重放原alpha1/512：原JS形成roundedstate，evaluate(false)一次，保全out/r/cut/far/norm/argmax及原root字段。精确h=trial-base不先round，用保存A分开state-add项和其余flow/tangent-model差；后者不预断唯一非线性/root/J原因。旧73源/η/原门保持，四新源305f5db2/c03f59e4/51f86528/3570aa9f及[83接线](notes/2026-11-15-request83-workflow-handoff.md)已发布workflow54e24e45/request90da387c；root全文读源与接口、20pins10shell6inline通过；实际未来SHA仅runtime形成。[已付末轮R276原小gzip](notes/2026-11-15-actual73-r276-iteration002-original.json.gz)可直接作83绑定输入，无第二次取包。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

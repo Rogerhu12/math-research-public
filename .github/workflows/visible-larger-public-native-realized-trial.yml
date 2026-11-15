@@ -1,0 +1,200 @@
+name: visible-larger actual73 one realized noJ trial and complete exact decomposition
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-native-realized-trial-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  modelresponse:
+    name: One original alpha1over512 trial, exact realized state action, and original residuals
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    concurrency:
+      group: visible-larger-public-native-realized-trial
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/notes/2026-11-15-actual73-r276-iteration002-original.json.gz
+    - name: Establish independent output and bounded Git maintenance
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-actual73-realized/modelresponse"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-actual73-realized/modelresponse" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install unchanged original runtime dependencies
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+    - name: Bind all source bytes, true actual73 inputs, and already paid R276 reference
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-native-realized-trial-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-actual73-realized-trial-and-exact-decomposition-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=83 or request.get('lanes')!=['modelresponse']):
+            raise ValueError('Use the one explicit actual73 final-point diagnostic request')
+        required={'geometry_20261115_native_realized_trial_probe_hook.mjs', 'geometry_20261114_noj_primal_current576_damped_solve_hook.mjs', 'exact_20261114_noj_primal_current576_damped_system.py', 'geometry_20261114_noj_primal_current576_damped_solve.py', 'geometry_20261114_native_captured_band_correction.py', 'exact_20261114_public_resume.py', 'tail_resumable_engine.mjs', 'exact_20261114_true_tail_client.py', 'geometry_20261115_native_realized_trial_probe.py', 'exact_20261115_native_realized_step_affine_decomposition.py', 'geometry_20261115_fetch_actual73_realized_selected.py', 'exact_20261114_native_damped_chain_qr.py', 'exact_20261114_fetch_pinned_public_artifact.py', 'exact_20261114_native_allrows_dyadic_residual.py', 'exact_20261115_native_affine_infinity_prediction.py', 'root_20261114_publish_actions.py', 'geometry_20261114_noj_matched_variational_engine.mjs', 'tail_frozen_worker.mjs', 'exact_20261114_seeded_zero_tail_client.py', 'exact_20261114_noj_primal_current576_damped_chain_qr.py'}
+        if set(request['source_sha256'])!=required:raise ValueError('The complete frozen20-source closure is required')
+        if request['inputs']!={'run_id': 43657001633, 'artifact_id': 14141540502, 'artifact_name': 'visible-mainline-nojprimalnative-43657001633-1', 'expected_size': 1752742419, 'expected_sha256': '3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9', 'source_commit': '9515d5aaf7c68f8efd366438d6bd81ce73c3486f', 'native_directory': 'native-noj-primal-current576-damped', 'snapshot_directory': 'native-noj-primal-current576-damped/iteration-002/snapshot', 'direction_directory': 'native-noj-primal-current576-damped/iteration-002/qr', 'native_result_sha256': 'ade4fdac3adce104cb4e216e9d2f40b219bfca47d2c027ac548e6c65f65ab394', 'snapshot_result_sha256': '2f9bf170c0366e9d5adaf003a9d0746f28a536171a32339e8a5f502313495e92', 'direction_result_sha256': '9d464f8239c375a2e95f207a3cfbad33e1f36037cd450cfefa2e3b165d86e3ff', 'current_state_sha256': 'f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6', 'direction_raw_sha256': '4b4b1aaacd96910635a03f97d45957ae995c724997a0e18b66ac1d06408e294a'}:raise ValueError('The actual73 input tuple changed')
+        if (request['node_heap_mib'],request['exact_workers'],request['exact_budget_seconds'])!=(6144,2,1800):
+            raise ValueError('Retain the explicit runtime and exact diagnostic budgets')
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+            if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',expected):raise ValueError('Explicit source identity required')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+        item=request['r276_reference'];ref=Path(os.environ['GITHUB_WORKSPACE'])/item['file'];data=ref.read_bytes()
+        if (len(data),hashlib.sha256(data).hexdigest())!=(item['bytes'],item['sha256']):
+            raise ValueError('Retain the original published R276 iteration002 gzip bytes')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering source checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip()
+            for name in ('README.md','topics/visible-flex-larger-amplitude/README.md')}
+        intent=dict(schema='public-actual73-realized-trial-request-identity-v1',source_commit=head,
+            request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,
+            r276_reference_verified=item,source_checkout_readme_blobs=readmes,
+            scientific_execution_claimed=False,output_route_only='modelresponse; actual83 schemas remain explicit')
+        (out/'actual73-realized-trial-request-identity.json').write_text(json.dumps(intent,indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,verified_sources=len(verified))),flush=True)
+        PYPINS
+    - name: Check hook and frozen worker syntax without numerical execution
+      run: |
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261115_native_realized_trial_probe_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_frozen_worker.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/tail_resumable_engine.mjs"
+        node --version
+        python --version
+    - name: Reserve complete archive and selected input/output storage
+      run: |
+        python - <<'PYSPACE'
+        import json,os,shutil
+        from pathlib import Path
+        root=Path(os.environ['RUNNER_TEMP']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((Path(os.environ['VISIBLE_COMPUTATIONS'])/'public-native-realized-trial-request.json').read_text())
+        needed=request['minimum_free_bytes'];free=shutil.disk_usage(root).free
+        record=dict(required_free_bytes=needed,actual_free_bytes=free,archive_bytes=request['inputs']['expected_size'],
+            shared_original_archive_extractions=1,selected_final576_J_payloads_extracted=True,
+            original_factor_payloads_extracted=False,only_last_current_point_and_complete_direction_extracted=True,
+            scientific_data_removed=False,scientific_iterations_or_tolerances_changed=False)
+        (out/'actual73-realized-storage.json').write_text(json.dumps(record,indent=2)+'\n')
+        print(json.dumps(record),flush=True)
+        if type(needed) is not int or needed<=0 or free<needed:raise RuntimeError('Insufficient declared archive/input/output storage')
+        PYSPACE
+    - name: Fetch the fixed actual73 ZIP once and retain only final-point shared probe and exact inputs
+      timeout-minutes: 25
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        python -u - <<'PYFETCH' 2>&1 | tee "$VISIBLE_OUT/original73-selected-fetch.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-native-realized-trial-request.json').read_text());item=request['inputs']
+        argv=[sys.executable,'-u',str(comp/'geometry_20261115_fetch_actual73_realized_selected.py')]
+        for name in ('run_id','artifact_id','artifact_name','expected_size','expected_sha256'):
+            argv+=['--'+name.replace('_','-'),str(item[name])]
+        argv+=['--out',str(Path(os.environ['RUNNER_TEMP'])/'actual73-selected')]
+        raise SystemExit(subprocess.call(argv))
+        PYFETCH
+        cp "$RUNNER_TEMP/actual73-selected/_pinned_public_artifact_receipt.json" "$VISIBLE_OUT/actual73-selected-fetch-receipt.json"
+    - name: Restore all78 identical original public source files
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'actual73-realized-public-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Form the exact original alpha1over512 trial and call original noJ once
+      id: realized_noj
+      timeout-minutes: 35
+      run: |
+        python -u - <<'PYPROBE' 2>&1 | tee "$VISIBLE_OUT/actual73-realized-trial-probe.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-native-realized-trial-request.json').read_text());item=request['inputs']
+        base=Path(os.environ['RUNNER_TEMP'])/'actual73-selected'
+        argv=[sys.executable,'-u',str(comp/'geometry_20261115_native_realized_trial_probe.py'),
+            '--native-directory',str(base/item['native_directory']),
+            '--native-result-sha256',item['native_result_sha256'],
+            '--snapshot-directory',str(base/item['snapshot_directory']),
+            '--snapshot-result-sha256',item['snapshot_result_sha256'],
+            '--direction-directory',str(base/item['direction_directory']),
+            '--direction-result-sha256',item['direction_result_sha256'],
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],
+            '--out',str(out/'actual73-realized-trial'),'--node-heap',str(request['node_heap_mib'])]
+        (out/'actual73-realized-trial-argv.json').write_text(json.dumps(argv,indent=2)+'\n')
+        raise SystemExit(subprocess.call(argv))
+        PYPROBE
+    - name: Decompose all original rows using exact realized h and already paid ideal alpha delta
+      id: exact_realized_step
+      timeout-minutes: 35
+      run: |
+        python -u - <<'PYEXACT' 2>&1 | tee "$VISIBLE_OUT/actual73-exact-realized-step.log"
+        import hashlib,json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-native-realized-trial-request.json').read_text());item=request['inputs'];ref=request['r276_reference']
+        base=Path(os.environ['RUNNER_TEMP'])/'actual73-selected';probe=out/'actual73-realized-trial'
+        actual_result=probe/'result.json';actual_sha=hashlib.sha256(actual_result.read_bytes()).hexdigest()
+        argv=[sys.executable,'-u',str(comp/'exact_20261115_native_realized_step_affine_decomposition.py'),
+            '--native-directory',str(base/item['native_directory']),'--native-result-sha256',item['native_result_sha256'],
+            '--probe-directory',str(probe),'--probe-result-sha256',actual_sha,
+            '--r276-reference',str(Path(os.environ['GITHUB_WORKSPACE'])/ref['file']),'--r276-reference-sha256',ref['sha256'],
+            '--workers',str(request['exact_workers']),'--budget-seconds',str(request['exact_budget_seconds']),
+            '--out',str(out/'actual73-exact-realized-step')]
+        (out/'actual83-exact-realized-input.json').write_text(json.dumps(dict(
+            actual_probe_result_sha256=actual_sha,actual_probe_result_bytes=actual_result.stat().st_size,
+            probe_result_sha_generated_only_after_real_producer=True,argv=argv),indent=2)+'\n')
+        raise SystemExit(subprocess.call(argv))
+        PYEXACT
+    - name: Preserve actual trial, all returned arrays, exact rows, source identities, and every partial failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-modelresponse-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-actual73-realized/modelresponse/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded actual83 evidence with ordinary rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane modelresponse
