@@ -16,9 +16,9 @@
     1488
   ],
   "completed_bundles": null,
-  "completed_quarters": 107,
+  "completed_quarters": 214,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 107,
+  "new_completed_quarters_this_child": 214,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 1345,
+      "index": 1452,
       "request": [
-        336,
+        363,
+        4,
+        0
+      ],
+      "interval": [
+        "129757032232605/140737488355328",
+        "33218894876456311/36028797018963968"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[4.3465168187856290549250728057674079e-16 +/- 2.74e-51]",
+        "lower": "[4.3465168187856290549250728057674079e-16 +/- 2.74e-51]",
+        "mid_float": 4.346516818785629e-16,
+        "radius_upper_float": 0.0,
+        "upper": "[4.3465168187856290549250728057674079e-16 +/- 2.74e-51]"
+      },
+      "exact_array": {
+        "bytes": 342817,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-1452.npz",
+        "sha256": "6e0bc490ef93bca51d2f882ba2fc6e649bcce0a1fc4184ef917c9e82c6c029c1"
+      }
+    },
+    {
+      "index": 1453,
+      "request": [
+        363,
         4,
         1
       ],
       "interval": [
-        "33130777571247171/36028797018963968",
-        "16565662441850943/18014398509481984"
+        "33218894876456311/36028797018963968",
+        "16609994750682871/18014398509481984"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[6.9407247205553832872593380768258143e-18 +/- 5.96e-54]",
-        "lower": "[6.9407247205553832872593380768258143e-18 +/- 5.96e-54]",
-        "mid_float": 6.940724720555383e-18,
+        "ball": "[2.8761698770515395530579803966016928e-16 +/- 4.50e-51]",
+        "lower": "[2.8761698770515395530579803966016928e-16 +/- 4.50e-51]",
+        "mid_float": 2.8761698770515396e-16,
         "radius_upper_float": 0.0,
-        "upper": "[6.9407247205553832872593380768258143e-18 +/- 5.96e-54]"
+        "upper": "[2.8761698770515395530579803966016928e-16 +/- 4.50e-51]"
       },
       "exact_array": {
-        "bytes": 343281,
+        "bytes": 343167,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-1345.npz",
-        "sha256": "ad0001dd516985a0e37bfc182362f3f90f9316d464096e6a996cd92d7339cbcd"
-      }
-    },
-    {
-      "index": 1346,
-      "request": [
-        336,
-        4,
-        2
-      ],
-      "interval": [
-        "16565662441850943/18014398509481984",
-        "33131872196156601/36028797018963968"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[6.9652001626029161283356759380908310e-18 +/- 4.93e-53]",
-        "lower": "[6.9652001626029161283356759380908310e-18 +/- 4.93e-53]",
-        "mid_float": 6.965200162602916e-18,
-        "radius_upper_float": 0.0,
-        "upper": "[6.9652001626029161283356759380908310e-18 +/- 4.93e-53]"
-      },
-      "exact_array": {
-        "bytes": 343031,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-1346.npz",
-        "sha256": "9b58a825298b52f3a9a7ac2c66839c500016f159bd2f1aa74622c8f4705441d1"
+        "file": "adjoint-quarter-1453.npz",
+        "sha256": "186aad587457b56bab3e3c6c4feb8446c130b493afd4530907fc0dadb44b147f"
       }
     }
   ],
-  "native_sha256": "ccae3d2495af238ee8f48a8c1d5f8ceb3ccb0dfe7f5b721a7e8097b856354d67",
+  "native_sha256": "d80a157943920c8fb426c5fd8bd4cdc13f6e5aec63577e51ec88509a63ba0b53",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:15:21.703137+00:00",
-      "before": "bed8487337c02f3e6b2744b0a25035bad574f882",
-      "after": "326c798997205f2c715a462e0924fedd49a5d439",
+      "time": "2026-11-15T02:25:32.366730+00:00",
+      "before": "c6d097cdce389cf60a5d91dcbb4ce5d25d34cbbe",
+      "after": "bb57111cdbd652a1f45b543f031d761130e39488",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
