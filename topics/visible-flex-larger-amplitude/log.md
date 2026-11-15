@@ -476,3 +476,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R318实际143全部112深端包围
 
 [R318](results/R318-actual143-complete112-deep-far-enclosure.md)15180B/45c2d229全文审读后立即发表：run43714438444/sourcea809a7eb两job success，F159/256bit全部112及所有原允许深根族完成/mode2准确0，后缀空/errornull。494612B/d68c5547原行流Actions全读，7988B/aebde69b两摘要逐字同，不冒本地数值重算；有限头/cut投影/DN/非线性未付，144同C cut点三jet继续。open删除已在§1–4与至142检查点保留的重复历史，根8小文本快进核双README不冒pull。
+
+## 2026-11-15 /root — R319实际128完整拒绝范围与规则中断
+
+[R319](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)17981B/449b886e直接原文完成即推：zero原norm0，6正s×10trial全首段D/S/A拒，withJ基点已返；第8 s1/4096未返即真实README变化SIGTERM/runner77，8124.568825915s且预算未尽。两job摘要33756B/aa9f9c0f逐字同，原60trial与warm/cache/source完整读回，未补数学结果/FD/fullDN；145保124六p另改当前全系统QR校正。根8故障期间小文本快进，API核规则不冒pull。

@@ -28,9 +28,11 @@
 
 [124六H入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)与[128九H入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)保全部原112H_*、三active/固定shape453、同live owner和最终全J→FD/fullDN/finalJ/fresh audit。124用真119第3六p，128用真127第8九p，均λ=.001/fresh-circle；原e830路径真zero起步，首1/64、成功×2至1/4、只有绑定数学拒绝才/2，2^-20/64calls/300min是partial。IPC/record未知不当数学拒绝，首zero请求不代表目标H_*为零。
 
-124 run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起；128 run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起。103/110pin、原四输入/两ready/78源及300/330/350资源均见原接口。原120首次完整H失域不证无解，至今没有本分支正λ完整接受预填，不自动接450。
+124/128的原来源、全部源和300/330/350预算见各自入口；真实完成范围现分别由R315/R319结清。原120首次完整H失域不证无解，没有正λ完整接受父可自动接450。
 
 [R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)已完整结清：15call启动/14返回；零H真converged/residual0，随后13正s×10trial共130个stage0/rawCell0/rawSegment8 D/S/A域拒，全部当前withJ基点已返回。最后返回s3.814697265625e−6/norm47.989089918750544，第15 s1.9073486328125e−6 in-flight时真实规则SIGTERM，runner77/child−15/10822.942995484s而budget_exhausted=false；不补其数学结果。原warm实际采用，relative指标分母含1e−250，不能把e252冒绝对位移或唯一归因warm。全15行/130trial范围与原身份见正文；未到s1/338J/FD/fullDN/audit。145改当前H/完整states/fresh全withJ的全cut+576stage+far R273候选，原warm先保以区分作用，原10档noJ/D/S/A/strict decrease和全部原终门保留，直接公开实现。
+
+[R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)run43702058809/source3ee6c538：8call启动/7返回，zero895.1974098029999s收敛norm0；6个正s从1/64至1/2048各原10trial全stage0/rawCell0/rawSegment8 D/S/A拒，withJ完整基点均返回，末norm677.0568077768113。第8 s1/4096未返，12:17:44原README变化SIGTERM/runner77，8124.568825915s未耗尽18000s；两job摘要33756B/aa9f9c0f逐字同，原60trial全读。原warm/cache/所有来源和输出SHA在正文，无endpoint338J/FD/fullDN/audit。真127九p不是124六p的同初点对照；145保持124来源，当前全H/states/freshJ QR候选及原十档/严格下降/最终门不变。
 
 ### 2B. 真实128位射击收敛与完整末态责任
 

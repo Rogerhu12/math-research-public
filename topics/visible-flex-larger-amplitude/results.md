@@ -156,3 +156,5 @@
 - [R316：actual142完整九方向响应及normal精度边界](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)：真实8方向/14外trial/8接受，136parts完整重建，全部56normal/146内trial/FD/Arb/453圆读回；仍极小下降，9改选/直接救回0/6接受targettolfalse，四次全拒后段参数与残差词重复，同点real/complex实部不同。无非零场；146保原门独立形成两P响应。
 
 - [R318：actual143完成同C全部112模态深端统一区间包围](results/R318-actual143-complete112-deep-far-enclosure.md)：F159/物理node160、256bit，原允许深根族统一包含、全部112行完整、mode2准确0、未付后缀空。原494612B行流在Actions完整核读，7988B摘要两job逐字同；本地未重算区间。有限头、cut域/非零高度投影、DN与非线性仍未付。
+
+- [R319：actual128九控制完整高度路径六次拒绝与规则中断](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)：zero真实收敛，六个已返回正s各十trial全首段D/S/A拒，当前withJ基点形成；第8请求未返即README变化终止，非预算耗尽。完整两摘要33756B/aa9f9c0f及60trial/来源/真实规则轮读回，无FD/fullDN/非零接受；不把九p与124六p作单因对照。

@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:42:14 UTC API读取main b1c59ba0758a6223c074d8c270f3192fb82160fa，双README21bd/bff未变；不是git pull。R318原112深端完整读回已审，下一同C有限头传播与cut非零投影。
+集成复核：2026-11-15 12:45:21 UTC API读取main 97dece31bb939b2dc245ce0deda11a3d821c1af2，双README21bd/bff未变；不是git pull。R319已完整读六次原60trial，128未返第8不冒数学结果；145/144/146继续。
 
 ## 真正完成标准
 
@@ -30,12 +30,13 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 | 请求 | run / compute | source / 起始UTC | 当前责任 |
 |---|---|---|---|
-| [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；compute failure/report success，完整结果待读 |
 | [140新算子final](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md) | 43713195661 / 132809057379 | 242c1f0251c57f56f19e67b88b2e4dc4d5cac614 / 12:18:51 | 准备actual91；576×224/112boundary/混合338/独立audit同现场 |
 
 [124 R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)真实零H收敛；13个正s各原10trial全stage0 D/S/A拒绝，完整withJ基点返回，最后norm47.989089918750544。第15call s1.9073486328125e−6未返即规则SIGTERM/runner77，非300min耗尽。极大relative指标分母含1e−250，不能唯一归因warm；145接当前H/完整states/freshJ的全R273候选并保原noJ/全部门。
 
-124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
+[128 R319](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)run43702058809/source3ee6c538，compute132775124928 failure/report132808787425 success；原zero收敛，6正s各10trial全首段D/S/A拒绝，末norm677.0568077768113。第8 s0.000244140625未返时12:17:44规则SIGTERM/runner77，8124.568825915s且budget未尽，未到FD/fullDN。真127九p与124六p不同，不作单因对照；145先保124来源。
+
+124/128原zero→全112H(s)合同：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 
 [137 R313](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)907.237564652s/outer70/child1，无guard/owner128摘要，global deadline未耗尽；fresh64/J/R273/two packets完成。固定argv membership确定入口阻断，异常正文属源码推断、非日志原值。140首参数/完整stderr、新operator及原全scope/预算，不伪接已清现场。
 
