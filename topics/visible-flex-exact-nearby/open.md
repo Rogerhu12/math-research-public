@@ -37,6 +37,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PSB完整主逆Sobolev递推与coefficient扰动](results/R133-supplement-complete-principal-Sobolev-bootstrap-and-coefficient-perturbations.md)e6c777a7已解析证明：完整scalar mean下同号coercivity给Fredholm onto；同L2逆及adjoint用$A_{qr}=(K/4)\binom qr b_{q-r}$的完整nilpotent多项式和binomial Bessel权得每整数正/负窗同一逆，插值覆盖每固定实阶，无$\|A\|<1$门。实coefficient扰动$r<\kappa$及完整Wiener乘子门分别给uniform inverse；精确有序resolvent与对称各阶导数不交换$I$。实际高导数据/有限递推数值、真实背景属于该fixedcircle球、全tame/完整incoming仍未付；不把SEIA两窗数据冒任意阶。
 
+[PTB主逆tame估计](results/R133-supplement-tame-principal-inverse-with-linear-high-coefficient-dependence.md)0ee90c65以完整双侧Fourier convolution、$W_0(If)\le\|f\|_0/2$和精确吸收证明：固定低Wiener $c_W$与既有L2逆K时，positive Hs逆界对$c_{H^s}$线性，adjoint/dual的H−s界对$c_{H^{s-1}}$线性。精确$DA[h]g=-A M_hIAg$给同类tame及一次primitive gain，无高导小量门/无新数值。完整mean保；actual任意高阶coeff输入、真背景邻域membership/移动坐标导数/全physical incoming与完整Nash tame均未付。
+
 [SEI独立能量合同](results/R133-supplement-individual-principal-energy-gates-from-complete-terminal-density-columns.md)268be1a8及[SEIA完整实际成功](results/R133-supplement-actual-individual-principal-energy-gates-and-two-window-inverse-bounds.md)87055721：唯一43773319871/1、12steps/child0/20，2/2signed门pass，真正$c_i>0,c_o<0$。exec e1532b81/46192/b0088f83、SCI35198/e830e10b、preGit38060/bf61fe8d、9pins245579B/3AST/61字段及107处89种球全核。SN完整八终态导数经真H D/√j与独立μ误差一次→每支四导/四完整sup，signed μ保全，用原宽ball下端而非偷换较紧endpoint；两支κ>35.748。全部候选、signed gap与独立division record、四energy norm/四log、每支每窗整选及shared max均原字保存，shared $K_0<1.034,K_-<7.823$ 是同一主逆的真实norm。完整scalar mean与两physical mean继续；大旧log fallback原样保留、0exp，旧SN/PG/PIB及本SEI成功均禁重。fullphysical incoming/finite Schur/return/背景仍未授。
 [BF真实有限因子与增广Schur](results/R133-supplement-retained-finite-factors-and-complete-bordered-incoming.md)e8e29c49已证明：旧low head经原右TF逆/S逆有完整dual因子而非新角有限支撑；两mean、primitive/density及显式有限projection可保实际$LV$，完整sign/second-reference/PW函数空间输入不因此有限。对实际square $B=T+E+LV$，同两窗高逆仅需完整strong的$\chi=K_0C_E\Lambda_J^{-4/3}<1$；增广Schur精确保留$PUVP$及所有physical mean，实际columns、matrix entries与inverse仍待。
 [SE自然stable口Fredholm与准确消去](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)22201747由完整root Fourier与原parity J证明$S_{nat}=D_c+K$且K增2/3；对应共同输入s=0/−4/3的自然窗为−7/6/−5/2，index0而未授cutoff97可逆。只有完整实际Ai incoming injective后，stable同侧坐标C才onto并在完整return准确消去；不需要新C逆数值，独立第二输入/正侧其余ports/两mean及rough bulk费用继续保留。
@@ -63,30 +65,23 @@ $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/o
 
 [旧q*−Z](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)08faefe0/43589465579/10在全[0,25/8]含mean给<4.572198020300e−6，q*仍非真PDE响应。真qν负窗[0,r+]≤.005，或qν−q*≤.004995427801979700，仍须全边界/背景/δ/高频闭合。
 
-## 3. 已成源链与当前可原字复用的完整结论
+## 3. 已成源链索引
 
-本节为成功源链索引；完整原球、输入身份、SCI/preGit、单位、域、所有失败/lost及未付义务逐字保[sign补正前完整页](notes/2026-11-15-open-through-common-input-sign-correction.md)及各actual proof。压缩不改变定理范围，不准重算成功旧数学。
+本节上一完整范围表已移至[已成源链完整范围](notes/2026-11-15-completed-source-chain-scope-index.md)，Git blob55e973ed、SHAb2560cdc；原文在6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f同open第3节。只调整相对链接，完整原球/单位/域/失败lost/恢复身份及每条未付条件继续有效，成功旧数学禁止重算。
 
-AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ：全21first+10mean、18正coeff、六真dr/两sign/两genuine列/两J窗/root/seam/rank保。RJ43728317408/27仅volume pair，analytic/real不混；K实际径reference两ordinary源、n−7/6、dr/F2不授非径整耦合。
-N43716450174/17仅R=.005已过，.001/.002充分fail；SP43731464771/20保3071strict/3066prefix、I/两mean/ng/q原序，waist Cauchy非BVP、strictcut非P22。正侧43617150971/10、43627228225/18同η0/实δ≤1e−8/正νbump0；PW43734233535/21七真实port类型均保，rawstable153/16与output9一次，源length/无length jumps独立。
+| 已成组件 | 原run/门 |
+|---|---|
+| N/SP/PW | 43716450174/17、43731464771/20、43734233535/21 |
+| PC/IN/RR | 43740173506/30、43746008734/23、43750683671/28 |
+| TN/TC | 43752771157/16、43754703603/18 |
+| STA/AW | 43757644616/25；AW解析 |
+| FAA/WXA/WTA | 43763658978/24、43763424840/20、43763134339/20 |
+| SJA | 43768006977/26 |
+| KLA/TFA/CGA | 43766439345/16、43766881076/14、43768992861/21 |
+| WEA/PGA/PIBA | 43769746581/22、43770122351/20、43771317443/15 |
+| 旧有限Green/F/WA/WL | 43711315338/14、43737257903/15、43747940791/13、43749764738/18 |
 
-| 已成实际组件 | 原run/门 | 必须保留的范围 |
-|---|---|---|
-| PC b2acc64a | 43740173506/30 | s0的H−4/3→oldcircle腰L2pair⊕两mean，trueAi/β/双χ/finitehead/非零stable；大upper非下界 |
-| IN8d27fee5 / RR13495f11 | 43746008734/23、43750683671/28 | 六receiver/五inhom/βn−4/3/τ27、H−1/L2/extra H−5/3；samebody3070真q、四旧w/p+两jointg、同case四physical，全δ/两column/sign/mean/CI/ng/P⊥ |
-| TN65432488 / TC3c374c35 | 43752771157/16、43754703603/18 | Js268435456同两窗逆，J97充分fail非奇异；finite≤Js+191/两mean/97..Js−1/HL-LH；真Φ四norm/两rank/真finite span，cut不移腰 |
-| STA9d142bef / AW694b3647 | 43757644616/25；AW解析 | 原SP曲率、真P22/s0/density、四case全强和、两mean/finite/normalizer一次/无length jumps；AW只同P22锚定positive−free差≤PC+ST4，非各trial强界 |
-| FAA cfc6acd4 | 43763658978/24 | 完整J/六mean/两I/all-real Airy/n−2/FS/RN/finite/UΦ负窗；TNforward和ng逆各一次，仅terminalAi。旧43762821220文本失败new/old/lost0保 |
-| WXA f5554084 / WTA f90ba8a1 | 43763424840/20、43763134339/20 | 任意短段双向MFG、真waist同逆两窗、selectedH/S原序、三组双rank/leading；真右腰D7/6/19/83、背景α一次/rawresponse全mean/repair径导0；finite≤J+191/fullT差≤J+575/mean |
-| SJA3176f8ae | 43768006977/26 | 48pins/8AST，3071行/2550段/3070jumps含521同label桶、K3/Srr/Zr、两mean/finite/dr；SF upper约3.24452606e111已含cut，三c积分全成 |
-| KLA2ac6e803 / TFA6e11a160 | 43766439345/16、43766881076/14 | 同Ai四phase KΛ<10.611，完整R0相关消/ng0一次；full F_A<185/JF1024，同逆两窗，finite≤1215/mean/two-I、before/after独立不二KF |
-| CGA13e7b13d | 43768992861/21 | Ccut/g/branch三导三窗、dual/rank/腰P/TF-S整费；after-right不二KF，coeff upper约1.03665941336e32，仅此映射，不冒state/完整Ei |
-| WEA / PGA / PIBA | 43769746581/22、43770122351/20、43771317443/15 | 当前完整费用、主逆对数与所有独立unpaid接口见第2节 |
-
-AD5c4459e5精确Wronskian只同terminalAi首列βd−β=O(n−8/3)、n≥388 ad>3/4；右Ad的low/mean/其它列Id、forward/逆原界保。原g growing/两inhom/INextra/positive/stable/finite独立，root-input强尾非TN输出。
-SF add09111完整Gy/T1T2/F0–2/FT/FJ/−Zy两mean源、√q注入、真dr/无length impulses，只difference强延拓，S连续不使Z无跳。
-
-有限Green43711315338/14仅M32δ0/η0/ν0与truecore[0,.9]四列；F43737257903/15仅sameδ1e−10三窗，κ0pass/κ.2充分fail。NF五输入/两mean/Π96真384/固定Sδ/全97/非零affine；WA43747940791/13 base65/Z193/raw96/√2/α一次及WL43749764738/18第五腰列同d一次。finite不代whole，νvolume不代全ν；另四源/high/γ/core和原96腰仍按第4节支付。
+AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、正侧两条原run、AD完整Wronskian与SF exact source均保上述范围表。原Js268435456/97/1024不能混；source length与无length jump/完整两mean/全频与true density仍按各proof。两reference/独立PW function ports不因此有限；finite Green和νvolume不代wholecore或全ν，所有新逆与真实有限块义务在第2、4–7节。
 
 ## 4. 实际帽图与完整core接口
 

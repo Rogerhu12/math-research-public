@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PTB完整scalar principal tame估计](results/R133-supplement-tame-principal-inverse-with-linear-high-coefficient-dependence.md)：full Fourier product/primitive低界/精确吸收使正窗逆对高cHs线性；adjoint同一负窗对cH(s−1)线性；有序DA保一次primitive增益及全部mean。只依赖fixed低Wiener与实际K，真实背景/全operator tame独立，未作数值。
+
 - [NW真实cohomological normalizer双窗及第二global sign合同](results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md)：只读SEI真八导，CN双mean逆/一次exp低阶primitive/PIB w负窗与whole候选全证；第二[N,Z]与Cayley全误差保正确两窗次序及显式未付CE仿射项。linear μ²与Cayley cubic分域，无新数值或fullincoming声明。
 
 - [BT真实运输head因子与retained审计](results/R133-supplement-concrete-transported-head-factors-and-retained-operator-audit.md)：实际Q97 TF逆双消，旧head负窗dual免KF/joint免√193，commonout sign只有限unitary；root有限两侧/实际均值与cross保真LV。径向head和逐r有限映射的积分不自动finite，已付SJ/CG/WE完整保留；actual square/columns/无限余项/Schur仍待。

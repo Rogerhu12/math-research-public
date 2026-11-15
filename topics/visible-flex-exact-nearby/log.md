@@ -136,3 +136,7 @@ DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄d
 2026-11-15 23:29:04 UTC NW：root全文数学及当前CY MS窄更正身份核齐，newton4–6同核。真w/p、CN双mean、一次exp低P0、PIB同逆及第二global[N,Z]全序保，无新数值。
 CE仍完整未付；新scalar仅原SEI八导只读后组合，旧成功不重。已成索引窄压前逐字保5899928eedc707938656e8333ec59f9de18e26da同H/open，未付门不减。
 双README读取65235d1af16a18740abd61f3e70f585938173b10未变；本机22:59:32真CLI无executor，根规8小文本例外继续。
+
+2026-11-15 23:33:24 UTC PTB：root完整解析证明正窗linear高coeff、adjoint/dual负窗少一导及exact DA的tame界；全部Fourier/mean/primitive保，无新数值。
+只scalar fixedcircle组件，actual高阶输入/真背景/坐标导数/fullphysical tame未授；已成源链完整范围移notes小页55e973ed/b2560cdc，未付义务全保原页及open4–7。
+双README读取a28cb9639816b52823a73283c01b14fbf2602440未变；本机22:59:32真CLI无executor，根规8小文本例外继续。

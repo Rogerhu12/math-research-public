@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 23:29:04 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 23:33:24 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:59:32定时CLI仍无executor，下一≤23:59。原SN末真pull22:54:50.633088→33106181b03aa96ef5df9c70a6bc35688655efc4，两README空diff；ref读取不冒真pull。
-最近只读README核：65235d1af16a18740abd61f3e70f585938173b10；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：a28cb9639816b52823a73283c01b14fbf2602440；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -35,19 +35,19 @@ PSB e6c777a7：同L2逆与adjoint的完整下三角导数矩阵A，A^(m+1)=0给K
 
 NW1469fdd0解析新消费：只读SEI八真导合成v=vo−vi，按LN给true w/p Wiener；CN双mean ODE→一次exp(P0)真实N0，PIB对w给同一N负窗，optional Neumann与旧direct log各整选不混norm。第二[N,Z]左右K_N0/K_N−及forward负窗全序保，结果仅A_Z+B_Z CE、A_Cay+B_Cay CE条件式；完整CE仍未付，linear μ²/Cayley cubic分开。新scalar待public，旧成功不重。
 
+PTB0ee90c65已证fullprincipal tame：fixed低Wiener cW与L2逆K下，positive估计线性依赖cHs，adjoint/dual negative估计线性依赖cH(s−1)；exact DA=−A Mh I A保一次primitive gain与均值。仅fixedcircle scalar组件，真背景high norms/坐标导数/fulloperator tame仍待。
+
 ## 已成功源链索引
 
 IN/RR/TN/TC/AD/STA/AW/FA/WX/WT/SF全部原结论、run、球/源单位和域见open第3节及ab95完整前页；所有已成成功冻结。same Js268435456的finite≤Js+191、mean/97..Js−1/HL-LH及true span仍在，J97充分fail非奇异。旧FA文本失败new/old/lost0，DR/SN失败lost仅按原记录恢复。全Ei/incoming/Schur/R0待。
 
-## 首系数、逆与core的未付接口
+## 完整core与剩余入口
 
-本节只列接口；全部原球/常数/域/旧fail及未付条件保open第2、4–7节和2607c567e4e577f4f6a716a5006c8216b25e9591同H，义务不减。
-PF/CT/IC完整有限部、同branch真density、±μ/2、双χ/两rank/mean/Taylor差保；LN只成功SN四导经真H D/√j与μEj一次，不用prefix/H3除频/upper相减。MI/PG/PIB只主因子同一逆，真实Ei、两mean/finite Schur仍待。
-CYA原43757868884/18只同native Jβ与selected≥97的四rootscalar gap/一导loss256。MS actualorderedreturn的无限sign/完整错误须实付；GH全s strong费用与χ=128CsΛJ^-1/3、PD真DF/νSchur/四Robin/腰/mean/D² tame/smoothing均未闭。
-Green43711315338只M32δ0；F κ0pass/κ.2充分fail非奇异。CPA/SR/CH/NF全三窗四列/两mean/五输入/height7/25/high域保，νvolume非全ν。WA/WL锁原96/√2/α/384及非零waist d1e−10；另四源待。
-VR同actual f_h/CPA known-tail unknown-full，λv/T两维整吸收，不循环用待证W定T；差λd/√2/height/waist/jumps各付。RF/CRA原43757468943/18 known5956真[0,.9]、全Z/repair/D保；RH/HSA43759656502/18 known96/160/288及>288=0仅同ST forcing。SA/SC全97/mean/两端/jump/128矩/unknown fees仍在；SC3等完整known affine。
-NG未付385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12；须两侧连续H1/fullmean/真residual0/wholewide C0。RC只右collar，J288不消225..288、MA H8193窄域独立。
-S/T exacttail只原γ A0/H8193域，Γ1负principal/Γ2在94seed后固定；loss1734/bg1796/E1856/seed距2^-1700000000/T0=2^1500000原域保，连续非C1/H0Lip/core。真qν−Z负窗≤.005待；旧q*−Z<4.572198020300e−6但q*非PDE响应，须同全边界背景/δ/高频闭合。
+全部未付门、已成组件的条件及原球/域/旧fail逐字保open第2、4–7节和6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f同H；本节只索引，义务不减。
+PF/CT/IC的有限部/双χ/mean/两rank、完整Ei/Eo/真实square与两mean Schur待。CYA只四rootscalar gap/loss256；GH全s strong χ=128CsΛJ^-1/3、PD真实DF/νSchur/四Robin/腰/D² tame与smoothing未闭。
+Green/F/CPA/NF/WA/WL/AR/CH/SR/VR/RF/RH/SA/SC全部三窗/五输入/两mean/原96与384/α和√2一次/非零affine/height/高频域及unknown fees保open4；νvolume非全ν，已知有限residual非wholecore。SC3等完整known affine。
+NG仍须385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12，同态两侧H1/fullmean/真residual0/wholewide C0；RC仅右collar，J288不删225..288、MA窄高域独立。
+S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash参数；连续非C1/H0Lip/core。真qν−Z负窗≤.005待；旧q*−Z<4.572198020300e−6但q*非PDE响应。最后须全边界/背景/δ/高频闭合和同一frame/matching。
 
 ## 恢复与执行顺序
 
