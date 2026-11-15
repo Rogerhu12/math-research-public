@@ -1,0 +1,2938 @@
+{
+  "schema": "actual91-four-row-literal-key-results-v1",
+  "actual_run": {
+    "run_id": 43672150224,
+    "source_commit": "b78f0dd1471a118d2ed21467602509d188c2ab67",
+    "job_id": 132684339596,
+    "artifact_id": 14145200674,
+    "archive_bytes": 10267458,
+    "archive_sha256": "78b8ae3da20890c5726f7f53228ffeeb8a7fae41eb2c12477139089860aea2b6"
+  },
+  "reported_completion": {
+    "completed": true,
+    "elapsed_seconds": 0.6757282570000029,
+    "maximum_RSS_kib": 51488,
+    "complete_original_row_count": 4,
+    "complete_incoming_contribution_count": 896,
+    "complete_outgoing_contribution_count": 4,
+    "complete_original_four_node_coordinate_count": 896,
+    "new_RHS_calls": 0,
+    "new_J_calls": 0,
+    "new_ODE_steps": 0,
+    "new_QR_calls": 0,
+    "new_solve_calls": 0,
+    "new_trial_calls": 0,
+    "errors": []
+  },
+  "original_tolerance": {
+    "classification": "finite",
+    "float64le_hex": "95d626e80b2e213e",
+    "value": 2e-09
+  },
+  "native_norm_words": {
+    "exact_original_global_norms": {
+      "ideal_affine_residual": {
+        "correctly_rounded_binary64": {
+          "classification": "finite",
+          "float64le_hex": "7825a1e337b80f3f",
+          "value": 6.050034103617213e-05
+        },
+        "exact_value_minus_its_correctly_rounded_float": {
+          "decimal_display_64_significant_digits": "9.795663991664119904677929691249360522993903123152957504696211836E-22",
+          "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "51084285560486135799609524055882006952966716320785840686254399479321536168647091433"
+        },
+        "exact_value_minus_original_native_float": {
+          "decimal_display_64_significant_digits": "-1.183959707165770292865435940862042619417086964617290726800001847E-7",
+          "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-6174337525708751380141964050281212928806593077219538387891094916114051384722622076017074922953495"
+        },
+        "original_exact_maximum": {
+          "decimal_display_64_significant_digits": "6.050034103617212922120446766849601512575395025553602788532781232E-5",
+          "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "3155086475637238042509348364933424526910314412266473505124603159561655785235580720040017926562145513"
+        },
+        "original_max_coordinate": {
+          "component": "Pi",
+          "global_equation_row": 2539,
+          "kind": "stage",
+          "mode": 76,
+          "node": 10,
+          "row": 187
+        },
+        "rounded_word_equals_actual_original_native_baseline": false,
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -67
+        }
+      },
+      "realized_affine_residual": {
+        "correctly_rounded_binary64": {
+          "classification": "finite",
+          "float64le_hex": "65f299f11bc80f3f",
+          "value": 6.0618737006888625e-05
+        },
+        "exact_value_minus_its_correctly_rounded_float": {
+          "decimal_display_64_significant_digits": "-2.581742509430313870457155269062470567425400418437955659050913984E-21",
+          "denominator": "40298898736742233696331598160461824",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-104041379951875"
+        },
+        "exact_value_minus_original_native_float": {
+          "decimal_display_64_significant_digits": "-8.389690544584314642101611533430809892435899416843795565905091398E-20",
+          "denominator": "40298898736742233696331598160461824",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-3380952896888071"
+        },
+        "original_exact_maximum": {
+          "decimal_display_64_significant_digits": "6.061873700688862235358556541943579837158032464389883259901364406E-5",
+          "denominator": "10074724684185558424082899540115456",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "610717086047453398973316667165"
+        },
+        "original_max_coordinate": {
+          "component": "Pi",
+          "global_equation_row": 2539,
+          "kind": "stage",
+          "mode": 76,
+          "node": 10,
+          "row": 187
+        },
+        "rounded_word_equals_actual_original_native_baseline": false,
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -67
+        }
+      },
+      "stored_base_residual": {
+        "correctly_rounded_binary64": {
+          "classification": "finite",
+          "float64le_hex": "71f299f11bc80f3f",
+          "value": 6.0618737006888706e-05
+        },
+        "exact_value_minus_its_correctly_rounded_float": {
+          "decimal_display_64_significant_digits": "2.455520572867194075427595884580514067542241085874638011537098029E-21",
+          "denominator": "120896696210226701088994794481385472",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "296864324735887"
+        },
+        "exact_value_minus_original_native_float": {
+          "decimal_display_64_significant_digits": "2.455520572867194075427595884580514067542241085874638011537098029E-21",
+          "denominator": "120896696210226701088994794481385472",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "296864324735887"
+        },
+        "original_exact_maximum": {
+          "decimal_display_64_significant_digits": "6.061873700688870870601158412977629481529154353251182450024889837E-5",
+          "denominator": "819227879234049",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "49660559360"
+        },
+        "original_max_coordinate": {
+          "component": "Pi",
+          "global_equation_row": 2539,
+          "kind": "stage",
+          "mode": 76,
+          "node": 10,
+          "row": 187
+        },
+        "rounded_word_equals_actual_original_native_baseline": true,
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -67
+        }
+      },
+      "stored_trial_residual": {
+        "correctly_rounded_binary64": {
+          "classification": "finite",
+          "float64le_hex": "71f299f11bc80f3f",
+          "value": 6.0618737006888706e-05
+        },
+        "exact_value_minus_its_correctly_rounded_float": {
+          "decimal_display_64_significant_digits": "2.455520572867194075427595884580514067542241085874638011537098029E-21",
+          "denominator": "120896696210226701088994794481385472",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "296864324735887"
+        },
+        "exact_value_minus_original_native_float": {
+          "decimal_display_64_significant_digits": "2.455520572867194075427595884580514067542241085874638011537098029E-21",
+          "denominator": "120896696210226701088994794481385472",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "296864324735887"
+        },
+        "original_exact_maximum": {
+          "decimal_display_64_significant_digits": "6.061873700688870870601158412977629481529154353251182450024889837E-5",
+          "denominator": "819227879234049",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "49660559360"
+        },
+        "original_max_coordinate": {
+          "component": "Pi",
+          "global_equation_row": 2539,
+          "kind": "stage",
+          "mode": 76,
+          "node": 10,
+          "row": 187
+        },
+        "rounded_word_equals_actual_original_native_baseline": true,
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -67
+        }
+      }
+    },
+    "global_norms_copied_from_actual83_not_recomputed_from_any_matrix": true,
+    "original_dimensionless_norm_spacing": {
+      "diagnostics_only_no_state_replacement": true,
+      "down": {
+        "adjacent": {
+          "classification": "finite",
+          "float64le_hex": "70f299f11bc80f3f",
+          "value": 6.06187370068887e-05
+        },
+        "exact_gap": {
+          "decimal_display_64_significant_digits": "6.776263578034402712546580005437135696411132812500000000000000000E-21",
+          "denominator": "147573952589676412928",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1"
+        },
+        "finite_spacing": true,
+        "gap_over_scale": {
+          "decimal_display_64_significant_digits": "6.776263578034402712546580005437135696411132812500000000000000000E-21",
+          "denominator": "147573952589676412928",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1"
+        },
+        "gap_over_scale_over_original_tolerance": {
+          "decimal_display_64_significant_digits": "3.388131789017201145255050114032470250103747957534043675405876071E-12",
+          "denominator": "4835703278458517",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "16384"
+        }
+      },
+      "original": {
+        "classification": "finite",
+        "float64le_hex": "71f299f11bc80f3f",
+        "value": 6.0618737006888706e-05
+      },
+      "original_binary64_tolerance": {
+        "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+        "denominator": "2417851639229258349412352",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "4835703278458517"
+      },
+      "original_positive_scale": {
+        "decimal_display_64_significant_digits": "1.000000000000000000000000000000000000000000000000000000000000000E+0",
+        "denominator": "1",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "1"
+      },
+      "scale_scope": "dimensionless original norm; sigma division already occurred, no second sigma division",
+      "up": {
+        "adjacent": {
+          "classification": "finite",
+          "float64le_hex": "72f299f11bc80f3f",
+          "value": 6.061873700688871e-05
+        },
+        "exact_gap": {
+          "decimal_display_64_significant_digits": "6.776263578034402712546580005437135696411132812500000000000000000E-21",
+          "denominator": "147573952589676412928",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1"
+        },
+        "finite_spacing": true,
+        "gap_over_scale": {
+          "decimal_display_64_significant_digits": "6.776263578034402712546580005437135696411132812500000000000000000E-21",
+          "denominator": "147573952589676412928",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1"
+        },
+        "gap_over_scale_over_original_tolerance": {
+          "decimal_display_64_significant_digits": "3.388131789017201145255050114032470250103747957534043675405876071E-12",
+          "denominator": "4835703278458517",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "16384"
+        }
+      }
+    },
+    "original_native_base_and_actual_trial_norm": {
+      "classification": "finite",
+      "float64le_hex": "71f299f11bc80f3f",
+      "value": 6.0618737006888706e-05
+    },
+    "original_scalar_comparison": {
+      "actual_probe_original_norm": {
+        "classification": "finite",
+        "float64le_hex": "71f299f11bc80f3f",
+        "value": 6.0618737006888706e-05
+      },
+      "actual_probe_scan_and_original_norm_same_bits": true,
+      "actual_probe_scan_norm": {
+        "classification": "finite",
+        "float64le_hex": "71f299f11bc80f3f",
+        "value": 6.0618737006888706e-05
+      },
+      "original_actual73_trial": {
+        "baseNorm": 6.0618737006888706e-05,
+        "call": 1,
+        "iteration": 2,
+        "kind": "residual-not-decreasing",
+        "step": 0.001953125,
+        "time": "2026-11-15T01:32:57.175Z",
+        "trial": 9,
+        "trialNorm": 6.0618737006888706e-05
+      },
+      "original_actual73_trial_norm_float64le_hex": "71f299f11bc80f3f",
+      "same_as_original_actual73_trial_norm_bits": true,
+      "scalar_reproducibility_is_not_a_new_acceptance_condition": true
+    },
+    "rounding_here_is_new_diagnostic_arithmetic_not_a_relabelled_actual83_result": true
+  },
+  "rows": [
+    {
+      "original_global_equation_row": 2539,
+      "original_stage": 10,
+      "original_row": 187,
+      "component": "Pi",
+      "mode": 76,
+      "propagation_orientation": {
+        "equation": "r[stage] + J[stage]*increment[stage+1] - increment[stage]",
+        "incoming_node": 11,
+        "outgoing_node": 10
+      },
+      "original_sigma": {
+        "classification": "finite",
+        "float64le_hex": "08d0dad5aa48f73c",
+        "value": 5.170054771158893e-15
+      },
+      "original_eight_row_values": {
+        "ideal_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "3.127900768308018851019427135566268678200724003378136856079702432E-19",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "3155086475637238042509348364933424526910314412266473505124603159561655785235580720040017926562145513"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "6.050034103617212922120446766849601512575395025553602788532781232E-5",
+            "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "3155086475637238042509348364933424526910314412266473505124603159561655785235580720040017926562145513"
+          },
+          "original_dyadic": [
+            "0x5c51c00000000002ae6177dc5f605cd89db69c90e6711571ffd0eefeced7d9abbef693de844b82264e9",
+            -392
+          ]
+        },
+        "realized_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "3.134021904840906790085071860727344154943435551549969659238447888E-19",
+            "denominator": "5846006549323611672814739330865132078623730171904",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1832151258142360196919950001495"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "6.061873700688862235358556541943579837158032464389883259901364406E-5",
+            "denominator": "10074724684185558424082899540115456",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "610717086047453398973316667165"
+          },
+          "original_dyadic": [
+            "0x171ffffffffff6ba4824874557",
+            -162
+          ]
+        },
+        "remaining_flow_tangent_model_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.464467721391787331104646713374231280340761552112453245046248386E-34",
+            "denominator": "5846006549323611672814739330865132078623730171904",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2609930753850025"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "8.635242601871034049644371121888861299190123525431259367058801201E-20",
+            "denominator": "30224174052556675272248698620346368",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2609930753850025"
+          },
+          "original_dyadic": [
+            "0x945b7db78baa9",
+            -162
+          ]
+        },
+        "saved_direction_endpoint": {
+          "exact": {
+            "decimal_display_64_significant_digits": "6.454693413749305055882045886553873203128076450858756844210548109E-35",
+            "denominator": "19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1271639349421883758879585161938564605016109747132381694975067370095944162678564073"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.248476795595427309377204378572090395766065283599140034498895325E-20",
+            "denominator": "101855265064450772963489985348349194306252527538721747755552762121327804418537910192735596319590055936",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1271639349421883758879585161938564605016109747132381694975067370095944162678564073"
+          },
+          "original_dyadic": [
+            "0x2ae6177dc5f605cd89db69c90e6711571ffd0eefeced7d9abbef693de844b82264e9",
+            -383
+          ]
+        },
+        "state_addition_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "6.121136532887939065644725161075476742711548171832803158745455738E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525704376165272320009458236508365926303951207417744509648496837535838205678520090882841367"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.183959707164931323810977509397832458263743883628047136858317467E-7",
+            "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525704376165272320009458236508365926303951207417744509648496837535838205678520090882841367"
+          },
+          "original_dyadic": [
+            "0x2e3fffffffdae67230a538fc9fa3276249636f198eea8e002f11013128265441096c217bb47dd9b17",
+            -392
+          ]
+        },
+        "stored_base_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "3.134021904840911254552793252514675259590148925781250000000000000E-19",
+            "denominator": "590295810358705651712",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "185"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "6.061873700688870870601158412977629481529154353251182450024889837E-5",
+            "denominator": "819227879234049",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "49660559360"
+          },
+          "original_dyadic": [
+            "0xb9",
+            -69
+          ]
+        },
+        "stored_trial_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "3.134021904840911254552793252514675259590148925781250000000000000E-19",
+            "denominator": "590295810358705651712",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "185"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "6.061873700688870870601158412977629481529154353251182450024889837E-5",
+            "denominator": "819227879234049",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "49660559360"
+          },
+          "original_dyadic": [
+            "0xb9",
+            -69
+          ]
+        },
+        "total_trial_minus_ideal": {
+          "exact": {
+            "decimal_display_64_significant_digits": "6.121136532892403533366116948406581389424922403113143920297568192E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525708879435283760197512602701688280821372594397018420015229408919767293993965962103986967"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.183959707165794848071164612802796895375932769757966149210860593E-7",
+            "denominator": "17383298570999598585768957499451595828267098033275178283614338068706611954097136672893541771876702879744",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2058112508569626478427920065837534233896093607124198132339473338409802973255764664655320701328989"
+          },
+          "original_dyadic": [
+            "0x2e3ffffffffffd519e8823a09fa3276249636f198eea8e002f11013128265441096c217bb47dd9b17",
+            -392
+          ]
+        }
+      },
+      "groups": {
+        "nonzero-realized": {
+          "count": 1,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "-5.127626290455943883408510133926785507994429788437608726385175490E-36",
+            "denominator": "26328072917139296674479506920917608079723773850137277813577744384",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-135000518866964573028673604525"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "-9.917934175592034136646087611508945771822186365551076840103549303E-22",
+            "denominator": "136117579000675256742235400519494371379648583958528",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-135000518866964573028673604525"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "9.917934175592034136646087611508945771822186365551076840103549303E-22",
+            "denominator": "136117579000675256742235400519494371379648583958528",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "135000518866964573028673604525"
+          }
+        },
+        "zero-realized-nonzero-ideal": {
+          "count": 222,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "6.121136532887987922714836596003218147780492284180216624288590610E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525704425446976749281484651854938636781945831406435222458612462559548420980638314053606167"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "1.183959707164940773821136779601553855876443759031202700769991064E-7",
+            "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525704425446976749281484651854938636781945831406435222458612462559548420980638314053606167"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "1.183959707165118704274563673735184467361507867314408435058541023E-7",
+            "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6174337525705353352435787193311339800019638546897957562189254648287261896888933593440296822425799"
+          }
+        },
+        "zero-realized-zero-ideal": {
+          "count": 1,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          }
+        }
+      },
+      "incoming_total_over_sigma": {
+        "decimal_display_64_significant_digits": "1.183959707164930855886961187567417209788832250085430878583625513E-7",
+        "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "6174337525704373725053454730357985868180207714923777645163326241675964862550899393360505415244567"
+      },
+      "outgoing_negative_identity_contribution": {
+        "actual_trial": {
+          "classification": "finite",
+          "float64le_hex": "fae064304963e53e",
+          "value": 1.0198514712387176e-05
+        },
+        "column": 187,
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "-2.419192793124511092680032395155507666478754749504113501600662609E-37",
+          "denominator": "5986310706507378352962293074805895248510699696029696",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-1448203971858675"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "2.419192793124511092680032395155507666478754749504113501600662609E-37",
+          "denominator": "5986310706507378352962293074805895248510699696029696",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1448203971858675"
+        },
+        "node": 10,
+        "original_base": {
+          "classification": "finite",
+          "float64le_hex": "fae064304963e53e",
+          "value": 1.0198514712387176e-05
+        },
+        "signed_contribution": {
+          "decimal_display_64_significant_digits": "2.419192793124511092680032395155507666478754749504113501600662609E-37",
+          "denominator": "5986310706507378352962293074805895248510699696029696",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1448203971858675"
+        },
+        "signed_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "4.679240163218304152484749116335426162582746919549854887474737096E-23",
+          "denominator": "10316518076606011826260889129078226944",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "482734657286225"
+        }
+      },
+      "complete_state_formation_sum_over_sigma": {
+        "decimal_display_64_significant_digits": "1.183959707164931323810977509397832458263743883628047136858317467E-7",
+        "denominator": "52149895712998795757306872498354787484801294099825534850843014206119835862291410018680625315630108639232",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "6174337525704376165272320009458236508365926303951207417744509648496837535838205678520090882841367"
+      },
+      "largest_absolute_incoming_contribution": {
+        "column": 75,
+        "first_tie_rule": "smallest original input column",
+        "signed_over_sigma": {
+          "decimal_display_64_significant_digits": "1.183959707164910491410372894295620854504930267691274765051830911E-7",
+          "denominator": "15474777114909017739391333693617340416",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1832151258140993907287320440719"
+        }
+      },
+      "actual_output_and_target": {
+        "correctly_rounded_difference_equals_saved_residual_word": true,
+        "correctly_rounded_exact_difference": {
+          "classification": "finite",
+          "float64le_hex": "000000000020173c",
+          "value": 3.1340219048409113e-19
+        },
+        "exact_flow_minus_target": {
+          "decimal_display_64_significant_digits": "3.134021904840911254552793252514675259590148925781250000000000000E-19",
+          "denominator": "590295810358705651712",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "185"
+        },
+        "exact_flow_minus_target_minus_stored_r": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_flow_minus_target_minus_stored_r_over_sigma": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_zero_rounding_sign_convention": "Exact mathematical zero rounds to +0; this does not reconstruct a signed-zero subtraction rule",
+        "flow_output_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "b2e164304963e53e",
+              "value": 1.0198514712387488e-05
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "1.694065894508600678136645001359283924102783203125000000000000000E-21",
+              "denominator": "590295810358705651712",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "3.276688486858849119243869412420340260286029380135774297310751263E-7",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "268435456"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.638344243429424457583247869733326175697846978092178908686520000E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "649037107316853453566312041152512"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "b3e164304963e53e",
+            "value": 1.019851471238749e-05
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.170054771158893068699869650441117256971668841858402743127953727E-15",
+            "denominator": "158456325028528675187087900672",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "819227879234049"
+          },
+          "scale_scope": "actual original noJ flow output / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "b4e164304963e53e",
+              "value": 1.0198514712387491e-05
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "1.694065894508600678136645001359283924102783203125000000000000000E-21",
+              "denominator": "590295810358705651712",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "3.276688486858849119243869412420340260286029380135774297310751263E-7",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "268435456"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.638344243429424457583247869733326175697846978092178908686520000E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "649037107316853453566312041152512"
+            }
+          }
+        },
+        "original_base_flow_output_not_exported_by_actual83_and_not_reconstructed": true,
+        "original_noJ_flow_output": {
+          "classification": "finite",
+          "float64le_hex": "b3e164304963e53e",
+          "value": 1.019851471238749e-05
+        },
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -114
+        },
+        "stored_trial_residual": {
+          "classification": "finite",
+          "float64le_hex": "000000000020173c",
+          "value": 3.1340219048409113e-19
+        },
+        "target": {
+          "classification": "finite",
+          "float64le_hex": "fae064304963e53e",
+          "value": 1.0198514712387176e-05
+        },
+        "target_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "f9e064304963e53e",
+              "value": 1.0198514712387174e-05
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "1.694065894508600678136645001359283924102783203125000000000000000E-21",
+              "denominator": "590295810358705651712",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "3.276688486858849119243869412420340260286029380135774297310751263E-7",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "268435456"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.638344243429424457583247869733326175697846978092178908686520000E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "649037107316853453566312041152512"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "fae064304963e53e",
+            "value": 1.0198514712387176e-05
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.170054771158893068699869650441117256971668841858402743127953727E-15",
+            "denominator": "158456325028528675187087900672",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "819227879234049"
+          },
+          "scale_scope": "actual trial target coordinate / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "fbe064304963e53e",
+              "value": 1.0198514712387178e-05
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "1.694065894508600678136645001359283924102783203125000000000000000E-21",
+              "denominator": "590295810358705651712",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "3.276688486858849119243869412420340260286029380135774297310751263E-7",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "268435456"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.638344243429424457583247869733326175697846978092178908686520000E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "649037107316853453566312041152512"
+            }
+          }
+        }
+      },
+      "dominant_input_column_complete_original_record": {
+        "adjacent_input_effect_is_not_an_actual_nonlinear_trial_or_error_bound": true,
+        "adjacent_input_word_linearized_effect": {
+          "down": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "1.041807130572343120842975459102780896415822823791831776655571513E-6",
+              "denominator": "429511346347861082112",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "447467983286929"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "5.209035652861715279787846874970980619930093887122950632730387252E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2063581842218230554942829615906816"
+            }
+          },
+          "up": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "1.041807130572343120842975459102780896415822823791831776655571513E-6",
+              "denominator": "429511346347861082112",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "447467983286929"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "5.209035652861715279787846874970980619930093887122950632730387252E+2",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2063581842218230554942829615906816"
+            }
+          }
+        },
+        "base_state_word": {
+          "classification": "finite",
+          "float64le_hex": "6e1cafdb47e9c93c",
+          "value": 7.191817341159996e-16
+        },
+        "category": "zero-realized-nonzero-ideal",
+        "component": "Q",
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "1.120624320629061698474048107472473939701510830857956494076450482E-32",
+          "denominator": "365375409332725729550921208179070754913983135744",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "4094485698580511"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "-1.120624320629061698474048107472473939701510830857956494076450482E-32",
+          "denominator": "365375409332725729550921208179070754913983135744",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-4094485698580511"
+        },
+        "ideal_action_contribution": {
+          "decimal_display_64_significant_digits": "-6.121136532887831360992584577357608535733253766861312903971964645E-22",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-1832151258140993907287320440719"
+        },
+        "incoming_column": 75,
+        "incoming_node": 11,
+        "mode": 76,
+        "original_J_coefficient": {
+          "classification": "finite",
+          "float64le_hex": "10291323846f2942",
+          "value": 54622556553.5802
+        },
+        "realized_action_contribution": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "state_formation_contribution": {
+          "decimal_display_64_significant_digits": "6.121136532887831360992584577357608535733253766861312903971964645E-22",
+          "denominator": "2993155353253689176481146537402947624255349848014848",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1832151258140993907287320440719"
+        },
+        "state_formation_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "1.183959707164910491410372894295620854504930267691274765051830911E-7",
+          "denominator": "15474777114909017739391333693617340416",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1832151258140993907287320440719"
+        },
+        "trial_state_word": {
+          "classification": "finite",
+          "float64le_hex": "6e1cafdb47e9c93c",
+          "value": 7.191817341159996e-16
+        }
+      }
+    },
+    {
+      "original_global_equation_row": 2536,
+      "original_stage": 10,
+      "original_row": 184,
+      "component": "Pi",
+      "mode": 73,
+      "propagation_orientation": {
+        "equation": "r[stage] + J[stage]*increment[stage+1] - increment[stage]",
+        "incoming_node": 11,
+        "outgoing_node": 10
+      },
+      "original_sigma": {
+        "classification": "finite",
+        "float64le_hex": "08d0dad5aa48f73c",
+        "value": 5.170054771158893e-15
+      },
+      "original_eight_row_values": {
+        "ideal_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "2.789749333896341139765954817813331263419336341524182715167129524E-20",
+            "denominator": "2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "70349901145965442899506725886298240174042708970954715520236546294437222795976482641595914933108209"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "5.395976362685622340529836687530107459684029150299927337618252780E-6",
+            "denominator": "13037473928249698939326718124588696871200323524956383712710753551529958965572852504670156328907527159808",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "70349901145965442899506725886298240174042708970954715520236546294437222795976482641595914933108209"
+          },
+          "original_dyadic": [
+            "0x20ef800000000002f910cb5b6c536177d01d628e156ac2aecccf519b34db9844de9bdf2ff72e35fdf1",
+            -390
+          ]
+        },
+        "realized_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "2.789685901973137463994888606528875073980525226524280232691388459E-20",
+            "denominator": "83076749736557242056487941267521536",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2317580375218243"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "5.395853671677477648872782650087246473614858571111830980900794113E-6",
+            "denominator": "429511346347861082112",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2317580375218243"
+          },
+          "original_dyadic": [
+            "0x83bd3bb00d843",
+            -116
+          ]
+        },
+        "remaining_flow_tangent_model_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.113632618149410299411939774010206916738316326210094767308611541E-20",
+            "denominator": "83076749736557242056487941267521536",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "3417472275261373"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "7.956651912272332512045985205525640087050711152941449280640517286E-6",
+            "denominator": "429511346347861082112",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "3417472275261373"
+          },
+          "original_dyadic": [
+            "0xc242c44ff27bd",
+            -116
+          ]
+        },
+        "saved_direction_endpoint": {
+          "exact": {
+            "decimal_display_64_significant_digits": "1.789256633824345366263438549145537800165570316073043339769583274E-35",
+            "denominator": "4925250774549309901534880012517951725634967408808180833493536675530715221437151326426783281860614455100828498788352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "88125376216108479805789962173102692747547166152433138350978549838788864792460785"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "3.460807888933205128898057253092084698082985495330232531457253875E-21",
+            "denominator": "25463816266112693240872496337087298576563131884680436938888190530331951104634477548183899079897513984",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "88125376216108479805789962173102692747547166152433138350978549838788864792460785"
+          },
+          "original_dyadic": [
+            "0x2f910cb5b6c536177d01d628e156ac2aecccf519b34db9844de9bdf2ff72e35fdf1",
+            -381
+          ]
+        },
+        "state_addition_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-6.343192320367577106621128445618943881111499990248247574106439270E-25",
+            "denominator": "2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1599580819917088945039785689769370811701631964388145387296926798117465763330281096520960179697"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.226910081446916570540374428609860691705791880963567174586664065E-10",
+            "denominator": "13037473928249698939326718124588696871200323524956383712710753551529958965572852504670156328907527159808",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1599580819917088945039785689769370811701631964388145387296926798117465763330281096520960179697"
+          },
+          "original_dyadic": [
+            "-0x3113fc9ef402f910cb5b6c536177d01d628e156ac2aecccf519b34db9844de9bdf2ff72e35fdf1",
+            -390
+          ]
+        },
+        "stored_base_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "2.795208725939191118925464252242818474769592285156250000000000000E-20",
+            "denominator": "1180591620717411303424",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "33"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "5.406536003317101046752384530493561429471948477224027590562739585E-6",
+            "denominator": "273075959744683",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1476395008"
+          },
+          "original_dyadic": [
+            "0x21",
+            -70
+          ]
+        },
+        "stored_trial_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "6.903318520122547763406828380539081990718841552734375000000000000E-20",
+            "denominator": "2361183241434822606848",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "163"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.335250558394981016091876785561288656066556972405328026154131140E-5",
+            "denominator": "819227879234049",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "10938744832"
+          },
+          "original_dyadic": [
+            "0xa3",
+            -71
+          ]
+        },
+        "total_trial_minus_ideal": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.113569186226206623640873562725750727299505211210192284832870476E-20",
+            "denominator": "2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "103733042281588728815687543166520257166077709601112485230447344743073684855145722185275495152222735"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "7.956529221264187820388931168082779100981540573753352923923058619E-6",
+            "denominator": "4345824642749899646442239374862898957066774508318794570903584517176652988524284168223385442969175719936",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "34577680760529576271895847722173419055359236533704161743482448247691228285048574061758498384074245"
+          },
+          "original_dyadic": [
+            "0x30907ffffffffffd06ef34a493ac9e882fe29d71ea953d513330ae64cb2467bb216420d008d1ca020f",
+            -390
+          ]
+        }
+      },
+      "groups": {
+        "nonzero-realized": {
+          "count": 1,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "-6.343192320599534241564900968618778332695270873136584254342018454E-25",
+            "denominator": "374144419156711147060143317175368453031918731001856",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-237327000639002341506515089"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "-1.226910081491782078781746153280238193621949321706021425227750799E-10",
+            "denominator": "1934347139363627217423916711702167552",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-237327000639002341506515089"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "1.226910081491782078781746153280238193621949321706021425227750799E-10",
+            "denominator": "1934347139363627217423916711702167552",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "237327000639002341506515089"
+          }
+        },
+        "zero-realized-nonzero-ideal": {
+          "count": 222,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "2.316547358446319591132494475343764444300268358918911699938422074E-35",
+            "denominator": "2521728396569246669585858566409191283525103313309788586748690777871726193375821479130513040312634601011624191379636224",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "58417032557915614233834066737874668490654142337552652082778826735838336806732562959"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "4.480701773933149586847144255220324791542196630459236078923829937E-21",
+            "denominator": "4345824642749899646442239374862898957066774508318794570903584517176652988524284168223385442969175719936",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "19472344185971871411278022245958222830218047445850884027592942245279445602244187653"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "3.338928042170769601142503496573066492273648646527382395409846921E-20",
+            "denominator": "13037473928249698939326718124588696871200323524956383712710753551529958965572852504670156328907527159808",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "435311872981032199892086250835135712742366534555320856034990388331599377550638702193"
+          }
+        },
+        "zero-realized-zero-ideal": {
+          "count": 1,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          }
+        }
+      },
+      "incoming_total_over_sigma": {
+        "decimal_display_64_significant_digits": "-1.226910081446975061042414657411766751069746073790599458923158438E-10",
+        "denominator": "13037473928249698939326718124588696871200323524956383712710753551529958965572852504670156328907527159808",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "-1599580819917165201879325661652203317505337871495325780458908261269736803558602507758006042097"
+      },
+      "outgoing_negative_identity_contribution": {
+        "actual_trial": {
+          "classification": "finite",
+          "float64le_hex": "8402bcb5869cb9be",
+          "value": -1.5265602177351432e-06
+        },
+        "column": 184,
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "-3.023990991405638865850040493944384583098443436880141877000828261E-38",
+          "denominator": "47890485652059026823698344598447161988085597568237568",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-1448203971858675"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "3.023990991405638865850040493944384583098443436880141877000828261E-38",
+          "denominator": "47890485652059026823698344598447161988085597568237568",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1448203971858675"
+        },
+        "node": 10,
+        "original_base": {
+          "classification": "finite",
+          "float64le_hex": "8402bcb5869cb9be",
+          "value": -1.5265602177351432e-06
+        },
+        "signed_contribution": {
+          "decimal_display_64_significant_digits": "3.023990991405638865850040493944384583098443436880141877000828261E-38",
+          "denominator": "47890485652059026823698344598447161988085597568237568",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "1448203971858675"
+        },
+        "signed_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "5.849050204022880190605936395419282703228433649437318609343421369E-24",
+          "denominator": "82532144612848094610087113032625815552",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "482734657286225"
+        }
+      },
+      "complete_state_formation_sum_over_sigma": {
+        "decimal_display_64_significant_digits": "-1.226910081446916570540374428609860691705791880963567174586664065E-10",
+        "denominator": "13037473928249698939326718124588696871200323524956383712710753551529958965572852504670156328907527159808",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "-1599580819917088945039785689769370811701631964388145387296926798117465763330281096520960179697"
+      },
+      "largest_absolute_incoming_contribution": {
+        "column": 72,
+        "first_tie_rule": "smallest original input column",
+        "signed_over_sigma": {
+          "decimal_display_64_significant_digits": "-1.226910081491782078781746153280238193621949321706021425227750799E-10",
+          "denominator": "1934347139363627217423916711702167552",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-237327000639002341506515089"
+        }
+      },
+      "actual_output_and_target": {
+        "correctly_rounded_difference_equals_saved_residual_word": true,
+        "correctly_rounded_exact_difference": {
+          "classification": "finite",
+          "float64le_hex": "000000000060f43b",
+          "value": 6.903318520122548e-20
+        },
+        "exact_flow_minus_target": {
+          "decimal_display_64_significant_digits": "6.903318520122547763406828380539081990718841552734375000000000000E-20",
+          "denominator": "2361183241434822606848",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "163"
+        },
+        "exact_flow_minus_target_minus_stored_r": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_flow_minus_target_minus_stored_r_over_sigma": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_zero_rounding_sign_convention": "Exact mathematical zero rounds to +0; this does not reconstruct a signed-zero subtraction rule",
+        "flow_output_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "3f01bcb5869cb9be",
+              "value": -1.5265602177350744e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "2.117582368135750847670806251699104905128479003906250000000000000E-22",
+              "denominator": "4722366482869645213696",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "4.095860608573561399054836765525425325357536725169717871638439079E-8",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "33554432"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "2.047930304286780571979059837166657719622308722615223635858149999E+1",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "81129638414606681695789005144064"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "3e01bcb5869cb9be",
+            "value": -1.5265602177350742e-06
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.170054771158893068699869650441117256971668841858402743127953727E-15",
+            "denominator": "158456325028528675187087900672",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "819227879234049"
+          },
+          "scale_scope": "actual original noJ flow output / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "3d01bcb5869cb9be",
+              "value": -1.526560217735074e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "2.117582368135750847670806251699104905128479003906250000000000000E-22",
+              "denominator": "4722366482869645213696",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "4.095860608573561399054836765525425325357536725169717871638439079E-8",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "33554432"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "2.047930304286780571979059837166657719622308722615223635858149999E+1",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "81129638414606681695789005144064"
+            }
+          }
+        },
+        "original_base_flow_output_not_exported_by_actual83_and_not_reconstructed": true,
+        "original_noJ_flow_output": {
+          "classification": "finite",
+          "float64le_hex": "3e01bcb5869cb9be",
+          "value": -1.5265602177350742e-06
+        },
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -116
+        },
+        "stored_trial_residual": {
+          "classification": "finite",
+          "float64le_hex": "000000000060f43b",
+          "value": 6.903318520122548e-20
+        },
+        "target": {
+          "classification": "finite",
+          "float64le_hex": "8402bcb5869cb9be",
+          "value": -1.5265602177351432e-06
+        },
+        "target_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "8502bcb5869cb9be",
+              "value": -1.5265602177351434e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "2.117582368135750847670806251699104905128479003906250000000000000E-22",
+              "denominator": "4722366482869645213696",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "4.095860608573561399054836765525425325357536725169717871638439079E-8",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "33554432"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "2.047930304286780571979059837166657719622308722615223635858149999E+1",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "81129638414606681695789005144064"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "8402bcb5869cb9be",
+            "value": -1.5265602177351432e-06
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.170054771158893068699869650441117256971668841858402743127953727E-15",
+            "denominator": "158456325028528675187087900672",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "819227879234049"
+          },
+          "scale_scope": "actual trial target coordinate / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "8302bcb5869cb9be",
+              "value": -1.526560217735143e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "2.117582368135750847670806251699104905128479003906250000000000000E-22",
+              "denominator": "4722366482869645213696",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "4.095860608573561399054836765525425325357536725169717871638439079E-8",
+              "denominator": "819227879234049",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "33554432"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "2.047930304286780571979059837166657719622308722615223635858149999E+1",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "81129638414606681695789005144064"
+            }
+          }
+        }
+      },
+      "dominant_input_column_complete_original_record": {
+        "adjacent_input_effect_is_not_an_actual_nonlinear_trial_or_error_bound": true,
+        "adjacent_input_word_linearized_effect": {
+          "down": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "2.670582909905849469900470101578738964272476528049152415486367898E-9",
+              "denominator": "1718045385391444328448",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "4588182644669"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.335291454952924651786158176346861540043305059660426637670486299E+0",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "5289814438102805825429065170944"
+            }
+          },
+          "up": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "2.670582909905849469900470101578738964272476528049152415486367898E-9",
+              "denominator": "1718045385391444328448",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "4588182644669"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.335291454952924651786158176346861540043305059660426637670486299E+0",
+              "denominator": "3961542941416708788015380445333",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "5289814438102805825429065170944"
+            }
+          }
+        },
+        "base_state_word": {
+          "classification": "finite",
+          "float64le_hex": "61723e0190f2a2bc",
+          "value": -1.3147476052139653e-16
+        },
+        "category": "nonzero-realized",
+        "component": "Q",
+        "exact_h": {
+          "decimal_display_64_significant_digits": "-9.860761315262647567646607066034827870915080438862787559628486633E-32",
+          "denominator": "10141204801825835211973625643008",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-1"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "-1.132549323221201512712706007413183286341847354041556751353941971E-33",
+          "denominator": "45671926166590716193865151022383844364247891968",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-51725709070181"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "-9.747506382940527416375336465293509542280895703458631884493092436E-32",
+          "denominator": "45671926166590716193865151022383844364247891968",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-4451873918300315"
+        },
+        "ideal_action_contribution": {
+          "decimal_display_64_significant_digits": "-5.459392042847659588159996704257213005740105923238401466068120628E-23",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-20426010648200082914075770735"
+        },
+        "incoming_column": 72,
+        "incoming_node": 11,
+        "mode": 73,
+        "original_J_coefficient": {
+          "classification": "finite",
+          "float64le_hex": "00f49efc13b1c041",
+          "value": 560080889.2418213
+        },
+        "realized_action_contribution": {
+          "decimal_display_64_significant_digits": "-5.522823966053654930575645713943400789067058631969767308611540813E-23",
+          "denominator": "83076749736557242056487941267521536",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-4588182644669"
+        },
+        "state_formation_contribution": {
+          "decimal_display_64_significant_digits": "-6.343192320599534241564900968618778332695270873136584254342018454E-25",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-237327000639002341506515089"
+        },
+        "state_formation_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "-1.226910081491782078781746153280238193621949321706021425227750799E-10",
+          "denominator": "1934347139363627217423916711702167552",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-237327000639002341506515089"
+        },
+        "trial_state_word": {
+          "classification": "finite",
+          "float64le_hex": "65723e0190f2a2bc",
+          "value": -1.3147476052139663e-16
+        }
+      }
+    },
+    {
+      "original_global_equation_row": 2762,
+      "original_stage": 11,
+      "original_row": 186,
+      "component": "Pi",
+      "mode": 75,
+      "propagation_orientation": {
+        "equation": "r[stage] + J[stage]*increment[stage+1] - increment[stage]",
+        "incoming_node": 12,
+        "outgoing_node": 11
+      },
+      "original_sigma": {
+        "classification": "finite",
+        "float64le_hex": "3d3e5ef00550f73c",
+        "value": 5.176434974219545e-15
+      },
+      "original_eight_row_values": {
+        "ideal_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-5.833112243601440557500281457342732181974217329493305003223507854E-20",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-588380991402620067133805836266888398404754522927858814114644757606912692654377667172843529347677309"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.126858981645162778431912526906332359328096885565975064467091226E-5",
+            "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-588380991402620067133805836266888398404754522927858814114644757606912692654377667172843529347677309"
+          },
+          "original_dyadic": [
+            "-0x11375ffffffffffff766f078d020c90543de2f09aac871a55f52d4ebaaeac90f50a8b2f7af499aa3c7d",
+            -392
+          ]
+        },
+        "realized_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-5.844527336054672339571425254689529538154602050781250000000000000E-20",
+            "denominator": "1180591620717411303424",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-69"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.129064185131748224212835386315015823668531983343095349697011967E-5",
+            "denominator": "6561910902111805",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-74088185856"
+          },
+          "original_dyadic": [
+            "-0x45",
+            -70
+          ]
+        },
+        "remaining_flow_tangent_model_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "original_dyadic": [
+            "0x0",
+            0
+          ]
+        },
+        "saved_direction_endpoint": {
+          "exact": {
+            "decimal_display_64_significant_digits": "8.085419898687071682620237524864658834956397863017694159892315000E-37",
+            "denominator": "19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "15929088247425961038813904835994467256939149035303286340150498086997253646828419"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.561966863093091791863423807854249068802240775815683632664118959E-22",
+            "denominator": "101980961464715797846880367113064858735938665472421983740540423983185327112747465159772078807124541440",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "15929088247425961038813904835994467256939149035303286340150498086997253646828419"
+          },
+          "original_dyadic": [
+            "0x8990f872fdf36fabc21d0f655378e5aa0ad2b14551536f0af574d0850b6655c383",
+            -383
+          ]
+        },
+        "state_addition_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-1.141509245323178207114379734679735618038472128794499677649214576E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115607220154635907985225591925242577350390738726152019951661079124633494006646817667"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-2.205203486585445780922859408683464340435097777120285229920741651E-8",
+            "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115607220154635907985225591925242577350390738726152019951661079124633494006646817667"
+          },
+          "original_dyadic": [
+            "-0x8a0000000000008990f872fdf36fabc21d0f655378e5aa0ad2b14551536f0af574d0850b6655c383",
+            -392
+          ]
+        },
+        "stored_base_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-5.844527336054672339571425254689529538154602050781250000000000000E-20",
+            "denominator": "1180591620717411303424",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-69"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.129064185131748224212835386315015823668531983343095349697011967E-5",
+            "denominator": "6561910902111805",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-74088185856"
+          },
+          "original_dyadic": [
+            "-0x45",
+            -70
+          ]
+        },
+        "stored_trial_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-5.844527336054672339571425254689529538154602050781250000000000000E-20",
+            "denominator": "1180591620717411303424",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-69"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.129064185131748224212835386315015823668531983343095349697011967E-5",
+            "denominator": "6561910902111805",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-74088185856"
+          },
+          "original_dyadic": [
+            "-0x45",
+            -70
+          ]
+        },
+        "total_trial_minus_ideal": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-1.141509245323178207114379734679735618038472128794499677649214576E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115607220154635907985225591925242577350390738726152019951661079124633494006646817667"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-2.205203486585445780922859408683464340435097777120285229920741651E-8",
+            "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115607220154635907985225591925242577350390738726152019951661079124633494006646817667"
+          },
+          "original_dyadic": [
+            "-0x8a0000000000008990f872fdf36fabc21d0f655378e5aa0ad2b14551536f0af574d0850b6655c383",
+            -392
+          ]
+        }
+      },
+      "groups": {
+        "nonzero-realized": {
+          "count": 0,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          }
+        },
+        "zero-realized-nonzero-ideal": {
+          "count": 224,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "-1.141509245323178449332204071239726266476786523569824749924379056E-22",
+            "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115851543180949797936903024184195995555080054769707171602901833260364281413755061123"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "-2.205203486585446248846875730513855900310734177706259233828436884E-8",
+            "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-1151430511551115851543180949797936903024184195995555080054769707171602901833260364281413755061123"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "2.205203486585855486149187459896384648483398293107672642097673667E-8",
+            "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1151430511551329531740592670622025062502167239512887150888234821070597625967654402807213714584957"
+          }
+        },
+        "zero-realized-zero-ideal": {
+          "count": 0,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          }
+        }
+      },
+      "incoming_total_over_sigma": {
+        "decimal_display_64_significant_digits": "-2.205203486585446248846875730513855900310734177706259233828436884E-8",
+        "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "-1151430511551115851543180949797936903024184195995555080054769707171602901833260364281413755061123"
+      },
+      "outgoing_negative_identity_contribution": {
+        "actual_trial": {
+          "classification": "finite",
+          "float64le_hex": "0584473aa119de3e",
+          "value": 7.176426980199696e-06
+        },
+        "column": 186,
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "-2.422178243365599906484383143947753250722751644799242706463021233E-38",
+          "denominator": "23945242826029513411849172299223580994042798784118784",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-579996462053149"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "2.422178243365599906484383143947753250722751644799242706463021233E-38",
+          "denominator": "23945242826029513411849172299223580994042798784118784",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "579996462053149"
+        },
+        "node": 11,
+        "original_base": {
+          "classification": "finite",
+          "float64le_hex": "0584473aa119de3e",
+          "value": 7.176426980199696e-06
+        },
+        "signed_contribution": {
+          "decimal_display_64_significant_digits": "2.422178243365599906484383143947753250722751644799242706463021233E-38",
+          "denominator": "23945242826029513411849172299223580994042798784118784",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "579996462053149"
+        },
+        "signed_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "4.679240163218303915598756364005859740039076952328984664107481339E-24",
+          "denominator": "123950992430838821428964571187637125120",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "579996462053149"
+        }
+      },
+      "complete_state_formation_sum_over_sigma": {
+        "decimal_display_64_significant_digits": "-2.205203486585445780922859408683464340435097777120285229920741651E-8",
+        "denominator": "52214252269934488497602747961889207672800596721880055675156697079390887481726702161803304349247765217280",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "-1151430511551115607220154635907985225591925242577350390738726152019951661079124633494006646817667"
+      },
+      "largest_absolute_incoming_contribution": {
+        "column": 74,
+        "first_tie_rule": "smallest original input column",
+        "signed_over_sigma": {
+          "decimal_display_64_significant_digits": "-2.205203486585151555148461218459337980313014004335828469391853047E-8",
+          "denominator": "495803969723355285715858284750548500480",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-10933486426967019956095386217301"
+        }
+      },
+      "actual_output_and_target": {
+        "correctly_rounded_difference_equals_saved_residual_word": true,
+        "correctly_rounded_exact_difference": {
+          "classification": "finite",
+          "float64le_hex": "000000000040f1bb",
+          "value": -5.844527336054672e-20
+        },
+        "exact_flow_minus_target": {
+          "decimal_display_64_significant_digits": "-5.844527336054672339571425254689529538154602050781250000000000000E-20",
+          "denominator": "1180591620717411303424",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-69"
+        },
+        "exact_flow_minus_target_minus_stored_r": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_flow_minus_target_minus_stored_r_over_sigma": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_zero_rounding_sign_convention": "Exact mathematical zero rounds to +0; this does not reconstruct a signed-zero subtraction rule",
+        "flow_output_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "bf83473aa119de3e",
+              "value": 7.176426980199637e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "8.470329472543003390683225006796419620513916015625000000000000000E-22",
+              "denominator": "1180591620717411303424",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.636324905988040904656283168572486700968886932381297608256539083E-7",
+              "denominator": "6561910902111805",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1073741824"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "8.181624529940204013716819408176490076622283714144229143700076701E+1",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2596148429267413814265248164610048"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "c083473aa119de3e",
+            "value": 7.176426980199638e-06
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.176434974219544678910159496097991985669531118247066459048255638E-15",
+            "denominator": "1267650600228229401496703205376",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6561910902111805"
+          },
+          "scale_scope": "actual original noJ flow output / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "c183473aa119de3e",
+              "value": 7.1764269801996385e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "8.470329472543003390683225006796419620513916015625000000000000000E-22",
+              "denominator": "1180591620717411303424",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.636324905988040904656283168572486700968886932381297608256539083E-7",
+              "denominator": "6561910902111805",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1073741824"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "8.181624529940204013716819408176490076622283714144229143700076701E+1",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2596148429267413814265248164610048"
+            }
+          }
+        },
+        "original_base_flow_output_not_exported_by_actual83_and_not_reconstructed": true,
+        "original_noJ_flow_output": {
+          "classification": "finite",
+          "float64le_hex": "c083473aa119de3e",
+          "value": 7.176426980199638e-06
+        },
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -116
+        },
+        "stored_trial_residual": {
+          "classification": "finite",
+          "float64le_hex": "000000000040f1bb",
+          "value": -5.844527336054672e-20
+        },
+        "target": {
+          "classification": "finite",
+          "float64le_hex": "0584473aa119de3e",
+          "value": 7.176426980199696e-06
+        },
+        "target_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "0484473aa119de3e",
+              "value": 7.176426980199695e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "8.470329472543003390683225006796419620513916015625000000000000000E-22",
+              "denominator": "1180591620717411303424",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.636324905988040904656283168572486700968886932381297608256539083E-7",
+              "denominator": "6561910902111805",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1073741824"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "8.181624529940204013716819408176490076622283714144229143700076701E+1",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2596148429267413814265248164610048"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "0584473aa119de3e",
+            "value": 7.176426980199696e-06
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.176434974219544678910159496097991985669531118247066459048255638E-15",
+            "denominator": "1267650600228229401496703205376",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "6561910902111805"
+          },
+          "scale_scope": "actual trial target coordinate / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "0684473aa119de3e",
+              "value": 7.176426980199697e-06
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "8.470329472543003390683225006796419620513916015625000000000000000E-22",
+              "denominator": "1180591620717411303424",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.636324905988040904656283168572486700968886932381297608256539083E-7",
+              "denominator": "6561910902111805",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1073741824"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "8.181624529940204013716819408176490076622283714144229143700076701E+1",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "2596148429267413814265248164610048"
+            }
+          }
+        }
+      },
+      "dominant_input_column_complete_original_record": {
+        "adjacent_input_effect_is_not_an_actual_nonlinear_trial_or_error_bound": true,
+        "adjacent_input_word_linearized_effect": {
+          "down": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "2.613588888536183304623141262308259499005252577980480134156946896E-6",
+              "denominator": "1720165571523197009920",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "4495805624175521"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.306794444268091570922332933952383112711046911176710721888903004E+3",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "41466487877154931832146331296595968"
+            }
+          },
+          "up": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "2.613588888536183304623141262308259499005252577980480134156946896E-6",
+              "denominator": "1720165571523197009920",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "4495805624175521"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "1.306794444268091570922332933952383112711046911176710721888903004E+3",
+              "denominator": "31731454062294740262100388493185",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "41466487877154931832146331296595968"
+            }
+          }
+        },
+        "base_state_word": {
+          "classification": "finite",
+          "float64le_hex": "2e5ed041434c5cbc",
+          "value": -6.1361292049395155e-18
+        },
+        "category": "zero-realized-nonzero-ideal",
+        "component": "Q",
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "6.499977784432919806659118352417368318458349771339906687462210724E-36",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "2431930412688181"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "-6.499977784432919806659118352417368318458349771339906687462210724E-36",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-2431930412688181"
+        },
+        "ideal_action_contribution": {
+          "decimal_display_64_significant_digits": "1.141509245323025903055488572541571624755434406889577910599342540E-22",
+          "denominator": "95780971304118053647396689196894323976171195136475136",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "10933486426967019956095386217301"
+        },
+        "incoming_column": 74,
+        "incoming_node": 12,
+        "mode": 75,
+        "original_J_coefficient": {
+          "classification": "finite",
+          "float64le_hex": "42976aa2d2f1afc2",
+          "value": -17561740719435.629
+        },
+        "realized_action_contribution": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "state_formation_contribution": {
+          "decimal_display_64_significant_digits": "-1.141509245323025903055488572541571624755434406889577910599342540E-22",
+          "denominator": "95780971304118053647396689196894323976171195136475136",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-10933486426967019956095386217301"
+        },
+        "state_formation_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "-2.205203486585151555148461218459337980313014004335828469391853047E-8",
+          "denominator": "495803969723355285715858284750548500480",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-10933486426967019956095386217301"
+        },
+        "trial_state_word": {
+          "classification": "finite",
+          "float64le_hex": "2e5ed041434c5cbc",
+          "value": -6.1361292049395155e-18
+        }
+      }
+    },
+    {
+      "original_global_equation_row": 2128,
+      "original_stage": 9,
+      "original_row": 0,
+      "component": "Q",
+      "mode": 1,
+      "propagation_orientation": {
+        "equation": "r[stage] + J[stage]*increment[stage+1] - increment[stage]",
+        "incoming_node": 10,
+        "outgoing_node": 9
+      },
+      "original_sigma": {
+        "classification": "finite",
+        "float64le_hex": "14b8f8fa483ef73c",
+        "value": 5.161049608100734e-15
+      },
+      "original_eight_row_values": {
+        "ideal_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.998798563134613371525244394956847231735619756988748991492017340E-25",
+            "denominator": "5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2707034625589456500800995038072593800845840546086917643311984106501593097076314486253080959103074005803"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "9.685623938372044970739703876954786012672680769596413837687286820E-11",
+            "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "2707034625589456500800995038072593800845840546086917643311984106501593097076314486253080959103074005803"
+          },
+          "original_dyadic": [
+            "0x135691fff29967f1a0544d276915507991b89c6ecfab4da63b6c3567dab7bcfeaf2219522765d9bfa3732b",
+            -421
+          ]
+        },
+        "realized_affine_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.998798563941142137707684422989135316044429766557353731509177278E-25",
+            "denominator": "102844034832575377634685573909834406561420991602098741459288064",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "51409661363099059810226213538636614923"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "9.685623939934767338136677071479723635171104993024165411106874276E-11",
+            "denominator": "530783165668161423557334257135504129893750276096",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "51409661363099059810226213538636614923"
+          },
+          "original_dyadic": [
+            "0x26ad240000000000002554513a19cd0b",
+            -206
+          ]
+        },
+        "remaining_flow_tangent_model_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "-1.021671504745330887332353008954386491207669293848997699578774245E-46",
+            "denominator": "102844034832575377634685573909834406561420991602098741459288064",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-10507281982147851"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "-1.979580864988635295549236817391705731612747883912842431991504547E-32",
+            "denominator": "530783165668161423557334257135504129893750276096",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "-10507281982147851"
+          },
+          "original_dyadic": [
+            "-0x2554513a19cd0b",
+            -206
+          ]
+        },
+        "saved_direction_endpoint": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.998798150998413852820464209382500233360537255007418339730408403E-25",
+            "denominator": "10576895500643977583230644928524336637254474927428499508554380724390492659780981533203027367035444557561459392400373732868096",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "5287176567192255793937220523614648007548253866597350800566071184977690863273572740768723722802787115"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "9.685623139820915231897967296720853552003562611702521449132211420E-11",
+            "denominator": "54587882378521020760122257529088527107007005265771155036401406258748462664271510658311313624709085143597318144",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "5287176567192255793937220523614648007548253866597350800566071184977690863273572740768723722802787115"
+          },
+          "original_dyadic": [
+            "0x9ab48f29967f1a0544d276915507991b89c6ecfab4da63b6c3567dab7bcfeaf2219522765d9bfa3732b",
+            -412
+          ]
+        },
+        "state_addition_term": {
+          "exact": {
+            "decimal_display_64_significant_digits": "8.065287661824400280322880843088100095686047400171599372732105194E-35",
+            "denominator": "5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "436765208482559414126937258473120185512598858773040054641035354367046493126688390271993679061"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.562722367396973194524937622498424223427751573419587455124798166E-20",
+            "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "436765208482559414126937258473120185512598858773040054641035354367046493126688390271993679061"
+          },
+          "original_dyadic": [
+            "0xd66980e5fbe5d0133f7960bee4763913054b259c493ca982548430150dde6add89a26405c8cd5",
+            -421
+          ]
+        },
+        "stored_base_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.998798563941142137706662751484389985157097413548399345017969608E-25",
+            "denominator": "1267650600228229401496703205376",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "633673"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "9.685623939934767338134697490614734999875555756206773705375261528E-11",
+            "denominator": "284452505805068",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "27551"
+          },
+          "original_dyadic": [
+            "0x9ab49",
+            -100
+          ]
+        },
+        "stored_trial_residual": {
+          "exact": {
+            "decimal_display_64_significant_digits": "4.998798563941142137706662751484389985157097413548399345017969608E-25",
+            "denominator": "1267650600228229401496703205376",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "633673"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "9.685623939934767338134697490614734999875555756206773705375261528E-11",
+            "denominator": "284452505805068",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "27551"
+          },
+          "original_dyadic": [
+            "0x9ab49",
+            -100
+          ]
+        },
+        "total_trial_minus_ideal": {
+          "exact": {
+            "decimal_display_64_significant_digits": "8.065287661814183565275427534214776565596503535259522679793615217E-35",
+            "denominator": "5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "436765208482006141154563393387438619503696818069319287005465783512877192256319949927647841493"
+          },
+          "exact_over_original_sigma": {
+            "decimal_display_64_significant_digits": "1.562722367394993613659948987202874986610359867687974707240885324E-20",
+            "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "436765208482006141154563393387438619503696818069319287005465783512877192256319949927647841493"
+          },
+          "original_dyadic": [
+            "0xd66980e5fabb2d896eaaf866e4763913054b259c493ca982548430150dde6add89a26405c8cd5",
+            -421
+          ]
+        }
+      },
+      "groups": {
+        "nonzero-realized": {
+          "count": 3,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "6.898689090663013565641633884204063187964360281555615551086341960E-47",
+            "denominator": "231584178474632390847141970017375815706539969331281128078915168015826259279872",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "15976272456131027684144487057149"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "1.336683352129554585865738367141038663851818391997382598311261250E-32",
+            "denominator": "1195217433558832016327995354166038300389064515583103759242231808",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "15976272456131027684144487057149"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "1.336683352129554585865738367141038663851818391997382598311261250E-32",
+            "denominator": "1195217433558832016327995354166038300389064515583103759242231808",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "15976272456131027684144487057149"
+          }
+        },
+        "zero-realized-nonzero-ideal": {
+          "count": 221,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "9.383146412258998149234933949888301487048097809491522958427234271E-36",
+            "denominator": "5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "50813214243689409694114379606581990373052797069927266651868253664278707161601152022424095957"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "1.818069409278938312642372336866866882168962453767889118508342666E-21",
+            "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "50813214243689409694114379606581990373052797069927266651868253664278707161601152022424095957"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "1.818069466945056711852410319890293803314628177681297081642090130E-21",
+            "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "50813215855399509355909936151018062886146369659370953529420262157657760786478359945962058009"
+          }
+        },
+        "zero-realized-zero-ideal": {
+          "count": 0,
+          "signed_sum": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "signed_sum_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          },
+          "sum_of_absolute_contributions_over_sigma": {
+            "decimal_display_64_significant_digits": "0",
+            "denominator": "1",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "0"
+          }
+        }
+      },
+      "incoming_total_over_sigma": {
+        "decimal_display_64_significant_digits": "1.818069409292305146163667882725524265840372840406407302428316492E-21",
+        "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "50813214244062999267763661251775916696448438311131948097617735431904087333812957817792662741"
+      },
+      "outgoing_negative_identity_contribution": {
+        "actual_trial": {
+          "classification": "finite",
+          "float64le_hex": "0216fffa483ef73c",
+          "value": 5.161049608429896e-15
+        },
+        "column": 0,
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "-7.126973020591601776308724434533628313097033556034482716607826151E-35",
+          "denominator": "46768052394588893382517914646921056628989841375232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-3333146476418495"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "7.126973020591601776308724434533628313097033556034482716607826151E-35",
+          "denominator": "46768052394588893382517914646921056628989841375232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "3333146476418495"
+        },
+        "node": 9,
+        "original_base": {
+          "classification": "finite",
+          "float64le_hex": "0216fffa483ef73c",
+          "value": 5.161049608429896e-15
+        },
+        "signed_contribution": {
+          "decimal_display_64_significant_digits": "7.126973020591601776308724434533628313097033556034482716607826151E-35",
+          "denominator": "46768052394588893382517914646921056628989841375232",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "3333146476418495"
+        },
+        "signed_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "1.380915426467742679908570834225871796843714289378946724881966517E-20",
+          "denominator": "241372238482727618046435171497934848",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "3333146476418495"
+        }
+      },
+      "complete_state_formation_sum_over_sigma": {
+        "decimal_display_64_significant_digits": "1.562722367396973194524937622498424223427751573419587455124798166E-20",
+        "denominator": "27948995777802762629182595854893325878787586696074831378637520004479212884107013457055392575851051593521826889728",
+        "display_is_not_an_interval_enclosure": true,
+        "display_never_used_for_comparison": true,
+        "numerator": "436765208482559414126937258473120185512598858773040054641035354367046493126688390271993679061"
+      },
+      "largest_absolute_incoming_contribution": {
+        "column": 0,
+        "first_tie_rule": "smallest original input column",
+        "signed_over_sigma": {
+          "decimal_display_64_significant_digits": "1.817980201806865082863254730632515348591985882108344488486599633E-21",
+          "denominator": "17392702772614313527126728937816199328358409047113728",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "31619589296524191565364278012227"
+        }
+      },
+      "actual_output_and_target": {
+        "correctly_rounded_difference_equals_saved_residual_word": true,
+        "correctly_rounded_exact_difference": {
+          "classification": "finite",
+          "float64le_hex": "000000009256e33a",
+          "value": 4.998798563941142e-25
+        },
+        "exact_flow_minus_target": {
+          "decimal_display_64_significant_digits": "4.998798563941142137706662751484389985157097413548399345017969608E-25",
+          "denominator": "1267650600228229401496703205376",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "633673"
+        },
+        "exact_flow_minus_target_minus_stored_r": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_flow_minus_target_minus_stored_r_over_sigma": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_zero_rounding_sign_convention": "Exact mathematical zero rounds to +0; this does not reconstruct a signed-zero subtraction rule",
+        "flow_output_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "4ac108fb483ef73c",
+              "value": 5.161049608929775e-15
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "7.888609052210118054117285652827862296732064351090230047702789307E-31",
+              "denominator": "1267650600228229401496703205376",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.528489290207215288979441682163313728038839552293813008503638553E-16",
+              "denominator": "6542407633516564",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.642446451036075968913480809428119854991747767446708455961754465E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604462909807314587353088"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "4bc108fb483ef73c",
+            "value": 5.161049608929776e-15
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.161049608100734332353390415480943587118014062586901502527325647E-15",
+            "denominator": "316912650057057350374175801344",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1635601908379141"
+          },
+          "scale_scope": "actual original noJ flow output / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "4cc108fb483ef73c",
+              "value": 5.161049608929777e-15
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "7.888609052210118054117285652827862296732064351090230047702789307E-31",
+              "denominator": "1267650600228229401496703205376",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.528489290207215288979441682163313728038839552293813008503638553E-16",
+              "denominator": "6542407633516564",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.642446451036075968913480809428119854991747767446708455961754465E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604462909807314587353088"
+            }
+          }
+        },
+        "original_base_flow_output_not_exported_by_actual83_and_not_reconstructed": true,
+        "original_noJ_flow_output": {
+          "classification": "finite",
+          "float64le_hex": "4bc108fb483ef73c",
+          "value": 5.161049608929776e-15
+        },
+        "rounding": {
+          "classification": "normal",
+          "exact_zero": false,
+          "overflow": false,
+          "tie": false,
+          "unit_power": -133
+        },
+        "stored_trial_residual": {
+          "classification": "finite",
+          "float64le_hex": "000000009256e33a",
+          "value": 4.998798563941142e-25
+        },
+        "target": {
+          "classification": "finite",
+          "float64le_hex": "0216fffa483ef73c",
+          "value": 5.161049608429896e-15
+        },
+        "target_spacing": {
+          "diagnostics_only_no_state_replacement": true,
+          "down": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "0116fffa483ef73c",
+              "value": 5.161049608429895e-15
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "7.888609052210118054117285652827862296732064351090230047702789307E-31",
+              "denominator": "1267650600228229401496703205376",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.528489290207215288979441682163313728038839552293813008503638553E-16",
+              "denominator": "6542407633516564",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.642446451036075968913480809428119854991747767446708455961754465E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604462909807314587353088"
+            }
+          },
+          "original": {
+            "classification": "finite",
+            "float64le_hex": "0216fffa483ef73c",
+            "value": 5.161049608429896e-15
+          },
+          "original_binary64_tolerance": {
+            "decimal_display_64_significant_digits": "2.000000000000000124563182915559712837794137385571957565844058990E-9",
+            "denominator": "2417851639229258349412352",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "4835703278458517"
+          },
+          "original_positive_scale": {
+            "decimal_display_64_significant_digits": "5.161049608100734332353390415480943587118014062586901502527325647E-15",
+            "denominator": "316912650057057350374175801344",
+            "display_is_not_an_interval_enclosure": true,
+            "display_never_used_for_comparison": true,
+            "numerator": "1635601908379141"
+          },
+          "scale_scope": "actual trial target coordinate / original equation sigma[stage]",
+          "up": {
+            "adjacent": {
+              "classification": "finite",
+              "float64le_hex": "0316fffa483ef73c",
+              "value": 5.161049608429897e-15
+            },
+            "exact_gap": {
+              "decimal_display_64_significant_digits": "7.888609052210118054117285652827862296732064351090230047702789307E-31",
+              "denominator": "1267650600228229401496703205376",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "finite_spacing": true,
+            "gap_over_scale": {
+              "decimal_display_64_significant_digits": "1.528489290207215288979441682163313728038839552293813008503638553E-16",
+              "denominator": "6542407633516564",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "1"
+            },
+            "gap_over_scale_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.642446451036075968913480809428119854991747767446708455961754465E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604462909807314587353088"
+            }
+          }
+        }
+      },
+      "dominant_input_column_complete_original_record": {
+        "adjacent_input_effect_is_not_an_actual_nonlinear_trial_or_error_bound": true,
+        "adjacent_input_word_linearized_effect": {
+          "down": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "1.528268873329148447317752478352163186354507705029609942963803792E-16",
+              "denominator": "58928769160822172374617961791488",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "9005900365208317"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.641344366645741760673674360123158691439245286355204403035495600E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604375742806315277221888"
+            }
+          },
+          "up": {
+            "absolute_J_times_adjacent_state_gap_over_row_sigma": {
+              "decimal_display_64_significant_digits": "1.528268873329148447317752478352163186354507705029609942963803792E-16",
+              "denominator": "58928769160822172374617961791488",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "9005900365208317"
+            },
+            "same_quantity_over_original_tolerance": {
+              "decimal_display_64_significant_digits": "7.641344366645741760673674360123158691439245286355204403035495600E-8",
+              "denominator": "7909285510602019080748476593897",
+              "display_is_not_an_interval_enclosure": true,
+              "display_never_used_for_comparison": true,
+              "numerator": "604375742806315277221888"
+            }
+          }
+        },
+        "base_state_word": {
+          "classification": "finite",
+          "float64le_hex": "b8740bd6aa48f73c",
+          "value": 5.170054773673693e-15
+        },
+        "category": "zero-realized-nonzero-ideal",
+        "component": "Q",
+        "exact_h": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "exact_h_minus_ideal": {
+          "decimal_display_64_significant_digits": "9.384039240079236479616677729977950688530065318503698641213967596E-36",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "3510985910823231"
+        },
+        "exact_ideal_alpha_delta": {
+          "decimal_display_64_significant_digits": "-9.384039240079236479616677729977950688530065318503698641213967596E-36",
+          "denominator": "374144419156711147060143317175368453031918731001856",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-3510985910823231"
+        },
+        "ideal_action_contribution": {
+          "decimal_display_64_significant_digits": "-9.382686008070214949480984871124101265589338240920993346318291751E-36",
+          "denominator": "3369993333393829974333376885877453834204643052817571560137951281152",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "-31619589296524191565364278012227"
+        },
+        "incoming_column": 0,
+        "incoming_node": 10,
+        "mode": 1,
+        "original_J_coefficient": {
+          "classification": "finite",
+          "float64le_hex": "fd9a2694d1feef3f",
+          "value": 0.999855794293438
+        },
+        "realized_action_contribution": {
+          "decimal_display_64_significant_digits": "0",
+          "denominator": "1",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "0"
+        },
+        "state_formation_contribution": {
+          "decimal_display_64_significant_digits": "9.382686008070214949480984871124101265589338240920993346318291751E-36",
+          "denominator": "3369993333393829974333376885877453834204643052817571560137951281152",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "31619589296524191565364278012227"
+        },
+        "state_formation_contribution_over_sigma": {
+          "decimal_display_64_significant_digits": "1.817980201806865082863254730632515348591985882108344488486599633E-21",
+          "denominator": "17392702772614313527126728937816199328358409047113728",
+          "display_is_not_an_interval_enclosure": true,
+          "display_never_used_for_comparison": true,
+          "numerator": "31619589296524191565364278012227"
+        },
+        "trial_state_word": {
+          "classification": "finite",
+          "float64le_hex": "b8740bd6aa48f73c",
+          "value": 5.170054773673693e-15
+        }
+      }
+    }
+  ],
+  "source_scope_limits": [
+    "Each exact row reads incoming node n+1 and outgoing node n; no node reversal.",
+    "All 224 incoming contributions and the outgoing negative-identity term are retained.",
+    "The original83 global norm ratios are reused; their nearest binary64 words are newly computed here.",
+    "State, actual flow-output and dimensionless norm spacings are separate quantities.",
+    "An adjacent-word residual spacing is not a positive universal residual lower bound; output may equal target.",
+    "Remaining actual flow/tangent-model discrepancy is not assigned to a unique nonlinear/root/J cause.",
+    "This one alpha and one original current state do not diagnose all ten original trials.",
+    "No new weighting, eta, direction, trial, acceptance, tolerance or geometry is selected.",
+    "Decimal displays are not interval enclosures and are never used for exact comparisons."
+  ],
+  "complete_literal": {
+    "file": "2026-11-15-actual91-complete-literal-readout.json.gz",
+    "bytes": 793461,
+    "sha256": "e1ea3fec9f820c9b9f51d33ac351e81b8fec77f3c1ded042c0f90637f26ce580"
+  },
+  "complete_literal_decoded_bytes": 7976142,
+  "complete_literal_decoded_sha256": "1fee2b9f9429d71ec0627d96f082f72a514c8b0303f0103fdb965abeaa806280"
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "actual91-byte-audit-summary-v1",
+  "passed": true,
+  "check_count": 10283,
+  "artifact_file_count": 50,
+  "decoded_gzip_count": 12,
+  "frozen_source_count": 17,
+  "frozen_sources_locally_matched": 17,
+  "original_raw_array_count": 15,
+  "original_raw_array_bytes": 6214024,
+  "selected_J_chunk_bytes": 1605632,
+  "selected_row_count": 4,
+  "incoming_columns_checked": 896,
+  "node_coordinates_checked": 896,
+  "IEEE_word_records_checked": 8167,
+  "IEEE_adjacencies_checked": 1826,
+  "norm_word_distance_integer_only": 12,
+  "reported_science_elapsed_seconds": 0.6757282570000029,
+  "reported_science_RSS_KiB": 51488,
+  "full_audit": {
+    "file": "2026-11-15-actual91-full-byte-audit.json.gz",
+    "bytes": 40190,
+    "sha256": "40d7d89a5c4e2a918666a7b98c9c5401c08fef34c0e693b3f3f8fc363de4a383"
+  },
+  "full_audit_decoded": {
+    "file": "2026-11-15-actual91-full-byte-audit.json",
+    "bytes": 621535,
+    "sha256": "2e7c3de9dc8d78f166aacff8b687cd2c9ed0b9b9154249bd60339f450f075c6d"
+  },
+  "compact_literal": {
+    "file": "2026-11-15-actual91-literal-key-results.json",
+    "bytes": 145903,
+    "sha256": "9b044e41fa002ae8d6d2e1802bdd8d175ed6cd4aeed4c49c06bd6c28643003c4"
+  },
+  "complete_literal": {
+    "file": "2026-11-15-actual91-complete-literal-readout.json.gz",
+    "bytes": 793461,
+    "sha256": "e1ea3fec9f820c9b9f51d33ac351e81b8fec77f3c1ded042c0f90637f26ce580"
+  },
+  "scope": {
+    "local_new_scientific_arithmetic": false,
+    "numerical_or_native_modules_imported": false,
+    "local_matrix_or_RHS_J_QR_norm_rational_rounding_actions": 0,
+    "JSON_and_bytes_only": true,
+    "integer_IEEE_encoding_checks_only": true,
+    "original_whole_ZIP_verification_by_root_not_repeated": true,
+    "original_matrix_whole_payload_not_reloaded": true,
+    "whole_four_selected_rows_coefficients_verified": true,
+    "whole_896_node_coordinate_words_verified": true,
+    "exact_rational_sums_not_recomputed_locally": true,
+    "full_original83_JSONL_ledgers_not_in_actual91_artifact_selected_complete_lines_only": true
+  }
+}
