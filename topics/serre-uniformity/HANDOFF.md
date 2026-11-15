@@ -4,13 +4,13 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：506de085110d7249a7641b13e0b8cd715ad3cab9**（2026-11-15T16:45:28.483176+00:00；公开run43714581068/attempt35/job132882452056真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
+**已读规则提交：b7f8eed5c427e76a3e7568f4815a5da660e13588**（2026-11-15T16:49:04.592442+00:00；公开run43714581068/attempt36/job132883482197真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
 ## 当前公开计算（2026-11-15 16:46 UTC）
 
-**R787真实430位BudgetStop，立即同核续算**：[完整断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)。run43708449812/job132794639922/sourceac5998f3，core93d3d72b/wrapper42157e0d不变。新artifact14170087848/438780485B/ZIP b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340；manifest430709B/1262条/SHA1b92c4e594f4d1d14cfd4b62fda8513511dc879a7c6e2c7d9f60de52dd5ca689，至Nov16 16:25UTC。最新430位60765868B/SHA00855d88fec4c18ec7cbfd4927dd72042d8e0372d1ac95498a0e5fcd9f118029，历史430条、429指针b3112803；原prime753/free1186/14分支不变。小IO43737168117/source2ed14525成功，73Range/60.99MB只核最新与元数据；真实错误BudgetStop，不是关系失效。请求只换新resume、workflow规则基准换最新已读，随后同核从430位续，不回退259。当前无真实A/B，成功后R792/804/809。
+**R787真实430位BudgetStop，立即同核续算**：[完整断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)。run43708449812/job132794639922/sourceac5998f3，core93d3d72b/wrapper42157e0d不变。新artifact14170087848/438780485B/ZIP b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340；manifest430709B/1262条/SHA1b92c4e594f4d1d14cfd4b62fda8513511dc879a7c6e2c7d9f60de52dd5ca689，至Nov16 16:25UTC。最新430位60765868B/SHA00855d88fec4c18ec7cbfd4927dd72042d8e0372d1ac95498a0e5fcd9f118029，历史430条、429指针b3112803；原prime753/free1186/14分支不变。小IO43737168117/source2ed14525成功，73Range/60.99MB只核最新与元数据；真实错误BudgetStop，不是关系失效。新run43737413555/job132883028161/source4092d1cc已in_progress，从430位续不回退259。该run规则job132882965375在16:47:19.142248UTC实际pull/read4092d1cc4d1156bc24a10ff820fd39c5713e8ad7，两README无diff。当前无真实A/B，成功后R792/804/809。
 
 **R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，53原输入全核。Mg六模/七准确点、Γ五模/七嵌套点；We0=e1、Γe0=0/Γe1=vh与完整嵌套commutator给唯一性，不独立CRT Mh。首prime1000000007不同R827的753，不混缓存。
 
@@ -42,7 +42,7 @@ R634逐盘非恒零早已成，不重记；[高度符号审计](notes/2026-11-15
 真正sigma缺同一primitive/Legendre可见h的三个原单位。R739反例/R741与R737标签不可拼，R808/810闭合，保非水平P_T/[K,P_T]；不重开高p²/Hirota/固定六维D闭包。
 R812全split p未筛单位不代同h；R829只复用旧p47七项/和16，不外推全惰性p。R826原companion与固定八运输准确成，R828迫G两CM值零；原q_*/12^5、−120c²/d0、六old及全部尺度保留。
 [R830](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)真conductor3p/6p权6lift、tame filtration6p已证；非零SS不定位P0。
-[R831](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)已推70be7e09：EndWeil(EO)=span(I,P2)，old6/new2绝对不可约，任意36维交换子压回EO old标量，不能再由此降FG/HJ。sigma继续真实conductor-p/SS权6与Eisenstein CM指定配对，R833稿待root读，不预记非零。
+[R831](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)已推70be7e09：EndWeil(EO)=span(I,P2)，old6/new2绝对不可约，任意36维交换子压回EO old标量，不能再由此降FG/HJ。[R833](results/R833-original-inert-supersingular-weight-six-and-quaternionic-evaluation.md)原同点权6运输已证：βhat=12DA、Γν=β^(6−p)Cν^p，原和=(12B)^−5K^pΣκν^pΓν(P0)，全部相位、old d^−6、原E0/dz保留。Hecke特征ℓ^−1a_f(ℓ)^p，ε′(w)=ε(bar w)^p按p11/23mod24固定/交换。Serre原文/原MH33与R812标架已核；SS全局非零不定位P0，不能换任意JL向量。sigma继续实际指定评价，R834无tame权6同eigensystem/Serre-dual稿在写。
 
 ## 主目标边界
 

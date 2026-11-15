@@ -284,3 +284,8 @@
 - R787真实退出核为BudgetStop，完整430位/SHA00855d88、429指针b3112803及430条历史经小IO43737168117实读；新manifest1b92c4e5/1262条、438780485B原产物绑定，不误记成功A/B。
 - 当前请求只换新resume，core93d3d72b/wrapper42157e0d/原标签不变，立即从430位续；workflow规则基准更新为已读506de085110d7249a7641b13e0b8cd715ad3cab9，禁退回259位。73Range/60.99MB无新数学，raw不入Git。
 - 2026-11-15T16:45:28.483176+00:00真实pull/read两README无diff；新断点笔记保全原run/source/完整SHA及后继，R815/R824/R827继续，主目标OPEN。
+
+### 2026-11-16 00:52（Asia/Taipei）｜serre-public-astra-20261115
+- R833完整证明登记：原βhat12DA与Γ=β^(6−p)C^p给同点SS权6评价，完整K^p/κ^p/old d^-6及p mod24角色交换；root核Serre原文pp2–4/6、MH33与R812原曲线/微分，SHAe265f39d。仍无指定六CM和或同h单位。
+- R787真430位续算run43737413555/job132883028161/source4092d1cc已进行；其rules job在16:47:19.142248UTC实际pull/read4092d1cc两README无diff，原核/14分支不变。
+- 旧97646B结果索引逐字同目录归档并缩当前索引；2026-11-15T16:49:04.592442+00:00真实pull/read b7f8eed5c427e76a3e7568f4815a5da660e13588两README无diff。R815/R824/R827继续；主目标OPEN。

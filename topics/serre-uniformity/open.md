@@ -52,7 +52,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 已成且禁止重算：R774共同56Hodge三积，R775 M2/M6/M12及普通power1..6配方，R781原f4的R0..142与κ幂，R786原power1..5 q0..128，R790原146个M2的CM值/首粗导，R791原Hom/实下降，R794五维低次数η基，R795原1506个V6 q0..81，R796原CM的144条全局二次关系及length2，R798真实1506选行minor和690个τ³V3积。具体真实来源、耗时与输出SHA保各certified结果和上述归档。
 
-**R787最新运行已结束，正读取新断点**：run43708449812/sourceac5998f3 exit1；新artifact14170087848/438780485B/ZIPb6ec1bf5至Nov16 16:25UTC，尚无真实A/B。先核core回执/最新Dixon再同core93d3d72b续算，不退回旧259位源、不换R802；全部旧1234/129条件/14分支保留。
+**R787真实430位BudgetStop后立即续算**：run43708449812/sourceac5998f3完整430位，最新60765868B/SHA00855d88及430条历史由小IO43737168117实读。新run43737413555/job132883028161/source4092d1cc已进行，同core93d3d72b/wrapper42157e0d恢复新manifest1b92c4e5/1262条和原14分支，不回退259、不换R802。详见[430位断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)，当前无真实A/B。
 
 **R809六原C已准确完成**：[实际结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q右端/full1380、S5=1234、p1000000007/minor29693114；13341.116785255秒，各最高项零给权4。原冻结verify全部成功；小IO run43733430148仅精读16件4.80MB取得真实manifest/cert/S5/minor，不重算旧行。保82^10、b/s与λ一次；A/B仍待真关系后追加，极理想/eta/高度未得。
 
@@ -110,3 +110,5 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 **R832（新的显式统一接触阶界，已证明）**：[完整证明](results/R832-original-height-explicit-uniform-contact-order-bound.md)。在同一R616前提、原c1与真实外积上，选极阶≤2G第二类代表、R=21G+4的闭合系统，循环行Wronskian给ord Eij≤R−1+binom(R,2)(6G−4)，G=(p−1)²/4。它对任意真实常数组合成立，完整jet关系/原R716提取器可在该预定窗口内取得；不先求Ore算子，不假定T_p非零。界随p增长，无首项赋值或原p^4盘无根；较短已成jet/算子优先复用，不生成巨大新窗口。SHA a25f743c88d2048f969f001cb0e7d5784fe6e7078f7b61a6deed523264758dd2。
 
 根会话独占main/共享索引，子代理只专属稿。所有新数学只用本公开Actions，已成raw不入Git/Release或悬挂blob；公开一日artifact仅当前续接。非快进立即真实pull/rebase循环推，不force；两README每次pull查diff，读过SHA在HANDOFF。主目标仍OPEN，继续推进，不以阶段报告收尾。
+
+**R833原指定超奇异权六评价已精确识别**：[完整证明](results/R833-original-inert-supersingular-weight-six-and-quaternionic-evaluation.md)。同一原P0/微分/全tame level上Γν=β^(6−p)Cν^p，βhat(P0)=12B∈Fp*；原未筛和为(12B)^−5(−120c²/d0)^pΣκν^pΓν(P0)。old d^−6与全部共同相位保留，ε′(w)=ε(barw)^p按p mod24明确运输到R830权6特征。此SS函数全局存在并非指定CM值非零，也非任意JL向量；六项相消及同primitive/Legendre三单位仍真实开放。继续严格排tame M6同eigensystem、定位实际Serre-dual class与指定评价，不重做R830的同q级数filtration结论。
