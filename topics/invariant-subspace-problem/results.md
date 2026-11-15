@@ -315,3 +315,7 @@
 ## 2026-11-15：原二点纯三次高核切片已完整排除
 
 [纯cube唯一性与原首项未增](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)证明该切片恰为弱方向三次张量；实际只新增一个RHS得增广rank591，首项仍15、全部185640原乘回和九零读数保持。并构造另一条切向耦合高核的完整原来源，数值后果尚待实测。
+
+## 2026-11-15：真实切向三次校正仍保持十五首项
+
+[切向耦合原来源与实际增量](results/R150-appendix-two-tangent-coupled-cubic-correction-and-unchanged-fifteen-heads.md)从原第二常核生成独立三次方向，17/5100原身份及全185640一阶乘回真；新增一RHS实际12.236647931秒，首项仍15、九平方零读数。没有冒称完整高核已分类。
