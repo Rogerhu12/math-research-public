@@ -132,3 +132,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### 170：准确有限端点与R354末点Hermite差
 
 [170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)六件/100pins已发：原166全部97源/三参数不变，原98完整37/FD先真实运行，复制实际A分块原scalar缓存而不新增旧RHS/J。准确有理π/Arb384与320位向外整数支付全部338投影/两mean/115零行、原JP准确作用和形成差；全实际端点×2048×17处理闭段M/域，37×17的Hermite差仅各末点。已核原FFT修正t投影+sin；未付整IEEE执行和query角域不归零。10800含恢复、diag5400/保留300+60、190science/215job；仅读回成功及marker后清，exact核实际R365。
+
+### R370与174固定不交奇形状组合
+
+[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)证系数箱内支撑不交时C²上界取max而非逐站累加，准确sign组合的原merit斜率为−Σ|g_s|；形成分数仅提议，全部误差/值方向仍未付。174明确独立从actual157末九p50起，173目录构造一次固定h*，随后新十族forward/FD/20trial中不再随p重选符号或宽度；任意点与Arb须同分片及全断点，完整原门/终态保。不等待164作为新门，无未来父或实际方向预填。

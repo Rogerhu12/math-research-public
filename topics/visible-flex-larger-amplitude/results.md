@@ -282,3 +282,5 @@
 - [R366：同坐标不同逻辑商输入的完整值与斜率形状响应](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)（已证，无新数值）：完整聚合G/H由偶六次/奇七次局部零2-jet基逐一实现，精确刻画允许C²空间span/rank/左零空间及原merit斜率；准确公共q与形成词等同分开。173维持odd范围，不预填实际秩或全场接受。
 
 - [Request170：原37之后的完整R354准确有限端点参考](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)：六件/100pins，原model/FD门保持；实际A分块缓存绑定、全338/两mean投影与115零行、320位向外全17闭段二阶界，保e0/e1及453形成差。Hermite输出仅17末点，整IEEE及query角域仍未付；t投影已按原FFT核为+sin，无本地科学运行。
+
+- [R370：不交局部奇形状的统一C²界与系数箱下降方向](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)（已证，无新数值）：完整sign组合在所声明有限箱的准确线性merit取−Σ|g|，C²界因支撑不交不随站数累加；形成误差与原真实接受分责。174使用真157父并在全部FD/trial冻结同一h，任意点仍须完整分片评价。
