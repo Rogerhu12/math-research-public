@@ -130,7 +130,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
-[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)/[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)/[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已以真实宽度/中央幅γ/形状s、主三变量IFT与完整包装同时付三矩/全third/六能量/两个整面积A−2,−3及A−1,−3/36 odd。居中排序的[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)Q负可由TM3伴随正幅消，但[R268](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)S04仍正。[R269](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)真实20A左右错位高点、准确方差扣回及三虚矩保持，给S04负而同排序内仍Q±。四个最终不交位置分别完成所有IFT/包装，先每order消Q，再跨order正幅消S04；完整角身份E22−E04=−ReQ支付整个A1,−3第零外矩。**下一同一实际族的剩22形式even（非rank），尤其该pair I1/I2与其它面积，再接完整period/同w；不得把符号/零次矩搬到其它外矩、任意O2重选seed或平移原能量根。**
+[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)/[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)付三矩/全third/六能量、完整A−2,−3/A−1,−3及36odd；[R269](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)在真实错位排序及四最终位置各自IFT后，以两层正幅混合Q/S04准确付整个A1,−3 I0。[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)加真实奇母方向：右v+hz EL(N0)、左镜像保even，形状J/h的z导−4LK严格非零，四变量主IFT再付完整A1,−1 I0，保先前全部门和伴随同源。**下一剩20形式even（非rank），尤其I1/I2及其余面积，再接完整period/同w。** 各block先全角零再混合，不把其αβ比例强加整个混合圆；不偷平移原能量根或任意O2重选seed，R262/268旧居中失败保原范围。
 
 ## O1：双圆领相位机制，保留备选
 

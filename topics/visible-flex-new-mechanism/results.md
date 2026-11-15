@@ -283,3 +283,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R266 完整证明](results/R266-constant-platform-projective-model-for-full-third-kernel.md)从正确δ式−Z*A−AZ−DfA[Zf]积分得Aexpδ=e−tZ* Aρtf e−tZ，保seed导数。对局部f=F，ρtf=F(1+tx)²；H有限式为−8F²t4[(1−tx)²D4−4t(1−tx)D3]，乘回阶乘给H0–3零、H4−192D4、H5 1920(xD4+2D3)、H6−5760(x²D4+4xD3)。J两D3项准确相消，J0/J1零、J2−48F²D4；R261的χ104=3F²D4/8=−H4/512，其余七零。故全Z在非零常平台上的局部源像准确为F²(P2D4+2P2′D3)三维，非完整K像或固定圆全rank。
 
 三次积分保完整K=F²(P2w′−P2′w)+Q2，其中Q2″=−T、T=原J(cw)，另两常数来自实际右侧history而非自由gauge。R264总flux已付后，非零平台剩原三阶ODE；只有输入实际二次时才简成2F²(βA2−γA1)−T。f常/g变不授Φ输入二次，完整mixed仍保ζ历史/E÷2。局部常/二次profile只作jet计算，不充当全局合法seed或重置锚；内部Laurent/平端/同w仍欠。root有限流、H/J展开、阶乘与原尾逐式核；无新科学执行。
+
+
+## R270：真实奇母扰动再支付整个 A1,−1 第零外矩
+
+[R270 完整证明](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)完整求Φp0/Φs1与Φp2的两个I0 self，保单包Green项−μ1μ2/2与原primitive+μ1μ2/2准确相消。该pair Γ全零，两斜率每包有E22=αβE04；原Fκ0之后新leading为Γκ J，J=3∫v²r²+∫ur³−2∫xvr³，Γκ/κ在0非零。有限δ的E04/δ保全部δ²四阶中心余项，不能只清leading。
+
+取e=EL∫v′(v″)³的真odd方向，严格证明K=∫e²>0。右母包v+hz e、左镜像使整体even，原H/Fκ零宽z导0，而J/h导−4LK；三形状Jac行列式64L⁵K/3非零。先小正h母根，再在最终位置把原F/G/Fκ和完整E04列为四变量IFT，准确付整个A1,−1 I0。TM3每个最小子包同源与三交叉矩保留，完整8/12copy及原Q/S04严格符号顺序重付；四最终block各先求全角零，再两层正幅混合，保R269整个A1,−3 I0。不同block可有不同α，不越界强加统一两坡比例。仍20形式even非rank，其余第四/period/同w与有限同g未付。root全稿手核变分、Γ恒等、中心换元、两个Jac与真实混合次序；无新计算。
