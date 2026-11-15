@@ -84,6 +84,54 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:00.774381+00:00",
+      "before": "0379e8d0cdff92eff561508465815d0b27666329",
+      "after": "dea7592270e23d6b3ef29087271cdf47b35ec003",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:03.492226+00:00",
+      "before": "dea7592270e23d6b3ef29087271cdf47b35ec003",
+      "after": "efc0a1ddd7eeac02522bea544bee89025795426a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:07.464208+00:00",
+      "before": "efc0a1ddd7eeac02522bea544bee89025795426a",
+      "after": "0caebc193420a51327d2c5f74221730124cecb44",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:10.011463+00:00",
+      "before": "0caebc193420a51327d2c5f74221730124cecb44",
+      "after": "70cc8a15f26779aa948725cde760293435a5cefb",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:13.592219+00:00",
+      "before": "70cc8a15f26779aa948725cde760293435a5cefb",
+      "after": "fe309105157724be4101f0b3d455eb1c88d55050",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:54:16.057594+00:00",
+      "before": "fe309105157724be4101f0b3d455eb1c88d55050",
+      "after": "5d4d74650200d6a16da5e4ebc02457e65dae4b5e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -91,6 +139,11 @@
       "time": "2026-11-15T02:33:27.712819+00:00",
       "final": false,
       "commit": "f4373f5031c5cdfe2d199515243a829f4d1c78cd"
+    },
+    {
+      "time": "2026-11-15T02:43:55.864402+00:00",
+      "final": false,
+      "commit": "ef6f75878fc78981d3f75a056e7501f7131a37e0"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -135,7 +188,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "0379e8d0cdff92eff561508465815d0b27666329",
+  "last_read_commit": "5d4d74650200d6a16da5e4ebc02457e65dae4b5e",
   "immutable_scientific_copy": "/__w/_temp/complete-adjoint-range-23-work/science",
   "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
   "exact_recovery_scope": {
@@ -154,8 +207,8 @@
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
     "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc"
   },
-  "snapshot_utc": "2026-11-15T02:43:46.662136+00:00",
-  "wall_seconds": 625.5440156310001,
+  "snapshot_utc": "2026-11-15T02:54:00.881306+00:00",
+  "wall_seconds": 1239.763188557,
   "native_files": [
     {
       "logical_file": "evidence/actual-complete32-slice-plan-process.json",
@@ -166,8 +219,8 @@
     {
       "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
-      "bytes": 3214,
-      "sha256": "197d97bb5865e0620174f375e66efd8eb09519224da27bcad53aa1af0d361094"
+      "bytes": 3210,
+      "sha256": "7fb55bfca8f8a7dfb4d1e71fd3e21374c76849750fc650aa99755eff4a230445"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14141144478.json",
@@ -184,11 +237,11 @@
     {
       "logical_file": "native/complete7908-cap-adjoint-Grams-range-23.json.gz",
       "file": "native/complete7908-cap-adjoint-Grams-range-23.json.gz",
-      "bytes": 721607,
-      "sha256": "4f7177bb8e0cbd1782aaf911317e18e07982cc6c5c4063bc3ce214f0852e3958"
+      "bytes": 1447493,
+      "sha256": "e2591cec9849b59d42296163ad8b62425850292b4ab002c3439234afe990d08c"
     }
   ],
   "actual_completed_bundles": 0,
-  "actual_completed_quarters": 107,
-  "latest_scientific_native_sha256": "4f7177bb8e0cbd1782aaf911317e18e07982cc6c5c4063bc3ce214f0852e3958"
+  "actual_completed_quarters": 215,
+  "latest_scientific_native_sha256": "e2591cec9849b59d42296163ad8b62425850292b4ab002c3439234afe990d08c"
 }
