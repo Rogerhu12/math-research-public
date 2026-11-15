@@ -342,3 +342,9 @@
 - 原exact-dual θ-lift/shifted cup笔记12455B/7388c4be全文核：同Σ支持θ3真实存在，D0°消第二障碍；首阶flat iff I0=0、strict-p还需b=0，不把此当完整晶体型。
 - root核R746/R752原有理下降、20/23与26εb规范；实际C4除T²后的q杯积显式为coboundary，global reciprocity恰恢复R779已登记关系，未新增Θ数值或独立方程。旧H逐字归档并压缩，projective提取在实现、四个原run仍计算。
 - 2026-11-15T18:01:59.887226+00:00公开实际pull/read 95e8ce23d10f9a7cf706d0d63ee99ca39ed7bd55，两README无diff；主目标OPEN，继续原缺口。
+
+
+### 2026-11-16 02:04（Asia/Taipei）｜serre-public-astra-20261115
+- 同一原Poincaré笔记增§5.1（34136B/9a54e844）：真实字符格ϑ保κ/清分母，原β几何稠密迫每个非零torus商保全部A、维数≥g+1；类相容与Hom(A,T)=0准确给End⁰(G)=F。
+- root逐式核商类映射、Rosati与自同态提升唯一性；F⊗Qbar的幂等元不能当整数torus算子，原E0^g几何分解不自动携带原第三类period/稠密点降维。只关闭此捷径，不以AST或six-exponentials宣称T_p非零。
+- 2026-11-15T18:03:54.837946+00:00实际pull/read 7124e588085f75976275426a83c50cd2e17dac13，两README无diff；原计算与新共同分母消费者继续，主目标OPEN。

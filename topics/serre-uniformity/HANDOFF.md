@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：95e8ce23d10f9a7cf706d0d63ee99ca39ed7bd55**（2026-11-15T18:01:59.887226+00:00；公开run43714581068/attempt49/job132904400082真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-exact-dual-theta.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
+**已读规则提交：7124e588085f75976275426a83c50cd2e17dac13**（2026-11-15T18:03:54.837946+00:00；公开run43714581068/attempt50/job132904948593真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](handoff-archive-2026-11-15-before-exact-dual-theta.md)、[此前open](notes/2026-11-15-open-before-R832.md)及[结果全索引](results-archive-2026-11-15-before-R833.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
@@ -44,7 +44,7 @@ ord_c1 Eij≤R−1+binom(R,2)(6G−4)。单极点第二类可选极阶2G，完�
 
 R634逐盘非恒零早已成，不重记；[高度符号审计](notes/2026-11-15-depth-two-symbol-and-original-height-leading-class-audit.md)保真实第二类周期和两Θ列，D2非普通二阶。R785原T_p仍未知；R616/726仅给原正商非挠/rank/log输入，R575真实正CM根号负，旧逆twist秩零撤回。
 
-[原Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)8688e983已核：真实Q点β的全局d_h保所有非p项；U_i=c(a_iV_i−A_iL_i)为线性period。原Picard与ℓ的同一第二类修正全函数相消，全部正阶仅需代数第三类jets、一类log及同一半阿贝尔纤维period；零阶保原纤维/刚性化。完整T_p仍是三列秩条件，清分母后次数d_Y+2；AST代数线性独立不排它。η^-仅减少中心列，不删切向。
+[原Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)9a54e844已核：真实Q点β的全局d_h保所有非p项；U_i=c(a_iV_i−A_iL_i)为线性period。原Picard与ℓ的同一第二类修正全函数相消，全部正阶仅需代数第三类jets、一类log及同一半阿贝尔纤维period；零阶保原纤维/刚性化。完整T_p仍是三列秩条件，清分母后次数d_Y+2；AST代数线性独立不排它。η^-仅减少中心列，不删切向。原共同群G的任何非零torus商必须保全部A，故维数≥g+1；实际字符格类映射与β稠密性给End⁰(G)=F。分裂后的代数幂等元不是真实torus算子，不能由E0^g任投影原第三类period到低维群。
 
 真正sigma缺**同一primitive/Legendre可见h**的三个原单位。R739反例/R741与R737密度标签不可拼；R808/810已闭，保非水平P_T/[K,P_T]，不重开高p²/Hirota/固定六维D闭包。R812全split未筛单位、R829旧p47七项/和16不代同h或全惰性p。R826固定八运输及原q*/12^5、−120c²/d0、六old尺度保留，R828迫G两CM值零。
 [R830](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)原权6/真conductor3p或6p及tame filtration6p；[R831](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)EO交换子span(I,P2)、old6不可约，不能再由Weil降FG/HJ。

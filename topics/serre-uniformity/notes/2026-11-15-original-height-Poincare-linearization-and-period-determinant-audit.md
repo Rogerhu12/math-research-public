@@ -577,6 +577,47 @@ $\eta_h$ 或 periods 称为已计算。
 
 对 (UE.19) 的反仿射群还有一个可核限制：其任何有限维代数线性表示均平凡。因此在它上面附加一个代数向量表示作半直积，不会产生编码 $U_iL_j$ 的新非平凡作用。更一般地，反仿射群在一个有固定点的代数簇上的作用平凡；由此也不能仅通过一个通常的代数半直积构造来宣称 period 的乘积已经成为新的线性对数。
 
+### 5.1 同一个原群的商与自同态限制
+
+这里不能利用 $A_{\overline{\mathbb Q}}\sim E_0^g$，把 (UE.19) 任意投影成仍含原第三类 period 的低维半阿贝尔群。令 $T$ 是 (UE.19) 的原 split torus，并把原有 $\kappa$、清分母和所选有理基变换统一记为已经固定的同构
+$$
+\vartheta:X^*(T)_{\mathbb Q}\xrightarrow{\sim}F.
+$$
+其真实扩张类映射仍是
+$$
+c(m)=\lambda_A\vartheta(m)\beta.
+\tag{UE.28s}
+$$
+$\vartheta$ 只记录原源的有理换基，不重新选择扩张类、帧或 period。以下等式在 isogeny category 中理解；取共同整数倍便回到真正字符格和代数群同态。
+
+原 $\beta\in A(\mathbb Q)$ 稠密生成 $A$。每个 $0\ne h\in F$ 都是 isogeny，故 $\lambda_Ah\beta$ 也稠密生成 $A^\vee$。设 $G\twoheadrightarrow H$ 是半阿贝尔群商，$S$ 为 $H$ 的 torus，$B$ 为其阿贝尔商。若 $S\ne0$，取一个非零有理字符并拉回到 $m\in X^*(T)_{\mathbb Q}$。扩张类的函子性要求
+$$
+\lambda_A\vartheta(m)\beta\in
+\operatorname{im}(B^\vee\longrightarrow A^\vee)\otimes_{\mathbb Z}\mathbb Q.
+$$
+左侧的稠密性迫使该阿贝尔子簇是整个 $A^\vee$，所以 $B$ 与 $A$ isogenous，且
+$$
+\dim H\ge g+1.
+\tag{UE.28t}
+$$
+因此一个保留非零原 toric logarithm 方向的共同群商，不能同时丢掉部分阿贝尔底部。反过来拉回到某个几何椭圆因子虽能改变群的维数，却不会使投影为稠密点 $\beta$ 的原代数点自动落在该拉回群中。
+
+同一类映射还准确决定
+$$
+\operatorname{End}^0_{\overline{\mathbb Q}}(G)=F.
+\tag{UE.28u}
+$$
+确实，一个自同态的阿贝尔部分记为 $f$，字符部分经 $\vartheta$ 运输为 $\mathbb Q$ 线性映射 $L:F\to F$。兼容条件是
+$$
+f^\vee\lambda_Ah\beta=\lambda_AL(h)\beta
+\quad(h\in F).
+$$
+取 $h=1$，以 $\beta$ 的稠密性消去可能的 torsion 后得
+$f^\dagger=\lambda_A^{-1}f^\vee\lambda_A=L(1)\in F$。
+代回一般 $h$ 得 $L(h)=L(1)h$。由于原 $F$ 受 Rosati 固定，$f=L(1)$；反之每个 $u\in F$ 的这两个作用满足类映射兼容，并在清分母后给真正自同态。$\operatorname{Hom}(A,T)=0$ 保证这个提升唯一，故没有额外混合自同态。
+
+这也明确限制 six-exponentials 型尝试的输入：一个已知原代数点的 $F$ 轨道只有至多 $g$ 个 $\mathbb Q$ 独立方向；它没有自动给出低维共同群中的更多独立代数点。$F$ 在字符格上的作用必须是有理矩阵，清分母后才是整数矩阵。分裂后的代数幂等元 $\epsilon_i\in F\otimes\overline{\mathbb Q}$ 并不是 split torus 的有理字符算子，故不能把各个 $V_i$ 当成独立一维 torus 扩张上的原代数纤维点。任意另加代数 torus 点会改变实际帧与原高度常数，不能把这种改动算作原数据已经提供的额外点。本段只关闭这一降维捷径，不声称 six-exponentials 定理能够排除 (UE.26)。
+
 这不是说任何固定点互易恒等式都不可能。相邻课题的 R37/R39 确实在特定 CM 点、特定规范下，以第三类积分互易及新增 CM 行将某些乘积化为线性 period。那种方法的有效步骤是**先证实际恒等式**，不是先把任意 period 矩阵的行列式称为线性。
 
 还必须明确已有非交换 AST。Pham (2022), Theorem 3，允许一般连通代数群，但结论仍针对一个代数点 logarithm 的最小代数线性子空间；其证明将该一参数对象归约到交换子群。它不提供“任意两个原 period 的乘积是另一个代数点的 logarithm”这一缺失接口。若用它处理 (UE.26)，仍须先给出真正代数群、真正代数点和逐值相等的代数 Lie 线性形式。当前原 R724/R785 数据尚未给出这项新的互易等式。
