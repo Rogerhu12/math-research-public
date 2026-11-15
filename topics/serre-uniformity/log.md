@@ -579,3 +579,8 @@
 - R803原M6混合比值工程完整审阅并启用：root全文核core/wrapper，exact独立核数学与实际原SCALARS/H³规范；ordinary真实IO核R774/R775/R786/R794/R759共64/6/698/7/6=781文件及父来源，未执行本地数学。
 - core1233536f、wrapperb8cedc8f冻结，request1e04be73689e0a88799b0d5363c3a691ae765e448ffce1e34ee2273806486346。一个694模逆、六组14真实右端、Dixon精确除余/统一矩形重构/full1680char0，已修rejected-minor筛选及完成后旧lift硬中断窗口；原U0与56张量不重算。
 - 新增课题外workflow serre-p41-original-M6-mixed-Hodge-ratios.yml：blob:none、contents/actions只读、一日artifact，无自动publish。真实minor/混合坐标待Actions；R787/R801继续，R804 β点与R805全局除子接口接续，主目标OPEN。
+
+## 2026-11-15 18:13 Asia/Taipei · serre-public-astra-20261115
+- 全六有限heat连接纸面证明登记：root给Lamé15X/4三对称平方解，sigma独立核不变量/二解，双方逐式核偶部张量矩阵四行与det−108、完整水平矩阵det2916c²；仅排2/3，全部允许p可分/零曲率。
+- 原偶部Hurwitz c_(p+1)=(0,0,2A,6DA)，首p源/P0非零与完整原值heat曲率准确保留；明确函数pullback的CM共轭乘子，与MH统一。SHAb1500d09ca02a09386d28ee0810e0f3fd7fc91d2a2024c9addf7f0617a38aec2。仍未排critical/primitive全零，不把有限覆盖单位当筛后单位。
+- R803真实run43702905620已in_progress；R801真实success正在全输出IO审。OP已推0b59e8a4；每次真实pull两README无差异。R805原全局除子自由模接口继续，主目标OPEN。

@@ -54,7 +54,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R797/R799/R800**：公开run43693453831/43695571499/43696070150已success，完整输出已由公开纯IO run43699442183核过；三者的准确实际结果均已登记，原回执/每项SHA可直接消费。分别为五条新映射170/172/176/193/196条件的原Laurent；原V6尾82..108和新V7/V8最小短基；146原M2尾129..195。R797最后清行另需各自κ^N，仅增一次乘法，不能多跑R_N。所有raw仅一日活跃artifact/bundle。
 
-**R801（已证明）**：[原长尾与关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)给唯一主新增区间V6[109,142)、V7[96,176)、V8[109,196)。七/八次扁平为最多六/十种原锚点乘子乘V5，按准确消失阶沿原recipe只补必要低幂129以后尾；不补整套V6到195。原6/7/8 Schur秩准确为d−20，实际模minor仍须算。无基点残余完整核的自由向量(1,a,…,a^(k−1))至多e(k−1)个坏整数；第二关系实际乘法秩须690+e。七/八次铅笔另需全部690个V3尾至136/149。R787成后第一六次关系直接τ(A,B)，不重求旧y或先形成大有理逆。仅长尾公开请求已启用：core ba9c52a3/wrapper11bdf084，真实五组输入/原recipe闭包IO已核，所有新增二/三锚点乘子均有旧recipe别名；实际run43701282817/source92961ce5，当前in_progress，新尾仍待真实输出。新函数、极除子、η、高度均未成。
+**R801（已证明）**：[原长尾与关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)给唯一主新增区间V6[109,142)、V7[96,176)、V8[109,196)。七/八次扁平为最多六/十种原锚点乘子乘V5，按准确消失阶沿原recipe只补必要低幂129以后尾；不补整套V6到195。原6/7/8 Schur秩准确为d−20，实际模minor仍须算。无基点残余完整核的自由向量(1,a,…,a^(k−1))至多e(k−1)个坏整数；第二关系实际乘法秩须690+e。七/八次铅笔另需全部690个V3尾至136/149。R787成后第一六次关系直接τ(A,B)，不重求旧y或先形成大有理逆。仅长尾公开请求已启用：core ba9c52a3/wrapper11bdf084，真实五组输入/原recipe闭包IO已核，所有新增二/三锚点乘子均有旧recipe别名；实际run43701282817/source92961ce5已success，完整输出IO在审，尚不以run状态代认证。新函数、极除子、η、高度均未成。
 
 R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272的Jacobian表示和主函数G=s/(fτ^(m−3))保全常数。R798只已得短坐标和锚点积，未得全乘法表或完整基逆。R796更高CM局部阶数只在实际R787分子分母共同零阶需要时追加，不先生成155/156全部jet。
 
@@ -62,7 +62,7 @@ R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272�
 
 **R802（已证明）**：[原半线性奇偶与七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)区分c0、σ−1与全局cY，原扭曲给q/v负号；原y奇阶在Fb(tξ)、偶阶在sFb(tξ)，κ固定，R_m带s^(m mod2)。原全球±截面掩码保82¹⁰，固定B与反固定A的非零关系可在七次Fb求解；七分支必须同自由归一，末端两真实右端恢复原1234基并全129×20认证。实际r±/minor/kernel尚未计算，当前不改R787。
 
-**R803（已证明）**：[单原映射复用与694维混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)给42项/1680Q行的准确M6注入、四条原补行和五个旧56张量新收缩；U0不重算，一个694有理块至多84右端并全行代回。保原T为Galois+目标同构，由Uj/U0、原A/B及Wronskian给真实x比和群律，不除未知整同源。真Norm与b⁷/Nb、符号变换主函数、反实Lambda/s、原R794矩阵和全部高度常数保持。较小符号路线m≤8、N≤202，仅真选该消费者时补V8 q196..201。R803公开仅混合比值任务已启用，core1233536f/wrapperb8cedc8f、781原输入实际IO全过；当前尚无新minor/混合坐标/极除子；全局函数约分/KM接口、2torsion刚性化及实际η/高度仍缺，不能以表达式存在代替这些工作。
+**R803（已证明）**：[单原映射复用与694维混合比值](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)给42项/1680Q行的准确M6注入、四条原补行和五个旧56张量新收缩；U0不重算，一个694有理块至多84右端并全行代回。保原T为Galois+目标同构，由Uj/U0、原A/B及Wronskian给真实x比和群律，不除未知整同源。真Norm与b⁷/Nb、符号变换主函数、反实Lambda/s、原R794矩阵和全部高度常数保持。较小符号路线m≤8、N≤202，仅真选该消费者时补V8 q196..201。R803公开仅混合比值任务run43702905620/source2a3f5be76已运行，core1233536f/wrapperb8cedc8f、781原输入实际IO全过；当前尚无新minor/混合坐标/极除子；全局函数约分/KM接口、2torsion刚性化及实际η/高度仍缺，不能以表达式存在代替这些工作。
 
 **R804（已证明）**：[原五低次数映射的整数循环复用](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)只读实际R794见证，五a(T)与C/C逆全整数；八个群律节点精确得到原五map。U6由原P线性组合，无第六混合求解；relative-x与y的DAG保原T⁷=ζ²、CM和完整Galois运输。仍原N≤196，函数合成无需五套Schur，β点值可在R792成功后先消费。两张反对角图的立方理想/min valuation及支撑saturation已严格给完整极除子公式；实际全局gcd/quotient/saturation适配尚缺，不能默认大算术闭点可拆小片。真正η、原刚性化和高度仍未求。
 
@@ -75,6 +75,8 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 [Hurwitz刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，高块由首p×p唯一决定；升p²/Hirota不增独立信息。[Serre/Cartier](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)给真实有限Serre类与独立Cartier秩一单位C(x⁴ω)=(4/7)Bω，但权5为零时低极阶Cartier自动零，两者尚无桥。[cosigma闭合](notes/2026-11-15-sigma-cosigma-descent-and-closed-critical-channel.md)保半周期常数、degree3平移截面、rank4核；x²σ⁶整行列消失，总阶p−6未筛全零仍等价原F/G，不产生新非零。
 
 [原模参数heat连接与奇部可分平凡化](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)已证明：保原c=0，六截面在模参数heat下准确闭合，但a=0非L稳定。辅助E27上奇连接显式代数水平基在全部允许p≥41零曲率；首p截断严格保Hasse边界源，原A(P0)=0、DA(P0)=B，逆水平矩阵的源两分量为单位。[原首p oscillator](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)已严格求得A''=−XA/4、全局Cartier(A⁻²ω)=ω和(D−O)^p=(A∂z+6DAz)²/12，P0上3B²z²。Lens变换仅在A非零函数域证明，正则算子延至P0；保原Hasse源及全部横向导数。把这些式子转成固定原F/G的critical、同primitive/Legendre支撑仍缺，未筛全零尚未排除。
+
+[原全六有限heat连接](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)已完整平凡化：偶部是Lamé5X/16与15X/4的张量，经det−108的明确矩阵精确同构；第二连接的平方根覆盖Wronskian²−27/4，全部允许p可分/零曲率。偶部首p源−z^(p−1)(AeH/6+DAeR/2)及完整原值基p曲率已保留，F/G均纳入同一覆盖。有限单位矩阵只保全向量非零，不保某个Taylor标签；真正缺口是源传播经原critical、primitive和Legendre投影后不能全消。
 
 ### ordinary真实值与原全局对偶
 
