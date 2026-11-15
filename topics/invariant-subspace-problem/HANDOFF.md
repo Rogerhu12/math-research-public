@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 8994dfc19d7695386ad7d5ec3cef3096ac20cc73（2026-11-15 14:25:21 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 1a9b8f36bdd8ec916ac2b162873e0eef4a2a2cf3（2026-11-15 14:31:02 UTC，Actions run43724767349实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43724767349-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -11,33 +11,27 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero-eighth-formal-tenth-and-eighteen-rhs-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-complete-zero-ninth-and-eleventh-rolling-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
-## R150：完整参数Smith与原成员性仍开
+## R150：当前已证与未付范围
 
-- 原A为4367×6188、泛秩4354；I,J各4354，权H8770。h0度24，H0=(s−2)h0；九原目标共动后n_j²，保完整binomial运输。
-- 同选常数Q/F31rank4318、核36；完整同选常左核normal≥3零，full49=20pure+29、square36=10pure+26。第一连接恰3、33真头；额外13输出不由指定jet免费核验。
-- 旧normal≤4完整22真头且λ2法4零，保130高核、166残差及全原产品；完整第二24头缺2须保H4η4+H5η5补偿，来源见归档。
-- [完整第二9、第三3](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)：真29源配对旧ρ5/新ρ6，余维7全含低页像给完整商；β1/2/3=3/9/3，二阶24头、三阶21头恰全在旧22族内。[实际17条λ3](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)与296072原产品已核，法≤4完整头17；完整21头不改，缺4须更高校正。[实际第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]；∞130/125/125，K111下q8416…8529、三费8573/8578/172，统一条件8578，原成员性未付。
-- [同选模31完整长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做，51旧数组全SHA同；36正指数sum243/max21，field cofactor222只属F31。真Q degD8527…8640、v∞D130…243，lc31单位等价真Q v∞D=243，仍未证。
-- 两端原完整常数rank4340/coker27，各14正Smith；∞第一4/第二0。[零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)β8=1/15头；最新第九实际β9=0/15头，前九4/0/1/3/1/1/1/1/0。已定十二正指数1⁴,3,4³,5,6,7,8和45，剩余仅(10,10)/(10,11)；公共阶65/55，次大阶55已精确。K111=s²K109=s65(s−2)9(s+6)9F+²F−²E8²，degree111/lc5^6为31单位。
-- 零点原模31上界66/55结合真Q65/55，得δ4354∈[65,66]、δ4353=55及10≤最大Smith≤11。仅在原目标先已付Q((s))像时，整个原系统模s11才等价Q[[s]]成员性；13自由坐标及其他点/全局成员性仍开。
-- 九平方：E6同头不变、rank1/kerK7，不能形成h0模s10障碍；任意八阶cochainλ0…7均零。最新第九λ8仍非零target2/head1、同SHA650e9b3b…，在K9同头不变；λ9亦非零但不预称同头不变。h0有s3，需真实K10/K11延拓判是否产生s11障碍；原成员性仍未付。
-- 旧29曲线、加权子式、GB315、LLL/65521等见H归档；允许uPhiY纠偏的最大支撑仍开。
+- 原A为4367×6188、泛秩4354；同选I,J各4354、权8770，常数Q/F31秩4318/核36。完整同选前三连接3/9/3，二阶24头、三阶21头；[17真第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)已核296072原产品，法≤4完整头17，四缺头坐标15/18/19/20。
+- [原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]，λ4未构造。known来项13/full15缺2、第三显式17/full21缺4。完整H45原rank1736、高核1036/模旧130为906；Mstar4318常像加HF/T的全商rank12，只需实际18 RHS，未重906大核。
+- 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新零因子K112下q8415…8528，非基/转移/目标三费8572/8577/172，统一条件8577。原九目标Q[s]成员性仍是前提。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
+- 两端原全常数rank4340/coker27，各14正Smith；∞第一4/第二0。零完整前三至八已正式，最新[完整第九与模s11成员性](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)给β9=0/15头、δ次大=55；第十实际β10=1/14头，完整14正谱已由总长上界钉死为1⁴,3,4³,5,6,7,8,10,11。故零最大/次大阶恰66/55、最大正指数恰11；第十一仍须构造13自由头，不能把存在性当实际cochain。
+- K112=sK111=s66(s−2)9(s+6)9F+²F−²E8²，degree112、lc5^6为31单位。原h0有s3；完整任意left10的λ0…7九平方零，经完整模s11双湮灭已证明全部九原h0t_j属于原有限来源模s11的像。若另付Q((s))像，零点全部torsion便已付清；十三自由坐标、其他点和全局Q[s]像仍开。
+- E6同头不变且rank1/kerK7；最新E8在K9及K10同头不变且非零。若E8在K11仍非零，将否定原h0目标的函数域像前提；当前尚无此结论。第十真实left10已可排(h0/s)t2的局部成员性（正式谱稿正核），不排h0本身。其余29曲线/GB/LLL/65521/uPhiY支撑等未列接口全保归档。
 
-## 当前临时计算：同run直接接续
+## 临时同run：滚动请求与恢复
 
-- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现47步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
-- 原selected/first/second/normal4全部临时保留；normal5高消元保786pivot/slot1 72.6MB/179b3645…，余501列未算。真实目录selected-natural-second-left-normal-five-high-elimination；旧大解不重。
-- 高H45实际Q/F31rank1736、全高核1036/模旧130为906；K29高支撑交0。四缺头原商15/18/19/20、raw3476B/46ab3953…及全pin保third-missing-four-high-profile；未构造新λ3。
-- 真K29、原第二/第三配对及完整21头坐标全保；third21-normal-four-original-consumer给17真第三头、296072全产品，四缺头索引15/18/19/20；恢复全pin见归档/小回执，不重旧21/36/130单位解。
-- step34 same-source-koszul29-fourth-on17-pairing给29×75 rank7/旧6、原75核投影16；配对217868B/7152e005…、核79458B/2f3c764a…、raw7661B/ce50560e…。known来项13/full15缺2、显式第三17/full21缺4；补k头后上界r_k+4−k，补2且raw仍1可闭β4=3，λ4尚未构造。
-- 完整零第三/第四已闭β3=1/22头、β4=3/19头，原544544/587860产品与全23二阶恢复真；其checkpoints完整高核2、582单位及所有真实cochains/旧来项保留，原参数和pin见本次归档。
-- 完整第五/第六已闭β5=β6=1、头18/17、668304/736372原产品真，所有旧pack/单位解/incoming原样保；第五raw48056B/2a480a7f…、第六raw56301B/767de020…及outer63216B/f034a670…，完整恢复身份见归档和实际回执。
-- step40工具链读回：g++15.2.0，系统FLINT头文件缺失，apt候选libflint-dev3.4.0-1。step41实1.627509135秒核4318单位、113204/155448产品真，但HF/T primitive模31rank4，未出16RHS；raw3375B/23035e64…、binding8a66f5f1…，完整原Mstar模型已保。改用旧真Q残差前36列中14主元张满，桥接14+4实际RHS、再全36行Q Schur，不假31饱和。
-- 完整第七/八已付β7=β8=1、头16/15，792064/835380原产品真；第八checkpoint manifest27891B/3936dd09…、bindingae6fab6a…，raw70304B/cd4e9ff1…、outer78445B/255c2e15…，原所有矩阵/单位列临时保留。
-- native已实际装libflint-dev3.4.0-1/header3.4.0/g++15.2.0，raw3627B/3c8e8cfe…。step45完整第九实40.496545674秒：β9=0/15头、low592/kernel62/zero57、928200产品；checkpoint manifest29426B/a18b7754…、bindingff22e24c…，raw76694B/91a6381c…、outer85402B/adc77b03…，65/55/K111。
-- step46排18RHS桥接30秒/2GiB，源码8e2b059a…复用实际单位前缀，真Q14旧主元+4目标，不假31饱和；step47同源9bf405d3 order10排180秒/2GiB，仅5新/62旧解，全部incoming原运输。第十后启用只压缩回执的兼容fork以保关键phase不被外层94000B摘要截去；未改旧数学。
+- run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
+- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，当前新增累计step48=zero-complete-eleventh-full-incoming；180秒/2GiB，只4新/67旧单位列，保全部旧来项与原4367目标/6188来源。
+- 第十一用独立compact源码104882a9…，只压缩逐列重复回执并显式接受旧9bf405d3祖先；全部数学、checkpointPhases/manifest/原物理/ranges及真实祖先SHA不改。第十outer93089B尚完整，换fork防外层94000B摘要删关键phase；旧源码不改。
+- 第九实际40.496545674秒，β9=0/15头、928200产品，raw76694B/91a6381c…、outer85402B/adc77b03…；checkpoint bindingff22e24c…、manifest29426B/a18b7754…。
+- 第十实际49.708861252秒，β10=1/14头、952952产品；checkpoint binding14e1c96e…、manifest31517B/10929f25…，raw83784B/88830dc2…、outer93089B/0cbedfd5…。complete-order-10 cochain35791×14，逻辑243296d6…；λ0…7零、λ8/9/10真实非零，下一看K11。
+- 4318常单位前缀实1.627509135秒，113204/155448产品真，但HF/T primitive模31仅4，未假完整12。18RHS桥接实1.072890655秒，真Q旧14主元[0,1,2,13,14,18,20,25,26,28,29,30,31,32]加四目标，全跨度已证；没有新有理解。
+- third-missing-four-eighteen-unit-preparation内输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。native已装libflint-dev3.4.0-1/header3.4.0/g++15.2.0；下一同18 RHS整digit两槽求解，再实际全4354回填2缺二阶/4缺三阶和joint24/21，全部门槛真才称完整第四秩。
+- 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
 
 ## 原同w边界：完整负部仍开
 

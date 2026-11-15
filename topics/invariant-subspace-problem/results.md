@@ -235,3 +235,5 @@
 - **零完整第七与第六读数的准确消失。** [自足证明](results/R150-appendix-zero-complete-seventh-connection-factor108-and-invariant-first-square-map.md)闭β7=1/16头、792064原产品，62/53/K108及条件8581/172。完整低K0…5所有代表九平方零给E6同头不变；rankE6=1且kerE6=K7，所以该六阶值无法形成h0模s10障碍。七阶λ7代表自由与八阶限制分别处理，原成员性仍开。
 
 - **零完整第八与最后两个正指数。** [自足证明](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)闭β8=1/15头、835380原产品、63/54/K109及条件8580/172；十二指数已定、余二只有六种可能。完整K8第七平方读数同头不变且全零，任意left10不能由其给h0模s11障碍；第八非零值仍须真实延拓。
+
+- **零完整第九、次大阶55与九目标模s11成员性。** [自足证明](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)完整β9=0/15头、928200原产品，余谱仅(10,10)/(10,11)、K111与条件8578/172。完整左cochain配对及逐Smith双湮灭给全部九原h0t_j模s11属于原有限来源像；若另付函数域像，零点torsion已清。E8在K9同头不变且非零，但存活到K11尚待原核验。
