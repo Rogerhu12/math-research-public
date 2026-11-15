@@ -116,3 +116,6 @@ R824给完整G0格的k<13首次提升单位障碍、同R的28/−11/3和实际�
 
 O4指定早项a≤1/δ²在无穷p、O6完整Np有限/λ≤3在无穷p仍开；全Hilbert迹、两Bockstein及饱和损耗按前部/归档保。原quartic/O3/O7、R364/R561/R654/R712、supersingular二次regulator继续；AST、strict/fine或非中央节点均不代全Selmer。
 R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv的无限非零、central→边界与annulus o(p²)。有限检测不再重复，已闭子问题之后接真实未付门。
+
+
+[修复类的全局范围核查](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)：亲核YZZ2023 Thm1.3.3的分歧补项Σc_l log l；当前{2,3,17}不因换old向量消失，复秩1与R830局部非零尚不足推出新全局类/AJ非零。Marannino2026的非CM、平方自由及指定p值假设亦未付。 继续R830新分子与原R814指定类的实际比较，不能由其他实现非零省略跨p桥。

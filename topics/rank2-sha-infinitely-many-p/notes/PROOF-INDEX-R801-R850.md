@@ -92,3 +92,6 @@
 - [原mirror非固定零水平边界](2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：同注§6已证明当前r2全部非固定Y=0移动边界为零：q0≠0时无移动交点，q0=0时原q_src含正Y因子逐正规化支杀AH de/e。仅限真实因子倍来源；Y∞、固定角、一般Xi_R及十三行尾仍保。
 
 - [R830](../results/R830-distinct-degeneracy-test-vectors-and-fourth-slot.md)：R830改第三输入为q4*，保ωh=4h(Q4)dQ/Q、Gh4=Gh(Q4)和degree12；Dimitrov–Nyssen付2处，原3/17 depth-zero有限T投影范数公开精确为1/4及三非零cyclotomic数，compact induction付真实局部线。全部有限test vectors非零，新第四槽为〈ωf,(4Gg h(Q4)−barπ Gh(Q4)g(Qp))dQ/Q〉/(1+barπ/π²)。局部非零不代global AJ或R814比例，跨p仍开。
+
+
+[修复类的全局范围核查](2026-11-15-repaired-diagonal-global-comparison-scope.md)：亲核YZZ2023 Thm1.3.3的分歧补项Σc_l log l；当前{2,3,17}不因换old向量消失，复秩1与R830局部非零尚不足推出新全局类/AJ非零。Marannino2026的非CM、平方自由及指定p值假设亦未付。
