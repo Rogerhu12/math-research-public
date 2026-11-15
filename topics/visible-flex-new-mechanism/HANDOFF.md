@@ -39,7 +39,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→selfσ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323 −8 self0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 
-**全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/q=F/(AHp²)禁极点residue/真C∞端germ和双collar；p简单零允许二阶极点，六矩核非七矩。同一w同时解两period/ruling，pure0不授左尾0，45span/48×135只是iff。R335全响应5Ω−16∫u‴πV=4C_tail，正式π=raw/16，真实二次Green尾不可删；原反例差2μ0M3/15保。R338已付−6尾经三维pure像因子化。**R344全权提升已付**：完整pure有序左u/右v的2+2系数Γ满足8Γ=q_J，原三阶自伴保尾收缩h_J=3C；三真实右bump矩Vandermonde反演μu，得Ω=16Lπ/5+(32/15)Σc_j∫u‴Γπ(u,vj)，覆盖全R（额外Z的π/Ω0）。故全权R∩kerπ总Ω0，不能独立用响应保pure改Ω。该有限读出在全U定义Λ、全R上0；**未证Λ在U非零或U−6恒零**。R342 run43745111286十新人工过，只对预定C7族A=N⁷G+315R0/32+315R2/16−315R3/32的Ω整λ多项式0；无见证/无普遍恒等，旧根/秩0重跑。续原U真实完整成本结构。
+**全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/真C∞端germ与双collar；p简单零允许二阶极点，六矩核非七矩。同一w解两period/ruling，45span/48×135只是iff。R335完整5Ω−16Lπ=4C_tail，真实二次Green不可删。**R344全权**：有序pure 2+2系数8Γ=q_J、真尾自伴h_J=3C，三右bump矩反演μu，得Ω=16Lπ/5+(32/15)Σc∫u‴Γπ对全R（含全Z）成立。故全权R∩kerπ总Ω0；同finite读出定义Λ消全R，不预设πU=πR。R342声明C7族ΩA整多项式0只族零，非U恒等。**R350新增原U三个加速度平方全状态层Λ0**：原R56二阶a′=Qlu‴/(8h³)、第三accel−J(Qu‴a)/(8h²)；保原qq″正规化β，完整rawpure ΩΠ=5Ωself+2a_Lj_L/h²，有序2+2收缩−3a_L(v)j_L(u)/h²，a_L是原三矩线性式，R344矩匹配准确抵消尾。原Abar_hh/hk/kk及全状态跨度已付；H1/H2/静态/速度2/4层、N0/N2真响应仍欠，不授Λ|U0或商零。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -52,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 5abed1112bda247391e5b84863cc30acc7f38911，双README blob同。API读取不冒实际pull。
+断连API复核main 646c38201defbd30669c9891766aaf0b8f828a87，双README blob同。API读取不冒实际pull。

@@ -145,11 +145,11 @@ R343全RS self/方差、真实双排序与普通/伴随给B1/B2四目标正核�
 仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。root续weak完整mixed D1/三个固定中心依赖或新正方向；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
 
 
-### R344：全权响应总通量经完整pure因子化，续原U上的真实值
+### R344/R350：全响应与原U加速度平方总通量因子化，续其它真实成本层
 
-[R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)从R335完整Green出发，原多项式输入对有左尾/右零输出仍是sl2一阶作用；逐原槽得有序pure 2+2系数8Γ=q_J，三阶自伴的真左端给h_J=3C。选三个真正右侧平移bump，以真实三矩Vandermonde反演左u矩，得到Ω=16Lπ/5+(32/15)Σc_j∫u‴Γπ(u,vj)对全部R成立；额外第三Z响应π/Ω0补足全空间，不需猜奇权pure秩或全R δ闭合。故全权R∩kerπ的总Ω0，R335无尾16/5反例仍由新增交叉项准确恢复。32/15 finite纯读出在全U定义真正Λ消全R，不假πU=πR；U−6上借原R207恰等R338且aux无关，普遍U上不预设aux无关/非零。28+8个权−5原生成尾附表只是标签覆盖非rank。
+[R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)原多项式输入保左尾，逐槽8Γ=q_J/三阶真Green h_J=3C；三个真正右bump矩反演μu，Ω=16Lπ/5+(32/15)Σc∫u‴Γπ对全R成立，含原全Z而非只R71，不假奇权pure秩。Λ在全U可定义并消整个R；U−6借R207像相等aux无关，未授U全体aux无关/非零。R335反例尾由交叉项准确恢复。[R342](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286只是预定C7族精确零，不重换族/旧根/旧秩。
 
-[R342首次实际](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286/f9f4030十新人工过，四原mixed根对预定C7族的ΩA整Q[λ]系数0，无见证；只族未检出。下一从R56/R109原完整U成本及保边界结构证明或否定Λ(A*)普遍零，不另换族/重跑旧pure/self/rank。内部Af部分flux可用R345局部E核改变，与整个包Ω不同；完整period/同规范仍欠。
+[R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)新证Λ在原R134三个Abar_hh/hk/kk的全部状态值及有限独立系数跨度为0。原R56二阶真实右锚a′=Qlu‴/(8h³)、第三accel系数及rawpure qq″伙伴β=(Qlj−t k1)/(8h5)全保；正规化A−β给ΩΠ=5Ωself+2a_Lj_L/h²。完整有序2+2系数的三个积分各贡献−1，总−3a_L(v)j_L(u)/h²，a_L恰原三矩线性式，所以原R344读出准确抵消尾，非删尾16/5。三Abar的实际U成员由原R134/R130支付，不假任意geometry monomial可达。下一原H1/H2、静态、速度二次/四次全式（保N0/N2势响应），不扩三层结论至U或商零。R345部分Af flux仍别于整包Ω；全period/同规范未付。
 
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period

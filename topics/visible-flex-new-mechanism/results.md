@@ -376,3 +376,10 @@ C1全权−2与旧B1/B2/C0的−5/−4/−3三角分离，四新列H2幅与旧�
 [R349全部原式](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)从原FL2/FU2与FY2=0保非紧Yu作local变分；两个完整self为SLY2负平方和、SUY2=−5SLY2，真实左纯x²尾使I2 Green相加准确0。显式中心导数∂SLY2=(SUY1−SLY1)/2，与原Fκ0母关系共同给任何L/U组合j0系数ΓλμJ。故同一真Fκ/J小族及全copy的C2完整为Kδ[Λκ(1−q²)Jξ4+(d−5e)δ²Rξ²/2+δ4Θ]，Λκ非0、全部实际余项保。
 
 两个α×τ±在最后正中心/有限正δ给真二维正锥；新C2全权−1与旧B1/B2/C0/C1的−5..−2组成有限10目标严格正核。S5正幅准确付新残差−r/S4，旧八目标保持、Ψ正成本S−2小；弱核心/三个最终中心不动，原全72零F★controller最后有限N复原Ψ/三行/指定层。同一圆M/A/B/C四pair全部三矩全θ已付，只余PY/WY各三矩12形式even位置，非rank/非全72，更非完整period或等距族。无新执行，完成即推。
+
+
+## R350：原U三个真实加速度平方层的总通量也通过完整pure因子化
+
+[R350完整原式](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)从R56保真实history导数、只按canonical定义清其累计值，得二阶a′=Qlu‴/(8h³)、a右零及a_L的原三矩线性式。第三场accel系数−J(Qu‴a)/(8h²)，rawpure的qq″伙伴β=(Qlj−t k1)/(8h5)须在正规化A−β中保留；self=−Qa²/(2h²)，完整ΩΠ=5Ωself+2a_Lj_L/h²，真实尾一般非零。
+
+原pure有序左u/右v的2+2展开全保constant左尾，其收缩三个贡献各−1，准确−3a_L(v)j_L(u)/h²。三个真实右包矩匹配便恢复尾乘积，得到R344原Λ在Abar_hh/hk/kk各全部实际状态及有限独立系数跨度上0。R134已证明这些是实际U而非仅jet形式系数；N2/八矩静态修正不改变此accel平方层。未证明其它H1/H2、静态、速度2/4层或整个U的Λ0，未证明U/R0/全period/同规范。无新执行，完成即推。
