@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [ER实际根零与完整local E](results/R133-supplement-actual-retained-leading-root-zero-and-local-E-row.md)：43724065270/1 child0/20，Ehol<.268118560、raw1<4.348065e8、local<8.700621e8、pair<2.641789e10；七M非E和其余30源项原字，保SV/独立mean。reporte906656c/executiondedbfcad，旧数学0，未授GH。
+
 - [完整相位近似逆与二次缺陷](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)：raw目标严格给(f+r_f+rνκ,b+E′a)，rho15主gap付一导损及17常数，保全均值/原regular rows/参数响应误差，给完整smoothed Newton余项式。58bdf173；实际全逆、S下界和迭代闭合仍待付。
 
 - [已成真实第一列与三个density1整项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)：只消费DG/RV q0..2完整零宽joint Wiener与C.2/C.5原18coeff，Γ1=M1一次正泛函；完整SV/V0mean/uJB三项，不额外1/n，其余28项保SV与ER。4bd29959，actual待新consumer。

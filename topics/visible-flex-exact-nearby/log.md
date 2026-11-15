@@ -409,3 +409,9 @@ H/open历史AJ/RV/DG/M细账压缩到immutable acfd93f713c8c678a9d2d1f9c3b32b6f7
 新解析定理15198B/SHA58bdf1739e1b3c98c50e096657502d30b14033f9ee2b81bbfda89652ddf14278；root回读P14–16、selected-family Section5、GH H22，tail独核PD8–10/15–19/26全通过。raw E与J固定线性系数分清，保r_f/rν和〈E′a〉，物理4j给17的一导损，完整Young两项给Cs，stripτ^-2和Taylor积分余项不省。未宣称scalar S下界、全regular逆、真实β转移或迭代闭合，不加/删原第四Robin/mean/腰等方程。
 
 同时root亲读ER43724065270/1实际executiondedbfcad全部20门、job132842029737全steps success，31项仅raw1改变，其余30/mean非local聚合/七M非E/径权和cover逐字；完整actual正文正核待独推。Green14:25 process097b59a2 root亲读：future5760=1886旧+3874新、past2480/product4272、groups5/queued23，childnull；真pull14:25:27.817177→acf6a61959508c0b4d413e89249435634ed2fa3f两README空，topic199497820B。H完整旧版归档8994dfc19d7695386ad7d5ec3cef3096ac20cc73同路径，未付义务全部保；本次两README9c5292797a470b10434fdeac1f3797e162f96a1f未变。
+
+### 2026-11-15 14:31:05 UTC — ER 实际成功报告独推
+
+root全文读actual报告25487B/SHAe906656cead35b74b0491a0c88a6b7e33b4d58edf2c8ed8fa5d7aa5f51215edb，核91处/74种完整ball原字来自ER/SV/M；execution31796/dedbfcad、generated result11392/bb00c78d及job132842029737全steps success。20门全过、实际child0、math.006412249999996789s；所有七M非E逐字读，31terms仅raw1变，mean/nonlocal聚合/六行原payload/径权/cover保。新Ehol0.2681185591461585，raw1完整434806454.03421548，pair26417883411.633302；充分upper不当真实lower。
+
+23pins/7AST/7旧successful receipts均实际通过；无旧mixed/fold/potential/word/径积分重算。预Git完整stdout32113/88191b0e，临时native7111/7f2c9b78身份保，不入Git/Release/artifact。末真pull14:23:46.134824→78a2725a15039e9b3061a274d20cc47c6afbecf6两README空diff，publication projected199483774；原实际结论commit ef9160d0时间14:23:48已核。本次只读README核168be4d30c4e5d4af4ee5572a8161c8d61a1ae82未变。S1沿此baseline继续；全source-to-trace/strong-return/core仍待。
