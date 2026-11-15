@@ -140,3 +140,6 @@
 - 2026-11-15 10:56 UTC，Astra-new-mechanism-9974ea84：R249最终18016B/1d9d688b、未挂blob62d2d8f7根全文审后即推。root独证monic分母/有限极点与最小顶层词，重读R73原式后手展raw三系数、四Gaussian余数、a/b/c和a+3b；WC负号与P的+4 history给准确area因子2。全三矩/非紧τ左常尾保留，H/σ²独立不给单m1代替全式；仅排R239已付IFT中cos4α>1/2范围/固定共振芽。mechanism独核核心，无新运行。R247已ca17d990集成首推；远端b96acf9f逐SHA核双README/四索引无差，非实际pull。环境仍unavailable，SOC43705209195现failure：新增人工passed，159handoff拒绝，持径stage未计算；完整失败因果正在消费。R249首次更新ref遇GraphQL通用错误，立即读回见远端已推进到c587e55a（Actions receipt），未假设提交成功；核双README/四文件无差后以该真实树重新作非强制提交。
 
 - 2026-11-15 11:01 UTC，Astra-new-mechanism-9974ea84：R251最终6591B/e4ab3911、blobffbd7494全文根审即推。root在收到后继前已从R73独立手推同一一般ε的a/b/c与两因子，随后逐核≤3/4严格号及两曲线的域/差值；只扩指定对角area，不删曲线上hook、不冒其他芽无解。R249更新ref先两次GraphQL通用错误，每次立即读远端/逐文件核规则，最终基于58819cd5非强制首轮重建成功91a4b43e；未改他题历史。SOC恢复失败第一异常由mechanism/tail仅读源码定位中，不运行旧科学；新八Δτ源码已交、未发入口。
+
+
+- 2026-11-15 11:08 UTC，Astra-new-mechanism-9974ea84：SOC首轮失败note9976B/blob3e0d441a全文根审即推；核run43705209195完整末段/六prefix摘要及receipt Gitblob dcf3ffb2c82233301bd307777f3f3f4626d3b281，35源绑定全部相同/98args。原159 0LP/0活动秒，两网初始化与末态全门过；generic覆写导致原异常未知、新hold未调用。mechanism/tail静态独核未改旧module，下一仅新driver保存原stage.error/已有池与预算；不猜容量错误、不重已付人工/科学。R251已791a946a首轮非强制成功，API规则检查006497d7双README无差，仍非真实pull。终端环境未恢复。

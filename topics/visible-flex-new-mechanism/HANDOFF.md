@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:04:56 UTC/`006497d7ad66131a4b02dfb97e869d1faa0bc55f`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 11:06:26 UTC/`75b1d56c821abe34660477ba8b4c7f7b75a4382b`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch signal9后已单线程重拉，规则无差，详见log。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已全消费**：43701558227/ef8c1cdb/job132773631115，见原actual。新开发/33来源全过；c9a5 η.266520536442→b429 .266491207122，降2.93293e−5但未.26/1e−4参考。8主/1SOC、8接纳，20值+2末值，活动120.313/总896.907秒。m6仅fine8曲率失败被SOC修回而旧规则仍减半；原双网/准确九盒过、帽高仅tol、外域jets0/g/b0不变，κ57.9999896仍欠reach。
 
-**成功SOC条件持径首入口handoff失败**：run43705209195/source9ca83546/job132784732079，lane metric_height159_soc_hold。库c6fb9d46/driverf6ff70d5，原base实际总步比值≥1/2、物理校正≤B/10/总步≤1.1B、零新行且只primary曲率触发旧缩步才持B/streak0；否则原返回。旧门/12LP/40值/120秒不改；六原前缀各一次、原有理reference/H不重锚，35来源/98args只out。新增人工passed；159handoff报completed input required，新持径stage未调用。第一异常仍在定位，不作持径阴性。选行J径向分解设计751c737e已审，未实现/运行，待actual决定必要性。
+**SOC持径首次恢复失败已全消费**：[完整失败](notes/height159-soc-hold-first-restoration-failure-20261115.md)，43705209195/9ca83546/job132784732079。新增人工全过；六前缀共919.703秒，原159初值1e624的η.266488366279/κ57.9999878两网全门过，但0LP/0活动秒、原控制返回失败；新hold未调用。generic handoff错误掩盖原stage.error且临时清理，不能猜池容量/J原因，也不作持径阴性或恢复漂移进展。下一只补原失败诊断及针对性人工；旧门/12LP/40值/120秒、六源/有理reference/H全保。选行J设计751c737e已审但未实现，不混未知故障。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
