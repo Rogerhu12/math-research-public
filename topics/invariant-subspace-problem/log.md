@@ -493,3 +493,7 @@ R_x uniform2、保D/C/cut与原核旗，整合法链差在同K_Q；paired commut
 ## 2026-11-15 19:09 UTC — 同源位置加权与全旗Hardy
 发表Epos≤4r_x Qf、primitive≤16r_x Qf、全真旗绝对费及物理全Fock Gpos≥Ntail/4；原缺陷、碰撞正项和自然形式域均保。
 归一Q预算只依固定测试误差，尚不付顺次MP/完整负部；H归档压缩，两README核同后实际pull/rebase/push。
+
+## 2026-11-15 19:14 UTC — 原∞完整小P61与同R162
+发表真实两域P谱61及全部原来源；自然full61…66/次大51…55/max≤15，差模长≤5与u⁵W来源，原输出限制63…68。
+同R≤162、Rh0≤186、affine gcd≤320，成本仍8531；只续P外第六，H归档压缩，每pull核两规则并实际push。
