@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：05974f966ca44a87f6286b6162bf908842f51ea7；2026-11-15 08:10:22 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:10:22 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
+- 最近已读规则提交：b52057d116ec4c8249049ce26d97983d5df55468；2026-11-15 08:14:11 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:14:10 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -16,7 +16,7 @@
 ## 完整前检与分工
 
 全部压缩前内容：[最近HANDOFF](notes/2026-11-15-frontier-before-r715-proof.md)，沿内链保全部规范/坏集/预算/原域和未付问题。本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701–711、713–717已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
+R1–363、365–560、562–653、655–700、701–711、713–718已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
 root唯一metadata/ref写者；代理只交独有proof/script/blob。deep R712指定forcing/同R真实像；theta R715续k1..5完整混合壳；literature原R716反循环一级层非零/原p-adic对应；root R718原CM分布重建R717整窗。
 
 ## 固定算术规范
@@ -57,3 +57,5 @@ R663同Y闭盘iff Q|B；原X仍须j0、高Q^(d−m)及真下降。原两j到前�
 R712继续gcd1/真偶因子固定μJ(Pfact)/p的全J像。最新r=ell=1、s=2h+1窗归原h条实际接触行；常数unit仍可被真实低列吸收，未判非零，不以重排另登记。
 
 **R716** 原S34/Hall迹已匹配原全局theta周期：L(ψ17·tildeη_p,r,1)/Ω_R=48940416|S_p(r)|²/p。全部2/3/17原向量、p²基/相位/范数及Yang新增p因子保；tildeη_p=χ_r²、导子p²/阶p/root+1，同r一Galois轨道。原边界零iff此L值零；原j0到边界零及随p第一wild非零仍缺，固定tower非零不够。
+
+**R718** 实际α≡1 mod6、modp primitive可取Norm≤27p²，原ψα=σ(αz)/σ^N全p整。U分布式含原Rα、Nmodp²全部幂及tbar=c_pN0q_p(α)；τ=α6阶L、唯一共振n=s由原logU_s=0补齐，唯一重建全部原整窗/二位族。CM division输入次数随p增长，不给j0前缀零。R719已提交原native/frozen+全混合行的最短J2关系提取脚本，不把辅助left当实际恒等。
