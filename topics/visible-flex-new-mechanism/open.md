@@ -128,7 +128,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
 
-[R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付下一完整block归约：三阶完成块的全四阶forcing按a⁴可加，原式平移次数≤10/旋角0、2、4给55生成函数。四高斯E_r与十积/六面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]，不称21维实函数空间。均匀角平均的领先门为−sin²θ(E(U,U)+E(V,V))且括号严格正；Prouhet 4^11个有限不交块准确消至10阶位置矩，仍留下负主层，故均匀消谐不能支付。**下一完整cos4/sin4的真实单block系数及非均匀正角锥；保全period与同w joint。** 不逐微包删历史，不把有限判据或正span当可达零。
+[R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付完整block全四阶a⁴可加、平移≤10及旋角0/2/4的55生成函数；四Gaussian原函数及其积/面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]。均匀角平均领先门严格负，4^11个Prouhet完整不交块的准确位置矩匹配亦保该负值，不能用均匀配角消门。
+
+[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)继续保全部真实history得到不交微包完整P(q)=Σc_i²c_j²Qij，别包第三仿射尾与紧Y导数配对准确0；二阶跨尾未删。逐包g=±f使整个P实，旋转乘e^−4iα，复Fourier4=P/16而实谐波幅=P/8。R239有限正δ可保证−1/2<t<0，两互补角矩阵可逆，故总偶cos4/sin4入We iff各未旋转block的实偶P_e分别入We。**下一准确判单block的P_e，或给可消条件；还未证明其成员/非成员。** 非均匀实际正锥、零/二次谐波、奇部、全period与同w joint保留，微包原分子不冒独立合法ruling。
 
 ## O1：双圆领相位机制，保留备选
 

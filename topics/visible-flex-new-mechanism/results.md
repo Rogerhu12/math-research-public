@@ -339,3 +339,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R245：完整四阶块可加、四高斯历史归约及均匀旋角障碍
 
 [R245 完整证明](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)只对第三阶全部闭合的完整八包block使用支撑分离；Y/Z/W和导数在整体外为零，完整第四forcing按a⁴准确相加。原R56固定x导数及真右锚尾给Y≤1、二阶V≤5、三阶V≤9，整个第四ruling平移次数≤10，结合0/2/4旋角谐波共55生成函数而非独立维数。例外端所有非局部项按真奇偶分解：四E_r=∫H^r（r=1,−1,−2,−3）、十乘积及六K_rs−K_sr面积加常数，在Laurent环上21生成；Gaussian负指数常数尾及incoming初值均保。输出σ次≤a、指数[m,M]时真实闭包n≤(a+1)[21(M−m)+45]，可接R243有限jet判据，但未评价实际系数。完整角平均领先门严格为−sin²θ(E(U,U)+E(V,V))，U=V=0会迫紧支撑非零f/g皆零，故严格负。四角等权给同平均；4^11项Prouhet数字分组准确消位置矩0..10，证明有限不交完整块也不能靠均匀配角支付领先门。非均匀正角锥、完整四次谐波及period/ruling联合仍未付，不授一般无解。root与tail全文独立纸核；没有新求积、代数消费者或几何运行。
+
+
+## R248：完整四次谐波的平方幅度结构和互补两块必要门
+
+[R248 完整证明](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)从R56同一canonical初值的全Range定义P(q)=−b(Zqq,Zqq)−4b(Yq,C(q;qq))；完整e^−4iθ系数为P/16，实cos4/sin4幅为Re/Im P除8。紧forcing的真实左尾分子至多仿射，故其导数与另一紧Y分子的端差配对0；这是完整积分身份，并未删除左尾。于是任意不交微包Σc_i u_i的整个P只含c_i²c_j²，所有二阶跨尾和第三history保留在实Qij中。逐包g=±f给c_i²=2is_i a_i²，P全实；实正交旋转使P乘e^−4iα。对两个真正三阶完成block，完整第四加法给互补角矩阵，其det=2A1⁴A2⁴sin4αcos4α；R239原IFT缩域可保证−1/2<t<0，严格有理界S0/Q0≤19440/46501<1/2支付非退化。因此两条总偶第四谐波入同We iff每个未旋转block的P_e各自入We，不能靠互补角隐藏一个失败。仍未判单block实际成员，不授整个第四/period/joint，亦不把微包原分子当合法全局ruling。root全文复核，tail独核外尾/跨包配对/两角核心；无新科学计算。
