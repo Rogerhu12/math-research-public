@@ -1,0 +1,83 @@
+name: ISP R150 publish saved complete original nine certificates in bounded data batches
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-complete-global-publication-43674463008
+  cancel-in-progress: false
+
+jobs:
+  publish-saved-original-nine:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /.github/workflows/invariant-subspace-r150-saturated-third-global-publication-only.yml
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-publication-only-verify-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-publication-only-request-789f.json
+      - name: Restore the complete immutable mathematical results
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-global-results-43674463008-1
+          run-id: 43674463008
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-final-publication-only/results
+      - name: Restore every actual original recovery array
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-third-global-recovery-43674463008-1
+          run-id: 43674463008
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-final-publication-only/recovery
+      - name: Verify all actual bytes and completed original identities without running mathematics
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-publication-only-verify-789f.py
+      - name: Publish bounded immutable batches then real pull rebase and main push
+        id: publish
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$RUNNER_TEMP/isp-r150-final-publication-only/results" \
+            --recovery "$RUNNER_TEMP/isp-r150-final-publication-only/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-final-publication-work" \
+            --mathematical-source-commit 88be0c86d8924b4874e16b51c26732588696a5e3 \
+            --originating-run-id 43674463008 --originating-run-attempt 1
+      - name: Preserve the actual terminal publication receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isp-r150-complete-global-publication-only-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-r150-final-publication-only/results/publication
+      - name: Require an actual completed main push
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path(os.environ["RUNNER_TEMP"]) / "isp-r150-final-publication-only/results/publication/publication-receipt.json"
+          r = json.loads(p.read_text()) if p.exists() else {}
+          print(json.dumps(r), flush=True)
+          assert r.get("status") == "pushed", "Saved mathematical results require continued actual publication"
+          assert r.get("publicationReranMathematics") is False
+          PY

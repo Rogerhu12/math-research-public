@@ -1,0 +1,125 @@
+{
+  "format": "r150-complete-global-publication-only-request-v1",
+  "createdUtc": "2026-11-15 04:16:55 UTC",
+  "originatingRun": 43674463008,
+  "originatingAttempt": 1,
+  "mathematicalSource": "88be0c86d8924b4874e16b51c26732588696a5e3",
+  "mathematicsRerun": false,
+  "completedStages": 36,
+  "fullOriginalNineVerified": true,
+  "actualCosts": [
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339,
+    1339
+  ],
+  "recoveryManifestSHA256": "01d1df02c14d9bd5a30213db087e8d6e437a06babc66af9c1ed6a61cb688117d",
+  "recoveryFiles": 623,
+  "recoveryBytes": 3746395040,
+  "artifacts": [
+    {
+      "id": 14146620122,
+      "name": "isp-r150-saturated-third-global-results-43674463008-1",
+      "size": 2321885628,
+      "digest": "sha256:b20baa5ff1b4671ec67807637b865d74666045e9c17f6402d7b0a02e8f2345f2"
+    },
+    {
+      "id": 14146281707,
+      "name": "isp-r150-saturated-third-global-recovery-43674463008-1",
+      "size": 2288539500,
+      "digest": "sha256:8be9f78d21f0bf3875f54572ae733c0c7674cbaaf034a290017b736dd7f3936f"
+    },
+    {
+      "id": 14145044532,
+      "name": "isp-r150-saturated-third-global-compact-43674463008-1",
+      "size": 124480,
+      "digest": "sha256:7af0c8744e3ce0336c8fde354764f1c84b520cfed091fd87fc9f6450a3c0858e"
+    }
+  ],
+  "failedPublicationReceipt": {
+    "format": "r150-saturated-third-global-terminal-publication-v1",
+    "status": "publication-failed",
+    "run_id": "43674463008",
+    "run_attempt": "1",
+    "source_commit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+    "publicationExecutionRunId": "43674463008",
+    "publicationExecutionAttempt": "1",
+    "publicationExecutionSourceCommit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+    "publicationReranMathematics": false,
+    "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43674463008-1",
+    "sharedResearchIndicesEdited": false,
+    "forcePushUsed": false,
+    "rulesAtSource": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "pulls": [
+      {
+        "beforeReadCommit": "88be0c86d8924b4874e16b51c26732588696a5e3",
+        "originMainAfterPull": "057990186f6ab671a8e0e32f80eae7b654047377",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-1.patch"
+      }
+    ],
+    "pushes": [],
+    "stagingPushes": [
+      {
+        "commit": "9392422c3bee0e20cd3a952659e5d255efcbbd47",
+        "branch": "isp-789f-data-43674463008-1-9392422c3bee",
+        "exitCode": 1
+      }
+    ],
+    "actualOutputsPreservedBeforeGit": true,
+    "mainCommitMetadataUnshallowed": true,
+    "blobFilterRetained": true,
+    "actualRecoveryPreservation": {
+      "allActualRecoveryFilesPreserved": true,
+      "allStageCachesIncluded": true,
+      "originalFiles": 623,
+      "originalBytes": 3746395040,
+      "fallbackFiles": 0
+    },
+    "preparedStoredFiles": 1046,
+    "preparedOriginalBytes": 2330676384,
+    "lastRulesReadCommit": "057990186f6ab671a8e0e32f80eae7b654047377",
+    "errorType": "RuntimeError",
+    "error": "actual data staging push failed; all recovery bytes retained"
+  },
+  "failedStagingBranchActuallyAbsent": true,
+  "observedFailure": "RPC HTTP500 at approximately2GiB; no mathematical failure; no existing data ref was found",
+  "maximumAdvertisedBatchBytes": 400000000,
+  "immutableDataHardlinks": true,
+  "completeFinalMainPullRebaseAndPushRequired": true,
+  "nonFastForwardImmediatePullRetry": true,
+  "forcePush": false,
+  "accountConcurrency": {
+    "atUtc": "2026-11-15 04:15:39 UTC",
+    "activeJobs": [
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43675377211,
+        "id": 132694243435,
+        "status": "in_progress"
+      },
+      {
+        "repo": "Rogerhu12/math-research-public",
+        "run": 43672023585,
+        "id": 132683972606,
+        "status": "in_progress"
+      }
+    ],
+    "newRootJob": 1,
+    "newPublicationJob": 1,
+    "max": 20
+  }
+}
