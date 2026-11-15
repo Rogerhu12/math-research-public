@@ -124,14 +124,21 @@ root完整读四源码diff、17099B接口、两配置diff和两纯静态checker�
 
 ### 1O. 实际99八接受、101保持η=.01续接
 
-[实际99正式结论](notes/2026-11-15-actual99-eta0p01-eight-accepted-restorations-compact.md)已登记：45个完整原候选中37个full3 Armijo拒绝、8个接受，零评价异常；α为1/16或1/32，merit15400.321596660777→14191.4364621677。末p=[.5028915872638302,-.30533374854090733,.5947144547996672]、unit=[-162.51074411023774,44.41993891342297,-3.055325140523084e-8]；unit/full112/native仍false。仅显式预算停止，101接同f43/η=.01、原8×20/12×20和全部原门，当前14源与初次历史父13源分清。终端中断后101旧接线草稿尚未推送，正在适配新第15条的仅结论/参数/run/SHA发布。
+[实际99正式结论](notes/2026-11-15-actual99-eta0p01-eight-accepted-restorations-compact.md)已登记：45个完整原候选中37个full3 Armijo拒绝、8个接受，零评价异常；α为1/16或1/32，merit15400.321596660777→14191.4364621677。末p=[.5028915872638302,-.30533374854090733,.5947144547996672]、unit=[-162.51074411023774,44.41993891342297,-3.055325140523084e-8]；unit/full112/native仍false。仅显式预算停止，101接同f43/η=.01、原8×20/12×20和全部原门，当前14源与初次历史父13源分清。第101轮已按新第15条运行完成，实际结论和105明确参数recipe续接见1R。
 
 ### 1P. 实际95首原线搜索失败，转真实noJ有限邻词proposal
 
 [实际95正式结论](notes/2026-11-15-actual95-single-word-prediction-and-native-rejection.md)保存来源、脚本/参数、47小原件范围和SHA。fresh完整affine模型预测下降，但唯一Q76/node11向下相邻词的原单位步norm升至6.848278937534994e-5，九个更小档均为6.0618737006888706e-5；首iteration0十档全拒，零接受/零R273，未到最终J/audit。相同表达式下半ULP ties-to-even回偶基点，解释这个方向的无效回溯，不是普遍精度极限；实际单位步flow/argmax仍缺。
 
-103拟在首correction用原cellFlow真实noJ比较上下有限邻词、重形成完整129248行，仅严格改善者作proposal，仍交原32×10/2e-9/域/finalJ/audit；无邻词改善时转同fresh-J完整R273，不能重复95已失败词。要求成功95锚的live/fullDN适配器当前不可运行。方案未执行，不冒新native接受。
+103拟在首correction至多调用三次原完整evaluate作真实noJ基点、向下control和向上邻词比较，仅严格改善者作proposal，仍交原32×10/2e-9/域/finalJ/audit；无邻词改善时转同fresh-J完整R273，不能重复95已失败词。要求成功95锚的live/fullDN适配器当前不可运行。方案未执行，不冒新native接受。
 
 ### 1Q. 第101轮同η续算，取消原输出归档
 
-[接线说明](notes/2026-11-15-request101-same-eta-and-no-output-retention.md)。f43科学源、73pins和PYSOURCE/PYDIAGNOSTIC逐字保留，父99/当前均14源，重新实际评价。去掉upload-artifact/旧22e publisher，只复制<90KB原关键值及SHA到日志，由root写结论。原输入若main清理后缺失，取历史8bd26710并核同size/SHA。尚无第101轮实际值，不预填成功。
+[接线说明](notes/2026-11-15-request101-same-eta-and-no-output-retention.md)。f43科学源、73pins和PYSOURCE/PYDIAGNOSTIC逐字保留，父99/当前均14源，重新实际评价。去掉upload-artifact/旧22e publisher，只复制<90KB原关键值及SHA到日志，由root写结论。原输入若main清理后缺失，取历史8bd26710并核同size/SHA。实际run43679869518已完成，科学成功仍false；原值见1R。
+
+
+### 1R. 实际101八次1/16接受，105从真实参数recipe继续
+
+[101正式结论](notes/2026-11-15-actual101-same-eta-eight-acceptances-compact.md)记录真实run43679869518/source17a07c22/job132707948751、原status8044b98a与日志摘要d03b2858。40候选中8接受32full3Armijo拒绝，零评价异常，全部α1/16；merit14191.4364621677→13116.49060429981，只有原外预算停止。末p=[.5003346243435612,-.2840549745844459,.5965308971991595]，unit=[-152.40839651746847,54.814796173786185,-4.8252861791289736e-8]，unit/full112/native及闭面标准仍false。内层9/40达原标记，8个outer接受中2个达；保实际d3与全部原门。
+
+105用独立显式短参数recipe入口续接同η=.01/8×20/12×20；新schema诚实记录只消费这三个literal初猜和实际101来源SHA，完整原math/search/final保持，重新实际评价/J。不能把不再保存的原status伪造成完整parent-status。102只读已有98原artifact的科学摘要，103真实noJ邻词proposal与原QR回退、104普通清理可重算main输出并行；无新字节审计阻挡科学。
