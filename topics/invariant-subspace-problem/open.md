@@ -164,3 +164,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：完整无穷远第三连接至多一，公共43/39与条件费8663
 
 [正式证明](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)给22条全6188来源的独立左三阶jet，因此完整 $\beta_{3,\infty}\le1$，全最大/低一阶子式公共阶至少43/39；原29曲线把指定阶提高到72/71/67。配有限 $K_{80}$，原 $\mathbb Q[s]$ 成员性条件下费8663（非基8662、目标8442，$235\le q\le8618$）。前两页31单位消元还给完整模31第二连接零、第三连接至多一。最后方向实际下界、原成员性和首系数单位仍开。
+
+
+### 2026-11-15：固定29曲线常组合二阶支撑已否定
+
+[正式结论](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)：新外一阶1834×29矩阵真Q秩29，固定常系数组合的t2=0。全原常项与4367一阶syzygy已核；只关闭这个有限子问题。允许uΦY后的商空间条件及更广精确关系仍开。
