@@ -1,0 +1,16 @@
+{
+  "schema": "actual73-realized-trial-original-worker-request-loop-only-v1",
+  "hook_sha256": "c03f59e4c3b6555a7a47187f1905a70f1e5a92dafacc222c327f4913c3ccdce0",
+  "spec_sha256": "d23f3107df71723ac056bb84d224b0465ebc9d6522ddadb6d04a7841347be665",
+  "frozen_worker_sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "original_compiled_worker_sha256": "c523be3ca6ca6d5913ffa03eaebbcc512e00fbb921d09874c7df8366602dc68a",
+  "instrumented_compiled_worker_sha256": "4f863581f0f7e32df1470ef688a0e55aa679abe25f35b8309b32189f201b3164",
+  "removed_original_loop_sha256": "30767f1aece9ae22ca942112479c38651aa8103e5c180a08483136802f4c779c",
+  "diagnostic_loop_sha256": "c28fdd3bc47594f2642a1488fd34ba235a63c52da8677aa953826470742714c3",
+  "exact_source_roundtrip_verified": true,
+  "only_worker_request_loop_replaced": true,
+  "other_read_only_root_and_evaluate_observations_separately_declared": true,
+  "original_constructor_profile_cache_root_RHS_RK_arithmetic_unchanged": true,
+  "original_solve_and_endpoint_audit_not_called": true,
+  "Function_toString_not_modified": true
+}
