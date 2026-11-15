@@ -227,3 +227,5 @@
 - [R230：平端一次层的真实三次尾算子和有限有理消元](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)：完整右锚DAG给G=P2+Tτf+p²A，三次τ保真实函数关系，raw负尾/正文正尾符号显式。指定ψP后(D+p'/p)有限次消掉多项式Volterra系数，准确判Tτf零；非零必有限首渐近、由R226坏完整period端点。未指定P/τ，不冒固定圆。后继只判H相对16维weight0响应的一次层及附三旧pure行的窄门，不等于全权λ因子化；没有新研究计算。
 
 - [R231：例外偶端口的完整mixed领先项和两个能量门](results/R231-complete-mixed-leading-gate-for-the-exceptional-even-port.md)：在明确正物理支，r=hkG+poly、β=∫hk~−keσh；全第三局部/chain/真实history保留后K/(hβ²)→Cθ。三紧槽循环身份给Cθ=sin²θ E(Gff,Ggg−Gff)+sin2θ E(Gff,Gfg)，Gff/Ggg真左尾不删除。任一新mixed能量非零即排全gauge；pure四次自动零不授此双门。b0原八包只需两raw值，宽度乘λ、跨包x²尾由紧差正交；新实际未执行，不预填符号或完整次层结论。
+
+- [同g159坐标：154切向加五个准确零积分高度方向](notes/same-g-entry-tail-five-height-null-design-20261115.md)：入口3列用j3补偿，尾h6=e6−3e8/2、h7=e7−5e8/4；末span Wronskian=y⁶(900−882y+203y²)/(1728Δ)>0。可在.78保持D0改D′，点metric/normal不变、II径向改n_zD′；原盒与投影未授可行。准确九有理物理系数、统一Z/D jets与159坐标分层，c3/c8真耦合盒，∞/L1用物理Ms；新rH4rB、继承原B/T/controller/全部门，不混SOC策略。代码草稿尚未执行。

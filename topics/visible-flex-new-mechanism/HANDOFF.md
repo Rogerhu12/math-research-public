@@ -8,7 +8,7 @@
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`d040b4588ff35cc10851c7959ac76b19f2539308`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`c699fab0d637d429144f93cf3af1d6d7a862a1ad`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
 
 ## 2. 完成门
 
@@ -18,11 +18,11 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**103 actual已消费**：43691833140/source2f25b5aa，notes/entry-body103-first-actual-result-20261115.md。历史最低η .26651075196396212/末bfbd7465保留；原固定尾域.7725锁峰使下一J前退出，非半径/预算失败。完整费用/全部门在原note，旧SOC/96defect不重跑确认。
+**103历史最低**：43691833140/source2f25b5aa，η .26651075196396212/末bfbd7465；固定尾域锁步，完整见notes/entry-body103-first-actual-result-20261115.md。旧实例不重跑确认。
 
 **154 actual已消费**：43694686825/source71744524b9001226332866870515281d35f49910/job132752541415，notes/entry-tail154-first-actual-result-20261115.md。原B103/T51全uv可动、9height固定；尾.7725锁峰解除。四前缀各一次必要恢复，fc0d8139起η .26653564958657405→2ee6e90e末.26652257791835787；5接纳/8主LP/0SOC，降1.30717e−5未达1e−4参考/.26。恢复漂移大于新降幅，**未破103历史最低**。m1/m3已有.78曲率行非线性失败，m6硬门过但fineη增；新软行分支跳过SOC，不能说SOC失败。最后两高比率步已触发半径增长，但120.0745活动秒先到；18+2值、全880.5913秒、fine J85.1928秒，完整163J未降。末fineκ57.99998545、strip余3.90333e−8、帽高仅tol过；原门全过，新metric/reach门未付。下一准备原高度null入口与尾方向，SOC补行另案，不延同154预算。
 
-**原九高度的零积分方向已付**：notes/same-g-nine-height-zero-integral-entry-directions-20261115.md。λ·d0核8维；d_i=−e_i+(λ_i/λ3)e3，i0..2、λ3=.081，正步降低b(.09)，位置全二jet于t≥.603恢复、尾帽/共同帽高/strip真不变。盒内补偿槽容量待当次实际态，活动区metric/镜像/球/曲率仍需全门。准确有理null参数化不同于逐项float舍入；未实现/未派发，不因较低b下界强行跑无效strict-max。
+**159五高度设计已付**：notes/same-g-entry-tail-five-height-null-design-20261115.md。原九核8维选entry3/tail2，仍163物理族；入口.603后恢复，尾末片Wronskian严格正，可在.78取D0/D′非零。原盒/n_z/曲率投影未读则不授可行。准确H/九有理canonical与float评价分层，c3/c8耦合盒、物理Ms的∞/L1保留；新rH=4rB，B/T继承真实controller，原门/预算及SOC新soft返回不改。代码草稿未执行。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
