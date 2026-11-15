@@ -1,0 +1,419 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "original-free-thirteen-quotient-defect-120-parent-copy",
+  "executionSourceCommit": "e5c7e7bdeda7211d0ad538ef7731df71f8416e10",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-free-thirteen-quotient-defect-789f.py",
+  "scriptSHA256": "7f092c2327864ed01d93095ae8f44af5bb42022f262fabbe5d5cd3801c2385b6",
+  "argvTemplate": [
+    "--core-receipt",
+    "{scripts}/43756208221-original-global-projection-polynomial-core.json",
+    "--checkpoint-dir",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--out",
+    "{work}/original-free-thirteen-J",
+    "--remaining-seconds",
+    "120",
+    "--memory-mib",
+    "1024"
+  ],
+  "timeoutSeconds": 150,
+  "exitCode": 0,
+  "wallSeconds": 1.066027122999003,
+  "fullTemporaryReceiptBytes": 8459,
+  "fullTemporaryReceiptSHA256": "3601de023334179feb350ce884df383b5acd3991834d14dea77570c61f87ced0",
+  "result": {
+    "binding": "6f140e28ed8968703af6a645fdeb537d2f12f6b8bf85f08996828268866ec949",
+    "elapsedSeconds": 0.9774976860007882,
+    "format": "r150-original-free-thirteen-quotient-defect-v1",
+    "status": "completed",
+    "parameters": {
+      "allNewFilesTemporaryOnly": true,
+      "bindingInputs": {
+        "completeMinorExpressionCount": 211,
+        "consumerSHA256": "7f092c2327864ed01d93095ae8f44af5bb42022f262fabbe5d5cd3801c2385b6",
+        "format": "r150-original-free-thirteen-quotient-defect-v1",
+        "paidCoreBinding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+        "paidCoreSourceSHA256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+        "paidKernelMatrixSHA256": "0094105c15f99860016767a662e27b7b60ddfb04b085f044f50bacfe694aabe6",
+        "paidKernelPayloadSHA256": "70b27882aced10d9de363b30056d93491860db2b102d3750c949659a7ad11fc0",
+        "prime": 31,
+        "smallMatrixLogicalSHA256": "7b36840aee02edd40665c8edbecc0e85e5303fff8f8de1d1331a29936ef7b5c4"
+      },
+      "checkpointManifest": {
+        "bytes": 2509,
+        "sha256": "072105ebe46c97926604318b63e3a1b2c980965e5b15aa1b82c8f0c21af074c5"
+      },
+      "checkpointPhases": {
+        "complete-J-characteristic": {
+          "bytes": 25953,
+          "file": "complete-J-characteristic-8b9a6f5fb57e0b2bcfe9502e9bd7f60818b3b66b06f3a6379b541f78039c919d.json",
+          "sha256": "8b9a6f5fb57e0b2bcfe9502e9bd7f60818b3b66b06f3a6379b541f78039c919d",
+          "summary": {
+            "JTotalDimension": 1,
+            "allCompleteCharacteristicIdentitiesVerified": true,
+            "fieldSmallLength": 231,
+            "rationalSmallLength": 230
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "field31-complete-minors": {
+          "bytes": 1429,
+          "file": "field31-complete-minors-7498abd69d9e0915660bb10c479e2077bbf467eb698f98f120ad38905c4f90ab.json",
+          "sha256": "7498abd69d9e0915660bb10c479e2077bbf467eb698f98f120ad38905c4f90ab",
+          "summary": {
+            "completeExpressionCount": 211,
+            "completeMaximalMinorIdealComputed": true,
+            "currentGcdDegree": 231,
+            "field": "F31",
+            "gcdLogicalSHA256": "6f26798a1514d0b60d809272414f5022ef512c1fd19a2922fbc417a8c945abe1",
+            "processedExpressions": 211,
+            "verifiedFinalDivisions": 211
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "original-structure": {
+          "bytes": 864,
+          "file": "original-structure-b4b811aa27d698cd368cb3fe8affa362bd24a05853fc54a5a6de01d03bcd6a52.json",
+          "sha256": "b4b811aa27d698cd368cb3fe8affa362bd24a05853fc54a5a6de01d03bcd6a52",
+          "summary": {
+            "DlinearDegree": 46,
+            "DlinearSquaredDegree": 92,
+            "all2015OriginalPolynomialEntriesVerified": true,
+            "allOriginalCoefficientDenominatorsAre31Units": true,
+            "fullFree13BlockIsDlinearSquaredIdentity": true,
+            "lastThreeColumnsVanishOnTenAxes": true,
+            "numberOfOriginalRationalCoefficientsChecked": 6069,
+            "originalMaximumDegree": 116,
+            "originalNonzeroEntries": 58,
+            "separatedDFreeAxes": 10,
+            "separatedDFreeRank": 920,
+            "smallMatrixLogicalSHA256": "7b36840aee02edd40665c8edbecc0e85e5303fff8f8de1d1331a29936ef7b5c4",
+            "smallMatrixShape": [
+              3,
+              30
+            ],
+            "smallOriginalTargetRowsOneBased": [
+              3,
+              7,
+              6,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ],
+            "tenAxesHaveNoOtherOriginalSupport": true
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "rational-complete-minors": {
+          "bytes": 27567,
+          "file": "rational-complete-minors-79d5afd208599741bf0b10ee01b00761d72c1e532a162add6f0ba6adab25f0db.json",
+          "sha256": "79d5afd208599741bf0b10ee01b00761d72c1e532a162add6f0ba6adab25f0db",
+          "summary": {
+            "completeExpressionCount": 211,
+            "completeMaximalMinorIdealComputed": true,
+            "currentGcdDegree": 230,
+            "field": "Q",
+            "gcdLogicalSHA256": "83b3490ffd03f27b2ed0d68b9ee778a5dab7e4e737803e4eae0487fbc77cfdf7",
+            "processedExpressions": 211,
+            "verifiedFinalDivisions": 211
+          },
+          "temporaryOnly": true,
+          "verified": true
+        }
+      },
+      "consumerSource": {
+        "bytes": 27836,
+        "sha256": "7f092c2327864ed01d93095ae8f44af5bb42022f262fabbe5d5cd3801c2385b6"
+      },
+      "fieldCompleteMinors": {
+        "axialGcdDegree": 92,
+        "axialGcdSHA256": "ac60bf7cea2846bd68d9683738c22f276bf3d45fb802a84020295859e7c251f2",
+        "completeMaximalMinorIdeal": true,
+        "degree": 231,
+        "degreeDropProfile": [
+          {
+            "afterExpression": 1,
+            "degree": 276
+          },
+          {
+            "afterExpression": 2,
+            "degree": 232
+          },
+          {
+            "afterExpression": 92,
+            "degree": 231
+          }
+        ],
+        "expressionChainSHA256": "aa7ce19535d522321a07c37cf1d5d2582fda8b2d6aa446b8a26aa90fcfffd213",
+        "expressionsIncorporated": 211,
+        "field": "F31",
+        "finalExactDivisionsVerified": 211,
+        "polynomialSHA256": "6f26798a1514d0b60d809272414f5022ef512c1fd19a2922fbc417a8c945abe1"
+      },
+      "inputFiles": {
+        "inheritedPaid2912OriginalProductsZero": true,
+        "kernelPhase": {
+          "bytes": 157898,
+          "file": "free-thirteen-kernel-70b27882aced10d9de363b30056d93491860db2b102d3750c949659a7ad11fc0.json.gz",
+          "logicalSha256": "0094105c15f99860016767a662e27b7b60ddfb04b085f044f50bacfe694aabe6",
+          "payloadSha256": "70b27882aced10d9de363b30056d93491860db2b102d3750c949659a7ad11fc0",
+          "sha256": "b4cd026450d301328d4273ca7256dd9d8ee645576fcc5a5118aecd99a4fc2c51"
+        },
+        "paidCoreBinding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+        "paidCoreSourceSHA256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+        "paidReceipt": {
+          "bytes": 11075,
+          "sha256": "7db7d2437583105a9bb2474612cb5b4001989f7911ca79bd22992d025a056aa2"
+        }
+      },
+      "limits": {
+        "memoryMiB": 1024,
+        "seconds": 120.0
+      },
+      "originalStructure": {
+        "DlinearDegree": 46,
+        "DlinearSquaredDegree": 92,
+        "all2015OriginalPolynomialEntriesVerified": true,
+        "allOriginalCoefficientDenominatorsAre31Units": true,
+        "fullFree13BlockIsDlinearSquaredIdentity": true,
+        "lastThreeColumnsVanishOnTenAxes": true,
+        "numberOfOriginalRationalCoefficientsChecked": 6069,
+        "originalMaximumDegree": 116,
+        "originalNonzeroEntries": 58,
+        "separatedDFreeAxes": 10,
+        "separatedDFreeRank": 920,
+        "smallMatrixLogicalSHA256": "7b36840aee02edd40665c8edbecc0e85e5303fff8f8de1d1331a29936ef7b5c4",
+        "smallMatrixShape": [
+          3,
+          30
+        ],
+        "smallOriginalTargetRowsOneBased": [
+          3,
+          7,
+          6,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "tenAxesHaveNoOtherOriginalSupport": true
+      },
+      "rationalCompleteMinors": {
+        "axialGcdDegree": 92,
+        "axialGcdSHA256": "0584945aa306445af6007ef253a630cffe570da3f3343fc48d4e8a0961fbaebd",
+        "completeMaximalMinorIdeal": true,
+        "degree": 230,
+        "degreeDropProfile": [
+          {
+            "afterExpression": 1,
+            "degree": 276
+          },
+          {
+            "afterExpression": 2,
+            "degree": 230
+          }
+        ],
+        "expressionChainSHA256": "e9cc379364b30bfe4ff7fbe10d1a4f0bba04a0d6deef9d9660827e051c2995ca",
+        "expressionsIncorporated": 211,
+        "field": "Q",
+        "finalExactDivisionsVerified": 211,
+        "polynomialSHA256": "83b3490ffd03f27b2ed0d68b9ee778a5dab7e4e737803e4eae0487fbc77cfdf7"
+      },
+      "result": {
+        "E8CollisionAtOneAndTwoVerified": true,
+        "JCharacteristicSHA256": "6dae6c475add4f7851fb5eadaa1636c48751b4f51314566b28294ba9fa279ffa",
+        "JTotalDimension": 1,
+        "allReportedPrimaryLengthsSumToJDimension": true,
+        "allSevenReportedPrimaryFactorsAreIrreducibleAndCoprime": true,
+        "completeCharacteristicQuotientIsExact": true,
+        "fieldFullHCharacteristicDegree": 1151,
+        "fieldSmallCharacteristicDegree": 231,
+        "fieldSmallCharacteristicSHA256": "6f26798a1514d0b60d809272414f5022ef512c1fd19a2922fbc417a8c945abe1",
+        "monicRationalCharacteristicHasOnly31UnitDenominators": true,
+        "noExpectedJDimensionWasSupplied": true,
+        "noNewOriginalNineTargetMembershipClaim": true,
+        "primaryLengths": [
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "s",
+            "factorDegree": 1,
+            "fieldCharacteristicMultiplicity": 40,
+            "rationalCharacteristicReductionMultiplicity": 40
+          },
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "s-1",
+            "factorDegree": 1,
+            "fieldCharacteristicMultiplicity": 10,
+            "rationalCharacteristicReductionMultiplicity": 10
+          },
+          {
+            "JDimensionOverF31": 1,
+            "JPrimaryLength": 1,
+            "factor": "s-2",
+            "factorDegree": 1,
+            "fieldCharacteristicMultiplicity": 21,
+            "rationalCharacteristicReductionMultiplicity": 20
+          },
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "s+6",
+            "factorDegree": 1,
+            "fieldCharacteristicMultiplicity": 10,
+            "rationalCharacteristicReductionMultiplicity": 10
+          },
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "Pplus",
+            "factorDegree": 3,
+            "fieldCharacteristicMultiplicity": 15,
+            "rationalCharacteristicReductionMultiplicity": 15
+          },
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "Pminus",
+            "factorDegree": 3,
+            "fieldCharacteristicMultiplicity": 15,
+            "rationalCharacteristicReductionMultiplicity": 15
+          },
+          {
+            "JDimensionOverF31": 0,
+            "JPrimaryLength": 0,
+            "factor": "E6",
+            "factorDegree": 6,
+            "fieldCharacteristicMultiplicity": 10,
+            "rationalCharacteristicReductionMultiplicity": 10
+          }
+        ],
+        "rationalFullHCharacteristicDegree": 1150,
+        "rationalReductionPreservesFullDegree": true,
+        "rationalSmallCharacteristicDegree": 230,
+        "rationalSmallCharacteristicSHA256": "83b3490ffd03f27b2ed0d68b9ee778a5dab7e4e737803e4eae0487fbc77cfdf7",
+        "rationalSupport": [
+          {
+            "degree": 1,
+            "exponent": 40,
+            "factor": "s"
+          },
+          {
+            "degree": 1,
+            "exponent": 10,
+            "factor": "s-2"
+          },
+          {
+            "degree": 1,
+            "exponent": 10,
+            "factor": "s+6"
+          },
+          {
+            "degree": 3,
+            "exponent": 15,
+            "factor": "Fplus"
+          },
+          {
+            "degree": 3,
+            "exponent": 15,
+            "factor": "Fminus"
+          },
+          {
+            "degree": 8,
+            "exponent": 10,
+            "factor": "E8"
+          }
+        ],
+        "reducedRationalCharacteristicSHA256": "8bba3d2b0d361655b1c81f8386cf9fa7e7c8890b3a19fdcce0e7774d1a1e364c",
+        "tenSeparatedAxesAreDFree": true
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 22:24:19 UTC",
+      "beforeReadCommit": "1cab8356f40589a53f2b1c9df62c4da44f629702",
+      "originMainAfterPull": "e5c7e7bdeda7211d0ad538ef7731df71f8416e10",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 22:24:21 UTC",
+      "beforeReadCommit": "e5c7e7bdeda7211d0ad538ef7731df71f8416e10",
+      "originMainAfterPull": "e5c7e7bdeda7211d0ad538ef7731df71f8416e10",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 71,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 24354,
+    "logicalJsonSHA256": "4b31e8314d1a214f90d17f804a2e673b3fb26b01a21f838dc59cf7e5790166d6",
+    "itemCount": 71
+  },
+  "lastRulesReadCommit": "e5c7e7bdeda7211d0ad538ef7731df71f8416e10",
+  "summaryExcludesRecomputableArraysOnly": false
+}
