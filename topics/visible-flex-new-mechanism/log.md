@@ -359,3 +359,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:08:43 UTC｜R390两个固定Λ的actual joint2落地
 
 [R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)，16592B/hash863665fa80b38b56a255988cd9ca6c0b34e4e41e41e50ef174dfc5a9271b3f69。正核不是仅span：固定两profiles与全部状态后，四正脉冲真实桥/真reverse/全部基准/单有限ε二维求解/Klein偏置全保，精确R²可达/C1截面。root与literature独立完整纸审通过，无求积/符号/人工。H/open已区分actual2、函数像≥3和未付wholeE/同g；接R392实际响应E与Λ联合。数值resume43767357527仍待原输出。基底3198158aea6a78e32c7e4c62f45ce4b754ac2718。
+
+
+## 2026-11-15 22:18:34 UTC｜R392实际响应E/双Λ联调与准确剩余商
+
+[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)，19339B/hash5b8e18d9cae08fb35f6846357c99c1ffce6548e32937739503b4c7b177be2835。原型清零成本×n、任意有限±t真实复制和后置校正C1成本全保，最终一个n付同一有限路径的F/A联合；新kerE X/M给完整线性乘积但非实际负模块。全E实际联合仍定位C⊕R²，fixed核仿射门未抹除。root全文及来源纸审、tail窄核通过，不执行旧研究。H压缩保规则/冻结状态/新门；guard43767357527成功但大log未读，两次工具断开，正制只读Actions回读器，不重跑。基底8dc395c8994f6bb872b0a07d1ba899d359a42016。

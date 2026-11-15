@@ -94,7 +94,7 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)现已从完整原CA m2/BN2、−Ψ、两P/B history与有序真尾推得 ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)。完整加速度及速度势逐state准确抵消，余ρ消全部真实primitive而无丢左尾；全局部C²多项式式保全部五速度槽。纯δ式回R370，h1d0混合γδ³=∫(7x²−1)r⁵/160−∫xvr⁴/16，偶母平移的二次项证明比R384 X/M多一真正函数方向。它是整个Q4的读出，尚非整个U/同g joint；Q2/静态等不能因该式被免费局部化。
 
-R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。下一把真实wholeE与两Λ接口共同支付，不能仅从Λ杀响应R就忽略实际prototype/桥基准的商分量。
+R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
 
 ### R327/R330：把已付端口后的同规范联合门落实到实际列
 
@@ -149,4 +149,4 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 - **R383有限表保持，R387/R388阻断同芽全部连续首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)的P R4−B*R0为严格正倍D4，不除P且保全合法gauge；同种子连通C²首阶轨道恒f。下一不同端芽/第三结构，不把非圆当已逃逸；首阶恒定高阶才动及主题一般C²机制不在此结论内。
 
-- **R385→R390实际joint2已付，继续wholeE联合**：两个起点固定自然Λ可在同一真实M/T0、scalar/frame/空间闭路径上任意指定，完整非零桥基准和Klein偏置均付；每紧集一个有限ε/C1截面。wholeE/其它读出/同一g及全部period仍欠，接原实际响应商的联合问题。
+- **R390→R392响应E与两Λ实际joint已付，继续完整商**：[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)同一有限字可任意指定F=P_LE和两个固定自然Λ，−6/−4/0完整pure/self同付；wholeE其余商qE含原型×n成本仍欠。真kerE的X/M两类只付线性完整乘积J(U)，λ+不经固定J下降；下一实际联合商C⊕R²，须保fixed读出核的仿射问题及全部桥基准。

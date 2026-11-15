@@ -259,3 +259,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R390｜两个固定自然总通量的真实联合控制
 
 [R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)（16592B；SHA256 `863665fa80b38b56a255988cd9ca6c0b34e4e41e41e50ef174dfc5a9271b3f69`）。固定两镜像紧profile/共同锚、三状态与端口，完整γ/δ四列有严格正核及二维像。四真实水平脉冲经M0有限桥、完整同号reverse、固定端口运输，全部非零基准保为统一O_C1(1)。同一有限ε、两个正幅四次变量的二维收缩/IFT给任意紧目标；Klein按(y−bK)/4准确闭空间位移。所得M/T/scalar/frame/位移闭合、ω下界、任意R²与紧集光滑截面均实际支付。未保wholeE/其它读出/13同规范/冻结g，不宣actual3。根全文与符号/正核/水平式/缩放/传递/Klein核，literature全文独立审通过；未执行研究。
+
+
+## R392｜响应E分量与两个固定Λ的实际联调及线性完整乘积
+
+[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)（19339B；SHA256 5b8e18d9cae08fb35f6846357c99c1ffce6548e32937739503b4c7b177be2835）。先用R390清原型A，全部清零块成本随n复制进入a；先定t0/紧盒，再固定小二阶族的整数q覆盖大正负t，最后才取末n。后置A校正的完整F成本与n无关并保在𝔈，一次有限n收缩准确指定响应F=P_LE和两Λ；可同付−6/−4/0完整pure/self，Klein保完整偏置。qE未付式(26)显式保2nΣqE(vhat)，不声称wholeE0。原真实协变/−6投影/同权响应/小平移另给kerE的KX/KM，故线性J(U)=E(U)⊕R²；λ+的固定J核见证保真。实际完整商C⊕R²截面仍欠，fixed两Λ核不自动仿射稳定。root全文核及R101(8)/(11)、R365独立§5、R323同权/全核来源；tail独立窄核真实成本链，无新执行。
