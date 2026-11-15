@@ -1,0 +1,792 @@
+{
+  "kind": "immutable_complete97_signed_cap_affine_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "exact_new_mathematics": "Published SC1--SC25: complete same97 signed radial-subtracted known cap affine functional and all original posterior fees. Original QR, target, Hermite, scalar jets, residual norms, Grams, RW, and Green remain immutable inputs.",
+  "parameters": {
+    "arithmetic_bits": 256,
+    "physical_test_modes": 128,
+    "orthonormal_inputs": 97,
+    "exponential_degree": 32,
+    "ordinary_jet_order": 3,
+    "exact_cap_interval": [
+      "9/10",
+      "25/8"
+    ],
+    "scalar_quarters": 7908,
+    "original_slice_groups": 32,
+    "original_omitted_pilot_indices": [
+      0,
+      64,
+      4096,
+      7907
+    ],
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "exact_nu": "-2572625729470897/72057594037927936",
+    "exact_alpha": "6890507429876859/9007199254740992",
+    "delta_half_width": "1/10000000000",
+    "canonical_response_pair_A0": "0.0000000000000002292",
+    "actual_cap_radius": "3/1000000",
+    "actual_outer_C_nonmean_radius": "99/100000000000",
+    "full_inner_gamma_radius": "1/1000000000",
+    "tail_inner_gamma_radius": "1/128000000000",
+    "normalized_outer_height_radius": "1/1152921504606846976",
+    "true_outer_D_Lipschitz": "0.006",
+    "true_outer_Cmean_Lipschitz": "0.00075",
+    "repaired_outer_D_affine_upper": "0.0000000000000013",
+    "repaired_outer_Cmean_affine_upper": "0.000000000000000000205",
+    "known_selected_physical_global_pair_sup_factor": 10,
+    "Q_quadratic_value_factor": 13,
+    "endpoint_Gram_traces_are_squared": true,
+    "body_HS_uppers_are_norms": true,
+    "unknown_y_remains_actual_cap_minus_repaired_centre": true,
+    "internal_trial_value_jumps_required_exactly_zero": true,
+    "full_original_arrays_and_scalar_rows_recomputed": 0,
+    "new_artifacts": 0,
+    "new_Releases": 0,
+    "small_scientific_limit": 45000,
+    "checkpoint_limit": 40000,
+    "candidate_piece_and_saved_midpoint_must_agree": true
+  },
+  "expected_actual_gate_count": 20,
+  "scientific_runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0",
+      "numpy": "2.3.5"
+    },
+    "bits": 256
+  },
+  "historical_small_text_commit": "8d9024facee93e77897116bb94523fa8e4d00078",
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_radial_moments.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_original_inputs.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py": "d5f91e7a3b2d981366f659b2777f60b525df5bf3c2d40077e4419477a2c0989b",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_radial_moments.py": "8103ca4a856a92fd98923ed518e9241c2bc8332f087550017e58ba7933d2c0d0",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_original_inputs.py": "a7c099608ec6ef1504a1d30b9cabbe9232bdd1dfd0390e28bbfd9fc836772ad0",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md": "927c3ba2ada01e1a571ce4d180c7d1e41ac25b1dda273cc6aef90511d40b9583",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md": "85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md": "1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b",
+    "topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/run-43665656138-1-complete-adjoint-Grams-finish/evidence/complete-adjoint-Grams-finish-summary.json": "ca1411120265fac503eba147289da621634cc98304766aa56dfb6da80b5180df",
+    "topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/run-43665656138-1-complete-adjoint-Grams-finish/process.json": "d28959027cc8a3692a7747fdf333a4d1d47a975dd35f26b850ddd78114a64ea5",
+    "topics/visible-flex-exact-nearby/notes/cap_adjoint_boundary_high_Grams_ci/run-43666716585-1-cap-adjoint-boundary-high-Grams/evidence/complete97-boundary-high-Grams-summary.json": "be014360bf6d2915e8a9323d0d262b10c4cf4ffa364f703b7b7f02122c95e1a5",
+    "topics/visible-flex-exact-nearby/notes/cap_adjoint_boundary_high_Grams_ci/run-43666716585-1-cap-adjoint-boundary-high-Grams/process.json": "9b4aaf5fb77229e475dc1ecc003121bac01601d81deb7229a7e753d463fa4c6c",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
+    "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
+    "topics/visible-flex-exact-nearby/notes/selected_cut_shape_mean_ci/run-43715426316-1-selected-cut-shape-mean/actual-cut-shape-mean-conclusion.json": "5d74a0f24afe7d490cd17f04f0c0ea5efb671fd277ced502269f4d94c748a413",
+    "topics/visible-flex-exact-nearby/notes/selected_cut_shape_mean_ci/run-43715426316-1-selected-cut-shape-mean/process.json": "82b7c37637c9ebec074ae7647595200c2cd790cf19728ef0e4d93a8452e59812",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_adjoint_residual_Gram_core.py": "689bf2c54350d832cffa7ca8f46dc424509fb221e3d73cb228a1f9a18130c0dc",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py": "6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d",
+    "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py": "414e55cb40c516ad02cbba8ae45ac4772f18545dbbfaab8adae5f2ef2abcf6ce",
+    "topics/visible-flex-exact-nearby/notes/cached_cap_adjoint_proposal_v2_ci/run-43662865692-1-cached-cap-adjoint-proposal-v2/evidence/proposal-state-inventory-index.json": "81ff1b0f80c9a3f49da8566420659cd18ed64612b6788538d72083978dcaf350",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+  },
+  "file_receipts": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional.py",
+      "blob": "92ec4392bd5d3e56d5acb10fc616a3a7e0e5718a",
+      "bytes": 41640,
+      "sha256": "d5f91e7a3b2d981366f659b2777f60b525df5bf3c2d40077e4419477a2c0989b"
+    },
+    {
+      "role": "math_helper",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_radial_moments.py",
+      "blob": "66c9bf47d7391109c928141c9aab607c91dc4076",
+      "bytes": 17308,
+      "sha256": "8103ca4a856a92fd98923ed518e9241c2bc8332f087550017e58ba7933d2c0d0"
+    },
+    {
+      "role": "original_reader",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_original_inputs.py",
+      "blob": "91441d2be8a8066130eb5f8a4eb59df46964300b",
+      "bytes": 14299,
+      "sha256": "a7c099608ec6ef1504a1d30b9cabbe9232bdd1dfd0390e28bbfd9fc836772ad0"
+    },
+    {
+      "role": "SC_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md",
+      "blob": "0e2fcd353d8c6c2274633d7e052f645f0d9bf534",
+      "bytes": 20669,
+      "sha256": "927c3ba2ada01e1a571ce4d180c7d1e41ac25b1dda273cc6aef90511d40b9583"
+    },
+    {
+      "role": "SA_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md",
+      "blob": "f7db2f18230e62d216f8a901b990bfd9e6d703c0",
+      "bytes": 23561,
+      "sha256": "85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1"
+    },
+    {
+      "role": "A15_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md",
+      "blob": "80c567561db37c5e7a98e6c327a830902b635a55",
+      "bytes": 12356,
+      "sha256": "1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463"
+    },
+    {
+      "role": "M_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-two-input-zero-width-cap-Phi-and-complete-inner-ports.md",
+      "blob": "df9ba072b50c6fe990acfd59628302306bf6c505",
+      "bytes": 20064,
+      "sha256": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b"
+    },
+    {
+      "role": "body_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/run-43665656138-1-complete-adjoint-Grams-finish/evidence/complete-adjoint-Grams-finish-summary.json",
+      "blob": "ecb2ab2e718dd19a76b4b0b6cfb842952b31caad",
+      "bytes": 7982,
+      "sha256": "ca1411120265fac503eba147289da621634cc98304766aa56dfb6da80b5180df"
+    },
+    {
+      "role": "body_process",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/run-43665656138-1-complete-adjoint-Grams-finish/process.json",
+      "blob": "be7d6f69b5f41ed2a2d8bafa8738ce01688dd7d3",
+      "bytes": 25679,
+      "sha256": "d28959027cc8a3692a7747fdf333a4d1d47a975dd35f26b850ddd78114a64ea5"
+    },
+    {
+      "role": "boundary_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/cap_adjoint_boundary_high_Grams_ci/run-43666716585-1-cap-adjoint-boundary-high-Grams/evidence/complete97-boundary-high-Grams-summary.json",
+      "blob": "9628957a42161940758fde1e3e15f9c0ef65e100",
+      "bytes": 14928,
+      "sha256": "be014360bf6d2915e8a9323d0d262b10c4cf4ffa364f703b7b7f02122c95e1a5"
+    },
+    {
+      "role": "boundary_process",
+      "path": "topics/visible-flex-exact-nearby/notes/cap_adjoint_boundary_high_Grams_ci/run-43666716585-1-cap-adjoint-boundary-high-Grams/process.json",
+      "blob": "85e017d8e72245298ca93dbf7d4bddb66a1ac8b6",
+      "bytes": 20113,
+      "sha256": "9b4aaf5fb77229e475dc1ecc003121bac01601d81deb7229a7e753d463fa4c6c"
+    },
+    {
+      "role": "RW_science",
+      "path": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/actual-radial-weighted-cap-receivers.json",
+      "blob": "a4d46696df6125524d7491cd1d4efde156794aee",
+      "bytes": 57702,
+      "sha256": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9"
+    },
+    {
+      "role": "RW_process",
+      "path": "topics/visible-flex-exact-nearby/notes/radial_weighted_cap_receivers_ci/run-43729429382-1-radial-weighted-cap-receivers/process.json",
+      "blob": "df608c6a12fb193106fba64fb23fd7afad37de29",
+      "bytes": 16350,
+      "sha256": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6"
+    },
+    {
+      "role": "cut_science",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_cut_shape_mean_ci/run-43715426316-1-selected-cut-shape-mean/actual-cut-shape-mean-conclusion.json",
+      "blob": "73f6e6b7233ceb8f9135cbe39509ff38acd712fe",
+      "bytes": 7733,
+      "sha256": "5d74a0f24afe7d490cd17f04f0c0ea5efb671fd277ced502269f4d94c748a413"
+    },
+    {
+      "role": "cut_process",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_cut_shape_mean_ci/run-43715426316-1-selected-cut-shape-mean/process.json",
+      "blob": "684b5d27fc515988261757de29a48604b7223e82",
+      "bytes": 13640,
+      "sha256": "82b7c37637c9ebec074ae7647595200c2cd790cf19728ef0e4d93a8452e59812"
+    },
+    {
+      "role": "original_candidate_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+      "blob": "81a21dba0077137601382781b6b3298bdd7d5ade",
+      "bytes": 4187,
+      "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e"
+    },
+    {
+      "role": "original_repair_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+      "blob": "67d7de2adf36c916123f7c9cf7a5db09af3c7b58",
+      "bytes": 9076,
+      "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b"
+    },
+    {
+      "role": "original_core_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_adjoint_residual_Gram_core.py",
+      "blob": "a7ff6a1f5bc11fa9bd81cf1eec95eba908310e71",
+      "bytes": 21822,
+      "sha256": "689bf2c54350d832cffa7ca8f46dc424509fb221e3d73cb228a1f9a18130c0dc"
+    },
+    {
+      "role": "original_body_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py",
+      "blob": "e15a4c9888aef3fc1645779aea317a6791a64d3f",
+      "bytes": 26973,
+      "sha256": "6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d"
+    },
+    {
+      "role": "candidate",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+      "blob": "2257c4327fcafcad3ed50f0362fb089e9cfd56d2",
+      "bytes": 6750,
+      "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py",
+      "blob": "eb2b1c99c31ffe339cdb7eeb6333684cee884229",
+      "bytes": 59315,
+      "sha256": "414e55cb40c516ad02cbba8ae45ac4772f18545dbbfaab8adae5f2ef2abcf6ce"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/cached_cap_adjoint_proposal_v2_ci/run-43662865692-1-cached-cap-adjoint-proposal-v2/evidence/proposal-state-inventory-index.json",
+      "blob": "bea3fba04906339c6d016132cea0d6ad5b4f5267",
+      "bytes": 4041,
+      "sha256": "81ff1b0f80c9a3f49da8566420659cd18ed64612b6788538d72083978dcaf350",
+      "role": "original_proposal_inventory"
+    },
+    {
+      "role": "reviewed_rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    }
+  ],
+  "exact_small_text_input_file_count": 23,
+  "exact_small_text_input_bytes": 448649,
+  "historical_native_receipts": [
+    {
+      "role": "candidate_shard_0",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part000.npz.gz",
+      "bytes": 2738500,
+      "sha256": "5dae124eef0b3004bfea08334c2f2546ade3edc5cb926c665591e42b842babc4",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "candidate_shard_1",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part001.npz.gz",
+      "bytes": 2738003,
+      "sha256": "3aeb38bf0577207cafcad3a59e43ed5a04a4c9cf9a703c4c3c4088c963a09106",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "candidate_shard_2",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part002.npz.gz",
+      "bytes": 2738686,
+      "sha256": "a317c6f491295d8e46aa5d4b3da84c1f26bd16d5fb65260f3d3459e1f9c6210e",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "candidate_shard_3",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part003.npz.gz",
+      "bytes": 2732843,
+      "sha256": "7b67e5a4b11ae45476d1507e842ae23919ca44e4ed2d64bc81bdea78e0b4007c",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "candidate_shard_4",
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part004.npz.gz",
+      "bytes": 1532492,
+      "sha256": "314a6846ef2b5a257ddf20068332d105a7707b5aef27026f30477a47984eec4c",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "repair",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+      "sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "commit": "f06f846013fa716843573bcc2da143f10cbb94ba"
+    },
+    {
+      "role": "raw_boundary",
+      "path": "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/native/known-waist-and-true-cap-sources.json.gz",
+      "sha256": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+      "bytes": 89319
+    },
+    {
+      "role": "raw_boundary_process",
+      "path": "topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/process.json",
+      "sha256": "6ff7f39ab70150f99eebb8a880fb0f52867574b25e122b59d95c1a0105e2609e",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec"
+    },
+    {
+      "role": "base_cut",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz",
+      "sha256": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec"
+    }
+  ],
+  "unknown_native_byte_counts_resolved_from_exact_immutable_Git_metadata_then_SHA_checked": true,
+  "maximum_original_Git_blob_bytes": 5000000,
+  "mathematical_input_sha256": {
+    "SA_contract": "85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1",
+    "SC_contract": "927c3ba2ada01e1a571ce4d180c7d1e41ac25b1dda273cc6aef90511d40b9583",
+    "body_summary": "ca1411120265fac503eba147289da621634cc98304766aa56dfb6da80b5180df",
+    "boundary_summary": "be014360bf6d2915e8a9323d0d262b10c4cf4ffa364f703b7b7f02122c95e1a5",
+    "RW_science": "ec6e088f2d361b35c938eb94bfe78d284507376b4d859c7eadc44c2635316ca9",
+    "RW_process": "daabac142b01e886d7bf3e3f9f53820cb6fb7c053e44a78972d4313ac4bb66e6",
+    "cut_science": "5d74a0f24afe7d490cd17f04f0c0ea5efb671fd277ced502269f4d94c748a413",
+    "cut_process": "82b7c37637c9ebec074ae7647595200c2cd790cf19728ef0e4d93a8452e59812",
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "raw_boundary": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "raw_boundary_process": "6ff7f39ab70150f99eebb8a880fb0f52867574b25e122b59d95c1a0105e2609e",
+    "base_cut": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "A15_contract": "1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463",
+    "M_contract": "8d9e0bf3c0a212b5525bb017b772728967dcea13d9b61c24bc189b2e6be46f1b",
+    "original_core_source": "689bf2c54350d832cffa7ca8f46dc424509fb221e3d73cb228a1f9a18130c0dc",
+    "original_body_source": "6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d",
+    "plan": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32"
+  },
+  "original_object_identity_sha256": "df9844506e25bdd207472fd8f5f7e9fbfaf90514c2e1a3629be2e5594eb25ca0",
+  "old_artifacts": {
+    "plan": {
+      "run_id": "43665656138",
+      "artifact_id": 14141144478,
+      "name": "visible-exact-complete-adjoint-Grams-plan-43665656138-1",
+      "bytes": 587681,
+      "sha256": "976069132b40a0c6ed1d59f64668060806f23233f212d5af5e5ffdf815cadfd5",
+      "expired_at_metadata_read": false,
+      "native": {
+        "logical_file": "native/complete7908-cap-adjoint-Grams-plan.json.gz",
+        "bytes": 525421,
+        "sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32"
+      },
+      "process": {
+        "logical_file": "process.json",
+        "bytes": 19313,
+        "sha256": "4d91706ce53d863095a73b7f94f92c15c735fea1825bfc173d63a8be961e3970"
+      }
+    },
+    "pilot_ranges": [
+      {
+        "range": [
+          0,
+          256
+        ],
+        "run_id": "43626024582",
+        "artifact_id": 14126423123,
+        "name": "visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1",
+        "bytes": 5682486,
+        "sha256": "46a1cb6c62fc1b89675c05de9642b4f1a89cd70b6d765950a7ba6e5f0fc4ccaf",
+        "expired_at_metadata_read": false,
+        "logical_file": "native/new-fixed-eta-quarter-domains-0000-0256.json.gz",
+        "native_sha256": "02cfd7c9945180adcdb208f0e6101b3c9da37c0deca8b012160c89ea7148ccb8",
+        "artifact_process_sha256": "ae5ae042e6983fcb66cac83b12b066758baf58944af487f541f6eeda003ecb34"
+      },
+      {
+        "range": [
+          1024,
+          1280
+        ],
+        "run_id": "43623547711",
+        "artifact_id": 14125634227,
+        "name": "visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1",
+        "bytes": 5760279,
+        "sha256": "efa5a345ced4d6cec20bf85cdd3b8a23707288037e1e87f759a6ff9ce63e391d",
+        "expired_at_metadata_read": false,
+        "logical_file": "native/new-fixed-eta-quarter-domains-1024-1280.json.gz",
+        "native_sha256": "5afd5f617fc85b669d3e8018043ed312b7e30ae10c11c011be0c939e1c29476a",
+        "artifact_process_sha256": "3976469661b5c53894ca8982ee5f3c2faa9e1111051e434eb510fc13da8e1da8"
+      },
+      {
+        "range": [
+          1792,
+          1977
+        ],
+        "run_id": "43626024582",
+        "artifact_id": 14126660303,
+        "name": "visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1",
+        "bytes": 4126571,
+        "sha256": "c1fe3b61e228442526d6cc44382aaefd8a8d27df9a4882b6c14ec23dbef2e983",
+        "expired_at_metadata_read": false,
+        "logical_file": "native/new-fixed-eta-quarter-domains-1792-1977.json.gz",
+        "native_sha256": "0a4ef5ee7924839bcc53ccf04fe85d8011c865b25a10eba59a66553331a14563",
+        "artifact_process_sha256": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+      }
+    ],
+    "slices": [
+      {
+        "group": 0,
+        "run_id": "43665656138",
+        "artifact_id": 14141433452,
+        "name": "visible-exact-complete-adjoint-original-slice-00-43665656138-1",
+        "bytes": 24415830,
+        "sha256": "10b81828b926993244f8298122eac89fd8ffac2a46a4b6b74447637eac5527db",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 1,
+        "run_id": "43665656138",
+        "artifact_id": 14141224122,
+        "name": "visible-exact-complete-adjoint-original-slice-01-43665656138-1",
+        "bytes": 25214734,
+        "sha256": "6f0d6520fc54be2e365a2e90cbed17f45717a9c8eecb7abdc7151e106d054675",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 2,
+        "run_id": "43665656138",
+        "artifact_id": 14141368659,
+        "name": "visible-exact-complete-adjoint-original-slice-02-43665656138-1",
+        "bytes": 25867801,
+        "sha256": "5516e91359a7eee6793e68c37f57ca7288a31ee9865ba4bbcb675f10f8490670",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 3,
+        "run_id": "43665656138",
+        "artifact_id": 14141727741,
+        "name": "visible-exact-complete-adjoint-original-slice-03-43665656138-1",
+        "bytes": 26511201,
+        "sha256": "750a6ae21a906ba204e7a82ad647940370d86edbcaf30bdd02c3aa010fc161f4",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 4,
+        "run_id": "43665656138",
+        "artifact_id": 14141767641,
+        "name": "visible-exact-complete-adjoint-original-slice-04-43665656138-1",
+        "bytes": 27071136,
+        "sha256": "80f6044ad35a9a009bd1af0efbe2f2cdbf4702f1f786b7c96429f4ea3e4fc46a",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 5,
+        "run_id": "43665656138",
+        "artifact_id": 14141538154,
+        "name": "visible-exact-complete-adjoint-original-slice-05-43665656138-1",
+        "bytes": 27599120,
+        "sha256": "99d81e29a818fefb69fe0f91fbfa781026fc81d29816e3bc5d0f9fe8c3c4b3e9",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 6,
+        "run_id": "43665656138",
+        "artifact_id": 14141493415,
+        "name": "visible-exact-complete-adjoint-original-slice-06-43665656138-1",
+        "bytes": 28263503,
+        "sha256": "7de71586cacd88b90c1f11104763b672fb848fbf9c2d1c825dd2d0f457ceed44",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 7,
+        "run_id": "43665656138",
+        "artifact_id": 14141288819,
+        "name": "visible-exact-complete-adjoint-original-slice-07-43665656138-1",
+        "bytes": 28500323,
+        "sha256": "eaaf264254e64285d976774835a9e65006776b7a64f8d1ecba9537053ee873ad",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 8,
+        "run_id": "43665656138",
+        "artifact_id": 14141538170,
+        "name": "visible-exact-complete-adjoint-original-slice-08-43665656138-1",
+        "bytes": 28182958,
+        "sha256": "53ea98d50430bbfc15273ae5d5e6fba89e7233b2922cc1e5b4e0efac2cd77573",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 9,
+        "run_id": "43665656138",
+        "artifact_id": 14141578125,
+        "name": "visible-exact-complete-adjoint-original-slice-09-43665656138-1",
+        "bytes": 27525949,
+        "sha256": "1e12ff3c7dd83d8ff448e9e97d0a1d8425781930f8756bba170d01d240ca4c9b",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 10,
+        "run_id": "43665656138",
+        "artifact_id": 14141353766,
+        "name": "visible-exact-complete-adjoint-original-slice-10-43665656138-1",
+        "bytes": 26993156,
+        "sha256": "ff3305fc5ecfe77e2e6f8aa542f5b4f00f3d61a3a1643bc279e5ac08698dd7fa",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 11,
+        "run_id": "43665656138",
+        "artifact_id": 14141573071,
+        "name": "visible-exact-complete-adjoint-original-slice-11-43665656138-1",
+        "bytes": 26331960,
+        "sha256": "811a64a934b0e853cb16e0202a2e71c0a58b514858c028da60d645e284c6b8a3",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 12,
+        "run_id": "43665656138",
+        "artifact_id": 14141234045,
+        "name": "visible-exact-complete-adjoint-original-slice-12-43665656138-1",
+        "bytes": 25910766,
+        "sha256": "eb7980bdb1a7936ebc0ee23ab73d05d7716abc74d760e948a67c94517c1587e7",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 13,
+        "run_id": "43665656138",
+        "artifact_id": 14141249062,
+        "name": "visible-exact-complete-adjoint-original-slice-13-43665656138-1",
+        "bytes": 25685916,
+        "sha256": "1ba7fa233ed63cd6af68a5765c51f1e4afecdc2d868dc2608fa938850c30be9f",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 14,
+        "run_id": "43665656138",
+        "artifact_id": 14141653038,
+        "name": "visible-exact-complete-adjoint-original-slice-14-43665656138-1",
+        "bytes": 25504225,
+        "sha256": "7ce19f5061ad20c78f7acf2396ef244e9672297337cd901b96d66225408e9983",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 15,
+        "run_id": "43665656138",
+        "artifact_id": 14141503373,
+        "name": "visible-exact-complete-adjoint-original-slice-15-43665656138-1",
+        "bytes": 25707617,
+        "sha256": "a1f64c94645028663501ce5cfb08d2f85b8e8edc80d1660a9cea86b8e0e0e399",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 16,
+        "run_id": "43665656138",
+        "artifact_id": 14142356058,
+        "name": "visible-exact-complete-adjoint-original-slice-16-43665656138-1",
+        "bytes": 26109210,
+        "sha256": "8436e138167deb9e52050373397b913389a3b9e19612ad7b898be04df2368ab8",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 17,
+        "run_id": "43665656138",
+        "artifact_id": 14142365921,
+        "name": "visible-exact-complete-adjoint-original-slice-17-43665656138-1",
+        "bytes": 26574446,
+        "sha256": "160ceb8cc138bb918c916c0be5e43e7c4cf853f6996d19e9dede67b71f107b94",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 18,
+        "run_id": "43665656138",
+        "artifact_id": 14142103348,
+        "name": "visible-exact-complete-adjoint-original-slice-18-43665656138-1",
+        "bytes": 27068461,
+        "sha256": "f775b5b774c2d8c425f1890e50c97c0ab5c326df8c02b2aa7ad588e3bd456de7",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 19,
+        "run_id": "43665656138",
+        "artifact_id": 14141843840,
+        "name": "visible-exact-complete-adjoint-original-slice-19-43665656138-1",
+        "bytes": 27555964,
+        "sha256": "ad377ef402daba307cf4153b24bdee50172a91f4f602607784c560089e2d66d5",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 20,
+        "run_id": "43665656138",
+        "artifact_id": 14141933798,
+        "name": "visible-exact-complete-adjoint-original-slice-20-43665656138-1",
+        "bytes": 28082952,
+        "sha256": "9577d6447f142612fb69ad38e3cf9e043fd3c3736bb7caef07b33c76a18634fe",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 21,
+        "run_id": "43665656138",
+        "artifact_id": 14142222862,
+        "name": "visible-exact-complete-adjoint-original-slice-21-43665656138-1",
+        "bytes": 28577595,
+        "sha256": "9b69303b9160c370f3217a669a667a6834cc04a5bae74b49c4f00315e28ebca0",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 22,
+        "run_id": "43665656138",
+        "artifact_id": 14142370781,
+        "name": "visible-exact-complete-adjoint-original-slice-22-43665656138-1",
+        "bytes": 29086209,
+        "sha256": "76b73c791e05d566945c02ef64efe74933f46c0b04ad2e71a34560d6ba66332f",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 23,
+        "run_id": "43665656138",
+        "artifact_id": 14142307262,
+        "name": "visible-exact-complete-adjoint-original-slice-23-43665656138-1",
+        "bytes": 29524146,
+        "sha256": "d36c78814e1ab65aa143c9780c15e6804eca585e5f0b9727e96eccbbd32e35e6",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 24,
+        "run_id": "43665656138",
+        "artifact_id": 14141869012,
+        "name": "visible-exact-complete-adjoint-original-slice-24-43665656138-1",
+        "bytes": 30035433,
+        "sha256": "f65ae439fdab4ac4c14921a3e59e48379b6bfc903d53125a7f80423854c4da88",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 25,
+        "run_id": "43665656138",
+        "artifact_id": 14141513376,
+        "name": "visible-exact-complete-adjoint-original-slice-25-43665656138-1",
+        "bytes": 30611863,
+        "sha256": "9e40206c940ab5977299fad93ad691f5d1b1a8b67ca605925061d9587bdefedc",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 26,
+        "run_id": "43665656138",
+        "artifact_id": 14141697924,
+        "name": "visible-exact-complete-adjoint-original-slice-26-43665656138-1",
+        "bytes": 31160490,
+        "sha256": "875310a2ba6fef6eeced5eeabe4d68d5e4c3c5301baf48b99852925a931991cf",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 27,
+        "run_id": "43665656138",
+        "artifact_id": 14141433556,
+        "name": "visible-exact-complete-adjoint-original-slice-27-43665656138-1",
+        "bytes": 31586537,
+        "sha256": "2c24dd3697a706c10354f9885191a869a86aabad0308f7be3c80627e045c4140",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 28,
+        "run_id": "43665656138",
+        "artifact_id": 14141438580,
+        "name": "visible-exact-complete-adjoint-original-slice-28-43665656138-1",
+        "bytes": 31898875,
+        "sha256": "2d0ce59b79d6333bddd738ea524f1a1e9047f189c90af12a7fc6ee0f8045e401",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 29,
+        "run_id": "43665656138",
+        "artifact_id": 14141513389,
+        "name": "visible-exact-complete-adjoint-original-slice-29-43665656138-1",
+        "bytes": 32160011,
+        "sha256": "326f8c22eeadd7a4b01a3d25b93733121a7a0560291c8a6160085c9ea0812880",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 30,
+        "run_id": "43665656138",
+        "artifact_id": 14142097132,
+        "name": "visible-exact-complete-adjoint-original-slice-30-43665656138-1",
+        "bytes": 32397557,
+        "sha256": "6662fb1ac8702c565863ca3f4aceae7c19cf1ad197078ff5f12408875dd9c47f",
+        "expired_at_metadata_read": false
+      },
+      {
+        "group": 31,
+        "run_id": "43665656138",
+        "artifact_id": 14141139662,
+        "name": "visible-exact-complete-adjoint-original-slice-31-43665656138-1",
+        "bytes": 28891256,
+        "sha256": "0bc9542be182c058641f5b3a01ec9ee0894a9d621131a80267b24d6863e34204",
+        "expired_at_metadata_read": false
+      }
+    ]
+  },
+  "old_artifact_restore_policy": {
+    "exact_original_archive_count": 36,
+    "original_slices": 32,
+    "original_pilot_ranges": 3,
+    "original_plan": 1,
+    "only_read_original_actions_artifacts": true,
+    "all_archive_metadata_ids_names_sizes_run_ids_and_SHA_checked": true,
+    "GitHub_token_not_forwarded_to_signed_storage": true,
+    "all_original_bundle_member_and_raw_array_SHA_checked": true,
+    "one_original_candidate_piece_and_own_saved_midpoint_required_for_each_scalar_row": true,
+    "old_Hessian_slice_is_hashed_only_not_recomputed_or_added": true,
+    "old_full_proposal_archive_not_needed": true,
+    "all_restored_natives_and_original_archives_are_temporary": true,
+    "new_QR_or_Gram_or_7908_scalar_producer_calls": 0
+  },
+  "new_scientific_timeout_seconds": 19000,
+  "scientific_partial_recovery": {
+    "prefix": "complete same97 directed cumulative functional, exact contiguous original cover, source parameters input hashes and per-group audit identities",
+    "printed_live_to_Actions_stdout_after_each_complete_group": true,
+    "full_signed_prefix_saved_and_printed_before_packaging_guard": true,
+    "actual_unfinished_group_progress_not_claimed": true,
+    "resume_only_after_exact_reviewed_checkpoint_SHA_and_same_scientific_identity": true,
+    "completed_new_group_mathematics_not_repeated": true,
+    "complete_known_parameter_model_printed_as_separate_scientific_checkpoint": true,
+    "complete_final_science_saved_and_printed_before_any_publication_guard": true,
+    "wrapper_or_manifest_only_change_never_repeats_a_completed_same_science": true,
+    "new_per_row_arrays_uploaded_to_Actions": false,
+    "new_per_row_arrays_uploaded_to_Releases": false,
+    "actual_runtime_is_part_of_source_identity_and_prefix": true,
+    "runtime_helper_reader_verified_before_success_reuse": true,
+    "atomic_prefix_and_known_model_completely_reprinted_after_child_exit": true,
+    "terminated_child_stdout_drained_before_atomic_checkpoint_reprint": true
+  },
+  "output_design": {
+    "scientific_conclusion_bytes_limit": 45000,
+    "prepublication_science_plus_report_bytes_limit": 59000,
+    "separate_execution_bytes_limit": 59000,
+    "report_bytes_limit": 12000,
+    "capacity_reserve_before_math_bytes": 120000,
+    "topic_total_bytes_exclusive_upper": 200000000,
+    "full_three_by_97_signed_parameter_model_retained": true,
+    "all_twenty_gates_and_failures_retained": true,
+    "all_error_terms_and_complete_mean_retained": true,
+    "process_links_exact_full_science_without_duplicating_it": true,
+    "temporary_only": [
+      "all original restored arrays",
+      "all new per-quarter signed audits",
+      "all new work arrays",
+      "all prior-comparison audit rows"
+    ],
+    "permanent_small_only": [
+      "complete scientific conclusion",
+      "actual execution and exact identities",
+      "human-readable actual report"
+    ],
+    "new_artifact_count": 0,
+    "new_Release_count": 0
+  },
+  "old_successful_mathematics_recomputed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "root_review_required_before_deployment": true,
+  "read_only_metadata_retry_policy": {
+    "reviewed_SN_worker_blob": "5dcf6db03403a3d0f98763a0ff55e0324b6776b6",
+    "reviewed_SN_worker_bytes": 40347,
+    "reviewed_SN_worker_sha256": "022f998c861ddb680ce8c46bbaeb2d4440ae6db22c3b2b8f3b8b55b6bf113674",
+    "typed_HTTP_codes": [
+      408,
+      425,
+      429,
+      500,
+      502,
+      503,
+      504
+    ],
+    "other_types": [
+      "URLError",
+      "TimeoutError"
+    ],
+    "same_exact_tree_request_attempts": 4,
+    "request_timeout_seconds": 45,
+    "real_Git_pull_README_and_frozen_pins_precede_metadata": true,
+    "healthy_child_preserved_only_for_this_typed_metadata_failure": true,
+    "periodic_retry_seconds": 60,
+    "final_retry_budget_seconds": 600,
+    "no_Git_publication_without_fresh_complete_capacity": true,
+    "policy_identity_shape_and_capacity_failures_remain_fatal": true,
+    "every_event_printed_with_full_count_and_hash_chain": true,
+    "recent_twelve_events_kept_in_small_execution": true,
+    "completed_science_never_repeated_due_to_publication_failure": true
+  }
+}

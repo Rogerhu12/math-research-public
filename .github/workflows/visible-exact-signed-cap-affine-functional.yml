@@ -1,0 +1,88 @@
+name: visible-exact complete97 signed cap affine functional
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-signed-cap-affine-functional.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-signed-cap-affine-functional
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  SC_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-cap-affine-functional-CI-inputs.json
+  SC_MANIFEST_SHA: 7b0f87b98ae75a3418c6d4468164b37888c485f0b2f00a6617758a97e43be2c9
+  SC_PIPELINE_SHA: d5f91e7a3b2d981366f659b2777f60b525df5bf3c2d40077e4419477a2c0989b
+  SC_WORKER_SHA: 414e55cb40c516ad02cbba8ae45ac4772f18545dbbfaab8adae5f2ef2abcf6ce
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  signed-cap-affine-functional:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 360
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-cap-affine-functional-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['SC_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py --mode hydrate
+          --manifest "$SC_MANIFEST" --manifest-sha "$SC_MANIFEST_SHA"
+          --pipeline-sha "$SC_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse all three new scientific files before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['SC_MANIFEST']).read_text())
+          for role in ('source','math_helper','original_reader'):
+              item=next(x for x in manifest['file_receipts'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Restore exact old inputs and evaluate only the new complete signed functional
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_cap_affine_functional_ci.py --mode run
+          --manifest "$SC_MANIFEST" --manifest-sha "$SC_MANIFEST_SHA"
+          --pipeline-sha "$SC_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-signed-cap-affine-functional-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-signed-cap-affine-functional-output"
+      # Root rule15: original artifacts are read-only temporary inputs.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete cumulative97 scientific checkpoints and final conclusions reach stdout live.

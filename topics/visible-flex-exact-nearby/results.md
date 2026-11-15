@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **SC 完整同对象 signed97 仿射 consumer 部署。** SCI d5f91e7a/helper8103ca4a/readera7c09960/worker414e55cb/manifest7b0f87b9/flowd49e8f8c仅新计算完整128物理矩、真实径向Hermite积分及97参数模型；20门/8AST、23小pin+9history+36旧archive。root全文核三数学件与worker，19原小件全SHA和36旧tuple核；两peer独核。每组完整累计97先原子保存并live打印，运行时/全部数学身份锁且typed暂错保正常child。全mean/完整tails/未知费用不变；无旧QR/Gram/7908producer重跑，无新artifact，实际门待新唯一run。
+
 - **LN 从完整终点分导得到低阶正规化预算。** [纯解析全文](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d将SN完整四列经实际inverse-density D逐行接到C0..3；全双sign Wiener级数、低导插值及同CN精确ODE逆给更细p/w输入。强余项保真中间窗、两mean、左L2逆/右负窗forward和独立μ²aI/2。root核完整原CN，peer核；仅成功SN终点后才可做新scalar，现不授incoming/R0/真实解。
 
 - **RR 实际同根曲率间隔和完整严格 Darboux 接收已成。** [完整实际结论](results/R133-supplement-actual-root-mean-value-and-complete-strict-Darboux-recovery.md)13495f11：43750683671/1 child0/28、35pins/9AST。root独立复原SCI8bb7e296/preGit282bb569并核82球；原三个saved对象原字同。原signed K1/同root的FTC给严格q，两个新whole-product g预算接成全部四physical列及同case总约7.77784045405e18；fullmean/两sign/H−4/3输入/δ1e−8保全。旧成功或丢失高导重算0；尚须同cut正规化、真phase、incoming及全R0，大upper不作下界。
