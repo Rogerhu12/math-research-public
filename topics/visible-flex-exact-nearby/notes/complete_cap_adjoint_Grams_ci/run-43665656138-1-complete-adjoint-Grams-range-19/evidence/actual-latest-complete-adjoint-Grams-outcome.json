@@ -16,9 +16,9 @@
     4960
   ],
   "completed_bundles": null,
-  "completed_quarters": 83,
+  "completed_quarters": 171,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 83,
+  "new_completed_quarters_this_child": 171,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 4793,
+      "index": 4881,
       "request": [
-        1198,
+        1220,
         4,
         1
       ],
       "interval": [
-        "26082409591931755/18014398509481984",
-        "13044488670694169/9007199254740992"
+        "13309544273763369/9007199254740992",
+        "6655475824323461/4503599627370496"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[3.6761593046579702532152408381094492e-22 +/- 2.90e-57]",
-        "lower": "[3.6761593046579702532152408381094492e-22 +/- 2.90e-57]",
-        "mid_float": 3.6761593046579703e-22,
+        "ball": "[1.0849541396679717358199824575581595e-24 +/- 2.47e-59]",
+        "lower": "[1.0849541396679717358199824575581595e-24 +/- 2.47e-59]",
+        "mid_float": 1.0849541396679717e-24,
         "radius_upper_float": 0.0,
-        "upper": "[3.6761593046579702532152408381094492e-22 +/- 2.90e-57]"
+        "upper": "[1.0849541396679717358199824575581595e-24 +/- 2.47e-59]"
       },
       "exact_array": {
-        "bytes": 344653,
+        "bytes": 344790,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-4793.npz",
-        "sha256": "bcb2f0dd592a2cf3edf3fdefeaa78ae5b4ab3e5934956c4307d13ad007142bed"
+        "file": "adjoint-quarter-4881.npz",
+        "sha256": "66067c07bc562b95b5ce3afb1aed15a68c89477384c95ddba31572146957891b"
       }
     },
     {
-      "index": 4794,
+      "index": 4882,
       "request": [
-        1198,
+        1220,
         4,
         2
       ],
       "interval": [
-        "13044488670694169/9007199254740992",
-        "26095545090844921/18014398509481984"
+        "6655475824323461/4503599627370496",
+        "13312359023530475/9007199254740992"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[3.6726508029736458711231648656153255e-22 +/- 7.57e-58]",
-        "lower": "[3.6726508029736458711231648656153255e-22 +/- 7.57e-58]",
-        "mid_float": 3.672650802973646e-22,
+        "ball": "[1.0855594271947194631329029329894542e-24 +/- 4.73e-59]",
+        "lower": "[1.0855594271947194631329029329894542e-24 +/- 4.73e-59]",
+        "mid_float": 1.0855594271947195e-24,
         "radius_upper_float": 0.0,
-        "upper": "[3.6726508029736458711231648656153255e-22 +/- 7.57e-58]"
+        "upper": "[1.0855594271947194631329029329894542e-24 +/- 4.73e-59]"
       },
       "exact_array": {
-        "bytes": 344691,
+        "bytes": 344854,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-4794.npz",
-        "sha256": "1f08545c3c401d943caa96feba1a7e4a8b836043f11e6a1014604dba84b6a82c"
+        "file": "adjoint-quarter-4882.npz",
+        "sha256": "54a39ab06e09fcec9182cd0937916ad35b40951d7318d7eb97e0a82a18645345"
       }
     }
   ],
-  "native_sha256": "c437b9511280870c602358fbf52ba668d976696500b4c327f6453e0fad93549b",
+  "native_sha256": "220f4c7f00ea585727cecec30ba00053d7148401fbd81d023bd6cb1f98188d90",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:34:18.491310+00:00",
-      "before": "fbc131a38afa46481e6965154840b41fe04555d9",
-      "after": "ebab1b422606154340eafb22b4a54969defe1bd2",
+      "time": "2026-11-15T02:44:36.401284+00:00",
+      "before": "c56342d3b679f00d8ddd034c06ad6e4236ef958d",
+      "after": "738a14559a889b8d47bde61928c2db60480127c3",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
