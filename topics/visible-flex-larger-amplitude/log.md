@@ -251,3 +251,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 全九冻结450源码与126实际启动
 
 发布[九冻结同度量完整接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)和两独立源：profile22140B/070b9b35、full11240951B/1610d6fb；root完整读源及18561B接口，保原完整求解函数体/两有限scalar路径/实际未来parent合同，未本地执行科学或新增fixture门。真正K=k=0、338+112=450，原九系数冻结标量与空active严格分开，显式二分+knots/预算责任不删。尚无接受父、参数/λ/运行选择或科学结论。126已实际由push触发run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a、compute132766891270；09:27:51创建，当前原source restoration，完成后读实际全部批次继续。
+
+### 2026-11-15 当前open责任收束
+
+原open27992B完整保存在[request126检查点](open-checkpoint-through-request126-2026-11-15.md)，当前open按真实125→126、120→124、113/122/118、九冻结450、闭面/连续g/全域指标收束，消除历史“尚未”段落与后续实际结论并列造成的歧义。原源、run、数学门、未付责任及相对链接保留；仅文档维护，无新科学运行或数值结论。

@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:29:20 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0a7a0c88e20b3f7b69bf4dedf6cf347e4c6cdf81。
+规则同步记录：2026-11-15 09:30:58 UTC root因终端服务不可用按根第8条以GitHub集成读取main af928b891554abc549cf9d6dc0529cc421abbd47；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 af928b891554abc549cf9d6dc0529cc421abbd47。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -26,7 +26,7 @@ M112/T112/N2048、699节点、453态/236036free，前三core固定、scalar.99/c
 
 [123](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)run43696642468/source9744b760，8接受/17trial，W738.1754024784359→431.4178353348037，全final false，完整身份已核。
 
-[125实际](results/R284-actual125-nine-control-eight-further-acceptances.md)run43698258576/source36f7152b0b32072dd938f22e67d4d861484b266a/compute132763479304/report132763765544均success。8接受/17外trial，W431.4178353348037→279.12365756925647，末unit首项−23.62725559552975、末radius.0125，全unit/full112/native/success仍false。起末九FD/新Arb1178叶0未解/原453零圆/全部17行已读，dir7全步inner tol=false仍原Armijo接受；零eta辅助是反事实evaluate而非当前点/旧J，实际25数组相同。primary63133/53a0186f、status1883163/688d64e2、8组完整view118379/56c7fef0均核，原临时raw已删。末九p只取正文原值。
+[125实际R284](results/R284-actual125-nine-control-eight-further-acceptances.md)run43698258576/source36f7152b/compute132763479304/report132763765544全success。8接受/17trial，W431.4178353348037→279.12365756925647，末unit首项−23.62725559552975，全部final仍false。全部原方向/九FD/Arb/圆已读；dir7内tol=false仍原Armijo接受。primary63133/53a0186f、status1883163/688d64e2、完整view118379/56c7fef0均核，raw已删；末九p仅取正文。
 
 [126入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)已发布：真125末九p→最多8个独立原批次，各.1 reset/原8×20/12×20及全部final。wrapper b15a6571、request7825a472、84+2pin/own26；family0865/search824c/readerf57原封。真status+原reader全组核后传ownrecipe，compute按batch原文框定、report紧凑链；3600s只批间界、75step90job。规则完整回执清理前消费，不称原日志含完整JSON。run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/job132766891270，09:27:51创建、当前step7；实际结果未读，非零场/最终门仍false。
 
@@ -60,4 +60,4 @@ R277–R283已登记，109/111有理例非实际场。[全jet/mixed](notes/2026-
 
 ## 维护与重做范围
 
-旧索引97869B原文已迁同目录results-index-through-actual120.md，当前results.md续新结论；全部原相对链接保持。104普通清理后题168796207B，未知JSON未全分类；不重存旧raw。102v3顶层装饰差异不添复算门。已删原件按公开配方重算，禁由SHA伪恢复。每条结论note/H/open/log即时发布后继续。
+open当前责任已收束，原文27992B保open-checkpoint-through-request126-2026-11-15.md。旧results索引97869B保results-index-through-actual120.md，原相对链接保持。104普通清理后题168796207B，未知JSON未全分类；不重存旧raw。102v3顶层装饰差异不添复算门。已删原件按公开配方重算，禁由SHA伪恢复。每条结论note/H/open/log即时发布后继续。
