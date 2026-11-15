@@ -497,3 +497,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R795**：[原因子接触一维核、真实下一单位行与唯一Schur缺陷](results/R795-original-factor-contact-one-dimensional-kernel-and-unit-next-row.md)。准确交数门h+1>B_b·C支付整个profile核kG，非恒定列和第h行增广均为单位；原pivot给唯一缺陷Δ及真实Bockstein Δ/p。最多一非unit Smith方向而未认指数1；较小H0(C)门另列，未替全WD首核或指定forcing。
 
 - **R796**：[完整半周期身份与物理E深门的一阶消去](results/R796-whole-halfperiod-and-physical-e-first-moment-cancellation.md)。六变量canonical相位证明h_W为整个Y轴算子，故原E/J/q伙伴权可交换；已付全(Y,Z)返回把适配Z1零带到物理E深B0。J深浅Z首来源各非零且准确相反，完整W相对行从二阶开始；指定负二和全中央补域仍需处理。
+
+- **R792**：[原常数charge非零窗口的r/k分类与三次排除扩展](results/R792-original-nonzero-constant-charge-classification-and-cubic-extension.md)。不加mq0即迫r=2/3/4、k0、F0=λd^c，原Fp全部十三个显示系数格及真实W_b返回已付；R788 b3全p排除扩至q0非零全部mq。零常数余支保原最低charge j≤45和移动因子度界，r2恰q=Y qtilde、degH≤2；同R/第三单位行不免费运输。
