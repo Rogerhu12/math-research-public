@@ -458,3 +458,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R365：完整H层的双仿射轨道和两个同锚全公式
 
 [完整证明](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)，14015B/SHA256 1dd8ad78aa91591b1802a545d32458520aae9d243fe5d53bc0692e19643390ae。从R358全速度一形式恢复Dγ，连同R362 Dδ逐项给所有jA/jB/左矩尾和C²余项，保YC/ZZ/history/两个ordered-tail原因子。原R89完整曲面/全场协变及三真实矩三角输运给Λ_u(PHcV)=H²Λ_Cu(V)；在(h,d)中常数线性速度/加速度输运不增H，原N2只影响velocity4。全H表达式不依赖独立k。任意S与uS(ξ)=u((ξ−d)/h)准确满足ΛH2=hDδ(uS)/15、ΛH1=−2[Dγ(uS)+kDδ(uS)]/15。两个affine轨道不称二维或全U，不授任意有限路径/几何免费变换。root完整核curl系数、真尾、原R89和反变换尺度；下一原N0/N2的Q2/Q4。
+
+## R364：真正的局部角商与五行根支付完整PZ
+
+[完整证明](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)，23005B/SHA256 ba0d05778a3bab7a93c65190137e8df2fdb5822b7c5c60c78213e561a21f7828。whole复三矩让原方向真紧；原DF_P2[Lq²/Uq²]保两primitive端项，18面积中的PY0/PZ2准确消A2与C2，得Ξ_PZ2=2(d+e)Re(Ksh−28eJ/[15(d+7e)])。这条C²角商确需新控制。与R359同权商det=(a−b)(d²+de+4e²)/[3(d+7e)]非零；真实母两自由/真Wact给10列低5锥，接middle6/high2成13×26正核并S5幅保持18面积、留负Ψ。末控制器从起点显式Fnew保J/K平移系数，自身额外角商0；原x4r²首项6e与三χ使36实际列全R5正锥，有限N完整五行根支付整个P²/PW/PZ。root逐DF/IBP/商代数与正核/跨块真尾手核。剩12对称函数位置不冒rank，R368续PY/ZZ；全部有限选择后才he/新几何，不继承wholeE/period。

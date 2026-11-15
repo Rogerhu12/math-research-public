@@ -37,11 +37,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴/K=−J³Af保真尾；72/81非ran
 
 **R363实际Λ标量控制**：固定R358真u的Λ与任意ω下界，h1/d0/k=ω=B上H̃γ≠0。真实γ=(ε/τ)ψ、δ=(ε/τ)σψ′/ψ偶、τ=ε³ᐟ²使Λ局部成本ε⁻³ᐟ²(cσ+O_C1ε)，m=O_C1√ε；全状态AbarΛ0必须保。固定受控ω/R70光滑桥精确回scalar/frame/M0且成本O_C1(1)，R109真总M0商桥后整块倒行清T、第四同号2倍。一个finiteε上σ导数非零，Λ实际任意实值/紧集光滑截面；固定M/T0桥/Klein词保位移闭合及完整基准。仅一个读出，非全U正锥/不保旧wholeE或全period。
 
-**R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
+**旧阻断R304/306/311**：原全C²/Green/有序尾严格排rank-one(W0)圆与固定包连续幅轨道；双hook0⇔W0，原第三仅需单hook AfW0，regular弱核也被排。有效入口仅Af0曲开段W≠0，不称一般C²刚性。
 
-**弱Gaussian圆R308–359**：Af0真rank-two/单hook与8/12copy保third/odd。R353正域13矩，R355独立有限宽补WY2；R354原完整反射二次尾正交、Ψ/三F偶给新偶分支16矩。负域真安装由先正后负boost、同ω下界M桥、NH0平移hook/真逆夹心/Klein闭合；先全部有限profiles后初选he，使x+ω>1。新seed/g不继承另一几何pure/wholeE/Morse/period/joint。
+**弱Gaussian几何**：R308 Af0真rank-two/单hook与8/12copy保third；R354完整反射给偶分支16矩。负域安装由先正后负boost、受控ω的M桥/NH0平移hook/真倒行夹心/Klein支付；所有有限profiles先定再初选he确保x+ω>1。新seed/g不继承旧wholeE/Morse/period/joint。
 
-**R357–360全18面积矩**：R357宽平台简单根/TM完整原子/真三母minor给Fκ=J=Ksh0与两形状自由，三排序含真实gap0/2/4矩和有限容量给(Q,S,V)三锥。R359原full self/Green得ell=B1pure+kPY0pure=(−G Ksh/2+RJ J)W，G/W>0，Ksh±补同权8列低4；接旧门得10×36付PY0。R360 PY2self=−2RY1−2SY1−μ1μ2，Γ保T12，pure商只剩RY1；原三有序行/J,K三local行得12列中6锥，接低4/C2得12×24正核。S5幅/真实残差右逆保旧门，ΨS−2/末F★付三F。**同实际偶弱圆全18反对称外矩/72角位置零**。finite支持/尺度先定，再he/ω下界新几何；V仅镜像前参数。**R361**全偶/真尾反射及面积/F1已付整个PW；PP1偶性0/PP2=F0，新PP0=−∫(f″²)′Dρ′只sin²/cs。真母Δjet=−30与F★同regular点，三χ/36实际列四行正锥、finiteN全根保三F/Ψ/18面积并指定PP0=τ。τ0付整个P²；另13对称外矩位置及history/period/joint仍欠，续PZ2。
+**R357–360全18面积矩**：R357宽平台简单根/TM完整原子/真三母minor给Fκ=J=Ksh0与两形状自由，三排序含真实gap0/2/4矩和有限容量给(Q,S,V)三锥。R359原full self/Green得ell=B1pure+kPY0pure=(−G Ksh/2+RJ J)W，G/W>0，Ksh±补同权8列低4；接旧门得10×36付PY0。R360 PY2self=−2RY1−2SY1−μ1μ2，Γ保T12，pure商只剩RY1；原三有序行/J,K三local行得12列中6锥，接低4/C2得12×24正核。S5幅/真实残差右逆保旧门，ΨS−2/末F★付三F。**同实际偶弱圆全18反对称外矩/72角位置零**。finite支持/尺度先定，再he/ω下界新几何；V仅镜像前参数。**R361**全偶/真尾反射及面积/F1已付整个PW；PP1偶性0/PP2=F0，新PP0=−∫(f″²)′Dρ′只sin²/cs。真母Δjet=−30与F★同regular点，三χ/36实际列四行正锥、finiteN全根保三F/Ψ/18面积并指定PP0=τ。τ0付整个P²；**R364完整PZ**：原合法复三矩/18面积给额外角Ξ=2(d+e)Re(Ksh−28eJ/[15(d+7e)])，真实C²非自动0。与R359商两形det=(a−b)(d²+de+4e²)/[3(d+7e)]≠0，10列低5接中6/高2成13×26正锥；S5幅/ΨS−2支付Ξ。Fnew显式保J/K平移系数，末强块自身Ξ0；PZ2新x4r²首项6e给36列R5正锥，同finiteN保旧门并清完整P²/PW/PZ全角。余12对称位置/history/period/joint续R368。
 
 **R312–345有理端口/joint**：R324同新圆19门归We，R326真实wc=−XD付端口/同第三Gram付We，period随同规范改变；R327解析包kerLf=包u_i/平台χ_i+gap，gap13盲、平台尾(0,−2A,2B)，两特解后13行兼容及降秩整除仍欠。R345 K0=BP[P,S]/3的完整11链Kn=δnK0保wholeE/Ω0，NK_n=n(n−11)K_(n−1)，11对应Af点十次多项式Vandermonde真满；沿R333原E商/全部原型桥基准有(E,F1..Fm)(S)=E(U)×R^m(m≤11)。更多点本模块仅Pol≤10，非全R障碍；其它形状/Af/Ve/整包Ω/仿射尾/两period及其它段仍欠，不移植到新弱圆。
 

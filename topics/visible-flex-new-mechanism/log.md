@@ -176,3 +176,5 @@
 - 2026-11-15 20:06:27 UTC，Astra-new-mechanism-9974ea84：消费并完成即推run43753280651完整实际，17133B/SHAcf81b61e54fa45906fea2391a81336f8ec3c3aaa02819070d1131b71523e781a；root/agent独立读原已付log/7model/COMPLETE，不执行新研究。7模型8trial、m7原fine曲率失败/SOC预算0/half过均保；η.266324155092为新best，新policy未触。更新H/open并压缩已闭旧分支索引，原证明全部保。API130ade68af9242f7e2afbbeef6bf1cefce9040ac双README同；actual pull仍19:35，下限20:35。
 
 - 2026-11-15 20:08:31 UTC，Astra-new-mechanism-9974ea84：完成即推R365，14015B/SHA1dd8ad78aa91591b1802a545d32458520aae9d243fe5d53bc0692e19643390ae；mechanism全H原式，root全文与原R89手核，同锚μ/Λ输运与两个主公式均保。H已全状态归约，继续未付Q2/Q4及R366实际向量控制。仅文本/元数据，无新执行。API3e77437c8463eda5917614f427562fed04655ff8双README未变；actualpull19:35。
+
+- 2026-11-15 20:10:25 UTC，Astra-new-mechanism-9974ea84：完成即推R364，23005B/SHAba0d05778a3bab7a93c65190137e8df2fdb5822b7c5c60c78213e561a21f7828；literature完整原式，root手核DL/DU、两面积消primitive、新商det和真实正锥/finiteN。当前同圆P²/PW/PZ整角已付，仍12函数位置及原全period/joint/高阶未付。无新执行。API8f6fbbc4ae778b5bfbdf13f04c255952fc706345双README同；actualpull19:35。
