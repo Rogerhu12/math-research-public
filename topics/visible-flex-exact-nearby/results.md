@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **RD 精确根首导与完整stable trace条件门**：[证明](results/R133-supplement-exact-leading-root-derivative-and-complete-stable-trace-gate.md)（34eec24f）。直接由真fold/原transport得T二阶及Da0−b全mean公式；normalized genuine Ai保非零shear给g_n>17/57。完整R0与正meanrank、J/所有低中间频保齐，whole e<g−才授原97 cutoff核零/同自然窗逆；实际J1/L0/乘子新值及此门待，fullincoming仍未付。
+
 - **UTA 两端完整收费后原trial界与paid小计实际收紧**：[证明](results/R133-supplement-actual-full-normalizer-endpoint-replacement.md)（d23b71f8；43776528869/1）。新fullT保三整source/3070jumps及两mean，cut/waist两端归回同原TJ trial后whole选2.77275168792994…e92；WE原序小计1.63981108967766…e99，CG一次。22门/12steps、9pins/3AST、4原receipt/18球与SCI/preGit全核；六retained、全Ei/incoming/finite/return仍未付，成功不重。
 
 - **NPK 同一双均值正规化逆的周期核收紧**：[证明](results/R133-supplement-complete-normalizer-inverse-from-periodic-weighted-kernel.md)（1ab985bc）。精确weighted Green kernel同时保两个均值，range-one估计给K0≤1+(π/2)W0E0²；PIB接同一负窗及whole norm选择，完整global sign仿射保原窗序与CE条件。只需读旧NW exponential的新平方/积，无旧成功重算；实际新数值、完整CE与physicalincoming未授。

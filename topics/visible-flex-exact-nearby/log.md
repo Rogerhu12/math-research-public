@@ -172,3 +172,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-15 23:54:32 UTC — UTA 完整actual端点替换独推，23:50真CLI复试仍无executor
 
 23:50:00已实际调用git pull --rebase origin main，环境返回No usable execution environment；不冒真pull，下一最晚11-16 00:50。随后710720bf4075a7c952e0d72159523e6a02689770两README blob/SHA精确无变，本次再核ef8d9fbdc0fd6251a7a9549dfb209d5361814023无差。UT唯一43776528869/1正式job133003952389全12steps、child0/22门锁。Root完整读原三小件与UTA，31处27种球/全部门标签原字同，18标量及7个整对象逐原输入同值；9input296854B digest ff202cb8和3AST64146e70按原序+LF完整复原，SCI22856/3817fbec及preGit31001/e36c531d lexical全同（只去后来23:46:07.883627 pull行）。9170/ba0978原process只引receipt。§1 report SHA少13字转录由root补回原64位，唯一文字修正成6072242c/23208/d23b71f8；科学/输入/数值不变。新界两端都付再same-operator wholemin；state+CG原序一次、原JS与两mean保。旧成功冻结，完整Ei/Eo/incoming/finite/return/背景未授；继续RD/NPK/未知帽body，未达总标准。
+
+## 2026-11-15 23:56:30 UTC — RD 根处精确首导与完整stable门独推
+
+两README在e856cf63679fc22f77380987b5c25b15ef6d9b9d核无变。Root全文读RD439a6fae，另亲取I/O/G/A/P/SE全部小primary核tag：G2 root expansion得t2，I19第二transport与O19完整mean得Da0和a*=Da0−b；RD19按DF减PM_bPF逐项重推，正PM_bΠrank不删。N6765382c/15756/0f1383da原N1矩阵亲核：F^-1的n^(1/6)与(p+g)^−1/2及g=n^−1/3恰给RD21，无额外n权。DLMF官方9.2.3–6亲开核Ai/Bi初值关系；非零shear保且g_n>17/57，非wholepass。J恒等式与P_H N^(1/3)J给e，R0能出低频所以I费r0/4，非r0/N*。全部whole multiplier/signed高输入/windows/mean与finite自然逆前提齐。正文仅补N原件身份、125对inline与1对display换GitHub math delimiters，数学不改；最终24b35235/17725/34eec24f。UTA前一次非FF已即时真CLI重试仍无executor，保remote重建第二次成功；无force。继续freeDa1收紧、SC未知包络及纯metadata容量核，未达总标准。
