@@ -630,3 +630,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 23:03 UTC /root — R410实际194与下一真实参数初猜
 
 [R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。 原两终志唯一读取；必要128方向/153α/全部bounds与范围逐项核，初始60检查不冒末端60；未取运行中日志、不做本地科学，H前文逐字归档、open§4–6同。
+
+
+## 2026-11-15 23:06 UTC /root — R403实际190完整原读回
+
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)run43762998688/sourceef56f16f、两job同64310B/b46c1341必要齐：真fresh64/J/R273→128 owner唯一α1接受，完整norm1.2209605459741e−4→9.6858247475102e−11；独立新进程全残差/576×226输出逐词同。新stage在b16fac header353的column_environment重载歧义编译返1，科学未起；boundary112/endpoint338×112因缺当前输入未起。独立audit575/576、7485/7488，stage575 query9已读、其后1原子推进未付，另queries[10,13)未访；原1800秒内部budget返2、外壳非超时，极值仅已付部分。192/196包含同header仅标源码风险，不替各终态。原全部门/预算/错误和完整未访保，真实quiet后全清；199/R423/R424仅三namespace限定薄修复并重生原全链，不能SHA续现场或冒native/fullDN。 root全文核21401B正文、64310B必要全部owner/component/原64字段；另核b16fac真实namespace/alias/三调用与a0904ea0先queries再advance原循环，日志身份只指返回UTF8；无本地科学/编译，open§4–6保。

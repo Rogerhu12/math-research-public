@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:03:48 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 43f91baac7a8b997ee417957f7020ca51b2defa8。
+规则同步记录：2026-11-15 23:07:41 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cca516b7c8b7b3db1ce4b5fa3721d5f2f386e0df。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -23,7 +23,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：R396全112far完成后数值代表失败/453未起/已清；R419/197修相关代表|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：R410已核61接受/2400秒partial/末FD与Arb453未起/已清，198薄续跑准备|
-|190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
+|190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：R403真128接受/replay同；stage编译未起、audit575/576、已清；199薄修|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入原完整C重建；真十族453→同十词450、共用原7200总钟|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859已完成pin/恢复78源；127pins/完整18000与全部终门|
@@ -38,11 +38,13 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)真37→38十六对，最近1/4096仅RIGHT459域阻。R407/[191](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)真98另起39/free461、完整仿射与原八批FD保。[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)1288192责任中1195792严格/92400未决/0未访、较小八档全37×2048；3900.166秒非资源，不抹原1/8接受和新FD。原全部地址/错误/未访见正文，无native/连续角，已清。
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)真128后20/576、112/338未起且清。186/190/192保全576×224/112/338×112/audit和19200/6000/1200/8000/600/600/1800预算；R402/R405只付记录系数与完整113bit/20bit/宽carry/一次RN113代数。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)及[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)84pins，完整偶奇/尾与runtime fallback接原全链，实际backend计数/90KB/quiet清理保；不冒速度、全stage词或准确导数。
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)run43762998688/sourceef56f16f、两job同64310B/b46c1341必要齐：真fresh64/J/R273→128 owner唯一α1接受，完整norm1.2209605459741e−4→9.6858247475102e−11；独立新进程全残差/576×226输出逐词同。新stage在b16fac header353的column_environment重载歧义编译返1，科学未起；boundary112/endpoint338×112因缺当前输入未起。独立audit575/576、7485/7488，stage575 query9已读、其后1原子推进未付，另queries[10,13)未访；原1800秒内部budget返2、外壳非超时，极值仅已付部分。192/196包含同header仅标源码风险，不替各终态。原全部门/预算/错误和完整未访保，真实quiet后全清；199/R423/R424仅三namespace限定薄修复并重生原全链，不能SHA续现场或冒native/fullDN。
+
+[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)完整字位、偶奇/尾与runtime fallback保持；186/192/196全576×224/112/338×112/audit及全部原预算不变，无stage词/速度/准确导数声明。
 
 [R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受/W4.3469→1.7920、资源partial/已清，真末十词作为194fresh初猜。
 
-[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
+[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，方向61仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
 
 [R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)真180九词/β1/16、fresh C/factory/deep112保，全部112 far与单位行族已完成；后独立中点转64同时0，失败mode/中心未知，不断underflow/真实零行。4705秒非资源，native/453未起，六scope齐且raw清。R419/197修相关参数代表，保同C/全112/原σ/全部门，不冒全局C实现。
 

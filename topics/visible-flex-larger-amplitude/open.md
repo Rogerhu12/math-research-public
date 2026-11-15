@@ -32,6 +32,8 @@
 
 [196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。 官方run43770686357于22:41:29Z创建，source4677faa0966475d17e10b20b75f0234c62fe3768、compute132985694072已入step14原完整science；amplitude唯一终态R415。
 
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)run43762998688/sourceef56f16f、两job同64310B/b46c1341必要齐：真fresh64/J/R273→128 owner唯一α1接受，完整norm1.2209605459741e−4→9.6858247475102e−11；独立新进程全残差/576×226输出逐词同。新stage在b16fac header353的column_environment重载歧义编译返1，科学未起；boundary112/endpoint338×112因缺当前输入未起。独立audit575/576、7485/7488，stage575 query9已读、其后1原子推进未付，另queries[10,13)未访；原1800秒内部budget返2、外壳非超时，极值仅已付部分。192/196包含同header仅标源码风险，不替各终态。原全部门/预算/错误和完整未访保，真实quiet后全清；199/R423/R424仅三namespace限定薄修复并重生原全链，不能SHA续现场或冒native/fullDN。
+
 ### 1C. 真37→38与原非线性域
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八对后LEFT462阻挡、末physical .0071041184748284756非BVP且pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins真98重生37八对再同job38，22LEFT+16MID/77824行/全236036变量与原109core保。原17档/新FD和所有原预算、四输入、来源/试步/清理完整见R361；170未作门。
@@ -67,7 +69,7 @@
 
 [194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)120+15pins/50闭包、原完整方法/预算/终门保持；唯一真实结果如下。
 
-[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
+[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，方向61仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
 
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 
