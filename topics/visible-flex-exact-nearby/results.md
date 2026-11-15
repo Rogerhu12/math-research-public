@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15：[SN signed非mean密度输运及完整H3验证](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)（19046B/SHA6e90617095bfea61a916dcba2a5bd5ad162c696e50b03ee15f7fefd40079679c）完成新目标的解析合同。精确非mean消A2、a_e=−dφφ/2及B1/d1稳定可去商不丢signed乘积；真实mean沿用3146旧积分/rootTaylor和完整δ导费。signed finite reference的全max(N+192,384)残差、四状态H3能量、seam与真径向measure逐项保。SN24–30读同selected physical A1/128的E0/E1及原有限G，给逆密度三导完整矩阵/真measure，末C≤KH(||q−^G||H3+||q+^G||H3+|μ|Ej)。root全文、phase非mean恒等、tail终端与H3指定独核通过；新数学仍待公开Actions，旧ray/KAM/积分不重，完整strong remainder和全局匹配不由此授予。
+
 - 2026-11-15：[CP完整加权实际帽 inner Poisson 差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)（SHA578ac4a214d6899100fff5048aa319865af5c81334e8c7aa32b58c557e3e88bd，20147B）证明准确对称resolvent次序及全mean/outer的weighted后验接收。修正旧Wiener联合K到Hilbert pair-sum必须先B/C分别统一包络，q_alg下界从原算法参数生成式取得，Cmean再max；新χ须独立strict比较。原Hilbert old14/actual18链已回读，旧Hessian作用K0且全jointEA来自A5，ordinary源用原正预算逐项支配。CP26只给inner B/Cmean差，足供完整97 CS/F界，不称wholebody。root全文/primary、newton CP4–6/26–29、phase CP7a–c/20–27分别核过。两γ域/新finite严格门待公开计算，实际core/cap域/affine/非线性/高/腰仍独立；无旧数学重算。
 
 - [既成 mean-trial 相位费用的检查点纠正](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)：重新亲读原43589465579/1 child0/10门小记录，确认原mean-completed有限trial q*与连续Z的全区间差<4.572198020300e−6早已证明。当前H/open误将该已付费用列为待付，现纠正；真正待付是qν−Z≤.005或qν−q*≤.004995427801979700的全频真实响应门。没有重算任何旧数学。

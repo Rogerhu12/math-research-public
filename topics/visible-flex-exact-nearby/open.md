@@ -40,6 +40,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
 [CT正则密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保physicalχ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差分、全部mean/未知全频、c0=U_Pinv f̃−−f̃+；同旧R31的1/128+3B<7/128<1/16和e^(3L)/e^L付全initial/jump/residual。新consumer拟用已成δ0径向m0加已成δ参数导费支付mδ−m0，准确P⊥消A2并分离Bne/Cne/a_e；新signed reference须完整max(N+192,384)source与所有seam。actual完整H3尚待，旧scalar/ray/KAM不重。
+[SN signed非mean密度与H3验证](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170已解析独核：径向A2准确消，B1/d1可去商保符号，真mean用旧3146积分/169germ及完整δ费。每cell完整残差与seam进入四状态H3；同selected真H的physical A1/128 E0/E1与有限G=K48∘H给SN27矩阵/真measure常数KH。末保两个完整signed qσ^G及Ej，C≤KH(Q−+Q++|μ|Ej)，不另选参数/重ray/KAM。新数值仍待，R0/incoming/GH/真实ν和core未付。
+
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
 [CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
 [EN完整指数正规化](results/R133-supplement-exact-exponential-subprincipal-normalization-and-directly-matched-strong-remainder.md)ed2ff38e须直接signed验证R=ζUΩexp(McI)+Eexp0，才以exp(MwI)得base strong≤e^(26C)[Rexp0+67|μ|C/8+131C²/512]；C0无独立μ²仅因为reference已指数。旧Elin→新Eexp必须完整signed差，不准upper相减。
