@@ -125,3 +125,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:40:30 UTC /root — R283 原有限root执行分支的完整变分
 
 [R283全文](results/R283-finite-root-trace-differentiation-with-literal-tables.md)12475B/60459586及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)9182B/0c7700b4已直接登记。root核113实际C++六函数：独立literal cosine/sine/gram与w/w²/E、F与C分别定义、e从0的有限更新、正Cholesky逐循环/前后代回、拒绝分支及完整RK/cut/stage/far范围一致。未声称实际C与F_e已测不等，未把IEEE舍入或小残差冒导数证明，无新science/fixture/solver，113不变；amplitude继续监测并协助117摘要器。
+
+## 2026-11-15 07:48 UTC /root — R282局部owner与完整mixed组合器
+
+[完整源码接口](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)13494B/cd24dc49及两新源15454B/0b52a408、28554B/4e31ad6b已完整读过，最终四处差异另核。真实field/rho/完整FFT含mean和Nyquist、实际材料角与半径membership、严格cross-Gram、原全相位及R281逐叶OR，空间×两RP1闭覆盖和全部rank/未决栈保留。只源/参数/接口入库，静态回执不入库，无科学执行或真实接受场；不预填全reach。H压缩已完成115/116原值至正式note，保当前责任。
