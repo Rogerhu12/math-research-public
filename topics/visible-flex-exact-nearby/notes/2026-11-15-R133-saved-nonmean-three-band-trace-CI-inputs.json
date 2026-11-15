@@ -1,7 +1,7 @@
 {
   "kind": "immutable_saved_nonmean_three_band_trace_inputs_v1",
   "public_repository": "Rogerhu12/math-research-public",
-  "created_utc": "2026-11-15T13:31:17Z",
+  "created_utc": "2026-11-15T13:40:08Z",
   "exact_new_mathematics": "NR1--NR8 saved nonmean restrictions and LT4 LT13--LT20 scalar trace coefficients; no actual unknown input is invented",
   "parameters": {
     "arithmetic_bits": 320,
@@ -103,7 +103,7 @@
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_raw_response_mean_collar_fee.py": "7547ece2825854a18e59c27294b12e8dbdcb13671c8fb0d8fba6af218d86f7f2",
     "topics/visible-flex-exact-nearby/results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md": "75f86ebeb47eab668b35ef439370e26d4b3e8e3c2675bd1e7f850f805c3355fc",
     "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_nonmean_three_band_trace.py": "129f7f7955bb8d11385b9804353f0e389761ba38cc74467436a9600283376934",
-    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_nonmean_three_band_trace_ci.py": "5b9e4b00c71541c323a55ef19b7f11a2e8f2c3ff2bd3b65166d871635b1fe344",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_nonmean_three_band_trace_ci.py": "7f1bd9e510cbbe226e251234893b5e603cd7b4584101cf0a01de086cd19ab612",
     "topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json": "c5424be21b98cf5e195ea7246ccba46cf746d1f16d9c118042fda1fad433e408",
     "topics/visible-flex-exact-nearby/results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md": "d4ca605741db42cdfbdce91e00f39a26541a6ae5020bff12a42bd0a671166875",
     "topics/visible-flex-exact-nearby/results/R133-supplement-actual-raw-mean-fee-and-restored-high-collar-domain.md": "be2de85dd01540cee3d39ad380dd40e93a43ad57bba84c125c75500f3fd8a752",
@@ -211,9 +211,9 @@
     {
       "role": "worker",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_nonmean_three_band_trace_ci.py",
-      "bytes": 43202,
-      "sha256": "5b9e4b00c71541c323a55ef19b7f11a2e8f2c3ff2bd3b65166d871635b1fe344",
-      "blob": "86bf08fbcf9c70b6147322e7c4c2759f182183a9"
+      "bytes": 46808,
+      "sha256": "7f1bd9e510cbbe226e251234893b5e603cd7b4584101cf0a01de086cd19ab612",
+      "blob": "e48f8eb2cb4a91783ee3d36a12920de69a001706"
     },
     {
       "role": "corrected_mean_execution",
@@ -244,7 +244,7 @@
       "sha256": "18de4ef746eed069a9a92ba783d54e2f394887866d60cbb286502b9c55cb17c5"
     }
   ],
-  "complete_small_input_bytes": 404485,
+  "complete_small_input_bytes": 408091,
   "complete_small_input_count": 19,
   "historical_natural_parts": [
     {
@@ -709,6 +709,32 @@
     "maximum_small_conclusion_UTF8_bytes": 60000,
     "before_publication_complete_small_stdout_UTF8_bytes": 59000,
     "original_complete_successful_mathematics_must_not_be_recomputed": true,
-    "complete_same_source_manifest_worker_small_conclusion_reused_after_later_wrapper_failure": true
+    "complete_same_source_manifest_worker_small_conclusion_reused_after_later_wrapper_failure": true,
+    "before_size_gate_actual_child_and_scientific_status_UTF8_bytes": 1000,
+    "complete_scientific_receipt_and_report_preserved": true,
+    "repeated_infrastructure_tables_published_as_complete_hash_and_count": true,
+    "complete_README_pull_sequence_and_measured_capacity_preserved": true
+  },
+  "lost_new_result_recovery": {
+    "failed_run_id": "43719591979",
+    "failed_run_attempt": "1",
+    "job_id": "132828469419",
+    "first_workflow_commit": "ebcb1b6aa4047976444ef2332bdb98dfd60245f9",
+    "first_worker_sha256": "5b9e4b00c71541c323a55ef19b7f11a2e8f2c3ff2bd3b65166d871635b1fe344",
+    "first_manifest_sha256": "f44312c69cf322f6d4a8706579bd1801bdc973e27a3381c9cc6fedeb523f5247",
+    "complete_job_log_blob": "cf6946300b839bcbf0e61ab89ac2e2cd9bda3934",
+    "complete_job_log_bytes": 35097,
+    "complete_job_log_sha256": "0d80ddb2f183e482379edcfeff1f7bb4fb32aaebd9d9e1ede80d1eeb72c00bc1",
+    "observed_failure": "emit_recoverable_conclusion: complete prepublication payload exceeds 59000 bytes",
+    "actual_child_returncode": null,
+    "actual_gate_counts": null,
+    "scientific_outcome": "unknown",
+    "complete_new_scientific_result_published": false,
+    "temporary_new_result_lost": true,
+    "no_numerical_failure_or_success_claimed": true,
+    "recovery_authorized_after_actual_loss": true,
+    "scientific_source_unchanged": true,
+    "recovery_evaluates_only_the_unpreserved_new_scalar_restrictions": true,
+    "no_successful_original_grid_target_mean_or_Green_recomputed": true
   }
 }

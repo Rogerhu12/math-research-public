@@ -271,3 +271,11 @@ root亲读三真pull13:34:48.816226/13:34:57.851872至e10b8ad0及13:35:02.142409
 NR首43719591979/1 job132828469419封装在emit_recoverable_conclusion len(raw)>59000停，root亲取全joblog35097B/0d80ddb2f183e482379edcfeff1f7bb4fb32aaebd9d9e1ede80d1eeb72c00bc1并读精确回溯。日志没有完整科学receipt、child退出码或13门结果，故均未知，不能称数学失败/成功。新临时结果未发布且runner已清；用户明确授权未推新结果重做，先纯infra精简重复来源/容量字段，完整科学五表/mean/gates不删。旧成功MC/91/Green数据不重算。
 
 本次只读16d4ccec131d41712160060648738a9b185b7662两README未变。继续DG direct g1、L1相关有限项、NR补救和真正core/high逆，总任务未完。
+
+### 2026-11-15 13:42:07 UTC：NR丢失新小结果的纯infra恢复部署
+
+root亲读首run43719591979完整log35097B/0d80ddb2，确认只有preGit>59000封装失败，数学child/gates未输出仍未知。用户授权恢复丢失未发布新结果；旧MC/91case/target/Green全部成功不重算。SCI129f7f79与合同75f86ebe逐字不动。v2 worker46808B/7f1bd9e510cbbe226e251234893b5e603cd7b4584101cf0a01de086cd19ab612仅public_execution/emit及snapshot编码变化：重复输入/archive/容量响应表用完整hash/count引用，全部science/五表/mean/13门和完整report保持；所有README真pull序列、实容量/commit保。≤1KB真实child/gates/science与payload字节SHA状态先于59KB门打印，最终60KB门保。
+
+manifest29970B/e9ea51e344e873096d14e2c18d25da085c82e268de1039bd0e09a3c7a3b972ec明确首run未知/临时结果lost/恢复授权；除worker pin与元数据，18原小输入及8ZIP/6history/40native表逐字相等。flow4178B/7aed8226d5def0a1c5902adf1949d1b26f421ec06840f2bd5943829a413c776b只改worker/manifest pin。root完整diff/静态delimiter已核，实际AST/新两restriction与五系数仍须Actions。
+
+H重整为当前可执行交接，所有原完整细账保eb29cd5c同H/open/log；open第4节同样保该精确历史和原proof，未删任何源/mean/域/未付门。只读de30bb7f348fa4bed93d012d99b516d95698df3f两README未变；继续跟新run和DG/Green/core，不收尾。

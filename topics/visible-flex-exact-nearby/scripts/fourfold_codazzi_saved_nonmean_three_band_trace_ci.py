@@ -381,17 +381,66 @@ def render(state):
         "New scalar seconds: "+str(result.get("seconds"))+".",""]
     return "\n".join(text)
 
+def public_execution(state):
+    """Keep all science and README pulls; replace repeated infrastructure tables by exact audit identities."""
+    result=dict(state)
+    for key in ("actual_current_contract_receipts","actual_original_row_archive_receipts"):
+        if key in result:
+            table=result.pop(key)
+            result[key+"_audit"]=dict(count=len(table),sha256=hashlib.sha256(compact(table)).hexdigest(),
+                complete_table_checked=True,complete_original_table_pinned_by_manifest=True,
+                input_manifest_sha256=state["input_manifest_sha256"])
+    for key in ("current_published_topic_capacity_metadata","publication_capacity_metadata"):
+        if key in result:
+            original=result[key]
+            result[key]={name:original[name] for name in
+                ("method","commit","root_tree","topic","topic_tree","truncated","all_blob_sizes_checked",
+                 "blob_count","blob_bytes","nested_tree_count","gitlink_count",
+                 "complete_blob_metadata_inventory_sha256","blob_bodies_requested") if name in original}
+            responses=original.get("metadata_responses",[])
+            result[key].update(complete_capacity_receipt_sha256=hashlib.sha256(compact(original)).hexdigest(),
+                complete_metadata_response_count=len(responses),
+                complete_metadata_responses_sha256=hashlib.sha256(compact(responses)).hexdigest())
+    return result
+
 def emit_recoverable_conclusion(state):
-    payload=dict(marker="SAVED_NONMEAN_THREE_BAND_TRACE_PREPUBLICATION_V1",
-                 execution=state,report_text=render(state))
+    exported=public_execution(state)
+    identity_keys=("repository","run_id","run_attempt","workflow_commit","actual_scientific_checkout_commit",
+        "worker_source_sha256","source_budget_source_sha256","input_manifest_sha256",
+        "reviewed_rules_sha256","historical_input_commit","actual_returncode","complete","actual_failure",
+        "actual_source_budget_processes","actual_verified_input_count","actual_verified_input_receipts_sha256",
+        "actual_original_part_count","actual_original_part_receipts_sha256",
+        "actual_current_contract_receipts_audit","actual_original_row_archive_receipts_audit",
+        "readme_checks","current_topic_blob_bytes","current_topic_blob_count","current_topic_metadata_commit",
+        "complete_immutable_Python_AST_closure_passed","complete_immutable_Python_AST_inventory_sha256",
+        "actual_scientific_receipt","output_hashes")
+    evidence={name:exported[name] for name in identity_keys if name in exported}
+    payload=dict(marker="SAVED_NONMEAN_THREE_BAND_TRACE_PREPUBLICATION_V2",
+                 execution=evidence,report_text=render(state))
     raw=compact(payload)
-    if len(raw)>59000:
-        # The complete small scientific receipt remains intact; the report is a derived display.
-        payload.pop("report_text");raw=compact(payload)
-    if len(raw)>59000:raise ValueError("the complete small prepublication evidence exceeds 59000 bytes")
+    science=state.get("actual_scientific_receipt")
+    native=compact(science) if science is not None else None
+    gates=science.get("gates",[]) if isinstance(science,dict) else []
+    failure=state.get("actual_failure")
+    short_failure=None if failure is None else dict(
+        type=str(failure.get("type",""))[:80],message=str(failure.get("message",""))[:160],
+        complete_failure_sha256=hashlib.sha256(compact(failure)).hexdigest())
+    status=dict(marker="SAVED_NONMEAN_THREE_BAND_TRACE_PREPUBLICATION_STATUS_V2",
+        actual_returncode=state.get("actual_returncode"),complete=state.get("complete"),
+        gates_passed=sum(g.get("passed") is True for g in gates),gates_total=len(gates),
+        complete_science_bytes=None if native is None else len(native),
+        complete_science_sha256=None if native is None else hashlib.sha256(native).hexdigest(),
+        complete_payload_bytes=len(raw),complete_payload_sha256=hashlib.sha256(raw).hexdigest(),
+        actual_failure=short_failure)
+    status_raw=compact(status)
+    if len(status_raw)>1000:raise ValueError("the prepublication status unexpectedly exceeds 1000 bytes")
+    print(status_raw.decode("utf-8"),end="",flush=True)
+    if len(raw)>59000:raise ValueError("the complete small prepublication evidence exceeds 59000 bytes: "+str(len(raw)))
     print(raw.decode("utf-8"),end="",flush=True)
     return dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),encoding="UTF-8",
-                complete_scientific_receipt_preserved=True,published_before_any_git_publication=True)
+                complete_scientific_receipt_preserved=True,complete_report_preserved=True,
+                infrastructure_tables_replaced_only_by_complete_audit_hashes=True,
+                published_before_any_git_publication=True)
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -604,7 +653,7 @@ def main():
         state.update(publication_capacity_metadata=capacity,publication_base_topic_blob_bytes=total,
                      publication_capacity_metadata_commit=capacity["commit"],projected_topic_blob_bytes=0)
         while True:
-            raw=compact(state);projected=total-oldbytes+len(text.encode())+len(raw)
+            raw=compact(public_execution(state));projected=total-oldbytes+len(text.encode())+len(raw)
             if projected==state["projected_topic_blob_bytes"]:break
             state["projected_topic_blob_bytes"]=projected
         if projected>=200000000:raise ValueError("the complete small conclusions exceed topic capacity")
