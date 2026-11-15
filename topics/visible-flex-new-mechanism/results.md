@@ -522,3 +522,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R380：十六真实目标同根支付完整Y²
 
 [完整证明](results/R380-sixteen-real-targets-and-one-finite-root-pay-the-complete-Y-square.md)。先由R349/R377原18面积严格清KYY0；新增αY²与旧权8行的det=−(d+6e)/2，权组1/4/5/3/2/1。原copy真实权/偏移偶平均在次数≤10上可逆，16个有限二jet在同一个正偶母与Fnew最大minor上实现，16χ×12=192实际列满16且严格正核。一个实际有限N的完整16行根保旧十五目标/18面积/T并共同恢复Ψ及三directed，付全部YY外矩/相位。九完整乘积已付，唯一剩余ZZ2；不授whole period/joint/固定g。全文11595B/SHA256 ab4339cf426f1d386e7682ff0799bd6c598a6854239cee42b315ffea49b57eb8。独立Gaussian链不使用暂挂H秩。
+
+## R379：最后ZZ第二角商与17行共同根
+
+[完整证明](results/R379-complete-ZZ-second-angular-quotient-and-the-frozen-quartic-remainder.md)。原Z输出/cubic经全部primitive与紧outer IBP得完整八系数；KZZ2=cΩO+rΩSRY1+sΩSSY1+zΩSZY0，cΩ=(d+e)(d²+3de+6e²)/(24e)>0，O=∫(q′−xq″)^4。旧18面积清后三项，不能清ReO。新主行x²αZ²的权6三角余x⁴v²=4e²；17真实同母jets/204实际正列给同有限N十七目标根，保九完整乘积和全部π/2值，唯一整个角残量cΩ ReO·sin²θcos²θ。非legal μ1μ2全式及真实self平移二导证明O全部平移系数已由Fstar固定，当前末模板严格零响应；更早弱基线Ω支付仍欠。18653B/SHA256 0a8002514b351e7947ec95ffa7986677de0ffcdcdf1be4e6b952a31a16115f22。

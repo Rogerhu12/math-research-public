@@ -40,7 +40,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **强圆旧阻断与弱几何**：R304/306全C²/Green/有序尾排rank-one(W0)圆；R311排固定包连续幅轨道。双hook0⇔W0，但原third仅单hook AfW0；regular弱核亦排，Af0曲开段W≠0是真入口。R317/319/320各朝外/单向族旧阻断保原范围。R325朝内弱圆、完整8/12copy给third；R354真反射/受控ω桥给偶分支。先全部有限profiles再he/Ω安装新hook/闭合，x+ω>1；新seed/g不继承旧wholeE/Morse/period。
 
-**同一偶弱圆Gaussian进度**：R357–360完整self/Green/有序尾正锥付18面积；R364真C²角T另付，Fnew从起点保J/K平移系数。R376原15主行/180真列同有限N付八完整乘积及ZZ0/1、YY1/2。R377消费原R349 SUY2=−5SLY2得KYY0=−2SZY2/(d−5e)=0，不增C²纤维。R380添αY²与x²αZαY的权8det=−(d+6e)/2，16同母真实二jet/最大minor、实际copy偶平移平均和16χ×12=192列满16严格正核，仍最高次数10；同一个有限N根付整个Y²，保原15目标/18面积/T/结构。Ψ/三directed须由同点完整根恢复，不由Fnew逐扰动保持。九完整乘积已付，只余ZZ2全角；其真正C²残量不能凭principal免付。全finite后才he/ω安装新seed/g，其余history/period/joint及固定g欠。
+**同一偶弱圆Gaussian进度**：R357–360完整self/Green/有序尾正锥付18面积；R364真C²角T另付，Fnew从起点保J/K平移系数。R376原15主行/180真列同有限N付八完整乘积及ZZ0/1、YY1/2。R377消费原R349 SUY2=−5SLY2得KYY0=−2SZY2/(d−5e)=0，不增C²纤维。R380添αY²与x²αZαY的权8det=−(d+6e)/2，16同母真实二jet/最大minor、实际copy偶平移平均和16χ×12=192列满16严格正核，仍最高次数10；同一个有限N根付整个Y²，保原15目标/18面积/T/结构。Ψ/三directed须由同点完整根恢复，不由Fnew逐扰动保持。R379再添x²αZ²，减d·ZY0+(de/a)·WY1后新x⁴v²=4e²，17同母形状/204正列同有限N付全部17真实π/2值。九完整乘积保零，ZZ2准确只剩cΩ Re∫(q′−xq″)^4 sin²θcos²θ；cΩ=(d+e)(d²+3de+6e²)/(24e)>0。完整primitive八系数及3面积消元已核，真μ1μ2身份表明该O全部平移系数原Fstar已固定，末equal-background模板对此严格零响应；须更早弱基线真实支付，未称Ω为零/非零。全finite后才he/ω安装新seed/g，其余history/period/joint及固定g欠。
 
 **period欠账**：R184/185/221/225原iff保G″平台/活动flux/端germ/双collar；45span/48×135不是解。R312–327新有理芽付19局部门/指定端口，但period随gauge变，同一w的13行兼容、降秩整除、其它段ruling/两period欠。R345 wholeE核K0保11完整链，只付局部点有限(E,F≤11)全部基准，非全Af/Ω/尾/period；不无证移植新弱圆。
 
