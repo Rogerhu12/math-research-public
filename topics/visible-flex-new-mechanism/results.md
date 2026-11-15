@@ -221,3 +221,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 从原S/T bulk的两阶手展开得K2=27A2−20B1+2C0；真实母包由中心0/±L的三I0归一小包组成，H/A0的形状根在(s,h²)=(1,0)有导−18L²。先取固定正h，再对F=δ³Lc、G=δ(Mc+3Lc/ζ0)准确归一；最强项与所有一阶中心项真实消去，δ=0时Fα≠0、Fs=0、Gs≠0，下三角Jac给有限正δ的真实两个even能量0。共振层保完整紧槽和背景真尾，逐包bulk得Nc=6Mc/Ns=6Ms，所以六能量与上述全部条件同时准确付。支持/collar在固定紧参数邻域统一，先选实际有限宽圆再取足够小共振ke，不声称收缩profile范数有统一安装邻域。
 
 剩余30 even面积、其余完整history、第四period/ruling、有限同g族和嵌入/reach/幅度均未付；完整ordered Q/self/Γ接口逐项保留，不以局部权配平代它们。root全文独核锐二次包络、真实三矩/间距、两次复制、S/T全部系数、shape缩放、联合解析/Jac和共振6M；literature独立逐式复核，未执行新科学或人工。后继只研究剩余真实有序面积，不重六门。
+
+
+## R262：指定多宽度联合能量分支的真实有序面积仍严格非零
+
+[R262 完整证明](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)消费R256的真实双参数根，不仅leading极限。对64低包/1高包的实际交错cell，保Thue–Morse虚质量和真实偏移，准确有ReΣi<j zi²zj²(tj−ti)=n{A(−21856a²+32ℓ²)+H²B/2}>1109nA/2；完整Q中的这一跨尾项严格负。母三包给Cν−ℒ+Δ/4=2L m_v²+O(h)>0，与64nqUα(1−q²)<0相乘也严格负。先选固定正h，再由实际IFT支路连续性选正δ，故真实有限宽Q<0；三矩与M4/M1/N1使共同平移不改Q，八副本和十二共轭副本只给正因子。相应Gaussian A1,−3乘子非零，因此排这一明确profile分支的完整ruling。未排任意多形状/多方向圆；下一改变包内ordered quadratic density，保所有已付门后再付新面积。root逐式核真实cell次序、有限和、宽度尺度、母包内部Δ和极限次序；lit独立全稿通过，无新执行。

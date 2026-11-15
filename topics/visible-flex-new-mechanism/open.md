@@ -128,7 +128,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [八χ完整源设计](notes/third-kernel-eight-local-operators-design-20261115.md)本次lane third_kernel_eight_local_operators仅消费旧W36与R254准确χ，首次生成K(w)=χ(w;ff)的真D³、完整有色word及局部时全形式伴随。空word才提局部/实测阶，不预截四阶；非局部/非自伴完整保。先8新人工，旧Δ/18参考/151/152/3974及第四响应0重做。此lane尚无实际结果，不先用全Z自伴或宣fixed-circle像。
 
-[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)已真实联合支付新多宽度圆的三矩/完整third/六能量/全A−2,−3和36 odd。两坡宽度与三母包shape分别给α、s简单方向；8/12完整副本先纳入原能量且四次加权中心0，δ归一两个准确能量联合解析，有限正宽IFT有效。抽象S/C锐比值≥9+4√5与真实实现分开；改变seed另冻结目标。**当前剩其余五面积30 even及全部其余完整fourth/period/同w；先核本族真实有序Q，不能只调复制中心或重新求已付六门。** 巨大有限复制仅存在证明，未称适合数值求解或完整候选。
+[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)已真实联合支付新多宽度圆的三矩/完整third/六能量/全A−2,−3和36 odd。两坡宽度与三母包shape分别给α、s简单方向；8/12完整副本先纳入原能量且四次加权中心0，δ归一两个准确能量联合解析，有限正宽IFT有效。抽象S/C锐比值≥9+4√5与真实实现分开；改变seed另冻结目标。[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)已准确证明其指定排序在有限正宽联合根上ReQ<0：真实虚primitive跨cell项及母三包局部项分别给负贡献，完整八/十二副本只能乘正因子。**下一改变包内方向，同时保此前三矩/third/六门/单面积/odd，再核全部剩余even与完整joint；不可只缩宽或平移已排原分支。** 巨大有限复制仅存在证明，未称适合数值求解或完整候选。
 
 ## O1：双圆领相位机制，保留备选
 
