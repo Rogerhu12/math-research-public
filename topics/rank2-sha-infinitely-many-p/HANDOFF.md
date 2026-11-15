@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：00dfdc3c4b4fa92ca88705b490ac4b01f01a3686；2026-11-15 14:49:17 UTC核两README无变。实际CI pull 2026-11-15 14:31:42 UTC/df6db414466f680ee53cd8a011b7ea3d7fe802be（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:49:16 UTC仍无环境。最迟2026-11-15 15:10 UTC再实际pull。
+- 最近已读规则提交：8450dd5ea0881a0c7d5c60a5c71305e72605a336；2026-11-15 14:55:25 UTC核两README无变。实际CI pull 2026-11-15 14:31:42 UTC/df6db414466f680ee53cd8a011b7ea3d7fe802be（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:55:24 UTC仍无环境。最迟2026-11-15 15:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 本地exec无环境，末次本地成功2026-11-14 21:35:50/7aa38f25e。实际public CI pull 2026-11-15 14:31:42 UTC/headdf6db414/run43724824740/job132844383946，两README差异空且blob同；回执ci/rule-pull-20261115T143142.json。下一最迟15:10 UTC。
@@ -35,7 +35,7 @@ R750完整值左核由实际V_E′和保高尾的低r右逆给，值可解iff全
 [小Bockstein](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)准确剩Ω_B=Res[(v_F−c_F)B0ω]，v_F=π_L(F(t,g)/p)=eξ，c_F=e b_s t^(k−r)u²/(2a)，L=h−k−13−ρ；输入在首Gaussian前，≤13极仍读正则尾，v_F不可任选，改F提升须同步R。
 R755全部cube过kerJ门恰H0∈t^(r−k)，合法cube全值Bockstein零；未过门只末(2(r−k)−13)+行。修PB须实际≤13jet命中、修后𝔅系数−1/6且值类不随选择变；C4/ξ/全carry保。整块增补给e_E<min(κ,h−(13−2(r−k))_+)时全cube限制Smith恰p，其他WD列仍可能吸收。
 R765全F零角r_F；k<r_F迫非F高接触restriction和ν_k=−c_k≠0。R766 ν降真实V_E′的d_k、杀H0N³，原n0/2/3列给单位v_k（全高尾保），故V≠0。值/选定normal同解iff O_T(v_k)∈O_T(ker d_k)；若实际O_T*ω=d_k，显示Λω杀全M且读cube forcing单位c_k。小矩阵未判。
-R768在b0=degY F(0,Y)>4k+2下给同零纤维Lagrange/非约化留数代表，原w/t及Weierstrass单位保。ω0=(a²/2)q t^(r−k−1)A_k dt/FY在P正则，全球极div(e³ω0)+ΔC−3De含全十九角/∞，至少2κ+χ极在边界。b0门失败须∞纤维，不能用m替b0。增补专r=ell1/k0付实际0→Vt→V_E′→span{Y−1,(Y−1)²}→0；完整M首次p²迫R(0,Y)=−3B(Y−1)²、其它有限支满极。R=−3B Qquad+tS的全部原帽/高尾给同S值与首normal两输出(22)。对偶只须O_T*ω=d2+λd1；唯一λ=−1让Kord顶次降1/顶2，在每个Y有极支实际改善−v(Y)。全十九角/∞及真全球延拓/同R余carry仍开。
+R768在b0>4k+2下给真实有限纤维留数代表ω0及全边界极div(e³ω0)+ΔC−3De。**原帽新核得3b0+degQ0≤4r+2，故r≥3k+2、r≤13时k≤3；r1/b0≥3增补窗口为空，已显式更正，不能算实际进展。** [次数门](notes/2026-11-15-r768-original-fiber-degree-feasibility.md)保证明。继续r2/k0/b03/degQ0≤1候选，先按原qt^r框重做低r右逆、实际核和同S两输出；全部十九角/∞、高尾、normal/carry仍保。
 
 ## 惰性新三格与其余主门
 

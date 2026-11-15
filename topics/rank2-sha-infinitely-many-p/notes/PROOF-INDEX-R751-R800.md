@@ -52,4 +52,6 @@
 
 - **R774**：[任意3导子的真实CM good-pair与完整点因子](../results/R774-ramified-discriminant-good-pairs-and-exact-point-factors.md)。对完整自对偶type(1,0)、root−字符，单边split辅助ψ保旧3处比值1，伴随根数+且可取非零；真正临界Katz伴随、全finite principal-series Hom和完整Q/Gauss校准，给同ν点下降及实际ρ点域。S174全谱与原theta–Katz身份仍另付。
 
-- **R768 增补**：[完整零纤维数据与普通二阶消极](../notes/2026-11-15-r768-full-zero-fiber-data-and-ordinary-second-normal.md)。r=ell=1、k=0时实际主部商二维，完整首次p²固定−3B(Y−1)²及其它有限支满极；原Qquad全高尾和同S两输出完整保。对偶铅笔d₂+λd₁的唯一λ=−1使每个Y有极边界支准确改善−v(Y)，未付全球延拓。
+- **R768 增补（范围已更正：r1/b0≥3原窗口为空，不作实际改进）**：[完整零纤维数据与普通二阶消极](../notes/2026-11-15-r768-full-zero-fiber-data-and-ordinary-second-normal.md)。r=ell=1、k=0时实际主部商二维，完整首次p²固定−3B(Y−1)²及其它有限支满极；原Qquad全高尾和同S两输出完整保。对偶铅笔d₂+λd₁的唯一λ=−1使每个Y有极边界支准确改善−v(Y)，未付全球延拓。
+
+- **R768 原次数门更正**：[原来源的有限零纤维可行范围](../notes/2026-11-15-r768-original-fiber-degree-feasibility.md)。真正Pfact首t层强制3b0+degQ0≤4r+2；联合b0>4k+2需r≥3k+2，原r≤13故k≤3。r1/b0≥3增补为空，立即撤回其实际可用措辞；r2/k0/b03仅是未被此门排除的候选。
