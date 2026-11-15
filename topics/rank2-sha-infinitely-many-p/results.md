@@ -276,3 +276,5 @@
 - [R706：原Bessel核与完整驻点纤维](results/R706-original-bessel-kernel-and-complete-stationary-fibres.md)：同一个wild角色的标准Schrödinger投影有绝对+1/p Weil核，Cayley相位At+B/t的全主单位纤维准确回quartic驻点；完整±U两组例外、重根与全部p²相位保。rank-one归一、单点≤2/√p(p+1)及两圆交自相关≤2/(p+1)已付，仍不代原短块幂次界。
 
 - [R704：原固定theta高斯Zak与真正短块](results/R704-original-gaussian-zak-and-short-block-criterion.md)：原磁全纯方程使去准周期幅度的Fourier系数精确为固定m个系数的高斯族，绝对酉Zak把原theta样本写成m种宽p周期高斯包。原wild本征向量的指定长度p短块准确回原迹，固定总变差去掉log²损失；高斯尾仅留O(√logp)频率。单点界仍只给O(p)，实际幂次节省/非零未付。
+
+- [R701：尖锐两charge清极与完整同修正cap](results/R701-sharp-two-charge-clearing-and-complete-same-correction-cap.md)：原固定角最高系数的两准确无穷远矩恰给全原格的+2乘子；完整forcing另需同一来源四单位无穷远缓冲，weighted initial付其一般尖锐性。三门全过后同R cap缩为top2且Ω/p³全保；原低r高b乘子恰w·unit，两13carry与移入普通行的系数完整联立，不宣称指定类非零。
