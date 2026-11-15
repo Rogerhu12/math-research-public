@@ -161,3 +161,7 @@ R736原47→7→1完整Hecke/trace、固定2048类和全部run/hash见证明；C
 O4最早a≤1/δ²指定全球点位置、O6全Np有限/λ≤3无限p、supersingular二次regulator仍未付。AST线性独立、strict局部向量、fine Selmer或深节点非零不代全Selmer。Wang2026稿的root/level及λ门错误已完整审计；Kim2609等近期输入未关闭原门。此前quartic/O3/O7及完整接口按上方主列表和全文归档接续，不认作已完成。
 
 R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六系数非零有理分子，经固定CM密度引理在同旧ray、两η和全部N上unit，真实Yunit正四×Z²矩亦unit。型四三维X³+ω的K循环性不付整格unit或负二非零；原负二仍λ2NΩ²Σd_j I_j,-2，真正导数连接另保ζP卷积项和相同unit域，W全浅补仍按R801(20)承担。继续完整坏位/临界权或独立同源算术关系。
+
+### R806：原型四负二的准确算术身份
+
+原三线有完整order18角色与原Schwartz、全权平方及负二Katz公式；反射落权4中央root−，但同CM型Katz函数方程乘子+1，故不能换CM型强赋零。指定三项线性组合仍须证明非零，局部p²Euler不产生全球Soulé类，有限Artin周期/全W外部继续保留；详见[R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)。

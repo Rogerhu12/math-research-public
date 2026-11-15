@@ -11,3 +11,5 @@
 - **R801**：[原E深实际非零二阶来源与完整负二行](../results/R801-original-nonzero-second-e-source-and-complete-negative-two-row.md)。同q/58行/全E逆读取四辅助点，六θ系数非零；固定CM密度引理付旧ray两η/全N六坐标unit、真实Yunit正四×Z²矩unit。型四三维X³+ω给K上循环性，真实σ(2z)²σ(z)^26因子和JE二阶分割保；指定负二仍三值组合，ζ伴随项及完整W浅补不删。
 
 - **R805**：[原常数charge的全分支属门与全部profile真实秩界](../results/R805-original-constant-charge-genus-gate-and-all-profile-rank.md)。F0=λd^cH直接控制固定四纤维外全部正规零支，任意最高项移动极亦完整计入，目标p上得h≤6γ+2a+10b+2degH−6。故R743两真实连接/359κ/96单位秩门扩到原全部已分类格，去掉最高系数S-unit假设；同R指定forcing、全部余列和两13不删。
+
+- [R806](../results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)：已证明原型四三条完整十八阶Hecke角色/2、3、17处向量、原Schwartz和全权平方，负二准确为Katz值的三项平方根线性组合。负二反射落权4中央root−而同CM型Katz乘子+1，不能互换CM型强赋零；真高权差3、p²局部Euler及未付Artin/Soulé非零保留，原W全补偿不变。
