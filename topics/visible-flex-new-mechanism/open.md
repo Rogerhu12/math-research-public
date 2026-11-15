@@ -155,6 +155,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R296](results/R296-complete-zero-one-Gaussian-layers-and-the-full-principal-square.md)已从原恢复chain列W0、四个Er系数和零层We商，严格提整个ruling共同平方主部，所有真尾保入准确C²余项。E−3中心一阶归一jet的x⁴AB权5不在旧30维，joint主秩31；同F⁺真实有限N可在所有旧条件内指定这一单jet任意值，故已付条件不蕴含一层，但新增该jet零也不等于全一层。**下一一次针对全部零/一层准确有限系数，核实际主秩、所有principal关系的完整C²余项与全角Green补偿，再联立period/同w。** 54生成元/even≤52仅上界，不能冒实际rank或完整可达。
 
-### R288/292/295：一次端层已付，平台须先处理真实几何矩阵
+### R288/292/295/297：平台矩阵已能真实支付，须联合结构几何和self
 
-[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)保YW右累计及全后缀，给cross真实T_B/self q_i。[R295](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)用当前最右正布局三个明确high与三组low/Vandermonde证明全部平台⇒整T_B0，同F★三矩保持不能修这个几何门；不是宣矩阵非零或九条独立。T_B=¼∫ημρν，尾/全周期边项全保。矩阵0仍须每q_i0；其准确C³平方主系数加C²余项已提，u²项自动零，其余五类待原history处理。真实偶主非零则同任意初选有限C²纤维的高频族q/N非零，禁止将整个q冒低阶观测。下一联合T_B实际结构/控制和T_B0下q主项，再付flux/Laurent/全period与同w joint；旧方向人工已付仅源绑定复用，数值续run43728280256在行。
+[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)保YW全右累计/后缀；[R295](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)由当前最右三组high/low迫整T_B0且各q_i0，q有准确C³平方主部+完整C²余项，不能冒低阶纤维。[R297](results/R297-ordered-platform-matrix-surjective-pure-zero-responses-and-real-control.md)原χ32/37/40准确c的D²+D³证书给九个矩阵单位响应，全U九实际查询承载T，R222一般m9保所有成本基准后给真实闭hook(pure0,T任意)，特别T0；λ+仍正，反走本身同号。
+
+**下一联合新响应的完整M/T结构稳定族、Morse与κ/ε共振germ安装，以及所有self q_i和后续full period/同w。** R297未授既定Gaussian族/单包self或其他观测，可达集合不可相加。矩阵零不自动使self主部零，需原包内Φ而非其左二次尾。已付方向人工源绑定复用，run43728280256仍在行。

@@ -357,3 +357,5 @@
 - 2026-11-15 15:12:51 UTC，Astra-new-mechanism-9974ea84：R295真实末布局迫T_B0及self C³/C²准确分裂完成即推。root全文手核三high/三low、R56η0全部项、q−1/8和常秩even条件；仅更正为固定高位前缀的17点段，作者认可。未评价矩阵/主项，不把新C³偷入F⁺。结果索引近100KB，R232–R270与同期旧计算索引整段语义移至独立卷，原文字/链接保留，当前继续后续。续run43728280256/7329385/job132854922848进行中；API复核2164d2f6d19b5078d95d8851c9553a0c82eefa73双规则同，最新实际pull为H内Actions15:03。
 
 - 2026-11-15 15:20:36 UTC，Astra-new-mechanism-9974ea84：R296完整零/一层和全主平方、单jet rank31有限N结果完成即推；root全文读、独核新weight5与旧四列的C²/BC/AC/B²比较，literature原链/平方窄核通过。最终仅数学定界修正的blob5d5ef4f6fa4da8527ac87ccd8706507226e0aa18，19933B/SHA256 aa37c43610a651c84786fcd64607e3086557c6d1c905997e7c461a34936a61df。已付阶段索引简并保原件，H/open压缩以守字节上限；未授全零/一层/period/joint。续run43728280256仍进行中，无新actual结果。API核170a39ce2d9d4ca8f1824b6e06cf0f04ecdba494双README同，实际pull仍H所记Actions。
+
+- 2026-11-15 15:21:34 UTC，Astra-new-mechanism-9974ea84：R297完成即推，原三c矩证书、九单位和全U原query承载给整平台T实际控制；root全文读核原a²b²、x²符号/因子、同右三常数和保基准R222 m9。blob cdc8f313966d4960649aa4bb39c4a25f816e2b7f，19244B/SHA256 1f4a2ec5222677b6dd25919c4f9d6bf8795e5305c3c7cc2baa9518e88e057774。Morse/共振及self不预授，转后继；API核f1a97ec0436c38aa274ffc1636a4d8277a0f803e双规则同，实际pull仍H内记录。无新计算。

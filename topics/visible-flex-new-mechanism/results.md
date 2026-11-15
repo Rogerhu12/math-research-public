@@ -231,3 +231,10 @@
 [R296 完整证明](results/R296-complete-zero-one-Gaussian-layers-and-the-full-principal-square.md)保原W=0局部恢复、变化profile chain、中心比较We商和真实有尾配对，给W0/四个Er系数的完整公式；二层已付后的剩余恰为四奇Laurent系数全零与零层属于We。由local-r降阶、ell/Ψ准确恒等和原W_C恢复，整个ruling主项为−Σa_i²d_i∫(Q/h)Lσ[u_i]²(u_i''')²，余项是保全部真实Green/跨包尾的C²数据。
 
 归一E−3中心一阶jet有独立weight5 x⁴AB主行，旧30维增为31；κ²∈(0,.01)的实际共振安装下非零。同F⁺/12实际交替包正锥和31真Jac给有限N准确指定该单jet任意值，同时保所有已付二层/72面积/六能量/三矩/全third/解析正prefactor。这既证明旧门不蕴含一层，也可再付这一jet零；未称四一层函数或零层We商已付。54/even52只是通用symbol上界。root全文读并独核权5四列比较与有限N范围，literature窄核局部链/平方§§4–6通过；无新执行。
+
+
+## R297：整个平台三矩矩阵的九条真实响应及实际闭hook控制
+
+[R297 完整证明](results/R297-ordered-platform-matrix-surjective-pure-zero-responses-and-real-control.md)从原χ32/37/40的c系数重组准确D²+D³证书，三二次矩分别给μ0/64、−μ1/32、μ2/64；μ2完整保2(u′)²。左u/右v原响应的第二history经同右三常数准确为零，真实左尾给T(B_Aτ)=−¼∫cτ,uΦ_A(v²)。规范σ_i与原pj八矩使16B_pj(σ_i)恰映全部九矩单位，纯投影全零。
+
+T在全U由九个固定原跨包查询定义，实际pure校正期间亦合法。R222一般m9保prototype/纯校正的全部mixed基准、有限复制与真实Klein闭合，得到actual M0/TthirdκH/pure0且平台矩阵任意指定，特别全零；λ+仍严格正，真倒行仍同号。矩阵不必对称，正字符不能由它因子化。未保持既定Gaussian共振germ/Morse/全部self；不把独立满射拼成joint。单包q=−¼∫cτ,uΦ_A(u²)必须保整个包内原primitive。root全文核查询−¼/响应16、真实尾因子、D²矩及R222一般假设；无新执行。

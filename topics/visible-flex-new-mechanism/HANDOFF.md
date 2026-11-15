@@ -43,11 +43,11 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保results；当前一般完整支付见R293/294，不重复旧五量/七量研究。
 
-**R283/288当前紧微包的canonical一次端层已全付**：原真实平台齐次式给cross一次层¼hρ(Rf′−Rxf)减真实s端势，闭周期后三个hρ权矩；whole pure0才消对称三次加权历史。R288原R56证明i≠j的C(ui;uj²)整体局域outer包：Zj仿射分子常导数与紧Vi端差使P左尾0，B/η/W原canonical随之外零。各diagonal可有真尾，但actual universal pure在其解析左端逐个付三历史矩；同尾延续整个左域。故当前真实profile不交圆的所有内部Q_e=P_e[Wfc]均0，两mixed目标一次指数全消。平台P″、端flux、内部Laurent/全period/joint仍欠；不推广仅导数分包step或任意第三初值。
+**R283/288当前紧微包canonical一次端层已付**：原R56的i≠j C(ui;uj²)整体局域outer包，仿射Zj与紧Vi端差使P/B/η/W原canonical随之外零；diagonal保真尾而actual whole-pure逐解析左端付三历史矩。故所有内部Q_e=P_e[Wfc]0，两mixed一次指数全消。保右锚和全周期端势；不推广step或任意第三初值，平台P″/flux/Laurent/全period/joint仍欠。
 
 **R293/294全部二层history已付**：初选0<κ²<.01，R289普遍rank30；R286/R291两完整关系使全有限N32向量在同空间，≤30χ/原12包正锥及30真Jac根付全部π/2外矩/Lc/Mc。R294给任意pair真实β/六sl2和核Γ⁺；Khat=Kself−Γ⁺(m,m)/2经原local变分消C³²，仅线性u'''准确IBP成C²，平移≤10。**从起点新F⁺**含旧F和30×11校正self系数（条目非rank）；同F⁺格点十矩与总A01/A02/A12清全even余角，12副本清odd。R293合法F★扩展给同一正解析有限N圆，全部十对称乘积×三矩×全θ和72面积/六能量/三矩/全third同零，即整个二层Gaussian history。零/一层、完整ruling、平台/flux/Laurent/period/同w与最终几何仍欠，未称旧冻结F无偿增约束。
 
-**R292/295真实零平台门**：保YW右累计，Vθ=4Σ右i≤j a_i²d_jQij；cross双线性T_B仅三真矩/原m(s)，self q_i保完整尾。逐包R/T两后缀递推及最右正布局三组实际low/high Vandermonde迫**整T_B=0**；未知其零性/定号，条目非rank，同F⁺改shape不能代付。T_B=¼∫ημρν。即使T_B0仍逐包q_i0；q=−1/8∫[∫k(1+e²)Λ²/h ds](u''')²+完整C²余项，Λ保η0/真实m；u²主系数由M0零，其余未授零。真实even主非零时，同任意初选有限C²纤维可N^-5/2扰动令q/N非零，故不能偷加整个q为C²。下一T_B结构与其零下主项桥、全部period/joint。
+**R292/295/297平台矩阵**：原YW右累计给Vθ=4Σ右i≤j a_i²d_jQij；最右三组实际high/low和三矩Vandermonde迫整T_B0，仍须每self q_i0。R297原χ32/37/40的c=D²矩密度+D³项给σ=(64χ32,−32χ37,64χ40)，完整响应16B_pj(σ_i)映九矩单位；全U九原查询定义T，非独立赋history。R222 m9保所有baseline/纯校正和有限复制，actual闭hook可(pure0,T_B任意)，λ+仍正，真倒行同号。**未兼容既定Morse/共振germ/全部q_i**，不能拼不同满射。R295 q=−1/8∫[∫kQΛ²/h](u''')²+全C²，u²主项M0消；非零真实even主可同初选有限C²纤维高频放大，禁把整个q偷入C²。继续结构几何兼容/self/全period。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -59,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 170a39ce2d9d4ca8f1824b6e06cf0f04ecdba494，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main f1a97ec0436c38aa274ffc1636a4d8277a0f803e，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
