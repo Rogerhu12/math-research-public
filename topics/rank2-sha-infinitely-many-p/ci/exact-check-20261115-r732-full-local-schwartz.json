@@ -1,0 +1,22 @@
+{
+  "request_id": "rank2-20261115-r732-full-local-schwartz",
+  "run_id": 43703192796,
+  "source_commit": "112af4c4f7d0de0009ae673115b8ca142364de89",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r732-type-five-full-local-schwartz.py",
+      "script_sha256": "7ebdd96f29d5a6e0027b9de913dd596a055700511ba284005c3c7467fa5d6046",
+      "args": [],
+      "engine": "python3",
+      "sha256": "04a5b3c7f6125f60081be87f1eed437ba3fc327b77617b941031d1fa1f9924dd",
+      "stdout_bytes": 2775,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.9.0",
+  "job_id": 132778575004,
+  "workflow_run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43703192796",
+  "scope": "Exact complete original local Schwartz vectors at 2, 3 and 17 in Q(zeta24) and Q(zeta51), including full Gauss sums, half-period descent and absolute CM13 phases.",
+  "interpretation": "The local exact certificate passed. Arithmetic theta and negative Katz identifications, including shared periods and Euler factors, are proved separately rather than inferred solely from eigenvalues."
+}

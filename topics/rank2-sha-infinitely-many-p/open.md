@@ -260,3 +260,5 @@ R724附录C已付全环G/h的精确加法交数及完整平移二阶平均，含
 公开43702293882对同q715、ζ715和两真实核列的完整type5联合系统给rank5/核1维；实际J2=a+b、全π4=a。下一步使用固定5×5子式及旧实际CM密度付整逆，保持所有原正规来源/cut；旧五差reader的50不是q715的真实J2。R734负责这个完整构造，R735负责两线全有限角色/共同period/Katz识别，R733负责原两Kummer点的p-adic对数独立。全paired-T外部相反补偿仍须单独控制。
 
 [Brandt note](notes/2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)§7.3–7.4付原指定norm fibre的c_f>0及固定α的全原矩阵系数；δ=√−3二阶同步项准确等D_p。第一层全零因而需其余同步项补−2D_p，仍未排除真实p-dependent同步和。
+
+R733已付两实际Kummer点的全p椭圆对数Qbar线性独立；R734已付实际5×5整逆及原ray密度一上的新q*，整个冻结差落两线且所有系数在K。继续R735共同period/全有限角色/Katz负一身份，再处理完整T外部相反补偿；不从局部非零关闭O2。

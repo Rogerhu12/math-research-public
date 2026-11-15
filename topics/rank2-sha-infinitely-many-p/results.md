@@ -322,3 +322,7 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R732](results/R732-original-type-five-full-cm13-and-two-eigenlines.md)：已证明原整个五维型5的全CM13算子，最小多项式(T+1)(T+ω²)(T³+ω)、两条z5规范线及全部投影；完整primitive三维块、真实单位门与Katz负一识别仍保。
 
 - [R731](results/R731-specified-mirror-normal-jet-and-two-actual-smith-p-factors.md)：已证明指定镜轴类的唯一首法向阶ρ≤2κ−h及原低行Bockstein；在明确k+ρ<r门下，与cube组成真三角单位子式，显示饱和子格恰两条p因子。保高ρ分支、全WD其余低列、同R和两13carry，不冒完整原像非零。
+
+- [R733](results/R733-two-cubic-points-and-algebraic-independence-of-p-adic-logarithms.md)：已证明两实际三次扭点映至E1后具有不同Kummer角色、模扭End独立；全p的对数核及Fuchs–Pham定理给Qbar线性独立，微分尺度t/t²准确保。两原负矩仍须另付共同period和代数非零常数，未预付Katz或原中央非零。
+
+- [R734](results/R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：已证明同q715/ζ和两原核方向的完整5×5实际整逆，原CM密度给同ray密度一、全部N；新q*保原正规/π4及J2单位，整个冻结差准确落两条算术线，系数确在K。全部原T外部相反补偿仍保。

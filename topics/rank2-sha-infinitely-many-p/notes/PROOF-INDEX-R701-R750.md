@@ -90,3 +90,7 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - [R731](../results/R731-specified-mirror-normal-jet-and-two-actual-smith-p-factors.md)：已证明指定镜轴类的唯一首法向阶ρ≤2κ−h及原低行Bockstein；在明确k+ρ<r门下，与cube组成真三角单位子式，显示饱和子格恰两条p因子。保高ρ分支、全WD其余低列、同R和两13carry，不冒完整原像非零。
 
 - Brandt note §7.3–7.4：原指定norm fibre的对角主系数严格正；固定代数同步项由原split Hecke球系数读取，原δ二阶项全量等D_p，其余全同步补偿仍保。
+
+- [R733](../results/R733-two-cubic-points-and-algebraic-independence-of-p-adic-logarithms.md)：已证明两实际三次扭点映至E1后具有不同Kummer角色、模扭End独立；全p的对数核及Fuchs–Pham定理给Qbar线性独立，微分尺度t/t²准确保。两原负矩仍须另付共同period和代数非零常数，未预付Katz或原中央非零。
+
+- [R734](../results/R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：已证明同q715/ζ和两原核方向的完整5×5实际整逆，原CM密度给同ray密度一、全部N；新q*保原正规/π4及J2单位，整个冻结差准确落两条算术线，系数确在K。全部原T外部相反补偿仍保。
