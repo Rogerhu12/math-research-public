@@ -36,3 +36,5 @@
 - [request126：actual125末点连续原九控制临时批次接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)：独立原8方向×最多8批，完整原reader按batch保留，真status传自有recipe；入口已付，实际结果和非零完整场另付。
 
 - [九系数全部冻结的真正450维同度量重构与完整DN入口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)：070b9b35/1610d6fb，保全九末系数及两个原有限求值路径，K=k=0、338+112=450，真实父网格二分+全knots；源码/输入输出合同已付，实际接受场、闭面及连续证书另付。
+
+- [R287：actual126九控制八批64接受与完整读回](results/R287-actual126-eight-nine-control-batches.md)：112原外trial、20接受内tol=false，W279.1236575692574→49.739792814348064；所有科学final仍false，原九FD/Arb/圆与完整64方向段/8视图身份已核，同源真实末点继续。

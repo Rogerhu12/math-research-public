@@ -10,7 +10,7 @@
 
 [126原批次入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)从上述真实末点连续最多八个独立原八方向批次，每批radius=.1 reset，原8×20外回溯、12×20法向校正、W/.2Armijo、域/完整九列FD/Arb/圆/final不变。family086572f9/search824c0967/readerf57a7dfa保持，wrapper b15a6571/request7825a472、84+2源pin及own26闭包。每个真实status经过原reader后才传自己的recipe；compute按批框定完整primary和全部方向原段，report仅紧凑链。3600s只批间预算，75step/90job；预算或传输停止不是课题完成。
 
-真实run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270，09:27:51创建。完成后读真实所有批次的原方向、末点、域/FD、来源和停止理由；有真实推进就接下一实际末点，无推进则根据真实障碍改变设计，不能盲重复同策略或由时间宣布无根。低三通过也不替代高109非共振、完整112及非零场。
+[R287实际126](results/R287-actual126-eight-nine-control-batches.md)已结清：run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。八批各8接受/14外trial，共64接受/112trial，fresh W279.1236575692574→49.739792814348064，末unit首项−9.973944268492758且全部final仍false。20次接受内tol=false均由原完整Armijo裁决；8primary/64完整组/8完整view及各批域/FD/圆已读，八批数是唯一停止原因。临时raw全清；127据真第8末p准备原同源八批，不增控制或新门，尚未运行。低三通过仍不能替代高109/完整112/native非零场。
 
 此前三/四/六控制的实际106–121、归一化、微步全拒、补控制及传输责任见检查点与原notes。121第五正常summary93000B引fallback，wrapper70是传输停止；第五trial原件已删不能补造。当前126不重命名为121未保存现场。
 
@@ -30,7 +30,7 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 ### 2B. 原native有限精度与固定trace方向
 
-[113完整binary128实验](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)及[原输入修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已付。CPP1b59cd10/bridge3655c81a/probeba3564ca不改；完整226态RK、动量root、stageout-node、cut/far/129248残差保113位，原几何/tables/grid按原64词提升。同base+十α两policy交错，7200s独立child；partial后仍回原64完整32×10 loop/finalJ/audit。真实第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29创建，当前step14。不能从walltime或step名猜已完成具体内部阶段。
+[113完整binary128实验](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)及[原输入修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已付。CPP1b59cd10/bridge3655c81a/probeba3564ca不改；完整226态RK、动量root、stageout-node、cut/far/129248残差保113位，原几何/tables/grid按原64词提升。同base+十α两policy交错，7200s独立child；partial后仍回原64完整32×10 loop/finalJ/audit。真实第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，已terminal failure且owned cleanup成功，原日志已取；R288实际读取中。不能从walltime或step名猜已完成具体内部阶段。
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)和[JVP源](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)给实际有限root每步F/C、Cholesky、代回和226态RK固定分支变分，保C独立于F_e，不省近似solve的残差导数；不证明IEEE光滑、分支稳定或全224列J。[122实际入口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)由实际91原现场fresh全J/R273产生唯一packet，α0两policy实验，总7200s/首≤3600s；随后精确sentinel受控停止，原十trial/finalJ/audit未执行。run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59创建，当前step14。procedure成功、科学完成和native接受须分开，等待原日志。
 
@@ -40,7 +40,7 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)八fresh模型/FD均接受，但后七批最近拒绝集中未选MID471，末仅α1/2048，完整门仍false。末raw已清理，不能hash续算。
 
-[118入口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)从可恢复actual98原31父接真实32子，只加该实际MID471：32=20LEFT+12MID，capture/local8453/C4059/outside、λ270/17trial、全部FD/域门保持。worker336fc522、recipef5c0e2e6/request1a446102/workflow96eeef3b，八fresh模型、175step/185job。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11创建，当前step7。完整读回真实每pair再继续，不跨模型减W，不把预算冒无解。
+[118入口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)从可恢复actual98原31父接真实32子，只加该实际MID471：32=20LEFT+12MID，capture/local8453/C4059/outside、λ270/17trial、全部FD/域门保持。worker336fc522、recipef5c0e2e6/request1a446102/workflow96eeef3b，八fresh模型、175step/185job。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，已terminal success且owned cleanup成功，原日志已取；R289实际读取中。完整读回真实每pair再继续，不跨模型减W，不把预算冒无解。
 
 ## 3. 闭合与固定同一g精化
 
@@ -77,3 +77,5 @@ R286继续识别原stored profile的真实连续表达、浅冻结系数/全局w
 ## 5. 存储和原件维护
 
 104普通删除8184件已知可重算数据后课题168796207B，未知JSON未全分类，不声称全存储责任完成；不重存旧raw。新文件仅完整源码/参数/紧凑结论，H<10000B、各MD<100KB。旧results索引97869B原文同目录移到results-index-through-actual120.md，保全部相对链接。源码、模型接口和已出版证明不设额外review/fixture审批；真实科学一完成就读原输出、写结论并继续open。
+
+2026-11-15 09:31终端恢复后已重建公开库部分克隆并真实pull，双README原pin未变；后续恢复每push前/每小时真实pull规则，集成替代读取仅保故障期间历史。
