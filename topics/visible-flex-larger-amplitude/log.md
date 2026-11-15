@@ -327,3 +327,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 — actual131 完整读回与 R292
 
 公开run43703108343/source2d211e0d443605cb9d1a4923a1c04779ae0fb7f3两job success。原8primary/64完整方向组/8view/8stdout/chain逐字重建核身份，全部236外trial读取；64接受/172拒、18接受normal false，W6.426170559507028→5.003044586685377，全部原最终标志false。批2/8首全步跳降及批1/7 full-step ratio收缩例外直接写完整[R292](results/R292-actual131-eight-nine-control-batches.md)，无本地数学重算。原大status只读其日志身份，不伪称独立复取已清payload。真第8九p接134明确32批；后续继续完整112/H/native/闭场责任。
+
+## 2026-11-15 — R295 条件证明与 actual131→134 明确接续
+
+完整[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)按根规则12直接写results，保正阻尼下降/误差项/精确隐式曲线假设与129、131真实半径例外；不新增门。独立[134](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)发布4冻结接线：wrapper48045B/fd5d78f3、真131第8recipe2287B/bf8e80aa、request43351B/aaef1c38、workflow18690B/262e5175。原824c/0865/f57a、85+2/own26、32×原8方向/.1reset/3600s批间/75science90job。全32行/失败文字保留，实际超90KB明示不完整exit70；逐批原primary和全方向段在compute，raw消费清理。root已完整读新diff/接口/证明；仅源/语法/元数据工作，无本地science，推送触发本公开库实际run，结果未预填。

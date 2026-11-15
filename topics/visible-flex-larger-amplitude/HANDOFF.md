@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:28:09 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 66b6ac611787793fedb6f77c527d35628c1cf901；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 66b6ac611787793fedb6f77c527d35628c1cf901。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 10:29:03 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 061ca65129d2876b7d5e63e6f557e3fb760ed24c；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 061ca65129d2876b7d5e63e6f557e3fb760ed24c。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -20,7 +20,7 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 ## 九控制真实搜索与完整非零场
 
-[129 R291](results/R291-actual129-eight-nine-control-batches.md)run43701523658/aba485af八批W11.126800189953256→6.426170559507028；[131 R292](results/R292-actual131-eight-nine-control-batches.md)run43703108343/source2d211e0d443605cb9d1a4923a1c04779ae0fb7f3，compute132778318692/report132779364699 success。原8批64接受/236trial/172拒、18接受inner false；W→5.003044586685377，unit首−3.1632400428502723，全部final false。八批完整原primary/64groups/8views身份吻合，0域异常；b2/b8首全步跳降，b1/b7有全步ratio<.25仍缩半径，不把reset作唯一慢降原因。真末九p/status34841bea/primaryf6ce9ba6/view639aadd5/restart21bebe26保于R292；134正接此点扩32独立原8方向批，旧b15a/0865/824c/f57a科学门不改，不冒112/native接受。
+[129 R291](results/R291-actual129-eight-nine-control-batches.md)run43701523658/aba485af八批W11.126800189953256→6.426170559507028；[131 R292](results/R292-actual131-eight-nine-control-batches.md)run43703108343/source2d211e0d443605cb9d1a4923a1c04779ae0fb7f3，compute132778318692/report132779364699 success。原8批64接受/236trial/172拒、18接受inner false；W→5.003044586685377，unit首−3.1632400428502723，全部final false。八批完整原primary/64groups/8views身份吻合，0域异常；b2/b8首全步跳降，b1/b7有全步ratio<.25仍缩半径，不把reset作唯一慢降原因。真末九p/status34841bea/primaryf6ce9ba6/view639aadd5/restart21bebe26保于R292；[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)已接此真点：fd5d78f3新wrapper/85+2源/own26，最多32原8方向批、3600s仅批间、.1重置及0865/824c/f57a全部门不改；32计划行/未访null，90KB超限诚实exit70。recipebf8e80aa/requestaaef1c38/workflow262e5175，75science90job，待实际run，不冒112/native接受。[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)完整证明理想正阻尼下降/精确曲线首阶，仅条件结论，有限驻点/内层误差另负其责。
 
 [九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101/d075af46/c756ede7保00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)真127第8九p/λ=.001/fresh-circle；110pins/29closure/原4输入+2ready+78源、300min总/330science350job。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 

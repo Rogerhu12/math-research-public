@@ -74,3 +74,7 @@
 ## R292 — actual131 八个九控制批次的完整原读回
 
 [R292](results/R292-actual131-eight-nine-control-batches.md)：64接受/236试探/172拒绝、18接受inner false，W6.426170559507028→5.003044586685377，全部原最终标志仍false。保全8行FD/Arb/圆、首档跳降及全步缩半径例外、完整原日志与末点身份；不是非零native场。
+
+## R295 — 九控制半径更新与理想下降恒等式
+
+[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)完整给出正阻尼全三模型下降、有限驻点误差修正及精确曲线首阶条件；原reset事实不等于非线性慢降唯一原因。伴随[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)从actual131真实末点扩32原八方向批，未改变科学门或宣称收敛。
