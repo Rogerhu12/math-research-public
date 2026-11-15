@@ -362,3 +362,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 [R314 完整证明](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)在总V∈U∩kerπ上保原pure交叉身份，证明有序不交self的a²b²系数准确为μuᵀT(V)μv。用N_A=∫x<y j(x)ᵀAj(y)显式保九参数，减后不交可加。原完整二阶场给有限两阶双核：J²展开保真实左ℓ常数；两次IBP正规化保全部三角对角C²边项，两次Euler最高4/2/0阶递降迫所有双核0。
 
 故完整q=N_T+∫L(x,u,u′,u″,u‴)，T0 iff完整self局部；原最高平方与所有C²余项均保。九矩是准确非局部商，非把任意N_A授为canonical实现。局部quartic密度的Euler(L)全部六jet三次字面系数忠实，连同T给完整零判据。纯纸证，无新秩/科学执行；下一实际比较全canonical及响应坐标，Z18×E8仍非全部Rp0。
+
+
+## R308：真正导数 rank-two 的弱单 hook 圆，完整三阶 range 已建设性支付
+
+[R308 完整构造](results/R308-genuine-derivative-rank-two-circles-with-one-hook-and-complete-third-range.md)选紧f在严格内部为(x−b)^(5/2)，非零紧g放该内部曲段；AfW=0给完整右锚弱hook零，W非零在开集。三左实偶包的复幅平方由真实三点Vandermonde唯一解补三复矩，新增包W0，全局弱hook不变；双hook分类证第二hook必非零。
+
+在任意既定合法活动I内缩放放置八个完整配平副本，二阶场全局域，七次差分精确消四原三阶ruling。最后仅对完整θ forcing施原period/range：H(φ;ff−φ²)=sinθ H(g;ff)=0，不误要求四个形式槽各自periodic。得到同真实几何、同一新选seed目标的完整三阶圆及统一O(ε4)余差；不沿用旧seed的g，不授完整第四、嵌入/reach或有限flex。下一实际求本rank-two输入的全mixed/ordered第四条件。纯纸证，无新执行。
