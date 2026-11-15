@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43654510038",
   "run_attempt": "1",
@@ -346,6 +346,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:39:35.117465+00:00",
+      "before": "f79a02de25a789d6bf1c7046b9db855226a59c35",
+      "after": "cf0e519210820bae1bc817fdee9e76e699e5642c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -408,6 +416,11 @@
       "time": "2026-11-15T01:37:06.122546+00:00",
       "final": false,
       "commit": "6b251ed7a6a8e035d61032bcece5cd85e26006c3"
+    },
+    {
+      "time": "2026-11-15T01:39:34.593505+00:00",
+      "final": false,
+      "commit": "cf0e519210820bae1bc817fdee9e76e699e5642c"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -448,7 +461,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "f79a02de25a789d6bf1c7046b9db855226a59c35",
+  "last_read_commit": "cf0e519210820bae1bc817fdee9e76e699e5642c",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -654,9 +667,21 @@
     "slice_id": 0
   },
   "original_empty_failed_range_native_sha256": "dc228ecfc0ede41f5299c405b063233779c8471f1f1a0f302650bf83d1fb61c0",
-  "snapshot_utc": "2026-11-15T01:39:32.523943+00:00",
-  "wall_seconds": 6969.031572248,
+  "snapshot_utc": "2026-11-15T01:39:35.145570+00:00",
+  "wall_seconds": 6971.653200869,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 3934,
+      "sha256": "85ab3b1bedbc5363997941c6e2d23bd72f928e88fe1fc0966b67ba0dac9b4165"
+    },
+    {
+      "logical_file": "evidence/complete-range-matrix-summary.json",
+      "file": "evidence/complete-range-matrix-summary.json",
+      "bytes": 4293,
+      "sha256": "b90832de0ffdf680c06f71e9e69559398fc3e82e39053019ef8765b0c7aaa844"
+    },
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
       "file": "evidence/original-empty-range-outcome.json",
@@ -670,10 +695,66 @@
       "sha256": "3fc8ad70a74b9e501a5bff5b288f0c75775f6f5115655e54dcb66d06a488d025"
     },
     {
+      "logical_file": "evidence/scientific-array-origin-inventory-000.json",
+      "file": "evidence/scientific-array-origin-inventory-000.json",
+      "bytes": 30451,
+      "sha256": "a440f16cfcd37cf1a774bb605b05265c7fceef38c1b0e2a45ae3a22814f2e625"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-001.json",
+      "file": "evidence/scientific-array-origin-inventory-001.json",
+      "bytes": 30453,
+      "sha256": "15b790418a2ddf0bc6c4fadc76edce7fb8d0dd5a3c641a94c0c90fa4bf5ed7ce"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-002.json",
+      "file": "evidence/scientific-array-origin-inventory-002.json",
+      "bytes": 30454,
+      "sha256": "964a33efc49d39dd7a2634fab4d1013af29897bf7ecd54fdb930f1c03b2ffad1"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-003.json",
+      "file": "evidence/scientific-array-origin-inventory-003.json",
+      "bytes": 30454,
+      "sha256": "b62cf22e7423962402e567a97a85f8f53bbae25bf77d5bf97978cfe9b568c914"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-004.json",
+      "file": "evidence/scientific-array-origin-inventory-004.json",
+      "bytes": 30454,
+      "sha256": "692ae9e028bfb250392b806a145a111e98e06481c7f6258ed0ab8638c15d9233"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-005.json",
+      "file": "evidence/scientific-array-origin-inventory-005.json",
+      "bytes": 30454,
+      "sha256": "91841002caec68fc54d0eb63b04933dc9d4157cad73e092e7b9be6a1c733b394"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-006.json",
+      "file": "evidence/scientific-array-origin-inventory-006.json",
+      "bytes": 651,
+      "sha256": "fa203c54d9f57dab5570f21a4ef50df48ed17724cd144ffec5e0b7e988664873"
+    },
+    {
+      "logical_file": "evidence/selected-actual-matrix-row-budgets.json",
+      "file": "evidence/selected-actual-matrix-row-budgets.json",
+      "bytes": 6444,
+      "sha256": "4f5fedc1d44bb75ff94e6a8cc0788abf7a3b60891ececa58af614837a68f8d91"
+    },
+    {
       "logical_file": "native/complete-same-F-range-01.json.gz",
       "file": "native/complete-same-F-range-01.json.gz",
       "bytes": 1590415,
       "sha256": "57a7aeee07047a7fcf69369dd6ad017ab3ef572c86ee621c5fa0909cb2b24028"
     }
-  ]
+  ],
+  "complete_native_sha256": "57a7aeee07047a7fcf69369dd6ad017ab3ef572c86ee621c5fa0909cb2b24028",
+  "actual_scientific_gates": 13,
+  "actual_complete_local_matrix_cells": null,
+  "actual_new_matrix_cells_this_child": 192,
+  "complete_local_matrix_cells": 192,
+  "original_complete_success_reused_without_child": false,
+  "all_matrix_array_bytes_remain_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-15T01:39:34.820415+00:00"
 }
