@@ -141,3 +141,9 @@ root读L1–28全篇、原N12–15/23–28、R5–6/19–20、正片P1/14–16/2
 根完整阅读 science38667B/worker20935B/合同7819B/flow7232B，核257state×97输入的物理负伴随两行、独立mean与dummy、实际物理测度Gram、同QR全列代回、独立动作、精确保存的Hermite对象和失败前缀。根核247pins，原global Green234项零差异；读原ResumableHeadQR构造及公共worker继承，无旧target调用。静态括号审计通过，真正Python AST和所有新算术只在公开Actions运行。完整连续Hessian/Robin/mean/首段真实9/10/高投影尾明确未付。
 
 SCI `5cdff6d9f51db3e99a3a89738001856182b155ae46819c6c796acdceb8480a89`；worker `f83b29bcf559820a685f3cc66686126a08ac7ed0b1e2e0fc4a45f7cf6d70d19b`；manifest `a5260c946c731d3b50c3bdb2a76fa7aec7b653ad3bec6c9eb844b8bb37be982d`；flow `24a6963166940181b257cb2fd1e00d028e2624addef6173eeb4f89b0878ae453`。矩阵主run仍执行，group11 actual由根亲读child0/13门/192新，其他完成组按代理记录；未声称全5970。双README只读核 b5c4da4c7db72351778d01f4706c822728b02cf2 两blob不变。
+
+## 2026-11-15 01:18:36 UTC：完整外段 nonlocal 实际结论独推
+
+根亲读54355B process、3245B worker-process、4280B publication，复核完整native身份、child0/11全门、全部6半径/4359行/1324新+4复用转换。数学384.482964337秒、worker385.28394180199996秒；所有原target/FFT/导数/local/profiles/seams重算计数0。完整61274B process保SHA 9a7e1a4c…；摘要仅省重复27pin表。R.02完整自然case5517372B仅原Actions artifact，不拆/重压/重算；其余自然文件原SHA保存。实际负R.001源combined<4.814928e21、nonlocal<1.340022e20、mean<1.819444e18，全保独立mean及真物理seams范围。
+
+报告SHA256 `b2aba8e1271ee02a9b7792fed0b714e7ad55fac5b42705f45cf4e4737ae021ce`。01:05:50.526029 runner真pull到8ac6aab5fde97bb59c0788af507f64b62f4580ee，两README diff空；比H已核高根01:07:18更早故不替换最新pull。本次只读双README核 11b4c9a073579cef94cbe2f2cebf64fa09155676 blob均未变。继续b*改进、原seams/正端口与无限Schur，不把上界当下界或完成。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 actual：完整严格外段第一 Airy 修正的全部 old-circle 与独立 mean 源。** [实际报告](results/R133-supplement-actual-complete-strict-exterior-first-Airy-old-circle-sources.md)核公开 run43660841558 child0/11门、1324新同阶转换+4原inner转换、6profiles/4359积分；native `17112d96633634d463059cab37efcd1d4a71dbdbc956e2ac8ddeded63378790c`、process `aa106c220259fe511630652c2c3198adbd12b6fe8c9c24ca4c5516937c571ac2`。R=.001负combined<4.814928e21，九词与五个独立mean项完整；仍是粗upper，未得strong-return/cutoff或PDE族。
+
 - **R133 计算入口：完整 97 输入的物理帽伴随提案。** [合同](notes/2026-11-15-R133-cached-cap-adjoint-proposal-contract.md)及 247pin 公共 Actions 入口已装；完整 257 状态与 97 输入共享 QR，原 7908 whole 标量 jets 和 64 个补齐 midpoint 直接复用，原 234 pins 逐项不变。新数学尚未运行；浮点提案的完整连续残差、真边界、Hessian 与高到低 Gram 仍待实际支付。
 
 - **R133 补充 S1–16：完整除零强迫与根值剥离后的有序导数。** [证明](results/R133-supplement-complete-divided-forcing-and-root-subtracted-Airy-derivatives.md)（SHA256 `973ddf1c67e5f6135996a4468b1b2d0d29009fb7f1968f1a842609c59714533e`）用原 normalized-forcing 0..6、whole-old-product forcing 及真物理跳，给出累计 `gb/T`、负实参数角宽与先消可去奇点的完整二阶径向公式；保根均值和所有 M0 导数。尚无新数值界或完整强返回结论。
