@@ -46,6 +46,8 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 ### 1D. R259：实际82又八次全步接受，低三根仍未解
 
+[92独立内层求根接口](notes/2026-11-15-small-core-p3-inner-root-search-interface.md)及[唯一接线](notes/2026-11-15-request92-p3-inner-root-workflow-interface.md)已发布：真实90父5a4d、source3b48、workflow2e64115a/requesta8323622。内层只改p3、原d3阈值1e-8/12更新20回溯；初始投影单独付完整三merit/真实gdot/原.2 Armijo，失败保fresh父。外层eta.1/8方向20回溯，每档重新求p3并保实际非零d3；原full112/FD/Arb/零圆检查保持。不是IFT根或native接受，全部内层轨迹保留。root全文源/接口/两diff，100静态核71pins/7shell4inline通过；等待实际Actions原值，不以88诊断作门。
+
 [actual82完整结论](notes/2026-11-15-actual-request82-damped-resume-eight-full-steps.md)、[完整原status与读数](notes/2026-11-15-actual82-original-readout.json)、[完整字节审计](notes/2026-11-15-actual82-original-byte-audit.json)已保存。run43665944742/sourcef1a2c808/job132665204485，eta0.1八方向均首档alpha1接受，没有域/merit拒绝或回溯截断，八步预算用完。原merit15492237698.871288→11949245423.478903；finalp=[.07254576672993071,-.0403277008444164,-.11497411877394303]，单位三缺陷=[224.4830723005632,-154577.5000610159,2058.380235692375]。第二项绝对值改善，第一/第三项最终仍略高于初值；总merit下降不冒各项同时改善。candidate/success/native/nonzero仍false。
 
 54263B原status1e56d89c、70源/11原件/215检查保全，readout含完整原status。末FD三档7.60517568680229e-9/1.874469986361574e-9/5.09761710307341e-10；467 Arb叶/24split/0unresolved仅声明a/ap范围。完整699×453零core圆col3.8903884454211113e-16/BC0、原全部域通过，但不是非零幅度parent、强C2或真实连续R证明。大输入缺失payload处只按已有receipt跨绑定，原完整尾J本次未独立导出；81在actual78的高块不能继承到新p。

@@ -1,13 +1,13 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 90,
+  "request_number": 92,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual87 completed all eight eta=0.1 directions at the first alpha=1 trial without a rejection; the first unit residual increased and the second remains large. Continue once from its genuine final.parameters with the same ec9/1691/3b9 sources, changing the one explicit algorithm parameter eta from 0.1 to 0.01. Retain eight candidate directions, twenty original backtracks, the original three equations, actual gdot, unweighted merit, domain exceptions, Armijo factor, unit/full112 thresholds and all final FD/Arb/circle checks. The complete parent parameters are an initial guess only; fresh models are evaluated in Actions. This is not a same-matrix causal comparison, a claimed root, a nonzero parent or a guarantee that smaller eta descends. The separate saved85 diagnostic is not a prerequisite or acceptance gate for this candidate.",
-  "scientific_entry": "geometry_20261115_small_core_damped_resume.py",
-  "scientific_source_unchanged": true,
+  "rationale": "Actual90 accepted eight heavily backtracked eta0.01 directions but its third original unit defect grew to14843.921358477846; the original three-equation candidate is still unsolved. From its actual final.parameters, try one independent bounded nonlinear p3-inner-root candidate algorithm under the conditional R278 framework. First seek an actual original-unit d3 near-root, account for the initial projection with the complete three-merit/actual full-J slope/.2 Armijo, and only then construct an explicit eta0.1 column-scaled two-coordinate Schur model. Every outer trial resolves p3 and uses the same actual unweighted complete-three merit and original Armijo/domain responsibility. Retain actual residual error, full112 right readout and original final FD/Arb/circle diagnostics. Failed inner roots/projections remain probes, not accepted or nonzero parents. No exact IFT, future descent, native solve or BVP solution is claimed; saved85 spectrum is not a new prerequisite.",
+  "scientific_entry": "geometry_20261115_small_core_p3_inner_root_search.py",
+  "scientific_source_unchanged": false,
   "inputs": {
     "accepted": {
       "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
@@ -92,6 +92,7 @@
     "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
     "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
     "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "geometry_20261115_small_core_p3_inner_root_search.py": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9",
     "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
     "root_20261114_publish_actions.py": "22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca",
     "root_20261114_scaled_core.py": "8f9fe56da99c21ef9b1e585f6000b595aec5098b13bdda197634bba9f86a7c7a",
@@ -111,9 +112,9 @@
   },
   "diagnostic": {
     "parameters": [
-      0.057323451817869575,
-      0.002679377797021207,
-      -0.11058649307511116
+      0.04241436079648833,
+      0.02766947731512731,
+      -0.10800335072481342
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -125,12 +126,14 @@
     "physical_angle_grid": 2048,
     "material_and_boundary_angles": 4096,
     "original_RHS_workers": 1,
-    "damping": "0.01",
-    "candidate_steps": 8
+    "damping": "0.1",
+    "candidate_steps": 8,
+    "inner_newton_steps": 12,
+    "inner_backtracks": 20
   },
   "job_timeout_minutes": 60,
   "scientific_step_timeout_minutes": 45,
-  "output_directory": "small-core-damped-resume",
+  "output_directory": "small-core-p3-inner-root",
   "scope": {
     "original_complete_scalar_formula_and_three_supports": true,
     "all_112_by_112_actual_zero_slope_J_entries_read": true,
@@ -139,7 +142,7 @@
     "all_112_low_trial_right_residuals_reported": true,
     "high_free_core_Schur_computed": false,
     "high_mode_nonresonance_proved": false,
-    "non_diagonal_case_is_explicitly_incomplete_first_order_analysis": true,
+    "general_nondiagonal_case_not_silently_replaced_by_diagonal": true,
     "interval_real_scalar_expression_not_literal_program_roundoff": true,
     "circle_reference_not_nonzero_parent": true,
     "nonlinear_tail_called": false,
@@ -147,32 +150,40 @@
     "large_amplitude_goal_completed": false,
     "original_scientific_acceptance_gates_changed": false,
     "candidate_search_is_not_a_BVP_acceptance_gate": true,
-    "previous_actual_candidate_is_not_a_nonzero_parent": true,
-    "original_candidate_merit_and_domain_rules_unchanged": true,
-    "independent_column_scaled_LM_candidate_search_requested": true,
-    "explicit_positive_damping_cli_text": "0.01",
     "original_three_equation_and_jacobian_functions_reused": true,
-    "original_candidate_directional_derivative_computed": true,
-    "new_direction_rank_or_L2_is_not_an_extra_acceptance_gate": true,
-    "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
-    "design_parameter_search_not_claimed_one_fixed_metric": true,
+    "original_complete_three_merit_directional_derivative_computed": true,
+    "original_unweighted_three_merit_domain_and_point2_Armijo_retained": true,
+    "initial_p3_projection_has_separate_original_full_merit_acceptance_responsibility": true,
+    "failed_initial_projection_preserves_fresh_parent_as_last_accepted_point": true,
+    "inner_intermediate_points_are_root_finding_probes_not_accepted_outer_states": true,
+    "each_outer_trial_re_solves_original_p3_root": true,
+    "inner_only_changes_p3": true,
+    "inner_acceptance_is_actual_abs_original_d3_strict_decrease": true,
+    "inner_threshold_is_original_unit_1e_minus8": true,
+    "actual_third_residual_never_overwritten": true,
+    "finite_nonzero_original_J33_required_for_approximate_Schur_model": true,
+    "exact_inner_elimination_or_IFT_proved": false,
+    "independent_four_by_two_column_scaled_positive_damped_model": true,
+    "explicit_outer_positive_damping_cli_text": "0.1",
     "original_three_equation_residual_not_augmented_by_penalty": true,
-    "original_twenty_backtrack_budget_unchanged_from_actual87": true,
-    "original_eight_candidate_iteration_budget_unchanged_from_actual87": true,
+    "optional_same_model_two_dimensional_spectrum_is_not_a_gate": true,
+    "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
+    "unit_stop_and_complete112_candidate_flag_are_distinct": true,
+    "design_parameter_search_not_claimed_one_fixed_metric": true,
+    "all_original_twenty_outer_backtracks_retained": true,
+    "original_eight_outer_direction_budget_retained": true,
+    "new_twelve_update_twenty_trial_inner_budget_explicit": true,
+    "saved85_or_any_other_diagnostic_is_a_prerequisite": false,
     "only_literal_parent_final_parameters_reused": true,
     "parent_J_or_merit_or_state_reused": false,
-    "frozen1691_direction_function_imported_unchanged": true,
-    "explicit_real_parent_file_SHA256_required": true,
-    "same_resume_schema_preserved": true,
-    "same_positive_damping_as_immediate_actual87_parent": false,
-    "same_frozen_resume_source_as_immediate_actual87_parent": true,
-    "all_previous_accepted_full_steps_do_not_guarantee_next_descent": true,
-    "one_explicit_algorithm_parameter_changed": "damping_cli_text: 0.1 -> 0.01",
-    "same_nonlinear_equations_and_original_acceptance_checks": true,
-    "future_nonlinear_descent_from_smaller_damping_guaranteed": false,
-    "separate_saved_model_diagnostic_is_a_new_candidate_gate": false
+    "original_frozen_sources_not_modified": true,
+    "new_independent_producer_schema": true,
+    "same_frozen_resume_source_as_parent": false,
+    "frozen1691_direction_function_executed": false,
+    "future_root_or_nonlinear_descent_guaranteed": false,
+    "all_inner_calls_and_failures_retained": true
   },
-  "source_pin_scope": "Retain exactly all70 actual87 source pins, including the same ec9a56fd resume producer, frozen1691 direction engine and3b9 model/checks. Only the explicit positive damping argument changes from the parent0.1 to0.01. The original source already accepts a new positive damping argument with its own-schema parent; the parent damping stays in provenance and is not relabelled. Four original inputs, runtime and public78 restoration remain unchanged. Only the literal original final.parameters are reused.",
+  "source_pin_scope": "Retain all70 original request90 pins byte-for-byte and add exactly the independent R278 p3-inner-root candidate source. The original3b9 equation/J/description/Arb/circle functions execute unchanged; ec9/1691 are verified actual-parent provenance, not the new direction engine. Twelve consumed source identities are reported by the new producer. Four original mathematical inputs, runtime and public78 source restoration remain unchanged.",
   "proofs": [
     {
       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
@@ -189,91 +200,110 @@
     {
       "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-small-core-damped-resume-interface.md",
       "sha256": "439616d4594f767e7dae986e29fc856673b1833ba495a5aa01e2c935979c916f"
+    },
+    {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-small-core-p3-inner-root-search-interface.md",
+      "sha256": "ff0ba1d21a105b696d91a271044c4e5f3676fa0cf0ee0c47ed3ad418a97ac899"
     }
   ],
-  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb bytes, the same resume schema/status filename, ordinary pull/rebase/README checks, complete artifact, bounded publication and failure preservation. Actual87 publisher succeeded; no publisher source or size bound changes and no repeat of completed science for publication.",
-  "requested_at": "2026-11-15T02:53:32.352688+00:00",
+  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb, ordinary pull/rebase/README checks, complete artifact and bounded publication. The new status/schema/output directory are explicit. Full model evaluation JSONL is under large-arrays artifact-only; every inner report and partial failure remains in the complete artifact. No new scientific acceptance test is inserted into publication/readback.",
+  "requested_at": "2026-11-15T03:25:32.742779+00:00",
   "prior_candidate": {
-    "run_id": 43669359806,
-    "source_commit": "3c7c5eeffb4e234b92d15656378685ea434d91b8",
-    "job_id": 132675725853,
-    "artifact_id": 14142618899,
-    "artifact_bytes": 268956,
-    "artifact_zip_sha256": "252a1f9c535001d755cd7572bfdbb8708043a179664909bb3b2c5480d453eff4",
+    "run_id": 43670368504,
+    "source_commit": "4424f9c45f8866f54872e876430b8a3dd56aec1b",
+    "job_id": 132678845557,
+    "artifact_id": 14143584095,
+    "artifact_bytes": 269478,
+    "artifact_zip_sha256": "23c18e81de8e4f5d1492e818abf034437961d801bff54dcc0d59b493b179e7e1",
     "original_status": {
-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43669359806-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
-      "bytes": 54279,
-      "sha256": "e805446d14713957dd67e715d9d28193c14c20002e00b0a1ace2e4ac1c03dd80"
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43670368504-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+      "bytes": 60951,
+      "sha256": "5a4d157aa0bcada3cdd1d319adb419f23b94f52bfc1c945a3c6afe1207cb2f5a"
     },
     "original_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
     "producer_source_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
     "direction_engine_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
     "parameters_from_original_status_field": "final.parameters",
     "parameters": [
-      0.057323451817869575,
-      0.002679377797021207,
-      -0.11058649307511116
+      0.04241436079648833,
+      0.02766947731512731,
+      -0.10800335072481342
     ],
     "diagnostic_completed": true,
     "scientific_candidate_success": false,
     "low_mode_candidate_has_small_full_recorded_right_residual": false,
     "previous_candidate_iterations_attempted": 8,
     "previous_candidate_iterations_accepted": 8,
-    "all_previous_accepted_alphas": "1",
-    "previous_total_trial_records": 8,
-    "previous_trial_rejections": 0,
-    "previous_search_completed_requested_eight_iterations": true,
-    "previous_damping_cli_text": "0.1",
-    "new_explicit_damping_cli_text": "0.01",
-    "same_positive_damping_as_parent": false,
-    "previous_and_current_backtrack_budget": 20,
-    "previous_and_current_candidate_iteration_budget": 8,
-    "last_permitted_trial_alpha": "2^-19",
-    "original_four_mathematical_inputs_unchanged": true,
-    "original_frozen_model_and_checks_source_unchanged": true,
-    "frozen_direction_engine_source_unchanged": true,
-    "same_frozen_resume_producer_as_parent": true,
-    "new_resume_producer_is_explicitly_distinct": false,
+    "previous_total_trial_records": 48,
+    "previous_trial_rejections": 40,
+    "previous_accepted_alphas": [
+      0.0625,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.03125,
+      0.015625,
+      0.03125,
+      0.03125
+    ],
+    "previous_damping_cli_text": "0.01",
+    "new_explicit_outer_damping_cli_text": "0.1",
+    "new_algorithm_is_not_a_single_damping_parameter_comparison": true,
+    "original_final_unit_defects": [
+      229.78524027424547,
+      -149015.7614289278,
+      14843.921358477846
+    ],
+    "original_final_J33": -72000128.47538549,
+    "nonzero_partial_at_nonroot_does_not_prove_inner_root_existence": true,
     "old_circle_or_candidate_is_not_a_nonzero_parent": true,
-    "new_native_solve_or_high_core_Schur_or_transversality_claimed": false,
+    "only_literal_final_parameters_reused": true,
+    "parent_model_or_J_or_merit_reused": false,
     "scientific_step_conclusion": "success",
     "original_readback_step_conclusion": "success",
     "original_artifact_step_conclusion": "success",
     "publisher_step_conclusion": "success"
   },
   "imported_original_model_source_unchanged": true,
-  "output_status": "damped-resume-status.json",
-  "output_status_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+  "output_status": "p3-inner-root-status.json",
+  "output_status_schema": "R278-original-three-equation-approximate-p3-inner-root-LM-v1",
   "direction_model": {
-    "equations": "Original unweighted three resonance equations r(p)",
-    "column_scale": "D_j = hypot-reduced Euclidean norm of J[:,j]; exactly zero column uses D_j=1",
-    "scaled_matrix": "A = J D^-1; no row reweighting",
-    "augmented_least_squares": "[A; eta I_3] z approximately equals [-r; 0]",
-    "recovered_direction": "d = D^-1 z",
-    "damping_cli_text": "0.01",
-    "damping_units": "Dimensionless coefficient relative to the column-normalized model",
-    "original_merit_directional_derivative": "r dot (J d), computed from the actual recovered direction",
-    "rank_and_singular_values_are_diagnostics_only": true,
+    "original_equations": "Original unweighted unit d1,d2,d3 and full original3x3 J",
+    "approximate_inner_root": "Hold p1,p2 fixed; original p3 Newton with strict actual abs(d3) decrease; abs(d3)<=1e-8",
+    "schur": "K=J[:2,:2]-J[:2,2:3] J[2,:2]/J[2,2] only at an actually obtained near-root",
+    "column_scale": "D_j=hypot-reduced Euclidean norm of K[:,j]; exactly zero column uses1",
+    "scaled_matrix": "A=K D^-1; no residual row weighting",
+    "augmented_least_squares": "[A; eta I_2] z approximately equals [-d1;-d2;0;0]",
+    "recovered_direction": "v[:2]=D^-1 z; v3=-J[2,:2] v[:2]/J33",
+    "damping_cli_text": "0.1",
     "normal_equations_formed": false,
-    "damping_added_to_original_nonlinear_residual": false,
-    "all_three_columns_retained": true,
-    "implementation": "Imported exact frozen1691 damped_direction; unchanged formula and numerical calls"
+    "original_full_merit_slope": "d dot (J v), including the actually retained nonzero d3",
+    "actual_outer_trial": "Seed p+alpha v, re-solve p3, then test original full merit<=before+.2 alpha slope",
+    "initial_projection": "Actual total p3 root displacement at alpha1 must pass original full-merit gdot/Armijo or fresh parent is retained",
+    "approximate_root_is_not_an_IFT_proof": true,
+    "original_d3_not_set_to_zero": true
   },
-  "imported_frozen_direction_engine_source_unchanged": true,
+  "imported_frozen_direction_engine_source_unchanged": false,
   "source_chain": {
-    "resume_driver": {
-      "file": "geometry_20261115_small_core_damped_resume.py",
-      "bytes": 15452,
-      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a"
-    },
-    "damped_direction_engine": {
-      "file": "geometry_20261115_small_core_damped_search.py",
-      "bytes": 13733,
-      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
+    "independent_algorithm_entry": {
+      "file": "geometry_20261115_small_core_p3_inner_root_search.py",
+      "bytes": 43598,
+      "sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
     },
     "original_model_and_checks": {
       "file": "geometry_20261114_small_core_resonance.py",
       "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
+    },
+    "parent_resume_provenance_only": {
+      "file": "geometry_20261115_small_core_damped_resume.py",
+      "bytes": 15452,
+      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a"
+    },
+    "parent_direction_provenance_only": {
+      "file": "geometry_20261115_small_core_damped_search.py",
+      "bytes": 13733,
+      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
     }
-  }
+  },
+  "immutable_parent_direction_source_preserved_but_not_executed": true
 }
