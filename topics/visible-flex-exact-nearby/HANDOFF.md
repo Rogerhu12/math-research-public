@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:11:24 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:14:40 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 12:21:47定时及13:01非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar及log；ref不冒pull，每小时CLI继续。
-最近只读README核：373fa9bc253a9267acb320a23508cca6070d8f93；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4952e99e5082881f61fb15b47af0fe6da35b8bfc；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -50,5 +50,5 @@ E/H/A/R完整式保46b3c697同H与原文。MC/5d525aac更正旧summary身份：�
 
 单G的全部几何/waist/phase/matching条件保6d87bc850bc8150bd6acbe87ee9df5b885beaf3e同H及M/T/G/B/P原文：同η0、fullC0≤1e−4、|δν|≤1e−5、全B/C/Cmean/腰u0/Robin/设计phase，振幅只输出。一次height/frame与同轴盘/material phase完整保；141锚/26门不重算。
 
-规则15新增普通删除7件旧可重算R73/R84/R111输出2009912B，清单7cd779e4/5792B；恢复cd35520c121fafb4914a23f883b7b78a5668c2df:原path后核bytes/SHA，禁重算成功。旧R80/R57/R56链见71e2264旧H。P在d830399时投影199609669B是旧时点，当前每消费者另核200MB。
+规则15新普通删除5件旧R59/R6/RMS可重算输出920170B，清单400607de；精确恢复ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561:原path核bytes/SHA。旧7件2009912B/7cd779e4恢复cd35520c及R80/R57/R56全链保ec6c38bc同H/旧清单；禁重算成功。各新消费者实核200MB，不借旧容量结论。
 继续Green三HY→实际完整Schur、L1/强返回/truehigh、实际core/ν/waist全匹配、真实core图/γ迹门与连续tail闭合、单G全域几何。子问题完即接open下一项；未达总验收不收尾，不等用户，不因时长停。

@@ -269,12 +269,8 @@ full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
 可重算data/证书/新数组不入Git/Release/新artifact。
 原输入只从immutable公开commit/path或已有artifact临时恢复并核SHA。
 
-当前两件R57/R56旧computed输出清理run43697955403/1实际success：
-commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
-准确恢复a39a3783181ae671015efca4c55120d4269ad1c5/path。
-该提交topic198417837B，尚未含7082Bpublication与后续小稿；
-不是对未来main体积的预先保证。所有inputs/code/parameters/结论保。
-旧11834、后九件及R80恢复链在归档/原actual记录中持续有效。
+规则15继续普通删5件旧R59/R6/RMS可重算输出920170B，见[五件精确清单](notes/2026-11-15-five-additional-old-output-deletion-whitelist.json)。恢复ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561:原path并核bytes/SHA；代码、参数、小结论与失败说明保留，禁止重跑成功数学。
+旧R57/R56/R80/后7件所有成功删除/恢复链保ec6c38bc同open/H及原清单；各新消费者实核200MB。
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。

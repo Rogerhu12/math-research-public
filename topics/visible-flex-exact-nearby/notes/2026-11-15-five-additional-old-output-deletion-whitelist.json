@@ -1,0 +1,80 @@
+{
+  "kind": "metadata_only_five_additional_reproducible_output_deletions",
+  "repository": "Rogerhu12/math-research-public",
+  "immutable_restore_commit": "ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561",
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_parameter_modulus_complex_angle_1over64.json.gz",
+      "git_blob_sha": "64a10df2d7205f763c68639adc0e263b1d99c07d",
+      "bytes": 311651,
+      "sha256": "8602a50ee557309410c7f8a23a8b8602665b528d93dcb6f56dff1665f97929e2",
+      "sha256_provenance": "retained original small primary; binary body not read in this session",
+      "classification": "complete original R59 592-cell modulus output; exact generator and successful scope retained",
+      "classification_primary": "notes/2026-11-12-R59-full-strip-and-collar-independent-review.md"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_center.json.gz",
+      "git_blob_sha": "a8ffe2ffd9d6ec7c832e144407da4ca37b332df9",
+      "bytes": 221076,
+      "sha256": "b1e6f7fbed9d05c69339376904965fd28b5f79a59c01ea6d6e0f848cda76f799",
+      "sha256_provenance": "retained original small primary; binary body not read in this session",
+      "classification": "complete original central parameter density output; scripts parameters and exact input/output identities retained",
+      "classification_primary": "notes/2026-11-12-R6-even-grid-parameter-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_center_power2_guard_failure.json.gz",
+      "git_blob_sha": "1c751091186eba98bf09078484134c47e715d137",
+      "bytes": 21295,
+      "sha256": "21e65877c136531f0a7fab0590c5491cb7cf383c7559663f0df7137da61f2bd0",
+      "sha256_provenance": "retained original small primary; binary body not read in this session",
+      "classification": "explicitly failed original power2 guard output; failure interpretation and original initial/fixed algorithms retained",
+      "classification_primary": "notes/2026-11-12-R6-even-grid-parameter-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density18_R6_Q384_uniform.json.gz",
+      "git_blob_sha": "117657e7760e50347af0eaceeea494af2e8e81c8",
+      "bytes": 134661,
+      "sha256": "6fdf174ea6dbb46a6fd7c8a55642bde1011bbec9f89f16cbd6246dd6bf7b1179",
+      "sha256_provenance": "retained original small primary; binary body not read in this session",
+      "classification": "complete original uniform parameter density output; full parameter scope retained",
+      "classification_primary": "notes/2026-11-12-R6-even-grid-parameter-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_uniform_parameter_density419_h1e9_l2_degree.json.gz",
+      "git_blob_sha": "0ae48353c34a9819b714464d0feb5dfaf2d26f02",
+      "bytes": 231487,
+      "sha256": "9d0c40737eb6743d20867a7cb7e4aefddf2f4169d4e503ab97dafea817666bfb",
+      "sha256_provenance": "retained original small primary; binary body not read in this session",
+      "classification": "complete original degree-adapted RMS parameter density output; full eta scope and failed prior probes retained",
+      "classification_primary": "notes/2026-11-12-parameter-rms-hybrid-prefix-ready-manifest.json"
+    }
+  ],
+  "exact_metadata_total_bytes": 920170,
+  "original_binary_or_gzip_bodies_read": false,
+  "new_scientific_computation": 0,
+  "original_scripts_parameters_small_conclusions_and_failure_proofs_retained": true,
+  "input_seed_arrays_deleted": false,
+  "normal_deletion_only": true,
+  "history_rewritten": false,
+  "restore_instruction": "git show <immutable_restore_commit>:<exact path> into the public runner temporary directory, then verify Git blob, bytes and retained original SHA256; do not rerun completed mathematics",
+  "primary_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R59-full-strip-and-collar-independent-review.md",
+      "blob": "e4830d06d3f1f15628a962b22b3c41e22df30ce6",
+      "bytes": 3967,
+      "sha256": "6a3c921fe2cbddb1f6407478e4c720ebc6815f8e01ce56f169d23d4a4bae25fb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R6-even-grid-parameter-ready-manifest.json",
+      "blob": "d94a1ecce9002e6f8e5d4135653348b3f54191dc",
+      "bytes": 12379,
+      "sha256": "688780747826ae4ba9656a6c27432929bf3f34844d183aa7b9a94bdae19379bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-parameter-rms-hybrid-prefix-ready-manifest.json",
+      "blob": "31f51a6bd02a17cb137857a2fea49eb8411acd2e",
+      "bytes": 57994,
+      "sha256": "a5252a60eb082a54c89259a45c8f82fa7965de0eff1843c26337d8e10030324e"
+    }
+  ]
+}
