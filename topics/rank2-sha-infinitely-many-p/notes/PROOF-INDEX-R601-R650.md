@@ -135,3 +135,6 @@
 
 
 - [R642：完整中央余因子在原第三精度的整单位运输](../results/R642-complete-central-remainder-and-original-third-precision-unit.md)：保首Gaussian的实际辅助矩阵只受标准第三块p²幂零目标单位作用；F2s整性、ell+13长度和两13carry全部保持。同一个P/R已经过原p²门后第二代表逐项相同，不将完整中央删除或一般目标也称整共轭。
+
+
+- [R641：完整中央正规部的准确边界与五源全线性空间](../results/R641-complete-central-remainders-exact-boundary-and-full-linear-span.md)：原H边界简单根和真实阶2/5/28/38/66付五正规来源任意正幂准确RE；共同(N,6)1幂的整个线性空间交闭Tate只有常数。完整规范T首项单位并排所有边界单位根，h/Ec全部正幂亦准确RE；保来源次数，未将线性结论外推全多项式旗标。

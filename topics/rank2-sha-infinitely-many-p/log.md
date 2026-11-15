@@ -567,3 +567,5 @@
 - 2026-11-15 01:23:59 UTC / Astra-rank2-Sha-continue：R639以原CM除法整极限付完整h/Ec规范、J全carry和整个R_E内中央连接的唯一逆，原点准确仍同j；两临界窗不变、中央投影全范围在同p域。真实多charge/帽/旗标成本保留；H全归档，实际pull仍无环境并核最新两README，续R641全来源接口。
 
 - 2026-11-15 01:29:31 UTC / Astra-rank2-Sha-continue：R642付完整中央余因子在原Γ+第三精度的实际目标幂零unit运输，先保κ=34c及首Gaussian；同P/R的第二代表准确不变，两13carry全保。实际pull仍无环境，核两README，R637真实高尾与R641完整正规部边界继续。
+
+- 2026-11-15 01:32:25 UTC / Astra-rank2-Sha-continue：R641以原H边界简单根付五正规来源全部正幂准确RE及共同coprime6幂的全线性非Tate；真实H阶/全部单位和h/Ec边界非根号一均付，不外推全多项式旗标。H/open先完整归档；实际pull仍无环境，核两README，续原全源传播与R636/R637/R638。
