@@ -319,3 +319,8 @@
 - R811真实R824来源AB乘法子类及runner/pending全文核完并保存：core9760b10a/methodb700c4ca/runnerd56f069a/requeste22ef04a。原849bca27框架不动，避免破坏运行中R815；三个来源保原W、新AB、旧S5各自tag。
 - root核全部来源字段/normal尺度一次、原8点插值/CRT/9点完整交换子/第二图继承与全部manifest续接；仅pending，既不启动缺真AB的算术，也不把矩阵当极理想/η。若R824较小路线完成可绕过这些大矩阵。
 - 2026-11-15T17:17:07.230842+00:00实际pull/read 2f470d6fffc1fe2bc7b7ffc85829aa41c54ac4a0两README无diff；4个公开数学任务继续，主目标OPEN。
+
+### 2026-11-16 01:21（Asia/Taipei）｜serre-public-astra-20261115
+- R825新AB真实来源子类、runner及pending全文核并保存：coref09fae2b/methodfa3d8a19/runner43b00855/request46d478e4；原89579f79与849bca27不改，分别消费新AB/旧S5/真R815/R820，全部原导数/两图/cusp算术直接继承。
+- 原比值换共同函数倍时δc项相消，28原字段与σ额外齐次项保留；成功也只产真实normal导数，不冒称P/Q完整算子、D、eta或高度。旧H逐字归档，H与open同步当前五个pending入口、4活跃run及真实输入到期边界。
+- 2026-11-15T17:19:14.909803+00:00实际pull/read 1c956eae7d8a1f51887568a0d26dd62c0584aa10两README无diff；没有激活未知产物，主目标OPEN。

@@ -1,0 +1,103 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R825-original-normal-derivatives-from-R824-normal-vectors",
+    "p": 41,
+    "requested_stage": "original_a_b_normal_derivatives_in_two_charts",
+    "requested_targets": [
+      "A",
+      "B"
+    ],
+    "budget_minutes": 300,
+    "matrix_row_block_size": 16,
+    "producer_inputs_pending": true,
+    "core": "R825_original_normal_derivatives_from_R824.py",
+    "core_sha256": "f09fae2ba8ab06672f3b2ff3088cec16bd8a5b2442da8f999adbddc8d175e735",
+    "wrapper_sha256": "43b00855c078ea9de19a57ce6746cc8ec32e77dfc3152e01267510a00469d3eb",
+    "framework": "R811_original_regular_multipliers.py",
+    "framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proof": "results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md",
+    "R825_proof_sha256": "73f9f293f0a0526a2f1eed8b62aea562b659090b546d1e122c0e12dbd1f90930",
+    "method": "notes/R825-original-R824-normal-input-consumer-method.md",
+    "R825_adapter_method_sha256": "fa3d8a19fa1dfdecbd68a903667b506e94a338a073c19bde2a907afe83d227af",
+    "workflow": ".github/workflows/serre-p41-original-normal-derivatives-from-R824.yml",
+    "retained_artifacts": {
+      "R809": {
+        "result": "R809-original-A-B-normal-coordinates-from-R824",
+        "run_id": "PENDING",
+        "source_commit": "PENDING",
+        "artifact_id": "PENDING",
+        "artifact_name": "PENDING",
+        "archive_sha256": "PENDING",
+        "archive_bytes": "PENDING",
+        "manifest_sha256": "PENDING",
+        "core_sha256": "cdc381fc5e1b9dfab705608f1d62a8ab80b282984479499a6edd635ea05fa62b",
+        "certificate_name": "p41-original-A-B-normal-coordinates-from-R824-certificate.json",
+        "files": {
+          "p41-original-A-B-normal-coordinates-from-R824-certificate.json": "PENDING"
+        },
+        "expected_conclusion": "success"
+      },
+      "R815": {
+        "result": "R815-original-normal-derivation-operators",
+        "run_id": "PENDING",
+        "source_commit": "PENDING",
+        "artifact_id": "PENDING",
+        "artifact_name": "PENDING",
+        "archive_sha256": "PENDING",
+        "manifest_sha256": "PENDING",
+        "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+        "certificate_name": "p41-original-normal-derivation-operator-certificate.json",
+        "files": {
+          "p41-original-normal-derivation-operator-certificate.json": "PENDING"
+        },
+        "expected_conclusion": "success"
+      },
+      "R820": {
+        "result": "R820-original-cusp-finite-algebra-and-ideals",
+        "run_id": "43721747750",
+        "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2",
+        "artifact_id": 14164872449,
+        "artifact_name": "serre-global-R820-original-cusp-finite-algebra-and-ideals-43721747750-1",
+        "archive_sha256": "d09c6d70facec7870121cba30b13371bb672fbfd83cd9914e29ee1cfb1e9d11c",
+        "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+        "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+        "certificate_name": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+        "files": {
+          "p41-original-cusp-finite-algebra-ideals-certificate.json": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+        },
+        "expected_conclusion": "success"
+      },
+      "R809_basis": {
+        "archive_bytes": 545778174,
+        "archive_sha256": "1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550",
+        "artifact_id": 14168728276,
+        "artifact_name": "serre-global-R809-original-S5-normal-coordinates-43712427063-1",
+        "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+        "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+        "expected_conclusion": "success",
+        "files": {
+          "R809-S5-basis-index.json.gz": "f6f6f0ee2bae106ef474d2cff32c743b1d8e0a886f80c26aaf8708c89ea1c119",
+          "R809-accepted-S5-short-minor.json.gz": "d631c02412ed53edae3a37c54eee3e8ebbe5d196ead69a9532767bc9f2cdea9b",
+          "R809-prime-1000000007-short-rank.json.gz": "763b8c2dfc15bd3950dfbd2fca7f0c79c33a0f51cfffab1a9468fd8ff29a5e3f",
+          "R809-stage-manifest-be80c72a2878d432657a3f61.json.gz": "23757c1106143c109b20cc78b6e21cb77d35279cc716882b7650232392e8ff64",
+          "p41-original-S5-normal-coordinate-certificate.json": "8c117fa17d7ecf423307c850681fa6062f10534fbb2a444502c514bf9f0d9948"
+        },
+        "manifest_sha256": "84908131c5a232d7accf5919a999c0bfbae4b2b632dcfc03c1e634494ef27b4e",
+        "result": "R809-original-S5-normal-coordinates",
+        "run_id": "43712427063",
+        "source_commit": "91fbd81eb539c07f11e21116e71def91fdab5254"
+      }
+    },
+    "resume": null,
+    "derivative_framework": "R825_original_normal_derivative_inputs.py",
+    "derivative_framework_sha256": "89579f796e0f62132b37aa081719f7e7a7d62b87e7ef789d19289a8edaa462e1",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "pending_reason": "The actual old R809 S5 success and original R820 cusp success are pinned. The new R824-origin A/B normal producer and complete original R815 operator producer remain pending. No output is synthesized and no old arithmetic is rerun."
+  }
+}

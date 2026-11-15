@@ -1,0 +1,75 @@
+name: Serre p41 original normal derivatives from actual R824 normal vectors
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R825-public-original-normal-derivatives-from-R824-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R825-normal-derivatives-from-R824
+  cancel-in-progress: false
+
+jobs:
+  compute:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R825_original_normal_derivatives_from_R824.py
+            /topics/serre-uniformity/scripts/R825_public_original_normal_derivatives_from_R824.py
+            /topics/serre-uniformity/scripts/R825_original_normal_derivative_inputs.py
+            /topics/serre-uniformity/scripts/R811_original_regular_multipliers.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md
+            /topics/serre-uniformity/notes/R825-original-R824-normal-input-consumer-method.md
+            /topics/serre-uniformity/notes/R825-public-original-normal-derivatives-from-R824-request.json
+            /.github/workflows/serre-p41-original-normal-derivatives-from-R824.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse all frozen sources without importing mathematical cores
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root = Path("topics/serre-uniformity/scripts")
+          for name in ("R825_original_normal_derivatives_from_R824.py",
+                       "R825_public_original_normal_derivatives_from_R824.py",
+                       "R825_original_normal_derivative_inputs.py",
+                       "R811_original_regular_multipliers.py",
+                       "R824_public_original_global_polar_generators.py"):
+              path = root/name
+              ast.parse(path.read_text(), filename=str(path))
+              print("AST_OK", name)
+          PY
+      - name: Install the fixed exact arithmetic dependency
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume the true normal inputs with the frozen two-chart derivative arithmetic
+        run: python topics/serre-uniformity/scripts/R825_public_original_normal_derivatives_from_R824.py compute
+      - name: Verify the original input closure and all completed derivative certificates
+        run: python topics/serre-uniformity/scripts/R825_public_original_normal_derivatives_from_R824.py verify
+      - name: Keep the one-day active continuation and original inputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R825-original-normal-derivatives-from-R824-normal-vectors-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R825-original-normal-derivatives-from-R824-normal-vectors/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
