@@ -691,3 +691,5 @@
 - 2026-11-15 05:05:55 UTC / Astra-rank2-Sha-continue：R685付同q♯全部新质量、固定A_T及整Mellin的CD外消去；余CD内真实补偿T143/S≥145且Q亦消中央列，原13步共轭/三高尾全保。附脚本并准确区分首次V8标签；题属公开small-check workflow执行取真实run/hash，不存输出、不作正文门。实际04:57:52 pull/两README无变回执同存；R687已推269fa393，续R686/R688–690。
 
 - 2026-11-15 05:11:56 UTC / Astra-rank2-Sha-continue：R688付原全除点域/唯一p位与norm1，严格消μp相位；偶p+1除点的负号全保，得pd幂与原Pζ准确p幂。全部边界零回真实有限Kummer和，正确分支及中央缺口保；R685已推199268b8，H先完整归档压缩，续R686/R689–691及规则15依赖清单。
+
+- 2026-11-15 05:13:27 UTC / Astra-rank2-Sha-continue：R690自含原R594/679算法及完整W十三jet脚本交公开Actions，无输出入库；small-check仅日志有限报告+SHA256。规则15审计补真实generator/checker角色，发现3个旧-partN校验输入，修正原只匹配.part的库存pattern；不据同名脚本误删输入。R688已推7e2ed0f6，继续原关系和确认可重算输出清理。

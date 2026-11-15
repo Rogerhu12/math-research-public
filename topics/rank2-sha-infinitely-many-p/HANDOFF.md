@@ -6,9 +6,9 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：7a697aae7ac13e6202ea021fac01a3469a8bacc2；2026-11-15 05:11:57 UTC核两README无变。实际CI pull 2026-11-15 04:57:52 UTC/1c3254d34c342e7a81234c09a01fdb5df700efe8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:11:56 UTC仍无环境。最迟2026-11-15 05:45 UTC再实际pull。
+- 最近已读规则提交：d910d1641a56930c6720c46bd44b7208a3958ebd；2026-11-15 05:13:28 UTC核两README无变。实际CI pull 2026-11-15 04:57:52 UTC/1c3254d34c342e7a81234c09a01fdb5df700efe8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:13:27 UTC仍无环境。最迟2026-11-15 05:45 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
-- 规则15新版已仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算证书/数据/Actions输出一律不存repo/Release，只留脚本参数run/SHA256，禁part/5MB且目录≤200MB。04:47库存29.8MB无超限；新Actions只读本题输出/计算SHA256并产immutable清单blob，不改ref；先核producer及依赖再普通删除，保历史与临时复现。
+- 规则15新版已仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算证书/数据/Actions输出一律不存repo/Release，只留脚本参数run/SHA256，禁part/5MB且目录≤200MB。04:47库存29.8MB无超限；首audit43679094272仅配同名脚本，现补实际generator/checker角色。已发现3个旧-partN校验输入，先前part扫描仅匹配.part；新pattern已改。仅移除确认可生成输出，保无法由已提交脚本重建的证据。R690纯脚本公开计算已请求。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 

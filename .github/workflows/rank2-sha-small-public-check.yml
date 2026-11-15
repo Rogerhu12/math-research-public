@@ -42,10 +42,17 @@ jobs:
               args = item.get("args", [])
               if not isinstance(args, list) or not all(isinstance(x, str) for x in args):
                   raise RuntimeError("Invalid arguments")
-              result = subprocess.run([engine, str(root / str(script)), *args], cwd=root, check=True, capture_output=True)
+              result = subprocess.run([engine, str(root / str(script)), *args], cwd=root, capture_output=True)
+              if result.returncode:
+                  print(result.stderr.decode("utf-8", errors="replace")[-8000:])
+                  raise RuntimeError("Check failed: " + str(script))
               digest = hashlib.sha256(result.stdout).hexdigest()
-              if digest != item["expected_sha256"]:
+              if item.get("expected_sha256") and digest != item["expected_sha256"]:
                   raise RuntimeError("Output hash mismatch for " + str(script) + ": " + digest)
+              if item.get("include_stdout"):
+                  if len(result.stdout) > 60000:
+                      raise RuntimeError("Requested report exceeds API text budget; keep hashes and request a smaller computed summary")
+                  print("RANK2_EXACT_STDOUT " + json.dumps({"script": str(script), "result": json.loads(result.stdout)}))
               records.append({"script": str(script), "args": args, "engine": engine, "sha256": digest, "stdout_bytes": len(result.stdout), "exit_code": result.returncode})
           print("RANK2_PUBLIC_EXACT_CHECK " + json.dumps({"request_id": request["request_id"], "run_id": int(os.environ["GITHUB_RUN_ID"]), "source_commit": os.environ["GITHUB_SHA"], "checks": records, "outputs_persisted": False}))
           PY

@@ -30,16 +30,25 @@ for p in files:
     while pathlib.Path(stem).suffix.lower() in OUTPUTS:
         stem = pathlib.Path(stem).stem
     exact = by_stem.get(stem.lower(), [])
+    split_stem = re.sub(r"[-_.]part\d+$", "", stem.lower())
+    split_candidates = by_stem.get(split_stem, []) if split_stem != stem.lower() else []
     match = re.search(r"(?:^|[-_])r(\d+)(?:[-_.]|$)", p.name.lower())
     number = int(match.group(1)) if match else None
-    candidates = exact or by_round.get(number, [])
+    candidates = exact or split_candidates or by_round.get(number, [])
+    source_details = []
+    for producer in candidates:
+        code = producer.read_text(encoding="utf-8")
+        owns_reference = p.name in code or (stem + ".json") in code or "with_suffix" in code or (".replace(" in code and ".json" in code)
+        emits_json = ("JSON.stringify" in code and ("process.stdout" in code or "console.log" in code)) or "json.dump" in code
+        role = "split_certificate_input" if split_candidates else "self_referenced_input" if owns_reference else "computed_json_output" if emits_json else "unresolved"
+        source_details.append({"script": producer.relative_to(ROOT).as_posix(), "sha256": hashlib.sha256(code.encode()).hexdigest(), "role": role, "self_reference": owns_reference, "emits_json": emits_json})
     record = {
         "path": p.relative_to(ROOT).as_posix(), "bytes": p.stat().st_size,
         "sha256": hashlib.sha256(p.read_bytes()).hexdigest(),
         "git_blob": git("rev-parse", SOURCE + ":" + p.relative_to(ROOT).as_posix()).decode().strip(),
         "producer_candidates": [x.relative_to(ROOT).as_posix() for x in candidates],
-        "producer_match": "same_stem" if exact else "same_result_number" if candidates else "unresolved",
-        "result_number": number,
+        "producer_match": "same_stem" if exact else "split_input_stem" if split_candidates else "same_result_number" if candidates else "unresolved",
+        "result_number": number, "source_details": source_details,
     }
     (records if exact else uncertain).append(record)
 references = []

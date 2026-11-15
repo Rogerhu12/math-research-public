@@ -66,7 +66,7 @@ jobs:
           topic_sha = next(x["sha"] for x in tree(topics_sha) if x["path"] == "rank2-sha-infinitely-many-p")
           entries = [x for x in tree(topic_sha, True) if x["type"] == "blob"]
           large = [{"path": x["path"], "bytes": x["size"], "sha": x["sha"]} for x in entries if x["size"] > 5000000]
-          parts = [{"path": x["path"], "bytes": x["size"], "sha": x["sha"]} for x in entries if re.search(r"\.part\d+($|\.)", x["path"])]
+          parts = [{"path": x["path"], "bytes": x["size"], "sha": x["sha"]} for x in entries if re.search(r"[._-]part\d+($|\.)", x["path"])]
           inventory = {"kind": "rank2_rule15_inventory", "head": head, "tree": topic_sha, "blob_count": len(entries), "total_bytes": sum(x["size"] for x in entries), "limit_bytes": 200000000, "over_5mb_count": len(large), "part_count": len(parts), "over_5mb": large[:100], "parts": parts[:100], "lists_complete": len(large) <= 100 and len(parts) <= 100}
           print("RANK2_RULE15_INVENTORY " + json.dumps(inventory, ensure_ascii=False))
           PY
