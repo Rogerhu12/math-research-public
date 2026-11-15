@@ -437,7 +437,7 @@ def main():
             if row["name"]!=key or len(coeff[key])!=9:raise ValueError("a complete original leading prefix changed")
             for degree in range(9,15):
                 v=tstage("leading-"+key+"-degree-"+str(degree).zfill(3))
-                if v["name"]!=key or v["degree"]!=degree:raise ValueError("a saved appended leading degree changed")
+                if v["name"]!="leading-"+key or v["degree"]!=degree:raise ValueError("a saved appended leading degree changed")
                 coeff[key].append(L.LP.restore(v["coefficient"]))
         for key in ("F0","F1","f0","f1","Z0","Z1","w1a","w1b"):coeff[key]=[]
         for degree in range(13):

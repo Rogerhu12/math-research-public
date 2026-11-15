@@ -391,3 +391,7 @@ root全文核newton_source五件SCI b0e930d6…、CI79ccf028…、18pin f1ddde2a
 ## 2026-11-15 04:04:35 UTC — 部署两真实邻片相关射线完整源
 
 phase_inverse科学SCI dd0cd551…51508B、algebra1860872f…24469B，root全文核三角jet、K15/原K3尾、exact C0修补差及rho导号、signed均值/forcing顺序、复strip真实系数、全部两ray与完整源。newton窄核cubic/整行选择，tail核N5–10/N17–23；SCI仅新增两邻片消费。root写CI4fe4c38a…/worker359e7927…，phase全文核原case/oldserial/各payload/selection与0数学adopt。原whole publicationfc3a190…确认native名与六case原SHA，artifact14143946126整件19.29MB元数据核；manifest244项09c89e02…83150B保80旧pins与150 Taylor。自然large stage不人为拆分，成功piece sum/selection/summary即时独立保存。实际AST及所有新数学仍只公开Actions；尚无运行数值。只读README核d1df9d97eded2277c3da18aa6f50ce6cf12a0349，六件立即独推。
+
+### 2026-11-15 04:15:27 UTC：原 Taylor appended-leading schema 一行修复并续跑
+
+真43675153388/1是4身份门通过后的ValueError，244仓库+6原artifact已核，0新完整stage/row；实际SCI1.216838307s，worker2.92053829s。对照原append_series及调用，9..14阶payload.name准确应为leading-+key，0..8裸key不动。发布SCI f553b150…/244manifest76cf792e…/flowde815918…，其余输入及数学公式不变，不宽放resume。原失败完整保留，详新note。root已读Green04:08:31真pull→cb4f2dc…、七次两README空；本次README只读核e476551288282a66c7f0ac6aec9b2c6405817a57无变化。H压缩前逐字归档，继续全cap与两邻片，不等用户。

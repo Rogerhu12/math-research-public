@@ -147,3 +147,5 @@ P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-
 ### 2026-11-15 two genuine neighboring pieces: complete consumer deployed
 
 N1–25合同已接244pin六件：SCI dd0cd551…/algebra1860872f…/CI4fe4c38a…/worker359e7927…/manifest09c89e02…。原80输入与150 Taylor阶段保，原436691 artifact14143946126的六case按原SHA恢复到work；自然>5MB只留artifact。真正2548/2550的修补后signed cubic差、两principal ray、ΔA/X/G/forcing/w1两导及原9非局部/5均值源由同实际R.001 profile消费。只按整行完整上界合法选择，不减旧upper；所有片外原行逐字保。piece sum、case选择与六summary各自不可变stage；完整child0可0新数学adopt，部分恢复不重旧成功sum/min。当前只部署，不称新数值缩界/端口/strong return。
+
+- **2026-11-15 / 两邻片原缓存reader修复**：43675153388/1在4身份门后退出1、0新完整stage。原Taylor生产器追加阶数名为leading-+key；SCI仅此校验一行改正，244pin仅该1entry、flow仅manifestSHA更新。另243pins/6原整件/helper/CI/worker不变。原失败process/native保留，续新公开run；详[记录](notes/2026-11-15-R133-adjacent-piece-original-leading-cache-reader-fix.md)。
