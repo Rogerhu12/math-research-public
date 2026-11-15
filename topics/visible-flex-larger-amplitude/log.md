@@ -73,3 +73,7 @@
 ## 2026-11-15 15:52:17 UTC /root — request159当前目标真实H与完整453物理DN
 
 [159接口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)七件完整源/接口核后发：λ.001/R320全九p/699×453仅初猜，57pins，同job C/factory/sampler后真实H/J/原FD/fullDN/fresh audit，原8/17/32×10全门保。末稿修具体外部signal独立组逃逸和读错return0清理缺口，launcher1feac6d5/readerc0aa52af、requestc75cda0c、workflow8e334918；无科学body修改/本地AST/预填结果。job360/science315/readback45，root162继续；API核3011ae059f854b28b77ff7744de10b46f210fd7f双README未变，真pull行保留。
+
+## 2026-11-15 15:57:08 UTC /root — request163补取原151/157完整科学字段
+
+[163接口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)四件已核接口/官方来源/关键传输生命周期后发：source ecb77c7e/request4ae311d8，两个原compute各一次只读、全数字词法/字节不重算科学；151全result/input/账本覆盖，157全FD/真实trial/normal/末模型，巨大内部表的未逐值审范围明确。无新artifact/Release/raw入Git，35min独立job不改原门；159已实际43732286420。API核0f7c91423b233b270bbea3a9ee178c72e676f278双README未变，真实pull行保留。

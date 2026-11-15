@@ -1,0 +1,323 @@
+{
+  "schema": "existing151157-original-log-readback-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 163,
+  "purpose": "Read the original151 and157 completed compute logs once; restore original JSON and hashes without rerunning scientific work.",
+  "reader": {
+    "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py",
+    "bytes": 77301,
+    "sha256": "ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "standard_library_only": true,
+    "install_scientific_packages": false,
+    "public78_source_restore": false
+  },
+  "permissions": {
+    "contents": "read",
+    "actions": "read",
+    "push_or_ref_update": false
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "source_protocol": "official-GitHub-REST-GET-run-and-job-then-GET-job-logs302",
+  "official_documentation": "https://docs.github.com/en/rest/actions/workflow-jobs#download-job-logs-for-a-workflow-run",
+  "log_transport": {
+    "downloads_per_original_compute": 1,
+    "report_logs_redownloaded": false,
+    "authenticated_redirect_request": true,
+    "authorization_forwarded_to_signed_redirect": false,
+    "signed_URL_or_token_logged": false,
+    "raw_logs_owned_RUNNER_TEMP_only": true,
+    "raw_logs_deleted_after_metadata_output": true,
+    "new_artifact_or_Release_or_Git_raw_output": false
+  },
+  "output": {
+    "semantic_event_maximum_bytes": 90000,
+    "complete_ASCII_data_characters_per_part": 12000,
+    "no_scalar_truncation_to_fit": true,
+    "large_internal_tables": "Reconstruct/hash all, retain explicit coverage and original selected/terminal metadata; no false per-cell audit claim.",
+    "result_index_over_bound": "Print complete metadata through semantic blocks, then report explicit incomplete index and exit70."
+  },
+  "lanes": {
+    "151": {
+      "run_id": 43724306509,
+      "source_commit": "618a9369d2bd45210767e294726cec10be1cd2df",
+      "run_attempt": 1,
+      "compute_job_id": 132842781513,
+      "compute_conclusion": "failure",
+      "original_report_job_id": 132859348081,
+      "original_report_conclusion": "success",
+      "maximum_log_bytes": 2147483648,
+      "protocol_sources": [
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_continuous_nine_target_enclosures.py",
+          "bytes": 69431,
+          "sha256": "6dfb79be9b77e85ffff496e4349b9c6b01c1ab74f28d0a64bf76d4dc8cadb768"
+        },
+        {
+          "path": ".github/workflows/visible-larger-public-continuous-nine-target-enclosures.yml",
+          "bytes": 50748,
+          "sha256": "3995b487f98f3c61cf28cc0418f666c9cb1ae6748156930718fb889f4ed5a9e9"
+        }
+      ],
+      "original_summary": {
+        "bytes": 5137,
+        "sha256": "7319fbe3dbbd5d11d9e802a285ba53f649bc49603805ab84a0427e0966bd6eb2",
+        "hash_scope": "complete original ASCII including final LF"
+      },
+      "original_groups": {
+        "complete-target-result": {
+          "bytes": 101961,
+          "sha256": "95fa1e1104cf5dcfbf154bbba1b55e27bd1afb685dd82a51cec255d67ba08f94",
+          "segments": 9
+        },
+        "complete-input-and-rebuilt-definition-binding": {
+          "bytes": 62020,
+          "sha256": "6ed65011f5235f923123ccbcc529b8011bb0389aa3a6c155388ee7373d21c4cb",
+          "segments": 6
+        },
+        "complete-original-Q-node-outward-conversions": {
+          "bytes": 1533021,
+          "sha256": "12794fb7e461a421b20c29e1383f26c867242feecf2b2dc599872f71eb13c9fc",
+          "segments": 128
+        }
+      },
+      "original_science_failure_not_reinterpreted_as_domain_refutation": true,
+      "result_and_input_complete_values_printed": true,
+      "grid_and_node_interval_results": "All original byte identities and coverage checked, no Q arithmetic or independent proof.",
+      "published_formal_result_blob": "d81b517dfa96116781c4557208d14d184e4bd9f9",
+      "published_formal_result_commit": "67ef92e5f72de4e469cc239fa696d4b808e8e089"
+    },
+    "157": {
+      "run_id": 43729310294,
+      "source_commit": "c71cbeac7fd13c65cf50c7eb39842e9949737b25",
+      "run_attempt": 1,
+      "compute_job_id": 132858021333,
+      "compute_conclusion": "success",
+      "original_report_job_id": 132861152631,
+      "original_report_conclusion": "success",
+      "maximum_log_bytes": 1073741824,
+      "protocol_sources": [
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261115_nine_control_decimal_residual_quadratic_trust.py",
+          "bytes": 31941,
+          "sha256": "ef61c5f19370a302b198901a7691fda31ed0a6619d9f9dcafc147f6b1bdc3180"
+        },
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py",
+          "bytes": 28570,
+          "sha256": "54167dff0ce67e9f8fe0fa5d2899c35f0f99534077f2530d90b296eee7537100"
+        },
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/root_20261115_nine_control_decimal_residual_quadratic_scalar_readout.py",
+          "bytes": 17532,
+          "sha256": "a49ebce03156e8ee620ea7cab62e51c32f2a924458ad6d2320e85cf91398897d"
+        },
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/geometry_20261115_nine_control_decimal_residual_quadratic_temporary_batch.py",
+          "bytes": 22398,
+          "sha256": "c992f30af23a94535a6dff70342172f5a066498c77e53a15e60e0e2222ac90f8"
+        },
+        {
+          "path": "topics/visible-flex-larger-amplitude/computations/public-nine-control-decimal-residual-quadratic-request.json",
+          "bytes": 55526,
+          "sha256": "94e01eeb04f24f93463d0d59602b228c7ea061186edb54f5d99bb35168199dd6"
+        },
+        {
+          "path": ".github/workflows/visible-larger-public-nine-control-decimal-residual-quadratic.yml",
+          "bytes": 22302,
+          "sha256": "905e137e0d4724f9aa2a7d60aadb265e1643e73afa543a17ff4527aa883aceaf"
+        }
+      ],
+      "reader_source_sha256": "a49ebce03156e8ee620ea7cab62e51c32f2a924458ad6d2320e85cf91398897d",
+      "original_status": {
+        "bytes": 51842612,
+        "file": "nine-control-decimal50-residual-quadratic-status.json",
+        "sha256": "931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0"
+      },
+      "original_primary": {
+        "bytes": 89063,
+        "sha256": "7411fd01db054215e5d22293f6a4c239aa482302bf75b4da123f35d500d0cad2"
+      },
+      "original_chain": {
+        "bytes": 29684,
+        "sha256": "9d8bf161d9b88c0c411d326b1717fd2d32332a49534041ebd495b673a35652bd"
+      },
+      "expected_consumed_source_sha256": {
+        "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+        "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+        "geometry_20261114_direct_operator_cell.py": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce",
+        "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+        "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+        "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+        "geometry_20261114_full_scalar_profile.py": "8ff23e31a58d0f8b087929d69ac8d6f9b6f2777615e50eef5ebe40ed7b6bed6b",
+        "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+        "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+        "geometry_20261114_prefix_controls_profile.py": "f019e6b33c8e1776d5cca87c22efadd0f999766b894be855efb53ad10b4d6a24",
+        "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+        "geometry_20261115_nine_control_direct_normal_full_merit_candidate.py": "485e5fd8b71bce6365084cca518a2b42e2e58d302933bd868c38995b59ad6a55",
+        "geometry_20261115_nine_control_directional_complex_response.py": "50044473f14b34c9451360debaa1ec9189f0a7924957098cafc37df3f849643f",
+        "geometry_20261115_nine_control_same_trace_full_merit_candidate.py": "d4c9cd448b81e3c506984a273cb0e050cf806ebc109ad4d2b140cec9fa8d2cbf",
+        "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+        "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+        "geometry_20261115_small_core_four_control_curved_recipe.py": "3ca1bdf723e7c44f808ed786ccda854775c262d28ce92804fde2c8ca86cad160",
+        "geometry_20261115_small_core_four_control_family.py": "9222390b73abbd2e8bc4a1f8e9d8b861cd66b4a927b21629deb2e6b70073dd11",
+        "geometry_20261115_small_core_full3_curved_normal_recipe.py": "be37ce213ddfd87972b5edc241a0b220fe0f424c553f5836b5df337ff1dd980e",
+        "geometry_20261115_small_core_full3_retry_trust_recipe.py": "b9fff58becdfdcfdb4877cd789a3160510c7c2895005239d8989bb7673c2ea20",
+        "geometry_20261115_small_core_full3_trust_recipe.py": "5d3540150390f0e820200ba4a210eb2bc8d06bc025a0a677160df97d72e6f4c1",
+        "geometry_20261115_small_core_inexact_p3_eta_0p01.py": "f43c20ea6b8a5616b4330870897a1d0b6bd2c157435544366af1fe70dcdff7bd",
+        "geometry_20261115_small_core_inexact_p3_eta_0p01_recipe.py": "3169b2d3ea821a244d9f27611cd6c5cb3b239cf0e7f9bbbd7f49ac9d5f1dc9ee",
+        "geometry_20261115_small_core_inexact_p3_restoration.py": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
+        "geometry_20261115_small_core_nine_control_carried_radius_recipe.py": "ed78684f93c76cf1695a3a54f04d28528b5505fccf115b6fd6afddc7a657cd50",
+        "geometry_20261115_small_core_nine_control_curved_recipe.py": "824c0967e5de5cc9079a80018b66b1232c78ce406a6de4e0d7ab4cdee876bdaf",
+        "geometry_20261115_small_core_nine_control_direct_normal_response_recipe.py": "c717bafb95854bef7b60048a8194b9949a30fbff29bc5e1eee8a0dbb25cf233b",
+        "geometry_20261115_small_core_nine_control_directional_response_recipe.py": "5acf5b029a756a356a3de3d598211eaa89df4a7670fc703f2d3567488e09bae4",
+        "geometry_20261115_small_core_nine_control_family.py": "086572f9a9fc172d671f050e9b343b66c4a57c5c88867537a1e8a3daa5ab9629",
+        "geometry_20261115_small_core_nine_control_same_trace_merit_recipe.py": "e8704af6daa13eac4d0301a6ef1debdca4c9cb0b10a806544644a2e1d162329a",
+        "geometry_20261115_small_core_p3_inner_root_search.py": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9",
+        "geometry_20261115_small_core_six_control_curved_recipe.py": "e154afe28c588ce0c2ae936d4304b67ec84e2b46c96b03e48ce4113e2401a761",
+        "geometry_20261115_small_core_six_control_family.py": "79464f9c6af8863d3c65254701a858f067881b22ca80dba24bacf2bfea484acf",
+        "geometry_20261115_nine_control_decimal_literal_model.py": "2422be0c2e30d10c38b56ff7b68412c5397d37ed36451676bb16acbdc142ef75",
+        "geometry_20261115_nine_control_decimal_curved_search.py": "433d5ddd2587efa581fb28ea151ddf3cec5b6a63eb5017340375d1f19b6d98d0",
+        "geometry_20261115_small_core_nine_control_decimal_recipe.py": "66906f121c52f6dc57894efa368299990eea45f2f1d4fc5e6ce4af2fc5b9536e",
+        "geometry_20261115_nine_control_decimal_second_variation.py": "ad568abc8bf35003375d80e303c44df6dcb2f1c75fd41163cf5c0f423ba321a1",
+        "geometry_20261115_nine_control_decimal_ambient_trust.py": "bb603fc6c32f146552262b38648ddc2e777e5968a1473259ad6d1e6ce2a86115",
+        "geometry_20261115_small_core_nine_control_decimal_curvature_recipe.py": "3d59811078d82110449216a8ab5dadf905c435e1e45085b96f6d1c8fa04eb0c4",
+        "geometry_20261115_nine_control_decimal_residual_quadratic_trust.py": "ef61c5f19370a302b198901a7691fda31ed0a6619d9f9dcafc147f6b1bdc3180",
+        "geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py": "54167dff0ce67e9f8fe0fa5d2899c35f0f99534077f2530d90b296eee7537100"
+      },
+      "expected_input_sha256": {
+        "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+        "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+        "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+        "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+      },
+      "reference_actual154_literal_binding": {
+        "actual_binary64_input_table_words_still_only_lifted": true,
+        "arrays": {
+          "base": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "5a26da19688c7d77b9c20bc3d90f39b4b84038788ed4bc696b724c512ccd96dd",
+            "shape": [
+              699,
+              2
+            ]
+          },
+          "base_mid": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "0c375941ce46d907c4b8b4532a97a8721f88e582473dce891f41922191173703",
+            "shape": [
+              698,
+              2
+            ]
+          },
+          "controls": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "6523f85bd59aeb25c1e9f3d791d9ac79ef1408b007731a3c91d060466c265f2a",
+            "shape": [
+              699,
+              2,
+              9
+            ]
+          },
+          "controls_mid": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "532a6ddb558dab6dce208ebc8e2f79aa52a2ac6c3739a5c7aa727818ba7cc8e6",
+            "shape": [
+              698,
+              2,
+              9
+            ]
+          },
+          "frequency": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "51c16f13beb17c892ed884b329f39d62a6d4318ec7f3d0004f24dcb18872c76f",
+            "shape": [
+              3
+            ]
+          },
+          "h": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+            "shape": [
+              698
+            ]
+          },
+          "mesh": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+            "shape": [
+              699
+            ]
+          },
+          "mid": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+            "shape": [
+              698
+            ]
+          },
+          "native_slope_J": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+            "shape": [
+              112,
+              112
+            ]
+          },
+          "target": {
+            "dtype": "float64",
+            "exact_Decimal_from_float_lift": true,
+            "raw_C_order_sha256": "8ca034c42495150b10a778e9cad2a338837e06c275b36490301f0b656c181585",
+            "shape": [
+              3
+            ]
+          }
+        },
+        "canonical_binding_sha256": "cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3",
+        "complete_original_tail_J_consumed": true,
+        "continuous_metric_or_interval_roundoff_certificate_claimed": false,
+        "cut_scale_exact_binary64_lift": "0.99681527853612494904922414207248948514461517333984375",
+        "decimal_digits": 50,
+        "exactly_diagonal_as_original_record": true,
+        "field_and_tail_modes": 112,
+        "forward_is_real_expression_variation_not_discrete_rounding_derivative": true,
+        "height_sign_exact_binary64_lift": "-1",
+        "input_table_formation_recomputed_in_higher_precision": false,
+        "original149_literal_model_binding_sha256": "c201e4b709df8f6cf1be61b0d71b19732b4a3cb78b1e56d799f10db1c7760368",
+        "original149_primal_body_reused_without_replacement": true,
+        "original149_primal_source_sha256": "2422be0c2e30d10c38b56ff7b68412c5397d37ed36451676bb16acbdc142ef75",
+        "original_mesh_nodes": 699,
+        "original_three_frequencies": [
+          2,
+          4,
+          6
+        ],
+        "parameter_dimension": 9,
+        "rounding": "ROUND_HALF_EVEN",
+        "schema": "nine-control-persistent-decimal50-literal-circle-model-v1",
+        "second_variation_all9_axes_and45_pairs": true,
+        "second_variation_schema": "nine-control-decimal50-complete-second-forward-v1",
+        "solve2_is_same_real_linear_system_not_the_old_LAPACK_rounding_path": true
+      },
+      "reference_actual154_scope": "Previously read original descriptor identities; no old arrays downloaded, no literal model reevaluated.",
+      "complete_initial_final_FD_and_actual_trials_printed": true,
+      "original_raw_status_not_independently_downloaded_or_rehashed": true,
+      "internal_model_table_scope": "Full original structural view/hash plus every update/candidate/trial count and selected row; huge internal cells remain identified, not independently numerically audited.",
+      "published_formal_result": "results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md"
+    }
+  }
+}

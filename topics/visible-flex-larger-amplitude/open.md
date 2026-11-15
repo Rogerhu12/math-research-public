@@ -63,6 +63,8 @@ global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reser
 
 原chain29684B/9d8bf161和report64026B/d4e60ea1完整核；compute大日志两次Transport closed未交正文，status51842612B/931b013b及primary89063B/7411fd01仅原descriptor已读。不能把合同中的162FD或completion flag冒每条valid核收，不搬用154的末三残差、Arb或圆数据。163仅在Actions读既有原日志并无损分段，不重算科学、造raw artifact或以读回作新验收门。
 
+[163只读入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)四件已发布：两独立35分钟job各从官方原compute下载一次日志、先核原run/source/attempt/job终态和协议小源码，凭据不随redirect转发。只用原JSON数字词法、字节/SHA、索引/Boolean计数，完全不重算模型、FD、区间或优化。151完整result/input/五账身份和coarse→两子事务/全cover字符串覆盖；157完整primary/chain/fullview、全部初末FD/84真实trial/normal和outer/末update模型字段。内部巨大候选表完整结构重建/hash，但仅选中行、终态及全部异常/覆盖输出，不冒逐值独核、rank或最优性。小report只重复原索引，完整字段在对应读job，未取回值继续明确未付；无新artifact/Release/raw Git。amplitude核163终态并分别补151、157实际范围，不是原科学新验收门。
+
 准确条件下J满行秩且JᵀF=0推出F=0，故非零准确驻点必须秩亏；有限空池、单方向10^−37 slope和有限小梯度不证明这些前提，可逆换参不改准确秩。后继据真实完整全9梯度/三行响应/Hessian及形成误差选择有实质作用的新方向或明示独立初猜，保持原严格slope/Armijo与最终门，不机械续同样微步。
 
 
@@ -110,7 +112,7 @@ global6000秒包含恢复/J/模型/FD/后置，consumer1800按余量clip、reser
 
 同一live native owner完成真实H/J、原三扰动/两法Richardson边界FD、原full-DN完整8outer/17inner/BVP/RMS/BC及fresh audit；配置副本只加原modes112/spacing2身份。全部112/338、原32×10/2e−9及FD5e−5不减；18入口只是路径资源说明，无新call截断。数值代表不冒准确共同C/无限DN，前三活动不冒全九冻结450的同g精化。
 
-资源job360分钟、namespace science315/readback45，BVP7200秒clip全局剩余，32GiB起盘/2GiB保留只作资源scope。SIGTERM/SIGINT显式转发独立BVP组并确认退出、外部中断不重标数学/墙钟拒。完整BVP/native/linear trial/失败字节及112 far原行读回，超限按语义拆；读回错误非零，未确认退出或读不全不主动清理，不上传raw。所有本地工作仅源码/字节，未预填AST或actual159结果。
+资源job360分钟、namespace science315/readback45，BVP7200秒clip全局剩余，32GiB起盘/2GiB保留只作资源scope。SIGTERM/SIGINT显式转发独立BVP组并确认退出、外部中断不重标数学/墙钟拒。完整BVP/native/linear trial/失败字节及112 far原行读回，超限按语义拆；读回错误非零，未确认退出或读不全不主动清理，不上传raw。所有本地工作仅源码/字节；实际159 run43732286420/source4241fb33已启动，未预填AST或科学结果。
 
 数值盒中点、逐点代表值和原engine exp舍入均不自动构成同一个准确C成员；无限非线性DN、准确非共振及连续g/场误差仍另付。完整科学源码/恢复身份与当前是否派发见HANDOFF；本段不预填运行结果。
 

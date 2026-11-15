@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:52:17 UTC 已读 3011ae059f854b28b77ff7744de10b46f210fd7f，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:57:08 UTC 已读 0f7c91423b233b270bbea3a9ee178c72e676f278，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -33,7 +33,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 ## root：151实际、160运行与162方法
 
-[R341 actual151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：run43724306509 compute失败/report132859348081成功，原target127.386056539s到65535/65536节点，两子事务前止；完整u盖32977叶/10468未决、strict反证0、globalδnull、exit3，非900s墙钟。report四块逐字SHA核，巨量compute一次Transport closed未取，不能冒全frontier独核；amplitude163只读恢复，R320九p及同场metric责任保。
+[R341 actual151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)：run43724306509 compute失败/report132859348081成功，原target127.386056539s到65535/65536节点，两子事务前止；完整u盖32977叶/10468未决、strict反证0、globalδnull、exit3，非900s墙钟。report四块逐字SHA核，巨量compute一次Transport closed未取，不能冒全frontier独核；[163只读入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)四件已发：原151/157 compute各一次官方GET，无科学重算；两job35分钟，151完整result/input及ledger身份/字符串覆盖，157完整FD/84trial/normal/末模型，全内部巨表仅SHA/coverage，不冒逐值独核。amplitude核真实输出，R320九p及同场metric责任保。
 
 [R337 actual152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)完整128/replay已付，stage/audit编译失败、112/338未起；全部原范围见正文。[160接口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins，fresh91/64J/R273/128后全576×224、112、混合338/audit，19200与原门/完整读后清保，仅v2词法/类型修复；root负责actual160全读回。
 
@@ -43,7 +43,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 [R338 actual150](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)完整128/replay已付，exporter编译阻断、230列未起。[161接口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins/shared v2，仅临时词法/类型修复，fresh91/64J/R273/128后stage10/step0/field0原230列/320bits，19200与完整JSON/错误读回保；exact负责actual161，不冒全native。
 
-[155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)已推0aa9dca2：fresh actual98另起8真model/freshFD，37=21LEFT+16MID（新489/490），24cells/29端点/B9805/75776角行/C4059/236036，全原门保；91pins/science175、job195含读回。完整trial先print再搬pair再清，always补batch/parent-after原status及全部失败字节。run43726543241 /132849600659已过来源并进入step7科学；无实际结论，exact负责原全读回。
+[155接口](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)fresh98八真37model/FD，原21LEFT+16MID/24cells/29端点/B9805/75776角行/C4059/full236036保；91pins/science175/job195。完整trial先print再搬pair/清，always补batch/parent-after错误；exact核actual155/R344。
 
 
 ## geometry：153实际、159真BVP与162源码
@@ -51,7 +51,7 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 [R339 actual156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)全C1440/六primitive/两域/cut两jet/deep112齐；whole2609粗叶未付。R324 m2/4/6/8到cut完整但高度盒含0；m10共享200000面板止、m12..224未起，非墙钟。全原栈/后缀/身份保，与153新far责任分开。[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)已证双chart归一：只除严格非零端点，全幅因子/误差保；cut逐候选合法商再hull，非除行保索引，不冒不同尺度原列。geometry实现162新driver，root配workflow，无实际结果/保证，不作159门。
 
 [R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)及[绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)保同C、两mean、非除Robin/整体非共振、η1方向/η0敏感度之别，不冒严格非共振。
-[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入；真r全逆像/新rFar112非除行/全576与577态，η1全链方向/η0全112/混合338/fresh finiteaudit；一条+0H、原32/10/2e−9，C3600/linear1800/sampling1800/native3600。完整trial/112行/错误/超限metadata读后清。尚无actual153结果，数值代表共同C/JSexp及无限非线性未付。[159接口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)七件已发：λ.001/R320全九p/699×453仅初猜，57pins、同job C/factory/sampler→真实H/J→原FD→453fullDN/fresh audit；原8outer/17inner/32×10全保。job360/science315/readback45，BVP7200clip剩余；signal转发停自有组、读错非零阻清理，reader c0aa52af/launcher1feac6d5。未预填结果，geometry负责153/R342及159实际。
+[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)24pins/六proof/三输入；真r全逆像/新rFar112非除行/全576与577态，η1全链方向/η0全112/混合338/fresh finiteaudit；一条+0H、原32/10/2e−9，C3600/linear1800/sampling1800/native3600。完整trial/112行/错误/超限metadata读后清。尚无actual153结果，数值代表共同C/JSexp及无限非线性未付。[159接口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)七件已发：λ.001/R320全九p/699×453仅初猜，57pins、同job C/factory/sampler→真实H/J→原FD→453fullDN/fresh audit；原8outer/17inner/32×10全保。job360/science315/readback45，BVP7200clip剩余；signal转发停自有组、读错非零阻清理，reader c0aa52af/launcher1feac6d5。159实际run43732286420/source4241fb33，geometry负责153/R342与159/R348，无实际结果预填。
 
 ## amplitude：157实际与163原日志恢复
 

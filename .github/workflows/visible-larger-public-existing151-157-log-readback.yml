@@ -1,0 +1,260 @@
+name: visible-larger request163 original151157 metadata readback
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-existing151157-original-log-readback
+  cancel-in-progress: false
+jobs:
+  read151:
+    name: Original151 log and complete selected scalar readback
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    outputs:
+      summary: ${{ steps.readback.outputs.summary }}
+      summary_bytes: ${{ steps.readback.outputs.summary_bytes }}
+      summary_sha256: ${{ steps.readback.outputs.summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py
+            /topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Bind only the new small text request and protocol reader
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          git config --global merge.stat false
+          python - <<'PYBIND'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path(os.environ['GITHUB_WORKSPACE'])
+          comp=root/'topics/visible-flex-larger-amplitude/computations'
+          rp=comp/'public-existing151-157-log-readback-request.json'
+          raw=rp.read_bytes()
+          assert len(raw)==17848
+          assert hashlib.sha256(raw).hexdigest()=='4ae311d844e7f25adf6fe65e0d246ad26d2deb7e236dfe6a3599a7672c40ec63'
+          request=json.loads(raw)
+          source=root/request['reader']['path']
+          data=source.read_bytes()
+          assert len(data)==77301==request['reader']['bytes']
+          assert hashlib.sha256(data).hexdigest()=='ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250'==request['reader']['sha256']
+          rule_rows=[]
+          for path,expected in request['reviewed_README_blobs'].items():
+              actual=subprocess.check_output(['git','rev-parse','HEAD:'+path],cwd=root,text=True).strip()
+              assert actual==expected, 'Read the actual new README before another metadata request: '+path
+              body=(root/path).read_bytes()
+              rule_rows.append(dict(path=path,git_blob=actual,bytes=len(body),sha256=hashlib.sha256(body).hexdigest()))
+          print(json.dumps(dict(event='request163-small-source-and-current-rule-binding',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              request_bytes=len(raw),request_sha256=hashlib.sha256(raw).hexdigest(),
+              reader_bytes=len(data),reader_sha256=hashlib.sha256(data).hexdigest(),
+              actual_checkout_README=rule_rows,no_scientific_module_imported=True,
+              no_scientific_packages_installed=True,no_source_or_ref_mutation=True,
+              job_maximum_minutes=35,scientific_rule_monitor_period_not_changed=True),sort_keys=True),flush=True)
+          PYBIND
+      - name: Download one official original compute log and reconstruct original metadata
+        id: readback
+        timeout-minutes: 30
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -u topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py \
+            --request topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json \
+            --request-sha256 4ae311d844e7f25adf6fe65e0d246ad26d2deb7e236dfe6a3599a7672c40ec63 \
+            --lane 151 \
+            --out "$RUNNER_TEMP/visible-existing151157-151-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Retire only the fresh original-log temporary directory if still present
+        if: always()
+        run: |
+          python - <<'PYCLEAN'
+          import hashlib,json,os,stat
+          from pathlib import Path
+          runner=Path(os.environ['RUNNER_TEMP']).resolve()
+          name='visible-existing151157-151-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ.get('GITHUB_RUN_ATTEMPT','1')
+          owned=runner/name
+          removed=[]
+          if owned.is_symlink():raise ValueError('Do not follow an owned-log cleanup symlink')
+          if owned.exists():
+              if owned.parent.resolve()!=runner or owned.stat().st_uid!=os.getuid():
+                  raise ValueError('Cleanup only this request direct owned directory')
+              for path in sorted(owned.iterdir()):
+                  info=path.lstat()
+                  if not stat.S_ISREG(info.st_mode) or info.st_uid!=os.getuid():
+                      raise ValueError('Unexpected object in the fresh log-only directory')
+                  h=hashlib.sha256();size=0
+                  with path.open('rb') as stream:
+                      for block in iter(lambda:stream.read(1048576),b''):
+                          h.update(block);size+=len(block)
+                  removed.append(dict(file=path.name,bytes=size,sha256=h.hexdigest()))
+                  path.unlink()
+              owned.rmdir()
+          print(json.dumps(dict(event='request163-owned-original-log-cleanup',
+              lane='151',removed=removed,raw_uploaded=False,science_rerun=False,
+              no_completion_inferred_from_cleanup=True),sort_keys=True),flush=True)
+          PYCLEAN
+  read157:
+    name: Original157 log and complete selected scalar readback
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    outputs:
+      summary: ${{ steps.readback.outputs.summary }}
+      summary_bytes: ${{ steps.readback.outputs.summary_bytes }}
+      summary_sha256: ${{ steps.readback.outputs.summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py
+            /topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Bind only the new small text request and protocol reader
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          git config --global merge.stat false
+          python - <<'PYBIND'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          root=Path(os.environ['GITHUB_WORKSPACE'])
+          comp=root/'topics/visible-flex-larger-amplitude/computations'
+          rp=comp/'public-existing151-157-log-readback-request.json'
+          raw=rp.read_bytes()
+          assert len(raw)==17848
+          assert hashlib.sha256(raw).hexdigest()=='4ae311d844e7f25adf6fe65e0d246ad26d2deb7e236dfe6a3599a7672c40ec63'
+          request=json.loads(raw)
+          source=root/request['reader']['path']
+          data=source.read_bytes()
+          assert len(data)==77301==request['reader']['bytes']
+          assert hashlib.sha256(data).hexdigest()=='ecb77c7e4aae0b7888c58c753ca74d49f0528db3f743443582c3bc4503853250'==request['reader']['sha256']
+          rule_rows=[]
+          for path,expected in request['reviewed_README_blobs'].items():
+              actual=subprocess.check_output(['git','rev-parse','HEAD:'+path],cwd=root,text=True).strip()
+              assert actual==expected, 'Read the actual new README before another metadata request: '+path
+              body=(root/path).read_bytes()
+              rule_rows.append(dict(path=path,git_blob=actual,bytes=len(body),sha256=hashlib.sha256(body).hexdigest()))
+          print(json.dumps(dict(event='request163-small-source-and-current-rule-binding',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              request_bytes=len(raw),request_sha256=hashlib.sha256(raw).hexdigest(),
+              reader_bytes=len(data),reader_sha256=hashlib.sha256(data).hexdigest(),
+              actual_checkout_README=rule_rows,no_scientific_module_imported=True,
+              no_scientific_packages_installed=True,no_source_or_ref_mutation=True,
+              job_maximum_minutes=35,scientific_rule_monitor_period_not_changed=True),sort_keys=True),flush=True)
+          PYBIND
+      - name: Download one official original compute log and reconstruct original metadata
+        id: readback
+        timeout-minutes: 30
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -u topics/visible-flex-larger-amplitude/computations/root_20261115_existing151_157_log_readback.py \
+            --request topics/visible-flex-larger-amplitude/computations/public-existing151-157-log-readback-request.json \
+            --request-sha256 4ae311d844e7f25adf6fe65e0d246ad26d2deb7e236dfe6a3599a7672c40ec63 \
+            --lane 157 \
+            --out "$RUNNER_TEMP/visible-existing151157-157-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+      - name: Retire only the fresh original-log temporary directory if still present
+        if: always()
+        run: |
+          python - <<'PYCLEAN'
+          import hashlib,json,os,stat
+          from pathlib import Path
+          runner=Path(os.environ['RUNNER_TEMP']).resolve()
+          name='visible-existing151157-157-'+os.environ['GITHUB_RUN_ID']+'-'+os.environ.get('GITHUB_RUN_ATTEMPT','1')
+          owned=runner/name
+          removed=[]
+          if owned.is_symlink():raise ValueError('Do not follow an owned-log cleanup symlink')
+          if owned.exists():
+              if owned.parent.resolve()!=runner or owned.stat().st_uid!=os.getuid():
+                  raise ValueError('Cleanup only this request direct owned directory')
+              for path in sorted(owned.iterdir()):
+                  info=path.lstat()
+                  if not stat.S_ISREG(info.st_mode) or info.st_uid!=os.getuid():
+                      raise ValueError('Unexpected object in the fresh log-only directory')
+                  h=hashlib.sha256();size=0
+                  with path.open('rb') as stream:
+                      for block in iter(lambda:stream.read(1048576),b''):
+                          h.update(block);size+=len(block)
+                  removed.append(dict(file=path.name,bytes=size,sha256=h.hexdigest()))
+                  path.unlink()
+              owned.rmdir()
+          print(json.dumps(dict(event='request163-owned-original-log-cleanup',
+              lane='157',removed=removed,raw_uploaded=False,science_rerun=False,
+              no_completion_inferred_from_cleanup=True),sort_keys=True),flush=True)
+          PYCLEAN
+  report:
+    name: Two bounded original readback scope indexes
+    needs: [read151, read157]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+      - name: Print both exact small compute indexes without merging scientific payloads
+        env:
+          SUMMARY151: ${{ needs.read151.outputs.summary }}
+          BYTES151: ${{ needs.read151.outputs.summary_bytes }}
+          SHA151: ${{ needs.read151.outputs.summary_sha256 }}
+          RESULT151: ${{ needs.read151.result }}
+          SUMMARY157: ${{ needs.read157.outputs.summary }}
+          BYTES157: ${{ needs.read157.outputs.summary_bytes }}
+          SHA157: ${{ needs.read157.outputs.summary_sha256 }}
+          RESULT157: ${{ needs.read157.result }}
+        run: |
+          python3 - <<'PYREPORT'
+          import hashlib,json,os
+          for lane in ('151','157'):
+              value=os.environ.get('SUMMARY'+lane,'')
+              if value:
+                  raw=value.encode('ascii')
+                  if len(raw)>90000:raise ValueError('Original readback index exceeds its declared byte bound')
+                  if len(raw)!=int(os.environ['BYTES'+lane]) or hashlib.sha256(raw).hexdigest()!=os.environ['SHA'+lane]:
+                      raise ValueError('Compute-to-report metadata identity changed')
+                  json.loads(raw)
+              else:
+                  raw=json.dumps(dict(schema='request163-readback-index-unavailable-v1',
+                      lane=lane,actual_readback_job_result=os.environ.get('RESULT'+lane),
+                      complete=False,original_scientific_result_not_changed=True,
+                      run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA']),
+                      sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')
+              print('BEGIN_REQUEST163_ORIGINAL'+lane+'_INDEX')
+              print(raw.decode('ascii'))
+              print('END_REQUEST163_ORIGINAL'+lane+'_INDEX')
+              print(json.dumps(dict(event='request163-report-index-identity',lane=lane,
+                  bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+                  actual_readback_job_result=os.environ.get('RESULT'+lane),
+                  complete_selected_values_remain_in_corresponding_read_job_log=True,
+                  report_runs_no_model_or_original_science=True),sort_keys=True),flush=True)
+          PYREPORT
