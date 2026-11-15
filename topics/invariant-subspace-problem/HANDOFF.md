@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 活跃run43702348535；唯一请求notes/2026-11-15-r150-recovery-small-session-request-789f.json。9份历史8c6304e原输入均逐SHA核验且只存临时；不碰已删Release。32层的51份旧前缀完整SHA全同，第一Q RREF/33原jet等后继检查点现均可复用。
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
-- Q一阶33头、两端第五17头均已实成。Q第二首次实际1.826085338秒：1736旧零行T限制rank0，M0仅除行content后31rank1545，故未进U solve、未付第二rank9。完整forcing8998620B/SHA8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3已在prepared/；下一用已付完整F31左核改26gauge，保旧E_oldX、新E′及33/36自由，不重T。零第五λ2与真实目标n_j²的20秒/512MiB精确配对现已入队，h0[3]=−917294284800。
+- Q一阶33头、两端第五17头均已实成。Q第二首次实际1.826085338秒：1736旧零行T限制rank0，M0仅除行content后31rank1545，故未进U solve、未付第二rank9。完整forcing8998620B/SHA8ae7ffef9d7b0a56156f72b002956d4d8843cda66c00b07bff045f9ebd77f4f3已在prepared/；下一用已付完整F31左核改26gauge，保旧E_oldX、新E′及33/36自由，不重T。[九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)实际1.509597193秒：九×三原λ2与九×七第五配对全零，h0[3]=−917294284800；仅该17条left5无障碍，未付成员性。下一预读λ3平方并接完整第六页。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
