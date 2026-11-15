@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 08:15:45 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1226d97d6af3b5fdd0a76422b08fd0f449d9bf61。
+规则同步记录：2026-11-15 08:27:50 UTC root真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c24d0dacdcc04ce3644a2e591a39d8ab98bb62d4。
 
 只在公开Rogerhu12/math-research-public。所有科学计算/科学模块导入/数值测试只用本库Actions；本地只源码/证明读写、原输出字段选择、AST/语法、元数据/hash及Git。PAT只CLI瞬时环境，不入文件/Git/回复。
 
