@@ -1,0 +1,648 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-original-model-all6188",
+  "executionSourceCommit": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
+  "scriptSHA256": "a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349",
+  "argvTemplate": [
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--original-model",
+    "{work}/global197-original-inputs/model.txt",
+    "--out",
+    "{work}/original127-model-all6188"
+  ],
+  "timeoutSeconds": 60,
+  "exitCode": 0,
+  "wallSeconds": 0.11425194599996757,
+  "fullTemporaryReceiptBytes": 3207,
+  "fullTemporaryReceiptSHA256": "fcaeb3959c0851c2853239c8f9e00567c24172554bca479e01b7071530c9058f",
+  "result": {
+    "binding": "7196ed173cf1833def4fc3bac258b0fe385b1bb34a4936d84052dfcccdc14455",
+    "elapsedSeconds": 0.025017903999923874,
+    "format": "r150-original-fixed127-model-v2",
+    "outcome": "exact-original127-model-ready-no-new-module-computation",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "all4433OriginalCoefficientChecks": true,
+      "all6188OriginalSourceLabelsVerified": true,
+      "allOriginalRowNormalizationConstantsAre127Units": true,
+      "allOriginalSourcesPartitioned": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "everyRemainingSourceMustBeRecomputedAt127": true,
+      "identity": {
+        "oldModelSHA256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+        "prime": 127,
+        "primitiveSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+        "sourceSHA256": "a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349"
+      },
+      "largeDataTemporaryOnly": true,
+      "legacyAndPrebasisEachDistinctAndDisjoint": true,
+      "legacyRemainingSourceCount": 2195,
+      "newInfinityGoodReductionProved": false,
+      "newModuleRankComputed": false,
+      "newTorsionDegreeComputed": false,
+      "newlyRestoredSourceCount": 660,
+      "newlyRestoredSourcesAssumedZero": false,
+      "oldField31OperationsReused": false,
+      "oldPivotPositionsRequiredAt127": false,
+      "originalDictionary": {
+        "bytes": 153681,
+        "file": "original127-source-dictionary.json",
+        "sha256": "02fc28dd5d81b2be05ae1c2efc6220d69f97d1f09baf19b8a50997d80b9c536b"
+      },
+      "originalModel": {
+        "bytes": 140346,
+        "file": "original127-normal-form-input.txt",
+        "sha256": "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3"
+      },
+      "originalNHeadAndGammaDegreeBoundsVerified": true,
+      "originalSourceCount": 6188,
+      "prime": 127,
+      "remainingSourceCount": 2855,
+      "rowNormalizationResidues127": [
+        112,
+        81,
+        35,
+        81,
+        81,
+        104,
+        81,
+        81,
+        81,
+        104,
+        24,
+        104,
+        81,
+        81,
+        81,
+        70,
+        56,
+        26
+      ],
+      "selectedSourceCount": 3333,
+      "sourceSubsetHistograms": {
+        "completeComplement": {
+          "byEquation": [
+            0,
+            12,
+            24,
+            36,
+            48,
+            60,
+            72,
+            84,
+            96,
+            108,
+            131,
+            364,
+            364,
+            364,
+            364,
+            364,
+            364
+          ],
+          "byEquationAndMultiplierDegree": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              11
+            ],
+            [
+              0,
+              0,
+              2,
+              22
+            ],
+            [
+              0,
+              0,
+              3,
+              33
+            ],
+            [
+              0,
+              0,
+              4,
+              44
+            ],
+            [
+              0,
+              0,
+              5,
+              55
+            ],
+            [
+              0,
+              0,
+              6,
+              66
+            ],
+            [
+              0,
+              0,
+              7,
+              77
+            ],
+            [
+              0,
+              0,
+              8,
+              88
+            ],
+            [
+              0,
+              0,
+              9,
+              99
+            ],
+            [
+              0,
+              0,
+              10,
+              121
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ]
+          ],
+          "byMultiplierDegree": [
+            6,
+            66,
+            451,
+            2332
+          ]
+        },
+        "legacySubset2195": {
+          "byEquation": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            364,
+            364,
+            364,
+            364,
+            364,
+            364
+          ],
+          "byEquationAndMultiplierDegree": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              11
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              66,
+              286
+            ]
+          ],
+          "byMultiplierDegree": [
+            6,
+            66,
+            396,
+            1727
+          ]
+        },
+        "prebasis3333": {
+          "byEquation": [
+            364,
+            352,
+            340,
+            328,
+            316,
+            304,
+            292,
+            280,
+            268,
+            256,
+            233,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "byEquationAndMultiplierDegree": [
+            [
+              1,
+              11,
+              66,
+              286
+            ],
+            [
+              1,
+              11,
+              65,
+              275
+            ],
+            [
+              1,
+              11,
+              64,
+              264
+            ],
+            [
+              1,
+              11,
+              63,
+              253
+            ],
+            [
+              1,
+              11,
+              62,
+              242
+            ],
+            [
+              1,
+              11,
+              61,
+              231
+            ],
+            [
+              1,
+              11,
+              60,
+              220
+            ],
+            [
+              1,
+              11,
+              59,
+              209
+            ],
+            [
+              1,
+              11,
+              58,
+              198
+            ],
+            [
+              1,
+              11,
+              57,
+              187
+            ],
+            [
+              1,
+              11,
+              56,
+              165
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "byMultiplierDegree": [
+            11,
+            121,
+            671,
+            2530
+          ]
+        },
+        "restored660": {
+          "byEquation": [
+            0,
+            12,
+            24,
+            36,
+            48,
+            60,
+            72,
+            84,
+            96,
+            108,
+            120,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "byEquationAndMultiplierDegree": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              11
+            ],
+            [
+              0,
+              0,
+              2,
+              22
+            ],
+            [
+              0,
+              0,
+              3,
+              33
+            ],
+            [
+              0,
+              0,
+              4,
+              44
+            ],
+            [
+              0,
+              0,
+              5,
+              55
+            ],
+            [
+              0,
+              0,
+              6,
+              66
+            ],
+            [
+              0,
+              0,
+              7,
+              77
+            ],
+            [
+              0,
+              0,
+              8,
+              88
+            ],
+            [
+              0,
+              0,
+              9,
+              99
+            ],
+            [
+              0,
+              0,
+              10,
+              110
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "byMultiplierDegree": [
+            0,
+            0,
+            55,
+            605
+          ]
+        }
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:52:46 UTC",
+      "beforeReadCommit": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+      "originMainAfterPull": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:52:46 UTC",
+      "beforeReadCommit": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+      "originMainAfterPull": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 19,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 6518,
+    "logicalJsonSHA256": "6d3ba1cc07afce1ae4ffa64a6b209e6ee03a7d3fffd0dea3e9a077bd83680e9b",
+    "itemCount": 19
+  },
+  "lastRulesReadCommit": "ea5996fe16ed1bfbc61df059a8bf8451a9acd260",
+  "summaryExcludesRecomputableArraysOnly": false
+}
