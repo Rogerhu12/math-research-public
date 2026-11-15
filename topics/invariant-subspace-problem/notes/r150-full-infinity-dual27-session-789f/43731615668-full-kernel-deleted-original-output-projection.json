@@ -1,0 +1,708 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43731615668",
+  "stepId": "full-kernel-deleted-original-output-projection",
+  "executionSourceCommit": "7cc9f7db2aa18eaa6d1bb8faf7144f26fcf5750f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-kernel-deleted-output-projection-789f.py",
+  "scriptSHA256": "16767d899ff5ad34afca4bd647d344ace846fa8d084c17a04d475718311997e3",
+  "argvTemplate": [
+    "--full-out",
+    "{work}/full-infinity-natural-dual-schur-v2",
+    "--outside-out",
+    "{work}/koszul-outside-minimal-field-smith",
+    "--native-model",
+    "{native_model}",
+    "--selected-receipt",
+    "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+    "--original-native-source",
+    "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-v2-789f.cpp",
+    "--extension-native-source",
+    "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+    "--out",
+    "{work}/full-kernel-deleted-output-projection",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "1024",
+    "--compile-seconds",
+    "30"
+  ],
+  "timeoutSeconds": 250,
+  "exitCode": 0,
+  "wallSeconds": 0.9664869460002592,
+  "fullTemporaryReceiptBytes": 11599,
+  "fullTemporaryReceiptSHA256": "e6753ca484229be5d13222d6412f055ab1761c053c22ed732b5569a05798a858",
+  "result": {
+    "all13DeletedOriginalOutputRowsVerified": true,
+    "all13OriginalFormalFreeCoordinatesVerified": true,
+    "all4367OriginalKernelCoordinatesRetained": true,
+    "all6188OriginalFormalKernelProductsVerifiedThroughRetainedDegree": true,
+    "all66PaidOriginalPrefixFilesUnchanged": true,
+    "allFullOriginalResidualRowsRetained": true,
+    "allTwelveCommonFreeRowsVerified": true,
+    "characteristicZeroOutputProjectionComputed": false,
+    "completeOutputProjectionSmithComputed": true,
+    "field": 31,
+    "format": "isp-full-natural-kernel-deleted13-output-projection-v1",
+    "fullOriginalFormalKernelMaximumVerifiedDegree": 10,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 0.8775997050001934,
+    "newLargeGaussianEliminations": 0,
+    "oldNormalFormsRecomputed": false,
+    "outcome": "complete-original-deleted-output-projection",
+    "outputProjectionMaximumPositiveExponentModulo31": 2,
+    "outputProjectionRank": 13,
+    "outputProjectionTorsionLengthModulo31": 2,
+    "outputProjectionUnitFactorCount": 12,
+    "phase": "save-complete-original-formal-kernel-and-projection",
+    "pythonFlintVersion": "0.9.0",
+    "remainingHigherKernelQuotientLengthModulo31": 26,
+    "sameThirteenOriginalDeletedOutputsVerified": true,
+    "selectedLeadingCoefficientUnitProved": false,
+    "selectedOutputDeterminantalLengthModulo31": 68,
+    "status": "completed",
+    "parameters": {
+      "actualNativeDegree": 21,
+      "actualNativeLedger": {
+        "bytes": 4372,
+        "file": "full-dual-ledger.txt",
+        "sha256": "9adb38ccc44403636c290800a28d94733cdba525674d66eb15cc9bcd03efae1d"
+      },
+      "allOriginalProductCoordinates": 884884,
+      "binding": "1fc02892728c13598d140d5e3823879a8418fe112d8701281c6e215bdb1c86a0",
+      "commonUnitRows": 12,
+      "continuationChangesOnlyInclusiveDegreeGuard": true,
+      "deletedHeadCoordinates": [
+        4,
+        5,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "deletedOriginalOutputIndicesZeroBased": [
+        3001,
+        3002,
+        4002,
+        4003,
+        4288,
+        4289,
+        4354,
+        4355,
+        4362,
+        4363,
+        4364,
+        4365,
+        4366
+      ],
+      "deletedOriginalOutputMonomialKeys": [
+        4429185024,
+        5368709120,
+        3355443200,
+        4294967296,
+        2281701376,
+        3221225472,
+        1207959552,
+        2147483648,
+        262144,
+        2097152,
+        16777216,
+        134217728,
+        1073741824
+      ],
+      "determinantCoefficientsModulo31": [
+        0,
+        0,
+        13,
+        10,
+        0,
+        11,
+        28,
+        29,
+        13,
+        17,
+        8
+      ],
+      "determinantCofactorSignModulo31": 1,
+      "exactFieldLengthDecomposition": {
+        "deletedOutputProjection": 2,
+        "fullOriginalTorsion": 66,
+        "outsideKoszulTorsion": 149,
+        "remainingHigherKernelQuotient": 26,
+        "selectedMinor": 243
+      },
+      "formalFreeHeadCoordinates": [
+        4,
+        5,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        23,
+        24,
+        25,
+        26
+      ],
+      "inputFiles": [
+        {
+          "bytes": 128145,
+          "role": "native_model",
+          "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+        },
+        {
+          "bytes": 75700,
+          "role": "selected_receipt",
+          "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+        },
+        {
+          "bytes": 21017,
+          "role": "original_native_source",
+          "sha256": "82ce435444ea112e78d842a7975df4a6b6103f6ea0bf03efc73f58631985d6f9"
+        },
+        {
+          "bytes": 21017,
+          "role": "extension_native_source",
+          "sha256": "54631a695dbd6dc41c446c8c3ab60ba527c5dd4f34fbe70187cdd0613caef1fb"
+        }
+      ],
+      "inputIdentity": {
+        "actualOutsideReceipt": {
+          "bytes": 15832,
+          "sha256": "eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6"
+        },
+        "headers": {
+          "2026-11-14-r150-f31-bitplane-789f.hpp": {
+            "bytes": 3030,
+            "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+          },
+          "2026-11-15-r150-saturated-global-common-789f.hpp": {
+            "bytes": 11284,
+            "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+          }
+        },
+        "inputs": {
+          "extension_native_source": {
+            "bytes": 21017,
+            "sha256": "54631a695dbd6dc41c446c8c3ab60ba527c5dd4f34fbe70187cdd0613caef1fb"
+          },
+          "native_model": {
+            "bytes": 128145,
+            "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+          },
+          "original_native_source": {
+            "bytes": 21017,
+            "sha256": "82ce435444ea112e78d842a7975df4a6b6103f6ea0bf03efc73f58631985d6f9"
+          },
+          "selected_receipt": {
+            "bytes": 75700,
+            "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+          }
+        },
+        "maximumContinuationDegree": 39,
+        "originalDeletedHeadCoordinates": [
+          4,
+          5,
+          9,
+          10,
+          13,
+          14,
+          16,
+          17,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "originalDeletedOutputIndices": [
+          3001,
+          3002,
+          4002,
+          4003,
+          4288,
+          4289,
+          4354,
+          4355,
+          4362,
+          4363,
+          4364,
+          4365,
+          4366
+        ],
+        "paidFullLength31": 66,
+        "paidOutsideLength31": 149,
+        "paidSelectedLength31": 243,
+        "parentMathematicalBinding": "3e51cbe960ac668c9addb12be36856d2aaf13686f5acc15571317ccf3dd7d2ad",
+        "parentReceipt": {
+          "bytes": 21358,
+          "sha256": "540fd2d44e7d49f9d4284d8966e9994397320f145e353c1560c7807f76caf9b4"
+        },
+        "remainingProjectionAndHigherKernelLength": 28,
+        "source": {
+          "bytes": 28000,
+          "sha256": "16767d899ff5ad34afca4bd647d344ace846fa8d084c17a04d475718311997e3"
+        },
+        "version": "same-original-deleted13-field-projection-v1"
+      },
+      "insertedHead": 22,
+      "maximumInversePoleOrder": 11,
+      "maximumSourceDegreeIfNeeded": 39,
+      "memoryMiB": 1024,
+      "omittedFreeHead": 15,
+      "originalSelectedOutputCount": 4354,
+      "originalSelectedOutputIndicesSHA256": "844fc199f3c73dba3c195b4fc2bbda238bdc428b5b2e3457f6e4e6c3466299dd",
+      "parentMathematicalBinding": "3e51cbe960ac668c9addb12be36856d2aaf13686f5acc15571317ccf3dd7d2ad",
+      "projectionLengthUpperBoundModulo31": 28,
+      "scalarCoefficientsModulo31": [
+        0,
+        0,
+        13,
+        10,
+        0,
+        11,
+        28,
+        29,
+        13,
+        17,
+        8
+      ],
+      "scalarFreeColumnPosition": 6,
+      "scalarFreeHead": 15,
+      "scalarMapperRow": 22,
+      "secondsLimit": 180.0,
+      "selectedSchurColumns": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        0,
+        1,
+        6,
+        2,
+        3,
+        7,
+        8,
+        11,
+        12
+      ],
+      "selectedSchurRows": [
+        408,
+        1840,
+        1843,
+        1844,
+        409,
+        410,
+        411,
+        698,
+        412,
+        1846,
+        413,
+        414,
+        415,
+        416
+      ],
+      "smallSquareSteps": [
+        {
+          "availableDegree": 21,
+          "rank": 0,
+          "rows": 14,
+          "uExponent": 0,
+          "unitColumns": [],
+          "unitRows": []
+        },
+        {
+          "availableDegree": 20,
+          "rank": 4,
+          "rows": 14,
+          "uExponent": 1,
+          "unitColumns": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "unitRows": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "availableDegree": 19,
+          "rank": 0,
+          "rows": 10,
+          "uExponent": 2,
+          "unitColumns": [],
+          "unitRows": []
+        },
+        {
+          "availableDegree": 18,
+          "rank": 1,
+          "rows": 10,
+          "uExponent": 3,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 17,
+          "rank": 3,
+          "rows": 9,
+          "uExponent": 4,
+          "unitColumns": [
+            0,
+            1,
+            2
+          ],
+          "unitRows": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "availableDegree": 16,
+          "rank": 1,
+          "rows": 6,
+          "uExponent": 5,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 15,
+          "rank": 1,
+          "rows": 5,
+          "uExponent": 6,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 14,
+          "rank": 1,
+          "rows": 4,
+          "uExponent": 7,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 13,
+          "rank": 1,
+          "rows": 3,
+          "uExponent": 8,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 12,
+          "rank": 0,
+          "rows": 2,
+          "uExponent": 9,
+          "unitColumns": [],
+          "unitRows": []
+        },
+        {
+          "availableDegree": 11,
+          "rank": 1,
+          "rows": 2,
+          "uExponent": 10,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        },
+        {
+          "availableDegree": 10,
+          "rank": 1,
+          "rows": 1,
+          "uExponent": 11,
+          "unitColumns": [
+            0
+          ],
+          "unitRows": [
+            0
+          ]
+        }
+      ],
+      "temporaryFiles": [
+        {
+          "bytes": 1549,
+          "file": "compatible-native-continuation-plan.json",
+          "sha256": "376e8fe738ba7d9c86a4166c8ed7245238d87513c72d614692cb7bb0fc10a65d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-0.bin",
+          "sha256": "f2398861701d7c49cac8623e386f35147c2bee33dc13fa1f7a976d53b4244c06",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-0.bin",
+          "sha256": "69dfe057a34993de6fdab09be28d641fc9ca047c631c827e467a7e01a3cd5fa8",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-0.bin",
+          "sha256": "85b7e10c0f4597188a743b20a9c028c0ef1b1482cd6271bae0d4949e8fa21d4c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 6862,
+          "file": "original-kernel-layer-ledger.json",
+          "sha256": "358907a80af9606899436e0bc85664a0b1780b64d18463acb4068c8911de09e5",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-1.bin",
+          "sha256": "1129ccb11529e035bcc1755be74e6fd31b958c5ce7d8f809758b4454e10bd2a0",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-1.bin",
+          "sha256": "7fde4fedb1e6d42a1a04c42da5fab0c92a69ff9c153afd526d6e455d4d0487c9",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-1.bin",
+          "sha256": "47d5b2b087cd06ede196561873eb762fd940d7c7102cffbd4b44be904faca648",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-2.bin",
+          "sha256": "fb73c8dcd8af19194e94b98a3681162f0a2629221ea771f171cf1046a83d3cdd",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-2.bin",
+          "sha256": "b8a2df98f5dfc4c3bcf22932d5ffd0de90dc320c7f675d66c00786a98ced9ddf",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-2.bin",
+          "sha256": "46836bd8271ecaa793c1b8a992f4d5d7b1777bf281a031841cb14c194575a716",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-3.bin",
+          "sha256": "42cea02bb413e6bb6ac272eab00d89f976657cd67493525dc076f0978bf2ad37",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-3.bin",
+          "sha256": "51558d66f1740e233e9338fc77d3ac4a61cf64791695193fd62599b69d324336",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-3.bin",
+          "sha256": "76737445b54bd8db42bd8b7a1cc274fb3c3832841728bb5ecf095f8e32f1f5a0",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-4.bin",
+          "sha256": "5bb57b558ad8aa3cb866e1a938450c3876a3ba1f39b0d18de336755a29e91a66",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-4.bin",
+          "sha256": "49315050e47ea56380153a89b4222a18194a394656d6f29919e2c1f10f5161f1",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-4.bin",
+          "sha256": "4076f1844e5556cf81355d1a65e2db0fc845bc6ddec077500fc09c408959e5d0",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-5.bin",
+          "sha256": "5e4597a2bed0b7deaf7eabecfed6ef798ac62ba7dd992a7287ebdf661c072d30",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-5.bin",
+          "sha256": "1e733ec3fa4e638b235773d2198746cccf95b774d16f58fbf0cc9534c44a0fc3",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-5.bin",
+          "sha256": "60caf1b76e2f770cdfd82fddf9f66d584b3c9ee8345a32a21db16d1d97002aa9",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-6.bin",
+          "sha256": "3e4cf586666fedde8f0a91d0dbdb6925aeec5b1628a29a0a38632f95bddb578a",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-6.bin",
+          "sha256": "d8d61148adc6f0d541beb17ebdff310b56eaa1532805beb2dee8ab9ec855122d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-6.bin",
+          "sha256": "a8f87dd8aec21c68b109ab2745d087de4fa7bd83d10a73e9ca54c575514d5577",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-7.bin",
+          "sha256": "5fb289512de5dc96c64d0b16e0a58942d227cd50b3f9cf0793f63b71c7828926",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-7.bin",
+          "sha256": "b18b2d8f4d8626ee818a3249a86b782f3e663dd703f751c3f2972b2fe52d3e3d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-7.bin",
+          "sha256": "ec494a6adf5652d755889a5f8a1aaf13fd87bbf83ed665413d3e346c2b7d3aa3",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-8.bin",
+          "sha256": "6cd94a90d5ca5e330d8c1ac1e98fe335244d21c873860c9cc9f464182420eda9",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-8.bin",
+          "sha256": "d7aae32a5eeb3cd4b269c0712f593db800c8e661b2db185ab6ff5c35ee005667",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-8.bin",
+          "sha256": "f5b2a76d2c0f36d55daa3ada76397d82be2461fdd1fd73362ee350275e6a5439",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-9.bin",
+          "sha256": "daaa9660fee865950845d54a8b1263d6602de3d230fe5455c0b46ef5ca71f670",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-9.bin",
+          "sha256": "9c14af99caf7bd4cb91fc0354256c01b69ed2d38612f4c1216d83091f908829c",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-9.bin",
+          "sha256": "35a46bc4b0b8b2a9586c3f26f1b4ab5b0631d15660a053d3160cb353e1edff0f",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 439,
+          "file": "formal-kernel-mapper-10.bin",
+          "sha256": "83f353eb5eac34bd4b5a0482d41befa71bcb9c7a7be1495d7b914005713ab949",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 257,
+          "file": "deleted-original-output-projection-10.bin",
+          "sha256": "a6d5a4ec903bb321cd731d43ac0bd9a7b6a4435f42c4adb71844fbfe03372eeb",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 56859,
+          "file": "original-formal-kernel-10.bin",
+          "sha256": "4cf6c917c2577238387aab4d464b93f8e66aa838ef2c9286ee8a095ed8f51e7f",
+          "temporaryOnly": true
+        }
+      ],
+      "verifiedMapperMaximumDegree": 10
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 16:28:52 UTC",
+      "beforeReadCommit": "f44e943989d93799d66e80d99d98c8fc4557c055",
+      "originMainAfterPull": "7cc9f7db2aa18eaa6d1bb8faf7144f26fcf5750f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 16:28:54 UTC",
+      "beforeReadCommit": "7cc9f7db2aa18eaa6d1bb8faf7144f26fcf5750f",
+      "originMainAfterPull": "7cc9f7db2aa18eaa6d1bb8faf7144f26fcf5750f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 12,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 4117,
+    "logicalJsonSHA256": "c1da5c238002c646cb1305cae1258e78b2ae4003ac6144cc5b19dfb0aeea3d4e",
+    "itemCount": 12
+  },
+  "lastRulesReadCommit": "7cc9f7db2aa18eaa6d1bb8faf7144f26fcf5750f",
+  "summaryExcludesRecomputableArraysOnly": false
+}
