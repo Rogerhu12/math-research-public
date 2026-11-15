@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:13:32 UTC 已读 a5bb0d6f11624304e4b77dccba0a29aaf56ea774，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:16:18 UTC 已读 a6ad12b03eeb366af7fb31442a8b21749f6deba7，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -21,7 +21,6 @@
 |请求/负责人|run / compute job|固定source、已见范围|
 |---|---|---|
 |161 exact|43729456722 /132858464847|ce2b12c0f391；前13步过、step14|
-|159 geometry|43732286420 /132867163903|4241fb33b951；终态，唯一R348读回中|
 |160 root|43729874541 /132859748674|b34692d09c8d；前13步过、step14|
 
 [R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：α1/8与FD过，后置绑定失败0/75776；raw已清，不能倒填166的74次control返回。
@@ -40,13 +39,13 @@
 
 ## 同C、完整BVP及162
 
-[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：C1440/六primitive/两域/cut/deep112齐；whole2609欠精度，m2/4/6/8高度盒含0，m10共享200000止，原栈/全后缀保。
+[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：C/cut/deep112齐；m2/4/6/8 cut高度盒含0，m10在200000止；原全栈/后缀保，非共振反证。
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：5440e2e0/befe77fc、原C3600/112/16pins；严格pivot/全误差/幅因子链、逐cut商后hull，prepared仅commit付。25M/14400s/free2GiB，18900仅启动clip计划，硬限250/360min；完整mode/cut/leaf/unpaid读，大ledger仅身份，四读回+marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑argv失败0科学；仅接线重发request626e3111/wf23442307，实际43736658472/sourceb5a36d87，geometry核R358。
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐；far m2..16完、m18在200000止，原9616闭栈/10387末索引/全后缀保。native未启动，不是原试步拒。
 
-[159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)终态由geometry核R348。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件/58pins已发：168新far源→同owner真实H/J/原FD→453fullDN/fresh audit，λ.001/R320九p/699×453仅初猜，8/17/32×10保。sampling同比clip预留原BVP7200，18900仅启动计划；六读回/marker/owner静止才清，共同准确C/JSexp/无限DN另付。
+[R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：43732286420/source4241fb33，C1440/六primitive/两域/cut/构造/deep112齐；给定九p域partial。far m2..16完、m18 row9616/work200000止，全后缀保；BVP launcher未启动，无H/J/FD/trial，raw已清。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件/58pins，实际43739904996/source82fe6b4b，geometry核R362；168新far→同owner H/J/FD/453/final，原九p/λ.001/8/17/32×10保，六读回及owner静止才清。
 
 [R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)先按每候选原幅符号归一化、再hull；范数须隔零，数值代表非准确C成员。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件已发：25pins、R347全幅/误差、14400+1800按剩余比例clip并预留native3600；18900仅启动计划/360min硬限。原112/32×10/2e−9及η1/η0保，完整读回与owner静止后清；实际43739491932/sourcefbb6a6c9，geometry唯一读；不冒旧浮点轨迹。
 
