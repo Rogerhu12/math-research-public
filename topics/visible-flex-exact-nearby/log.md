@@ -59,3 +59,9 @@ root全文核B1–25及全部积分系数，另读原M.4–7/M.12/M.16–17补�
 science2151125d…19907B、CIebacf347…6774B、worker275a965d…16106B、manifest88374241…22270B、flow3c1b815c…5952B。原64pins逐字保留，再pin完整inner实际native/process/原manifest/实际报告/K合同及两新入口；无外部artifact重下载。读真实17门、2原stage、四matrix转换、四原径向权和全非local/mean，只新增K1–11局部θ²、真实Airy candidate与四changed-local积分，取新/旧同空间bound的min。
 
 已亲核productrule全部导数、D/Dr范围、原宽1/32的T0/V0/vartheta Cauchy、W04原复带费用、PQ次序和raw μL0w1。原profile payload与small case SHA完整识别；没有按不同浮点文本误比同一Arb数。公开job先AST再math，45/50min child/wrapper、前后真pull、每naturalstage和行保存且精确续接；数学成功与出版失败分开。尚无本次数值结论。README只读核8b3d25818ea1fcdd9e5a4dc856fa12daa72c5fff无变，继续外段/全矩阵/强空间任务。
+
+### 2026-11-15 00:45:55 UTC：内窗实角local实际11门与完整改进
+
+已独立核43659519776成功job、process c6ec19e8…13838B、worker799ca943…2369B、publication3bf2607a…2109B。child0/11门/native97d92739…13433B，新2stage/4local积分，原64pin及全部旧成功项不变。负完整源upper10602457152、正3219480409；非local3209834.581089/944684.884028及mean43198.334265/12709.397856原样保。真实local θ²和whole Fourier转换改善，但上界仍粗，继续更高Taylor尾。
+
+最新真pull已核00:43:11.788508 6d274f96…，本run两次实际两README diff空；H已记。旧inner及real-local失败为空，原更早KeyError完整保。root下一步仅补intrinsic10..15；phase继续外段与b*、newton继续全矩阵/真cap97、tail继续真实Bmean及强source。只读README核ce6c80bfbde6158e38c0e74e26fba3f352201658无变，总门未完成不收尾。

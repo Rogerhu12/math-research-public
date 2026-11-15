@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [内窗实角局部源的实际11门](results/R133-supplement-actual-real-angular-inner-first-Airy-local-source-bounds.md)：43659519776 child0；71pin/原64pin不变，2新stage/4changed-local积分，0旧数学重算。负完整源upper10602457152、正3219480409，原非local/mean逐字保；仍未授strong return/cutoff或全ν门。
+
 - [内窗局部第一修正的完整实角二阶预算](results/R133-supplement-complete-real-angular-jets-for-inner-first-Airy-local-source.md)：K1–11使用原全部Wpq和真实系数角jets，唯一W04用已付复带Cauchy；完整raw μL0w1、交叉项及实Airy全输出保。只更新旧四行local积分，非local/mean/profile/矩阵转换复用；待实际数值，不预先宣称收缩。
 
 - [准确根值剥离与真实径向第一修正幅度合同](results/R133-supplement-exact-root-value-subtraction-and-real-radial-first-Airy-amplitude-bounds.md)：B1–25先保留并减去完整b*(X)，在实r/复角路径消去假的b*/T费用；双ray配对给实际1/9、1/5及全部非径向项，完整forcing seam跳与原mean仍保。数值path门/幅度预算待实际consumer，不授完整强返回。
