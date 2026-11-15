@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:36:45 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 251fe49ccd4a1c5bf2d9362972a18086665d4bd5。
+规则同步记录：2026-11-15 20:38:35 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ba4d8cbe1c11c0d5533dbd3d4435c0a92544c93e。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -26,7 +26,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37α1/8/新FD过，629gap齐；5400s诊断partial，完整角域后继保|
 |184 R391 exact|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|compute132943014084已启动；真180点→新C/factory→全角112 far→原453|
 |183/185 R390/R395 geometry后继|18343755955047/126c0517；185未派发|R390真末十词已付；128接受1133trial、末W4.923932/F3.296505；185全3校正接真实父|
-|181/187 R385/R396 exact|18143751399744/9236fcf0；187独立修订在接|R385已刊：C/deep112齐，row18换帧范数重装球未隔正；187保正端点续完整原链|
+|181/187 R385/R396 exact|18143751399744/9236fcf0；187本次发布触发，run待官方metadata|187十二运行文件/84pins与完整接口已核；保正端点续真180→freshC→112far→原453，actual R396待付|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -54,6 +54,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [184完整接口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源/74pins及总接口已核：真180九词按ba8恢复→新C/真factory/e5ab初域语义→全角/实际μ/逐候选QPi归一→原112/338/453/FD。全部原门/namespace18900/实际clip/单90KB与清理保；新shadow/J/metric/活动p另付。当前184不改，exact读R391；187独立修正正端点表示，geometry185/actualR395，amplitude186完整算子提速。
 
+[187完整入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)已核并本次发布：91dd helper/c2f5 kernel/965c far，七薄身份与request075a/wf589f；原74pins全保→84、driver55/native29。准确正端点分别log/sqrt，准确倒数包围只乘不除，保完整角lift/幅度/取向/全候选。真180/原三输入/新C与factory/112far/原338×112及453全链，全部原预算/FD/终门、六必要/quiet后清不变；当前184独立，187实际R396不预填，fullcut主程序未另跑。
+
 ## 恢复与保存
 
-[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；185/186/187尚未派发，已审源不冒actual；已清raw只能真实重算，不凭SHA恢复。179发布树abdd74a9的完整Git metadata为8665文件/182282267B，无≥100KB的MD或>5MB文件；未知旧JSON未全语义分类。新成果立即逐条推送，持续下一未付子题。
+[178前完整open检查点](notes/2026-11-15-open-checkpoint-before-request178.md)链回全部旧结果；open §4–6未减。notes保存完整接口，computations与公开workflows是实际源。未推源丢失按H/接口记录重做；185/186尚未派发，187本次源发布触发，actual未预填；已清raw只能真实重算，不凭SHA恢复。179发布树abdd74a9的完整Git metadata为8665文件/182282267B，无≥100KB的MD或>5MB文件；未知旧JSON未全语义分类。新成果立即逐条推送，持续下一未付子题。

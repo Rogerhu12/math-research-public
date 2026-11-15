@@ -396,3 +396,6 @@
 
 
 - [R372. 实际175原37/新FD通过，完整闭段域诊断预算止](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)：四trial后1/8接受，629全453 uniform gap齐；5400s诊断提交43910角/746470步，702379证/44091未决/0反证，q21 angle902事务未提交、q22..36全未访。原model/FD与新全域未付分责，单66886B必要/真实清理齐，IEEE/native仍未付。
+
+
+- [Request187. 正端点Prüfer与真实180点完整453执行入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)：三科学源/七薄身份/request/workflow及完整接口已核，原74pins全保并新增十源；修复正端点重装宽球的表示责任，原真实输入/全部112far/338×112/453/FD/预算/终门不变。独立公开Actions触发，当前184不改，R396实际结果未预填；fullcut与几何仍未付。

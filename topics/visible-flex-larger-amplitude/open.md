@@ -110,6 +110,8 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 184保冻结181/R380全实角/正幅度与全部far逆像，用真实μ形成Q/Pi行；相关单位圆与T_row逆Frobenius界逐候选付范数，先归一再全hull，不把physical界直接套QPi。所有事务/未决/未访和原112/338/453/FD/全终门保，不以181成功作门。C3600、sampling14400+1800按18900namespace真实余量clip且保BVP7200、360job；原factory未决全地址只合并原相邻字符串，单≤90KB，失败不分包不清。e5ab/ba8原接口仍有效，原179算法只新provider身份及必要CLIENT argv修正；exact唯一核实际R391，未预填新far/native成功。
 
+[187独立完整入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)十二运行文件与总接口已核：正端点helper91dd207b/kernelc2f515aa/far965c277c、七薄身份、request075a0327/wf589f0c50；84pins完整含原74，driver55/native29。原正相关下界不改，log/sqrt分别取准确正端点、倒数准确端点装球只作乘子，完整实角/正幅度/取向与每候选先归一后hull保持；新旧浮点行不声称相同。真180→630c/ba8→fresh C/原factory/e5ab→本次全部112far→原native/338×112/453/FD/final，全部原参数与18900/7200预算、单90KB与六读回/quiet清理保。原184不动；187源码发布触发独立Actions，actual R396只保留编号、不预填成功。修订kernel的fullcut主程序未额外运行，其全部cut责任仍未付。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
