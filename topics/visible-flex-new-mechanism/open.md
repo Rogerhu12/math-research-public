@@ -126,7 +126,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [m10实际结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66：same-y与xrebind普通值0，8193×159新J、原scalar RHS唯一SOC/残差0；历史ηx .266368003937→z .266365153176，fineκ57.9999833915，原硬/旧metric/盒过、.26欠。新8值/1SOC、active40.444156s/过程286.264738s，旧10/7/cache已付组只读复用。旧hold8false严格保：1标签、5旧同布局诊断字段缺、1池版本确变、1原y学习1+1；z新0/0与扩池ratio.937958不自动授旧guard通过。
 
-[新独立设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)已根全文审。仅两full trials/一次SOC，y除曲率外全原门过；学到的差集ID全soft0/1，live rebound context核覆盖，x上两factory最终binding/原J/M/宽度/盒/cfg对齐，z全过且不再学行；原完整预测用实际z−x、ratio≥.5、corr≤B/10、total≤1.1B，旧唯一缩径原因仅y曲率则保B/streak0，否则精确旧返回。旧17报告/原学习不改，原scalar RHS和所有预算不改，新策略未执行。
+[新独立设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)已根全文审。仅两full trials/一次SOC，y除曲率外全原门过；学到的差集ID全soft0/1，live rebound context核覆盖，x上两factory最终binding/原J/M/宽度/盒/cfg对齐，z全过且不再学行；原完整预测用实际z−x、ratio≥.5、corr≤B/10、total≤1.1B，旧唯一缩径原因仅y曲率则保B/streak0，否则精确旧返回。旧17报告/原学习不改，原scalar RHS和所有预算不改，新策略未执行。[五源接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)已写并进入唯一公开首跑，125Python/3workflow绑定；新4组人工，旧组执行0，root直接读取其实际结果后继续。
 
 tail_cost实现独立controller/checkpoint-aware objective、显式新outer与仅必要新人工；root接transfer/audit/request/workflow。新outer使用已付same-y cache恢复，不重其人工。唯一后继从run43744903357主线m7真末态η.266347520761、physical981e092c…、原ordered11bank d5b1b9d6…、池4418/4188、B1/8000/streak0接续；旧9条构造器不偷填/删条，显式原RememberingCompleteObjective入口恢复完整context。单次原12LP/40值/120active/10SOC，无旧重播、不延预算、不回历史较差z；若未触新规则准确未验证，继续主任务其它未付门。
 
@@ -137,18 +137,14 @@ tail_cost实现独立controller/checkpoint-aware objective、显式新outer与�
 
 
 
-### R354：完整反射与真实物理域付16外矩，续PY0/PY2及几何联合
+### R354/R355：新几何16外矩与正域独立补偿，续PY0/PY2
 
-[R353](results/R353-ordered-tails-and-three-positive-centers-pay-the-positive-minus-two-first-moment.md)保原RY/SY self/Green/bK3尾、四IFT C0真零、三正概率中心给24列12目标正锥，原全正圆同几何旧13外矩、Ψ/三F/指定层全付。
+[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)已把R353全正最终弱圆与整反射等幅相加；完整二次尾与I0/I1/I2正交、每半D三矩0，准确清PY1/WY0/WY2。Ψ/三F偶，整圆16外矩，只PY0/PY2欠。负域真安装由R37先正后负boost保ω>Ω、R70同域任意M桥、NH0平移hook、真倒行夹心和Klein闭合；有限profiles后he初选，使整几何x+ω>1。是新seed/g，只重新付M0/T hook及Gaussian芽，旧另一几何pure/wholeE/Morse/period/joint不自动继承。
 
-[R354](results/R354-complete-reflection-and-positive-omega-bridges-pay-three-remaining-Gaussian-moments.md)对任意完整合法弱圆给反射εX=(P/L/U/Y:-1,R/S:+1)，完整二次尾由I0/I1/I2正交保；PY1/WY0/WY2反号，Ψ及三个原directed行均偶。直接把R353全正最终圆与完整反射等幅相加，两半支撑分离、D各自三矩0故跨尾无外矩贡献，一次准确支付三个新矩。新偶弱圆五pair全三矩及PY1共16外矩，剩PY0/PY2两个even目标，非全72。
+后继实际M8=2Π8M12有24列、(B1,WY1,C0,C2)八行、严格正kernel，其余旧门及反射odd自动0；PY0/PY2真代价保。另25列M13付PY1接口可用。R355独立正域完整D2=XY1−bQ2/4、真C1母IFT、四阶排序/有序μ2尾、四有限正宽给2维正锥，原正域13→14矩；接M13给15行非偶接口，不重复计成R354第17矩。
 
-负域已实际支付：先选全部有限profiles，R37先正后负boost连接保任意ω>Ω；R70平移八矩基及有限K在同域补任意M。用NH0保持真实平移hook环，M0桥B L B^rev真第三相消，Klein闭合；预嵌Gaussian半芽、he初选小于有限包络预算，使整路径x+ω>1。全部既付面积/F只随he乘行因子，Ψ归一不变。此是新设计几何/seed，**只保M0/T非零hook+共振芽，不自动继承另一几何的universal pure、wholeE、Morse或period/joint**；后续须在同ω下界内联合实现。
+root正在完整PY0/B1同权四行：原R275/R278 pure(B1+k PY0)是母local R，需新真实母Ksh两号；literature R357独立真母Fκ/J/Ksh自由小族和R278第三gap斜率三维锥，并续PY2。原R347窄两排序半平面/R351未补矩弱核心不冒新正锥。Ψ负储备与末同F★控制器保原程序。全第四/高阶/同g有限嵌入/reach/幅度仍欠。
 
-真实后继接口：R354由R347完整大A半平面和R353正kernel得负PY1整块，其反射给25列13行正锥；更简洁的逐列镜像给24列8行M8=2Π8M12，目标(B1,WY1,C0,C2)，其余旧门与PY1/WY0/WY2自动零。PY0/PY2真实代价仍在。可从镜像前最后控制器前取负Ψ储备，旧F★镜像控制器保持全72零并最终付三F。root继续PY0完整self/同权耦合，literature继续PY2全self/Γ_K1,2；R351未补矩核心两号不当成新完成门。全部高阶、同g有限嵌入、reach/幅度欠。
-
-
-[R355](results/R355-real-fourth-center-moments-and-finite-widths-pay-the-positive-minus-two-second-moment.md)提供独立正域D2补偿：完整self转XY1并保−bQ2/4有序μ2尾，先原母小族准确C1=0；真实第四中心矩两排序反号，四有限正宽使local δ³和ordered δ两独立方向成严格正锥，旧10→12→14行保R353原13矩，正域分支现14矩。接R354已付M13亦有33列15行接口，但它含负支撑、须遵守R354共同物理域；R354原偶分支仍16矩，仅PY0/PY2欠，不能重复计数。
 
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层
 

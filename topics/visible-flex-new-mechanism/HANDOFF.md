@@ -23,15 +23,17 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
 
-**m10扩池SOC首成功**：[完整结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66，新正向1过/负1+旧17只读复用。same-y/xrebind普通值0，原117/123绑定/cfg/14门/9bank、学习IDs72480/144960真保。8193×159新J/唯一SOC原RHS残差0，历史ηx .266368003937→z .266365153176，fineκ57.9999833915，原硬/metric/盒过、.26欠；8新总值、11历史primary+新1SOC、active40.444156s/过程286.264738s。旧hold仍false/nextB1/16000/streak0，y学1/1、z0/0、扩池ratio.937958不冒同布局guard。三失败原件保。z差于主线best；[新独立保径设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)已根审：完整P+覆盖/最终两factory binding/实际z−x ratio≥.5、corr≤B/10、total≤1.1B及唯一曲率缩径才保B/streak0；旧false/学习保，缺证回旧。正在写三新源，直接主线m7准确11bank/池4418,4188/B1/8000续，原预算不变，不重m10。
+**m10扩池SOC首成功**：[结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66。已付same-y/xrebind普通值0、8193×159真J、原RHS唯一SOC，历史ηz .266365153176/fineκ57.9999833915，原门过/.26欠。旧hold仍false：标签1/字段5/版本1/真学习1；y学1/1、z0/0、扩池ratio.937958；原三失败保。z差于主线best，不重m10。
 
-τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
+**新覆盖保径已编写/首实际待收**：[接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)五新source/128绑定、独立request-expanded-layout-hold.json触公开Action；仅新4人工组，旧10/7/cache两例只读复用。完整P+覆盖/最终两factory/真实z−x、ratio≥.5/corr≤B/10/total≤1.1B、唯一曲率缩径才保B/streak0，否则旧返回。完整selected与active域分清。直接主线m7准确physical981e092c…/11bank d5b1b9d6…/池4418,4188/B1/8000/streak0；原cfg/12LP40值120active10SOC不变。source写作/静态交叉核已完，未宣人工或新策略已验证；root收唯一实际及双pull/规则，继续纸证。
+
+τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
 ## 4. 纸证的当前边界
 
 R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人工已付。全Rp0首项不可删；72/81非rank，原period/Green/解析端iff不授未算门零。
 
-**R283–305/292–302**：旧rank-one有限N全third/二层/72面积及40/42门真；R304完整C²非零排该类，不再增频。R297真9单位、R302全词共享倒行/h及增强IFT保；M0固定τ可漂，不授全q/实际逆元，芽安装/Morse/Klein通常新seed/g。
+**旧强圆/安装边界**：R283–305有限N全third/72面积/40–42门仍真，但R304完整C²排不交rank-one类，不再增频。R297真9单位/R302全词倒行增强IFT保原文；M0固定τ可漂，不授全q/实际逆元；芽/Morse/Klein通常换seed/g。
 
 **R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→左二次尾Q权σ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323响应左二次尾Q在−8为0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 

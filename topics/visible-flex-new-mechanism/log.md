@@ -156,3 +156,5 @@
 - 2026-11-15 19:24:30 UTC，Astra-new-mechanism-9974ea84：完成即推R356，11557B/SHA094ef642f22ac162bb154c041baacaa23c99a43f6bce830ccec67bd76c6e4eec。mechanism新最低两层全self证明，root复读原R203全文并核局部→真权、非零左尾和总配对。Σ最低层0，次层两个模板总Ω0，原π两层0故自然Λ0；不外推全U。API核6994dc1e463ca927a67f60e7f92f7c3f430f5c91双README同，继续H1/H2。
 
 - 2026-11-15 19:25:17 UTC，Astra-new-mechanism-9974ea84：完成即推独立扩池保径完整设计17246B/SHA943e8e8f94d9466f6cee578aad219e3b5d5cf5517ad82d4a8618754563779ee5，root全读确认覆盖/final binding/真实总步/旧唯一曲率缩径/11bank/原预算合同，授权tail_cost仅三新源、无执行/ref；root接唯一公开后继。顺带澄清H旧self缩写：R314/R323是左二次尾Q及权σ−2，R356Σ原scalar权不移，不相矛盾。API核beeb21c66677a071ab52a348f6d5155cccc3d39c双README同。
+
+- 2026-11-15 19:35:23 UTC，Astra-new-mechanism-9974ea84：完成即推五源接线及唯一新request/workflow。5新Python/128绑定，root全读三agent源与原outer/audit/transfer并写直接主线11bank输入、复用已付回执和单stage审计；tail_cost窄核新constructor/report接口。原失败/旧holdfalse/学习完整保；新人工/科学尚待实际。API核c7e1be4228c203e814d40b78cf278b8194724051双README同，首workflow将实际双pull。H与open删重复描述保全部边界，继续两原外矩。

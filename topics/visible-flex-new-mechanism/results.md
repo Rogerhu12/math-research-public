@@ -418,3 +418,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 新独立扩池覆盖后SOC保径设计（尚未执行）
 
 [完整设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)，2026-11-15，17246B/SHA256 943e8e8f94d9466f6cee578aad219e3b5d5cf5517ad82d4a8618754563779ee5。消费唯一成功m10实际记录，旧8false准确分类保留；新策略仅在软行完整覆盖、同x最终模型绑定、实际z−x完整ratio/小修正/总步界和唯一曲率缩径全证时保原B/streak0，其它精确回旧。独立报告，不改验收/RHS/学习/预算。从当前最佳run43744903357 m7继承完整11bank/池/真159/163/原cfg，显式新constructor避免旧9条合同；新outer接已付same-y缓存helper。拟三新源和仅必要新人工，旧组只读复用；root全文审后开始实现，未宣新策略或科学已过。
+
+## 扩池覆盖后保径：五个新源与唯一当前最好点后继已提交
+
+[完整接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)，10224B/SHA256 b52efaa22aa760823d1043cd7084382665b9c8b9c116a8ef5da2fced93b81958。tail_cost交controller/checkpoint-aware objective/explicit outer/new4-group development；root全读并核完整selected≠active域，补exact-best transfer/audit、实际保B后下一模型是否用到的独立观察。新request31451B/SHA c9d4d2ead7efd0ecd0fbbccc3b53bdbefedce431d772f46bf7becd2906b22346，128source绑定；原117/120闭包、旧10/7/cache证据只读复用。唯一从run43744903357 m7的physical981e092c…、完整11bank、池4418/4188、B1/8000/streak0接续，原cfg/验收/SOC RHS/预算不变。新workflow先真实双pull/规则核，只有五新Python compile和四新人工，再单stage。未宣执行通过、方法有效或README完成。
