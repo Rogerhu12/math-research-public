@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整强返回、真实physical high块与core Schur条件 GH](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)：证明χJ=128CsΛJ^-1/3<1下正确graph域的右预条件逆、低逆后的高窗bootstrap、完整finite-border消元和body/cut两输出矩阵。保同δ身份、physical/phase投影差、全部均值及离phase约束的E′a项；97..160仅原raw A_HL。C0≤1/32只是待证充分目标，未授实际HH逆。18606B/SHA256 0ffb191ad3367f4b6725b40bbc04c986ab45dd134aa185ca529ff890d539bc78。
+
 - [真实径向参考的两个普通源核及两输出 K](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)：从完整genuine Wronskian及A25严格导出 dr 普通源→n^-7/6 density 的一角增益；负body和固定严格负cut分别保一角读出损失。完整两源/两列/两sign、κ测度、root混合n^7/6、独立mean及真实seam均保。仅径向reference，未支付完整非径向耦合或high BVP。10600B/SHA256 eca5b8054a5a3476eb4431516b81142005c28e522fb2b0ce45328d29f66a18e8。
 
 - [新有限 Sobolev 精确外部与最终几何入口 G](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)：在S§11真实γ低/高域，完整κ/四状态给全tail小量；零宽long的差分商恢复mean方程。先乘w/a控制大A的精确曲率余项，得到全外部曲率<2、长<8e−6和同world位置/normal界。直接转授旧B的完整26几何门而不要求旧解析标签；核心全C0/相位/γ入口仍是明确未付条件。11904B/SHA256 d468f875bfcfdb6fb06ad34cedd7b20127df6ad645c928f5c68ea53b56a7873c。

@@ -391,3 +391,9 @@ K只对真实参数且递增实T的径向reference成立；保C18输出/输入�
 新容量只读exact-HEAD root/topic Git tree API元数据，独立核本地HEAD:topic tree一致、完整非truncated、全部blob size/mode/path，发布时再准确扣除两旧文件加上两新文件，<200000000。避免ls-tree -l在blob:none checkout懒取全部blob。新诊断先stdlib取旧job完整log临时核bytes/SHA与实际stack，再读原580a worker immutable字节及AST；必须证明真实首次sync ls-tree TimeoutExpired发生在唯一Popen之前才准原科学首次执行。否则只推两件真实小诊断，禁止猜未启动。token只发API主机，签名log redirect无token且URL不存，原log正文不入Git/Release/artifact。
 
 原SCI c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048、manifest8113b0d7e73c220a766947c198c09b6e66bd3a83210539fed6b4d6d5285e8e3f、17pins、child算法全部逐字不变。旧已成功数学0重算；此次仅恢复未证启动的新消费者。发布两README于3f436bbdb058edcc581ffe875108bf1dfa51e101未变。
+
+### 2026-11-15 11:12:17 UTC — strong-return真正域、finite border和两输出条件
+
+GH final blob9ad82f957eefb16b6fbb760ee1461af900334ff8 /18606B /SHA256 0ffb191ad3367f4b6725b40bbc04c986ab45dd134aa185ca529ff890d539bc78。root完整核H3–11右预条件/graph域与1/3 bootstrap、H13–17有限Schur和两输出、H22离约束链式法则；phase/tail分别独审关键代数。root另亲读原Q4 a1fc9e7及actual M32 body-cross8e7af76：97..160带宽属完整raw moving A_HL，I保频的两乘中间128，2×2 J(K)绝非old-circle inverse J。修订明列不转授该support给已消元/共轭后的源。
+
+所需actual全强norm、同δ*、完整incoming/normalizer/source-to-return/两输出及physical-phase finite border均未冒已付。P16只用ν解phase且保原第四Robin和mean，腰振幅为输出；H22保E′a，无自由same-order Neumann。C0≤1/32是解析充分目标，不是新数值执行。压缩前tail H详单在c9c96f3431a0ec6a8213e2359186531fb851f822同路径；其原所有源单位、指数和未付门继续有效。发布两README在d70e89b2b0ded8a694dfcce1e94bf90c25b483ec未变。

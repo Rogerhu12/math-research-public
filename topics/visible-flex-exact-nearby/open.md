@@ -62,14 +62,21 @@ signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
 三个输出whole/negative/cut始终不同；真实high inverse GH及其body/cut双输出
 另给非负B后，才用2×2 AB的三条有理门闭全频Schur。
 
-原P17–22/24和L9的ν响应功能只积分[0,r*]，r*≤rplus，
-因此需要全频||qν−Z||L²([0,rplus])≤.005；全[0,.9]的.00749不被换名。
-原physical fourth-mode及mean行、high源/真实seam/actualcap改动均保。
-零宽γA0入球、未知high Wiener trace和Ψ非线性余项是独立门；
-RG已用真实long分离端smoothing付粗γ种子与原body H8176入口；
-S§11已明确far的固定H8193域；实际core trace仍须满足该门，有限H不自动给解析性。
-一般bordered矩阵只保当前真正出现的参数/荷；自由半面的height/frame是几何输出。
-Green final与上述GH/B/γ/参数门尚未由该条件定理支付。
+[GH完整强返回与physical high块条件](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)
+明确R:H(s−4/3)→Hs时，χJ=128CsΛJ^-1/3<1给正确graph域的
+Hs→H(s−1)右预条件逆；高窗可在已成低逆后bootstrap，不要求每窗另小。
+C0≤1/32只是cutoff97的充分目标，当前volume upper并非这个Cs。
+算术δ*与finite193固定δ0须真正转授；phase Fourier投影与原physical P96
+不对易，须完整finite border及其Schur，不能把phase-tail逆称physical HH。
+H16–17给保source/finite response的body与9/10 cut两输出矩阵B；
+H18的97..160仅原raw moving A_HL，不传给old-circle逆J后的源。
+
+原P17–22/24/L9需同对象全频||qν−Z||L²([0,rplus])≤.005。
+P16保原physical第四Robin及mean，以ν解phase，腰振幅为输出；
+H22明确离phase约束还多E′a乘法项，须真正有损Nash或约束迭代。
+实际γ低A0及H8193、未知high trace、Ψ余项和真实core解仍独立。
+自由半面height/frame是同次几何输出，一般给定参数/荷不删。
+Green final与GH全部实际source/return/readout/border门尚未支付。
 
 ## 3. 真实共同参考、完整源与强返回
 
