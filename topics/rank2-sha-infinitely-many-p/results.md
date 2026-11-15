@@ -155,3 +155,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R812](results/R812-original-same-charge-cancellation-and-complete-source-budget.md)：R812原同charge抵消A=S(2z)/64、B=U136−A完整付K17/全角及B首1890w²；Newton/Gaussian含q_p(2)与原两中央准确运输，新(S,B)格覆盖度17、canonical成员恰i≥4j、体积D²/10。原含A的扩充格换基保每前缀/全精度/13carry，纯起阶收益O(D³logD)不足主项，严格门仍aI+2bI<3；继续实际全flag或指定forcing，不赋乘积中央零。
 
 - [R814](results/R814-common-fixed-good-pair-and-three-original-aj-squares.md)：R814已用固定7处起始角色、同单侧13塔和Finis估值19的有限并例外，给三个原λ_j同时选定一份ψ/g及χ_j（比值ε、ε²），先于目标p固定全部导子、S1–S4和三份cycle。原AJ平方准确保34⁴、30平滑、Elog/EIw/EBDP及真实非零de Rham基比/全局单位；I_j≠0 iff AJ_j≠0 iff z_j≠0，但未给任一指定值非零或原三值线性行。
+
+- [R815](results/R815-complete-original-mori-nef-cones-and-s-fibration.md)：R815完整证明原十九角X的26条Mori/4501条nef极射线，惰性Fp为21/901条，原始nef射线b∣12；任意特征用原不变线束权分量，未借char0 Cox。原S=aY/7为无基点铅笔，与f是全部nef平方零射线；固定零亏量m给κ≥2bm−m²。R808实际同R原点分量下降Fp，分属m01/同属m02，全角/加法预算保。有限数值锥不代曲线分解、整半群或原饱和像，变动b指定forcing仍开。
