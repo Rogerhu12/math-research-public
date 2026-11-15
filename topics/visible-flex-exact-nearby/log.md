@@ -433,3 +433,9 @@ root亲读S1真pull14:32:10.254414→155853469b1b3bae19801371468c6eae143691aa两
 白名单6938B/SHA3f07deffe393c5a174be9e3d869eb35adb7a49869ca96e526ab8e69b22313d21；root核6个小primary的完整bytes/SHA、两个原manifest的目标output记录、两个producer main写出行为、原R66 §§1/8和RMS完整小文。原R66只已成64格[3,25/8]近似外接/全角及度量缺陷，不冒exact闭族；RMS只已成解析布局预算，非未采样未来grid。两件正文870801+281206=1152007B均未读取；只删除精确path，原source/args/依赖/小结论全留，不重算。
 
 immutable restore cbb63584806fa90e7c5532170b5ac75abb1bdf0c的root ab43d2b1→topics82e51d8e→topic13b58d5f→notes13ea384d→622d3f46/7bbeb806完整metadata链亲核，leaf bytes原字。SHA分别d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27、fcbdfdaa4c2ee156c0ebc80471124105302d8c4e6800c14881f6c6c57b1d06e8。出版前再核fresh path/blob/bytes，不改history。当前两READMEc07cb8cba08b7dddf6d9e068568c634bc1171bfe未变，后续worker继续实际200MB/120KB门。
+
+### 2026-11-15 14:39:47 UTC — HP准确normalized p列与十h源合同
+
+合同13337B/SHA8101e7e6afc187bf6a0ba80fbba756ed4555bb8a9f9e204c40f219aa42da53d2。root全文并亲乘HP6–8验证B_jK w0与B_jR0的全号、同Δ两次及y³/y²因子；newton独核HP13–22/W递推/Ty角jet/域/η^-1/两density原ΓM窗和十source types。physical n≥388的inversegap不升级independent complex-z；零阶全SG模与real高导区别保留。数值门尚待public Actions；原成功SV/DG/RV/W2/wholeword均仅读。
+
+为H/open留明确当前门，把SV/M/ER历史细账压缩到immutable 0feed2604bdaf77248fe148dedc8177873248256同路径及actual原文，不删任何域/mean/源单位/失败或恢复。当前两README0feed2604bdaf77248fe148dedc8177873248256未变；S1现为已核最新baseline，HP其他21项必须逐字保。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 14:39:04 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 14:39:47 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 14:22:21定时及14:17两次非FF即时CLI均无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；继续每小时真CLI，ref不冒pull。root亲读runner S1真pull14:32:10.254414→155853469b1b3bae19801371468c6eae143691aa、Green14:35:33.261122→23e9f2cbab606bb2d6a785b1662945988e4e05e6，两README diff空。
-最近只读README核：c07cb8cba08b7dddf6d9e068568c634bc1171bfe；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0feed2604bdaf77248fe148dedc8177873248256；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/open/log为8994dfc19d7695386ad7d5ec3cef3096ac20cc73同路径，含acfd/a012/40eb及全部更早archive链。所有原输入/域/源单位/mean/失败/restore/成功禁止重算/未付义务继续有效；压缩不删除数学条件。
 
 ## 总验收与同一个对象
@@ -26,9 +26,10 @@ Green v4 43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/
 
 全部旧root/Taylor/FFT/fold/transport/profile/径积分成功锁；21first+10mean、18正coeff、9词/5mean、六true-dr/uncertain-root权及两sign两column/mean/seam不删，lower仅旧算法数。完整域/原source/全部旧运行保8994同H/open及actual，volume非strong-return。
 AJ43718112378/29、RV43719681982/27、DG43720766795/27成功锁；DG7新a1/RV7b1仅读，真实w1V、fullrank n^-2、q=vg−vφp，g1<2.119337e9；RV raw2<4.317610e8。M43721735003/23锁ea28b65a/b8588530/5f1ad2e5；10mixed/2角4新、14低jet读，八完整物理项、74报告球核。全部original复域/旧schema失败/尾和C.2/C.5三branch×6系数保。
-SV43722805762/1 child0/23锁75c453c0/ba96a483/9a31404f。精确B_jw0保root零/径G/mean，三density0整项SV<1.813617e6、V0mean<12033.167/uJB<1081.059；28项逐字M。inversegap仅physical n≥388/full角δ，非独立complex-z；58处球核源。
-ER43724065270/1 child0/20/math.00641225实际锁executiondedbfcad/resultbb00c78d，SCI5e1e3354/worker973218a1/23pin6b47f4a6/7AST。b0=T²b2、固定X导数；SE3/256像门> .0039059077，Ehol<.268118560/Eoperator<3213786.797。七M非E原字正向相加，仅raw1变为<4.348065e8，local<8.700621e8、first<2.641736e10、mean<1.675903e8、pair<2.641789e10；其余30逐字SV/mean非local聚合不改。root已核20门/31账本/7M原项；actual报告e906656c已全文核91原球；不重M成功mixed。
+SV43722805762/23锁75c453c0/ba96a483/9a31404f；B_jw0完整root零/径G/mean，三density0改善与28原字M保。inversegap仅physical n≥388、非独立complex-z；58球核。全数值/域/SCI/69pins逐字保0feed2604bdaf77248fe148dedc8177873248256同H/actual。
+ER43724065270/20锁e906656c/dedbfcad/bb00c78d，23pin/7AST；b0=T²b2固定X，SE3/256像门，Ehol<.268118560/Eoperator<3213786.797。七M非E原字相加，仅raw1<4.348065e8/local<8.700621e8，其余30逐字SV；91报告球核。旧域/全聚合/SCI/源单位保0feed同H/actual，不重M成功mixed。
 S143724817779/1 child0/21/math.137826385锁report12263fd8/execution10784516/resultecca2b9a；SCI09a2cb90/workeradd608a2/77pin ae9c1bbe/23AST，SV69原pin零改。DG/RV六零宽joint Wiener只读、18coeff一次A给Γ1=M1<134108.745；density1 SV<3.856841e8/V0mean<2667512.738/uJB<229898.081，pair<2.054790e10/mean<1.641138e8。另28逐字ER，local/density0/六dr与mean保，54报告球核；旧math0。phase接HP十h源，root/newton接BG精确g0及两companion，随后真实source-to-trace。
+HP/8101e7e6合同：B_jp0精确W(sTy,−x)+y³/y² correction，W0..3/Bp0八界新，h1 DG p六界只读；η^-1/两ΓM/六dr/全mean保，十h整项外21原字保S1+ER。root符号/全文与newton独核已过，SCI/worker待root审。
 K/eca5b805与N43716450174/17锁59ab1bb6；仅真实径向reference两ordinary源→density/负body/strictcut，R=.005 ordinary<1.070261672/rootjump<15.135785709；.001/.002充分门失败非奇异。root/真jump/positive两端/strict传播/waist/return仍未付。
 
 ## 完整core、phase与真实双侧接口
