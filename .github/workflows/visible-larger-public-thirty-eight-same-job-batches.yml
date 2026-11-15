@@ -1,0 +1,196 @@
+name: visible-larger original37 eight pairs then full38 LEFT462
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-thirty-eight-same-job-batch-request.json
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-larger-thirty-eight-same-job-batches
+  cancel-in-progress: false
+jobs:
+  original37-then38-batches:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Fixed scientific checkout and explicit batch request
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/computations/
+      - name: Original Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Original packages and bounded Git metadata output
+        run: |
+          set -euo pipefail
+          git config --global merge.stat false
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Bind unchanged actual98 original37 recipe and independent38 handoff sources
+        run: |
+          set -euo pipefail
+          python - <<'PYPINS'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          repo=Path.cwd()
+          comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          request=json.loads((comp/'public-thirty-eight-same-job-batch-request.json').read_bytes())
+          assert request['request']==171 and request['repository']=='Rogerhu12/math-research-public'
+          assert request['schema']=='same-job-original37-to38-batch-continuation-request-v1'
+          assert request['prefix_complete_model_FD_pairs']==8
+          assert request['maximum_extension_model_FD_pairs']==8
+          assert request['chain_budget_seconds']==18000
+          assert request['minimum_remaining_before_original_pair_seconds']==1500
+          base_path=comp/'public-thirty-eight-same-job-recipe.json'
+          base_raw=base_path.read_bytes()
+          assert hashlib.sha256(base_raw).hexdigest()==request['base_request_sha256']
+          base=json.loads(base_raw)
+          assert base['request']==171 and base['schema']=='actual98-original37-to38-model-and-FD-recipe-v1'
+          assert len(base['source_sha256'])==base['declared_source_pin_count']==96
+          assert request['reviewed_README_blobs']==base['reviewed_README_blobs']
+          original=base['original37_recipe']
+          old_raw=(comp/original['file']).read_bytes()
+          assert len(old_raw)==original['bytes']
+          assert hashlib.sha256(old_raw).hexdigest()==original['sha256']
+          old=json.loads(old_raw)
+          assert old['request']==155 and len(old['source_sha256'])==90
+          assert all(base['source_sha256'][name]==digest for name,digest in old['source_sha256'].items())
+          assert base['model_flags']==old['model_flags']
+          assert base['parent_artifact']==old['parent_artifact']
+          assert base['parent_warm']==old['parent_warm'] and base['parent_status']==old['parent_status']
+          assert base['parameter_sha256']==old['parameter_sha256']
+          assert base['source_sha256']['geometry_20261115_thirty_seven_temporary_batches.py']=='0e5ded8435cd31b7dbedb31dc15a36239ca946f80a346c0c5104cb703f86a89d'
+          for name,digest in base['source_sha256'].items():
+              assert Path(name).name==name
+              raw=(comp/name).read_bytes()
+              assert hashlib.sha256(raw).hexdigest()==digest,name
+              if name.endswith('.py'):ast.parse(raw.decode('utf-8'),filename=name)
+          entry=comp/'geometry_20261115_thirty_eight_same_job_batches.py'
+          raw=entry.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()==request['source_sha256']
+          ast.parse(raw.decode('utf-8'),filename=entry.name)
+          for name,digest in base['parameter_sha256'].items():
+              assert Path(name).name==name
+              assert hashlib.sha256((comp/name).read_bytes()).hexdigest()==digest,name
+          for name,blob in request['reviewed_README_blobs'].items():
+              raw=(repo/name).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert actual==blob,name
+              print(json.dumps(dict(event='request171_actual_rule_bytes',path=name,git_blob=actual,
+                  bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request171_source_bytes_checked',retained155_sources=91,
+              new_query_and_readout_sources=5,independent_orchestrators=1,total_explicit_sources=97,
+              parameters=len(base['parameter_sha256']),original37_recipe_sha256=original['sha256'],
+              prefix_original37_pairs=8,maximum_extension38_pairs=8,
+              actual_extension_query='LEFT-RMS462',added_capture_intervals=[462],
+              added_capture_nodes=[462],extension_unique_capture_intervals=25,
+              extension_endpoint_count=30,extension_local_coordinates=10143,C_coordinates=4059,
+              original_atomic_budget_and_gates_changed=False)))
+          PYPINS
+      - name: Address the original retained historical inputs without switching source
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --filter=blob:none --depth=1 origin 918fdb11dbb7a424b6149b405e2c7fab3cc0c737
+      - name: Original37 eight pairs then complete38 continuation under original rule monitor
+        timeout-minutes: 320
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-thirty-eight-same-job-batch-request.json'
+          request=json.loads(request_path.read_bytes())
+          base_raw=(comp/'public-thirty-eight-same-job-recipe.json').read_bytes()
+          assert hashlib.sha256(base_raw).hexdigest()==request['base_request_sha256']
+          base=json.loads(base_raw)
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==base['source_sha256'][Path(runner.__file__).name]
+          wanted=request['reviewed_README_blobs']
+          assert set(wanted)=={'README.md','topics/visible-flex-larger-amplitude/README.md'}
+          baselines={}
+          for name,expected in wanted.items():
+              raw=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert blob==expected,name
+              baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+          runner.BASELINES=baselines
+          print(json.dumps(dict(event='request171_explicit_reviewed_rules_baselines',
+              reviewed_README_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,
+              original_pull_rebase_diff_stop_unchanged=True,
+              fixed_scientific_checkout=os.environ['GITHUB_SHA'],
+              prefix_original37_pairs=8,maximum_extension38_pairs=8,
+              between_pairs_resource_seconds=18000,outer_science_step_minutes=320)),flush=True)
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-thirty-eight-171-rules'
+          sys.argv=[runner.__file__,'--out',str(out),'--command',
+              sys.executable,'-u',str(comp/'geometry_20261115_thirty_eight_same_job_batches.py'),
+              '--repo-root',str(repo),'--request',str(request_path)]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Read every surviving original37 and38 trial before owned cleanup
+        id: surviving_readback
+        if: always()
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          comp="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations"
+          python -u "$comp/root_20261115_thirty_eight_temporary_readout.py" \
+            --readback-only --temporary-root "$RUNNER_TEMP" --code-directory "$comp"
+      - name: Retire owned regenerable payload only after complete readback
+        if: always()
+        env:
+          ORIGINAL_READBACK_OUTCOME: ${{ steps.surviving_readback.outcome }}
+        run: |
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          paths=sorted(root.glob('visible-thirty-eight-171-*'))
+          outcome=os.environ.get('ORIGINAL_READBACK_OUTCOME')
+          if outcome!='success':
+              print(json.dumps(dict(event='request171_unread_temporary_retained',
+                  original_readback_outcome=outcome,
+                  owned_namespaces=[p.name for p in paths],
+                  deletion_performed=False,unread_scope_not_claimed_complete=True,
+                  ephemeral_runner_destruction_remains_external=True,
+                  scientific_success_not_inferred=True,raw_uploads=0)))
+          else:
+              for path in paths:
+                  if path.is_symlink() or not path.resolve().is_relative_to(root):
+                      raise ValueError('Refuse cleanup outside owned request171 temporary paths')
+                  if path.is_dir():shutil.rmtree(path)
+                  elif path.is_file():path.unlink()
+                  print(json.dumps(dict(event='request171_owned_temporary_removed',
+                      basename=path.name,complete_readback_preceded_cleanup=True,
+                      raw_uploads=0,science_acceptance_changed=False)))
+          PYCLEAN

@@ -169,3 +169,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:09:52 UTC /root — R350原157完整必要标量读回
 
 全文核21836B/26b35115后即发：167第五跑43738237606/sourcecdcff243成功，80173B单结论、18FD层/84trial/末方向齐；域/圆空字段及大矩阵只身份如实保。末非零残差与极小相对梯度分责，164继续独立新族。168已run43739491932/sourcefbb6a6c9；API核fbb6a6c9dce70c1f26753eb64ebba3d621159ea9双README未变，真pull保。
+
+## 2026-11-15 17:12:14 UTC /root — request171同job真37到38完整续算
+
+核四数学完整差异及reader/worker/workflow全文，原90recipe源逐键保、新96+worker共97；十件即发，真实末pair动态SHA仍受完整producer验证。仅新增LEFT462/node462，原trial/FD/预算不改；open全文29624B以相对链接调整归档后合入最新已付事实，闭场/全t/metric责任不减。API核1c53f45d2b5e35250f161cbc0484529ff08ae5da双README未变，真pull保。

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:09:52 UTC 已读 fbb6a6c9dce70c1f26753eb64ebba3d621159ea9，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:12:14 UTC 已读 1c53f45d2b5e35250f161cbc0484529ff08ae5da，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -24,17 +24,17 @@
 |159 geometry|43732286420 /132867163903|4241fb33b951；终态，唯一R348读回中|
 |160 root|43729874541 /132859748674|b34692d09c8d；前13步过、step14|
 
-[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：原α1/8接受/FD过，后置R334绑定失败0/75776；原实际总control calls未导出，不能倒填166的74。原raw已清，完整范围见原文。
+[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：α1/8与FD过，后置绑定失败0/75776；raw已清，不能倒填166的74次control返回。
 
 163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)付151。[R350实际167](results/R350-actual167-original157-FD-trials-and-last-direction.md)：43738237606/sourcecdcff243，80173B/ea07c9b4单结论，18FD层/162项/84trial及末方向已读；四工程失败保。末F₁约−3.15、相对梯度约1e−26，非精确驻点；域/圆/大矩阵仅身份，不重开搬运，164继续新族。
 
 ## 完整native路径：145、155、160、161
 
-[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64五fresh J/R273、4接受/15残差拒/0DSA；末norm2317.31958952296，13264.184668586s非预算止。完整129248形成模型约.208非实际导数，FD/fullDN/final未起。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证同模型差额d=b+Aq+s，分离基点路径/真实状态形成/有限割线；172须真实重生诊断，不改原32×10门。
+[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64五fresh J/R273、4接受/15残差拒/0DSA；末norm2317.31958952296，13264.184668586s非预算止。完整129248形成模型约.208非实际导数，FD/fullDN/final未起。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证同模型差额d=b+Aq+s，分离基点路径/真实状态形成/有限割线；172由geometry真实重生/诊断，root核R360；不改原32×10门。
 
 [R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败，112/338或230列未起。v2仅修词法/类型；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s接全stage112/338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128，数学/门不变，actual唯一读。
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8真实37模型/FD全部过，23trial/8接受，末两最近拒仅未选LEFT462；末physical .0071041184748284756，非BVP成功。末pair已清；171须同job重生原37八批保真实末pair，再加LEFT462/node462完整支持构造38，不凭SHA续接。
+[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8原37/FD与23trial/8接受齐，末两最近拒仅未选LEFT462；非BVP。末pair已清。[171接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发：真98→原37八批→保同job真实末pair→新增LEFT462/node462的38模型/FD，17档不变；300min含恢复/320science/350job、预算不保16批。exact唯一actual。
 
 [R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：43734326402/sourcec3a7531d原α1/8接受/FD过；全75776×17，α≤1/8仿射闭段全正，α1/4同实际12坏行；37配74真实calls，148×453点态恒等全齐，整α由R354/170继续。
 
@@ -64,4 +64,4 @@
 
 九冻结450/closed/metric保全九p/K0/338+112/knots/J/FD/fullDN/audit、core/mean/材料/六jet/四Loewner/两帽/DFS；R294准确C²与R298条件clip前提不能假填。sharedB/R249、同场非零R274、全t reach/整像held/全D/真实final tail/config/port及README全部比率未付。
 
-旧133/137/124/128/138/142/139等见原结果与open截至R355的正文检查点，未返call不补拒。104清理后题168796207B；不重存未知raw。丢失未推源按H来源重做；已清raw须真重算，不能凭SHA恢复。子题完继续open，真正完成前不停。
+旧133/137/124/128/138/142/139等见原结果与open截至168的正文检查点，未返call不补拒。104清理后题168796207B；不重存未知raw。丢失未推源按H来源重做；已清raw须真重算，不能凭SHA恢复。子题完继续open，真正完成前不停。

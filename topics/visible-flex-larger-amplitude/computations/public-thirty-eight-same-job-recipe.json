@@ -1,0 +1,524 @@
+{
+  "schema": "actual98-original37-to38-model-and-FD-recipe-v1",
+  "request": 171,
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "Regenerate eight complete original37 model/FD pairs from the recoverable actual98 original31 pair, preserve their real final pair in this job, then continue up to eight complete38 pairs adding only full LEFT-RMS462 with actual cell462/node462 support. No deleted actual155 parent is reconstructed.",
+  "source_sha256": {
+    "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+    "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+    "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+    "geometry_20261114_condensed_projection_response.py": "461b0d48068dba6cfcb62974c1e8f16889b1bd8ca5bd4b86e1bf6a3e09ac83b8",
+    "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "geometry_20261114_thirteen_query_condensed_response.py": "2cbd850a3a810f4296920e13629e86a9ca11545d7dd002d1a0d569e9e6d2319a",
+    "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+    "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+    "geometry_20261114_fourteen_query_condensed_response.py": "a84a693172af678146eb36cd43b965b8206bf3d048dac32047fb7acc4c7e82a1",
+    "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
+    "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
+    "geometry_20261114_fifteen_query_condensed_response.py": "3328eb649daab9b7e2da831e0fd6fa864f10f4dd6c98c51adff0ddfbe0424487",
+    "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+    "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+    "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
+    "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
+    "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+    "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
+    "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121",
+    "geometry_20261114_eighteen_query_domain_operator.py": "ec43c049542f523e1c4f2b1956c07a9216497eb066a8f6f22ceddd8f11e2c051",
+    "geometry_20261114_eighteen_query_condensed_warm.py": "b9f7d9150c57cff485f5f891881870095fc91f7a58fd40f63544e6bb9c3ef335",
+    "geometry_20261114_eighteen_query_condensed_response.py": "5885daeced8a8961f7f12d259ed5479683e7fd8dc2cccb8a2873ac9424918c9e",
+    "geometry_20261114_eighteen_query_collocation_observer_warm.py": "6ad75ce4b350aee4ae52afe2c6045f50d657931419ef7c4b46d0758db3acd1ca",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "geometry_20261114_nineteen_query_domain_operator.py": "945114799a2cf564c59b463e1429b55119d4ad421bc5f3414c7143333e43d35e",
+    "geometry_20261114_nineteen_query_condensed_warm.py": "63ec6bd0da782933ad01628c686499d6325fa10df2c624f97c6f131a233e8d39",
+    "geometry_20261114_nineteen_query_condensed_response.py": "6b497ddec4dbf9a307f5501b352fc520d115f08a9eb7d5e8b6cb8dd03cf965bb",
+    "geometry_20261114_nineteen_query_collocation_observer_warm.py": "7fee2874557ca6681743bc5607a2ea59a72c2b3f474bc9fc701898569bb62282",
+    "geometry_20261114_twenty_query_domain_operator.py": "16157412cbb4af0d01ade0cb3e373413fda175059186ccf17ef3b1d727d27ce1",
+    "geometry_20261114_twenty_query_condensed_warm.py": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+    "geometry_20261114_twenty_query_condensed_response.py": "6890d58c28ea697bf025de85f0d276e351041ea8928afdb325d1162dadcece17",
+    "geometry_20261114_twenty_query_collocation_observer_warm.py": "4b2c875a58c9dfb43581922bfec983188c763b2014fc438cc918b178a50d6a05",
+    "geometry_20261114_twenty_one_query_domain_operator.py": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
+    "geometry_20261114_twenty_one_query_condensed_warm.py": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+    "geometry_20261114_twenty_one_query_condensed_response.py": "d1da3a179bc05d346406961b81fc233e6edd098810bd6834537bc50d33901301",
+    "geometry_20261114_twenty_one_query_collocation_observer_warm.py": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de",
+    "geometry_20261114_twenty_two_query_domain_operator.py": "083abbf5e7f6dfede4f717d059192011e2ca4f895ff2f57e2d3760f49d06feb0",
+    "geometry_20261114_twenty_two_query_condensed_warm.py": "2b01d4384f312a435b4e00feb9296c93a15aebe063a29fe9c588ac230aaf867a",
+    "geometry_20261114_twenty_two_query_condensed_response.py": "08f8343b56b1f000ec2439b3d3d949260b26a3da5ad1dc6820788a1fd45be481",
+    "geometry_20261114_twenty_two_query_collocation_observer_warm.py": "240837606d8b98214d25a6c0fe8b5546ce5b4994349bea39af32e96e22241ffa",
+    "geometry_20261114_twenty_three_query_domain_operator.py": "755d9bf2a01c5c417b28bfd265ee76712bba54a9fdeddf34ea56c4668abefe98",
+    "geometry_20261114_twenty_three_query_condensed_warm.py": "1fe5b698e452112583ee82a81ab7890095c7f3f31de05cdfb60c79e35039721c",
+    "geometry_20261114_twenty_three_query_condensed_response.py": "1eb07544b30abdce43599d3297c5f7732c3d19f4c74bf5aedd15ae008fa87e8a",
+    "geometry_20261114_twenty_three_query_collocation_observer_warm.py": "06ed3a98c48cbb2feffbc319f08c6509012f5ab9f7a460a5af3d6f74e73fc697",
+    "geometry_20261114_twenty_four_query_domain_operator.py": "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36",
+    "geometry_20261114_twenty_four_query_condensed_warm.py": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+    "geometry_20261114_twenty_four_query_condensed_response.py": "87261854684d5844c97d59b328db2aa070b015b565baf46dfb7e811808b3bb87",
+    "geometry_20261114_twenty_four_query_collocation_observer_warm.py": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
+    "geometry_20261114_twenty_five_query_domain_operator.py": "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260",
+    "geometry_20261114_twenty_five_query_condensed_warm.py": "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c",
+    "geometry_20261114_twenty_five_query_condensed_response.py": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d",
+    "geometry_20261114_twenty_five_query_collocation_observer_warm.py": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55",
+    "geometry_20261114_twenty_six_query_domain_operator.py": "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8",
+    "geometry_20261114_twenty_six_query_condensed_warm.py": "b9954eb5caffca7e3e001e66b07b0628a8275a22139ca3000cf527e258023197",
+    "geometry_20261114_twenty_six_query_condensed_response.py": "17908d4cb301f2073ce6539a8fcdc218a434529586722f013202c69378933b01",
+    "geometry_20261114_twenty_six_query_collocation_observer_warm.py": "e10055b6e6d5604d247ecfbe637f8ca01b2b1337a7a528da8e25cbe48e6b8b25",
+    "geometry_20261114_twenty_eight_query_domain_operator.py": "25767045b9a26764bfdb89881832ec7da01de1ac86ebc491402c7b9801175cd0",
+    "geometry_20261114_twenty_eight_query_condensed_warm.py": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c",
+    "geometry_20261114_twenty_eight_query_condensed_response.py": "3a3d5f2888b4d826c69e2949ae9ec5ef896c54cb04f9b2283a71051221d7c5d9",
+    "geometry_20261114_twenty_eight_query_collocation_observer_warm.py": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc",
+    "geometry_20261114_thirty_one_query_domain_operator.py": "44c82d410f1e52f45e6b87f9e9eb86b3aeccb0e937510f04561855360347128f",
+    "geometry_20261114_thirty_one_query_condensed_warm.py": "1cf2d88dfeeba1ea542dabad261759151f1c6e30e29caece8fc2056fbe5f107e",
+    "geometry_20261114_thirty_one_query_condensed_response.py": "1bc1f6e02e2d450b24df73aab6e660c4453fdbf088e9aa2b3054b5ae5a2d84d5",
+    "geometry_20261114_thirty_one_query_collocation_observer_warm.py": "1e2f1ff075daf761c496271b5d93d29178d7af098d2bc03ba0eb6b38328107a1",
+    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+    "root_20261115_read_existing98_scalar_summary.py": "e2e8ec32c30bbc9ff0e77709524ff09f100f0ff5f4decd23c43b6445562b7484",
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_actual98_same31_temporary_resume.py": "2b4e9f2132263d166d7d4ee298725f55e547427cb1c25c335edf366b4aa784ba",
+    "geometry_20261115_thirty_two_query_domain_operator.py": "a55edba9bf4dde9c909ceb6aa47aee5957ed4d26fa13dd40f8bf38d9ce74df0f",
+    "geometry_20261115_thirty_two_query_condensed_warm.py": "3f4162b9594acb5c7607f3329e757dad3e18311a1544ea20a081f5c4689cafb8",
+    "geometry_20261115_thirty_two_query_condensed_response.py": "47f420ad7dcddee0192ac6eb02aec4caedbfb66e3100d5fe879261cc33251e73",
+    "geometry_20261115_thirty_two_query_collocation_observer_warm.py": "845af95d9481ef2c30bf76d8169f91c5a3640980400b0b69828cf6c7cadb3f5d",
+    "root_20261115_thirty_two_temporary_readout.py": "a05af3878e1f93c66a8f0b253be0936ddc4342438f4dbd13d4ed178ed6f4955d",
+    "geometry_20261115_thirty_three_query_domain_operator.py": "3c06f9c59b91d39b6a7db86e7017ca50dcf5549764f3aed143102c9913fb93d5",
+    "geometry_20261115_thirty_three_query_condensed_warm.py": "18827b3f4bcc67d96875a25f86c71ded459e4a9b505d071b2d0dfda208ce31e7",
+    "geometry_20261115_thirty_three_query_condensed_response.py": "cbb533db27892d6918de7d81c9053db5750a7954c3ef74a07235c5511b911289",
+    "geometry_20261115_thirty_three_query_collocation_observer_warm.py": "c2bfbddc3e680c00627c0a33d16efd1cccf1ee7fd9971a12012ef6322b45d244",
+    "root_20261115_thirty_three_temporary_readout.py": "9415e05990f64b02287bcf37bf1a870c756f4864ac72a867fa269c453bd8b743",
+    "geometry_20261115_thirty_five_query_domain_operator.py": "31b41de105bdfabbdc4bb1df2f562643249e8dd4baabf40aed5280c502369cbf",
+    "geometry_20261115_thirty_five_query_condensed_warm.py": "18796ca062c4e68f4e15f975cb2617161a675ef2fa547a9a44ae8d340793a0ff",
+    "geometry_20261115_thirty_five_query_condensed_response.py": "2df69f7f0d01870792458b9587ab0fb7b62e8c1cce9103fc0a5f6d106d3b7d92",
+    "geometry_20261115_thirty_five_query_collocation_observer_warm.py": "4867364d1f1bbbf0185b1dafa769d58e6bd14d1271b4e41c5b29716c39ed28c5",
+    "root_20261115_thirty_five_temporary_readout.py": "7a58bf11cb169548c6df50a8b75831bafe023f79478bf7251cf2b03798d54e5d",
+    "geometry_20261115_thirty_seven_query_domain_operator.py": "2e189fbf48ddeb5bb2ffba60047ee544bc39b22c6fe5073a91dad6bb2a1074e3",
+    "geometry_20261115_thirty_seven_query_condensed_warm.py": "293045c6e52ef7760f3e3f275aa6d7ec63f9d38ef070178932dcb9022e717ef4",
+    "geometry_20261115_thirty_seven_query_condensed_response.py": "b87385e38108cbb405bcdec00fb1bc55fd241428f5ca42464679aef18f6210da",
+    "geometry_20261115_thirty_seven_query_collocation_observer_warm.py": "2f70133e81f235af4439a1d2b173be835532ae5e8521e3be5216ed2750bd8778",
+    "root_20261115_thirty_seven_temporary_readout.py": "f5d598cdde4c46d2904eea2ef0d20b6009e8eb284ee9a2f6f18d20cbdfc582b7",
+    "geometry_20261115_thirty_seven_temporary_batches.py": "0e5ded8435cd31b7dbedb31dc15a36239ca946f80a346c0c5104cb703f86a89d",
+    "geometry_20261115_thirty_eight_query_domain_operator.py": "f1684f4b23d1b50d97779ae79bb90554307a524c0a8932de6af824ca1fa98e17",
+    "geometry_20261115_thirty_eight_query_condensed_warm.py": "4e93c558c09fcf9e86525834fc09fe206cd36e2df88af4b968f64ae6aaeccc50",
+    "geometry_20261115_thirty_eight_query_condensed_response.py": "ccc2c242b3806cdea83e05ce9b756a01dc6cf875e12bd2f45e8f2fe7994906ad",
+    "geometry_20261115_thirty_eight_query_collocation_observer_warm.py": "96ed2b5d5b98c4d9b18afcd0616046c02874c6d6b569dbc0cd34d2e8918bf920",
+    "root_20261115_thirty_eight_temporary_readout.py": "32c2bca1cb068143dd01d99ef0eced97550fd24331a49684b66c7dad2743b80d"
+  },
+  "parameter_sha256": {
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941"
+  },
+  "declared_source_pin_count": 96,
+  "original155_all91_source_identities_preserved": true,
+  "original37_recipe": {
+    "file": "public-thirty-seven-model-recipe.json",
+    "bytes": 27755,
+    "sha256": "f8a382475b48cd322b4f44c6a34047fe0552b14ee38832c99924edd08c5156ea",
+    "original_request": 155,
+    "used_as_prefix_model_contract": true,
+    "source_readout_is_not_relabeled_as171": true
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "parent_artifact": {
+    "run_id": 43677587785,
+    "artifact_id": 14147700690,
+    "artifact_name": "visible-followup-condensedqp-43677587785-1",
+    "expected_size": 809042943,
+    "expected_sha256": "9917774d965e86b0a8d46677a1f54c0fb23fc8fa61a67cbab998e7493d33151a"
+  },
+  "parent_source_commit": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+  "parent_warm": {
+    "file": "warm-001.json.gz",
+    "bytes": 4927052,
+    "sha256": "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
+  },
+  "parent_status": {
+    "file": "driver-status.json",
+    "bytes": 3379453,
+    "sha256": "b7ad389fad867fecf85edc4313145980d6e8686f207acf781ff6a050e7eae6ff",
+    "original_JSON_not_reserialized": true
+  },
+  "initial_parent_schema": "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1",
+  "prefix_optimizer_schema": "exact-constraint-thirty-seven-query-condensed-complete-H-warm-v1",
+  "prefix_source_entry": "geometry_20261115_thirty_seven_query_collocation_observer_warm.py",
+  "prefix_mathematical_producer": "geometry_20261115_thirty_seven_query_condensed_warm.py",
+  "prefix_FD_entry": "geometry_20261115_thirty_seven_query_condensed_response.py",
+  "prefix_domain_operator": "geometry_20261115_thirty_seven_query_domain_operator.py",
+  "prefix_complete_model_FD_pairs_required_for_extension": 8,
+  "maximum_extension_complete_model_FD_pairs": 8,
+  "extension_initial_parent": {
+    "source": "actual runtime final original37 pair after eight fresh model/FD pairs in this job",
+    "warm_sha256": "computed from the actual original bytes at handoff",
+    "status_sha256": "computed from the actual original bytes at handoff",
+    "schema": "exact-constraint-thirty-seven-query-condensed-complete-H-warm-v1",
+    "producer_not_rewritten": true,
+    "full_original_parent_validator_retained": true,
+    "not_the_deleted_actual155_payload": true
+  },
+  "current_schema": "exact-constraint-thirty-eight-query-condensed-complete-H-warm-v1",
+  "same_schema_parent": true,
+  "source_entry": "geometry_20261115_thirty_eight_query_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261115_thirty_eight_query_condensed_warm.py",
+  "domain_operator": "geometry_20261115_thirty_eight_query_domain_operator.py",
+  "FD_entry": "geometry_20261115_thirty_eight_query_condensed_response.py",
+  "new_independent_sources": [
+    "geometry_20261115_thirty_eight_query_domain_operator.py",
+    "geometry_20261115_thirty_eight_query_condensed_warm.py",
+    "geometry_20261115_thirty_eight_query_condensed_response.py",
+    "geometry_20261115_thirty_eight_query_collocation_observer_warm.py",
+    "root_20261115_thirty_eight_temporary_readout.py"
+  ],
+  "provenance_only_not_called": [
+    "geometry_20261115_thirty_seven_temporary_batches.py"
+  ],
+  "actual_query_change": [
+    {
+      "kind": "left-RMS",
+      "interval": 462,
+      "fraction": 0.17267316464601146
+    }
+  ],
+  "query_change_reference": "the complete37 model, retaining all21 LEFT and16 MID queries",
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 462,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 463,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 464,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 465,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 466,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 467,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 469,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 482,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 484,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 485,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 486,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 487,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 471,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 472,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 479,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 480,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 481,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 483,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 484,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 485,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 486,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 487,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 489,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 490,
+      "fraction": 0.5
+    }
+  ],
+  "query_count": 38,
+  "selected_query_count": 38,
+  "selected_angle_row_count": 77824,
+  "unique_capture_intervals": [
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    489,
+    490
+  ],
+  "unique_capture_interval_count": 25,
+  "actual_query_endpoint_nodes": [
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491
+  ],
+  "actual_query_endpoint_count": 30,
+  "added_capture_intervals": [
+    462
+  ],
+  "added_capture_nodes": [
+    462
+  ],
+  "complete_B_local_coordinates": 10143,
+  "complete_B_local_dimension": 10143,
+  "zero_B_layout_nodes": [],
+  "full_original_coordinate_count": 236036,
+  "baseline_C_support_dimension": 4059,
+  "complete_H_outside_response_not_frozen": true,
+  "free_core109_retained": true,
+  "all_three_global_controls_retained": true,
+  "model_flags": [
+    "--iterations",
+    "1",
+    "--damping",
+    "270",
+    "--lsmr-iterations",
+    "200",
+    "--projection-sweeps",
+    "200",
+    "--line-search-steps",
+    "17",
+    "--budget-seconds",
+    "1200",
+    "--angles",
+    "4096",
+    "--jac-workers",
+    "2",
+    "--condensed-budget-seconds",
+    "600",
+    "--condensed-trial-reserve-seconds",
+    "90",
+    "--condensed-recovery-reserve-seconds",
+    "30",
+    "--condensed-max-working",
+    "512",
+    "--condensed-dual-sweeps",
+    "200",
+    "--condensed-store-root"
+  ],
+  "fresh_J_weights_B_C_and_H": true,
+  "old_direction_not_reused": true,
+  "first_extension_model_fresh_from_real37_parent": true,
+  "own38_parent_full_producer_identity_retained": true,
+  "original_FD_directions_steps_Richardson_thresholds_unchanged": true,
+  "nonlinear_native_or_full_DN_requested": false,
+  "new_BVP_acceptance_claimed": false,
+  "scientific_thresholds_or_original_stopping_tests_changed": false,
+  "actual155_evidence": {
+    "result": "results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md",
+    "result_sha256": "00e83681106a29c727179444dd418627dafda20c3adedd41374fbf6a750c2f10",
+    "run_id": "43726543241",
+    "source_commit": "0aa9dca2d8029721cd1e820948699206a7da4388",
+    "compute_job_id": "132849600659",
+    "batch6_nearest": {
+      "alpha": 0.5,
+      "only_failed_unselected_query": "LEFT-RMS462",
+      "beta_squared_minimum": -1.7827069382052452,
+      "all37_selected_valid": true
+    },
+    "batch7_nearest": {
+      "alpha": 1,
+      "only_failed_unselected_query": "LEFT-RMS462",
+      "beta_squared_minimum": -10.25057313338912,
+      "all37_selected_valid": true
+    },
+    "evidence_only_not_a_parent_payload": true,
+    "larger_step_convergence_QP_optimum_or_native_acceptance_not_promised": true
+  },
+  "retention": {
+    "original_trial_and_error_readback_precedes_pair_move_and_cleanup": true,
+    "only_real_current_pair_kept_between_batches": true,
+    "phase_handoff_preserves_two_original_files": true,
+    "no_warm_or_status_reserialization": true,
+    "no_raw_artifact_Release_or_Git_upload": true,
+    "failed_or_interrupted_unread_output_survives_until_always_readback": true,
+    "workflow_cleanup_requires_successful_complete_readback": true
+  },
+  "rules_monitor": {
+    "unchanged_source": true,
+    "current_baselines_explicitly_loaded_from_reviewed_README_bytes": true,
+    "original_2700_second_pull_rebase_diff_and_stop": true,
+    "merge_stat_disabled_only_to_avoid_historical_deleted_blob_diffstat": true
+  }
+}

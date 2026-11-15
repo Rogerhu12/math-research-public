@@ -1,0 +1,146 @@
+{
+  "request": 171,
+  "schema": "same-job-original37-to38-batch-continuation-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "Recreate original37 eight model+FD pairs in this job from the real actual98 pair, retain the actual last warm/status bytes, then add only LEFT-RMS462 with actual cell462/node462 support and attempt up to eight fresh complete38 pairs. No deleted155 parent, model, B support, direction or FD is reused.",
+  "source_entry": "geometry_20261115_thirty_eight_same_job_batches.py",
+  "source_sha256": "2564be712a79aae29b5c2ce99518a8508e10f581e8a204a2162aec7b20859866",
+  "base_request_file": "public-thirty-eight-same-job-recipe.json",
+  "base_request_sha256": "947ace5169e6d3037ba61c561ed92a4be554f3e37b133966dd897c321e3fc890",
+  "declared_retained155_source_pin_count": 91,
+  "declared_new_query_and_readout_source_count": 5,
+  "declared_independent_orchestration_source_count": 1,
+  "declared_base_recipe_source_pin_count": 96,
+  "declared_total_explicit_source_pin_count": 97,
+  "original_parameter_manifest_count": 1,
+  "prefix_complete_model_FD_pairs": 8,
+  "maximum_extension_model_FD_pairs": 8,
+  "maximum_total_original_pairs": 16,
+  "chain_budget_seconds": 18000,
+  "minimum_remaining_before_original_pair_seconds": 1500,
+  "resource_clock_starts_before_original_input_and_source_recovery": true,
+  "time_budget_checked_between_pairs_without_rewriting_original_model_or_FD_flags": true,
+  "atomic_pair_duration_not_proved_bounded_by_start_reserve": true,
+  "original_model_budget_seconds": 1200,
+  "original_condensed_budget_seconds": 600,
+  "original_condensed_trial_reserve_seconds": 90,
+  "original_condensed_recovery_reserve_seconds": 30,
+  "original_damping": 270,
+  "original_condensed_max_working": 512,
+  "original_condensed_dual_sweeps": 200,
+  "original_line_search_steps": 17,
+  "original_projection_sweeps": 200,
+  "original_lsmr_iterations": 200,
+  "original_angles": 4096,
+  "original_jac_workers": 2,
+  "original_fresh_FD_flags_unchanged": true,
+  "outer_science_step_minutes": 320,
+  "readback_only_minutes": 10,
+  "job_minutes_including_setup_and_cleanup": 350,
+  "maximum_declared_pair_count_not_guaranteed_by_wall_time": true,
+  "workflow_timeout_or_rules_stop_is_not_a_nonlinear_or_FD_failure": true,
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "initial_parent_artifact": {
+    "run_id": 43677587785,
+    "artifact_id": 14147700690,
+    "artifact_name": "visible-followup-condensedqp-43677587785-1",
+    "expected_size": 809042943,
+    "expected_sha256": "9917774d965e86b0a8d46677a1f54c0fb23fc8fa61a67cbab998e7493d33151a"
+  },
+  "initial_parent_source_commit": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+  "initial_parent_warm": {
+    "file": "warm-001.json.gz",
+    "bytes": 4927052,
+    "sha256": "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
+  },
+  "initial_parent_status": {
+    "file": "driver-status.json",
+    "bytes": 3379453,
+    "sha256": "b7ad389fad867fecf85edc4313145980d6e8686f207acf781ff6a050e7eae6ff",
+    "original_JSON_not_reserialized": true
+  },
+  "initial_parent_schema": "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1",
+  "prefix_optimizer_schema": "exact-constraint-thirty-seven-query-condensed-complete-H-warm-v1",
+  "current_optimizer_schema": "exact-constraint-thirty-eight-query-condensed-complete-H-warm-v1",
+  "original37_recipe": {
+    "file": "public-thirty-seven-model-recipe.json",
+    "bytes": 27755,
+    "sha256": "f8a382475b48cd322b4f44c6a34047fe0552b14ee38832c99924edd08c5156ea",
+    "original_request": 155,
+    "used_as_prefix_model_contract": true,
+    "source_readout_is_not_relabeled_as171": true
+  },
+  "extension_parent_identity_is_runtime_SHA_of_true_same_job37_files": true,
+  "full_original_producer_status_profile_constant_state_and_source_validation_preserved": true,
+  "first38_validator_runtime_expected_SHA_is_not_a_fake_actual155_identity": true,
+  "prefix_FD_must_be_real_on_each_actual_new_warm": true,
+  "extension_initial_parent_not_external_serialized_status_recipe": true,
+  "actual_query_changes": [
+    {
+      "kind": "left-RMS",
+      "interval": 462,
+      "fraction": 0.17267316464601146
+    }
+  ],
+  "query_change_reference": "the complete37 model, retaining all21 LEFT and16 MID queries",
+  "selected_query_count": 38,
+  "selected_angle_row_count": 77824,
+  "added_capture_intervals": [
+    462
+  ],
+  "added_capture_nodes": [
+    462
+  ],
+  "unique_capture_interval_count": 25,
+  "actual_query_endpoint_count": 30,
+  "complete_B_local_coordinates": 10143,
+  "baseline_C_support_dimension": 4059,
+  "full_original_coordinate_count": 236036,
+  "actual155_final_payload_used": false,
+  "actual155_final_payload_reconstructed_from_hash": false,
+  "actual155_selection_evidence": {
+    "result": "results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md",
+    "result_sha256": "00e83681106a29c727179444dd418627dafda20c3adedd41374fbf6a750c2f10",
+    "run_id": "43726543241",
+    "source_commit": "0aa9dca2d8029721cd1e820948699206a7da4388",
+    "compute_job_id": "132849600659",
+    "batch6_nearest": {
+      "alpha": 0.5,
+      "only_failed_unselected_query": "LEFT-RMS462",
+      "beta_squared_minimum": -1.7827069382052452,
+      "all37_selected_valid": true
+    },
+    "batch7_nearest": {
+      "alpha": 1,
+      "only_failed_unselected_query": "LEFT-RMS462",
+      "beta_squared_minimum": -10.25057313338912,
+      "all37_selected_valid": true
+    },
+    "evidence_only_not_a_parent_payload": true,
+    "larger_step_convergence_QP_optimum_or_native_acceptance_not_promised": true
+  },
+  "native_or_full_DN_requested": false,
+  "scientific_thresholds_or_original_stopping_tests_changed": false,
+  "new_BVP_native_QP_optimum_or_larger_step_claimed": false,
+  "temporary_pair_lifecycle": {
+    "original_trial_and_error_readback_precedes_pair_move_and_cleanup": true,
+    "only_real_current_pair_kept_between_batches": true,
+    "phase_handoff_preserves_two_original_files": true,
+    "no_warm_or_status_reserialization": true,
+    "no_raw_artifact_Release_or_Git_upload": true,
+    "failed_or_interrupted_unread_output_survives_until_always_readback": true,
+    "workflow_cleanup_requires_successful_complete_readback": true
+  },
+  "complete_original_trial_JSON_fields_in_each_phase_before_movement": true,
+  "interrupted_both_output_schemas_and_parent_after_status_trial_readback": true,
+  "cleanup_when_always_readback_failed": false,
+  "rules_monitor": {
+    "unchanged_source": true,
+    "current_baselines_explicitly_loaded_from_reviewed_README_bytes": true,
+    "original_2700_second_pull_rebase_diff_and_stop": true,
+    "merge_stat_disabled_only_to_avoid_historical_deleted_blob_diffstat": true
+  }
+}
