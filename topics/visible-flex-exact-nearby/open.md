@@ -43,10 +43,11 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [AC/CN/EN/LN完整正规化链](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d及原proof全式/域/mean/μ²费用逐字保b2476f272c6223b7f8305abe6694de4fed690468同open/H。AC真H密度、CN全mean精确ODE/Jensen两窗，EN须直接signed指数reference不可upper相减；LN只成功SN双四列经真D/√j及μEj一次给d/C/Wiener，强Q与独立μ²aI/2不删。尚无SN终点，非incoming或R0。
 
-[IC逐分支首系数与共同root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7已完整解析核：F*=bu*v/η为root degree192场，T_F两窗同逆、完整F_J输入/输出≤JF+191含mean；ordered乘积的两个I给真正强gain，真density primitive共轭恰保两rank/physical mean。
-原PF非零root幅经共同radial gauge后，ci=−μ/2+v_i、co=μ/2+v_o；v_i/v_o必须由SN各branch通过真H与有序rotation取得。成功终点四列+half μerror+√jD给d0..3/C0..3；全signed Fourier给W4/3≤243C2/160<26C2/17，V可取四完整上界min。实μ的Dμ=P(1−μI/2)P逆范数≤1，incoming high有序分解及L2/H−4/3两χ门精确，E的强窗与完整finite/Schur费用仍待。root回读P/PF/CT/SN和全文，phase/tail独核；本项无新数值，无已付C、强E或incoming/R0。
+[IC逐分支首系数与root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7原全式/域/双χ保bfa0650ced19b0081f8a334ae442b931474780ae同open/H/proof。F*degree192、T_F两窗与完整finite≤JF+191/mean/真density两rank齐；共同gauge后ci=−μ/2+vi、co=μ/2+vo。成功SN四列经真H/rotation、D/√j及half μerror给d/C、W4/3≤243C2/160；不以H3除频捏造低导。strongE/完整finite/incoming/R0仍待。
 
 [MI全圆周非零均值主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca：实c的完整1+McI由正kernel/Jensen严格dν≥1与m/κ全mean公式给两侧逆，ν=0连续且不等几何ν。精确实常量逆收缩，ordered公式给L2 K0和H−4/3 K−，均不随|ν|增长；SN终点仍须支付实际nonmean完整norm。若真正Bi=Ti+Ei且Ei:H−4/3→L2已付Ci，先完整左Ti−1后双窗high同χ=K0CiΛJ^-4/3；实际RHS分别用K0/K−。有限Schur和全物理行必须按precondition后重读，独立mean/rank全留，不能借旧finite Green原行。root全文、phase8–21/tail24–28核；本项无新计算，非actual Ei/incoming/R0。
+
+[CY精确Cayley比值与新scalar门](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)9a4e41c2：same-chart ToTi−1=Cμ+MvI+有序Ecor，Cμ实unitary，Ecor逐项含nonmean、右Ki,-；actual Eo−A Ei仍须全Bi−1负窗。cohomology S保三个非交换项及ES，左Kw,0/右负窗分型，原linear μ²费用不免费删。Cμ对exp阶−3仅可选新比较。B13/actual Jβ仅继承|j|≥1024的1/(1024|j|)尾；97..1023共7416 signed/root门待全新directed检查，γfin未给，成功后才loss1常数1/(4γ)。wider显示区间不获旧无限算术，true背景需稳定性。root全文/B/两个actual及phase12–26核，无新数值；Ei/Eo/incoming/finite/mean/core全保。
 
 [GH强返回](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)须完整R:H(s−4/3)→Hs与χJ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目标，phase不与physical P96对易，完整incoming/positive/root/normalizer/finite/mean/all-s费用未闭。
 [PD增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保rho15一导损、第四Robin/mean/腰、真regular逆/ν/非零S、D²tame/smoothing及可求和迭代；非同阶Neumann。全部准确式/域/费用逐字保aa68eac96e892932cb19ce1aa8a9add5f4d78cae同open/H及原proof。
@@ -140,12 +141,10 @@ RW/RB/RC same-q完整six weights/13ρ/outer/nonzeroaffine和moving≤80physical 
 
 ## 7. 单一frame、同对象几何及最终族
 
-本节压缩前全部逐字条件/单位/费用保a82320e1dd0d3b88f491cbe2c875ae28e1221ce4同open及原文，不取消义务。
-[T单一frame真盘](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)保gh=g−dz²、完整coframe/Ω、一次frame/位置积分、真PDE/holonomy和位置周期；S/T§10给physical C²整盘。B截面须全四态/曲率mean匹配，再一次mean-height常数续接；自由安放不增独立世界锚。
-[M腰反射](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)在真实u0等条件给同一次重建的镜像闭C²浸入，共同quarter旋转锁同轴腰平面。
-[G有限Sobolev外部几何](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)由S/T E1856给曲率<2、内蕴径长<8e−6及同world位置/normal；完整κ/mean与w/a尾费保，不假定旧解析label。
-[B全C0几何](results/R133-supplement-final-geometry-from-complete-C0-ball.md)43584188751/26保141腰锚、完整forward/bF/bQ/跨端高度，周期frame及mean先锁winding1。最终入口仍须同η0全core含真cap C0≤1e−4、|δν|≤1e−5、全部B/C/Cmean/腰u0/physical第四Robin/mean/设计phase和实际γ低高域；振幅是输出，不加固定α行。
-入口实际成立后才用[P固定metric相位族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)一次冻结ν*/Γ1*/Γ2*/η，得到第1节全部embedding/reach/held/Hdiam/marker要求。真核心/全频逆尚未闭，不宣称最终G。
+完整T/M/G/B/P原式、域、单位、费用逐字保bfa0650ced19b0081f8a334ae442b931474780ae同open第7节及原proof；不取消任何义务。
+T单一frame从gh=g−dz²、完整coframe/Ω作一次frame和位置积分，真PDE/holonomy/位置周期及B全四态/曲率mean先匹配，mean-height常数才续接。自由安放不添世界锚；M真实u0与quarter旋转给同一次重建的闭C²镜像。
+G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/normal，完整mean与w/a尾费保。B43584188751/26保141腰锚、forward/bF/bQ/跨端高度、frame与mean锁winding1；须第1节同η0全core/cap C0、|δν|、全部B/C/Cmean/腰/第四Robin/mean/phase及γ低高入口。振幅是输出，不加fixedα行。
+只有上述实际成立后，P9a5bcb14一次冻结ν*/Γ*/η给第1节全部embedding/reach/held/Hdiam/marker和fixedmetric族。真core/全频逆未闭，最终G未宣称。
 
 ## 8. 执行规则与当前可恢复记录
 

@@ -205,3 +205,7 @@ ST b15c1630全文已核，root回SP ae01c213关键全mean/两rate/whole[0,ra]曲
 ### 2026-11-15 20:11:30 UTC — 两份旧浮点geometry清理及SN真实进度
 
 按根规15仅普通删除旧Newton128/129-step2的两个407365/407371B sampled geometry输出，共814736B；新清单1fcc7238d44c2ab53dae77037bb77ef5fdbf1c626240e81ac463fe944e4fb0b7记录原manifest f7b2f899、检查点5894aad2、producer c9c709f6全读及精确argv/bytes/blob/SHA，原文件在8870549d52e48343cb43a979a13f9368cb992736可恢复。当前SN/SC3/TC/CR/ST输入路径静核无命中，所有源码/NPZ/H/精确证书/实际ray和反射/插值失败保，未下载大body或重算旧数学。提交前fresh metadata逐path复核两原blob，历史不改。另root核SN59b55fac/14183/f9480b8b，20:09真pullc45472e空READMEdiff；3624=旧1256+新2368，进度非终点C。ST非FF20:10即时CLI仍无executor，已保远端成功推。此次只读README核3f08cb51e208a7cbbea60e4edccd00aa6bb4f252。
+
+### 2026-11-15 20:14:16 UTC — CY精确Cayley比值
+
+CY9a4e41c2全文root独核有序ratio/两primitive窗/右Ki,-、actual(Eo−A Ei)Bi−1、Sminus/三非交换项/ES及左L2右负窗。回B f5f980a1全文与actual59591352/9893e01a确认selected μ=−4β、原native Jβ及历史candidate措辞；1024新尾为纯解析比较，7416有限门未运行。phase12–26独核通过。旧linear/R0不免费改名，全部mean/finite/Ei/Eo/真背景稳定性前置保。活动IC与第7节压缩前全字保bfa0650ced19b0081f8a334ae442b931474780ae；README核9c26975af1f3739d4c8925dd10861002ffb0ec47无变。
