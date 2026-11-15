@@ -268,9 +268,14 @@ $$
 
 完整数据的长期仓库目录为
 [r150-saturated-third-global-actions-789f/43674463008-1](../notes/r150-saturated-third-global-actions-789f/43674463008-1/)。
-原单次大数据push在约2GiB处遇到HTTP500，数学结果不受影响；完整两包先已保存。专用
-[不重数学的发布恢复入口](../notes/2026-11-15-r150-saturated-third-global-publication-only-request-789f.json)
-只恢复同两包、核全部623文件，按每批不超过400000000字节推送，再实际pull/rebase并完成main推送。实际发布提交以审计和HANDOFF中的成功回执为准，不能把prepared commit当作已推main。
+完整目录已实际进入主分支，最终提交为
+[0d642288dbc6f42f3765edd8c104d48881dae208](https://github.com/Rogerhu12/math-research-public/commit/0d642288dbc6f42f3765edd8c104d48881dae208)。
+[发布完成运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43677160684)
+逐个推进六条不超过400000000字节的数据提交，六次main推送全部成功；七次实际pull/rebase后两份README均无差异。1047个存储文件的路径与Git内容标识映射SHA256为
+`61858081e7ef08a2c871313252a3fd883fbe2bbb4cfbea280c055dcd66c27500`，
+与先前全部校验过的完整数据目录准确一致。
+
+原单次大数据push及随后合并六批的main push曾在约2GiB处遇到HTTP500；两次失败记录仍保存在实际审计中。最终发布仅取已在远端的六条数据提交并逐条推main，没有重做数学或重新下载artifact。完整成功回执亦保存全部实际提交、pull、README散列及最终数据目录验证。
 
 ## 7. 已完成范围与继续的精确问题
 

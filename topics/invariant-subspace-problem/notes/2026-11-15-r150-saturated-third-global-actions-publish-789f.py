@@ -428,16 +428,31 @@ def main():
                     return
         if not pull_and_check():
             return
+        state["maximumNewDataBytesPerMainCommit"] = maximum_batch_bytes
         while True:
-            commit = git("rev-parse", "HEAD")[1].strip()
-            proc, stdout, stderr = git("push", "--progress", "origin", "HEAD:refs/heads/main", check=False)
-            state["pushes"].append({"commit": commit, "exitCode": proc.returncode})
-            save()
-            if proc.returncode == 0:
+            # Main must advance one bounded data commit at a time. Advertising
+            # all batches first does not bound the pack for a later HEAD push.
+            pending = git("rev-list", "--reverse", "origin/main..HEAD")[1].split()
+            if not pending:
+                commit = git("rev-parse", "origin/main")[1].strip()
                 state.update(status="pushed", publishedCommit=commit,
                              publishedResultDirectory=str(target_rel), lastRulesReadCommit=last_read)
                 save()
                 return
+            commit = pending[0]
+            changed = git("diff", "--name-only", "-z", commit + "^", commit)[1].split("\0")
+            if any(name and not name.startswith(str(target_rel) + "/") for name in changed):
+                raise RuntimeError("pending main data commit has paths outside the exact result directory")
+            proc, stdout, stderr = git("push", "--progress", "origin",
+                                      commit + ":refs/heads/main", check=False)
+            state["pushes"].append({"commit": commit, "exitCode": proc.returncode,
+                                    "pendingDataCommitsBeforePush": len(pending)})
+            save()
+            if proc.returncode == 0:
+                # Refresh main and both rule files after every bounded advance.
+                if not pull_and_check():
+                    return
+                continue
             # A rejected non-fast-forward is immediately followed by the real
             # pull --rebase and the two-rule diff, with no artificial retry cap.
             rejection = (stdout + stderr).lower()

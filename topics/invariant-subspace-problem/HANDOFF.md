@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open；有限模型、候选排除或阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 28a35be3745a63cc4f59f46725fdee50f0b54711（2026-11-15 04:34:44 UTC，Actions run43677371373实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43677371373-1.json。
+- **最近成功实际 pull 与已读规则提交：** 1883a0d9af457934b3c0551f81a96a07bfcf53fe（2026-11-15 04:44:19 UTC，Actions run43678052178实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43678052178-1.json。
 - 根独占main/H/open/results/log；代理只写独占稿和证据blob。每结论立即推；每推前及至少每小时实际pull，逐次比较根/课题README，只读新差异并遵守；非快进立即pull --rebase再推至成功，不force。
 - 根迁移授权仅Rogerhu12/math-research-public；token仅CLI临时环境。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、job≤6h、账号≤20并行。数学用美元符；Markdown≤100KB、H≤10000字节、log每条≤5行；原数据>1000000B压缩、每存储文件≤5000000B，分片4500000B。
 - 全部未列状态、实际来源/SHA/旧限制保[本次完整H](notes/2026-11-15-handoff-before-growing-symmetric-blocks-789f.md)及递归快照；未列open不视为关闭。根本地sparse，原树文件保留；大任务在本库Actions。
@@ -12,7 +12,7 @@
 
 原A为6188来源/4367输出、泛秩4354；h0度24，H0=(s−2)h0不同，char0成员性仍未证。第二像rank4/208后继，第三像rank2/九局部全正，旧原数据实际推cef83145，旧局部页不重算。
 
-**[九原17模31⁶全证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)**已实际推076150be：run43674463008/source88be0c86仅续最后三阶段，537.367185056秒；九31²h0t_j完整6188源/4367输出/原17式、六辅助/315/505/整数carry全真，九实费1339。623恢复3746395040B全保[实际审计](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)。两次main大包HTTP500后，6批数据已全远端，最终29e0b9a0；当前finalizer run43677160684/source5a5fec4d只fetch已存元数据，逐个≤400MB数据commit推main，每次pull/rebase核README、非快进循环，不重数学/不下载artifact。以最终pushed回执登记main，不把staging当main。
+**[九原17模31⁶全证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)**已实际推076150be：run43674463008/source88be0c86仅续最后三阶段，537.367185056秒；九31²h0t_j完整6188源/4367输出/原17式、六辅助/315/505/整数carry全真，九实费1339。623恢复3746395040B全保[实际审计](notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)。完整1047存储文件已实际推main **0d642288dbc6f42f3765edd8c104d48881dae208**；finalizer run43677160684逐个≤400MB推进6提交全部成功，7次实际pull/rebase两README无差异，数据Git映射SHA61858081…c27500完全相同。两次HTTP500记录保留，未重数学/下载artifact。
 
 **原六槽范围全保：** [1345全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、四真W2、主第三源父系数[344,409,327,102,1,16]、真D2及s/t整数carry。真来源链177→373→469→665→761→957→1053→1249→1345，实际最后1339。中间p4禁止未缩放κ9；既有完整原式均保已付域和全部输出。
 
@@ -22,7 +22,7 @@
 **原选列∞：** [模31常秩4318/连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给同4354子式36余方向/3阶一/33阶≥2，v∞Dbar≥69；不能混同全矩阵4340/连接4。char0所选秩当前4318…4340，余块14…36。
 
 **[同36核原整数Dixon至p³²](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)**已实际推057990186f6ab671a8e0e32f80eae7b654047377：由已推p⁴只推进28位、14.592554667秒，全部4367残差/自由I36及p⁸/p¹⁶/p³²新鲜乘回全真；84证据24916470存储字节。非单位31-Smith若非零赋值≥32，此轮无真Q核。
-**[第184位13真Q核已证](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)：** 同36自由槽中13列完整6188有理系数重建、4367原整数乘回精确零，自由I列保证独立；同选4354支撑，故当前秩界仍4318…4340。32→184只接152位、108.336960369秒；64/128/184原乘回全真。13核完整整数证书、原程序/主回执及184来源/产品/残差所有分片已先存；[当前184文件清单](notes/2026-11-15-r150-selected-infinity-thirteen-exact-kernels-core-publication-manifest-789f.json)32463848B，其余348总清单的恢复仍上传不丢。共同分母LCM438bit、分子最高471bit；[已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)实际1.443612394秒/30秒512MiB，无新Dixon位，23列原整数乘回均非零；仅排这23个分子，不排同D的无界高度或别的分母，完整回执已存。后继从真184接192/200或原syzygy乘变量扩张，严保同选列与自由块，不重旧位；随后接char0连接/Smith。
+**[第184位13真Q核已证](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)：** 同36自由槽中13列完整6188有理系数重建、4367原整数乘回精确零，自由I列保证独立；同选4354支撑，故当前秩界仍4318…4340。32→184只接152位、108.336960369秒；64/128/184原乘回全真。13核完整整数证书、原程序/主回执及184来源/产品/残差所有分片已先存；[当前184文件清单](notes/2026-11-15-r150-selected-infinity-thirteen-exact-kernels-core-publication-manifest-789f.json)32463848B，其余348总清单的恢复仍上传不丢。共同分母LCM438bit、分子最高471bit；[已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)实际1.443612394秒/30秒512MiB，无新Dixon位，23列原整数乘回均非零；仅排这23个分子，不排同D的无界高度或别的分母，完整回执已存。[完整一次变量闭包](results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md)付低次数恰4维、44乘积越界rank35、九合法乘积准确等旧核，扩张仍13维。实际已续184→200，代理正更高位/新精确核证书；保持同选列/自由块并全4367整数乘回，不重旧位，随后接char0连接/Smith。
 
 ## 实际边界：同一源与全部返回
 
@@ -39,7 +39,7 @@ M=kerT、N=closure BM、W=M⊖N；N=M仍开。原同w/未来/负前缀、初M3�
 
 - **[全尾增长对称块与有界交织](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)：** 连续块L(x)=floor(x^α)、0<α<1/2，几何平均配平；全尾η≤2^(2−2α)m^(2α−1)/(1−2α)。只在全块对称P上构造有界V±，V_-*V_+=I且||V±−i||≤sqrt(e^η−1)，双向真实L/D交织保全部核/low-row/孔cut。完整原核投影与配平对称核在P上差≤epsilon，top两倍；J0=V_-*|kerL的全部nuisance最小lift Gram e^±η。原母提升直接接同w/同Q真top；未构造环境S∞、未偷换原r或LGL。固定低测试强接近，spin容量及allstar匹配仍须证明。
 
-**代理当前继续：** boundary在同C/同u的完整右链中利用Cc_j=−D_>c_(j+1)付右范数收缩，保真末端；左有边界缺陷，尚未闭两费。literature继续配平强块的同固定测试/完整Schur，探索大等权块，不能以环境条件数代原源。原全源相对孔导数反例家族已被flat expO(m²)支付且固定低测试恰零，只排全源小导数，不排此低forcing入口。
+**代理当前继续：** normal由真200继续重建余核；boundary/literature接同w共同有限封口、固定测试||(C*)†(e_a⊗vac)||²=O(R³)及保强回返的commutator两费；这些目标未证，不能以环境条件数代原源。原全源相对孔导数反例家族已被flat expO(m²)支付且固定低测试恰零，只排全源小导数，不排此低forcing入口。
 
 ## 其余仍开放
 

@@ -119,46 +119,24 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15）
 
-所有旧结论、完整常数/来源/工件与未关闭问题保[本次压缩前全文](notes/2026-11-15-open-before-complete-saturated-second-and-third-run-789f.md)及递归快照；未列旧问题不视为关闭。
+所有较早结论、完整常数、来源与未关闭问题保[本次压缩前全文](notes/2026-11-15-open-before-complete-global-and-infinity-kernel-closure-789f.md)及递归快照；以下只更新当前接续，不把未列旧问题视为关闭。
 
-**R150完整第二/三局部层已闭。** [第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)像rank4、208真后继源；[第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)像rank2，九目标全部315局部身份均正，原数据已实际推cef83145。既有原17/104自由/完整核已全保存，不重旧局部页；继续六槽原式全局来源及特征零。
+**R150 固定模原来源已闭，继续特征零。** [九目标原17式全证明](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)给完整6188来源/4367输出、九个31²h0t_j模31⁶均成立，原未缩放17式/六辅助/315/505/carry全真，九实费1339。623恢复原字节3746395040、1047存储文件已全部实际推main 0d642288dbc6f42f3765edd8c104d48881dae208；六次有界推送成功，无数学重算。第二像rank4/208后继、第三rank2及九局部页已成，不重复。
 
-**原真实窗口及未付比较。** c26无权窗口保同w/同负图/同top、全cut ΣXi²≤2d尾能量。新[c*=1601/64真带权窗口](results/R271-appendix-true-minimal-projection-weighted-window.md)付真正v/k误差e^-6d4及u两倍，真实||G1||≤e47d4/8后G1/G1*误差≤2e^-d4/8，P_VG1(I−P_V)同源反馈已小。原全部cut左<Lr,G1r>现在准确接物理低孔自配对。主κd/Q=O(1)已足平均，κ=O(e25d3)在此窗口有裕量，但κ尚未证明；旧联合旗δ不能扩到新窗。
+**真实特征零接口。** [固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同目标/同来源界/同31分母指数于无界精度可解；有限p6、来源界增长或e增长均不够。[公共子式条件8740](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)只把已存在Q[s]解整理到固定成本，不先证明有解。要保模各精度同B/e，仍须lc(D)为31单位；同一D自然度8770、已知公共有限K60及无穷远条件全保。
 
-**联合处理高孔与普通右费。** 全局p_m(B)w=d0w+n_m（n_m∈N），完整W锚已付；任何截断n_m交叉仍须保。ordinary右候选是p_m(B)w/G1w未来，Bw的未来多一个A；继续其真实有限封口/完整高返回，与高孔<w_hi,G1w_hi>共同估计，不单独乘巨大环境范数。P_KG1u余非自伴块仍开。Xi只含bare和flat，普通λ不互换。
+**同一选定无穷远常块。** [常秩4318/真连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)不能混同全矩阵4340/连接4；同4354选列与输出、36规范自由方向不变。[p184的13真有理核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)全部6188来源及4367原整数乘回为零，现已发布核心证书/恢复；此前实际秩界4318…4340。代理已由真184续200并继续更高，新的秩结论须配完整证书另立条目，不以有限精度为证。[已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)全失败，只排这23个指定分子，不排其他分母或更高分子。[13核完整一次变量闭包](results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md)证明低次数空间恰4维；44乘积的越界块rank35，九合法乘积等于原九核，因此此扩张仍仅13维。继续真实新位有理重建、全原输出乘回，成全36后再接同一子式的char0连接/Smith，不混不同选列。
 
-**固定测试与真低forcing传播。** 原完整Γ_CC/源Schur、Euler反馈及a1精确b1=−W1b′1/S、同Gq尺度已付；所缺b′1=o(S)，O(S)只恢复平凡界。a2一孔真实Schur已准确吸收primitive残量并给原两列式，未付联合远孔小量。当前对x=Γ_CC⁻¹y1使用高行零和同一物理返回带；left/future零源物理正交及孔cut域已核，但返回交叉和软cut双交换子不能删。纯D^n尾无法自动处理交替D*/D及E_d投影。
+**同w原窗口及普通右费。** c26无权窗与[c*=1601/64带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保同w/同负图/同top及真实G1/G1*误差；原d窗κd/Q=O(1)够，κ=O(ρ^-2)有裕量但未证。全局p_m(B)w的W锚保留，普通右候选须它的原未来；Bw缺A，截断N分量和P_KG1u不能自动删。完整有限封口、终端及全部高返回仍须支付；Xi只含bare+flat，不能改普通λ。
 
-**gap与过滤器。** 真递减Gq给dq耗散、Xi(e)²≤4dq和同固定测试误差≤Xi(r)√dq；它不提供移动gap速率。完整G保高返回，商核不冒充physical核。EME≤2E(I−E)、JMJ≤2J(I−J)及全部幂耗散保留，实际主L配对仍开。所有其它旧open维持原范围，普通ISP完成标准不变。
+**正平均后的精确待付项。** [复参数平均](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)将高孔配对正平均成原尾量；μ⁴≤d0^-2flat²R²且R²=d0²Σλ((logH)^k r/k!)²≥d0²λ(r)²。仍需同源全部窗口ΣR²≤K_m n_m||w||²、K_md/n_m=O(1)，不由环境范数或bare费替代。
 
-**完整第二后九目标只余一条特征线。** [精确小系统读出](results/R150-appendix-saturated-second-target-eigenline.md)给V13秩13、连九raw秩14，九余类为ρ2的非零倍[1,28,16,11,7,7,4,1,11]，最小式s−2；全315的13×9原基差身份已保存。第三208完整来源必须全九同成败，仍逐列核；全部负才得原p²h0模p6任意次数否定，正则继续完整原来源回提。冻结第三入口已随本提交实际发布后调度，目标char0与ordinary ISP均未闭。
+**强尾并头的实际两费。** [同顶部流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)给C=A_m+D_<、h=d+R，n+h+R<Q时真左最小、负图及全高返回保留；ΣXi_C²≤2hβ²、h网格≤2β²。取R≈ρ^-1使远D范数δ<ρ，剩同源比较κh/Q=O(1)，κ=O(ρ^-1)已足。新源跨R个总孔层，不能偷换原单孔ordinary λ。
 
-**第三局部正的原式任务。** 所选20011+16·20012只用父ω3…8整数[344,409,327,102,1,16]，四W2/真D2与U7修正、同一raw q1的s/t carry全保。局部全正不等于九原17模31⁶已经恢复；全局源必须逐条原式乘回并扫描实际成本。
+**强源解析演算已经保真。** [Stein缺陷与两真实Schur](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)给||C_s^k||_{L+B,L+G^-1}≤sqrt(k+1)δ^k；逆芽须完整截到h−1，近恒等误差16d0²εδ/ρ，负图保准确S_b伴随。尚不比较S_b/S_f或直接付flat。继续同w的真全局C^g与C低远孔、共同有限封口；固定原测试窄目标为||(C*)†(e_a⊗vac)||²=O_a(R³)，保P_kerC测试分量，尚未证明。
 
-**第三正后的六槽真实来源比较已证。** [完整证明](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)给S_r中初值仅差真正B核提升时的选择差落W_(r−1)，第三须补完整W2；q1规范变化须同步q2。中间p4须真p3的b8/D3_K2；四条第二像必须先全球化，末p5用pH_a修正。通用六槽费用1348仅条件预算，实际global执行仍开，正在按已存常系数收紧1345。
+**原尾配平与全部通道。** [相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)及[增长对称块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)给全尾L(x)=floor(x^α)、α<1/2时真实P上的有界V±、V_-*V_+=I、双向L/D交织与真核/top固定测试误差→0。全部nuisance经真商J0保留，最小lift Gram e^±η；没有全空间S∞假设或新源替代旧r。继续同固定测试C†列及真实spin容量/主池匹配；allstar和非交换LGL未自动运送。
 
-**实际常数主列付六槽全局上界1345。** [全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、六槽初界177与四次whole-P/T96的真来源链。原式全九、六辅助、315/505及实际费全部通过才登记最终有限模正证书。
+**gap与低forcing。** 真实递减Gq给dq耗散、Xi(e)²≤4dq和固定测试误差≤Xi(r)√dq，不给移动gap速率。Γ_CC⁻¹y1高行零、left/future零源正交、χ保kerD^d已付；物理返回带交叉/交替D*D传播仍保。a1的O(S)尚缺o(S)，a2真一孔Schur/原两列式已成但联合远孔小量未闭。旧全源相对孔导数反例家族已由flat expO(m²)支付，且固定低测试恰零；只排全源小导数，不排此实际入口。
 
-**高孔项的同源二进制插值已付。** [统一真实预算与插值](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)对同H和真u/r保全部a≤2^(d−1)的环境/carry/投影；Lagrange总变差<9使整组高孔自配对准确合成原尾范数。只剩同s_j=H^(2^j−1)B_m top的普通完整右费R_p²；ΣR_p²≤K_mn_m||w||²且K_md/n_m=O(1)足矛盾。该新预算尚未证明，不能以环境范数或bare费用替代。
-
-**复参数同源正平均与普通费未闭。** [完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)以d个单位根参数付平均H_a=I及μ⁴≤d0^-2 flat²R²；同真实环境/最小投影/原未来全保，高孔二次型正平均恰原尾范数。准确Parseval为R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，不能把平均当更弱普通费用。继续原顶部封口/完整高返回及全窗口ΣR²≤K_m n_m||w||²、K_m d/n_m=O(1)。
-
-**九个原17式模31⁶全局恢复已闭。** [完整原式证明及全数据](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)由真实33阶段/716像行继续，全部九目标31²h0t_j经6188原来源/4367输出/原未缩放17式逐项通过，六辅助/315/505/carry全真，九实费均1339≤1345。623恢复全存，原单push传输失败已接独立400MB分批发布，不重数学。此处只关闭固定模31⁶全局来源接口；继续原char0成员性及同B/e无界精度，普通ISP未闭。
-
-**固定来源界的31进下降及当前原式续算。** [完整定理](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同一B、同一目标、同一分母指数e；无界精度可解才推出真实Z_(31)来源，精度间不必相容。1−31s及u(u−31)分别排无界来源次数和只看∞纤维秩的捷径。最终九原式模31⁶已完成、实费1339；已成来源保留，下一处理真正无界精度或直接char0，不重复旧局部页。
-
-**原char0成员性的条件来源界现为8740。** [公共子式因子降度全证明](results/R150-appendix-common-minor-factor-conditional-source-cost8740.md)保同一原8770子式和所有输出：换列子式除K后转回，deg(D/K)在255…8696，给已有Q[s]解的共同成本8740。只是有限界，不证明实际有解或31分母指数≤2。lc(D)31单位时才可把全模精度降到固定B/e并接下降；该∞条件仍未付，继续真实全局原式及36核提升。
-
-**同一原子式∞压缩已实算，char022亏损仍开。** [完整证据](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给选定1021常rank985/真连接3，原4354常秩4318、模31v∞≥69；不能混成全矩阵1007/4或char0结论。须直接处理原char0常块，当前4318≤rank≤4340、余块14…36。已知char0上界付cofactor至少13阶并把条件来源界加强8801，但lc(D)单位/全部精度/实际成员性仍未付。
-
-**强尾位并头已付同一顶部流，剩完整比较。** [新完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)在同u_Q上给C=A+D_<、h=d+R、n+h+R<Q的真左最小和ΣXi_C²≤2hβ²；远孔/总孔差≤R，完整高返回修复与负图都保。R≈ρ^-1令远尾范数小于ρ，但不能直接控制新完整逆。当前足够目标为同源μ_C²≤κ_mXi_C²且κ_mh/Q=O(1)；κ_m=O(ρ^-1)足。新联块源跨R个原总孔层，不能偷换原单孔ordinary λ；继续强块完整Schur/低forcing比较。
-
-**同一选列已有13条完整原有理核，余23仍开。** [第184位真核证书](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)由真实p³²继续到p¹⁸⁴，13列全部6188系数重建并作4367原整数精确乘回，自由I列保证独立，同4354选列支撑保持；char0秩仍4318…4340。完整13核证书/源码/主回执与真184恢复已存，其余逐位恢复继续上传。后继由真实184继续，或以已证syzygy代数扩张，最终须实际同36自由块满秩才能夹逼4318；不把有限精度当char0。
-
-**相邻强位配平的固定测试预算已成。** [完整证明](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)对原连续尾任意R保真实核/左空间/扩块/物理joined投影，固定对称输入误差≤sqrt(e^(2/m)−1)，同top两倍；全部反对称通道经真实Schur保留，有效Gram e^±(2/m)一致、回返能量O(1/m)。此为固定测试与同可行源比较，不直接搬运LGL/ordinary λ。继续同C源与完整两费，旧全源相对孔导数反例只排全源小导数，未排此入口。
-
-**强联块真实源的解析Schur预算已证。** [完整Stein缺陷证明](results/R271-appendix-strong-tail-source-stein-defect-and-full-schur-analytic-calculus.md)在同C_s=A_m+D_<上保两右链/左最小零源，给||C_s^k||_{L+B,L+G^-1}≤sqrt(k+1)δ^k，δ<ρ时完整至h−1的逆芽近恒等误差16d0²ε δ/ρ。不是旧A_m全源孔导数界，也没有把两种Schur互比。继续同w真C^g与C低远孔及共同有限封口；固定原测试另有窄目标||(C*)†f||²=O(R³)，尚未证。
-
-**全尾增长等权块归约已保真。** [两个有界交织的全证明](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)取连续块长floor(x^α)、α<1/2，真实对称P上V±近包含、V_-*V_+=I；原/配平完整核与low-row、top固定测试误差随m趋零，全部nuisance由真实商J0保留。母提升接同w/同Q，未使用环境无界S∞。新spin块容量保真，但主池allstar长度与原A_m尚未匹配；当前重点固定测试(C*)†(e_a⊗vac)的O(R³)平方范数及共同有限封口。
-
-**13核的共同分母复用未增核。** [23个指定候选的完整检查](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)只把已证438bit分母D乘实际K184并取唯一居中分子；23列全部原整数乘回非零。实际1.443612394秒、无新Dixon位；不排同D无界高度或其他分母。继续其余23真核恢复。
+普通Hilbert ISP完成标准维持原README；Haar普通循环性、正常有限秩的相容全链严格正距及实际下一完整尾上界等全部旧open继续。
