@@ -1,0 +1,88 @@
+name: visible-exact saved complete source-row diagnosis
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-saved-adjacent-source-row-diagnostics.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-saved-adjacent-source-row-diagnostics
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-saved-adjacent-source-row-diagnostics-CI-inputs.json
+  PHASE_MANIFEST_SHA: 09b2f621824078c3b10093e4963f4ce80b6a482197e33f667a055d06dd13769e
+  PHASE_PIPELINE_SHA: b7884944d246c85ff546eb20d4a4b012097fee912887eb94072f52b1e875349c
+  PHASE_WORKER_SHA: b276a35685600b7eb34d8b5e27b24f7d957f0ccf51ececa54535ab0dba9aa0ba
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+  REVIEWED_RULES_SHA: f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd
+
+jobs:
+  complete-saved-source-row-diagnosis:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-saved-adjacent-source-row-diagnostics-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the pinned stdlib consumer without running diagnosis
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Temporarily read the original complete artifact containing the natural largest case
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-correlated-adjacent-piece-first-Airy-sources-43676926141-1
+          run-id: 43676926141
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-saved-source-row-original
+      - name: Consume saved rows and publish only actual conclusions parameters runs and hashes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-saved-source-row-science"
+          --prepared "$RUNNER_TEMP/visible-exact-saved-source-row-original"
+          --out-dir "$RUNNER_TEMP/visible-exact-saved-source-row-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.

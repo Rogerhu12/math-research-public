@@ -1,0 +1,84 @@
+{
+  "kind": "complete_saved_adjacent_source_row_diagnostic_input_selection",
+  "public_repository": "Rogerhu12/math-research-public",
+  "original_run_id": "43676926141",
+  "files": [
+    {
+      "role": "original_native",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/correlated-adjacent-piece-first-Airy-sources.json.gz",
+      "bytes": 42046,
+      "sha256": "5754193c193b9769eeec94bf6a9258489db14f9bfda758bf34a549d71c867a0f"
+    },
+    {
+      "role": "original_process",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "role": "original_publication",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "role": "original_worker",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/worker-process.json",
+      "bytes": 5488,
+      "sha256": "ec4a322eec84198fe1d3306978de3b5cde171a417c21eb6d7c3f16ef5dc6c87a"
+    },
+    {
+      "role": "case_0",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-1000.json.gz",
+      "bytes": 583074,
+      "sha256": "5a80c2f959596095d731f32948ad3d8398ded9914eced9aa2e844dc45926fe18"
+    },
+    {
+      "role": "case_1",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-500.json.gz",
+      "bytes": 1197823,
+      "sha256": "c6b91d1d2a412461eb82305be0d680ba3294b1029a602d1d2d24cf5c49d21ef4"
+    },
+    {
+      "role": "case_2",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-200.json.gz",
+      "bytes": 2864099,
+      "sha256": "5bb361b5a6fe706de8d9828cd6f81674b73652e4b0136ec9096d0719d822d3db"
+    },
+    {
+      "role": "case_3",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-100.json.gz",
+      "bytes": 3703421,
+      "sha256": "23e3a485db14a3028151ce1b0d88cf68cb587a418c1c0aba212f57d066ec5daf"
+    },
+    {
+      "role": "case_4",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-3-200.json.gz",
+      "bytes": 4572076,
+      "sha256": "bb50ec2c93c3de337484679ec9ce5e2b1e1db25e92834213fb7d8cc326bd6914"
+    },
+    {
+      "role": "case_5",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/cases/radius-1-50.json.gz",
+      "bytes": 5500010,
+      "sha256": "cce603603bbbc35e32897a36a570b98dbb993b8e80396862a7f330c98965264c",
+      "restore_from_original_Actions_artifact": true,
+      "artifact_id": 14146726654,
+      "artifact_name": "visible-exact-correlated-adjacent-piece-first-Airy-sources-43676926141-1",
+      "artifact_run_id": "43676926141",
+      "artifact_relative_path": "consumers/cases/radius-1-50.json.gz"
+    }
+  ],
+  "script": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_adjacent_source_row_diagnostics.py",
+    "bytes": 26335,
+    "sha256": "b7884944d246c85ff546eb20d4a4b012097fee912887eb94072f52b1e875349c"
+  },
+  "cli": "--repo REPO --manifest MANIFEST --manifest-sha SHA --out-dir OUT [--resume PRIOR_DIAGNOSTIC_NATIVE]",
+  "source_requires_only_stdlib": true,
+  "old_numerical_enclosures_recomputed": 0,
+  "new_saved_row_diagnostic_consumption": true,
+  "original_complete_stage_evaluation_required": false,
+  "all_78_original_stages_unchanged": true,
+  "complete_case_1over50_restored_intact": true
+}

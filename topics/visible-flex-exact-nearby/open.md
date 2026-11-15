@@ -66,7 +66,7 @@ native5754193c…42046B、process9e8f1f92…37783B、worker ec4a322e…5488B。�
 
 43675153388原reader字段错误0stage、43675967042原up(int)错误28stage均保。[唯一28字节继承修复](notes/2026-11-15-R133-adjacent-scalar-coercion-and-byte-exact-prefix-recovery.md)只加原int/Fraction→Arb精确入口；旧header/source/manifest/runtime不改，279pins/原6外case校验完整。新当前SCI fa344d17…、helper071065fc…、policyb5706e3b…、manifest57b978db…不可触发旧成功数学重跑。
 
-下一项先在公开Actions对保存的六完整case做主导行诊断，0旧包络重算，保原piece/commonrow、真实径向权、完整九词/五mean。按实际主导选新的相关比较或径向参考消费，不能凭相邻编号猜测，不盲扩Taylor域。真实修正seam算子、正weighted端口、strong-return定量及cutoff97充分性仍须完成。
+新的11pin诊断workflow已部署：SCIb7884944…、manifest09b2f621…、workerb276a356…，原6case仅从准确历史a3d84d…及旧artifact14146726654恢复到runner临时目录。一次新增诊断消费/0旧包络重算，保原piece/commonrow、真实径向权、完整九词/五mean；现行规15下只登记真实结论/参数/run/输出SHA，不上传任何新可重算data。按实际主导选新的相关比较或径向参考消费，不能凭相邻编号猜测，不盲扩Taylor域。真实修正seam算子、正weighted端口、strong-return定量及cutoff97充分性仍须完成。
 
 [完整Fourier径向参考R1–29](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)保primitive排零、独立j0、不除K的两态方程。[共同Langer C1–22](results/R133-supplement-common-radial-Langer-reference-and-complete-source-ports.md)保Tκ²=Kη²、全mean及无需g2′的两源，准确主部∂T²+T∂X²，root为n1/3混合矩阵。不能把旧Ai界直接改名为deformed基；d∂、I/J、mean、正两端图及subprincipal返回相位仍计费。
 
