@@ -312,3 +312,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R726：低ell三charge乘子与同预算指定强迫](results/R726-low-ell-three-charge-multiplier-and-actual-forcing-unit-block.md)：j0=ell−k≤3三个原乘子逐十九角保3charge及顶gap，完整第三短块消去；实际第二块保ξ0/V1/f2/normal尾，首阶ν=h+ell−r−1为unit。κ<ν<T、T>2κ时指定目标退出同D截源00单位块；两实列、全WD/同R/两13carry/p³未删。
 
 - [R727：原角平衡截面与真实垂直商的单残列](results/R727-original-balanced-sections-and-single-residual-column-in-vertical-unit-quotient.md)：U=d^c和A=t²m_tan d^(c−1)逐十九角回H1，两charge只b≥2即可整分裂两jet。以实际λ排F保A，R547垂直＋F²L真单位块保原cube p因子；同商两余列精确(0,16c z_c)，保全p³身份/同R，不相加单位块秩。
+
+- [R728：冻结型5负一行的原连接源与全近消返回](results/R728-frozen-type-five-connection-and-complete-near-cancellation.md)：D=ζP−P′/34对应完整S34零质量伙伴及σ′⊗oddS33真实卷积；五负矩回原c/(c+Z)单位域。全部两单位近消来源为β^m(1−hκ)D+ell_mP′/34，完整Mellin保J_P中央、负一质量及p^m/κ^m尺度log；P未认成原S，native外部相反补偿仍保。

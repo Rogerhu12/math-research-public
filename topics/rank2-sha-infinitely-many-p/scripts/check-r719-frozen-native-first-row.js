@@ -943,6 +943,36 @@ for(const c of candidates){
   candidate_torsion_divisibility:divisibility,
   all_scope:"exact auxiliary polynomial algebra; no characteristic-zero factor claim before a full lift"
  };
+
+ // Exact auxiliary incidence only; the original q715 and zeta715 are unchanged.
+ const sco=[1,ne(-53,0,7),ne(-12,0,7),ne(-80,0,7),ne(-128,0,7)];
+ const dS=sco.map((a,j)=>md(a*(14-3*j)*iv(17)));
+ const dSjet=mm(firstZBasis,dS.map(x=>[x])).map(r=>r[0]);
+ const residBasis=er.piv.map(j=>residual.map(R=>R[j]));
+ const incidence=x=>{
+  const original=fullFirstSource(diffMatrix,diffOld,x.sol,x.affine);
+  const system=Array.from({length:5},(_,k)=>[
+   ...residBasis.map(R=>R[k]),md(-dSjet[k])]);
+  const rr=elim(system,original.jets_z5_11_17_23_29.map(v=>md(-v)));
+  const allleft=leftResidual.map(r=>({direction_pairing:dot(r.row,dSjet),
+   actual_rhs:x.affine?r.symmetric_rhs:r.neutral_rhs}));
+  const line=elim(allleft.map(r=>[r.direction_pairing]),allleft.map(r=>r.actual_rhs));
+  assert(rr.inconsistent===line.inconsistent,"full five coordinates and three residual constraints agree");
+  if(!rr.inconsistent)assert(system.every((r,k)=>dot(r,rr.solution)===md(-original.jets_z5_11_17_23_29[k])),
+    "entire auxiliary incidence, no source replaced");
+  return {consistent:!rr.inconsistent,matrix_rank:rr.rank,
+    three_constraints:allleft,line_rank:line.rank,
+    source_scalar:rr.inconsistent?null:rr.solution.at(-1),
+    residual_coordinates:rr.inconsistent?null:rr.solution.slice(0,-1),
+    nonzero_left_remainders:line.inconsistent?line.reduced.filter(R=>!R[0]&&R.at(-1)).map(R=>R.at(-1)):[],
+    scope:"Incidence in this complete auxiliary affine plane only; no characteristic-zero exclusion and no altered q are asserted."};
+ };
+ const originalSIncidence={
+  D_S_definition:"zeta*S-S'/34, with d_j=(14-3j)*s_j/17",
+  D_S_theta_coefficients:dS,D_S_jets:dSjet,
+  q715:incidence({sol:as.solution,affine:true}),
+  zeta715:incidence({sol:an.solution,affine:false})
+ };
  const frozenNormalAnalysis={
   raw_first_observations:["Y0=A+c+2d","Y1=A+2c-d"],
   raw_second_observations:["W0=A+3delta*c+4d","W1=A+4c-3delta*d"],
@@ -959,6 +989,7 @@ for(const c of candidates){
    normalized_branch1:fullFirstSource(frozenNormalMatrices[1],frozenNormalOld[1],an.solution,false),
    difference:fullFirstSource(diffMatrix,diffOld,an.solution,false)},
   exact_auxiliary_J2_readers:{paid_forty_nine_plus_difference:paidJReader,native_without_quarter:nativeJReader},
+  original_S_line_incidence:originalSIncidence,
   residual_polynomial_geometry:residualPolynomialGeometry,
   residual_image:{rank:er.rank,pivot_columns:er.piv,
    basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},

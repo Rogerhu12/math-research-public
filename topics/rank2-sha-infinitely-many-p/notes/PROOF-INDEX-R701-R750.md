@@ -72,3 +72,5 @@ R724后续[原Brandt二阶与同步匹配](2026-11-15-first-wild-brandt-second-m
 - [R727：原角平衡截面与真实垂直商的单残列](../results/R727-original-balanced-sections-and-single-residual-column-in-vertical-unit-quotient.md)：U=d^c和A=t²m_tan d^(c−1)逐十九角回H1，两charge只b≥2即可整分裂两jet。以实际λ排F保A，R547垂直＋F²L真单位块保原cube p因子；同商两余列精确(0,16c z_c)，保全p³身份/同R，不相加单位块秩。
 
 Brandt note §7：实际固定α满足ell_p(α)=0时，原同步相关等于细化层真实Brandt单点平均；全部坏位/norm-fibre及O_α(p)依赖保，非固定代表不能沿用统一界。
+
+- [R728：冻结型5负一行的原连接源与全近消返回](../results/R728-frozen-type-five-connection-and-complete-near-cancellation.md)：D=ζP−P′/34对应完整S34零质量伙伴及σ′⊗oddS33真实卷积；五负矩回原c/(c+Z)单位域。全部两单位近消来源为β^m(1−hκ)D+ell_mP′/34，完整Mellin保J_P中央、负一质量及p^m/κ^m尺度log；P未认成原S，native外部相反补偿仍保。
