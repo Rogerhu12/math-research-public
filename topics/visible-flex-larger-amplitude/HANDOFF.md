@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:33:09 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9dea95f78750e1013f09111e20c8eb73f9aa74c1。
+规则同步记录：2026-11-15 22:34:17 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 43565034ad6b7f35a99b5eb610d9aea8676c1b0f。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -37,7 +37,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R361](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)最近1/4096仅RIGHT459域阻。[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)/191真98另起39/free461全仿射/103+worker104/八批FD原预算、单90KB与实际own/quiet/清理保。[R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)单76295B/07372514必要完整：全部629gap/29端点、75776角事务与1288192责任完成，168176直接/1120016包含继承；1195792严格过、92400未决、0反证/0未访。$k=9,\ldots,16$全37×2048闭段证完，较大九档未决，3900.166秒非预算/异常，原diagnostic返回3不抹模型接受。真四trial后α1/8接受、W43.3630→43.3361，新FD四阶8.81885e−10过；无native/fullDN/IEEE全误差/连续角声明。各档完整未决query及所有来源/错误/未访保全文；原大ledger仅身份，必要读回后实际清raw，后继须真98重生，不回填175。
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)真128后仅20/576、112/338未起且清。186/190/192分别64/70/77pins，全部576×224/112/338×112/fresh audit与原19200/6000/1200/8000/600/600/1800预算不变。R402记录系数、R405完整113bit/20bit/宽指数/一次RN113只付对应代数，非准确导数/速度；R414独立SIMD源待发，196/R415准备，旧运行不改。
+[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)真128后仅20/576、112/338未起且清。186/190/192分别64/70/77pins，全部576×224/112/338×112/fresh audit与原19200/6000/1200/8000/600/600/1800预算不变。R402记录系数、R405完整113bit/20bit/宽指数/一次RN113只付对应代数，非准确导数/速度；[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/1695b945已刊完整偶奇/尾与RN113等价；196/R415另接完整链，旧运行不改。
 
 [R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受/158α、W4.3469→1.7920，2400秒partial/末FD与Arb/453未起/已清。真实末十词双路径同，仅作[194新初猜](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)：120+15pins/50闭包、16×8/20α/3×20全3normal、固定S/半径1/2400整体钟及原全部终门；root唯一R410。
 
@@ -46,6 +46,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)绑定准确十族/真453→450/全部338节点/112材料/四Loewner闭DFS；[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)实际72c十factory/正零ξ、98pins/runtime69/native29，真453接受才同十词新450，重算RHS/H/FD/全J/final，共原7200钟和worker。读回仅明选必要范围，quiet全读后清；R408不预填。
 
 [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)两源定义真450全径向/双mean/全FFT/Hermite/B/R249/patch/帽；S²/强C²族解析已付，675只活动片六jet，数值差分仅定义数据。[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)/02bb0c70将原rCuff逐字接原R409计划，引用R286/R294付局部目标两jet、marker内平环、独立attachment。原target不换B′；cut准确atlas/帽区间/全metric/embedding/reach/held未付。193不执行R409，清后必须真同job重生；R416续cut数值v,b与准确长度比例相容性。
+
+[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)与[接口](notes/2026-11-15-native-complete-digit-SIMD-source-interface.md)及独立头1695b945已全文核：完整20bit digit的AVX2偶/奇全部8lane及0–7尾逐项覆盖，2048项任意子集界严格小于$2^{51}$；原R405的全部113bit/宽指数/prepare/一次RN113直接保留。给同输入且完成调用时与R405逐词等价，非旧顺序Q/准确导数/预算范围或性能承诺。函数级AVX2、真实CPU选择与完整scalar fallback保，原baseline编译/各线程stats/原poll范围明确；无本地编译、fixture或数值门。196/R415另准备完整原192链，186/190/192/193均不改，尚无196 run。
 
 ## 恢复与保存
 

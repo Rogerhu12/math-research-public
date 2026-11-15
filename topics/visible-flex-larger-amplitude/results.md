@@ -490,3 +490,8 @@
 ## R399 — 实际188完整闭段责任及较小八档全角严格证
 
 [R399实际188](results/R399-actual188-complete-nested-domain-accounting-and-eight-certified-small-steps.md)单76295B/07372514必要完整：全部629gap/29端点、75776角事务与1288192责任完成，168176直接/1120016包含继承；1195792严格过、92400未决、0反证/0未访。$k=9,\ldots,16$全37×2048闭段证完，较大九档未决，3900.166秒非预算/异常，原diagnostic返回3不抹模型接受。真四trial后α1/8接受、W43.3630→43.3361，新FD四阶8.81885e−10过；无native/fullDN/IEEE全误差/连续角声明。各档完整未决query及所有来源/错误/未访保全文；原大ledger仅身份，必要读回后实际清raw，后继须真98重生，不回填175。
+
+
+## R414 — 完整signed-digit偶奇SIMD与原RN113逐词等价
+
+[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)与[接口](notes/2026-11-15-native-complete-digit-SIMD-source-interface.md)及独立头1695b945已全文核：完整20bit digit的AVX2偶/奇全部8lane及0–7尾逐项覆盖，2048项任意子集界严格小于$2^{51}$；原R405的全部113bit/宽指数/prepare/一次RN113直接保留。给同输入且完成调用时与R405逐词等价，非旧顺序Q/准确导数/预算范围或性能承诺。函数级AVX2、真实CPU选择与完整scalar fallback保，原baseline编译/各线程stats/原poll范围明确；无本地编译、fixture或数值门。196/R415另准备完整原192链，186/190/192/193均不改，尚无196 run。

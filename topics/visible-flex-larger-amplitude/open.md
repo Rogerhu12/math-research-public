@@ -30,6 +30,8 @@
 
 [R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)/18871B/5c2a0cb1与[192完整接口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)保完整113bit/指数、20bit int64≤2048严格界、12层/64MiB只选方法、宽226bit乘积/全指数carry、正规和直接subnormal一次RN113；没有截尾/Boost/BLAS/fixture。原70pins逐值+7=77，全literal Gram/224batch/每列每update113行原C解残差/名义因子两回代与全部原链、原19200/6000/1200/8000/600/600/1800预算齐；小Hs形成/归约明确新舍入，不冒原词、准确导数或速度。原190/186冻结不改，wf最终6c56f6f4、接口eb95d98f；192 run43765999581/source6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2，amplitude唯一R406。各single90KB必要/原错误/完整地址未访/owner reap与quiet清理保持；以上压缩前全部参数和表述逐字留194前检查点。
 
+[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)与[接口](notes/2026-11-15-native-complete-digit-SIMD-source-interface.md)及独立头1695b945已全文核：完整20bit digit的AVX2偶/奇全部8lane及0–7尾逐项覆盖，2048项任意子集界严格小于$2^{51}$；原R405的全部113bit/宽指数/prepare/一次RN113直接保留。给同输入且完成调用时与R405逐词等价，非旧顺序Q/准确导数/预算范围或性能承诺。函数级AVX2、真实CPU选择与完整scalar fallback保，原baseline编译/各线程stats/原poll范围明确；无本地编译、fixture或数值门。196/R415另准备完整原192链，186/190/192/193均不改，尚无196 run。
+
 ### 1C. 真37→38与原非线性域
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八对后LEFT462阻挡、末physical .0071041184748284756非BVP且pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins真98重生37八对再同job38，22LEFT+16MID/77824行/全236036变量与原109core保。原17档/新FD和所有原预算、四输入、来源/试步/清理完整见R361；170未作门。
