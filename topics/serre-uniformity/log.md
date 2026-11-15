@@ -495,8 +495,14 @@
 - R78756实际56新候选全拒/旧引用0/队列耗尽；R815两列run43755027718实际exit2/errornull。两者小IO正读实际字段，不猜首失败阶或候选数。
 - 本push规则：本地真实pull至475f7cb4c6f4a0053929eda89d56f0326551a216（2026-11-15T20:21:51.004988+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 04:25 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 04:23 Asia/Taipei — serre-public-astra-20261115
 - 激活R78756已结束源纯IO reader4ceb3d89，绑定run43754407301/ZIP a6c23bc8/core c642ec35；只读实际非carrier阶段并核SHA，不重LLL/候选算术。
 - 激活R815两列纯IO reader59140e7f，绑定run43755027718/ZIP03c3c592/core00087968/runner58d65088；读d01/真实两列/新scan与拒绝，跳两个carrier及旧562MB current。
 - 两者完整小数据/既有矩阵仅一日artifact；H保真实失败边界，固定C Ω正做独立新障碍消费者，未提前报值。
 - 本push规则：本地真实pull至bd0ca628fbd8e753e47428c579f0c11b43c241ce（2026-11-15T20:23:21.280017+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:26 Asia/Taipei — serre-public-astra-20261115
+- 56小IO43757804966实际核184项/182非carrier：56新候选全m1首次非零，D全unit/9641..9643bits，旧引用0、schedule空且三预算flag false；完整记录见新56诊断。
+- 该结论只排已构造A/B，不排固定C的其它A，不声称430不足；Ω另算共享残差，旧42/56全行来源保在一日artifact，Git只留方法与必要pins。
+- R815两列小IO rules132945626521实际pull159a7396，两README无diff，review132945729049已成功，正读实际字段。
+- 本push规则：本地真实pull至dfe31619869bf9fdbf4ee76136a603847b3b30c6（2026-11-15T20:26:36.759476+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
