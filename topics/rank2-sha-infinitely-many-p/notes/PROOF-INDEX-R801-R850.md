@@ -110,3 +110,6 @@
 
 
 - [R833](../results/R833-original-euler-image-and-negative-horizontal-cokernel.md)：原全D_E像准确为在Z_-=C∩H_-上消失的全部Z值，余核H2^0/F0H1^0；完整r2平衡给z_-=u−μd1−μ∞1≤2。核用原H1及至多5列零charge V准确呈示，关系(2cF+L0,cF0²+F0L0)；在此核上α准确化为[B0/(2ηe)]。原高前缀、同一E_q与指定trace仍须联立，不以全像结论代真Bh/kerα满射。
+
+
+- [R832](../results/R832-original-triple-chow-purity-and-rank-zero-contractions.md)：原八维三重张量在真正Chow动机中分成原λ与三个Lefschetz乘权一因子；Artin扭曲只用h1全忠实性，CM混合对由Scholl乘法同构收缩。R757全共轭轨道非零中心值、BFH所需分裂辅助域和KL原假设付Aγ秩零，CM二次自扭给K点秩零；另两参考曲线同样，故三混合CH²全零。R831唯一端点类严格纯λ，三个ordinary AJ槽全零；端点非零、λ Chow维数及R814比较仍开。
