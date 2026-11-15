@@ -408,3 +408,8 @@
 - 原projective42核心73bac3a2/方法17c89271/包装fe276ba3全文及原接口增量核完，激活首(C0,C1)/42候选/一格请求；原1380源/430lift保持，不重做五个旧28格，全部新LLL行保存、无高度或单位硬筛。
 - 新.github/workflows/serre-R787_projective_two_probe.yml执行该真实消费者及同次AST；完整129×280仍唯一成功出口，closed失败payload先原子残差+SHA回执再退役、当前/成功全保，节点/格/时间预算分开。旧H/open逐字归档后压缩，原4run接续。
 - 2026-11-15T18:47:11.961605+00:00实际pull/read 7bb3392aaf3ec93271d45de3f2d3b8eaf6aca7a0，两README无diff；仍无真AB/eta/高度，主目标OPEN。
+
+
+### 2026-11-16 02:51（Asia/Taipei）｜serre-public-astra-20261115
+- 新42维run43748801736/job132918006043/sourcee2ac3449已AST过并执行准确原关系候选；R815新run43748439850/job132916821952亦在同核计算。H更新真编号并压缩已登记边界，全部详细前态仍在此前逐字归档。
+- 双probe rules job132917932629于2026-11-15T18:48:29.243804+00:00真实pull/read c7982f5f61c1b91dad1d9cbd2e70956fff07fc56，两README无diff；继续原五任务与指定sigma源，主目标OPEN。
