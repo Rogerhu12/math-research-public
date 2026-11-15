@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实 canonical 强径向域与有限角源](results/R119-supplement-canonical-strong-radial-finite-Sobolev-domain-and-quadratic-sources.md)：R1–35在固定已知强尾背景上保原ζ131、真实低核/两mean/height/高频回接及全浅前缀；给Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}（0≤s≤64）和实际二次窄源，保留2050阶导损失，不授任意finiteSob背景逆或Γ延拓。
+
 - [实际完整帽区本征界](notes/2026-11-15-R133-actual-cached-complete-cap-intrinsic-bounds.md)：43674917925/1 child0/9门，复用原4650闭行、1346真帽交段，b*=g*<5.639200000174<6、K*<.254600000149、k*=1；同η0与原本征对象，0旧网格/660 Bernstein重算。
 
 - [R133：两相邻真实片的相关射线完整源合同](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)已接244pin六件公开消费者：保存原80输入、150 Taylor阶段、六完整原case；只新增2548/2550相关差及其完整源行，全部非零入口、两ray、mean、旧I/J与真实接缝保留，待实际输出。
