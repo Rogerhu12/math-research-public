@@ -157,3 +157,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [同一实际投影的缺陷预算](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)把全阶暗矩和联合L/L*中的固定||f||换成ζ=||f−P_Vf||+||P_Kf||：交换行ζ²/x、联合发生器12ζ/x、全旗高矩4(r+1)²(2r+1)r!(σ²a_x)^rζ²。原最小投影窗口明确付P_Uw→w（全合法Q窗一致），故limsupζ≤√2||f−w||；没有速率则仍不能乘增长MP费用，完整同源混合返回继续。
 
 [完整射影确定因子与额外乘子](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)将同原仿射F31长315与自然∞长66合为381次射影gcd上界。重新核到旧真Q第五延拓已付∞53/次大47，故Δ=t53K158^hR_h，degR_h≤170、degΔaff≤328，且同一个非零R使全部九Rh0tj进入原十七式/乘子次数≤3来源，deg(Rh0)≤194；R系数、原h0成员性与来源费仍未付。同步收紧真full∞为53…66、次大47…55、max≤19、δA_I为55…68。
+
+[额外乘子后的无条件来源费](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)把已证Rh0九目标成员性代入同原K158余式整理：非基8526、原转移8531不变，目标权由64升至234只把目标支路172升到342，故存在同R（deg≤170）的九原Q[s]来源同时cost≤8531。原十七式/乘子次数≤3和全部4367输出保持；R系数、来源高度、固定31分母及原h0成员性未付。
