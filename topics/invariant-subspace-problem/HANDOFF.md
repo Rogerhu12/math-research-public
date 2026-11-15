@@ -32,9 +32,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
 - **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
 
-- **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_Ê K^-*eY保完整最小化，主配对误差≤C0²α||eY||，同窗平均O(C0²h/Q)趋零；q_h测试亦同，不用w尾率。主项仍未付、不运输L；Ĉ用V0，W_h仅在kerL与V0相等。
+- **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_ÊK^-*eY，误差≤C0²α||eY||、平均O(C0²h/Q)趋零；主项/q_h测试仍开，不运输L，Ĉ用V0。完整旧状态保[本次H](notes/2026-11-15-handoff-before-first-binary-schur-789f.md)。
 
 - **[真实两费一般反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)：** 固定四头/十一位正尾，c=a、ε=a15、β=a10，真左μ=1、裸α²≤256a²、全来源flat²≤40000a6；同源正滤波保规范负图且两费仍趋零。故任意nilpotent头的κ(h)不存在；不是原A_m/连续尾/同w反例。须继续原权及共同Green/返回残量。
+
+- **[原首二进位完整Schur](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)：** N/Y同真实K满足||K||≤e^-1070、||T||<13/20，P=K−T²，kerA=JkerP、Jx=(x,−Tx)，Gram[I,569/400]。原W=JG^-1ker(T|kerP)*；V_Q全参数保top b及第二top条件，真left费用与参数费比较常数(33/20)²。全部head/bare旗运输，Green仍须全P*约束及kerP*最小化，未付同w返回。
 
 ## 当前临时计算会话与可恢复身份
 

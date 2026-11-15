@@ -86,3 +86,5 @@
 - **原双图第一连接四维界、∞精确像与K70。** [完整证明](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：run43679903558实核0.395984889秒，两图170×135→42×7rank4及全部170原校正；∞结合旧mod31同秩Schur得Qβ=4并确定七坐标完整像，s0≤4。全部最大子式两端≥24、有限K70、原目标条件来源8702（非基8701）；不付成员性/lc(D)单位，不加公共24到指定43。
 
 - **同选纯投影112、全部常核第一连接零及指定44阶。** [完整实绩证明](results/R150-appendix-selected-pure-rank112-zero-envelope-and-infinity-order44.md)：run43679903558数学0.308893546秒，144×135原纯投影Qrank112、完整32×7连接包络为零；故Qrank4318…4324、常核至少30且全部可full来源提升，显式仍29。指定D/换列/cofactor≥44/43/42，K70下原目标成员性条件来源8701；非纯4210个数不付独立性，I实际含132个一横坐标。
+
+- **原N/Y首二进位的完整物理Schur与真实top。** [自足证明](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)从d0、κ0=e^-1070出发统一||T||<13/20；kerA=Jker(K−T²)、核Gram[I,569/400]，W=JG^-1kerV*。整个V_Q保两分量真实top，left费用比较常数(33/20)²，head/bare旗及零源核全运输；完整Green仍约束P*z=r并对kerP*极小化，未把此改写当普通封口。
