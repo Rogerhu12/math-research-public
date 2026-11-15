@@ -365,3 +365,5 @@
 - **R802（已证明）**：[原f4半线性奇偶与七次字段关系](results/R802-original-semilinear-parity-and-degree-seven-relations.md)。原扭曲T41严格给全局共轭的q/v负号，y奇/偶系数在Fb(tξ)/sFb(tξ)，κ固定且R_m带s^(m mod2)。原全球±截面掩码保尺度，非零固定B/反固定A关系在Fb下降；七分支同归一、末端仅两右端恢复原基并全129×20认证。未算r±/新minor/kernel，不改运行R787，不预称β/η/高度。
 
 - **R800（公开准确计算已完成）**：[原146条M2新增尾](results/R800-certified-original-M2-tail.md)。run43696070150/source b53ef624，19.199005秒，只补q129..195，实际82条E1/200种子尾，保6724及完整40ξ/20t、原mod739和反演。439输出/429阶段及ZIP全SHA由公开IO核过，cert3be34598ab86732a790e7e5aa463b9def210fb48e216b9a51171d122e20ce377。旧前缀不重算；高幂/函数/η/高度仍未计算。
+
+- **R799（公开准确短基已完成）**：[原七、八次短基及六次缺尾](results/R799-certified-original-power7-power8-short-bases.md)。run43695571499/source2ebb10bc，555.818秒；新V7/V8真秩1778/2050，新minor534/148 mod739，原锚点0/1/73，完整40ξ/20t。只补V6 q82..108，旧前缀不重算；5347输出/5339阶段及ZIP全SHA已核，cert5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b。未求原函数/极除子/η/高度。

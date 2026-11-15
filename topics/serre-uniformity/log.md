@@ -539,3 +539,8 @@
 - R800公开真实完成登记：原146条M2只新增q129..195，82条E1/200种子尾，6724与完整40ξ/20t，mod739/反演全过；19.199005秒，cert3be34598。
 - 公开纯IO run43699442183实际核原ZIP与439输出/429阶段全SHA及原wrapper；同run实际partialclone/pull后两README diff空。R797/R799全输出IO也成功，逐条登记接续，无重复数学。
 - 终端恢复，旧tmpfs丢失，重新部分克隆main并已实际pull核规则，恢复CLI推送；raw仍只一日bundle。R801核心AST/依赖IO通过待激活，R787继续，主目标OPEN。
+
+## 2026-11-15 17:43 Asia/Taipei · serre-public-astra-20261115
+- R799真实短基登记：V7维1778/q95/minor534、V8维2050/q108/minor148，均mod739；实际三锚点0/1/73、cursor4518/9036，无两锚点无基点外推。六次仅补82..108；555.818秒。
+- 公开IO run43699442183核完整ZIP、全部5347输出/5339阶段、冻结source/request/wrapper verify，cert5a6c7fbe；R801真实依赖IO已过，最终选中原recipe和全部短行随其当前bundle续接。
+- R800已CLI推747968f6，非快进已即时pull/rebase后成功；两README每次diff空。R797正式登记接续，原函数/η/高度和主目标OPEN。

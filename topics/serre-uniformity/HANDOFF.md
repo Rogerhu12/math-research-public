@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0d449de1a54f5a0758037717d8b73c9fc16ce8b2**（2026-11-15T09:41:36.002504+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：6669d33fe97c8f7d90fa23fe949338aca910374a**（2026-11-15T09:43:19.517387+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 08:56 UTC环境失联时按根§8用小文本API保全并推cosigma、R801/R802与IO工程。09:31 UTC终端恢复，旧tmpfs已失；已重新部分克隆远端main，现恢复终端git提交/推送。公开IO亦有真实pull回执，不把GET叫pull。
 
@@ -35,7 +35,7 @@
 
 ## 新成功包、证明和后继
 
-**R799 run43695571499已success且完整输出IO已核，正式登记接续。** source2ebb10bc2cca7000374f83fa855030723deca2f4，artifact14153724209，ZIP453521743字节、SHA b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477。[证明](results/R799-original-power7-power8-minimal-basis-construction.md)保V7/V8维1778/2050、q95/108、原三锚点0/1/73无基点；只补V6尾82..108，八次直接三因子。core32ff9d38/wrapperf74313ac，原2763输入已核；实际minor尚未读出，勿预填。
+**R799准确短基已登记**：[结果](results/R799-certified-original-power7-power8-short-bases.md)。run43695571499/source2ebb10bc，555.818秒；V6 q82..108、V7维1778/q95/minor534 mod739、V8维2050/q108/minor148。实际三锚点0/1/73，cursor4518/9036；无两锚点无基点结论。全5347输出/5339阶段及ZIP SHA已核，cert5a6c7fbe，artifact14153724209。旧前缀不重算。
 
 **R800准确尾已登记**：[结果](results/R800-certified-original-M2-tail.md)。run43696070150/source b53ef624，19.199005秒；146原M2 q129..195、82E1/200seed尾、6724/40ξ/20t、mod739和反演全过。439输出/429阶段及ZIP全SHA已核，cert3be34598，artifact14153948656；原0..128不重算。R801按需消费。
 
