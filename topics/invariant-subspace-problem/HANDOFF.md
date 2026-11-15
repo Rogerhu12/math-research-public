@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 7acd659145e55425f5fa8e760be152dc07b7f01c（2026-11-15 18:15:08 UTC，临时研究session run43740928483实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** d71d40bb6cbea1cecc9c23f2efd47401da35cc53（2026-11-15 18:18:16 UTC，Actions run43745974991实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43745974991-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -25,7 +25,7 @@
 - F±及E8局部九h0来源均已闭：F±低谱3,3且F±²W；E8低谱2,2且E8W。原证明、全部共轭点和界保open最新入口，未知完整有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
 - 旧local43736746064已成功结束/tmp失。原15头、两cube与完整H3历程及所有SHA保上列H归档；本轮好11完整第一连接已覆盖normal4/5，勿重做旧受限头分类。
-- **活跃run43740928483**（17:24:27起170分钟loop/180分钟job）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，每30分钟实际pull读规，tmp仅本job。7历史输入/216/full32/O35/两正规202均已核。完整双运输与高商实16.187683781秒：194单位、正谱1³,2,4,5²,7（长26/max7），原source19406948及outside7252608产品全真，配对第7阶全退出；真Q高谱/源平坦仍开。s2 β1,Q=7；F11三阶仅1⁷,3/末项≥4，不给Q长度上界；现以同已付原系数核全部1088×155投影（30秒/512MiB），先定位11的第二页。
+- **活跃run43740928483**（17:24:27起170分钟loop/180分钟job）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，每30分钟实际pull读规，tmp仅本job。7历史输入/216/full32/O35/两正规202均已核。[完整双运输与八方向高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)实16.187683781秒：194单位、正谱1³,2,4,5²,7（长26/max7），原source19406948及outside7252608产品全真，配对第7阶全退出；真Q高谱/源平坦仍开。s2 β1,Q=7；F11三阶仅1⁷,3/末项≥4，不给Q长度上界；同原1088×155投影实0.954176738秒仍谱1⁷,2,3/长12；差确在full反馈，Q二页仅{0,1}，继续原full四阶/真Q第二校正。
 - [真Q13投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实2.917069073秒付λ=2/12单位，全核Z_(31)[[u]]整/原freeI及80444原乘回真。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实3.845816541秒，Φ_H(0)rank1632/det15，510082常项整数产品真；SE27×216泛rank14/核202但mapper未算。Q full/O/high及leading单位仍开。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给原17式常数来源，弱列导数阶降一；其余二次和共动反馈仍保留。
 

@@ -343,3 +343,7 @@
 ## 2026-11-15：全部真正交jet旗的暗对联合高矩
 
 [导数带宽与完整正交分析列](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)证明H_i在当前D旗上三带，r阶F_j导数仅支撑j±r；因此全部j联合高矩只增16(r+1)²(2r+1)，无h/Q。真同f高暗读数和全部旗同时受控，仍未替代顺次Moore–Penrose返回。
+
+## 2026-11-15：完整原高核商的八个正方向
+
+[原双运输、精确列及完整Smith谱](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)实际16.187683781秒完成：194单位、正谱1³,2,4,5²,7，原26659556产品和两freeI全真，第7阶全部方向退出。两精确列及原21消去子支付模块身份和截止；8自由坐标只是完整向量标识，不是单项式syzygy，Q高谱仍未提升。
