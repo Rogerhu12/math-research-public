@@ -58,6 +58,10 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [90唯一显式η=.01续接](notes/2026-11-15-request90-smaller-explicit-damping-own-schema-interface.md)从真87finalp=[.057323451817869575,.002679377797021207,-.11058649307511116]继续，同ec9/1691/3b9/70pins/8/20、四输入/runtime/原merit和全部原门。workflowaba91c0d/request016ee1e1，root全文两diff/interface+70pins7shell4inline/parentIEEE/父η只作receipt的AST已核；当前与父η明确不同。当前选择不保证下降，不做同矩阵因果推断，也不依赖saved85额外诊断门。
 
+[实际90完整结论](notes/2026-11-15-actual-request90-smaller-damping-backtracking-and-third-defect-growth.md)、[完整status读数](notes/2026-11-15-actual90-original-readout.json)、[全字节回执](notes/2026-11-15-actual90-original-byte-audit.json.gz)已保存：run43670368504/source4424f9c4/job132678845557全success。η=.01的8个方向接受alpha为[1/16,1/32,1/32,1/32,1/32,1/64,1/32,1/32]，48trial/40拒绝/0域异常/未耗尽20档。merit11289805820.156862→11213045978.398226，但unit=[229.78524027424547,-149015.7614289278,14843.921358477846]，第一/第三均未改善。方向5的1/32虽merit下降仍被原Armijo拒绝，不能称全部40次merit增加。
+
+真实90 finalp=[.04241436079648833,.02766947731512731,-.10800335072481342]，完整status60951B/5a4d157a、233项/11原件/70源已核；末FD三档1.5098650030008722e-8/3.878724677379875e-9/9.113386660122363e-10，465 Arb叶仅a/ap、699×453零core圆仅参考，candidate/native/nonzero仍false。92据此准备独立p3实际内层求根：所有近根误差与内层轨迹留账，首投影单独满足完整三方程原gdot/merit/.2Armijo才纳入baseline，外层每trial重新解p3并保所有原门；不把近根或当前J33非零冒R278精确IFT。
+
 [88保存模型谱分析](notes/2026-11-15-request88-saved85-spectrum-workflow-interface.md)及[源码范围](notes/2026-11-15-saved85-small-direction-spectrum-interface.md)已发布：consumer20fcaa26/workflowbc23829b/request548ad162只读取实际85完整原status72397df1和11源字节，8个保存3×3缩放矩阵的SVD、残差投影、η=.1/.01/.001模型预测及原Jd运算次序差异只在公开Actions计算。13pins/NumPy2.3.5、唯一新trigger、always完整artifact/readback/publisher；不重原RHS/J、另生成候选、解释为当前90模型，或增加92接受门。
 
 **高109实际81已完成：** [完整结果与模型范围](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。固定actual78参数和原699节点/112尾J，112 exact模式全部已读，高109保存有限系数两端行列式非零、全部单位入口映射存在，高Schur非奇异。另定义的声明实数Arb模型160/320/640位后仅解决高4–9，10–112仍未排零；所有right-cell/unit-map已定义，未遭预算截停。含零包络不是奇异证明，finite结论不能替换interval/连续结论。476原件/17完整阵/112exact/328Arb/3circle/69当前源全部已付byte scope，稠密两端矩阵和QR未形成。低三/横截/非零BVP未付，之后改p不能继承此点高块；这不成为native/prefix新gate。
