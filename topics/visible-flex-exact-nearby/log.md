@@ -363,3 +363,9 @@ root全文核proof fb206b4ba1f08f80aca72cf4488f59104adbe4b3/23196/cfc6acd40081cb
 清单add3714ef22e151daa40c906ed42a02e93d487c5，28120B/SHA256 9b4947bb9c9e54eb0303919b5545d8efefd32d0fd59ad3fa079ed678bd7609ce：七份完整成功ordinary floating报告共367017B，逐path/blob/size/SHA、source/argv/旧成功status及restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff已写；尚未删除，原NPZ/native/完整finite候选/失败/proof全部保。
 SN原43751213826/1的018e4e34f4a9f65f171b574924bb328ab6e8e8f6/16006/c6e5b6d120347d327607a8d473ee7f3edaba3b674805d68cc8f736fe2fed4c3a完整核：8488=1256+7232、interval1024、cursor4379750637617807/36028797018963968、双H3prefix[2.532635974319041 +/-3.46e-16]；complete/target false、return/supervision null，207pins/8AST/14current/4hash/runtime不变。原真pull21:40:29.858672→d9466f8b，两README空diff；只进度非终点C。
 只读138eb07409cef7be6bade82d888a1ca1e70c5ec5两README未变，非冒真pull；下一顺序普通删清单精确七path，接SJ新整段系数与KL根幅逆；SN/SC3沿健康原run，不重任何已成数学，最终验收仍未达。
+
+### 2026-11-15 21:47:50 UTC · visible-exact-astra-0df9 · 七浮点报告普通删除
+
+已先推白名单c3eef752e81d745f37e5e0313ed1e0c219b36322后，按新鲜Git tree逐path核同blob/bytes并普通删除清单七文件共367017B；完整size/SHA256/status/生产程序/重建参数/恢复点仍在9b4947bb清单。
+restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path；source/parent及endpoint NPZ/native/完整finite候选/失败中断/全部证明与history不动。删除是根规15的可重生普通输出整理，非新数值结论、非授权重跑旧数学。
+只读c3eef752e81d745f37e5e0313ed1e0c219b36322两README未变；非FF立即真CLI pull --rebase后保远端循环至推成。继续SJ完整整段估计、KL root leading逆与健康原SN/SC3，总验收未达。

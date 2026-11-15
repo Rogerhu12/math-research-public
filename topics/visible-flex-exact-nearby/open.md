@@ -162,7 +162,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 
 全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
-旧2Newton/jet普通输出共已删1222051B，完整白名单/恢复保7b770ffec7ad458f124ed0b7e459ec11bf7e02a2同H/open。新[七浮点报告清单](notes/2026-11-15-seven-old-floating-report-deletion-whitelist.json)9b4947bb已入库、尚未删除367017B；restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path。source/NPZ/native/候选/失败/proof全保，旧成功禁重。
+旧2Newton/jet普通输出共已删1222051B，完整白名单/恢复保7b770ffec7ad458f124ed0b7e459ec11bf7e02a2同H/open。新[七浮点报告清单](notes/2026-11-15-seven-old-floating-report-deletion-whitelist.json)9b4947bb在c3eef752先入库，现已普通删367017B；restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff同path。source/NPZ/native/候选/失败/proof全保，旧成功禁重。
 
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机21:32:52定时CLI仍无executor，下一定时真CLI≤22:32；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
