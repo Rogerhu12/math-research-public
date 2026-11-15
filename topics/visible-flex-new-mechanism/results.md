@@ -506,3 +506,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 主LP/SOC预留首轮实际：7全步、11primary、末1未用
 
 [soc-pair-reservation-first-actual-result-20261115.md](notes/soc-pair-reservation-first-actual-result-20261115.md)。run43758666042/job132948276657/sourceaca67097；四新组19checks过，原检查执行0。精确当前best从22bank/4419/4277恢复，7普通首全步接受，LP2/2/3/1/1/1/1共11，0SOC；预留机会7但普通步先接受，末1按新规则未用，不能宣SOC收益。m7确触新局部ceiling，原完整rho修正/inexact/strict-tie与全row核保留，实际两网接受。η.26632415509189855→.2663015219132816，fineκ57.999987361173226，全部原门/旧metric过，新.26与主门欠。终bank59、4432/4358、B.000125/streak1，373memory装配+58新cuts，active29.468092885s/total172.223713764s；全部费用/原hash/真实规则pull见note。下一研究已覆盖soft学习不重置增长，不能重跑本阶段等待SOC。
+
+## R377：YY0完整C²角商的局部四次式与真实面积差
+
+[R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md](results/R377-complete-YY-zero-angular-quotient-and-local-C2-quartic.md)。原3FY0=FU2−FL2、FY2恒零与合法整个q的真紧Yq²给KY0=(SUY2−SLY2)/3。直接DFY0原输出全部t/局部/primitive九项表收成∫[2x²(u−xv)²r²+2x4(u−xv)r³/3+x6r4/12+4u²v²−8xuv³/3+2x²v4/3]，无除x、完整C²。实u平方分解严格正只针对非legal的局部扩展，非复圆正性阻断。正域反演T u=z²u(1/z)保TP(Tu²)=4Y(u²)+x²I2(u,u)原常数，合法后16KYY0=KPP2(Tq)=4∫((Tq)″)^4/3，独立展开同式。YY0全角仍需ReKY=0和π/2值共同支付；本稿未授新正锥或已付完整YY0。全部纸证无执行。
