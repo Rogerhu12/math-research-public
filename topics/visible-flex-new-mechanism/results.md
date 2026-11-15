@@ -159,3 +159,5 @@
 - [R206：满pure闭锥与实际有限全pure可控等价](results/R206-full-pure-cone-equivalent-to-actual-finite-pure-controllability.md)：R201使响应商缩放D可逆；满锥选有限实际正配平，真实缩放桥保全部正2V基准，floor整数与uniform C1截面准确付商。先清第三prototype商成本，再连续清E(t)商，最后R102有限复制/Brouwer付响应，得Cp=P iff实际S=P。条件成立时闭hook整pure零；尚未判满锥，mixed/ruling及终局仍欠。
 
 - [pure−6的一个完整加速度原系数准确消去三阶jet](notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md)：复用R136已发A_hh h^-8原九项，同右锚五次IBP给(4q′I(q″³)−3I(q″²)²−xI(q″⁴))/24576；R179双余词非零证明其通用非零。不判响应成员，不将单根化简推广全部dynamic/N；无新研究计算。
+
+- [R207：完整权−6 pure像等于三维响应像](results/R207-complete-weight-minus6-pure-image-equals-three-dimensional-response.md)：actual43687004289/source28b2c1f，完整14族241状态系数合164不同原列，加16响应给180列真rank3与177完整原关系全零；134新收缩及最终9人工完成。全部坐标/别名可读，A_hh与A_kk原身份明确；πU−6=πR−6，pure正分离仅余−4。不是完整两模式等式，尚未付满锥/joint/终局。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:46:57 UTC实际pull后已读规则提交：`b7d0533f7989f3c987ed222c1c67c5919366c280`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:55:17 UTC实际pull后已读规则提交：`b2a1d939b307148d02cc9c449f05973908e8e679`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -34,11 +34,11 @@ R192/R194/R196完整H0自由(x,y)=(ν5,ν20)，同μ含独立α。真实快路�
 
 **R201 actual43683171512/source8c1ab4b已完整**：πU0=πR0、dim3，核16/13。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96；相应H纯0但λH1，排任何仅pure的λ读出。H是span非实际字，完整λ仍正；全原关系/metadata见R201。
 
-**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。故分离只余**−6/−4**，不是全U−8零。满闭锥到真实有限支付的额外构造现由R206付；是否满锥仍欠。全λ+仍严格正但不下降pure。
+**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。当时只余−6/−4；R207再排−6后仅余**−4**，不是全U−8零。满闭锥到真实有限支付的额外构造现由R206付；是否满锥仍欠。全λ+仍严格正但不下降pure。
 
-**R204 actual43684612905/sourcedf8522fc已完整**：21存量列的十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31。17新人工过，无原根/NF/旧52联合重算；全部关系及metadata见R204，未打印elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像；真实同时支付现见R205。 −6的A_hh单原根已同锚IBP消全部三阶jet，通用非零但响应成员未判，见notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md。
+**R204 actual43684612905/sourcedf8522fc已完整**：21存量列的十二新成员/原表再合全零，πU−2=πR−2、dim9，核43/31。17新人工过，无原根/NF/旧52联合重算；全部关系及metadata见R204，未打印elapsed/RSS不捏造。与R201合成权0/−2完整12维算子像；真实同时支付现见R205。 −6的A_hh单原根已同锚IBP消全部三阶jet，通用非零，响应成员现由R207准确支付，见notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md。
 
-**新pure−6完整请求已提交**：source c57776cf，notes/complete-pure-minus6-projection-design-20261115.md。5旧输入，16旧完整响应仅读pure；新110势对角/197静态/103 v2/160 v4投影、≤205纯收缩，12旧投影及58五族根复用。N0保S−S*，三log只依已证负权modW引理删除；同Γ/14族/共用R178–179全核输出完整坐标或真商，不编mixed/D/LP。28args、240s/1024MiB，先公共9新人工；旧本地9项对应70fc版本，末IO修改不冒重跑。待真实结果，不预判πU−6=πR−6。
+**R207 actual43687004289/source28b2c1f/job132729516347已完整**：πU−6=πR−6、真dim3。14族241原state合164不同归一原列（36/163真函数零），加16旧响应共180列/177完整原关系零，独立旧0/2/3。全部134新pure收缩与最终9新人工过；3.68533s/RSS317.1875MiB，18bit。N0保S−S*、负log仅modW，同Γ和完整R178–179原核。全部坐标/别名已读；原A_hh=(6ρ0+4ρ2−6ρ3)/2048准确属响应。summary44353/ec683030、memory228675/e3f615a0、receipt46559/69b1e879只metadata。下一只做剩余pure−4完整像/正字符；不是full U−6=R−6，不重旧pure−6/NF/mixed/D。
 
 ## 5. 固定圆gauge与真实第四joint
 
@@ -52,7 +52,7 @@ R198：f在整个右锚[b,r]为0，则L_f(w)=0对任意全I合法w；第三齐�
 
 **R205已证**：选12个实际原响应生成器付P0⊕P−2，再用只有−6/−4的真实H作第13方向；最终c>1坐标先保H非零，再在同坐标平滑/faithful/左补矩。三角查询矩阵rank13，R102保全部第三环/连接基准、有限小族复制和最后大整数Brouwer，准确支付两个完整pure块与一个右step值。插M/T0控制后Klein恰4倍（不同R200另含反向双字8倍），真实闭hook仍M0/TκH/同一圆完整三阶。其他pure权/整period/joint仍欠，设计可改g，不能当同g运动。
 
-**R206已证（条件等价）**：Cp=P iff实际pure S=P，未判满锥。Q=P/πR无零缩放权；有限实际正配平、真实H缩放环/端口桥保2V基准、floor整数与C1截面付紧商目标。先清第三prototype的Q成本，再连续清E(t)的Q，最后有限n/Brouwer付响应，全部基准和选择顺序保全。若−6/−4正字符全排，闭hook整pure零由Klein4倍支付；mixed/ruling/终局仍欠。
+**R206已证（条件等价）**：Cp=P iff实际pure S=P，未判满锥。Q=P/πR无零缩放权；有限实际正配平、真实H缩放环/端口桥保2V基准、floor整数与C1截面付紧商目标。先清第三prototype的Q成本，再连续清E(t)的Q，最后有限n/Brouwer付响应，全部基准和选择顺序保全。若剩余−4正字符排除，闭hook整pure零由Klein4倍支付；mixed/ruling/终局仍欠。
 
 ## 6. 保留边界与当前交付
 
