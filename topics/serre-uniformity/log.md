@@ -175,3 +175,7 @@
 - 两图真实mod多项式满射⇒原char0导数层终止的完整充分判据已核：flat C、两族齐次原source、proper/Nakayama；Stacks四原条目已直接核。
 - 同unit Schur/S5与原W/vg/vh的8/6/5单位节点给无需char0 CRT的真实约化入口；仍待实际节点/两图Bézout，不预填q4或D约化。proof c37119f3，H归档后立即推送。
 - 三项原R787/R809/R815仍在数学步；原R824首scope工程正核，主目标OPEN。
+
+### 2026-11-15 23:19（Asia/Taipei）｜serre-public-astra-20261115 · R828
+- 原P₂的S/T交换、EO保持与原U共同相位已全文核；允许空间稳定＋已成G两列交零，严格推出两原CM源值及companion值零。
+- 全16个二次模等距纸分类通过，old六维上所有保EO者仅标量；仍缺六项原和非零，不把投影零/全局theta非零代点值。proof d5c70b7d，立即推送。

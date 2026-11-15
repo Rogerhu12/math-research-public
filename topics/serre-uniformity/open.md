@@ -123,3 +123,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R827（已证明充分判据，尚无实际终止层）**：[原两图模满射与导数层终止](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)。实际C的monic20/单位常数给整拼接/flat商；两族原导数按a+2k齐次化，tδ−(a+2k)δt保原I_k包含。两张完整多项式Bézout右逆经proper支撑/Nakayama迫char0 I_q=C，不能用单点rank。单位Schur/S5定义真实p整canonical B，原W的8个cyclic单位节点与vg/vh的6/5点允许直接取得MB/Mg/Γ真实约化，无须先等全char0 CRT；所有真实节点/整性/原源与两图满射仍待。仅若q4实际通过才得D约化/K1，当前未作此断言。proof SHA c37119f3d1e2a727b07489c825491b26135036bb8839e5becb5d4cc36d73a53b。
+
+
+**R828（已证明）**：[原惰性二部分等距与两个CM源零值](results/R828-original-inert-two-primary-parity-and-old-source.md)。原P₂=[[4,3],[3,4]]是模6二次模等距，真实交换Weil/CM并保EO；六old为+、G1/G5为−。原U/共同相位给允许二维W稳定，实际G两列FG/HJ零加交零迫W⊂old，从而两个原e_G及companion CM值均零，不能仅以投影零反推。16个二次模等距纸面全分类，保持EO者在剩余六old上皆标量，其余送EO→OE；只排该真实等距群再降维，未排所有抽象commutant。六old指定和及同primitive/Legendre仍OPEN。SHA d5c70b7dfa33140e0a8225ac8a0a5d0a11a5f42483e23eb39aee32fa18bf6764。

@@ -44,7 +44,7 @@ R806 W已成：run43707290840/source75b1d56c，原w=e2/τ，34×8/full820；arti
 
 [GC八old分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)保四角色/level36与144、π2/old1/d、HeckeT²+p⁷。[R826实际八运输](results/R826-certified-inert-Gaussian-source-transport.md)run43725592504/sourced3a42168/core70e565af：U及两8×8全部24坐标已保；G1/G5的FG/HJ精确0，F3/F7三old各系数全p≥41单位。canonical916e1b95从完整日志重哈希，公开全manifest verify成功；artifact14165618753/平台ZIP7f0bd3bd至Nov16 14:40:58UTC。环境失联未独立ZIP下载；不重算运输。
 
-[R826 companion证明](results/R826-original-inert-companion-theta-CM-pairing.md)：原Jν=θ_t⁵Cν,p，C权p−5；原T_j=A D+jDA保tame标架/old d^(p−7)/p整性，P0五次给−120 B⁵。原未筛式=−120c²/d0·Σκν Cν,p^sharp(P0)，外因子单位，六个原CM值的指定和仍缺非零；不是固定代数数。sigma已交R828真实二部分等距稿，root正在核；不得仅由两个投影零反推源值零。
+[R826 companion证明](results/R826-original-inert-companion-theta-CM-pairing.md)：原Jν=θ_t⁵Cν,p，C权p−5；原T_j=A D+jDA保tame标架/old d^(p−7)/p整性，P0五次给−120 B⁵。原未筛式=−120c²/d0·Σκν Cν,p^sharp(P0)，外因子单位，六个原CM值的指定和仍缺非零；不是固定代数数。[R828](results/R828-original-inert-two-primary-parity-and-old-source.md)现已证明：真实P₂等距交换Weil/CM，允许空间稳定＋实际两零列的交零论证迫e_G1=e_G5及companion CM值为零。保持EO的全部等距在余下六old皆标量；六项和非零仍待，不能合并不同old标记。
 
 ## 主目标与已闭边界
 
