@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：99c4236a029875b2268725291e1b54b755b35562；2026-11-15 21:02:29 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
+- 最近已读规则提交：fc1f4ee7ce513e1872ba8ce13ccc55be7b83f319；2026-11-15 21:04:42 UTC核两README无变。实际CI pull 2026-11-15 20:40:00 UTC/131193eb4c103139cf68adc501be93dd4937b09e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 21:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -28,6 +28,7 @@ R816/R820：固定E−11:y²=x³−11由模5/17二下降付rank≥2，导子66/r
 R804/R806/R811/R814/R817/R818：三原λ_j的34δ/18阶角色、全Schwartz/平方/30/√17及canonical Soulé类已付；weight4 root−与同CM型Katz+1分清。z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0，只对指定类，不认一般Selmer局部化单射。完整log=−34²c_jθ9Ωp4 Elog I²，Elog∈p²O×，loc_bar0；AJ比较保EIw/EBDP(v−2)、真基比和全局单位。
 共同good pair先由7起始/单侧13塔/Finis19固定。唯一p7993三原负二2522/2828/3696unit并付同χ-Chow独立；R818严格Arb/尾界付三λ及固定Rankin解析秩1。均不付别p的AJ、三I线性和、原Sha7993或点AST，高权跨p仍开；全文归档保各来源/run/hash。
 
+纯幂全重数优化见[短注](notes/2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)：N块最小主比2(N−2)/(N−1)，不由固定F^N量纲排全核。
 R824在完整G0/charge40物理格付四次核首次提升：k=r+13+2h−s<min(13,ell+13)时原末块行有单位6a²C0u0²e0²，故不升p²。其余准确读取窗内同R分支强制28/−11/3三值，native ξ先保后相消；付真实相对仿射像和次数排除门。四中央代入恰λβ°−(λL)B4⁻¹b，倍点完整native缺陷保；不以Jacobian认新算术零或全核F4。
 
 ## 原深支：全来源、真因子与同R
