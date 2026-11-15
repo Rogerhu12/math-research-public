@@ -133,3 +133,5 @@ $\bigl(\|\mathcal L u_f\|^2+\|\mathcal L^*u_f\|^2\bigr)^{1/2}\le24\|f\|/x$。
 原 $R_x,T_x$ 与 $D,C$ 对易、保核旗/孔 cut，双边强趋单位；全阶热平滑、真两带跨旗指数尾、真实 drift 和闭域都已付。只对同 primitive $f$ 的特殊列 $y=\mathcal L^*T_xf\in\ker D^3$，顺次返回已经由[原相容逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付到二次窗口 $O(Q)$，包括额外 $D^\dagger\Pi_1C_1T_xf$ 与全部 partial。尚须证明 actual $u$ 或 $T_xu$ 的受控同源表示，或直接对实际压后谐和族证明所需混合预算；不能替换原锚或丢零源反馈。
 
 Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carry 及前文其余开放接口继续保留。
+
+[纯三次高核唯一性及无增头](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)证明无切向纯cube切片恰一维；实际增广rank591、kernel17、head仍15，故该切片已经排完。由原第二一次正常核构造的独立切向cube仍须实际低Schur验证；未声称全990高核只有这两条。

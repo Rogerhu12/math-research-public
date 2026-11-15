@@ -311,3 +311,7 @@
 ## 2026-11-15：原特征零十三原始核与投影长二
 
 [完整原始核及精确投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实际以Q(u)构造，核全部155支撑的Z_(31)[[u]]整性、169自由单位项、80444原产品与4367坐标运输；λ_I,Q精确2、十二单位，45≤δA_I,Q≤68。fullQ66/OQ149/highQ26均未由此支付，转216真来源列及两原始mapper。
+
+## 2026-11-15：原二点纯三次高核切片已完整排除
+
+[纯cube唯一性与原首项未增](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)证明该切片恰为弱方向三次张量；实际只新增一个RHS得增广rank591，首项仍15、全部185640原乘回和九零读数保持。并构造另一条切向耦合高核的完整原来源，数值后果尚待实测。

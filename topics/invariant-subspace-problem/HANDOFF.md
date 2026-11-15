@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a0bee24679b280e21cffd7ef6737572b2b4dc2bd（2026-11-15 17:11:43 UTC，临时研究session run43736746064实际pull --rebase，两README无差异；详见notes/r150-local-projection-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** bba70ac253a45f20881c1b581a9ac257cdec4b00（2026-11-15 17:15:32 UTC，Actions run43740071765实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43740071765-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -24,8 +24,8 @@
 - full43731615668/local43731613530均16:30成功结束，tmp已失；full66/O149/G2与所有SHA见正式稿。需重建时用notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入及同选小receipt，禁止取回旧tmp。
 - [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
-- **活跃local run43736746064**于16:40:01起45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2续跑实际188.841456522秒，全B1088×585秩583、[B,C]秩590/核17、首项15；全部185640原产品真，九平方读数全零，见[正式稿](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)。同头任意λ1读数不变；未造λ2，不证成员性。父tmp two-directed-left2-checkpoint保持；新增唯一原弱方向cubic，另child目录，同父583unit和22实际RHS完整SHA核后只解新1列。
-- [原Q十三原始核/投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)已成：同run实2.917069073秒，λ_I,Q=2/12单位，全部核Z_(31)[[u]]整且原自由块I；80444完整原乘回及4367运输真，u²首系数mod31=13。原Q full/O/high及leading单位仍开。后续[216列/双mapper合同](notes/2026-11-15-r150-higher-kernel-216-column-and-two-mapper-interface-789f.md)保真实4340回填；正在恢复两个历史字典，primitive本job已有。
+- **活跃local run43736746064**（16:40起45分钟循环/55分钟job）：request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2全B秩583/[B,C]590/首项15/185640原产品、九读数零见[首稿](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)。[纯cube切片已排完](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)：实12.338020447秒，增广591/核17/首项仍15、同头读数零；父two-directed-cubic-left1-checkpoint完整23rhs。现排独立切向cube1新RHS到tangent child；原λ2/h0成员仍未证。
+- [原Q十三原始核/投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)已成：同run实2.917069073秒，λ_I,Q=2/12单位，全部核Z_(31)[[u]]整且原自由块I；80444完整原乘回及4367运输真，u²首系数mod31=13。原Q full/O/high及leading单位仍开。后续[216列/双mapper合同](notes/2026-11-15-r150-higher-kernel-216-column-and-two-mapper-interface-789f.md)保真实4340回填；两个历史字典实际0.365590690秒全SHA通过，primitive本job已有；216源准备60s/512MiB已排，尚未报结果。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ均原17式常数M来源。真弱列导数系数a−1、s2一次；其余二次项及共动三次反馈仍开，不能称九t n_j²已在像。
 
 ## 原同w边界：正交旗后继续真正返回
