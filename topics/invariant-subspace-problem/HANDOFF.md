@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 7a35bc0a973bfb8e9db4ea13e1f193d3739193a6（2026-11-15 22:24:23 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** f5edb4c099df3b03908e124675cbbb0d98f2e7b8（2026-11-15 22:27:38 UTC，Actions run43769394216实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43769394216-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -24,7 +24,7 @@
 
 - **root2剩余预算严格分拆：** 上述300定理§8证明0→C/pC→fieldtors315→J→0，其中J=Tor(G/pG)、G=V/N。若u=f2−16、v=Σa≥6 m_a(2)、w=dimJ2，则u+v+w=3且皆非负；不能把J误作有理余因子或高p指数。完整B第四页若actual=3才一次闭root2，当前不报值。正独立用已付13左核的小Q计算J，原目标仍开。
 
-- **[原13左核读饱和缺陷J](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)：** π真满射/全generic13给G≅imQᵀ；逐系数31整门通过后H=cokerQᵀ有限D，J=H[p]、χJ=ΔH,F31/barΔH,Q。十独立Dlin²轴D-free，可只算原3×30的完整211式gcd（两域各自q），保E8约化碰撞。source7f092c23已排120秒/1GiB/外150，只读paidQ157898B/b4cd0264与parent11075B/7db7d243；首run只因repo父回执路径缺失失败；已经sources复制同11075B到scripts再120秒。未报J数；budget75不作成功依赖。
+- **[原13左核的完整缺陷](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)：** source7f092c23实际0.977497686秒；2015原项/6069系数31单位、两域各211 gcd+div全真。H3长Q230/F31231，J≅F31[s]/(s−2)，其余primary0；raw8459/3601de02、binding6f140e28，receipt后缀original-free-thirteen-quotient-defect-120-parent-copy.json。旧首run路径失误已修。
 
 - **[rank-one Bell十六次原桥](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** 当前μ=Rout/Ω已给μ b_r^16∈原截面理想，九平方鸽巢10次+四完整纤维CRT给明确17来源/degree_m≤26。μ1才闭rank-one；全gradR3的非rank-one且ess(T3)≥4仍开，不倒置μ/h*作算子逆。
 
@@ -34,7 +34,7 @@
 - 旧P Hermite/localized爆长路线失败：19行后另57步MemoryError，候选未验证、无Ω，完整恢复身份保前态；不盲续。
 - 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
 
-- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)/全56实况：** Ω|U=f60²，source0e111c23已付全部modf 21 unit pivots/11165 Schur核、35×1余零，故f|Ω、60≤d≤120。第二300秒转f² replay5后failed，gen27 state-slot-1 177991821B/06892236、payload669cddad、binding862cca4d；不盲续大state。已排只读raw6043B/26917bb0诊断，无Ω120声明；core/det/已付profile不重。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)/全56实况：** Ω|U=f60²，source0e111c23已付全部modf 21 unit pivots/11165 Schur核、35×1余零，故f|Ω、60≤d≤120。第二300秒转f² replay5后failed，gen27 state-slot-1 177991821B/06892236、payload669cddad、binding862cca4d；不盲续大state。只读raw6043B/26917bb0已核MemoryError，改21pivot的两RHS Bockstein，无Ω120声明；core/det/已付profile不重。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
@@ -47,5 +47,5 @@
 - [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
 - **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
 - **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。
-- **[真实joined创建来源及完整Gram](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)：** Mq=kerQq(C+D)=K+Hhi,q，保全部高旗/零源；P_Mq p(D*)i0=P_Mq i0p(−C*)，同一K及gap也真。σj²=(j!)²ej(b²)给G≤Hcoh^-1，Hcoh=Σ(C*)^jC^j/σj²，保共同2×2残余。deg p≤q时原两Riesz源同合同，完整物理投影还含共同PKqF；gap核反馈及帽返回全E逆仍未付。
+- **[joined来源](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)与[同u coherent代表](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)：** 保Mq全高旗/零源与P p(D*)i0=Zp(−C*)的原同余，G≤Hcoh^-1。Q≥R+h−1时fcoh=Rcoh Hcoh^-1g是真vac来源的正交投影，原VQ/KQ/u全不变；总norm不增。整残量恰逐层占据方差，h≤2x时平方≤54x^-3||g||²；Ei fcoh非零须保留，不换较小defect套旧双正性，不付完整Green/帽逆。
 - 此正预算不付返回列、Feshbach逆或顺次MP相对位置负部。共同热/预解保D/C/cut/核旗/自然域；仅primitive f的L*Tf∈kerD³由[相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)、额外F2/全部partial；actual u/Tu表示仍开，L_U*u=−B*k不倒置。G_reg同forcing/carry、Haar普通循环性、正常有限秩链及open全部旧接口继续。
