@@ -155,3 +155,7 @@ C1–23（SHA730ffff4e641615aafdafdda12bb3b147bf227a6c4386b9d4165a7efb4ab7699）
 ## 两块外邻片完整非零入口消费者已部署
 
 SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd9547ccc…、131pin manifest4a3e28f6…，由已成domain whole gate续接真实2547/2551。完整30旧stage/49norm+background/6case按原身份消费；新phase入口E、first-correction入口F、全mean log常数ell逐真seam继承，ray严格用旧入口宽及新域的较小值。source仍全九nonlocal词/五independent mean，Nraw不额外除mu，whole-row整行选择。worker c0c4c16a…/flow38627ecb…仅公开Actions/temp数据/小结论和execution；当前只部署，待actual child、完整gates与6case数值，不转授strong-return/全逆。
+
+## common-T 旧圆 I/J 与 mean 接口已准确展开
+
+I3–14/SHA320cf3bbe2231520ce88545538b906862675d844f0af7c8e6220475383beca11：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。

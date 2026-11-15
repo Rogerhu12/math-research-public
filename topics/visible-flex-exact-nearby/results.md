@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **common-T 参考的完整旧圆 primitive、J 与 mean 接口（精确解析）**：[I3–14](results/R133-supplement-common-radial-reference-old-circle-primitive-and-mean-interface.md)保真实potential矩阵的rank-one修正、两个old P、完整有限余项和独立even mean；精确径向mean压缩保额外n^-2有序项。新增gap、参考两列和强输出数值仍待，不冒用free Airy界。
+
 - **完整正帽有限 Sobolev 主体球与同域二次余项（已证）**：[C1–23](results/R133-supplement-finite-Sobolev-nearby-cap-body-inverse-and-same-space-remainder.md)，原全实δ、1≤S≤8212、hatY=H z半径2^-8388608时反馈<2^-2097152，保持该δ的真实线性外行；state逆<2^4194305，完整mean/charge读出、same-space二次与Lipschitz。未知nonlinear outer和实际residual入球仍待。
 
 - [R133 三流 v1 的实际身份错误与准确 v2 修复](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)：43680721302 child1，7原身份门过、旧最终1886行逐字恢复、0新数值行。唯一错误是 impulse 原无换行 JSON SHA 与 matrix 原有换行 SHA 混用；v2 保全等门并按各自 producer 核，全部数值式和原pins不改。
