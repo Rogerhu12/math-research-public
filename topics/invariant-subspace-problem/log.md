@@ -672,3 +672,7 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 ## 2026-11-15 22:40 UTC — 原56行单核Bockstein入队
 固定源码7bcc6dec/49a8a83e及全部原pins；已逐行审核21单位块、两单右端、全部56残量和Ω=f gcd(f,w)公式，排300秒/2GiB。
 只流式核旧大状态SHA/抽paid21主元，所有数组仍job临时；未执行前不报Ω120。原局部197除源继续补全局315像；实际pull比较两README后真push。
+
+## 2026-11-15 22:47 UTC — 剩余正常商的6012真来源presentation
+逐原core核54+3+63单位、13真零输出与6012=5100+864+48零投影源；严格T=coker[B,H kerGᵀ]保rank34原核。
+完整W尾尚未数值构造；冻稿60d73e63已全根审，保来源degree≤3/Σ0单位范围。归档完整H/open后更新，实际pull核两README并push。

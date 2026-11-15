@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 当前完整前态保[H](notes/2026-11-15-handoff-before-free-thirteen-defect-789f.md)/[open](notes/2026-11-15-open-before-free-thirteen-defect-789f.md)及其全部归档链；来源、失败路线、未列问题均保留，未列不算关闭。当前入口以open为准。
+- 当前完整前态保[H](notes/2026-11-15-handoff-before-external120-and-relative-normal-789f.md)/[open](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)及全部归档链；原来源、失败路线和未列问题均保留，未列不算关闭。当前入口以open为准。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -22,9 +22,10 @@
 - [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，60≤d=degΩ≤120；九Mh*tj全局Q成员，degM≤141−d/总乘子164−d，源费8531−d≤8471。已知f60可选M60=Rout/f≤81/总≤104；不报M常数或九h*成员。
 - [原P的56×22 core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)Σ0外准确保全部原maxminor gcd；原来源、自由核及完整graph已核，logical752d21d7…，不重算。
 
+- **[原正常商的完整来源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)：** A经原120单位/13零输出后保[[Gᵀ,0],[H,B]]，B有6012=5100+864+48真零投影源，T=coker[B,H kerGᵀ]；核秩34全保。B/H的W尾尚未数值构造，不由4212维数免费消高块。
+
 - **root2还余二维：** 精确J2=1把旧u+v+w=3更新为u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2。完整B第四页至多2；若actual=2才迫f2=16、m6=2、更高0。当前未报第四页，不把有理长度与高p指数互换。
 
-- **[原13左核的完整缺陷](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)：** source7f092c23实际0.977497686秒；2015原项/6069系数31单位、两域各211 gcd+div全真。H3长Q230/F31231，J≅F31[s]/(s−2)，其余primary0；raw8459/3601de02、binding6f140e28，receipt后缀original-free-thirteen-quotient-defect-120-parent-copy.json。旧首run路径失误已修。
 
 - **[rank-one Bell十六次原桥](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** 当前μ=Rout/Ω已给μ b_r^16∈原截面理想，九平方鸽巢10次+四完整纤维CRT给明确17来源/degree_m≤26。μ1才闭rank-one；全gradR3的非rank-one且ess(T3)≥4仍开，不倒置μ/h*作算子逆。
 
