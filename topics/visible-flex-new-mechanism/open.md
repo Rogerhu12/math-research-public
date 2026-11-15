@@ -167,3 +167,7 @@ R344原有序Γ/Green给全R的Ω与pure/真尾因子化；R352以真实三矩ta
 ### R370 新支付：完整正规δ⁴成本的精确五次通量
 
 [R370](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)保原C_A m2、第三history两种P_s、三次速度势−∂dσ/3及有序1/3、2/3双尾，完整Qδ4=16Q04∈U准确给Λ=∫(x+d)(u″)^5/80。单ambient项严格非零但被原C_A项整项抵，不能删除后单算；完整结果是C²而非C³主式。d0真−6借已付R207响应消pure给Ω=∫x(u″)^5/80。接着完整Q2/其它Q4及与H全像的准确关系；不能从C²就判新独立方向或正半群双向可达。
+
+### R371 新支付：完整H像的主商12与十三实际自然读出
+
+[R371](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)保完整−dDδ、同锚真尾，给全状态h^-8 p(hx+d)两principal；六真实平移张成Pol≤5，C²收敛局部振荡与自由二阶jet证明商恰12。原W−7=−∫r5/57600是H像内非零C²方向，故完整像≥13；非恰13。十三个一次固定真实profile的满秩由有限求值引理严格存在，再按R366一般向量定理付actual M=T0/框架/空间闭合与紧集光滑截面。继续H的完整C²核、Q2/Q4及joint；不能把十三读出等同全U或固定g flex。

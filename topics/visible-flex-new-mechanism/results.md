@@ -490,3 +490,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R370：完整δ⁴正规成本及精确C²总通量
 
 [R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)。原h1、γ0、w=d_s方向的完整Qδ4=16Q04由R130为U成员；保C_A m2、−Yn/P_s链式、原三次势−∂dσ/3、非紧Green与两真实有序尾。C_A项整项抵R367的B_m2N2，原C³项准确消，self残∫er5/64与三矩项，ZZ/YC两尾各为三矩项负值；故Λ_u(Qδ4)=∫(x+d)(u″)^5/80。真−6借原R207消pure得Ω=∫x(u″)^5/80，非零。根逐式独推核心IBP/余项抵消；不授其余Q4、Q2、相对H独立或全半群控制。纸面证明未运行新计算。
+
+## R371：H模C²像恰十二维与十三维实际联合通量控制
+
+[R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)。R365完整输运连−dDδ给两principal ±h^-8 p(hx+d){L或r}Et²/480。六真实d平移是Pol≤5基；uN→u0于C²且三导平方/N平均，通过任意局部二阶jet证明P/Q无隐藏关系，完整H模C²恰12。原R358真−7的−∫r5/57600非零C²，有限正伸缩投影和原affine协变使它属于H像，故全像至少13而非恰13。有限求值引理给十三固定同窗同锚profile，在actual H列上满秩；R366一般m定理给R13全部实际目标、M=T0/框架/空间闭合、物理下界及紧集光滑截面，完整Klein桥基准保留。未给数值profile/行列式界、全U、全period或固定g flex。纸证无新执行。
