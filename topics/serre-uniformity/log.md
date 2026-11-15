@@ -85,3 +85,8 @@
 - R816原一般p尖点结论登记：root回读R575/R725/R772与Zywina原Lemma5.2，核算术右乘/d^-1、实剩余域、c=3m−1互素和原a³=t的总分歧；char0同阶不代p单位。proof 9492e526。
 - 终端恢复，新partial clone并实际pull/rebase；13:20:35UTC已读329c622d，两README无差异，改回CLI推。H逐字归档并压缩，原所有未闭条件保留。
 - R813本地纯IO全451ZIP/输入carrier/冻结verify成功，原432位、两scale6724/1、core67.613512秒；真实字段已交R815，不导入数学core/flint。R787/R809继续，R811 generic公开验证准备，主目标OPEN。
+
+### 2026-11-15 21:33（Asia/Taipei）｜serre-public-astra-20261115
+- R813真实结果登记：两原Q右端432位、分母828/1931位、两scale6724/1，全820行准确；core67.613512秒。451ZIP/449manifest/726输入与冻结verify原样全核，raw不入Git，不重算数学。
+- R815两目标工程激活：root全文审core/method/workflow，ordinary全文审wrapper；真实53原文件select_inputs全过，AST/源码SHA核。Γ五模/七准确nested、原scale/两图负号保全；core80516ff9/request4e01d5be，实际run随后绑定。
+- R816已CLI推0e6fcef1；并发非快进立即pull/rebase循环成功，13:28:26.307214UTC读2cc71aff两README无diff。R787/R809继续，主目标OPEN。

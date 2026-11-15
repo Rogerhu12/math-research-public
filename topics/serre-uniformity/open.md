@@ -116,9 +116,9 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **原末项的全SS同权路线已排除**：[完整障碍](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)。原[z^(p−7)]xσ6与[z^(p−10)](−xyσ6)都是p整、权p−11的全层模形式；但不存在参数无关的Fp常数αβγ、γ非零使Δ(αf末+βg末)=γDA在全部SS成立。Hasse简单零给模A整除、权2商为零，Tate DA常数1/12矛盾。仅排全SS路线，原j0专属端项关系和同h目标未排除。
 
-**R815执行范围由R817缩小，实际矩阵待算**：[方法](notes/R815-original-normal-derivation-operator-method.md)/[R817两算子证明](results/R817-original-normal-derivation-without-separate-h-multiplier.md)。首次三算子版本尚未执行即被替代：只CRT Mg/Γ，保实际vh；Mg六模点/七准确点，Γ五模点/七嵌套交换子准确点。先源断言We0=e1，再逐系数Γe0=0/Γe1=vh和完整[[Γ,W]+MgW′,W]=0；cyclic唯一给真实导子。不造独立Mh/场迹/全基乘法表，实际两图/尺度不变。R813原job已成功，真实输出IO正读，不能以success冒认已读坐标。
+**R815执行范围由R817缩小，实际矩阵待算**：[方法](notes/R815-original-normal-derivation-operator-method.md)/[R817两算子证明](results/R817-original-normal-derivation-without-separate-h-multiplier.md)。首次三算子版本尚未执行即被替代：只CRT Mg/Γ，保实际vh；Mg六模点/七准确点，Γ五模点/七嵌套交换子准确点。先源断言We0=e1，再逐系数Γe0=0/Γe1=vh和完整[[Γ,W]+MgW′,W]=0；cyclic唯一给真实导子。不造独立Mh/场迹/全基乘法表，实际两图/尺度不变。R813完整451ZIP/726原输入/冻结verify已核，两个原向量432位/scale6724；R815真实53文件源已核并激活，实际矩阵仍待。
 
-根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive已准确完成，R813两S3原job已成功、输出IO正读，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
+根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive已准确完成，R813两S3实际完整成功、R815真实请求激活，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
 
 
 **R812（六case已准确成功，全部split p的未筛配对非零）**：[实际结果与全p推论](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3。固定六FG均非零、分母121，清分母Norm因子2^38·3^12·5^12·11^24；U分母88、det分母11^6/Norm仅2/3/11。因此每个p≥41、p≡5mod12的原交替卷积Σ(−1)^j f_(N−1−j)g_j为单位，保共同c/Frobenius/Gaussian相位并先代数化再SS评价。完整8文件/6manifest与原verify全核，47.336289秒含拉镜像。原primitive/Legendre同h与p11mod12 Eichler分支仍OPEN，不以未筛代筛后或主定理。

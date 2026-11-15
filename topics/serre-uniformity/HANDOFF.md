@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：2cc71aff4007a04a511ec7fbb530c119af90cf57**（2026-11-15T13:28:26.307214+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R816前H](notes/2026-11-15-handoff-before-R816.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
+**已读规则提交：f2ca3e196f5e1d93272fea6a028454a5a4c73a0f**（2026-11-15T13:33:26.404337+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R816前H](notes/2026-11-15-handoff-before-R816.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -14,7 +14,7 @@
 
 **R809运行**：run43712427063/source91fbd81e，[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[输入IO](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117文件已核。先六τθU_j共84Q右端、1234列/1380行；A/B后增，不换公共身份。保82/原b/s/λ与τ最高项零、manifest不可变；尚无新minor/坐标。
 
-**R815工程已齐、待root核并激活**：[契约](notes/R815-original-normal-derivation-operator-method.md)首次三算子版本未执行即由R817缩为Mg/Γ。真实R806和R813已齐；保原h向量/target scale，Mg六模点/七准确点，Γ五模点/七嵌套准确点；不独立CRT Mh。核心80516ff9/wrapperab725da0草稿已AST，来源与实际request须核后再登记run。两图沿R814；尚无矩阵输出。
+**R815真实请求已激活、待run绑定**：[契约](notes/R815-original-normal-derivation-operator-method.md)。真实R806/R813已齐，53个最小原文件纯IO全核；root全文核core/method/workflow，ordinary全文核wrapper。core80516ff9/wrapperab725da0/method5d312007/request4e01d5be/workflow4171ee9d；只Mg/Γ，分别六/五模点、各七准确点；不独立CRT Mh。Γ两列、nested源顺序/两图负号均保。首run未读前不预填实际矩阵。
 
 **R811工程pending**：[极理想/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。首乘法core849bca27/wrapper2a1d1c28已审，真实R806已到，待R809 A/B；r5八模/九准确点。完整多项式核/Hermite/两向Laurent/τ全长＋σ零长度工程另稿已齐；原P不可变保留作MpH=MqW直验。generic非平凡消去与真实中断续算验证准备公开运行，不代实际原模型输出。
 
@@ -24,7 +24,7 @@
 
 **R806准确完整成功**：[结果](results/R806-certified-original-primitive-multiplication.md)，run43707290840/source75b1d56c，w0=e2/n1，cyclic p1000000007/z0=0/det489861234。34×8列全820，10603输出/2580原输入与冻结verify全核。原artifact14161637987至Nov16 12:25UTC，较小续接14162500418至12:38UTC；保正规基，不把primitive幂环当正规环。
 
-**R813两S3准确成功、完整IO已核**：run43715253991/source74f5296a，[证明](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[方法](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。两Q右端432 Dixon位/full820，g/h原scale均6724/1；core67.613511668秒。原451 ZIP成员/完整manifest/输入carrier逐SHA及冻结wrapper.verify通过，本地未import core/flint。artifact14162633303/20102979B/ZIP0850402e至Nov16 12:58UTC；cert e3c2e041、coordinates29bedd33。首scope无Mg/Mh/Γ，真实结果稿正登记；core830ae652/wrappere838f3ab不改。
+**R813两S3准确成功、完整IO已核**：run43715253991/source74f5296a，[证明](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[方法](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。两Q右端432 Dixon位/full820，g/h原scale均6724/1；core67.613511668秒。原451 ZIP成员/完整manifest/输入carrier逐SHA及冻结wrapper.verify通过，本地未import core/flint。artifact14162633303/20102979B/ZIP0850402e至Nov16 12:58UTC；cert e3c2e041、coordinates29bedd33。首scope无Mg/Mh/Γ，[真实结果](results/R813-certified-original-Wronskian-normal-vectors.md)已登记；core830ae652/wrappere838f3ab不改。
 
 既成[R801长尾](results/R801-certified-original-power6-to8-long-tails.md)、[R803 M6](results/R803-certified-original-M6-mixed-Hodge-ratios.md)、[R805整基](results/R805-certified-original-affine-pencil-free-basis.md)、[R807清极](results/R807-certified-original-M6-pole-clearing.md)均已完整IO；V6至141/V7至175/V8及旧V2..5至195，84M6列368位，原整基权1/144/127，θ真实rank2/kernel3且λ3/4零。全部source/run/SHA见结果/归档；R797/799/800已核，κ^N只一次，禁重算旧阶段。
 

@@ -433,3 +433,5 @@
 - **R817（已证明）**：[不独立重构Mh的原导子准确认证](results/R817-original-normal-derivation-without-separate-h-multiplier.md)。T_G=[G,W]+MgW′的完整commutator及首列先给Mh，再由cyclic唯一给G=Γ；实际We0=e1把列条件化为Ge0=0/Ge1=vh。嵌套残差最大次数6，Γ须七固定准确点，五模点仍足；Mg六/七。仅重构Mg/Γ，省295936有界系数位置，实际算术仍待。proof SHA 2fc18cdc4bd264b2d2dbc9f80b885574764d8844d9ee3725960b5b76b684c80b。
 
 - **R816（已证明）**：[原一般p实cyclotomic尖点域与互素单轨道](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。核原u=24s(2t−1)下降、norm列标签{±n}及算术d^-1，准确cusp域Q(ξ_p)^+；c=(p−1)/2=3m−1与[L:K]=m互素，原Y_L/X_L皆一个cusp闭点。a³=t在每cusp总分歧3且剩余域不变；L截面消失阶均等。未外推p41 Hom/秩一或p单位。proof SHA 9492e526f7ea0098ee9d5889cbfe92391c67840c82736e34aa3e8b4505165642。
+
+- **R813（实际准确完成）**：[两个原Wronskian正规向量](results/R813-certified-original-Wronskian-normal-vectors.md)，run43715253991/source74f5296a。复用690逆，两Q右端432 Dixon位/full820；g/h scale均6724/1，分母828/1931位，core67.613511668秒。完整451ZIP/449manifest/726原输入与冻结verify已核，无本地数学。R815真实输入已齐；不预填Mg/Γ/极理想。结果SHA a2f41569eb7c5017989623b45148e483d9f176a796d3aa423fa9e71d9e9b7738。
