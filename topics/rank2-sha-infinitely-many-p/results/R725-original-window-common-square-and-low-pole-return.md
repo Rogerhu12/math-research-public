@@ -377,3 +377,169 @@ $2L\mathcal D_2$。
 [R717](R717-original-height-two-artin-hasse-return-and-second-digit-support.md)；
 [R721](R721-minimal-two-torsion-poles-for-original-height-two-parameter.md)；
 [R723](R723-fixed-cm-and-artin-hasse-full-height-two-reconstruction.md)。
+
+
+## 8. 只读前 K 条原行时的线性极帽
+
+上文使用整个 $q$ 窗口。若当前只需前 K 条指定 Cartier 行，
+不必保留整个参数的二次极帽。令
+$$
+1\le K\le p-1,\qquad
+J_K=\left\lfloor\frac{K+1}{6}\right\rfloor,\qquad
+L_K=sK,\qquad M_K=p(2J_K+1).
+\tag{21}
+$$
+R721 的系数 $a_j$ 保持不变，置
+$$
+h_{[J_K]}=\frac{x^2}{y}\sum_{j=1}^{J_K}a_j\xi^j,
+\qquad
+Z_{[K]}=Z+c_p^{-1}h_{[J_K]}^p.
+\tag{22}
+$$
+空和为零。因为 $J_K\le s-1$，
+全部系数仍由同一个单位递推给定。
+
+R721 的原比较逐行给
+$$
+H-h_{[J_K]}=O(z^{6J_K+5}).
+$$
+当 $J_K=s-1$ 时这恰是原 $O(z^p)$，
+没有把下一条共振系数当作已知单位。
+结合原 $Z_1=z+O(z^q)$，得到
+$$
+\boxed{\quad
+DZ_{[K]}=1,\qquad
+Z_{[K]}=z+O(z^{p(6J_K+5)}),\qquad
+(Z_{[K]})_\infty=M_K\mathcal D_2 .
+\quad}
+\tag{23}
+$$
+$J_K=0$ 时最后一式是 R636 的原 Z 在每个二挠点的准确 p 阶极。
+$J_K\ge1$ 时，$h_{[J_K]}$ 的末项系数是单位，
+在每个二挠点有准确 $2J_K+1$ 阶极；
+其 p 次幂的阶严格大于原 Z 的 p 阶，不能相消。
+这同时证明 (23) 的完整极支持。
+
+由于
+$$
+6J_K+5\ge K+1,\qquad
+p(6J_K+5)+5>K(p+1),
+\tag{24}
+$$
+这个较短参数仍保前 K 条原对角所需的全部坐标精度。
+第二个不等式使用 $K\le p-1$，不是仅作主阶比较。
+
+按 (10) 只截到 $\xi^{L_K}$，定义同一个原输入的
+$$
+Q_{m,K}(\xi)
+ =\left[wU(w)^m\ell_m(w)\right]_{
+          w=w(\xi),\,\deg_\xi\le L_K}.
+$$
+于是
+$$
+Q_{m,K}(\xi)=A_m^\circ+O(z^{K(p+1)+6}),\qquad
+(Q_{m,K})_\infty\le2sK\mathcal D_2.
+\tag{25}
+$$
+只用原 $U,X\bmod w^{sK}$，无新的自由系数。
+所有 $h\le K$ 的原 $\bar g_{m,h}$ 由
+$$
+\Theta^{[K]}_{m,h}
+ =Z_{[K]}^{-h-1}Q_{m,K}(\xi)\omega_E
+\tag{26}
+$$
+按 (11)–(12) 同样准确读取；(24) 保证坐标误差严格晚于每个目标行。
+
+实际二挠极也全部消失。确切地，
+$K\le6J_K+4$ 给
+$$
+(p+1)K<6p(2J_K+1),
+$$
+因为右侧减去 $(p+1)(6J_K+4)$ 为
+$6J_K(p-1)+2p-4>0$。
+因此
+$$
+2sK<2M_K\le(h+1)M_K\qquad(h\ge1).
+\tag{27}
+$$
+令 $\mathcal Z_K=(Z_{[K]})_0$；
+它仍全为单零，度为 $3M_K$。
+(26) 仅在 $\mathcal Z_K$ 有阶至多 $h+1\le p$ 的极。
+所以实际有限部及分子满足
+$$
+\boxed{\quad
+(B^{[K]}_{m,h})_\infty\le\mathcal Z_K,\qquad
+N^{[K]}_{m,h}
+ :=Z_{[K]}\frac{\mathscr C(\Theta^{[K]}_{m,h})}{\omega_E}
+ \in H^0(E,\mathcal O_E(M_K\mathcal D_2)).
+\quad}
+\tag{28}
+$$
+全部留数仍按 (15)、(19) 保留，且
+$$
+\boxed{\quad
+\bar g_{m,h}
+ =\left(\frac{D^hN^{[K]}_{m,h}(O)}{h!}\right)^p
+ \qquad(1\le h\le K).
+\quad}
+\tag{29}
+$$
+
+固定 K 时，(28) 的分子极帽为 $O_K(p)$；
+K 随 p 增长时为 $O(pK)$。
+例如前四条原行都可使用原 Z 和 $M_K=p$；
+第五至第十条用 $J_K=1$ 和 $M_K=3p$。
+这是准确的有限窗口代价，不把 K 条原行缩成一条中央，
+也不向旧 $\mathcal W_D$ 免费增加这些随 p 变化的来源。
+
+## 9. 分子实际上是同一来源的完整 p-基系数
+
+固定上一节的 K，记 $t=Z_{[K]}$ 和
+$A=Q_{m,K}(\xi)$。唯一的 p-基分解为
+$$
+\boxed{\quad
+A=\sum_{h=0}^{p-1}\mathcal N_h^p t^h,
+\qquad \mathcal N_h\in k(E).
+\quad}
+\tag{30}
+$$
+对每个 $0\le h\le p-1$，
+$$
+\boxed{\quad
+\mathcal N_h
+ =t\,\frac{\mathscr C(t^{-h-1}A\omega_E)}{\omega_E},
+\qquad
+\mathcal N_h^p=-t^pD^{p-1}(t^{-h-1}A).
+\quad}
+\tag{31}
+$$
+证明只须对 (30) 的每项使用局部 Cartier：
+$t^{r-h-1}\omega_E$ 在 $0\le r,h<p$ 内
+只有 $r=h$ 能留下，其 Cartier 为 $t^{-1}\omega_E$。
+p 次系数按半线性提出，得到第一式；
+第二式由第6节的同一 p-基导数公式成立。
+所以对 $1\le h\le K$，
+$\mathcal N_h=N^{[K]}_{m,h}$。
+所有分子来自同一个 A，不能分别选择其全局正则项。
+
+(27) 还使 $1\le h<p$ 的全部 $\mathcal N_h$
+都有 $M_K\mathcal D_2$ 极帽；
+不过 $h>K$ 的条目是截断模型的系数，
+没有被认作原未支付的高行。
+
+$h=0$ 的输入则必须另算。
+由 $K\le6J_K+4$、$J_K\le s-1$，
+$$
+2sK-M_K
+ \le p/3+2J_K+4/3
+ \le(2p-1)/3<p.
+$$
+所以它在二挠点的 Cartier 输出最多有简单极，
+从而只有完整上界
+$$
+(\mathcal N_0)_\infty\le(M_K+1)\mathcal D_2.
+\tag{32}
+$$
+不能把 (28) 的较小帽未经检查赋给零号分子。
+(30)–(32) 给准确的一体化呈示，
+保留零号项和所有 p 次系数；没有产生新的非零结论。
