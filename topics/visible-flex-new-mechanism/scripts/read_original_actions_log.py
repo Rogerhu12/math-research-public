@@ -536,10 +536,6 @@ def actual_view(report, preview):
         "source_count": len(report["source_files_sha256"]),
         "all_bindings_rechecked_against_receipt_here": True,
         **fingerprint(report["source_files_sha256"])}
-    for key in ("input_byte_streams", "state_identities", "input_restoration_conclusions",
-                "ninth_handoff_summary", "algorithm_stage_scope", "error", "pipeline_failure"):
-        if key in report:
-            preview.field(result, key, shallow_semantic(report[key]), 23000, required=True)
     stage = report.get(STAGE)
     require(isinstance(stage, dict), "original actual report lacks its stage")
     selected = {k: v for k, v in stage.items() if scalar(v)}
@@ -560,9 +556,13 @@ def actual_view(report, preview):
                 value = {str(i): item for i, item in enumerate(value)}
             else:
                 value = table_view(value)
-            preview.field(selected, key, value, 44000, path="$." + STAGE, required=True)
+            preview.field(selected, key, value, 50000, path="$." + STAGE, required=False)
     selected["original_stage_fields_not_reprinted"] = sorted(set(stage) - set(selected))
-    preview.field(result, STAGE, selected, 67000, required=True)
+    preview.field(result, STAGE, selected, 53000, required=True)
+    for key in ("input_byte_streams", "state_identities", "input_restoration_conclusions",
+                "ninth_handoff_summary", "algorithm_stage_scope", "error", "pipeline_failure"):
+        if key in report:
+            preview.field(result, key, shallow_semantic(report[key]), 62000, required=False)
     result["original_top_level_fields_not_reprinted"] = sorted(set(report) - set(result))
     return result
 
@@ -819,13 +819,13 @@ def run(args, context):
             for key in ("coarse_decision", "fine_decision", "fine_violation_groups",
                         "curvature_nonlinear_defect_diagnostic"):
                 if key in trial:
-                    selected[key] = preview_extra.compact(trial[key], "$.native_model3." + key)
+                    selected[key] = preview_extra.compact(shallow_semantic(trial[key]), "$.native_model3." + key)
             trials.append(selected)
         gate_records.append({"model": 3, "original_line": row["original_line"],
                              "timestamp": row["timestamp"], "trials": trials,
                              "original_full_model_sha256": row["payload_sha256"]})
     context["previously_unread_native_model3_gate_and_curvature_diagnostics"] = compact_records(
-        gate_records, 9000, preview_extra, "$.native_model3")
+        gate_records, 5000, preview_extra, "$.native_model3")
     context["old_human_tables_and_publisher_log_not_reprinted"] = {
         "human_line_count": len(human), "publisher_line_count": len(publisher),
         "previous_readback_run": 43732702362}
