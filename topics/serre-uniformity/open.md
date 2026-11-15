@@ -68,7 +68,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 
-**R820小有限代数入口已证**：[原两图cusp理想](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。仅273已成S3 q0行同除N0给F20值与Z；两个原锚点避全部cusps，R806 Q-form/忠实扩张给评价满射。逆序Z链≤292候选，实际rank20/minor/全部关系及两图各总度20才认证完整HNF；不预填常数E秩20或Z primitive。第二图用同F的Z^-1/Z^-eps，无需新Fourier或等待大导子，实际producer正在接原carrier。
+**R820小有限代数入口已证**：[原两图cusp理想](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。仅273已成S3 q0行同除N0给F20值与Z；两个原锚点避全部cusps，R806 Q-form/忠实扩张给评价满射。逆序Z链≤292候选，实际rank20/minor/全部关系及两图各总度20才认证完整HNF；不预填常数E秩20或Z primitive。第二图用同F的Z^-1/Z^-eps，无需新Fourier或等待大导子，实际289原文件/726载体成员纯IO全核，core25f5582e/wrapper64da6955与request6eb90ef0已激活；数学结果待公开Actions。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 

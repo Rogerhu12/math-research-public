@@ -1,0 +1,79 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R820-original-cusp-finite-algebra-and-ideals",
+    "p": 41,
+    "requested_stage": "two_original_cusp_finite_algebra_kernels",
+    "budget_minutes": 60,
+    "producer_inputs_pending": false,
+    "core": "R820_original_cusp_finite_algebra_ideals.py",
+    "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+    "wrapper_sha256": "64da695501afe93d1e41987cc1932d6f8fb58795fe085bbab6b242140157af65",
+    "framework": "R811_original_regular_multipliers.py",
+    "framework_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+    "io_helper": "R815_public_original_normal_derivation_operators.py",
+    "io_helper_sha256": "ab725da038ec458493f461088ceee0fd105e0dc90cbfb4ad6f3047cbec90b454",
+    "proof": "results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md",
+    "R820_proof_sha256": "5be4f04927348b1e73812d33893ce828085dc6121aaf65d4d0696378b52decda",
+    "method": "notes/R820-original-cusp-finite-algebra-ideals-method.md",
+    "R820_method_sha256": "24072e143dd52517e9eb47b913d0516ff7b16bdb55bce321a2087656b90f6429",
+    "workflow": ".github/workflows/serre-p41-original-cusp-finite-algebra-ideals.yml",
+    "retained_artifacts": {
+      "R805": {
+        "result": "R805-original-affine-pencil-free-basis",
+        "run_id": "43705580592",
+        "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+        "artifact_id": 14158193403,
+        "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+        "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30",
+        "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+        "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+        "certificate_name": "p41-original-affine-pencil-free-basis-certificate.json",
+        "files": {
+          "p41-original-affine-pencil-free-basis-certificate.json": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0",
+          "R805-stage-manifest.json.gz": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547",
+          "R805-degree3-S-basis-index.json.gz": "962694917252e23deb1d185a8caae81da773e314d3fca0475bac18a088dedd7e",
+          "R805-graded-free-basis.json.gz": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9",
+          "R805-accepted-pencil.json.gz": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c"
+        }
+      },
+      "R806": {
+        "result": "R806-original-primitive-multiplication",
+        "run_id": "43707290840",
+        "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+        "artifact_id": 14161637987,
+        "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+        "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+        "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+        "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+        "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+        "files": {
+          "p41-original-primitive-multiplication-certificate.json": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99",
+          "R806-stage-manifest.json.gz": "0b32cfba77138d2fadea50bc922376c9199babb5aa6b7206781d9f030874c652",
+          "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz": "63b38d14dbeb4b504619db65f56c151146885173b8cef253dfba3bebc76cd2dd"
+        }
+      }
+    },
+    "input_carrier": {
+      "result": "R813-original-Wronskian-derivation-inputs",
+      "run_id": "43715253991",
+      "source_commit": "74f5296a6aa06539580ecbd9591a1284e1984a4e",
+      "artifact_id": 14162633303,
+      "artifact_name": "serre-global-R813-original-Wronskian-derivation-inputs-43715253991-1",
+      "archive_sha256": "0850402e283b5b16454aeba4c0967d06cad65951d09a8972aba9b34007b3c812",
+      "manifest_sha256": "0b54cf2ebb843fb789058d6c40c766428a2d79d1a9b0f705ce4094d4aee1acf8",
+      "core_sha256": "830ae652ebb08a035c6636c7738ab4823322111944932ffc77b1136caf7a07bc",
+      "certificate_name": "p41-original-Wronskian-derivation-inputs-certificate.json",
+      "files": {
+        "p41-original-Wronskian-derivation-inputs-certificate.json": "e3c2e041490d918bfec45c08dea337eb44a17548788ad8ce5f01cd14877d0a64",
+        "R813-stage-manifest-18457338f91f4aa2c9541979.json.gz": "ee8a07765edff4a1349ded569085330521998ec296d14020c5ff49400e6a1366"
+      },
+      "input_bundle": {
+        "file": "R813-retained-producer-inputs.tar.gz",
+        "bytes": 17558153,
+        "sha256": "56e26ff7e54d4bdea44dd86050ebd0e86c59ed988d30c3d2628ab2a0fbc3e108"
+      }
+    },
+    "resume": null
+  }
+}

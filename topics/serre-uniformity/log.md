@@ -125,3 +125,7 @@
 ### 2026-11-15 21:56（Asia/Taipei）｜serre-public-astra-20261115
 - R823全文及R730(2)/(16)、R729原充分大非零与既有m1来源已核；原c1评价核K[T]稳定、真实Hom拉回Hodge非零排全核。proof 383cfc21，保c_h M2/16和固定β，不声称p单位或height精确阶。
 - H逐字归档before-R823并压缩已成接口；R820真实IO发现R805旧分布字段须[1,144,127]，只修core/wrapper各一断言，原算法不改。实际小scope接续，主目标OPEN。
+
+### 2026-11-15 21:57（Asia/Taipei）｜serre-public-astra-20261115
+- R820实际输入IO全过：R813载体449输出/726原成员逐SHA，直接选R805282＋R8067=289文件，273旧S3行全recipe；最小bundle5531989B/SHA157ebfb6，无本地数学。
+- root已全文核core/wrapper/method/workflow并采纳旧分布schema单断言修正；core25f5582e/wrapper64da6955/request6eb90ef0公开激活，60/90分钟/一日checkpoint。两图实际rank/minor/HNF待算，不预填结果；主目标OPEN。

@@ -1,0 +1,74 @@
+name: Serre p41 original cusp finite algebra ideals
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R820-public-original-cusp-finite-algebra-ideals-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R820-original-cusp-finite-algebra-and-ideals
+  cancel-in-progress: false
+
+jobs:
+  original_cusp_finite_algebra_ideals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-cusp-finite-algebra-ideals.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R820_original_cusp_finite_algebra_ideals.py
+            /topics/serre-uniformity/scripts/R820_public_original_cusp_finite_algebra_ideals.py
+            /topics/serre-uniformity/scripts/R811_original_regular_multipliers.py
+            /topics/serre-uniformity/scripts/R815_public_original_normal_derivation_operators.py
+            /topics/serre-uniformity/notes/R820-public-original-cusp-finite-algebra-ideals-request.json
+            /topics/serre-uniformity/notes/R820-original-cusp-finite-algebra-ideals-method.md
+            /topics/serre-uniformity/results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python source syntax without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("R820_original_cusp_finite_algebra_ideals.py", "R820_public_original_cusp_finite_algebra_ideals.py", "R811_original_regular_multipliers.py", "R815_public_original_normal_derivation_operators.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+          PY
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Recover both original cusp kernels from saved constants
+        continue-on-error: true
+        timeout-minutes: 75
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R820_public_original_cusp_finite_algebra_ideals.py compute
+      - name: Transfer the active checkpoint to the immediate continuation only
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R820-original-cusp-finite-algebra-and-ideals-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R820-original-cusp-finite-algebra-and-ideals/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require complete original cusp kernels in both charts
+        if: always()
+        run: python topics/serre-uniformity/scripts/R820_public_original_cusp_finite_algebra_ideals.py verify

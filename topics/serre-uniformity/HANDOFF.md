@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：d1d4c01a283d20a1d20131ece43cdcfb05ce757d**（2026-11-15T13:56:27.562142+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R823前H](notes/2026-11-15-handoff-before-R823.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：8898c9e9c5afd3d03c9f5c4e3350766e19299324**（2026-11-15T13:57:51.144370+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R823前H](notes/2026-11-15-handoff-before-R823.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -30,7 +30,7 @@ R801长尾、R803混合比、R805整基、R807清极与R797/799/800全部实际�
 
 原两图E=B+3D，B=20cusps+P0、P1不分歧，D最大569/V3两flip/padding≤297P。原G=u/v、η principal mathcalG³、同源mathcalG⁹R、全部b⁷/Nb/反实Lambda/s/R794列作用常数不变。R793/R798/R802已有证明不代实际极理想/η。
 
-**R820已证、工程准备**：[原cusp有限代数](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。273旧S3 q0同除N0给F20的β/Z值，两原锚点均避cusps；R806 Q-form/忠实扩张给满射。逆序Z链≤292候选/20扩维给完整下三角HNF，各图colength20，非monic位置≤5440。第二图同F用Z^-1/Z^-eps；不预填常数E rank或Z primitive。core/method/wrapper已root全文核，真实source IO收尾，无新Fourier、不等R815。
+**R820真实公开请求已激活**：[原cusp有限代数](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。273旧S3 q0同除N0给F20的β/Z值，两原锚点均避cusps；R806 Q-form/忠实扩张给满射。逆序Z链≤292候选/20扩维给完整下三角HNF，各图colength20，非monic位置≤5440。第二图同F用Z^-1/Z^-eps；不预填常数E rank或Z primitive。[输入IO](notes/R820-original-input-IO-and-public-activation.md)：289原文件/载体726成员全核，core25f5582e/wrapper64da6955已审；request6eb90ef0触发run待回读。无新Fourier，不等R815。
 
 ## 全p原sigma与新的cusp桥
 
