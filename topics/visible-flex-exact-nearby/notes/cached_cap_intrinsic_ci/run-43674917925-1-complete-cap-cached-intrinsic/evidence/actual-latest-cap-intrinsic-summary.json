@@ -1,0 +1,119 @@
+{
+  "kind": "actual_cached_complete_cap_intrinsic_beta_gamma_K_maxima_v1",
+  "source_sha256": "b0e930d6ba184b4f5d13966e3bba723c101102b751876fd070ec19136a5260af",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "exact_original_four_part_4650_native_restored_without_reproduction",
+      "passed": true
+    },
+    {
+      "name": "original_complete_positive_native_source_candidate_cache_eta_nu_identical",
+      "passed": true
+    },
+    {
+      "name": "all4650_original_closed_rows_cover_the_exact_original_interval",
+      "passed": true
+    },
+    {
+      "name": "every_cap_intersection_is_same_intrinsic_cap_v2_and_same_actual_scalar_germ",
+      "passed": true
+    },
+    {
+      "name": "selected_closed_rows_cover_exact_9over10_to25over8_without_gap_or_overlap",
+      "passed": true
+    },
+    {
+      "name": "all_selected_gamma_and_K_intervals_strictly_positive",
+      "passed": true
+    },
+    {
+      "name": "complete_cap_beta_gamma_K_maxima_are_finite",
+      "passed": true
+    },
+    {
+      "name": "complete660_joint_source_and_child0_receipt_consumed_without_new_Bernstein_rows",
+      "passed": true
+    },
+    {
+      "name": "no_old_target_intrinsic_grid_FFT_ODE_repair_or_cap_residual_recomputed",
+      "passed": true
+    }
+  ],
+  "seconds": 1.8337089459999945,
+  "input_sha256": {
+    "native": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "split_manifest": "32b430a27a20726f095098902afdb93e656ea746eb81bce09a559e6f65787fd3",
+    "original_source": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "joint_summary": "67fa3c6664ab90a1dbbc91960b10f4f75c8f6372fee272ddca8f780f834efb86",
+    "joint_process": "61896c151fcd7593076195e0d320713f829a087cb9e3b597bbbd61b0c650ae61",
+    "exact_cap_interval": [
+      "9/10",
+      "25/8"
+    ],
+    "exact_eta": "-7789843107295549/4611686018427387904",
+    "original_parameter_half_width": "1/1000000000",
+    "original_exact_nu": "-2572625729470897/72057594037927936",
+    "original_candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "original_intrinsic_cap_cache": "3a89805ebe1ab22000529a7a8c2fdc262b1c3a2afbc52433cf610d2d6542ff22",
+    "complete_Z_definition": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04"
+  },
+  "exact_interval": [
+    "9/10",
+    "25/8"
+  ],
+  "original_complete_row_count": 4650,
+  "selected_cap_row_count": 1346,
+  "completed_cap_rows": 1346,
+  "reused_cap_rows": 0,
+  "new_cap_rows_this_child": 1346,
+  "complete_cap_intrinsic_constants": {
+    "b_star": {
+      "ball": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]",
+      "lower": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]",
+      "upper": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]"
+    },
+    "g_star": {
+      "ball": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]",
+      "lower": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]",
+      "upper": "[5.6392000001738779246807098388671875000000000000000000000000000000000000000000000 +/- 3e-84]"
+    },
+    "K_star": {
+      "ball": "[0.25460000014863908290863037109375000000000000000000000000000000000000000000000000 +/- 1e-85]",
+      "lower": "[0.25460000014863908290863037109375000000000000000000000000000000000000000000000000 +/- 1e-85]",
+      "upper": "[0.25460000014863908290863037109375000000000000000000000000000000000000000000000000 +/- 1e-85]"
+    },
+    "k_star": {
+      "ball": "1.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lower": "1.0000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "upper": "1.0000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "meanings": {
+      "b_star": "sup_r |beta|",
+      "g_star": "sup_r gamma",
+      "K_star": "sup_r K",
+      "k_star": "max(1,sup_r K)"
+    },
+    "actual_maximal_original_rows": {
+      "beta_absolute": 4620,
+      "gamma_positive": 4620,
+      "K_positive": 3310
+    }
+  },
+  "original_full_native_sha256": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+  "original_native_bytes": 6223338,
+  "original_four_lossless_parts_only": true,
+  "old_target_ODE_FFT_and_repair_recomputations": 0,
+  "completed_new_Bernstein_joint_cells": 0,
+  "already_complete_joint_cells_reused": 660,
+  "original_joint_summary_sha256": "67fa3c6664ab90a1dbbc91960b10f4f75c8f6372fee272ddca8f780f834efb86",
+  "original_joint_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c",
+  "same_intrinsic_cap_v2_complete_rows": true,
+  "scoped_to_original_fixed_eta0": true,
+  "whole_original_eta_half_width_also_covers_eta0": true,
+  "no_new_target_or_intrinsic_coefficient_enclosure_created": true,
+  "no_new_nonlinear_solution_or_infinite_inverse_claimed": true,
+  "native_sha256": "145d6e558f8348bf2b29febc8700aa43cba2a507b3ba2d7fc7da5ea1db22cd2d"
+}
