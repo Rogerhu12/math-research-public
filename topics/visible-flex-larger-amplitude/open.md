@@ -18,25 +18,13 @@
 
 79 H优于C且最终slack全正，global repair后不冒条件外部精确最优/完整KKT。最坏physical row155819仍在全A/g/H；真正native/fullBVP尚未接受。79五小原件已读；完整artifact14141611284/639331603B/ZIPc2432e48绑定既有24reader1aa4da4e和parent76bba24c1f/a1a67b9a，工作流3cd2eba4不改。完整chainQR未导出界限保留，不增加84科学gate。76reader43662815323/addendum689a88eb/receipt867d5b38的完整byte scope已付。84独立四源及[完整接线接口](notes/2026-11-15-request84-left465-only-followup-interface.md)已发表：workflowf0641240/request5511eeb7，root完整读全部源差异及接口、核55源/11shell/6inline。25-query由原唯一computations请求触发，等待实际新方向；原79 reader43665645276已success且小包保全，完整byte附记另读。
 
-### 1B. Native：71新primal逐位吻合；73已进入完整576段续解
+### 1B. Native73：实际线搜索失败与全部十档模型下降
 
-[R276完整证明](results/R276-native-affine-infinity-descent-interval.md)已直接登记：固定同一原σ的全部129248行，当前全部活跃行严格向内为存在正仿射∞下降的充要条件，首触界必须取全部非零斜率；原十档包含下降候选恰需2^-9<α*，ρ=0/等号分别处理。已有精确endpoint ε<ρ足证十档在同模型下降，但不保证实际noJ trial、guard或native通过。后继只在Actions消费原signed exact账/r/σ，不重新做J/QR或增验收门；等73实际tuple与完整原件同次读取。 [独立Actions精确消费者接口](notes/2026-11-15-native-affine-infinity-prediction-interface.md)已发布：源bd4ff360完整1045行审读，12个61/73冻结源元数据SHA核同，标准库流读全部signed账及r/σ，只做十alpha与α*新算术；不重J/factors/ODE/QR。等待73真实resultSHA/或显式partial journal，与原byte-reader共享解包另步执行，不添原科学门。
+[原native完整结论](notes/2026-11-15-actual73-noJ-primal-native-line-search-failure.md)和[完整QR/R276结论](notes/2026-11-15-actual73-complete-QR-exact-affine-infinity-and-byte-readback.md)已保存。73run43657001633/source9515d5aa有3freshwithJ/3QR/19原noJ试步；先接受1/2、1/64，iteration2十档全residual-not-decreasing、0guard。末base .000060618737006888706，后三alpha1/128、1/256、1/512标量等base；完整trial state/r未导出，不能推全部状态或分量不变。确切line-search失败在最终cutJets/J/audit之前，32/10/tol2e-9不变，两对accepted noJ与nextfreshwithJ norm逐位同。
 
-已证 [R269](results/R269-native-zero-reference-height-slope-gauge.md)、[R271](results/R271-discrete-RK-stage-gauge-covariance.md)、[R272](results/R272-native-RK-reference-and-propagation-error-split.md)、[R273](results/R273-complete-native-damped-square-root-chain.md)；完整证明已登记。R273保所有cut/stage/far、每node罚块、carry与纯常数，L2下降不保证原∞下降。实际longdouble为64有效位，不称binary128。
+reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/104检查/18源闭合；每轮576J/577因子与常数/1167f64/129248 exact行已付，未导出formedV/rho仅hash。R276独立Actions给全部30原alpha严格affine∞下降、endpoint约9.6856e-11、alpha*约2；不能把实际全拒归为该保存J方向无十档线性下降。完整未预条件gradient仍大，finite J不冒真实DF；历史ULP只it0stage11Pi75，非末it2stage10Pi76。publisher后发H冲突与原科学失败独立，原件已恢复出版。
 
-28/41/47/50/54的全部已完成原捕获和byte核不重跑；43 exact小节区分形成/传播/求解误差。54原1372方向失败，55真实十试步九guard/一内部momentum失败，没有完整norm；57在1372矩阵上的小线性缺陷不能转移原576目标，原十norm全同亦不证明trial state全同。详见检查点与各正式note。
-
-**59**在正确原576模型上接受alpha1，原norm .04177307820740199→.0001289424025918576，仍高于2e−9；全部577因子/129248exact行及selected状态字节已核。其选择状态作为61唯一真实初猜，不冒完整原生接受。
-
-**61当前实际失败而非超时/传输失败：** run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663，四轮freshwithJ/完整R273eta1 QR均返回，bridge_failure=null。原17个trial中3接受、14因residual-not-decreasing拒，0guard；最后iteration3十档全拒，freshwithJ norm7.952539043101878e−5，未到2e−9，最终endpoint J/fresh audit未完成。四轮保存矩阵上全部129248行原exact最坏约9.6856e−11，未预条件gradient仍大，不能称精确最优或保证真实DF。已保存[完整native原结论](notes/2026-11-14-actual61-current-native-loop-and-trial-failure.md)、[四个当前QR及原exact读回](notes/2026-11-14-actual61-four-current576-QR-models-and-exact-readback.md)与完整小读数；不冒2.3GB大数组已核。
-
-**69同状态实际诊断已成功：** [完整结论](notes/2026-11-14-actual69-same-state-noJ-withJ-discrepancy.md)、[完整输出字节核](notes/2026-11-14-actual69-same-state-noJ-byte-audit.json)。run43655003971/sourcee849b7f1，固定61最后完整577×224 state b34daaf8、原target/σ，只做一次原noJ，576段guard全部返回，无新J/QR/Newton试步。原noJnorm .000103579366549043与已存withJ .00007952539043101878确不同；各自完整残差重建norm逐bits同原scalar，两边最坏同stage11/Pi75/row2762。127段out/r bits不同，cut/far均同；路径差最大stage11/Pi104为6.144400021985094e−5，ordinary stage12为6.638335060581278e−7。这不是norm打印错误，也不证明全部拒步只由此造成。
-
-69完整3.434MB artifact size/SHA/CRC及10raw阵5,174,664B、全部576新out/r行SHA和最坏operand bits已核；父withJ全raw不在本地重复读取范围。新独立withJ将保持原noJ完整226状态的ordinary/cusp推进顺序，并从该次原root/RHS捕获形成新切向。71只在实际差异最大cusp11/ordinary12试验完整state及mean逐bits，无额外epsilon门；后续原32轮/十试探/2e−9/finalJ/audit不变，不能重标旧J或冒原生成功。
-
-原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
-
-[R275](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)已给出原noJ逐运算及完整mean的条件同一性证明，理想regular branch链式变分与字面浮点导数分开。71按[接口](notes/2026-11-14-noJ-matched-variational-primal-identity-and-interface.md)运行43656397000/source3df227cb，实际stage11/12对照；13源pins/9shell/5inlineAST通过。71实际已成功，[正式结论](notes/2026-11-15-actual71-noJ-primal-matched-cusp-and-ordinary-stages.md)与[完整字节核](notes/2026-11-15-actual71-noJ-primal-stage-byte-audit.json)保存：两个选定段的完整226态、postport、两个mean及和逐bits同原noJ，也对应69原out/mean；新fullT/J真实产生。14raw、25步和100field记录已核；内部local-A只有hash，不冒独立payload审。没有完整native接受。73随即按[完整续解接口](notes/2026-11-15-noJ-primal-current576-native-continuation-interface.md)与[新snapshot/QR接口](notes/2026-11-15-noJ-primal-current576-adapter-and-QR-interface.md)派发：只把失败61末态作初猜，真实新flow固定f9b292c4、每轮current576 J与R273重建，原32/10/2e−9/final sensitivity/audit保持；18源pins/9shell/4inlineAST核同。73实际run43657001633/source9515d5aa/job132637631246已进入完整计算。单call32GiB保全全部原阵与因子/行账，320min计算时每2700秒真实pull/核双README；不以单段位相同或来源核添新科学门。
+末failed state f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6，delta4b4b1aaacd96910635a03f97d45957ae995c724997a0e18b66ac1d06408e294a，完整577×224 JSON比特同/负零0，仍不是成功尾锚。83固定上述原件及H/target/sigma/far，只重放原alpha1/512：原JS形成roundedstate，evaluate(false)一次，保全out/r/cut/far/norm/argmax及原root字段。精确h=trial-base不先round，用保存A分开state-add项和其余flow/tangent-model差；后者不预断唯一非线性/root/J原因。旧73源/η/原门保持，geometry/exact准备独立源码，root统一公开Actions接线；实际未来SHA仅runtime形成。[已付末轮R276原小gzip](notes/2026-11-15-actual73-r276-iteration002-original.json.gz)可直接作83绑定输入，无第二次取包。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
