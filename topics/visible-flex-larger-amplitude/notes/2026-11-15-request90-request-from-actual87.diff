@@ -1,0 +1,152 @@
+--- actual87/computations/public-small-core-resonance-request.json
++++ request90/computations/public-small-core-resonance-request.json
+@@ -1,11 +1,11 @@
+ {
+   "schema": "public-small-core-resonance-request-v1",
+   "repository": "Rogerhu12/math-research-public",
+-  "request_number": 87,
++  "request_number": 90,
+   "lanes": [
+     "smallcoreresonance"
+   ],
+-  "rationale": "Actual85 completed all eight eta=0.1 candidate directions at their first alpha=1 trial, with no rejected trial or line-search exhaustion; the original three equations remain large. Continue once from its complete original final.parameters using the identical frozen own-schema resume producer, eta=0.1, eight fresh directions and twenty original backtracks. Only the literal initial parameter triple and its complete parent identity change. Keep original gdot, unweighted merit, domain exceptions, Armijo coefficient, tolerance and complete final FD/Arb/zero-core circle. Actual85 science and artifact preservation succeeded; its later publisher HANDOFF-size exception is a separate publication failure, not a failed scientific candidate run to be repeated. The root is restoring its original files at the specified public path. This finite-budget continuation is not a root, nonzero parent, native/BVP acceptance or a guarantee of further descent.",
++  "rationale": "Actual87 completed all eight eta=0.1 directions at the first alpha=1 trial without a rejection; the first unit residual increased and the second remains large. Continue once from its genuine final.parameters with the same ec9/1691/3b9 sources, changing the one explicit algorithm parameter eta from 0.1 to 0.01. Retain eight candidate directions, twenty original backtracks, the original three equations, actual gdot, unweighted merit, domain exceptions, Armijo factor, unit/full112 thresholds and all final FD/Arb/circle checks. The complete parent parameters are an initial guess only; fresh models are evaluated in Actions. This is not a same-matrix causal comparison, a claimed root, a nonzero parent or a guarantee that smaller eta descends. The separate saved85 diagnostic is not a prerequisite or acceptance gate for this candidate.",
+   "scientific_entry": "geometry_20261115_small_core_damped_resume.py",
+   "scientific_source_unchanged": true,
+   "inputs": {
+@@ -111,9 +111,9 @@
+   },
+   "diagnostic": {
+     "parameters": [
+-      0.06389479553738595,
+-      -0.012958081345244933,
+-      -0.11220747933971734
++      0.057323451817869575,
++      0.002679377797021207,
++      -0.11058649307511116
+     ],
+     "backtracks": 20,
+     "candidate_resonance_tolerance": 1e-08,
+@@ -125,7 +125,7 @@
+     "physical_angle_grid": 2048,
+     "material_and_boundary_angles": 4096,
+     "original_RHS_workers": 1,
+-    "damping": "0.1",
++    "damping": "0.01",
+     "candidate_steps": 8
+   },
+   "job_timeout_minutes": 60,
+@@ -150,25 +150,29 @@
+     "previous_actual_candidate_is_not_a_nonzero_parent": true,
+     "original_candidate_merit_and_domain_rules_unchanged": true,
+     "independent_column_scaled_LM_candidate_search_requested": true,
+-    "explicit_positive_damping_cli_text": "0.1",
++    "explicit_positive_damping_cli_text": "0.01",
+     "original_three_equation_and_jacobian_functions_reused": true,
+     "original_candidate_directional_derivative_computed": true,
+     "new_direction_rank_or_L2_is_not_an_extra_acceptance_gate": true,
+     "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
+     "design_parameter_search_not_claimed_one_fixed_metric": true,
+     "original_three_equation_residual_not_augmented_by_penalty": true,
+-    "original_twenty_backtrack_budget_unchanged_from_actual85": true,
+-    "original_eight_candidate_iteration_budget_unchanged_from_actual85": true,
++    "original_twenty_backtrack_budget_unchanged_from_actual87": true,
++    "original_eight_candidate_iteration_budget_unchanged_from_actual87": true,
+     "only_literal_parent_final_parameters_reused": true,
+     "parent_J_or_merit_or_state_reused": false,
+     "frozen1691_direction_function_imported_unchanged": true,
+     "explicit_real_parent_file_SHA256_required": true,
+     "same_resume_schema_preserved": true,
+-    "same_positive_damping_as_immediate_actual85_parent": true,
+-    "same_frozen_resume_source_as_immediate_actual85_parent": true,
+-    "all_previous_accepted_full_steps_do_not_guarantee_next_descent": true
+-  },
+-  "source_pin_scope": "Retain exactly all70 actual85 source pins, including the same ec9a56fd resume producer, frozen1691 direction engine and3b9 model/checks. Runtime and original78 public source restoration are unchanged. This own-schema continuation reuses only the complete actual85 status final.parameters; all numerical model/derivative evaluations are fresh.",
++    "same_positive_damping_as_immediate_actual87_parent": false,
++    "same_frozen_resume_source_as_immediate_actual87_parent": true,
++    "all_previous_accepted_full_steps_do_not_guarantee_next_descent": true,
++    "one_explicit_algorithm_parameter_changed": "damping_cli_text: 0.1 -> 0.01",
++    "same_nonlinear_equations_and_original_acceptance_checks": true,
++    "future_nonlinear_descent_from_smaller_damping_guaranteed": false,
++    "separate_saved_model_diagnostic_is_a_new_candidate_gate": false
++  },
++  "source_pin_scope": "Retain exactly all70 actual87 source pins, including the same ec9a56fd resume producer, frozen1691 direction engine and3b9 model/checks. Only the explicit positive damping argument changes from the parent0.1 to0.01. The original source already accepts a new positive damping argument with its own-schema parent; the parent damping stays in provenance and is not relabelled. Four original inputs, runtime and public78 restoration remain unchanged. Only the literal original final.parameters are reused.",
+   "proofs": [
+     {
+       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
+@@ -187,28 +191,28 @@
+       "sha256": "439616d4594f767e7dae986e29fc856673b1833ba495a5aa01e2c935979c916f"
+     }
+   ],
+-  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb bytes. Keep the same resume schema and status filename, ordinary pull/rebase/README checks, original complete artifact, bounded publication and failure preservation. The root restores the eleven original actual85 files and makes the HANDOFF concise; this draft does not change publisher code, its size bound or any scientific check.",
+-  "requested_at": "2026-11-15T02:37:39.327944+00:00",
++  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb bytes, the same resume schema/status filename, ordinary pull/rebase/README checks, complete artifact, bounded publication and failure preservation. Actual87 publisher succeeded; no publisher source or size bound changes and no repeat of completed science for publication.",
++  "requested_at": "2026-11-15T02:53:32.352688+00:00",
+   "prior_candidate": {
+-    "run_id": 43667636063,
+-    "source_commit": "c9daab1a9f7b1330c6099450bd018bfab9026b0d",
+-    "job_id": 132670464205,
+-    "artifact_id": 14143056682,
+-    "artifact_bytes": 268505,
+-    "artifact_zip_sha256": "708ce51fb634552d376013d05b57e4f42cdc07d699e25753a2af0a2ea36e5775",
++    "run_id": 43669359806,
++    "source_commit": "3c7c5eeffb4e234b92d15656378685ea434d91b8",
++    "job_id": 132675725853,
++    "artifact_id": 14142618899,
++    "artifact_bytes": 268956,
++    "artifact_zip_sha256": "252a1f9c535001d755cd7572bfdbb8708043a179664909bb3b2c5480d453eff4",
+     "original_status": {
+-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+-      "bytes": 54251,
+-      "sha256": "72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a"
++      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43669359806-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
++      "bytes": 54279,
++      "sha256": "e805446d14713957dd67e715d9d28193c14c20002e00b0a1ace2e4ac1c03dd80"
+     },
+     "original_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
+     "producer_source_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+     "direction_engine_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+     "parameters_from_original_status_field": "final.parameters",
+     "parameters": [
+-      0.06389479553738595,
+-      -0.012958081345244933,
+-      -0.11220747933971734
++      0.057323451817869575,
++      0.002679377797021207,
++      -0.11058649307511116
+     ],
+     "diagnostic_completed": true,
+     "scientific_candidate_success": false,
+@@ -220,7 +224,8 @@
+     "previous_trial_rejections": 0,
+     "previous_search_completed_requested_eight_iterations": true,
+     "previous_damping_cli_text": "0.1",
+-    "new_explicit_damping_cli_text": "0.1",
++    "new_explicit_damping_cli_text": "0.01",
++    "same_positive_damping_as_parent": false,
+     "previous_and_current_backtrack_budget": 20,
+     "previous_and_current_candidate_iteration_budget": 8,
+     "last_permitted_trial_alpha": "2^-19",
+@@ -234,12 +239,7 @@
+     "scientific_step_conclusion": "success",
+     "original_readback_step_conclusion": "success",
+     "original_artifact_step_conclusion": "success",
+-    "publisher_step_conclusion": "failure",
+-    "publisher_error": "RuntimeError: Preserve a unique rule-read line and the original HANDOFF size bound",
+-    "publisher_error_UTC": "2026-11-15T02:25:09Z",
+-    "publisher_failure_does_not_change_original_scientific_status": true,
+-    "original_files_restoration_owned_by_root": true,
+-    "original_scientific_run_is_not_repeated_for_publication": true
++    "publisher_step_conclusion": "success"
+   },
+   "imported_original_model_source_unchanged": true,
+   "output_status": "damped-resume-status.json",
+@@ -250,7 +250,7 @@
+     "scaled_matrix": "A = J D^-1; no row reweighting",
+     "augmented_least_squares": "[A; eta I_3] z approximately equals [-r; 0]",
+     "recovered_direction": "d = D^-1 z",
+-    "damping_cli_text": "0.1",
++    "damping_cli_text": "0.01",
+     "damping_units": "Dimensionless coefficient relative to the column-normalized model",
+     "original_merit_directional_derivative": "r dot (J d), computed from the actual recovered direction",
+     "rank_and_singular_values_are_diagnostics_only": true,

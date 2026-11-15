@@ -1,0 +1,52 @@
+[
+  {
+    "old": "topics/visible-flex-larger-amplitude/notes/public-actions-43667636063-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+    "new": "topics/visible-flex-larger-amplitude/notes/public-actions-43669359806-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
+    "occurrences": 2
+  },
+  {
+    "old": "actual85",
+    "new": "actual87",
+    "occurrences": 10
+  },
+  {
+    "old": "with the same eta0.1 and fresh eight-step budget",
+    "new": "with explicit eta0.01 and the original eight-step budget",
+    "occurrences": 1
+  },
+  {
+    "old": "request.get('request_number')!=87",
+    "new": "request.get('request_number')!=90",
+    "occurrences": 1
+  },
+  {
+    "old": "Use the one explicit own-schema damped-resume R259 request87",
+    "new": "Use the explicit eta0.01 own-schema damped-resume R259 request90",
+    "occurrences": 1
+  },
+  {
+    "old": "expected={'parameters': [0.06389479553738595, -0.012958081345244933, -0.11220747933971734], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8}",
+    "new": "expected={'parameters': [0.057323451817869575, 0.002679377797021207, -0.11058649307511116], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.01', 'candidate_steps': 8}",
+    "occurrences": 1
+  },
+  {
+    "old": "Retain the actual87 final parameters, same eta=0.1, and original eight-step/twenty-backtrack budget",
+    "new": "Use actual87 final parameters and explicit eta=0.01; retain the original eight-step/twenty-backtrack budget",
+    "occurrences": 1
+  },
+  {
+    "old": "54251, '72397df159924d54bfcf7892b0f22d0a6b9e796238b5d29f8802e22120fb1a0a'",
+    "new": "54279, 'e805446d14713957dd67e715d9d28193c14c20002e00b0a1ace2e4ac1c03dd80'",
+    "occurrences": 1
+  },
+  {
+    "old": "request87-input-and-source-identity.json",
+    "new": "request90-input-and-source-identity.json",
+    "occurrences": 1
+  },
+  {
+    "old": "Continue the actual87 candidate with unchanged eta0.1 original merit and final diagnostics",
+    "new": "Continue the actual87 candidate with explicit eta0.01 and unchanged original merit and final diagnostics",
+    "occurrences": 1
+  }
+]
