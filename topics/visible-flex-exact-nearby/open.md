@@ -110,11 +110,7 @@ transport/Taylor/profile/moment/源行只恢复。
 [D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
 及actual43703879926/1已锁定：child0/12门、27pins、96分母/16比率/4组合，旧数学0。
 κ5/3准确付两个J窗，完整21first+10mean、外CJ/meanfactor及真实dr/root包络保。
-[P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)
-及actual43709396175/1已锁：child0/13门、17pins，q1<.483791321412289；
-旧first<1.77209203e16/pair<1.77209211e16仅旧时点，上界现被下列B收紧。
-原P首/第三0child、第二1child临时结果丢失后按授权重做，完整失败链/域/门见原报告；
-更多旧D/P细账逐字保于0453ca70f6af06098055286cf175992400faed97同页，旧成功不重算。
+[P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)及actual43709396175/1 child0/13门锁；完整源/17pin/失败失temp恢复/全部旧界保d6c1f5ba51ed63cd65ae877c46513886958e1362同open及原报告，成功不重算。新完整界已由下列B/G替代。
 
 [B正预算分离](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)与[actual43711480764/1](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)成功锁：child0/19门，q1<.004848651663，仅raw1收紧；其余20first/10mean逐字P。完整RT/正预算/六jet/finite与tail/真实dr-root-mean域、失败链和数值逐字保47dd93ace95c65d9858743f658244dfd6a2c9320同路径本段及原文，旧成功不重算。
 最新完整ledger由下面G消费；L2的q2=1没有新增改善，不能另造合并数学。volume upper不是算子下界或strong-return常数。
@@ -145,6 +141,9 @@ density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp
 保完整两列/两sign、n^-7/6、κ/dr和独立F2，不微分F2；Σmode sup在积分前。
 root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转授完整非径向首阶耦合、
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
+
+[N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)补原E6/E12的普通H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer。
+六固定cut用r_+−R保真ρ≤R；新scalar仅读1328旧norm/forcing及3 intrinsic原part，付n_gT与τ1/τ2后才授97局部inverse。完整root/真jump/positive两端/waist/return仍独立；失败局部门只留unnormalized完整界，不冒奇异。尚未actual执行。
 
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；

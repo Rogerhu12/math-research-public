@@ -173,3 +173,7 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:51:38 UTC — 首次finite193反馈合同加入已成CS标量
 
 两README在26656ec4087ea1f09fd2b7fb7bdc4f3819eaf99f亲核未变。root逐字核原合同16c0badd/9775B为新29a24167/14496B完整前缀；新增§7消费cut process82b7c376和结论5d74a0f2的9门，六物理幅度仅乘d一次、true mean/shape/连续repair保。CS10–29逐式对回，108与65536分费，epsilon与cap乘子分别是两个完整候选上界的min，非矩阵entry拼接。两κ与原F7–13三门/四loads未改。待最终Green两小件后才冻结共5原小输入及manifest/flow；没有运行反馈或伪造最终Green。H中旧S细账仅引用本次前26656ec4同路径，全部原条件保留。
+
+## 2026-11-15 12:52:50 UTC — 负侧源到strict density的完整类型接口
+
+两README在0e5b86c95570615f8c0bd116d0f9553af563e3e6亲核未变。root全文亲读N合同与原S a223a263/2010d9a1、E948ee3ba/60ceb9c9；N9–12两有序offdiag与5项、两norm门、primitive √17/4及真实mean、完整普通源H−2/3窗口、r_c=r_+−R几何均已核。新合同4d44bbe7082d4ee967ebf9d02284b3510624624ab98adb087b8d0499eb030376/13892B只另去两处文字backtick转义，数学无改。新consumer只能读取旧6 Cauchy常数/1328norm-forcing/3旧intrinsic part，再付新cut正scalar；各失败充分门保原而不冒奇异。尚无actual6cut结果、fullGH或core存在结论。H中帽旧详账和open的P详账仅引用本次前d6c1f5ba同路径，未删义务/未授权重算。
