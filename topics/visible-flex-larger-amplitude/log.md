@@ -393,3 +393,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 19:49:56 UTC /root — 182原160必要科学投影一次读回入口
 
 四件全文与全部实际差异已读：大树审计撤出必要门，原direct报告首选，全部trial/四状态/原未访保，原key-set索引区分缺键/null。d9d694e2/16d9acae/d5986eb3立即发；1200s纯metadata、单90KB，root唯一读新终态。open完整前态入检查点、只压已结事实/重复来源、§4–6逐字保；最近真pulle7ffda2427de91de56224eaf6e923fdc3f3d0791双README未变，发布前再pull。
+
+
+## 2026-11-15 19:57:11 UTC /root — R388原160完整日志扫描与摘要超限
+
+182原日志与3277B原fallback完整核即单独推；扫描EOF/0协议错与必要92966B超90KB分责，原trial/四状态未返，不凭事件数猜数值。实际exit70/cleanup skip，geometry优先修r2重复metadata；H回填179终止及184全实角接线。真实pull已读978e9e2bdaf7fd29ae005975bcc35183c4d0adb2，双README未变，发布前再pull。

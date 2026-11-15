@@ -357,3 +357,6 @@
 
 
 - [R384. 实际180完整准确coast域与唯一选中九参数](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)（实际精确有理/区间域证明）：43753422569/source636bbc3060，β1/16为声明18档首个完整419片域通过者；前四档各严格speed反证、固定418全过、选中coast5nodes3叶全过。全C根族保，九有理参数均准确binary64可表；原64284B必要齐，旧C未重算、4.607932s、条件清理已完成。真实新recipe/definition可按源再生供184；新numeric/BVP/native/metric/闭场尚未付。
+
+
+- [R388. 实际182原160日志完整但必要摘要超限](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)（纯元数据实际诊断）：43754644599/ee516d47，原日志3234095B/3513行完整、协议0错/内部reader0；92966B必要正文超90KB，最终70仅返3277B fallback，四组件/逐trial数值仍未付。未将事件计数冒科学成功；清理skip、无跨jobraw，r2只去重复元数据继续，原R359/native责任保。
