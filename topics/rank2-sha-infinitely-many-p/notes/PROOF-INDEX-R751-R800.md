@@ -9,3 +9,5 @@
 - [R751](../results/R751-second-dyadic-character-point-fields-and-inertia-extraction.md)：已证明第二dyadic线是type3，完整2/3/17向量、原degree34/half-character、正权平方及合法χ(ζ)=ζ4的负一实际点公式齐付；其点域在2/17/p分歧，映同E1后与原Dk的17角色相同而2惯性不同。有限point-I_p平均准确杀全第二线及非平凡χ，留原两untwisted值；实际完整gate分解由R752另付，未添中央零。
 
 - [R752](../results/R752-native-mod-p-two-source-closure-and-point-inertia-extraction.md)：已证明原深门全Y正交使第一因子仅需degree34p，完整τ块由Dk与type3第二线给唯一模p函数；伙伴深度及相位全保。primitive去Yunit后整源为C Dk，实际正六矩读C并由原过滤式得有限窗口至少一C非零。规范étale theta平均精确读加性零系数，点惯性平凡部为p c0/(p−1)，原全部补域/λγ与中央缺口保留。
+
+- [R754](../results/R754-original-finite-inertia-shares-and-etale-source-trace.md)：已证明原完整五伙伴的Künneth分解与规范étale平均在混合门上读零Y频率；Zunit的两个不同非零根给真实G/W/V平凡点份额(p−3)/(p−1)、1/(p−1)、1/(p−1)。原λHW、γλHV、全部深门/相位/质量保，原过滤后三份各非零且准确加回primitive；全外部仍相反，未添中央约束。

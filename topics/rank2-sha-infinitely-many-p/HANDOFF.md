@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：2d1ef155cc6f03b78848632f85deccd160fa1fb8；2026-11-15 12:15:20 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:15:19 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
+- 最近已读规则提交：7fafb2b36ffc5a6276f282a01359aa6cc5e4426d；2026-11-15 12:19:23 UTC核两README无变。实际CI pull 2026-11-15 11:55:55 UTC/6f11ac329c5754fc2d4397ae74665b49367821dd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:19:22 UTC仍无环境。最迟2026-11-15 12:40 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；API仅小文本追加，拒推立即尝试pull --rebase并接fresh head循环。CI实际pull与本地失败分记。11:55:55 run43711278156/job132803152030，回执ci/rule-pull-20261115T115555.json；27,211,719B/1964文件无超限，旧3真实输入块保；下次实际pull最迟12:40。
@@ -13,8 +13,8 @@
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r752.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–753；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747/R752，续原中央独立关系；literature已付R748/R751，续R754原三区域平均；deep已付R750完整WD值左核，续实际ξ配对/同R。root已付R749/R753，续原中央桥。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r752.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。theta已付R747/R752，续原中央独立关系；literature已付R748/R751/R754，续原type0中央算术值空间；deep已付R750完整WD值左核，续实际ξ配对/同R。root已付R749/R753，续原中央桥。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
 ## 普通：原有限门与中央缺口
@@ -30,6 +30,8 @@ R746/R748两Dk全部χ|μ6=1：ρ=χΓk只p分歧；精确Katz=34c_kθ11Ωχ34^-
 R751第二dyadic t_+为type3、同τk/正权ψ_(6−k)，degree34/全half-character/坏处齐付；r_k按真实首非零定义。仅χ(ζ)=ζ4存活；点ρ在2/17/p分歧，映E1后17角色同Dk、2不同。点式A_+²=εχ34 θ^(−j−2r_k−2)/(34c_+)。R749全pointtensor log单射，有限point-I_p平均消全plus与minus非平凡χ，留ΣhatΦ−k(1)ΩIk1；四族非零值独立，不假设混合域直积。自然trace与point-only不同，Q2⊗t²反例保。
 
 R752全实际深B门/Z,Eunit/伙伴都Y⊥，只有Y/W/V浅门产生E[𝔭]；第一因子只需34p覆盖，伙伴仍全深。τk块真二维Dk/P+k，2p个canonical translates独立；每个native源唯一Φ−νD+Φ+νP，Φ±modp、Φ±(0)=0、角0/4。去掉Yunit的primitive整源准确Ck,a,ℓDk，C=(120Ω6)^−1∫Y5ZEaφa 1_Z,Eunit Δℓ dμk。R742约共同非零Ik给精确代数过滤式，逐p/k/r窗口至少一个C非零，非逐条断言。共同覆盖的原étale theta平均/下降准确取s0系数c0，point平凡系数p c0,−/(p−1)；不能删p因子，原λ/γλ全保。
+
+R754全五伙伴Künneth分解先保Λ±，étale平均在全部mixed gate上准确读zero-Y Fourier。Zunit两根−Z/bY、αZ/dY不同且非零，trace四系数((p−1)/p,(p−3)/p,1/p,1/p)C；point平凡部(P,G,λHW,γλHV)比例(1,(p−3)/(p−1),1/(p−1),1/(p−1))。原过滤后三份各有同Rk非零份额，和恰补primitive；原全部外部仍反号。续真正中央独立关系，非删除一个补支。
 
 R753 point-only投影在Cp数值拓扑不连续；原Q2/Q4、固定数域有界系数已有反例。实际有限point载体/逐系数代数极限才可交换，R742先有限来源极限合法。原O_i整log有无限负j矩；有限谱与无条件非零没有给中央附加零。
 
