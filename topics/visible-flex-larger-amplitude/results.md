@@ -68,3 +68,5 @@
 - [R291. actual129八个九控制批次全部真实读回](results/R291-actual129-eight-nine-control-batches.md)（数值证据）：公开run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173，64接受/171trial/107外拒绝；fresh W11.126800189953256→6.426170559507028而全部根/full112/native/final仍false。20接受inner tol=false、后5批无域异常且首接受1/32，原完整FD/Arb/453圆责任及8primary/64groups/8view/8stdout逐字身份已结清。真第8末九p为131起点，完整表、例外、全部SHA和残留义务在正文。
 
 - [131：actual129真实第8末九p接原八批](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)：recipe28acc474/request98d97b5a/workflow86551b13，R291参数仅为新初猜；原全部科学source/84+2/own26及8批资源和读回合同保持，实际字段未预填。128独立正λ完整H路径仍执行。
+
+- [九冻结450：全九连续scalar和同场模型C metric适配](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)：0c4353d1/4b13425a独立认69bb新guard，原0865全部九nested项、675完整六jet与材料角混合、a601四Loewner/全DFS/两帽0全部保留。实际9aa0查询与自然Rout严格绑定，不将旧finite改名连续g；live来源声明不认证现场，全局C²/atlas/标准4未预付，无实际场或数值证书。

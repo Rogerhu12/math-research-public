@@ -82,6 +82,8 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 ### 4B. 连续原g与完整相对算子误差
 
+[九冻结450连续scalar/同场metric独立适配](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)现已发布0c4353d1/4b13425a：只认真5e95/92cf v2场与69bb七元组新guard，完整0865九nested实表达、全部支撑字词与finite求和合同，675全部physical/core/mean/FFT六jet及材料混合项、a601四Loewner和全闭格/DFS保持；两帽独立新binder保原完整图和target误差0，不伪装ac635旧guard。尾E只消费9aa0真实闭query，模型C额外选择与自然Rout/当前cut完整包含责任明确，合法coarse界不因work_resolution=false另设门。当前没有实际450/metric，live sidecar的自报origin/SHA不证现场；全局C²、目标atlas、历史浮点误差及原标准4仍未付。源/完整数学接口已读，无fixture或本地science；后续直接处理同场C²接合结构。
+
 [完整metric消费者](notes/2026-11-15-same-shared-field-relative-metric-interface.md)a601e5b5保同一shared-B六jet、完整Gram、四Loewner、prefix/两tail/collar全闭覆盖；固定帽原target为0，不能改用B′或采样当原目标。旧v3/v4之外的新六/九scalar需显式适配，保全部shape。默认stored连续E尚未付，外部E界只能条件读取；C² seam及原g atlas仍需真证明。
 
 [R285完整有限selector证明](results/R285-original-finite-selector-closed-cover.md)和65a29ec6源已付：真实original first-match/开闭端点/48层比较树完整覆盖，原源码flat分支可整片付，保未决栈及后缀，不假设单调或准确逆。原有限比较延拓取有限值，非恒定时不连续；因此该结果不能充当原连续g或a601证书，没有实际E/run。

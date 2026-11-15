@@ -319,3 +319,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request131从实际129末九p继续
 
 [完整入口](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)与三件参数/request/workflow已发布，root已读全部来源、原数字文字、完整差异与接口。recipe28acc474/request98d97b5a/workflow86551b13只改真正129最后成功批的九p及请求身份；原b15a/0865/824c/f57a、84+2/own26、原8×8/.1reset/3600s批间和全部FD/Arb/圆/final门不变。R291刚经实际pull/rebase后NFF立即再rebase推送成功为3e70c9af57f16593608979453c6a4dc21c45dd8d；双README未变。132实际run43702946191/source185e4f3e/job132777819446，10:12:29起所有恢复准备通过、step9科学执行；H压缩旧120/127重复数值，完整正文与open保留，无本地科学。
+
+### 2026-11-15 九450全九scalar与同场连续metric适配
+
+[完整接口](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)与16807B/0c4353d1、44796B/4b13425a已逐全文及最终来源diff读取并发布；root交叉读取旧a601四Loewner/全闭格和帽target消费者、旧a3 binder，确认新69bb守卫单独接线而原数学式不改。独立source绑定真实完整九scalar、675六jet与混合材料拉回、9aa0实际modelC闭query/自然Rout，全部未付范围保留。仅供给JSON自报live origin/签名不提升现场验证，实际冻结92cf尚未调用live导出；source-only范围保持，未跑本地科学或加fixture。官方0.9文档callback/analytic sqrt/dyadic端点另经root读取。131实际八批已完整原输出/hash读回，run43703108343/source2d211e0d4、两jobs success，R292随后发布、134从真末p准备。
