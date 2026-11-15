@@ -48,7 +48,11 @@
 
 **61当前实际失败而非超时/传输失败：** run43645948199/sourcecf6b51193255dfc713610d2919598451ccdd49e2/job132603626663，四轮freshwithJ/完整R273eta1 QR均返回，bridge_failure=null。原17个trial中3接受、14因residual-not-decreasing拒，0guard；最后iteration3十档全拒，freshwithJ norm7.952539043101878e−5，未到2e−9，最终endpoint J/fresh audit未完成。四轮保存矩阵上全部129248行原exact最坏约9.6856e−11，未预条件gradient仍大，不能称精确最优或保证真实DF。已保存[完整native原结论](notes/2026-11-14-actual61-current-native-loop-and-trial-failure.md)、[四个当前QR及原exact读回](notes/2026-11-14-actual61-four-current576-QR-models-and-exact-readback.md)与完整小读数；不冒2.3GB大数组已核。
 
-实际还出现同一保存state上上一轮noJ和下一轮freshwithJ残差不一致，不能直接归因η或盲换阻尼。已按[69完整接口](notes/2026-11-14-current576-same-state-noJ-probe-interface.md)和[工作流/选择取件合同](notes/2026-11-14-request69-workflow-and-selected-transport-handoff.md)派发最小诊断：固定61最后state，同原配置只做一次原noJ，逐stage与已经保存的withJ r对照，读清路径/缓存/缓冲；不重四轮QR，不削原32轮/十trial/guard/容差。原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
+**69同状态实际诊断已成功：** [完整结论](notes/2026-11-14-actual69-same-state-noJ-withJ-discrepancy.md)、[完整输出字节核](notes/2026-11-14-actual69-same-state-noJ-byte-audit.json)。run43655003971/sourcee849b7f1，固定61最后完整577×224 state b34daaf8、原target/σ，只做一次原noJ，576段guard全部返回，无新J/QR/Newton试步。原noJnorm .000103579366549043与已存withJ .00007952539043101878确不同；各自完整残差重建norm逐bits同原scalar，两边最坏同stage11/Pi75/row2762。127段out/r bits不同，cut/far均同；路径差最大stage11/Pi104为6.144400021985094e−5，ordinary stage12为6.638335060581278e−7。这不是norm打印错误，也不证明全部拒步只由此造成。
+
+69完整3.434MB artifact size/SHA/CRC及10raw阵5,174,664B、全部576新out/r行SHA和最坏operand bits已核；父withJ全raw不在本地重复读取范围。新独立withJ将保持原noJ完整226状态的ordinary/cusp推进顺序，并从该次原root/RHS捕获形成新切向。71只在实际差异最大cusp11/ordinary12试验完整state及mean逐bits，无额外epsilon门；后续原32轮/十试探/2e−9/finalJ/audit不变，不能重标旧J或冒原生成功。
+
+原2.335870174GB artifact14136633570/ZIP7b17d1b0已绑定真实完整tuple派发本仓Actions专用reader读取（16GiB原字节资源预算）；原结果先保，完整导出字节核不改科学结论、不增验收门。实际reader43654012687已经成功，7121文件及4轮完整快照/QR/原整数行账均通过；[完整字节附记](notes/2026-11-14-actual61-complete-current-snapshot-and-QR-byte-audit-addendum.md)已保存：每轮10快照阵/583chunks、576J、1168QR阵、577因子及129248整数行全部核同；未导出V/rho只保原身份，不冒重算。native仍false。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
