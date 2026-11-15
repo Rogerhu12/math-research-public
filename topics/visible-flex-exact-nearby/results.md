@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SC第二次实际首行构造器失败与完整保存范围](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)：43753164994/1，六输入门及五legacy检查全过；首row的空tuple→acb_poly接口失败，完成row/group/model为0，部分未保存新算术准确登记。原科学收据及两个出版前小payload逐字SHA独核，旧数学0重算；最小序列构造修复待另推。
+
 - **TC 真实两branch密度坐标和完整有限共轭已解析闭合。** [全文](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5：真实Φσ、完整density正逆/独立mean，H2插值到两base窗；primitive严格双chart带两rank、真dualH4/3。TN强/finite按B0A−有序转移，原有限投影只成真共轭span；RR不二乘K0、只付实际发生的左坐标。root/peer独核原G/S/IN算法及全式，新scalar另跑，完整incoming/R0未授。
 
 - **TN 实际同严格切面的两窗共同逆与完整强余项已成。** [完整实际证明](results/R133-supplement-actual-strict-cut-two-window-normalizers-and-complete-strong-remainders.md)65432488：43752771157/1 child0/16、17pins/5AST；root精确SCIc815e901/preGit541a4d03与67球，RR两完整对象原字同。97充分门失败后实际选同J268435456；L2/H−4/3逆约1.001672388/1.033996480，完整R_N/F_S及四physical列/同case总成。全部finite/HL-LH/mean保留，真phase/incoming/finiteSchur/fullR0独立；成功不重。

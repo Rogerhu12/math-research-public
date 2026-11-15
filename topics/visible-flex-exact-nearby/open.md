@@ -102,7 +102,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
 
-[SC首实际schema失败与保存范围](results/R133-supplement-actual-signed-cap-input-schema-failure-and-preserved-evidence.md)62bdfc64：唯一43752221411/1 child1，前5门过、第6门错用旧body finish顶层object hash。原summaryca141112中它为literal null；原plan93e9、source6b3a、processd289及finish native4e505e提供准确同对象链，不能简单放掉门。root已读完整三小件/90275B日志并原字复原SCI2e152b08/preGit9efcfe20/process6a1b95d0；32Git/8AST/36原archive全通过恢复。checked_inputs在body_run前失败，新group/model0、无已成新结论丢失；不撤销任何旧数学。SCIbd148b48/manifest5113a116/flowb2f8d3fd本次自然部署；五legacy子项及原plan OBJECT全保，root/peer核。23小pin451176B；helper/reader/worker及body_run后数学原字不变，实际97目标待唯一新run。
+[SC首schema失败](results/R133-supplement-actual-signed-cap-input-schema-failure-and-preserved-evidence.md)62bdfc64/43752221411/1保；旧finish literal null必须以plan/process/native/summary完整五链验证，原32Git/8AST/36archive成功恢复与所有identity逐字保ff74cff20107e7ca935874284006ef13e09fa7f7同open/H及proof。修后[第二次实际首行构造器失败](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)f98d1f32：43753164994/1 child1，6门全过、五legacy true，Laurent默认tuple传acb_poly触发TypeError。SCI9116/635bf74b、exec37061/5fe9d943、preGit15047/2e549cfe与34458/16eaea43 root原小payload独核；大104306B日志不重取。首row部分jet/算术已开始但未保存，完成row/group/prefix/model均0；已成六门和失败完整保存，旧数学重算0。只补未完成新目标，最小list构造修复尚待部署；不授97 affine或core。
 
 ## 5. 新94链、真实B collar和实际body种子
 
@@ -150,6 +150,6 @@ $||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z
 全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
 最新[三份旧step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588：普通删除1221901B；原producer/对象/root/H/精确证书/active inputs及全部反射/插值失败保。恢复8870549d52e48343cb43a979a13f9368cb992736同path/Gitblob/bytes/SHA，成功诊断禁重。没有history rewrite。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机18:44:44定时CLI仍无executor，下一定时真CLI≤19:44；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机19:39:05定时CLI仍无executor，下一定时真CLI≤20:39；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
