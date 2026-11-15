@@ -425,3 +425,7 @@
 - **原惰性Gaussian分支的精确剩余源（已证明接口）**：[harmonic7路线记录](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)。p11mod12的原频率是a²b(a⁴+b⁴)/(a²+b²)；五阶多项式与H7/(32(a²+b²))的准确分解、五个Qpoly条目及P0消失已逐式核。剩余是原level6 harmonic theta的一次q原函数，不是通常权8七重Eichler积分；余项不能擅称水平。原指定CM FG条目的独立代数评价/单位性仍开，不从输入theta非零外推同标签结论。SHA fc343d27f4da8c2a1bd77d2bd3b9227701426fca62402d57333bd72e9ae14b99。
 
 - **R814（已证明）**：[原导子约化cusp零理想与准确降重数](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。C=im[Γ,Mg]的整体完成乘积/分歧积分证明；N(I)=im[H,ΓH+MgH′]准确给完整理想，整理想商P=(N:_R C)降每个正重数一，sqrtI=(I:_R P)。本题c≤1与m=0分支显式保留，第二图改δσ=tδτ并含−t²Mgσdiag eps。六原E首层后无cusp，后层可省C商；保持原三重数/Norm⁹/主函数常数。无需ambient场迹全表，仍待真实Γ/极理想输出。SHA 6ecbcab0910b6a495d0bab705c69420600aad52b0aba63cc41766d6a2a619b84。
+
+- **原末项的全SS同权恒等障碍（已证明）**：[笔记](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)。两原末项权p−11且p整；Δ乘其Fp常系数组合不能在全部SS等于非零常数倍DA。简单Hasse零/权2商不存在与Tate常数1/12给矛盾；单j0专属CM congruence未排除。SHA 436a90382bc81cb734f151d061d43988f91d4cccd98d10bcf2309591744c61fc。
+
+- **R815执行契约（证明沿R813/R814，实际矩阵待计算）**：[原Wronskian乘法与正规连接](notes/R815-original-normal-derivation-operator-method.md)。复用冻结R811框架，两个原Q向量的真实scale只一次；g/h六模插值七准确终验，Γ五/六且完整非齐次式/两图修正。实际三个目标/813824有界系数位置只为存储界；不预填非零数、矩阵或极理想。method SHA49612c053825c8c8973172106e6323d6abdc6d762fb9670df9d78712ca2345d9。

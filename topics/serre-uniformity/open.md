@@ -113,6 +113,11 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **惰性Gaussian分支的准确剩余源**：[原harmonic7接口](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)。p11mod12五端项/EO投影给P7/(a²+b²)，严格分解为五阶多项式加H7/(32(a²+b²))；原低jets给五个Qpoly条目，P0均零。余项是指定level6 harmonic theta的一次q原函数，整体由原Q定义，仍有源；其本身非零不等于原CM的FG条目单位。真正原条目代数/period比较与同h primitive/Legendre仍待完成，无新有限窗。
 
+
+**原末项的全SS同权路线已排除**：[完整障碍](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)。原[z^(p−7)]xσ6与[z^(p−10)](−xyσ6)都是p整、权p−11的全层模形式；但不存在参数无关的Fp常数αβγ、γ非零使Δ(αf末+βg末)=γDA在全部SS成立。Hasse简单零给模A整除、权2商为零，Tate DA常数1/12矛盾。仅排全SS路线，原j0专属端项关系和同h目标未排除。
+
+**R815实际导子任务的执行契约已成**：[方法](notes/R815-original-normal-derivation-operator-method.md)。source-pin已审R811核心，真实覆盖R813两Q列与Γ非齐次身份；g/h六插值七终验，Γ五插值六终验，MgMw′顺序、原尺度和两图负号全保。只求三个实际需要的算子，复用同一Mw/Krylov点，不造场迹或全基乘法表；R813仍运行时不得激活pending来源。
+
 根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive已准确完成，R813两S3请求已激活，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
 
 
