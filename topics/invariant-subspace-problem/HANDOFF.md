@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 14f5b5b7171e4ccd417821c63d9efd0882333371（2026-11-15 13:49:13 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 429d7ee325a15e539a20f6607e87c1aa9d0cb009（2026-11-15 13:54:55 UTC，Actions run43721477603实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43721477603-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地13:30:51实际pull到661a7b9cc0c932ad81310e81be2016c0470bab74，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -11,7 +11,7 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-complete-zero-fourth-rank3-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-disjoint-hole-bands-and-complete-zero-fifth-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：完整参数Smith与原成员性仍开
 
@@ -27,22 +27,21 @@
 
 ## 当前临时计算：同run直接接续
 
-- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现36步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
+- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现37步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
 - 原selected-natural-u-rebuilt、first/second-left与normal4-complete130全保，旧36/130/21单位解及166残差不重。normal5保786pivot后的slot1 72.6MB/179b3645…、全部H4/DAG，余501列；真实目录selected-natural-second-left-normal-five-high-elimination。
-- step36高profile 831fee03…已全文审排60秒/2GiB：复用原H45，模31单位下界与29真源的严格高支撑交给Q上界，只有相等才闭秩；同核17取4真商代表并核原4354行。保全部2772列高齐次，不预设rank1736/新906，不重786pivot。接口含完整4318规范的源级证明。
+- step36实3.263139137秒，原H45 Q/F31rank1736、全高核1036、模旧130确906；K29高支撑交0，四真商索引[15,18,19,20]。third-missing-four-high-profile内profile9606B/254a5173…、four106872B/7d8ef24f…，raw3476B/46ab3953…；未构造全高核或新λ3，后续只2–4原RHS但齐次全保。
 - same-source-koszul29-second/third-pairing保29真原核及旧29×58 rank6、全部21第三头坐标。完整β3=3/21头已闭；third21-normal-four-original-consumer实际全4354余rank4/kernel17，17四层来源及296072产品全真，raw12713B/e5950239…；whole余阵65222B/7835f183…和17头组合2138B/4a27a932…保存。
 - step34 same-source-koszul29-fourth-on17-pairing实2.793442951秒，17原R4、29×75 rank7/旧6、完整原75核投影16。配对217868B/7152e005…、核79458B/2f3c764a…、raw7661B/ce50560e…。第四完整秩[3,5]、λ4未构造；known来项13/full15缺2、第三显式17/full21缺4。补k第三头后上界r_k+4−k，补2且raw仍1可闭β4=3。
-- 零六zero-sixth-rhs-columns-checkpoint binding2ab96ac8…保完整高零head核2与低582单位。零八完整最后校正给58/49、K104；零九固定头2不提高阶、不盲续第十。旧pack与全部来源已归档，只借其公共阶下界，不冒作完整高页秩。
 - step33完整零第三实14.881483296秒，β3=1/22真头，low585/zero10、544544原产品全真；zero-complete-third-full-high-checkpoint保完整23二阶及22三阶cochain，binding3610d8e3…、manifest20187B/9a50e950…、whole f43c2534…，raw55170B/88872275…。
 - step35完整零第四实13.626541771秒，β4=3/19真头，low1088×619 rank588/kernel31/zero22；587860原产品全真，13个R3来项全部同步回填λ1/2/3（含pure）。zero-complete-fourth-full-incoming-checkpoint binding8aaae786…、manifest18637B/e7a78ace…；9589×19 cochain343014B/bd083cc7…、logical01f7a4b9…；新R4_12为364956B/f2e14ebe…，27个低单位解4327899B/4e8ebd4c…；raw63661B/3c2b7546…、outer72515B/28cdc32d…。
-- 下一完整零第五只9新RHS；完整incoming保M0、M1K0、R3_13、R4_12，分别用s²T2/sT3同步回填，不回退最后Q包络。先核全部新高行，非零则保存后转完整高非齐次求解；58/49/K104及最新selected条件8585/172保持。
+- step37完整零第五已排180秒/2GiB，只9新RHS、27旧单位解复用；全W4保R3_13/R4_12，按s²T2/sT3回填，先核全部高行。通用源9bf405d3…全文审，首次前仅换独立actions17 2ebf4185…及guard≤17；旧3/4低系数SHA逐一核，旧actions不改。只逐实际页续，不跳未付阶。
 
 ## 原同w边界：完整负部仍开
 
 M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正u_Q、future、负前缀、完整零核及固定层MP自然域；不能将bare α代ordinary λ或把局部伴随界代正向返回。
 
 - [同u完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：顺次链c_j=−P_(p+j,j)u_(p+j)保头/尾旗，c_h=0；u⊥K给μ_p²=−ΣRe〈P_j u,u〉。跨cut保全部同层部分和和两端，bare比kerD^j少一出生不能删。完整正向返回(C+D_x)Rr=−P_hi T J_b r与PEhat范围保留。
-- [固定二次/慢窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)已核Q一致范围：只需某固定Q=L0h²上同u合并负部≤C_L0 Q β²，或M≤C Q²/x²且h/x有界，就足推出w=0；负部本身未证。β=||1_(Nall>4h)w||+2η||w||与Q无关。纯此路线可取R=d、h=2d、x=m+d、Q≈4L0d²；不得携带需远尾<rho的gauge。另接口需h²/Q→0时可依同w慢选L→∞，不要求尾速率。
+- [固定二次窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)可取R=d、h=2d、Q=L0h²，不携带逆芽gauge。新[跨m正交孔带](results/R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost.md)取晚cut Q/2…Q−R−h−1；真future F_m落互不交global[Q/2,Q+m]，Σ||F_m u_m||²有界。若同u合并负部≤c_m Q_m||F_m u_m||²且Σ1/c_m发散，即迫w=0；允许c_m=O(m log m)，即Q logQ loglogQ级。该负部估计本身仍开，未由条件转换证明N=M。
 - 真逆仍是G=P_E(DD*)^−1P_E，非(P_E DD*P_E)^−1。去正交primitive后，顺次和真块为G^1/2 N G^−1/2，实际输入坐标−G^1/2 C u_prev；须联合控制同Cu的负部，分别界G和创建列退回旧费用。
 - 原低孔借位6^k/强头7^k四次衰减、连续尾完整核、原T局部运输、N⊥形式读数及[同一Neumann修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)均保持原范围。G_reg输出X3、TG_reg=Π，carry X7费≤B_s e^(−40u⁴)，原形式h的Π读数已付；未假h∈H或扩大MP域。全部原参数、来源及联合bit反馈见H归档。
 - [创建泄漏无普适单权界](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)已完整排除仅靠hardcore/满射/平方可和/bmax的绝对界；不是原固定b_j=(j+1)^−2或同u预算反例。继续实际位置和层间抵消；高variance旧界的birth=n−t≈Q，不能把short height h当birth移用。

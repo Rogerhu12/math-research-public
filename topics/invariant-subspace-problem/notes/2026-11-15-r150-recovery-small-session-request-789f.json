@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "89209c5c1846c96c71db8fd6c58e50df3a5cc996",
+  "rulesReadAtCommit": "48bf2ee6ea8a8633e4121d0c497d1b8b11a27c92",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1754,6 +1754,89 @@
       ],
       "timeoutSeconds": 90,
       "receiptPath": "{work}/third-missing-four-high-profile/third-missing-four-high-profile-receipt.json"
+    },
+    {
+      "id": "zero-complete-fifth-full-incoming",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-complete-higher-full-incoming-789f.py",
+      "scriptSHA256": "9bf405d3aa65d40a8ebeb3fc87f3e8bd686814db371657abe9794f92e59099b8",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+          "sha256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+          "sha256": "b46ca6a4fc594b53687d692986229edc97ca770e21ac6332703eaf998c9e0b67"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-complete-third-reused-full-high-789f.py",
+          "sha256": "180b7f6c3a4d3c9ff560b9f9e4a590af04d00996abcba75cfeb35c1778272156"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-complete-third-reused-full-high.json",
+          "sha256": "a9c26663f6761fd68f911f6fe506410dd13efcf5ce440191f1a03c4bdcf8d7b6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-complete-fourth-full-incoming.json",
+          "sha256": "28cdc32d3c8deb1b67603b7641125ae59f22e20cdc5767238f42510479d25efa"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--reused-driver",
+        "{scripts}/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+        "--complete-third-driver",
+        "{scripts}/2026-11-15-r150-zero-complete-third-reused-full-high-789f.py",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--paid-stage",
+        "3",
+        "{scripts}/43702348535-zero-complete-third-reused-full-high.json",
+        "a9c26663f6761fd68f911f6fe506410dd13efcf5ce440191f1a03c4bdcf8d7b6",
+        "{work}/zero-complete-third-full-high-checkpoint",
+        "--paid-stage",
+        "4",
+        "{scripts}/43702348535-zero-complete-fourth-full-incoming.json",
+        "28cdc32d3c8deb1b67603b7641125ae59f22e20cdc5767238f42510479d25efa",
+        "{work}/zero-complete-fourth-full-incoming-checkpoint",
+        "--order",
+        "5",
+        "--checkpoint-dir",
+        "{work}/zero-complete-fifth-full-incoming-checkpoint",
+        "--out",
+        "{work}/zero-complete-fifth-full-incoming-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--unit-algorithm",
+        "dixon",
+        "--unit-batch-columns",
+        "1",
+        "--max-new-unit-groups",
+        "64"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/zero-complete-fifth-full-incoming-receipt.json"
     }
   ]
 }
