@@ -1,0 +1,82 @@
+name: visible-exact genuine negative reference column operators
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-genuine-negative-reference-column-operators.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-genuine-negative-reference-column-operators
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-negative-reference-column-operators-CI-inputs.json
+  PHASE_MANIFEST_SHA: aadf3e2bcf02d818e12c8950b4b4eb523345a4a63777a16d39720f98040a5e3f
+  PHASE_PIPELINE_SHA: 617bf821e9cff5847b4257e448fe8556eda63acf5c018105a2dff32ac452cf8a
+  PHASE_WORKER_SHA: b35eb73b83ab35e9fac2f92cddab3abc7e52836f7e2a02087f2d459be5d55fcb
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+  REVIEWED_RULES_SHA: f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd
+
+jobs:
+  genuine-negative-reference-column-operators:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-genuine-negative-reference-column-operators-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Check the full immutable AST closure and evaluate only the new genuine column operator budgets
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_negative_reference_column_operators_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-genuine-negative-reference-column-operators-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-genuine-negative-reference-column-operators-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.

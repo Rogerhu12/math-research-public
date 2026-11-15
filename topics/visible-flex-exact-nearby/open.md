@@ -96,7 +96,9 @@ child0/26门/math.174257719s，25pin/17history/原7background+1fold
 两个列及输出mean、三个真实circle maps、全near/far Schur均保。
 V19–24显付欠缺的wφ⁴/Bφ³⁴/VTTT真Cauchy margin，
 V25–33保四个完整operator项、五old mean及独立physical even-mean。
-该recipe的新标量消费仍待，旧S/table不重算。
+该recipe的新标量CI已部署：SCI617bf821…/manifestaadf3e2b…/
+workerb35eb73b…/flowb1190da4…，12pins271951B，原fold1/成功receipt3
+只恢复；新profiles1/operators4/缺导数1的真实结果待，旧S/table不重算。
 **当前下一接口：** 实际G15标量门与完整source消费；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
@@ -228,7 +230,7 @@ v=S_Tu、w=−R_v S_Tf没有第二截断；a1856/b6396、
 参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight、
 一个λ、ν及所有独立荷须同augmented近似右逆联立。
 body/holonomy mean收敛不等于全部外匹配。
-当前E/L/B迭代冻结最终Γ2，但沿Γ1*(u)重建设计metric；这给最终设计metric的一成员。**整个族固定metric的量词尚未闭合：** 最终Γ1冻结后，覆盖ν/flex族的完整增广逆与非线性入口必须另付。不能把Γ1随u变化的graph收敛直接写成README所需的固定metric族，也不能据此推否定结论。
+当前E/L/B迭代冻结最终Γ2，但沿Γ1*(u)重建设计metric；这给最终设计metric的一成员。**整个族固定metric的量词尚未闭合：** 原[C6–7](results/R133-supplement-complete-C0-state-and-nu-geometry-response.md)给Eν=E exp(νw)，故ν也是intrinsic设计参数。最终ν*/Γ1*/Γ2*及其它metric数据必须全部冻结；之后真正extrinsic挠曲族的完整增广逆与非线性入口必须另付。不能把Γ1随u变化的graph收敛直接写成README所需的固定metric族，也不能据此推否定结论。
 
 ## 7. 单一frame、全部匹配及最后几何
 

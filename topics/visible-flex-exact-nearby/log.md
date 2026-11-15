@@ -259,3 +259,9 @@ root亲读Green09:33 process74265245…/42080B/cd4a3f40…及14次README检查�
 README只读核bcba060691dde346d39336687a8375ecb5c21a7f无变。root全文读V1–33，手核oscillator n幂、q_t及central二导链式，newton独核V5–15与SCI数学三函数，tail亲读原seam A1–4后核V16–24。全输出mean/两列row symbol、φ无关频率分区、near/far Schur和三个真实circle maps保持；未以负侧列界冒正growing图。V19–24明确旧order3表没有wφ⁴，V25–33源/mean/physical trace完整账仍需真正消费者。最终fa639ec…20436B/SHA36fc2a7a7fc6fa6f683e2e9a7559cc81246f6e91bea2fc50a57c1ba2d9b7eb6f，只格式/四operator+五mean措辞改进，无旧数学重跑。
 
 前一I发布首推非FF时已立即CLI git pull --rebase，环境仍缺失；按规则小UTF8例外重新取main、两README和文件后第二次CAS成功1cc2b2177742a6775fb2911a9f9879bdbf564c7d，未force。继续O局部/完整D传输与实际CI。
+
+### 2026-11-15 09:39:13 UTC — G15新标量CI部署与intrinsic参数身份澄清
+
+README只读核3c9c266c5801786d509d913d25aa0b06948970a5无变。root全文读SCI417行、worker255行、7045B manifest和4389B flow；Python字符串/括号静态核通过，真AST只在public Actions。新SCI617bf821e9cff5847b4257e448fe8556eda63acf5c018105a2dff32ac452cf8a，manifestaadf3e2bcf02d818e12c8950b4b4eb523345a4a63777a16d39720f98040a5e3f，workerb35eb73b83ab35e9fac2f92cddab3abc7e52836f7e2a02087f2d459be5d55fcb；12pins271951B/9 current roles闭包，3历史input只恢复，当前V精确fa639ec。只新增1profile/4完整operator/1缺导数预算，旧target/fold/Taylor/RF/S结果0重算；全部新native临时，无artifact。触发后继续读取真实small结果，不预称成功。
+
+phase核出ν的设计身份，root亲读原C0几何14208B全文，C6–7明确Eν=E exp(νw)及曲率有限差，末段已要求最终ν固定。将T结尾/H/open的“ν/flex族”歧义改成最终ν*/Γ1*/Γ2*全冻结后的真实extrinsic族；T数学各式不改，新scope SHA89a5a6c99132008fb2c5768dedaa9e84e86622999e6d2bf3ec06a2d8dffba033。设计ν Schur仍必要，但它不是同metric挠曲方向。

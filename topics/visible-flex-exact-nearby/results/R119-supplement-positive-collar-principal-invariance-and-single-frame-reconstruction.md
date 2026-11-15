@@ -293,6 +293,10 @@ finite-Sobolev norm独自推新的全层几何极限。
 本篇只给 (T.19) 一旦成立时的准确、无新规范自由度的 frame接续。
 
 本篇也不把固定第二参数、沿 $\gamma_1^*(u)$ 的设计迭代，
-称为整个族保持同一个 metric。若最终要冻结得到的第一参数并构造
-一个完整 $\nu$/flex 族，须另付冻结该第一参数后的增广逆和
-非线性入口；现有 E/L/B 值图收敛与本 frame 接续不自动提供该结论。
+称为整个族保持同一个 metric。
+原[C.6--7](R133-supplement-complete-C0-state-and-nu-geometry-response.md)
+给 $E_\nu=E\exp(\nu w)$，所以 $\nu$ 也是 intrinsic 设计参数。
+最终须同时冻结 $\nu^*,\Gamma_1^*,\Gamma_2^*$ 和其它 metric 数据，
+再按原真正 extrinsic 参数构造完整挠曲族；
+冻结全部设计参数后的增广逆和非线性入口仍须另外支付。
+现有 E/L/B 值图收敛与本 frame 接续不自动提供该结论。
