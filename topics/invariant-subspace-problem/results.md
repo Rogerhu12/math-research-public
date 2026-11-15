@@ -421,3 +421,5 @@
 - **完整原∞有理谱恰66，第十连接恰一。** [实际原来源证明](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)给1088×601 prefix592→593、14头及952952原十一层产品；全正谱 $1^4,3,4^3,5,6,7,8,10,11$，sub55/max11、AI68、T∞长5仍只u5。十三已定指数和55及同原F31上界66迫末项11，不需第11计算。Δaff≤315、R/Rout/U≤157、Rh*≤180；外Ω度d时M≤157−d/总乘子180−d/原源费8531−d、第三328−d。完整D31及具体坐标整性另证，不由此假定旧D leading单位或Q高商26。
 
 - **原全无穷远矩阵具有真正D31 Smith，同202来源规范核已付。** [完整证明](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)用Q/F31同有序谱逐层单位Schur，得Z_(31)[[u]]上4340单位与正谱 $1^4,3,4^3,5,6,7,8,10,11$、13自由；完整右核1834自由且约化恰为完整field核。原1632 Koszul直和给同E216核202自由；实读field14方向全退出及原freeI，Nakayama证明这同一202坐标投影为单位，故准确规范整核存在。未假报新Q矩阵，也未把它扩成旧O149/高26或旧指定D leading单位。
+
+- **完整仿射公因子可首一31整，余因子没有约化逃向无穷远。** [原齐次Gauss证明](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由fullQ/F31∞同66选出u66系数为31单位的原minor，迫全齐次gcd除u66后首项单位。因此Δaff首一∈Z_(31)[s]、约化保次数并整除field315；首一R≤157且barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)及其monic因子取值31单位；Rout/Ω/M/U均31整。原来源31分母、实际R系数、Ω和九h*自身成员性仍开。

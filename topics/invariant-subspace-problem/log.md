@@ -581,3 +581,7 @@ P只读统计实付完成19/第20待约化、basis24452bits/provenance44184bits�
 ## 2026-11-15 21:06:45 UTC — 完整D31 Smith与同原202自由源核
 全Q/F31谱逐项同，实际unit-Schur选择在Z_(31)[[u]]给真Smith及1834核良好约化；原1632/E216直和与14方向全退出，Nakayama付同原202freeI正规核。
 只付存在与准确原坐标，不假报新Q数组或旧O149/高26/旧D首项；H完整前态已归档。逐pull核两README后实际push，localized DAG续同P前缀。
+
+## 2026-11-15 21:08:50 UTC — 完整仿射公因子首一31整与157次约化包络
+原齐次Gauss配fullQ/F31∞同66给Δ首一D31、约化保次数；首一R≤157，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²，R(0)/R(−6)31单位。
+同monic Rout/Ω/M/U均31整；不推旧D leading单位、degree315等号或来源31分母。实际系数/Ω仍待原行模续算，逐pull核两README后实际push。
