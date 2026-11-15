@@ -251,3 +251,13 @@ root完成纯解析证明并以blob90fb4fa875bf36d3e36cc57d787bb6f119fa5b76/1224
 全[I,Mb]三项及[Aa,Ab]四项含两个rank；I²强范数ι=17^(2/3)/16<1/2。完整W2(v)≤C由625/1024平方界；K(w_,c)≤ι(67|μ|C/4+131C²/128)，|μ|K(1,w)≤ι67|μ|C/4。μI在两个全Sob空间skew，增长只由nonmean给。Trotter三角area1/2与左右X/Y次序给指数103C/4、51C/2，原Eexp0运输53C/4；统一base强界e^(26C)[Rexp0+67|μ|C/8+131C²/512]，scalar相位e^(−iμ/(4j))正确。
 
 无独立μ²仅因新假设已含完整scalar exp。若仅旧Rlin已付，Eexp=Elin−ζUΩ(exp(McI)−Id−McI)须完整signed验证；旧norm triangle仍付scalar二阶费，CN不改。CT完整c并不授新Eexp；更高Sobolev各自需multiplier/commutator，actual有限border/physicalphase投影/两输出/mean/真ν与GH门仍待。root只读README核e99194686f73a489fb5a98ec66063bdd8f1a01e5。
+
+## 2026-11-15 16:45:22 UTC — 使用完整Green终态的同δ有限193反馈消费者部署
+
+原F1–17合同29a241671969704c5b608b7d1ddd9517e6b1a13ac357fe14f34d86561340c1a5与SCI32258B/087f3971d7dbb027464ef71a59d02e734d6e032b3c9b2d3bc600c8bfaced5288、worker37102B/beae2544ae5b01b4ec2db32a065ca9c3e6e246d000d2650673434b3bcf8f022d原字不改。新manifest14586B/8bb821e8063c749f505975ace82c107b80f073beba4078f2cc725b0b22677d57；flow4380B/eb47ca854d5bba5e3e2330d6259fe28a6c5490441e768f667c80d4775d047ada。tail再全文读523/544行，root再次核新manifest/flow、原源身份/最终输入schema和静态delimiter，13pin306775B全部亲取逐字bytes/SHA核。
+
+五科学输入精确锁：Green43711315338 process614b92b0/summarya298dd2f，D43713242980 exec6956c214，cut43715426316 process82b7c376/summary5d74a0f2。rootGreen最终全process差异/全部科学字段/14gate/同3stream5970+ports5970+groups187及terminalSHA/8整scheme、g/p/a/c与true97mean单位和job132803266299全steps核完；成功旧科学不得重跑。原Green完整报告另独推。
+
+新消费者仅320bit scalar closure，publicpython3.12.14/flint.9，15结构门与两κ0/1/5 strict充分门明确分开；保CS全mean/shape、cut独立、whole输入不缩negative、complete-row min不entrymin、真P一次/不重repair/不额外alpha。原M32 δ0Green通过Dδ比较到同selected δ≤1e−10；不授high inverse/trueν Schur或core。失败充分门仍是完整结果，不自动重跑相同科学。旧矩阵/Gram/目标/积分/phase/新数组输出皆零。
+
+worker保真实首末及nonFF pull/rebase、双README/live已读检查、topic200MB/120KB reserve、预Git小receipt≤59KB/文件≤60KB与同identity success reuse；historical fallback61e9ff23702e2baa5e287cc6bd27b5211c2408f1只恢复原件。实际新判定待自动push run。open第2节旧逐字文本保6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同路径/H/log，全部域/恢复/未付义务仍有效。root只读README核2ed145250f20b789242ef64fc2d5ccb9ee876c7f。
