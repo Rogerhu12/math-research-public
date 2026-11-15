@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "747968f670c5271482db656b6c236773dedc77da",
+  "rulesReadAtCommit": "170454b2c6024104af454c3373aa8d0b6afbb5f0",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -946,6 +946,27 @@
       ],
       "timeoutSeconds": 115,
       "receiptPath": "{work}/selected-natural-u-schur/selected-natural-u-schur-pipeline-receipt.json"
+    },
+    {
+      "id": "koszul-curve-first-outside",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-curve-first-outside-789f.py",
+      "scriptSHA256": "d14abec1bdf614f2fa55ffd9a2e4d9c0155a4f93399328df932fa2132b6484a6",
+      "argv": [
+        "--support-dir",
+        "{work}/koszul-exact-rational-support",
+        "--source-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--first-dir",
+        "{work}/selected-natural-first-connection-f31",
+        "--out",
+        "{work}/koszul-curve-first-outside",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 80,
+      "receiptPath": "{work}/koszul-curve-first-outside/koszul-curve-first-outside-receipt.json"
     }
   ]
 }
