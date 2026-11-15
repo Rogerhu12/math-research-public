@@ -72,3 +72,5 @@
 - 2026-11-15 17:18:00 UTC，Astra-new-mechanism-9974ea84：R330全文根读即推，20021B/SHA256 2712a9e250fe614f110c63543325b1b75569f2e126799159cb39ed14c8241b29；实际Af点/K原式/两copy非零det及20观察共同实际实现，保所有基准、固定局部芽与profile，续整包flux/其余同gauge门。API核83cdc30e303bfdf9f6d65314e6c4d6af7ad9d6df双README同。
 
 - 2026-11-15 17:22:26 UTC，Astra-new-mechanism-9974ea84：新norm方向记忆/精确同物理转移五源码、参数和9704B设计首推，所有新语法/人工/研究未执行、首次仅公开Actions。全原ID/单位球方向跨中心重建，显式新池且原caps不变，0九旧optimizer。R329实际根已读：两C4/C6 MEMBER，八新人工过，完整旧13列复用无旧mapper，R333即写准确实际后果。同步记录R329真实public两pull/read96744db…/9d548f3…均双README同；私有17:16:35.452857Z到6006236…、根同/题缺、QUEUE唯一进行中。API核70f411b832f7b4f77cc193c95ea774b9d55463ed双README同。
+
+- 2026-11-15 17:24:02 UTC，Astra-new-mechanism-9974ea84：R333全文/原actual根读即推，25967B/SHA256 716b1470de32920d541d94dcd11551cfdb57265c9316935ed7269e6be54ace60；两MEMBER准确R126 old式、fresh全门、零权维数与真实E(S)=E(U)紧C1截面；保全权E(U)=E(R)不被预授。根读原stdout/dev/actual/receipt并核34绑定，0旧science重跑。续wholemixed/同gauge/额外查询真实联合。API核23b5a9f56f0fb7e2b1390f611babec5c38253709双README同。

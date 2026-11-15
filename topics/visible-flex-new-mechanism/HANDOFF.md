@@ -39,7 +39,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R303–313**：前序完整尾与self独立性见原稿，现已推进whole-self门，不重孤立rank。
 
-**R314/322完整self**：pure0的有序缺陷μuᵀTμv；保ℓ/J²真尾，两次Euler降阶给q=N_T+∫L三jet，T九矩承载全非局部，Euler六jet三次系数忠实。真实R有限Laurent谱/原右锚给成本σ的self缩放σ−2，跨权支付等价同权。**R316实际MEMBER**：[准确H*](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)，run43735872441/ca186db/job132878270740，新12人工过，13比较像rank7=增广7、37忠实行；原R126 old编号H*满足π0/整Q0/λ+1，fresh2497项T/Euler与重构0/selfword0。非全mixed0或signed实际控制。**R323完整联合闭锥已满**：权−8整self0；−6由两真实响应覆盖J0/I1；−4保Z=μ0²/2的八完整坐标由八明确原响应覆盖（全原式/尾/手消元，不新计算）。结合真pure像与H*排所有正字符，E=(π,Q)实际闭锥=E(U)。R222/302还给wholepure+十负权self坐标真实有限联调；整个联合实际半群仍欠零权C4/C6两门，R329两新根/13旧列复用源码已读并首次提交Actions，8新接口人工后两目标；不重旧self/pure。全mixed双函数/同circle同gauge商仍欠，不重复已知λ阻断的wholeXi成员门。
+**R314–333完整pure/self**：R314保全T九矩/局部Euler六jet忠实，R322真成本σ→self缩放σ−2。R316 H*满足π0/整Q0/λ+1，13pure核比较像rank7，旧结果不重。R323真负权−8 self0，−6二维/−4八维原响应覆满、保Z=μ0²/2；E=(π,全Q)实际闭锥=E(U)。**R329实际/R333真实控制已完成**：[完整结果](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)，run43740129876/a5383f6/job132891272196，两C4/C6 MEMBER、8新人工过、468新primitive/6.521884s；旧13完整列只读，fresh2492/2198原mixed差T/Euler/重构0/selfword0。R126 old标签准确式见稿。严格E(U0)=E(R0)维10、两核维9/6，故零权商0；不是全权响应等像。结合满闭锥、两次真实商截面/有限整数复制及最后响应收缩，**E(S)=E(U)**且紧集C1真实截面；可选wholepure+wholeQ零/全T零背景。所有原基准/桥/锚保，完整canonical λ仍正。wholemixed/period、同gauge及额外Gaussian/Morse/两flux不自动联合，须各自增强接口。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -54,4 +54,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 70f411b832f7b4f77cc193c95ea774b9d55463ed，双README blob同。API读取不冒实际pull。
+断连API复核main 23b5a9f56f0fb7e2b1390f611babec5c38253709，双README blob同。API读取不冒实际pull。

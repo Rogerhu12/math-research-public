@@ -117,11 +117,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R325](results/R325-inward-weak-hook-circles-pay-three-directed-rows-and-the-one-history-compatibility.md)在同一个新圆准确支付完整third、A−2−3的三外矩/全θ、三directed及指定完整一层/全θ。朝内反射给面积2LM增长、强isotropic正幅支付后Ψ有严格负首项，真实强宏块给正值，正幅整块组合清Ψ。所有跨完整块真实二次尾消配对已逐原I2证明，初选F★含∫u″4保Ψ不漂；两evenχ×原12交替点的实际R3正锥与有限N全基线根清三行。下一R328仍须新弱强圆其余完整面积/对称乘积、零/一层、其他端口、canonical平台/flux/period及同一规范joint，不把强宏块自身72面积当整个新组合已付。
 
 
-### R323/R329：全pure与全self联合闭锥已满，实际半群最小余门C4/C6
-
-[R323](results/R323-full-pure-self-cone-and-complete-negative-weight-response-control.md)用R314/322的完整权移证明−8 self0、−6两完整坐标；从原四c密度和E8二导手展八响应，保真实μ0²/2尾并消元，覆满−4八完整坐标。配合真pure像等号、已付±2与H*排0权，E=(π,全Q)实际闭锥=E(U)。R222/R302已可真实联付wholepure及两个负权共10个普适self坐标；一般闭锥满不授whole E实际半群。剩余零权商至多由C4/C6张成，R329先纸面核其同权pure校正后全Q是否进入已付13列像，真需新执行也只两根/完整source，不重H或rank7。全mixed换槽/其它尾及固定圆同gauge两函数联合商仍另欠。
-
-
 ### R327/R330：把已付端口后的同规范联合门落实到实际列
 
 [R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
@@ -130,11 +125,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R328/R331：新面积阻断无常项弱幂类，继续真实offset通道
 
 [R328](results/R328-another-complete-Gaussian-area-excludes-homogeneous-weak-power-packets.md)保原Pff尾得完整AL=K−C/3、AU=−4J−7C/3。对所有无常项左右5/2曲段+实际rank-one补块，π/2全K=−2J/5、J<0，与朝向/反射侧无关；新A−1−3 I0=0迫旧完整Ψ=ND4/(24P)−36tJ/[5(7+81t)]>0。R325已列门仍真，正因此它的新面积必非零，不得继续只调该被排类频率。未排的是内部常项Cν，其真实ΔK=−15ACν/32∫|x−b|^−3/2g″²；R331须把其实际cutoff、矩回补、两面积、Ψ和三directed同一profile联付，不能把一个局部可调号当整体可行。
-
-
-### R329 首次实际待运行：只 C4/C6 两完整成员门
-
-[已读设计](notes/weight-zero-joint-self-completion-design-20261115.md)和新driver已首发，request只新lane。重用R316原log完整13个T/Euler列，R124/R116已存pure三坐标；只恢复必要mixed原输入，映射两个新pure0目标，每个阳性至多一fresh原复合。八新接口检查尚未执行，所有科学/人工首执行在公开Actions。两门均MEMBER才应用R323/R206实际wholepure+whole-self控制；NONMEMBER只否定相应响应像门。原日志/数组临时，metadata-only发布。消费实际后立即写结论，不等待重复核验。
 
 
 ### R331：真实宽恢复已支付新面积I0和原一层，续新I1/I2
@@ -155,3 +145,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### 新数值入口：精确物理转移与跨中心norm方向
 
 [已读设计](notes/norm-direction-memory-and-exact-transfer-design-20261115.md)和五新源码首次推送公开Actions。原方向可在任何新中心作支持平面，但必须用当前e/f/J/trust重建；bank512，原12LP/40值/120s不变，SOC保原primary。直接读原exact159/163+H恢复九referenceheight，当前切向reference只变metadata tag并核原物理/g/b0；明确新池为24输入∪原六模型可见tags，完整旧后期pool缺失不冒恢复。新人工仅改中心旧A/b失效反例/精确输入/seed账本等新接口；0旧优化/开发重跑。新actual完成即消费完整两网、失败/SOC/费用并推结论，未完继续真正剩余问题，不仅续预算。
+
+
+### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
+
+[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R330两partial flux只保十个self，不能与本全E控制直接相加；具体δK的全Q可能非零，须真联合kernel/增强控制。R335继续原Ω完整Green尾，不以Q0冒全mixed或period0。

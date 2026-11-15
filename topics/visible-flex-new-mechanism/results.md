@@ -503,3 +503,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R330 全部原式与实现](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)使用R324最终解析紧包而不换旧母。z=(u′)^(2/3)给严格内部Af0、u′/u″>0；原响应K及Lf真恒等在该点给明确非零−8a³(a²−b²)(u″)^5/45。两原对应copy保平台二导修正，K/δK全原代数给精确Vandermonde，故不是行数授秩。−8/−7真成本权使这两列对旧十self零，联合矩阵真实块三角；再对R297另外8个T单位作R322真谱投影，得wholepure+10self+全T+两flux的20观察联控，T00已在旧Z坐标，不重计。
 
 R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定局部芽、最终profiles与点，再选择新全局几何；m*允许漂移，R326实际wc对这些flux恒0。指定端口旧19条件保持。全部q_i、其它退化点/Ve、period像及13同规范兼容仍欠；此为两个真必要门的支付，不是完整第四或固定旧g上的自由响应。没有程序/人工执行。
+
+
+## R333：两新联合成员门均通过，完整pure/self获得真实有限同时控制
+
+[R333 完整实际与实现证明](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)来自run43740129876/job132891272196/sourcea5383f62。R126原old编号下，E(C4)=−95E(R2)/768−E(R3)/3072−95E(R4)/1536+115E(R5)/768+E(R7)/64−29E(R9)/1024；E(C6)=5E(R2)/384−5E(R3)/1536+5E(R4)/768−E(R5)/384−E(R9)/512。两目标用已存pure三查询和R316全部13faithful比较列，旧self/Euler/pure映射零重跑；fresh2492/2198项原mixed复合T/Euler/重构全部零，实际selfword也0。八新人工全过，468新primitive，6.521884229s/115.6484375MiB。34直接绑定根核无差；metadata-only receipt56025B。
+
+严格推得E(U0)=E(R0)真维10，U0/R0联合核维9/6，零权商消失。配合R323满闭锥及R206/R212，R333展开真实正缩放/整数floor复制、prototype基准首商支付、第二t依赖商截面和有限n响应收缩，得到E(S)=E(U)及紧目标C1截面。它是相容wholepure+wholeuniversal self的同时实际控制，可取全Q/全T0闭hook背景；不是全权响应等像、wholecanonical任意signed控制或fullmixed/固定圆period/ruling完成。其它指定芽/Morse/两flux须真实增强联合接口，不能将独立可控系统相加。
