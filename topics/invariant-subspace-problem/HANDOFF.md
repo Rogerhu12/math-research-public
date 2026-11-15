@@ -16,19 +16,17 @@
 
 全部旧来源/SHA/常数保[上一完整H](notes/2026-11-15-handoff-before-original-six-slot-global-entry-789f.md)及递归快照。原A为6188源/4367输出、泛秩4354，h0度24与H0=(s−2)h0不同；char0像归属未证。
 
-**[完整第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)** run43662590949/data d6e44520已推：rank4、J2=2I4、截面15001…4、九第二均负，208完整后继源核最高1次。457恢复全保，artifact14140872540/SHA346e7909…。[共同目标线](results/R150-appendix-saturated-second-target-eigenline.md)给九余均为ρ2的[1,28,16,11,7,7,4,1,11]倍、s作用2，完整13×9差来源已核；不重旧页。
-
-**[完整第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)** run43664532571/job132660882060、source39c27f12，数学91.020765506秒、九新阶段全成。208真来源、原17五次整除、104自由条件、全315九正身份全部实核；第三像rank2，九flags全true。ρ2仅标签20011+16·20012，加四第二常数列及U9修正。原式全局modp6与char0尚未由此完成。197恢复440770011B零fallback、254存储文件全保，recovery14141428008/SHA c76693e0…；全精确SHA见[实绩索引](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)。
-
-**第三数据已实际推**cef83145a010eb0a37a44c0fd841effb2d832fe1，run43666721225数学重算0。全部来源/运输失败和成功日志保[上一H](notes/2026-11-15-handoff-before-global-source-first-resume-789f.md)及[记录](notes/2026-11-15-r150-third-publication-transport-recovery-v2-789f.json)。后续保blob:none/sparse、main祖先和push.negotiate，不force。
+**既有全二/三页已付：** [第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)rank4、J2=2I4、208完整后继源核，run43662590949/data d6e44520；[目标线](results/R150-appendix-saturated-second-target-eigenline.md)九余为ρ2的[1,28,16,11,7,7,4,1,11]倍。[第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)run43664532571数学91.020765506秒，208真来源/原17五次整除/104自由/全315九正身份全真、像rank2，ρ2用20011+16·20012及四第二/U9修正；197恢复已实际推cef83145。完整artifact/SHA/运输记录保[本次前H](notes/2026-11-15-handoff-before-conditional-source-cost8814-789f.md)及[实绩](notes/2026-11-15-r150-complete-third-local-positive-actual-789f.json)，不重旧页。
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**：所选第三父ω3…8整数系数[344,409,327,102,1,16]；七raw q1、四真W2、一个第三主源、一个D2，成本177→373→469→665→761→957→1053→1249→1345。q1的s/t规范须同步q2 carry；中间p4仅U7/真p3 κ8/真p3 D2，不换未缩放κ9。第三改选差在完整W2，四次真P与所有315/505/原17均保。
 
 **全局首轮实际检查点：** run43668434588/job132672914323、source5003424a；49输入/12源码全核，5native均成。共享300秒+10秒终止，实际310.011657628秒，九阶段完整；six-q2-VQ全1021像行/93312851积已存，在原来源乘回第1000源时exit137。七raw q1实际费175，全6188×20×7 carry866320坐标实核；六初源P后实际费371。九最终原式尚未完成。119恢复764358901B/86二进制条目全部封存，data6d6bf1a463841e355b9d939cd9c7fcf3641d8514已实际推，末读43670645两README未变。recovery14142923061/SHA1a5d71f3…；results14143522511/SHA35abf2a3…；[完整实绩](notes/2026-11-15-r150-saturated-third-global-first-actual-789f.json)。
 
-**立即续算：** [续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)保同一全部数学源/contract8215f48e…，仅读首轮两完整包；九缓存及partial1021像行按SHA/语义绑定复用，旧二/三页不重算。每轮5有界编译、共享300秒/每子1024MiB；唯一成功仍九原17模31⁶及六辅助/315/505/九实费≤1345全真。中断就从实际新checkpoint接，不以限额结束研究。
+**首续已实际启动：** run43669639448/job132676599537、source308891645e6a9c8094fa220e839717c0daf80ec9；[续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)保同一全部数学源/contract8215f48e…，仅读首轮两完整包；九缓存及partial1021像行按SHA/语义绑定复用，旧二/三页不重算。每轮5有界编译、共享300秒/每子1024MiB；唯一成功仍九原17模31⁶及六辅助/315/505/九实费≤1345全真。中断就从实际新checkpoint接，不以限额结束研究。
 
 **[固定B下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)**已证：同一B/e/目标于无界精度可解⇔有限Z_(31)来源精确可解，无需逐级相容；允许B增长不成立，1−31s例固定B精确阈n≤e+B+1。u(u−31)展示∞纤维秩相同仍长度1→2；当前1345只一精度任务，不能外推char0。接续必须保固定真实B或支付完整项目化/∞厚度。
+
+**[条件来源界8814](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)：** 原非零4354子式自然H8770、60≤degD≤8770，完整adj移列/余式整理证明h0九目标若在Q[s]原模可解，即有成本≤8814解；δ=a−10、maxa55、τ≤64全保。此为成员性的有限界，不证明成员性或固定31分母。若额外lc(D)是31单位，模31ⁿ零因子环也可同界降度而保e，全精度才可接固定B下降；该单位条件/∞消失阶相同尚未付。
 
 
 ## 实际边界：同源两费与完整返回
