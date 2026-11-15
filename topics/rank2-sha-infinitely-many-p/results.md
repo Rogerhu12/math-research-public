@@ -328,3 +328,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R734](results/R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：已证明同q715/ζ和两原核方向的完整5×5实际整逆，原CM密度给同ray密度一、全部N；新q*保原正规/π4及J2单位，整个冻结差准确落两条算术线，系数确在K。全部原T外部相反补偿仍保。
 
 - [R735](results/R735-two-type-five-schwartz-and-rank-one-negative-moments.md)：已证明两型5线的全2/3/17 Schwartz、共同全权规范、严格解析秩一及真正Katz负一值；同步周期给原两负矩等于代数常数乘R733两对数除共同Ω，故实际R734组合非零。固定p充分大N的原P31行赋值准确N+v<2N；完整外部仍反号相消，中央目标未关。
+
+R731[高ρ增补](notes/2026-11-15-r731-complete-third-carry-and-high-rho.md)：完整第三块保原M的η·镜尾活项；指定镜尾若未延到2h，遗漏十三行及k行给真实两p。延长后H_B的非常数部分为原类不变量，未决低行支准确为高ρ、真2h延拓和H_B常数；全WD/同R仍保。
