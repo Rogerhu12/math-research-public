@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：470a799c88b44f67cb1f8504f619fd4949a37137**（2026-11-15T10:35:15.883353+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：3fcefd8dc7161bda48e25c3385cee36eb68578f0**（2026-11-15T10:36:34.779175+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
@@ -40,6 +40,8 @@ R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号�
 [模参数heat/奇部](notes/2026-11-15-sigma-modular-heat-connection-and-odd-tame-trivialization.md)已证原c=0六值heat闭合、E27上v⁶=r(r⁴−1)奇部水平基；a=0不L稳定。奇首p源Az^(p−2)e2/12，A(P0)=0/DA(P0)=B单位，逆水平源两分量单位。
 [oscillator](notes/2026-11-15-sigma-first-p-oscillator-curvature-and-Hasse-source.md)已证A''=−XA/4、Cartier(A⁻²ω)=ω、D^(p−1)A⁻²=−1及完整曲率(A∂z+6DAz)²/12，P0为3B²z²/rankp−2。保先微分后代值。
 [全六有限连接](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)已证detK−108同构Lamé5X/16⊗15X/4，平方根覆盖W²−27/4，全部允许p可分/有限矩阵零曲率。偶首p源−z^(p−1)(AeH/6+DAeR/2)，P0−Bz^(p−1)eR/2；完整heat仍非零曲率。新五次水平lift/真正Cartan配对正在审核，未把全向量单位冒作原critical/primitive单位。
+
+[原critical对角运输障碍](notes/2026-11-15-sigma-critical-projection-curvature-obstruction.md)已证：双变量完整曲率在P0为3B²(z²+t²)I8，原N维稀疏空间经R^(2N+6)的所有最大子式均为单位，核一维且满支撑。故在原W上无漏出的水平对角作用只能常数；真正primitive×Legendre权对全部允许p不恒定，不能有该水平延伸。非水平交换子与真正Cartan混合仍保留，不将抽象满支撑核当实际sigma向量。
 
 ## 原规范与主问题边界
 

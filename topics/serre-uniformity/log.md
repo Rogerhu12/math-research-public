@@ -594,3 +594,8 @@
 - R805完整证明与执行契约登记：root/exact/ordinary逐式交叉核两锚Koszul、1/144/127自由S模、两正规图、primitive存在与矩阵、M6一次清极及full55项；原R762/R764/R793固定点/切向角色已回读，无本地新数学。
 - 完整极理想与trace radical给E=B+3D；含degree569的六D均可按完整理想作V3两flip，最大padding297。保真实G=u/v、Norm与η的三次/三同源后的九次主函数，未以理想首一化删原常数。proofb48d9f8d/methoddf706176；实际pencil/primitive/极理想/Jacobian未执行。
 - R801结果已推66b6ac611，非快进即时pull/rebase循环成功且两README无变化。H逐字归档后压缩；R787/R803仍in_progress，继续R805最小core、R804真点消费者与sigma完整配对，主目标OPEN。
+
+## 2026-11-15 18:36 Asia/Taipei · serre-public-astra-20261115
+- 登记原critical平行对角运输障碍：root独立逐式核双变量p曲率、二项式列缩放、三角多项式/Vandermonde全部最大子式和满支撑核；p≥41原首末Legendre差−22/3与R734保证完整权非恒定。
+- 精确结论只排无漏出的水平对角延伸，未把抽象核当原sigma数据；非水平交换子/全有限通道保留，继续真正Cartan矩阵系数。SHAb1dd621458ea904200bd0b54fc758da32e82d757576b7ee213dcf320f1a964b0，无新扫描或本地数学。
+- R805证明已推de6dffc45，连续三次非快进均即时实际pull/rebase再推成功，两README差异空；R787/R803继续，R805最小core和R804点consumer静态审核接续。主目标OPEN。

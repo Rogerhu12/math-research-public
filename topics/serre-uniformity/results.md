@@ -385,3 +385,5 @@
 - **R801（公开准确长尾已完成）**：[原六至八次幂长尾及实际低幂闭包](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；V6 q109..141、V7 q96..175、V8 q109..195全核。实际全部power2..5也到195，原七八铅笔V3尾缺口自动关闭。30,781输出/30,773stage与完整ZIP/bundle全SHA、冻结verify逻辑通过，cert1fbcd66f。无新函数、极除子、η或高度。
 
 - **R805（已证明）**：[原272维两图整基、极理想与三重数除子适配](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)。两锚真实秩690−degG与分次自由S模给原正规整环；一个primitive乘法/实际Krylov minor保字段，M6经θ一次清极、8个有理右端和55项认证。E_g=固定21点B+3D_g，trace radical准确提取，无Jacobian三除点选择；最大degree569仍由完整理想V3两flip，局部padding≤297。原η与三同源主函数分别mathcalG³、mathcalG⁹R，全部常数/原C逆保留。新铅笔/整基乘法/理想/η实际尚未执行。
+
+- **原critical平行对角障碍（已证明）**：[原critical对角运输障碍](notes/2026-11-15-sigma-critical-projection-curvature-obstruction.md)已证：双变量完整曲率在P0为3B²(z²+t²)I8，原N维稀疏空间经R^(2N+6)的所有最大子式均为单位，核一维且满支撑。故在原W上无漏出的水平对角作用只能常数；真正primitive×Legendre权对全部允许p不恒定，不能有该水平延伸。非水平交换子与真正Cartan混合仍保留，不将抽象满支撑核当实际sigma向量。 SHA256 b1dd621458ea904200bd0b54fc758da32e82d757576b7ee213dcf320f1a964b0。
