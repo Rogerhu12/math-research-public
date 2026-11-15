@@ -494,3 +494,9 @@
 - 平方准确为−72Σa·dlog(y_F−a)，Cartier交换α0/α1；原目标仍两变量same-h primitive/Legendre平方筛，Cayley u⁵/Sym5分母保，未冒称非零。
 - R78756实际56新候选全拒/旧引用0/队列耗尽；R815两列run43755027718实际exit2/errornull。两者小IO正读实际字段，不猜首失败阶或候选数。
 - 本push规则：本地真实pull至475f7cb4c6f4a0053929eda89d56f0326551a216（2026-11-15T20:21:51.004988+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 04:25 Asia/Taipei — serre-public-astra-20261115
+- 激活R78756已结束源纯IO reader4ceb3d89，绑定run43754407301/ZIP a6c23bc8/core c642ec35；只读实际非carrier阶段并核SHA，不重LLL/候选算术。
+- 激活R815两列纯IO reader59140e7f，绑定run43755027718/ZIP03c3c592/core00087968/runner58d65088；读d01/真实两列/新scan与拒绝，跳两个carrier及旧562MB current。
+- 两者完整小数据/既有矩阵仅一日artifact；H保真实失败边界，固定C Ω正做独立新障碍消费者，未提前报值。
+- 本push规则：本地真实pull至bd0ca628fbd8e753e47428c579f0c11b43c241ce（2026-11-15T20:23:21.280017+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

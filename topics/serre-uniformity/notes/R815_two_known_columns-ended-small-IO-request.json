@@ -1,0 +1,20 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "475f7cb4c6f4a0053929eda89d56f0326551a216",
+  "reader_sha256": "59140e7fbf44476504615a80bf756d3ee2f866080865566c9cba469dfe7ed863",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "source": {
+    "result": "R815-original-normal-derivation-operators",
+    "run_id": 43755027718,
+    "source_commit": "e1d8a95631eb11d1df0ccba4a781b05b6dd45c62",
+    "core_sha256": "0008796890a0cfcf0b9aaaa40e26f0d8d26be38f8168c8fe918d86a7585a0ec1",
+    "artifact_id": 14178355802,
+    "artifact_name": "serre-global-R815-original-normal-derivation-operators-43755027718-1",
+    "archive_bytes": 2721387228,
+    "archive_sha256": "03c3c5925b949e4f8dcc89260fb807dace1649088c0bfb122910dba3275f90c8",
+    "expected_conclusion": "failure",
+    "manifest_sha256": null
+  },
+  "scope": "pure IO: source-bound actual two-known-column certificate, d01 and exact known-column representation metadata, imported scalar prefix, actual scan/probes/full LLL rows/candidate early residuals/rejections and stage inventory; neither carrier nor original current is read; no Wvg/LLL/RR or matrix arithmetic",
+  "temporary_artifact_retention_days": 1
+}

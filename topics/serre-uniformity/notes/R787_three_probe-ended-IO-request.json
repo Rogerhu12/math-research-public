@@ -1,0 +1,40 @@
+{
+  "result": "R787-three-probe-ended-source-IO-review",
+  "script": "scripts/R787_three_probe_ended_IO.py",
+  "script_sha256": "4ceb3d896cedec19263a5b3e5a0f734725004c54ff229cf642c473d375cbef19",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "current_readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "original_readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "original_wrapper_sha256": "7449600243a81bd31b5109fdadd0da2e3aa1930fea00772761154703555d4ed9",
+  "method_sha256": "58a7713f7265ec4606f30f36a7eea2536f86068e7606f266b249470e48dd1cfe",
+  "core_receipt_sha256": "fb61c07ccbee07ae3c0d81183e419e91fabf77090776054ce4275ccfcc5e40e2",
+  "certificate_sha256": "8fb5edad08b95c3d28fbb0c99fb0ae91cbbc990fdcc6db8b44013c6519d854c9",
+  "expected_outcome": {
+    "actual_third_probe_A_index": 0,
+    "actual_y_map_recovered": false,
+    "candidate_search_exhausted": true,
+    "search_node_budget_reached": false,
+    "search_lattice_budget_reached": false,
+    "new_exact_candidate_evaluations": 56,
+    "previous_exact_candidate_rejections_referenced": 0,
+    "no_eligible_third_probe": false
+  },
+  "source": {
+    "result": "R787-original-power5-function-relation",
+    "run_id": "43754407301",
+    "run_attempt": "1",
+    "source_commit": "1827d794565f94455e4f251f20d1979b55fee783",
+    "core_sha256": "c642ec35823dace0ccac4e225e43581398dcce5737dd51cae6a2a903f6028700",
+    "artifact_id": 14178104533,
+    "artifact_name": "serre-global-R787-projective-three-probe-43754407301-1",
+    "archive_bytes": 216929678,
+    "archive_sha256": "a6c23bc84d379f96f67233243d5a5fc3838f18cd913502088b4a08de455d4451",
+    "expected_conclusion": "failure"
+  }
+}

@@ -1,0 +1,47 @@
+name: Serre R787 three-probe ended source IO
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R787_three_probe-ended-IO-request.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  read-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R787_three_probe_ended_IO.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R787_three_probe-ended-IO-request.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse the source IO reader
+        run: python -m py_compile topics/serre-uniformity/scripts/R787_three_probe_ended_IO.py
+      - name: Read the completed source metadata and full small stages
+        run: |
+          python topics/serre-uniformity/scripts/R787_three_probe_ended_IO.py \
+            --request topics/serre-uniformity/notes/R787_three_probe-ended-IO-request.json \
+            --output "$RUNNER_TEMP/serre-R787-three-probe-ended-IO/output"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R787-three-probe-ended-IO-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R787-three-probe-ended-IO/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
