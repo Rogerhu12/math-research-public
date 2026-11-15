@@ -270,3 +270,8 @@
 - R832全文核后登记：原M2G单极点代表/21G+4闭合系统、循环行minor极部与形式Wronskian给显式ord界，G=(p−1)²/4的原六层计数逐式核。复读R699/R716/R738及Brau–Jones原模型，保全部真实高度常数；proofa25f743c，不预称T_p/单位/整盘排除。
 - R787 run43708449812已结束exit1；新artifact14170087848/438780485B/ZIPb6ec1bf5、1264成员一日保留，正在最小IO核原因与最新Dixon，随后从新包同核续，未退回259位祖先。R827/R815/R824原任务继续。
 - 公开rules attempt32/job132879515492实际pull于2026-11-15T16:35:13.839106+00:00到ad8b27b304c8a7ad3705d11e3be5fa9a17b1870c，两README无diff；H/open逐字归档后整理当前缺口，主目标OPEN。
+
+### 2026-11-16 00:44（Asia/Taipei）｜serre-public-astra-20261115
+- R787最新已结束failure的438780485B产物接续最小Range IO：run43708449812/artifact14170087848/ZIP b6ec1bf5，逐来源读取真实core错误、manifest、最新完整lift与历史指针，不重算数学或退回259位祖先。
+- 新script92626d74/request0315e92b/workflow14fc27d4全文核绑定与原字段，复用冻结R824 Archive；只一日小metadata产物，最新大lift临时IO后删除。R815/R824/R827三项公开精确计算仍进行。
+- 2026-11-15T16:41:54.802304+00:00公开真实pull/read 6d7c7422888a1bdf02e6eba7183954f5fc49a6fb，两README无diff；遵守根§8小文本fallback及§15 raw不进Git/Release，主目标OPEN。

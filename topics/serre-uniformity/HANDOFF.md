@@ -4,13 +4,13 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：ad8b27b304c8a7ad3705d11e3be5fa9a17b1870c**（2026-11-15T16:35:13.839106+00:00；公开run43714581068/attempt32/job132879515492真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
+**已读规则提交：6d7c7422888a1bdf02e6eba7183954f5fc49a6fb**（2026-11-15T16:41:54.802304+00:00；公开run43714581068/attempt33/job132881429978真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前公开计算（2026-11-15 16:36 UTC）
+## 当前公开计算（2026-11-15 16:44 UTC）
 
-**R787最新运行已结束failure/exit1，真实原因待小IO**：run43708449812/job132794639922/sourceac5998f333ab49c4747874e2e44b7ca4ccfa3acf，core93d3d72b/wrapper42157e0d不变。新artifact14170087848/438780485B/平台ZIP b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340，1264成员，至Nov16 16:25:10UTC。ordinary正做最小Range读取manifest/core.log/最新Dixon与指针，随后同核从新包续，不退回旧run43683912711的259位祖先。当前未有真实A/B；原1234/129×20/14分支与自由1186不换R802。成功后原R792/804接续。[旧续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
+**R787最新运行已结束failure/exit1，真实原因待小IO**：run43708449812/job132794639922/sourceac5998f333ab49c4747874e2e44b7ca4ccfa3acf，core93d3d72b/wrapper42157e0d不变。新artifact14170087848/438780485B/平台ZIP b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340，1264成员，至Nov16 16:25:10UTC。最小Range IO请求已就绪：script92626d74/request0315e92b/workflow14fc27d4，仅读manifest/真实core receipt/log尾和每prime最新完整Dixon及历史指针；最新lift仅临时哈希不入小包。实际原因/位数等公开IO，不假定BudgetStop；随后同核从新包续，不退回旧run43683912711的259位祖先。当前未有真实A/B；原1234/129×20/14分支与自由1186不换R802。成功后原R792/804接续。[旧续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
 
 **R815原Mg/Γ仍运行**：run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e；core80516ff9/wrapperab725da0，53原输入全核。Mg六模/七准确点、Γ五模/七嵌套点；We0=e1、Γe0=0/Γe1=vh与完整嵌套commutator给唯一性，不独立CRT Mh。首prime1000000007不同R827的753，不混缓存。
 

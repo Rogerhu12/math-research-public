@@ -1,0 +1,65 @@
+name: Serre R787 latest ended checkpoint IO
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R787-public-ended-checkpoint-io-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R787-latest-ended-checkpoint-IO
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R787_public_ended_checkpoint_io_audit.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R787-public-ended-checkpoint-io-request.json
+            /.github/workflows/serre-p41-original-power5-ended-checkpoint-io.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse only the standard-library IO sources
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root = Path("topics/serre-uniformity/scripts")
+          for name in ("R787_public_ended_checkpoint_io_audit.py",
+                       "R824_public_original_global_polar_generators.py"):
+              path = root/name
+              ast.parse(path.read_text(), filename=str(path))
+              print("AST_OK", name)
+          PY
+      - name: Read latest source receipts, error tail and one completed lift per prime
+        run: |
+          python topics/serre-uniformity/scripts/R787_public_ended_checkpoint_io_audit.py \
+            --output "$RUNNER_TEMP/R787-ended-IO/output"
+      - name: Keep only one-day original small metadata and IO receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R787-ended-checkpoint-IO-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R787-ended-IO/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
