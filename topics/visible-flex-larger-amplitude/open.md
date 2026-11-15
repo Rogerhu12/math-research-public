@@ -87,7 +87,7 @@
 
 [R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)/24c7681c保全部candidate/正幅度/全角，已提交候选只给关联名义角/w；同一可逆T联合形成、准确正max缩放后才转64，局部cap4096/原point预算/finally恢复256。全真实单位行族到实际最终字值差保持，不保证真族成员、共同C或小误差，表示工作partial与传播未付分明。
 
-[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)十二件及R419全文/完整diff核后接线：旧187全部84pins逐值保→93，实际driver56/native30，原c2f515/91dd内核不改；真180九词/β1⁄16/fresh C/cut/factory/deep112→完整112族后才联合数值行→全577/576×steps采样→同owner H/J/FD/453/final。名义表示共享原point预算、cap4096，原18900+2700/7200 BVP和全部阈值保。最终字值沿raw→worker→native不再归一化，完整族差仍对同词；单90KB保全部数字行/地址/失败/未访，六原必要scope及quiet后清理保，无新科学门。R419排版与reader实际读取scope声明仅元数据同步；无实际197结果，exact唯一R420。
+[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)十二件及R419全文/完整diff核后接线：旧187全部84pins逐值保→93，实际driver56/native30，原c2f515/91dd内核不改；真180九词/β1⁄16/fresh C/cut/factory/deep112→完整112族后才联合数值行→全577/576×steps采样→同owner H/J/FD/453/final。名义表示共享原point预算、cap4096，原18900+2700/7200 BVP和全部阈值保。最终字值沿raw→worker→native不再归一化，完整族差仍对同词；单90KB保全部数字行/地址/失败/未访，六原必要scope及quiet后清理保，无新科学门。R419排版与reader实际读取scope声明仅元数据同步；无实际197结果，exact唯一R420。 官方run43774486084于23:22:50Z创建，source68fa2d402bb7c3695b50a28739566abe6ece3511、compute132997520684已进入step8原93源码/参数绑定；exact唯一R420终态，尚不推定科学开始或接受。
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)/[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)真72c十族/180九词+正零ξ、98pins/runtime69/native29；真453全门后同十词450新RHS/H/FD/338×112/final，共原7200钟/worker，全部原门不变。amplitude唯一R408，193不运行R409，raw清后须同job真再生。
 
