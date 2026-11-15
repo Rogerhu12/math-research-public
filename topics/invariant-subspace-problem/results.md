@@ -227,3 +227,5 @@
 - [R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost](results/R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost.md)：同w在R=d、Q=L0h²的晚cut未来嵌入互不交global孔带，真顶部误差平方可和，严格得Σ||F_m u_m||²<∞。真实合并负部若≤c_mQ||F_m u_m||²且Σ1/c_m发散则w=0，允许Q logQ loglogQ；关键负部仍未付，不称边界完成。
 
 - [R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)：原H45模31真1736单位闭Q满行秩；全高核1036/模旧130为906，四真商代表15/18/19/20保全4354行与比例。完整4318常像规范及4330增广给新低商rank904/核2；仅维数与入口，不冒作已造906核或新λ3。
+
+- [R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584](results/R150-appendix-zero-complete-fifth-connection-exact-one-factor105-and-cost8584.md)：完整第五β5=1/18头，含全部R3/R4旧像与整条s²T2/sT3回填；low589/kernel39/zero31，668304原产品全真。公共零阶59/50、K105、amax9…16；配selected∞130/125/125得q8422…8535、条件8579/8584/172。原九平方读数零仍不等于成员性。
