@@ -1,0 +1,175 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "third-missing-four-eighteen-unit-preparation",
+  "executionSourceCommit": "795c0306493c98aa0a04a11a2751b4cb0949709b",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-eighteen-unit-preparation-789f.py",
+  "scriptSHA256": "8e2b059af823dd8fc089470f5d20c930649ae1fd8e4ae695626ba6b88048d2a7",
+  "argvTemplate": [
+    "--constant-preparation-out",
+    "{work}/third-missing-four-constant-unit-preparation",
+    "--second-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--normal-four-out",
+    "{work}/selected-natural-second-left-normal-four-complete130",
+    "--out",
+    "{work}/third-missing-four-eighteen-unit-preparation",
+    "--seconds",
+    "30",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 60,
+  "exitCode": 0,
+  "wallSeconds": 1.1665002070003538,
+  "fullTemporaryReceiptBytes": 2628,
+  "fullTemporaryReceiptSHA256": "a692c7c920346fc5473fd8ee662b08d91c709682a1cca7dfb8a7efe8342cf36b",
+  "result": {
+    "actualIncomingPrimitiveFieldRankRetained": 4,
+    "actualRightHandSides": 18,
+    "allFourOriginalTargetsRetained": true,
+    "binding": "25c4d03014a3754e6b5b22d1ae1d7d8835708a53092b7d2e5b923d151ecebab8",
+    "constantUnitPrime31Proved": true,
+    "format": "isp-missing-third-eighteen-unit-preparation-v1",
+    "fullTwelveQuotientColumnIndependenceNotAssumed": true,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 1.0728906549993553,
+    "newLargeGaussianPerformed": false,
+    "newOriginalThirdCoChainsConstructed": false,
+    "newRationalRightHandSidesSolved": 0,
+    "old14RationalResidualProfileRecomputed": false,
+    "oldConstantUnitProofRecomputed": false,
+    "oldHFandT31SaturationAsserted": false,
+    "outcome": "complete-constant-unit-and-eighteen-rhs-prepared",
+    "phase": "complete",
+    "selectedFourteenCompleteOldQuotientBasis": true,
+    "status": "completed",
+    "parameters": {
+      "actualSparseUnitNonzeros": 172861,
+      "completeIncomingQuotientRank": 12,
+      "constantUnitSize": 4318,
+      "exactNewHomogeneousRelationDimensionToVerify": 2,
+      "inputIdentities": {
+        "model": {
+          "bytes": 5245792,
+          "sha256": "cbd7329c2447a6f44a5b8f93a9ba7906c702e5193212cfd4a12137c1b98ce658"
+        },
+        "normal4_full": {
+          "bytes": 27679,
+          "sha256": "4158cc3b978edeafd9c993e7f1c054d9acc419eb9a5d3f34cf8e9f2cff965c22"
+        },
+        "normal4_rref": {
+          "bytes": 25174,
+          "sha256": "7e060678aa752228f8515e105726ad5335aaf403bb8965b19f6be796b25d1956"
+        },
+        "old_full": {
+          "bytes": 12690,
+          "sha256": "b186ecd4ef8a8ca910392a8900c838da1e9e166a0b4738b40748677fd7e14a70"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "prefix": {
+          "bytes": 3375,
+          "sha256": "23035e646b1d3598fae8c42e2c34195f910962213a846289fca656ad9f1b7742"
+        }
+      },
+      "maximumOriginalCoefficientBits": 132,
+      "maximumOriginalRightHandSideBits": [
+        1422,
+        1334,
+        1831,
+        2110,
+        2106,
+        1635,
+        2095,
+        2429,
+        2508,
+        2723,
+        2838,
+        2849,
+        2843,
+        2979,
+        2090,
+        2393,
+        3814,
+        3824
+      ],
+      "maximumScaledUnitCoefficientBits": 132,
+      "memoryMiB": 2048,
+      "nativeUnitInputIdentity": {
+        "bytes": 9305373,
+        "sha256": "c2d645d0d59aa565c5aea537f66a3e3ba671dd0088f7dd9f3dfde65846405819"
+      },
+      "originalConstantModelIdentity": {
+        "bytes": 5245792,
+        "sha256": "cbd7329c2447a6f44a5b8f93a9ba7906c702e5193212cfd4a12137c1b98ce658"
+      },
+      "paidOldQuotientRank": 14,
+      "prefixBinding": "8a66f5f182b224bcdf158b3cbd739f23692f333c9c338e7056ca8c5162018ebf",
+      "programIdentity": {
+        "bytes": 11587,
+        "sha256": "8e2b059af823dd8fc089470f5d20c930649ae1fd8e4ae695626ba6b88048d2a7"
+      },
+      "secondsLimit": 30.0,
+      "selectedOriginalHFandTColumns": [
+        0,
+        1,
+        2,
+        13,
+        14,
+        18,
+        20,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "targetHeadCoordinates": [
+        15,
+        18,
+        19,
+        20
+      ],
+      "targets": 18
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 14:24:28 UTC",
+      "beforeReadCommit": "6b35510ee55c7d3a31bb987a50fafd4f531ee2a8",
+      "originMainAfterPull": "795c0306493c98aa0a04a11a2751b4cb0949709b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 14:24:29 UTC",
+      "beforeReadCommit": "795c0306493c98aa0a04a11a2751b4cb0949709b",
+      "originMainAfterPull": "795c0306493c98aa0a04a11a2751b4cb0949709b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 95,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 32586,
+    "logicalJsonSHA256": "640cfcd2a61a053f4f62b3e2c80925c5d489dc8692ca75476a99a0c65ed12056",
+    "itemCount": 95
+  },
+  "lastRulesReadCommit": "795c0306493c98aa0a04a11a2751b4cb0949709b",
+  "summaryExcludesRecomputableArraysOnly": false
+}
