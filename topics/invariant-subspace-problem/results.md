@@ -509,3 +509,7 @@
 ### R271 附录：右链首段损耗、真实源精确收缩及圆盘演算
 
 [自足全证明](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)保完整/裸最小右链和全部物理零源平方，得到C_s*B C_s+I≤δ²B及H同式；它与左Stein中的同一个+I准确相消，所以两真实Schur上||C_s^k||≤δ^k。有限nilpotent defect等距给无损圆盘解析演算，原逆芽完整截至h−1、误差常数16降4。没有把H−B或ordinary右费当已付，主两费比较仍开。
+
+### R150 附录：23条真核的全部低次数与一次变量闭包仍为23维
+
+[自足证明](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)对完整来源先证低次数空间10维/top rank13；110一次乘积的越界块rank98，12准确零列穷尽其有理核，全部12合法来源倍均经6188坐标核为原23列组合。因此允许所有越界抵消后的闭包仍23维，无新核。实际run43679903558数学0.399616051秒，仅来源运算，不重Dixon或原乘回；完整脚本、参数、run和SHA保留。

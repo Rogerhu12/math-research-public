@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+  "rulesReadAtCommit": "052904c0ca8cb91fd4649d7996b794eff777f7a4",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -67,6 +67,58 @@
       ],
       "timeoutSeconds": 25,
       "receiptPath": "{work}/paid23-closure/paid-kernels-linear-source-closure-receipt-789f.json"
+    },
+    {
+      "id": "exact-dixon-after486",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-dixon486-session-launcher-789f.py",
+      "scriptSHA256": "65456ca61c9241396b53013c7cbd23269ff2cba69c050724e520275a1bb08172",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume486-runner-789f.py",
+          "sha256": "a220810454b6c75feb8a661203615d1205687759b135334daa9f2690ae605d23"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-through1024-789f.cpp",
+          "sha256": "6ff3cb4a9ee7415bef17495f2b6d140e80d035754489bc86a8029e291e7e4709"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        }
+      ],
+      "argv": [
+        "--repo-notes",
+        "{repo_dir}",
+        "--paid-dir",
+        "{paid_dir}",
+        "--bockstein-dir",
+        "{bockstein_dir}",
+        "--dixon-dir",
+        "{dixon_dir}",
+        "--p486-dir",
+        "{p486}",
+        "--out",
+        "{work}/dixon-after486",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "512",
+        "--compile-seconds",
+        "30",
+        "--maximum-exponent",
+        "768"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/dixon-after486-session-small-summary.json",
+      "conditionAlreadyVerified": {
+        "sourceClosureRun": "43679903558",
+        "exactSpanDimension": 23,
+        "full36": false
+      }
     }
   ]
 }
