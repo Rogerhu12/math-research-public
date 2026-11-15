@@ -59,7 +59,7 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)的隔离七次零2-jet形状给单一准确商响应εw/a；[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)对同坐标不同逻辑输入聚合G=Σw/a、H=−Σwb/a²，偶/奇基给ε²H/εG，完整允许C²响应span/rank/左零空间已证。共享node权只计一次，相同形成q词不证明准确公共q；奇池全零不排除值方向，无实际rank或误差认证。
 
-[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)不交odd系数箱sign组合准确斜率−Σ|g|，C²界取max非逐站累加。173仅odd locator；174独立真157末九p50父，用全部真实站目录形成一次h*，新真正十族/owner/fresh forward/FD/20trial与全部原终态保。旧p的FD扰动也不得重选中心/宽度/符号；任意点与Arb覆盖同分片和全断点。形成分数仅候选建议，不冒准确驻点/实际方向或同g换形状精化；连续共同C/完整112非线性和闭场标准仍未付。
+[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)不交odd系数箱sign组合准确斜率−Σ|g|，C²界取max非逐站累加。[173接口](notes/2026-11-15-local-odd-zerojet-station-catalogue-interface.md)已发helper39740B/2d2d84eb，真实R351九族对象/全部1397逻辑输入、严格dyadic隔离与奇响应；完整目录临时/最多16小记录，准确有理与binary64词分开，任意点及Arb API保全断点。173仅odd locator；174独立真157末九p50父，用全部真实站目录形成一次h*，新真正十族/owner/fresh forward/FD/20trial与全部原终态保。旧p的FD扰动也不得重选中心/宽度/符号；任意点与Arb覆盖同分片和全断点。形成分数仅候选建议，不冒准确驻点/实际方向或同g换形状精化；连续共同C/完整112非线性和闭场标准仍未付。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 

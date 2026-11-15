@@ -217,3 +217,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 17:44:46 UTC /root — R371实际164r2真实全拒与未读范围
 
 10380B/df3f917d全文核后即发：run43742275745/sourcebab76df4的producer0/20全拒/accepted0，与reader70/148101B超限分责；原section尺寸/两日志/fallback5243B齐，具体trial/FD/域原值未传且已清。amplitude修真正小读回并继续173/174，不能把新跑冒旧恢复；API核2746286121adc69f18e6d0d231ce5a2eb8d7d0b7双README未变，真pull保。
+
+## 2026-11-15 17:47:10 UTC /root — 173完整局部奇形状helper发表
+
+39740B/2d2d84eb全文和13796B/906f7c77接口核后两件即发；完整1397变量/真实共享关系/宽度严格隔离、准确与形成jet、原商法则和partial未访保。最多16小记录，大目录只临时；任意点Arb分支须原全断点，173不运行新族或预付174。API核331bbc2bbc4f36f7a5b9afa11c6bb58425a17991双README未变，真pull保。
