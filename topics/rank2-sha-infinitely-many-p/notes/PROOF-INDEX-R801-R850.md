@@ -125,3 +125,6 @@
 
 
 - [R835](../results/R835-coprime-cm-conductors-force-an-odd-mixed-companion.md)：任意固定type(1,0) CM角色ψa若c+c^c=OK，则a=ψa/ψa^c在原2/3/17局部恒1；新增split符号乘积被全局−1单位强制为−1。故原γa=λ/(Na)的根数−1、Lγa(1)=0，任何保持原最高λ的三低权张量复秩≥2。该互素导子修复不能兼保R826 simple zero和R832三mixed秩零前提；不排其他critical比较，原指定AJ/跨p仍开。
+
+
+- [R836](../results/R836-original-restricted-euler-values-and-three-long-kernel-presentation.md)：在原同WD返回/三真长窗及3b<p下，全D3余核H3^0/F0H2^0长z_-≤2，但高前缀须先解A_T(V)=[D3V]模ev_Z(V_T)。唯一V1由同H2实现，两值固定后自由恰F²H1；第三行准确为单位c_F乘同H1的3η镜轴单射，给K3≅kerΘ_T。第四短长恰max(ell−r,0)，同一G再读E³；指定forcing另保w^(13+r)低行、真实仿射截面纤维及同一V/V1/L/G。旧全部q t^rFB族排除，不声称实际余类非零或全WD核消失。

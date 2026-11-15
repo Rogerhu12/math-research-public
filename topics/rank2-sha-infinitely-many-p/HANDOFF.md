@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：784c52cabc71fdc77321a38ed89b9548bde6e033；2026-11-15 22:52:48 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
+- 最近已读规则提交：c3cce53015c7783a36102bfc5961cddaafa9b817；2026-11-15 22:56:18 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -12,8 +12,8 @@
 ## 完整归档与当前分工
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-r835.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–835已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep写R836真实三长窗核呈示并续指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R836已分配deep，R837以后由root协调。结论成即分别推。
+R1–363、365–560、562–653、655–711、713–836已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R836已分配deep，R837以后由root协调。结论成即分别推。
 实际pull22:39:36/run43770506389/job132985133266，两README差异空；回执ci/rule-pull-20261115T223936.json，下一23:25前。R818/820/830的43757109911/43756861065/43765677768均成功，source/args/hash见各证，不复跑；R830初版18/288阶枚举误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
@@ -36,7 +36,7 @@ R828全精度高轴两参数、低卷积/Fermat p⁴进位及真实w整三角给
 [全低核反射](notes/2026-11-15-original-first-diagonal-full-reversal-and-rh-convolution.md)：rN−j=rN·j!/(3/2)j，完整R_NH卷积=3rN q_p(3)/8；四α仍保Θ^nP/H完整伴随式与第二项。不能以RH/q_p(3)替实际bΘ；原四charge17/36/68/33。
 R834原Γ4三长窗T=T_M=s−r−13，h<T≤2h、T>2κ，全I=FH2+eH2单射；原qsrc/总charge40/unit三角及39carry保持，unit秩≥1+(7κ+3χ)/2。贴边s=2h+r需h≥max(14,κ+7)。全H3核注入V_T=H0N³(−TP)再入原Z。
 [全H3秩增补](notes/2026-11-15-r834-three-long-unit-rank-bound.md)：unit秩≥1+2κ+χ+T−C(G_F,T−2κ−χ,a+b)，R805全profile属界/全部复合次数保。h/κ→9/8、T/κ→9/4、a+b+z+χ=oκ时≥199κ/48+oκ，占H3的199/216。仅已付同WD返回子格；不改Bost(0,3)或付全lifting。
-R836在写：真实受限D3(V0)须落ev_Z(V_T)，唯一V1；同H2修正后余自由度F²H1，第三行是单位c_F乘L(ψe^{3η})，同一个L及normal不可自由。第四短行/指定余类、中央→真深核与全p²/p³/p⁴继续。
+R836已付K3≅kerΘ_T：3b<p，全D3余核H3^0/F0H2^0长z_-≤2；V0须解A_T，唯一V1由同H2实现，余自由恰F²H1。第三长行=c_F·L(ψe^{3η})且同H1评价单射，第四短长max(ell−r,0)只读同一G。指定forcing先验w^(13+r)低行，再解真实仿射V/V1及唯一L、第四行；旧R741全部q t^rFB族排除。实际余类非零、中央→深核、全WD和全部高位仍开。
 
 ## 同 R mirror、真实 Euler 像与全边界
 
