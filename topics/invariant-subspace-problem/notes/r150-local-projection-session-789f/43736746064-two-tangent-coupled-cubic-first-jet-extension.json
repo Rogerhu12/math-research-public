@@ -1,0 +1,666 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43736746064",
+  "stepId": "two-tangent-coupled-cubic-first-jet-extension",
+  "executionSourceCommit": "cb49fb2fa70a7fd1eba3e231649b015e2cfcef68",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-tangent-coupled-cubic-first-jet-extension-789f.py",
+  "scriptSHA256": "459538fc066f2df2372752c1a32ba33b6f2abe8f1ecd0ac44787cefd44214628",
+  "argvTemplate": [
+    "--paid-probe",
+    "{scripts}/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+    "--paid-cubic-source",
+    "{scripts}/2026-11-15-r150-two-one-weak-cubic-first-jet-extension-789f.py",
+    "--paid-receipt",
+    "{scripts}/43736746064-two-one-weak-cubic-first-jet-extension.json",
+    "--paid-checkpoint-dir",
+    "{work}/two-directed-cubic-left1-checkpoint",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--unit-schur-helper",
+    "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+    "--constant-receipt",
+    "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+    "--checkpoint-dir",
+    "{work}/two-directed-tangent-cubic-left1-checkpoint",
+    "--out",
+    "{work}/two-directed-tangent-cubic-left1-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 230,
+  "exitCode": 0,
+  "wallSeconds": 12.399499469000148,
+  "fullTemporaryReceiptBytes": 17596,
+  "fullTemporaryReceiptSHA256": "7b6849c6069982bc3bf2cc5c47c859b3670a9e78fff209f5153f29cb8de63194",
+  "result": {
+    "elapsedSeconds": 12.23664793099988,
+    "format": "r150-two-tangent-coupled-cubic-first-jet-extension-v1",
+    "status": "completed",
+    "parameters": {
+      "allMatricesTemporary": true,
+      "ancestorCacheReadOnly": true,
+      "binding": "e21db6fb9dc121acc7de86da2323b47495a5284c3af104920cfa9b62f3fc1a3e",
+      "checkpointPhases": {
+        "actual-tangent-cubic": {
+          "bytes": 21629,
+          "fileSHA256": "d1cdda7650b737c45b5eeb1146a5e3bcdd899ae619ed99632b1e0e31c1db8746",
+          "matrixSHA256": "fc25498e8fb70c05e79c0efcff7b91f44ab432d2dd11d60f90a6190edb482ce9",
+          "shape": [
+            990,
+            1
+          ],
+          "verified": true
+        },
+        "constant-heads": {
+          "bytes": 1727,
+          "fileSHA256": "638e84e136fbfce52fa4717ae3aa883db6f9b6e2c18c1a014ec1f61b43dd55f4",
+          "matrixSHA256": "525b979bf1ce15debc3ec3d50c70330473c8f0a3bf84172c3c5f404b60f7c5cb",
+          "shape": [
+            155,
+            22
+          ],
+          "verified": true
+        },
+        "first-cubic-coefficients": {
+          "bytes": 224,
+          "fileSHA256": "4638579ce62b6b5228a6c5b5758ac3bf4532b74872cf9e917ac00806a647f196",
+          "matrixSHA256": "8e0aa6d17bf6d985cf2defc618716f5889593dd36166f8218aac8f4331409c8e",
+          "shape": [
+            2,
+            15
+          ],
+          "verified": true
+        },
+        "first-lambda0": {
+          "bytes": 1419,
+          "fileSHA256": "f29824bf3f5ab8e038663bf6b0504183ae46f4a5cd317dcf986ffdaf4652a63e",
+          "matrixSHA256": "4caedc7b49bad5b853121696d8005a8b0c9232a92306e1dfb3bc90af35c08774",
+          "shape": [
+            155,
+            15
+          ],
+          "verified": true
+        },
+        "first-lambda1": {
+          "bytes": 5656,
+          "fileSHA256": "4d593c82baccd995910183e2444ca63b625661c212948dc647f6ad7fef58b766",
+          "matrixSHA256": "aff2493b237c02744aefba1ef08a2db930d19d73ef5605b06873ccc38e18cda6",
+          "shape": [
+            1595,
+            15
+          ],
+          "verified": true
+        },
+        "first-leading-map": {
+          "bytes": 303,
+          "fileSHA256": "03743024964b8603f5f4eaf719d7c45a8346b3be60abdfba58517c1c7a84886a",
+          "matrixSHA256": "39124da17222d1f553fdef5cc586bd9b39465a6407b41fd9d6274089aed9e9b6",
+          "shape": [
+            22,
+            15
+          ],
+          "verified": true
+        },
+        "first-square-read": {
+          "bytes": 229,
+          "fileSHA256": "2e075f07e8ac10d902a6958f77e8830edd6b5f53e2a0b56ede7b53c17b674722",
+          "matrixSHA256": "9985902de39ff67fb9a99762640bef9e7ec0b18ce2e567c211f8e7aee6e1f76b",
+          "shape": [
+            9,
+            15
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-constant-kernel": {
+          "bytes": 2500,
+          "fileSHA256": "09cab363b50437ea6eee2c95e20a5272a9544bd326213f1128c7d12e88695106",
+          "matrixSHA256": "e39e5f592f0c2f9a375f7712efa7a7e9ec3c87be1fb0741fecbaa3ef67773e5a",
+          "shape": [
+            585,
+            2
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-full-schur": {
+          "bytes": 3491209,
+          "fileSHA256": "1bd11037f698620ff8ad791317c126266a05c482c4fa1ef316dcb3af2f61e222",
+          "matrixSHA256": "dd242580d7dc105a1b77cdbc4f0f3008f709bde769cf9b3b859db016238fb5dc",
+          "shape": [
+            1088,
+            24
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-kernel": {
+          "bytes": 5943,
+          "fileSHA256": "42a4f7b25ff7d738f870cd5d093909317014b95178757de981d8ff1e421123c1",
+          "matrixSHA256": "e38f3ebdbb694a420c2ec3ec461a091a57339ad496d722b47f1b66d16a9e8eeb",
+          "shape": [
+            609,
+            17
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-normalized-rhs-0023": {
+          "bytes": 10857,
+          "fileSHA256": "8b9961860a06fbe0139f123112c9555b089b4a6ec2624adb34cd26efc3d74cf2",
+          "matrixSHA256": "e44e0425594b89f2a592b93772013b541f5023b7d85454f315d52a1398ccf17a",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-primitive-unit": {
+          "bytes": 63074,
+          "fileSHA256": "658797004033d990bc7667236ebe376203060d860b7c7fbf9761cbc8451102aa",
+          "matrixSHA256": "28c77c3fc04db8d9b7837dcfa91a5ead49d62aa2849ffa5e9a96858048547d28",
+          "shape": [
+            583,
+            583
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0000": {
+          "bytes": 738,
+          "fileSHA256": "2819faacd5a2a925530c3ddcb302768d8b84903c010b358c1d12c426c9974a91",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0001": {
+          "bytes": 737,
+          "fileSHA256": "73b6aac5deaaa381fb00c6e9db03bd9636d11608def0eb27fae8825f4135dca3",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0002": {
+          "bytes": 948,
+          "fileSHA256": "8f60b0f5225ce122e0e3ecad3a7df5e9b5e1bf35d723b58c5076d3cf4f783674",
+          "matrixSHA256": "0c069d9c00ae9e03c2f2e2a4c4329d1f2a7ae9084ef0ec2e87d38430b2b19b76",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0003": {
+          "bytes": 737,
+          "fileSHA256": "1095dcb5d28557931ba5bf0a556458cb037b8bfe157b2bacd9e0f4dfa732e843",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0004": {
+          "bytes": 738,
+          "fileSHA256": "eab646e911a1e4c148bec5e19de31a39ad15952fbe0427c25d30845228689570",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0005": {
+          "bytes": 1483,
+          "fileSHA256": "8a4d478f029c94d9c9eceeb132a7289d0ac393c5bfa3dc09129904188053f4c2",
+          "matrixSHA256": "e034f71765d8b09d2017ed401c5d5f6de57050fd1b844df8d937989e88a53eee",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0006": {
+          "bytes": 1787,
+          "fileSHA256": "607cbf3706c296e2764eab7f0fb35032425f7c413f023d0fecf06dfc908e3486",
+          "matrixSHA256": "53b33b1e5e93977192a2dbfd8281ef18cd49b71bb31d2a5d2d8a85ad00a4c7a5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0007": {
+          "bytes": 738,
+          "fileSHA256": "79c48a234df66ee3afa2ba84f6c974f4354b7fdef0bc53f58112ba08f2b9d12e",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0008": {
+          "bytes": 738,
+          "fileSHA256": "c1c1505adc1f2e1ae51bdb96643b41b291aed08e756a4987cad885c935231d2c",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0009": {
+          "bytes": 831906,
+          "fileSHA256": "aa96bc02ec34a89498532d65777e1768e6df1f1c72182b1ef11e27b39e9cbfe3",
+          "matrixSHA256": "4a268de49de4e907fea118e5e583869e36b61e0244fcc3980b31df3010224148",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0010": {
+          "bytes": 829695,
+          "fileSHA256": "7a9baa93bdccd4bba791a22c856915e3be3fa29520b1fbad62180f3465b639a4",
+          "matrixSHA256": "0e48a116b935408fc16ce4a1dd94c26544a8452a52f206aebf49e4bbb7d6ca68",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0011": {
+          "bytes": 819559,
+          "fileSHA256": "9cce4f36549116b373d31c9b0b5cc8d885afac3e1e09ae8682f6b45d8015d659",
+          "matrixSHA256": "502f55669baf498f0a91b26b116a8917d03af18993d701064396bd40a0a4b2c5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0012": {
+          "bytes": 738,
+          "fileSHA256": "8634277e99e5548c7a371cada0b1be907b51e160fc68dbee622ed86f0854711b",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0013": {
+          "bytes": 737,
+          "fileSHA256": "9cdc67705275a8f05b4d098e47a39f4cebc4c120ea1cf401b432ad6fea00d067",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0014": {
+          "bytes": 836742,
+          "fileSHA256": "c6550bcd4de3d0cbf17282fe6ce8bf48218cc43c37187484363b9c9440a0b080",
+          "matrixSHA256": "02248a5fa71872879ff110436b4c852a9ddd0be6514491529fe1c802051ed562",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0015": {
+          "bytes": 823372,
+          "fileSHA256": "c68b6c0870dc924c6bf301434ad95cbc445570f4e83dbaf4d824fdd922e3ada3",
+          "matrixSHA256": "b8f6e8ae07eaaab59086350d761f8e065fab6eee577c12c236c2f2bdba202b69",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0016": {
+          "bytes": 772468,
+          "fileSHA256": "7bcb3026f6a71dbdceffb2d7705681d7d986822817c26f4ad42a2998f0c129f1",
+          "matrixSHA256": "3dd788f7a2f3e2d59a6059ca4ae97415976c14bb4afef592d533434e8acb1b72",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0017": {
+          "bytes": 742327,
+          "fileSHA256": "88470b06943412a2d6e4231cff5e873cb09873f906e525a66fbe313875845e5b",
+          "matrixSHA256": "eac32c9b698881f6023697c32e4c4634cef66375effe8f37ba841a2540ba3191",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0018": {
+          "bytes": 738,
+          "fileSHA256": "8f8ee8baece0557e7b75df169b95ff78deb40320554603e6f59f6a93a176e44a",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0019": {
+          "bytes": 738,
+          "fileSHA256": "34452aa6a2aaebbf9913eb29c1701e2484f605dc91cd0dc61847c5b15647e137",
+          "matrixSHA256": "b1cf17dbbc0374375760881c36735a6a1d506d90b910fe854ec74e8016fcd3d5",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0020": {
+          "bytes": 1053,
+          "fileSHA256": "846ce7d0b4938c3200b21ddaa8930d207edf78ccc88b26112e5903c58f8034b9",
+          "matrixSHA256": "ef9b8545c7ca169beeefa1e5e8e239d9d08f1f053e6b009860bfe87c1a5128b8",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0021": {
+          "bytes": 2513,
+          "fileSHA256": "a68474690a34e3884d0689e26a12df1ef61678f5fa93a777c869c2676c14929a",
+          "matrixSHA256": "ae4ccd628ec62b6a33745cba289019994199903ebec94209a6283cebafa2a175",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0022": {
+          "bytes": 1227397,
+          "fileSHA256": "ead9a230f42ac65ec904d38a802ae6c6d8f384b7f20cabce401f649dfcc67ec9",
+          "matrixSHA256": "c1e116409cd36eb7778ccb0e71d3227df91966050be7e6f3f1b653d60813e4c7",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-rhs-column-0023": {
+          "bytes": 1260982,
+          "fileSHA256": "e731e7b45a6bf26af6961985245d21415230835d73ec76fdd756e3010adc8926",
+          "matrixSHA256": "bd0cf73e2947f6835f214ba47cdecaea5ea6f5af67e430aacff49e1263532f0d",
+          "shape": [
+            583,
+            1
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-small-schur-kernel": {
+          "bytes": 478,
+          "fileSHA256": "30288992192c3bc7f183d62d6fa9d84a8d8fc76b8a17d22e4a17ed28ed5569b5",
+          "matrixSHA256": "59d0b2615779bcfda99c3ca8964e7ab81d7d4645806546ccaef12c28e5b3572f",
+          "shape": [
+            24,
+            15
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-unit": {
+          "bytes": 56872,
+          "fileSHA256": "d08e6a27739836df78fef2b170c024b50a1cb622c2855a484e1c33f5e9a11035",
+          "matrixSHA256": "328841a2f842f6d1122b9ba88daa5cc85402f67ebecf76150013da757e543c74",
+          "shape": [
+            583,
+            583
+          ],
+          "verified": true
+        },
+        "first-tangent-cubic-unit-rhs-solution": {
+          "bytes": 8203746,
+          "fileSHA256": "a149ac8e74bc7270365e4464745734b5a4bfcc5ae4c28d3487eb2d5f9dfd205f",
+          "matrixSHA256": "f7ecc2dea2a3a8a7ed8925a72c429849ea8df1584320f52a6c8ad8e38bc2b4c8",
+          "shape": [
+            583,
+            24
+          ],
+          "verified": true
+        }
+      },
+      "directedConclusion": {
+        "localTargetMembershipNotProved": true,
+        "noCandidateForSpecifiedSecondJetObstructionInThisFamily": true,
+        "noClaimOfFullFirstOrSecondConnectionRank": true,
+        "noInvariantSubspaceProblemConclusion": true,
+        "nonzeroFirstReadWouldRequireTrueSecondLiftBeforeObstruction": true,
+        "scope": "actual first jets with low corrections and the two constructed high cubics",
+        "secondJetsConstructed": false
+      },
+      "first-tangent-cubicActualRHSColumns": {
+        "allVerified": true,
+        "columnCount": 24,
+        "logicalJSONSHA256": "638320a527b8cbb1252fec450def9c705e42a61b0366109db9e8c1dfc2a2b2bd",
+        "perColumnMetadataRemainsInTemporaryCheckpoints": true
+      },
+      "first-tangent-cubicActualRHSSolvePolicy": {
+        "actualColumns": 24,
+        "actualOriginalRows": 583,
+        "algorithm": "dixon",
+        "columnsPerNativeCall": 1,
+        "independentRHSColumnScaleRestoredBeforeOriginalProduct": true,
+        "maximumNewGroupsThisInvocation": 128,
+        "noCompleteInverseConstructed": true,
+        "unitRowScalingIndependentOfRHS": true
+      },
+      "first-tangent-cubicCompleteSchurKernel": {
+        "allHomogeneousColumnsRetained": true,
+        "allOriginalRowsVerified": true,
+        "constantRank": 583,
+        "kernelDimension": 17,
+        "kernelSHA256": "e38f3ebdbb694a420c2ec3ec461a091a57339ad496d722b47f1b66d16a9e8eeb",
+        "rank": 592,
+        "schurMatrixShape": [
+          505,
+          24
+        ],
+        "schurRank": 9,
+        "shape": [
+          1088,
+          609
+        ]
+      },
+      "first-tangent-cubicConstantUnit": {
+        "allHomogeneousKernelColumnsRetained": true,
+        "constantKernelSHA256": "e39e5f592f0c2f9a375f7712efa7a7e9ec3c87be1fb0741fecbaa3ef67773e5a",
+        "constantSHA256": "616536db48581dc837b9e09d2056459219137b3438264460245e70fdb9428130",
+        "homogeneousKernelDimension": 2,
+        "pivotColumnsSHA256": "e6678f65156fae4219ee6137763469fb7222ee6ed5eecd89dd6a7a061b1be0c6",
+        "primitiveFieldRank": 577,
+        "rank": 583,
+        "shape": [
+          1088,
+          585
+        ],
+        "unitRowsSHA256": "91ae1dbf138b5222882a6f5c1a2d893f78e08a075047800e670e37049fb3906f",
+        "unitSHA256": "328841a2f842f6d1122b9ba88daa5cc85402f67ebecf76150013da757e543c74",
+        "unitSelectionMethod": "exact-rational-constant-transpose"
+      },
+      "first-tangent-cubicPrimitiveUnit": {
+        "RHSNotUsedToScaleUnit": true,
+        "maxPrimitiveCoefficientBits": 137,
+        "noCompleteInverseConstructed": true,
+        "primitiveUnitSHA256": "28c77c3fc04db8d9b7837dcfa91a5ead49d62aa2849ffa5e9a96858048547d28",
+        "shape": [
+          583,
+          583
+        ],
+        "unitSHA256": "328841a2f842f6d1122b9ba88daa5cc85402f67ebecf76150013da757e543c74"
+      },
+      "first-tangent-cubicRemainingRHSExecutionOrder": [
+        {
+          "actualInputMaxBits": 266,
+          "originalColumn": 23
+        }
+      ],
+      "firstTangentCubicExtendedFamily": {
+        "all6188OriginalSourceRowsVerified": true,
+        "allPaidHeadsRetained": true,
+        "completeZeroLeadingLowFiber": 2,
+        "constantHeads": 22,
+        "cubicCoefficientsSHA256": "8e0aa6d17bf6d985cf2defc618716f5889593dd36166f8218aac8f4331409c8e",
+        "firstNonzeroSquareRead": null,
+        "headMapSHA256": "39124da17222d1f553fdef5cc586bd9b39465a6407b41fd9d6274089aed9e9b6",
+        "lambda0SHA256": "4caedc7b49bad5b853121696d8005a8b0c9232a92306e1dfb3bc90af35c08774",
+        "lambda1CubicAllowedSpaceDimension": 2,
+        "lambda1CubicTangentDegreeBound": 1,
+        "lambda1SHA256": "aff2493b237c02744aefba1ef08a2db930d19d73ef5605b06873ccc38e18cda6",
+        "leadingDimension": 15,
+        "newLeadingDirections": 0,
+        "nineLambda1SquareReadAllZero": true,
+        "nineLambda1SquareReadSHA256": "9985902de39ff67fb9a99762640bef9e7ec0b18ce2e567c211f8e7aee6e1f76b",
+        "nineLambda1SquareReadShape": [
+          9,
+          15
+        ],
+        "normalDegreeBounds": [
+          1,
+          3
+        ],
+        "notClaimedCompleteFirstHeadSpace": true,
+        "notClaimedCompleteNormalThreeHighKernel": true,
+        "paidFirstHeads": 15,
+        "sameHeadReadInvariantUnderAnyCompleteConstantCorrection": true
+      },
+      "inputSHA256": {
+        "constantReceipt": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jetActions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "paidCubicSource": "b529d51efeb7195f3783576035f7c5e32e9a94a3bb1f8c44582177ba9dc51843",
+        "paidManifest": "74771ab772fe3ec392d2b5cbc237542480853a36b4274808530a107f5255283f",
+        "paidProbe": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
+        "paidReceipt": "2342b75a4c4c57015157e8df8c19d7ae617fe4a1863ffd7b24abad3211b113a6",
+        "unitHelper": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+      },
+      "memoryMiB": 2048,
+      "noLargeRecomputableDataUploaded": true,
+      "paidReuse": {
+        "all13409OldSolutionValuesCompared": true,
+        "all25024OldRHSValuesMatchedBySHA256": true,
+        "allOldFullSchurValuesCompared": true,
+        "newNativeRHSCountAtMost": 1,
+        "oldFullSchurColumns": 23,
+        "oldNativeRHSSolvesRepeated": false,
+        "oldRHSColumns": 23,
+        "oldRHSRows": 1088,
+        "oldRREFRepeated": false,
+        "oldUnitSelectionRepeated": false,
+        "originalBEqualsPaid": true,
+        "paidBinding": "ef9b747b9ad8c6b0413fb61b23e402df4c3ca14b13ad2ab568f7f8d1f048a03b",
+        "paidReceiptSHA256": "2342b75a4c4c57015157e8df8c19d7ae617fe4a1863ffd7b24abad3211b113a6"
+      },
+      "parentBinding": "ef9b747b9ad8c6b0413fb61b23e402df4c3ca14b13ad2ab568f7f8d1f048a03b",
+      "physicalCoefficientSHA256": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "4529d6170835368a1264dd9e4b32d0d83dcedb73655171ce8ba30af37263b176",
+        "L_y1": "afc72953144442626cfa4f04f151291537872b08e849c949cea9fc07eaf67095",
+        "L_y2": "13338e0883525415ec7cebff1cb3d5f8b6b6aff14d0ac43b3047a08176d4a6e3",
+        "P0": "a16dae3b916dc5f74b37232c17b204f5322469a84e5ab4e7a17c34c4415c97f5",
+        "P1": "1cc7b6a78438f3db321fb3614cdcdf5e3a04e61f4f6292498efbcdb14e6ad4f3",
+        "P2": "2d42c705d68e7c226dfebe3cb33e8a8022f8638e7dc99097b48f0e6c26157b0f"
+      },
+      "selfSHA256": "459538fc066f2df2372752c1a32ba33b6f2abe8f1ecd0ac44787cefd44214628",
+      "sharedSeconds": 180.0,
+      "tangentCubic": {
+        "a": "1",
+        "all17OriginalCoupledIdentitiesVerified": true,
+        "all5100OriginalHighRowsVerified": true,
+        "b": "-8109879152525169965/28815675695304760788",
+        "coupledIdentitySHA256": "48b0524e79e07979d8e801263a0fd40315f3edb4679969793dac73c96fbbf5a6",
+        "highProductSHA256": "6cb88429a46b4d6bf7bdd93c86923a8d65de3b42c07a522fc47b6deebe3c9a28",
+        "independentOfPaidPureCubic": true,
+        "newLowColumnSHA256": "fea07c871530d5fa96010717cc5d72da4f2c49054a9a1381f70c2fa33172e20e",
+        "newTangentCubicSHA256": "fc25498e8fb70c05e79c0efcff7b91f44ab432d2dd11d60f90a6190edb482ce9",
+        "noAssumedHighBlockRank": true,
+        "normalDegree": 3,
+        "originalLinearSHA256": "0f41b183d0f1707caf25382bf2aa6f630b2410e905436a64126ebf94503060f5",
+        "paidConstantColumn": 21,
+        "paidLowCubicColumnSHA256": "a81e14419d8a50135279b767e1e79a9f09f0f3836dadc0abae0af5b2fcaad776",
+        "paidPureCubicSHA256": "e1dd76784833bdd14ce91fc72d740633038a6578e0b17df4036297cde966251e",
+        "paidWeakColumnSHA256": "86d856606155499c7ac4b89e1f83495115c0d9d6ab8fed1c254edceba7bfa667",
+        "sameWeakDirectionForBothTangentCoefficients": true,
+        "tangentDegreeBound": 1,
+        "totalDegreeBound": 4,
+        "v": [
+          "-1631379328545643148382178350518852693586615104513669/96014956519817777606905422006886570621676482200706560",
+          "131878344249789660470546224703082165165162890528884061/9409465738942142205476731356674883920924295255669242880",
+          "-2935652747913742683228334234940188754718542463408137/196030536227961295947431903264060081685922817826442560",
+          "964596401824452047454126105645014508175728085639009/49007634056990323986857975816015020421480704456610640",
+          "-7628325638976693537493139440456037057910550298374729/294045804341941943921147854896090122528884226739663840",
+          "622924883662820394999652827049638356764305770707615/19603053622796129594743190326406008168592281782644256",
+          "-15718907970127000343728572318328120049187558913372/437568161223127892739803355500134110906077718362595",
+          "973516750653081756645778681200998990282236132801657/30629771285618952491786234885009387763425440285381650",
+          "0"
+        ]
+      },
+      "tangentCubicExtendedFirstFamilyVerification": {
+        "all6188OriginalRowsVerified": true,
+        "heads": 15,
+        "orders": 2,
+        "originalProductCoordinates": 185640,
+        "zeroProductHashes": [
+          "64648209aaedf5b1b1324d5e2dbf4ae51ac29391f1c3e558d71dc406ab8148c8",
+          "64648209aaedf5b1b1324d5e2dbf4ae51ac29391f1c3e558d71dc406ab8148c8"
+        ]
+      },
+      "temporaryManifest": {
+        "binding": "e21db6fb9dc121acc7de86da2323b47495a5284c3af104920cfa9b62f3fc1a3e",
+        "bytes": 17366,
+        "sha256": "665e56164eced8d28b96912545c016b4aee430d1eff767150d94ebf915c3a1b9"
+      }
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 17:15:55 UTC",
+      "beforeReadCommit": "ea56a6bd0225072ca2f8ece3c525481fbd4b598c",
+      "originMainAfterPull": "cb49fb2fa70a7fd1eba3e231649b015e2cfcef68",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 17:16:08 UTC",
+      "beforeReadCommit": "cb49fb2fa70a7fd1eba3e231649b015e2cfcef68",
+      "originMainAfterPull": "a5383f62d353890cc24e927b669dd2d6b67f8c78",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 18,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 6175,
+    "logicalJsonSHA256": "3dfb611ff4f13fefea40a935f4346afe37866d82a917809901fdea09fa425d23",
+    "itemCount": 18
+  },
+  "lastRulesReadCommit": "a5383f62d353890cc24e927b669dd2d6b67f8c78",
+  "summaryExcludesRecomputableArraysOnly": false
+}
