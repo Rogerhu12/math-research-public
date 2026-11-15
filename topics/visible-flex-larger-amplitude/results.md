@@ -105,3 +105,8 @@
 ## 2026-11-15 — Request197：完整族联合名义行与原完整453全链
 
 [197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)十二件及R419全文/完整diff核后接线：旧187全部84pins逐值保→93，实际driver56/native30，原c2f515/91dd内核不改；真180九词/β1⁄16/fresh C/cut/factory/deep112→完整112族后才联合数值行→全577/576×steps采样→同owner H/J/FD/453/final。名义表示共享原point预算、cap4096，原18900+2700/7200 BVP和全部阈值保。最终字值沿raw→worker→native不再归一化，完整族差仍对同词；单90KB保全部数字行/地址/失败/未访，六原必要scope及quiet后清理保，无新科学门。R419排版与reader实际读取scope声明仅元数据同步；无实际197结果，exact唯一R420。 官方run43774486084于23:22:50Z创建，source68fa2d402bb7c3695b50a28739566abe6ece3511、compute132997520684已进入step8原93源码/参数绑定；exact唯一R420终态，尚不推定科学开始或接受。
+
+
+## R406 — 实际192完整128接受与必要读回编号阻断
+
+[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)run43765999581/source6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2，compute132971102139失败/report132994397644成功；原owner/bridge完整事件已读。128唯一方向/α1在全部129248行、576段达到9.68582474751023176032080482454992093e−11，独立fresh replay完整残差与全部226输出词同。原返回stage/112/338×112=false、C-based physical-program audit=true、all/native/fullDN=false；未读stage内部错误、实际覆盖与audit极值，不借190填补。science step14成功，必要reader step15在build前硬编码request190而失败；报告只返摘要缺失，没有最终必要帧。19200原总预算未尽；cleanup因必要摘要/child-close receipt缺失真实skip，不能称已主动删除，runner结束后也无可恢复raw。199须三处namespace与当前reader编号最小修复后fresh重生原全链，原门/预算不变。

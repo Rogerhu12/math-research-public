@@ -22,7 +22,9 @@
 
 [186](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)/R397的64pins与原fallback、[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)/[190](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)的70pins/三literal/显式mean/113行C残差、[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)/[192](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)的77pins/完整113bit指数/wide226bit/一次RN113全部原责任保。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)旧77pins+7=84，仅完整20bit digit作实际CPU AVX2偶奇/全部尾或scalar，baseline旗标不改，非旧顺序Q/准确导数/速度承诺。各链真91→fresh64/J/R273→同job128/replay→完整576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800和90KB/quiet读回后清均不改；各run/负责人见H，amplitude唯一终态，旧链不相互回填。
 
-[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)两job同64310B/b46c1341，完整128唯一α1达到9.6858247475102e−11，独立全残差/576×226 replay逐词同。b16fac353的column_environment歧义导致stage编译返1/科学未起，112/338缺当前输入未起。audit575/576、7485/7488，stage575 query9已读而随后1原子推进未付，另queries[10,13)未访；内部1800秒返2、外壳非超时，极值仅已付部分。192/196包含同header仅源码风险，不替实际终态。原全门/预算/错误/未访保，quiet真清；199/R423/R424只三处namespace限定后完整重生，不作SHA续现场/native/fullDN声明。
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)64310B/b46c1341必要齐；128唯一α1达9.6858247475102e−11、独立全词replay同，stage实际ADL编译阻/112与338未起。audit575/576、7485/7488，stage575 query9后原子推进及queries[10,13)未付；1800秒内部budget，极值仅部分，quiet真清。192/196同header仅源码风险，各实际终态不互填。
+
+[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)原128一次α1全129248行/576段达9.68582474751023176032080482454992093e−11，fresh全残差/226输出词replay同。原stage/112/338=false、C-based audit=true而all/native/fullDN=false；stage具体错误、覆盖与audit极值未读。step14成功后reader硬写190在build前失败，最终必要摘要缺失；cleanup真实skip，非主动清raw，runner结束后亦无可恢复raw。199/R423/R424限定三namespace并修当前reader身份，完整fresh重生/原门预算与所有未访责任保；不冒已读组件细节或native接受。
 
 ### 1C. 真37→38与原非线性域
 

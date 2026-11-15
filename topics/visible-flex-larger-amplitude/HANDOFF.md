@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:27:15 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 5899928eedc707938656e8333ec59f9de18e26da。
+规则同步记录：2026-11-15 23:28:42 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cbcaa616926e9d4cb7d1376d687c174df086da4b。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -27,13 +27,14 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入原完整C重建；真十族453→同十词450、共用原7200总钟|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859已完成pin/恢复78源；127pins/完整18000与全部终门|
 |196/R415|43770686357 /4677faa0966475d17e10b20b75f0234c62fe3768|amplitude：compute132985694072已入step14；84pins/原全部链/预算/必要清理|
-|192/R406|43765999581 /6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2|amplitude：已读终态，必要reader硬编码190阻；R406待root全文核，组件缺失不补猜|
 
 只由唯一负责人读取终态原必要日志，不取运行中大日志。job绿不代科学接受，未返call不补拒。所有来源、配方、预算、错误与未访责任保各完整接口/结果。
 
 ## 最近结论与直接后继
 
-[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)真128 α1达9.6858247475102e−11、独立全残差/576×226 replay同；b16fac353名字歧义使stage编译未起，112/338未起。audit575/576、7485/7488，stage575 query9后推进及queries[10,13)欠付；1800秒内部budget/外壳非超时，raw清。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)原全位/偶奇尾/fallback与19200全链保。192的R406已交待root核，必要reader硬编码190导致缺摘要；不能补猜组件原因。199/R423/R424限定三namespace并修当前请求身份，原数值/预算/全部门不变，须完整重生。
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)完整128/replay接受，stage实际ADL编译阻；audit575/576、7485/7488，1800秒内部budget，raw清。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)完整位/偶奇尾/fallback及原19200全链保。
+
+[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)完整129248/576的一次128 α1达9.68582474751023176032080482454992093e−11、独立全词replay同；stage/112/338=false、C-based audit=true仅原返回flags，stage原因/覆盖/极值未读。science成功后必要reader硬写190在build前失败，最终必要帧缺；cleanup真实skip，非主动清raw、也不可SHA恢复。199/R423/R424只限定三namespace和当前编号后fresh全链，原数值/预算/全部门不变。
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)仅finite_secant/末端未起且清；[R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)/[195](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)实际root/Cholesky/两回代/226×224/mean/338原二阶FD保，127pins/78源/18000原全门；不冒IEEE/分支稳定，exact唯一R412。
 
