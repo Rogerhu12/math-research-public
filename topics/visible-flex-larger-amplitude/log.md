@@ -650,3 +650,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 23:16 UTC /root — request198公开运行绑定
 
 官方run43773780174于23:15:06Z创建，source4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040、compute132995301108已完成121+17 pins/四输入和原78源恢复，进入step8原2400秒science；root唯一R421终态，不读取运行中日志或预填科学接受。 完整七件已推4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040；每次实际pull核双README并记H，原全部科学/读回/清理门不变。
+
+
+## 2026-11-15 23:19 UTC /root — R419相关名义Robin行与完整真实字值误差
+
+[R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)及9205B/24c7681c helper已全文核：保187完整112/全部原candidate/正幅度/全实角，首个真实提交候选的关联角/w盒只给名义参数点；同一正可逆T共同形成两系数，准确有理max公共缩放先于binary64，至少一缩放分量为±1。局部精度在原point预算内、cap4096且finally还原原256；超限为表示工作partial，原mode/地址/数值未访另保。全原单位行族H减最终真实数字词的向外误差保留；不保证名义点属于真根族、共同全局C或误差小。原C/σ/338/453/H/FD/fullDN全部门不改，没有实际197输出；独立197接全链，exact唯一R420。 root另核原far取向T/seed事务提交/全112条件及F/B实际dyadic与Arb调用；只修论文7处LaTeX漏斜杠并署AI作者，数学不变。H前文逐字归档、open§4–6同，无本地科学/import/AST/fixture。
