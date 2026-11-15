@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 03:30:11 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:31:49 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 03:21:36.700168 UTC 9acb539da7861c3cecf0256575759015899a1266（同F finish process0c832fe8…）；cap03:17:50.561671→8f65c7d81629b02bf1f365c5f6a633a26826f95b，均两README diff空。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：fa53356cffee78df252db488d5445726ca764009；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：180c3a12b52a88189cbd63a467c26d300471748c；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。H9669B完整存notes/2026-11-15-handoff-before-actual-full-cap.md，包含前H9990及更早完整链；旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学与出版失败分记。
 
 ## 同一对象和总完成门
@@ -30,7 +30,7 @@ L1–16/7a97adc2…保完整low-even97/a与zC,0，(E−E0)(E−E0)*≤c*²Werr�
 ## Airy根、第一修正与全源：phase_inverse
 
 原Taylor12/Nraw/b*/1328转换/六profile/native及失败见H9669及其归档，禁重算。1079physical seam/653ledger、两branch/独立mean、η0/复δ≤1e−8、R1/6000/Σ1/128保。whole-piece80pin原science66668065…，43669106351 child0/10门、488.827716s、25新stage/4329原外行/9root/6case全成；native6668c9b2…44628B，仅formatter TypeError。40pin零数学receipt43671024244 child0/7门，process201e57af…47691B/summary832a57db…53301B，原science/native不变。新自然5.596MB case60278982…与旧5.630MB b*6324952d…均原Actions整件，禁connector。
-actual ed1e4b7c…：rootpiece全源负<1.264156e6/正<9.358131e9；完整R.001负<4.653601e20/正<5.805843e20，R.02负<2.713164e22/正<4.211712e21。原upper主导移至负piece2548/正2550，不能作误差下界。继续两真ray label的差，辅助2549 cubic只在原germ延伸；付Δd∂后比较ΔA/X/G、forcing、w1两导/Nraw，不把辅助试解当实际跨缝。修正seam/正weighted端口/strong-return/cutoff仍缺。
+actual ed1e4b7c…：rootpiece全源负<1.264156e6/正<9.358131e9；完整R.001负<4.653601e20/正<5.805843e20，R.02负<2.713164e22/正<4.211712e21。原upper主导移至负piece2548/正2550，不能作误差下界。N1–25/ff1400ce…已证两邻片相关合同：辅助2549 cubic仅原germ延伸，两真ray差付Δd∂/Δη，完整非零entry/b*常数、ΔA/X/G/forcing/w1两导/Nraw保；K0..3尾只用旧intrinsic15+复K3，k′尾分母14·16。条带sup与Wiener另付正宽差。两片新consumer实施，尚无数值缩界。修正seam/正weighted端口/strong-return/cutoff仍缺。
 径向R1–29/a13b5fde…及common-T C1–22/8d4119cb…保原Tκ²=Kη²、4j、可去z=j^-2势、全mean规范和无需g2′的两源，root为n1/3混合矩阵。准确主部∂T²+T∂X²；deformed两幅度保V/V_T，未知d∂/原I/J/j0/正两端图与seam仍付，未授新域/Green界。
 
 ## 外返回、新简单根和闭网络：tail_connector

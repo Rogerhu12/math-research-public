@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：两真实邻片的相关 ray 与第一 Airy 源转移](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)：N1–25保主部差、非零entry与b*常数，完整差分forcing和有序w1两径向导；复K3+旧intrinsic15支付k至三阶尾。该合同已证，实际两片域/轨道/完整源界由新公开consumer继续。
+
 - [R119：完整连续 Jacobi 强源与实际二次尾返回](results/R119-supplement-complete-continuous-Jacobi-strong-sources-and-actual-quadratic-tail-return.md)：原profile两向Cauchy费用2^4096J^8δ^-30，保全部mean通量及唯一height；实际Cj²二次余项和两selected DΓ提升后源回原Xβ，界2^400000(Y*²+X||b||β)。h/2重构已同时付Galerkin cutoff半径；外部analytic224匹配另续。
 
 - [R133：实际全部5970格同F方向矩阵](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)：43654510038 的32互斥范围和finish全部成功，4原格逐字复用、5966新格，7完整覆盖门，193状态/128高频方向/均值和真实测度全保；Green43672023585已启动，局部覆盖不替代全双边界逆。

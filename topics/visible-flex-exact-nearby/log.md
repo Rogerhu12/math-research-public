@@ -363,3 +363,7 @@ root独立核读finish process0c832fe8…24106B、summarybd555a3a…1758B与报�
 ## 2026-11-15 03:30:11 UTC — 实际连续源回原强尾域
 
 独立全文核S1–39：S7两行Jacobi、S17真实holonomy导数、S20–32全未来charge/三段账与source范数顺序通过。发现半角宽R_j中Galerkin J也变，代理修正Rnew≥2^-10Rold并统一用2^-15、review小球2^-24；无其余数学改动。最终54c51dc2a9f0a8b31469e434c519488c654ec0ec0ca63ef770c16c8377cc05e1，完整源回原Xβ<2^400000(Y*²+X||b||β)，仍保finite外口/两mean/height/Γ lift。原95f077草稿与3a4bc8修正版未混同；最终只状态文字修改为已证明。外analytic224和全部global matching继续。只读README核fa53356cffee78df252db488d5445726ca764009；结论立即独推。
+
+## 2026-11-15 03:31:49 UTC — 相邻物理片相关转移合同
+
+根全文核N1–25及原E.3–22/B.3–10，确认两scalar实际ray差、N11 G比值方向、N15 forcing号和N19/21–25有序乘积。独核发现kρ尾首遗漏n=15应分母14·16，代理已修；另明确N7–20为holomorphic strip supremum，Wiener插入需完整双尾/mean及正宽差。最终ff1400ce…22661B，旧3c62a221草稿不推。仅证明解析合同，不据零entry或小片宽授新数值bound；两真实邻片consumer继续，0旧target/转换重算。只读README核180c3a12b52a88189cbd63a467c26d300471748c；每结论独推。

@@ -123,3 +123,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 2026-11-15 actual quadratic/Gamma source strong-tail return
 
 S1–39已闭合实际ordinary源回原强endpoint域（[全文](results/R119-supplement-complete-continuous-Jacobi-strong-sources-and-actual-quadratic-tail-return.md)）：直接fixed-t两向复角Cauchy、真实profile积分/变差、全未来mean charge和唯一跨胞height，实际Cj²与selected DΓ余源给Xβ<2^400000(Y*²+X||b||β)。源范数通过全胞和支付sum_m sup_j，全部浅前缀和两个尺度接缝保留。继续精确tail chart与外部closed inverse的同analytic224接口；不把forced输出h/8自动当作无限重复输入h/2。
+
+### 2026-11-15 adjacent physical pieces correlation contract
+
+N1–25合同已证（[全文](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)）：分别跟踪实际与辅助真ray，显式付Δd∂和Δη，完整非零entry/b*常数与ordered Δw1径向两导、Nraw保。两真实邻片2548/2550 consumer继续，辅助2549 cubic仅在原germ作已付参考，不能代换actual输出phase。domain/trajectory/homotopy/denominator须实际门，sup→Wiener另付正宽差；仍保旧外行和所有mean/jump。
