@@ -300,3 +300,5 @@ R707/R708第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91�
 R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O，准确估值a+i+1+v(i!)；原全normal Taylor双和及每个精度的有限三角截断均保，边界高度不能删除a≥1的真实法向导数。
 
 - [R717：原完整Artin–Hasse返回及第二位支持](results/R717-original-height-two-artin-hasse-return-and-second-digit-support.md)：原整U唯一Artin–Hasse因子a_n=f_n或f_pk−f_k^p/p全部整；高度二全窗只有X_pk、X_(s+pk)各s−1个原指标需要第二位，其余第一位直接由R714的xZ1²读取。共同U_np V^p给三m全首块的准确有限卷积；支付实际二位后Σ_AH恢复原sigma至q，全部h≤p−1 Cartier行直接等原g_h。完整极帽m(q−6)(p³−p²)D2和j0/prefix缺口保持。
+
+- [R715：完整第一Z来源与五十实列整返回](results/R715-complete-first-z-source-and-fifty-neutral-returns.md)：同原六支最高30次中性家族增加五实列，完整50阶子式及原八几何关系付同ray密度1/全N整逆；双冻结/cd/W/三态/J2=1全部保持且同qcd整个五维FZ为零。纯中性差亦正规全零/J2=1/FZ=0，原负一深支仍非零。完整cd的T/S一阶混合项消去、尾p^(2N)，额外角域与移动cut不免费继承。
