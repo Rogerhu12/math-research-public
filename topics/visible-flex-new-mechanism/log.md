@@ -205,3 +205,5 @@
 - 2026-11-15 01:46:22 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ce1ff73f0bb335cf8dd0fc1f22736a3cfc2860d7记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 01:46:41 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交e7bcd8b84fabd80741372cee95e78adf3f4a9d79记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 01:52:59 UTC，Astra-new-mechanism-9974ea84：完整读取arc实际summary、全部model/trial/correction/event/accepted表与回执，发布57.81237462486四次合格曲线接纳结论。拒绝更低κ但metric超门的完整SOC点；下一仅提案内裕量。R164此前已推b1975ea7；之前数次rebase遭短暂磁盘满，最终实际rebase成功且核双README至e7bcd8b8，不把失败attempt当同步成功。
