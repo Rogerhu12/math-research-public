@@ -21,6 +21,7 @@ const arg=process.argv.slice(2).find(x=>x.startsWith("--max-block="));
 const MAXBLOCK=arg?Number(arg.split("=")[1]):2;
 const WITHB=process.argv.includes("--with-b");
 const FREE_NORMALIZATIONS=process.argv.includes("--free-normalizations");
+const REPORT_FULL=process.argv.includes("--full-matrix");
 let DEBOUND=6;
 assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=8,"max block must be between 2 and 8");
 const argTaus=process.argv.slice(2).find(x=>x.startsWith("--taus="));
@@ -417,7 +418,8 @@ const result={
  block_ranks:candidates.map(c=>({eta:c.eta,ranks:Array.from({length:MAXBLOCK+1},(_,h)=>elim(c.matrix.map(R=>R.slice(0,11*(h+1)))).rank),rank_with_B:c.rank})),
  native_W_jets:native,
  source_input_sha256:crypto.createHash("sha256").update(inputCode).digest("hex"),
- certificate:data,
+ certificate:data.map(c=>REPORT_FULL?c:{...c,matrix:undefined}),
+ full_matrix_omitted:!REPORT_FULL,
  actual_lift:"A nonzero full31 minor proves an actual full inverse. A rank30 auxiliary solution and its left relation do NOT by themselves establish an actual solution: the complete characteristic-zero relation or saturated higher-parameter Schur correction remains required. No auxiliary solution is substituted into the p-adic test.",
  arithmetic_scope:"All original Pi4 rows remain unchanged. New zero-mass corner claims are not inherited; all higher J_(2+6h) and positive pair masses must be retained. Z-scaled A_T is not identified with native W.",
  outputs_persisted:false
