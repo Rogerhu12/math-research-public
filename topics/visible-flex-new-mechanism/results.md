@@ -145,3 +145,5 @@
 - [R200：真实bridge纯响应、闭hook周期与单点准确支付](results/R200-right-step-nonzero-bridge-response-and-closed-hook-obstructions.md)：显式τ0 commutator全锚公式及右step首项非零；真实双字/Klein保全部基准给8N(Γ+ℓtH)+C。某些几何必失败；固定有限控制格式后IVT可精确调零一个右period查询，未付整个函数/joint。
 
 - [R199：全pure空间忠实的单调末step与合法低阶圆](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)：R96多packet给q*，b+tq*行列式排有限坏值且可保严格单调；重补三复矩/共同标量/八包差分保全部三阶及右f0。最右period恒0 iff universal pure成本0；hook成本以BB^rev正半倍入U，不冒实际逆元或全joint。
+
+- [R202：pure成本闭锥只余三个负字符权](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)：保closure的Cp=clπC及对偶Ann(kerπ)准确同构；单权提取后奇权/+2/−2/0均排，只剩−8/−6/−4能下降的完整正字符。λ+不灭纯核，不作pure障碍；未判三权或实际有限零成本。
