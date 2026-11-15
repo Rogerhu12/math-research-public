@@ -24,3 +24,5 @@ R707/R708原第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=
 - [R702：四十五条真实中性测试与完整三态算术门](../results/R702-forty-five-neutral-tests-and-complete-three-state-arithmetic-gate.md)：完整半周期/四挠整周期及隐藏⊥L给八条全参数关系、真正15维余空间，45条原中性实列的非零子式付同ray密度1/全N4整的新q30，新增深度成本0。原U0=S/U1=0、cd=S、W=6δT/J2=1同时保持；同Edeep的三态Y回S与原new、W回(T,T,−T)，四核真词同门返回。完整Eshallow Xi/参考/外谱、A34移动门及P30高项保，未将单深支当总矛盾。
 
 - [R711：原第六Cartier行与共同Frobenius误差消去](../results/R711-original-sixth-cartier-row-and-shared-frobenius-error.md)：首次越过R647五块：原第六Cartier输入有简单极，有限部须减1/Z；完整行T6=g6+(m/2)η+7κ5 a_m^+保实际首Frobenius误差和z/Z修正。原两m组合消η，a低行组合再消U_s，仍保原≤p+1窗的固定分子残差。j0侧为γ_m^6(L5/p6)/120，真实除商不删；未证明指定非退化。
+
+- [R713：双冻结与真实配对混合余量](../results/R713-symmetric-frozen-sources-and-exact-paired-mixed-remainder.md)：同R702真实45整逆改六参数右端，付双冻结(1,1)且保持cd/W/三态/J2；I/O/X同系数，真实J换元留下(Γ01−Γ03)∩CD_N，交域A/Q/L深严格消。CD上T/S同unit cut后保全log(1+Z/(bYX_n))及每个移位。纯中性差所有正规来源/词行零却J2=1，故负一深支仍须原混合补偿；真正首行定位同qcd的S34型5五维Z一阶来源。

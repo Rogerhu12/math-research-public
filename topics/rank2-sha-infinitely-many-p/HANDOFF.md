@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b6c4d3ab5ad3131b93e40b7b6f8a313e0a073a0d；2026-11-15 07:40:51 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:40:50 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
+- 最近已读规则提交：7cf160128953901a9e4c1d60cfd7cb5a45a17332；2026-11-15 07:44:43 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:44:42 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -16,7 +16,7 @@
 ## 完整前检、索引与分工
 
 压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-r711.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701–709、711已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
+R1–363、365–560、562–653、655–700、701–709、711、713已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
 root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R714后续Cartier/原两谱实际非退化；deep R712原指定forcing/同R实际像；theta R713真实浅补域/移动E门；literature R710原高斯/精确平均及中央接口。
 
 ## 固定目标与全部旧约束
@@ -29,7 +29,7 @@ j0 E:y²=x³+17,+24,+2312的rank2为R294/398/469，完整Selmer桥2+corankSha≤
 R594旧全native/RV/word/C来源、五型七Λ/质量/log在归档；依N新测试不搬固定P递推。R692三态R/K、真实RY/词像格逆观察及R695全216CM纤维、外尺度ζbarα/α、原12次Δ/双H门保。四unit depletion用质量转置，不把原Pnew/PH穿过移动深门。
 **R702** 新同q最高30：45条实际中性列，原π4保；几何整周期/隐藏⊥L付半周期a=ω²/2、全E4零及19−4=15维/八依赖。真实λκu的整逆经旧ray单位密度付全N4同时整，p>163，新增深度成本0。U0=S、U1=0、cd=S、nativeW=6δT、J2=1。
 EdeepN的Y三态=λ2N(S,ω²S/2+[1/2]new,ω²S/2−[1/2]new)，W三态=λ2N6δ(T,T,−T)；真实new尺度和log保，同门四核真词逆观察回三原中央。公开43689632357/job132737328611，四点45minor423/725、892/296，全53行通过；ci/exact-check-20261115-r702-fixed.json。
-R713续原Eshallow：e1-Y=λN[1/2]Xi−λ2N(ω²S/2+[1/2]new)。原π4中性只转移已付深缺陷，完整Xi仍为原未加权源；参考/每个外谱的Edeep推前0、Eshallow保λN原投影，不追加中央零。
+**R713** 同45整逆取双冻结(1,1)，实际J换元剩(Γ01−Γ03)∩CD_N，交域严格消；T/S同unit cut后保完整log(1+Z/(bYX_n))。原Eshallow Xi/参考/外谱/尺度质量全保。真实中性差正规来源/词全零但J2=1，负一深支仍须原混合补偿；下一条是同qcd的S34型5五维Z一阶来源。
 R693/R702 P30全J2/8/14/20/26保，原负一Δ估值3n−2N+vI（n>N且2n>vI），I非零非unit；cd-T缩Z观察不是nativeW，全近相消/尺度质量/补域仍须同域联立。
 **R698** whole A34在[68] A/Q盖上=B2，adjustedCM13/19逐项交换，未Π0来源给原A/Y/Z真词S/new/H。Π0不穿A深；AdeepN+34及shallow34≤vA<N+34、原H双门/12次权差、全非principal/W/V补域保持。公开43685270950/ci/exact-check-20261115-r698.json。
 
