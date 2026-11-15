@@ -14,10 +14,12 @@
 
 - [九原17模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成，run43674463008九实际费1339，全原来源/输出及carry真；不重旧模页，数据依规则仅历史可查。
 - **[真Q标准Koszul支撑交恰29维](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：** run43679903558/math33.711323768秒，原1603方块Dixon+全部1834残差，29列全6188来源/4367整数输出真，36自由像rank29、并旧23仍29。故旧23确属该空间，新增6真方向，char0同选秩4318…4325；标准族已穷尽，继续其外至多7个未定方向。
-- 同4354选列mod31秩4318/连接3/36自由I；不得混全6188秩4340/连接4。[模31前29轴](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)已付；本次Q像是否也等于前29轴正在做精确小图探针，不凭模31猜。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
+- 同4354选列mod31秩4318/连接3/36自由I；不得混全6188秩4340/连接4。[模31前29轴](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)已付；真Q小图已实际0.063932317秒核成：top29det mod31=1、归一后bottom7全零，所以Q像也恰前29轴；下一七方向都在此标准族之外。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
 - [187注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)、[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)及[31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)均已付；ΓΦ=I，标准来源31饱和，但投影不保J。
 - [真p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)三个全原检查点/自由I36真，当时仍23；[旧23完整一次闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)严格仍23。52/26/39确定LLL候选全原乘回非零，该入口结束，不再盲增位或换观察行。
 - 原17式线性rank8/二次rank17、m0/m1的31单位真消元已付；有限来源运输仍保。[固定B/e下降](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)须同费用/目标/分母指数于无界精度可解；p6不足。原D自然度8770、公共有限K60；任何条件降度须先有Q[s]成员性，模幂降度另需lc(D)31单位，均未证。
+
+- **[统一条件成本](results/R150-appendix-selected-infinity-kernel-count-conditional-source-cost.md)：** 同选真核数c≥15给8755−c，换列只保c−1阶；当前29真核故条件cost≤8726、非基≤8725。仍须原目标成员性，lc(D)31单位及固定e全精度未付。
 
 ## 同w边界：完整返回仍须费用估计
 
