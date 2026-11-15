@@ -1,0 +1,82 @@
+name: visible-exact complete signed nonmean density H3
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-signed-nonmean-density-h3.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-signed-nonmean-density-h3
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+  PHASE_MANIFEST_SHA: 85f8a71e44da88c594425bb1d1e213ddf6ce6734961abe6895d815566bd34eca
+  PHASE_PIPELINE_SHA: 65a7e98a8ca256a389998c5481a92ce54604808255930af5327be3bdd11eecd7
+  PHASE_WORKER_SHA: c091e1dcee0301c8324ec1a4483c927dcc6307b76d4497b33c2a1eb4c542ec98
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  signed-nonmean-density-h3:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 360
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-nonmean-density-H3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Check the full immutable AST closure and validate the one new signed density transport
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_nonmean_density_H3_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-signed-nonmean-density-h3-science"
+          --out-dir "$RUNNER_TEMP/visible-signed-nonmean-density-h3-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.
