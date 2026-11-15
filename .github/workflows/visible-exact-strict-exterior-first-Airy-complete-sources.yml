@@ -1,0 +1,134 @@
+name: visible-exact complete strict exterior first Airy old-circle sources
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-strict-exterior-first-Airy-complete-sources.yml']
+  workflow_dispatch:
+    inputs:
+      resume_run:
+        description: 'Optional exact strict exterior run whose completed coefficient and case prefixes will be reused'
+        required: false
+        type: string
+        default: ''
+      resume_attempt:
+        description: 'Original attempt for the optional exact prefix artifact'
+        required: false
+        type: string
+        default: '1'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-strict-exterior-first-Airy-complete-sources
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-exterior-first-Airy-complete-sources-CI-inputs.json
+  PHASE_MANIFEST_SHA: 84a2491539a0ed064f24ff6d3da5c6c50dc6b7f51f35e8f8d9985f9a20fa6ade
+  PHASE_PIPELINE_SHA: 25cfafe300345da66684b745e5dafa9ea86f008b3ad43a4fa654d5c8b7599475
+  PHASE_WORKER_SHA: dbc27194af263bc8d2d1046246f1044b14fdb3fe5a85c671845b2e78c87ab008
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  complete-strict-exterior-first-Airy-complete-sources:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-exterior-first-Airy-complete-sources-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Verify the separately pinned publication worker
+        run: |
+          python - <<'PY_WORKER'
+          import hashlib,os,pathlib
+          path=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources_public_worker.py')
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA'], 'publication worker changed'
+          PY_WORKER
+      - name: Hydrate27 exact successful inputs and the complete exterior source closure
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the complete pinned Python source closure without running mathematics
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['PHASE_MANIFEST']).read_text())
+          for entry in manifest['files']:
+              path=pathlib.Path(entry['path'])
+              if path.suffix=='.py':
+                  ast.parse(path.read_text(),filename=str(path))
+          PY_SOURCE
+      - name: Install the pinned original numerical environment
+        run: >-
+          python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Set the actual result path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-strict-exterior-first-Airy-complete-sources-output" >> "$GITHUB_OUTPUT"
+      - name: Prepare a separate optional prefix directory
+        run: mkdir -p "$RUNNER_TEMP/visible-exact-strict-exterior-first-Airy-complete-sources-prepared"
+      - name: Restore the exact original complete larger root native
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-piecewise-real-root-fold-resume-v2-43616813816-1
+          run-id: 43616813816
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-strict-exterior-first-Airy-complete-sources-prepared/root
+      - name: Restore the exact original complete directed matrix native
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-directed-matrix-old-circle-sources-43632464994-1
+          run-id: 43632464994
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-strict-exterior-first-Airy-complete-sources-prepared/directed
+      - name: Restore an explicitly selected strict exterior prefix
+        if: ${{ inputs.resume_run != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: visible-exact-strict-exterior-first-Airy-complete-sources-${{ inputs.resume_run }}-${{ inputs.resume_attempt }}
+          run-id: ${{ inputs.resume_run }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/visible-exact-strict-exterior-first-Airy-complete-sources-prepared/resume
+      - name: Reuse every exterior derivative and local source and compute the full old-circle and mean sources
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-strict-exterior-first-Airy-complete-sources-science"
+          --prepared "$RUNNER_TEMP/visible-exact-strict-exterior-first-Airy-complete-sources-prepared"
+          --out-dir "$RUNNER_TEMP/visible-exact-strict-exterior-first-Airy-complete-sources-output"
+      - name: Preserve every true native and failure record
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-strict-exterior-first-Airy-complete-sources-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: error

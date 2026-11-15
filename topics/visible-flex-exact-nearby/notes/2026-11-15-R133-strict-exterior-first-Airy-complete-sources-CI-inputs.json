@@ -1,0 +1,262 @@
+{
+  "kind": "immutable_complete_strict_exterior_first_Airy_source_consumer",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "arb_precision_bits": 320
+  },
+  "purpose": "Consume every completed strict exterior derivative row with the full old-circle same-order words, compressed raw-derivative mean, and independent even-mean equation; reuse all local source arrays and all original natural mathematical prefixes.",
+  "input_paths": {
+    "exterior_index": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/strict-exterior-first-Airy-local-sources.json.gz",
+    "exterior_process": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/process.json",
+    "moment_native": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+    "seam_native": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_seam_operators_ci/run-43625828234-1/consumers/actual-first-Airy-seam-operators.json.gz",
+    "directed_process": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+    "inner_native": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/inner-first-Airy-complete-sources.json.gz",
+    "inner_process": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/process.json"
+  },
+  "external_completed_natives": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "run_attempt": "1",
+      "artifact": "visible-exact-piecewise-real-root-fold-resume-v2-43616813816-1",
+      "inner_path": "consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "prepared_path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "directed",
+      "run_id": "43632464994",
+      "run_attempt": "1",
+      "artifact": "visible-exact-directed-matrix-old-circle-sources-43632464994-1",
+      "inner_path": "consumers/directed-matrix-old-circle-sources.json.gz",
+      "prepared_path": "directed/consumers/directed-matrix-old-circle-sources.json.gz",
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+      "bytes": 7873296
+    }
+  ],
+  "exterior_identity": {
+    "run_id": "43657793725",
+    "run_attempt": "1",
+    "actual_returncode": 0,
+    "native_sha256": "7322737799bb339750e2df4fb9738da32690801cb669655a600200df5691ba35",
+    "native_bytes": 14518,
+    "process_sha256": "bca94cb112df2f916935b002ed3c4ffd58ab6eea827f579d82c1864369308f4d",
+    "process_bytes": 43892,
+    "source_sha256": "e196557e61aa9b83249654a1a81ca3a003ca38e1e07f4ff4fdb19a877f86f4df",
+    "manifest_sha256": "acf16500058828ddb96dcec22de8d3fb80cd5743e979dae908a554566a3c49f7",
+    "complete_coefficient_rows": 1328,
+    "complete_exterior_rows": 4359,
+    "complete_radius_cases": 6,
+    "mathematical_gates": 11,
+    "full_original_case_and_coefficient_bytes_retained": true
+  },
+  "inner_identity": {
+    "run_id": "43657933806",
+    "run_attempt": "1",
+    "actual_returncode": 0,
+    "native_sha256": "6b5e6c646f02b48d82f25e12a41b329e7ab71d649b39d29c1608ef03a1fd847e",
+    "native_bytes": 25724,
+    "process_sha256": "e54c7505255182567a65d7b93af18726dced7cedc8b2284841e268582402946b",
+    "process_bytes": 20208,
+    "source_sha256": "0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf",
+    "complete_same_order_matrix_rows": 4,
+    "successful_stages_recomputed": 0,
+    "successful_stages_reused": 2,
+    "permitted_reuse": "Copy the four original same-order complete word conversions verbatim; copy the radius-independent near/far constants only. Do not reuse the smaller-domain inner phase, PQ, or amplitudes for the exterior."
+  },
+  "directed_identity": {
+    "run_id": "43632464994",
+    "run_attempt": "1",
+    "source_sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d",
+    "manifest_sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f",
+    "native_sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+    "native_bytes": 7873296,
+    "process_sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8",
+    "process_bytes": 49990,
+    "complete_coefficient_rows": 1328,
+    "complete_gates": 8
+  },
+  "mathematical_parameters": {
+    "fixed_intrinsic_parameter": "eta_0",
+    "real_delta_radius": "1/100000000",
+    "exact_inner_radius": "9/1000000",
+    "input_cutoff": 97,
+    "new_phi_width": "1/512",
+    "original_complex_coefficient_width": "1/16",
+    "first_correction_density": "n^(1/6), n=4|j|",
+    "radii": [
+      "1/1000",
+      "1/500",
+      "1/200",
+      "1/100",
+      "3/200",
+      "1/50"
+    ],
+    "actual_source": "J P S(mu L0 w1) plus all nine complete nonlocal words and the independent even-mean row",
+    "same_order_word_conversion": "kappa_5over3 times z, minimized only after a complete same-width word",
+    "real_circle_bounds_never_promoted_to_complex_strip_bounds": true,
+    "zero_artificial_inner_interface_source": true
+  },
+  "prefix_recovery": {
+    "exact_same_source_manifest_runtime_and_all_inputs_required": true,
+    "coefficient_table_and_each_actual_case_are_natural_stages": true,
+    "every_new_complete_matrix_row_profile_and_integral_is_checkpointed": true,
+    "partial_complete_profile_reused_without_recomputation": true,
+    "completed_case_summary_restored_after_index_interruption": true,
+    "all_failure_and_original_prefix_bytes_retained": true
+  },
+  "scope": {
+    "all_input_modes_abs_j_at_least97_and_all_output_modes_including_mean": true,
+    "exact_old_projection_and_independent_even_mean_retained": true,
+    "original_complete_local_source_reused": true,
+    "full_original_physical_seams_remain_separate": true,
+    "positive_only_original_decaying_Airy_source_columns": true,
+    "positive_full_weighted_port_conversion_claimed": false,
+    "unknown_high_feedback_or_final_strong_inverse_or_PDE_branch_claimed": false,
+    "original_target_FFT_coefficient_fold_derivative_and_seam_recomputation": 0
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/actual_first_Airy_seam_operators_ci/run-43625828234-1/consumers/actual-first-Airy-seam-operators.json.gz",
+      "bytes": 904977,
+      "sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+      "bytes": 49990,
+      "sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/inner-first-Airy-complete-sources.json.gz",
+      "bytes": 25724,
+      "sha256": "6b5e6c646f02b48d82f25e12a41b329e7ab71d649b39d29c1608ef03a1fd847e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/inner_first_Airy_complete_sources_ci/run-43657933806-1/consumers/process.json",
+      "bytes": 20208,
+      "sha256": "e54c7505255182567a65d7b93af18726dced7cedc8b2284841e268582402946b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+      "bytes": 4837715,
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-1-100.json.gz",
+      "bytes": 1712245,
+      "sha256": "1bf250f7bd2f96cdc331fe2c876527e9a66e7ae3ea4e03080a8347f2bca3454b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-1-1000.json.gz",
+      "bytes": 278441,
+      "sha256": "f036ffdbe1b5f82074df6680d8ed8546e3b923caaa2d75511e9f7f936af037f2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-1-200.json.gz",
+      "bytes": 1197342,
+      "sha256": "7e2bc6efdbe55987ce2b505dcfbd1287ac267ab155dca18990c247dec180cc77"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-1-50.json.gz",
+      "bytes": 2522939,
+      "sha256": "fd3308cbe8828c58d355b07d148b5726c99fb36101b481f06365ddc864a5a07a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-1-500.json.gz",
+      "bytes": 527166,
+      "sha256": "594a12a49afcef302f373f4650a64be7971bdc6104d835e256ede91fea3d5fc5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/cases/radius-3-200.json.gz",
+      "bytes": 2105663,
+      "sha256": "5ac946cf9eebf66a627eedab0f7422b50609f91c3411bbd63d342a6c607e993e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/coefficients/complete-new-first-coefficient-derivatives.json.gz",
+      "bytes": 2528689,
+      "sha256": "5a3c5f4d7a8b65e35c698a5b68725c3f7f6d99a8bcb0d00a6c2c36bdc78f6ddd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/process.json",
+      "bytes": 43892,
+      "sha256": "bca94cb112df2f916935b002ed3c4ffd58ab6eea827f579d82c1864369308f4d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_local_sources_ci/run-43657793725-1/consumers/strict-exterior-first-Airy-local-sources.json.gz",
+      "bytes": 14518,
+      "sha256": "7322737799bb339750e2df4fb9738da32690801cb669655a600200df5691ba35"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md",
+      "sha256": "3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115",
+      "bytes": 12757
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+      "bytes": 12056,
+      "sha256": "16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+      "bytes": 11462,
+      "sha256": "394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md",
+      "bytes": 8721,
+      "sha256": "8ca5e54a1072e801acb3622cce8c6f04c6240691d000453804f46899d57a96a5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md",
+      "sha256": "3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9",
+      "bytes": 17618
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md",
+      "bytes": 12186,
+      "sha256": "55baa5f04d83a170ed422b6266c51e31f55c6471e04a5ac1fcac138eb2406d0c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md",
+      "bytes": 9219,
+      "sha256": "77bfc0059ccd56a1814eca086bec47c5a83e8e4f3dbc816321c0f9e953fbd4e6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md",
+      "bytes": 14925,
+      "sha256": "557dd24e61fd7b6ab5b41c4d4164b508c46c51b16c5387ea5c716eb4f855dbd7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md",
+      "bytes": 10026,
+      "sha256": "1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-third-jet-exterior-and-holomorphic-root-budget-for-first-Airy-residual.md",
+      "bytes": 16695,
+      "sha256": "cc6ab27a1f798a3a8d0dbe773e3f41f987dc4351eb17e9f0e01817b9c5ddfd6b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_complete_sources.py",
+      "sha256": "0b0dc7b3b5c747dd8935f77c75554c60f2b08fd40a6cf5dd27c7c81f5c945fbf",
+      "bytes": 40131
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources_CI.py",
+      "sha256": "25cfafe300345da66684b745e5dafa9ea86f008b3ad43a4fa654d5c8b7599475",
+      "bytes": 11192
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources.py",
+      "sha256": "4c3af703ad2165c8efc87d6f4f946c7aa5fe4beddcc5931f9071db7665736817",
+      "bytes": 36924
+    }
+  ]
+}
