@@ -461,3 +461,9 @@
 ## R271：保持原实际测试的最小coherent来源与完整残量（2026-11-15）
 
 [完整证明](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)构造Rcoh a=Σ(-C)^j a⊗(D*)^jΩ/σj²和Hcoh=Rcoh*Rcoh；fcoh=Rcoh Hcoh^-1g是真空forcing到其像的正交投影。原总孔Q≥R+h−1下，直接用顶部残量及伴随因式分解，证明原VQ/KQ/u投影完全保持，总norm及defect不增。整(C+D)残量平方精确为ΣEj(e_(j−1)/ej)Varμ(W)；连续尾h≤2x时≤54x^-3||g||²。显式Ei fcoh不为零，保全部混合及自然域，不将此小残量变成未经证明的返回逆或核距离。
+
+## R150：原饱和商缺陷恰一维，仿射界299；全56原行付60次因子（2026-11-15）
+
+[J1完整实算](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)在0.977497686秒核原2015项/6069系数31整、两域各211式及全部最终整除，H3特征长Q230/F31231，完整χJ=s−2。因此C/pC长314；连已付15个系数p方向得Δaff≤299/齐次≤365，barR|(s−1)(s−2)²P+²P−²E6Q60²/deg141，root2准确预算u+v=2。没有取等于预期更大缺陷。
+
+[全56完整rank21证明](results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md)依据全部原行modf的21真单位主元/11165坐标和35×1全零，得f60|Ω|f60²，每个支撑只有一个正Smith因子、指数待1或2。M60=Rout/f≤81，九M60h*tj原Q成员且总乘子≤104，来源费8471。monic f31整后保持原D*不缩放，全部精度已有来源统一降费8595；不新增解或31分母。后续f²大matrix MemoryError只影响未完成精度，转两RHS Bockstein继续。
