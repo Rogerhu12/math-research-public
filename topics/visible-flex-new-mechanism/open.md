@@ -122,21 +122,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。下一R330评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
 
 
-### R328/R331：新面积阻断无常项弱幂类，继续真实offset通道
-
-[R328](results/R328-another-complete-Gaussian-area-excludes-homogeneous-weak-power-packets.md)保原Pff尾得完整AL=K−C/3、AU=−4J−7C/3。对所有无常项左右5/2曲段+实际rank-one补块，π/2全K=−2J/5、J<0，与朝向/反射侧无关；新A−1−3 I0=0迫旧完整Ψ=ND4/(24P)−36tJ/[5(7+81t)]>0。R325已列门仍真，正因此它的新面积必非零，不得继续只调该被排类频率。未排的是内部常项Cν，其真实ΔK=−15ACν/32∫|x−b|^−3/2g″²；R331须把其实际cutoff、矩回补、两面积、Ψ和三directed同一profile联付，不能把一个局部可调号当整体可行。
-
-
-### R331：真实宽恢复已支付新面积I0和原一层，续新I1/I2
-
-[R331](results/R331-interior-constant-and-wide-moment-repair-pay-the-new-area-and-old-layer.md)保R328无常项否定。内部cχ_R的导数与固定核心不交，原三复矩准确Q0+c²μχ；三个真正宽rank-one包用复平方根对应实pair补回，|z²|≤C(R³+c²)。由新A−1−3 I0精确解c(L)=O(L)，R=ηL使全部新增二阶quartic=O(L−1)，而朝内负Ψ保持−constL。原八copy四次权均值0、真实镜像/旧面积、十二全块消交叉，之后强正宏块与同F★有限N联付两面积所列门、Ψ/三行/指定一层全θ。新面积I1/I2当时仍欠；R332正读真实平移矩阵，不假定三矩自动全零。
-
-
-### R332/R334：新面积I1已付，I2不能只靠移位
-
-[R332](results/R332-true-translation-and-reflection-pay-the-next-Gaussian-area-moment.md)对原L/U保全部显式x平移项：L→L+δ(S−R)/2，U→U+δ(R+2S)+3δ²P/2。只有旧A−2−3三矩已0，才得新面积普通三角平移。中心偶pair的PD/LD/UD真紧奇，polar原二导偶，故A1=C0A0；原十二copy清cs的次数1位置项，新I0/I1均全θ0。强正块与最后有限N保零。I2在A0/A1=0后真平移不变，R334继续真正同圆形状/费用联付，不能靠位置重排。
-
-
 ### R330/R335：两个真实内部退化flux与整T已同时支付，续整包量
 
 [R330](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)对R324最终实际正解析prefactor包用z=p^(2/3)找到Af0且p,r>0的真点。原K=−r⁴/3−2Lf(Puu)/3，保真实尾/平台修正，通量精确−8a³(a²−b²)r⁵/45；两个对应实际copy与δK给−10ρ0⁵ρ1⁵C²(t1−t0)非零。成本−8/−7保R323十self；R297其余8T单位作真有限Laurent投影后，20×20块三角联付wholepure/十self/整T/两flux。R222/R302保所有基准与固定芽/profile/点，改变全局geom后用真实m*重取wc，flux规范不变。全T0只把平台化成逐q_i0，尚未付全部q/Ve/其他点/原特解/13同行；R335续原整包总flux而非再数行。
@@ -160,3 +145,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R334：新A−1−3三矩全付，继续第三面积而不重复已付门
 
 [R334](results/R334-positive-dilations-pay-the-full-second-Gaussian-area-with-the-old-layer.md)取R267 §§3–5未锁能量根的两α族；实际母宽/中央正幅横截给Fκ±，四真实方向正锥R²。原完整算子同锚缩放给I2 Λ−5、Ψ Λ−7，真四次权Λ5后支付弱块实际两even I2只耗Λ−2正Ψ；所有宽恢复/矩补偿都保在弱目标/负储备。新四模块固定，原全72零强controller用F★保全部面积/quartic，有限N支付三完整行与指定一层。当前同一弱圆两完整面积全部θ已付；不宣六能量/全部Gaussian及fullperiod。R337续原第三面积/正I反射架构的真实门。
+
+
+### R335/R338：全响应整包flux的真实Green修正，继续纯核/联合核像
+
+[R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)保原E8完整D³自伴与两次不同Green边界：正式π=raw/16，5Ω−16∫u‴πV=4C_tail，C_tail完全由原二次左尾μ/ν三矩给出。L/[P,R]使clean16/5差2μ0M3/15≠0，不能只用形式自伴丢原尾。全Z十八方向Ω0；complex紧输入自身三矩0才全R clean，非零实micro不满足。一般R∩kerπ及R∩kerE上的真实像仍欠，R338续原−6全标签尾像；与R330内部flux、R333wholeQ控制分别保准确范围。

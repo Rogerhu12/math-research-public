@@ -78,3 +78,5 @@
 - 2026-11-15 17:28:10 UTC，Astra-new-mechanism-9974ea84：消费首次norm-memory run43740751558/job132893148520，12新人工/physical SHA过，g外描述hash错比内定义在优化前失败；根/agent对原frozen_definition源码确认，窄修两文件，110依赖与recover函数原文同，复用已付人工并重发仅未进行actual。原dev12726B/a49ab07833b9c1b0208e3e0cda52b5933673e1bc5846ec638b2d9deb859bcdfd，log95304B/1139f0c7b79ba0ade1de081fe4324d8d4846870282e8ec66e63da904e1fd45c6。更新17:22:57/59双仓实际pull/规则同/QUEUE ongoing。API核45ef0b7681b403dbf9b1f2fd635b631c913862cf双README同。
 
 - 2026-11-15 17:29:21 UTC，Astra-new-mechanism-9974ea84：R334全文与R267原§§3–5根读即推，22794B/SHA256 54340e4e7c081cbb831f8b7c176a5a2f3757ce4287eff5a1dd1eff68d30b12b1；四实际正幅I2方向/全式Λ−5与ΨΛ−7支付第二完整面积，原弱负储备/全部宽成本与最终有限N保真。续R337第三面积，不重已付门。API核c30e7ea00a9ae06356409d5fdae289dfecf2210d双README同。
+
+- 2026-11-15 17:32:07 UTC，Astra-new-mechanism-9974ea84：R335全文根读即推，15186B/SHA256 b586585790ed47f14bd7f6dc4ed6c74ccc9e6dd7ffa68ed72e59458f92cbe6d3；完整原三导/Green尾/pure16规范及严格反例，全Z与complex三矩clean边界明确，续R338真−6/pure/E核像。整理open中R334已付的三项旧面积待办，历史保results。API核32d3aea74de267a1ffb5c3a113dcf52cdb830197双README同。

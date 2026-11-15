@@ -522,3 +522,10 @@ R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定
 [R334 完整建设性证明](results/R334-positive-dilations-pay-the-full-second-Gaussian-area-with-the-old-layer.md)使用R267原两斜率族，保持真实三矩、旧三面积、新I0/I1与third；不套其后来六能量根。两个不同α使(αβ,1)独立，真实正母宽的γ参数给Fκ两侧，从而四个正幅方向覆盖新I2的两个even目标。原E8及右锚全式给新面积I2按Λ−5、完整Ψ按Λ−7；四次幅Λ5保I2准确目标而把正Ψ成本降为Λ−2，取一个有限Λ保R331严格负储备。
 
 其后全72零强控制宏块支付剩Ψ，四个新块和带常项宽弱块均固定；同F★保原面积/quartic，两个even形/真实位置正锥在最终坐标的有限N清完整三directed。故同一个真实弱单hook rank-two圆具完整三阶、旧A−2−3及新A−1−3各三外矩全θ0、Ψ/三行/指定一层0。原过渡成本/全部尾/最终位置先于N保全。根核R267 §§3–5原式；未执行程序，不称全弱圆72条件或第四period/ruling全付。
+
+
+## R335：完整响应总通量的正式pure归一化与真实二次尾Green公式
+
+[R335 全部原式](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)从原E8的统一D³形式D²(gD²)+D(hD)+c，保紧输入/紧系数自伴边界，再为有尾函数另保G(a,b)=a″b−a′b′+ab″。正式π是raw pure的1/16；全响应准确5Ω−16Lπ=4C_tail，C_tail=G(qE,T)−G(qA,bB)+G(qB,bA)，并列真实μ/ν三矩尾表。L/[P,R]给Ω−16Lπ/5=2μ0M3/15，三不交bump构成严格非零实紧反例；不将该非pure0反例外推为pure核像非零。
+
+全第三对角核Z十八方向响应Ω恒0；若complex紧输入自身三矩全0，原尾全消，clean16/5成立。非零实紧微包μ0>0，不适用。一般real pure核/wholeE核Ω像仍待付，不能由universal self或形式D³伴随直接断言。root纸核完整分部积分、系数和反例；仅改开头为“未执行求积/符号程序”以明确手推与执行区别，无新程序或人工。

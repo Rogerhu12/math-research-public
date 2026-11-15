@@ -41,9 +41,9 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R314–333完整pure/self**：R314保全T九矩/局部Euler六jet忠实，R322真成本σ→self缩放σ−2。R316 H*满足π0/整Q0/λ+1，13pure核比较像rank7，旧结果不重。R323真负权−8 self0，−6二维/−4八维原响应覆满、保Z=μ0²/2；E=(π,全Q)实际闭锥=E(U)。**R329实际/R333真实控制已完成**：[完整结果](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)，run43740129876/a5383f6/job132891272196，两C4/C6 MEMBER、8新人工过、468新primitive/6.521884s；旧13完整列只读，fresh2492/2198原mixed差T/Euler/重构0/selfword0。R126 old标签准确式见稿。严格E(U0)=E(R0)维10、两核维9/6，故零权商0；不是全权响应等像。结合满闭锥、两次真实商截面/有限整数复制及最后响应收缩，**E(S)=E(U)**且紧集C1真实截面；可选wholepure+wholeQ零/全T零背景。所有原基准/桥/锚保，完整canonical λ仍正。wholemixed/period、同gauge及额外Gaussian/Morse/两flux不自动联合，须各自增强接口。
 
-**一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
+**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。一般real pure/E核的Ω像仍欠，R338续真−6尾像，不能用Q0冒Ω0。
 
-**R304/306/311完整障碍**：同0<κ²<.01共振偶芽，完整面积/三个directed/E−3一层真C²余量给正系数×∫g″4。R304排全部不交实rank-one圆；R311固定包空间任意连续幅轨道也迫ci²=ai²且连通ci≡ai。R306保全mixed/Green/ordered尾推广至所有W=g′f″−f′g″=0重叠圆，双hook0⇔W0（含退化开段有限边界3/2幂不光滑证明）。原第三period只需单hook H(g;ff)=0⇔AfW0，不能强加第二hook；regular弱核被排，Af0曲开段仍是真rank-two入口。上述非主课题一般无解；原系数/假设留各证明。
+**R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
 **R308–334弱hook通道**：Af0曲段允许真实rank-two/单hook0，三矩八copy完整third。R319/320排同向/朝外；R328新面积排全部无常项5/2类（K=−2J/5,J<0迫Ψ>0），否定保留。R331真f0+cχ_R，c(L)=O(L)、R=ηL宽cutoff/三Vandermonde矩补包quartic成本O(L−1)，保原负Ψ−constL并付旧A−2−3三矩/新A−1−3 I0；R332原L/U平移/反射/12copy兼付I1。**R334新面积I2也全θ实付**：R267未锁能量根的两α与Fκ±四实际强模块正锥R²，原完整I2缩放Λ−5而Ψ缩放Λ−7；真实四次幅Λ5支付任意实际I2仅增正Ψ O(Λ−2)，留弱负储备。全72零强controller补Ψ，原F★保面积/quartic，有限N清完整三directed/指定一层。两完整面积/third同一最终圆真；通常新seed/g，不把controller72扩为弱圆全72。R337续第三新面积，其他全第四仍欠。
 
@@ -54,4 +54,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main c30e7ea00a9ae06356409d5fdae289dfecf2210d，双README blob同。API读取不冒实际pull。
+断连API复核main 32d3aea74de267a1ffb5c3a113dcf52cdb830197，双README blob同。API读取不冒实际pull。
