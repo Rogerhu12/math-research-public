@@ -159,4 +159,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)保YW全右累计/后缀；[R295](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)由当前最右三组high/low迫整T_B0且各q_i0，q有准确C³平方主部+完整C²余项，不能冒低阶纤维。[R297](results/R297-ordered-platform-matrix-surjective-pure-zero-responses-and-real-control.md)原χ32/37/40准确c的D²+D³证书给九个矩阵单位响应，全U九实际查询承载T，R222一般m9保所有成本基准后给真实闭hook(pure0,T任意)，特别T0；λ+仍正，反走本身同号。
 
+[R298](results/R298-zero-platform-matrix-with-nonzero-self-response-and-ten-observation-control.md)给χ30/P完整T0响应而q_u=3/512∫u″²u‴²>0；九矩加一个预固定非零u的self有严格三角十列，R222真实m10保基准支付。两actual T0闭hook的整self差=3t/64∫u″²u‴²，证明矩阵零不普遍灭最高jet；未付全模板q_i或整函数。
+
 **下一联合新响应的完整M/T结构稳定族、Morse与κ/ε共振germ安装，以及所有self q_i和后续full period/同w。** R297未授既定Gaussian族/单包self或其他观测，可达集合不可相加。矩阵零不自动使self主部零，需原包内Φ而非其左二次尾。已付方向人工源绑定复用，run43728280256仍在行。

@@ -238,3 +238,10 @@
 [R297 完整证明](results/R297-ordered-platform-matrix-surjective-pure-zero-responses-and-real-control.md)从原χ32/37/40的c系数重组准确D²+D³证书，三二次矩分别给μ0/64、−μ1/32、μ2/64；μ2完整保2(u′)²。左u/右v原响应的第二history经同右三常数准确为零，真实左尾给T(B_Aτ)=−¼∫cτ,uΦ_A(v²)。规范σ_i与原pj八矩使16B_pj(σ_i)恰映全部九矩单位，纯投影全零。
 
 T在全U由九个固定原跨包查询定义，实际pure校正期间亦合法。R222一般m9保prototype/纯校正的全部mixed基准、有限复制与真实Klein闭合，得到actual M0/TthirdκH/pure0且平台矩阵任意指定，特别全零；λ+仍严格正，真倒行仍同号。矩阵不必对称，正字符不能由它因子化。未保持既定Gaussian共振germ/Morse/全部self；不把独立满射拼成joint。单包q=−¼∫cτ,uΦ_A(u²)必须保整个包内原primitive。root全文核查询−¼/响应16、真实尾因子、D²矩及R222一般假设；无新执行。
+
+
+## R298：矩阵零仍留真实三阶self通道，九矩加单个self可实际联调
+
+[R298 完整证明](results/R298-zero-platform-matrix-with-nonzero-self-response-and-ten-observation-control.md)用原χ30的c=3D³(u″²)/512，三个尾矩全零；对P=J(u″²)，保真实JR左常数分部积分给完整q(K*)=3/512∫u″²u‴²>0，无隐藏C²余项。K* pure/T均零，q非C²连续主通道可高频放大；不能因T0把它冒作低阶纤维数据。
+
+对一个预固定非零u，R297九矩单位减其准确self倍数再加K*/q(K*)，给十观测严格三角右逆；全U原q查询与R222一般m10保所有基准/纯校正/有限复制，取得actual闭hook(pure0,T任意,q_u任意)。另原两个配对词及同一个m9校正给两actual T0闭hook的整q函数差=3t/64∫u″²u‴²，严格排矩阵零普遍消主项。未授全部q_i、整个self函数或既定Morse/共振几何。root全文核−¼/3÷512/8t和真实finite-word范围，仅将第十列记号改R_star以免与(1,0)列冲突；无新执行。

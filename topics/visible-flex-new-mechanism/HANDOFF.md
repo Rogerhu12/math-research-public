@@ -47,7 +47,7 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 **R293/294全部二层history已付**：初选0<κ²<.01，R289普遍rank30；R286/R291两完整关系使全有限N32向量在同空间，≤30χ/原12包正锥及30真Jac根付全部π/2外矩/Lc/Mc。R294给任意pair真实β/六sl2和核Γ⁺；Khat=Kself−Γ⁺(m,m)/2经原local变分消C³²，仅线性u'''准确IBP成C²，平移≤10。**从起点新F⁺**含旧F和30×11校正self系数（条目非rank）；同F⁺格点十矩与总A01/A02/A12清全even余角，12副本清odd。R293合法F★扩展给同一正解析有限N圆，全部十对称乘积×三矩×全θ和72面积/六能量/三矩/全third同零，即整个二层Gaussian history。零/一层、完整ruling、平台/flux/Laurent/period/同w与最终几何仍欠，未称旧冻结F无偿增约束。
 
-**R292/295/297平台矩阵**：原YW右累计给Vθ=4Σ右i≤j a_i²d_jQij；最右三组实际high/low和三矩Vandermonde迫整T_B0，仍须每self q_i0。R297原χ32/37/40的c=D²矩密度+D³项给σ=(64χ32,−32χ37,64χ40)，完整响应16B_pj(σ_i)映九矩单位；全U九原查询定义T，非独立赋history。R222 m9保所有baseline/纯校正和有限复制，actual闭hook可(pure0,T_B任意)，λ+仍正，真倒行同号。**未兼容既定Morse/共振germ/全部q_i**，不能拼不同满射。R295 q=−1/8∫[∫kQΛ²/h](u''')²+全C²，u²主项M0消；非零真实even主可同初选有限C²纤维高频放大，禁把整个q偷入C²。继续结构几何兼容/self/全period。
+**R292/295/297/298平台与self**：保YW右累计Vθ=4Σ右i≤j a_i²d_jQij；最右真high/low和三矩Vandermonde迫整T_B0、每q_i0。R297原χ32/37/40的c=D²密度+D³项给σ=(64χ32,−32χ37,64χ40)，16B_pj(σ_i)映九矩单位；T在全U有原查询。R222 m9保全部基准给actual闭hook(pure0,T任意)，λ+仍正/真倒行同号。**R298 χ30/P**的T0而完整self=3/512∫u″²u‴²>0；加单个预固定u可真m10联调(pure,T,q_u)。共同m9校正的两actual矩阵零hook，整q差=3t/64∫u″²u‴²，故T0不灭C³主项。仅单u数值可控，非全部q_i/整函数；未兼容既定Morse/共振germ。R295 q=−1/8∫[∫kQΛ²/h]u‴²+全C²，u²主项M0消，其余不能偷入低阶F。继续结构几何与全self/period/joint。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -59,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main f1a97ec0436c38aa274ffc1636a4d8277a0f803e，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 683fe4b33fcc8e71bc0dbf1d1a188332f700ff88，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
