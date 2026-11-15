@@ -351,3 +351,5 @@
 - **R797（方法及公开工程已成，实际请求已启用）**：[五条原低次数映射的Laurent输入](notes/R797-five-selected-original-Laurent-prefixes-method.md)。R794真实所选f0/f3/f1/f0+f10/f0+f4用原六微分分别收缩R774共同三积，保原4/1722³、q/v相位及280维字段；只生成各自170/172/176/193/196个完整关系所需前缀，逐阶准确ODE核与断点。旧f4/Hodge不重算，新函数关系/极除子/η/高度尚未得到。
 
 - **R799（已证明，实际基未计算）**：[原七、八次幂的最小短基与锚点判据](results/R799-original-power7-power8-minimal-basis-construction.md)。V7/V8维1778/2050，最小零次数界q95/108；两锚点秩恰1778−deg共同零；旧完整V6 recipe已证A0=span{s0,s1,s73}无基点，故仅三锚点就保证V7与Sym²(A0)V6=V8完备。只补旧V6的82..108，八次直接三因子，不隐含七次新尾；保原尺度与完整20坐标，实际非零minor/基仍须Actions。
+
+- **R796（公开准确二次图已完成）**：[原CM点的144条全局二次关系](results/R796-certified-original-CM-quadratic-chart.md)。run43693301389/source4ed3a5bf，165.797秒；实际适配非全Q，832阶有理解，416二积minor823199261模1000000009，完整1120K坐标准确代回。τ原索引0/切向1，λ=−36197717076/172095737；只完成length2，cert1b72c55b5bb9fc110d1630da16cf36ae5c1a8bf3e7783522a2c01167ad3835f0。全部558输出/548阶段SHA已核，原β/η/高度尚缺。

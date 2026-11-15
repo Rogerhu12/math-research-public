@@ -1,0 +1,2798 @@
+{
+  "result": "R796-original-CM-quadratic-chart",
+  "files": [
+    {
+      "file": "R796-WP2-selected-monomials.json.gz",
+      "bytes": 17085,
+      "sha256": "3025b17c93822fa0ece788ccbd416733af7d4fc5f73c18e63131ac4c85e4587c"
+    },
+    {
+      "file": "R796-adapted-original-M2-cusp-prefixes.json.gz",
+      "bytes": 880712,
+      "sha256": "b9842076de87cb09ecffb9ce8fe3428c6109621b30d52e56216915c2ef76c361"
+    },
+    {
+      "file": "R796-exact-unique-quadratic-solution.json.gz",
+      "bytes": 53319654,
+      "sha256": "8a2d8d7b543af85b557e8bbee3e474311ea474debba0ad099a935a0f72369bf7"
+    },
+    {
+      "file": "R796-original-CM-adapted-M2-basis.json.gz",
+      "bytes": 26113,
+      "sha256": "11a0989b79fb3b80e49b7dc1bbbc85ba26df006f9b43255a20275c6682d13a5a"
+    },
+    {
+      "file": "R796-original-M2-ratio-jets-length-0002.json.gz",
+      "bytes": 19046,
+      "sha256": "50cab09598b8a3e2290ebbd6407016740722bef4eb8dbabc99ff5d70760ee849"
+    },
+    {
+      "file": "R796-original-global-quadratic-relations.json.gz",
+      "bytes": 53320950,
+      "sha256": "b9f6ff45e84e1bd8b48b905153340bc09f127a0decdb29352d2de20829429aa6"
+    },
+    {
+      "file": "R796-prime-1000000009-root.json.gz",
+      "bytes": 14727,
+      "sha256": "4965452adeb002fe994636f8a13fab0304df559c6912c80b1554a11ca62c28e2"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0000.json.gz",
+      "bytes": 14964,
+      "sha256": "4fe212edbc386139194e4981067744512599790aaff6daab9ae98b0bd94b509c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0001.json.gz",
+      "bytes": 15158,
+      "sha256": "925ccd6fcbb173153bbb889ace930efe036b69f5fdea6a342ab9126025d9605d"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0002.json.gz",
+      "bytes": 15360,
+      "sha256": "eb54da711f9c6629bebf703649a03c5520142b3f00147feadcb614a13b303f86"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0003.json.gz",
+      "bytes": 15546,
+      "sha256": "af60dee1696d93e36de1410c5f958e09b374519d123e95c19e8c1b07d53a5ab8"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0004.json.gz",
+      "bytes": 15738,
+      "sha256": "4cc0d8fe8dbf93bd6ef6f6a2f6c0194754422433750e23af5a3d36bd2264ef37"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0005.json.gz",
+      "bytes": 15871,
+      "sha256": "f6df6c6c402055a801ef8e95a9404197cd49d79161429f2f11078d11904058d3"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0006.json.gz",
+      "bytes": 15950,
+      "sha256": "507d99371fcdf5e969eafee635332d7a8f050dad3e6afe8693afbad7bb753984"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0007.json.gz",
+      "bytes": 15949,
+      "sha256": "8bcaa1e45cb1ba14ebd6aad1ba4790cbb8dc8e08a0d5846b77dadc82a66345df"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0008.json.gz",
+      "bytes": 15949,
+      "sha256": "e7aa5626cfa449808309b3e0798d5904d4f0aca79c62f088354230343ac78038"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0009.json.gz",
+      "bytes": 15948,
+      "sha256": "153c553dac8e19a3b2e574f89fd520e4fdfa0ef020ac998bf08a6cd604a873bd"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0010.json.gz",
+      "bytes": 15948,
+      "sha256": "be585f34288c0a9b13db44586df5d0b28039f945d7b994239fa76f4090c5438c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0011.json.gz",
+      "bytes": 15947,
+      "sha256": "92381ed000a767fb1b6ce320d2d549907014cc89f7c66c99798fb8c353fd22a0"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0012.json.gz",
+      "bytes": 15947,
+      "sha256": "6a879ac032ac39f6214356c0d6b023b31434074039cd006c258e639d6101882f"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0013.json.gz",
+      "bytes": 15948,
+      "sha256": "9a787a8058a212950b3696a85bafd017937f85011fd11f23633f3d3d292f70db"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0014.json.gz",
+      "bytes": 15949,
+      "sha256": "51b21b49c52b9f83e35f6213f2c71e667eb961216f1ee8e85fbcf88edcbc8031"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0015.json.gz",
+      "bytes": 15949,
+      "sha256": "eb3e25d2802156a8cb3a9ffd72bae59a3102f5479b2b35f4c2721ef0c902d694"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0016.json.gz",
+      "bytes": 15949,
+      "sha256": "877412ef521d8527529ac5d2bd1fa1ca4e47551eb931c964203c9da80b5d8eca"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0017.json.gz",
+      "bytes": 15948,
+      "sha256": "c940c5c1fd8172facaa530be27765f7240be5650f6807eaf2b8ba5198762b785"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0018.json.gz",
+      "bytes": 15949,
+      "sha256": "73bc4bb70be8f1abbb30c6da076a51ed17e64a7da9d4212d1321c6d04e2bf2d7"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0019.json.gz",
+      "bytes": 15948,
+      "sha256": "1cf913756c5b3b497ef5af76fc663cdc0437d11cd4a3ca53ec67c25003f4d32c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0020.json.gz",
+      "bytes": 15951,
+      "sha256": "4a25226a4031d23a380bf9b28c54fed837fa5b710cad6a79aba7bb2e060168d8"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0021.json.gz",
+      "bytes": 15949,
+      "sha256": "6c3a59d314f42a6e0adcfc6570b8de6bf5dae24faa1f01bf6c3235fe4275e534"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0022.json.gz",
+      "bytes": 15949,
+      "sha256": "204d00c707ead3c77e36d21d8078b377948811621e94d9fc0c74b8c2e03f128b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0023.json.gz",
+      "bytes": 15950,
+      "sha256": "06291e7828dffaed7f88b7945f86a86f75cb8abbc5d0f02bbb8f7d280aebb336"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0024.json.gz",
+      "bytes": 15950,
+      "sha256": "19222907508cf99581b603c3d0f70458fc6c2b788a09f3d28f14ccb7adfd2020"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0025.json.gz",
+      "bytes": 15950,
+      "sha256": "1439d7d2b3366c9d7cacd0ea49e72866d4487483ffb97fb92534bbd1f94f2d2a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0026.json.gz",
+      "bytes": 15950,
+      "sha256": "4d8f78d43be527ceb0306c13098c575f75708fea09464771d0100b28e0947213"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0027.json.gz",
+      "bytes": 15948,
+      "sha256": "0fcbf4fcb38c479863bb989cf82e0e56170f35902c19fb7014b465321ac02651"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0028.json.gz",
+      "bytes": 15950,
+      "sha256": "eab7a9304de5665a5fe935c151e01e10a43a1730ab3eeda34e310cb60396ae2e"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0029.json.gz",
+      "bytes": 15949,
+      "sha256": "35b9fea09d461cd51c878213120843b2d4a0292a20ad32ef64cbbb77399f2081"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0030.json.gz",
+      "bytes": 15950,
+      "sha256": "9586765d6d116b690c032846d38ccdb3d628cca10dece98bf03bcf99b95ab367"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0031.json.gz",
+      "bytes": 15949,
+      "sha256": "9c88688615514c5da4dea74f8cd0182a6214c83efff454de4ad90f327a0ec9b3"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0032.json.gz",
+      "bytes": 15948,
+      "sha256": "c0ce46f2172e6c36f25ae081520ea71f321c9594aa7c8d4b8051573a292fea9d"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0033.json.gz",
+      "bytes": 15950,
+      "sha256": "e18965974d3d91e31de74d372eee906734f600d0bef796113979a8e5c26b3d9a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0034.json.gz",
+      "bytes": 15950,
+      "sha256": "3620421ad14977d065649862b6fa2142f9179b9e40641932b1866ef1d7c04af4"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0035.json.gz",
+      "bytes": 15950,
+      "sha256": "36eb2e1ee4c71ea30d46a41af8683129ce9aa78906fd4eb6689363ccf3769d78"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0036.json.gz",
+      "bytes": 15950,
+      "sha256": "4e9ff282cb08910fd7a32d48fe169e854d453132d89655d5e8d008dfdaaeecf7"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0037.json.gz",
+      "bytes": 15950,
+      "sha256": "c8081f5c8f5b0dc6069855f45fb64bfa79794eced99cb15763673875b1896ef7"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0038.json.gz",
+      "bytes": 15951,
+      "sha256": "af0e52288807cee9a9d6767351f58229674558bad0a07ae0793ca0fc3e586028"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0039.json.gz",
+      "bytes": 15950,
+      "sha256": "0fc9eeabd316dff6e5b82a5c8c1e731e459be5d71a85ea42f419df76e589060b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0040.json.gz",
+      "bytes": 15951,
+      "sha256": "21778a19b7cbd7ec2527282b2fb8570cf5ea04c32cc93d485191482adefc9ed5"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0041.json.gz",
+      "bytes": 15948,
+      "sha256": "f9051a45644e04443997bd932d6d482674fc3dd0f62ad064cd407c90296dd24a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0042.json.gz",
+      "bytes": 15949,
+      "sha256": "fe3c4fef53c9a019ca7e79a35d2605fddbaf860e669726441eddd346c27efd11"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0043.json.gz",
+      "bytes": 15950,
+      "sha256": "174abd2836f266f8dd57b7db56c0aaed3104ad903cdd8a252e86816c08c44b4f"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0044.json.gz",
+      "bytes": 15950,
+      "sha256": "c4940658b2184ec6285c5523fa751aa9a3f85908cc2ea0c381e0adfb9023bac8"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0045.json.gz",
+      "bytes": 15950,
+      "sha256": "9c616e624bcdfacfe09b26a2e425722e4586127a78a9841719d0effd833605f3"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0046.json.gz",
+      "bytes": 15951,
+      "sha256": "2c3776a65533197aeb696ea1483ad19d2918847aa2ab0d21b36facd2ff7dedc3"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0047.json.gz",
+      "bytes": 15950,
+      "sha256": "537e578e8ab2774787a04ae1505fb404ca672ebb8aed33ac554f6ecc71b765b7"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0048.json.gz",
+      "bytes": 15950,
+      "sha256": "671623792fa1ae2d1fee6aef478c6db38d894dcfeef2b39922c2eec69157fc08"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0049.json.gz",
+      "bytes": 15949,
+      "sha256": "a13b6700549a841492311ec428f1720c21d59f0fecfab6420f2eaa45a8685878"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0050.json.gz",
+      "bytes": 15951,
+      "sha256": "0855d24d5fdf13afeb0f8ee06cf90b0c7846505f066440c590a24c107bc8158c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0051.json.gz",
+      "bytes": 15950,
+      "sha256": "6cc27116cb94a4bec5a4c6d1d6c15841a99aaaa48a65780e09a68ba0d543c7b2"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0052.json.gz",
+      "bytes": 15949,
+      "sha256": "64086c9ec18cd0e7c9ad287a82232fc350ad375beeb4aa36c1bba90329d5bcda"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0053.json.gz",
+      "bytes": 15951,
+      "sha256": "8abd4f772dce61f4479ffefc51a1956179adc129bf417636381bab5ecb98bf9f"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0054.json.gz",
+      "bytes": 15950,
+      "sha256": "efd330a64e4531eb040b7dfb96f4b8f81d31d084a63b21844da6ac310a3baf00"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0055.json.gz",
+      "bytes": 15951,
+      "sha256": "98e10493e2f4be6af5e79d42aeffc6c7d8708dff8ab1605a48d8e5ca39d20354"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0056.json.gz",
+      "bytes": 15951,
+      "sha256": "3fe445286bfd7136a71ac0d7db8fca2a2f9c3e314ab51423ea634ec234478ad6"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0057.json.gz",
+      "bytes": 15950,
+      "sha256": "980d74848a641013d053827e7548361119e6bb6ee8309b820f033d43b1fd4e6c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0058.json.gz",
+      "bytes": 15951,
+      "sha256": "8cca86f7aed272dd4d86213c595d0e749aa74fd20dccebebe7d90311830deb4a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0059.json.gz",
+      "bytes": 15949,
+      "sha256": "aae9146ca8814dc41b4ae71dde6fa9b56ff2d95d17ca3454d56669276821be75"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0060.json.gz",
+      "bytes": 15951,
+      "sha256": "a8f5405d597efc7425cb916bf8d5d36648813722bc01982565f987b18ac6acca"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0061.json.gz",
+      "bytes": 15950,
+      "sha256": "578e7265caa2681c2501517b45f48bede5e1bd796f313b000eacd8f63da50b6b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0062.json.gz",
+      "bytes": 15949,
+      "sha256": "5ffc058c00141c96d8f795a76e01e4711415700c67e18025128d1dafa9f18225"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0063.json.gz",
+      "bytes": 15951,
+      "sha256": "bc0f9791e2c5a296fb721307248acec9406158223439400cbb9b968197c53030"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0064.json.gz",
+      "bytes": 15950,
+      "sha256": "d342000ca1575cca0985723d2add2105fae7b7de3345e2279c2196c1904d0fca"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0065.json.gz",
+      "bytes": 15951,
+      "sha256": "c7841e24bba1e9023cec3aa1144c5cf989100d7815fd107fe4edbc25a784f019"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0066.json.gz",
+      "bytes": 15951,
+      "sha256": "3a001a2bba100864361426119b8a4e41bdd8f2fb5ecf44cd4ffc45abe3817d41"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0067.json.gz",
+      "bytes": 15950,
+      "sha256": "ed43e091260904629fc49b55770941aadcf2cfdee34b70e96816c23e2b5b8de9"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0068.json.gz",
+      "bytes": 15951,
+      "sha256": "8ea15a43060e1a4655a452aba65bf1454703460c4763b99e93a87d2484bf5630"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0069.json.gz",
+      "bytes": 15949,
+      "sha256": "baab0afc4c417cc745e1d14508c6b120d4476b207918cefc27dbe858f5f59786"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0070.json.gz",
+      "bytes": 15951,
+      "sha256": "ddbb7072f658993f4c5fd4d95680b7321a090d3bdd680a2701d80c09a1dd8b0a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0071.json.gz",
+      "bytes": 15950,
+      "sha256": "74d511d771f91b811e56be0eb487547f2492102f6e02e2a4005cf86397b65bc1"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0072.json.gz",
+      "bytes": 15949,
+      "sha256": "9d901f431a7050b9b6e2ae94f6a4b36a8a3f77ecacc653c21fd414f3eee2bfc2"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0073.json.gz",
+      "bytes": 15951,
+      "sha256": "50a1f4cfd191bf7380b73c8302b1b5ad62e8d6f288619764cdf07e0460401a13"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0074.json.gz",
+      "bytes": 15950,
+      "sha256": "189469127c2c158c37d49cb538565ddfd5e6faf7d916127353d063d002ede609"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0075.json.gz",
+      "bytes": 15951,
+      "sha256": "c5008752cb65e99cb564ed7a28b60a6cc23e987761bfa689e6d3f76585086ec5"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0076.json.gz",
+      "bytes": 15951,
+      "sha256": "3b3309eebd9ca3806a6c21efe53f4a5a5eafe91773e864f4cb858a276cf39657"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0077.json.gz",
+      "bytes": 15950,
+      "sha256": "6713d0ea1b0af625acde6acd78cf5dc972eee8608f148598a3e8bed1a15a08f8"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0078.json.gz",
+      "bytes": 15951,
+      "sha256": "a5e6203b0d8af1147c3f1e3e031a69cceb5c6ff2b1ab6d56776fe71870ad8c3f"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0079.json.gz",
+      "bytes": 15950,
+      "sha256": "640cfbb48e7621b27924f16fac846087610a9099f2969ba2d8cb5dbb6ac29b07"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0080.json.gz",
+      "bytes": 15951,
+      "sha256": "e6a5d08909af635909b1880e54b111908ec6430b9bdac2f1179ffab11917f426"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0081.json.gz",
+      "bytes": 15950,
+      "sha256": "53ca625532021c8c69df24c8e09f882cc46e81c97ee1b43e10cbc134af71aff4"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0082.json.gz",
+      "bytes": 15949,
+      "sha256": "4b58a58fd3e5c21faa159624ecb849a120003c72498eda7dc8f34f17cffac79c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0083.json.gz",
+      "bytes": 15951,
+      "sha256": "8d80ff97a14b94eb7e229297a1796e1ed77524c009cf35b64a25ade4f12cb97c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0084.json.gz",
+      "bytes": 15950,
+      "sha256": "86869f929c555fefa0f725bd96628c097330be1ace712edbb3471228da1d4536"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0085.json.gz",
+      "bytes": 15951,
+      "sha256": "1261628db01d3dd7a0f8295cb7075e13e46268fd888cdd4577f0b50fc72d8e2e"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0086.json.gz",
+      "bytes": 15951,
+      "sha256": "35558094dce263ad5676804d9b9104bf1432772eca30c1e5cf43c4468f1ba8b3"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0087.json.gz",
+      "bytes": 15950,
+      "sha256": "f899ac08fb9e79e090283b0793839fd5c8c0dce380bffd1b9844eba8a63795b4"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0088.json.gz",
+      "bytes": 15951,
+      "sha256": "86b176cde5370101fd3219b24f4128a253bcca4941ea791c818b0d560e2715ca"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0089.json.gz",
+      "bytes": 15949,
+      "sha256": "84b9de9a2ff0b73fe2ac05b23ead519e3b18dd922e8fd79efd48fa3031e3167a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0090.json.gz",
+      "bytes": 15951,
+      "sha256": "bcdfc093871e4282c66c14028034f939c4101b8729c5b5dd54a8e948554e6540"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0091.json.gz",
+      "bytes": 15950,
+      "sha256": "7a12d94c2c24820be04f7c87aedd79b79ac87aa78bd59afd64544f09ddba6afe"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0092.json.gz",
+      "bytes": 15949,
+      "sha256": "142fa63602f280e103c511fce960b324f09d18654f786ed19dbdbe4f8388229b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0093.json.gz",
+      "bytes": 15951,
+      "sha256": "70752482763ba4602e8851527b69c507daffce486ed7760e3b1213dace223f0f"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0094.json.gz",
+      "bytes": 15951,
+      "sha256": "831e6f04a98943b5720f4b24b0fba12c6a246740aab29d0b1e163c3232e9cc95"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0095.json.gz",
+      "bytes": 15950,
+      "sha256": "f6923151e25139ed9f326320418e014bb94e975b9cffca906b2eb29acd00c46b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0096.json.gz",
+      "bytes": 15952,
+      "sha256": "979c4a6ac1c010ea08acc82d4df10ad270d640f419494a73cdd4e118dbd835d9"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0097.json.gz",
+      "bytes": 15950,
+      "sha256": "177d69ddd03c26c157caa9695df885932ed45358a11a87f4ac755ec355f59238"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0098.json.gz",
+      "bytes": 15950,
+      "sha256": "979e0e6ed53b0788006b386f5f6cd2178396ed9d3bc35b33d49277da3dc42a1a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0099.json.gz",
+      "bytes": 15949,
+      "sha256": "2ad6732b89502747ab38b1f4343fca2eb367238144ea5d17c06e2790c67c7cef"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0100.json.gz",
+      "bytes": 15949,
+      "sha256": "b15557fdad2aa2a61c4d460e77710d7078d34ccb65048ffaa84b514aa6a93afe"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0101.json.gz",
+      "bytes": 15948,
+      "sha256": "b71f5e21cf457248a23a2f4d33e9d8c11cd7e04a3c2ea37ae17f6dfc949f5713"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0102.json.gz",
+      "bytes": 15948,
+      "sha256": "8e0983c61dcd06807dfa225ee9c62db8581ec6db10907923b78b86af0afac07a"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0103.json.gz",
+      "bytes": 15949,
+      "sha256": "44aa2c377b04555b8de23ec8a6ad5a27e97e6292373aa6524788de07ed62a3ed"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0104.json.gz",
+      "bytes": 15948,
+      "sha256": "97cb056ffd3191013fe4a861b39ce221fc5606cf4cb9e7abee98f8bd468a74f0"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0105.json.gz",
+      "bytes": 15950,
+      "sha256": "ce131492c546f0f5bcf1a062f338be6732901605411cb324b228a62d9b985e16"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0106.json.gz",
+      "bytes": 15949,
+      "sha256": "fc03811c32d3cb251c6546a77b85834369581d5b5c7195bad6aac67147b3d717"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0107.json.gz",
+      "bytes": 15949,
+      "sha256": "ba886f62726c911ca428d385efaccea2d7295c4bf2d55d2974a221de3cefec2c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0108.json.gz",
+      "bytes": 15949,
+      "sha256": "c101537e986b467b4c1bc1f7f470376c185afb7a74ccd14d1694ba1acebe5152"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0109.json.gz",
+      "bytes": 15948,
+      "sha256": "fbf6c298fab5db246b3a48e1e55a4d55ef918bfc9bc4ce0d150108650ab7c89e"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0110.json.gz",
+      "bytes": 15950,
+      "sha256": "762c0ecae06ecfea2f8812f0bd6a91423829e9d271c9faef42b337225d719b89"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0111.json.gz",
+      "bytes": 15949,
+      "sha256": "b14a7de59ea78209ec3c7e0410784ec5719899caac8047cd0c169dfee672ad36"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0112.json.gz",
+      "bytes": 15948,
+      "sha256": "c19c05c17a29b82e6e9936f7146affd8d2c354ed0c87dab27725918c62e02aca"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0113.json.gz",
+      "bytes": 15950,
+      "sha256": "8500ffc4285f1049365965b9a644217a1e4d604903a2520f6d5aa6645ced1e6b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0114.json.gz",
+      "bytes": 15949,
+      "sha256": "eb68d4fc7cddb1962868eb35db9ba04c01095bc85798b5500f5815278c833a0b"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0115.json.gz",
+      "bytes": 15950,
+      "sha256": "9400a8e80dce4cc374189c0dc7dd3ee19fc9af47172acd82053b4e6f30803dbd"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0116.json.gz",
+      "bytes": 15949,
+      "sha256": "41a7fb3074e53e14fa4b4eb3e85f5551fe1495807a1a77a4693ea34632845690"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0117.json.gz",
+      "bytes": 15950,
+      "sha256": "352a33e75d90fb9e0ab52830c6149a3085828cca8980b58828da52eeefeecba9"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0118.json.gz",
+      "bytes": 15949,
+      "sha256": "ab1d6a4943c5e0c9cde3c84b190e08dd0598ada794581b1e56ff3416097ff851"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0119.json.gz",
+      "bytes": 15948,
+      "sha256": "2076455f422dfd2ec3034032efdd1fa006806d97f44e686cda68b16471a6bc1c"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0120.json.gz",
+      "bytes": 15950,
+      "sha256": "09e8049d545f5383fcf60654c8f11c587b9f072517f74790d9212ae9eef63089"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0121.json.gz",
+      "bytes": 15949,
+      "sha256": "718c94f6a2a18ffbc8e92bec9aee0a29613ee420a948adff923f9dced3942e4e"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0122.json.gz",
+      "bytes": 15948,
+      "sha256": "c43b11b3ae4d59b2b133cd546fe736937634bd6ec4d503103d19521e4d0a1c22"
+    },
+    {
+      "file": "R796-prime-1000000009-round-0123.json.gz",
+      "bytes": 16017,
+      "sha256": "dc3478515b8d9f9f5d8fc9dadab20ed235e3a3038e7da0de0f1c2bc679359508"
+    },
+    {
+      "file": "R796-quadratic-product-000-000.json.gz",
+      "bytes": 18779,
+      "sha256": "7e0e66d1f68f484e98d1dd677976dd2eae294cb1a2f417193ab80c11017acc09"
+    },
+    {
+      "file": "R796-quadratic-product-000-001.json.gz",
+      "bytes": 19575,
+      "sha256": "8a69ecff15aa2768e6f57dd71b9c1b78370a4de74a4e0f8ef649515fb5354cc9"
+    },
+    {
+      "file": "R796-quadratic-product-000-002.json.gz",
+      "bytes": 19570,
+      "sha256": "39718a8204ba6eb6c5c4807534a9ae013e05044db97ae5bb70b77a9fe349e582"
+    },
+    {
+      "file": "R796-quadratic-product-000-003.json.gz",
+      "bytes": 19696,
+      "sha256": "2e3a3b6fc26f5cb6bea321c0e7b802f4f840511e24de9a588ea7d24e05567224"
+    },
+    {
+      "file": "R796-quadratic-product-000-004.json.gz",
+      "bytes": 19732,
+      "sha256": "a198d86c23907d95457f0f6507467aaca02ff2026fbc70cb2c835127a368bbe6"
+    },
+    {
+      "file": "R796-quadratic-product-000-005.json.gz",
+      "bytes": 19594,
+      "sha256": "e02c1a4e02c821a96a5df602ca4ee94ad9997a475568e41c80768e49cdb6f0d3"
+    },
+    {
+      "file": "R796-quadratic-product-000-006.json.gz",
+      "bytes": 19407,
+      "sha256": "05abd988d7ac7b6f959f8798843a8c1dc0d59f0432fe9b02faf5a03b59bff07c"
+    },
+    {
+      "file": "R796-quadratic-product-000-007.json.gz",
+      "bytes": 19526,
+      "sha256": "203476201e50118235032688e1b7beb5b7d29fe04918be86232f41f5e0017ef6"
+    },
+    {
+      "file": "R796-quadratic-product-000-008.json.gz",
+      "bytes": 19663,
+      "sha256": "cebb45908ae7586895b139899b975fc36bcc3f7d68df538b1b89ebf7092f3f4f"
+    },
+    {
+      "file": "R796-quadratic-product-000-009.json.gz",
+      "bytes": 19697,
+      "sha256": "2dd9360d64c313cac841c0d5db416b6032295290735b5bce36f5f61c38e877b2"
+    },
+    {
+      "file": "R796-quadratic-product-000-010.json.gz",
+      "bytes": 19535,
+      "sha256": "c768b0f19c06ad7e48e9781cc89ad3f73f47d649ec21c3c2cbb07a37417b6840"
+    },
+    {
+      "file": "R796-quadratic-product-000-011.json.gz",
+      "bytes": 19344,
+      "sha256": "58c08c9180b86b8a77722295fc75d68e5c63c168fecc5961ce10bc0549a556df"
+    },
+    {
+      "file": "R796-quadratic-product-000-012.json.gz",
+      "bytes": 19673,
+      "sha256": "59a781e658bb3e6b8ed12e827354ffdf7bb058f6d2274331e64997cbeb1f178e"
+    },
+    {
+      "file": "R796-quadratic-product-000-013.json.gz",
+      "bytes": 19728,
+      "sha256": "2a89a378304198483e3ff28408989f0deee099cd1a0012d809937f65fb2a3f5b"
+    },
+    {
+      "file": "R796-quadratic-product-000-014.json.gz",
+      "bytes": 19667,
+      "sha256": "8cedd5748b15ac1de4ca8e28d201c9e60258fae89fef5cf5b73170d25063719b"
+    },
+    {
+      "file": "R796-quadratic-product-000-015.json.gz",
+      "bytes": 19469,
+      "sha256": "b74453b89d0f6471db338b3ed9e79d69faeb64986bbdb55d585ac90650c04c6c"
+    },
+    {
+      "file": "R796-quadratic-product-000-016.json.gz",
+      "bytes": 19738,
+      "sha256": "b8e11bf662db86618da91471eb9358fa309ecc1abc96f8cd51321da7b6b08015"
+    },
+    {
+      "file": "R796-quadratic-product-000-017.json.gz",
+      "bytes": 19460,
+      "sha256": "aa66b2d6c69eddb05dd737f350f23e7fef99cf74e576420357c765d02ea4b3fe"
+    },
+    {
+      "file": "R796-quadratic-product-000-018.json.gz",
+      "bytes": 19699,
+      "sha256": "2226cddfbd6bd34ab97d45fc6cb8cea936be7476eef3cc7a8b6b1f4bbfffa5dd"
+    },
+    {
+      "file": "R796-quadratic-product-000-019.json.gz",
+      "bytes": 19648,
+      "sha256": "a8efe6b8a26cdb6455b5245a9e7f20930cbe4963aa5ae1e9408cfc5e1d27e207"
+    },
+    {
+      "file": "R796-quadratic-product-000-020.json.gz",
+      "bytes": 19762,
+      "sha256": "db7dd5ca5587bc2c53ee170aaf4d394833cec0cd39fe7a4bfd3cf98f63a99b06"
+    },
+    {
+      "file": "R796-quadratic-product-000-021.json.gz",
+      "bytes": 19625,
+      "sha256": "7976b02d8021bbaf479053aed0c4f5aebdb0e16983dea0b3c515fb4a2956badb"
+    },
+    {
+      "file": "R796-quadratic-product-000-022.json.gz",
+      "bytes": 19743,
+      "sha256": "fc1025df1555658b9ad1da548f2e6c48b2105f901cd7cd0ab24bbd77333d2ee5"
+    },
+    {
+      "file": "R796-quadratic-product-000-023.json.gz",
+      "bytes": 19739,
+      "sha256": "ef6804c0cc478f7791517c692ac75752efeff7e881f3e2e01580c4d00b7e5475"
+    },
+    {
+      "file": "R796-quadratic-product-000-024.json.gz",
+      "bytes": 19715,
+      "sha256": "9810467f3c4329cf4ec0fce8670e0d1ea3391a7fbea0024fae1a8a1dd5135047"
+    },
+    {
+      "file": "R796-quadratic-product-000-025.json.gz",
+      "bytes": 19814,
+      "sha256": "82acd0240fb2ca74694f26285e49bff1e54cecfaf9956354d7c6fb9bdd7acb5f"
+    },
+    {
+      "file": "R796-quadratic-product-000-026.json.gz",
+      "bytes": 19626,
+      "sha256": "d1edea6d9d45a89eac038a0447c5d60e41e1c5fdb4f057af01d94ea98eb0226d"
+    },
+    {
+      "file": "R796-quadratic-product-000-027.json.gz",
+      "bytes": 19730,
+      "sha256": "68102ff9df7f0db22c0637f7317bf995e518565c1d0bf6c5d725f9bac3b592f5"
+    },
+    {
+      "file": "R796-quadratic-product-000-028.json.gz",
+      "bytes": 19703,
+      "sha256": "4217572dc005e949e14374150f1faa1b9ed7a1e2fc592ba50388c9a090bd7043"
+    },
+    {
+      "file": "R796-quadratic-product-000-029.json.gz",
+      "bytes": 19734,
+      "sha256": "259f337d9f1795e5bc87bc7aba85edc133db378b8e89de4300b952e91b035f4f"
+    },
+    {
+      "file": "R796-quadratic-product-000-030.json.gz",
+      "bytes": 19657,
+      "sha256": "53b790b482aa4fb718f3bf5f688419962a6bb2058a0a89e8de980561e3e9c9e8"
+    },
+    {
+      "file": "R796-quadratic-product-000-031.json.gz",
+      "bytes": 19718,
+      "sha256": "27878723930f968667458215232b70b308c2c1a7f55c219c747fd9c596d19f08"
+    },
+    {
+      "file": "R796-quadratic-product-000-032.json.gz",
+      "bytes": 19683,
+      "sha256": "512e367551889e6d6c337e2bcef4b443eefcc3bbdfcf3407c7faa20e2c93329c"
+    },
+    {
+      "file": "R796-quadratic-product-000-033.json.gz",
+      "bytes": 19695,
+      "sha256": "f30cb9cdbaef3f9ad42d1aa18befb24996c54e324b49549b1ec490cb631d974b"
+    },
+    {
+      "file": "R796-quadratic-product-000-034.json.gz",
+      "bytes": 19729,
+      "sha256": "bd2c026b471bf0aedc3c36b1586288c4644613b387d156c0f01d9a108d3bfee0"
+    },
+    {
+      "file": "R796-quadratic-product-000-035.json.gz",
+      "bytes": 19643,
+      "sha256": "c516c38cffc3736c036478a9a035fba010dcc13f8f643af887bd9d1319fa3d87"
+    },
+    {
+      "file": "R796-quadratic-product-000-036.json.gz",
+      "bytes": 19687,
+      "sha256": "82f10237446745286bb752a06e9c592113d9e1962f718c4e77f456e1ab1445e7"
+    },
+    {
+      "file": "R796-quadratic-product-000-037.json.gz",
+      "bytes": 19765,
+      "sha256": "09c231d02e7e4be8fd7d6349dc3bf43160efad46241ee5b4307d08df7edf6b57"
+    },
+    {
+      "file": "R796-quadratic-product-000-038.json.gz",
+      "bytes": 19747,
+      "sha256": "814c8ec4b7a97a5a988ed7734187000f16952a9de9b8d8bdd18c7cdb2b6ee465"
+    },
+    {
+      "file": "R796-quadratic-product-000-039.json.gz",
+      "bytes": 19647,
+      "sha256": "792c32a8a15d2e16fcd73847a1d170b76c26b0a298a153335c8f8cd22271dfb7"
+    },
+    {
+      "file": "R796-quadratic-product-000-040.json.gz",
+      "bytes": 19611,
+      "sha256": "13ef5516120349dd52b2672567c3acf4755026b38d3976094be869ee9c45b624"
+    },
+    {
+      "file": "R796-quadratic-product-000-041.json.gz",
+      "bytes": 19711,
+      "sha256": "e14600b032972b12a1abbb369adf55949f3fb4480c2eda46fde91c0bf57f6cc0"
+    },
+    {
+      "file": "R796-quadratic-product-000-042.json.gz",
+      "bytes": 19719,
+      "sha256": "852ff6dbafd2d61377962c37beff5f614583ffa39ed3e91f3399cb12b38a0bc0"
+    },
+    {
+      "file": "R796-quadratic-product-000-043.json.gz",
+      "bytes": 19765,
+      "sha256": "f52312b9fce7bc6f069c8cbbec11977fe4de58d67de59b240aeac6e7ec465f93"
+    },
+    {
+      "file": "R796-quadratic-product-000-044.json.gz",
+      "bytes": 19784,
+      "sha256": "444249aaac42495645c59892c637310b47f46f5d06ca7fa74fc7cf2423bd73ec"
+    },
+    {
+      "file": "R796-quadratic-product-000-045.json.gz",
+      "bytes": 19591,
+      "sha256": "4bf03b6e439b2aeaa23e16403beb97467744e678f47f4a10d8d04073a9dd0517"
+    },
+    {
+      "file": "R796-quadratic-product-000-046.json.gz",
+      "bytes": 19713,
+      "sha256": "3f10485d2a5c191305b94bb145ab377a6b1d21e954c793496ee8e8a6269a0f15"
+    },
+    {
+      "file": "R796-quadratic-product-000-047.json.gz",
+      "bytes": 19716,
+      "sha256": "a36be04f17e676c2593df308066376ce0cca6aa0c3904bfc8cb572b4d1024e35"
+    },
+    {
+      "file": "R796-quadratic-product-000-048.json.gz",
+      "bytes": 19689,
+      "sha256": "9ec9814dd0bb8b21fe84679d804efe3eef92a2f34d726519c9b5c1397f8a0a51"
+    },
+    {
+      "file": "R796-quadratic-product-000-049.json.gz",
+      "bytes": 19783,
+      "sha256": "cbbe14d8cc905370927062b823d3e4360af64d9b077ceb8e8d24915b45b4becf"
+    },
+    {
+      "file": "R796-quadratic-product-000-050.json.gz",
+      "bytes": 19723,
+      "sha256": "3ad66fe17aca07487bd7e1d0598ad1400c435dd4efb9e10a92aaaff181c1f985"
+    },
+    {
+      "file": "R796-quadratic-product-000-051.json.gz",
+      "bytes": 19723,
+      "sha256": "24001c1669347d0bd2f510d6dfbd04724e5f809e6045f90c93da46cfa6b3b705"
+    },
+    {
+      "file": "R796-quadratic-product-000-052.json.gz",
+      "bytes": 19771,
+      "sha256": "f145af25348dc07f6b54a8154f7f6ffd8536feb3809ae458a6586b51535e5458"
+    },
+    {
+      "file": "R796-quadratic-product-000-053.json.gz",
+      "bytes": 19740,
+      "sha256": "1a1d4e6e95e2b870ab0feaece01d1eb6af6aac6505a292855cf34dc372799f50"
+    },
+    {
+      "file": "R796-quadratic-product-000-054.json.gz",
+      "bytes": 19654,
+      "sha256": "0a96c696b0aad0eeaacf52c1adf81339c009eb4b2af5f200214ed433973d01a1"
+    },
+    {
+      "file": "R796-quadratic-product-000-055.json.gz",
+      "bytes": 19705,
+      "sha256": "bbda309d94d811e220948b42a658d6e080208e167edf82026ccdea9e273d6645"
+    },
+    {
+      "file": "R796-quadratic-product-000-056.json.gz",
+      "bytes": 19741,
+      "sha256": "2983bbab421e8edff2e351f24e19f81d6095a9ca755c3bebf84200abf36fd6e8"
+    },
+    {
+      "file": "R796-quadratic-product-000-057.json.gz",
+      "bytes": 19705,
+      "sha256": "25d63e285589cc1173456c3ce659d9af69af4a1be58630d91be70fb852159534"
+    },
+    {
+      "file": "R796-quadratic-product-000-058.json.gz",
+      "bytes": 19693,
+      "sha256": "11af488c253517563b86a96e605ef3edcdafcb6c621f61cf7bee97f696d3df06"
+    },
+    {
+      "file": "R796-quadratic-product-000-059.json.gz",
+      "bytes": 19693,
+      "sha256": "088db2a27aa93153db4864fc262388f27727f7f477212e461e16955c8deb7ab8"
+    },
+    {
+      "file": "R796-quadratic-product-000-060.json.gz",
+      "bytes": 19742,
+      "sha256": "f6f50a1217324d9eb6c3ca413f1374a16caefa4be44356236789c033feaeaef9"
+    },
+    {
+      "file": "R796-quadratic-product-000-061.json.gz",
+      "bytes": 19628,
+      "sha256": "d0a649643de45a6571b8c287d0bb2e60ee716fc694fa7a5616a0c968a73abd81"
+    },
+    {
+      "file": "R796-quadratic-product-000-062.json.gz",
+      "bytes": 19743,
+      "sha256": "5b66417d04971b4cebc4280328b27e45ae7819f3b7ebea747462c6fb47a874e2"
+    },
+    {
+      "file": "R796-quadratic-product-000-063.json.gz",
+      "bytes": 19705,
+      "sha256": "9f0f829f73b70f5f99da212bc9165071662f196d33e244bca5e7b78f0e925e3c"
+    },
+    {
+      "file": "R796-quadratic-product-000-064.json.gz",
+      "bytes": 19595,
+      "sha256": "ce7fbc702d5c7b8120af8942f1c792d3e9ee89878ed857f94c1aff17a8be5458"
+    },
+    {
+      "file": "R796-quadratic-product-000-065.json.gz",
+      "bytes": 19748,
+      "sha256": "0e81d7a5e5d46440f055b6a121c17a79cf125c23b6f9d1755987447de9e64ca5"
+    },
+    {
+      "file": "R796-quadratic-product-000-066.json.gz",
+      "bytes": 19689,
+      "sha256": "8d2562bf5346b26e1eb4de988377294aed42dd4bdc4cb9d3282bed8ab9b9ae03"
+    },
+    {
+      "file": "R796-quadratic-product-000-067.json.gz",
+      "bytes": 19433,
+      "sha256": "425cde0f03569456fabd266f9916062d90ca3cc7c7d4e15f0e8f573d79e788c4"
+    },
+    {
+      "file": "R796-quadratic-product-000-068.json.gz",
+      "bytes": 19642,
+      "sha256": "6c9344b5596bbfcbaf36dc47a50fed87902fba2bb81738bac4fe9e2f817898b6"
+    },
+    {
+      "file": "R796-quadratic-product-000-069.json.gz",
+      "bytes": 19698,
+      "sha256": "72022836c1a903422e38818fbd34fab1690b4c169ea8a116d6b9dd4c772c9f27"
+    },
+    {
+      "file": "R796-quadratic-product-000-070.json.gz",
+      "bytes": 19608,
+      "sha256": "3fc37a3b647520b138ba23fa4848f68490c8c59ce5b48c154c76afed0af4e9c4"
+    },
+    {
+      "file": "R796-quadratic-product-000-071.json.gz",
+      "bytes": 19678,
+      "sha256": "95df0b365520c1f373b01ab649c1e1f5f08f6dd532ee6d74780f84dd5bc8c239"
+    },
+    {
+      "file": "R796-quadratic-product-000-072.json.gz",
+      "bytes": 29693,
+      "sha256": "a6b961042276c6015c972cdc92019a00ab95fd813694e18de40ff85367812029"
+    },
+    {
+      "file": "R796-quadratic-product-000-073.json.gz",
+      "bytes": 29940,
+      "sha256": "5abf878343d1cf57776c30f849ce45a3844038bf31bf17ae51620691a1f0b54b"
+    },
+    {
+      "file": "R796-quadratic-product-000-074.json.gz",
+      "bytes": 29924,
+      "sha256": "545b2d27c19b4e7e86f002348c17c035d304640b254656e6c163dd08ef558ff5"
+    },
+    {
+      "file": "R796-quadratic-product-000-075.json.gz",
+      "bytes": 29604,
+      "sha256": "42ee97ee975e7f91baf44b98a639f3d6263186e1cb982ec287be9509b6f891c1"
+    },
+    {
+      "file": "R796-quadratic-product-000-076.json.gz",
+      "bytes": 30051,
+      "sha256": "2794b5ed6ac59547837f3cdebfbe14a5bd06764156ac7e4aadfea1994234af2e"
+    },
+    {
+      "file": "R796-quadratic-product-000-077.json.gz",
+      "bytes": 29421,
+      "sha256": "5aead17fe2702870677f4ef62790c92f2e0a6199aed5a68a02046ed476c5a740"
+    },
+    {
+      "file": "R796-quadratic-product-000-078.json.gz",
+      "bytes": 30246,
+      "sha256": "d49966f2c1b4365b76a91351f26d9d67b0c59bd20555608766ee9417e85350de"
+    },
+    {
+      "file": "R796-quadratic-product-000-079.json.gz",
+      "bytes": 29607,
+      "sha256": "f60e43a64004a51957cb22528b2abf71aee416c9a3c83d13e4a4f3278f88a179"
+    },
+    {
+      "file": "R796-quadratic-product-000-080.json.gz",
+      "bytes": 29858,
+      "sha256": "80f2bc36bc6825167c2f7f405e48b76105b118b88e281a72c45f726b356c5c7a"
+    },
+    {
+      "file": "R796-quadratic-product-000-081.json.gz",
+      "bytes": 30099,
+      "sha256": "1a31b2d92ecae85670118832a8387bb3a92eaea2574f8f5228f26313988914e8"
+    },
+    {
+      "file": "R796-quadratic-product-000-082.json.gz",
+      "bytes": 30321,
+      "sha256": "a438adaa66d2a22891982d41f50d53a4c164eef8e319cd61576c109983e6ecfe"
+    },
+    {
+      "file": "R796-quadratic-product-000-083.json.gz",
+      "bytes": 30240,
+      "sha256": "49296087b10a140603c908d0214fed9b7bfa065d0d7f054379ee659c23facfc3"
+    },
+    {
+      "file": "R796-quadratic-product-000-084.json.gz",
+      "bytes": 30054,
+      "sha256": "e4bfde322721bc725e9548b9da2e487db27cc23174bb088bffba11480f646605"
+    },
+    {
+      "file": "R796-quadratic-product-000-085.json.gz",
+      "bytes": 29523,
+      "sha256": "ef21bd8efd3f8d1182fecde8421db87b23315a47ea010a1beef452f63647fea4"
+    },
+    {
+      "file": "R796-quadratic-product-000-086.json.gz",
+      "bytes": 29966,
+      "sha256": "66c42f8fc6f5742430ab603cb03c4956303ecfeeaa97e8e3f0ccfd567bcc793c"
+    },
+    {
+      "file": "R796-quadratic-product-000-087.json.gz",
+      "bytes": 29979,
+      "sha256": "e0b3e5f8111a9ba3252810fec97a0a07d76894c72771b156ebe46a8be6e2e632"
+    },
+    {
+      "file": "R796-quadratic-product-000-088.json.gz",
+      "bytes": 30011,
+      "sha256": "33bb355c8886f444e69c2cef18ab40ad93e43ad6ce0f03fa45c4a4a603fc1c1d"
+    },
+    {
+      "file": "R796-quadratic-product-000-089.json.gz",
+      "bytes": 29996,
+      "sha256": "b415c83d207fdadb04742cb642877450e11245ad6355a86a97becf426f27f032"
+    },
+    {
+      "file": "R796-quadratic-product-000-090.json.gz",
+      "bytes": 30262,
+      "sha256": "df317b8c4e23765626959438a48d6f39684732b0c93223fc390692a7f2af0d1b"
+    },
+    {
+      "file": "R796-quadratic-product-000-091.json.gz",
+      "bytes": 29675,
+      "sha256": "5166de0a5718d94128b2cb88d3c8ab8ac3cf7eb8af6d98c642ddfaaa0bbdd526"
+    },
+    {
+      "file": "R796-quadratic-product-000-092.json.gz",
+      "bytes": 29843,
+      "sha256": "83a9b921a69fcecead8aecf46af377417913f5f0143dd0baac133cea3c5727b7"
+    },
+    {
+      "file": "R796-quadratic-product-000-093.json.gz",
+      "bytes": 29882,
+      "sha256": "570c8cea49c9f2281218f565d749afb4bb4e7f2f7e9fff8cead25f8b600fd744"
+    },
+    {
+      "file": "R796-quadratic-product-000-094.json.gz",
+      "bytes": 29602,
+      "sha256": "9d63def8f0b2d38c1ff3e5ca2bf0796a3e308be8e54437f1bfa304ad1d0b448a"
+    },
+    {
+      "file": "R796-quadratic-product-000-095.json.gz",
+      "bytes": 29907,
+      "sha256": "d152afdc4f7eba1ac86c25842b57b17439a8b115206279e09627603accae402c"
+    },
+    {
+      "file": "R796-quadratic-product-000-096.json.gz",
+      "bytes": 30105,
+      "sha256": "22636e9785d1af8958bb899a292719791883c20b8a22bde8240cd3fb552bd4ec"
+    },
+    {
+      "file": "R796-quadratic-product-000-097.json.gz",
+      "bytes": 29939,
+      "sha256": "501c9f2e58d015115fc02e72ec5ed36f6dbf28dac1c454f71eed417beb053b45"
+    },
+    {
+      "file": "R796-quadratic-product-000-098.json.gz",
+      "bytes": 29737,
+      "sha256": "82d6eb66837b14ff1303f66c25619a0b0bd3a01129fce539f51ebfb569805438"
+    },
+    {
+      "file": "R796-quadratic-product-000-099.json.gz",
+      "bytes": 30387,
+      "sha256": "97491071d1ec70592e1ad7676579478a2275014c389f7391153eda798c24f859"
+    },
+    {
+      "file": "R796-quadratic-product-000-100.json.gz",
+      "bytes": 29681,
+      "sha256": "9945ec70f2ab89294b00398fb89f997ae13a34f89e71b53a2521c9ef554c120c"
+    },
+    {
+      "file": "R796-quadratic-product-000-101.json.gz",
+      "bytes": 30091,
+      "sha256": "21815f960c55d6f7a0987eb30cc03fb9cbd3d6c644b19ad3e10b3ad0b52561b9"
+    },
+    {
+      "file": "R796-quadratic-product-000-102.json.gz",
+      "bytes": 29759,
+      "sha256": "7a887012805bb7c64061af2140d5f61f78f0769670883e62eb287af01fd928da"
+    },
+    {
+      "file": "R796-quadratic-product-000-103.json.gz",
+      "bytes": 30077,
+      "sha256": "7f74891542067621679c002a41cb45bf3393b8c4169b45ca5137ccd63c13c5bf"
+    },
+    {
+      "file": "R796-quadratic-product-000-104.json.gz",
+      "bytes": 29832,
+      "sha256": "f95230d3c356b20630173e19f12d768c4bb3d3ca9d4ec93fe8a9a4077ceda5cc"
+    },
+    {
+      "file": "R796-quadratic-product-000-105.json.gz",
+      "bytes": 29779,
+      "sha256": "32b741d22b850edaa05125d04600ff7c0ea82d92311c192cb254c132896c8a0e"
+    },
+    {
+      "file": "R796-quadratic-product-000-106.json.gz",
+      "bytes": 29900,
+      "sha256": "24649ca7197a1874ec922f8b70ec5c7b18ce1df762c92141c8c3a2c67a1a3e57"
+    },
+    {
+      "file": "R796-quadratic-product-000-107.json.gz",
+      "bytes": 29986,
+      "sha256": "1849927205bba1258912dbf2e3cd7dc2aab6299c1fb0aba3240bd7a5be3c33d0"
+    },
+    {
+      "file": "R796-quadratic-product-000-108.json.gz",
+      "bytes": 30204,
+      "sha256": "adfabab43396d437c029040ee0a8158b45a9bfcbe8ef94ac45571a3e3ee408e8"
+    },
+    {
+      "file": "R796-quadratic-product-000-109.json.gz",
+      "bytes": 29757,
+      "sha256": "9a26a09e7dbb15ae41103d8ba400cad86793e5728b89d459543dc65a934d557f"
+    },
+    {
+      "file": "R796-quadratic-product-000-110.json.gz",
+      "bytes": 30030,
+      "sha256": "f4a247d1410ba63983714754156734d73e4244d044238b8f8d6d12cb0f1f4709"
+    },
+    {
+      "file": "R796-quadratic-product-000-111.json.gz",
+      "bytes": 29513,
+      "sha256": "13442d55e8877a54bbf6a6da8b485763090422ca9741cf93af888df3f0646b5e"
+    },
+    {
+      "file": "R796-quadratic-product-000-112.json.gz",
+      "bytes": 29868,
+      "sha256": "48c722d1eb24895843035023dbd9199317b807e913b71f5e0234e7d49e1a66cf"
+    },
+    {
+      "file": "R796-quadratic-product-000-113.json.gz",
+      "bytes": 30087,
+      "sha256": "ee0545e0a7a8348f8f32dd38fc8a83915a3a9cd10e9b73e48610806de8e21eed"
+    },
+    {
+      "file": "R796-quadratic-product-000-114.json.gz",
+      "bytes": 29953,
+      "sha256": "a3de5320cd41070198dbbad10196d737a0936ebcbb3af11d7d774c41eee23ae2"
+    },
+    {
+      "file": "R796-quadratic-product-000-115.json.gz",
+      "bytes": 29486,
+      "sha256": "742d12a6e56eb60d0b229fffc9c2b5c83475e0e4c5ca26c4738277bcdd97056c"
+    },
+    {
+      "file": "R796-quadratic-product-000-116.json.gz",
+      "bytes": 29927,
+      "sha256": "ccadfb80530d8a808af0802c4ce323450bd0e382a02dc0a5792e593a4024b329"
+    },
+    {
+      "file": "R796-quadratic-product-000-117.json.gz",
+      "bytes": 29665,
+      "sha256": "258c939363a597e3666998c3bec408582f3a38766c15cfc0b2edbb2abacadb95"
+    },
+    {
+      "file": "R796-quadratic-product-000-118.json.gz",
+      "bytes": 29732,
+      "sha256": "89401f7026335bc530e921ebba01ae5483992a7a18240feedc711648a39e9226"
+    },
+    {
+      "file": "R796-quadratic-product-000-119.json.gz",
+      "bytes": 29970,
+      "sha256": "ff63531337c9f8c94401401582f3799ca676e0dc2ef37f3115da0c005a6d412e"
+    },
+    {
+      "file": "R796-quadratic-product-000-120.json.gz",
+      "bytes": 29820,
+      "sha256": "018b620ea059a3921f8cb29504623a192d33a86add7f638fec979da3cd306e85"
+    },
+    {
+      "file": "R796-quadratic-product-000-121.json.gz",
+      "bytes": 30174,
+      "sha256": "3a9c51de0a9bbcef4636aa3b8ba5fb924e324adae9c38e7cb49b0d6ce1b61226"
+    },
+    {
+      "file": "R796-quadratic-product-000-122.json.gz",
+      "bytes": 30246,
+      "sha256": "d15a1b544443841edd25a0d632688b50e3aa964c1ffa0804cc58d7676fd0f383"
+    },
+    {
+      "file": "R796-quadratic-product-000-123.json.gz",
+      "bytes": 30049,
+      "sha256": "303bf4882706f603d235cb64cb5de19ce741b436b81918b7e35931e17c16189e"
+    },
+    {
+      "file": "R796-quadratic-product-000-124.json.gz",
+      "bytes": 30171,
+      "sha256": "ab3d5c8cfc448c5e3829e1ff34d5176465acdc19e781760c745e2df22de35d63"
+    },
+    {
+      "file": "R796-quadratic-product-000-125.json.gz",
+      "bytes": 29967,
+      "sha256": "339274dc2825e2089adcc3a8e4875c77232d86f7529d52a980b4a2eb4b5ccac3"
+    },
+    {
+      "file": "R796-quadratic-product-000-126.json.gz",
+      "bytes": 29893,
+      "sha256": "0fb002d9ba2c92e43dd83ffcac66a72577752c3231ee3506835472f1c8bd8d8c"
+    },
+    {
+      "file": "R796-quadratic-product-000-127.json.gz",
+      "bytes": 29715,
+      "sha256": "5750802eb257238173bfbb3b0e78cfa610d74aeec78ba5fff7c36a1633de8c9e"
+    },
+    {
+      "file": "R796-quadratic-product-000-128.json.gz",
+      "bytes": 29700,
+      "sha256": "01a04464a56eff99f4ef1a6ea18d5fb507c77d226466db8d1ebb5888654927bd"
+    },
+    {
+      "file": "R796-quadratic-product-000-129.json.gz",
+      "bytes": 29943,
+      "sha256": "af353113985354d5945e06103a5ea103264189e50704cde5b922f987d6bbc95f"
+    },
+    {
+      "file": "R796-quadratic-product-000-130.json.gz",
+      "bytes": 29833,
+      "sha256": "3fd4796ac03cc4a04586fe0aa88dc7574b37d6626e9902b3c8ec100addd26e65"
+    },
+    {
+      "file": "R796-quadratic-product-000-131.json.gz",
+      "bytes": 29913,
+      "sha256": "4eab8b203c6031710bd8bef97801deeaded3415707ef669287aaa68b1a0cfff9"
+    },
+    {
+      "file": "R796-quadratic-product-000-132.json.gz",
+      "bytes": 29681,
+      "sha256": "64ff9207ca141f0adff6dc06dc07f29b12e35b1112937c33e0aae65e9ec03430"
+    },
+    {
+      "file": "R796-quadratic-product-000-133.json.gz",
+      "bytes": 29769,
+      "sha256": "00f842d6ce2ccfb3418ac05bda295c6fd88e5504496b90034ca7a6588684d884"
+    },
+    {
+      "file": "R796-quadratic-product-000-134.json.gz",
+      "bytes": 30190,
+      "sha256": "0d99f8fed5206a562485cb48e009d51a6f4725e60521acdc73830a6f5fe3960c"
+    },
+    {
+      "file": "R796-quadratic-product-000-135.json.gz",
+      "bytes": 29929,
+      "sha256": "6f15ba5e881977ee715f3f96762d0ea23ed10c592e1021a9de909d6b69967e3a"
+    },
+    {
+      "file": "R796-quadratic-product-000-136.json.gz",
+      "bytes": 30202,
+      "sha256": "bc3d9bed15c12c5461c337a32c6391820c4d765a22e270a0e9de19543d21133c"
+    },
+    {
+      "file": "R796-quadratic-product-000-137.json.gz",
+      "bytes": 29938,
+      "sha256": "3381f5e170537da0da19183200a971d86e8fd3f5df34e0545c494493632f7662"
+    },
+    {
+      "file": "R796-quadratic-product-000-138.json.gz",
+      "bytes": 29979,
+      "sha256": "9172897dd78400040f3760dcc1a61100bb77e19217013a9a6d160be32b153dbf"
+    },
+    {
+      "file": "R796-quadratic-product-000-139.json.gz",
+      "bytes": 30131,
+      "sha256": "5304f603cf63e8fc7ec4c3604122c7bc1a10de6eb5e6588ad5ed87c01f93954a"
+    },
+    {
+      "file": "R796-quadratic-product-000-140.json.gz",
+      "bytes": 30036,
+      "sha256": "7b66e0e1e4a95830184b6df4fdb6c789bc6a8c39d9b8b63f4f2d9258354d1c9c"
+    },
+    {
+      "file": "R796-quadratic-product-000-141.json.gz",
+      "bytes": 30089,
+      "sha256": "44683f8f1c09b02c7965ead225ca5e41721cf222da91b5dc83b0cfd39a23735d"
+    },
+    {
+      "file": "R796-quadratic-product-000-142.json.gz",
+      "bytes": 30177,
+      "sha256": "5ff59de7302747d5b266fefb91fd4fc2d1095e4cab924fe098139eee0e1c7b4e"
+    },
+    {
+      "file": "R796-quadratic-product-000-143.json.gz",
+      "bytes": 29879,
+      "sha256": "9c82da7a52684ad25115e3dfe66622304640cd486f9b68c7c9c1922cedf52661"
+    },
+    {
+      "file": "R796-quadratic-product-000-144.json.gz",
+      "bytes": 29927,
+      "sha256": "0aff9c29df0d37688225d5f151e4356778acdba0c100e39e1c3b3199a2526d96"
+    },
+    {
+      "file": "R796-quadratic-product-001-001.json.gz",
+      "bytes": 20327,
+      "sha256": "cbe691ec6d781eb4a6962d41bb638f732e36a1e828a55384d786859ad031eed2"
+    },
+    {
+      "file": "R796-quadratic-product-001-002.json.gz",
+      "bytes": 20318,
+      "sha256": "bc71ece195bbb10345150a835f69c1ce82abd708a168a03454f41299343d6e05"
+    },
+    {
+      "file": "R796-quadratic-product-001-003.json.gz",
+      "bytes": 20449,
+      "sha256": "e4f7ba647668e1ead849e83a0ff8655bfbf56ef97cc2171c20d37b49f870c277"
+    },
+    {
+      "file": "R796-quadratic-product-001-004.json.gz",
+      "bytes": 20489,
+      "sha256": "ab6d0d1fdd0145d067346663fe08bfbd4a8ccc45519371911ab4469b5788075c"
+    },
+    {
+      "file": "R796-quadratic-product-001-005.json.gz",
+      "bytes": 20325,
+      "sha256": "f91fc3e801cc5c4a59d5fa92cd7a901620e45b8a2a103e846981d9ec778e8dde"
+    },
+    {
+      "file": "R796-quadratic-product-001-006.json.gz",
+      "bytes": 20168,
+      "sha256": "214d0511f043adf7162f158d8d9deb84617f39b85973a3e2cc205eaf071e5ce8"
+    },
+    {
+      "file": "R796-quadratic-product-001-007.json.gz",
+      "bytes": 20244,
+      "sha256": "a9a3bde19870ab25bf96c6bec5a1491c4c464f997a81e3bf0a3f95e60a919a3e"
+    },
+    {
+      "file": "R796-quadratic-product-001-008.json.gz",
+      "bytes": 20412,
+      "sha256": "52467fc206c36101f39aa4fb2347a73ae6cbd6b89c044251f23f8c566681e685"
+    },
+    {
+      "file": "R796-quadratic-product-001-009.json.gz",
+      "bytes": 20468,
+      "sha256": "b258e597b6c48782cd701c3180e82e7edae92e53c6b9734e53c9c1e502893cb4"
+    },
+    {
+      "file": "R796-quadratic-product-001-010.json.gz",
+      "bytes": 20269,
+      "sha256": "f80e5ec5ceab89d781f6b10ad6079fe60fdf9d82108660c4b3ae9b86e7196a11"
+    },
+    {
+      "file": "R796-quadratic-product-001-011.json.gz",
+      "bytes": 20098,
+      "sha256": "5092243ddedf343bd57473968ac645317ac385c7a9ff4d5dbd58c2b27d3b1562"
+    },
+    {
+      "file": "R796-quadratic-product-001-012.json.gz",
+      "bytes": 20425,
+      "sha256": "ccf8b99b4c610c8db9cd4c03b438ba9027be5f660ad429eb9451451b3bbf6b9f"
+    },
+    {
+      "file": "R796-quadratic-product-001-013.json.gz",
+      "bytes": 20465,
+      "sha256": "5864f71a2adec433d58c41cf37c70572674133fdcf0affe95768297563dfc16d"
+    },
+    {
+      "file": "R796-quadratic-product-001-014.json.gz",
+      "bytes": 20428,
+      "sha256": "432d288494ff901b9c4f101b9cc765b15179c91954c5dae97f5a0a9ea84a544c"
+    },
+    {
+      "file": "R796-quadratic-product-001-015.json.gz",
+      "bytes": 20286,
+      "sha256": "9e1eb62db7fc1222caf84f9df991e0604c9ad4db28f142e2f4bb5b05e090abb7"
+    },
+    {
+      "file": "R796-quadratic-product-001-016.json.gz",
+      "bytes": 20473,
+      "sha256": "941234bb936bc6ecd2275b5468ef3e6088dc42b3d6f02b12d4c0d46df15855e7"
+    },
+    {
+      "file": "R796-quadratic-product-001-017.json.gz",
+      "bytes": 20233,
+      "sha256": "57b8731d85a73dd29d8847d0ffde2894387aa9a8721986ab4b4e4c627ec236cd"
+    },
+    {
+      "file": "R796-quadratic-product-001-018.json.gz",
+      "bytes": 20474,
+      "sha256": "2e7155b5792f9aeb99e62f48c47f935c759593ba01d1043d17708ee0eae5ceaa"
+    },
+    {
+      "file": "R796-quadratic-product-001-019.json.gz",
+      "bytes": 20438,
+      "sha256": "a234389a194d25d787884d8f05199f6da00844cdd1b7494cab2024383e1acf99"
+    },
+    {
+      "file": "R796-quadratic-product-001-020.json.gz",
+      "bytes": 20518,
+      "sha256": "5f4caefc6880671e48bddce410c18712a228b7602f0870ffea17f9507499a1be"
+    },
+    {
+      "file": "R796-quadratic-product-001-021.json.gz",
+      "bytes": 20357,
+      "sha256": "5291cb9e83b9f1d5b3650a74dae0c1e500dc66cd98edc2d219ab788731a5637b"
+    },
+    {
+      "file": "R796-quadratic-product-001-022.json.gz",
+      "bytes": 20503,
+      "sha256": "5e13261eedbb1d818dae3e86080501d2f566eb053232fafaf4a36319aa887537"
+    },
+    {
+      "file": "R796-quadratic-product-001-023.json.gz",
+      "bytes": 20532,
+      "sha256": "399aa392510f930830dd45b118e3ba71660fa2331235881d5cff28099f1f81c1"
+    },
+    {
+      "file": "R796-quadratic-product-001-024.json.gz",
+      "bytes": 20478,
+      "sha256": "78a85ebaad86b5f163fedaa35c8b8f246f5fc401a3538bf95facf1717698f6af"
+    },
+    {
+      "file": "R796-quadratic-product-001-025.json.gz",
+      "bytes": 20534,
+      "sha256": "235f7ecc9e070e45351fb9750e87561fbc8af35ff64540785af38dfc90e31509"
+    },
+    {
+      "file": "R796-quadratic-product-001-026.json.gz",
+      "bytes": 20390,
+      "sha256": "7f2346478dc65a4c428add2cb8f1f6eb5bce90e580d57d1107ead632cbd90af4"
+    },
+    {
+      "file": "R796-quadratic-product-001-027.json.gz",
+      "bytes": 20552,
+      "sha256": "b83319bc516c392881617500111d0ff386e17ac1f18c4af7b6ad1bde4c8c6a05"
+    },
+    {
+      "file": "R796-quadratic-product-001-028.json.gz",
+      "bytes": 20460,
+      "sha256": "b5dcf7ac8f490086dbf6a539205d2ef4e1992450ed1fc88f6390e5e64ffb525a"
+    },
+    {
+      "file": "R796-quadratic-product-001-029.json.gz",
+      "bytes": 20556,
+      "sha256": "14ee82a8405ff10090e60db0747345ae8dd7e65e1404005ba7a9d798c5a7be11"
+    },
+    {
+      "file": "R796-quadratic-product-001-030.json.gz",
+      "bytes": 20476,
+      "sha256": "9b8edc335d5e4a9d4340764304532cb79409c93d2eed8c251f75f47b831fe978"
+    },
+    {
+      "file": "R796-quadratic-product-001-031.json.gz",
+      "bytes": 20459,
+      "sha256": "7a97051a8eb1a5876e073b9f11768c746c2cf4c9c27b8c39ebaade015c0f173c"
+    },
+    {
+      "file": "R796-quadratic-product-001-032.json.gz",
+      "bytes": 20471,
+      "sha256": "945bef0d93cdfcf17c3fe1bfaf28145b8a83263a0f7db6c28c2a4671490b9eba"
+    },
+    {
+      "file": "R796-quadratic-product-001-033.json.gz",
+      "bytes": 20456,
+      "sha256": "ad99f4419472b3dbeb7bbb85984554c45dd2f444708b1833a7f8b33bb8d6c9d4"
+    },
+    {
+      "file": "R796-quadratic-product-001-034.json.gz",
+      "bytes": 20430,
+      "sha256": "e2d30a29e83b878155a7c774110cee957c3fc5e8d4020d742914e658b6887a2f"
+    },
+    {
+      "file": "R796-quadratic-product-001-035.json.gz",
+      "bytes": 20401,
+      "sha256": "077b81fdf0e09372fdf6cb8791259404faa5796c219a47b7bad2801da42c1a40"
+    },
+    {
+      "file": "R796-quadratic-product-001-036.json.gz",
+      "bytes": 20429,
+      "sha256": "c558092238f84f2f92fd4ab81e1d0601f1583d677c5da1566a6f000113a67b73"
+    },
+    {
+      "file": "R796-quadratic-product-001-037.json.gz",
+      "bytes": 20495,
+      "sha256": "42feba274845a58ac4207e1480e0a25147c10d848b9c1d6aba880c5566a4a197"
+    },
+    {
+      "file": "R796-quadratic-product-001-038.json.gz",
+      "bytes": 20464,
+      "sha256": "ce93b54ca7337c494f3b140c623786431ea7dc9a6a09c81b0defb86e18e61841"
+    },
+    {
+      "file": "R796-quadratic-product-001-039.json.gz",
+      "bytes": 20417,
+      "sha256": "ae76844d1461645bfaa5559bf2d4dc303dbf3470c9bc3df03aef323f4262bdf2"
+    },
+    {
+      "file": "R796-quadratic-product-001-040.json.gz",
+      "bytes": 20424,
+      "sha256": "f207ed407a257a867f745b67cdef52677693da37364b37d148adaee6092f013a"
+    },
+    {
+      "file": "R796-quadratic-product-001-041.json.gz",
+      "bytes": 20452,
+      "sha256": "1a4aff05fa81dd88a66c67ef5c6db398e94bd7fedee0aa263026990755e9bffe"
+    },
+    {
+      "file": "R796-quadratic-product-001-042.json.gz",
+      "bytes": 20450,
+      "sha256": "e180847785d0d2cbe8b15fa39b094db18577e10c90f53fa8ddca8299cd8c5a1f"
+    },
+    {
+      "file": "R796-quadratic-product-001-043.json.gz",
+      "bytes": 20511,
+      "sha256": "669b97c4d8c019986457b8275b14185e15bb2a991fdf3d02e84ccb33f89c2ad6"
+    },
+    {
+      "file": "R796-quadratic-product-001-044.json.gz",
+      "bytes": 20555,
+      "sha256": "42e431252af32ea66869c0993737c223a87fb6bca8228b6b98287724b2cbfe47"
+    },
+    {
+      "file": "R796-quadratic-product-001-045.json.gz",
+      "bytes": 20391,
+      "sha256": "6b843495751854ad1aef67c49fd0d0111cb2943523ae393c35638179601e0040"
+    },
+    {
+      "file": "R796-quadratic-product-001-046.json.gz",
+      "bytes": 20488,
+      "sha256": "807d4371225c5ba8cd4cffc332fe33124d2385b830bd227e848158267b022378"
+    },
+    {
+      "file": "R796-quadratic-product-001-047.json.gz",
+      "bytes": 20473,
+      "sha256": "0120c8bbf50ba05483f7af8c949b376317ef30252d69e79fa52b81dc89538211"
+    },
+    {
+      "file": "R796-quadratic-product-001-048.json.gz",
+      "bytes": 20495,
+      "sha256": "b32d26c7adc6d50531e102831089ed2aa2872f0f2208ee571e480536b7f63f33"
+    },
+    {
+      "file": "R796-quadratic-product-001-049.json.gz",
+      "bytes": 20497,
+      "sha256": "e8b4e469e8300a5d3caf04305541c65be418f5f581f60d0a72848e7a8f4f2a1b"
+    },
+    {
+      "file": "R796-quadratic-product-001-050.json.gz",
+      "bytes": 20508,
+      "sha256": "caa04c7b5595490aa401d124dce08cf1fa97d2ea894f84a712896908b4ff4eac"
+    },
+    {
+      "file": "R796-quadratic-product-001-051.json.gz",
+      "bytes": 20521,
+      "sha256": "7133345ff44a32739406d2eeb2153762b2eff82a55c50c0244333aa746d08dee"
+    },
+    {
+      "file": "R796-quadratic-product-001-052.json.gz",
+      "bytes": 20497,
+      "sha256": "a3d8fef03a20964a4aa7787ff02e0ca2855c0b023957b30e93760422da781a77"
+    },
+    {
+      "file": "R796-quadratic-product-001-053.json.gz",
+      "bytes": 20493,
+      "sha256": "b5352531932c80ada1b17a17c54acf721c42c4ff1b3a8d588b6e39cb867192d5"
+    },
+    {
+      "file": "R796-quadratic-product-001-054.json.gz",
+      "bytes": 20446,
+      "sha256": "7e19c4953422ccf9360268e3d0f514a5affa906c1b866425bb00f193816bb1b9"
+    },
+    {
+      "file": "R796-quadratic-product-001-055.json.gz",
+      "bytes": 20483,
+      "sha256": "a483546e6e58a6c54c8ba195235421cdd09ede4c583f76b8cd7ea70194fa8c03"
+    },
+    {
+      "file": "R796-quadratic-product-001-056.json.gz",
+      "bytes": 20470,
+      "sha256": "e3df477740fa099b2037b442697c183a9b7da3fece1f406fc3ae95fd9eb8ec0d"
+    },
+    {
+      "file": "R796-quadratic-product-001-057.json.gz",
+      "bytes": 20497,
+      "sha256": "ec2855d85aef4f2a957d96c437358cbd115547c112e3fe22dd076a9984587b9d"
+    },
+    {
+      "file": "R796-quadratic-product-001-058.json.gz",
+      "bytes": 20478,
+      "sha256": "5f21aaed1ddbc7b3303016409132917a3a2730b3050b43eff3182cea5114c7b0"
+    },
+    {
+      "file": "R796-quadratic-product-001-059.json.gz",
+      "bytes": 20466,
+      "sha256": "d2184866ba5a58a7c0ac5299f4869b0eec635ea538e1ece64b1d0191dda6a5a5"
+    },
+    {
+      "file": "R796-quadratic-product-001-060.json.gz",
+      "bytes": 20528,
+      "sha256": "26e0362bf3d7895203dd4c99cc0931bdbe70a624d0edc313688c86373c300305"
+    },
+    {
+      "file": "R796-quadratic-product-001-061.json.gz",
+      "bytes": 20370,
+      "sha256": "b856875ad93fbb5be232882dc4d739dd9761e7ac779439a32f435e1944ae5cb4"
+    },
+    {
+      "file": "R796-quadratic-product-001-062.json.gz",
+      "bytes": 20504,
+      "sha256": "969d1cc4933489f428dc28a956ba3ebd9bb790317425edd948e4b76044fc3fc2"
+    },
+    {
+      "file": "R796-quadratic-product-001-063.json.gz",
+      "bytes": 20470,
+      "sha256": "bcb37b6ce6dd8307b27b068f944712cccae39af86c4a32258b938eff7a1a7fe2"
+    },
+    {
+      "file": "R796-quadratic-product-001-064.json.gz",
+      "bytes": 20352,
+      "sha256": "abf1454f6eaaa3171e0d3a1a1d0c4ddae36c8960e9ed26ac5752135f93820b19"
+    },
+    {
+      "file": "R796-quadratic-product-001-065.json.gz",
+      "bytes": 20483,
+      "sha256": "aa1ed4606674274b2dc80bca4e739e8f80e459d961925bd283216a97d6600d30"
+    },
+    {
+      "file": "R796-quadratic-product-001-066.json.gz",
+      "bytes": 20425,
+      "sha256": "0ef80891ad3e2e65e6baf65fb7a22a009316606aa17cbb76a581c9b10b5ee9ac"
+    },
+    {
+      "file": "R796-quadratic-product-001-067.json.gz",
+      "bytes": 20239,
+      "sha256": "ae52f44c9d45f050a7335f8a2029aaecb941a4ea4c1f3f03d0fc30ced9130622"
+    },
+    {
+      "file": "R796-quadratic-product-001-068.json.gz",
+      "bytes": 20377,
+      "sha256": "87a300db99e6157c86c350e2803ec598bc558f5c41d3f87407c0ccd02d8ab849"
+    },
+    {
+      "file": "R796-quadratic-product-001-069.json.gz",
+      "bytes": 20509,
+      "sha256": "bf03e1131ae672508d21297a4c7d0e703c3d77010bf91c8d7ae1522d6780ef40"
+    },
+    {
+      "file": "R796-quadratic-product-001-070.json.gz",
+      "bytes": 20402,
+      "sha256": "437f7e086109cf33777105abbdd267949684b5a6cb504490603716831cd85b8b"
+    },
+    {
+      "file": "R796-quadratic-product-001-071.json.gz",
+      "bytes": 20434,
+      "sha256": "699f9591e64f33e6dab756df7b911369d2d5e8fd7c6d7897e3816804f67db96a"
+    },
+    {
+      "file": "R796-quadratic-product-001-072.json.gz",
+      "bytes": 32001,
+      "sha256": "fd8f75fcf48978ffb721a57e4c563e16047a1b63511a7c2e9af8138f161ce1b3"
+    },
+    {
+      "file": "R796-quadratic-product-001-073.json.gz",
+      "bytes": 32252,
+      "sha256": "d7143d7e7c24908be844107f829c12700866007d255a7329e8c1bd7e9c47ac9b"
+    },
+    {
+      "file": "R796-quadratic-product-001-074.json.gz",
+      "bytes": 32287,
+      "sha256": "68768f087270beed06aa265cd8366b226544f8993aacc2eacf878bd33b66c35a"
+    },
+    {
+      "file": "R796-quadratic-product-001-075.json.gz",
+      "bytes": 31848,
+      "sha256": "7ed331cdc67cae3405d75230534cd44736f7849e8791803c9d1f7dd098f4b683"
+    },
+    {
+      "file": "R796-quadratic-product-001-076.json.gz",
+      "bytes": 32403,
+      "sha256": "136e6356d4e277b840ff4f88ee0eab9f59cc9f20e2cca198b781d94c730d3c1b"
+    },
+    {
+      "file": "R796-quadratic-product-001-077.json.gz",
+      "bytes": 31739,
+      "sha256": "b3e29b7ca59855def3044e93644e47628140a4386d9d8f59d4f6fbe30f33a7c2"
+    },
+    {
+      "file": "R796-quadratic-product-001-078.json.gz",
+      "bytes": 32448,
+      "sha256": "d3185ddc22b6a3c56e3534e3201f2bf68b9c1044eab0ba176ae18f943833585e"
+    },
+    {
+      "file": "R796-quadratic-product-001-079.json.gz",
+      "bytes": 31862,
+      "sha256": "3263c3097bf626551042a2e22917941e07895e4ba09ad4ebee4faf9b9d708e82"
+    },
+    {
+      "file": "R796-quadratic-product-001-080.json.gz",
+      "bytes": 32094,
+      "sha256": "6152620c5fcd688317f6333b7ff1c50bd28365674c6320366c007df0b5c2c2aa"
+    },
+    {
+      "file": "R796-quadratic-product-001-081.json.gz",
+      "bytes": 32414,
+      "sha256": "285c46a8e53fb85555e84debbac60a3aa6ea10fbedfb6a3f506be226bd1af0c1"
+    },
+    {
+      "file": "R796-quadratic-product-001-082.json.gz",
+      "bytes": 32592,
+      "sha256": "db9d42816c8643e37152f6ae9ab324c2553d1a31fe9d1753fc9523b4d5535489"
+    },
+    {
+      "file": "R796-quadratic-product-001-083.json.gz",
+      "bytes": 32484,
+      "sha256": "dfda3df8a3add73ff66cf1336f6eaca7b053a8dea5eff14a1921b42d860b043b"
+    },
+    {
+      "file": "R796-quadratic-product-001-084.json.gz",
+      "bytes": 32349,
+      "sha256": "18b36c3cba56429e918fae5d8892adfc4086ef2c0c16bfc6ef065111ecc3b8bf"
+    },
+    {
+      "file": "R796-quadratic-product-001-085.json.gz",
+      "bytes": 31748,
+      "sha256": "58544927f78e23613799346565fa55ee3571418a9412f64c9143443e8afb5abe"
+    },
+    {
+      "file": "R796-quadratic-product-001-086.json.gz",
+      "bytes": 32275,
+      "sha256": "026b5bceb9b8f66042e3f3c1d69dfcae7383ab18c5f62c50a74fa227c20daff9"
+    },
+    {
+      "file": "R796-quadratic-product-001-087.json.gz",
+      "bytes": 32315,
+      "sha256": "4313fdeb4b826df388e9b9d38eb71ce6f618686368ab31bdbc519c8aef0c95e1"
+    },
+    {
+      "file": "R796-quadratic-product-001-088.json.gz",
+      "bytes": 32302,
+      "sha256": "2b4f4d62a204584f6937c42cbf38adf5984b92e87b75c3c1180ef704f690d122"
+    },
+    {
+      "file": "R796-quadratic-product-001-089.json.gz",
+      "bytes": 32335,
+      "sha256": "a6a94c5c5c9682e0503d97c763b7785675e4a507b937a734df0415f935cf36a7"
+    },
+    {
+      "file": "R796-quadratic-product-001-090.json.gz",
+      "bytes": 32585,
+      "sha256": "5b968824840ff1a0ee3e689703fa5f08f7784d7ee694b8e953de9311b011f8a8"
+    },
+    {
+      "file": "R796-quadratic-product-001-091.json.gz",
+      "bytes": 31913,
+      "sha256": "ea112db723da09fea69cad45bce7c555cc2332fabbceb114a540ebf2e04e2314"
+    },
+    {
+      "file": "R796-quadratic-product-001-092.json.gz",
+      "bytes": 32136,
+      "sha256": "fd6a5f964d529b9d21fe3788802a990f43dcf6612af741296a0837fe1b86af85"
+    },
+    {
+      "file": "R796-quadratic-product-001-093.json.gz",
+      "bytes": 32192,
+      "sha256": "625342515587f41f33431a6bda6f6367c20010174f82a4cb3e72fd219416c6bf"
+    },
+    {
+      "file": "R796-quadratic-product-001-094.json.gz",
+      "bytes": 31842,
+      "sha256": "6644f0b3e8e32cfd14bea2c6c826d50ceb2c01ed67cddf92b374a923fbb51272"
+    },
+    {
+      "file": "R796-quadratic-product-001-095.json.gz",
+      "bytes": 32205,
+      "sha256": "bdd50eead6858df6f53f9977606aba8f852d5d6f030853614da710e7d5adc961"
+    },
+    {
+      "file": "R796-quadratic-product-001-096.json.gz",
+      "bytes": 32407,
+      "sha256": "51a4924bcf94594de7c4d8c42b545b096997b594be6f1c6d52f50984a1b09af3"
+    },
+    {
+      "file": "R796-quadratic-product-001-097.json.gz",
+      "bytes": 32250,
+      "sha256": "14276191491054abefa2efe9d1e24d1001b05f3c67c92581dbe4efe4ac6ee57e"
+    },
+    {
+      "file": "R796-quadratic-product-001-098.json.gz",
+      "bytes": 31985,
+      "sha256": "858c181a50dc259a908f37803dffaef40d78df5061a637a7d7f4c44cde5e9bd6"
+    },
+    {
+      "file": "R796-quadratic-product-001-099.json.gz",
+      "bytes": 32631,
+      "sha256": "e85aae21f4c90a56863c83ddc9b1291417e8b721a8ea4d28568cfd03d5885517"
+    },
+    {
+      "file": "R796-quadratic-product-001-100.json.gz",
+      "bytes": 31928,
+      "sha256": "8b4a57c589ec3409359da36f689f990db5677448c7de39fbaf30d0a2c0201dd0"
+    },
+    {
+      "file": "R796-quadratic-product-001-101.json.gz",
+      "bytes": 32362,
+      "sha256": "27bfbb2f30c48b8e88603a9cfb28c90d5fa12fd268649ae6dba98ef285fa24bb"
+    },
+    {
+      "file": "R796-quadratic-product-001-102.json.gz",
+      "bytes": 31999,
+      "sha256": "690389c1b6ebe43b9156bc850e6a4010d201d91f6d3542b86e25c62d6cfbfee7"
+    },
+    {
+      "file": "R796-quadratic-product-001-103.json.gz",
+      "bytes": 32346,
+      "sha256": "67eeb56ed99ead650470b657bdcd544ccb96ec7452419dc9d20264dec814fab6"
+    },
+    {
+      "file": "R796-quadratic-product-001-104.json.gz",
+      "bytes": 32092,
+      "sha256": "1c52cb8584e448b1e468c0408291230d5c612b0644bd64a63151e05e744eb124"
+    },
+    {
+      "file": "R796-quadratic-product-001-105.json.gz",
+      "bytes": 32086,
+      "sha256": "dbd6bbaf2123f87542a65c174ca9a164f4c5a0028cf0e2121ca8848dd1f6cb41"
+    },
+    {
+      "file": "R796-quadratic-product-001-106.json.gz",
+      "bytes": 32195,
+      "sha256": "27cd156f56ab58348fa43fb2679144ec4862dd5f7e95e8ad13bf9504104ef233"
+    },
+    {
+      "file": "R796-quadratic-product-001-107.json.gz",
+      "bytes": 32249,
+      "sha256": "ff7437ffb015e0866ea42f0f5bb393c5c9ecd0e7d3f0e0a674b49e349939fbbc"
+    },
+    {
+      "file": "R796-quadratic-product-001-108.json.gz",
+      "bytes": 32582,
+      "sha256": "fc759716d452cb9af191e3dd970b2960b7eb1f1ed0b2e88242b4016bb3b5c2c8"
+    },
+    {
+      "file": "R796-quadratic-product-001-109.json.gz",
+      "bytes": 32031,
+      "sha256": "fad07ef070658eba2de5ba63e1d07e6bc66677e329385e5302a1bc18332b5c7d"
+    },
+    {
+      "file": "R796-quadratic-product-001-110.json.gz",
+      "bytes": 32381,
+      "sha256": "e94f11157ac08edfc2623f690512b6219792965abc23ace74e08815bd3cd219b"
+    },
+    {
+      "file": "R796-quadratic-product-001-111.json.gz",
+      "bytes": 31724,
+      "sha256": "3bec2993249b104dd61849f8b2ea07fb9dabc482275f2b3807a4ab0a8e6022e2"
+    },
+    {
+      "file": "R796-quadratic-product-001-112.json.gz",
+      "bytes": 32093,
+      "sha256": "61e43f5d55ab88d256143c6392e94d0a20dc294ca4a5be30c1ef69867c647102"
+    },
+    {
+      "file": "R796-quadratic-product-001-113.json.gz",
+      "bytes": 32362,
+      "sha256": "2c7368334e5a733e8fe6633562353b30c94af181fe9ca2f00192abc3429ea3df"
+    },
+    {
+      "file": "R796-quadratic-product-001-114.json.gz",
+      "bytes": 32201,
+      "sha256": "12814ac51e667fc89661d97de05524af4ba7d77f69f7e2ce58519e8f30d94880"
+    },
+    {
+      "file": "R796-quadratic-product-001-115.json.gz",
+      "bytes": 31815,
+      "sha256": "117c6a93e30da088fd599ddd1a9795ddf530c4daf490234216150de43b580a22"
+    },
+    {
+      "file": "R796-quadratic-product-001-116.json.gz",
+      "bytes": 32271,
+      "sha256": "cd9af920027a9910fc10804fbcf05a551f1073b0d3ccaa4a0656b664dd992dbc"
+    },
+    {
+      "file": "R796-quadratic-product-001-117.json.gz",
+      "bytes": 31919,
+      "sha256": "9d5416c1ba7ec5530cd900bf4f3714fce7ec8ccc0aba53788db14e5758669734"
+    },
+    {
+      "file": "R796-quadratic-product-001-118.json.gz",
+      "bytes": 31959,
+      "sha256": "c25aa6aa0114c29f5e573dbcc4f3c8e8769b6c133e70f0acfc616e739a6ccf5b"
+    },
+    {
+      "file": "R796-quadratic-product-001-119.json.gz",
+      "bytes": 32282,
+      "sha256": "e70448ceb3dcb795a310c04b278a0d73e10afdbc2fc34c5dd75ca437594deaf4"
+    },
+    {
+      "file": "R796-quadratic-product-001-120.json.gz",
+      "bytes": 32067,
+      "sha256": "6a9d94be74014d817d96d16844b5c5435510b010d19467dd6ccfa5388cef6b67"
+    },
+    {
+      "file": "R796-quadratic-product-001-121.json.gz",
+      "bytes": 32366,
+      "sha256": "78304d4c5d39af2653da10389ee021d67ac72d08c85d7d55bf456b1b7ea1bcba"
+    },
+    {
+      "file": "R796-quadratic-product-001-122.json.gz",
+      "bytes": 32468,
+      "sha256": "b9d32413d779bd1d167aa1b845f35923b2aa5e9eef2f9f699fd936df1ab71eb3"
+    },
+    {
+      "file": "R796-quadratic-product-001-123.json.gz",
+      "bytes": 32358,
+      "sha256": "88204351ec78ec59cae28ac3511a4ae546d9ba488898f652b940b019e27b92a8"
+    },
+    {
+      "file": "R796-quadratic-product-001-124.json.gz",
+      "bytes": 32392,
+      "sha256": "06d0e3b93f8237a3d015804aebdd27a9cb5012ee5a14dd6d0db793b361bc24dd"
+    },
+    {
+      "file": "R796-quadratic-product-001-125.json.gz",
+      "bytes": 32246,
+      "sha256": "f99c9e3dad66a311511c280b373fb856af522afb3ddf6a07282c725304e38c98"
+    },
+    {
+      "file": "R796-quadratic-product-001-126.json.gz",
+      "bytes": 32162,
+      "sha256": "510bb6a4527a64b606e87ee66a1f05f356f7c0f4d3cf46c888d5345b4a8cf61f"
+    },
+    {
+      "file": "R796-quadratic-product-001-127.json.gz",
+      "bytes": 32145,
+      "sha256": "21a4d7ba2a1bc232bfa08db2519b805e34db906fff4091cf893a42dc3542bce9"
+    },
+    {
+      "file": "R796-quadratic-product-001-128.json.gz",
+      "bytes": 32096,
+      "sha256": "f74083a7f1ff6bdd6c59cf5e246715232627d45c9ebaa429c08bb6f32022c47b"
+    },
+    {
+      "file": "R796-quadratic-product-001-129.json.gz",
+      "bytes": 32173,
+      "sha256": "97ffe9be108b6919d5f5dafd1ff5ad51820a67645db82b847a75cf9e02a916e2"
+    },
+    {
+      "file": "R796-quadratic-product-001-130.json.gz",
+      "bytes": 32136,
+      "sha256": "a1c52c367bc8365debeb6ce31c0abe65d2217a23507d0e4f74523c289403d1a0"
+    },
+    {
+      "file": "R796-quadratic-product-001-131.json.gz",
+      "bytes": 32092,
+      "sha256": "0032ceb57af6f9e786b1199f09a5f569bbc66ba9a4dde7925032da9175916cb2"
+    },
+    {
+      "file": "R796-quadratic-product-001-132.json.gz",
+      "bytes": 31890,
+      "sha256": "31e79678251efc1ada169e5e7aedf7fc7b20cff0572ac88a91159df12c842840"
+    },
+    {
+      "file": "R796-quadratic-product-001-133.json.gz",
+      "bytes": 32099,
+      "sha256": "af1b760553886b97180268a4eb4e89b5ba073df777d7e02a1ac04ed7e880e33f"
+    },
+    {
+      "file": "R796-quadratic-product-001-134.json.gz",
+      "bytes": 32551,
+      "sha256": "349105f4b5fc8be07f0c2960c717aa9751570195a73128de1f88335e71a10636"
+    },
+    {
+      "file": "R796-quadratic-product-001-135.json.gz",
+      "bytes": 32284,
+      "sha256": "230ba3c900903a78c346d8948ee9d5d449a4f11feb705542314b7c6be2cd5724"
+    },
+    {
+      "file": "R796-quadratic-product-001-136.json.gz",
+      "bytes": 32529,
+      "sha256": "5ba820f8104444899cd7dee52e5d1c1c7e16abe0b892153be777be67ef766dfa"
+    },
+    {
+      "file": "R796-quadratic-product-001-137.json.gz",
+      "bytes": 32172,
+      "sha256": "3e3575f5556984b798b7924bfb23313c9d582102ba1ba6220e4f4be8c21076d1"
+    },
+    {
+      "file": "R796-quadratic-product-001-138.json.gz",
+      "bytes": 32310,
+      "sha256": "caad1c1db58499193b170863bb53b987b473bcab80a20c347243b0cf7c71375c"
+    },
+    {
+      "file": "R796-quadratic-product-001-139.json.gz",
+      "bytes": 32395,
+      "sha256": "1c3053bdb09e18028c32f37842776341d046f204891d1f12a1f082e302d654cf"
+    },
+    {
+      "file": "R796-quadratic-product-001-140.json.gz",
+      "bytes": 32300,
+      "sha256": "a7d3bde5900b1e88079d0c48c18b336b75d3a434ba7d0700f438fb98926b2d71"
+    },
+    {
+      "file": "R796-quadratic-product-001-141.json.gz",
+      "bytes": 32428,
+      "sha256": "01faa0aa2c2ff0cf2f88645477f1e3391106620407127eaf898f31958c4a7715"
+    },
+    {
+      "file": "R796-quadratic-product-001-142.json.gz",
+      "bytes": 32482,
+      "sha256": "12154d8c42a346c1e19fcf0f8f3e957f2509393870e38d2ec3990b29a29fa46a"
+    },
+    {
+      "file": "R796-quadratic-product-001-143.json.gz",
+      "bytes": 32229,
+      "sha256": "a6421046a89b4f0393cb02dbf9dd5018413e50a68e5b54d6d8685805a9c43a0a"
+    },
+    {
+      "file": "R796-quadratic-product-001-144.json.gz",
+      "bytes": 32276,
+      "sha256": "ff1a731ff34a86cd8f6eb43a49899a14e8720cf3acac26a9c92d02568dc7a771"
+    },
+    {
+      "file": "R796-quadratic-product-002-002.json.gz",
+      "bytes": 20363,
+      "sha256": "9953570d1b7a4d1ce629c25d51e216c1eb3605a711cf7cc8f700083d1ee848af"
+    },
+    {
+      "file": "R796-quadratic-product-002-003.json.gz",
+      "bytes": 20473,
+      "sha256": "e15a39814816ce420635005c40173fc76a20e86be90445165a97ee07b246df6a"
+    },
+    {
+      "file": "R796-quadratic-product-002-004.json.gz",
+      "bytes": 20485,
+      "sha256": "c285dc01c9719fd89d8606e3d34917fbd8f7b8ae15fe244e174f23b3e87c9d3e"
+    },
+    {
+      "file": "R796-quadratic-product-002-005.json.gz",
+      "bytes": 20300,
+      "sha256": "dc3184c78b074fba49024120706cd1b557222e66c36fb4cd94a9322c9b8da320"
+    },
+    {
+      "file": "R796-quadratic-product-002-006.json.gz",
+      "bytes": 20144,
+      "sha256": "ec4dfcd95c2d0646e85300069aa902b3aaa6e9ae762809bcc96b69f4ffde486b"
+    },
+    {
+      "file": "R796-quadratic-product-002-007.json.gz",
+      "bytes": 20280,
+      "sha256": "29e95d623ab40ede01f12e10056d831ae8582a31c837713308d76c5c3707c253"
+    },
+    {
+      "file": "R796-quadratic-product-002-008.json.gz",
+      "bytes": 20394,
+      "sha256": "df0881abd1ac244bef38cf4487ad0ea2d0eb9519590bfcff3d76ad60ce8cc482"
+    },
+    {
+      "file": "R796-quadratic-product-002-009.json.gz",
+      "bytes": 20464,
+      "sha256": "c798b2c86b3955f70a339be5042f96a2977d8a664443dfc4436589e1edc8bfe0"
+    },
+    {
+      "file": "R796-quadratic-product-002-010.json.gz",
+      "bytes": 20287,
+      "sha256": "93cd4efa9c2fad8f61871e680416cf8fe8bfe934882a43a31cc18d39e272e72f"
+    },
+    {
+      "file": "R796-quadratic-product-002-011.json.gz",
+      "bytes": 20137,
+      "sha256": "dd87bb6a9d2fc058487bda27aaf4f88cee1e86cbf5009a5797d11112302aad77"
+    },
+    {
+      "file": "R796-quadratic-product-002-012.json.gz",
+      "bytes": 20415,
+      "sha256": "41d9a8f5fa76705f744d4fa619ad423a601477905c2e62f06ef0df914a03792a"
+    },
+    {
+      "file": "R796-quadratic-product-002-013.json.gz",
+      "bytes": 20487,
+      "sha256": "2fd29cfcc97702983c381ffe92e3defeb1dcbfb988daadfe1f08fe6d91553b3f"
+    },
+    {
+      "file": "R796-quadratic-product-002-014.json.gz",
+      "bytes": 20379,
+      "sha256": "66b71f8c6802a89daaea382d230f11c972e20b9337d8492f100e11d0fd8797b0"
+    },
+    {
+      "file": "R796-quadratic-product-002-015.json.gz",
+      "bytes": 20254,
+      "sha256": "68a07c5e299d7e46fc5517e94df4ea124976332a1bd53209d8fd22aadaf00538"
+    },
+    {
+      "file": "R796-quadratic-product-002-016.json.gz",
+      "bytes": 20521,
+      "sha256": "cfc40cba7b3c73a897db9adb0fd17ef8173c452c87485fdf5d171c4e2951d6fe"
+    },
+    {
+      "file": "R796-quadratic-product-002-017.json.gz",
+      "bytes": 20214,
+      "sha256": "d15cceddc0bfc7b1ae4654d90dcbdf6fb32323b687e0ac104edc7efdb390cb08"
+    },
+    {
+      "file": "R796-quadratic-product-002-018.json.gz",
+      "bytes": 20475,
+      "sha256": "8afed2a1a618d9ac5e6883298bbc26143b6a730bfc9ad9e342a62798c18f2ac4"
+    },
+    {
+      "file": "R796-quadratic-product-002-019.json.gz",
+      "bytes": 20445,
+      "sha256": "8d9657c2e71cdcc2247da14ce47fe78f9a76e920af5c4c735a38d9c6a7c30507"
+    },
+    {
+      "file": "R796-quadratic-product-002-020.json.gz",
+      "bytes": 20540,
+      "sha256": "71571795a69155e5a433bb14d523b187da06981e8bef83f805d7ec318c34a202"
+    },
+    {
+      "file": "R796-quadratic-product-002-021.json.gz",
+      "bytes": 20354,
+      "sha256": "0cb3a5d6f8c53f64879a450732094f558d9289eb44c3ae0fa7d173ff0e7089c1"
+    },
+    {
+      "file": "R796-quadratic-product-002-022.json.gz",
+      "bytes": 20476,
+      "sha256": "b9b434c32c536924b80affc4a84a85a08534886ddfe4bf23793a5f0e0ea59a4a"
+    },
+    {
+      "file": "R796-quadratic-product-002-023.json.gz",
+      "bytes": 20537,
+      "sha256": "0e54527e893c65a858275816b4e99a9a45c7d02441ea2af0bc44da0847a0485d"
+    },
+    {
+      "file": "R796-quadratic-product-002-024.json.gz",
+      "bytes": 20475,
+      "sha256": "3dbe0e294586e357f11843173b7ce1178db111954a59662defc11a4d35889e3d"
+    },
+    {
+      "file": "R796-quadratic-product-002-025.json.gz",
+      "bytes": 20511,
+      "sha256": "9fd5531090a387253f8c07a1c741a684d810aedf76c72299085bdd1fcca58b09"
+    },
+    {
+      "file": "R796-quadratic-product-002-026.json.gz",
+      "bytes": 20363,
+      "sha256": "69482a003e17bb8ca3af32728f9d7da455a8b656c1d5de7ec1c1aa68bbd78a57"
+    },
+    {
+      "file": "R796-quadratic-product-002-027.json.gz",
+      "bytes": 20553,
+      "sha256": "cd64cd5647ca3ee9a980dbc12d99d23b0f1f29f1eb22709cd19e5ef30faa0528"
+    },
+    {
+      "file": "R796-quadratic-product-002-028.json.gz",
+      "bytes": 20478,
+      "sha256": "0bd4fbd5d235a366defb758149d5dac39af983232a5c9974774b8bc47adf89ab"
+    },
+    {
+      "file": "R796-quadratic-product-002-029.json.gz",
+      "bytes": 20536,
+      "sha256": "a68b733326cead0b8c6adb3409c20747d8f75a9c7aa166e9132a86ff04ff04e0"
+    },
+    {
+      "file": "R796-quadratic-product-002-030.json.gz",
+      "bytes": 20449,
+      "sha256": "d786c0ecaa7a9d705d398eb735645c3c7f864ecc8e91973524774d0414d6c437"
+    },
+    {
+      "file": "R796-quadratic-product-002-031.json.gz",
+      "bytes": 20492,
+      "sha256": "14e5eab5081b4846e9bcad8362b19751b9bd02f3df5effa6b8c746b529c4b56b"
+    },
+    {
+      "file": "R796-quadratic-product-002-032.json.gz",
+      "bytes": 20504,
+      "sha256": "e1d1cc19a78966ef66167e85425aa693df79f499c8474d3caea434bc31926a33"
+    },
+    {
+      "file": "R796-quadratic-product-002-033.json.gz",
+      "bytes": 20466,
+      "sha256": "49e927206c9892d3f3ee707d99551be16a4f4c9fe1c6545b18c81f449dc19016"
+    },
+    {
+      "file": "R796-quadratic-product-002-034.json.gz",
+      "bytes": 20412,
+      "sha256": "92270df3e23c35b97d318ab1ea566bed57e2d53ed0103cba7b9393fe0ab92b13"
+    },
+    {
+      "file": "R796-quadratic-product-002-035.json.gz",
+      "bytes": 20371,
+      "sha256": "af5e4d8a6532027e9a4e22910bcca8bc739207bdb00cf1fad12d43a48bfd9a91"
+    },
+    {
+      "file": "R796-quadratic-product-002-036.json.gz",
+      "bytes": 20442,
+      "sha256": "6fefa4fbd4d05e6e02da08033cbd1b25b3a7ebe29a2944b8cafb9439c6540872"
+    },
+    {
+      "file": "R796-quadratic-product-002-037.json.gz",
+      "bytes": 20536,
+      "sha256": "1df2e31c6fcaab599acf23882cd49d98f735b2251b2a1a743546839e9006ab26"
+    },
+    {
+      "file": "R796-quadratic-product-002-038.json.gz",
+      "bytes": 20470,
+      "sha256": "3763630d68b1bd0e930a222f0ea33b9bc1f20128d3468ff0bd7edc729872dc9a"
+    },
+    {
+      "file": "R796-quadratic-product-002-039.json.gz",
+      "bytes": 20420,
+      "sha256": "4a17fa244a05912bc9579ee35c18e01876805c408e6d37662755c8036bae29fb"
+    },
+    {
+      "file": "R796-quadratic-product-002-040.json.gz",
+      "bytes": 20384,
+      "sha256": "05206407ac834b2fafd246ff962fd4e0e0958b0c352e1b9a8216cfdcb8af85ed"
+    },
+    {
+      "file": "R796-quadratic-product-002-041.json.gz",
+      "bytes": 20480,
+      "sha256": "b89783e70f0f3f1c9ba4dc2cf38defa1d5bd4e0d296e237dde89be982a748f86"
+    },
+    {
+      "file": "R796-quadratic-product-002-042.json.gz",
+      "bytes": 20472,
+      "sha256": "3dac9cfba51e0a5bede4a3fc85363b5c07fbeb6358da0c13636535894bb5baf8"
+    },
+    {
+      "file": "R796-quadratic-product-002-043.json.gz",
+      "bytes": 20504,
+      "sha256": "0c827dd420fb21ffab3d836ae68525f0e24c8396e2c0a2bdd541e7086bb162b1"
+    },
+    {
+      "file": "R796-quadratic-product-002-044.json.gz",
+      "bytes": 20555,
+      "sha256": "ff940fa1556639983bbde498960b8fd4b0ba6e998c9da369a112b3405182e669"
+    },
+    {
+      "file": "R796-quadratic-product-002-045.json.gz",
+      "bytes": 20364,
+      "sha256": "75aee3a949c731891a565499d0af38e3b3ca11e10b5d5935173d9cd694b27a3f"
+    },
+    {
+      "file": "R796-quadratic-product-002-046.json.gz",
+      "bytes": 20481,
+      "sha256": "06a42ae4abb61fe53e39dfa106c3dfc34559f729d8ee8c7410679508b300d7f1"
+    },
+    {
+      "file": "R796-quadratic-product-002-047.json.gz",
+      "bytes": 20493,
+      "sha256": "51057a280768c2fa97fd600189280d41589b7690cce61032374ef984b9c64907"
+    },
+    {
+      "file": "R796-quadratic-product-002-048.json.gz",
+      "bytes": 20536,
+      "sha256": "90e47eb06d994c9b8e3a54761c7ef2e042a3105c6cca4a93d784b6bbc09a310c"
+    },
+    {
+      "file": "R796-quadratic-product-002-049.json.gz",
+      "bytes": 20560,
+      "sha256": "adaea742faffd80850da0000c4f23fd3881240595c03d7adadded38513ba48ec"
+    },
+    {
+      "file": "R796-quadratic-product-002-050.json.gz",
+      "bytes": 20527,
+      "sha256": "d9c3c778f8db5e08c845e2fb9f5bae7df79b9b07c3559ab07798b80e42324fdf"
+    },
+    {
+      "file": "R796-quadratic-product-002-051.json.gz",
+      "bytes": 20476,
+      "sha256": "97a8b7d04dd80fde17f87d5fcaaf2b37a311b8100a773da39f81e7558248a1e0"
+    },
+    {
+      "file": "R796-quadratic-product-002-052.json.gz",
+      "bytes": 20488,
+      "sha256": "04bb1af7572a7eaa20c5abfa951390b6448a831f1ad3a1320c13bd3c386c1e05"
+    },
+    {
+      "file": "R796-quadratic-product-002-053.json.gz",
+      "bytes": 20481,
+      "sha256": "c3f3f71d01027b95afdb494d571140739d628deb5a94d56349baca105b5a5958"
+    },
+    {
+      "file": "R796-quadratic-product-002-054.json.gz",
+      "bytes": 20410,
+      "sha256": "9f8370830addb864c667785ce66ae4ee2e0ae5f9e4f42cb81ef9dc86e44206fa"
+    },
+    {
+      "file": "R796-quadratic-product-002-055.json.gz",
+      "bytes": 20478,
+      "sha256": "67a92c36cff62aebca6b501ecd622174b1fb447ccf8eb285a904a4c097e40e31"
+    },
+    {
+      "file": "R796-quadratic-product-002-072.json.gz",
+      "bytes": 32031,
+      "sha256": "1bd89e5826d88c562a8e3d59aa770d6b59ca47b1062fc884569a1a512f6c9681"
+    },
+    {
+      "file": "R796-quadratic-product-002-073.json.gz",
+      "bytes": 32250,
+      "sha256": "6a3309b317d8413eb75a13d09a49798b1f509e4de0e1d3b3cd66b9e6cee3198b"
+    },
+    {
+      "file": "R796-quadratic-product-002-074.json.gz",
+      "bytes": 32201,
+      "sha256": "08af808d99d6c4789f580e52799df4802560763a7012cc2f455b96d8454b731a"
+    },
+    {
+      "file": "R796-quadratic-product-002-075.json.gz",
+      "bytes": 31847,
+      "sha256": "487e56c749b621085dfe5726352bfe3e3ed9ee6d8155b39ed15121648f9df724"
+    },
+    {
+      "file": "R796-quadratic-product-002-076.json.gz",
+      "bytes": 32416,
+      "sha256": "b1eb631e5fd7f5068eaaea5ce855da24075faa804d028d9338fe1c30c33e2f2e"
+    },
+    {
+      "file": "R796-quadratic-product-002-077.json.gz",
+      "bytes": 31774,
+      "sha256": "fd077a608a82dec80bfba5c5a60670b6281b1acbaf601a2dc55535803d8726be"
+    },
+    {
+      "file": "R796-quadratic-product-002-078.json.gz",
+      "bytes": 32425,
+      "sha256": "6a4ef743d27159871a5d5408bf32d0e04893a9aaa7daff65d3e1fe889e62e38c"
+    },
+    {
+      "file": "R796-quadratic-product-002-079.json.gz",
+      "bytes": 31827,
+      "sha256": "b595e6c093d71fdb20d83c2e52f1a498d6fcbc7c07c004068665e6f654536615"
+    },
+    {
+      "file": "R796-quadratic-product-002-080.json.gz",
+      "bytes": 32106,
+      "sha256": "b6f400d461f73c17e0dc4f0d2f5636b7b8c18aed5c56b2086b9628efc0cf998f"
+    },
+    {
+      "file": "R796-quadratic-product-002-081.json.gz",
+      "bytes": 32402,
+      "sha256": "e54991cb5145a4a3ba755508d40fe7e0fc3ad108cf7e78bac11254e863ec145f"
+    },
+    {
+      "file": "R796-quadratic-product-002-082.json.gz",
+      "bytes": 32650,
+      "sha256": "ee52aa18d9272103da50b4caa451aca0cb79571d9921c56e0059f268c5fa49aa"
+    },
+    {
+      "file": "R796-quadratic-product-002-083.json.gz",
+      "bytes": 32486,
+      "sha256": "794e5ea037950c5a67ca52f4ee044e5e9995b4962abe8a9e7c0b0ff3976bcd16"
+    },
+    {
+      "file": "R796-quadratic-product-002-084.json.gz",
+      "bytes": 32347,
+      "sha256": "c085830c6ec53ffd2332f43199a32cb70bcc0a1515a69619a8b4d105e85c7f6a"
+    },
+    {
+      "file": "R796-quadratic-product-002-085.json.gz",
+      "bytes": 31750,
+      "sha256": "abb7137e95d802a2a61d8b899c53fac4481a7879dd7a05ba68e2961cb9dd0d18"
+    },
+    {
+      "file": "R796-quadratic-product-002-086.json.gz",
+      "bytes": 32333,
+      "sha256": "84c3b8c4838c9aa994a75376a95625183aee07172ce0f6fa0e5cc48f3a7fa1a1"
+    },
+    {
+      "file": "R796-quadratic-product-002-087.json.gz",
+      "bytes": 32349,
+      "sha256": "ae846cec5e7f930f58bcd5611140015462df93dc46ffcdbbc4c43e864f2a9144"
+    },
+    {
+      "file": "R796-quadratic-product-002-088.json.gz",
+      "bytes": 32354,
+      "sha256": "25210e592843351c62d0691257b3f8abccf37e038a370b9c7fbc81f2d148d3c2"
+    },
+    {
+      "file": "R796-quadratic-product-002-089.json.gz",
+      "bytes": 32301,
+      "sha256": "68036b20fd9fc6cf6c4273ce18d5b106e609c8a3dc6b5f4857b425370ea628db"
+    },
+    {
+      "file": "R796-quadratic-product-002-090.json.gz",
+      "bytes": 32536,
+      "sha256": "c33bb4e35f4acbe169b65ff6d60d4cc4c458d15481315d233cdfed7ccbd4d578"
+    },
+    {
+      "file": "R796-quadratic-product-002-091.json.gz",
+      "bytes": 31944,
+      "sha256": "483a49c1463ff7518cff882fb0860fa0d8039d4368c4983660e38fb1389f5987"
+    },
+    {
+      "file": "R796-quadratic-product-002-092.json.gz",
+      "bytes": 32150,
+      "sha256": "173250182615f3019e1f801c86d548ea7fc358c6f9b4a2966a729eae68619e52"
+    },
+    {
+      "file": "R796-quadratic-product-002-093.json.gz",
+      "bytes": 32140,
+      "sha256": "4c1c51bd384acad67298ef5f0f3818a155e0a6dd7f0e2eb25571a966df2f7608"
+    },
+    {
+      "file": "R796-quadratic-product-002-094.json.gz",
+      "bytes": 31874,
+      "sha256": "c005119a088bc2ad804e9383d3f1895d81ef53dafd3da4b80d5149553531efb9"
+    },
+    {
+      "file": "R796-quadratic-product-002-095.json.gz",
+      "bytes": 32227,
+      "sha256": "a88fcc1ea87d3baf3aa1fb15b9a38daab41d62497c14e317d885ff8d64e6d9c1"
+    },
+    {
+      "file": "R796-quadratic-product-002-096.json.gz",
+      "bytes": 32406,
+      "sha256": "e1f05db9bfbdb56c99b86d1f97d2970d41999072b02222c752f5ac6bd88f7719"
+    },
+    {
+      "file": "R796-quadratic-product-002-097.json.gz",
+      "bytes": 32307,
+      "sha256": "92d291ebe2608e71b167dce339ce52b48ad81bcb31fdcfd2e7daf7ead66b50d1"
+    },
+    {
+      "file": "R796-quadratic-product-002-098.json.gz",
+      "bytes": 31978,
+      "sha256": "9ea5310edaba2c78410b47bc384bce8c8a3ff016fd1cbdf1868b126961a5ce50"
+    },
+    {
+      "file": "R796-quadratic-product-002-099.json.gz",
+      "bytes": 32682,
+      "sha256": "467aaf1a8732641d516824da3673ffc966a46675c0d4058ad724054994d6a9e6"
+    },
+    {
+      "file": "R796-quadratic-product-002-100.json.gz",
+      "bytes": 31932,
+      "sha256": "7ff09b8a9b5ecaeb333d67d6181d6e0840ff565b30d912bab71f11fb943883a1"
+    },
+    {
+      "file": "R796-quadratic-product-002-101.json.gz",
+      "bytes": 32413,
+      "sha256": "75c84cff770c58bf687e8ca3641d5542710c2ea6e4c4506126410c68c89735f5"
+    },
+    {
+      "file": "R796-quadratic-product-002-102.json.gz",
+      "bytes": 32028,
+      "sha256": "e83669c18cf9ebf27884a0c538537b2789f3151f9c58065afcc969771222370d"
+    },
+    {
+      "file": "R796-quadratic-product-002-103.json.gz",
+      "bytes": 32384,
+      "sha256": "422e1398122acec9243ee34e3f3a4ee681dfc3b6808acb6c14917820f8d1b598"
+    },
+    {
+      "file": "R796-quadratic-product-002-104.json.gz",
+      "bytes": 32035,
+      "sha256": "947dcd624d70df35454785f0a71342692589b6b20528608be7e762fff64f69b3"
+    },
+    {
+      "file": "R796-quadratic-product-002-105.json.gz",
+      "bytes": 32046,
+      "sha256": "d7c8fc66761b472bf0888a65d9abcd5a2479b2633fdac836558450ed7c17398e"
+    },
+    {
+      "file": "R796-quadratic-product-002-106.json.gz",
+      "bytes": 32228,
+      "sha256": "bc90d46c246b81b0ca04d83a7b7b829ff1280147ecac85b82273ef9ff02ca41b"
+    },
+    {
+      "file": "R796-quadratic-product-002-107.json.gz",
+      "bytes": 32242,
+      "sha256": "e9a2e7f0000f50e3c431fa0cba2e69495aeb64af3ebf0cd7761d587b9078012f"
+    },
+    {
+      "file": "R796-quadratic-product-002-108.json.gz",
+      "bytes": 32549,
+      "sha256": "8def8035a2aa81e41e6605684d01c532c97a99162b0fd59e7ce01e7ddae60d35"
+    },
+    {
+      "file": "R796-quadratic-product-002-109.json.gz",
+      "bytes": 32077,
+      "sha256": "20e36571c7fd40ba204d000ddd660f704575f6385f5045101a3445b9ff8426ff"
+    },
+    {
+      "file": "R796-quadratic-product-002-110.json.gz",
+      "bytes": 32376,
+      "sha256": "1c89202e36ce6c2c6c273caef84dbe1a051c710104fba4455d8bdbfa714e1b77"
+    },
+    {
+      "file": "R796-quadratic-product-002-111.json.gz",
+      "bytes": 31758,
+      "sha256": "ac920b9c03c7ecfa52e419a175f1bc68e28070edc46b8baa67ab14279495d760"
+    },
+    {
+      "file": "R796-quadratic-product-002-112.json.gz",
+      "bytes": 32015,
+      "sha256": "0060f2564e3cb4b1e88efb7ba82689dc1e837eadeda24b8479821cc4f3b006f0"
+    },
+    {
+      "file": "R796-quadratic-product-002-113.json.gz",
+      "bytes": 32336,
+      "sha256": "18fa22bf2c90177c10b14619fc97d0451a483ffaeffcb3f355b97fe8fbe1b4bd"
+    },
+    {
+      "file": "R796-quadratic-product-002-114.json.gz",
+      "bytes": 32206,
+      "sha256": "6b8e3549da85a5a9a24ee007dfeb8960d524da60761af94b49d15e7a3844eaed"
+    },
+    {
+      "file": "R796-quadratic-product-002-115.json.gz",
+      "bytes": 31813,
+      "sha256": "ca7cd0b755f0bd530d6f9ca01bf4d21217eb3cb80c0029eaebca17e4c049766a"
+    },
+    {
+      "file": "R796-quadratic-product-002-116.json.gz",
+      "bytes": 32257,
+      "sha256": "cdc41726c120d168a2aac2f7cf96aefd894f9c79c275747abcdcc4b7689a6593"
+    },
+    {
+      "file": "R796-quadratic-product-002-117.json.gz",
+      "bytes": 31976,
+      "sha256": "880fd9f3bb8b5ab5b37a20b90637aa12bd2bb9d6bda32380bbb654f043d11dee"
+    },
+    {
+      "file": "R796-quadratic-product-002-118.json.gz",
+      "bytes": 32005,
+      "sha256": "b212dbbaf773f973a7fa72cdd1aa3f4521464754191616439cf8037d92a5ad41"
+    },
+    {
+      "file": "R796-quadratic-product-002-119.json.gz",
+      "bytes": 32271,
+      "sha256": "87357be2b977716e642a30100c01a0960a43786161f466de378b17f4fe889493"
+    },
+    {
+      "file": "R796-quadratic-product-002-120.json.gz",
+      "bytes": 32026,
+      "sha256": "73dceb611cf32879f357a2ec1088bb58fc85394cca7f53f8a0385feaaab7cff9"
+    },
+    {
+      "file": "R796-quadratic-product-002-121.json.gz",
+      "bytes": 32386,
+      "sha256": "09ea79592c7b3e31a462edc2931c7e58c518e740dd5572194cda78965754c891"
+    },
+    {
+      "file": "R796-quadratic-product-002-122.json.gz",
+      "bytes": 32379,
+      "sha256": "4cc566426c34265c2238c888b934d42a41611a4b83b17f1ea99d43a289d06987"
+    },
+    {
+      "file": "R796-quadratic-product-002-123.json.gz",
+      "bytes": 32362,
+      "sha256": "d93a4f52281bfea3fa74902b0a57e34c7b6e5b376c6e9a542fdb7b049ab2d950"
+    },
+    {
+      "file": "R796-quadratic-product-072-072.json.gz",
+      "bytes": 33416,
+      "sha256": "8684e6f97ea41a66e2ab6442d94d9450c7d6354a7908fb2dbb1b0947c6de9fb5"
+    },
+    {
+      "file": "R796-quadratic-product-072-073.json.gz",
+      "bytes": 39445,
+      "sha256": "a709d20aea0c3ba67cd5464aa13879e21ff1c0348913ccf4d02eec1c917dc21f"
+    },
+    {
+      "file": "R796-quadratic-product-072-074.json.gz",
+      "bytes": 39434,
+      "sha256": "e41507674029d1a54bc8bd2fc6e760559c9f2473fde8737b28e4922bdde136a0"
+    },
+    {
+      "file": "R796-quadratic-product-072-075.json.gz",
+      "bytes": 38842,
+      "sha256": "bb7ac751dd77b68b07be3ebcd7a0fefc4d117e9e3d17ab0ba58ecd18f5e88fae"
+    },
+    {
+      "file": "R796-quadratic-product-072-076.json.gz",
+      "bytes": 39793,
+      "sha256": "9b13ad30adcf90cc9d516084736088deb5a07e35fbcd53bdcaa720e6e07cba02"
+    },
+    {
+      "file": "R796-quadratic-product-072-077.json.gz",
+      "bytes": 38780,
+      "sha256": "98f324dd8b4e10aaec5ae4809e21c1e1b6f467a7c6b7d70f54e95dbc02e5fa54"
+    },
+    {
+      "file": "R796-quadratic-product-072-078.json.gz",
+      "bytes": 39707,
+      "sha256": "5d3a6d99f46d1eadcef2b37130e1866181ca210a2d8f1761257474e94e358936"
+    },
+    {
+      "file": "R796-quadratic-product-072-079.json.gz",
+      "bytes": 39006,
+      "sha256": "f109ec608ada8cc880ffe8d749f77d8af55c6aac6e9e86c3bd74084f1a450a95"
+    },
+    {
+      "file": "R796-quadratic-product-072-080.json.gz",
+      "bytes": 39420,
+      "sha256": "f0f883be51ad79ef13fc87f245ed72432bc355d6a6a5e377ed6511719e31a6e5"
+    },
+    {
+      "file": "R796-quadratic-product-072-081.json.gz",
+      "bytes": 39630,
+      "sha256": "ef690d84e68a96bb98379061c042a035140c600294daaf532e44ce08d08fbd53"
+    },
+    {
+      "file": "R796-quadratic-product-072-082.json.gz",
+      "bytes": 39877,
+      "sha256": "016df9cdc0a6cefd3fa1a4c5a9e2f2e978accbd509ed804a96381539658de5a5"
+    },
+    {
+      "file": "R796-quadratic-product-072-083.json.gz",
+      "bytes": 39842,
+      "sha256": "ec1c545405f22e07257fe56ab177c40ce28f5907daf7dc94e30cdfa30b82e4d7"
+    },
+    {
+      "file": "R796-quadratic-product-072-084.json.gz",
+      "bytes": 39618,
+      "sha256": "b74ba56b7b57973f8eb326e50182e6c7b32f480336a3422a6171db10824605a8"
+    },
+    {
+      "file": "R796-quadratic-product-072-085.json.gz",
+      "bytes": 38899,
+      "sha256": "a01c7ed618297d67bf8d8e26e96413b1b316544cc811c56944a810f3e08bace3"
+    },
+    {
+      "file": "R796-quadratic-product-072-086.json.gz",
+      "bytes": 39482,
+      "sha256": "974d3ca8a8129271a6c25bdfc164f01dca0058995c375ad8abdc45df4106d68e"
+    },
+    {
+      "file": "R796-quadratic-product-072-087.json.gz",
+      "bytes": 39622,
+      "sha256": "ecff5ff47f6c73b515e89affbb75d20bcaa9b3a8c695573aa821b0dc90107b97"
+    },
+    {
+      "file": "R796-quadratic-product-072-088.json.gz",
+      "bytes": 39624,
+      "sha256": "97e0c61e077d6edeeb652391f4d9e0314ee36d2590c9c0a4791d080959deee87"
+    },
+    {
+      "file": "R796-quadratic-product-072-089.json.gz",
+      "bytes": 39657,
+      "sha256": "5fc5726155e02179002e222a04741cc94e5e96935e8afa56746965e3f5c4f34b"
+    },
+    {
+      "file": "R796-quadratic-product-072-090.json.gz",
+      "bytes": 39900,
+      "sha256": "32102f80bdc21c9561fce951f156b4a0cfbacb41fb4585fd7e667ac3ef162359"
+    },
+    {
+      "file": "R796-quadratic-product-072-091.json.gz",
+      "bytes": 38947,
+      "sha256": "d7754248201a068f1b9aafbd4b5adeeca4d88d85298eaaef205474183763c51f"
+    },
+    {
+      "file": "R796-quadratic-product-072-092.json.gz",
+      "bytes": 39253,
+      "sha256": "45d13d76f8a98cba81573eac9fe6c1bfd72b054357e145a0970d6d6455bc82cc"
+    },
+    {
+      "file": "R796-retained-producer-inputs.tar.gz",
+      "bytes": 2322706,
+      "sha256": "982bf351de1bf0d3d8adfce109b9badc1877f0f250ea0bd2eee834279a6a2f68"
+    },
+    {
+      "file": "R796-stage-manifest.json.gz",
+      "bytes": 42137,
+      "sha256": "da243d5dfd49a3acebd27f8f5bb1a3a6d328a47b6feb40adfc6c88fca14b3956"
+    },
+    {
+      "file": "R796-tau-times-second-order-basis.json.gz",
+      "bytes": 1234709,
+      "sha256": "6d6bbe32cf2db39df7bd551916b048b34a826e50fa6af588ce9507a707258770"
+    },
+    {
+      "file": "core-receipt.json",
+      "bytes": 258,
+      "sha256": "c3c41a58f6b402d8ae99880b41b1099c61bdf04b5b27ebd62056fef0b6dead59"
+    },
+    {
+      "file": "job.json",
+      "bytes": 35175,
+      "sha256": "7013485fc35578052e87a4ca3c557098568fa0c9e4ac0f82aac945cc06b393c9"
+    },
+    {
+      "file": "p41-original-CM-quadratic-chart-certificate.json",
+      "bytes": 33514,
+      "sha256": "1b72c55b5bb9fc110d1630da16cf36ae5c1a8bf3e7783522a2c01167ad3835f0"
+    },
+    {
+      "file": "public-actions-input.json",
+      "bytes": 36716,
+      "sha256": "abf8c322d27f3139c72bb1440c062c7fce83e9b56dc75014ddbd779302fa26b5"
+    },
+    {
+      "file": "public-actions-run.log",
+      "bytes": 81628,
+      "sha256": "6e3cee3d610aa642335b124e5d984fb262e07e5a1e31f98f6e405ddabd9cd83f"
+    },
+    {
+      "file": "resume-receipt.json",
+      "bytes": 71,
+      "sha256": "0338461a08174b19ca7a37b4f98e9bbe35f828c4e951215eb4595a881e7ebef5"
+    },
+    {
+      "file": "retained-inputs-receipt.json",
+      "bytes": 90975,
+      "sha256": "57a8214d605e3f49d5ac57dd216f4c100b5c38006e2fd4f31629a41cd758584e"
+    },
+    {
+      "file": "run-receipt.json",
+      "bytes": 541,
+      "sha256": "a23f30c1a97d76fe84bcb28d125d0249d3e321027b10b81147c480e8a87dc7d8"
+    }
+  ],
+  "temporary_active_checkpoint_artifact": "serre-global-R796-original-CM-quadratic-chart-43693301389-1",
+  "temporary_active_checkpoint_retention_days": 1,
+  "reproducible_outputs_saved_in_repository_or_release": false
+}

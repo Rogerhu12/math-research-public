@@ -4,9 +4,9 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：fcd2d08eabff2ff986cdbeb5f709f11b319e537f**（2026-11-15 08:26 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：71744524b9001226332866870515281d35f49910**（2026-11-15 08:29 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
-实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R796前H](notes/2026-11-15-handoff-before-R796.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
+实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R798前H](notes/2026-11-15-handoff-before-R798.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
 ## 正在运行与下一实际接缝
 
@@ -18,10 +18,10 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 ## 已完成的新准确输入
 
-- **R790原CM值/首粗导**：run43688215703/source9e4074fd，194stage、146原M2行，82²尺度，1101.720秒；5实际种子/10对，完整zeta、E6_alg=−c6、μ3投影及两个280次域迹。cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd，artifact14151827531，全部202文件SHA已核。原power2–5随bundle给R792。[真实结果](results/R790-certified-original-CM-fiber-jets.md)。
+- **R790原CM值/首粗导**：run43688215703/source9e4074fd，194stage、146原M2行，82²尺度，1101.720秒；5实际种子/10对，完整zeta、E6_alg=−c6、μ3投影及两个280次域迹。全部202文件SHA已核。原power2–5随bundle给R792。[真实结果](results/R790-certified-original-CM-fiber-jets.md)。
 - **R791原Hom/实下降/η输入**：run43686308194/sourcef945ef5d；T阶21、实/反实rank6、12原CM切向非零。原f4 degree1206，f_R=f4−f6 degree3618；原$e_R=κv^†v$和五维F⁰保持。cert及全部绑定见[结果](results/R791-certified-original-Hom-descent-and-eta-inputs.md)。
-- **R794新五方向已真实选择**：run43691270124/source7cf16012，0.0557秒；12单norm已rank5，149固定候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。保原R791双向基变换及原六微分坐标，非全格最优。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f、artifact14152074788；[结果](results/R794-certified-original-low-degree-eta-basis.md)。三同源主函数未代算原对称代表二挠刚性化。
-- **R795新power6短基已成**：run43692029484/sourceac6d8fff，22.7376432秒；1506行q0..81、82¹²、原40ξ/20t坐标和全部mod739/反演核验通过。core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac；certc5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae，artifact14152762920。全部1515文件SHA已核，无旧阶段重算。[结果](results/R795-certified-original-power6-short-basis.md)。μ33/极除子/β/η/高度尚未算。
+- **R794新五方向已真实选择**：run43691270124/source7cf16012，0.0557秒；12单norm已rank5，149固定候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。保原R791双向基变换及原六微分坐标，非全格最优。[结果](results/R794-certified-original-low-degree-eta-basis.md)。三同源主函数未代算原对称代表二挠刚性化。
+- **R795新power6短基已成**：run43692029484/sourceac6d8fff，22.7376432秒；1506行q0..81、82¹²、原40ξ/20t坐标和全部mod739/反演核验通过。全部1515文件SHA已核，无旧阶段重算。[结果](results/R795-certified-original-power6-short-basis.md)。μ33/极除子/β/η/高度尚未算。
 
 旧R774原H³、R775普通power1..6、R781原R0..142、R786全部power1..5 q0..128均已完成；完整run/source/输出SHA在各certified结果与前H。R775维146/418/690/962/1234/1506，R786原尺度82¹⁰；**禁止重算，R777备用不触发**。
 
@@ -29,7 +29,7 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d；pending�
 
 [R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)：V3/V6=690/1506，固定μ33只需q0..81；原V6关系142项足够，旧R781 y已够。固定s=τB后再求u，真实rank1116给264维W_F、degree426残余。一般d令m=ceil((d+254)/272)，f0=272m−d；保$G=s/(fτ^{m-3})$全部常数及原c0刚性化。K上局部代数后扩L，不混字段；全部非零实际Hom在20 cusp不分歧。实际新矩阵/η/高度尚缺。
 
-**R796公开run43693301389运行中**（source4ed3a5bf4298f930e018527ddea4c940d936236c）：[原二次局部图](results/R796-original-CM-local-chart-from-quadratic-sections.md)及core/wrapper全部已审；只用旧M2 q0..27与R790点/首导，适配τ、σ及144个二重零截面，选416个W_P二次单项式，完整char0代回144关系，得到x=Q(t,x)、Jacobian I144。当前目标length2只求真实全局图；高N按真实消费需要新增，不自动算155/290。proof8bf2662434d8117be5514cfbe9ba19fa089167c6e7bab76c079daded66fe40d4，core636cf73825ff99b11b44c7186fd4ef5af9dcbb311949cdd0c03e08ea424218c6。
+**R796原二次图已实际成功**：run43693301389/source4ed3a5bf，165.797秒；τ原索引0、切向索引1，λ=−36197717076/172095737。原K适配确实不全在Q，实际832阶有理解，选择416二积（辅助prime1000000009，minor823199261，扫描7936），144全局关系全部1120K坐标准确代回。548stage/558文件SHA已核，cert1b72c55b、artifact14153327234；[真实结果](results/R796-certified-original-CM-quadratic-chart.md)。只完成length2基础图，尚无高阶局部系数。需要时依原关系逐阶增N，不重算CM值/旧q前缀；原β/η/高度未由此输出。
 
 **R797公开run43693453831运行中**（source05bf2b2b22d1435a20233f48cb34a78fc53e7154）：[五新Laurent方法](notes/R797-five-selected-original-Laurent-prefixes-method.md)及core/wrapper已完整审核。仅收缩旧R77456个共同G_iG_jG_k，新标量各自保4·mult/1722³与q移一阶；无原f4标量复用。真实新N170/172/176/193/196，保R781无逆递推除数3n+1、原v相位，全部新算术留Actions。corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。
 
