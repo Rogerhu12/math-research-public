@@ -42,3 +42,5 @@
 - [request127：actual126第8批真末点的原九控制续算](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)：recipee667ca5f/requestd75c1478，原84+2源和wrapper不改，最多八独立原批次；实际结果另读。
 
 - [R288：actual113完整128策略相关下降与原64十档仍拒](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)：两策略各完整base/alpha1；原stop全步降、refined未降，半步因7200秒partial；原64完整十档全拒iteration0，native/finalJ/audit未付，匹配128方向与持久状态继续。
+
+- [R289：actual118八个真实32查询模型、FD与MID483障碍](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)：51试探/8接受/43域拒绝，原新增MID471在最近拒绝均正而后四批受未选MID483限制，末alpha1/256；全部native/fullDN/success仍false，原末场已清理，下一33查询须由可恢复真父重算。

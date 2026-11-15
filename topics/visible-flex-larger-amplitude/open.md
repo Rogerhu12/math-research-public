@@ -40,7 +40,11 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [110实际](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)八fresh模型/FD均接受，但后七批最近拒绝集中未选MID471，末仅α1/2048，完整门仍false。末raw已清理，不能hash续算。
 
-[118入口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)从可恢复actual98原31父接真实32子，只加该实际MID471：32=20LEFT+12MID，capture/local8453/C4059/outside、λ270/17trial、全部FD/域门保持。worker336fc522、recipef5c0e2e6/request1a446102/workflow96eeef3b，八fresh模型、175step/185job。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，已terminal success且owned cleanup成功，原日志已取；R289实际读取中。完整读回真实每pair再继续，不跨模型减W，不把预算冒无解。
+[118入口](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)从可恢复actual98原31父接真实32子，只加实际MID471，原完整模型/FD/域/全部接受门保持。[R289实际118](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)已结清run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808：8fresh模型和8fresh FD，51试探/8接受/43域拒绝；接受alpha为1/8、1/8、1/8、1/16、1/128、1/128、1/256、1/256。最后physical最大 .007107083459932941，全部native/fullDN/success false；停止只原8批数，不跨各新模型相减W。
+
+原新增MID471在八次最近拒绝均正，后四次最近拒绝均为未选MID483，最新alpha1/128时beta²=−.0008413561364628563；当前32查询全有效并不涵盖该域责任。此前MID472、LEFT463和较大步的MID471仍可能失域；不称唯一障碍。下一明确33查询只新增这条实际MID483，原20LEFT/其余MID顺序及每组2048角、local8453/C4059/outside/λ270/17trial/全部FD门保留。原QP后验gap与stationarity远未付精确最优，不能以局部grad代替。
+
+118末warm/status已清理，原SHA只作身份；若继续其真末点须未来同job先重做原32查询8批再传真实文件；若从可恢复98直接跑33查询，须明确是另一轨迹。原8摘要按JSON加一LF核身份、16子进程均exit0，完整原log382986B/1c81a9c6已读。不得以job success冒最终科学接受。
 
 ## 3. 闭合与固定同一g精化
 

@@ -267,3 +267,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R288 actual113完整128对照与原64失败
 
 [R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)完整读取原113 job113563B/255c0724：四次128原全部129248行，原stop全步降至.00011718707987942263382，refined全步增至.02783350799348104264，均未过2e−9。原stop半步189stage/42560行因7200秒partial/norm空，然后原64十档全拒iteration0，原native失败/exit2；不是bridge/输入故障，原budget未截断64控制。1freshJ/1R273，无新finalJ/audit，原科学源不改；summary f1c7bf72。root读取原四完整评价/部分事件/最终摘要及全文，原临时raw清理完成，只发布参数/源/run/SHA与紧凑结论。后继推进所选128有限映射匹配方向与完整solver，不重复整套昂贵对照。
+
+### 2026-11-15 R289 actual118八个真实模型结清
+
+[R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)全文和原51试探/8新FD/域责任已读：八接受、末alpha1/256，physical .007107083459932941，全部最终科学门仍false。MID471最近拒绝均正，后四次最近拒绝落未选MID483；下一明确33查询补该实际点，不抹去MID472/LEFT463等其他责任。所有8摘要按JSON+LF核字节身份，原log382986B/1c81a9c6，16子进程均exit0；原raw清理完毕，不从末SHA伪续。来源/原查询/模型/后验界全在正文，发布即继续公开Actions与其他未付问题。
