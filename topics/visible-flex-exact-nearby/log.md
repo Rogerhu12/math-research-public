@@ -425,3 +425,9 @@ startup绑定实际diag7811B/0e8fc3d3及两个原worker/第二flow，不误标�
 43708483581/1 job132794666828也真实failure（科学步骤11:21:27–11:21:40），远端小receipt未见；此时不认定科学是否启动。新diag仅把已成功的日志workflow改到这一个固定job，额外验证若存在BEGIN/END小结果块的原bytes/SHA/run/SCI/manifest并完整转发，原日志正文不持久化。worker aa31955f66c05c0bf59e3ac38b1c0bd68f3ffbea /14871B /4097d328a2b5f3f91a42cc4a0e48b6718fd127a4a55d61344b815a2f04b77ec2；flow981b25920583139d53fe1e00ef9bfe1d05d39984 /2722B /63a7a4aab98130482a7cd95a6e2198c355b2c81bbc13adc411c184985d7c9645。root全文diff/静态delimiter通过，不触发任何SCI。
 
 发现静态候选：第二旧worker取证函数本身含first_sync/child_start字符串，第三startup的全源子串count各为2，而实际完整源行各1。只有实际stack证实后才改为真正AST Call或完整statement匹配，不先把第三次标0math。root11:22:44定时真CLI pull仍无executor，下次不晚12:22；发布前两README在07fc7e39fb595ea0a788bfc0a2a9a5733a930c86未变。
+
+### 2026-11-15 11:27:01 UTC — 真实core截面到完整physical γ的定量入口
+
+V最终blobc1c543d7a45ffced4854c763c2f86bf8afca6c39 /15194B /SHA256 58eccc1715c74068d8a682b50af9f57049e5daa045c5f3e8a4579c68b12cba49。root全文独核实际dθ=j dφ、相对Ĉ完整差、61/192与1/9低导费、full signed primitive、3q+1 monomial递推、一次GN/Hölder及全部78q+16/655360/1048391整数账；另亲读原continuous C表及fullmoving P1–8。newton独核V12–16/V26–28，phase独核V17–25，三方通过；无新数值执行。
+
+γ是Pne(C−Ĉ)而非Pne C；h0仍进入j与1/m。真实moving端H1≤1e−9/128及H8193≤2^393000是足S域的明确实际门，原L² cut和fullC0都不替代。完整inner等价全B函数匹配+1/m=Ccapmean，反射固定角常数。V29–30的Schauder仅在真core+cap图、uniform两个trace门和同intrinsic数据成立后适用；当前core逆/图仍未构造，不宣布完成。发布两README于463f369df43ac8400ef48a3edf36f002c8ac4860未变。

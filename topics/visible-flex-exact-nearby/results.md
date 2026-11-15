@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实moving core迹到physical inner曲率输入 V](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)：以真实Θ和相对Ĉ差证明γA0<hH1/2，完整Cmean=1/m；直接展开(j^-1∂φ)^q并one-high估计，给hH1≤1e−9/128、hH8193≤2^393000足原尾部γ两门。剩inner准确为完整B函数与Cmean；core图存在及真实trace界仍待，条件Schauder不冒已闭合。15194B/SHA256 58eccc1715c74068d8a682b50af9f57049e5daa045c5f3e8a4579c68b12cba49。
+
 - [连续exact-tail选择与真实第二相位响应 C](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)：在实际γ低/高域，证明同RG/Nash确定选解γH8193→E1856+连续，actual fB∞连续H1859且统一<2^-54865000、H2相对紧。真实weighted Γ2差、共同reference、完整holonomy proxy及低逆/高插值均保；不冒C1/H0-Lip/core selfmap或删Hp。30739B/SHA256 0ada0f964d63212362f02c1f050da271d88ac6f585dc595bb779287c76b0e226。
 
 - [完整强返回、真实physical high块与core Schur条件 GH](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)：证明χJ=128CsΛJ^-1/3<1下正确graph域的右预条件逆、低逆后的高窗bootstrap、完整finite-border消元和body/cut两输出矩阵。保同δ身份、physical/phase投影差、全部均值及离phase约束的E′a项；97..160仅原raw A_HL。C0≤1/32只是待证充分目标，未授实际HH逆。18606B/SHA256 0ffb191ad3367f4b6725b40bbc04c986ab45dd134aa185ca529ff890d539bc78。

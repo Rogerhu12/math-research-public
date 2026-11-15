@@ -314,7 +314,12 @@ actual fB∞连续H1859、统一<2^-54865000，像在H2相对紧。
 
 仍未授γ→tail的C1或H0-Lipschitz，也没有core selfmap。
 R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN源须保。
-实际core输出γ的低A0和高H8193门、全inner B/Cmean及设计ν相位仍待。
+[V真实core截面到physical γ](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)
+已把该入口转成同一L截面h=v−v0的明确充分门：hH1≤1e−9/128、hH8193≤2^393000。
+相对Ĉ的真差给γA0≤hH1/2；(j^-1∂φ)^q全monomial一次one-high给物理高范数，
+不把moving97当physical有限谱。Cmean准确1/m；剩inner正是全B函数等式与该Cmean行。
+若以后真core+cap图在固定f的H3小球上连续且统一付这些trace门，C的紧far图可用Schauder闭合；
+该core图/两个实际trace门/设计ν相位目前尚未证明，L² cut与几何C0球均不自动支付。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 
