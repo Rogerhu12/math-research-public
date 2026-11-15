@@ -234,3 +234,8 @@
 ## 两个新理论 consumer 的首次公开执行入口（2026-11-15 09:25 UTC）
 
 已全文审读并交叉核对两个新目标：[例外端口两能量设计](notes/exceptional-port-two-energy-consumer-design-20261115.md)只求 R231 的 Lc/Ls；[权零平端一次层设计](notes/character-zero-endpoint-first-layer-design-20261115.md)只求 R230 的17根新层及两个成员门。联合请求 SHA-256 `9762739039fce58a03528988a4312a4159a6da091f24bf6ac449b188f2ce8af1` 绑定30科研源及workflow/publisher/printer。两lane独立先做13/12个新增人工检查，再各自actual；120秒/512MiB与240秒/1024MiB。此项仅登记已审源码和执行入口，未把未运行检查、结果符号或成员关系写成通过。旧目标不重算；旧输入只按设计必要恢复，输出临时，仓库只留来源/参数/run/哈希和人类结论。
+
+
+## R232：原八包例外端芽的严格第四障碍
+
+[R232 完整证明与首次实际](results/R232-original-eight-packet-exceptional-port-obstruction.md)消费 run43699241372/sourceee9e2098 的新两能量目标：Lc<0、Ls>0，正立方根基四槽各同号，16bit有理区间亦严格分离0。13新人工通过，actual0.272817秒/RSS23.2383MiB；全部14段、真左二次尾、右锚与两阶接口均保留。结合R231，b0非零ke例外germ的完整ruling对原八包所有可容正宽度均失败，含已付准确三矩C∞近邻；不排其他圆/其他b/任意germ。原件9524B/675a8bc4与dev3059B/fd9a6f3a仅存来源和hash。下一新三矩圆/完整次层，原八包结案，不重算。
