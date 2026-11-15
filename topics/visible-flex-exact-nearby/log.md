@@ -65,3 +65,9 @@ science2151125d…19907B、CIebacf347…6774B、worker275a965d…16106B、manife
 已独立核43659519776成功job、process c6ec19e8…13838B、worker799ca943…2369B、publication3bf2607a…2109B。child0/11门/native97d92739…13433B，新2stage/4local积分，原64pin及全部旧成功项不变。负完整源upper10602457152、正3219480409；非local3209834.581089/944684.884028及mean43198.334265/12709.397856原样保。真实local θ²和whole Fourier转换改善，但上界仍粗，继续更高Taylor尾。
 
 最新真pull已核00:43:11.788508 6d274f96…，本run两次实际两README diff空；H已记。旧inner及real-local失败为空，原更早KeyError完整保。root下一步仅补intrinsic10..15；phase继续外段与b*、newton继续全矩阵/真cap97、tail继续真实Bmean及强source。只读README核ce6c80bfbde6158e38c0e74e26fba3f352201658无变，总门未完成不收尾。
+
+### 2026-11-15 00:46:49 UTC：完整all4Z帽—long及真实Bmean结论独推
+
+全文核B1–28，另读原M接合、L1–7平方零Hilbert module、实际C19–28独立mean输入/χ链。B9先准确消mean(V−P)，再给wR²二次费用；完整L2 functional通过square-zero module重证，未由A0抽象推L2。修正草稿入口6e−5到原已付6.600816124e−5，因B20原本已支付整个原球；原成功对称成员由唯一性保。新proof 7d1f7b1dbefb119266c195e1b1118869bebf10d8148200855405bff0ddd64dc8，17481B；原所有数字来自已付预算，无重跑旧kernel。
+
+完整同时反馈<.9、原ac物理cap增加真实Bmean列χ<.821；径向角常数由真实平坦coframe积分，quarter旋转消位置周期。a²B0守恒/源jump/waist待解行明确保留，不改名为Darboux荷。tail继续强source与接Schur。matrix首组12真实192格已由newton读实际process3defd857…，其余继续，未宣布5970全cover。README核04a079bba9edd96e67c0e6378be7a2e0daac4450无变；未达课题总门。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整四重周期帽—长段图与真实B均值反馈](results/R133-supplement-complete-fourfold-periodic-cap-long-graph-with-true-B-mean.md)：B1–28去共同反射限制，真实B0及其L2导数保留，原完整入口球不缩小；单一cap map同时闭d/B0/c0、反馈<.9，径向角规范与位置周期完整。原ac物理帽新增Bmean列后χ<.821；waist/charge、强源、ν和最终族仍另解。
+
 - [内窗实角局部源的实际11门](results/R133-supplement-actual-real-angular-inner-first-Airy-local-source-bounds.md)：43659519776 child0；71pin/原64pin不变，2新stage/4changed-local积分，0旧数学重算。负完整源upper10602457152、正3219480409，原非local/mean逐字保；仍未授strong return/cutoff或全ν门。
 
 - [内窗局部第一修正的完整实角二阶预算](results/R133-supplement-complete-real-angular-jets-for-inner-first-Airy-local-source.md)：K1–11使用原全部Wpq和真实系数角jets，唯一W04用已付复带Cauchy；完整raw μL0w1、交叉项及实Airy全输出保。只更新旧四行local积分，非local/mean/profile/矩阵转换复用；待实际数值，不预先宣称收缩。
