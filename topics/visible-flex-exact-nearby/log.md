@@ -237,3 +237,11 @@ CY9a4e41c2全文root独核有序ratio/两primitive窗/右Ki,-、actual(Eo−A Ei
 AW10两物理row连续使distributional residual仅原negative source restriction/zeroextension，PC§9已允许且full means仍在；同root e+−PFh和nonzero stable未换。AW16–20同reference tuple经norm1 terminal-Ai injection保两sign/两waves/β，完整ST四case只一次传输，得到C_PC+C_ST,4原上端的符号和。只difference从有限input和延拓；未计算新的rounded ball，未重复任何已成数学。独立PW源/finite/mean/jumps继续，AW23实际waist receiver另付，TC strictcut norm不转授；P24首遗漏及strict firstsymbol传播由两个agent并行推进。
 
 本次bd4e0e354588378daac175a7f158f500d12dab0a两README未变。H/open压缩前完整页保bc3b0698ce96e43673c7cfd6bc2148466eb8aa91同路径递归原档；修正open残留的“P22↔SP尾仍待”为STA已完成，实际Ei/Eo/incoming/Schur/R0及最终验收仍未完成。
+
+## 2026-11-15 20:43:13 UTC — HS known core高频源小consumer部署
+
+完整亲读HS合同c8c1a13a/12822/18a683a2、SCI68f27468/23007/a352961b共393行、manifest91f57106/11709/8f2cdb5e与flow7f7a7558/4703/eabf8cee；worker22f1c538/48517/4f4f0fbf逐字diff对已审CY成功模板、全新validator/render/CLI/reuse和save-before-guard段已读。8current小输入156406B、2Python AST、18门静态清点、5数学pins与CR真实science/execution/RH/ST原hash/bytes一致；只词法静态核，实际AST/runtime门留public。
+
+root已核RH原数学与CR复制链；newton窄核CR输入schema与完整旧Ed/SH/D/WL，phase窄核whole候选选择/ordinary与H−1物理频率/ST真实域，均通过。保原full/low/high和evenmean/continuityoffset；Ed=dD/2原字段只复制。HS.12与17比较最终序列化候选的upper，保全候选且不upper平方相减。新量仅三known高尾和原4j的负一阶范数；H288 exact0，ST只同forcing真[0,P22]限制，不重propagation、mean不会因source high而消失。全core/phase/H−4/3/unknownstate和最终PDE未获结论。
+
+worker实际pull→live规则→pins→容量120KB保留、typed metadata暂错不杀healthychild、同science跨wrapper复用、先atomic保存/tee再45000/59000B格式门、非FF即时pull重推均沿已成主干。无oldnative/artifact恢复，无新数组上传。此次workflow path一次push触发，不额外dispatch；完成后只读其原小结论。13186d2ffc65f1d1aa69a3b8ab4b89ad061b4b86两README不变；H/open前页逐字保366d34f6c1008f1db6186db7af354dceaa72c9f6，任务持续。

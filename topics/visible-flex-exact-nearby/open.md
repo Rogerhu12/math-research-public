@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮完整逐字前页/运行/域/单位/恢复链保bc3b0698ce96e43673c7cfd6bc2148466eb8aa91本路径及H/log，递归a408/385b/8148及原档；未付义务与成功禁重继续。
+本轮逐字前页/运行/域/单位/恢复保366d34f6c1008f1db6186db7af354dceaa72c9f6本路径及H/log，递归bc3b/a408/385b及原档；未付义务和成功禁重不变。
 
 ## 1. 总验收与同一个对象
 
@@ -45,9 +45,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [IC逐分支首系数与root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7全文/原域/双χ/finite≤JF+191/mean与两rank保385b187762c145003d9b98cb2619af42b3e6cc14同open及proof。非零root幅先共同gauge，ci=−μ/2+vi、co=μ/2+vo；成功SN四列经真H/rotation、D/√j及half μerror给d/C/W4/3，不能H3除频代低导。实际strongE/finite/incoming/R0仍待。
 
-[MI完整实主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca完整式/域保385b187762c145003d9b98cb2619af42b3e6cc14同open及proof。正kernel/Jensen dν≥1和m/κ含全mean，ν=0同一两侧逆且ν非几何参数；K0/K−不含|ν|。先支付实际Ei:H−4/3→L2的Ci，再完整左Ti−1，双窗χ=K0CiΛJ^-4/3、RHS各K0/K−。物理finite Schur/mean/rank须按新顺序支付，不借旧Green行；SN终点norm和全incoming/R0仍待。
+[MI完整主因子逆](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca的全式/mean/rank/ν=0及原域保前档/proof。Jensen dν≥1，K0/K−不含|ν|；须先实际Ei的Ci，再完整Ti−1左预条件双窗χ=K0CiΛJ^-4/3及RHS K0/K−，物理finite/mean Schur按新序，不借旧Green。SN终点和全incoming/R0待。
 
-[CY精确Cayley有序比值](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)9a4e41c2与[CYA实际有限间隙和selected标量逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7：43757868884/1 child0/18成功，7416 signed/root全覆盖、8组927，finite min原lower0.7231306375542772002518177032470703125。结合原native Jβ无限尾，全|j|≥97得γ=1/1024及physical4j的一导loss逆≤256；science1f08e281/preGit20942/596c3f8a逐字核。wider有限box不扩旧无限域，mean及≤96全保，成功禁重。CY实unitary Cμ、有序Ecor每项含nonmean、S三非交换项/ES及左右不同窗继续；完整Ei/Eo与Bi−1仍前置，旧R0费未删。Cayley后续吸收系数为256；true背景稳定性、incoming/finiteSchur/两mean/core仍待。
+[CY有序Cayley比值](results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md)9a4e41c2与[CYA实际scalar逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7：43757868884/18成功锁，7416 signed/root全覆盖，finite min .7231306375542772002518177032470703125；全输入/8组/完整球/SCI1f08e281/preGit596c3f8a保前档/proof。仅native Jβ和actualselected全|j|≥97，γ1/1024、physical4j一导loss逆256，Cayley吸收用256；widerfinite不扩无限域，mean及≤96全保。实unitary Cμ/有序Ecor/S三非交换项/ES/左右不同窗继续，Ei/Eo/Bi−1/true背景/完整finiteSchur/core待；旧R0费不删。
 
 [GH强返回](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)须完整R:H(s−4/3)→Hs与χJ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目标，phase不与physical P96对易，完整incoming/positive/root/normalizer/finite/mean/all-s费用未闭。
 [PD增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保rho15一导损、第四Robin/mean/腰、真regular逆/ν/非零S、D²tame/smoothing及可求和迭代；非同阶Neumann。全部准确式/域/费用逐字保aa68eac96e892932cb19ce1aa8a9add5f4d78cae同open/H及原proof。
@@ -110,7 +110,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [RF完整核心残差复用](results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md)c4723121与[CRA实际核心限制](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd：唯一43757468943/1 child0/18成功，science dbae6acd、preGit20815/174c0583逐字核。原7296/6143全cover内5956真交[0,.9]，完整even mean、α一次、Qrepair degree32→f0≤96和WL完整coeff付后uniform full<4.848889e−8，low193保独立原球。原Z全7721 inner full/low/high含rawmean+五repair，不再384EZ；同D/B(d)付δ²Dcore/(2d)，两背景choices及原失败保。21小+3history/8AST，Z/D/WL原nested对象完全相同，旧成功禁止重复。只known普通源；capaffine/waist/nonlinear/unknown高body与cut/wholeH1/γ入口/true core和匹配仍待，不能以该upper推unknown或nonexistence。
 
-[RH已知源精确频带](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73：同moving角、同δ/η0与全mean，f0≤96、s0≤160、fδ≤288。H96无F0项，界|δ|SH+δ²Dcore/(2d)，SH仅读旧inner high完整记录，不作upper平方相减。固定νδ展开state得H160二/三次、H224纯三次，WL/7/6/19/83给未求值全core T2/T3；径向√L一次。只known forcing，未知high/cut/换角/γ/有限193其余源均未删；CR不重算。
+[RH已知源精确频带](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73原式/全mean/域保前档/proof：moving f0≤96/s0≤160/fδ≤288，H96无F0且用原SH，H160二三次/H224纯三次；固定νδ只展state。新的[HS小scalar合同](notes/2026-11-15-R133-known-core-high-source-and-negative-one-contract.md)18a683a2和SCI a352961b/worker4f4f0fbf/manifest8f2cdb5e/floweabf8cee部署，仅8current156406B/2AST/18门、一次push。只读取已成CRscience/execution和RH/ST；新三whole普通tail与physical4j负一阶direct/shell完整候选，最终outward upper选择全record，保>288 exact0。原Ed/SH/mean/repair逐字复用，不平方upper相减、不重CR；ST仅[0,rc]同forcing限制，不乘gain、不转授phase H−4/3或unknown state/cut/γ。实际结论待唯一原run。
 
 [SA完整有符号仿射接收](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)85e07aba原全式/域保7794d473同open/H/proof。Hessian准确消去仅formalGram，全97/mean/outer/jump、selected左端与缺陷关联费用都保；SA29–31用known左端减Δ而body/outer仍原y，非global recenter。旧QR/7908成功禁重。
 

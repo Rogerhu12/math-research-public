@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [HS：完整已知核心高频源及负一阶小计算合同](notes/2026-11-15-R133-known-core-high-source-and-negative-one-contract.md)（2026-11-15，18a683a215c4b28dc56ec029ed0c02013b42e083f95f463c9d5fa7e3850ac2f7）：原CR成功小对象和RH精确支持给3个ordinary尾、3个physical4j负一阶尾与>288 exact0；每个minimum选择同一个完整norm的全record。只普通源和ST真[0,rc]限制，未知解/phase/H−4/3不获新claim；数值待public唯一原运行。
+
 - [AW：完整P22锚定free trial强比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)（2026-11-15，SHA256 694b36473b8d9b8bc704c7db02b2399b5666b399525c6dceb8d372fdc977d40f）：真positive列减同P22锚定free首transport、完整齐次延拓到腰，其H−4/3→原primitive L2pair+两mean范数≤已完成C_PC+C_ST,4。两物理行连续与PC§9源限制免新cutjump，保非零stable/完整finite root/β/两sign两wave/独立PW ports；仅difference有强延拓。尚需free firstsymbol首遗漏、严格传播defect及实际waist receiver，非全incoming/R0。
 
 - [CYA实际有限Cayley间隙与selected一导loss标量逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7：43757868884/1 child0/18；7416 signed/root有限门全部覆盖且严格目标通过，原native无限尾给γ=1/1024，physical4j全高标量逆≤256。science1f08e281/preGit596c3f8a逐字核；mean/low/全Ei/Eo/incoming/Schur/true背景及PDE仍独立。

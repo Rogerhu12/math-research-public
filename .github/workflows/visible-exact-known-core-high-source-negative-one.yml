@@ -1,0 +1,89 @@
+name: visible-exact known core high sources and negative-one bounds
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-known-core-high-source-negative-one.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-known-core-high-source-negative-one
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  HSF_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-known-core-high-source-and-negative-one-CI-inputs.json
+  HSF_MANIFEST_SHA: 8f2cdb5ee41bc5a65a0f75ccb981992e9b272dc8c68a1ece9d0f583a87147224
+  HSF_PIPELINE_SHA: a352961b0e3eb619d248fc4da0ee08e52cc96007a33226d56e9e275a85fd585b
+  HSF_WORKER_SHA: 4f4f0fbff5dae6ed5f6b38115377b8cd47fc5eb9c55bc041d4edb670ba21c57c
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  known-core-high-source-negative-one:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_core_high_source_and_negative_one_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-known-core-high-source-and-negative-one-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_core_high_source_and_negative_one_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['HSF_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_core_high_source_and_negative_one_public_worker.py --mode hydrate
+          --manifest "$HSF_MANIFEST" --manifest-sha "$HSF_MANIFEST_SHA"
+          --pipeline-sha "$HSF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the current-only known-source consumer before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['HSF_MANIFEST']).read_text())
+          for role in ('source',):
+              item=next(x for x in manifest['files'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read eight current small texts and evaluate only the new known-source scalars
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_core_high_source_and_negative_one_public_worker.py --mode run
+          --manifest "$HSF_MANIFEST" --manifest-sha "$HSF_MANIFEST_SHA"
+          --pipeline-sha "$HSF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-known-core-high-source-negative-one-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-known-core-high-source-negative-one-output"
+      # Root rule15: all eight inputs are current small text; zero old binaries or artifacts are restored.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain120000 bytes before any new arithmetic.
