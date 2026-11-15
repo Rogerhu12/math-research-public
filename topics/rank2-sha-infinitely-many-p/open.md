@@ -140,3 +140,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 - [R834](results/R834-original-three-long-euler-blocks-and-complete-ramification-ideal.md)：原Γ4三条真正长Euler窗在h<T_M=s−r−13≤2h、T_M>2κ时排整个分歧理想FH2+eH2的首核；真qsrc/charge40/全部低尾经单位下三角运输，单位Smith秩≥1+(7κ+3χ)/2。贴边准确h≥max(14,κ+7)，全H3剩核注入H0N³(−T_MP)再入原Z。严格须已付同WD整返回，旧三块两长一短、全来源其余核、中央→深核及高次lifting未付。
+
+
+[原四首行的全低核反射](notes/2026-11-15-original-first-diagonal-full-reversal-and-rh-convolution.md)：已证全部r_{N−j}=r_N·j!/(3/2)_j、唯一t^s微分边界，以及四原Θ^nP/H的完整伴随式。第一个实际R_NH全低卷积准确为3r_Nq_p(3)/8，调和和与模p²相位自含定标；未省四Θ指数卷积及第二项，不预赋q_p(3)单位，实际bΘ/native非零仍开。

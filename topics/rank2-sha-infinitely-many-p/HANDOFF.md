@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：91ddf07a667158d9ad91b699feb10d00f3fbe76b；2026-11-15 22:34:49 UTC核两README无变。实际CI pull 2026-11-15 22:02:26 UTC/d4ecf44301f65b3f299f6cc7680a5d7ab7e0e238（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 22:50 UTC再实际pull。
+- 最近已读规则提交：80a715ca04347a8f65a6ba9ccff920a2119822ac；2026-11-15 22:39:02 UTC核两README无变。实际CI pull 2026-11-15 22:02:26 UTC/d4ecf44301f65b3f299f6cc7680a5d7ab7e0e238（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 22:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整归档与当前分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r834.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-full-kernel-reversal.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–834已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者，继续唯一端点类与原canonical全局比较；deep做R833真高前缀/指定迹；theta做实际bΘ全低卷积；literature做原critical regulator比较。结论成即分别推。
 实际pull22:02:26/run43766989764/job132974244655，两README差异空；回执ci/rule-pull-20261115T220226.json，下一22:50前。R818/820/830的43757109911/43756861065/43765677768均成功，source/args/hash见各证，不复跑；R830初版18/288阶枚举误用已修。
@@ -27,7 +27,7 @@ R831共同目标Chow矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]、任意old extraction仅
 [高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)：YZZ2023 Thm1.3.3保坏位{2,3,17}的Σc_l log l；Marannino2026非CM等原假设不适用。未付新类非零。
 [BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)：BDP12不含原(2,−1)，族身份不代中心值；刊本未得，不断言错误。
 
-[R832](results/R832-original-triple-chow-purity-and-rank-zero-contractions.md)已将原张量提升到Chow：Artin⊗h1经Faltings/Scholl只在权一识别，H+⊗H−≃Lefschetz收缩三混合为L·h1(Aγ/E17³/E17⁵)。R757三γ全实三次轨道中心值非零；BFH分裂辅助域+KL原定理付Aγ(Q)rank0，CM二次自扭给三对象K点rank0。因此混合CH²全零，R831端点Z=prλ Z，三ordinary槽全零。原λ Chow维数/端点非零/R814比例未付，第四槽两项与次数全保。
+R832通过真正Artin/h1对应和CM收缩，把三混合因子化为L·h1(Aγ/E17³/E17⁵)；R757全轨道中心值、BFH分裂域/KL秩零及CM自扭付三对象K点rank0，故混合CH²全零、Z=prλZ、三ordinary槽全零。仅权一用Faltings/Scholl；端点非零/λ Chow维数/R814比例未付，全部AJ两项与次数保。
 
 ## 四原中央、真实四块与Schur
 
@@ -38,6 +38,8 @@ R824完整G0/charge40中k=r+13+2h−s<min(13,ell+13)首提升真单位6a²C0u²e
 R828精确C_r=H_p(−8)^rP_r(p)−8^s，两平面关系/实际参数、全低卷积/Fermat p⁴进位保；a_p=6(p−3)H_p/(p+1)+pR_low，H_p≡−a_p/18。真实w整三角给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0；同native Schur真实代入λβ°−(λL)B4⁻¹b。尚无实际b违约、真正全M左行或中央非零。[完整d参考运输](notes/2026-11-15-r828-complete-d-reference-transport.md)已证同charge整列恒等、bΘ=b+χ2B4z、同K1/C1的βΘ°=β°+χ2ΣzL与βact=βΘ°+a_pΣvL；不能只删χ2或称其落im M。
 
 [R834](results/R834-original-three-long-euler-blocks-and-complete-ramification-ideal.md)付原Γ4三个真长窗：h<T_M=s−r−13≤2h、T_M>2κ时，全I=FH2+eH2单射，真实unit秩≥1+(7κ+3χ)/2；保qsrc/总charge40/unit三角及39carry。贴边s=2h+r须h≥max(14,κ+7)。全H3余核注入H0N³(−T_MP)再入原Z，不预付其消失。仅已付同WD返回适用；旧三块两长一短的mirror、中央→深核及全部高次lifting仍开。
+
+[全低核反射](notes/2026-11-15-original-first-diagonal-full-reversal-and-rh-convolution.md)：N=s−1，rN−j=rN·j!/(3/2)j；完整R_N H卷积=3rN q_p(3)/8，全部调和和/模p²相位已证。四原α另保Θ^nP/H的全伴随式及原第二项，不以RH块或rN单位代实际bΘ非零。
 
 ## 同R mirror、分歧迹与全边界
 
