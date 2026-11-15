@@ -24,7 +24,7 @@
 
 [R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)128α1/replay同，stage实际ADL编译阻；audit575/576、7485/7488，stage575 query9后推进及[10,13)未付，1800内部budget，raw清。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)完整129248/576的128α1达9.68582474751023176032080482454992093e−11、全词fresh replay同；stage/112/338=false、C-based audit=true仅原flags，内部具体错误/覆盖/极值未读。science成功后reader硬写190在build前失败，最终必要摘要缺；cleanup skip非主动清，runner结束亦不可SHA恢复。[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)只三调用限定，逆换全b16，wrapper/参数/算术不变；192/196源码风险不替其实际细节。
 
-[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)八件全文/完整diff核后接线，R423 header f82cd950已先发；原196全部84pins逐值保→89，实际SIMD header/stage/R405/R414和所有输入、阈值、编译旗标、wall对象不变。只有三namespace限定及必要reader检查/输出的190→199；实际临时旧basename明确写新f82字节，旧b16仅baseline，完整逆换和原/新/实际身份分别返回。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800与330/350分钟保。原全部113位/偶奇尾/scalar/wide、有限root/mean/完整C残差保，非连续导数或性能保证。单90KB保全部原字段/未访/工程错误，quiet与必要complete后才清理；不借190/192/196现场或预称编译/native成功，amplitude唯一R424。
+[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)八件全文/完整diff核后接线，R423 header f82cd950已先发；原196全部84pins逐值保→89，实际SIMD header/stage/R405/R414和所有输入、阈值、编译旗标、wall对象不变。只有三namespace限定及必要reader检查/输出的190→199；实际临时旧basename明确写新f82字节，旧b16仅baseline，完整逆换和原/新/实际身份分别返回。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800与330/350分钟保。原全部113位/偶奇尾/scalar/wide、有限root/mean/完整C残差保，非连续导数或性能保证。单90KB保全部原字段/未访/工程错误，quiet与必要complete后才清理；不借190/192/196现场或预称编译/native成功，amplitude唯一R424，官方run/源码见H。
 
 ### 1C. 真37→38与原非线性域
 
