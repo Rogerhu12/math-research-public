@@ -26,7 +26,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 8主+1SOC=9LP、20共享值+2末值、活动73.907s/总389.137s/RSS3107532KiB。m5/6真实预测比.978/.832；m7半步与m8细κ超3.12e−6/2.62e−6且遗漏硬行0，最紧已选group8细行−1.8792e−8/−1.5766e−8（基点8.4634e−8）。唯一SOC95072迭代耗10s，HiGHS限时/primal None，不是不可行。最终next trust1/128000低于旧min1/102400而退，非预算耗尽。full raw5406057/ed7ffe69、gz659183/caa724d1，summary60895/452a6c0b，全部表见notes/adaptive-spectral-metric-recovery-first-actual-result-20261115.md。
 
-**新single metric_spectral_curvature_reserve已派发**（两源ff0cf08e/c3bc10bc，22输入90args，新人工39.72s全过、压力摘要91731B）：明确曲率提案内余量：group7–10主/SOC目标floor1e−7（原scale100 PSD行），其余真实门不改；由a9eda和22输入/完整新池开始，首trust继承成功1/32000，旧mintrust/12LP40值120s不变。基点该行低于新floor，不预称可行；SOC可逆缩放暂不混入，不以超时单因病态。不降mintrust或延时续旧实例，不提高58。τ.061仍需κ≤1000/61及全时非局部reach；metric距1e−6远。
+**曲率内余量实际43674194002/sourcef2ee2cd8运行中**（两源ff0cf08e/c3bc10bc，22输入90args，新人工39.72s全过、压力摘要91731B）：明确曲率提案内余量：group7–10主/SOC目标floor1e−7（原scale100 PSD行），其余真实门不改；由a9eda和22输入/完整新池开始，首trust继承成功1/32000，旧mintrust/12LP40值120s不变。基点该行低于新floor，不预称可行；SOC可逆缩放暂不混入，不以超时单因病态。不降mintrust或延时续旧实例，不提高58。τ.061仍需κ≤1000/61及全时非局部reach；metric距1e−6远。
 
 ## 4. 已付结构与不可重跑
 
@@ -40,7 +40,7 @@ R120/R122有限真实控制保prototype/桥/基准但未付U。R84真倒行成�
 
 ## 6. 完整字符主线与下一实际
 
-R162严格J6∉E_D（43663137188），E6真44/pure9/核35、U≥240；lineality/query237不抬。44枢轴可增量，但不孤立追下一rank。R163 Hσ=(Rσ+Tσ)/(Rσ+Dσ)，同权14族及静态参考给全NUσ+1模R，无需另编−1。完整head43665345551/source0aae9a6a：107normal/66平移记录非维数；78非零=2旧+76新，544根/2332atoms，Q4_0/1本权两mode原零。gz1247411/2c1242e1、raw6560138/7a93a53a；生成任务已结，不重forcing/原NF/profile。
+R162 J6∉E_D、E6真44/pure9/核35、U≥240、lineality/query237已付，不孤立追rank。R163 Hσ=(Rσ+Tσ)/(Rσ+Dσ)给同权完整分母，不另编−1。完整head43665345551/source0aae9a6a保存107normal/66平移记录（非维数）、78非零收缩、544根/2332atoms，Q4_0/1原零；gz1247411/2c1242e1、raw6560138/7a93a53a。旧40响应/3974原因子/forcing/profile不重算。
 
 R164真实权−2唯一μ=(0,2a_static(0),2a_static(1),0,0,0,0,8a_static(0))，同F0参考c/d决定；字符后c0，原cocycle不删。R140完整正性iff同μ下全部开平端∫e^-2rP≥0，保0/2/4、H与真实ω′=k′/(2h)，不单要求二次正。R148/R165/R167/R169/R170已付各sharp/Gram/幂路径/固定k范围和有限flat边界，完整索引results。
 
@@ -54,4 +54,4 @@ R176 actual43671759155/source26e00d13：九式±给86行，0.434s/RSS91.484、0�
 
 **R177新全层严格正点及指定实际43672582314/source14f33da3已完整**：staticα=β1/4，二次(1,1/4,0,1,1)，最高(a,b,f,g,ℓ)=(1,1/4,−1/8,0,1)，M=diag(1/16,11/48)，全action≥∫h^-2/4。0.009609s/RSS25.207，86行全过（零64..85），107/14族/九式/同μ=(0,1/2,2,0,0,0,0,2)/c0/d=(0,1,6,0,0,0,0,4)准确全匹配；cert12864/b7b7cf0f、raw60197/e37ce83e、main7063/25b16d6c。8新人工全过，无LP/原式/路径。旧B+九式覆盖已发70真式，历史字段名不可误读成其余61未付；欠完整真实函数核。继续同点原函数一致性，不再找负路径/LP，未授真实字符存在。
 
-R178固定颜色局部唯一/word终止已证；**R179进一步证明规范余letter words普适单射**：Euler逐色剥离给任意小区间letter积分张成，L包包含排除与独立局部jets付全ξ，固定collar/真实共轭齐备。R159两根完整规范表即真函数核；旧R40/31/J/D0只验绑定转换与语法可复用，Ψ=Φ不重算。当前77基表在做；R177杀全核才授真实泛函，违一条即排。非规范/部分输出及固定profile非零不追认，不授实际负控制。完整P0/ruling、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98正states universal P1已结束；特殊profile或固定N完整P0+NP1未排。Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算只结束本次计算，主课题继续open。
+R178固定颜色局部唯一/word终止已证；**R179进一步证明规范余letter words普适单射**：Euler逐色剥离给任意小区间letter积分张成，L包包含排除与独立局部jets付全ξ，固定collar/真实共轭齐备。R159两根完整规范表即真函数核；旧R40/31/J/D0只验绑定转换与语法可复用，Ψ=Φ不重算。**新single character_head_word_relations派发**：两源21642/ec2022d8与72953/8fd67984，六原目录/240s/1024MiB；默认首个真关系切R177即存cursor，随后--finish-all-77。开发10/3/6/1分版准确，最终公开toy9待回执，不冒旧源已过；77基表在做；R177杀全核才授真实泛函，违一条即排。非规范/部分输出及固定profile非零不追认，不授实际负控制。完整P0/ruling、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98正states universal P1已结束；特殊profile或固定N完整P0+NP1未排。Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算只结束本次计算，主课题继续open。
