@@ -646,9 +646,13 @@ for(const c of candidates){
  const Qmatrix=pointList.map((_,k)=>extcols.map((P,j)=>readRow(P,j,QY,QY,k,c.eta)));
  const Qold=pointList.map((_,k)=>evalRow(Pold,QY.gen6[k],QY.zero.gen6[k],c.eta));
  const oldM=keep.map(i=>c.matrix[i]),oldRhs=keep.map(i=>md((i>=12?c.target[i]:0)-c.old[i]));
- const M=oldM.map((row,k)=>[...row,k<6?md(-Sjet[k]):0,0,0]);
- for(let k=0;k<23;k++)M.push([...Qmatrix[k],0,md(-S2values[k]),md(-newValues[k])]);
- const rhs=[...oldRhs,...Qold.map(x=>md(-x))],ee=elim(M,rhs);
+ // Whole-period identities fix the negative first-2Y block to omega^2 S2/2.
+ // Prescribe all three source scalars, leaving only actual neutral-test columns.
+ const fixedScalars=[1,md(om*om*iv(2)),1];
+ const M=[...oldM,...Qmatrix];
+ const rhs=[...oldRhs.map((v,k)=>md(v+(k<6?Sjet[k]:0))),
+  ...Qold.map((v,k)=>md(fixedScalars[1]*S2values[k]+newValues[k]-v))];
+ const ee=elim(M,rhs);
  let selectedCols=ee.piv,selectedRows=null,det=null,solution=null,scalars=null,verified=false,E1coords=null;
  if(!ee.inconsistent){
   const chosen=M.map(R=>selectedCols.map(j=>R[j]));
@@ -658,8 +662,10 @@ for(const c of candidates){
   selectedCols.forEach((j,k)=>{solution[j]=rr.solution[k];});
   verified=mm(M,solution.map(x=>[x])).every((R,j)=>R[0]===rhs[j]);
   assert(verified,"all original source/J2 rows and complete new quarter source");
+  assert(ee.rank===45,"whole old thirty-source image plus fifteen new E2-trace-zero E4-vanishing coordinates");
+  assert(selectedCols.every(j=>j<extcols.length),"the selected minor consists only of actual neutral test columns");
   const actualQ=mm(Qmatrix,solution.slice(0,extcols.length).map(x=>[x])).map((r,j)=>md(r[0]+Qold[j]));
-  E1coords=elim(V136,actualQ).solution;scalars=solution.slice(extcols.length);
+  E1coords=elim(V136,actualQ).solution;scalars=fixedScalars;
   const wlast=md(c.old[29]+c.matrix[29].reduce((v,x,j)=>md(v+x*solution[j]),0));
   assert(wlast===c.target[29],"R693 complete halfperiod supplies the omitted W row");
   const wmass=md(evalRow(Pold,GW.gen6[0],GW.zero.gen6[0],c.eta)+extcols.reduce((v,P,j)=>
@@ -690,11 +696,10 @@ for(const c of candidates){
   original_R693:{determinant:rsol.det,frozen_c0:rsol.solution.at(-1),
     E1_polynomial_coordinates:baseCoords,already_in_two_arithmetic_lines:!baseLine.inconsistent},
   complete_source_verified:!!verified,
-  scope:ee.rank===M.length?"full auxiliary square minor: actual parameter nonzero and saturation still to be paid":
-   "auxiliary lower rank only; full characteristic-zero left relations are not inferred"});
+  scope:"the actual 45-column minor is an auxiliary nonvanishing certificate; the full 53-row lifting uses the independent complete half-period and E4-divisor proof"});
 }
 return {
- format:"R702 complete original first-2Y quarter source with all R693 source/J2 constraints",
+ format:"R702 fixed complete first-2Y target omega^2 S2/2+Snew and all original R693 constraints",
  auxiliary:{p:pp,omega:om,tau:TAU,lambda:md((1-TAU)*iv(TAU)),kappa:0,u:0,b:1,Omega:1},
  max_block:MAXBLOCK,with_B:WITHB,B_G_blocks:BGMAX,complete_C_neutral_degree:NDEG,new_C_neutral_columns:highLabels,degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),
  source_input_sha256:crypto.createHash("sha256").update(inputCode).digest("hex"),
@@ -708,7 +713,7 @@ return {
 };
 }
 const report={
- format:"R702 complete three-state Y adaptation on the original neutral carry family",
+ format:"R702 forty-five actual neutral columns with fixed frozen0=1, negative block=omega^2/2, new line=1",
  entries:TAUS.map(t=>{console.error("R702: full exact source algebra at tau="+t);return analyze(t);}),
  outputs_persisted:false
 };
