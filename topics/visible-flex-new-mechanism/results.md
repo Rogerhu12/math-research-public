@@ -329,3 +329,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R246：十一维响应模的二十四观测准确像和唯一修正
 
 [R246 完整证明](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)保同R244新合法圆的八个原f-up前实际零gap。E_j=Σk≥j w_k De(D)P(tk)，D_j=Σk≥j w_k Dd(D)P(tk)−w_j Dc(D)P(tj)，每个当前左补偿都须扣，E8为真实零右collar。De=D³C、C0=J*/(45F*)非零；若8E0，则≤7次DeP在8点零从而P≤2，8F再迫P0，故16观测在本M单射、完整period障碍对M的像恰11维。准确右逆先用E差/w插值R≤7，再P0=C(D)^−1 I³R（有限nilpotent逆）；前三F定唯一二次项，另五F提供五独立成员关系。八D逐项匹配再给八独立关系，24观测像为11维图，十三条条件必要且充分，同M修正唯一。换积分基点仅改二次项；signed packet齐次与首T/B保持。额外e通量给真实functional常系数算子接口，未赋零值；本M∩完整period可解核为0不扩大为整个R0。R244剩余1维必在其他e平台被检出，不能继续顺序修复同一模。root与literature独立全文纸核，无新科学计算。
+
+
+## 成功SOC条件持径：新源与首次公开开发/actual接线
+
+[完整实现](notes/height159-SOC-radius-retention-implementation-20261115.md)把已冻结规则接入metric_height159_soc_hold。库51237B/c6fb9d46经root与tail独审；root以AST文本diff核旧loop仅增加实际模型绑定、成功SOC后z−x/z−y诊断和next选择，旧LP/接纳/几何/新行返回均保。driver75944B/f6ff70d5完整根审，六前缀后复用同一FiveHeightField/Gate与准确reference/H，不把非零τ舍入重锚；旧159控制只回放已完成scalar更新，未完模型不加streak。新开发仅新数组guard/第六handoff/dispatch/失败/原生stdout与evaluation-only IO，六旧科学边界stub、不重旧套件。35来源SHA/98实际参数只out变化，workflow/publisher只加lane/原生summary识别，metadata-only不改。逐模型打印原base预测/实际norm/所有旧原因与身份/old-new半径，全部旧两网诊断另保。新增人工与科学未执行；此次提交触发首次公开入口。
