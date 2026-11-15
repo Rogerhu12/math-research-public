@@ -225,3 +225,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:12:07 UTC — 根值剥离完整source实际结果独推
 
 读main 69e530c5fbf7241cad25f24db436216f031cd93d，两README不变。root全文核14930B实际报告/SHA4f7ef14f…及原process55665B/a7c42cca…八门、worker5170B/fe14fec8…、publication3978B/ad64051a…、diagnostics11337B/3f618651…；actual43665091373 child0、科学458.091293447s，native2a387a9d…31133B。6case/4359occurrences完整，1036新operator/integral、3323原payload逐字；原1328矩阵/6profile/旧local/真实1079seam0重算。各R完整negative/positive、九词/五mean、负primitive来源和failed-path域全保；case1/50自然5630289B/6324952d…仅原artifact未connector读取。最大正local在原piece2549/common793首外格，负local在2548/common778；不能从大upper反推真实无解。最新已核真pull02:00:43.915137→42d3d349…两README空。phase续同一根片完整source与真实partition，原seam/正port/ν及非线性未授。
+
+### 2026-11-15 02:12:56 UTC — 真左右端与完整high-output伴随Gram部署
+
+读main 08c9b3b7dbb012da0b162ad5752de052092fb719，两README不变。root全文核SCI24638B/41052363…、CI15246B/ab34ab0e…、contract9632B/fb9236d3…、workflow7748B/6eee3bdf…；另亲读原Hermite affine函数确认true9/10点求值无除零，原physical coefficient provider的negative mean、两Picard门、4096动态roots/FFT及真实trig。341pin与旧337逐键零变，新增4项准确；仅在未发布合同补明m上下界为|m|而exact m<0，manifest更新b753b786…，科学源码未改。三阶段全97 signed covariance/两mean与完整alias/尾，原proposal/target/四格0重算；170min/10min真pull、原成功prefix与失败保留，90日artifact。H9946完整归档后缩写Airy已成记录；同一complete-body/truePoisson后验仍由newton继续，待actual不冒称完成。
