@@ -417,3 +417,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R761：原型五九阶角色、点域与指定负一非零](results/R761-primitive-type-five-ninth-order-characters-and-point-fields.md)：已证明原type5 primitive三线的全Schwartz/九阶角色、quadratic17扭曲、root−、全权平方、local Q及准确cyclic9点域H。公开全13纤维给D_S=(11/21)Dω+Rprim，三线首阶均5；H的二处惯性平均杀primitive、留原cubic点，严格证明原D_S及CM连接修正的裸负一矩均非零。所有中央导数补偿与有限点投影边界保留，未赋原J′新零。
 
 - [R755增补：全部原cube的首Bockstein单射](notes/2026-11-15-r755-entire-cube-first-bockstein-injection.md)：在原e_E<min(κ,h−(13−2(r−k))_+)门下，完整第一Gaussian块已使全部cube首Bockstein单射，整个原cube限制Smith精确全p。全C4/ξ/真实整数帽与来源饱和均保；临界e_E=O(b)只按既定平衡家族使用，全WD其他列吸收及指定第二类非零仍开。
+
+- [原四输入单反射与保第四输入完整边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：已证明同一原六输入的四个单反射与分别偶来源h+=hW+e0/2，完整四变量K多项式和whole S4锚给全部独立深度矩形。保x的三变量边界准确ω²νσ⊗[1/2]νσ⁴⊗νσ/84；原q/Y/W仍依被忘输入，全部权和单位门必须完整转置。三个CD/O域与移动W_j观察均明确，未添原中央零。

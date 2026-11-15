@@ -178,3 +178,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 [R761](results/R761-primitive-type-five-ninth-order-characters-and-point-fields.md) 完整识别type5三条primitive角色、真实quadratic17扭曲、全权补偿/period/local Q及cyclic9点域H。公开原全13纤维给D_S=(11/21)Dω+Rprim，三r均5；H^{I2}=K(∛17)，point-only惯性投影保已知非零原Dω而杀三primitive，因而i_DS≠0、i_CγS≠0。无需假设三新角色解析秩一或每个primitive值非零。中央导数身份仍带完整I_MD′、I_GS′补偿；下一步检验through-S真实正交变分和fixed-representation传播，不把有限point投影延到无限log或把裸负一值冒原中央非零。
 
 [R755整块增补](notes/2026-11-15-r755-entire-cube-first-bockstein-injection.md) 已付在e_E<min(κ,h−(13−2(r−k))_+)下全部原cube限制Smith恰全p；其值投影虽零，完整余块不能同时零。仍需判断其全首Bockstein是否被完整WD的其他原列吸收，不能把限制矩阵因子冒全矩阵第二余类非零。
+
+- [原四输入反射/保x边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：已证明同一原六输入的四个单反射与分别偶来源h+=hW+e0/2，完整四变量K多项式和whole S4锚给全部独立深度矩形。保x的三变量边界准确ω²νσ⊗[1/2]νσ⁴⊗νσ/84；原q/Y/W仍依被忘输入，全部权和单位门必须完整转置。三个CD/O域与移动W_j观察均明确，未添原中央零。
+
+续将真实三CD/O域与W_j转置逐项联立；未加权三变量边界只适用因子化测试，原最终q*、Yunit/log与被忘坐标耦合，不能以边界替代完整六变量积分。
