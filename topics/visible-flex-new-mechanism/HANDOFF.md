@@ -25,7 +25,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **仿射谱与完整两网后继**：[旧首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192，η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰及已选曲率失败、m5 e/f非线性保原记录。active16.997316秒、八恢复569.558425秒分账，50/102源与24输入合。
 
-[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已实现四凸max/原全θ单JVP/真实attainer切面，冻结outer/原预算/真门保留。[首人工及修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项过，array9/10过；唯一断言误把末LP gap当返回早期并列incumbent gap。生产未运行、零恢复，原失败保留。54/106来源合；只修新断言，源绑定复用已付方向组，继续未完成error/handoff/IO后九必要恢复一次及首科学；尚无新passed/改善。原12LP/120s/40值/3inner保持。
+[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)已实现四凸max/原全θ单JVP/真实attainer切面，冻结outer/原预算/真门保留。[首人工及修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31/job132853059448：方向6项过，array9/10过；唯一断言误把末LP gap当返回早期并列incumbent gap。生产未运行、零恢复，原失败保留。54/106来源合；只修新断言，源绑定复用已付方向组，续run43728280256/7329385/job132854922848进行中，先未完error/handoff/IO再九恢复及首科学；尚无新passed/改善。原12LP/120s/40值/3inner保持。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -41,7 +41,7 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **平台/全Z旧接口R264/266/272/274/276**：G″=(aw″)′+bw′−Jcw，真Green Λ′=pG″；非零F平台局部像仅三维但完整Q2″=−Jcw不得删。全Z逐包比例Kfg0、flux自动0，只correction还需总势矩/内部Laurent。canonical原式G=P+Tf+p²t^-4B保完整history；R288现付当前紧微包Tf，平台/flux仍欠，非全Rp0/joint。
 
-**R281解析同F圆**：固定ψ×偶多项式C²稠密，真minor多项式线给全区正P0及解析纠正/χ。R280先定布局权再同F有限N根，保72面积/六能量与prefactor全区正。真实p=t^-2 a_e exp(−c/t)、内部p/AH有限退化；保整个canonical Tf，D+ψ′/ψ有限消积分、频率独立及亚纯性排全平例外。平台/flux先付时端门准确有限iff，实际值原欠。
+**R281解析端接口**：从起点ψ乘偶多项式可选最大F母包/纠正与全区正prefactor；p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。整个canonical Tf与真实尾保留，共轭微分及频率独立将端germ变有限iff；平台/flux前提须实际支付。后续F⁺可用，不凭解析性授门值零。
 
 R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保results；当前一般完整支付见R293/294，不重复旧五量/七量研究。
 
@@ -49,7 +49,7 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 **R293/294全部二层history已付**：初选0<κ²<.01，R289普遍rank30；R286/R291两完整关系使全有限N32向量在同空间，≤30χ/原12包正锥及30真Jac根付全部π/2外矩/Lc/Mc。R294给任意pair真实β/六sl2和核Γ⁺；Khat=Kself−Γ⁺(m,m)/2经原local变分消C³²，仅线性u'''准确IBP成C²，平移≤10。**从起点新F⁺**含旧F和30×11校正self系数（条目非rank）；同F⁺格点十矩与总A01/A02/A12清全even余角，12副本清odd。R293合法F★扩展给同一正解析有限N圆，全部十对称乘积×三矩×全θ和72面积/六能量/三矩/全third同零，即整个二层Gaussian history。零/一层、完整ruling、平台/flux/Laurent/period/同w与最终几何仍欠，未称旧冻结F无偿增约束。
 
-**R292真实零平台**：保YW右累计B4，完整平台二次式和跨包Qij只依真实三矩/原m(s)；actual pure给Vθ=4Σ右i≤j a_i²d_j Qij。全部平台iff每i的R_i q_i+Σj>iR_jT_B(μ_i,μ_j)=0及T_i对应式。T_B是原二阶history的准确3×3双线性型，q_i自历史保留；最右两(R,T)非共线迫q两项及crossT_B0。真矩像开集不授q由μ决定；不能用全局矩或gauge消此门。下一真消元，不泛称平台已付。
+**R292/295真实零平台门**：保YW右累计，Vθ=4Σ右i≤j a_i²d_jQij；cross双线性T_B仅三真矩/原m(s)，self q_i保完整尾。逐包R/T两后缀递推及最右正布局三组实际low/high Vandermonde迫**整T_B=0**；未知其零性/定号，条目非rank，同F⁺改shape不能代付。T_B=¼∫ημρν。即使T_B0仍逐包q_i0；q=−1/8∫[∫k(1+e²)Λ²/h ds](u''')²+完整C²余项，Λ保η0/真实m；u²主系数由M0零，其余未授零。真实even主非零时，同任意初选有限C²纤维可N^-5/2扰动令q/N非零，故不能偷加整个q为C²。下一T_B结构与其零下主项桥、全部period/joint。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -59,4 +59,4 @@ R282—290原平方/mixed准确式、独立门及两χ有限N结果全部保resu
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main b0ea16dccf22279dcb9f1f3c63491b0a6edfa3bb，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 2164d2f6d19b5078d95d8851c9553a0c82eefa73，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

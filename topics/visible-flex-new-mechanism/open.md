@@ -152,7 +152,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R293](results/R293-finite-frequency-zero-of-all-necessary-symmetric-Gaussian-observations.md)给真实有限N全32零及从起点有限连续C² polynomial F★通用入口。[R294](results/R294-corrected-self-fibers-pay-all-angular-symmetric-Gaussian-histories.md)准确保β/原tail/sl2和核，Khat=Kself−Γ⁺(m,m)/2由local变分严格降C²、平移≤10；明确新F⁺含旧F和所有校正self平移系数，原格点十矩及三已付有序面积清全even角。原12副本odd与R293同F⁺有限N根共同给全部十对称乘积×三外矩×全θ为零，保72面积/六能量/三矩/完整third与正解析prefactor。新F⁺从起点选，不暗增旧冻结F，330条目不宣rank。下一从原full四阶提零/一层剩余，具体判C²或新principal，再与完整period/同w联合；未付主几何。
 
-### R288/292：一次端层已付，真实零平台递推待解
+### R288/292/295：一次端层已付，平台须先处理真实几何矩阵
 
-当前不交紧profile的canonical一次指数层由R288全付。[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)继续保第四YW右累计，给Vθ=4Σ右i≤j a_i²d_jQij；跨包Qij有原三矩双线性式，二次系数T_B只需真实二阶history，self q_i仍含原完整第三/第四尾。全部平台准确iff逐包R/T两后缀递推；最右两双角非共线迫两self与一个cross为零，全局矩和允许gauge不能代付。真实矩像有内点但未授self依三矩。下一具体处理T_B矩阵、q_i的最高jet和兼容，不把未知C³量塞进F★；随后正确flux、内部Laurent/全period及同w joint。
-
+[R292](results/R292-zero-platform-periods-and-ordered-second-history-matrix.md)保YW右累计及全后缀，给cross真实T_B/self q_i。[R295](results/R295-final-grid-forces-zero-platform-matrix-and-exact-self-history-principal.md)用当前最右正布局三个明确high与三组low/Vandermonde证明全部平台⇒整T_B0，同F★三矩保持不能修这个几何门；不是宣矩阵非零或九条独立。T_B=¼∫ημρν，尾/全周期边项全保。矩阵0仍须每q_i0；其准确C³平方主系数加C²余项已提，u²项自动零，其余五类待原history处理。真实偶主非零则同任意初选有限C²纤维的高频族q/N非零，禁止将整个q冒低阶观测。下一联合T_B实际结构/控制和T_B0下q主项，再付flux/Laurent/全period与同w joint；旧方向人工已付仅源绑定复用，数值续run43728280256在行。
