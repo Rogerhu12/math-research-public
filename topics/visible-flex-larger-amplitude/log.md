@@ -486,3 +486,7 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ### 2026-11-15 request186：完整128后继已发布
 六独立源/request/workflow/20516B接口全部已读，原58→64pins；D6共享与两模态子树外提保原括号/归约及通用fallback，四消费者与原预算不变。
 真同job父重生，单90KB必要及quiet后清，不分包/编码；源码不代实测提速/逐词一致或native，actual R397待amplitude唯一读。
+
+### 2026-11-15 R395：实际185八次全三normal接受
+run43759673057/fe5f7cc2，两原日志和76157B/acc93f03必要齐；8/8方向/12α/39primal/27normal，W4.923932325275→4.346867247171，后四α1用满仍拒。
+120FD/Arb1589叶0未决/453圈齐，producer73.5323s与wrapper74.8072s分责，unit/full112/native/nonzero/success全false；必要/quiet后清，真末十词接189的16×8原完整搜索。

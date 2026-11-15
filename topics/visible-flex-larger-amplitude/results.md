@@ -409,3 +409,7 @@
 ## 2026-11-15 — Request186：完整当前128链与保原运算图的R305外提
 
 [完整接口](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)及六独立源/request/workflow已核发布，原58pins逐值保留→64；D6同primitive共享值、frequency×momentum与flux子树缓存保持各输出原归约/括号，非空geometry方向用原R305 fallback。新stage/header逐字临时编译副本与原v2 qualified fallback同目录，原compiler flags不改。它从真91/fresh64/R273重做same-job持久128父、replay及全576×224→112boundary→338×112endpoint/独立audit，原19200/6000/1200与8000/600/600/1800及全部原门不变；没有独立小benchmark/fixture。原owner/probe只有明确内存接线/必要读回/末清理延迟，逐字反向替换可恢复旧源。单≤90KB原必要scope保全试步/原evaluation/全stage地址、错误与科学70/协议70分责，大成功列只身份；读回完整/子进程reap/quiet后清，失败不拆编码。只付完整可执行来源责任，不预称速度、whole-stage逐词运行一致、原R283导数/IEEE或native；actual R397由amplitude唯一读。
+
+## R395 — 实际185全三normal校正：八方向全部原门接受，完整非零条件未满足
+
+[results/R395-actual185-complete-ten-full-three-normal-eight-directions.md](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)（27886 B / 0df359b2ae7d3adf1e02f86983e9003461fd17018af66741308a561d6ebc858b）记录run43759673057/sourcefe5f7cc2、compute132951426792/report132952034624的唯一原日志及76157B/acc93f03必要摘要。8/8方向、12原α、39primal/27fresh十列normal全部返回；前4α1/后4α.5，19临时更新/15投影，W4.9239323252749663981364628430833850764733239133895→4.3468672471711859976481753001800879050274704518442。后四α1三次normal用满仍拒，最大predictor W108383392.693838…不充owner。producer73.532297684s/wrapper74.807222099s，只有原八方向预算停止；真末十词/三缺陷/完整112身份、全120FD、Arb160/14的1589叶0未决、453circle/两RMS分数/4096角及原误差均保正文。finite-Gauss导数兼容/C²/IEEE仍false，unit/full112/native/nonzero/success全false；必要/quiet后实际清理。189从真实末点续原完整校正，连续C十族/450/shared闭面仍独立支付。
