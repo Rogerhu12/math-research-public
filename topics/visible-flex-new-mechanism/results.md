@@ -334,3 +334,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R404｜正规加速度平方零式将自然权零像缩到至多二维
 
 [R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)（7423B；SHA256 9fd64fe9c6a847b6d35ed5b33aa39fafe1c93bd91b85c44603d9ea789601eef1）。原C20属于R350全Λ0的正规Abar_hh层；R196真U0/R0三基与全部λx,y赋值严格给C20=C4+c0C6+R，所以n4=−c0n6。增强权零商恰span(n2,n6)，维≤2；原λ+联合核代表存在iff n2∈span(n6)。c0唯一只指原商系数，未指定值；n6可零，两函数未求，不授实际截面。下一只新增C2/C6完整自然读出或H*/J6 raw总通量，旧成员/秩不重做。纸证。
+
+
+## R403｜保完整十九目标而使每个实际包仅一对内部退化
+
+[R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)（23525B；SHA256 41476082d69ccefbdbdfa08033fbe59edc81abcd635e4cf9a3d0cedea870f5cc）。新ψ3P母基以密度/有限多项式minor兼容选真max-F和19点对秩；paired三导集中在负Af内区、全量t²+C²余给完整C1极限，12真实交替正核与固定正幅盒给有限N精确19根。实际u′×pulse≤0及外区/平端相对估计保全部真实包恰一对简单Af和中心p单零，全部原复制/F_rat/端解析保持。它重选初始母数据，不冒旧数值纤维或固定旧g。R401遂覆盖指定包全部内部两period germ，其余包/总通量/13joint未付。root全文、mechanism独核§3–10/source、tail窄核符号端部；无执行。

@@ -469,3 +469,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:22:21 UTC｜R404两条完整静态函数成为最小未付核条件
 
 [R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)，7423B/hash9fd64fe9c6a847b6d35ed5b33aa39fafe1c93bd91b85c44603d9ea789601eef1。根全文核两字符对原真三基的a0/b1推理及C20正规层范围；n4关系不声称c0数值或函数秩，lambda核/下降保持全函数仿射条件，非两固定点。继续C2/C6原收缩。基底98a2d4fbb2dd883d71b8202c32e40c0aa97a5145。
+
+
+## 2026-11-15 23:24:45 UTC｜R403完整集中构造与指定包内部门闭合
+
+[R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)，23525B/hash41476082d69ccefbdbdfa08033fbe59edc81abcd635e4cf9a3d0cedea870f5cc。根全文核psi3多项式/密度minor/IFT/完整C1极限/符号与端点范围；mechanism独立回R296/R324核§3–10，确认无隐藏t³/t⁴，tail只审符号不冒全证明。两种actual截面不拼；新母数据准确标明。立即推并继续全包共同jets/完整响应像；基底d8149f6d4fe6abd6d2043be2bd447111818b2a40。

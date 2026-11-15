@@ -185,3 +185,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R401同包两个镜像退化点的四通量实际联调已付
 
 [R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一最终偶包的ξ±y处，K0/K1两Hd与τ*真linear/quadratic尾两C成4×4可逆block；所有原型/倒行/桥/Klein和后置截面成本保留。分别actual wholeE0且两点d/e0，或actual(P_LE,A,四raw)，不拼wholejoint。R391只授有限简单根，不授仅一对；下一读原ψ/保护区及同19值纤维，研究全部Af根/全部包条件，不重做这四行。
+
+
+### R403新母形使每个实际包仅一对内部Af零点
+
+[R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)从新ψ3P共同基点保原F_rat定义/逐包等值与19个完整零，不冒旧数值纤维。全19密度准确t²+C²余、paired集中与12真正核付有限N根；实际u′×pulse非正及端相对控制保每包仅镜点两根/p中心单零。R401在最终指定负penultimate包的四query现覆盖其全部内部germ；仍非所有包联调或全period。下一检保共同外区jets的局域形状，以及有限U对全部镜点/有序尾的真实响应像，继续13同规范/全Λ。
