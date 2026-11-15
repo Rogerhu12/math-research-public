@@ -57,3 +57,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 06:47:37 UTC /root — 当前接续文档整理
 
 将actual112前open完整原文保留为检查点，当前open按113/110/114及真实闭面责任重排，去除已完成运行仍待回读的旧状态。HANDOFF改为可读的实时接续，保唯一规则同步行、完整操作边界及未推草稿说明。没有新科学运行或新接受条件。
+
+## 2026-11-15 06:52:33 UTC /root — 发布114二维法向弯曲试探
+
+已读新增科学源码完整差异、reader/request/workflow及[完整接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)。原full3方向/半径/最终块保持，真实c0+αCv目标由完整两法向校正，未达内层1e−8仍按原full3门。非法seed本轮不绕行；最坏评价预算与75/90min资源停止如实区分。sourcebe37ce21/reader5316d62b/request7107c02c/workflow550cd3b2，actual112 recipe80b8b209。仅源/参数/接口入库，无raw/临时静态回执；唯一request push触发公开科学，待实际结果继续。

@@ -1,0 +1,27 @@
+{
+  "schema": "R278-explicit-three-parameter-continuation-recipe-v1",
+  "origin": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43685696741",
+    "source_commit": "a7ea42924dbdaf8dab9377ace446690e0ce922c5",
+    "producer_file": "geometry_20261115_small_core_full3_retry_trust_recipe.py",
+    "producer_sha256": "b9fff58becdfdcfdb4877cd789a3160510c7c2895005239d8989bb7673c2ea20",
+    "producer_schema": "R259-original-full-three-rejected-radius-retry-trust-recipe-v1",
+    "status_bytes": 1030933,
+    "status_sha256": "02d85cf1f46cc1d108bbe7743e671c2c68a932dbc41ec76bddd232c3a7c6053f",
+    "log_summary_bytes": 80385,
+    "log_summary_sha256": "09f1525dcb21d3968f78ed8fe8c4b1c46a91fa55fadff972025cedc22fd439b2",
+    "parameter_field": "final.parameters"
+  },
+  "literal_parameters": [
+    0.46303183673359155,
+    -0.19282285315249734,
+    0.631643600595406
+  ],
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  }
+}

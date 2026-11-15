@@ -36,11 +36,11 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 113草稿 `/tmp/native-primal113-source/`：GNU __float128真实113位，将同原binary64 geometry/tables/grid精确提升，root未知e=L−target、split RHS、全部226态RK、节点+αdelta、stageout−node、全部129248残差保持高精度。两配置原8e−14/5e−12和严格1e−28/5e−27按同α交错；先两base，再两份各十档，7200s显式实验预算，partial诚实保留，随后原64十档仍继续。使用同freshR273方向，旧64J仅近似方向，不能冒一致128J/最终audit。须导出actual profiles+cusp splitter真实子步数/hash，不用576×12猜。root已读初稿CPP1b59cd10/bridge3655c81a/probeba3564ca，等最终冻结及原公式对照。
 
-### 114：低三方程的两法向弯曲路径（exact_refinement准备）
+### 114：低三方程的两法向弯曲路径（已发布，运行待读）
 
 106在12预算批后第13批原二十档全拒；108单方向二十档全拒。112已正式：[实际112](notes/2026-11-15-actual112-tiny-acceptances-and-final-twenty-trial-rejection.md)，run43685696741/sourcea7ea4292/compute132725609910/report132725862494。八方向六极小接受，0/7各二十拒；W6958.2257628163525→6958.225762769887。末p=[.46303183673359155,−.19282285315249734,.631643600595406]，unit=[−117.96801026240819,.008956935105133464,−.00020358048375542664]，全部最终门false。summary80385B/09f1525d（不含分隔LF）、status1030933B/02d85cf1。原逐列FDvalid不证明近消去组合的相对精度；不盲续同预算。
 
-[结构与路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)：3p是scalar分离支撑bump，非独立模态；上游圆R传播耦合全链。114保112完整3列QR方向v及原full3斜率，c=(d2,d3)，曲线目标c(q)=c(p)+αCv；q=p+αv+SNw，α0直接返原点，12×20校正，不用J33图。内层1e−8仅算法停止，不是外层门；真实剩余误差仍交原全3 W/.2Armijo/域/最终块。root已读初稿a5d04b2a完整差异；等reader/request/workflow/接口。必要时第四奇形C²零jet控制、新3×4响应和新schema责任已写清，但尚未实现/执行。
+[结构与路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)：3p是scalar分离支撑bump，非独立模态；上游圆R传播耦合全链。114保112完整3列QR方向v及原full3斜率，c=(d2,d3)，曲线目标c(q)=c(p)+αCv；q=p+αv+SNw，α0直接返原点，12×20校正，不用J33图。内层1e−8仅算法停止，不是外层门；真实剩余误差仍交原全3 W/.2Armijo/域/最终块。root已读全部新增源/差异/完整接口，已发布sciencebe37ce21/reader5316d62b/recipe80b8b209/request7107c02c/workflow550cd3b2；[114接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)。75min科学/90min job，原规则监控保持；实际run/结果待读。必要时第四奇形C²零jet控制、新3×4响应和新schema责任已写清，但尚未实现/执行。
 
 ## 几何下游：实际接受场仍缺
 
@@ -56,4 +56,4 @@ R277/R278/R279/R280/R281完整证明已登记，不再加证明审批或旧fixtu
 
 104普通清理已完成：run43682924785/source2cf540ca/job132717224569，commit2be1ad96删除8184已知可重算path/2641928364B，postpush8071files/168796207B；未知JSON未全分类，不称已清完全部第15条责任。[清理结论](notes/2026-11-15-rule15-request104-run43682924785-attempt1-metadata-cleanup.md)。无payload读、无历史重写。
 
-当前未推草稿只属113/114/geometry新工作，均无本地科学结果。完整早期open/log在检查点文件及Git历史。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。
+当前未推草稿只属113/geometry新工作，均无本地科学结果。完整早期open/log在检查点文件及Git历史。下一实际结论立即写note/H/open/log并推，然后继续，不发阶段结束答复。

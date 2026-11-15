@@ -28,7 +28,7 @@
 
 [原三控制与具体接续](notes/2026-11-15-small-core-control-structure-and-post112-options.md)表明三个p是scalar分离支撑bump，均通过q、圆半径递推与三模完整链作用，不是独立模态控制。114保持原完整三列正阻尼方向v及full3斜率，只用二维法向校正构造后两式目标c(p)+αCv的弯曲试探；α0原点、真实非零校正误差保留，内层1e−8仅算法停止，所有真实候选仍由原W/.2Armijo/域/最终块裁决。
 
-114实际结果将分辨直线高阶偏离和沿约束曲线停滞。若仍无有效进展，已写明第四奇形C²零jet控制的最小设计扩充及新profile/schema/完整3×4 J责任，函数独立不保证响应补秩。不得把欠定扩充冒原三变量方阵。即使低三通过，仍需实际高109非共振/两端消元、完整112、非零λ场/native/finalJ/audit；旧78结果不能跨p继承。
+[114完整执行接口](notes/2026-11-15-actual112-to-full3-curved-normal114-interface.md)已发布：sciencebe37ce21、reader5316d62b、recipe80b8b209、request7107c02c、workflow550cd3b2；77+2来源、17→18闭包，科学75min/job90min，原规则监控与独立≤90KB报告保持。实际run/输出待读。114实际结果将分辨直线高阶偏离和沿约束曲线停滞。若仍无有效进展，已写明第四奇形C²零jet控制的最小设计扩充及新profile/schema/完整3×4 J责任，函数独立不保证响应补秩。不得把欠定扩充冒原三变量方阵。即使低三通过，仍需实际高109非共振/两端消元、完整112、非零λ场/native/finalJ/audit；旧78结果不能跨p继承。
 
 ### 1D. 真正接受后的同live fullDN
 
