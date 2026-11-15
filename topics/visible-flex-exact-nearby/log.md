@@ -136,3 +136,9 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:35:52 UTC — 实际collar scalar首次部署
 
 两README在bff138105a6f7392bb531bb7f1d66c7c37476fc8亲核未变。SCI e39646a5/24702B与契约3cacd966/11750B保持原稿；worker cfdb8ecd/27944B、manifest e6b4867f/9121B、flow0faf7429。root读全SCI/contract/worker/manifest/flow，后仅补预Git完整≤59KB stdout和初始120KB容量预留，数学源码未改。newton亲取原7296 producer与helper核U/V未乘alpha、真负movingmean与全repair源；phase独核E/H/A全部三门/四species/readout。新工作只限制原7296真实残差并消费D6956 actual140collar与全部signed jets，13宽×7半径共91新scalar cases；原目标/FFT/残差/repair/Green/7721算术不重算。首次Python AST与新数学全部只在公开Actions；尚无高门通过、core存在或低γ自映射声称。
+
+## 2026-11-15 12:36:56 UTC — G actual完整成功结论
+
+两README在b5e705eaa55e6721c2e7cab5652e2b7a67d57c23亲核未变。root亲读43714194714/1完整小execution5e5f414a/42646B和result0dff8993/15746B，源a705c2b4/manifestbbfbdbc2/worker68cf6bf2精确；child0/25门/math.171296691s。7旧receipt、44pin、1328完整旧row和同6row、18coeff、8wholeword仅读；新10wholeterm中7改善，其余三保旧。逐payload确认13first/8mean/所有local aggregate完全同B，无多余改写。报告e412153c/15201B保全部新比较/31账/5aggregate/域/计数/失败空及source-to-wave未付范围。
+
+最后真pull12:31:11.540373→cf37396cbe2b5065de2501b203b83830731f260e，根/题diff均空。原topic198602517B/14089blob，此run两小结论投影198660909B；只为该提交时点。完整预Git stdout42795B/45b3ffa1，temporary native27369B/e9fe0bc3不持久化。成功锁定不重跑，继续complete coupled readout/strong-return及原local主导项。

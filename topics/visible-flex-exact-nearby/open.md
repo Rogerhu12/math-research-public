@@ -144,10 +144,10 @@ B现行ledger已逐字保同raw2，不需新合并数学；本成功不重跑。
 G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。
 保真实rankφ、所有n因子、完整q的vφ以及全部mean。
 [G完整g/y/q scalar契约](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)
-给density0=w0/density1=w1的新完整矩阵与companion预算；原inverse min经严格分支门才可减1取δB。
-10完整term ×旧完整word ×同6row最大系数 ×sqrt原真实径权，无旧积分/Γ重算；13first+8mean及全local逐字最新B。
-common strip/product、全部mean、Piola/truejump与两输出窗均保；首次实际改善待run。
-完整physical-to-wave/回代读出与强返回仍待。
+与[actual43714194714/1](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)现成功锁：child0/25门、7/10完整term改善，0旧数学/径积分。
+SCI a705c2b4/worker68cf6bf2/44pins bbfbdbc2；execution5e5f414a/result0dff8993/reporte412153c。first<5.536012e14、mean<3.338316e12、pair<5.536113e14，3local及13first/8mean逐字B。
+density0=w0/density1=w1、严格inverse分支才减1、fullrank/n^-2/q=vg−vφp、两J窗/独立mean与6row真实径权全保。
+原三未改进term直接保旧；现在主导raw1/RQJg1/raw2/RQJg0。complete source-to-wave、正growing/两端和强返回仍待，不重跑此次成功数学。
 
 [K真实径向参考两普通源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)
 已逐式付两源→density的一角增益，以及负body/固定严格负cut各一角损失。

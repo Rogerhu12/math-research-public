@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 12:35:52 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 12:36:56 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 12:21:47定时及12:19非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。最新亲读runner真pull见Green段；ref不冒pull，每小时CLI继续。
-最近只读README核：bff138105a6f7392bb531bb7f1d66c7c37476fc8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：b5e705eaa55e6721c2e7cab5652e2b7a67d57c23；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -26,7 +26,7 @@ v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/3
 
 旧共同势/旧圆/signed/whole/S/G15/C/D及P全成功锁。完整域/两sign两column/mean/seam/源单位/失败/restore保a345bb63同H及原报告，旧root/Taylor/FFT/profile/积分/word不重算。K/eca5b805的真实径向两普通源→density一角增益、负body/cut一角损失及root n^7/6保；非径向/positive graph/完整return仍待。
 P/B/L2完整成功/失败/restore/原scope保6d83970813d5a87805f91be19f60334c9edc21af同H及各actual报告，成功不重算。P43709396175/13门锁。B43711480764/19门、report9b906e99/execution20422f41：q1<.004848651663/raw1<1.722740e14/pair<7.039768e14，其余20first/10mean逐字P。L2 43711568963/16门、report4f576cf2/executionc17f7e83：新op4.837164e17>旧3.040655e17，q2=1，全部31项逐字P，B原raw2保。两者旧数学0；volume界不授strong-return。
-G/64e9ae0f全g/y/q十项契约及新SCI a705c2b4/worker68cf6bf2/44pin bbfbdbc2已部署，待首次public run/25实门；7成功receipt/1328原rows只读。density0=w0、density1=w1；严格识别G18 min分支才减1，两窗/mean/外J/6rows真实径权全保、其余21项逐字B。
+G actual43714194714/1成功锁：child0/25门/math.171296691s；reporte412153c/execution5e5f414a/result0dff8993，SCI a705c2b4/worker68cf6bf2/44pin bbfbdbc2。7/10整项改善，first<5.536012e14/mean<3.338316e12/pair<5.536113e14；13first/8mean及全local逐字B，0旧数学/径积分。density0=w0/density1=w1、全rank/mean/真实径权保，主导raw1/RQJg1/raw2；全source→wave/strong-return仍待。
 
 ## 实际帽与core全频接口
 

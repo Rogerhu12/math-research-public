@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [G actual：完整factored transport与companion源界](results/R133-supplement-actual-factored-transport-and-complete-companion-source-bounds.md)：43714194714/1 child0、25门、7/10完整term改善；first<5.536012e14、独立mean<3.338316e12、pair<5.536113e14，13first/8mean及全local逐字B。原两窗/mean/真实dr/root包络保；仅新scalar，不授strong-return。
+
 - [F：selected parameter 的完整 finite193 scalar 反馈合同](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)：真实 ordinary g、right p 与原完整 signed a/c 四列保三输出窗；κ0/κ1/5分开三门后转移，给严格充分阈值并保所有ν/waist/high独立义务。最终Green成功后才运行，不预报过门。
 
 - 2026-11-15 [selected-centre full residual/collar source](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)：R5–9给完整δ残差积分及star-shaped正预算二次余项；R14付连续Z的A0e source。collar精确T2/T3含mean，四source有限频带96/160/224/288支付普通Fφ与factorial源，未授真core存在。
