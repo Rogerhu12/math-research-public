@@ -14,6 +14,7 @@ import flint,numpy as np,scipy
 from flint import arb,acb,ctx
 import fourfold_codazzi_root_Laurent_Taylor_algebra as L
 import fourfold_codazzi_adjacent_piece_correlated_Airy_algebra as A
+import fourfold_codazzi_adjacent_piece_scalar_coercion_prefix as predecessor
 import fourfold_codazzi_whole_physical_root_piece_first_Airy_sources as whole
 
 PUBLIC="Rogerhu12/math-research-public"
@@ -262,6 +263,7 @@ def main():
         raise RuntimeError("the immutable completed mathematical runtime changed")
     if args.out.exists():raise FileExistsError("preserve every earlier complete or failed mathematical native")
     ctx.prec=320;ctx.cap=4;start=time.monotonic()
+    legacy_policy=None
     doc=dict(kind="actual_correlated_adjacent_piece_first_Airy_sources",complete=False,proved=False,
         failure=None,gates=[],stages={},pieces=[],case_stages=[],cases=[],runtime=runtime,
         public_repository=PUBLIC,run_id=os.environ.get("GITHUB_RUN_ID"),
@@ -283,6 +285,8 @@ def main():
         new_reference_coefficient_norm_stages=0,new_piece_comparison_stages=0,
         new_reference_radius_budgets=0,new_complete_source_rows=0,new_case_summaries=0,
         reused_new_stages=0,recovered_unindexed_complete_stages=0,
+        original_scalar_coercion_complete_stages_inherited=0,
+        original_scalar_coercion_stages_recomputed=0,reused_original_scalar_coercion_stage_reads=0,
         copied_original_complete_rows=0,original_complete_physical_seams_retained=1079,
         original_complete_normalized_seam_rows_retained=653,
         all_original_failed_large_radius_results_retained=True,
@@ -298,7 +302,10 @@ def main():
         if not name.replace("-","").replace("_","").isalnum():raise ValueError("unsafe stage name")
         path=args.out.parent/"stages"/(name+".json.gz")
         if name in doc["stages"]:
-            value=checked(path,doc["stages"][name]);doc["reused_new_stages"]+=1
+            value=checked(path,doc["stages"][name])
+            if legacy_policy is not None and name in legacy_policy["stages"]:
+                doc["reused_original_scalar_coercion_stage_reads"]+=1
+            else:doc["reused_new_stages"]+=1
         elif path.exists():
             value=read(path);doc["recovered_unindexed_complete_stages"]+=1
         else:
@@ -309,14 +316,17 @@ def main():
                 payload_sha256=payload_sha(payload),payload=payload)
             save(path,value)
             doc[kind]+=1
-        if not (value.get("complete") is True and value.get("name")==name and value.get("stage")==name
-            and value.get("stage_kind")==kind and value.get("source_sha256")==doc["source_sha256"]
-            and value.get("input_manifest_sha256")==doc["input_manifest_sha256"]
-            and value.get("algebra_sha256")==doc["algebra_sha256"] and value.get("runtime")==runtime
-            and value.get("payload_sha256")==payload_sha(value.get("payload"))):
-            raise ValueError("a complete new natural stage changed its scientific identity")
-        doc["stages"][name]=dict(file=str(path.relative_to(args.out.parent)),bytes=path.stat().st_size,
+        entry=dict(file=str(path.relative_to(args.out.parent)),bytes=path.stat().st_size,
             sha256=sha(path),stage_kind=kind)
+        expected=dict(source_sha256=doc["source_sha256"],input_manifest_sha256=doc["input_manifest_sha256"],
+            algebra_sha256=doc["algebra_sha256"],runtime=runtime)
+        if legacy_policy is not None:
+            expected=predecessor.identity_for_stage(name,entry,legacy_policy,expected)
+        if not (value.get("complete") is True and value.get("name")==name and value.get("stage")==name
+            and value.get("stage_kind")==kind and all(value.get(k)==v for k,v in expected.items())
+            and value.get("payload_sha256")==payload_sha(value.get("payload"))):
+            raise ValueError("a complete natural stage changed its one exact scientific identity")
+        doc["stages"][name]=entry
         checkpoint();return value["payload"]
     try:
         manifest=read(args.manifest)
@@ -330,6 +340,23 @@ def main():
                 raise ValueError("a pinned complete mathematical input changed: "+pin["path"])
             pins[str(path.resolve())]=pin
         paths={key:args.repo_root/value for key,value in manifest["input_paths"].items()}
+        legacy_policy=predecessor.load_policy(args.repo_root,manifest)
+        doc["accepted_scalar_coercion_prefix"]=copy.deepcopy(legacy_policy["receipt"])
+        # Copy every accepted original stage byte-for-byte before any new arithmetic.
+        # Its original source/helper/manifest/runtime header is never rewritten.
+        for name,entry in legacy_policy["stages"].items():
+            source=Path(legacy_policy["paths"][name]);target=args.out.parent/entry["file"]
+            target.parent.mkdir(parents=True,exist_ok=True)
+            if target.exists():
+                checked(target,entry)
+            else:shutil.copyfile(source,target)
+            checked(target,entry)
+        doc["stages"]=copy.deepcopy(legacy_policy["stages"])
+        doc["original_scalar_coercion_complete_stages_inherited"]=len(legacy_policy["stages"])
+        gate("only the exact28 stages completed before the scalar coercion failure are inherited unchanged",
+            doc["original_scalar_coercion_complete_stages_inherited"]==28
+            and doc["original_scalar_coercion_stages_recomputed"]==0)
+        checkpoint()
         old,wp,tn,tp,hn,hp,aux,ap,ind,ip,nn,npdoc=[read(paths[key]) for key in
             ("whole_native","whole_process","Taylor_native","Taylor_process","higher_native","higher_process",
             "auxiliary_native","auxiliary_process","intrinsic_domain_native","intrinsic_domain_process",
@@ -369,17 +396,21 @@ def main():
                 "runtime","original_whole_piece_native_sha256","original_Taylor_native_sha256",
                 "original_higher_intrinsic_native_sha256","original_auxiliary_intrinsic_native_sha256")
             gate("every resumed new natural prefix retains its exact reviewed scientific identity",
-                all(previous.get(k)==doc.get(k) for k in same))
+                all(previous.get(k)==doc.get(k) for k in same)
+                and previous.get("accepted_scalar_coercion_prefix")==legacy_policy["receipt"])
             # Include atomically completed files that preceded their index update. Partial files
             # are never accepted. Each is checked again when its named stage is consumed.
             for source in sorted((args.resume.parent/"stages").glob("*.json.gz")):
-                value=read(source)
-                if not (value.get("complete") is True and value.get("source_sha256")==doc["source_sha256"]
-                    and value.get("input_manifest_sha256")==doc["input_manifest_sha256"]
-                    and value.get("algebra_sha256")==doc["algebra_sha256"] and value.get("runtime")==runtime
-                    and value.get("payload_sha256")==payload_sha(value.get("payload"))
+                value=read(source);name=value.get("name")
+                entry=dict(file=str(source.relative_to(args.resume.parent)),bytes=source.stat().st_size,
+                    sha256=sha(source),stage_kind=value.get("stage_kind"))
+                expected=predecessor.identity_for_stage(name,entry,legacy_policy,dict(
+                    source_sha256=doc["source_sha256"],input_manifest_sha256=doc["input_manifest_sha256"],
+                    algebra_sha256=doc["algebra_sha256"],runtime=runtime))
+                if not (value.get("complete") is True and all(value.get(k)==v for k,v in expected.items())
+                    and value.get("stage")==name and value.get("payload_sha256")==payload_sha(value.get("payload"))
                     and source.name==value.get("name","")+".json.gz"):
-                    raise ValueError("a proposed completed new prefix has an invalid original identity")
+                    raise ValueError("a proposed completed prefix has an invalid one-source identity")
                 target=args.out.parent/"stages"/source.name
                 target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
             doc["stages"]=copy.deepcopy(previous["stages"])
@@ -726,7 +757,10 @@ def main():
     finally:
         checkpoint()
         print(json.dumps(dict(complete=doc["complete"],proved=doc["proved"],failure=doc["failure"],
-            new_stages=len(doc["stages"]),complete_pieces=len(doc["pieces"]),complete_cases=len(doc["cases"]),
+            new_stages=len(doc["stages"])-doc["original_scalar_coercion_complete_stages_inherited"],
+            complete_saved_stages=len(doc["stages"]),
+            inherited_original_stages=doc["original_scalar_coercion_complete_stages_inherited"],
+            complete_pieces=len(doc["pieces"]),complete_cases=len(doc["cases"]),
             new_complete_source_rows=doc["new_complete_source_rows"],
             copied_original_complete_rows=doc["copied_original_complete_rows"],
             original_mathematical_stages_recomputed=0,native_sha256=sha(args.out),seconds=doc["seconds"]),

@@ -3,6 +3,7 @@
 from __future__ import annotations
 import argparse,copy,gzip,hashlib,json,os,subprocess,sys,time
 from pathlib import Path
+import fourfold_codazzi_adjacent_piece_scalar_coercion_prefix as predecessor
 
 PUBLIC="Rogerhu12/math-research-public"
 TOPIC=Path("topics/visible-flex-exact-nearby")
@@ -49,6 +50,12 @@ def verified_natural_tree(native,base,repo,manifest,manifest_sha):
     """Check complete original rows or complete new stage payloads; no numerical re-evaluation."""
     expected=expected_identity(repo,manifest,manifest_sha)
     check_identity(native,expected)
+    legacy=predecessor.load_policy(repo,manifest)
+    if native.get("accepted_scalar_coercion_prefix") is not None and native["accepted_scalar_coercion_prefix"]!=legacy["receipt"]:
+        raise ValueError("the one inherited28-stage lineage changed")
+    if native.get("complete") is True and (native.get("accepted_scalar_coercion_prefix")!=legacy["receipt"]
+        or not set(legacy["stages"]).issubset(native.get("stages",{}))):
+        raise ValueError("a completed new result lost its28 original accepted stages")
     runtime=native["runtime"]
     for key in ("python","python_flint","numpy","scipy"):
         if runtime[key]!=manifest["runtime"][key]:
@@ -56,13 +63,15 @@ def verified_natural_tree(native,base,repo,manifest,manifest_sha):
     stages={};inventory=[];kinds={}
     for name,entry in native.get("stages",{}).items():
         path=local(base,entry["file"],"stages");check_receipt(path,entry);value=read(path)
-        check_identity(value,expected,runtime)
+        stage_expected=predecessor.identity_for_stage(name,entry,legacy,expected)
+        check_identity(value,stage_expected,runtime)
         if (value.get("name")!=name or value.get("stage")!=name or value.get("complete") is not True
             or value.get("stage_kind") not in KINDS or value["stage_kind"]!=entry["stage_kind"]
             or path.name!=name+".json.gz" or value.get("payload_sha256")!=payload_sha(value["payload"])):
             raise ValueError("one complete natural comparison stage lost its exact identity")
         stages[name]=value
-        row=dict(entry);row.update(name=name,complete=True,payload_sha256=value["payload_sha256"])
+        row=dict(entry);row.update(name=name,complete=True,payload_sha256=value["payload_sha256"],
+            inherited_from_exact_scalar_coercion_run=name in legacy["stages"])
         inventory.append(row);kinds[value["stage_kind"]]=kinds.get(value["stage_kind"],0)+1
     cases=[];seen=set()
     original_paths=[Path(repo)/manifest["input_paths"]["whole_case_"+str(i)] for i in range(6)]
@@ -120,7 +129,9 @@ def verified_natural_tree(native,base,repo,manifest,manifest_sha):
             original_complete_case_sha256=sha(oldpath),summary_stage=name)
         cases.append(current)
     return dict(stage_inventory=inventory,stage_kinds=kinds,case_receipts=cases,
-        complete_case_count=len(cases),all_complete_rows_and_natural_files_verified=True)
+        complete_case_count=len(cases),all_complete_rows_and_natural_files_verified=True,
+        accepted_scalar_coercion_prefix=legacy["receipt"],
+        inherited_original_stage_count=sum(name in legacy["stages"] for name in native.get("stages",{})))
 
 def compact_channel(value):
     return {k:value[k] for k in ("complete_rows","complete_first_correction_ordinary_L2_source",
@@ -222,6 +233,8 @@ def main():
                 sha256=sha(inventory),complete_scalar_stage_count=len(tree["stage_inventory"]),
                 stage_kinds=tree["stage_kinds"],complete_case_count=tree["complete_case_count"])
             state["all_complete_rows_and_natural_files_verified"]=tree["all_complete_rows_and_natural_files_verified"]
+            state["accepted_scalar_coercion_prefix"]=tree["accepted_scalar_coercion_prefix"]
+            state["inherited_original_stage_count"]=tree["inherited_original_stage_count"]
             state["complete_case_stage_receipts"]=tree["case_receipts"]
             state["actual_radius_results"]=[compact_case(v) for v in document.get("cases",[])]
             state["complete_scientific_native_payload_sha256"]=payload_sha(document)

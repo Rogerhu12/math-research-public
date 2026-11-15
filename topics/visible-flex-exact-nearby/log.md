@@ -411,3 +411,7 @@ V1–14/8ce318c77ca40324ae1461dc126f0aaaa11d92148294a380d7f5560e53a81eb2全文�
 ### 2026-11-15 04:26:58 UTC：有限角近邻的真实非线性 mean/height 图独推
 
 M1–37全文18003B/2ffbf6fe…root全读及逐段指数核；newton独立手核M7–18完整holonomy、固定P/K/U的2∂qH恒等，及M34–37两metric符号。原q=w²除法以可去商定义，未来荷积分保全未来源，σj=(ζ/μ)δ15使完整Volterra收缩<2^-2400；独立外χ与高度跨度不删。有限Sob输入无需角解析，mean图无角导损失，但不给nonmean背景逆。一般N≠0保(DA0)N，单位随metric变准确产生+ψN，未借零残差式。root亦读Green04:18:36真pull→45474200…八次README差空，1182/5970；两邻片第二失败10门/28stage已锁原byte，正在仅类型修复复用。README核ca4e52869123fa97df4560232a03f9529cf05332不变，继续principal/全逆。
+
+### 2026-11-15 04:28:26 UTC：仅精确 scalar 类型修复，28成功原阶段逐字续接
+
+43675967042/1 child1/10门/10.236884446s，28完整stage=25norm+1majorants+1signed cubic差+1intrinsic，0完整新源行/case；原processda9445d1…/nativeb46953d2…/publicatione1944e1f…已核。helper只在原up前对int/Fraction调用原ex；既有Arb路径不动。新policy唯一锁该run的28完整原stage、原header/payload/byteSHA/runtime和原三整件archive；当前manifestpin、原publication、原native三方一致。root亲核全部28收据与代码diff，AST数学校验仅Actions。279pins中241原项不变、只更新SCI/helper/CI；6原外case不变。SCI fa344d17…、policyb5706e3b…、manifest57b978db…、flowd4be03c5…独推续跑；不重成功builder、不开放通用跨source恢复。README核bb3e76494f518e86a91e718170db391cce34b326无变化，继续新actual结果。

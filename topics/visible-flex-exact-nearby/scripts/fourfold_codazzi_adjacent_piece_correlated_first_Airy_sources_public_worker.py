@@ -12,6 +12,7 @@ import copy
 from datetime import datetime, timezone
 import gzip
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -44,7 +45,7 @@ def save(path, data):
     temporary.replace(path)
 
 
-def recover_prefix_receipts(previous,base,original_cases,expected):
+def recover_prefix_receipts(previous,base,original_cases,expected,legacy_policy,policy_module):
     """Recover complete atomic stages and cases solely by exact byte/payload lineage."""
     base=Path(base)
     def read_file(path):
@@ -62,7 +63,11 @@ def recover_prefix_receipts(previous,base,original_cases,expected):
     stages=copy.deepcopy(previous.get("stages",{}));cases=copy.deepcopy(previous.get("case_stages",[]))
     audit=[];payloads={}
     for path in sorted((base/"stages").glob("*.json.gz")):
-        value=read_file(path);name=value.get("stage");identity(value)
+        value=read_file(path);name=value.get("stage")
+        stage_receipt=rec(path);stage_receipt["stage_kind"]=value.get("stage_kind")
+        wanted=policy_module.identity_for_stage(name,stage_receipt,legacy_policy,expected)
+        if any(value.get(k)!=v for k,v in wanted.items()):
+            raise ValueError("a completed natural stage changed its one permitted scientific identity")
         if (not isinstance(name,str) or value.get("name")!=name or path.name!=name+".json.gz"
             or value.get("complete") is not True or value.get("stage_kind") not in allowed
             or value.get("payload_sha256")!=digest(value.get("payload"))):
@@ -258,6 +263,12 @@ def main():
     command = [sys.executable, '-u', str(work/PIPELINE), '--repo', str(work),
                '--manifest', str(destination), '--manifest-sha', args.manifest_sha,
                '--out-dir', str(output/'consumers')]
+    # One fixed, pure-byte migration; no old stage header is relabelled.
+    policy_path=work/TOPIC/'scripts/fourfold_codazzi_adjacent_piece_scalar_coercion_prefix.py'
+    policy_spec=importlib.util.spec_from_file_location('adjacent_scalar_coercion_policy',policy_path)
+    policy_module=importlib.util.module_from_spec(policy_spec);policy_spec.loader.exec_module(policy_module)
+    legacy_policy=policy_module.load_policy(work,manifest)
+    state['accepted_scalar_coercion_prefix']=legacy_policy['receipt']
     # Exact reuse of completed new natural stages and recombination rows.
     expected_source=next(x['sha256'] for x in manifest['files']
         if x['path']==str(TOPIC/'scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py'))
@@ -287,7 +298,8 @@ def main():
             raise ValueError('an original complete new prefix index changed bytes')
         nd=json.loads(gzip.decompress(native_path.read_bytes()))
         if (nd.get('source_sha256')!=expected_source or nd.get('input_manifest_sha256')!=args.manifest_sha
-            or nd.get('runtime')!=expected_runtime or any(nd.get(k)!=v for k,v in expected_identity.items())):
+            or nd.get('runtime')!=expected_runtime or any(nd.get(k)!=v for k,v in expected_identity.items())
+            or nd.get('accepted_scalar_coercion_prefix')!=legacy_policy['receipt']):
             raise ValueError('an accepted physical-piece prefix changed its scientific identity')
         if nd.get('failure') is not None:
             raise ValueError('Preserve the actual mathematical failure; a correction is required before its failed gate can run again.')
@@ -298,7 +310,7 @@ def main():
                 run_attempt=nd.get('run_attempt'),missing_original_natural_files=absent))
             continue
         adopted_stages,adopted_cases,recovery=recover_prefix_receipts(
-            nd,native_path.parent,original_cases,expected_recovery)
+            nd,native_path.parent,original_cases,expected_recovery,legacy_policy,policy_module)
         stages=[*adopted_stages.values(),*adopted_cases]
         counts=dict(complete_scalar_stages=0,source_rows=0,complete_cases=0,natural_stage_files=len(stages))
         missing=[]
@@ -312,8 +324,11 @@ def main():
             if sha(stagepath)!=entry['sha256'] or stagepath.stat().st_size!=entry['bytes']:
                 raise ValueError('an accepted natural source prefix changed bytes')
             sd=json.loads(gzip.decompress(stagepath.read_bytes()))
-            if sd.get('source_sha256')!=expected_source or sd.get('input_manifest_sha256')!=args.manifest_sha:
-                raise ValueError('a complete prefix stage changed its science or manifest')
+            wanted=expected_recovery
+            if relative.parts[0]=='stages':
+                wanted=policy_module.identity_for_stage(sd.get('name'),entry,legacy_policy,expected_recovery)
+            if any(sd.get(k)!=v for k,v in wanted.items()):
+                raise ValueError('a complete prefix stage changed its one exact scientific identity')
             if relative.parts[0]=='stages':
                 if not sd.get('complete'):raise ValueError('a scalar stage is not complete')
                 counts['complete_scalar_stages']+=1

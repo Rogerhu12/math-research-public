@@ -12,7 +12,9 @@ from flint import arb,acb
 import fourfold_codazzi_root_Laurent_Taylor_algebra as L
 
 def ex(q):return L.ex(Q(q))
-def up(v):return abs(v).upper()
+def up(v):
+    if isinstance(v,(int,Q)):v=ex(v)
+    return abs(v).upper()
 def real_ball(v):
     if isinstance(v,str):return arb(v)
     if isinstance(v,dict) and "lower" in v and "upper" in v:
