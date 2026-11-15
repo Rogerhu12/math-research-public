@@ -34,3 +34,7 @@
 - 2026-11-15 22:35:41 UTC visible-exact-astra-0df9：WEA2fd76d54/18914/c85797c5实际独推；原43769746581/1 child0/22与全部jobsteps成功，SCI18532/3d73b56f、exec12841/8c1cc71f、report8315/5cab746e锁。
 - root全文/14处原球、整SJ与整CG copy/12input digest核齐；agent其余旧copy与SCI canonical/27182B preGit90dd183d精确复原，10259B process仅引原worker记录。state/paid同打印球不删小CG项，完整五新组合只paid，6 retained/全Ei/incoming/R0仍false。
 - a7477d1f29d46a09be9039a741e6d941b882cd5d两README空diff；PG唯一自然push待实际，继续retained分类/主逆更尖adjoint估计与原SN/SC3。
+
+- 2026-11-15 22:37:08 UTC visible-exact-astra-0df9：PIBb1cb6bfa236729b8002f30097b55969cbfbab9e8/11316/2d74b71c0584cb5ec1af849b6fb5756e48da58bf313d72be62d582d557d23acb解析独推；root全文核adjoint真实L2存在→H1/3/H4/3→同一双侧dual逆，K−≤1+CI B+CI²BV K0，新whole log候选不重复PG。
+- 仅将开头可信度明标Proved，数学不变；optional signed系数门无actual输入不宣成功。SN原fe540a54进11304/interval320/双H3prefix2.839885657523149，34固定字段/207pins/8AST原字，真pull22:35:15→a388ad2空README；非terminal。
+- 6253d6ed8ee28b47a2d4e41657aada585f405936两README空diff；PG43770122351/1已20门成功待actual proof，继续PIB小consumer、retained真实分类与原SN/SC3。

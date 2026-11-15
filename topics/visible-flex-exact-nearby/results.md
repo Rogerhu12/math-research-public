@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 PIB**：[完整主因子逆的伴随逐级增益](results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md)，已有完整L2逆经H1/3、H4/3和duality给同一负窗逆及无需exp的新log候选；保全mean，optional同号门尚无actual signed输入。
+
 - **已证明 WEA**：[实际已付腰部强误差装配](results/R133-supplement-actual-paid-waist-strong-error-assembly.md)，43769746581/1首次成功；三完整状态差、独立port因子、有序state因子和paid总上界均成，原CG整费一次。六retained仍exact-border-unpaid，未授完整Ei/Eo、incoming、Schur或R0。
 
 - **已证明 CGA**：[实际完整切口与传播首系数](results/R133-supplement-actual-separate-cut-and-propagated-first-coefficients.md)，43768992861/1首次成功；Ccut/g/branch各三导与三乘子窗、完整dual/rank和有序coeff上界齐，TF after-right复用一次。state/retained/完整Ei/incoming/Schur仍独立。
