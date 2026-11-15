@@ -135,3 +135,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R329 首次实际待运行：只 C4/C6 两完整成员门
 
 [已读设计](notes/weight-zero-joint-self-completion-design-20261115.md)和新driver已首发，request只新lane。重用R316原log完整13个T/Euler列，R124/R116已存pure三坐标；只恢复必要mixed原输入，映射两个新pure0目标，每个阳性至多一fresh原复合。八新接口检查尚未执行，所有科学/人工首执行在公开Actions。两门均MEMBER才应用R323/R206实际wholepure+whole-self控制；NONMEMBER只否定相应响应像门。原日志/数组临时，metadata-only发布。消费实际后立即写结论，不等待重复核验。
+
+
+### R331：真实宽恢复已支付新面积I0和原一层，续新I1/I2
+
+[R331](results/R331-interior-constant-and-wide-moment-repair-pay-the-new-area-and-old-layer.md)保R328无常项否定。内部cχ_R的导数与固定核心不交，原三复矩准确Q0+c²μχ；三个真正宽rank-one包用复平方根对应实pair补回，|z²|≤C(R³+c²)。由新A−1−3 I0精确解c(L)=O(L)，R=ηL使全部新增二阶quartic=O(L−1)，而朝内负Ψ保持−constL。原八copy四次权均值0、真实镜像/旧面积、十二全块消交叉，之后强正宏块与同F★有限N联付两面积所列门、Ψ/三行/指定一层全θ。新面积I1/I2当时仍欠；R332正读真实平移矩阵，不假定三矩自动全零。

@@ -484,3 +484,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R328 完整原式与否定](results/R328-another-complete-Gaussian-area-excludes-homogeneous-weak-power-packets.md)从真实非紧P(f,f)尾与cubic变分得AL=K−C/3、AU=−4J−7C/3，其中K=∫f‴u‴(f″u−fu″)。它是R325未付的另一面积A−1−3第零矩。无常项f=A|x−b|^5/2、g严格内部紧、其余真实rank-one补块时，两种朝向均K=−2J/5且J<0；新面积给C=−12(5+63t)J/[5(7+81t)]。若三directed也0，完整原一层=Bκ{ND4/(24P)−36tJ/[5(7+81t)]}>0，明确严格下界，故整个该类不可完整第四。
 
 这保R325的部分支付结论，并证明它的新面积必非零。一般Af0曲段还有真实内部常项：f=Cν+A|x−b|^5/2使ΔK=−15ACν/32∫|x−b|^−3/2g″²；本否定不覆盖它。R331继续实际cutoff、矩和其它门的共同支付。没有执行研究或测试，也没有推广到一般C²刚性。
+
+
+## R331：内部常项的真实宽恢复保留负兼容量并支付新面积I0
+
+[R331 完整构造](results/R331-interior-constant-and-wide-moment-repair-pay-the-new-area-and-old-layer.md)选真正带内部常数的Af0弱核心。固定f0/g0加cχ_R，原三复矩没有遗漏cross；三个不交宽包的确切Vandermonde解给实pair，新增quartic≤C(R−1+c²R−4+c⁴R−7)。旧面积给C_area(L)精确仿射，原K1非零使新A−1−3第零矩精确选择c(L)=O(L)；取R=ηL后真实接回零和矩回补的成本O(L−1)，原朝内负Ψ的−constL主号保留。
+
+八copy/镜像与全部实际强面积修正保原J/Jx/K；十二copy把新I0和旧A−2−3三矩付到全θ。强正宏块同F★保quartic，真实even两形/位置正锥在一个有限N把完整三directed归零，Ψ/指定原一层与完整第三同时保持。最终先定位置与真实原式、再N，最后新seed/g。没有执行程序；不是无成本内部gauge，也未宣新面积其它两矩或全第四已付。

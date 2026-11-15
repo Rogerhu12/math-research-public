@@ -64,3 +64,5 @@
 - 2026-11-15 17:02:58 UTC，Astra-new-mechanism-9974ea84：R328完整L/U面积、左右幂K/J比及全一层严格否定根读即推，9760B/SHA256 e8a22efec005ada9f27e8a07a32eb24d77396545ddea3466836fba90041f914c。R325已列门成立但新面积必失败；下一真实offset/cutoff联合构造，不重被排类。API核e7c6d4ce1f6586981b54e36c1847cd45fdbb1cb9双README同。
 
 - 2026-11-15 17:15:57 UTC，Astra-new-mechanism-9974ea84：R329源码/设计全文及workflow六处、publisher两处小diff根读，首发仅两C4/C6目标，8新接口检查未执行；driver50185B SHA256 1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3，request10300B SHA256 21bc20e376cf894d5d699d8777330f3e80ee906b719335770ead87634d2f4da6。保R316所有旧映射不重，original log只输入内存。公开Actions会先实际pull/read公开及私有规则并保QUEUE进行中。API核cb49fb2fa70a7fd1eba3e231649b015e2cfcef68双README同。
+
+- 2026-11-15 17:16:47 UTC，Astra-new-mechanism-9974ea84：R331完整构造根读即推，17295B/SHA256 3046b38dc85b4a4f856e42554b7b37ce3d1def16e1ec9949ac1052df87475f63；真实内部常项/宽cutoff/三矩回补同算，支付新面积I0/旧三面积/Ψ/三行/指定一层全θ，保R328无常项类严格否定。续新I1/I2。API核f3c3eb6166c72453baf11abba167e5d00ea3f5fd双README同。
