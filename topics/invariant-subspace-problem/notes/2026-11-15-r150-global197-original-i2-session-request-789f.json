@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "626d45fcb1fad7a261b3d38aee04b5fa36a376db",
+  "rulesReadAtCommit": "df1503a1f12b6c0919c6113cb14aaf3d174e93a5",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -172,6 +172,69 @@
       ],
       "timeoutSeconds": 660,
       "receiptPath": "{work}/global197-i2/global197-i2-pipeline-receipt.json"
+    },
+    {
+      "id": "root2-fourth-six-small-inputs-restore",
+      "requires": [
+        "restore-original197-minimal-historical-inputs"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "scriptSHA256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/root2-fourth-small-inputs"
+      ],
+      "timeoutSeconds": 180,
+      "receiptPath": "{work}/root2-fourth-small-inputs/root2-fourth-small-inputs-restore-receipt.json"
+    },
+    {
+      "id": "root2-fourth-complete210-preparation-30",
+      "requires": [
+        "root2-fourth-six-small-inputs-restore"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+      "scriptSHA256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+          "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+          "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+        }
+      ],
+      "argv": [
+        "--second-prepared-receipt",
+        "{work}/root2-fourth-small-inputs/second-prepared-receipt.json",
+        "--second-prepared-system",
+        "{work}/root2-fourth-small-inputs/second-prepared-system.bin.gz",
+        "--second-complete-receipt",
+        "{work}/root2-fourth-small-inputs/second-complete-receipt.json",
+        "--second-complete-system",
+        "{work}/root2-fourth-small-inputs/second-complete-system.bin.gz",
+        "--third-complete-receipt",
+        "{work}/root2-fourth-small-inputs/third-complete-receipt.json",
+        "--third-complete-system",
+        "{work}/root2-fourth-small-inputs/third-complete-system.bin.gz",
+        "--state",
+        "{work}/global197-original-inputs/state.bin",
+        "--reader",
+        "{scripts}/2026-11-14-r150-torsion-characteristic-789f.py",
+        "--helper",
+        "{scripts}/2026-11-14-r150-ninth-first-matrices-789f.py",
+        "--out",
+        "{work}/root2-fourth-complete210-preparation",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/root2-fourth-complete210-preparation/root2-fourth-complete210-source-preparation-receipt.json"
     }
   ]
 }

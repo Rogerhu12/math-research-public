@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 当前完整前态保[H](notes/2026-11-15-handoff-before-global197-i2-session-789f.md)/[open](notes/2026-11-15-open-before-global197-i2-session-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 当前完整前态保[H](notes/2026-11-15-handoff-before-global-i2-seven-and-next-pages-789f.md)/[open](notes/2026-11-15-open-before-global-i2-seven-and-next-pages-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -31,9 +31,9 @@
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
 - 旧P Hermite/localized失败与minor并发重拉恢复身份保前态；不重走爆长路线。
 
-- **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
+- **[全56单核Ω120](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒全核，exec7fe5575b/raw4927·93bcf19e/binding3456b533；临时cert39654723B·147a40fa/payload0ca29224。旧live新step33仅读12999B upper和paid Ω，核121系数约化/因子（60s/512MiB）；barΩ与field Q60²尚待逐系数比较，不重det/core/profile。
 
-- **全局197真R2：** run43772109844始22:57:13/350min，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；14原件8.054750272秒全核。[消费者](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)首600秒实际582.40937125秒/75：K2…125全124列与26stage完成，b05-q1真checkpoint。raw29698/978cf538、outer68e2ece0、binding3cdbc436；同源码fc1bfafd/同out续step3-resume600，不重已付。全197/505/315/J闭包才报r和t2=r−2、Δ≤306−r/μ≤28−r；数组只tmp。
+- **全局197已完成：** run43772109844/step3实际293.56143218秒，复用26stage后全43stage/197原4367产品/505自由/315/J/DAG真；I2=U7维7、χ=(s−1)²(s−2)^5，t2=5，Δ≤299/μ≤21保持。outer f6b83a6e/raw46870·5d9fc76f；完整系统14868B·5d3160c9/payload a26534a0。新step4/5仅恢复6旧小件并重建完整210条root2第四页recipes（30s/512MiB）；p7产品/第四像仍未付。request同notes/2026-11-15-r150-global197-original-i2-session-request-789f.json，tmp仍在该run。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
@@ -41,7 +41,7 @@
 
 - 小窗R=d/h2d/Q=L0h²的carry与晚cut正交孔带已付；同源合并负部≤c_mQ||F_mu||²且Σ1/c_m发散会迫w0，但未得。全E3坏19/10仅排整体短核统一界，不是actual W反例。
 - [实际缺陷](results/R271-appendix-actual-projection-defect-two-sided-generator-and-all-dark-moments.md)e=f−PVf/k=PKf、Δ²=e²+k²；原全暗矩、两侧生成元及真旗已付。合法窗PUw→w、limsupΔ≤||f−w||，未知尾速率不乘增长逆费。
-- [真实返回](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)保E=High+Zfull、e=PEY/帽e=P_hatE Kamb^-*PEY及零源正交；同w/f主配对、cut仅重叠ν≤h。Riordan专窗R=ceil4expτ、h=d+R、C0固定，不混小窗。
+- [真实返回](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)保原PE/帽PE反馈、零源正交及同w/f配对；Riordan专窗与小窗不混，完整参数保前态。
 - [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
 - **[实际低forcing正Gram](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** 真尾删除交叉正，DαZ=MαDZ/ΣMα≤I；完整creation行≤4I/3，双缺陷行≤8I/3并保GΔ/全部交叉，无Q或头维损失。原V不自动C不变；不把帽列认作ZR，顺次MP仍开。
 - **[连续尾势/源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z保全部碰撞；配置势夹在(1/3)Σ(i+n+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}完整源逆读数≤3(L+r+1)³/p；同u须联合(De,Dk)加2，不换Du/环境D†。

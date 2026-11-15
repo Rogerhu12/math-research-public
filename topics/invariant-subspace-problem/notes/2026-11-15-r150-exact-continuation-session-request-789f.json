@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "a66c386997583146a5813f23348e6d517b42cc71",
+  "rulesReadAtCommit": "df1503a1f12b6c0919c6113cb14aaf3d174e93a5",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1444,6 +1444,29 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/original56-single-kernel-bockstein/original56-single-kernel-bockstein-receipt.json"
+    },
+    {
+      "id": "paid-outside-divisor-reduction31-audit-60",
+      "requires": [
+        "original56-single-kernel-bockstein-300"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-paid-outside-divisor-reduction31-audit-789f.py",
+      "scriptSHA256": "41087ca2b95e4e3df084b6b5cdc043071b27b0278f69a1cd772c20aa5400829e",
+      "sources": [],
+      "argv": [
+        "--upper",
+        "{work}/original-three-minor-determinant-upper/current-outside-gcd-upper.json.gz",
+        "--omega-receipt",
+        "{work}/original56-single-kernel-bockstein/original56-single-kernel-bockstein-receipt.json",
+        "--out",
+        "{work}/outside-divisor-reduction31-audit",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 90,
+      "receiptPath": "{work}/outside-divisor-reduction31-audit/outside-divisor-reduction31-audit-receipt.json"
     }
   ],
   "previousSession": {
