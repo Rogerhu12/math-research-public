@@ -1,0 +1,549 @@
+name: visible-larger actual R300 continuous nine construction with original C cut
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-continuous-nine-v3-construction-request.json
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-continuous-nine-construction
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Original full C cut, R323 actual windows and complete new nine target
+    runs-on: ubuntu-latest
+    timeout-minutes: 95
+    permissions:
+      contents: write
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+      cut_twojet_summary: ${{ steps.cut_twojet.outputs.cut_twojet_summary }}
+      cut_twojet_summary_bytes: ${{ steps.cut_twojet.outputs.cut_twojet_summary_bytes }}
+      cut_twojet_summary_sha256: ${{ steps.cut_twojet.outputs.cut_twojet_summary_sha256 }}
+      construction_summary: ${{ steps.construction_readback.outputs.construction_summary }}
+      construction_summary_bytes: ${{ steps.construction_readback.outputs.construction_summary_bytes }}
+      construction_summary_sha256: ${{ steps.construction_readback.outputs.construction_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/*.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/results/R286-original-stored-continuous-integral-and-metric-bridge.md
+            /topics/visible-flex-larger-amplitude/results/R297-continuous-E-unit-panel-and-piecewise-enclosure.md
+            /topics/visible-flex-larger-amplitude/results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md
+            /topics/visible-flex-larger-amplitude/results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md
+            /topics/visible-flex-larger-amplitude/results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md
+      - name: Establish request147 owned temporary namespace
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          git config --global merge.stat false
+          mkdir "$RUNNER_TEMP/visible-continuous-nine-147"
+          echo "VISIBLE_BASE=$RUNNER_TEMP/visible-continuous-nine-147" >> "$GITHUB_ENV"
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: 3.12.14
+      - name: Install explicit interval runtime and numerical-profile runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Bind actual scientific source and explicit complete closed query
+        run: |
+          python - <<'PYPINS'
+          import ast,hashlib,json,os,re,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          raw=(comp/'public-continuous-nine-v3-construction-request.json').read_bytes();request=json.loads(raw)
+          assert request['schema']=='public-continuous-nine-v3-construction-request-v1'
+          assert request['request_number']==147 and request['lanes']==['continuousnineconstruction']
+          assert request['repository']=='Rogerhu12/math-research-public'
+          assert request['scientific_entry']=='geometry_20261115_stored_continuous_E_cover_v3.py'
+          assert request['source_count']==len(request['source_sha256'])==19
+          verified=[]
+          for name,expected in request['source_sha256'].items():
+            assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
+            data=(comp/name).read_bytes();assert hashlib.sha256(data).hexdigest()==expected,name
+            if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=expected))
+          source=ast.parse((comp/request['scientific_entry']).read_bytes())
+          constants={node.targets[0].id:ast.literal_eval(node.value) for node in source.body
+            if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name)
+            and node.targets[0].id in ('PINS','PROOF_SHA','REVISION','BASE_SOURCE_NAME','BASE_SOURCE_SHA256','UNIT_PANEL_SOURCE_NAME','UNIT_PANEL_SOURCE_SHA256')}
+          assert constants['PINS']==request['original_formula_source_sha256']
+          base=request['evaluation_strategy']['preserved_original_producer_source']
+          assert constants['BASE_SOURCE_NAME']==base['file']
+          assert constants['BASE_SOURCE_SHA256']==base['sha256']==request['source_sha256'][base['file']]
+          assert len((comp/base['file']).read_bytes())==base['bytes']
+          prior=request['evaluation_strategy']['preserved_unit_panel_producer_source']
+          assert constants['UNIT_PANEL_SOURCE_NAME']==prior['file']
+          assert constants['UNIT_PANEL_SOURCE_SHA256']==prior['sha256']==request['source_sha256'][prior['file']]
+          assert len((comp/prior['file']).read_bytes())==prior['bytes']
+          assert constants['REVISION']==request['original_source_revision']
+          proof=request['proof'];data=(repo/proof['file']).read_bytes()
+          assert len(data)==proof['bytes'] and hashlib.sha256(data).hexdigest()==proof['sha256']==constants['PROOF_SHA']
+          strategy_proof=request['evaluation_strategy']['proof'];data=(repo/strategy_proof['file']).read_bytes()
+          assert len(data)==strategy_proof['bytes'] and hashlib.sha256(data).hexdigest()==strategy_proof['sha256']
+          unit_proof=request['evaluation_strategy']['unit_panel_proof'];data=(repo/unit_proof['file']).read_bytes()
+          assert len(data)==unit_proof['bytes'] and hashlib.sha256(data).hexdigest()==unit_proof['sha256']
+          for name,expected in request['reviewed_README_blobs'].items():
+            assert subprocess.check_output(['git','hash-object',name],text=True).strip()==expected
+          item=request['query_recipe'];data=(repo/item['file']).read_bytes();query=json.loads(data)
+          assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+          assert query['schema']=='R286-original-stored-convention-C-closed-queries-v1'
+          assert query['queries']==[dict(id='original-binary-config-cut-point',
+            kind='closed-rational-radius-interval',left=0.3,right=0.3,left_closed=True,right_closed=True),
+            dict(id='whole-original-source-natural-continuous-domain',
+            kind='whole-natural-domain',left_closed=True,right_closed=True)]
+          helper=request['cut_twojet_readout'];helper_raw=(comp/helper['file']).read_bytes()
+          assert len(helper_raw)==helper['bytes'] and hashlib.sha256(helper_raw).hexdigest()==helper['sha256']
+          helper_ast=ast.parse(helper_raw,filename=helper['file'])
+          helper_constants={node.targets[0].id:ast.literal_eval(node.value) for node in helper_ast.body
+            if isinstance(node,ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0],ast.Name)
+            and node.targets[0].id in ('REPOSITORY','SCHEMA','ENTRY_NAME','ENTRY_SHA256','RESULT_SCHEMA','MODEL_SCHEMA','QUERY_SCHEMA','QUERY_ID')}
+          assert helper_constants['REPOSITORY']==request['repository']
+          assert helper_constants['ENTRY_NAME']==request['scientific_entry']
+          assert helper_constants['ENTRY_SHA256']==request['source_sha256'][request['scientific_entry']]
+          assert helper_constants['SCHEMA']==helper['schema'] and helper_constants['QUERY_ID']==helper['point_query_id']
+          assert helper_constants['RESULT_SCHEMA']==request['evaluation_strategy']['current_producer_schema']
+          assert helper_constants['MODEL_SCHEMA']==request['evaluation_strategy']['original_model_schema_unchanged']
+          assert helper_constants['QUERY_SCHEMA']==query['schema']
+          assert query['config_sha256']==request['inputs']['config']['sha256']
+          assert query['calibration_ledger_sha256']==request['inputs']['calibration_ledger']['sha256']
+          assert query['stored_reference_sha256']==request['inputs']['stored_reference']['sha256']
+          assert request['scientific_parameters']==dict(deep_definition='original-exact-root-family',
+            precision_bits=256,integral_absolute_bits=96,integral_relative_bits=80,analytic_guard_bits=8,
+            integral_evaluation_limit=100000,value_width_bits=24,max_depth=48,query_depth=12,
+            max_panels=200000,max_query_nodes=200000,budget_seconds=1800)
+          construction=request['construction']
+          assert construction['entry']=='geometry_20261115_continuous_nine_v3_actual_construction.py'
+          assert construction['entry_sha256']==request['source_sha256'][construction['entry']]
+          assert len((comp/construction['entry']).read_bytes())==construction['entry_bytes']
+          assert construction['parameter_order']==['p1','p2','p3','theta1','theta2','theta3','eta1','eta2','eta3']
+          assert len(construction['initial_nine_parameters'])==9
+          assert construction['parameter_origin']['run_id']=='43716274591'
+          assert construction['parameter_origin']['source_commit']=='69765fcd81ca84819cdeb09c4fe14c55fdb5fb80'
+          assert (construction['sqrt_bits'],construction['domain_max_cells'],construction['domain_max_depth'],
+            construction['domain_budget_seconds_per_pass'],construction['domain_passes'],
+            construction['field_modes'])==(256,65536,32,300,2,112)
+          assert construction['kappa_exact']=='1/2'
+          assert construction['root_choice']=='R286-dovetailed-rational-middle-third'
+          for key in ('R300_proof','R323_proof'):
+            proof_item=construction[key];proof_raw=(repo/proof_item['file']).read_bytes()
+            assert len(proof_raw)==proof_item['bytes'] and hashlib.sha256(proof_raw).hexdigest()==proof_item['sha256']
+          assert request['execution']['construction_step_timeout_minutes']==20
+          assert request['execution']['job_timeout_minutes']==95
+          assert not any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git'))
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
+          print(json.dumps(dict(event='request147_source_and_query_identity',run_id=os.environ['GITHUB_RUN_ID'],
+            source_commit=os.environ['GITHUB_SHA'],request_sha256=hashlib.sha256(raw).hexdigest(),
+            sources=verified,proof=proof,query_recipe=item,complete_scope=request['complete_scope'],
+            scientific_parameters=request['scientific_parameters'],no_science_started=True)),flush=True)
+          PYPINS
+      - name: Restore exactly the original config and both saved-ready byte inputs
+        run: |
+          python - <<'PYINPUTS'
+          import hashlib,json,os,subprocess
+          from pathlib import Path,PurePosixPath
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request=json.loads((comp/'public-continuous-nine-v3-construction-request.json').read_bytes())
+          commit='8bd267107cc8710d371f3b62c02986655ac965b0'
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          assert head==os.environ['GITHUB_SHA']
+          if subprocess.run(['git','cat-file','-e',commit+'^{commit}'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+            subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags','--filter=blob:none','--depth=1','origin',commit],check=True)
+          base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs';inputs.mkdir(exist_ok=False)
+          records={}
+          for role,item in {**request['inputs'],**request['construction_inputs']}.items():
+            assert item['historical_public_commit']==commit
+            relative=PurePosixPath(item['file'])
+            assert not relative.is_absolute() and '..' not in relative.parts
+            assert str(relative).startswith('topics/visible-flex-larger-amplitude/notes/')
+            assert Path(item['runtime_basename']).name==item['runtime_basename']
+            blob=subprocess.check_output(['git','rev-parse',commit+':'+str(relative)],text=True).strip()
+            if 'git_blob' in item:assert blob==item['git_blob']
+            raw=subprocess.check_output(['git','cat-file','blob',blob])
+            assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256'],role
+            path=inputs/item['runtime_basename']
+            with path.open('xb') as stream:stream.write(raw);stream.flush();os.fsync(stream.fileno())
+            records[role]=dict(source_path=str(relative),git_blob=blob,bytes=len(raw),sha256=item['sha256'],temporary_file=str(path))
+          assert set(records)=={'config','calibration_ledger','stored_reference','accepted'}
+          import struct
+          original_config=json.loads((inputs/request['inputs']['config']['runtime_basename']).read_bytes())
+          query=json.loads((repo/request['query_recipe']['file']).read_bytes())
+          cut=original_config['rCut'];point=query['queries'][0]
+          assert type(cut) is float and type(point['left']) is float and type(point['right']) is float
+          assert struct.pack('<d',point['left'])==struct.pack('<d',cut)==struct.pack('<d',point['right'])
+          print(json.dumps(dict(event='request147_original_binary_cut_query_binding',
+            config_sha256=request['inputs']['config']['sha256'],original_config_key='rCut',
+            original_float64le_hex=struct.pack('<d',cut).hex(),query_index=0,query_id=point['id'],
+            complete_original_whole_natural_query_retained_second=True,no_cut_renormalisation=True)),flush=True)
+          assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
+          print(json.dumps(dict(event='request147_original_geometry_bytes_restored',historical_public_commit=commit,
+            source_commit=head,inputs=records,raw_inputs_not_rewritten_or_rearchived=True,
+            original_accepted_M96_prefix_used_only_for_new_core=True,no_accepted_new_tail_or_closed_field_input_consumed=True)),flush=True)
+          PYINPUTS
+      - name: Restore the unchanged original public source subset once
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+          import os
+          from pathlib import Path
+          from exact_20261114_public_resume import prepare_public_source
+          base=Path(os.environ['VISIBLE_BASE'])
+          source=prepare_public_source(Path.cwd(),base/'original-public-source',base)
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+            stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+          PYSOURCE
+      - name: Produce the complete original continuous E cover with honest partial scope
+        id: science
+        timeout-minutes: 45
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-continuous-nine-v3-construction-request.json';request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
+          print(json.dumps(dict(event='request147_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+            old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
+            period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
+          base=Path(os.environ['VISIBLE_BASE']);inputs=base/'original-inputs'
+          argv=[str(comp/request['scientific_entry']),'--runtime-computations',str(comp),
+            '--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],'--proof',str(repo/request['proof']['file']),
+            '--queries',str(repo/request['query_recipe']['file']),'--queries-sha256',request['query_recipe']['sha256'],
+            '--out',str(base/'continuous-E')]
+          for role,option in (('config','config'),('calibration_ledger','ledger-ready'),('stored_reference','stored-ready')):
+            item=request['inputs'][role]
+            argv.extend(['--'+option,str(inputs/item['runtime_basename']),'--'+option+'-sha256',item['sha256']])
+          for key,value in request['scientific_parameters'].items():
+            argv.extend(['--'+key.replace('_','-'),str(value)])
+          # Auth exists only for the original rule-sync parent; the numerical
+          # child executes the independent evaluator of the unchanged model without GitHub token variables.
+          bootstrap="import os,runpy,sys; [os.environ.pop(k,None) for k in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')]; sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0],run_name='__main__')"
+          command=[sys.executable,'-u','-c',bootstrap,*argv]
+          sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*command]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Read every original point-query leaf and enclose the complete cut two-jet
+        id: cut_twojet
+        if: always()
+        timeout-minutes: 10
+        run: |
+          python -u - <<'PYCUT'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'continuous-E';result=out/'result.json'
+          request=json.loads((comp/'public-continuous-nine-v3-construction-request.json').read_bytes())
+          if not result.is_file():
+            print(json.dumps(dict(event='request147_cut_twojet_source_result_unavailable',
+              complete_cut_twojet_not_claimed=True,original_science_or_rule_failure_retained=True)),flush=True)
+            raise SystemExit(0)
+          helper=request['cut_twojet_readout'];raw=(comp/helper['file']).read_bytes()
+          assert len(raw)==helper['bytes'] and hashlib.sha256(raw).hexdigest()==helper['sha256']
+          config=request['inputs']['config'];query=request['query_recipe']
+          argv=[sys.executable,'-u',str(comp/helper['file']),'--directory',str(out),
+            '--result-sha256',hashlib.sha256(result.read_bytes()).hexdigest(),
+            '--config',str(base/'original-inputs'/config['runtime_basename']),
+            '--config-sha256',config['sha256'],'--query-recipe',str(repo/query['file']),
+            '--query-recipe-sha256',query['sha256'],'--out',str(base/'cut-twojet-readout')]
+          child_env={key:value for key,value in os.environ.items()
+            if key not in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')}
+          code=subprocess.run(argv,env=child_env).returncode
+          raise SystemExit(code)
+          PYCUT
+      - name: Construct actual R323 windows, exact new target and explicit numerical search profile
+        id: construction
+        if: always()
+        timeout-minutes: 20
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYCONSTRUCT'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-continuous-nine-v3-construction-request.json'
+          request=json.loads(request_path.read_bytes())
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==request['source_sha256']['root_20261114_current576_rules_runner.py']
+          baselines={}
+          for name,blob in request['reviewed_README_blobs'].items():
+            raw=(repo/name).read_bytes()
+            assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+            baselines[name]=dict(blob=blob,text=raw.decode())
+          runner.BASELINES=baselines
+          base=Path(os.environ['VISIBLE_BASE']);policy=request['construction']
+          helper=comp/policy['entry'];raw=helper.read_bytes()
+          assert len(raw)==policy['entry_bytes'] and hashlib.sha256(raw).hexdigest()==policy['entry_sha256']
+          argv=[str(helper),'--request',str(request_path),'--inputs-directory',str(base/'original-inputs'),
+            '--tail-cover-directory',str(base/'continuous-E'),
+            '--cut-twojet-readout',str(base/'cut-twojet-readout'/'cut-twojet-readout.json'),
+            '--code-directory',str(comp),'--r300-proof',str(repo/policy['R300_proof']['file']),
+            '--r323-proof',str(repo/policy['R323_proof']['file']),'--out',str(base/'construction')]
+          bootstrap="import os,runpy,sys; [os.environ.pop(k,None) for k in ('GH_TOKEN','GITHUB_TOKEN','MR_TOKEN')]; sys.argv=sys.argv[1:]; runpy.run_path(sys.argv[0],run_name='__main__')"
+          command=[sys.executable,'-u','-c',bootstrap,*argv]
+          print(json.dumps(dict(event='request147_construction_same_job_dispatch',
+            complete_original_E_budget_unchanged=True,original_rules_period=runner.PERIOD_SECONDS,
+            new_width_formula='R323',all_actual_nine_parameters=policy['initial_nine_parameters'],
+            no_current_C_tail_J_or_BVP_success_assumed=True)),flush=True)
+          sys.argv=[runner.__file__,'--out',str(base/'construction-rule-sync'),'--command',*command]
+          raise SystemExit(runner.main())
+          PYCONSTRUCT
+      - name: Preserve existing construction metadata even if its primary output was interrupted
+        id: construction_readback
+        if: always()
+        env:
+          ACTUAL_CONSTRUCTION_SUMMARY: ${{ steps.construction.outputs.construction_summary }}
+          ACTUAL_CONSTRUCTION_SUMMARY_BYTES: ${{ steps.construction.outputs.construction_summary_bytes }}
+          ACTUAL_CONSTRUCTION_SUMMARY_SHA256: ${{ steps.construction.outputs.construction_summary_sha256 }}
+        run: |
+          python - <<'PYCONSTRUCTIONREAD'
+          import hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);directory=base/'construction'
+          text=os.environ.get('ACTUAL_CONSTRUCTION_SUMMARY','')
+          def canonical(value):
+            return (json.dumps(value,sort_keys=True,separators=(',',':'),ensure_ascii=True,allow_nan=False)+'\n').encode()
+          if text:
+            raw=(text+'\n').encode()
+            assert len(raw)==int(os.environ['ACTUAL_CONSTRUCTION_SUMMARY_BYTES'])
+            assert hashlib.sha256(raw).hexdigest()==os.environ['ACTUAL_CONSTRUCTION_SUMMARY_SHA256']
+            assert json.loads(raw)['schema']=='request147-actual-v3-continuous-nine-construction-v1'
+          else:
+            records=[]
+            for name in ('actual-R323-new-continuous-nine-recipe.json','actual-R323-width-selection.json',
+                         'factory/result.json','construction-result.json'):
+              path=directory/name
+              if not path.is_file():continue
+              data=path.read_bytes()
+              item=dict(file=name,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+              try:item['value']=json.loads(data)
+              except Exception as error:item['actual_parse_error']=repr(error)
+              records.append(item)
+            value=dict(schema='request147-actual-v3-continuous-nine-construction-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              summary_complete=False,primary_output_unavailable=True,actual_existing_metadata=records,
+              original_construction_step_outcome='${{ steps.construction.outcome }}',
+              no_missing_result_or_interrupted_domain_is_claimed_complete=True,
+              readback_performs_no_scientific_arithmetic=True,actual_BVP_or_fullDN_success=False)
+            raw=canonical(value)
+            if len(raw)>90000:
+              source=raw.decode('ascii');chunks=[source[i:i+20000] for i in range(0,len(source),20000)]
+              identity=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),segments=len(chunks))
+              for index,chunk in enumerate(chunks):
+                print(json.dumps(dict(event='request147_interrupted_construction_metadata_segment',
+                  index=index,segments=len(chunks),complete_identity=identity,data=chunk)),flush=True)
+              raw=canonical(dict(schema=value['schema'],run_id=value['run_id'],source_commit=value['source_commit'],
+                summary_complete=False,primary_output_unavailable=True,complete_existing_metadata_log=identity,
+                actual_existing_files=[{k:v for k,v in item.items() if k!='value'} for item in records],
+                actual_BVP_or_fullDN_success=False,no_interrupted_domain_completion_inferred=True))
+          assert len(raw)<=90000
+          print('BEGIN_REQUEST147_CONTINUOUS_NINE_CONSTRUCTION_SUMMARY')
+          print(raw.decode(),end='')
+          print('END_REQUEST147_CONTINUOUS_NINE_CONSTRUCTION_SUMMARY')
+          print(json.dumps(dict(event='request147_construction_readback_identity',bytes=len(raw),
+            sha256=hashlib.sha256(raw).hexdigest(),hash_scope='canonical ASCII UTF8 including final LF')))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+            stream.write('construction_summary='+raw.decode().rstrip('\n')+'\n')
+            stream.write('construction_summary_bytes='+str(len(raw))+'\n')
+            stream.write('construction_summary_sha256='+hashlib.sha256(raw).hexdigest()+'\n')
+          PYCONSTRUCTIONREAD
+      - name: Read actual complete metadata and unresolved suffixes without new scientific arithmetic
+        id: scalar
+        if: always()
+        run: |
+          python - <<'PYSCALAR'
+          import collections,hashlib,json,os
+          from pathlib import Path
+          base=Path(os.environ['VISIBLE_BASE']);out=base/'continuous-E'
+          def digest(path):
+            h=hashlib.sha256();count=0
+            with path.open('rb') as stream:
+              for block in iter(lambda:stream.read(1048576),b''):h.update(block);count+=len(block)
+            return dict(file=str(path.relative_to(base)),bytes=count,sha256=h.hexdigest())
+          summary=dict(schema='request147-original-continuous-E-actual-scalar-summary-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            compute_step_outcome='${{ steps.science.outcome }}',
+            source_result=None,query_results=None,complete_unpaid_scope=None,
+            actual_accepted_field_not_claimed=True,readout_performs_no_new_scientific_arithmetic=True)
+          result=out/'result.json'
+          if result.is_file():
+            desc=digest(result);record=json.loads(result.read_bytes())
+            assert record['schema']=='R286-original-stored-convention-C-continuous-E-cover-v3'
+            comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+            request=json.loads((comp/'public-continuous-nine-v3-construction-request.json').read_bytes())
+            assert record['source_sha256']==request['source_sha256'][request['scientific_entry']]
+            assert record['preserved_original_producer_source']==request['evaluation_strategy']['preserved_original_producer_source']
+            assert record['preserved_unit_panel_producer_source']==request['evaluation_strategy']['preserved_unit_panel_producer_source']
+            summary['original_result_file']=desc;summary['source_result']=record
+            query=record['query_results'];path=out/query['file'];qraw=path.read_bytes()
+            assert len(qraw)==query['bytes'] and hashlib.sha256(qraw).hexdigest()==query['sha256']
+            summary['query_results']=json.loads(qraw)
+            unpaid=record['ledgers']['complete_unpaid_scope'];path=out/unpaid['file']
+            actual=digest(path)
+            assert actual['bytes']==unpaid['bytes'] and actual['sha256']==unpaid['sha256']
+            counts=collections.Counter();source_suffixes=[];query_suffixes=[];first_issue=None;rows=0
+            with path.open('rb') as stream:
+              for raw in stream:
+                item=json.loads(raw);rows+=1;kind=item['kind'];counts[kind]+=1
+                if first_issue is None:first_issue=item
+                if kind=='unvisited-source-piece-suffix':source_suffixes.append(item)
+                if kind=='unvisited-query-suffix':query_suffixes.append(item)
+            assert rows==unpaid['rows']
+            summary['complete_unpaid_scope']=dict(original_ledger=actual,rows=rows,
+              exact_row_count_by_kind=dict(counts),first_original_issue=first_issue,
+              all_unvisited_source_piece_suffixes=source_suffixes,all_unvisited_query_suffixes=query_suffixes,
+              other_closed_panel_rows_are_in_recomputable_ledger_not_silently_claimed_paid=True)
+          else:
+            summary['failure_scope']='No final producer result; inspect original child stderr and rule-sync outcome; no scientific completion is inferred.'
+          rules=base/'rule-sync'/'runner-result.json'
+          if rules.is_file():summary['rules_runner_result']=dict(original_file=digest(rules),value=json.loads(rules.read_bytes()))
+          construction_rules=base/'construction-rule-sync'/'runner-result.json'
+          if construction_rules.is_file():summary['construction_rules_runner_result']=dict(original_file=digest(construction_rules),value=json.loads(construction_rules.read_bytes()))
+          raw=json.dumps(summary,ensure_ascii=False,separators=(',',':'),allow_nan=False).encode()
+          if len(raw)>90000:
+            print(json.dumps(dict(event='request147_actual_scalar_summary_too_large',bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),no_truncation_and_no_success_relabel=True)),flush=True)
+            raise SystemExit(70)
+          print('BEGIN_REQUEST147_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(raw.decode())
+          print('END_REQUEST147_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          checksum=hashlib.sha256(raw).hexdigest()
+          print(json.dumps(dict(event='request147_actual_scalar_identity',bytes=len(raw),sha256=checksum,
+            hash_scope='compact UTF8 JSON excluding separator LF',raw_upload=False)),flush=True)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+            stream.write('scalar_summary='+raw.decode()+'\n')
+            stream.write('scalar_summary_bytes='+str(len(raw))+'\n')
+            stream.write('scalar_summary_sha256='+checksum+'\n')
+          PYSCALAR
+      - name: Remove only request147 temporary inputs and recomputable output after actual readout
+        if: always()
+        run: |
+          python - <<'PYCLEAN'
+          import json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          target=Path(os.environ.get('VISIBLE_BASE',str(root/'visible-continuous-nine-147')))
+          try:
+            assert target.name=='visible-continuous-nine-147'
+            assert not target.is_symlink() and target.resolve().is_relative_to(root) and target.resolve()!=root
+            if target.is_dir():shutil.rmtree(target)
+            print(json.dumps(dict(event='request147_owned_temporary_payload_removed',
+              raw_outputs_or_recovered_inputs_not_uploaded=True)),flush=True)
+          except Exception as error:
+            print(json.dumps(dict(event='request147_owned_cleanup_error',error=repr(error),
+              separate_from_scientific_partial_or_complete_result=True)),flush=True)
+          PYCLEAN
+  report:
+    name: Actual continuous cover, cut and complete new-target construction
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+      SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+      SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+      CUT_TWOJET_SUMMARY: ${{ needs.compute.outputs.cut_twojet_summary }}
+      CUT_TWOJET_SUMMARY_BYTES: ${{ needs.compute.outputs.cut_twojet_summary_bytes }}
+      CUT_TWOJET_SUMMARY_SHA256: ${{ needs.compute.outputs.cut_twojet_summary_sha256 }}
+      CONSTRUCTION_SUMMARY: ${{ needs.compute.outputs.construction_summary }}
+      CONSTRUCTION_SUMMARY_BYTES: ${{ needs.compute.outputs.construction_summary_bytes }}
+      CONSTRUCTION_SUMMARY_SHA256: ${{ needs.compute.outputs.construction_summary_sha256 }}
+    steps:
+      - name: Print bounded original readout with honest unavailable case
+        run: |
+          python - <<'PYREPORT'
+          import hashlib,json,os
+          text=os.environ.get('SCALAR_SUMMARY','')
+          if not text:
+            text=json.dumps(dict(schema='request147-actual-continuous-E-output-unavailable-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              compute_job_result=os.environ.get('COMPUTE_RESULT'),continuous_E_completion_not_claimed=True),separators=(',',':'))
+            raw=text.encode()
+          else:
+            raw=text.encode();assert len(raw)==int(os.environ['SCALAR_SUMMARY_BYTES'])<=90000
+            assert hashlib.sha256(raw).hexdigest()==os.environ['SCALAR_SUMMARY_SHA256'];json.loads(raw)
+          print('BEGIN_REQUEST147_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(text)
+          print('END_REQUEST147_ACTUAL_CONTINUOUS_E_SCALAR_SUMMARY')
+          print(json.dumps(dict(event='request147_report_identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+            hash_scope='compact UTF8 JSON excluding separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),
+            raw_artifact_release_git_upload=False)))
+          PYREPORT
+      - name: Print the independent complete cut two-jet readout or its honest unavailable scope
+        run: |
+          python - <<'PYCUTREPORT'
+          import hashlib,json,os
+          text=os.environ.get('CUT_TWOJET_SUMMARY','')
+          if not text:
+            record=dict(schema='request147-cut-twojet-readout-unavailable-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              compute_job_result=os.environ.get('COMPUTE_RESULT'),
+              complete_cut_twojet_not_claimed=True,original_scalar_block_is_separate=True)
+            raw=(json.dumps(record,ensure_ascii=False,separators=(',',':'))+'\n').encode()
+          else:
+            raw=(text+'\n').encode()
+            assert len(raw)==int(os.environ['CUT_TWOJET_SUMMARY_BYTES'])<=90000
+            assert hashlib.sha256(raw).hexdigest()==os.environ['CUT_TWOJET_SUMMARY_SHA256']
+            record=json.loads(raw)
+            assert record['schema']=='R286-v3-original-binary-cut-complete-twojet-hull-v1'
+          print('BEGIN_REQUEST144_ORIGINAL_C_CUT_TWOJET_SUMMARY')
+          print(raw.decode(),end='')
+          print('END_REQUEST144_ORIGINAL_C_CUT_TWOJET_SUMMARY')
+          print(json.dumps(dict(event='request147_cut_twojet_report_identity',bytes=len(raw),
+            sha256=hashlib.sha256(raw).hexdigest(),hash_scope='canonical UTF8 JSON including its final LF',
+            report_repeats_no_scientific_arithmetic=True,raw_artifact_release_git_upload=False)))
+          PYCUTREPORT
+      - name: Print the actual independent target construction without recomputing
+        run: |
+          python - <<'PYCONSTRUCTIONREPORT'
+          import hashlib,json,os
+          text=os.environ.get('CONSTRUCTION_SUMMARY','')
+          if not text:
+            record=dict(schema='request147-construction-readout-unavailable-v1',
+              run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+              compute_job_result=os.environ.get('COMPUTE_RESULT'),
+              actual_target_construction_not_claimed=True,actual_BVP_or_fullDN_success=False)
+            raw=(json.dumps(record,sort_keys=True,separators=(',',':'),ensure_ascii=True)+'\n').encode()
+          else:
+            raw=(text+'\n').encode()
+            assert len(raw)==int(os.environ['CONSTRUCTION_SUMMARY_BYTES'])<=90000
+            assert hashlib.sha256(raw).hexdigest()==os.environ['CONSTRUCTION_SUMMARY_SHA256']
+            assert json.loads(raw)['schema']=='request147-actual-v3-continuous-nine-construction-v1'
+          print('BEGIN_REQUEST147_CONTINUOUS_NINE_CONSTRUCTION_SUMMARY')
+          print(raw.decode(),end='')
+          print('END_REQUEST147_CONTINUOUS_NINE_CONSTRUCTION_SUMMARY')
+          print(json.dumps(dict(event='request147_construction_report_identity',
+            bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+            hash_scope='canonical ASCII UTF8 including final LF',
+            report_repeats_no_scientific_arithmetic=True,raw_upload=False)))
+          PYCONSTRUCTIONREPORT

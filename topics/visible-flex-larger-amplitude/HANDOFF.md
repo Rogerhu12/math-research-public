@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-15 13:04:40 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7371da22ab83c808684883702bab979cf1bd0b6c。
 
-集成复核：2026-11-15 13:09:31 UTC API读取main 923b266a8632fb8b580b8e20aba600a2341fec92，双README21bd/bff未变；不是git pull。R320真实146完整全文读后立即推，全部finalfalse，149改完整一致高精度链。
+集成复核：2026-11-15 13:12:41 UTC API读取main 009407054771d1cd690443aedb1c6a15fae1c1cc，双README21bd/bff未变；不是git pull。147四件完成即发，原144所有范围/预算保，新R323/全九构造直接本库Actions，无本地科学或AST声称。
 
 只在公开Rogerhu12/math-research-public。科学计算/科学模块导入/数值测试只用本库Actions；root只源码/证明/原输出JSON重建/语法/hash/Git。PAT只CLI瞬时环境，不入文件/提交/回复/连接参数。root唯一发布者；各agent仅小文本blob交接。
 
@@ -34,11 +34,7 @@
 
 ## 当前责任与分工
 
-**root / 新g147。** 已发[连续九v3实现](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)：原三源650a/93cc/b154完整恢复，独立v3 factory0d8937/numeric7cfab1/physicald86f6f；仅显式接f12f+1c39实际cut全点读回，25/13/5其余定义逐文本同。准确E语义叶、全九shape、公共u/L_true²及原full physical/NaN保持；中点仅搜索近似，不冒同根jet/C²/新C J。
-
-[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)已发6cd23150：有限严格cut盒/准确core端点给显式dyadic d/e/e与κ=1/2，统一付原11构造条件和正coast，不把有限盒当任意精化oracle。147拟同job全原v3→全点读回→真实M96 accepted core及146末九p→R323/factory两完整域遍历→数值profile；新C尾/J/BVP仍另付，保原E1800s、每域300s×2。
-
-147未发表草稿三件已完整保小文本blob（未派发）：helper20377B/738dd352cf62fbd47eb80e867ac441b7d0c179074cbee93fb8dd6528ba0d4cb0，blob95e04745e1bc3a9bf30ea714961559582a7ef8be；request17313B/0816fc703678d97f2ae06be43505e2eb25c853326887ffa0574cce3c2f805ff1，blob7d96e495455e7fd61571d5f67712ee35fc319b85；workflow34333B/081b11409b3db334f665915435f4e09c9cc18610d7edaf7dd26b99f4d58a7b94，blobbb1c96eb887db4f32741340af7e188749e26e4a7。待完整接口后即发，不加检查门；所有科学/AST仍未本地执行。
+**root / 新g147。** [147完整入口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)四件全文完成即发：原144全部11pins/三输入/1440六primitive/point+whole/256bit1800s不变，新19pins另恢复原M96 accepted准确core。取R320真末九p全保，按[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)有限strict盒公式κ=1/2/d/e/e→原v3 factory两完整域各300s→原numeric明确近似；不借旧域/场/J。helper738dd352/request4b6f78bb/wff539e752，job95min/新构造20min，两个原2700s rules runner、完整三摘要/所有width与seam分段、primary中断always取现有元数据后ownedcleanup。[v3数学身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)的真实E语义叶/九shape/公共u L_true²保；新C tail/J/BVP仍未付。实际run从本次source追踪。
 
 **geometry / 144与148。** [R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)全112准确根族深尾/截尾误差、mode2零已证；[143 R318](results/R318-actual143-complete112-deep-far-enclosure.md)F159/256bit全112实际包围完成，494612B/d68c5547全行Actions读回、7988B/aebde69b摘要后清。[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)现在付同C j=w·k通量方程、准确二幂尺度、原primitive径向包含、Taylor+Duhamel整闭管、全部cut逆像同归一hull。148源正在实现，144结果用R322。逐h不含0方准DN，不重标e788、无有限头/非线性成功预付。
 

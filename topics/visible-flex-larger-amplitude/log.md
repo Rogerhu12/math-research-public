@@ -508,3 +508,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R320真实146完整两法向与同字回溯
 
 [R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)28950B/124c4254完整全文核后即发：run43716274591两job success，8方向15trial8接受，全finalfalse；8组141段/fullview1329928B/9593cb0a完整重建，42normal/84两P全返，五次20档拒均有p/残差同字后缀。10shadow直接救回0，同点real/complex实部差、54FD/Arb/453圆完整保，149转一致高精度完整链且64投影另记；147只借真末九参数不借旧场/域/J。根8小文本快进/API核双README非pull。
+
+## 2026-11-15 /root — 147真实core与同job C cut的新九族构造入口
+
+[147接口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)12251B/33977964及helper/request/workflow完整完成即推：旧144全部11pins/三输入/六primitive/点+whole/原1800s保，新19pins接M96准确core/146末九p，以R323明确d/e/e给未改v3 factory双域和numeric近似。helper738dd352/request4b6f78bb/wff539e752，原E与新构造各有真pull runner，95min job/20min新phase/每域300s；完整三摘要、width/seam分段、中断现存metadata always读回后清raw，不预付新C J/BVP。根8/API核双规则非pull，直接本库运行。

@@ -119,9 +119,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。
 
 
-[新连续九族v3完整实现](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)现已发布：恢复原三源650a/93cc/b154原字，新factory0d8937/numeric7cfab1/physicald86f6f独立身份。只接f12f原result/input/query和1c39完整点两jet读回；factory其余25定义/numeric13/flow5逐文本保留，准确E语义叶/全部九shape/公共u与L_true²/f76原full physical/NaN政策保持。三个中点仅数值搜索近似，不冒同根真实jet/C²/新C J。暂无实际factory或新BVP；真实144数据须同job消费或同源重生，明确core/recipe并付同C有限头/全112端口，不能凭hash复原raw或把有限盒当任意精化oracle。
-
-[R323有限严格cut盒的显式选窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)给出直接有理公式：真实E0下界>1、速度盒⊂(−1,0)与准确core末A>R/|V|<1时，显式d/e/e严格支付原11个R300构造条件，coast区间下界正。保全部core/九p及公共u，有限粗盒不冒任意精化oracle；147据真实同job输入执行，仍无实际新g/J/BVP。
+[147真实新连续九目标入口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)四件完整发表：原144十一pins与全1440六primitive/原点+whole/256bit1800s原样，新十九pins恢复真实M96 accepted core、真146末九p，R323明确有限盒dyadic d/e/e→未改v3 factory基底/全九两域各300s→明确数值profile。helper738dd352/request4b6f78bb/wff539e752；新构造20min/job95min，第二原规则runner再真pull，三独立摘要+全width/seam无损分段、中断always取现存metadata后清raw。原[v3准确身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)不把中点替E语义叶，公共u保L_true²；原physical源保但缺新C port不实例化，仍无新C J/非线性/闭面成功。完整strict盒前提、core与所有九参数域分别付，不把finitebox当收敛oracle。
 
 
 [R324同C有限头严格推进](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证物理通量j=w·k准确消对角项；原piece x的R_x/w_x已含长度，不重乘length/旧Πport。原primitive闭径向交界、无pivot二幂平衡与列原尺度、常系数Taylor完整余项+Duhamel整闭tube，覆盖全部可能cut逆像后同归一hull，给全112 Robin包含；逐height严格非零才准DN。148据此实现，144实际结果仍待，深根族未选与粗宽/所有pending后缀保留，无新线性或非线性数值成功。
