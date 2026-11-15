@@ -207,3 +207,6 @@ R813在原因子曲线与原E0的指定正规化分量上，用同一个R构造�
 
 
 R820付E−11原V66的完整普通/惰性中央桥：普通整测度与原Katz平方、射线度360和通常CM Selmer；惰性整signed分解、实际θ⁶=−11微分、同椭圆单位混合权及完整Euler/阶乘比较。两处均得r+corankSha≤2ord原半因子，原导数非零即rank2且全Sha[p∞]有限；固定κ−实际赋值保留。有限证书及模p⁴至少h1..8/13carry已明，第四同M独立和跨p非零仍开。 继续原四来源在同M的真实高轴与完整成本，见[R820](results/R820-original-minus-eleven-full-central-and-selmer-bridges.md)。
+
+
+R818以原2δ-primary理想生成元和完整十八阶角色重建三个weight4/level10404的全部系数；Fricke给准确E1导数核，Arb公开严格球与无条件无限尾证明三L′(2)分别在(3.7956,3.7957)、(8.5194,8.5195)、(6.6446,6.6447)，故原三λ及R814固定Rankin均解析秩1。全部导子/嵌入置换保留，不由复非零推出别p的AJ、三值线性和或原Sha中央。 跨p仍须实际高权局部化输入，见[R818](results/R818-original-three-weight-four-complex-analytic-rank-one.md)。
