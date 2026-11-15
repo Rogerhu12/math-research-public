@@ -6,7 +6,7 @@
 
 根/本题README已全文读。公开仓库最后已读规则提交：`5a088ae4e2a2ab866bce4dc188d161fa29bd948d`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 00:35:51 UTC实际pull至`5c483e6c1e62c21293b0bbbc2c75c3cb97154b84`，两规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0035.json。下一私有pull不晚01:35 UTC。
+私有2026-11-15 01:14:42 UTC实际pull至`3fe10fac0761eaea17af836b4e47d0f0b6a0e6eb`，两规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**；仅元数据notes/terminal-private-pull-20261115-0114.json。下一私有pull不晚02:14 UTC。
 
 研究几何、积分/ODE、优化、完整符号计算仅本公开GitHub Actions；本地仅纸面代数、源码/已发输出解析及小人工开发。不伪造Actions。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止冻结、复核、重复归档/重跑机械门；完整证明直接登记。H<10KB/MD<100KB/open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage，不git add .，不写根LOG。
 
@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 model3 SOC粗过细漏4行拒绝，model5真双网接纳，原步norm.00107878/最大.01726，修正最大.000802734。55阶段原步顶trust.01/max.16/L2~1.34，连续新行返回，未进SOC。12LP=10原+2修正，23/40值+2末值，活动55.806s/初始化359.609s/总430.614s，RSS2272136KiB。最终粗/细池4198/1118全部保留。
 
-原SOC库3bc2df4e/drivercd01144d，完整raw3829998B/83d11b3b，gz482408B/ada9c24d，summary47186B/dd3aeb20。详notes/curvature-soc-first-actual-result-20261115.md。下一严格16输入从b03c，成功量级trust **1/1000**；不在阶段切换恢复.01，仍同12LP/40值/120s、g/b0/163和两网原门。mechanism写最小consumer，54/53备选不启用。
+原SOC库3bc2df4e/drivercd01144d，完整raw3829998B/83d11b3b，gz482408B/ada9c24d，summary47186B/dd3aeb20。详notes/curvature-soc-first-actual-result-20261115.md。下一严格16输入从b03c，成功量级trust **1/1000**；不在阶段切换恢复.01，仍同12LP/40值/120s、g/b0/163和两网原门。新consumer36392B/27ba4386已全文读、16输入人工20.67s通过，本提交单lane curvature_inherited_scale派算。54/53备选不启用。
 
 ## 4. 完整第四成本：当前已付结构
 
@@ -63,6 +63,6 @@ R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。R151 actual43657785
 
 R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16由复极化忠实，已有响应核31/已知完整核34无需重验。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B。R160 actual43660884663/sourceb41c6f13已付J6[-4]=K6[-4]：K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256；307项原差零，0.1905s/RSS57.992。下一仅Ξ(J6−K6)一条fresh balanced差，零才认完整成员/c0零，非零NF仍未决。
 
-几何SOC已登记，mechanism接继承成功步尺度的16输入consumer。J6 pure已结束；R161 actual43661460271/sourceae7e5af3：502项balanced差留176项、45fallback，仅未决；0.509s/RSS69.414，10根37430B/94ded571。下一R162单J6隐式43原评价，消费旧42矩阵+R153残差，不补旧单列或重NF。root独占Git。
+几何继承尺度新实际本提交派算；旧SOC库/controller原样保留。J6 pure已结束；R161 actual43661460271/sourceae7e5af3：502项balanced差留176项、45fallback，仅未决；0.509s/RSS69.414，10根37430B/94ded571。下一R162单J6隐式43原评价，消费旧42矩阵+R153残差，不补旧单列或重NF。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
