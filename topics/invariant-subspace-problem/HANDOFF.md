@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** b2d9ce66118948254c9c8fa376092c41b807ec62（2026-11-15 19:04:10 UTC，临时研究session run43740928483实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** c7417ce0fe65f24a45f9e421868517218ba00442（2026-11-15 19:07:27 UTC，Actions run43750625767实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43750625767-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -15,7 +15,7 @@
 - [有限已闭范围](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)：零点完整谱1⁴,3,4³,5,6,7,8,10,11、长66，九s³tj入像/t2恰需3、965328原产品。负六P/full同谱1⁷,2,3/长12且W全入像；F±低谱3,3付F±²W、E8低2,2付E8W。W=(I²)≤5秩4212，len(W/(L∩W))=δA−δP保持全部原来源。
 - [二点完整F11谱](results/R150-appendix-two-full-field11-smith14-characteristic-zero-gap2-and-local-target-multiplier.md)实际全9正方向1⁷,3,4、长14；Q长12…14、T长≤2，故九t h0tj真Q局部入像。Q谱仅1⁷加(2,3)/(2,4)/(2,5)/(3,3)/(3,4)。完整7372×88核给T11≅F11[[t]]/(t²)，[h0tj]相对[h0t2]为(1,1,4,1,1,1,3,0,9)，仅j9的h0目标在F11像；负读数不提升Q。
 - [二点全部normal≤3仍恰14二阶头](results/R150-appendix-two-fourteen-second-heads-under-complete-normal-three-correction.md)：第11步实付5.525103608秒，重建完整15首头，旧605×15逻辑SHA及6750个normal2零项吻合；185640首阶/259896十四二阶/10200高齐次原产品全真。保H3两核、全七incoming，唯一缺头e5的1088×594常rank592、新595列rank593；只否normal≤3。完整β2,Q仍0…1，下一5100×3762全部normal3/4/5高块固定17rank；两Q核给rank≤3760，实际达到3760才可穷尽。不能先推进β2=0第三分支或判h0。
-- [真∞第五恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)：1088×628 rank589、incoming588、18五阶头，668304新原产品/含恢复1485120。共同31单位夹前五秩4,0,1,3,1，Q full54…66、次大48…55、max≤18、δA_I56…68。F31 full谱与零点相同长66/max11；下一原155列真Q投影全谱，不能由第五18头直接报66。
+- [真∞第五恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)：1088×628 rank589、incoming588、18五阶头，668304新原产品/含恢复1485120。共同31单位夹前五秩4,0,1,3,1，Q full54…66、次大48…55、max≤18、δA_I56…68。F31 full谱与零点相同长66/max11；新P实际长61给fullQ61…66，差长≤5；完整谱未付，不由第五18头直接报66。
 - [真Q十三原始核及投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)付λI=2/十二单位，完整Q(u)核Z_(31)[[u]]整/freeI、80444原产品。精确vdetB=δfull+2+σO+δhigh；F31为243=66+2+149+26。Q的O29…149、高商26和同D leading31单位仍未付。
 - [216原来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)：1632 Koszul常子式mod31=15，SE27×216泛秩14/核202；两DVR同秩不保证共同整基。[完整原高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)F31实付194单位、正谱1³,2,4,5²,7、长26/max7，19406948源/7252608外左产品与两freeI真；八自由坐标是完整向量标签，非单项式syzygy。
 - [完整射影gcd381与同R全局来源](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)：F31 affine315加∞66；新Q∞54给Δ=t54 K158^h R_h、degR_h≤169、degΔaff≤327。K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴。同非零R使九Rh0tj全局原像，degRh0≤193。[无条件费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)三支8526/8531/341（旧170稿末342），同九来源保原m≤3/全部4367输出；R系数、来源高度及固定31分母未算。原h0不因额外R而成立。
@@ -23,9 +23,10 @@
 
 ## 活跃实际执行与精确恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。前11步已完成，第12步已入队，约20:14结束前增量，任务时限不终止研究。历史输入、216、full32/O35、两正规202、完整高商、s2四阶及P11、真∞第五、二点单RHS都在本job临时；大数组不持久化。
-- 第11步源码d4ff08a474ef3abe6c7ee08bea7829e6fa3d52eb2e04c71469b18b2ea2c27bb8；小回执notes/r150-source-kernel-session-789f/43740928483-two-one-true-rational-second-connection.json，outer20775/SHA950aecf40605fbd3156c223d7e18d4ee1821940386872f59d88cc24f756ed1a2；binding3de42bed91acf562cce951f7c79f9e4f871cbd31ec82e7430d03bb97198f970f；tmp two-one-true-q-second可复用。不要重592单位或旧22个RHS。
-- 真∞第10步23.752849275秒；tmp infinity-fifth-true-incoming-checkpoint 的actual-fifth-cochains-verified pack为171510B/SHA0a7912065c0b03edfa8b1b0aea086729ddcc2ebfbe8fc890e6e06671c0bb01b2。18头normal2/3块零hash已付，下一消费者逐元素核；低P完整224×155保54真实eq8行/u²及原6188，第12步infinity-small-original-projection-smith已排degree11/180秒/2GiB（外240），源码dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79；只在actual后记录Q/P谱及是否达到66。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，每30分钟及每步/推前实际pull核两README。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json。前12步已完成，第13步已入队，约20:14结束前增量，任务时限不终止研究。历史输入、216、full32/O35、两正规202、完整高商、s2四阶及P11、真∞第五、二点单RHS都在本job临时；大数组不持久化。
+- 第11步小回执notes/r150-source-kernel-session-789f/43740928483-two-one-true-rational-second-connection.json；binding3de42bed91acf562cce951f7c79f9e4f871cbd31ec82e7430d03bb97198f970f，tmp two-one-true-q-second可复用。源码及全SHA见正式稿/接口；不要重592单位或旧22个RHS。
+- 第10步真∞第五tmp infinity-fifth-true-incoming-checkpoint仍存；第12步真实P已用34.995920669秒完成：Q/F31同谱1⁴,3,4³,5,6²,7,8,10，长61/max10，1342796新原产品+668304第五复核，68760高normal/正阶pure元素实际为零。receipt同会话目录43740928483-infinity-small-original-projection-smith.json，binding01ba6e6d1f1d0c0ae9ae22a319615887dce4c313d29c9ce1bde346445ae10766，tmp infinity-small-original-projection-smith/temporary。完整Q只得61…66，P谱不等full31；后继补P外方向，正式全证明在审。
+- 第13步two-complete-normal345-high-field17已排180秒/2GiB（外210），全5100×3762、整行primitive、固定17，重新核两Q核10200原产品；rank17只有达到3760才证明完整高核二维并升级β2,Q=1。否则保未决，不扫描新素数或lift域核。
 - 旧43731615668/43731613530/43736746064/43702348535已结束，tmp不可假用；按原源码/参数/hash重建。literature做二点全高块，normal做∞真Q小P，boundary做同源位置加权与真实逆；根管审稿、H/open/log及逐结论实际push。
 
 ## 原同w边界：已付测试运输，完整返回仍开

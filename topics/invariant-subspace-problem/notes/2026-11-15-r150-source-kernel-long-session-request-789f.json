@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "ced0be872800aacd1f3feb800d732a55928612b6",
+  "rulesReadAtCommit": "c7417ce0fe65f24a45f9e421868517218ba00442",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -773,6 +773,57 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/infinity-small-original-projection-smith/small-original-projection-smith-receipt.json"
+    },
+    {
+      "id": "two-complete-normal345-high-field17",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-complete-normal345-high-field17-789f.py",
+      "scriptSHA256": "5b223050e322576121f3f9d52a7366fde283440fe72852aa36e423fcb5d9b046",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+          "sha256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-two-one-true-rational-second-connection.json",
+          "sha256": "950aecf40605fbd3156c223d7e18d4ee1821940386872f59d88cc24f756ed1a2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-complete-normal345-high-field17-native-789f.cpp",
+          "sha256": "ac89263afb07205d418d8dbb6c967b48e287f2a1ff572b4fb20f1704b78e1ba4"
+        }
+      ],
+      "argv": [
+        "--paid-probe",
+        "{scripts}/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--paid-receipt",
+        "{scripts}/43740928483-two-one-true-rational-second-connection.json",
+        "--paid-checkpoint-dir",
+        "{work}/two-one-true-q-second",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-two-complete-normal345-high-field17-native-789f.cpp",
+        "--checkpoint-dir",
+        "{work}/two-complete-normal345-high-field17",
+        "--out",
+        "{work}/two-complete-normal345-high-field17-receipt.json",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/two-complete-normal345-high-field17-receipt.json"
     }
   ],
   "previousSession": {
@@ -782,5 +833,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Step11 completed: Q second heads restricted to all normal<=3 exactly14, full beta2 still0..1; no normal4/5 completeness claimed. Queue original natural infinity small224x155 projection Q and F31 Smith through11, retaining actual eq8*u^2 and all6188 source verification. No new spectrum prefilled."
+  "mathematicalProgramStatus": "Actual infinity Q and F31 original small projection complete with spectrum1^4,3,4^3,5,6^2,7,8,10 length61; fullQ length61..66, no full equality claimed. Queue fixed17 complete s2 high5100x3762 constant block: all normal3/4/5 columns, true rational two-kernel upper3760 and single field lower only. No rank prefilled; beta2 remains0..1 pending completeness."
 }
