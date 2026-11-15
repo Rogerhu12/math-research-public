@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:28:42 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cbcaa616926e9d4cb7d1376d687c174df086da4b。
+规则同步记录：2026-11-15 23:30:08 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 32e85d3e2923e4b77c25296b0ea5622487737717。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -34,7 +34,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)完整128/replay接受，stage实际ADL编译阻；audit575/576、7485/7488，1800秒内部budget，raw清。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)完整位/偶奇尾/fallback及原19200全链保。
 
-[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)完整129248/576的一次128 α1达9.68582474751023176032080482454992093e−11、独立全词replay同；stage/112/338=false、C-based audit=true仅原返回flags，stage原因/覆盖/极值未读。science成功后必要reader硬写190在build前失败，最终必要帧缺；cleanup真实skip，非主动清raw、也不可SHA恢复。199/R423/R424只限定三namespace和当前编号后fresh全链，原数值/预算/全部门不变。
+[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)完整129248/576的一次128 α1达9.68582474751023176032080482454992093e−11、独立全词replay同；stage/112/338=false、C-based audit=true仅原返回flags，stage原因/覆盖/极值未读。science成功后必要reader硬写190在build前失败，最终必要帧缺；cleanup真实skip，非主动清raw、也不可SHA恢复。[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/f82cd950只限定三调用，逆换全文等于b16，原wrapper/参数/算术同；不承诺其余编译/性能。199/R424还修当前reader编号，实际include新旧身份分明，fresh原全链/预算/全部门不变。
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)仅finite_secant/末端未起且清；[R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)/[195](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)实际root/Cholesky/两回代/226×224/mean/338原二阶FD保，127pins/78源/18000原全门；不冒IEEE/分支稳定，exact唯一R412。
 

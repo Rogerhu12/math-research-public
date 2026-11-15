@@ -24,7 +24,7 @@
 
 [R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)64310B/b46c1341必要齐；128唯一α1达9.6858247475102e−11、独立全词replay同，stage实际ADL编译阻/112与338未起。audit575/576、7485/7488，stage575 query9后原子推进及queries[10,13)未付；1800秒内部budget，极值仅部分，quiet真清。192/196同header仅源码风险，各实际终态不互填。
 
-[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)原128一次α1全129248行/576段达9.68582474751023176032080482454992093e−11，fresh全残差/226输出词replay同。原stage/112/338=false、C-based audit=true而all/native/fullDN=false；stage具体错误、覆盖与audit极值未读。step14成功后reader硬写190在build前失败，最终必要摘要缺失；cleanup真实skip，非主动清raw，runner结束后亦无可恢复raw。199/R423/R424限定三namespace并修当前reader身份，完整fresh重生/原门预算与所有未访责任保；不冒已读组件细节或native接受。
+[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)原128一次α1全129248行/576段达9.68582474751023176032080482454992093e−11，fresh全残差/226输出词replay同。原stage/112/338=false、C-based audit=true而all/native/fullDN=false；stage具体错误、覆盖与audit极值未读。step14成功后reader硬写190在build前失败，最终必要摘要缺失；cleanup真实skip，非主动清raw，runner结束后亦无可恢复raw。[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/f82cd950只限定三调用，完整逆换等于原b16、wrapper/参数/算术不变。199/R424修当前reader身份，原完整链/预算/全部门fresh重生；新旧实际include身份分明，不预称编译/性能/native。
 
 ### 1C. 真37→38与原非线性域
 
