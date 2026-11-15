@@ -314,3 +314,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R243：整个例外 ruling 偶部的准确有限 jet 判据
 
 [R243 完整证明](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)从R56已消1/z的原分子、R73逐点八矩及真实第三history出发，保全部local/chain/右锚尾和五相位谐波。几何系数是σ,H=e^(εσ²)的Laurent多项式乘最多二重迭代积分；shuffle只合并实际积分。有限微分闭包给X′=(N+2εσD)X，N常严格三角/D整数对角，n可由实际单项清单计数而未虚报。对任何线性σ系数n维系统，原行递推的r阶wedge degree≤r(r−1)/2；真实输出空间维r、非零Wronskian共同消失阶与适配valuation基给非零输出ord≤n(n+1)/2−1，不假X各分量独立。We用0/2/4 Taylor的3×3逆唯一扣除，det4ε²ke²，因此剩余有限偶jet全零 iff整个偶部在We中。所有系数仍是完整带尾四次泛函，有限判据不授实际零/奇部/fullperiod/同w联合；共振只简化已付层。root与mechanism独立全文纸核通过，没有新科学计算。
+
+
+## 成功SOC后条件持径：冻结下一同g控制试验
+
+[完整设计](notes/successful-SOC-radius-retention-design-20261115.md)已由root与tail独立静态审过，针对159实际m6被成功SOC修回后旧规则仍减半。严格以实际z−x、原base soft v/J与固定外域rho构造预测，要求正分母及比值≥1/2；实际z−y和z−x经原163物理M/D逐B/T/H加权，校正≤rB/10、总步≤1.1rB。只允许恰一完整primary+一SOC、primary已降η但仅曲率失败、最终双网及原LP residual/准确盒全过、全部新增粗细行含soft为0、原身份/行池一致、全部旧shrink理由只限该曲率。条件满足仅保持原模型B并清streak，否则原控制返回逐项保留；主步单独成功完全不改。没有额外几何/J/LP，原12/40/120预算与58硬曲率等均不改；诊断费用计入活动时间。六原前缀各一次必要恢复且原159坐标有理reference完整传递，不追旧hash，不重置低半径；新开发和实际均未执行。此设计不授已记录m6条件通过，更不授持续下降或完整几何。

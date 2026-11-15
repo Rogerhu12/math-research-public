@@ -22,7 +22,7 @@ m1/m3已有fine .78曲率行预测+1e−7却真负，m6硬门全过而fine度量
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-**下一新控制问题**：基于已读m6，设计成功SOC后仅在原base完整总步预测、真实映射校正块范数、双网全门和完整行池条件均满足时维持半径；保原预算/真实约束，不把Y残差的SOC比值1冒成原base模型质量。SOC目标是原physical L1本身，无primary的1e−3系数；须明示新guard，不事后改旧运行。selected-J成本79.772秒是真瓶颈，但性能改造不替代这个新科学问题。
+[成功SOC条件持径设计](notes/successful-SOC-radius-retention-design-20261115.md)已完整审过：用实际z−x及原base v/J构造总步比值≥1/2，用实际z−y经原M/D构造B/T/H范数，校正≤原B/10、总步≤1.1B。只两完整trial、primary仅曲率拒绝且已降η、SOC原门全过、粗细无任何新行（含soft）、旧shrink没有其他理由时才持原B/streak0；否则完全沿旧返回。保12LP/40值/120秒、所有实际门与准确九盒；原SOC目标无1e−3。**下一实现新helper/driver，新增人工先公开Actions，再一次恢复原六前缀进入新实际；未运行不得报guard通过。** selected-J等价优化另留后继，不同时改变本控制实验。
 
 ### 仍须支付
 
