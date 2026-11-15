@@ -73,7 +73,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R787双probe首格实际结束**：[完整实际诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2。run43748801736/894.401秒/42项全拒；小IO43750891953核manifest2a18a2f4/137项、queue2cf3e41f与全部42行。D全unit/8570或8571bits，m0由E0Z0构造强制通过、m1全首次非零。falseFINAL的orders0非逐项失败位置。当前pair1/pos0、余5对，预算尽而schedule未尽；先分析已保存42全基扩56及准确A约束，再激活对应真实消费者，不重算首格、不声称430不足。
 
-**R815独立三维共同分母首prefix已结束**：[契约](notes/R815-original-projective-rational-multiplier-reconstruction-method.md)ba9ac593，run43751142120/job132925208417/source5abcb9cc。core126469e2/75693B、wrapper3a0fa603/74410B、workflow6e474fae/request226af585；同次AST已过，19:16:15 exit2/error null；完整Mg/Γ未成。artifact14176572237/2719932638B/7884ab57；本次4a1336a7纯IO仅读小metadata、全部LLL/候选/早期残差/scan，核后续接，不重首prefix。直接复用原425 current/53输入/旧tag全部Krylov，首4probe对/7权/300min，未知列center、首列准确D·v_g；完整weighted界/首列/7点全commutator与cyclic才认证Mg，再原Γ完整才成功。det=d_g M²，无恢复高度保证，不伪装旧resume；旧同核run继续。
+**R815三维首prefix真实结束**：[完整诊断与第二列恒等式](notes/R815-projective-first-prefix-ended-and-known-columns.md)91a0456a。run43751142120/source5abcb9cc/core126469e2/wrapper3a0fa603，核心14.461秒/4pairs/28格/84行→58不同候选，全原early式准确拒绝。dg2738bits；重复6483bit D仅过z0[0,0]、z1失败，其余57首z0失败。IO43752277161核manifest1d55aec5/218项、scan87466ebc/next21/fails8，有限策略未尽。原We0=e1严格给Mg e1=Wvg，下一新消费者准确构造两列及最小共同分母、复用旧RR前缀，从21继续；原1652同余/weighted界/7点全式/cyclic与Γ不减。不把已拒D当真全局分母，也不据失败判425不足。
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 

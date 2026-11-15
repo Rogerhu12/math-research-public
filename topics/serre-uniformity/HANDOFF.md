@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：03b8326f34b980a3651d2d38e8a316dd7b2b6138**（2026-11-15T19:23:50.891087+00:00；rules run43745726410/job132928338206真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[此次归档](handoff-archive-2026-11-15-before-R815-projective-method.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
+**已读规则提交：5e5b8dffe0674e99cc94fa18cedf1272d320bbd3**（2026-11-15T19:30:55.812621+00:00；rules run43745726410/job132930360813真实git pull --rebase origin main，两README无diff）。root README SHA6979d793、topic35f82f3d。旧rules run43714581068达50次限额；只重跑新专用rules job，不重跑数学workflow的rules依赖。终端14:34UTC失联，根§8小文本接口回退。完整前H逐字保[此次归档](handoff-archive-2026-11-15-before-R815-projective-method.md)，内接全部前态；open完整前版在[双probe前归档](notes/2026-11-15-open-before-projective-two-probe.md)。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -24,7 +24,7 @@
 
 **R815真实断点**：[425记录](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保原run43719622321/source2a3300a9的BudgetStop。g425prime/last1000008791/模数12707bits，Γ未开始、无完整operator；小IO43747973677实际核manifest892108B/3464项/4e78095e、current561995095B/402379e2与425receipt f136bee8匹配。artifact14174374945/2716759066B/597aaf00，carrier109958828B/051571e1保53原源。新请求ac0870b2仅增resume；冻结849bca27/原Mg六模七准确、Γ五模七嵌套、prime007/每8次RR/16行块均不改，不另Mh。
 
-**R815独立三维共同分母首prefix已结束**：[契约](notes/R815-original-projective-rational-multiplier-reconstruction-method.md)ba9ac593。消费425 current，原g首列最小分母d_g，3格(D,n_i,n_j)只生成候选；首列用准确D·v_g、未知列center，weighted界/完整首列/原7点全部commutator加cyclic才认证Mg。425首两个新strict RR失败非首列坐标为首probe，不重做424。det=d_g M²，无M^(2/3)恢复保证。真新core/tag继承Γ、读原Krylov旧tag，不伪装旧resume。core126469e2/wrapper3a0fa603/workflow6e474fae/request226af585，300min/首4probe对/7固定权，全源码已读。run43751142120/job132925208417/source5abcb9cc，19:16:15 exit2/error null；尚无Mg/Γ完整证书。artifact14176572237/2719932638B/7884ab57保全部状态，4a1336a7小IO本次激活读实际probe/权/早期残差/scan，跳大carrier；先据真记录续，不重首prefix。旧同核run继续。
+**R815三维首prefix真实已停**：[方法](notes/R815-original-projective-rational-multiplier-reconstruction-method.md)ba9ac593；[实际诊断](notes/R815-projective-first-prefix-ended-and-known-columns.md)91a0456a。run43751142120/job132925208417/source5abcb9cc/core126469e2/wrapper3a0fa603：14.461s/4pairs/28格/84行→57D+dg=58候选全early拒。dg2738bits；各格同一6483bit D过z0而z1失败，其余57首z0失败，不称真分母。IO43752277161核218项/manifest1d55aec5/scan87466ebc，next21/fail8/pair4，未穷尽；3037原源carrier4c9a6d1e仍原tag。artifact14176572237/2719932638B/7884ab57。新准确约束Mg e1=Wvg（原We0=e1）；exact准备两已知列新core/tag，1652同余/7点全式不减，旧RR前缀复用。原80516同核run继续。
 
 **R824/R827边界**：R824首28权五/300权六profile、lower56+244已成，准确272未成；1186归R787，原129/142/280Q、1521打包及κ/246一次保留，r28不补143..155。全生成后才1778纤维minor/1206。R827需真σ∞rank272+τ全多项式Hermite/Bézout；B·d_i只是子理想，单点/函数域rank不够。ell753/branch0/free1186/6724一次不改，尚无D/K1。
 

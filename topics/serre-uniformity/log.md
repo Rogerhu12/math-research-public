@@ -445,3 +445,8 @@
 - R815新projective run43751142120已结束：compute exit2/error null，未成完整Mg/Γ；真实artifact14176572237/2719932638B/7884ab57。
 - 激活24,325B reader4a1336a7与仅本课题IO workflow，Range读实际小manifest/候选/LLL/早期残差/scan，跳2.7GB carrier；不重首prefix数学。
 - push前rules job132928338206真实pull至03b8326f34b980a3651d2d38e8a316dd7b2b6138，两README无diff；四原续算继续，root准备复用42全基的56维新消费者。
+
+### 2026-11-16 03:34 Asia/Taipei — serre-public-astra-20261115
+- 登记R815真实14.461秒/58候选结果：dg2738bits，重复6483bit D仅过z0；全候选准确拒，scan next21未穷尽。小IO43752277161核完整小输出及原来源，不重算任何格。
+- 证明并采用原Mg e1=Wvg的新准确第二列约束；独立两列消费者将复用原425源、旧RR前缀和原完整七点认证，原同核run继续。
+- 小IO rules132928641056实际pullbeeb21c6无diff；本次push前专用rules132930360813 pull至5e5b8dffe0674e99cc94fa18cedf1272d320bbd3，两README无diff。
