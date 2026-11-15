@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：2840a9688edf31aa0cf9fb3d61cb97ac959ed9b7；2026-11-15 15:04:30 UTC核两README无变。实际CI pull 2026-11-15 14:55:35 UTC/eddb3e9f38e8673102efd00358925b76cb8f04f6（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:04:28 UTC仍无环境。最迟2026-11-15 15:40 UTC再实际pull。
+- 最近已读规则提交：7db30b2134c95d3215c6dc945d50966be7421088；2026-11-15 15:05:55 UTC核两README无变。实际CI pull 2026-11-15 14:55:35 UTC/eddb3e9f38e8673102efd00358925b76cb8f04f6（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:05:55 UTC仍无环境。最迟2026-11-15 15:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 本地exec仍无环境。实际public CI pull 2026-11-15 14:55:35 UTC/headeddb3e9f/run43726992362/job132850978021，两README差异空且blob同；回执ci/rule-pull-20261115T145535.json。下一最迟15:40 UTC。
@@ -36,7 +36,7 @@ R750完整值左核由实际V_E′和保高尾的低r右逆给，值可解iff全
 [小Bockstein](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)准确剩Ω_B=Res[(v_F−c_F)B0ω]，v_F=π_L(F(t,g)/p)=eξ，c_F=e b_s t^(k−r)u²/(2a)，L=h−k−13−ρ；输入在首Gaussian前，≤13极仍读正则尾，v_F不可任选，改F提升须同步R。
 R755全部cube过kerJ门恰H0∈t^(r−k)，合法cube全值Bockstein零；未过门只末(2(r−k)−13)+行。修PB须实际≤13jet命中、修后𝔅系数−1/6且值类不随选择变；C4/ξ/全carry保。整块增补给e_E<min(κ,h−(13−2(r−k))_+)时全cube限制Smith恰p，其他WD列仍可能吸收。
 R765全F零角r_F；k<r_F迫非F高接触restriction和ν_k=−c_k≠0。R766 ν降真实V_E′的d_k、杀H0N³，原n0/2/3列给单位v_k（全高尾保），故V≠0。值/选定normal同解iff O_T(v_k)∈O_T(ker d_k)；若实际O_T*ω=d_k，显示Λω杀全M且读cube forcing单位c_k。小矩阵未判。
-R768在b0>4k+2下给真实有限纤维留数代表ω0及全边界极div(e³ω0)+ΔC−3De。**原帽新核得3b0+degQ0≤4r+2，故r≥3k+2、r≤13时k≤3；r1/b0≥3增补窗口为空，已显式更正，不能算实际进展。** [次数门](notes/2026-11-15-r768-original-fiber-degree-feasibility.md)保证明。继续r2/k0/b03/degQ0≤1候选，先按原qt^r框重做低r右逆、实际核和同S两输出；全部十九角/∞、高尾、normal/carry仍保。
+R768原有限纤维门必须联立3b0+degQ0≤4r+2，故r≥3k+2/k≤3；r1/b0≥3增补为空已更正。现[实际r2重做](notes/2026-11-15-r768-actual-r2-cubic-fiber-and-full-two-output-source.md)保r2/ell1/k0、b0=m3、degQ0≤1及p≡11mod12，未认已有强接触F。用原qt²框/ordP≥2给最高t层真二维商；Q2=(Y−1)²−9t²Y²/d、L2低二阶右逆付全高尾，完整M首次p²固定−3B平方层/各支满极。余R=−3B Q2+tS须同S的完整两输出(21)，S(P)=0。对偶O_T*ω=d2+λd1，唯一λ−1常数核2，原ωord=2c0qt dt/FY在P零1/全边界极至少2κ+χ+1；继续十九角/∞真实延拓及余normal/carry，不能拿该局部代表当D_T截面。
 
 ## 惰性新三格与其余主门
 
@@ -45,7 +45,7 @@ R760新(S,T,(S′)^6)三格代数独立、复增长1/3、全普通饱和≤1；�
 R763原Q仿射六次式、Norm3全返回、ε/ε²及去Gaussian后单位首p分母保。R769每原列同charge合流Σg_r(t)(−6t∂t)^rΘ^n，P4^j零点全清极；实际行Σg_ri[−6(k−i)]^rθ_n,k−i，分母7^(a+b+6c)(2n)^(6c)，p>204D单位。原w/t饱和核同、首行差(−1)^k；不拆各n/r/i成独立源。
 R770实际去Gaussian误差C=(p+1)pcχ²ws=p(p+1)pcχ²ε；普通首项单位。全A_j°递推增2njC A°_(j−1)，原每列Q平移/指数及完整首Bockstein混合ε²保；未赋单基单位为全原列余类。继续真实同前缀惰性界和原中央传播。
 
-R775全惰性A^p−A=2(Q^p−Hp)EΘ+Rp∂Q；Hp=1−Σj<s(−1)^j binom(3s−1,j)t^j/(1−t)^(3s−1)，Rp=cp t^s/(1−t)^(3s)，cp=2(−1)^s binom(3s−1,s−1)unit。原Gaussian γ≡−2b^s binom；p>204D原有限格算子核仅常数，清分母像t/Q帽增3s/p，非免费列变换；每原非恒定列首分母w^(K+s)单位2γ(n+17ν)6^(6ν)。尚无全有序前缀界或原中央传播。
+R775全惰性A^p−A=2(Q^p−Hp)EΘ+Rp∂Q的完整binomial势/单位常数已付，精确匹配原γ。p>204D原有限格算子核仅常数，但清分母像t/Q帽增3s/p；每单项式首w^(K+s)分母unit，不代全前缀估值或中央传播。
 
 其余完整Hecke/trace/R736原47→7→1核、预算/2048类及run/hash见全文归档；C_pv无限p非零、原中央→边界和原整annulus o(p²)仍未付。
 O4原最早a≤1/δ²全球位置、O6全Np有限/λ≤3无限p及supersingular二次regulator仍开；AST线性/strict局部向量不代全Selmer。Wang2026 rank2稿已在[note](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)自含排其起始root/level条件及λ推断；Kim2609仍需最早节点指定全球子群，近期Fitting/fine-Selmer/深节点非零未补此门。
