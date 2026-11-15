@@ -80,3 +80,5 @@
 - **2751原单位块全部行内容为一。** [完整检查](results/R150-appendix-seven-core2751-all-row-contents-one.md)：run43679903558实际2.560350913秒核全部424921系数，列归一后2751行gcd全1、七真实右端分母全1；系数3691bit不再降。无新核，继续可恢复原生精确求解，开发环境按实际检查。
 
 - **固定四头与十一位正尾的真实两费反例。** [完整解析证明](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)取c=a、ε=a15、β=a10，真实左μ=1而裸α²≤256a²、全来源flat²≤40000a6；正滤波后仍在准确规范负图且μ归一、两费趋零。排除任意nilpotent头的维数型κ(h)，没有反驳原A_m/连续尾或同实际W源。
+
+- **新增真常核的一阶最小接口。** [自足条件定理](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)以完整27维余空间判定Θ，d真新核、rankΘ=b给s=29+d−b；同自然u只提至u²便足得D/换列/cofactor≥s+14/s+13/s+12，K67条件费用8734−s。无新大RHS，无预报七核或Θ，当前s仍29；常数31饱和与参数方向leading单位仍分清。

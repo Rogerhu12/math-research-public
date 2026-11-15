@@ -18,6 +18,8 @@
 - [同选∞43及有限K67](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：29条同自然u真曲线给D/换列/cofactor阶≥43/42/41；原s=0切向O(s²)及真Q4340给公共s21，K67=s7K60、lc=5^6单位。q248…8660；先有原目标Q[s]成员性才得条件cost≤8705（非基8704），该成员性、lc(D)31单位及固定e全精度仍未付。
 - [full∞第一连接≤7及共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：真实切向M=c y²+d sym(yy′)使17式O(u²)，β的20纯切向坐标全零；真4340常秩余7维，十四正Smith至少七个≥2。未付β精确rank/全厚度，公共21与指定D43不能相加。勿混full6188、同4354选列及所选方阵的秩/连接。
 
+- [新核的一阶最小接口](results/R150-appendix-new-selected-constant-kernels-and-complete27-first-lift-interface.md)：实得d真补核后，Θ=ΠA1W在完整27余空间的秩b给s=29+d−b；只需u²全来源提升便得D/换列/cofactor≥s+14/s+13/s+12，K67条件cost≤8734−s。当前s仍29，不预填七核/Θ；常数31饱和不付D首系数单位。
+
 ## 同w边界：同源完整返回仍须费用估计
 
 M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然逆域保留；普通λ²=〈Hr,r〉、左μ²=〈Lr,r〉、裸α²=〈Br,r〉不能互换。完整此前公式及所有未列缺口保[本次H全文](notes/2026-11-15-handoff-before-full-infinity-connection-789f.md)。
