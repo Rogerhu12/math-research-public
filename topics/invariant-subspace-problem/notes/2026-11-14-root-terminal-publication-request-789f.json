@@ -1,29 +1,24 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "298689430220c55888b4185739b4d020769cea3a",
-  "createdUtc": "2026-11-15 01:43:08 UTC",
-  "message": "ISP: identify the common target eigenline and execute all208 complete third sources",
+  "parentCommit": "c222cd0d19460da39a0de7c22f4995b441fba396",
+  "createdUtc": "2026-11-15 01:48:33 UTC",
+  "message": "ISP: register the full recent proofs in results and retain the running third-source checkpoint",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-contract-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-frozen-manifest-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-prepare-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-actions-publish-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-page-ci-request-789f.json",
-    ".github/workflows/invariant-subspace-r150-saturated-third-page.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-target-line-readout-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-target-line-readout-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-target-line-readout-789f.py",
+    "topics/invariant-subspace-problem/results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-saturated-second-target-eigenline.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-true-minimal-projection-weighted-window.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-second-head-one-hole-schur-and-two-column-recovery.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-complete-saturated-third-source-coverage.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-saturated-third-page.yml"
-  ]
+  "dispatchWorkflows": []
 }
