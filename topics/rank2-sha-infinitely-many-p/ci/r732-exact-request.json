@@ -1,12 +1,10 @@
 {
-  "request_id": "rank2-r781-first-large-p-prefix-20261115",
+  "request_id": "rank2-r785-original-three-plane-even-cores-20261115",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r781-original-large-p-prefix-gate.py",
-      "args": [
-        "--pairs=8:953"
-      ],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r785-original-three-plane-even-cores.py",
+      "args": [],
       "include_stdout": true
     }
   ]
