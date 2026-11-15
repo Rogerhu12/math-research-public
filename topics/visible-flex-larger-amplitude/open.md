@@ -28,7 +28,7 @@
 
 [R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)已从原950e实际source证明同一记录局部系数、s、L与回溯下，right=de+A_m m+A_L(t+de)，最终flux=F_m m+F_L dL；S/cosine/gram独立literal、B首列1与cosine首列分开，名义因子作用为(LLᵀ)^−1而非自动C^−1。原完整C解残差/两mean/226RK/224列/全部阶段保。预装配改结合/舍入，条件准确实算子相同不代原词、R283导数、分支稳定或严格误差；20-bit/k≤2048整数digit界及误差分层只条件实现，未执行/未保证提速。190/R403据此独立接完整新链，不改186、不加fixture/门。
 
-[190完整入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)九件全读：headerb16fac/stage174296/launcher9d8a/helperdf67/bridgee10f/readera21a/requesta7df/wfb92e，原64pins逐值保留+6=70。每真实field/update从原完整root/PointOperator预装配A_m/A_L及最终F_m/F_L，保N全角、S/cosine/gram独立字面、显式均值1、实际s/L、每update全部113行C解残差/原名义缺陷/226RHS/RK/224列/两mean/端口，非空geometry原fallback。矩阵形成/作用重关联，不声称同词或准确导数误差，integer digit未实现。真父重生与四组件/全部原预算完全保；单90KB必要、完整地址/错误/未访与child reap/quiet后清，不传大阵/编码拆包、不加fixture/门。actual R403待唯一终态。
+[190完整入口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)九件全读：headerb16fac/stage174296/launcher9d8a/helperdf67/bridgee10f/readera21a/requesta7df/wfb92e，原64pins逐值保留+6=70。每真实field/update从原完整root/PointOperator预装配A_m/A_L及最终F_m/F_L，保N全角、S/cosine/gram独立字面、显式均值1、实际s/L、每update全部113行C解残差/原名义缺陷/226RHS/RK/224列/两mean/端口，非空geometry原fallback。矩阵形成/作用重关联，不声称同词或准确导数误差，integer digit未实现。真父重生与四组件/全部原预算完全保；单90KB必要、完整地址/错误/未访与child reap/quiet后清，不传大阵/编码拆包、不加fixture/门。实际run43762998688/sourceef56f16ff3ca573fec8982754fe9d5256748317e，compute132961756447已入原science；amplitude唯一读R403终态，不取运行中日志。
 
 ### 1C. 真37→38与原非线性域
 

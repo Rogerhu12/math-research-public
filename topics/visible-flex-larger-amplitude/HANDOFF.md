@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:20:34 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 de493035ec67b22d47ba2a68ab95cb1cceee3cff。
+规则同步记录：2026-11-15 21:22:55 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 20bfe86ff09902de0b098e164861b6be2e9d3e78。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -25,7 +25,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
 |189/R401|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a|geometry：compute132959791013；真185/16×8全3normal、119+13pins/49闭包/2400总时钟|
-|190/R403|九件本次发布，待官方run|amplitude唯一读；原64+6pins/记录算子预装配，原全部预算与四组件|
+|190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|独立源码准备，尚未派发|exact：真98另起完整39，保38加真正RIGHT459/端点459、460，不冒171末场|
 |R400连续十族接口|源码准备，未派发科学|geometry：current continuous10→真450 writer/reader/shared guard，真同场tail未付|
 |R405/192/R406|纸证/源方案准备，未派发|amplitude：完整dyadic/digit矩阵核；不截尾、不预称性能、不改190|
