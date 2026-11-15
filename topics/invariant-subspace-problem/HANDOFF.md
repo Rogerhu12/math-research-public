@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 23718f86ff7b10c1ac8f6cd0227afe1a13a59450（2026-11-15 11:59:12 UTC，Actions run43711524250实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43711524250-1.json。
+- **最近成功实际 pull 与已读规则提交：** e38604f6b658cd3a5cbaa784e62484994806f21d（2026-11-15 12:01:28 UTC，Actions run43711720608实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43711720608-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地11:34:48实际pull到2f72b274f8647dbf6ce236ff2185cbe22153f8e1；根新diff仅追加别课题数据清理，已读，课题未变。执行环境已恢复。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -45,6 +45,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w、原u_Q、future、
 - [原T精确运输](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)：u=N+s+1024、x=48u，G0输出孔<4u；carry在X3中≤B_s e^(-40u⁴)，用固定G3一次修正得TGtrue=Π，Π(T*)†=Gtrue*(I−PkerT)。固定s成本exp[O_s(log^(4/3)(N+2))]，仅乘积窗口。
 - [真实N⊥形式读数](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：(s,N+1)真右逆经远位实际Ni平均，range落任意RanB^r、norm≤2B#；完整有限旗给(Gtilde−J)Π⊂N。原f∈N⊥（含W）的形式h有Πh=Gtilde*f；未假h∈H，不扩大MP域。
 - 实际返回为正向(C+D_x)Rr=−P_hi T J_b r；PEhat含全部零源Schur且不保孔数。n≈Q≫x窗口尚未运输，不能用伴随界直接乘正向残量，不能让增长B乘无速率tail后封口。Riordan右/裸/全旗及同窗误差已付；强gauge末端、原固定f Green O(R³)、普通两费仍开。
+
+- [同一Neumann原列](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)：用真G7→3修正得G_reg输出X3、T G_reg=Π；carry的X7费≤B_s e^(-40u⁴)。原f∈N⊥形式h有Πh=G_reg*f，且||Πh−G0*f||≤B_s e^(-39u⁴)||f||。保原G0/同m,x，未删返回投影。
 
 ## 其余未闭
 

@@ -142,3 +142,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 ### 原N⊥规范形式原像的同窗口运输已付
 
 [完整高位平均证明](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)用(s,N+1)上的真右逆和原Ni E_j*=P_j0，在同x窗口构造range落入任意指定RanB^r、范数≤2B#的准确右逆。有限三角Jv与该解之差通过完整有限旗进入N；故真实f∈N⊥的规范形式h（包括原W来源）满足Πh=Gtilde*f及固定早孔准多项式费。只在有限测试上先配对再Riesz，没有假定h全局L²。仍须控制原返回PEhat/完整零源Schur或同W相邻孔通量；不以增长成本乘无速率尾来封口。
+
+
+### 同一原有限Neumann列的规范forcing已付
+
+[正则一次修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)用既有G7→3而非只输出H的右逆，保持原G0并付全部carry的X7范数≤B_s e^(−40u⁴)。G_reg输出X3，故与有限J的差在M∩X3⊂N；原f∈N⊥（含W）的形式读数准确为Πh=G_reg*f，且与原G0*f之差≤B_s e^(−39u⁴)||f||。这给同一Neumann列可用的forcing身份；原PEhat、零源Schur及共同通量仍须真实处理，不能删去投影或任意乘无速率尾。
