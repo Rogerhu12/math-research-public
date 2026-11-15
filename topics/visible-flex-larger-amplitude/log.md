@@ -22,3 +22,8 @@
 ## 2026-11-15 15:04:47 UTC /root — request153当前C原生全112与完整读回
 
 [153完整接口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)十二件全文/完整差异核后发布：同C真物理r/全逆像/新rFar完整112列，24pins/六proof/三输入，原576/577/root/RK/mean/全链QR及η0全112/混合338/audit保；仅一条新+0H，原32/10/2e−9不减。全部中断trial/112原far行/错误字节和超限元数据无损分段；未预填实际结果，159继续新profile/BVP非零H。155已run43726543241，156进入原finite-head；open原29874B同目录逐字检查点，压缩后保全部责任。API核20ce2ce18834cc3d28e673e5d61f36a2a1892519双README未变，非真pull，恢复补真pull。
+
+
+## 2026-11-15 15:06:13 UTC /root — R336完整九维残差模型证明
+
+[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)全文读完即发：准确完整K/Hessian、三/四次项、12×9 ridge-QR下降/半径、有限候选选择与真实/形成误差边界；不能把有限内解或FD当全局最优/区间证书。157保原真实接受与normal回退继续，未预填结果。153真实run43727856178/132853608396；150/152双job终态由exact/root分别唯一读取，绿色不冒数学完成。API核d876b1b5b24955cd27856a4323bd9a45bffda25b双README未变，真实pull行保留。

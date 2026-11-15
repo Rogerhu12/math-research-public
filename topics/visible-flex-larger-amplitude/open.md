@@ -42,8 +42,9 @@
 
 [R335实际154](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)已付全部8方向/70直线trial，8接受/62真merit拒，域异常0、normal回退0。新增54二阶FD及原两套共108一阶FD均有效；十literal数组身份同149。W仍仅微降，全部unit/full112/native/nonzero/success为false；较大负曲率提案真实W可到1.417e8，深回溯才接受。完整70原行、末九p50、未访问档、原112/Arb/453圆及全部身份在正文，raw已清。
 
-amplitude直接推进157：同持久Decimal50 primal及全3×9×9二阶，完整九维有界模型
-$\Phi(y)=\frac12\sum_i[F_i+(JD)_iy+\frac12y^T(DH_iD)y]^2$，内模型保全部三残差、移位/Cauchy/正负曲率候选与真实模型回溯。最终仍fresh原forward slope、原20档全三方程/c_A/域，失败才另标原149 normal回退，原最终FD/Arb/453/full112不减。有限内解不冒全局最优；三/四次项的代数意义不冒实际唯一失败原因。真实父取R335九p50，显式新Δ=.01，不伪继承旧raw或半径。R336证明与157实际另付。
+[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)已证完整九维模型 $\Phi(y)=\frac12\sum_i[F_i+(JD)_iy+\frac12y^T(DH_iD)y]^2$ 的完整梯度/Hessian、三/四次项、12×9 ridge-QR的准确下降/半径，以及有限已算候选取最小和真实余项/形成误差条件。有限内解不冒相对球全局最优，QR数值残差不冒区间逆证书；新增模型不是原normal路径曲率，三/四次项不冒154实际唯一失配原因。
+
+amplitude继续157实际接线：同持久Decimal50 primal及全3×9×9二阶，32内更新各21候选槽（全12×9残差QR、完整H移位/Cauchy/18正负谱槽），全三残差模型回溯保；外层仍fresh原forward slope、原20档/c_A/域，失败才另标原149 normal回退，原最终FD/Arb/453/full112不减。真实父取R335末九p50，显式新Δ=.01。有限完整模型候选及真实试探的全部原值/未访范围必须读回；当前未派发157或预填结果。
 
 ## 3. 原连续C、新九族与当前C自己的native
 
@@ -75,7 +76,7 @@ $\Phi(y)=\frac12\sum_i[F_i+(JD)_iy+\frac12y^T(DH_iD)y]^2$，内模型保全部�
 
 [R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已证零shape两mean、原cut字词与非除Robin、非末−I前沿满秩而末整体非共振另付、η>0方向和η=0全112敏感度及完整338。数值QR非严格非共振；cut可除不推出逐节点可除。
 
-[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)十二件源/配方本次发布：24pins/六proof/三原输入，同C完整source重新采样真物理r、全部可能逆像叶，并在严格高于原node8半径上界的明确rFar重新传播全112两坐标。完整576-stage/577态、原root/RK/mean、一般Robin全链QR、η0全112/混合338及独立有限audit保；不重标不确定半径中点或旧graphs/gains/J。首个实际配方只一条当前C自己的112个+0H，J/audit均请求；原32轮/10trial/2e−9不改，native列表资源3600秒。全部中断trial、112原far行、原错误字节和超限元数据完整分段读后清。零子题完成后继续159的新profile/实际BVP非零H/fullDN，不预填153结果。
+[153入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)十二件源/配方已推35690c77，run43727856178 / compute132853608396：24pins/六proof/三原输入，同C完整source重新采样真物理r、全部可能逆像叶，并在严格高于原node8半径上界的明确rFar重新传播全112两坐标。完整576-stage/577态、原root/RK/mean、一般Robin全链QR、η0全112/混合338及独立有限audit保；不重标不确定半径中点或旧graphs/gains/J。首个实际配方只一条当前C自己的112个+0H，J/audit均请求；原32轮/10trial/2e−9不改，native列表资源3600秒。全部中断trial、112原far行、原错误字节和超限元数据完整分段读后清。零子题完成后继续159的新profile/实际BVP非零H/fullDN，不预填153结果。
 
 数值盒中点、逐点代表值和原engine exp舍入均不自动构成同一个准确C成员；无限非线性DN、准确非共振及连续g/场误差仍另付。完整科学源码/恢复身份与当前是否派发见HANDOFF；本段不预填运行结果。
 

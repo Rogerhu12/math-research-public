@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent独立/tmp交源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:04:47 UTC 已读 20ce2ce18834cc3d28e673e5d61f36a2a1892519，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 15:06:13 UTC 已读 d876b1b5b24955cd27856a4323bd9a45bffda25b，双README blob仍同上；这不是git pull。恢复立即真实pull --rebase，之后每push前且≥每小时核规则，仅看差异。NFF/CAS立即读新头重放至成功，不force；集成期间不得伪记真pull。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、无额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推。未确认临时文件不当已保存。
 
@@ -21,12 +21,12 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |请求/负责人|run / compute job|固定source、已见范围|
 |---|---|---|
 |145 exact|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；来源过，step10科学运行|
-|150 exact|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；来源过，step14运行|
-|152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；来源过，step14运行|
+|150 exact|43721616091 / 132834627616|d1d4c01a283d20a1d20131ece43cdcfb05ce757d；双job终态success，exact全读中不推数学结论|
+|152 root|43722101766 / 132836110295|0bee3ef1e3587c2a530d98f5657f12e16179b489；双job终态success，root全读中不推数学结论|
 |156 geometry|43724040548 / 132841952200|1ca4196b99b61428bc4ab216bbc713ba2e77023e；step9–11结束，step12全112有限头运行|
 |151 root|43724306509 / 132842781513|618a9369d2bd45210767e294726cec10be1cd2df；来源过，step10 C运行|
 |155 exact|43726543241 /132849600659|0aa9dca2d8029721cd1e820948699206a7da4388；来源过，step7科学运行|
-|153 geometry|本次发布，待真实run|24pins/同C真物理r/完整112零响应+J+audit；无结果预填|
+|153 geometry|43727856178 /132853608396|35690c7731f50e5124d2e722230eacbf8aee7a68；环境步骤运行，无科学结果|
 
 raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源码/参数/时限/输出约定。
 
@@ -62,11 +62,9 @@ raw清后按真来源重算，不凭SHA恢复。以下各接口保存全部源�
 
 ## amplitude：154实际已付，157残差二次模型
 
-149持久精度与R332完整Hessian/c_A/路径曲率的原范围，由下列R335及其链接保留。
-
 [154 R335](results/R335-actual154-full-nine-curvature-and-seventy-straight-trials.md)run43724606619/source2a4ce61f、compute132843730556/report132845644222双success；8方向70直线trial/8接受/62merit拒，normal回退和域异常均0。54二阶及108一阶FD有效，十literal同149、92组887段完整；全finalfalse，较大步W可至1.417e8、深回溯仍微降。完整70行/末九p50/原值/未访范围正文保，raw已清。
 
-157由amplitude直接继续完整九维残差二次模型的平方，保全部三残差及原forward slope/域/c_A/final；仅代数可见三次/非负四次项，实际唯一机制未证。可用R335末九p字符串，显式新半径，有限内解不冒全局最优。R336证明编号预留，本次未派发157或预填结果。
+[R336](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)已证全九维三残差二次模型平方、完整K/Hessian及三/四次项、12×9 ridge-QR准确下降/半径、有限候选最小及实际余项/形成误差。157由amplitude保154末九p50与新Δ=.01，21槽/32内更新/原真实20档及normal回退；不冒模型全局最优或实际唯一失配原因。157源码接线继续，无实际结果。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)证a>0、P=a²|d×e|²−ν²|d|⁶>0等价、完整仿射八次/Bernstein与真Hermite RHS缺陷/全乘积误差。当前系数/二阶界未付，不充155门；exact继续158原98→37真model/FD后的全查询诊断，未派发。R327–R333缺失索引已由2961014补齐。
 

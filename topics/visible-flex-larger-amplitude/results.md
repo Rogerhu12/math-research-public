@@ -194,3 +194,5 @@
 - [Request155：真实98新37查询、完整支持和逐原trial读回](notes/2026-11-15-request155-thirty-seven-complete-support-and-trial-readback-interface.md)（源码/参数入口）：保原35加MID489/490全角，24cells/29端点/B9805/75776行及全236036外部响应；91源pin、原8真model/FD/17档/域/merit门。全部trial完整读回后才搬pair/清理，异常读batch与parent-after原status；未预填实际155结果或新接受。
 
 - [Request153：当前C真实零响应与完整112敏感度入口](notes/2026-11-15-request153-current-C-full112-native-and-complete-sensitivity-interface.md)（源码/参数入口）：24源pin、六proof/三原输入，真物理r闭逆像和同rFar全112列、新576/577完整原native、一般Robin全链、η0完整112敏感度/混合338/独立有限audit。明确一条112个+0H，原32/10/2e−9不改；全部中断trial、112远端原行、错误及超限记录完整分段。数值代表不冒共同准确C或无限非线性DN；无新实际结果，159继续真实新profile/BVP非零H。
+
+- [R336：完整九维残差二次模型平方及有限全局化边界](results/R336-complete-nine-residual-quadratic-square-and-finite-globalization.md)（已证明，条件代数与有限算法）：全三残差二次式平方保三/四次项，完整K/Hessian、12×9 ridge-QR准确下降与半径、全部九维候选池取有限最小。真实二阶余项、有限系数/导数/解误差与normal曲率另付；不证明球上全局最优、有限20档必接受或actual154唯一失配原因。157保原真实门另检。
