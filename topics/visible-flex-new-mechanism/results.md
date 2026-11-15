@@ -329,3 +329,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R402｜完整静态低层的首条明确非零自然通量
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)（18061B；SHA256 ae0b4c18bc26ccee95ad771eded8d34359edcdca421650ad21031cfca7eee127）。从原F0=v0−B_m0N0−Γm0保全部外槽，静态线k=ω0的h⁻⁴系数为原U元素，Λ=3∫(u′−xu″)⁴u‴/32。N0 h⁻⁴准确0、h⁻²=τ，Γ该行0；原协变−b/YC/ZZ、pure归一及ordered2+2三表相加消尽primitive与μ0H。结果C²五次且Euler主系数−4(u′−xu″)³非零。仅线性静态系数，不冒实际负闭路径或全自然字符延拓；零权C2/C4/C6仍欠。根全文及关键分部积分/三表组合核过，literature独核§8，无执行。
+
+
+## R404｜正规加速度平方零式将自然权零像缩到至多二维
+
+[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)（7423B；SHA256 9fd64fe9c6a847b6d35ed5b33aa39fafe1c93bd91b85c44603d9ea789601eef1）。原C20属于R350全Λ0的正规Abar_hh层；R196真U0/R0三基与全部λx,y赋值严格给C20=C4+c0C6+R，所以n4=−c0n6。增强权零商恰span(n2,n6)，维≤2；原λ+联合核代表存在iff n2∈span(n6)。c0唯一只指原商系数，未指定值；n6可零，两函数未求，不授实际截面。下一只新增C2/C6完整自然读出或H*/J6 raw总通量，旧成员/秩不重做。纸证。

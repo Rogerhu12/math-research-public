@@ -167,9 +167,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权函数和三Q2仍未求清，继续原收缩，不重闭Q4或旧E。
 
 
-### R400原正字符与全自然joint：三个静态函数是当前具体门
+### R404完整权零自然像至多二维，下一只求C2/C6
 
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)完整权零joint响应商=span{n2,n4,n6}，ni=Λall(Ci)。原H*/J4/J6来自F0加R，不能用正常H全零覆盖。全函数核仿射稳定；存在ker(E,Λall)内λ+=1 iff n2∈span(n4,n6)，反之原严格正action下降并阻wholeE/全Λ同零。两分支未定，下一保原N0/Γ/真尾求三个固定F0收缩，仍不删Q2；R398已排F0/Q2全层同时自然零。C6按R196为hkω，原R333键标题已校正，无新根/秩执行。
+[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)由原正规C20全Λ0与R196真商/两字符，得C20=C4+c0C6+R、n4=−c0n6。R400原正字符的联合核条件准确缩为n2∈span(n6)，增强零权商至多2维；c0及两个完整函数均未求，不冒秩2或actual路径。下一只做H*/J6的完整自然收缩，保原N0/Γ/mixed/ordered尾，复用原成员与共用响应列，不重旧根/秩。R402的−4静态行不替代真权0两函数。
 
 
 ### 同m7接口的实际结局已付，转冷评估与缓存机制

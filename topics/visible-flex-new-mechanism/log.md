@@ -464,3 +464,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:21:29 UTC｜R402原N0/Γ/尾完整保留后的静态非零式
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)，18061B/hashae0b4c18bc26ccee95ad771eded8d34359edcdca421650ad21031cfca7eee127。根全文审读，手工核(6)(14)(23)、self/pure/tail系数(30)→(31)、三表(35)→(43)与最终(44)→(45)及Euler主项；§8由另一分支独核。没有重做原根/积分程序/旧秩。保完整原U与实际路径的区别，继续两个/三个零权原函数及其它低层。H纸证节压缩为当前有效结论，旧完整证明均保原results；基底ca6fd818c3ee407e05be204560f03d4e03979f38。
+
+
+## 2026-11-15 23:22:21 UTC｜R404两条完整静态函数成为最小未付核条件
+
+[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)，7423B/hash9fd64fe9c6a847b6d35ed5b33aa39fafe1c93bd91b85c44603d9ea789601eef1。根全文核两字符对原真三基的a0/b1推理及C20正规层范围；n4关系不声称c0数值或函数秩，lambda核/下降保持全函数仿射条件，非两固定点。继续C2/C6原收缩。基底98a2d4fbb2dd883d71b8202c32e40c0aa97a5145。

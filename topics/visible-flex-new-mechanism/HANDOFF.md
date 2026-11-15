@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)给第一条具体完整F0读出：V*=[h⁻⁴]F0(h,0,0)，Λu(V*)=3∫(u′−xu″)⁴u‴/32≠0。完整N0外槽、Γ幂、−b、YC/ZZ、正式pure及有序2+2全部保留，最终primitive/μ0H抵消；是原U线性系数，不是一条已实现的负闭路径，不授Q4头全延拓。
 
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)增强权零商=span{n2,n4,n6}，ni=Λall(Ci)原F0完整函数。H*=C2+R不是正常H。全函数核真仿射稳定后，ker(E,Λall)内λ+=1存在iff n2∈span(n4,n6)；反之λ+下降且真实L+∫(h′/h)²>0阻wholejoint零。两分支仍未判，C6按原R196是hkω，R333标头已改正。继续固定F0原函数/三Q2，旧E或正常H零不能替代。
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)/[R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)：C20正规Abar_hh全Λ0；R196原两字符/真三维商给C20=C4+c0C6+R，故n4=−c0n6，增强权零商=span{n2,n6}、维≤2。c0未求，不冒函数独立。全函数核仿射稳定后，ker(E,Λall)内λ+=1 iff n2∈span(n6)；反之原严格正action下降。C2/C6完整函数仍待求，H*=C2+R不是正常H、C6为hkω；旧E/正常H零不代替新Λ。
 
 R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
 
