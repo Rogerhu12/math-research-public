@@ -82,11 +82,11 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
 
-### R383有限Gaussian表保持；R387完整一层阻断当前弱圆
+### R383有限表保持；R387/R388阻断同芽全部连续首阶轨道
 
 [R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)在原等背景模板一编码位置保全部真实8/12/镜像共享母，冻结半母三矩、九个实际self和及J/K；原ordered缺陷/有限Laurent并置/同母常秩IFT与完整权/Γ/Euler两列证明给真实Ω±模块。有限正伸缩H与四次幅H³精确补早期弱基线Ω，Ψ成本H−4留负储备。再原R379同17行/204真正列/一个有限N根，十个对称Gaussian乘积的全部三外矩、所有θ同点为零；18area/T/Ψ/三directed及完整第三均保。Ψ由固定弱核、强W0及Fnew保∫u″⁴逐fiber准确固定。
 
-这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。R387现已从完整原式证明另有严格正的一层j⁴余量：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)。其系数为正倍∫(f″²−φ″²)²，当前π/2严格正；合法gauge/传入history与其它真实Gaussian词不能抵消。原三矩/弱hook/WP面积/三directed/Ψ同时保持时，任意非退化圆也不能使完整一层零。下一须核真正不同的端芽/第三算子/首阶轨道；不得继续在这个已排类内增加有限行、频率或正幅块。其它端芽也不得继承本芽的wholeE/Morse/period。
+这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。R387现已从完整原式证明另有严格正的一层j⁴余量：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)。其系数为正倍∫(f″²−φ″²)²，当前π/2严格正；合法gauge/传入history与其它真实Gaussian词不能抵消。原三矩/弱hook/WP面积/三directed/Ψ同时保持时，任意非退化圆也不能使完整一层零。R388保原两row不除P给严格正D4身份，并从原二/三/四恢复逐项证所有前提必要；任意同种子、连通C²连续真实首阶轨道均恒f，改非圆也不能绕过。下一改端芽/第三算子或其它机制，接有理芽R327实际同规范joint；不得同类增行/增频。大κ只条件于实际已安装芽，不扩旧安装范围；首阶恒定高阶才动族未排。其它端芽不得继承本芽wholeE/Morse/period。
 
 ### 历史H非零与秩结论已撤回，以R378–385为准
 
@@ -147,6 +147,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 - **R384已付/继续边界**：纯δ4完整系数族的自然像恰二维及其有限正锥已证，全部H自然像0。固定u的标量两号可由中心穿越获得，但必须另付快脉冲矩阵、真倒行、固定端口桥、Klein及全部基准；不直接升级实际二维或固定g。
 
-- **R383有限表保持，R387已阻断当前Gaussian圆**：十对称乘积三矩全角与18area/T/Ψ/三directed同时零仍真；完整一层另有严格正j⁴系数，原合法gauge不能改。继续不同端芽/第三算子/轨道，不在同假设下重补这项。
+- **R383有限表保持，R387/R388阻断同芽全部连续首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)的P R4−B*R0为严格正倍D4，不除P且保全合法gauge；同种子连通C²首阶轨道恒f。下一不同端芽/第三结构，不把非圆当已逃逸；首阶恒定高阶才动及主题一般C²机制不在此结论内。
 
 - **R385已付/继续joint**：完整Q4脉冲已真实支付一个固定Λ的任意实值及紧集有限型C1截面，完整M/T/scalar/frame/位移闭合、ω下界与全部基准保真。不同profile的joint、原whole pure/self/其他读出保持和同一g未付；接完整非纯δ四次槽，不复活H旧非零或从R384二维span跳到实际二维。

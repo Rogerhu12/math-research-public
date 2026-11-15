@@ -38,7 +38,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **同一偶弱圆有限Gaussian表已付，但完整一层被R387阻断**：R357–383保真实self/Green/有序尾、18面积/J/K/第三与全部基线。R383在更早一编码位置变全部8/12/镜像共享母，保半母三矩、9个实际self和/J/K；ordered缺陷、有限Laurent并置/常秩IFT及权/Γ/Euler两列给真实Ω±。正幅H³/有限伸缩以Ψ成本H−4补弱基线Ω；同17行204正列有限N根付十对称Gaussian乘积的三外矩全角零。Ψ在固定弱核/强W0/Fnew纤维准确固定。这些有限结果保持。
 
-**R387新的完整必要余量**：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)：原完整elementary Q、R221局部恢复及R325 mixed身份给 [σh^(−2)j^4]R_(−3)=11κ⁴(41t²+27)K(t)D4/[10368he³P(t)(51t²+2t+8)]，t=κ²∈(0,.01)，K全正、D4=∫(f″²−φ″²)²。局部同次准确0；合法二/三阶gauge与传入history只改We，R249真Gaussian词分离，不能吸收。当前π/2的D4=4∫f″²g″²>0；保同假设的任何非退化圆也不可能让全一层零。不得继续同芽增加补偿行当可解入口；改芽/第三算子/首阶轨道才可能避开本稿范围，后两项尚未证有效。非一般C²刚性，不撤销上述有限表。
+**R387/R388完整一层正身份阻断同芽首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两原系数R0=[σh^(−2)j⁰]R_(−3)、R4=[σh^(−2)j⁴]R_(−3)，准确 P R4−B* R0=11κ⁴(41t²+27)K(t)D4/[10368he³(51t²+2t+8)]，t=κ²，K全正，D4=∫(f″²−u″²)²。无P分母，对所有κ≠0条件成立于实际已存在的共振芽，不授大κ安装。原二阶三列独立迫三矩；M0使任意二阶w不改third周期，故单弱hook必要；完整对称+area迫三directed/WP。原R184/R224任意w/χ及传入history偶部仅改We，不能吸收真Gaussian词。两行0迫u″²=f″²；任意连通C²连续首阶轨道从f出发，逐点±连续性及共同collar迫u=f。R387原圆的正余量是其特例，R354–383有限表不撤销。**改成非圆首阶轨道也不能绕过本芽/第三结构**；继续不同芽/第三算子/其它机制。未排首阶恒定而高阶才动族，非主题一般C²刚性。
 
 **period欠账**：R184/185/221/225原iff保G″平台/活动flux/端germ/双collar；45span/48×135不是解。R312–327新有理芽付19局部门/指定端口，但period随gauge变，同一w的13行兼容、降秩整除、其它段ruling/两period欠。R345 wholeE核K0保11完整链，只付局部点有限(E,F≤11)全部基准，非全Af/Ω/尾/period；不无证移植新弱圆。
 

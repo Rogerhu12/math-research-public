@@ -312,3 +312,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 ## 2026-11-15 21:47:55 UTC｜由实际曲率缺陷提出独立下一提案算法
 
 [notes/observed-curvature-defect-primary-guard-design-20261115.md](notes/observed-curvature-defect-primary-guard-design-20261115.md)，17612B/SHA256 eaeb3ccf76dcf8f1e945ee4f82fe7940855bc85530f7fb7bfbb48bd0bbb26df1。消费covered run43762868037的m2/6已付首primary原group8差及exact159 x/y，真实物理步平方归一，仅两个经验桶；下一primary余量含B²，当前模型不变、SOC RHS独立且rebound原样。旧135py冻结，新5py与新四组人工待公开Actions；原12/40/120/10无增加，旧20/19/26/cache只读receipt。根已全文静态审并精确区分旧历史行池内部绑定与当前不变定义。无研究执行/通过声明。基底1d9b70965775f9bd0fea97a338ce0d67289750ae。
+
+
+## 2026-11-15 21:51:50 UTC｜R388扩大同芽障碍到任意连续首阶轨道
+
+[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)，16738B/hashf0a0d93826cb30fee6fa3dd1e5a1a5cb411548a14e9df23241b1708bf4cb5a7b。原R184/R224/R306/R311/R325逐参数接口与两完整one-history row保真，不除P。严格正多项式消元迫u″²=f″²，连通C²首阶轨道点态符号恒定。根全文/weak IBP/R0原系数手核，peer确认两row与全部gauge范围；仅文字修正，不执行符号/求积/人工。H/open已停止把同芽非圆视作新入口，转有理芽同规范joint及独立Q4线；大κ安装/高阶才动/主题一般C²不被宣排。基底6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2。
