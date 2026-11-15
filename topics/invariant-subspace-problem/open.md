@@ -120,6 +120,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [完整∞第二连接与公共31](results/R150-appendix-infinity-second-connection-pure-cancellation-and-common-order31.md)已实核38×10包络全零及全部1700左校正，纯20泛函可提至u³；真实β2≤3，δ4354≥31、δ4353≥28。下界不等于首项单位。有限s0对应新小任务正执行，保r1≤4未知恰值，未预填K77；原29精确形式核曲线与完整Smith的组合已单独严格支付60/59/56。
 
+
+[完整selected余空间49/36](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)从原秩精确相等推出H≥3全在同选像，不由非纯个数猜独立；full余为20pure+29低横，square余为10pure+26。原整数小投影在F31同秩556，D31自由余模亦真。下一用旧完整kernel36与原primitive参数L9/G4计算自然B1，再投完整36余；共动A0(Dh)项不可删，后继Schur仍须原来源校正。
+
 ### 强联块同w、同源普通封口
 
 [强尾并头](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)保C=A_m+D_<、h=d+R、同u_Q、真左最小、两费、负图及全部高返回。仍须μ²≤κXi²且κh/Q有界，κ=O(h)足；不能将裸费和ordinary完整右费互换。
