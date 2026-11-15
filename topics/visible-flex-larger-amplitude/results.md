@@ -425,3 +425,7 @@
 ## R361 — 实际171完整37→38十六对与新RIGHT459域障碍
 
 [results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)（18655 B / c2a0fc3f50a850628580b91497cba3174c96ff21ba57083bc512966e93142f52）记录run43739787509/source298c7dbe的16模型/16fresh FD、80原trial/16接受。真实98→37八对→同job原末pair→38八对，13364.315132717s只按两阶段批数止；38首全步、末1/8192。最后六批最近拒唯一RIGHT-RMS459，末拒α1/4096的38选点/77824 reserve全通过、merit下降而原RIGHT β²负；已选LEFT462的大步非线性失败仍保。末最大physical残差MID461与域障碍不同；全QP最优/native/fullDN/非零成功未付。完整97来源/四输入/原全trial/FD/清理、官方11515407B/49c540d8原日志与历史语义传输身份分责，末pair已清不能凭SHA续。191明确从actual98独立39query后继，不伪称本末场续接。
+
+## 2026-11-15 — Request189：真实185末点的完整十维全三normal连续入口
+
+[完整接口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)与六件全部source/diff/97项request原值变化已核；原117+12pins保留→119+13，48→49实际闭包。真185十Decimal词在同owner最多16×8方向，只有原八方向budget词续块；每块新完整J、原固定S/半径/2400墙钟和初末120FD/Arb/453全部保持，不把unit或全20拒重启成预算块。原3bec数学不改，无新增科学门。单≤90KB必要给128方向/16块地址、全部实际α/normal计数和所有接受bound，精确相等的原merit才能别名，未传中间大向量与首末原词分责；超限/错误/静止和清理保原合同。actual R401尚未预填，finite模型不替代连续C族或native/闭面。

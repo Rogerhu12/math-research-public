@@ -59,6 +59,8 @@
 
 [185完整入口](notes/2026-11-15-request185-complete-three-normal-ten-predictor-interface.md)producer5eb4d38d/reader6d4c9ca8/wrapper987ed4e4/recipe4a09825b/request86b53f98/wfb7a4c56a；原114/11→117/12，当前48闭包，真183末十词与原固定S/全3 Armijo保。一个8×20块，每α最多3×20临时校正，整个child2400s含120FD/Arb/453。全部实际normal/投影/未返/owner分责，资源异常不吞作域拒，单90KB必要/完整错误/quiet才清。[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)原两日志/76157B必要已读：8/8原门接受、12α（前4取1/后4取.5）、39primal/27完整normal/19临时更新/15投影，无异常/partial。W4.923932325275→4.346867247171；后四α1用满3normal仍拒，最大predictor W108383392.693838不污染owner。producer73.532297684s、wrapper74.807222099s；120FD全部valid，Arb1589叶0未决但导数兼容/C²false，453/RMS两分数/4096角齐。真末十词/F保正文，全部unit/full112/native/nonzero/successfalse；必要/quiet后清。189/R401从真末点续16×8、固定S/半径/原2400整体时钟与全部末门，不保证预算内付完，不以finite结果冒连续C。
 
+[189完整入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)已全核六件/119源+13support/49当前闭包：真185末十词、同persistent owner，最多16×8原3bec全3normal块；只原八方向预算词允许续块，fresh当前3×10 J，固定S/半径/2400主时钟不重置。unit或全20拒/原异常不重启，120FD/Arb/453原global消费者只初末各付；完整非零终门不改。单90KB全128地址/实际α/normal计数/所有接受bound，首末选择详词、中间完整向量仅原身份；只有原词精确相等时共享必要merit，缺字段不填0。超限明确partial不拆传，真实必要/错误/quiet后清；actual R401待唯一终态读取。
+
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 
 ### 3A. 六primitive、完整cut及深112

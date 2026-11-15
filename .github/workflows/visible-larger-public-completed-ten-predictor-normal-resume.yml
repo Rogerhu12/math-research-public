@@ -1,0 +1,372 @@
+name: visible-larger request189 persistent full3 predictor-normal from actual185
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-completed-ten-predictor-normal-resume-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-completed-ten-predictor-normal-resume
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Actual185 ten words, sixteen original8 budgets with complete3 normal correction
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      compact_summary: ${{ steps.chain.outputs.compact_summary }}
+      compact_summary_bytes: ${{ steps.chain.outputs.compact_summary_bytes }}
+      compact_summary_sha256: ${{ steps.chain.outputs.compact_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md
+    - name: Establish independent temporary metadata paths
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-completed-ten-predictor-normal-resume"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-completed-ten-predictor-normal-resume" >> "$GITHUB_ENV"
+        echo "VISIBLE_INPUTS=$RUNNER_TEMP/visible-completed-ten-predictor-normal-resume/original-inputs" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install original projection runtime; Decimal is standard library
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind actual185 ten words,119 sources,13 supports and four original inputs
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        input_root=Path(os.environ['VISIBLE_INPUTS']);input_root.mkdir(parents=True,exist_ok=False)
+        raw=(comp/'public-completed-ten-predictor-normal-resume-request.json').read_bytes();request=json.loads(raw)
+        assert len(raw)==62318 and hashlib.sha256(raw).hexdigest()=='252dfa6c4cf60a17377ab24ec9c1be67a91851b2baf94638a3b826b64e913a19'
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==189
+        assert request['schema']=='public-completed-ten-predictor-normal-resume-request-v1'
+        assert request['revision']=='independent-actual185-full3-normal-sixteen-eight-direction-blocks-v1'
+        assert request['lanes']==['smallcoreresonance']
+        assert request['execution_entry']=='geometry_20261115_completed_ten_predictor_normal_resume_temporary.py'
+        assert request['scientific_entry']=='geometry_20261115_completed_ten_predictor_normal_resume.py'
+        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_fixed_power_ten_scaled_newton.py":"6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861","geometry_20261115_completed_ten_joint_newton_resume.py":"57569d4734ec10f64db71416ab2e61a37db2b724addad64413938c16d803f1d6","geometry_20261115_fixed_power_ten_predictor_normal.py":"3bec3b7b07c0cb45bef27067c9b00f69e8930b296e1fa7006f716d3a7e6e4066","geometry_20261115_completed_ten_predictor_normal_recipe.py":"5eb4d38dbee0291dbfd0246baf94c904c735e546c82edb176b86f20744bfa89f","geometry_20261115_completed_ten_predictor_normal_temporary.py":"987ed4e42dd514936e00eb9099f7a63c0eaf2f405becd8d149908a3ae7f163e2","root_20261115_completed_ten_predictor_normal_readout.py":"6d4c9ca88218a967ef461246618821ef987c5b9a8b6a7c90de6a437072687663","geometry_20261115_completed_ten_predictor_normal_resume.py":"295c375b016a16bbdd7bffe68db7ffcdd3f715c33eee7a20147e9b5c379d0f8a","geometry_20261115_completed_ten_predictor_normal_resume_temporary.py":"527926ca8b51d1196d4762dc46602574962725c0cfc87a58cdeb285c3293d831","root_20261115_completed_ten_predictor_normal_resume_readout.py":"cfebee555d55d6937541b360c189d0f6e0e89219f045e0f53d3d929a88287b1f"}''')
+        for name,digest in wanted_new.items():
+         assert request['source_sha256'].get(name,request['workflow_support_source_sha256'].get(name))==digest
+        assert request['experiment_contract']==json.loads(r'''{"max_experiments":1,"complete_joint_directions":128,"original_eight_direction_blocks":16,"complete_original_real_backtracks":20,"maximum_full3_normal_updates_per_alpha":3,"normal_real_backtracks_per_update":20,"fixed_shape_catalogue_index":3,"fixed_shape_support_index":1,"fixed_shape_power":4,"all_ten_coefficients_variable":true,"independent_parameter_dimension":10,"initial_added_coefficient_is_actual_completed_parent_word":true,"original_nine_relative_scale":"0.01","added_coordinate_absolute_scale":"0.01","scaled_trust_radius":"1","physical_scales_fixed_from_actual157_parent_words":true,"parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false,"one_global2400_second_producer_clock":true,"original_alpha_Armijo_bound_frozen_for_all_normal_work":true,"unaccepted_normal_working_points_never_adopted_by_owner":true,"no_restart_at_same_point_after_all20_original_alpha_rejected":true,"complete_normal_work_is_additional_science_not_readonly":true,"only_explicit_eight_direction_budget_stop_allows_next_block":true,"no_owner_scale_radius_or_wall_reset_between_blocks":true,"global_initial_final_FD_consumers_not_per_block":true}''')
+        assert request['continuation_contract']==json.loads(r'''{"maximum_eight_direction_blocks":16,"maximum_complete_ten_directions":128,"original_direction_budget_per_block":8,"original_real_backtracks_per_direction":20,"maximum_normal_updates_per_original_alpha":3,"normal_real_backtracks_per_update":20,"producer_total_wall_seconds":2400,"whole_child_wall_seconds":2400,"wall_deadline_restarted_between_blocks":false,"same_persistent_Decimal50_owner":true,"fixed_original_actual157_coordinate_scales_preserved":true,"initial_and_final_complete_120_FD_checks_preserved":true,"original_complete_final_consumers_preserved":true,"no_new_scientific_acceptance_gate":true,"unaccepted_normal_points_are_temporary_only":true,"no_retry_after_all_twenty_original_alpha_trials_rejected":true,"fresh_complete_ten_response_at_each_normal_update":true,"global_2400_clock_includes_imports_setup_search_and_final_consumers":true,"sixteen_original_eight_direction_blocks_on_one_persistent_owner":true,"global_initial_final_FD_not_repeated_per_block":true,"all_source_normal_helper_function_bodies_retained":true,"first_response_after_each_completed_block_is_fresh_complete_ten":true,"only_explicit_eight_direction_budget_stop_allows_next_block":true,"frozen_helper_original_actual183_policy_label_is_first_introduction_history":true,"current_recipe_actual_parent_is_185_or_own_completed_schema":true}''')
+        assert request['scientific_policy']==json.loads(r'''{"complete_parameter_dimension":10,"complete_residual_dimension":3,"selected_support_index":1,"selected_power":4,"selected_catalogue_index":3,"frozen_original_proposal_source_sha256":"6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861","fixed_scales_from_actual157_words_not_current_or_future_parent_recomputed":true,"scaled_outer_proposal_radius":"1","normal_proposal_scaled_radius":"1","full_ten_direction_budget":8,"original_real_backtrack_budget":20,"maximum_normal_updates_per_original_alpha":3,"normal_real_backtrack_budget_per_update":20,"normal_target":"original base F plus original alpha times original Jd","normal_equations":"all three components; fresh complete three by ten J","normal_proposal":"frozen R378 full minimum-norm QR with its explicit full Cauchy fallback","total_displacement_projection":"radial projection in the same fixed S ball","original_base_merit_slope_alpha_Armijo_bound_frozen_during_each_alpha":true,"outer_acceptance":"every actual finite domain-valid point uses only original full3 Armijo","temporary_update":"strict decrease of full three affine-target deviation only after outer rejection","no_normal_tolerance_or_rank_threshold_added":true,"unaccepted_working_points_never_adopted_by_owner":true,"full3_primal_domain_guards_unchanged":true,"original_final_FD_scalar_circle_full112_consumers_remain_caller_responsibility":true,"numerical_proposals_are_not_interval_or_discrete_rounding_derivative_certificates":true,"future_initial_parent_must_be_actual183_complete_final_words_not_prefilled":true}''')
+        assert request['fixed_shape']==json.loads(r'''{"catalogue_index":3,"support_index":1,"power":4,"family":"geometry_20261115_adjoint_selected_ten_control_family.py","family_sha256":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","selection_origin":{"request_number":164,"engineering_revision":"r3","run_id":"43743904448","source_commit":"257b227a49034faaf1979bfe093122e7d06e1785","status_bytes":565694,"status_sha256":"0f9c86d1f8e1ad94bcf83dc32ea4774534cf3f0854c696b9806905cc6397cb53","summary_bytes":89762,"summary_sha256":"33ca4bc6d9dc545d75ccb625d16d588d7298f259c0b1896df3a1351b65f0716b","scientific_result":"R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md"},"same_original_family_function_not_same_direction_or_algorithm":true,"selection_not_recomputed_at_current_or_perturbed_points":true,"actual157_nine_words_remain_the_initial_numerical_parent":false,"actual157_words_only_fixed_scale_basis_for_this_nonzero_ten_resume":true}''')
+        d=request['diagnostic']
+        assert d['complete_parameter_dimension']==10 and d['all_ten_coordinates_permitted_in_actual_direction'] is True
+        assert d['candidate_steps']==128 and d['original_eight_direction_blocks']==16 and d['backtracks']==20 and d['normal_path_used'] is True
+        assert d['full_three_normal_updates_per_alpha']==3 and d['normal_real_trials_per_update']==20
+        assert d['initial_final_Decimal_FD_checks']==d['initial_final_binary64_projection_FD_checks']==60
+        for path,blob in request['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply actual rules'
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1
+        for group,count in [('source_sha256',119),('workflow_support_source_sha256',13)]:
+         assert len(request[group])==count
+         for name,digest in request[group].items():
+          assert PurePosixPath(name).name==name
+          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
+          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
+        origin=request['source_closure']['origin_producer'];current=request['source_closure']['current_producer']
+        added=request['source_closure']['new_current_consumed_names']
+        assert len(origin)==48 and len(current)==49 and added==['geometry_20261115_completed_ten_predictor_normal_resume.py']
+        assert current=={**origin,**{name:request['source_sha256'][name] for name in added}}
+        assert all(request['source_sha256'][name]==digest for name,digest in current.items())
+        item=request['parameter_recipe'];rel=PurePosixPath(item['file'])
+        assert not rel.is_absolute() and '..' not in rel.parts
+        recipe_raw=(repo/item['file']).read_bytes()
+        assert len(recipe_raw)==14570==item['bytes']
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='e3c28f12454c654a828ad35c2c118eba2f63db98904e2341f502b7cf62f7902e'
+        recipe=json.loads(recipe_raw)
+        assert recipe['schema']=='R259-actual185-ten-predictor-normal-continuation-recipe-v1'
+        assert recipe['origin']==item['origin']==request['actual185_source_provenance']
+        assert recipe['origin']['run_id']=='43759673057'
+        assert recipe['origin']['source_commit']=='fe5f7cc2bc612d009d25e859a877bf3f9e766ecd'
+        assert recipe['origin']['status_sha256']=='8d337203c06d4b7bb113d89394374064b4de6dbdc05c8f6dcd52d419a2ed2236'
+        assert recipe['initial_ten_parameter_words']==d['initial_ten_parameter_words']
+        assert len(recipe['initial_ten_parameter_words'])==10 and all(type(x)is str for x in recipe['initial_ten_parameter_words'])
+        assert recipe['initial_ten_parameter_words'][9]==item['initial_added_parameter']==d['added_parameter_initial']
+        assert recipe['fixed_scale_original_actual157_words']==d['fixed_scale_original_actual157_words']
+        assert len(recipe['fixed_scale_original_actual157_words'])==9
+        assert recipe['fixed_scale_origin']==request['actual157_source_provenance']
+        assert recipe['origin']['summary_sha256']=='acc93f034be193eba0c763ecd3c69688f023fe72faedc02e89379cd240d2f810'
+        assert recipe['origin']['status_bytes']==2270732 and recipe['origin']['summary_bytes']==76157
+        assert recipe['original_parent_radius_provenance']==item['parent_relative_trust_radius']==d['parent_relative_trust_radius']=='0.0000390625'
+        assert recipe['expected_original_literal_binding']['canonical_binding_sha256']==item['expected_original_literal_binding_sha256']=='cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3'
+        assert recipe['expected_ten_literal_binding_sha256']==item['expected_ten_literal_binding_sha256']=='065b11752c4b72422df2d9564748f2418f0a277401877c00c359d72171eefcbd'
+        proof=request['diagnostic']['helper_proof'];proof_raw=(repo/proof['file']).read_bytes()
+        assert len(proof_raw)==proof['bytes']==13940 and hashlib.sha256(proof_raw).hexdigest()==proof['sha256']=='c34e8e87b8a9d0d0ab673810d31bf823f4c218819ced96efb8f2cee22f6af2fa'
+        assert recipe['policy']==request['scientific_policy']
+        assert recipe['continuation_contract']==request['continuation_contract']
+        assert recipe['fixed_shape']==request['fixed_shape']
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        assert request['resource_contract']['producer_wall_seconds']==request['resource_contract']['whole_child_wall_seconds']==2400
+        assert request['resource_contract']['termination_grace_seconds']==90
+        history=request['original_input_history_commit']
+        assert history=='8bd267107cc8710d371f3b62c02986655ac965b0'
+        subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True)
+        paths={}
+        for key,item in request['inputs'].items():
+         rel=PurePosixPath(item['file'])
+         assert not rel.is_absolute() and '..' not in rel.parts and str(rel).startswith('topics/visible-flex-larger-amplitude/')
+         b=subprocess.check_output(['git','show',history+':'+str(rel)])
+         assert len(b)==item['bytes'] and hashlib.sha256(b).hexdigest()==item['sha256']
+         p=input_root/(key+'-'+rel.name);p.write_bytes(b);paths[key]=str(p)
+        (out/'original-input-paths.json').write_text(json.dumps(paths,sort_keys=True)+'\n')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request189-source-input-identity',source_commit=head,
+         request_sha256=hashlib.sha256(raw).hexdigest(),source_count=119,workflow_support_source_count=13,
+         origin_child_source_count=48,current_child_source_count=49,
+         parameter_recipe_sha256=request['parameter_recipe']['sha256'],
+         actual185_complete_ten_words_are_current_initial_numerical_inputs=True,
+         actual157_nine_words_only_fix_original_physical_scales=True,
+         independent_ten_coordinate_family=True,initial_xi=recipe['initial_ten_parameter_words'][9],fixed_xi_coordinate_scale='0.01',
+         fixed_support=1,fixed_power=4,complete_joint_direction_budget=128,original_eight_direction_blocks=16,scaled_trust_radius='1',
+         parent_radius_is_provenance_only=True,parent_state_J_merit_FD_not_reused=True,
+         math_inputs_restored_under_RUNNER_TEMP=True,
+         scientific_model_not_executed_in_this_metadata_step=True,raw_output_retention=False)),flush=True)
+        PYPINS
+    - name: Restore original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'completed-ten-predictor-normal-resume-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Sixteen original8 direction budgets, full3 normal work, one whole-child2400s clock
+      id: science
+      timeout-minutes: 50
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve();repo=Path(os.environ['GITHUB_WORKSPACE']);out=Path(os.environ['VISIBLE_OUT'])
+        request_path=comp/'public-completed-ten-predictor-normal-resume-request.json'
+        request=json.loads(request_path.read_text());request_sha=hashlib.sha256(request_path.read_bytes()).hexdigest()
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+         raise ValueError('Use the frozen original metadata runner')
+        wanted_source=request['workflow_support_source_sha256']['root_20261114_current576_rules_runner.py']
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=wanted_source:
+         raise ValueError('The original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+         raise ValueError('Both reviewed rules identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+         raw=(repo/name).read_bytes()
+         blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+         if blob!=expected:raise ValueError('Reviewed README changed: '+name)
+         baselines[name]=dict(blob=blob,text=raw.decode())
+        old={name:item['blob'] for name,item in runner.BASELINES.items()}
+        runner.BASELINES=baselines
+        print(json.dumps(dict(event='request189_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_true_pull_rebase_diff_and_stop_on_changed_rules_retained=True)),flush=True)
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),
+         '--request',str(request_path),'--request-sha256',request_sha,
+         '--repository-directory',str(repo),
+         '--original-input-paths',str(out/'original-input-paths.json'),
+         '--rules-directory',str(out/'rule-sync'),
+         '--out',str(out/request['output_directory'])]
+        print(json.dumps(dict(event='request189-actual-experiment-argv',argv=argv,
+         initial_ten_parameter_words=request['diagnostic']['initial_ten_parameter_words'],
+         fixed_scale_original_actual157_words=request['diagnostic']['fixed_scale_original_actual157_words'],
+         new_shape_parameter_initial=request['diagnostic']['added_parameter_initial'],fixed_xi_coordinate_scale='0.01',
+         complete_joint_direction_budget=128,original_eight_direction_blocks=16,original_real_trials_per_direction=20,
+         maximum_full3_normal_updates_per_alpha=3,normal_real_trials_per_update=20,
+         normal_calls_are_additional_science=True,temporary_normal_points_never_adopted_without_original_Armijo=True,
+         all_ten_coordinates_permitted_in_actual_direction=True,
+         complete_original_fixed112_terminal_and699_chain=True,
+         persistent_owner_dimension=10,planned_complete_ten_forward_and_all120_original_FD_checks=True,
+         original_full3_merit_and_exact_binary64_lift_Armijo=True,
+         complete_QR_and_Cauchy_proposals_not_rank_or_accuracy_gate=True,
+         scalar_Arb_and453circle_final_checks_at_explicit_binary64_projection=True,
+         projection_never_replaces_Decimal_owner=True,native_or_nonzero_field_completion_not_claimed=True,
+         scientific_source_sha256=request['source_sha256'][request['scientific_entry']])),flush=True)
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read actual independent-family status or honest partial; never rerun science
+      id: chain
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/geometry_20261115_completed_ten_predictor_normal_resume_temporary.py" \
+          --report-only \
+          --out "$VISIBLE_OUT/completed-ten-predictor-normal-resume-temporary" \
+          --rules-directory "$VISIBLE_OUT/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+    - name: Preserve necessary original child errors and complete log identity
+      id: child_errors
+      if: always()
+      run: |
+        python - <<'PYERRORS'
+        import hashlib,json,os
+        from pathlib import Path
+        root=Path(os.environ['VISIBLE_OUT'])/'completed-ten-predictor-normal-resume-temporary'
+        chain=root/'run-metadata.json'
+        value=json.loads(chain.read_bytes()) if chain.is_file() else {}
+        names=['producer-stderr.txt','reader-stderr.txt'];complete=True;records=[]
+        for name in ('producer-stdout.txt','reader-stdout.txt'):
+         path=root/name
+         if path.is_file():
+          h=hashlib.sha256()
+          with path.open('rb') as stream:
+           for block in iter(lambda:stream.read(1<<20),b''):h.update(block)
+          print(json.dumps(dict(event='request189-stdout-identity-not-array-transport',
+           file=name,bytes=path.stat().st_size,sha256=h.hexdigest(),
+           complete_scientific_stdout_not_transported=True,
+           necessary_scientific_summary_is_the_single_report=True)),flush=True)
+        for name in names:
+         path=root/name
+         if not path.is_file():continue
+         raw=path.read_bytes();whole=hashlib.sha256(raw).hexdigest()
+         item=dict(event='request189-original-child-error-text',file=name,
+          bytes=len(raw),sha256=whole,no_scientific_evaluation=True,
+          full_original_text_returned=len(raw)<=12000,
+          no_data_parts_or_encoded_raw_reconstruction=True)
+         if len(raw)<=12000:
+          item['original_text']=raw.decode('utf-8','surrogateescape')
+         else:
+          complete=False
+          item.update(original_first6000_bytes_text=raw[:6000].decode('utf-8','surrogateescape'),
+           original_last6000_bytes_text=raw[-6000:].decode('utf-8','surrogateescape'),
+           omitted_middle_bytes=len(raw)-12000,
+           necessary_error_transport_partial=True,
+           proactive_cleanup_ineligible=True)
+         print(json.dumps(item,sort_keys=True,separators=(',',':'),ensure_ascii=True),flush=True)
+         records.append({key:value for key,value in item.items() if not key.endswith('_text') and key!='original_text'})
+        if root.is_dir():
+         (root/'necessary-error-readback.json').write_text(json.dumps(dict(
+          schema='request189-necessary-original-error-readback-v1',
+          complete=complete,records=records,
+          original_large_stdout_only_identified=True),sort_keys=True)+'\n')
+        raise SystemExit(0 if complete else 70)
+        PYERRORS
+    - name: Clean owned payloads only after necessary readback, errors and child quiescence
+      if: always()
+      env:
+        NECESSARY_SUMMARY_OUTCOME: ${{ steps.chain.outcome }}
+        NECESSARY_ERRORS_OUTCOME: ${{ steps.child_errors.outcome }}
+      run: |
+        python - <<'PYCLEAN'
+        import hashlib,json,os,shutil,stat
+        from pathlib import Path
+        runner=Path(os.environ['RUNNER_TEMP']).resolve();base=Path(os.environ['VISIBLE_OUT'])
+        targets=[base/'completed-ten-predictor-normal-resume-temporary',base/'original-inputs',runner/'completed-ten-predictor-normal-resume-original-source']
+        owner=targets[0];eligible=False;reason=None
+        try:
+         assert os.environ.get('NECESSARY_SUMMARY_OUTCOME')=='success'
+         assert os.environ.get('NECESSARY_ERRORS_OUTCOME')=='success'
+         assert json.loads((owner/'necessary-error-readback.json').read_bytes())['complete'] is True
+         proof=json.loads((owner/'report-summary-receipt.json').read_bytes())
+         quiescent=json.loads((owner/'owner-quiescent.json').read_bytes())
+         reader=json.loads((owner/'readback'/'compact-summary-receipt.json').read_bytes())
+         raw=(owner/'report-summary.json').read_bytes()
+         compact=(owner/'readback'/'compact-summary.json').read_bytes()
+         for record in (proof,quiescent):
+          assert record['run_id']==os.environ['GITHUB_RUN_ID']
+          assert record['source_commit']==os.environ['GITHUB_SHA']
+         current=Path(os.environ['VISIBLE_COMPUTATIONS'])/'geometry_20261115_completed_ten_predictor_normal_resume_temporary.py'
+         current_sha=hashlib.sha256(current.read_bytes()).hexdigest()
+         assert proof['wrapper_source']['sha256']==quiescent['wrapper_source']['sha256']==current_sha
+         assert proof['necessary_summary_complete'] is True and proof['owner_quiescent'] is True
+         assert quiescent['all_wrapper_launched_children_waited_and_reaped'] is True
+         assert quiescent['launched_child_pids']==quiescent['reaped_child_pids']
+         assert reader['metadata_complete'] is True
+         assert len(compact)==reader['bytes'] and hashlib.sha256(compact).hexdigest()==reader['sha256']
+         assert len(raw)==proof['bytes']<=90000 and hashlib.sha256(raw).hexdigest()==proof['sha256']
+         assert json.loads(raw)['schema']=='request189-persistent-ten-full3-normal-necessary-readback-v1'
+         eligible=True
+        except (OSError,ValueError,KeyError,TypeError,AssertionError) as error:
+         reason=repr(error)
+        if not eligible:
+         print(json.dumps(dict(event='request189-temporary-payloads-not-explicitly-deleted',
+          necessary_summary_and_owner_quiescence_not_both_verified=True,
+          actual_metadata_error=reason,only_current_ephemeral_runner_storage=True,
+          no_artifact_Release_or_Git_upload=True,scientific_acceptance_not_inferred=True)),flush=True)
+         raise SystemExit(0)
+        removed=[]
+        def own_tree_writable(path):
+         if path.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         for parent,dirs,files in os.walk(path,topdown=True,followlinks=False):
+          p=Path(parent);s=p.lstat()
+          if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned trees')
+          os.chmod(p,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|stat.S_IXUSR)
+          for name in dirs+files:
+           child=p/name;s=child.lstat()
+           if stat.S_ISLNK(s.st_mode):continue
+           if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned entries')
+           os.chmod(child,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|(stat.S_IXUSR if stat.S_ISDIR(s.st_mode) else 0))
+        for target in targets:
+         if target.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         target.resolve().relative_to(runner)
+         if target.is_dir():
+          own_tree_writable(target);shutil.rmtree(target);removed.append(str(target.relative_to(runner)))
+        print(json.dumps(dict(event='request189_temporary_scientific_payloads_removed',relative_directories=removed,compact_original_readback_and_errors_precede_cleanup=True,necessary_summary_and_owned_process_quiescence_verified=True,readout_success_not_inferred_from_cleanup=True,raw_artifact_or_Release_upload=False)),flush=True)
+        PYCLEAN
+  report:
+    name: One complete128-plan conclusion, all alpha normal counts and original final gates
+    needs:
+    - compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print one compact original scientific conclusion and exact output SHA
+      env:
+        COMPACT_SUMMARY: ${{ needs.compute.outputs.compact_summary }}
+        COMPACT_SUMMARY_BYTES: ${{ needs.compute.outputs.compact_summary_bytes }}
+        COMPACT_SUMMARY_SHA256: ${{ needs.compute.outputs.compact_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('COMPACT_SUMMARY','')
+        if not text:
+         payload=dict(schema='request189-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
+        else:
+         raw=text.encode('utf-8')
+         if len(raw)>90000:raise ValueError('Compute job output exceeded the explicit small summary bound')
+         if len(raw)!=int(os.environ['COMPACT_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['COMPACT_SUMMARY_SHA256']:
+          raise ValueError('The original compute-to-report compact JSON output identity changed')
+         json.loads(raw)
+        print('BEGIN_VISIBLE189_COMPACT_SUMMARY')
+        print(raw.decode('utf-8'))
+        print('END_VISIBLE189_COMPACT_SUMMARY')
+        print(json.dumps(dict(event='request189-report-summary-identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
+        PYREPORT

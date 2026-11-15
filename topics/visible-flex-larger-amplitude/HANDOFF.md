@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 21:10:55 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 95d678808fd2643ccd488b70eed59feee1a023d4。
+规则同步记录：2026-11-15 21:12:08 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6de160d2893afd998c0f4533d6c3e1a79cf83e26。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -20,14 +20,12 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 |请求/结果|run / source|负责人及状态|
 |---|---|---|
-|171/R361|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|终态已读：37八对→真末pair→38八对，16/80接受/试步；最后RIGHT459唯一域障碍，全部非零终门false|
 |172/R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|geometry唯一终态读：首正H iteration2原十档全拒，非预算；全17trial行分解齐，R369正文待刊|
 |184/R391|43756949463 /cd4598157eaeae933a3c04cbef986c146c902908|exact：compute132943014084，新C步骤；真180→fresh C/factory→112far→原453|
-|185/R395|43759673057 /fe5f7cc2bc612d009d25e859a877bf3f9e766ecd|geometry原日志/root必要原字段已读：76157B/acc93f03，8接受/12α/27normal，W4.92393→4.34687；120FD/Arb/453齐，全部非零终门false|
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367，新C步骤；正端点核→真180→全112far→原453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude唯一读，compute132954941845依赖准备；真父重生/576×224及原四组件，64pins/原预算|
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact唯一读，compute132955840323已进原science；真98/37/FD→629gap/全闭段，105pins|
-|189/R401|尚无请求/运行|geometry：R395刊后从真185末十词续多块原完整校正；原2400s及末门不变|
+|189/R401|完整入口本次发布，待官方run|geometry唯一读：真185末十词/16×8全3normal，同owner/S/半径/2400时钟；119+13pins/49闭包，全部原末门保|
 |R400连续十族接口|源码准备中，未派发科学|geometry：真continuous10→冻结450 writer/reader/shared guard，不用finite185改标签|
 
 唯一负责人只读结束后的必要原日志，不读运行中大日志。job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围由同号notes接口/open/结果承担。
@@ -38,7 +36,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R372实际175](results/R372-actual175-original37-accepted-FD-and-partial-closed-Hermite-domains.md)原37α1/8与新FD过，629gap齐；5400s只43910完整角事务，q21 angle902/trial6未提交、后15query未访。[R398](results/R398-same-Hermite-path-nested-closed-domain-inheritance.md)已推e8c8d21d：准确H(t)同一，G2_j(t)可变且盒不须嵌套；仅直接strict父闭段向更小段继承。188仍先付629gap，缺依赖不补，17项整角事务后计数，直接/继承分计；受控信号提交窗口暂记pending，提交后按原ResourceStop，数值函数/预算不改，未回填175。
 
-[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)128接受/1133trial而F3升，非零终门false；真末十词/S保正文。[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)/helper3bec仅在C²/全3满秩条件给二次纠偏/小α接受，固定3×20不保证。185全117+12pins/48闭包与2400s/原S球/120FD/Arb/453保。[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)原76157B/acc93f03齐：8/12方向接受/α，39primal/27normal/19临时更新/15投影，W4.923932325275→4.346867247171；后4α1三normal用满仍拒，producer73.5323s/wrapper74.8072s非资源。120FD、Arb1589叶0未决、453/RMS/4096角齐但导数/C²和unit/full112/native/nonzero/successfalse；实际清理。189真末十词续16×8，原S/半径/2400整体时钟/全部末门保持；finite标签不改。
+[R390实际183](results/R390-actual183-complete-ten-128-direction-continuation.md)128接受/1133trial而F3升，非零终门false；真末十词/S保正文。[R392](results/R392-complete-three-residual-normal-correction-on-ten-parameter-predictors.md)/helper3bec仅在C²/全3满秩条件给二次纠偏/小α接受，固定3×20不保证。185全117+12pins/48闭包与2400s/原S球/120FD/Arb/453保。[R395实际185](results/R395-actual185-complete-ten-full-three-normal-eight-directions.md)原76157B/acc93f03齐：8/12方向接受/α，39primal/27normal/19临时更新/15投影，W4.923932325275→4.346867247171；后4α1三normal用满仍拒，producer73.5323s/wrapper74.8072s非资源。120FD、Arb1589叶0未决、453/RMS/4096角齐但导数/C²和unit/full112/native/nonzero/successfalse；实际清理。[189完整入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)六件295c/cfeb/5279/e3c2/252d/2c2e已全读，真185十词续16×8。仅原八方向预算词接下一块，当前完整3×10 J fresh；unit/全20拒/异常不重启，S/半径/2400整体时钟和全部原末门保持。单90KB全128地址/实际α/normal计数与所有接受bound、首末点详词，未传中间大向量只身份；真实完整必要/quiet后清，finite标签不改。
 
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)β1/16 coast及418固定片全证，前四β反证/13档未访，419准确域/全根族已付；recipe2136/cc87d932、definition377615/f568b816按ba8恢复，旧raw已清。新活动p/数值shadow/J/FD/metric另付。[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)/[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)同准确目标/必要带/共同β充分域界保持。
 
