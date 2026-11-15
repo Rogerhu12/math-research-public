@@ -391,3 +391,9 @@ run43722805762/1 job132838231389全steps success，child0/23门/math.22726965999
 root全文两report/全13门/六表/实际child/3parts核，NR全wide nested、MC两window与5高域/caseSHA按排序JSON逐字相等。140 rows5892..6031/fullmean_gap>2.8982165181396939，六表真lower方向、χ′20、fullmean/pointwise T2/T3/真实√长保持；knownF96<3.991021363e−16/角<3.259338919e−13，knownmiddle<7.362908e−14。WA17实际三未知量、宽C0+独立窄MA以及左右same state门未付，low/core false。preGit49798/SHA783b453e420afec5ad48a4b076d8dc76060f72d921e7c00264e45a8141f1f9a3；projected199734330在后续两删之前。
 
 亲读WC三真pull14:10:52.388136/57.263737→778e050665513cd3aa26e2ae3414efa01e88fc99、14:11:01.078340→868f4e139f7df0596613675e4aac00efd80f395d，全README空diff。Green14:15 process81536bc6e10ed67b1b01d19c71e30e162b10c735/45937/SHA0637bf628cf7671a03dc5fbb9775295ba7353e6092249e474a96ad353e06431b，真pull14:15:21.938283→2319d0ca32343c59c54adb504a1be2c1830e8f07空diff；future5280/past2240/product3776/group0/childnull，published-origin metadata199760269B也是465d普通删之前，不冒当前容量。SV root原球审计确58处/54不同，前记50改为58处，原数学球不变。a657c9141586e3c5397434cf570603375e6c143b两README核未变，继续ER/S1和真core。
+
+### 2026-11-15 14:22:59 UTC — ER 根零 E 行新消费者部署；继续真实 pull
+
+root 已逐行核 ER SCI553行、与M worker的完整diff、23pin/711159B（sharedM14件逐字不改）、20科学门和flow。部署 SCI5e1e33549c1495f5d65a68ce3755367eb4ddbd232ffd0b5e5b6923514980b652、worker973218a14850d57b89b23bee987855111a603d6af1bd0aac8853d4ce96128a36、manifest6b47f4a62c9d2cdcb6ed7b539c89816d142bc998c140e40002c205fe24cc0df6；newton 独核三核心函数与worker接线。canonical b0=T²b2、SE3/256的Ximage新域门、E完整三角jet、M七非E整界正向相加后只更新raw1，基线SV43722805762其余30原球保持。新科学尚待public Actions，不宣称actual成功，不执行旧M mixed/fold。
+
+14:17 WC发布两次非FF都立即尝试CLI git pull --rebase，均报无执行环境；保远端重建第三次成功a012a27a。14:22:21再次定时真CLI同报无环境。runner亲读SV/WC/Green末真pull与两README空diff已记H/open；当前只读核1ca4196b99b61428bc4ab216bbc713ba2e77023e，两README未变。H旧细账完整archive a012a27a2280e77e401fe089221e4190f5c58768；未付义务、失败、恢复和成功禁止重算均保留。

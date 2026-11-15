@@ -86,7 +86,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [M真实第一local](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)及[actual43721735003/1](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)已成child0/23门/math.008657345，reportea28b65a/executionb8588530/result5f1ad2e5；SCI b4bc768e/workerba0c59e7/26pin1055c823。只新10mixed/2角4、14低jet仅读，M16 E第一行准确消去前保full μ/V/Xi/b0/T可去，八完整物理项/原C算法lower/两域/mean不删。raw1<5.399608e10、local<5.443134e10、first<3.714349e11/pair<3.714351e11，mean<3.401970e8原字；其余30项逐字DG，root核74报告球均源原字。E是当前大upper非真实下界；phase继续canonical b0=T²b2新域最小预算，不重M10mixed。非full逆/GH。
 
-[ER保leading根零的完整E行](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)从原fold B2与canonical逆证b0=T²b2，先付2b0T+cTb0=4Tb2+2T²b2T+cTT²b2。新角宽3/256的Ximage严格门待实际；原cT和μ完整SG、V/VT/dT仅读。只新E正泛函与M七非E整界求和，不减upper；同原C算法lower比较raw1，后续若SV已成须保三项。合同be46d277已root全文/原producer185–216/P21/24/G212–289核，非GH。
+[ER保leading根零的完整E行](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)从原fold B2与canonical逆证b0=T²b2，先付2b0T+cTb0=4Tb2+2T²b2T+cTT²b2。新角宽3/256的Ximage严格门待实际；原cT和μ完整SG、V/VT/dT仅读。只新E正泛函与M七非E整界求和，不减upper；同原C算法lower比较raw1，已冻结SV43722805762其余30原字。SCI5e1e3354/worker973218a1/23pin6b47f4a6已root全核部署，20门待actual；原M shared14零改，不重算旧mixed，非GH。
 
 [SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)及[actual43722805762/1](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)成功child0/23门/math.22726966，report75c453c0/executionba96a483/result9a31404f；SCI44021afb/worker0b5368da/69pin5306e66c，旧59零改/20AST。准确B_jw0保y²/y³、径G/mean、physical n^-2一次；Γ0<630.625/M0<604.966。三density0整项全改：SV<1.813617e6、V0mean<12033.167/uJBmean<1081.059；first<7.997863e10、mean<1.675903e8、pair<7.997880e10，其余28列逐字M，raw1保5.399608e10，root58处报告球核源。完整七项SV词/18coeff/两J窗/六true-dr/独立mean保；inversegap仅physical n≥388/full角δ，非独立complex-z逆。旧math0，非source-to-wave/GH。
 
@@ -213,6 +213,6 @@ full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，13:23:55定时及14:02三次非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读runner M13:58:32.028854→7890fde180ffabee056de2ce8dd241b189a893a2、Green14:05:12.055978→db77f49037346616f8c4a8d8f576e19108c75a02，两README diff空；完整记录保log/actual，终端恢复即pull查差。
+本机executor持续不可用，14:22:21定时及14:17两次非FF即时真pull均无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。root亲读runner SV14:10:23.119638→f584eb77a27ba508510a8ab29fb6ed938bdcc0cf、WC14:11:01.078340→868f4e139f7df0596613675e4aac00efd80f395d、Green14:15:21.938283→2319d0ca32343c59c54adb504a1be2c1830e8f07，两README diff均空；完整记录保log/actual，终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
