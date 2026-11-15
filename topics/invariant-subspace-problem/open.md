@@ -105,7 +105,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15，当前入口）
 
-完整前文状态及全部参数保[本次压缩前全文](notes/2026-11-15-open-before-relative-hole-riordan-789f.md)，未列旧接口保持原状态。下列实际结果替代此前待执行表述，普通ISP仍开。
+完整前文状态、被归档的近期逐项记录及全部参数保[本次压缩前全文](notes/2026-11-15-open-before-first-binary-schur-789f.md)，未列旧接口保持原状态。下列实际结果替代此前待执行表述，普通ISP仍开。
 
 ### R150：原七方向与成员性当前状态
 
@@ -135,35 +135,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 一般头/尾的返回范数加强不能替原两费；已有palindromic物理反例的范围与同源负图观测均保旧证明。继续原W混合配对、真实强位和普通域，不以形式共轭、有限模型或阶段结果收尾。
 
-[前29规范Q核和七维补空间](results/R150-appendix-exact-twentynine-normalized-free-kernels-and-seven-direction-complement.md)已正式付清：U为31整，FU=(I,0)，前29真来源与p768在全6188坐标的同余由单位块唯一性推出。当前同job核新六列实际高度，并仅一次用原17系数模65521核删列后矩阵秩；后者只给Q下界，未预报4325或继续素数扫描。
+**通用维数型两费路线已排。** [四头/十一位真反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)在完整右对偶及规范负图都保留时给μ=1、Xi²→0，排任意nilpotent头κ(h)。原A_m/连续尾不同，继续实际权与同W来源。
 
-[原Y负轴首临界点](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)现已独立证明，与N结论各用本身原导数/分母。两原零逆芽均有领先12.5的真实上界障碍；不以任意临界值代原分支，也不拿它支付强位Green或普通返回。
-
-[新六规范来源高度](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)已实际核：3.456136225秒，全部6188余数与4367整数身份真，分母2356…3803bit/分子最高3868bit，均超原p768的两类充分高度条件。这一记录入口已闭，核数仍29；接剩余七的原有理方程，不将高度不适用说成算法不可能。
-
-- **2026-11-15，原65521单次秩及七列真Q入口：** [R150-appendix-single-prime65521-rank-after-paid-twentynine](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)：原4367×4325在唯一新素数上rank4318/null7，14.919986302秒，全原乘积真；Q区间仍4318…4325。已锁原4318×7精确有理求解与全残差小核[接口](notes/2026-11-15-r150-seven-original-exact-rational-solve-interface-789f.md)，600秒/4GiB，实际完成前不提升结论。
-
-- **[强Boolean完整Artin线性化](results/R271-appendix-strong-boolean-artin-linearization-and-physical-source-metric.md)：** 真有限代数α及物理V把全部ψ(A+E)混合化为分级L，完整左/右/裸来源均保；其真实V*V、全核Schur和差商逆不能删。本文特定α的N模型反向V*f1≥exp(25d⁴/4−105d³/8−O(dlogd))，只排该列廉价估计，不是Green反例，也不排其它Artin替换。
-
-
-- **[保强孔的真实线性规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω(B)=d0F(B)/B、W=ω(B)^Ns，逐行严格CW=WLω(B)；W及逆/伴随都固定强真空测试。完整核G=i*W*Wi、forcing=i*f保原总次数，Green输入为ω(B)^-* [f−W*WiG^-1i*f]。G逆跨次数与共同高孔残量尚须付；裸J(L)^-*虽可四次指数爆大，f0的真正Green恰零，不能拆估或外推反例。
-
-- **[同原29条核曲线给43阶及条件8712](results/R150-appendix-selected-koszul-curves-infinity-order43-and-source-cost8712.md)：** full A∞的真Qrank4340已由原投影七整数核/F7夹逼。29维所选标准核各有同自然u全原无极点曲线；一阶连接的完整像损失给D/换列/cofactor阶≥43/42/41。K60后q≤8667，原h0目标已有Q[s]来源才得cost≤8712、非基≤8711；未付成员性/完整Smith/lc(D)单位。一般可提升常项s维给s+14阶与8741−s，常核数不能替代s。
-
-- **七原有理方向真实进度：** [run43679903558回执](notes/r150-infinity-remote-session-789f/43679903558-seven-original-exact-rational.json)在592.119801265秒预算到达，已保存原整数核心和原I内4318单位行列；七RHS的native求解未返回，新增核0不作为否定。Q范围仍4318…4325，下一先检查原稀疏/分次结构，完整残差和七组合仍未计算。
-
-- **[当前物理四次块真秩986与二次skew降次](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)：** run43679903558实际0.420009955秒，原1001×1122模31rank986及完整136常Koszul核给Qrank986。反对称C系数degree≤2且Cf的原来源degree≤3时，全交替三张量使Cf严格等于一次系数表示；同选支撑交仍29维。只闭这一扩展，degree≥3或整个Koszul模不外推。
-
-- **[原full∞第一连接≤7与共同21阶](results/R150-appendix-infinity-first-connection-seven-dimensional-bound-and-common-order-twentyone.md)：** 同自然u的真实切向M=c y²+d sym(yy′)使全部17式O(u²)，故任意原6188核的第一连接20个纯切向坐标全零。真4340常秩的余空间还剩7维，β_Qrank≤7；十四正Smith指数至少七个≥2，全部最大子式共同u21。未付精确rank/全厚度，与指定D的43阶不能相加。
-
-- **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
-
-- **[原七Q单位块的26步剥离及单4292核心](results/R150-appendix-original-seven-unit-sparse-peeling-and-one4292-block.md)：** run43679903558实际0.692495464秒，26精确变量/682行更新后保全七RHS，余4292方块172513项/132bit；全支撑仅一个SCC，不能把该轻微缩减当已完成求解。原DAG/整数状态已保存，接30秒低填充精确消元，Q核数和秩范围未变。
-
-- **[原双图连接4、K70及条件8702](results/R150-appendix-four-dimensional-transverse-first-connection-exact-infinity-image-and-factor70.md)：** 全部6188来源连接受170×135原物理jet控制，实核双图42×7rank4、全部170行左校正。∞借旧同秩单位Schur夹成Qβ=4，s0仅≤4；共同两端24，K70=s10K60。配指定∞43/42/41得q245…8657、原目标条件cost8702；成员性/lc(D)单位仍开，不将24加43。
-
-- **[1541个新增真枢轴与完整2751核心](results/R150-appendix-exact-low-fill1541-and-original-seven-core2751.md)：** 原七RHS问题在8.242471283秒精确新增1541步，总1567步，原4318单位系统严格化为2751核心/424921项；coeff3693bit、RHS3677bit。完整状态封存3.925719243秒，达到固定工作门槛时只保完整已提交pivot；原源/DAG/7RHS均保，Q核数仍29。后继只查正列内容、真实块结构和本job底层FLINT版本，按实际状态继续。
-
-**七原方向当前单位系统。** [列内容/SCC](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)及[全行内容=1](results/R150-appendix-seven-core2751-all-row-contents-one.md)已实核：2751单块、系数3691bit、七RHS分母1、1567完整主元。[可恢复原生Dixon](notes/2026-11-15-r150-seven-sparse-dixon-original-interface-789f.md)已实际到1085位/31466bit未返解，全部状态临时保存；必要时从同out接续、逆列缩放/DAG后核全4367。当前新纯投影另证至少30维存在及Qrank≤4324，不必把显式大数组当存在证明的前置条件。
-
-**通用维数型两费路线已排。** [四头/十一位真反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)在全部高低旗/完整右对偶/规范负图均保留时给μ=1、Xi²→0，所以任意nilpotent头不存在κ(h)。原A_m及连续尾不属该族，继续原实际权、共同Green残量与同w来源，不再试以nilpotence/通用收缩单独封口。
+**原首位的实际Schur入口。** [统一物理度量与完整top来源](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)已支付N/Y首位的绝对常数消元、全left参数(x,b)、原B理想及全部head/bare旗。P=K−T²，||T||<13/20，核Gram∈[I,569/400]；W由V*Gx=0严格表示。下一直接研究原同W forcing对P*=K*−T*²的真实像、全kerP*最小化及两费返回，保实际top b，不把度量界当逆界。

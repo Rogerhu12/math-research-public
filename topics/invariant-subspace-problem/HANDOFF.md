@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 51af4a71a86ac975115ca8b60304b38e292eb366（2026-11-15 08:47:58 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** ecb7c3e02d15d2d869827608601d73f89528c50f（2026-11-15 08:51:12 UTC，Actions run43696418314实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43696418314-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -32,9 +32,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
 - **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
 
-- **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_Ê K^-*eY保完整最小化，主配对误差≤C0²α||eY||，同窗平均O(C0²h/Q)趋零；q_h测试亦同，不用w尾率。主项仍未付、不运输L；Ĉ用V0，W_h仅在kerL与V0相等。
+- **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_ÊK^-*eY，误差≤C0²α||eY||、平均O(C0²h/Q)趋零；主项/q_h测试仍开，不运输L，Ĉ用V0。完整旧状态保[本次H](notes/2026-11-15-handoff-before-first-binary-schur-789f.md)。
 
 - **[真实两费一般反例](results/R271-appendix-scaled-palindromic-four-head-true-two-fee-counterexample-and-canonical-negative-source.md)：** 固定四头/十一位正尾，c=a、ε=a15、β=a10，真左μ=1、裸α²≤256a²、全来源flat²≤40000a6；同源正滤波保规范负图且两费仍趋零。故任意nilpotent头的κ(h)不存在；不是原A_m/连续尾/同w反例。须继续原权及共同Green/返回残量。
+
+- **[原首二进位完整Schur](results/R271-appendix-first-binary-bit-uniform-physical-schur-and-exact-top-source.md)：** N/Y同真实K满足||K||≤e^-1070、||T||<13/20，P=K−T²，kerA=JkerP、Jx=(x,−Tx)，Gram[I,569/400]。原W=JG^-1ker(T|kerP)*；V_Q全参数保top b及第二top条件，真left费用与参数费比较常数(33/20)²。全部head/bare旗运输，Green仍须全P*约束及kerP*最小化，未付同w返回。
 
 ## 当前临时计算会话与可恢复身份
 
