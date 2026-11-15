@@ -462,9 +462,10 @@ $$
 四轴逐点不变、半特征、原 CRT 和非零两 sigma 锚。
 普通核心、全量词、真实测度及单位分区的证明在正文，未由抽样替代。
 
-按规则13，脚本随本文交本题公开 Actions 执行；实际 run 编号及同一输出哈希
-取得后补入。上述 V8 标签只记真实先前执行环境，不冒充公开 run_id，
-附带检查不作为完整正文的发布门。
+公开 Actions [run 43680615234](https://github.com/Rogerhu12/math-research-public/actions/runs/43680615234)
+已在提交 `e17cb0d47dad8914d866d38e1c0d53f48dfae35e` 按上式、无额外参数执行成功，
+54条准确检查全部通过，stdout 的 SHA256 与上列值完全相同；未保存可重算输出。
+上述 V8 标签只记先前真实环境，不冒充公开 run_id；附带检查不作为正文发布门。
 
 主要依赖：
 [R443](R443-original-residual-quarter-source-and-complete-central-return.md)；

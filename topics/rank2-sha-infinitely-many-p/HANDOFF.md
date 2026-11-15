@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c1067a382e1bb92c5035afa4e8f57ff14c1221d0；2026-11-15 05:19:53 UTC核两README无变。实际CI pull 2026-11-15 05:13:40 UTC/38f97a36743ad8ef565eea482eb28fd92743f775（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:19:53 UTC仍无环境。最迟2026-11-15 06:00 UTC再实际pull。
+- 最近已读规则提交：9cf93bd781d05612851f112e69b2df6b37fb8800；2026-11-15 05:23:16 UTC核两README无变。实际CI pull 2026-11-15 05:13:40 UTC/38f97a36743ad8ef565eea482eb28fd92743f775（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:23:16 UTC仍无环境。最迟2026-11-15 06:00 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。令牌仅临时终端，不入文件/回复。
 - 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算数据不存repo/Release，只留脚本参数run/SHA256，禁新part/5MB且目录≤200MB。05:13库存30.0MB无超限、3个旧-partN输入。audit43680156386按真实generator/checker分类；仅删已确认可重算输出，不能因同名脚本误删原输入。首扫描漏-partN已更正。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,9 +14,9 @@
 
 ## 完整归档和分工
 
-R1–363、R365–560、R562–653、R655–688及R679/R680增补已登记；R364/R561/R654仍开，R689–692进行中。
+R1–363、R365–560、R562–653、R655–688、R690及R679/R680增补已登记；R364/R561/R654仍开，R689/R691–693进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r686.md)、[open](notes/2026-11-15-open-before-r676.md)；沿链保全部旧条件，压缩不关闭问题。索引results.md、notes/PROOF-INDEX-R651-R700.md。
-root唯一metadata/ref写者；代理仅独有proof/script或immutable blobs。root R691原Kummer和/中央联系；theta R690同qcd真正W边际（run43680156256成功，SHA0f8555c2…）；literature R692同q♯实际四项算术联立；deep R689原barE高尾/真Dψ像比较。R685公开run43679602653同hash通过；R686随本次脚本提交请求公开运行，不存报告。
+root唯一metadata/ref写者；代理仅独有proof/script或immutable blobs。root R691原Kummer和/中央联系；theta R693同π4中性G12的实际31约束扩展；literature R692同q♯实际四项算术联立；deep R689原barE高尾/真Dψ像比较。R685公开run43679602653同hash通过；R686公开run43680615234同hash通过，不存报告。
 
 ## 固定原目标及不可丢失的旧条件
 
@@ -37,6 +37,8 @@ R685同q♯精确K8×四八矩，质量≥8r+3M+3−8N；CD外T压为固定A_T�
 
 R686原Z=W−bY Y，EYW=(5+6ω)A−29c−(58+87ω)d；Y/17Z/E正交范数34/8942/7627，W/V/E为72/18936/7627，V=36Y−(17−3ω)W。原三轴锚给归一KZ=γRY、γ²1；KV=γKW，两实际框架全部状态/伙伴保。
 H=D*−EYW/29使q♯/qcd所有门和G逐点Y/Z/W/V不变，真qcd的Z正次系数全零。EYW深N单独即Y来源λ2N S，可加任何Z深/环带，仍不能赋局部T零。原完整Hφ=Tφ−〈bY〉^(dw)Sφ准确=三单位相对Gφ+λZφ(κ)−λVφ,第二态(κ)+γλHφ(−κ)。q♯全质量0；E深或qcd第二态质量未知，尺度log不删。R692续这四真项，R690原W边际不是Z缩放A_T。
+
+R690真qcd的native W整来源B_W在even72十三基内；实际19逆/84原矩/C第12矩付全参数，辅助两非零小式397/459给同ray密度一全N4 off-T。原E深W=λ2N B_W，E浅=λN6δT−λ2N B_W；第二态λ2N K72B_W。B_W质量0但Wunit质量−λm1，m1=(1/b)Σj L_jc_j，固定有理trace L_j全付，未知中央不赋零。缩Z的A_T仍不同。
 
 ## 惰性：真实来源、首挠点与Kummer和
 

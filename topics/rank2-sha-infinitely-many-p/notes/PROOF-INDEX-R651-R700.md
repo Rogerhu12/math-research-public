@@ -98,3 +98,5 @@
 
 
 - [R686：原Y/Z完整核心与同源S/T单位失败支](../results/R686-original-yz-core-and-same-source-st-unit-failures.md)：同q♯真实Z核心由三轴完整来源锚为γRY，W/V两态及所有伙伴保；q♯/qcd逐点Y/Z/W/V不变，EYW深N单独即完整λ2N S，保全部Z环带。原相对T/S准确分成三单位项、Y深进入支、W深第二态及小参数全尾；条件第二态质量和所有尺度log保，未追加中央零。
+
+- [R690：同适配cd权的原W整来源及第二态质量](../results/R690-native-w-source-of-the-same-adapted-cd-carry.md)：同q♯真正cd权的native W整来源在原even72十三基内，实际19逆/≤84矩及C第12矩全保；辅助固定有理式小式397/459付同ray密度一、全N4不共原T线。E深/浅双Y-W来源、原W第二态及其固定13条有理trace质量准确给出，完整log保，不等同缩Z的A_T或另赋中央零。
