@@ -83,3 +83,5 @@
 - **R782**：[原r2立方因子的常数刚性、五个角型与完整非齐次接触矩阵](../results/R782-original-r2-five-profile-factor-and-inhomogeneous-contact-gate.md)。mq0下F0只能λd^c，scalar投影保原W3b；端点亏损和Fp五mask/一般≤15mask及逐charge全帽已付。真实接触变为H x=(−1,0,...)，新cube只首核候选；保旧同P的first-normal实际ξ尾，不把分类或环境参数数目替指定余类。
 
 - **R784**：[原第三中央、E浅共同帽与实际四单位CM管族](../results/R784-third-central-shallow-hats-and-four-unit-cm-tubes.md)。原全CM投影消掉Ξ外谱后，216条真实W_s管/逆Y和完整E浅补域准确组成cN·JU；恒等支原近消，其余支物理P/t/W/Vt四unit，全部canonical来源与局部scale质量保。只返Z0仍保同q、J深及仿射失败门；完整有限和零未被拆成各项零。
+
+- **R787**：[原因子零增charge返回与全F²来源的准确normal核](../results/R787-original-factor-return-and-whole-square-source-normal-kernels.md)。五型/≤15型G乘deg≤2固定L即回W_b；全部D2/D3的实际Gauss基与整饱和已付。短M核由h−11门、完整J核由h+1门判，最后2α+3u0β及两门间≤12维/13carry全保；R782实际尾归完整T2指定像，未删除原非F²余列。
