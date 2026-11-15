@@ -85,7 +85,7 @@ R812同charge基A=S(2z)/64与U−A保全前缀、carry、Smith；SB体积D²/10�
 R804/R806/R811/R814的完整十八阶角色、34δ/30/√17、原canonical Soulé类及全AJ平方已付。三个原I_j,-2非零各自等价指定z_j/loc/AJ非零；不认一般Selmer局部化单射。good pair由固定7起始/单侧13塔及Finis19同时选定，先于研究p；真EIw/EBDP、周期和基比保持。
 R817只在p7993证明三原I归一余数2522/2828/3696unit及三固定cycle独立。R818严格复L′(2)的三个球和无条件尾给原三λ及固定Rankin解析秩1；不推出其它p的AJ、原三值线性和或原Sha7993。
 R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
-继续完整分子的cohomology投影、实际CM companion的全q来源，以及对R814指定类的同规范比较。HKM新稿只核对公式范围；R826定理独立用已发表Besser证明，不把未核实预印本作输入。
+附录已付实际CM companion的完整理想和、两项q系数及所读U特征−π；LLZ原权四critical germ的中心导数准确为Ωι34²c_jθ⁹Ωp I_j²，simple zero iff原I_j≠0。继续完整分子的cohomology投影与R814指定类的同规范全局比较，不能把两个不同critical对象直接相认。HKM新稿只核对公式范围；R826定理独立用已发表Besser证明，不把未核实预印本作输入。
 
 ### 深支：全profile、同R和指定Schur
 

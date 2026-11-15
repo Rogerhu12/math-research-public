@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：ea410da656c1166874c5c60e0310f26002cd3124；2026-11-15 21:21:46 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
+- 最近已读规则提交：16d451731312fb7056c4052ba317348d254ec027；2026-11-15 21:24:07 UTC核两README无变。实际CI pull 2026-11-15 21:20:38 UTC/a7635bd3809ea2afacfa0c646be89879ee02f838（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 21:02:28 UTC仍无环境。最迟2026-11-15 22:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -27,7 +27,7 @@ R824：完整G0/charge40格中k=r+13+2h−s<min(13,ell+13)给末块真单位6a²
 
 R804/R806/R811/R814：三原λ_j的34δ/18阶角色、Schwartz/30/√17、canonical Soulé类与全Selmer入口已付。z_j≠0 iff loc_p z_j≠0 iff I_j,-2≠0仅对指定类，不认一般局部化单射。log=−34²c_jθ9Ωp4 Elog I²，Elog∈p²O×、loc_bar0；AJ保EIw/EBDP(v−2)、真实基比/全局单位。共同good pair由固定7起始/单侧13塔/Finis19选定，先于目标p。
 R817仅p7993的三原负二2522/2828/3696unit，付三cycle非零及同χ-Chow独立；R818严格Arb/无条件尾付三λ与固定Rankin解析秩1。均不付别p AJ、三I线性和、原Sha7993或点AST；各producer/run/hash见原证。
-R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
+R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。 附录已付G_j完整companion/两项q系数与所读U特征−π；LLZ给原临界germ Ωιs(1−s²)Kprim(ν〈N〉^s)，中心simple zero iff原I_j≠0，保period和对数Euler；不与对角类直接相认。
 
 ## 同R、原全格与真正剩余障碍
 

@@ -501,3 +501,252 @@ $J_S',J_T',J_U'$ 添加一个中央零条件。
   [R817](R817-fixed-prime-original-negative-two-and-nonzero-fixed-cycles.md)、
   [R818](R818-original-three-weight-four-complex-analytic-rank-one.md)：
   原 fixed-cycle、fixed-prime 检测及复解析秩一；各自未付的跨 $p$ 门不变。
+
+## 附录 A. 第四槽的原 CM companion、完整 q 系数及临界 cohomology 投影
+
+本附录继续使用(14)–(25)的实际旧空间、周期和所选普通素位。
+记 $\mathfrak f_\beta=(17\delta)$、$\alpha=\bar\pi$，
+并把素于 $\mathfrak f_\beta$ 的非零整理想作为下面所有和的范围。
+(23)的零常数原函数准确是
+$$
+\boxed{
+G_j(q)=
+ \sum_{\bar{\mathfrak p}\nmid\mathfrak a}
+ \frac{\beta_j(\mathfrak a)}{\mathrm N\mathfrak a}
+ q^{\mathrm N\mathfrak a}
+ =
+ \sum_{\bar{\mathfrak p}\nmid\mathfrak a}
+ \eta_j(\mathfrak a)^{-2}
+ \bar\psi_0(\mathfrak a)^{-1}q^{\mathrm N\mathfrak a}.
+}
+\tag{A1}
+$$
+确实，$\beta_j(\bar{\mathfrak p})=\bar\pi$，所以
+$g_j-\bar\pi Vg_j$ 恰删去所有含 $\bar{\mathfrak p}$ 的整理想；
+对余项施 $\theta^{-1}$ 就是除以其实际范数。
+这也说明(A1)的系数在 p 处整，且
+$$
+UG_j=\bar\pi^{-1}G_j,\qquad
+\theta G_j=g_j-\bar\pi Vg_j .
+\tag{A2}
+$$
+它是这里的真实 weight-zero ordinary companion；不是只删去所有
+$p$ 倍 Fourier 指标的 $p$-depletion。
+
+(A1)也有不更改任何有限角色的经典权逼近。取
+$k_r=2(p-1)p^r$，则 $12\mid k_r$，逐系数有
+$$
+\theta(\eta_j^{-2}\bar\psi_0^{\,k_r-1})^{\rm ord}
+=
+ \sum_{\bar{\mathfrak p}\nmid\mathfrak a}
+ \eta_j(\mathfrak a)^{-2}\bar\psi_0(\mathfrak a)^{k_r-1}
+ q^{\mathrm N\mathfrak a}
+ \longrightarrow G_j .
+\tag{A3}
+$$
+这里上标 ord 指实际删去 $\bar{\mathfrak p}$ 理想，保留的
+$U$ 根是 $\bar\pi^{k_r-1}$。所有分母中的
+$\bar\psi_0(\mathfrak a)$ 均为 p 单位，因此收敛逐项成立。
+这些正权形式的二处角色仍平凡、三处单位角色仍为 sign，
+十七处角色仍为 $\vartheta_{l_j}^{-2}$；
+其导子仍是 $17\delta$，并使用(14)的同一旧空间拉回。
+不通过某个未说明的有限角色变动把它变成原 $g_j$ 的权二普通支。
+(A3)本身只用于核定系数与普通根；$G_j$ 的过收敛性已经由
+(19)、(23)的 exactness 给出，不从“系数有极限”单独推过收敛。
+
+设 $\Xi_{j,k}=\Xi_{g_j,g_k}$。它的完整 Fourier 系数为
+$$
+\begin{split}
+[q^n]\frac{\Xi_{j,k}}{dq/q}
+={}&\sum_{\substack{\mathrm N\mathfrak a+\mathrm N\mathfrak b=n\\
+                    \bar{\mathfrak p}\nmid\mathfrak a}}
+ \frac{\beta_j(\mathfrak a)\beta_k(\mathfrak b)}
+      {\mathrm N\mathfrak a}\\
+&-\bar\pi
+ \sum_{\substack{\mathrm N\mathfrak a+p\,\mathrm N\mathfrak b=n\\
+                    \bar{\mathfrak p}\nmid\mathfrak a}}
+ \frac{\beta_k(\mathfrak a)\beta_j(\mathfrak b)}
+      {\mathrm N\mathfrak a}.
+\end{split}
+\tag{A4}
+$$
+两项都含完整 $17\delta$ 条件，且仍在实际 level10404 旧向量上。
+没有把第二项的 $p$ 倍指标吸入一个未经证明的标量。
+
+还可精确定位(26)的投影。取 ordinary dagger cohomology 上的
+$U=p\varphi^{-1}$；这是 normalized trace 与 Frobenius pullback
+的关系，与权二 q 展开中的 $U$ 规范相同。
+令 $\mathscr C_f(v)=\langle\omega_f,v\rangle$，由(29)有
+$$
+\boxed{\mathscr C_f(Uv)=-\pi\,\mathscr C_f(v).}
+\tag{A5}
+$$
+因此第四槽在**形式的 $U$ 算子**上读取 slope1 的临界分量，
+虽然在 proper cohomology 的 $\varphi$ 上读取 unit-root 分量。
+二者的算子差一个 $p\varphi^{-1}$，不能混淆。
+特别，直接用 ordinary-forms projector 先替换(A4)，会丢掉
+(A5)所读的分量。这是必须保(25)两项的另一个准确说明。
+
+## 附录 B. 原权四 Katz 支就是一个临界斜率 L 函数的中心首导数
+
+以下是同一原 $\lambda_j$ 的单形式公式，不把它自动等同于
+(26)的对角类。令
+$$
+F_j=\theta(\lambda_j),\qquad
+\lambda_j=\eta_j^{-1}\psi_0^3,\qquad
+\nu_j=\eta_j\bar\psi_0^3\mathrm N^{-1}.
+\tag{B1}
+$$
+它们正是 R806/R804 的原角色。$F_j$ 是 level10404、权四、
+平凡 nebentypus 的固定形式。由于
+$\overline{\lambda_j(\mathfrak a)}=\lambda_j(\bar{\mathfrak a})$，
+其 Fourier 系数为实数；LLZ 的共轭形式 $\bar F_j$ 因而就是 $F_j$。
+在当前普通位的 Hecke 根为
+$-\bar\pi^3$ 与 $-\pi^3$，后者为 slope3 的临界根。
+
+采用 Lei–Loeffler–Zerbes（下简称 LLZ）§1.3 的 Artin 规范：
+uniformizer 送至 arithmetic Frobenius 的逆。
+于是他们附于 $\lambda_j$ 的一维 p-adic 表示是
+$$
+\rho_j=\widehat{\lambda_j}^{-1},\qquad
+\rho_j^\iota=\widehat{\lambda_j^c}^{-1}.
+\tag{B2}
+$$
+取 LLZ Lemma2.26 的 de Rham 同构、Betti 基 $\gamma_j$ 与微分基
+$\omega_{\lambda_j}$；这些选择在本附录固定不变。
+保持其实际非零 crystalline 比较周期
+$$
+\Omega_{j,p}^{\iota}
+=\frac{\iota\gamma_j}{\iota\omega_{\lambda_j}} .
+\tag{B3}
+$$
+这里包含所选 Artin/CM 基的全部比较，不把(B3)改成1，
+也不凭 weight 相同将它认作原物理 $\Omega_p$。
+Tate 因子的识别准确沿 LLZ Theorem3.2 的证明：
+$t^{2-k}e_{k-2}$ 送至1，且本篇 $k=4$。
+
+在完整模数 $\mathfrak f=(34\delta)$ 上，
+LLZ Proposition2.22 的椭圆单位测度是 de Shalit II.4.14 的
+正 Coleman 测度。取与 R804(10)相同的正规范后，它就是
+$\mathcal K_{\mathfrak f}^{\rm prim}$；
+原三个角色在2、3、17均真正分歧，故没有额外的 tame Euler。
+辅助理想 $(5)$ 的平滑在 R804 中已按
+$25-\nu_j((5))=30$ 除去；这里没有再乘一个30或18。
+LLZ 所要求的 $\mathfrak f=\bar{\mathfrak f}$、
+$\mathcal O_K^\times\cap(1+\mathfrak f)=\{1\}$、
+最小正整数至少5均由该原模数满足。
+
+令 $L^{\gamma_j}_{p,\mathrm{crit}}(F_j)$ 为 LLZ Definition3.3
+在(B3)规范下的 Kato 临界斜率函数。为避免把两种 $\delta$ 混写，
+以 $\epsilon_{\mathrm{cyc}}$ 表示 LLZ Lemma2.18 的 order2 群元；
+它在 cyclotomic 塔上作用为 $-1$，不是 CM uniformizer $1+2\omega$。
+对任意 cyclotomic character $\vartheta$，
+LLZ Theorem3.2 的证明逐项给
+$$
+\begin{split}
+L^{\gamma_j}_{p,\mathrm{crit}}(F_j)(\vartheta)
+={}&\vartheta(\epsilon_{\mathrm{cyc}})
+  (\ell_0\ell_1\ell_2)(\vartheta)\,\Omega_{j,p}^{\iota}\\
+&\qquad\cdot
+ \mathcal K_{\mathfrak f}^{\rm prim}
+       \big((\chi_{\mathrm{cyc}}^2\rho_j^\iota)^{-1}\vartheta\big).
+\end{split}
+\tag{B4}
+$$
+这里 $(-1)^{k-2}=1$。本式引用的是该证明中保留
+$\rho_j^\iota$ 的完整公式；不用把其末行省略上标的印刷写法
+误读为另一个普通 CM type。
+
+在固定 odd 分支取
+$$
+\vartheta_s=\chi_{\mathrm{cyc}}\,
+              \langle\chi_{\mathrm{cyc}}\rangle^s ,
+\qquad s\text{ 在 }0\text{ 附近}.
+$$
+由(B2)，Katz 参数准确为
+$$
+(\chi_{\mathrm{cyc}}^2\rho_j^\iota)^{-1}\vartheta_s
+ =\widehat{\lambda_j^c}\,\chi_{\mathrm{cyc}}^{-1}
+           \langle\chi_{\mathrm{cyc}}\rangle^s
+ =\widehat\nu_j\langle\mathrm N\rangle^s .
+\tag{B5}
+$$
+这是同一个原 finite $\eta_j$，没有先作裸共轭再漏掉普通地点。
+同时
+$\vartheta_s(\epsilon_{\mathrm{cyc}})=-1$，
+而 $\ell_i=\log[\gamma]/\log\chi_{\mathrm{cyc}}(\gamma)-i$ 给
+$(\ell_0\ell_1\ell_2)(\vartheta_s)=(1+s)s(s-1)$。
+所以得到完整的原局部 germ
+$$
+\boxed{
+L^{\gamma_j}_{p,\mathrm{crit}}(F_j)(\vartheta_s)
+=\Omega_{j,p}^{\iota}\,s(1-s^2)\,
+ \mathcal K_{\mathfrak f}^{\rm prim}
+       (\widehat\nu_j\langle\mathrm N\rangle^s).
+}
+\tag{B6}
+$$
+特别，按这个 $s$ 坐标求导，
+$$
+\boxed{
+\left.\frac{d}{ds}
+ L^{\gamma_j}_{p,\mathrm{crit}}(F_j)(\vartheta_s)\right|_{s=0}
+=\Omega_{j,p}^{\iota}\,
+ 34^2c_j\theta^9\Omega_p\,I_{j,-2,p}^{\,2}.
+}
+\tag{B7}
+$$
+此处 $\theta=17^{1/6}$，$c_j$ 和 $I_{j,-2,p}$ 完整沿 R806(27)、(32)。
+若以 $x=\log(\vartheta_s(\gamma)/\chi_{\mathrm{cyc}}(\gamma))
+=s\log\chi_{\mathrm{cyc}}(\gamma)$ 为坐标，则
+$\frac{d}{dx}=(\log\chi_{\mathrm{cyc}}(\gamma))^{-1}\frac{d}{ds}$。
+(B7)固定使用 $s$，没有隐藏该导数倍率。
+
+因此这个固定权四形式的临界函数在中心已有一个强制零，
+且它的阶数准确为
+$$
+\operatorname{ord}_{s=0}L^{\gamma_j}_{p,\mathrm{crit}}
+=1+\operatorname{ord}_{s=0}
+   \mathcal K_{\mathfrak f}^{\rm prim}
+       (\widehat\nu_j\langle\mathrm N\rangle^s).
+\tag{B8}
+$$
+若 germ 恒零，双方按无穷阶理解。
+所以“该临界中心恰为 simple zero”当且仅当原 $I_j\ne0$；
+没有从整个 Iwasawa 函数非零推固定值非零。
+R817 的原固定素数7993已经支付三个 $I_j$ 均非零，
+故(B8)在该固定检测处给三条真实 simple zero；
+它不把这个结论推广到全部或无穷多个研究素数。
+
+(B7)还与 R804 的原对数规范逐项相容：
+$$
+\boxed{
+\log_j(\operatorname{loc}_{\mathfrak p}z_j)
+=-\frac{\Omega_{p,0}^3}{\sqrt{17}\,\Omega_{j,p}^{\iota}}\,
+  \frac{1+\pi/\bar\pi^2}{1+\bar\pi/\pi^2}\,
+ \left.\frac{d}{ds}
+ L^{\gamma_j}_{p,\mathrm{crit}}(F_j)(\vartheta_s)\right|_{s=0}.
+}
+\tag{B9}
+$$
+$\sqrt{17}$、原 local Euler 的方向、固定全局 $z_j$ 均未变化。
+
+(B4)–(B9)涉及权四 $F_j$ 的 slope3 Kato 函数。
+(A5)涉及权二 $f=\theta(\psi_{17})$ 的 slope1 cohomology 投影。
+这两个真实对象不能仅因都称“critical”就相认。
+要从(A4)的第四槽推出(B7)，仍需正文§6所列的实际全局类比较。
+LLZ Theorem3.4 把 Kato 版本与 modular-symbol 版本比较到两个
+非零 scalar（每个 parity 各一个）；本篇没有因此为未规范的
+modular-symbol 函数赋上(B7)的绝对常数。
+
+**附录的原文依据。**
+A. Lei, D. Loeffler, S. L. Zerbes,
+*Critical slope p-adic L-functions of CM modular forms*，
+Israel Journal of Mathematics **198** (2013), 261–282，
+[已发表版本](https://link.springer.com/article/10.1007/s11856-013-0020-0)，
+[作者已接受稿](https://wrap.warwick.ac.uk/id/eprint/58879/1/WRAP_Loeffler_cmcritical.pdf)。
+§1.2–1.3、Proposition2.22、Lemma2.26、Theorem2.28、
+Lemma2.18、Theorem3.2及其证明、Definition3.3、Theorem3.4。
+<https://arxiv.org/pdf/1112.5579>
+本附录没有新增数值计算；(A1)–(A5)、(B5)–(B9)分别是完整
+q 展开、Frobenius 对偶和该原文公式在本篇固定角色上的直接推导。

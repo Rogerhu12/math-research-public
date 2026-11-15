@@ -78,3 +78,5 @@
 - [R826](../results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md)：R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
 
 - [R824零角增补](2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)：在原完整W_D的零角真实二次帽内，R824的k=13也不可提升：r≥1保实际仿射修正的零角仍二次，四物理块第13行的λ=6a⁻³π3−246a⁻²π2+5042a⁻¹π1−68880π0杀全部首像，实际首商配对36a⁻¹C0u0²e0²为unit。可提升四次候选必须r+2h≥s+1；不扩到仅有共同G0的任意增广来源或全核。
+
+- [R826附录A–B](../results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md)：R826附录付原G_j的完整理想和/真正weight0 CM companion、全两项q系数与所读U特征−π；不能用ordinary形式投影。LLZ已发表公式在原λ_j给Lcrit(χ〈χ〉^s)=Ωιs(1−s²)Kprim(ν_j〈N〉^s)，中心导数准确为Ωι34²c_jθ⁹Ωp I_j²；原对数Euler/√17保，simple zero等价原I_j≠0。三重积slope1与单形式slope3的global类尚未比较，不增加跨p非零。
