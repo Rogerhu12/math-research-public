@@ -538,3 +538,5 @@ R277 的实际有限模型消费者：[actual81全部高109精确非奇异与区
 - [R279. 完整有限场的直接连续主曲率证书](results/R279-finite-field-direct-continuous-curvature-certificate.md)（已证明，条件几何定理与有限证书归约）：从同一有限位置映射完整两阶导数形成Gram Δ、未归一第二形式H及两个标量A_K/B_K，严格正性恰等价于全部|κ|<K，非严格边界与换图/反射符号完整。有限旋转Fourier前缀的径向次数/带宽、Bernstein全域包络和严格余量下细分完备性明确；shared-B及完整材料cut尾使用不截频的有限复合表达，不能冒有限材料角谱。给R241实际连续K输入而不假定精确等距/已有K，保R248全相位前提、原g/renderer/点对/reach责任；没有实际新闭场或K数值，不增六/九jet机器门或求解验收。
 
 R279 的同场汇总源码：[完整曲率与完整闭F0直径接口](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)。复用真实六jet/两帽球、原tau与实际K；严格保闭域完整性、marker重叠及C² seam未付范围。仅实现条件读取，不宣称当前曲率/直径/reach数值。
+
+- [actual119：八批真实六控制延续](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)（run43693462669/source6fffce1f）：8批各8接受，原W1056.4579275781534→739.9479122854005，末unit第一式−38.46941285550693，全部原最终标志仍false。末响应及步长变弱不证明秩丢失/极小/无根；120与121各自选真实第3/8批起点。

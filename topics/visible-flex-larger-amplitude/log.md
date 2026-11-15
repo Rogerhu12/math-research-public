@@ -173,3 +173,7 @@ run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，
 ## 2026-11-15 08:15:39 UTC /root — 119实际公开六控制链运行
 
 run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，08:13:08UTC创建；API已确认进入原独立八方向批次science，未先报结果。发布119时一次非快进已由原helper立即pull --rebase并再推成功，两README仍原blob。非零112入口已随3dd0bbc0正式推送，120接线继续。
+
+## 2026-11-15 08:27:16 UTC /root — actual119八批完整读回并区分两个真实起点
+
+[实际结论](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)：run43693462669/source6fffce1f，8批各原8方向全接受，W1056.4579275781534→739.9479122854005，所有原final仍false。全部外trial逐读，末两批大步拒绝多为有效候选不达Armijo，同时保内层域异常/内层tol=false实际接受；不冒极小或无根。原正常reader第2–8批可选字段省略有bytes/SHA，不冒over-budget。初末FD/新scalar域/零circle及true status→summary→recipe生命周期核过，无raw入库。121从真实第8批接原搜索；120以第3批较强前三列响应作初猜选择，λ=.001，保持原完整非零门。H压缩已完成117/119到正式note；113、118仍运行。

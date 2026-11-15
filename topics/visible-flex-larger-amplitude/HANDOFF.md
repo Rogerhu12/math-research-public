@@ -26,21 +26,21 @@
 
 ### 113 完整binary128残差
 
-第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，08:10:30仍science step14，前13步success；amplitude少量元数据监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)在首快照前缺历史JSON，不是128数值失败。
+第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建，08:19:27仍science step14，前13步success；amplitude少量元数据监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)在首快照前缺历史JSON，不是128数值失败。
 
 [113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)CPP1b59cd10/bridge3655c81a/probeba3564ca及28pin不变；[input修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)requestce294b5e/workflowdb8a479b仅恢复公开8bd26710两原ready到既有env。真实113位覆盖e=L−target/226态RK/129248残差，geometry/tables/scales原64字面值。7200s只128child，前后原64/初J/R273另计，step320/job350min；partial后原64solve/finalJ/audit仍继续，旧64J不冒128一致J。
 
 [持久128缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)、[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[接线](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：F与独立gram C分别求导、不默C=F_e，小残差不界D残差，不冒IEEE光滑/新J；113不改；exact_refinement写独立有限轨迹JVP，未运行。
 
-### 117已读回；119独立原批次接续
+### 119已完整读回；120非零112及121接续
 
-[117实际](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d，8方向12trial全8接受，W1234.283357373182→1056.4579275781548，unit/full112/native/final全false。初3×6最小数值奇异33.56150645878255、同点old4为.19378008756935441；末18.220133414140268。末unit首项−45.966457512168795、radius.0125；summary88323B/14b3c8af无LF、status1210862B/d6d16e0d。六末p及全部trial见note/119原recipe。
+[117](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)已结清；[119八批实际](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)run43693462669/source6fffce1f/job132748791692及report132749530039均success，130.226122293s，8批各原8方向全部接受，明确批数停止，无资源partial。W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693，所有原unit/full112/native/nonzero/success仍false。
 
-初末六列FD、同run退化25数组、新Arb927叶0未解及三odd冻结原3p/K3/T112/453零circle已读。有限Gauss兼容/C²/roundoff/Frenet、高109/横截/非零场仍未付；数值响应与零core检查不冒接受。
+全部原trial/初末FD/每批新scalar域/三odd冻结453零circle已读。末完整3×6最小数值奇异3.2653479765584335、前三列.41668210491439717，radius.00078125；不能从变弱/小步推导秩丢失或无根。第2–8批正常reader省略可选字段有明确身份，非over-budget；wrapper真status+原摘要后传参数，child自己的父状态未读声明不伪改。已读raw删，无上传；全部8summary和状态身份见note。
 
-[119真实八批配方](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)已发布：wrapper b9db240d、recipee930b7c9/request7a99ec41/workflow66ba3f93；原family79464f9c/search e154afe2/reader3e2c0515逐字不变，81+wrapper+2pins、own24闭包。由117末六p起，最多8个独立原8方向批次，每批radius=.1显式reset，原20外档/12×20/full final全保。真child status/原summary读全才传末六p及本run/source/SHA；不传J/W/域。unit/full112原标志、零接受、非八方向预算stop或工程资源停止即退出编排，继续课题。批间3600s/step75/job90min，逐份原≤90KB摘要，incomplete诚实停链；已读批删raw、未读失败仅runner临时。实际run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，08:13:08UTC创建，已进入原批次science。
+121从119第8批真实六末p作新独立8批，原family79464f9c/search e154afe2/reader3e2c0515及24闭包、8×20/12×20/final不变，各radius=.1。原末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd，不能由hash伪恢复raw。geometry接独立源/接口，尚无121run。
 
-[独立非零112薄入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35/interface1e714343已发布：六系数三odd固定/三p active，显式λA目标，完整453态/高109/rawφ/真当前H FD，原banded→core 8outer/17trial/RMS/BC/最终native J+audit。原client1cdf0e14可直接用01930f3b配置，无旧initialCheckpoint；4输入/2历史ready/78源需真实恢复。低三阈值不作开算门；amplitude接120 λ=.001实际实验，尚无run/结果。真接受后全六设计冻结转450维same-g。
+[807f非零112入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)已发布：三odd固定/三p active、显式λA、453态/高109自由、真实当前H原FD及完整原banded→core/native/finalJ+audit。120六件源已冻结待root全文读/发布：选择119第3批末p（非第8末点），summary73546B/4ec08e23、status1568824B/10c31f1d；前三列最小数值奇异23.479971346554226仅作初猜选择。λ=.001只缩前三core目标/对应初猜，不缩六scalar；client1cdf0e14/原01930配置无initialCheckpoint，4输入/2历史ready/78源真实恢复，300min部分运行/330step/350job。低三阈值不作新增启动门。尚无120run或非零接受；成功后冻全六设计转450维same-g。
 
 ### 110已完成；118补真实midpoint471
 
@@ -62,4 +62,4 @@ same-g v4冻结g/全p/t范围，K=k=0/activep空/T=M/state4M+2；699二分1397+k
 
 ## 维护与重做范围
 
-已完成95–117各结果在正式note，113及118运行/119已发布待run/120接线。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
+已完成95–117各结果在正式note，113及118运行/119已结清/120待发布/121草稿。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。

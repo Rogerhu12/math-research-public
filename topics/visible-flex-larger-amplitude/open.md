@@ -16,7 +16,7 @@
 
 [R283固定trace完整变分](results/R283-finite-root-trace-differentiation-with-literal-tables.md)及[具体113接口](notes/2026-11-15-native113-finite-root-trace-variation-design.md)已登记：原C由独立gram形成，不默作F_e；有限root每一步连同C/Cholesky/代回求导才能表达固定分支实延拓，近似线性solve还含D残差。它不证明当前branch稳定、IEEE舍入光滑或实际新J，不改113。
 
-[119已发布](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)：wrapper b9db240d/request7a99ec41/workflow66ba3f93，全部原六维science/reader不改。由真实117末六p作最多8独立原8方向批，每批显式radius=.1、全部final检查；读真status+原summary后才传本run/source/末六p。批间3600s、原75/90min、逐份≤90KB原摘要；资源/不完整停止不冒数学拒绝。实际run43693462669/source6fffce1f/job132748791692已进science，尚未读回结果。
+[119已发布](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)：wrapper b9db240d/request7a99ec41/workflow66ba3f93，全部原六维science/reader不改。由真实117末六p作最多8独立原8方向批，每批显式radius=.1、全部final检查；读真status+原summary后才传本run/source/末六p。批间3600s、原75/90min、逐份≤90KB原摘要；资源/不完整停止不冒数学拒绝。[实际119](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)已读回：8批各8接受，W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693、末radius.00078125，全部原最终标志仍false。全部外trial及检查已读；原reader的可选字段省略有身份，不是over-budget。121由第8批真实末六p接原批次；120选第3批真实末p及λ=.001开展独立完整非零112，原接受门不变。
 
 ### 1B. 110实际与118新增midpoint471真实连续模型
 
@@ -38,7 +38,7 @@
 
 [117六控制实际入口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)已发布 family79464f9c/search e154afe2/reader3e2c0515/recipe4f40206d/request7147dbda/workflowf3e7a17e，父22源→新24、81+2 pins。实际116末四p映射[p1,p2,p3,0,theta,0]，旧四列[0,1,2,4]；完整3×6/9×6及2normal+4tangent，原8方向/20外档/12×20校正和原全部门保持。每列FD独立尝试、实际三odd冻结453方形检查、新scalar域重付。初radius明确重置.1；尚无117响应或接受，函数独立不冒响应补秩。
 
-[117实际](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d：8方向12trial全接受，W1234.283357373182→1056.4579275781548，最终unit首项−45.966457512168795且全部final false。初3×6最小奇异33.56150645878255对同点old4 .19378008756935441，末18.220133414140268；六列FD均有效、新Arb927叶0未解，非严格横截或非零场。119由真实六末p最多8个独立原8方向批次，各radius=.1 reset，原门/预算不变，真实child参数及own24来源传递；无119结果。
+[117实际](notes/2026-11-15-actual117-six-control-response-and-eight-acceptances.md)run43691986785/source8e52679d：8方向12trial全接受，W1234.283357373182→1056.4579275781548，最终unit首项−45.966457512168795且全部final false。初3×6最小奇异33.56150645878255对同点old4 .19378008756935441，末18.220133414140268；六列FD均有效、新Arb927叶0未解，非严格横截或非零场。119由真实六末p最多8个独立原8方向批次，各radius=.1 reset，原门/预算不变，真实child参数及own24来源传递；119已实际结清，见1A原结果链接。
 
 ### 1D. 真正接受后的同live fullDN
 
@@ -56,7 +56,7 @@
 
 [同g精化入口](notes/2026-11-14-same-metric-live-refinement-entry-and-current-gaps.md)已明确冻结所有scalar p、g、区间、尾帽、t范围；same-g v4置K=k=0/activep空/T=M。699节点二分至少1397再加knots，prepare/fullDN两个max_nodes均须充足。更高M或tailsteps不得偷用旧61种子冒同配置。精化误差须达到机器或原solver容差；真实未付接口按原源补齐，不重造旧求解器或增机器门。
 
-[新六控制非零112完整入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35已发布：固定三odd/三active p、显式λA、完整453态及全部高109、真实当前H原native+全J/原FD、原banded与fullDN函数体及全部final门。当前四数学输入不变，原client1cdf0e14/01930f3b配置无旧initialCheckpoint；两ready从真实历史env恢复。无需低三先达阈值才启动有限正λ尝试；120 λ=.001接线中，没有非零场接受结果。实际成功后须冻结最终六参数，不继承117旧域证书或宣称same-g。
+[新六控制非零112完整入口](notes/2026-11-15-six-control-three-active-nonzero112-interface.md)source807f6a35已发布：固定三odd/三active p、显式λA、完整453态及全部高109、真实当前H原native+全J/原FD、原banded与fullDN函数体及全部final门。当前四数学输入不变，原client1cdf0e14/01930f3b配置无旧initialCheckpoint；两ready从真实历史env恢复。无需低三先达阈值才启动有限正λ尝试；120六件完整源/接口已冻结待root发布，以实际119第3批末p、λ=.001接线，没有非零场接受结果。实际成功后须冻结最终六参数，不继承117旧域证书或宣称same-g。
 
 ## 3. 全t强C²、嵌入、reach与整像幅度
 
