@@ -19,7 +19,7 @@ PRODUCER='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
 PRODUCER_SHA='3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e'
 PRODUCER_SCHEMA='R259-fixed-power-ten-scaled-minimum-norm-Newton-full3-v1'
 STATUS_NAME='fixed-power-ten-joint-newton-status.json'
-SCHEMA='request178-fixed-power-complete-ten-Newton-compact-readback-v1'
+SCHEMA='request178-fixed-power-complete-ten-Newton-essential-readback-v2'
 LIMIT=90000
 
 
@@ -401,6 +401,90 @@ def reference_actual_repeated_words(out,status):
             used.append('#/'+final_name)
 
 
+
+def essential_r2_selection(out,status):
+    """A semantic small conclusion, not compression of the omitted raw model."""
+    steps=out.pop('original_outer_steps',[])
+    columns=['direction','residual_before','merit_before','accepted','accepted_alpha',
+        'merit_after','accepted_ten_parameter_words','stop_reason','unvisited_real_trial_indices',
+        'selected_kind','actual_ten_direction','actual_three_action','actual_full3_slope',
+        'real_trial_count','full_outer_identity','newton_selected','newton_clip_factor',
+        'newton_unclipped_scaled_norm','newton_rejection_reason','fallback_selected','fallback_selected_length',
+        'fallback_stop_reason','current_forward_primal_words_equal_owner',
+        'complete_original_direction_failures_and_exceptions']
+    rows=[]
+    for row in steps:
+        action=row.get('actual_direction',{});nr=row.get('newton') or {};fb=row.get('fallback') or {}
+        rows.append([row.get('direction'),row.get('original_full3_residual'),
+            row.get('original_full3_merit_before'),row.get('accepted'),row.get('accepted_alpha'),
+            row.get('original_actual_merit_after'),row.get('accepted_ten_parameter_words'),
+            row.get('stop_reason'),row.get('unvisited_real_trial_indices'),row.get('selected_kind'),
+            action.get('actual_ten_direction'),action.get('original_complete_three_directional_response'),
+            action.get('original_full3_slope'),row.get('original_real_trial_count'),
+            row.get('full_original_outer_identity'),nr.get('selected'),
+            nr.get('radial_clip_factor'),nr.get('original_unclipped_scaled_norm'),nr.get('rejection_reason'),
+            fb.get('selected'),fb.get('selected_line_length'),fb.get('stop_reason'),
+            row.get('current_forward_equation_words_equal_owned_primal'),row.get('actual_failures_and_exceptions')])
+    out['original_outer_columns']=columns
+    out['all_original_outer_rows']=rows
+    model=out.get('last_original_direction_model')
+    if isinstance(model,dict):
+        # Complete originals were already shape-checked by outer_steps().
+        for name in ('complete_scaled_matrix',):
+            if name in model:model[name]=dict(original_identity=identity(model[name]),
+                scope='Actual scaled matrix omitted; full last J and fixed S retained, no arithmetic reconstruction by reader')
+        nr=model.get('newton')
+        if isinstance(nr,dict):
+            for name in ('original_unclipped_scaled_direction','complete_scaled_coordinates'):
+                if name in nr:nr[name]=dict(original_identity=identity(nr[name]),
+                    scope='Earlier/unused scaled-coordinate word vector identified, not transmitted')
+            # Only literal equality permits a reference, never an inferred product.
+            if rows:
+                reference=rows[-1]
+                for name,column in (('complete_physical_direction','actual_ten_direction'),
+                    ('original_complete_three_directional_response','actual_three_action'),
+                    ('original_full3_slope','actual_full3_slope')):
+                    if name in nr and encoded(nr[name])==encoded(reference[columns.index(column)]):
+                        nr[name]=dict(reference='#/all_original_outer_rows/'+str(len(rows)-1),
+                            column=column,original_identity=identity(nr[name]),canonical_bytes_equal=True)
+    for name in ('fixed_shape_definition','fixed_shape_evidence','policy'):
+        if name in out:
+            out[name]=dict(original_identity=identity(out[name]),
+                scope='Source-bound contract; actual selected shape and all scientific conclusions retained separately')
+    fresh=out.get('fresh_original_nine')
+    if isinstance(fresh,dict):
+        name='complete_three_by_nine_forward'
+        if name in fresh and not isinstance(fresh[name],dict):
+            fresh[name]=dict(original_identity=identity(fresh[name]),
+                scope='Fresh old-nine response identified; full new-ten initial response and all zero-extension differences retained')
+    for name in ('initial_projection_contract','final_projection_contract'):
+        if name in out:
+            actual=out[name]
+            out[name]=dict(original_identity=identity(actual),original_scalar_fields=scalar_fields(actual),
+                actual_failures_and_exceptions=exceptions_in(actual),
+                scope='Original projected parameters/residuals and all projected FD retained in their descriptions')
+    # The projected J is diagnostic data, distinct from the owned Decimal J.
+    # Preserve its identity while returning all original projected FD maxima.
+    for name in ('initial_binary64_projection','final_binary64_projection'):
+        value=out.get(name)
+        if isinstance(value,dict) and 'three_by_ten_parameter_jacobian' in value:
+            matrix=value['three_by_ten_parameter_jacobian']
+            value['three_by_ten_parameter_jacobian']=dict(original_identity=identity(matrix),
+                original_shape=[3,10],scope='Fully read/shape-checked in Actions; projected matrix words not transported')
+    coverage=out['original_readback_coverage']
+    coverage['r2_prior_seven_QR_internal_residual_and_factor_words_only_identified']=True
+    coverage['r2_prior_current_J_and_factor_identity_scope']='Complete original outer-record canonical identity; constituent J/QR tables not separately transported'
+    coverage['r2_all_eight_actual_d_Jd_slope_accepted_words_failures_and_unvisited_returned']=True
+    coverage['r2_last_complete_J_Q3_R3_and_original_triangular_linear_residuals_returned']=True
+    coverage['r2_all_available_120_FD_checks_read_before_any_selection']=True
+    coverage['r2_omitted_new_payload_categories']=[
+        'per-direction redundant Newton factor/residual diagnostics except final actual model',
+        'repeated top-level fixed-shape/old-policy descriptions',
+        'old-nine fresh J matrix and projected binary64 J words',
+        'last scaled-matrix and redundant scaled-coordinate vectors']
+    out['readback_revision']=2
+    return out
+
 def build(status,raw,directory,rules,compute_outcome):
     reader=Readback()
     if status.get('schema')!=PRODUCER_SCHEMA or status.get('source_sha256')!=PRODUCER_SHA:
@@ -537,12 +621,13 @@ def build(status,raw,directory,rules,compute_outcome):
         canonical_identity_scope='original JSON values; metadata-only serialization, no scientific recomputation',
         omitted_payload_categories=['matching zero-extension array descriptors',
             'per-trial full ten-parameter and112-right vectors','per-trial node/mid domain-minimum table',
-            'earlier complete Q and R arrays; all full-factor identities retained',
+            'earlier complete Q and R arrays; complete direction-model identities retained',
             'unused last-Q basis columns','terminal Robin detail tables',
             'complete literal-binding array descriptor lists','complete FD perturbation tables'],
         full_scientific_tables_not_independently_read_by_downstream_recipient=True,
         no_accuracy_certificate_from_metadata_or_FD=True)
     reference_actual_repeated_words(out,status)
+    essential_r2_selection(out,status)
     return out,not reader.metadata_errors
 
 

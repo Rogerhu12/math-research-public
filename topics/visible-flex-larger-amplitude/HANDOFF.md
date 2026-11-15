@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 19:15:23 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 8b3f830668d536a7e702d0236d3eeb74b9de378e。
+规则同步记录：2026-11-15 19:16:37 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6fb4b3b16539d4ae8e02a4a058992e7b86c90165。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -25,9 +25,9 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
 |177 R379 geometry|43747934170 /d7540200dcf5e10378471620915aa29a39389862|原全根族112两图Riccati/cut，17pins|
-|178 R377 amplitude|43749066353 /d9336e76fe9948d642e6e079bbdf26946b6d42d4|已结束：科学8接受/child0，reader70，完整末点未返；r2 R387修订中|
+|178r2 R387 amplitude|本次修订发布；新run待官方metadata|原157父/完整十科学不变，单必要摘要和静止清理修复|
 |179 R382 geometry|43749949418 /ccf1b02341f365e4b6eff5d5eeeba9be2b0487ad|新R323 profile→R375完整far/R357单位行→原453/BVP，59pins|
-|181 R385 exact|本次独立源码发布，实际run待官方metadata|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
+|181 R385 exact|43751399744 /9236fcf0a21746eef528754d567c2992ea3a12c9|原C/全深族112实角lift/物理单位Robin/完整cut，19pins|
 
 只由唯一负责人读结束后的必要原日志，不读运行中大日志。官方job绿不代科学接受，未返call不补拒。完整配方/预算/源/错误/未访范围在同号notes接口和open；大数组只Actions内部与身份。
 
@@ -47,7 +47,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 177按R375全闭段两图比较/存在、非零sign-log幅度和全cut，从原根族重算，不裁旧盒；完整初值乘Taylor余项/每候选合法商/事务/后缀保。C3600/linear14400/25M/256bits/depth32/360job；12bits绝对工作目标，namespace仅startup clip。单必要90KB，失败不清。
 
-[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)child0/8接受/44.280902993s，reader116585B>90KB/70；5678B fallback没有完整末merit/十p/逐trial/120FD/final，status已清，不能造父。178r2 R387仅改必要摘要去重复及成功读回+owner静止才清；search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8与全部原门不变，必须新实际运行。
+[R377实际178](results/R377-actual178-eight-ten-coordinate-acceptances-and-readout-limit.md)child0/8接受/44.280902993s，reader116585B>90KB/70；小fallback无完整末p/F/FD，status已清。[178r2接口](notes/2026-11-15-request178-r2-essential-readback-and-quiescent-cleanup.md)五件本次即发：reader4094e8fa/wrapper d0fa9a4c/request c7ee49c6/wf81d90eaf；原search6b55a6d2/producer3e5c8a34/recipe c8bb1ca8和全部门逐字保。八d/Jd/slope/接受词及全部trial/120FD/final必要，先七QR内部仅身份/末JQR保；成功reader+摘要及真实wait/reap后清，stdout仅身份。amplitude核新R387，不冒恢复旧178或已知新轨迹。
 
 [179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件/59pins已发；完整R375幅度管→逐候选R357单位行→原453，同owner当前H/J/FD/338112/32×10/2e−9/audit保。初点R381反证仍有效；单90KB必要、六读回/marker/静止后才清；C3600、采样14400+1800启动clip、BVP7200/360job及全部后缀见原接口。
 

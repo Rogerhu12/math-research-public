@@ -338,3 +338,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 19:14:04 UTC /root — 181完整实角与物理单位Robin公开入口
 
 58256B完整科学diff、reader/request/wf全差异及17357B接口已读；三输入/C/far参数和原17pin逐项保，五件即推，19闭包。全实角/正幅度/正dot及Taylor、逐候选相关范数与DN分责保持，未造nativeμ/新成功；不增测试或审批门。真pull已读b8bd86a2b206306962b4cf62b7b3c940a46a13cb，双README未变。
+
+
+## 2026-11-15 19:15:49 UTC /root — 178r2必要读回与静止清理重跑
+
+四件30394B完整diff及11639B接口全文核后五件即推；仅wrapper/reader和接线变，原科学三文件/recipe/全部门及余111+9pin保。完整必要八方向/trial/120FD/final与先七QR只身份分责，成功摘要/原收据/真实wait后才清，stdout不分包；181实际43751399744/source9236fcf0已回填。真pull已读9236fcf0a21746eef528754d567c2992ea3a12c9，双README未变。

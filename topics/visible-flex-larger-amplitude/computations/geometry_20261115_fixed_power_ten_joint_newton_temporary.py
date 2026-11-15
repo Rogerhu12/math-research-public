@@ -24,12 +24,12 @@ ENTRY='geometry_20261115_fixed_power_ten_joint_newton_temporary.py'
 SCIENCE='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
 SCIENCE_SHA='3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e'
 READER='root_20261115_fixed_power_ten_joint_newton_scalar_readout.py'
-READER_SHA='0610bc3ff66494370018df8c8cd5cb04371fe33c1e48b7160033cbf4e951221a'
+READER_SHA='4094e8fa2413e6fca4a0f4c64dadd0279de6772163c1cd060c73347e038ced16'
 SCIENCE_SCHEMA='R259-fixed-power-ten-scaled-minimum-norm-Newton-full3-v1'
 STATUS_NAME='fixed-power-ten-joint-newton-status.json'
 REQUEST_SCHEMA='public-fixed-power-ten-joint-newton-request-v1'
 RECIPE_SCHEMA='R259-actual157-to-fixed-power-ten-joint-Newton-recipe-v1'
-SCHEMA='request178-one-fixed-power-ten-joint-Newton-temporary-experiment-v1'
+SCHEMA='request178-one-fixed-power-ten-joint-Newton-essential-readback-v2'
 LIMIT=90000
 CONTRACT=json.loads(r'''{"max_experiments":1,"complete_joint_directions":8,"complete_original_real_backtracks":20,"fixed_shape_catalogue_index":3,"fixed_shape_support_index":1,"fixed_shape_power":4,"all_ten_coefficients_variable":true,"independent_parameter_dimension":10,"initial_added_coefficient":"0","original_nine_relative_scale":"0.01","added_coordinate_absolute_scale":"0.01","scaled_trust_radius":"1","physical_scales_fixed_from_actual157_parent_words":true,"parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false}''')
 
@@ -132,6 +132,14 @@ class Processes:
         self.active=None
         self.received_signal=None
         self.wall_terminated=False
+        self.launched=[]
+        self.reaped=[]
+
+    def quiescence(self):
+        return dict(all_wrapper_launched_children_waited_and_reaped=(
+            self.active is None and self.launched==self.reaped),
+            launched_child_pids=list(self.launched),reaped_child_pids=list(self.reaped),
+            no_detached_process_group=True,received_signal=self.received_signal)
 
     def interrupted(self,signum,frame):
         self.received_signal=signum
@@ -145,6 +153,7 @@ class Processes:
         with stdout.open('wb') as out,stderr.open('wb') as err:
             self.active=subprocess.Popen(argv,cwd=HERE,env=child_environment(),
                 stdout=out,stderr=err,shell=False)
+            self.launched.append(self.active.pid)
             try:
                 while self.active.poll() is None:
                     now=time.monotonic()
@@ -178,6 +187,7 @@ class Processes:
                     self.active.send_signal(signal.SIGTERM)
                     try:self.active.wait(timeout=grace_seconds)
                     except subprocess.TimeoutExpired:self.active.kill();self.active.wait()
+                self.reaped.append(self.active.pid)
                 self.active=None
 
 
@@ -268,7 +278,12 @@ def run(args):
         code=70
     finally:
         metadata['wrapper_wall_seconds']=time.monotonic()-started
+        metadata['owned_child_quiescence']=processes.quiescence()
         atomic(args.out/'run-metadata.json',metadata)
+        atomic(args.out/'owner-quiescent.json',dict(
+            schema='request178-owned-process-quiescence-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            wrapper_source=receipt(__file__),**processes.quiescence()))
         for sig,handler in old.items():signal.signal(sig,handler)
     return code
 
@@ -281,9 +296,10 @@ def report(args):
         request_number=178,run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
         partial=True,wrapper_exception='No complete wrapper metadata')
     compact_path=args.out/'readback'/'compact-summary.json'
+    report_processes=Processes()
     if not compact_path.is_file():
         try:
-            code,_=readout(Processes(),args.out,args.rules_directory,args.compute_outcome)
+            code,_=readout(report_processes,args.out,args.rules_directory,args.compute_outcome)
             metadata['post_step_reader_exit_code']=code
         except Exception as error:
             metadata['post_step_reader_exception']=repr(error)
@@ -316,6 +332,31 @@ def report(args):
     else:
         code=0
     (args.out/'report-summary.json').write_bytes(raw)
+    reader_receipt_path=args.out/'readback'/'compact-summary-receipt.json'
+    owner_path=args.out/'owner-quiescent.json'
+    try:
+        reader_receipt=json.loads(reader_receipt_path.read_bytes())
+        owner=json.loads(owner_path.read_bytes())
+        reader_complete=bool(original and reader_receipt.get('metadata_complete') is True
+            and reader_receipt.get('bytes')==original['bytes']
+            and reader_receipt.get('sha256')==original['sha256'])
+        owner_quiet=bool(owner.get('all_wrapper_launched_children_waited_and_reaped') is True
+            and owner.get('run_id')==os.environ['GITHUB_RUN_ID']
+            and owner.get('source_commit')==os.environ['GITHUB_SHA']
+            and owner.get('wrapper_source')==receipt(__file__)
+            and report_processes.quiescence()['all_wrapper_launched_children_waited_and_reaped'])
+    except (OSError,ValueError,TypeError):
+        reader_complete=False;owner_quiet=False
+    necessary_complete=bool(code==0 and reader_complete
+        and value.get('schema')=='request178-fixed-power-complete-ten-Newton-essential-readback-v2')
+    atomic(args.out/'report-summary-receipt.json',dict(
+        schema='request178-necessary-summary-cleanup-eligibility-v1',
+        run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+        wrapper_source=receipt(__file__),bytes=len(raw),sha256=digest(raw),
+        necessary_summary_complete=necessary_complete,owner_quiescent=owner_quiet,
+        post_step_reader_quiescence=report_processes.quiescence(),
+        incomplete_readback_must_not_trigger_explicit_raw_cleanup=True,
+        scientific_acceptance_not_inferred_from_cleanup_eligibility=True))
     token='VISIBLE178_'+uuid.uuid4().hex
     with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as stream:
         stream.write('compact_summary<<'+token+'\n'+raw.decode('ascii')+'\n'+token+'\n')
