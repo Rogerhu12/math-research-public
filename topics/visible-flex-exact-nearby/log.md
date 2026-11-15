@@ -147,3 +147,9 @@ SCI `5cdff6d9f51db3e99a3a89738001856182b155ae46819c6c796acdceb8480a89`；worker 
 根亲读54355B process、3245B worker-process、4280B publication，复核完整native身份、child0/11全门、全部6半径/4359行/1324新+4复用转换。数学384.482964337秒、worker385.28394180199996秒；所有原target/FFT/导数/local/profiles/seams重算计数0。完整61274B process保SHA 9a7e1a4c…；摘要仅省重复27pin表。R.02完整自然case5517372B仅原Actions artifact，不拆/重压/重算；其余自然文件原SHA保存。实际负R.001源combined<4.814928e21、nonlocal<1.340022e20、mean<1.819444e18，全保独立mean及真物理seams范围。
 
 报告SHA256 `b2aba8e1271ee02a9b7792fed0b714e7ad55fac5b42705f45cf4e4737ae021ce`。01:05:50.526029 runner真pull到8ac6aab5fde97bb59c0788af507f64b62f4580ee，两README diff空；比H已核高根01:07:18更早故不替换最新pull。本次只读双README核 11b4c9a073579cef94cbe2f2cebf64fa09155676 blob均未变。继续b*改进、原seams/正端口与无限Schur，不把上界当下界或完成。
+
+## 2026-11-15 01:22:05 UTC：十二阶Taylor只追加合同独推
+
+核原42KB Taylor源及完整Laurent/Taylor代数：forcing/w1十二阶需leading十四阶、k十四阶需K普通十五导，已由43661471951成功给足。背景u及v非径向高阶只因原cubic/恒值repair/zero-bump身份而零；不以零填未计算intrinsic。原75stage全保，旧degree0..6及leading0..8直接复用；原未保存的内部fractional-power/乘积仅作新增高阶所需helper另存。ell和b_loc的13阶显式补付，二阶径向不越前缀。新尾从N=12的完整几何级数付，sup/Wiener分标，原域/mean/同复δ/真seams保。
+
+T1–15 SHA256 `8bf949ce602ecd2dfa23ded74a78d01aa8b75881b5ccf9a5905a46512f105862`；尚未新数学，继续consumer实现。双README只读核 c29ec750a043d3f474c28906e36dacb51a895bf0，两blob未变。

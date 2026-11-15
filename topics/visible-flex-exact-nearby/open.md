@@ -200,3 +200,7 @@ G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；�
 ### 完整外段 old-circle 源已 actual 闭合，数值仍粗
 
 43660841558 child0/11门，全六半径、九个第一行词和五个独立mean项实际完成。R=.001负combined<4.814928e21；其主要费用仍原local与RQJgd。全完整自然文件原样保（R=.02>5MB仅原artifact）。后继只新评估根值剥离幅度/导数及相应改进界，不能重跑已成功4359积分。
+
+### T1–15 已成：十二阶补充仅消费已付高根
+
+root继续append-only Taylor consumer：保原75stage/原六阶行和fold8，仅补fold/leading9..14与forcing/w1 7..12、18norm和三新budget；ell/b_loc13 helper显式付。全部新数学仅公开Actions，后续接根值剥离和完整源预算。

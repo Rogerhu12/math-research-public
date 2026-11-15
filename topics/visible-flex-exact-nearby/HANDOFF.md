@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 01:18:36 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 01:22:05 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:07:18.332589 UTC c136bf4405b26dd8d4d754cdbb4b988f1606bc03；高根补算3次真pull/两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：11b4c9a073579cef94cbe2f2cebf64fa09155676；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：c29ec750a043d3f474c28906e36dacb51a895bf0；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
 最新前H9790B在notes/2026-11-15-handoff-before-divided-forcing-consumer.md；前H9641B在notes/2026-11-15-handoff-before-physical-cap-tail-Schur.md；前H9719B在notes/2026-11-15-handoff-before-higher-intrinsic-extension.md；前H9610B在notes/2026-11-15-handoff-before-full97-Poisson-deployment.md；更早H9900B在notes/2026-11-15-handoff-before-closed-mixed-inverse.md；旧log完整在notes/2026-11-15-log-through-inner-source-deployment.md。历史链和所有原actual/native、失败/参数/逐行证明保。
 
@@ -33,7 +33,7 @@ impulse43649423561/11门/nativefbba3507…14.17MB/8parts，6391新齐次界+两1
 aux失败43640181602/6276b4b8…及anchored v1 43646714623/a6f6225c…保；v2 43647998272/84e2bd1b…小13门原样/大域R3/8000新14门。固定η0高根v2 43651259105/15门/38a8ba8d…12误差/36mean/11E/内蕴0..9/54对照，0FFT；Nyquist失败保。μ=Q²B+、a0=GB−、J=−QB+、detM0=G²B+²，勘误b816799e…；C1–12/48940b32…同复δ a1奇/b1偶。
 oldρ Taylor43653825736/20门/native18990ac2…52843B/process eebbbf37…48844B：258新cubic/75stage，0旧FFT/intrinsic/aux；fold8、forcing/w1六阶、|j|≤1536。固定[rlo−9e−6,rhi+9e−6]；φ1/512归一化local两sup24.457019495/781421.481649，非operator norm。
 inner首次43656438723 child1/9门/两成功stage保；reader-v2 43657933806 child0/17门，native6b5e6c64…/process e54c7505…原两stage新4转换/4积分。K1–11实θ²合同b1f0f0c3…；71pin actual43659519776 child0/11门，native97d92739…13433B/process c6ec19e8…13838B，2新stage/4local积分，负完整源<10602457152、正<3219480409，原nonlocal/mean保。
-H1–9仅补ae0e26fd…：66pin actual43661471951 child0/12门，nativeec702cff…619835B/processc7ff6924…41444B；44新stage/6FFT/45mean/24intrinsic，新F12..17、E11..16、内蕴10..15，原12列/36mean/54对照逐字保。root正在接Taylor7..12 append-only，原75stage不可覆盖/重算。
+H1–9仅补ae0e26fd…：66pin actual43661471951 child0/12门，nativeec702cff…619835B/processc7ff6924…41444B；44新stage/6FFT/45mean/24intrinsic，新F12..17、E11..16、内蕴10..15，原12列/36mean/54对照逐字保。T1–15/8bf949ce…已证Taylor7..12 append-only合同（fold/leading9..14需内蕴15），原75stage不可覆盖；root编写仅缺阶consumer。
 外段E1–25/557dd24e…有序Zρ=CZφ+MZ−N(fa,fb)；actual43657793725 child0/11门，1328新导数/4359外行/6case，native73227377…14518B/process bca94cb1…43892B，0旧数学重算。R.001负/正local upper4.691836e21/1.150755e22；normalized f/fρ/fφ/fρφ全存。完整nonlocal首次43660649533 AST少')'、0数学/0stage保；仅修括号后SCI d4ea7d15…/manifest6456b7fb…（其余26pin不变），后继43660841558 child0/11门，native17112d96…11664B/process aa106c22…54355B；1324新转换+4原inner、6profile/4359积分、0旧数学重算。R.001负combined<4.814928e21、nonlocal<1.340022e20、mean<1.819444e18；R.02自然5517372B原artifact保，完整61274B原process亦保。
 b*剥离B1–25/6d34960b…保实r双ray/真forcing跳/根mean；新S1–16/973ddf1c…用原normalized-forcing0..6与whole-old-product尾，负实δ角宽exp(D1R)，按实际cell累计gb/T；先计算V=N(ga,TL)再做两阶有序导数，真seams与M0b*全部保。phase正在新标量补算。leading/外片/真seams/正weighted端口均独立，不授完整strong-return/cutoff。
 
