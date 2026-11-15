@@ -178,7 +178,7 @@ R735/R738/R745原模型、4920cosets/800闭链、六Hodge800，R754完整period/
 
 [R778短恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)已证原20cusps是单L轨道；143个完整M系数−e..142−e准确零迫A=yB全球，仍rank2720/kernel308。基q142，实际e1原Hodge Q427已在旧800中；完整40坐标的M2/M6/M12前缀13/41/82注入。不能以单modξ代真实L方程。$/$$最终证明SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727。
 
-[R777准确短基工程](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)已推9d6c4406，未触发：82E1整数常数、全部126半trace/40det、block79、每权82^w给M6/M12原q142；H³只读R774前两块/原ρ，用694阶Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX，由已知membership与R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；数千stage清单gzip只artifact。pending请求非触发路径，R775真成功后填artifact/cert/manifest，写最终-request.json运行。
+[R777准确短基工程](notes/R777-exact-short-K-basis-and-Hodge-coordinates-method.md)已推9d6c4406，未触发：82E1整数常数、全部126半trace/40det、block79、每权82^w给M6/M12原q142；H³只读R774前两块/原ρ，用694阶Q矩阵/Dixon解14 RHS，准确AX=I后原坐标82^6ρX，由已知membership与R778注入认证。core4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；按新根15只保脚本参数/run/输出SHA，活跃断点一日转交。pending已指R775新run43679160495、仍无artifact/cert/manifest；真成功后才写最终-request.json运行。
 
 [R781真实切向下降](results/R781-original-tangent-descent-and-inverse-free-Laurent-relations.md)用原g=−diag(1,−1)T^-40给v=ξ^-10u下M+=L(ξ+ξ^-1)，20/L、280/Q；整数Chebyshev无1/2，L不缩。原κ=H³首项非零，v=κw后R0=1、Ãn=κ_(n+1)κ^(n−1)、c*=246^6bκ4，(R−wR′)^3=Ã(R²−c*w²)²逐阶只除3n+1。原143关系清为246³κ^(n+2)A_n+Σκ^jR_(n−j+1)B_j=0，即2860×3028 L；须准确全部代回。λb整monic、primitive280向量×ρ和分母界S^nΔn完整保留；Laurent阶段只用真R774，可先于R775/R777运行，关系矩阵随后接真K基。实际函数/β/第二类period/Poincaré/高度jets及R724 Bézout均未输出，全p证书存在仍开。
 
@@ -210,4 +210,4 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 
 [R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。
 
-R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。此次请求启动公开Actions，实际结果待核。即使成功，也须接R777准确基、2860×3028 L关系、原函数/β和完整高度，不能当完成主目标。
+R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。[公开run43679703344已成功](results/R781-certified-original-inverse-free-Laurent-prefix.md)：原R0..142、144实字段/逐阶stage全部通过原相位和准确递推校验，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。继续接R777准确基、2860×3028 L关系、原函数/β和完整高度；这些后继尚未计算，主目标仍OPEN。

@@ -313,3 +313,5 @@
 - **R783（已证明）**：[原ordinary障碍的规范二阶Robert系数与局部Norm自由度](results/R783-canonical-quadratic-Robert-local-coefficient-and-norm-freedom.md)。原cs在规范semilocal商中为A x²+B xz+I³，Θ=B−iA=13b，原Ω₂/ε=22−2Θ；坏值Θ11。证明辅助Norm原像选择无关，以及保两Norm/实结构的局部扰动自由度；真global ordinary改动在b≠0时模43为零。Θ实际值仍未求，不把局部自由度当global Robert值。
 
 - **R784（已证明）**：[原sigma六秩完整核与保持本原筛的临界左逆](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)。准确三wedge加法保μ6的三个通道；全critical矩阵有显式整数左逆L Kfull=2^(p−6)I。原primitive/Legendre权准确运输到式(784.27)，无错误筛选交换；原非消失与真实高度仍未证明。
+
+- **R781（公开准确计算已完成）**：[原无逆Laurent前缀](results/R781-certified-original-inverse-free-Laurent-prefix.md)。run43679703344/sourcef0292795实际生成R0..142，原280维字段的全部切向相位与逐阶微分等式准确验证，144字段/逐阶stage逐SHA核；只读取R774前五块和原尺度，不重算H³。cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。真实函数关系、β与高度继续，原始数据不入Git/Release。

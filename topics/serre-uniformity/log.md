@@ -315,3 +315,8 @@
 - 清理run43679907787成功：普通删除2016文件/775633196B，当前本题含metadata为64952729B；逐项历史Git blob/SHA与来源提交保留，数学未重算，无Release或原始数据上传。
 - R777原算术core不改；wrapper/workflow/method/pending跟随新根15，只发布脚本参数/run/输出SHA，预算300/350分钟。pending已指向真实运行中的R775，仍无最终请求，不能将未返回producer当成功。
 - R775 run43679160495与R781 run43679703344仍运行。H更新实际清理与run；继续原高度和全p非消失，终端仍不可用，API核两README并非force发布。
+
+## 2026-11-15 13:25 Asia/Taipei · serre-public-astra-20261115
+- R781公开run43679703344成功；逐阶原R0..142、280维字段/原相位、全部准确微分等式和144阶段SHA均通过。root核源脚本、job步骤/log、输入receipt、core/run receipt与完整输出哈希清单；不重算R774或新Laurent。
+- 证书SHA b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0；只持久保存脚本参数/run/哈希和此结果说明，原始表临时转交后继。登记R781实际计算并同步H/open/index。
+- R775仍运行；R777生产者未齐，保持pending。后继真实L关系/函数/β/高度未计算，继续原高度压缩和全p非消失，不改完成标准。
