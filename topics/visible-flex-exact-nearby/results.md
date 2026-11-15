@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 PW：完整七个正区输入经混合根迹到腰部density](results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md)。原负一阶七port与已成SP完整连接，保root稳定输入、全有限头/两mean、raw输入/输出转换、所有ordinary与affine单位。新正标量系数待实际；无新BVP/strong inverse结论。SHA256 246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562。
+
 - [R133 PF：逐点根有限部与完整真射线一阶系数](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)。重建完整两波行及原primitive后，证明root标签上的有限项函数为零；真Jacobian给新增g1hat反项，得到完整c0的有序收敛积分和waist density转换。SHA256 5856c8cf5fac8c75997a6e3d8c9aba1ad88cb136d1ae184985164d1745aab026；全H3范数、强余项、有限border和真core未授。
 
 - [R133 BD：微分后collar方程的完整degree32分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)。基准微分算子的band64与低→高常矩阵消去给独立shell列；所有canonical／实际差、primitive/nonmean投影、真实drift导数和mean完整收费，接NC成新的五列整行。高自身吸收仍用完整actual矩阵，数值和未知body待付。SHAbb792252f0a3400547293ba5d8e9f9f5c2aa842dcf749abfd3f993abd478935c；BD.2使用由componentwise A0取得的vector L∞，不额外授vector Fourier-sum norm。
