@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "23b5a9f56f0fb7e2b1390f611babec5c38253709",
+  "rulesReadAtCommit": "e5f056ddabea23da745238f24c6333fd1b9127c8",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -116,13 +116,116 @@
       ],
       "timeoutSeconds": 100,
       "receiptPath": "{work}/higher-kernel-original-216-source-preparation/higher-kernel-original-216-source-receipt.json"
+    },
+    {
+      "id": "full-infinity-original-dual27-through32",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-through39-runner-789f.py",
+      "scriptSHA256": "06fabed589011ec1c59e0594bbf373246cf306b7ce8cd5be73427a83dbb5ef5b",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+          "sha256": "54631a695dbd6dc41c446c8c3ab60ba527c5dd4f34fbe70187cdd0613caef1fb"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+          "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+          "sha256": "b803d92f159bf26bc9b4a80bbaf5a150ff8f17e81e201b0a99e845b7777038e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-full-infinity-original-dual27-v2-through21.json",
+          "sha256": "2782f380fe5731fd4766fb05fa94a6fa38c36d2d5e491bd63dd1149adc3a9388"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--forward",
+        "{forward}",
+        "--backward",
+        "{backward}",
+        "--full-operations",
+        "{full_operations}",
+        "--paid-full-receipt",
+        "{full_receipt}",
+        "--primitive-equations",
+        "{primitive}",
+        "--paid-selected-summary",
+        "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+        "--generic-rank-proof",
+        "{scripts}/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+        "--out",
+        "{work}/full-infinity-natural-dual-schur-through32",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024",
+        "--compile-seconds",
+        "30",
+        "--maximum-degree",
+        "32",
+        "--paid-full-summary",
+        "{scripts}/43731615668-full-infinity-original-dual27-v2-through21.json"
+      ],
+      "timeoutSeconds": 260,
+      "receiptPath": "{work}/full-infinity-natural-dual-schur-through32/full-infinity-natural-dual-schur-receipt.json"
+    },
+    {
+      "id": "koszul-outside-original-through35",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-outside-minimal-field-through35-789f.py",
+      "scriptSHA256": "e31138060ede4a4c263c3904b624287579bef11a1275bbb12d918dcde2cdd234",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+          "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-full-infinity-dual27-session-789f/43731615668-koszul-outside-minimal-original-field-through21.json",
+          "sha256": "e6dba9125956ba9372c491b9770474516f739f1470dc0ec0a9bbce0d21823af5"
+        }
+      ],
+      "argv": [
+        "--native-model",
+        "{native_model}",
+        "--primitive-equations",
+        "{primitive}",
+        "--selected-receipt",
+        "{selected_receipt}",
+        "--paid-schur-summary",
+        "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+        "--paid-outside-summary",
+        "{scripts}/43731615668-koszul-outside-minimal-original-field-through21.json",
+        "--out",
+        "{work}/koszul-outside-natural-through35",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024",
+        "--maximum-degree",
+        "35"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/koszul-outside-natural-through35/koszul-outside-minimal-field-smith-receipt.json"
     }
   ],
   "previousSession": {
     "runId": "43736746064",
     "expectedLoopEndUtc": "2026-11-15 17:25:01 UTC",
     "oldTemporaryDataIsNotAssumedAcrossJobs": true,
-    "allPublishedResultsRemainValid": true
+    "allPublishedResultsRemainValid": true,
+    "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Reconstruct only the required original216 source profile in this new job, then continue full32/O35 original kernel mappers and exact good-prime first-connection proofs. All large arrays stay temporary. Actual pull and both README checks occur at least every30 minutes while idle."
+  "mathematicalProgramStatus": "Original216 source profile rebuilt in this job with the same determinant15. Reconstruct full dual coefficients through32 and original O through35, checking all66 paid prefix files on each side after transporting only binding headers. These layers feed two independent original mappers through21; no characteristic-zero high spectrum is prefilled."
 }
