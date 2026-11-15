@@ -156,3 +156,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 统一共同乘法Norm3免费3C接口已被准确下界排除；后续须针对实际F/真子格或不同算子，不能再以优化共同清分母声称该预算。主目标/实际ξ与同R仍未完成。
 
 [实际剪切附录A](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md#附录-a-原全来源的-angular-commutator-与-first-jet-的实际块)已证明原全部门下的精确角commutator：原边际读Π0,Y，物理first jet读Π5,Y⊗Π1,伙伴；先投S线则后者消失。保完整moving权、finiteχ及二阶尺度项，仍需合法跨块连接传播原中央零。
+
+- [R759](results/R759-original-cm13-connection-and-primitive-type-five-block.md)：已证明协变导数穿原全CM13迹的division-log修正及其在S上的全纯严格非零；原D_S还含两条已识别点线之外的非零primitive三维块，给明确线性见证。完整unit负一Mellin、连接近消与原J_S的准确补偿同时保留，非零截面未冒非零中央值。
+
+继续真实primitive型五的全坏处角色/点域及合法跨块恒等式，原全unit/有限χ/连接与mixed门不能因CM投影删除。
