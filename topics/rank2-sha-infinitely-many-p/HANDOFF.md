@@ -6,20 +6,20 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：36385632ceb7bac61c125031a1acf4045e0bb458；2026-11-15 03:08:14 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:08:12 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：ad31ed3b5702cf5280da8f4981309b4f251de18f；2026-11-15 03:09:35 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:09:34 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–663已登记；R364/R561仍开，R637/R654/R664–666进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r663.md)、[open](notes/2026-11-15-open-before-r655.md)。
+R1–363、R365–560、R562–636、R638–653、R655–663、R665已登记；R364/R561仍开，R637/R654/R664/R666–667进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r665.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R663真实LT/同解闭盘充要已付；续R666原两中央到完整余数的算术联系，O4/O6保留。
-- theta：R662原外部质量/完整W抵消已付；续R665混合Θ±的实际L深奇差及原四σ门系数。
+- theta：R665原L深混合奇差及四σ系数已付；续R667同R664双S门的浅补域/外部联立。
 - literature：R661两log行的完整Katz返回已付；续R664原Q/L quarter旋转与双S交门，R654真modp²保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
@@ -52,6 +52,7 @@ R659全D0四层和Esharp完整核心保补域，M0,N模p=−λ^(N−1)P(λ)/(b(1
 R662原S全Y-shell质量0，真实A外部O_m首二行=a5^m(M0(1−a5),M0ℓD+m log⟨λ²⟩M0(1−a5))；若JS′0，外部log恰补R659全部W差。原T留下B±=b_LL±b_YQ的全混合Θ±unit/log与外部负号，五型全保，未成矛盾。
 R655原Σ5=σ17^5全Schwartz/period识别χ导子10、负点barψE80；严格L′>1/50+Rubin–BDP给IΣ,-1≠0，准确Lp=5c5θ11ΩpI²，当前ray χ65=−1。不赋其它log行/失败支零。
 R661全五型给同线K(m)=Lp(ψBρ^m)，ψB为E10000 rank0，ρ=χψ0/barψ0；2ℓD/(1−β)=KD′/(dKD)+log〈5〉，2ℓZ,1/[Ωp(1−βκ)]=KZ′/(dKZ)+log〈5〉。m−1非零不决定m0/1导数，保原H±与全W失败支。
+R665同原Θ±的L深n≥N奇差=2β^nκ^(2n)J_N H_p(κ^n)；全角只保原p0的L²项，H首项36bΩ³(bL/bY)IΣ,-1。全六C分支87D*/37323与Cperp/146718核保补域，原右逆两η二次多项式首常数非零，稀疏删后所有N∈4Z正均vJ=−2N。若2n>vI，vΔ=3n−2N+vI；全浅R_N,n与原T外部差准确合为−Δ，未成中央矛盾。
 同R594未加帽四全行基准0，门外负基准不删。
 固定CM稀疏单位仅供固定λκ式；旧负五I1未付，与R655负一行分清。
 
@@ -67,12 +68,12 @@ R636原P6付两Cartier实际det及h5仿射−ℓκ5；R647同P2付原S/T/U完整
 R649同Θp/型/三挠零/二挠帽的p(λH_(s−1)+μH_(s−2))提升使两a/p变化det=−228072b/5unit；不是原sigma自由变化，必须付真实modp²条件。
 
 R614–619/R625–627的整窗/首坏带/全Newton尾保持；R618 τ₂=(2p−1)/(p(p²−1))。
-R632/635付原全部p幂准确RE/闭非Tate与七积分独立，含H38；不预支全p²域。
+R632/635原所有p幂准确RE/闭非Tate、七积分独立含H38；全p²域未付。
 
 R639原CM范数一极限给h/Ec=Tg^-1整单位，Fc=Π0logh；完整中央连接所有R<RE唯一逆原点仍j，j0恰零初值解延全内盘。两中央Π0U无论j均在原p域，不添维数；σ/Ec=uH/Tg、全部H/高尾与两临界窗保持。
 R660完整原Φ/B、原首系数[z^(p+1)]A_m、闭X盘必j0与Q^(p+1−m)|B；原7n!整/复界使大p闭盘迫首有理系数真0。R663严格整LT坐标使[-p]=−pv+v^(p²)、Q=W^(p−1)−p；全余数r_ij=Σ_(k≥j)binom(k,j)p^(k−j)b_(i+(p−1)k)。原Y=H^-m R(WH^d)满足Y′+maY=(1+dWH′/H)B，a闭边界及略外严格c主导；同Y闭盘iffQ|B iff全r_i0零，并真过界。原j=Y0保同Neumann全尾，j0→余数仍缺，原X闭盘的更强下降不删。
 
-R641/644原五正规C的H阶2/5/28/38/66、任意固定D整个空间闭RE仅常数保持，须p>J且p∤A；所有p²−1边界点和p依赖系数/同权抵消已付。R652同整流、R658真Gaussian子式使J≤(5184+o(1))D²；R656同A的log高度O(D4logD)、所有坏素数全九格成本≤20kH/X，4<θ<7强迫p>CDθ且p∤A的非整层；中央→所有层仍缺。全原幂/七积分/坏端点与非免费辅助格详完整前检。
+R641/644五正规C的H阶2/5/28/38/66、固定D全空间闭RE仅常数，须p>J且p∤A；全边界/p依赖系数/同权抵消保。R652同整流、R658真Gaussian子式使J≤(5184+o(1))D²；R656同A的log高度O(D4logD)、所有坏素数全九格成本≤20kH/X，4<θ<7强迫p>CDθ且p∤A的非整层；中央→所有层仍缺。全原幂/七积分/坏端点与非免费辅助格详完整前检。
 R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；真实负收益/增长条件另付。
 
 ## 原同R与完整物理格
@@ -90,7 +91,7 @@ R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δ
 
 R657原长连续前缀全列单射/同Smith界，固定G0W_D接触≤99D²/40+o(D²)。两Euler增补取Hu=max(Nu,Cu−Nu+1)，真共同接触≤25D²/18+o(D²)；不假设E保核，仍未到旧47D²/48截止，不搬旧M。
 
-R640完整Wilson回G0W836，charge876/全帽保持，不添中央零。
+R640 Wilson回G0W836、charge876/全帽，不添中央零。
 R642保首Gaussian的辅助M_c=(I−34F2s p²B/a)M modp³，B(f0,f1,f2)=(0,0,πf1)、B²0；同P/R先过全MQ2∈p²后第二代表相同，ell+13/26carry全保。
 
 原Beta割线及广义Stieltjes正性均未付原Padé/同R；A2正密度可有理，charge矩规范非共同行变换，详notes/2026-11-15-generalized-stieltjes-and-original-pade-boundary.md。未排其它AT；R655 rank1不代rank2中央。
