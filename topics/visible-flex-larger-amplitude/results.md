@@ -522,3 +522,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R273. 原native完整块链的阻尼平方根最小二乘](results/R273-complete-native-damped-square-root-chain.md)（已证明，有限实数组条件定理）：完整原σ cut/stage/far与每节点恰一次正阻尼，两次局部QR保carry及全部纯常数能量；完整平方根、唯一性、回代、模型下降与截停后验均证明。精确反例说明任意阻尼下严格L2下降仍可能所有正步∞上升；新1372限制到原577仍须真实原十trial，不把保存J冒精确DF或加新接受门，尚无新solver/数值。
 
 - [R277. 完整两端二阶块链的行列式与自由高核心消元](results/R277-complete-two-end-chain-determinant-and-high-core-elimination.md)（已证明，完整有限矩阵恒等式）：保持全部节点/两端及固定行列序，det A=−ell·prod(−adj(R)L)e1，整系数多项式延拓覆盖奇异右块；不能把初值图失效判成BVP奇异。逐一非零的全部高109完整行列式给齐次高核唯一零；仅当所有右块可逆才用单位入口Schur对角。有限保存系数、Arb声明实模型和真正尾导数范围分清，低三根/横截/非零BVP仍待实际支付，无额外数值或审核门。
+
+R277 的实际有限模型消费者：[actual81全部高109精确非奇异与区间边界](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。只绑定actual78参数、原699节点与保存完整尾J；Arb声明模型仍有103高模未排零，低三共振与非零BVP没有随之成立。

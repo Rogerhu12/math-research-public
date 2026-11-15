@@ -42,6 +42,8 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 52985B原status ebe5b50c及69源/11artifact件保全；四大输入仅actualActions receipt跨绑定，不冒本地payload重复核。原末FD/零core圆/494Arb叶只付声明a/ap范围，不是强C2、真实连续R或非零parent。82用实际父finalp、独立ownschema续接、显式eta0.1/8/20，冻结1691方向和3b9方程/未加权merit/Armijo/全部末端检查。root已完整读新源/接口/唯一工作流请求并核70源、7shell/4inlineAST；[82接线接口](notes/2026-11-15-request82-workflow-interface.md)、workflow00af4496/requestd10fddcc已接入原computations唯一触发路径。显式eta候选不预断成功或唯一原因，等待真实Actions原输出。
 
+**高109实际81已完成：** [完整结果与模型范围](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。固定actual78参数和原699节点/112尾J，112 exact模式全部已读，高109保存有限系数两端行列式非零、全部单位入口映射存在，高Schur非奇异。另定义的声明实数Arb模型160/320/640位后仅解决高4–9，10–112仍未排零；所有right-cell/unit-map已定义，未遭预算截停。含零包络不是奇异证明，finite结论不能替换interval/连续结论。476原件/17完整阵/112exact/328Arb/3circle/69当前源全部已付byte scope，稠密两端矩阵和QR未形成。低三/横截/非零BVP未付，之后改p不能继承此点高块；这不成为native/prefix新gate。
+
 ## 2. 接受场闭合、固定g与全t精化
 
 已发布[完整闭面执行入口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)：真fullDN和自己的final audited tail/config/port→完整physical/material/z0/mean→R249首单元→共享quintic B与两帽；只用自己的完整readout，不加旧A mean，目标g不替换为B′。实际接受输入仍缺，未造request。
