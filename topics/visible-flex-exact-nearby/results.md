@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [固定高投影主部的正 collar 能量与三带迹收尖](results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md)：真实a,d与正交H_J使drift交叉项在投影空间准确消；高自项不再另收4Jd+D1，仍保径恢复、真实dφp、middle→far腿、mean/rank及两cutoff。PE9/12/14–15可正向重组完整界，旧NR成功数值不改；实际未知cut/body/残差与核心存在仍未付。
+
 - [实际 genuine 第一修正的直接物理 transport 与完整源账本](results/R133-supplement-actual-direct-physical-transport-of-genuine-first-correction.md)：43720766795/1 child0/27门；只新7个a1、只读RV7个b1，五完整density1项全收紧。g1<2.119337e9，完整first<1.017686e12/独立mean<3.401970e8/pair<1.017686e12，26其余项逐字RV；59pins含旧AJ50零改、旧math/径积分0。主导转raw1与density0SV，source-to-wave/true return/GH仍独立。
 
 - [实际 raw nonmean 窄域限制与五组三带迹系数](results/R133-supplement-actual-saved-nonmean-restrictions-and-three-band-trace-budgets.md)：43720373326/1 child0/13门，原7721行/40parts及MC成功mean窗只读；窄P非mean L2<1.602333e−9，完整known F96<3.596676e−18、F288精确0。五例known middle<6.019548e−16、remaining>1.9686898045e−11仅充分预算；NA14仍要求同一状态真实finite cut及左右low/high body，actual low/core/high inverse均未宣称。旧数学0，首infra失败child未知与lost-new恢复完整保留。

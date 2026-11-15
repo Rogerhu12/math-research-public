@@ -309,3 +309,11 @@ g1原1.593307563547866e14→新2.119336473528759e9；完整local700682134898.508
 初末真pull13:47:17.770389/13:47:24.729018→a65da7effcb2ed8631f64516fb62ae642cb1b651，两README实际diff空。预Git33160B/f75747dd6f1617923481dac4269ad9dd45f66d0dca9543fe52b50bba37373ce5；临时process24810B/91c1c2320b093e4bb245df1d09854d0dc0ba8b3bc89c0091cf3826c830d62ce0、native15347B/820a723a1612de356cc6074aa1d679c378117f4b5d73f29247f92b497a8e24eb仅hash保。实际容量199181717B。
 
 为保持H≤10KB/open≤30KB，精简AJ/RV/N重复履历，精简前完整H/open/log为506fb5616283556781a7b7f78fb2f5e90ce2604b同路径；全部原域/输入/计数/失败/restore及未付义务仍保其原文，不授权成功重算。继续Green/直接L1/SV/三带真实同态低迹与完整core闭合。
+
+### 2026-11-15 13:52:44 UTC — PE固定投影主部的精确能量与更尖条件迹
+
+亲读main 49d4140e93192c8cb38faa9ae0732e661dd72da6，两README无变。新证明9d66823095fa62ede7aae1dd629f6317dad4fb90 /7638B/SHA4b74cc1d45b530081b3edd4816a94a0973b0c7cfc6f7d255c83c91e80445a1ac。root全文核PE1–15，回读原E8–11/16–18；phase独核正交性/实系数cross、a_r配对/Young、投影RHS、两cutoff与halftrace。L_H=∂r−H_J(d∂φ)+aJ0∂φ在ranH，Re<H(d uφ),aJ0uφ>=0；所以E96不另付high自身384d+D1，E288不另付far自身1152d+D1。真实径恢复d、A1内dφp、1152d middle腿、所有mean/rank、独立Fφ/speed mean仍在。
+
+PE9/12/14–15只更尖解析上界；原LT/NR全部成功数值保持合法并冻结，后续若算新表只按已存正向费重组，不相减独立upper。真实unknown cut与同态左右body仍不可代入C0半径为完成门。tail接着核宽collar低能量+同cut窄MA高界的分域接口；当前MA只授权窄五例，不能借旧15pass无完整表冒宽高域。无新科学运行。
+
+H/open仅精简旧AJ/RV/D/CS等重复履历；精简前完整2e3dcae9564490f016b073d506f6df65e2dea8f2同路径及全部更早archive/恢复链持续有效，任何域、源单位、失败、未付义务均不删除。总验收未达，继续新M局部源/SV及Green/strong-return/core。
