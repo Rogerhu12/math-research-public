@@ -20,7 +20,7 @@
 - 两端原全常数rank4340，各14正Smith。原完整∞首4/次0，[第三连接上界](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)已给β3≤1、δfull∞≥43/次大≥39，根已重新全文核对；不能把完整∞只记成首两页，也不能由zero谱搬运。
 - [真实局部投影长度差](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：len T=δA−δP，T=W/(L∩W)、W=(I²)≤5；差≤e即t^eW⊂L。170原行+54g倍行局部双向生成，g零点只除η单位。E8²首项31单位先剥后给2点δA≤30。
 - [负六完整局部闭合](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：真P/full谱1⁷,2,3、长度12/次大9/max3，W全在原局部像，九目标无需s+6，已纳K115。实7.521673933秒/raw8191B/0039c5bd…。
-- 新2点原order4实4.637497190秒、全P常133/连接7,1,1，已达泛秩142，所以P正谱恰1⁷,2,3、长度12。full仍仅12…30，T长≤18；不证明h0一阶足够，也不否定九目标。高于3不再提高此P长度；转原W或九目标。实际回执见新session。旧order17超时只说明该次首Schur未成。
+- [2点完整投影谱](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)：原order4实4.637497190秒、全P常133/连接7,1,1，已达泛秩142，所以P正谱恰1⁷,2,3、长度12。full仍仅12…30，T长≤18；不证明h0一阶足够，也不否定九目标。高于3不再提高此P长度；转原W或九目标。实际回执见新session。旧order17超时只说明该次首Schur未成。
 - [原Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)：O1834×1632常rank1603/29正指数；tors cokerO注入同B余核。Fp31 O最大≤21/总长≤243；Q总长≤Fp总长但Q最大不能用21。D≥δfull+σ、cofactor≥δsub+σ−amax、换列≥δfull+σ−amax；真Q δfull+σ≥243才付同D leading单位。新O数值尚未执行。
 
 ## 活跃计算、源码与恢复
