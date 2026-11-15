@@ -213,3 +213,13 @@ root全文process/receipt/report/proof/源关键函数/oldpositive/SP原字段�
 新4a×128×6rho×2J共6144新triples/12288整公式，只公共Actions求值；旧a1/40十二成功行含geometry/readouts逐字复制，不重768旧组。CS/CL/bp从LC直接原字段读，不把upper相除。必须先格式化候选整行，再按保留outward两high上端max比较；旧baseline优先tie，继而a原序/N升序。只保证共同score不劣，不能称每个formula单high/其余列/unknown总误差最优。全候选暂存，仅十二选择行/完整旧基准/三读出/审计身份入小结论。未知low/shell/wholewide C0/左右same-state与独立MA高域仍待。
 
 本轮无新数值执行。root H压缩前完整身份e5e1f510f3c1d4ec53ddfa82580165755d2b2971同路径，所有旧域/失败/restore/未付义务继续有效；root只读README核bec1dc708a3b6cf7c2a5482073079f8625d093b0，按原规则继续。
+
+## 2026-11-15 16:27:55 UTC — CT完整首系数函数目标已证明并单独推送
+
+CT blobc60256f55e88f985e73ea1881bf5c766c95d3467 /17825B /SHA341a9463f267d95896d38f5500240e875077b6e6afedbdc1c0625ea24ad10a35。root全文独核CT4–26：密度PDE来自J相消，common F*只在有序root/physical变换后消；a_e及Xi/C/D逐展开同原S.12，physicalχ=hatg1−g0dφ*/3、八项source全部符号核。s²Taylor A2/B1/d1在zero-containing root球须积分/有符号多项式定义，不能减upper或直除。全known support384、新reference残差max(N+192,384)保所有signed labels与mean，value jump独立impulse。
+
+CT19反表示U_aU_b=U_(b∘a)、CT20真H conjugacy顺序核同PF，实rotation不失width。root另亲读R31原producer14666B/df58ef8806461a03870e413e6a8d564947c3cd20a6074127a14a8d4bae5d0163、uniform theorem12761B/89ef2fac457fd5f451dbb2a593101964170fbd5a189fbca0f8082b9ea5790686、actual8512B/36c074031e8771b3ef204ae710582ee7987e4d7ca0004fc6751fa7544974bf31。旧native d6e59dfa的正flowmargin确为1/16−1/32−Uinv−2B，因此B<1/64，真三路径1/128+3B<7/128<1/16；L控制density Jacobian，CT24付initial/fullsource/interfaces，非仅finite evolution。phase独核CT4–15、tail独核CT19–26亦通过。realδ≤1e−10可取旧fullδ≤1e−8子域，不把complex光学平移当实isometry。
+
+本轮纯证明无新数学执行。newton准备最小新完整source/reference/C consumer，原169ray/oldscalar/KAM/源producer禁重；新source可供后续signed reference只读消费。actual C/R0、真incoming/positive trial/head/seam及GH仍各自待付。root只读README核69f06fd6401b896f7624314a351af2d6423c9634，H前全页保4b69629c5c99d016350043635d9c45603ca256c8。
+
+Green16:26 process53796B/4d54a996a9d2b52510e0663294d4f9ecab4545e61431032adb206cbb1d2c545b相对16:16全差异已读：past5568/combined172/queued174，其余两流5970done，childnull。runner真pull16:26:36.706975→4b69629c、双README空diff、实际topic199226515B/inventory8a96a5cb；不累计异步计数，不提前认final。

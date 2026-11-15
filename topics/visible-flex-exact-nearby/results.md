@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 CT complete first-coefficient transport** — [root函数有限部后的完整八项正则source与真实P/H density次序](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)（341a9463f267d95896d38f5500240e875077b6e6afedbdc1c0625ea24ad10a35）：s=√ρ消全部非可积项，physicalχ含2g0dφ*/3；完整source/mean/reference residual/jump经旧B/L的三路径域传播，重用旧scalar/ray/KAM。给出具体完整c0函数计算目标和H3误差费，不授actual C或strong R0。
+
 - **R133 NG adjustable nested collar** — [同外窗的任意内宽、完整五列及可复现整行选择](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)（cc3add84d3c7cad870345d6aef4f5101023d448d27df9025a72d9ecbe29bbbbc）：h=(1/20−a)/N、κ=2/a，有限正递推和双cutoff完整费用给NC/BD两条条件H1迹。新6144候选只读旧系数，旧成功geometry只copy；按最终outward共同high score整行选，不混列、不赋未知low/shell，不授core或MA域。
 
 - **R133 actual PW seven positive ports to waist** — [完整实际七列、四raw jump、四outer和两mean接口](results/R133-supplement-actual-seven-positive-ports-to-complete-waist-density.md)（6a763e7b784379573b63dda35a3664277c97e800903b373d50aebb12a3cc5cec）：43734233535/1 child0/21门。collar/body ordinary→waist分别<796.801/11167.586，完整七列独立，stable/head/两mean与各jump不置零。root核17pin、36球/29unique、原matrix/SP/RJ全字同及33374B预Git，全部旧数学0；此为有序输入映射，不授真incoming或strong-return逆。
