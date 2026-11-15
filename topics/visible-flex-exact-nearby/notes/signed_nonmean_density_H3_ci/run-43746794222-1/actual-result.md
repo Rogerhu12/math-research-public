@@ -6,7 +6,7 @@
 - New helper SHA256: 217a91e25ec7bb6cad5c115ddc4749f4d714c5ca47601e8ad8dd540e69ed1718
 - Frozen input manifest SHA256: bbe747a6bcb0c5384472a0996a1e2b7a7236555c1d583ec1607899f461c8be36
 - Actual child count: 1
-- Actual child return code: None
+- Actual child return code: -15
 - Complete new scientific target: False
 - Old successful mathematical computations repeated: 0.
 - New numerical arrays, native files, artifacts and Releases published: 0.
@@ -19,7 +19,13 @@ Latest complete child stdout record; this is not a terminal certificate.
 {"complete_error_H3":{"-1":"[2.085885672214457 +/- 2.12e-16]","1":"[2.085885672214457 +/- 2.12e-16]"},"exact_radial_cursor":"8543078293142533/36028797018963968","new_subcells":1064,"original_interval":2880,"stage":"new-complete-nonmean-transport"}
 ~~~
 
-The one declared new scientific child is active or preparing. No terminal H3 constant is asserted.
+## Actual incomplete target
+
+~~~json
+null
+~~~
+
+No new complete H3 constant is asserted. The original child log and any produced scientific bytes were printed before publication.
 
 ## Scope
 
