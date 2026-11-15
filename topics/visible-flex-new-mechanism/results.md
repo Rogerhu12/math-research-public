@@ -502,3 +502,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R375：完整Y第二cubic与同一十三行根支付ZY2、YY2
 
 [R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md](results/R375-exact-Y-second-cubic-and-thirteen-target-control-pay-ZY2-and-YY2.md)。原FY2恒等0沿真紧ZD/YD变分：QZY2=−I2(Yff,ZD)+area，QYY2=−I2(Yff,YD)，保Yff二次左尾。I2(p2,w)=0是x²二导与2一导的准确抵消，付完整block加法；面积/12副本后两函数只有sin²实际值。新principal位置8/10最高系数−3eWcR/2、WcR/4，与旧11行≤6独立；原五χ60实际列/十二点正kernel覆盖≤10，联合rank13，同有限N十三根恢复全部旧十一目标、18面积/T/Ψ/三F。余ZZ2/ZY0/WY1/YY0四完整函数，非rank或已付角商；period/joint未完。根全读及原变分/I2尾/高次系数/正kernel范围纸核通过，无新执行。
+
+## 主LP/SOC预留首轮实际：7全步、11primary、末1未用
+
+[soc-pair-reservation-first-actual-result-20261115.md](notes/soc-pair-reservation-first-actual-result-20261115.md)。run43758666042/job132948276657/sourceaca67097；四新组19checks过，原检查执行0。精确当前best从22bank/4419/4277恢复，7普通首全步接受，LP2/2/3/1/1/1/1共11，0SOC；预留机会7但普通步先接受，末1按新规则未用，不能宣SOC收益。m7确触新局部ceiling，原完整rho修正/inexact/strict-tie与全row核保留，实际两网接受。η.26632415509189855→.2663015219132816，fineκ57.999987361173226，全部原门/旧metric过，新.26与主门欠。终bank59、4432/4358、B.000125/streak1，373memory装配+58新cuts，active29.468092885s/total172.223713764s；全部费用/原hash/真实规则pull见note。下一研究已覆盖soft学习不重置增长，不能重跑本阶段等待SOC。
