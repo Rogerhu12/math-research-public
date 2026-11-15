@@ -158,3 +158,5 @@
 - [R318：actual143完成同C全部112模态深端统一区间包围](results/R318-actual143-complete112-deep-far-enclosure.md)：F159/物理node160、256bit，原允许深根族统一包含、全部112行完整、mode2准确0、未付后缀空。原494612B行流在Actions完整核读，7988B摘要两job逐字同；本地未重算区间。有限头、cut域/非零高度投影、DN与非线性仍未付。
 
 - [R319：actual128九控制完整高度路径六次拒绝与规则中断](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)：zero真实收敛，六个已返回正s各十trial全首段D/S/A拒，当前withJ基点形成；第8请求未返即README变化终止，非预算耗尽。完整两摘要33756B/aa9f9c0f及60trial/来源/真实规则轮读回，无FD/fullDN/非零接受；不把九p与124六p作单因对照。
+
+- [R323：有限严格cut盒的显式统一dyadic短窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)：原11构造条件/正coast的直接参数公式；core全域、当前九参数与实际147未预付。

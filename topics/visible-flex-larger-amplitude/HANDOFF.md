@@ -8,11 +8,11 @@
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
-root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；root最后真pull为12:21:09读a345bb63ba156f25ec07e89b4ab75ef3e080bec3。现依根8只集成<100KB文本；API复核不冒pull，禁force。恢复立即partial clone/pull --rebase；每push前且至少每小时真pull核双README，NFF立即rebase重推。Actions原runner每2700秒真pull。
+root唯一发布者。终端12:24失联；root最后真pull12:21:09读a345bb63ba156f25ec07e89b4ab75ef3e080bec3。根8允许小文本集成，API非pull/禁force；恢复立即partial clone/pull，每push前且至少每小时真pull核双README，NFF立即rebase重推。Actions每2700秒真pull。
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:58:04 UTC API读取main 2a6e45a61033fb061e5a5baeb99283c0e2782ff4，双README21bd/bff未变；不是git pull。旧三新g源全文+独立v3三源完整差异/接口已读，准确表达/数值/physical函数保持逐文本核同即发。
+集成复核：2026-11-15 13:02:07 UTC API读取main a7bb0a16f4ba434a4e88c4f0519ccc4f7806c498，双README21bd/bff未变；不是git pull。R323有限盒显式选窗证明完成即发，147接实际原件；146两job真实success待R320完整科学读回。
 
 ## 真正完成标准
 
@@ -57,6 +57,8 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 准确C²结构R294、finite clip障碍R298及实际atlas/误差未付见open§4。
 
 九冻结450/closed/metric原源保全九与K=0、338+112、全部knots/FD/fullDN/audit、完整physical/core/mean/六jet/四Loewner/两帽/DFS；不能重标新g。真实final audited tail/config/port、R249共享B/R274非零、全t reach/D/整像held均未付，详见[open§3–4](open.md)；冻结g/p/t后精化至机器或原solver容差。
+
+[R323有限严格cut盒的显式选窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)给出直接有理公式：真实E0下界>1、速度盒⊂(−1,0)与准确core末A>R/|V|<1时，显式d/e/e严格支付原11个R300构造条件，coast区间下界正。保全部core/九p及公共u，有限粗盒不冒任意精化oracle；147据真实同job输入执行，仍无实际新g/J/BVP。
 
 ## 维护与恢复
 

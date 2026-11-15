@@ -32,7 +32,7 @@
 
 [R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)全15call/14返回：zero收敛，13正s各10trial全stage0/rawCell0/rawSegment8 D/S/A拒、当前withJ完整基点已返；最后norm47.989089918750544。第15 s1.9073486328125e−6未返即规则SIGTERM/runner77，非budget耗尽；relative分母1e−250不能唯一归因warm。完整原值与全部130trial见正文，无s1/338J/FD/fullDN/audit；145原warm先保而改完整系统候选。
 
-[R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)run43702058809/source3ee6c538：8call启动/7返回，zero895.1974098029999s收敛norm0；6个正s从1/64至1/2048各原10trial全stage0/rawCell0/rawSegment8 D/S/A拒，withJ完整基点均返回，末norm677.0568077768113。第8 s1/4096未返，12:17:44原README变化SIGTERM/runner77，8124.568825915s未耗尽18000s；两job摘要33756B/aa9f9c0f逐字同，原60trial全读。原warm/cache/所有来源和输出SHA在正文，无endpoint338J/FD/fullDN/audit。真127九p不是124六p的同初点对照；145保持124来源，当前全H/states/freshJ QR候选及原十档/严格下降/最终门不变。
+[R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)全8call/7返：zero收敛，6正s各10trial首段D/S/A拒、withJ已返；第8s1/4096未返即规则SIGTERM/runner77，非18000s耗尽。两job33756B/aa9f9c0f摘要逐字同、全60trial已读，无338/FD/fullDN/audit；真127九p非124六p同初点，145保124来源。
 
 ### 2B. 真实128位射击收敛与完整末态责任
 
@@ -122,6 +122,8 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 
 [新连续九族v3完整实现](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)现已发布：恢复原三源650a/93cc/b154原字，新factory0d8937/numeric7cfab1/physicald86f6f独立身份。只接f12f原result/input/query和1c39完整点两jet读回；factory其余25定义/numeric13/flow5逐文本保留，准确E语义叶/全部九shape/公共u与L_true²/f76原full physical/NaN政策保持。三个中点仅数值搜索近似，不冒同根真实jet/C²/新C J。暂无实际factory或新BVP；真实144数据须同job消费或同源重生，明确core/recipe并付同C有限头/全112端口，不能凭hash复原raw或把有限盒当任意精化oracle。
+
+[R323有限严格cut盒的显式选窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)给出直接有理公式：真实E0下界>1、速度盒⊂(−1,0)与准确core末A>R/|V|<1时，显式d/e/e严格支付原11个R300构造条件，coast区间下界正。保全部core/九p及公共u，有限粗盒不冒任意精化oracle；147据真实同job输入执行，仍无实际新g/J/BVP。
 
 ## 5. 存储和原件维护
 

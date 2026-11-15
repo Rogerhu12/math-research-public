@@ -496,3 +496,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 新连续九族准确v3与完整物理实现
 
 [完整接口](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)18255B/a15c5784及原三恢复源、新v3三源全文/完整差异已读即发；root核factory另25定义、numeric13、flow5逐文本原样，新binder明确f12f+1c39真实全点读回，不重读约GB叶流或重标v2。准确E语义叶/九shape/公共u L_true²/原physical全部保留，中点只数值近似，实际factory/同C J/BVP仍待真实输入与公开运行。依根8小文本快进核双README未冒pull；145实际43716379970、146实际43716274591均已启动。
+
+## 2026-11-15 /root — R323有限严格cut盒的显式统一短窗
+
+[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)直接完整证明后即推：由已付严格速度盒、准确core端点及原cut，整数位数给严格向下dyadic，明确d/e/e和κ=1/2同时付原11构造条件/正coast。原core全域与给定九非零系数仍独立检查，不冒有限盒为任意精化oracle或数值长度可表示；147接真实全v3点数据，未预填计算成功。根8小文本快进/API核双README不冒pull。
