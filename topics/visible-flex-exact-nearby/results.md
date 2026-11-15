@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [KLA：实际完整 terminal-Ai 首项幅度逆](results/R133-supplement-actual-correlated-terminal-Ai-leading-scalar.md)（2026-11-15，`2ac6e80364f022ae12c7523eb9b3399dac46127b137509ae394ff99be79f8b6d`）：原公开43766439345/1单child0、16门全过，14pins/2AST完整；full |δ|≤1e−8 的同terminal-Ai列四sign/wave共享 KΛ<10.611，L²/H−1/3/H−4/3同一乘子，完整R0保留且ng0仅一次。新根短预算、公共numerator及全部14球保原SCI；true U_X−σ receiver 与右Λ^-1TF^-1S^-1原序、finite/两mean保，未宣称incoming/Schur。
+
 - [TF：完整共同根正规化与显式两窗逆](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)（2026-11-15，`652a9a2c2a9e0ccce1b07adae8848837ba579bec63d6ba5da21989a24b1bf5a3`）：真实全 mean 首系数 F*=βuv/η 的 degree192 与两份已有完整 scalar receipt 给 F_A；显式 J_F≥max(192,97,ceil4F_A) 严格构造同一 TF 在 L²、H−4/3 的逆，分别≤16/15、16/13。完整有限补支持、右乘后实际 dual rows、原有序身份和 two-I 强项均保留；实际 F_A/J_F 的新 Actions readout、Cσ/Eσ及 incoming/Schur仍待。
 
 - [KL：同一 terminal-Ai 首项幅度的相关消去与有序腰部正规化](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)（2026-11-15，`dc48bdb46fde624f5e6f3820a7f37e326cb3b84274f34d46e1538f6166285b9a`）：完整均值残差保留，精确 E=(ng/ng*)kroot 消去同一根密度；两输入符号与两物理波共享正标量 KΛ。旧 WX forward、WT ng0、RR whole-germ K1 和仅 off-bump 根短段可用的 WL B*/G* 给新的完整充分公式。原右 Λ^-1 TF^-1 S^-1 顺序、finite/mean 和独立 genuine-reference 费用均保；实际新标量/incoming/Schur仍待。

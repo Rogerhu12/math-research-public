@@ -37,7 +37,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PF逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf/[CT完整密度](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463全式/8source/条带及SN五失败完整保1d9b70965775f9bd0fea97a338ce0d67289750ae同open/H/proof。两row/oldI/−SI、root有限函数0/g1hat/真X−density、χ/Taylor差/mean/jump/residual保；scalar不代函数。SN仅lost314×4恢复，原1256预算/next2831禁重，terminal待。
 
-[SN精确恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7：仅lost314×4 pointnominal320bit，原1256预算/next2831禁重。唯一b8bd86a/43751213826/1，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST。21:49原b87992b7/16238/82f780d3：9000=1256+7744、interval896/双H3prefix2.591585199031814；真pull a774e1a8两README空diff。非终点C；完整身份/cursor/四导四列/A1/128尾/mean/原H3及失败恢复保7b770同H/open及proof。
+[SN精确恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7：仅lost314×4 pointnominal320bit，原1256预算/next2831禁重。唯一b8bd86a/43751213826/1，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST。21:58原7784389e/16477/53a933e5：9512=1256+8256、interval768/双H3prefix2.676497266078261；真pull a48f3398两README空diff。非终点C；完整身份/cursor/四导四列/A1/128尾/mean/原H3及失败恢复保7b770同H/open及proof。
 
 [AC/CN/EN/LN完整正规化链](results/R133-supplement-lower-order-normalizer-budgets-from-complete-terminal-columns.md)53a3dd1d及原proof全式/域/mean/μ²费用逐字保b2476f272c6223b7f8305abe6694de4fed690468同open/H。AC真H密度、CN全mean精确ODE/Jensen两窗，EN须直接signed指数reference不可upper相减；LN只成功SN双四列经真D/√j及μEj一次给d/C/Wiener，强Q与独立μ²aI/2不删。尚无SN终点，非incoming或R0。
 
@@ -94,7 +94,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [WY四腰有序装配](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135：同Js左逆→Jσ→真U_X逆，root Λ右置；cut两I/two ranks/腰P rank全保，state只BH左费，Λ^-1 T_F^-1 S^-1不交换。FA exact quotient两ε同real，经SF/CT接IC/LN同系数。两physical mean/P97/finite/PW均保；Λ逆/TF/三窗/SF完整积分与全incoming/Schur/R0仍待。
 
-[KL根首项相关消去](results/R133-supplement-correlated-terminal-Ai-leading-scalar-and-waist-normalization.md)dc48bdb4：完整mean residual R0与ng精确给E=(ng/ng*)kroot，同terminal-Ai两ε两σ共享KΛ=√(2π)ng0^-1(η*/k*)^1/6 kroot0^-1。只WX forward；off-bump根短段WL B*/G*、D7/19与RR whole-germ K1/WT ng0闭合新正标量。只四当前science、无旧射线/积分；原Λ^-1TF^-1S^-1有序、finite/两mean和独立reference费用保。新KL已部署SCI1f9dd122/worker548a1226/manifest810a13c2，14pins/2AST/16门；同次保公共numerator，optional left/TF未算，run待识别。实际KΛ及TF/SF/全incoming/Schur待。
+[KL实际同Ai幅度逆](results/R133-supplement-actual-correlated-terminal-Ai-leading-scalar.md)2ac6e803/43766439345/1 child0/16锁；解析dc48bdb4与14pins/2AST/11math/10完整copy/14球/SCI/preGit保proof。fullδ1e−8、两ε两σ同模KΛ<10.611，完整R0相关消、仅WX forward与off-bump根短预算，公共numerator原球保存。ng0一次、右Λ^-1TF^-1S^-1及U_X−σ原序、两mean/finite保；optional left/TF/SF/三系数窗/incoming/Schur仍分别待。
 
 [TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c：F*=β*u*v/η*真degree192，WL原B*/7/19与FA full-complex η lower给F_A，root off-bump域不移row790。J_F≥max(192,97,ceil4F_A)使同一TF逆L2≤16/15、H−4/3≤16/13，完整forward也付；finite F_J≤J_F+191及mean保，右乘后不冒有限input，two-I/dual-row费原序。新consumer已部署SCIbf71639d/worker17f825e6/manifest027a4462，12pins/3AST/14门、仅两旧science，无native；唯一push run待识别。实际F_A/J_F仍待；Cσ/Eσ/incoming/Schur独立。
 
