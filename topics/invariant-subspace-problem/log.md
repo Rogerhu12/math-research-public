@@ -132,3 +132,8 @@ normal5源8c671b27已全文审及原小核/中断核验，排60秒/2GiB仅消H5�
 
 step21实际H5 Q/F31rank1287、单位模31为18；30.715285713秒完成786个原H5精确pivot后触工作门槛，余501变量/950行，全部原H4及DAG保存。
 slot1 72645943B/SHA179b3645…，原小回执04efeded…；未记完整Schur或新头，优先核29原source零向量的同端点forcing配对。
+
+## 2026-11-15 12:17 UTC — 第六只求实际一列单位右端
+
+新wrapper/helper逐差异审读，固定继承已付三stage及原顶核；排600秒/8GiB首个Dixon1列组，U只按本身行primitive，RHS逐列尺度恢复后核全部988原单位行。
+逐列candidate和verified分开落盘，同binding后续只解余列；完整原低Schur及6188乘回仍保，不预称新head/r1。
