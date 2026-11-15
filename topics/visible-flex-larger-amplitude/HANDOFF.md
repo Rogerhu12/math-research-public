@@ -4,7 +4,7 @@
 
 ## 当前规则与环境
 
-规则同步记录：2026-11-15 14:23:29 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 88eb906f47eca3457dc32049b1aec700ef6d3add。
+规则同步记录：2026-11-15 14:25:39 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c9aeeb140d31e7d3d513b5a29450ec706b24c8a4。
 
 仅公开 Rogerhu12/math-research-public。科学算术、科学模块导入、数值测试/编译只在本库Actions；root只源/证明/原JSON词法/字节/语法/Git。PAT仅CLI瞬时用，不入文件/提交/回复/连接参数。root唯一发布，三个agent独立/tmp交源。
 
@@ -28,27 +28,29 @@
 
 接口：[145](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)、[150](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)、[152](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)。raw清后必须按真来源重做，不凭SHA恢复。
 
-## root：真实读回、151集成和155接续
+## root：真实读回和统一发布
 
-[R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)已推7248eef2：run43712613111/sourcea7ce5579/job132807257922全success。8真model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。末五拒所选35全合法，未选MID489/490失败，末α1/32；512行/200dual后验仍大。原summary与末warm/status身份由R333完整保留，raw已清。155须Actions真重生35链后同job转独立37完整B支持，或明确actual98另起；须扩capture/端点/消元，不能只加query标签。155尚未写源。
+[R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)已推7248eef2：八真model/freshFD，27trial/8接受/19域拒，末physical .0071047205741851865，全native/fullDNfalse。末五拒所选35全合法，未选MID489/490失败；原selected曲率与未选缺项分开，512/200dual后验仍大。完整原值/八summary/末warm身份由R333保留，raw已清。
 
 [140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)付128精度下降及独立全129248/576×226逐word replay；后stage/audit编译return1、112/338未起，非预算拒。原错误正文已清；e609 shim仅临时quoted→::quoted。152按完整接口重做全fresh91/64J/R273/owner/576×224/112/混合338/独立audit，保19200s/55pins/所有原门，完整summary树和错误字节读后清。root负责152实际。
 
 [147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md) run43717814570/source3b2df31a、两jobsuccess；准确cut同R322，R323 d=1/524288/eA=eB=1/1024/κ1/2，419piece定义d783cac1。基底452叶完整；原九p1735passed/12766terminal/13stack未决，原pending坐标未全文输出，151必须重生。数值ℓ2.723563252110879；418seams仅207全jetword同，不冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)付公共u准确L²/全branch/全九支撑、中心差及同场η+δ+ηδ；未给实际δ/field metric。
 
-## exact_refinement：151、150和145
+## exact_refinement：151、155、150和145
 
-151最终四件在 /tmp/visible-continuous-nine-target151 待root全文核：consumer69431B/6dfb79be、request13405B/a4894d6b、workflow50748B/3995b487、note22606B/9a87fd6d。原147 request17398B/4b6f逐字作来源/构造原子子程序，20pins=19原+consumer。因R327实际1800仅1432/1440，明确本次C重建3600并核actual work_parameters（原f12f不变）；原两个域300/新target900、grid320/65536/depth32/工作目标1e−7保，job150/E步75。先全419粗覆盖再两子原子替父，R330中心差、严格反证/未决分开，所有frontier/pending/中断恢复全文读后清。若未推草稿丢失，按R326/R330、原147及此声明重做。
+[151完整接口](notes/2026-11-15-request151-common-coordinate-target-enclosure-interface.md)四件全文/完整差异已核，本次发布：consumer69431B/6dfb79be、request13405B/a4894d6b、workflow50748B/3995b487、note22606B/9a87fd6d。20pins=原147十九+新消费者；原147 request4b6f原子构造不改。本次C3600/实际work逐字核，两个旧域各300、新target900、grid320/65536/depth32/工作目标1e−7。全419先粗盖，两子齐后替父；R330中心差，严格反证/未决分开，全frontier/中断事务完整读后清。无实际新δ/域结论，待真实run。
 
 150完整接口保58pins/全部230列/320bits/19200总限，原child70和summaryfalse不改；全JSON、长整数及错误先读后清。固定trace包含不冒F_e/真根/IEEE/全RK/native。exact负责全部实际读回。
 
 145保真124六p/λ.001，原warm/fallback/last、全currentH/J/R273η1、10trial/32iter/2e−9、338/FD/fullDN/audit。首次正s1/64真正原数学拒绝即结束本实验，不循环13盲减半；工程错误/未返调用独立。exact负责原实际。
 
+155已交exact：独立完整37=原35+MID489/490，明确从actual98原来源另起，8真model/freshFD，须扩capture/端点/凝聚/完整B支持，原H/J/域/reserve/W与门保；141只是动机，不预许大步/全局收敛/QP最优。独立/tmp准备中，未发。
+
 ## geometry：R327、156与真正153
 
 [R327 actual148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)已推27067e0c：C1800.010812505s只1432/1440，10pending+1433..1439后缀全文保，Rout/cut未付；深端112全付，有限头0mode/0panel/0coefficient，exit2因前置未付，不是ODE/共振。原四块两job逐字同，raw全清。
 
-[156接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)本次三件核推：request16157B/8ce21c4d、workflow48927B/84404a07、note12535B/48eaecf2；只C1800→3600/E步75/job150，原13pins/R324科学4531/线性1800/全112/原门保。绑定明确保实际3600work，原点读者144身份不改，四完整块/pending/错误先读后清，非零退出不覆盖。尚待真实run；geometry读实际，未预填success。
+[156接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)本次三件核推：request16157B/8ce21c4d、workflow48927B/84404a07、note12535B/48eaecf2；只C1800→3600/E步75/job150，原13pins/R324科学4531/线性1800/全112/原门保。绑定明确保实际3600work，原点读者144身份不改，四完整块/pending/错误先读后清，非零退出不覆盖。已推1ca4196b99b61428bc4ab216bbc713ba2e77023e；待真实run，geometry读实际。
 
 [R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已推4d12cfef：零shape保两mean、非除Robin/原port、非末−I前沿满秩/末整体非共振、η>0方向与η=0全112敏感度、完整338/原d_c字词。数值QR不冒严格非共振。R312/143 R318深尾、R324严格flux/闭管和R322原cut已付历史，不冒本次输入。
 

@@ -585,10 +585,14 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 
 [R327全文](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)21569B/37acee98已核：run43719446020/source da307af3、compute step12 failure/report success，四原JSON块两job逐字同。原C1800.010812505s只1432/1440，sqrtE_B真ResourceStop、10pending及1433..1439后缀全保，Rout/cut未付；深112全付，有限头0mode/0panel/0coefficient、exit2为前置未付，非ODE/共振失败。156只C重建3600并保原13pins/线性1800/全112/数学门，151亦明确同预算调整；H压成当前完整接续，历史正文不删。
 
-## 2026-11-15 14:22 UTC /root — R332原Armijo常数精确定义
+## 2026-11-15 14:21:17 UTC /root — R332原Armijo常数精确定义
 
 [R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)明确c_A为原binary64 0.2的准确实提升，局部直线Armijo证明用c_A与1−c_A，不用新十进制数替换实际常数。只改证明的常数身份，实际算法和门不动；全文11282B/16385345。154继续完整二阶和原有限回溯接线，未宣称实际接受或收敛。
 
-## 2026-11-15 14:24 UTC /root — request156同C完整头显式预算重算
+## 2026-11-15 14:22:42 UTC /root — request156同C完整头显式预算重算
 
 [156完整接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)：R327原1432/1440头未完、线性0列启动，故仅公开增C预算1800→3600/E步75/job150，原13源码、R324全部112/两坐标、线性1800及数学门不变。request8ce21c4d/workflow84404a07/note48eaecf2逐字核；原同job完整重生，四结果和所有pending/错误读后清，无raw上传/旧cut替代/新成功预填。
+
+## 2026-11-15 14:23:51 UTC /root — request151完整公共坐标目标包围
+
+[151接口](notes/2026-11-15-request151-common-coordinate-target-enclosure-interface.md)四件完整核读：6dfb79be/a4894d6b/3995b487/9a87fd6d，19原源+新consumer，原147请求作不改原子子程序；本次实际C3600及work绑定明确。准确原定义全字段重建，grid320向外包，419全粗盖后两子原子替父，全部九控制/分片/两侧及R330中心差保；反证、未决、实际退出分别记，所有节点/frontier/错误完整读后清，无raw持久化。尚无本次域/δ/native结论；155并交exact按actual98另起完整37，152原实例继续。
