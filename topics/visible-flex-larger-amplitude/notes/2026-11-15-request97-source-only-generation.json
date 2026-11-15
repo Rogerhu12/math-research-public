@@ -1,0 +1,119 @@
+{
+  "schema": "request97-source-only-generation-v1",
+  "baseline_workflow": {
+    "file": "/tmp/visible-larger-request96/visible-larger-public-small-core-resonance.yml",
+    "bytes": 20497,
+    "sha256": "18aa067d86b3dce55e6964bff1aefef94d02a36330ab508c446846792c79e968"
+  },
+  "baseline_request": {
+    "file": "/tmp/visible-larger-request96/public-small-core-resonance-request.json",
+    "bytes": 20124,
+    "sha256": "aceca0a8613ae04ad400024c73fa1a4910da66c5f495818ec73f1fc0881fd795"
+  },
+  "new_workflow": {
+    "file": "/tmp/visible-larger-request97/visible-larger-public-small-core-resonance.yml",
+    "bytes": 20497,
+    "sha256": "705d94c43f39b3c00acb3ddc037fdbab8c347780ba24b2a7b128bc8b9a940198"
+  },
+  "new_request": {
+    "file": "/tmp/visible-larger-request97/public-small-core-resonance-request.json",
+    "bytes": 20103,
+    "sha256": "6e4c05517e82b4fb0ed2337faf6c03fc6d5382b1027d3e9d91f481342ff67a89"
+  },
+  "workflow_edits": [
+    {
+      "before": "actual93",
+      "after": "actual96",
+      "count": 11,
+      "after_positions": [
+        353,
+        2589,
+        4887,
+        5495,
+        8339,
+        8553,
+        8852,
+        9340,
+        9569,
+        9939,
+        10060
+      ]
+    },
+    {
+      "before": "request96",
+      "after": "request97",
+      "count": 2,
+      "after_positions": [
+        3328,
+        10331
+      ]
+    },
+    {
+      "before": "request.get('request_number')!=96",
+      "after": "request.get('request_number')!=97",
+      "count": 1,
+      "after_positions": [
+        3149
+      ]
+    },
+    {
+      "before": "request93 sources",
+      "after": "request96 sources",
+      "count": 1,
+      "after_positions": [
+        6266
+      ]
+    },
+    {
+      "before": "43674264245",
+      "after": "43675493266",
+      "count": 2,
+      "after_positions": [
+        1690,
+        8065
+      ]
+    },
+    {
+      "before": "[0.5078436152033409, -0.3849212262335502, 0.5911288427829965]",
+      "after": "[0.5059246655778534, -0.3454563899724949, 0.5924659176169055]",
+      "count": 1,
+      "after_positions": [
+        5007
+      ]
+    },
+    {
+      "before": "372627",
+      "after": "233129",
+      "count": 1,
+      "after_positions": [
+        8169
+      ]
+    },
+    {
+      "before": "0913ea5d90ddb23bd408b33175887b5b24665fe0db8324d873bbe0b08c12a647",
+      "after": "3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb",
+      "count": 1,
+      "after_positions": [
+        8178
+      ]
+    }
+  ],
+  "workflow_full_reverse_to96_passed": true,
+  "original_status": {
+    "file": "/tmp/visible-larger-recovery-2207/actions-debug/visible-mainline-smallcoreresonance-43675493266-1/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+    "bytes": 233129,
+    "sha256": "3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb"
+  },
+  "parent_copy": {
+    "file": "/tmp/visible-larger-request97/actual96-original/inexact-p3-restoration-status.json",
+    "bytes": 233129,
+    "sha256": "3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb"
+  },
+  "all72_source_pins_and_source_chain_unchanged": true,
+  "no_new_scientific_source": true,
+  "scientific_modules_imported": false,
+  "local_science_executed": false,
+  "repository_or_Git_modified": false,
+  "workflow_dispatched": false,
+  "new_result_or_future_run_created": false
+}

@@ -1,0 +1,206 @@
+{
+  "schema": "request97-actual96-parent-literal-readout-v1",
+  "original_status": {
+    "file": "/tmp/visible-larger-recovery-2207/actions-debug/visible-mainline-smallcoreresonance-43675493266-1/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+    "bytes": 233129,
+    "sha256": "3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb"
+  },
+  "immutable_parent_copy": {
+    "file": "/tmp/visible-larger-request97/actual96-original/inexact-p3-restoration-status.json",
+    "bytes": 233129,
+    "sha256": "3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb"
+  },
+  "source_commit": "c43f20db7dbcaa2dcf48aca8a79b5df921d9ed4c",
+  "run_id": 43675493266,
+  "job_id": 132694604911,
+  "artifact_id": 14145702242,
+  "artifact_bytes": 502765,
+  "artifact_zip_sha256": "6ead780b66730f2306dfa4579849c0546900f80d3550ae7c270912c925f601bf",
+  "literal_parameters": [
+    0.5059246655778534,
+    -0.3454563899724949,
+    0.5924659176169055
+  ],
+  "parameter_binary64le_hex": [
+    "17b19cec8830e03f",
+    "d311481ef51bd6bf",
+    "7d1885157bf5e23f"
+  ],
+  "original_parent_values": {
+    "schema": "R278-original-three-equation-inexact-p3-restoration-LM-v1",
+    "source_sha256": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
+    "phase": "diagnostic-completed",
+    "diagnostic_completed": true,
+    "success": false,
+    "input_sha256": {
+      "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+      "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+      "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    "consumed_source_sha256": {
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+      "geometry_20261114_direct_operator_cell.py": "1774f8da00ccd8ced6199e85d1fda6f455a224eed7d20d1a92ac04df3801e2ce",
+      "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+      "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+      "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+      "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+      "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+      "geometry_20261114_small_core_resonance.py": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5",
+      "geometry_20261115_small_core_damped_resume.py": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
+      "geometry_20261115_small_core_damped_search.py": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+      "geometry_20261115_small_core_inexact_p3_restoration.py": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
+      "geometry_20261115_small_core_p3_inner_root_search.py": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
+    },
+    "search_stop_reason": "explicit outer direction budget completed",
+    "last_accepted_point_semantics": "original-three-merit-accepted-candidate-or-fresh-parent",
+    "last_accepted_parameters": [
+      0.5059246655778534,
+      -0.3454563899724949,
+      0.5924659176169055
+    ],
+    "initial_original_three_equation_merit": 146733.11420724491,
+    "final_original_three_equation_merit": 16791.962002764827,
+    "inner_call_count": 8,
+    "damping_cli_text": "0.1",
+    "candidate_iteration_budget": 8,
+    "original_backtrack_budget": 20,
+    "inner_newton_update_budget": 12,
+    "inner_backtrack_budget": 20,
+    "low_mode_candidate_has_small_full_recorded_right_residual": false,
+    "original_unit_stopping_tolerance_met": false,
+    "native_nonlinear_solver_called": false,
+    "full_nonlinear_nonzero_lambda_solution_computed": false
+  },
+  "final_unit_defects": [
+    -183.21971055442938,
+    3.802850231178231,
+    -2.0184856696129315e-08
+  ],
+  "outer_trials": [
+    {
+      "iteration": 0,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 20844.318073817132,
+          "original_Armijo_bound": 96972.03670511987,
+          "true_third_unit_residual_preserved": -2.2212766298632808e-09,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 20218.045385256984,
+          "original_Armijo_bound": 20427.12192849613,
+          "true_third_unit_residual_preserved": 5.769689115689945e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 18641.21685952607,
+          "original_Armijo_bound": 19685.77170242779,
+          "true_third_unit_residual_preserved": -2.184554385423112e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 18098.83051919812,
+          "original_Armijo_bound": 18505.844720875233,
+          "true_third_unit_residual_preserved": -3.344475021851024e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 17681.43566538691,
+          "original_Armijo_bound": 18002.25123863267,
+          "true_third_unit_residual_preserved": -1.8868066794294064e-09,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 17340.15915187751,
+          "original_Armijo_bound": 17606.102233752423,
+          "true_third_unit_residual_preserved": 4.389392773904155e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 17048.25231439494,
+          "original_Armijo_bound": 17277.373173301956,
+          "true_third_unit_residual_preserved": 2.2000210592849033e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 16791.962002764827,
+          "original_Armijo_bound": 16994.005313820704,
+          "true_third_unit_residual_preserved": -2.0184856696129315e-08,
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    }
+  ],
+  "only_stored_values_copied": true,
+  "scientific_computation_performed": false,
+  "parent_diagnostic_success_not_a_native_or_BVP_success": true
+}

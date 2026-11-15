@@ -13,7 +13,7 @@ defaults:
     shell: bash
 jobs:
   smallcoreresonance:
-    name: Continue actual93 with the same frozen inexact restoration and original complete-three merit
+    name: Continue actual96 with the same frozen inexact restoration and original complete-three merit
     runs-on: ubuntu-latest
     timeout-minutes: 60
     concurrency:
@@ -40,7 +40,7 @@ jobs:
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
-          /topics/visible-flex-larger-amplitude/notes/public-actions-43674264245-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43675493266-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json
     - name: Establish one independent diagnostic output
       run: |
         git config gc.auto 0
@@ -54,22 +54,22 @@ jobs:
         python-version: 3.12.14
     - name: Install the existing original operator diagnostic runtime
       run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
-    - name: Bind actual93 complete own-schema status, unchanged four inputs and72 pinned sources
+    - name: Bind actual96 complete own-schema status, unchanged four inputs and72 pinned sources
       run: |
         python - <<'PYPINS'
         import hashlib,json,os,re,subprocess
         from pathlib import Path,PurePosixPath
         comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
         raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
-        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=96 or request.get('lanes')!=['smallcoreresonance']):
-            raise ValueError('Use the explicit same-source inexact-p3-restoration continuation request96')
+        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=97 or request.get('lanes')!=['smallcoreresonance']):
+            raise ValueError('Use the explicit same-source inexact-p3-restoration continuation request97')
         if request.get('scientific_entry')!='geometry_20261115_small_core_inexact_p3_restoration.py':raise ValueError('Use the independently identified inexact-p3-restoration candidate entry')
         source_chain={'independent_algorithm_entry': {'file': 'geometry_20261115_small_core_inexact_p3_restoration.py', 'bytes': 45133, 'sha256': 'ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e'}, 'original_model_and_checks': {'file': 'geometry_20261114_small_core_resonance.py', 'sha256': '3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5'}, 'parent_inner_root_provenance_only': {'file': 'geometry_20261115_small_core_p3_inner_root_search.py', 'bytes': 43598, 'sha256': '3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9'}, 'parent_resume_provenance_only': {'file': 'geometry_20261115_small_core_damped_resume.py', 'bytes': 15452, 'sha256': 'ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a'}, 'parent_direction_provenance_only': {'file': 'geometry_20261115_small_core_damped_search.py', 'bytes': 13733, 'sha256': '1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728'}}
-        if request.get('source_chain')!=source_chain or request.get('scientific_source_unchanged') is not True or request.get('imported_original_model_source_unchanged') is not True or request.get('immutable_parent_direction_source_preserved_but_not_executed') is not True or request.get('immutable_parent_inner_root_source_preserved_but_not_executed') is not True:raise ValueError('Declare the unchanged actual93 algorithm and original model; older direction engines remain provenance only')
-        expected={'parameters': [0.5078436152033409, -0.3849212262335502, 0.5911288427829965], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8, 'inner_newton_steps': 12, 'inner_backtracks': 20}
-        if request.get('diagnostic')!=expected:raise ValueError('Retain actual93 parameters, eta0.1, outer8/20, inner12/20 and original diagnostic budgets')
+        if request.get('source_chain')!=source_chain or request.get('scientific_source_unchanged') is not True or request.get('imported_original_model_source_unchanged') is not True or request.get('immutable_parent_direction_source_preserved_but_not_executed') is not True or request.get('immutable_parent_inner_root_source_preserved_but_not_executed') is not True:raise ValueError('Declare the unchanged actual96 algorithm and original model; older direction engines remain provenance only')
+        expected={'parameters': [0.5059246655778534, -0.3454563899724949, 0.5924659176169055], 'backtracks': 20, 'candidate_resonance_tolerance': 1e-08, 'interval_bits': 160, 'interval_depth': 14, 'original_mesh_nodes': 699, 'field_modes': 112, 'tail_modes': 112, 'physical_angle_grid': 2048, 'material_and_boundary_angles': 4096, 'original_RHS_workers': 1, 'damping': '0.1', 'candidate_steps': 8, 'inner_newton_steps': 12, 'inner_backtracks': 20}
+        if request.get('diagnostic')!=expected:raise ValueError('Retain actual96 parameters, eta0.1, outer8/20, inner12/20 and original diagnostic budgets')
         required={'geometry_20261115_small_core_p3_inner_root_search.py', 'geometry_20261114_constrained_trust_warm.py', 'geometry_20261115_small_core_damped_search.py', 'geometry_20261114_direct_operator_cell.py', 'root_20261114_publish_actions.py', 'geometry_20261114_small_core_resonance.py', 'exact_20261114_public_resume.py', 'geometry_20261115_small_core_damped_resume.py', 'geometry_20261114_full_prefix_operator.py', 'geometry_20261115_small_core_inexact_p3_restoration.py', 'geometry_20261114_constrained_collocation.py', 'source-dependencies.json'}
-        if len(request['source_sha256'])!=72 or not required.issubset(request['source_sha256']):raise ValueError('Retain all72 request93 sources including the unchanged inexact-restoration algorithm entry')
+        if len(request['source_sha256'])!=72 or not required.issubset(request['source_sha256']):raise ValueError('Retain all72 request96 sources including the unchanged inexact-restoration algorithm entry')
         if any(request['source_sha256'].get(item['file'])!=item['sha256'] for item in source_chain.values()):raise ValueError('Bind the new algorithm and all parent/model source identities')
         if request.get('output_directory')!='small-core-inexact-p3-restoration' or request.get('output_status')!='inexact-p3-restoration-status.json' or request.get('output_status_schema')!='R278-original-three-equation-inexact-p3-restoration-LM-v1':raise ValueError('Keep the new result identity explicit')
         verified=[]
@@ -87,21 +87,21 @@ jobs:
             if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+key)
             inputs.append(dict(name=key,**item))
         prior=request['prior_candidate'];item=prior['original_status'];rel=PurePosixPath(item['file'])
-        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43674264245-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json', 372627, '0913ea5d90ddb23bd408b33175887b5b24665fe0db8324d873bbe0b08c12a647')
-        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual93 complete original status bytes')
+        expected_prior=('topics/visible-flex-larger-amplitude/notes/public-actions-43675493266-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json', 233129, '3343c5799dcb50a3ff58c52c0dfebaab441bc7a0bfe644a88e9a1a93fae2eacb')
+        if (str(rel),item['bytes'],item['sha256'])!=expected_prior:raise ValueError('Bind the actual96 complete original status bytes')
         prior_raw=(repo/str(rel)).read_bytes()
-        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual93 status changed')
+        if len(prior_raw)!=item['bytes'] or hashlib.sha256(prior_raw).hexdigest()!=item['sha256']:raise ValueError('Original actual96 status changed')
         prior_status=json.loads(prior_raw)
-        if prior_status['schema']!='R278-original-three-equation-inexact-p3-restoration-LM-v1' or prior_status['source_sha256']!='ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e':raise ValueError('Use the genuine actual93 own-schema parent from the same frozen producer')
+        if prior_status['schema']!='R278-original-three-equation-inexact-p3-restoration-LM-v1' or prior_status['source_sha256']!='ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e':raise ValueError('Use the genuine actual96 own-schema parent from the same frozen producer')
         if prior_status.get('last_accepted_point_semantics')!='original-three-merit-accepted-candidate-or-fresh-parent':raise ValueError('Retain the same-source declared final-point provenance')
-        if prior_status['phase']!='diagnostic-completed' or prior_status['diagnostic_completed'] is not True or prior_status['success'] is not False or prior_status['native_nonlinear_solver_called'] is not False:raise ValueError('The actual93 parent is a completed candidate diagnostic only')
-        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual93 literal final parameter values')
+        if prior_status['phase']!='diagnostic-completed' or prior_status['diagnostic_completed'] is not True or prior_status['success'] is not False or prior_status['native_nonlinear_solver_called'] is not False:raise ValueError('The actual96 parent is a completed candidate diagnostic only')
+        if prior_status['final']['parameters']!=request['diagnostic']['parameters'] or prior['parameters']!=request['diagnostic']['parameters']:raise ValueError('Use the actual96 literal final parameter values')
         if prior_status['input_sha256']!={key:item['sha256'] for key,item in request['inputs'].items()}:raise ValueError('Retain the same four original mathematical inputs')
-        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual93 complete consumed source bytes')
-        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual93-inexact-p3-restoration-status.json').write_bytes(prior_raw)
+        if any(request['source_sha256'].get(name)!=digest for name,digest in prior_status['consumed_source_sha256'].items()):raise ValueError('Retain the actual96 complete consumed source bytes')
+        prior_output=out/'prior-candidate';prior_output.mkdir();(prior_output/'actual96-inexact-p3-restoration-status.json').write_bytes(prior_raw)
         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
         if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
-        (out/'request96-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
+        (out/'request97-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,scientific_execution_claimed=False),indent=2)+'\n')
         print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs))),flush=True)
         PYPINS
     - name: Restore the original78 public numerical source files once
