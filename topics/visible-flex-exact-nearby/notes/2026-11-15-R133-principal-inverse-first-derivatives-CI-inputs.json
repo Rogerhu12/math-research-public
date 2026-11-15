@@ -1,0 +1,207 @@
+{
+  "kind": "principal_inverse_first_derivatives_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "08b8d1d9ff222ba7c8cea14bed50c0e9cd320359aa0e5456bc14c2ecfcc5c9c7",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives.py",
+  "scientific_source_sha256": "08b8d1d9ff222ba7c8cea14bed50c0e9cd320359aa0e5456bc14c2ecfcc5c9c7",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md",
+  "contract_sha256": "0a5e4ad71d0d980a097e6c0f4afa8476780a46b4b3e82e5a583633f8bb66ad1a",
+  "input_read_commit": "3170d47f1ce4ba424f32c7f1f129d8cfa315f7ff",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "continuous_response_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+    "physical_frequency": "n=4|j|",
+    "physical_period": "pi/2",
+    "independent_physical_mean_coordinates": 2,
+    "selected_conjugacy_parameter_absolute_upper": "0.00000000009368259853002",
+    "selected_common_input_order": "S = U_H_inverse U_X_minus = U_(X_minus o H_inverse)",
+    "selected_common_input_map": "psi = X_minus o H_inverse",
+    "principal_factors": [
+      "T_ci = Id + M_ci I",
+      "T_co = Id + M_co I"
+    ],
+    "complete_windows": [
+      "L2",
+      "H^(-4/3)"
+    ],
+    "intermediate_negative_window": "H^(-1/3)",
+    "root_coefficient_degree": 192,
+    "root_coefficient_first_derivative_frequency": 768,
+    "highest_complete_coefficient_derivative_used": 1,
+    "highest_selected_coordinate_derivative_used": 2,
+    "primitive_constant_squared": "17/16",
+    "nonmean_derivative_factor": "1/2",
+    "primitive_derivative_factor": "1/8",
+    "B_one_third_factor": "39/32",
+    "P_four_thirds_factor": "243/160",
+    "direct_exponential_norm_evaluation_allowed": false,
+    "optional_Neumann_failure_is_not_full_inverse_failure": true,
+    "scalar_coefficient_means_real_and_unrestricted": true,
+    "physical_means_are_separate_identity_blocks": true,
+    "only_same_selected_actual_conjugacy": true,
+    "old_successful_scientific_calls_allowed": 0,
+    "old_binary_or_archive_inputs_restored": 0,
+    "full_physical_incoming_inverse_or_finite_Schur_or_return_R0_claimed": false,
+    "expected_actual_gate_count": 20
+  },
+  "expected_actual_gate_count": 20,
+  "input_paths": {
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "CG_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_separate_cut_propagated_coefficients.py",
+    "CG_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-separate-cut-propagated-coefficients-CI-inputs.json",
+    "CG_science": "topics/visible-flex-exact-nearby/notes/separate_cut_propagated_coefficients_ci/run-43768992861-1/actual-scientific-conclusion.json",
+    "TF_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window.py",
+    "TF_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-root-normalizer-two-window-CI-inputs.json",
+    "TF_science": "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+    "WX_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_waist_coordinates_saved_products.py",
+    "WX_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-waist-coordinates-saved-products-CI-inputs.json",
+    "WX_execution": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+    "CG_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md",
+    "TF_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md",
+    "WX_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md",
+    "MI_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md",
+    "WY_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md"
+  },
+  "current_text_input_roles": [
+    "scientific_source",
+    "contract",
+    "reviewed_rules",
+    "CG_source",
+    "CG_manifest",
+    "CG_science",
+    "TF_source",
+    "TF_manifest",
+    "TF_science",
+    "WX_source",
+    "WX_manifest",
+    "WX_execution",
+    "CG_contract",
+    "TF_contract",
+    "WX_contract",
+    "MI_contract",
+    "WY_contract"
+  ],
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "all_inputs_are_current_small_texts": true,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_CG_TF_WX_profiles_phases_rays_sources_or_root_gauges_recomputed": false,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "same_selected_actual_common_input_and_real_ci_co": true,
+    "complete_root_Fstar_and_scalar_means_retained": true,
+    "only_first_coefficient_and_second_coordinate_derivatives_used": true,
+    "same_full_circle_principal_inverse_on_L2_and_Hminus4_3": true,
+    "complete_log_certificates_without_exponential_evaluation": true,
+    "optional_Neumann_tests_independent_of_full_ODE_inverse": true,
+    "two_independent_physical_mean_blocks_and_finite_rank_differences_retained": true,
+    "actual_incoming_outgoing_error": false,
+    "finite_Schur_or_whole_return_R0": false,
+    "nonlinear_background_or_final_geometry": false
+  },
+  "file_count": 17,
+  "total_pinned_input_bytes": 351865,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-common-root-normalizer-two-window-CI-inputs.json",
+      "bytes": 15466,
+      "sha256": "027a4462a2cc0424abf00bb03456b63b0811700e98e5ddd28ba1d4d793aefacf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-separate-cut-propagated-coefficients-CI-inputs.json",
+      "bytes": 12847,
+      "sha256": "e33a06ddf9a46f2eeed6898bb4d700e13e02685617afa080061b8076f53c6184"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-waist-coordinates-saved-products-CI-inputs.json",
+      "bytes": 9927,
+      "sha256": "aa3c9d7e9f3a217122af5a321fadfcb2abe420e7e7c48217e3a181c9dbdd6f26"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+      "bytes": 18206,
+      "sha256": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/separate_cut_propagated_coefficients_ci/run-43768992861-1/actual-scientific-conclusion.json",
+      "bytes": 18985,
+      "sha256": "a68095bb38c38d62a4b1af256c84c96e7f1f7f1c2663d5fdb5ffc814b73e57fc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+      "bytes": 43753,
+      "sha256": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md",
+      "bytes": 14951,
+      "sha256": "652a9a2c2a9e0ccce1b07adae8848837ba579bec63d6ba5da21989a24b1bf5a3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md",
+      "bytes": 14909,
+      "sha256": "0a5e4ad71d0d980a097e6c0f4afa8476780a46b4b3e82e5a583633f8bb66ad1a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md",
+      "bytes": 12991,
+      "sha256": "f1fb4dca205a776968f80ab24b79740fdf6e79e875b186e778dace24af871404"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md",
+      "bytes": 20033,
+      "sha256": "c5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md",
+      "bytes": 30764,
+      "sha256": "ebf8713508a11ef96decc5691056ea6eaa15d967d08b3a8af4b20c4284f6d1b3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md",
+      "bytes": 21714,
+      "sha256": "a66ad4c41c831a1d5efd343874c11945edd4cc2b04a39752ddd99d8b16aa72ff"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_root_normalizer_two_window.py",
+      "bytes": 20669,
+      "sha256": "bf71639da0bc9e41ab86f9530fe02b34399c18e63e9041fa0c3abd0852ccdc4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives.py",
+      "bytes": 30632,
+      "sha256": "08b8d1d9ff222ba7c8cea14bed50c0e9cd320359aa0e5456bc14c2ecfcc5c9c7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_separate_cut_propagated_coefficients.py",
+      "bytes": 31227,
+      "sha256": "2545237268d1efb807419e809bfdf0dd75ef40b50dd11d898467ba0f8854586f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_waist_coordinates_saved_products.py",
+      "bytes": 32330,
+      "sha256": "63fc880f409151152a40a6361b781280bd3785b337cf2bd3386c03496e1b9424"
+    }
+  ]
+}

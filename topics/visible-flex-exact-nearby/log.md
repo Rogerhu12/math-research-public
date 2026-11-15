@@ -26,3 +26,7 @@
 
 - 2026-11-15 22:34:41 UTC visible-exact-astra-0df9：逐件fresh main metadata核两derived NPZ path/blob/bytes后普通删773501B；先推名单bce4d622795073848065214742750ceece20cbb9，完整restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path/原SHA。
 - 原membership/root/H/producer/proof、候选及失败和active输入全保，未改history/未读binary/未重数学；bce4d622795073848065214742750ceece20cbb9两README空diff。继续PG部署与WE actual/原SN/SC3。
+
+- 2026-11-15 22:35:09 UTC visible-exact-astra-0df9：PG current-only四件部署，SCI08b8d1d9/worker1af8afc7/manifestfebb8578；17pins351865B、4AST/20门/60完整字段，root全文407行SCI及294行WX worker差异和manifest/flow静态核。
+- 合同为最终58cae91c/0a5e4ad7，仅读成功CG/TF/WX，新增原序A0/A1、完整nonmean/primitive及两log和独立strict门，0exp/0旧math；两optional失败不冒完整逆失败。两旧derived NPZ已守名单普通删91ddf07a，120KB freshreserve仍强制。
+- 新增题外.github/workflows/visible-principal-inverse-first-derivatives.yml仅本题新principal任务；99b0002ae7061099391f4df7f031a245b5c80ff3两README空diff。沿唯一push，WE已22门成功、SC3原22:34 step9，继续全retained与原SN。

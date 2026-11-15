@@ -24,7 +24,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 ## 2. 当前主因子、强误差与待闭合的逆
 
-本节以及下节全部旧全式、单位、原球、失败/lost与恢复点保本页前档和原proof；成功旧数学禁重。当前PG current-only四件在制；WE paid已部署SCId02efe46/workere9c606d0/manifest098c0906/flow41f4fe83，12pins/2AST/9math/22门，唯一push待识别。仅五个新正组合，retained register完整；继续真实finite/mean Schur，不以paid费用冒全$E_i$。
+本节以及下节全部旧全式、单位、原球、失败/lost与恢复点保本页前档和原proof；成功旧数学禁重。PG已部署SCI08b8d1d9/worker1af8afc7/manifestfebb8578/flowfa7b2436，17current/4AST/20门，唯一push待识别；WE paid已部署SCId02efe46/workere9c606d0/manifest098c0906/flow41f4fe83，12pins/2AST/9math/22门，唯一push待识别。仅五个新正组合，retained register完整；继续真实finite/mean Schur，不以paid费用冒全$E_i$。
 
 [PF](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf/[CT](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保两row、old I/−SI、root有限函数0/g1hat、真X−density、χ/Taylor差/mean/jump/residual；scalar不代函数。
 [SN恢复](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)7edf79c7仅lost314×4 pointnominal320bit，旧1256预算/next2831禁重。唯一43751213826/1、b8bd86a，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3，207pins/8AST；22:26原346354b5/17185/d72c1ecf为10792=1256+9536，interval448/cursor5589467537525383/144115188075855872，双H3prefix2.813998528016974。34固定字段原字，complete/targetfalse、return/supervisionnull；真pullb9e9a4db、两README空diff。仍须双支四导四列/全A1/128尾/mean/原H3完整terminal，prefix不作终点C。
@@ -106,7 +106,7 @@ N43716450174/17最小proved R=.005，.001/.002充分门fail；SP43731464771/20�
 
 [SC径向扣除与完整帽矩](results/R133-supplement-exact-radial-subtraction-and-complete-known-cap-affine-moments.md)927c3ba2完整解析及首包/每组atomic/live/typed暂错策略逐字保5e5b8dffe0674e99cc94fa18cedf1272d320bbd3同open/H。Wref同时扣known body及两端，三类128矩共享97全列；mean/完整指数tail/径二阶+whole3、7908原piece和原midpoint强门、193修补/target96/A15外端全f球保。unknown y/Yw/rho/ZR及formalGram/left/outer/jump/height全部旧费用不删。
 
-SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1在22:27原step9健康，完整affine待；禁取104306B大log/禁重成功。
+SC1/2失败62bdfc64/f98d1f32全运行/pins/lost/原保存见前页及[第二失败证明](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)。SC2首row部分新算术未存，完整row/group/model0、旧数学0。SC3仅helper list化6f868faf，SCI41b8f50c/manifestcd28e23a/flow6936992e；23pins/9history/36archive及全math原字。唯一43754452928/1在22:34原step9健康，完整affine待；禁取104306B大log/禁重成功。
 
 ## 5. 新94链、真实B collar和实际body种子
 

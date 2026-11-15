@@ -1,0 +1,82 @@
+name: visible-exact principal inverse logarithmic certificates from first derivatives
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-principal-inverse-first-derivatives.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-principal-inverse-first-derivatives
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-principal-inverse-first-derivatives-CI-inputs.json
+  PHASE_MANIFEST_SHA: febb85783c624eed3bab22cd6e0873aad08c3257e4758615668654f82289e51c
+  PHASE_PIPELINE_SHA: 08b8d1d9ff222ba7c8cea14bed50c0e9cd320359aa0e5456bc14c2ecfcc5c9c7
+  PHASE_WORKER_SHA: 1af8afc75cf4aad17f719af38e99c723af63e91357ddb0fbbbae125693e78882
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  principal-inverse-first-derivatives:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-principal-inverse-first-derivatives-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Check the full immutable AST closure and evaluate the complete principal inverse logarithmic certificates from first derivatives
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_principal_inverse_first_derivatives_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-principal-inverse-first-derivatives-science"
+          --out-dir "$RUNNER_TEMP/visible-principal-inverse-first-derivatives-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.
