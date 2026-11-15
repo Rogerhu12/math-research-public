@@ -1,0 +1,48 @@
+{
+  "receipt": {
+    "kind": "rank2_actual_ci_git_pull",
+    "actual_git_pull_success": true,
+    "utc": "2026-11-15 18:46:29 UTC",
+    "head": "4d7cd7063f05f5efbef6080f7ff04facdc9ee185",
+    "last_rules_read": "62feff66edaf319cb4ee7df9b94a3d3e36384164",
+    "request_id": "rank2-20261115T1846-rule-pull",
+    "readme_blobs": {
+      "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+      "topics/rank2-sha-infinitely-many-p/README.md": "965ab236bbd6753acb812b45fcc36ae9b6f83b3c"
+    },
+    "rules_changed": false,
+    "scope": "read-only sparse CI checkout; local workspace remains separate",
+    "workflow_run_id": 43748628032,
+    "job_id": 132917394424,
+    "job_conclusion": "success"
+  },
+  "inventory": {
+    "kind": "rank2_rule15_inventory",
+    "head": "4d7cd7063f05f5efbef6080f7ff04facdc9ee185",
+    "tree": "e5dfdb902a5d47b6a50cefd1be11b412fdf34746",
+    "blob_count": 2123,
+    "total_bytes": 29133830,
+    "limit_bytes": 200000000,
+    "over_5mb_count": 0,
+    "part_count": 3,
+    "over_5mb": [],
+    "parts": [
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part1.json.gz",
+        "bytes": 168504,
+        "sha": "06f09ff4eda50214dd39f1d88837152dc49cb01f"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part2.json.gz",
+        "bytes": 1243805,
+        "sha": "22d9a8ffd7287d542f5e4786940dd9193dc0e499"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part3.json.gz",
+        "bytes": 4431413,
+        "sha": "a911a1fdddbdfe5758a79e3969a409c7121f2e27"
+      }
+    ],
+    "lists_complete": true
+  }
+}

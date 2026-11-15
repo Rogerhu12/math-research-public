@@ -3,11 +3,11 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：19dfd4c6d8cb6ad3cdb253c93293cebe1378648e；2026-11-15 18:46:20 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:46:20 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
+- 最近已读规则提交：e2ac3449ac480c6f00bce197c0bd5202f8b1fda4；2026-11-15 18:48:18 UTC核两README无变。实际CI pull 2026-11-15 18:46:29 UTC/4d7cd7063f05f5efbef6080f7ff04facdc9ee185（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:46:20 UTC仍无环境。最迟2026-11-15 19:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
-- 最新盘点28,941,806B/2107文件，无超限，3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核；真实输入和历史保。
+- 最新盘点29,133,830B/2123文件，无超限，3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核；真实输入和历史保。
 
 ## 完整归档、状态及分工
 
@@ -18,7 +18,7 @@ root唯一metadata/ref写者；root 变动次数真实HP/原负矩；deep 同R�
 
 ## 当前执行与未推状态
 
-已请求18:46公开实际pull/两README差异和库存；原18:55期限仍保，待真实回执。
+实际pull18:46:29成功，run43748628032/job132917394424；两README差异空/原blob吻合，回执ci/rule-pull-20261115T184629.json；最迟19:40再pull。
 
 R801/R803/R807/R809的公开run均成功，全部producer/参数/hash在正式原证；R803旧报告超限已恢复，无遗失结果。
 R808已登记：原第三精度同R必有分裂二支和完整近支normal段，未排全b强窗；R811已登记原三个canonical类的全局—指定局部非零等价，无数学run执行中。R810已登记：run43746804944/job132911796266成功，source2a6ce4bd7a2ea78f55e94dcee1f9b5cf5829db0d；57格及539类出现/438矩阵全不解，所有producer/参数/hash在原证。
