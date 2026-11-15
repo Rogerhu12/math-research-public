@@ -19,7 +19,7 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**已消费159前序**：容量/hold、因子化J及旧选行仿射的全部原门/失败/漂移/费用保对应notes，不重已付阶段。旧选行affine43722283235 η.266419188→.266401179，m6漏峰/曲率及m5 e/f非线性保原记录，50/102源24输入已核。
+**159前序已读**：全部容量/hold、因子化J、旧选行仿射失败/漂移/费用见对应notes。旧run43722283235 η.266419188→.266401179，m6漏峰/曲率及m5 e/f非线性均保，不重。
 
 **完整两网actual六模型已读**：[原结果](notes/complete-affine-first-actual-result-20261115.md)/[六模型](notes/complete-affine-six-model-interpretation-20261115.md)，run43728280256/7329385/job132854922848：η.266401179156→.266381717617，两网14门/精确盒过，κfine57.999983395；高度margin−5.6e−17仍保。9恢复805.206121s、新active35.287169s、总845.020544s，16+2值；54/106源核receipt，24输入路径及decodedSHA对CLI全合，同g/b0/159身份。6模型/7trial，10primary+2SOC=12LP；m3/5 primary细曲率58.000001945/58.000009623失败、SOC修回并持B.000125。m4/5需358/342cuts；m5首LP全norm负改善而补cut后真改善，m6只余1LP、全norm负改善即预算停，非驻点。七步无遗漏硬行，完整affine与selected差仅0/~5.6e−17，实际非线性约3.8e−7～1.7e−6。开发所有新续项已过/首6方向源绑复用。9恢复drift/第九handoff/SOC大表专读已提交；下一新中心重建原ID/norm支持方向，不直接搬旧A/b或只延预算。
 
@@ -30,17 +30,17 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已付基础接口**：R208–210准确whole pure S=P、Cp=P；Q=P/πR仍未知，不能再用λ+否定pure。R223/227真闭hook付M0、TκH、frame/位移及例外芽安装，通常重设seed/g，不冒同g有限flex。
 
-R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/左尾；已付43712266529八新人工不重。全Rp0首项R71∩kerπ不可删。R259/263的72条/81状态非rank，右inner三矩0才消cross；R277–281/264的全部period、Green及解析端判据保原文，不授未算门值零。
+R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左尾；43712266529八新人工已付。全Rp0首项不可删。R259/263的72/81是条件非rank；R277–281全period/Green/解析端iff不授未算门零，详原稿。
 
 **R281解析端接口**：ψ乘偶多项式给最大F母包/全区正prefactor，p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。真Tf/尾和共轭端germ有限iff均保；平台/flux仍须实际支付。
 
 **R283–305旧输入已付范围**：rank-one包canonical/真尾局域、R293/294有限N全角72面积/六能量/三矩/third/全二层、R299真self/Γ角Ξ、R300/305 free42/even40主控均真；R304完整C²基线严格非零，不再对被排类加F/频率/预算。全部范围与端假设在原稿，不能推广新rank-two。
 
-**R292–302平台与几何接口**：完整后缀迫T9/逐self零。R297真χ32/37/40给9单位；R298 χ30/P整q=3I/512>0，非C²。R302保四χ原型基准/共享整词真倒行；自由h跨整词、只保M0让τ漂移，再全pure/T9/单预固定self增强IFT与κe/ε安装、Morse/Klein闭合，可真指定有限目标。通常选择新seed/g；非全q函数/全母包兼容。倒行成本同号、λ+正，完整period/同w仍欠。
+**R292–302平台与几何接口**：完整后缀迫T9/逐self；R297真9单位，R298 χ30/P整q=3I/512非C²。R302保四χ原型/共享整词真倒行、自由h跨全词、M0固定而τ可漂移，增强IFT真指定有限pure/T/query并安装新芽、Morse/Klein闭合；通常先选新seed/g，不授全q/全部母包/实际逆元，完整period/同w仍欠。
 
-**R303–313完整self**：q(u_c)≤9，十N链T/pure核给19真观测。R307/309全[c9]/[c8]含D9I、D8I+D9(9I1−3J)，一母全移清后普适≤7。R310整q=J=∫u′u″u‴²，even母全部移/幅/宽盲。R313五根为4链+常链，F=2∫u′²u‴²−∫u″4/6≥∫u″4/18；核J/F与旧I反射/宽度分离，self像≥15、24真query联控，非全Q。
+**R303–313已付self模块**：全平移q≤9，十N链核I与五𝔍根的4链+常链核J/F真独立，self像≥15、24真query联控。整J=∫u′u″u‴²对even母全部移/幅/宽盲；F≥∫u″4/18。c9/c8真实左尾及全C²公式见原稿，有限query非全Q；现以下完整成员门取代继续孤立增rank。
 
-**R314完整self局部化**：pure零总V的有序不交缺陷恰μuᵀTμv；保原ℓ/J²尾及全部三角边界，两次Euler最高阶递降给q=N_T+∫L三jet，T0 iff完整局部。九矩承载全非局部商，L含原三阶平方/全部C²，Euler全部六jet三次字面系数忠实。R322保原右锚证明Q(V)(C_Hu)=H^(σ−2)Q(V)(u)，真实R/pure核有限Laurent谱投影和合法开缩放分离，齐次目标跨权支付严格等价同权支付。**R316已提交公开Actions**：完整权零13维响应pure核+H共14新self；读48旧pure值，不重旧秩/查询/3974，先12新人工。member以fresh原差T/Euler零+重构判，非额外NF零；结果未出，不授全Q/全λ或同w。
+**R314完整self局部化**：pure零总V的有序不交缺陷恰μuᵀTμv；保原ℓ/J²尾及全部三角边界，两次Euler最高阶递降给q=N_T+∫L三jet，T0 iff完整局部。九矩承载全非局部商，L含原三阶平方/全部C²，Euler全部六jet三次字面系数忠实。R322保原右锚证明Q(V)(C_Hu)=H^(σ−2)Q(V)(u)，真实R/pure核有限Laurent谱投影和合法开缩放分离，齐次目标跨权支付严格等价同权支付。**R316实际MEMBER已读**：[准确代表](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)，run43735872441/ca186db/job132878270740，12新人工过；14完整目标的13比较像rank7=增广7、37忠实行，10.428267s/112.49MiB。H*准确式见上链接，原R126 old编号；π0/整Q0/λ+=1；fresh原2497项独立mapper T/Euler及重构0，selfword实际0。故λ不经完整self因子化；非全mixed0/实际有符号控制。只读48旧pure/恢复必要16+C2，未重旧目标。下一真实全mixed/cross与R302几何实现。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
@@ -53,6 +53,6 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 ## 5. 保留边界与继续
 
-R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
+R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 7f9fa4f8b663839a51d454da8b6448a2c3ed0a38，双README blob同。API读取不冒实际pull。
+断连API复核main ccd10210a19b45a79e90f6efd74bf8bcd8888f8a，双README blob同。API读取不冒实际pull。

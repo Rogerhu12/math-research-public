@@ -72,7 +72,9 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)进一步在同一真实空间证明完整self的真权移σ→σ−2，R及pure核的有限Laurent谱投影仍在原空间，任意合法profile都有开缩放区间可分离各权。因此齐次H的完整self跨全部R_p0支付当且仅当同权R^(0)_p0支付；其他权不能另行挽救这个齐次成员问题。此纸证不替代实际门，也不授实际有符号控制。
 
-[R316完整设计](notes/weight-zero-complete-self-gate-design-20261115.md)已提交公开Actions：比较全部权零13维响应pure核与H共14新full-self目标。只读48个旧pure值/恢复16mixed+C2必需根，不重旧H0秩/三查询/3974。新完整原式转换输出T9/Euler全部坐标；member从原mixed复合差fresh核，按R314忠实性不加NF字面零门；nonmember有精确全14列对偶。先12新接口人工，首次语法/执行均Actions。尚无实际结果；该权块完整覆盖全部pure核分支，不能外推全U或λ因子化。分别满射不能相加，有限控制不恢复R304/R306被排类。
+[R316公开实际](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md) run43735872441首次成功：12新人工、14完整self目标，13维完整权零响应pure核的self像rank7、增广7、37忠实T/Euler行，MEMBER。准确H*=C2+649Rold2/768−73Rold3/3072+649Rold4/1536−821Rold5/768+Rold7/64+187Rold9/1024，全部原R126 old编号；πH*=0、整universalQ(H*)=0、λ+=1。fresh原2497项复合差用独立mapper保全部真尾/对角项，T/Euler0、全word重构0，实际selfword字面0。故λ在pure核上不经完整self因子化。旧fullH0/纯查询/3974未重算；33请求/45报告源码记录与原receipt逐项同。
+
+下一是该具体代表的全mixed/cross与真实几何有符号控制：不能由所有同profile self零推任意f,g成本零，也不能由线性span推实际半群。沿R302保共享原型基准/整词倒行/history及有限增强IFT，随后原period/同w joint；R304/306被排旧类不因此恢复。不再重复已成完整self成员门。
 
 ### 完整period与同一w joint仍须真正求解
 

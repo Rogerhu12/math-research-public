@@ -414,3 +414,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R322 完整证明](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)逐步支付真实U/R及pure核的缩放不变性、有限Laurent系数在原空间内的Vandermonde谱投影与群律。共同右锚/真实左二次尾给Q(V)(C_Hu)=H^(σ−2)Q(V)(u)。对每个合法紧profile，在保持物理支撑的真实H开区间分离不同整数幂，故齐次目标的全Q跨所有R∩kerπ可付当且仅当同权核可付。权零时仅T22允许非零，但源码保全九项并不先裁。
 
 稿件形成时R316实际尚待回读，文中两支后果保持为条件陈述；它不以单目标推全U秩、λ因子化或实际半群。完整十四目标实际另按原日志记录，不从这个缩放归约推断成员答案。无新执行。
+
+
+## R316：完整权零 self 成员成立，正特征代表可同时 pure 与 universal self 为零
+
+[R316 原实际与准确公式](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)，公开run43735872441/source ca186db057ed753abe565d0c3c2c8305278b5af7/job132878270740。12新接口人工全过；全部13维权零响应pure核与H的14个新完整T/Euler目标给rank7=增广7、37忠实行，MEMBER。原R126 old列编号下H*=C2+649R2/768−73R3/3072+649R4/1536−821R5/768+R7/64+187R9/1024，πH*=0、整Q(H*)=0、λ+(H*)=1。独立fresh原mixed复合差2497项，T/Euler0与wholeword重构0；实际selfword亦0。
+
+10.428266294s/112.48828125MiB，413次新primitive，无预算截断；只读48个旧pure坐标并恢复必要16mixed+C2，旧H0秩/3974/旧endpoint未重。33请求和45嵌套源码绑定逐项核原receipt；两完整原日志JSON+换行的摘要SHA与receipt相同。由具体H*可严格推出λ在pure核上不经整self因子化，但不能推全mixed0/实际有符号路径/全period或主目标。R322同权归约已成；下一R302真实控制与全mixed/cross。
