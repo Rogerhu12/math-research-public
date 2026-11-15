@@ -310,3 +310,8 @@
 - 实施根15新规：新增本题数据清理脚本/专用workflow，请求普通删除scripts/data及computations大可重算输出，先记逐文件SHA和历史来源；只文件I/O，无数学重算或Release上传。
 - 初始840326974B，按初始文件清单预计删775633196B，实际大小以公开run小summary为准；旧提交和全部证明/脚本/小清单保留。R775/R781固定源与已读临时输入不变。
 - 终端不可用，按根8小文本API提交，实际删除与正常git push由公开仓库自己的Actions执行；完成后核summary更新H。
+
+## 2026-11-15 13:18 Asia/Taipei · serre-public-astra-20261115
+- 清理run43679907787成功：普通删除2016文件/775633196B，当前本题含metadata为64952729B；逐项历史Git blob/SHA与来源提交保留，数学未重算，无Release或原始数据上传。
+- R777原算术core不改；wrapper/workflow/method/pending跟随新根15，只发布脚本参数/run/输出SHA，预算300/350分钟。pending已指向真实运行中的R775，仍无最终请求，不能将未返回producer当成功。
+- R775 run43679160495与R781 run43679703344仍运行。H更新实际清理与run；继续原高度和全p非消失，终端仍不可用，API核两README并非force发布。

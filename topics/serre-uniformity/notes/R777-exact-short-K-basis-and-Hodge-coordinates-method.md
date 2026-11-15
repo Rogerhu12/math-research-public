@@ -230,8 +230,7 @@ $$
 
 核心按原 producer 的 manifest 验证每个读取文件。包装额外核真实 run 成功、源提交、artifact ID/ZIP digest、run receipt 和证书，之后才把数据交给核心。原 R771/R774/R775 的数学不会由本阶段再次执行。
 
-大量准确系数只入 artifact。全部阶段 SHA 放在独立
-`R777-exact-stages-manifest.json.gz`，小证书只保存该清单的名称、大小、SHA 和计数。完整 artifact manifest 若超过 100 KB，也留在 artifact；Git 保存其小 reference，明确完整 manifest 的 SHA、大小及 artifact 名称。这样所有数据仍可逐项核验，不把数千条基行塞进公开小证书。
+2026-11-15 根 README 第 15 条已改为可重算数据不保存。准确系数、阶段表和完整计算证书不入 Git 或 Release；Git 只登记脚本、参数、run、输出 SHA 和小结果摘要。全部阶段 SHA 仍在运行时独立清单中生成，Git 只保存其名称、大小、SHA 和计数，以及不超过 100 KB 的哈希清单或小 reference。跨当前计算继续使用的产物只作一日临时 active checkpoint 传输，用后删除；这不构成持久数据交付。原 R775 证书从真实 artifact 按 SHA 读取，不要求它另存 Git。
 
 最终本阶段成功要求真实准确短基、非零实际 694 阶 minor、完整准确有理等式及正确 (777.16) 全部通过。它不声称已经计算原 $A,B,\beta$ 或高度；后续工作直接接这些准确产物继续原函数恢复。
 

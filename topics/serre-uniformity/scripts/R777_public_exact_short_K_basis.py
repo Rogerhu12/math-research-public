@@ -21,7 +21,7 @@ FINAL = "p41-exact-short-K-basis-and-Hodge-cube-certificate.json"
 REFERENCE = "full-outputs-manifest-reference.json"
 SMALL = {"public-actions-input.json", "retained-inputs-receipt.json",
          "resume-receipt.json", "run-receipt.json", "core-receipt.json",
-         "public-actions-run.log", FINAL}
+         }
 
 
 def guard():
@@ -172,7 +172,9 @@ def output_manifest(out):
     manifest_path = out/"full-outputs-manifest.json"
     save(manifest_path, {"result": RESULT, "files": rows,
         "full_outputs_artifact": artifact,
-        "reproducible_exact_basis_and_coordinate_tables_in_git": False})
+        "reproducible_exact_basis_and_coordinate_tables_in_git": False,
+        "reproducible_certificates_in_git_or_release": False,
+        "temporary_active_checkpoint_retention_days": 1})
     save(out/REFERENCE, {"result": RESULT, "manifest_file": manifest_path.name,
         "manifest_sha256": sha(manifest_path), "manifest_bytes": manifest_path.stat().st_size,
         "file_count": len(rows), "full_outputs_artifact": artifact,
@@ -325,7 +327,7 @@ def main():
     out = root_dir()/"output"
     if args.mode == "compute":
         request = read(REQUEST)
-        assert request["session"] == "serre-public-resume-20261114"
+        assert request["session"] == "serre-public-astra-20261115"
         return compute(request["job"], out)
     item = read(out/"public-actions-input.json")["job"]
     assert item["result"] == RESULT
