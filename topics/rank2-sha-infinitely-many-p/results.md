@@ -149,3 +149,6 @@
 
 
 - [R643：原中央Gaussian正成本的次主量](results/R643-central-gaussian-divisor-cost-and-unchanged-leading-envelope.md)：加权约数估计逐实际k支付固定有限中央余类的正成本仅O(k(loglog k)²)，删去后原3klogk主系数不变。保原九格/真饱和前缀，不限制强负估值或已付随D增长的算术传播，也不以包络作真实范数下界。
+
+
+- [R638：原Y/W三态整核、真实词交域与完整首矩补偿](results/R638-original-yw-three-state-and-word-compensation.md)：whole mixed lift给原D/K八元源作用及整饱和三态，所有正确逆像W词行同q回原T，新线五伴随获真实EY核。完整物理word像格/交域分别支付，Y^n/W^n全共同和外部行给差商→M1并接I1及全部补偿；有限源群未赋未知外部行零。
