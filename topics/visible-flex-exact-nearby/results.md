@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CYA实际有限Cayley间隙与selected一导loss标量逆](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7：43757868884/1 child0/18；7416 signed/root有限门全部覆盖且严格目标通过，原native无限尾给γ=1/1024，physical4j全高标量逆≤256。science1f08e281/preGit596c3f8a逐字核；mean/low/全Ei/Eo/incoming/Schur/true背景及PDE仍独立。
+
 - [STA实际P22严格尾到腰与四个完整强比较列](results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md)9d142bef：43757644616/1 child0/25，267+1新row/538指数，双向density及ordinary H−1 source/独立jump/两mean全保；G−≈36.73318、四同case和≈2.85705e20。science7ec41c2d/preGitfab22fc1/113球字段逐字核；free首遗漏/全Ei/Eo/incoming/R0仍待。
 
 - [CRA实际核心残差限制与完整selected普通源](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd：43757468943/1 child0/18；5956真交覆盖[0,.9]，全mean/α一次/连续修补/完整Z与D费齐，uniform全源<4.848889e−8。science dbae6acd、preGit174c0583逐字核，旧计算0；未知高/全core/γ/匹配未付。
