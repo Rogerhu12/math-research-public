@@ -455,3 +455,8 @@
 - 登记56增量格完整方法58a7713f：旧42全基加真实A probe得完整56基，detM^42，准确幺模见证、旧同D拒绝来源和原129出口都保留。
 - 同篇证明仅C下一位Schur障碍/一个已成A模逆接口，明确content前精度；本轮只实现56格，不另做这项计算。
 - push前rules132931711969实际pull至52a48854e30ddc3d2351ec24274dbe222ef05d9a，两README无diff；新核心与双carrier消费者继续对齐。
+
+### 2026-11-16 03:46 Asia/Taipei — serre-public-astra-20261115
+- 登记R815两准确列完整方法c373d52e：Wvg及joint gcd给真实共同分母d01，1652原模同余与高权项零；两列不居中、col0交换子成为构造性零。
+- 新候选早期检查转col1/2，原7点全交换子/cyclic/Γ完整保留；旧RR前缀复用、旧候选拒绝不复用，新core与独立小carrier准备。
+- push前rules132933835202真实pull至ad3b2b5190ea19d6e1257db61d41128df23cafaf，两README无diff；56方法已推4269b6ac，正在对齐真实新core/runner。
