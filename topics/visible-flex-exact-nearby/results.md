@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际两真实邻片的完整相关第一Airy源](results/R133-supplement-actual-correlated-complete-first-Airy-sources-on-root-neighbors.md)：43676926141/1 child0/14门，原28逐字+50新=78stage；两邻片28完整新行在6case全选，4215原行复制不变。R=.001全负<1.44778643289190e20/正<9.68645446951086e19；保9词5mean/1079真缝/653ledger，继续剩余主导和真实seam/strong-return。
+
 - [全实δ固定端口帽主体的 Sobolev 逆](results/R133-supplement-full-delta-body-shifted-Sobolev-inverse-with-fixed-ports.md)：W1–19先由解析lag把原K复域收窄至2^-128、真正反演完整G0z，再付actual δZ的完整flux/mean族；shift M2^1024给−3/2≤s≤2114全部原源列增益<2^2200000。真改变外行的同阶转授独立保留，不用裸复合。
 
 - [有限 Sobolev 非线性 holonomy、mean 荷与高度图](results/R119-supplement-finite-Sobolev-nonlinear-holonomy-charge-and-height-chart.md)：M1–37直接在原ζ131有限角近邻上构造可去holonomy小根、真实无限Volterra荷及唯一高度；收缩<2^-2400，非mean PDE与完整mean方程双向等价。一般残差保(DA0)N与metric −ψr/+ψN，仍未授非mean全背景逆或Γ选择。

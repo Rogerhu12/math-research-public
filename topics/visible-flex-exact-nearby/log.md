@@ -419,3 +419,7 @@ M1–37全文18003B/2ffbf6fe…root全读及逐段指数核；newton独立手核
 ### 2026-11-15 04:33:48 UTC：原全实δ的固定端口帽主体高/负阶转授
 
 W1–19全文9814B/85169eb7…经tail独立核W5/W15/W17和源单位。S12复K大界不直接Neumann；以完整lag垂直差先从1/128收窄到2^-128，差<2^-47、真实K<1/64授完整G0z。actual Z与固定Φ0联合复合仍<1，P全ordered primitive/mean无未知导数，body复族粗2^64、实<1/4。M2^1024/q≤2114给weighted差2^-690<2^-600，源各单位不变，usual转换一次M^|s|，最终<2^2200000。只固定原真实外行；真changed-outer交newton以t无关pullback方程新付，不偷角复合。H9821逐字归档后压缩；root已读Green1420/5970、04:28:40真pull及adjacent成功child0过程，最新04:29:31 pull→0326a076…两README差空，actual报告续独推。04:28非FF已立刻真pull尝试仍无executor并循环成功。README只读核0d642288dbc6f42f3765edd8c104d48881dae208无变化。
+
+### 2026-11-15 04:36:35 UTC：两真实邻片的完整相关源实际成功，六case全重组
+
+43676926141/1实际child0/14门/16.00390009s，原28完整stage原byte/header/payload不动、0重算，新50共78；27负邻行+1正邻行在6case全选，其他4215原行逐字复制。process9e8f1f92…37783B/native5754193c…42046B/worker ec4a322e…5488B/publication0cfbfcd3…26496B亲读，六完整Arb球及case SHA逐核。两piece源<7.6664964635865e13/<3.54177556479562e14；最小R.001完整负<1.44778643289190e20/正<9.68645446951086e19，最大R.02负<1.72833982802663e21/正<7.13868586074149e20。自然5.50MB新case整件artifact14146726654/19296171B/digest05cb9ea4…；不是数学失败。完整9词5mean/1079真缝/653ledger及原大径失败保，不授strong/cutoff。实际report补原artifact元数据后独推；open压缩前原文逐字归档，当前任务据实际数据更新。接public保存行诊断0旧enclosure重算，再选后继相关域/修正seam。README只读核64644c1d78f076af2e6ed71951b32220ad0eb301无变化。
