@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- RR新completion consumer部署：35固定输入13515985B、9AST/28门设计，same-germ signedK1 FTC与joint Bfree·g后四physical读出。旧四ΓwΓp、原domain和产品只读；原两archive身份不变，body字节补实际1167787。数值待唯一自然公开CI。
+
 - [RR根均值定理与已成产品恢复](results/R133-supplement-root-mean-value-and-saved-product-Darboux-recovery.md)：samebody signed K1/actual root推出strict q；新整Bfree·g strip预算只消费保存moduli，四ΓwΓp不重。保持完整原Sobolev窗口/P⊥/两mean，实际新g/physical门待CI。
 
 - [SN精确参考恢复合同](results/R133-supplement-exact-reference-reconstruction-after-signed-transport-interruption.md)：314×4和原point0..5/mean-midpoint/degree6递推唯一恢复丢失proposal；直接读1256已成完整误差及next2831准备，禁重残差/parameter/energy。只给确定性恢复依据，不假核无存的旧reference hash或prefix maxima。

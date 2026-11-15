@@ -286,3 +286,7 @@ root全文读11138B/7edf79c7合同和64734B/b41ab438候选SCI差异；原helper 
 ## 2026-11-15 19:05:48 UTC — RR同根FTC与新joint g补全解析合同
 
 root全文读16088B/78b2fe43，newton独核新整乘积Cauchy与全部physical顺序。same original3070 interval确含rc→root且外compact，须新的signed outward K1>0门后才用FTC，不从旧wholeK失败推实际K错。新s=3/1024，用savedM/P/inverse modulus/radial margin和old4501 D0给完整g strip，再整Bfree·g角导0..3；6正系数/原factor各一次，四ΓwΓp及成功高导不重。新q/mean/eta/a/JLB输入先atomic，小阶段逐一保存；原两均值/J typed窗/physical四项不删。新SCI/worker35pin/9AST/28门设计已交、root全文diff审继续，未部署无新数值。b6f52502fef94016c97aa1169a0b3403753d2391双README原blob未变。
+
+## 2026-11-15 19:07:52 UTC — 部署RR同根mean-value与saved-product的physical补全
+
+root全文读RR合同、SCI相对DR完整660行diff、worker完整diff；静态括号689/731行过，9Python AST只在Actions。原31tuple仅body bytes由unknown补实际1167787，其SHA/所有其他旧bytes不改；4新增原件（旧DRmanifest/partialexec、新RRproof/SCI）SHA/bytes全核，两原archive全部metadata原字同。35pins13515985B；28gate、7旧receipt/21门failed-prefix/四ΓwΓp逐字消费，0旧产品/高导/积分重算。新输入先atomic，rootFTC→physical coefficients→jointg→四physical sum分阶段小结；runtime3.12.14/flint.9/320bit，原typed窗/mean完整。四部署SHA2a51b8c4/aef22811/8822511f/5a311bbc；仅push自然触发一次，无dispatch。只有成功后才付新q/g/physical，不授后续normalizers/incoming/R0。00d1b94a2b2f0e1c04c9783c7898883a0819b461双README不变。 原94链/NC/BD/NCBD本节细账逐字归档db33f4cc465bf7ccd91b6402a2f24e10d3c60d87，全部域/源单位/mean/失败不删。
