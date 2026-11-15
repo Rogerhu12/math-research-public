@@ -122,3 +122,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R351完整七状态伴随源码已发布
 
 [helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)与computations/geometry_20261115_literal_seven_state_adjoint.py（35419B/12a95d40929cc7799761e56c33eadc9e5fbe16fa3eacf0d0be94c56ea3452b0f）已发。原2422冻结body局部698×7×10、全112×8末变分、三列reverse/node-mid散射及直接q_N/start项完整；同一formed局部系数前传全112与原已有九J对照不另调用原evaluate/response/FD。每次局部primal词差、形成舍入/原full-forward差及partial全保，不能冒准确精度/秩或新native。新shape须真实独立定义、支撑/零jet证明/物理坐标与样本身份，不冒旧9p或以samples证C²。164从原实际末p重建同一state，按Actions实际新增响应选择再进入明示扩展族原full3/严格下降/Armijo/全终门；不等待大表搬运作为前置门。145/155已终态，exact分别R343/R344成文，不能继续记运行或误归旧DSA失败。
+
+### R343：当前正H全系统方向的实际下降与未付映射差距
+
+[R343](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)完整记录actual145 sourcea513ada7/run43716379970：零H收敛，首正s1/64五fresh J/R273均回；α1、1/16、1、1/2四接受，总19原trial中15残差不降/0DSA。末五轮withJ norm195955.61867016536→6775.933695117896→5340.898475958211→2789.867248510024→2317.31958952296；末十档都真实返回，不是旧guard、超时或64请求耗尽。每轮exact129248保存模型约.208仅仿射账；末高Pi109与模型Q2最坏行不同，不能预断原有限root/状态形成的病因。原失败请求不晋为worker成功warm，原raw已退休，后继须同源真实再生，338×112/FD/fullDN/审计仍未起。下一实质任务在真实当前正H/状态上比较保存方向与原noJ映射，保原32×10/严格下降/2e−9，不盲减H或用零H结论移贴。

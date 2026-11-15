@@ -252,3 +252,5 @@
 - [R357：同一准确传播列的有向单位Robin行与完整候选包围](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)（已证，无新数值）：逐候选完整符号与严格范数后归一，得到原QF=1行同取向再hull，不除高度或要求共同chart。全误差/候选/事务/未付范围保；数值代表与准确根族成员分开，明确行缩放可改变数值轨迹。
 
 - [R351完整七状态伴随helper实现接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)：原698cell七状态/三ratio全变分、112终端与三列反传，保r/mid/sqrt/direct q/start及全部行；真实新shape独立来源与完整112动作。源12a95d40已发，未运行数值或冒准确导数/rank证书，164继续真实扩展族。
+
+- [R343：实际145当前正H五次完整R273方向与原十试步停止](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64四接受后末十残差拒；全19trial/五129248行形成账/实际来源与清理范围齐。0DSA、非预算止；保存模型约.208不冒真实映射导数或非零场接受，final链未启动。

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，按根8用官方集成小文本。API复核 2026-11-15 16:50:16 UTC 已读 2f39d8222ddcd4affd8101f4fbcf2d59bce34cc7，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，按根8用官方集成小文本。API复核 2026-11-15 16:51:37 UTC 已读 bb09d0386fb2711ba9ccd468c6b9f33e4b81f920，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -20,7 +20,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复�
 
 |请求/负责人|run / compute job|固定source、已见范围|
 |---|---|---|
-|145 exact|43716379970 /132818710078|a513ada7d1db；已终态，正H5轮4接受后十residual拒，R343成文|
+|145 已读|43716379970 /132818710078|a513ada7d1db；R343：5轮4接受/末十残差拒，0 DSA|
 |155 exact|43726543241 /132849600659|0aa9dca2d802；8批模型/FD全过，后两批漏LEFT462，R344成文|
 |161 exact|43729456722 /132858464847|ce2b12c0f391；前13步过、step14|
 |153 geometry|43727856178 /132853608396|35690c7731f5；已终态，m2..16 far完成、m18 work-unit止，native未起|
@@ -33,7 +33,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复�
 
 ## 完整native路径：145、155、160、161
 
-[145](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)保真124六p/λ.001、原warm/fallback/last/currentH/J/R273η1、32×10/2e−9及338/FD/fullDN/audit；首正s1/64真数学拒才止本实验，异常/未返另记，不盲减半。
+[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：同原六p/λ.001，零H过；首正s1/64五fresh完整J/R273，4接受、15残差拒、0DSA。末norm2317.31958952296，末十档全返；13264.184668586s非预算止。完整129248形成模型约.208不冒实际noJ导数，下一步区分当前状态形成/原有限root方向；FD/fullDN/final仍未起。
 
 [R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败，112/338或230列未起。v2仅修词法/类型；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s接全stage112/338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128，数学/门不变，actual唯一读。
 
