@@ -279,3 +279,7 @@
 ## 2026-11-15：同一原输出投影长二与高阶核商长二十六
 
 [完整十三核的原输出投影](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)实际得到模31谱1^12/u²、δA_I=68和243=66+2+149+26。完整原884884乘积、所有4367核坐标及真正I^c通过；无新大消元、无续层。真Q核原始性、全局h0及leading单位继续。
+
+## 2026-11-15：原输出矩形子式的特征零联合界
+
+[原输出投影稿§6](results/R150-appendix-original-deleted-output-projection-length2-and-higher-kernel-length26.md)由同一原A_I子式约化得δfull_Q+λ_I,Q≤68、λ_I,Q≤25；不需核基模31平坦，不能改成λ≤2。同B leading为31单位必要δhigh_Q≥26，尚未支付该长度。

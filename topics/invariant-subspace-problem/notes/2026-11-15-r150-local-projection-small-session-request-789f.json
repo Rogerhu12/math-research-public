@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+  "rulesReadAtCommit": "1c2ff7189c7a49e86ca7835aca224ea821a9a103",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -12,9 +12,9 @@
   "closeSessionWhenStepsComplete": false,
   "steps": [
     {
-      "id": "cubic-plus-original-low-projection-order4",
-      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-cubic-original-low-projection-local-smith-789f.py",
-      "scriptSHA256": "4956f0dc77aa9d16f064e65c4c803625fb221cd81c7f067aeb265c3bd96f07fd",
+      "id": "two-directed-original-left-two-jet",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-directed-original-left-two-jet-witness-789f.py",
+      "scriptSHA256": "8f55c5b5f0db2a7dd9b0b042e00cd506fd6e38698b9dc264a602e3dc8ccb510b",
       "sources": [
         {
           "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
@@ -25,144 +25,49 @@
           "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
         },
         {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
-          "sha256": "73c11b1d957962fdb8c9b17143aaf8d894845b1b4c8382f200eeaf2422178119"
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+          "sha256": "5d83b8784ea4e1d2b99f9ccd8881dcf6f2abe4241586219a3b459541c10d6272"
         }
       ],
       "argv": [
-        "--point",
-        "plus",
         "--generator",
         "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
         "--jet-actions",
         "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
         "--unit-schur-helper",
-        "{scripts}/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--constant-receipt",
+        "{scripts}/2026-11-14-rank-one-physical-mean-two-rank-certificate-receipt.json",
+        "--checkpoint-dir",
+        "{work}/two-directed-left2-checkpoint",
         "--out",
-        "{work}/cubic-plus-original-low-projection-order4-receipt.json",
+        "{work}/two-directed-left2-receipt.json",
+        "--through",
+        "final",
         "--remaining-seconds",
-        "90",
+        "180",
         "--memory-mib",
-        "1024",
-        "--max-order",
-        "4"
+        "2048"
       ],
-      "timeoutSeconds": 115,
-      "receiptPath": "{work}/cubic-plus-original-low-projection-order4-receipt.json"
-    },
-    {
-      "id": "cubic-minus-original-low-projection-order4",
-      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-cubic-original-low-projection-local-smith-789f.py",
-      "scriptSHA256": "4956f0dc77aa9d16f064e65c4c803625fb221cd81c7f067aeb265c3bd96f07fd",
-      "sources": [
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
-          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
-          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
-          "sha256": "73c11b1d957962fdb8c9b17143aaf8d894845b1b4c8382f200eeaf2422178119"
-        }
-      ],
-      "argv": [
-        "--point",
-        "minus",
-        "--generator",
-        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
-        "--jet-actions",
-        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
-        "--unit-schur-helper",
-        "{scripts}/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
-        "--out",
-        "{work}/cubic-minus-original-low-projection-order4-receipt.json",
-        "--remaining-seconds",
-        "90",
-        "--memory-mib",
-        "1024",
-        "--max-order",
-        "4"
-      ],
-      "timeoutSeconds": 115,
-      "receiptPath": "{work}/cubic-minus-original-low-projection-order4-receipt.json"
-    },
-    {
-      "id": "e8-true-number-field-schur-order4",
-      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
-      "scriptSHA256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c",
-      "sources": [
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
-          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
-          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
-          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
-        }
-      ],
-      "argv": [
-        "--base-driver",
-        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
-        "--generator",
-        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
-        "--jet-actions",
-        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
-        "--checkpoint",
-        "{work}/e8-true-field-schur",
-        "--out",
-        "{work}/e8-true-field-schur-receipt.json",
-        "--remaining-seconds",
-        "300",
-        "--memory-mib",
-        "2048",
-        "--max-order",
-        "4"
-      ],
-      "timeoutSeconds": 340,
-      "receiptPath": "{work}/e8-true-field-schur-receipt.json"
-    },
-    {
-      "id": "original-normal-ay-inverse-ry-pencil-three-points",
-      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-normal-ay-inverse-ry-pencil-probe-789f.py",
-      "scriptSHA256": "b9d0fd1f44f07b8e1017ea80b28066afcc9e4113bbb364005d649bf083646485",
-      "sources": [
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
-          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
-        }
-      ],
-      "argv": [
-        "--generator",
-        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
-        "--points",
-        "4",
-        "3",
-        "5",
-        "--out",
-        "{work}/original-normal-ay-inverse-ry-pencil-receipt.json",
-        "--remaining-seconds",
-        "30",
-        "--memory-mib",
-        "512"
-      ],
-      "timeoutSeconds": 45,
-      "receiptPath": "{work}/original-normal-ay-inverse-ry-pencil-receipt.json"
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/two-directed-left2-receipt.json"
     }
   ],
   "previousSession": {
-    "runId": "43729338969",
+    "runId": "43731613530",
     "completedPublishedSteps": [
-      "two-original-projected-order4",
-      "e8-original-low-projection-local-smith"
+      "cubic-plus-original-low-projection-order4",
+      "cubic-minus-original-low-projection-order4",
+      "e8-true-number-field-schur-order4",
+      "original-normal-ay-inverse-ry-pencil-three-points"
     ],
-    "unpublishedMathematicalStepToRecompute": "cubic-plus-original-low-projection-order4",
-    "failure": "Non-fast-forward rebase removed sparse receipt directory. Recreate its parent before every retry write."
-  }
+    "finishedUTC": "2026-11-15 16:30:38 UTC",
+    "temporaryDataNoLongerAvailable": true,
+    "oldStepsAreNotReplayed": true
+  },
+  "mathematicalProgramStatus": "Root-reviewed original s=2 directed left-two-jet test; nonzero witness only after all6188 original identities. Zero restricted pairing never proves local membership."
 }
