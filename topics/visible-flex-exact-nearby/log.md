@@ -291,3 +291,9 @@ README核04c7143f474149ecb9f30e59ad8125273313b887无变。root全文核actual-re
 ### 2026-11-15 09:50:15 UTC — 两平盘同向作用的全局几何引理独推
 
 README核3163b6d8382bee5ff96501487c1a5d7627f72aca无变。newton提出P3a，root独立核标准free circle action→各盘旋转次数±1、G24星形→轴只交两中心、M去极点轨道在R³去轴中的同伦→两绕数同号。在原G17/G24真实条件下，一次全局角向选择给两盘同一equivariance，α±仍可不同固定值；不凭平盘图像对称偷推材料点固定。仅将准确几何充分条件合并，未授单个G存在或任何新数值门。P全文14848B/SHA9a5bcb141b337037297c8a832e4bd7dd5ab42557827be24ff41c107d308387d2，原每式/marker费用保持。
+
+### 2026-11-15 09:54:15 UTC — actual γ到完整tail再回cap的低列独推
+
+README核6c1f44aaf2bfa662374a36bdfde7ddc774ebe910无变。root阅读全文O/I/D/K20并亲读原mean商R2/R7/R21–26，newton逐式独核R3–13。准确outward bγ=−μLsBDgK DγΦ，而正t πL列为−bγ，因此short rhs βγ=−Pμ(rμbγ)、raw cBγ=+〈rμbγ〉/〈μT〉；原讨论的一次正rhs误读已在入稿前纠正。q1/2与q3/2给H0→H1→H2，低转换2^131072、D64<2^1048577、C64exp299008、tail3100000与ε57000000合得−52421343，宽为2^-52000000。
+
+I内height列<1/25给全B/Cmean附加tiny；只在samefB/reflection/固定旧坐标下比较旧K0，保Pperp HC0全物理像/unknown high。只是完整相容fixed-background tail Jacobi proxy的该独立列，Γ/EN/Hp、meanheight/设计ν/affine仍留，不授单个非线性G。正文9615B/SHAe1ff4b8b9b5c2e4e2bc7db98a5e00d9b0144a2aa51a4a7b3cba661cb5e0bfbfe。H压缩前cb5f156113af15290124329363032f961afa4316保完整旧数值和恢复身份。

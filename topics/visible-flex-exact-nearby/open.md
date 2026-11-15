@@ -160,6 +160,17 @@ K*−K0<1/5。比较包含H_R、完整ΔQ两源、真实outer非mean与Cmean两�
 原97匹配输入是Pperp HC0 u的全物理像，所有未知high块继续存在。
 这个比较固定同一fB和旧moving坐标；改变body背景时需实际DΨ变换，
 不能将composition−identity冒作小L²。真正HY/全Schur仍待。
+
+[R实际帽内γ经完整tail返回](results/R133-supplement-actual-inner-cap-complete-tail-height-feedback-and-97-interface.md)
+已给fixed-background、fixed-metric Jacobi proxy的
+γH0→physical B flux H1→normalized fBH2界<2^-52000000。
+真实outward列转short RHS为−Pμ(rμbγ)，raw cB为正mean；
+q=1/2与q=3/2的两个窗口及sB抵消均显付。
+I的cap内height列给inner B/Cmean附加回馈同样小，
+若另满足I的同fB/原reflection/坐标条件，距缓存K0<1/5+2^-52000000。
+所有97输入仍先经Pperp HC0全像；未知high/mean/affine荷不截。
+该小列不支付Γ/EN/Hp、设计ν、未screen height或完整augmented逆。
+
 原极小M8212球2^-8388608没有因当前ρ3e−6解而自动成立，
 不得倒用原tiny高球定理。
 
