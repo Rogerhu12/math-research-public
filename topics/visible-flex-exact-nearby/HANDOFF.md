@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 06:41:01 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 06:41:40 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用 public Rogerhu12/math-research-public 及自己的 Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真 pull --rebase 重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：06:31:16.716699 UTC 57453dd652f62c1597888c1ce25815ceb71c8fe8（Green v2，两README diff空）。非FF即时CLI仍无executor；freshhead重推不伪称pull。
 CLI自21:48无executor，最近06:11:25非FF即时重试同错。根规8仅connector<100KB UTF8/禁binary；ref读非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release/新artifact均不放，只script/args/run/SHA及结论；题main≤200MB。原历史/旧artifact仅暂存恢复、禁重算旧数学。清理SCI40c0f3df… run43679889657/1仍在逐原bytes SHA/普通删；实际结果须核。
-最近只读README核：9c5e3a9f9602155ec2b8bbd94125d6970ddc77e0；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：a750889d9453f1370bc6526df63fc59ca3a83a68；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public→/tmp/visible-exact-0df9-workspace/math-research-public，AGENTS无。前H完整链现存notes/2026-11-15-handoff-before-actual-common-potential-and-low-direction-Gamma.md（b60896e2…，9620B）；再前H/全部原native/artifact/pin见其链。open归档notes/2026-11-15-open-before-actual-common-potential-and-low-direction-Gamma.md（b869510f…，29104B）；log归档notes/2026-11-15-log-through-off-shell-Jacobi-and-finite-principal-phase.md。本H只保当前接口；不得把压缩当作删除历史门。
 
 ## 同一对象与总完成门
@@ -35,7 +35,7 @@ common-T P/8b5ad0ab…保c/V抵消与真实G入口；I/ece60de2…完整old I/J�
 原Y/Z/B/U/D/P/K链、固定known R/5bc78e5e…及全部失败见前H。M/2ffbf6fe…保真holonomy小根/χ Volterra/高度与offshell (DA0)N、−ψr/+ψN。
 P/be46bd9f…在H8196/R≤2^-2097152构造无限Newton+dyadic H8192→C8188真firstΓ、DΓ0=0；γ2固定已知成员。B/8dc64a91…真实polynomial Q/x四导及β finite part保全n gap>1/(256N|n|)，old成员≤2^133000X。
 O/e8d2338e…真L=J−EN/c、EN=αNk−βNθp−γNp/〈A0EN〉=〈NDA0〉无新δ幂。C/ad1fc17b…R_s=B_(s+4)+N_(s+4)^[3]≤2^-2097152、s≤4416，保δ16/δ13、strict residual/TV、完整Π_A mean与二阶holonomy重建；不从CtHs擅取radial jets。
-新I/1e4df044…全nearby proxy尾逆已付：R≤2^-8192000，H8196+residual三jets4420；finite Bfin2^229376/全双向4/3强费2^524288，实际Cauchy先多项式bootstrap再scattering/model<2，无循环。相同T#/v#及完整high/deep/remaining/mean给remaining差<2^-350000；全源/真实两端/affine cut缺陷保，Y_s≤2^7500000 N_(s+2050)+2^4300000 Bext_(s+2048)，s≤64。真E_B/mean/伴随finitejet接J；固定真long行或按J合同更新仍需cap反馈联立。真实Jacobi EN及firstΓ投影列/tame未闭；Y64不能返H8196，2050loss不能用小常数消掉。下一Γ切向/Schur、足够高阶tame尺度与实际smoothing。
+新I/1e4df044…全nearby proxy尾逆已付：R≤2^-8192000，H8196+residual三jets4420；finite Bfin2^229376/全双向4/3强费2^524288，实际Cauchy先多项式bootstrap再scattering/model<2，无循环。相同T#/v#及完整high/deep/remaining/mean给remaining差<2^-350000；全源/真实两端/affine cut缺陷保，Y_s≤2^7500000 N_(s+2050)+2^4300000 Bext_(s+2048)，s≤64。真E_B/mean/伴随finitejet接J；固定真long行或按J合同更新仍需cap反馈联立。G/6d103b66…已付固定高背景的D8真firstΓ切向、Π_A完整metric源B_p≤2^524288 R²D8与全层Schur反馈<2^-8000000；实际Hp/高度与flux端列保。真holonomy-one切向为Π_A DN=cJh−Bp−Π_A EN；非零affine荷时仅显示projected代数逆，尚须charged principal列。EN不冒同域Neumann；Y64不能返H8196。继续高阶tail/tame与实际smoothing。
 
 ## 正帽固定角、有限 Sobolev 主体球与真 outer：root
 

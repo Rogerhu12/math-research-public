@@ -130,7 +130,9 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 [I全nearby tail proxy逆](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 已在R≤2^-8192000、H8196加residual三jets4420域付high/deep/remaining/mean及两向强4/3。Bfin=2^229376、strong=2^524288，实际Cauchy先多项式bootstrap再scattering/model<2，余反馈<2^-350000，相同T#/v#/所有源单位保持。Y_s≤2^7500000N_(s+2050)+2^4300000Bext_(s+2048)，s≤64。body平端χ=0不删独立外flux；fixed true long行含全C_R/affine，新行按J合同联立帽曲率口。
 
-下一完成firstΓ低方向切向及投影metric列Schur，然后把全网络扩到足够高角阶并支付真实tame/smoothing。I的2050损失不能靠小常数取消，Y64不自动返回H8196。真实Jacobi的EN=αNk−βNθp−γNp和metric +ψN必须始终保留。
+[G1–30低方向firstΓ与Schur](results/R119-supplement-low-direction-first-Gamma-projected-metric-source-and-linear-Schur.md) 已在同固定高背景上直接由真实ODE/正权平均构造D8方向functional，完整mean/metric列给N_q(B_p)≤2^524288 R²D8、q≤2114。经I全源逆后D8反馈<2^-8000000；同域Neumann消去第一Γ，输出Y_s≤2^7600010N_(max(s,8)+2050)+2^4500010Bext_(max(s,8)+2048)，s≤64。真实Hp高度和两端flux/常高度列保，不能丢进固定metric状态norm强称小。对holonomy-one切向准确Π_A DN_reduced=cJh−B_p−Π_A EN；一般非零affine荷只得到显示projected算子的代数逆，真principal微分还需相应charged独立列。没有把Γ值图延伸到χ≠0。
+
+下一把全网络扩到足够高角阶，继续真实tame/smoothing和EN残差敏感项。I的2050损失不能靠小常数取消，Y64不自动返回H8196。低阶方向functional不等于低正则背景的非线性Γ值图；真实EN=αNk−βNθp−γNp与metric +ψN保持准确位置，不再重复EN[Hp]。
 
 ### 新物理片与共同径向参考的实际进展
 

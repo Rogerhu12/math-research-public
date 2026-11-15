@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 真firstΓ低方向与完整projected metric Schur（2026-11-15）**：[G1–30](results/R119-supplement-low-direction-first-Gamma-projected-metric-source-and-linear-Schur.md) 以固定H8196/residual域背景直接求真实ODE正权切向，D8方向的完整compatible metric源≤2^{524288}R²D8；全无限tail逆复合反馈<2^-8000000。保实际Hp、两端常高度/flux及ψN；真holonomy-one derivative仍减Π_A EN，一般charged数据只显示projected代数逆、另留charged principal列。21903B；blobb3a45c936f5d6691b7c97d1653b6e670d10861f5；SHA2566d103b66bcd4322f3312312c686df822c082dfa0a099bedb38767f5ed95f94b0。没有无损消去EN或构造低阶Γ值图，tame迭代仍待。
+
 - **R133 真实共同径向势与整根片覆盖实际完成（2026-11-15）**：[完整actual结论](results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md)，run43685624307/1 child0/16门、数学0.157509657s。四复径向域保全δ/z参数；最大H=1/6000得V<276、VT<26431、VTT<3830956和全部分母/坐标像门，H=1/10000与1/6000确覆原piece2549，较小两域false保。原root/M3/a0..14只复用，0旧数学/0新data保存；reference两列/old-circle/strong inverse尚待。10482B，blobb4dc5f5f21394c5163dacd40edc22d6cdb82b333，SHA2566b6db11ba57bb1273bc84d352fc2318cc69bb982a5a4803e662903932a41cbf1。
 
 - **R133 完整真实 outer commutator 扩至4480阶（2026-11-15）**：[E.1–E.10](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 保原8192 finite jets，DN差/独立Poisson/实际E_B统一费2^{131072}；原2176阶2^{65536}门不改。E_B准确写Pµ[-a C_L+a T+b∂]，a=µT−µL、b=µLdL−µTdT，rank-projection只需A0负半阶输出，最坏(q+5)!512^{q+5}全组合付清。8671B；blobce06d2befc6a4e8aaf07ebac1c24bf9a479591c9；SHA256cdbb5b5612bc3dedee42f9f5754ecd681fc56ca22f79f9cfabdd438d9741e4d9。仅外口扩窗，完整高阶tail及tame仍须另付。

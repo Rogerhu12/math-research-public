@@ -93,3 +93,7 @@ newton核E_B准确signed抵消与total-jet账，tail全文核E1–10；修正文
 ## 2026-11-15 06:41:01 UTC — 共同径向势actual与整根片覆盖
 
 root全文核新SCI、20pin、worker/flow及实际27645B execution/13866B结论，逐四case核16门/真实pull/原输入收据441a6d12…；所有圆整方向保守，最大域V/VT/VTT与inverse-image来自同一复δ/z域。较小两域false、独立even mean、原piece2549物理身份、尚未reference两列均明确保。signed中间balls没有新持久化。open原29104B全文归档b869510f…，同步Green v2和已成新子门；前H9620B归档b60896e2…。README 9c5e3a9f9602155ec2b8bbd94125d6970ddc77e0两项无变，独立结论推送。
+
+## 2026-11-15 06:41:40 UTC — firstΓ低方向投影源和全层Schur独推
+
+root逐G全文及charged-scope补丁复核；newton独核G17及G23–30、phase独核G3–10/G20–24。DΓ来自真正权ODE，不用高阶光滑方向密度冒ℓ∞统一；Eell用C^P，六邻胞C#界按2^256支付。B_p里准确取消radialconstant cℓ_t/2cQℓ而保Hp/ψN及实际端口。固定D8反馈与holonomy-one真参数身份明确区分；非零affine荷未假授principal方向。只将状态改为已独核，不改公式，final SHA6d103b66bcd4322f3312312c686df822c082dfa0a099bedb38767f5ed95f94b0。README a750889d9453f1370bc6526df63fc59ca3a83a68两项无变。
