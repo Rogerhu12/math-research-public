@@ -27,16 +27,18 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现29步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现30步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
 - 同选重建selected-natural-u-rebuilt、第一selected-natural-first-left-envelope、旧第二selected-natural-second-left-regauged均保完整来源；旧36单位解SHA9c3b02d2…不重95.542秒。normal4完整目录selected-natural-second-left-normal-four-complete130保130新解75.6MB/SHAccfdf7db…、166残差SHA7e060678…和22原jet，不重355.152873124秒。
 - normal5已付H5 Q/F31rank1287/单位18、786步，余501列/950行；72.6MB slot1 SHA179b3645…与DAG保原目录，不重算。step24原29source全126643产品真、ρ5/h1，余维七已闭β2=9；29×36配对及原来源保same-source-koszul29-second-pairing。
 - 原零六祖先、顶核和旧单位阶段完整来源见归档，后继仍读完整零六目录；不重43.2MB顶核或旧完整逆。
 - 零六完整校正、middle/low核与所有单位/RHS在zero-sixth-rhs-columns-checkpoint（binding2ab96ac8…），后继只读复用；129.615791128秒实绩和全SHA见原小回执。
 
-- step25第七实际7.783896053秒完成，low1088×599 rank584/Schur2、kernel15/headI5/零头10，所有6188行真。目录zero-seventh-reused-high-checkpoint；binding9524a187…，完整13304×5 pack54547B/SHAf081bc97…，raw34098B/SHA872fdfc0…；高齐次核2及低582单位可直接续第八。
+- 第七实绩及完整54547B cochain保zero-seventh-reused-high-checkpoint；step25曾全6188核真，独立五头均升，原来源见正式稿及归档。
 - 第三来源在same-source-koszul29-third-pairing，raw954f135c…/配对912a7775…/投影c8e25e15…。step28误把旧1736省略行当全部M0空行，0.152秒于输入断言失败（raw027e5950…），原回执保留。旧源码已核子集语义；step29新v2源a6bb496e…、新out后缀-v2，30秒/2GiB，逐行核并完整统计额外空行，再合成21 RHS；未解λ3，后页60+33自由保全。
 
 - step27第八实际9.086597737秒完成，leading4/c8≤13、原6188全真，零点58/49；正式已刊。目录zero-eighth-reused-high-checkpoint，binding534c9238…，17651×4 pack187354B/SHAdde7ce7f…、raw35278B/SHA6790eb6e…；λ0…8九平方全零，下页必须按4头续。
+
+- 已排step30第九源a05d50d2…，180秒/2GiB：真第八17651×4输入、598完整低变量、Q歧义只加λ8；全部高块逐元素核，4个新RHS及原6188逐行核后才报新头。
 
 ## 原同w边界：返回和相邻孔通量仍开
 
