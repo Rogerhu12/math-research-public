@@ -101,3 +101,7 @@ run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，
 ## 2026-11-15 115真实运行已启动
 
 run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute132736414956，07:18:07UTC创建。元数据在原source/input恢复步骤；没有读取或预填新的科学结果。
+
+## 2026-11-15 07:24 UTC /root — actual115 八方向真实接受
+
+[完整实际结论](notes/2026-11-15-actual115-four-control-eight-real-acceptances.md)：run43689328906/sourcec9eb007d，14外试探中8接受、零全拒方向，W6958.22576276662→1236.0078724708558；首unit仍−49.71935400957918，所有最终门false，按8方向预算结束本次run而非课题。原14域异常全在dir3/α1内层，dir3/α.25接受时inner tol=false；全部真实接受/拒绝均保原full3门。起末完整四列响应/FD、新scalar域及theta冻结的方形物理检查已读回。summary69434B/282c363f、status1069255B/b542147b、trace871442B/46452d0e；不存raw。116继续实际末四p，原入口初半径.1会显式重置，不冒延续末.0125。
