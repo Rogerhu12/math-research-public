@@ -100,3 +100,8 @@
 ## R419 — 完整行族误差保留的关联名义行表示
 
 [R419](results/R419-correlated-nominal-Robin-row-formation-with-complete-family-errors.md)及9205B/24c7681c helper已全文核：保187完整112/全部原candidate/正幅度/全实角，首个真实提交候选的关联角/w盒只给名义参数点；同一正可逆T共同形成两系数，准确有理max公共缩放先于binary64，至少一缩放分量为±1。局部精度在原point预算内、cap4096且finally还原原256；超限为表示工作partial，原mode/地址/数值未访另保。全原单位行族H减最终真实数字词的向外误差保留；不保证名义点属于真根族、共同全局C或误差小。原C/σ/338/453/H/FD/fullDN全部门不改，没有实际197输出；独立197接全链，exact唯一R420。
+
+
+## 2026-11-15 — Request197：完整族联合名义行与原完整453全链
+
+[197完整入口](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)十二件及R419全文/完整diff核后接线：旧187全部84pins逐值保→93，实际driver56/native30，原c2f515/91dd内核不改；真180九词/β1⁄16/fresh C/cut/factory/deep112→完整112族后才联合数值行→全577/576×steps采样→同owner H/J/FD/453/final。名义表示共享原point预算、cap4096，原18900+2700/7200 BVP和全部阈值保。最终字值沿raw→worker→native不再归一化，完整族差仍对同词；单90KB保全部数字行/地址/失败/未访，六原必要scope及quiet后清理保，无新科学门。R419排版与reader实际读取scope声明仅元数据同步；无实际197结果，exact唯一R420。
