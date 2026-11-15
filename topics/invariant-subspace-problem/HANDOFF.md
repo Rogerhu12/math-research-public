@@ -27,8 +27,9 @@
 
 ## 当前临时计算：同run直接接续
 
-- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现35步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
-- 原selected-natural-u-rebuilt、first-left-envelope、second-left-regauged和normal4-complete130全部保留。旧36/130单位解、166残差、21新单位解不重。normal5高消元保786pivot后的72.6MB slot1/179b3645…、全部H4与DAG，余501列未付；继续前先核H45真秩/完整高齐次，不能假满1736或只保4个非齐次头。
+- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现36步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
+- 原selected-natural-u-rebuilt、first/second-left与normal4-complete130全保，旧36/130/21单位解及166残差不重。normal5保786pivot后的slot1 72.6MB/179b3645…、全部H4/DAG，余501列；真实目录selected-natural-second-left-normal-five-high-elimination。
+- step36高profile 831fee03…已全文审排60秒/2GiB：复用原H45，模31单位下界与29真源的严格高支撑交给Q上界，只有相等才闭秩；同核17取4真商代表并核原4354行。保全部2772列高齐次，不预设rank1736/新906，不重786pivot。接口含完整4318规范的源级证明。
 - same-source-koszul29-second/third-pairing保29真原核及旧29×58 rank6、全部21第三头坐标。完整β3=3/21头已闭；third21-normal-four-original-consumer实际全4354余rank4/kernel17，17四层来源及296072产品全真，raw12713B/e5950239…；whole余阵65222B/7835f183…和17头组合2138B/4a27a932…保存。
 - step34 same-source-koszul29-fourth-on17-pairing实2.793442951秒，17原R4、29×75 rank7/旧6、完整原75核投影16。配对217868B/7152e005…、核79458B/2f3c764a…、raw7661B/ce50560e…。第四完整秩[3,5]、λ4未构造；known来项13/full15缺2、第三显式17/full21缺4。补k第三头后上界r_k+4−k，补2且raw仍1可闭β4=3。
 - 零六zero-sixth-rhs-columns-checkpoint binding2ab96ac8…保完整高零head核2与低582单位。零八完整最后校正给58/49、K104；零九固定头2不提高阶、不盲续第十。旧pack与全部来源已归档，只借其公共阶下界，不冒作完整高页秩。
