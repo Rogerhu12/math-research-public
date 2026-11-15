@@ -88,7 +88,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [TC](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5/[actual](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35/43754703603/18成功锁；全42球/SCI/preGit/真Φ四norm/两rank/finite全值保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。PΦ真span/mean/HL-LH/97..J−1保；cutnorm不移腰，Ei/Eo/Schur/R0待。
 
-[WX腰部真坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb：ST positive算法付任意短段双向M/F/G，Φwaist=Φcut∘χ及两窗/同逆/独立mean；selectedH、S=U_H^-1U_X-原序、primitive两rank，leading L2≤P±11/负窗另密度。新包63fc880f/d55da519/aa3c9d7e/728f9f48（16current/4AST/20门）唯一43763424840/1中，waistTN/SF/Ei/Eo/Schur/R0未授，旧ray/指数禁重。
+[WX](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)c5157bbb/[WXA](results/R133-supplement-actual-complete-true-waist-coordinates-and-shorter-flows.md)f5554084：43763424840/20成功锁；16pins/4AST/55字段/82球/两旧对象/SCI/preGit保proof。任意短段双向M/F/G、真waist两窗/同逆/mean、selectedH/S原序/三组primitive两rank、leading双向均付。ng端比/SF积分/normalizer/全incoming/Schur/R0独立，旧ray/指数禁重。
 
 [SF完整严格传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)add09111：全Gy/T1T2/F0–2/actual T_J差FJ/−Z_y均值；FA corrected除ng一次、cuterror乘sameT forward L2一次，ST literal√q给真L1dr primitive+两mean和无长度jump。SF44/45只difference，S连续而Z可跳；Q径二阶/K三阶/new norms/dr积分/Z jumps及waist/Ei/Eo/incoming/Schur/R0仍待。
 
@@ -162,6 +162,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
 新增[单件jet浮点geometry白名单](notes/2026-11-15-jet-corrected-floating-geometry-output-deletion-whitelist.json)9578e927先于删除提交1a5b96418c5f7cd6e9a725008d62848f395f5083。当前普通删407315B，原blob0e07ead0/完整SHA60433b69保名单；恢复8870549d52e48343cb43a979a13f9368cb992736同path。原source/NPZ/实际ray/失败/小结论保，历史不改，旧数学禁重。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机20:35:32定时CLI仍无executor，下一定时真CLI≤21:35；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机21:32:52定时CLI仍无executor，下一定时真CLI≤22:32；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。

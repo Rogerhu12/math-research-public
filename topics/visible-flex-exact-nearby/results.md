@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WXA：实际完整真腰坐标与任意短段双向传播](results/R133-supplement-actual-complete-true-waist-coordinates-and-shorter-flows.md)：43763424840/1 的20门、16pins/4AST、55完整字段/82球已核；真实waist同逆双窗、selectedH/common input原序、三组primitive两rank及leading双向均付，全部mean保留。新积分/全incoming/Schur/R0仍独立。
+
 - **WTA 真腰归一化实际双窗逆已成。** [完整原件与结论](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：唯一43763134339/1 child0/20，J97、268435456与独立dyadic512各4/4。只同Qδ/η0/|δ|≤1e−8的真实右腰，完整residual/α一次/mean/repair/finite保；同逆L2与H−4/3，非完整incoming或Schur。
 
 - **FA 首次运行的文本识别失败及完整证据。** [失败记录](results/R133-supplement-actual-free-Airy-cut-identity-gate-failure.md)823cbd3c：43762821220/1门3查不存在的vartheta，20输入/5AST已过；实际四组新budget0、旧数学0、lost0，完整原JSON/report/preGit保留。修复仅识别真实O.2字符串和报告显示；未声称新cut界。
