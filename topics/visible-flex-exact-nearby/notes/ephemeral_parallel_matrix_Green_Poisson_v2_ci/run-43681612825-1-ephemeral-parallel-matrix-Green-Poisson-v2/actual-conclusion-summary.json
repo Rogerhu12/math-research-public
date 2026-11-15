@@ -1,0 +1,182 @@
+{
+  "kind": "actual_ephemeral_parallel_finite193_Green_true97_Poisson_same97_cap_v2",
+  "source_sha256": "f33345d1ab2500fd3811692311ce931606e389cf3c8ef508925d225748565190",
+  "complete": false,
+  "failure": {
+    "message": "actual temporary consumer-0 child failed",
+    "type": "RuntimeError"
+  },
+  "gates": [
+    {
+      "name": "actual_complete5970_same_F_matrix_cover_and_original_four_rows",
+      "passed": true
+    },
+    {
+      "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+      "passed": true
+    },
+    {
+      "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+      "passed": true
+    },
+    {
+      "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+      "passed": true
+    },
+    {
+      "name": "original_complete_true_ordinary_L2_Green_kernel_and_process",
+      "passed": true
+    },
+    {
+      "name": "all5970_true_individual_weighted_jump_gains_and_actual_public_process",
+      "passed": true
+    },
+    {
+      "name": "complete_true97_boundary_including_mean_and_exact_nominal_matrix",
+      "passed": true
+    },
+    {
+      "name": "every_original_impulse_event_SHA_uses_its_exact_no_newline_producer_convention",
+      "passed": true
+    }
+  ],
+  "seconds": 5097.398970254,
+  "arithmetic_bits": 192,
+  "input_sha256": {
+    "boundary": "56db8a3498494bf48de14b50418010053bb6058c722c41993c894c463786dc25",
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "impulse": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+    "impulse-process": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800",
+    "matrix-data": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
+    "matrix-process": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b",
+    "nominal-cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba",
+    "profile": "3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69",
+    "profile-process": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9",
+    "reviewed-impulse-process": "b55c2df02439b910c1e6e46fb78c2391ca135138421e2f05ee05a14dcb5de468"
+  },
+  "original_formula_sources": {
+    "Poisson": "312398be818621e156c08366f74c2850c61dcc283a44a30d7bb510a1cd51fca0",
+    "cap": "ed62ebe4da583062bf0473aced77d8ee560c51b37c083baf490082c54e8fe1b8",
+    "matrix": "9dca5868ed04b051aa10799978412a4b74644ae75dea748bcdc4159b3d47659d"
+  },
+  "exact_original_future_prefix": {
+    "actual_original_failure": {
+      "message": "new unread repository rules need their actual diff read: README.md",
+      "type": "RuntimeError"
+    },
+    "complete_rows": 1886,
+    "native_sha256": "09df7651d1fbef04eb0d67ab5c762a29d4624ad2610015de1254496b70dce1e9",
+    "old_future_rows_recomputed": 0,
+    "original_arithmetic_bits": 320,
+    "original_native_source_sha256": "9dca5868ed04b051aa10799978412a4b74644ae75dea748bcdc4159b3d47659d",
+    "process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+  },
+  "actual_phase_output_hashes": {
+    "future": {
+      "arrays_bound_by_each_original_exact_receipt": true,
+      "complete_state_files": 4226,
+      "ordered_exact_state_receipts_sha256": "2dcc5217c6d3ebad9594f6db6effff61f21a066a19366e2aefbdab986609251f",
+      "persisted_recomputable_output": false
+    },
+    "groups": {
+      "arrays_bound_by_each_original_exact_receipt": true,
+      "complete_state_files": 0,
+      "ordered_exact_state_receipts_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "persisted_recomputable_output": false
+    },
+    "past": {
+      "arrays_bound_by_each_original_exact_receipt": true,
+      "complete_state_files": 1800,
+      "ordered_exact_state_receipts_sha256": "b6a84164447535498ce4065bbf171e2a34f2954ca5f9889a0c9e64295618ee75",
+      "persisted_recomputable_output": false
+    },
+    "ports": {
+      "arrays_bound_by_each_original_exact_receipt": true,
+      "complete_state_files": 5970,
+      "ordered_exact_state_receipts_sha256": "29a66ef939c4095a04cb71ec4acd4b3e293647679ba35e6064699fbfa9263a8a",
+      "persisted_recomputable_output": false
+    },
+    "product": {
+      "arrays_bound_by_each_original_exact_receipt": true,
+      "complete_state_files": 4331,
+      "ordered_exact_state_receipts_sha256": "c94fdfb1461c4469842bf6ee3f52e911f5ad9a7e6e15a0aa616ecba171abeafd",
+      "persisted_recomputable_output": false
+    }
+  },
+  "complete_true_finite193_body_high_to_low_bounds": null,
+  "complete_directional_posterior_components": null,
+  "complete_true_right_Poisson_operator_upper": null,
+  "actual_true97_normalization": null,
+  "exact_inner_interval": null,
+  "exact_negative_output_interval": null,
+  "exact_boundary_input_units": null,
+  "old_future_rows_recomputed": null,
+  "old_target_F_C_Gram_or_validator_calls": null,
+  "complete_finite193_directional_two_boundary_bound_proved": null,
+  "complete97_input_Poisson_Gram_bound_proved": null,
+  "complete_true_right_Poisson_contraction_proved": null,
+  "independent_full_high_body_and_high_cut_inputs_retained": null,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "new_recomputable_arrays_persisted": null,
+  "output_sha256": "c5c15d6ce18c8831cd820f6d9cfc699502475f544c9a52ae94f75e70da43b960",
+  "output_bytes": 3770,
+  "complete_same_input_directional_contractions": {},
+  "actual_parallel_completion": {},
+  "actual_final_stream_counts": {
+    "combined": {
+      "stage": "combined",
+      "actual_utc": "2026-11-15T07:04:43Z",
+      "streams": {
+        "future": 4192,
+        "past": 1776,
+        "product": 4256
+      },
+      "complete_groups": 0,
+      "queued_groups": 0,
+      "consumer_processes": 1,
+      "done": false,
+      "original_temporary_receipt_sha256": "f8ef3cacbd0bcdea724d36f8c2a284cac998b4be1b258ff76431d2717fe995d7"
+    },
+    "consumer-0": {
+      "stage": "consumer-0",
+      "actual_utc": "2026-11-15T07:05:03Z",
+      "done": false,
+      "failure": {
+        "message": "nonfinite exact dyadic slack",
+        "type": "ArithmeticError"
+      },
+      "original_temporary_receipt_sha256": "b5db7620e165ae6006505ee9fd69dbbf51aa4b6902e9e6e5b4c0f399093fda64"
+    },
+    "future": {
+      "stage": "future",
+      "actual_utc": "2026-11-15T07:05:01Z",
+      "completed_rows": 4224,
+      "reused_rows": 1886,
+      "new_rows": 2338,
+      "done": false,
+      "seconds": 5086.510125128,
+      "original_temporary_receipt_sha256": "53dad6e0a364646c8304bfcb0a156698ec45a014dc15c8477f27de45376668f4"
+    },
+    "past": {
+      "stage": "past",
+      "actual_utc": "2026-11-15T07:04:48Z",
+      "completed_rows": 1792,
+      "done": false,
+      "seconds": 5073.839885621001,
+      "original_temporary_receipt_sha256": "59d02781020b30fa96e56fd6ffdd445923bc3f21bfd4c7ce146fdc2774703668"
+    },
+    "product": {
+      "stage": "product",
+      "actual_utc": "2026-11-15T07:04:59Z",
+      "completed_rows": 4320,
+      "done": false,
+      "seconds": 5085.118927565,
+      "original_temporary_receipt_sha256": "b8192a2e3be44e35a7ea538dd74a83a3d53eb0374b3f9db5bc4071468ca30d6a"
+    }
+  },
+  "temporary_final_output_receipts": []
+}

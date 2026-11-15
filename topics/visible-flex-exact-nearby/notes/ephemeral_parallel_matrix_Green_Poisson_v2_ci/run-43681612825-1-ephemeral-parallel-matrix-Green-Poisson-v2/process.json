@@ -63,7 +63,9 @@
         "/home/runner/work/_temp/visible-exact-ephemeral-matrix-v2-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
       ],
       "started_utc": "2026-11-15T05:40:06.465421+00:00",
-      "actual_returncode": null
+      "actual_returncode": 1,
+      "wall_seconds": 5100.021125664,
+      "finished_utc": "2026-11-15T07:05:06.487492+00:00"
     }
   ],
   "readme_checks": [
@@ -225,6 +227,11 @@
       "time": "2026-11-15T06:51:23.562372+00:00",
       "final": false,
       "commit": "2c12c02da8d1df228f1e113f2b57af13e373d187"
+    },
+    {
+      "time": "2026-11-15T07:01:26.476564+00:00",
+      "final": false,
+      "commit": "f53a209c4d09751fcee6acb7c1aeab14f28dd863"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -336,48 +343,58 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T07:01:24.958738+00:00",
-  "wall_seconds": 5079.371200879001,
+  "snapshot_utc": "2026-11-15T07:05:06.488993+00:00",
+  "wall_seconds": 5300.901446201,
   "actual_temporary_progress": {
     "combined": {
       "stage": "combined",
-      "actual_utc": "2026-11-15T07:01:12Z",
+      "actual_utc": "2026-11-15T07:04:43Z",
       "streams": {
-        "future": 4064,
-        "past": 1696,
-        "product": 4064
+        "future": 4192,
+        "past": 1776,
+        "product": 4256
       },
       "complete_groups": 0,
       "queued_groups": 0,
       "consumer_processes": 1,
       "done": false,
-      "original_temporary_receipt_sha256": "ff11151fa1417cd79207b75a0ebaa8dc866cc2dde53583408a413cfa1378470a"
+      "original_temporary_receipt_sha256": "f8ef3cacbd0bcdea724d36f8c2a284cac998b4be1b258ff76431d2717fe995d7"
+    },
+    "consumer-0": {
+      "stage": "consumer-0",
+      "actual_utc": "2026-11-15T07:05:03Z",
+      "done": false,
+      "failure": {
+        "message": "nonfinite exact dyadic slack",
+        "type": "ArithmeticError"
+      },
+      "original_temporary_receipt_sha256": "b5db7620e165ae6006505ee9fd69dbbf51aa4b6902e9e6e5b4c0f399093fda64"
     },
     "future": {
       "stage": "future",
-      "actual_utc": "2026-11-15T07:01:19Z",
-      "completed_rows": 4080,
+      "actual_utc": "2026-11-15T07:05:01Z",
+      "completed_rows": 4224,
       "reused_rows": 1886,
-      "new_rows": 2194,
+      "new_rows": 2338,
       "done": false,
-      "seconds": 4865.076755306,
-      "original_temporary_receipt_sha256": "98935095b4e4642454a58341920f747db1fab1b4148ba82709fe56df1e4eac4b"
+      "seconds": 5086.510125128,
+      "original_temporary_receipt_sha256": "53dad6e0a364646c8304bfcb0a156698ec45a014dc15c8477f27de45376668f4"
     },
     "past": {
       "stage": "past",
-      "actual_utc": "2026-11-15T07:00:52Z",
-      "completed_rows": 1696,
+      "actual_utc": "2026-11-15T07:04:48Z",
+      "completed_rows": 1792,
       "done": false,
-      "seconds": 4837.784691741001,
-      "original_temporary_receipt_sha256": "9903c412db658b3ce156153a76279457b83b716af7f349049d858b3f22cee97c"
+      "seconds": 5073.839885621001,
+      "original_temporary_receipt_sha256": "59d02781020b30fa96e56fd6ffdd445923bc3f21bfd4c7ce146fdc2774703668"
     },
     "product": {
       "stage": "product",
-      "actual_utc": "2026-11-15T07:01:18Z",
-      "completed_rows": 4080,
+      "actual_utc": "2026-11-15T07:04:59Z",
+      "completed_rows": 4320,
       "done": false,
-      "seconds": 4864.375314362001,
-      "original_temporary_receipt_sha256": "8dc1db9ddfb79b1be21f5496d9217bcb6ed5565433d402ca48f78a9a929b10f9"
+      "seconds": 5085.118927565,
+      "original_temporary_receipt_sha256": "b8192a2e3be44e35a7ea538dd74a83a3d53eb0374b3f9db5bc4071468ca30d6a"
     }
   },
   "required_original_array_artifacts": 34,
@@ -408,6 +425,17 @@
     "nominal-cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
   "actual_source_sha256": "f33345d1ab2500fd3811692311ce931606e389cf3c8ef508925d225748565190",
+  "failure": {
+    "type": "RuntimeError",
+    "message": "actual_ephemeral_missing_future_past_true97_Poisson_and_same97_contraction actually returned 1"
+  },
+  "finished_utc": "2026-11-15T07:05:06.488963+00:00",
+  "actual_output_sha256": "c5c15d6ce18c8831cd820f6d9cfc699502475f544c9a52ae94f75e70da43b960",
+  "actual_scientific_complete": false,
+  "actual_scientific_failure": {
+    "message": "actual temporary consumer-0 child failed",
+    "type": "RuntimeError"
+  },
   "original_process_receipts": [
     {
       "file": "original-all5970-impulse-artifact-process.json",
