@@ -163,3 +163,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 
 **原模型全三阶负部预算已排。** [秩一Gram与完整Schur证明](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)从同一个原连续尾分析得到Γ≥(k+1)/(R²S_J)|ℓ><ℓ|及〈H0ℓ,ℓ〉≥S_x/2，严格推出C*(q+1)≥q^(15/4)/(4(x+1)³)。真E3∩K⊥上的ΣP_j负二次型sup恰(√C*−3)/2；任意固定q≈κx²给至少cκx^(9/4)，超过Q logQ loglogQ，故整个E_h的统一负部、固定C Q²/x²均不能直接使用。全部中间暗对、无限后尾、真MP域与内部完整和都保留，两端partial未删；坏向量未识别成实际u_Q。同w、整串Cu_n+Du_(n+1)=0及真实来源联合预算继续，旧15/8原primitive一般上界亦不重开。
+
+**完整模型行的加强。** [新原占据恒等及Schur下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)保全部强位坐标并核〈W_hdω,ω〉≤S_J||ω||²，以Λ源比较付同一Riesz投影，得C*≥q^(19/5)/(4(x+1)³)。三阶实际负下界为q^(19/10)/(4(x+1)^(3/2))−3/2，二次尺度增长x^(23/10)；仍只排全短核统一估计，同w来源及近线性窄窗全height问题继续。

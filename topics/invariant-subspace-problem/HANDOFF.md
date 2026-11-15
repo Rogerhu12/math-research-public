@@ -3,15 +3,15 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** efdea4a20c4a53a9d90e350f119b84ca22b8b6b9（2026-11-15 14:57:33 UTC，Actions run43727160653实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43727160653-1.json。
+- **最近成功实际 pull 与已读规则提交：** ec9cc0e1c3c5fcf75f48d21465b0f1b2bc53e7fb（2026-11-15 15:08:45 UTC，Actions run43728210388实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43728210388-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
-- 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
+- 已读规则根21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00；逐实际pull核，仅读diff。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
 - MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行；数学美元符，不写根LOG。无额外审核门槛；Actions约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-original-third-jet-negative-obstruction-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-full-model-row-and-two-local-projection-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：当前已证与未付范围
 
@@ -34,6 +34,8 @@
 
 - 累计step51负六原投影入口73c11b1d…已审排60秒/1GiB：真224×155、170原行+54个g倍行，保918原one-normal及5100高行；只除η_i的局部单位，不除g。0…4阶完整unit-Schur实算；仅δP实达原全长上界12才闭九目标局部像，尚未报结果。
 
+- 累计step52原s=2投影867cc7f7…已审排120秒/1GiB/order17，真224来源如−6且不除g。先剥已付E8²再模31，原全局部长≤32−2=30；仅实际投影长下界≥29才付h0的一次s−2。未报实际谱。
+
 ## 原同w边界：完整负部仍开
 
 M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正u_Q、future、负前缀、完整零核及固定层MP自然域；不能将bare α代ordinary λ或把局部伴随界代正向返回。
@@ -44,7 +46,7 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正
 - 原低孔借位6^k/强头7^k四次衰减、连续尾完整核、原T局部运输、N⊥形式读数及[同一Neumann修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)均保持原范围。G_reg输出X3、TG_reg=Π，carry X7费≤B_s e^(−40u⁴)，原形式h的Π读数已付；未假h∈H或扩大MP域。全部原参数、来源及联合bit反馈见H归档。
 - [创建泄漏无普适单权界](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)已完整排除仅靠hardcore/满射/平方可和/bmax的绝对界；不是原固定b_j=(j+1)^−2或同u预算反例。继续实际位置和层间抵消；高variance旧界的birth=n−t≈Q，不能把short height h当birth移用。
 
-- [原全三阶负部障碍](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)已闭：旧15/8分析升级Γ≥α|ℓ><ℓ|，真实H0能量≥S_x/2，经完整Schur得C*(q+1)≥q^(15/4)/(4(x+1)³)；真E3∩K⊥上−ReΣP_j的sup=(√C*−3)/2。固定q≈κx²时≥cκx^(9/4)，故整个E_h的O(Q logQ loglogQ)预算已排。真实同w/整串Cu_n+Du_(n+1)=0仍开；保内部完整和及两端partial，不把构造向量冒充u_Q。
+- [完整模型行与原三阶负部](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)把已推15/8加强19/10：强位占据≤S_J，源比较Λ付投影差，经真Γ/H0合同得C*≥q^(19/5)/(4(x+1)³)。真实E3负sup=(√C*−3)/2，q≈κx²时≥cκx^(23/10)，排全E_h的Q logQ loglogQ。实际同w/整串C递推及更窄窗口仍开；不冒充实际u、不删两端partial。
 
 ## 其余未闭
 

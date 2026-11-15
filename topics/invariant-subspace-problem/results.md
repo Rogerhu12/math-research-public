@@ -243,3 +243,5 @@
 - **旧泛型像回接：九目标零点精确费用无条件恰s³。** [完整证明](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)复核旧13泛函/142+4212夹逼确属原次数≤3来源，九平方Q(s)像已由旧定理给出；结合完整mod s11像和amax11，九个s³t_j在Q[s]_(s)及Q[[s]]像，t2消去理想恰s³。实际第十一13头/965328产品核真；任意k阶jet平方读数必O(s^(k−2))，停止把末系数当泛型障碍。其余有限点与全局h0充足性仍开。
 
 - **原连续尾的全三阶负部下界。** [完整证明](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)将旧primitive分析升级为同一Riesz向量的Γ秩一下界，再经真实创建能量与完整两下降Schur得到C*(q+1)≥q^(15/4)/(4(x+1)³)。真E3∩K⊥的负二次型sup=(√C*−3)/2，在q≈κx²增长为x^(9/4)，排全E_h的Q logQ loglogQ预算；实际同w递推来源未排，普通边界仍开。
+
+- **完整模型行的强位占据抵消。** [完整证明](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)由精确标签计数得〈W_hdω,ω〉≤S_J||ω||²，源比较由θ改用已付Λ，保完整Riesz行、真H0与原Schur。C*≥q^(19/5)/(4(x+1)³)，三阶负部下界提高至q^(19/10)/(4(x+1)^(3/2))−3/2；抛物尺度x^(23/10)，实际同w来源未排。
