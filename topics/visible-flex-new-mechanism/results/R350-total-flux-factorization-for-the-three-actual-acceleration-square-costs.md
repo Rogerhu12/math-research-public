@@ -268,7 +268,7 @@ $$
 \sup\operatorname{supp}u<\inf\operatorname{supp}w<r_*.
 $$
 仍使用原右锚。因为 (8) 的 integrand 是局部二次式，对两个实幅度 $\alpha,\beta$，
-$
+$$
 a(\alpha u+\beta w)=\alpha^2a(u)+\beta^2a(w).
 \tag{22}
 $$

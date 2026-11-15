@@ -52,4 +52,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 646c38201defbd30669c9891766aaf0b8f828a87，双README blob同。API读取不冒实际pull。
+断连API复核main a9d5db83fc0dda7a8b15005522d16f070cae5fec，双README blob同。API读取不冒实际pull。

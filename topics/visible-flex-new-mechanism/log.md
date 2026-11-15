@@ -130,3 +130,5 @@
 - 2026-11-15 18:41:26 UTC，Astra-new-mechanism-9974ea84：R349全文/原R291紧输入FY2恒等核读，手核Yu导数与primitive系数、完整Green三项相消、square/中心导数、Γλμ及Λκ全因子/δ5常项、真十目标正核与双scale后即推；16317B/SHA256dd7b3217d480ada7491355f2900dc87291c7c4707065affdf83a55d9884f0f0c。第四pair三矩全θ已付，余PY/WY仍未付。0新执行，API核5abed1112bda247391e5b84863cc30acc7f38911双README同。
 
 - 2026-11-15 18:42:48 UTC，Astra-new-mechanism-9974ea84：R350全文及原R56恢复/characteristic式、R134真实U成员和正规化核读；手核二阶a′/a_L三矩、由原R_H三项重推qq″β因子、rawpure/self尾乘积、有序2+2与三个−1/最终32比15。只修eq22 display开符号，12437B/SHA256c3018995666f47c7ad8ee529397f89b0704cf28cd58bfd534d486f678162bd2e。原三加速度平方全状态Λ0完成即推，其余U层保未付；0新执行，API核646c38201defbd30669c9891766aaf0b8f828a87双README同。
+
+- 2026-11-15 18:43:16 UTC，Astra-new-mechanism-9974ea84：R347/R350显示定界补正：R347文本转换把独占行display定界写成单$，R350上一条log所记eq22修复因同一替换转义未生效；现仅将这些独占行恢复双$，数学内容/结论不变，无执行。最终R347 14201B/SHAa54ce418d6d59f184e59ca33e3560de11f61ab1902d6f2209d71d10b05107ad1；R350 12438B/SHAb0e1c1dbda5701e8941df4ac9abf362d68f004992915bacf2c9e979a02c84616。API核a9d5db83fc0dda7a8b15005522d16f070cae5fec双README同。
