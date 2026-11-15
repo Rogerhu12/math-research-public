@@ -536,3 +536,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R321真实140完整128与编译阻断
 
 [R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)13792B/49982cba424367fed23dedd9f984489b72d0f456cab817c78213da69c7019130全文读后即推；run43713195661两job success但native/fullDN全false，唯一α1到9.68582474751023176032080482454992093e−11且完整replay逐字同。stage/audit编译return1、boundary/338缺前置未起，15460s余量非预算拒；未读compiler正文与源级quoted ADL确定问题分开。152最小限定JSON名字+全文stderr继续原scope；148实际run43719446020/source da307af3登记。API核双README非pull。
+
+## 2026-11-15 /root — 152/150共同JSON限定与完整错误来源
+
+[完整接口](notes/2026-11-15-native128-explicit-JSON-qualification-interface.md)6529B/e06d590a和入口15058B/e609fb0a读完即发；五固定源仅12/9/4/49/2处quoted→::quoted，原/执行SHA及全文逆向核同，无数学/预算改变。原Git源保留，实际g++仅改CPP临时路径，stage/tape同目录显式header；原错误逐行带字节/SHA，不足范围诚实记录。152全组件与150完整field分别接，尚未编译或科学执行；H压缩保完整正文/恢复/当前责任。API核双README非pull。
