@@ -327,3 +327,7 @@
 ## 2026-11-15：完整正常三次高核与全部三次校正已分类
 
 [完整H3与首项稳定](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)以全部10200真Q原产品和独立2×2子式付上界988，原整数行缩放后单次F11 RREF付下界988。由此允许全部990个三次坐标的一阶首项仍恰15维、三次部分必零、九平方读数仍全零；尚未代完整β1。
+
+## 2026-11-15：原二点完整第一连接精确为七与九目标有限阶成员性
+
+[完整原连接及双湮灭证明](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)用好11原常单位、136136真Q常积及完整1843×22残余秩7夹特征零β1=7，覆盖全部normal4/5。完整15首项的九平方第一读数全零，故九tj有modt²来源、九h0tj有modt³来源；完整正谱1⁷,a,b未定，局部成员性仍未宣告。
