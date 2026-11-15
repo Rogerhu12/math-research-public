@@ -134,3 +134,6 @@
 
 
 [原Katz同源三方向与有限矩](2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：在R40原E17全规范中，真实二次齐次项=A(X²+Y²)+BXY，cyclotomic/anticyclotomic二次项之和准确为同轴四倍；分支各自的真实中心周期/单位须先运输。有限矩M20/M11/M02给原模p³关系及Banwait齐次三矩替换；全Sha无限时双变量四阶零另直接给全部原矩p⁴整除。没有新增第三个自由二次条件，不给任何跨p非零，也不外推j0来源。
+
+
+- [R837](../results/R837-original-three-long-root-energy-and-uniform-multiplicity-truncation.md)：原Γ4三个真实长Euler零给尖锐七倍根能量；在实际因子中截除重数>K者，完整商求导损失与十九角nef交数给有限式(23)，取K≈√D得到无重数上界假设的7q(H−r)≤3B_D²+O(D^(3/2))，故p≤141D²/(14q)+o(D²)。自然三长临界47/12排q≥3，旧47/8临界若另有真实第三长行则排q≥2；两临界不混用。原三十三行带/39carry、全部来源帽、B_K<s和特征/tame门均保；剩余稠密q1/2、指定forcing和同R高位仍开。

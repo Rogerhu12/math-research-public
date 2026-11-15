@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：76d2b517558c80b11811502aff4bbf86bb5f3eab；2026-11-15 23:20:26 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:15:11 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
+- 最近已读规则提交：dcad772b2ee8c47d3314ee7e2dba2afad1431665；2026-11-15 23:21:34 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:21:33 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,9 +11,9 @@
 
 ## 完整归档与当前分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-katz-direction-comparison.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–836已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R836已分配deep，R837以后由root协调。结论成即分别推。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r837.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–837已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R837已付，R838以后由root协调。结论成即分别推。
 实际pull23:16:07/run43773875458/job132995582097，两README差异空；回执ci/rule-pull-20261115T231607.json。下一00:00前。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
@@ -40,6 +40,7 @@ R828全精度高轴两参数、低卷积/Fermat p⁴进位及真实w整三角给
 R834原Γ4三长窗T=T_M=s−r−13，h<T≤2h、T>2κ，全I=FH2+eH2单射；原qsrc/总charge40/unit三角及39carry保持，unit秩≥1+(7κ+3χ)/2。贴边s=2h+r需h≥max(14,κ+7)。全H3核注入V_T=H0N³(−TP)再入原Z。
 [全H3秩增补](notes/2026-11-15-r834-three-long-unit-rank-bound.md)：unit秩≥1+2κ+χ+T−C(G_F,T−2κ−χ,a+b)，R805全profile属界/全部复合次数保。h/κ→9/8、T/κ→9/4、a+b+z+χ=oκ时≥199κ/48+oκ，占H3的199/216。仅已付同WD返回子格；不改Bost(0,3)或付全lifting。
 R836已付K3≅kerΘ_T：3b<p，全D3余核H3^0/F0H2^0长z_-≤2；V0须解A_T，唯一V1由同H2实现，余自由恰F²H1。第三长行=c_F·L(ψe^{3η})且同H1评价单射，第四短长max(ell−r,0)只读同一G。指定forcing先验w^(13+r)低行，再解真实仿射V/V1及唯一L、第四行；旧R741全部q t^rFB族排除。实际余类非零、中央→深核、全WD和全部高位仍开。
+R837原三长零的根能量≥7S且尖锐；高重数真实因子截除保两次商求导损失，K≈√D统一给7q(H−r)≤3B_D²+O(D^(3/2))，p≤141D²/(14q)+o(D²)，不预设重数上界。自然三长p/D²→47/12只余q1/2；旧47/8预算另有真第三长才只余q1。全有限B_K<s、十九角/13/39carry和次数/tame门保持；稠密余类与指定forcing仍开。
 
 ## 同 R mirror、真实 Euler 像与全边界
 
@@ -53,6 +54,4 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 ## 其他完整未闭接口
 
-R815全NE26/nef4501、惰性21/901及S铅笔；R819/825 (b−m)e+bm≤κ≤2be−m²、χ≥2b+m及全余项保。同R m2须κ≥2h+2b；R823最小面p≤120D−421，R825仅排固定e。R827全r2 τ≤13/4、平方差/B_D.C≤D B∞C+35b/6，p>47b²+156b+38给唯一核/下一unit，实际Δ/p未知。R743两连接/R805属门、原H3 Serre须杀全WD。
-普通R734同q/50,58、两核六支/旧ray两η/13/19；R773–801同EYW深浅外部联立，R780§6撤回/R786 NormC1，R801/807/809全CM13/PB4∇不代原三负二线性行。R812同charge/Smith/13carry、R756/758预算177/47、R760三维传播、R709/R736单位/flag/annulus沿归档。
-O4全Hilbert迹早项、O6完整Np/λ≤3、quartic/O3/O7、R364/R561/R654/R712及惰性二次regulator仍开；AST/strict/fine不代全Selmer。子问题完成接open下一门，主目标未完成。
+完整旧门/系数/预算见[本次全文归档](notes/2026-11-15-frontier-before-r837.md)及open.md：R815全NE/nef、R819/825真实S次数与近最小余量、R823最小面、R827全profile阈值均保，原同R唯一Δ/p仍未付。R734/773–801普通同q深浅外部、R812同charge/Smith、R756/758预算177/47、R760三维传播与Bost(0,3)、O4/O6/O7及R364/R561/R654/R712全开。AST/strict/fine不代全Selmer；完成子问题即续open，主目标未完成。
