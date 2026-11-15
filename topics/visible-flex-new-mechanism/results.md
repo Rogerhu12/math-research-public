@@ -353,3 +353,5 @@
 - [SOC度量内裕量三次完整接纳、曲率56.9820](notes/curvature-soc-metric-reserve-first-actual-result-20261115.md) — actual43665345551/source0aae9a6a，model3/6/8完整SOC使κ57.81237→56.98197；末态512de、fineη.267199566824，55未到。全部遗漏保留，池4240/1310；12LP/26值/活动40.918s，总274.782s。原行1e−6提案floor未放宽实际门，无连续reach或准确等距。后继同g/163固定硬κ58、恢复η至13/50，旧已合格167/625，须完整fine11组二jet与两网真下降。
 
 - [权−2首次有限必要系统的准确外部候选](notes/character-minus2-finite-necessary-actual-20261115.md) — actual43665971895/source05bb659b完整2.005s/RSS167.5；107原坐标、124有理外等式秩84、23外自由，63必要半空间。保存非零准确外点而零双证；本系统未排除正字符，但外点不授真实泛函/完整action正性，秩84非真实头部维数。完整证书31976B/5658e056、raw143028B/dd539b08。下一消费候选具体缺失条件，不复算旧forcing/NF/六积分或原样增预算。
+
+- [R165：预设h后的完整k二次型与log-linear频率门](results/R165-prescribed-h-quadratic-highest-action-and-loglinear-frequency-gate.md) — 只读完整head7个Q4键，真字符后十最高标量；准确I4=I0[h]+Q_h[k]保全部面积/边界。k=e^r y在有限log-linear段给d t²+βt+γ≥0全t≥0，β=2d+g−e−c、γ=d+g+b+m+c+j，等价d,γ≥0且β+2√dγ≥0。完整平端截断、先形状后幅度再快缩付清，门仅必要；d=0条件迫c=f=0、g≥e，未授d=0/全正性。

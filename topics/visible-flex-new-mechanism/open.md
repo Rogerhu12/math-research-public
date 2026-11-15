@@ -50,6 +50,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+[R165](results/R165-prescribed-h-quadratic-highest-action-and-loglinear-frequency-gate.md)已将本权最高action准确化为I0[h]+固定h的四阶k二次型，全部H/Q4保留。log-linear共轭给 d t²+(2d+g−e−c)t+(d+g+b+m+c+j)≥0 全t≥0的必要门；有严格负点才定向补一条有理t行，不盲扩网。该子类通过不授一般h或完整低层正性。
+
 [首次有限必要实际](notes/character-minus2-finite-necessary-actual-20261115.md)完整保存精确候选、x=By、全部旧行及六条路径积分。新工作先据该候选补有来源的一条静态/全路径必要条件或真实原关系；不原样重跑系统、不扩旧状态网/时长/资源。外秩84/自由23不是真实头部秩；双号所有自由坐标的准确非负Q证书完整后才可排权−2正字符。
 
 R164已把权−2的同一矩阵乘子全部消元：c/d取自同一F0参考导数，唯一μ由R164式30确定；兼容式是Lie cocycle自动关系，不能重复计障碍。十四个修正标量系数精确为h^(σ−e)f(k)，ω/logh消去；完整正性等价于全平端r=logh、k的∫e^-2r P≥0，保全部0/2/4层。新数据consumer须保参考导数，后继必要系统直接用唯一μ，不给各路径独立选μ。

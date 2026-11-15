@@ -245,3 +245,7 @@
 - 2026-11-15 02:13:17 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交a4bc6ea9b24269179f74384e15425ec3225d5b11记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 02:13:28 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ed029aa6277d0f2607700fbbb4098ee496f3f701记录于H；继续推送同一完整结论，无force。
+
+## 2026-11-15 02:14:32 UTC — R165固定h二次型与真实有限频率门
+
+全文完成并登记R165，root独立纸推一致，实际normal indices90..106只读核过。原Q4_0/1为零、其余7键经同一字符后得g/j/ℓ/m；完整I4=I0[h]+Q_h[k]，分部积分端项全消，有限log-linear共轭频率门及cutoff负方向严格证明。先有限h,k、再有限振幅、再时长δ，原H/ω/连接/低阶费用全保。复用R148给I0条件，d0附加结论仅条件。没有新研究计算，不设机械复核门；证明直接入results。
