@@ -139,3 +139,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **原正常商的完整来源接口。** [6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式商泛函/无Ω倒置投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保全原120单位/13零输出/6012=5100+864+48。实际z_j=1、Mz=f²q给ℓ=zᵀ modf²，imMᵀ=kerℓ；多项式E取e_i−z_i e_j及f²e_j，Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I。P=I−RV保全部rank34核，T=coker[B,H_M P]在原Σ局部化成立；新adj/R/P及完整W尾未实算。
 
 - **原连续相干列的全层MP。** [随机池完整证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)构造同D的q与精确r，候选相对最低费≤Sx/Sx+k+1、残量≤e^(−Sx+k/zx)；用真全层12·512^k修复得k=o(x)完整D†渐近最优，同fcoh低j一次MP小量。任意r步误差恰外池少于r位概率。k≈x、C+D返回和全partial仍开；原A_m含多降阶，不以假grade令H^-1g截低层。
+
+- **固定原头、同actual-u的完整一次MP已付。** [全物理Gram/Neumann证明](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)保真实非酉S及I≤G≤χm，C0真grade降一、归一K带宽d−1，故预测top按ρm^(2ceil((J−d+2)/(d−1)))衰减。固定m取J=d+ceil(6γm^-1 log(x+1))=o(x)，Q≥R+J时截断fJ保原V/K/u，全部一次D†残量趋零。真实余量仍−C Q_D(C+D)fJ；moving-m须显付χm² x³ exp(−γmJ)/(J+1)及原carry，不用固定m极限代母窗。
