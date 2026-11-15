@@ -180,3 +180,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R257：正负 Gaussian 面积中的真实累计 primitive 能量与有序宽度式
 
 [R257 完整证明](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)从原p2二阶导与完整cubic能量沿A=J(q″²)变分，准确得m0(q,[P,p2]Δ)=−Q/2，其中Q=½∫A²+∫x²(q″)⁴−8/3∫xq′(q″)³+4/3∫q(q″)³+∫(q′)²(q″)²。只对合法三矩保证紧的二次方向消边界，三次交换子左尾仍保。B1=−κhe p2、B−3=cP及真Gaussian字母独立给c≠0时完整A1,−3必Q0。∫A²精确等于−½自包Δ_i项减全i<j有序质量/质心交叉项，普通复双线性而非范数。R250四十包的全部局部四次项准确0，但按真实顺序四个强过渡虚部均非负且两正长度平台严格正，故Im∫A²>0；八完整复制及正仿射/共同实归一仍保非零。它除了Lc<0外还违反另一完整面积，仍不排任意profile。I0归一多宽度族的三复矩和Q有完整准确有限式(27)–(28)，保真实shape常数与全部跨包尾，供联合构造；只清本矩还需其余外矩、全部面积与完整ruling。root独核p2原导/全部DF端项、40全过渡、仿射及宽度尺度；无新计算。
+
+
+## R258：整个十维第三核的局部自伴源、真实右尾与逐微包通量
+
+[R258 完整证明](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)从J0的五个完整C逐项求得Kf(w)的真实Volterra式；三次导数中所有P_f尾准确相消，Afw=D²(a_fw″)+D(b_fw′)+c_fw，a=−4((f′)²+ff″)、b=12(f″)²+8f′f‴−4ff⁽⁴⁾、c=8(f‴)²+12f″f⁽⁴⁾+4f′f⁽⁵⁾。完整K=−J³Af由原共同右collar三个零迹唯一决定，不删左二次尾。D³Z=−Z*D³使Af的正确链递推为−Z*Af−AfZ−D_fAf[Zf]，保持局部四阶/有限jets/自伴及Af f0。旧H首源D M_f D同理，故准确统一整个Z71=H7⊕J3；8χ未据此推出。任意光滑w含真实左尾均有∫f‴K=0；对整profile不交逐包比例类还逐包Af f_i0、Kf(g)0，故两mixed完整响应每整包通量为0。解析且无内部常平台的整包正是R225活动区间，才可支付其所有总flux门；其余平台/内部Laurent/两平端及同w ruling仍欠，不能套旧step圆。两个mixed目标保所有Φ(φ,Kfφ)项与原2cs规范；完整range右逆先解四类iff，再用R185核内六矩投影，未额外强加局部支持类约束。root独展五C、五个微分系数、递推、DMD与新增逐包IBP，tail独核；无新研究或人工执行。不以80/144定义冒rank或全Rp0覆盖。
