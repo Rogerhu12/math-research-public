@@ -319,3 +319,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R401｜同一真实偶包镜点的四个period内部通量
 
 [R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)（9462B；SHA256 b2fb1c16871f97522eb190344ca6a6603803f1cfc1c093980a8ef37f8cbd1104）。原左collar同锚积分给K0/K1两Hd det=−20y h*²，tau*的两原尾给两C det=2r(p+yr)(4a³p²)²>0；全部在wholeE/Λall核，真四行block星号保留。原成本协议分别实现wholeE0与镜点双period，或(P_LE,两A,四raw)紧目标截面；不拼更强joint。root手工核两个上端积分及两C行，既有profiles不换；未证明只此两Af根，余period/13门继续。
+
+
+## 同m7已付见证接口｜精确身份恢复后，单次冷值耗尽原时间
+
+[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)（7342B；SHA256 038ce2f6fd8f7eea441532e176605e34d85cd9217a0dc74814fd488dd8888728）。run43773136836/source403a2fcf…审计完整；正确objective55d6c627…/field047cef…各同原，16检查仅复用。必要粗value205.448292651s返回后触发120秒门，累计active241.314203844、值15；新J/模型/LP/SOC/接受0，原bank在新模型绑定仍pending。未变最佳点η.26623355613853394/κ57.99982504159888，14门来自原独立两网末验。LP10余2不赋新的时间预算；此接口不重跑，继续冷评估/缓存新机制与open理论。完整历史/本次费用及双repoactualpull见note。

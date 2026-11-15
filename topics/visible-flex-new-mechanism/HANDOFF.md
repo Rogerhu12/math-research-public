@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。公开最后已读actual pull：c3cce53015c7783a36102bfc5961cddaafa9b817，2026-11-15 22:56:05.567623 UTC，run43771970034/job132989648048，双README空diff；下次最迟23:56:03。每次pull核双README，有变只读差异即执行并记SHA；每小时actual pull。每结论即推，NFF立即actual pull --rebase/核规则/再推至成功，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。
+根/题README已全文读。公开最后已读actual pull：ff7d6a8f7f6e84a483fdc8c95d0f29a56dfce8d3，2026-11-15 23:16:32.727504 UTC，ref冲突后纯规则run43773912382/job132995698247，双README空diff；下次最迟2026-11-16 00:16:32。每次pull核双README，有变只读差异即执行并记SHA；每小时actual pull。每结论即推，NFF立即actual pull --rebase/核规则/再推至成功，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有最后已读actual pull：a5da2028a7585abb517d5f84551120d288636cbb，22:56:08.339035 UTC；根blob5ba164843b1f5802184178a82d786264404873a3无差、题README不存在、QUEUE唯一行本会话进行中。R397两次ref并发失败均已actual rebase/读双repo回执后再推；历史回执保log。
+私有最后已读actual pull：d8d9addd849d584456d2ee31ba8c289a75dc7390，23:16:35.568688 UTC；根blob5ba164843b1f5802184178a82d786264404873a3无差、题README不存在、QUEUE唯一行本会话进行中。此前R397两次及本次实际结论ref冲突均实际rebase/读双repo回执后重推，历史见log。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
 
@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit、pending0，state57aeeb039749c574598477d41764c7651b7314c8530f150c83d3691815ade498。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
 
-**同m7哈希域修复已冻，16人工仅回执复用，LP11仍未付**：[评估身份修复与16检查复用](notes/paid-attainer-objective-identity-repair-and-paid-check-reuse-20261115.md)。首run43771970034失败是把field047cef与完整objective比较；正确旧objective取m7两网external_current_cache_binding一致SHA，两个域各严核。仅transfer/resume/audit/workflow四源变，core/dev/recovery和其余149件冻结；16人工0重跑。首失败active.086260152加旧35.542398458=35.62865861，首prepare14.667315975及本次prepare计初始化、旧总18.621493514另保。438/学习8/池1/2/accepted7/LP10/values14不重置；仍仅LP11/原SOC12、无新行0LP、不m8、14门/原SOC/controller不改。此次修复尚待实际结果。
+**同m7接口已读结局：身份恢复通过，冷粗值耗尽时间、LP11未进入**：[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)。run43773136836/source403a2fcf…审计完整；objective55d6c627…与field047cef…各同原值，16人工仅复用。唯一新粗value205.448292651s返回后触发原120active门，累计active241.314203844/values15；新J/模型/LP/SOC/接受全0，bank current-model绑定仍pending。首失败与本次prepare累进init293.542781793，进程224.820478542/RSS548340KiB；原最佳点/14门只原独立收据。LP仍10余2但时间已耗，不能重启同epoch或仅加时再付冷恢复；转真正新冷评估/持久runner机制。原bank438/学习8/池1/2/B双0不变。
 
 ## 4. 纸证与准确剩余门
 
@@ -54,4 +54,4 @@ Gaussian R388完整R0/R4=正系数D4=∫(f″²−u″²)²，无P分母；对�
 
 ## 5. 继续
 
-数值读本次修复后的真实原域/模型绑定与LP11/原SOC12结果；16人工只复用，失败与当前全部费用累计，不重跑旧工作。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+数值继续查明冷粗值205秒的不可变基元/缓存来源，设计真正新接口；旧epoch时间耗尽，不重启m7、不重复已付粗值。全部失败/成功回执与费用保原note。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

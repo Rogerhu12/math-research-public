@@ -18,7 +18,7 @@
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
 
-m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合，无可返回方向/无trial，非凸模型驻点。完整旧p未保存，四全网attainer e/f已付。唯一下一接口保原438全行并附≤4合法unit-ball支持，只使用ordinal11、保SOC12；无新行0LP，不重做LP10/前6/旧开发。恢复原epoch eval identity、当前池/学习/accepted7/计数，必要几何/J/JVP计剩余active/values。原12LP/40value/120active/10秒LP不变；新16人工首次全过，真实入口因epoch定义哈希不等停，LP11尚未执行；具体失败、准备/恢复费用和唯一修复见[首次检查与身份中止](notes/paid-attainer-first-checks-and-identity-stop-20261115.md)，不得复跑人工或重置预算。guard经验系数只下一primary，不宣连续误差证书。全部旧失败/费用/covered来源保原note。
+原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch不能重启或延长重做，下一查不可变基元冷成本和同runner持续缓存的新机制；主metric/reach条件仍欠。
 
 ### 仍须支付
 
@@ -178,9 +178,9 @@ R397原raw Hd/He及C=RiHe+TiHd保真实有序suffix三矩；完整cell首末C0�
 [R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)完整权零joint响应商=span{n2,n4,n6}，ni=Λall(Ci)。原H*/J4/J6来自F0加R，不能用正常H全零覆盖。全函数核仿射稳定；存在ker(E,Λall)内λ+=1 iff n2∈span(n4,n6)，反之原严格正action下降并阻wholeE/全Λ同零。两分支未定，下一保原N0/Γ/真尾求三个固定F0收缩，仍不删Q2；R398已排F0/Q2全层同时自然零。C6按R196为hkω，原R333键标题已校正，无新根/秩执行。
 
 
-### 同m7已修正两个评估哈希域，16人工只复用
+### 同m7接口的实际结局已付，转冷评估与缓存机制
 
-[评估身份修复与16检查复用](notes/paid-attainer-objective-identity-repair-and-paid-check-reuse-20261115.md)：首失败047cef属field，正确objective SHA从原m7两网cache绑定读取，分别严核。四源精确更改、余149冻结；16人工/旧研究0重跑。首active.086260152+旧35.542398458累计，首prepare14.667315975与本次准备计初始化、总18.621493514另保。当前LP10/values14，仍唯一LP11/原SOC12/不m8；读公开修复run实际结果后继续open，不将未执行门称通过。
+[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：run43773136836两域身份精确同原、16人工0重跑；一次粗value205.448292651s在返回后触发120active，累计241.314203844/values15，J/model/LP/SOC/接受0。历史及本次prepare/init/总费用完整保留；原最佳点仍η.2662335561。不能因LP余2再启相同epoch，不能重复本次冷恢复。下一读取代码确定不可变基元缓存与真实值成本，设计原规则允许的同runner持续工作或真正新评估机制；理论继续F0原函数与全内部门。
 
 
 ### R399新的第二period内部通道已实际付至四点

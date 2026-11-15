@@ -449,3 +449,13 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:08:06 UTC｜[评估身份修复与16检查复用](notes/paid-attainer-objective-identity-repair-and-paid-check-reuse-20261115.md)与未支付接口修复请求
 
 5504B/hashd1d28a392ae18d75e02d32ad1b67cd544437dec78f278d53ce473909116237ba。原047cef为field SHA，完整objective SHA原m7两网cache已存，保原严格比较且独立核field，不放宽model/bank/guard/J/RHS绑定。首16人工全过仅原回执复用，当前源码不导入或调用developer_check。三Python+workflow四精确变更，余149/旧140冻结；各源元数据：frame_metric_paid_attainer_transfer.py 32502B/d82a20ade87a61b3a730e8dce35ff4635ca1f316786faa7a16361cf6d0c1d969；frame_metric_paid_attainer_resume.py 13749B/2a277347cbde315d6558dc404bb68d33f7e6c70b2452cb6d12fbf999d4920752；frame_metric_paid_attainer_audit.py 19510B/9273abcb3bc48e9194272d62003bea05ce6bdaabd28a5210530d8a136e1d2599；visible-paid-attainer-refinement.yml 4369B/6fab4561f09062c92dca5bdff3706bd13e102d964526689e385820f382bd88b5。request38587B/hashf79198de2d443175bb7491b6f042a3cca90b2bb39fc74a32dccd2df0929095b6，153绑定。首失败active/prepare/total累计并保原source账；公开run先actual pull/核规则/QUEUE，再仅未支付LP11/SOC12。根与tail静态接口核完，不预宣真实恢复成功；基底b5ee6143e79210ab6db86666e2b40f78cda48370。
+
+
+## 2026-11-15 23:20:42 UTC｜[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)，单次非抢占粗值耗尽时间余额
+
+7342B/hash038ce2f6fd8f7eea441532e176605e34d85cd9217a0dc74814fd488dd8888728；log535910B/hashcc813391bf5ad57537d9f6d7176d01ece44cbaec42f6e616e22746e18a34fb7c。16复用通过，两域恢复准确，唯一粗值205.448292651s，stage budget exit，J/model/LP/SOC/接受0，原10/12与best不变。累计active241.314203844/values15/init293.542781793，process224.820478542；不把120超限写成限内，不重启同epoch。公开actualpull23:08:36.058840→36.464683在403a2fcf430f0ed98b5731256befe36bb833eadf，双README空diff；私有23:08:38.980070→39.556525在88cebd4cb69050a8430a30df3fd63244c20b598d，根无差/题无/QUEUE进行中。H已记，下一≤11-16 00:08:36。基底e0e91382b122c82f1ec22b36ee3f5f3095e6f914。
+
+
+## 2026-11-15 23:20:42 UTC｜结论ref并发后立即实际rebase及规则核读
+
+23:15:55更新结论commit68fcf4067138ed54e751844bf59984cde2402697遇远端推进1c20f2633e7e48a1819c818d92628f155ea8511b。已立即请求纯规则actualpull，run43773912382/job132995698247：公开23:16:32.549409→32.727504在ff7d6a8f7f6e84a483fdc8c95d0f29a56dfce8d3，双README空diff；私有23:16:34.978009→35.568688在d8d9addd849d584456d2ee31ba8c289a75dc7390，根无差/题无/QUEUE进行中。根读双回执后重推同结论，未重跑任何科学/人工工作，下一≤11-16 00:16:32。
