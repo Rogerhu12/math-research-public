@@ -1,0 +1,51 @@
+{
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_small_core_resonance.py",
+    "--accepted",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+    "--prepared",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz",
+    "--tail-anchor",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz",
+    "--tail-config",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+    "--parameters",
+    "0.09307073916632971",
+    "-0.1321108634591744",
+    "-0.1241786723386648",
+    "--newton-steps",
+    "8",
+    "--backtracks",
+    "20",
+    "--candidate-resonance-tolerance",
+    "1e-08",
+    "--interval-bits",
+    "160",
+    "--interval-depth",
+    "14",
+    "--out",
+    "/home/runner/work/_temp/visible-small-core-resonance/smallcoreresonance/resonance"
+  ],
+  "parameters": {
+    "parameters": [
+      0.09307073916632971,
+      -0.1321108634591744,
+      -0.1241786723386648
+    ],
+    "newton_steps": 8,
+    "backtracks": 20,
+    "candidate_resonance_tolerance": 1e-08,
+    "interval_bits": 160,
+    "interval_depth": 14,
+    "original_mesh_nodes": 699,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "physical_angle_grid": 2048,
+    "material_and_boundary_angles": 4096,
+    "original_RHS_workers": 1
+  },
+  "one_original_diagnostic_invocation": true,
+  "native_solver_started": false
+}
