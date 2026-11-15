@@ -152,3 +152,5 @@
 - 2026-11-15 19:19:05 UTC，Astra-new-mechanism-9974ea84：完成即推root R354，25249B/SHA289562e0dde26720046b974693bd177badf9b16fb744e1ba07a837f2481708a5。完整反射/二次尾/Ψ与三F偶性、R37正ω连接/R70任意矩桥、NH0平移真实hook与M0夹心/Klein闭合均从原式纸证；先profiles后he/几何确保负域真合法。整R353全正弱圆+反射一次付PY1/WY0/WY2，现16矩，仅PY0/PY2。另13行和8行真实正锥供继续。mechanism交叉核正ω连接/真逆运输，literature独立指出整弱配对捷径；未执行科学或人工。明确新几何不继承旧pure/wholeE/其余联合约束。API核f4f6cd52e4a59fea9b9d6f365d783947e3d2a4fd双README同，继续两剩余矩及真成本。
 
 - 2026-11-15 19:23:42 UTC，Astra-new-mechanism-9974ea84：完成即推R355，20625B/SHA48bacdc5fe6fae2ae85b3737bc8be1ba4585844c14acd9a735c78abe74951736。literature原完整self/真实μ2尾/四阶排序与有限宽正锥由root全文纸核；§8.1更新为已发R354实际M13并区分原正域14矩和新偶分支16矩。API核f5cf8ab88a1e8acbfe7dcd809a0a8abfc06622db双README同；无科学/人工重跑，继续PY0/PY2。
+
+- 2026-11-15 19:24:30 UTC，Astra-new-mechanism-9974ea84：完成即推R356，11557B/SHA094ef642f22ac162bb154c041baacaa23c99a43f6bce830ccec67bd76c6e4eec。mechanism新最低两层全self证明，root复读原R203全文并核局部→真权、非零左尾和总配对。Σ最低层0，次层两个模板总Ω0，原π两层0故自然Λ0；不外推全U。API核6994dc1e463ca927a67f60e7f92f7c3f430f5c91双README同，继续H1/H2。

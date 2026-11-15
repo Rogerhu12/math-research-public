@@ -25,7 +25,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **扩池SOC实际**：[原结论](notes/expanded-pool-SOC-first-actual-result-20261115.md)43744903357/job132905938795/5fa2424，10新检查过，117/119依赖/原cfg及原9bank准确；7接受、9primary+3旧SOC，η.266366277975→.266347520761、fineκ57.999988521；原门/盒过，.26欠。新expanded生产0，下降非其效果。m3/m7细网新行、m2/6旧17guard，末bank11/B1/8000/streak0；完整费用/首fixture只读失败保原件，不重。
 
-**m10扩池SOC首实际成功**：[完整结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)43750302276/job132922557741/sourceb2d9ce66。新正向1过/负1+旧17只读复用；same-y与xrebind新普通值均0，原117/123绑定/cfg/14门/9bank/IDs72480,144960/池5,8同。8193×159扩池J、唯一SOC原RHS/残差0，η历史x .266368003937→z .266365153176，fineκ57.9999833915；z两网末验原硬/旧metric/盒过、.26欠。新6+末2值=8，11历史primary+新1SOC=12，active40.444156s/过程286.264738s。原hold false/nextB1/16000/streak0，y学习1/1保留、z0/0，expanded ratio.937958不冒same-layout hold。原三失败详录保。历史z不是主线best，下一基于新布局绑定研究独立hold政策及真主线后继，不重m10。
+**m10扩池SOC首成功**：[完整结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66，新正向1过/负1+旧17只读复用。same-y/xrebind普通值0，原117/123绑定/cfg/14门/9bank、学习IDs72480/144960真保。8193×159新J/唯一SOC原RHS残差0，历史ηx .266368003937→z .266365153176，fineκ57.9999833915，原硬/metric/盒过、.26欠；8新总值、11历史primary+新1SOC、active40.444156s/过程286.264738s。旧hold仍false/nextB1/16000/streak0，y学1/1、z0/0、扩池ratio.937958不冒同布局guard。三失败原件保。z差于主线best；后继研究独立覆盖后保径，直接主线11bank续，不重m10。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -37,7 +37,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→selfσ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323 −8 self0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 
-**全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/C∞端germ与双collar；p简单零可二阶极点、六矩核。同w两period/ruling及45span/48×135只是iff。R335真尾5Ω−16Lπ=4C_tail不可删。**R344全R**（含全Z）：有序8Γ=q_J、h_J=3C，三右bump矩匹配给Ω=16Lπ/5+(32/15)Σc∫u‴Γπ，R∩kerπ总Ω0。**R352全U新桥**：原二阶左尾T_n由p_n=[(1+d²)n0+2hdn1+h²n2]/8h及真∫(K0p−λp_s)决定；rawpure有序2+2=−2K(Zu,Tn)−4K(Yu,RangeH(Yu,Tn))。Γ严格线性于右包真三矩，整个输出不依赖辅助方案；自然Λ_u∈(U/R)*、五次profile、Λ(NV)=−D_uΛ[u′]，不是全U零/非零值结论。R342 C7固定族零仅限该族。**R350**原三个Abar_hh/hk/kk全状态Λ0：a′=Qlu‴/(8h³)，原qq″伙伴β完整保，ΩΠ=5Ωself+2a_Lj_L/h²；2+2收缩−3a_L(v)j_L(u)/h²与真三矩尾抵消。原R134成员/跨度保；H1/H2/静态/速度2/4/N0/N2仍欠。
+**全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/C∞端germ与双collar；p简单零可二阶极点、六矩核。同w两period/ruling及45span/48×135只是iff。R335真尾5Ω−16Lπ=4C_tail不可删。**R344全R**（含全Z）：有序8Γ=q_J、h_J=3C，三右bump矩匹配给Ω=16Lπ/5+(32/15)Σc∫u‴Γπ，R∩kerπ总Ω0。**R352全U新桥**：原二阶左尾T_n由p_n=[(1+d²)n0+2hdn1+h²n2]/8h及真∫(K0p−λp_s)决定；rawpure有序2+2=−2K(Zu,Tn)−4K(Yu,RangeH(Yu,Tn))。Γ严格线性于右包真三矩，整个输出不依赖辅助方案；自然Λ_u∈(U/R)*、五次profile、Λ(NV)=−D_uΛ[u′]，不是全U零/非零值结论。R342 C7固定族零仅限该族。**R350**原三个Abar_hh/hk/kk全状态Λ0：a′=Qlu‴/(8h³)，原qq″伙伴β完整保，ΩΠ=5Ωself+2a_Lj_L/h²；2+2收缩−3a_L(v)j_L(u)/h²与真三矩尾抵消。原R134成员/跨度保。**R356全U最低两层**：从R203原动态恢复保b′=C/真实端势，Σ(U−9)=0，Σ(U−8)⊂span{TR,r4}，TR=4J²(r²r′²)−4J(vrr′²)−r4保非零仿射左尾；外u‴配对逐项IBP零。R203真权/faithful桥和π两层0给自然Λ(U−9+U−8)=0，非U−8=R。H1/H2及其余正规层仍欠。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -53,5 +53,3 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
-
-断连API复核main 5abcb9ccfba85d6a708b1df94e6383ff549f72a7，双README blob同。API读取不冒实际pull。

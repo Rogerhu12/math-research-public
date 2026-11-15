@@ -157,6 +157,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R350](results/R350-total-flux-factorization-for-the-three-actual-acceleration-square-costs.md)已付原R134三个Abar_hh/hk/kk所有状态值及实际跨度Λ0：原a′、第三accel及qq″正规化β全保，ΩΠ=5Ωself+2a_Lj_L/h²，真实有序2+2收缩−3a_L(v)j_L(u)/h²、a_L原三矩线性，所以尾准确抵消。下一H1/H2、静态、速度二/四次全normal密度（含N0/N2响应），利用R352同一明确读出逐层算值；任意形式模板未证属于U前不冒可调真实成本。逐包平台、更多Af、整period与13同规范仍欠。
 
 
+[R356](results/R356-lowest-two-full-self-weights-and-universal-total-flux-cancellation.md)完整消费R203动态双线性层：保二阶history b′=C及b两端0，最低Σ(U−9)=0；次层全函数Σ(U−8)只落TR与r4跨度，动态项−r4∫fC²不删，TR真实左仿射尾非零但与u‴总配对零。经原有限仿射Volterra/faithful与c多项式桥转真权，π两层0使自然Λ也零。未宣两模板都可达、U−8=R或全U总Λ零，继续H1/H2和−6等层。
+
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
 
 [R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。

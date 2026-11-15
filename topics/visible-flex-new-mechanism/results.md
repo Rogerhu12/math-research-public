@@ -410,3 +410,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R355：真实四阶排序与四个有限正宽支付完整WY第二外矩
 
 [完整证明](results/R355-real-fourth-center-moments-and-finite-widths-pay-the-positive-minus-two-second-moment.md)，2026-11-15，20625B/SHA256 48bacdc5fe6fae2ae85b3737bc8be1ba4585844c14acd9a735c78abe74951736。原nonlegal self S_RY2=2S_LY1−S_UY1、S_SY2=−S_UY1−μ2²/4，真I2 Green零但内部ordered尾保留；完整D2沿hα/local δ³与h1/ordered δ，C1由已付真实母族逐列IFT准确消去。真实finite等差点第四矩差ρ0负/20正，copy方差local抵消但尾3VcpU01保；四正宽给两方向正锥。用真实旧库与三角dilation同时补全部费用，Ψ S−2；原全正分支13→14外矩，接R354实际M13亦得15行接口。与R354新几何偶圆16矩不混计；完整第四/同规范联合门欠。root全文核原Green、Q2化简、ζ严格号、有限正核及尺度次序，无新运行。
+
+## R356：完整U最低两个self真权与自然总通量判定
+
+[完整证明](results/R356-lowest-two-full-self-weights-and-universal-total-flux-cancellation.md)，2026-11-15，11557B/SHA256 094ef642f22ac162bb154c041baacaa23c99a43f6bce830ccec67bd76c6e4eec。从R203原动态公式及同锚history得到Σ(U−9)=0、Σ(U−8)⊂span{TR,r4}；动态−r4∫fC²与静态P(A,R)−R(A,A)、P(A,S)−S(A,A)全保。TR=4J²(r²r′²)−4J(vrr′²)−r4含真实非零仿射左尾，外u‴分部积分准确相消；固定合法局部c到真权的有限多项式/faithful桥逐项说明。故Ω与R352自然Λ均在这两全U权上为零。未宣模板可达/全mixed零/等于响应像/其余层值。root全文读R356及R203并手核动态规范端值、静态模板、IBP与真权桥，无科学/人工重跑。
