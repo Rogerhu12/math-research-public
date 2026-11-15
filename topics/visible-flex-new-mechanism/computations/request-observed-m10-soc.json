@@ -275,7 +275,7 @@
     "old_primary_optimization_calls": 0,
     "old_optimizer_calls": 0,
     "old_completed_development_executions": 0,
-    "new_development_scope": "two new cache-only array groups: real inherited full_views/capture after same-y restore and charged-miss rejection; no geometry/LP",
+    "new_development_scope": "only unfinished positive cache group runs; paid charged-miss, old7 and old10 read-only proof reuse",
     "complete_source_configuration_preserved": true,
     "historical_binding": "replay old two-factory hash using current strict scalar-J hash and saved original observable bindings; keep original and current signatures separately",
     "permitted_selected_observable_differences": [
@@ -314,7 +314,10 @@
     "cache_restore_miss_policy": "record actual charge and stop under original eight-value bound; no budget enlargement",
     "repair_scope": "new m10 driver lifecycle only; frozen117, old7DEV, all scientific gates and SOC math unchanged",
     "cache_development_entry": "frame_metric_observed_m10_cache_development.developer_check",
-    "scientific_failure_note": "topics/visible-flex-new-mechanism/notes/observed-m10-post-learning-capture-failure-20261115.md"
+    "scientific_failure_note": "topics/visible-flex-new-mechanism/notes/observed-m10-post-learning-capture-failure-20261115.md",
+    "old_charged_miss_executions": 0,
+    "new_positive_cache_executions": 1,
+    "positive_fixture_only_change": "override row_tolerances with its eleven group values [:,0,0]; unchanged _fixture and _charged_restore_rejected source"
   },
   "publication_policy": "Only source, parameters, run identity, hashes and human conclusions in Git; no temporary report/checkpoint payload, artifact or Release.",
   "completion_claim": "Either no original positive rebound gain, SOC rejects, or one corrected z is accepted/rejected under the original two full-grid gates; x or z is independently rechecked. No feasibility or progress is assumed from job success.",
@@ -442,10 +445,10 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_expanded_pool_soc_development.py": "1bc4fbee6c7212d1d5e3a67efecab69f8bab92ee7fe37d00294710b3fe653a66",
     ".github/workflows/visible-expanded-pool-soc.yml": "0d01f6dc3c54fe1a8763f8a925903c050930a28d84d8976445a9cf1bdfa5a8b2",
     "topics/visible-flex-new-mechanism/computations/request-norm-memory-transfer.json": "de25f342cd79b3f37e058052c5ff126d191a7d4a9f3cecae6aca9829858016a8",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_soc_audit.py": "cd76846bf5dbab2322142b99eacb87f93fa6c73351abdb8747a1a534b3c8dec2",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_soc_audit.py": "91d3112d1ce4cb132ac43353af9613940f8c5ddb5ae6cbf972053a85529914be",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_soc_development.py": "918702d5f6a6a25014fe2f0bc8235a60fafa38bc8c87d8c1bb8dbb3d6fdea5ca",
     ".github/workflows/visible-observed-m10-soc.yml": "97bb49675db6d7bf5c4d09d3b5c39a16b01bf47d2c9b29dc4ea715b605ad7f92",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_cache_development.py": "bd96a010ae4f3bb9de305fbff891d8553312b80f7b3cc68b5d318400aa53f0bc"
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_observed_m10_cache_development.py": "dc8335cb27794b872f39a2343f7c060b6c2dc35fbc199d2825edab007876fdbf"
   },
   "historical_m10": {
     "source_model": 10,
@@ -640,5 +643,26 @@
       "check_decisions"
     ],
     "original_driver_read_as_text_only_no_execution": true
+  },
+  "reuse_completed_cache_miss": {
+    "run_id": "43749820822",
+    "job_id": "132921093515",
+    "source_commit": "dc282749384a4416e89d2f544a139779983dbec0",
+    "log_bytes": 111755,
+    "log_sha256": "013f188cf8ec7edc50e0f05972af76a72e54032edc7870e3248342bceef1f100",
+    "development_bytes": 16752,
+    "development_sha256": "1855b83bae6649a8f552e8c772ca67e3ce638a07817d5e4fd2ece20b31b06c4b",
+    "original_partial_DEV_passed": false,
+    "only_completed_negative_group_reused": true,
+    "sources": {
+      "frame_metric_observed_m10_soc_audit.py": {
+        "bytes": 63144,
+        "sha256": "cd76846bf5dbab2322142b99eacb87f93fa6c73351abdb8747a1a534b3c8dec2"
+      },
+      "frame_metric_observed_m10_cache_development.py": {
+        "bytes": 10590,
+        "sha256": "bd96a010ae4f3bb9de305fbff891d8553312b80f7b3cc68b5d318400aa53f0bc"
+      }
+    }
   }
 }

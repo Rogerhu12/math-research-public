@@ -245,3 +245,21 @@ request沿 source1f794 的已修 sparse workflow，SHA256 97bb49675db6d7bf5c4d09
 CLI、98原read-only prepare参数、原24输入、initialbank、cfg、10sSOC、120active、八新值/总40值、唯一新SOC、零primary均不变。新日志只增加/替换开发标签为 M10_SOC_PRIOR_EXTRACTION_REUSED 与 M10_SOC_CACHE_DEVELOPMENT，其余M10_SOC_标签原样。workflow没有要求旧开发tag，故无需为这些标签改编排。
 
 本次未执行新源码或人工；仅已存输出消费、源文本和行政SHA/diff。root独占下一公开提交与运行。若新科学再次失败仍保准确阶段，不以开发通过代替SOC完成。
+
+## 12. 新缓存人工的正向容差接口修正（生产源不变）
+
+run43749820822 / job132921093515 / sourcedc282749384a4416e89d2f544a139779983dbec0 已完成：旧10+7复用全过；新增两组中收费拒绝组通过，正向full_views组因fixture容差形状错误失败。科学prepare尚未开始，ordinary/J/LP/SOC均0。原log111755B/SHA013f188cf8ec7edc50e0f05972af76a72e54032edc7870e3248342bceef1f100；原CACHE_DEV JSON+LF16752B/SHA1855b83bae6649a8f552e8c772ca67e3ce638a07817d5e4fd2ece20b31b06c4b。准确失败范围见 observed-m10-cache-fixture-tolerance-failure-20261115.md。
+
+原人工数据的FullGridValues已把tolerances展开为coarse整阵列；同一row_tolerances方法给fine网时应返回11组向量。因此仅在正向 _restore_and_capture 内覆盖为原容差[:,0,0]复制的11向量。原_fixture、原_charged_restore_rejected、生产restore_failed_y_layout、所有科学主流程逐字不变。
+
+已付负组不重复执行。driver新开发编排只读该failure job的partialDEV：它必须仍明确整体failed且成功负组true；不将整partialDEV冒成all_passed。原source/log/payload/SHA及未变118依赖均核，原driver和cache源码仅文本读取；对_fixture、_charged_restore_rejected及restore_failed_y_layout三处完整AST函数原文核同。输出M10_SOC_CACHE_NEGATIVE_REUSED。原七/十proof仍沿用。
+
+随后 developer_check(reused_charged_miss) 只执行未完成的正向组，整体结果明确由“成功负组复用+新正向实际”组成。old_charged_miss_executions=0，new_positive_cache_executions=1。这不是新增第三测试、额外科学gate或预算；负组全部调用闭包未变。
+
+| 最新文件 | UTF8 bytes | SHA256 |
+|---|---:|---|
+| scripts/frame_metric_observed_m10_soc_audit.py | 67762 | 91d3112d1ce4cb132ac43353af9613940f8c5ddb5ae6cbf972053a85529914be |
+| scripts/frame_metric_observed_m10_cache_development.py | 11564 | dc8335cb27794b872f39a2343f7c060b6c2dc35fbc199d2825edab007876fdbf |
+
+本节源码只是待公开首次完成正向接口的冻结文本，没有新passed或scientific成功。request仍123绑定，现workflow97bb4967不改；只两新源SHA与成功负组复用参数及准确scope更新。原117、old7源、sourcecfg、原全部inputs/98参数、bank、40值/八新值、120active、唯一SOC10秒保持。
+

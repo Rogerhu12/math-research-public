@@ -122,6 +122,11 @@ def _capture(fixture):
 def _restore_and_capture():
     fixture = _fixture()
     objective, primary, x, y, versions, binding, trial, cfg = fixture
+    # The real full_views asks for eleven group tolerances on either grid.
+    # artificial_arrays has already broadcast this field to its coarse shape.
+    # Correct only this positive fixture; the paid charged-miss closure is unchanged.
+    group_tolerances = np.asarray(objective.row_tolerances(), float)[:, 0, 0].copy()
+    objective.row_tolerances = lambda: group_tolerances
     original = {"trial": copy.deepcopy(trial), "cfg": copy.deepcopy(cfg),
                 "binding": copy.deepcopy(binding),
                 "ids": [array_digest(objective.pool), array_digest(objective.fine_pool)],
@@ -184,14 +189,20 @@ def _charged_restore_rejected():
             "deliberate_array_counter_increment_is_not_a_real_geometry_call": True}
 
 
-def developer_check():
+def developer_check(reused_charged_miss):
     started = time.monotonic()
-    checks, details, errors = {}, {}, {}
+    name_paid = "charged_cache_miss_is_reported_and_rejected_before_capture_not_declared_zero"
+    if not (reused_charged_miss.get("passed") is True and
+            reused_charged_miss.get("original_check_name") == name_paid and
+            reused_charged_miss.get("original_detail", {}).get("passed") is True):
+        raise ValueError("verified original charged-miss check required; it is not rerun")
+    checks = {name_paid: True}
+    details = {name_paid: {"executed_this_run": False,
+                          "original_completed_evidence": reused_charged_miss}}
+    errors = {}
     for name, operation in (
         ("post_learning_cache_reinstall_allows_real_full_views_and_same_y_capture_without_new_values",
-         _restore_and_capture),
-        ("charged_cache_miss_is_reported_and_rejected_before_capture_not_declared_zero",
-         _charged_restore_rejected)):
+         _restore_and_capture),):
         try:
             detail = operation()
             if detail["passed"] is not True:
@@ -209,6 +220,8 @@ def developer_check():
         "source_defined_artificial_arrays_not_original_research_input": True,
         "geometry_calls": 0, "primary_LP_calls": 0, "SOC_LP_calls": 0,
         "old_expanded_ten_executions": 0, "old_m10_seven_executions": 0,
+        "old_charged_miss_executions": 0, "new_positive_cache_executions": 1,
+        "all_passed_combines_reused_negative_and_new_positive_evidence": True,
         "no_original_suite_or_optimizer_called": True,
         "elapsed_seconds": time.monotonic()-started,
         "peak_rss_kib_linux": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}

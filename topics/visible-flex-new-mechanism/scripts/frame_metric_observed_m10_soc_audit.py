@@ -476,6 +476,79 @@ def reuse_completed_m10_checks(request):
         "redirects_without_authorization": redirects}
 
 
+def reuse_completed_cache_miss_check(request):
+    """Reuse the one successful group from the partial cache DEV, not its failure."""
+    original = request["reuse_completed_cache_miss"]
+    name_paid = "charged_cache_miss_is_reported_and_rejected_before_capture_not_declared_zero"
+    api = reader.GitHubReader(REPO)
+    run = api.api_json("/actions/runs/"+str(original["run_id"]))
+    job = api.api_json("/actions/jobs/"+str(original["job_id"]))
+    require(run["head_sha"] == job["head_sha"] == original["source_commit"] and
+            int(job["run_id"]) == int(run["id"]) and
+            run["status"] == job["status"] == "completed" and
+            run["conclusion"] == job["conclusion"] == "failure",
+            "original partial cache DEV run/job/source differs")
+    raw, redirects = api.job_log(str(original["job_id"]))
+    require(len(raw) == original["log_bytes"] and reader.digest(raw) == original["log_sha256"],
+            "original partial cache DEV log differs")
+    records = []
+    marker = "M10_SOC_CACHE_DEVELOPMENT "
+    for line in raw.decode("utf-8").splitlines():
+        if marker in line:
+            payload = line.split(marker, 1)[1]
+            records.append(((payload+"\n").encode("utf-8"), json.loads(payload)))
+    require(len(records) == 1, "unique original partial cache DEV required")
+    payload, result = records[0]
+    require(len(payload) == original["development_bytes"] and
+            reader.digest(payload) == original["development_sha256"] and
+            result["passed"] is False and result["all_passed"] is False and
+            len(result["checks"]) == 2 and result["checks"].get(name_paid) is True and
+            name_paid not in result["errors"] and
+            result["details"][name_paid]["passed"] is True and
+            result["geometry_calls"] == result["primary_LP_calls"] == result["SOC_LP_calls"] == 0,
+            "charged-miss group was not actually paid in the partial DEV")
+    current = implementation_hashes()
+    driver_name = Path(__file__).name
+    cache_name = "frame_metric_observed_m10_cache_development.py"
+    previous = result["source_files_sha256"]
+    require(len(previous) == len(current) == 120 and
+            {k: v for k, v in current.items() if k not in (driver_name, cache_name)} ==
+            {k: v for k, v in previous.items() if k not in (driver_name, cache_name)},
+            "a dependency of the paid charged-miss closure changed")
+    unchanged = {}
+    for filename, names in (
+            (driver_name, ("restore_failed_y_layout",)),
+            (cache_name, ("_fixture", "_charged_restore_rejected"))):
+        data = api.api_json("/contents/topics/visible-flex-new-mechanism/scripts/"+
+                            filename+"?ref="+original["source_commit"])
+        require(data.get("encoding") == "base64", "original small source encoding differs")
+        source_raw = base64.b64decode(data["content"])
+        expected = original["sources"][filename]
+        require(len(source_raw) == expected["bytes"] and
+                reader.digest(source_raw) == expected["sha256"] == previous[filename],
+                "source of the paid charged-miss group differs")
+        sources = (source_raw.decode("utf-8"),
+                   Path(__file__).with_name(filename).read_text(encoding="utf-8"))
+        trees = [ast.parse(s) for s in sources]
+        for name in names:
+            nodes = [[n for n in t.body if isinstance(n, ast.FunctionDef) and n.name == name]
+                     for t in trees]
+            require(all(len(v) == 1 for v in nodes), "paid cache closure must be uniquely defined")
+            pieces = [ast.get_source_segment(s, ns[0]) for s, ns in zip(sources, nodes)]
+            require(isinstance(pieces[0], str) and pieces[0] == pieces[1],
+                    "paid charged-miss closure source changed: "+name)
+            unchanged[filename+":"+name] = reader.digest(pieces[0].encode("utf-8"))
+    return {"passed": True, "original_check_name": name_paid,
+        "original_run_id": original["run_id"], "original_job_id": original["job_id"],
+        "original_source_commit": original["source_commit"],
+        "original_whole_cache_DEV_passed": False,
+        "original_detail": copy.deepcopy(result["details"][name_paid]),
+        "original_development_payload_sha256": reader.digest(payload),
+        "unchanged_charged_miss_closure_sha256": unchanged,
+        "charged_miss_executions_this_run": 0,
+        "redirects_without_authorization": redirects}
+
+
 def compact_report(report):
     result = {k: copy.deepcopy(v) for k, v in report.items()
               if k not in ("exact_input_storage", STAGE)}
@@ -1015,8 +1088,10 @@ def main():
     emit("M10_SOC_PRIOR_CHECKS_REUSED", reused)
     reused_seven = reuse_completed_m10_checks(request)
     emit("M10_SOC_PRIOR_EXTRACTION_REUSED", reused_seven)
+    reused_negative = reuse_completed_cache_miss_check(request)
+    emit("M10_SOC_CACHE_NEGATIVE_REUSED", reused_negative)
     import frame_metric_observed_m10_cache_development as development
-    check = development.developer_check()
+    check = development.developer_check(reused_negative)
     check["source_files_sha256"] = implementation_hashes()
     emit("M10_SOC_CACHE_DEVELOPMENT", check)
     require(check.get("passed") is True and check.get("all_passed") is True,
