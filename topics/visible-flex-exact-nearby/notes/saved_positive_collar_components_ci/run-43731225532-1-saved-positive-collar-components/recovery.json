@@ -1,0 +1,166 @@
+{
+  "kind": "public_saved_positive_collar_components_lossless_publication_recovery_v1",
+  "complete": true,
+  "recovery_scope": "Only recover and reformat the already completed public result. No scientific child, original computation, new scalar evaluation, workflow dispatch, or rerun is performed.",
+  "repository": "Rogerhu12/math-research-public",
+  "run": {
+    "id": 43731225532,
+    "attempt": 1,
+    "event": "push",
+    "workflow_path": ".github/workflows/visible-exact-saved-collar-components.yml",
+    "head_sha": "003e6ee56848a4b6a948af56b0e3ac4f768d467f",
+    "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43731225532",
+    "created_at": "2026-11-15T15:40:51Z",
+    "started_at": "2026-11-15T15:40:51Z",
+    "updated_at": "2026-11-15T15:41:36Z",
+    "status": "completed",
+    "conclusion": "failure"
+  },
+  "job": {
+    "id": 132863865114,
+    "name": "saved-collar-components",
+    "status": "completed",
+    "conclusion": "failure",
+    "started_at": "2026-11-15T15:40:54Z",
+    "completed_at": "2026-11-15T15:41:36Z",
+    "url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43731225532/job/132863865114"
+  },
+  "scientific_child": {
+    "label": "saved_positive_collar_components",
+    "command": [
+      "/usr/local/bin/python",
+      "-u",
+      "/__w/_temp/visible-exact-saved-collar-components/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+      "--root",
+      "/__w/_temp/visible-exact-saved-collar-components/immutable-science",
+      "--manifest",
+      "/__w/_temp/visible-exact-saved-collar-components/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-saved-collar-component-coercivity-CI-inputs.json",
+      "--bits",
+      "320",
+      "--out",
+      "/__w/_temp/visible-exact-saved-collar-components/actual-saved-positive-collar-components.json"
+    ],
+    "started_utc": "2026-11-15T15:41:30.495107+00:00",
+    "actual_returncode": 0,
+    "finished_utc": "2026-11-15T15:41:32.495758+00:00",
+    "actual_wall_seconds": 2.0006586379999973,
+    "temporary_log_bytes": 395,
+    "temporary_log_sha256": "8936d479f6f9424d6cbe19db001ad6b634f63716c2e80c74fda549de95560d0b"
+  },
+  "scientific_source_sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
+  "worker_source_sha256": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
+  "input_manifest_sha256": "3a172b9e41587c50bd8f3112b3ef98b0c33a736a75b1204e2d627ef82767766c",
+  "original_PREPUBLICATION_STATUS": {
+    "actual_returncode": 0,
+    "complete": true,
+    "failure": null,
+    "gates_passed": 16,
+    "gates_total": 16,
+    "kind": "saved_positive_collar_prepublication_status_v1",
+    "payload_bytes": 66478,
+    "payload_sha256": "0c454a9c0d0b5934da65aff6523a67a79f17d4ff0bec4c8c854f4a2a1cf89076",
+    "scientific_bytes": 74725,
+    "scientific_sha256": "903a537a0454464e8c30ff57034b2811d1c43ad47a18979f5a7d8403c888b981"
+  },
+  "failure_preserved": {
+    "type": "ValueError",
+    "message": "the complete scientific stdout receipt exceeds 59000 UTF8 bytes"
+  },
+  "before_math_git_checkpoint": {
+    "commit": "77d36e856179e7e2fdcd22d9a12ccc9d7654c3b0",
+    "path": "notes/saved_positive_collar_components_ci/run-43731225532-1-saved-positive-collar-components/process.json",
+    "blob": "76b223cdd05d73f956ad9de4fbb7546e72f3ab36",
+    "bytes": 11141,
+    "sha256": "3abed9c9bd23e57e78edcb81893ee73b51830430440e84ea40a2d472c073d432",
+    "is_final_scientific_result": false
+  },
+  "recovery_source": {
+    "provider": "GitHub Actions decoded full job log",
+    "job_id": 132863865114,
+    "bytes": 184780,
+    "sha256": "1cb44531b0654e0fb5b9667b0b04c168c95c64fd14fe579689dd0f507d362a2d",
+    "timing_prefix_removed": "Each ISO8601 GitHub per-line prefix was removed once. No other characters inside either printed JSON object were changed.",
+    "scientific_JSON_start": "{\\n  \"kind\": \"actual_saved_positive_collar_components_and_high_coercivity_v1\"",
+    "final_process_JSON_start": "{\\n  \"kind\": \"actual_public_saved_positive_collar_components_process_v1\""
+  },
+  "original_scientific_pretty": {
+    "bytes": 74725,
+    "sha256": "903a537a0454464e8c30ff57034b2811d1c43ad47a18979f5a7d8403c888b981"
+  },
+  "lossless_compaction": {
+    "method": "Remove only whitespace outside JSON string literals; preserve all field names, order, values, arrays, directed ball strings, escapes, and numeric tokens; append one final newline.",
+    "fields_removed": 0,
+    "scientific_values_changed": 0,
+    "whole_JSON_semantic_equality_verified": true,
+    "indent2_round_trip_recovers_original_bytes_and_sha256": true,
+    "compact_complete_science": {
+      "path": "notes/saved_positive_collar_components_ci/run-43731225532-1-saved-positive-collar-components/actual-saved-positive-collar-components.json",
+      "blob": "35240143c186415e71d07d15a833bf29fe3f3f97",
+      "bytes": 55770,
+      "sha256": "44b4da07b50dcca9be7671b8cb59b227999e76871237c25a1bc0aec4bc02492c"
+    }
+  },
+  "complete_final_process": {
+    "path": "notes/saved_positive_collar_components_ci/run-43731225532-1-saved-positive-collar-components/process.json",
+    "blob": "380b6658414cf1d3fcfff0fa215e6ff7720e7d57",
+    "bytes": 15189,
+    "sha256": "a15e9b16d6867d0f69a85d9549ad66953f70b444e7d9462ec45281aadf84cb58"
+  },
+  "complete_original_actual_report": {
+    "path": "notes/saved_positive_collar_components_ci/run-43731225532-1-saved-positive-collar-components/actual-result.md",
+    "blob": "4fe52b2102464ec7af7fcdb1afa47e7a88794c10",
+    "bytes": 9748,
+    "sha256": "9baa3c82de3c24f4c4c094f8c54ceb5b2876c0e2cfe12c9ad62c9471c0a8db29"
+  },
+  "complete_payload_reconstruction": {
+    "method": "Reapply only the immutable worker's actual_report and sorted compact JSON formatting to the recovered science and printed identity fields.",
+    "bytes": 66478,
+    "sha256": "0c454a9c0d0b5934da65aff6523a67a79f17d4ff0bec4c8c854f4a2a1cf89076",
+    "matches_PREPUBLICATION_STATUS_bytes_and_sha256": true,
+    "stored_as_one_oversize_file": false
+  },
+  "integrity_summary": {
+    "scientific_returncode": 0,
+    "scientific_complete": true,
+    "structural_gates_passed": 16,
+    "structural_gates_total": 16,
+    "rho_cases": 6,
+    "coercivity_candidates": 12,
+    "coercivity_candidates_passed": 12,
+    "energy_tests_per_candidate": [
+      "tau_below_one",
+      "t_below_one"
+    ],
+    "negative_mean_sign_is_an_additional_candidate_prerequisite": true,
+    "complete_original_saved_rows": 4650,
+    "selected_original_closed_rows": 140,
+    "exact_interval": [
+      "17/20",
+      "19/20"
+    ],
+    "exact_measure": "1/10",
+    "all_original_input_hashes_and_readme_checks_retained_in_final_process": true
+  },
+  "storage": {
+    "all_recovered_public_files_are_complete_small_conclusions_under_60000_bytes": true,
+    "raw_native_inputs_persisted": false,
+    "new_audit_persisted": false,
+    "oversize_pretty_science_persisted": false,
+    "full_job_log_duplicated_in_repository": false,
+    "original_successful_mathematics_repeated": false
+  },
+  "scientific_limits": {
+    "same_real_two_sided_true_H1_solution_only": true,
+    "ordinary_residual_zero_is_a_hypothesis_not_a_new_existence_conclusion": true,
+    "actual_principal_speed_not_an_intrinsic_radial_coordinate": true,
+    "full_mean_and_centre_repair_canonical_response_offset_retained": true,
+    "original_fields_already_contain_physical_alpha": true,
+    "known_A0_primitive_one_quarter_and_unknown_C0_pi_over_eight_are_separate": true,
+    "high_rank_mean_output_removed_only_after_exact_projection": true,
+    "all_low_input_means_and_true_cutoff_sources_retained": true,
+    "old_NR_WC_sources_and_MA_records_unchanged": true,
+    "narrow_MA_domain_extended": false,
+    "source_integrals_or_active_Green_arrays_used": false,
+    "new_physical_cut_entry_or_low_selfmap_claimed": false
+  }
+}

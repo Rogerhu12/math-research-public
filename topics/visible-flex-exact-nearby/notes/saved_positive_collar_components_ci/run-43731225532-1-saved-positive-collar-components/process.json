@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_saved_positive_collar_components_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43731225532",
   "run_attempt": "1",
@@ -9,7 +9,30 @@
   "worker_source_sha256": "02bc473c3e87105fd8484e603cffa18bc9f160b4becf3501323f7b3e24b0aeeb",
   "actual_source_sha256": "02fc50c45ed2610b94619d9db60ee2f74dc3a1643ce2f398c8eb25505926f7ea",
   "input_manifest_sha256": "3a172b9e41587c50bd8f3112b3ef98b0c33a736a75b1204e2d627ef82767766c",
-  "children": [],
+  "children": [
+    {
+      "label": "saved_positive_collar_components",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-saved-collar-components/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_saved_collar_component_coercivity.py",
+        "--root",
+        "/__w/_temp/visible-exact-saved-collar-components/immutable-science",
+        "--manifest",
+        "/__w/_temp/visible-exact-saved-collar-components/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-saved-collar-component-coercivity-CI-inputs.json",
+        "--bits",
+        "320",
+        "--out",
+        "/__w/_temp/visible-exact-saved-collar-components/actual-saved-positive-collar-components.json"
+      ],
+      "started_utc": "2026-11-15T15:41:30.495107+00:00",
+      "actual_returncode": 0,
+      "finished_utc": "2026-11-15T15:41:32.495758+00:00",
+      "actual_wall_seconds": 2.0006586379999973,
+      "temporary_log_bytes": 395,
+      "temporary_log_sha256": "8936d479f6f9424d6cbe19db001ad6b634f63716c2e80c74fda549de95560d0b"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T15:41:20.919886+00:00",
@@ -36,7 +59,13 @@
       "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "utc": "2026-11-15T15:41:30.491433+00:00",
+      "commit": "77d36e856179e7e2fdcd22d9a12ccc9d7654c3b0",
+      "final": false
+    }
+  ],
   "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
   "original_recomputable_inputs_only_in_temporary_storage": true,
   "new_recomputable_data_persisted": false,
@@ -209,8 +238,8 @@
     "old_target_Fourier_trial_convolution_residual_repair_mean_flow_Green_calls": 0
   },
   "immutable_scientific_copy": "/__w/_temp/visible-exact-saved-collar-components/immutable-science",
-  "snapshot_utc": "2026-11-15T15:41:27.312623+00:00",
-  "wall_seconds": 6.756811205999995,
+  "snapshot_utc": "2026-11-15T15:41:32.500251+00:00",
+  "wall_seconds": 11.944436183,
   "published_topic_capacity_metadata": {
     "method": "published_origin_main_Git_Trees_API_metadata_only",
     "commit": "77c7d8f0179d656a45cffb87f2df49f24d273220",
@@ -252,5 +281,88 @@
   "publication_is_final_attempt": false,
   "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
   "pre_math_topic_bytes_with_reserve_upper": 198648483,
-  "projected_topic_bytes_upper": 198528483
+  "projected_topic_bytes_upper": 198528483,
+  "actual_scientific_summary_sha256": "903a537a0454464e8c30ff57034b2811d1c43ad47a18979f5a7d8403c888b981",
+  "actual_scientific_summary_bytes": 74725,
+  "actual_rho_case_count": 6,
+  "actual_coercivity_candidate_count": 12,
+  "actual_coercivity_candidate_pass_count": 12,
+  "two_energy_tests_per_candidate": [
+    "tau_below_one",
+    "t_below_one"
+  ],
+  "core_existence_or_low_gamma_selfmap_claimed": false,
+  "narrow_MA_domain_extended": false,
+  "actual_scientific_gates": [
+    {
+      "name": "the exact new directed precision parameters and scientific source are immutable",
+      "passed": true
+    },
+    {
+      "name": "every original and small current input byte hash matches the independent manifest",
+      "passed": true
+    },
+    {
+      "name": "the original4650 native and its four exact natural parts are fixed",
+      "passed": true
+    },
+    {
+      "name": "the complete old source candidate intrinsic family and physical amplitude are unchanged",
+      "passed": true
+    },
+    {
+      "name": "all4650 original closed rows cover their exact full positive interval",
+      "passed": true
+    },
+    {
+      "name": "every selected saved row keeps the complete physical fields mean primitive and true germ",
+      "passed": true
+    },
+    {
+      "name": "the new true intersections cover exactly17over20_to19over20 and contain the actual cut",
+      "passed": true
+    },
+    {
+      "name": "the existing D receipt is the original completed child0 twelvegate calculation",
+      "passed": true
+    },
+    {
+      "name": "the two genuine intrinsic logarithmic derivative bounds have exactly the same collar",
+      "passed": true
+    },
+    {
+      "name": "the complete canonical response including its continuous repair fits19_and83",
+      "passed": true
+    },
+    {
+      "name": "all saved selected component balls retain positive K_gamma_and_the_full_negative_mean",
+      "passed": true
+    },
+    {
+      "name": "all six width_only_C0_radii are explicit_and_do_not_extend_the_independent_narrow_MA_domain",
+      "passed": true
+    },
+    {
+      "name": "all12_candidates_keep_their_mean_prerequisite_and_two_separate_tau_t_tests",
+      "passed": true
+    },
+    {
+      "name": "failed_candidates_remain_visible_without_an_unproved_positive_coercivity_conclusion",
+      "passed": true
+    },
+    {
+      "name": "complete_original_row_balls_and_every_new_case_row_are_retained_in_the_temporary_audit",
+      "passed": true
+    },
+    {
+      "name": "the_complete_new_receipt_keeps_all_source_mean_and_unknown_norm_obligations",
+      "passed": true
+    }
+  ],
+  "actual_scientific_complete": true,
+  "actual_scientific_failure": null,
+  "publication_failure": {
+    "type": "ValueError",
+    "message": "the complete scientific stdout receipt exceeds 59000 UTF8 bytes"
+  }
 }
