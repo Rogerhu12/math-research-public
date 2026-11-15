@@ -91,3 +91,8 @@ README于a78a59d685e6bfcfe50d2dcb9f98cf15aa62268a核无变；actual SN证明与S
 SEeb7b1bb1/22201747全文及P19–20/A19–20/O2/IN28–30原式核：完整root增2/3、parity J每固定Hs、自然−7/6/−5/2窗Fredholm index0。
 只有full实际Ai incoming injective才stable C onto与同侧diag(C,Id_rest)准确消，第二同graph reference免额外数值逆；独立ports/mean/finite/roughbulk保。
 新数学仅解析无旧算术重做。两README于2fcaa6682327436880deb78911bbc310a55e9e68无变；继续完整Ei/实际border/原SC3。
+
+### 2026-11-15 23:07:59 UTC — deploy new fourth-angle and global-sign consumer
+DZ四件245da4db/8d0c6452/c9a45aa7/31bd63f9已root全文SCI、WE worker差异、14pins/4AST/参数/原5runtime及25copy路径静核；不运行旧producer。
+仅15新高导组合、D强费、MS整产品及ZD wholemin/standardout已付subtotal，24结构门/六欠费；真AST与所有新算术只在本public Actions。
+两README于b77b489f578be44fa61cad0b3ed8bfd6516176fa无变；120KB reserve/atomic+stdout-before-Git/truepull/同成功禁重沿成功WE保全，等待唯一原run。
