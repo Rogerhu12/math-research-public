@@ -74,4 +74,4 @@
 
 - **R781**：[大惰性素数下的原有理饱和前缀和精确负层](../results/R781-original-large-inert-prime-saturated-prefix-and-first-pole.md)。D8/p953的整个160×165原前缀有单位子式det328，首极点行增秩至161；真实有理核的STU6见证极点210，故原物理层范数恰953。先付单位子式再用模p核，未将有限结果泛化或认作中央非零；公开producer/run/hash全存。
 
-- **R780**：[原第三中央在B第二态、真实W深支及共同帽上的返回](../results/R780-original-third-central-b-state-and-true-w-deep-return.md)。同q*原E深表准确给B第二态Y行[1/2]U136+δω²S/2；原E2312归一和全部scale质量保。奇W深的原第一态逆观察给独立JU约束，近消shadow、真实帽四坐标与E浅Ξ全补域均显示，未将局部项分别赋零。
+- **R780**：[原第三中央在B第二态、真实W深支及E浅共同帽上的返回](../results/R780-original-third-central-b-state-and-true-w-deep-return.md)。同q*原E深表准确给B第二态Y行[1/2]U136+δω²S/2，原E2312规范/scale质量保。奇W深逆观察给独立JU约束。**§6(28)已更正**：共同帽∩W深实际Eunit，与第三E深行相斥；裸帽返回须保E浅Ξ及全部参考/外谱，不得从第三零行相减。

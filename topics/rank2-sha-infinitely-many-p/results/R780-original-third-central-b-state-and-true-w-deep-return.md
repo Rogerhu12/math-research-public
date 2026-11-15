@@ -1,10 +1,12 @@
-# R780 — 原 U136 的第三中央在 B 第二态、W 深支和共同帽上的完整返回
+# R780 — 原 U136 的第三中央、B 第二态的 W 深返回与 E 浅共同帽
 
-日期：2026-11-15。**状态：已证明。**
+日期：2026-11-15。**状态：已证明；§6 的物理 E 门包含关系已更正。**
+
+**更正说明。** 原版 (28) 把共同帽域上的 $E_\perp\in p^N$ 误写成物理 $E\in p^N$。实际 $E=E_\perp+(17+3\omega)t$；在帽域再附 $W\in p^m$ 时，$t$ 和 $E$ 都是单位。更正后的 §6 保留 (29)—(30) 的裸返回，将其准确放在 E 浅域，并删除从第三 E 深行 (19) 相减的错误连接。§1—5 的完整第三来源及近相消/shadow 恒等式不受此更正影响。
 
 本篇恢复第三条原算术来源的真实六变量入口，并将它接到 R777 的同一个 B 分量及其 W 核第二态。新增的中央观察确实含原 U136；它不是 R777 已有的原 T 行的重新分区。原全部有限门、归一和补域同时保留。
 
-具体地，在原 EYW 深 N 门上，B 第一态的完整 Y 来源为零，而 W 核后的 B 第二态的完整 Y 来源为原 S 与 [1/2] U136 的明确组合。其 W 来源仍为原 T。把这条第三行通过真实 W 核搬回，得到原 B 第一态在 W 深支上的另一个归一观察。本文还给它在 R777 的 W 近相消部分和 R773 共同帽中的准确分割；这些部分不被各自赋零。
+具体地，在原 EYW 深 N 门上，B 第一态的完整 Y 来源为零，而 W 核后的 B 第二态的完整 Y 来源为原 S 与 [1/2] U136 的明确组合。其 W 来源仍为原 T。把这条第三行通过真实 W 核搬回，得到原 B 第一态在 W 深支上的另一个归一观察。本文给出这条行在 R777 的 W 近相消部分的准确分割。R773 共同帽另属 E 浅域；其与第三 E 深行的实际互斥和完整浅补域在 §6 单独保留，不能将它们相认。
 
 ## 1. 第三来源的绝对规范
 
@@ -199,11 +201,11 @@ $$
 ### 3.1 E 浅的完整原来源仍在
 
 令Ξ为R465未加权第二态的整个第一2Y来源。原π4返回给
-$
+$$
 Y_*(qB_1)=\frac{\beta^N}{c_B}([1/2]_*\nu_\Xi+\nu_S).
-$
+$$
 所以E浅来源准确为
-$
+$$
 \boxed{
 Y_*(1_{\mathcal E_N^c}qB_1)
 =\frac{\beta^N}{c_B}([1/2]_*\nu_\Xi+\nu_S)
@@ -211,7 +213,7 @@ Y_*(1_{\mathcal E_N^c}qB_1)
  \left([1/2]_*\nu_U+\frac{\delta\omega^2}{2}\nu_S\right).
 }
 \tag{16a}
-$
+$$
 其中Ξ的全部rank0参考和外谱保留。该式没有被三原中央同时零消去。
 同一E浅下B0的Y来源仍为零，两个W来源均为
 (βN−λ2N)6δT/cB；这些是完整表的相减，不授权另外删除mixed cuts。
@@ -351,14 +353,14 @@ $$
 \tag{26}
 $$
 两个局部质量也只满足
-$
+$$
 \mathcal A_{\rm near}(0)=-\lambda^2\mathcal B_{\rm sh}(0),
-$
+$$
 不能各自删掉。
 如果把(25)中的unit观察提出一个常数，必须保该常数的log乘实际局部质量。
 本文始终直接使用完整f_w，已自动保这些项。
 
-## 6. 与 R773 共同帽域的准确有限交集
+## 6. 共同帽位于 E 浅：准确互斥与完整裸返回
 
 写
 $$
@@ -371,24 +373,51 @@ $$
                         U_{\rm fail}\notin p^n\}.
 \tag{27}
 $$
-此处Ufail是原失败轴，不是曲线来源U136。
-R773 已证明D∞上E∈pN，而且
+此处 Ufail 是原失败轴，不是曲线来源 U136。R773 的实际等式是
+$$
+E=E_\perp+h_0t,\qquad
+E_\perp=-(17+3\omega)\hat s-(68+99\omega)\hat d,
+\qquad h_0=17+3\omega.
+\tag{27a}
+$$
+所以共同帽只给 $E_\perp\in p^N$。它本身没有给物理 E 深条件。
+另一方面
 $$
 P=b_YY+(1+3\omega)\hat s+2\hat d,\qquad
 b_Y=(20+3\omega)/17
 $$
-为单位。因此对m≥1，
+在共同帽上是单位。全部所用固定系数在原好 ray 上为单位。
+
+若再附 $W=P-at\in p^m$，$m\ge1$，则
+$t\equiv P/a\pmod p$，故 t 单位；由 (21)，Vt 也为单位。
+(27a) 随即迫 E 单位。因此准确的包含关系是
 $$
 \boxed{
 \mathcal D^\infty_{n,N}\cap\{W\in p^m\}
-\subset\mathcal E_N\cap
- \{P,t,V_t\ {\rm unit},\,W\in p^m\}.
+\subset
+ \{E,P,t,V_t\ {\rm unit},\ W\in p^m\}
+\subset \mathcal E_N^c .
 }
 \tag{28}
 $$
-这是(23)真实近相消支中的一个原共同帽子域。
+特别
+$$
+\boxed{
+\mathcal D^\infty_{n,N}\cap\mathcal E_N
+                  \cap\{W\in p^m\}=\varnothing .
+}
+\tag{28a}
+$$
+在整个共同帽上还精确有
+$$
+\mathcal D^\infty_{n,N}\cap\mathcal E_N
+=\mathcal D^\infty_{n,N}\cap\{t\in p^N\}.
+\tag{28b}
+$$
+这一部分的 P、W、Vt 都是单位。它与 (28) 的 W 近相消帽支互斥。
+因此 (28) 不是 (23) 的 E 深近相消支中的子域。
 
-但它的逆返回不保帽门。由原Gram系数，令 $z=\kappa^m$，有
+裸 W 核返回仍然完整成立。由原 Gram 系数，令 $z=\kappa^m$，有
 $$
 \boxed{
 \begin{aligned}
@@ -402,12 +431,14 @@ U_{\rm fail}\circ P_{W,z}
 \end{aligned}}
 \tag{29}
 $$
-例如〈hat s,W〉=−4(17+24ω)/17、
-〈hat d,W〉=2(17+3ω)/17；除N(W)=72给显示系数。
+例如 $\langle\hat s,W\rangle=-4(17+24\omega)/17$、
+$\langle\hat d,W\rangle=2(17+3\omega)/17$；
+除 $N(W)=72$ 给显示系数。E 与 W 正交，所以这个返回逐点保持物理 E。
 
-对奇m，(17)从而给
+对奇 m，(17) 给
 $$
 \boxed{
+\mathcal H_m(w):=
 \int_{\mathcal D^\infty_{n,N},\,W\in p^m}
  f_w(Y^{[-m]})q\,dB_0
  =\lambda^m\int_{\mathcal D^\infty_{n,N}\circ P_{W,\kappa^m}}
@@ -415,14 +446,49 @@ $$
 }
 \tag{30}
 $$
-右边须同时保(29)第一行unit，以及f_w(Y)自己的Y-unit；
-这两个unit条件不能相认。偶m将B1换回B0。
+右边须同时保 (29) 第一行 unit 和 $f_w(Y)$ 自己的 Y-unit；
+它们不能相认。该完整右域也在 E-unit，因为 E 在 W 返回中不动。
+偶 m 将 B1 换回 B0。
 
-(19)减去(30)，给其余整个
-E深∩W深∖D∞补域，且观察仍是同一个Y[-m]。
-因此第三中央进入共同帽时，精确给“(30)+该补域”的零。
-未再附帽门的整行(19)已经是新约束；不能由它或R773的条件正矩
-单独删掉补域。
+(30) 能从完整 E 浅行中切出，不能从 (19) 切出。为精确给出合法的补域，定义
+$$
+\begin{aligned}
+\mathcal C_m(w)=
+\int_{(\mathcal E_N^c\cap\{W\in p^m\})
+                    \setminus\mathcal D^\infty_{n,N}}
+ f_w(Y^{[-m]})q\,dB_0,\qquad
+A_1^{\rm sh}(w)=\int_{\mathcal E_N^c}f_w(Y)q\,dB_1 .
+\end{aligned}
+\tag{30a}
+$$
+则对奇 m，
+$$
+\boxed{\mathcal H_m(w)+\mathcal C_m(w)=\lambda^m A_1^{\rm sh}(w).}
+\tag{30b}
+$$
+右侧由 (16a) 的完整来源准确给为
+$$
+\begin{aligned}
+A_1^{\rm sh}(w)
+={}&\frac{\beta^N}{c_B}
+       \left(\langle2\rangle^{-d_pw}J_\Xi(w)+J_S(w)\right)\\
+&-\frac{\lambda^{2N}}{c_B}
+       \left(\langle2\rangle^{-d_pw}J_U(w)
+                          +\frac{\delta\omega^2}{2}J_S(w)\right).
+\end{aligned}
+\tag{30c}
+$$
+这里 $J_\Xi$ 是同一完整未适配来源的实际单位 Mellin；其参考和外谱均保留。
+即使施加三原中央零 (5)，也只得到
+$$
+\mathcal H_m'(0)+\mathcal C_m'(0)
+=\frac{\lambda^m\beta^N}{c_B}
+ \left(J_\Xi'(0)-d_p\log\langle2\rangle J_\Xi(0)\right).
+\tag{30d}
+$$
+不能把右侧赋零，也不能删掉其中的实际单位质量。
+第三 E 深行 (19) 与本节的 E 浅帽行互斥；它们的进一步联系仍需新的
+完整来源或真实域恒等式，不能由集合相减制造。
 
 ## 7. 已付的新算术信息与尚余的实际关系
 
@@ -435,9 +501,7 @@ E深∩W深∖D∞补域，且观察仍是同一个Y[-m]。
 它使用Y及E；这两者不能从P/t二维边际恢复。
 因此原仅P/t分区不会自动看到它，但原完整六变量来源确实携带它。
 
-与R777四-unit余域或R773共同帽的下一比较，应使用
-(23)—(30)的真实域、Y[-m]观察和第二态，连同原T行。
-这些式子没有使四-unit行、shadow项或帽补域分别为零。
+与 R777 四-unit 余域的下一比较应使用 (23)—(26) 的真实 E 深域、Y[-m] 观察和第二态，连同原 T 行。R773 共同帽的 W 深部分则准确处于 E-unit，必须使用 (28)—(30d) 的完整 E 浅返回；它与第三 E 深近相消支没有交集。这些式子没有使四-unit行、shadow项或帽补域分别为零。
 当前主目标仍未由本文关闭。
 
 ## 依赖与证明范围
@@ -446,7 +510,7 @@ E深∩W深∖D∞补域，且观察仍是同一个Y[-m]。
 - [R465](R465-original-common-six-sigma-core-and-new-conditional-central-row.md)、[R692](R692-original-four-axis-three-state-and-arithmetic-unit-cuts.md)：原完整quarter、三态及真实W核。
 - [R702](R702-forty-five-neutral-tests-and-complete-three-state-arithmetic-gate.md)、[R715](R715-complete-first-z-source-and-fifty-neutral-returns.md)、[R734](R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：同一实际q的完整E深三态表及原混次归一。
 - [R737](R737-common-depth-elimination-and-native-primitive-strips.md)：HV的实际移动门与观察范围。
-- [R773](R773-native-common-hat-domain-and-five-conditional-moment-return.md)：共同帽域、E深性质及原失败轴。
+- [R773](R773-native-common-hat-domain-and-five-conditional-moment-return.md)：共同帽域、$E_\perp$ 深性质、$E=E_\perp+h_0t$ 及原失败轴。
 - [R777](R777-original-b-sector-p-t-core-and-complete-central-renewal.md)、[R778](R778-original-degree174-full-characters-and-unramified-seventeen-point-fields.md)：同B两态、P/t与W/Vt完整共同核及P的绝对符号。
 
 本文是既有完整来源、显示Gram系数及有限域恒等式的直接代数推导，
