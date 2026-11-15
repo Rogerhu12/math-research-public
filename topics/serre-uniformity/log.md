@@ -231,3 +231,8 @@
 ### 2026-11-15 23:54（Asia/Taipei）｜serre-public-astra-20261115
 - 激活R824同核准确27权五＋244权六续算；requestec04ad32相对前请求仅requested_scopes与resume变化，8组原身份/core1ece3cf4/wrapperc5907739/proof/method保持。恢复原1.304GB完整359/7741后直接复用公共算子、14模分支、56+244profile；1186仍由R787负责，不请求全纤维证书。
 - R824实际结果已推bafa6f04；最近真实pull 2026-11-15T15:54:02.395597+00:00读f540fe6a503ca163c9375e64df7ebe57923fcb8c，两README无diff。R827实际来源继续，主目标OPEN。
+
+### 2026-11-15 23:59（Asia/Taipei）｜serre-public-astra-20261115
+- R830完整比较主审通过：Teich角字符精确p+1阶/单位相容给权六Hecke lift与新增p导子；原old1/d及p|Norm先约分保留。Hasse简单零/负权与Igusa权同余给严格tame filtration6p，某SS非零不定位原j0；原12^5澄清，SHA344a1cad，无新计算。
+- R824准确27+244同核续算已推442f3d16并运行run43732499815；R827 core d9cf7739/helper38baf6b4/methodc55655f9已审冻结、wrapper待收，R809真实S5仍待结束。H原文归档后压缩。
+- 2026-11-15T15:56:09.710707+00:00实际pull读6855eb1f8c715681dd45312fc17f6d86de6e17ab，两README无diff；每结论即推，主目标OPEN。

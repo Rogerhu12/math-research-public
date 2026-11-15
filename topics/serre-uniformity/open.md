@@ -132,3 +132,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R824实际模方向已完成**：[原28/300核和56+244方向](results/R824-certified-original-modular-generator-profile.md)，run43729293174/source87c131f1；309.797776742秒。全部14原分支lower-span rank56和非零minor，244补充方向、U129/U142已成，1186只复制旧源。原359manifest/7741输入全verify；小IO run43731915435精读26成员15.61MB，manifest0ca75934/branch00a25921b9/profile7c3e9484。exact5/6仍0，不称原全极模或D/eta完成；后继同核准确27+244，R827直接复用模B。proof SHA bf892f5d372397f05ef5f1cfb916945ba8ede3a6f50dfe9b136faa90adaab83f。
+
+
+**R830（已证明）**：[原惰性角字符Hecke lift与tame filtration](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)。选定Teich place后χ_p=ω^(1−p)精确阶p+1，εχ_pw⁵给原一次原函数的权六lift，导子3p/6p、level36p²/144p²、原old1/d及p整约分准确。其tame表达θ⁵C权6p；C权p−5首系数单位、负权−4除Hasse不可能，某SS值及五个单位输入权迫filtration恰6p。Igusa权同余＋qexp排全部较低tame权；保原q_*/12^5。非零SS点不定位j0，不替六项CM和或原h；无新计算。SHA 344a1cadefc3f13f1e2153f74a0807832dede37fc9c7d2a57aed44650b591ea8。
