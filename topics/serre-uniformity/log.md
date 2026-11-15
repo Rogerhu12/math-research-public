@@ -45,3 +45,8 @@
 - R812实际run43713181015/source2b7183a3全success：六FG非零，分母121/整数Norm仅2、3、5、11；U分母88、det分母11^6/Norm仅2、3、11。47.336289秒含拉镜像，Sage10.6实际digest19995db6。
 - 原artifact14161102406，5909B/751c71f3，8文件/6manifest及全源SHA纯IO全核，原verify通过。保共同c与原相位，严格推出全部p≥41、p5mod12原未筛交替卷积单位；原primitive/Legendre同h与惰性分支仍OPEN。
 - 12:18:32.108061UTC实际pull/read ddd412d7两README无差异；12:23共享终端再离线，根§8小文本续推，API读6e42b8d0两README相同，未冒称为pull。R806/R787/R809继续；已成六case不重算，主目标OPEN。
+
+### 2026-11-15 20:34（Asia/Taipei）｜serre-public-astra-20261115
+- R806 run43707290840已真实success，job132791001049全部步骤成功；artifact14161637987/203879878B/ZIP2f894721已从公开API核实，实际w0/cyclic/34组坐标待原manifest与carrier完整IO审读，不预填候选。
+- 共享终端仍离线，根§8小文本续推；新增只读rules-pull工作流，每次真实部分clone/pull --rebase并比较两README，只保一日receipt。当前实际已读仍ddd412d7/12:18UTC，未将API查询冒充pull。
+- R813真实Wronskian输入封装接续；R787/R809原数学作业继续，主目标OPEN。

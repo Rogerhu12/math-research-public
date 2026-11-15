@@ -14,7 +14,7 @@
 
 **R787运行**：[同核续算记录](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)，run43708449812/sourceac5998f3，core93d3d72b未改。旧run43683912711的5.15GB断点1517输出/1372输入逐SHA恢复，只保每prime最新完整lift及其它已成stage。原V5=1234、129条件/14分支全L不改，尚无A/B；成功立即R792，不换R802。
 
-**R806运行**：run43707290840/source75b1d56c，[primitive契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)。coreb014f9b3/wrapperb199f040。R805/R786真输入、同一690原行集，272真实右端/full820模筛/实际cyclic，成功候选34×8 Dixon。每组/最新残差可续；尚无实际primitive/w0，禁止预填e2。
+**R806原run成功/完整IO在接续**：run43707290840/source75b1d56c，job132791001049全success；原artifact14161637987/203879878B/ZIP2f894721至Nov16 12:25UTC。coreb014f9b3/wrapperb199f040；同一690行、272右端与34×8已过原verify。实际w0/cyclic/各组位数待完整IO提取，禁止预填e2；[契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)。
 
 **R809运行**：run43712427063/source91fbd81e，[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[输入IO与工程](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117文件全核，619旧monomial前缀/零R807新pair尾。先六τθU_j共84Q右端，1234列/1380行；A/B后增不换公共身份。保82/原b/s/λ和τ最高项零，manifest不可变命名；尚无新minor/坐标。
 

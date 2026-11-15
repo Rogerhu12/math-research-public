@@ -1,0 +1,113 @@
+name: Serre Astra read-only rules pull
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/serre-astra-rules-pull-request.json
+permissions:
+  contents: read
+jobs:
+  rules-pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Partial clone, actual pull, and compare both README files
+        shell: python
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          import datetime, hashlib, json, os, pathlib, re, subprocess, traceback
+          utc = lambda: datetime.datetime.now(datetime.timezone.utc).isoformat()
+          out = pathlib.Path("rules-receipt")
+          out.mkdir()
+          repo = pathlib.Path("rules-read")
+          record = {"started_at_utc": utc(), "run_id": os.environ["GITHUB_RUN_ID"],
+                    "run_attempt": os.environ["GITHUB_RUN_ATTEMPT"],
+                    "workflow_source_commit": os.environ["GITHUB_SHA"],
+                    "mathematics_executed": False, "repository_write_performed": False}
+          def run(args, cwd=None):
+              p = subprocess.run(args, cwd=cwd, stdout=subprocess.PIPE,
+                                 stderr=subprocess.PIPE, check=False)
+              if p.returncode:
+                  raise RuntimeError("command failed: " + " ".join(args) + "\n"
+                                     + p.stderr.decode("utf-8", "replace"))
+              return p.stdout
+          def git(*args):
+              return run(["git", *args], cwd=repo)
+          try:
+              assert os.environ["GITHUB_REPOSITORY"] == "Rogerhu12/math-research-public"
+              run(["git", "clone", "--filter=blob:none", "--sparse", "--no-checkout",
+                   "--single-branch", "--branch", "main",
+                   "https://github.com/Rogerhu12/math-research-public.git", str(repo)])
+              git("sparse-checkout", "set", "--no-cone", "/README.md",
+                  "/topics/serre-uniformity/README.md")
+              source = os.environ["GITHUB_SHA"]
+              assert re.fullmatch(r"[0-9a-f]{40}", source)
+              git("checkout", "-B", "rules-pull", source)
+              request_path = "topics/serre-uniformity/notes/serre-astra-rules-pull-request.json"
+              raw_request = git("show", source + ":" + request_path)
+              request = json.loads(raw_request)
+              old = request["last_read_commit"]
+              assert re.fullmatch(r"[0-9a-f]{40}", old)
+              expected = {
+                  "README.md": request["root_readme_sha256"],
+                  "topics/serre-uniformity/README.md": request["topic_readme_sha256"]}
+              assert all(re.fullmatch(r"[0-9a-f]{64}", x) for x in expected.values())
+              for path, digest in expected.items():
+                  assert hashlib.sha256(git("show", old + ":" + path)).hexdigest() == digest
+              record.update(last_read_commit=old,
+                            request_sha256=hashlib.sha256(raw_request).hexdigest(),
+                            partial_clone_filter=git("config", "--get",
+                                "remote.origin.partialclonefilter").decode().strip(),
+                            sparse_paths=["README.md", "topics/serre-uniformity/README.md"],
+                            before_pull_commit=git("rev-parse", "HEAD").decode().strip())
+              assert record["partial_clone_filter"] == "blob:none"
+              record["pull_started_at_utc"] = utc()
+              pull_text = git("pull", "--rebase", "origin", "main").decode("utf-8", "replace")
+              record["pull_completed_at_utc"] = utc()
+              head = git("rev-parse", "HEAD").decode().strip()
+              remote = git("rev-parse", "origin/main").decode().strip()
+              assert head == remote
+              git("merge-base", "--is-ancestor", old, head)
+              record.update(actual_head_commit=head, origin_main_commit=remote,
+                            actual_pull_command="git pull --rebase origin main",
+                            pull_stdout=pull_text)
+              diffs = []
+              comparisons = []
+              for path, digest in expected.items():
+                  actual = hashlib.sha256((repo / path).read_bytes()).hexdigest()
+                  changed = actual != digest
+                  comparisons.append({"path": path, "previous_sha256": digest,
+                                      "actual_sha256": actual, "changed": changed})
+                  if changed:
+                      diffs.append(git("diff", "--no-ext-diff", "--no-color",
+                                       old, head, "--", path).decode("utf-8", "strict"))
+              diff = "\n".join(diffs)
+              (out / "README.diff").write_text(diff, encoding="utf-8")
+              record.update(readme_comparisons=comparisons,
+                            readme_changed=any(x["changed"] for x in comparisons),
+                            rules_diff_sha256=hashlib.sha256(diff.encode()).hexdigest(),
+                            success=True)
+              if diff:
+                  print("RULES_CHANGED_DIFF_BEGIN\n" + diff + "\nRULES_CHANGED_DIFF_END", flush=True)
+              else:
+                  print("RULES_UNCHANGED: both README SHA-256 values match the read commit.", flush=True)
+              print("ACTUAL_PULL_UTC " + record["pull_completed_at_utc"], flush=True)
+              print("ACTUAL_PULL_HEAD " + head, flush=True)
+          except BaseException as exc:
+              record.update(success=False, error=type(exc).__name__ + ": " + str(exc))
+              traceback.print_exc()
+              raise
+          finally:
+              record["finished_at_utc"] = utc()
+              (out / "rules-pull-receipt.json").write_text(
+                  json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+              print("RULES_PULL_RECEIPT " + json.dumps(record, ensure_ascii=False, sort_keys=True), flush=True)
+      - name: Retain the pull receipt for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-astra-rules-pull-${{ github.run_id }}-${{ github.run_attempt }}
+          path: rules-receipt/
+          retention-days: 1
+          if-no-files-found: error
