@@ -339,3 +339,9 @@ root全文读SCI/worker/flow/manifest，newton独核complete_coefficient_jets、
 root复核T新增§10全文，原§1–9 17663B逐字保持；newton独立核T27–34并亲读S39–41通过。由physical a=ρr的完整非mean/mean二jets和w三jet取得gh C¹极限，随后同一Ω/α/X积分及显式Xaa/Xaθ/Xθθ完成真C²整盘。整个材料盘含中心，第二形式0，全角equivariance准确。仅在core/waist全匹配之后，共同quarter旋转才强制唯一腰平面水平，故镜像两盘同轴；真实盘距/几何没有预设。
 
 正文24280B/blob278763139a0a0300899acebae3c63774916f2791/SHA256 db1253a632bf4ebbc407763bec01280316dd8f5efb6517c2756038ac6edeefa8。推前只读main 821bf8a0bd5c9e732809128033e2908273944f85 两README身份未变。仍持续core/高逆/ν等，不授闭嵌入完成。
+
+### 2026-11-15 10:44:11 UTC — RG粗输入到真实far的独立H8193域扩张
+
+root全文核S新增§11，并与newton独核核对：incoming fB=0的B宽7L/16和完整mixed的B宽sβ分别使用，未知帽端皆零宽；原S30070B逐字保持。仅将新增p!界写≤覆盖0阶。真实physical γ低A0/128和新增H8193门保全部M/O/HT网络窗，端点核5530265<6291456，原seed/Nash/strong差及physical平端不变。
+
+最终正文36918B/blob5fdcd794728f6c45a16daea63d20c5ec47963ece/SHA256 aba52db835e318f65dd9bf40c77e084eae28d804a4b8669b503b9f663bf7f736。逐固定γ存在未冒为全参数可微图，Γ2随seed的真实设计列及fixed-metric R tiny列识别继续查明；实际core、waist/ν和同对象几何仍未完成。推前main 35c46c841d062aba1873322be2ea7067b4784d71 两README相同。

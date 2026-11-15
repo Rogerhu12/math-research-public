@@ -261,17 +261,20 @@ E'>39194024给原所有整数余量；G的E8192与三径source小量原样成立
 这不对γ作复角求值，也不把整个seed(γ)差误说成仅支持collar；
 Γ*(a94(γ))可随γ变，只有固定γ的collar修改保同一Γ。
 固定realγ再付H8176/rγ≤2^1048576，就可按原F继续body Nash。
-新的far固定graph需额外H8193门，尚须相应定理明确接入，不能免费加17阶。
+S§11已独立把fixed physical H8193/rγ≤2^1048576明确接入far固定graph；
+最高端点核5530265<6291456，原网络窗不扩，不能由8176假推8193。
 
 原3500/400、1734/1796全部归纳给同一u∞的完整body F=0和holonomy mean。
 F本身只授实际body存在性。新增[S非线性far固定图与Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
-现已在原解析γ域内同时解body和真实far，见下一节；内core/waist/ν仍须联立。
+现已在原解析γ域及§11明确的固定粗H8193域内同时解body和真实far；内core/waist/ν仍须联立。
 该证明使用真正保持nonlinear值图的坐标，未把linearized行冒作值保持。
 
 ## 6. 实际外行与保持非线性far匹配的完整迭代
 
-实际Φ→long、完整high/source及body Nash已付。新S进一步付原解析γ域的
-真实nonlinear far值约束；当前继续粗γ高域的明确转授及内core/waist/ν全匹配。
+实际Φ→long、完整high/source及body Nash已付。S现已付解析域以及独立§11
+粗physical γ A0/rγ≤1/128、H8193/rγ≤2^1048576域的真实nonlinear far值约束。
+RG的右零宽/真实B端宽种子保原94/G全整数界；S44端点费用5530265<6291456，
+保全部mean/physical单位、1734/1796及strong差。当前继续实际core/waist/ν全匹配。
 
 S使用U=w+L∂qγ(f)，固定fL∂=0使J逆准确nilpotent，并在E_s^+增加
 2^440||fB||H(s+3)。额外端导由实际两行微分、FU完整inverse及原source取得，
@@ -283,7 +286,9 @@ S40–41由真深层profile及完整mean给scalarheight物理a-jets C²平延，
 T§10现在由同一coframe/Ω/α/X积分与显式三个二阶jet，证明真实C²整平盘；
 core/waist全匹配后才由共同quarter旋转与唯一腰平面推出镜像两盘同轴。
 实际盘距、G17/G24及最终embedding/reach仍须另核。
-S当前原解析γ域的证明完整；接已成RG的粗γ需要另明确H8193门，不能把8176冒8193。
+S§11只逐个固定γ授exact tail存在，尚不自动给γ→u∞选解图可微。
+其RG种子a94(γ)和对应冻结Γ2可随γ变化；R的fixed-metric tiny列不能未经
+真实参数/差分论证就认成该选解图的导数。最终core仍须验证完整物理γ低/高门。
 
 [D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
 已付全finite connector/Poisson后的weighted差合同。
