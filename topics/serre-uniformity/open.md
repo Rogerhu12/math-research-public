@@ -205,3 +205,7 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 ### R783：原ordinary实际输入压成一个规范二阶量
 
 [R783](results/R783-canonical-quadratic-Robert-local-coefficient-and-norm-freedom.md)已在原semi-local单位商中给原cs=A x²+B xz+I³，Θ=B−iA=13b，原Ω₂/ε=22−2Θ；须实际判定Θ是否11。两系数对辅助scalar Norm原像选择无关。纯局部的两Euler Norm与实条件容许全部二维输出，不能据此定值；b≠0的真实global ordinary扰动却模43为零，不能混同。R704只给字段求值矩阵，原Robert产品仍缺可行压缩；不新增巨大q挠点枚举任务。继续原导出reciprocity的二阶相位比较。
+
+### R784：完整三通道已保筛，原非消失仍待证明
+
+[R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。

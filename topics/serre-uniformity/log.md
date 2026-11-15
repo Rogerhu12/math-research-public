@@ -295,3 +295,8 @@
 - R783证明原cs规范二阶系数Θ=B−iA=13b、Ω₂/ε=22−2Θ与辅助Norm原像选择无关；坏值Θ11，尚未求实际值。
 - 另证保持两Euler Norm/τ现实的局部扰动遍历二维输出，与b≠0时真实global ordinary合成Norm像43O u严格区分；根核原局部坐标、socle乘法和全局生成元，不把局部变动冒作Robert变动。
 - R775已由真实断点启动公开run43679160495/source032899cc；不重跑旧阶段。H/open/index同步，继续实际二阶reciprocity与全p sigma，终端仍不可用。
+
+## 2026-11-15 13:05 Asia/Taipei · serre-public-astra-20261115
+- R784完整证明原未平均sigma的三wedge六秩核及全critical显式左逆，原本原/Legendre权准确运输；根逐式核群律多项式、全部六通道符号和Hadamard系数逆式。
+- NIST DLMF23.10.1/3原文核对原sigma负号；未把形式可逆代算术非零或真实高度排根。H/open/index同步。
+- R783已单独推2f515555；R775公开run43679160495续跑中，R781源码准备并行执行。终端不可用仍按根8小文本API核规则/非force提交。
