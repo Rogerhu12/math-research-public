@@ -359,3 +359,8 @@
 ### 2026-11-15：同一物理gap的内在跨切口耗散与固定测试配对（789f）
 
 [证明](notes/2026-11-14-same-physical-gap-intrinsic-cut-dissipation-and-fixed-test-pairing-789f-next.md)对原物理闭和M_q与真有限核K_(q+d)构造递减正交gap Gq=P_Mq−P_K(q+d)。同一固定f支持≤s、q≥s+d时，dq=g(q−d)−gq恰下降joined投影与上升真核投影的两正交增量平方和；真支撑界直接付α(ub)²+μ(uf)²+λ(uf)²≤dq。于是原同源差e=ub−uf满足Xi(e)²≤4dq、0≤gq−μ(e)²≤2dq；同测试配对误差|<Lr,t−e>|≤Xi(r)√dq。步长d尾和≤4g(q0−d)，新内容为费用由同一个gap的下降支付；不把旧两费总界重计新结论，也不声称移动gq速率、正向gauge或N=M已付。
+
+
+### 2026-11-15：完整二次饱和矩阵的204个后继源方向（789f）
+
+[源模证明](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)在真实s=2形式局部环给完整β1_Bsat源核2040基：1834原核、七θ、e9、196ω及te8/tζ2。1632低核和202高核全有Bsat内精确整数核提升；再用真实κ8、κ9 canonical recipe精确消θ3与θ4−e9，余204来源。第二相关类的旧五θ、e9和te8已为零，尚须新算196ω加tζ2共197类；若进入第三，必须保全204真实第二提升及高位carry，不能把第二零当精确核。任意后继有限像C/J及真源截面T给整个源核(I−TC)、T(sI−J)，包括全部非恒定关系。未把旧10→5精度免费连续沿用；新多层合同和扩大包高位成员尚待实际执行。
