@@ -1,0 +1,64 @@
+{
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261115_small_core_damped_search.py",
+    "--accepted",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+    "--prepared",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz",
+    "--tail-anchor",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz",
+    "--tail-config",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+    "--parent-status",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43662193286-1-smallcoreresonance/resonance/resonance-status.json",
+    "--damping",
+    "1",
+    "--candidate-steps",
+    "8",
+    "--backtracks",
+    "20",
+    "--candidate-resonance-tolerance",
+    "1e-08",
+    "--interval-bits",
+    "160",
+    "--interval-depth",
+    "14",
+    "--out",
+    "/home/runner/work/_temp/visible-small-core-resonance/smallcoreresonance/small-core-damped-search"
+  ],
+  "parameters": {
+    "parameters": [
+      0.09365081258727412,
+      -0.13201200770909496,
+      -0.12389206129693811
+    ],
+    "backtracks": 20,
+    "candidate_resonance_tolerance": 1e-08,
+    "interval_bits": 160,
+    "interval_depth": 14,
+    "original_mesh_nodes": 699,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "physical_angle_grid": 2048,
+    "material_and_boundary_angles": 4096,
+    "original_RHS_workers": 1,
+    "damping": "1",
+    "candidate_steps": 8
+  },
+  "one_independent_damped_candidate_invocation": true,
+  "original_model_and_checks_imported_unchanged": true,
+  "source_pair": {
+    "candidate_driver": {
+      "file": "geometry_20261115_small_core_damped_search.py",
+      "bytes": 13733,
+      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
+    },
+    "original_model_and_checks": {
+      "file": "geometry_20261114_small_core_resonance.py",
+      "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
+    }
+  },
+  "native_solver_started": false
+}
