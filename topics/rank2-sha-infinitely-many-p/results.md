@@ -146,3 +146,6 @@
 
 
 - [R641：完整中央正规部的准确边界与五源全线性空间](results/R641-complete-central-remainders-exact-boundary-and-full-linear-span.md)：原H边界简单根和真实阶2/5/28/38/66付五正规来源任意正幂准确RE；共同(N,6)1幂的整个线性空间交闭Tate只有常数。完整规范T首项单位并排所有边界单位根，h/Ec全部正幂亦准确RE；保来源次数，未将线性结论外推全多项式旗标。
+
+
+- [R643：原中央Gaussian正成本的次主量](results/R643-central-gaussian-divisor-cost-and-unchanged-leading-envelope.md)：加权约数估计逐实际k支付固定有限中央余类的正成本仅O(k(loglog k)²)，删去后原3klogk主系数不变。保原九格/真饱和前缀，不限制强负估值或已付随D增长的算术传播，也不以包络作真实范数下界。
