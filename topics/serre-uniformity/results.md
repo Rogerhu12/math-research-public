@@ -335,3 +335,5 @@
 - **R792（已证明，真实点合成待Actions）**：[原β分量的准确合成与Galois唯一立方根](results/R792-original-beta-composition-and-Galois-cube-root.md)。原$c(f)=-[\zeta^2]f$使$u=\zeta x\in F_b$、$u^3=y^2-b$唯一；最高21次Q分解的唯一奇数次数因子及三次gcd精确选根。保原14坐标/82²与82¹⁰/递归recipe，实际共同零阶0/1时首jet即足够CM分量及$v\beta$；不选原A的有限同源核原像，真实点与高度未预填。
 
 - **R790（公开准确求值已完成）**：[原146条CM值与首粗导](results/R790-certified-original-CM-fiber-jets.md)。run43688215703/source9e4074fd真实完成194阶段，全部146条M2按原82²尺度输出；保μ3投影、5种子/10对和两个280次域迹。cert672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd，202文件SHA已核。原y/β/η/高度尚未求，不假定R787分母非零；原power2–5随活跃bundle交R792。
+
+- **R793（已证明）**：[原极除子、固定RR Jacobian和真实局部代数](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)。V6的142阶原关系、第二截面与rank1116给264维残余；固定V3/V6=690/1506支持标准degree272类及完整主函数运输。原点/首导构造K上长度155/156真局部代数，再扩L求A/B；全部非零实际Hom在20 cusp不分歧。新矩阵、Jacobianη和高度尚待公开算术，未由有限算法冒称结果。

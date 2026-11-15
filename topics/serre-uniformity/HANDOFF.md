@@ -6,7 +6,7 @@
 
 已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次R793前H](notes/2026-11-15-handoff-before-R793.md)。
 
-**已读规则提交：6d3b123a59aee69b88c18eece6918e4a13e21f34**（2026-11-15 07:34 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：213f53e2dc6645a965c7c038f75296ad848952ae**（2026-11-15 07:36 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -25,6 +25,8 @@ R774原H³/e1、R775全K定义RR基与power6、R781准确R0..142、R786全部123
 
 **R792证明已成、合成待生产者**：真实$c(f)=-[\zeta^2]f$与有理$c_1$给$y_0=\sqrt{-3}v_0$、$x_0=\zeta^2u_0$，$u_0,v_0\in F_b=\mathbf Q(b)$。$u_0^3=y_0^2-b$在七次$F_b$中唯一；$\operatorname{Norm}(X^3-w)$唯一奇数次数因子配小gcd精确选根，最高Q次数21。原R787十四坐标、R790的82²/82¹⁰和R775递归recipe全对齐；共同零阶0/1时首jet已足够β_C与真实$v\beta$，不冒认原A的同源核原像。若共同零≥2才继续；高度未算。见[R792](results/R792-original-beta-composition-and-Galois-cube-root.md)。
 R792 core/wrapper/workflow已审冻结，非触发请求`R792-public-original-beta-composition-request.pending.json`已填R790/R791真实来源；仅R787仍PENDING，禁止预填成功。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d。只下载R787/R790/R791，再从活跃父包复用R735/R775/R786；R786缺的两小回执按原manifest从Git取。真实现有组/父包IO已核，六组最小输入会随新bundle续传；无本地新算术。
+
+**R793已证明**：普通V3/V6=690/1506给固定KM乘法；原V6中142条完整Laurent关系足够，不新增R781旧y前缀。固定s=τB后只求第二u；真实rank1116即得264维残余除子。R790点/首导经真实胖点乘法构造K上长度155/156局部代数，再扩L求A/B，不需高阶挠变形。保G=s/(fτ^(m−3))全部常数和原c0刚性化；全部非零实际Hom在20 cusp不分歧已证。新矩阵/η/高度未算；[完整证明](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)。R794筛较小η输入、R795只新增power6前82项正在工程。
 
 ## 已成输入与ordinary续点
 

@@ -238,3 +238,9 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 [R788](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)原有限核(1+Φp)P(z+t)Q(z−t)、det36/rank6及全Schur已证；未筛critical全零迫六零行，不能移到仅primitive/Legendre筛后。R739真实p41/h37已在primitive及Legendre可见集内否定逐项单位反射，不重开有限窗。
 
 [跨p零支撑](notes/2026-11-15-sigma-cross-p-zero-support-research.md)保非零C13源和完整微分式，但N+1高带未消；[稳定空间](notes/2026-11-15-sigma-stable-space-research.md)证明六有理截面的D与D6闭包均为L(pO)，同权链长N/N+1。固定宽递推路线关闭，完整σ12 zeta连接仍须处理；真正同标签三单位、实际高度以及全p排除均未证。
+
+### R793：原极除子与真实有限局部代数
+
+[R793](results/R793-original-RR-pole-divisors-and-CM-local-algebra.md)已证明固定普通V3/V6维690/1506、μ33只需q0..81；原V6关系只需142项，R781旧y Laurent足够。固定s=τB后，只求一个新u并认证1380列矩阵rank1116，即得264维W_F及degree426残余；不必先恢复完整300维关系核。标准degree272 Jacobian代表保实际G=s/(fτ^(m−3))和全部主函数常数。
+
+R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156局部代数，再扩标量到L评价原A/B；无未认证局部根。由单一L-cusp轨道与不可约K[T]作用，全部非零原Hom在20 cusp不分歧，故新同靶加法映射均e=1。新V6/μ33、实际1116秩、残余/Jacobianη、原高度均未计算。R794正在用既有Hom筛较小η极除子输入；R795只新增已成recipe的power6 q0..81，不重算旧生产者。
