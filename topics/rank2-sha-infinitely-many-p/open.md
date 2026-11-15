@@ -135,3 +135,7 @@ O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺�
 ### R772：实际P58覆盖的全有限来源与3处点门
 
 [R772](results/R772-original-p58-orthogonal-weight-and-full-finite-schwartz-source.md) 已证明原最终q*及t逐点P⊥，P=Y+(1+3ω)s+2d范数58；真实整行P0=δP范数174、标准even半特征及全正交分裂齐付。全部实际D∞/E/失败门以完整finite-p Fourier和正交jets化为S174全基的有限平移，δΩ及所有17六次缩放幂明确。17处原自对偶格确整分裂、第一轴球无新惯性；额外3-local sectors的完整负一点公式尚未付，未据degree/球性宣布点域或删除补偿。继续对全部实际3-local sectors付good-pair/local period/精确factorization及点下降；原Y/P有完整残差t(aŝ+2đ)/(bY YP)，各补域与无限log尾保留，17球性不先行变成点域结论。
+
+### R773：实际原条件块已化为完整有限正矩
+
+[R773](results/R773-native-common-hat-domain-and-five-conditional-moment-return.md) 已证明原共同帽域的λ^(2N)全核、物理E浅N空域及归一环带区别；原q*六L546/M78分支、完整E次数逆与M-unit第二项逐项返回。原失败轴U7599的whole第300幂绝对为I，无新射线；取真实n=N+300后，条件五坐标精确化为两项完整原正矩，总次数≤60。完整有理首行保两个不同分母；具体算术幅度仍待同源公开计算，浅独占/外补不删。接续以原q*算法计算式31五坐标/两算术幅度，全保λ、κ、u、η及第二项；不得只代κ0或把U未切总值混入。任何条件负一非零仍须联原中央和全部外补。

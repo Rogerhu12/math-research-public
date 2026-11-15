@@ -3,18 +3,18 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：cbb63584806fa90e7c5532170b5ac75abb1bdf0c；2026-11-15 14:31:30 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:31:29 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
+- 最近已读规则提交：83af8b58fc8c9a684d09100df33a631184b605ee；2026-11-15 14:38:00 UTC核两README无变。实际CI pull 2026-11-15 14:31:42 UTC/df6db414466f680ee53cd8a011b7ea3d7fe802be（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:37:59 UTC仍无环境。最迟2026-11-15 15:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
-- 本地exec无环境，末次本地成功2026-11-14 21:35:50/7aa38f25e。实际public CI pull 2026-11-15 14:05:38 UTC/head0cf6fbad/run43722439716/job132837121707，两README差异空且blob同；回执ci/rule-pull-20261115T140538.json。下一最迟14:45；本次已提前请求after-r772实际pull。
+- 本地exec无环境，末次本地成功2026-11-14 21:35:50/7aa38f25e。实际public CI pull 2026-11-15 14:31:42 UTC/headdf6db414/run43724824740/job132844383946，两README差异空且blob同；回执ci/rule-pull-20261115T143142.json。下一最迟15:10 UTC。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
-- 最新实际盘点27,815,890B/2015文件、无超限、3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核，真实输入和历史保。
+- 最新实际盘点27,922,867B/2024文件、无超限、3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核，真实输入和历史保。
 
 ## 全检查点及分工
 
 [压缩前全文](notes/2026-11-15-frontier-before-r772.md)沿归档链保原全部常数、十九角、射线、完整来源、坏集、run/hash与未闭门。[open全文](notes/2026-11-15-open-before-r767.md)保旧接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-R1–363、365–560、562–653、655–711、713–770、772已登记；R364/R561/R654/R712、R771/R773和主目标不冒完成。
-root唯一metadata/ref写者；代理仅proof/script/blob。theta写R773真实帽深/E门、完整q六支返回与条件五矩；deep续R768边界消极及全normal同R/R771；literature续R772全部3-sector point公式及17域，兼O4/O6；root续新合流矩阵/全来源联立。
+R1–363、365–560、562–653、655–711、713–770、772–773已登记；R364/R561/R654/R712、R771和主目标不冒完成。
+root唯一metadata/ref写者；代理仅proof/script/blob。theta执行R773原条件五矩的同源有限producer；deep续R768边界消极及全normal同R/R771；literature续R772全部3-sector point公式及17域，兼O4/O6；root续新合流矩阵/全来源联立。
 固定四次E17及j0 E17/E24/E2312的rank2已付；主桥需无穷不同p至少一条固定原J′非零。有限p、负一矩或附近来源非零均不完成。
 
 ## 普通：实际非零总行、条件五矩和新P方向
@@ -28,7 +28,7 @@ R762真实σ⊗H33/Cayley族穿S，unit/质量不动，∂uM=d_p s𝕀_DS，中�
 R764整数Gram(6,6,3,3,1,1)/det−18，新t轴whole核心β且保Y/q*；完整Y/t矩形返回J_S。三CD精确浅环带互斥、深交同；O全失败门m≥n才同域。W_j=P−aω^(2j)κ^m t，E→E⊥+(17+3ω)κ^m t，差只留1mod3幂，首κ^m∫q*t/P及p^(4m)尾保。
 R767已付Ω^-1Y_*(t q*e0)=−22β^N Dω/21，完整t环带负一非零；C平均后浅域H/f1/f3/f4四核全保，共深首矩是真五伙伴M5。条件五坐标由5/11/17/23/29正矩经固定单位三角逆读，全部arith/primitive保；完整分割和回纯Dω，单条件系数仍待求。公开run43723237144/job132839529955固定reader成功，脚本/参数/hash见R767，输出不入库。
 R772已付q*、t也P⊥，P=Y+a s+2d、Norm58；P0=δP整六行Norm174/标准even。所有实际混门经finite-p Fourier/伙伴jets回完整S174有限平移，原δΩ与17六次缩放幂全保。17处原整格分裂，第一轴球无新惯性。**尚缺额外3-local sectors的全negative-one Katz/point公式及真实twist下降**；不能把174全空间当58像，不能将BDP δ恰一次条件扩到δ³。R748原范围不变。
-R773进行中：原物理E⊥=−(17+3ω)ŝ−(68+99ω)đ，所以帽双深N时原E浅N为空；归一后的E⊥unit环带仍在，不删R737返回E-unit。原失败U=ŝ/2−3đ拟用whole7599第300幂真核把n=N+300条件五矩化两项完整正矩，仍须完整稿与实际幅度。
+R773已付帽平面λ^(2N)整核；E⊥=−(17+3ω)ŝ−(68+99ω)đ使共同域物理E浅N为空，归一Eunit/R737返回门仍在。原六L546/M78核全返回并保E逆/完整M-unit第二项；U=ŝ/2−3đ的whole7599第300幂=I，无新ray。取真实n=N+300，五条件坐标成为最高60次的两个完整原正矩；有理首行保不同分母。继续同一q* producer求实际arith幅度，尚无非零值。
 
 ## 深支：真实主部、边界极和同一个R
 

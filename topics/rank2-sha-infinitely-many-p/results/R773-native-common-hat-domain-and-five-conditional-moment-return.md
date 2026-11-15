@@ -1,0 +1,545 @@
+# R773 — 原共同外域的帽平面返回、六支 carry 与五条件矩
+
+日期：2026-11-15。**状态：已证明。**
+
+本文不更换 R734 的最终测试 $q_N^*$。在 R764 的三个外部域已经真正合并的范围 $m\ge n\ge N$，将其共同域的全部五个型五坐标写成明确的原正矩。返回保原六支、整个 E 次数逆、所有参数与单位补项。
+
+有两个需要先说明的范围。第一，原物理 $E_\perp$ 在共同帽深 N 域中自动深 N，故该域上的原 $E_\perp$ 浅 N 支确为空；归一后的 $E_\perp/\kappa^N$ 单位环带仍在。第二，本文不把 R737 的 cd 返回权 $\Phi_N$ 换成 q，也不删除该返回坐标中的 E-unit 条件。
+
+为实际读取一个固定深度差的条件来源，本文另付原失败轴的完整第300层核。取真实 $n=N+300$ 后，五条件矩成为两个完整、无切集的正矩之差，总次数不超过60。它们使用同一个 q，并保全部第二项；这里尚未给其中某个算术幅度赋非零。
+
+## 1. 同一来源与共同外域
+
+沿 R764、R767，记
+$$
+\omega^2+\omega+1=0,\quad \delta=1+2\omega,\quad b=17,\quad
+\lambda=-\bar\pi_0^{-1},\quad\beta=-\lambda,\quad
+\kappa=p\lambda^2,\quad u=\kappa^N,\quad N\in4\mathbf Z_{>0}.
+\tag{1}
+$$
+全部旧射线、整逆与 $p>163$ 保持不变。来源为
+$$
+e_0=-\nu_\sigma^{\boxtimes6}/84,\qquad
+h_W=\omega^2\mathcal T_*e_0,\qquad q=q_N^*.
+$$
+物理输入次序是 $(\xi_1,\xi_2,\xi_3,x,c,d)$。保原行
+$$
+\begin{aligned}
+A&=\delta\xi_1+2\delta\xi_2+(3+\omega)\xi_3+(2-\omega)x,\\
+Y&=A+c+2d,\\
+C&=(\xi_1-\xi_3+x)/\delta,\qquad
+B=-\xi_1+\omega\xi_3-\omega^2x,\qquad H_1=B+2\xi_2,\\
+\mathfrak r&=(\xi_1-\omega^2\xi_3+\omega x)/\delta,\qquad
+s=\mathfrak r+c,\quad t=\mathfrak r-c,\\
+A_0&=A-\mathfrak r=2\delta\xi_2-\frac{4\delta}{3}B,\\
+F&=s-B+\omega^2\xi_2+(2+3\omega)d,\qquad
+G=13H_1+gF,\quad g=3-2\omega.
+\end{aligned}
+\tag{2}
+$$
+于是 $Y=A_0+s+2d$，而 q、Y 都不含 t。
+本篇的 t 是 R764 的物理轴，不是另一个形式参数。
+
+置
+$$
+\hat s=s-Y/17,\qquad \hat d=d-Y/17,\qquad
+U=\hat s/2-3\hat d,\qquad Z_0=(1+3\omega)\hat s+2\hat d,
+$$
+$$
+b_Y=(20+3\omega)/17,\qquad P=b_YY+Z_0.
+\tag{3}
+$$
+$\hat s,\hat d,U,Z_0$ 全在 $Y^\perp$，并垂直于 t、C、$H_1$。
+R764 的真实共同域恰为
+$$
+\boxed{\mathcal D^\infty_{n,N}
+=\{Y\ {\rm unit},\ \hat s,\hat d\in p^N,\ U\notin p^n\}.}
+\tag{4}
+$$
+它只在 $m\ge n$ 的整个 t 深域返回中取代三个外部域。
+精确 t 环带的 unit 条件和 $m<n$ 的浅独占域仍按 R764 原式保留。
+
+使用行内积 $\langle L,M\rangle=L\bar M^t$。
+对实际非零行 L，始终记
+$$
+P_{L,z}=I+\frac{z-1}{N(L)}\bar L^tL .
+\tag{5}
+$$
+它保所有正交伙伴，且 $L\circ P_{L,z}=zL$。
+
+## 2. 原 E 浅支在共同深域上的准确范围
+
+原物理行是
+$$
+E=(5+6\omega)A-29c-(58+87\omega)d
+=E_\perp+(17+3\omega)t.
+$$
+将 R764 的式(25) 代入 (3)，得到整个六变量恒等式
+$$
+\boxed{E_\perp=-(17+3\omega)\hat s-(68+99\omega)\hat d.}
+\tag{6}
+$$
+故在 (4) 中
+$$
+E_\perp\in p^N.
+\tag{7}
+$$
+特别，(4) 再附原物理 $E_\perp\notin p^N$ 是空域。
+在 R764 的 $m\ge n\ge N$ 返回中，
+$$
+E_j\longmapsto E_\perp+(17+3\omega)\omega^{2j}\kappa^m t
+$$
+也自动深 N；这是真实整数线性关系的结果。
+
+(7) 不删除归一后的环带。下一节的帽平面返回把
+$E_\perp$ 变成 $uE_\perp$，所以原
+$v_p(E_\perp)=N+r$ 准确返回为 $v_p(E_\perp)=r$。
+原物理浅 N 为空，与归一后的 E-unit 非空完全相容。
+尤其 R737 对指定 cd 域先返回得到的 $\Phi_N$ 和 E-unit 门
+不在 (7) 的同一坐标中，本文没有对它们作删项。
+
+当 $m<N$ 时，原固定 E 和各 $E_j$ 还含各自的 t 项；
+三个浅独占 CD 支、$N\le m<n$ 的不同失败支全部继续使用
+R764(26)、(31)，不由 (7) 改写。
+
+## 3. 保 Y、t、C、H1 的帽平面完整核
+
+三个正交物理轴 $A_0,s,d$ 的范数为 $28,2,1$。为支付第一轴的完整半特征，写
+$$
+J'=\frac{\delta A_0}{2}=2B-3\xi_2,\qquad H_1=B+2\xi_2.
+$$
+其 Gram 为 $\operatorname{diag}(21,7)$，在 $(B,\xi_2)$ 上的变基行列式为7。
+$J'$ 的三个 B 系数均为偶，$\xi_2$ 系数为奇；$H_1$ 的三个 B 系数为奇，
+$\xi_2$ 系数为偶。因此分别是标准 odd degree21、odd degree7。
+当前 $g_\pi=\pi_0/\bar\pi_0$ 在模42、14为1。
+非零真实锚 $\sigma(\delta\gamma_7z)$、$\sigma(\gamma_7z)$
+由原 sigma 核定标两个 whole 核均为 $\beta$。
+$A_0=2J'/\delta$ 是固定 p-unit 拉回，故也有同一完整核。
+s、d 的 whole 核已由 R764 给出，亦为 $\beta$。
+
+这些轴与 t、C、$H_1$ 正交，保持全部伙伴。
+$\mathcal T$ 固定 $A_0,s,d,H_1$，只在 t、C 上乘 $\omega^2$，
+所以以上整个核也适用于 $h_W$。
+纯 C 的六角平均 $\mathscr P_C$ 与这些核相容。
+
+令 $\Pi_L=\bar L^tL/N(L)$，并定义真正的帽平面缩放
+$$
+P_{\widehat H,z}
+=I+(z-1)(\Pi_{A_0}+\Pi_s+\Pi_d-\Pi_Y).
+\tag{8}
+$$
+$(A_0,s,d)\mapsto(Y,\hat s,\hat d)$ 的行列式为1，且
+$$
+\operatorname{Gram}(\hat s,\hat d)
+=\frac1{17}\begin{pmatrix}32&-2\\-2&15\end{pmatrix}.
+$$
+(8) 固定 Y、t、C、$H_1$，并同时把 $\hat s,\hat d$ 乘 z。
+因而
+$$
+\{Y,\hat s,\hat d\in p\}=\{A_0,s,d\in p\}.
+$$
+对 $\mu=e_0,h_W$，完整三轴核给
+$$
+\mu|_{Y,\hat s,\hat d\in p}
+=\beta^3(P_{Y,\kappa}P_{\widehat H,\kappa})_*\mu.
+$$
+另一方面，R764 的 whole Y 身份是
+$\mu|_{Y\in p}=\lambda(P_{Y,-\kappa})_*\mu$；
+该映射固定两条帽行。因此限制帽深后，用可逆线性推前的单射性约消，
+得到
+$$
+\boxed{\mu|_{\hat s,\hat d\in p}
+=-\lambda^2(P_{\widehat H,\kappa}R_Y)_*\mu.}
+\tag{9}
+$$
+这里使用整个联合身份，未由 Y 边际推断帽核。
+$R_Y$ 固定帽行，故迭代为
+$$
+\mu|_{\hat s,\hat d\in p^N}
+=(-\lambda^2)^N(P_{\widehat H,u}R_Y^N)_*\mu.
+$$
+在原 $N\in4\mathbf Z$ 上，准确简化成
+$$
+\boxed{\mu|_{\hat s,\hat d\in p^N}
+=\lambda^{2N}(P_{\widehat H,u})_*\mu.}
+\tag{10}
+$$
+q 没有被假定固定帽平面；它的完整变化在下一节支付。
+
+## 4. 原六支在帽返回下的逐项变化
+
+令
+$$
+f=-\bar g/7=-(5+2\omega)/7,\qquad F_0=fH_1,\qquad J=F-F_0 .
+$$
+直接投影给
+$$
+\boxed{
+J=\frac{17+3\omega}{14}\hat s
+   +\frac{17+24\omega}{7}\hat d,\qquad N(J)=72/7,
+}
+\tag{11}
+$$
+而 $N(F_0)=19/7$。所以 (8) 使
+$$
+F\mapsto fH_1+uJ,\qquad
+G\mapsto\frac{72}{7}H_1+guJ,\qquad
+P\mapsto b_YY+uZ_0,\qquad U\mapsto uU.
+\tag{12}
+$$
+
+为不隐藏混次规范，将原 q 唯一写成其实际齐次块的和。
+$d\in\{6,12,18,24,30\}$，允许某块为零；每个 $P_{d,N}$ 都保
+R734 在真实 $(\lambda,\kappa,u,\eta)$ 上的完整系数。
+定义
+$$
+\widehat P_{d,N}
+=\sum_{a+e+g'=d}
+ \frac{[D^aE_c^eG^{g'}]P_{d,N}}{1+\lambda\kappa^e}
+ D^aE_c^eG^{g'}.
+\tag{13}
+$$
+原六支正是
+$$
+q=\sum_d\frac1{6b^{d/6}\Omega^d}
+ \sum_{\zeta\in\mu_6}
+ 1_{\{F-\zeta C\in p^N,\ F+13\zeta C\ {\rm unit}\}}
+ \widehat P_{d,N}((F-\zeta C)/u,F+13\zeta C,G).
+\tag{14}
+$$
+(13) 是原整个 E 次数逆，不能仅在某个新坐标的 E 次数上重作它。
+
+令
+$$
+L_\zeta=fH_1-\zeta C,\qquad
+M_\zeta=7\bar f C+\bar\zeta H_1 .
+\tag{15}
+$$
+两行正交，范数分别为 $26/7,26$，在 $(C,H_1)$ 上的行列式为 $-26/7$。
+经 (12)，(14) 的深门准确冻结为 $L_\zeta\in p^N$；
+因为 $uJ\in p^N$，没有近似误差。
+在该门上，unit 条件仍准确等价于 C-unit。
+
+### 4.1 两条完整 even 核与半特征
+
+清分母后的实际行 $7\delta L_\zeta$、$\delta M_\zeta$
+的度数是546、78。在模2下，第一行的非零候选系数是
+$$
+(1+\zeta,\ \omega+\zeta,\ \omega^2+\zeta),
+$$
+第二行的是
+$$
+(1+\bar\zeta,\ 1+\bar\zeta\omega,\ 1+\bar\zeta\omega^2).
+$$
+每组恰一个为零、另两个非零，其余原输入系数为偶。
+所以两个轴对每个 $\zeta$ 都是原标准 even 半特征。
+全部正交伙伴仍保留，没有 partner-dependent flat twist。
+
+现射线给
+$$
+g_\pi\equiv1+546\pmod{1092},\qquad
+g_\pi\equiv1+78\pmod{156}.
+$$
+这由原模4的 $g_\pi=3$ 和模3、7、13的 $g_\pi=1$ 合成。
+两 whole Heisenberg 交织均为 scalar；
+真实锚 $\Theta(\delta\gamma_7\gamma_{13}z)$、
+$\Theta(\delta\gamma_{13}z)$ 继承原 $\Theta$ 的核心 $\beta$。
+故两条实际轴的绝对 whole 核都准确为 $\beta$，
+而非未定符号。这也对 $\mathscr P_Ce_0,\mathscr P_Ch_W$ 成立：
+C 的六角旋转只置换 (15) 中的 $\zeta$，所有轴均有刚付的同一 whole 核。
+
+### 4.2 完整 L 返回与 M-unit 第二项
+
+在本节固定 $\zeta$。写
+$$
+C_\perp=C+\frac{7\bar\zeta}{26}L_\zeta
+       =\frac{7f}{26}M_\zeta,\qquad
+H_\perp=H_1+\frac{7g}{26}L_\zeta
+       =\frac{7\zeta}{26}M_\zeta,
+$$
+$$
+K_\zeta=J-\frac{36}{13}L_\zeta,\qquad
+E_{0,\zeta}=14\zeta C_\perp,\qquad
+G_{0,\zeta}=\frac{72}{7}H_\perp .
+\tag{16}
+$$
+返回 $L_\zeta\in p^N$ 后，(14) 的三个参数完整变为
+$$
+\boxed{D'=L_\zeta+J,\qquad
+ E_c=E_{0,\zeta}+uK_\zeta,\qquad
+ G=G_{0,\zeta}+guK_\zeta.}
+\tag{17}
+$$
+例如 E 参数中 L 的系数是
+$19/26-91/26=-36/13$，故这里保有两部分，未只返回 F。
+
+C-unit 准确返回 $C_\perp$-unit，即 $M_\zeta$-unit。
+M 核固定 Y、t、帽平面、$L_\zeta$ 和 J，只缩放
+$E_{0,\zeta},G_{0,\zeta}$。所以 unit depletion 的整个多项式权为
+$$
+\boxed{
+\begin{aligned}
+\mathcal Q_{d,\zeta,N}(u)
+={}&\widehat P_{d,N}(L_\zeta+J,E_{0,\zeta}+uK_\zeta,
+                                      G_{0,\zeta}+guK_\zeta)\\
+&-\beta\,\widehat P_{d,N}(L_\zeta+J,\kappa E_{0,\zeta}+uK_\zeta,
+                                      \kappa G_{0,\zeta}+guK_\zeta).
+\end{aligned}}
+\tag{18}
+$$
+第二项系数是 $-\beta=+\lambda$，不是原 C 分支中的 $\eta$。
+$\eta$ 仍在原 $P_{d,N}$ 的真实系数内。
+M 同时缩放两个参数，故 (18) 不能与 (13) 的原 E 次数逆免费抵消。
+
+定义
+$$
+\widetilde\Phi_N(u)
+=\sum_d\frac1{6b^{d/6}\Omega^d}
+      \sum_{\zeta\in\mu_6}\mathcal Q_{d,\zeta,N}(u).
+\tag{19}
+$$
+在 $\mathscr P_C$ 平均来源上，对不含 C 的其余测试，
+六项积分相同，可以固定 $\zeta=1$ 并取消 $1/6$。
+此时必须仍用 $\mathscr P_C$ 来源，不能把一个单支与未平均来源相认。
+
+## 5. 原共同首行的完整五变量返回
+
+R767 给出的真实五伙伴来源为
+$$
+\mathcal M_5=\frac1{84}\,
+ \nu_{B_3}(C_0)\boxtimes\nu_\sigma(\xi_2)\boxtimes\nu_\sigma(d)
+ \boxtimes\{2\nu_{f_3}(S)\boxtimes\nu_{B_3}(B)
+                     +\nu_H(S)\boxtimes\nu_{P_3}(B)\},
+\tag{20}
+$$
+其中 $S=\delta s,C_0=\delta C$，
+$$
+B_3=-y_b\sigma_b^3,\quad P_3=\sigma_b^3,\quad
+f_3=-y_b\sigma_b^6,\quad H=(x_b^3-2b)\sigma_b^6.
+$$
+它准确等于 $\Omega^{-1}\pi_*(t\,\mathscr P_Ce_0)$，保全部五个伙伴；
+$h_W$ 的对应来源是 $\omega\mathcal M_5$。
+
+置 $\ell=n-N\ge0$。对任意完整有界测试
+$f=f(Y,\hat s,\hat d)$，(10)、(17)、(18) 给
+$$
+\boxed{
+\begin{aligned}
+&\Omega^{-1}\int_{\substack{\hat s,\hat d\in p^N\\ U\notin p^n}}
+ t\,q\, f(Y,\hat s,\hat d)\,de_0\\
+&=\lambda^{2N}\beta^N
+ \int_{U\notin p^\ell}\widetilde\Phi_N(u)\,
+ f(Y,u\hat s,u\hat d)\,d\mathcal M_5 .
+\end{aligned}}
+\tag{21}
+$$
+这里只在 f 不依 C、$H_1$ 时将它移到 (18) 两项之外。
+如果另附这些伙伴的测试或切集，第一项必须配
+$f\circ P_{\widehat H,u}\circ P_{L_\zeta,u}$，
+第二项配
+$f\circ P_{\widehat H,u}\circ P_{L_\zeta,u}\circ P_{M_\zeta,\kappa}$；
+两项不可合成 (21) 的单个 f。
+若新增测试也不保纯 C 平均，必须回 R767(19) 的未平均边界。
+这些限制不影响下面的全部原 Y、帽域、U、P 和 $E_\perp$ 观察。
+
+特别，R764 的真正同域首行有无歧义的精确式
+$$
+\boxed{
+\int_{\mathcal D^\infty_{n,N}}\frac{t}{P}q\,de_0
+=\Omega\lambda^{2N}\beta^N
+ \int_{\substack{Y\ {\rm unit}\\ U\notin p^\ell}}
+ \frac{\widetilde\Phi_N(u)}{b_YY+uZ_0}\,d\mathcal M_5.
+}
+\tag{22}
+$$
+另附精确 t-unit 时，右边乘 $1-\beta\kappa$；
+其余 t 环带归一系数按 R764 保留。
+$h_W$ 的 (22) 乘 $\omega$。
+若附原物理 $v_p(E_\perp)=N+r$，右侧附其真实 $r$ 环带；
+(18) 两轴都正交于帽平面，故此前该环带确实不动。
+
+## 6. 原失败轴的 whole 第300层核，无新射线
+
+为把一个真正的 U 浅条件完全转为有限正矩，清单位后写
+$$
+\boxed{
+U_0=17\delta U
+=(1,-15,11+21\omega,10+21\omega,11\delta,-46\delta).
+}
+\tag{23}
+$$
+这是原六输入中的整数行。其范数准确为
+$$
+N(U_0)=7599=3\cdot17\cdot149,\qquad N(U)=149/17.
+$$
+前五个系数模2非零，最后一个为零，故是标准 odd 半特征。
+U 正交于 Y、t、C、$H_1$；$\mathcal T$ 固定 U。
+因此整个 U 轴的 theta 空间是原 canonical
+$\mathcal S_{7599}^{\rm odd}$，保全部伙伴。
+C 平均与该轴相容，t 的正一收缩亦与它交换。
+
+现射线上 $g_\pi$ 模2、3为1，模17为 $-1$。
+149在 K 中惰性；其剩余 norm-one 群阶150。
+于是，不加任何149同余条件，
+$$
+g_\pi^{150}\equiv1\pmod{2\cdot7599}.
+\tag{24}
+$$
+$p>163$ 已使全部清分母为单位。
+原 odd canonical Heisenberg 规范与不可约性因而给
+$$
+K_{7599}^{150}=\epsilon_p I
+$$
+于整个空间；此时尚不猜 $\epsilon_p$。
+
+付其绝对平方，取
+$$
+a_*=47\delta,\qquad b_*=18\delta,\qquad
+N(a_*)+N(b_*)=3(47^2+18^2)=7599.
+$$
+真实非零两 sigma 联合
+$$
+\sigma(a_*z-\bar b_*w)\sigma(b_*z+\bar a_*w)
+\tag{25}
+$$
+两轴正交、变基行列式7599，且 a 为 odd、b 为 even，
+所以两个轴均是同一个标准 odd degree7599 半特征。
+两原独立 sigma 同时深150的系数是
+$\beta^{300}=\lambda^{300}$；
+按两个正交 whole 核返回的系数是
+$\lambda^{300}\epsilon_p^2$。
+变基在 p 处可逆，两个域是同一实际域，两个物理缩放也相同。
+由 (25) 非零，得 $\epsilon_p^2=1$。因此
+$$
+\boxed{K_{7599}^{300}=I.}
+\tag{26}
+$$
+特别，对本文整个原来源及 (20)，
+$$
+\boxed{
+\mu|_{U\in p^{300r}}
+=\lambda^{300r}(P_{U,\kappa^{300r}})_*\mu,\qquad r\ge0.
+}
+\tag{27}
+$$
+这不是声称一层 U 核为 scalar。未经支付的单层第二态没有被省略；
+(27) 只使用已定标的完整第300幂。
+
+## 7. 一个真实固定深度差的五条件矩
+
+现在取原整数
+$$
+n=N+300,\qquad m\ge n.
+\tag{28}
+$$
+这个选择仍是 R764 的原共同域，未取极限代替有限域。
+令
+$$
+R_U=P_{U,\kappa^{300}},\qquad
+\Psi_N(u)=\widetilde\Phi_N(u)
+          -\lambda^{300}\widetilde\Phi_N(u)\circ R_U.
+\tag{29}
+$$
+因为 $R_U$ 固定 Y，(27) 给真实完整来源恒等式
+$$
+\boxed{
+Y_*(1_{U\notin p^{300}}\widetilde\Phi_N(u)\mathcal M_5)
+=Y_*(\Psi_N(u)\mathcal M_5).
+}
+\tag{30}
+$$
+这是原 U 浅失败条件的第二项，不是另加的中性测试。
+所有权均完整转置；特别 $R_U$ 一般改变 J、$K_\zeta$ 和 $Z_0$。
+
+设 $\mathbb T$ 是 R767(33)–(35) 的固定单位三角矩阵，
+$r_i=5+6i$。原共同条件来源的全部五坐标准确为
+$$
+\boxed{
+\begin{aligned}
+m_{i,N}^{\rm nat}
+ &=\frac1{b^i r_i!\Omega^{r_i}}
+   \int Y^{r_i}\Psi_N(u)\,d\mathcal M_5,\qquad 0\le i\le4,\\
+\operatorname{coord}\left[
+ \Omega^{-1}Y_*(t\,1_{\hat s,\hat d\in p^N,\ U\notin p^{N+300}}
+ q\,e_0)\right]
+ &=\lambda^{2N}\beta^N\mathbb T^{-1}
+   (m_{0,N}^{\rm nat},\ldots,m_{4,N}^{\rm nat})^t .
+\end{aligned}}
+\tag{31}
+$$
+(31) 是同一个原 q 的实际五条件矩，不是未切全域的 (R767)(26)。
+它只需 (20) 上的正矩：
+q 最高权30，$r_i\le29$，所以五变量总正次数不超过59；
+还原 t 首矩后，原六 sigma 总次数不超过60。
+原 $p>163$、全部整分母和真正 $\lambda,\kappa,u$ 范围完全足够。
+
+同一条件来源仍在原裸 $\mathcal S_{34}$、type5中：
+每个权方向都在 $Y^\perp$，所有齐次次数为 $0\bmod6$，
+U 的第300层返回也固定 Y。
+故其两算术幅度和完整三维 primitive 块必须按 R767(36) 全部读取。
+(31) 没有据有限维数或裸非零猜某个幅度非零。
+
+在固定 p 下，原 $P_{d,N}$ 的系数是同一个
+$K(\lambda,\kappa,u,\eta)$ 有理式；其分母在 $u=0$ 为单位，
+由 R734 的原整逆支付。式 (17)–(19)、(29) 对 u 只有非负幂。
+因此 (31) 在清掉原单位分母后是明确有限 u 多项式。
+$\lambda^{300}$、$\kappa^{300}$ 仍是实际代数参数，未以
+$\kappa=0$ 或辅助域数值代替。
+各块 $\Omega^{-d}$ 与正矩周期逐项相消，所有来源坐标在 K。
+这一有限 carrier 允许以后按 R753 在真正有理系数上取 $u\to0$；
+但实际非零条件必须由 (31) 自己支付。
+
+## 8. 精确有理观察、浅域与总中央边界
+
+在 (28) 的同一域，(22) 还给完整有理观察返回
+$$
+\boxed{
+\begin{aligned}
+\int_{\mathcal D^\infty_{N+300,N}}\frac{t}{P}q\,de_0
+=\Omega\lambda^{2N}\beta^N\int_{Y\ {\rm unit}}
+\left\{
+ \frac{\widetilde\Phi_N(u)}{b_YY+uZ_0}
+ -\lambda^{300}
+  \frac{\widetilde\Phi_N(u)\circ R_U}
+       {b_YY+u(Z_0\circ R_U)}
+\right\}d\mathcal M_5 .
+\end{aligned}}
+\tag{32}
+$$
+两个分母不同，不能只在权上作 (29) 而冻结观察。
+它们均为单位，且与 $b_YY$ 相差 $p^N$，故
+$$
+(32)=
+b_Y^{-1}\Omega\int_{Y\ {\rm unit}}Y^{-1}\,
+ d\nu_{\mathcal L_N}
++p^N\mathcal O,
+\tag{33}
+$$
+其中 $\mathcal L_N$ 是 (31) 的实际条件来源，已经包含
+$\lambda^{2N}\beta^N$。若需要更高阶，必须继续 (32) 的两个
+完整分母，不用 (33) 代整个恒等式。
+
+R764 的两个 W 行之差仍由其式(40) 给出：
+原 $\lambda^n\beta^m\kappa^m$、$d_p$、
+$1-\beta\kappa$（若有精确 t 环带）和全部高阶对数尾都保留。
+本篇只把其中一条真正条件首行变成 (31)、(32)；
+没有把它认成原未加权 $J'_S$ 或 $J'_T$。
+
+全 t 分层仍包括 $m<N$ 的三个浅独占支、
+$N\le m<n$ 的三条不同失败支、$m\ge n$ 的共同深支和整个深尾。
+原 $I/O/X$、R737 的 cd 返回 E-unit、reference 项和原 T 相反外部
+全部继续存在。即使后续证明 (31) 的某个实际负一行非零，
+仍须在这个完整分割中支付另一条原中央约束，才可能关闭主目标。
+
+## 依赖与执行范围
+
+- [R764](R764-y-preserving-six-axis-and-three-cd-exterior-domains.md)：原整框架、Y/t 核、三个真实 CD/O 域及规范观察。
+- [R767](R767-native-t-moment-and-complete-five-partner-boundary.md)：完整五伙伴来源、五条件坐标与算术/primitive 投影。
+- [R734](R734-joint-paid-tests-and-complete-type-five-arithmetic-plane.md)：未改的最终测试、整逆、全部参数与周期归一。
+- [R529](R529-original-low-j-k-core-and-complete-st-carry.md)、[R533](R533-original-degree-six-two-variable-kernels-and-negative-moment-interface.md)：标准小度数的完整核与绝对规范。
+- [R737](R737-common-depth-elimination-and-native-primitive-strips.md)：原 cd 与 paired 外部的完整范围。
+- [R753](R753-discontinuous-point-projectors-and-finite-carrier-limits.md)：有限 carrier 与无限点投影的区别；本篇只使用有限有理坐标。
+
+本篇由显示的完整格、半特征、原 whole 核及真实域恒等式证明，
+没有新增数值运行或输出文件。式(31) 的具体数值幅度另由原生成算法公开计算；
+此处不把尚未执行的计算写成非零结论。
