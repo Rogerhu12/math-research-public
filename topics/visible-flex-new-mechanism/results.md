@@ -478,3 +478,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R369：原cubic第1矩恒等与八维真实锥支付完整ZW
 
 [完整证明](results/R369-vanishing-first-cubic-and-eight-target-control-pay-the-ZW-product.md)，18527B/SHA256 f4f686b716315405b129cca29ad179d382854db8018d78871462af2d60cecd1b。原FL1/FU1/FZ1在任意紧u上恒零，L保P的非零左常尾；合法紧WD变分给whole QZW1=−I1(Zff,WD)−area。旧面积后只有sin²/cs，真十二copy/全偶反射把整个ZW化一个实际值。新增行经ZW1−(a+b)PZ2为2a∫[dxuv+(2e−d)x²v²−3ex³vr]t²；正母四比值Taylor minor720/同Fnew最大minor给四χ，保真实copy后2高次/3二次/3常量八维满秩。48实际列严格正核/同finiteN完整八根保持旧18面积/R364T/Ψ/三F/四乘积而付ZW全部相位。root逐cubic尾IBP、两行变换、jet720、copy秩核；仍9位置非rank，R372继续，不授全period/新旧几何移植。
+
+## 原十二LP内primary/SOC配额：设计与三源已完成，尚未运行
+
+[设计](notes/twelve-LP-primary-SOC-pair-reservation-design-20261115.md)，17590B/SHA256 9151aa68efd72b24b3ef80445a4aba4a185bfb53b5dd49f28449e668385b5407。准确当前best43753280651的22bank/两池/159接续；r≥5/4/3/2给primary3/2/1/1，r≤1不启动新primary，保SOC机会但不保证eligibility/成功且可能未用1 LP。仅cfg副本的局部绝对ceiling，原total12/40values/120active/单LP10s/真实门/RHS/原半径全保；frozen完整修rho/incumbent/后加cuts/tie不变。same-layout改接已付before-call收费入口，所有真实数值数组不变。3新源码分别11361/43551/17615B；root全文核core/dev/显式outer对原完整差异及原solve_remembered_primary/solve_rebound_correction。4新组仅源码，未称通过；随后接5源绑定和单次新公开科学，不回历史较差m10/不重复旧阶段。

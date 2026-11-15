@@ -126,7 +126,7 @@ m5/6各用3inner LP；m6旧growth把B提.00025，m7全步fineκ58.000002383失�
 
 [历史m10](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)已付same-y/xrebind普通值0、真J和唯一SOC；旧hold8false及扩池ratio.937958保，历史z更差不回退。五源[设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)/[接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)及旧check均只读消费。
 
-下一有证据的新子问题：在原12 LP总额内，为已经全网准确定义且修rho的incumbent预留SOC机会，逐原式保binding/RHS/实际门/40值/120active与原fallback；先付明确控制器及只覆盖新逻辑的人工，不延预算/不重上一阶段。收益待唯一新公开运行，不预宣。
+[完整新配额设计](notes/twelve-LP-primary-SOC-pair-reservation-design-20261115.md)及core/recovery/development三源现已冻结发布，尚未执行：剩r≥5/4/3/2时本primary最多3/2/1/1调用，r≤1不起新的不配对primary，可能留下1未用LP。frozen repaired-incumbent/cut最终残差/严格tie全保，仅独立cfg副本下调本调用绝对ceiling，outer/SOC仍12且cfg/hash不改。same-layout接已付charged wrapper，在调用前真实收费，expanded/cache/全部旧guard和半径fallback保。22bank构造器直恢复真正orderedcheckpoint，首factory仍验context/hash；只新4组开发，无HiGHS/geometry/旧check。root已全文核设计/三源及原solver/chargedSOC接口，tail接transfer/audit后唯一新公开运行；收益必须读实际，未触不重复等触发。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门

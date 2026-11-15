@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **m10扩池SOC首成功**：[结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/b2d9ce66。已付same-y/xrebind普通值0、8193×159真J、原RHS唯一SOC，历史ηz .266365153176/fineκ57.9999833915，原门过/.26欠。旧hold仍false：标签1/字段5/版本1/真学习1；y学1/1、z0/0、扩池ratio.937958；原三失败保。z差于主线best，不重m10。
 
-**覆盖保径首实际**：[完整结论](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)run43753280651/job132931742484/source52a48854。4新组26checks过/旧执行0；7模型8trial/12primary LP/0SOC，η.266347520761→.266324155092/fineκ57.999989994。m6旧growth提B.00025，m7全步fineκ58.000002383拒且LP耗尽，half过后B.000125/streak0。新qualified/后继使用0，下降不归新法，不重同阶段。末physical1275ae1d…、池4419/4277/bank22(c952c53a…)；18共享值+2末验，active54.926908441s/total300.339942435s。原门/旧metric过，.26/主门欠；下一原12LP内primary/SOC机会分配。原cfg/g/b0/159不改。
+**覆盖保径首实际**：[完整结论](notes/expanded-layout-SOC-hold-first-actual-result-20261115.md)run43753280651/job132931742484/source52a48854。4新组26checks过/旧执行0；7模型8trial/12primary LP/0SOC，η.266347520761→.266324155092/fineκ57.999989994。m6旧growth提B.00025，m7全步fineκ58.000002383拒且LP耗尽，half过后B.000125/streak0。新qualified/后继使用0，下降不归新法，不重同阶段。末physical1275ae1d…、池4419/4277/bank22(c952c53a…)；18共享值+2末验，active54.926908441s/total300.339942435s。原门/旧metric过，.26/主门欠；下一[原12LP配额设计](notes/twelve-LP-primary-SOC-pair-reservation-design-20261115.md)已连三源：剩r≥5/4/3/2授primary3/2/1/1，r≤1不起新primary；独立cfg副本ceiling保原全12/40/120与完整repaired incumbent。22bank真入口、same-layout SOC复用原before-call charged wrapper；新4组未执行。两driver接当前best，原cfg/g/b0/159不改。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
