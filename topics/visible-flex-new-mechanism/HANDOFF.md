@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **f
 
 reserve actual43665345551/source0aae9a6a三次完整SOC接纳到 **512de71f983e86521dda4250e387ed1449ce29626763f49accde94bdc89666a9**；384/768 κ56.981941121/56.981967571，η.267199536620/.267199566824。fine metric余4.332e−7、strip余4.371e−6、cap余2.22e−16，原物理门全过；55未到。完整notes/curvature-soc-metric-reserve-first-actual-result-20261115.md，全部系数/4240粗+1310细池保存。
 
-**metric recovery actual43667582193/source4144ca75完整结束、零新接纳**。同g/b0/163、硬κ58、新目标13/50、旧167/625；最终仍512de。12LP=8主+4SOC、33粗细值、活动39.029s/总355.147s；所有已评估试探非metric硬门通过，但真实η均未下降。末池4317/2631全部保留；full gzip627113B/bdba17a2，raw5252818B/f06c20fa，原生summary68139B/5fa9db85。完整表已读，正解析已保存实际Schur余差，区分提案目标偏差和非线性误差，不重算此实例。
+**metric recovery actual43667582193/source4144ca75完整结束、零新接纳**。同g/b0/163、硬κ58、新目标13/50、旧167/625；最终仍512de。12LP=8主+4SOC、33粗细值、活动39.029s/总355.147s；所有已评估试探非metric硬门通过，但真实η均未下降。末池4317/2631全部保留；full gzip627113B/bdba17a2，raw5252818B/f06c20fa，原生summary68139B/5fa9db85。完整表及保存实际值已读：23/24粗与6/7细真实Schur slack下降而η上升，另有非线性余差；详notes/metric-budget-recovery-first-actual-result-20261115.md。
 
 下一将两条实际谱误差η±的固定ε=1e−8平滑上界作为软提案，真实η/原Schur/全部物理及κ58仍硬验；新提案须继承失败新池、同19输入链再接本次全报告。完整粗/细两jet、同y真实SOC残差、12LP/40值/120s保持，先人工新导数/语义再公开Actions。不得宣.26或55通过。metric远离1e−6；τ.061仍需κ≤1000/61及全时/非局部reach。有限径向差不是误差包围。
 

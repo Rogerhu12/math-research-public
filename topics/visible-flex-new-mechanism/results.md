@@ -365,3 +365,5 @@
 - [R169：真实幂路径的锐利四次门与可实现Gram方向](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md) — k=Kh^p保真ω，完整最高K² action化A(p)X+D(p)Y，sharp inf X/Y=(2p−2)²/9。全实p的A≥0与显式Ω≥0准确刻画该路径子类，Ω首次保留f；固定有限flat逼近、有限K及时间缩放给严格负方向。四单项Gram曲线ζ真实L²可逼近，ζᵀGζ=Ω，不把任意负特征向量当真路径；无新研究计算。
 
 - [R170：固定k完整0/2/4 action的锐利充要门](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md) — 固定κ，A=a+bκ²、D=ℓ+mκ²+25A/9、B=b2(κ)、C=a_static(κ)，完整路径非负iff A,D,C≥0及B+2√C(4√A/3+√D)≥0。p=1/h给锐利HW≥(4√A/3+√D)²Z²；正平端近等号构造覆盖D=0、A=0，不能漏临界边界通量。等价全有理正t,s线性行可从已存14族直接形成，保同一μ；只固定k子类，不宣一般两函数正性。
+
+- [固定曲率58的首次度量恢复：零接纳与真实目标偏差](notes/metric-budget-recovery-first-actual-result-20261115.md) — actual43667582193/source4144ca75同g/b0/163，12LP与33值后仍512de、η.267199566824/κ56.981967571。24粗/7细试探全部非metric硬门通过；其中23粗/6细真实全网Schur slack降低，真实η却全部升，模型2还存在独立非线性预测余差。全部4317/2631池和full输出保存，.26/旧55均未达；下一只将软提案改成固定ε两谱支，全部实际门和资源保持。
