@@ -279,8 +279,10 @@ S使用U=w+L∂qγ(f)，固定fL∂=0使J逆准确nilpotent，并在E_s^+增加
 在ρ+=2^-33554432、T0=2^1500000下，同一3500/400归纳给
 完整body F=0、真实far bγ=0和holonomy；相对同一个实际seed的
 E1856变化<2^-1700000000。
-S40–41还由真深层profile及完整mean证明scalarheight的物理a-jets C²平延，
-保a=ρr及所有ρ费用。整immersion/frame/同轴与最终reach另由coframe/几何核。
+S40–41由真深层profile及完整mean给scalarheight物理a-jets C²平延，保全部ρ费用。
+T§10现在由同一coframe/Ω/α/X积分与显式三个二阶jet，证明真实C²整平盘；
+core/waist全匹配后才由共同quarter旋转与唯一腰平面推出镜像两盘同轴。
+实际盘距、G17/G24及最终embedding/reach仍须另核。
 S当前原解析γ域的证明完整；接已成RG的粗γ需要另明确H8193门，不能把8176冒8193。
 
 [D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
@@ -378,13 +380,19 @@ T新增§9现已准确接原[完整两迹与腰反射M](results/R133-supplement-
 不新增函数位置方程。腰a'=E'=B=0及真上平盘给M9–11镜像闭C²浸入；
 下半面只是同一个上半面的镜像，不是另一个独立帽问题。
 
-这些条件仍须真正求解。跨端ΔHp、未screen meanheight/aw(L)/165、
+T§10已完成S40–41之后的整空间平盘接口：gh的C¹极限给Ωa→0/Ωθ→1，
+同一次frame确定唯一圆心c与phase，Xaa/Xaθ/Xθθ显式极限与平盘仿射式完全相接。
+因此包括材料中心的整盘是真C² immersion，且满足全角材料作用。
+只有T23与腰条件真正解出后，quarter旋转保持唯一腰平面，才得两镜像平盘同轴；
+它们的真实盘距2|zf−zw|并未由本节指定，仍需G17和同对象几何。
+
+完整内core、waist振幅/设计ν等条件仍须真正求解。跨端ΔHp、未screen meanheight/aw(L)/165、
 一个整体λ以及bF/bQ仍是同一次重建的实际输出，必须付G17/G24几何误差。
 它们在自由安放路线中不是额外指定的世界坐标等式；
 若另给独立flux/height/frame数据，原A/B的一般增广逆义务仍适用。
 
 继续完整无限Green/strong-return/cutoff、真ν响应及实际core/帽/tail匹配，
-再在同一个闭G上核平盘、全域几何和README验收，最后用P静态marker相位族。
+再在同一个闭G上核全域几何和README验收，最后用P静态marker相位族。
 
 ## 8. 执行规则与当前可恢复记录
 

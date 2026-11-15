@@ -333,3 +333,9 @@ root全文读SCI/worker/flow/manifest，newton独核complete_coefficient_jets、
 2026-11-15 10:32:10 UTC — root全文审RG17096B/SHA90acb31e…、重新全文对P94及M；tail独核RG2–4/8–22/26–29。真实两端kernel basewidth降0，512/31与2048/63、完整mean/squarezero module/半fB Cauchy均原样；E'>39194024保94链/G所有整数小量，不外推M20高阶、不作粗γ复角求值。特别核清整个a94(γ)/Γ*(a94)可变，仅固定γ之collar修补保principal值图。RG独推并替换F body种子解析门，fixed H8176条件保；新far H8193不能由此免费增加。H压缩前全文指0f2a9fc:HANDOFF.md；本次只读main a0b398929c1e092a75c897306c97dc756436950f两README不变。
 
 2026-11-15 10:37:24 UTC — root全文核S初稿25638B及final全部diff，final30070B/SHA1ddbeded…独推。phase独核S14–17/25–29，newton独核S18–24；root再亲读原mean M1–4/24/28–30、controlled C2/6–7、深U2，核S40净124−5/256及mean251−10/256，ρ物理a转换完整，平端只授scalarheight。固定affine/非径向B和两comm、FU完整inverse及额外trace均真付，S39相对原seed强差不拿affine粗界替代。body+far在原解析γ域同时成，粗γH8193另接RG，core/几何未偷授。H全文压缩前指24bf4f9:HANDOFF.md；root亲读Green10:34 process45147B/13129188…，16groups仍非final；最新runner pull至1d98178…两README空。10:32上次非FF已即时CLI失败后重建再推成功，本次只读main ae1b0fbee1957fefb8560778c73ede96d563c87b亦两blob不变。
+
+### 2026-11-15 10:43:21 UTC — exact tail 的真实C²整平盘与条件同轴
+
+root复核T新增§10全文，原§1–9 17663B逐字保持；newton独立核T27–34并亲读S39–41通过。由physical a=ρr的完整非mean/mean二jets和w三jet取得gh C¹极限，随后同一Ω/α/X积分及显式Xaa/Xaθ/Xθθ完成真C²整盘。整个材料盘含中心，第二形式0，全角equivariance准确。仅在core/waist全匹配之后，共同quarter旋转才强制唯一腰平面水平，故镜像两盘同轴；真实盘距/几何没有预设。
+
+正文24280B/blob278763139a0a0300899acebae3c63774916f2791/SHA256 db1253a632bf4ebbc407763bec01280316dd8f5efb6517c2756038ac6edeefa8。推前只读main 821bf8a0bd5c9e732809128033e2908273944f85 两README身份未变。仍持续core/高逆/ν等，不授闭嵌入完成。

@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:37:24 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:43:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 10:24:25定时及10:32非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:34:03.729439→1d98178f310505ebee0172836d64fc0a4dfa74f6，20次两README diff空；ref不冒pull，继续每小时CLI尝试。
-最近只读README核：ae1b0fbee1957fefb8560778c73ede96d563c87b；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-压缩前H全文：24bf4f9c557eb4b2aded767ad3e8871ae02cea36:HANDOFF.md；串连0f2a9fc/38e1f57/25855ae及原notes归档。所有旧输入完整身份、成功/失败、restore与未付门保留；results/open归档按前H/原链接恢复。
+最近只读README核：821bf8a0bd5c9e732809128033e2908273944f85；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+压缩前H全文：e3878dd06243105bc0204922b044aa2a4df8f3df:HANDOFF.md；串连0f2a9fc/38e1f57/25855ae及原notes归档。所有旧输入完整身份、成功/失败、restore与未付门保留；results/open归档按前H/原链接恢复。
 
 ## 总验收、对象和最终族
 
@@ -43,11 +43,11 @@ P/83381f93…新94链及G/7570b240…真B collar给seed E8192<2^-54866996、ordi
 RG/90acb31e…已用M零宽Φ和真long右宽0→B宽7L/16，给粗复偶γA0/rγ≤1/128的同94/G全种子。E'>39194024及全部指数保，B端高jets来自真实分离端kernel，非unknown复角；Γ*(a94(γ))可变化。固定realγ另付H8176/rγ≤2^1048576后，F/16b2f923…原body Nash不再需解析γ。
 新S/1ddbeded…已付原解析γ域上的body+真实far：U=w+L∂qγ(f)，fL∂=0故J逆准确nilpotent；固定E_s^+加2^440||fB||H(s+3)，原source1734/bg1796不增。actual proxy真行经Pμ与S22两行微分恢复额外端导，source/mean/Hp全保。
 固定affine cγ、非径向Bγ及二次Nγ分别记账，真实两comm不冒L0交换。ρ+=2^-33554432、C+=2^167772160(1+Bbarγ)^8、T0=2^1500000，3500/400归纳给F(u∞)=0、bγ(u∞)=0及完整holonomy；||u∞−useed||E1856<2^-1700000000。
-S40–41用E22/J13/M28–30及真实深profile，保ρ、μ、ζ全部单位，证明总scalarheight在a_flat>0的物理a-jets C²常数延拓。尚不独自授整immersion/frame/同轴/reach。S目前仍原解析γ；下一明确接RG+固定H8193≤2^1048576 rγ，不能把8176免费提高17阶。
+S40–41保全部真实单位给总scalarheight物理C²平延；T§10/db1253a6…已由同一coframe的C¹极限、Ω与单次α/X积分补全真实C²整盘，内盘全角作用准确。S粗域下一接RG+固定H8193门，不能由8176免费加17阶。
 
 ## 单G几何与继续执行
 
-T/9780cbc0…§9接原M/6ead36a1…：真far给同B全四态/曲率mean，meanheight用同一次初值接合，单frame/位置续接。内core(T23)须匹配完整B/C/Cmean及腰u0/振幅/ν；解后径向重建无需另一函数位置方程，腰a'=E'=B=0镜像成闭C²浸入。当前自由安放无两个独立世界锚，一般给定荷不删。
-跨端ΔHp、awL/165、未screen高度、bF/bQ仍是真几何输出；S的scalar平端之后继续T coframe整盘/同一轴，再核同一个G的G14/G17/G24/embedding/reach与四marker，不用任意gauge删跨度。
+T/db1253a6…§9–10接原M/6ead36a1…：真far给同B全四态/曲率mean，meanheight用同一次初值接合，单frame/位置续接。内core(T23)须匹配完整B/C/Cmean及腰u0/振幅/ν；解后径向重建无需另一函数位置方程，腰a'=E'=B=0镜像成闭C²浸入。当前自由安放无两个独立世界锚，一般给定荷不删。
+真core/waist解出后，T10的共同quarter旋转使唯一腰平面水平，镜像两真盘同轴；只此条件结论。实际盘距2|zf−zw|、ΔHp、awL/165、bF/bQ仍待同G的G14/G17/G24/embedding/reach，不用gauge删跨度。
 旧R80/R57/R56按普通删除保历史；后两run43697955403/1删1305312B，commit499ec549b2c32d7205126782835376533739aff7，恢复a39a3783181ae671015efca4c55120d4269ad1c5/path。该提交topic198417837B不含后续小稿，非当前体积保证；完整receipt和其它恢复链见前H。
 继续Green三HY→实际完整Schur、L1/强返回/truehigh、实际core/ν/waist全匹配、RG高域与far转授、单G全域几何。子问题完即接open下一项；未达总验收不收尾，不等用户，不因时长停。

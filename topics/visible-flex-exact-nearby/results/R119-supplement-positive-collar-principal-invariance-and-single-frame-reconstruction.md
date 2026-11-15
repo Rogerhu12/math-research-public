@@ -414,3 +414,152 @@ C0几何比较中的实际锚误差$b_F,b_Q$也仍须包含此次输出变化。
 先得到这一张完整$G$，再冻结全部intrinsic数据并用P的固定marker相位族。
 一般独立source/charge/height接口原样保留；
 当前尚未解出的上述真实方程也没有被本节设成零。
+
+
+## 10. 本次 exact tail 的真实物理 jets、平面圆周及整盘延拓
+
+本节消费新
+[S：nonlinear far straightening与完整graph Nash](R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
+S.38--S.41，补上第8--9节以前单独保留的平端重建接口。
+只对其中已经取得完整零 Darboux residual、holonomy-one和真实内部traces的解使用；
+并非对任意有限角Sobolev场使用。固定该解最终选定的全部intrinsic数据。
+
+**实际径向坐标不混用。**
+深层安装坐标为 $1\le r\le2$，物理半径为 $a=\rho r$，$\rho>0$ 固定。
+设累积平端为 $a_f=\rho r_f>0$。S.40--S.41已经分别保完整非mean与mean，
+并准确支付
+$$
+ z\longrightarrow z_f,\qquad
+ z_a,\ z_\theta,\ z_{aa},\ z_{a\theta},\ z_{\theta\theta}
+       \longrightarrow0
+ \quad\hbox{一致于真实圆周}.                         \tag{T.25}
+$$
+这里 $z_a=\rho^{-1}z_r$、$z_{aa}=\rho^{-2}z_{rr}$、
+$z_{a\theta}=\rho^{-1}z_{r\theta}$；不以安装尺度的导数代替物理导数。
+非mean与mean的净深幂分别为 $124-5/256$、$251-10/256$。
+原controlled profile C.7同时给
+$$
+ w\longrightarrow0,\qquad
+ w_a=\rho^{-1}w_r\longrightarrow0,\qquad
+ w_{aa}=\rho^{-2}w_{rr}\longrightarrow0 .                \tag{T.26}
+$$
+其径向幂分别为 $7/2,2,1/2$，固定 $\rho$ 与真实前缀系数不删除。
+有限接缝的二jet已经由S的真实方程与traces相容。
+因此(T.25)--(T.26)是全层趋近平端的界，不是只沿一列切口的界。
+
+在实际 $(a,\theta)$ 坐标，
+$$
+ g_h=(1+w^2-z_a^2)\,da^2
+             -2z_a z_\theta\,da\,d\theta
+             +(a^2-z_\theta^2)\,d\theta^2 .
+ \tag{T.27}
+$$
+由(T.25)--(T.26)，其系数及一阶导数一致趋向
+$da^2+a^2d\theta^2$ 的相应值。这里真正使用的是 $C^1$ metric极限，
+不是仅有正定性。因为 $a_f>0$ 且 $B,D$ 保原正下界，
+(T.10)的代数平方根和平滑商保持该 $C^1$ 极限。
+沿用(T.12)的 $f,g_1,h$，准确得到
+$$
+ \begin{gathered}
+ f\to1,\quad g_1\to0,\quad h\to a_f,\\
+ f_a,f_\theta,(g_1)_a,(g_1)_\theta,h_\theta\to0,
+ \qquad h_a\to1 .
+ \end{gathered}                                         \tag{T.28}
+$$
+所以同一个真实连接满足
+$$
+                        \Omega_a\to0,\qquad
+                        \Omega_\theta\to1 .             \tag{T.29}
+$$
+(T.12a)也直接给第一式；无需对未知高阶径向导数再作估计。
+
+**同一个角积分的端值。**
+由于 $d\Omega=0$，(T.17)中已选定的同一 $\alpha$ 在固定角上沿有限径向长度有极限；
+(T.29)给
+$$
+                 \alpha(a,\theta)\longrightarrow
+                         \theta+\alpha_f
+                         \quad\hbox{于 }C^1 .
+ \tag{T.30}
+$$
+严格地，先以有界 $\Omega_a$ 得到固定角处的Cauchy极限，
+再用 $\alpha_\theta=\Omega_\theta\to1$ 得到全圆一致极限；
+最后 $\alpha_a=\Omega_a\to0$ 给物理径向一jet。
+$\alpha_f$ 是此前同一次连接积分的输出，未在平端重新选择frame。
+
+(T.17)给 $X_a=e^{i\alpha}(f+i g_1)$、
+$X_\theta=i h e^{i\alpha}$。其径向一导有界，故 $X$ 亦存在全圆端值。
+由 $X_\theta\to ia_f e^{i(\theta+\alpha_f)}$，准确有
+$$
+                    X_f(\theta)=c+a_f e^{i(\theta+\alpha_f)}
+ \tag{T.31}
+$$
+其中 $c\in\mathbb C$ 是一个常数。它与(T.18)的全域quarter平移满足
+$b_0=(1-i)c$。所以圆心由同一已重建的连通面确定；
+不是每层或每个端点新选一个平移。
+
+**真正的二阶拼接。**
+将(T.28)--(T.30)代入同一个微分式，逐项得到
+$$
+ \begin{array}{lll}
+ X_a\to e^{i(\theta+\alpha_f)},&
+ X_\theta\to ia_f e^{i(\theta+\alpha_f)},&
+ X_{aa}\to0,\\
+ X_{a\theta}\to i e^{i(\theta+\alpha_f)},&
+ X_{\theta\theta}\to-a_f e^{i(\theta+\alpha_f)}.&
+ \end{array}                                             \tag{T.32}
+$$
+例如
+$X_{aa}=e^{i\alpha}\{i\Omega_a(f+i g_1)+f_a+i(g_1)_a\}$，
+$X_{\theta\theta}=e^{i\alpha}\{-\Omega_\theta h+i h_\theta\}$；
+没有把一阶极限未经微分证明地升级为二阶极限。
+
+在 $0\le a\le a_f$ 定义
+$$
+             X(a,\theta)=c+a e^{i(\theta+\alpha_f)},
+                  \qquad z(a,\theta)=z_f .               \tag{T.33}
+$$
+(T.25)、(T.31)--(T.32)证明整张空间映射在 $a_f$ 真正 $C^2$ 拼接。
+在材料Cartesian坐标 $(x,y)=(a\cos\theta,a\sin\theta)$，
+(T.33)就是一个固定平面仿射等距映射，因此中心 $a=0$ 也无坐标奇点。
+度量在盘内为 $da^2+a^2d\theta^2$；(T.26)保证与外侧同一目标metric的相应正则性。
+若空间高度约定为 $Z_0-z$，同步使用常数 $Z_0-z_f$，
+不改变这些拼接恒等式。
+因此本次exact tail取得一个**真实完整平盘的 $C^2$ immersion延拓**，
+而非只取得标量高度的平延。盘内第二基本形式准确为0。
+
+该盘对任意 $\tau$ 都满足
+$$
+       G(a,\theta+\tau)=\mathcal R_{\ell,\tau}G(a,\theta),
+ \quad 0\le a\le a_f,\qquad
+       \ell=\{(\operatorname{Re}c,\operatorname{Im}c,s):s\in\mathbb R\}.
+ \tag{T.34}
+$$
+这是固定材料圆盘上的真实全圆作用；外部只需原四重周期。
+本节没有把外部整个面也宣布为旋转面。
+
+**在core和腰条件真正解出之后的同轴结论。**
+此段明确条件于第9节(T.23)的完整core/cap matching和真实腰条件。
+曲率、metric的同一四重周期及一次frame的唯一重建，
+把(T.18)的固定quarter空间旋转从tail传到同一个core；
+没有另选core的旋转轴。腰曲线因此在同一个
+$\mathcal R_{\ell,\pi/2}$ 下不变。
+M.9--M.11给出的腰平面 $\Pi$ 包含这条闭正则曲线。
+这样的曲线不可能包含在一条直线中，
+所以其平面唯一；quarter旋转必保持 $\Pi$。
+绕 $\ell$ 的 $\pi/2$ 旋转只有轴向的实特征直线，
+从而 $\Pi$ 的法向平行 $\ell$，即 $\Pi$ 是水平平面。
+
+因此(T.24)的腰镜像把上平盘映到同轴的下平盘；
+两盘的材料角只带各自固定的相位offset，均满足(T.34)的相同作用。
+设腰高度为 $z_w$，两中心高度为 $z_f$ 与 $2z_w-z_f$。
+其距离 $2|z_f-z_w|$ 是实际一次积分的输出，
+不是本节能任意指定或置零的量。
+两盘互异、所需正高度区间、全域无自交/reach及marker几何，
+仍须原第9节已经列出的同一全域预算。
+
+本节由S的实际强层界补齐了真平盘正则与局部action身份。
+它没有解出尚缺的(T.23)、waist振幅/设计行，
+也没有把已有body/far解自动称为全闭嵌入。
+当这些真实方程和原全域几何门都完成后，
+才可以对最终单个 $G$ 使用第8节引用的固定metric相位--marker族。
