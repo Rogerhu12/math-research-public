@@ -65,7 +65,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [IN genuine Darboux/incoming](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md)d4ac47aa保Yd余项、w1V一阶消去、根β input n^-4/3非HS、全τ27产品/真实ds/两inhom/mean。S仅ordered自然域消；双χ0/χ−4/3与IN38 finite三行/dualH4/3完整，phase≠physicalP96；P22≠SP .005cut。原式/域/预算全保656b本节/proof，未付义务不变。
 [IN首实际全τ scalar](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)8d27fee5：43746008734/1 child0/23门锁，exec81648388/SCI6c49494a/preGit15a81425与94球root核。m3>.9999986308459、24coeff/14运用/六receiver/五inhom已付；density0 H−1/density1 L2/extraD H−5/3、全mean及旧10receipt只读。完整身份/参数/域保656b本节/proof，physical/free四项转DR，incoming/fullR0仍待，大upper非障碍。
-[DR完整physical严格截面](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)0e80f086已解析核：原P⊥/J/L/B/η−1按序，H−1→H−5/3→H−2/3→H−1再(I,Π)/ng/Tq；P22 actualwhole-row与独立两mean。freeR2/R3用新完整产品Cauchy φ4/rφ3，原H savedfreegap直接读，n^-m输入费一次。四完整贡献构成oldcircle CDar；actual新值未跑，严格normalizer/真circle/incoming/waistCE/fullR0仍待。
+[DR完整physical严格截面](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)0e80f086：P⊥/J原窗/η−1/CI/ng/Tq、P22真whole-row/两mean及freeR2/R3四贡献完整。新SCI8f8553ca/worker811685d7/manifest5c7cd6f9/flowed90cf89本次部署，31pins/8AST/25门设计；27小文本全核，4旧binary临时恢复、仅2原archive，body exactSHA但旧bytes未存需runtime记录。原scalar/functionals/rows不重，φ4/rφ3和input费一次；唯一自然run待取，后续normalizer/真circle/incoming/CE/R0待。
 
 [NF完整五输入](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882：同νδ/Qδ的N=∂φV−β(〈Ch〉h+〈Sh〉Qδ)保两mean，Π96导数384；wholeC0/β,G,K与Lipschitz均独立。固定Sδ真97残差/全hL+hH、非零affine/mean及a,c的selected费准确一次；xY≤gY(r+n)+pYq+aYyB+cYyC+wY||b0||。原96腰/ψlift/true dr、全high/phase/wholeC0/H8193/NG所有条件逐字保f010本节/proof；不借右collar。腰norm见WA，实际新第五列仍待。
 
@@ -145,6 +145,6 @@ R/MC保fδ=f0−δb0+δrmean e2−δ²T2−δ³T3、连续repair/offset径导/in
 
 本次依[三份D5 endpoint输出清单](notes/2026-11-15-D5-three-old-endpoint-output-deletion-whitelist.json)ac4eb046，普通删除617556B；只旧step3 grouped/shared516与step4 shared1032浮点输出。精确恢复8870549d52e48343cb43a979a13f9368cb992736同path/bytes/Gitblob/SHA。原scripts/objects/root/H/manifest/proof保，step4浮点root导与strict区间不相容诊断保；不是ODE证书/seed，成功诊断也不得重做。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功、禁force。每小时真pull后查两README只读diff即照新规记H。17:49:19定时/18:09及18:18非FF CLI仍无executor；根规8限UTF8<100KB connector、禁binary/gzip/ref冒pull，下一真CLI≤18:49。runner真pull/容量依完整receipt。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功、禁force。每小时真pull后查两README只读diff即照新规记H。18:44:44定时CLI仍无executor，直接核main b13dfa18两README原blob未变；根规8限UTF8<100KB connector，不把ref读叫pull。下一定时真CLI≤19:44，runner实际真pull/容量见完整receipt。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
