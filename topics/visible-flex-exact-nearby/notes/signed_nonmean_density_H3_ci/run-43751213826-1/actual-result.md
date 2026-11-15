@@ -16,7 +16,7 @@
 Latest complete child stdout record; this is not a terminal certificate.
 
 ~~~json
-{"completed_prefix_budgets_recomputed":0,"original_interval":2912,"reconstructed_reference_subcells":936,"stage":"reference-only-prefix-reconstruction"}
+{"complete_error_H3":{"-1":"[2.089937425379139 +/- 2.48e-16]","1":"[2.089937425379139 +/- 2.48e-16]"},"exact_radial_cursor":"4241515149055463/18014398509481984","new_subcells":1576,"original_interval":2752,"stage":"new-complete-nonmean-transport"}
 ~~~
 
 The one declared new scientific child is active or preparing. No terminal H3 constant is asserted.
