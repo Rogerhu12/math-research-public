@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 03:17:58 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:19:05 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root最近已核runner真pull：2026-11-15 03:15:26.485202 UTC 7a6cdaf64c6b142ff99eb903d201d8feeba45208（完整7908 finish processd2895902…，两README diff空）；receipt03:09:33.130466→bb4fc5c89396e95ef9136a7fbb4851a101a7f920亦已核。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：024d40babc233a946d20c6dd61db56746c04c1c9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：da053359a77ae888ce68ec4465399851f2465c37；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public）；原相关AGENTS无。H9990B完整存notes/2026-11-15-handoff-before-whole-rootpiece-receipt.md（0e6e1b13…），含更早H9914/9918/9850/9797等完整链与旧native/失败/参数。旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学与出版失败必须分记。
 
 ## 同一对象和总完成门
@@ -22,9 +22,9 @@ geometry43584188751/26门是条件结论：同η0真闭C²解/fullC0≤1e−4/|�
 
 有限193 actual43635487128/8负ν误差.003509417445587仅有限，原全L².007490301792401；6391Gram/5970接口/cross/impulse/正high原结果和失败全保，禁重算。
 同F5970 run43654510038：225pin SCIe2cedf88…/CI71b203d5…/manifest8d334ee7…，32互斥范围，原4格不重。root核group11 child0/13门/192新；E先消同F0/1e−35门保。234pin Green3350a96f…/238pin Poisson94e46b22…已装，全5970后back→forward→Poisson，保signed covariance/真BR/独立mean/cut。
-全7908 run43665656138：SCI6b3a47a5…/CI86c2a02b…/341pin baf3a428…，只补7904；root核range00 child0/3门/246新、nativecb7d64d9…。原提案/字节slice仅Actions，全部97 signed九Gram/Robin/mean/high/Hessian必须完整。
+全7908 actual43665656138 finish child0/2覆盖门、63.764484s，4pilot+7904新、0target，完整97 signed九Gram。native4e505e02…1192190B/arrayd6bb53d5…332723B；processd2895902…25679B/summaryca141112…7982B，artifact processd100e7e6…只多final出版checkpoint。真残差HS<.001546601378、Hessian<2.373981e−8、系数尾<7.195238e−10；仅body后验输入，非全帽逆。SCI6b3a47a5…/341pin baf3a428…原键不改。
 端点/high actual43666716585 child0/10门/3stage，native6a845f62…/process9b4aaf5f…；真9/10/mean/正fee/全尾保。trWT<1.132443e−9、κ<13.367450、c*²<.010388235。
-同97后验SCIed62ebe4…/CIa52bb62b…/353pin7473f786…已装，原341/341/238键不改。全7908后先Wcap，真Poisson后三HY；原>60KB过程整件留Actions+真摘要。43668305566只AST/select实成，已核实际boundary artifact process2c52a359…，未授新后验数学。
+同97后验SCIed62ebe4…/CIa52bb62b…/353pin7473f786…原341/341/238键不改。43671537267已真select完整7908+boundary，cap运行；先Wcap后真Poisson三HY。旧Poisson AST-only被拒，不误授数学；原>60KB过程整件留Actions+真摘要。
 L1–16/7a97adc2…保完整low-even97/a与zC,0，(E−E0)(E−E0)*≤c*²Werr仅输出侧；真HY后可按signed tr(HY Werr)收费。先看实际主导再新消费，0旧Gram/target重算。
 
 ## Airy根、第一修正与全源：phase_inverse

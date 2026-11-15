@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **完整7908伴随主体实际通过**：[actual报告](notes/2026-11-15-R133-actual-complete7908-cap-adjoint-residual-Grams.md)43665656138 finish child0/2覆盖门；4pilot逐字+7904新，9个全97 signed Gram、真9/10/mean/无限系数费全保。真实普通残差HS<.001546601378，尚须实际端点/high合成Wcap与真Poisson三HY，不授全帽逆。
+
 - **整原根分片与6径实际完整源**：[actual](results/R133-supplement-actual-whole-physical-root-piece-complete-first-Airy-sources.md)43669106351/10科学门+43671024244/7零数学receipt门；9root/25stage/4329原行全部保。根piece负<1.264156e6、正<9.358131e9；完整最小径仍负<4.653601e20/正<5.805843e20，主导upper来自真邻片2548/2550。继续邻片相关源、修正seam/端口/高逆，不以此收尾。
 
 - **同一径向 Langer 坐标与完整两行源**：[C1–22](results/R133-supplement-common-radial-Langer-reference-and-complete-source-ports.md)保原Tκ²=Kη²及4j频率；用z=j^-2精确保留逐模零阶势/规范，ordinary两源无需径向求导，root混合权及两branch/mean不删。deformed Airy两幅度的主部与势修正已准确展开；仍需实际域/势/传播界和完整nonradial耦合。
