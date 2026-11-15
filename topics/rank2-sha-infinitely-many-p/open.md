@@ -84,10 +84,12 @@ R812同charge基A=S(2z)/64与U−A保全前缀、carry、Smith；SB体积D²/10�
 
 R804/R806/R811/R814的完整十八阶角色、34δ/30/√17、原canonical Soulé类及全AJ平方已付。三个原I_j,-2非零各自等价指定z_j/loc/AJ非零；不认一般Selmer局部化单射。good pair由固定7起始/单侧13塔及Finis19同时选定，先于研究p；真EIw/EBDP、周期和基比保持。
 R817只在p7993证明三原I归一余数2522/2828/3696unit及三固定cycle独立。R818严格复L′(2)的三个球和无条件尾给原三λ及固定Rankin解析秩1；不推出其它p的AJ、原三值线性和或原Sha7993。
-R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
-附录已付实际CM companion的完整理想和、两项q系数及所读U特征−π；LLZ原权四critical germ的中心导数准确为Ωι34²c_jθ⁹Ωp I_j²，simple zero iff原I_j≠0。继续完整分子的cohomology投影与R814指定类的同规范全局比较，不能把两个不同critical对象直接相认。HKM新稿只核对公式范围；R826定理独立用已发表Besser证明，不把未核实预印本作输入。
+R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。R829已证当前同pr选定对角Chow类和分子恒零，不能与R814非零比例比较；须换实际2处向量，张量和杯积公式保。
+附录已付实际CM companion的完整理想和、两项q系数及所读U特征−π；LLZ原权四critical germ的中心导数准确为Ωι34²c_jθ⁹Ωp I_j²，simple zero iff原I_j≠0。R829已关闭当前同pr类的非零比较路线；改实际2处向量后再求全部坏位和原canonical的同规范全局比较，不能把两个不同critical对象直接相认。HKM新稿只核对公式范围；R826定理独立用已发表Besser证明，不把未核实预印本作输入。
 
 已亲核BB arXiv v1的CM–PR引用范围：BDP12 Thm2仅type(1,0)、Thm3.12明确k2/rj0，Remark6未付原(2,−1)；Kato–LLZ全Iwasawa身份不单独给指定特殊化非零。该引用链暂不支付原λ局部非零；不判断BB结论错误，刊本全文尚未取得。 详见[范围核查](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)。
+
+[R829同pr消失](results/R829-same-degeneracy-diagonal-chow-vanishing.md)：R829证明R826同一pr拉回的两个old向量使完整Ξ=pr*Ξ_Y、pr_*ω_f=0，故第四槽恒零；Manin–Drinfeld支付cusp基点后，小对角平坦恒等给整个选定f⊗g⊗h的Chow投影为零。因此该类不能非零比例比较R814原类（R817在7993已非零）；保R826张量/杯积和独立LLZ公式，须改实际2处向量再付全部坏位。
 
 ### 深支：全profile、同R和指定Schur
 

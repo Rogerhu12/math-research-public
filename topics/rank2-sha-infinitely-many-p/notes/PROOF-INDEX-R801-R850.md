@@ -75,7 +75,7 @@
 
 - [R827](../results/R827-original-angular-balance-and-complete-profile-threshold.md)：R827付原全nef精确平方差κ=47b²/12+2bτ−Σ_Nm_i²/n_i−V及0≤B∞C−e≤√(47V/12)，全r2实际τ≤13/4；满自交临界强制十九重数/ u / e的唯一主比。完整整数来源交数B_D.C≤D(B∞C)+35b/6，故p>47b²+156b+38付全部r2 profile（含移动H和+1例外）的真实一维核/下一单位行；唯一Δ/p仍未知，不代全M。
 
-- [R826](../results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md)：R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。与R814指定canonical类的全局比较及分子非零均未付。
+- [R826](../results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md)：R826给原三λ固定低权(2,2,2)对角来源，β_j=η_j⁻²ψ0的level2601及全2/3/17数据、四CM因子/完整Euler/复秩1已付；三ordinary槽只读权二参考，原λ在全纯第四槽。已发表Besser完整杯积给AJ(ωfωgωh)=〈ωf,Ggωh−π⁻¹GhΦ*ωg〉/(1+barπ/π²)，保旧向量degree12、Frob归一及两项反对称。R829已证当前同pr选定对角Chow类和分子恒零，不能与R814非零比例比较；须换实际2处向量，张量和杯积公式保。
 
 - [R824零角增补](2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)：在原完整W_D的零角真实二次帽内，R824的k=13也不可提升：r≥1保实际仿射修正的零角仍二次，四物理块第13行的λ=6a⁻³π3−246a⁻²π2+5042a⁻¹π1−68880π0杀全部首像，实际首商配对36a⁻¹C0u0²e0²为unit。可提升四次候选必须r+2h≥s+1；不扩到仅有共同G0的任意增广来源或全核。
 
@@ -86,3 +86,5 @@
 - [CM–PR引用范围核查](2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)：已亲核BB arXiv v1的CM–PR引用范围：BDP12 Thm2仅type(1,0)、Thm3.12明确k2/rj0，Remark6未付原(2,−1)；Kato–LLZ全Iwasawa身份不单独给指定特殊化非零。该引用链暂不支付原λ局部非零；不判断BB结论错误，刊本全文尚未取得。
 
 - [原mirror迹与十三行尾带](2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：原mirror迹已准确写为−Res_P(AH de/e)−全部边界；同真实长轴的候选主部2Aηde延拓当且仅当对全部H1列留数为零，且唯一。短M额外十三行在r≤11必须保留；即使延拓也只付α*两项相消，未证明裸迹落α*像或指定同R障碍非零。
+
+- [R829](../results/R829-same-degeneracy-diagonal-chow-vanishing.md)：R829证明R826同一pr拉回的两个old向量使完整Ξ=pr*Ξ_Y、pr_*ω_f=0，故第四槽恒零；Manin–Drinfeld支付cusp基点后，小对角平坦恒等给整个选定f⊗g⊗h的Chow投影为零。因此该类不能非零比例比较R814原类（R817在7993已非零）；保R826张量/杯积和独立LLZ公式，须改实际2处向量再付全部坏位。
