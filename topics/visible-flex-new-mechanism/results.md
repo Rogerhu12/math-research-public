@@ -231,3 +231,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R263：全部 Gaussian 面积的 81 标量有序结合律
 
 [R263 完整证明](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)在固定右锚/端芽/实际位置上保存F=Iff、K=Ifg、G=Igg九矩和六面积各四个三向量，共81原标量非rank。左A右B准确并置为M加法及TA+TB+Γ(OA,DB)；展开给四个角cross，双线性cocycle逐式证明结合律，故可按保序二叉树线性次聚合。右inner三矩圆是cross零的充分条件，左circle单独不够；不由结合律授实际逆元或signed成本。幅度γ给二次γ²/四次γ⁴，g反射仅翻odd；任意O2换seed和任意平移须额外完整张量/平移多项式，不能从单位置81值推得。各叶子的多宽度self常数须同一真实母包同时生成，没有自由指定S/C或删除内部历史。root已全篇独核原槽方向、四项展开、结合律与范围；本次仅编号和结果目录相对链接变动，无新计算。
+
+
+## R265：包内伴随方向与正幅完整块准确支付一个有序面积量
+
+[R265 完整证明](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)用8个even ψ平移构成even v及TM3符号的odd伴随w，所有逐点双导数乘积相同，三个真实交叉矩全零；将它们同步嵌入三母包和每个外包。原diagonal二次输出、Lc/Mc以及真实两参数IFT完全保留，完整八副本仍付third，十二副本付Ls/Ms和全部36 odd，全角A−2,−3及共振N=6M保六门。每外包imaginary primitive变真紧，其准确自成本K保留；real primitive仍保cell尾。完整ReQ+=10928nm²a²A−na²Δ(64q+4096)/4−2nK(64αq³+β)+64nqUα(1−q²)(Cν−ℒ)。先固定有限大间距Λ，再选真实正δ能量根，首项使Q+严格正；TM3明确付完整复M4/M1/N1，平移/主尺度及完整包装只给正因子。
+
+与R262同even母包的Q−<0完整块在最终两个不交位置分别解完IFT，选c−⁴=Q+、c+⁴=−Q−即准确Q0。每完整块三矩使真实primitive/面积cross零，六能量保背景二次尾的原IBP后按四次加，故所有此前条件保持。该Q只是一条真实even线性组合，未支付完整A1,−3三外矩/整圆或其他even，也不宣rank、fullperiod、同w ruling或旧同g族。root全文独核TM3、同源密度、紧虚尾/完整正号式、有限参数次序和实际正幅加法；lit独立全稿复核。无新研究执行。
