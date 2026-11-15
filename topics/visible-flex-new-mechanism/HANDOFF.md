@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 新curvature-defect guard首run43766593534：前三5/5/4全过，第4组fixture写只读fixed_zeta失败，零科学。见[首失败](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)及[严格续4](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)。仅删fixture setter及新增付费复用，生产core/outer/transfer不改；原14只读复用、138py+6workflow不变，只执行未付4后首科学。
 
-**续run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0于22:12:04 success；原大日志两次Transport closed，尚未核DEV4/学习/模型/终值/费用，不预报通过。** 正制只读Actions观察器，读取该唯一既有log，不执行开发/科学，不存payload。数值仍以上述已读covered为best。
+**续run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0于22:12:04 success；原大日志两次Transport closed，尚未核DEV4/学习/模型/终值/费用，不预报通过。** 已请求只读Actions观察器（curvature-guard-log-readback.json）：绑定唯一成功run/source及原146源码，用stdlib读原log内存，180KB语义上限保DEV/guard/learning/trial/timing；不执行开发/科学，不存payload。数值仍以上述已读covered为best。
 
 guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8原scaled determinant负defect按真实共同步长b²学习，γ只下一模型生效，current冻结；target=max(oldtarget,1e−7+γB²)，仅域内active8。零γ原数值；A/c/J/bounds/soft/余门不改。不可行照旧收费/shrink，无免费resolve；旧SOC自原J/y构建，不读guarded RHS；expanded rebound原selected。双factory最终sameobject/oldmap/版本核。保cfg/g/b0/159/163、375-bank/两池/B/双0和12LP/40value/120active/10secLP。
 
