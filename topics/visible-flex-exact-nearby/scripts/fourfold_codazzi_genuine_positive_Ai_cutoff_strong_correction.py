@@ -189,13 +189,17 @@ def vector(x,k):
 def accepted(path,identity,gate):
     run,source,manifest,digest,ngates=identity
     e=read(path);r=e.get("actual_scientific_receipt",{})
+    # PW used only Python/flint; bind that exact recorded runtime to its exact successful source.
+    recorded_runtime=({"python":"3.12.14","python_flint":"0.9.0"}
+        if (run,source)==("43734233535","268e033e3973ba60eb01b6b45842221f5d480cbe584de541731a4e34e5632e3c")
+        else RUNTIME)
     gate("accepted complete run "+run+"/1 retains its full immutable success",
         sha(path)==digest and str(e.get("run_id"))==run and str(e.get("run_attempt"))=="1"
         and e.get("complete") is True and e.get("actual_returncode")==0 and e.get("actual_failure") is None
         and e.get("source_budget_source_sha256")==source and e.get("input_manifest_sha256")==manifest
         and r.get("source_sha256")==source and r.get("input_manifest_sha256")==manifest
         and r.get("complete") is True and r.get("proved") is True and r.get("actual_returncode")==0
-        and r.get("failure") is None and r.get("runtime")==RUNTIME
+        and r.get("failure") is None and r.get("runtime")==recorded_runtime
         and len(r.get("gates",[]))==ngates and all(g.get("passed") is True for g in r["gates"]))
     return r
 
