@@ -1,0 +1,82 @@
+name: visible-exact complete finite Cayley scalar gap
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-finite-cayley-scalar-gap.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-finite-cayley-scalar-gap
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-finite-Cayley-scalar-gap-CI-inputs.json
+  PHASE_MANIFEST_SHA: 8c40bc7b1619c8fba9ef35e614cb21e0f29e807b5369285f3060f78d2da6b311
+  PHASE_PIPELINE_SHA: e7c536e631c8ab5004b6e129b53d41a45f18b4e9d530b81f09f511d6a62cfa6d
+  PHASE_WORKER_SHA: e7a0fd432e601b699c465f745e7d32eca8c5381ed1722c7ff437375aa7198099
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  finite-cayley-scalar-gap:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-finite-Cayley-scalar-gap-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Check the full immutable AST closure and evaluate complete finite Cayley scalar arithmetic
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-finite-cayley-scalar-gap-science"
+          --out-dir "$RUNNER_TEMP/visible-finite-cayley-scalar-gap-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.

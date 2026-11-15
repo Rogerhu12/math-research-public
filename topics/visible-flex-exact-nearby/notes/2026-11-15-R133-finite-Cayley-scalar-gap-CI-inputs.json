@@ -1,0 +1,168 @@
+{
+  "kind": "complete_finite_Cayley_scalar_input_contract_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py",
+  "source_sha256": "e7c536e631c8ab5004b6e129b53d41a45f18b4e9d530b81f09f511d6a62cfa6d",
+  "contract_publication_commit": "e94c5962fa155d86877a9f1f0bdf28d0abdca30d",
+  "original_worker_basis": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction_public_worker.py",
+    "git_blob": "252f22542fe1e35da5411ef723eca1a75a94b1dc",
+    "bytes": 47287,
+    "sha256": "96401306459ceadca70659876f9219477c98098cd5a49d7fbd64a53775585a1d",
+    "scope": "reviewed SC/RF metadata retry, complete scientific save and reuse; all original binary restoration removed"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "input_paths": {
+    "gap_process": "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json",
+    "selected_process": "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/process.json",
+    "gap_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap.py",
+    "selected_identification": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md",
+    "new_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md",
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py"
+  },
+  "current_text_input_roles": [
+    "gap_process",
+    "selected_process",
+    "gap_source",
+    "selected_identification",
+    "new_contract",
+    "new_source"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap.py",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b",
+    "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/process.json": "78cbf8e6b207f23f2d2302ac76c09ca5de58a2a308e40e71aff28dc64eec0d47",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap.py": "d9ed9139d5955429f7cf33835f981adce810c18106a9403334ed6d6ed8e671dc",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md": "f5f980a1fb085103f548d7bbdf6fe0124dda176276fa1b8bac6783b6b22a150c",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md": "9a4e41c208f785e1dd3960c047a579a81493ea7cba17f870c9661caf550fd44e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py": "e7c536e631c8ab5004b6e129b53d41a45f18b4e9d530b81f09f511d6a62cfa6d"
+  },
+  "mathematical_input_sha256": {
+    "gap_process": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b",
+    "selected_process": "78cbf8e6b207f23f2d2302ac76c09ca5de58a2a308e40e71aff28dc64eec0d47",
+    "gap_source": "d9ed9139d5955429f7cf33835f981adce810c18106a9403334ed6d6ed8e671dc",
+    "selected_identification": "f5f980a1fb085103f548d7bbdf6fe0124dda176276fa1b8bac6783b6b22a150c",
+    "new_contract": "9a4e41c208f785e1dd3960c047a579a81493ea7cba17f870c9661caf550fd44e"
+  },
+  "expected_actual_gate_count": 18,
+  "expected_immutable_AST_files": 2,
+  "expected_input_count": 6,
+  "complete_input_bytes": 83759,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arithmetic_bits": 320
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "runtime": {
+      "Python": "3.12.14",
+      "python_flint": "0.9.0",
+      "arithmetic_bits": 320
+    },
+    "exact_quadratic_rotation": {
+      "numerator_integer": "5831714953207175",
+      "radical": "sqrt(5)",
+      "denominator": "21212218271020390"
+    },
+    "physical_frequency_factor": 4,
+    "first_high_label": 97,
+    "last_new_finite_label": 1023,
+    "analytic_infinite_tail_starts_at": 1024,
+    "new_positive_labels": 927,
+    "new_signed_labels": 1854,
+    "new_signed_label_root_pairs": 7416,
+    "signs": [
+      -1,
+      1
+    ],
+    "fourth_roots": [
+      "1",
+      "i",
+      "-1",
+      "-i"
+    ],
+    "new_finite_coefficient_rational_endpoints": [
+      "184783243050269/10000000000000",
+      "184783387425197/10000000000000"
+    ],
+    "finite_interval_method": "outward Arb union of the two displayed exact rational endpoints",
+    "finite_interval_may_be_wider_than_original_native": true,
+    "old_infinite_arithmetic_scope": "only the original exact native interval, hence the actual selected coefficient",
+    "old_exponential_gap_times_abs_label": "1/512",
+    "new_analytic_tail_gap_times_abs_label": "1/1024",
+    "selected_relation": "beta_star=-mu_star/4",
+    "mean_multiplier": "exactly one; the scalar difference has mean zero",
+    "old_integer_candidates_or_diophantine_arithmetic_recomputed": false,
+    "old_scalar_finite_part_root_KAM_ray_or_source_calls": 0,
+    "incoming_inverse_strong_remainder_or_finite_Schur_claimed": false,
+    "expected_structural_gates": 18
+  },
+  "scope": {
+    "only_new_signed_label_root_pairs": 7416,
+    "old_exponential_arithmetic_or_integer_candidates_recomputed": 0,
+    "old_selected_mean_finite_part_root_KAM_or_ray_recomputed": 0,
+    "native_inputs_or_archives_restored": 0,
+    "finite_wider_parameter_interval_does_not_expand_old_infinite_proof": true,
+    "complete_science_preserved_before_presentation_or_git": true,
+    "completed_science_reused_across_wrapper_only_changes_with_same_mathematical_identity": true,
+    "strict_gap_failure_is_a_complete_report_not_a_rerun_trigger": true,
+    "actual_incoming_strong_return_finite_Schur_or_PDE_inverse_not_claimed": true
+  },
+  "files": [
+    {
+      "role": "gap_process",
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_quadratic_gap_ci/run-43598755503-1/consumers/process.json",
+      "git_blob": "3f81d873fd11c6d43a3cf233257b277b5f8e9282",
+      "bytes": 6419,
+      "sha256": "afa699e3e86fc1d6678c35606b116dd8074a6ce7adfca246d8804532e32e0f0b"
+    },
+    {
+      "role": "selected_process",
+      "path": "topics/visible-flex-exact-nearby/notes/first_symbol_parameter_transfer_ci/run-43597209022-1/consumers/process.json",
+      "git_blob": "1a5a209f46006b43a13f7e60216df731e266c455",
+      "bytes": 6983,
+      "sha256": "78cbf8e6b207f23f2d2302ac76c09ca5de58a2a308e40e71aff28dc64eec0d47"
+    },
+    {
+      "role": "gap_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_first_symbol_quadratic_gap.py",
+      "git_blob": "76a7db38bfb71ea2f161938e75b0a9ed7ad67d26",
+      "bytes": 12505,
+      "sha256": "d9ed9139d5955429f7cf33835f981adce810c18106a9403334ed6d6ed8e671dc"
+    },
+    {
+      "role": "selected_identification",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-family-root-finite-part-and-actual-first-phase.md",
+      "git_blob": "e561b822673bbce15c1391ee851fb93d4143d43e",
+      "bytes": 15703,
+      "sha256": "f5f980a1fb085103f548d7bbdf6fe0124dda176276fa1b8bac6783b6b22a150c"
+    },
+    {
+      "role": "new_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-Cayley-principal-ratio-and-conditional-scalar-gap.md",
+      "git_blob": "868ac231665c6ba7ac24a45def032609de767974",
+      "bytes": 17846,
+      "sha256": "9a4e41c208f785e1dd3960c047a579a81493ea7cba17f870c9661caf550fd44e"
+    },
+    {
+      "role": "new_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite_Cayley_scalar_gap.py",
+      "git_blob": "1b7d05190bf74f3c72c7188ec9255b4f5fb15e98",
+      "bytes": 24303,
+      "sha256": "e7c536e631c8ab5004b6e129b53d41a45f18b4e9d530b81f09f511d6a62cfa6d"
+    }
+  ]
+}
