@@ -20,7 +20,7 @@
 **同选无穷远常块：** [模31秩4318/真连接3](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)保同4354来源/输出，不能混全矩阵4340/连接4。全部36自由来源仍标准I，任何有理核须全6188系数且4367整数乘回为零。
 [p32](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)实推057990186f；[p184的13真核](results/R150-appendix-selected-infinity-thirteen-exact-rational-kernels.md)核心实推8c6304e，原完整证书/恢复已存。实际32→184为108.336960369秒；[184→200](results/R150-appendix-selected-infinity-exact-dixon-through-p200.md)新16位11.866769106秒，所有原乘回/自由I36真，无新核。
 [同已证D的23居中候选](results/R150-appendix-selected-infinity-paid-denominator-centered-candidates.md)全非零，只排指定分子；[13核一次变量闭包](results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md)低次4维、44乘积越界rank35，九合法乘积等旧核，扩张仍13维。
-**下一条立即登记：** 真200→256已成20核（27.216322355秒，rank4318…4334、条件费8735）；真256→486已成23核（108.172096014秒，rank4318…4331、条件费8732），全部4367精确零、自由I独立。完整证明/源码已冻结，输出SHA及参数将依次推；旧规则下临时上传的六资产在当前数学读取后删除，不再作存档。后继只由真486继续余13列，随后接同一子式char0连接/Smith；有限精度仍不作有理结论。
+**[真256的20核与条件8735](results/R150-appendix-selected-infinity-twenty-exact-rational-kernels-and-cost8735.md)：** 200→256新56位27.216322355秒，20核全4367精确零/自由I独立，char0秩4318…4334。D∞≥20、单换列仅≥19，已有成员性才得费用8735；源码/参数/实际SHA已存，不存大证书。真486的23核/条件8732完整证明待下一条立即推；旧六临时资产当前Actions读取后删除。后继只由真486继续余13列，随后接同一子式char0连接/Smith；有限精度仍不作有理结论。
 
 ## 实际边界：同w、同源、全部返回
 
