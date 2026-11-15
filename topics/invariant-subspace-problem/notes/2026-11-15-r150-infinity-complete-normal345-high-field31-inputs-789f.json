@@ -1,0 +1,105 @@
+{
+  "format": "r150-infinity-complete-normal345-high-field31-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-15-r150-infinity-complete-normal345-high-field31-789f.py",
+    "blob": "adf8b6b50367fcafc89888e54181d3f385d232bf",
+    "bytes": 21406,
+    "sha256": "1a578441929247d114b7f39e9824b243dbc0433de781dd2ffce4d4e11dea4122"
+  },
+  "native": {
+    "path": "notes/2026-11-15-r150-infinity-complete-normal345-high-field31-native-789f.cpp",
+    "blob": "501dbe55901564c2e2acfe5cb5a7b50fc70dc22f",
+    "bytes": 9078,
+    "sha256": "cee59e862dc22bd5ade469177ce9e4541d2a6b4743ab811684a5e387a4402ba4"
+  },
+  "interface": {
+    "path": "notes/2026-11-15-r150-infinity-complete-normal345-high-field31-interface-789f.md",
+    "blob": "6e21a4531ebef586b4dc2016fb632897508a0637",
+    "bytes": 5351,
+    "sha256": "568d148955e301cd87577dded7d19424d660da8e367f3c802f79766084ae341c"
+  },
+  "inputs": [
+    {
+      "key": "projection_consumer",
+      "path": "notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+      "blob": "74d4c918faf3d5b791493a94bd7df3000395805b",
+      "bytes": 37379,
+      "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+    },
+    {
+      "key": "generator",
+      "path": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "key": "jet_actions",
+      "path": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "blob": "d244c869a1a3745c1a239c9abf2518e9e8c052",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "key": "fifth_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-infinity-fifth-true-shifted-incoming.json",
+      "blob": "4cee8acd03c10e7f45a6ceac24328672701127a6",
+      "bytes": 22769,
+      "sha256": "17361fc2f385bbc1ffe8b843d185d0c3acd2998276579d08e5d76e8233eaf036"
+    },
+    {
+      "key": "projection_receipt",
+      "path": "notes/r150-source-kernel-session-789f/43740928483-infinity-small-original-projection-smith.json",
+      "blob": "f61ab124bfc80c1571aedb71de3bd302914bb32b",
+      "bytes": 28395,
+      "sha256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207"
+    }
+  ],
+  "argvTemplate": [
+    "--projection-consumer",
+    "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--projection-receipt",
+    "{scripts}/43740928483-infinity-small-original-projection-smith.json",
+    "--projection-out",
+    "{work}/infinity-small-original-projection-smith",
+    "--fifth-receipt",
+    "{scripts}/43740928483-infinity-fifth-true-shifted-incoming.json",
+    "--fifth-checkpoint-dir",
+    "{work}/infinity-fifth-true-incoming-checkpoint",
+    "--native-source",
+    "{scripts}/2026-11-15-r150-infinity-complete-normal345-high-field31-native-789f.cpp",
+    "--checkpoint-dir",
+    "{work}/infinity-complete-normal345-high-field31",
+    "--out",
+    "{work}/infinity-complete-normal345-high-field31-receipt.json",
+    "--remaining-seconds",
+    "60",
+    "--memory-mib",
+    "2048"
+  ],
+  "temporaryInputs": [
+    {
+      "path": "{work}/infinity-small-original-projection-smith/temporary/original-projection-coefficients-94cffcf53fe22e7693e4c22bd67b237fe9d65933a50571891647c378a4b98034.json.gz",
+      "bytes": 267400,
+      "sha256": "94cffcf53fe22e7693e4c22bd67b237fe9d65933a50571891647c378a4b98034"
+    },
+    {
+      "path": "{work}/infinity-fifth-true-incoming-checkpoint/high-fifth-lifts-d8dff9e38bad4a0a41a21679e5654609f36b7da36dbb84f996a0778bfa73eb50.json.gz",
+      "bytes": 15355,
+      "sha256": "d8dff9e38bad4a0a41a21679e5654609f36b7da36dbb84f996a0778bfa73eb50"
+    }
+  ],
+  "mathematicalSeconds": 60,
+  "memoryMiB": 2048,
+  "suggestedOuterSeconds": 100,
+  "nativeCompilations": 1,
+  "receipt": "{work}/infinity-complete-normal345-high-field31-receipt.json",
+  "largeOutputPolicy": "All recomputable arrays temporary in current job only",
+  "executionStatus": "frozen source only; no local compile, AST or new mathematics"
+}
