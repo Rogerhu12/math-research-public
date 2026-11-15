@@ -78,7 +78,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)进一步支付同HE的二次主部：43701766182的12新人工过，实际J4完整负主部在原式已零，NF0。首f-up/g0零flux且平台通过时，u光滑 iff t⁴B无负主部；whole pure0/λ1/T0/B0联合成立仍不能读λ。平台本身未数值评价，p3+已自动光滑不再算。
 
-[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)用完整δK/δ³K直接修同HE首平台：最左packet首矩形f-up前有零gap，截左补偿后J_a=J_total≠0；两平台列det−768A_aJ_a≠0，准确αβ给H*=HE−αδK−βδ³K。两新增权−7/−5保whole pure0/λ1，且同锚真P2+p4A保两个mixed的T/B，故首端两零flux germ完整光滑。**单HE平台求值无需再运行，首平台+一次/二次局部联合读λ路线结束。** 不偷投回真权0，不宣八flux/其他平台已保或实际成本已实现；下一先审『本首平台pair+8flux』的完整联合响应结构，再进入R225其余完整兼容。
+[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)已联合修首gap平台与八d-flux。整δ链是准确11维sl2模；F*平移对应Pol≤10，八flux核Q_L·Pol≤2。首平台为八全左尾−第一包真实左补偿尾；新合法圆令M0<0迫f-only补偿非零，核内两列minor=5040βγV L12+O(L11)非零，有限大L后正仿射压回I。于是同HE可减真实响应得whole pure0/λ1、首pair0/F8d0/T0/B0，两首端零flux germ光滑。**这十个联合读出加首T/B仍不能读λ；停止重复这些局部门，继续R225完整其他平台、e-flux、内部Laurent及两端匹配。** 不把新选圆冒旧冻结圆，不把实线性响应当实际signed成本；完整O(U0)/O(R0)和同w joint仍欠。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 

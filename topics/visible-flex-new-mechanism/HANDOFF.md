@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 10:27:23 UTC实际pull后已读规则提交：`ff09c366d90a24dd94ab672c5b264d79d7af4535`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 10:29:19 UTC实际pull后已读规则提交：`0bef326509733406f98e36c7ae1e74f1c9e7fa86`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch被signal9终止后核HEAD规则无差，单线程/小cache真实重拉成功，未改远端或凭据存储。
 
@@ -46,7 +46,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
-**R215/217/219/222**：pure零响应上F8满射、左pair+单flux满R3，尚不自动授十元组；真实pure+F8截面/有限整数收缩保全部mixed/基准。R223兼容Morse，一般改g。
+**R215/217/219/222**：真实pure+F8截面/有限整数收缩保全部mixed与基准，R223兼容Morse而一般改g；原八flux满射及左pair有限接口已由R244给新联合加强。
 
 **R216/R224/R228已排类**：flat、标准k=ω0 Morse指数h、C≠0增长k偶b0类，由−8c6/λ排原R193圆及已付近邻全允许宽度；只延局部解析身份，不延实际几何，不冒普遍C²刚性或新圆结论。
 
@@ -54,11 +54,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 
-**R226/R230/R234首端一次层已付**：首f-up/g0左端G=P2+Tτf+p²A，真三次尾τ不独立赋值；p1非零有限首项令逆解指数发散，p3+仅零端flux支路自动光滑。43699241372/ee9e2098已给HE=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，whole pure0/λ1/T0，2694项346ea2a1准确原差。只权0/mixed−2首端，完整两mixed由−4Re/+4Im恢复；不重旧17层。
+**R226/R230/R234/R236/R240首平端已付**：首f-up/g0处G=P2+Tτf+p²B+p³C，真τ耦合；p1非零有限首项使逆解发散，p3+在零端flux支路自动光滑。43699241372/ee9e2098给HE=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，2694项346ea2a1，whole pure0/λ1/T0。43701766182/623f1c00/job132774268375另付同HE的raw二次负主部0（J4/D6/K5，七根），5.266秒/111.992MiB，主文70189310、dev0be7cb85、内存91eeb313只hash。零端flux且真实平台已付时，u光滑 iff t⁴B无负主部。两个mixed由−4Re/+4Im完整恢复；旧科学不重跑。
 
-**R236/R240二次层已付**：零端flux且平台/一次层付后，u光滑 iff t⁴B无负主部。43701766182/623f1c00/job132774268375，12人工过；HE同七根、J4/D6/U(7,1,−5)/K5，raw负主部已0，NF0。5.26625秒/111.992MiB；主文21366B/70189310、dev9078B/0be7cb85、内存证书13749B/91eeb313仅hash。HE平台本身未评价，不迁移新不可分离圆。
-
-**R242首平台与完整局部germ已付**：在同R225 ψP圆最左完整packet首矩形f-up前零gap，截左补偿后J_a=J_total≠0、A_a>0。δK/δ³K两真实平台列(8A_a,0)/(B_a,−96J_a)，det−768A_aJ_a。以准确αβ修HE得H* whole pure0/λ1，两mixed平台二阶项0；R226整链为真P2+p4A，故T/B保持，首端两零flux germ均光滑。新H*跨真权0/−7/−5，不偷投回0；未知平台数无需单算。只本gap，不授F8/其他平台/全period或实际有符号成本，下一完整兼容门。
+**R242/R244首平台与八d通量联合已付**：R242跨权δK/δ³K修同HE首gap平台、整δ链真P2+p4保T/B。R244把链准确识为11维sl2模：δ13先由E8 δ5截断，再N推δ11=0；F*平移与Pol≤10同构，八d-flux核为Q_L·Pol≤2。首gap双尾=八全左尾和−第一包真实comp尾；g-step变窄使M0<0迫f-comp非零，βγ≠0。核内Q及Q(t/L−7/2)两列平台minor=5040βγV L12+O(L11)，V>0有手核式，取有限L后正仿射压回I保rank10。故同HE减真实响应给H† whole pure0/λ1、F8d0、首pair0、首T/B0，两局部germ光滑。新选合法ψP圆，不冒旧冻结圆/八e-flux/其他平台/全period或实际signed成本；完整兼容继续。
 
 ## 6. 保留边界
 

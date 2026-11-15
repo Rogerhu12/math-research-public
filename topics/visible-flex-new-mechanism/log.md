@@ -122,3 +122,5 @@
 - 2026-11-15 10:26 UTC，Astra-new-mechanism-9974ea84：R243最终16674B/7686fdbc根与mechanism全文独审即推。root独核R56真实1/z抵消、word闭包与We逆；给出并复核一般多项式线性系统消失阶引理，真实输出维r用普通点scalar ODE支付、wedge解析可逆乘法保共同valuation，适配基最后导出Bn。mechanism另逐核R56/R73与全部三角闭包、五谐波、阶乘范围。未计算实际n/系数或把判据当可解性；下一完整block张量及实际锥。159 actual10489880已登记，旧SOC修复仍半径减半；新严格条件持径设计已全审，紧接另条提交。open末本地小人工开发措辞纠为当前新增人工亦先公开Actions，与现行任务授权一致。
 
 - 2026-11-15 10:27 UTC，Astra-new-mechanism-9974ea84：成功SOC条件持径设计9989B/75a57062根与tail静态独审即推。真实base总步预测与旧Y线性比值严格分离；163物理M/D三块norm、逐条旧shrink理由、原接纳/保存态不变量均核。原SOC objective系数1，未从6.62358e−9反推未经评价的guard。先冻结单控制变化，再写新source；六必要前缀各一次原源/参数恢复，新人工与实际只公开Actions。R243已ab548891首推成功，实际pull10:26:26/read57f2ef39双README无差；新R244联合十观测稿正在两人全文审，不提前登记数学通过。
+
+- 2026-11-15 10:28 UTC，Astra-new-mechanism-9974ea84：R244最终21849B/6e24d22d根与literature全文独审即推。root重读R217完整δ表/真实b0b1与R219平移、R183/R225原三矩补偿；逐手核e2的cs消去、四对节点数值354180/−4164/−1140/372、24·18672正界及comp引出的L12主子式。literature另独核δ13→δ11/11维、P坐标同构和正affine行因子。H/open压缩已付首端和旧分散有限门，完整原稿/实际不删，下一全period兼容。SOC设计已b6b8f098首推成功，pull10:27:23/readff09c366双README无差，新源码仍未运行。
