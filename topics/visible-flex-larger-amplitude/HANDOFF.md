@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:47:47 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 2d9ea7c388c231ba7dec02473596c93278601f59。
+规则同步记录：2026-11-15 22:49:09 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1d48ddc21da4ce2d09685c249a5b1554f6bfb2b1。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -46,12 +46,14 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)绑定准确十族/真453→450/全部338节点/112材料/四Loewner闭DFS；[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)实际72c十factory/正零ξ、98pins/runtime69/native29，真453接受才同十词新450，重算RHS/H/FD/全J/final，共原7200钟和worker。读回仅明选必要范围，quiet全读后清；R408不预填。
 
-[R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)两源定义真450全径向/双mean/全FFT/Hermite/B/R249/patch/帽；S²/强C²族解析已付，675只活动片六jet，数值差分仅定义数据。[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)/02bb0c70将原rCuff逐字接原R409计划，引用R286/R294付局部目标两jet、marker内平环、独立attachment。原target不换B′；cut准确atlas/帽区间/全metric/embedding/reach/held未付。193不执行R409，清后必须真同job重生；R416续cut数值v,b与准确长度比例相容性。
+[R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)两源定义真450全径向/双mean/全FFT/Hermite/B/R249/patch/帽；S²/强C²族解析已付，675只活动片六jet，数值差分仅定义数据。[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)/02bb0c70将原rCuff逐字接原R409计划，引用R286/R294付局部目标两jet、marker内平环、独立attachment。原target不换B′；帽区间/全metric/embedding/reach/held未付。193不执行R409，清后须真同job重生；R416另给准确cut场。
 
-[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件全文/完整diff核后发布；旧77pins逐值保+R414及六源=84。仅完整20bit signed partial改实际CPU选择AVX2或scalar，原全部113bit/指数/wide/一次RN113及R402系数/原因子/113行C残差/226态两mean保；baseline编译旗标不改，无新fixture或对拍门。真91→fresh64/J/R273→samejob128/replay→全576×224/112/338×112/audit，19200/6000/1200/8000/600/600/1800全部原预算不变。单90KB保原所有必要范围并添真实backend/偶奇尾计数，原quiet+完整读回后清；完整dot条件等价不冒全stage词、速度或接受。R415只待实际结果，amplitude唯一终态，旧186/190/192/193均不改。
+[196完整入口](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)九件已核，原77pins+7=84；R414完整偶奇/尾与真实CPU fallback，原113bit/wide/一次RN113、R402/113行C残差及全576×224/112/338×112/audit/全部原预算保。单90KB加真实backend计数，原quiet清理保；无新门，不冒全stage词/速度，amplitude唯一R415。
 
 [195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件完整核，旧115pins逐键+12=127，四inputs/两ready/78源及原execution/R273同。742ab15a逐实际root/Cholesky/两代回、226×224/原RK与mean；原noJ/冷warm/32×10/严格下降不变。全H/J/577penalty→338×112/FD/fullDN/fresh audit，18000总钟保；90KB/own静止读回清理保。无额外noJ/对拍门，不冒IEEE导数/严格误差/172唯一根因，exact唯一R412。
 
+[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)与[接口](notes/2026-11-15-current-C-accurate-cut-atlas-field-interface.md)、26041B/28417b93独立源已全文核；同一准确C/十族在数值前缀图中完整C²目标当且仅当径向三jet为$(kv_*,k^2b_*,k^3c_*)$，$k=L_*/L_n$。原数值v,b无准确恒等保证，不预断实际不相容。保原g/全部节点/B/全角Phi，新补丁以同C/DAG的三个真实乘数形成完整012目标，675原全模态/六jet/mixed保；七root只追加、有理外包转Arb乘数，不以中点替准确系数。独立AccurateCutBundle不冒旧R409场，原A renderer不可当新场；闭窗含三阶与C内侧域，新旧完整差/Gram转移仅条件。无实际父/新run/全metric/reach/held声明，R417帽、R418完整metric继续，193及旧源冻结。
+
 ## 恢复与保存
 
-本次发布前完整H逐字见[195前检查点](notes/2026-11-15-handoff-checkpoint-before-request195.md)，链回[196前检查点](notes/2026-11-15-handoff-checkpoint-before-request196.md)，链回[R399前检查点](notes/2026-11-15-handoff-checkpoint-before-R399.md)，链回[R413前检查点](notes/2026-11-15-handoff-checkpoint-before-R413.md)，链回[193前检查点](notes/2026-11-15-handoff-checkpoint-before-request193.md)，链回[R409前检查点](notes/2026-11-15-handoff-checkpoint-before-R409.md)，链回[194前检查点](notes/2026-11-15-handoff-checkpoint-before-request194.md)、[R400前检查点](notes/2026-11-15-handoff-checkpoint-before-R400.md)与[R391前检查点](notes/2026-11-15-handoff-checkpoint-before-R391.md)，链接190及更早全文；[open](open.md)与[results](results.md)保全部原责任/来源/错误/未访/实际清理。open§4–6完整未改。未推源码若丢按接口重做，已清raw只能真重生。179树182282267B/8665文件后只增小源/证明/必要结论，未知旧JSON仍未全分类。每结论即推，子题完成接下一责任。
+本次压缩前完整H逐字见[R416前检查点](notes/2026-11-15-handoff-checkpoint-before-R416.md)，该页逐项链接195、196、R399、R413、193、R409、194、R400、R391及更早全文；open完整原段见[R416前检查点](notes/2026-11-15-open-checkpoint-before-R416.md)，§4–6逐字保持。[旧结果索引](results-index-before-request195.md)96703B完整归档且相对链接不变。未推源码若丢按完整接口重做；已清raw只可真再生。179树182282267B/8665文件后仅增小源/证明/必要结论，未知旧JSON仍未全分类。每结论立即推，接open下一责任。
