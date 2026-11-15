@@ -1,0 +1,50 @@
+{
+  "kind": "actual_public_inner_first_Airy_real_local_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43659519776",
+  "run_attempt": "1",
+  "workflow_commit": "47da03f4f0fdd7af4779a3a10ed9b925f8414dd8",
+  "worker_sha256": "275a965d59fd293812bc134fa3f81fcce8e5d922db1f8fe567ceb0f1b6044190",
+  "manifest_sha256": "883742413736aa50c58a98e9b60642baf9f757bc1b407ba5c110ca51f5ba0b62",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T00:43:10.542941+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T00:43:10.905905+00:00",
+      "before": "6d274f96bf9d14917d55751213fea9c190273293",
+      "after": "6d274f96bf9d14917d55751213fea9c190273293",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:43:11.788508+00:00",
+      "before": "6d274f96bf9d14917d55751213fea9c190273293",
+      "after": "6d274f96bf9d14917d55751213fea9c190273293",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-inner-first-Airy-real-local-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_inner_first_Airy_real_local_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-inner-first-Airy-real-local-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-inner-first-Airy-real-local-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-inner-first-Airy-real-local-sources-CI-inputs.json",
+    "--manifest-sha",
+    "883742413736aa50c58a98e9b60642baf9f757bc1b407ba5c110ca51f5ba0b62",
+    "--out-dir",
+    "/__w/_temp/visible-exact-inner-first-Airy-real-local-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-inner-first-Airy-real-local-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 71,
+  "actual_scientific_checkout_commit": "6d274f96bf9d14917d55751213fea9c190273293",
+  "mathematical_wall_seconds": 0.5648578189999967
+}
