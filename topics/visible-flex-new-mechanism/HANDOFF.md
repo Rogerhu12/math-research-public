@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`aaa5fedee1d479a5c8c07d03c5c44d3c8f3203b8`；时间2026-11-15 14:26:32 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`8af4c12256ce6b7c02306b0ff6f101379db325f0`；时间2026-11-15 14:28:13 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 14:14:00 UTC实际pull/read `6eb7f1f968522b9aaa7b54ec8e41e16f6a13978e`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual已消费**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16。三新开发过；η.266428586→.266398991、双网14门/准确盒过，11primary+1SOC/10新接纳，active43.32511秒；七恢复1175.76681秒独立。m5持B由m6真用但ratio.11484缩半，m8漏行拒绝。45/97来源/24输入全核；旧标签与首fixture失败原note保留，不授同点加速或重跑。
 
-**仿射谱首actual已结束并消费原log**：43722283235/bb33192/job132836684400；[设计](notes/affine-spectral-metric-model-design-20261115.md)/[接线](notes/affine-spectral-implementation-and-first-public-run-20261115.md)。35新人工全过；η.266419188→.266401179，双网14门/准确盒过。8模型/12primary/0SOC/7新接纳，40新cut，18共享值+2末验；active16.997316秒/newaudit19.780863秒，八恢复569.558425秒各一次独立。m6遗漏网格行主导谱预测差，同时已选曲率真门失败，不能只归因一种；无SOC实际不授其新预测路径验证。50/102来源/24输入正在完整人读归账。下一固定center全网affine-e/f方向分离器，不延预算/机械重跑；原norm、ε与e/f误差保全，主目标远欠。
+**仿射谱首actual已完整消费**：[全实际](notes/affine-spectral-metric-model-first-actual-20261115.md)，43722283235/bb33192/job132836684400。35新人工全过；η.2664191879334471→.26640117915606165，双网14门/准确盒过，κ57.9999853。8模型/12primary/0SOC/7新接受，40cut、18+2值；active16.997316秒、新audit19.780863秒，八恢复569.558425秒各一次独立。50直接/102递归来源及24输入逐项全合，receipt54960B/b8b8270a、254来源口径另列。m6遗漏峰1.54793e−5主导且原已选曲率四行失败；m5选中e/f非线性主导。无SOC不授该路径新预测实际验证。下一固定center完整两网affine-e/f解析方向分离器，只发现新原行才补J/cut，仍12LP/120秒/40值及全部真门；不预报本m6一定修好，不延预算或重跑。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 

@@ -16,7 +16,7 @@
 
 [选行J首次实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16已消费：三新开发过；η.266428586→.266398991、两网14门/盒过，11primary+1SOC/10接纳，active43.32511秒，七恢复1175.76681秒独立。m6真用heldB后ratio.11484、m8漏行拒绝；45/97来源与24输入合。全部旧失败/漂移保原note，不授同点性能改善；后继用新模型处理真实缺陷。
 
-[仿射谱五源与首运行](notes/affine-spectral-implementation-and-first-public-run-20261115.md)43722283235/bb33192已完成。直接读原log：35新人工全过；新η.266419188→.266401179，两网14门/准确盒过；8模型/12LP/0SOC/7接受、40cut、18+2值，active16.997316秒。八恢复569.558425秒独立。m6新增5fine软行、遗漏模型峰主导误差，同时原已选曲率四行失败；m5选中e/f非线性主导。**下一先完整归账50/102来源与24输入，再设计固定center两网affine-e/f方向分离器，发现漏峰才补选J/cut，仍原预算和真门。** 无SOC实际不能授新路径通过；不延预算或重跑已付stage。
+[仿射谱首完整实际](notes/affine-spectral-metric-model-first-actual-20261115.md)43722283235/bb33192已逐项归账：35新开发过，η.266419188→.266401179，原双网14门/准确盒过；8模型/12LP/0SOC/7接受、40cut/18+2值，active16.997316秒；八恢复569.558425秒独立。50直接/102递归来源及24输入全核。m6遗漏项1.54793e−5主导且已选曲率四行失败，m5 e/f非线性另欠。**下一新固定center两网affine-e/f解析方向分离器，发现漏峰才补J/cut，保原预算/真门/回退；不能预称本m6必修，不重跑旧stage。** 无SOC实调用不授新路径通过。
 
 ### 仍须支付
 
@@ -56,7 +56,7 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 [R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。
 
-[R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)给p¹有限首项的指数失败、p²有限极点门和p³以上左零通量延拓；特定δ链扣真二次尾后仅p⁴，不能代表U/R。[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)付G=P2+Tτf+p²A，τ保同右锚三次函数和shuffle；指定解析ψP时(D+p'/p)有限有理消元判Tτf，不猜有限jet。
+[R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)/[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)的完整指数分层/右锚三次尾保留：p¹可能失败、p²须付pole、p³以上需左零flux；特定δ链不能代表全U/R。当前canonical端直接使用R283的新真实接口，不机械重算旧局部word。
 
 [R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)、[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)的whole pure0/λ1/首T0/B0已由原43699241372和43701766182消费，范围仅同HE首f-up/g0。原平台/flux前提及二次pole iff保原稿；不从这一个芽授完整period，不重旧17层/NF/人工目标。
 
