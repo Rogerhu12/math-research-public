@@ -101,3 +101,6 @@
 
 
 - **完整无穷远第二连接为零、公共34与条件8675。** [全原证明](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)：run43679903558实核1.291280400秒，1088×595前缀秩578/582/582、3横向left2jets全1088校正真，另5100原来源自动零；连20纯方向给β2=0、δ4354≥34/δ4353≥31。Smith×29精确曲线得指定63/62/59，K77下q238…8630、条件费8675（非基8674、目标8450）；成员性/leading单位仍开。
+
+
+- **原自然第一连接的完整49/36接口及输出限制秩4340。** [全原证明](results/R150-appendix-natural-first-connection-complete49-36-and-output-restriction4340.md)：run43679903558实核0.866102738秒，独立复核旧模31秩3/阶≥69；新增完整49连接同3、全部33原常项头与4367自然一阶产品。deletedQ三行真Qrank3付fullA0|I=4340和full/square有理第一像同秩，仍只知≥3；未把常项头当已存来源校正或leading单位。
