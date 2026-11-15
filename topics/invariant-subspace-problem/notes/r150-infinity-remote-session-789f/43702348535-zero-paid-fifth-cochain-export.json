@@ -1,0 +1,945 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "zero-paid-fifth-cochain-export",
+  "executionSourceCommit": "846daedbd85a3644a1b1bcccc48b7168de21d430",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+  "scriptSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--normal-generator",
+    "{scripts}/2026-11-15-r150-zero-second-normal-envelope-789f.py",
+    "--first-connection-receipt",
+    "{scripts}/43679903558-original-transverse-first-connection.json",
+    "--second-pure-receipt",
+    "{scripts}/43679903558-zero-second-pure-envelope.json",
+    "--second-normal-receipt",
+    "{scripts}/43679903558-zero-second-normal-envelope.json",
+    "--third-receipt",
+    "{scripts}/43679903558-zero-third-left-envelope.json",
+    "--checkpoint-dir",
+    "{work}/zero-sixth-preparation",
+    "--out",
+    "{work}/zero-sixth-preparation-receipt.json",
+    "--remaining-seconds",
+    "30",
+    "--fourth-receipt",
+    "{scripts}/43702348535-zero-fourth-joint-high-low-left-envelope.json",
+    "--fifth-receipt",
+    "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+    "--paid-fifth-generator",
+    "{scripts}/2026-11-15-r150-zero-fifth-joint-high-low-left-envelope-789f.py",
+    "--paid-fifth-checkpoint-dir",
+    "{work}/zero-fifth-joint-checkpoint"
+  ],
+  "timeoutSeconds": 80,
+  "exitCode": 0,
+  "wallSeconds": 11.091623395999704,
+  "fullTemporaryReceiptBytes": 23197,
+  "fullTemporaryReceiptSHA256": "6235424955208f4fdc7a22d995c3eaf54f8d37ed17badaaadd1413c5bba8bf7b",
+  "result": {
+    "arithmetic": "exact rational python-flint",
+    "elapsedSeconds": 11.027009277000616,
+    "format": "r150-paid-zero-fifth-cochains-export-v1",
+    "fullZeroMaximalMinorOrderLowerBound": 53,
+    "fullZeroSubmaximalMinorOrderLowerBound": 47,
+    "independentFifthLeadingCount": 7,
+    "independentFourthLeadingCount": 9,
+    "scriptSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+    "status": "completed",
+    "sumFirstFiveConnectionRanksUpperBound": 10,
+    "sumFirstFourConnectionRanksUpperBound": 8,
+    "parameters": {
+      "A1TimesActualFourthCubicCorrectionRetained": true,
+      "actualHighFifthCorrectionSHA256": "7e2c8cace095c575b007f1a652336f0b6991aa28ea73b79daf2e33cd64706d6c",
+      "actualHighFourthCorrectionSHA256": "456ef71b334c381452999237d27b4417293d477bb92375d12ffa96f07f364d7e",
+      "adoptedPaidFifthPhases": [
+        {
+          "consumerSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+          "originalFilesModified": false,
+          "originalManifestSHA256": "f8f1d2e2a187915268f00a41a6fae8b0f4eb16414c925f3f785b6ced3cd7e837",
+          "phase": "high-fourth-lifts",
+          "producerBinding": "6f5ec57a65727ef863cc2a23a703579116008c169213cab054a130635e12caab",
+          "producerSHA256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        },
+        {
+          "consumerSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+          "originalFilesModified": false,
+          "originalManifestSHA256": "f8f1d2e2a187915268f00a41a6fae8b0f4eb16414c925f3f785b6ced3cd7e837",
+          "phase": "low-fourth-columns",
+          "producerBinding": "6f5ec57a65727ef863cc2a23a703579116008c169213cab054a130635e12caab",
+          "producerSHA256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        },
+        {
+          "consumerSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+          "originalFilesModified": false,
+          "originalManifestSHA256": "f8f1d2e2a187915268f00a41a6fae8b0f4eb16414c925f3f785b6ced3cd7e837",
+          "phase": "high-fifth-lifts",
+          "producerBinding": "6f5ec57a65727ef863cc2a23a703579116008c169213cab054a130635e12caab",
+          "producerSHA256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        },
+        {
+          "consumerSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+          "originalFilesModified": false,
+          "originalManifestSHA256": "f8f1d2e2a187915268f00a41a6fae8b0f4eb16414c925f3f785b6ced3cd7e837",
+          "phase": "low-fifth-columns",
+          "producerBinding": "6f5ec57a65727ef863cc2a23a703579116008c169213cab054a130635e12caab",
+          "producerSHA256": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b"
+        }
+      ],
+      "all1088LowFifthCorrectionRowsVerified": true,
+      "all1088LowFourthCorrectionRowsVerified": true,
+      "all1088NormalSecondCorrectionRowsVerified": true,
+      "all1700PureSecondCorrectionRowsVerified": true,
+      "all17PureFifthCoefficientsVerified": true,
+      "all17PureFourthCoefficientsVerified": true,
+      "all2295HighFifthCorrectionRowsVerifiedByFullKernel": true,
+      "all2295HighFifthLiftRowsVerified": true,
+      "all2295HighFourthCorrectionRowsVerifiedByFullKernel": true,
+      "all2295HighFourthLiftRowsVerified": true,
+      "all2805ThreeNormalFifthResidualRowsZeroByNormalDegree": true,
+      "all2805ThreeNormalResidualRowsZeroByNormalDegree": true,
+      "all2805ThreeNormalSourceRowsZeroByNormalDegree": true,
+      "all3383FifthNonautomaticOriginalSourceRowsVerified": true,
+      "all3383FifthResidualSourceRowsRetained": true,
+      "all3383FourthResidualSourceRowsRetained": true,
+      "all3383NonautomaticOriginalSourceRowsVerified": true,
+      "all6188OriginalSourcesRetainedInFifthProof": true,
+      "all6188OriginalSourcesRetainedInProof": true,
+      "allCompleteZeroHighSourceKernelRowsVerified": true,
+      "allPaidFifthCanonicalHashesVerified": true,
+      "allPaidFirstHashesVerified": true,
+      "allPaidFourthCanonicalHashesVerified": true,
+      "allPaidSecondHashesVerified": true,
+      "allPaidThirdCanonicalHashesVerified": true,
+      "allThreeActualHighFifthTermsRetained": true,
+      "chart": "finite zero in original s and co-moving moments",
+      "checkpointBinding": "7291adb44a00beeda81ca10eafb4a7431dd40341907a399833dc0778b00b4e11",
+      "checkpointDirectory": "/home/runner/work/_temp/isp-recovery-session-43702348535/zero-sixth-preparation",
+      "checkpointFormat": "r150-fifth-joint-high-low-temporary-v1",
+      "checkpointInputBytes": {
+        "firstGenerator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "firstReceipt": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548",
+        "fourthReceipt": "6cf6884053d607ccfe5f0974d5c259ca80a9489c7b3b81c284202ca539f94455",
+        "normalSecondReceipt": "2bf6ad79a39cace74510f195bae244abb620b4ca138a87c5c9b99d7cf2c282c8",
+        "paidFifthProducer": "94151693c2a0a9b8fc0eb84d442d6742818503b3cd069bffd82f95f1b0bc1f1b",
+        "paidFifthReceipt": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41",
+        "pureSecondReceipt": "9fa21a1f33225c470af62e4186046ff93281f4647bcb126c32f239bf355f846a",
+        "script": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+        "secondGenerator": "c8dde441995f3c9b57728a68ec7b29aa56e9abfbbee280fc334961b64e561403",
+        "thirdReceipt": "8fae063a281b65d9dc8710597f886093c08ba44f53bb690b11e3b3f0e9b0d8cf"
+      },
+      "checkpointManifestBytes": 532,
+      "checkpointManifestSHA256": "08ab62e7b94ebfe6aba0b88e590bcf249516ea8829becc71ff70a53cd5317380",
+      "checkpointPhases": {
+        "paid-fifth-full-cochains": {
+          "bytes": 327768,
+          "file": "paid-fifth-full-cochains-74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f.json.gz",
+          "matrixSHA256": "cf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640",
+          "sha256": "74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f"
+        }
+      },
+      "checkpointTemporaryOnly": true,
+      "completeA2LowTransposeSHA256": "64206f40158bc4b978563a9b4ead8e4a3a5007300906610433ce5aa801c85d7d",
+      "completeA3LowTransposeSHA256": "25dc090627fb714095d685a8ec2d6cdee00affa06599594996c01a8639c9ff4a",
+      "completeHighKernelSHA256": "2314aa5e592d3e397fdbfc0dd76b1b31f4bb4b6f10474b2be651d2c7808985b5",
+      "completeHighOperatorFreeIndices": [
+        164,
+        494
+      ],
+      "completeHighOperatorKernelDimension": 2,
+      "completeHighOperatorRank": 988,
+      "completeHighOperatorSHA256": "44bfa088c306186f920e996e8204ef6b6b7c706196bc11f88ca1594c90e9d326",
+      "completeLowFifthCorrectionSHA256": "f614748ca57d796c015b5e1ff81f01c66f5062e5df169af00683bf7c2d31e493",
+      "completeLowFourthCorrectionSHA256": "1e5bbdf41f1cc1e79fb5e0244f5990f112ce01bd672011162414ca6d322a2f22",
+      "completePaidCochainPack": {
+        "bytes": 327768,
+        "file": "paid-fifth-full-cochains-74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f.json.gz",
+        "matrixSHA256": "cf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640",
+        "sha256": "74eddad8e0a7462ed9821c6e31bab22aa90310045d24a5de052323c98e1d002f"
+      },
+      "completePaidCochainPackRanges": {
+        "constantOneNormalQ": {
+          "matrixSHA256": "91e6c6d98c6252147db4c38c4953e3e355d3cb1f7a613c26e63cf97b34f5f291",
+          "start": 4468,
+          "stop": 4603
+        },
+        "firstSurvivingQ0Padded": {
+          "matrixSHA256": "b9eb8cdb0192e7a78a56af78ae9210ec06317315b48677825c5105d018daa23c",
+          "start": 4603,
+          "stop": 4738
+        },
+        "lambda0ThirteenCoordinates": {
+          "matrixSHA256": "e317794b60b60a6e87f186c1b7bc871ed0c3e74db66913f53d175d6454e9a578",
+          "start": 0,
+          "stop": 13
+        },
+        "lambda1OneNormal": {
+          "matrixSHA256": "ffbf58210bb4a25873dfbc159266eb965a9f0a61e4f525b92193ccf68898b790",
+          "start": 13,
+          "stop": 148
+        },
+        "lambda2Low": {
+          "matrixSHA256": "1552ccee93f4b49f025bd74790baa5a6364fe8e922b270814a9b7249a8cde246",
+          "start": 148,
+          "stop": 733
+        },
+        "lambda3Low": {
+          "matrixSHA256": "ebe03d8e327ffec33c3c128c5246fcc40180eea73c401fb75b5877dc93cff401",
+          "start": 733,
+          "stop": 1318
+        },
+        "lambda4Low": {
+          "matrixSHA256": "56d1782ceda52e636bcc8c3556f1364b41df7adba76f1b5e599ed9fc81b66ba4",
+          "start": 1318,
+          "stop": 1903
+        },
+        "lambda4ThreeNormal": {
+          "matrixSHA256": "7e2c8cace095c575b007f1a652336f0b6991aa28ea73b79daf2e33cd64706d6c",
+          "start": 1903,
+          "stop": 2893
+        },
+        "lambda5Low": {
+          "matrixSHA256": "e3b976666d62340a73c35adb597da9daeea18241d930fef4103e5b96c3d6bb53",
+          "start": 2893,
+          "stop": 3478
+        },
+        "lambda5ThreeNormal": {
+          "matrixSHA256": "7e2c8cace095c575b007f1a652336f0b6991aa28ea73b79daf2e33cd64706d6c",
+          "start": 3478,
+          "stop": 4468
+        }
+      },
+      "completePaidCochainPackShape": [
+        4738,
+        7
+      ],
+      "cubicA1HighActionSHA256": "83daba27b28af5a422b3fd286dd1ec1316aaa2bbc3274366db50697385bedfbd",
+      "cubicA1LowActionSHA256": "294ed161dcdc32fd5731a25d9bc028a74baf2372f5fd95c22eb009700b9f9cc3",
+      "fifthCorrectionAmbiguityAtFourthCoefficientRetained": true,
+      "fifthFourthCoefficientAmbiguityIsOriginalQ": true,
+      "fifthHighResidualSHA256": "e5f073f642e7a401f69bee84a0cc69c26c50107b78511dbcf58f60fa9c3b65e9",
+      "fifthLeadingAnnihilatorSHA256": "55db68184f78d8308414f5440998a3af153488ef49586ea33a3da9a01d8e9e4d",
+      "fifthLowResidualSHA256": "d2aa6fedd89e90fce8986ef03f8666626d4bb7aed7778eaee112bfa3f1c6f2c9",
+      "firstConnectionExactRankNotAssumed": true,
+      "fixedFourthFirstCoefficientSHA256": "8116974783b57cb65921a2589b2d7652f3a2c6c77c5b22476679a8d47da6b9f8",
+      "fixedFourthFourthHighCoefficientSHA256": "456ef71b334c381452999237d27b4417293d477bb92375d12ffa96f07f364d7e",
+      "fixedFourthFourthLowCoefficientSHA256": "0d661006b1c43310d9578105c40c9c63832eb6828c038706bae63e164bc1efa3",
+      "fixedFourthLeadingCount": 9,
+      "fixedFourthLeadingInThirteenBasisSHA256": "c58064f2be19c549c0d68ef4b8a8c3f97b60988bed2709e3bddd554188b465a4",
+      "fixedFourthSecondCoefficientSHA256": "37da914afb16f6854a73cfd5c1aab2e86dcd63b8ed4e68808964d931758ee791",
+      "fixedFourthThirdCoefficientSHA256": "6b39e988ed38eec11e6a454e6c3a313e5765244ab3be89dd50b6bed0ac2b99fd",
+      "fixedLeft2FirstCoefficientSHA256": "e8816d8721e5bbd0d79f7f3a735c0baeb33c815c64fc6ae25e387549fe62cbf8",
+      "fixedLeft2SecondCoefficientSHA256": "33b7cdd915894c9387826bda69f7608520fd26a18d5ae4cc703e9754c8889e49",
+      "fixedThirdFirstCoefficientSHA256": "42138d55da1ca9372a75e9d17cc1cb2c8105ffaa69df120590c83ecaa75ef383",
+      "fixedThirdLeadingSHA256": "3102446e31a9ab20f749d23379e75e26efb2d58a4b08323477a761a0ac8d64a5",
+      "fixedThirdSecondCoefficientSHA256": "99e38dc6299d6f36ae9a9b21fd8cd436079943cb8ee4fc3e216687dec6135d41",
+      "fixedThirdSection": "original complete1088x605 canonical correction",
+      "fixedThirdThirdCoefficientSHA256": "b47a6c736b24c6a66bc74ce16bd7ab9f8ec488897a24f8d1a0a8ed916dd6fb32",
+      "fourthCorrectionAmbiguityAtThirdCoefficientRetained": true,
+      "fourthHighResidualSHA256": "e91891683f8e8a314c663d2c53fd596086de1a3094eec093d84afd6cfc6df4e4",
+      "fourthLowResidualSHA256": "b2fc245a8efb849c0607033292b404923915cff15edac88c0b65a837757f6bd3",
+      "fullZeroMaximalMinorOrderLowerBound": 53,
+      "fullZeroSubmaximalMinorOrderLowerBound": 47,
+      "highFifthAugmentedRank": 988,
+      "highFifthAugmentedSHA256": "f5cd63180f9a659d9b56a2a888412244d3a7420c7c98ab4d87ce7caa655a2a66",
+      "highFifthKernelSHA256": "d1d968dd3cf09b0db76a8aa9eac2e0acdd35c311224b7b0248e4a08e61509264",
+      "highFifthLeadingDimension": 9,
+      "highFifthMatrixShape": [
+        2295,
+        999
+      ],
+      "highFourthAugmentedRank": 988,
+      "highFourthAugmentedSHA256": "d147f8b908118900531cf273018899ff1d5c105cf56ed7cb49c7573eb4423f02",
+      "highFourthKernelSHA256": "ee11dcdee6e3c6b86c478543f9d80dbcaa99c2422e1cd6a5532439285d9038f8",
+      "highFourthLeadingDimension": 12,
+      "highMatrixShape": [
+        2295,
+        1002
+      ],
+      "independentFifthLeadingCount": 7,
+      "independentFourthLeadingCount": 9,
+      "independentPureFifthConvolutionVerified": true,
+      "lambda2NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda2NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda3NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda3NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda4NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda4NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "lambda5NineSquareSHA256": "50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6",
+      "lambda5NineSquares": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "largeMacaulayMatrixConstructed": false,
+      "largeRecomputableDataPersisted": false,
+      "largestMatrixEntryCountBound": 2299590,
+      "leadingAnnihilatorSHA256": "96f113100d9f452735dae33951754df0e26880f502e6829d68bf0be94cc2be27",
+      "leadingAnnihilatorsInPaidNineBasis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-906/59",
+          "243939753190408876732819759491191/2154926556727036759867804718400",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-906/59",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "leadingAnnihilatorsInPaidTwelveBasis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "lowFifthAugmentedRank": 586,
+      "lowFifthAugmentedSHA256": "0acfd091c8af4d64e4b04ceab15d6fedf62bc9589a391481a0e282874ba7c12b",
+      "lowFifthMatrixShape": [
+        1088,
+        603
+      ],
+      "lowFourthAugmentedRank": 587,
+      "lowFourthAugmentedSHA256": "52b7d99766b8ed5cddae819c13514d60f8415fbc037f1b4550e8d495c99418d8",
+      "lowFourthMatrixShape": [
+        1088,
+        606
+      ],
+      "lowHomogeneousCubicPrefixRank": 584,
+      "memoryMiB": 512,
+      "naturalParameter": "s",
+      "newMathematicalRankComputed": false,
+      "newOriginalCoefficientOrder": null,
+      "noNewLeftJetClaimed": true,
+      "notAFullFifthConnectionLowerBound": true,
+      "notAFullFourthConnectionLowerBound": true,
+      "oldNormalFormsRecomputed": false,
+      "originalFifthJetSHA256": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "061d3fef70b1ddc55fadf19bb6ab9dff3e16f217ec5bd35a9329f1df871e1bc4",
+        "L_y1": "e9c366c441ca83d6b637ca5538fb217db66afd9f33d37a2f56381fcbe54782cc",
+        "L_y2": "de009a98b8aef5ffc0705208e69f176f5443d51d34334b411328adfb88870696",
+        "L_y3": "cb4db866cb233d56cd269570651a223b8dc15b75112ee4e13705996505417a82",
+        "L_y4": "73162281f28bb682d8186c5cba3cfd89c2d9b10826de0e52a59d9fabf7f3a0a2",
+        "L_y5": "16d95661321becdeb2278056b8ceb6c5322a19e75cf7df9ac8b46123baee3e72",
+        "P5": "4b6813118845e3d4b44750ef494a73ed9e756256729e7a217de855ebcbcce985"
+      },
+      "originalFourthJetSHA256": {
+        "J2": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "J3": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "L_y0": "061d3fef70b1ddc55fadf19bb6ab9dff3e16f217ec5bd35a9329f1df871e1bc4",
+        "L_y1": "e9c366c441ca83d6b637ca5538fb217db66afd9f33d37a2f56381fcbe54782cc",
+        "L_y2": "de009a98b8aef5ffc0705208e69f176f5443d51d34334b411328adfb88870696",
+        "L_y3": "cb4db866cb233d56cd269570651a223b8dc15b75112ee4e13705996505417a82",
+        "L_y4": "73162281f28bb682d8186c5cba3cfd89c2d9b10826de0e52a59d9fabf7f3a0a2",
+        "P4": "ea9cb900008a8239dc155a4f21238f08b6db5761c978f48e55712b9e7d6f967c"
+      },
+      "originalThirdLeadingCount": 12,
+      "packBinding": "7291adb44a00beeda81ca10eafb4a7431dd40341907a399833dc0778b00b4e11",
+      "packProducerSourceSHA256": "f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae",
+      "paidFifthReceiptSHA256": "5ba37fa2e82f4169375c2d3e869a3bb065238c3e4d7c2b60bd021f70266ccc41",
+      "paidReconstructionThroughOrder": 5,
+      "paidSecondNormalCanonicalSectionRetained": true,
+      "paidSecondPureCanonicalSectionRetained": true,
+      "pureA3TimesSecondNormalAndPureA2TimesThirdNormalRetained": true,
+      "pureFifthSeedEquationOrder": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        -362496,
+        28672,
+        -34304,
+        1488,
+        -160,
+        -48,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pureFourthSeedEquationOrder": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        150144,
+        -34688,
+        10264,
+        -1200,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "quarticAndQuinticNormalTargetCorrectionsNotExcluded": true,
+      "realA2PureTimesSecondNormalCoefficientRetained": true,
+      "sharedSeconds": 30.0,
+      "sourceMultiplierTransport": "m_j=sum_(k<=j)binom(j,k)s^(j-k)n_k; invertible on all degree<=3 monomials",
+      "sumFirstFiveConnectionRanksUpperBound": 10,
+      "sumFirstFourConnectionRanksUpperBound": 8,
+      "targetLeftTransport": "A_new=T A_old V implies lambda_old=T^T lambda_new",
+      "temporaryOnly": true,
+      "tenOtherPureLeftFunctionalsExactForAllParameters": true,
+      "thirdLeadingCount": 12
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 11:12:54 UTC",
+      "beforeReadCommit": "791a946a4d8e80b7c473ec0441df681e1f255a48",
+      "originMainAfterPull": "846daedbd85a3644a1b1bcccc48b7168de21d430",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 11:13:05 UTC",
+      "beforeReadCommit": "846daedbd85a3644a1b1bcccc48b7168de21d430",
+      "originMainAfterPull": "f9d8da4e9a7b783caa51b6da4790c473fe471920",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 28,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 9605,
+    "logicalJsonSHA256": "dce73bd3eac426ee730fbfad9f760582f3a3a1920f90b9f5e5f42bde80babb5f",
+    "itemCount": 28
+  },
+  "lastRulesReadCommit": "f9d8da4e9a7b783caa51b6da4790c473fe471920",
+  "summaryExcludesRecomputableArraysOnly": false
+}
