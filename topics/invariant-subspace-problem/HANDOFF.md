@@ -31,7 +31,7 @@
 - 旧P Hermite/localized爆长路线失败：19行后另57步MemoryError，候选未验证、无Ω，完整恢复身份保前态；不盲续。
 - 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
 
-- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** source4ae559a6实113.562242秒/三项各3311整除；全原来源核，Ω仅已证整除degree120候选，临时upper12999B/b6c26ab0。全56 source0e111c23首180秒实际168.335秒完成12 unit pivots/9350 Schur核，尚余44×10；U实际为squarefree degree60的平方。generation12 state-slot-0 43284279B/cfb39832、payload62b4c7b3、binding862cca4d，均临时。已排同out/source续300秒/2GiB/外360，依赖成功det步，不重core/det；不能报Ω值。小回执43756208221-complete-original56-local-outside-gcd-180.json。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** 3原minor实113.562242秒/各3311整除，Ω仅已证整除U=f60²。全56 source0e111c23首180+续300秒已付19 unit pivots/11058 Schur+1232原核，剩37×3；后一math288.5526042秒，无split/closed。gen19 state-slot-1 10744842B/fa04fe35、payloadf0694329、binding862cca4d均临时。已排同out/source再300秒/2GiB/外360，仍依赖成功det步，不重core/det/19pivot；未报Ω。receipt后缀complete-original56-local-outside-gcd-300.json。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
