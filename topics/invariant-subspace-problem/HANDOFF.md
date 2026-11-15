@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 970f001e3699c411c0667822ca11986868977337（2026-11-15 07:35:58 UTC，Actions run43690656900实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43690656900-1.json。
+- **最近成功实际 pull 与已读规则提交：** b976710c9e9a8f4414f987a14642d8b6bece9743（2026-11-15 07:38:44 UTC，Actions run43690854859实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43690854859-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -34,6 +34,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - N/Y各自负轴领先12.5障碍及次阶安全放大已付。**[当前Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)**用τ14=12.5d³+26.75d²+…、R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(−d³/64+54d²)→0。完整右/裸/旗/首源g/零源都运输，新头Ĉ=ψ_m(C)/d0，g在Sb等范数距I≤2M0/h。整个左L未运输，不相减Gram。
 - **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
 - **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
+
+- **[Riordan实际返回配对与同窗误差](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** 对原eY∈E0取ê=P_Ê K^-*eY，严格保完整最小化/逆伴随测试；返回主配对运输误差≤C0²α||eY||≤C0²||Y||²/2，总误差≤C0²h·真尾²/2、平均O(C0²h/Q)趋零，无给定尾率。原q_h(−T0)*eY同样成立；未付主配对完整保留，不运输左L。Ĉ须用完整V0，纯头W仅在kerL与它相等。
 
 ## 当前临时计算会话与可恢复身份
 
