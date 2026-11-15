@@ -48,11 +48,11 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R308/317/319弱hook通道**：内部f=A(x−β)^(5/2)、紧g给AfW0而W≠0；三左复幅真三矩、八完整copy消四ruling，再仅对全θ组合施period/range，完整三阶已付且第二hook非零。R317保全mixed新修正/真尾。R319更早面积I0=−(a+3b)/3∫u″²f″f‴排所有同向幂段，β任何号均不可；补包为全导0，真实copy正四次权。正反基本对分别在最终位置完成三阶，再两完整块等幅合并，两个无x相位系数准确互反，整θ这一I0真零。下一同一正反圆的I1/I2/一层/第四period与joint，不能当有限flex。
 
-**R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。R315已实际以有限N圆清整角E²三门与全部E8交换面积，保三矩/third；新B真尾/Green/corrected-self、初选Fnew、四交替包正锥全付。R318从R56/R73全式得local+chain residue=κ²ℒ，真内尾τ=m2x/ξ=−m1x²/4/ν=−m2x²/4逐项cross0；self外矩C²、平移≤8，初选增加27系数，整个log全θ清。单E准确七幂h^−4…h²，最高行−κH(V,2)/24为新mixed能量；degree9第五交替包与前三6/7/8正锥同付。余六singleE、有理We商、period/joint仍欠。
+**R312/315/318/321新初始端芽**：h=he(1+εσ²),κ≠0,ω常；原9参真实安装保M/frame/全词/闭合，先选新seed再固定g。真history=mrat+E Bε、E=atan(√εσ)/√ε，第三另有L=log(1+εσ²)；全gauge同We=span{1,h,h^-1}商，四词有理独立。R315付全部E8面积/三矩/third与E²三门；R318原local+chain residue=κ²ℒ，真τ/ξ/ν尾给cross0、C² self平移≤8，初选加27系数，全log清。R321完整七singleE行加三个E² principal恰10维，正判别式K³+24K²ε+16(7+19κ²)ε²；真偶母/复制不降维。新增187可冗余corrected-self含Γ/Green/local尾，十一真实交替包×有限χ正锥，保全部基线有限N真10零，全θ还原。同一个实际圆E²/log/E已全清；下一从R56全原式支付有理We商（不能只看principal），再全路径period/同w joint。未授完整第四或有限flex。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main ccd10210a19b45a79e90f6efd74bf8bcd8888f8a，双README blob同。API读取不冒实际pull。
+断连API复核main 7f39350af348e826c3c918cb20460d41debeb939，双README blob同。API读取不冒实际pull。

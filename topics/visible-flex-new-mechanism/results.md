@@ -421,3 +421,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R316 原实际与准确公式](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)，公开run43735872441/source ca186db057ed753abe565d0c3c2c8305278b5af7/job132878270740。12新接口人工全过；全部13维权零响应pure核与H的14个新完整T/Euler目标给rank7=增广7、37忠实行，MEMBER。原R126 old列编号下H*=C2+649R2/768−73R3/3072+649R4/1536−821R5/768+R7/64+187R9/1024，πH*=0、整Q(H*)=0、λ+(H*)=1。独立fresh原mixed复合差2497项，T/Euler0与wholeword重构0；实际selfword亦0。
 
 10.428266294s/112.48828125MiB，413次新primitive，无预算截断；只读48个旧pure坐标并恢复必要16mixed+C2，旧H0秩/3974/旧endpoint未重。33请求和45嵌套源码绑定逐项核原receipt；两完整原日志JSON+换行的摘要SHA与receipt相同。由具体H*可严格推出λ在pure核上不经整self因子化，但不能推全mixed0/实际有符号路径/全period或主目标。R322同权归约已成；下一R302真实控制与全mixed/cross。
+
+
+## R321：全部七个单反正切门与平方三门在同一个真实有限圆上联合支付
+
+[R321 完整证明](results/R321-complete-single-arctangent-gates-and-ten-dimensional-joint-control.md)逐项保原local修正β，给singleE七个h^−4…h²完整principal表；同E²三门提出αB后，恰张成{x^jW,x^jC:j=0…4}。五行消元最后判别式K³+24K²ε+16(7+19κ²)ε²>0；真正偶母/偶χ可能盲核仅span(uv,vr)，与共同αB因子交零，全正copy平移算子三角可逆，故实际主空间同为10维。
+
+从构造起点追加187项可冗余directed/local corrected-self系数，保全部真实Γ、Green、二次左尾和三ordered-wedge；整角十值准确为sin²θ×π/2值。11个真实交替位置对degree≤9多项式给严格正核，有限多个解析χ联合给全R10正锥；保持初选完整C²纤维的有限N IFT将包括所有基线的十个实际值同付零，既有log门不动。因此同一个实际圆的E²/log/E非有理局部门全清。纯有理We商、整个路径period/joint、高阶与有限几何仍欠；无新科学执行。
