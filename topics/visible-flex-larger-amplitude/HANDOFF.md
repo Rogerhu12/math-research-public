@@ -36,7 +36,9 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 [113完整接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)：CPP1b59cd10/bridge3655c81a/probeba3564ca及28源pin不变。真实__float128113位覆盖e=L−target、226态RK、节点+αdelta及129248残差；原geometry/角表/scales精确提升。原noJ k/steps+cusp子步，不冒withJ n*h逐位相同或连续ODE。两root配置原8e−14/5e−12与1e−28/5e−27，先两base再十α；7200s只独立child，导出/额外64base/初J/R273另计，step320min/job350。partial/error后回同R273方向，原64的32×10/eta1/tol2e−9/finalJ/audit保留；旧64J不是一致128J，无新接受锚。
 
-首跑run43687907457/source7308ea/job132732158878在首快照前从HEAD取已清理JSON失败，无J/方向/128残差；CPP编译成功，summary942b3c55，见[实际故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。[工程修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已发布 requestce294b5e/workflowdb8a479b：8bd26710原两ready只临时恢复到原client两env，ledger109004B/563a9997、stored29774B/c1c44f23，三科学源不变；owned只读父目录修权限清理。第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC启动；历史两件恢复步骤运行中，科学结果待读。
+首跑run43687907457/source7308ea/job132732158878在首快照前从HEAD取已清理JSON失败，无J/方向/128残差；CPP编译成功，summary942b3c55，见[实际故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。[工程修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已发布 requestce294b5e/workflowdb8a479b：8bd26710原两ready只临时恢复到原client两env，ledger109004B/563a9997、stored29774B/c1c44f23，三科学源不变；owned只读父目录修权限清理。第二run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC启动；已通过两历史输入恢复并进入科学步骤，结果待读；amplitude接管只读监测。
+
+[持续128后继接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)已明确定义：root残差小不界Dε，同4个RK现场亦不等有限停止算法exact J；持久128状态、全部新残差右端、匹配变分及cut/二阶jet/audit待实际113证据。不另造solver/fixture。
 
 ### 114已完成，115扩独立控制（exact_refinement准备）
 

@@ -89,3 +89,7 @@ run43687907457/source7308ea/job132732158878在首快照前退出；旧driver从H
 ## 2026-11-15 113修复后第二run已启动
 
 run43688981685/source8d68a39e79eb1f0c976868d69f87d27fa3f2acbb/job132735373768，07:13:29UTC创建。实际job元数据到历史两输入恢复步骤；尚未读回科学结果。H压缩114的已完成原值到正式note，保所有未付责任。
+
+## 2026-11-15 完整128后继的状态/变分边界
+
+[源码与代数接口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)明确完整128状态所有权、近似原64方向、有限root停止与隐式J的Dε差，以及全部cut/二阶jet/最终audit责任。没有新计算/阈值/fixture或接受锚。第二113 run已通过恢复步骤进入科学；由amplitude只读监测。
