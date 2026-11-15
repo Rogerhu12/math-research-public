@@ -6,8 +6,15 @@
 [43714674603/1](https://github.com/Rogerhu12/math-research-public/actions/runs/43714674603)
 returned science child code 0, passed all 12 identity and coverage gates,
 and evaluated every one of the 91 declared scalar cases.
-Exactly 15 parameter cases pass the complete high-trace criteria.
-The low physical inner-curvature entry remains unproved.
+Exactly 15 parameter cases pass the originally evaluated scalar expressions.
+**Source identification corrected:** those expressions omitted the independent
+raw response mean. [MC](R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)
+proves the missing fee and the exact corrected decomposition. Until that fee
+has been evaluated, the historical 15/91 count does not establish the intended
+complete-source high-trace criteria. All numerical records below are retained
+as historical values; every high-trace implication that uses them additionally
+requires the corrected source gate. The low physical inner-curvature entry
+remains unproved.
 
 This report consumes the accepted complete small conclusion. It does not
 rerun any old numerical calculation or alter a failed case.

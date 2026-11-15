@@ -107,7 +107,7 @@ The accepted complete response-repair summary
 [43597921732](../notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json)
 has SHA256
 7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec.
-It uses the repaired centre but the original physical response trial $q_{\rm raw}$. Its residual is not relabelled as that of $Z$.
+Its original construction uses a scalar mean-completed response trial. As proved in [MC.4--MC.9](R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md), the same nonnegative budget bounds the raw nonmean residual plus the complete centre-repair fee. It does **not** include the independent raw response mean $r^0$. The actual complete source is $s_0=b_0-r^0e_2$; the mean fee must be added before using this summary in (R.9) or (R.14).
 
 By [the exact continuous direction](R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md), (Q.2)--(Q.3), on each original cubic piece
 $$
@@ -150,7 +150,7 @@ $$
                         +E_Z\|384C_1+C_0\|_{L^2(I)} .
  \tag{R.14}
 $$
-The old whole-body residual can give an upper bound on a smaller interval, but cannot be used to infer that smaller interval's sharper value. A new sharper restriction must consume every old closed row meeting that interval and its genuine measure.
+After adding the independent raw mean fee as in MC.12--MC.14, the complete whole-body bound can bound a smaller interval, but does not determine its sharper value. A sharper restriction must consume every old closed row meeting that interval and its genuine measure. The exact identities (R.10)--(R.14) themselves are unchanged.
 
 The historical field $\texttt{actual\_completed\_common\_rows}=7680$ in that old summary is its last 256-row progress checkpoint. The original producer sets the final $\texttt{complete\_common\_rows}=7721$ after checking the complete cover. New consumers retain the old bytes and independently verify all 40 part identities and the full row order; they do not reinterpret the progress field as a terminal count.
 

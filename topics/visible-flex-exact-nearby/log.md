@@ -197,3 +197,5 @@ H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原
 
 两README在590c839f269fc5f1d3bad80a1edb2faff615ee20亲核未变。root已亲读execution318dd25b/44767B、actual-result72745bf3/7879B的原字段及完整报告59ab1bb6/20485B，SCI/worker/manifest与22pin/5AST/两原ZIP4member身份一致。run43716450174/1 child0/17门，math.551217555s/wall.866611075s；6cut同r_+−R，无跨cut拼接。R=.005/.01/.015/.02通过，.001 τ1/τ2>1、.002 τ2>1只保raw；R=.005 gain普通1.070261671287/root-jump15.135785708216、G贡献5.925089064527e14，原G31完整项原样。无旧jets/norm/Cauchy/积分或source重算。
 亲读真pull12:57:58.750589→bdf728aa37980d247e279f404390c11991b2cbdc，两README diff空；原容量199064002B、该run两小件后199116648B仅该时点。预Gitstdout42859B/f215352d、tempnative16269B/f952ce74不保存。root13:01非FF立即尝试真CLI pull仍No usable execution environment，保远端重建CAS至第二次成功1bb353c9；不把ref冒pull，定时尝试仍继续。H旧D详账仅压缩引用1bb353c9同路径/原文，所有true mean/global差和未付finite逆义务保。
+
+- 2026-11-15 13:09:37 UTC visible-exact-astra-0df9：MC逐核原mean/centre-repair producer，修正R§3、原collar报告与W交叉引用；旧summary漏独立raw mean，证明只需新纯径向fee而无需另加ΔA e_mean。原91记录不改，完整高门待新5case；D/cut/W known/Green等不受影响。亲读Green13:04真pull3cf63af1两README空；只读main 78262633574059fdde9a9dbbcb606a62fa2ba90a 规则未变，继续新fee/AJ/local/Green。

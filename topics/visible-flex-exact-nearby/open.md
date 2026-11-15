@@ -211,14 +211,9 @@ RG用M零宽图、同真long右宽0/左宽7L/16与E'>39194024，解除未知γ�
 [A更紧低常数](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)
 保真实两行能量、speed中的<f2>/m、完整mean/rank/χ外η与finite差商；两侧必须同一连续H1 state，真实jump独立lift，不能当ordinary L2源。完整式与原待付义务保46b3c697同open及原文。
 
-[collar消费契约](notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md)与
-[actual43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)
-已锁成功：child0/12门、91case全保、15pass＝ell2^-16/17/18×rho2^-20/24/28/32/36；1e−4及2^-16两个大球全部未过。
-SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24/report0860c1e1，0旧target/FFT/残差/repair/Green重算。
-代表ell2^-18/rho2^-20的start<.060600、linear<.063560、nonlinear<.064962，完整四源及factorial门通过。
-若另已造同collar真H1解并在相应C0球，则same cut H8193差<2^377904<2^393000；高门不构成core存在。
-五个selected代表低H1充分门全false，最小界.000389113仍远大于J的15e−9/128；上界大不证明实际误差大。
-完整已知δZ cut shape/mean与未知correction须分列，实际低γ和core图继续。
+[collar实际43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)的child0/12门、91case及15pass保持原记录618bd148/dbe7fe24，但旧complete-source解释已更正。
+[MC原始响应mean身份](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)证明旧非负预算界b0=s0+rraw,mean e2，完整fδ新增δrraw,mean；ordinary/factorial需补d||P rmean||2，正角导及>96投影源不变。原完整高门授权暂撤，只读原40parts/7721的signed mean、真交长与K后重评已保留5case；禁止重跑旧91case。未重评的另外10case不因5case通过而恢复授权。
+五个旧低H1充分门皆false，最小.000389113仅旧上界，补正费不会转成通过；actual unknown/core存在/同一双侧H1与C0球仍待。
 [cut shape/mean消费契约](notes/2026-11-15-R133-selected-cut-shape-mean-contract.md)及[actual43715426316/1](results/R133-supplement-actual-selected-cut-shape-mean-and-component-bounds.md)成功锁：child0/9门/math.027363467s，SCI745fc480/workerc7c83418/manifest95541c2e。
 report048c84d5/conclusion5d74a0f2/process82b7c376；193真实幅度/base32 signed shape、全mean/连续repair均保，0旧math。
 未乘d的xi/xiφ/ζ/ζφ/mean/shape A0上界分别.241363696/.991176944/.601228813/2.456459299/.003278096/.597994429，直接供CS完整行费。
@@ -229,7 +224,7 @@ J18 known上界1.030683e−11大于7.8125e−12，负剩余−2.494322e−12完�
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
-collar精确T2/T3保全mean/primitive，四source带96/160/224/288给完整Fφ/factorial，actual已据原7296平方dr积分并保true mean。
+collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可用完整Fval/factorial。旧7296的f0平方dr积分不受此项影响。
 真f=0仍依同一实际H1core的独立存在；低迹和全部matching未由这次条件高门支付。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。

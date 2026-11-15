@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（源身份更正 MC）** [原始响应独立mean与最小领圈补费](results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)：旧mean-completed正预算只界b0=s0+rraw,mean e2；完整ordinary/factorial新增d||P rmean||2，正角导及>96源不变。旧15/91记录保留但完整源高门授权暂撤，待新5case补费；不改旧成功数学。
+
 - [6个负侧cut实际读出](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)：43716450174/1 child0/17门，R=.005/.01/.015/.02的两归一化逆通过，.001/.002未过保raw。R=.005完整ordinary→density增益1.070261672、root/jump15.135785709；source/G31项与全部mean保、0旧math，非完整return/GH。
 
 - [完整运输系数与leading逆的角jet递推](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)：保T0=t+5dφ真mean；F=1/Q给cT/Xi完整分解，B+=x²+Ty²与leading M逆全角导、QG先相关合并。外RG径Cauchy使用外jet而非内H小量；仅新scalar预算，未报数值改善/strong-return。

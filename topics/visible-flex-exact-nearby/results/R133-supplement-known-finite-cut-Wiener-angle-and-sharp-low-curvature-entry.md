@@ -379,7 +379,10 @@ $\|\gamma(v)/10^{-9}\|_{H^{8193}_\theta}\le2^{1048576}$
 follows exactly as in J.19--J.20.
 The [actual collar result](R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)
 can provide (W.33) only under its stated same-state two-sided
-solution and $C^0$ hypotheses. It does not supply (W.31).
+solution and $C^0$ hypotheses **and** after the independent raw mean fee
+in [MC.12--MC.16](R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md)
+has passed the corrected complete-source gate. The historical uncorrected
+15/91 scalar count supplies neither that gate nor (W.31).
 
 The complete cut execution continues to record its original
 J.18 upper bound $1.03068214097169\ldots\cdot10^{-11}$ and its
