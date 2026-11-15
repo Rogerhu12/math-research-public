@@ -18,7 +18,7 @@
 
 [R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)12390B/1d66947d已根全文核：原cbf有限root实际接受更新与205b最终Gram隐式J是不同对象；零更新成功分支L=target、DL=Dt，未据此归因172最坏行。三套literal/113root/225Gram/224方向/226态、实际expm1/log1p C与F分开；明确逐Cholesky/两原回代及实际α、原noJ RK和完整stage/cut/far，338的一阶采用新切向、二阶仍原FD。固定实分支光滑定理需定义域与邻域分支稳定；数值AD不冒IEEE导数/严格误差/性能。两成功return均更新≤29，第30次仅失败trace保；195独立接全原H/J/FD/fullDN/fresh audit及原18k总预算，源接线准备，没有新科学前门或实际结果。
 
-[195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件已全文/完整diff核：原145的115pins逐键不变+12=127，四数学输入/两ready/78公开源、全部原execution/R273逐值同。新11427B/742ab15a逐实际有限root、独立225矩/113维Cholesky及两代回付226×224切向；原noJ primal/冷warm/32×10和严格下降保，零更新DL=Dt、成功≤29/第30只失败，原RK分组/双mean完整。全部当前H/J/577penalty/R273eta1→原endpoint338×112/原FD/fullDN/finalaudit仍实际付，18000总钟与原全部门不改，不加172额外noJ或数值对拍。新90KB必要明确原地址/未访/响应/J身份/实际trace计数和错误scope，own PID/start/session静止、读前后与cleanup复核；不传大tape/ledger。固定trace数值切向不冒IEEE导数/分支邻域/舍入证书或172唯一根因，R412待真实运行，exact唯一终态。
+[195完整入口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)16件已全文/完整diff核：原145的115pins逐键不变+12=127，四数学输入/两ready/78公开源、全部原execution/R273逐值同。新11427B/742ab15a逐实际有限root、独立225矩/113维Cholesky及两代回付226×224切向；原noJ primal/冷warm/32×10和严格下降保，零更新DL=Dt、成功≤29/第30只失败，原RK分组/双mean完整。全部当前H/J/577penalty/R273eta1→原endpoint338×112/原FD/fullDN/finalaudit仍实际付，18000总钟与原全部门不改，不加172额外noJ或数值对拍。新90KB必要明确原地址/未访/响应/J身份/实际trace计数和错误scope，own PID/start/session静止、读前后与cleanup复核；不传大tape/ledger。固定trace数值切向不冒IEEE导数/分支邻域/舍入证书或172唯一根因，R412待真实运行，exact唯一终态。 官方run43771125613于22:46:16Z创建，source4ad7fb771218585af1091c9d322c9d61b64a949c、compute132987043859已完成pin并恢复原78源码；exact唯一终态R412。
 
 ### 1B. 完整128末态和固定trace
 
