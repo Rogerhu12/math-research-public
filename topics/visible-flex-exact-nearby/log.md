@@ -315,3 +315,11 @@ root逐字读最终source24961B/worker12866B/40pin manifest15675B/flow5479B/失�
 唯一原自然5596452B case SHA602789829d5afc1d6a61ec7edfa3af4862b933ade6e769a6bbbb6eca4a89aa83从原436691artifact整件恢复；不拆/不重压绕限。完整diagnostics先保存gzip，摘要如超60000B仅删重复9row明细并指向原diagnostics；6case/完整科学metadata/root summary保留，各case有完整九词/五mean和现存主导上包络。worker真实pull前后核README，非FF真pull重推；新的10min receipt上限不充当研究停机理由。
 
 H9990B完整存notes/2026-11-15-handoff-before-whole-rootpiece-receipt.md，SHA0e6e1b132532b6234d11c46bc983c81757ae6374482c0ec03dbc1e845f39a303，再压缩旧Airy摘要。最近已核runner真pull仍为02:59:20.267545至8383c71bde8f3f5bddbe1f8ec7929c20e986f08b，根/题diff空；本提交只读README核cb569450a4aed763397876ba5bb00af1d3095679，不是额外git pull。实际receipt到达即接真实seam/正weighted端口/强返回，未授全高逆或最终族。
+
+## 2026-11-15 03:12:16 UTC — 同一对象的角阶收益与真实mean/低模障碍
+
+发布A1–20，最终blob017869fa5cfc8e88df06f6a635f68899694ed5b4（11492B、SHA8aeb9aab49fc533878ddcb3f7d2269787c6546ce4f9deb851491a5e858dd343c）。root全文核，并回读原C.11/12/24/34/40/43/46及L.5–12的真实canonical/Green归一：平台取h=ζδ^-1b((t−tj)/ell)，ell=δ/(8sqrt12)，准确N=p*/(12ρr4)(htt−8ht)，源S^(s)全角阶统一，charge0/全外迹0；中心htt=−6144ζδ^-3，物理二jet下界δ128。全深不交和给单一连续源/C²平端反例，绝非由粗上界推反例。
+
+固定m4实际B_j相对理想误差可和；保整个真实允许线及E基，去真实规范后u_{j−1}=Λ4(1+e_j)u_j，2^132<Λ4<2^133。恢复真实height因子ρr4/20，得到实际物理下界δ^log2Λ4；有限径向cutoff可接外零解且所有mean charge/边界条件兼容。原C.12完整胞内flow和实际Q付两jet趋0。remaining角权公式多128层幂确对，但不作用mean/固定低模，也不声称2048阶完整门已做。
+
+因此后续转向实际Q余项与metric lift的小源子类；固定m4相对ζ131尚有>1层幂余量。仍必须支付原强角标签、mean积分、真实Γ/帽/ν耦合。同源无新数值计算。压缩H中旧资料已全部存在上一完整H9990归档，未丢任何native/失败/范围。c230da5e66156edaed505c59bdd8c64495445c1e两README blob核不变，真实pull记录沿用已核02:59runner。

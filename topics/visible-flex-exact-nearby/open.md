@@ -106,4 +106,4 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 
 ### 非线性与两Γ的实际普通源输入已付，继续输出域闭合
 
-[Q1–27](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)保完整Taylor分式余项和所有mean；总高度metric方向的径向参考项不能假称小，先准确积分hψ_t=awψ，再付剩余nψt+n²ψ。原N6六项邻胞<2^132C#，全联合DΓ真实复盘Cauchy后给S_t<2^200000X||dot a||224；固定metric余项<2^200000Y*²。真实height/flux端列、整体ρ/ε尺度和有限外支集独立保。此输入来自原strong方向；K输出缺同域迭代权限，须继续强域恢复或实际tame inverse。先核提高角阶改善同对象深衰减的路线，未修改深profile/ζ131。
+[Q1–27](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)保完整Taylor分式余项和所有mean；总高度metric方向的径向参考项不能假称小，先准确积分hψ_t=awψ，再付剩余nψt+n²ψ。原N6六项邻胞<2^132C#，全联合DΓ真实复盘Cauchy后给S_t<2^200000X||dot a||224；固定metric余项<2^200000Y*²。真实height/flux端列、整体ρ/ε尺度和有限外支集独立保。此输入来自原strong方向；K输出缺同域迭代权限，须继续强域恢复或实际tame inverse。[A1–20真实障碍](results/R119-supplement-same-object-angular-bootstrap-and-physical-low-mode-obstruction.md)已排除泛源角阶升δ150：常Q7紧支mean二jet确为δ128，固定m4齐次尾指数严格位于132与133；角阶增加仅作用remaining。继续利用实际Q二次余项Cj²、lift后nψt+n²ψ及真实低核/完整mean积分返回强域，原深profile/ζ131不改。

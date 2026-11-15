@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **同对象提高角阶的真实边界**：[A1–20](results/R119-supplement-same-object-angular-bootstrap-and-physical-low-mode-obstruction.md)构造全部角窗有界、每胞charge和外迹均零的真实mean源，其二jet仅δ128；固定m4齐次真尾的物理指数在132与133之间。H2048额外δ128只属于remaining，不能给全解δ150。实际相关非线性源仍按更强域继续，原ζ131/profile不改。
+
 - **整原根分片科学全成与零数学收尾**：43669106351科学child0/10门，25stage/9root/6case、4329旧外行已保存；只因CI摘要重复complete字段失败。独立40pin receipt完整核验并提取原自然文件，原science/80pin/native不改，0数学重算。[过程记录](notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md)。尚缺真实修正seam、正weighted端口与完整高逆。
 
 - **R119 Q1–27：完整非线性 ordinary 源与两Γ参考高度。** [证明](results/R119-supplement-exact-nonlinear-ordinary-sources-and-Gamma-reference-height-lifts.md)，SHA256 `f7c6f75853594e2866bc7e99139734356d7f6d9aa69867545963f768a8ebf610`。真实metric变分先保dotK=k−ψ(1+K)，准确分离hψ_t=awψ及全部height/flux端列；原六项邻胞费后，DΓ余source满足S_t<2^200000X||dot a||224，固定metric Taylor余项满足<2^200000Y*²。只对已给strong方向，不将K有限输出冒称可再次进入analytic224。
