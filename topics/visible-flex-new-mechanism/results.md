@@ -466,3 +466,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R366：七个独立自然总通量的真实联合满射
 
 [完整证明](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)，17661B/SHA256 14007bc7d810732f7492c0081e1d5b7e0016059a19672ba691e91b86ee284d65。完整Hγ的真−7/−5/−3/−1与Hδ的−6/−4/−2均非零：单一真实三bump负J²母在x0>0有u>0/v0/r<0且∫r5非零，一次有限C²小高频同时检出六个正C³²系数/保第七C²值。7正缩放的指数−9..−3为准确Vandermonde；原Haffine稳定和有限真权插值把7列送入真实H像。一般m维H观察满秩时，真实γδ=(ε/τ)(vψ+σwψ′)、det1/ψ偶/τ=ε3/2给双向leading；全状态AbarΛ0、完整N0/N2低项、有界回端/M桥及整块倒行保全部cost。有限ε向量IFT准确解任意紧目标，并用含固定基准向量的Klein词闭位移。故7固定自然Λ在实际M0/T0成本上覆盖R7，有紧集光滑截面。非全U/wholeE免费保持/固定g有限flex，原高阶/嵌入/reach门欠。mechanism独立核七权和单u共同见证，root完整构造。
+
+## R368：两个原cubic恒等与七维真实锥支付整个PY
+
+[完整证明](results/R368-two-exact-cubic-identities-and-seven-target-control-pay-the-PY-product.md)，15996B/SHA256 f3bd69cc25d91661ea1254ce5aaa087969a1273cc5f93706b6d5da39fd4737e2。任意紧u的I0(u,Puu)=0、I2(u,Yuu)=0，后者保J2左二次尾、全IBP无u/x故覆盖负域。仅沿真紧YD/PD变分，原whole QPY0=−I0(Pff,YD)−A0、QPY2=−I2(Yff,PD)+A2，旧面积零后整角准确线性D；PY1全偶反射零，无新C²角商假设。旧5+PY0/2原principal经PZ2+6ePY0，三χ实际位置系数为6次/4次/两2次/三个常量，R/V/U真满秩且e≠0给7维；36实际列严格正核，原Fnew保持R364 local T，有限N完整7根保18面积/Ψ/三F并付P²/PW/PZ/PY整角。root逐Y一二导/J2 IBP/whole变分与7维逐级秩纸核。余10函数位置不冒rank，R369续ZZ/ZW。
