@@ -72,7 +72,7 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 [R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
 
-[R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R255](results/R255-explicit-third-diagonal-kernel-and-complete-hook-response-formula.md)付全核Z=H7⊕J3⊕χ8与完整两mixed公式。[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)付十方向，[R261](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)首次实际付剩八完整K/D³、局部四阶/自伴及fresh原差零。全Z有K=−J³Af、Af f0，通用f表示忠实18维不等于固定圆rank。逐整profile比例类Kfg0及整包flux0；内平台/R225四类iff/六矩核修正仍保。**下一整个O(U0)/O(Rp0)及同w ruling；B(E,Z)不自动覆盖全Rp0，尤其R71∩kerπ首项不可删。** 完成八Δ/18参考/151/152/3974及本八K目标不重做；signed实际控制另付。
+[R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)/[R261](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)已付全Z=H7⊕J3⊕χ8及全部原K：局部四阶、自伴、Af f0、K=−J³Af，通用f忠实18非固定圆rank。逐包比例Kfg0，完整Rp0首项R71∩kerπ仍不可删。**下一真实O(U0)/O(Rp0)及同w ruling、signed实际控制；旧Δ/参考/151/152/3974/本八K目标不重做。**
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -132,9 +132,9 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)/[R274](results/R274-real-analytic-micropackets-and-finite-period-conditions-for-full-third-kernel.md)已把明确零端germ接入真实R270/271存在构造：最初选解析ψ，EL扰动/全部复制后仍p=t^-2 a∞e^-c/t；最细包p/AH内部退化有限，全Z Kfg0且逐包flux自动0。该correction完整period **iff逐包总势矩∫cw0+全部内部Laurent**，平台/germ/双collar均有原式证明。下一求真实联合响应与同w，不把未列实际矩阵/rank称完成；canonical Vd/Ve、非零step与全Rp0其余部分不外推。
 
-[八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
+八χ首次run43712266529已由R261消费，8新人工/8科学目标通过、53来源吻合；人读全系数直接复用，机器payload不发布，不重复原编译或冒fixed-circle rank。
 
-[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。**下一剩16形式even（非rank）：该pair I2及其余面积，随后完整period/同w。** 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
+[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)/[R270](results/R270-odd-mother-perturbation-pays-a-further-Gaussian-zero-moment.md)已付三矩/全third/六能量、完整A−2,−3/A−1,−3、36odd和A1,−1 I0。[R273](results/R273-reflection-densities-pay-the-minus-one-minus-two-zero-moment.md)真左尾/平方密度反射再付A−1,−2 I0。[R271](results/R271-six-complete-blocks-pay-the-first-two-positive-negative-Gaussian-moments.md)以原P,Y第一self及ordered U01两号，在预选共同新大正I内六final block各先四变量IFT，再Q正幅配平/三个严格比值夹持，联合付A1,−3 I0/I1。16形式even仍未付（非rank），但下述R275已阻断原小h族完整面积。 不平移旧根、不授任意冻结窄I，不搬旧F8/旧g；不同block α无需相同。
 
 ## O1：双圆领相位机制，保留备选
 
@@ -153,3 +153,7 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
 根15只留源码/参数/run/SHA/结论；终端12:24再断连，依根8仅原生小UTF8、非force保main，恢复即补实际pull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
+
+### R275：当前双斜率小h正幅族已有严格障碍，改真实机制
+
+[R275](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)保四原self/Green和J(xDρ)，准确有限式与D_B²恒等给共同(1−c*)S−c*Z/k<0。因此当前ρ0/20、普通/伴随、小h和充分小δ、原A≥10的任何有限正幅组合若付A1,−3 I0，即迫A−1,−2 I1在θ=π/2的Z/k>0。R271正面等式不撤，但增同类块/改中心无效。**下一第三斜率、不同实平方质量或非小h母分支**；一般合法圆未排，继续原完整门而不把余16当解维数。

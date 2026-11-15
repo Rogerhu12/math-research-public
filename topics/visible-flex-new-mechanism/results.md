@@ -330,3 +330,12 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R274 完整证明](results/R274-real-analytic-micropackets-and-finite-period-conditions-for-full-third-kernel.md)在R270/271最初自由选择基础母函数时取ψ=exp[−1/(1−y²)]，再按原次序求全部实际有限宽根，不替换旧冻结圆。EL(N0)奇方向是ψ³乘有限有理极点，eψ′/ψ′=ψ²×有限极点全平，故所有真实最细微包均有p=t^-2 a∞e^-c/t、非零前因子。内解析与端邻域pAH非零共同给有限有限阶退化，准确满足R225，不假设全简单。
 
 逐最细包g常数倍f与Af f0使全18个Z方向Kfg0，完整mixed额外ζ历史因此消失。R264真实Λ两端0逐包付总flux；零平台G″=−ΣJcw给所有平台门iff每包总势矩Σ∫cw0。付势矩后R272自动给全端C∞，内部全Laurent再加R225平台连接/∫u0/同右锚便是完整全I period iff。条件全是同一控制向量的有限线性条目，未计算实际矩阵、零点表或rank；不能从有限性冒算法完成。范围全Z correction，非canonical目标或完整Rp0；同w第四及几何仍欠。全部纸推，无新科学执行。
+
+
+## R275：当前小母宽两斜率正幅族的另一第一外矩严格非零
+
+[R275 完整族内排除](results/R275-first-moment-obstruction-for-the-small-width-two-slope-family.md)从原四I1 self与唯一LU Green项−μμ1/2，保Hself=ell μ²+∫A²及原有序Γ1，得到完整项−k∫φ″²J(xDρ)。k=−κ(1173κ⁶+177κ⁴+122κ²+8)/(256he³)在实际κ≠0不退化。对同一实际母包，Z=−kS−km²δUρ+64naδ(1−q²)Rshape为准确有限式，self中的Δ/4与原S合并不能省略。
+
+原方差给D_B(n²−1)=((4095−12ρ²)A²−12ν(1−q²))/(128A)−D_B²(n²−1)/(128A)，准确平方项产生与ρ无关的严格负半平面。实际母根Rshape/k=O(h)、B_loc/m²→1/9，α0唯一simple root使有限位置各branch共享c*；先小h、固定有限A≥10/center、再实际小δ，连续性给同一个(1−c*)S−c*Z/k<0。完整8/12复制和最后正四次幅只相加，故已付ΣS=0必有ΣZ/k>0；R271含中心的U01第一矩零不能删除这个无中心余差。
+
+因此当前R270/R271的ρ0/20两斜率小h普通/伴随正幅族不能full Gaussian面积。R270/271/273所有已付等式仍真；仅原构造族失败，非一般profile或几何刚性。下一改真实质量/第三斜率/母分支，不再在已排族增位置。root全稿核Green/primitive、同母缩放、精确ρ抵消、共同半平面和正幅范围；literature独立全文核，未运行新科学。
