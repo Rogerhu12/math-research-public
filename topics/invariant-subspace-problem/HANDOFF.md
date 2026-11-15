@@ -20,7 +20,7 @@
 
 **完整后继：** [204源核](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)剥1834真Bsat核及θ3、θ4−e9，保五旧θ、e9、196ω、te8、tζ2；第三须保全204真实提升。完整下一核(I−TC)、T(sI−J)保非恒定关系。[整数精度](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)给原p6下20→15→10→5，真形式像/free及canonical carry先付；第三纠偏pκ8/pL3,2，不换κ9或加p7。
 
-**当前run43660606254/job132648846878**（源4824d015）已实际进入全部204新来源计算。首run43659199975在prepare误设raw=P2raw而止（0.144303541秒、恢复0、数据f118500f）；只读旧315×9核九outside均非零、秩2且全在U7的b1/b2/b6。新入口保raw/P2raw/outside/U9坐标，native/solver/runner不变；manifest SHA29e3d73ace3e45de3618250f3066a9c62a6937ae68639354629b50262e808a10。30输入/7包、四编译各30秒/512MiB、数学共300秒；全实际数组/checkpoint保存，未得新像前不预填成败。
+**第二页从真检查点继续，未形成完整新像。** run43660606254/job132648846878（源4824d015）数学296.093730956秒，前13阶段全成，q3-fifteen-original在phase1/record1670以75存档退出。q1/q2全20、L2/L3、198关系、q3全15及VQ已成，禁止重算。433恢复1239127670B及13cache全部实推93503418，零fallback；recovery artifact14140695921，865969907B/SHAfa7c360f7fb39e8fa79d62fa9f668a0f774a3577d13c0202e30012b45ccbb2bc。新入口直接恢复全部raw并传--resume-recovery；native/solver/matrices与数学binding不变，仅runner封存复用旧gzip、新文件level1/心跳。manifest SHAf7ac4463912e58bb362a8a4fe627f4049a8c50a492c36ac07f808208327a16a6；原30输入/7包加此恢复，四编译各30秒/512MiB、续段数学共300秒。第二后立即接第三/全局原17；第三草稿blob已登记request，未执行。首run的目标范围错误已纠正并保全raw/P2raw/outside/U9身份，不记数学负性。
 
 **[第二页正分支1058费用](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)已证但未执行。** 只合成所选≤9个204组合，原高核系数≤5，同raw q1截面成本182；全F0保旧七/κ8/六K4及s/t carry同步q2−c。精确B核比较把来源差付入完整W1；三次真实P分别插在F0/L3/L4，成本182→474→766→1058，最后X+pPL4+Σp^(5−ei)κiai+p5w正号。旧765/796容量不足；局部正仍须全315、全部原17及成本核。其余目标立即用完整后继核接第三，非研究停止点。
 

@@ -103,12 +103,12 @@
     }
   ],
   "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-frozen-manifest-789f.json",
-  "source_manifest_sha256": "29e3d73ace3e45de3618250f3066a9c62a6937ae68639354629b50262e808a10",
+  "source_manifest_sha256": "f7ac4463912e58bb362a8a4fe627f4049a8c50a492c36ac07f808208327a16a6",
   "contract_file": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-contract-789f.json",
   "contract_sha256": "ed999eb8c095c9b14967b71d2590317dab0d07b81664b4f568e47b7743ca90f9",
   "workflow_source_sha256": {
-    ".github/workflows/invariant-subspace-r150-saturated-second-page.yml": "80bde44833beef23973540127c0e6bce81551210ba1da42476a90e7f4cbb7534",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py": "659774cac777b70bcfe6e3d737d0e3a3b6689771686c01ec79ce1ca12a6c54ca",
+    ".github/workflows/invariant-subspace-r150-saturated-second-page.yml": "d18776ad1e6e38eb5b32189b1f6a42e5c06148852fc5e71789e30cde668d3e59",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py": "ac6173b72851bbe3f0b5939b185f2bf7a0ff34f30e06b0012de75304a71b69d2",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py": "37b437eb15f37bc5fd4f913e518d6d0889aa21c7477d19837a5197a9db7a09ad"
   },
   "entry_python_files": [
@@ -119,7 +119,8 @@
     "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
     "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py"
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-publish-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-resume-check-789f.py"
   ],
   "execution_environment": {
     "runner": "ubuntu-latest",
@@ -129,14 +130,14 @@
     "native_compilations": 4
   },
   "account_concurrency_snapshot": {
-    "atUtc": "2026-11-15 00:54:45 UTC",
+    "atUtc": "2026-11-15 01:19:12 UTC",
     "ownedNonarchivedRepositories": 12,
-    "runningRuns": 1,
-    "activeJobs": 1,
+    "runningRuns": 3,
+    "activeJobs": 2,
     "queuedJobs": 0,
     "queryErrors": 0
   },
-  "created_utc": "2026-11-15 00:54:46 UTC",
+  "created_utc": "2026-11-15 01:19:14 UTC",
   "scope": "Complete root2-local second page of the proved full original S2 envelope. Local positive requires global restoration; remaining targets require the saved complete third-source kernel. No complete original modp6 or characteristic-zero decision is asserted.",
   "local_source_compilation_performed": true,
   "local_entry_python_syntax_performed": true,
@@ -151,5 +152,53 @@
     "verify_actual_U9_correction": true,
     "original_197_and_selector_recomputed": false,
     "native_and_solver_unchanged": true
+  },
+  "resume": {
+    "run_id": 43660606254,
+    "run_attempt": 1,
+    "source_commit": "4824d0153c7d09944788bf83c9797f68cb3dcf59",
+    "published_result_commit": "93503418a37fd2646f2f537899cafcef0a06b3b7",
+    "artifact": {
+      "id": 14140695921,
+      "name": "isp-r150-saturated-second-page-recovery-43660606254-1",
+      "bytes": 865969907,
+      "digest": "sha256:fa7c360f7fb39e8fa79d62fa9f668a0f774a3577d13c0202e30012b45ccbb2bc"
+    },
+    "previous_result_directory": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43660606254-1",
+    "recovery_manifest_sha256": "462e78d7649c65425e530a9a219db751eee6a2639a7fbbb245997ba621f42c5e",
+    "certificate_manifest_sha256": "90136f07dea9ef299158a834985fab082d3677da2f4aae8923fa33d1340a76f2",
+    "actual_recovery_files": 433,
+    "actual_recovery_bytes": 1239127670,
+    "completed_stage_names": [
+      "saved-saturated-source-preparation",
+      "q1-twenty-vq",
+      "q1-twenty-original",
+      "true-L2-twenty",
+      "L2-normal-twenty",
+      "q2-complete-twenty",
+      "q2-twenty-vq",
+      "q2-twenty-original",
+      "true-L3-twenty",
+      "true-198-next-relations",
+      "next-relations-normal-fifteen",
+      "q3-complete-fifteen",
+      "q3-fifteen-vq"
+    ],
+    "continue_stage": "q3-fifteen-original",
+    "native_data_binding": "ba82a176631a4534a75bc725855276a72155b10afbe8e0820ef0ae59c7224300",
+    "partial_transport_binding": "1949195815b727e7ba16e2bf87b1a7528be951465ff82cba1cb7137fb19ddba9",
+    "partial_transport_phase": 1,
+    "partial_transport_next_record": 1670,
+    "native_mathematical_sources_and_stage_bindings_unchanged": true,
+    "runner_change_scope": "Only optional saved-result reuse and lossless sealing. Reuse exact paid gzip bytes for unchanged raw files; level1 only for new files; print sealing progress.",
+    "local_python_ast_passed": true,
+    "workflow_yaml_parsed": true,
+    "shared_new_mathematical_seconds": 300,
+    "mathematics_executed_during_preparation": false
+  },
+  "unexecuted_third_drafts": {
+    "matricesBlob": "bb8d533b577a48c4d4774a49f8c04edd83067c09",
+    "runnerBlob": "395eb3ef22c92bc508cfdc40018bfe80a2ce672b",
+    "scope": "AST parsed only; exact third input contract awaits completed second page."
   }
 }

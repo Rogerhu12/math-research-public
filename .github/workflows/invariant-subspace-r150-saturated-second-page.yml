@@ -15,7 +15,7 @@ jobs:
   saturated-second:
     if: github.repository == 'Rogerhu12/math-research-public'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     env:
       PYTHONDONTWRITEBYTECODE: "1"
     steps:
@@ -83,6 +83,19 @@ jobs:
           path: ${{ runner.temp }}/isp-r150-saturated-second-page-third197-download
       - name: Require every exact original input and retain only the frozen selected files
         run: python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-actions-prepare-789f.py --mode restore
+      - name: Restore the actual complete second-page checkpoint without recomputing completed stages
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-saturated-second-page-recovery-43660606254-1
+          run-id: 43660606254
+          github-token: ${{ github.token }}
+          path: ${{ env.ISP_SAT_SECOND_OUT }}/recovery
+      - name: Bind every actual recovery file and all thirteen completed caches
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-resume-check-789f.py \
+            --recovery "$ISP_SAT_SECOND_OUT/recovery" \
+            --results "$ISP_SAT_SECOND_OUT/results" \
+            --request topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-ci-request-789f.json
       - name: Install the exact finite-field dependency and record the compiler
         run: |
           python3 -m pip install python-flint==0.9.0 numpy==2.2.6
@@ -91,7 +104,7 @@ jobs:
       - name: Compute all204 second-page sources with one shared300-second clock
         id: exact
         continue-on-error: true
-        timeout-minutes: 15
+        timeout-minutes: 20
         run: |
           set -o pipefail
           python3 topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-second-page-runner-789f.py \
@@ -104,6 +117,8 @@ jobs:
             --ninth-recovery "$ISP_SAT_SECOND_NINTH" \
             --third197-recovery "$ISP_SAT_SECOND_THIRD197" \
             --selector-receipt topics/invariant-subspace-problem/notes/r150-197-unscaled-selector-actions-789f/43654741434-1/unscaled197-first-carry-source-space-receipt.json \
+            --resume-recovery "$ISP_SAT_SECOND_OUT/recovery" \
+            --resume-results topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43660606254-1 \
             --out "$ISP_SAT_SECOND_OUT" \
             --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
             2>&1 | tee "$ISP_SAT_SECOND_OUT/results/actions-console.log"
