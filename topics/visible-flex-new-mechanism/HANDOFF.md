@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:08:43 UTC实际pull后已读规则提交：`5459013f4b0dee47ed0e0bc13a810f4c30c18c9f`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:12:59 UTC实际pull后已读规则提交：`f92259374dc57b1c48f5dc91fab82bfe44c4111f`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -26,19 +26,19 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
-## 4. 完整字符：−2/+2/0已结案，canonical成本锥已分离
+## 4. 完整字符与真实全pure控制
 
 R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排除。R190：U2=R2、H2=0；整个真权支撑[-9,3]且正字符只偶权。旧原函数、LP、路径不重跑。
 
 **R196/R201完整权0已结案**：full U0/R0=19/16、H0维2，唯一正射线λ+=(−1,0)有真实M0身份λV=L+∫(h_s/h)²>0。pure却πU0=πR0维3；H=C2+R0/48+11R2/64−13R3/96纯零而λH1，故λ不能下降pure。全部原坐标/函数核见两正文，不重跑。
 
-**R202/R203已证**：Cp=cl coneπS=clπC保closure，真子锥须有杀kerπ的单权正字符。R203从完整一般动态恢复、第三初始gauge/正交交项/Ds(fbb′G)，以M0端点和ad_P²R=ad_P²S=0消最低两层；c平移多项式/faithful右collar测试给πU−9=πU−8=0，不是full U−8零。合既有奇权/+2/−2/0排除和R207，pure正分离仅余**−4**。实际满锥支付由R206付，是否满仍欠。
+**R202/R203已证**：Cp=cl coneπS=clπC保closure，真子锥须有杀kerπ的单权正字符。R203从完整一般动态恢复、第三初始gauge/正交交项/Ds(fbb′G)，以M0端点和ad_P²R=ad_P²S=0消最低两层；c平移多项式/faithful右collar测试给πU−9=πU−8=0，不是full U−8零。合既有奇权/+2/−2/0排除、R207和R210，pure正字符全部排除；满锥及实际有限支付已付。
 
 **R204完整pure−2已结案**：actual43684612905/sourcedf8522fc，21存量列十二新成员/原表再合全零；πU−2=πR−2、dim9、核43/31。与R201合成12维完整像，实际同时控制见R205。A_hh单根五同锚IBP的jet2式见原note，通用非零且R207已准确付成员。
 
 **R207已完整**：actual43687004289/source28b2c1f，πU−6=πR−6真dim3。14族241原state合164原列（36/163真函数零）+16响应，180列/177原关系全零；基旧0/2/3。134新收缩/最终9人工过，3.68533s/RSS317.1875MiB，全部坐标和metadata见正文，非full U−6=R−6。
 
-**pure−4 actual43688302217/source1b032593/job132733352458已完整**：πU−4=πR−4真dim9。14族152原state合123列（33/122真函数零）+40旧响应，163列154原关系全零；基global0/1/2/3/8/9/12/14/16。127新收缩/最终4人工过，4.26319s/RSS317.543MiB/21bit。全部123坐标/152别名/40响应与receipt47378/f739e4a0已读。最后pure字符排除，按R202/R206连满锥与真实全pure支付；R210正文正在成稿，mixed/ruling未付。
+**R210 actual43688302217/source1b032593/job132733352458已完整**：πU−4=πR−4真dim9。14族152原state合123列（33/122真函数零）+40旧响应，163列154原关系全零；基global0/1/2/3/8/9/12/14/16。127新收缩/最终4人工过，4.26319s/RSS317.543MiB/21bit。全部123坐标/152别名/40响应与receipt47378/f739e4a0已读。最后pure字符排除，R202给Cp=P，R206给真实S=P；完整正文已发，mixed/ruling未付。
 
 **R208/R209已证全部πR和πU都有jet≤2代表**。R208旧151覆盖WΔ=(W71)Δ，仅sound上界，不冒dim18；对称外q″相消与同锚线性q‴ IBP付响应。R209从R56全动态分子得n_r=2aa_s、明确N*=∫a²dr；NΔ−N*外无r。先s导后零history，D_s(U²+2C)|0=0；完整v−B_mN高jet恰Ds(a³q‴/6)，常germ端项零。参考连接只用于已消移动分母的universal延拓，不改原I/q/右锚。非πU=πR声明，也不延mixed/独立gauge。
 
@@ -50,9 +50,7 @@ R187只排充分窄常态类；R193公开原四系数全正排标准态原八包
 
 **R199/R200已证**：新faithful单调step与全部低阶圆可同时构造，最右period恒零 iff πV_B=0；旧step未授faithful。真实τ0桥H对右step非零，双字/hook/Klein保全部基准给8N(Γ+ℓtH)+C，有限IVT只付一个查询。T可非零的M0字以BBrev成本2V入U，不授实际逆元。
 
-**R205已证**：12实际原响应生成器支付P0⊕P−2，低权真实H付第13右step查询；先固定最终c>1坐标保非零再平滑/faithful/补矩。三角rank13，R102保全部基准与有限复制/Brouwer，M/T0控制后Klein4倍（R200双字为8倍），闭hook仍同圆完整三阶。其他权/整period/joint欠，设计可改g，非同g运动。
-
-**R206已证（条件等价）**：Cp=P iff实际pure S=P，未判满锥。Q=P/πR无零缩放权；有限实际正配平、真实H缩放环/端口桥保2V基准、floor整数与C1截面付紧商目标。先清第三prototype的Q成本，再连续清E(t)的Q，最后有限n/Brouwer付响应，全部基准和选择顺序保全。若剩余−4正字符排除，闭hook整pure零由Klein4倍支付；mixed/ruling/终局仍欠。
+**R206/R210真实全pure已付**：Q0=0下，有限实际正配平、真实缩放桥保2V基准、floor整数和C1商截面，最后有限复制/Brouwer给S=P。取原闭hook X0，X0X0rev成本2V0先付V0∈U；选实际M=T0/frameI的D使πVD=−πV0/4，插Klein第一prototype四份。新位移仍四左旋相消，TκH非零不变，整universal pure准确零。最终几何再选R183/R199完整低阶圆，最右period必要门整函数消失。共同I在全部有限控制族选后取；不是任意原窄I或同g设计，未授无常段迁移/嵌入/reach。下一处理同一w的balanced mixed period与ruling，勿重已结pure。
 
 ## 6. 保留边界与当前交付
 

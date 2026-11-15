@@ -44,7 +44,11 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)现已构造一个新的全权pure忠实单调末step，并重做R183全部低阶：b+tq*多项式排零、三左复矩、Gram=EId共同标量、八包七差分和最终仿射均保最右f=0。对这一新圆，最右完整period恒零准确等价于πV_B=0作为universal算子；T非零的B通过BB^rev成本2V_B放入U。下一直接处理真实pure全算子的成本可达或独立正性，不再用仅某权/幂尾或多profile查询替代；原冻结step未获忠实性结论。
 
-[R202](results/R202-pure-cost-cone-and-three-remaining-negative-character-weights.md)给Cp=clπC及能杀kerπ的完整正仿射分离字符。[R203](results/R203-general-pure-lowest-two-weights-vanish.md)已从一般动态输入完整纸证πU−9=πU−8=0：保第三初始gauge、全部同锚history与动态总导数，有限formal flow/pay端点后再以c平移多项式和右collar faithful测试转为全局真权。不是由单m8尾推零，也不是U−8全零。与既有奇权/+2/−2/0排除合并，pure正分离只余**−6/−4**。[R207](results/R207-complete-weight-minus6-pure-image-equals-three-dimensional-response.md)现已完整支付−6：actual43687004289/source28b2c1f，14族241原state/164不同原列加16响应，180列真rank3、177原关系全零；πU−6=πR−6。最终9新人工与134新收缩完整，3.68533s/RSS317.1875MiB；36/163是真函数零原呈示，全部原坐标/比例已读。N0参考减项、同Γ和R178–179完整函数核保全。故当前pure正字符**只余−4**；[完整新消费者](notes/complete-pure-minus4-projection-design-20261115.md)已提交。40旧响应/29旧A/H，114势请求分44已存缓存和70根15下必要临时恢复；新197静态/62v2/78v4/≤164收缩，同Γ全14族与共同word核，4新人工后首次actual。28args、240s/1024MiB，不重−6目标、旧mixed或旧原NF；实际43688302217现已完整：πU−4=πR−4维9，152原state/123归一列+40响应，154关系零；全部127新收缩及4人工通过。最后字符已排，完整R210推论正在登记；主线转真实mixed period/ruling共同支付。 [已付单根高jet化简](notes/pure-minus6-Ahh-first-coefficient-exact-jet-reduction-20261115.md)把A_hh的h^-8原九项准确化成(4q′I(q″³)−3I(q″²)²−xI(q″⁴))/24576，R179余词给通用非零；只此完整系数，不推整个dynamic/N或响应非成员。[R204](results/R204-complete-weight-minus2-pure-image-equals-nine-dimensional-response.md)实际43684612905已完成：debb22d7只消费R151九基＋R186十二商基，十二准确成员全过，πU−2=πR−2、dim9，纯核43/31。联合R201得到权0/−2十二维完整pure算子像全在响应中。[R205](results/R205-two-complete-pure-weight-blocks-and-right-step-query-control.md)已支付真实同时可达：十二实际原生成器加只有−6/−4的H，最终c>1坐标先保非零，再同坐标faithful，给十三维三角查询矩阵；R102保全部基准和固定有限小族复制后Brouwer，插控制/Klein恰4倍，真实闭hook同时实现两个完整pure块与一个指定右step值。不是把权投影向量当一个原控制，也不以最后affine默认保H查询；所有其他pure权及整段函数仍欠。旧完整52/31和25身份不重算。R203最低两权全原式现已支付；不编旧52联合/旧NF。[R206](results/R206-full-pure-cone-equivalent-to-actual-finite-pure-controllability.md)现已补齐这层实际构造：在R201的Q0=0下，Cp=P iff实际pure S=P。满锥的有限严格正配平，经真实小H缩放环、端口桥/倒行保2V基准、floor整数和统一C1截面，准确控制任意紧商目标；先清第三prototype的Q成本、再连续清E(t)的Q，最后有限复制/Brouwer付响应。故若剩余−4字符排除，就能在闭hook上整pure归零，而非只得到闭锥近似。Cp是否满尚未判；本机制的升级靠完整新证明，不把一般闭锥或signed span直接当实际路径。
+[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已完整结清universal pure主线：最后权−4实际43688302217给πU−4=πR−4维9，152原state/123原列+40响应、154全原关系零。R203消最低两权、R207付−6，加既有分离定理，全部pure正字符排除；R202闭锥Cp=P，再由R206真实桥成本/整数复制/商截面/最终响应Brouwer得实际S=P。不是从span或闭锥直接冒实际负路径。
+
+R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再取真实M=T0/frameI控制D满足πVD=−πV0/4，Klein第一prototype四次插入，所有新增位移仍四左旋相消，保持TκH非零且整pure零。最终几何选择R183/R199合法圆后，最右f0区间的不可校正pure必要门整函数归零。无常段迁移不能只靠开放性；同g、嵌入/reach/有限幅度仍欠。
+
+**当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
@@ -94,7 +98,7 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 **[R190](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md)已证U2=R2、H2=0。** 原势缩放差的常数由准确基点N0(1,1,1)=0消除；高权势入W、原v2/v4上界、完整Γ与14族逐项支付。R105完整分子递推给权支撑[-9,3]。结合R145/R188，尚余偶权**{-8,-6,-4,0}**；这不宣它们存在正字符。权0现已由R196完整结案并给真非零正射线；其余负偶权不再为证明障碍存在而扫表。
 
-[R192](results/R192-weight-zero-character-multiplier-and-first-order-action.md)已给权零真实字符的准确接口：协变乘子存在iff d_p1=0，正字符必须满足；八参考态迫c0、d仅p2，μ=(0,2α,2β,0,0,0,0,8α)，α仍是待选乘子。完整action为∫[a p′²+c p⁴+b0(k)k′²+b1(k)p k′+b2(k)p²+A0(k)]，p=(log h)′；p两端0、k平，开路径无∫p=0门。最高层iff a,c≥0，磁项须保。下一完整head只≤16新响应，消费已存78投影、全静态与v/A/H，恢复旧R0缺失16根核原hash，不重旧评价或NF；先全原函数核与D，后d_p1条件和同α正性。
+[R192](results/R192-weight-zero-character-multiplier-and-first-order-action.md)已给权零真实字符的准确接口：协变乘子存在iff d_p1=0，正字符必须满足；八参考态迫c0、d仅p2，μ=(0,2α,2β,0,0,0,0,8α)，α仍是待选乘子。完整action为∫[a p′²+c p⁴+b0(k)k′²+b1(k)p k′+b2(k)p²+A0(k)]，p=(log h)′；p两端0、k平，开路径无∫p=0门。最高层iff a,c≥0，磁项须保。该完整head和同α正性现均由R196支付，不再编旧响应、投影、函数核或正性。
 
 [R194](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md)进一步准确消去全部时长：G=a dp²+b0 dk²、V=c p⁴+b2p²+A0，须G/V非负且所有E={p0}到E曲线的∫(2√VG+b1p dk)非负；等价有零E值的局部Lipschitz支配势，保退化。a=0时完整iff c,A0,b0≥0、d=b2+2√(cA0)≥0、4b0d≥b1²，含b0=0；不是二次PSD必要。先取得真实H0，再对同一α应用，不授任意形式系数真实可行。
 
@@ -102,7 +106,7 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 **[R201](results/R201-weight-zero-pure-image-and-failure-of-positive-character-readout.md)已付一般pure代入核。** πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96，原差540项准确0；19列/42word行/真rank3，πU0=πR0。H=C2+R0/48+11R2/64−13R3/96的πH=0而λ+H=1，故全部universal pure输出也不能读此字符，不只是m8漏商。完整λ仍正，H不冒实际路径。
 
-**下一：真正的固定圆joint支付。** 最右pure必要门保留，但不能再用λ+去否定它；优先用真实bridge参数调节同B的pure成本，并把R199新faithfulstep、R200 signed单查询控制的适用范围分清。完整mixed查询上的ker(ev|U)是否被λ杀仍另欠。R184独立w的Δ须另付是否在同U/λ延拓/是否消掉，不能由pure零推出完整目标零；同一w须同时付period和ruling。全U已有正分离，不为目录完整盲扫−4/−6/−8。
+**下一：真正的固定圆joint支付。** 最右pure必要门保留，但不能再用λ+去否定它；R210已用真实有限控制把闭hook全pure准确清零；下一具体支付balanced mixed及同w的ruling。完整mixed查询上的ker(ev|U)是否被λ杀仍另欠。R184独立w的Δ须另付是否在同U/λ延拓/是否消掉，不能由pure零推出完整目标零；同一w须同时付period和ruling。全U已有正分离，不为目录完整盲扫−4/−6/−8。
 
 R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
 
