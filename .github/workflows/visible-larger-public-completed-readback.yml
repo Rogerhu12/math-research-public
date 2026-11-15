@@ -63,6 +63,7 @@
                    'prefix21': 'root_20261114_read_completed_twenty_one_prefix.py',
                    'prefix21lambda27': 'root_20261114_read_completed_twenty_one_lambda27_prefix.py',
                    'prefix22': 'root_20261114_read_completed_twenty_two_prefix.py',
+                   'prefix23': 'root_20261114_read_completed_twenty_three_prefix.py',
                    'native73': 'exact_20261115_read_noj_primal_current576_artifact.py',
                'native61': 'exact_20261114_read_current576_artifact.py'}
         kind = request.get('readback_kind')
@@ -138,6 +139,7 @@
                   'prefix21':'root_20261114_read_completed_twenty_one_prefix.py',
                   'prefix21lambda27':'root_20261114_read_completed_twenty_one_lambda27_prefix.py',
                   'prefix22':'root_20261114_read_completed_twenty_two_prefix.py',
+                  'prefix23':'root_20261114_read_completed_twenty_three_prefix.py',
                   'native73':'exact_20261115_read_noj_primal_current576_artifact.py',
               'native61':'exact_20261114_read_current576_artifact.py'}[kind]
         pin = request['original_artifact']
@@ -147,7 +149,7 @@
         argv += ['--source-commit', request['original_source_commit'],
                  '--download-out', str(Path(os.environ['RUNNER_TEMP'])/('original-completed-'+str(pin['run_id']))),
                  '--out', str(Path(os.environ['VISIBLE_OUT'])/('request'+str(request['original_request_number'])+'-readback'))]
-        if kind in ('prefix18', 'prefix19', 'prefix20', 'prefix21', 'prefix21lambda27', 'prefix22'):
+        if kind in ('prefix18', 'prefix19', 'prefix20', 'prefix21', 'prefix21lambda27', 'prefix22', 'prefix23'):
             parent = request['original_parent']
             argv += ['--request-number', str(request['original_request_number']),
                      '--parent-directory', parent['directory'],
@@ -176,7 +178,7 @@
         if not request.get('recover_original_publication', False):
             print('No original publication recovery requested', flush=True)
             raise SystemExit(0)
-        if request['readback_kind'] not in ('prefix21lambda27', 'prefix22'):
+        if request['readback_kind'] not in ('prefix21lambda27', 'prefix22', 'prefix23'):
             raise ValueError('Original publication recovery is explicitly restricted to these prefix schemas')
         pin = request['original_artifact']
         root = Path(os.environ['RUNNER_TEMP'])/('original-completed-'+str(pin['run_id']))
