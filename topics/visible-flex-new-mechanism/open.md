@@ -136,13 +136,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R348：九旧矩加Y–Z第零／第一矩已同付，续余七外矩
+### R349：四个完整Gaussian面积同付，续PY/WY六外矩
 
-R343原RS self/准确方差、双排序与普通/伴随给固定真rank4正核；R346原L/Y、U/Y self及实际Fκ/J母纤维给六目标正锥，从同一最后controller前负Ψ基线支付C0。旧弱块的三个最终正中心全保，原三directed/Ψ最后同F★有限N复原。
+R343全RS self/方差、真实双排序与普通/伴随给B1/B2四目标正核；R346真Fκ/J母纤维付C0，R348全Green第一self与实际中心导数付C1。弱核心/三个最终正中心全保，最后同F★/有限N复原Ψ/三行/指定层。
 
-[R348](results/R348-true-translation-and-Green-self-terms-pay-the-first-positive-minus-one-Gaussian-moment.md)新付C1=I1[Z,Y]全θ。先写一般weak的完整Y四次/Z二次平移，K2保(3e/2)[P,Y]、K1保Y–R/S，不能使用普通矩平移。原两个nonlegal self保Green μ2²/8、μ2²/4与local DF准确抵消，成local完整式；显式中心导数恰2倍原第零self，跨微包Γ0。实际Fκ0/J=±hτ母与全copy得E1=2Kδ[Aξ³/3+δ²Rξ]，保全余项、固定最后正中心后取有限δ，两α给二维全正锥。新权−2、旧B1/B2/C0权−5/−4/−3，先H2正幅成有限八目标严格正核，再S5正幅解(0,0,0,−r/S³)，Ψ成本S−2可小。弱核心/最终中心不动，最后同原controller付Ψ/三行/指定层。
+[R349](results/R349-complete-second-self-and-positive-cone-pay-the-fourth-Gaussian-area.md)新付C2：原SLY2为完整负平方和、SUY2=−5SLY2，真实Y左纯x²尾使I2 Green两项0；不是假紧。∂SLY2=(SUY1−SLY1)/2，原Fκ0上Γλμ准确只乘J；同真τ±/两α母与全copy得C2=Kδ[Λκ(1−q²)Jξ4+(d−5e)δ²Rξ²/2+δ4Θ]，Λκ非0、Θ真积分。固定最后正中心后有限δ给双号/二维正锥，完整权−1与旧−5..−2成有限10目标正核；S5正幅解(0,0,0,0,−r/S4)，Ψ成本S−2可小。原弱块不移，全12矩/全θ同付，非全72。
 
-尚欠PY/WY各三外矩、ZY I2，14形式even位置非rank；PY I1两even本恒等只一共同值。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)新增全有限恒等：F=B2_04/k*−D1，除XWδna_cm²后主项A(2731/16+ρ²/2−4q)，保非负真方差与全部有限母余项；大有限A故F>0，正幅/两者共同−4权保半平面。现有强列不能无条件升为新目标全锥。但R348八目标严格正核真实给D1<0，整体H4正幅固定任意负纠正而Ψ成本H−3，保11旧矩。尚未证明当前weak残差正，故PY I1仍未付。root续原weak完整D1/三个最终中心依赖或新正方向；literature续ZY I2，须保K1/K3真有序尾/原B1限制。全period/joint仍欠。
+仍欠PY与WY两pair各三外矩，共12形式even位置非rank；PY I1两个even只一共同标量。[R347](results/R347-exact-coupled-moments-and-cheap-one-sided-positive-negative-Gaussian-correction.md)真有限式F=B2_04/k*−D1主项A(2731/16+ρ²/2−4q)，保非负方差/全部母余量，大A正。B2/D1同−4权，现有强正锥不能无条件扩新标量；但旧八目标正核给真实D1负纠正且Ψ成本H−3。当前weak残差正号未证，故D1未付。root续weak完整mixed D1/三个固定中心依赖或新正方向；literature续WY全self/有序bK3。须保一般weak完整Y平移/所有未付pair；其它完整层/period/同规范仍欠。
 
 
 ### R344：全权响应总通量经完整pure因子化，续原U上的真实值
