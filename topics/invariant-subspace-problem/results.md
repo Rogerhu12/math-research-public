@@ -505,3 +505,7 @@
 ### R150 附录：23条精确有理原核、特征零秩上界4331及条件8732
 
 [完整证明](results/R150-appendix-selected-infinity-twentythree-exact-rational-kernels-and-cost8732.md)从真256新续至486，320/384/486原乘回全真，新增slot8/9/15三条完整4367整数零核，总23在原自由坐标上独立，同选列char0秩4318…4331。D∞≥23、cofactor/单换列≥22，已有成员性才得共同成本8732。实际108.172096014秒，保存当前数字后exit75，不冒称已到512；准确源码、参数、散列及新规临时执行入口一并保存。
+
+### R271 附录：右链首段损耗、真实源精确收缩及圆盘演算
+
+[自足全证明](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)保完整/裸最小右链和全部物理零源平方，得到C_s*B C_s+I≤δ²B及H同式；它与左Stein中的同一个+I准确相消，所以两真实Schur上||C_s^k||≤δ^k。有限nilpotent defect等距给无损圆盘解析演算，原逆芽完整截至h−1、误差常数16降4。没有把H−B或ordinary右费当已付，主两费比较仍开。
