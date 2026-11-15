@@ -263,7 +263,7 @@ R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN
 [collar消费契约](notes/2026-11-15-R133-selected-collar-scalar-gates-contract.md)与
 [actual43714674603/1](results/R133-supplement-actual-selected-collar-high-trace-and-open-low-entry.md)
 已锁成功：child0/12门、91case全保、15pass＝ell2^-16/17/18×rho2^-20/24/28/32/36；1e−4及2^-16两个大球全部未过。
-SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24/reportc6c8969e，0旧target/FFT/残差/repair/Green重算。
+SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24/report0860c1e1，0旧target/FFT/残差/repair/Green重算。
 代表ell2^-18/rho2^-20的start<.060600、linear<.063560、nonlinear<.064962，完整四源及factorial门通过。
 若另已造同collar真H1解并在相应C0球，则same cut H8193差<2^377904<2^393000；高门不构成core存在。
 五个selected代表低H1充分门全false，最小界.000389113仍远大于J的15e−9/128；上界大不证明实际误差大。

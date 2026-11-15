@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 12:45:00 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 12:46:16 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 12:21:47定时及12:41非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar及log；ref不冒pull，每小时CLI继续。
-最近只读README核：0831ba7aad597fec3c3938837fce055f8dc0ecc5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：796324830b160dc5961126c42318392f23eff3d0；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -38,7 +38,7 @@ D scalar43713242980/1成功锁：child0/12门/math4.627548956s，reportf9758b3d/
 S/19071536…三HY条件消费：pY=√||HY||，ε=max(||S0||,1)||HC0||/5，τ=εp_cut<1才授actual低97逆；旧signed cap列保，新扰动εpY，无√97/错误Loewner。全high需真GH及body/cut矩阵B，2×2 AB三门才闭Schur。ν .005为[0,rplus]全频门，P17–24/L9实际功能仅[0,r*]。γ实际低A0、未知high强trace、Ψ余项及真参数/荷仍独立；无双世界锚行。
 GH/0ffb191a…证完整R:H(s−4/3)→Hs右预条件门χ=128CsΛJ^-1/3<1、graph域逆及高窗bootstrap；同δ身份、physical/phase finite border与两物理输出必须实付，phase-tail不冒HH。H22保离相位约束的E′a乘法项；C0≤1/32仅目标。
 V/58eccc17已付physical γ=Pne(C−Ĉ)与完整mean1/m及高one-high转换；J/a23d28b4今改善低转换γA0≤||(h−j0μ)φ||2/16+|μ|/576≤||h||H1/15，足hH1≤15e−9/128。高hH8193≤2^393000仍足S原两域。J18同cut已知δZ与未知correction分列；实际trace/core图/全B/Cmean仍待。 cut SCI745fc480/workerc7c83418/manifest95541c2e首次部署：两旧native只读，193全槽+base32 signed shape/mean与J18余量待actual，无core准入声称。
-E/H/A/R全部公式与低/高源单位保46b3c697同H及原报告：真实speed含<f2>/m，mean/χ外η/连续双侧/finite Dh均保。collar actual43714674603/1 child0/12门，91case完整、15pass＝ell2^-16/17/18×rho2^-20/24/28/32/36；大球1e−4/2^-16失败保。reportc6c8969e/conclusion618bd148/processdbe7fe24，SCIe39646a5/workercfdb8ecd/manifest e6b4867f。0旧math。仅另有真H1state/对应C0球时得same cut h8193<2^377904；全部selected低γ门false，最小H1界仍.000389113，core未造。
+E/H/A/R全部公式与低/高源单位保46b3c697同H及原报告：真实speed含<f2>/m，mean/χ外η/连续双侧/finite Dh均保。collar actual43714674603/1 child0/12门，91case完整、15pass＝ell2^-16/17/18×rho2^-20/24/28/32/36；大球1e−4/2^-16失败保。report0860c1e1/conclusion618bd148/processdbe7fe24，SCIe39646a5/workercfdb8ecd/manifest e6b4867f。0旧math。仅另有真H1state/对应C0球时得same cut h8193<2^377904；全部selected低γ门false，最小H1界仍.000389113，core未造。
 R/8d7d1bc4：selected fδ=f0−δs0−∫(ΔFν+ΔAZ)，star-shaped余项δ²B(d)/(2d)；连续Z必须sraw+A0e且接口jump准确抵消。collar四species96/160/224/288及mean现由actual付；真core、全局非线性和低trace仍待。
 
 ## 完整tail与同一几何对象

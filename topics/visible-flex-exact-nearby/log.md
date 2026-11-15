@@ -160,3 +160,7 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 两README在0831ba7aad597fec3c3938837fce055f8dc0ecc5亲核未变。部署SCI745fc480/16748B、成功collar继承worker c7c83418/27984B。root读全SCI/contract、worker全部diff、manifest/flow；newton核norm/source单位，tail亲读CS27确认修复。仅contract C14a两处display单$改为双$$以保tag，正文数学/SCI完全不改：最终contract67e20185/9975B、manifest95541c2e/6993B、flow91a5af29/3732B。
 
 原raw193 physical响应不乘alpha，base65 exactfinite+offset才用alpha；真m0来自完整scalar，j0形状先signed消去再norm，mean仍独立，连续EZ/384EZ只按完整pair一次。新求和给两分量A0/角A0/L2、真实signed mean、shape A0/phiA0/L2与J18充分unknown余量，旧trial端点/target/angle/C-matrix/repair/Green不重做。首AST/数门只公开Actions；尚未有实际cut界或core/low自映射结论。H旧tail全分账保46b3c697同H不取消。
+
+## 2026-11-15 12:46:16 UTC — actual collar源单位文字澄清
+
+两README在796324830b160dc5961126c42318392f23eff3d0亲核未变。actual报告只将A3已有5.883617e−11源和factorialsum明确为P=diag(K^-1/4,K^1/4)后、normalized普通L2(dr dφ)，P径向且一次收费。root亲读唯一diff；最终报告0860c1e1/11573B。原91verdict、所有数值/结论、SCI/manifest/actual618bd148和dbe7fe24完全不改，没有新计算或重跑。

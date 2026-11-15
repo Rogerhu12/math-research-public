@@ -153,10 +153,13 @@ $$
 $$
 The complete actual principal speed lower bound is greater than
 $3.0538016$, and $C_E^\sharp<15.963747$.
-The ordinary selected-reference source and its complete finite
-factorial sum are both below $5.883617\cdot10^{-11}$ in this collar.
-The ordinary angular derivative source is below
-$2.264966\cdot10^{-8}$.
+In the scaled collar equation, with
+$P=\operatorname{diag}(K^{-1/4},K^{1/4})$, the complete ordinary
+source $P f_\delta$ and its finite factorial sum are both bounded by
+$5.883617\cdot10^{-11}$ in $L^2(dr\,d\phi)$ on this collar.
+The corresponding ordinary angular derivative source is below
+$2.264966\cdot10^{-8}$. The scalar factor bounding $P$ is paid once;
+it is radial and adds no angular derivative.
 These bounds include the background source, the entire response
 repair, the quadratic and cubic parameter terms, and their means.
 
