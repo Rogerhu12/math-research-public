@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15 [factored g/y/q complete scalar contract](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)：G3/4用两真列，完整rankφ及q的vφ保；G19严格识别旧inverse正min后才减常1。新10term整项比较、其余21项逐字B，旧6row积分/word/Γ不重算；数值改善须首次Actions。
+
 - 2026-11-15 [selected-parameter scalar consumer](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)：仅新D5/6/9/19/20/22及[.85,.95]第三jets窄域摘要，原40parts/7721、8ZIP/6part精确恢复，12真门待首次Actions；ordinary g/p/真实finite反馈仍须随后消费。
 
 - 2026-11-15 [sharp finite-collar constants](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)：两端Dirichlet/max范数给CEsharp，向量GN完整mean给c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三个实际门足同H高trace。有限差商/χ外η/真实源和mean保，未冒实际系数门通过。

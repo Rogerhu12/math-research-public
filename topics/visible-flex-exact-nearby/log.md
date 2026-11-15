@@ -106,3 +106,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 ## 2026-11-15 12:19:16 UTC — first selected-parameter scalar deployment
 
 部署SCI827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320、worker2e1527bfecb2b33ca911d7f8215d8c09e896e36b58144446b34b4a6f01fcc52f、manifest14271d7d61c70996092f105768ca29cc0dd355665be0becea4386441b38c907f及flow8432dcd8。root全读SCI、worker相对已成L2 diff、flow、12输入hash/bytes、原manifest40part哈希/8范围和旧kernel真实units；phase独核D完整70行。原summary7680实际为每256最后进度，producer221–225核实；最终7721及原40part逐row真cover另核，原件不改。新scalar仅同δ/η0的M1/M0/Nν/完整ΔAZ三ordinary窗和正collar第三jet，不授moving mean/finite逆。原成功数学0重做；新结果全部临时，只小结论、预Git完整stdout及同成功复用。root亲读Green12:14 process7de7641d的32预检/2极端权重门；future2064/past128/product192/groups0为最后报告，run未完。两README本次只读dc0cb4e38744bca17e96afc7172953e00c9b2697核未变。
+
+## 2026-11-15 12:20:48 UTC — complete factored transport scalar contract
+
+推G/64e9ae0f/16782B。root通读G1–24且独立signed展开G3/4/6、亲读C原GM及source_row核外J/真实mean；newton亲读旧inverse175 min分支及G18–24再核通过。契约给density0=w0/density1=w1、whole canonical路径、完整g/y/q、10term与原weighted dr比较；全local和另21项保最新B。SCIs仍制作，未预报收紧或strong-return。D首次run43713242980/1在7fafb2b3启动12:19:23，worker/SCI SHA与AST/hydrate已过；root非FF即时真pull因无executor失败后CAS第2次成功，未force。两README只读a501fe50389f94f724419ffa5034baf5144dcc81仍未变。

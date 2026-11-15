@@ -151,9 +151,12 @@ B现行ledger已逐字保同raw2，不需新合并数学；本成功不重跑。
 [F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
 进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
 G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。
-保真实rankφ、所有n因子、完整q的vφ以及全部mean；只付恒等，实际新g预算待P ledger。
-B_j实际old-circle域仍须与canonical域真正相交；新数值仅在P实际主导确认后再消费。
-完整physical-to-wave/回代读出与强返回仍待，无新数值改善声明。
+保真实rankφ、所有n因子、完整q的vφ以及全部mean。
+[G完整g/y/q scalar契约](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)
+给density0=w0/density1=w1的新完整矩阵与companion预算；原inverse min经严格分支门才可减1取δB。
+10完整term ×旧完整word ×同6row最大系数 ×sqrt原真实径权，无旧积分/Γ重算；13first+8mean及全local逐字最新B。
+common strip/product、全部mean、Piola/truejump与两输出窗均保；首次实际改善待run。
+完整physical-to-wave/回代读出与强返回仍待。
 
 [K真实径向参考两普通源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)
 已逐式付两源→density的一角增益，以及负body/固定严格负cut各一角损失。
