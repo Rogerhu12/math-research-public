@@ -110,3 +110,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 ## 2026-11-15 12:20:48 UTC — complete factored transport scalar contract
 
 推G/64e9ae0f/16782B。root通读G1–24且独立signed展开G3/4/6、亲读C原GM及source_row核外J/真实mean；newton亲读旧inverse175 min分支及G18–24再核通过。契约给density0=w0/density1=w1、whole canonical路径、完整g/y/q、10term与原weighted dr比较；全local和另21项保最新B。SCIs仍制作，未预报收紧或strong-return。D首次run43713242980/1在7fafb2b3启动12:19:23，worker/SCI SHA与AST/hydrate已过；root非FF即时真pull因无executor失败后CAS第2次成功，未force。两README只读a501fe50389f94f724419ffa5034baf5144dcc81仍未变。
+
+## 2026-11-15 12:24:12 UTC — actual selected-parameter scalar fees
+
+root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独立重建canonical27895B SHA55076dbd与runner原native一致（纯文字核，未重算科学）。独立报告f9758b3dbd81e5234a598c5a53ecbe309fe8915c005dab21de7c750d83cb8c44，仅修正qquad显示反斜杠，不改actual输出。40parts/7721/6377新restrict/140collar、e/eLH、三ordinary平方积分和完整mean均有效；oldtarget/rows/Green0重做。原7680是真最后进度而非终值，完整cover7721单独验证。末真pull12:20:10.360201→557d661a两README空；50383B pregitstdoutc8e33554保完整小结果，容量投影198440800B为该时点。12:21:47按时CLI真pull仍无executor，root只读76a1273a0f99eb6e335dc70c915cb7357eb51732两README未变。下一只读scalar反馈等v4真实g/p，正collar借该实际小表不重跑7721。

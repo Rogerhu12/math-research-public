@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15 [actual selected-parameter scalar fees/collar](results/R133-supplement-actual-selected-parameter-core-scalar-fees-and-collar-jets.md)：43713242980/1 child0/12门，原40part/7721全cover、旧math0。e<1.049107e−5/eLH<3.071831e−5，完整追加response whole<4.324391e−6/negative<1.061687e−6；140row正collar true third jets已付，仍待actual Green/Poisson及finite反馈。
+
 - 2026-11-15 [factored g/y/q complete scalar contract](results/R133-supplement-complete-scalar-budget-for-factored-transport-and-companion-sources.md)：G3/4用两真列，完整rankφ及q的vφ保；G19严格识别旧inverse正min后才减常1。新10term整项比较、其余21项逐字B，旧6row积分/word/Γ不重算；数值改善须首次Actions。
 
 - 2026-11-15 [selected-parameter scalar consumer](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)：仅新D5/6/9/19/20/22及[.85,.95]第三jets窄域摘要，原40parts/7721、8ZIP/6part精确恢复，12真门待首次Actions；ordinary g/p/真实finite反馈仍须随后消费。
