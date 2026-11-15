@@ -70,6 +70,8 @@ R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u�
 
 [R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)现已给完整结构：pure零总V的有序不交self缺陷恰μuᵀT(V)μv。保原左ℓ常数和J² Fubini，双核两次有限IBP将所有对角边项收回局部C²；两次Euler最高4/2/0递降严格消剩余双核。准确 q=N_T+∫L，N_T=∫x<y j(x)ᵀTj(y)，L为局部quartic三jet，三阶至多二次。九矩是完整非局部商（六对称总矩+三有序面积），T0 iff局部；Euler(L)的全部六jet三次字面系数为忠实有限坐标，非仅principal。
 
+[R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)进一步在同一真实空间证明完整self的真权移σ→σ−2，R及pure核的有限Laurent谱投影仍在原空间，任意合法profile都有开缩放区间可分离各权。因此齐次H的完整self跨全部R_p0支付当且仅当同权R^(0)_p0支付；其他权不能另行挽救这个齐次成员问题。此纸证不替代实际门，也不授实际有符号控制。
+
 [R316完整设计](notes/weight-zero-complete-self-gate-design-20261115.md)已提交公开Actions：比较全部权零13维响应pure核与H共14新full-self目标。只读48个旧pure值/恢复16mixed+C2必需根，不重旧H0秩/三查询/3974。新完整原式转换输出T9/Euler全部坐标；member从原mixed复合差fresh核，按R314忠实性不加NF字面零门；nonmember有精确全14列对偶。先12新接口人工，首次语法/执行均Actions。尚无实际结果；该权块完整覆盖全部pure核分支，不能外推全U或λ因子化。分别满射不能相加，有限控制不恢复R304/R306被排类。
 
 ### 完整period与同一w joint仍须真正求解

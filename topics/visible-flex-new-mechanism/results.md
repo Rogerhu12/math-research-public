@@ -407,3 +407,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R318 完整证明](results/R318-complete-local-log-residue-and-a-first-single-arctangent-gate.md)从原R56/R73恢复新二次高度端芽的residue：完整local+chain为κ²ℒ，原速度项逐次读幂、K部分与chain准确相消，ℒ保真实右J。对不交微包，原τ/ξ/ν左尾逐项相消给整个cross0；self保二次尾但外三矩相容。原local-r导数身份与有理导数residue0给self是C²泛函，平移≤8。从初始低阶纤维增加27条系数后，实际有限频率同一圆的整个log全θ为零，R315 E²三门与旧三矩/完整third同时保持。
 
 完整单E系数准确为h^−4至h²七幂，最高行是−κH(V,2)/24，H(V,2)=−I2(BD,Vf²)，保真实f及尾。其实际位置principal degree9，与原6/7/8的四行通过0,1,33,34,49五交替包同正minors取得全R4正锥；保完整基线的有限N IFT支付这一新行。其余六singleE、纯有理We商、period/joint及有限几何仍欠，纯纸证，无新增执行。
+
+
+## R322：完整 self 的准确真权移及全权支付向同权的严格归约
+
+[R322 完整证明](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)逐步支付真实U/R及pure核的缩放不变性、有限Laurent系数在原空间内的Vandermonde谱投影与群律。共同右锚/真实左二次尾给Q(V)(C_Hu)=H^(σ−2)Q(V)(u)。对每个合法紧profile，在保持物理支撑的真实H开区间分离不同整数幂，故齐次目标的全Q跨所有R∩kerπ可付当且仅当同权核可付。权零时仅T22允许非零，但源码保全九项并不先裁。
+
+稿件形成时R316实际尚待回读，文中两支后果保持为条件陈述；它不以单目标推全U秩、λ因子化或实际半群。完整十四目标实际另按原日志记录，不从这个缩放归约推断成员答案。无新执行。
