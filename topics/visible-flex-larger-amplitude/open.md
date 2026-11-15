@@ -65,7 +65,9 @@
 
 [R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)31778B/bca00da6全文核，run43762371885/source59895129303；唯一原两job同87897B/8549fc6e必要完整。真实69原Armijo接受/158α/632primal/474完整normalJ全返、405临时更新，W4.346867247171→1.792004819715；前30α1/2，随后偶数1/4/奇数1/2，全部接受均normal2/trial0。原2400秒SIGTERM恰在status编码，producer2400.158791314/child75/partial，未测分项不归因序列化占时。direction69启动无α、70..127/blocks9..15未访；final与final投影缺，只有初始60FD，末FD/Arb/453未起，nativefalse。最后十词/current owner与direction68实际接受记录逐词同，固定S保actual157；可作194新初猜而非completed/native checkpoint。必要/错误/quiet后确清，原全来源/错误/未访保正文，后继仍付全部原终门。
 
-[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)六件最终diff全读：120+15pins/50闭包，真189第69个接受点十词新起，明示partial/final缺；不恢复raw或冒completed父。原16×8/20α/3×20全3normal、固定S/半径1、2400总钟、120FD/Arb/453全部保。单90KB明确选掉中间slope/逐αpredictor词，只留原身份/首末及极值；全地址/判定/owner merit/接受界/错误/FD门和未访保，quiet后清；无新科学门，实际R410待回读。 官方run43767916582于22:11:46Z创建，sourceefdafe38a05abd8f2885231e592bf197cfe86c52、compute132977067065已过全部pin与AST编译并恢复原源码；root唯一读取R410终态。
+[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)120+15pins/50闭包、原完整方法/预算/终门保持；唯一真实结果如下。
+
+[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
 
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 

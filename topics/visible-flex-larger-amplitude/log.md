@@ -625,3 +625,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 22:59 UTC /root — R396实际187全112 far与数值代表失败
 
 [R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)run43759238493/source6a272aae、33607B/ce72cf55必要全112行已核：真180九词/β1/16、fresh C1440与cut/factory1846/deep112完成；whole-query2609仍只欠工作宽。频率2..224的全部112 far/单位行族均完成，每模式1候选/1单位行/1逆叶、norm未证0，末10386/p1368/1⁄4096是完成地址。4705.3015秒/2044754work、stop=null，随后两个独立准确分量中点转64同时0触发ArithmeticError；原失败mode/中心未记，不能断m2、underflow或真实族零行。far=.05056158669090205/μ=1.7421589928370103e−17按原word，不用显示数重造。native目录/338/J/FD/453/final未起，全部raw真清，六必要scope齐；大panel只字节/行数未重演。R419/197保同C/全112/原σ和所有门，修相关参数代表及明确误差，不冒共同全局C实现。 root全文核20301B论文及原construction/BVP必要字段和全部112模式行；原大panel未冒数值重演，H/open逐字归档、§4–6保持；R417条目时间按实际22:58更正。
+
+
+## 2026-11-15 23:03 UTC /root — R410实际194与下一真实参数初猜
+
+[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。 原两终志唯一读取；必要128方向/153α/全部bounds与范围逐项核，初始60检查不冒末端60；未取运行中日志、不做本地科学，H前文逐字归档、open§4–6同。

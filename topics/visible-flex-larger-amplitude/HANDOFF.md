@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:00:20 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ee4f24f20f12f9d59d02b605ed833e9d5b9e8e96。
+规则同步记录：2026-11-15 23:03:48 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 43f91baac7a8b997ee417957f7020ca51b2defa8。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -22,7 +22,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |---|---|---|
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：R396全112far完成后数值代表失败/453未起/已清；R419/197修相关代表|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
-|194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：compute失败/report成功，已唯一读两终志；61接受后2400秒partial，R410正在核刊|
+|194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：R410已核61接受/2400秒partial/末FD与Arb453未起/已清，198薄续跑准备|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入原完整C重建；真十族453→同十词450、共用原7200总钟|
@@ -40,9 +40,11 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)真128后20/576、112/338未起且清。186/190/192保全576×224/112/338×112/audit和19200/6000/1200/8000/600/600/1800预算；R402/R405只付记录系数与完整113bit/20bit/宽carry/一次RN113代数。[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)及[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)84pins，完整偶奇/尾与runtime fallback接原全链，实际backend计数/90KB/quiet清理保；不冒速度、全stage词或准确导数。
 
-[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受/158α、W4.3469→1.7920，2400秒partial、末FD/Arb/453未起且清。[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)仅拿末十词新初猜，原120+15pins/50闭包、16×8/20α/3×20normal/固定S及半径1/2400钟与全部终门保；root已唯一取得终志，正在R410逐项结论；198/R421仅预备同方法后继。
+[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受/W4.3469→1.7920、资源partial/已清，真末十词作为194fresh初猜。
 
-[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)run43759238493/source6a272aae、33607B/ce72cf55必要全112行已核：真180九词/β1/16、fresh C1440与cut/factory1846/deep112完成；whole-query2609仍只欠工作宽。频率2..224的全部112 far/单位行族均完成，每模式1候选/1单位行/1逆叶、norm未证0，末10386/p1368/1⁄4096是完成地址。4705.3015秒/2044754work、stop=null，随后两个独立准确分量中点转64同时0触发ArithmeticError；原失败mode/中心未记，不能断m2、underflow或真实族零行。far=.05056158669090205/μ=1.7421589928370103e−17按原word，不用显示数重造。native目录/338/J/FD/453/final未起，全部raw真清，六必要scope齐；大panel只字节/行数未重演。R419/197保同C/全112/原σ和所有门，修相关参数代表及明确误差，不冒共同全局C实现。
+[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，第61方向仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
+
+[R396实际187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)真180九词/β1/16、fresh C/factory/deep112保，全部112 far与单位行族已完成；后独立中点转64同时0，失败mode/中心未知，不断underflow/真实零行。4705秒非资源，native/453未起，六scope齐且raw清。R419/197修相关参数代表，保同C/全112/原σ/全部门，不冒全局C实现。
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)准确十族/真453→同词450/全节点Hermite及四Loewner闭DFS；[193](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)真72c十factory/180九词+正零ξ、98pins/runtime69/native29，453全门接受后450新解RHS/H/FD/338×112/final，共原7200钟与worker，全部C/采样/原门不改。必要仅原明确范围、quiet后清，R408不预填；193不执行R409，清后须真同job再生。
 
@@ -54,4 +56,4 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 恢复与保存
 
-本次压缩前完整H逐字见[R396前检查点](notes/2026-11-15-handoff-checkpoint-before-R396.md)，链回R417/R416及全部原检查点；open原段见[R396前检查点](notes/2026-11-15-open-checkpoint-before-R396.md)，§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B逐字归档且相对链接同。未推小源丢失按完整接口重做；已清raw须真再生。793d723a实际未截断tree915eafac核8878文件/188094896B、最大MD97869B；只核目录元数据，未知旧JSON仍未全分类。每结论立即推，接open下一责任。
+本次压缩前完整H逐字见[R410前检查点](notes/2026-11-15-handoff-checkpoint-before-R410.md)，再链回R396，链回R417/R416及全部原检查点；open原段见[R396前检查点](notes/2026-11-15-open-checkpoint-before-R396.md)，§4–6逐字保。[旧结果索引](results-index-before-request195.md)96703B逐字归档且相对链接同。未推小源丢失按完整接口重做；已清raw须真再生。793d723a实际未截断tree915eafac核8878文件/188094896B、最大MD97869B；只核目录元数据，未知旧JSON仍未全分类。每结论立即推，接open下一责任。
