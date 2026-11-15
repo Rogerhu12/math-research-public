@@ -100,7 +100,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c/[TFA实际双窗](results/R133-supplement-actual-complete-common-root-normalizer-and-two-window-inverse.md)6e11a160：原43766881076/1 child0/14成功锁，12pins/3AST/9math/7全copy/20标量与SCI/preGit全保proof；F_A<185、JF1024，同一逆L2<1.048/负4/3<1.061及forward齐。finite≤1215与mean保，右乘后不冒有限input；two-I/finite完整before/after费用分别保存，禁二次乘逆。原degree192/full-complex域不移，Cσ/Eσ/incoming/Schur独立。
 
-[CG分开首系数与完整rank](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)a66ad4c4：Ccut/g各三导/三窗、双rank/独立腰P/TF-S费用与fullmean全保proof，禁倒扣upper。五science现齐；四件静态包待root部署，actual尚待，state和其它finite/mean独立。
+[CG分开首系数与完整rank](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)a66ad4c4：Ccut/g各三导/三窗、双rank/独立腰P/TF-S及fullmean保proof，禁倒扣upper。已部署SCI25452372/worker64c41288/manifest e33a06dd/flow02168265，9pins/2AST/6math/21门；五旧science只读，TF after-right不二KF。唯一push待识别，actual及全state/finite/mean/incoming独立。
 
 [SJ完整径向](results/R133-supplement-complete-strict-radial-coefficients-from-saved-cubics.md)ccaaa1b1/[SJA实际全源](results/R133-supplement-actual-complete-strict-radial-first-symbol-defect.md)3176f8ae：原43768006977/1 child0/26成功锁，48pins/8AST/66字段/101新球与SCI/preGit保proof。3071行/2550真段，全D2 K3/Srr/Zr/两mean/finite/真dr/3070无length跳量齐；521同label桶仍全收费。C_SF3.24452606e111仅完整上界，已含FA cut，三c积分可原字复用；原对象/域保，incoming/Schur/真PDE待。
 

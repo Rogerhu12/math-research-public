@@ -65,3 +65,7 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 
 - 2026-11-15 22:22:05 UTC WE49616d85输入审计独推：root全文及WY/CG/SJ原接口核，C*=PC+ST4+SF全差，state/coeff顺序及全部retained/port类型保。
 - 仅现有定理的准确接线，不新算旧量；paid不冒Ei，CG待原唯一计算。6780e185bbfd03b42879db2622be59fb650c9f9b两README空diff；继续CG/PG后补retained。
+
+- 2026-11-15 22:22:59 UTC CG四件部署：SCI25452372/worker64c41288/manifest e33a06dd/flow02168265，root完整审443行新science及worker全差异，9pins/2AST/6math/21门静态接线齐。
+- 仅五已成science消费新Ccut/g三导、三窗、dual/rank/coeff费；TF after-right原字复用，h0/h1/h2和FA0单列供PG，旧body/flow/积分0重算。120KB reserve/原子SCI先存和打印/实时规则主干保。
+- f868243dd520bb1008868fa70f11db5ba357a04b两README空diff；唯一push run待识别，继续PG/WE与原SN/SC3。
