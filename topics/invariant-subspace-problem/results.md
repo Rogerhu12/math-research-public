@@ -379,3 +379,8 @@
 ### 2026-11-15：全局后移到真实头gauge的carry误差与W配对锚（789f）
 
 [证明](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)将每个输入n=dℓ+r的完整二进借位写成原权比，所有更远carry统一给||B^k−B_m^k⊗I||≤α_m=d_m/W_(d−1)（1≤k<d）。对z/F_m的同一Taylor截断p_m，用ρ=exp(−25d³/2)的真Cauchy系数得到||p_m(B)−G1,m||≤exp(−80d⁴)，m≥10。BM⊂N及T/B交换使P_M p_m(B)*w=d0w严格成立，故P_M G1,m*w近d0w且完整自配对近d0||w||²；正整数a同样保绝对误差与压缩常数d0^a。没有在全B上代入无限逆级数，也未用全环境gauge范数。切口高尾及带gauge的真正左最小化误差尚需共同支付；ordinary右链/高返回与N=M未关闭。
+
+
+### 2026-11-15：同一母提升的正向gauge联合费用与低零源核反馈（789f）
+
+[证明](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)对原c26母提升逐步保持纯新尾右逆R′、新bit0修复像和同一个原k_p，把p_m直接插入联合跨块。其绝对系数h_m在原ζ_p=d0/(4R_p)上≤4d0<1，故R h_m g_p exp(2R g_p)仍受原e/2系数界、全部真实权及e^-2·16^p预算。每个p_m(B)c_p均直接可和，给||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，没有先取大环境gauge范数。结合真实全局carry，原w∈W满足||P_K(m,Q)G1* w||≤θ_m||w||，θ_m=8e^-2d⁴+e^-80d⁴≤e^-d⁴，Q全c26。此为一个准确反馈方向；反向压缩、真正V最小投影的非自伴交叉、高孔自配对及ordinary右费仍未支付，未证明N=M。

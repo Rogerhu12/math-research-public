@@ -136,3 +136,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **扩大来源包的精度已付。** [整数carry及20→15→10→5合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)保同一q1、完整q cochain与原6188来源：R2模p4、D3模p3、D4模p2、D5模p均来自原p6。三次Smith各损5，先真实形式像/free后保有效项；第三纠偏必须用pκ8、pL3,2保持初值。先完整第二页独立保存全部204来源/10项余量，第三按实际新像接；新页尚未执行，全局正仍须原17及真实次数费用。
 
 **全局正向gauge锚。** [真实carry证明](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)对全部原借位位置付||B^k−B_m^k⊗I||≤α_m(k<d)，合真逆芽给||p_m(B)−G1,m||≤exp(−80d⁴)。由BM⊂N及M对B不变，P_M p_m(B)*w=d0w，得到全w配对锚和向量压缩界。固定正整数a同证；原孔截断的高尾配对、带gauge的实际最小投影误差、ordinary λ(B_m top)仍开，不能用未付τ速率乘环境大范数。
+
+**同母提升的正向gauge误差已付。** [真实联合预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)在原每步c_p中保同一p_m，纯尾R′和新bit0域不变；h_m(ζ_p)≤4d0<1使完整R h_m g_p exp(2R g_p)仍受原跨块预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，并有真实||P_K(m,Q) G1* w||≤(8e^-2d⁴+e^-80d⁴)||w||，覆盖全c26。反向P_KG1w及P_VG1(I−P_V)反馈、高孔自配对和普通右费仍开，不用独立大gauge范数抹掉。
