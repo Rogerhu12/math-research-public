@@ -41,11 +41,9 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
-**弱Gaussian圆R308–353/355**：Af0/rank-two/单hook和8/12copy保third/odd。原正域R331–353保Green/真母IFT/copy尾依次付M/A/B/C全矩及WY1，共13外矩/Ψ/三F。R355完整D2=XY1−bQ2/4，真C1母IFT、真实四阶排序差/μ2有序尾与四有限正宽成2维正锥，再10→12→14行付WY2；独立全正分支现14矩。另接R354实际M13得15行非偶接口，不能重复计成新偶分支第17矩。R347强负PY1半平面/R351尚未补矩弱核心的边界保留。
+**弱Gaussian圆R308–357**：Af0真rank-two/单hook和8/12copy保third/odd。R331–353真Green/母IFT/有序尾付原正域13矩，R355完整D2转XY1及μ2尾、四阶排序/有限四宽再付WY2，正域14矩。R354把整R353正圆和完整反射分离相加：二次尾与I0/1/2正交，PY1/WY0/WY2反号、Ψ/三F偶，**新偶分支16矩，仅PY0/PY2欠**。实际负域已付：R37先正后负boost/同ω下界M桥、NH0平移hook/M0真逆夹心/Klein闭合；先全部有限profiles再初选he及几何，使x+ω>1。新seed/g只付M0/T hook/Gaussian芽，旧另一几何pure/wholeE/Morse/period/joint不自动继承。
 
-**R354新设计已付16外矩**：完整合法弱圆反射X→εX RX+真二次尾，I0/1/2对尾正交；M/A/B/C旧零保，PY1/WY0/WY2变号，Ψ/三directed均偶。直接取R353整个正半轴最终圆及完整反射，两半严格分离、D各三矩0，准确清三新矩；仅PY0/PY2欠。先选全部有限profiles，再造真实物理域：R37先正后负boost保任意ω>Ω，R70八矩桥同域；真实hook环ω平移由NH0保TH，M0夹心/真倒行保成本，Klein闭合。he初选够小使Gaussian端芽及整几何ω>Ω>−ell+1，x+ω真正间隙；he仅乘门行常数/Ψ独立。
-
-**R354两个实际后继库**：R35324列大A半平面、正kernel合成PY1负块，整反射给正列，25列rank13正核/Ψ S−2；逐列镜像后投影(B1,WY1,C0,C2)给24列rank8正核，其余反射odd门自动0，PY0/PY2代价真留。整弱基线可镜像保负Ψ，再同F★镜像控制器有限N完成。此为新seed/新几何，只重新付M0/T非零hook+Gaussian芽；旧另一几何的πV0/wholeE/Morse/period/joint未自动继承。root续PY0，literature续PY2，整第四仍欠。
+**后继真实锥R354/357**：R35424镜像列M8在(B1,WY1,C0,C2)八行满秩/严格正核；25列M13亦可用，反射odd零但PY0/PY2真值保。R357宽常量J2简单根→8完整TM原子→三母(γ,z,M)真minor，得Fκ=J=Ksh0和J/Ksh两自由小族；两旧排序+R278五gap同宽0/2/4矩、统一n后有限A/N容量，ordinary/comp真实Q两号，六列(Q=PY0pure,S=PY0_04,V=−PY1_04/ξ)正半块三维正锥。V只是镜像前参数，未授P0/P2或四同权门独立；root续B1/PY0，literatureR360续PY2。原强半平面/未补矩弱核边界保留，末同F★全72零控制器仍付Ψ/三F。
 
 **R312–345有理端口/joint**：R312新芽/seed；R324同实际圆19门归We，R326全E8 cubic三矩0、真实m*的wc=−XD付端口奇部/同第三Gram付We，period变Vd−2τLf(XΔ)、Ve+2τLf(Xfg)。R327解析包kerLf=逐包u_i/平台χ_i+gap，gap13盲/平台尾(0,−2A,2B)；两特解后13行兼容/降秩整除仍欠。R340 τS=[P,S]=−J(a″b″c″)，K0=BPτS/3局部wholeE核。**R345整十一链已付**：Kn=δnK0、n0..10，NK_n=n(n−11)K_(n−1)，δ11=0只用真实R71，非全R闭合；完整rank-one局部生成式保全cross/尾0、wholepure/self/Ω0；11对应真实Af点flux的十次多项式Vandermonde真满。跨12copy的g翻号已保。沿原E商/全部原型桥基准实现(E,F1..Fm)(S)=E(U)×R^m、m≤11，同新几何/真实wc保持。更多对应点本模块只Pol≤10，非全R障碍；其它形状/其它Af/Ve/整包Ω/仿射尾/两period像/同13行及其它段仍欠。R336旧两列限制、NG0≠0纠正均保。
 

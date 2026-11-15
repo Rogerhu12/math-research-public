@@ -422,3 +422,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 扩池覆盖后保径：五个新源与唯一当前最好点后继已提交
 
 [完整接线](notes/expanded-layout-small-SOC-radius-retention-implementation-20261115.md)，10224B/SHA256 b52efaa22aa760823d1043cd7084382665b9c8b9c116a8ef5da2fced93b81958。tail_cost交controller/checkpoint-aware objective/explicit outer/new4-group development；root全读并核完整selected≠active域，补exact-best transfer/audit、实际保B后下一模型是否用到的独立观察。新request31451B/SHA c9d4d2ead7efd0ecd0fbbccc3b53bdbefedce431d772f46bf7becd2906b22346，128source绑定；原117/120闭包、旧10/7/cache证据只读复用。唯一从run43744903357 m7的physical981e092c…、完整11bank、池4418/4188、B1/8000/streak0接续，原cfg/验收/SOC RHS/预算不变。新workflow先真实双pull/规则核，只有五新Python compile和四新人工，再单stage。未宣执行通过、方法有效或README完成。
+
+## R357：真母两自由坐标及三维有序强profile正锥
+
+[完整证明](results/R357-genuine-mother-fibers-and-a-three-dimensional-ordered-profile-cone.md)，2026-11-15，19269B/SHA256 54e12d9afdf9b0f0121f9c48cf7bf6934097df14d36c1f90a37d33cc22a3ebfc。宽常量平台保全过渡成本给J2=U3−2V2简单根，先整原子TM8保伴随，再三母(γ,z,M)非零minor给实际正宽Fκ=J=Ksh0及J/Ksh两自由坐标。ρ0/20两排序保原finite尾，共同消S后V<0；R278五gap同宽0/2/4矩、统一有限n后A/N容量给S>0且V/S足大，Q普通/comp异号，六列rank3/严格正kernel。Q/S/V是原正半块完整读数，不是镜像后P1自由；全M/A/third/odd保，其它成本真实留。root全文读及R278源、手核母minor/严格系数/容量顺序，未执行科学。单独为后继同权四行/六行服务，不预宣新外矩完成。

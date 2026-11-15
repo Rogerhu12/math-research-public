@@ -143,7 +143,7 @@ tail_cost实现独立controller/checkpoint-aware objective、显式新outer与�
 
 后继实际M8=2Π8M12有24列、(B1,WY1,C0,C2)八行、严格正kernel，其余旧门及反射odd自动0；PY0/PY2真代价保。另25列M13付PY1接口可用。R355独立正域完整D2=XY1−bQ2/4、真C1母IFT、四阶排序/有序μ2尾、四有限正宽给2维正锥，原正域13→14矩；接M13给15行非偶接口，不重复计成R354第17矩。
 
-root正在完整PY0/B1同权四行：原R275/R278 pure(B1+k PY0)是母local R，需新真实母Ksh两号；literature R357独立真母Fκ/J/Ksh自由小族和R278第三gap斜率三维锥，并续PY2。原R347窄两排序半平面/R351未补矩弱核心不冒新正锥。Ψ负储备与末同F★控制器保原程序。全第四/高阶/同g有限嵌入/reach/幅度仍欠。
+[R357](results/R357-genuine-mother-fibers-and-a-three-dimensional-ordered-profile-cone.md)已完整付真母Fκ=J=Ksh0、J/Ksh两局部坐标及六列(Q,S,V)三维实际正锥：宽常量J2简单根/8完整TM原子/真三母minor；两旧排序消S留负V，R278第三gap给正V，普通/comp给Q±，保所有local原费与真实有限容量。V为正半块参数，镜像后P1零不能再称其自由。rootR359按原pure(B1+k PY0)=R×真实四次权，接Ksh±作同权四行；literatureR360续PY2，不循环引用未完成结论。原R347窄两排序半平面/R351未补矩弱核心不冒新正锥。Ψ负储备与末同F★控制器保原程序。全第四/高阶/同g有限嵌入/reach/幅度仍欠。
 
 
 ### R344/R350/R352：自然全U总通量读出，续其它真实成本层
