@@ -119,3 +119,7 @@ O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺�
 ### R769：原新三格的完整合流系数矩阵
 
 [R769](results/R769-original-confluent-theta-return-for-positive-derivative-grid.md) 已证明新(S,T,(S′)^6)全部原列的同charge合流theta返回：Q^j经明确非交换递推化为∂^rΘ^n，原P4^j零点消掉全部t=1分母，各列仍全纯且次数帽不增。实际系数矩阵为Σg_ri[−6(k−i)]^rθ_n,k−i，分母只7^(a+b+6c)(2n)^(6c)，p>204D时全为单位。原w/t共同饱和前缀相同、首行仅差(−1)^k；保全原列和全flag，未把各charge/导数分拆消失或证明中央估值改善。接续在同一完整前缀核上估实际合流矩阵；原来源系数不拆成环境自由列，较小p按实际列分母保成本，完整Smith不能借未证明整的t/w全行变换。
+
+### R768：原normal的局部代表与实际全局消极
+
+[R768](results/R768-finite-fiber-normal-residue-and-original-global-pole-divisor.md) 已证明在准确b0=degY F(0,Y)>4k+2门下，原normal泛函由同t=0纤维除P外的有限分支读取；monic Weierstrass单位、非约化Grothendieck留数核和w/t单位全保。确定局部代表ω0=(a²/2)q t^(r−k−1)A_k dt/FY在P正则，完整原十九角/∞极由div(e³ω0)+Δ_C−3D_e准确计，极次数≥2κ+χ。真实全局延拓仍须res_E′ω+d_local∈V_E′⊥，没有以局部代表或RR维数付掉它。继续由这个确定局部数据判实际O_T*ω=d_k；b0额外门失败时补∞纤维，m=−v0F不能替b0。完整同R余块和v_F原残数继续保。
