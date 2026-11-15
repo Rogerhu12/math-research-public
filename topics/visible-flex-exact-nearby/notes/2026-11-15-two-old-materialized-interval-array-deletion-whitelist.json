@@ -1,0 +1,325 @@
+{
+  "kind": "two_completed_old_materialized_interval_input_array_deletion_whitelist",
+  "prepared_utc": "2026-11-15 22:34:00 UTC",
+  "prepared_by": "newton_source; ordinary deletion remains root-owned",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "authorization": "Root explicitly authorized this two-NPZ metadata route under root rule15 and the current capacity-maintenance task; publish this inventory, then fresh-guard and ordinary-delete only the two listed paths.",
+  "scope": "Two old reproducible materialized interval-input arrays, not original checkpoints, source files, proofs, failed computations, native output certificates, or active run inputs. No binary content was fetched and no producer or successful numerical target was rerun.",
+  "candidate_count": 2,
+  "total_candidate_bytes": 773501,
+  "immutable_restore_commit": "439bee991bb3f3fc7e3ecbf1b01b363eba29591f",
+  "immutable_tree_chain": [
+    {
+      "request_reference": "439bee991bb3f3fc7e3ecbf1b01b363eba29591f",
+      "path": "",
+      "response_truncated": false,
+      "child": "topics",
+      "child_tree": "89f90da08d06bc1fb48bca8c2745c255352d7a37"
+    },
+    {
+      "tree": "89f90da08d06bc1fb48bca8c2745c255352d7a37",
+      "path": "topics",
+      "response_truncated": false,
+      "child": "visible-flex-exact-nearby",
+      "child_tree": "f2e9034d83f3dfd0bd7131679e637467c71cb1a6"
+    },
+    {
+      "tree": "f2e9034d83f3dfd0bd7131679e637467c71cb1a6",
+      "path": "topics/visible-flex-exact-nearby",
+      "response_truncated": false,
+      "child": "data",
+      "child_tree": "1b2d8cf31385c2119408f92135e2e77c0913def0"
+    },
+    {
+      "tree": "1b2d8cf31385c2119408f92135e2e77c0913def0",
+      "path": "topics/visible-flex-exact-nearby/data",
+      "response_truncated": false,
+      "child": "phase_ring_continuation",
+      "child_tree": "f610a515915add1f1616d2fdbc3e6998d1010194"
+    },
+    {
+      "tree": "f610a515915add1f1616d2fdbc3e6998d1010194",
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation",
+      "response_truncated": false,
+      "entry_count": 122,
+      "selected_two_blob_sizes_checked": true
+    }
+  ],
+  "preserved_producers": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_N_interval.py",
+      "git_blob_sha": "dcffbe6ce8a4657c06ebedad6f98f52c9f2ed691",
+      "bytes": 13375,
+      "sha256": "a46b455229d801df057acd10695c8621c72f73719806b8e41e05475b1f2fe460",
+      "entry": "materialize(checkpoint, output)",
+      "identity_from": "Original R55 frozen manifest gives this same full SHA and 13375-byte source.",
+      "semantics": "Loads the original finite checkpoint, copies spline/control/mean/height arrays and metadata to a compressed NPZ. This cleanup restores the exact old NPZ from Git; it does not invoke materialize."
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_N_tube_membership.py",
+      "git_blob_sha": "0cd828a9730cf59fbdccea398a43b25fc5a6b5cc",
+      "bytes": 5302,
+      "sha256": "4d111873e4228bc449a8c4e4f0be1e34f0d30cc87771e3ca20e7cad41a627a93",
+      "entry": "main; if candidate_inputs is absent, calls materialize, then exact dyadic membership",
+      "identity_from": "Both original successful membership records contain the same run_source_sha256."
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_root_interval.py",
+      "git_blob_sha": "75a8da3bb8141c20b30960a370369cf486a50a00",
+      "bytes": 18526,
+      "sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+      "entry": "main; read --inputs and certify the local simple root",
+      "identity_from": "The preserved Newton129 step2 root certificate contains the same run_source_sha256."
+    }
+  ],
+  "preserved_original_small_evidence": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R55-and-staggered-frozen-manifest.json",
+      "git_blob_sha": "a1c1734697085f823605c92532c78ef1e0695007",
+      "bytes": 2745,
+      "sha256": "bd96e9a228ac1c14129ff5bb4cf050611f28c52af7346aee1d5d6221a6310edf"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R57-parameter-tube-frozen-manifest.json",
+      "git_blob_sha": "3e547381b905a7407681dd249b9110f491d1af4c",
+      "bytes": 2371,
+      "sha256": "7b97c3fd438798efee6bf74d5ca5c101bc7702afd3160fa9bcaf0eeab15d8940"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R57-real-parameter-N-tube-and-common-root.md",
+      "git_blob_sha": "ea84dbd0e77c9fdac58792a44cfcf8d7270ed0e6",
+      "bytes": 12625,
+      "sha256": "d6111abd585c297aa805179534ce8e3b46b8bb006dd19badf1ec96d3809b6e91"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_N_membership.json",
+      "git_blob_sha": "06f32fec1d6c7f563ba595d91ba263c095867141",
+      "bytes": 3753,
+      "sha256": "3a29e4fc67dba83797c18b7496d9aa295c9619c76aa915d7ac6ec96cf3977792"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_N_membership.json",
+      "git_blob_sha": "ac0688d8d6d3be72944c19f7371c9cc50be1c98c",
+      "bytes": 3765,
+      "sha256": "77ca07c7d7dffd54ebdca40219488c3f816bc293428b6e2819996c8e22af2a9e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_root_interval.json",
+      "git_blob_sha": "08ba3210db97fc5d52bbf7e83b0a432f5497df5c",
+      "bytes": 5685,
+      "sha256": "2f642a3f57f9087978095d7093c713d7b82dc42e1f82ee3254c85b50b321105a"
+    }
+  ],
+  "preserved_common_inputs": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+      "sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+      "bytes": 386775,
+      "git_blob_sha": "ff0847846fee05f421b26449caa3caa35344df9f",
+      "selected_for_deletion": false
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+      "sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+      "bytes": 137851,
+      "git_blob_sha": "064aba18dc55c1bdf618d13ec37db4f3dfa7664c",
+      "selected_for_deletion": false
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+      "sha256": "b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a",
+      "identity_source": "Original R57 manifest and both membership records; not fetched here, not selected or modified."
+    }
+  ],
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_interval_inputs.npz",
+      "git_blob_sha": "543ad242f1ed6152227e228b0f3fab587c294d6d",
+      "bytes": 386738,
+      "sha256": "d115181ecc0391943e416b0cdb4aaf3b8213eeb96426133815a02548db7599fc",
+      "sha256_source": "Original preserved successful membership JSON candidate_inputs_sha256; exact byte size independently confirmed in fresh immutable Git tree. Binary not fetched.",
+      "restore_commit": "439bee991bb3f3fc7e3ecbf1b01b363eba29591f",
+      "restore_path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_interval_inputs.npz",
+      "saved_source_checkpoint": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+        "sha256": "566c95612ee91f9fb04282873530dbb97a1450f4c01c8b1814b003bd0e06aee5",
+        "scope": "Original checkpoint identity is preserved. This whitelist does not delete or assert current presence of the checkpoint."
+      },
+      "preserved_successful_receipt": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_N_membership.json",
+        "git_blob_sha": "06f32fec1d6c7f563ba595d91ba263c095867141",
+        "bytes": 3753,
+        "sha256": "3a29e4fc67dba83797c18b7496d9aa295c9619c76aa915d7ac6ec96cf3977792"
+      },
+      "old_completed_status": {
+        "proved": true,
+        "fixed_background_array_checks": 44,
+        "all_fixed_equal": true,
+        "raw_phase_control_count": 19296,
+        "all_raw_phase_controls_inside": true,
+        "independent_mean_control_count": 3,
+        "all_mean_controls_inside": true,
+        "comparison_semantics": "stored finite binary64 endpoints and controls are exact dyadic reals; ordered comparisons introduce no rounding",
+        "conclusion": {
+          "core": [
+            -0.24,
+            0.24
+          ],
+          "minimum_raw_minus_n": 0.4250393264037103,
+          "maximum_unit_N_upper": -0.30865948539175136,
+          "geometry": "explicit reflection of candidate controls followed by the infinite R33 primitive"
+        }
+      },
+      "reproducer_argv_from_saved_fields": [
+        "scripts/fourfold_phase_N_tube_membership.py",
+        "--checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_probe.npz",
+        "--candidate-inputs",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_interval_inputs.npz",
+        "--origin-inputs",
+        "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+        "--frozen-direction",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+        "--tube-certificate",
+        "data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+        "--out",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton128_N_membership.json"
+      ],
+      "argv_provenance": "R57 section5 supplies these CLI arguments and a temporary output path; original saved membership supplies its repository output identity.",
+      "limits": [
+        "does not prove candidate lies exactly on the affine one-parameter curve",
+        "does not convert approximate-mirror floating rays into the certified symmetric graph",
+        "no complex-domain, metric equation, closed surface or reach conclusion"
+      ]
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_interval_inputs.npz",
+      "git_blob_sha": "085980b0d47ec4d8be174df4fd11ddf8ff2113b1",
+      "bytes": 386763,
+      "sha256": "1ef92be77cff11904b656c33b3e74994d6415428160319cd92b5df2717d36e14",
+      "sha256_source": "Original preserved successful membership JSON candidate_inputs_sha256; exact byte size independently confirmed in fresh immutable Git tree. Binary not fetched.",
+      "restore_commit": "439bee991bb3f3fc7e3ecbf1b01b363eba29591f",
+      "restore_path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_interval_inputs.npz",
+      "saved_source_checkpoint": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_probe.npz",
+        "sha256": "3453e5be05f8ada2dc333d3e2eab5bcbf58d668eea4817ec7cda85913ca77fa7",
+        "scope": "Original checkpoint identity is preserved. This whitelist does not delete or assert current presence of the checkpoint."
+      },
+      "preserved_successful_receipt": {
+        "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_N_membership.json",
+        "git_blob_sha": "ac0688d8d6d3be72944c19f7371c9cc50be1c98c",
+        "bytes": 3765,
+        "sha256": "77ca07c7d7dffd54ebdca40219488c3f816bc293428b6e2819996c8e22af2a9e"
+      },
+      "old_completed_status": {
+        "proved": true,
+        "fixed_background_array_checks": 44,
+        "all_fixed_equal": true,
+        "raw_phase_control_count": 19296,
+        "all_raw_phase_controls_inside": true,
+        "independent_mean_control_count": 3,
+        "all_mean_controls_inside": true,
+        "comparison_semantics": "stored finite binary64 endpoints and controls are exact dyadic reals; ordered comparisons introduce no rounding",
+        "conclusion": {
+          "core": [
+            -0.24,
+            0.24
+          ],
+          "minimum_raw_minus_n": 0.4250393264037103,
+          "maximum_unit_N_upper": -0.30865948539175136,
+          "geometry": "explicit reflection of candidate controls followed by the infinite R33 primitive"
+        }
+      },
+      "reproducer_argv_from_saved_fields": [
+        "scripts/fourfold_phase_N_tube_membership.py",
+        "--checkpoint",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_probe.npz",
+        "--candidate-inputs",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_interval_inputs.npz",
+        "--origin-inputs",
+        "data/phase_ring_continuation/type_fixed_step02_d5_jet_interval_inputs.npz",
+        "--frozen-direction",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_parameter_direction.npz",
+        "--tube-certificate",
+        "data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+        "--out",
+        "data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_N_membership.json"
+      ],
+      "argv_provenance": "Same unchanged producer CLI; values reconstructed from this original receipt and shared R57 identities. Not claimed as a separately preserved shell transcript.",
+      "limits": [
+        "does not prove candidate lies exactly on the affine one-parameter curve",
+        "does not convert approximate-mirror floating rays into the certified symmetric graph",
+        "no complex-domain, metric equation, closed surface or reach conclusion"
+      ]
+    }
+  ],
+  "additional_preserved_root_status": {
+    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_root_interval.json",
+    "inputs_sha256": "1ef92be77cff11904b656c33b3e74994d6415428160319cd92b5df2717d36e14",
+    "original_run_source_sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+    "sign_and_simple_root_gate": true,
+    "isolating_interval": [
+      0.2383966,
+      0.2383972
+    ],
+    "quarter_nodes": 256,
+    "full_circle_nodes": 1024,
+    "limitations": [
+      "Local root enclosure only; no exclusion of all other roots on the body",
+      "No actual isometric PDE solution, cap construction or whole transfer inverse",
+      "No claim that an earlier floating return already belongs to this explicitly symmetric object"
+    ],
+    "note": "The root certificate itself remains current and unchanged; removal of its restorable derived input does not erase or strengthen this result.",
+    "original_input_path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_actual_Newton129_step2_interval_inputs.npz"
+  },
+  "active_input_exclusion": {
+    "SN": {
+      "run": "43751213826/1",
+      "manifest_blob": "5a20224a710b99952a5842fcebec5851dfcf562b",
+      "manifest_bytes": 97309,
+      "manifest_sha256": "f6e5f9fe938d897c2b57d3d34e42391455fc6cea9804576d4dcc90b2021a8351",
+      "full_manifest_text_checked": true,
+      "both_basename_occurrences": 0
+    },
+    "SC": {
+      "manifest_blob": "3015e630f46f45079a20351344d7d1f63c65c313",
+      "manifest_sha256": "cd28e23a13ef68281dd4813de793896e89b235926936d2668e64e7bfe6e22aa9",
+      "peer": "tail_connector",
+      "complete_cached_manifest_including_history_archives_checked": true,
+      "both_basename_occurrences": 0
+    },
+    "WE": {
+      "manifest_blob": "9d67ad932a5880007ab28af99743bb45d6bd0d50",
+      "manifest_sha256": "098c090606f54bbbb8bd6d026b6360f53ba70f5e75c4fc4218e7f784b2eb88a1",
+      "peer": "tail_connector",
+      "complete_cached_manifest_checked": true,
+      "both_basename_occurrences": 0
+    },
+    "SJ_PG": {
+      "peer": "phase_inverse",
+      "complete_current_manifest_pins_checked": true,
+      "both_basenames_not_pinned": true
+    },
+    "fresh_root_guard_still_required": true
+  },
+  "preserved_categories": [
+    "All scripts and primary proofs",
+    "All failed, interrupted and partially completed records",
+    "All original checkpoint and source-data paths other than the two exact listed derived arrays",
+    "All original membership, root, H-polynomial, Wiener, ray and manifest records",
+    "All active SN/SC inputs and new PG/WE/CGA scientific conclusions",
+    "All immutable Git history"
+  ],
+  "restoration": [
+    "Restore either exact path from the immutable public commit into the runner temporary directory.",
+    "Verify byte count, Git blob identity and original SHA256 before using any fields.",
+    "Do not recompute old successful materialization, membership, root enclosures or downstream targets."
+  ],
+  "root_publication_guards": [
+    "Publish this whitelist as its own retained small file before deletion.",
+    "Fresh-current-main metadata must still match each selected path, Git blob and exact byte count.",
+    "Ordinary delete only these two paths; preserve concurrent changes and history.",
+    "Any mismatch stops deletion and requires review; no deletion has been performed by newton_source."
+  ]
+}

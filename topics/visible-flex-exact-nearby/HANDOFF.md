@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 22:31:14 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 22:34:26 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:23:24定时CLI失败，下一≤23:23。原SN真pull22:26:03.400072→b9e9a4db978f3acc4910171c96176e9d03b9364f，两README空diff；ref读取不冒真pull。
-最近只读README核：2818d06d77cc66121102be03e3582f2302d3cf65；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：b811cfce956d254834a1df852fe4dab930243e7b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -48,5 +48,5 @@ S/T exacttail只同γ A0/r≤1/128、H8193/r≤2^1048576及r1e−9；Γ1负princ
 
 ## 恢复与执行顺序
 
-旧2Newton/jet/七报告1589068B已普通删，完整恢复保ebf4同H/open及原名单。新九报告名单7008333d/68f83dd4先推1b09dba7；9件504341B已freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/NPZ/native/候选/失败/proof/currentpins保，旧成功禁重。
+旧2Newton/jet/七报告1589068B已普通删，完整恢复保ebf4同H/open及原名单。新九报告名单7008333d/68f83dd4先推1b09dba7；9件504341B已freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/native/候选/失败/proof/currentpins保，旧成功禁重。两旧derived interval NPZ名单35b1173d/da74b983先推，773501B，restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path；尚未删除。
 继续SN/SC3和open余项→全strong/incoming/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。

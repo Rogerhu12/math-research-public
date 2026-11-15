@@ -19,3 +19,7 @@
 - 2026-11-15 22:31:14 UTC visible-exact-astra-0df9：WE current-only四件部署，SCId02efe46/workere9c606d0/manifest098c0906；12pins369952B、2AST/9math/22门，root全文审370行science和419行KL worker差异，参数/pins/flow静态闭合。
 - 仅新Cstar/Aport/Astate/state contribution/paid total五组合；CG whole与八个旧success不重算，六retained exact-border-unpaid、完整Ei/incoming/Schur/R0false。120KB实容量reserve/原子全SCI先存打印/实时规则与非FF主干保。
 - 新增题外.github/workflows/visible-exact-paid-waist-strong-error-assembly.yml仅触发本题新组合；2818d06d77cc66121102be03e3582f2302d3cf65两README空diff。沿唯一自然push，继续PG/retained及原SN/SC3。
+
+- 2026-11-15 22:34:26 UTC visible-exact-astra-0df9：两旧derived interval NPZ恢复白名单35b1173d/17376/da74b983先推，773501B；restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path，未删。
+- root全文名单并亲读两原membership核SHA；agent完整五层fresh tree、producer/args/原44fixed+19296phase+3mean成功与限域保全，原root证书和active SN/SC/WE/PG输入不改。不读二进制、不重成功数学。
+- b811cfce956d254834a1df852fe4dab930243e7b两README空diff；freshguard普通删后部署PG，WE原43769746581/1已22门成功待actual proof，SN/SC3保持原run。
