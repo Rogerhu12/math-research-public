@@ -210,3 +210,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R378：原第三history漏项更正，H principal及真−7抵消
 
 [完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。R358(23)只保Ts，原R56/R73/R109要求同时保−Yn在Ps/Bs的链式项；这与c恢复的m2不同。完整self+(2/3)有序真尾补回后新principal curl=+eQ²lEt²/128抵旧，actual H全C²；真−7新+∫r5/15360抵旧，有序尾该权0。撤回R358指定非零、R362/365完整式认定、R371维12/≥13及其具体7/13控制证明。一般条件控制/独立affine结构保留；R374不发。完整C²余值未知，未宣H0或U=R；R370全−Ψ、R350/R367各独立原式不由该漏项否定。12975B/SHA256 add9ecfc8266e742bf4ae3f909b5ad1a0d303d63bdf8faf55702a11bd97f63fb。
+
+## R381：修正后H的全部有序真尾准确抵消
+
+[完整证明](results/R381-exact-cancellation-of-the-ordered-tail-in-the-corrected-H-flux.md)。真实aL保原三矩，n-tail=(daL/4)(γVγ+δVδ)，原YC-tail权2/3给(daL/6)D_V。三D/K差分别为−(L²Vγ)′/4、(rLVγ−2WL²)′/4、(WrL)′/2，端项由紧outer支付，故新尾=−旧daL·K。只留原已显示速度三次梯度，任意状态的全部H有序尾curl0；未置任何左矩为零。完整self余值仍未付，不恢复旧秩、不宣全H0。7729B/SHA256 8a163876ac6bf42be2fb4cc60d1063f80052466c5c5e498e1bd3b37a8aa30278。

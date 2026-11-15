@@ -272,3 +272,7 @@ results已到91665B，将首段R304–R343及同期数值索引原样移至resul
 ## 2026-11-15 21:13:50 UTC — 覆盖soft普通扩径三源完成，待公开首次检查
 
 根通读core及outer对已付源全部差异、完整4组20断言；逐文件元数据与agent一致。新增前置整数ID守卫、真实中心eta、nominal只核apply/预测用actual d、scan/cache四maxima同一性；old pair显式清双计数且不改原报告。三新源码与[实现记录](notes/complete-model-covered-soft-ordinary-growth-implementation-20261115.md)已发布，旧130不改。新dev尚未运行，driver/workflow/request接线继续，不冒检查已过。
+
+## 2026-11-15 21:15:32 UTC — R381 真尾完整闭合，结论即推
+
+根独立以W=u−xv、L=v−xr、F=Qr+2W、Vγ=Qv+2xW展开三D/K身份，核纯γ/mixed/纯δ所有项及原2/3、daL/4因子；未令aL或三个矩零。旧准确梯度保留，修正后余尾一形式确为零。全文7729B/SHA256 8a163876ac6bf42be2fb4cc60d1063f80052466c5c5e498e1bd3b37a8aa30278，只纸证无新研究执行。mechanism随即继续R382完整C² self；不等待整H才扣本已完成结论。

@@ -101,7 +101,7 @@ R354的全偶反射/正ω桥及R357–360真实母、primitive/Green/有序尾�
 
 ## H 层完整性更正已核，继续完整C²余项
 
-[R378](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)准确补原−Yn的Ps/Bs项：D_V(n_acc)+(2/3)真实尾。全部三导平方principal抵消，实际H读出均C²，旧模C²维12撤回；真−7新+∫r5/15360与旧相消，旧非零及具体7/13控制证明撤回。R365真实affine结构/R366一般m条件论证仍可用，但须重新提供实际满秩。R374未发布；R370全−Ψ、R350平方及R367独立Green保原范围。下一直接收修正后全部C²值，不能沿旧principal推mixed或rank。以下旧H段落保为历史索引，其被撤回部分以R378及各原稿顶部更正为准。
+[R378](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)准确补原−Yn的Ps/Bs项：D_V(n_acc)+(2/3)真实尾。全部三导平方principal抵消，实际H读出均C²，旧模C²维12撤回；真−7新+∫r5/15360与旧相消，旧非零及具体7/13控制证明撤回。R365真实affine结构/R366一般m条件论证仍可用，但须重新提供实际满秩。R374未发布；R370全−Ψ、R350平方及R367独立Green保原范围。[R381](results/R381-exact-cancellation-of-the-ordered-tail-in-the-corrected-H-flux.md)已闭全部真实有序尾：保aL与原2/3因子，Dγ(Vγ)=−6Kγγ、mixed=−6Kγδ、Dδ(Vδ)=−6Kδδ，三差均紧总导数，剩余尾一形式准确抵消，只留已分离速度梯度；任意状态尾curl0。下一继续全部C² self，不能沿旧principal推mixed或rank。以下旧H段落保为历史索引，其被撤回部分以R378及各原稿顶部更正为准。
 
 R344/352保完整ordered2+2三矩尾定义自然Λ∈(U/R)*，杀R且N协变；R350三个Abar在每个实际状态Λ0。R356真−9/−8全消但不授U层=R；R358真Hγ−7准确−∫r5/57600。R362完整H2三导平方及同锚C²余项给真−6非零，借已付R207消pure得Ω非零，不重旧秩。
 
