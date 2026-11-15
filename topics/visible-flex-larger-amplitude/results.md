@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R282. 局部交叉 Gram 积分门与完整 cuff 相位责任](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)（已证明，条件几何定理）：在单射材料图上以 m|Δu|²严格切向下界同时排除不同点的零弦与双法向；完整collar/B系数给统一全相位小图，保真实theta=Phi(phi)+alpha及准确接缝。按全部rank×空间×两RP1闭相位叶支付membership与原R281 OR，正确商对角不要求正距离、不整rank豁免；旧R241/R24保持，未有实际场余量或reach。
+
 - [R281. 两张有理相位图上的换门覆盖与有限终止](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)（已证明，条件几何与准确有理算术定理）：两RP1闭图以齐次四次式准确反序，保π端点；原距离/两单端/joint四门OR按闭区间Sturm严格支付，含内部偶重根及共享端点。严格逐相位可付则有限dyadic深度完成，有限预算未付不推几何失败。新解析例旧整圆四门均失败而五叶换门完成；源码已接，实际球包围、完整空间覆盖和闭面/reach仍待真实场。
 
 - [R280. 双端联合全相位法向球与严格余量下的有限覆盖](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)（已证明，条件几何定理）：保两个旧单端门，以OR加入双端叉积平方和减完整误差平方预算的四次有理Sturm门；解析例证明严格新增范围，保半角π端点。严格reach/曲率余量及有效连续包围下，空间—相位共同细分有限完成原R241覆盖；不把C²当有效误差程序，不称整圆分类自动完备，不造实际闭场或新求解门。

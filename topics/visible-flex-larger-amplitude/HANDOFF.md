@@ -52,9 +52,9 @@ summary69434B/282c363f（不含LF）、status1069255B/b542147b、trace871442B/46
 
 ## 几何及接受场之后
 
-R277–R281完整证明已登记。109/111条件有理例匹配，非实际曲面证书；[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md) run43685039861/summary7898B/7279b591。不再加fixture/审批。
+R277–R282完整证明已登记。109/111条件有理例匹配，非实际曲面证书；[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md) run43685039861/summary7898B/7279b591。不再加fixture/审批。
 
-[固定帽球](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md) sourcea3ada50b；[完整活动jet及mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md) source675ab8df/dbdedb45。准确共有节点/全FFT/sharedB/materialcut/唯一SE2表达自身求六jet和完整归一化法向球；真实RαA∪C全部活动×两帽rank及未访问后缀。source-only，无真实接受场/run；共同cuff零弦仍未付local，旧static-base+R24保持。geometry正在R282局部cross-Gram积分门及material θ/相位子责任完整证明，草稿未推；不能整rank冒窄图覆盖。
+[固定帽球](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md) sourcea3ada50b；[完整活动jet及mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md) source675ab8df/dbdedb45。准确共有节点/全FFT/sharedB/materialcut/唯一SE2表达自身求六jet和完整归一化法向球；真实RαA∪C全部活动×两帽rank及未访问后缀。source-only，无真实接受场/run；共同cuff零弦仍未付local，旧static-base+R24保持。[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)及[最薄接线](notes/2026-11-15-R282-local-owner-input-and-phase-ledger-contract.md)已登记：同图cross-Gram严格界支付不同点，完整collar/B给全phase小图；真实theta=Phi(phi)+alpha，按全部rank×空间×phase闭叶，不整rank豁免。geometry继续独立local owner/完整组合器源码，尚无实际余量/run。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN及自己的final audited tail/config/port：完整physical/material/z0/mean→R249/shared quintic B/两帽，g不能换B′。R274/R258 adaptere372待同场非零见证。held可独立于reach预算读整个活动面与两帽，不能用材料点位移/core直径替整像。
 
@@ -62,4 +62,4 @@ same-g v4冻结g/全部p/t范围，K=k=0、activep空、T=M/state4M+2；699二�
 
 ## 维护与重做范围
 
-既往已完成的95–114结果有正式note；110/113仍运行，115已正式读回，116已派发待run。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿仅geometry R282及代理正在做的后续工作；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。
+既往已完成的95–114结果有正式note；110/113仍运行，115已正式读回，116已派发待run。102v3整体model-vs-nested差异是原writer顶层装饰，不添复算/门；104普通清理后课题168796207B，未知JSON未全分类，旧raw未重存。log/open旧大文件已普通归档为checkpoint，当前文件保实时责任。未推草稿为代理正在做的local owner和后续接续设计；每条新结论马上note/H/open/log并push，然后继续，不发阶段结束答复。

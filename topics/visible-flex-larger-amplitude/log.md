@@ -109,3 +109,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:27:20 UTC /root — request116 原四控制实际末点接续
 
 [完整执行接口](notes/2026-11-15-actual115-four-control-continuation116-interface.md)已读并派发。115八方向接受后，以实际四p和own-schema来源22→22重新形成同一模型，科学family/search/reader三源不改；初半径按冻结入口明确重置.1，非恢复末.0125或旧J/W。recipe1507B/3cab39d5、request31136B/45cd4dd9、workflow16329B/9cabbd3c，79+2 pins与所有原预算/域/终检原样。原summary版本仍为115源码版本，report标记与实际run/source明确116。只做原输出读取、身份与AST/bash静态，本地没有科学执行。
+
+## 2026-11-15 07:28:22 UTC /root — R282 共同cuff局部积分门证明
+
+[R282全文](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)28642B/b740ca17及[实际输入/完整叶合同](notes/2026-11-15-R282-local-owner-input-and-phase-ledger-contract.md)10495B/2ebe7ad2直接登记。root读全文并核原tail_coefficients(-1)/tail()/sharedB首cell，完整Hermite零jet、全FFT含均值及Nyquist、共同材料theta=Phi(phi)+alpha和marker-free窄图一致。严格交叉Gram下界给m|Δu|²，不要求商对角正弦；所有rank仍须空间×两RP1相位闭叶全覆盖，旧全局责任保留。只证明/源码读取，无fixture、科学执行或实际余量；继续最薄独立local owner，不增审核门。
