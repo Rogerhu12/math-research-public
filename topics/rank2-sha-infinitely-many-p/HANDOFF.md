@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：54ab8da553742187120a7f03a49152173acdaa11；2026-11-15 02:33:54 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:33:54 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：3f8fa605543da92c05c21a86d3a1891692f3aba6；2026-11-15 02:42:39 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:42:38 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,14 +14,14 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R656–658已登记；R364/R561仍开，R637/R654–655/R659–660进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r656.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–653、R655–658已登记；R364/R561仍开，R637/R654/R659–661进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r655.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R656同A_D四次高度及九格全部坏素数成本已付；续R660原中央到全源的实际传播，O4/O6保留。
 - theta：R653全S5²/原四K分离已付；续R659真实M0/H±和W失败支。
-- literature：R649已付；R655窄核σ5负一矩完整有限角色，R654真modp²连接保留。
+- literature：R655原Σ5负一矩非零已付；续R661同S5两条log行，R654真modp²连接保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
 ## 原对象、ray及未闭旧支线
@@ -53,9 +53,10 @@ R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+3
 原四K同W两层给(1−λ²)K=低W环带+完整共同门/两失败支，不删log质量。
 实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
 R653同一det−5 joint全S5²五项给K=(-M0ℓD,6bH−IΣ,-1+3bFH+ℓZ,1,−A0,3ΩA1)。
-同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩，M0未付非零；Σ5仍原σ17^5。
+同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩，M0未付非零。
+R655原Σ5=σ17^5全Schwartz/period识别χ导子10、负点barψE80；严格L′>1/50+Rubin–BDP给IΣ,-1≠0，准确Lp=5c5θ11ΩpI²，当前ray χ65=−1。不赋其它log行/失败支零。
 W两失败支须保全五型/真实Q转置；同R594未加帽多项式四全行基准0，门外负基准不删。
-固定CM稀疏单位只用于固定λκ有限式；负五Katz仍root−，I1非零未付，不能数p依赖负矩。
+固定CM稀疏单位仅供固定λκ式；旧负五I1未付，与R655负一行分清。
 
 ## 惰性完整中央、解析与全成本
 
@@ -110,4 +111,4 @@ R657原k*=1+max_u(u+s(Cu−1))连续前缀全列单射，保同Smith上界；固
 R640完整Wilson回G0W836，charge876/全帽保持，不添中央零。
 R642保首Gaussian的辅助M_c=(I−34F2s p²B/a)M modp³，B(f0,f1,f2)=(0,0,πf1)、B²0；同P/R先过全MQ2∈p²后第二代表相同，ell+13/26carry全保。
 
-原Beta割线排直接定号Nikishin，未排其它AT；2026文献未给新固定来源跨p非消失输入。
+原Beta割线排直接定号Nikishin，未排其它AT；R655的rank1输入不代rank2全中央。
