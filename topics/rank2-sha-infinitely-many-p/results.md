@@ -206,3 +206,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R824零角增补](notes/2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)：在原完整W_D的零角真实二次帽内，R824的k=13也不可提升：r≥1保实际仿射修正的零角仍二次，四物理块第13行的λ=6a⁻³π3−246a⁻²π2+5042a⁻¹π1−68880π0杀全部首像，实际首商配对36a⁻¹C0u0²e0²为unit。可提升四次候选必须r+2h≥s+1；不扩到仅有共同G0的任意增广来源或全核。
 
 - [R826附录A–B](results/R826-fixed-low-weight-cm-triple-and-fourth-de-rham-slot.md#附录-a-第四槽的原-cm-companion完整-q-系数及临界-cohomology-投影)：R826附录付原G_j的完整理想和/真正weight0 CM companion、全两项q系数与所读U特征−π；不能用ordinary形式投影。LLZ已发表公式在原λ_j给Lcrit(χ〈χ〉^s)=Ωιs(1−s²)Kprim(ν_j〈N〉^s)，中心导数准确为Ωι34²c_jθ⁹Ωp I_j²；原对数Euler/√17保，simple zero等价原I_j≠0。三重积slope1与单形式slope3的global类尚未比较，不增加跨p非零。
+
+- [R828](results/R828-original-four-high-axis-reflection-and-native-central-compatibility.md)：R828付四原近顶轴全精度C_r=H_p(−8)^rP_r(p)−8^s、两平面关系和实际参数恢复；原a_p=6(p−3)H_p/(p+1)+pR_low，完整低卷积与q_p(2)三阶进位保，模p H_p=−a_p/18。原w三角整运输给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0与全p⁴相容检验、同native Schur均准确；未证实际b违背约束，不以两参数式代原非零。

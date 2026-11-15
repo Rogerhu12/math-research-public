@@ -102,7 +102,7 @@ R805全profile/tame/最高移动极的h≤6γ+2a+10b+2z−6继续有效；R743�
 R816/R820付固定E−11的rank≥2、V66全部坏位/导子66/ray360/198→66尺度，完整普通和惰性通常Selmer桥给r+corank全Sha≤2ord原半因子；原导数非零即所需有限。新第四源charge33/17仍在旧二元B33，不增加函数域维数。
 R821全Hurwitz整性把八权降四权，裸聚合(4,−6,8,−6)；四高轴必要系统固定minor为unit。Γ4完整39carry、十二尾行、末端quartic p³项保持，形式Jacobian不代四算术条件独立或坏Smith。
 R824给完整G0格的k<13首次提升单位障碍、同R的28/−11/3和实际仿射格/结式门，所有native项先保后消。四中央只允许真实代入λβ°−(λL)B4⁻¹b；倍点高角必须用h(nz)，完整native缺陷不删。[原W_D零角增补](notes/2026-11-15-r824-canonical-zero-angle-thirteenth-row.md)已付k13的全首像左行与单位36a⁻¹C0u0²e0²，可提升须r+2h≥s+1；原真实仿射基项被同左行杀掉，不扩到任意增广来源。
-[全部纯幂重数预算](notes/2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)给N块最小条件主比2(N−2)/(N−1)<2；固定F^N比率不足排全核。当前继续四原[z^(p+1)]首必要系数的真实共同零/全K低卷积及同完整左核，重复residue或人为倍点Jacobian不算新非零证明。
+[全部纯幂重数预算](notes/2026-11-15-general-central-blocks-and-pure-power-multiplicity-budget.md)给N块最小条件主比2(N−2)/(N−1)<2；固定F^N比率不足排全核。R828付四原近顶轴全精度C_r=H_p(−8)^rP_r(p)−8^s、两平面关系和实际参数恢复；原a_p=6(p−3)H_p/(p+1)+pR_low，完整低卷积与q_p(2)三阶进位保，模p H_p=−a_p/18。原w三角整运输给u*=a_pv+χ2z，四中央必要b+a_pB4v+χ2B4z=0与全p⁴相容检验、同native Schur均准确；未证实际b违背约束，不以两参数式代原非零。 继续(37)/(40)的实际低卷积值和(42)的同完整左行配对；重复residue或人为倍点Jacobian不算新非零证明。见[R828](results/R828-original-four-high-axis-reflection-and-native-central-compatibility.md)。
 
 ### 其余原主门
 
