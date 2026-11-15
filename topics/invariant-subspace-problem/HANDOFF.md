@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** c257936dea17b078f46bbfd3423b15e0c62e9725（2026-11-15 22:57:33 UTC，临时研究session run43772109844实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 4afcc2248281d80a6cea7ce82c84b1be99d33008（2026-11-15 23:00:40 UTC，Actions run43772406606实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43772406606-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -19,7 +19,7 @@
 - **[有限载体与精确J1/299](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)：** C有限D31、C/pC恰fieldtors/J长314、rankC=degΔaff。root2 p谱前五(1,4,2,4,2)，全球≥15 tors方向/系数长≥44；Δaff≤299/齐次≤365、R≤141，barR|(s−1)(s−2)²P+²P−²E6Q60²。九真差源exact p阶5，非h0所需分母。
 - **[完整外投影Ω120/余乘子21](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60²、投影coker=S13⊕S/(f²)，全Δaff∈[278,299]。μ=Rout/Ω≤21，九μh*tj全局Q成员，总乘子≤44，三源费8406/8411/192。不报μ1、九h*自身来源或精确p²h0。
 
-- **[原正常商的完整来源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)：** A经原120单位/13零输出后保[[Gᵀ,0],[H,B]]，B有6012=5100+864+48真零投影源，T=coker[B,H kerGᵀ]；核秩34全保。B/H的W尾尚未数值构造，不由4212维数免费消高块。
+- **[原正常商6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** 实际z_j=1、Mz=f²q给外商泛函ℓ=zᵀ modf²；imMᵀ=kerℓ。E=(e_i−z_i e_j,f²e_j)、Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I、P=I−RV张完整rank34核。故T=coker[B6012,H_M P]不倒Ω；新adj/R/P及完整W尾尚未数值构造。
 
 - **root2还余二维：** 精确J2=1把旧u+v+w=3更新为u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2。完整B第四页至多2；若actual=2才迫f2=16、m6=2、更高0。当前未报第四页，不把有理长度与高p指数互换。
 
@@ -34,7 +34,7 @@
 
 - **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
 
-- **全局197真R2独立会话：** request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live不重启。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。只恢复必要成员到新job tmp，step1恢复300秒/2GiB；actions:read只读旧包，绝不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
+- **全局197真R2独立会话：** run43772109844始22:57:13，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live保留。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。step1实际8.054750272秒全14件核真，raw5199/8323772d，tmp为isp-global197-original-i2-session-43772109844；不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
