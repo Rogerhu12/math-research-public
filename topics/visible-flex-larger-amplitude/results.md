@@ -242,3 +242,5 @@
 - [Request165：共享校准表达式与完整Bernstein公共坐标包围入口](notes/2026-11-15-request165-shared-calibration-target-enclosure-interface.md)：原准确目标/字面参考/全九p/419闭片不变，21源同job构造；R352共享量消依赖、全支撑合并、同u系数差及R330交，原900s/65536预算保。四读回实际成功才清理；源码已发布，尚无本请求数值结论。
 
 - [R354：完整Frenet速度的闭步长二阶界与实际Hermite形成误差](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)（已证、无新数值）：原正分支V=(sqrt(P)C−νQB)/(aW)，全方向V″的完整多项式/严格分母界接全338投影；保原基点与J/P形成缺陷、Hermite常数/一次形成差及实际执行误差。支付R334二阶界的显式构造，未预填数值M、闭段实际程序或闭场成功。
+
+- [R355：实际162在原科学入口前的参数分隔符失败](results/R355-actual162-pre-science-argument-separator-failure.md)：原两日志证明C/far在rules argparse拒内层裸--，0科学/0该run pull；16源及语法预检通过不代表科学运行。全部缺件/进程/原错误/清理范围已读，接线与显式重发元数据最小修复，数学/资源不改。

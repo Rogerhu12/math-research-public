@@ -67,7 +67,7 @@ jobs:
           comp=Path(os.environ['GITHUB_WORKSPACE'])/'topics/visible-flex-larger-amplitude/computations'
           request_raw=(comp/'public-stored-C-projective-head-request.json').read_bytes()
           request=json.loads(request_raw)
-          assert hashlib.sha256(request_raw).hexdigest()=='5b002d6fe786c29e96313129690d7510f9e3e572c1a8b43b88fad01e4de0be18'
+          assert hashlib.sha256(request_raw).hexdigest()=='626e3111016498495bc8d61067df21151edc0fe51e063202c32757dcfd09a8b1'
           assert request['execution']['namespace_science_deadline_seconds']==18900
           assert request['execution']['readback_reserve_seconds']==2700
           record=dict(schema='request162-owned-namespace-science-deadline-v1',
@@ -134,16 +134,16 @@ jobs:
               record(role,"parent","return",actual_returncode=code,normal_return=True)
               return code
           def execute(argv):
+              if len(argv)<2 or argv[0] not in ROLES:
+                  raise ValueError("Use exec ROLE original-script original-arguments")
               role=argv[0]
-              if len(argv)<3 or argv[1]!="--" or role not in ROLES:
-                  raise ValueError("Use exec ROLE -- original-script original-arguments")
               for key in ("GH_TOKEN","GITHUB_TOKEN","MR_TOKEN"):os.environ.pop(key,None)
               own=identity(os.getpid())
               if own is None or own["pgid"]!=own["pid"]:
                   raise ValueError("The original rule runner must own an exclusive science session")
               record(role,"science","launch",exclusive_process_group=True,
                   exclusive_group_created_by_original_rules_runner_start_new_session=True)
-              actual=list(argv[2:])
+              actual=list(argv[1:])
               declared_argv_sha256=hashlib.sha256(canonical(actual)).hexdigest()
               if role=="linear":
                   base=root()
@@ -257,11 +257,11 @@ jobs:
                   no_signal_or_process_mutation_performed=True,
                   this_metadata_condition_is_not_a_mathematical_acceptance_gate=True)
           if __name__=="__main__":
-              if sys.argv[1:2]!=["exec"]:raise SystemExit("Use exec ROLE -- original scientific argv")
+              if sys.argv[1:2]!=["exec"]:raise SystemExit("Use exec ROLE original scientific argv")
               raise SystemExit(execute(sys.argv[2:]))
           '''
           helper_raw=helper_source.encode()
-          assert hashlib.sha256(helper_raw).hexdigest()=='fbc1c8e4f95f3da7ee104e1045b8737d09c3142c935ad5a3d70dddcb293ea4db'
+          assert hashlib.sha256(helper_raw).hexdigest()=='a235458020e47380105cd1e0fe7e68c74fcf5ccbb15cda640209720fcbc6a966'
           compile(ast.parse(helper_raw,filename='request162_owned_process.py'),'request162_owned_process.py','exec')
           with (base/'request162_owned_process.py').open('xb') as stream:
               stream.write(helper_raw);stream.flush();os.fsync(stream.fileno())
@@ -330,7 +330,7 @@ jobs:
           assert request['evaluation_strategy']['original_C_3600_and_all_integral_parameters_unchanged_from_actual156'] is True
           assert request['scientific_entry']=='geometry_20261115_stored_continuous_E_cover_v3.py'
           assert request['source_count']==len(request['source_sha256'])==16
-          assert hashlib.sha256(raw).hexdigest()=='5b002d6fe786c29e96313129690d7510f9e3e572c1a8b43b88fad01e4de0be18'
+          assert hashlib.sha256(raw).hexdigest()=='626e3111016498495bc8d61067df21151edc0fe51e063202c32757dcfd09a8b1'
           verified=[]
           for name,expected in request['source_sha256'].items():
             assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
@@ -425,7 +425,7 @@ jobs:
           assert readout_constants['HELPER']==semantic['file'] and readout_constants['HELPER_SHA']==semantic['sha256']
           lifecycle=Path(os.environ['VISIBLE_BASE'])/'request162_owned_process.py'
           lifecycle_raw=lifecycle.read_bytes()
-          assert hashlib.sha256(lifecycle_raw).hexdigest()=='fbc1c8e4f95f3da7ee104e1045b8737d09c3142c935ad5a3d70dddcb293ea4db'
+          assert hashlib.sha256(lifecycle_raw).hexdigest()=='a235458020e47380105cd1e0fe7e68c74fcf5ccbb15cda640209720fcbc6a966'
           compile(ast.parse(lifecycle_raw,filename=lifecycle.name),lifecycle.name,'exec')
           deadline=json.loads((lifecycle.parent/'namespace-science-deadline.json').read_bytes())
           assert deadline['request_sha256']==hashlib.sha256(raw).hexdigest()
@@ -577,7 +577,7 @@ jobs:
           # child executes the independent evaluator of the unchanged model without GitHub token variables.
           sys.path.insert(0,str(base))
           import request162_owned_process as owned
-          command=[sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','C','--',*argv]
+          command=[sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','C',*argv]
           sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*command]
           raise SystemExit(owned.invoke_parent('C',runner.main))
           PYRUN
@@ -660,7 +660,7 @@ jobs:
               '--'+option+'-sha256',original['sha256']])
           for key,value in item['parameters'].items():argv.extend(['--'+key.replace('_','-'),str(value)])
           sys.argv=[runner.__file__,'--out',str(base/'rule-sync-far'),
-            '--command',sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','far','--',*argv]
+            '--command',sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','far',*argv]
           raise SystemExit(owned.invoke_parent('far',runner.main))
           PYFAR
       - name: Propagate complete112 factorized columns and every closed cut candidate in both projective charts
@@ -713,7 +713,7 @@ jobs:
             explicit_new_linear_work_budget_seconds=item['parameters']['budget_seconds'],
             existing_v3_work_budget_unchanged=True)),flush=True)
           sys.argv=[runner.__file__,'--out',str(base/'rule-sync-linear'),
-            '--command',sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','linear','--',*argv]
+            '--command',sys.executable,'-u',str(base/'request162_owned_process.py'),'exec','linear',*argv]
           raise SystemExit(owned.invoke_parent('linear',runner.main))
           PYLINEAR
       - name: Read actual complete metadata and unresolved suffixes without new scientific arithmetic

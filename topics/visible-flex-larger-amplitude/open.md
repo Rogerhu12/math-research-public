@@ -131,3 +131,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 ### R354：原Frenet全方向二阶界与Hermite形成误差
 
 [R354已证](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)：完整原有限角表达V=(sqrt(P)C−νQB)/(aW)，Q=d²、C=d×e、B=Qe−(d·e)d、P=a²W−ν²Q³，沿全453仿射节点保至8次多项式与显式V″。a/P严格闭段正界给D≥p_min/a_max和显式二阶M，原完整DFT投影全338/115零RHS行；不以complex-step列当准确导数。实际基点/方向形成缺陷e0/e1与完整Hermiteδ0/δ1保留，真实IEEE/SciPy执行误差η另付，再接R334角域传递。没有新M、数值正步长或实际浮点全段证书；29端点/37query仍仅所声明子集，全部699/698/两RMS/连续角与原README另付。后继直接用同次实际模型诊断，不冻结候选或等额外审批。
+
+### R355与162仅argv接线重发
+
+[R355](results/R355-actual162-pre-science-argument-separator-failure.md)完整原两日志确认首跑43735722483/source d23db7eb在原rules argparse拒内层裸--，C/far退出2；原初始化/科学进程/该run真实pull均0。16源/16shell/16heredoc预检过不等于运行过；linear因缺输入条件退出，四读回只读工程范围并正确清理。仅三处owned helper argv去裸--/helper用argv[1:]，原16pins/所有科学/资源保持；request追加首跑失败元数据真正触发新push，request626e3111/workflow23442307。geometry唯一核新actual，不填R347结果。

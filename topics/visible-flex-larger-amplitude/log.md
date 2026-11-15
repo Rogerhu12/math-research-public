@@ -121,3 +121,7 @@
 ## 2026-11-15 16:37:47 UTC /root — R354完整Frenet方向二阶余项
 
 [R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)完整证明即发：原速度消中间归一、8次P/正D与显式V″，全338/115零行，原e0/e1及Hermiteδ0/δ1/执行η不置零；无新数值或额外门。166原数由exact写R353，162首跑argv分隔符错误未起科学，geometry修；API核f8d61ea59ec86ec370c637757115aae78ad55495双README未变，真pull行保。
+
+## 2026-11-15 16:38:54 UTC /root — R355原162 argv失败与接线重发
+
+首跑43735722483的完整原失败及5108B修复差异核后即发R355；三条命令去内部裸--，原helper保argv，16pins/科学/预算不改。request只追加真实失败元数据并两处SHA同步，626e3111/23442307，geometry核新actual；API核c9bcc76ef1ece847e692e0ba39e26c1624cc7776双README未变，真pull行保。

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:37:47 UTC 已读 f8d61ea59ec86ec370c637757115aae78ad55495，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:38:54 UTC 已读 c9bcc76ef1ece847e692e0ba39e26c1624cc7776，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -43,7 +43,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 
 [R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)：1440/六primitive/两域/cut两jet/deep112齐，whole2609粗叶未付。m2/4/6/8到cut但高度盒含0；m10在共享200000面板止，后缀/原栈全保。
 
-[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)五件已发：driver5440e2e0/readerbefe77fc/request5b002d6f/workflowc9e30f35，16pins/原C3600/全112不变。严格pivot/全误差/幅符号log链、逐cut商后hull；prepared仅commit spans付。25M/14400s/free2GiB；18900资源计划仅startup后clip，绑定计时另列，硬限step250/job360，读回45min为预留非绝对保证。mode/cut/leaf/unpaid全行，大ledger仅身份；四读回过+同run/source marker+原owner静止才清。实际43735722483/source d23db7eb，geometry唯一核R355。
+[R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)/[162接口](notes/2026-11-15-request162-stored-C-projective-head-interface.md)：原C3600/全112/16pins，driver5440e2e0/readerbefe77fc。严格pivot/全误差/幅符号log链、逐候选商后hull；prepared仅commit付。25M/14400s/free2GiB；18900仅启动clip计划，绑定另计，硬限250/360min。全mode/cut/leaf/unpaid读，大ledger仅身份；四读回+同源marker+owner静止才清。[R355](results/R355-actual162-pre-science-argument-separator-failure.md)首跑43735722483在外层裸--解析失败，0科学/0该run pull；仅接线及重发元数据修，request626e3111/workflow23442307，geometry核新actual。
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：1440/六primitive/两域/cut/deep112齐，whole2888+1精度未付。新rFar0.05056158669090205，m2..16完成；m18 work-unit200000止/270.860472942s，row9616 piece1339闭[3/512,1/128]，后缀[9617,10387)，m20..224未起。原native CurrentCGeometryUnpaid/client未启动，32×10/+0H/J/338/audit全未起；大阵仅原身份非逐值独核。geometry以168保原112/误差/新严格projective表示及完整资源，不冒将含0盒判共振。
 

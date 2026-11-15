@@ -12,7 +12,7 @@
 
 原156的巨大临时结果已经清理。本次从真实原输入在同job重新构建C与深端，不以旧SHA假恢复已删数组。153/159各自继续自己的rFar/native/BVP责任，不等待162成为额外接受门。
 
-此接口提交时没有actual162科学结果。新来源/参数仅明确可重现入口，实际run及已读结果另写HANDOFF和正式结论。
+首次入口提交时没有actual162科学结果；首跑随后在外层argv解析处失败，科学未启动，见第10节。新来源/参数仅明确可重现入口，实际run及已读结果另写HANDOFF和正式结论。
 
 ## 2. 独立文件与字节绑定
 
@@ -21,8 +21,8 @@
 |computations/geometry_20261115_stored_C_finite_head_projective.py|77731|5440e2e0457b360120c180a2531e3db899d8534cf6366183fd68d111ede18216|
 |computations/root_20261115_projective_head_scalar_readout.py|19995|befe77fc70e67260b475073adfa749ebce6e727c956703c7cbc79afe8389e9c3|
 |computations/root_20261115_current_C_native_scalar_readout.py（原只读helper）|29751|2f2386afab07e5acc9b6ec155f782cb1ba1c8df5a879607effd5985c151784ff|
-|computations/public-stored-C-projective-head-request.json|20703|5b002d6fe786c29e96313129690d7510f9e3e572c1a8b43b88fad01e4de0be18|
-|.github/workflows/visible-larger-public-stored-C-projective-head.yml|74330|c9e30f35238e30d307a6253dc1079b9d296bc83d404dcd6c85aa83becc50af08|
+|computations/public-stored-C-projective-head-request.json|21490|626e3111016498495bc8d61067df21151edc0fe51e063202c32757dcfd09a8b1|
+|.github/workflows/visible-larger-public-stored-C-projective-head.yml|74295|23442307635af039ff187ac682b4a4242fabd1b775ef5a820c574ce54df2716e|
 |results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md|15106|29f79e1fff0fb872f1ae4920ff4ecbe459ca8aeb84f8dea639dd4bbe42f577f0|
 
 原156 request16157B/8ce21c4d006fe26eb53d4fcba87bf2b72c4f84856bd60be4d128ecb2599d6a92保留，独立新request schema为public-stored-C-projective-head-request-v1，request_number=162，lane=storedCprojectivehead。原13份源pin不改，增加科学driver、reader及其原helper，共16：
@@ -156,3 +156,9 @@ root已读新driver相对原R324完整差异、原reader全文及具体workflow�
 达到此子题的空间覆盖或DN隔零仍不付：有效选择唯一准确深根、无限非线性DN、共同准确C与数值代表误差、当前完整非零112场、全九冻结450、同g闭合、全phase六jet/曲率/reach/held/反射欧氏差/整闭面D及metric≤1e−6。原README标准和冻结后精化责任不变。
 
 任何actual162结论须以真实run、完整原结果、模式/cut/叶/未付范围和明确的巨大账本未独核边界成文后立即提交；部分资源结束后继续open下一项，不能停在本接口或阶段报告。
+
+## 10. 首跑实际argv错误与仅接线重发
+
+[R355](../results/R355-actual162-pre-science-argument-separator-failure.md)记录run43735722483/source d23db7eba55d73bafcb6f2c8d7f82d87f1d85b3c的真实工程失败。原16源与16shell/16Python语法预检通过；C和far在原rules argparse拒绝内层裸`--`，原初始化、真实pull和科学子进程均未启动。linear仅因缺原C/deep输入输出unavailable，不能把它的step success当传播完成。四个metadata读回成功只支付实际存在的工程范围。
+
+本版仅把三条owned helper命令改为`exec ROLE original-script original-arguments`，helper验证ROLE后用argv[1:]原样交原科学argv。内嵌helper10320B/a235458020e47380105cd1e0fe7e68c74fcf5ccbb15cda640209720fcbc6a966；原rules源、16pins、输入、科学参数与资源数字全不改。request追加明确首跑失败及接线修复元数据，从而由原push监听实际触发新实例；workflow两处requestSHA同步新原字节。下一actual成功与否另读，不由本修复预填。
