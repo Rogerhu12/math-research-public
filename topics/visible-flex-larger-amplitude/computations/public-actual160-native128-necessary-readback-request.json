@@ -1,0 +1,156 @@
+{
+  "schema": "actual160-original-compute-log-necessary-readback-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 182,
+  "operation": "Read only the immutable original160 compute log once in Actions; recover necessary owner and four-component outcomes without scientific recomputation.",
+  "source_entry": "root_20261115_read_actual160_native128_necessary.py",
+  "source_bytes": 72899,
+  "source_sha256": "d9d694e20026b67e7e22bfa14f3a332820f7621db8619dc4d12d4ba5fcd448ed",
+  "original_run_id": 43729874541,
+  "original_job_id": 132859748674,
+  "original_source_commit": "b34692d09c8d5ecdd7b859e43489da4413f1468e",
+  "original_report": {
+    "job_id": 132921319875,
+    "bytes": 15696,
+    "sha256": "69129a561c28d80404a8f6600d0c55a10725c98f87ae6c9508bf9a783f8c3488",
+    "already_read_by_root": true,
+    "download_again": false,
+    "original_scope": "Child70 and summary=null/componentflags=null alone do not determine the original scientific outcome."
+  },
+  "original_text_sources": [
+    {
+      "file": "geometry_20261115_native_operator_qualified_v2_final128_same_job.py",
+      "bytes": 41364,
+      "sha256": "024a3c67ada93c908d86c68c4ba0326270d81d314a9c154439f5fc42266b8d2d"
+    },
+    {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    {
+      "file": "geometry_20261115_native_persistent128_probe.py",
+      "bytes": 17879,
+      "sha256": "2683e8e13a8d73d6c08500e9d3716d5bac5dc2e66648a17c8e1d75d246c62107"
+    },
+    {
+      "file": "geometry_20261115_native128_qualified_json_components_v2.py",
+      "bytes": 17484,
+      "sha256": "5e68f581d75f3a9fe61acadd016f8c7b6f3bcec245fb39b342a3fecdd0b267bf"
+    },
+    {
+      "file": "geometry_20261115_native_operator_final128.py",
+      "bytes": 21548,
+      "sha256": "a2ee773ccc553f8e77567efc1e4f43f7f6aae3ebea6d06833e1f4a4554306fef"
+    },
+    {
+      "file": "geometry_20261115_native_persistent128.cpp",
+      "bytes": 22364,
+      "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+    },
+    {
+      "file": "geometry_20261115_native_trace122_probe.py",
+      "bytes": 26740,
+      "sha256": "05ad668da4bec72cedb0fa2f14d4c59a7ab99a280c47b137c94a5fafcf99105f"
+    },
+    {
+      "file": "public-native-operator-qualified-v2-final128-request.json",
+      "bytes": 37592,
+      "sha256": "cfa6fe343d227a98a3a755263ea7302ad7f3437f71adc82effd5a639d88ee697"
+    }
+  ],
+  "scientific_source_imports": [],
+  "new_scientific_calls": 0,
+  "maximum_scan_seconds": 1200,
+  "maximum_original_log_bytes": 34359738368,
+  "maximum_raw_line_bytes": 16777216,
+  "maximum_one_summary_bytes": 90000,
+  "job_timeout_minutes": 35,
+  "scan_step_timeout_minutes": 25,
+  "official_API_binding": {
+    "fixed_original_run_head": true,
+    "fixed_completed_original_job": true,
+    "expected_job_conclusion": "failure",
+    "run_and_job_metadata_before_log": true,
+    "token_only_in_read_step_process_environment": true,
+    "token_not_forwarded_to_official_HTTPS_log_redirect": true,
+    "signed_URL_not_logged": true,
+    "one_official_log_download": true,
+    "no_old_raw_log_written": true
+  },
+  "parsing": {
+    "preserve_original_numeric_lexemes": true,
+    "strip_one_physical_line_leading_UTF8_BOM_only_in_parse_view": true,
+    "strip_timestamp_only_in_parse_view": true,
+    "hash_all_raw_bytes_before_parsing": true,
+    "recognize_native_marker_and_original_watcher_record_wrapper": true,
+    "internal_original_component_tree_reconstruction": false,
+    "internal_original_diagnostic_text_reconstruction": false,
+    "complete_original_diagnostic_bytes_SHA_checked": true,
+    "no_new_output_segmentation_or_encoded_large_object_protocol": true,
+    "plain_Actions_command_echo_not_classified_as_runtime_error": true,
+    "direct_original_precleanup_scientific_projection_primary": true,
+    "optional_typed_metadata_selects_only_missing_fields": true,
+    "optional_old_part_bytes_and_metadata_stream_SHA_checked": true,
+    "full_original_tree_canonical_SHA_is_producer_receipt_not_new_audit": true,
+    "original_diagnostic_bytes_streamed_and_hashed_without_saving": true,
+    "optional_old_protocol_incompleteness_does_not_discard_direct_projection": true
+  },
+  "necessary_scope": {
+    "owner": "All original initial/direction/lifted/closed/final/replay records; every original trial alpha/baseNorm/evaluation/norm/accept/reason/error and exact original unvisited direction/trial lists; original per-trial root-statistic values.",
+    "components": [
+      "stages",
+      "boundary",
+      "endpoint",
+      "audit"
+    ],
+    "component_records": "Use the original direct precleanup start/return/all-component projections as the primary body. Retain all four states, original error/resource/flags/statistics/maxima and all unfinished stage/step/query/column suffixes. Optional old typed metadata supplements only fields missing from the direct projection; no full old tree is reconstructed or required.",
+    "repeated_suffix_metadata": "All actual trial rows remain. Exactly equal complete evaluation objects share one original-value table entry; equal unfinished/failed-stage nonaddress fields share values while every original address remains explicit. Different original key sets remain separate, not padded to infer missing values.",
+    "large_successful_arrays": "Only original full identities and original counts are returned. Binary128 state/J/sensitivity/factor payloads are neither downloaded nor numerically reaudited.",
+    "original_errors": "Original error fields up to6000bytes are complete; larger fields retain identity and first4/last4 matching lines (fallback first3/last3), limited to6000bytes. Independent diagnostic matcher keeps first6/last6 unique whole matching lines, each<=12000bytes within16000bytes total. Match counts are not error counts and can include false budget-exhaustion flags. All omitted text scope is explicit.",
+    "printed_norms": "Original number strings/hex words are copied. No residual, norm, interval, root, domain or derivative is recalculated.",
+    "missing_original_fields": "Explicitly unreported or partial; never recreated and never used to classify mathematical failure.",
+    "owner_table_presence": "The actual original trial and evaluation key sets are each deduplicated into their own table; every trial/evaluation row has its corresponding key-set index. An absent key and an explicitly null value remain distinct despite shared union columns. No new original field is inferred."
+  },
+  "output_schema": "actual160-original-native128-necessary-log-readback-v1",
+  "output_markers": {
+    "begin": "BEGIN_REQUEST182_ORIGINAL160_NECESSARY_SUMMARY",
+    "end": "END_REQUEST182_ORIGINAL160_NECESSARY_SUMMARY",
+    "identity": "request182_necessary_summary_identity"
+  },
+  "original_scientific_acceptance_rules_changed": false,
+  "reader_success_is_scientific_success": false,
+  "readback_complete_scope": "The available original log reached EOF and the direct necessary protocol/source/owner-trial checks passed. Optional typed metadata or diagnostic stream incompleteness is reported separately and is not a full-tree or scientific gate. Reader success does not assert that original science, old transport, optional supplements, or large-array audits completed.",
+  "output_limit_policy": {
+    "single_bounded_summary": true,
+    "over_budget_exit_code": 70,
+    "no_trial_or_unfinished_index_silently_truncated": true,
+    "complete_necessary_scope_returned_when_over_budget": false,
+    "duplicate_metadata_bodies_shared_only_after_exact_original_equality": true
+  },
+  "retention": {
+    "old_log_saved": false,
+    "raw_only_in_original_temporary_job": true,
+    "new_raw_Git": false,
+    "new_Release": false,
+    "upload_artifact": false,
+    "new_small_result_only_in_owned_RUNNER_TEMP": true,
+    "cleanup_after_original_readback_success_and_matching_stdout_identity": true,
+    "failure_result_retained_until_runner_destruction": true
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "validation_scope": {
+    "source_read_and_text_only_locally": true,
+    "local_AST_compile": false,
+    "local_science": false,
+    "Actions_ast_parse_new_metadata_source": true,
+    "old_science_sources_not_imported_or_compiled": true,
+    "no_fixture_or_additional_scientific_gate": true
+  },
+  "maximum_optional_selected_component_metadata_bytes": 2097152,
+  "optional_component_metadata_cap_stops_only_supplement_selection": true,
+  "maximum_unique_diagnostic_matching_line_identities": 1000000
+}

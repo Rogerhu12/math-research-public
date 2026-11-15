@@ -388,3 +388,8 @@ sampler14249B/薄层11434B完整差异、reader50768B、wf全部新增上下文5
 ## 2026-11-15 19:46:30 UTC /root — R384首个完整准确419片可行coast参数点
 
 17525B/e8c514b7全文核后立即单独推；β1/16完整全根族域成立，前四档反证/8未决及13未访分责，九有理词与原word投影零。原C不重算、419片真实证成不冒native/BVP；可重算成功叶/大definition只身份，184接真selected→新C/factory→全453。最近真pullfba9a62758d9291b759ecc08601333cd3b896ef3双README未变，发布前再pull。
+
+
+## 2026-11-15 19:49:56 UTC /root — 182原160必要科学投影一次读回入口
+
+四件全文与全部实际差异已读：大树审计撤出必要门，原direct报告首选，全部trial/四状态/原未访保，原key-set索引区分缺键/null。d9d694e2/16d9acae/d5986eb3立即发；1200s纯metadata、单90KB，root唯一读新终态。open完整前态入检查点、只压已结事实/重复来源、§4–6逐字保；最近真pulle7ffda2427de91de56224eaf6e923fdc3f3d0791双README未变，发布前再pull。

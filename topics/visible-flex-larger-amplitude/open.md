@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-R389前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-R389.md)，链回R387、R377、178、175与更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+182前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request182.md)，链回R389、R387与更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -18,7 +18,7 @@ R389前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-befo
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 
-[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)共享v2词法/类型修复，各自fresh91/64J/R273/128、19200s，不互作前置。原owner/replay/stage/audit完整预算/错误与源范围保接口/检查点。160仍由root核actual R359，随后全576×224、112、混合338/independent audit，未预填结果。
+[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)共享v2词法/类型修复，各自fresh91/64J/R273/128、19200s，不互作前置。160已结束，原report15696B仅child70/summary与四flags未返，不能分类数学结果；[182必要读回接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)四件d9d694e2/16d9acae/d5986eb3已发，由root唯一核R388并完成R359。一次官方旧log流，原direct scientific_report优先，完整owner trial/四组件状态/max/错误/未访和缺键/null保；旧大树只可选补缺不重建/不作门。1200s/32GiB/35min、单90KB，失败不冒完成，不重科学；原全576×224、112/mixed338/audit预算与全部未付保原接口。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：128一次α1接受/replay齐，stage10/RK0/field0全230列320bits认证，0未决；仅固定输入/trace准确有限算法误差。原子70由同job恢复，42969B摘要齐，大列账只身份。上游/整RK/576J、112/338/audit/native/fullDN未付，160继续。
 
@@ -62,17 +62,17 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)/[R318实际143](results/R318-actual143-complete112-deep-far-enclosure.md)F159/物理node160全112统一深端Robin含所有允许根族；有限头继续同R*、w、q、D及全cut逆像。非除Robin与h严格隔零后的DN分开，不重标旧e788/J，不支付means、无限频R15或非线性。
 
-[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)原j=w·k、x导数/port/二幂尺度/Taylor+Duhamel完整闭管保。[R327实际148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)前置1432/1440不足、cut0mode责任保。[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)C3600内全1440/六primitive/两query/cut两jet/deep112齐；whole2609合法粗叶欠精度。m2/4/6/8到cut完整但高度盒含0；m10接受391后共享200000attempt止，实际170.5882169209999s，非1800墙钟。当前4闭栈、row74..14643及m12..224后缀保，不作共振反证。
+[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)保j=w·k、x坐标/port/二幂及完整Taylor+Duhamel。[R327实际148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)仅1432/1440、0cut；[R339实际156](results/R339-actual156-complete-C-head-and-partial112-cut-transfer.md)C/deep齐，whole2609合法粗叶欠精度，m2/4/6/8全cut却高度含0，m10的391panel后200000attempt止、非墙钟。全4栈/row74..14643/余模态后缀保结果；不证共振。
 
 [R347](results/R347-continuous-C-two-chart-projective-normalization-and-cut-quotients.md)保存Z=a·diag(1,2^b)v，原QF=1幅因子/符号/log全保；完整继承盒参与矩阵误差，只在整个端点分量隔零时换chart，两个盒含0只能细分/partial。cut每候选保原闭管/非零幅度，严格T0隔零才形成2^bT1/(wT0)，各自合法商后hull；未付保有索引非除Robin族，不混不同尺度原列，端点pivot不付闭管高度。
 
 [R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)全C1440/六primitive/cut/deep112齐，whole2609欠精度；m2 49commit/100attempt后row17/piece3/depth32双pivot含0，19栈/rows18..14643/余111未访，0cut/stop=null，非资源或准确共振。R355工程错误、幅度/事务/清理原范围保结果。
 
-[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)完整两图比较条件证明保持；[177原接口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)保17pins/原三输入/两query/C3600/linear14400/25M/256bits/depth32/360job、全cut/事务/12bits绝对工作目标与namespace启动clip。新[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)完整20077B结论：43747934170/sourced7540200，C1440/point两jet/deep112齐，whole-natural2609工作分辨率未决但闭域有效。m2 58paid/110attempt、0.298331719s，在row17/piece3/depth32下全闭屏障未证正，上屏障正；非资源。全11pending+[18,14644)/111未起/0cut族/0高度齐；全112状态和7ledger责任已读，四摘要两job同字节，38506B必要/静止后原raw清。不是准确极点或共振，不能只加预算假称已针对实际阻碍；181从原根族独立实角继续，原112/全cut/单位行/DN/BVP和几何责任均未付。
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)完整两图比较条件证明及[177原接口](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)全部17pins/三输入/两query/C3600/linear14400/25M/256bits/depth32/360job、12bits绝对目标/全cut/事务保。[R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)C/point/deep112齐、whole2609仅欠工作分辨率；m2 58paid/110attempt/0.298331719s，在row17/piece3/depth32下闭屏障未证正，上屏障正，非资源。全11pending+[18,14644)/111未起/0cut/0高度与7ledger范围齐，四摘要原字节同一、38506B必要后条件清理。不是准确极点/共振；181原根族独立继续，112/全cut/单位行/DN/BVP及几何未付。
 
 [R380](results/R380-continuous-C-Pruefer-angle-lifts-and-oriented-Robin-enclosures.md)已证同一原C的完整实角lift：φ′=βcos²φ−αsin²φ与两自治barrier全局存在；完整圈数/正log幅度/二幂换帧保原列。物理单位Robin由相关sin²+cos²范数下界取得，不要求单分量共同隔零；原QPi行须完整T/逆范数界。DN仍每一完整cut候选高度隔零后才可除。小段角增量的正内积界与完整指数余项给可实现核，但不保固定bits/预算/宽度改善；未访族/后缀/事务全保，不推177/179失败或native成功，也不加前门。
 
-[181完整执行接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件独立源已发：science93880B/250474d7、reader30300B/e020b7e9、request dc8647bb、wf9d2c9af8；原177全部17pin/三输入/C参数/far参数不变，新增两源完整19pin。41原函数及系数正文保；完整实角/正幅度/准确换帧与每候选相关非零范数直接实现R380，全部112/cut/事务/未访保，不假设177/179终态。C3600、head14400/25M/256bits/depth32/360job；norm1/4支付正dot小增量，完整Taylor矩阵误差仍作用全部初列，非新BVP门。原物理(u,k)单位Robin先逐候选归一再hull，DN仍高度隔零；没有实际nativeμ，不冒QPi/338/mean/非线性接受。namespace18900仅启动裁剪，四读回/本run marker/owner静止后才清；必要单90KB保112状态、原DN或单位行端点、全stack/suffix/原错误，超限不分包不清。exact唯一核实际R385，当前未预填新结果。
+[181完整执行接口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)五件250474d7/e020b7e9/dc8647bb/9d2c9af8、19pin，原177三输入/C与far参数及41原函数保。实角/正幅度/换帧/相关非零范数实现R380，全112/cut/事务/未访保。C3600/head14400/25M/256bits/depth32/360job、norm1/4正dot小增量；Taylor矩阵误差作用全初列。物理(u,k)单位Robin逐候选归一再hull，DN仍高度隔零；无nativeμ，不冒QPi/338/mean/非线性接受。namespace18900仅startup clip，四读回/current marker/owner静止后清；单90KB完整112状态/原端点/stack/suffix/错误，超限不分包不清。exact唯一核R385。
 
 ### 3B. 准确九族与完整公共u目标误差
 

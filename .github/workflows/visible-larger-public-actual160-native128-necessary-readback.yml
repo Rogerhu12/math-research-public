@@ -1,0 +1,147 @@
+name: visible-larger actual160 necessary original native128 readback
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-actual160-native128-necessary-readback-request.json
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-larger-actual160-native128-necessary-readback
+  cancel-in-progress: false
+jobs:
+  original160-necessary-readback:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Exact small reader and original protocol sources
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_read_actual160_native128_necessary.py
+            /topics/visible-flex-larger-amplitude/computations/public-actual160-native128-necessary-readback-request.json
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_operator_qualified_v2_final128_same_job.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_persistent128.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_persistent128_probe.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native128_qualified_json_components_v2.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_operator_final128.py
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_persistent128.cpp
+            /topics/visible-flex-larger-amplitude/computations/geometry_20261115_native_trace122_probe.py
+            /topics/visible-flex-larger-amplitude/computations/public-native-operator-qualified-v2-final128-request.json
+      - name: Standard library metadata runtime
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Actual source and rule bytes without science imports
+        run: |
+          set -euo pipefail
+          python - <<'PYBIND'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          repo=Path.cwd();comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          path=comp/'public-actual160-native128-necessary-readback-request.json';raw=path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='16d9acae6d67e67af2839f2691a77e1fff60de830fd04754cf3dae97dfd3505b'
+          request=json.loads(raw)
+          assert request['request_number']==182 and request['repository']=='Rogerhu12/math-research-public'
+          source=(comp/request['source_entry']).read_bytes()
+          assert len(source)==request['source_bytes']==72899
+          assert hashlib.sha256(source).hexdigest()==request['source_sha256']=='d9d694e20026b67e7e22bfa14f3a332820f7621db8619dc4d12d4ba5fcd448ed'
+          ast.parse(source.decode('utf-8'),filename=request['source_entry'])
+          actual=[]
+          for record in request['original_text_sources']:
+              original=(comp/record['file']).read_bytes()
+              assert len(original)==record['bytes']
+              assert hashlib.sha256(original).hexdigest()==record['sha256'],record['file']
+              actual.append(record)
+          assert len(actual)==8
+          for name,wanted in request['reviewed_README_blobs'].items():
+              data=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              assert blob==wanted,name
+              print(json.dumps(dict(event='request182_actual_rule_bytes',path=name,git_blob=blob,
+                  bytes=len(data),sha256=hashlib.sha256(data).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request182_readonly_source_binding',
+              source=request['source_sha256'],original_text_sources=actual,
+              original_run=request['original_run_id'],original_job=request['original_job_id'],
+              maximum_scan_seconds=1200,maximum_original_log_bytes=34359738368,
+              new_scientific_calls=0,original_science_sources_not_imported_or_compiled=True)))
+          PYBIND
+      - name: One official original160 log stream and necessary metadata summary
+        id: original_readback
+        timeout-minutes: 25
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python -u "$VISIBLE_COMPUTATIONS/root_20261115_read_actual160_native128_necessary.py" \
+            --request "$VISIBLE_COMPUTATIONS/public-actual160-native128-necessary-readback-request.json" \
+            --code-directory "$VISIBLE_COMPUTATIONS" \
+            --out "$RUNNER_TEMP/visible-actual160-necessary-182"
+      - name: Preserve the actual single partial summary without another download
+        id: retained_readback
+        if: always()
+        run: |
+          set -euo pipefail
+          python - <<'PYREAD'
+          import hashlib,json,os
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          path=root/'visible-actual160-necessary-182'/'summary.json'
+          if path.is_file():
+              raw=path.read_bytes()
+              if len(raw)>90000:raise ValueError('One necessary original metadata summary exceeds90000bytes')
+              identity=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+              marker=path.parent/'summary-stdout-complete.json'
+              already=(json.loads(marker.read_bytes())==identity) if marker.is_file() else False
+              if not already:
+                  print('BEGIN_REQUEST182_RETAINED_SUMMARY')
+                  print(raw.decode('ascii'),end='')
+                  print('END_REQUEST182_RETAINED_SUMMARY')
+                  marker.write_text(json.dumps(identity,sort_keys=True,separators=(',',':'))+'\n')
+              print(json.dumps(dict(event='request182_retained_summary_identity',**identity,
+                  same_single_bounded_summary_already_printed=already,no_new_science=True,
+                  no_raw_or_encoded_parts_output=True)))
+          else:
+              print(json.dumps(dict(event='request182_no_complete_summary_returned',
+                  readback_complete=False,original_scientific_conclusion_not_changed=True)))
+          PYREAD
+      - name: Remove only completely read request182 temporary metadata
+        if: ${{ always() && steps.original_readback.outcome == 'success' && steps.retained_readback.outcome == 'success' }}
+        run: |
+          set -euo pipefail
+          python - <<'PYCLEAN'
+          import hashlib,json,os,shutil
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          path=root/'visible-actual160-necessary-182'
+          if path.exists():
+              if path.is_symlink() or path.resolve().parent!=root:
+                  raise ValueError('Only the explicit request182 directory is owned')
+              raw=(path/'summary.json').read_bytes();value=json.loads(raw)
+              if not value.get('readback_complete') or not value.get('transport_complete'):
+                  raise ValueError('Incomplete original readback is never cleaned as successful')
+              marker=json.loads((path/'summary-stdout-complete.json').read_bytes())
+              if marker!=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()):
+                  raise ValueError('The actual scalar summary was not completely returned')
+              shutil.rmtree(path)
+          print(json.dumps(dict(event='request182_owned_cleanup_complete',
+              reader_process_already_joined_by_synchronous_step=True,
+              no_reader_subprocess_or_scientific_process_started=True,
+              original_log_was_streamed_not_saved=True,
+              Git_raw=0,Release_raw=0,artifact_uploads=0)))
+          PYCLEAN
