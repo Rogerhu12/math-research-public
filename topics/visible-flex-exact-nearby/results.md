@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [既成fullδ正侧七输入图](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)及[负一阶七输入八输出](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)重新接入当前检查点：原43617150971/10与43627228225/18成功证据完整只读；后者ordinary H−2/3→raw H−1、全mean/端口/jump与独立外mean保。纠正近期压缩遗漏，不重算或称为新数学；真实source/jump/root/return接线和全Schur仍待付。
+
 - [真帽局部核与径向weighted后验](results/R133-supplement-true-cap-local-receivers-and-radial-weighted-posterior-bounds.md)：同一真q的双向signed核、left H=0及全频/两mean加权正预算；原M域13ρ与真outer给条件χw<1后的同解Xw/右ordinary body/inner B,Cmean。DB/RBδ0另保高投影准确抵消；新λ/积分尚未执行，不授实际低门。
 
 - [保径向系数jets与density1十整项合同](results/R133-supplement-retained-radial-coefficient-jets-and-density-one-transport-sources.md)：Q=W/G、(QT)φ=Qy/2和完整Δ逆/rank给新的g/p源列；Gi为原完整scalar逆，VTTT用已存RV正预算，不倒推函数。14旧幅度仅读，保两窗/六dr/η^-1/mean，拟只换7first+3mean及保21原项；尚无新实际量级。

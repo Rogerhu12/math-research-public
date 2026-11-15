@@ -80,7 +80,7 @@ phase_inverse负责完整负侧。此前逐字源链、输入/域/源单位、su
 [K真实径reference两ordinary源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)保n^-7/6、κ/真实dr、独立F2且不微分F2，Σmode sup在积分前；root仍付n^7/6混合迹。它只授真实径reference，不授非径耦合/两端选择/GH。
 [N完整负源→strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)、[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)锁child0/17、22pins/六cut/旧math0，report59ab1bb6/execution318dd25b/result72745bf3。ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer的完整身份保。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709；.001/.002充分门失败不冒奇异，不拼不同cut最小值。
 
-下一接口仍是两负窗−8/3→−5/3、−5/3→−2/3的完整source-to-trace/forward，G21三local、六oldcircle/五mean/真实seam全累积；严格负传播、waist与两branch全C² symbol保近/远Schur和真J/I单位。正侧须实际two-port/全部七输入，growing标量界不替graph inverse。root正侧固定δ0图43605513540可作新同δ转移原件，但尚未授族；不得把一阶drift差作无损小扰动。真实root/jump/正端/strict return/readout及physical finite border全部未付；完成后才检验GH/cutoff97。大的上界不是算子下界。
+下一接口仍是两负窗−8/3→−5/3、−5/3→−2/3的完整source-to-trace/forward，G21三local、六oldcircle/五mean/真实seam全累积；严格负传播、waist与两branch全C² symbol保近/远Schur和真J/I单位。正侧既有实际fullδ接口无需重做：[全实七输入图43617150971/10](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)与[负一阶七输入八输出43627228225/18](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)均覆盖实|δ|≤1e−8、同η0和正侧νbump0。后者ordinary/jump H−2/3→raw H−1，Y=M−1Z、loop<.014997875526、rootreflection<3.825862632653，原mean/外端/head/全跳保。根mixed输入需9(17/16)、输出9，body jump<4.952408975/collar jump<3.000006643无长度费；不可套base1/2或raw L2。root已亲读合同/actual/process/summary并核10/18门和原native绑定，此处纠正压缩遗漏，只恢复成功旧件。仍需实际Airy正负源/真jump frame、root连接/strict传播/waist/strong return/readout及physical finite border；未闭完整Schur/GH/cutoff97。大的上界不是算子下界。
 
 ## 4. 实际帽图与完整core接口
 
@@ -153,35 +153,12 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 
 ## 7. 单一frame、同对象几何及最终族
 
-[T单一frame与真盘](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)
-保gh=g−dz²、完整coframe/Ω与一次frame/位置积分；真PDE/holonomy给闭连接和位置周期。
-S已给固定合格γ的真body+far，T§10已给物理C²整盘及全角材料作用。
-同一B截面匹配全四态/曲率mean，接合一次mean-height常数即可续接；
-当前自由安放不增加第二个独立世界锚或函数位置方程。
-[原M全迹/腰反射](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)
-在真实腰u0等条件后给同一次重建的镜像闭C²浸入。
-共同quarter旋转保持唯一腰平面，故镜像两盘同轴；固定phase offset可不同。
-
-[G新有限Sobolev外部到最终几何](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)
-现在直接从S/T的E1856极限证明全外部曲率<2、内蕴径向长<8e−6、
-同world位置与normal界；完整κ/mean不删。零宽long的差分商给完整mean方程；
-无限tail先乘w/a才估余项，不把大A冒充≤7，不假定旧X224解析label。
-
-[旧B全C0最终几何](results/R133-supplement-final-geometry-from-complete-C0-ball.md)
-已完整支付141块腰锚比较费、full forward state误差和43584188751/26门。
-B2–3从真实周期frame及mean区间锁定整数绕数1，早于全局embedding，未循环。
-bF/bQ及跨端真实高度已经包含在其同对象条件预算；不用重跑这些数值。
-新G所需的最后入口是：同η0的全core（含实际cap[.9,25/8]）满足
-full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
-腰u0、physical第四Robin/mean及P16的设计ν相位行。
-物理振幅是输出，不另加入固定α等式；原所有真实参数/荷仍保。
-实际physical γ还须落在A0/rγ≤1/128及H8193/rγ≤2^1048576；
-帽的小值球、moving有限97均不自动给这些完整门。
-
-在这些入口实际成立后，旧B给embedding/reach/held/Hdiam及四marker，
-再用[P固定metric相位族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)
-一次冻结ν*/Γ1*/Γ2*/η并得到README所需族。当前核心存在和全频逆尚未闭合，
-故这些条件结论不宣称已经得到最终G；继续实际Green/strong-return/core求解。
+本节压缩前全部逐字条件/单位/费用保a82320e1dd0d3b88f491cbe2c875ae28e1221ce4同open及原文，不取消义务。
+[T单一frame真盘](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)保gh=g−dz²、完整coframe/Ω、一次frame/位置积分、真PDE/holonomy和位置周期；S/T§10给physical C²整盘。B截面须全四态/曲率mean匹配，再一次mean-height常数续接；自由安放不增独立世界锚。
+[M腰反射](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md)在真实u0等条件给同一次重建的镜像闭C²浸入，共同quarter旋转锁同轴腰平面。
+[G有限Sobolev外部几何](results/R133-supplement-exact-finite-Sobolev-exterior-and-final-geometry-entry.md)由S/T E1856给曲率<2、内蕴径长<8e−6及同world位置/normal；完整κ/mean与w/a尾费保，不假定旧解析label。
+[B全C0几何](results/R133-supplement-final-geometry-from-complete-C0-ball.md)43584188751/26保141腰锚、完整forward/bF/bQ/跨端高度，周期frame及mean先锁winding1。最终入口仍须同η0全core含真cap C0≤1e−4、|δν|≤1e−5、全部B/C/Cmean/腰u0/physical第四Robin/mean/设计phase和实际γ低高域；振幅是输出，不加固定α行。
+入口实际成立后才用[P固定metric相位族](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)一次冻结ν*/Γ1*/Γ2*/η，得到第1节全部embedding/reach/held/Hdiam/marker要求。真核心/全频逆尚未闭，不宣称最终G。
 
 ## 8. 执行规则与当前可恢复记录
 
