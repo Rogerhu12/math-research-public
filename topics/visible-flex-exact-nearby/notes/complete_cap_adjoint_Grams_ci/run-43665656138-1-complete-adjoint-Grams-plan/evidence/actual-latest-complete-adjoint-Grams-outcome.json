@@ -1,0 +1,60 @@
+{
+  "kind": "actual_complete7908_same_proposal_physical_adjoint_residual_Grams_v1",
+  "phase": "plan",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "actual_complete7908_quarters_and64_original_native_points_are_successful",
+      "passed": true
+    },
+    {
+      "name": "all7908_original_whole_jets_and_all7908_native_midpoints_reused_without_target_calls",
+      "passed": true
+    },
+    {
+      "name": "all_exact_shared_Hermite_arrays_and97_input_columns_match_the_completed_proposal",
+      "passed": true
+    },
+    {
+      "name": "all_four_successful_signed97_pilot_quarters_and_exact_arrays_reused",
+      "passed": true
+    },
+    {
+      "name": "all32_exact_original_array_slices_cover_only7904_missing_quarters",
+      "passed": true
+    }
+  ],
+  "seconds": 105.31056112399995,
+  "group": null,
+  "range": null,
+  "completed_bundles": 32,
+  "completed_quarters": null,
+  "reused_completed_quarters": null,
+  "new_completed_quarters_this_child": null,
+  "complete_quarter_count": null,
+  "object_identity_sha256": "df9844506e25bdd207472fd8f5f7e9fbfaf90514c2e1a3629be2e5594eb25ca0",
+  "plan_native_sha256": null,
+  "new_intrinsic_target_calls": 0,
+  "original_successful_pilot_quarters_reused": null,
+  "new_quarters_from_actual_ranges": null,
+  "complete_Gram_trace_uppers": null,
+  "complete_Gram_HS_uppers": null,
+  "mathematical_certificate_for_listed_range_only": null,
+  "mathematical_certificate_for_complete_ordinary_adjoint_body_Grams": null,
+  "complete7908_adjoint_cover_proved": false,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "latest_actual_quarters": [],
+  "native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+  "latest_actual_readme_check": [
+    {
+      "time": "2026-11-15T02:03:10.651379+00:00",
+      "before": "a1e225eaeddf62309756ebb361a48fbcc11ef7a6",
+      "after": "aeb1f48ecf8bb021e5090d4903810bd4d9b76b3a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ]
+}
