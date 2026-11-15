@@ -414,3 +414,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R356：完整U最低两个self真权与自然总通量判定
 
 [完整证明](results/R356-lowest-two-full-self-weights-and-universal-total-flux-cancellation.md)，2026-11-15，11557B/SHA256 094ef642f22ac162bb154c041baacaa23c99a43f6bce830ccec67bd76c6e4eec。从R203原动态公式及同锚history得到Σ(U−9)=0、Σ(U−8)⊂span{TR,r4}；动态−r4∫fC²与静态P(A,R)−R(A,A)、P(A,S)−S(A,A)全保。TR=4J²(r²r′²)−4J(vrr′²)−r4含真实非零仿射左尾，外u‴分部积分准确相消；固定合法局部c到真权的有限多项式/faithful桥逐项说明。故Ω与R352自然Λ均在这两全U权上为零。未宣模板可达/全mixed零/等于响应像/其余层值。root全文读R356及R203并手核动态规范端值、静态模板、IBP与真权桥，无科学/人工重跑。
+
+## 新独立扩池覆盖后SOC保径设计（尚未执行）
+
+[完整设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)，2026-11-15，17246B/SHA256 943e8e8f94d9466f6cee578aad219e3b5d5cf5517ad82d4a8618754563779ee5。消费唯一成功m10实际记录，旧8false准确分类保留；新策略仅在软行完整覆盖、同x最终模型绑定、实际z−x完整ratio/小修正/总步界和唯一曲率缩径全证时保原B/streak0，其它精确回旧。独立报告，不改验收/RHS/学习/预算。从当前最佳run43744903357 m7继承完整11bank/池/真159/163/原cfg，显式新constructor避免旧9条合同；新outer接已付same-y缓存helper。拟三新源和仅必要新人工，旧组只读复用；root全文审后开始实现，未宣新策略或科学已过。

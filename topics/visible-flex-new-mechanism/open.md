@@ -122,11 +122,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### m10扩池SOC已首次完成；续新布局半径政策和真实主线后继
+### 扩池SOC首实际成功；独立覆盖后保径与主线11bank续跑
 
-[实际结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66118948254c9c8fa376092c41b807ec62。新正向缓存人工1过，负1/旧17只读复用；exact x/y原14门/两factory/9bank准确。same-y恢复与xrebind普通值增量均0；扩池8193×159真J及完整模型绑原IDs/池5,8，同失败y求唯一SOC，原scalar RHS保、原单位残差0。z保y的η，两网最大η .2663651531755449、fineκ57.99998339149647；独立末验原硬/旧metric/盒全过，新.26仍假。
+[m10实际结论](notes/observed-m10-expanded-SOC-first-actual-result-20261115.md)run43750302276/job132922557741/sourceb2d9ce66：same-y与xrebind普通值0，8193×159新J、原scalar RHS唯一SOC/残差0；历史ηx .266368003937→z .266365153176，fineκ57.9999833915，原硬/旧metric/盒过、.26欠。新8值/1SOC、active40.444156s/过程286.264738s，旧10/7/cache已付组只读复用。旧hold8false严格保：1标签、5旧同布局诊断字段缺、1池版本确变、1原y学习1+1；z新0/0与扩池ratio.937958不自动授旧guard通过。
 
-只新6普通+2末验=8值、1SOC（11历史primary只记账），active40.444156s/过程286.264738s，完整费用/失败/哈希保原note。原hold false、B1/16000/streak0：y学1/1未删，z新行0/0；expanded模型base-to-total ratio .937958仍不自动符合旧same-layout guard。下一只从原17条件的确切失败与新完整绑定出发研究独立‘已覆盖新行且小校正’半径政策，再接run43744903357的当前主线真末态.266347520761；不得重播m10、偷偷重置旧状态或放宽gates/RHS/科学预算。全部README完成门仍欠。
+[新独立设计](notes/expanded-layout-small-SOC-radius-retention-design-20261115.md)已根全文审。仅两full trials/一次SOC，y除曲率外全原门过；学到的差集ID全soft0/1，live rebound context核覆盖，x上两factory最终binding/原J/M/宽度/盒/cfg对齐，z全过且不再学行；原完整预测用实际z−x、ratio≥.5、corr≤B/10、total≤1.1B，旧唯一缩径原因仅y曲率则保B/streak0，否则精确旧返回。旧17报告/原学习不改，原scalar RHS和所有预算不改，新策略未执行。
+
+tail_cost实现独立controller/checkpoint-aware objective、显式新outer与仅必要新人工；root接transfer/audit/request/workflow。新outer使用已付same-y cache恢复，不重其人工。唯一后继从run43744903357主线m7真末态η.266347520761、physical981e092c…、原ordered11bank d5b1b9d6…、池4418/4188、B1/8000/streak0接续；旧9条构造器不偷填/删条，显式原RememberingCompleteObjective入口恢复完整context。单次原12LP/40值/120active/10SOC，无旧重播、不延预算、不回历史较差z；若未触新规则准确未验证，继续主任务其它未付门。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
