@@ -245,3 +245,5 @@
 - **原连续尾的全三阶负部下界。** [完整证明](results/R271-appendix-rank-one-feshbach-lower-bound-and-parabolic-third-jet-negative-obstruction.md)将旧primitive分析升级为同一Riesz向量的Γ秩一下界，再经真实创建能量与完整两下降Schur得到C*(q+1)≥q^(15/4)/(4(x+1)³)。真E3∩K⊥的负二次型sup=(√C*−3)/2，在q≈κx²增长为x^(9/4)，排全E_h的Q logQ loglogQ预算；实际同w递推来源未排，普通边界仍开。
 
 - **完整模型行的强位占据抵消。** [完整证明](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)由精确标签计数得〈W_hdω,ω〉≤S_J||ω||²，源比较由θ改用已付Λ，保完整Riesz行、真H0与原Schur。C*≥q^(19/5)/(4(x+1)³)，三阶负部下界提高至q^(19/10)/(4(x+1)^(3/2))−3/2；抛物尺度x^(23/10)，实际同w来源未排。
+
+- **原局部投影差长与2点完整长度≤30。** [自足证明](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)以原短正合列证明len W/(L∩W)=δA−δP，长度差≤e即t^eW⊂L；真224投影完整保g倍。对全部原最大子式先剥已付E8²，首项31单位且E8(2)≠0，把2点模31碰撞上界32严格降30。余有限点阈值已明确，未预报实际投影或全局成员性。

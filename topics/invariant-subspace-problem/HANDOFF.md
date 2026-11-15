@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** ec9cc0e1c3c5fcf75f48d21465b0f1b2bc53e7fb（2026-11-15 15:08:45 UTC，Actions run43728210388实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43728210388-1.json。
+- **最近成功实际 pull 与已读规则提交：** c8fe6775612a0f337118f2fb807b41d5780b0f2c（2026-11-15 15:11:16 UTC，Actions run43728454113实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43728454113-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 已读规则根21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00；逐实际pull核，仅读diff。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -11,16 +11,18 @@
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-full-model-row-and-two-local-projection-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-local-projection-length-gap-and-two30-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：当前已证与未付范围
 
 - 原A为4367×6188、泛秩4354；同选I,J各4354、权8770，常数Q/F31秩4318/核36。完整同选前三连接3/9/3，二阶24头、三阶21头；[17真第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)已核296072原产品，法≤4完整头17，四缺头坐标15/18/19/20。
 - [原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]，λ4未构造。known来项13/full15缺2、第三显式17/full21缺4。完整H45原rank1736、高核1036/模旧130为906；Mstar4318常像加HF/T的全商rank12，只需实际18 RHS，未重906大核。
 - 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新零因子K112下q8415…8528，非基/转移/目标三费8572/8577/172，统一条件8577。原九目标全局Q[s]成员性仍是前提；函数域像与零点局部像现均已付。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
-- 两端原全常数rank4340/coker27，各14正Smith；∞第一4/第二0。零完整前三至八已正式，最新[完整第九与模s11成员性](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)给β9=0/15头、δ次大=55；[完整正谱及三阶必要性](results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md)已正式：第十β10=1/14头，完整14正谱为1⁴,3,4³,5,6,7,8,10,11。故零最大/次大阶恰66/55、最大正指数恰11；第十一实际也完成β11=1/13头、965328原产品真；所得是十一阶cochain，可形式延拓的头已全，非已算完整函数域左核。
+- 两端原全常数rank4340/coker27，各14正Smith。零点完整β1…11=4,0,1,3,1,1,1,1,0,1,1；正谱1⁴,3,4³,5,6,7,8,10,11，δ最大/次大66/55、amax11，最后13自由头、965328原产品。原完整∞仅首4/次0，不能由zero谱搬运。
 - K112=sK111=s66(s−2)9(s+6)9F+²F−²E8²，degree112/lc5^6为31单位。[泛型像回接与零点精确费用](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已核旧13泛函及142+4212夹逼，九平方原≤3来源Q(s)像此前已证；完整mod s11双湮灭及amax11现给全九s³t_j在Q[s]_(s)/Q[[s]]真像，t2局部消去理想恰s³。十三自由余核的泛型目标配对已清；其余有限点与全局Q[s]成员性继续。
 - 原h0零点s³现在无条件恰足且不可降低；任意k阶真左jet九平方读数必O(s^(k−2))，第十一λ9非零只是允许的末端torsion，不能据此否泛型像。零谱/零点目标子问题关闭，不再排第十二；其它点、未知分母支持和固定D leading31单位继续。旧29曲线/GB/LLL/65521/uPhiY等范围保归档。
+
+- [真实局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)已证明len(W/(L∩W))=δA−δP，差≤e即t^eW⊂L。170+54g局部双向生成不除g；原E8²首项31单位先剥，2点δA≤30。充分δP阈值−6:12、2:29、F±:6、E8:4；数域长度不乘域次，E8不可约性已核。尚无新投影结果。
 
 ## 临时同run：滚动请求与恢复
 
