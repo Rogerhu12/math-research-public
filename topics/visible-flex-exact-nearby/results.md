@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SF：严格区间完整一阶符号传播缺陷](results/R133-supplement-complete-strict-first-symbol-propagation-defect.md)：完整Gy、两有序正规化、F0–2/FJ、真实leadingflow两rank与独立均值源；actual T_J全finite/两mean、S连续/Z跳、FA forward cut费和ST literal primitive source接口均保。SF44/45是到真实腰部old density的完整条件强界，系数/积分新数值尚待，非全incoming。SHAadd091118ef1af71bc8c4be275742d4124a076d6cf2ebaf00d35c66f8348f2b4。
+
 - [WX：从已成正乘积推出实际腰部坐标](results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md)：纯解析由SP/ST原positive算法读出任意较短段、两个方向的真实流三导费用；付waist Φcut∘χ、L2/H−4/3同逆、selected H/common input原序、完整mean/primitive rank和leadingflow。新scalar尚待Actions，非waist normalizer或全inverse。SHAc5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1。
 
 - [FA：完整自由 Airy 首遗漏列](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)：同P22真实root和原free w1，完整J残差、六mean/两primitive尾及实Airy误差给n^-2列界；原TN有序逆的finite/strong分量均保，FA32给H−4/3→L2费用，FA34a另保corrected first-order负窗。仅解析新scalar合同，尚未报告数值或全逆。SHA24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af。
