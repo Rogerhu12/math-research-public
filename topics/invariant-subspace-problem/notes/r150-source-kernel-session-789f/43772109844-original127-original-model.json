@@ -1,0 +1,92 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-original-model",
+  "executionSourceCommit": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
+  "scriptSHA256": "76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784",
+  "argvTemplate": [
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--original-model",
+    "{work}/global197-original-inputs/model.txt",
+    "--out",
+    "{work}/original127-model"
+  ],
+  "timeoutSeconds": 60,
+  "exitCode": 1,
+  "wallSeconds": 0.06391813900017951,
+  "fullTemporaryReceiptBytes": 585,
+  "fullTemporaryReceiptSHA256": "5f276aac77bb983aa86af7a0ae29d3ac82cfa61a2ade0b93a87d30e8a92190e1",
+  "result": {
+    "elapsedSeconds": 0.01068349599972862,
+    "error": "3333 plus2195 is a disjoint complete original partition",
+    "errorType": "ValueError",
+    "format": "r150-original-fixed127-model-v1",
+    "status": "failed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allOriginalRowNormalizationConstantsAre127Units": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "largeDataTemporaryOnly": true,
+      "newInfinityGoodReductionProved": false,
+      "newModuleRankComputed": false,
+      "newTorsionDegreeComputed": false,
+      "prime": 127,
+      "rowNormalizationResidues127": [
+        112,
+        81,
+        35,
+        81,
+        81,
+        104,
+        81,
+        81,
+        81,
+        104,
+        24,
+        104,
+        81,
+        81,
+        81,
+        70,
+        56,
+        26
+      ]
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:39:13 UTC",
+      "beforeReadCommit": "6e871e7080065a5040ffd25502a05ace2fa9a83c",
+      "originMainAfterPull": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:39:13 UTC",
+      "beforeReadCommit": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+      "originMainAfterPull": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 17,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 5832,
+    "logicalJsonSHA256": "0d5eaded59ba088f3f5df1b3ddb1b749e4e7fc99991e6b9d569101a0255a77c7",
+    "itemCount": 17
+  },
+  "lastRulesReadCommit": "5233bbd0c63fc396d9e07cf1b09fdcce7bec9a9d",
+  "summaryExcludesRecomputableArraysOnly": false
+}
