@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_wide_collar_mean_half_trace_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43722885993",
   "run_attempt": "1",
@@ -9,7 +9,36 @@
   "worker_source_sha256": "1412c9c46e8efe77d67de47a3bd8201215452e00139ab3136f4fb806dacc8728",
   "actual_source_sha256": "9cfe1e741200467c215b30ffb41bb3c5eed6cadf9f01e029027dc86d636d3c43",
   "input_manifest_sha256": "a3a2352c3ee38ee7f326fe998e52340bfc0be7aa7d5b363d1e7787b057b88520",
-  "children": [],
+  "children": [
+    {
+      "label": "wide_collar_mean_half_trace",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_wide_collar_mean_and_half_trace.py",
+        "--manifest",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-wide-collar-mean-half-trace-CI-inputs.json",
+        "--manifest-sha",
+        "a3a2352c3ee38ee7f326fe998e52340bfc0be7aa7d5b363d1e7787b057b88520",
+        "--collar-conclusion",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/notes/selected_collar_scalar_gates_ci/run-43714674603-1-selected-collar-scalar-gates/actual-collar-scalar-conclusion.json",
+        "--nonmean-execution",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/notes/saved_nonmean_three_band_trace_ci/run-43720373326-1/execution.json",
+        "--corrected-mean-execution",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/notes/raw_response_mean_collar_fee_ci/run-43717700427-1/execution.json",
+        "--raw-manifest",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+        "--out",
+        "/__w/_temp/visible-exact-wide-collar-mean-half-trace/actual-wide-collar-mean-half-trace.json"
+      ],
+      "started_utc": "2026-11-15T14:10:59.768210+00:00",
+      "actual_returncode": 0,
+      "finished_utc": "2026-11-15T14:11:00.768591+00:00",
+      "actual_wall_seconds": 1.000393264000003,
+      "temporary_log_bytes": 158,
+      "temporary_log_sha256": "a79b716b01fcb9ba6376b3b9bb1bd8a6e06335bdfc964c15f923ac402221c66b"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T14:10:52.388136+00:00",
@@ -34,9 +63,27 @@
         "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
       },
       "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    },
+    {
+      "time": "2026-11-15T14:11:01.078340+00:00",
+      "before": "868f4e139f7df0596613675e4aac00efd80f395d",
+      "after": "868f4e139f7df0596613675e4aac00efd80f395d",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "utc": "2026-11-15T14:10:59.765244+00:00",
+      "commit": "868f4e139f7df0596613675e4aac00efd80f395d",
+      "final": false
+    }
+  ],
   "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
   "original_recomputable_inputs_only_in_temporary_storage": true,
   "new_recomputable_data_persisted": false,
@@ -47,7 +94,7 @@
   "full_infinite_BVP_inverse_proved": false,
   "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
   "reviewed_rules_sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
-  "last_read_commit": "778e050665513cd3aa26e2ae3414efa01e88fc99",
+  "last_read_commit": "868f4e139f7df0596613675e4aac00efd80f395d",
   "package_versions": {
     "python-flint": "0.9.0"
   },
@@ -192,48 +239,117 @@
     "actual_unknown_body_or_cut_bound_supplied": false
   },
   "immutable_scientific_copy": "/__w/_temp/visible-exact-wide-collar-mean-half-trace/immutable-science",
-  "snapshot_utc": "2026-11-15T14:10:57.020090+00:00",
-  "wall_seconds": 4.910760680999999,
+  "snapshot_utc": "2026-11-15T14:11:00.769455+00:00",
+  "wall_seconds": 8.660116377999998,
   "published_topic_capacity_metadata": {
     "method": "published_origin_main_Git_Trees_API_metadata_only",
-    "commit": "778e050665513cd3aa26e2ae3414efa01e88fc99",
-    "root_tree": "9ff57249e6474af772f25525fc1f46038ba660e4",
+    "commit": "868f4e139f7df0596613675e4aac00efd80f395d",
+    "root_tree": "c9d261f231755982d7fd94271699f83b389212be",
     "topic": "topics/visible-flex-exact-nearby",
-    "topic_tree": "bbc3b5c83e8c80d6dbdb128ebca49fbdad07e683",
+    "topic_tree": "6b51b206ab7eb62d0474c18278870316d3349574",
     "truncated": false,
     "all_blob_sizes_checked": true,
-    "blob_count": 14168,
-    "blob_bytes": 199665943,
-    "nested_tree_count": 5597,
+    "blob_count": 14169,
+    "blob_bytes": 199676151,
+    "nested_tree_count": 5599,
     "gitlink_count": 0,
-    "complete_blob_metadata_inventory_sha256": "76f15a0135d9ea62ce8c1e0991f4a65a8c91b4c27d2d19f8ce18b6241a60f003",
+    "complete_blob_metadata_inventory_sha256": "4204ee29c8d22440171fd4ac9c6e4e61863db782475a79cabd3c76b102a1c445",
     "metadata_responses": [
       {
-        "tree": "9ff57249e6474af772f25525fc1f46038ba660e4",
+        "tree": "c9d261f231755982d7fd94271699f83b389212be",
         "recursive": false,
         "bytes": 861,
-        "sha256": "083e96bdba81b08300ff9e1de8544d02ed281d36ad02a3509233615564f808c3",
+        "sha256": "426cf9db4feaa3b4486bff2667e09ee741817c584aba30c80f7d18f965c83ac9",
         "truncated": false
       },
       {
-        "tree": "e72dd835c657ee81f3bf5cf28c823a84d324677e",
+        "tree": "df6e4d550b6c76c2189e09fac47494c9a65d6b03",
         "recursive": false,
         "bytes": 1846,
-        "sha256": "aa908e8ed4e9f0f8bdac5dddd1239553e4bfd684731a7ee34923848eb45bb50d",
+        "sha256": "c883e452e08f749c5d6a5a02f78a84c20a648fdfc1f344bb94c785b7dca4da7f",
         "truncated": false
       },
       {
-        "tree": "bbc3b5c83e8c80d6dbdb128ebca49fbdad07e683",
+        "tree": "6b51b206ab7eb62d0474c18278870316d3349574",
         "recursive": true,
-        "bytes": 6512499,
-        "sha256": "f2f6d5ee17a714f004c28cdbed16921a45698a1484d7aa6277b284a63cb03654",
+        "bytes": 6513355,
+        "sha256": "47bd8a84bfe4237c174e8ddccd0f5c4f3a1462c48124d3d504932566adccfaa4",
         "truncated": false
       }
     ],
     "blob_bodies_requested": false
   },
-  "publication_is_final_attempt": false,
+  "publication_is_final_attempt": true,
   "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
   "pre_math_topic_bytes_with_reserve_upper": 199800085,
-  "projected_topic_bytes_upper": 199680085
+  "projected_topic_bytes_upper": 199734330,
+  "actual_scientific_summary_sha256": "1c650195524b78725358c40aabe9c2413c203309f2173cef1a0cb4a8adfc265b",
+  "actual_scientific_summary_bytes": 41148,
+  "independent_narrow_high_domains_preserved": true,
+  "actual_wide_ordinary_table_count": 6,
+  "core_existence_or_low_gamma_selfmap_claimed": false,
+  "old_high_factorial_domain_extended": false,
+  "actual_scientific_gates": [
+    {
+      "name": "the new directed precision and positive scalar parameters are fixed",
+      "passed": true
+    },
+    {
+      "name": "the new manifest and source are immutable",
+      "passed": true
+    },
+    {
+      "name": "the original complete collar receipt is used only for its retained coefficients and identities",
+      "passed": true
+    },
+    {
+      "name": "the successful complete NR restriction is copied without its old row computation",
+      "passed": true
+    },
+    {
+      "name": "the successful complete raw mean correction and exactly five narrow high domains are copied",
+      "passed": true
+    },
+    {
+      "name": "all three saved results retain the same repaired centre direction and full raw mean",
+      "passed": true
+    },
+    {
+      "name": "the old wide nonmean source is on the exact same complete interval and ordinary units",
+      "passed": true
+    },
+    {
+      "name": "same complete original 7296 ordinary residual container and all three exact byte parts",
+      "passed": true
+    },
+    {
+      "name": "same fixed eta0 and nu0 raw candidate with complete primitive tail and all old seams",
+      "passed": true
+    },
+    {
+      "name": "all 7296 genuine closed cells cover zero to 25/8 and retain their complete negative mean",
+      "passed": true
+    },
+    {
+      "name": "the new wide full-moving-mean restriction has complete true radial coverage",
+      "passed": true
+    },
+    {
+      "name": "all six ordinary wide tables retain their independent narrow high input and all unknowns",
+      "passed": true
+    },
+    {
+      "name": "the complete known source has the exact four finite supports and both old mean windows are preserved",
+      "passed": true
+    }
+  ],
+  "actual_scientific_complete": true,
+  "actual_scientific_failure": null,
+  "prepublication_scientific_stdout_receipt": {
+    "bytes": 49798,
+    "sha256": "783b453e420afec5ad48a4b076d8dc76060f72d921e7c00264e45a8141f1f9a3",
+    "complete_conclusion_included": true,
+    "complete_report_included": true,
+    "emitted_before_terminal_publication": true
+  }
 }
