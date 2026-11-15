@@ -113,3 +113,7 @@
 ### 2026-11-15 21:52（Asia/Taipei）｜serre-public-astra-20261115
 - R820纸证登记：root全文核Q-form下降、273同τ³比例、忠实评价满射和逆序Z稳定链，ordinary先已独立审；≤292候选/两图各长度20完整HNF，无新数学本地运行。proof 5be4f049；actual source IO/producer继续。
 - H/open逐字归档before-R820后压缩已成输入与陈旧运行描述；三条原计算仍进行。R819已推6f52083c9，remote main锁竞争后已立即实际pull/rebase再推成功，两README无diff。主目标OPEN。
+
+### 2026-11-15 21:53（Asia/Taipei）｜serre-public-astra-20261115
+- R821全文及原R616 c0/c1/正δ动作已核：整Hom格中保Φ_n(T)=0，互素cusp域的σ固定P，三阶目标上±1与Φ_n(±1)=1准确排实际非零像。proof e2e70e7a，未有理化挠点值。
+- 原y全部cusp为简单极点，r=x/a与h/a阶(p−2)/3经分歧微分公式核；非cusp极/同h单位/高度仍待。R820 proof已推49d4140e9，继续实际小producer与R822完整极格证书，主目标OPEN。

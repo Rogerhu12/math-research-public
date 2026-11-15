@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：ec7b644629027f4b40223ae8a3399362adb0c83b**（2026-11-15T13:52:09.369647+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R820前H](notes/2026-11-15-handoff-before-R820.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：af5336d0ee84a6d14c8ea1bff98644dbcb8e5990**（2026-11-15T13:53:42.933048+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R820前H](notes/2026-11-15-handoff-before-R820.md)，内接全部更早归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -39,7 +39,9 @@ R801长尾、R803混合比、R805整基、R807清极与R797/799/800全部实际�
 **R812全split p未筛非零已成**：[真实结果](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3；六FG Norm仅2/3/5/11、U/det仅2/3/11，全部原文件/verify已核。因此所有p≥41、p5mod12原未筛交替卷积非零；不等于primitive/Legendre同h。五端项、CM共同c^(2−2p)、先代数化再SS规范保持，不重算六case。
 惰性p11mod12见[原harmonic7源](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)：余项H7/(32(a²+b²))为一次q原函数，Qpoly在P0零；指定FG代数CM评价/单位仍缺，不能称水平。[全SS端项障碍](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)只排Δ(αf末+βg末)=γDA常系数全SS恒等，单j0关系保留。
 
-**R816/R818/R819一般p cusp桥已证**：[实cusp域](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)为Q(ξ_p)^+，c=3m−1与[L:K]=m互素，Y_L/X_L各单轨道，X→Y全分歧3不改剩余域。[原首系数](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)由互素导子E^Fp/E1的Fourier泛函同构及原Cartan u_h非零，给真实Hom存在，保原比较尺度。[原primitive Hom域](results/R819-original-primitive-Hom-field-and-all-cusp-nonramification.md)经原R728 Weil伴随确认为K[T]=Q(ζ_(p+1))上的rank1，T=Dρ^-1σ是K线性，ωTv=ρσωv。cusp评价核由单轨道T稳定、只能0/全体，R818排全体：每个非零实际primitive L-Hom全部cusps不分歧。仅char0，未给cusp像、p单位/同h三单位或高度；原c0刚性化保留。
+**R816/R818/R819一般p cusp桥已证**：[实cusp域](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)为Q(ξ_p)^+，c=3m−1与[L:K]=m互素，Y_L/X_L各单轨道，X→Y全分歧3不改剩余域。[原首系数](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)由互素导子E^Fp/E1的Fourier泛函同构及原Cartan u_h非零，给真实Hom存在，保原比较尺度。[原primitive Hom域](results/R819-original-primitive-Hom-field-and-all-cusp-nonramification.md)经原R728 Weil伴随确认为K[T]=Q(ζ_(p+1))上的rank1，T=Dρ^-1σ是K线性，ωTv=ρσωv。cusp评价核由单轨道T稳定、只能0/全体，R818排全体：每个非零实际primitive L-Hom全部cusps不分歧。仅char0，p单位/同h三单位及高度仍缺；原c0刚性化保留。
+
+**R821全p实际cusp像已证**：[整Hom论证](results/R821-original-all-prime-cusp-zero-and-simple-poles.md)。原Λ=Hom(J_X,C)∩primitive rational space，T保整格且Φ_(p+1)(T)=0准确；c0刚性化与δ固定cusps给像在C[1−ζ]。L与实cusp域互素，σ可固定选中cusp，像上T=±1，Φ_n(±1)=1迫实际像O，不是有理化丢挠点。加R819，原y在Y每cusp简单极点，(y)_∞=D_cusp+E_non，后者未知；原x/a及h/a的cusp阶(p−2)/3。保p2/5mod9，不给p单位。
 
 ## 原规范与主目标边界
 
