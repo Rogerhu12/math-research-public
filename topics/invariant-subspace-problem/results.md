@@ -233,3 +233,5 @@
 - **零完整第六恰一与首次平方非零。** [自足证明](results/R150-appendix-zero-complete-sixth-connection-exact-one-factor107-and-first-square-readout.md)保完整W5及s³T2/s²T3/sT4回填：low590/589、17真头、736372全原产品；公共阶61/52、K107、最大Smith9…14，条件费8582/172。λ6首个非零平方值已精确记录，未乘h0的t2在本有限模块有局部障碍；h0的s3尚未付足够阶延拓，不外推原成员性或ISP。
 
 - **零完整第七与第六读数的准确消失。** [自足证明](results/R150-appendix-zero-complete-seventh-connection-factor108-and-invariant-first-square-map.md)闭β7=1/16头、792064原产品，62/53/K108及条件8581/172。完整低K0…5所有代表九平方零给E6同头不变；rankE6=1且kerE6=K7，所以该六阶值无法形成h0模s10障碍。七阶λ7代表自由与八阶限制分别处理，原成员性仍开。
+
+- **零完整第八与最后两个正指数。** [自足证明](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)闭β8=1/15头、835380原产品、63/54/K109及条件8580/172；十二指数已定、余二只有六种可能。完整K8第七平方读数同头不变且全零，任意left10不能由其给h0模s11障碍；第八非零值仍须真实延拓。
