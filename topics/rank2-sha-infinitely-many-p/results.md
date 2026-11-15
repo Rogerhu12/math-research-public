@@ -168,3 +168,5 @@
 - [R644：原五来源的全部固定次数多项式与闭边界障碍](results/R644-bounded-degree-original-polynomials-and-full-boundary-obstruction.md)：对任意固定D，用原sigma/z在椭圆函数域上的超越性构造有限有理满秩jet；原Tg整性与全p²−1边界简单零点给整个degree≤D来源空间的闭RE Tate元仅常数，允许p依赖系数并保所有代数关系。有限坏素数有效可算；未给随D增长的jet/高度界或中央到闭盘传播。
 
 - [R650：固定q门的真实W补偿与原A门odd1755返回](results/R650-fixed-carry-gates-and-whole-odd1755.md)：两个固定q门在原W下的准确位移给全四K的两层补偿，交门/两失败支与全部log质量保留。实际A门六C旋转均whole odd1755，原odd65锚定绝对χ65核，整两条K_A返回两个真实unit cut并保E/G/log所有修正；未新增中央零。
+
+- [R649：同一P2的两维提升差与原第二中央必要式的界限](results/R649-same-p2-two-dimensional-lift-and-central-bockstein-boundary.md)：在同一个完整模p P2及相同型/首项/三挠零/二挠帽内，从实际低jet起的两参数整提升使两个a/p独立变化，det=−228072b/5在所有允许p为单位。严格分清这些比较提升与原sigma唯一实际提升，证明模p资料本身不能排第二中央必要式，真实modp²条件仍须支付。

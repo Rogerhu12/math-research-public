@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：a24bfa3d59da32453405764136ecc6b5d02e4fd0；2026-11-15 02:09:05 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:09:04 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：304b50d3564a439e784f310278b4482c87b0e399；2026-11-15 02:12:41 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:12:39 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,7 +14,7 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–648及R650已登记；R364/R561仍开，R637/R649/R651–653进行中。
+R1–363、R365–560、R562–636、R638–650已登记；R364/R561仍开，R637/R651–654进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r650.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
@@ -22,7 +22,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 - root：R644全固定次数边界已付；续R652真实J_D/Δ_D量化与全源传播，O4/O6仍按open保留。
 - theta：R650固定门W全四行补偿及实际odd1755轴已付；续R653两失败支与原S/T的真关系。
-- literature：R647原S/T/U完整Cartier已付；续R649同源真实必要式的算术非零。
+- literature：R649模p资料不决定两a/p的界限已付；续R654原sigma真实modp²连接。
 - deep：R648全C全Smith已付；R651旧高临界同P整提升，R637旧同R/全Padé/26carry非零仍开。
 
 ## 原对象、ray及未闭旧支线
@@ -71,6 +71,7 @@ R636同一P6=Z^pQ6完整低窗给两留数/两Cartier实际det；全部极点/O(
 R647同一P2=−(D−2G)^(p−1)Z^(p+1)、Θp=xP2给原S/T/U完整有理模型，保全部多项式/O(p³)极帽/Z的3p个零。
 原g_mh=T_mh(h≤4)，g_m5=T_m5−6κ5；j_m0给T_m1=0、T_m2=γm(g_m1/p)bar及T_m5+γm^5 B_m5/24=6κ5。
 B_mh是原低部分和除p^h，不自由/不删除；第三条只在另假设j1360时加入，fullFc全三角保。
+R649同Θp/型/三挠零/二挠帽的p(λH_(s−1)+μH_(s−2))提升使两a/p变化det=−228072b/5unit；不是原sigma自由变化，必须付真实modp²条件。
 
 R614–619整窗/坏带/Newton尾、R625–627原p^e首坏带及真实源成本照前检；R618 τ₂=(2p−1)/(p(p²−1))。
 R632原sigma全S≤R<R_E度p/七积分独立不外推全p²域；R635任意p|N正幂准确R_E/闭非Tate，H边界根和d0单位全保。
