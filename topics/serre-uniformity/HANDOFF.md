@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：1801532a38a7abf7b801251c756fe4bca31b9f9e**（2026-11-15 08:23 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：fcd2d08eabff2ff986cdbeb5f709f11b319e537f**（2026-11-15 08:26 UTC实际pull后diff为空）。每结论立即推main；至少每小时实际pull并比较两README，变化只读diff。非快进立即pull --rebase再推，禁止force。PAT仅CLI；root独占git/共享索引。数学只在本公开仓库Actions；本地只读、IO/schema/源码审核。根§15：可重算数据不入Git/Release，只保脚本参数/run/source/输出SHA；活跃输入和断点一日临时包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 实际部分克隆在/dev/shm/serre-public-09e43497d694，scratch有链接；终端git正常。完整历史、旧公式和绑定逐字保于[本次R796前H](notes/2026-11-15-handoff-before-R796.md)及其归档链；[open前版](notes/2026-11-15-open-before-R795.md)保原详细缺口。旧raw清理run43679907787已成；不用旧Release方案。
 
@@ -47,6 +47,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge，R754完整period/Hom�
 
 ordinary原p43/776bitq已Gaussian5排除，非Serre反例。R773/776/779/780原格/cochain/real/NT像已成；三Norm/深度条件自动，不定真实Robert值。R783规范Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ；坏值Θ11。完整平衡jet给Θ=−iKq，坏值Kq11i；真实Kummer/Shapiro、global dual、Θ仍缺。禁止巨大q挠点枚举，保Euler与一次交叉相位，细式在原笔记/前H。
 
-全p sigma真正目标是**同一个primitive/Legendre可见h**的N_h和两个Cartier量三单位。R734/R741与R737不可拼标签；R782/784三wedge/保筛左逆及R788跨p核/rank6/Schur已证但不排有限域相消。R739真p41/h37否定可见筛内逐项单位反射；C13单位仍不能消N+1高带，D/D6闭包恰L(pO)，固定宽捷径关闭。[Hurwitz高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，完整核由首p×p矩形唯一决定；升p²/Hirota不加独立条件。sigma_uniform继续首矩形独立Cartier/几何配对，未称真正非零。
+全p sigma真正目标是**同一个primitive/Legendre可见h**的N_h和两个Cartier量三单位。R734/R741与R737不可拼标签；R782/784三wedge/保筛左逆及R788跨p核/rank6/Schur已证但不排有限域相消。R739真p41/h37否定可见筛内逐项单位反射；C13单位仍不能消N+1高带，D/D6闭包恰L(pO)，固定宽捷径关闭。[Hurwitz高块刚性](notes/2026-11-15-sigma-Hurwitz-block-rigidity.md)给全部a_(p+n)=κn a_(n−1)，完整核由首p×p矩形唯一决定；升p²/Hirota不加独立条件。[Serre/Cartier配对](notes/2026-11-15-sigma-Serre-duality-and-Cartier-pairing.md)给六个真实有限Serre类及独立Cartier秩一单位C(x⁴ω)=(4/7)Bω；权5类为零时低极阶Cartier自动零，二者尚无桥，不能推出critical或真正筛后非零。sigma_uniform继续原首矩形配对。
 
 R724原第二类period/MW轨道/Poincaré/universal extension/非p项及有限Bézout接口完整，真实值未求；R785原Rosati压到ΣdimFα⁺且首外积保CM值与切向两列。**实际η/β、规范高度jets、(724.33)有限Bézout及全p存在均未完成**；不能以实正定、有限计算或算法存在替代主定理。

@@ -479,3 +479,8 @@
 - R799新增严格三锚点推论：原已成1506条V6 recipe全部是M2[0]/[1]/[73]乘V5，故A0V5=V6已迫A0无基点；pencil论证立即给A0V6=V7、Sym²(A0)V6=V8，不需额外143条原M2输入。
 - root与exact_height独立核证明和实际来源范围。proof更新ca6abba8、method更新d1e489cd；尚无R799实际运行，全部工程按新绑定。仍须真实1778/2050短minor，不把旧minor冒充新秩。
 - R796公开run已success，真实输出正核；R797/R787继续，原高度与主目标OPEN。
+
+## 2026-11-15 16:26 Asia/Taipei · serre-public-astra-20261115
+- 原六截面的真实Serre类及独立Cartier配对已完整证明：有限a_j保合法N−1截断，L(12O)=L(6O)⊕V且V无基点；原Cartier在Vω上秩1，x⁴通道准确给(4/7)B单位。
+- root逐式核局部残数、CM权、极阶、六个共同w^(N−1)表达、Wilson/Cartier符号，并对照原R574/R765；全为证明/旧来源读取，没有新数学计算。权5零类所生低极阶rω的Cartier自动为零，不能与独立单位相矛盾。
+- 只登记研究笔记0ac6af8b及准确失败边界，无新R非零结论；原同primitive/Legendre非零和真正高度仍开。继续实际Cartier到critical的桥与当前公开计算。
