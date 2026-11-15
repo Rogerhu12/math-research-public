@@ -136,9 +136,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R343：三个Gaussian面积全部九外矩已付，续其余原pair与完整层
+### R346：负三pair九矩与正Y–Z第零矩已同付，续其余完整接口
 
-[R341](results/R341-companion-directions-and-three-centers-pay-the-third-Gaussian-first-moment.md)保全self/tail/copy方差，以伴随强模块及三个最终正中心支付B0/B1。新[R343](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)完全不再移动这些弱中心：真B2平移保χsR2，原RS self含−4U3/3与真实J常尾、Γ_RS=0；两坡真实方差使R2固定向量，不依间距/排序/伴随。α=9/20的初始Fκ=0母，ρ0/20两合法排序×普通/伴随：R275全式证明两even差双号、z0>0>z20，四B1列有严格正核；A大使四2B1+χR2斜率亦全R²正锥。两个有限正中心群八列rank4/严格正核，整体H伸缩以H5正四次权精确解(0,−b/H)：新增B1为0、B2=−b，Ψ成本H−2可小，严格不交/全部旧面积保持。最后原F★/全72零controller有限N付Ψ/三行。故同一新圆A−2−3、A−1−3、A−1−2三个完整面积的全部三矩/全θ，third、Ψ、三directed/指定层真联合；不是整个弱强圆72全零。下一按R259/R263逐原pair识别未付面积、完整零/一层、period与同规范，不重复这九矩。
+[R343](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)保R341三个弱中心，原RS self/方差给固定R2，ρ0/20×普通/伴随四B1及四斜率正锥、双正中心群八列真rank4/正核；H5正幅精确新增B1=0、B2=−b且Ψ成本H−2，原F★ controller付三行。故负三pair M/A/B全部九矩/全θ真联合。
+
+[R346](results/R346-positive-six-target-cone-pays-a-further-complete-Gaussian-zero-moment.md)新增C0=I0[Z,Y]全θ。完整L/Y、U/Y self保Green尾准确消项、跨微包Γ0；实际even母奇扰动的(Fκ,J/h)对(γ,z)真minor给Fκ0及±J，保最后中心/全部δ²项得到严格两号；两个α的四射线±(αβ,1)全R²正锥。C0/B1/B2真权−3/−5/−4，四新列与R343八列的实际块三角极限给有限六目标正核；再共同S伸缩、S5正幅解(0,0,−Cold/S²)，保九矩而Ψ成本S−2可小，弱中心全不动。最后同F★/全72零controller有限N复原Ψ/三directed/指定层。仍欠PY与WY各三外矩、ZY的第1/2矩，共16形式even位置；PY第一矩两even恒等只一共同值，不能按位置报rank。原K1/K3有序尾须保，旧B1已限制PY的primitive差不能任意指定。下一从真平移/全self选新接口，其他完整层/period/同规范仍欠。
 
 
 ### R335/R338：真实Green尾的权−6因子化已付，续真实U值

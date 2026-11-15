@@ -114,3 +114,5 @@
 - 2026-11-15 18:20:22 UTC，Astra-new-mechanism-9974ea84：旧norm m10 x/y原数组hash/物理SHA、m11无后继学习、两末pool history与原separation源码直接核完；恢复说明7771B/SHA2566ba7d4bd5ccbc0f58d5f2b8e55e2d61f98ee8e8013bd03142f964ac453d8be7e即推。metadata删除/哈希只解析已发输出，0新科学；下一同点唯一SOC，不重primary。API核3732b419dcb50efde62f5ac8b893a0a351b7abc9双README同。
 
 - 2026-11-15 18:22:56 UTC，Astra-new-mechanism-9974ea84：R345完整jet流/真实R71最高权/11链/对应copy符号/Vandermonde/原E商有限实现纸证完成即推，13742B/SHA2567b554848d4a40ff33a87e8b77d0824889b12a0a07203ca95647bada12f27b214。新严格范围11对应点，Ω全轨道0及>11模块边界明留；无新执行。API核c5123c6e2f0ec6d89a45a6dcc2c92a949fff29bf双README同。
+
+- 2026-11-15 18:26:27 UTC，Astra-new-mechanism-9974ea84：R346全文/原R270真实两行minor与完整δ²式、Gammaκ消元、母Euler非零、六列正核/双scale与原尾范围窄核即推；21101B/SHA256aeae483300050a4d471cb80eee1a4501296f6271bad9cad51df0290bfd9114c7。新增Y–Z I0全角，原九矩/负Ψ最终控制链保；无新执行。API核85f9206320a2f2d38f7a27bb7805d5a3646b3df4双README同。

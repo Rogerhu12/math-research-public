@@ -341,3 +341,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [R345原式证明](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)：K0=BP[P,S]/3的代数δ轨道在不交rank-one输入上由(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4生成，Kn=−Σa²(a²−c²)n![z^n]/3。jet流手解、全部cross/尾0，不作真实非仿射坐标变换。只在真实R71用最高H5，NK_n=n(n−11)K_(n−1)，严格δ11=0而前11列非零/H权互异；它们全部π/完整universalQ/整包Ω0。不是全R δ闭合或全E核维数。
 
 在R324/R340同一个最终实际有理端口圆，跨原8×12copy选同基本Af退化点的至多11个对应副本，真实g翻号保。flux_j(Kn)=ρj⁵pn(tj)，pn次数n、首项C*(−1)^n10!/(10−n)!非零，原C*=−8a³(a²−b²)r*⁵/45给准确Vandermonde。故(E,F1..Fm)(R)=E(R)×R^m；沿原E商保全部原型/桥/复制基准取得(E,F1..Fm)(S)=E(U)×R^m与紧集C1截面。同新几何、固定profiles/查询和真实m*的同wc可兼wholeE/全部二次平台/m点flux0。更多对应点此十一模块恰Pol≤10、十二点十一阶差商0；不授全R障碍、同包任意点或全period。没有与R343弱圆未经证明合并；余Af/Ve/完整period/同规范继续。
+
+
+## R346：真实母扰动与六目标正锥支付Y–Z完整第零外矩
+
+[R346完整原式与剩余表](results/R346-positive-six-target-cone-pays-a-further-complete-Gaussian-zero-moment.md)先核R259/R263未付Y相关三pair，保K1/K3真实有序核与全36odd。新增C0=I0[Z,Y]：原L/Y、U/Y self保真实Green端项并准确抵消，跨微包Γ全0；其even向量沿(αβ,1)。同真实even母的Fκ/J两行minor在实际正h非零，取Fκ0、J/h=±τ；固定最终中心/间距/全copy后保全部δ²项选择有限正δ，取得两真实符号。两α给四实际射线全R²正锥，非指定抽象积分值或借旧六能量主根。
+
+新C0与B1/B2完整权−3/−5/−4；四新列先以H3正幅伸缩，使上四行小、C0不变，与R343八列构成真实rank6/严格正核。固定有限H后全组再以S5正幅解(0,0,−Cold/S²)，新增B1/B2均0、C0准确清残，Ψ正成本S−2小；R343弱块最终中心全不动。原同F★ controller有限N恢复Ψ/三行/指定层，九旧外矩和新C0全部全θ保持。同一新圆仍欠PY/WY各三矩、ZY第1/2矩；16只是形式even位置，PY第一矩两even本有准确重复。整个72/完整层/period/同规范未授。无新执行，完成即推。
