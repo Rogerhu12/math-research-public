@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 08:11:59 UTC实际pull后已读规则提交：`0afa9de82654ed758491522c5efb13413303417c`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:13:28 UTC实际pull后已读规则提交：`ccdf83e8c8a26b3421e1a95b99169010af641b4d`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -34,7 +34,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211仅在G″紧支撑J且A_f正则或有限简单退化类给2 adjoint+7 Green矩、m累计flux的唯一同锚右逆；排flat/高重/无限零，未验本目标或同w ruling。
 
-**R215与R217已区分真实固定圆不变量和λ+。** R215在正f′包的A_f0/q>0点，K_PR纯项0却flux=−8q⁵/45；全部全I光滑w的L_f通量0。实际Z±/同pure校正/Klein给同λ+>0而flux不同的两闭hook，至少一个period失败。R217在同类合法非对称轴导数圆上，以代数导子Df=x²f′−2xf保持E8/真实响应，K1=δK、K3=δ³K的左pair分别(8A*,0)、(B*,−96J*)，A*>0/J*≠0，故pure零R对两个左尾满射。给H_tail∈kerπ∩kerL且λ=1；四真实同λ/pure0闭hook左尾成非退化平行四边形，至少三条失败。δ不是实际projective变换；两/四几何一般不同g，不能扩成全部joint因子化失败。R219已付八个修正退化通量F_j：减准确平台Vd″端值消其他packet二次尾；K_PR的δ^0..δ^7皆单层右J，Nδ^nK=n(n−11)δ^(n−1)K给真Vandermonde满射R8。F8杀全部全I gauge且不能读λ；另左pair+任一F_j满射R3，未证十元组。真实同时支付继续R222。
+**R215与R217已区分真实固定圆不变量和λ+。** R215在正f′包的A_f0/q>0点，K_PR纯项0却flux=−8q⁵/45；全部全I光滑w的L_f通量0。实际Z±/同pure校正/Klein给同λ+>0而flux不同的两闭hook，至少一个period失败。R217在同类合法非对称轴导数圆上，以代数导子Df=x²f′−2xf保持E8/真实响应，K1=δK、K3=δ³K的左pair分别(8A*,0)、(B*,−96J*)，A*>0/J*≠0，故pure零R对两个左尾满射。给H_tail∈kerπ∩kerL且λ=1；四真实同λ/pure0闭hook左尾成非退化平行四边形，至少三条失败。δ不是实际projective变换；两/四几何一般不同g，不能扩成全部joint因子化失败。R219已付八个修正退化通量F_j：减准确平台Vd″端值消其他packet二次尾；K_PR的δ^0..δ^7皆单层右J，Nδ^nK=n(n−11)δ^(n−1)K给真Vandermonde满射R8。F8杀全部全I gauge且不能读λ；另左pair+任一F_j满射R3，未证十元组。R222已给整pure+F8的真实C1联调截面/零目标闭hook：E(R)=πR⊕R8、E(U)=P⊕R8，商仍Q；分组prototype先用真实D清pure基准，保全部mixed，再R212全pure截面和有限n收缩付F8。未证fullperiod/十元组，R223继续精确兼容Morse。
 
 **R216准确障碍仍保留**：h/k在一点1..4阶全零，同右锚/真实W2W3入值冻结给K″=2K_const，点二阶jet杀整个W和全部Bθw。标准R193原八包/已付光滑邻域全宽度失败；任意固定态仅继承R187共同充分窄化。R220 Morse几何已离此前提，但不自动支付非平点的新真实jet方程。R199新忠实圆不套旧正性。
 

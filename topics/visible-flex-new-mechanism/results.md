@@ -199,3 +199,5 @@
 - [R219：八个修正退化通量在pure零响应上独立](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)：每包退化通量减准确平台二阶端值，消掉全部全I gauge及其他packet右尾；K_PR单层J结构在delta下保留，Nδ^nK=n(n−11)δ^(n−1)K给八平移Vandermonde满射R8。λ+不经八元组因子化，左pair+任一flux另满射R3；不混成十元组满射，不把有限必要门当完整joint。无新研究计算。
 
 - [103列首次实际：一次接纳后由准确固定尾域锁峰](notes/entry-body103-first-actual-result-20261115.md)：actual43691833140/source2f25b5aa，1LP/1trial/0SOC，η .26651100522045557→.26651075196396212；外域.7725峰.26651073136454873使下一次J前退出，余可降2.06e−8<1e−7。全部原两网门过，.26/reach16.3934仍欠；固定60/六jet/高度保持。活动1.5756s、全792.871s含三必要前缀，未达1e−4参考。下一个可归因变化为原51尾uv加入两块控制，不延同103预算。
+
+- [R222：完整pure与八个固定圆通量的真实同时支付](results/R222-simultaneous-real-pure-and-eight-flux-control.md)：增强观测E(U)=P⊕R8、E(R)=πR⊕R8，真实商保Q。δ方向拆有限原响应，在每组真实prototype追加pure校正清基准但保mixed；R212全pure C1截面清全部剩余pure，其未知通量成本留有界函数，最后有限n收缩付F8。得固定有限词C1增强目标截面及pure0/八flux0真实闭hook，λ+仍正；不授完整period/ruling、十元组或Morse兼容。
