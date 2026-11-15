@@ -359,3 +359,9 @@ P§7补明Cnew是共同|ρ|^-1/4包络的系数；原六行cJ及平方|ρ|^-1/2 
 root全文读33577B SCI与manifest/flow，worker相对成功D的完整差异；newton独核数学三函数/域/旧预算比率。17pins467721B（原D共享12逐字，14current+3history）；旧成功fold/4receipt/18系数/31项只读，只有新1个L1预算、1比率/3组合。公共AST闭包与13实际门待runner，代码模式仅delimiter/文字/SHA元数据。SCI c479aaec9438a80340e425223b2eac0ed9b5707583c6a8125553e59ccd189048；manifest8113b0d7e73c220a766947c198c09b6e66bd3a83210539fed6b4d6d5285e8e3f；worker580a0aed23253f564a6f14504234acd1a32b9a1514ec29ad41ae41081140a526；flow5ad3512ea1c28df7111c89616eae5e185ab98610b3254f52a0ffe1eda139265b。
 
 worker新增真实ls-tree topic bytes/count/head与出版两小文件准确delta容量门，严格<200000000；无旧数学重算/新data保存。open压缩已完成组件的冗余细账，逐字恢复802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e:open.md；未付义务全保。推前main e953335cc49c282de46bbaa832e6872b6c65188c 两README未变。等待实际新门同时继续其它核心问题。
+
+### 2026-11-15 10:53:00 UTC — 第二local与g/q准确消去；继续同对象high接口
+
+root全文审L9099B，独推L4–7、L11–15的矩阵次序；newton已独核前三组。G0(MZ)的ZX系数以K²=TI准确为0，G0(Kw0)的交换项是QE(xI+iεyK)w0；代P17得L13并保QφK+QyE。L2的E12在左，g/q保完整rankφ与vφ、input n^-1/n^-2以及全部old/physical mean。B_j另有真实old域，不能从canonical域假推。正文blob b8528e8116b18b1d415eb2a5c4c54d503e56ec9a/SHA25682a036cdb4134803a8b7a0d8a31d02f7c9bb6901ffa887a3f2e7c4dbce329d27。新数值等待唯一P run43705772615/1的actual主导。
+
+root亲读Green10:44实际小快照，两流5970全成，past2928/24groups，尚未final；runner真pull cf52ab6728e836de3a6a7d915d02f839e8a992c4两README空。newton追到whole_parameter_half_width=1e−9是祖先worker的继承字段，真实same-F数学identity固定repaired M32 δ0/原ν，不能转授参数BVP。selectedδ*高相位必须同一对象衔接。既有P16路线保all regular/physical fourth/mean和waist u，ν关phase，waist振幅为几何输出；不另加固定α方程。推前main ca17d990ad20f4ab2bc9fd1412ff6f19370fb010两README相同。

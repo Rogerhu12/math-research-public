@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)：原regular transport合并2w1T+cT w1，完整L2保持E12只取第二分量及原R_j(w0)/输入n^-1。G0(MZ)的ZX因K²=TI准确取消，g保真实n^-2逆矩阵rankφ，q保vφ及全mean；可用leading connection继续合并。须真正共用old-circle逆域/两source窗、|ρ|^-1/4根包络与seam；只授解析恒等，尚无数值改善或high返回通过。
+
 - [regular transport下第一local向量的精确消去](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)：w1=M(A,B)原regular积分给P(A,B)，leading有序intertwiner与E12左乘保全部真实势/mean后消去未相关w1rr；根商Xi可去，最后E12只取b0/b0T。原S canonical域/路径已核，新缩域预算尚待Actions；可用18个已成positive系数和严格旧预算数lower对整local_raw1统一缩放；P26明确保每点|ρ|^-1/4与原平方dr根权，不重算旧6行/积分。尚不授数值改善、负侧BVP/trace或strong-return。
 
 - [固定物理H8193输入的exact body与far](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md) §11：真实γ只需A0/rγ≤1/128及H8193/rγ≤2^1048576，无正角宽。RG原94/G seed经B端分离平滑保全，端点核最高费用5530265<6291456；原1734/1796、Nash门、全部mean/physical单位及同seed E1856差<2^-1700000000均不变。S40–41与T§10真盘随之成立。只逐γ存在，不冒选解图可微/Γ2不变，实际coreγ低高门与所有内匹配仍待。

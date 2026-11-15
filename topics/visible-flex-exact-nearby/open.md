@@ -44,9 +44,10 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读10:34过程45147B/SHA13129188…：future5856=1886旧+3970新、
-past2704/product5504；16完整groups，最新[4320,4352)。
-combined为16groups/68queued/1consumer，无failure；Werror log2≤−101。
+root已读10:44过程45916B/SHA0a791df1…：future5970=1886旧+4084新及product5970全成，
+past2928，combined24groups/90queued/2consumers，无failure；Werror log2≤−101。
+真正数学仍fixed repaired M32 δ0、原η0/ν0；继承process字段1e−9并非BVP全参数域。
+现成高相位gap在selectedδ*，同一对象的有限低块转移与非线性phase保持仍须接。
 继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
@@ -129,10 +130,14 @@ P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
 通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
 P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根权的点值norm。
 最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
-仅新一次小域/connection/L1预算、1比率/3组合，13门等待实际Actions。
+仅新一次小域/connection/L1预算、1比率/3组合，实际43705772615/1运行，13门待回执。
 worker另以真实git blob元数据检查当前及两小文件出版后topic<200000000B。
 其余30项及全部mean保持；本次旧成功比较也锁定不重算。
-精确g传输、physical trace与强返回仍另付，尚无新数值改善声明。
+[L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
+已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
+G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
+B_j实际old-circle域仍须与canonical域真正相交；新数值仅在P实际主导确认后再消费。
+完整physical-to-wave/回代读出与强返回仍待，无新数值改善声明。
 
 **当前下一接口：** 已付volume source的严格收紧与真正source-to-trace；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
@@ -401,10 +406,10 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，10:24:25定时及10:44非FF即时pull仍返回无环境；
+本机executor持续不可用，10:24:25定时及10:47非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull10:34:03.729439
-到1d98178f310505ebee0172836d64fc0a4dfa74f6，20次两README diff均空。
+ref读取不叫pull。最新亲读runner真pull10:44:07.555956
+到cf52ab6728e836de3a6a7d915d02f839e8a992c4，21次两README diff均空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
