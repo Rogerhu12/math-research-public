@@ -504,3 +504,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R324同C有限头通量与完整闭管包含
 
 [R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)14346B/f99acd8b全文核完即推：j=w·k在真实piece x下准确等价，原primitive闭R界、正二幂平衡/原列尺度、Taylor完整余项与Duhamel含全初盒误差、所有cut逆像闭管同归一hull均给包含；全部112 Robin和逐h非零DN分清。148源继续，无实际有限头/DN/非线性预付；H压缩保全部正文/在跑索引/147未发三blob，根8/API核规则非pull。
+
+## 2026-11-15 /root — R320真实146完整两法向与同字回溯
+
+[R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)28950B/124c4254完整全文核后即发：run43716274591两job success，8方向15trial8接受，全finalfalse；8组141段/fullview1329928B/9593cb0a完整重建，42normal/84两P全返，五次20档拒均有p/残差同字后缀。10shadow直接救回0，同点real/complex实部差、54FD/Arb/453圆完整保，149转一致高精度完整链且64投影另记；147只借真末九参数不借旧场/域/J。根8小文本快进/API核双README非pull。

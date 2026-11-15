@@ -113,7 +113,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 
 
-[146原两法向直接响应入口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)八件全文/旧93+5 pins核同后立即本库执行：真142末九p与radius1.9073486328125e−7，一个原8方向批。每normal保fresh完整3×9 J/旧JP诊断，沿同固定两P原complex evaluate形成3×2，仅末两行替换原2×2QR；原12×20/20外档/完整3 Armijo/半径/FD/Arb/453圆/112/final责任逐字保持。helper485e5fd8/producerc717bafb/request80f2fa09/wf8e01c9d2，新96+6 pins；全probe/失败/改选来源完整分段读回，不把direct当精度证书，不冒142同初点对照，不增验收门或raw归档。新实际run按本次source追踪。
+[146 R320完整结果](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)run43716274591/source69765fcd，compute132818390627/report132818651357全success；8方向15trial8接受，W4.963213789045473→4.963213788832056/radius4.76837158203125e−8，全finalfalse。8组141段/fullview1329928B/9593cb0a完整原字重建；42normal/84两P探测全返回，148内trial/5次20档全拒均有p九词+三残差同字后缀，10shadow/直接救回0，8接受仅1 selectedtoltrue。首same-p real/complex实部不同，完整54FD/160bitArb/453圆及未付范围保；原96+6 pins及所有预算/门见[146入口](notes/2026-11-15-request146-direct-two-normal-response-interface.md)。149转完整参数更新/primal/response一致高精度，保原字面表范围和64投影检查独立；147新g只取实际末九参数，不能借本轮域或J。
 
 
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。

@@ -162,3 +162,5 @@
 - [R323：有限严格cut盒的显式统一dyadic短窗](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)：原11构造条件/正coast的直接参数公式；core全域、当前九参数与实际147未预付。
 
 - [R324：同C有限头通量与完整闭管](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)：原primitive系数、无pivot尺度、Taylor/Duhamel和全部cut逆像的严格包含；实际112/DN未预付。
+
+- [R320：真实146完整两法向响应与有限参数词分辨率](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)：全8方向15trial、84实探、五次20档拒和完整原最终门；全部finalfalse，后继一致高精度。
