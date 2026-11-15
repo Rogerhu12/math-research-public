@@ -83,9 +83,9 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)C1440/六primitive/两域/cut/deep112齐，whole2888+1精度未付；rFar0.05056158669090205在node8整盒外。far m2..16完，m18在200000止，row9616/piece1339/闭[3/512,1/128]和后缀[9617,10387)、m20..224未启；native client尚未启动，非原试步拒。[R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)每闭候选先保原幅符号与严格范数、形成原QF=1同取向单位行后才hull，不除高度；数值代表不证同一准确C成员且新权会改变浮点轨迹。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件/25pins已发，实际43739491932/sourcefbb6a6c9；R347全幅/误差/闭管与prepared/commit账、原C3600/两query/deep112保。sampling14400+1800启动同比clip预留native3600；18900不是全阶段kill，job360硬限。原+0H一请求/576stage/577态/32×10/2e−9/η1/η0/full112/338/audit全保；完整读回和同源marker/owner静止才清，geometry唯一actual。
 
-[159入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)λ.001/R320完整九p、699×453 prepared仅初猜，前三scalar active/后六冻结、109core自由；57pins、原147构造/24native源，同job C3600/cut/factory/R312/sampler后完整RHS/preflight，首H来自真实当前端点/MaterialTrace。profile自己的E/Ep不由native覆盖，原五jet比较保。
+[159入口](notes/2026-11-15-current-C-full453-physical-DN-interface.md)的实际终态由geometry完整核R348；不能据顶层failure猜非零BVP拒绝。[169完整接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件已发，58直接pins/driver51/native25；沿168新射影/单位取向far源接原完整453过程。原λ.001/R320完整九p、699×453 prepare112仅初猜，前三scalar active/后六冻结、109core自由；原三C输入/两个闭query/147构造/R312深端保。当前真实H仍来自本次端点/MaterialTrace，profile自己的E/Ep和原五jet比较不变，不能借159或旧anchor预填。
 
-同一owner真实H/J→原三扰动/两法Richardson边界FD→8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；完整112/338、原32×10/2e−9/FD5e−5保，18入口不是新截断门。job360/science315/read45/BVP7200clip余量、32GiB起盘/2GiB余量只资源。signal转发独立组并确认停、读错非零阻清理；未付不伪已删再续。数值代表/逐点中值/JSexp不证同一准确C、无限非线性DN或九冻结450同g精化。
+同一owner真实H/J→原三扰动/两法Richardson边界FD→8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；完整112/338、32×10/2e−9/FD5e−5保持，18入口说明不作为新截断门。sampling声明14400+1800，实际rules启动后同比clip并预留原BVP7200；18900是此前阶段启动计划而非通用kill，原BVP launcher开始后才按其真实namespace截止。job360/read45、32GiB起盘/2GiB余量只资源，未保证所有阶段完成。六完整读回success、同run/source marker、父PID/start_ticks和科学独占PGID静止后才清；不要求runner公共组为空。169不等168零响应作新前门；数值代表/逐点中值/JSexp不证同一准确C、无限非线性DN或九冻结450同g精化。
 
 ## 4. 同一g闭合与真正九冻结450
 

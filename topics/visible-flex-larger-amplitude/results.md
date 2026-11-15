@@ -268,3 +268,5 @@
 - [R350：实际167对原157的完整FD层、84试探及末方向读回](results/R350-actual167-original157-FD-trials-and-last-direction.md)：第五版80173B单结论成功；18FD层全valid，末第一残差仍约−3.15而缩放梯度约1e−26，非精确驻点/秩证书。四组normal七列全同且全拒；域/圆与大矩阵仅身份范围明确，164独立继续新形状族。
 
 - [Request171：真实原37八批后同次作业接完整38查询](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)：十件/97pins；从actual98真实重生，保原末pair字节再增LEFT462/node462完整B支持，原17档/模型预算/全部FD门保。300分钟含输入恢复，资源不保证16批；未预填场或较大步，原170诊断独立。
+
+- [Request169：射影当前C来源接完整453物理DN](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)：七件/58pins，原九p/λ.001/453初猜仅来源，实际H/J/FD及原8/17/32×10/final audit全保。sampling给BVP7200预留、原launcher实截止和六读回后自有清理均明确；无实际BVP接受预填，不等待168作为新增门。

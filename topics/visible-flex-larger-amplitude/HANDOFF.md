@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:12:14 UTC 已读 1c53f45d2b5e35250f161cbc0484529ff08ae5da，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:13:32 UTC 已读 a5bb0d6f11624304e4b77dccba0a29aaf56ea774，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -32,9 +32,9 @@
 
 [R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64五fresh J/R273、4接受/15残差拒/0DSA；末norm2317.31958952296，13264.184668586s非预算止。完整129248形成模型约.208非实际导数，FD/fullDN/final未起。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证同模型差额d=b+Aq+s，分离基点路径/真实状态形成/有限割线；172由geometry真实重生/诊断，root核R360；不改原32×10门。
 
-[R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败，112/338或230列未起。v2仅修词法/类型；[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins/19200s接全stage112/338/audit，[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128，数学/门不变，actual唯一读。
+[R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败、最终门未起。[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins接全stage112/338/audit；[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128、19200s，v2仅修词法/类型，数学门不变。
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8原37/FD与23trial/8接受齐，末两最近拒仅未选LEFT462；非BVP。末pair已清。[171接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发：真98→原37八批→保同job真实末pair→新增LEFT462/node462的38模型/FD，17档不变；300min含恢复/320science/350job、预算不保16批。exact唯一actual。
+[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8原37/FD与23trial/8接受齐，末两最近拒仅未选LEFT462；非BVP。末pair已清。[171接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发：真98→原37八批→保同job真实末pair→新增LEFT462/node462的38模型/FD，17档不变；300min含恢复/320science/350job、预算不保16批。实际43739787509/source298c7dbe，exact核R361。
 
 [R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：43734326402/sourcec3a7531d原α1/8接受/FD过；全75776×17，α≤1/8仿射闭段全正，α1/4同实际12坏行；37配74真实calls，148×453点态恒等全齐，整α由R354/170继续。
 
@@ -46,7 +46,7 @@
 
 [R342实际153](results/R342-actual153-complete-C-and-partial-physical-far-native-unstarted.md)：C/cut/deep112齐；far m2..16完、m18在200000止，原9616闭栈/10387末索引/全后缀保。native未启动，不是原试步拒。
 
-[159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)：λ.001/R320九p/699×453只初猜，57pins同job C/factory/sampler→真实H/J/原FD→453fullDN/fresh audit，8outer/17inner/32×10保；315min科学计划/45min读回、BVP7200clip，独立组signal/读错阻清。共同准确C/JSexp/无限DN另付。
+[159](notes/2026-11-15-current-C-full453-physical-DN-interface.md)终态由geometry核R348。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)七件/58pins已发：168新far源→同owner真实H/J/原FD→453fullDN/fresh audit，λ.001/R320九p/699×453仅初猜，8/17/32×10保。sampling同比clip预留原BVP7200，18900仅启动计划；六读回/marker/owner静止才清，共同准确C/JSexp/无限DN另付。
 
 [R357](results/R357-original-C-oriented-unit-Robin-family-enclosures.md)先按每候选原幅符号归一化、再hull；范数须隔零，数值代表非准确C成员。[168接口](notes/2026-11-15-current-C-projective-physical-far-and-native-interface.md)九件已发：25pins、R347全幅/误差、14400+1800按剩余比例clip并预留native3600；18900仅启动计划/360min硬限。原112/32×10/2e−9及η1/η0保，完整读回与owner静止后清；实际43739491932/sourcefbb6a6c9，geometry唯一读；不冒旧浮点轨迹。
 

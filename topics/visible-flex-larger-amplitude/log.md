@@ -173,3 +173,7 @@ R357 12355B/286f17ee完整证明核原sampler坐标式后即发：逐候选恢�
 ## 2026-11-15 17:12:14 UTC /root — request171同job真37到38完整续算
 
 核四数学完整差异及reader/worker/workflow全文，原90recipe源逐键保、新96+worker共97；十件即发，真实末pair动态SHA仍受完整producer验证。仅新增LEFT462/node462，原trial/FD/预算不改；open全文29624B以相对链接调整归档后合入最新已付事实，闭场/全t/metric责任不减。API核1c53f45d2b5e35250f161cbc0484529ff08ae5da双README未变，真pull保。
+
+## 2026-11-15 17:13:32 UTC /root — request169完整453当前C入口
+
+七件/全部新差异已读即发，58/51/25字典逐项同、helper12476B/a2af90fc核同；原159数学与实际初猜/九p/所有门保，采用168独立far来源可改变数值权与轨迹。sampling资源裁剪、原BVP截止及六读回/marker/真实owner静止后清明确。171已run43739787509；API核a5bb0d6f11624304e4b77dccba0a29aaf56ea774双README未变，真pull保。
