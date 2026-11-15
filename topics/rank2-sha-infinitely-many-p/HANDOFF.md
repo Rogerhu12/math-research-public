@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；持续研究，不以阶段结果或时长收尾。**
-- 最近已读规则提交：7e8879bb7ec4e04f4eb04d0f33a0a267823cd9ba；2026-11-15 14:01:17 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:01:16 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
+- 最近已读规则提交：7c7c5e1bdad571096a04507d1a5a4f09d27749ae；2026-11-15 14:05:26 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:05:25 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main，旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase重推至成功，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核根/题README；变动只读差异即执行、记提交。root15@708f058a变更已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 13:45:20 UTC/run43720635080/job132831644669、head4dcc434d，两README差异空且blob同；回执ci/rule-pull-20261115T134520.json。下次最迟14:25 UTC。
@@ -12,7 +12,7 @@
 
 ## 完整检查点与分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r764-r765.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–766已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[压缩前全文](notes/2026-11-15-frontier-before-r764-r765.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–766已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md；open压缩前全文notes/2026-11-15-open-before-r767.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta续R764条件负一行的完整五伙伴来源与全部浅独占支；deep续R766实际主部小矩阵与vF全normal同R；literature续O4/O6完整Selmer最早节点；root续新三格算术桥和全来源联立。
 固定四次E17及j0 E17/E24/E2312 rank2已付；全Selmer桥保完整Sha，仍须无穷不同p至少一条固定原J′非零。非中央负矩、有限p和附近变化来源均不完成。
 

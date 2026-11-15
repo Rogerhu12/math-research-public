@@ -72,137 +72,46 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 
 ## 当前完整来源和接续
 
-压缩前逐条原条件与全部旧链接完整保于[本次open全文](notes/2026-11-15-open-before-r750.md)，沿链继续；旧R364/R561/R654/R712未关闭。
+截至R766的逐条原条件、全常数和旧链接保于[本次open全文](notes/2026-11-15-open-before-r767.md)，沿前归档链继续；R364/R561/R654/R712均未关闭。以下只列仍须解决的真实接口；所有完整证明入口见[当前索引](notes/PROOF-INDEX-R751-R800.md)。
 
-### 普通：原有限来源已识别，中央桥仍缺
+### 普通：完整来源已识别，原中央传播仍缺
 
-R698/702原全部失败补域、八关系/45整逆、Edeep三态及浅E的Xi/参考/外谱保。R713整个配对T内外无条件反号；真实纯中性ζ使全部已付正规/同门词行零而负一深支非零，所以这些零本身不能新增混合约束。R715同50实列保J2=1/全部正规且整个FZ零；R719完整52行/149列定位真实型5；R734同5×5整逆给q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147，J2=(a+b)/a单位、全部π4和原ray密度一/全N4保。
+原R734最终q*、同一5×5整逆、两核修正、六支次数逆、N∈4Z、原射线/λ/κ/κ^N保持。R735的原Q2/Q4完整period/local Q和负一非零已付；R737的G4+λHW+γλHV与R742有限来源极限保全部paired外部，严格反号补偿未被删除。R748/751/752/754的全部有限χ/点域/五伙伴/相位和三个实际平凡点比例均保；R753说明point-only投影不连续，不能以p^N数值尾将其作用到无限log。
 
-R732全型5 CM13最小(T+1)(T+ω²)(T³+ω)及primitive三维块保。R733真实Q2=(-4/t²,15/17)、Q4=(42/t4,397/289)，t³17，Kummer角色ω/ω²且非扭。R735全2/3/17向量/周期与严格rank1给ΩI_k=A_k logQk，AST全p独立，原q*的(c/a)D2+(1/a)D4负矩非零。固定p充分大N的原P31行v=N+vI∞<2N；全部paired-T外部仍精确反号，未付原J′非零。
+R757原type0全六谱中只有S质量为零；其余质量或rank0非零不支付原S中央。R759/761给D_S=(11/21)Dω+Rprim，完整三primitive九阶角色、共享cyclic9点域及真实2处惯性已付；公开13纤维run43717518190使point-only e2投影严格证明i_DS≠0、i_CγS≠0。中央身份仍有I_MD′/I_GS′和质量补偿，不能删去。
 
-R737同q*全部E/Z共同深层由Q1=∏a≤30(T²−λ6κ2(a+1))消去，P31再提冻结差；保每个移位/条件质量和原各O_i端点。primitive同域准确G4+λHW+γλHV，两个返回均e1且保不同zW/yW,zV/yV与移动E门，不能忘伙伴再添门。
-R742固定r=n−N，整式除uλ4N后真u→0只需门≤r+124；r1≤125。全部权来自同原单位逆、逐系数有理正则极限；λκ不冻。K(17²)/Heis17Λ固定完整Y模块，旧模289射线给双返回固定17算子及阶整除17关系，非scalar；quarter-safe BK保half-base/c0/全部配对。两负一投影各非零且保全外部，仍无独立中央关系。
+[R762](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md) 的真实σ⊗H33/Cayley族穿过原S；unit/质量不动，∂uM=d_p s𝕀_DS，中央横向导数非零。原J′S若零则为simple-u-zero。actual deep切向与冻结even-core差(β−λκ)zDS(κz)≠0。[完整剪切附录B](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md) 已支付dual/row有理酉与完整toric-period共轭、17处全部(j,−j) gluing；先投S的τ12会杀这个非零切向。**继续：** 真正同固定Lp、全local units的身份，或其它完整原中央关系；附近来源非零不能替主目标。
 
-R740完整六轴/原17球付W,V裸三次投影零，但κ全局norm1使Yκ仍norm34并保三次gluing。R745全部finite门/正交正矩代数化保原列y^t、Ω次数与Mumford相位；通用清返回分母d=36barπ给degree34·36²p不可删。R747对指定双core连全部门/观察/投影已逆搬原e0/Y；唯一p-primary提升给共同34p^M、M125足够，原bad向量/t_+及伙伴深度均保。K-defined自然下降不等point-only。
+[最终q*的T不变性](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md) 与[四反射完整边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md) 保原两态及所有未忘输入；q独立于新t轴，但仍依其它伙伴，cd返回Φ_N不是q。[R764](results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md) 给整数Gram(6,6,3,3,1,1)/det−18与whole绝对核，新t轴同时固定Y/q*，完整Y/t矩形返回原J_S。三CD域在精确浅环带互斥，深交相同；O的完整失败门须m≥n才同域，E→E⊥+(17+3ω)κ^m t及W_j=P−aω^(2j)κ^m t保。共同域差仅留1mod3幂，首κ^m∫q*t/P及p^(4m)尾保。**继续：** 保五伙伴求真实条件type5负一来源，并连全部浅独占支/E门/外部；不能以完整矩形零或裸负一非零替换该条件行。
 
-R739/R744 Q2,Q4相对原E17/E24在17-unram点及E2312在2/17-unram点的全p log分离齐付；E2312二处门由(-8,30√2)回Q2证明必需。须先实际积分点身份，不由球性自动给域。
-R746/R748两Dk全合法finiteχ精确平方/共同Ω线性点式付清：χ|μ6=1、ρ只p分歧，pointρ、完整good pair/LZZ localQ、dual型/负locus及twist下降保；仅非零后GZ/Kolyvagin推rank1。R749点tensor的log单射准许固定全部系数的point-only投影；非零(k,χ)独立，Φ门平凡部hatΦ(1)ΩI_k1。Q2⊗t²自然trace不等point-only反例保。
+四原单位盘/自由词与Σ∞、A34移动精度n+34及R715真实中性测试继续保持；来源闭环不产生真实同域关系，不能删无穷剩余域。
 
-R751第二dyadic t_+实际type3、同τk但正权ψ_(6−k)，完整degree34半特征/正权常数/所有finiteχ点公式已付。首r_k按真实首非零定义，不猜3。仅χ(ζ)=ζ4存活；实际点域2/17/p分歧，映E1后17角色与Dk相同、2不同。有限point-I_p平均杀全plus及minus非平凡χ，留ΣhatΦ−k(1)ΩI_k1，不假设混合域直积。R752已付实际多变量门完整分解，R754续三区域真实均值。
+### 深支：实际小矩阵、指定v_F与完整同R
 
-R753 point-only投影在Cp数值拓扑不连续，原Q2/Q4、固定数域有界系数已构反例；实际有限point载体和逐系数代数极限才可交换。R742先有限来源极限再识别合法，原完整log却有无限负j矩，有限点公式和p^N尾界不够。下一目标仍是原各O_i完整log的独立同域关系，或从实际J′零推出的额外条件；不能对scalar中央零任添谱投影。
+保原M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角、首核p²/p³及所有高尾。R495的H1(mC)=0不等H1(BD−C)=0。R741完整FH2限制Smith unit/p、R743缩放M单位秩≥359κ/96均不代全来源或全有序旗标。R738的终止计数仅到h>3κ/2，尚不能盖h/κ≈9/8。
 
-R728原D=ζP−P′/34、ζP=σ′(P/σ)与完整σ/odd33卷积保；负一w0可用P质量零，中央导数保J_P′。全部近消m层β^m(1−hκ)D+ell_mP′/34及尺度log齐付。原P不自动等S，既有有限交检不相容；不能凭型/degree替换来源。
+[R750](results/R750-whole-source-residual-divisor-and-specified-forcing-residue-rows.md) 以原低r真实右逆（保高尾）和实际主部V_E′给全值左核。值可解iff所有实际Res(f_Bω)=0；之后仍在同一R*+Kval联立normal、两13、第三块和d₂。全F增补给δ_C=h1(BD−C)、dimV_E′=e′−δ_C，primitive门先迫ord𝔅≥T_M+13。[较小Bockstein](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md) 保
+Ω_B(ω)=Res[(v_F−c_F)B0ω]，
+v_F=π_L(F(t,g)/p)=eξ，c_F=e b_s t^(k−r)u²/(2a)，L=h−k−13−ρ。
+真实输入全在首Gaussian之前，≤13极仍读正则尾；v_F不可独立指定，更换F整提升须同步R。
 
-### 深支：全WD值左核已付，完整同R未决
+[R755](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md) 已封全部cube值自由度：d^-CD F³H0(E)进kerJbar恰H0∈t^(r−k)，合法cube全值Bockstein零；未过门仅改末(2(r−k)−13)+行。修复PB须准确≤13原jet命中，修后𝔅系数−1/6且值类不随选择变；C4/ξ/完整U0/w13和其余块仍保。整块单射增补在e_E<min(κ,h−(13−2(r−k))_+)下给全部cube限制Smith恰全p，其他全WD列仍可能吸收。
 
-M=c*U0m13J、P134/charge40、13free/26carry、conductor10980、十九角、ξ0、首核p²/p³及两13/carry移行均保。一般清极+3，R701的+2须原两∞矩与顶帽；未知R无免费奇偶。R709原平面297/20旗标门不搬47/8临界。原来源代数维2及全D/k整估值(aI,bI)=(0,3)未改善，需aI+2bI<3。
+[R765](results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md) 给完整F整除空间零角r_F；k<r_F时第三13+k单位行迫非F的高接触restriction和ν_k=−c_k≠0。[R766](results/R766-actual-principal-part-normal-functional-and-specified-small-obstruction.md) 已证ν_k下降到实际V_E′并杀H0(N³)，原n0/2/3列给d_k(v_k)=1的明确单位主部及完整高尾。因此V_E′=0在此范围已被排除。值与选定normal同解恰
+O_T(v_k)∈O_T(ker d_k)；
+若O_T*ω=d_k有解，显示Λ_ω逐列杀全M并对完整cube forcing取单位c_k。
+**继续：** 判这个实际成员性/构造指定ω，并处理同一R的全部其它normal/两13/d₂；线代充要式不冒已经解出矩阵。非cube的原v_F残数同时继续。
 
-R495全H3同预算及值/normal联合短jet满射；原R722/726/727单位子块、3charge与同商(0,16cz_c)只在各准确范围，不相加子块秩排全像。R730固定六纤维ODE给真实UA|Z非零及FH2商的实际镜轴核，若吸收会产生另一个首核；不能假设K1一维。
-R731镜轴BmodF²唯一、ρ≤2κ−h；高ρ分支保Mη镜尾和漏13，真2h延拓/H_B常数、ell−k1空末测试仍保。R741指定Vη首位H=h+k+ρ单位、原M行13+H<s，因子保持整提升需真极；其投影不杀全首像。完整FH2 Smith只有unit/p，非F列加入会改余核，PB+pA须同步R−A。
+### 惰性：新导数三格和原全中央门
 
-R738平衡族吸收给更高前缀真核，新核可非cube；原零角d0≤floor((4r+2)/3)和容量2v(v+d0−1)−min(v,r−k)保。全真实前缀h+vd0≤2κ的终止计数只到h>3κ/2，不能覆盖9κ/8。
-R743实际顶系数六固定纤维/tame正规分支给h≤6γ+2a+14b−6；d<p残余线系用primitive t+cY及完整复合次数界两个真核。临界aη≤13κ/32、bη≤17κ/48，整H3单位秩≥359κ/96+oκ；缺陷≤73κ/96只属强因子窗，未付全有序旗标运输，不能代进旧bI门。
+[R756](results/R756-original-norm-three-map-and-complete-canonical-return.md)/[R758](results/R758-full-norm-three-multiplier-space-and-optimal-leading-budget.md) 已付全Norm3统一有理乘子的精确最优主预算177/47；免费3C公共乘法返回被下界排除。原G0、h→h+a、全Euler两jet和所有Gaussian修正保，后续只针对实际F/真子格/不同算子。
 
-R750在1≤ell≤r≤13付完整值forcing fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅) modtT，N0=s−13、T=N0−r；末r−k位𝔅保。原n2低r实列给整右逆并保高尾。全WD归一曲线值UD⊂N³(E′)，E|C=rP+E′，e′=BD·C−3κ−r；其超出H0(N³)的真自由度正是实际主部VE′，并非自由局部jet。D_T=H0(ωN^-3(TP))中杀全VE′的Rosenlicht残数行是实际值左核；低右逆合成真正杀全WD的行，值可解iffResP(fBω)全部零。ξ之前整初段已由原H3吸收。
+[R760](results/R760-positive-derivative-three-coordinate-grid-and-full-slope-threshold.md) 新三格(S,T,(S′)^6)的代数独立、复增长1/3、全部普通饱和jet≤1已付；惰性无条件成本仍3klogk，严格门为同一全flag的a_I+3b_I<6。新U非原U136，不能赋旧中央零。[R763](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md) 给Q=1+xζ/y及U的完整六次式、Q的Norm3仿射返回和真实ε/ε²；去charge204 Gaussian后p[ws]正规化U≡34pc单位，Q°同源6s t3(v/d)χw^s次位也保。**继续：** 实际新来源的完整旧列/正导数关系与中央失败→全ordered flag界，不借六次根、affine代入或单列分母免除全格预算。
 
-**继续：** 原R750指定残数是否非零及全normal/carry同R。e′≤floor((BD²−9κ)/3)−r，主阶无余量时O(b)，此维数本身不付非零。值解仅给R*+Kval；完整F整除来源、高值核及实际主部核全参与余块，两组13/第三块/d2必须由同R解决。不能把值充要门冒完整p²充要门。
+R707/708 trace前缀、R714/717–725/729高度二/AH/CM只确定同一真实来源。R716原first-wild阶p/导子p²/root+和Φp边界保；j34与该边界都零才λ≥p+3，μ0不付跨p首层。R724须完整annulus o(p²)，不是固定α或Haar替代。R736完整B3/R10404的47整格、公开Hecke核47→7→1、base0、c_int81/68、全At偶且和0、whole normalizer A0∈4Z与固定2048类0/2保；仍须C_pv无限p非零，且原中央→边界另证。完整producer/run/hash在归档与对应证明。
 
-### 惰性、真实第一wild与中央接口
+### O4/O6：真实全球位置和完整Selmer
 
-R707/708原三个m的完整trace零iff原g_h前缀（全p−2或αp,α>3/4）；m136独立j0且p>136。R710全阶carry/normal/Q/正则项保，j0一般只迫首余数p整除，不迫全前缀。R711第六行η/7κ5及低商保。
-R714/717–725真实高度二有理参数/AH二位/全窗模型均付；R729准确Norm3/7分布、Gaussian/Fermat及密度一全CM恢复，仍只唯一确定实际来源，非中央非零。小degree3/7不免费回旧十九角WD；全局极帽、其它零点留数及正则项不可删。
+O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺全Np有限/λ≤3无限p。supersingular regulator的H=cℓℓ^t尚可存，AST线性独立与strict局部向量不足。
 
-R716原firstwild阶p/导子p²/root+，L/Ω=48940416|S_r|²/p；所有r同Galois轨道。边界零iffΦp因子，j34=0且边界零才λp≥p+3；μ0无统一λ，固定p深层非零不付变化p首层。R724全有理主项9π/(17√3)、非实anti-Fermat及Gaussian尾保；须整annulus o(p²)，指定平移0不冒Haar平均、固定α误差不能统一全p-dependentΔ。
-
-R736原B3/R10404全部2/3/17、2176→368/plus184/47整坐标及公开Hecke核47→7→1已付；base0、值0,±1,±2、c_int81/68。全A_t由primitive Normβp²和真实ell_p=t读取，modp²二位保；A_t∈2Z、ΣA0，正对角及δ项为2D仍可被其它同步补偿。whole right-j正、Gaussian base A0∈4Z，下一位保全κ_p；固定2048类仅0/2，无奇见证。同R全αj仅Qi/K，未漏免费二次base。继续C_pv的无限p非零，且原j34→边界另须证明。
-
-### 其他原路线
-
-O4原高秩Heegner/低增广a≤1、β(Q)非零与全Hilbert迹早项仍开。O6完整Np有限/λ≤3的跨p上界仍开；不以μ0、细Selmer或局部外积替代。supersingular原height矩阵det/q同时零仍允许H=cℓℓᵀ，AST未排这个实际Cp系数；strict向量不是已存在的全局Selmer类。继续各原准确量词，不把有限p证书当主目标。
-
-
-R752完整闭合实际native门：深伙伴与Y正交，第一Y只含p挠，τk全块Dk/P+k给唯一Φ±modp、Φ±(0)=0及角0/4。primitive整源去Yunit后C Dk，C由完整Y5Z正矩（最高总次数36）读取；原过滤式逐p/k/r窗口迫至少一个C非零。étale theta平均/下降取c0，point-I_p平凡部精确p c0/(p−1)，各深伙伴系数和原λHW/γλHV保。继续R754三个实际区域系数；原各O_i完整log与中央关系仍未从这些无条件身份推出。
-
-
-R754已付原G/W/V在完整五伙伴保留下的真实平凡点比例(p−3)/(p−1)、1/(p−1)、1/(p−1)，含原λ和γλ。两个非零根在每个Zunit伙伴纤维上计数，未假设theta测度均匀。R742原过滤后三份各非零且严格相加为primitive，paired外部相反补偿保；因此不能删任一返回支。下一步是原type0中央的完整算术值空间与真正独立同域关系。
-
-
-R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)：全F整除WD的六Gauss逐charge基、H1(BD)=0及δC=h1(BD−C)齐付，真实主部像维=e′−δC；原第二13带迫primitive p²候选ord𝔅≥T_M+13，过此门才可消末尾并得到含全部ξ的简化残数。原同R/normal/第三块/d2均保，未断言实际残数必非零。
-继续实际ξ项与原全值左核配对；H1(BD)=0不等H1(BD−C)=0，主部缺额按全F整除基读取。两13带非零时已直接排此PB，全部为零后也未支付剩余normal/carry同R。
-
-[R756](results/R756-original-norm-three-map-and-complete-canonical-return.md)：已证明原Norm3在(t,Θ,Y)上的准确映射、固定v12清新极以及全部WD的显示公共乘子返回，最高charge为3D+ceil((36D+181)/47)，保十九角与指数系数成本。原G0比值、低轴h→h+a、完整Euler两jet及高度二Gaussian均保；充分上界不冒原3C同预算或新中央零。
-
-继续依赖真实F的同预算返回与指定ξ残数；统一Norm3返回主系数177/47和完整Gaussian费用不能压成免费3C，低轴的同源接触不乘三。
-
-- [原中央剪切与固定表示门槛](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：已证明真实保Gram参数下的完整Mellin一阶项，moving权、尺度质量和原全部有限门均保；Fourier变分zD的准确周期差说明固定theta cover内的遗漏连接。给同一固定Lp且完整局部单位平方时的中央零传播充分条件，并保实际Hecke权错位；当前尚未建立该固定表示身份。
-
-继续检验原完整automorphic/mixed-motive映射是否给固定Lp身份；同范数、finite-source关系和已付点非零本身均未给该身份，全部O_i补域和连接必须同时保留。
-
-- [R757](results/R757-original-type-zero-six-spectrum-and-order-nine-lines.md)：已证明原degree34 type0完整六谱；后三条primitive order9环面线的全2/3/17 Hecke角色、导子/root、Qζ9值域及准确三次实系数域齐付，非新E/Q。CM13全特征式和质量观察唯一核S给另五条质量非零，实际Yang给后三L(Ψ,1)>0；全权必须保阶18有限补偿，普通零权非零不赋中央导数零。
-
-续原S中央的全连接/固定表示，而非借另五条rank0或高维来源的零权值替代；前三原S/T/U及全部O_i实际域保持。
-
-- [原四个单位盘与A34移动门](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：已证明四轴实际物理矩阵的射影自由词作用、全部有限不交分区和无限剩余Σ∞，完整反向字母的平面κ倍率不删。A34经原共同E/Z缩放的整像及Y-unit/全观察/三十次权准确写出，精度随n增长到n+34；来源有限关系不代真实同域关系。
-
-继续真实深交域或A34新增关系；不能以D4来源闭环、Haar零测或趋向伙伴的轴删除原Σ∞、移动精度和外部。
-
-- [R750较小实际Bockstein与留数输入](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：已证明乘B0将整个真实左行转到H0(ωN^-1(LP−D_B))，native eξ准确为同一个整F的长度L普通首Bockstein。完整Gaussian≤13极与正则部均保；所需g modp²/η0全在原首共振前，仍未证明指定留数非零或完整normal/第三块同R。
-
-下一步计算/证明真实较小vF在指定全局λ上的配对，并在值解的同一R仿射空间处理全部normal/carry；更换F提升必须同步R。
-
-- [R758](results/R758-full-norm-three-multiplier-space-and-optimal-leading-budget.md)：已证明原Norm3全部统一有理乘子空间的准确直和；四类旧角的逐列等号、新极v12与精确无穷远帽f_m−1给完整充要条件。任何非零分量m≥ceil((36D+65)/47)，最小目标预算夹在3D+该下界与R756上界之间，相差至多3个charge；177/47主阶最优，特定F/非乘法返回及同R仍开。
-
-统一共同乘法Norm3免费3C接口已被准确下界排除；后续须针对实际F/真子格或不同算子，不能再以优化共同清分母声称该预算。主目标/实际ξ与同R仍未完成。
-
-[实际剪切附录A](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md#附录-a-原全来源的-angular-commutator-与-first-jet-的实际块)已证明原全部门下的精确角commutator：原边际读Π0,Y，物理first jet读Π5,Y⊗Π1,伙伴；先投S线则后者消失。保完整moving权、finiteχ及二阶尺度项，仍需合法跨块连接传播原中央零。
-
-- [R759](results/R759-original-cm13-connection-and-primitive-type-five-block.md)：已证明协变导数穿原全CM13迹的division-log修正及其在S上的全纯严格非零；原D_S还含两条已识别点线之外的非零primitive三维块，给明确线性见证。完整unit负一Mellin、连接近消与原J_S的准确补偿同时保留，非零截面未冒非零中央值。
-
-继续真实primitive型五的全坏处角色/点域及合法跨块恒等式，原全unit/有限χ/连接与mixed门不能因CM投影删除。
-
-- [最终q*的原三阶不变性与同权两态](notes/2026-11-15-final-carry-t-invariance-and-same-weight-states.md)：已证明完整六支次数逆逐点T不变，实际50列及两核修正全部继承，原λκu/深浅门/混次权不变。完整同权两态、三条W轴边际及scalar核心齐付；q依ξ4且cd域移动，未把不变性传给返回后ΦN或外部。
-
-继续原O_i在T三域上的真实转置及自由ξ4完整积分；既有π3/π4边际仍受neutralζ715约束，不能据T不变直接添中央零。
-
-- [R760](results/R760-positive-derivative-three-coordinate-grid-and-full-slope-threshold.md)：已证明由原S的正阶z导数构成的三坐标(S,T,(∂zS)^6)代数独立、复增长1/3，真实有界测度卷积使全部普通饱和jet无额外成本；惰性无条件包络仍3klogk。原全旗标给条件严格门aI+3bI<6及小于二次全层cutoff的准确反读；新格非旧WD有限扩张，未传播中央零或旧Smith增益。
-
-继续原中央失败对该真实三格的全惰性/有序饱和运输；保持完整六输入加法单位域，不能按乘法Mellin替代。旧R750实际ξ与同R路线保持。
-
-### R755：全部真实cube的值自由度已封闭
-
-[R755](results/R755-whole-original-cube-carry-filter-and-specified-value-class-invariance.md) 证明整个d^-CD F³H0(E)在原kerMbar内；进入kerJbar恰H0∈t^(r−k)，故所有仍合法的cube不能改变完整R750值类。未过门的来源只影响最后(2(r−k)−13)+行；允许更换PB时，先ord𝔅≥2h−r，再要求实际E来源的≤13jet命中，修复后𝔅系数准确变−1/6且与修复选择无关。C4=e³H1+(3/2)e²f2H0、ξ0、完整w13/U0与同R的两余块仍保。下一步是实际v_F指定留数与整个normal/第三块/d₂；不能用更大的合法cube消去值障碍，也不能把该值不变认成全余类不变。
-
-### R761：原连接来源的两个裸负一值已证明非零
-
-[R761](results/R761-primitive-type-five-ninth-order-characters-and-point-fields.md) 完整识别type5三条primitive角色、真实quadratic17扭曲、全权补偿/period/local Q及cyclic9点域H。公开原全13纤维给D_S=(11/21)Dω+Rprim，三r均5；H^{I2}=K(∛17)，point-only惯性投影保已知非零原Dω而杀三primitive，因而i_DS≠0、i_CγS≠0。无需假设三新角色解析秩一或每个primitive值非零。中央导数身份仍带完整I_MD′、I_GS′补偿；下一步检验through-S真实正交变分和fixed-representation传播，不把有限point投影延到无限log或把裸负一值冒原中央非零。
-
-[R755整块增补](notes/2026-11-15-r755-entire-cube-first-bockstein-injection.md) 已付在e_E<min(κ,h−(13−2(r−k))_+)下全部原cube限制Smith恰全p；其值投影虽零，完整余块不能同时零。仍需判断其全首Bockstein是否被完整WD的其他原列吸收，不能把限制矩阵因子冒全矩阵第二余类非零。
-
-- [原四输入反射/保x边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：已证明同一原六输入的四个单反射与分别偶来源h+=hW+e0/2，完整四变量K多项式和whole S4锚给全部独立深度矩形。保x的三变量边界准确ω²νσ⊗[1/2]νσ⁴⊗νσ/84；原q/Y/W仍依被忘输入，全部权和单位门必须完整转置。三个CD/O域与移动W_j观察均明确，未添原中央零。
-
-续将真实三CD/O域与W_j转置逐项联立；未加权三变量边界只适用因子化测试，原最终q*、Yunit/log与被忘坐标耦合，不能以边界替代完整六变量积分。
-
-### R762：已付穿过原S的实际非零中央横向方向
-
-[R762](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md) 由原σ⊗H33和完整Cayley族给∂uM(0,s)=d_p s𝕀_DS(s)；unit/质量不变，R761使∂uJ(0)≠0。若原J′S=0，它只是该来源族内的simple u-zero。完整positive/higher jets和p依赖深度门保；actual deep切向与冻结原ordinary eigline相差(β−λκ)zDS(κz)≠0。继续真正同一全局表示/全local-vector/period的fixed-Lp实现，或其他原中央路径；同范数、附近来源非零与p依赖小u均不能替代主目标。
-
-### R763：新三格的原仿射ζ与首共振已完整确定
-
-[R763](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md) 付新U的准确六次来源、Q的Norm3 affine返回与真实ε/ε²展开。去总Gaussian后p[ws]正规化U≡34pc是单位，不能按旧R614分子整性处理；Q°同源的6s t3(v/d)χw^s第二位亦必须保。继续在这个实际来源上建立原中央失败→新三格全ordered flag界；旧全WD/十三行/同R不能借六次根或affine代入免除。
-
-[真实剪切附录B](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md) 已付有理酉作用与全17处(j,−j) gluing；原S τ12和R762非零first jet τ3/1/7/13不同。已核Borade等2025 Thm5.6的完整period条件；先投原Katz角色会换掉非零切向，不能由Weil同表示直接推整条raw斜限制的同Lp身份。此具体接口已清楚，保其它完整automorphic实现仍可研究，继续O4/O6真实原始性与全Selmer门。
-
-[2026 Wang rank2-BSD稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md) 已按作者原文、Ribet原Theorem1及真实Nguyen2510.12890证明其两个起始局部条件相矛盾，并核全Selmer/λ比较缺口。该声明不能关闭O4/O6；纠正其等号或root符号仍须原最早节点、全部局部条件及目标p-unit，不以深节点非零或变化辅助形式复L非零替代。
-
-### R765：真正非F高接触restriction及指定normal行
-
-[R765](results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md) 给完整F整除空间的准确零角r_F。k<r_F（特别ell1/k0/m≥3）时，第三单位行排除整个该空间；完整R须有非零restriction、ord≥s−13，并在真实restriction像上满足代表无关ν_k=−c_k≠0。接续计算这个高接触像上的ν_k，并与全部normal/两13/d₂使用同一个R；该必要行不杀全WD，不能直接冒原forcing非零。
-
-### R764：真正同域差的原条件首行
-
-[R764](results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md) 已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。接续计算保全部五伙伴的t正一收缩，连同全部CD/O/E门识别条件来源；不能以裸边际、全矩形零或单个条件非零删去其余环带。
-
-### R766：原单位主部与完整高接触的指定成员性
-
-[R766](results/R766-actual-principal-part-normal-functional-and-specified-small-obstruction.md) 已证明R765选定normal行准确下降到原实际主部像V_E′并杀全部H0(N³)；原n0/2/3列给d_k(v_k)=1的明确单位主部，完整低r右逆高尾保。高接触和指定单位行同解恰O_T(v_k)∈O_T(ker d_k)；若对偶O_T*ω=d_k有解，显示Λ_ω逐列杀全原M且对原cube首forcing取单位c_k。未判定该实际成员性，其他normal/两13/d₂仍由同R满足。接续解实际O_T*ω=d_k或判O_T(v_k)的真实余类；V_E′=0已被原单位列排除，不能拿它作非空非零门。原非cube v_F指定残数继续保留。
+[2026 Wang稿审计](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md) 已自含证明其起始root、辅助level-raising必要条件冲突，真实Nguyen与λ0论证亦不补缺；不采其完成声明。Kim2609的全Sha判据仍要求最早节点在指定全球点子群；Macias Castillo–Sano的usual Selmer Fitting等式保首非零I₂，Angurel深节点/IMC不保证Θ₂，fine Selmer不代全群，Fornea rank2外积非零仍是猜想。继续实际原始性/全球位置，不以扩大辅助节点或rank1公式替目标。
