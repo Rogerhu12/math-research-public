@@ -105,7 +105,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 最新接续（2026-11-15）
 
-此前逐项演变、全部参数和未列缺口保[本次完整归档](notes/2026-11-15-open-before-complete-zero-eight-and-full-constant-unit-789f.md)；以下替换旧的待执行描述，不关闭未列问题。最新运行状态同时见HANDOFF.md。
+此前逐项演变、全部参数和未列缺口保[本次完整归档](notes/2026-11-15-open-before-generic-image-bridge-and-exact-zero-cost-789f.md)；以下替换旧的待执行描述，不关闭未列问题。最新运行状态同时见HANDOFF.md。
 
 ### R150：同一原矩阵的已付界与当前实际计算
 
@@ -115,9 +115,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 同选D∞≥130、全部cofactor/原来源换列∞≥125；最新K112下q8415…8528，原非基/转移/目标三费8572/8577/172，统一条件8577。九原目标Q[s]成员性仍是前提。模31完整长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
 
-[零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)已正式闭合；第九实际β9=0，前九4/0/1/3/1/1/1/1/0、15完整头及928200原产品全真。十二已定正指数1⁴,3,4³,5,6,7,8和45，余两只(10,10)/(10,11)。故公共阶65/55、次大阶55精确，K111=s65(s−2)9(s+6)9F+²F−²E8²、最大正Smith10…11。原系统模s11仍须先付Q((s))像；13自由坐标/其他点/全局像保持开放。第十仅5新/62旧单位列，可区分剩余两谱；下一准备13自由头仍实际验证。
+[零完整第八](results/R150-appendix-zero-complete-eighth-connection-two-remaining-smith-exponents-and-factor109.md)已正式闭合；第九实际β9=0，前九4/0/1/3/1/1/1/1/0、15完整头及928200原产品全真。十二已定正指数1⁴,3,4³,5,6,7,8和45，余两只(10,10)/(10,11)。故公共阶65/55、次大阶55精确，K111=s65(s−2)9(s+6)9F+²F−²E8²、最大正Smith10…11。第十实际已选定最后(10,11)，完整δ66/55、amax11、K112；第十一13头原乘回已完成。泛型像与零点局部目标像现已按下段旧定理回接闭合，其余有限点和全局仍开。
 
-目标读数须随完整延拓核：低K0…5全代表九平方零，E6同头不变、rank1且kerK7，不能形成h0模s10障碍。第八λ0…7全零；第九λ8原非零值仍在，且在K9成为同头不变量；λ9也非零，仅原代表值。h0有s3，须真实K10/K11延拓后检查λ8能否形成s11障碍，不预断原成员性。旧固定族与完整页分别保本次归档，29曲线/GB/LLL/65521等原接口仍开。
+[泛型像回接与零点精确三阶](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已关闭这条局部接口：旧完整13泛函和142+4212夹逼已给九平方在原≤3来源Q(s)像；结合真实全左核mod s11判准、零点amax11，九原s³t_j均属Q[s]_(s)像，t2局部消去理想恰s³。任意k阶jet读数必O(s^(k−2))，所以不再逐页追末系数；第十一13头/965328产品全真，泛型自由坐标目标配对也已清。剩余是h0其他有限因子的确切局部费用、未知分母支持、全局Q[s]像与指定D leading31单位，不能把零点结论越界使用。
 
 ### 原同w边界：完整返回forcing与共同预算
 
@@ -160,6 +160,6 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 [两权临界池与满射弱尾](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)给完整物理第二创建泄漏随m线性增长的精确源；加入正弱位和严格正ℓ1∩ℓ2无限弱尾仍保当前固定层全部满射与任意大泄漏。因此仅用hardcore、满射、平方可和及bmax，不能得到绝对常数c的B2B2*≤c bmax² I。该可选尾不是原b_j=(j+1)^−2，未反证原同u_Q的负部预算；继续真实连续尾位置结构和完整层间抵消。
 
 
-**完整第九与零点有限成员性。** [自足证明](results/R150-appendix-zero-complete-ninth-connection-exact-submaximal55-and-local-membership.md)闭β9=0/15头、δ次大55，并用完整任意left10的低平方零与R=Q[s]/(s11)双湮灭证明九原h0t_j属于整个原矩阵模s11的像。若另付Q((s))像，则零点torsion全部清；函数域自由坐标仍开。最新实际第十β10=1已把完整14正谱定为1⁴,3,4³,5,6,7,8,10,11，δ66/55/K112；第十一真实构造13自由头并检查E8，未预填原成员性。
 
-**零完整正谱与最小必要幂已闭。** [完整证明](results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md)给14正指数1⁴,3,4³,5,6,7,8,10,11，δ66/55、amax11及K112/条件8577；存在某个full最大子式的s66系数为31单位，不识别成固定D。真实left10排任何ord(g)≤2的g t2局部像，所以原s³不可降为s²。随后第十一实际13头及965328原产品已成，E8在全部K11零、λ9仍是待运输读数；零谱子问题关闭，函数域自由余核、其他点与全局来源继续。
+
+**原primitive统一逆界已排的范围。** [原15/8真幂下界](results/R271-appendix-normalized-creation-row-and-original-primitive-fifteen-eighths-lower-bound.md)在原无限连续尾保全中间暗对与同源分析，排一般primitive上的Γ≤C(x+p)³；全参数式在q≈κx²的大x也可直接代入。测试消去完整kerD^h，只读真幂底项，未识别实际M图或窄Schur源；继续实际同u负型的联合费用，不能重提已排统一界。
