@@ -304,3 +304,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [完整实现与执行规格](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)把已付径向恒等式落实为四新源：在完整原角网构造9/8/1角模式的三个径向jet，先调用原11组标量微分再展开原159列；保Π的零模/Nyquist和parent角位置jet，不生成旧163/159全角向量参数张量。当前权威普通几何、准确五null-height、原163物理族、g/b0/reference/H、全部池/两网门/固定aux和父accepted_cache保持。新增评价身份明确，浮点轨迹可变，未宣性能改善。
 
 新driver显式保prepared_hold，在完整capacity终态后以真实next_soc_hold_trust逐完成模型继承半径/streak；容量history仅剥正文executed hash后精确比对并另核hash，不从report重建Field/H。七前缀各一次只为输入恢复，新阶段仍12LP/40值/120秒/10秒每LP，不第三次扩容；实际失败保原错误，包括selected point为None。45请求来源、98实参仅改out，24旧输入SHA不动。root全四源/原API/接线审读，mechanism独核handoff；仅新人工/API/IO在公开Actions首执行，未有passed或实际科学结论。终端断连依根8小UTF8保存，所有payload临时。
+
+
+## 选行 Jacobian 首开发缺键：0 次科学恢复，最小人工修复
+
+[完整首失败记录](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)消费43716207246/a99b8d88/job132818219795：新人工4.491779401秒在known_fine_metric_locations缺键退出，七真实恢复和新优化均0。第一组虽返回但输出未存，不声称passed。公开receipt 53133B/61eb5d72，97完整源和42显式科学绑定保留；不是几何不可行结论。driver只在labelled fixture明确空峰列表、各新开发分组立即打印实际返回对象；73477B/65b3dbb4，生产/前三源/原预算/98研究args不变。更新唯一driver请求绑定，继续未完成新开发与首次科学。公开和私有实际pull及NFF后rebase/规则复核均已完成，完整SHA记HANDOFF；API读取仍不冒实际pull。

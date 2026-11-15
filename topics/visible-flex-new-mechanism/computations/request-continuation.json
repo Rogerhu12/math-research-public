@@ -1,5 +1,5 @@
 {
-  "request": "first-selected-row-radial-Jacobian-factorization-on-the-same159-field",
+  "request": "finish-first-selected-row-factorization-development-after-explicit-empty-peak-fixture",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "metric_height159_factorized_rows"
@@ -47,7 +47,7 @@
     "topics/visible-flex-new-mechanism/scripts/frame_selected_row_radial_jacobian.py": "e487cdfe3e508e572850217230ebd406736d360fd7e9d8e33b60ad50ba3e2632",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows.py": "b6c9fff497c0f22c5a12546c47349cc0274ed493f895547fc5c65cf99ba3d403",
     "topics/visible-flex-new-mechanism/scripts/frame_selected_row_radial_jacobian_development.py": "46aeefbbd7549150d8d03018b0038ec4389a7392a9efc2d7f25299c7575c8d39",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows_audit.py": "a4298bcb5191c7baa850e5568354060555ff13d037308425121d912f50067eed",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_height159_factorized_rows_audit.py": "65b3dbb4318d6809a6cdfc053171c48f8f74a27b265586853c2858e8d63a4bb6",
     ".github/workflows/visible-new-mechanism-continuation.yml": "44a3cfc1f4e663caeb9388e166359ce88d12ba7f5c69e59dc6edfe4ba33846d4",
     "topics/visible-flex-new-mechanism/scripts/publish_actions.py": "b0d2031552e8072ec2f11bfa2b6fc16c6c9acf1c548ea019cb36c11ad1c06dba",
     "topics/visible-flex-new-mechanism/scripts/print_research_outcomes.py": "d9046880a81632dd0680328d4401229b9e576fde360aa00c5667d1fa84ec8a41"
@@ -221,6 +221,16 @@
         "coarse_geometric_J_seconds": 22.999571238,
         "historical_hash_not_forced": true,
         "last_held_radius_not_yet_used_by_a_later_model": true
+      },
+      "unfinished_first_development": {
+        "previous_run": "43716207246",
+        "previous_source": "a99b8d88728bdd0c5c07c7419fe624b29118901d",
+        "error": "KeyError: known_fine_metric_locations in new labelled metadata fixture",
+        "previous_scientific_restorations": 0,
+        "previous_new_scientific_stages": 0,
+        "previous_group_passes_not_inferred": true,
+        "repair": "Explicit empty peak list in artificial fixture and immediate actual-result records for each new development group; production unchanged",
+        "only_source_binding_changed": "scripts/frame_metric_height159_factorized_rows_audit.py"
       }
     }
   },

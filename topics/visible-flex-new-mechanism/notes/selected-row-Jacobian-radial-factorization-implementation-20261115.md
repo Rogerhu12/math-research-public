@@ -48,9 +48,9 @@
 | frame_selected_row_radial_jacobian.py | 27752 | e487cdfe3e508e572850217230ebd406736d360fd7e9d8e33b60ad50ba3e2632 |
 | frame_metric_height159_factorized_rows.py | 13777 | b6c9fff497c0f22c5a12546c47349cc0274ed493f895547fc5c65cf99ba3d403 |
 | frame_selected_row_radial_jacobian_development.py | 19243 | 46aeefbbd7549150d8d03018b0038ec4389a7392a9efc2d7f25299c7575c8d39 |
-| frame_metric_height159_factorized_rows_audit.py | 72407 | a4298bcb5191c7baa850e5568354060555ff13d037308425121d912f50067eed |
+| frame_metric_height159_factorized_rows_audit.py | 73477 | 65b3dbb4318d6809a6cdfc053171c48f8f74a27b265586853c2858e8d63a4bb6 |
 
-最后一份 driver 如因根审发现具体接口问题而修订，应更新本表、请求中的对应 SHA 与新 diff；不能将本版本未经执行的状态写成通过。
+首版 a99b8d88 的公开新开发在人工夹具缺峰列表处退出，真实科学尚未开始；[原失败和最小修复](selected-row-factorization-first-development-missing-fixture-key-20261115.md)保存完整来源。上表是补齐人工空列表、各分组即时输出实际结果后的版本；前三源和生产路径不改。本版本尚未取得完整通过回执，不能写成通过。
 
 ## 4. 单角模式与三个径向 jet
 

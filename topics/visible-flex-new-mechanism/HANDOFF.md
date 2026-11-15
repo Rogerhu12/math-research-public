@@ -4,13 +4,13 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 12:20:21 UTC实际pull后已读规则提交：`f612694e75145acfdbd2b61a6ca2c06bf817122f`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开Actions43716207246于2026-11-15 12:54:55 UTC实际pull/read `32692cf1199ed09b428431b5d6e56c10b726c9cd`；12:55:09发布遇NFF立即pull --rebase/read `69765fcd81ca84819cdeb09c4fe14c55fdb5fb80`，双README均无变，再推成功。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 12:17:58 UTC实际pull/read `70baf7b9177f56569815dff58cb633a65fe52782`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
+私有同run于12:54:58 UTC实际partial clone/pull/read `b5ebad355fcbb9bd6f04a988e68f425ffa42f280`；根blob5ba164843b1f5802184178a82d786264404873a3无差、题README不存在、QUEUE唯一行仍本会话进行中。上述为runner真实pull；本地终端仍失联，API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`，12:24再次断连；暂按根8仅原生小UTF8，恢复即补实际pull。
 
-原生API规则读取：2026-11-15 12:54:16 UTC、`cb6af0a5aaaaa702fbaa24de2596b1dd96f4dd97`（非git pull），双README无变。
+原生API规则读取：2026-11-15 13:01:57 UTC、`1bb353c9beb8abfe0cb3158eac393094ee1392f4`（非git pull），双README无变。
 
 ## 2. 完成门
 
@@ -20,11 +20,11 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723为metric epigraph辅助量，违反η≤δ的失败保留，**不是δhold**。若完整连续球R1.01/条带p.38999成立，R33/R40旋转见证给δhold/D≥61001/202000>.3；采样尚未付连续支持。
 
-**159首actual**：43701558227/ef8c1cdb，η.266520536442→.266491207122；原m6仅fine曲率拒绝被SOC修回仍减B。全部来源/门/漂移/费用保原actual，不重算。
+**159首actual**：43701558227/ef8c1cdb，η.266520536442→.266491207122；m6仅fine曲率失败被SOC修回仍减B。原来源/门/漂移/费用见原note，不重算。
 
 **159容量/持径actual**：[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，43712266529/a934b45c/job132806237214。18新检查过；两次固定容量5392/6684保旧ID/余槽。η.266513719074→.266474122294→.266443965488，各11+1LP/活动94.195与86.885秒。末m11全17守卫真、nextB保.000125，但无后继使用模型，不宣收敛改善。原门过、.26/1e−4未达；旧失败/全部费用保原note。fine57.54/coarse23秒仍旧163全J。
 
-**159选行J已接线待首actual**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，四新源+45绑定。完整Π角kernel→3径向jet选行→原159列，无旧163全J；当前ordinary/H/reference/全池/父缓存/原holdloop保。7必要输入恢复各一次再新stage，12LP/40值/120秒不增、不第三次扩容。仅新人工先公共Actions，尚无通过/性能结论。
+**159选行J首开发失败已修**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，[首失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)。43716207246/a99b8d88/job132818219795仅人工fixture漏known_fine_metric_locations；4.49178秒、七恢复/新科学均0，首组返回未留结果不冒passed。新driver65b3dbb4仅补空列表及分组即时原结果，前三源/生产/98args/45绑定除driver不变。下一完成尚未完整的新开发再首actual：完整Π→选行→159，同ordinary/H/reference/全池/holdloop，7必要恢复各一次，新stage12LP/40值/120秒不扩容；未宣性能。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -36,7 +36,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R223/227真实Morse闭hook/例外端口**：M0/TκH/frame-Klein位移/pure0与全h Morse已付；h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h经末frame/九参数/fullE真实IFT安装，保原U/T/history，设计一般改g。
 
-**R233–241旧六门**：原六能量已付；R249–253只排指定旧芽，不推一般profile，不重旧门。
+**R233–241旧六门**：六能量已付；R249–253只排指定芽，非一般profile。
 
 **R243偶部判据**：真实R[σ,H±1]/history≤2有限线性系统给有限jet iff；所需n尚无实际值，不能凭形式界报全像。
 
@@ -52,13 +52,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 
-**R216/224/228旧排除**：仅原圆/已付近邻的明确flat与标准偶germ类，范围见原稿，不作一般刚性。
-
 **R221 joint**：126矩+六行非rank；两period成员、五相位45span、48×135增广子式/降秩消极点共同iff。保全period核/平台匹配，无实际同w解。
 
 **R225完整range**：平台G″0、逐活动总flux0、q=F/(Ap²)内部Laurent禁极点/residue、平端C∞/双collar拼接共同iff。完整O像及Hper=O(U0)/O(R0)未知，有限flux不代fullperiod。
 
-**R226/230/234/236/240首平端**：HE wholepure0/λ1/T0/raw二次主部已付。真G=P2+Tτf+p²B+p³C在先付flux/平台后，平端光滑iff t⁴B无负主部；p1失败/p3+自动，原actual及mixed规范保留。
+**R226–240首平端**：HE wholepure0/λ1/T0/raw二次主部已付。先付flux/平台后，G=P2+Tτf+p²B+p³C光滑iff t⁴B无负主部；只原首germ，全部actual保原稿。
 
 **R242/244首平台/八通量已付**：新ψP圆11维δ链、八flux核Q_L Pol≤2、首gap minor5040βγV L12>0给rank10。只该模/该圆首pair和首germ，不授旧圆或实际signed成本，原证明完整保留。
 

@@ -733,6 +733,9 @@ def _new_handoff_fixture():
     """
     from unittest.mock import patch
     f=frozen._new_io_fixture()
+    # This labelled metadata fixture has no previously recorded fine peaks.
+    # The real capacity adapter requires the field even when the list is empty.
+    f['prepared'][3]['known_fine_metric_locations']=[]
     with patch.object(frozen,'curvature_grid',return_value=(f['radial'],f['theta'],f['grid'])):
         with patch.object(capacity_driver.frozen,'curvature_grid',
                 return_value=(f['radial'],f['theta'],f['grid'])):
@@ -960,12 +963,27 @@ def _pipeline_io_development():
         'old_developer_suites_not_called':True}
 
 
+def _print_development_part(name,result):
+    # A later fixture error must not erase an already completed new component.
+    # These public log records contain actual results, never inferred passes.
+    p=Path(__file__)
+    record={'schema':SCHEMA+'-development-part','part':name,'result':result,
+        'github_sha':os.environ.get('GITHUB_SHA'),'github_run_id':os.environ.get('GITHUB_RUN_ID'),
+        'driver_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),
+        'artificial_inputs_only':True}
+    print('DEVELOPMENT_PART '+json.dumps(record,ensure_ascii=False,sort_keys=True,
+        separators=(',',':'),allow_nan=False),flush=True)
+
+
 def developer_check():
     hold_library.require_public_research_environment()
     started=time.monotonic()
     kernels=new_development.developer_check()
+    _print_development_part('factorization-kernels-and-parent-cache',kernels)
     handoff=_handoff_development()
+    _print_development_part('seventh-handoff-and-full-SOC-controller',handoff)
     dispatch=_pipeline_io_development()
+    _print_development_part('new-pipeline-IO',dispatch)
     passed=bool(kernels['development']['all_passed'] and handoff['all_passed'] and dispatch['all_passed'])
     return {'schema':SCHEMA+'-development','completion':'complete','passed':passed,
         'development':{'all_passed':passed},

@@ -22,7 +22,7 @@ H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合
 
 [成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)与[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新检查过，两个固定容量保全部旧ID/余槽；η.266513719074→.266474122294→.266443965488，各11primary+1SOC/活动94.195与86.885秒。末m11全17guard真保B.000125，但配额尽，没有使用heldB的后继模型。全部原门保而.26/1e−4未达，旧失败/漂移保原notes。
 
-[选行J实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)已接四新源与单lane：完整原角网Π、9/8/1角族×3径向jet，收缩选定11组行后按原159列展开，当前ordinary和准确null-height独立保留。父SOC缓存及固定aux列/全值/原门不改。保same prepared_hold的Field/H/reference及实际next_soc_hold_trust回放；七必要输入恢复一次后新stage仍12LP/40值/120秒，不新扩容。**下一消费公开首次新人工及actual，分别记J/值/恢复成本和全部门；未运行前不宣快、可行或进展。**
+[选行J实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)保完整原Π、三径向jet→159列、当前ordinary/H/reference/父缓存/全池/原holdloop；七必要恢复各一次，新stage12LP/40值/120秒无新扩容。[首开发失败](notes/selected-row-factorization-first-development-missing-fixture-key-20261115.md)43716207246仅人工fixture漏峰列表，0真实恢复/0新科学，首组结果未留不冒passed。最小修补人工空列表并即时打印各新分组；**下一完成未获完整回执的新开发，再首次科学，分别记J/值/恢复成本及全部门**。生产与原参数不改，不重旧suite，不宣效率或可行。
 
 ### 仍须支付
 
