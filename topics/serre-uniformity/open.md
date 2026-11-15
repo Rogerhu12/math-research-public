@@ -48,6 +48,9 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 ### 原p41函数与高度输入
 
+**R787新518完整格实际结束**：[固定基行边界](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)run43766834526/source0084d2e，1742.313128262秒。完整430→518源兼容、56×42残差、unit42det740671961、新全格/LLLdetU1均成；56个不同D全部原m1准确非零、旧拒复用0，只有固定56基行调度耗尽。final25631ecf/manifest8f886d19/253项，artifact14183618203/d259343b；不推518精度不足或原关系不存在，不原样重跑。原518同核续算仍活跃，转向真隐式关系/CM小收缩及R836原D短核。
+
+
 R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759完整Z格rank12/O_K6均已成。原b=r0⁶、L/K7、M/L40、αs/CRT6逆/ζ²一次/246、c1=4424/c0[2876,2822,2823]必须保持。Y genus127；R764全格cusps/c0映O，R769低degree≤693完整分支关闭。单p41工作服务真实高度输入，不重开R707分类。
 
 已成且禁止重算：R774共同56Hodge三积，R775 M2/M6/M12及普通power1..6配方，R781原f4的R0..142与κ幂，R786原power1..5 q0..128，R790原146个M2的CM值/首粗导，R791原Hom/实下降，R794五维低次数η基，R795原1506个V6 q0..81，R796原CM的144条全局二次关系及length2，R798真实1506选行minor和690个τ³V3积。具体真实来源、耗时与输出SHA保各certified结果和上述归档。
@@ -82,7 +85,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R836已证短核入口**：[固定21点铅笔与原D](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保ε=multP0D未知，E2=C+D+εP0，完整整商I_D=(I2:I_(C+P0))。权2两锚在原V5的rank1213认证共同零恰21点；完整T4时830/832×690核=M3(D)，dim295。真不完整短源仅给包含，实际295维或272个权2/3/4候选+V4真962minor/权和793才迫完整；未有实际锚/T′/D/eta。单B模列不能冒名完整char0层，q3只备选未跑。
 
-**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；本push激活后读取真run。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
+**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；真实run43770995901/sourcefa17c77f已激活。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
 
 **R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
 

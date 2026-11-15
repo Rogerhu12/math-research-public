@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f44492e1a7779dc06291e7c6027a894c4f62666c**（2026-11-15T22:44:47.778165+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；旧结论/限制继续生效。
+**已读规则提交：96888f152c59fb9b811592445a7ce7483aeebc9d**（2026-11-15T22:47:37.792804+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -13,12 +13,12 @@
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
 | R787从518位同核继续 | 43766834509 / 132973847087 | 0084d2e067710af828ae071e7850764791e41300 | core93d3d72b / wrapper42157e0d，compute中 |
-| R787新518位完整核格 | 43766834526 / 132973884134 | 0084d2e067710af828ae071e7850764791e41300 | core414fef53 / runner889cdf5e，compute中 |
 | R815原425-prime续算 | 43748439850 / 132916821952 | a108ce1e72958b296dcca7ff55710c94e8ed16ef | core80516ff9 / wrapperab725da0，原目标/prime/mode不变 |
+| R837原P0与固定21点锚 | 43770995901 / 待读job | fa17c77fe36fddd9df06677569984d1ea71a6b41 | core5702b42e/runner eec99c9e，公开compute中 |
 | R824从365完整位续算 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | core1ece3cf4 / wrapperc5907739，准确27+244 scope同核继续 |
 | R827旧Hermite | 43764014099 / 132964965600 | fd4cbaea820d79e115c300d766042582be14a091 | 已被R835数学替代；取消API403，待自行结束，不再续接 |
 
-**R787**：[真实518与双入口](notes/R787-518-digit-checkpoint-and-precision-increment-activation.md)保current73180954B/4997a05b、history518条07875f05、manifest7a22beb2/1262项、artifact14181899102/343bee0a；原93d3/42157同核继续。新414fef53/889cdf5e保全部A1234×14/C1214×14、56×42残差/unit42/KH新全格/一次56LLL/原129×280，尚无准确关系。旧430/42/56及固定C98已闭，任何A不救旧同C，不推精度不足；新精度旧拒默认不用，单D同不代C同。
+**R787**：[518断点与双入口](notes/R787-518-digit-checkpoint-and-precision-increment-activation.md)保current73180954B/4997a05b、原93d3/42157同核继续。[新518格实际结束](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)：run43766834526/source0084d2e，1742.313128262秒，原430→518完整兼容、56×42残差/unit42det740671961、真全核格+一次56LLL(detU1)，56不同D全原m1精确非零，复旧拒0；finite56行已闭，不重跑、不推518不足或全关系不存在。final25631ecf/manifest8f886d19/253项，artifact14183618203/d259343b至Nov16 22:31:03UTC；原全A/C及当前精度保留，尚无准确展开函数。
 
 **R815**：[九维格实际结束](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)run43767171070/job132974881457/source278d1920，18.795483531秒、exit2/errornull：一完整9格detU=1、九行/九不同正D，8新候选均原(z,row,col)=(0,0,2)非零，1同候选复旧拒；只关闭这九行，不否定全Mg或断言425精度不足。finalf62a760d、manifestd19adcca/49项、artifact14183811013/21cf154d至Nov16 22:29:38UTC。三列0/1/271/2886同余/高6,7零/d01210238bits及49旧拒均保；原425current402379e2/knownffa005ae不改，深CRT继续上表。九格/旧三格/标量RR不重跑，完整pins见笔记及归档。
 
@@ -29,7 +29,7 @@ final3221f24e/manifest2d77e2f0/4901项，artifact14183161538/7eaffd6a至Nov16 22
 
 **R836已证短核入口**：[固定21点铅笔与原D](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保ε=multP0D未知，E2=C+D+εP0，完整整商I_D=(I2:I_(C+P0))。权2两锚在原V5的rank1213认证共同零恰21点；完整T4时830/832×690核=M3(D)，dim295。真不完整短源仅给包含，实际295维或272个权2/3/4候选+V4真962minor/权和793才迫完整；未有实际锚/T′/D/eta。单B模列不能冒名完整char0层，q3只备选未跑。
 
-**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；本push激活后读取真run。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
+**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；真实run43770995901/sourcefa17c77f已激活。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
 
 ## 已成源、真实消费者及期限
 

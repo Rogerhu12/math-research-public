@@ -656,3 +656,9 @@
 - 真实R790146CM与R786三权前缀1413文件直读；两个Q右端/397维U/真2760×1380之1213minor为新算术，同prime固定u积复用且17列原子保存。
 - source最小载体、失败完整阶段及full manifest只一日artifact；本地仅源码/IO/AST，未宣称P0或锚已算。R787新518格已结束exit2，实际小回执读取中。
 - 本push规则：本地真实pull至f44492e1a7779dc06291e7c6027a894c4f62666c（2026-11-15T22:44:47.778165+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:47 Asia/Taipei — serre-public-astra-20261115
+- R787新518全格真实结束：56×42残差/unit42det740671961/全核格与一次56LLLdetU1已成，56不同D全原m1精确非零，复旧拒0；固定56基行边界关闭。
+- run43766834526/source0084d2e，1742.313秒，final25631ecf/manifest8f886d19/253项，artifact14183618203/d259343b；不推518不足或原关系不存在，原同核继续。
+- R837已真激活run43770995901/sourcefa17c77f；新P0/锚待actual receipt。新隐式char0/CM值与q2长度路线继续，未代已有实际函数身份。
+- 本push规则：本地真实pull至96888f152c59fb9b811592445a7ce7483aeebc9d（2026-11-15T22:47:37.792804+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
