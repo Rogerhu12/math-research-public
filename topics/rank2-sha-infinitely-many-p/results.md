@@ -95,3 +95,6 @@
 
 
 - [原全块固定矩阵与第二forcing规范不变量](notes/2026-11-15-canonical-all-block-matrix-and-wilson-boundary.md)：R595同一M在全部h的特征零真实留数上成立，原完整j保全尾/charge分母和R_h；第二forcing与残差共同剪切，真不变量det(c,d₂)仍含R₂和实际a/p。第二Gaussian高精度不添独立零，三Q未消残差。
+
+
+- [R625：原theta的p幂完整整窗与首坏系数](results/R625-original-theta-powers-integral-window-and-first-bad-coefficient.md)：原f4/f1/S/T归一B的全部p^e幂（1≤e≤p−2）在n<(e+1)L整，紧邻端点一次分母的绝对residue为(-1)^e d b^((e+1)L)/(e+1)。完整H坏因子、两个二项式消去和有限Dwork付指数，保原S/T首w^(p^e)及真实来源度p^e；未把高坏行代真层或不依赖j的整性赋成新零。
