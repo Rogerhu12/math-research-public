@@ -301,3 +301,8 @@ Astra-new-mechanism-9974ea84：[R405](results/R405-common-exterior-packets-and-l
 ## 2026-11-15 23:39:08 UTC｜安装两条新自然通量的完整收缩入口
 
 Astra-new-mechanism-9974ea84：[两条完整自然通量设计](notes/weight-zero-natural-flux-two-target-design-20261115.md)，11806B/hashe26b311339624e9d65afada37dcba3afd440be778ecf8e169eb08c5887620ce6；新entry42478B/hashbe12b9338cf5558eacb4d05b43f201871fae5d4262dd330304eaa56df3c2e12f；workflow3996B/hash1bcc261939e9cbeab100603c5d8827a04c385c7e22ae90b8521aba0b4d9fe5d9。根读完整新源码及原pin，核右锚Ω号、全字/左端保留与完整Euler条件，标准库无需安装研究依赖。只两新Ω、八新人工，未执行；随后单独请求，原root/member/π/self/rank不重跑。所有输出仅runner临时/原log，无Git/artifact/Release。基底09dd68e2c30fc85d2bda840110b08788bbf804e2。
+
+
+## 2026-11-15 23:39:30 UTC｜首次请求两条完整自然通量
+
+Astra-new-mechanism-9974ea84：发布computations/request-weight-zero-natural-flux.json，8446B/hashad26ae977549b084dce83a7c96c5c43fe3955af7d8399907c696b7468e9c1c1d，34源码绑定。公开lane先actual pull双repo/核差，再8个仅新人工和两Ω；不复跑旧π/self/秩。源码/workflow已在6e871e7080065a5040ffd25502a05ace2fa9a83c单独安装；只有本请求触发一次，结果待原log读取。当前API基底ddc37fa4c9e73c254c5a706d1c05c5b153d94623不冒actualpull；旧费用与未付主门保留。
