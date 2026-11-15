@@ -1,0 +1,654 @@
+{
+  "kind": "immutable_selected_parameter_core_scalar_fee_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "exact_new_mathematics": "D5 D6 D9 D19 D20 D22 scalar fees and a separate exact collar third-jet summary; all from accepted original whole cells",
+  "parameters": {
+    "arithmetic_bits": 320,
+    "delta_half_width": "1/10000000000",
+    "exact_core_interval": [
+      "0",
+      "9/10"
+    ],
+    "exact_negative_interval": [
+      "0",
+      "2383968743003/10000000000000"
+    ],
+    "exact_compact_support": [
+      "1/20",
+      "9/50"
+    ],
+    "exact_collar_interval": [
+      "17/20",
+      "19/20"
+    ],
+    "complete_original_interval": [
+      "0",
+      "25/8"
+    ],
+    "complete_original_rows": 7721,
+    "complete_original_parts": 40,
+    "original_parameter_half_width": "1/1000000000",
+    "background_pair_A0": "7",
+    "background_pair_angle_A0": "6",
+    "response_pair_A0": "19",
+    "response_pair_angle_A0": "83",
+    "response_continuous_repair_A_1over64": "0.0000000000000002292",
+    "compact_weight_upper": "1",
+    "compact_weight_derivative_upper": "2400/13",
+    "head_maximum_physical_frequency": 384,
+    "selected_family_cross_input_maximum_physical_frequency": 1152,
+    "original_physical_frequency_factor": 4,
+    "fixed_intrinsic_parameter": "eta_0",
+    "real_delta_family_only": true,
+    "original_enclosures_recomputed": 0,
+    "source_norm": "ordinary L2_r L2_phi; normalized circle, full mean",
+    "new_full_inverse_or_true_parameter_Schur_claimed": false
+  },
+  "expected_actual_gate_count": 12,
+  "scientific_runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "python-flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "bits": 320
+  },
+  "historical_input_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "original_body_manifest_sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+  "original_accepted_response_summary_sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+  "original_generic_ordinary_kernel_summary_sha256": "fd88f3dd72c3983ca011d1a66520f91db0c7108118611c3a5b99f97f195fe9be",
+  "original_legacy_response_progress": {
+    "actual_completed_common_rows": 7680,
+    "complete_common_rows": 7721,
+    "actual_completed_common_rows_is_only_a_periodic_snapshot": true,
+    "exact_new_40_part_7721_row_cover_required": true,
+    "original_summary_modified": false
+  },
+  "input_paths": {
+    "original_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+    "response_summary": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+    "kernel_summary": "topics/visible-flex-exact-nearby/notes/finite193_L2_Green_kernel_ci/run-43633074696-1-finite193-ordinary-L2-Green-kernel/evidence/complete-finite193-ordinary-L2-Green-kernel-summary.json",
+    "original_row_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+    "original_repair_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py",
+    "delta_body_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+    "delta_cap_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md",
+    "direction_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "contract": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md",
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees_ci.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  },
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees_ci.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+    "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+    "topics/visible-flex-exact-nearby/notes/finite193_L2_Green_kernel_ci/run-43633074696-1-finite193-ordinary-L2-Green-kernel/evidence/complete-finite193-ordinary-L2-Green-kernel-summary.json": "fd88f3dd72c3983ca011d1a66520f91db0c7108118611c3a5b99f97f195fe9be",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md": "92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md": "81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md": "10c4d7a5b8db52660efa5eb9149b9ffe10b0e4ac8c72453001ba5041566f4fb6",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py": "827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees_ci.py": "2e1527bfecb2b33ca911d7f8215d8c09e896e36b58144446b34b4a6f01fcc52f",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+  },
+  "file_receipts": [
+    {
+      "role": "original_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+      "bytes": 31806,
+      "sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+      "blob": "b4a96180d2e1abca2ae90e7ba363e6a0c78149d9"
+    },
+    {
+      "role": "response_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/response_repair_source_ci/run-43597921732-1-complete-known-response-centre-repair/evidence/complete-known-response-centre-repair-source-summary.json",
+      "bytes": 18829,
+      "sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec",
+      "blob": "b4baed45ea0038c6aa38de8bd2939447ef2d39e0"
+    },
+    {
+      "role": "kernel_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/finite193_L2_Green_kernel_ci/run-43633074696-1-finite193-ordinary-L2-Green-kernel/evidence/complete-finite193-ordinary-L2-Green-kernel-summary.json",
+      "bytes": 20010,
+      "sha256": "fd88f3dd72c3983ca011d1a66520f91db0c7108118611c3a5b99f97f195fe9be",
+      "blob": "902d597f0fdb63724860b6a19ce2a80a3b44ac0e"
+    },
+    {
+      "role": "original_row_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+      "bytes": 13043,
+      "sha256": "1651f6cf73af9f3c16061767cc5acff0c452ada183422f7efb983ec8a6d4eb07",
+      "blob": "3af195a36ccb30630dbfcab0caef3564738ab169"
+    },
+    {
+      "role": "original_repair_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_response_repair_source.py",
+      "bytes": 16221,
+      "sha256": "6e4e8f1a3f69fdc06c15a0471cedb62abce0740b4825ddf5a0d04de4b984d7ad",
+      "blob": "5e8c9311cab02eb88abdec135f26326610aee91e"
+    },
+    {
+      "role": "delta_body_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md",
+      "bytes": 15214,
+      "sha256": "92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635",
+      "blob": "c85b66866103ea021cebbc050ccead214d4cf9d9"
+    },
+    {
+      "role": "delta_cap_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md",
+      "bytes": 13815,
+      "sha256": "81178d7471ee901ca77fc23ced9089ef6073931e66a597a0ca8741d22a55bd97",
+      "blob": "fed59babd2c138faa15fb757ba64ffefb7da404d"
+    },
+    {
+      "role": "direction_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md",
+      "bytes": 8753,
+      "sha256": "2b7d6080dc7fdac0bd5c557b71f3e7ec1eb5436a14d45a5a762e1b548a9e20f1",
+      "blob": "2bc958ab42db0c4936a717e54ff3b43f5001bdf5"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md",
+      "bytes": 9702,
+      "sha256": "10c4d7a5b8db52660efa5eb9149b9ffe10b0e4ac8c72453001ba5041566f4fb6",
+      "blob": "be20f5aaf16fc016b9e7add186d0eb020a6fee40"
+    },
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+      "bytes": 25571,
+      "sha256": "827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320",
+      "blob": "704b1e1d4aa74e97c866c725a2524c1b8624039e"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees_ci.py",
+      "blob": "b3f5aeb44d5ad712c13baad65d633b3197e28708",
+      "bytes": 42106,
+      "sha256": "2e1527bfecb2b33ca911d7f8215d8c09e896e36b58144446b34b4a6f01fcc52f"
+    },
+    {
+      "role": "reviewed_rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    }
+  ],
+  "complete_small_input_bytes": 217531,
+  "complete_small_input_count": 12,
+  "historical_natural_parts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row6000-native.json.gz",
+      "indices": [
+        6000,
+        6001
+      ],
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row7719-native.json.gz",
+      "indices": [
+        7719,
+        7720
+      ],
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-left1-257-native.json.gz",
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+    }
+  ],
+  "original_row_archives": [
+    {
+      "id": 14110601477,
+      "name": "visible-exact-body-rows-257-1200-43583838026-1",
+      "bytes": 4480773,
+      "sha256": "80dfa9c961b532aebe7ddee7ce453e7673263358bc9ba24f80dbcd5d5c54b928",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        257,
+        1200
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110008625,
+      "name": "visible-exact-body-rows-1200-2133-43583838026-1",
+      "bytes": 4388988,
+      "sha256": "69f3fa446913f7fa5ae58bc3726867fbb6cd84862f1bd7cf7afe137d1c50f1a9",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        1200,
+        2133
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110242321,
+      "name": "visible-exact-body-rows-2133-3066-43583838026-1",
+      "bytes": 4357089,
+      "sha256": "0fba4d340b7f17375a3131e002f300a3248a0148db2f2af4c9db0ca43cb1636b",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        2133,
+        3066
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14109917818,
+      "name": "visible-exact-body-rows-3066-4000-43583838026-1",
+      "bytes": 4343481,
+      "sha256": "24e1b751f511106e19786e61f3d77abac8f932a25b1424511e5b4abcd3f97e07",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        3066,
+        4000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110317130,
+      "name": "visible-exact-body-rows-4000-5000-43583838026-1",
+      "bytes": 4696764,
+      "sha256": "0cdf29f93acae8818e7b0a0226214d6b09eaeb1d0d58da4eb86a69c4579ff6c3",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        4000,
+        5000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110521643,
+      "name": "visible-exact-body-rows-5000-6000-43583838026-1",
+      "bytes": 4705593,
+      "sha256": "14322e2c858e4487f0c1be3e0d7193da1ad5cddcd5fa2c04802dd1be3b603222",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        5000,
+        6000
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14110336986,
+      "name": "visible-exact-body-rows-6001-6860-43583838026-1",
+      "bytes": 4147258,
+      "sha256": "6a0122aaae804f325ab08faf988bf523de52814176c1726a0726f46f07ceb7be",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        6001,
+        6860
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    },
+    {
+      "id": 14109693324,
+      "name": "visible-exact-body-rows-6860-7721-43583838026-1",
+      "bytes": 4117565,
+      "sha256": "505ecabc60f9dfd02d3313284eed138394bf3f8247980076e7d56171d85c485f",
+      "run_id": "43583838026",
+      "run_attempt": "1",
+      "requested_rows": [
+        6860,
+        7721
+      ],
+      "original_workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73"
+    }
+  ],
+  "original_complete_native_part_sha256": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "sha256": "feb3bbf9294dc995b88f5dc7c1e2ba866d3bd8c22dc84834dda7591cc9f644f0"
+    },
+    {
+      "indices": [
+        1,
+        257
+      ],
+      "sha256": "176ac5a3a78ed48fc5e12cf54f604e554138fed28a42b3b9fcead65c79d297e8"
+    },
+    {
+      "indices": [
+        257,
+        477
+      ],
+      "sha256": "1edcdc33fb6e60c0feb1049ee649f29cb25a98425d7354134918c1ee87faec58"
+    },
+    {
+      "indices": [
+        477,
+        478
+      ],
+      "sha256": "a4a128522a6d964fd9bc9aeb86010d2781134c6fe053d702f5b9fde98d6567b5"
+    },
+    {
+      "indices": [
+        478,
+        734
+      ],
+      "sha256": "08ff0e338b1b798d2b01ccb385464ead0ffaa94d45c603fda811f8c3feea4ad2"
+    },
+    {
+      "indices": [
+        734,
+        990
+      ],
+      "sha256": "a8b2595a912c36972e3d84fb078cca484c357f1d34478780dc435e945bc8c982"
+    },
+    {
+      "indices": [
+        990,
+        1000
+      ],
+      "sha256": "8b9334eed53f01608e26d35da955320b59ca32bbc444acb6d6a8cfe100a1583e"
+    },
+    {
+      "indices": [
+        1000,
+        1001
+      ],
+      "sha256": "5b32775d73fade0145418f69468efd5867894d6523a84fda9da32d0e593af2ec"
+    },
+    {
+      "indices": [
+        1001,
+        1200
+      ],
+      "sha256": "20b5501b4eb6d136d66a9fa818bd1fe2d410fa5c28202abd2e6bebd90fbfdf77"
+    },
+    {
+      "indices": [
+        1200,
+        1456
+      ],
+      "sha256": "c8e8762c5d14b8cd95f80910cb921197ae9de4e8e864808d7e1027ea5369d990"
+    },
+    {
+      "indices": [
+        1456,
+        1712
+      ],
+      "sha256": "00b3851e5ddad53e9417f7863aea5dbf4bfb0aedf7a4e58acf3806278937a87b"
+    },
+    {
+      "indices": [
+        1712,
+        1968
+      ],
+      "sha256": "0fd0dfc0c18c4bb4693d2c80e0c77807d04a78c1fe3b62ae2fa645f354a3eaf4"
+    },
+    {
+      "indices": [
+        1968,
+        2133
+      ],
+      "sha256": "403922bdbeef227ac54f2db33a31f20a81d5e235e0bce5a0b47f46dc230d734a"
+    },
+    {
+      "indices": [
+        2133,
+        2389
+      ],
+      "sha256": "ebe925c598cdd90e6f4708876310316983ce23a194bce18f36e7ce2cd2ba2408"
+    },
+    {
+      "indices": [
+        2389,
+        2645
+      ],
+      "sha256": "846a2cbb93477eb545661c93dec4acf80517f6ff634dada2993d2af3055e5c8d"
+    },
+    {
+      "indices": [
+        2645,
+        2901
+      ],
+      "sha256": "c7b0e333d4f9f113e148cc3f712e9c468be09cc6f443b0fb0d08f93bc2f7995a"
+    },
+    {
+      "indices": [
+        2901,
+        3066
+      ],
+      "sha256": "47478cc195c394afd6a396faeb2c473fcde534812823c90391c84f0b678e4d8f"
+    },
+    {
+      "indices": [
+        3066,
+        3322
+      ],
+      "sha256": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21"
+    },
+    {
+      "indices": [
+        3322,
+        3578
+      ],
+      "sha256": "b288b713d0c20872b29f0f976fef2c0bb5e76b58864c522f3917c57746f57e03"
+    },
+    {
+      "indices": [
+        3578,
+        3834
+      ],
+      "sha256": "7d1fe0bff8c858375d58a1e563597c6db3bb765b1c0c849b2a1c3def1ba016ac"
+    },
+    {
+      "indices": [
+        3834,
+        4000
+      ],
+      "sha256": "be80c8d3c3697e19b771156127cecdc2696ae4dac966f41617f6b4494e5adb0b"
+    },
+    {
+      "indices": [
+        4000,
+        4256
+      ],
+      "sha256": "9791342190d2cc51713731fd0535422e97da96c991e971d815a06c938469afc1"
+    },
+    {
+      "indices": [
+        4256,
+        4512
+      ],
+      "sha256": "d5c57200cc0f9e54ae057fee037e920e06827e0e88fa37f0ff6d165dfd6fdd25"
+    },
+    {
+      "indices": [
+        4512,
+        4768
+      ],
+      "sha256": "62c8b790dde552f5c0a29d516c7e98ead156374336fa14bd3829251fa2f8946f"
+    },
+    {
+      "indices": [
+        4768,
+        5000
+      ],
+      "sha256": "d5f59ab58e723e444fc8971eb49d9b7e851e6fdeb9d7acc09ab486fd640a8530"
+    },
+    {
+      "indices": [
+        5000,
+        5256
+      ],
+      "sha256": "f48ba9dbe867e19a35813af9d91b6b695f0fc8b87cd9051eeb8f0470497372b5"
+    },
+    {
+      "indices": [
+        5256,
+        5512
+      ],
+      "sha256": "9cfba2ad6a2a1ff684cb543b2692aeb8dfdbb7d03a7b714414a8a52989c7d5c3"
+    },
+    {
+      "indices": [
+        5512,
+        5768
+      ],
+      "sha256": "f29f168d4be98a47e426d7fa6cee22177d3785b5ed0ae9d44a96d81cb7f48264"
+    },
+    {
+      "indices": [
+        5768,
+        6000
+      ],
+      "sha256": "c0d53e6aa13f050c6b08305d82fa2596b300ca0b61d40674feced5e731869096"
+    },
+    {
+      "indices": [
+        6000,
+        6001
+      ],
+      "sha256": "084def0062d835d1c05a557f1384f947bd7ed0b14eef0b02b01832b8723eec6b"
+    },
+    {
+      "indices": [
+        6001,
+        6257
+      ],
+      "sha256": "f403f8e16fc9ed7ceeffc60f81a8a6b3c6dda49d62511ae7b30af834b3957d1d"
+    },
+    {
+      "indices": [
+        6257,
+        6513
+      ],
+      "sha256": "ccbc8f2ebf6d5be9d51d704b3a90885268f354b3cc34e8b5ad91b3c89e9f442f"
+    },
+    {
+      "indices": [
+        6513,
+        6769
+      ],
+      "sha256": "f33cc00076013d5f3270d07b34ca2768ff1252648e786a1328f7d8f9a49eb3dd"
+    },
+    {
+      "indices": [
+        6769,
+        6860
+      ],
+      "sha256": "00dfcf26af7fe28932ac79a26edb4a3e412931deb84b466bbdef2b61fc08cbe1"
+    },
+    {
+      "indices": [
+        6860,
+        7116
+      ],
+      "sha256": "388042e5f88b26bfe194fa314e40e53e782632de12d413e8e23528aff0bd8a34"
+    },
+    {
+      "indices": [
+        7116,
+        7372
+      ],
+      "sha256": "b81f1b0a04d80c85907102f3706dc29f080ba1cf44393aef3e69ec7dc2e55dc9"
+    },
+    {
+      "indices": [
+        7372,
+        7628
+      ],
+      "sha256": "8b31a389ddc1945fc09ebb9b5f7e87686f8338466cc4f2168b37b8f839d0c686"
+    },
+    {
+      "indices": [
+        7628,
+        7719
+      ],
+      "sha256": "3fa7a84ba9294885059eb5f9991af789e61a42995ea2af4655c77eaba53752d5"
+    },
+    {
+      "indices": [
+        7719,
+        7720
+      ],
+      "sha256": "48b821e306e91046fbaeed8434a7b5c56db2ffde56f2084e944b25959deabd1f"
+    },
+    {
+      "indices": [
+        7720,
+        7721
+      ],
+      "sha256": "f300c70daa985691b190cf5871b5a12ad8c9c3c40519f5e349f4fff28e0d384a"
+    }
+  ],
+  "original_target_FFT_cubic_mean_residual_Green_enclosures_recomputed": 0,
+  "source_scope": {
+    "ordinary_source": "normalized-circle L2_r L2_phi, full independent even mean",
+    "generic_source_g_not_replaced_by_specialized_body_cross_a": true,
+    "nu_boundary_and_affine_source_not_silently_zero": true,
+    "full_high_inverse_claimed": false,
+    "true_parameter_Schur_claimed": false,
+    "collar_reference_s_not_identified_with_moving_mean": true
+  },
+  "output_policy": {
+    "temporary_original_archives": true,
+    "temporary_original_natural_parts": true,
+    "temporary_new_row_audit": true,
+    "persist_only_scripts_parameters_runs_output_hashes_and_small_actual_conclusions": true,
+    "new_artifact_uploads": false,
+    "new_Release_uploads": false,
+    "new_recomputable_repository_data": false,
+    "maximum_small_conclusion_UTF8_bytes": 60000,
+    "before_publication_complete_small_stdout_UTF8_bytes": 59000,
+    "original_complete_successful_mathematics_must_not_be_recomputed": true,
+    "complete_same_source_manifest_worker_small_conclusion_reused_after_later_wrapper_failure": true
+  }
+}

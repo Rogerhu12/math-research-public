@@ -63,6 +63,9 @@ mean/unknown high与signed m保，无sqrt97；actual K*差另加max(sδ,1)cδ/5�
 现给完整M1∂φ+M0差、系数带192与LH97..288，并保真intrinsic Fν、global ΔAZ与边界负ΔB Z。
 双输出矩阵[[gB e,pB εL],[gC e,pC εL]]的三门才给sameδ有限逆；gY为普通源增益而非aY，
 whole/negative/cut输出、fullmean及未知high边界列独立保。实际e/gY/pY及三门仍须消费。
+[D scalar消费契约](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)已首次部署SCI827fcb23/worker2e1527bf/12pin14271d7d。
+原8ZIP+6天然part精确恢复40parts/7721，不跑旧target/rows/Green；只新D5/6/9/19/20/22全core三ordinary窗、collar[.85,.95]原third jets。
+原7680只是每256进度值，final7721与完整新row cover独立核；actual12门/系数值待run。
 phase Fourier投影与原physical P96
 不对易，须完整finite border及其Schur，不能把phase-tail逆称physical HH。
 H16–17给保source/finite response的body与9/10 cut两输出矩阵B；

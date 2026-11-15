@@ -102,3 +102,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 ## 2026-11-15 12:13:37 UTC — sharper complete finite collar
 
 推A/b6527f39/6018B。root通读A1–13并核与H19–33全部individual控制一致；phase独立核A6–11 normalized-circle/vector GN、有限sum与五个费用通过。无需新数学数值：保ell/√ell因子及两端径向评价，max范数只减保守常数，H的actual源/mean/seam/χ外门不变。H历史细账在3f9a23d2同路径保留并压缩P旧时点，继续actual7721/4650域消费。只读README核24f539d477ab4042f77ef51eeb869e094c28d30a两blob未变。
+
+## 2026-11-15 12:19:16 UTC — first selected-parameter scalar deployment
+
+部署SCI827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320、worker2e1527bfecb2b33ca911d7f8215d8c09e896e36b58144446b34b4a6f01fcc52f、manifest14271d7d61c70996092f105768ca29cc0dd355665be0becea4386441b38c907f及flow8432dcd8。root全读SCI、worker相对已成L2 diff、flow、12输入hash/bytes、原manifest40part哈希/8范围和旧kernel真实units；phase独核D完整70行。原summary7680实际为每256最后进度，producer221–225核实；最终7721及原40part逐row真cover另核，原件不改。新scalar仅同δ/η0的M1/M0/Nν/完整ΔAZ三ordinary窗和正collar第三jet，不授moving mean/finite逆。原成功数学0重做；新结果全部临时，只小结论、预Git完整stdout及同成功复用。root亲读Green12:14 process7de7641d的32预检/2极端权重门；future2064/past128/product192/groups0为最后报告，run未完。两README本次只读dc0cb4e38744bca17e96afc7172953e00c9b2697核未变。

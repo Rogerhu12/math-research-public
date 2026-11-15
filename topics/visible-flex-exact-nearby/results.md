@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15 [selected-parameter scalar consumer](notes/2026-11-15-R133-selected-parameter-core-scalar-fees-contract.md)：仅新D5/6/9/19/20/22及[.85,.95]第三jets窄域摘要，原40parts/7721、8ZIP/6part精确恢复，12真门待首次Actions；ordinary g/p/真实finite反馈仍须随后消费。
+
 - 2026-11-15 [sharp finite-collar constants](results/R133-supplement-sharper-low-constants-in-finite-collar-trace.md)：两端Dirichlet/max范数给CEsharp，向量GN完整mean给c2=b(6Mell+2M√ell+M1ell^1.5)、c3=6bell；A12三个实际门足同H高trace。有限差商/χ外η/真实源和mean保，未冒实际系数门通过。
 
 - 2026-11-15 [actual second-local-vector/rank](results/R133-supplement-actual-second-local-vector-and-rank-budget.md)：public43711568963/1 child0/16门，23原pin、完整domain/rank及两分量过；新bound未收紧，q2=1、21first+10mean逐字P。B现行ledger同raw2已保，不做重复数学；仍不授完整high逆。
