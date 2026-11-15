@@ -166,10 +166,13 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R808短块增补](notes/2026-11-15-r808-complete-short-block-and-far-normal.md)：R808完整短块增补：k0、ell≤r<h时，保轴单位函数λ(w)、B(w)，缩放后二支式整段为−3B(z−λ)(z−2λ/3) mod w^ell；远支=(ψ+2g)/3 mod w^(h+ell)，两normal段分别+和−a^-1w^hCu³。近支仍只保证h+r，native ξ、两13和同R高尾不删。
 
 
-- [R816](results/R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)：R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角色与导子66、ray度360已付；α33的3处odd/11处odd及W11(−1)=−R给标准S66完整半特征。公开全CM7/13联合质量核一维，准确识别原V66/首z6和全权平方198→66尺度；相对旧S的charge33/17保留。尚须完整普通/惰性Selmer桥和同M/13carry的第四独立中央及成本，不把质量零或二元函数域中新坐标当额外维数。
+- [R816](results/R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)：R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角色与导子66、ray度360已付；α33的3处odd/11处odd及W11(−1)=−R给标准S66完整半特征。公开全CM7/13联合质量核一维，准确识别原V66/首z6和全权平方198→66尺度；相对旧S的charge33/17保留。完整普通/惰性Selmer桥已由R820支付；同M/13carry的第四独立中央及成本仍开，不把质量零或二元函数域中新坐标当额外维数。
 
 
 - [R819](results/R819-original-nef-surplus-and-s-projection-degree.md)：R819对原全nef锥证明κ≥(b−m)e+bm、χ≥2b+m（m=C.f0、e=C.H+为真实S次数），并给所有非负余项和m>0的全部等号链。原r2/m3得e≤3+[κ−(6b−9)]/(b−3)，近最小自交区域实际投影次数有界；同R同属m2分量由δ=h再得κ≥2h+2b。数值类不预设不可约代表，不代长接触或同源Cartier配对。
 
 
 - [R813](results/R813-original-corrector-weighted-cartier-unit-at-first-resonance.md)：R813在原因子曲线与原E0的指定正规化分量上，用同一个R构造ζ_F和Ω_R=t^r(ER)|C·(dζ_F+xω0)。真实参数z0=−x/y的首阶恰p−1，准确系数−5(6h)(6h−1)q0u0⁴/(34ae0)为单位，故Cartier非零且Ω_R非恰当；物理b尺度为b^s。仅用低于共振的原有限前缀，未抽出非恒定权；原全M尚未迫该类恰当或Cartier零，真实左行/全部极点和两13仍须接合。
+
+
+- [R820](results/R820-original-minus-eleven-full-central-and-selmer-bridges.md)：R820付E−11原V66的完整普通/惰性中央桥：普通整测度与原Katz平方、射线度360和通常CM Selmer；惰性整signed分解、实际θ⁶=−11微分、同椭圆单位混合权及完整Euler/阶乘比较。两处均得r+corankSha≤2ord原半因子，原导数非零即rank2且全Sha[p∞]有限；固定κ−实际赋值保留。有限证书及模p⁴至少h1..8/13carry已明，第四同M独立和跨p非零仍开。

@@ -1,5 +1,7 @@
 # R816 — 原 E−11 的秩二下界、完整 Schwartz 与唯一 degree66 来源
 
+后继：[R820 原 E−11 的完整普通／惰性中央及通常 Selmer 桥](R820-original-minus-eleven-full-central-and-selmer-bridges.md)已付；同原矩阵的第四独立中央仍须另证。
+
 日期：2026-11-15。**状态：本篇所列秩下界、完整 Hecke 角色、绝对局部 Schwartz、全权平方与原 S66 截面识别已证明。** 尚未把这个新来源与原 S34/T72/U136 的全部高轴、十三个 carry 合成第四条独立的原模条件；这一后续任务不由本篇的零质量自动完成。
 
 固定曲线是
