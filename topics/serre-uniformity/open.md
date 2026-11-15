@@ -96,6 +96,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输已由R826准确完成，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
 
+**原unitary交叉heat与同h投影接口已证**：[完整笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)1df7c782。实际H/J/C三同源、完整36theta及full72整模型；原CM整段FG不换。∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius及两边/角点全保，P0曲率6B²zt。首p按整数差的原Legendre×primitive权W真正水平，∇^(p−1)(W Lz²Lt³R)指定FG/度p+1准确等于6⁶B⁷Σ原同h项；非零仍未知。μℓ仅有共同jet作用，不称原36全局稳定；原FG一次横向源为零，不能用全向量单位替它。旧R739反例仍有效。 这使用不同的实际极化家族，不重开旧6I family已排除的对角延伸；有限W不需完整几何test-vector标记，真正缺口收紧到该指定齐次源非零。
+
 ### ordinary真实值与原全局对偶
 
 原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。[实际Shapiro笔记](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892从同一c_s构造Λ#受Σ支持类，p-localization单射逐层给唯一全局低阶gauge和K_glob；−iK_glob+(11i/2)u=d_R，q处完整杀零后唯一a_q满足Θ=i a_q。保原k-linear exact dual的共轭结构和二次restriction因子；q的局部θ-lift不自动给全局strict-p lift。另一侧同Σ支持的θ3 lift已由[exact-dual笔记](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be构造：原D0°消去第二障碍，首阶flat iff I0=0，strict-p还需b=0；不称完整晶体。实际原C4除T²后的q杯积为显式coboundary，互反只恢复R779的13bI0+26εb(18b+B_R+11/2)=0，b=0不除，不能重算作独立新方程。Θ数值仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。

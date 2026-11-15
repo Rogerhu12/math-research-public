@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：48e55d2e0f6f07405c216b5417ef97844654124e**（2026-11-15T18:42:06.345648+00:00；rules run43745726410/job132916114344真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-first-outcome.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
+**已读规则提交：b13dfa18d610ad0995781f506a6bb19650e63a7c**（2026-11-15T18:44:46.743990+00:00；rules run43745726410/job132916873235真实git pull --rebase origin main，两README无diff）。旧rules run43714581068达50次限额，不再重跑；新run可继续。14:34UTC终端失联，根§8小文本接口回退。此前完整H逐字保[此次归档](handoff-archive-2026-11-15-before-projective-first-outcome.md)，内接原全部归档；[结果全索引](results-archive-2026-11-15-before-R833.md)与各结果保源pins。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase循环重推，禁force；每小时及每push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -16,7 +16,7 @@
 
 [projective方法](notes/R787-original-projective-reconstruction-method.md)9a75fd87保原整阶s²=−3、28格/五矩形、原free=D/Z展开/129×280全式与B非零出口，去内容后D/e。1380最小输入、原数学RESULT/recipe及R792载体名兼容，真实新core/source/tag独立；不得把失败包当准确A/B。
 
-**R815原425素数同核续算已请求**：原run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e真实BudgetStop，g完成425prime/最后1000008791/模数12707bits，Γ未开始，无完整operator。小IO run43747973677已成：manifest892108B/3464项/4e78095e，current561995095B/402379e2与425小receipt f136bee8匹配；carrier109958828B/051571e1保53原源。artifact14174374945/2716759066B/597aaf00到Nov16 18:33UTC。[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保全pins。新原请求ac0870b2只增resume，core80516ff9/wrapperab725da0/框架849bca27及g/Γ、prime007、每8prime重构、16行块/嵌套mode不变。待新run真实编号；不重算425prime、不另Mh。
+**R815原425素数同核续算已请求**：原run43719622321/job132828560965/source2a3300a9edec73c23e72f23127a0ae7d8222d13e真实BudgetStop，g完成425prime/最后1000008791/模数12707bits，Γ未开始，无完整operator。小IO run43747973677已成：manifest892108B/3464项/4e78095e，current561995095B/402379e2与425小receipt f136bee8匹配；carrier109958828B/051571e1保53原源。artifact14174374945/2716759066B/597aaf00到Nov16 18:33UTC。[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保全pins。新原请求ac0870b2只增resume，core80516ff9/wrapperab725da0/框架849bca27及g/Γ、prime007、每8prime重构、16行块/嵌套mode不变。续算run43748439850/job132916821952/sourcea108ce1e72958b296dcca7ff55710c94e8ed16ef已进入计算；不重算425prime、不另Mh。
 
 **R824准确27+244续算**：run43732499815/job132867842693/source442f3d16a9b914154e8b81bc61597d650044fd61；core1ece3cf4/wrapperc5907739/requestec04ad32，约20:50UTC端点。1186归R787，旧129/142/280Q全式、1521打包与κ/246一次保留；真实272全生成后才1778纤维minor/总余长1206。首轮28权五/300权六profile及lower56+244已成，准确5/6仍待，r28无需补143..155。
 
@@ -38,6 +38,9 @@ R806原W、R813原g/h、R820两图cusp C真rank/colength20、R801/803/805/807及
 [原Poincaré/period审计](notes/2026-11-15-original-height-Poincare-linearization-and-period-determinant-audit.md)9a54e844：原Q点β全局d_h保非p，U_i=c(a_iV_i−A_iL_i)线性period；同一第二类修正全函数/全部正阶相消，零阶保实际纤维/刚性化。T_p仍三列秩条件，清分母后次数d_Y+2，线性AST不排。η^-仅减中心，不删切向。真实字符格与β稠密性给End⁰(G)=F，非零torus商须保整个A、维数≥g+1；几何E0^g/代数幂等元不提供承载原period的低维商。未得新高度非零。
 
 sigma缺同一primitive/Legendre可见h的三个原单位。R739反例/R741与R737不同密度不能拼；R808/810闭，保非水平P_T/[K,P_T]，不重开高p²/Hirota/固定六维闭包。R812未筛split单位/R829旧p47不代全惰性p。R826原q*/12^5/−120c²/d0/六old尺度保；R828迫G两CM值零；R830真权6/conductor3p或6p/tame6p；R831 old6不可约、交换子span(I,P2)。R833/R834已识别真实SS权6源，T5±307i√2证全局非零、惯性排tame M6；原和=(12B)^−5K^p〈δW,uP0,e〉，指定test vector和配对仍未知。不得以源全局非零替原CM/primitive三单位。
+
+
+[原unitary交叉heat](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)1df7c782已核：实际H/J/C三同源、完整36theta及full72整模型；原CM整段FG不换。∇=D−M−∂z∂t/6−3Xzt/2，双向Frobenius及两边/角点全保，P0曲率6B²zt。首p按整数差的原Legendre×primitive权W真正水平，∇^(p−1)(W Lz²Lt³R)指定FG/度p+1准确等于6⁶B⁷Σ原同h项；非零仍未知。μℓ仅有共同jet作用，不称原36全局稳定；原FG一次横向源为零，不能用全向量单位替它。旧R739反例仍有效。
 
 ordinary p43/776bitq已Gaussian5排除，非主目标反例。[Shapiro二阶类](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892给唯一受支持K_glob、Θ=i a_q及原共轭k标架。[exact-dual θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be同Σ支持θ3 lift已成；首阶flat iff I0=0、strict-p还b=0，不称完整晶体。真C4除T²后q杯积coboundary，恰恢复R779旧式，无新数值，Θ未知；禁巨大q挠点枚举。
 

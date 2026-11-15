@@ -396,3 +396,9 @@
 - R815小IO run43747973677已成，真实BudgetStop而非数学失败；g425prime/last1000008791/模数12707bits，Γ未开始。原manifest4e78095e、current402379e2与425收据f136bee8匹配；只506992 Range bytes，没有重hash大current/整ZIP。
 - 保存425断点全pins并立即激活同核请求ac0870b2；逐键核只改resume，53来源、80516ff9/ab725da0/849bca27、目标/prime/重构间隔/16行块/nested模式全不变，原wrapper全核后从425继续。
 - 2026-11-15T18:42:06.345648+00:00实际pull/read 48e55d2e0f6f07405c216b5417ef97844654124e，两README无diff；尚无完整Mg/Γ或高度，主目标OPEN。
+
+
+### 2026-11-16 02:46（Asia/Taipei）｜serre-public-astra-20261115
+- 原unitary三同源/交叉heat/本原源笔记19443B/1df7c782全文核并保存：H/J/C准确保CM点原36截面，full72 theta整模型、双向p关系及完整两边/角点；root直接核Moonen§8.10–15/8.28及Scheithauer Prop4.3/6.1。
+- 新固定整数差权W准确延伸原Legendre×primitive筛，指定源等式的度p+1分量等价原同h三单位，仍未证非零；FG首横向源本身零、μℓ不声称原36全局稳定，旧R739边界保留。R815续算run43748439850/sourcea108ce1e已运行。
+- 2026-11-15T18:44:46.743990+00:00实际pull/read b13dfa18d610ad0995781f506a6bb19650e63a7c，两README无diff；不登记虚假R835或全p结论，主目标OPEN。
