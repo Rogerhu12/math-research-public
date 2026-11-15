@@ -305,3 +305,8 @@
 - 从已推R781证明重建准确Laurent核心与公开workflow；只读R774已成H³前五块/14原尺度，逐阶R0..142、280维整数域，原ξ^(10n)相位逐项核，无κ逆。
 - core SHA d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751；root完整读核心/包装/请求/方法与真实R774块索引，不重复旧H³算术；实际数值待run。
 - 新增专用workflow，预算300/350分钟，原始表不入Git/Release，active断点仅一日临时转交；H/open同步。R784已单独推0c7ec883，继续完整原函数与真实高度。
+
+## 2026-11-15 13:09 Asia/Taipei · serre-public-astra-20261115
+- 实施根15新规：新增本题数据清理脚本/专用workflow，请求普通删除scripts/data及computations大可重算输出，先记逐文件SHA和历史来源；只文件I/O，无数学重算或Release上传。
+- 初始840326974B，按初始文件清单预计删775633196B，实际大小以公开run小summary为准；旧提交和全部证明/脚本/小清单保留。R775/R781固定源与已读临时输入不变。
+- 终端不可用，按根8小文本API提交，实际删除与正常git push由公开仓库自己的Actions执行；完成后核summary更新H。

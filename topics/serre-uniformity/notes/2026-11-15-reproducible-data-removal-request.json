@@ -1,0 +1,26 @@
+{
+  "session": "serre-public-astra-20261115",
+  "reason": "Apply root README rule 15 at 137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "selection": {
+    "all_under": "topics/serre-uniformity/scripts/data/",
+    "large_under": "topics/serre-uniformity/computations/",
+    "minimum_large_bytes": 100000,
+    "large_extensions": [
+      ".gz",
+      ".jsonl",
+      ".csv",
+      ".txt",
+      ".log"
+    ]
+  },
+  "save_only": [
+    "scripts",
+    "parameters",
+    "run IDs",
+    "output SHA-256",
+    "result summaries"
+  ],
+  "retain_historical_commits": true,
+  "force_push": false,
+  "upload_data": false
+}

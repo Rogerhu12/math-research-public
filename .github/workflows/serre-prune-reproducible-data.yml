@@ -1,0 +1,33 @@
+name: Serre remove reproducible historical data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/2026-11-15-reproducible-data-removal-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: serre-reproducible-data-removal
+  cancel-in-progress: false
+
+jobs:
+  remove_data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/serre-uniformity
+      - name: Record output hashes and remove only reproducible historical data
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python topics/serre-uniformity/scripts/prune_reproducible_data.py
