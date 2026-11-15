@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 06:11:03 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 06:11:25 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用 public Rogerhu12/math-research-public 及自己的 Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真 pull --rebase 重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：06:01:04.324292 UTC b0a612da885619690067cac0e90da621dba9dbf0（Green v2，两README diff空）。非FF即时CLI仍无executor；freshhead重推不伪称pull。
 CLI自21:48无executor，最近05:55:08非FF即时重试同错。根规8仅connector<100KB UTF8/禁binary；ref读非pull。现规15（137c5a…）取代Release版：可重算data/证书/Actions输出不保存，repo/Release/新artifact均不放，只script/args/run/SHA及结论；题main≤200MB。原历史/旧artifact仅暂存恢复、禁重算旧数学。清理SCI40c0f3df… run43679889657/1仍在逐原bytes SHA/普通删；实际结果须核。
-最近只读README核：e335b329641fbc78c451bafa6285bf9be66a2ff1；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：23f76b586d3efef451a374f776eb6a47dce21760；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public→/tmp/visible-exact-0df9-workspace/math-research-public，AGENTS无。前H完整链现存notes/2026-11-15-handoff-before-finite-Sobolev-nearby-body-ball.md（1c212853…，9742B）；再前H/全部原native/artifact/pin见其链。open归档notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md；log归档notes/2026-11-15-log-through-off-shell-Jacobi-and-finite-principal-phase.md。本H只保当前接口；不得把压缩当作删除历史门。
 
 ## 同一对象与总完成门
@@ -48,6 +48,6 @@ O/e8d2338e…精确offshell差EN=αNk−βNθp−γNp，无新δ逆幂；〈A0EN
 完整4Z规范/两mean/R0 Hessian保；实际反射A及导数0，额外角相位与径向Γ独立；moving只读L∞rHs，不授moving ℓ²sup_r。
 实际cap Z43674204314给A1/128<.869975739133、A1/64<.898277121481；intrinsic43674917925给b,g<6,k1。V/8ce318c7…原全real|δ|≤1e−8上body<1/4+真outer<1/8，反馈<3/8/相对逆<8/5。
 T/63d2ed8c…实际long固定角τδ/j mean/primitive/holonomy/真C_R逆<18；W/X合并全外行。Q/5a559ae3…辅助M2^416，范围−3/2..8212，comm<2^-15；全source gain<2^4194304、实际反射moving L∞rHs读出<2^4718592，原fB仍Hs+2。
-新C/730ffff4…完整有限Sob正帽主体球已成：1≤S≤8212，M_S代数A_S2^(S+1)，已知coeff乘子C*=2^212992；Pi0<2、I0<4C*、H<2^425986，完整conservative差无Y_r。取hatY=H z、||z||≤2^-8388608，原真实δ处线性outer保持，反馈<2^-2097152、state inverse<2^4194305；same-space完整二次/Lipschitz，独立charge按同源增广读出。不是未知nonlinear outer或actual residual入球。新U/4f47cb32…给真实未知角good tangent：D_j/weighted mean/primitive准确交换，Π0相位/两个curvature mean/offshell运输保；good height与raw pulled height差b h_x，后者须方向buffer。下一接真实long正伴随型；精细97ν/全尾/global matching继续。
+新C/730ffff4…完整有限Sob正帽主体球已成：1≤S≤8212，M_S代数A_S2^(S+1)，已知coeff乘子C*=2^212992；Pi0<2、I0<4C*、H<2^425986，完整conservative差无Y_r。取hatY=H z、||z||≤2^-8388608，原真实δ处线性outer保持，反馈<2^-2097152、state inverse<2^4194305；same-space完整二次/Lipschitz，独立charge按同源增广读出。不是未知nonlinear outer或actual residual入球。新U/4f47cb32…给真实未知角good tangent：D_j/weighted mean/primitive准确交换，Π0相位/两个curvature mean/offshell运输保；good height与raw pulled height差b h_x，后者须方向buffer。D/10b50937…完整circle核给real j∈[1/2,2]下height H1/2与density H−1/2变换各<5，同j DN差<25倍、relative form准确不变；density good导保∂x(ηn)，negative scalar curvature另付。下一接真实long正伴随型；精细97ν/全尾/global matching继续。
 
 每子问题完成即接open下一项；不得停在阶段报告、时限或“下一步建议”上。

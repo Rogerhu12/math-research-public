@@ -61,3 +61,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:11:03 UTC — 未知 outer 角的完整 good tangent
 
 全文核 U.1–U.25；tail 独核 U.20–U.24 曲率号、Π0 相位和两 mean。将已核14,211B小证明独推：真实 good 变量与 raw composition 的方向正则区别明确，全部 scalar/affine/cut residual 保留。root另读 Green v2 process34295B，真pull 06:01:04.324292→b0a612da885619690067cac0e90da621dba9dbf0，两 README diff空；当前2448future(1886旧)/448past/576product，0groups，未总界。发布前只读README e335b329641fbc78c451bafa6285bf9be66a2ff1 无变。
+
+## 2026-11-15 06:11:25 UTC — real 半阶高度 / conormal density 完整转换
+
+全文独核 D1–17：完整圆周距离和弦长比、signed Fourier 双积分、正负半阶对偶，以及 δλ−∂x(ηn)=j(δn−b n_x)；保持同一 j 的 reference 能量与全部独立源。将小证明独推；不从 L∞j 假推负阶 scalar multiplier，亦不把未知角解析化。发布前 README 23f76b586d3efef451a374f776eb6a47dce21760 两项无变。

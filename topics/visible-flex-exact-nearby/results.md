@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 实角的完整弱 DN / density 接口（2026-11-15）**：[D.1–D.17](results/R133-supplement-real-angle-full-weak-DN-and-good-density.md) 从完整圆周双积分核证明 j∈[1/2,2] 时 scalar height H^{1/2} 与 conormal density H^{-1/2} 正逆各<5；同一 j 的 DN差<25倍、相对完整型误差准确不变。真实非自伴配对、独立N23/N24源、curvature两mean/高度gauge保；density good导为 δλ−∂x(ηn)，不可用scalar good导代替。10142B；blob24110ae1ae005f7c279a776e737ca4009f42c905；SHA25610b50937ac99443f130625424fa672ad0ad3c674e5039e32be5dddf1f9fb3c84。未把共拉回参考换成裸Dx乘子，未授physical DN差。
+
 - **R133 未知 outer 角的完整 good tangent（2026-11-15）**：[U.1–U.25](results/R133-supplement-exact-unknown-outer-angle-good-tangent-and-full-means.md) 保固定 Π0/I0 的真实相位、D_j/径向导数/weighted mean/primitive 的准确交换、holonomy 小根与两条 curvature mean、DΨ_Q 及完整逆规范。off-shell 体/边界残差运输不消失；raw pulled height 比 strong good height 少一方向导数，不能由更光滑背景免费补齐。blob 11b660c6493522b8913144b4e0530306b0c9eb3a；14211B；SHA256 4f47cb32ccb7735f8ab1bc6fd930b1fd6905212af034252950780dca9b40f151。仅精确接口，未授新的 DN/nearby inverse。
 
 - **两新物理片非零入口完整源实算完成**：[实际43682479300/1](results/R133-supplement-actual-next-physical-pieces-nonzero-entry-complete-sources.md)，child0/21门、49新stage/13新完整行；六半径各13行选入，4305旧行逐字、0旧数学重算。最小R.001完整源负<7.448677497188e19、正<4.717220050477e19；两条真实入口E/F/ell及全部mean保留。源界改善，strong-return/high inverse仍缺。
