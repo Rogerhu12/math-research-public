@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 07:27:53 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 07:35:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，06:45:46重试仍无。root已核runner真pull：07:17:05.353018 UTC e9a7712fb431397cd172960692c17631f5056325，两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：4f4dbf700ee0732f6e7bd245f35808592ac82607；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：eed2a8c65a4a466ea1c97c1d6b8ab2bab1a2e12e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。前H全链：notes/2026-11-15-handoff-before-actual-reference-gates-and-raw-base-inverse.md（735b4dfe…，9749B）；同名open-before归档41cb6563…/29328B。原inputs/全部失败均保；log归档见前H，压缩不取消历史门。
 
 ## 同一对象与总完成门
@@ -21,7 +21,7 @@ geometry43584188751/26只在同η0真闭C²解/fullC0≤1e−4/|δν|≤1e−5/�
 
 有限193 run43635487128/8 ν误差.003509417445587仅有限；旧全L².007490301792401，目标.005。原5970/6391Gram/cross/impulse/失败完整保，禁重算。
 全F5970 43654510038 child0/7，4旧+5966新，native7e1a5709…/science time原null。旧backward1886/320bit仅artifact14146873569/de4e8dbd…恢复。
-Green v1 43680721302身份换行门失败/0新数学；v2 f33345d1…/53d672d2…/362pins81fcf32f… run43681612825/1数学child1/0group。已核receipt-only43689244062/1：有限非负Arb在weighted_add→exact_upper_float转binary64溢出，非Arb nonfinite分支；具体放大源未定。process0b2e0815…/summary770a61fa…的finally精确4226 future=1886旧+2340新、past1800/product4331/ports5970，新产物未保存；后继需明确重做上述新临时工作，原1886/5970/7908绝不重算。诊断文1e74f420…保原log69181f59…/70333B及receipt d0242150…/41089B；下一directional errorGram/任意指数dyadic先真实入口preflight，不削原门。
+Green v1 43680721302身份换行门失败/0新数学；v2 43681612825/1数学child1/0group，receipt-only43689244062证实有限非负Arb→binary64溢出。process0b2e0815…/summary770a61fa…精确future4226=1886旧+2340新、past1800/product4331/ports5970；新临时数据已失，须如实重做，旧1886/5970/7908不重算。诊断1e74f420…保全身份。v3已部署：SCI1d8383a8…/worker c06a5758…/369pin637c7bdf…/helper2e5dbdb5…/contract95917d7f…；全signed输出侧W、任意指数dyadic、最终C*HC/97mean/真实cut全保。原362pin零改；先32真product及±4096全97Gram preflight，同run复用后继续；hydration后14GiB/4GiB/4CPU门。尚无v3实际数学结论。
 全7908 43665656138 child0/2给HS<.001546601378/Hessian<2.373981e−8/coefftail<7.195238e−10；同97 Wcap43671537267 child0/9给CHCH*≤Wcap、||CH||<.000943含unknown≥97/mean/真outer/Hessian。待三HY/最终contract，未全逆；完整native/array身份见前H。
 
 ## 第一修正、共同参考与新物理片：phase_inverse

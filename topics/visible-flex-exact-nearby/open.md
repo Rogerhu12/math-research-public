@@ -159,3 +159,7 @@ SCI dee201d0…/flow c3370a24…只在public Actions临时读取原job1327132474
 ### 已合并的附近帽门及下一真实接口
 
 [N1–21](results/R133-supplement-nearby-raw-cap-body-and-true-outer-inverse-with-fixed-physical-height.md) 现把C主体与B真实raw外行反馈进R同基点新逆；原fBδ正宽使H8198<2^262144，真实Bhigh<2^787072无需小，完整connection总费留359804 bits。完整固定物理高度的二次/Lipschitz在高背景球中闭合，good-height与physical源逐列分清。下一付实际变化的内外height/curvature readout与全网络source，保持mean/相位/荷；S8192不自动返8212背景，极小球的实际入口仍未证。
+
+### Green v3 完整误差方向修复（2026-11-15）
+
+合约 `notes/2026-11-15-R133-scaled-signed-product-error-Gram-contract.md` 与六件部署已推；SCI `1d8383a8…`、worker `c06a5758…`、369pin manifest `637c7bdf…`。下一项直接读其真实 Actions preflight/三流/消费/最终完整门。前32真product在同run复用，旧1886与5970/7908只恢复；v2失去的2340/1800/4331/5970新临时工作明确重做。全signed W及任意指数dyadic不改变原97维形式、独立mean或真实cut，也不保证原阈值必过；未知实际门保持未知。

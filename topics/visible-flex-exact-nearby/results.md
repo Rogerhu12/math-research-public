@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：Green v3 完整有向乘积误差 Gram 合约与公开 Actions 部署。** [合约](notes/2026-11-15-R133-scaled-signed-product-error-Gram-contract.md)以 `DeltaE DeltaE* <= W` 保留误差方向与全部相关性，正 Young 递推、任意指数精确 dyadic 权和缩放、最终完整 `C*H C`；97 维均值、真实 waist/cut 及全部源不变。旧362输入pin逐个不变，v2真实失败的新临时重复计算如实列出；新runner先测资源和32个实际product/极指数全97 Gram，随后同run复用。此为已审合约及部署，尚未取得v3数值门或全无限逆。
+
 - [R133 N：附近帽主体与真实raw外行的同源组合](results/R133-supplement-nearby-raw-cap-body-and-true-outer-inverse-with-fixed-physical-height.md)：保原physical fBδ、不缩数据，H8198与实角connection逐项给D≤2^1311361dQ；M8212球内总反馈<2^-359804，S≤8192的good源state逆<2^4194305，物理height源<2^4800000且保1/sB。固定该高度的完整二次/Lipschitz费2^8028804、全部mean/荷保留。原linear innerport明确，未授未知inner匹配、联合height二次或actual residual入球。
 
 - [R133 Green v2 实际失败诊断与恢复范围](notes/2026-11-15-R133-actual-Green-v2-finite-dyadic-overflow-and-recovery-scope.md)：零数学43689244062/1核真stack，finite非负Arb到binary64溢出；原43681612825/1数学child1/0group，原非finite norm分支未触发。finally计数4226future(1886旧+2340新)/1800past/4331product/5970ports，新增temporary未保存，后继须准确申明重做；旧成功前缀与全部输入不重算。未授Green/Poisson最终门。
