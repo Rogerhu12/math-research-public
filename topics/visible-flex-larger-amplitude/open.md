@@ -42,6 +42,8 @@ R277两端链/高109消元与R278项目化/条件消元已直接入results；实
 
 106从这次真实p/run/source/status2f8ad344/log-summary73774bce生成短recipe，以独立stdlib orchestration最多64次运行同3169：每次仍η=.01、8×20/12×20、同原所有门与freshJ。只有真实原budget stop且原unit未过才继续；异常/非预算stop/unitstop照原停止，无预设收敛。[106完整接口](notes/2026-11-15-request106-frozen-recipe-batches-interface.md)已发布：batch0805b44d/reader c5ce5766/workflowf9494887/request540a17f5，75主pins加2metadata支撑，child仍15。原45分钟真实pull监控保持；独立report job只给<90KB原标量与SHA，root不下载长compute日志。106实际run43682474213已完成13批，最后一批原20回溯全拒，所有最终门false；详见下方实际106正式结论，108针对真实首因继续。
 
+[108完整三参数方向接口](notes/2026-11-15-actual106-to-full3-trust-recipe108-interface.md)现已接公开独立Actions：只用actual106末p作真实初猜，正阻尼6×3带列主元QR与完整三角回代求相对参数信赖域方向；三个参数同时作原20档直接试探，不做单独p3恢复，也不截断任何列。原3方程未加权目标、.2 Armijo、域、8个外方向及原unit/full112/FD/Arb/圆参考终检均保留。source5d354015、reader e5c3fd70、request356c1072、workflow5280636f；实际run/结果待读，不能以新方向代码冒收敛。
+
 ## 2. 接受场闭合、固定g与全t精化
 
 已发布[完整闭面执行入口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)：真fullDN和自己的final audited tail/config/port→完整physical/material/z0/mean→R249首单元→共享quintic B与两帽；只用自己的完整readout，不加旧A mean，目标g不替换为B′。实际接受输入仍缺，未造request。
