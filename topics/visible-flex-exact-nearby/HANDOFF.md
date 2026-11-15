@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:35:53 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:38:33 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 13:23:55定时及13:32非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar/AJ及log；ref不冒pull，每小时CLI继续。
-最近只读README核：e0dbdd9ed380b98e598de09d54857556d1ab001e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：16d4ccec131d41712160060648738a9b185b7662；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -19,7 +19,7 @@ intrinsic ν依C6–7，最终ν*/Γ1*/Γ2*/η/metric冻结；单真G经P/9a5bcb
 ## Green v4：newton_source
 
 v3 43690634784/1旧README guard终止，0数学diag43709951426 f526d0b1/full-logdc649478；childreturn未知非数学失败，新temp失去且用户授权重做。旧future1886不重算；v2/v3全部lost计数/恢复身份保21f864c3a1737da93ccb707d73f9a47c8cd29f10同H及v4契约。
-v4 43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。13:24 process5732c2f9：future3488=1886旧+1602新、past1216/product1568/groups0，child未终。真pull13:24:53.546957→7b9cc1e9两README空。全193→同97/signed W/mean/预检/192bits/live规则/容量/预Git/终实清点完整保6ca0d0627f51535efbd5d45da14692f0464c7a9d同H/契约；未有full Green成功。
+v4 43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/376pin42810dfa，旧369零改。13:34 processf6b58a09：future3728=1886旧+1842新、past1360/product1744/groups0，child未终。真pull13:34:58.142784→e10b8ad0两README空。全193→同97/signed W/mean/预检/192bits/live规则/容量/预Git/终实清点完整保6ca0d0627f51535efbd5d45da14692f0464c7a9d同H/契约；未有full Green成功。
 数学仍fixed repaired M32 δ0/η0/ν0，继承whole_parameter_half_width1e−9不授全参数；selectedδ*低块须Dδ真实转移。
 
 ## 真共同参考与负侧源：phase_inverse
@@ -30,7 +30,7 @@ AJ43718112378/1 child0/29门锁，report2ff53654/execution58462f96/result3fa0818
 
 N43716450174/1 child0/17门锁，report59ab1bb6/execution318dd25b/result72745bf3；22pin/6cut/完整域及失败保690b33bc同H/原actual。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709，旧G贡献<5.92509e14；root/jump实际列/positive/waist/return未付。
 
-RV/8e91d7a2精确L1抵消/L2物理b1和fullrank保。首43719397730/1 child1、13/14：误要求旧formatter失败publication.complete真；executioncb474bc8/result7d102ad6，new13tail/2local计数0。仅改该身份为false/child1，SCI d59893af/41pin4718b4b重部署，worker7748c390不改；27门待actual、29列逐字AJ，非GH。
+RV43719681982/1 child0/27门锁，report8598b39f/execution0781239c/resultb45256c8；SCI d59893af/41pin4718b4b/worker7748c390。13新tail/2local成：raw1<7.002469e11/raw2<4.317610e8/pair<1.606600e14，29其余项逐字AJ。7个b1jet可给DG仅读。首schema失败43719397730/new预算0及修复保actual报告；旧/新成功均不重算，非GH。
 
 DG新direct physical G0(w1V)两行仅a/b r与φ导，完整rank n^-2另外付；W a1/b1确为w1V，RV free w1不入。只新增a1七jet，b1七jet必须读RV成功actual；density1五整term/两窗/mean保，AJ density0和RV local逐字保。proof 2b9f1a14，新scalar未成。
 
@@ -48,7 +48,7 @@ E/H/A/R式保46b3c697同H/原文。MC/5d525aac证b0=s0+rraw,mean e2，fδ补+δr
 
 LT/d4ca6057给同一双侧真H1 state的Π96/97..288/>288三带trace：一阶能量+真comm给H1/2，known带192两leg在H288精确消，未知ΔA/Δd和mean保；fδ degree288，MA同态H8193只用于无限尾插值。LT20/26须actual low cut和左右low/high body/源，finite Green只含左侧；未评数值门/未造core。
 
-NR/75f86ebe锁raw nonmean四范数/全误差，交段min(λsup²,旧整格L2²)+K权/repair/offset，degree160付640角费；MC均值直接copy。SCI129f7f79/worker5b9e4b00/19pinf44312c6已部署，只两restriction/五LT系数，13门待actual；左右body/cut未付。
+NR/75f86ebe raw nonmean两restriction/五LT系数，SCI129f7f79/19pinf44312c6。首43719591979在preGit>59KB停止，log35097B/0d80ddb2；child/gates未输出未知，临时新结果失去，非数学失败。仅infra精简重复来源metadata待修后按用户授权重做未存新结果；完整表/MCmean/左右body-cut义务保。
 
 ## 完整tail与同一几何对象
 

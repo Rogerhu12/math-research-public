@@ -123,7 +123,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [AJ完整运输系数角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)及[actual43718112378/1](results/R133-supplement-actual-retained-radial-angular-jets-and-complete-source-bounds.md)已成：child0/29门/math.21664545s，SCI32c45b33/workerc70791fe/50pin871240a7，旧44pin零改/14AST/0旧math。report2ff53654/execution58462f96/result3fa08181。完整T0=t+5dφ的radial mean保留，F=1/Q、全B逆、leading M逆与合并QG角jets完整；真实外RG径Cauchy和内H小量分付。7/10整项改善，pair<4.527719e14、mean<2.046084e12，density0 RQJg<6.262692e9；3local及未声明13first/8mean逐字G，主导raw1/raw2/g1仍完整。31列/真实六径权不重算，不授strong-return/GH。
 
-[RV准确径向抵消与负侧local](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)保L1先消ℬ′b0e1、完整ℬ″和Xi/w0X项，L2物理b1r/b1φ及rank，旧1/n和六径权不改。负h-tail只扣同正算法addend严格lower后加新尾，finite不缩；只local1/2可改，29项逐字AJ。首43719397730/1 child1/13过14，误核旧formatter publication状态，新预算全0；仅修schema后SCI d59893af/worker7748c390/41pin4718b4b已重部署。actual/GH仍待，旧成功不重算。
+[RV准确径向抵消](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)及[actual43719681982/1](results/R133-supplement-actual-correlated-radial-local-source-bounds.md)成功锁：child0/27门、13新tail/2local，SCI d59893af/41pin4718b4b/worker7748c390，report8598b39f/execution0781239c/resultb45256c8。raw1<7.002469e11/raw2<4.317610e8/pair<1.606600e14；29其余项/径权逐字AJ，7个b1jet可直接读。先前43719397730仅schema错误、new预算0，完整失败/修复见actual；旧成功不重算。L1精确抵消、negative h-tail严格lower、mean/输入权保，source-to-wave/GH仍待。
 
 [DG第一修正的直接物理transport](results/R133-supplement-direct-physical-transport-of-genuine-first-correction.md)给G0两行a_r−d aφ+iε(QTb)φ、b_r−d bφ+iε(Qa)φ，完整rank n^-2与输入权保。W a1/b1确同w1V；只a1七新tail，b1七值仅读RV成功actual，free w1/Nold不混入。density1只需角0..2、五完整term/两窗/mean；所有density0/local/未声明列逐字当前账本，径权不重算。新scalar待，非GH。
 
@@ -194,7 +194,7 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 [LT三带真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)现给Π96、97..288和>288三段的完整低入口：真实双侧一阶能量及comm给H1/2迹；参考带192使两finite→>288 leg精确为0，未知ΔA/Δd、中间带/mean保。fδ全degree288，true f=0才使F288=0，MA同态H8193仅用于无限尾插值；LT20/26保known源影响的middle及独立mean。须实际有限cut cL和截面两侧low/high body；Green只给左侧算子gain，不能越域或当实际correction。LT22/23另保近似态真实Fφ和speed mean；新数值门未评，core/匹配未成。
 
-[NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)锁真实交长与旧整格积分两完整界min、全K权及repair/offset；degree160付640角费，MC均值仅读。SCI129f7f79/worker5b9e4b00/19pinf44312c6已部署，13门待actual；左右body/cut仍未付。
+[NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)锁真实交长与旧整格积分两完整界min、全K权及repair/offset；degree160付640角费，MC均值仅读。首43719591979因preGit>59KB停止，child/gates未知、临时新结果失去；仅infra修复待重做，左右body/cut未付。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
