@@ -133,3 +133,5 @@
 - [R195：单边活动包中的真实非零第四ruling方向](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md) — f=C非零常值而g变化，w保三g矩时所有cross相位由二次生成元的Sobolev配对准确消去，得Bθw=−2sin²θ D_w S_s(g)。真实右尾/η/八维累计历史给固定几何像≤42；标准常段完整三次局部式的Euler首t10不属三矩adjoint首t4..6，四测试函数C4连续性给C∞准确补矩的非零有符号商线。周期不变，只改σ一次，R193二次障碍保持；无满射或第四解断言。
 
 - [R197：无开常段几何上的非零固定圆ruling方向](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md) — 插真实B·B^rev的M/T0/frameI回路保hook，同时经过h1/d0,1,2使三矩行det−1/16。R195标准段两点加另两态给增广det−Δσ D_wC/8非零；保全局history的连续性与R189正则桥逼近将其迁至无常段，按新实际位移Klein精确闭合。几何扰动可改度量，选定最终几何后同gε/圆/w给真实有符号joint线；仍不授原目标在像或第四解。
+
+- [R196：完整权零头部、唯一正射线与严格canonical成本](results/R196-complete-weight-zero-character-head-positive-ray-and-strict-canonical-cost.md) — actual43681388902/source7872857e十新人工过，11新收缩与16缺失R0原根恢复给38列/318忠实行/rank19/19全核，U0=19/R0=16/商3/平移像1/H0=2。全部22坐标自由(x,y)，同μ含α；a=c=y、b0=−y/3的真实快路径迫y0，完整正性iff x≤0且0≤α≤−x。λ+=(−1,0)对M0闭成本准确λ+V=∫k²=L+∫(h_s/h)²>0，真canonical成本锥为真子锥。固定圆需另付代入核因子化，独立二阶w须另付泛函范围；不扫剩权、不冒全课题不可能。

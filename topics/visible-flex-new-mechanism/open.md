@@ -78,13 +78,15 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 **权−2已结案。** [R186](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md)给真U−2维52、R40独立、响应商维12、完整H−2维5，147列完整95维原函数核。[R188](results/R188-no-nonzero-positive-affine-character-at-weight-minus2.md)严格排除全部非零正字符：完整joint缩放、周期积分、有限正平帽变分和近复正弦负action覆盖全部边界。旧R177等外点早已不尊重原函数核；不再跑此权旧77/40/70/86、必要LP、RREF或负路径。
 
-**[R190](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md)已证U2=R2、H2=0。** 原势缩放差的常数由准确基点N0(1,1,1)=0消除；高权势入W、原v2/v4上界、完整Γ与14族逐项支付。R105完整分子递推给权支撑[-9,3]。结合R145/R188，尚余偶权**{-8,-6,-4,0}**；这不宣它们存在正字符。权0优先，但同八矩乘子有p1+4t1一维齐次自由，必须与全静态/二次/四次/平移分母共同处理。
+**[R190](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md)已证U2=R2、H2=0。** 原势缩放差的常数由准确基点N0(1,1,1)=0消除；高权势入W、原v2/v4上界、完整Γ与14族逐项支付。R105完整分子递推给权支撑[-9,3]。结合R145/R188，尚余偶权**{-8,-6,-4,0}**；这不宣它们存在正字符。权0现已由R196完整结案并给真非零正射线；其余负偶权不再为证明障碍存在而扫表。
 
 [R192](results/R192-weight-zero-character-multiplier-and-first-order-action.md)已给权零真实字符的准确接口：协变乘子存在iff d_p1=0，正字符必须满足；八参考态迫c0、d仅p2，μ=(0,2α,2β,0,0,0,0,8α)，α仍是待选乘子。完整action为∫[a p′²+c p⁴+b0(k)k′²+b1(k)p k′+b2(k)p²+A0(k)]，p=(log h)′；p两端0、k平，开路径无∫p=0门。最高层iff a,c≥0，磁项须保。下一完整head只≤16新响应，消费已存78投影、全静态与v/A/H，恢复旧R0缺失16根核原hash，不重旧评价或NF；先全原函数核与D，后d_p1条件和同α正性。
 
 [R194](results/R194-weight-zero-free-time-criterion-and-zero-acceleration-boundary.md)进一步准确消去全部时长：G=a dp²+b0 dk²、V=c p⁴+b2p²+A0，须G/V非负且所有E={p0}到E曲线的∫(2√VG+b1p dk)非负；等价有零E值的局部Lipschitz支配势，保退化。a=0时完整iff c,A0,b0≥0、d=b2+2√(cA0)≥0、4b0d≥b1²，含b0=0；不是二次PSD必要。先取得真实H0，再对同一α应用，不授任意形式系数真实可行。
 
-**下一：剩余四个偶权完整正性。** 只读已有raw族/状态权库存，优先统一纸面排除；若需新实际，只消费已有3974根、N0/N2与五族，不重新生成forcing、profile或已完成word。选择完整同权head及真实D分母，避免孤立列和必要外点链。R127把闭锥正性障碍缩成杀R、N*λ=0的单整数权字符；R145迫偶权。R140必须用同一八矩μ和所有真实开平端路径的完整action，不能逐路径选μ。
+**[R196](results/R196-complete-weight-zero-character-head-positive-ray-and-strict-canonical-cost.md)完整H0与正锥已结案。** actual43681388902/source7872857e/job132712596579：38列/318忠实行/rank19/19全核，U0=19/R0=16/商3/平移像1/真H0=2；自由x=ν5、y=ν20，全部22赋值与c/d明确。a=c=y而b0=−y/3迫正字符y0；剩余同μ参数α须0≤α≤−x，所以正锥准确为x≤0。λ+=(−1,0)、α0给完整∫k²，真实M0迫λ+V=L+∫(h_s/h)²>0。没有重旧N投影或−2研究，新payload不持久保存。
+
+**下一：特殊第一圆与独立二阶gauge的准确范围。** universal canonical成本锥已经被一个真实正字符严格分离，停止以所有正字符都消失为前提的控制路线，不再为权重目录完整而分类−4/−6/−8。对R183或其他固定圆，须证明ker(ev_{f,g}|U)⊂kerλ+，或找一个λ+非零的真实代入核；不能把完整head秩外推为固定圆忠实。对R184独立w，须另付Δ_w是否在同一U、λ延拓和是否消掉Δ_w。tail优先明确局部/profile读出，literature优先f常包上Vθ^0″不可被Lf修复的门；完整joint目标仍须同一w同时支付。
 
 R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
 
