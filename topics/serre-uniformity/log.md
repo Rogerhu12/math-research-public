@@ -400,3 +400,8 @@
 - R790首run43687770143/source de4bd8f7在准备阶段失败：旧R735 ZIP不含full-outputs-manifest.json；新数学core尚未启动，core receipt为空。实际失败ZIP SHA2d10e8071af535b6513ebb2da875f66897e529c1a919f2f7718845393c77947a已核。
 - 仅修wrapper/request/workflow：明确绑定已存在Git中的R732原manifest路径与原SHA，archive缺该manifest时才回退；原run/core/cert/输入SHA链全部保留。同步增强实际146行与6724/82^10及5/10数量的一致性验证。
 - 数学core981eb543与proof83303dcd均未改，resume=null；本地只重演已有metadata的IO读取，无数学重算。再次触发公开run，H/open即时登记，主目标OPEN。
+
+## 2026-11-15 15:07 Asia/Taipei · serre-public-astra-20261115
+- 回核R739 (739.2)/(739.10)：原p41/h37真本原且Norm/Legendre均单位，却f5=0/g0=1、实际M2赋值−1；逐项反射不能仅靠限制可见集修复。补入既有sigma研究笔记，不重开旧有限计算。
+- R790修复已推9e4074fd，公开续run43688215703实际运行，数学core/proof保持；旧manifest准备失败记录保留。H按10KB上限归档压缩并同步open。
+- R792继续原y值与共轭唯一立方根的真实β合成；R793继续RR/Jacobian及局部代数接口。R787原函数仍运行，全p非消失和真实高度继续，主目标OPEN。

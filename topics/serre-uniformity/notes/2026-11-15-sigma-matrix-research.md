@@ -277,6 +277,19 @@ $A_{35}=0$、$A_2=1$、$A_{32}=15$。
 所以 $f_i$ 与 $g_{N-1-i}$ 的零支撑并不相同；
 不能假定 Frobenius 将这一对系数按逐标签单位倍反射。
 
+这不是只出现在被原筛排除的标签上：
+[R739 (739.2)、(739.10)](../results/R739-exact-original-p47-and-p41-valuation-continuation.md)
+已经准确证明 $h=37$ 满足 $(37,42)=1$，且
+$$
+N_{37}\equiv33\ne0,\qquad
+P_{36}(1/s)=19/9\ne0\quad\text{于 }\mathbf F_{41}.
+$$
+因此 $i=5$ 属于真正的 primitive/Legendre 可见集合，
+仍有 $f_5=0$、$g_0=1$。R739 还给实际
+$v_{41}(M_{2,37})=-1$，不能把这一非最小赋值冒认成
+R770 三单位所给的 $-2$。所以将逐项单位反射仅限制到可见集合，
+也不能挽救该猜想。
+
 同一证书的 $A_{32}\ne0$ 与原 $f_0=1$ 给另一端
 $f_0g_5\ne0$，但其原标签 $h=7$ 在 $p+1=42$ 时并不本原。
 这只说明筛选不可丢掉，不将固定 $p=41$ 的既有数据重开为新数值窗口。
@@ -289,3 +302,4 @@ R788 的完整跨 $p$ 修正式与 Schur 耦合继续成立，真正筛后共同
 - [R770](../results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)，原二阶残差换参和 primitive／Legendre 接口。
 - [R782](../results/R782-original-sigma-six-Hirota-square-addition-kernel.md)，原十二阶常数及完整恒等式。
 - [R784](../results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)，原六秩三通道及正确权运输。
+- [R739](../results/R739-exact-original-p47-and-p41-valuation-continuation.md)，真正可见标签 $p=41,h=37$ 的原范数和准确赋值反例。
