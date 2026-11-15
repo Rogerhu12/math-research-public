@@ -308,3 +308,5 @@
 - [R375：同C两图Riccati比较传播与完整cut责任](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)（已证条件包含）：上下标量比较覆盖整个闭系数族，完整存在段与log/sign重构支付图内非零幅度，精确平衡/隔零切图、全部cut候选与中断后缀保持。从原根族重新计算，不缩旧失败盒，不预判177或全部112非共振。
 
 - [R345：actual161单field全230列严格认证](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：真实128末态唯一α1接受、全226独立replay；stage10/RK0/field0的224shape+6环境列320bit完整认证、两mean保。仅固定实际输入/trace的准确有限算法误差；上游/整RK、112/338/audit/native仍未付，子70传输由同job完整恢复，全部大表只身份。
+
+- [R368：actual168完整C/deep112与首模态pivot未付](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：真实physical far目标上m2仅49commit/100attempt，depth32双端点盒含0，非资源止；19栈/required[18,10387)/其他111模态保，0far/0unitrow，native未启动。六小块/四report和清理完整核，不能冒原Newton拒或准确共振。
