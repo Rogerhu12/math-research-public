@@ -74,3 +74,5 @@
 - **[有限零点二阶切向族、K67及条件8705](results/R150-appendix-zero-second-order-tangent-family-common-factor67-and-source-cost8705.md)：** 原s=0真4340常秩及全部17式沿真实切向图O(s²)，给全部最大子式共同s21；旧有限因子升K67=s7K60、lc=5^6仍31单位。与指定∞43/换列42/cofactor41合并q248…8660，原目标已有Q[s]来源才得cost≤8705（非基8704、目标分支8468）。全公共齐次因子至少88次，不把∞21再加指定43；成员性和lc(D)单位仍开。
 
 - **[1541个新增真枢轴与完整2751核心](results/R150-appendix-exact-low-fill1541-and-original-seven-core2751.md)：** 原七RHS问题在8.242471283秒精确新增1541步，总1567步，原4318单位系统严格化为2751核心/424921项；coeff3693bit、RHS3677bit。完整状态封存3.925719243秒，达到固定工作门槛时只保完整已提交pivot；原源/DAG/7RHS均保，Q核数仍29。后继只查正列内容、真实块结构和本job底层FLINT版本，按实际状态继续。
+
+- **原2751单位块的完整列内容与单一结构块。** [精确结论](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)：run43679903558实际2.807727007秒核全424921除法，2700非单位列，最大位数3693→3691，SCC仍2751。保原7RHS及完整逆代，未添有理核；接B-only行内容和真实RHS分母。
