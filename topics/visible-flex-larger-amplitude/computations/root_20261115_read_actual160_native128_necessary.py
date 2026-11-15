@@ -1128,6 +1128,35 @@ def compact_necessary_metadata(value):
             return [visit(part,path+[index]) for index,part in enumerate(item)]
         return item
     result=visit(value,[])
+    # Hoist only this reader's fixed top-level scope explanations. Original
+    # owner/component/terminal/error objects are not visited or modified here.
+    fixed_scope=dict(
+        original_report_not_downloaded_again=True,
+        old_sources_read_not_imported=True,
+        original_scientific_conclusion_not_changed=True,
+        direct_original_projections_are_primary=True,
+        optional_old_tree_supplement_not_required_for_direct_readback=True,
+        full_original_component_semantic_trees_not_reconstructed=True,
+        original_child70_not_reclassified_as_mathematical_failure=True,
+        raw_Git_Release_artifact_uploads=0,
+        old_raw_log_saved=False,
+        new_output_segment_protocol_used=False,
+        timestamp_BOM_removed_only_in_parse_view=True,
+        optional_original_typed_tree_scope_is_in_each_component_entry=True,
+        original_direct_projection_does_not_require_full_old_tree_reconstruction=True,
+        complete_successful_binary_arrays_and_factors_not_downloaded=True,
+        complete_successful_stage_and_column_metadata_returned_only_as_identities=True,
+        no_new_numeric_array_residual_norm_J_domain_or_interval_computation=True,
+        no_original_native_or_BVP_acceptance_reclassification=True,
+        scientific_success_not_inferred_from_reader_success=True,
+        missing_original_fields_not_recreated=True)
+    for key,expected in fixed_scope.items():
+        if (key in result and type(result[key]) is type(expected)
+                and result[key]==expected):
+            del result[key]
+    result["reader_scope_contract"]=dict(
+        actual_request_sha256=value["actual_request"]["sha256"],
+        pointers=["/necessary_scope","/parsing","/retention","/readback_complete_scope"])
     result["necessary_metadata_representation"]=dict(
         schema="request182-one-JSON-equal-metadata-reference-v1",
         canonical_identity="sorted-key original-number UTF8 without final LF",

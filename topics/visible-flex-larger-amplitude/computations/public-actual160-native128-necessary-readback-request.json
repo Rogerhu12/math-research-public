@@ -4,8 +4,8 @@
   "request_number": 182,
   "operation": "Read only the immutable original160 compute log once in Actions; recover necessary owner and four-component outcomes without scientific recomputation.",
   "source_entry": "root_20261115_read_actual160_native128_necessary.py",
-  "source_bytes": 75754,
-  "source_sha256": "c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74",
+  "source_bytes": 77510,
+  "source_sha256": "1536a01102f2c6620adbb43c0b8e1708bd57e194961079f0aa3016a152629c28",
   "original_run_id": 43729874541,
   "original_job_id": 132859748674,
   "original_source_commit": "b34692d09c8d5ecdd7b859e43489da4413f1468e",
@@ -131,7 +131,9 @@
     "source_manifest_referenced_by_actual_request_SHA_and_JSON_pointer": true,
     "fixed_canonical_and_optional_tree_scope_conventions_declared_once": true,
     "original_trial_evaluation_presence_tables_and_all_rows_unchanged": true,
-    "section_byte_counts_printed_before_90000byte_check": true
+    "section_byte_counts_printed_before_90000byte_check": true,
+    "fixed_top_level_reader_scope_explanations_referenced_once": true,
+    "no_original_owner_component_terminal_error_or_trial_field_removed": true
   },
   "retention": {
     "old_log_saved": false,
@@ -188,6 +190,33 @@
     },
     "reason": "Remove repeated source and canonical-scope metadata; share only exactly equal selected dictionaries inside the same necessary JSON. Preserve all trials, evaluations, key presence, component flags, errors, maxima and unpaid addresses. No changed science, larger limit or new output fragments.",
     "previous_large_result_not_downloaded_or_reconstructed_here": true,
-    "new_scientific_calls": 0
+    "new_scientific_calls": 0,
+    "second_attempt": {
+      "run_id": 43756253033,
+      "source_commit": "3b9877749db9212f937cd79cb464554887004078",
+      "job_id": 132940880237,
+      "reader_source_sha256": "c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74",
+      "complete_original_log": {
+        "bytes": 3234095,
+        "sha256": "27c888838abc2cabbe0dd14886ffdcffa76e4d35f21048b30367799d04363149",
+        "physical_lines": 3513
+      },
+      "internal_reader_exit_code": 0,
+      "protocol_error_count": 0,
+      "error": null,
+      "resource_partial": false,
+      "unreturned_necessary_summary_bytes": 90136,
+      "process_exit_code": 70,
+      "actual_cleanup": "skipped",
+      "actual_section_bytes": {
+        "components": 37914,
+        "QR_events": 14492,
+        "terminals": 13195,
+        "owner": 10114,
+        "diagnostics": 6521
+      },
+      "actual_scope": "Original science details have still not been returned to the owner; no conclusion inferred.",
+      "correction": "Hoist only generated constant top-level scope explanations to the exact request. Preserve every original scientific/error string and all trials/evaluations/presence/unfinished addresses; no altered limits or new parts."
+    }
   }
 }

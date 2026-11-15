@@ -375,3 +375,6 @@
 
 
 - [Request184：真实可行coast点、完整Prüfer far和原453](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)：原180真九词/SHA恢复后新C/真factory/语义初域传递；冻结181全角与实际μ构造逐候选QPi单位行，原全部112/338/453、FD和终门保。十源/74pins，完整预算、未决地址与条件清理已接；修独立CLIENT argv与actions:read，实际R391由exact唯一核。
+
+
+- [Request182r3：固定范围自述共享，完整必要科学正文不裁](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)：r2仍超136B后，仅把19条reader自身恒定顶层说明合并为精确request的四scope引用，固定净减866B。原owner/四组件/全部trial/错误/未访和原数值词逐字保，单90KB及原预算不变；新实际仍由root读，不回填前两失败。

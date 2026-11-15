@@ -53,12 +53,12 @@ jobs:
           from pathlib import Path
           repo=Path.cwd();comp=repo/'topics/visible-flex-larger-amplitude/computations'
           path=comp/'public-actual160-native128-necessary-readback-request.json';raw=path.read_bytes()
-          assert hashlib.sha256(raw).hexdigest()=='bdeebd5d68fbe241018eacdacfdfb3dc056edeb0cece4fc3adb1c11f31927748'
+          assert hashlib.sha256(raw).hexdigest()=='378d9707f46e03d2247eff9294fd3a9b0ae25abd1ea2389c12ba73719fc1fc0c'
           request=json.loads(raw)
           assert request['request_number']==182 and request['repository']=='Rogerhu12/math-research-public'
           source=(comp/request['source_entry']).read_bytes()
-          assert len(source)==request['source_bytes']==75754
-          assert hashlib.sha256(source).hexdigest()==request['source_sha256']=='c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74'
+          assert len(source)==request['source_bytes']==77510
+          assert hashlib.sha256(source).hexdigest()==request['source_sha256']=='1536a01102f2c6620adbb43c0b8e1708bd57e194961079f0aa3016a152629c28'
           ast.parse(source.decode('utf-8'),filename=request['source_entry'])
           actual=[]
           for record in request['original_text_sources']:

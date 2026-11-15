@@ -1,6 +1,6 @@
 # Request182：原160完整日志的必要128位求解与四组件读回
 
-作者：AI（ChatGPT）。状态：182 首次实际标准库读回已完整扫描原160日志，但必要摘要92,966 B超过90KB，故原reader0后传输exit70；科学细节尚未回传，实际结论由root独占R388。本稿是r2纯元数据表示修订：原科学源、原八文本来源、全部owner试点/评价/四组件错误与未访字段不改，约定性重复元数据与严格相同字典只保一次。尚未运行r2；本地没有重新取182或160日志、执行AST/import/科学，只保存独立小文本blob，root单独发布。
+作者：AI（ChatGPT）。状态：182首次实际必要摘要92966B、r2实际90136B均仅因90KB传输限制退出70；两次原160完整流、内部reader0与protocol0已经root唯一读回，科学正文尚未回传。本稿为第三版纯元数据修订，只将reader自己19个恒定顶层范围说明归并到同一已SHA绑定的request；所有原科学/错误文字、owner试点、四组件、键集与未访字段保持。本地没有重取日志、执行Python/AST/import或科学，root单独发布及读终态；r2事实编号R393归root。
 
 ## 1. 需要恢复的原事实与范围
 
@@ -14,9 +14,9 @@
 
 | 目标路径 | 字节 / SHA256 | Git blob |
 |---|---|---|
-| computations/root_20261115_read_actual160_native128_necessary.py | 75754 / `c4728fbb2be01d3cf6648e18f3c8421daa71ee6ceceb99f9b6ece247e8e4ca74` | `bc4b4ad073e72321eb4552939ee1b0deca8eda94` |
-| computations/public-actual160-native128-necessary-readback-request.json | 10686 / `bdeebd5d68fbe241018eacdacfdfb3dc056edeb0cece4fc3adb1c11f31927748` | `fae4bfc2eaf4ab9d278eb7730ca8e0b19f43f583` |
-| .github/workflows/visible-larger-public-actual160-native128-necessary-readback.yml | 8336 / `b84e300fd1d97a7ae994d840666690425435fd1a5db41585e3013df5b085ef0c` | `e10bce2e0fcc5faacc9314612ff45b8b2c8aca4c` |
+| computations/root_20261115_read_actual160_native128_necessary.py | 77510 / `1536a01102f2c6620adbb43c0b8e1708bd57e194961079f0aa3016a152629c28` | `546459ea55109dc51366e955cebc5d0273964b91` |
+| computations/public-actual160-native128-necessary-readback-request.json | 12054 / `378d9707f46e03d2247eff9294fd3a9b0ae25abd1ea2389c12ba73719fc1fc0c` | `a30871cc96c30da337c43c0d8987ecee72ff3ff7` |
+| .github/workflows/visible-larger-public-actual160-native128-necessary-readback.yml | 8336 / `d6bf649a6e46bdaed4c07a18f7dfaec18fe2f89756ab1b8b6d7ada88ebf46ca6` | `f6f15b5f856c5f28bacb2e047949539782c8bab6` |
 | notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md | 本完整接口 | 交付回执给出 |
 
 前序纯日志读回实现为 request176r2，发布 source `48e55d2e0f6f07405c216b5417ef97844654124e`。本次复用其官方 API／HTTPS redirect／只在环境中传递 token／原数值 JSON token 按字面保存的路径，改为真实160 owner 与四组件协议；不是将165结果改标签。
@@ -129,3 +129,13 @@ Root已完整读首次182官方结果；本agent没有重复取得其日志。�
 r2在90000B检查之前另输出一个小计数事件request182_necessary_section_bytes_before_transport_check：完整必要摘要bytes及每个顶层section的bytes。这里只计UTF8/ASCII JSON字节，不输出原科学正文、不重算数值。实际体积若仍过限，原exit70和完整未返回身份保持；不扩大上限或裁trial/未访数据。是否实际足够由新run决定，当前源码修订不预承诺。
 
 工作流只同步新source长度/SHA和request SHA，其运行预算、官方一次原日志stream、只读token、源/规则核验、读回和条件清理逻辑原样。request自身真实变更负责触发重试；原源码历史保留，原160数学与接受门均未更动。
+
+## 10. r2实际仅超136B，第三版只归并固定顶层说明
+
+r2真实run43756253033 /source3b9877749db9212f937cd79cb464554887004078 /job132940880237已由root唯一读取。原160全流仍为3234095B /27c888838abc2cabbe0dd14886ffdcffa76e4d35f21048b30367799d04363149 /3513行；内部reader0、protocol_error_count0、error=null、resource_partial=false。必要摘要90136B超90000，因而传输退出70，readback/transport/summary flags均false，cleanup skipped。实际主section字节数是components37914、QR events14492、terminals13195、owner10114、diagnostics6521；这些原科学正文全部保留不改。未回传的科学内容不以这些大小或内部成功推测。
+
+第三版只在compact_necessary_metadata的**最外层**处理19个由本reader自身赋值的固定范围/政策说明。只有实际值与源码声明常数的类型和值完全相同才移除重复自述；任何不相同的实际值仍留原处。新唯一reader_scope_contract保实际request SHA及/necessary_scope、/parsing、/retention、/readback_complete_scope四个JSON pointer。完整约定仍在该不可混同的request原字节中，不把原owner、components、terminal、QR、诊断或错误对象的任何字段删除。
+
+这些19个恒定字段连同JSON分隔符合计1066B；新增引用200B，已声明常数均存在时确定净减866B。这只是小文本元数据字节计数，不是运行原科学或预填新的实际摘要身份；新run的时间、source及metadata仍以真实返回为准。单份90000B、全部科学scope、全部trial/evaluation行/presence、必要失败/未访地址、旧数值token、错误原文和字典相等引用的规则一字不改。section-bytes仍在size检查前打印；若实际仍超限，原70和未返回范围保持，不增加预算、不分包、不编码raw。
+
+source只增加这个最外层固定说明归并；request追加第二次真实工程失败及本次修订来源，workflow只传播相应source/request SHA与源码字节数。源绑定/AST/官方API/一次stream/conditional cleanup原样。本稿不替代R388或R393实际结论，也不在未回传前给出原160数学结果。

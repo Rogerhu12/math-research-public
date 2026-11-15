@@ -18,7 +18,7 @@
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 
-[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流完整/0错却92966B超限，[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)90136B仍超90000、exit70，四组件/trial仍未返、清理skip。[182接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)全部原行/key/null/错误/未访保；r3只精简重复schema自述，单90KB/1200s/32GiB/35min不变、不分包。root唯一核真实正文；全576×224、112/mixed338/audit责任不变。
+[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流完整/0错却92966B超限，[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)90136B仍超90000、exit70，四组件/trial仍未返、清理skip。[182接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)全部原行/key/null/错误/未访保；r3 1536a011/378d9707/d6bf649a本次发布，只将19条reader恒定自述指向精确request，固定净减866B非预填实际；单90KB/1200s/32GiB/35min不变、不分包。root唯一核真实正文；全576×224、112/mixed338/audit责任不变。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：128一次α1接受/replay齐，stage10/RK0/field0全230列320bits认证，0未决；仅固定输入/trace准确有限算法误差。原子70由同job恢复，42969B摘要齐，大列账只身份。上游/整RK/576J、112/338/audit/native/fullDN未付，160继续。
 
