@@ -367,3 +367,5 @@
 ## 2026-11-15：无穷远完整第五恰一、真18头与54/48
 
 [原∞第五连接恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)在新1088×628系统实际rank589/核39，原incoming前缀rank588，得18真五阶头；668304新原产品/含恢复1485120全通过。以前页共同31单位夹完整前五秩4,0,1,3,1，真full54…66、次大48…55、max≤18、δA_I56…68；同一全局R次数同步≤169，总Rh0≤193，成本仍8531。高核/O/同D leading单位不自动提升；继续原155低投影的真Q谱。
+
+- **实际返回投影及Riordan逆伴随后的完整暗矩。** [自足证明](results/R271-appendix-actual-return-projection-inverse-adjoint-test-and-all-dark-moment-transport.md)先证E=High+Zfull闭和受真实S(t)运输，实际e=P_EY、帽e=P_hatE Kamb^-* P_EY保持原固定测试和零源正交。全部cut的重叠数仅ν≤h，暗矩分别付ν(r+1)²和νeC0²binom(r+2,2)²；再保整个真正交旗只花导数带宽与有限组合数，无额外h。原w/f双线性主项同时运输，平均误差由ν/Q及真实future控制；Riordan使用原R=ceil4expτ_m，不与R=d混用。额外q_h伴随、低暗Green/顺次MP尚未付，普通ISP未完成。
