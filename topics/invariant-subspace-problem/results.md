@@ -363,3 +363,7 @@
 ## 2026-11-15：二点完整模十一谱、真Q差长二与有限域九目标完整类
 
 [二点完整F11谱及原局部消去](results/R150-appendix-two-full-field11-smith14-characteristic-zero-gap2-and-local-target-multiplier.md)实际6.304360254秒完成全部九正方向1⁷,3,4/长14；真Q长12…14、T长≤2，故t²W入原像，九t h0t_j有真Q局部来源。Q谱仅1⁷加(2,3)/(2,4)/(2,5)/(3,3)/(3,4)，max≤5。完整7372×88 Toeplitz核配对另确定T11≅F11[[t]]/(t²)，由[t2]生成；[h0tj]相对[h0t2]系数为(1,1,4,1,1,1,3,0,9)，只有j9的h0目标在F11原像。以上负读数均不提升到Q。
+
+## 2026-11-15：无穷远完整第五恰一、真18头与54/48
+
+[原∞第五连接恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)在新1088×628系统实际rank589/核39，原incoming前缀rank588，得18真五阶头；668304新原产品/含恢复1485120全通过。以前页共同31单位夹完整前五秩4,0,1,3,1，真full54…66、次大48…55、max≤18、δA_I56…68；同一全局R次数同步≤169，总Rh0≤193，成本仍8531。高核/O/同D leading单位不自动提升；继续原155低投影的真Q谱。

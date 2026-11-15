@@ -132,3 +132,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原 $G_{\rm reg}$ 同forcing/carry、Haar普通循环性、正常有限秩相容链与前文全部开放接口继续；本课题完成标准不变。
 
+
+[原∞第五连接恰一](results/R150-appendix-infinity-fifth-connection-exact-one-eighteen-heads-and-order54.md)在新1088×628系统实际rank589/核39，原incoming前缀rank588，得18真五阶头；668304新原产品/含恢复1485120全通过。以前页共同31单位夹完整前五秩4,0,1,3,1，真full54…66、次大48…55、max≤18、δA_I56…68；同一全局R次数同步≤169，总Rh0≤193，成本仍8531。高核/O/同D leading单位不自动提升；继续原155低投影的真Q谱。
