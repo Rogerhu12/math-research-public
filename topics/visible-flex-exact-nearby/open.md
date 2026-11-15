@@ -72,7 +72,7 @@ tail_connector负责。[J真实long](results/R133-supplement-finite-angular-jet-
 
 ## 7. 真source graph与可重复非线性迭代
 
-当前可用的1734损失真实存在。state-only H1856小不保证窄ordinary N^[3] source域；需同一radial-reference graph尺度和可交换的角平滑，所有nonradial/Γ差以准确C²源/ψN控制。高背景只有限且可增长，不允许先假设全高阶小。
+[E固定参考graph与真实smoothing](results/R119-supplement-reference-graph-scale-exact-residual-and-angular-smoothing.md)已独推。E_s=X_s^0+N_s^[3](L0u)明确增加窄source条件，固定径向L0与同一角S_T准确交换。先截nonmean高度、再重建同一firstΓ与holonomy mean；actual nonlinear残差含+ψ_t(k0+U0)，完整mean由各自Π_A恢复，DΠ_A残差项保留。低E1856≤2^-8192016经16倍等价进入N低门，高至8192只finite；完整C¹/二次余项费2^2097152。旧成员入口只在实际linear traces与各片N=0等条件下成立，外匹配残差/charged方向不会被删。1734损失仍真实，graph本身不创建同域无损inverse。
 
 依次完成可审阅的平滑/mean重建/第一Γ更新、参数lift、三径residual、全部源/跳/外口的迭代域。用同一projected proxy逆恢复方向；EN是有损的residual乘积缺陷，不以泛Neumann掩盖额外导数。高低差必须真实覆盖1734，所有profile/相邻层/全129..8192前缀、mean/charges保持。
 

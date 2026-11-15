@@ -159,3 +159,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:58:13 UTC — 同physical角L1源与实际低帽主体预算独推
 
 根读bd71bbcb32c9f41607eb6bc496095f9d37f61939两README未变。root全文读实际cap721426af…、完整Schur fba382d3…、真nonlinear R端f4ae237c…、continuous repair b2acc995…、旧7296 residual note84ae53db…/4187B及原kernel producer ef93be07…的82–99逐行根构造。全L1只引用已成数，no旧合并/target重算。新ton窄核A5/A9–16/A18–24全过，根按建议显式限A7为当前反射残差、保一般全4Z相位常数；两mean/独立端口/所有源保。最终12356B/SHA1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463。这给真实η和主体球，不授端点保持；newton继续只消费旧1346kernel/1341帽残差的实际weighted endpoint新界。
+
+## 2026-11-15 07:59:08 UTC — 同一graph域、完整残差与真实角平滑独推
+
+根读3ca4e7ab1c7d9964ce154a7d1d48e6ee38f2fdec两README未变，全文审E1–28，核L0/四态/三径源闭graph、S_T在原physicalθ精确交换、mean/Γ再重建、E16正号与Π_A仅holonomy-one适用、E24两个tail项和E26完整DΠ_A。phase另核E18–25真实profile/δ幂/三broken导/低球吸收及mean项通过。仅修改已证明状态，最终16800B/SHA0103391542006e68070dddd936d1d498dab3810da2f6525010da842e5fccaf81。没有将第一Γ C¹冒C∞，没有将local N0条件冒完整matching；下一实际近似右逆及1734损失归纳继续。
