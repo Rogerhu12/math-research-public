@@ -359,3 +359,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 11:05 UTC /root — request135真实半径接续完整发布
 
 [135接口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)从134真实第32批p及radius=.000390625继续；新ed78684f/24c5ff04/df856e9e保原六助手/八方向循环/final/原停止，87+3源/26→27、原32批预算及完整失败读回。recipe494f73d1/requesta68b9556；新增课题外workflow06ef8696为独立触发，旧134不动。136已在run43707070768/job132790329190通过原preflight并开始科学；终端仍不可用，root全文读各差异而未声称本地AST，继续原场和准确几何。
+
+## 2026-11-15 11:06 UTC /root — R298条件clip接缝证明
+
+[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)完整证明正权/非零dyadic相位/真实末片邻域下finite-Gauss提前mask与clip的一阶jump，九C²控制或单换真积分均不消；区分准确目标障碍、有限误差比较和显式新连续族。未假填实际descriptor、未改旧g或原BVP门，不把障碍算完成。135已run43707220616/job132790776755进入science；继续R300连续族、R302全128末态接口和在跑原科学。

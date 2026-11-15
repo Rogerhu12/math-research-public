@@ -4,7 +4,7 @@
 
 [R296](results/R296-actual134-thirty-two-nine-control-batches.md)已完整读回32批：256原方向接受、2322外trial/2066拒、81接受inner目标未达；20外trial内部371域失败由原函数保有限候选，4次内层12步用满均外拒。32初末FD/Arb/453圆均完成，全部unit/full112/nonzero/native/success仍false。W5.003044586685467→4.963213836829105；后段接受alpha到2^-17，末最小σ9=.001251424267791722，不能把慢降只归因.1reset或据SVD判无根。
 
-[135完整真实半径入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)已发布：从真实第32批九参数与final_relative_trust_radius=.000390625续接；新ed78684f/24c5ff04/df856e9e完整保原外8×20/内12×20、每批fresh J及全部final。recipe494f73d1/requesta68b9556/workflow06ef8696、87+3源/26→27闭包、原32批/3600s批间/75science90job；真final半径含末拒绝quarter，零不修复，不用末接受点推测。原停止/90KB显式不完整/全32行及失败保留，旧未发布稿弃其身份，实际run待读。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门；继续原全3目标的全局化/导数。
+[135完整真实半径入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)已发布：从真实第32批九参数与final_relative_trust_radius=.000390625续接；新ed78684f/24c5ff04/df856e9e完整保原外8×20/内12×20、每批fresh J及全部final。recipe494f73d1/requesta68b9556/workflow06ef8696、87+3源/26→27闭包、原32批/3600s批间/75science90job；真final半径含末拒绝quarter，零不修复，不用末接受点推测。原停止/90KB显式不完整/全32行及失败保留，旧未发布稿弃其身份，实际run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c/job132790776755于11:05:30创建并进入science。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门；继续原全3目标的全局化/导数。
 
 2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，已有122/124/128/130/133继续。
 
@@ -77,6 +77,8 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 [R294准确接缝结构定理](results/R294-nine450-exact-C2-seams-and-target-atlas.md)已完整证明：675共享准确dyadic节点Hermite、整角cut三权重、R249中央反射、同B的collar零两jet、完整帽marker边界零两jet及真实材料角，给条件下整个闭材料面C²与强C²全phase族，不要求把离散ODE残差或ap/app标签冒真导数。它支付几何结构，未替任何实际场的Gram正定、单射、reach、held/δE或metric数值。
 
 R294同时给固定原g的cut atlas兼容并分C0/C1/C2层级：几何图的v,b须与原目标使用同一图；有限Gauss必须对自己的实表达求导，独立常数/mask/clip和stored width不能靠小差冒恒等。九C²bumps不修基底jump。R286内cuff允许E=(1,0,0)平延拓；natural外端则E=1+w²、E_r<0、E_rr>0，不能接常值。准确位置修补可按同g重新支付全角两jet和Gram/完整像误差，不能改g掩不兼容；C²目标六式本身不新增原BVP门。后继直接用真实完整场绑定已付结构，积分132部分结果仍按R293负责全部未付域。
+
+[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)已完整证明原最后保留片的条件clip障碍：真实正邻域、正Gauss权和非零dyadic初相位给半径一阶非零jump，任意九C²控制不消它，真求积但保clip也不消。若准确finite对象就是既定g且a>0，C²准确等距不可能；未读取实际descriptor前不把前提假填为满足，也不推出有限C0相对metric下界。原浮点程序、准确finite/mask实表达、另声明真积分模型必须区分。仍可按R294同g处理准确几何及闭格比较；搜索阶段转向显式新连续g族时必须另身份，全九控制/原域/完整BVP等全部重新求值，旧参数和场仅初猜。后继R300建设共享真实节点、准确累计和尾E真实弧长collar，不能改自然Rout或把新g冒旧g。
 
 [R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)、[R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)、[R281](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)、[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)条件证明已付；现需同一实际场的连续六jet、法向球、材料图、全空间×两RP1相位覆盖及所有未付叶。不得把fixture或条件证明写作实际reach。
 
