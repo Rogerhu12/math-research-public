@@ -131,3 +131,5 @@
 - [条件增长首轮的结果提炼失败](notes/trust-growth-observation-failure-20261115.md) — actual43680023529/source9b7c07f开发stdout passed、科学程序正常complete，随后只读printer递归展开98KB内部toy布尔触发20KB门，科学模型/门/增长表尚未打印。metadata-only发布成功，full8733103/1dc16d03、summary74795/21e8a9ca、dev98567/ff801919身份保全但无payload。仅修打印次序与诊断层级并公开恢复必要计算；不猜改善、接纳、退出原因或全门通过。
 
 - [R195：单边活动包中的真实非零第四ruling方向](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md) — f=C非零常值而g变化，w保三g矩时所有cross相位由二次生成元的Sobolev配对准确消去，得Bθw=−2sin²θ D_w S_s(g)。真实右尾/η/八维累计历史给固定几何像≤42；标准常段完整三次局部式的Euler首t10不属三矩adjoint首t4..6，四测试函数C4连续性给C∞准确补矩的非零有符号商线。周期不变，只改σ一次，R193二次障碍保持；无满射或第四解断言。
+
+- [R197：无开常段几何上的非零固定圆ruling方向](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md) — 插真实B·B^rev的M/T0/frameI回路保hook，同时经过h1/d0,1,2使三矩行det−1/16。R195标准段两点加另两态给增广det−Δσ D_wC/8非零；保全局history的连续性与R189正则桥逼近将其迁至无常段，按新实际位移Klein精确闭合。几何扰动可改度量，选定最终几何后同gε/圆/w给真实有符号joint线；仍不授原目标在像或第四解。
