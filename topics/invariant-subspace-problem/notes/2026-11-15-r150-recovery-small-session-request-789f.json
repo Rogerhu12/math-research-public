@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "0ed9cbb68c9598da5b15c64e3e0bc8ba1d04410b",
+  "rulesReadAtCommit": "3f997fbb765319f3efa1cfdcef8bbdede98c0d32",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1400,6 +1400,26 @@
       ],
       "timeoutSeconds": 60,
       "receiptPath": "{work}/third21-forcing-support-preparation/third21-original-forcing-support-and-unit-preparation-receipt.json"
+    },
+    {
+      "id": "third21-original-forcing-support-preparation-v2",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third21-original-forcing-support-preparation-v2-789f.py",
+      "scriptSHA256": "a6bb496eeff96c9a7ca69583f372190e2974e89335b677ea29b5e89c74a2df48",
+      "sources": [],
+      "argv": [
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--out",
+        "{work}/third21-forcing-support-preparation-v2",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/third21-forcing-support-preparation-v2/third21-original-forcing-support-and-unit-preparation-receipt.json"
     }
   ]
 }

@@ -207,3 +207,5 @@
 - [R150-appendix-zero-fifteen-seventh-left-jets-factor103-and-cost8621](results/R150-appendix-zero-fifteen-seventh-left-jets-factor103-and-cost8621.md)：原五条left6全部延至left7，加十恒等共15头；完整高零head核2与低15核、所有6188原来源真核。零点57/49、K103、最大Smith8…17；λ0…7九平方全零。配已付∞93/90/90，条件来源8621/目标207，成员性仍为前提。
 
 - [R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)：真29×58配对rank6、旧rank5及完整商同构给受限第三rank1；完整域余2及合法F31下界夹定β3=3。全部21第三头恰在旧22族中，显式λ3仍待付；∞114/110/110、K103给条件8597/8601/187，保原成员性前提与raw K101记录。
+
+- [R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600](results/R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600.md)：完整第八低核14投影4，保真实非平凡头组合及全部6188原乘回；加十恒等得14头、零点58/49、K104、最大Smith9…17。λ0…8九平方全零；配已付∞114/110/110给条件8596/8600/187，未把包络损失当完整第八正秩。
