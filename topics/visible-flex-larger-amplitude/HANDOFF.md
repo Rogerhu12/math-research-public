@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:10:09 UTC root因终端服务不可用按根第8条以GitHub集成读取main 1c703bd16a25a298cf01ce7e93ad2d134ace6b90；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1c703bd16a25a298cf01ce7e93ad2d134ace6b90。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
+规则同步记录：2026-11-15 09:12:42 UTC root因终端服务不可用按根第8条以GitHub集成读取main 9dd74d9efdce030218bb4c7dabb08ff4a9ecb04f；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9dd74d9efdce030218bb4c7dabb08ff4a9ecb04f。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
 
 只在公开Rogerhu12/math-research-public，科学计算/模块导入/数值测试只本库Actions；本地/code-mode只源/证明编辑、原输出字段选择、语法、元数据/hash/Git。PAT仅终端瞬时环境，不写文件/Git/回复或传连接。
 
@@ -37,7 +37,7 @@ root唯一tree/commit/ref/H/open/log/workflow发布者；代理可仅create_blob
 
 [120实际](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)run43694844403/sourceace38440/摘要19463B/4f2be484：119第3批真六p、λ=.001、807f/原配置/99源。699节点/中点/两RMS通过，首完整112H withJ用63.878s被原momentum D/S/A拒绝，lastIteration=null，无J/FD/fullDN/audit；87.784s非预算，owner关闭/临时payload已删。不能定位角/r/D/S/A，不能称无解/浮点底线。
 
-[原H(s)合同](notes/2026-11-15-original-same-worker-full-height-continuation-interface.md)0d8b0c81：exact接124，同owner真零→完整H，初1/64、接受×2上限1/4、原数学failure/2、最小2^-20/64calls/300min仅资源partial。noJ仍原Newton全J，零→正warm无效仍原cold fallback；s=1直接原H_*、全J/FD/同owner原fullDN/finalaudit。必须匹配真record/context才分数学失败，IPC/record错误停编排，不盲缩步。124小源blob已保全待完整入口：helper23078B/e830a167/blob2af3d9c7bc801a1c2d0371e082005bc4504d16bf，adapter45097B/557f3aab/blob63daafb270571dae55e1020cd7d06cc87675f71c；尚未发布/run，旧120不改。
+[124完整入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)已发：helper e830a167/adapter557f3aab/wrapper0836ed33/reader4a0ab4a7/requestb76f94ad/workflow7a4b1c05，103pin=原99+4、四输入/两ready/78原源不变。真实同owner零H→全112H，首1/64、成功×2上限1/4、已绑定原数学失败/2；最小2^-20/64calls/300min仅资源partial。noJ仍原Newton全J，zero warm无效照原cold fallback；s=1直接原H_*词+完整J→原FD/同owner原fullDN/finalaudit。IPC/记录/未知失败停编排不缩步，原worker last不手改。helper/原client/全部精确差异已读，暂待实际run，旧807f/120不改。
 
 ### 118新增真实MID471运行中
 

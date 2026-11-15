@@ -225,3 +225,8 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 09:10 UTC /root — 发布九设计量固定六shape的完整112设置层
 
 [完整接口](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)15049B/debc3fe4与source43641B/00e4d2c3的29项精确差异已读；由明确ace38440/807f基源逐字重放核同新全文。固定6shape/3active仍453，原全部FD/band/fullDN门保持；旧v3/v4与真正450同g重构责任写明，无未来参数/λ/run或本地AST/科学声称。按第8条仅小文本集成，继续125真实九末p与124原H路径。
+
+## 2026-11-15 09:12 UTC /root — 发布124同worker真实完整H路径
+
+[完整接口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)16457B/1da7ba9b和helper全文、原TailClient全文及四件完整diff已读，逐字从actual120明确base重放同新源，99原pin+4新核同。保真实record/context/原数学拒绝与协议partial、末H原词全J/FD/同owner原fullDN/finalaudit；无本地AST/科学或未来数值。
+新增.github/workflows/visible-larger-public-six-control-height-path.yml，用本公开Actions执行新124请求；103pin/300min/330step350job/2700s规则pull及读后清理，无raw上传。
