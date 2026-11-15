@@ -34,7 +34,7 @@
 - 旧P Hermite/localized爆长路线失败：19行后另57步MemoryError，候选未验证、无Ω，完整恢复身份保前态；不盲续。
 - 新minor并发失败已立即重拉重推；历史字典/五输入全核保前态。
 
-- **[全56完整rank21/f60下界](results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md)：** 原全部56行modf 21单位/11165坐标、35×1余零，f|Ω|f²，60≤d≤120。f² replay5后MemoryError，gen27 state-slot-1 177991821B/06892236、payload669cddad、binding862cca4d；raw6043B/26917bb0只读确诊。改流式抽paid21 pivot、固定21×21单位块/两RHS Bockstein，不解旧大matrix、不重core/det，不报Ω120。
+- **[全56完整rank21/f60下界](results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md)：** 原全部56行modf 21单位/11165坐标、35×1余零，f|Ω|f²，60≤d≤120。f² replay5后MemoryError，gen27 state-slot-1 177991821B/06892236、payload669cddad、binding862cca4d；raw6043B/26917bb0只读确诊。[单核Bockstein](notes/2026-11-15-r150-original56-single-kernel-bockstein-interface-789f.md)源码49a8a83e已根全审并排step32/300秒/2GiB：流式抽paid21 pivot、固定21×21块/两RHS/全56行。Ω=f gcd(f,w)；不解旧大matrix、不重core/det，未执行前不报Ω120。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 

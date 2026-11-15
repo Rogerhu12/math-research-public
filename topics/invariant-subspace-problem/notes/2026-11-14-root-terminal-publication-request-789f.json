@@ -1,19 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "34002da04041595dccf66758fd0a464cabc46f0e",
-  "createdUtc": "2026-11-15 22:29:35 UTC",
-  "message": "R150: prove actual quotient defect one, affine degree 299, and original degree-60 outside factor",
+  "parentCommit": "a66c386997583146a5813f23348e6d517b42cc71",
+  "createdUtc": "2026-11-15 22:39:58 UTC",
+  "message": "R150: queue exact original56 single-kernel Bockstein and preserve full-row gates",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original56-single-kernel-bockstein-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original56-single-kernel-bockstein-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original56-single-kernel-bockstein-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-continuation-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
