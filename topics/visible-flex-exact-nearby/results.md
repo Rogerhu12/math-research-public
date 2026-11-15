@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 新外完整 mixed Schur 与 closed 非mean inverse（2026-11-15）**：[完整证明](results/R119-supplement-new-outer-complete-mixed-weighted-Schur-and-closed-nonmean-inverse.md)。同一新简单根背景/公共五盒点，真实固定 C_R 返回与 Dirichlet comparator 区分；全频浅平台、原 high 双 Poisson、无限 deep-low 的源窗均保。双逆谱权的完整差 <2^-5800000，实际非mean块 vRv<2。actual 正返回只收 norm2，不借 Schur 酉；两 mean、通量兼容、高度 gauge、强标签和真实帽反馈继续另闭。
+
 - [固定内窗第一修正完整旧圆源合同](results/R133-supplement-fixed-inner-first-correction-complete-old-circle-source-contract.md)：I1–11 接已成Taylor与Y九词/独立mean，原矩阵z词仅做一次同空间Sobolev转换；复Airy全尾与实二导界各付后可取min，local实际入口为 JP S(μL0w1)。固定物理分窗按原行积分，无新接口；数值consumer进行。
 
 - [旧径向有序输运与严格外段第一修正导数](results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md)：E1–25 准确推出 Zρ=CZφ+MZ−N(fa,fb)，一次 forcing 径向导数已足以重建 w1,rr；完整 Fρ 保 −(μρ/μ)F，leading 第三导只消费既有 third jets 与真实离根距离。内外分同一 root-normalized 解的积分，无人工cutoff/重置；全部物理seam和旧圆余项继续保留，数值consumer进行中。
