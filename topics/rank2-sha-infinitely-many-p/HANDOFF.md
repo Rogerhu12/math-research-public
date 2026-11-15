@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9e0139a68bf1f2fbd696572c1b2dc703189a2163；2026-11-15 07:48:19 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:48:18 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
+- 最近已读规则提交：278a4ae6bf99cac3707efc21d44786ef594956a8；2026-11-15 07:49:12 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:49:11 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -53,3 +53,5 @@ R614/R647全部原addition整窗、三P_m、H^-p/真低除商和五Cartier坐标
 已付[模三光滑cube排除](notes/2026-11-15-critical-mod-three-smooth-cube-exclusion.md)：同相对kerJ、Q单位/EF单位/全P模三支持时，保R680着色负项得s≤12δ_D+12ell+25r+52D+16deg_YF−102，排除47/8临界的真实光滑cube；gcd1/2、非unit余因子/奇异支和一般K1仍开。
 
 **R714** 指定Z1=Z+c_p^−1(G+r)^p与原整截断z0全degree<p²吻合：粗q−p−1误差由D及μ6型补齐。DZ1=1，极帽(p³−p²)D2与全部零点保。全h≤p−1 Cartier先减真实简单极，坐标差全付；前五块=g_h，第六块=g6+(m/2)η，原双m消η仍保真实低商与后续全部模型差。
+
+[真实cube轨道](notes/2026-11-15-cube-factor-orbits-and-even-critical-reduction.md)：19角伸缩全Pic不变，轨道长l给3ql(s−r)≤2B_D²+48l²b；47/8临界需ql≤8/3，q3全排、q2迫原不可约F自身偶。整提升/未知R不自动偶，指定forcing仍开。R715公开准备同qcd五维Z一阶/原ζ_N检测，保全53旧行、149实列及全C/E。
