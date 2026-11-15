@@ -700,3 +700,7 @@ b4986950已全根审；不假设原C齐次、不省χm/γm、不把余−CQ_D作
 ## 2026-11-15 23:07:38 UTC — 完整全局197除源/315闭包入队
 根与独立代理全审新normal/original、外层及完整505/315/J/DAG门；固定runner fc1bfafd、closure9071f4a3与全部原pins，14原件已恢复真。
 新run43772109844排step2/600秒/4GiB，31×7末20零列严格保留；只读paidF/B不新选主元。I2维r未填，所有数组只临时，实际pull核两README后push。
+
+## 2026-11-15 23:12:29 UTC — 同条件池精确兼容塔与实际u的真核界
+整塔Dv_r=v_(r−1)原物理等式、全Gram以及同W_L压缩逆已逐式根审；固定m得到同actual u平方O_m(log²x/x)，k_L是真有限孔K_Q核。
+f39a86c9完整稿不换压缩逆、不把位置无限误作非法；moving-m的χ/L²/x及原carry继续。实际pull核两README后push。

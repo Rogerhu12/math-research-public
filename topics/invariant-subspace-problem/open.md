@@ -140,4 +140,4 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **原连续相干列的全层MP。** [随机池完整证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)构造同D的q与精确r，候选相对最低费≤Sx/Sx+k+1、残量≤e^(−Sx+k/zx)；用真全层12·512^k修复得k=o(x)完整D†渐近最优，同fcoh低j一次MP小量。任意r步误差恰外池少于r位概率。k≈x、C+D返回和全partial仍开；原A_m含多降阶，不以假grade令H^-1g截低层。
 
-- **固定原头、同actual-u的完整一次MP已付。** [全物理Gram/Neumann证明](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)保真实非酉S及I≤G≤χm，C0真grade降一、归一K带宽d−1，故预测top按ρm^(2ceil((J−d+2)/(d−1)))衰减。固定m取J=d+ceil(6γm^-1 log(x+1))=o(x)，Q≥R+J时截断fJ保原V/K/u，全部一次D†残量趋零。真实余量仍−C Q_D(C+D)fJ；moving-m须显付χm² x³ exp(−γmJ)/(J+1)及原carry，不用固定m极限代母窗。
+- **固定原头、同actual-u的精确有限孔核已付。** [兼容Bernoulli塔/完整W_L源短缩](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)用同事件N≥L给整塔Dv_r=v_(r−1)，H≤T_L*T_L≤A²H；在W_L=kerC^(L+1)上只取真正压缩Gram逆。结合完整物理G的Neumann尾，||u_g||²≤[1−A^-2+A^-2 min(1,χm²ρm^(2ν))]||g||²。固定m、L约logx、Q≥R+L时O_m(log²x/x)，k_L为真正K_Q有限孔核（位置可无限）。moving-m还须L²/x→0、χm²ρm^(2ν)→0及同原T carry/真核lift；不把fixed-m近似当global N=M。

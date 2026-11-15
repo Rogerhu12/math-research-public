@@ -491,3 +491,7 @@
 ## R150：完整全局第二系数像的197原来源与可续实算接口（2026-11-15）
 
 [完整原来源证明及执行接口](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)由全局colon L:31²精确识别I2(A)=F31[s]·(U7,R2_2,…,R2_198)，不同global q1只差已付第一像U1。197初始真除源费用177，完整原p³乘回后逐系数除p²，保4367输出/505自由/315tors及原s作用；paid F/B仅重放且全SHA相同。七批完整源DAG及最终204种子/J闭包是成功门，未预设秩。若actual维r，则精确t2=r−2、Δaff≤306−r及Ω120后的μ≤28−r；未执行完成前不代数值。
+
+## R271：精确兼容真空塔与同actual测试的有限孔真核比较（2026-11-15）
+
+[完整证明](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)在同一Bernoulli池事件N≥L上平均逆权列，逐层精确Dv_r=v_(r−1)、v0=Ω，整塔σr||v_r||≤A=P(N≥L)^−1(Sx/Sx+L)^L。T_La=Σ(-C)^ra⊗v_r在W_L=kerC^(L+1)上是真核，完整Gram夹H_L与A²H_L；两种逆都仅在同W_L上压缩后取得。结合固定头物理G的完整Neumann尾，严格得原||u_g||²≤[1−A^-2+A^-2 min(1,χm²ρm^(2ν))]||g||²。固定m取L约logx、Q≥R+L给平方O_m(log²x/x)的精确K_Q比较，已超一次MP残量。移动头条件及运输到原全局T的carry/核lift仍须同源支付。
