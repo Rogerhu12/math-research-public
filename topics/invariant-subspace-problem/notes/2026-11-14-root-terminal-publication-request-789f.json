@@ -1,18 +1,18 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "3874a1f824b99f6f7d92d7e9b73daf3d43b1edbf",
-  "createdUtc": "2026-11-15 15:32:00 UTC",
-  "message": "research(isp): complete original two-point projection and bound transverse source gap",
+  "parentCommit": "11986d7cc039ddf2db60e16337803fcd970cfc62",
+  "createdUtc": "2026-11-15 15:36:14 UTC",
+  "message": "research(isp): retain actual E8 prefix and run original cubic local projections",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-cubic-original-low-projection-local-smith-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-local-projection-small-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
