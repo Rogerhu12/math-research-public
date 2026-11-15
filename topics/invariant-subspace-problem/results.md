@@ -225,3 +225,5 @@
 - [R150-appendix-zero-complete-fourth-connection-exact-three-and-nineteen-heads](results/R150-appendix-zero-complete-fourth-connection-exact-three-and-nineteen-heads.md)：完整第三22域/全部R3旧像、完整4347常校正给β4=588−585=3，十九真头的587860原五阶产品全核；真实sT2回填含λ1纯块。前四正Smith分布4/0/1/3，58/49/K104保持；第五保全部R3和R4来项。
 
 - [R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost](results/R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost.md)：同w在R=d、Q=L0h²的晚cut未来嵌入互不交global孔带，真顶部误差平方可和，严格得Σ||F_m u_m||²<∞。真实合并负部若≤c_mQ||F_m u_m||²且Σ1/c_m发散则w=0，允许Q logQ loglogQ；关键负部仍未付，不称边界完成。
+
+- [R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads](results/R150-appendix-complete-high-normal-four-five-rank-and-four-missing-third-heads.md)：原H45模31真1736单位闭Q满行秩；全高核1036/模旧130为906，四真商代表15/18/19/20保全4354行与比例。完整4318常像规范及4330增广给新低商rank904/核2；仅维数与入口，不冒作已造906核或新λ3。
