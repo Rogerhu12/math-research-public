@@ -21,7 +21,8 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已消费159系列**：容量/hold、因子化J与选行仿射actual全部见对应notes，不重已付阶段。旧选行仿射43722283235/bb33192：η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰/已选曲率失败、m5 e/f非线性保原记录。active16.997316s、八恢复569.558425s分账，50/102源24输入核合。所有旧失败/漂移/费用仍保原件。
 
-**完整两网actual待消费**：[设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)保单全θ JVP/四凸max/真实attainer切面、冻结outer/原12LP120s40值3inner。43727663245首方向6过，array误要求替换并列incumbent失败、零恢复零科学；[原失败/修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)保留。源绑定复用已付方向，续run43728280256/7329385/job132854922848 **success**，原大stdout接口3次Transport closed；只读原log观察source/request-original-log-observation.json 已提交，observer第二首读：原log2reports/106源核合，首语义98963>90KB结构退出；收窄嵌套目录，再读同log，不重科学。receipt 55785B/SHA77435aab53274594ad70ba8e4da0a6e6fe7961de6e10b7d587bff85ddb65acb7，实际audit16929326B/cee75e9b…、summary3282056B/fcd318dc…；尚未判新checks/实际降幅。
+**完整两网actual已首读**：[真实结果](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过，κfine57.999983395；高度margin仍有−5.6e−17，容差eligible不冒精确非负。9必要恢复805.206121s、新活动35.287169s、总845.020544s，16+2完整值；54直接/106递归源对receipt全合，开发所有新续项过/首方向6源绑复用。只读observer43732214112得实际report，stage模型未展开，context被原日志控制标记吞前缀待修转义；不重科学。旧首array并列incumbent误断言已修正、失败原件仍保。下一原模型/误差/恢复漂移消费。
+
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -39,7 +40,7 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 **R283/288当前紧微包canonical一次端层已付**：原R56的i≠j C(ui;uj²)整体局域outer包，仿射Zj与紧Vi端差使P/B/η/W原canonical随之外零；diagonal保真尾而actual whole-pure逐解析左端付三历史矩。故所有内部Q_e=P_e[Wfc]0，两mixed一次指数全消。保右锚和全周期端势；不推广step或任意第三初值，平台P″/flux/Laurent/全period/joint仍欠。
 
-**R293/294全部二层history已付**：初选0<κ²<.01，R289普遍rank30；R286/R291两完整关系使全有限N32向量在同空间，≤30χ/原12包正锥及30真Jac根付全部π/2外矩/Lc/Mc。R294给任意pair真实β/六sl2和核Γ⁺；Khat=Kself−Γ⁺(m,m)/2经原local变分消C³²，仅线性u'''准确IBP成C²，平移≤10。**从起点新F⁺**含旧F和30×11校正self系数（条目非rank）；同F⁺格点十矩与总A01/A02/A12清全even余角，12副本清odd。R293合法F★扩展给同一正解析有限N圆，全部十对称乘积×三矩×全θ和72面积/六能量/三矩/全third同零，即整个二层Gaussian history。零/一层、完整ruling、平台/flux/Laurent/period/同w与最终几何仍欠，未称旧冻结F无偿增约束。
+**R293/294已付有限门**：同正解析有限N圆已付72面积/六能量/三矩/全third与整个二层Gaussian history；R299真Γ补self清全角Ξ，R300/305完整free42/even40主坐标联控仍有效。但R304已证其余完整C²相容严格非零，**当前不交rank-one圆不可继续**；不能以增加F/高频/主维数修复。原证明与解析端假设保各稿。
 
 **R292–302平台/self与结构几何**：原全后缀迫T_B0、各q_i0。R297 χ32/37/40三c矩证书给9单位，原query延拓全U；R298 χ30/P给T0且完整q=3/512∫u″²u‴²>0，9矩+单个预固定u有真m10控制，公共校正两actual hook整q差非C²。R302四χ实际来源+成对正则前缀保基点τχ/全基准；自由h遍及整原型，只保M0让τ漂移，R101共享整块真倒行仍准确M=T0。新全部基准重建增强截面，再全(pure,T9,q单u)IFT，联合κe/ε二维安装+有限光滑密度Morse/Klein闭合，故该窄几何类也能指定T与单self。**非全q函数/全部最终母包，不能预授与Gaussian形状选择兼容。** R295 q平方主部+完整C²仍保；真倒行成本同号、λ+正，不偷换成C²纤维。下一全self/全period与同w。
 
@@ -47,12 +48,11 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
-**R293–305完整germ**：原二层/72面积/三矩/全third/六能量可同正解析有限N联合付。R299的pure-ruling Kσ确C²（非period q），完整Γ补真边后hatK平移≤10；初选Fang和十矩/三ordered面积清整个Ξ，中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。R300四Er的120真实行给free40/even38，可再付8观察；R305原零层平方低0..6不增，仅权7/8各增1，自由42/even**完整主秩40**。明确新J7=α[h0j6]R0、J8=α[h1j1]R0杀We，原真实主40坐标可同Fang/12正包/有限N准确联付。**所有其余principal关系的完整C²基线仍欠**：一层≤112生成量加尚未编译零层商，不宣rank或初值自动零。其他s段/奇部、全period/同w和主几何仍欠。
-
+**R304完整正障碍**：0<κ²<.01共振偶芽，任意支撑不交实紧ui与f=Σaiui、g=Σbiui，旧全角A−1,−3面积迫Σci²diCi0(Ci=∫ui″4>0)，三个旧directed行清主部后，完整E−3的σh−2j0余量=−cP DκΣdi²Ci。全角给A4=5C22,E4=C22，故π/2实际系数=(41t²+27)N(t)/(15552he³(51t²+2t+8))∫g″4>0，N=16+184t−1713t²−2475t³−4590t⁴。真Green/ordered尾和合法gauge同We商全保；不需等B、同母/宽/低阶F或包序。**该整类排除，非主课题无解**。下一原mixed槽核一般rank-two是否仍正；仅换rank-one系数轨道亦须判定，或从初始改合法端芽。不可再给该族加预算。
 
 
 ## 5. 保留边界与继续
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 329b6add255280e9ccd6c986453e0adce140804c，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 130a5de43bb2ceed18be44c4354a95a6aed76ddb，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。

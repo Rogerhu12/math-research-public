@@ -14,7 +14,7 @@
 
 容量/成功SOC持径与选行J因子化的已付实际、失败、漂移和来源/费用均见对应notes及results，不重旧阶段；当前后继从真实当前恢复点继续，不能借旧最终数值强制重播。最新消费边界如下。
 
-[仿射谱首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)已消费，η仍.266401179，m6漏峰与已选曲率失败/m5 e-f非线性准确保留。[完整两网设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)四源/接线已完成；[首人工与修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)43727663245/45a12d31方向6项过，array唯一失败为新测试误要求替换并列incumbent，零恢复/零科学。只改准确断言；源绑定复用已过方向，继续未完error/handoff/IO，再九必要恢复各一次与首新stage。54源码/98args/24输入、原12LP/120s/40值/真门保持；首实际仍待日志，不冒改进。
+[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)的漏峰/曲率及e-f非线性已消费。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md) run43728280256/7329385已成功，原始语义首读：η.266401179156→.266381717617，双网14原门与精确盒全过，最大曲率仍57.999983395；9输入恢复805.206121s/新active35.287169s，16+2完整值，54直接/106递归来源对receipt全合。新开发续项全过，首方向6项源绑复用；误并列incumbent断言的首失败仍保原note。尚未消费完整stage模型/误差/输入漂移；只读原log观察器的context被旧日志控制标记解释，下一修转义继续同原log，不重本轮科学。不得把η或旧rawδ当δhold，未达.26或主1e−6。
 
 ### 仍须支付
 
@@ -28,101 +28,58 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [现有34列局域证明](notes/same-g-body-tangent-columns-and-locality-20261115.md)继续有效；当前末态已由上述入口新峰排除其单独strict-max用途。逐圈Π不沿径向传递、角闭合由水平半转/竖直反射分别支付，但跨区域reach不保。103列支持现已证明；真正新局部自由基仍须独立性/身份说明，未运行不得称可行下降。
 
-## O4：完整真实第四成本、ruling 与有限连续族
+## O4：完整真实第四成本与新首阶机制
 
-### 已完成的 pure 控制与真实几何
+### R304：当前不交实 rank-one 圆类已严格排除，转真正不同的输入
 
-[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)给最右整带的不可校正pure必要门；[R199](results/R199-faithful-monotone-step-for-the-complete-universal-pure-space.md)保全三矩/第三的忠实圆使该门等价whole pure零。旧冻结step的忠实性不自动继承。
+[R304](results/R304-positive-one-history-remainder-excludes-disjoint-real-rank-one-circles.md)在初选共振端芽 h=h_e exp(κ²σ²/4)、0<κ²<.01 上证明完整低阶障碍。对于 f=Σa_i u_i、g=Σb_i u_i、实紧且支撑不交的 u_i，旧完整 A−1,−3 面积给全角 Σc_i²d_i C_i=0（C_i=∫u_i″4>0）。三个旧 directed 条件消去同一 E−3 一层行的主部分后，准确余量为 −c_P Dκ Σd_i²C_i。全角又迫 A4=5C22、E4=C22，故 π/2 的实际系数严格为正；正负κ同结论。原 Green/有序尾、非紧单包 self 及合法二阶/三阶gauge的同We偶商全保。
 
-[R210](results/R210-complete-weight-minus4-pure-image-and-finite-pure-closure.md)已结清全部pure权像：准确完整原响应与关系，再经真实桥/整数复制/Brouwer得实际S=P；不能从span/闭锥单独冒负路径。Klein四位置真实词保位移和非零TκH，并付whole pure零；已付pure、旧NF、正字符不再扫描。完整来源/actual见原稿。
+**整个此类不可继续用增频、变宽/母形、变包序、变斜率、正幅块混合或增加principal坐标修复。** 不要求等B或同F，故此前第三斜率也不能在同一结构/端芽下绕过。此前已付必要条件及主秩定理仍真，但不构成完整joint解。不推广到一般重叠profile、不同合法端芽或一般C²曲面刚性。
 
-R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消费：先真实末frame/九参数/fullP IFT，再安装全h Morse及非零ke例外germ，保原U/T、桥和倒行。避flat、pure零都不授完整mixed/ruling；旧圆的R216/224/249–253排除保其准确范围，不作普遍刚性。新profile不继承旧有限观测。
+当前直接后继：
 
-[R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)给完整joint有限接口：126矩加六合法行不宣rank；先两原period成员，再五相位目标的45几何span，最后48×135增广子式及降秩消极点条件。全period核/平台自由度与同一个w必须保留；尚无实际完整目标通过，不能由F8零冒完成。
+1. 对同一端芽的一般局部rank-two实圆，从原完整mixed槽重算同一annihilator：保 f″、g″及三导交叉、全部ordered尾，判断是否仍正定；不得凭重叠自由度增大宣可行。
+2. 对非圆轨道先检查真实旧三矩/第三range与同一余量；固定rank-one包空间内仅换幅值曲线未必逃离，须证明而非猜测。
+3. 若换几何端芽，从最初实际安装，并重新支付相应完整period/ruling及输入轨道。不能在已固定g上事后改seed/g，也不通过κ=0除零退化冒取旧公式。
 
-**当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
+### 已付有限原式可复用，不能把低阶保持当自动零
 
-[R213](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)已明确两个原目标：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0和同右锚因果使最后f全右带为0的纯g段自动通过；下一优先判内部f平台上的Vd″/Ve″及两个真实全周期数∫kKd、∫kKe。后两者是左collar二次尾系数：M0让k杀三矩W，全部允许的二阶/第三gauge都不能改变，非零即排同固定几何/目标/圆的第四range。它们尚未评价，不冒λ+自动由其读出。原w=Φ_ED的八矩子族在八packet七差分下六矩全零，period恰是canonical hook响应；这个已合法子族不能修上述违例。
+R259/263的72全角面积与81有序状态是准确接口，不是rank；R277–281付同F解析有限N圆的面积/能量/三矩/third，R293/294付整个二层history，R299完整self C²与真Γ补偿清角向Ξ，R300/305完整主空间free42/even40及两个明确零层We商坐标均已付。R304说明其外尚有严格非零C²基线，现不再沿被排类继续增加观察或重跑旧principal计算。
 
-### 新入口：固定圆不可见的第三算子与二阶齐次校正
+原R281解析端、R288 canonical一次指数层已付的结论保其精确逐包比例输入范围；改为重叠/不同首阶轨道后，必须重新检查这些尾/端结论的假设，不能直接继承“局域”或“自动零”。
 
-[R225](results/R225-complete-period-range-flat-end-germs-and-finite-observation-quotient.md)现已给一个与R217/R219兼容的新合法解析圆的完整全I period像：平台G''0、每包总通量0、q=F/(Ap²)全部内部Laurent条件、两平端p∫q真光滑延拓，保真实右collar双零/左affine和平台调∫u0。解析ψP逼近保正确J*并重付三矩/八包；p简单零的辅助二阶极点允许。u*=1/p给只坏平端的真Y反例，未冒canonical U目标。原R211局部Green仍仅其支撑类，不给全I额外七必要矩。
+### 全成本、实际pure控制与结构几何
 
-**下一完整period问题**：在真实U0=U∩kerπ与R0上，消费全部平台/内部Laurent/端点germ，决定Hper=O(U0)/O(R0)，或检验λ+是否杀kerO。Hper0才可按R222同时付全pure/完整period；λ因子化则排所有相应实际hook。两者均未付，不能把F8满射代替。R96忠实原查询F=CQ已付新增观测的真实s密度；Morse升级另需所选完整第三响应的结构保持族，一般R0不由R208 diagonal覆盖自动取得。
+R208–210给 whole pure 的真实可达 S=P、闭锥Cp=P；Q=P/πR仍未知。不能再用λ+否定已付pure，也不能从pure0推出完整mixed/左尾0。
 
-[R180](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md)已给真实闭合低阶例：Klein八边保M0、T=κH≠0，H在所选R46圆的低阶通道不可见，完整二/三阶range仍成立。对f/g支撑邻域准确仿射w，交叉三矩逐项0；补真实三阶后，第四周期准确变为V−6κC a(θ)(f″)²，C可正负，a为周期函数且0/π零。sin²选择不动pure−4，保同几何/目标/圆，没有未知C²周期成本。
+R222一般有限观测真实控制保全部原型基准、mixed成本和最后有限复制；R223/227付Morse/位移/框架闭hook与例外芽安装。R302补共享整块倒行、自由h跨整个长词、允许τ漂移后全目标增强IFT，故pure/T9/一个预固定self可与新结构几何同付。这通常选定一个新seed/g，不冒已固定g的有限flex。
 
-[R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。
+R105/109/130原有限U保完整history，非零M的N²/N³项不能删。R84真倒行成本同号；span或闭锥不是实际逆元。R156仅α∈πZ的输入相位合法。
 
-[R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)/[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)的完整指数分层/右锚三次尾保留：p¹可能失败、p²须付pole、p³以上需左零flux；特定δ链不能代表全U/R。当前canonical端直接使用R283的新真实接口，不机械重算旧局部word。
+### 全self的新准确接口及剩余shape兼容
 
-[R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)、[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)/[R240](results/R240-weight-zero-quadratic-endpoint-principal-part-vanishes.md)的whole pure0/λ1/首T0/B0已由原43699241372和43701766182消费，范围仅同HE首f-up/g0。原平台/flux前提及二次pole iff保原稿；不从这一个芽授完整period，不重旧17层/NF/人工目标。
+R292/295保完整右累计并由末真实high/low推出平台矩阵T_B0及各self必要门；q不是C²低阶量。R297 χ32/37/40给九个真实矩阵单位；R298 χ30/P给T0、完整q=3/512∫u″²u‴²>0，单个固定u可真m10指定。
 
-[R242](results/R242-cross-weight-response-repair-of-the-first-flat-end-platform.md)/[R244](results/R244-eleven-dimensional-response-module-pays-first-platform-and-eight-fluxes.md)新ψP圆11维δ链付首gap双平台/八flux/T/B，非实际signed成本。[R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)证明该模8F+8E单射、唯一P后仍有13兼容和额外e-flux；不能继续自由任调或冒全R0障碍，完整period/joint须更全空间。
+R303保移动左尾与完整分子，证明全U的q_{u_c}∈Pol≤9；十条H6×p2的N链覆盖同母全平移，与T9/whole pure真19观测联调。任意中心数不再扩大这个固定母模块。
 
-[R254](results/R254-eight-exact-third-diagonal-lifts-and-eighteen-dimensional-image.md)/[R258](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)/[R261](results/R261-eight-local-self-adjoint-hook-operators-and-full-third-kernel.md)已付全Z=H7⊕J3⊕χ8及全部原K：局部四阶、自伴、Af f0、K=−J³Af，通用f忠实18非固定圆rank。逐包比例Kfg0，完整Rp0首项R71∩kerπ仍不可删。**下一真实O(U0)/O(Rp0)及同w ruling、signed实际控制；旧Δ/参考/151/152/3974/本八K目标不重做。**
+R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u‴²，D9/D8皆有保原history的积分式。R9=−Ktop/1080和R8=−NKtop/9720为pure/T核三角单位，九矩与两层可真11观测联付。若已清一个母的全平移，同几何D9=D8=0，全部其他母次数≤7。
 
-[R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
+下一只处理真正未付的全Q shape兼容/低层，优先识别同母观测看不见的完整方向及与新首阶机制实际相关的控制。分别满射不能相加；有限控制不能恢复R304被排类。
 
-[R185](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md)给重叠八包的16维真实周期核及六矩固定右逆；消六矩不缩周期像。余10个显式合法周期不变方向的ruling只需0/cos2θ/sin2θ共30真s函数；仅有限充分接口，不能冒10像独立。period部分准确缩4个L_f目标，但完整joint不能据此限制所有相位。下一应支付原G_i及真实退化通量/共同ruling像，不继续只列新方向。
+### 完整period与同一w joint仍须真正求解
 
-[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)/[R193](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md)仅排R183原八包的明确常状态/标准(0,1,0)类及已付准确补矩近邻；43680023529/9b7c07f已付全正宽度，不重复或推广一般C²刚性。[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)的无常段真实闭hook及后续R223/227已付；后继实际period/joint仍须支付。
+R184/221把固定圆第四可解性写成同一w的仿射联立：V0+2κL_f w=0，以及K0+Bθw在同三矩W。两period成员、五相位45span及48×135增广子式只是完整iff，尚无实际解。不能两式各选一个不同w；pure零不授member。
 
-[R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。[R195](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md)已处理f常/g变区：三g矩零的w保周期，Bθw=−2sin²θ D_w S_s(g)，全部η和8维history给像≤42。标准常段上完整Cubic Euler t10与三矩adjoint t4..6不相容，四测试函数+准确C∞补矩给非零有符号商方向，只动σ一次、不绕过R193二次门。[R197](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md)已支付迁移：真实B·B^rev的M/T/frame回路先使三矩列rank3，4点增广det=−Δσ D_wC/8；R189准确保约束的有限C^m逼近保非零子式，Klein用新位移重闭。几何扰动通常改变度量，选最终新几何后再固定其gε/圆/w。下一真正目标是Vθ^0″在f常/g变包上的必要不变量以及同一ruling像成员；不继续只数新方向，完整目标仍未在像中。
+R225的完整period iff保所有平台G″0、每活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar。p简单零可有二阶极点，不能额外误删。R185六矩核投影只付六矩，不增加七个局部门。
 
-R189的真实桥与有限约束迁移已由R220/R223/R227加强；已付低阶/Morse控制不重做。固定圆完整第四像仍须实际支付，不能靠增加几何自由度或一般Baire论证代替。
+R254/258/261全third核为H7⊕J3⊕χ8（维18），Af自伴、Af f=0、K=−J³Af保共同右三常数与左尾。R264原Green式
+G″=(aw″)′+bw′−J(cw)，
+Λ=a(f′w″−f″w′)+wJ(cf)−fJ(cw)
+必须逐实际输入使用；控制只要求总势矩/总平台项，不擅自逐方向加条件。两个mixed保ζ原history/E÷2，全Rp0首项R71∩kerπ不能删除。
 
-R162的J6非成员、R186/188原权−2核及正字符均已结；来源/范围见原稿，不重旧107记录、3974forcing或NF。
+R191共同常平台的全部紧二阶w在ruling商不可见；R195/197给单活动包非零方向但未给整个canonical目标属于像。R219/222八flux真实满射、R244首gap模块及R246十三余兼容也非全joint解。旧这些有限方向不再为目录重复求秩。
 
-[R208](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)/[R209](results/R209-complete-canonical-pure-costs-have-second-jet-representatives.md)已分别给完整响应和动态pure的jet≤2代表；完整N与动态项/真history均保，不能由此授P=πR。已付原高jet消阶不重做。
-
-### 已结束的子问题与可复用结论
-
-R37/R45/R52只付有限低阶，frame/位移/M/T/右锚不可删；R98只排正states universal P1，固定profile与P0+NP1未排。R105/R109/R130保完整有限U和非零M的N²/N³；3974原forcing、五族648根和旧pure商已消费不重编。R84倒行成本同号，span/闭锥不是实际逆元；准确来源保results。
-
-### 已结完整商与当前joint
-
-R186/R188完整权−2函数核/正性已结；R190给U2=R2。R192/R194完整权零action接口最终由R196真H0及正锥结案：λ+为唯一正射线且真实M0成本λV=L+∫(logh)′²>0。R201给πH0/λH1；R204/R207/R210只对已核权0/−2/−6/−4证明完整pure像等于响应，结合分离定理得Cp=P且实际S=P；未求所有奇权像，未证明P=πR，Q=P/πR仍保留。全部来源与实际run详见results及原文，不再扫描旧权、动作路径、原NF或必要LP。
-
-**下一：真正的固定圆joint支付。** 最右pure必要门保留，但不能再用λ+去否定它；R210已用真实有限控制把闭hook全pure准确清零；下一具体支付balanced mixed及同w的ruling。完整mixed查询上的ker(ev|U)是否被λ杀仍另欠。R184独立w的Δ须另付是否在同U/λ延拓/是否消掉，不能由pure零推出完整目标零；同一w须同时付period和ruling。全U已有正分离，不为目录完整盲扫−4/−6/−8。
-
-R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删。R84真倒行成本同号，span/闭锥不是实际逆元；R156只α∈πZ输入相位合法。R149九维G链与237共同query/lineality、R162 J6成员分离已结案，不追孤立rank。R159两根忠实、R178终止和R179规范word普适单射可用于新同权问题；不为历史保守输出标签重跑。
-
-[R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)的δ^0..δ^7真响应在pure核上付八修正通量满射R8，保原平台尾；左pair+单flux另满R3，未付十元组。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)给真实整pure+F8的固定有限词C1截面，保Q/全部mixed，先清原型pure再有限整数收缩；[R223](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)兼容全域Morse与真Klein位移。这里一般改g，完整period/ruling仍欠，不宣大紧集全局截面。
-
-R224/R228标准/增长曲率偶芽已由原八包c6排除，R232另严格排原例外八包及其近邻；都不排一般profile。R227真实安装非零ke/C0例外芽；R233/R235/R237–241的非GL2新圆已付六识别能量，但R249–253完整面积排其原例外族。上述已付低层和已败原族不重跑，准确范围见各原R文；后继使用新真实圆，不能以六能量替代全ruling。
-
-[R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
-
-[R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付完整block全四阶a⁴可加、平移≤10及旋角0/2/4的55生成函数；四Gaussian原函数及其积/面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]。均匀角平均领先门严格负，4^11个Prouhet完整不交块的准确位置矩匹配亦保该负值，不能用均匀配角消门。
-
-[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；四次规范和互补两角成员门已付。
-
-[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)/[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)/[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)已用完整area与同移锚把R239旧圆全部κ≠0/ε>0/b实芽排除：c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，复2×2使两不交真实质心相等，矛盾。不排所有profile，不冒跨b同g。
-
-[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)的全角十条件严格强于pure；40包虽付该面积但Lc<0。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)另给完整必要Q0，其累计primitive真实跨尾排该40包。多宽度准确式仍须保全部ordered-history/同母shape常数。
-
-[R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)给六面积72准确条件、self与全部有序Γ；12完整副本准确消36 odd。[R263](results/R263-ordered-Gaussian-area-81-scalar-recursion.md)把九二次矩与72面积系数组成81标量准确有序结合律，四个交叉角系数显式，可保原次序按二叉树递推。右inner完整三矩才使cross零，单位置81值不授任意平移/O2重选seed；每个真实母包的self必须同源。R277–280已在保真递推下联合付全部面积与六识别能量，当前转余下zero/one history及whole period/joint；条件数仍非rank。
-
-[R264](results/R264-potential-tail-moments-and-complete-platform-flux-equivalence.md)已将[R260](results/R260-actual-activity-flux-green-boundary-and-step-baseline.md)扩到R261全Z：G″=(aw″)′+bw′−J(cw)，Λ=a(f′w″−f″w′)+wJ(cf)−fJ(cw)。有限活动类上，所有平台G″0与总flux0共同 iff 各活动∫cw0、非零常平台(aw″)′+bw′0；所有尾来自同一右锚。控制组合只要求总势矩/总平台项，不逐方向加限制；两个mixed另留ζ历史/E÷2。下一真实固定圆上的这些条件与全部内部Laurent/平端germ联合，再与同w ruling共同支付。
-
-[R266](results/R266-constant-platform-projective-model-for-full-third-kernel.md)给全Z在非零常平台的准确局部像F²(P2D4+2P2′D3)，维3；H/J所有阶乘与χ104从属已付。完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)保真尾；输入实为二次时K″=2F²(βA2−γA1)−T。局部源零不能代完整K零，f常/g变也不能猜Φ输入二次；后继按同一实际目标使用，不重平台表。
-
-[R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)/[R274](results/R274-real-analytic-micropackets-and-finite-period-conditions-for-full-third-kernel.md)已把明确零端germ接入真实R270/271存在构造：最初选解析ψ，EL扰动/全部复制后仍p=t^-2 a∞e^-c/t；最细包p/AH内部退化有限，全Z Kfg0且逐包flux自动0。该correction完整period **iff逐包总势矩∫cw0+全部内部Laurent**，平台/germ/双collar均有原式证明。下一求真实联合响应与同w，不把未列实际矩阵/rank称完成；canonical Vd/Ve、非零step与全Rp0其余部分不外推。
-
-[R276](results/R276-canonical-fourth-periods-at-analytic-zero-ends-and-finite-first-layer-conditions.md)从R56原恢复补canonical端界G=P+Tf+p²t^-4B，保原Π2/Π3/全history。对实际ψ+EL微包，一次Lψ恒零iff有限有理Qn0；原平台/零通量已付时这恰为C∞端门，二次主部自动无碍。**下一在未被面积障碍排除的新圆上，代入真实canonical尾值并联合原平台/逐包flux/全部内部Laurent/各端Qn及同w ruling。** 未计算矩阵或实际解，不能套到R277任意最大秩母包；需从最初另构解析同F纤维。
-
-八χ首次run43712266529已由R261消费，8新人工/8科学目标通过、53来源吻合；人读全系数直接复用，机器payload不发布，不重复原编译或冒fixed-circle rank。
-
-R267/270/271/273已付旧有限正宽圆三矩/全third/六能量、36odd及若干指定even，完整证明与准确范围见results；R275已排该原小h双斜率类full面积，不能再增位置重复试解。R278第三斜率保原等式且逃出原半平面，仍留备选，不冒全Gaussian。
-
-### R277/R279/R280：全部 Gaussian 面积和六识别能量已联合支付
-
-R277/279的真实最大秩F纤维保持全部72观测；R280以原self/Green与ordered矩核、两种实际digit布局的A01严格双号和五最后完整block正四次权清全部72面积，随后逐block同F有限N准确根付Lc/Mc及六识别能量。完整证明见results，非数值候选或rank计数。
-
-**下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** [R281](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)已从最初用ψ×偶多项式真最大秩母包、解析同F有限N根接R280：全72面积与六能量同零且p=t^-2 a_e exp(−c/t)、内部退化有限。整个canonical Tf保最后真尾，经共轭微分和频率独立化为有限准确系数；平台/flux已付时这些系数零iff端逆germ光滑。**下一提取实际尾并支付这些系数、平台/通量/内部Laurent，非再证明有限性。** 高阶收敛/同g有限族/全时嵌入reach仍欠。
-
-R282/284及其余单平方、五量/七量阶段已由R293/294整个二层支付覆盖，原独立门和完整有限频率证明保各原文；不重已付阶段。零/一层完整剩余现按R296原式继续。
+旧R187/193、R224/228/232、R249/252/253及R275各被排族的精确范围见原证明；R304新增范围以本节为准。Engman只限S1等变，Freese–Weber另需曲率条件，不能用它们宣一般C²刚性。
 
 
 ## O1：双圆领相位机制，保留备选
@@ -143,25 +100,3 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
-### R275/R278 保留备选
-
-原小h双斜率族的完整面积障碍已严格定位；第三斜率真实gap包突破其半平面但未付余面积。原准确范围/公式见results，当前优先同F机制，不重旧族或把负方向当完整解。
-
-### R293–305：全角已归约，完整主40已可控，真正缺口转低阶相容
-
-原二层/72面积/六能量/三矩/完整third可同正解析有限N联合付。R299准确pure-ruling self C²及真尾Γ给初选Fang，原十矩/三有序面积清整个Ξσ；中心rulingθ=sin²θ rulingπ/2，actual偶部modWe同。未将period q误降C²。
-
-R300的四Er×30准确Laurent原行主空间free40/even38，旧30外8个真实观察可联控。[R305](results/R305-complete-even-germ-forty-dimensional-principal-space-and-two-zero-layer-controls.md)用原零层完整平方证明仅权7、8各再添1，free42/even完整主秩40；明确J7=α[h0j6]R0、J8=α[h1j1]R0准确杀We，两个主类有非零纸面系数。故42原条目/2完整关系对应40真主坐标，可同Fang和所有旧门有限N准确联付。
-
-**下一真正支付全部principal-null的完整低阶基线**：一层至多112冗余生成条件，零层We商尚须原式编译；不虚构总rank。按原完整self/Green/ordered尾证明等背景/面积/能量蕴含哪些恒等，或找可改变其实际值的机制。把这些量加入F只保持旧值，不授零；主空间结清不等于整个germ可解。其他s段/奇部、全period/同w及最终几何仍欠。
-
-### R288/292/295/297/298/302：平台与单self已兼容新Morse/共振几何
-
-R292保YW真右累计，R295由末真实high/low迫整T_B0、各self q_i0；q有C³主平方，不能冒低阶纤维。R297原χ32/37/40的c矩给九单位响应，保所有基准的R222 m9取得actual纯零/T任意。R298 χ30/P又给T0而完整q=3/512∫u″²u‴²>0；九矩加单个预固定u的self可真m10控制，两actual矩阵零hook整q差非C²。
-
-[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。[R303](results/R303-complete-self-degree-nine-and-all-translation-control.md)已把R301完整五维平移推进为固定母包**全Pol≤9**：原场含真实移动左尾，唯一c10项由m'_p2=−kh/2/M0端值消；H6×p2整矩阵零响应的N9最高完整self非零，10条链给准确下界。whole pure/9矩/同母全部允许中心可真19观测联合付，任意有限包数不再新增插值门。不同母/不同宽度及Fang高频改shape仍须同一几何的兼容；不是全Q universal函数像已解。
-
-[R307](results/R307-universal-degree-nine-self-layer-and-real-elimination.md)/[R309](results/R309-universal-degree-eight-self-layer-and-second-real-compensation.md)给完整普适[c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，D9/D8皆保完整真实history/局部低jet/左尾。R9=−Ktop/1080与R8=−NKtop/9720给pure/T核三角两单位，whole pure/九矩/两层真11观测联付。若R303已清一母全平移，同几何D9=D8=0使**全部母次数≤7**。下一是kerD9∩kerD8的真实低层/全Q；此有限控制不能恢复另被相容门排除的圆类。
-
-
-**下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。
