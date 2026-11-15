@@ -140,3 +140,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **∞第七真实高已闭。** [原高零证明](results/R150-appendix-infinity-seventh-two-original-high-forcings-zero.md)保λ6全部75个非零normal2系数，两代表在原5100高行的七阶forcing均Q零；86632低阶原产品全真。完整剩余仅1088×599低式，保10incoming/两homogeneous cubic；实际β7等运行后判断，第八仍须真实 $A_2^TL_6+A_1^TL_7$。
 
 **∞完整第七已闭。** [实际β7=1](results/R150-appendix-infinity-complete-seventh-connection-one-sixteen-heads-and-length63.md)给16头、792064原八层产品真，fullQ长63…66、次大53…55/max13、AI65…68，差模长2…5但仍仅u5灭杀；R/Rout/U≤160、Rh*≤183，三支8526/8531/331。续第八真实高 $A_2^TL_6+A_1^TL_7$、11incoming；新job按小源码从原数学重建并逐全SHA还原所需临时阶段，独立全局P core56×22先计算degree/height再续行模。
+
+**外投影gcd直接消目标余因子。** [完整PID/同来源证明](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)对 Ω=ΔP 的Σ0外部分给 $U\mid R_{\rm out}/\Omega$；$d=\deg\Omega\le160$，九 $(R_{\rm out}/\Omega)h_*t_j$ 原全局成员、额外次数≤160−d。同原I/J/B与完整因子K158Ω给来源费8531−d、三支8526−d/8531−d/331−d。实际Ω未算；续56×22全部行模gcd，单minor/单素数因子不满足前提。

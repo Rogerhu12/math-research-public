@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 6226c78565e1a9f47e655cc0b1438f802ada983f（2026-11-15 20:07:43 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** b750085a6000e64b4ff38b4c479e2031a5da4659（2026-11-15 20:08:06 UTC，Actions run43756310771实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43756310771-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -20,6 +20,8 @@
 - [Q十三原始核](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)付λI=2/十二单位、整核/freeI及80444原产品；[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)保1632 Koszul块。[高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)仅F31长26/max7；准确 $v\det B=\delta_{\rm full}+2+\sigma_O+\delta_{\rm high}$，F31为243。Q的O29…149、高商26与同D leading31单位仍开；同D权8770/阶130…243/次数8527…8640、q8369…8482。
 - [射影gcd381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)配新∞63给Δaff≤318、$R=\Delta_{\rm aff}/K_{158}$ 次数≤160，$K_{158}=s^{66}(s-2)^{12}(s+6)^{12}F_+^6F_-^6E_8^4$。[全局删二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)给 $h_*=h_0/(s-2)$ 与h0成员性等价、R(2)≠0；九Rh*tj全局来源、总乘子≤183。[同九费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)保原全部输出，三支8526/8531/331；R系数/高度/固定31分母未算。
 - [共同最小目标湮灭式](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)为 $s^3F_+^aF_-^bE_8^cU$，$a,b\le2,c\le1$；$U\mid R_{\rm out}$、$U,R_{\rm out}\perp\Sigma_0=s(s-2)(s+6)F_+F_-E_8$，新界次数≤160。九Rout h*tj仍有来源/费8531。U是否1仍开；旧generic例外Σ含未知Δ。[原P符号56×22](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)已证：在S=Q[s,Σ0^-1]分离120单位与13自由，余56×22 G；四层线性逆给h⁴G多项式，保全部Γ，真实ΔP外支撑等于其全部22子式gcd。实际gcd尚未算。
+
+- [外投影消目标余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)：定义Ω为原ΔP的Σ0外部分、d=degΩ，则Ω|Rout、0≤d≤160，九目标额外最小U|Rout/Ω。M=Rout/Ω给九Mh*tj全局来源、degM≤160−d；同原I/J/B与K158Ω的三支8526−d/8531−d/331−d，统一费8531−d。Ω尚未实际求出，不能预填Q60或关闭U。
 
 ## 活跃执行与恢复
 
