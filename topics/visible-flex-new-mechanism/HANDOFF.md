@@ -10,7 +10,7 @@
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`，12:24再次断连；暂按根8仅原生小UTF8，恢复即补实际pull。
 
-原生API规则读取：2026-11-15 12:51:46 UTC、`d6c1f5ba51ed63cd65ae877c46513886958e1362`（非git pull），双README无变。
+原生API规则读取：2026-11-15 12:54:16 UTC、`cb6af0a5aaaaa702fbaa24de2596b1dd96f4dd97`（非git pull），双README无变。
 
 ## 2. 完成门
 
@@ -22,7 +22,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual**：43701558227/ef8c1cdb，η.266520536442→.266491207122；原m6仅fine曲率拒绝被SOC修回仍减B。全部来源/门/漂移/费用保原actual，不重算。
 
-**159容量/持径新actual**：[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，43712266529/a934b45c/job132806237214，18新检查过。新生产fine4096+1296→5392、3942→3990；hold5392+1292→6684、3995→4087，旧ID/余槽全保。生产η.266513719074→.266474122294；hold→.266443965488，分别11+1LP/11与9接纳、28+2/26+2值、94.195/86.885活动秒。末m11全17守卫真，nextB.000125代old.0000625但配额耗尽，没有持B后的模型，不宣收敛改善。总603.329秒/RSS3157876KiB含恢复，原全门过但目标.26/1e−4未达。旧43707849695容量0LP失败和43705209195未知原因保原note。下一真正选行J因子化，fine57.54秒/coarse23秒仍旧163全J瓶颈。
+**159容量/持径actual**：[完整记录](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)，43712266529/a934b45c/job132806237214。18新检查过；两次固定容量5392/6684保旧ID/余槽。η.266513719074→.266474122294→.266443965488，各11+1LP/活动94.195与86.885秒。末m11全17守卫真、nextB保.000125，但无后继使用模型，不宣收敛改善。原门过、.26/1e−4未达；旧失败/全部费用保原note。fine57.54/coarse23秒仍旧163全J。
+
+**159选行J已接线待首actual**：[实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)，四新源+45绑定。完整Π角kernel→3径向jet选行→原159列，无旧163全J；当前ordinary/H/reference/全池/父缓存/原holdloop保。7必要输入恢复各一次再新stage，12LP/40值/120秒不增、不第三次扩容。仅新人工先公共Actions，尚无通过/性能结论。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -62,7 +64,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R246八平台接口**：11维模上8F+8E单射；八E/前三F定唯一P，余五F+八D为13独立iff，e-flux另验。本模period核0不冒全R0障碍。
 
-**R254/255/258/261全第三核**：Z=H7⊕J3⊕χ8、dim18。R261实际43712266529/a934b45c/job132806237299八新人工过，八D³K全局部四阶/自伴，fresh原差全零；5条raw差非字面零。故全Z有K=−J³Af、Af f0，右三常数/左二次尾保，通用f表示忠实18维非固定圆rank。新科学.21736秒/28.55MiB，53来源匹配，旧Δ/forcing/第四0重做。完整B=2Kf(Φ_A D)+4Φ_A(φ,Kfφ)保第二history；逐包比例类Kfg0/整包flux0。平台/Laurent/平端/同w欠，全Rp0=(R71∩kerπ)+B(E,χ8)不可删首项。
+**R254/255/258/261全第三核**：Z=H7⊕J3⊕χ8、dim18；43712266529/a934b45c/job132806237299八新人工过，八D³K普适四阶/局部/自伴，fresh原差全零但5条raw差非字面零。全Z有K=−J³Af、Af f0，保右三常数/左二次尾；通用f表示忠实18非固定圆rank。完整B保第二history，逐包比例类Kfg0/整包flux0。已付目标不重做；全Rp0=(R71∩kerπ)+B(E,χ8)首项不可删。
 
 **R260/264真实活动与平台**：全Z的G=Kτf(w)有G″=(aw″)′+bw′−J(cw)，d=(af″)′+bf′=J(cf)，Λ=a(f′w″−f″w′)+wd−fJ(cw)。平台f=Fj时Λ=−FjTj，真实总flux=Fj−1Tj−1−FjTj。全部平台G″0和总flux0 iff 各活动∫cw0且非零平台(aw″)′+bw′0；有限组合用总和，不逐方向强加。内Laurent/平端/同w仍欠，mixed保ζ历史/E÷2。
 

@@ -297,3 +297,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R272 完整证明](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)对f端值0、p=t^m a(t)e^(−c/t)、c>0/m整数/a光滑非零的明确类，证明全Z的K输出及有限组合在平台和总flux已付后，其R225逆解v′真实C∞。先用精确z=1/s−1/t及反向kernel证明衰减积分p^k t^r→p^k t^(r+2)C∞和p∫p^-1t^-2B的光滑性，包含任意光滑余项，不只形式渐近。全8系数直接给a/d/c权≤4/6/7；H/J链由正确δ中seed高阶项相消，c只多2(d′−a''')，同界归纳。
 
 由f=∫p得到f^(i)∈p t^(2−2i)，故完整G‴∈p²t^-10。真实平台二导常数已零后G″∈p²t^-8，真实端flux零后F∈p³t^-6；AH=p²t^-4(4c²+O(t))使q∈p^-1t^-2。原积分精确给v′端值−lim(t⁸G″/p²)/(12c⁴)，自由Cp不改端值；左右端均证，不重锚。于是明确零端有限解析活动圆的这些K目标，其完整period只余实际平台/势矩及全部内部Laurent联合；尚未求响应像或同w ruling。非零step、任意flat、奇异w、未消mixedζ历史及全Rp0其余部分不外推。无新研究执行。
+
+
+## 原159几何选行 Jacobian 因子化：首次公共开发与新阶段入口
+
+[完整实现与执行规格](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)把已付径向恒等式落实为四新源：在完整原角网构造9/8/1角模式的三个径向jet，先调用原11组标量微分再展开原159列；保Π的零模/Nyquist和parent角位置jet，不生成旧163/159全角向量参数张量。当前权威普通几何、准确五null-height、原163物理族、g/b0/reference/H、全部池/两网门/固定aux和父accepted_cache保持。新增评价身份明确，浮点轨迹可变，未宣性能改善。
+
+新driver显式保prepared_hold，在完整capacity终态后以真实next_soc_hold_trust逐完成模型继承半径/streak；容量history仅剥正文executed hash后精确比对并另核hash，不从report重建Field/H。七前缀各一次只为输入恢复，新阶段仍12LP/40值/120秒/10秒每LP，不第三次扩容；实际失败保原错误，包括selected point为None。45请求来源、98实参仅改out，24旧输入SHA不动。root全四源/原API/接线审读，mechanism独核handoff；仅新人工/API/IO在公开Actions首执行，未有passed或实际科学结论。终端断连依根8小UTF8保存，所有payload临时。

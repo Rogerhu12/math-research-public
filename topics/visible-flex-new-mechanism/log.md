@@ -220,3 +220,5 @@
 - 2026-11-15 12:47:46 UTC，Astra-new-mechanism-9974ea84：R270完整建设证明即发布。root核两真实self的原边项、Γκ=(d²−e²)/(d+7e)、精确E04/δ余项、EL(N0)非零反证、hz镜像母包与64L⁵K/3母Jac、实际四变量IFT及同源TM3/最后四块次序。只新增完整A1,−1 I0，形式even余20非rank；不把各block不同α的比例强加混合后圆。终端仍断连，根8小UTF8非force发布；无新研究执行。
 
 - 2026-11-15 12:51:45 UTC，Astra-new-mechanism-9974ea84：R272全Z零端光滑性完整纸证即发布。root精确推两指数kernel、全δ系数递推/seed高阶相消及a/d/c总权4/6/7，再以真实平台常数和端flux依次积分得G″p²t^-8/Fp³t^-6/q p^-1t^-2。逆解C∞及端值−R0/(12c⁴)包含完整光滑余项；允许有限负幂前因子，不外推非零F端或额外ζ历史。内部Laurent/同w保留；原八局部目标未重算，全部推导纸面完成。
+
+- 2026-11-15 12:53:56 UTC，Astra-new-mechanism-9974ea84：选行J四新源与单lane接线即推。root全文核helper/adapter/newdev/driver与冻结API；mechanism窄核same prepared_hold/H/原池/next_soc_hold_trust及新class→原loop。具体修复None选中点遮原错误、旧恢复日志scope；前三源不变。新45源/98args只out变，24输入保持；公共新开发先行，7必要恢复一次后唯一samebudget新J阶段。预研究原actual pull/check还启用已有private规则同步，仅输出SHA/unchanged/QUEUE状态，不私有内容；尚未执行或称通过。payload不发布。

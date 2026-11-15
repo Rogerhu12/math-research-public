@@ -20,7 +20,9 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[新容量实际](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新增检查全过，两个一次固定容量配置保全部旧ID/余槽；五必要恢复与新159生产/hold分别记账。生产η.266513719074→.266474122294，hold→.266443965488，两阶段各11primary+1SOC，活动94.195/86.885秒。hold第11模型仅fine曲率失败被唯一SOC修复、全17guard真；nextB保.000125代old.0000625，但本次配额耗尽，没有后继使用heldB模型。全原两网/准确九盒/同g等门保，.26/1e−4目标未达；旧失败及漂移范围保原notes。**下一实现[选行J径向因子化](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)：实测fine57.54秒/coarse23秒仍旧163全J，须保当前权威几何、行ID、全值/门和SOC缓存，不能仅延长旧预算。**
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)与[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新检查过，两个固定容量保全部旧ID/余槽；η.266513719074→.266474122294→.266443965488，各11primary+1SOC/活动94.195与86.885秒。末m11全17guard真保B.000125，但配额尽，没有使用heldB的后继模型。全部原门保而.26/1e−4未达，旧失败/漂移保原notes。
+
+[选行J实现](notes/selected-row-Jacobian-radial-factorization-implementation-20261115.md)已接四新源与单lane：完整原角网Π、9/8/1角族×3径向jet，收缩选定11组行后按原159列展开，当前ordinary和准确null-height独立保留。父SOC缓存及固定aux列/全值/原门不改。保same prepared_hold的Field/H/reference及实际next_soc_hold_trust回放；七必要输入恢复一次后新stage仍12LP/40值/120秒，不新扩容。**下一消费公开首次新人工及actual，分别记J/值/恢复成本和全部门；未运行前不宣快、可行或进展。**
 
 ### 仍须支付
 
@@ -76,7 +78,7 @@ R212的固定词C1截面及R214/218/220的端口/Morse推进已被R223/R227消�
 
 [R185](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md)给重叠八包的16维真实周期核及六矩固定右逆；消六矩不缩周期像。余10个显式合法周期不变方向的ruling只需0/cos2θ/sin2θ共30真s函数；仅有限充分接口，不能冒10像独立。period部分准确缩4个L_f目标，但完整joint不能据此限制所有相位。下一应支付原G_i及真实退化通量/共同ruling像，不继续只列新方向。
 
-[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。[R193](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md)现已由公开actual43680023529/source9b7c07f付固定原八包/标准(0,1,0)态的全部正宽度：λ⁷ReF=c0+c2λ²+c4λ⁴+c6λ⁶，4×4精确有理槽全正；同一准确重补矩C∞邻域全宽度保正。固定I须保支撑，不推广一般常态。其他常态的任意宽度符号未定；[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)已给无开常段真实桥/闭hook几何，随后须具体支付period/joint。
+[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)/[R193](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md)仅排R183原八包的明确常状态/标准(0,1,0)类及已付准确补矩近邻；43680023529/9b7c07f已付全正宽度，不重复或推广一般C²刚性。[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)的无常段真实闭hook及后续R223/227已付；后继实际period/joint仍须支付。
 
 [R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。[R195](results/R195-single-active-packet-period-kernel-and-nonzero-fourth-ruling-direction.md)已处理f常/g变区：三g矩零的w保周期，Bθw=−2sin²θ D_w S_s(g)，全部η和8维history给像≤42。标准常段上完整Cubic Euler t10与三矩adjoint t4..6不相容，四测试函数+准确C∞补矩给非零有符号商方向，只动σ一次、不绕过R193二次门。[R197](results/R197-nonzero-fixed-circle-ruling-direction-on-nowhere-constant-geometry.md)已支付迁移：真实B·B^rev的M/T/frame回路先使三矩列rank3，4点增广det=−Δσ D_wC/8；R189准确保约束的有限C^m逼近保非零子式，Klein用新位移重闭。几何扰动通常改变度量，选最终新几何后再固定其gε/圆/w。下一真正目标是Vθ^0″在f常/g变包上的必要不变量以及同一ruling像成员；不继续只数新方向，完整目标仍未在像中。
 
