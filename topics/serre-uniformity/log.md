@@ -554,3 +554,9 @@
 - 不消费不存在的更深current、不重旧LLL；原归一生产者必须真发布后才激活。新格完整性不代分母高度或原129准确出口。
 - 根修清旧拒绝复用：k个probe相容仅够造格；Ω复用须完整C降模及中心区间证明整个C准确相同，A/B旧拒还须完整A同样条件。当前98固定C已实际全排，后继不能仅凭D重复沿用。
 - 本push规则：本地真实pull至813116ba8dfd7df2af32c4a7a0b6269dff7a6f96（2026-11-15T21:07:18.079303+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:10 Asia/Taipei — serre-public-astra-20261115
+- 读回R824 run43732499815实际BudgetStop：free1187的365位完整current c6ddf4fb/51.6MB lift a7a95048；manifestf45e2193有725项、原source442f3d16/core1ece3cf4/wrapperc5907739。
+- 本地仅标准库小IO18次Range/266064B，读metadata和current，不导入数学、不下大lift；原612745716B carrier身份71b16a02由manifest保，完整恢复交原公共wrapper。
+- 只把resume切真artifact14179899060/bc2789d4并继续300min；原27+244 scope/free1186保留/配置不变，不回退已成profile或365位。无新原函数/高度。
+- 本push规则：本地真实pull至c7190df2c1a47270dea60af2ff44f4cde13ab431（2026-11-15T21:10:30.747448+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
