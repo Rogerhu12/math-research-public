@@ -465,3 +465,9 @@
 - 激活R78756真实消费者：core c642ec35/runner74496002/method58a7713f，从已成42全基增真实原A行；首56nodes/1格/300min，全部成功出口仍原129×280。
 - 保存完整新LLL后再验候选；逐坐标同正号D只引用旧完整拒绝与原tag，独立小carrier保136小件+manifest/ref，不改变1380旧载体，不重旧格/430/14逆。
 - 同次公开Actions AST与数学，无额外gate；前H逐字归档并压缩活页。首次引用更新被拒后立即重跑专用pull；rules132935006145实际pull至5be140684fc7e5341087d4943d87fa60b7a84843，两README无diff后重推。
+
+### 2026-11-16 03:49 Asia/Taipei — serre-public-astra-20261115
+- 激活R815两准确列实际消费者：core00087968/runner2f93e15a/methodc373d52e，首4新probe对/300min；源为同一425current与旧已成21前缀，旧数学不重做。
+- 原3037成员2.715GB carrier原样Range复制，12个旧扫描小件另载；新Wvg/d01/1652同余在公开Actions实际计算，两列准确/七点全交换子/cyclic/Γ保持。
+- R78756 run43754407301/job132935305617同次AST已过、数学进行；其rules132935226045实际pull1827d794，两README无diff。四原续算19:48仍进行。
+- push前专用rules132935393570实际pull至555d311ba50ab79bce0dade4f168053d0d7bc0e9，两README无diff；已读提交在H。
