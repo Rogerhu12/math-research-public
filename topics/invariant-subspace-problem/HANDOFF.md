@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** da70f5ccc3b32967e4354d471d24c186344f9480（2026-11-15 21:44:51 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 6bc64c4b76d7366a0ef7277ccbd7c98309931f93（2026-11-15 21:45:58 UTC，Actions run43765479863实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43765479863-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -19,8 +19,8 @@
 - [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)J*=P4340+同E14补列，I*=原13free输出补；原核补三角单位与左图给cokerB*=fulltors。新H8835/∞66/次数8769/leading31单位，replacement≥66/cofactor≥55；不同于旧243子式；字典actual0.407487812秒，5完整SHA/3333+1007原索引权和全真（receipt0f543b9b），不造大det。
 - **[全精度已有来源统一8655](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)：** 始终D*=detB*，只首一K158；q=D*/K∈D31[s]、次数8611、leading单位，Pℓ=adjB*Aℓ/K整。任何既有Ax≡31^e b mod31^n保同e/n可降费max(8655,τ(b)+1)，当前九目标8655。固定e任意高n可解才给exact D31源；单p6不等于all-n，原e=0任意次数mod961负证仍在。
 - [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由原Gauss/full∞同66给Δaff及monic Rout/Ω/M/U均31整；R(0)/R(−6)31单位，R(2)仅Q非零。最新度与约化包络如下；原来源31分母未定。
-- **[有限31缺陷](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)及[十三真除源/302](results/R150-appendix-thirteen-true-divided-columns-affine-degree302-and-residual-envelope144.md)：** C=(genericim∩D31[s]^4367)/imA有限D31模，C/31C嵌入完整fieldtors315，rank_D C=degΔaff。旧X模p5和新Y模p6同target p²h0tj，A(Y−X)/p5真整；九旧b与v2…v5全商独立13，Σ_{a≤5}ta≥13，故Δaff≤302/齐次≤368、R/Rout/U/Ω≤144。其s谱(s−1)²(s−2)^11给barR|(s−1)(s−2)^5P+²P−²E6Q60²。t1=2/t2≥5仍真；固定e任意高n才给exact，315无系数31精度截止。
-- [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤144；九Mh*tj全局原成员，degM≤144−d/总乘子167−d，原Q源费8531−d（三支8526−d/8531−d/315−d）。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U实际未定，不预填Q60。
+- **[有限31缺陷](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)与[十四真除源/301](results/R150-appendix-fourteen-global-divided-classes-affine-degree301-and-residual-envelope143.md)：** C=(genericim∩D31[s]^4367)/imA有限D31，C/pC嵌fieldtors315、rank_D C=degΔaff。九旧b连四条实际全局p4除源独立13，再加同target旧X/新Y的A(Y−X)/p5共14；Σ_{a≤4}ta≥13/Σ_{a≤5}ta≥14。故Δaff≤301/齐次≤367、R/Rout/U≤143；谱(s−1)²(s−2)^12给barR|(s−1)(s−2)^4P+²P−²E6Q60²。t1=2/t2≥5，不预填t5；315无系数p指数截止，固定e任意高n才exact。
+- [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤143；九Mh*tj全局原成员，degM≤143−d/总乘子166−d，原Q源费8531−d（三支8526−d/8531−d/314−d）。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U实际未定，不预填Q60。
 - [原P的56×22实际core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)在Σ0外准确保全部22子式gcd；全部原17式/P0/P1/224×13核/双H9/119×22graph已核，641非零/次数126/409与213bits，logical752d21d7…；不重core。
 
 ## 活跃执行与恢复
@@ -29,7 +29,7 @@
 - P原gcd600 state42d998c9：19行完成/第20待约化，12basis/2416步。localized91e5d19a实际497.7846秒exit1：13原根乘回全真，57新步仍19行，basis564431bits/current629810bits，临时候选464.75MB/56245ba9，无Ω。只读2301B/b947eb34失败回执已明确MemoryError（7d9899ad）；保父根/core，先改算法，不盲加资源。
 - 新minor并发失败已立即重拉重推成功；历史字典恢复v2/五输入全核均实付，详归档。当前仅核新det，不重已付core或旧消元。
 
-- **正在排原22阶子式上界。** source4ae559a6只读已付core，三预定原行/常数组合方阵，全484原乘回+整数Bareiss每除式核，完整pivot双槽可续；180秒/2GiB/外240。非恒定gcd只记Ω的上界，等于1才Ω=1；不预填目标成员性。
+- **原三minor已实际完成。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
