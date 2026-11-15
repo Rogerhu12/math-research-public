@@ -235,3 +235,9 @@ R724附录B把实际N_p按primitive理想射线分解，径向因子严格正；
 Norm<3,7>秩二与单antiγ7/barγ7计数给密度一共同六次阶>s，仍唯一恢复全部原高度二窗。
 现在可在真实degree3/7成本下继续中央carry及角格联系；较小degree不自动保旧预算，也不预付指定非零。
 原冻结差与aD_S的有限四点交检均不相容，继续完整CM13谱和R728真正S34伙伴，不按型或质量直接认原S。
+
+
+### R730：指定分歧类与完整原镜轴像
+
+[R730](results/R730-specified-ramification-class-linear-contact-bound-and-actual-mirror-kernel.md) 在原固定六纤维及a_F,b<p下逐正规支支付tame估值，得到h≤4a_F+8b+3Δ，Δ是UA/e在固定纤维外的极点量。临界h>4a_F+8b因此迫整个真实UA|Z非零，含奇点/非约化结构；没有把极点量当余核维数。
+整个原FH2在R547实际单位商中的像准确H0(Z,2C)/res_Z K_mir；后一真实像等于原kerαη的单射限制。指定z_c若为零，命中非零UA|Z的镜轴核产生与Pfact独立的原首核。继续这个指定连接核与R726 forcing、00块及全部WD列的同一个R；不能未经证明假定原K1一维，也不把此首位判断升级p³。J/M分别保T=s−r与s−r−13。

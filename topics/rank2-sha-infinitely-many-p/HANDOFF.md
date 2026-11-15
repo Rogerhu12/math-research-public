@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
 
-- 最近已读规则提交：0d7739714a84f06da152bb0f24fe38fdeb2812e9；2026-11-15 09:43:31 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:43:30 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
+- 最近已读规则提交：3502cddddff068903ba2f331215c57ff8e64176d；2026-11-15 09:48:23 UTC核两README无变。实际CI pull 2026-11-15 09:16:58 UTC/2a5b30535e502b0b4e5df88f77402932a41ea334（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 09:48:22 UTC仍无环境。最迟2026-11-15 10:00 UTC再实际pull。
 
 - 首次全文读旧库两README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史，令牌不入文件/回复。
 - 每小时实际pull，每次核根/题README，仅读差异即照办并记提交。本地exec无环境；API只非强制追加，拒推立即本地pull --rebase重试并接新head循环推；实际CI与本地失败分记。
@@ -15,8 +15,8 @@
 
 ## 当前检查点与分工
 
-[压缩前完整检查点](notes/2026-11-15-frontier-before-r728.md)沿链保全部来源、原ray/CRT/δprimary、λβκΩ、坏集、预算及旧问题；此摘要不关闭它们。
-R1–363、365–560、562–653、655–700、701–711、713–729已登记；R364/R561/R654/R712及主目标仍开。完整证明入口results.md、notes/PROOF-INDEX-R701-R750.md；当前待办详open.md。
+[压缩前完整检查点](notes/2026-11-15-frontier-before-r730.md)沿链保全部来源、原ray/CRT/δprimary、λβκΩ、坏集、预算及旧问题；此摘要不关闭它们。
+R1–363、365–560、562–653、655–700、701–711、713–730已登记；R364/R561/R654/R712及主目标仍开。完整证明入口results.md、notes/PROOF-INDEX-R701-R750.md；当前待办详open.md。
 root唯一metadata/ref写者，代理只交proof/script/blob。deep同R完整像及原z_c；theta原冻结负矩、P与原S的真实交；literature原first-wild同步矩阵/非实和；root原Cartier/中央carry。
 固定E17/E24/E2312 rank2已付；完整Selmer桥2+corankSha≤2ordJ，仍须同一无限p族至少一条固定原J′非零。O4低增广类/O6真实相对类群继续按open，有限p与新局部非零都不完成。
 
@@ -59,8 +59,13 @@ R726 j0=ell−k≤3三个μ_j0逐十九角保3charge并整消第三短块。真�
 **R727** 两charge原U=d^c与A=t²m_tan d^(c−1)∈H1，只b≥2即可整分裂。实际λ(K)=[t0Y^i*]K/f_i*(0)选L=kerλ，λ(F)=1/λ(A)=0；R547真单位块是vertical H2/F²＋F²L，原cube p因子保。
 同一整商两残列准确(0,16c z_c)，z_c来自qt^rFUA。保全p³来源恒等，不把R722/R547两个块的单位数相加。继续指定forcing、z_c、投影后的00块及全部其他WD列的同一个R；R712完整像非零仍开。
 
-R725§8–9新付：前K原行取J=floor((K+1)/6)、Z_[K]=Z+cp^-1(rΣ_{j≤J}a_jξ^j)^p，准确帽M_K=p(2J+1)，坐标误差p(6J+5)足够；Q_{m,K}度sK。全部h≥1分子帽M_KD2，固定K只O(p)。它们就是同A的p基系数，零号另保(M_K+1)D2；未把高h模型条目认成原高行。
+R725§8–9：前K行参数帽M_K=p(2floor((K+1)/6)+1)，Q度sK；同源p基/零号额外极全部保，固定K成本O(p)。
 
-R724附录B已付原primitive理想射线分解：径向R_102p严格正，固定非实短方向若ell_p=0可贡献常数，不能全塞o(1)。全环h按p+1条真实Teich projective lines展开并保非unit。|α|≈p的原17权块N(W)=Σ_r C_{p,r}(W)/(6p²)，所缺是同步总和o(p²)，单项小Burgess节省不够。
+R724附录B：原primitive射线径向权正，短非实方向的ell_p=0仍可能给常数；真实projective Teich二位与非unit保。|α|≈p块所缺是同步Σ_r C_{p,r}=o(p²)，单项小节省不够。
 
 R729新付：原δ Norm3、γ7=(5+δ)/2 Norm7的CM因子为R3=X、R7=X³+((-2+6δ)/7)bw，完整t_i=−[w^s]logR_i。Norm<3,7>大阶>X^.6，单antiγ/barγ大阶>X^.45，各坏p O(X^.9/log)，共同六次阶>X^1.05/12>s，故密度一仍唯一恢复全U；同源成本降3/7但不认旧WD自映射。
+
+
+**R730** 原b,a_F<p付含奇点的tame正规导数界；指定Δ=deg((UA/e)_∞|t∉S)满足h≤4a_F+8b+3Δ，临界Δ≥47b²/32+O(b)>0，故UA|Z≠0。此极点质量不当Smith秩。
+全FH2在R547真单位商中准确为H0(Z,2C)/res_Z K_mir，res_Z K_mir≃kerαη；z_c读UA。若z_c modp为零，则原qt^rFB给与Pfact独立首核；原核一维仍未证。分别保J/M的T=s−r/s−r−13、全部13carry/同R/p³，完整forcing及其余WD列未关。
+CM13窄续只在同q/同五差上应用R297完整六维算子，保质量列及全部谱；公开请求已交。提前实际pull请求已交，完成后立刻登记两README差异。

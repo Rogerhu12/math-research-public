@@ -973,6 +973,91 @@ for(const c of candidates){
   q715:incidence({sol:as.solution,affine:true}),
   zeta715:incidence({sol:an.solution,affine:false})
  };
+
+ // R297 (10) is a proved operator formula, not an imported output table.
+ // On 4^-j sigma^34*x^(2+3j): Mhat=(A+delta B)/13122.
+ // Below use N=M/gamma13 on the unscaled, complete six-dimensional basis.
+ const cmA=[
+  [-14805,-2304,432,-720,495,41310],
+  [-84672,-24417,5796,-4050,-9252,479043],
+  [10296,-137538,46782,-5085,-23517,1114299],
+  [-285642,-161334,46710,-1071,40698,3550365],
+  [275265,-50634,-2817,8775,-18999,1398420],
+  [-450,378,-90,72,162,12510]];
+ const cmB=[
+  [-13165,1840,-514,250,275,-91970],
+  [-149792,35315,-6608,2300,424,77843],
+  [-321646,81046,-20680,10435,9737,1752343],
+  [349454,-57650,23714,-3377,23234,2345473],
+  [139873,-23554,6469,1157,2107,-718828],
+  [-3370,262,2,40,-118,-200]];
+ const cm13=cmA.map((R,i)=>R.map((a,j)=>md(a+ne(1,2)*cmB[i][j])
+   *iv(md(13122*(4+om)))%pp*pow(4,j)*pow(iv(4),i)%pp).map(md));
+ const cmAct=(M,v)=>mm(M,v.map(x=>[x])).map(r=>r[0]);
+ const cmI=Array.from({length:6},(_,i)=>Array.from({length:6},(_,j)=>+(i===j)));
+ const cmAdd=(A,B,scale=1)=>A.map((R,i)=>R.map((v,j)=>md(v+scale*B[i][j])));
+ const cm3=mm(mm(cm13,cm13),cm13);
+ const arVectors=[
+  [ne(-128,0,7),ne(-80,0,7),ne(-12,0,7),ne(-53,0,7),1,0],
+  [-2048,12032,8128,400,-208,1].map(md),
+  [1024,-6784,-14912,-272,272,1].map(md)];
+ const arEigen=[md(-1),md(-om*om),md(-om)];
+ arVectors.forEach((v,i)=>assert(cmAct(cm13,v).every((a,j)=>a===md(arEigen[i]*v[j])),
+   "R297 full CM13 and R307 original S/H3/H5 eigenlines"));
+ const cmCubeRelation=mm(cmAdd(cm3,cmI),cmAdd(cm3,cmI,md(om*om)))
+   .every(R=>R.every(v=>!v));
+ assert(cmCubeRelation,"R503 complete two cubic CM13 factors");
+ const arProjector=cmAdd(cm3,cmI,md(om*om))
+   .map(R=>R.map(v=>md(v*iv(md(om*om-1)))));
+ const arMatrix=Array.from({length:6},(_,j)=>arVectors.map(v=>v[j]));
+ const inverseConnection=d=>{
+  const P=Array(6).fill(0);
+  d.forEach((a,j)=>{P[4-j]=md(17*a*iv(14-3*j));});
+  return P;
+ };
+ const cmPResidual=residualTheta.map(inverseConnection);
+ const cmPq=inverseConnection(fullFirstSource(diffMatrix,diffOld,as.solution,true).theta_coordinates);
+ const cmPz=inverseConnection(fullFirstSource(diffMatrix,diffOld,an.solution,false).theta_coordinates);
+ const cmSource=P=>{
+  const ar=cmAct(arProjector,P),outside=P.map((v,j)=>md(v-ar[j]));
+  const coeff=elim(arMatrix,ar);assert(!coeff.inconsistent,"three true arithmetic CM13 lines");
+  let v=P,orbit=[];
+  for(let k=0;k<6;k++){orbit.push(v);v=cmAct(cm13,v);}
+  return {P_coordinates:P,arithmetic_coordinates:coeff.solution,
+   arithmetic_part:ar,remaining_cubic_part:outside,remaining_part_is_zero:outside.every(v=>!v),
+   normalized_trace_mass_sequence:orbit.map(v=>v[5]),
+   CM13_cyclic_rank:elim(Array.from({length:6},(_,j)=>orbit.map(v=>v[j]))).rank};
+ };
+ const arIncidence=P=>{
+  const matrix=Array.from({length:6},(_,j)=>[
+   ...cmPResidual.map(v=>v[j]),...arVectors.map(v=>md(-v[j]))]);
+  const r=elim(matrix,P.map(v=>md(-v)));
+  if(!r.inconsistent)assert(matrix.every((row,j)=>dot(row,r.solution)===md(-P[j])),
+   "complete actual affine arithmetic-span incidence");
+  return {consistent:!r.inconsistent,rank:r.rank,
+   residual_coordinates:r.inconsistent?null:r.solution.slice(0,2),
+   S_H3_H5_coordinates:r.inconsistent?null:r.solution.slice(2),
+   nonzero_left_remainders:r.inconsistent?r.reduced.filter(R=>R.slice(0,5).every(v=>!v)&&R[5]).map(R=>R[5]):[]};
+ };
+ const spanOf=cols=>elim(Array.from({length:6},(_,j)=>cols.map(v=>v[j]))).rank;
+ const cmGeometry={
+  formula_source:"R297 (10), D(A+delta B)D^-1/(13122 gamma13); complete mass column retained",
+  principal_basis:"sigma^34*x^2*X^j, j=0,...,5; b=1",
+  inverse_covariant_map:"P[4-j]=17*d_j/(14-3*j), P[5]=0",
+  cube_factor_relation:cmCubeRelation,
+  arithmetic_dimension:elim(arProjector).rank,
+  original_S_H3_H5_eigenvalues:arEigen,
+  residual_basis:cmPResidual.map(cmSource),
+  residual_CM13_closure_dimension:spanOf(cmPResidual.concat(cmPResidual.map(P=>cmAct(cm13,P)))),
+  residual_cubic_closure_dimension:spanOf(cmPResidual.concat(cmPResidual.map(P=>cmAct(cm3,P)))),
+  residual_arithmetic_image_dimension:spanOf(cmPResidual.map(P=>cmAct(arProjector,P))),
+  residual_other_cubic_image_dimension:spanOf(cmPResidual.map(P=>P.map((v,j)=>md(v-cmAct(arProjector,P)[j])))),
+  q715:cmSource(cmPq),zeta715:cmSource(cmPz),
+  q715_arithmetic_span_incidence:arIncidence(cmPq),
+  zeta715_arithmetic_span_incidence:arIncidence(cmPz),
+  scope:"Complete finite-field operator applied to unchanged actual q715/neutral sources. No characteristic-zero incidence, new arithmetic zero, or negative-moment nonvanishing is inferred."
+ };
+
  const frozenNormalAnalysis={
   raw_first_observations:["Y0=A+c+2d","Y1=A+2c-d"],
   raw_second_observations:["W0=A+3delta*c+4d","W1=A+4c-3delta*d"],
@@ -990,6 +1075,7 @@ for(const c of candidates){
    difference:fullFirstSource(diffMatrix,diffOld,an.solution,false)},
   exact_auxiliary_J2_readers:{paid_forty_nine_plus_difference:paidJReader,native_without_quarter:nativeJReader},
   original_S_line_incidence:originalSIncidence,
+  inverse_connection_CM13:cmGeometry,
   residual_polynomial_geometry:residualPolynomialGeometry,
   residual_image:{rank:er.rank,pivot_columns:er.piv,
    basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},

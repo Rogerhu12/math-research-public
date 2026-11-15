@@ -316,3 +316,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R728：冻结型5负一行的原连接源与全近消返回](results/R728-frozen-type-five-connection-and-complete-near-cancellation.md)：D=ζP−P′/34对应完整S34零质量伙伴及σ′⊗oddS33真实卷积；五负矩回原c/(c+Z)单位域。全部两单位近消来源为β^m(1−hκ)D+ell_mP′/34，完整Mellin保J_P中央、负一质量及p^m/κ^m尺度log；P未认成原S，native外部相反补偿仍保。
 
 - [R729：范数三、七的原小CM与密度一全窗恢复](results/R729-norm-three-seven-cm-and-density-one-full-ah-reconstruction.md)：准确R3=X、R7=X³+a7bw和完整Gaussian/Fermat商；Norm秩二/anti单秩小阶计数给共同六次阶>X^1.05/12，坏p O(X^.9/log)。密度一e≥s补全两AH二位族，唯一指定整个原U及全部Cartier；实际degree3/7成本保，不预付旧格或中央非零。
+
+- [R730](results/R730-specified-ramification-class-linear-contact-bound-and-actual-mirror-kernel.md)：已证明原h≤4a_F+8b+3Δ及临界指定分歧类非零，完整FH2商由真实镜轴连接核读取；指定列若被吸收则产生独立原首核，原核一维仍是明确条件。
