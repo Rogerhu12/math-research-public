@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `bd8ac644ff1baa6895333890433c49a4c36ccb0f`，2026-11-15 16:55:58.902537 UTC，run43738200372实际pull并核双README无差。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。run43740129876首次2026-11-15 17:16:32.9262082 UTC实际pull/read `96744db0bc1fed0826fa0999cb0b7eee7ddb1d62`，末次发布前pull/read `9d548f3ed9ed870b3b4f94851391521d99be4b32`；两次双README均无差。下一最迟18:16:32 UTC。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 16:31:15.566113 UTC实际pull/read `dc99543da830ee95eadc86a5fd30af7b45a10b48`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 17:16:35.452857 UTC实际pull/read `600623639e1da8d1dc653ff9f3a3c4280ba09a76`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159前序已读**：全部容量/hold、因子化J、旧选行仿射失败/漂移/费用见对应notes。旧run43722283235 η.266419188→.266401179，m6漏峰/曲率及m5 e/f非线性均保，不重。
 
-**完整两网actual已读**：[原结果](notes/complete-affine-first-actual-result-20261115.md)/[六模型](notes/complete-affine-six-model-interpretation-20261115.md)/[恢复/SOC](notes/complete-affine-restoration-and-resume-inputs-20261115.md)，run43728280256/7329385/job132854922848：η.266401179156→.266381717617，两网14门/精确盒过、fineκ57.999983395，height微负margin保原记录。9恢复805.206121s、新active35.287169s、total845.020544s、16+2值。54/106源与24原输入已核，同g/b0/159/163。6模型7trial、10primary+2SOC=12LP，m3/5细曲率失败由SOC修回并保B.000125，17guard/4bind全过；无遗漏硬行。m4/5需358/342cuts，m5首LP完整norm负改善后补cut转正，m6只余1LP预算停非驻点；e/f非线性3.8e−7～1.7e−6。九恢复真实漂移均保、不强制旧SHA；新人工已付不重。原native第五模型因行首BOM漏解析、原数据完整。v11确认原exact终态在，但无完整旧行池/参考态列表；直接同物理转移须显式重建并报新旧范围。下一携原ID+norm支持方向在新中心重建，旧A/b不搬，禁仅续预算。
+**完整两网actual已读**：[原结果](notes/complete-affine-first-actual-result-20261115.md)/[六模型](notes/complete-affine-six-model-interpretation-20261115.md)/[恢复](notes/complete-affine-restoration-and-resume-inputs-20261115.md)，run43728280256/7329385/job132854922848：η.266401179156→.266381717617，原两网14门/精确盒过、fineκ57.999983395，微负height margin保原记录。9恢复805.206121s、新active35.287169s，total845.020544s；16+2完整值。54/106源及24原输入核同g/b0/159/163。10primary+2SOC=12LP，m3/5细曲率由SOC修回保B.000125、17guard/4bind；m4/5需358/342cuts，m5首LP负后补cut转正，m6只余1LP非驻点。九恢复真实漂移保留；BOM第五模型原数据完整。v11扫426记录证有exact终态，无完整后期池/旧reference切向列表。**新入口已首发**：[norm方向+精确转移设计](notes/norm-direction-memory-and-exact-transfer-design-20261115.md)，原ID/单位球方向在新中心重建，旧A/b不搬；最多512/原12LP40值120s。准确159/163和H恢复九height参考，current切向reference只换tag、物理/g/b0核同；显式新池=24输入∪可见旧tags，不冒缺失history恢复。0旧optimizer/旧developer，新语义检查+新actual首在Actions，不预报成功。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -31,11 +31,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左尾；43712266529八新人工已付。全Rp0首项不可删。R259/263的72/81是条件非rank；R277–281全period/Green/解析端iff不授未算门零，详原稿。
 
-**R281解析端接口**：ψ乘偶多项式给最大F母包/全区正prefactor，p=t^-2 a_e exp(−c/t)，内部p/AH退化有限。真Tf/尾和共轭端germ有限iff均保；平台/flux仍须实际支付。
+**R281解析端**：ψ乘正解析prefactor母给有限阶内部p/Af零点，真Tf/尾与共轭端germ有限iff均保；平台/flux仍须实付。
 
-**R283–305旧输入已付范围**：rank-one包canonical/真尾局域、R293/294有限N全角72面积/六能量/三矩/third/全二层、R299真self/Γ角Ξ、R300/305 free42/even40主控均真；R304完整C²基线严格非零，不再对被排类加F/频率/预算。全部范围与端假设在原稿，不能推广新rank-two。
+**R283–305**：旧rank-one有限N全third/全二层/72面积及40/42门控制真；R304完整C²基线非零排该类，不再加频率/F。原尾/端/有限基准见对应结果，不能推广弱rank-two。
 
-**R292–302平台与几何接口**：完整后缀迫T9/逐self；R297真9单位，R298 χ30/P整q=3I/512非C²。R302保四χ原型/共享整词真倒行、自由h跨全词、M0固定而τ可漂移，增强IFT真指定有限pure/T/query并安装新芽、Morse/Klein闭合；通常先选新seed/g，不授全q/全部母包/实际逆元，完整period/同w仍欠。
+**R292–302**：完整后缀迫T9/逐self；R297真9单位。R302保实际χ原型/共享整词真倒行、自由h跨全词、M0固定τ可漂；增强IFT指定有限pure/T/query、芽安装/Morse/Klein真闭合，通常新seed/g，不授全q或实际逆元。
 
 **R303–313**：前序完整尾与self独立性见原稿，现已推进whole-self门，不重孤立rank。
 
@@ -54,4 +54,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 83cdc30e303bfdf9f6d65314e6c4d6af7ad9d6df，双README blob同。API读取不冒实际pull。
+断连API复核main 70f411b832f7b4f77cc193c95ea774b9d55463ed，双README blob同。API读取不冒实际pull。

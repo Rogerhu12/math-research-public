@@ -150,3 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R330/R335：两个真实内部退化flux与整T已同时支付，续整包量
 
 [R330](results/R330-two-actual-packet-degenerate-fluxes-and-twenty-observation-control.md)对R324最终实际正解析prefactor包用z=p^(2/3)找到Af0且p,r>0的真点。原K=−r⁴/3−2Lf(Puu)/3，保真实尾/平台修正，通量精确−8a³(a²−b²)r⁵/45；两个对应实际copy与δK给−10ρ0⁵ρ1⁵C²(t1−t0)非零。成本−8/−7保R323十self；R297其余8T单位作真有限Laurent投影后，20×20块三角联付wholepure/十self/整T/两flux。R222/R302保所有基准与固定芽/profile/点，改变全局geom后用真实m*重取wc，flux规范不变。全T0只把平台化成逐q_i0，尚未付全部q/Ve/其他点/原特解/13同行；R335续原整包总flux而非再数行。
+
+
+### 新数值入口：精确物理转移与跨中心norm方向
+
+[已读设计](notes/norm-direction-memory-and-exact-transfer-design-20261115.md)和五新源码首次推送公开Actions。原方向可在任何新中心作支持平面，但必须用当前e/f/J/trust重建；bank512，原12LP/40值/120s不变，SOC保原primary。直接读原exact159/163+H恢复九referenceheight，当前切向reference只变metadata tag并核原物理/g/b0；明确新池为24输入∪原六模型可见tags，完整旧后期pool缺失不冒恢复。新人工仅改中心旧A/b失效反例/精确输入/seed账本等新接口；0旧优化/开发重跑。新actual完成即消费完整两网、失败/SOC/费用并推结论，未完继续真正剩余问题，不仅续预算。
