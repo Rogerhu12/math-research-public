@@ -170,3 +170,5 @@
 - [R650：固定q门的真实W补偿与原A门odd1755返回](results/R650-fixed-carry-gates-and-whole-odd1755.md)：两个固定q门在原W下的准确位移给全四K的两层补偿，交门/两失败支与全部log质量保留。实际A门六C旋转均whole odd1755，原odd65锚定绝对χ65核，整两条K_A返回两个真实unit cut并保E/G/log所有修正；未新增中央零。
 
 - [R649：同一P2的两维提升差与原第二中央必要式的界限](results/R649-same-p2-two-dimensional-lift-and-central-bockstein-boundary.md)：在同一个完整模p P2及相同型/首项/三挠零/二挠帽内，从实际低jet起的两参数整提升使两个a/p独立变化，det=−228072b/5在所有允许p为单位。严格分清这些比较提升与原sigma唯一实际提升，证明模p资料本身不能排第二中央必要式，真实modp²条件仍须支付。
+
+- [R651：原高临界支的同格整提升与完整第二forcing](results/R651-original-higher-critical-branch-lift-and-complete-second-forcing.md)：在显示原帽和强s窗内，统一r≤ν≤13的同P整三jet提升与强t-Hensel近支；全剩余低行核和真实Dψ首像保留。完整p³重算保ν≥7新活项、两条13尾和同R第二类，先付全J/p²才读Ψ_R，未证明指定余类非零。
