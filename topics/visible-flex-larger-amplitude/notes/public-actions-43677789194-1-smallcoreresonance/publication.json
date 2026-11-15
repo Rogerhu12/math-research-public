@@ -1,0 +1,472 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-15T04:41:17.888109+00:00",
+  "source_commit": "2b6be01cab2de99401e0a5e0158133126aa86265",
+  "run_id": "43677789194",
+  "run_attempt": "1",
+  "lane": "smallcoreresonance",
+  "files": [
+    {
+      "source": "exact-diagnostic-command.json",
+      "bytes": 4096,
+      "sha256": "9a375bfe6826b0be8d348b3c36d84e54875fc4ce6932df3c88b57d29ed047e48",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/exact-diagnostic-command.json",
+      "published_bytes": 4096,
+      "published_sha256": "9a375bfe6826b0be8d348b3c36d84e54875fc4ce6932df3c88b57d29ed047e48"
+    },
+    {
+      "source": "large-arrays/complete-diagnostic-readback.json",
+      "bytes": 156807,
+      "sha256": "c7e92afdb9d32e1657ce71c4de57f33291f1695e8980d67c9becb2b281ccbdf6",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "prior-candidate/actual97-inexact-p3-restoration-status.json",
+      "bytes": 233256,
+      "sha256": "d55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/prior-candidate/actual97-inexact-p3-restoration-status.json",
+      "published_bytes": 233256,
+      "published_sha256": "d55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "ad423c94f6465a1cb7a62ab1b7b887b9c1503911de11da6c5a6f0bbbeaee7f2e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "ad423c94f6465a1cb7a62ab1b7b887b9c1503911de11da6c5a6f0bbbeaee7f2e"
+    },
+    {
+      "source": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/public-source-restore.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "request99-input-and-source-identity.json",
+      "bytes": 55267,
+      "sha256": "e8580b35ef3a4a893c2087af82a58bff8f4b59d4d0cf378dfb8d65669eff943a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/request99-input-and-source-identity.json",
+      "published_bytes": 55267,
+      "published_sha256": "e8580b35ef3a4a893c2087af82a58bff8f4b59d4d0cf378dfb8d65669eff943a"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/circle-reference.json.gz",
+      "bytes": 140335,
+      "sha256": "9ab8011780015f8b93c590dda2d0268c12402605e219293d25b1deec8d6b73ed",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/circle-reference.json.gz",
+      "published_bytes": 140335,
+      "published_sha256": "9ab8011780015f8b93c590dda2d0268c12402605e219293d25b1deec8d6b73ed"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/complete-scalar-domain.json.gz",
+      "bytes": 149523,
+      "sha256": "b72a0d65a4509a6cf7261247422f68ed2ed7bf30ad8314e21f930e821358682d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/complete-scalar-domain.json.gz",
+      "published_bytes": 149523,
+      "published_sha256": "b72a0d65a4509a6cf7261247422f68ed2ed7bf30ad8314e21f930e821358682d"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+      "bytes": 971400,
+      "sha256": "9b4cf9f1c7488ef310f38fcecccdeee7a8883c276d9cba351bf8f0bc2185fe82",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+      "published_bytes": 971400,
+      "published_sha256": "9b4cf9f1c7488ef310f38fcecccdeee7a8883c276d9cba351bf8f0bc2185fe82"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0001.json.gz",
+      "bytes": 5194,
+      "sha256": "5f6c7c4b246087565dc15e834a60163fafa8f1734ef063c48656287bac4cc3f6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0001.json.gz",
+      "published_bytes": 5194,
+      "published_sha256": "5f6c7c4b246087565dc15e834a60163fafa8f1734ef063c48656287bac4cc3f6"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0002.json.gz",
+      "bytes": 4368,
+      "sha256": "c8e21bb8f120a66e5ef7e8ddf7447f014e50084251d39e5314af334c3de31b9e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0002.json.gz",
+      "published_bytes": 4368,
+      "published_sha256": "c8e21bb8f120a66e5ef7e8ddf7447f014e50084251d39e5314af334c3de31b9e"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0003.json.gz",
+      "bytes": 3627,
+      "sha256": "df5b0138eb67f4523c0b021a5dd3cd064fd2d7bb5a64416e927e91430810e1cb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0003.json.gz",
+      "published_bytes": 3627,
+      "published_sha256": "df5b0138eb67f4523c0b021a5dd3cd064fd2d7bb5a64416e927e91430810e1cb"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0004.json.gz",
+      "bytes": 4801,
+      "sha256": "8f03496a43b2f21e2f3df653ffabd24a5e2dbc6142ccf8b761d775f05b1d2f17",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0004.json.gz",
+      "published_bytes": 4801,
+      "published_sha256": "8f03496a43b2f21e2f3df653ffabd24a5e2dbc6142ccf8b761d775f05b1d2f17"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0005.json.gz",
+      "bytes": 3499,
+      "sha256": "919d5a9d2d717bdee9fe5fa43453112b4ce628e5abe705b931caf746b0714d61",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0005.json.gz",
+      "published_bytes": 3499,
+      "published_sha256": "919d5a9d2d717bdee9fe5fa43453112b4ce628e5abe705b931caf746b0714d61"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0006.json.gz",
+      "bytes": 4525,
+      "sha256": "d2d2344cb0f1d6891f998a9535f8a4480b3d76e99ef6c9fe48cb6c35832e770f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0006.json.gz",
+      "published_bytes": 4525,
+      "published_sha256": "d2d2344cb0f1d6891f998a9535f8a4480b3d76e99ef6c9fe48cb6c35832e770f"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0007.json.gz",
+      "bytes": 4458,
+      "sha256": "2ba495f6d027992aa79568db0f55fccea50b370376241dbe8168328f9e28c61b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0007.json.gz",
+      "published_bytes": 4458,
+      "published_sha256": "2ba495f6d027992aa79568db0f55fccea50b370376241dbe8168328f9e28c61b"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0008.json.gz",
+      "bytes": 3620,
+      "sha256": "e79002cc231e6fbeefb8ac4ee11307a6b5a5fce76d7651ae28ae1f660a80f870",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0008.json.gz",
+      "published_bytes": 3620,
+      "published_sha256": "e79002cc231e6fbeefb8ac4ee11307a6b5a5fce76d7651ae28ae1f660a80f870"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0009.json.gz",
+      "bytes": 3978,
+      "sha256": "fed4c146ad288029bdcd0d0783616bc40612929158919827c936a7ea6e4dda48",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0009.json.gz",
+      "published_bytes": 3978,
+      "published_sha256": "fed4c146ad288029bdcd0d0783616bc40612929158919827c936a7ea6e4dda48"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0010.json.gz",
+      "bytes": 4521,
+      "sha256": "a226c0f16b92a948b60eb832308aa175daeca461c04b2c3cae82758967487385",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0010.json.gz",
+      "published_bytes": 4521,
+      "published_sha256": "a226c0f16b92a948b60eb832308aa175daeca461c04b2c3cae82758967487385"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0011.json.gz",
+      "bytes": 4059,
+      "sha256": "57588a36bccd8a298e27beefeaf9253d01eba52ae9e6313a691d70c551a2fd20",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0011.json.gz",
+      "published_bytes": 4059,
+      "published_sha256": "57588a36bccd8a298e27beefeaf9253d01eba52ae9e6313a691d70c551a2fd20"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0012.json.gz",
+      "bytes": 3713,
+      "sha256": "f200106bd20ee08a00ad6f6037291a3f0d4eecc268baa949a7c09cc293c5f1b4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0012.json.gz",
+      "published_bytes": 3713,
+      "published_sha256": "f200106bd20ee08a00ad6f6037291a3f0d4eecc268baa949a7c09cc293c5f1b4"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0013.json.gz",
+      "bytes": 4156,
+      "sha256": "f318e8492210b7ec11f85791b0972a624309d63fa0eacdb3504310617802cdee",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0013.json.gz",
+      "published_bytes": 4156,
+      "published_sha256": "f318e8492210b7ec11f85791b0972a624309d63fa0eacdb3504310617802cdee"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0014.json.gz",
+      "bytes": 4157,
+      "sha256": "ec4fe402a04cca94fa37c47120099a3a494b41a13e3880c66457d0ee01bb00b2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0014.json.gz",
+      "published_bytes": 4157,
+      "published_sha256": "ec4fe402a04cca94fa37c47120099a3a494b41a13e3880c66457d0ee01bb00b2"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0015.json.gz",
+      "bytes": 4680,
+      "sha256": "b44001adff102f46fca7d77aeaf3189cf59c57e621adc6c191434317b2241fb6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0015.json.gz",
+      "published_bytes": 4680,
+      "published_sha256": "b44001adff102f46fca7d77aeaf3189cf59c57e621adc6c191434317b2241fb6"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0016.json.gz",
+      "bytes": 4139,
+      "sha256": "9821bb4b7d17b4f4beeddc17f80a172e23f68e6c930145046bf3087631f5ca3d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0016.json.gz",
+      "published_bytes": 4139,
+      "published_sha256": "9821bb4b7d17b4f4beeddc17f80a172e23f68e6c930145046bf3087631f5ca3d"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0017.json.gz",
+      "bytes": 4770,
+      "sha256": "9bb014239ffb38b496b70a06986b94f4c78c1ab0e3dd6319d9ff49b371c7264e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0017.json.gz",
+      "published_bytes": 4770,
+      "published_sha256": "9bb014239ffb38b496b70a06986b94f4c78c1ab0e3dd6319d9ff49b371c7264e"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0018.json.gz",
+      "bytes": 4604,
+      "sha256": "70f97b3d538354c979c01e8ad23304e572f738147314369f13a9994af54e653c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0018.json.gz",
+      "published_bytes": 4604,
+      "published_sha256": "70f97b3d538354c979c01e8ad23304e572f738147314369f13a9994af54e653c"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0019.json.gz",
+      "bytes": 3333,
+      "sha256": "ba1d8f30ceeed83e954c1b81b7a3c54f15325359b79f9644d56f5b377ea8b013",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0019.json.gz",
+      "published_bytes": 3333,
+      "published_sha256": "ba1d8f30ceeed83e954c1b81b7a3c54f15325359b79f9644d56f5b377ea8b013"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0020.json.gz",
+      "bytes": 4784,
+      "sha256": "448d6f4f887cbf1312fd4743e5f4076b909590906c0c557f9577584482fcc918",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0020.json.gz",
+      "published_bytes": 4784,
+      "published_sha256": "448d6f4f887cbf1312fd4743e5f4076b909590906c0c557f9577584482fcc918"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0021.json.gz",
+      "bytes": 4601,
+      "sha256": "1d4c5b450284f8c204accd75c88b37b299964e395b6edbfc8b9290f42d15893f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0021.json.gz",
+      "published_bytes": 4601,
+      "published_sha256": "1d4c5b450284f8c204accd75c88b37b299964e395b6edbfc8b9290f42d15893f"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0022.json.gz",
+      "bytes": 4535,
+      "sha256": "37574f265af65dcd302175ea286dd4584905c95dae97eb9121c5c9c5f2ee2496",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0022.json.gz",
+      "published_bytes": 4535,
+      "published_sha256": "37574f265af65dcd302175ea286dd4584905c95dae97eb9121c5c9c5f2ee2496"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0023.json.gz",
+      "bytes": 4648,
+      "sha256": "90c40a6d616f7cd6200e7bb531014b1a5952a4d484b45f29343d17f928173323",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0023.json.gz",
+      "published_bytes": 4648,
+      "published_sha256": "90c40a6d616f7cd6200e7bb531014b1a5952a4d484b45f29343d17f928173323"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0024.json.gz",
+      "bytes": 4646,
+      "sha256": "76f0c917d314536b0e8c11b371337fe8ce4d02635db81b5e512b4f65f4febc0d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0024.json.gz",
+      "published_bytes": 4646,
+      "published_sha256": "76f0c917d314536b0e8c11b371337fe8ce4d02635db81b5e512b4f65f4febc0d"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0025.json.gz",
+      "bytes": 3580,
+      "sha256": "8398d99dc8e666f82886bba0de03fd033e19d1996e7d7fb535e5b5914ab3c2b2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0025.json.gz",
+      "published_bytes": 3580,
+      "published_sha256": "8398d99dc8e666f82886bba0de03fd033e19d1996e7d7fb535e5b5914ab3c2b2"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0026.json.gz",
+      "bytes": 4362,
+      "sha256": "ee00bf6278cd8d82574ebcc72b3b86365f1448105cd12b6cdb377674a1f49eaf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0026.json.gz",
+      "published_bytes": 4362,
+      "published_sha256": "ee00bf6278cd8d82574ebcc72b3b86365f1448105cd12b6cdb377674a1f49eaf"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0027.json.gz",
+      "bytes": 3813,
+      "sha256": "7d35ad9e082fd39084032c247806d80207a5b26be4b29f1fcacd14144430acdc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0027.json.gz",
+      "published_bytes": 3813,
+      "published_sha256": "7d35ad9e082fd39084032c247806d80207a5b26be4b29f1fcacd14144430acdc"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0028.json.gz",
+      "bytes": 4136,
+      "sha256": "460f3b559ffe8cfc283960200a1bb511b2748a1bf40a1afddcbccddf76e55517",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0028.json.gz",
+      "published_bytes": 4136,
+      "published_sha256": "460f3b559ffe8cfc283960200a1bb511b2748a1bf40a1afddcbccddf76e55517"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0029.json.gz",
+      "bytes": 4702,
+      "sha256": "41011f8c4bb7d4b8fa78b8f92f42166d00269e9771a84bc144df0d278a876711",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0029.json.gz",
+      "published_bytes": 4702,
+      "published_sha256": "41011f8c4bb7d4b8fa78b8f92f42166d00269e9771a84bc144df0d278a876711"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0030.json.gz",
+      "bytes": 5022,
+      "sha256": "d6c6b1a7681580facdccf209baab676fa683af272e8636de772f472b83b186cc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0030.json.gz",
+      "published_bytes": 5022,
+      "published_sha256": "d6c6b1a7681580facdccf209baab676fa683af272e8636de772f472b83b186cc"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0031.json.gz",
+      "bytes": 4816,
+      "sha256": "d94e6ec226843eba2a44a7c3fcc6c20d0c54b4e4ae0821a8c986abf3400c563f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0031.json.gz",
+      "published_bytes": 4816,
+      "published_sha256": "d94e6ec226843eba2a44a7c3fcc6c20d0c54b4e4ae0821a8c986abf3400c563f"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0032.json.gz",
+      "bytes": 2892,
+      "sha256": "f41421d8e68bbefada1e38ece6619f87510fd3093db8f278aa2b38467b724edf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0032.json.gz",
+      "published_bytes": 2892,
+      "published_sha256": "f41421d8e68bbefada1e38ece6619f87510fd3093db8f278aa2b38467b724edf"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0033.json.gz",
+      "bytes": 3490,
+      "sha256": "8878b885395b2c5d44cbb3c14ca9299bc6d50abe3c80d99ddf0479201d44df98",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0033.json.gz",
+      "published_bytes": 3490,
+      "published_sha256": "8878b885395b2c5d44cbb3c14ca9299bc6d50abe3c80d99ddf0479201d44df98"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0034.json.gz",
+      "bytes": 3196,
+      "sha256": "eb90139e0bd574d8882fc59008fb19e9c6d10f42e423d3dcf9e936fa1d46e58a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0034.json.gz",
+      "published_bytes": 3196,
+      "published_sha256": "eb90139e0bd574d8882fc59008fb19e9c6d10f42e423d3dcf9e936fa1d46e58a"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0035.json.gz",
+      "bytes": 5197,
+      "sha256": "776cd4d3d9876b4bc22d73320386c92635da82346158175c782b90edea859844",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0035.json.gz",
+      "published_bytes": 5197,
+      "published_sha256": "776cd4d3d9876b4bc22d73320386c92635da82346158175c782b90edea859844"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0036.json.gz",
+      "bytes": 3660,
+      "sha256": "b992eea84ea4912e39c37b10064a300f10432ee0da86e0c397287bea4e6462ed",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0036.json.gz",
+      "published_bytes": 3660,
+      "published_sha256": "b992eea84ea4912e39c37b10064a300f10432ee0da86e0c397287bea4e6462ed"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0037.json.gz",
+      "bytes": 4471,
+      "sha256": "1c2df2b962211c1f82c5ddc8b59f4d1fecfd0508cf11202a7a233b0b64605c4c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0037.json.gz",
+      "published_bytes": 4471,
+      "published_sha256": "1c2df2b962211c1f82c5ddc8b59f4d1fecfd0508cf11202a7a233b0b64605c4c"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0038.json.gz",
+      "bytes": 4270,
+      "sha256": "4cfb44732aefa423c7030a803bcca6c1136168707edf5939e577563c667e91c8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0038.json.gz",
+      "published_bytes": 4270,
+      "published_sha256": "4cfb44732aefa423c7030a803bcca6c1136168707edf5939e577563c667e91c8"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0039.json.gz",
+      "bytes": 4141,
+      "sha256": "42a63d5fed20c0d3dcb60f03d2a77e73561f989870f7ff3f0c2e3f106121b51a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0039.json.gz",
+      "published_bytes": 4141,
+      "published_sha256": "42a63d5fed20c0d3dcb60f03d2a77e73561f989870f7ff3f0c2e3f106121b51a"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0040.json.gz",
+      "bytes": 4259,
+      "sha256": "75b9343b09281b186672ca8157e7315ec3dd01cf1a80ba8e45531c3026056cea",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0040.json.gz",
+      "published_bytes": 4259,
+      "published_sha256": "75b9343b09281b186672ca8157e7315ec3dd01cf1a80ba8e45531c3026056cea"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0041.json.gz",
+      "bytes": 4657,
+      "sha256": "a726bb4eaa40291d50b2bdc5391c438ebeb57cb3701e7183deb1275231fff45a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0041.json.gz",
+      "published_bytes": 4657,
+      "published_sha256": "a726bb4eaa40291d50b2bdc5391c438ebeb57cb3701e7183deb1275231fff45a"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0042.json.gz",
+      "bytes": 3927,
+      "sha256": "9c9fe49b80710d7c8763b1fe6c5c89a80e33324a61c4bfa38d37e1223a110f41",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0042.json.gz",
+      "published_bytes": 3927,
+      "published_sha256": "9c9fe49b80710d7c8763b1fe6c5c89a80e33324a61c4bfa38d37e1223a110f41"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0043.json.gz",
+      "bytes": 3831,
+      "sha256": "fa7a88df02047b1972ba1b80e8f9c314701421ae932c25a924e0a3ea59d38e0d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0043.json.gz",
+      "published_bytes": 3831,
+      "published_sha256": "fa7a88df02047b1972ba1b80e8f9c314701421ae932c25a924e0a3ea59d38e0d"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0044.json.gz",
+      "bytes": 4392,
+      "sha256": "4b12a093d7ce444ec435c8cba2360c88c869728664c018467d659ca2b1e45c7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0044.json.gz",
+      "published_bytes": 4392,
+      "published_sha256": "4b12a093d7ce444ec435c8cba2360c88c869728664c018467d659ca2b1e45c7f"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/inner-solves/inner-0045.json.gz",
+      "bytes": 4455,
+      "sha256": "35a30001f6c12773bd8e7a62b90e1283c6882a00ea908fac182eacbf01e040f1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inner-solves/inner-0045.json.gz",
+      "published_bytes": 4455,
+      "published_sha256": "35a30001f6c12773bd8e7a62b90e1283c6882a00ea908fac182eacbf01e040f1"
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/large-arrays/original-model-evaluations.jsonl",
+      "bytes": 2477333,
+      "sha256": "2d5d32b8438fcb73b9b955ab9d81be254816b44bae59a122d7d02bb3069c9548",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "small-core-inexact-p3-restoration/parent-status.json",
+      "bytes": 233256,
+      "sha256": "d55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/parent-status.json",
+      "published_bytes": 233256,
+      "published_sha256": "d55b5338880cabaae44bd7575db9a10bcba22fad4ae1fce0225f1ef38064f331"
+    },
+    {
+      "source": "small-core-resonance-readback.json",
+      "bytes": 43341,
+      "sha256": "d2ec34c98a5a48fac726847615fe3ab35213a050b37a9d78332a2695a77b6248",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-resonance-readback.json",
+      "published_bytes": 43341,
+      "published_sha256": "d2ec34c98a5a48fac726847615fe3ab35213a050b37a9d78332a2695a77b6248"
+    },
+    {
+      "source": "small-core-resonance.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-resonance.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43677789194"
+}
