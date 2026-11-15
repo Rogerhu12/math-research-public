@@ -1,0 +1,141 @@
+{
+  "schema": "completed-twenty-five-reader-source-only-static-check-v1",
+  "scope": "Source bytes, AST, literal integer layout and frozen pins only; no import, science, fixture or artifact execution",
+  "original_reader": {
+    "file": "root_20261114_read_completed_twenty_four_prefix.py",
+    "bytes": 50285,
+    "sha256": "1aa4da4e721aa12a9f4d6257e3a6b6a7b328059de217ba42268d73a018e9828c"
+  },
+  "new_reader": {
+    "file": "root_20261114_read_completed_twenty_five_prefix.py",
+    "bytes": 50404,
+    "sha256": "9239b31016fde72f55961bc33e36dd014d8cf051df8aaca1fb3f475f8494e8cb"
+  },
+  "all_other_function_AST_identical": [
+    "require",
+    "sha",
+    "json_bytes",
+    "canonical",
+    "write",
+    "decoded_bytes",
+    "read",
+    "original_json_path",
+    "receipt",
+    "safe_path",
+    "scalars",
+    "compact",
+    "walk",
+    "subset",
+    "descriptor_file",
+    "fetch_original",
+    "midpoint_view",
+    "collocation_view",
+    "selected_domain",
+    "selected_angle_view",
+    "trial_view",
+    "preserve_original_reports",
+    "readout",
+    "array_header",
+    "array_identity",
+    "check_array",
+    "npz_file",
+    "combine_parts",
+    "source_audit",
+    "audit_condensed",
+    "audit_root_raw",
+    "audit_observers",
+    "main"
+  ],
+  "changed_function_AST": [
+    "audit_domain"
+  ],
+  "syntax_compile_pass": true,
+  "source_files": [
+    {
+      "source": "geometry_20261114_twenty_five_query_domain_operator.py",
+      "bytes": 32768,
+      "sha256": "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260"
+    },
+    {
+      "source": "geometry_20261114_twenty_five_query_condensed_warm.py",
+      "bytes": 43409,
+      "sha256": "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c"
+    },
+    {
+      "source": "geometry_20261114_twenty_five_query_condensed_response.py",
+      "bytes": 2622,
+      "sha256": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d"
+    },
+    {
+      "source": "geometry_20261114_twenty_five_query_collocation_observer_warm.py",
+      "bytes": 16732,
+      "sha256": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55"
+    }
+  ],
+  "expected_left": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "expected_mid": [
+    473,
+    475,
+    477,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "expected_query_count": 25,
+  "full_rows": 51200,
+  "complete_global_dimension": 236036,
+  "actual_and_declared_local_dimension": 7439,
+  "actual_endpoint_nodes": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486
+  ],
+  "zero_layout_nodes": [],
+  "added_original_capture_endpoint465": true,
+  "all_eight_original_midpoints_retained": true,
+  "farther_midpoint487_not_added": true,
+  "original_explicit_artifact_and_parent_arguments_unchanged": true,
+  "complete_original_transport_function_AST_identical": true,
+  "observations_saved_before_audit_function_AST_identical": true,
+  "no_actual_future_run_artifact_tuple_invented": true,
+  "frozen_parent24_reader_unchanged": true
+}

@@ -1,0 +1,155 @@
+--- root_20261114_read_completed_twenty_four_prefix.py
++++ root_20261114_read_completed_twenty_five_prefix.py
+@@ -1,13 +1,13 @@
+ #!/usr/bin/env python3
+-"""Read an explicitly pinned completed twenty-four-query artifact; no mathematics.
++"""Read an explicitly pinned completed twenty-five-query artifact; no mathematics.
+ 
+ This entry runs only in Rogerhu12/math-research-public Actions.  It uses
+ the unchanged SHA-locked public-artifact transport for the complete ZIP,
+ safe extraction, every member CRC/size/SHA, and read-only publication.
+ Artifact and parent pins remain explicit. The independent reader also
+-checks all twenty-four typed blocks and the now fully used continuous local layout.
+-The original left-RMS485 is added and remains distinct from retained midpoint485.
+-Both original endpoints485/486 already occur in parent23; no support is enlarged.
++checks all twenty-five typed blocks and the now fully used continuous local layout.
++The original left-RMS465 is added to all twenty-four retained typed queries.
++The capture adds endpoint465; actual and declared local nodes are465..486.
+ No scientific source is imported.
+ 
+ JSON readout copies original scalar diagnostics.  NumPy is used only for
+@@ -43,24 +43,24 @@
+ PARENT_WARM_SHA = None
+ PARENT_STATUS_SHA = None
+ REQUEST_NUMBER = None
+-WARM_DIR = "twenty-four-condensed-warm"
+-SCHEMA = "completed-twenty-four-prefix-artifact-readback-and-byte-audit-v1"
+-PRODUCER_SCHEMA = "exact-constraint-twenty-four-query-condensed-complete-H-warm-v1"
+-ORIGINAL_READER_NAME = "root_20261114_read_completed_twenty_three_prefix.py"
+-ORIGINAL_READER_SHA = "528e5024d875a476fb5761db9d4adb6991d6e252d010117e273c1f35b93eba60"
++WARM_DIR = "twenty-five-condensed-warm"
++SCHEMA = "completed-twenty-five-prefix-artifact-readback-and-byte-audit-v1"
++PRODUCER_SCHEMA = "exact-constraint-twenty-five-query-condensed-complete-H-warm-v1"
++ORIGINAL_READER_NAME = "root_20261114_read_completed_twenty_four_prefix.py"
++ORIGINAL_READER_SHA = "1aa4da4e721aa12a9f4d6257e3a6b6a7b328059de217ba42268d73a018e9828c"
+ ENTRY_PINS = {
+-    "geometry_20261114_twenty_four_query_domain_operator.py":
+-        "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36",
+-    "geometry_20261114_twenty_four_query_condensed_warm.py":
+-        "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+-    "geometry_20261114_twenty_four_query_condensed_response.py":
+-        "87261854684d5844c97d59b328db2aa070b015b565baf46dfb7e811808b3bb87",
+-    "geometry_20261114_twenty_four_query_collocation_observer_warm.py":
+-        "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
++    "geometry_20261114_twenty_five_query_domain_operator.py":
++        "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260",
++    "geometry_20261114_twenty_five_query_condensed_warm.py":
++        "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c",
++    "geometry_20261114_twenty_five_query_condensed_response.py":
++        "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d",
++    "geometry_20261114_twenty_five_query_collocation_observer_warm.py":
++        "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55",
+ }
+ # Read-only declaration of the frozen typed row order. These are metadata
+ # checks, not evaluations of a query, derivative or model action.
+-EXPECTED_LEFT_INTERVALS = (466, 467, 468, 469, 470, 471, 472, 473, 475, 477, 479, 480, 481, 482, 484, 485)
++EXPECTED_LEFT_INTERVALS = (465, 466, 467, 468, 469, 470, 471, 472, 473, 475, 477, 479, 480, 481, 482, 484, 485)
+ EXPECTED_MID_INTERVALS = (473, 475, 477, 480, 481, 482, 484, 485)
+ EXPECTED_QUERY_SPECS = tuple(
+     dict(kind="left-RMS", interval=j, fraction=0.17267316464601146)
+@@ -567,10 +567,10 @@
+     manifest = read(path)
+     require(sha(path)==context["model"]["domain_operator_export"]["manifest_sha256"],
+         "Original domain manifest binding")
+-    require(manifest["shape"] == [49152,236036] and manifest["local_shape"] == [49152,7101],
+-        "Actual24 full/local domain dimensions")
++    require(manifest["shape"] == [51200,236036] and manifest["local_shape"] == [51200,7439],
++        "Actual25 full/local domain dimensions")
+     require(manifest["query_specs"] == list(EXPECTED_QUERY_SPECS),
+-        "Original twenty-four typed query order, retaining all previous typed queries and adding left-RMS485")
++        "Original twenty-five typed query order, retaining all previous typed queries and adding left-RMS465")
+     require(manifest["angular_grid_size"] == 2048,
+         "Original complete physical-angle grid size")
+     for key in ("compiled_blocks", "query_gradients", "queries"):
+@@ -582,10 +582,10 @@
+         q = item.get("query")
+         if isinstance(q,dict) and "query_index" in q and "rows" in item.get("arrays",{}):
+             groups.setdefault(q["query_index"],[]).append(item)
+-    require(sorted(groups) == list(range(24)),"All twenty-four typed query groups")
++    require(sorted(groups) == list(range(25)),"All twenty-five typed query groups")
+     combinations = []
+     all_beta_parts = []
+-    for index in range(24):
++    for index in range(25):
+         parts = sorted(groups[index],key=lambda x:x["path"])
+         block = manifest["compiled_blocks"][index]
+         gradient = manifest["query_gradients"][index]
+@@ -634,26 +634,26 @@
+     model_sha = hashlib.sha256(json.dumps(model,sort_keys=True,
+         separators=(",",":"),allow_nan=False).encode()).hexdigest()
+     require(model_sha==manifest["model_sha256"],"Complete original finite B model metadata")
+-    # The24 producer retains continuous local nodes466..486. The new left485
+-    # reuses original endpoint485/486 already captured by parent23 midpoint485.
+-    # Every declared local column remains an actual B column.
++    # The25 producer extends the continuous local layout to nodes465..486.
++    # The new left465 adds original endpoint465 from the same original A capture.
++    # Every declared local column belongs to an actual query block.
+     # Audit saved integer maps only; no B action, query or Hessian evaluation.
+-    expected_nodes=list(range(466,487))
++    expected_nodes=list(range(465,487))
+     expected_endpoints=list(expected_nodes)
+     expected_local=[column for node in expected_nodes
+         for column in range((node-1)*338,node*338)]+list(range(236033,236036))
+     expected_zero=[]
+     require(manifest["declared_contiguous_local_nodes"]==expected_nodes,
+-        "Declared complete continuous local nodes466..486")
++        "Declared complete continuous local nodes465..486")
+     require(manifest["actual_query_endpoint_nodes"]==expected_endpoints,
+         "Only actual query endpoints are captured")
+-    require(manifest["zero_layout_nodes"]==[],"No zero layout node in the actual24 B column union")
++    require(manifest["zero_layout_nodes"]==[],"No zero layout node in the actual25 B column union")
+     basepath=directory/"base-and-local-layout.npz"
+     with np.load(basepath,allow_pickle=False) as base:
+         require(base["local_indices"].tolist()==expected_local,
+-            "Saved declared local indices include the actual node484 B columns")
++            "Saved declared local indices include the added actual node465 B columns")
+         require(base["node_indices"].tolist()==expected_endpoints,
+-            "Saved actual query endpoints include the original node484 capture")
++            "Saved actual query endpoints include the added original node465 capture")
+         local_dtype=base["local_indices"].dtype
+         check_array(base["local_indices"],manifest["local_indices"],
+             "Declared local coordinate identity")
+@@ -665,7 +665,7 @@
+     local_lookup={column:index for index,column in enumerate(expected_local)}
+     used_columns=set()
+     column_reports=[]
+-    for index in range(24):
++    for index in range(25):
+         item=sorted(groups[index],key=lambda x:x["path"])[0]
+         with np.load(safe_path(directory,item["path"]),allow_pickle=False) as part:
+             glob=part["global_columns"].tolist()
+@@ -680,8 +680,8 @@
+             local_column_map_exact=True))
+     used=sorted(used_columns)
+     zero=sorted(set(expected_local)-used_columns)
+-    require(used==expected_local and len(used)==7101 and zero==expected_zero,
+-        "Actual7101-column B block union fills the entire declared continuous local layout")
++    require(used==expected_local and len(used)==7439 and zero==expected_zero,
++        "Actual7439-column B block union fills the entire declared continuous local layout")
+     # Integer-array construction only serializes verified coordinate lists.
+     used_identity=check_array(np.asarray(used,dtype=local_dtype),
+         manifest["actual_block_column_union"],"Actual compiled column union")
+@@ -689,9 +689,10 @@
+         manifest["zero_layout_columns"],"Explicit zero B layout columns")
+     layout_audit=dict(declared_local_dimension=len(expected_local),
+         actual_compiled_column_union_dimension=len(used),zero_layout_node=None,
+-        zero_layout_nodes=[],node484_already_actual_in_parent23=True,
+-        added_original_left_RMS485=True,original_midpoint485_separately_retained=True,
+-        capture_endpoint_set_unchanged_from_parent23=True,
++        zero_layout_nodes=[],node484_already_actual_in_parent24=True,
++        added_original_left_RMS465=True,original_left_RMS485_retained=True,
++        all_eight_original_midpoints_retained=True,farther_midpoint487_not_added=True,
++        capture_endpoint_set_unchanged_from_parent24=False,added_original_endpoint465=True,
+         zero_layout_column_count=len(zero),actual_endpoint_count=len(expected_endpoints),
+         actual_compiled_column_union_identity=used_identity,
+         zero_layout_columns_identity=zero_identity,block_column_maps=column_reports,

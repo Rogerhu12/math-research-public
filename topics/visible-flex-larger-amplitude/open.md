@@ -16,7 +16,7 @@
 
 最近1/16全部原node/mid和24查询有效，actualmerit下降，完整RMS唯一LEFT465失域(beta²=-.421944063367393)。1/8、1/4也仅此LEFT465失败，不能推margin单调；远1/2原MID487失败，RMS/merit未执行。84仅补最近LEFT465：17LEFT+8MID/51200行、17捕获cell/22端点465..486/7439实际支持。C4059、完整outside、原lambda270/LSMR200/C-Hildreth200/512working/dual200、600/90/30/1200秒预算、17alpha及全部node/mid/双RMS/rho/merit/FD门不变。每模型刷新W，禁止跨模型merit相减；线性域行不代有限步检查。
 
-79 H优于C且最终slack全正，global repair后不冒条件外部精确最优/完整KKT。最坏physical row155819仍在全A/g/H；真正native/fullBVP尚未接受。79五小原件已读；完整artifact14141611284/639331603B/ZIPc2432e48绑定既有24reader1aa4da4e和parent76bba24c1f/a1a67b9a，工作流3cd2eba4不改。完整chainQR未导出界限保留，不增加84科学gate。76reader43662815323/addendum689a88eb/receipt867d5b38的完整byte scope已付。84独立四源及[完整接线接口](notes/2026-11-15-request84-left465-only-followup-interface.md)已发表：workflowf0641240/request5511eeb7，root完整读全部源差异及接口、核55源/11shell/6inline。25-query由原唯一computations请求触发，等待实际新方向；原79 reader43665645276已success且小包保全，完整byte附记另读。
+79 H优于C且最终slack全正，global repair后不冒条件外部精确最优/完整KKT。最坏physical row155819仍在全A/g/H；真正native/fullBVP尚未接受。79五小原件已读；完整artifact14141611284/639331603B/ZIPc2432e48绑定既有24reader1aa4da4e和parent76bba24c1f/a1a67b9a，工作流3cd2eba4不改。完整chainQR未导出界限保留，不增加84科学gate。76reader43662815323/addendum689a88eb/receipt867d5b38的完整byte scope已付。84独立四源及[完整接线接口](notes/2026-11-15-request84-left465-only-followup-interface.md)已发表：workflowf0641240/request5511eeb7，root完整读全部源差异及接口、核55源/11shell/6inline。25-query由原唯一computations请求触发，等待实际新方向；原79 reader43665645276的[完整byte附记](notes/2026-11-15-actual79-completed-byte-reader-addendum.md)已发表：215domain/1396数组、108condensed/38完整数组、14raw415120992B、71源(62primary子集)/17关系/17col+6mid闭合。类历史added485不是79新增查询；全chainQR未导出界限保持。独立25reader9239b310及共享prefix25 route已就位，现有79请求字节不改、不造未来84tuple。
 
 ### 1B. Native73：实际线搜索失败与全部十档模型下降
 
