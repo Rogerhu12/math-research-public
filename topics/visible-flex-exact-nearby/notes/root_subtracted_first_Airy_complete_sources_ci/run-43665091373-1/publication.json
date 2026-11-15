@@ -1,0 +1,97 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43665091373",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T01:53:02.274127+00:00",
+      "before": "ea1279cab66e40403163177e72c16c7668556de8",
+      "after": "9b038f13c2267e2a9a76544c640fef71137da1b0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:00:43.915137+00:00",
+      "before": "9b038f13c2267e2a9a76544c640fef71137da1b0",
+      "after": "42d3d34984b7d87adbec23adcad85e197e7ce13e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/cases/radius-1-100.json.gz",
+      "bytes": 3815925,
+      "sha256": "aa2a3e49e51d5f55c801b2461aff5f6833abcab5f625c99cc4ebd7e4b423b8f1",
+      "original_sha256": "aa2a3e49e51d5f55c801b2461aff5f6833abcab5f625c99cc4ebd7e4b423b8f1"
+    },
+    {
+      "file": "consumers/cases/radius-1-1000.json.gz",
+      "bytes": 691120,
+      "sha256": "9acf67425fa0aafbc826a874bfb53f9e8e210a64af1570dfb30612cc5bcd2999",
+      "original_sha256": "9acf67425fa0aafbc826a874bfb53f9e8e210a64af1570dfb30612cc5bcd2999"
+    },
+    {
+      "file": "consumers/cases/radius-1-200.json.gz",
+      "bytes": 2991770,
+      "sha256": "69bf1bd8a37844e4c82a40a91b9d4aa761758ad12210fc23cd63ca0849d173c0",
+      "original_sha256": "69bf1bd8a37844e4c82a40a91b9d4aa761758ad12210fc23cd63ca0849d173c0"
+    },
+    {
+      "file": "consumers/cases/radius-1-50.json.gz",
+      "original_sha256": "6324952d4ccd42b41e97c69e41759d5731768cd99a7a244a0e723d840b09ce9a",
+      "bytes": 5630289,
+      "retained_in_original_Actions_artifact": true
+    },
+    {
+      "file": "consumers/cases/radius-1-500.json.gz",
+      "bytes": 1311526,
+      "sha256": "6eb0a8cb2d994eb447c0c687fb614a3907501b993fc08ddfc131852288447df5",
+      "original_sha256": "6eb0a8cb2d994eb447c0c687fb614a3907501b993fc08ddfc131852288447df5"
+    },
+    {
+      "file": "consumers/cases/radius-3-200.json.gz",
+      "bytes": 4693243,
+      "sha256": "d6b1491d07448772959106c5d073ffb692aedb8d90af64fc988746cdae8c5b4f",
+      "original_sha256": "d6b1491d07448772959106c5d073ffb692aedb8d90af64fc988746cdae8c5b4f"
+    },
+    {
+      "file": "consumers/complete-source-dominant-row-diagnostics.json",
+      "bytes": 11337,
+      "sha256": "3f618651a27f9364d6ab24df103e6921c4408d2fdd75922c5331a7d046eb60a7",
+      "original_sha256": "3f618651a27f9364d6ab24df103e6921c4408d2fdd75922c5331a7d046eb60a7"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 55665,
+      "sha256": "a7c42cca5dc3490462749cca4dbe5e1202aed0dd9e39570c0ec98dff7f668b5f",
+      "original_sha256": "a7c42cca5dc3490462749cca4dbe5e1202aed0dd9e39570c0ec98dff7f668b5f"
+    },
+    {
+      "file": "consumers/root-subtracted-first-Airy-complete-sources.json.gz",
+      "bytes": 31133,
+      "sha256": "2a387a9d1f478eba4c469ceec2d7b01a8f6ed619f458e465f36067fa280876df",
+      "original_sha256": "2a387a9d1f478eba4c469ceec2d7b01a8f6ed619f458e465f36067fa280876df"
+    },
+    {
+      "file": "consumers/root-subtracted-first-Airy-complete-sources.stdout.log",
+      "bytes": 3591,
+      "sha256": "f3c0b511ae1b6ee6913112553ec912d6886a3b13f59cd1cb2d35379ece39b992",
+      "original_sha256": "f3c0b511ae1b6ee6913112553ec912d6886a3b13f59cd1cb2d35379ece39b992"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 146,
+      "sha256": "e26b3eeb942b31a9bf949bda430a68cc97b01625b2e8f67311e4450c2c880a50",
+      "original_sha256": "e26b3eeb942b31a9bf949bda430a68cc97b01625b2e8f67311e4450c2c880a50"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 5170,
+      "sha256": "fe14fec8d87f1844c5a418b3bb926d87057748770f1f130d1fd5aabeb0631791",
+      "original_sha256": "fe14fec8d87f1844c5a418b3bb926d87057748770f1f130d1fd5aabeb0631791"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

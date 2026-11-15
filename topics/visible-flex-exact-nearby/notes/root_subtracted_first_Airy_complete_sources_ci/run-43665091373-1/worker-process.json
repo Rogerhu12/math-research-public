@@ -1,0 +1,122 @@
+{
+  "kind": "actual_public_root_subtracted_first_Airy_complete_source_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43665091373",
+  "run_attempt": "1",
+  "workflow_commit": "7dc5551415521c93b35eb2923d82161edd8d1a65",
+  "worker_sha256": "0e3fb82daefbc5d58518b79d596452d870683c8d51a6c0d725a8cc2884965430",
+  "manifest_sha256": "bd17d3779659133139003b0a79934c0e7768c4422898ac7163b4705d850c99c6",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T01:53:01.369015+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T01:53:02.274127+00:00",
+      "before": "ea1279cab66e40403163177e72c16c7668556de8",
+      "after": "9b038f13c2267e2a9a76544c640fef71137da1b0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:00:43.915137+00:00",
+      "before": "9b038f13c2267e2a9a76544c640fef71137da1b0",
+      "after": "42d3d34984b7d87adbec23adcad85e197e7ce13e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_same_order_matrix_conversions_recomputed": 0,
+  "original_complete_Airy_profiles_recomputed": 0,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_coefficient_and_amplitude_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "directed",
+      "run_id": "43632464994",
+      "path": "directed/consumers/directed-matrix-old-circle-sources.json.gz",
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b",
+      "bytes": 7873296
+    },
+    {
+      "name": "complete_conversions",
+      "run_id": "43660841558",
+      "path": "complete/consumers/coefficients/complete-same-order-matrix-conversions.json.gz",
+      "sha256": "a2b11b2773ce693f45e6fbbdb50b71236e9feafff520ee396d547efa8c7643ed",
+      "bytes": 1629131
+    },
+    {
+      "name": "complete_case_0",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-1-1000.json.gz",
+      "sha256": "a7a1366aa192f5f96e8282cfbb2eeb4e3399a34708e6e06fd180441f52a63f15",
+      "bytes": 596863
+    },
+    {
+      "name": "complete_case_1",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-1-500.json.gz",
+      "sha256": "6455f21f273beb4261873e2a5387d7dd6daed78a01607e38d9f2d253b81cb22d",
+      "bytes": 1139219
+    },
+    {
+      "name": "complete_case_2",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-1-200.json.gz",
+      "sha256": "810338ef2223f4f7c8f944e47aebe2386eb2ac14ebd0f23c5e79152dd43ba5ea",
+      "bytes": 2609558
+    },
+    {
+      "name": "complete_case_3",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-1-100.json.gz",
+      "sha256": "73461789b07d6ded80a334098c01757f67851da77d901dcfa6785afaa6057e43",
+      "bytes": 3739393
+    },
+    {
+      "name": "complete_case_4",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-3-200.json.gz",
+      "sha256": "589224a5bad147e30409f24764926391b87afc3f1640176f579a5f6dbbc559d6",
+      "bytes": 4599096
+    },
+    {
+      "name": "complete_case_5",
+      "run_id": "43660841558",
+      "path": "complete/consumers/cases/radius-1-50.json.gz",
+      "sha256": "9c09d5265b37b2cacf09bac20d96d85fcfcdbd8b91799f0f12d74300c9052973",
+      "bytes": 5517372
+    }
+  ],
+  "matching_prefixes_requiring_original_artifact": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-complete-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_subtracted_first_Airy_complete_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-complete-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-complete-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-root-subtracted-first-Airy-complete-sources-CI-inputs.json",
+    "--manifest-sha",
+    "bd17d3779659133139003b0a79934c0e7768c4422898ac7163b4705d850c99c6",
+    "--out-dir",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-complete-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-root-subtracted-first-Airy-complete-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 44,
+  "actual_scientific_checkout_commit": "9b038f13c2267e2a9a76544c640fef71137da1b0",
+  "mathematical_wall_seconds": 458.984330042
+}
