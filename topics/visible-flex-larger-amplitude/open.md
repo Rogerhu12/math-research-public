@@ -74,7 +74,9 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R285完整有限selector证明](results/R285-original-finite-selector-closed-cover.md)和65a29ec6源已付：真实original first-match/开闭端点/48层比较树完整覆盖，原源码flat分支可整片付，保未决栈及后缀，不假设单调或准确逆。原有限比较延拓取有限值，非恒定时不连续；因此该结果不能充当原连续g或a601证书，没有实际E/run。
 
-R286继续识别原stored profile的真实连续表达、浅冻结系数/全局warp、deep准确根规则与有限计算之间的具体缺口，并接直接连续E区间或误差桥。若旧ready未唯一决定实常数/深根规则，须明确模型补充，不能改称原accepted场或偷用R26另一个65/64无限对象。有限求积返回a与独立ap/app未自动一致，G8/G16差也不是已证误差。
+[R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)已直接登记。明确约定C保原binary冻结输入、浅160校准系数和全局lambda，将原派生关系解释为实函数，并保原准确深校准根类别；旧ready未独自固定全部实语义/唯一根规则，须明示该模型补充。六共同primitive按唯一真实累计原点形成R；正warp D=b+c|w_s|使真正径向导数q/D在cusp处有连续一阶导数，给w有限头C²及原深根族的E全域C²平圆领极限。内保护端cap/flat原两jet兼容和外cut相邻场两jet仍须实际支付。
+
+R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；当前尚无实际执行/数值E输出。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。geometry继续最薄独立连续E producer；不把当前有限场或R26另一65/64无限背景重标为已认证原g。
 
 最终须有连通闭C²嵌入、强C²全t族、完整g相对metric算子≤1e−6及上述全部几何指标；明确实际数值与严格存在之间的缺口，然后继续加强比例。
 

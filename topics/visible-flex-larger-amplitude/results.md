@@ -44,3 +44,5 @@
 - [R288：actual113完整128策略相关下降与原64十档仍拒](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)：两策略各完整base/alpha1；原stop全步降、refined未降，半步因7200秒partial；原64完整十档全拒iteration0，native/finalJ/audit未付，匹配128方向与持久状态继续。
 
 - [R289：actual118八个真实32查询模型、FD与MID483障碍](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)：51试探/8接受/43域拒绝，原新增MID471在最近拒绝均正而后四批受未选MID483限制，末alpha1/256；全部native/fullDN/success仍false，原末场已清理，下一33查询须由可恢复真父重算。
+
+- [R286：原冻结数据的连续实积分提升、cusp消去与同场metric误差桥](results/R286-original-stored-continuous-integral-and-metric-bridge.md)（已证明，明确模型约定下）：原六primitive/正warp给有限头C² metric，保准确深根族与平圆领极限、自然Rout及内保护端责任；直接连续E区间生产与原有限输出误差桥可接完整材料pullback。无实际E/同场metric/接缝证书，不沿用R26另一无限模型。

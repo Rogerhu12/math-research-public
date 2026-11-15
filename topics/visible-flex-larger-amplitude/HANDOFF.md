@@ -4,13 +4,13 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:47:16 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 7c9190eb20527983319520b6e73d14b65cde715e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7c9190eb20527983319520b6e73d14b65cde715e。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 09:49:31 UTC root终端已恢复，真实 git pull --rebase origin main 后读main b6656a82a5e4d486b3f7081814941b6a0d87f8ee；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b6656a82a5e4d486b3f7081814941b6a0d87f8ee。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
-只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
+只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git；PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
-每条结论立即发布。终端已恢复，root每push前且至少每小时真实pull --rebase，核双README blob，仅读变更diff；NFF立即pull/rebase重推循环，禁force/历史改写。08:55–09:31环境unavailable时按根第8条GitHub小文本/新main父/expected_sha非force接续，集成读取不冒pull。Actions原2700秒规则runner保持；126原回执09:28:34实际读b80ec2ad、09:28:35推9ea61eb1，双README未变。
+root唯一Git及工作流发布者；每条结论立即push，每push前且至少每小时真实pull --rebase并核双README，有变只读diff即照做；NFF立即rebase重推循环，禁force。root部分克隆/tmp/visible-larger-root-git-126；代理独立/tmp源码，checkout只读。08:55–09:31终端故障曾按根第8条用小文本集成/expected_sha非force接续，不冒pull；已恢复。Actions原2700秒真实规则pull保持。
 
-root唯一Git/pull/push/ref/H/open/log/workflow发布者；代理独立/tmp源码稿，root克隆只读。09:31重建部分克隆/tmp/visible-larger-root-git-126并真实pull至e4324188720be9ff6a142072a079faa5b00294ce，双README未变；未推旧稿按已冻blob/公开配方接回。根第15条禁可重算raw/证书/Actions输出入Git/Release/artifact，仅源/参数/run/SHA/紧凑结论；题≤200MB、H<10000B、MD<100KB。证明直接results，不增审批/fixture门；不写根LOG。
+根第15条禁可重算raw/证书/Actions输出入Git/Release/artifact，仅源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB；证明直接results，不加独立审批/fixture门，不写根LOG。删失现场必须公开配方重做，不由SHA伪恢复。
 
 ## 真正目标
 
@@ -52,7 +52,7 @@ R277–R283已登记，109/111有理例非实际场。[全jet/mixed](notes/2026-
 
 [曲率/D](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)b1c2dfb9保同tau/K/完整active两帽/marker Hessian，漏叶D空，seam未付故fullcurvature=false。[metric](notes/2026-11-15-same-shared-field-relative-metric-interface.md)a601e5b5保完整shared-B/Gram/四Loewner、帽原target0；stored连续E缺失，外部E仅条件，不换B′/采样/R26另定义背景，新6/9需真实适配。
 
-[R285完整证明/接口](results/R285-original-finite-selector-closed-cover.md)与source65a29ec6已发：原48层selector按真实阈值、first-match及开闭端点完整DFS覆盖，原flat源码分支可整片付，保所有未决栈/后缀，不假设单调/精确逆。有限实比较延拓为有限阶梯值域，非恒定则非连续；不冒目标g、a601仍未付，无实际E/run。geometry继续原连续profile定义与直接E区间/误差桥（R286）。
+[R285](results/R285-original-finite-selector-closed-cover.md)/source65a29ec6已证原48层first-match/开闭比较完整覆盖；有限非恒定阶梯不连续，不冒目标g。[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)已证明明确实约定C下原六primitive/正warp的连续目标与误差桥：q/D在q=0消去cusp，准确深根族保持，E及前两阶趋平圆领；内保护端cap/flat兼容须实际付。冻结lambda的自然Rout不重归一为binarycut，真实累计不重置。原有限selector/当前F不改身份；根规则或根族、完整E包围/同场pullback/接缝及a601仍未执行。geometry接独立完整连续E区间producer，不借R26另一背景证书。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真fullDN及自身final audited tail/config/port，保完整physical/material/z0/mean→R249/sharedB/两帽。R274/R258 e372待同场非零见证；held独立reach但须整个像/两帽/完整D。same-g全p/g/t冻结，699→1397+knots须prepare/fullDN两处max_nodes>1200；有限phi非连续theta，数值非严格存在。
 

@@ -271,3 +271,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R289 actual118八个真实模型结清
 
 [R289](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)全文和原51试探/8新FD/域责任已读：八接受、末alpha1/256，physical .007107083459932941，全部最终科学门仍false。MID471最近拒绝均正，后四次最近拒绝落未选MID483；下一明确33查询补该实际点，不抹去MID472/LEFT463等其他责任。所有8摘要按JSON+LF核字节身份，原log382986B/1c81a9c6，16子进程均exit0；原raw清理完毕，不从末SHA伪续。来源/原查询/模型/后验界全在正文，发布即继续公开Actions与其他未付问题。
+
+### 2026-11-15 R286原连续metric完整证明
+
+[R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)全文已读并直接登记：明确C模型语义、全部六primitive共同累计、正warp的q/D cusp消去、原准确深根族及E二阶平圆领极限；保内保护端实际兼容、冻结lambda自然Rout和完整材料pullback。给闭panel积分/深尾/真逆像以及原有限输出的实际误差桥，不假定48有限selector连续或G8/G16差有误差保证。未本地运行任何科学，无实际E区间、闭场或阈值证书；直接接独立连续E producer，不增加fixture/审批门。
