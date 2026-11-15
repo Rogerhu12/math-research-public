@@ -133,3 +133,6 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **R830（已证明）**：[原惰性角字符Hecke lift与tame filtration](results/R830-original-inert-angular-Hecke-lift-and-tame-filtration.md)。选定Teich place后χ_p=ω^(1−p)精确阶p+1，εχ_pw⁵给原一次原函数的权六lift，导子3p/6p、level36p²/144p²、原old1/d及p整约分准确。其tame表达θ⁵C权6p；C权p−5首系数单位、负权−4除Hasse不可能，某SS值及五个单位输入权迫filtration恰6p。Igusa权同余＋qexp排全部较低tame权；保原q_*/12^5。非零SS点不定位j0，不替六项CM和或原h；无新计算。SHA 344a1cadefc3f13f1e2153f74a0807832dede37fc9c7d2a57aed44650b591ea8。
+
+
+**R831（已证明）**：[原EO完整Weil交换代数](results/R831-original-EO-Weil-commutant-and-old-irreducibility.md)。CRT二/三部分给old6的六个不同T特征值及S非零图连通，new2同理；两块绝对不可约且不等价，故End_Weil(EO)=span(I,P2)，char0及所有p>3成立。任意原36维Weil交换子的EO压缩亦在old上标量，进一步排抽象交换子降维FG/HJ；未称整个36维代数已分类，未给CM值非零或删primitive/Legendre。显式矩阵纸证，无新数值，SHA 806220f457f236a21fa702b78b1ad4e0cf5f97aa0751c2f9e89e5e805374f679。
