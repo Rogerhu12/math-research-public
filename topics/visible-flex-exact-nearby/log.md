@@ -397,3 +397,9 @@ root全文两report/全13门/六表/实际child/3parts核，NR全wide nested、M
 root 已逐行核 ER SCI553行、与M worker的完整diff、23pin/711159B（sharedM14件逐字不改）、20科学门和flow。部署 SCI5e1e33549c1495f5d65a68ce3755367eb4ddbd232ffd0b5e5b6923514980b652、worker973218a14850d57b89b23bee987855111a603d6af1bd0aac8853d4ce96128a36、manifest6b47f4a62c9d2cdcb6ed7b539c89816d142bc998c140e40002c205fe24cc0df6；newton 独核三核心函数与worker接线。canonical b0=T²b2、SE3/256的Ximage新域门、E完整三角jet、M七非E整界正向相加后只更新raw1，基线SV43722805762其余30原球保持。新科学尚待public Actions，不宣称actual成功，不执行旧M mixed/fold。
 
 14:17 WC发布两次非FF都立即尝试CLI git pull --rebase，均报无执行环境；保远端重建第三次成功a012a27a。14:22:21再次定时真CLI同报无环境。runner亲读SV/WC/Green末真pull与两README空diff已记H/open；当前只读核1ca4196b99b61428bc4ab216bbc713ba2e77023e，两README未变。H旧细账完整archive a012a27a2280e77e401fe089221e4190f5c58768；未付义务、失败、恢复和成功禁止重算均保留。
+
+### 2026-11-15 14:24:59 UTC — S1 保存真实第一列的三项完整源合同
+
+新合同13534B/SHA4bd29959ada95b269ef5240439b3c6fc284e0e870265e5edea3e0d1a1fda8e96。root全文回读原C/G，修正正泛函引用为C.2/C.5（C.18是dr权），并亲读DG reader确认exact_output_old_phi_width=0、joint_sum_of_radial_coefficient_suprema、complete_joint_Wiener_upper，b1原字RV。Γ1=M1=A(w1V)只需六saved angular jets；完整SV/V0mean/uJB三项保outer J/independent mean，不多除388或重复inner word。tail独核类型。新数值待public consumer，既成ER若用作baseline须其余30原字SV。
+
+H/open历史AJ/RV/DG/M细账压缩到immutable acfd93f713c8c678a9d2d1f9c3b32b6f70efaadd同路径；所有原域、失败、恢复和未付义务仍有效，不授权重算成功数学。当前两README核ed3fdc19787e4143685228bb1fb676f96ccf7390未变。
