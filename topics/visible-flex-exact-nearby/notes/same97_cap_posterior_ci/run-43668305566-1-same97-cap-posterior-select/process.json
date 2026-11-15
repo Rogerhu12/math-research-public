@@ -1,0 +1,153 @@
+{
+  "kind": "actual_public_same97_cap_posterior_and_Poisson_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43668305566",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "2f751cb3987ca7ba8facc1c532f734209912e42a",
+  "worker_source_sha256": "a52bb62b3ee9f882b9e1d78f0f9b5a3b25b395e2cf941fe367aa08311ce5fbd9",
+  "started_utc": "2026-11-15T02:33:49.168239+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T02:33:50.054471+00:00",
+      "before": "f4373f5031c5cdfe2d199515243a829f4d1c78cd",
+      "after": "f4373f5031c5cdfe2d199515243a829f4d1c78cd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:34:08.319527+00:00",
+      "before": "f4373f5031c5cdfe2d199515243a829f4d1c78cd",
+      "after": "f31ce162ce6dc4cf99b625ce8cc2e1c142251d0b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:34:11.254422+00:00",
+      "before": "f31ce162ce6dc4cf99b625ce8cc2e1c142251d0b",
+      "after": "67a69821c2767a274e43a6d942ab8395b606cb94",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:34:14.158409+00:00",
+      "before": "67a69821c2767a274e43a6d942ab8395b606cb94",
+      "after": "ac2497f9f7ecd6c6b06a3bae832950bfbbb99267",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "select",
+  "complete_matrix_run": "None",
+  "complete_matrix_attempt": "None",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "new_array_storage": "original public Actions artifacts only",
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "original_targets_trials7908cells5970propagators_and_Grams_recomputed": 0,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "complete_true_right_Poisson_contraction_proved": false,
+  "original_successful_math_reused_despite_publication_failure": true,
+  "original_inputs_are_selected_exact_artifact_members_not_new_mathematics": true,
+  "input_manifest_sha256": "7473f7866cc7676124f0f95ce047b6316ec5a4156bed8452f3cbd1bfb257ae95",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "ac2497f9f7ecd6c6b06a3bae832950bfbbb99267",
+  "immutable_scientific_copy": "/__w/_temp/same97-actual-selection-work/science",
+  "verified_actual_original_selection": {
+    "selected_actual_complete_mathematics": {
+      "boundary": {
+        "run": 43666716585,
+        "attempt": 1,
+        "artifact": "visible-exact-cap-adjoint-boundary-high-Grams-43666716585-1",
+        "actual_native_sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92",
+        "actual_artifact_process_sha256": "2c52a359e83aefe2259f48850859f90b307543028017ca0e85046f37efa86bf2",
+        "original_workflow_conclusion": "success",
+        "original_process_complete": true,
+        "original_mathematical_gates": 10,
+        "receipt_gates": [
+          {
+            "name": "actual_complete_boundary_mathematics_and_artifact_receipt",
+            "passed": true
+          }
+        ],
+        "exact_mathematical_complete": true,
+        "original_worker_source_sha256": "ab34ab0edfeb69901b46b468255d9d74780a63742ade1bceec459ac226fb5cfe",
+        "original_input_manifest_sha256": "b753b78658c11326aadb0b70fab2be440c690b1f3ac78fabcac42ca799612465"
+      }
+    },
+    "rejected_original_artifact_receipts": [
+      {
+        "role": "poisson",
+        "run": 43660061501,
+        "attempt": 1,
+        "receipt": "not-selected-poisson-43660061501-1.json"
+      }
+    ],
+    "cap_ready": false,
+    "Poisson_ready": false,
+    "workflow_conclusion_not_a_mathematical_gate": true,
+    "exact_original_child_or_success_reuse_native_and_all_gates_required": true,
+    "only_original_receipts_consumed_no_mathematical_recalculation": true
+  },
+  "no_mathematical_child_or_new_scientific_result": true,
+  "finished_utc": "2026-11-15T02:34:06.883166+00:00",
+  "snapshot_utc": "2026-11-15T02:34:08.353913+00:00",
+  "wall_seconds": 19.186257246000025,
+  "native_files": [
+    {
+      "logical_file": "evidence/not-selected-poisson-43660061501-1.json",
+      "file": "evidence/not-selected-poisson-43660061501-1.json",
+      "bytes": 359,
+      "sha256": "b4ad70b38de187ba9af6201995621848f6b5550db355a5131da368405077e550"
+    },
+    {
+      "logical_file": "evidence/original-boundary-actual-artifact-process.json",
+      "file": "evidence/original-boundary-actual-artifact-process.json",
+      "bytes": 20256,
+      "sha256": "2c52a359e83aefe2259f48850859f90b307543028017ca0e85046f37efa86bf2"
+    },
+    {
+      "logical_file": "evidence/original-boundary-selected-input-receipt.json",
+      "file": "evidence/original-boundary-selected-input-receipt.json",
+      "bytes": 1531,
+      "sha256": "731225f3b882baa03b788f8de6e74dab7c8d405370c6733117f7790ae71affae"
+    },
+    {
+      "logical_file": "evidence/verified-actual-original-selection.json",
+      "file": "evidence/verified-actual-original-selection.json",
+      "bytes": 1400,
+      "sha256": "6f39652ce84b8c7158d73385e088d615e5b0310f6e079fced202ce3c712442ce"
+    }
+  ]
+}
