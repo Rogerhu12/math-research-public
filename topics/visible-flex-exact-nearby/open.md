@@ -140,10 +140,10 @@ P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根�
 仅新一次小域/connection/L1预算、1比率/3组合。diag43707945899证首43705772615首次sync超时、child0；
 恢复43707514815已结束1child，后出版rebase触发未公开HEAD树404，数学exit/gates未知、temp失。
 按用户要求重做未推结果，仅恢复这段新消费者；原SCI/17pins及全部旧成功锁定。
-恢复worker7f7b9126/flow7a5df407仅改容量元数据与旧失败诊断：exact-HEAD API树
-严格核完整topic bytes及出版两小文件增量；原SCI/17pins冻结。
-先临时读旧job完整log并核bytes/SHA、真实首次sync的ls-tree超时stack及旧worker源码；
-仅证旧科学child未启动才启动原SCI，证据不足则只出版小失败诊断。旧failed run仍保留。
+修复workera68f2d69/flowbda661b7已按真诊断保首child0、次child1且exit/gates未知；
+仅重做未持久化的新P。API只审计公开origin/main，精确核本run两owned HEAD小blob增量，
+从不请求未发布树。科学后先stdout完整≤59000B小结/13门/identity防出版丢失；
+原SCI/17pins及旧成功S/C/D不重算，两原failed run均保留。
 其余30项及全部mean保持；本次旧成功比较也锁定不重算。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
