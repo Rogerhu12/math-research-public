@@ -166,3 +166,5 @@
 - [R320：真实146完整两法向响应与有限参数词分辨率](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)：全8方向15trial、84实探、五次20档拒和完整原最终门；全部finalfalse，后继一致高精度。
 
 - [R325：完整literal field固定根轨迹的区间包含性](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)：逐步整数向外、113root/225Gram/226态/224shape与可选六几何列；正定、严格逆界、primal误差和方向solve齐备的条件构造，不预付实际证书或全RK/native。
+
+- [R326：新连续目标的公共坐标闭包围与同场度量转移](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)：全部可能piece/控制支撑联合、L_true²与完整材料角合同变换；同一准确场的参考误差转移上界η+δ+ηδ。仅包含性与转移定理，未给实际目标差或最终场证书。

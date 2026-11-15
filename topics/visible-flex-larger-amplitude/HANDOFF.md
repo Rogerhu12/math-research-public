@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-15 13:13:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3b2df31a555b9466911c9b0b3e9b45c7df576c41。
 
-集成复核：2026-11-15 13:22:29 UTC API读取main 9b551fbd69b074ee81760876ad850e3399893bcc，双README21bd/bff未变；不是git pull。R325三源与完整接口读完即发，实际150接线继续，未预付数值证书。
+集成复核：2026-11-15 13:27:17 UTC API读取main 178c805a5bb8c95365eac2363de1a166e8d79532，双README21bd/bff未变；不是git pull。R326公共u目标/同场转移证明完成即推；144完整R322待发表，140终态R321读回中。
 
 只在公开Rogerhu12/math-research-public。科学计算/科学模块导入/数值测试只用本库Actions；root只源码/证明/原输出JSON重建/语法/hash/Git。PAT只CLI瞬时环境，不入文件/提交/回复/连接参数。root唯一发布者；各agent仅小文本blob交接。
 
@@ -24,7 +24,7 @@
 
 |请求|run / compute job|source与范围|
 |---|---|---|
-|140|43713195661 / 132809057379|242c1f0251c57f56f19e67b88b2e4dc4d5cac614；12:18:51起，绝对19200s内重生64→128/全576×224/112boundary/混合338/独立audit同现场，仍running|
+|140|43713195661 / 132809057379|242c1f0251c57f56f19e67b88b2e4dc4d5cac614；12:18:51起，绝对19200s内重生64→128/全576×224/112boundary/混合338/独立audit同现场，compute/report132824948760 success；stage/audit编译未过，R321完整读回中|
 |141|43712613111 / 132807257922|a7ce55798404fec8fb3638c0fbf083250c5363b2；12:11:58起，真实98新生完整35点/71680行/22capture/26端点/8791local，8批/10500s批间，仍running|
 |144|43715729122 / 132816731637|ad4a4345dbdaf477b84fe5c6158d308af2dadb27；12:48:39起，同f12f/256bit/1800s/全1440六primitive，binarycut点先whole后，全点叶三jet读取；两job success，report132824742430，R322完整读回中|
 |145|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；12:56:24起，115pins/source/AST/hook/6输入/78恢复success，实际原warm+当前R273运行|
@@ -35,7 +35,7 @@
 
 ## 当前责任与分工
 
-**root / 新g147。** [147完整入口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)四件全文完成即发：原144全部11pins/三输入/1440六primitive/point+whole/256bit1800s不变，新19pins另恢复原M96 accepted准确core。取R320真末九p全保，按[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)有限strict盒公式κ=1/2/d/e/e→原v3 factory两完整域各300s→原numeric明确近似；不借旧域/场/J。helper738dd352/request4b6f78bb/wff539e752，job95min/新构造20min，两个原2700s rules runner、完整三摘要/所有width与seam分段、primary中断always取现有元数据后ownedcleanup。[v3数学身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)的真实E语义叶/九shape/公共u L_true²保；新C tail/J/BVP仍未付。实际run43717814570/compute132823027880，source3b2df31a555b9466911c9b0b3e9b45c7df576c41，原E阶段running。
+**root / 新g147。** [147完整入口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)run43717814570/compute132823027880/source3b2df31a555b9466911c9b0b3e9b45c7df576c41原E阶段running。原144十一pins/1440六primitive/点+whole/256bit1800s保；真M96 core、R320末九p→R323有限盒κ1/2/d/e/e→v3两全域各300s→明确数值近似。十九pins、95minjob/20min构造、双原规则runner、完整中断分段读回及cleanup见入口。新[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)付全部可能piece/支撑的公共u准确目标包围、L_true²及完整材料角合同变换；同场参考误差须加真实目标差δ，未付数值。root接目标消费者/151，不冒旧450或新C port/J/BVP。
 
 **geometry / 144与148。** [R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)全112准确根族深尾/截尾误差、mode2零已证；[143 R318](results/R318-actual143-complete112-deep-far-enclosure.md)F159/256bit全112实际包围完成，494612B/d68c5547全行Actions读回、7988B/aebde69b摘要后清。[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)现在付同C j=w·k通量方程、准确二幂尺度、原primitive径向包含、Taylor+Duhamel整闭管、全部cut逆像同归一hull。148源正在实现，144结果用R322。逐h不含0方准DN，不重标e788、无有限头/非线性成功预付。
 
@@ -49,7 +49,7 @@
 
 [124 R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)/[128 R319](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)：zero收敛，分别13/6正s各10trial全首段D/S/A拒，withJ基点已返；下call未返遇规则77，不补数学拒绝/预算耗尽。两初点六/九p不同，relative含1e−250分母不能唯一归因warm。145保124六pλ.001而改本次全系统候选。
 
-[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)/[142 R316](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)完整32批和单批读回，均直接救回0/finalfalse；real/complex实部不同不证弱方向形成精度。146已延续真142末点，不冒同初点因果对照。
+[138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)/[142 R316](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)完整原结果均directrescue0/finalfalse；146从真142末点另起，非同初点因果对照。
 
 [139 R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)全1440/六primitive/whole自然域完成且Rout−binarycut>0；2900合法粗片/1integral pending，domaintrue/resolutionfalse不冒metric1e−6。原结构R294准确C²结构及clip障碍R298/同g atlas责任详open；不得由条件障碍假填实际前提。
 

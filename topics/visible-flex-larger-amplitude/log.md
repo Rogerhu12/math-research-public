@@ -520,3 +520,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R325完整field区间消费者源码
 
 [完整接口](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)及三独立运行源全文核后即发：tape13437B/2aa2ad67、strict40570B/659ecdc0、launcher18294B/cd73cb04；原packet/同job实际owner绑定、225Gram/113root/226态/230列、严格域/SPD/逆界和完整未决保。无本地编译/科学/数值证书；150原fresh91→64/R273→128后清理前消费，完整原结果分段读回接线继续，原140/145不改。API核双README非pull。
+
+## 2026-11-15 /root — R326公共u准确目标与同场算子误差
+
+[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)11814B/f6e26927885fa52283808fc486a81aac5b04c01f4e8a546b3fc88f779fe8b6c4完成即推：保L_true²、全可能piece/真实支撑/全九/闭端点及完整材料角，证明目标闭包围与同场η+δ+ηδ转移；无数值证书，不加参考比较前置门。147真实运行；144 R322全文待读，140绿但stage/audit编译失败转R321完整读回。API核双README非pull。
