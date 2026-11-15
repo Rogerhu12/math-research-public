@@ -81,6 +81,8 @@ g1默认读DG完整signed-disk三jets；root亲读其producer及anchored_coeffic
 
 这些actual inner/mean/phase行仍须与负body、waist、两Γ、ν、flux及完整97/mean Schur同单位联立。真实HY、high inverse、完整core存在及γ低高域未同时闭合；局部帽图不授增广全逆。
 
+[CP完整加权实际帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2已解析独核，仍待新数值。D0y=V TQ K*−H0K0不删旧Hessian；old14/actual18均来自原Hilbert component核。RW1/2旧Wiener K先以原正预算q_alg和Dtilde恢复分别统一B/C包络，再加完整Cmean max；不能将逐mode pair界直接授Hilbert，也不借旧Wienerχ过新门。原weighted positive source反向支配只用于同一算法正加数，global EA来自A5；fullmean/affine/两outer与wR下端除数齐。CP26给完整inner(B,Cmean)差κ∂，供CS/F真97全部输入；不称wholebody差，旧1/5不改。两γ域各新finite三strict待actual，实际cap域/affine/非线性/独立height/腰/high仍未付。
+
 ## 5. 新94链、真实B collar和实际body种子
 
 [P同对象94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)、[G真实B种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)、[F固定输入body Nash](results/R119-supplement-actual-cap-fixed-input-budget-and-body-Nash-entry.md)、[RG粗γ种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)已给同真X/H值图及首q transition高度jets/Hermite lift。全部awB/κmean/globalλ/三径ordinary源/broken第三第五jet、四态B迹、94步和精确指数逐字保00dfdc3c4b4fa92ca88705b490ac4b01f01a3686本路径本节；不删未付义务、不重成功数学。
