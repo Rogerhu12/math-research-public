@@ -65,7 +65,9 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 **[R177](results/R177-explicit-all-layer-positive-point-after-nine-original-relations.md)给出尊重九条原式关系的新全层正点**：静态=(1+k²)²/4，二次为(k′)²+(1+k²)v²+k²(k′−2kv)²/4乘h^-2，完整最高M=diag(1/16,11/48)配纯h正平方；全action≥∫h^-2/4。原23 y与十四族、同μ/c/d完整列出。[指定点实际](notes/character-minus2-raw-positive-candidate-actual-20261115.md)43672582314/source14f33da3已完整：86行全部满足且零恰64..85，107/14/九式/同μ与R177准确匹配，0.009609s/RSS25.207；证书12864/b7b7cf0f保全。无LP/原式/路径重算，该点任何完整标量路径门都已由全正证支付。旧B+九式覆盖全部已发表70真式；唯一真实性缺口是这些是否穷尽真实函数核，不误读旧报告字段成剩余61未付。tail消费新共享word，lit并行找直接真实泛函定义。
 
-[共享颜色关系消费者](notes/character-head-fixed-color-word-relations-design-20261115.md)已完成并公开single character_head_word_relations派发：ec2022d8/8fd67984、六输入、240s/1024MiB，最终公开toy9实际待回执。每条新关系完整存原77/147/23与两根转换和；首条切R177后保存cursor，下一明确--finish-all-77继续未成部分。完整/紧凑续算保同原输入、同点与同源，最新进度是否确实保存单列。开发分版见[原记录](notes/character-head-word-relations-development-history-20261115.md)，不把早期局部回执冒作最终源运行。
+[共享颜色关系消费者](notes/character-head-fixed-color-word-relations-design-20261115.md)已完成并公开single character_head_word_relations派发：ec2022d8/8fd67984、六输入、240s/1024MiB，最终公开toy9实际待回执。每条新关系完整存原77/147/23与两根转换和；首条切R177后保存cursor，下一明确--finish-all-77继续未成部分。完整/紧凑续算保同原输入、同点与同源，最新进度是否确实保存单列。开发分版见[原记录](notes/character-head-word-relations-development-history-20261115.md)，不把早期局部回执冒作最终源运行。 首次actual43674559905/sourceb2c4e202的toy9已过；actual在绑定旧FINITE export缺身份三字段而失败（main/receipt有且已核，0.355s/0预算检查），只修此schema兼容，不重旧toy9或数学。
+
+[条件性几何解释](notes/R177-conditional-true-character-and-geometric-scope-20261115.md)已把后续两种结果分清：完整核通过才有全U真实λ，进而同germ/frameI/M0完整V严格正；若只部分表则不成立。fixed profile还须λ消灭代入核，faithful只给存在特选圆。特殊圆及只要求其通道低阶值零、而非全M/T算子零的机制继续独立研究。
 
 [R176](results/R176-nine-literal-relation-cuts-and-exact-negative-power-path.md)已记录43671759155的完整86行准确外点与反例：M的det−9/16，真实k=K/h给有限K负最高action，p−1行值−81/4。该点结案，不继续单行LP迭代；root转明确12参数全正点（staticα=β1/4、最高M=diag(1/16,11/48)、低层显式平方），lit只核其86/全14族与同一μ，随后原函数良定义性仍是缺口。
 

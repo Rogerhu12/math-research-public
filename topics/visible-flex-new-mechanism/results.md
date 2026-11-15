@@ -395,3 +395,5 @@
 - [九真式后指定全正外点的准确实际核对](notes/character-minus2-raw-positive-candidate-actual-20261115.md) — actual43672582314/source14f33da3，86行全过（64严格正、零64..85），九式全零，107原坐标/十四族/同μcd/M准确全匹配R177。0.009609s/RSS25.207、cert12864/b7b7cf0f；八新人工通过，无LP/路径/原式重算。完整全路径严格下界适用，旧B+九式覆盖已发70关系；仍欠完整真实函数核，历史字段名已在说明澄清，原结果不改不重跑。
 
 - [R179：规范固定颜色words的普适原函数独立性](results/R179-universal-independence-of-fixed-color-remainder-words.md) — 任意小自由区间的余letter积分值张成全有限坐标；Euler最高颜色/2m jet系数逐级证明无非零零变分余密度。L个不交右侧packet开关提取最大词长，准确右锚符号(−1)^L与独立query jets迫所有局部系数零；固定collar、全ξ及真实q/qbar复化齐备。完成的规范两根表由R159给完整真函数核，旧pure只需原转换和语法即可复用、不重40。R177降为真实泛函iff杀完整核，仍待新实际；有符号查询不授实际负成本或相位控制。
+
+- [R177若通过全核时的真实字符与排除范围](notes/R177-conditional-true-character-and-geometric-scope-20261115.md) — 明确仅在77完整规范表与全部核赋值通过后，R163把单权赋值延拓为全U真实仿射字符，保八矩cocycle/同μ与原环境乘子修正。R109对同germ/frameI/M0真实路径给完整λV≥∫h^-2/4>0（允许T非零），不靠P1/大N近似。仅排universal或λ杀代入核的固定圆；R105/R96给存在faithful特选圆，非任意圆。条件未支付，未增加无条件存在/不可能性结论。
