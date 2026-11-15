@@ -471,3 +471,7 @@
 ## R150：剩余正常目标商的完整原来源presentation（2026-11-15）
 
 [完整证明](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)逐原来源把54单normal g组、3纯g组和63真H单位剥离，留下6012=5100高normal+864单normal差源+48纯差源、56个原core尾及13真零输出。全部输出变换保持W，清unit尾逐点固定W；因此T≅coker[B,H kerGᵀ]且rank34核不可丢。倒Ω后以实际right inverse给56列H(I−JGᵀ)等价presentation。此为完整来源运输定理，未数值构造W尾、未报高块单位或九目标成员。
+
+## R150：全56原行的外投影除子恰120，余乘子21与来源8411/8535（2026-11-15）
+
+[完整原来源证明](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)在71.12834121秒复用21paid主元、核2870方块坐标/两次42原RHS行，完成全部56个Mx=fE与E−My；全部Bockstein为零，故精确Ω=f60²。各不可约支撑恰一个指数2，原投影coker≅S13⊕S/(f²)。结合实际J1/Δaff≤299，得278≤degΔaff≤299、μ=Rout/Ω≤21、九μh*tj全局Q成员/总乘子≤44，三支费用8406/8411/192。monic Ω31整后保原D*不缩放，全部精度既有解统一费max(8535,τ+1)。μ1、原九h*自身成员及全正常商仍开；完整原6012零投影源和34核方向继续。
