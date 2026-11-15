@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - [七原方向可恢复求解](notes/2026-11-15-r150-seven-sparse-dixon-original-interface-789f.md)：原密集592秒未返；已消1567，余2751/424921项/3691bit、单SCC、行内容/RHS分母全1。系统FLINT3.4.0已真编译（Python仍3.6.0）。已排seven-sparse-dixon-original：600s/2GiB、编译30s，逐整digit两槽保存Z/N/p^k、重建前保存；先逆列缩放，再1567DAG每64步保存，最后原冻结4367消费者。out={work}/seven-sparse-dixon-original，全部大数据仅job临时；只全原验证才计新核。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
+- 已排original-transverse-first-connection：同原17式/s0与∞，先核全部切向jet，再做170×135的P0/P1、完整42×7连接及170行校正；30s/512MiB，只求full β的准确上界，不预填rank。小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
 
 ## 其余仍开
 
