@@ -1,0 +1,22 @@
+{
+  "scope": "source generation and AST only; no scientific module import or execution",
+  "bases": {
+    "exact_20261114_live_current576_damped_system.py": "9346c0a7e7c7f562d20b02126b82c8819c687a7575aea38258e9796cabb8db4a",
+    "exact_20261114_live_current576_damped_chain_qr.py": "ee174e8283f3b5454a8b3dbe751dbd4f41f4f0dba1bd9d240b627bd2748f889f"
+  },
+  "single_request_identity_helper_source_sha256": "48297483617c56179fdd4d6b80e9aeeb1151bf89c90fd816ca41d2e3ccc0bcb3",
+  "files": {
+    "exact_20261114_noj_primal_live_current576_damped_system.py": {
+      "bytes": 33197,
+      "sha256": "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3",
+      "AST_passed": true
+    },
+    "exact_20261114_noj_primal_live_current576_damped_chain_qr.py": {
+      "bytes": 22328,
+      "sha256": "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909",
+      "AST_passed": true
+    }
+  },
+  "scientific_imports_executed": false,
+  "RHS_J_ODE_QR_norm_action_Fraction_executions": 0
+}

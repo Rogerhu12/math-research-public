@@ -1,0 +1,33 @@
+{
+  "schema": "noj-primal-live-static-common-algorithm-check-v1",
+  "checks": {
+    "actual_response_binding_AST_identical_to_frozen_live_driver": true,
+    "response_check_AST_identical_to_frozen_live_driver": true,
+    "full_argv_AST_identical_to_frozen_live_driver": true,
+    "solve_AST_identical_to_frozen_live_driver": true,
+    "load_AST_identical_to_frozen_live_driver": true,
+    "fresh_bootstrap_method_AST_identical_to_frozen_live_client": true,
+    "literal_row_bit_encoder_AST_identical": true,
+    "new_flow_installation_text_identical_to_frozen73_except_schema": true
+  },
+  "source_receipts": [
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client.py",
+      "bytes": 29877,
+      "sha256": "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client_hook.mjs",
+      "bytes": 51076,
+      "sha256": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_full_dn.py",
+      "bytes": 32522,
+      "sha256": "bb8ad207c5b85fb10e0a5ee83b36eed4317c757646055eaec58b2bc3c8945c14"
+    }
+  ],
+  "source_only": true,
+  "numerical_imports": false,
+  "scientific_execution": false
+}

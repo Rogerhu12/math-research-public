@@ -36,7 +36,7 @@
 
 [72完整字节附记](notes/2026-11-15-actual72-completed-byte-reader-addendum.md)由reader43658612002实际小原件对应：199domain/1284NPY、108condensed/38完整阵、14raw415120992B、65源及13+13observer；45056行、7101实际列、zero-layout空。五原报告副本、四公开报告和warm逐字对应；完整chainQR原未导出，不冒全因子审计，不重下605MB、不新增后继接受门。
 
-74唯一请求d3bc7e4a与共享workflow40ca08e5已按[23-query完整接口](notes/2026-11-14-twenty-three-query-condensed-interface.md)发布：只补实际nearest MID484，47104行/7101实际列/zero空，原15LEFT+7MID保留。四新源755d9bf2/1fe5b698/1eb07544/06ed3a98和47pins核同，11shell/6inlineAST通过；完整C4059/outside、lambda270/512/200/17trial及原FD保持，等待真实run回执。
+74唯一请求d3bc7e4a与共享workflow40ca08e5已按[23-query完整接口](notes/2026-11-14-twenty-three-query-condensed-interface.md)发布：只补实际nearest MID484，47104行/7101实际列/zero空，原15LEFT+7MID保留。四新源755d9bf2/1fe5b698/1eb07544/06ed3a98和47pins核同，11shell/6inlineAST通过；完整C4059/outside、lambda270/512/200/17trial及原FD保持，实际run43659610548/source145d7a53/job132645804684已完成全部10步setup并进入第11步完整模型。
 
 **同父λ比较：** [67正式结论](notes/2026-11-14-actual67-lambda27-same-base-tradeoff-and-byte-comparison.md)。66/67均从actual64出发、同20query/W/b/g/B，分别λ270/27。66接受1/16、总merit43.7556914034461；67接受1/512、总merit43.77799655333434，但同row461最大col为.007108963566953459，较66 .007109134582008451更小。最近拒步均唯一left466。67 stationarity1788.5803704212726/gap2194.117175196217是有限预算结果，不能称精确QP最优。完整181B/1168数组+b/g/c逐字同、14新raw已核；第一版工程失败保留。
 
@@ -66,7 +66,9 @@
 
 真实当前H原生达到原容差后，仍须完整outer/inner、RMS1e−6、BC1e−11、原FD与fresh audit。已发布[同live合同](notes/2026-11-14-current576-live-client-multirequest-extension-contract.md)、[逐请求snapshot/QR](notes/2026-11-14-live-current576-per-request-adapter-interface.md)、[实际H/FD/fullDN入口](notes/2026-11-14-live-current576-actual-H-FD-full-DN-interface.md)。clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82及driver7ba3fd5f冻结；同worker bootstrap真anchor H/J后继续当前H/J、FD、fullDN/finalaudit。所有原门不变。
 
-61失败，必要completed native anchor尚不存在，不能把失败result硬接为接受输入或伪造未来request。32GiB为单call预算；19协议call最坏固定数组428266259968B另加可变量，须按真实成本配资源，不删完整数组。R259小核心共振/条件IFT仍是未调度备选，R257有限恒速平面Fourier的圆障碍不能靠缩初猜消除。
+61失败，必要completed native anchor尚不存在，不能把失败result硬接为接受输入或伪造未来request。32GiB为单call预算；19协议call最坏已识别固定数组428267349504B另加可变量，须按真实成本配资源，不删完整数组。R259小核心共振/条件IFT仍是未调度备选，R257有限恒速平面Fourier的圆障碍不能靠缩初猜消除。
+
+新noJ-primal live五源已独立保存：[client/fullDN接口](notes/2026-11-15-noJ-primal-live-client-and-full-DN-interface.md)、[每请求snapshot/QR接口](notes/2026-11-15-noJ-primal-live-current576-adapter-and-QR-interface.md)。client7aa2aba1/hook0e802785/systeme30e53e6/QRc3284d55/driverbb8ad207保持同原32/10/FD/fullDN/audit，真实成功73加八原件才可作为初猜父输入，必须fresh bootstrap，不导旧cache。已完成[资源与生命周期核查](notes/2026-11-15-noJ-primal-live-resource-flow-and-retention.md)和[无损归档合同](notes/2026-11-15-noJ-primal-live-lossless-archive-contract.md)：每轮704387088B/1750固定binary，原草稿漏两formed-rho共1792B已在初次发布前修正；32GiB仅单call，未实施归档、未删原件，未预造成功request。
 
 ## 2. 接受场闭合、固定g与全t精化
 

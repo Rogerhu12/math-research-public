@@ -1,0 +1,170 @@
+{
+  "schema": "noj-primal-live-static-file-layout-resource-account-v1",
+  "scope": "Integer dimensions and file-lifecycle reading only; no RHS/J/ODE/QR or scientific numerical calculation",
+  "M": 112,
+  "K": 224,
+  "depth": 576,
+  "node_count": 577,
+  "snapshot_arrays": [
+    {
+      "name": "base-states",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "files": 145
+    },
+    {
+      "name": "stage-residuals",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "files": 144
+    },
+    {
+      "name": "stage-out",
+      "shape": [
+        576,
+        224
+      ],
+      "bytes": 1032192,
+      "files": 144
+    },
+    {
+      "name": "original-scales",
+      "shape": [
+        1,
+        577
+      ],
+      "bytes": 4616,
+      "files": 1
+    },
+    {
+      "name": "cut-residual",
+      "shape": [
+        1,
+        112
+      ],
+      "bytes": 896,
+      "files": 1
+    },
+    {
+      "name": "end-residual",
+      "shape": [
+        1,
+        112
+      ],
+      "bytes": 896,
+      "files": 1
+    },
+    {
+      "name": "original-far-graph",
+      "shape": [
+        1,
+        112
+      ],
+      "bytes": 896,
+      "files": 1
+    },
+    {
+      "name": "physical-height",
+      "shape": [
+        1,
+        112
+      ],
+      "bytes": 896,
+      "files": 1
+    },
+    {
+      "name": "cut-target",
+      "shape": [
+        1,
+        112
+      ],
+      "bytes": 896,
+      "files": 1
+    },
+    {
+      "name": "stage-jacobians",
+      "shape": [
+        576,
+        224,
+        224
+      ],
+      "bytes": 231211008,
+      "files": 144
+    }
+  ],
+  "categories": [
+    {
+      "name": "current snapshot10 arrays",
+      "bytes": 234318472,
+      "files": 583
+    },
+    {
+      "name": "QR copied original9 inputs",
+      "bytes": 3107464,
+      "files": 9
+    },
+    {
+      "name": "all577 factors and all577 pure constants",
+      "bytes": 464891392,
+      "files": 1154
+    },
+    {
+      "name": "complete scaled z and original-coordinate delta",
+      "bytes": 2067968,
+      "files": 2
+    },
+    {
+      "name": "formed cut rho and formed far rho",
+      "bytes": 1792,
+      "files": 2
+    }
+  ],
+  "fixed_binary_bytes_per_complete_correction": 704387088,
+  "fixed_binary_files_per_complete_correction": 1750,
+  "original_native_iteration_limit": 32,
+  "fixed_binary_bytes_one_call_at32": 22540386816,
+  "fixed_binary_files_one_call_at32": 56000,
+  "declared_outer_iterations": 8,
+  "maximum_protocol_calls_under_current_fullDN_driver": 19,
+  "fixed_binary_bytes19calls_at32": 428267349504,
+  "fixed_binary_files19calls_at32": 1064000,
+  "omitted_from_previous_unpublished_subtotal": 1792,
+  "fixed_components_are_not_complete_disk_or_RSS_upper_bounds": true,
+  "excluded": [
+    "exact dyadic gzip ledger",
+    "JSON and checkpoints",
+    "original protocol response and logs",
+    "additional failure arrays",
+    "prefix inner solver and readout work",
+    "artifact archive/upload staging"
+  ],
+  "source_receipts": [
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client.py",
+      "bytes": 29877,
+      "sha256": "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client_hook.mjs",
+      "bytes": 51076,
+      "sha256": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_full_dn.py",
+      "bytes": 32522,
+      "sha256": "bb8ad207c5b85fb10e0a5ee83b36eed4317c757646055eaec58b2bc3c8945c14"
+    }
+  ],
+  "unchanged_QR_factor_source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+  "new_live_adapter_sha256": "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3",
+  "new_live_QR_entry_sha256": "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909",
+  "metadata_only_text_roundtrip_to_previous_unpublished_sources": true,
+  "scientific_execution": false,
+  "repository_files_changed": false
+}

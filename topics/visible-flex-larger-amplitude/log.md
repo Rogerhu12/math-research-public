@@ -326,3 +326,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-15 00:43:25 UTC — /root GPT-6 Astra Pro: 74四源/接口先保存于6d274f96；发布前再次核trigger发现root把唯一request先放到了topic根目录（未触发计算），立即移入原computations/public-condensed-qp-request.json并移除误放副本。
 request仍原d3bc7e4a，workflow40ca08e5逐字不改；本次才触发唯一74科学run，无重跑/重复dispatch。
+
+2026-11-15 00:46:33 UTC — /root GPT-6 Astra Pro: 保存独立noJ-primal live五源7aa2aba1/0e802785/e30e53e6/c3284d55/bb8ad207及接口373e4993/ae2963d5；实际73成功响应+八原件作literal初猜，再fresh bootstrap、每请求真H/J、原FD与同live fullDN。
+容量静态账56e9291e纠正未发草稿漏两formed-rho的1792B；每轮704387088B，19×32固定428267349504B另加可变项。归档生命周期合同c504af0e明确完整保全边界，未实施归档或删原数据。74实际43659610548/source145d7a53已进完整计算；73仍实际运行。

@@ -1,0 +1,53 @@
+{
+  "schema": "noJ-primal-live-prepublication-capacity-only-revision-v1",
+  "old_sources": [
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client.py",
+      "bytes": 29877,
+      "sha256": "f29353ab5820ed1023de94cb6a5f35497e5b40dd3945981ac56928e13ab29d15"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_full_dn.py",
+      "bytes": 32522,
+      "sha256": "8f6ead8affe221226413a9efd4c8aea0df70470cd1477a727c9d029ff913a661"
+    }
+  ],
+  "new_sources": [
+    {
+      "file": "geometry_20261114_noj_primal_live_tail_client.py",
+      "bytes": 29877,
+      "sha256": "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64"
+    },
+    {
+      "file": "geometry_20261114_noj_primal_live_full_dn.py",
+      "bytes": 32522,
+      "sha256": "bb8ad207c5b85fb10e0a5ee83b36eed4317c757646055eaec58b2bc3c8945c14"
+    }
+  ],
+  "exact_changes": {
+    "client_capacity_literals": 2,
+    "driver_capacity_constant": 1,
+    "driver_client_pin": 1
+  },
+  "byte_exact_reverse_substitutions_restore_prior_sources": true,
+  "full_source_AST_parsed": true,
+  "original_algorithms_and_native_thresholds_changed": false,
+  "original73_changed": false,
+  "unchanged_hook": {
+    "file": "geometry_20261114_noj_primal_live_tail_client_hook.mjs",
+    "bytes": 51076,
+    "sha256": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1"
+  },
+  "original_source_roundtrip_evidence": {
+    "file": "pure-source-roundtrip.json",
+    "bytes": 1222,
+    "sha256": "909b54c3ab7f70e80fbd6b0bc0a71acd1a191e3315255166edcafe304584bb27"
+  },
+  "fresh_source_AST_comparison_evidence": {
+    "file": "unchanged-algorithm-source-check.json",
+    "bytes": 1256,
+    "sha256": "06b7522ae07bedf0eb2462c0451387c2ff5c8919be21f036d00cf6c376a911bb"
+  },
+  "no_numerical_modules_imported": true,
+  "scientific_execution": false
+}

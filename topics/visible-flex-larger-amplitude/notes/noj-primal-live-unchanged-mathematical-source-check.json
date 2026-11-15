@@ -1,0 +1,61 @@
+{
+  "scope": "Source AST comparison only; no target module import or scientific execution",
+  "source_files": {
+    "exact_20261114_noj_primal_live_current576_damped_system.py": {
+      "bytes": 33197,
+      "sha256": "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3",
+      "base_sha256": "9346c0a7e7c7f562d20b02126b82c8819c687a7575aea38258e9796cabb8db4a",
+      "AST_passed": true
+    },
+    "exact_20261114_noj_primal_live_current576_damped_chain_qr.py": {
+      "bytes": 22328,
+      "sha256": "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909",
+      "base_sha256": "ee174e8283f3b5454a8b3dbe751dbd4f41f4f0dba1bd9d240b627bd2748f889f",
+      "AST_passed": true
+    }
+  },
+  "unchanged_functions": {
+    "system_top_level": [
+      "require_actions",
+      "file_sha",
+      "canonical_sha",
+      "load_binding",
+      "valid_sha",
+      "receipt_identity",
+      "number_record"
+    ],
+    "complete_current_array_and_J_access": [
+      "_json",
+      "_verify_array",
+      "raw",
+      "all",
+      "stages",
+      "stage_bytes",
+      "stage_raw",
+      "export_inputs"
+    ],
+    "flow_identity_helper_from_single73": true,
+    "QR_exact_and_checkpoint": [
+      "require_actions",
+      "file_sha",
+      "load_pinned",
+      "kernel",
+      "exact_stage_job",
+      "exact_current_readback",
+      "checkpoint"
+    ],
+    "complete_QR_driver_main_except_declared_identity_metadata": true
+  },
+  "additional_identity_checks": [
+    "actual successful73 literal JSON anchor and parent flow installation receipt",
+    "same current noJ-primal flow identity in request, snapshot and complete matrix binding",
+    "fresh local installation bytes and truthful source-scope metadata"
+  ],
+  "scientific_imports_executed": false,
+  "numeric_fixture_or_scientific_execution": false,
+  "frozen_math_sources": {
+    "exact_20261114_native_damped_chain_qr.py": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+    "exact_20261114_native_allrows_dyadic_residual.py": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+    "geometry_20261114_native_captured_band_correction.py": "b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390"
+  }
+}
