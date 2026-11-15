@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** c92d16ff35b73b01aa06791f54d77d6c4cb44d4d（2026-11-15 13:32:29 UTC，Actions run43719511362实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43719511362-1.json。
+- **最近成功实际 pull 与已读规则提交：** 184af0401948bd700ddc3dc2b202664a01454d5f（2026-11-15 13:32:55 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地13:30:51实际pull到661a7b9cc0c932ad81310e81be2016c0470bab74，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
