@@ -110,3 +110,6 @@
 
 
 - **有限零点23条完整二阶左延拓、K80与条件8672。** [自足证明](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)在run43679903558实际1.537155172秒核1088×595前缀秩578/582/582、全1088校正及另5100来源自动零；23独立leading给r1+r2≤4，连r1≤4付零点公共34/31。K80=s20K60、lc=5^6，配指定∞63/62/59得q235…8627、条件cost8672（非基8671、目标仍8450）；未预称零点β2=0或原成员性。
+
+
+- **真实归一bit联合伴随及原物理核整行下界。** [自足证明](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)保原Ni及全部carry、同一完整H，ΣNiNi*≥I−Ptop直接给核内dist²≤C_m整行能量；连原正角和超小carry，任意w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²。没有最小单权逆，仍不把W的固定列强零换成移动整行速率。

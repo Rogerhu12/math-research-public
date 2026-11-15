@@ -145,3 +145,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 
 **真实bosonic wandering的定量硬核正角。** [三列完整证明](results/R271-appendix-three-collective-columns-hardcore-angle-and-bosonic-wandering.md)对全部横向Fock源给Σj=0²||(I−Qhc)(a*)^jg/√j!||²≥p²||g||²；原N/Y头的真实H^-1顶源、最高三头行及κ0=e^-1070严格给距离≥3e^-1070/[20(m+4)C_m^(3/2)]，logC_m=O(m logm)。这是局部bosonic wandering与硬核的正角；原w∈M仅有到bosonic核的正向超小误差，P_m^B B*w反向投影仍无速率，且核内range分量可抵消非硬核部分。继续同W共同Schur/返回，不以该角度外推N=M。
+
+
+**同一物理核的联合归一bit反馈下界。** [完整证明](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)以原二进位乘积权给ΣNiNi*≥I−Ptop，保同H及真实压后伴随，付dist(v,W_m^B)²≤C_mΣi<m||P_m^B Ni* v||²。连三列正角与原正向carry，任意w∈M的整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²。原W给每个固定i反馈列强零，未给增长m整行的所需速率；仍须同w共同返回/相邻投影上界，不以逐列极限封口。
