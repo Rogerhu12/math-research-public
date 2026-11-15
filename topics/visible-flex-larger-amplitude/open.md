@@ -74,6 +74,8 @@ D必须取完整闭F0。固定有内点H需diamH≥.2D，整面像Hausdorff δho
 
 R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须覆盖整个prefix、有限Gauss scalar、两尾帽及C²修补，得全域相对metric算子≤1e−6。R242精确角解析等距定理不能直接套于有限metric缺陷或仅C²极限。
 
+[同一shared-B场的完整相对metric消费者](notes/2026-11-15-same-shared-field-relative-metric-interface.md)source a601e5b5已发布：真实全jet/Gram、四Loewner、全prefix/两tail/collar闭覆盖和未付叶，固定帽原目标误差恒0。原stored尾E连续区间生产器尚缺，默认tail未付；外部同源E界明确仍是条件，不能用B′、采样或另一个理想积分换g。只支持原v3/v4 scalar，新六控制须真实适配，不能丢odd。无实际接受场/run或全域标准4；C² seam和原g atlas兼容仍须付清。
+
 最终提供冻结g/参数/t后的精化结果、全t强C²嵌入/reach/整像指标及数个各<5MB网格，明确数值与严格存在的实际缺口。全部README标准前不停，最低条件后继续提高比例；不存在“预算到期自动完成”。
 
 ## 5. 已完成维护

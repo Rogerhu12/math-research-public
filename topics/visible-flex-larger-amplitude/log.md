@@ -205,3 +205,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:47:29 UTC /root — actual120首次真实当前H被原尾域检查拒绝
 
 [原结果](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)已读两个完成job的完整19463B/4f2be484摘要并逐字核。699节点/中点/两RMS预检全过，首完整112H withJ在63.87812351699999s由原D/S/A拒绝；无iteration/J/FD/fullDN/audit，wrapper87.784s/exit1非预算。owner关闭及readout后清理真实完成，不用hash伪恢复。不据此称无解或浮点底线；124接完整同worker H(s)独立实施，保全部原门；122/123继续。H把已结清119/121详情缩至正式note，保全部主线责任，无本地科学。
+
+## 2026-11-15 08:48:53 UTC /root — 同场完整相对metric消费者源码
+
+[完整接口](notes/2026-11-15-same-shared-field-relative-metric-interface.md)16116B/f5d973e1与source35473B/a601e5b5全文已读，最后完整覆盖/未决后缀/输出条件也已核。真实有限shared-B全Gram与四Loewner、旧scalar全48/64Gauss责任及原固定帽target保持；原stored连续E界缺失默认未付，外部区间只条件，不换Bprime或理想积分。尚不支持六参数新scalar，且无实际接受场/run/C² seam/标准4，未执行本地科学或添加native门。geometry转实际stored E源。

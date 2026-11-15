@@ -50,9 +50,11 @@
 
 R277–R283证明已登记；109/111有理例不是实际曲面证书。[固定帽](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)sourcea3ada50b；[完整活动jet/mixed](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)675ab8df/dbdedb45，准确全FFT含mean/Nyquist/sharedB/materialcut/唯一SE2自身求六jet与法向球。
 
-[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)/[完整local组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)source0b52a408/4e31ad6b在computations。真实同侧collar/cap半径、材料theta=Phi(phi)+alpha membership、cross-Gram或原全相位/R281逐叶OR；两RP1空间×phase闭叶、全rank/未决栈/未访后缀，不能整rank豁免商对角。无实际场/余量/run/reach，旧static/R24独立。
+[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)/[完整local组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)source0b52a408/4e31ad6b；同侧材料membership/cross-Gram或原全相位逐叶OR，保两RP1及全rank/未决栈/后缀，不能整rank豁免商对角。无实际场/余量/run/reach，旧static/R24独立。
 
 [同场曲率/完整D](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)source b1c2dfb9已发布：同场完整active/两帽闭覆盖、原tau/R279实际Delta/A_K/B_K及同K、全部重叠marker Hessian。完整F0 AABB/全phase柱界区分，漏叶则fullD为空；实际C² seam未付，full_surface_curvature仍false。无实际K/run/reach。
+
+[同场相对metric](notes/2026-11-15-same-shared-field-relative-metric-interface.md)source a601e5b5已发布：同完整shared-B六jet/Gram，四Loewner及prefix/两tail/collar全闭叶，固定帽原target误差0。原stored连续E生产器缺失，默认tail未付；外部E区间只是明确条件，不换B′/采样/理想积分。旧v3/v4 scalar尚不能吃新六参数；无实际接受场/run，C² seam/原g atlas/标准4仍未证。geometry正查真实stored E定义。
 
 闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN及自身final audited tail/config/port，完整physical/material/z0/mean→R249/shared quintic B/两帽，g不能换B′。R274/R258 adaptere372待同场非零见证；held可独立reach预算读整个活动面和两帽，不能材料点/core-only替整像/D。
 
