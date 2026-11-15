@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual adjustable collar geometry and direct angular trace](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)：公共43736004806/1成功，6144新组/12288整公式/16门；J96 a1/200,N23，J288 a1/1000,N76。宽rho1e−4 J96已知源+条件high<1.012e−11；同态实际剩余门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12足W入口，low/shell/wholeC0/独立高域仍待。完整168球与11pin及预Git核对，旧成功零重算。
+
 - **R133 CT complete first-coefficient transport** — [root函数有限部后的完整八项正则source与真实P/H density次序](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)（341a9463f267d95896d38f5500240e875077b6e6afedbdc1c0625ea24ad10a35）：s=√ρ消全部非可积项，physicalχ含2g0dφ*/3；完整source/mean/reference residual/jump经旧B/L的三路径域传播，重用旧scalar/ray/KAM。给出具体完整c0函数计算目标和H3误差费，不授actual C或strong R0。
 
 - **R133 NG adjustable nested collar** — [同外窗的任意内宽、完整五列及可复现整行选择](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)（cc3add84d3c7cad870345d6aef4f5101023d448d27df9025a72d9ecbe29bbbbc）：h=(1/20−a)/N、κ=2/a，有限正递推和双cutoff完整费用给NC/BD两条条件H1迹。新6144候选只读旧系数，旧成功geometry只copy；按最终outward共同high score整行选，不混列、不赋未知low/shell，不授core或MA域。

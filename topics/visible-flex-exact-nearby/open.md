@@ -101,9 +101,15 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 这是直接Euclidean pair H1迹，不含额外pair-sum/physical/movingangle/density转换；免MA8193插值但不授独立MA域。两fullmean和true residual0 source要求保留。最宽rho1e−4 J96 BD conditional high<1.205312e−8仍超入口预算；rho2^-24 source+conditionalhigh<7.195363e−12仍未含low/shell。J288宽high<3.762382e−20也不消225..288 shell。RC只右半C0，不能授wholewide或较小rho。
 
-[NG一般内宽与完整直接迹](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84已证明h=(1/20−a)/N、κ=2/a、ΓH=BH+κ²bp、Θ=κbp+ΓHσ，原T/CS/CL/NCΓL/BDDS,DL不变。root/tail全文及phase一般几何独核通过。新a=1/100,1/200,1/400,1/1000各N1..128，共6144组/12288公式待公共consumer；旧a1/40十二完整成功row只copy。按最终保留outward两high上端max选共同(a,N)，tie旧基准优先；只能称共同score不劣，不称每个单high/别列/实际总误差最优。LC直接读取CS/CL/bp，禁止upper相除；完整五列/三conditional读出/两mean不删。unknown low/shell、wholewide C0/同态左右匹配、独立MA域与实际γ低门仍待。
+[NG一般内宽与完整直接迹](results/R133-supplement-adjustable-nested-collar-geometry-and-complete-direct-trace.md)cc3add84及[actual43736004806/1](results/R133-supplement-actual-adjustable-nested-collar-geometry-and-direct-angular-trace.md)54711e89已完成。公共child0、16/16门，6144新几何/12288完整公式；旧a1/40十二整pair仅copy。J96六rho均选a1/200,N23，J288均a1/1000,N76。h=(1/20−a)/N、κ=2/a、ΓH=BH+κ²bp、Θ=κbp+ΓHσ；原T/CS/CL/NCΓL/BDDS,DL直接读旧，不做upper相除。只比较最终outward两high上端max，baseline优先tie，保每个scheme完整五列/三读出，非逐列最优。
 
-NG新公共consumer已完整静态复核并部署：SCI417行b34b06fa、worker557行2be1fbfd、manifest6bd08d43、flowb865a517；11小pin共233538B，旧NC/LC/source零重算、16结构门。root全文，phase候选/整行选择三函数、newton原字段/失败恢复链独核。320bit/math only public、SCI≤45KB/报告≤12KB/预Git≤59KB、实际topic≤200MB与120KB预留；新6144全审计仅tmp，既成success只复用。等待自动push run，未先填新常数。
+root完整science3730af35/process4dcc7142/reportcb826725、11pin、12旧pair/t1/sourceexact、168球156unique逐字核；预Git49663B/38852df7准确。临时完整audit14940959/aafac961仅SHA，无新data/artifact，成功科学禁重。
+
+最宽rho1e−4,J96的NC/BD源+conditionalhigh分别<1.011264285315598e−11和1.011264246551516e−11。以raw Euclidean pair低cut cL=||Π≤96(Q−Qδ)(.9)||L2、z=P(Q−Qδ)在完整outer I0的ZS/ZL，实际row的整有理放大给
+$||Q−Qδ||_{H^1(\phi),r=.9}<1.012\times10^{-11}+385c_L+\min(145Z_S+748Z_L,489Z_S+10Z_L)$。
+所以剩余充分门 $385c_L+\min(145Z_S+748Z_L,489Z_S+10Z_L)\le9.5\times10^{-12}$ 足全pair H1<1.962e−11<63·1e−10/320。W所需η就是第二component，无额外√2/第二次角转换；这个门尚未actual通过，不能把conditionalhigh当完整迹。
+
+保持same连续两侧H1/fullmean/true residual0/wholewideC0假设；右RC仅[.9,.95]，左Green仅[0,.9]，须同态拼合。若返回Q−Q0，selected affineδZ的cut/body费须各付。J288源0与tinyhigh不消225..288 shell；独立MA高域、low/shellreceiver、actualγ/core/matching未付。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 
