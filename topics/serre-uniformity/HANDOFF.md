@@ -4,17 +4,17 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：6855eb1f8c715681dd45312fc17f6d86de6e17ab**（2026-11-15T15:56:09.710707+00:00；公开run43714581068/attempt24/job132868169594实际git pull --rebase origin main，两README无diff）。14:34UTC环境失联，按根§8暂用GitHub小文本接口。前态逐字保[R830前H](notes/2026-11-15-handoff-before-R830.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：096b9b0bd10c7882491f372df6bdab3b411d0b9e**（2026-11-15T16:01:29.891225+00:00；公开run43714581068/attempt25/job132869674309实际git pull --rebase origin main，两README无diff）。14:34UTC环境失联，按根§8暂用GitHub小文本接口。前态逐字保[R830前H](notes/2026-11-15-handoff-before-R830.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
-## 当前接续（2026-11-15 15:59 UTC）
+## 当前接续（2026-11-15 16:02 UTC）
 
 **R787原A/B** run43708449812/job132794639922/sourceac5998f3，core93d3d72b同核仍数学运行。旧5.15GB断点1517输出/1372输入均核；每prime只保最新完整lift/全stage。保1234/129×20/14分支；预算停同核续，不换R802。成功立接R792/R804真CM值及立方根，不选未知同源核前像。[续接](notes/R787-actual-budget-checkpoint-and-same-core-continuation.md)。
 
-**R809原S5** run43712427063/job132806699613/source91fbd81e，core dedb5d61/wrapper3616aac1仍数学运行。4117原输入已核，六τθU_j/84Q RHS，1234列/1380行；R787后同身份追加A/B28。保82/b/s/λ一次及τ最高项零。[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。
+**R809原S5已success**：run43712427063/job132806699613/source91fbd81e；原冻结verify报C0..5/84Q RHS/full1380，p1000000007、minor29693114。artifact14168728276/545778174B/平台ZIP1ec83d6c至Nov16 15:52UTC；ordinary正小Range读取manifest/准确源给R827，不重算1234行。A/B不在首scope，后追加28同身份。保82/b/s/λ一次与τ最高项零。[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)。
 
-**R815原Mg/Γ** run43719622321/job132828560965/source2a3300a9，core80516ff9/wrapperab725da0仍数学运行。53原输入已核，只Mg六模/Γ五模、各七准确点；We0=e1/Γe0=0/Γe1=vh及完整[[Γ,W]+MgW′,W]=0给唯一性，不独立CRT Mh。[方法](notes/R815-original-normal-derivation-operator-method.md)。三项均未有可读新完成矩阵，不能以状态代结果。
+**R815原Mg/Γ** run43719622321/job132828560965/source2a3300a9，core80516ff9/wrapperab725da0仍数学运行。53原输入已核，只Mg六模/Γ五模、各七准确点；We0=e1/Γe0=0/Γe1=vh及完整[[Γ,W]+MgW′,W]=0给唯一性，不独立CRT Mh。[方法](notes/R815-original-normal-derivation-operator-method.md)。R787/R815尚无新完成矩阵，R809须读实际产物，不以状态代结果。
 
 ## R824/R825/R827：原极模和终止层
 
@@ -26,7 +26,7 @@
 
 **[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族按a+2k齐次化，tδ−(a+2k)δt保像在原I_k。若真实约化τ整图有完整多项式右逆、σ在∞实际rank272，则proper/Nakayama迫原I_q=C；不再必算第二张图全HNF。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA 17e9c828。
 
-R827不等三项char0 CRT：单位Schur给真实B整lift、原S5给vB；原W的8个unit节点给MB，vg/vh的6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、τ完整Bézout及σ∞minor。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
+R827不等三项char0 CRT：单位Schur给真实B整lift、原S5给vB；原W的8个unit节点给MB，vg/vh的6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、τ完整Bézout及σ∞minor。尚无实际q；若将来q4通过才可说D约化/K1。core85916B/d9cf7739、helper38baf6b4、methodc55655f9已全文核并保存；wrapper与真实S5源正在绑定，新数学仅Actions。
 
 R811待A/B；helper09f21a90已验证，禁额外gate；保原P、H/W、Laurent与全长。[R822](results/R822-original-polar-lattices-certified-by-global-colength.md)已给包含＋全长1206充分判据，14块真实分支恢复保留。详细core/SHA/输入见R827前H和各契约。
 

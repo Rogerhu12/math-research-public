@@ -236,3 +236,8 @@
 - R830完整比较主审通过：Teich角字符精确p+1阶/单位相容给权六Hecke lift与新增p导子；原old1/d及p|Norm先约分保留。Hasse简单零/负权与Igusa权同余给严格tame filtration6p，某SS非零不定位原j0；原12^5澄清，SHA344a1cad，无新计算。
 - R824准确27+244同核续算已推442f3d16并运行run43732499815；R827 core d9cf7739/helper38baf6b4/methodc55655f9已审冻结、wrapper待收，R809真实S5仍待结束。H原文归档后压缩。
 - 2026-11-15T15:56:09.710707+00:00实际pull读6855eb1f8c715681dd45312fc17f6d86de6e17ab，两README无diff；每结论即推，主目标OPEN。
+
+### 2026-11-16 00:02（Asia/Taipei）｜serre-public-astra-20261115
+- 保存R827已全文核的core85916B/d9cf7739、finite helper38baf6b4及methodc55655f9；原B/整性/同p缓存/8-6-5节点/9-7-7恒等/σ短jet/τ全多项式和失败分支均保原契约，不新增generic测试gate，未激活缺源请求。
+- R809实际run43712427063已success，原冻结verify报六C/84Q/full1380、prime1000000007/minor29693114；小IO读取真实manifest/index正在准备，A/B仍待R787，不能误称函数已成。
+- 2026-11-15T16:01:29.891225+00:00真实pull读096b9b0bd10c7882491f372df6bdab3b411d0b9e，两README无diff；R830已推845d230d，R824准确续算运行，主目标OPEN。
