@@ -77,3 +77,7 @@ DX4提供同一ψ C4新输入，原CYA四root只读，不新增gap计算；tail�
 两旧derived NPZ清单fd57e301/cdfd4345先推，721358B/903645f5同path恢复；原源/小结论/limitations全保，完整active manifests无依赖，binary body未取。
 完整open29307B逐字归93c7638a/c266c0f1后只缩成功索引；此提交尚未删数据。22:59:32真CLI pull仍无executor，下一≤23:59。
 两README于df23fc4ffcdb8c5075626b5f22b98f187fc7dc27只读核无变；继续原SN/SC3与DX4/ZD/SEI，不取消任何数学义务。
+
+### 2026-11-15 23:04:41 UTC — two exact archived snapshot removals
+已按先推98bf8b52白名单fd57e301/cdfd4345 fresh核blob/size，普通删两derived NPZ合721358B；restore903645f5同path完整保，原源/小结论/active pins不变。
+binary未取、旧成功数学未重。两README在d6a7d38339ff3d087f51b169abcbc913f1c9717f无变；继续唯一原Actions及完整算子义务。
