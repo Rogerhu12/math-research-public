@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：31e2a9bf985007ac16a37778a040b944f9bcdd6a；2026-11-15 18:26:43 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:26:41 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
+- 最近已读规则提交：f4e9f96efb6ee97d32606bd043b8be6ffebbc233；2026-11-15 18:34:47 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:26:41 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -12,15 +12,15 @@
 
 ## 完整归档、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r810.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r810-publication.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 
-R1–363、365–560、562–653、655–711、713–807、809已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+R1–363、365–560、562–653、655–711、713–807、809–810已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
 root唯一metadata/ref写者；root 原二阶真实负矩；deep R808原完整指定配对；theta 原负二的全同源局部与中央传播；literature 原全局类的严格局部核/真实补域。完整证明一成即单独推，随后继续未闭门。
 
 ## 当前执行与未推状态
 
 R801/R803/R807/R809的公开run均成功，全部producer/参数/hash在正式原证；R803旧报告超限已恢复，无遗失结果。
-R808未登记。R810新producer检查原r2/b4/b0=3的全部HP：零角(1,0,0,0)、n4带t、完整κ/χ及H低系数，原五型由z0包络覆盖。公开请求rank2-r810-original-quartic-all-primes-20261115，参数--max-order 96 --remaining-examples 12/flint0.9.0；结果未判，不外推高b。
+R808未登记，无数学run执行中。R810已登记：run43746804944/job132911796266成功，source2a6ce4bd7a2ea78f55e94dcee1f9b5cf5829db0d；57格及539类出现/438矩阵全不解，所有producer/参数/hash在原证。
 
 ## 普通：固定原源、完整域与真正中央
 
@@ -66,6 +66,8 @@ R790同原cube：
 β1=t^hQ(H^-1V³+6at²eVB_h)，第三w13行3aQ0e0V0²。
 全WD减完整Q2后，所有非F²余列仍同R解两输出。真实左对诱导ν(f)=μ(6t^(h+2)QeVf)，杀完整factor HP；指定障碍=3B(K0−2K1−K2)−μ(a^-1t^hQH^-1V³)−〈ν,β_HP〉。
 β_HP=Δ/p由实际唯一Schur缺陷读取，不能任选ξ或认Smith指数1。mq1不能套旧scalar第三块运输。原p³同R全高尾仍须处理。
+
+R810原Fp r2/b4全p已排：零角(1,0,0,0)/n4带t，57格完整gcd坏素数≤283/最高行50付p>611，余12p的539出现/438矩阵全不解。合b3结果，原此强窗须b≥5；不外推变动b/同R。
 
 R805已去掉最高系数S-unit假设：原F0=λd^cH控制全正规移动零支，最高项移动极计满，目标p上h≤6γ+2a+10b+2z−6。全部已分类格可用R743两真实连接/359κ/96单位秩门；主阶仍不排所有强接触，不代指定forcing。
 
