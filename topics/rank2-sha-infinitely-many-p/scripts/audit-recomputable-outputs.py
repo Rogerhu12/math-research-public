@@ -40,8 +40,11 @@ for p in files:
         code = producer.read_text(encoding="utf-8")
         owns_reference = p.name in code or (stem + ".json") in code or "with_suffix" in code or (".replace(" in code and ".json" in code)
         emits_json = ("JSON.stringify" in code and ("process.stdout" in code or "console.log" in code)) or "json.dump" in code
-        role = "split_certificate_input" if split_candidates else "self_referenced_input" if owns_reference else "computed_json_output" if emits_json else "unresolved"
-        source_details.append({"script": producer.relative_to(ROOT).as_posix(), "sha256": hashlib.sha256(code.encode()).hexdigest(), "role": role, "self_reference": owns_reference, "emits_json": emits_json})
+        reads_data = bool(re.search(r"readFile(?:Sync)?|\.read_text\(|\.read_bytes\(|json\.load\(|gzip\.open\(", code))
+        writes_data = bool(re.search(r"writeFile(?:Sync)?|\.write_text\(|\.write_bytes\(|json\.dump\(", code))
+        # A default output filename is not evidence that the program reads it.
+        role = "split_certificate_input" if split_candidates else "mixed_io_review" if owns_reference and reads_data and (emits_json or writes_data) else "computed_json_output" if emits_json or writes_data else "self_referenced_input" if owns_reference and reads_data else "unresolved"
+        source_details.append({"script": producer.relative_to(ROOT).as_posix(), "sha256": hashlib.sha256(code.encode()).hexdigest(), "role": role, "self_reference": owns_reference, "emits_json": emits_json, "io": {"read": reads_data, "write": writes_data}, "argv": "process.argv" in code or "sys.argv" in code or "argparse" in code})
     record = {
         "path": p.relative_to(ROOT).as_posix(), "bytes": p.stat().st_size,
         "sha256": hashlib.sha256(p.read_bytes()).hexdigest(),
