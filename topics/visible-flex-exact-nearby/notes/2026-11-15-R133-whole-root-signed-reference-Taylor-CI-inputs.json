@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "kind": "immutable_whole_root_signed_common_reference_Taylor_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_root_signed_reference_Taylor.py",
+  "scientific_source_sha256": "a0f12f84d55c4735507e71e40d35cd343777d00dad4b5ec5c2e73804230198be",
+  "input_paths": {
+    "Taylor_native": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+    "Taylor_process": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+    "Taylor_publication": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "fa_norms_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/reference-Fourier-norms-f0-3-512.json.gz",
+    "potential_execution": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+    "potential_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py",
+    "algebra": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-whole-root-piece-signed-reference-potential-and-first-correction-Taylor.md",
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_root_signed_reference_Taylor.py"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+      "bytes": 3090,
+      "sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/reference-Fourier-norms-f0-3-512.json.gz",
+      "bytes": 5444,
+      "sha256": "0a06b46b740e721742965002eced73e49b51be36abbf285a21f38c2e9efdef5a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/complete-old-rho-first-Airy-Taylor-through-twelve.json.gz",
+      "bytes": 88854,
+      "sha256": "758a2901d194e9d54ec10bb5004014ee34a972c35367589fd5c86afce3f30c9f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/process.json",
+      "bytes": 34792,
+      "sha256": "42ab23b97ce922b042b8291af46cfe8c44ffd7e90ba1e2a6049caef263b7224e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-009.json.gz",
+      "bytes": 710,
+      "sha256": "6cb4d4e6ca18d55e6cf4a0bd34cb83369859531277a89e5fc7c3bfd82fd2412c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-010.json.gz",
+      "bytes": 708,
+      "sha256": "776a318054075009fbce068fa60283210457aef08669832eee6a8ea8200e7cba"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-011.json.gz",
+      "bytes": 706,
+      "sha256": "a1338d6eee2f541ad7be5b4b7827ddf86deffa01649c69bfa4d3e6847c843dfb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-012.json.gz",
+      "bytes": 709,
+      "sha256": "37a24fdbbcb769ec120e6abfe437b1afdea85d9358ec5526d0a63fd76a7e2b67"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-013.json.gz",
+      "bytes": 705,
+      "sha256": "e7df1c5c498916408251b029a39b30b0e1e1bb93693657ea8801b6ebaece6786"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-inputs-degree-014.json.gz",
+      "bytes": 710,
+      "sha256": "258985308d00b24509aeedf6af2a2d9507533ea080ad578116193ad452dc53a8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-009.json.gz",
+      "bytes": 2567,
+      "sha256": "b2dc49e1bb4002a17862b255b89502341d91a60dec7c724b2455ae3d11426771"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-010.json.gz",
+      "bytes": 2568,
+      "sha256": "37cc350e1312e337a64aefeb5a38297e32558284bb1659093f1aaecdc3888606"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-011.json.gz",
+      "bytes": 2584,
+      "sha256": "091802bd56f486618818d92febf917075c502c725c2540ccee33aff8fc62dbea"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-012.json.gz",
+      "bytes": 2610,
+      "sha256": "190e2bb66de2642a7abf2b5b578eaae3df1d174ca59a286235afb7da2366c5dd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-013.json.gz",
+      "bytes": 2597,
+      "sha256": "24472cffdb3252e1f9c8959ed1842626e8300f8f95a4bf14fb2c0d1f0cb831b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/background-main-degree-014.json.gz",
+      "bytes": 2579,
+      "sha256": "fe31ad9aef63a35c81c3dd001f0f60d94da7b289a9681d2603860e042544bdc9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/complete-background-root-series.json.gz",
+      "bytes": 75245,
+      "sha256": "a6f89d9bf9523d04fd0534f7224b7a8bb3ecc8b0b201ffccf3839585df56b0c8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-000.json.gz",
+      "bytes": 4421,
+      "sha256": "c51b07ca3bd78422f4655070f18e1d760aca9953423999fce94737a04ebc567e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-001.json.gz",
+      "bytes": 10387,
+      "sha256": "35a459b6ed8f047adde8f6b34dd527a34dbdbc22fc4fe812ffc31722a12283e2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-002.json.gz",
+      "bytes": 15298,
+      "sha256": "5ee0693759865d7f57084c55afad785c61eb35ea453d53e2bce7363425a3ae9b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-003.json.gz",
+      "bytes": 20173,
+      "sha256": "5f50cb0dff88aeab1036a1e1f47cb27a38112d840662eb94c46e08b1b5813869"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-004.json.gz",
+      "bytes": 25092,
+      "sha256": "b63aa11d5c47f5645b2e4322c16b5d2a61a97363c591b3f49a66fa516c1e8023"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-005.json.gz",
+      "bytes": 29840,
+      "sha256": "4fd0e9b0b09829c8e709cc525f3d987d5a20f07d13ccf2e18bb29d982c473ee8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-006.json.gz",
+      "bytes": 34835,
+      "sha256": "4fd2b3889cde56e0128b0a1f5a3b3d99f378413c6c7c39522e7d73cca2e7df93"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-007.json.gz",
+      "bytes": 39936,
+      "sha256": "aaa92f4c43d1300e307bbabd7a8dfc7aa15289eaaf90263861db8e4cddc30130"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-008.json.gz",
+      "bytes": 44934,
+      "sha256": "ba0f7fc3737ea00aa95c76bd8e2c4fdc4ca368360b22478a185c952e30c03afb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-009.json.gz",
+      "bytes": 49900,
+      "sha256": "4c6efe73556c13c670ebeb6543766f3bd3e9345c2c1342d0e553723f14ed8738"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-010.json.gz",
+      "bytes": 54521,
+      "sha256": "15f9560b1b9ab4112f2fb09b5d8cfc9398838cb7b24c67b2d137c7488746975a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-011.json.gz",
+      "bytes": 59501,
+      "sha256": "e5d8d1f0376bb0c8982524a699e45cd7adb69871ea87a6deedae9badf6229b12"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/first-correction-degree-012.json.gz",
+      "bytes": 64694,
+      "sha256": "78bbf8769be5d7bcf2835e5e5c7583836ead8f192c76f28632959e6b0feb7869"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-a0-degree-009.json.gz",
+      "bytes": 21412,
+      "sha256": "5821fdc3e3b48be37ec3d059db5738cb25544a1cc598d351b2fc66e9a693da77"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-a0-degree-010.json.gz",
+      "bytes": 23946,
+      "sha256": "3a962a3189fb90a5aed40f8734dbd1fc322ac6971e273f904eeab6a0fbd48e3b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-a0-degree-011.json.gz",
+      "bytes": 26457,
+      "sha256": "91f04be6b41c8901ef2af0890db0e2f94c4e822416935fd8caeeb3bcc478e449"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-a0-degree-012.json.gz",
+      "bytes": 28834,
+      "sha256": "c48b1e5139daad8b604498ffd47b52c8292582116773a75fd35c96354e14c20c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-b0-degree-009.json.gz",
+      "bytes": 19113,
+      "sha256": "470ed3e75fbf33a139ba96ef8a482d6d0584d966e8706b85731f4a034eafd843"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-b0-degree-010.json.gz",
+      "bytes": 21660,
+      "sha256": "63ccc0b780517fb6c67a4ff9c7049f8423237f353522878b383e6e9795eb83e2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-b0-degree-011.json.gz",
+      "bytes": 24025,
+      "sha256": "ed60457d99b633f2c845cd999b4e639e9f2f18ec90daf7ed79216bf47d7cfbd4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-b0-degree-012.json.gz",
+      "bytes": 26510,
+      "sha256": "9f9c6e535c8c46737a948f07eecb88f83904cb6926e49d39f0567b1c4f3bd9ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-a0.json.gz",
+      "bytes": 80591,
+      "sha256": "8db5ceaafad9bf5fd99fca4d325b186aceeb6e3c06a48be6bbb1db38a78fc683"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-b0.json.gz",
+      "bytes": 61978,
+      "sha256": "712b1b252b569b9f0a120a91d4dc6128cd4bb5807082b4b5c5ba08e851e02171"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-complete-T.json.gz",
+      "bytes": 62096,
+      "sha256": "7be8b1c013adc7d23f08db629816078b6cb2b43a846c6d9a9704a5bddee62ab5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-009.json.gz",
+      "bytes": 19089,
+      "sha256": "aac9ffd9731d52365aba100a5a4712e3d4e666bf208b774b90c9ef947857e21d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-010.json.gz",
+      "bytes": 21602,
+      "sha256": "9f86a9e1ac5b0100fb23c938b62575dc0cebe4ecbf9f0bd8befe483ba6dec7e1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-011.json.gz",
+      "bytes": 23983,
+      "sha256": "ac5a6dd820e9bbec9841e35385c31b998da094afb85709377b2f7b656dbb7308"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/leading-T-degree-012.json.gz",
+      "bytes": 26411,
+      "sha256": "2de6c557f14a33157f61ff077d1f4a268069b6e9163bf4cfd90fb32075667144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-000.json.gz",
+      "bytes": 8098,
+      "sha256": "3fdf9257996d22743d5d00d7dba26988c8182de56e9d103f51392fdeb52eb50a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-001.json.gz",
+      "bytes": 12855,
+      "sha256": "182dc12d979f920763d89adf41790144e3b9cd7bf313ebea0c4732f4a4100f9b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-002.json.gz",
+      "bytes": 17856,
+      "sha256": "75d69375fa0197e2d9428f7d644ecf1c7b0af008014ed65be5c551a0816c8ce8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-003.json.gz",
+      "bytes": 22741,
+      "sha256": "537a143f3a31c518d845487fcacaaff25402e2d9114b03027e0871d9e7def6bd"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-004.json.gz",
+      "bytes": 27768,
+      "sha256": "42ecae4102e521cdc7a2ada3ac098fefc387ebab9f82fe3c637faffe5edfa2ca"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-005.json.gz",
+      "bytes": 32599,
+      "sha256": "cd630f10dd89f1fe776c62b32470a934ec6182143a4f8910a1d1f320d958a490"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-006.json.gz",
+      "bytes": 37545,
+      "sha256": "e41ea6dea01cc72d56b37d308279b5ce1659237c4c1f245162a3e5e6b062e906"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-007.json.gz",
+      "bytes": 42491,
+      "sha256": "9d8e7e3e0293710bfb816167d2f9adbdd9505582d501e16a66d46e0b2848afd0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-008.json.gz",
+      "bytes": 47528,
+      "sha256": "688d4ef3babe555003a74f534e2e239559504c5c1921980c2a2a9d60f2bdb255"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-009.json.gz",
+      "bytes": 52512,
+      "sha256": "5fd1782460b30398a123551a5cd273675c9ec13b791f1acc994c7430d9bbb0bb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-010.json.gz",
+      "bytes": 57167,
+      "sha256": "e0f7942b6b02f8973f5e36aaf50fbb9439c9a13e27cec2d60a2d41e050edc1e5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-011.json.gz",
+      "bytes": 61947,
+      "sha256": "4e37cd3ccb8520b5e01929a3363304b1db6cdded8908b88d4124657e75de6731"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/consumers/stages/normalized-forcing-degree-012.json.gz",
+      "bytes": 66768,
+      "sha256": "75108419cd435610f75f66525c74af139acbd04ce143a62d61dd850133832648"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/old_rho_first_Airy_Taylor_extension_ci/run-43664023495-1/publication.json",
+      "bytes": 55427,
+      "sha256": "dc7d7f0fca329f4e16af276ea762ab9316285e803d0816b6b8ec01fe3896e7d3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-whole-root-piece-signed-reference-potential-and-first-correction-Taylor.md",
+      "bytes": 18116,
+      "sha256": "c0408ef408c2d5df0a730edb19cb92e710e0ca097bdc98027988d1a853e87c60"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_radial_potential_budget.py",
+      "bytes": 30953,
+      "sha256": "042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_Laurent_Taylor_algebra.py",
+      "bytes": 8831,
+      "sha256": "9eb4b99b9a6b569233a3b7c3da80da7d2738c4f0bd18040654ff5b7beace2d4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_root_signed_reference_Taylor.py",
+      "bytes": 42067,
+      "sha256": "a0f12f84d55c4735507e71e40d35cd343777d00dad4b5ec5c2e73804230198be"
+    }
+  ],
+  "legacy_artifact_inputs": [],
+  "original_selected_Taylor_stage_names": [
+    "complete-background-root-series",
+    "leading-complete-T",
+    "leading-complete-a0",
+    "leading-complete-b0",
+    "background-inputs-degree-009",
+    "background-inputs-degree-010",
+    "background-inputs-degree-011",
+    "background-inputs-degree-012",
+    "background-inputs-degree-013",
+    "background-inputs-degree-014",
+    "background-main-degree-009",
+    "background-main-degree-010",
+    "background-main-degree-011",
+    "background-main-degree-012",
+    "background-main-degree-013",
+    "background-main-degree-014",
+    "leading-T-degree-009",
+    "leading-T-degree-010",
+    "leading-T-degree-011",
+    "leading-T-degree-012",
+    "leading-a0-degree-009",
+    "leading-a0-degree-010",
+    "leading-a0-degree-011",
+    "leading-a0-degree-012",
+    "leading-b0-degree-009",
+    "leading-b0-degree-010",
+    "leading-b0-degree-011",
+    "leading-b0-degree-012",
+    "normalized-forcing-degree-000",
+    "normalized-forcing-degree-001",
+    "normalized-forcing-degree-002",
+    "normalized-forcing-degree-003",
+    "normalized-forcing-degree-004",
+    "normalized-forcing-degree-005",
+    "normalized-forcing-degree-006",
+    "normalized-forcing-degree-007",
+    "normalized-forcing-degree-008",
+    "normalized-forcing-degree-009",
+    "normalized-forcing-degree-010",
+    "normalized-forcing-degree-011",
+    "normalized-forcing-degree-012",
+    "first-correction-degree-000",
+    "first-correction-degree-001",
+    "first-correction-degree-002",
+    "first-correction-degree-003",
+    "first-correction-degree-004",
+    "first-correction-degree-005",
+    "first-correction-degree-006",
+    "first-correction-degree-007",
+    "first-correction-degree-008",
+    "first-correction-degree-009",
+    "first-correction-degree-010",
+    "first-correction-degree-011",
+    "first-correction-degree-012"
+  ],
+  "mathematical_parameters": {
+    "prec_bits": 320,
+    "runtime": {
+      "python": "3.12.14",
+      "python_flint": "0.9.0",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "Taylor_order": 12,
+    "background_Taylor_order": 14,
+    "maximum_original_K_derivative": 15,
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_fixed_intrinsic_parameter": "-7789843107295549/4611686018427387904",
+    "exact_complex_delta_square_halfwidth": "1/100000000",
+    "exact_complex_z_square_halfwidth": "1/9409",
+    "minimum_absolute_input_label": 97,
+    "physical_frequency": "4j",
+    "both_carrier_signs": true,
+    "physical_piece": 2549,
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "exact_original_physical_piece_interval": [
+      "2147184947341121/9007199254740992",
+      "4295308144604611/18014398509481984"
+    ],
+    "exact_whole_physical_piece_cover_radius": "893368603925465506687/21990232555520000000000000",
+    "exact_new_old_rho_radius": "3/40000",
+    "exact_old_forcing_radius": "1/6000",
+    "exact_old_leading_radius": "3/8000",
+    "exact_outer_old_phi_strip": "1/128",
+    "exact_output_old_phi_widths": [
+      "0",
+      "1/1024",
+      "1/512"
+    ],
+    "radial_derivative_orders": [
+      0,
+      1,
+      2
+    ],
+    "angular_derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "first_omitted_degree": 13,
+    "retained_original_complete_Taylor_stage_count": 54,
+    "retained_original_majorant_or_norm_stage_count": 2,
+    "unchanged_fa_norm_input_width": "3/512",
+    "new_first_correction": "old_w1+(T*b0,a0)*half_integral_s^-1/2_V(sT)"
+  },
+  "execution_scope": {
+    "new_work": "Complete radial-reference potential degree0..12, actual common-T inverse composition, exact scalar Fuchsian correction, signed coefficient addition and complete joint derivative norms on the entire original physical root piece.",
+    "original_target_FFT_intrinsic_cubic_repair_fold_or_Taylor_recomputation": 0,
+    "original_normalized_transport_recomputation": 0,
+    "original_fa_coefficient_norm_recomputation": 0,
+    "original_input_bytes_modified": false,
+    "independent_physical_even_mean_and_true_seams_retained": true,
+    "complete_new_genuine_reference_source_norm_or_full_inverse_claimed": false,
+    "temporary_native_only": true,
+    "repository_outputs": "Small final derivative/domain conclusions and execution metadata only.",
+    "release_or_new_artifact_uploads": false
+  }
+}

@@ -117,3 +117,7 @@ A/2bcb7d4e…先从残差方向式读回L0v，故真进入E_s；低E20/source179
 ### 实际帽L1与端点源已成；转未知Q全端点门
 
 43692857656/1 child0/12门，亲读报告bc19415f…、process b782c9a2…、summary f5eea9a8…：known affine<3.038615461e−7、known R非mean<2.486289618e−14、mean2.05e−19。left→R<3.701696e−9/rightd→R<.823764。rZ=1e−10/1e−9真long域已过，条件body线性系数.826239959/.878289250。缩小body球可减二次项，但完整端点还必须加入linear Q、quadratic Q、outer反馈；当前invariance=false。新逐行数据只临时，后继读这些小结论及原immutable输入，不重算本次已成积分。
+
+### 整片 signed common-reference Taylor 的最小新消费已部署
+
+T/c0408ef4 的4件公开入口已完成全读：SCI a0f12f84d55c4735507e71e40d35cd343777d00dad4b5ec5c2e73804230198be、manifest11e993bae75adf3a667ba7f7d8c28f9fb38f3fde8d12e34df938c82baef2ea65，67pin/54原Taylor+2旧stage；只计算新V/共同T反函数/ℬ和signed合并、全片混合导数双尾。fa完整原范数与全部旧系数只恢复。实际结果待公开run，不授整源Nraw、正端Schur或strong-return。
