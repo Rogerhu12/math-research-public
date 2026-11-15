@@ -1,0 +1,153 @@
+{
+  "format": "r150-root2-fourth-complete210-preparation-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "status": "prepared-no-new-mathematics-executed",
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "blob": "a91dcb5625f4126af454941f2268e3a2eddae2eb",
+      "sha256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+      "bytes": 6018
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+      "blob": "aa37439e4f71f45083fcb0bb21cb6d9f5d87ce4a",
+      "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51",
+      "bytes": 17857
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "blob": "a1b600e6c5f77491920c1b324f390e5358a6100b",
+      "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
+      "bytes": 15194
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "blob": "80bd9645d41f6c7975aa5dd6dbee8467abdada6a",
+      "bytes": 5002,
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    }
+  ],
+  "historicalRef": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+  "historicalDirectories": {
+    "second": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+    "third": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1"
+  },
+  "historicalObjects": [
+    {
+      "key": "second-prepared-receipt",
+      "scope": "second",
+      "originalFile": "prepared-second/prepared-saturated-second-receipt.json",
+      "file": "second-prepared-receipt.json",
+      "bytes": 18840,
+      "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+    },
+    {
+      "key": "second-prepared-system",
+      "scope": "second",
+      "originalFile": "prepared-second/prepared-saturated-second.bin.gz",
+      "file": "second-prepared-system.bin.gz",
+      "bytes": 42012,
+      "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+    },
+    {
+      "key": "second-complete-receipt",
+      "scope": "second",
+      "originalFile": "complete-second/complete-saturated-second-page-receipt.json",
+      "file": "second-complete-receipt.json",
+      "bytes": 22107,
+      "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+    },
+    {
+      "key": "second-complete-system",
+      "scope": "second",
+      "originalFile": "complete-second/complete-saturated-second.bin.gz",
+      "file": "second-complete-system.bin.gz",
+      "bytes": 72934,
+      "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+    },
+    {
+      "key": "third-complete-receipt",
+      "scope": "third",
+      "originalFile": "complete-third/complete-saturated-third-page-receipt.json",
+      "file": "third-complete-receipt.json",
+      "bytes": 17757,
+      "sha256": "3bb98210ccf8a7941f2a9a71c0d8d1a5fc8c0e11891c26d0e76d8079fa413619"
+    },
+    {
+      "key": "third-complete-system",
+      "scope": "third",
+      "originalFile": "complete-third/complete-saturated-third.bin.gz",
+      "file": "third-complete-system.bin.gz",
+      "bytes": 70591,
+      "sha256": "786333a4baa562a15e38666a31207e3ce0179e03a0e9505da2d6a4cc5fbe7c2c"
+    }
+  ],
+  "existingWholeState": {
+    "pathTemplate": "{work}/global197-original-inputs/state.bin",
+    "bytes": 1470456,
+    "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+    "gzipAllowed": true,
+    "scope": "exact same existing 315 state; substitute its actual restored filename if needed"
+  },
+  "restoreCLI": [
+    "python",
+    "{scripts}/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/root2-fourth-small-inputs"
+  ],
+  "preparationCLI": [
+    "python",
+    "{scripts}/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+    "--second-prepared-receipt",
+    "{work}/root2-fourth-small-inputs/second-prepared-receipt.json",
+    "--second-prepared-system",
+    "{work}/root2-fourth-small-inputs/second-prepared-system.bin.gz",
+    "--second-complete-receipt",
+    "{work}/root2-fourth-small-inputs/second-complete-receipt.json",
+    "--second-complete-system",
+    "{work}/root2-fourth-small-inputs/second-complete-system.bin.gz",
+    "--third-complete-receipt",
+    "{work}/root2-fourth-small-inputs/third-complete-receipt.json",
+    "--third-complete-system",
+    "{work}/root2-fourth-small-inputs/third-complete-system.bin.gz",
+    "--state",
+    "{work}/global197-original-inputs/state.bin",
+    "--reader",
+    "{scripts}/2026-11-14-r150-torsion-characteristic-789f.py",
+    "--helper",
+    "{scripts}/2026-11-14-r150-ninth-first-matrices-789f.py",
+    "--out",
+    "{work}/root2-fourth-complete210-preparation",
+    "--seconds",
+    "30",
+    "--memory-mib",
+    "512"
+  ],
+  "restoration": {
+    "onlySixSmallObjects": true,
+    "noLargeHistoricalChain": true,
+    "rootGitObjectsOnly": true,
+    "suggestedOuterSeconds": 180
+  },
+  "computation": {
+    "suggestedOuterSeconds": 60,
+    "seconds": 30,
+    "memoryMiB": 512,
+    "originalP7ProductsComputed": false,
+    "fourthImageRankComputed": false,
+    "keepAll210": true,
+    "dropSixOnlyAfterFutureExactIntegerZeroCarry": true
+  },
+  "outputs": {
+    "receipt": "root2-fourth-complete210-source-preparation-receipt.json",
+    "temporaryRecipe": "complete210-fourth-source-recipes.json.gz"
+  },
+  "localValidation": {
+    "ASTExecuted": false,
+    "reason": "local exec-server process unavailable; static review only; Actions is first Python parse"
+  },
+  "storage": "Only source, parameters and small execution receipts may be committed. Restore and output arrays remain temporary in the current job."
+}
