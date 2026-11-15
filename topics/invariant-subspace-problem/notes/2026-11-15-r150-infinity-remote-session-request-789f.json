@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "c8d509c6209b9c9a73c3197d69f34b46a1ef730a",
+  "rulesReadAtCommit": "2c2ee233533151d0d2595d555473ce7015522b41",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -524,6 +524,25 @@
       ],
       "timeoutSeconds": 55,
       "receiptPath": "{work}/seven-low-fill-content-scc/seven-low-fill-content-scc-receipt.json"
+    },
+    {
+      "id": "seven-row-content-profile",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-exact-row-content-profile-789f.py",
+      "scriptSHA256": "a638f5fc7b19814b7cf1edc079c8ff644e668279726fc93837ab7e96e595fa7f",
+      "argv": [
+        "--state",
+        "{work}/seven-exact-low-fill/seven-exact-low-fill-core-and-backsubstitution.json.gz",
+        "--columns",
+        "{work}/seven-low-fill-content-scc/seven-low-fill-exact-column-contents.json.gz",
+        "--out",
+        "{work}/seven-row-content-profile",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 65,
+      "receiptPath": "{work}/seven-row-content-profile/seven-exact-row-content-profile-receipt.json"
     }
   ]
 }

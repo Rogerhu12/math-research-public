@@ -41,7 +41,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 本地实际pull读73f76d741f3b47e9ab7837052bf8260a2a9c0722（2026-11-15 07:24:45 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，20分钟空闲/6h job上限。完整旧路径、哈希及接续状态保[本次H快照](notes/2026-11-15-handoff-before-strong-artin-linearization-789f.md)。
 
-- [七原方向续算](notes/r150-infinity-remote-session-789f/43679903558-seven-exact-low-fill.json)：原4318七RHS密集592秒未返；先剥26，再实际8.242471283秒精确消1541，总1567，余2751/424921项，coeff3693bit/RHS3677bit。全7RHS/DAG已保存，封存3.925719243秒，输入80,674,893B仅job临时。已入队seven-low-fill-content-scc（30s/2GiB）查列内容/块结构/本job FLINT版本，原状态不改；列缩放z=gx须在旧DAG前还原x=z/g，不计新核。
+- [七原方向续算](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)：密集592秒未返；精确总消1567，余2751/424921项。列内容实际2.807727007秒全除，2700非单位、最大系数3693→3691bit，仍一个2751结构块；原7RHS/完整DAG不改。已入队seven-row-content-profile（30s/2GiB）查B-only行内容、七真实分母及本job原生头/库路径。先逆列/行/RHS缩放再旧DAG；未添真核。原80,674,893B仅job临时，全部SHA见证明/回执。
 - [当前物理四次块](results/R150-appendix-physical-quadratic-rank986-and-degree-two-koszul-reduction.md)实际0.420009955秒，Qrank986/真常Koszul136；二次skew系数全消最高项仍不扩1632标准族，同J仍29维。更高系数未排。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
 - 小回执在notes/r150-infinity-remote-session-789f/；原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，不重已闭模页/LLL/多素数。
