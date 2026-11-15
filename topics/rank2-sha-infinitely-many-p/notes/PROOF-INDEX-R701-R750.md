@@ -46,3 +46,5 @@ R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位�
 - [R720：两固定CM来源与密度一长整窗](../results/R720-two-fixed-cm-sources-and-density-one-resonance-window.md)：固定1±6ω的Norm31/43 division输入为x³中5/7次，准确乘积φ6−ω²xψ6²及低log标量全付。范数/反范数独立两元的box计数给坏p O(X^0.9/logX)，好p共同六次群阶>X^1.2/12；任固定Cp窗仅原n=s共振，gauge唯一重建原U。亦付p^(1+ε),ε<1/3窗；实际全局极帽/旧预算与中央联系仍保。
 
 - [R721：原高度二整参数的最小二挠极帽](../results/R721-minimal-two-torsion-poles-for-original-height-two-parameter.md)：显式h_p=(x²/y)Σ_{j<s}a_j(b/y²)^j的全部单位递推付H−h_p=O(z^p)，Zhat=Z+cp^-1h_p^p保持DZ=1/全原q窗。实际极帽p(2s−1)D2，并在只二挠点极/原型/全窗类中最小；全sigma模型及首Cartier帽降m(q−6)p(2s−1)D2，所有其它单零与实际留数保。未关闭中央到前缀门。
+
+- [R722：真实切向常数二余量与指定残余列](../results/R722-actual-tangent-two-constant-kernel-and-specified-residual-columns.md)：保同原角格和值层，T>2κ/h>κ的jet单射给物理核/kF²嵌原值与首Euler值k²。实际H2^{00}/OF²为秩2κ+χ−2全单位整块，余下Fu_F与u_F²−λF u_F两指定列，完整整Schur保p³。原临界严格过门；旧预算扩大条件、全部其余W_D列/目标行及同R carry保，不将两列冒全余核二维。

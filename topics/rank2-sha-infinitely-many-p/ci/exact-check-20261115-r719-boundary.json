@@ -1,0 +1,24 @@
+{
+  "request_id": "rank2-20261115-r719-exact-boundary",
+  "run_id": 43694974589,
+  "source_commit": "ad90f969282811ed8d4499606cb577186e07ec39",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r719-exact-boundary-mixed-relation.py",
+      "script_sha256": "074730c7897224972ac89a6ac4ffddd20d60aaa580a6a2f16e9239413236c5ef",
+      "args": [
+        "--workers=4",
+        "--taus=2,3,4,5"
+      ],
+      "engine": "python3",
+      "sha256": "a1f1d8322212edebcb74e4de65ac3d418fe4d09061b5ada6a26d81eae8f6ee8c",
+      "stdout_bytes": 5116,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.9.0",
+  "job_id": 132753387780,
+  "read_utc": "2026-11-15 08:56:49 UTC",
+  "scope": "Exact Q(omega) boundary identity certificate; full coefficients are recomputable and not persisted."
+}
