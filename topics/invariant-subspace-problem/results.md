@@ -287,3 +287,7 @@
 ## 2026-11-15：原二次能量和真参数导数的完整十七式来源
 
 [二次能量、真参数导数与弱正常降阶](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给两个精确原17式常数M来源恒等，并由真实对称Schur证明弱列上的固定M导数系数恰降一阶。s=2由线性指数2得到弱系数一次；完整剩余二次项和共动三次反馈显式保留，未称九目标成员性。
+
+## 2026-11-15：原加权交换的两带结构与热跨旗指数界
+
+[精确二阶commutator与热跨旗界](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)证明真正交核旗仅对角加两个上带，利用其相对交换形式控制得到统一加权heat范数<10及跨旗指数尾10(16/17)^(s−r)。同时给T*的原D交换误差和真实链残量；非正交返回未由此关闭。
