@@ -157,8 +157,8 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 
-全部旧删除、restore、原scope、producer/输入/参数/失败逐字保3d6fbdaa0516a5059e1242c380c262c00fe392b9本节及H/log，原白名单继续保留；归档不授重算。四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint的恢复与完整SHA均见该档和各原清单。
-[三份step02浮点geometry清单](notes/2026-11-15-three-step02-floating-geometry-output-deletion-whitelist.json)f8987588与[两份Newton预测geometry清单](notes/2026-11-15-two-Newton-prediction-floating-geometry-output-deletion-whitelist.json)1fcc7238分别普通删1221901B/814736B。两清单保完整原producer/argv/path/Gitblob/bytes/SHA，恢复8870549d52e48343cb43a979a13f9368cb992736同path；全部源码/NPZ/H/精确预算/实际ray及反射/插值失败保持，禁重旧成功，无history rewrite。
+全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
+新增[单件jet浮点geometry白名单](notes/2026-11-15-jet-corrected-floating-geometry-output-deletion-whitelist.json)9578e927先于删除提交1a5b96418c5f7cd6e9a725008d62848f395f5083。当前普通删407315B，原blob0e07ead0/完整SHA60433b69保名单；恢复8870549d52e48343cb43a979a13f9368cb992736同path。原source/NPZ/实际ray/失败/小结论保，历史不改，旧数学禁重。
 
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机20:35:32定时CLI仍无executor，下一定时真CLI≤21:35；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 

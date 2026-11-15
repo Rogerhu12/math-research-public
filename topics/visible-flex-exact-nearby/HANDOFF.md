@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 21:08:26 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 21:09:03 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则和读取点
 
 只在公开 Rogerhu12/math-research-public 及其自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。PAT仅临时CLI/env，不入文件、输出、connector。根规12不另请审批。
 根规15只scripts/参数/run/SHA/真小结论，data/新数组/证书禁Git/Release/新artifact；topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入从immutable公开history/path/原artifact临时核SHA恢复。仅明确未保存的新量按H记录重做。无executor时根规8仅UTF8<100KB connector，禁binary/gzip和大日志。H≤10KB、open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 20:35:32定时CLI及21:06非FF即时CLI失败，下一≤21:35。ref不是pull。原SN真pull21:03:52.751473→39616fedc70bb5b3d8f37db12f69a8295e09e962，两README空diff，回执8384b45d；非FF已保远端重推成功。
-最近只读README核：000555472d7bc350107f44c58119fbab7f67ca14；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：9b4af6001dc9eedfa6ca631d6409375e9ee9a137；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 本次完整H/open/results/log前页保576de7aa3736a2ee7b0b88377c15f9fbb1830973同路径，递归fcbc/d358/148a/e7e9及原档。全部原域/单位/mean/失败/lost/恢复和未付义务保留。
 
 ## 同一对象及真正完成标准
@@ -51,5 +51,5 @@ S/T exacttail只同γ A0/r≤1/128及H8193/r≤2^1048576、r1e−9；Γ1负princ
 
 ## 恢复与持续执行
 
-旧cleanup/恢复/source/域保前档；2Newton geometry白名单1fcc7238已删814736B，前3件f8987588保。新jet geometry白名单9578e927已审：只407315B ordinary floating输出、原blob0e07ead0，拟下一条普通删；restore8870549d52e48343cb43a979a13f9368cb992736同path/完整SHA见白名单。所有source/对象/NPZ/H/预算/ray/失败保，不改历史、不重旧数学。
+旧cleanup/恢复/source/域保前档；2Newton geometry白名单1fcc7238已删814736B，前3件f8987588保。新jet geometry白名单9578e927已审：只407315B ordinary floating输出、原blob0e07ead0，已普通删407315B；restore8870549d52e48343cb43a979a13f9368cb992736同path/完整SHA见白名单。所有source/对象/NPZ/H/预算/ray/失败保，不改历史、不重旧数学。
 继续open：SN→实际nonmean/强E/incoming→GH/ν；ST新尾接线；SC3与新core restriction→同态五输入/高迹/γ入口→完整matching→同对象几何。子题完接下一项，未达总标准持续，不等用户，不因时长停。
