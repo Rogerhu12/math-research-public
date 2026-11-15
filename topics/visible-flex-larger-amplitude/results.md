@@ -164,3 +164,5 @@
 - [R324：同C有限头通量与完整闭管](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)：原primitive系数、无pivot尺度、Taylor/Duhamel和全部cut逆像的严格包含；实际112/DN未预付。
 
 - [R320：真实146完整两法向响应与有限参数词分辨率](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)：全8方向15trial、84实探、五次20档拒和完整原最终门；全部finalfalse，后继一致高精度。
+
+- [R325：完整literal field固定根轨迹的区间包含性](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)：逐步整数向外、113root/225Gram/226态/224shape与可选六几何列；正定、严格逆界、primal误差和方向solve齐备的条件构造，不预付实际证书或全RK/native。

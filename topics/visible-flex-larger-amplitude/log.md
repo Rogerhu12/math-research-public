@@ -512,3 +512,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — 147真实core与同job C cut的新九族构造入口
 
 [147接口](notes/2026-11-15-request147-actual-continuous-nine-v3-construction-interface.md)12251B/33977964及helper/request/workflow完整完成即推：旧144全部11pins/三输入/六primitive/点+whole/原1800s保，新19pins接M96准确core/146末九p，以R323明确d/e/e给未改v3 factory双域和numeric近似。helper738dd352/request4b6f78bb/wff539e752，原E与新构造各有真pull runner，95min job/20min新phase/每域300s；完整三摘要、width/seam分段、中断现存metadata always读回后清raw，不预付新C J/BVP。根8/API核双规则非pull，直接本库运行。
+
+## 2026-11-15 /root — R325完整固定field区间包含性
+
+[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)14028B/1caa1276575e7cb86ee151dcb15c1736bd9b2e5e5b4e5245f1d24cf0cac20081全文核后即发；保113root/225Gram/226态/224shape+可选6独立几何列，整数向外、C正定/严格逆界、primal与方向误差全传。固定准确实trace不冒F_e真根/动态分支/IEEE导数/全RK；150真实消费者继续，140/145原门不变。147实际run43717814570/source3b2df31a，144两job success转R322完整读回；API双README复核非pull。
