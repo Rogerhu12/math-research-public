@@ -685,3 +685,106 @@ $|\mathcal C_{p,r}|\ll p^{2-\epsilon}$
 普通一维 Fermat 商 $e_p(rq_p(n))$ 并不具有这个性质，不能将其短和或跨 $p$ 平均定理直接代入 (B11)。将原加性 Fourier 完成到全环只得到附录 A / (B9) 的同一个自对偶式，不自动提供新的节省。
 
 本附录没有证明 (B11) 的 $o(p^2)$，也没有删除任何非实补偿。
+
+
+## 附录 C. 原二维 anti-Fermat 核的全部加法交数
+
+本附录保持附录 A 的 $R=\mathcal O_K/p^2$、$G$、$h$ 和非归一 trace Fourier 变换；$|R|=p^4$。写加法卷积为
+$$
+(f*g)(a)=\sum_{v\in R}f(v)g(a-v).
+$$
+原 $G=-G$，所以卷积也正是平移交数。由 (42)，若 $A=\mathbf1_G$、$k=|G|=p^3-p$，则
+$$
+\widehat A(0)=k,\qquad
+\widehat A(\xi)=
+\begin{cases}
+p^2-p,&\xi\in G,\\
+-p,&0\ne\xi\notin G.
+\end{cases}
+\tag{C1}
+$$
+第二行包括全部非零 $\xi\in pR$；没有删掉非单位方向。
+
+两个非平凡 Fourier 值都是
+$t^2-p(p-2)t-p^2(p-1)=0$ 的根。原点的值另准确补齐，从而 Fourier 反演给
+$$
+\boxed{
+A*A=p^2(p-1)\mathbf1_{\{0\}}
+       +p(p-2)A+p(p-1)\mathbf1_R.
+}
+\tag{C2}
+$$
+特别实际有限交数为
+$$
+\boxed{
+|G\cap(a+G)|=
+\begin{cases}
+p^3-p,&a=0,\\
+2p^2-3p,&a\in G,\\
+p^2-p,&a\ne0,\ a\notin G.
+\end{cases}
+}
+\tag{C3}
+$$
+最后一项亦适用于每个非零 $p$ 倍数。
+这是原全部二位 Teichmüller 截面所给的等式，不是普通 $\mathbf F_{p^2}$ 上范数圆锥的 Weil 近似。
+
+对正文的已中心化核，逐点有
+$$
+h^2=(1-2/p)h+\frac{p-1}{p^2}\mathbf1_{R^\times}.
+$$
+由于 $\widehat h=p^2h$ 及 $h(-a)=h(a)$，同一反演规范给
+$$
+h*h=p(p-2)h+\frac{p-1}{p^2}
+                     \widehat{\mathbf1_{R^\times}}.
+\tag{C4}
+$$
+保留 (43) 的全部非单位项后，准确为
+$$
+\boxed{
+\sum_vh(v)h(v-a)=
+\begin{cases}
+(p-1)(p^2-1),&a=0,\\
+-(p-1),&0\ne a\in pR,\\
+(p-1)(p-2),&a\in G,\\
+-(p-2),&a\in R^\times\setminus G.
+\end{cases}
+}
+\tag{C5}
+$$
+原负号加性角色给同样的表；没有额外根单位。
+
+为明确这些完整相关与原短域之间的关系，定义实际带坏位权的周期化
+$$
+F_p(v)=
+\sum_{\substack{0\ne\alpha\in\mathcal O_K\\
+                 \alpha\bmod p^2=v,\;(\alpha,2\delta17)=1}}
+ \frac{\psi((\alpha))}{N\alpha}
+             e^{-N\alpha/(Q_0p^2)}.
+\tag{C6}
+$$
+它绝对收敛，完整保原理想生成元及 $\psi_{17}$，每个理想计六次。于是原中央能量读取的是**指定平移零**：
+$$
+\boxed{
+\sum_{v\in R}h(v)F_p(v)
+       =6\bigl(\mathcal Z_p+\mathcal T_p/p\bigr).
+}
+\tag{C7}
+$$
+对任意 $F:R\to\mathbf C$，完整平移二阶平均确实满足
+$$
+\begin{aligned}
+&\sum_a\left|
+ \sum_v A(v-a)F(v)-\frac{k}{p^4}\sum_vF(v)
+                    \right|^2\\
+&\quad=\frac1{p^4}
+ \left\{p^2(p-1)^2\sum_{\xi\in G}|\widehat F(\xi)|^2
+   +p^2\sum_{\substack{\xi\ne0\\\xi\notin G}}
+                                 |\widehat F(\xi)|^2\right\}.
+\end{aligned}
+\tag{C8}
+$$
+这保留全部原 Fourier 坐标，但没有将平移 $a=0$ 从平均中分离出来。
+(C3)–(C8) 也没有将 $F_p$ 的原 $\lvert\alpha\rvert\asymp p$ 短域换成全环。
+因此本附录支付了原二维核的精确加法二阶代数，尚不支付
+(C7) 的严格正性、附录 B 的同步 $o(p^2)$ 或任何新的原中央零。

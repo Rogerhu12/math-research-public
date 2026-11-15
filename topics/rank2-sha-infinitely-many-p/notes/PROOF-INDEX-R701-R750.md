@@ -82,3 +82,5 @@ R724附录B：原primitive理想射线、严格正径向因子及固定短方向
 - [R729：范数三、七的原小CM与密度一全窗恢复](../results/R729-norm-three-seven-cm-and-density-one-full-ah-reconstruction.md)：准确R3=X、R7=X³+a7bw和完整Gaussian/Fermat商；Norm秩二/anti单秩小阶计数给共同六次阶>X^1.05/12，坏p O(X^.9/log)。密度一e≥s补全两AH二位族，唯一指定整个原U及全部Cartier；实际degree3/7成本保，不预付旧格或中央非零。
 
 - [R730](../results/R730-specified-ramification-class-linear-contact-bound-and-actual-mirror-kernel.md)：已证明原h≤4a_F+8b+3Δ及临界指定分歧类非零，完整FH2商由真实镜轴连接核读取；指定列若被吸收则产生独立原首核，原核一维仍是明确条件。
+
+- R724 附录C：已证明原全O/p²的G/h准确加法交数（含非零p倍），原ψ17高斯指定零平移与完整平移二阶平均分别保留，未推出原严格正性。

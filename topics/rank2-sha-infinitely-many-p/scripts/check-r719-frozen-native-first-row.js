@@ -631,6 +631,89 @@ const S2values=pointList.map(P=>qSdouble(P.x)),newValues=pointList.map(P=>qNew(P
 const V136=pointList.map(P=>Array.from({length:23},(_,j)=>md(P.x*P.x*pow(P.X,j))));
 assert(elim(V136).rank===23,"full 23-coordinate Vandermonde is nonsingular");
 
+
+/* Full type-five trace: same actual R297 division functions and R307 y-ratio.
+   Five fitting fibers and two additional complete fibers are used.  The odd
+   y-ratio is gamma/gammabar * xbar'(x)/xgamma'(x), with no square-root choice. */
+let type5CMCache=null;
+function fullType5CM13(){
+ if(type5CMCache)return type5CMCache;
+ const tr=A=>{A=A.slice();while(A.length&&!A.at(-1))A.pop();return A;};
+ const pa=(A,B,s=1)=>tr(Array.from({length:Math.max(A.length,B.length)},(_,j)=>md((A[j]||0)+s*(B[j]||0))));
+ const ps=(A,s)=>tr(A.map(v=>md(v*s)));
+ const pm=(A,B)=>{const C=Array(Math.max(0,A.length+B.length-1)).fill(0);
+  A.forEach((a,i)=>B.forEach((b,j)=>{C[i+j]=md(C[i+j]+a*b);}));return tr(C);};
+ const pd=A=>tr(A.slice(1).map((v,j)=>md(v*(j+1))));
+ const pq=(A,B)=>{let R=tr(A);B=tr(B);assert(B.length,"type5 polynomial divisor");
+  const Q=Array(Math.max(0,R.length-B.length+1)).fill(0);
+  while(R.length>=B.length){const j=R.length-B.length,a=md(R.at(-1)*iv(B.at(-1)));Q[j]=a;
+   B.forEach((b,k)=>{R[j+k]=md(R[j+k]-a*b);});R=tr(R);}
+  return {q:tr(Q),r:R};};
+ const mod=(A,F)=>pq(A,F).r;
+ const pinv=(A,F)=>{let R0=F.slice(),R1=mod(A,F),T0=[],T1=[1];
+  while(R1.length){const v=pq(R0,R1),T2=pa(T0,pm(v.q,T1),-1);
+   [R0,R1,T0,T1]=[R1,v.r,T1,T2];}
+  assert(R0.length===1&&R0[0],"whole type5 fiber denominator");
+  return mod(ps(T0,iv(R0[0])),F);};
+ const ppow=(A,n,F)=>{let r=[1];A=mod(A,F);
+  for(;n;n=Math.floor(n/2),A=mod(pm(A,A),F))if(n%2)r=mod(pm(r,A),F);
+  return r;};
+ const gam=ne(4,1),gbar=ne(3,-1);
+ const q=ps([ne(64,48,13),0,0,ne(8,12),0,0,1],gam);
+ const qb=ps([ne(16,-48,13),0,0,ne(-4,-12),0,0,1],gbar);
+ const map=Q=>{
+  const q2=pm(Q,Q),qp=pd(Q),qpp=pd(qp);
+  return {num:pa(pa(ps(pm([0,1],q2),13),
+    ps(pm([1,0,0,1],pa(pm(qpp,Q),pm(qp,qp),-1)),-4)),
+    ps(pm([0,0,1],pm(qp,Q)),-6)),
+   den:ps(q2,md((Q===q?gam:gbar)**2))};
+ };
+ const fwd=map(q),bar=map(qb);
+ const deriv=(T,F)=>mod(pm(pa(pm(pd(T.num),T.den),pm(T.num,pd(T.den)),-1),
+  pinv(pm(T.den,T.den),F)),F);
+ const fibers=[];
+ for(let a=2;a<=8;a++){
+  let F=pa(fwd.num,ps(fwd.den,a),-1);F=ps(F,iv(F.at(-1)));
+  assert(F.length===14,"actual norm thirteen full fiber");
+  pinv(pd(F),F);
+  const ratio=mod(pm(qb,pinv(q,F)),F),xb=mod(pm(bar.num,pinv(bar.den,F)),F);
+  const yr=ps(mod(pm(deriv(bar,F),pinv(deriv(fwd,F),F)),F),md(gam*iv(gbar)));
+  let v=mod(pm(pm(ppow(ratio,34,F),yr),xb),F),step=ppow(xb,3,F);
+  const row=[];
+  for(let j=0;j<5;j++){row.push(mod(pm(v,pd(F)),F)[12]||0);v=mod(pm(v,step),F);}
+  fibers.push(row);
+ }
+ const evals=Array.from({length:5},(_,i)=>Array.from({length:5},(_,j)=>pow(i+2,1+3*j)));
+ const M=Array.from({length:5},()=>Array(5).fill(0));
+ for(let j=0;j<5;j++){const sol=elim(evals,fibers.slice(0,5).map(r=>r[j]));
+  assert(sol.rank===5&&!sol.inconsistent,"entire type5 Vandermonde");
+  sol.solution.forEach((v,i)=>{M[i][j]=v;});}
+ for(let a=7;a<=8;a++)for(let j=0;j<5;j++)
+  assert(md(M.reduce((v,R,i)=>md(v+pow(a,1+3*i)*R[j]),0))===fibers[a-2][j],
+   "extra complete type5 CM13 fiber");
+ const N=M.map(R=>R.map(v=>md(v*iv(gam))));
+ const eye=Array.from({length:5},(_,i)=>Array.from({length:5},(_,j)=>+(i===j)));
+ let BB=eye,characteristic=[1];
+ for(let k=1;k<=5;k++){BB=mm(N,BB);const ck=md(-BB.reduce((v,R,i)=>md(v+R[i]),0)*iv(k));
+  characteristic.push(ck);BB=BB.map((R,i)=>R.map((v,j)=>md(v+(i===j?ck:0))));}
+ assert(BB.every(R=>R.every(v=>!v)),"full characteristic polynomial");
+ const lines=[];
+ for(let ev=1;ev<pp;ev++)if(pow(ev,18)===1){
+  const e=elim(N.map((R,i)=>R.map((v,j)=>md(v-(i===j?ev:0)))));
+  const pivset=new Set(e.piv);
+  for(let j=0;j<5;j++)if(!pivset.has(j)){const v=Array(5).fill(0);v[j]=1;
+   e.piv.forEach((k,i)=>{v[k]=md(-e.reduced[i][j]);});
+   assert(mm(N,v.map(x=>[x])).every((R,i)=>R[0]===md(ev*v[i])),"entire type5 eigenline");
+   lines.push({eigenvalue:ev,order:pow(ev,6)===1?"divides6":"18",vector:v});
+  }
+ }
+ assert(lines.length===5,"five complete type5 eigenlines over auxiliary splitting field");
+ const V=Array.from({length:5},(_,j)=>lines.map(l=>l.vector[j]));
+ assert(elim(V).rank===5,"full type5 diagonalization");
+ type5CMCache={N,characteristic,lines,V,fitting_fibers:[2,3,4,5,6],additional_fibers:[7,8]};
+ return type5CMCache;
+}
+
 function analyze(TAU){
 const AP=all.matrix.Aplus.map(R=>R.map(ef)),AZ=all.matrix.Azero.map(R=>R.map(ef));
 const BM=all.polynomial_right_inverse.B.map(M=>M.map(R=>R.map(ef)));
@@ -1058,6 +1141,35 @@ for(const c of candidates){
   scope:"Complete finite-field operator applied to unchanged actual q715/neutral sources. No characteristic-zero incidence, new arithmetic zero, or negative-moment nonvanishing is inferred."
  };
 
+
+ const odd=fullType5CM13();
+ const oddSource=d=>{
+  const P=d.slice().reverse(),c=elim(odd.V,P);
+  assert(c.rank===5&&!c.inconsistent,"whole type5 spectral coefficients");
+  const low=odd.lines.filter(l=>l.order==="divides6");
+  const ar=Array.from({length:5},(_,j)=>md(odd.lines.reduce((v,l,k)=>
+   l.order==="divides6"?md(v+c.solution[k]*l.vector[j]):v,0)));
+  const out=P.map((v,j)=>md(v-ar[j]));
+  return {ascending_type5_coordinates:P,CM13_eigen_coefficients:c.solution,
+   order_dividing_six_part:ar,primitive_eighteen_part:out,
+   primitive_eighteen_part_is_zero:out.every(v=>!v)};
+ };
+ const oddP=residualTheta.map(v=>v.slice().reverse());
+ const oddAct=P=>mm(odd.N,P.map(v=>[v])).map(r=>r[0]);
+ const oddSpan=cols=>elim(Array.from({length:5},(_,j)=>cols.map(v=>v[j]))).rank;
+ const actualOddGeometry={
+  construction:"R297 complete norm13 fibers, R307 exact gamma/gammabar derivative y-ratio, actual type5",
+  basis:"-sigma^34*x*y*X^j, j=0,...,4; b=1",
+  normalized_matrix:odd.N,characteristic_descending:odd.characteristic,
+  fitting_fibers:odd.fitting_fibers,additional_fibers:odd.additional_fibers,
+  complete_eigenlines:odd.lines,
+  residual_basis:residualTheta.map(oddSource),
+  residual_CM13_closure_dimension:oddSpan(oddP.concat(oddP.map(oddAct))),
+  q715:oddSource(fullFirstSource(diffMatrix,diffOld,as.solution,true).theta_coordinates),
+  zeta715:oddSource(fullFirstSource(diffMatrix,diffOld,an.solution,false).theta_coordinates),
+  scope:"Actual auxiliary full trace only. An eigenvalue of order six is not by itself an identified elliptic Schwartz vector; all finite local data, periods, unit cuts, and negative moments remain to be proved."
+ };
+
  const frozenNormalAnalysis={
   raw_first_observations:["Y0=A+c+2d","Y1=A+2c-d"],
   raw_second_observations:["W0=A+3delta*c+4d","W1=A+4c-3delta*d"],
@@ -1076,6 +1188,7 @@ for(const c of candidates){
   exact_auxiliary_J2_readers:{paid_forty_nine_plus_difference:paidJReader,native_without_quarter:nativeJReader},
   original_S_line_incidence:originalSIncidence,
   inverse_connection_CM13:cmGeometry,
+  actual_type5_CM13:actualOddGeometry,
   residual_polynomial_geometry:residualPolynomialGeometry,
   residual_image:{rank:er.rank,pivot_columns:er.piv,
    basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},
