@@ -197,3 +197,6 @@
 
 
 - [R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625](results/R150-appendix-zero-fifteen-sixth-left-jets-exact-first-four-factor101-and-cost8625.md)：完整原六阶15头，零头纤维给零点第一4/第二0；55/48、K101和最大Smith7…18。全部6188原来源真核，九平方至λ6全零；在∞91/88/88下条件来源费8625，原成员性仍为前提。
+
+
+- [R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623](results/R150-appendix-selected-natural-second-connection-exact-nine-from-koszul29-and-cost8623.md)：实际真K29配对ρ5与完整source核余维7给完整第二rank恰9/24头存在；旧22显式，高normal像真rank2。∞93/90/90和K101给q8426…8576、条件三费8620/8623/207，原成员性仍是前提。
