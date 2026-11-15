@@ -132,3 +132,7 @@ DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄d
 2026-11-15 23:26:29 UTC BT：root全文及两peer实际cutoff/dual/mean/factor核通过；Q97 TF逆双消、transported idempotent与sign有限unitary、根FF两侧1215精确，未作新数值。
 完整retained六类审计保actual columns/dual/square与独立functional ports；radial head和变化有限映射积分不冒finite，原paid不减。SC3 root只读原step9健康/前8success，未重启。
 双README读取674d8d8079c5079a3b101faaceb44de796744473未变；本机22:59:32真CLI无executor，根规8小文本例外继续。
+
+2026-11-15 23:29:04 UTC NW：root全文数学及当前CY MS窄更正身份核齐，newton4–6同核。真w/p、CN双mean、一次exp低P0、PIB同逆及第二global[N,Z]全序保，无新数值。
+CE仍完整未付；新scalar仅原SEI八导只读后组合，旧成功不重。已成索引窄压前逐字保5899928eedc707938656e8333ec59f9de18e26da同H/open，未付门不减。
+双README读取65235d1af16a18740abd61f3e70f585938173b10未变；本机22:59:32真CLI无executor，根规8小文本例外继续。
