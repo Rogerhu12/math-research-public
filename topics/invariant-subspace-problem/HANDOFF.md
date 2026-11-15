@@ -28,7 +28,7 @@
 - 活跃run43756208221自20:06:58运行，350分钟loop/360分钟job；每30分钟/每步/push前实际pull核两README。request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp根为/home/runner/work/_temp/isp-source-kernel-session-43756208221。旧run43740928483全部18原步骤已付，不假用跨job临时数据。
 - 新job已从原源码重做第五、P、常高、第六、第七高/低；5/P/6/7全部所需完整phase及manifest通过历史bytes/SHA。恢复仅gzip时间与paid RREF用时元数据，不改数学条目；新实际用时另记。全小回执仍统一notes/r150-source-kernel-session-789f/，未满足requires不执行。
 - [第八真实高零](results/R150-appendix-infinity-eighth-high-zero-and-eleven-incoming-source-maps.md)：A2λ6和A1λ7各Q零，99008原lower产品真，λ7真链normal2有40非零、incoming有75非零且全保。第八完整1088×600已排180秒/2GiB，11incoming高必须回填λ7；β8未预报。第七4120×16pack及全恢复SHA见[当前归档](notes/2026-11-15-handoff-before-eighth-high-and-core-789f.md)和正式稿。
-- 原全局P core56×22已实际构造/全部原乘回，641非零、最高degree126、分子/分母409/213bits；完整行模gcd接续待排，同source727175/同tmp original-global-projection-polynomial。未算Ω或Q60。根独占main/H/open/results/log逐结论实际push，代理交冻结稿。
+- 原全局P core56×22已实际构造/全部原乘回，641非零、最高degree126、分子/分母409/213bits；完整行模gcd已排600秒/4GiB（outer660），同source727175/同tmp original-global-projection-polynomial。未算Ω或Q60。根独占main/H/open/results/log逐结论实际push，代理交冻结稿。
 
 ## 同一个w的边界：测试已控，完整返回仍开
 

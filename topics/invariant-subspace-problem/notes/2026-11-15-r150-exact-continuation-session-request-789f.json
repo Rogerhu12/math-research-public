@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "5053bc28aa2d01653f7098386d580de5fc4c61bb",
+  "rulesReadAtCommit": "35421ae75ce3dbb31c3d6b262957215b81bd721f",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -742,6 +742,34 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/infinity-complete-eighth-after-high-probe-receipt.json"
+    },
+    {
+      "id": "original-global-projection-row-module-gcd-600",
+      "requires": [
+        "original-global-projection-polynomial-core"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+      "scriptSHA256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--out",
+        "{work}/original-global-projection-polynomial",
+        "--through",
+        "gcd",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/original-global-projection-polynomial/original-global-projection-core-receipt.json"
     }
   ],
   "previousSession": {
@@ -750,5 +778,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Full infinity first7 ranks4,0,1,3,1,1,1, length63..66. Actual eighth high terms A2lambda6 and A1lambda7 separately zero,99008 original lower products and11 whole incoming verified, including75 nonzero higher incoming coordinates. Queue complete1088x600 low stage with entire incoming high reconstruction. Original Q[s] core56x22 now actually verified:641 nonzero entries,degree126,height409/213bits; full polynomial row-module gcd not yet computed. Ordinary ISP remains open."
+  "mathematicalProgramStatus": "Full infinity first7 ranks4,0,1,3,1,1,1, length63..66. Actual eighth high terms A2lambda6 and A1lambda7 separately zero,99008 original lower products and11 whole incoming verified, including75 nonzero higher incoming coordinates. Queue complete1088x600 low stage with entire incoming high reconstruction. Original Q[s] core56x22 now actually verified:641 nonzero entries,degree126,height409/213bits; full polynomial row-module gcd not yet computed. Ordinary ISP remains open. Continue exact56x22 polynomial row module and complete gcd for600 seconds/4096MiB; all forward56-source combinations and reverse56-row reductions mandatory. No gcd or Omega degree prefilled; if budget-checkpoint, inspect only actual saved complete state."
 }
