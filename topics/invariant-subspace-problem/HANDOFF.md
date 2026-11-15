@@ -46,6 +46,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w、原u_Q、future、
 - [真实N⊥形式读数](results/R271-appendix-anisotropic-high-bit-averaging-modulo-stable-range-and-formal-readout.md)：(s,N+1)真右逆经远位实际Ni平均，range落任意RanB^r、norm≤2B#；完整有限旗给(Gtilde−J)Π⊂N。原f∈N⊥（含W）的形式h有Πh=Gtilde*f；未假h∈H，不扩大MP域。
 - 实际返回为正向(C+D_x)Rr=−P_hi T J_b r；PEhat含全部零源Schur且不保孔数。n≈Q≫x窗口尚未运输，不能用伴随界直接乘正向残量，不能让增长B乘无速率tail后封口。Riordan右/裸/全旗及同窗误差已付；强gauge末端、原固定f Green O(R³)、普通两费仍开。
 
+- [同一Neumann原列](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)：用真G7→3修正得G_reg输出X3、T G_reg=Π；carry的X7费≤B_s e^(-40u⁴)。原f∈N⊥形式h有Πh=G_reg*f，且||Πh−G0*f||≤B_s e^(-39u⁴)||f||。保原G0/同m,x，未删返回投影。
+
 ## 其余未闭
 
 Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；每闭不变M有closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距或实际下一完整尾距离上界，R289/R291不矛盾。所有未列open条目继续，不以中间结果结束主课题。

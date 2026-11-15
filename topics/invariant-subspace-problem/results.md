@@ -191,3 +191,6 @@
 
 
 - [R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)：130新单位RHS和166列完整残差rank144/交维0，95788原产品全零；normal≤4完整二阶头仍22且整个normal4分量被迫零。normal5仍开，完整β2仍[9,11]、条件费8627。
+
+
+- [R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)：X7→X3真修正使原Neumann列与N⊥规范形式读数相差≤B_s e^(−39u⁴)||f||，保同G0/原forcing和稳定范围，不假形式h全局L²。
