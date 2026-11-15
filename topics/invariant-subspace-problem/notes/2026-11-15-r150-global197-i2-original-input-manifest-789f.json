@@ -1,0 +1,202 @@
+{
+  "format": "r150-global197-i2-original-input-manifest-v1",
+  "date": "2026-11-15",
+  "author": "ChatGPT (AI), literature_audit",
+  "status": "prepared-no-new-mathematics-executed",
+  "prime": 31,
+  "sourceHighKernelNumbersOneBased": [
+    2,
+    198
+  ],
+  "sourceCount": 197,
+  "batchSize": 31,
+  "batchCount": 7,
+  "lastBatchActiveColumns": 11,
+  "firstRightHandSideCost": 81,
+  "originalSourceCost": 177,
+  "originalProductModulus": 29791,
+  "originalProductDivisor": 961,
+  "normalFormScope": "complete polynomials, every original output, complete 505 free observations, complete 315 torsion coordinates and multiplication by s",
+  "files": {
+    "model": {
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "aliases": [
+        "native-normal-form-input.txt",
+        "normal-form-input.txt",
+        "model.txt"
+      ],
+      "logicalName": "model.txt"
+    },
+    "graph": {
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce",
+      "aliases": [
+        "reweighted-basis.bin",
+        "graph.bin"
+      ],
+      "logicalName": "graph.bin"
+    },
+    "originalNF": {
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840",
+      "aliases": [
+        "nf-normal-forms.bin",
+        "originalNF.bin"
+      ],
+      "logicalName": "originalNF.bin"
+    },
+    "normalTrace": {
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b",
+      "aliases": [
+        "nf-reduction.bin",
+        "normalTrace.bin"
+      ],
+      "logicalName": "normalTrace.bin"
+    },
+    "forward": {
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "aliases": [
+        "nf-forward.bin",
+        "forward.bin"
+      ],
+      "logicalName": "forward.bin"
+    },
+    "backward": {
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "aliases": [
+        "nf-backward.bin",
+        "backward.bin"
+      ],
+      "logicalName": "backward.bin"
+    },
+    "oldK": {
+      "bytes": 48275717,
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88",
+      "aliases": [
+        "kernel-original-kernels.bin",
+        "oldK.bin"
+      ],
+      "logicalName": "oldK.bin"
+    },
+    "oldNF": {
+      "bytes": 10865128,
+      "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b",
+      "aliases": [
+        "beta-normal-forms.bin",
+        "oldNF.bin"
+      ],
+      "logicalName": "oldNF.bin"
+    },
+    "oldQ": {
+      "bytes": 16649150,
+      "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338",
+      "aliases": [
+        "image-image-quotients.bin",
+        "oldQ.bin"
+      ],
+      "logicalName": "oldQ.bin"
+    },
+    "oldRem": {
+      "bytes": 2520,
+      "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de",
+      "aliases": [
+        "image-image-remainders.bin",
+        "oldRem.bin"
+      ],
+      "logicalName": "oldRem.bin"
+    },
+    "oldTrace": {
+      "bytes": 113614260,
+      "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae",
+      "aliases": [
+        "beta-reduction.bin",
+        "oldTrace.bin"
+      ],
+      "logicalName": "oldTrace.bin"
+    },
+    "integerModel": {
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc",
+      "aliases": [
+        "original-integer-h25-mod29791.txt",
+        "integerModel.txt"
+      ],
+      "logicalName": "integerModel.txt"
+    }
+  },
+  "smallFiles": {
+    "state": {
+      "bytes": 1470456,
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+      "aliases": [
+        "2026-11-14-r150-torsion-state.bin-789f.gz",
+        "state.bin",
+        "torsion-state.bin"
+      ],
+      "compressedSHA256": "5d86da2405f357c165d80d7fc2def5f419163b1e5d5a14bc9fa33fc05fafb60c"
+    },
+    "selector": {
+      "bytes": 10040,
+      "sha256": "2d90d72ac72cc63e5531b80a6e788ef82c6bf794481b53546b27b0afcb7134ee",
+      "aliases": [
+        "first-residual-in-actual-second-saturation.bin.gz",
+        "selector.bin",
+        "U7.bin"
+      ],
+      "compressedSHA256": "29583cf3f52bb3e78393bd483d80cf7fe5947199a09a4adc87a1ceee88857043"
+    }
+  },
+  "historicalRecoveryLocations": [
+    {
+      "scope": "T96 graph and paid original NF/DAG only",
+      "run": 43597823809,
+      "artifact": 14114364261,
+      "artifactName": "isp-r150-t96-graph-recovery-43597823809-1",
+      "bytes": 299422058,
+      "archiveSHA256": "970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241",
+      "members": [
+        "isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "isp-r150-native-nf/nf-normal-forms.bin",
+        "isp-r150-native-nf/nf-reduction.bin",
+        "isp-r150-native-nf/nf-forward.bin",
+        "isp-r150-native-nf/nf-backward.bin"
+      ]
+    },
+    {
+      "scope": "old complete 200 true first kernels, quotient and trace",
+      "run": 43605503242,
+      "artifact": 14118112895,
+      "artifactName": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+      "bytes": 160817149,
+      "archiveSHA256": "c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b",
+      "members": [
+        "original/kernel-original-kernels.bin",
+        "normal/beta-normal-forms.bin",
+        "normal/beta-reduction.bin",
+        "image/image-image-quotients.bin",
+        "image/image-image-remainders.bin"
+      ]
+    }
+  ],
+  "historicalSmallPaths": {
+    "state": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz",
+    "selector": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1/rebuilt-selector/first-residual-in-actual-second-saturation.bin.gz",
+    "integerModel": "topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+    "model": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+  },
+  "storage": "All recovered arrays and generated arrays stay temporary in the job; publish only source, parameters and small receipts/hashes.",
+  "recompute": "No old graph, old polynomial normal form, old 200 kernels or original Gaussian pivot search is rerun. The paid F/B operations are replayed to apply the same original normal form to the 197 new divided columns.",
+  "historicalSmallRef": "0d642288dbc6f42f3765edd8c104d48881dae208",
+  "historicalSmallEvidence": {
+    "modelBlob": "9d9396f07ad5299990da8c6799fcd99037d6a450",
+    "integerModelBlob": "c240b309164a0dacc01bcd8bbdb73d347cb1e3f1",
+    "stateReceipt": "topics/invariant-subspace-problem/notes/2026-11-14-r150-native-torsion-state-receipt-789f.json",
+    "stateReceiptBlob": "e22df397550deb52d77f8ea2230306c55c914742",
+    "selectorReceipt": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1/rebuilt-selector/first-residual-in-actual-second-saturation-receipt.json",
+    "selectorReceiptBlob": "bb9ba9a25dbfab08300a33c630de91a8476b45ea"
+  }
+}

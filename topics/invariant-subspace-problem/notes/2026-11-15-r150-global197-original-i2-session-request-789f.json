@@ -1,0 +1,41 @@
+{
+  "format": "isp-global197-original-second-image-session-v1",
+  "rulesReadAtCommit": "903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "largeDataPersistenceAllowed": false,
+  "releaseAssetsUsedOrCreated": false,
+  "historicalInputs": [],
+  "maximumIdleSeconds": 21600,
+  "closeSessionWhenStepsComplete": false,
+  "steps": [
+    {
+      "id": "restore-original197-minimal-historical-inputs",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+      "scriptSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+          "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+        }
+      ],
+      "argv": [
+        "--manifest",
+        "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/global197-original-inputs",
+        "--remaining-seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/global197-original-inputs/original-input-recovery-receipt.json"
+    }
+  ]
+}
