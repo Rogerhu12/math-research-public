@@ -155,3 +155,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:57:06 UTC — 首signed-root真实失败、精确Re分母修复并再部署
 
 根读取fed40b6d537b1afdbbd5734d6e80b98bd234c226两README未变。首run43691675493/1完整execution10454B/SHAa8fc52edac163539fd8fb474c2803c05b3af9f29c852b9755f3639ce6677db24与result1857B/SHAf3f75785aa98323d67cf7e01eec0b4a46044706379a357a5b275e888aba2c92f已亲读，三原stage/九入口通过，数学.360076374s/child1/0新完整case。root/newton核同z square的Re den≥193/9409，唯一改gap=den.real.lower；完整divisor未变，abs interval的失败不是函数真零。SCI869238d3824927a929b171d6830223d2723864f23149726444afc555b1e7e4d8、manifest4b72d34bb7b4d24195aa135255697a25173bcfb92ff7275e6d8b34c2ffd03597、flow8d678ae075aebeacc5118f098c1af61513212d9f4bff1c7fa6b36b57bfcded27，原其余11pin/worker原样，静态括号通过。新run如实重复未完成临时代数，旧成功0重算。另已读Green v3 a4ce0c65…/37520B：真实preflight32及±4096两门完成，07:52 future2048/past112/product192/0group；真实pull07:53:12.760754至e515e35b5978d6a26babeceb8d0877728b6e3655，README diff空。
+
+## 2026-11-15 07:58:13 UTC — 同physical角L1源与实际低帽主体预算独推
+
+根读bd71bbcb32c9f41607eb6bc496095f9d37f61939两README未变。root全文读实际cap721426af…、完整Schur fba382d3…、真nonlinear R端f4ae237c…、continuous repair b2acc995…、旧7296 residual note84ae53db…/4187B及原kernel producer ef93be07…的82–99逐行根构造。全L1只引用已成数，no旧合并/target重算。新ton窄核A5/A9–16/A18–24全过，根按建议显式限A7为当前反射残差、保一般全4Z相位常数；两mean/独立端口/所有源保。最终12356B/SHA1311fa389bb7cbc3fef5f51f8e4f62b21ec1db22f6a6764e3ef71d814cfdb463。这给真实η和主体球，不授端点保持；newton继续只消费旧1346kernel/1341帽残差的实际weighted endpoint新界。

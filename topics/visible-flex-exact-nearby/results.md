@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：同ac1连续repair帽的L1 Wiener普通源与实际主体球。** [A1–24](results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md)从完整双端核直接付ordinary B/C增益10/17、mean独立；fixed-r换角<5而无96倍。旧whole7296 L1加准确repair给未闭仿射负荷<1.2e−6；原q构造给H*<2，Gauss余项13||x||²/完整差。半径2^-15的主体image<15/16、Lip<7/8，repair真outer residual/mean另付。真实R端保持尚须完整weighted反馈；本篇未授完整非线性帽解或全匹配。
+
 - **2026-11-15：signed根源首次实际失败已保，并修复同域分母下界。** run43691675493/1通过12pin/AST/三原stage/九入口后child1、0完整case，实际新数学.360076374s；完整原execution a8fc52ed…与failure f3f75785…保留。唯一科学改动为 abs(1−ℓ²z).lower → Re(1−ℓ²z).lower；在同一原z方盒上Re≥193/9409>0，仍是严格模长下界，非放宽非零门。新SCI869238d3…/manifest4b72d34b…/flow8d678ae0…已推，旧11pin/worker不变；新临时未成代数需重做，原成功阶段0重算。
 
 - **2026-11-15：signed 根源的最小公开 consumer 已部署。** [SCI](scripts/fourfold_codazzi_genuine_reference_signed_root_forcing.py)只消费原完整root background/operator/leading-Q三stage，12pin不重算旧target、intrinsic、fold或Taylor系数。新F20–22全Laurent/有限有理z带符号组装，fullmean与全部|j|≥97两sign保；输出四角导/三宽的完整范数，coefficients仅临时。根与newton分别核r-jet号、K_r项、完整±mode/mean；实际门尚待run，不预称整片或high inverse。

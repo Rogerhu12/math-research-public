@@ -20,7 +20,7 @@ v2 run43681612825/1数学child1/0groups的[诊断](notes/2026-11-15-R133-actual-
 
 [有向误差v3合约](notes/2026-11-15-R133-scaled-signed-product-error-Gram-contract.md)保持真实Di全乘积、DeltaE DeltaE*≤W、全部相关性与最终C*HC。任意指数dyadic正权/缩放，97维均值、true96 waist/true97切口、三个HY、全8whole方案完整；不逐entry取min。SCI1d8383a8…/worker c06a5758…/369pin637c7bdf…原362pin零改。
 
-实际run43690634784/1已启动，根读首process f35c574f…/12886B：369pins与原1886已核、尚0math child、在恢复原数组。直接继续读资源门、32真product/±4096全97Gram preflight、三流、187groups和最终完整门；前32同run复用。新数组只临时消费，不入Git/Release/新artifact。任一preflight或局部matrix成功均不代全BVP/ν Schur。
+实际run43690634784/1已通过原输入恢复、14GiB/4GiB/4CPU资源和32真product/两极端权preflight，根读a4ce0c65…/37520B。07:52真进度future2048=1886旧+162新、past112、product192含32复用、0group，product192新signed W误差log2≤−102，旧scalar诊断53；这只说明此前段方向界，非全Green结论。继续三流、187groups和final真实门；新数组只临时消费，不入Git/Release/新artifact。
 
 取得真实HY后优先消费原low97缺陷与signed tr(HY Werr)，所有9/10实际Hermite端、完整未知high及独立mean保。完整合同和所有原native/array/parameter SHA见归档及各actual正文。
 
@@ -54,7 +54,7 @@ root/newton_source负责。原4Z真实规范/primitive/两mean、全R0 Hessian�
 
 [actual regular端口](results/R133-supplement-final-moving-centre-actual-regular-boundary.md)对同ac1给真正nonlinear residual：nonmean<1.258388e−15、Cmean<2.048004e−19、Bmean0，原independent fB dotA²≤2^-60；不是Jacobian余量。repair440866已付ΔC(R)<4.970e−19及mean<7.898e−23，ΔB和完整trueouter差还须明确合入。
 
-同repair完整非线性物理residual是DΨR=PR−Wθ I(CRv)，Hessian只在线性化共轭出现。原whole-cap moving residual已成，逐系数sup/真实inverse-angle可得粗joint pair<2e−5；它不是Green像已入球。下一从原实际逐片残差/核消费有效A0和真实R端响应，保原0.9非mean C输入、输出Cmean、真实Bmean和全部跳/height。
+[A物理帽L1与实际主体球](results/R133-supplement-physical-cap-L1-Wiener-sources-and-practical-nonlinear-body-ball.md)已独推：逐模正核直接消费L1_r A0，B/C源增益10/17含完整mean；fixed-r degree96换角<5，无joint重排的96倍。旧7296全L1与准确repair给完整未闭仿射负荷η<1.2e−6，实际端口repair另付nonlinear regular<1.3e−15/Cmean2.05e−19。原q核逐行推出ell<1.39²及H*<2，精确Q余项13||x||²；ρ2^-15主体image<15ρ/16、Lip<7/8。仍需真实R端保持、linear Q/二次源/outer的完整weighted反馈，未称存在完整帽解；原0.9非mean C输入、输出Cmean、Bmean、独立height/phase/跳全部保。
 
 物理Gauss代数Q的二阶余项可在同physical角直接写出，不需先把未知场置于高Sob极小球；但须实际验收完整边界图域/Green像/二次收缩。整体A0修正小不自动保持R端ζ在原1e−10或1e−12球。若扩大真long球，重付原image/Lip/mean门，绝不扩大未验证域。未知内端C曲率端口不能直接换成innerheight Dirichlet；需真Gauss–Codazzi/height读出。
 
