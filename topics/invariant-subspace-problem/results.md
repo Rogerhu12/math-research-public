@@ -429,3 +429,5 @@
 - **一组明确新原行列给degree8769、首项31单位的最大子式。** [原坐标证明](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)以同核补RΦ1632∪F_H202的真实块三角单位证明J*=P4340+14active E列张满整im，原13free输出的补I*识别饱和像；cokerB*=完整fulltors，故∞66且u66系数31单位。实际字典权H8835给degree8769；新cofactor阶≥55、新原列replacement阶≥66。其小字典读器核5份完整输入及全4340/14/13原索引，不声称实算新大det或旧O149/高26。 其§7现记实际0.407487812秒五输入全SHA、3333+1007原记录及权和全部通过；det值仍由原整模定理给出。
 
 - **所有模31精度的既有原来源可统一降费8655。** [完整有限环证明](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)以新unit-leading D*=detB*及首一K158给q=D*/K次数8611、全部Pℓ整，保所有4367输出。任何已存在的Ax≡31^e b mod31^n可保同e/n降费max(8655,τ(b)+1)；利用该既有解才证明adjB*b的K余式为零，故没有偷假目标先为Q[s]成员。固定e任意高n可解且统一有限系数维数才推出exact D31源；单p6不升级。旧Q共同乘子费8531−d仍较小，来源整性/实际Ω/h0自身成员性未由本条解决。
+
+- **实际forcing的精确连续尾占据势与同源受限逆。** [自足证明](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)从完整正Gram给Z*D*DZ=Z*𝒱xZ，保全部占据/空位碰撞项，并证明1/3与8/3的连续位置立方势界。局部p≤N≤r、maxpos≤L读数经完整source Gram消核后≤3(L+r+1)³/p，真实D限制在RanZ上的MP有相同平方费用；同u保联合(De,Dk)而非Du。不同head来源Ri的完整creation合成行准确保ΣRi*GΔRi。帽返回物理左投影与原两端partial的来源识别仍开。
