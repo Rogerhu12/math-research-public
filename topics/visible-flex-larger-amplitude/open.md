@@ -93,3 +93,7 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [actual120正式结果](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)：完整初猜节点/中点/两RMS域预检通过；首完整112H的原native请求在返回J前被D/S/A拒绝，lastIteration为空、无FD/fullDN/audit，非wallbudget。摘要19463B/4f2be484两job逐字相同，临时raw已删。124按完整H(s)同worker接口独立实现，只用真收敛last，所有原native/FD/fullDN门保持；不得将缺失阶段或小s预期写作通过。
 
 [122实际fresh方向实验入口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)已发布probe05ad668d/coordinator480ec312/request0e09599e/workflow497b74d7，33源pin。唯一新原91现场/原fresh64全J+R273 delta，alpha0两原policy有限trace单方向；7200s总、首≤3600s、第二不看首数值通过。之后精确sentinel受控结束独立worker，procedure/science/native分开，原十trial/finalJ/audit未执行，113及已冻JVP源不改。等待真实run与原输出，不能冒完整224列J、IEEE光滑或原native接受。
+
+[123九控制完整入口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)及[新分段reader](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)已发布：原121第5真六p+eta三零，新增原支撑raw二次C²零jet，完整3×9及原所有full3/8×20/12×20门，九列FD/新域/原453circle重付。family086572f9/search824c0967/recipecc4e9095/request0a1df153/workflow5343c510/readerf57a7dfa；每方向全部trial可完整分段重建，primary独立≤90KB，非恢复121遗失raw。root核82旧HEAD source+3新源及真fallback参数/身份。尚无实际123结果；九设计量后续非零112需自己的六shape冻结适配，不能直接用807f。
+
+122已实际run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59UTC创建并进入原fresh全模型/有限trace实验，尚未读回科学结果。

@@ -26,15 +26,15 @@
 
 ### 113与有限轨迹方向
 
-113第二run43688981685/source8d68a39e/job132735373768，07:13:29UTC创建，08:46 UTC仍step14；amplitude监测。[首跑](notes/2026-11-15-actual113-first-run-missing-historical-input.md)缺历史JSON在首快照前，非数学失败。[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)原1b59/3655/ba35/28pin不变，[input修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)从8bd26710恢复两ready原env。e=L−target/226态RK/129248行、64字面geometry/tables/scales提升；7200s只128child，原64/初J/R273另计，320step/350job；partial后原64solve/finalJ/audit继续，旧J不冒128一致J。
+113第二run43688981685/source8d68a39e/job132735373768，07:13:29UTC创建，08:46仍step14；amplitude监测。[首跑故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)及[真实输入修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)已结清；[完整113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)两policy/全226RK/129248行、64原词提升/7200s child/320step350job。partial后原64完整loop/finalJ/audit继续，旧J不冒128一致J，所有源未改。
 
-[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[JVP实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)8c40b4c7/8229212b/61e21ded及原113两源均冻结。[122完整请求](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)现发布probe05ad668d/coordinator480ec312/request0e09599e/workflow497b74d7，33pin+原91context/2ready/78源；fresh64全J/R273δ→唯一新packet→alpha0两policy，总7200s/首≤3600s，次不以首通过为门。两slot后精确sentinel受控停worker，十trial/finalJ/audit不执行；procedure/science/native状态分开，不冒IEEE导数/完整224J/求解接受。原规则进程组/320step350job/90KB读回，raw临时消费后删，无small-core四输入。尚未记录实际122run；exact转124。
+[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[JVP实现](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)8c40b4c7/8229212b/61e21ded及原113两源均冻结。[122完整请求](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)现发布probe05ad668d/coordinator480ec312/request0e09599e/workflow497b74d7，33pin+原91context/2ready/78源；fresh64全J/R273δ→唯一新packet→alpha0两policy，总7200s/首≤3600s，次不以首通过为门。两slot后精确sentinel受控停worker，十trial/finalJ/audit不执行；procedure/science/native状态分开，不冒IEEE导数/完整224J/求解接受。原规则进程组/320step350job/90KB读回，raw临时消费后删，无small-core四输入。实际122 run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59UTC创建、已进入原science，未读结果；exact转124。
 
 ### 120已结清；123九控制与124完整H续接
 
-[119](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)8批各8接受、末W739.9479122854005/全final false。[121](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)run43694950669/source da16069e：5科学批各8接受/exit0，末W738.1754024784359/全final false。第5正常摘要93000B触fallback16702B/24c3，wrapper70为transport；五status/trace均读全/删，前4normal/第5final+FD已读，last_recipe仍第4，不冒第5trial细项或秩丢失。完整身份/原末参数均在note。
+[119](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)/[121](notes/2026-11-15-actual121-five-complete-searches-and-reader-transport-stop.md)已结清：各8/5批均每批8接受、全final false。121第5正常摘要93000B触fallback16702B/24c3，wrapper70为transport；五status/trace均读全/删，前4normal/第5final+FD已读，last_recipe仍第4，未读第5trial不补造。原末参数/全部身份见note。
 
-123由121第5真末六p+三个0加原支撑b_i(2x−1)²。amplitude已冻独立family086572f9/search824c0967，完整3×9/12×9/2normal+7tangent/九列FD/新scalar域，原8×20/12×20及完整三式门；固定六shape后原3active/453圆。geometry分段reader每方向完整trial≤90KB块及原SHA，不截行；尚无123发布/run。
+[123完整入口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)及[分段读回](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)已发：family086572f9/search824c0967/recipecc4e9095/request0a1df153/workflow5343c510/readerf57a7dfa。121第5真六p+eta三零，原支撑b_i(2x−1)²，完整3×9/12×9/2normal7tangent/九列FD/新域，原8×20/12×20/full3门；固定六shape后原3active/453圆。每方向完整trial≤90KB块可重建、primary单独；83+2pin/24→26闭包，4输入历史临时恢复。零eta对照仅evaluate数组，非旧J核对，不作门；尚无123run。amplitude接独立九参数非零112接口，不预选未来参数。
 
 [120实际](notes/2026-11-15-actual120-first-current-height-native-domain-rejection.md)run43694844403/sourceace38440/compute132752997196 failure/report132753527828 success，完整摘要19463B/4f2be484。119第3批真实六p、λ=.001、807f/原01930配置/99源与4输入+2ready+78源。699节点/中点/两RMS域预检通过，首实际完整112H请求withJ耗63.87812351699999s被原momentum D/S/A拒绝，lastIteration=null，无J/FD/fullDN/audit；87.784s非预算。真实owner已关闭，readout后临时payload已删，无raw上传；不能定位具体D/S/A量或称无解/浮点底线。
 
@@ -42,9 +42,7 @@
 
 ### 118补真实midpoint471，运行中
 
-[110](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)8真实model+FD全接受而最终全false，末alpha1/2048；后七最近拒绝为未选MID471，末beta²−3.8894462797367524e−5。各模型W不跨行减；末warm c02da9e1/status90bfb02a已删，不能由hash续算。
-
-[118配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)32=20LEFT+12MID，仅加真实MID471，capture/local8453/C4059/outside不变。从可恢复actual98原31 pair另起，后传本job真32 pair；75+worker源，worker336fc522/recipef5c0e2e6/request1a446102/workflow96eeef3b。8模型各fresh FD，原λ270/17trial/预算，step175/job185，无raw上传/新native门。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC启动；08:25:37仍原8批science，未读结果。
+[110原结果](notes/2026-11-15-actual110-eight-real-pairs-and-midpoint471-barrier.md)后7批最近拒绝均未选MID471；末pair已删不能由hash续接。[118完整配方](notes/2026-11-15-request118-thirty-two-midpoint471-real-pair-batches.md)32=20LEFT+12MID仅加该真实点，capture/local8453/C4059/outside及原λ270/17trial/预算不变。从可恢复actual98首父31开始，后传本job真32 pair；8模型各fresh FD、175step185job、无raw上传/新门。run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC创建，geometry监测，原science尚未读回。
 
 ## 几何及接受场之后
 

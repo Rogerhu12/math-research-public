@@ -213,3 +213,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:49:44 UTC /root — 发布122一次真实fresh方向的双policy有限轨迹实验
 
 [完整接口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)14158B/70aba598、probe26740B/05ad668d/coordinator9736B/480ec312/request0e09599e/workflow497b74d7全部新源码/相对113差异已读；31原source缓存SHA+HEAD Gitblob及2新源/5正式文件核过。原91context/H/state/target/scales/far和2ready/78源，fresh全J/R273后仅一个新packet供两policy，alpha0；7200s及同进程组guard、受控sentinel/真实response闭合分开，非原native失败或成功。未本地科学、未预填未来run/数值；113和已发JVP三源不变，无新raw上传。
+
+## 2026-11-15 08:53:48 UTC /root — 发布123实际第五批来源的九控制独立实验；122已启动
+
+[123完整接口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)17049B/5d567d66与[reader接口](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)11811B/0b15a451、全部新科学diff/reader全文/workflow差异已读。root核82旧源码缓存SHA+当前HEAD Gitblob及3新源、8正式文件；121fallback16702B/24c3与原six末IEEE字面/来源/status逐项吻合。只修接口零eta对照措辞：evaluate数组不是独立旧J比对；科学086572f9/824c0967不动。原83+2pin/24→26、8方向/完整三式/新域/九FD/原453circle保持，每方向全部trial结构分段，raw仅临时。122 run43696328387/source05b1dc3b/job132757561652实际进入science，无结果预填；H压缩113/119/121/110及118详情到既有完整接口。
