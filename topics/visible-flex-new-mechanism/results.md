@@ -449,3 +449,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [完整首实际](notes/affine-spectral-metric-model-first-actual-20261115.md)记录43722283235/bb33192/job132836684400：35新开发全过，八必要恢复各一次以后唯一新stageη.2664191879334471→.26640117915606165。8outer、12primary/0SOC、7新接受，原双网各14资格门及精确163物理盒过，κ最大57.999985297873295，.26/1e−4及最终目标未到。4轮40cut，所有返回gap合原gain/8阈值，rho_aff/rho_hat与LP下界分别保存；18共享值+2末验，active16.997316062秒、新audit19.780863250秒。八恢复569.558425086秒、进程589.33929128秒分账，恢复漂移不冒新改善。
 
 完整误差身份在原行和实际总步分开谱曲率、真e/f非线性、遗漏网格及ε偏差。m6遗漏峰1.547929073e−5主导，另有4条已选细网曲率失败；原学行回退保留，无SOC实际不能授新SOC预测路径验证。m5独立由选中e/f非线性主导。原direct负舍入保原数而非clip；没有同点性能比较。root直接消费原COMPLETE_REPORT并独核50直接/102递归源码和24decoded输入，receipt54960B/b8b8270a与254来源口径保原。payload仅公共stdout/临时，不入仓库、Release或artifact。下一新机制是固定center完整两网affine-e/f解析方向分离器，保原共同预算/真门，不预称本m6必修或重复旧阶段。
+
+
+## R288：当前不交紧微包圆的全部 canonical 一次端层自动为零
+
+[R288 完整证明](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)以原R56完整恢复证明不同包的C(ui;uj,uj)整个field局域outer包。内二阶Zj在outer包上是真实仿射分子，常x导数与紧初阶Vi的完整端差使P左尾准确0；原B=J/(2h)、η、characteristic RHS和同一canonical初值随后给外部全0，未删除包内一次项或重锚history。
+
+单包diagonal C(ui;ui,ui)虽可有非零左尾，M0/TκH对角恒零给s周期；已实际安装的universal whole pure在该ui的解析左端，由原一次/二次指数分离迫其三个加权历史矩全零。无需单ui满足实零三矩。完整C(f;fg)在任一零平台只余diagonal真尾，线性提取后各项分别0，故全部内部Q_e=P_e[Wfc]自动消失，R283两个mixed目标一次层全零。R281/287当前不交紧profile与不同有限N母包均适用；不适用于只导数分包的旧step圆或任意新增第三初值。平台P″和端flux先付时逆端因此C∞；这些前提及内部Laurent、ruling/joint仍未支付。root全文回读R56核，mechanism独核全cross局域链；无新计算。

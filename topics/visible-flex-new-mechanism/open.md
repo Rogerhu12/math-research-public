@@ -156,10 +156,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R285](results/R285-principal-splitting-of-symmetric-Gaussian-products.md)准确分离30对称外矩的三阶平方主项及保全尾的C²余项。固定母包/单χ/全部copy时，连Lc/Mc的32必要量主向量只在次数≤10位置空间，span≤11；下界5来自R284。下一计算原mixed外矩和新shape的独立比值，或求真实左核兼容；不能把C²余项称旧F已经固定，也不能凭增加同χ位置宣完整控制。未付全部角、0/1层、canonical period/同w和主几何门。
 
 
-### R283 后续：内部零平台的一组三个真实端历史矩
+### R283/288：当前紧微包一次端层已付，接平台与通量
 
-[R283](results/R283-canonical-end-layer-three-history-moments-and-pure-symmetry-cancellation.md)从原平台齐次方程和完整cross得真实端势及三个hρ加权矩。已安装whole pure0后，两mixed目标共用Q_e=P_e[Wfc]=2P_e[C(g;ff)]；完全对称三次加权历史消失，不是点态尾消失。完整block外端自动过，相邻两包同一零平台只需一组。下一对内部平台用原一次m、二次mm/面积来源支付实际有序Q_e；未证明面积/能量门推出，平台/flux/Laurent和同w另保。
-
+[R288](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)在当前真实profile紧且不交的解析类，原R56跨包Cij整体局域，diagonal真左尾的三历史矩由actual universal whole pure逐个消去；因此R283所有内部Q_e自动0，两mixed目标不再有一次指数端障碍。真实尾并未消失，不用面积/能量冒推。下一支付原平台P″/零端flux与内部p/A退化；仅导数分包旧step圆或新增任意第三初值不在此证明范围。
 
 ### R286 后续：负三—负二乘积的两条原完整余门
 
