@@ -92,6 +92,8 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)已证coast共同β的显式充分域界：同准确base余量r_*>0/LC≤Λ、κ<1，C0/C1完整三项给β≤min(1,r_*/(2Λ²C0),(1−κ)/(2ΛC1))，保a≥r_*/2和|as|≤(1+κ)/2；零系数分支、强C²/同长度/全部其它片责任及有限dyadic档与固定预算区别保。不新加门，不预填180结果。
 
+[180完整入口](notes/2026-11-15-request180-accurate-coast-three-coefficient-repair-interface.md)五件/23源已发595bf01c/630c288e/3df438b8/ee7044e4。Actions恢复原165三必要成员/历史core/config，原factory重建419片；固定418证一次，coast三系数共同β按1..2^-16,0共18档，全419域才选，精确九词/投影差/全失败未访保。恢复600s/科学900s含重建、固定418上限300s/65536节点、候选8192/depth28/256bits，单90KB与真实child wait清理，原21源不改、不重C/巨差额网格。R384由amplitude核，不预填实际β或BVP。
+
 ### 3C. 当前C自己的零场与完整453非零BVP
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
@@ -102,7 +104,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 179保原169同一owner真实H/J、三扰动/两法FD、8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。新sampler32166470/reader1d055037、recipe d926cecf/request fa5cc945/wf14352ae2；59/52/26闭包和五输入/准确构造/原参数不变。R375全闭barrier及非恒幅度a(t)符号参与R357逐候选norm后hull，完整112与未访事务保；数值代表/中点/JSexp不证准确C或无限非线性DN。C3600、sampling14400+1800在startup按余量同比例clip/BVP7200/360job，namespace不冒全流程绝对kill；单90KB必要sampler/native/BVP，全部早期trial仅内部身份且范围明确，六读回/新marker/owner静止后清，错误/超限不分包或主动删raw。原初点准确域反证继续保，不外推p3全搜索无解。
 
-[实际coast点→完整BVP输入组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)已保存21230B/37ea635a：九准确系数逐binary64原词相等，必须同现场真factory result及全definition，不伪造producer；只改原179请求号/初九词/来源/新binding四字段，原算法和全部门保。当前180是旧165对象，尚无fresh-C输入模式/实际后继workflow；新C现场须沿真实修域算法重付后再factory，旧β只能作候选，旧域不借新盒。未选/投影非零不造新配方，后继活动p的域、numeric误差和同g责任继续保。
+[实际coast点→完整BVP组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)原37ea薄组件仅四recipe字段变化，原179算法/全部门保；其跨run全definition比较过严，语义修订已读diff。原factory明确cut_boxes不代入DAG：同原C根族/core/cut/窗口/九准确p对应同准确函数，真实180全域可按R383传初点，不要求新旧盒相等或子集；两份run/盒/证明来源各自绑定。新numeric shadow/J/FD/metric和后来活动p域不得继承。后继须取得真实selected原件并真实执行fresh factory，不假造result；完整workflow继续接，不再无依据要求重修域。
 
 ## 4. 同一g闭合与真正九冻结450
 

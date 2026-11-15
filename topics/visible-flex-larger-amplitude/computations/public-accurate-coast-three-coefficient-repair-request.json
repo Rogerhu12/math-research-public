@@ -1,0 +1,333 @@
+{
+  "schema": "request180-accurate-R323-coast-three-coefficient-repair-v1",
+  "request_number": 180,
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "accuratecoastrepair"
+  ],
+  "scientific_entry": "geometry_20261115_accurate_coast_three_coefficient_repair.py",
+  "scientific_entry_bytes": 33533,
+  "recovery_entry": "root_20261115_restore_actual165_coast_inputs.py",
+  "recovery_entry_bytes": 12957,
+  "workflow": "visible-larger-public-accurate-coast-three-coefficient-repair.yml",
+  "source_sha256": {
+    "geometry_20261115_stored_continuous_E_cover_v3.py": "f12f747041783dbb54b16ac2bdb0c3aeeade93e6bc7f276bde9dd81f424df7df",
+    "geometry_20261115_stored_continuous_E_cover_v2.py": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea",
+    "geometry_20261115_stored_continuous_E_cover.py": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed",
+    "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043",
+    "exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_stored_C_v3_cut_twojet_readout.py": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed",
+    "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+    "geometry_20261114_full_scalar_profile.py": "8ff23e31a58d0f8b087929d69ac8d6f9b6f2777615e50eef5ebe40ed7b6bed6b",
+    "geometry_20261114_prefix_controls_profile.py": "f019e6b33c8e1776d5cca87c22efadd0f999766b894be855efb53ad10b4d6a24",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261115_continuous_nine_scalar_factory_v3.py": "0d89370df95c6063cb336182d87137705d5e4ddb87625a3fb1b58b35695a621e",
+    "geometry_20261115_continuous_nine_scalar_numeric_v3.py": "7cfab12ebb8bf4a948336e7c605ea096a9597be43a4582f166f9067850ea4b60",
+    "geometry_20261115_continuous_nine_augmented_v3.py": "d86f6fdf3cf59df3d45c907c655fe54ab830180facd27b7402e649b2e14d151b",
+    "geometry_20261115_continuous_nine_v3_actual_construction.py": "738dd352cf62fbd47eb80e867ac441b7d0c179074cbee93fb8dd6528ba0d4cb0",
+    "root_20261115_continuous_nine_target_enclosures.py": "6dfb79be9b77e85ffff496e4349b9c6b01c1ab74f28d0a64bf76d4dc8cadb768",
+    "root_20261115_continuous_nine_shared_target_enclosures.py": "61b98b3e853b31535ac31b66d4cf4513f1271d9852acfb09b948990a30acb205",
+    "root_20261115_restore_actual165_coast_inputs.py": "630c288e45efa1f1f6649e9a9588f2dc7d01aea64e7fc9544107c83925f69ee2",
+    "geometry_20261115_accurate_coast_three_coefficient_repair.py": "595bf01cd89690629ca167d5be9d674951d9959d7fd61717a296ecbd3fcd8c4c"
+  },
+  "source_count": 23,
+  "original_source_sha256": {
+    "geometry_20261115_stored_continuous_E_cover_v3.py": "f12f747041783dbb54b16ac2bdb0c3aeeade93e6bc7f276bde9dd81f424df7df",
+    "geometry_20261115_stored_continuous_E_cover_v2.py": "004010b681aa35635e15b229a3e5b78602b3ec480a631a761e42f6c7d563b6ea",
+    "geometry_20261115_stored_continuous_E_cover.py": "9aa0da45027afa37ca329eab73e5e93e788f2bbafb908b9e8c2960f537a427ed",
+    "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043",
+    "exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_stored_C_v3_cut_twojet_readout.py": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed",
+    "geometry_20261114_full_prefix_operator.py": "a9a25d96eeb286d9f2214f997c992e50e42f6e6ec2bc59c136a183febe2a0703",
+    "geometry_20261114_full_scalar_profile.py": "8ff23e31a58d0f8b087929d69ac8d6f9b6f2777615e50eef5ebe40ed7b6bed6b",
+    "geometry_20261114_prefix_controls_profile.py": "f019e6b33c8e1776d5cca87c22efadd0f999766b894be855efb53ad10b4d6a24",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261115_continuous_nine_scalar_factory_v3.py": "0d89370df95c6063cb336182d87137705d5e4ddb87625a3fb1b58b35695a621e",
+    "geometry_20261115_continuous_nine_scalar_numeric_v3.py": "7cfab12ebb8bf4a948336e7c605ea096a9597be43a4582f166f9067850ea4b60",
+    "geometry_20261115_continuous_nine_augmented_v3.py": "d86f6fdf3cf59df3d45c907c655fe54ab830180facd27b7402e649b2e14d151b",
+    "geometry_20261115_continuous_nine_v3_actual_construction.py": "738dd352cf62fbd47eb80e867ac441b7d0c179074cbee93fb8dd6528ba0d4cb0",
+    "root_20261115_continuous_nine_target_enclosures.py": "6dfb79be9b77e85ffff496e4349b9c6b01c1ab74f28d0a64bf76d4dc8cadb768",
+    "root_20261115_continuous_nine_shared_target_enclosures.py": "61b98b3e853b31535ac31b66d4cf4513f1271d9852acfb09b948990a30acb205"
+  },
+  "source_scope": {
+    "original_21_bound_to_original165_input": true,
+    "original_165_151_147_scientific_entries_not_executed": true,
+    "factory_and_exact_core_constructor_reused": true,
+    "old_rules_runner_metadata_only": true,
+    "new_science_and_transport_independent_identities": true,
+    "neither_C_reconstruction_nor_target_difference_grid_recomputed": true
+  },
+  "original165_request": {
+    "file": "public-continuous-nine-shared-target-enclosures-request.json",
+    "bytes": 16401,
+    "sha256": "6beff06bb6ffdd9604b936016635b3cf47adbf45181b266f7b0a85743a60f7c3",
+    "source_commit": "1f2ec637430e5c6b27b1a93720e106539281a156"
+  },
+  "recovery_policy": {
+    "original_run_id": 43736208020,
+    "original_job_id": 132879253906,
+    "original_source_commit": "1f2ec637430e5c6b27b1a93720e106539281a156",
+    "maximum_original_log_bytes": 1486048285,
+    "original_log_sha256": "4ab8c6d688a27869353bb428288d467502c7aed6ad8cd96140a6cfaea508aea2",
+    "maximum_scan_seconds": 600,
+    "official_GET_actions_job_logs_only": true,
+    "official_completed_metadata_checked": true,
+    "original_conclusion_does_not_have_to_be_success": true,
+    "one_whole_original_log_stream_read": true,
+    "whole_stream_bytes_and_SHA_verified": true,
+    "full_original_log_not_saved": true,
+    "parsing_view_only_removes_physical_line_leading_BOM_and_anchored_timestamp": true,
+    "token_only_to_official_metadata_and_log_API": true,
+    "redirect_requests_contain_no_token": true,
+    "signed_URL_not_logged": true,
+    "original_members": {
+      "input": {
+        "file": "original-input-binding.json",
+        "bytes": 62398,
+        "sha256": "996593f3a615c3694596463c949990a4967cc5c5a1bf48b100fbc4e149e73e48",
+        "label": "complete-input-and-rebuilt-definition-binding"
+      },
+      "target": {
+        "file": "original-target-result.json",
+        "bytes": 105512,
+        "sha256": "e5ec825f39c2f57aa6f04b46c56371b6876670a04ac7c5c9129bdcc80af2c619",
+        "label": "complete-target-result"
+      },
+      "construction": {
+        "file": "original-construction-summary.json",
+        "bytes": 27207,
+        "sha256": "6ff7fb33455be8dbc4eef1eb819a8f7b90329c8575c442dc810c83db13117fb8",
+        "label": "complete-construction-summary"
+      }
+    }
+  },
+  "inputs": {
+    "accepted_core": {
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+      "bytes": 2614352,
+      "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+      "runtime_basename": "accepted.json.gz",
+      "historical_public_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+      "role": "exact original accepted M96 prefix core only; not a field solving the new target"
+    },
+    "config": {
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "runtime_basename": "tail-config.json",
+      "historical_public_commit": "8bd267107cc8710d371f3b62c02986655ac965b0",
+      "role": "complete unchanged original physical configuration; finite mode settings do not define a new field"
+    }
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "initial_nine_parameters": [
+    0.3055213835477326,
+    0.21645013203050154,
+    0.34270051957744246,
+    -0.06322334619266512,
+    -0.01747451701873286,
+    0.9376115689625685,
+    1.0751306255033548,
+    0.6886900390922872,
+    0.9385431607625546
+  ],
+  "parameter_origin": {
+    "request_number": 146,
+    "run_id": "43716274591",
+    "source_commit": "69765fcd81ca84819cdeb09c4fe14c55fdb5fb80",
+    "compute_job_id": "132818390627",
+    "report_job_id": "132818651357",
+    "original_status": {
+      "bytes": 2741264,
+      "sha256": "252a9ceabf63305cdab40312b104e397acb7a8deb52ea513d4ecc038104d80e5"
+    },
+    "primary_summary": {
+      "bytes": 73169,
+      "sha256": "befc5446223c3f45bc96f4d53aeae6e0115f2fe3214051bc4219f2465fefe1e9"
+    },
+    "complete_trace_view": {
+      "bytes": 1329928,
+      "sha256": "9593cb0a813caba9a1d43fc59fa7ef6ad2859968fb9804e189ef69bedc623233"
+    },
+    "scope": "literal final nine coefficients only; no previous state, residual, J or tail result imported",
+    "initial_new_target_domain_not_assumed": true,
+    "old_search_radius_not_used_for_new_construction": true
+  },
+  "accurate_family": {
+    "factory": "geometry_20261115_continuous_nine_scalar_factory_v3.py",
+    "factory_sha256": "0d89370df95c6063cb336182d87137705d5e4ddb87625a3fb1b58b35695a621e",
+    "parameter_order": [
+      "p1",
+      "p2",
+      "p3",
+      "theta1",
+      "theta2",
+      "theta3",
+      "eta1",
+      "eta2",
+      "eta3"
+    ],
+    "old_parameters_exact_binary64_lifts_not_decimal_string_replacements": true,
+    "original_semantic_model": "original-exact-root-family",
+    "original_C_producer_sha256": "f12f747041783dbb54b16ac2bdb0c3aeeade93e6bc7f276bde9dd81f424df7df",
+    "old_complete_cut_balls_reused_without_midpoints": true,
+    "definition_rebuilt_from_actual_core_recipe_cut_leaves": true,
+    "every_original_definition_field_and_complete_definition_bytes_SHA_checked": true,
+    "core_windows_lengths_kappa_cut_and_root_family_unchanged": true,
+    "numeric_shadow_or_new_BVP_success_not_implied": true
+  },
+  "scientific_policy": {
+    "sqrt_bits": 256,
+    "maximum_seconds": 900,
+    "unchanged_piece_seconds": 300,
+    "unchanged_piece_max_nodes": 65536,
+    "coast_per_candidate_max_nodes": 8192,
+    "maximum_depth": 28,
+    "largest_halving_exponent": 16,
+    "include_explicit_zero_candidate": true,
+    "summary_enclosure_grid_bits": 128,
+    "choose_first_whole_accurate_domain_proved_candidate": true,
+    "whole_original_parameter_radius_and_native_thresholds_not_changed": true
+  },
+  "candidate_contract": {
+    "changed_parameter_indices": [
+      2,
+      5,
+      8
+    ],
+    "unchanged_parameter_indices": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7
+    ],
+    "operation": "Multiply exactly the three accurate coast coefficients by one common nonnegative dyadic beta; no other parameter changes",
+    "beta_order": [
+      "1",
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/32",
+      "1/64",
+      "1/128",
+      "1/256",
+      "1/512",
+      "1/1024",
+      "1/2048",
+      "1/4096",
+      "1/8192",
+      "1/16384",
+      "1/32768",
+      "1/65536",
+      "0"
+    ],
+    "candidate_count": 18,
+    "zero_is_explicit_base_coast_candidate_not_hidden_restart": true,
+    "original_419_piece_order_retained": true,
+    "coast_piece_index": 416,
+    "other_418_proved_once_not_each_beta": true,
+    "complete_closed_coast_t_coordinate": [
+      "0",
+      "1"
+    ],
+    "radius_test": "a > 0",
+    "speed_test": "-1 < a_s < 1",
+    "proof": "Exact rational interval all-coefficient Bernstein, original semantic cut enclosures and complete dyadic coverage",
+    "center_test_not_full_coast_substitute": true,
+    "first_full_accurate_domain_proved_in_declared_order_selected": true,
+    "no_claim_of_largest_continuous_beta_or_global_optimality": true,
+    "all_actual_refutations_unresolved_resource_stops_and_unvisited_suffix_retained": true,
+    "support1_xi_not_used_to_repair_coast": true
+  },
+  "selected_profile_contract": {
+    "selected_profile_null_until_real_domain_success_and_output_creation": true,
+    "full_accurate_nine_domain_proved_boolean": true,
+    "required_complete_parts": [
+      "all418_unchanged_piece_domain.complete",
+      "selected candidate complete_coast_domain.complete"
+    ],
+    "exact_nine_coefficients_in_nine_parameters_exact": true,
+    "selected_recipe_basename": "selected-accurate-nine-recipe.json",
+    "selected_definition_basename": "selected-accurate-nine-definition.json",
+    "definition_created_by_original_factory_definition": true,
+    "old_factory_result_schema_not_fabricated": true,
+    "binary64_projection_test": "Fraction.from_float(actual binary64 projection) == accurate rational",
+    "exact_projection_difference_sign": "Q(binary64 projection) minus accurate rational",
+    "binary64_word_encoding": "struct.pack('<d', value).hex()",
+    "exact_nine_projection_does_not_prove_numeric_profile_roundoff_domain_or_BVP": true,
+    "old_C_provenance_retained_as_evidence_not_new_C_actual_object": true,
+    "same_accurate_function_transfer_uses_R383_semantic_identity_not_provenance_byte_equality": true
+  },
+  "execution": {
+    "python": "3.12.14",
+    "extra_Python_packages": [],
+    "job_timeout_minutes": 55,
+    "recovery_step_timeout_minutes": 15,
+    "scientific_step_timeout_minutes": 25,
+    "scientific_wall_seconds": 900,
+    "readback_step_timeout_minutes": 8,
+    "original_rules_runner": "root_20261114_current576_rules_runner.py",
+    "original_rules_runner_sha256": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "rules_sync_period_seconds": 2700,
+    "reviewed_full_README_texts_bound_at_startup": true,
+    "true_pull_ordinary_push_separate_mirror": true,
+    "science_checkout_unchanged": true,
+    "tokens_only_in_transport_or_rules_parent": true,
+    "scientific_child_token_keys_removed": [
+      "GH_TOKEN",
+      "GITHUB_TOKEN",
+      "GH_AUTH_TOKEN",
+      "GITHUB_AUTH_TOKEN"
+    ],
+    "recovery_budget_separate_from_science": true,
+    "science_clock_includes_definition_rebuild": true,
+    "metadata_readback_does_not_recompute_bounds": true
+  },
+  "retention": {
+    "raw_only_in_current_RUNNER_TEMP": true,
+    "artifact_upload": false,
+    "Release_upload": false,
+    "raw_to_Git": false,
+    "one_summary_maximum_bytes": 90000,
+    "no_encoding_or_splitting_large_scientific_data_for_tools": true,
+    "complete_passed_leaf_ledger_only_identity_in_small_summary": true,
+    "all_actual_failed_unresolved_unvisited_candidates_required": true,
+    "original_proof_interval_endpoints_exact_Q": true,
+    "returned_outward_summary_grid_bits": 128,
+    "summary_grid_not_used_as_proof_predicate": true,
+    "cleanup_only_after_necessary_summary_and_actual_rules_child_wait_receipt": true,
+    "unknown_child_state_or_failed_summary_skips_explicit_cleanup": true,
+    "no_later_recovery_claim_after_runner_ends": true
+  },
+  "scientific_limits": {
+    "accepted_BVP_or_nonzero_field_created": false,
+    "native_success_claimed": false,
+    "fullDN_success_claimed": false,
+    "original112_boundary_RMS_453_circle_acceptance_gates_not_modified": true,
+    "accurate_domain_distinct_from_IEEE_roundoff": true,
+    "old_semantic_C_enclosure_family_not_midpoint_model": true,
+    "finite_budget_failure_not_global_infeasibility": true
+  },
+  "proof_references": [
+    "R383-accurate-R323-target-identity-and-coast-control-necessary-band.md",
+    "R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md",
+    "R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md"
+  ],
+  "actual_result_number_reserved": "R384"
+}

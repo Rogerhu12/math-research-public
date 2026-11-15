@@ -1,0 +1,322 @@
+name: visible-larger request180 accurate coast coefficient repair
+'on':
+  push:
+    branches: [main]
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-accurate-coast-three-coefficient-repair-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-accurate-coast-three-coefficient-repair
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Original165 accurate target, complete domain and descending coast homotopy
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      compact_summary: ${{ steps.readback.outputs.compact_summary }}
+      compact_summary_bytes: ${{ steps.readback.outputs.compact_summary_bytes }}
+      compact_summary_sha256: ${{ steps.readback.outputs.compact_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish one request-owned temporary tree
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir "$RUNNER_TEMP/visible-accurate-coast-repair180"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-accurate-coast-repair180" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Bind23 source texts, original165 tuple and exact candidate policy
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-accurate-coast-three-coefficient-repair-request.json').read_bytes();q=json.loads(raw)
+        assert q['schema']=='request180-accurate-R323-coast-three-coefficient-repair-v1'
+        assert q['request_number']==180 and q['repository']=='Rogerhu12/math-research-public'
+        assert q['scientific_entry']=='geometry_20261115_accurate_coast_three_coefficient_repair.py' and q['recovery_entry']=='root_20261115_restore_actual165_coast_inputs.py'
+        fixed_new={"geometry_20261115_accurate_coast_three_coefficient_repair.py":"595bf01cd89690629ca167d5be9d674951d9959d7fd61717a296ecbd3fcd8c4c","root_20261115_restore_actual165_coast_inputs.py":"630c288e45efa1f1f6649e9a9588f2dc7d01aea64e7fc9544107c83925f69ee2"}
+        assert all(q['source_sha256'][name]==digest for name,digest in fixed_new.items())
+        assert q['source_count']==len(q['source_sha256'])==23
+        assert len(q['original_source_sha256'])==21
+        assert q['source_sha256']=={**q['original_source_sha256'],**fixed_new}
+        for name,digest in q['source_sha256'].items():
+         assert PurePosixPath(name).name==name
+         data=(comp/name).read_bytes()
+         assert hashlib.sha256(data).hexdigest()==digest,name
+         if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+        assert len((comp/q['scientific_entry']).read_bytes())==q['scientific_entry_bytes']==33533
+        assert len((comp/q['recovery_entry']).read_bytes())==q['recovery_entry_bytes']==12957
+        assert q['scientific_policy']==json.loads(r'''{"sqrt_bits":256,"maximum_seconds":900,"unchanged_piece_seconds":300,"unchanged_piece_max_nodes":65536,"coast_per_candidate_max_nodes":8192,"maximum_depth":28,"largest_halving_exponent":16,"include_explicit_zero_candidate":true,"summary_enclosure_grid_bits":128,"choose_first_whole_accurate_domain_proved_candidate":true,"whole_original_parameter_radius_and_native_thresholds_not_changed":true}''')
+        assert q['candidate_contract']['beta_order']==["1","1/2","1/4","1/8","1/16","1/32","1/64","1/128","1/256","1/512","1/1024","1/2048","1/4096","1/8192","1/16384","1/32768","1/65536","0"]
+        assert q['candidate_contract']['changed_parameter_indices']==[2,5,8]
+        assert q['initial_nine_parameters']==[0.3055213835477326,0.21645013203050154,0.34270051957744246,-0.06322334619266512,-0.01747451701873286,0.9376115689625685,1.0751306255033548,0.6886900390922872,0.9385431607625546]
+        p=q['recovery_policy']
+        assert (p['original_run_id'],p['original_job_id'],p['original_source_commit'])==(43736208020,132879253906,'1f2ec637430e5c6b27b1a93720e106539281a156')
+        assert p['maximum_original_log_bytes']==1486048285 and p['maximum_scan_seconds']==600
+        assert p['original_log_sha256']=='4ab8c6d688a27869353bb428288d467502c7aed6ad8cd96140a6cfaea508aea2'
+        assert q['original165_request']==json.loads(r'''{"file":"public-continuous-nine-shared-target-enclosures-request.json","bytes":16401,"sha256":"6beff06bb6ffdd9604b936016635b3cf47adbf45181b266f7b0a85743a60f7c3","source_commit":"1f2ec637430e5c6b27b1a93720e106539281a156"}''')
+        assert q['reviewed_README_blobs']==json.loads(r'''{"README.md":"21bd547f56590b7f2dd279d0297efb289a9b2783","topics/visible-flex-larger-amplitude/README.md":"bff8aea253a9e6a7a4fac28d810ac454c5499fec"}''')
+        for path,blob in q['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed; apply actual rule diff'
+        handoff=Path('topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000
+        assert sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        record=dict(event='request180_source_binding',run_id=os.environ['GITHUB_RUN_ID'],
+         source_commit=head,request=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),
+         source_count=23,old_identity_sources=21,new_sources=fixed_new,
+         only_source_AST_and_metadata_checked=True,science_not_executed_by_binding=True)
+        (out/'request-binding.json').write_text(json.dumps(record,sort_keys=True,separators=(',',':'))+'\n')
+        print(json.dumps(record),flush=True)
+        PYPINS
+    - name: Restore only the two historical core and configuration inputs
+      run: |
+        python - <<'PYINPUTS'
+        import hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        q=json.loads((comp/'public-accurate-coast-three-coefficient-repair-request.json').read_bytes());directory=out/'original-inputs'
+        directory.mkdir(exist_ok=False)
+        history='8bd267107cc8710d371f3b62c02986655ac965b0'
+        assert all(item['historical_public_commit']==history for item in q['inputs'].values())
+        subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True)
+        rows={};paths={}
+        for role,item in q['inputs'].items():
+         relative=PurePosixPath(item['file'])
+         assert not relative.is_absolute() and '..' not in relative.parts
+         assert str(relative).startswith('topics/visible-flex-larger-amplitude/')
+         data=subprocess.check_output(['git','show',history+':'+str(relative)])
+         assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256']
+         name=item['runtime_basename'];assert PurePosixPath(name).name==name
+         path=directory/name;path.write_bytes(data);paths[role]=str(path)
+         rows[role]=dict(file=name,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+        assert set(paths)=={'accepted_core','config'}
+        (out/'original-input-paths.json').write_text(json.dumps(paths,sort_keys=True)+'\n')
+        print(json.dumps(dict(event='request180_actual_historical_inputs',history=history,inputs=rows,
+         only_request_owned_temporary_files=True,no_new_raw_Git_Release_or_artifact=True)),flush=True)
+        PYINPUTS
+    - name: Stream the immutable original165 official log once and recover three necessary members
+      id: recovery
+      timeout-minutes: 15
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python "$VISIBLE_COMPUTATIONS/root_20261115_restore_actual165_coast_inputs.py" \
+          --request "$VISIBLE_COMPUTATIONS/public-accurate-coast-three-coefficient-repair-request.json" \
+          --out "$VISIBLE_OUT/restored165"
+    - name: Original rules monitor and complete accurate coast repair
+      id: science
+      timeout-minutes: 25
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python - <<'PYSCIENCE'
+        import hashlib,importlib.util,json,os,subprocess,sys
+        from pathlib import Path
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        q=json.loads((comp/'public-accurate-coast-three-coefficient-repair-request.json').read_bytes())
+        module_path=comp/'root_20261114_current576_rules_runner.py'
+        assert hashlib.sha256(module_path.read_bytes()).hexdigest()=='3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde'
+        spec=importlib.util.spec_from_file_location('_request180_original_rules',module_path)
+        module=importlib.util.module_from_spec(spec);sys.modules[spec.name]=module;spec.loader.exec_module(module)
+        baselines={}
+        for relative,expected in q['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',relative],text=True).strip()==expected
+         baselines[relative]=dict(blob=expected,text=(repo/relative).read_text())
+        module.BASELINES=baselines
+        assert module.PERIOD_SECONDS==2700
+        paths=json.loads((out/'original-input-paths.json').read_bytes())
+        command=['env','-u','GH_TOKEN','-u','GITHUB_TOKEN','-u','GH_AUTH_TOKEN','-u','GITHUB_AUTH_TOKEN',
+         '-u','GITHUB_OUTPUT',sys.executable,str(comp/'geometry_20261115_accurate_coast_three_coefficient_repair.py'),
+         '--request',str(comp/'public-accurate-coast-three-coefficient-repair-request.json'),'--restored-directory',str(out/'restored165'),
+         '--accepted-core',paths['accepted_core'],'--config',paths['config'],
+         '--code-directory',str(comp),'--out',str(out/'science')]
+        sys.argv=[str(module_path),'--out',str(out/'rules'),'--command',*command]
+        raise SystemExit(module.main())
+        PYSCIENCE
+    - name: Read one necessary original result or honest partial, without scientific recomputation
+      id: readback
+      if: always()
+      timeout-minutes: 8
+      env:
+        SCIENCE_STEP_OUTCOME: ${{ steps.science.outcome }}
+        RECOVERY_STEP_OUTCOME: ${{ steps.recovery.outcome }}
+      run: |
+        python - <<'PYREADBACK'
+        import hashlib,json,os,traceback
+        from pathlib import Path
+        out=Path(os.environ['VISIBLE_OUT']);science=out/'science'
+        def identity(raw):return dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+        def read(path):
+         raw=path.read_bytes();return json.loads(raw),identity(raw)
+        def encode(x):return json.dumps(x,sort_keys=True,separators=(',',':'),ensure_ascii=True,allow_nan=False).encode('ascii')
+        rules=None;rules_id=None;recovery=None;recovery_id=None;metadata_error=None
+        summary=None;original_summary=None;readback_complete=False
+        try:
+         if (out/'rules'/'runner-result.json').is_file():
+          rules,rules_id=read(out/'rules'/'runner-result.json')
+         if (out/'restored165'/'recovery-result.json').is_file():
+          recovery,recovery_id=read(out/'restored165'/'recovery-result.json')
+         if (science/'summary.json').is_file():
+          summary,original_summary=read(science/'summary.json')
+          assert summary['schema']=='request180-accurate-R323-coast-three-coefficient-repair-v1'
+          assert summary['run_id']==os.environ['GITHUB_RUN_ID'] and summary['source_commit']==os.environ['GITHUB_SHA']
+          assert original_summary['bytes']<=90000
+          readback_complete=summary.get('summary_complete') is True
+         elif (science/'progress.json').is_file():
+          summary,original_summary=read(science/'progress.json')
+          summary['summary_complete']=False
+          summary['actual_partial_progress_only_not_a_completed_scientific_summary']=True
+         else:
+          summary=dict(schema='request180-no-scientific-summary-v1',summary_complete=False,
+           source_commit=os.environ['GITHUB_SHA'],run_id=os.environ['GITHUB_RUN_ID'],
+           scientific_completion_not_claimed=True,
+           phase='no-recorded-scientific-summary-or-progress',
+           startup_or_transport_error=None if recovery is None else recovery.get('error'))
+         summary['execution_readback']=dict(science_step_outcome=os.environ.get('SCIENCE_STEP_OUTCOME'),
+          recovery_step_outcome=os.environ.get('RECOVERY_STEP_OUTCOME'),original_scientific_summary=original_summary,
+          rules_result=rules,rules_result_identity=rules_id,recovery_result_identity=recovery_id,
+          recovery_complete=None if recovery is None else recovery.get('complete'),
+          original_rule_or_scientific_failure_not_reclassified=True,no_new_scientific_evaluation=True,
+          upstream_engineering_stdout_and_stderr_directly_inherited_into_compute_log=True)
+         raw=encode(summary)
+         if len(raw)>90000:
+          summary=dict(schema='request180-readback-over-limit-v1',summary_complete=False,
+           run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+           necessary_candidate_summary=identity(raw),original_scientific_summary=original_summary,
+           actual_phase=summary.get('phase'),all_original_raw_is_only_current_RUNNER_TEMP=True,
+           no_data_encoding_or_splitting_fallback=True,scientific_completion_not_inferred=True)
+          raw=encode(summary);readback_complete=False
+        except BaseException as error:
+         metadata_error=dict(type=type(error).__name__,message=str(error),traceback=traceback.format_exc())
+         summary=dict(schema='request180-necessary-readback-error-v1',summary_complete=False,
+          run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+          error=metadata_error,original_scientific_summary=original_summary,
+          no_new_scientific_evaluation=True,scientific_completion_not_claimed=True)
+         raw=encode(summary);readback_complete=False
+        assert len(raw)<=90000
+        owner_quiet=bool(rules is not None and type(rules.get('science_returncode')) is int)
+        receipt=dict(schema='request180-necessary-readback-receipt-v1',
+         run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+         complete=bool(readback_complete),actual_rule_child_wait_return_recorded=owner_quiet,
+         original_scientific_summary=original_summary,summary=identity(raw),
+         rules_result_identity=rules_id,recovery_result_identity=recovery_id,
+         scientific_success_not_inferred_from_readback=True)
+        (out/'necessary-summary.json').write_bytes(raw)
+        (out/'necessary-summary-receipt.json').write_bytes(encode(receipt)+b'\n')
+        print('BEGIN_REQUEST180_NECESSARY_SUMMARY')
+        print(raw.decode('ascii'))
+        print('END_REQUEST180_NECESSARY_SUMMARY')
+        print(json.dumps(dict(event='request180-necessary-summary-identity',**identity(raw),
+         hash_scope='ASCII JSON excluding separator LF',complete=readback_complete)),flush=True)
+        with open(os.environ['GITHUB_OUTPUT'],'a') as target:
+         target.write('compact_summary='+raw.decode('ascii')+'\n')
+         target.write('compact_summary_bytes='+str(len(raw))+'\n')
+         target.write('compact_summary_sha256='+hashlib.sha256(raw).hexdigest()+'\n')
+        raise SystemExit(0 if readback_complete else 70)
+        PYREADBACK
+    - name: Clear only owned temporary data after complete necessary readback and real child wait
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import hashlib,json,os,shutil,stat
+        from pathlib import Path
+        runner=Path(os.environ['RUNNER_TEMP']).resolve()
+        out=Path(os.environ['VISIBLE_OUT']);eligible=False;error=None
+        try:
+         assert not out.is_symlink() and out.resolve()!=runner and out.resolve().is_relative_to(runner)
+         record=json.loads((out/'necessary-summary-receipt.json').read_bytes())
+         assert record['run_id']==os.environ['GITHUB_RUN_ID'] and record['source_commit']==os.environ['GITHUB_SHA']
+         assert record['complete'] is True and record['actual_rule_child_wait_return_recorded'] is True
+         raw=(out/'necessary-summary.json').read_bytes();summary=json.loads(raw)
+         assert len(raw)==record['summary']['bytes']<=90000
+         assert hashlib.sha256(raw).hexdigest()==record['summary']['sha256'] and summary['summary_complete'] is True
+         for rel,field in [('science/summary.json','original_scientific_summary'),('rules/runner-result.json','rules_result_identity')]:
+          raw=(out/rel).read_bytes();item=record[field]
+          assert len(raw)==item['bytes'] and hashlib.sha256(raw).hexdigest()==item['sha256']
+         eligible=True
+        except (OSError,KeyError,TypeError,ValueError,AssertionError) as cause:error=repr(cause)
+        if not eligible:
+         print(json.dumps(dict(event='request180-owned-cleanup-skipped',metadata_error=error,
+          necessary_readback_or_actual_child_wait_unconfirmed=True,current_ephemeral_RUNNER_TEMP_only=True,
+          no_later_recovery_or_scientific_success_claim=True)),flush=True)
+         raise SystemExit(0)
+        for parent,dirs,files in os.walk(out,topdown=True,followlinks=False):
+         p=Path(parent);state=p.lstat();assert state.st_uid==os.getuid()
+         os.chmod(p,stat.S_IMODE(state.st_mode)|stat.S_IWUSR|stat.S_IXUSR)
+         for name in dirs+files:
+          child=p/name;state=child.lstat()
+          if stat.S_ISLNK(state.st_mode):continue
+          assert state.st_uid==os.getuid()
+          os.chmod(child,stat.S_IMODE(state.st_mode)|stat.S_IWUSR|(stat.S_IXUSR if stat.S_ISDIR(state.st_mode) else 0))
+        relative=str(out.resolve().relative_to(runner));shutil.rmtree(out)
+        print(json.dumps(dict(event='request180-owned-temporary-data-removed',relative_directory=relative,
+         complete_necessary_readback_preceded_cleanup=True,actual_rules_child_wait_recorded=True,
+         new_artifact_Release_or_raw_Git_upload=False,scientific_success_not_inferred=True)),flush=True)
+        PYCLEAN
+  report:
+    name: One bounded actual accurate-domain and selected-parameter conclusion
+    needs: [compute]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print the exact necessary conclusion and identity
+      env:
+        COMPACT_SUMMARY: ${{ needs.compute.outputs.compact_summary }}
+        COMPACT_BYTES: ${{ needs.compute.outputs.compact_summary_bytes }}
+        COMPACT_SHA256: ${{ needs.compute.outputs.compact_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('COMPACT_SUMMARY','')
+        if text:
+         raw=text.encode('ascii')
+         assert len(raw)==int(os.environ['COMPACT_BYTES'])<=90000
+         assert hashlib.sha256(raw).hexdigest()==os.environ['COMPACT_SHA256']
+         json.loads(raw)
+        else:
+         raw=json.dumps(dict(schema='request180-compute-output-unavailable-v1',
+          compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],
+          source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True),
+          sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')
+        print('BEGIN_REQUEST180_NECESSARY_SUMMARY')
+        print(raw.decode('ascii'))
+        print('END_REQUEST180_NECESSARY_SUMMARY')
+        print(json.dumps(dict(event='request180-report-identity',bytes=len(raw),
+         sha256=hashlib.sha256(raw).hexdigest(),hash_scope='ASCII JSON excluding separator LF',
+         compute_job_result=os.environ.get('COMPUTE_RESULT'))),flush=True)
+        PYREPORT
