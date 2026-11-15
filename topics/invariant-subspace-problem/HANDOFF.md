@@ -24,7 +24,7 @@
 
 **当前发布故障与恢复：** 第三数学完成，初次唯一数据分支git push在180秒处超时；尚无main数据提交，prepared a09650e03375，不当数学失败。实际pull读4a2824de，两README无变。根已实际push82e2a562并调度publication-only run43665755992，正在恢复：只取上述两工件，不重数学；push限900秒、pack.window/depth=0，仍真实pull/rebase/main push，非快进立即续循环。目标目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。
 
-**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。实际selected常数正在收紧1345；两者均非已执行的原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
+**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。[实际常数六槽1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)已证：20011+16·20012父ω3…8整数系数[344,409,327,102,1,16]，只需K2…8七raw q1；成本177→469→761→1053→1345，D2≤665、四W2≤957。新global入口代码正在实现，5native各30秒、单过程1024MiB、共享数学300秒，成功须九原17/p6及实际费用全真。仍非已执行原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
 
 ## 实际边界：同源两费与完整返回
 
