@@ -153,3 +153,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 2026-11-15：实际p768后接多坐标候选
 真486→768已完成、仍23条完整原有理核，证明见[同源p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)。现有run43679903558临时工作源直接接固定三坐标LLL；只由全4367原整数零及自由I36增加真核。该有界候选若耗尽，继续来源变换/严格高度或原char0连接，不把有限模与候选失败当结论。
+
+### 2026-11-15：完整返回的唯一残量已钉定
+[完整证明](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)把H−B写成真实返回列Gram，并保E0→E未压缩单射方程及<Y,Rret r>=μ²+α²。下一步估计同源真实提升/共同配对，目标κh/Q=O(1)；压缩行收缩、nilpotence、kerCs上零仍不够，不把源∈RanC换成RanCs。
