@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：7f6f123f05860ce691ec1fc0770ec42a592d63b3；2026-11-15 06:58:17 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:58:16 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
+- 最近已读规则提交：f53a209c4d09751fcee6acb7c1aeab14f28dd863；2026-11-15 07:02:06 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:02:05 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -16,8 +16,8 @@
 ## 完整前检、索引与分工
 
 压缩前全部内容：[HANDOFF](notes/2026-11-15-frontier-before-r705.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整规范/条件/坏集/预算和所有未付问题，本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、703、705已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原Zak/短块及中央有限两位；deep R701同R顶charge/两13带；theta R702完整三态新适配；literature R706原wild torus Bessel/实际固定幅度。
+R1–363、365–560、562–653、655–700、703、705、706已登记；R364/R561/R654及主目标开。入口results.md、notes/PROOF-INDEX-R651-R700.md、notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原Zak/短块及中央有限两位；deep R701同R顶charge/两13带；theta R702完整三态新适配；literature R707原固定高斯幅度/toric overlap。
 
 ## 固定原目标与不能替换的门
 
@@ -34,7 +34,7 @@ R695全216 CM fibre及奇cover逐支交换，外尺度ζbarα/α，原A/Z12次Δ
 **R693** 同原π4中性q自然最高30次：29条G列+c0的30逆，辅助151/967、c0=381；半周期完整+i相位给ell72=3^9δell34，最后W行真实冗余。清实际λκu分母后同ray密度一全N4整、新增成本0。冻结c0S/0、cd=S、nativeW=6δT、J2=1；相同E深/浅门回全S/T，横Z/V及W三态已付。P30保c0/0与J2/8/14/20/26，n>N且2n>vI时原负一Δ的v=3n−2N+vI，全部T外部/L浅/尺度log保。
 R695/R693公开43684255990，回执ci/exact-check-20261115-r695-r693-compact.json，输出不入库。
 **R698** 旧gπ²=1−17δ阶17；whole A34在固定[68] A/Q盖上=B2而A²不足。adjusted CM13/19与耦合二挠核逐项交换；未Π0来源给同原A/Y/Z所有真词的S/new/H算术行。Π0不穿A深有显式反例；AdeepN+34、shallow34≤vA<N+34和原12次权差、全部非principal及W/V补域保。公开43685270950完整134096基矢通过，ci/exact-check-20261115-r698.json。
-**R702待实际运行**：check-r702-complete-quarter-source-adaptation.js，在原中性G/B列保R693全30来源/J2，再付e1第一2Y全S136为aS2+bSnew；全四挠绝对常数/C到30/23注入坐标保。若成立e2=aS2−bSnew；不能先称成功，且Eshallow e1-Y及原Xi参考/外谱仍开。参数--max-block=4 --taus=2,3 --with-b，随R705请求公开Actions。
+**R702实际首轮**：原53×69来源系统在τ2/3、η±均rank32、不相容；R693全部30条件/四挠绝对常数/C30/23注入坐标复核通过，不能据辅助降秩排特征零。公开43687819040/job132731896404，ci/exact-check-20261115-r702.json。续真正中性B6G6h混合块；Eshallow e1-Y、原Xi参考/外谱仍开。
 
 ## 惰性：原绝对迹、有限两位和真正wild相位
 
@@ -46,7 +46,7 @@ R688 F=K0E[p]全Fq×/唯一p，H=Norm1。原r_h=ζPζ，r_h^p=a/a_h；G^pd=−a^
 R663严格LT g=−pv+v^p²,W=v^d,Q=W^e−p，同Y闭盘iff Q|B且真过界；原X还需j0和Q^(d−m)|B/下降。R660大p闭X迫原有理首系数0。R632/635不同半径、R644/658固定D jet、R656高度O(D4logD)给4<θ<7真非整层，中央→全D/k及aI+NbI<3N−6仍缺。
 **R703** 原ξ/ρ全部相位及真正p² Hall Teichlift已付，公共Klein因子c³=c^p=1。原迹=rootunit·S_r，S_r=Σ_Nv=r e_p(τ_m(v))A_m(v/p)，τ=m det((v^p²−v)/p,v)/2。代表变动与准周期严格抵消；固定幅度DFT ℓ1=O(log²p)含边界跳跃，Parseval不给max。
 **R705** χ_m,r(v)=e_p(Tr(β_r q_p(v)))恰为e_pτ，q_p=(v^p/barv−1)/p，β=mr/(2δ)；导子p²/阶p，tame恒1。全Norm1 torus T=Hhat×U，原w在1+pδt下乘e_p(rt)，故W/F恰p。原幅度属于明确p²维Weil模型，标准内积Σ样本，G_r=1_N=r χ^-1、||G||²=p+1；T=ρ^-mχ(v)^-1〈A,G〉，wild角色单重。全环Fourier为p²χ(ξ)^-1·1_Nξ=m²r/12，绝对常数+1；原小矩形completion的Dirichlet权不能删。酉性/单重/全Gauss均未付幂次界或非零。
-R704继续同原幅度的Zak/短块，R706继续标准Bessel/完整例外；原迹无穷非零、j0联立及高Q仍开。
+R706付绝对Bessel核+1/p、Cayley完整±U例外及quartic驻点全相位；两圆交Heisenberg自相关≤2/(p+1)不代受限短块。R704继续同原幅度Zak/固定m高斯包，R707续真实收益；原迹无穷非零、j0联立及高Q仍开。
 
 ## 深支：原矩阵、同R及真实顶帽
 

@@ -1,0 +1,24 @@
+{
+  "request_id": "rank2-r702-original-complete-quarter-adaptation",
+  "run_id": 43687819040,
+  "source_commit": "ac0d9b65400d607dbf8f9e4827d4e3297d810fcd",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r702-complete-quarter-source-adaptation.js",
+      "script_sha256": "976f0008e348ad83d4a6287103e0a587de7f7af44b949bff0d90238151095841",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b"
+      ],
+      "engine": "node",
+      "sha256": "e5e173be6d03d9bc4e85f477d4a1dd4b5bb3ea5093edd5e7a7899e6af3124139",
+      "stdout_bytes": 22437,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132731896404,
+  "scope": "Actual auxiliary 53x69 system: rank 32 and inconsistent at tau 2,3 and eta +/-; no characteristic-zero exclusion inferred."
+}
