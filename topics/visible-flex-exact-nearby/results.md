@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [FA：完整自由 Airy 首遗漏列](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)：同P22真实root和原free w1，完整J残差、六mean/两primitive尾及实Airy误差给n^-2列界；原TN有序逆的finite/strong分量均保，FA32给H−4/3→L2费用，FA34a另保corrected first-order负窗。仅解析新scalar合同，尚未报告数值或全逆。SHA24216c6d78f1261e16b9d53030fb2b899a94e9e9d8900e7fea79746ef32d96af。
+
 - [HSA：实际已知高频源及 physical 4j 负一阶输入](results/R133-supplement-actual-known-core-high-sources-and-negative-one-inputs.md)：43759656502/1 child0、18门；三whole tails与三负一阶整候选均为新公开Actions scalar，旧CR/RH/ST及SH/Ed/mean/repair完整原字复用。ordinary约3.31747e−16/2.16220e−16/6.43897e−26，H288严格0；不授未知state或强返回/完整逆。proof SHA b176bfb184f5dfda6a28ed35ff80b3d2a4b42095ec3870f0b8efc7ed5428ee64，成功冻结。
 
 - [HS：完整已知核心高频源及负一阶小计算合同](notes/2026-11-15-R133-known-core-high-source-and-negative-one-contract.md)（2026-11-15，18a683a215c4b28dc56ec029ed0c02013b42e083f95f463c9d5fa7e3850ac2f7）：原CR成功小对象和RH精确支持给3个ordinary尾、3个physical4j负一阶尾与>288 exact0；每个minimum选择同一个完整norm的全record。只普通源和ST真[0,rc]限制，未知解/phase/H−4/3不获新claim；数值待public唯一原运行。
