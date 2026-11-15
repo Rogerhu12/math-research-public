@@ -272,3 +272,15 @@ Its input contract pins the historical native model and original full constant r
 The new determinant and all source relations used here are original-column objects. No full characteristic-zero $202$-mapper array, no old outside determinant of length $149$, and no old higher quotient of length $26$ is evaluated or inferred. The new local source complement avoids those old-coordinate torsion factors; it does not decide their characteristic-zero lengths.
 
 The uniform finite-precision source reduction for this new minor is proved separately in [the bound 8655 corollary](R150-appendix-uniform-source-bound8655-over-all-powers-of31.md). It has a different purpose from the already proved rational cost 8531; no improvement of that earlier rational bound is asserted here.
+
+## 7. Actual complete dictionary verification
+
+The small reader was actually executed in run `43756208221`, step `new-original-unit-leading-minor-dictionaries`, from execution commit `d8a5f6d3232e1a580a0e309c8f443120b4c54d76`. Its mathematical time was $0.4074878119999994$ seconds and wall time $0.46469509700000344$ seconds; exit code was zero.
+
+The [actual published receipt](../notes/r150-source-kernel-session-789f/43756208221-new-original-unit-leading-minor-dictionaries.json) is blob `0f543b9b02141fcdbca547b91045e4e5dd92e597`, $9056$ bytes, SHA256 `b178415228fa060f529d1aa335a3a7d01078adb4b824042eb7da79d73b66443e`. The full temporary receipt was $6038$ bytes with SHA256 `e09e6aaeef8de337548e447ccf0c4b348dcf24347dffc6daa43cd2ea9cf8abb4`. Its semantic binding is `28c53c39e757924c28a2c0b669641249a80e322cc8c9e4548960fc4dca9cc714`.
+
+All five complete input byte identities, all $3333$ original prebasis records, all $1007$ subsequent constant-pivot coordinates, and the complete original $P,R,H,E_{216},F_H$ dictionaries passed. The actual histograms reproduce every count in section 4. The new row-set hash is `c9c64296a63ec83c67c97fbcbdc150152b6fbd823ab2ecd9de515797ed6fb141`, and the new complementary source hash is `36d196a8ad72f10bd50c84d6a1e6cedd8baf42798173774a7413f9d56e33c15e`.
+
+The two historical text inputs were first restored to temporary storage and checked at full length in the [successful recovery-v2 receipt](../notes/r150-source-kernel-session-789f/43756208221-new-original-minor-historical-dictionary-recovery-v2.json). The initial recovery attempt invoked git from the temporary computation directory and failed before reading either input; the corrected attempt explicitly uses the repository checkout. No historical mathematical array was assumed to exist or newly persisted.
+
+This execution verifies original dictionaries and integer weight arithmetic. The determinant valuation and leading-unit conclusion still come from sections 2--3; `leadingCoefficientComputedNumerically=false` and `newMatrixEliminationPerformed=false` remain accurate.
