@@ -405,3 +405,5 @@
 - **外投影确定因子严格消去九目标余乘子并降原来源成本。** [自足PID证明](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)由原短正合列推出每个外不可约处 $\ell T=v_f\Delta_A-v_f\Delta_P$；定义 Ω=ΔP 外部分、d=degΩ，则 Ω|Rout、$U\mid R_{\rm out}/\Omega$。同一个M=Rout/Ω给九Mh*tj原全局来源、degM≤160−d/总乘子≤183−d；同I/J/B余式降度得三支8526−d/8531−d/331−d，统一8531−d。未预报实际Ω或Q60，也不假设T循环。
 
 - **∞第八全高零且11incoming高系数完整。** [实际原来源证明](results/R150-appendix-infinity-eighth-high-zero-and-eleven-incoming-source-maps.md)：run43756208221/2.891423627秒，两高summands各为Q零，99008原低阶产品真；真链λ7 normal2有40非零，incoming λ7有75非零且其全原高残差也零。余完整1088×600低式保全部来源及回填，未预报β8。
+
+- **原56×22有理多项式core全部实际构造。** [原证明新增§7](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)：run43756208221/11.513223331秒，原17式无截断、P0/P1逐项核、918真g行、全部224×13自由核/双H9/119×22原graph恒等式通过。只剥300条已知支撑单位后，核心641非零、最高次数126、分子/分母409/213bits；逻辑SHA752d21d7。同binding可续全部行模，不把选定minor当最大子式gcd。

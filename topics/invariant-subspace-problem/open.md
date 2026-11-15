@@ -144,3 +144,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **外投影gcd直接消目标余因子。** [完整PID/同来源证明](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)对 Ω=ΔP 的Σ0外部分给 $U\mid R_{\rm out}/\Omega$；$d=\deg\Omega\le160$，九 $(R_{\rm out}/\Omega)h_*t_j$ 原全局成员、额外次数≤160−d。同原I/J/B与完整因子K158Ω给来源费8531−d、三支8526−d/8531−d/331−d。实际Ω未算；续56×22全部行模gcd，单minor/单素数因子不满足前提。
 
 **∞第八真实高已闭。** [原完整高零](results/R150-appendix-infinity-eighth-high-zero-and-eleven-incoming-source-maps.md)的两summands各Q零，99008低阶原产品真；11incoming中λ7高的75非零坐标保留，完整1088×600低式已排并须回填该高源。β8及后续高forcing仍待实际。
+
+**原Q[s] core已实际构造。** [56×22稿§7](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)记录run43756208221/11.513223331秒，全224×13自由核、双H9、63×22三角及119×22原graph乘回真；核心641非零/degree126/位数409与213，只剥已知单位。现同source/binding续全行模gcd600秒/4GiB，两向来源核对后才认Ω；尚未取得实际d。
