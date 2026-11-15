@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 11:37:01 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 11:39:04 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 11:22:44定时及11:14非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读Green27次README空diff，最新11:24:29→391f90372f1f2eed07b1fca0a8808c44f2738c0f；第三diag真pull11:26:58→89e8efa9e47abeda59747ccafdb5d8a494f2aa1a两README空。ref不冒pull，每小时CLI继续。
-最近只读README核：f93ba14439d408b07a2d84a39a724e76a0c08593；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：82b8843d51149af2ddd440adb7bba3a91943c7ef；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：802c93c1a1c1b780a3ca3fcbe7a230d032b81b2e:HANDOFF.md；串连0f2a9fc/38e1f57/25855ae及原notes归档。所有旧输入完整身份、成功/失败、restore与未付门保留；results/open归档按前H/原链接恢复。
 
 ## 总验收、对象和最终族

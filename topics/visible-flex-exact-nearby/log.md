@@ -455,3 +455,9 @@ root全文亲读原execution30270B/SHA8cc43eb17f28b6b3fd82b9a220e8db86c7eb53fa7c
 newton从公开API亲取43690634784已completed/failure、updated11:35:13；job132740339581 step7在11:35:03失败，step8打印actual小process在11:35:03–04成功。根不再将此run写active。上次已出版11:24 process只支持future5970/product5970/past3808/85groups；final counts/returncode/真实stack尚待零数学日志摘录，禁止臆造lost数量或成功。
 
 已静态核原driver每pull后按旧rules SHA check_inputs，except terminate_child；新rootREADME历史补记虽根已于2f72亲读并推新review，旧worker没有动态已读入口。当前先用公开自身Actions只读完整临时原日志并保≤60KB真正小process/stack+原log SHA，禁connector超限/数组artifact。然后只对确失未推新结果按用户授权恢复，旧1886等成功不重算；新长worker将显式接同root已读的新规则记录，代码须审。freshmain f93ba14439d408b07a2d84a39a724e76a0c08593两个新已读README不变。
+
+### 2026-11-15 11:39:04 UTC — Green停止的纯日志最终process恢复部署
+
+根全文核15995B stdlib worker/SHA dab6529fad4072f761f2eae6696b2f37e9588e5043227237ceeb5946bfd13efc及2697B flow/ee67a157a8ddf5ccd324fd9027e592be0793d3f07ad0c59cbc4d386a63e4354e。只读固定run43690634784/job132740339581/head8e962的完整临时日志及元数据，≤10MB暂存，完整log bytes/SHA保；验证真实step8成功，恢复其唯一完整已打印JSON（明确不是未打印full process），保全部selected字段、1886旧prefix、实际child与最后README。stack≤20KB、两个小报告合≤60KB，先stdout再出版；0科学import/进程、0artifact/Release、0数组恢复声明。
+
+新rules65503a/root2f72已明确读过，首末真pull+两README检查，非FF即时rebase循环。所有数学结果仍以原真实证据为准，本诊断只确定lost范围。freshmain 82b8843d51149af2ddd440adb7bba3a91943c7ef两README未变。

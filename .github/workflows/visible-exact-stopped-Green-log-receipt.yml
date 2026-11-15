@@ -1,0 +1,64 @@
+name: visible-exact stopped Green final-process receipt
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-stopped-Green-log-receipt.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-stopped-Green-log-receipt
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  RECEIPT_SOURCE: topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_stopped_log_receipt.py
+  RECEIPT_SOURCE_SHA: dab6529fad4072f761f2eae6696b2f37e9588e5043227237ceeb5946bfd13efc
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  stopped-Green-log-receipt:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 20
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only receipt source and reviewed text
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_ephemeral_Green_stopped_log_receipt.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+            /topics/visible-flex-exact-nearby/notes/ephemeral_matrix_Green_stopped_log_diagnostic_ci/
+      - name: Verify and parse the separately pinned stdlib-only receipt
+        run: |
+          python - <<'PY_RECEIPT'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path(os.environ['RECEIPT_SOURCE'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['RECEIPT_SOURCE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          r=pathlib.Path(os.environ['REVIEWED_RULES'])
+          assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['REVIEWED_RULES_SHA']
+          PY_RECEIPT
+      - name: Read the exact stopped Green log and its complete final small-process stdout
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u "$RECEIPT_SOURCE" --source-sha "$RECEIPT_SOURCE_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      # No scientific import, numerical reevaluation, artifact or Release upload.
