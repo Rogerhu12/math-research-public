@@ -588,3 +588,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:22 UTC /root — R332原Armijo常数精确定义
 
 [R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)明确c_A为原binary64 0.2的准确实提升，局部直线Armijo证明用c_A与1−c_A，不用新十进制数替换实际常数。只改证明的常数身份，实际算法和门不动；全文11282B/16385345。154继续完整二阶和原有限回溯接线，未宣称实际接受或收敛。
+
+## 2026-11-15 14:24 UTC /root — request156同C完整头显式预算重算
+
+[156完整接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)：R327原1432/1440头未完、线性0列启动，故仅公开增C预算1800→3600/E步75/job150，原13源码、R324全部112/两坐标、线性1800及数学门不变。request8ce21c4d/workflow84404a07/note48eaecf2逐字核；原同job完整重生，四结果和所有pending/错误读后清，无raw上传/旧cut替代/新成功预填。

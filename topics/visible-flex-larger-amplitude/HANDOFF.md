@@ -4,7 +4,7 @@
 
 ## 当前规则与环境
 
-规则同步记录：2026-11-15 14:21:17 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4c0e815bbd2379415326d776f6722c4e6f98067a。
+规则同步记录：2026-11-15 14:22:42 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9eea851ad15b231826e89dd1d11e0be9a7cb1a0b。
 
 仅公开 Rogerhu12/math-research-public。科学算术、科学模块导入、数值测试/编译只在本库Actions；root只源/证明/原JSON词法/字节/语法/Git。PAT仅CLI瞬时用，不入文件/提交/回复/连接参数。root唯一发布，三个agent独立/tmp交源。
 
@@ -40,13 +40,15 @@
 
 151最终四件在 /tmp/visible-continuous-nine-target151 待root全文核：consumer69431B/6dfb79be、request13405B/a4894d6b、workflow50748B/3995b487、note22606B/9a87fd6d。原147 request17398B/4b6f逐字作来源/构造原子子程序，20pins=19原+consumer。因R327实际1800仅1432/1440，明确本次C重建3600并核actual work_parameters（原f12f不变）；原两个域300/新target900、grid320/65536/depth32/工作目标1e−7保，job150/E步75。先全419粗覆盖再两子原子替父，R330中心差、严格反证/未决分开，所有frontier/pending/中断恢复全文读后清。若未推草稿丢失，按R326/R330、原147及此声明重做。
 
-150保58pins/原52和R314/R325三严格源；同job真owner的stage10/step0/field0全部230列/320bits。19200总限、owner6000/cert9000+1650，全部JSON列/长整数/原错误先读后清，原child70/summaryfalse不改。固定trace条件包含不冒F_e/真根/IEEE/全RK/129248或native。exact负责150全部实际读回。
+150完整接口保58pins/全部230列/320bits/19200总限，原child70和summaryfalse不改；全JSON、长整数及错误先读后清。固定trace包含不冒F_e/真根/IEEE/全RK/native。exact负责全部实际读回。
 
 145保真124六p/λ.001，原warm/fallback/last、全currentH/J/R273η1、10trial/32iter/2e−9、338/FD/fullDN/audit。首次正s1/64真正原数学拒绝即结束本实验，不循环13盲减半；工程错误/未返调用独立。exact负责原实际。
 
 ## geometry：R327、156与真正153
 
-[R327 actual148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)本次核推：run43719446020/source da307af3，compute132828030323 step12 failure，report132836205506 success。原f12f C 1800.010812505s只1432/1440，首piece1432/cell0/seg1 sqrtE_B ResourceStop；10闭pending+1433..1439后缀全文保，Rout/cut=null。深端112行全付，有限头0mode/0panel/0coefficient、exit2因原前置未付，不冒ODE/共振失败。四原块两job逐字同、raw全清。156正写独立三件重算：只C1800→3600/E步75/job150，其余13pins、R324科学4531、线性1800/全部112/原门保；未发。
+[R327 actual148](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)已推27067e0c：C1800.010812505s只1432/1440，10pending+1433..1439后缀全文保，Rout/cut未付；深端112全付，有限头0mode/0panel/0coefficient，exit2因前置未付，不是ODE/共振。原四块两job逐字同，raw全清。
+
+[156接口](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)本次三件核推：request16157B/8ce21c4d、workflow48927B/84404a07、note12535B/48eaecf2；只C1800→3600/E步75/job150，原13pins/R324科学4531/线性1800/全112/原门保。绑定明确保实际3600work，原点读者144身份不改，四完整块/pending/错误先读后清，非零退出不覆盖。尚待真实run；geometry读实际，未预填success。
 
 [R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)已推4d12cfef：零shape保两mean、非除Robin/原port、非末−I前沿满秩/末整体非共振、η>0方向与η=0全112敏感度、完整338/原d_c字词。数值QR不冒严格非共振。R312/143 R318深尾、R324严格flux/闭管和R322原cut已付历史，不冒本次输入。
 

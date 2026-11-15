@@ -133,7 +133,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R322实际144完整cut两jet](results/R322-actual144-original-cut-twojet-and-complete-domain.md)run43715729122/sourcead4a4345，compute132816731637/report132824742430全success；两原scalar/cut块逐字同。原binarycut点完整1head叶、5refine，E>1/Er严格负/Err跨零，全部dyadic正文保，cut E宽目标true不冒导数宽门。全1440/六primitive/whole域完成，whole2891合法粗叶+1晚期sqrtE_B预算未付，无source/query后缀；原result24892B/d8519761、cut5684B/8d7f730c后清。147/148按真实原输入重生即消费，不拼摘要冒全ledger；有限头h非零/DN、新场/同场metric仍未付。
 
-[148 R327实际](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)run43719446020/source da307af3，compute step12 failure/report success。C1800.010812505s只1432/1440，10pending+1433..1439全文保，Rout/cut=null；深端112全付，finite-head 0mode/0panel/0coefficient、exit2因前置未付，非ODE/共振。156保原13pins/线性1800/全112及门，仅明确C重建3600/E步75/job150再算；原raw已清，不借旧cut盒充本次。
+[148 R327实际](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)run43719446020/source da307af3，compute step12 failure/report success。C1800.010812505s只1432/1440，10pending+1433..1439全文保，Rout/cut=null；深端112全付，finite-head 0mode/0panel/0coefficient、exit2因前置未付，非ODE/共振。[156独立重算](notes/2026-11-15-request156-same-C-finite-head-explicit-budget-retry-interface.md)本次派发，保原13pins/线性1800/全112及门，仅C3600/E步75/job150；四完整块读后清，原raw不充本次。
 
 ### 新C完整物理绑定与真正非线性provider
 
