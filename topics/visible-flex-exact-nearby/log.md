@@ -119,3 +119,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:13:13 UTC，R基点raw运输独推 2a38367a2ce2515cea4fa080067580493bf0efc1e92cafe00fee16c286435423；root全文/原O、W、T、Q与23649B实际summary769204e8…核，phase和tail独核R10–20 full4Z weighted projection/两测度/mean0/B-only/source符号。新增反馈<1/16，总<7/16，新raw高逆2^4194304，旧G/有限193算子身份不改。出版只修R14a显示公式，不改数学。fresh 6f924f5251d617fd09721784d3e3c0fcaba8ef0f 两README未变，H/open现按已付基点继续全附近组合。
 
 2026-11-15 07:16:51 UTC，为Green child1定位部署零数学receipt-only脚本dee201d00a965bac2215fb1bdad701174f8c35303a786abbef2d098633b73a36/flowc3370a24…；root全文/静态delimiter核通过，public runner AST必过，内容只原run/job日志SHA和必要traceback，無新artifact。fresh 1a443cf96d389b7fff9a297cc1015a67691cb099 两README未变；本部署不含新数学结论。
+
+2026-11-15 07:26:50 UTC，真实Green失败诊断独推 1e74f420811df48f53207692663d585cc4a5d61a5dddec1ede69c656c199afa4；root亲读原source312398be…/2173281e…、receipt log d0242150…/41089B及finally summary770a61fa…/7499B，记录最终完整文件数而非16格旧进度。H同步最新真pull07:17:05 e9a7712f…两README空；cleanup实际delete315bf6e…后206137215B门false，继续已确证data普通删除。较早tail详情已在前H735b4dfe…逐字保，本H压缩已付旧段。fresh c2ab16dca1701d007141581d83cccdd690ae7dd6 两README未变。

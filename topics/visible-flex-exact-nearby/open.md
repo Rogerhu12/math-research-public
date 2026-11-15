@@ -16,7 +16,7 @@ newton_source负责原同F链。原有限193 actual43635487128/8只授有限负�
 
 [全部5970同F数据](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)已由43654510038完成32范围及finish，原4+5966新、child0/7门，native7e1a5709…/process0c832fe8…。同193状态/128high、真实Q、ρ端点、F逆误差、signed源与输出Gram完整保留，0target重算。原225pin8d334ee7…不动。
 
-同runner三流43681612825/1的真实结局：07:05:03首group consumer-0报ArithmeticError: nonfinite exact dyadic slack，数学child1（5100.021125664s）、0group。过程SHA0b2e0815…/39023B；最终future4224=1886旧+2338新、past1792/product4320。最后真pull07:05:07.597017→151fa874…两README空。新prefix仅临时未持久化，不能称已保存可续；定位完整Gram/dyadic非有限原因后，未推部分若重做按用户/H明确记录。原1886成功前缀和所有旧5970/7908只恢复不重算。原v1身份换行失败/0新数学也保留，当前没有最终Green/Poisson或whole界。
+同runner三流43681612825/1首group数学child1、0group；[实际诊断](notes/2026-11-15-R133-actual-Green-v2-finite-dyadic-overflow-and-recovery-scope.md) 由零数学receipt43689244062/1核原日志70333B/69181f59…：finite非负Arb在weighted_add→exact_upper_float转binary64溢出，具体宽放源尚须验证。finally摘要770a61fa…给4226future=1886原+2340新、1800past、4331product、5970canonical ports，均新temporary未保存；后继若需要必须明确重做这些未推产物。旧1886/全部5970/7908成功链只恢复、不重算。新方向误差Gram与任意指数dyadic先公共Actions完整入口预试，不把编码修复称Green/Poisson已过。
 
 [三流与真97合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)保future Q、past V/W、raw Ecut=I97及全部同源jump；完整dyadic entry球和原1e−30逆门，187组全signed Gram由实际Vcutex同C合成。true96 waist、true97 even mean、完整[0,9/10] body和独立cut trace、三个HY与全部8whole方案都保；新数组仅runner临时消费。局部matrix成功不代全BVP逆。
 
@@ -128,7 +128,7 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 现行规则由137c5a877fb387a82cbde01f084d1fa67ee717aa根README差异授予；root blob74c08a36…、topic7e2b93d6…。[规则收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json) SHA f2661bd5…：可重算证书/data/Actions输出不入Git、Release或新artifact，只scripts/args/run/SHA与小结论。题main≤200000000B，普通删除、不改历史/不force。原Release迁移计划在执行前已取消。
 
-cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，完成后消费小结论并核实际题树大小。需要旧输入时只从记录的删除前immutable public commit/path用git show到temporary science，或恢复已存在的旧artifact，逐原bytes/SHA核对；已成功数学禁止重算。无executor时connector只读写<100KB UTF8，严禁binary/gzip。真实pull及两README差异在H和runner记录分别保留；ref read不冒充pull。
+cleanup43679889657/1的实际普通删除commit315bf6e06a2e21fae980f538286dcec6b739bc59已删11834件/1905188820B；publicationeefd8712…真实topic206137215B，≤200MB门false。继续只对producer确证的计算输出追加删除，不删真实参数/不改历史、不重扫旧11834件。恢复仍从原immutable commit/path或既有artifact到临时science并核原bytes/SHA；root connector只UTF8<100KB，禁binary/gzip。
 
 ## 10. 全尾角窗已扩大，紧接真正背景 tame 与 smoothing
 
