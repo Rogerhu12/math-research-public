@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **signed 密度角图与根领圈准备（实际完成并冻结）**：[actual准备](results/R133-supplement-actual-signed-density-angle-and-root-collar-preparations.md) 来自43744151905/1原子保存的12098B科学结论：同selected真j两门、KH/Ej、两sign共同root四source/error列及首原cell完整mean/speed已成，后继只能复用。该child首reference_step的poly/scalar API失败，0完成输运子格；仅首子格Taylor F/a未保存可重做。完整signed H3、C与strong-return并未完成。
+
 - **统一割线帽行与同态 finite193 五输入接收（已证）**：[SR1–21](results/R133-supplement-uniform-secant-cap-rows-and-complete-finite193-nonlinear-receivers.md) 亲核 D/F 的 product-space 证明后，CPA 对任意同范数界的完整帽增量一致有效，故每对合法态的割线平均可置于97左侧。完整 high-cut 线性费只吸收一次；右侧保 CH 二次/差分、非零 affine、独立 height、高主体/高cut 和原96腰。腰第五列使用同CPA ordinary增益，全部mean保。这是统一后验接收式，尚非非线性存在或真实准入证明。
 
 - **genuine Darboux 比较与完整 incoming 因子化（已证解析合同）**：[IN1–39](results/R133-supplement-genuine-Darboux-comparison-and-complete-incoming-factorization.md) 精确消去 common potential 的一阶 transport；完整非零根 β 矩阵用输入对角的 −4/3 阶估计。18 个旧正算法系数合法回读 profile，全 τ 三 profile 给可直接新 scalar 的有限正预算，保两重建源/均值。stable 因子仅在有序自然域抵消；incoming 的 L2/H−4/3 两门、完整 finite 三行及 dual H4/3 费用都保。新 phase gap、strict-tail、实际 comparison/全 R0 与选定高逆尚待，不授 cutoff97 或所有 s。

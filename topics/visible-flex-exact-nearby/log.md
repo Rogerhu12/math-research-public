@@ -164,3 +164,13 @@ D在whole-body L2与独立finite cut的product空间只用主体e和完整右行
 实际K_hk在physicalγ真凸段上固定fk积分，再在γh比较height fh−fk；准确边界差是Bδ^K u+E−H，移右是−E+H。E只有CH chart费128H1pair²或2^11ρH1sum；完整Cmean余项和K的scalar输出不删。height独立7/25 dotH2，fixedsB的域及实际tail仅连续不能偷Lip。左腰W−Gδ,K DδW真实第五列须用新CPA gY ell0，whole/negative/cut各自Wnorm准确，非旧κ0第五列改名；数值ell0另待。
 
 SR19–21保same case四列+原96腰、全source σ/−fδ/非线性/非零affine/mean/实际highbody-highcut。无value jump才不另付jump列；只有两真解、真97行/真腰条件才删各residual。割线可依赖两态，结论是同态后验估计，不能据此宣称非线性fixedpoint、γ入口、H1/wholecore域、高逆或完整闭曲面。H/open前页逐字保c820e3a6同路径及递归档；所有旧失败/restore/域/单位继续有效。
+
+## 2026-11-15 18:09:14 UTC — SN 第三次 API 失败；准备结论已保存冻结，仅首Taylor未保存
+
+fresh main f9f4030bfea092d5dfd82cf1989a0e13e73c1cdb双README未变。第三run43744151905/1 headc820e3a6d122d54973e83e023e79ee3ae176f858，job132903650477于18:01:04终failure。root全文读exec37969c70d3b93582bbb68e24844dbeec92b0eafc/22209/3c18e4a06da0d9bf9a11e0bfd1354db48bfc2fedf4b5aeb311991fc0ae5b81aa及report29357a887a6bb9c3bf914fd3d21ed0e98bbb3083/1859/6d90ada36a48151e703fb69e0934d03758f1443b36c28b4795dd3bfd84010725。science准确canonical复原12098B/7d98755a7841abdefbf396529eec45bf9072f58b6cd9e28cba576137ac99ede5，日志355B/37c862e32fc84c8d53176c4e107b53bee45d78c5ed6ff90995b72bb4b03a84a1完整保存打印。
+
+200pins/8AST/17门全过，actual阶段complete_original_interval_speed；0完成subcell。真实错误为helper61的acb_poly/acb不支持，reference_step首次k=0调用。angle完整KH/Ej/真j/各导、rootdiag及四source/error列、首格3145/piece2549的exact mean参考/曲率/误差/speed/work均已原子保在complete_preparatory_conclusions，后继必须只读复用，不能再跑inverse_density_constant/root_entry/首mean_reference/首speed。只有这次首subcell σ=−1的complete_taylor F/a已计算未保存，无完整reference/residual；按用户既定授权，仅这些未保存新量可重做并继续后续，旧成功数学全部禁重。
+
+root新actual准备说明8691216af3d0d735649b7f0c7bf0b851d6d27d07/7163/77e36f221fd2a57f2238bf4651bd188c637e80327d6a0fb53599577e7fa1f640仅逐字抄原球，20原球逐条可核，无新算术。明确较大预算不是误差下界/无解障碍，完整H3/C/R0仍未成。后继helper最小逐完整系数scalar division，SCI强制核同输入/参数/root/cell后恢复这些成功准备；新完整source公式无改。
+
+runner17:59:50.934185真pullc820e3a6、18:00:56.031905真pull455f6c7e2e70ec5db2564de0db085074821dbf1c，双README空diff。此前“运行中”为当时已知状态，本次准确终态在此替换；不把包装/类型失败改写为数学失败或完整目标成功。
