@@ -1,7 +1,7 @@
 # Independent F127 original model and complete normal forms
 
 Author: Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro.  
-Date: 2026-11-15. Status: frozen executable entry, not yet compiled or run.
+Date: 2026-11-15. Status: corrected complete6188 entry; new native not yet compiled or run.
 
 ## 1. Exact original input and limited conclusion
 
@@ -15,8 +15,19 @@ $$
  +\mathrm{equationIndex}+1.
 $$
 
-All6188 source labels are checked, as is their disjoint partition into the
-3333 proposed $N$ prebasis sources and the remaining2195 original sources.
+The first actual model run stopped at its complete-source assertion: the old
+input lists3333 proposed prebasis sources and2195 other sources, only5528.
+Its failed receipt is preserved; the native NF never started. This correction
+does not reinterpret that incomplete dictionary as the full original source.
+
+The generator now enumerates all364 multiplier monomials and all17 equations,
+then takes the exact complement of the3333 original prebasis IDs. There are
+2855 remaining sources. The old2195 are checked distinct and disjoint from
+the prebasis and included as a strict subset; the other660 labels are restored
+directly from the original dictionary. No claim about their127 normal forms
+is assumed. Four17-by4 equation/multiplier-degree histograms distinguish the
+prebasis, old subset, restored660, and complete complement. The native
+independently checks all6188 original labels again.
 All normalization constants must be127 units. A failed unit check is a
 failed qualification of this fixed-prime entry, not a characteristic-zero
 nonmembership result.
@@ -64,7 +75,7 @@ parameter-dependent lower-moment-degree tails accompany the same operations.
 The script checks every same-degree pivot-block entry and requires3333
 distinct actual unit pivots.
 
-It then reduces all2195 remaining original rows and all nine saved original
+It then reduces all2855 remaining original rows and all nine saved original
 targets through these bases, carrying each lower-degree tail. Every reduced
 pivot coordinate is checked zero. The new1034-component dictionary is stored
 in original moment monomials. Parameter degree remains at most45 by the paid
@@ -90,8 +101,13 @@ version does not claim a resumable partially completed backward constant
 elimination. A hard stop before that first checkpoint has no completed
 prebasis conclusion.
 
-All2195 rows must finish before the GB stage may consume the presentation.
-An exit75 prefix proves only the explicitly committed row prefix.
+All2855 rows must finish before the GB stage may consume the presentation.
+An exit75 prefix proves only the explicitly committed row prefix. At complete
+exit the wrapper reads every2855-source and9-target binary record against
+the exact dictionary, including polynomial bounds and field representatives.
+It reports how many of the newly restored660 rows actually have zero or
+nonzero normal form. Every record, including zero rows, goes to the later
+GB consumer; no old-field zero source is silently omitted.
 
 ## 5. Memory and budget
 
@@ -123,27 +139,27 @@ The complete source/input pins and CLI are in
 notes/2026-11-15-r150-original127-model-and-normal-forms-inputs-789f.json
 ~~~
 
-The model source is e2d6ba7ba590acd433416295b10b88cbdbd97637,
-SHA256 76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784.
+The model source is d563d45f7060297a576a25a41ba30ec620202a0d,
+SHA256 a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349.
 
-The native normal-form source is9871edb17a5ef963e6d8996661274af14033f61a,
-SHA256 a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f.
+The native normal-form source is03cfbf6882fd19aed3e32b6883654691dd0ff63f,
+SHA256 46ef43c439aadb77a7458c97a0bce120846e6aa57d79bc9aed78d211242f81f8.
 
 The arithmetic header is796c0d4c790b3f2294bc203f057e78c0fb16d4ed,
 SHA256 03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3.
 
-The runner ise62a15aa43f903c31e987bfb505e9f668268e546,
-SHA256 89d674d1cc098f070d74d754cd00a7d07d1e44f6380a04e787dbadce88afb96a.
+The runner ise9bdb251ad30a96b1ea12efe46f6d416ae8b8bdb,
+SHA256 050ef5d714726e1e5f19be46f96a690188db809357ffbd40b2371558bd12f46a.
 
 Restore the pinned primitive gzip using the existing small historical-input
-script. The existing global197 raw model supplies only its source dictionary.
+script. The existing global197 raw model supplies the paid prebasis and a checked subset; the generator itself creates all6188 original labels.
 Run the model generator, then:
 
 ~~~text
 python {scripts}/2026-11-15-r150-original127-normal-form-runner-789f.py
-  --model-out {work}/original127-model
+  --model-out {work}/original127-model-all6188
   --sources-root {scripts}
-  --out {work}/original127-normal-forms
+  --out {work}/original127-normal-forms-all6188
   --seconds 180 --memory-mib 2048 --compile-seconds 30
 ~~~
 

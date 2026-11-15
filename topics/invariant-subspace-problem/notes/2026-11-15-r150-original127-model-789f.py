@@ -29,7 +29,7 @@ def main():
  p=argparse.ArgumentParser()
  for key in ("primitive","original-model","out"):p.add_argument("--"+key,type=Path,required=True)
  a=p.parse_args();a.out.mkdir(parents=True,exist_ok=True);start=time.monotonic()
- r={"format":"r150-original-fixed127-model-v1","status":"running",
+ r={"format":"r150-original-fixed127-model-v2","status":"running",
     "parameters":{"prime":P,"author":"Astra-ISP-789f / normal_annihilator",
     "aiAssisted":"GPT-6 Astra Pro","newModuleRankComputed":False,
     "newTorsionDegreeComputed":False,"newInfinityGoodReductionProved":False,
@@ -80,10 +80,10 @@ def main():
     at+=1;checked+=1
    gamma.append([c%P for c in values])
   ns,nt=map(int,tokens[at:at+2]);at+=2
-  check((ns,nt)==(2195,9),"all remaining original sources and nine targets")
-  rest=[]
+  check((ns,nt)==(2195,9),"legacy source subset and nine targets only")
+  legacy_rest=[]
   for _ in range(ns):
-   rest.append(list(map(int,tokens[at:at+3])));at+=3
+   legacy_rest.append(list(map(int,tokens[at:at+3])));at+=3
   targets=list(map(int,tokens[at:at+nt]));at+=nt
   check(at==len(tokens) and targets==list(range(2,11)),"complete original dictionary EOF")
   source_mon=sum((monomials(d) for d in range(4)),[])
@@ -97,21 +97,48 @@ def main():
    check(raw_id==17*source_index[mult]+e+1,"prebasis exact original source index")
    check(pivot in output_mon[degree(mult)+2],"old proposed pivot dictionary only")
    ids.append(raw_id)
-  for e,mult,raw_id in rest:
-   check(0<=e<17 and mult in source_index,"remaining original source multiplier")
-   check(raw_id==17*source_index[mult]+e+1,"remaining exact original source index")
-   ids.append(raw_id)
-  check(sorted(ids)==list(range(1,6189)),"3333 plus2195 is a disjoint complete original partition")
+  check(len(ids)==3333 and len(set(ids))==3333,"distinct original prebasis sources")
+  pre_ids=set(ids);legacy_ids=[]
+  for e,mult,raw_id in legacy_rest:
+   check(0<=e<17 and mult in source_index,"legacy remaining original source multiplier")
+   check(raw_id==17*source_index[mult]+e+1,"legacy exact original source index")
+   check(raw_id not in pre_ids,"legacy source outside the original prebasis")
+   legacy_ids.append(raw_id)
+  check(len(legacy_ids)==2195 and len(set(legacy_ids))==2195,"distinct legacy source subset")
+  # The old input omits 660 original labels. Their old-field behaviour is not used.
+  # Generate every source directly, then take only the exact prebasis complement.
+  all_sources=[[e,mult,17*k+e+1] for k,mult in enumerate(source_mon) for e in range(17)]
+  check([v[2] for v in all_sources]==list(range(1,6189)),"entire monomial-major original source dictionary")
+  rest=[v for v in all_sources if v[2] not in pre_ids]
+  rest_ids={v[2] for v in rest};ns=len(rest)
+  check(len(pre)+ns==6188 and len(rest_ids)==ns,"complete original prebasis complement")
+  check(set(legacy_ids)<=rest_ids,"legacy subset included in new complete input")
+  omitted=sorted(rest_ids-set(legacy_ids))
+  check(ns==2855 and len(omitted)==660,"exact newly restored original source count")
+  check(sorted(ids+[v[2] for v in rest])==list(range(1,6189)),"3333 plus2855 is a disjoint complete original partition")
+  def histogram(rows):
+   by_equation=[0]*17;by_degree=[0]*4;joint=[[0]*4 for _ in range(17)]
+   for row in rows:
+    e,mult=row[:2];d=degree(mult)
+    by_equation[e]+=1;by_degree[d]+=1;joint[e][d]+=1
+   return {"byEquation":by_equation,"byMultiplierDegree":by_degree,"byEquationAndMultiplierDegree":joint}
+  omitted_set=set(omitted)
+  histograms={"prebasis3333":histogram(pre),"legacySubset2195":histogram(legacy_rest),
+              "restored660":histogram([v for v in rest if v[2] in omitted_set]),
+              "completeComplement":histogram(rest)}
   check(checked==4433,"all original parameter coefficients retained")
-  lines=["R150_NATIVE_NF127_V1"]
+  lines=["R150_NATIVE_NF127_V2"]
   lines.extend(" ".join(map(str,v)) for v in arrays)
   lines.append("3333");lines.extend(" ".join(map(str,v)) for v in pre)
   lines.extend(" ".join(map(str,v)) for v in gamma)
-  lines.append("2195 9");lines.extend(" ".join(map(str,v)) for v in rest)
+  lines.append(str(ns)+" "+str(nt));lines.extend(" ".join(map(str,v)) for v in rest)
   lines.append(" ".join(map(str,targets)))
   data=("\n".join(lines)+"\n").encode("ascii")
   model_path=a.out/"original127-normal-form-input.txt";model_path.write_bytes(data)
-  original_dictionary={"originalSelected3333":pre,"originalRemaining2195":rest,
+  original_dictionary={"originalSelected3333":pre,"originalRemainingSources":rest,
+                       "originalSourceCount":6188,"remainingSourceCount":ns,
+                       "legacySubsetOriginalSourceIDs":legacy_ids,
+                       "newlyRestoredOriginalSourceIDs":omitted,
                        "targetLabels":targets,"field":P}
   dictionary=a.out/"original127-source-dictionary.json"
   atomic(dictionary,original_dictionary)
@@ -119,7 +146,11 @@ def main():
                 "sourceSHA256":sha(Path(__file__).read_bytes()),"prime":P}
   r["binding"]=sha(json.dumps(binding_data,sort_keys=True,separators=(",",":")).encode())
   r["parameters"].update({"identity":binding_data,"all4433OriginalCoefficientChecks":True,
-    "all6188OriginalSourceLabelsVerified":True,"all3333And2195SourcesPartitioned":True,
+    "all6188OriginalSourceLabelsVerified":True,"allOriginalSourcesPartitioned":True,
+    "selectedSourceCount":len(pre),"remainingSourceCount":ns,"originalSourceCount":6188,
+    "legacyRemainingSourceCount":len(legacy_ids),"newlyRestoredSourceCount":len(omitted),
+    "sourceSubsetHistograms":histograms,"legacyAndPrebasisEachDistinctAndDisjoint":True,
+    "newlyRestoredSourcesAssumedZero":False,"everyRemainingSourceMustBeRecomputedAt127":True,
     "oldField31OperationsReused":False,"oldPivotPositionsRequiredAt127":False,
     "originalModel":{"file":model_path.name,"bytes":len(data),"sha256":sha(data)},
     "originalDictionary":{"file":dictionary.name,"bytes":dictionary.stat().st_size,

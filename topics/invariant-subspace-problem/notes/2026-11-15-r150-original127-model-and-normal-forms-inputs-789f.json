@@ -1,14 +1,14 @@
 {
-  "format": "r150-original127-model-and-normal-forms-frozen-inputs-v1",
+  "format": "r150-original127-model-and-normal-forms-frozen-inputs-v2",
   "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
-  "status": "prepared-not-executed",
+  "status": "corrected-complete6188-entry-not-yet-executed",
   "prime": 127,
   "files": [
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
-      "blob": "e2d6ba7ba590acd433416295b10b88cbdbd97637",
-      "sha256": "76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784",
-      "bytes": 7231
+      "blob": "d563d45f7060297a576a25a41ba30ec620202a0d",
+      "sha256": "a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349",
+      "bytes": 9468
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
@@ -18,15 +18,15 @@
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-789f.cpp",
-      "blob": "9871edb17a5ef963e6d8996661274af14033f61a",
-      "sha256": "a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f",
-      "bytes": 18709
+      "blob": "03cfbf6882fd19aed3e32b6883654691dd0ff63f",
+      "sha256": "46ef43c439aadb77a7458c97a0bce120846e6aa57d79bc9aed78d211242f81f8",
+      "bytes": 19706
     },
     {
       "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
-      "blob": "e62a15aa43f903c31e987bfb505e9f668268e546",
-      "sha256": "89d674d1cc098f070d74d754cd00a7d07d1e44f6380a04e787dbadce88afb96a",
-      "bytes": 9310
+      "blob": "e9bdb251ad30a96b1ea12efe46f6d416ae8b8bdb",
+      "sha256": "050ef5d714726e1e5f19be46f96a690188db809357ffbd40b2371558bd12f46a",
+      "bytes": 11720
     }
   ],
   "primitiveRestore": {
@@ -64,17 +64,17 @@
     "--original-model",
     "{work}/global197-original-inputs/model.txt",
     "--out",
-    "{work}/original127-model"
+    "{work}/original127-model-all6188"
   ],
   "nfCLI": [
     "python",
     "{scripts}/2026-11-15-r150-original127-normal-form-runner-789f.py",
     "--model-out",
-    "{work}/original127-model",
+    "{work}/original127-model-all6188",
     "--sources-root",
     "{scripts}",
     "--out",
-    "{work}/original127-normal-forms",
+    "{work}/original127-normal-forms-all6188",
     "--seconds",
     "180",
     "--memory-mib",
@@ -83,11 +83,11 @@
     "30"
   ],
   "budgets": {
-    "modelSeconds": 60,
     "nativeNFSeconds": 180,
     "nativeCompileSeconds": 30,
     "normalFormOuterSeconds": 240,
-    "memoryMiB": 2048
+    "memoryMiB": 2048,
+    "modelOuterSeconds": 60
   },
   "resume": {
     "sameSourceAndDirectory": true,
@@ -110,12 +110,22 @@
     "oldF31NumericDAGReused": false,
     "fullOriginalSourceDAGRetained": true,
     "old315Or820DimensionsNotAssumed": true,
-    "infinityQualificationIndependent": true
+    "infinityQualificationIndependent": true,
+    "legacy2195SubsetNotComplete": true,
+    "newlyRestored660SourcesAssumedZero": false,
+    "all2855ComplementSourcesRecomputed": true,
+    "sourceHistogramsByEquationAndMultiplierDegree": true
   },
   "localValidation": {
     "localExecUnavailable": true,
     "ASTOrCompileExecuted": false,
     "firstActualParseAndCompileIsActions": true
   },
-  "storage": "Only these sources, parameters, and small actual receipts/hashes may be permanent. The original127 input, dictionary, normalized matrices, DAG and checkpoints remain temporary."
+  "storage": "Only these sources, parameters, and small actual receipts/hashes may be permanent. The original127 input, dictionary, normalized matrices, DAG and checkpoints remain temporary.",
+  "failureCorrection": {
+    "priorModelFailedBeforeNative": true,
+    "reason": "3333+2195=5528, leaving660 original source labels. The original monomial-major dictionary now supplies the exact2855 complement.",
+    "oldFailedReceiptPreserved": true,
+    "noOldNormalFormNumericalOutputToMigrate": true
+  }
 }

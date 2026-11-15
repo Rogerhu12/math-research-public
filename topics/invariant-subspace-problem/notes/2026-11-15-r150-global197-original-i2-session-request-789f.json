@@ -274,12 +274,32 @@
       "receiptPath": "{work}/original127-model/original127-model-receipt.json"
     },
     {
-      "id": "original127-complete-normal-forms-180",
+      "id": "original127-original-model-all6188",
       "requires": [
-        "original127-original-model"
+        "original127-primitive-input-recovery",
+        "restore-original197-minimal-historical-inputs"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
+      "scriptSHA256": "a0eec7261177a8806e6761e3bee98d6740e5cbf1d225a9da107c27c47a82d349",
+      "sources": [],
+      "argv": [
+        "--primitive",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--original-model",
+        "{work}/global197-original-inputs/model.txt",
+        "--out",
+        "{work}/original127-model-all6188"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/original127-model-all6188/original127-model-receipt.json"
+    },
+    {
+      "id": "original127-complete-normal-forms-all6188-180",
+      "requires": [
+        "original127-original-model-all6188"
       ],
       "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
-      "scriptSHA256": "89d674d1cc098f070d74d754cd00a7d07d1e44f6380a04e787dbadce88afb96a",
+      "scriptSHA256": "050ef5d714726e1e5f19be46f96a690188db809357ffbd40b2371558bd12f46a",
       "sources": [
         {
           "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
@@ -287,16 +307,16 @@
         },
         {
           "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-789f.cpp",
-          "sha256": "a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f"
+          "sha256": "46ef43c439aadb77a7458c97a0bce120846e6aa57d79bc9aed78d211242f81f8"
         }
       ],
       "argv": [
         "--model-out",
-        "{work}/original127-model",
+        "{work}/original127-model-all6188",
         "--sources-root",
         "{scripts}",
         "--out",
-        "{work}/original127-normal-forms",
+        "{work}/original127-normal-forms-all6188",
         "--seconds",
         "180",
         "--memory-mib",
@@ -305,7 +325,7 @@
         "30"
       ],
       "timeoutSeconds": 240,
-      "receiptPath": "{work}/original127-normal-forms/original127-normal-form-pipeline-receipt.json"
+      "receiptPath": "{work}/original127-normal-forms-all6188/original127-normal-form-pipeline-receipt.json"
     }
   ]
 }
