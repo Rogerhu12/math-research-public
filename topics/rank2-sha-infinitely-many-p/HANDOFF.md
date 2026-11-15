@@ -6,18 +6,18 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：88be0c86d8924b4874e16b51c26732588696a5e3；2026-11-15 03:55:08 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:55:07 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
+- 最近已读规则提交：a6658a63498f0d1302317ab4aa0f229eaa6fc17f；2026-11-15 03:59:48 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:59:46 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 记录、完整归档与分工
 
-R1–363、R365–560、R562–653、R655–671已登记；R364/R561仍开，R654/R672–675进行中。
+R1–363、R365–560、R562–653、R655–671、R673已登记；R364/R561仍开，R654/R672/R674–676进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-prefix-floor.md)、[open](notes/2026-11-15-open-before-r637.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R669两S共同源六维完整返回已付；续R673惰性原sigma modp²指定提升/真实两高商，R654与R663中央→余数仍开。R606已有H^-p log不重登。
+- root：R673原乘p分子的真实modp²来源已付；续R676该实际高位/指定中央非零与R663原余数联系，R654仍未闭。原H^-p log完整保。
 - theta：R670全Λ2四维真像/同核整取消已付；续R674两个实际S34共同来源在原11核上的成对整像，六次权保C第六矩。
 - literature：R671固定N原cd/两外部过滤已付；续R675 j=N/M0未切cd单Y完整S34六系数/是否原S线。n=N端点与R669共同E深真同域，对应R669 t=1（非t=0）。
 - deep：R637原短三块的√p大预算整满射已付；续R672真正小预算/原两输出子式与同R forcing，辅助p不冒目标p。
@@ -52,7 +52,8 @@ R674正在付固定N独立n的原核选择，使t0两共同源在S线且同时�
 ## 惰性指定提升、同解边界与全部成本
 
 原R624/630 Hadamard/三Gaussian/ψp四位/原低残差与五商js保；R606已含完整H^-p log及canonical Gaussian整单位，勿重登。
-R636/647同P2全S/T/U给g_mh=T_mh(h≤4),g_m5=T_m5−6κ5；j0迫T1及真实低除商高约束。R649同模p两比较提升改a34/p,a72/p之det=−228072b/5unit；不是原sigma自由。R673正在用真实乘p坐标分子付全t^p窗口模p²，R654跨p非零缺口仍开。
+R636/647同P2全S/T/U给g_mh=T_mh(h≤4),g_m5=T_m5−6κ5；j0迫T1及真实低除商高约束。R649同模p两比较提升改a34/p,a72/p之det=−228072b/5unit；不是原sigma自由。R673已付原t^p窗口的真实modp²来源，R654跨p非零缺口仍开。
+R673用Bp=u^(2p²)(xψp²−ψp−1ψp+1)，原Θ(φ)=BpΘ^(p²)，φ=tQp6/Bp3∈p6tR。canonical L=logΘdag满足(1−p^-2φ*)L=Gp，Gp=−p^-2{logBp−2pCs(1−p^(p−1))t^sH^(p+1)/(p+1)}整；拉回在tR收缩4位，唯一Neumann恢复。Bp modp4/H modp3给实际Θdag modp²，首遗漏p4系数−2/15明确；三原全P_m/所有H^-hp修正回前五g的两位及实际Xi，未证非零。R649非零比较提升留下pV残差，不能保此实际方程。
 R632/635原z全p幂仍RE闭非Tate；u中p次不延而p²次可延，全部Newton尾/七积分独立按前检。
 R639原Ec=hTg且Tg±1整；原j0只延每个R<RE。R660闭原X盘迫Q^(p+1−m)|B及j0，Hurwitz/复界给大p首有理系数真0。R663整LT使[-p]=−pv+v^(p²)、Q=W^(p−1)−p，完整余数保高尾；同Y闭盘iffQ|B且真过界，j0→余数及原X更强下降仍缺。
 全九格普通3klogD、惰性(0,3)、复−3klogk+3klogD，严格门aI+NbI<3N−6未过。R644/658固定D闭盘障碍有J≤(5184+o(1))D²，R656同A高度O(D4logD)与全部坏p成本付4<θ<7真非整层；原中央→全部真层仍未付。R643有限中央Gaussian正成本不改bI3，七塔/全非中央/增长条件保持。

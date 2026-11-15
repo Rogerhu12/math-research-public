@@ -50,3 +50,5 @@
 - [R671：固定N原cd返回、真实外部的单位过滤与中央接合](../results/R671-fixed-depth-cd-return-and-original-exterior-filters.md)：未附第二Y的cd双深行准确λ^n返回，真双Y S行仅七个λ^(2n)κ^(an)模式；同q七步单位过滤精确恢复S，T偶步质量精确/log全余项≥p^(7n−6N)。cd内Y外部与cd不双深外部同式返回原JS/6δJT，保全部质量/移动cut，不给外部单项赋零。
 
 - [两Euler第一Gaussian前缀的必要下界](2026-11-15-two-euler-first-gaussian-prefix-floor.md)：原真实余类u*=13+A_D及全部帽给有限整数必要门；对所有允许辅助比例p/D≥9/2统一优化得441/400，严格高于旧47/48达37/300。即使联合首层合流矩阵全秩也不能跨该截止；保真实regular高尾/新饱和和目标p短矩阵为未排方向。
+
+- [R673：原乘p分子的四位收缩与真实sigma模p²来源](../results/R673-original-multiplication-numerator-and-canonical-second-lift.md)：同一Θ=xσ²的准确乘法分子给(1−p^-2φ*)logΘdag=Gp，原t^{<p}窗真实φ∈p6tR，整收缩四位且唯一。分子modp4/Hmodp3即恢复实际Θdagmodp²，全部整除/首次p4修正付清；三原全P_m和H^-hp修正给真实第二中央类，排比较提升的自由高位但未证指定非零。

@@ -649,3 +649,5 @@
 - 2026-11-15 03:53:37 UTC / Astra-rank2-Sha-continue：提前提交本题下一次只读Actions实际git pull/两README差异请求，待job回执后记录成功，不预称pull已成。本地仍无环境；原两Euler首层下界已推f4919420，持续R672–675。
 
 - 2026-11-15 03:55:03 UTC / Astra-rank2-Sha-continue：Actions43674365978/job132691148815于03:53:49实际pull成功，head0acba0af；两README差异空、两哈希逐项相同，回执存本题，下一次最迟04:45 UTC。本地仍无环境，继续R672–675，不据阶段进展结束。
+
+- 2026-11-15 03:59:46 UTC / Astra-rank2-Sha-continue：R673付原乘p分子/Theta完整乘法与四位收缩，Bp四位恢复原真实modp²并保全部H^-hp/三原P_m；高位不再作比较lift自由参数，指定非零仍开。实际03:53:49 pull/两README无变已推14db4f95，续R672/R674–676，主目标未完成。
