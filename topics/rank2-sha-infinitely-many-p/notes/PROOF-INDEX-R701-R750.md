@@ -108,3 +108,5 @@ R731[高ρ增补](2026-11-15-r731-complete-third-carry-and-high-rho.md)：完整
 R738[零角Gauss增补](2026-11-15-r738-zero-angle-cap-and-high-rho-prefix.md)：原因子角值d0≤floor((4r+2)/3)收紧真实H2与高ρ镜轴前缀容量；2d0−1个独立Z输入足给原单位列、两p显示块或更高前缀非cube核。r=ell1最多三个平衡c；没有假定cube全核最大前缀，完整WD/同R保持。
 
 [原前缀迭代界限](2026-11-15-original-prefix-iteration-critical-limit.md)：完整原严格纤维交数给真核前缀h+vd0≤2κ；与已付Gauss容量联立，即使满Z输入也只可能越h>3κ/2，不能将现有计数链当9/8窗终止。具体原像与forcing仍开。
+
+[原normalizer与Gaussian奇偶](2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：全right-j正号及真实Gaussian base给完整反演配对；p≡5mod12的对应原A0被4整除，下一位仍是实际二位匹配的奇数配对计数。同一R的全αj仅Qi/K两种，未漏一个免费固定二次base；未断言第一wild全零。
