@@ -261,3 +261,5 @@
 - **两个三次数域低谱3,3与六共轭点原九目标来源。** [完整证明](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)按未推任务重做F±，各低长6、全原P长度≥6、完整A≤8，差长≤2付F±²W。真实run43731613530均exit0；K139及条件费8550，不冒充全局h0或固定D首项单位。
 
 - **原低投影双Dlin下界与E8全部局部目标。** [完整解析证明](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)用51行真实单位降27、M2整提升、有限coker到H⊕H满射付δS≥2v(Dlin)。E8全八根δP≥4/δA≤5/T≤1，九h0目标局部条件关闭；2点上界28/T≤16，K158/条件费8531。全局支持与二点目标仍开。
+
+- **E8 真小数域低谱准确2,2。** [同篇第九节](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)真实Q[α]/E8运算14.265291455秒达rank27，所有原单位/完整Schur/224嵌入检查通过；低长4/free9，全P/full仍仅4…5，不再盲加同低矩阵阶数。

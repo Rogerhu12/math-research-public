@@ -115,12 +115,12 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [原长度差](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保6188来源/170+54g行、lenT=δA−δP。[二点完整P](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)谱1⁷,2,3/长12，完整A上界现28、T≤16；继续原W或九特定目标，不再提高同P阶数。原h0一阶是否足尚未证也未否。
 
-[解析双Dlin与E8局部来源](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已由原物理三层行恒等、单位行列变换和有限coker满射付δS≥2v(Dlin)。E8全部八根得δP≥4/δA≤5/T≤1，E8W及原h0九目标局部条件关闭；低jet加4exact纯核到完整P的身份保留。真数域Schur仍可争取精确4/5，但不是此局部结论前提。整个非线性模块的未知异常支持尚未关闭，不能只用Dlin46代替。
+[解析双Dlin与E8局部来源](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已由原物理三层行恒等、单位行列变换和有限coker满射付δS≥2v(Dlin)。E8全部八根得δP≥4/δA≤5/T≤1，E8W及原h0九目标局部条件关闭；低jet加4exact纯核到完整P的身份保留。真八次数域Schur已在14.265291455秒准确得到低谱2,2/长4；全P/full仍只在4…5，该low不再增加阶数。整个非线性模块的未知异常支持尚未关闭，不能只用Dlin46代替。
 
 
-同选完整前三连接3/9/3，真第三17头/296072产品，完整β4∈[3,5]。旧run43702348535已结束，18 RHS末1692完整digits/49069bits/19次重建仍未成；后排O/独立重建/final没有执行，临时数组不可再用，精确参数/SHA保H。新的full∞独立run43731615668只恢复6必要旧输入，首次在真实3333预基主块检查失败，已查明自然A0保有旧F/B未消的降次数尾；正在修成真实单位三角与完整伴随回代。之后仍须付全14正指数与13形式自由方向，不搬仿射谱。
+同选完整前三连接3/9/3，真第三17头/296072产品，完整β4∈[3,5]。旧run43702348535已结束，18 RHS末1692完整digits/49069bits/19次重建仍未成；后排O/独立重建/final没有执行，临时数组不可再用，精确参数/SHA保H。新的full∞独立run43731615668只恢复6必要旧输入，首次在真实3333预基主块检查失败，已查明自然A0保有旧F/B未消的降次数尾；v2已按真实单位三角与完整伴随回代修正入队，首次失败记录保留。之后仍须付全14正指数与13形式自由方向，不搬仿射谱。
 
-[Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)O1834×1632/常rank1603/29正指数，Fp31最大≤21/总长≤243。已排primitive/native/selected小身份最小重建180秒，原full∞Q已付43/39；真Q σ才可组合改D下界，有限域上界不直接变Q等号。
+[Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)O1834×1632/常rank1603/29正指数，Fp31最大≤21/总长≤243。四输入最小重建已实际完成：Fp31谱1²,2^10,3³,4³,5,6,8²,9,10²,11,12,13,14，总149/max14，全部原来源与完整残量真。原full∞Q已付43/39；真Q仅σ≤149，须付真实Q下界才组合改D，有限域结果不直接变Q等号。
 
 ### 原同w边界：从固定测试的真实行量继续
 

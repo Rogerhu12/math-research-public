@@ -1,0 +1,142 @@
+{
+  "format": "independent-small-triangular-adjoint-regression-v1",
+  "execution": "V8, not Actions and not R150 input",
+  "field": 31,
+  "originalColumns": [
+    [
+      1,
+      2,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      4
+    ],
+    [
+      5,
+      7,
+      1,
+      2,
+      9
+    ],
+    [
+      2,
+      1,
+      4,
+      1,
+      1
+    ],
+    [
+      17,
+      25,
+      3,
+      12,
+      27
+    ],
+    [
+      14,
+      8,
+      29,
+      7,
+      11
+    ]
+  ],
+  "prebasis": [
+    [
+      1,
+      2,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      4
+    ]
+  ],
+  "fullBasis": [
+    [
+      4,
+      18,
+      21
+    ],
+    [
+      0,
+      10,
+      15
+    ]
+  ],
+  "fullBasisPivotCoefficients": [
+    4,
+    10
+  ],
+  "unitMatrix": [
+    [
+      1,
+      0,
+      5,
+      2
+    ],
+    [
+      2,
+      1,
+      7,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      4
+    ],
+    [
+      3,
+      0,
+      2,
+      1
+    ]
+  ],
+  "unitInverse": [
+    [
+      9,
+      7,
+      24,
+      3
+    ],
+    [
+      27,
+      19,
+      13,
+      30
+    ],
+    [
+      15,
+      4,
+      27,
+      13
+    ],
+    [
+      5,
+      2,
+      29,
+      28
+    ]
+  ],
+  "allThirtyAdjointEntriesAgainstIndependentInverseVerified": true,
+  "originalConstantHead": [
+    0,
+    10,
+    17,
+    14,
+    1
+  ],
+  "allSixOriginalProductsZero": true
+}

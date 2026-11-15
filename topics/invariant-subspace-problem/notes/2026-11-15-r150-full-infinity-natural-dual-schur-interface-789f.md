@@ -3,7 +3,10 @@
 作者：Astra-ISP-789f / normal_annihilator。  
 AI-assisted，GPT-6 Astra Pro。
 
-## 1. 状态与输入范围
+
+> **首版已实际失败，不能据此声称预基主块为 $I_{3333}$。** run 43731615668、step full-infinity-original-dual27-through21，execution source 6855eb1f8c715681dd45312fc17f6d86de6e17ab：全部4433原系数通过、native编译成功，但在 all3333 original prebasis pivot products 断言处退出1，尚无jet ledger。本文件保留首次入口历史；有效后继为 [完整自然三角尾 v2 接口](2026-11-15-r150-full-infinity-natural-dual-schur-v2-interface-789f.md)，它实际核单位三角结构并在正向及转置两侧保留全部低次数尾。下面原先的单位阵前提不得用于数学结论。
+
+## 1. 首版历史状态与输入范围
 
 本文件冻结新的可执行接口与代数证明，不记载尚未发生的数值结果。代码未在本地编译、运行；主线程将在实际 Actions 中解析、编译并执行。旧会话结束后的临时数组不可续用，本入口从仍可定位的六件历史输入独立恢复。
 
@@ -23,7 +26,7 @@ $$
 
 原预基有 $3333$ 列，旧 full source DAG 给出另外 $1007$ 列。完整记录包含全部 $2855$ 个非预基来源的 I/R/B/Z 事件。native 逐事件核原来源编号、已经存在的主元、系数、全部操作计数，并核后续 J/P/Q/C/0 审计记录；它不重算旧第一连接。
 
-预基重放后实际核全部 $3333^2$ 主分量恒等。每个新 full 基列按真实原 $A_0$ 列先减预基，再沿其 I/R/B 来源轨迹消去；实际核其 leading component 与原 receipt 的非零主元系数。这些 full 基列未统一归一，转置回代保留除以该真实主元的步骤。
+首版曾要求预基重放后的全部 $3333^2$ 主分量为单位阵；这一要求已在实跑中失败，不能作为已证身份。每个新 full 基列按真实原 $A_0$ 列先减预基，再沿其 I/R/B 来源轨迹消去；实际核其 leading component 与原 receipt 的非零主元系数。这些 full 基列未统一归一，转置回代保留除以该真实主元的步骤。
 
 记实际得到的原单位输出集为 $I_0$，原单位来源集为 $J_0$，大小均为 $4340$。剩余原输出集 $F_0$ 大小 $27$，剩余原来源集 $T_0$ 大小 $1848$。三者均在临时完整 native receipt 中保存，不用相同数量代替同一字典。
 
@@ -163,7 +166,7 @@ python {scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-runner-789f.py
   --paid-full-receipt {full_receipt}
   --primitive-equations {primitive}
   --paid-selected-summary {scripts}/43702348535-selected-natural-u-minimal-rebuild32.json
-  --generic-rank-proof {scripts}/2026-11-15-r150-full-infinity-generic-rank-proof-source-789f.md
+  --generic-rank-proof {scripts}/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md
   --native-source {scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-789f.cpp
   --out {work}/full-infinity-natural-dual-schur
   --seconds 180 --memory-mib 1024 --compile-seconds 30 --maximum-degree 21
@@ -177,5 +180,3 @@ python {scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-runner-789f.py
 主回执为 `full-infinity-natural-dual-schur-receipt.json`。完成 outcome 为 `complete-full-original-infinity-field-smith`；正常时间前缀为 `checkpointed-full-original-dual-jets`。只有真实十四指数、小余量、十三 mapper 和全部原门槛均通过才置 `completeFullInfinitySmithLengthComputed=true`。
 
 所有大数据只在当前 job 临时存在。Git 仅保存源码、参数、真实 run、小回执和 SHA。此次 F31 完整 Smith 即使成功，也不会自动设置特征零 Smith 已完成或 selected leading coefficient 为 $31$ 单位。
-
-根执行注：上述 generic-rank-proof 是正式结果文件的逐字节同 blob 小文本副本，仅用于已有 session 的 notes 来源路径约束；仍核原 9957 B 与 SHA，数学身份未改变。
