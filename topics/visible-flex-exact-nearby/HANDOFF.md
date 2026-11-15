@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:25:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:35:59 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
-最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及09:18非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:13:36.658793 UTC 737f0c7287c2959a016bcc7572bbe50d818ce7c5，两README diff空；ref读不冒pull，每小时继续CLI尝试。
+最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，09:28:36定时及09:18非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:33:42.135206 UTC 3957ff05d5e31113df6424408502fd143c62e2f2，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：983edc8321b3ff7bf85ffd587e32f11cba6a2236；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-压缩前全部逐字检查点保存在7abd3136d6fe8948ca96f447746b7bd16f5fd5a9:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
+最近只读README核：aec89f5eb1968702b9f745c2c17fd628ff04301c；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+压缩前全部逐字检查点保存在13e7795cf9b6432bc1153ef529335cb02db9c6a4:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
 
@@ -19,15 +19,14 @@ geometry43584188751/26仅在同η0真闭C²解/fullC0≤1e−4/|δν|≤1e−5/�
 
 ## Green同97 Poisson：newton_source
 
-v3 run43690634784/1 active，07:43:11数学开始；32真product/±4096 full97 preflight63.221s同run复用，14GiB/4GiB/4CPU门已过。输出侧全signed W/任意指数dyadic/最终C*HC/所有cutmean保。root读09:13 process blob9fc45be8…41168B/SHAef2cfe83…：future3536=1886旧+1650新、past1232/product1664、0groups，无failure；Werror log2≤−103，旧scalar2118仅诊断。三流/187groups/三HY/final仍待。不得拿进度数恢复失去的矩阵。
-v2 43681612825/1 child1/0groups：finite Arb转binary64溢出，失去新future2340/past1800/product4331；v3明确重做。旧1886/5970/7908/97cap成功仅恢复。当前v3不改不取消；v4只可静态备份，未声称加速实测。
+v3 run43690634784/1 active，07:43:11数学开始；32真product/±4096 full97 preflight63.221s同run复用，14GiB/4GiB/4CPU门过。全signed W/任意指数dyadic/C*HC/所有cutmean保。root读09:33 process74265245…42080B/SHAcd4a3f40…：future3904=1886旧+2018新、past1472/product2480、0groups无fail；Werror log2≤−103、旧scalar2928诊断不用。三流/187groups/三HY/final待，不拿计数恢复矩阵。
+v2 43681612825/1 child1/0groups的Arb→binary64溢出，临时新future2340/past1800/product4331丢失，v3明确重做；旧1886/5970/7908/97cap成功只恢复。v3不改不取消；v4只standby无实测加速声明。
 
 ## 共同参考与完整源：phase_inverse
 
-原全部Taylor/Nraw/profile/九词五mean/seam/ledger成功失败见前H，仅恢复。共同势43685624307/old-circle43688459733/根点signed43692226895已成，complex列/正Schur仍另付。
-whole Taylor43694458725/1九门/4de2b072…，67pin54旧Taylor+2stage零旧重算；全mixed/mean/两尾已付，二径fb/b1仍1.526e12/1.569e12，不猜tail份额。
-G/c3267f91…已付有序μC无除T、三local向量、六old-circle余项和五mean；两负窗及physical/reference seam分账。whole相关forcing先signed消共同径向项；Vr由同fullmean Gbar，非离根z0势；ΔV0/ΔR/μM0及−16K(2ηα+zα²)保。G36给同域ΔA特征积分。G15真列范数/正graph/strong return独立。
-S/ee408a3c…实际43698106023/1 child0/26门/math.174257719s：新RF3/20000及所有域/像/路径门通过，原final Rs3/40000/σs1/256未变。报告a9a45228…；execution3896925b…45554B/result3a271393…24624B全读。25pin17history/7oldbg+1fold恢复，旧数学0；native27514B/59c06d1a…未保存。144导数只10项fb二径改善，36mean/其余134沿用旧界；零阶/强返回未冒改进。SCI564759dc…/manifesta6fbb28d…/workera0799512…，成功新RF不可重算。phase接G15完整真列与全source。
+完整Taylor/Nraw/profile/九词五mean/seam/ledger旧链见压缩前H，仅恢复。共同势43685624307、旧圆43688459733、signed根43692226895已成；complex全列/正Schur独立。
+whole Taylor43694458725/1九门/4de2b072…，原Rs3/40000全mixed/mean/两尾；二径fb/b1仍1.526e12/1.569e12，不猜tail份额。G/c3267f91…有序μC无除T、三local、六oldcircle/五mean，先消共同径向项；Vr同fullmean而非离根z0势，finite曲率项全保。
+S/ee408a3c…实际43698106023/1 child0/26门/math.174257719s：RF3/20000域/像/路径全过，final Rs3/40000/σ1/256不变。报告a9a45228…，execution3896925b…/result3a271393…全读。25pins/17history/7bg+1fold只恢复；native27514B/59c06d1a…不存。144导数只10项fb二径改善，36mean/其余134沿用旧；零阶和strong return未冒闭。SCI564759dc…/manifesta6fbb28d…/workera0799512…，成功RF不重算。phase接G15全输出真列/源。
 
 ## 全网络、有限迭代与新94链：tail_connector/root
 
@@ -44,7 +43,7 @@ E/0e6c0f6a…加权端点→X/8b49cd59…同η0/ac1/440866、[.9,25/8]全模实�
 H/4480f77b…真实CR→height，LC^-1<9、完整DZ<10、ΦdotA²σ<rf1e−8；半fB导<2^35/γ半导<20，κ两mean/physicalaw/一λ完整，far行独立。
 F/3959bb36…zero-width full4Z真实Φ已付，Bmean右lift≤1/Lip增2^-49，完整one-high/4jet weak/adjoint与meanheight保；fixed analyticγ限制已由下M解除。
 Y/0a08995f…实际物理→moving读出已付：Rej>15/32/lift单射/image含σ/16，τ2^-18联合pair<2^21；exact meanΘ−id=0、m=1/C0、ubar=B0/C0。q≤8160值/analytic参数半球导<2^262144，非rough复composition或tiny高球。
-M/8d9e0bf3…20064B已付两rough输入γ A0<1e−9/fB dotA²0<2^-60的完整帽值图。两species ℓ1混合kernel，low≤1/16、q≤8160/Cq2^{112(q+32)+18432}，高仅finite；larger low≤1/2、J4有限的true弱列2^144(1+J4)^4，γ H^-3/2及fB Hhalf→Φ Hhalf/全curvature H^-3/2。B/C0、longκ/height、物理phase primitive/m/ubar/GaussA全在，λ独立，无未知complex角composition；root全读/tail独核。帽内actual operator扰动/newton接，全frame/ν继续。
+M/8d9e0bf3…20064B已付两rough输入γ A0<1e−9/fB dotA²0<2^-60的完整帽值图。两species ℓ1混合kernel，low≤1/16、q≤8160/Cq2^{112(q+32)+18432}，高仅finite；larger low≤1/2、J4有限的true弱列2^144(1+J4)^4，γ H^-3/2及fB Hhalf→Φ Hhalf/全curvature H^-3/2。B/C0、longκ/height、物理phase primitive/m/ubar/GaussA全在，λ独立，无未知complex角composition；root全读/tail独核。I/d25a2614…完整actual inner Poisson已付：X≤18γ、Z≤.009γ；全Q两源/旧H_R/outer两差合得K*−K0<1/5，独立fB列<1/25 dotH²。内B/Cmean与97行含Pperp HC0全像、未知high和affine≤ρ；仅固定同fB/旧moving坐标，未来背景变换和HY/参数Schur另付。root全文/tail独核；frame/ν继续。
 
 ## 体积与当下执行
 

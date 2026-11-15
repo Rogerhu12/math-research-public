@@ -44,10 +44,10 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读09:13过程41168B/SHAef2cfe83…：future3536=1886旧+1650新、
-past1232、product1664、0group，无failure；
+root已读09:33过程42080B/SHAcd4a3f40…：future3904=1886旧+2018新、
+past1472、product2480、0group，无failure；
 signed W norm log2≤−103，selected E≤2^-5。
-旧scalar诊断2118不被消费。继续三流、187groups、三个完整HY及final。
+旧scalar诊断2928不被消费。继续三流、187groups、三个完整HY及final。
 两个port前沿尚未会合；不从线性时间外推预称成功或失败。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
@@ -140,9 +140,13 @@ M的rough数据只使用实际实角和physical代数输出，
 
 **当前下一接口：** 把M的真实内B/Cmean/height/phase列与原负body、
 waist、两Γ、ν、flux及完整97/mean Schur在同一物理单位联立。
-旧moving线性中心消去H_R后得到的physical Green不能直接改名
-为当前精确帽的Jacobi逆；真正差含H_R与完整ΔQ两源。
-外侧trueouter derivative的差须另付。
+[I实际内端Poisson](results/R133-supplement-actual-cap-inner-Poisson-perturbation-and-complete97-interface.md)
+已付完整Hilbert模块X≤18γ、右迹Z≤.009γ，以及相对原残差修正参考的
+K*−K0<1/5。比较包含H_R、完整ΔQ两源、真实outer非mean与Cmean两差。
+独立fB列<1/25 dotH²、内B/Cmean affine≤ρ均保。
+原97匹配输入是Pperp HC0 u的全物理像，所有未知high块继续存在。
+这个比较固定同一fB和旧moving坐标；改变body背景时需实际DΨ变换，
+不能将composition−identity冒作小L²。真正HY/全Schur仍待。
 原极小M8212球2^-8388608没有因当前ρ3e−6解而自动成立，
 不得倒用原tiny高球定理。
 
@@ -255,10 +259,10 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，最近09:18非FF时的即时pull仍返回无环境；
+本机executor持续不可用，09:28:36定时及09:18非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull09:13:36.658793
-到737f0c7287c2959a016bcc7572bbe50d818ce7c5，两diff空。
+ref读取不叫pull。最新亲读runner真pull09:33:42.135206
+到3957ff05d5e31113df6424408502fd143c62e2f2，两diff空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

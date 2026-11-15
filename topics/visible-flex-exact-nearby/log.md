@@ -247,3 +247,9 @@ README只读核27b9728881282bb6096678cd13c1a90175686b05无变。G已核正文仅
 ### 2026-11-15 09:25:27 UTC — 单一frame接口独推，固定metric族的量词明确保留
 
 README只读核983edc8321b3ff7bf85ffd587e32f11cba6a2236无变。root全文核T1–21并手核Ωt简式，newton独核T9–16/残差正号、phase核相关jets；加入准确Ωt=q(1+K)(V−P)/(B√D)。真PDE使连接flat，fullCauchy与mean配齐后一次frame/位置安装给全B圆连续及真实四重周期；非zero residual种子没有据此成为immersion。正文11187B/SHA8cd57dc6b7998efc3dfd36c961067ff02c058af369ece1889ab7fe60a124e39d。另核E/L/B量词：冻结Γ2但Γ1*(u)随设计状态重建，当前只设计最终metric一成员。最终Γ1冻结后覆盖ν/flex族的增广逆/非线性入口没有现成转授，已进open/H，不隐藏该README核心门。继续local actualΦ与全N2/完整source/97。
+
+### 2026-11-15 09:35:59 UTC — 实际帽inner Poisson完整差独推
+
+两README在aec89f5eb1968702b9f745c2c17fd628ff04301c只读核无变；root全文核I1–30，tail亲读原C/P/S后独核完整Q两源、90/54/6模块、old H_R符号/单次resolvent及各物理单位。采用保守<1/5，不用漏βQ的旧.01922估计，不借旧小例κ常数。完整97行保Pperp HC0、constant input、全部高回馈和affine≤ρ；只固定同fB/旧坐标，独立height列与背景变换均显列。正文18677B/SHA d25a2614149605faa41ddf7826a69f375ccadaa480ebe6c1a651c1651e191e40。
+
+root亲读Green09:33 process74265245…/42080B/cd4a3f40…及14次README检查：最新真pull09:33:42.135206到3957ff05d5e31113df6424408502fd143c62e2f2，两diff空；future3904/past1472/product2480/0groups、无失败。09:28:36本机定时真pull仍无execution environment，记录不冒成功。H压缩前全文精确保存在13e7795cf9b6432bc1153ef529335cb02db9c6a4:HANDOFF.md，所有旧门和恢复链继续有效。
