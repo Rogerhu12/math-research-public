@@ -4,11 +4,11 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:26:31 UTC/`349b9128daf3546040c0b51e835ef27119951a5b`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 11:39:27 UTC实际pull后已读规则提交：`71e2264e0234da0ef0479e8137a6f56e83fab36e`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有最后实际pull2026-11-15 10:17:36/read `1fd7800079cfee8a43ff6ec4a187f6f9124abc86`。11:13:43 API/read `fba7100f73f20172d8753a438c25abf560acbe22`根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行本会话进行中；该API检查非实际pull，环境恢复立即补。
+私有2026-11-15 11:30:58 UTC实际pull/read `839ca22109ee06130136ded8f5d1b1e24bfeeb45`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
 
-真实研究计算及当前新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法和既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅存源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。2026-11-15 10:49 executor再次明确unavailable；按根8仅GitHub集成小UTF8暂交，PAT不进入集成。恢复后立即partial/sparse与真实pull。
+真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。11:29环境恢复并partial/sparse重建 `/dev/shm/visible-recovered-1129-9974ea84/{public,private}`；已恢复终端Git，不再使用失联小UTF8写入例外。
 
 ## 2. 完成门
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159首actual已消费**：43701558227/ef8c1cdb/job132773631115，完整来源/门/费用见原actual。η.266520536442→.266491207122，8主/1SOC、8接纳、20+2值、活动120.313/总896.907秒；m6仅fine曲率拒绝被SOC修回仍减B。原双网/九准确盒/外域jets/g/b0全保，但未.26/1e−4，κ≈58仍欠reach。
 
-**SOC持径恢复诊断在跑**：[首失败](notes/height159-soc-hold-first-restoration-failure-20261115.md)43705209195/9ca83546六恢复919.703秒；159初值两网全门过但0LP/0活动秒、hold未调用，generic覆原error使原因未知。[最小修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)仅driver17256713保原错误/已有池/预算；六旧源/成功handoff/门/容量/98args全不动。新run43707849695/sourcef9d8da4e9a7b783caa51b6da4790c473fe471920/job132792751708仍运行；先8新字典检查，不重旧15，再六必要恢复/未计算hold。尚未消费新完整日志，不宣修复原异常或持径收益。
+**SOC诊断已明确容量失败**：43707849695/f9d8da4e/job132792751708八新检查全过；五前缀恢复后原159初始化fine union超过4096，保留旧fine4049/coarse4421，原error已打印。159 0LP/0J/0活动秒，初态两网全门通过；hold未调用，不能记持径阴性或恢复漂移收益。总813.7947秒，原首次失败43705209195未知error仍保。下一结构容量B=Nr(2min(Nt,km)+4min(Nt,kc))+2L、Cnew=C+B保所有旧行/学习余槽，明确第6新输入生产、hold另一次固定预留；尚未实现/运行，不改原门/预算。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -44,7 +44,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R248–253旧双block例外芽已排**：Gaussian词/21历史独立；完整area=−2E(q,[Bs,Bt]Δ)。c≠0迫M4=0；c=0/N1=0迫M1+bM4=0。y=x+b/锚同移保全history；旧互补双block复2×2迫两不交正密度质心同−b矛盾，故任意实b/κ≠0/ε>0均排该圆，不排任意profile或跨b同g。
 
-**R250全角新门/40微包已付**：完整A−2,−3保D=f²−φ²与左尾；共振第三闭后面积等价三个真矩全θ零，纸面归为十条件。新40偶微包配角准确付三矩及三个面积矩，八完整cube复制付全第三，非GL2分离；换种子(g,−f)保pure两矩而m1(π/2)=−120C，故pure门严格较弱。此新圆仍Lc=−20Σ强包S_i<0，明确不是完整候选。下一不同宽度/形状联合全部能量与其余面积；不重旧圆。
+**R250/R257新全角与有序面积门**：A−2,−3的三个真矩全θ零等价十条件；40偶包三方向准确付三矩/该面积，八完整复制付第三、非GL2分离，但Lc<0。换种子保pure两矩而全角m1(π/2)=−120C。R257又从P/p2完整变分给Q=½∫(Jq″²)²+四局部项；c≠0时完整A1,−3必Q0。40包局部项0、真实累计primitive平方虚部严格正，另败该面积。多宽度准确有序式保跨包尾，下一同时联调各面积/六能量，不只局部C/S配权。
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 

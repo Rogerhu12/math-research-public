@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[实现](notes/height159-SOC-radius-retention-implementation-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC且仅曲率失门/零新行/同身份才持B/streak0。[首次失败](notes/height159-soc-hold-first-restoration-failure-20261115.md)43705209195原159初值合格而控制0LP失败，hold未调用；原异常被generic遮且清理。[最小诊断修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)新driver17256713仅保原错误和已有池/预算，原成功检查/六源/门/容量/98args不动。先公开八新增字典检查，再必要六恢复一次，原因仍未知；不重已过15检查/不猜增容量。原12LP/40值/120秒/reference/H不变。[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)尚未实现。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)保比值≥1/2、校正≤B/10/总步≤1.1B、恰一primary/一SOC、仅曲率失门/零新行/同身份才持B。首次43705209195内部异常丢失；[诊断修复](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)run43707849695/f9d8da4e的八新检查全过，完整原异常明确为159初始化fine union超4096，旧池4049行、0LP/0J/0活动秒，hold未调用。**下一结构化容量预留 Cnew=C+Nr(2min(Nt,km)+4min(Nt,kc))+2L，保旧行与旧学习余槽；第6明确新容量输入生产、hold若再次初始化独立登记一次，后续容量不增长。** 这是新算法配置，不称原完整参数恢复；原实际门/12LP/40值/120秒/reference/H保持。尚无新实现或actual，[选行J设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)也仍未实现。
 
 ### 仍须支付
 
@@ -130,7 +130,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)/[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)/[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)已用完整area与同移锚把R239旧圆全部κ≠0/ε>0/b实芽排除：c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，复2×2使两不交真实质心相等，矛盾。不排所有profile，不冒跨b同g。
 
-[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级整个固定圆：保完整D=f²−φ²及左常尾，在共振第三闭后以三个真矩全θ零给十个准确条件。新40偶微包用三射影方向准确付三矩与该完整面积，八完整复制付第三且非GL2分离；换种子反例pure两矩零而全角m1(π/2)=−120C。**已知未过门：同圆Lc=−20Σ强包S_i<0，不能作为候选。下一调整微包宽度/形状使S_i/C_i不同，联合该面积十条件、Lc/Ls及其余完整面积/全部能量；随后同w period/ruling。** 不能只加角方向、只验pure或把全角单面积零冒完整joint。
+[R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级全圆，保D和左尾，以三个真矩全θ零给十条件；40偶微包准确付三矩与该面积，八复制付第三且非GL2分离，但Lc<0。换种子pure两矩零仍有全角m1(π/2)=−120C。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)又给A1,−3的完整必要Q0：Q含½∫(Jq″²)²，40包四局部项恰0而累计primitive平方虚部严格正。其多宽度式(28)准确保左右次序/跨包尾及真实shape常数。**下一同时联调全部面积三外矩/局部能量与ordered-history，不能只调C_i/S_i或只验pure。** 不冒单面积零或局部有限门为完整joint；全period/同w继续。
 
 ## O1：双圆领相位机制，保留备选
 
@@ -148,4 +148,4 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根README第15条已执行：可重算机器输出不入仓库/Release，只保源码、完整参数、run、SHA和结论。2026-11-15 10:49 executor再次明确unavailable；最后公开真实pull为10:47:41，私有10:17:36。按根8临时仅GitHub集成小UTF8交稿，PAT不入集成；远端逐次核双README，不冒称实际pull，环境恢复即补真实pull。研究及新增人工仍只公开Actions，主课题继续。
+根15继续执行：可重算输出不保存，只留源码/完整参数/run/SHA/结论。11:29终端已恢复，partial/sparse重建后公开与私有实际pull均补；11:38根README只新增另一课题清理记录、已读差异，本题无变。每pull查双规则/NFF立即rebase再推；研究和新增人工仍只本公开Actions，主课题继续。
