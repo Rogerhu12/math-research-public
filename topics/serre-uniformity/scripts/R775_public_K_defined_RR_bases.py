@@ -20,7 +20,7 @@ RESULT = "R775-p41-original-K-defined-RR-bases"
 FINAL = "p41-original-K-defined-RR-basis-certificate.json"
 SMALL = {"public-actions-input.json", "retained-inputs-receipt.json",
          "resume-receipt.json", "run-receipt.json", "core-receipt.json",
-         "public-actions-run.log", FINAL}
+         "input-metadata.json"}
 
 
 def guard():
@@ -103,6 +103,17 @@ def restore_resume(item, out):
     spec = item.get("resume")
     if spec is None:
         return
+    metadata = json.loads(subprocess.check_output([
+        "gh", "api", "repos/Rogerhu12/math-research-public/actions/runs/"+spec["run_id"]
+    ], text=True))
+    assert metadata["head_sha"] == spec["source_commit"]
+    assert metadata["status"] == "completed"
+    artifact = json.loads(subprocess.check_output([
+        "gh", "api", "repos/Rogerhu12/math-research-public/actions/artifacts/"+str(spec["artifact_id"])
+    ], text=True))
+    assert artifact["name"] == spec["artifact_name"] and not artifact["expired"]
+    assert artifact["workflow_run"]["id"] == int(spec["run_id"])
+    assert artifact["digest"] == "sha256:"+spec["artifact_zip_sha256"]
     directory = out.parent/"downloaded-R775-continuation"
     directory.mkdir(parents=True, exist_ok=True)
     subprocess.run(["gh", "run", "download", spec["run_id"], "--repo",
@@ -291,7 +302,7 @@ def main():
     out = root_dir()/"output"
     if args.mode == "compute":
         request = read(REQUEST)
-        assert request["session"] == "serre-public-resume-20261114"
+        assert request["session"] in {"serre-public-resume-20261114", "serre-public-astra-20261115"}
         item = request["job"]
         return compute(item, out)
     # Publication can move the checkout to a newer main.  Keep the exact

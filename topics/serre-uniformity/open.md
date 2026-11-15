@@ -174,7 +174,7 @@ R735/R738/R745原模型、4920cosets/800闭链、六Hodge800，R754完整period/
 
 [R774实际立方](results/R774-certified-original-Hodge-cube-and-cusp-order.md)run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，在24.706959837秒给真e1、H³至qY820完整560坐标/26块/108stage；D289bits且v739(D)=0，821×7原模比较通过。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、manifest4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222、artifact14128247134；原模型分母2^24·3^1260。旧manifest位置失败在core前，包装已修，无旧数学重算。
 
-[R775 K定义基工程](notes/R775-original-K-defined-RR-bases-method.md)run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540仍运行。40det代表运输双label，保odd d82和半线性权；739 Vandermonde覆盖146秩，再接694/1514。直接读R77185完成stage，逐coset/批次断点，80分钟核心，大表artifact；中断先读全产物并原config续算，不预称实际输出。
+[R775 K定义基工程](notes/R775-original-K-defined-RR-bases-method.md)旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540已于2026-11-14 20:38 UTC预算耗尽exit124。2026-11-15接手逐23产物核SHA：M2维146、power2..5维418/690/962/1234和12×40seed像均complete；power6 rank1486、processed18432仍partial。artifact14130299697/manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。原core不变，完整断点续跑300分钟，原85个R771输入继续只读；不能重跑已成阶段或提前登记694/1514实际基。按新根15只发布来源、结果摘要与哈希，原始表仅活跃任务临时转交，不入Git/Release。
 
 [R778短恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)已证原20cusps是单L轨道；143个完整M系数−e..142−e准确零迫A=yB全球，仍rank2720/kernel308。基q142，实际e1原Hodge Q427已在旧800中；完整40坐标的M2/M6/M12前缀13/41/82注入。不能以单modξ代真实L方程。$/$$最终证明SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727。
 

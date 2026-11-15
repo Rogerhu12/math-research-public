@@ -1,11 +1,11 @@
 {
-  "session": "serre-public-resume-20261114",
+  "session": "serre-public-astra-20261115",
   "job": {
     "result": "R775-p41-original-K-defined-RR-bases",
     "p": 41,
     "prime": 739,
     "max_exponent_qY": 1640,
-    "budget_minutes": 80,
+    "budget_minutes": 300,
     "core": "R775_original_K_defined_RR_bases.py",
     "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
     "method": "notes/R775-original-K-defined-RR-bases-method.md",
@@ -27,6 +27,13 @@
         "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46"
       }
     },
-    "resume": null
+    "resume": {
+      "run_id": "43631335355",
+      "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+      "artifact_id": 14130299697,
+      "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43631335355-1",
+      "artifact_zip_sha256": "15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540",
+      "manifest_sha256": "d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a"
+    }
   }
 }

@@ -2,18 +2,17 @@
 
 ## 目标、授权、同步
 
-证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
+证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；日志Asia/Taipei。以远端main为准，不寻找或重推旧未推分支。
 
-已读规则提交：cf2b98d12b7c48324700bbfbbd5e50f417159dc7
-最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。18:34/18:56/19:56 UTC终端重试均environment unavailable。按根规矩8小文本API继续，核main/两README后expected_sha、force=false；API不是实际pull。终端恢复先保留旧未推R762分支，再pull/rebase；远端v2已重建，不能重推旧元数据。
-远端规则核对：2026-11-14 20:04:20 UTC，main=cf2b98d12b7c48324700bbfbbd5e50f417159dc7，两README blob均未变；本次为终端不可用期间的API核对。
+本会话已部分克隆并实际pull main至b6dd686c404c15cc7744c5c26f32862055ea3c67，读根/本题README、H/open/log及当前notes。私有QUEUE已更新并终端推送55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境transport断连、unavailable；按根规矩8通过小文本GitHub API继续，不能将API读取称为实际pull。终端恢复后实际pull/rebase；至少每小时重试。
 
-仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
-最新完整旧H/open分别存[before-R780](notes/2026-11-14-public-handoff-before-R780.md)、[before-R780](notes/2026-11-14-open-before-R780.md)，内接R777/R779/R774及全部较早归档。旧run/source/artifact/阶段SHA均在正式结果和此链；已成数学不重跑。
+**已读规则提交：eec337288c09c1e39af9500085a00bbf77a78725**（2026-11-15 04:59 UTC API核对）。本题README未变；根第15条新改为：可重算数据不入Git或Release，只保脚本、参数、run与输出SHA；本题840326974B，待普通提交删可重算数据到200MB内，不改历史。旧Release方案未推未执行，已取消。正式数学计算仅公开本仓库Actions；活跃计算所需临时断点最短1天转交后清理。
+
+每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[接手前H](notes/2026-11-15-handoff-before-resume.md)及其before-R780归档链；已成数学不重跑。
 
 ## 当前实际计算与直接续点
 
-- **R775运行中**：源00295b27a3f7367028ccee84eb867b5aeadc7540，公开run43631335355；19:56 UTC仍in_progress。直接复用R771的85旧stage，40det coset双标签/odd d82/半线性权给原K定义146/694/1514基，逐coset与基批次断点；80分钟核心/110分钟workflow，若中断先读取全部产物再resume，不重跑完成阶段。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae。
+- **R775已读真实超时断点，准备续跑**：旧run43631335355/source00295b27a3f7367028ccee84eb867b5aeadc7540于20:38 UTC预算耗尽exit124；非数学失败。artifact14130299697，zipSHA15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540；23文件逐项SHA已核，manifest d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a。M2 rank146、power2..5 ranks418/690/962/1234与12×40原seed像均complete；power6 rank1486/processed18432未完。原core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee不改，resume完整复用；预算300分钟、workflow350。新run待请求提交后核实，不预称成功。
 - **R777工程/9d6c4406已保存，未触发**：scripts/R777_exact_short_K_basis.py SHA4dae7f55167ff3741b0c3d2dd4481426a4f62dea9452ead481472c6b4c46d98a；方法及全部wrapper/workflow SHA见原文件和before-R780归档。非触发pending请求SHA3bab514912ea92c843823c1a208d3b0b5686ad271a2efe800aff69faab6c6fbe；R775真成功后填actual artifact/cert/manifest、pending=false，写最终-request.json运行。
 - R777保82E1/126半trace/40det、block79/82^w，准确生成q142基。H³只读R774前两块/14ρ，用694阶Q矩阵/Dixon解14 RHS并核AX=I，原坐标82^6ρX；membership与R778注入认证。逐原行断点/数千stage清单gzip只artifact；根/代理已读完整源码/官方flint接口，无本地数学，未把模核当原y。
 - **R774已成/167165de**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e1、H³至qY820全560坐标/26块/108stage，D289bits且v739(D)=0，原模型分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59、artifact14128247134；完整原尺度和输入SHA见结果。旧manifest位置失败在core前，已修，数学未重算。
