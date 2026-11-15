@@ -199,8 +199,13 @@
 ### 2026-11-15 23:27（Asia/Taipei）｜serre-public-astra-20261115 · R827更小完整证书
 - 新推论已证明：τ整仿射图多项式满射＋σ的∞纤维实际272阶minor足够；全球Φ与局部Nakayama排尽特殊纤维余商，再用proper提升，省第二图全HNF。
 - σ仅需q+1阶初始/算子jet逐次降精度；τ不能换成有限点rank。最终proof ccb5380582f25170e66fed68d08162f1244341850b5f0ee92e48da2177e65caa；无新数值、实际q仍待。
-- 首推接口错误后立即实际pull/rebase至ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f（2026-11-15T15:27:39.996553+00:00），两README无diff，重新基于最新main提交；R824仍进行。
+- 推送接口错误后每次立即实际pull/rebase；最新至af7f1fd7f0b8855e9c15ebab117c090064dff5ea（2026-11-15T15:36:05.953656+00:00），两README无diff，基于最新main重推。
 
 ### 2026-11-15 23:31（Asia/Taipei）｜serre-public-astra-20261115 · R827最终源码pin
 - §5.1六个独占行公式定界符统一，数学内容不变；完整proof26911B/SHA17e9c828e01e652b1a73281bf2249ae2b39133faae3cf22384a5fd6d6a3d4a71，供实际消费者统一绑定。
 - 推前公开rules实际pull至7dfcbc00acf76c39a80d87bc00aef76a6d178b0c（2026-11-15T15:30:41.903383+00:00），两README无变化，已同步H。
+
+### 2026-11-15 23:34（Asia/Taipei）｜serre-public-astra-20261115 · 已有p47源小消费者
+- 原R702的15个A_t完成源及R770阶乘/Wilson公式已读核；新增脚本仅转换七项原critical乘积与交替和，core d382bf4d/wrapper949096ea，预期值未硬编码。
+- 新增.github/workflows/serre-reused-p47-critical-products.yml执行这一固定公开消费者；AST在数学前、raw仅一日artifact。未重生旧sigma/A前缀、未扩素数扫描，实际输出待到。
+- 首推接口错误后立即实际pull/rebase至7e9a6bdfffede39b19532b65def103a3b4d6554b（2026-11-15T15:35:00.995574+00:00），两README无diff，基于最新main重推。

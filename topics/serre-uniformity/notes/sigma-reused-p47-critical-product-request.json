@@ -1,0 +1,28 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "reused-R702-p47-seven-critical-products",
+    "scope": "seven_products_from_existing_A_only",
+    "prime": 47,
+    "core": "topics/serre-uniformity/scripts/sigma_reused_p47_critical_product.py",
+    "core_git_blob": "872f481ec5331576c740dd54453a7c9789a30be5",
+    "wrapper": "topics/serre-uniformity/scripts/sigma_public_reused_p47_critical_product.py",
+    "wrapper_git_blob": "ea6e298d2336a614b32f7d6d3882e7b3586fde54",
+    "workflow": ".github/workflows/serre-reused-p47-critical-products.yml",
+    "workflow_git_blob": "01b43f29acac8a0caa9dd80116307438bd7941ae",
+    "upstream_data": "topics/serre-uniformity/notes/R702-prime47.json",
+    "upstream_data_git_blob": "b1def2c3acd8462988dfd53d2df13750c6e30e67",
+    "upstream_arithmetic_sha256": "94bc77b75d9cf7d9c98388709c7596878b72b82f30773523a0071973a6522443",
+    "upstream_formula": "topics/serre-uniformity/results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md",
+    "upstream_formula_git_blob": "edb2c336e092cd7adf5370425c7447687c6326a8",
+    "formula_references": [
+      "R770 (770.9)",
+      "R770 (770.10)"
+    ],
+    "fixed_scope_explanation": "Read retained ordinary A derivatives at p=47; convert exactly seven f_i*g_(6-i) products and their alternating sum. Do not generate A, f, or g series; do not compute a new prime, Legendre values, or primitive screening.",
+    "execution": "public repository GitHub Actions only; Python 3.12 stdlib",
+    "raw_retention_days": 1,
+    "save_recomputable_outputs_to_git_or_release": false,
+    "zero_or_nonzero_output_both_valid": true
+  }
+}

@@ -1,0 +1,66 @@
+name: Serre reused R702 p47 critical products
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/sigma-reused-p47-critical-product-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-reused-p47-critical-products
+  cancel-in-progress: false
+
+jobs:
+  seven_products_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-reused-p47-critical-products.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/sigma_reused_p47_critical_product.py
+            /topics/serre-uniformity/scripts/sigma_public_reused_p47_critical_product.py
+            /topics/serre-uniformity/notes/sigma-reused-p47-critical-product-request.json
+            /topics/serre-uniformity/notes/R702-prime47.json
+            /topics/serre-uniformity/results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Parse source without importing or executing arithmetic
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("sigma_reused_p47_critical_product.py", "sigma_public_reused_p47_critical_product.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(), filename=str(path))
+          PY
+      - name: Convert seven products from the retained ordinary derivatives
+        continue-on-error: true
+        run: python topics/serre-uniformity/scripts/sigma_public_reused_p47_critical_product.py compute
+      - name: Retain raw consumer outputs for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-reused-R702-p47-critical-products-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/reused-R702-p47-seven-critical-products/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Verify source bindings and the actual seven-product receipt
+        if: always()
+        run: python topics/serre-uniformity/scripts/sigma_public_reused_p47_critical_product.py verify

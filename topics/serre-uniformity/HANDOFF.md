@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7dfcbc00acf76c39a80d87bc00aef76a6d178b0c**（2026-11-15T15:30:41.903383+00:00；公开run43714581068/attempt15/job132860921492实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R827前H](notes/2026-11-15-handoff-before-R827.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：af7f1fd7f0b8855e9c15ebab117c090064dff5ea**（2026-11-15T15:36:05.953656+00:00；公开run43714581068/attempt18/job132862499983实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[p47消费者前H](notes/2026-11-15-handoff-before-p47-consumer.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -32,9 +32,9 @@ R811首乘法及完整char0极前像仍pending原A/B；helper09f21a90已有gener
 
 ## 已成原输入（禁止重算）
 
-[R820真实完整C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)：run43721747750/source7890fde1/core25f5582e，36.411901553秒；两图rank20/colength20/292步/5380非monic，真实只有d271=20。600ZIP/598manifest/590stage/289输入与冻结verify全核；artifact14164872449/ZIPd09c6d70至Nov16 13:58:47UTC。稀疏C_j=e_j−q_j e271，末列P20e271；原Z确为F20生成元来自实际20独立链，不假设。
+[R820完整C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)：run43721747750/source7890fde1；两图rank/colength20、只有d271=20，C_j=e_j−q_j e271/末P20e271，20独立链证Z生成F20。600ZIP/598manifest/289输入与冻结verify全核，artifact14164872449至Nov16 13:58UTC。
 
-R806 W已成：run43707290840/source75b1d56c，原w=e2/τ，34×8/full820；artifact14161637987/ZIP2f894721至Nov16 12:25UTC。R813 vg/vh已成：run43715253991/source74f5296a，S3各432位/full820、scale各6724一次；artifact14162633303/ZIP0850402e至12:58UTC。两者全部输入/输出IO与冻结verify已核。R801/803/805/807与R797/799/800已成；V6至141/V7至175/V8及旧V2..5至195，正规权1/144/127；R781 R0..142/κ幂已成。完整来源/SHA保归档，不重生Fourier；V8 q196..201真需求才补。
+R806 W（run43707290840，w=e2/τ）与R813 vg/vh（run43715253991，scale6724各一次）完整IO已核；artifact14161637987/14162633303至Nov16 12:25/12:58UTC。R801/803/805/807、R797/799/800、R781 R0..142/κ幂亦已成，V6至141/V7至175/V8及旧V2..5至195。全部源/SHA/续传在[p47前H](notes/2026-11-15-handoff-before-p47-consumer.md)及各certified结果；V8 q196..201真需才补。
 
 ## 全p sigma 原配对
 
@@ -46,8 +46,10 @@ R806 W已成：run43707290840/source75b1d56c，原w=e2/τ，34×8/full820；arti
 
 [R826 companion证明](results/R826-original-inert-companion-theta-CM-pairing.md)：原Jν=θ_t⁵Cν,p，C权p−5；原T_j=A D+jDA保tame标架/old d^(p−7)/p整性，P0五次给−120 B⁵。原未筛式=−120c²/d0·Σκν Cν,p^sharp(P0)，外因子单位，六个原CM值的指定和仍缺非零；不是固定代数数。[R828](results/R828-original-inert-two-primary-parity-and-old-source.md)现已证明：真实P₂等距交换Weil/CM，允许空间稳定＋实际两零列的交零论证迫e_G1=e_G5及companion CM值为零。保持EO的全部等距在余下六old皆标量；六项和非零仍待，不能合并不同old标记。
 
+**已有p47源的七项小消费者正激活**：core d382bf4d/wrapper949096ea；只读R702-prime47.json（blob b1def2c3）按R770(770.9–10)转换七项f_i g_(6−i)与交替和。无新A/f/g、素数或primitive/Legendre；实际输出待到，用于检验指定j0全零猜想，不外推全部惰性p。
+
 ## 主目标与已闭边界
 
-R816/818/819/821/823：原实cusp域Qξ⁺/L互素单轨道；K[T]=Qζ_(p+1)上Hom rank1，cusp评价核稳定、全非零实际Hom在全cusp不分歧；整格Φ_n(T)与C[1−ζ]迫全cusp映O，原y cusp简单极。原M2,1≠0还给c1不分歧，充分大前提只用R729；不代p单位/高度。所有规范及详细证明链接保R827前H。
+R816/818/819/821/823已闭：原cusp互素单轨道，K[T]上Hom rank1及评价核稳定，全部非零Hom在cusp不分歧；整格Φ_n(T)迫cusp映O/原y简单极。c1不分歧的充分大全p前提只用R729；未给p单位/高度。所有作用/原尺度保open和[p47前H](notes/2026-11-15-handoff-before-p47-consumer.md)。
 
-原R735/738/745陪集/闭链/六Hodge、R754period/Hom、R759 Z格12/O_K6已成；b=r0⁶、L/K7/M/L40、αs/CRT6逆/ζ²一次/246/c0/c1不可变。R707 p41全部129盘分类已关闭。主剩R317：p>37、p2/5mod9、完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上界。R575正CMΨθκ4根号负，旧逆向秩零撤回；R616/726仅高度输入。R724原MW/period/全尾/刚性化接口已证；实际eta/β、规范高度jets、(724.33)有限Bézout及全p高度仍缺。ordinary p43/776bitq已Gaussian5排除，真实Robert/Kummer/Shapiro/globaldual仍缺，禁巨大q挠点枚举。
+原p41陪集/周期/Hom整格均已成；b=r0⁶、L/K7/M/L40、αs/CRT6逆/ζ²一次/246/c0/c1不改。R707完整129盘已关闭。主剩R317允许p2/5mod9的完整非分裂正规化子、a³+db³1/p|b，D/bc无统一上界。R575正CM根号负、旧逆向秩零撤回；R616/726只给高度输入。R724实际eta/β、规范高度jets/(724.33)及全p证书仍缺；ordinary p43/776bitq已Gaussian5排除，真实Robert/Kummer/Shapiro/globaldual仍缺，禁巨大q挠点枚举。
