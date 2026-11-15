@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [FAA：实际完整自由 Airy 首遗漏割点误差与负窗输入](results/R133-supplement-actual-free-Airy-first-omitted-strict-cut-scalars.md)：43763658978/24门成功锁；全J、六mean、两I尾、有限normalizer及两sign两wave均付，68完整球/SCI/preGit可复核。完整强误差约3.87×10^25，Bc负窗约7.05×10^12，仅是同割点上界；waist/全incoming/Schur仍待。
+
 - [WXA：实际完整真腰坐标与任意短段双向传播](results/R133-supplement-actual-complete-true-waist-coordinates-and-shorter-flows.md)：43763424840/1 的20门、16pins/4AST、55完整字段/82球已核；真实waist同逆双窗、selectedH/common input原序、三组primitive两rank及leading双向均付，全部mean保留。新积分/全incoming/Schur/R0仍独立。
 
 - **WTA 真腰归一化实际双窗逆已成。** [完整原件与结论](results/R133-supplement-actual-right-waist-normalizer-and-complete-two-window-inverse.md)f90ba8a1：唯一43763134339/1 child0/20，J97、268435456与独立dyadic512各4/4。只同Qδ/η0/|δ|≤1e−8的真实右腰，完整residual/α一次/mean/repair/finite保；同逆L2与H−4/3，非完整incoming或Schur。
