@@ -168,3 +168,5 @@
 - [R325：完整literal field固定根轨迹的区间包含性](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)：逐步整数向外、113root/225Gram/226态/224shape与可选六几何列；正定、严格逆界、primal误差和方向solve齐备的条件构造，不预付实际证书或全RK/native。
 
 - [R326：新连续目标的公共坐标闭包围与同场度量转移](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)：全部可能piece/控制支撑联合、L_true²与完整材料角合同变换；同一准确场的参考误差转移上界η+δ+ηδ。仅包含性与转移定理，未给实际目标差或最终场证书。
+
+- [R322：真实144原binarycut完整两jet与全自然域](results/R322-actual144-original-cut-twojet-and-complete-domain.md)：全1440/六primitive/两query域完成，cut全部一叶与E/Er/Err原dyadic保留；whole2891粗叶与晚期积分宽度未付，无缺源后缀，不冒有限头DN或同场metric。

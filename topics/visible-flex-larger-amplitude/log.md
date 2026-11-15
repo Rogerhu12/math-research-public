@@ -524,3 +524,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R326公共u准确目标与同场算子误差
 
 [R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)11814B/f6e26927885fa52283808fc486a81aac5b04c01f4e8a546b3fc88f779fe8b6c4完成即推：保L_true²、全可能piece/真实支撑/全九/闭端点及完整材料角，证明目标闭包围与同场η+δ+ηδ转移；无数值证书，不加参考比较前置门。147真实运行；144 R322全文待读，140绿但stage/audit编译失败转R321完整读回。API核双README非pull。
+
+## 2026-11-15 /root — R322真实144完整切点与全域责任
+
+[R322](results/R322-actual144-original-cut-twojet-and-complete-domain.md)18909B/20397a2b14bae8a03b7ecba979fd7c46e37e0630ac8a1d9a8c129b33e83b1704全文读后即推：两job原块逐字同，原cut1head叶/5refine，完整E/Er/Err及cut work true，未添导数宽门。全1440/六primitive/whole域已付，2891粗叶+1晚期sqrtE_B积分预算未付，无source/query后缀；原件清理后147/148重生，不冒DN/新场/metric。API核双README非pull。
