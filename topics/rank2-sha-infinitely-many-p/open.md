@@ -1,7 +1,7 @@
 # 未解决的问题
 
 固定一条 $E/\mathbb Q$，证明代数秩至少二且对无穷多个不同 $p$，完整 $\Sha(E/\mathbb Q)[p^\infty]$ 有限。**主目标未完成，持续研究。**
-全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R822前](notes/2026-11-15-open-before-r822.md)；沿归档链保全部旧接口，不关闭任何未付问题。
+全文证明入口：[results.md](results.md)。本次压缩前全部条件：[2026-11-15/R821前](notes/2026-11-15-open-before-r821.md)；沿归档链保全部旧接口，不关闭任何未付问题。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -185,7 +185,7 @@ R812原同charge抵消A=S(2z)/64、B=U136−A完整付K17/全角及B首1890w²�
 R814已用固定7处起始角色、同单侧13塔和Finis估值19的有限并例外，给三个原λ_j同时选定一份ψ/g及χ_j（比值ε、ε²），先于目标p固定全部导子、S1–S4和三份cycle。原AJ平方准确保34⁴、30平滑、Elog/EIw/EBDP及真实非零de Rham基比/全局单位；I_j≠0 iff AJ_j≠0 iff z_j≠0，但未给任一指定值非零或原三值线性行。见[R814](results/R814-common-fixed-good-pair-and-three-original-aj-squares.md)。
 
 
-R815完整证明原十九角X的26条Mori/4501条nef极射线，惰性Fp为21/901条，原始nef射线b∣12；任意特征用原不变线束权分量，未借char0 Cox。原S=aY/7为无基点铅笔，与f是全部nef平方零射线；固定零亏量m给κ≥2bm−m²。R808实际同R原点分量下降Fp，分属m01/同属m02，全角/加法预算保。有限数值锥不代曲线分解、整半群或原饱和像，变动b指定forcing仍开。见[R815](results/R815-complete-original-mori-nef-cones-and-s-fibration.md)。
+R815原十九角全Mori/nef锥及原S无基点铅笔已付，全部曲线/整半群/全来源饱和不能由数值射线推断；同R的m1/m2切片与全部角预算保。加强κ/e/χ界见R819，实际指定forcing仍开。见[R815](results/R815-complete-original-mori-nef-cones-and-s-fibration.md)。
 
 
 R790完整增补已付原q0零/移动H及ell=1,2：EF支付保持整个H的整点归一，较小真H⁰(X,O(C))在h>κ核kF、下一行unit并给实际SchurΔ/p。ell2保C_ell=(6/a)Hcal^-1QeV²及第三真余行，所有余列左对须含n²τ，完整障碍再含−τ(C_ell)；未scalar化原q、未删除同R/两13/下一位，指定非零仍开。见[完整增补](notes/2026-11-15-r790-moving-factor-and-two-short-blocks.md)。
@@ -213,3 +213,6 @@ R818以原2δ-primary理想生成元和完整十八阶角色重建三个weight4/
 
 
 R822将R813同R的Cartier单位准确下降为原C上的Xi_R=Omega_R/u^p，原点留数γ_R/6非零；全局分部积分后非固定t分歧极阶≤m−1，实际残数是(3(−1)^s/17)GRes(W_s F_t² E²R/Y²;F,F_Y)。真F倍列化为Trace_Z(W_s F_tH)，光滑分歧行可非零、奇点总迹为零；原H2→Z满射不代固定全部jet后的联合核。完整γ/6+G_F(R)+B_F(R)=0保全部边界，指定同M障碍仍开。 继续原mirror/联合核中分歧与边界的同一像，见[R822](results/R822-original-cartier-residue-descent-and-actual-ramification-trace.md)。
+
+
+R821付V66完整ad²因式/B33成员、四个真实高角系数必要系统及固定单位Jacobian；实际Hurwitz整性将八权全式准确降为四权，原裸系数聚合为(4,−6,8,−6)。完整Γ4保39跨界成本、十二首提升尾行与两末窗的p³四次carry；条件F4首核门已付，旧cube不可直接搬用。倍点h(nz)与n²h(z)差完整保，形式Jacobian不代算术独立、坏Smith或全核F4，严格预算仍未改善。 继续四个实际必要值在同完整左核的指定Schur配对，见[R821](results/R821-original-four-central-axes-and-complete-four-block-carries.md)。

@@ -56,3 +56,6 @@
 
 
 - [R822](../results/R822-original-cartier-residue-descent-and-actual-ramification-trace.md)：R822将R813同R的Cartier单位准确下降为原C上的Xi_R=Omega_R/u^p，原点留数γ_R/6非零；全局分部积分后非固定t分歧极阶≤m−1，实际残数是(3(−1)^s/17)GRes(W_s F_t² E²R/Y²;F,F_Y)。真F倍列化为Trace_Z(W_s F_tH)，光滑分歧行可非零、奇点总迹为零；原H2→Z满射不代固定全部jet后的联合核。完整γ/6+G_F(R)+B_F(R)=0保全部边界，指定同M障碍仍开。
+
+
+- [R821](../results/R821-original-four-central-axes-and-complete-four-block-carries.md)：R821付V66完整ad²因式/B33成员、四个真实高角系数必要系统及固定单位Jacobian；实际Hurwitz整性将八权全式准确降为四权，原裸系数聚合为(4,−6,8,−6)。完整Γ4保39跨界成本、十二首提升尾行与两末窗的p³四次carry；条件F4首核门已付，旧cube不可直接搬用。倍点h(nz)与n²h(z)差完整保，形式Jacobian不代算术独立、坏Smith或全核F4，严格预算仍未改善。

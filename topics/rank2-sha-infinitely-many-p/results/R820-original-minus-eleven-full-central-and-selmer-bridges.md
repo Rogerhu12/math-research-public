@@ -1,5 +1,7 @@
 # R820 — 原 E−11 的完整普通／惰性中央与通常 Selmer 桥
 
+后继：[R821 原第四来源与完整四块 carry](R821-original-four-central-axes-and-complete-four-block-carries.md)已以实际 Hurwitz 整性支付高尾四权化；本篇第10节的八权保守式可据此准确收紧，原算术独立与完整 Smith 接口仍开。
+
 日期：2026-11-15。**状态：本篇完整桥已证明。** 固定曲线是
 $$
 E_-:y^2=x^3-11,\qquad K=\mathbf Q(\omega),\quad
