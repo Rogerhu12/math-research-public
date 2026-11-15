@@ -1,7 +1,7 @@
 {
   "request": "same159-current-best-observed-curvature-defect-primary-guard-v1",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Use the two paid same-actual-step group8 curvature defects to learn only the next ordinary primary proposal margin; continue from the exact current-best375 checkpoint while preserving all actual gates, old SOC RHS, source configuration and original shared budgets.",
+  "goal": "Fix only the failed read-only-property development fixture, reuse the paid first14 checks by exact original receipt, run only the uncompleted fourth375-entry group, then perform the first scientific observed-curvature-guard stage from the unchanged current-best checkpoint.",
   "source": {
     "run_id": "43762868037",
     "job_id": "132961344492",
@@ -199,37 +199,33 @@
       120
     ],
     "original_per_LP_seconds": 10,
-    "new_artificial_groups": 4,
+    "new_artificial_groups": 1,
     "independent_final_original_value_grids": 2,
     "one_new_algorithm_stage_only_no_mechanical_repeat": true,
     "empirical_proposal_not_a_cross_center_or_continuous_error_bound": true,
-    "new_artificial_check_count": 18,
+    "new_artificial_check_count": 4,
     "new_artificial_groups_definition": [
-      {
-        "name": "original_RHS_scope_and_final_factory_binding",
-        "checks": 5
-      },
-      {
-        "name": "actual_step_and_delayed_defect_learning",
-        "checks": 5
-      },
-      {
-        "name": "original_SOC_and_infeasible_proposal_scope",
-        "checks": 4
-      },
       {
         "name": "three_seventy_five_entry_and_paid_sample_linkage",
         "checks": 4
       }
-    ]
+    ],
+    "reused_guard_development_groups": 3,
+    "reused_guard_development_checks": 14,
+    "original_guard_development_total_groups": 4,
+    "original_guard_development_total_checks": 18,
+    "only_failed_fixture_setter_removed": true,
+    "first_three_guard_group_executions_this_run": 0,
+    "only_development_and_receipt_audit_sources_changed": true,
+    "frozen_python_dependencies": 138,
+    "required_scientific_checkpoint_logs": 1,
+    "required_failed_development_receipt_logs": 1,
+    "development_resume_note": "topics/visible-flex-new-mechanism/notes/observed-curvature-defect-guard-four-check-resume-20261115.md"
   },
   "publication_policy": "Only source, parameters, run identity, hashes and human conclusions in Git; no temporary report/checkpoint payload, artifact or Release.",
   "completion_claim": "No complete surface, continuous metric or reach certificate; the whole topic remains in progress.",
   "new_python_sources": [
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard.py",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_recovery.py",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_development.py",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_transfer.py",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_audit.py"
   ],
   "source_sha256": {
@@ -375,9 +371,26 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_covered_soft_growth_audit.py": "fb7b04055ac7b0d9c52c4a0b1cb8fa8483316919b0c1c6d51103a378a33fbfe4",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard.py": "d04e56fdd55e1fe5b5b323f63fdb9b0d0c70db046cefb528f947839f878cf115",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_recovery.py": "4a3b6dde704e5e18d3a9d91da7032ac69b67c113cf2ddc9538a1efd3ebeefcb1",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_development.py": "4be459dee22c71a6bf93075b0963daea11d8fd094c242887f6421ce3ab7e04ad",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_development.py": "5e5e2090a66af2bfcc07bc8a61ca41b1a4ac1d55afcd96e12e8ca2a11475d75f",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_transfer.py": "7ac5f8721d9d0045156c4fb5b35d1b18168ffd62dabd100e0b3d29489793b240",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_audit.py": "df8eb6890f6f27fbafdc5898739603e5aa615e97de0cd05898906187c02e9973",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_audit.py": "86f3d51eb5159165120dd846c6f800d4ed73fcde0cc31a7c331103049550a7ae",
     ".github/workflows/visible-curvature-defect-guard.yml": "199af979d66d0d3b7da61593973e9443f32d238cf280cbdf3e15934db589ad06"
+  },
+  "development_resume": {
+    "run_id": "43766593534",
+    "job_id": "132972995287",
+    "source_commit": "a48f3398fc587cc1370a26a56978e719629b878c",
+    "log_bytes": 170214,
+    "log_sha256": "746f42b542f9d424b9fc2287238f925b2437290b72733e5ee0b95b2c6bd06043",
+    "original_request_bytes": 35867,
+    "original_request_sha256": "6a7809a2b0d6dd41bb337273869fefc0f3f4ce1272aee4a69fe23d458af13f92",
+    "development_bytes": 17849,
+    "development_sha256": "91aa9555dcfa17f2728e50ccffe7a9b7a7d5eca434a2861a1d1bda890bcb6b47",
+    "prior_run_conclusion": "failure",
+    "paid_groups": 3,
+    "paid_checks": 14,
+    "uncompleted_group": "three_seventy_five_entry_and_paid_sample_linkage",
+    "new_checks": 4,
+    "production_core_recovery_transfer_unchanged": true
   }
 }

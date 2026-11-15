@@ -344,3 +344,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:02:21 UTC｜guard首次DEV：14已过/第四组fixture失败，立即保真记录
 
 [notes/observed-curvature-defect-guard-first-development-failure-20261115.md](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)，4630B/hash88a9521ac6cd985273c5c7809be02e67172802e42ea40824afd7217a0968ec8e。run43766593534/job132972995287/sourcea48f3398…；前三5/5/4全true，第四组fixed_zeta只读property被人工base_init赋值→AttributeError，零新科学/零MODEL。request146/dev140/旧135逐项核同。原log170214B/hash746f42b5…，原DEV+LF17849B/hash91aa9555…；唯一375实际继续点不变。公开21:58:35.833391实际pull已核双README空diff；私有21:58:38.039070根无差/QUEUE本session ongoing，H已记SHA。后继仅最小fixture修复+未付四项，复用已过14；不延预算或重跑旧20/19/26/cache。基底830c88c966c2e8ae6a9ace5917057ab0d0e3de84。
+
+
+## 2026-11-15 22:05:58 UTC｜只续未付四项，修人工只读setter并复用14
+
+[notes/observed-curvature-defect-guard-four-check-resume-20261115.md](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)，3436B/hash1e88b78d885c97403072680efa4f72e5ce9e2cb99f69a0265a14bd097c0aac88。dev32867B/hash5e5e2090a66af2bfcc07bc8a61ca41b1a4ac1d55afcd96e12e8ca2a11475d75f；audit37203B/hash86f3d51eb5159165120dd846c6f800d4ed73fcde0cc31a7c331103049550a7ae。根完整diff证前三函数/shared helpers未变，tail独立核失败reader及main对接；未本地执行人工/科学。request SHA256 f85013ec1af5d3e14881412708f14228252d160953f9eddebd78cca281164cc4（36687B），原146closure只audit/dev两项更新，其余138py+6workflow同原已付。原失败job的14pass只读reuse，唯一未付4随后首次科学；原实际375继续点及12/40/120/10不变。基底9189b7b3424d4aec2ca7d29be2d9f1e4ef373b30。

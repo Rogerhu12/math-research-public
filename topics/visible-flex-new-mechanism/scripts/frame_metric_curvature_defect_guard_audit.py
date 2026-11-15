@@ -4,7 +4,8 @@
 The full ordered375 norm bank, both complete pools, exact159/reference163,
 source configuration and BOTH terminal controller streaks are retained.
 Two paid original first-primary defects initialize only a new empirical RHS
-proposal. Four NEW groups run; old20/19/26/cache and optimizers are not rerun.
+proposal. The first14 new checks are reused from their exact failed-run receipt;
+only the corrected375 fourth group runs. Old20/19/26/cache is not rerun.
 """
 from __future__ import annotations
 import argparse
@@ -188,7 +189,7 @@ def run_audit(prepared,out,*,artificial=False,evaluate_only=False,process_starte
         'independent_coordinate_definition':coord,
         'successful_SOC_radius_retention_definition':retention_definition(cfg),
         'initial_exact_height_diagnostic':exact_height_diagnostic(problem,initial),
-        'process_clock_scope':'read24 completed inputs and one byte-pinned covered-growth log; exact current-best checkpoint, ordered375 bank and two paid defects; one new curvature-guard stage; no old optimizer or event replay'}
+        'process_clock_scope':'read24 original inputs plus one covered-growth checkpoint log and one failed-development receipt log; exact375 continuation; only the remaining4 new checks, then first curvature-guard science; no old optimizer or event replay'}
     report.update(
         factorization_policy=FACTORIZATION_POLICY,
         complete_affine_policy=COMPLETE_AFFINE_POLICY,
@@ -399,6 +400,88 @@ def run_audit(prepared,out,*,artificial=False,evaluate_only=False,process_starte
 
 
 
+
+def read_paid_first_fourteen_development(request):
+    """Read the exact failed development job; do not rerun its fourteen successes."""
+    source = request["development_resume"]
+    require = transfer.require
+    require(str(source["run_id"]) == "43766593534"
+            and str(source["job_id"]) == "132972995287"
+            and source["source_commit"] == "a48f3398fc587cc1370a26a56978e719629b878c",
+            "only the observed first guard development failure can be resumed")
+    api = reader.GitHubReader(transfer.REPO)
+    run = api.api_json("/actions/runs/"+str(source["run_id"]))
+    job = api.api_json("/actions/jobs/"+str(source["job_id"]))
+    require(run["head_sha"] == job["head_sha"] == source["source_commit"]
+            and int(job["run_id"]) == int(run["id"]),
+            "failed development run/job/source identity differs")
+    require(run["status"] == job["status"] == "completed"
+            and run["conclusion"] == job["conclusion"] == "failure",
+            "this is an exact failed developer receipt, never a successful science source")
+    raw, redirects = api.job_log(str(source["job_id"]))
+    require(len(raw) == source["log_bytes"]
+            and reader.digest(raw) == source["log_sha256"],
+            "original failed-development log bytes differ")
+    records = transfer.tagged_records(raw, (
+        "CURVATURE_GUARD_REQUEST", "CURVATURE_GUARD_DEVELOPMENT",
+        "CURVATURE_GUARD_MODEL", "CURVATURE_GUARD_COMPLETE"))
+    require(len(records["CURVATURE_GUARD_REQUEST"]) == 1
+            and len(records["CURVATURE_GUARD_DEVELOPMENT"]) == 1
+            and not records["CURVATURE_GUARD_MODEL"]
+            and not records["CURVATURE_GUARD_COMPLETE"],
+            "only the original pre-science failure and unique paid receipt are allowed")
+    _, old_request = records["CURVATURE_GUARD_REQUEST"][0]
+    require(old_request["source_commit"] == source["source_commit"]
+            and old_request["request_bytes"] == source["original_request_bytes"]
+            and old_request["request_sha256"] == source["original_request_sha256"],
+            "first guard request identity differs")
+    payload, paid = records["CURVATURE_GUARD_DEVELOPMENT"][0]
+    encoded = (payload+"\n").encode("utf-8")
+    require(len(encoded) == source["development_bytes"]
+            and reader.digest(encoded) == source["development_sha256"],
+            "original development JSON plus LF differs")
+    old_files = old_request["source_sha256"]
+    changed = {
+        "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_development.py":
+            "4be459dee22c71a6bf93075b0963daea11d8fd094c242887f6421ce3ab7e04ad",
+        "topics/visible-flex-new-mechanism/scripts/frame_metric_curvature_defect_guard_audit.py":
+            "df8eb6890f6f27fbafdc5898739603e5aa615e97de0cd05898906187c02e9973",
+    }
+    require(len(old_files) == len(request["source_sha256"]) == 146
+            and set(old_files) == set(request["source_sha256"]),
+            "the complete146 source/workflow binding closure differs")
+    for path, expected in old_files.items():
+        if path in changed:
+            require(expected == changed[path], "unexpected prior changed-source identity: "+path)
+        else:
+            require(request["source_sha256"][path] == expected,
+                    "a paid unchanged source or workflow differs: "+path)
+    old_python = {Path(path).name: value for path, value in old_files.items() if path.endswith(".py")}
+    require(len(old_python) == 140 and paid["source_files_sha256"] == old_python,
+            "paid140 Python closure is not the original request closure")
+    # Current146 file bytes were already checked by main. Thus these are the same
+    # old135 plus production core/recovery/transfer, with only audit/dev changed.
+    require(len([p for p in old_files if p.endswith(".py") and p not in changed]) == 138,
+            "exactly138 unchanged Python dependencies required")
+    receipt = {
+        "source_run_id": str(source["run_id"]), "source_job_id": str(source["job_id"]),
+        "source_sha": source["source_commit"], "original_run_conclusion": "failure",
+        "original_log_bytes": len(raw), "original_log_sha256": reader.digest(raw),
+        "original_development_JSON_plus_LF_bytes": len(encoded),
+        "original_development_JSON_plus_LF_sha256": reader.digest(encoded),
+        "original140_python_request_closure_matches_paid_receipt": True,
+        "unchanged_python_sources": 138, "unchanged_workflows": 6,
+        "only_new_development_fixture_and_resume_audit_changed": True,
+        "no_new_science_existed_in_the_failed_job": True,
+        "reused_groups": 3, "reused_checks": 14, "new_group_to_execute": 1,
+        "new_checks_to_execute": 4,
+        "first_three_group_or_old_developer_executions": 0,
+        "redirects_without_authorization": redirects,
+        "payload_stays_in_runner_memory_not_in_Git_artifact_or_Release": True,
+    }
+    return paid, receipt
+
+
 def main():
     started = time.monotonic()
     parser = argparse.ArgumentParser(description=__doc__)
@@ -428,11 +511,13 @@ def main():
         "additional_old_m10_log_downloads": 0,
         "old_optimizer_calls": 0, "historical_m10_trial_replays": 0})
     import frame_metric_curvature_defect_guard_development as development
-    check = development.developer_check()
+    paid_development, development_reuse = read_paid_first_fourteen_development(request)
+    emit("CURVATURE_GUARD_DEVELOPMENT_REUSE", development_reuse)
+    check = development.developer_check(paid_development=paid_development)
     check["source_files_sha256"] = implementation_hashes()
     emit("CURVATURE_GUARD_DEVELOPMENT", check)
     if not check.get("passed") or not check.get("all_passed"):
-        raise RuntimeError("new curvature RHS/learning/SOC-failure/375-input checks failed")
+        raise RuntimeError("the remaining fourth375-entry interface checks failed; paid first14 were not rerun")
     try:
         prepared = transfer.prepare_transfer(request,
             args.out.parent/"original24-input-preparation-failure.json", started,

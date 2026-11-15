@@ -423,7 +423,6 @@ def _checkpoint375_and_sample_binding():
         self.direction_bank, self.pending_initial_directions = NormDirectionBank(), []
         self.subspace, self.problem, self.row_grids = sub, shell.problem, grids
         self.physical_lower, self.physical_upper = lo, hi
-        self.fixed_zeta = shell.fixed_zeta
         self.evaluation_definition = {}
         self.complete_models, self.complete_oracles = [], []
     def base_factory(self, primary):
@@ -484,34 +483,93 @@ def _checkpoint375_and_sample_binding():
         "no_real_scientific_source_log_or_checkpoint_was_loaded": True}
 
 
-def developer_check():
+def _reuse_paid_first_three(paid):
+    """This revision resumes only the uncompleted fourth new interface group."""
+    if not isinstance(paid, dict):
+        raise ValueError("fourth-group-only resume requires the paid first-three development receipt")
+    if (paid.get("schema") != new.POLICY+"-development"
+            or paid.get("passed") is not False or paid.get("all_passed") is not False):
+        raise ValueError("the precise first-run failed development schema is required")
+    expected = (
+        ("original_RHS_scope_and_final_factory_binding", 5),
+        ("actual_step_and_delayed_defect_learning", 5),
+        ("original_SOC_and_infeasible_proposal_scope", 4),
+        ("three_seventy_five_entry_and_paid_sample_linkage", 4),
+    )
+    groups = paid.get("groups")
+    if (not isinstance(groups, list) or len(groups) != 4
+            or [g.get("name") for g in groups] != [name for name, _ in expected]):
+        raise ValueError("the four original development groups and order are required")
+    for group, (_, count) in zip(groups[:3], expected[:3]):
+        checks = group.get("checks")
+        if (group.get("passed") is not True or not isinstance(checks, dict)
+                or len(checks) != count or not all(v is True for v in checks.values())):
+            raise ValueError("all fourteen first-three checks must already be individually true")
+    if (groups[3].get("passed") is not False
+            or groups[3].get("error") != {
+                "type": "AttributeError",
+                "message": "property 'fixed_zeta' of 'CurvatureDefectGuardObjective' object has no setter"}):
+        raise ValueError("only the uncompleted artificial read-only-property failure is resumable here")
+    hashes = paid.get("source_files_sha256", {})
+    required = {
+        "frame_metric_curvature_defect_guard.py":
+            "d04e56fdd55e1fe5b5b323f63fdb9b0d0c70db046cefb528f947839f878cf115",
+        "frame_metric_curvature_defect_guard_recovery.py":
+            "4a3b6dde704e5e18d3a9d91da7032ac69b67c113cf2ddc9538a1efd3ebeefcb1",
+        "frame_metric_curvature_defect_guard_development.py":
+            "4be459dee22c71a6bf93075b0963daea11d8fd094c242887f6421ce3ab7e04ad",
+    }
+    if not isinstance(hashes, dict) or any(hashes.get(k) != v for k, v in required.items()):
+        raise ValueError("paid production/core/outer and original development source identities differ")
+    zero_fields = ("old_developer_suite_executions", "scientific_inputs", "geometry_calls",
+                   "scientific_JVP_calls", "optimizer_calls", "LP_calls")
+    if any(type(paid.get(k)) is not int or paid[k] != 0 for k in zero_fields):
+        raise ValueError("the prior receipt must record zero old suites and scientific calls")
+    return copy.deepcopy(groups[:3]), {
+        "source_run_id": "43766593534", "source_job_id": "132972995287",
+        "source_sha": "a48f3398fc587cc1370a26a56978e719629b878c",
+        "source_log_bytes": 170214,
+        "source_log_sha256": "746f42b542f9d424b9fc2287238f925b2437290b72733e5ee0b95b2c6bd06043",
+        "original_development_source_sha256": required[
+            "frame_metric_curvature_defect_guard_development.py"],
+        "reused_group_count": 3, "reused_check_count": 14,
+        "original_failed_group": expected[3][0],
+        "raw_receipt_log_and_unchanged_dependency_closure_verified_by_audit": True,
+    }
+
+
+def developer_check(*, paid_development=None):
     old.require_public_research_environment()
+    reused, receipt = _reuse_paid_first_three(paid_development)
     global _PRIMITIVE
     _PRIMITIVE = None
-    groups = []
-    for name, function in (
-            ("original_RHS_scope_and_final_factory_binding", _rhs_and_bindings),
-            ("actual_step_and_delayed_defect_learning", _learning_and_actual_step),
-            ("original_SOC_and_infeasible_proposal_scope", _SOC_and_failure_scope),
-            ("three_seventy_five_entry_and_paid_sample_linkage", _checkpoint375_and_sample_binding)):
-        try:
-            checks, detail = function()
-            checks = {k: bool(v) for k, v in checks.items()}
-            groups.append({"name": name, "passed": all(checks.values()), "checks": checks, "detail": detail})
-        except Exception as error:
-            groups.append({"name": name, "passed": False,
-                           "error": {"type": type(error).__name__, "message": str(error)}})
+    groups = list(reused)
+    name = "three_seventy_five_entry_and_paid_sample_linkage"
+    try:
+        checks, detail = _checkpoint375_and_sample_binding()
+        checks = {k: bool(v) for k, v in checks.items()}
+        current = {"name": name, "passed": all(checks.values()), "checks": checks, "detail": detail}
+    except Exception as error:
+        current = {"name": name, "passed": False,
+                   "error": {"type": type(error).__name__, "message": str(error)}}
+    groups.append(current)
     passed = all(g["passed"] for g in groups)
+    current_checks = current.get("checks", {})
     return {
         "schema": new.POLICY+"-development", "passed": passed, "all_passed": passed,
         "groups": groups, "only_new_curvature_RHS_learning375_interfaces": True,
+        "development_resume": receipt,
+        "reused_development_groups": 3, "reused_development_checks": 14,
+        "new_development_groups_executed": 1, "new_development_checks_planned": 4,
+        "new_development_checks_evaluated": len(current_checks),
+        "new_development_checks_passed": sum(v is True for v in current_checks.values()),
+        "first_three_development_group_executions_this_run": 0,
         "old_developer_suite_executions": 0, "scientific_inputs": 0,
         "geometry_calls": 0, "scientific_JVP_calls": 0, "optimizer_calls": 0, "LP_calls": 0,
         "old_artificial_array_data_constructor_calls": 1,
         "real_linear_map_and_two_observable_factories_used_on_new_labelled_arrays": True,
         "no_artificial_result_is_a_physical_or_HiGHS_success_certificate": True,
     }
-
 
 if __name__ == "__main__":
     result = developer_check()
