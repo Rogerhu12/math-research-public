@@ -209,3 +209,5 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 ### R784：完整三通道已保筛，原非消失仍待证明
 
 [R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。
+
+R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。此次请求启动公开Actions，实际结果待核。即使成功，也须接R777准确基、2860×3028 L关系、原函数/β和完整高度，不能当完成主目标。

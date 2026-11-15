@@ -300,3 +300,8 @@
 - R784完整证明原未平均sigma的三wedge六秩核及全critical显式左逆，原本原/Legendre权准确运输；根逐式核群律多项式、全部六通道符号和Hadamard系数逆式。
 - NIST DLMF23.10.1/3原文核对原sigma负号；未把形式可逆代算术非零或真实高度排根。H/open/index同步。
 - R783已单独推2f515555；R775公开run43679160495续跑中，R781源码准备并行执行。终端不可用仍按根8小文本API核规则/非force提交。
+
+## 2026-11-15 13:07 Asia/Taipei · serre-public-astra-20261115
+- 从已推R781证明重建准确Laurent核心与公开workflow；只读R774已成H³前五块/14原尺度，逐阶R0..142、280维整数域，原ξ^(10n)相位逐项核，无κ逆。
+- core SHA d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751；root完整读核心/包装/请求/方法与真实R774块索引，不重复旧H³算术；实际数值待run。
+- 新增专用workflow，预算300/350分钟，原始表不入Git/Release，active断点仅一日临时转交；H/open同步。R784已单独推0c7ec883，继续完整原函数与真实高度。
