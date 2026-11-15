@@ -201,3 +201,5 @@
 - [103列首次实际：一次接纳后由准确固定尾域锁峰](notes/entry-body103-first-actual-result-20261115.md)：actual43691833140/source2f25b5aa，1LP/1trial/0SOC，η .26651100522045557→.26651075196396212；外域.7725峰.26651073136454873使下一次J前退出，余可降2.06e−8<1e−7。全部原两网门过，.26/reach16.3934仍欠；固定60/六jet/高度保持。活动1.5756s、全792.871s含三必要前缀，未达1e−4参考。下一个可归因变化为原51尾uv加入两块控制，不延同103预算。
 
 - [R222：完整pure与八个固定圆通量的真实同时支付](results/R222-simultaneous-real-pure-and-eight-flux-control.md)：增强观测E(U)=P⊕R8、E(R)=πR⊕R8，真实商保Q。δ方向拆有限原响应，在每组真实prototype追加pure校正清基准但保mixed；R212全pure C1截面清全部剩余pure，其未知通量成本留有界函数，最后有限n收缩付F8。得固定有限词C1增强目标截面及pure0/八flux0真实闭hook，λ+仍正；不授完整period/ruling、十元组或Morse兼容。
+
+- [R221：任意gauge的完整ruling矩映射与joint右逆](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)：准确η极化/physical配对、18局部+24累计history函数给126profile矩，加6合法性矩；指定包类全部kerLf为活动区Cf+B与所有常平台自由函数，端迹/平台Gram给完整132矩像与右逆。先付两个period函数门及五相位45几何span残量，再48×135矩阵和有限降秩可去奇点条件准确iff全相位第四range。保三合法性行、sin种子、平方项/全部history；未验实际目标，尺寸非rank。

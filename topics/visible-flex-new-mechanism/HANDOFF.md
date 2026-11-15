@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 08:13:28 UTC实际pull后已读规则提交：`ccdf83e8c8a26b3421e1a95b99169010af641b4d`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:17:39 UTC实际pull后已读规则提交：`17a61552624a239911a12248405b9946f0569b6b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -30,7 +30,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 5. 真实pure零/Morse闭hook与未付第四joint
 
-**R210/212/214/218/220已给有限真实闭hook：M0、TκH非零、frame/新Klein位移准确闭合、整universal pure0、全域h Morse。** 先X0X0rev成本2V0付U归属，再真实D四份付−πV0；完整桥/正2V基准均保。固定有限词/整数/共同I后，原语九行IFT先保M/omega/frame，结构词保T，最后全P近恒等IFT同时修Q/L，不能只动响应t。新共同端口在实际s下h=h*exp(εσ²)、k/ω端常，含全部内部标记拼口；倒行/正H/可变长度全germ匹配，端速度0使R129端势/N2零，N0只由整M0消，成本仍同U。R220完整非线性族内约束导数经Duhamel/IBP为光滑密度，与点δ′/δ″独立；有限方向+C1零流形低维投影给全域Morse，所有复用/校正/背景均含。C2开性给同一局部C1全pure截面。**不授原同g改变、mixed/ruling、嵌入/reach或有限等距族。**
+**R210/212/214/218/220已给有限真实闭hook：M0、TκH非零、frame/新Klein位移闭合、整pure0、全域h Morse。** 共同实际s端口h=h*exp(εσ²)、k/ω常，全部内部拼口/倒行/正H匹配；端速度0与M0付成本仍原U。原语九行IFT先保M/omega/frame，结构词保T，全P IFT同时修Q/L；所有桥/正2V基准不删。完整history变分为光滑s密度，有限约束核仍可独立改点2jet；紧零集有限方向+C1低维投影给全h Morse，C2开性给每目标局部C1截面。**不授同g几何设计变化、mixed/ruling、嵌入/reach或有限等距族。**
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211仅在G″紧支撑J且A_f正则或有限简单退化类给2 adjoint+7 Green矩、m累计flux的唯一同锚右逆；排flat/高重/无限零，未验本目标或同w ruling。
 
@@ -38,7 +38,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R216准确障碍仍保留**：h/k在一点1..4阶全零，同右锚/真实W2W3入值冻结给K″=2K_const，点二阶jet杀整个W和全部Bθw。标准R193原八包/已付光滑邻域全宽度失败；任意固定态仅继承R187共同充分窄化。R220 Morse几何已离此前提，但不自动支付非平点的新真实jet方程。R199新忠实圆不套旧正性。
 
-R191共同平台gauge商不可见；R195/197单边活动包只有非零σ一次方向/像≤42，不授joint满射。R213合法w_E=Φ_ED子族以七差分付六矩，但不能代表任意w。**R221正从R56展开一般完整Bθ(w)为有限真实profile矩/几何系数，再在period核上求必要充分成员与构造右逆；不得只数方向或重旧NF。**
+**R221已付任意w的完整Bθ：18个局部速度单项+24个真实二阶history×三矩，共42几何函数/126固定profile矩。** 同锚η极化、physical配对及全部adjoint保右尾；加六合法性矩得132。明确包类（p零有限有限阶、Af无开零区间）全部kerLf为活动区w=Cf+B、f常平台任意匹配；端迹+平台Gram准确给整个核矩像/固定右逆。先付两个原period函数成员，再付K0的五相位系数在45几何span内，最后48×135冗余矩阵（非rank）保原三合法行；sinθ种子/全相位最大秩Gram及有限降秩消极点条件准确iff。没有实际目标通过结论；R221后续正处理fullperiod的全部平端/平台/退化门，不以F8代替。R191/195/197局部方向与R213合法子族均不授joint满射。
 
 ## 6. 保留边界与当前交付
 

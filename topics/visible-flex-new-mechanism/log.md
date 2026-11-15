@@ -57,3 +57,5 @@
 - 2026-11-15 08:12:43 UTC，Astra-new-mechanism-9974ea84：103首次actual完整消费即推。root直接读job132743956019全部新domain/b/rho/preflight、1model/1trial/0SOC/8同点defect、全部初末gate标量/accepted与池/同态Pi/开发及receipt关键身份；三个必要前缀实际恢复数和初末门分别读取。原冻结稿23bec089只精确化表头accepted列表含起点，科学数字不改。fixed-outside锁峰在下一J前退出；步仅.03997r且预测到rho_out，不冒预算/小半径失败。固定b必要量浮点.0884低于.26却远1e−6，后继先51原尾uv两块尺度解真实锁峰，保全部原门/同g。主课题继续，不以局部算法完成收尾。
 
 - 2026-11-15 08:13:17 UTC，Astra-new-mechanism-9974ea84：R222完整稿1dbf9ac3全文根审即推。root核增强商仍为原Q而非假设πR=P，F8在全U以固定相位真实查询延拓；δ有限组合分组后每组仅一prototype追加M/T0块清pure基准，原第三响应不改。复制n的pure项准确消，最终D(p−πE(t))的完整F8成本留在同一C1有界函数；中心/盒/共同I及两轮pure截面在最后n前固定，负系数只真实参数。有限n统一收缩/IFT给目标截面，Klein四倍保新位移闭合，所有原偶基准不删。只同时付八必要flux，尚不授完整period/ruling或Morse；R223继续真实约束族兼容。
+
+- 2026-11-15 08:17:24 UTC，Astra-new-mechanism-9974ea84：R221完整稿6089231e全文及最后collar范围补充根审即推。root独立从R73原P/b/Tsx推η(14)，以Y=V/z和u=h/z真配对IBP核Q c‴η/(2h²)，逐项核adjoint/二次左尾三四阶消除、18+24系数。全核由Af加权Wronskian常数0与p有限阶零拼接，右锚补回Lf本身；固定collar严格留外侧常平台，保证χ端迹存在。132矩Gram同正交补给精确像；48×135保全部第三合法域。增广子式及adj(tI+AAᵀ)系数给最小范数解析商，有光滑解则有界迫有限消极点，反向连续补所有降秩点；未把逐点成员或有限矩数当实际通过。继续真实period目标和偶germ商，不重旧研究。

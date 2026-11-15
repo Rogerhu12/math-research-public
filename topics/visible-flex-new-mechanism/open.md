@@ -56,7 +56,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)已准确支付新的偶非平端口类别：所有有限外/内部标记拼口h=h*exp(εσ²)、k/ω常，物理s与固定collar使可变长度下germ仍匹配；倒行/正H/桥完整兼容。端速度0支付原端势与成本同U，九行IFT、完整结构T词、全P IFT及Klein新位移保M0/TκH/pure0闭合。所有标记拼口h″>0，可同时去开常段；R218本身不排内部4-flat点；这一项现由R220受约束jet论证完整支付，仍未解第四joint。
 
-[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**R216不再直接排此类新几何，但它未支付任何新的mixed/ruling目标。** 下一R221从R56完整Bθ(w)给任意w的有限真实矩/几何系数，并在period核上明确必要充分成员与构造右逆；保所有右尾/累积history，不只数新方向。
+[R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**R216不再直接排此类新几何，但它未支付任何新的mixed/ruling目标。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；下一须付fullperiod及实际几何余项，不能由F8=0冒完成。
 
 **当前主目标：同一固定圆、同一二阶w的完整balanced mixed period与第四ruling共同支付。** pure0后canonical周期只余0/±2谐波；R184联合range和R181真实退化算子是下一接口。已经付清的pure−2/−4/−6/0、原NF和正字符不再扫描；R196 full正字符不下降pure，不能再用它否定已成纯控制。R208/R209的jet2表示是完整原式结果，保所有N2、history与端势，不是删项规则。
 
