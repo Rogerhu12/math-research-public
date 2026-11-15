@@ -4,7 +4,7 @@
 
 [R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。[R313实际137](results/R313-actual137-pre-owner-dispatch-failure-and-explicit140-repair.md)已完整结清：fresh64/J/R273/two packets完成后入口阻断，907.237564652s/outer70/child1，无guard或owner128摘要，非全局预算耗尽；140修真实接线。139仍须真实整域结果。
 
-完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至139检查点](notes/open-checkpoint-through-request139-2026-11-15.md)，并接原137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
+完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，并接原139/137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
 目标仍为README完整闭C²族/同g/嵌入/reach/整像held/全域metric/固定参数精化，达最低比例后继续加强；不在阶段、时长或单批预算处结束。
 
@@ -27,6 +27,8 @@
 [124六H入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)与[128九H入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)保全部原112H_*、三active/固定shape453、同live owner和最终全J→FD/fullDN/finalJ/fresh audit。124用真119第3六p，128用真127第8九p，均λ=.001/fresh-circle；原e830路径真zero起步，首1/64、成功×2至1/4、只有绑定数学拒绝才/2，2^-20/64calls/300min是partial。IPC/record未知不当数学拒绝，首zero请求不代表目标H_*为零。
 
 124 run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起；128 run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起。103/110pin、原四输入/两ready/78源及300/330/350资源均见原接口。原120首次完整H失域不证无解，至今没有本分支正λ完整接受预填，不自动接450。
+
+[R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)已完整结清：15call启动/14返回；零H真converged/residual0，随后13正s×10trial共130个stage0/rawCell0/rawSegment8 D/S/A域拒，全部当前withJ基点已返回。最后返回s3.814697265625e−6/norm47.989089918750544，第15 s1.9073486328125e−6 in-flight时真实规则SIGTERM，runner77/child−15/10822.942995484s而budget_exhausted=false；不补其数学结果。原warm实际采用，relative指标分母含1e−250，不能把e252冒绝对位移或唯一归因warm。全15行/130trial范围与原身份见正文；未到s1/338J/FD/fullDN/audit。145改当前H/完整states/fresh全withJ的全cut+576stage+far R273候选，原warm先保以区分作用，原10档noJ/D/S/A/strict decrease和全部原终门保留，直接公开实现。
 
 ### 2B. 真实128位射击收敛与完整末态责任
 
@@ -94,9 +96,7 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R285完整有限selector证明](results/R285-original-finite-selector-closed-cover.md)和65a29ec6源已付：真实original first-match/开闭端点/48层比较树完整覆盖，原源码flat分支可整片付，保未决栈及后缀，不假设单调或准确逆。原有限比较延拓取有限值，非恒定时不连续；因此该结果不能充当原连续g或a601证书，没有实际E/run。
 
-[R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)已直接登记。明确约定C保原binary冻结输入、浅160校准系数和全局lambda，将原派生关系解释为实函数，并保原准确深校准根类别；旧ready未独自固定全部实语义/唯一根规则，须明示该模型补充。六共同primitive按唯一真实累计原点形成R；正warp D=b+c|w_s|使真正径向导数q/D在cusp处有连续一阶导数，给w有限头C²及原深根族的E全域C²平圆领极限。内保护端cap/flat原两jet兼容和外cut相邻场两jet仍须实际支付。
-
-R286给完整160×9表达的闭panel区间积分、全部未付栈/后缀、原准确深尾统一包围和真实径向逆像覆盖，可直接生产E而不先穷举48树；原132/136均已实际部分执行，完整E/自然Rout仍未付。冻结lambda后的自然Rout不得重归一为名义binarycut；原有限Gauss/selector输出须另比较，G8/G16差不是误差界。可计算选根或明确根族、实际域识别及完整材料角pullback混合项均保留。[独立连续E生产器及完整接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)现已发布：66415B/9aa0da45，完整1440片六primitive、真实自然Rout、准确深根族统一包络及闭径向逆像；正D/真实二阶式、原覆盖顺序和全部未付stack/suffix保持。源码给实际protected/finite join结构与模型条件，完整宽界和工作精度不同；具体深根选择、旧finite同连续身份及a601同场阈值均不冒完成。[132完整实际请求](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)已发布：原T112-config/两ready按历史8bd26710完整字节恢复、78原源和8当前pin/9公式源，query4fa2baa1只whole-natural闭域；request1b3d3348/workflow35b4292b、256bit/1800s工作/45science65job，实际完整result/query和所有未访问source/query后缀读回后清理。未传任何接受场或旧数值证书；实际run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446现已完成，结论见下。
+[R286完整证明](results/R286-original-stored-continuous-integral-and-metric-bridge.md)定义显式模型C：原binary输入/浅160校准及lambda不变，派生关系为实函数、同一原准确深根族。六共同primitive按真实累计原点形成R*，正warp D=b+c|w_s|给有限头C²与深端平圆领；具体root selector、保护端两jet/外cut两jet、原finite同g和atlas仍须支付。完整160×9/六primitive/全无限尾/闭逆像不能缩域，自然Rout不能重标名义cut；G8/G16差不是误差界。[原生产器接口](notes/2026-11-15-stored-continuous-E-cover-interface.md)与[132实际入口](notes/2026-11-15-request132-original-continuous-E-execution-interface.md)保原输入/query/全pending和真实width责任；所有完整来源与旧细节存至142检查点及正式正文。139完整原结果由R311接续，合法point-cut数据与有限头DN仍须实际完成。
 
 [R293实际132](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)compute132777819446/report132779955239均success，但仅正常返回部分结果：482.79984332900005s用尽200000积分panel，完成1378/1440原片，1103610 analytic component integrals，inverse0。首未付cell6/segment1/piece1378/depth47，原完整33行unpaid为31panel+source[1379,1440)+whole-query；唯一整自然闭域的E=null/domainfalse，Rout及全六primitive总和均空，不能消费成全域metric。深端统一E/E_r/E_rr、protected/finite结构flags保原范围，不自动付模型选择/atlas/旧finite同g。原result5992B/e18d07b6、query608B/009f8e11和scalar8716B/7ccbcf3c均从原日志按编码逐字重建核身份；其他30panel逐区间只在runner完整消费后清，不伪称独立复取。下一项按真实cell6瓶颈定位积分分裂/精度策略，保原六primitive/全部域和未访责任，明确新源后Actions完整重做。
 

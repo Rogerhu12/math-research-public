@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:28:52 UTC 仅API读取main f6ba5cb48b7891e682bf96b0763850c71da7ab5a，双README仍21bd/bff；未执行终端pull。143五小文本及R314/R315正在恢复，未推本地结果不可当已保存；139/142原job logs以唯一集成读取保实际结论。
+集成复核：2026-11-15 12:32:00 UTC API读取main 1d92fd0f5505b7318d8071741489889949ff4840，双README21bd/bff未变；不是git pull。143未推件正在小文本恢复。
 
 ## 真正完成标准
 
@@ -30,10 +30,11 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 | 请求 | run / compute | source / 起始UTC | 当前责任 |
 |---|---|---|---|
-| [124六H](notes/2026-11-15-request124-original-full-height-continuation-interface.md) | 43698138088 / 132763110680 | b1df8ec306e596256a317df925464af6acaa31c6 / 09:12:48 | 真119第3六p、λ=.001；12:17compute失败/report成功，原读回继续 |
 | [128九H](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md) | 43702058809 / 132775124928 | 3ee6c53840032444b2b88bb4ff98d69f038239d3 / 10:01:42 | 真127第8九p、λ=.001；11:47仍science |
 | [139连续E](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md) | 43710988676 / 132802263809 | 431ec67492ab99b63b42a9a1d962bea0a2cdaf0b / 11:52:08 | compute/report132810057213均success；全1440/六primitive/whole-domain界已付，R311原读回中 |
 | [140新算子final](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md) | 43713195661 / 132809057379 | 242c1f0251c57f56f19e67b88b2e4dc4d5cac614 / 12:18:51 | 准备actual91；576×224/112boundary/混合338/独立audit同现场 |
+
+[124 R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)真实零H收敛；13个正s各原10trial全stage0 D/S/A拒绝，完整withJ基点返回，最后norm47.989089918750544。第15call s1.9073486328125e−6未返即规则SIGTERM/runner77，非300min耗尽。极大relative指标分母含1e−250，不能唯一归因warm；145接当前H/完整states/freshJ的全R273候选并保原noJ/全部门。
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 
@@ -51,7 +52,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 ## 连续目标、闭面与几何
 
-[R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)实际136为1800.0188949619999s/SystemError，日志1386片但producer返回0/全[0,1440)未付，query0/Rout空。[R306](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)付完整cap全C²及完整w、χ恒1、闭panel导数同号下三端点积分；139 f12f7470/request3c210929/workflow1e93333a保持1440片/六primitive/全深根/256bit/200000panel1800s/全宽门，确捕ResourceStop回传prefix/pending，未知异常仍真失败。
+原132/136 partial与cap积分修复责任见R293/R304/R306及open。139已全1440/六primitive和whole-natural闭域合法E界，query进一步细化仍partial，未冒1e−6或原finite同g；R311原日志与完整结果正在发表。
 
 [R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154待root全文发布。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振与新producer继续。
 
@@ -61,4 +62,4 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 ## 维护与恢复
 
-完整旧open至139移[检查点](notes/open-checkpoint-through-request139-2026-11-15.md)，更早137/134/126/112及results-index-through-actual120保原链接。104清理后题168796207B，未知JSON不擅重存。所有临时raw清后只能按已发布源/输入/参数重做，SHA不恢复场。各子任务继续到真实目标完成，不在此记录或任务预算处停。
+完整旧open至142移[检查点](notes/open-checkpoint-through-request142-2026-11-15.md)，更早139/137/134/126/112与results旧索引保原链接。104清理后题168796207B，未知JSON不擅重存。所有临时raw清后只能按已发布源/输入/参数重做，SHA不恢复场。各子任务继续到真实目标完成，不在此记录或任务预算处停。

@@ -144,3 +144,5 @@
 - [Request140：R305新算子与实际137工程修复的同job完整final入口](notes/2026-11-15-request140-R305-operator-same-job-final128-interface.md)：原47+新5源，actual91 fresh64/R273/current128后清理前执行完整576×224 stage、全112boundary、混合338及独立audit。首参数分派、无损stderr/原watcher明确修复；19200s绝对总预算含编译、原science caps/audit预留及全部未付范围保留，未预填native/fullDN或新实际结果。
 
 - [Request142：全部九方向重新形成响应的一批实际入口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)：真138末p及radius3.814697265625e−7，完整9基各原complex重评/实际方向再评，原度量G及三种动作分列；R299 helper d4c9、原8×20/12×20和全部FD/Arb/453圆/final保留。93+5pins/父29当前31、一批8方向，原normal轨迹可随方向变化；未声称精度提高、根或native接受。
+
+- [R315：actual124完整高度路径十三次原拒绝与规则中断](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)：零H真实收敛，13正s/130原trial均stage0 D/S/A域拒，当前withJ基点已返回；第15call尚执行即规则SIGTERM，非科学预算耗尽或已返回数学拒绝。全15行、完整原试探范围/来源与e252相对指标分母解释保留；未到s1/338J/FD/fullDN/audit，145转完整当前H/R273候选且不减原门。

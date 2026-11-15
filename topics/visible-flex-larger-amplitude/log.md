@@ -452,3 +452,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request142完整九方向响应实际入口
 
 [142完整接口](notes/2026-11-15-request142-complete-nine-directional-response-interface.md)七件及五完整diff已读发布，5acf5b02/f3a236a3/5c482ac3/recipe29bf38f8/request84f03b2e/wff6a49341；root核93+5原pin全保、父29当前31、真实138字词和原slope起全尾逐字同，仅AST/元数据。全九新基/实际方向complex动作及原G、完整normal传输保留，原R299与所有真实门/末检查不变；一批8方向后按实际继续，无精度/非零场预填。140已run43713195661/job132809057379/source242c1f02，在准备actual91；双README仍21bd/bff。
+
+## 2026-11-15 /root — R315实际124全高度路径及规则退出
+
+[R315](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)20524B/449c9f3b全文已读并立即发表：zero真收敛、13正s/130域拒与第15 in-flight规则SIGTERM分开，原withJ/15行/全部试探/来源身份保全，e252 relative分母不能冒绝对爆炸或唯一warm原因。145接当前H完整R273候选并保原10档noJ/全112/最终门；root终端失联，依根8仅小文本集成快进且API核21bd/bff，不冒git pull；H保真实同步行。open原29766B整体存至142检查点，只压缩已有正文重复，完整责任不丢。
