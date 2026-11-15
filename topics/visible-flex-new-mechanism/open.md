@@ -18,7 +18,7 @@
 
 只给primary/SOC的条带4/5组归一提案floor1e−7后，全部12个新双网trial均strip通过；三个拒绝都directκ失败（fine峰58.0000007、58.0000544、58.0000034）。stdout未打印每个trial其他门，不把曲率断为唯一原因。m2增5fine软行；m8无新行，全步/半步失败、四分步接纳。10主LP成功，唯一SOC10.121s限时且无primal，不能假装得到失败修正点。11LP/26共享值+2final、活动120.227s/总638.996s；fineJac69.629s主导耗时，不能把wall全归因LP。新提案floor虽为1e−7，原LP容差同量级，最大实际线性短缺9.336e−10已保留，不冒严格LP证书。
 
-下一只检验**SOC可逆数值尺度**：旧校正v、绝对值aux的盒半径r_c很小，拟设v=r_c z、h=r_c t并只作正行缩放，保持准确可行域/目标最优解及原A/b原单位residual验收。10s、所有真实几何门、stripreserve/曲率floor/.001惩罚/增长缩步和12LP40值120s不动。当前H±=(q/100)(λI±II)，det行=q⁴(λ±κ1)(λ±κ2)/10000；固定floor不是固定曲率余量，禁止由κ超界量盲增PSD floor。先完整纸证/新小数组开发，再独立公共新科学。
+[SOC可逆数值尺度新实验](notes/frame-metric-spectral-soc-scaling-implementation-20261115.md)已完成根审并提交：v=r_c z、aux=r_c t及正二幂行缩放保准确全可行域/最优集，原A/b/盒残差仍按1e−7门；主LP和全部真实几何门、floor/.001惩罚/增长缩步、10s及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复继承真实r/streak，旧hash不强迫。直接打印全部trial门、同次原单位dual/残差和同点曲率预测误差，无新增geometry调用。H±=(q/100)(λI±II)，det=q⁴(λ±κ1)(λ±κ2)/10000；不盲增floor。下一消费首次actual；若仍仅微小进展，结合真实行/局部列分析表示，而非原样延预算。
 
 旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)及全部早期失败保留，不重跑来补日志。本轮曲率各组逐行预测/defect留在未持久化full而未stdout；只允许在后继必要恢复时打印既有摘要，不捏造缺值。后继同一公共job按已提交完整源码/参数恢复必要状态/池，继承真实控制器，前缀和新步骤分账，不强求旧canonical/hash、低于min不启动新LP。全连接同g精化、全域/全时reach与宏观幅度仍未完成。
 

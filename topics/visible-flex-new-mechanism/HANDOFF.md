@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:55:17 UTC实际pull后已读规则提交：`b2a1d939b307148d02cc9c449f05973908e8e679`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:58:30 UTC实际pull后已读规则提交：`ac0d9b65400d607dbf8f9e4827d4e3297d810fcd`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -18,9 +18,9 @@
 
 core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163，永久enriched c0不可换selected。旧rawδ.26640845723失败不抬。
 
-旧physical43676765171与growth43681388902的全部实际已消费，见notes/physical-step-cost-first-actual-result-20261115.md及trust-growth-recovered-actual-20261115.md；旧f2bb终态不冒作可逐字重现，新根15下只作一次必要临时恢复。
+**最新已读strip actual43684152565/sourcec594eeb/job132720986739**，完整见notes/strip-reserve-first-actual-20261115.md。必要growth恢复到643875e4，非旧f2bb；同g/b0/163。新9接纳/12双网trial全部strip过，三拒均directκ失败（其他trial门未全打印，非唯一原因断言）。终267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e，ηmax .26652303622182338，降1.07659e−5；κfine57.999995287562953，strip余3.91244e−8，.26未达。终池4415/3920，r1/64000/streak1；10主LP成功、1SOC10.121s无primal，fineJac69.629s主导wall。旧完整数据/失败/耗时在原note，不重复旧优化。
 
-**最新strip-reserve actual43684152565/sourcec594eeb/job132720986739已完整**，见notes/strip-reserve-first-actual-20261115.md。新阶段只改4/5组提案floor1e−7，所有真实门/原LP容差/曲率floor/.001惩罚/增长缩步/12LP40值120s保持。必要growth前缀8接纳至643875e4（非f2bb），继承r1/32000、streak0；前缀与新阶段严格分账。新9接纳/12双网trial，全部strip通过，三拒绝均directκ失败；未打印其他trial门，不冒唯一原因。终267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e，ηmax .26652303622182338，降1.07659e−5；κfine57.999995287562953、fine条带正余量3.91244e−8，.26仍失败。粗/细4415/3920池；最终r1/64000、streak1。10主LP成功、1SOC10.121s无primal；活动120.227s、总638.996s，fineJac69.629s最大，wall退。25新人工通过。raw8285575/eba499be、summary99434/c48c3004、receipt46714/8b7785c6仅metadata，不持久化payload。下一只检验SOC可逆变量/行尺度，原残差单位与10s预算保持；不从超时猜病态或盲抬PSD floor。
+**新SOC可逆尺度请求已提交**，设计notes/frame-metric-spectral-soc-scaling-implementation-20261115.md。helper3b74cc8c/lib6e3ef11a/driverd09cd8b4，v=r_c z、aux=r_c t和正二幂行缩放；准确全可行/最优集双射，恢复原A/b/盒按原1e−7门验收。主LP、全部真实门、同g/b0/163、10s单LP及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复，继承实际r/streak，不强迫267或f2bb。全trial门、原单位对偶/残差、同点曲率非线性余差直接stdout，无额外geometry；det=q⁴(λ±κ1)(λ±κ2)/10000，不能把PSD floor当曲率余量。开发仅新小数组，最终公共先check后actual；待实际，不猜更快或改善。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -44,13 +44,11 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 R180/R183的真实闭Klein M0/TκH与重叠导数包付完整三阶圆。R184把第四准确归为同一w的V0+Lθw=0、K0+Bθw∈三矩W；w²由R47第三单φ右逆支付。R181内部退化flux/双collar及R185六矩右逆/10方向不授joint满射。
 
-R187只排充分窄常态类；R193公开原四系数全正排标准态原八包全部宽度，均不延一般几何。R189正则8+1参数与Baire能保低阶去开常段，Klein按新位移重闭，但不付fourth。R191共同常值平台w的ruling商全不可见；R195/R197的f常/g变包有真实非零商线，可迁无常段，仅动σ一次且可改g，未付原joint目标成员。
+R187只排充分窄常态类；R193公开原四系数全正排标准态原八包全部宽度，均不延一般几何。R189正则8+1参数与Baire能保低阶去开常段，Klein按新位移重闭，但不付fourth。R191共同常值平台w的ruling商不可见；R195/R197 f常/g变包有真实非零商线，能迁无常段但可改g，仅σ一次、非joint满射。R198：f在右锚全零则任意合法w的period gauge零，原period=sin⁴θ P_B(g)；R183最右只有a7=−1的下降step，全s历史保持。
 
-R198：f在整个右锚[b,r]为0，则L_f(w)=0对任意全I合法w；第三齐次不动period。原Vθ=sin⁴θ P_B(g)，纯−4/−2/0为P/16,−P/4,3P/8。R183最右153λ后只剩a7=−1的下降step；左包不入ξ右因果，全s历史仍保留。R201排λ+的一切pure读出，不能换profile找它。
+**R199/R200已证**：新faithful单调step与全部低阶圆可同时构造，最右period恒零 iff πV_B=0；旧step未授faithful。真实τ0桥H对右step非零，双字/hook/Klein保全部基准给8N(Γ+ℓtH)+C，有限IVT只付一个查询。T可非零的M0字以BBrev成本2V入U，不授实际逆元。
 
-**R200/R199已证**：真实τ0桥纯响应H对末step非零，双字/hook/Klein保基准给8N(Γ+ℓtH)+C，有限IVT支付一个查询。R199用faithful小扰、三复矩/共同标量/八包差分得到全pure忠实新圆；最右period恒0 iff πV_B=0。M0/T可非零成本以BB^rev的2V入U，非实际逆元；旧step未授忠实。
-
-**R205已证**：选12个实际原响应生成器付P0⊕P−2，再用只有−6/−4的真实H作第13方向；最终c>1坐标先保H非零，再在同坐标平滑/faithful/左补矩。三角查询矩阵rank13，R102保全部第三环/连接基准、有限小族复制和最后大整数Brouwer，准确支付两个完整pure块与一个右step值。插M/T0控制后Klein恰4倍（不同R200另含反向双字8倍），真实闭hook仍M0/TκH/同一圆完整三阶。其他pure权/整period/joint仍欠，设计可改g，不能当同g运动。
+**R205已证**：12实际原响应生成器支付P0⊕P−2，低权真实H付第13右step查询；先固定最终c>1坐标保非零再平滑/faithful/补矩。三角rank13，R102保全部基准与有限复制/Brouwer，M/T0控制后Klein4倍（R200双字为8倍），闭hook仍同圆完整三阶。其他权/整period/joint欠，设计可改g，非同g运动。
 
 **R206已证（条件等价）**：Cp=P iff实际pure S=P，未判满锥。Q=P/πR无零缩放权；有限实际正配平、真实H缩放环/端口桥保2V基准、floor整数与C1截面付紧商目标。先清第三prototype的Q成本，再连续清E(t)的Q，最后有限n/Brouwer付响应，全部基准和选择顺序保全。若剩余−4正字符排除，闭hook整pure零由Klein4倍支付；mixed/ruling/终局仍欠。
 

@@ -13,3 +13,5 @@
 - 2026-11-15 06:56 UTC，Astra-new-mechanism-9974ea84：R207完成即推。root读完整MATHEMATICAL_RESULT、全部164原列/16旧响应坐标、177关系摘要、公共九人工/执行表与receipt；14族241别名、36/163真函数零不混作非零函数维。真实pull至eca7d6e双README blob均无差，receipt发布pull至2e1aa88亦无差。πU−6=πR−6真维3，唯一余pure权−4；134/134新收缩、3.685329779s/RSS317.1875MiB/18bit，正文保同锚完整性与所有边界。无新机器payload入库；继续−4和SOC新实验，不收尾。
 
 - 2026-11-15 06:59 UTC，Astra-new-mechanism-9974ea84：R208全文根审完成即推。旧151列含28交换子/56全部V3/67全部W1，保留18全部前28；只继承sound线性包含，不要旧NF完备或冒真实rank18。root核右锚G零常数、I(q‴F)=G−I(D0G)、E8两复合外r三项全对称，以及Fréchet嵌套深度归纳；全部πR有jet2代表，高jet规范坐标非成员准则成立。原势N、一般dynamic πU及mixed未获相同结论。无旧科学复跑；H压缩历史索引后仍保全部当前门。
+
+- 2026-11-15 06:58:04 UTC，Astra-new-mechanism-9974ea84：SOC缩放源码/设计根审完成即提交新单lane。完整helper/580行lib/driver均读，最后缺失/非有限/错误形状primal只拒proposal/禁dual而不破坏checkpoint。准确变量/辅助界/正行缩放与原单位对偶映射核过，全部验收和原预算保持；一次growth→一次strip→一新stage，实际controller和池/源码/系数绑定。新增人工完整IO已过，末guard仅对应新小mock，最终公共check将执行最终全部新人工；本地不重科学/旧开发。98args逐项只改index49输出名，21源码SHA绑定；workflow只增新lane/flag/98门/native-summary，printer不改。输出仅临时，科学表直接stdout。
