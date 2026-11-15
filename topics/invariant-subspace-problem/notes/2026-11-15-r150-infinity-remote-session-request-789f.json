@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "2cf540ca1c273724596288484394bb9ca49042d1",
+  "rulesReadAtCommit": "847937a64ebf461fde0bd7f7517839982d871380",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -222,6 +222,43 @@
       ],
       "timeoutSeconds": 95,
       "receiptPath": "{work}/graded-joint-lll-p768/graded-joint-source-lll-receipt.json"
+    },
+    {
+      "id": "two-degree-block-lll-p768-retained",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-two-degree-block-lll-retain-basis-789f.py",
+      "scriptSHA256": "af0ac3962b3ce9d0b934bd39d14b920a575dfaee37d186b67c1473445ae8ce8a",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--source",
+        "{work}/dixon-after486/stage-p768/actual-p768-exact-source36.bin",
+        "--source-bytes",
+        "36433748",
+        "--source-sha256",
+        "0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07",
+        "--source-receipt",
+        "{work}/dixon-after486/stage-p768/actual-p768-receipt.json",
+        "--paid-certificates",
+        "{work}/dixon-after486/exact-rational-kernel-certificates.json",
+        "--point-model",
+        "{selected_model}",
+        "--native-model",
+        "{native_model}",
+        "--out",
+        "{work}/graded-joint-lll-p768-retained",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 225,
+      "receiptPath": "{work}/graded-joint-lll-p768-retained/graded-joint-source-lll-receipt.json"
     }
   ]
 }
