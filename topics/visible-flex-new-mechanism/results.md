@@ -185,3 +185,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R258：整个十维第三核的局部自伴源、真实右尾与逐微包通量
 
 [R258 完整证明](results/R258-self-adjoint-hook-green-operator-and-complete-period-interface.md)从J0的五个完整C逐项求得Kf(w)的真实Volterra式；三次导数中所有P_f尾准确相消，Afw=D²(a_fw″)+D(b_fw′)+c_fw，a=−4((f′)²+ff″)、b=12(f″)²+8f′f‴−4ff⁽⁴⁾、c=8(f‴)²+12f″f⁽⁴⁾+4f′f⁽⁵⁾。完整K=−J³Af由原共同右collar三个零迹唯一决定，不删左二次尾。D³Z=−Z*D³使Af的正确链递推为−Z*Af−AfZ−D_fAf[Zf]，保持局部四阶/有限jets/自伴及Af f0。旧H首源D M_f D同理，故准确统一整个Z71=H7⊕J3；8χ未据此推出。任意光滑w含真实左尾均有∫f‴K=0；对整profile不交逐包比例类还逐包Af f_i0、Kf(g)0，故两mixed完整响应每整包通量为0。解析且无内部常平台的整包正是R225活动区间，才可支付其所有总flux门；其余平台/内部Laurent/两平端及同w ruling仍欠，不能套旧step圆。两个mixed目标保所有Φ(φ,Kfφ)项与原2cs规范；完整range右逆先解四类iff，再用R185核内六矩投影，未额外强加局部支持类约束。root独展五C、五个微分系数、递推、DMD与新增逐包IBP，tail独核；无新研究或人工执行。不以80/144定义冒rank或全Rp0覆盖。
+
+
+## R259：全部 Gaussian 面积的准确72条件与十二副本奇角消去
+
+[R259 完整证明](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)从六原Gaussian交换子和三个完整外矩出发，用原E八算子的cubic密度、准确sl2矩递推及Euler变分给局部Q_Xℓ；完整2I(u,[X,Y](u;B))=∫Q_XℓYB−Q_YℓXB。将它写成cubic泛函导数时必须保−I(YB,Xu²)+I(XB,Yu²)，没有偷删二次cross。整profile微包类的全部原左二次尾准确列表，只有五基本Γ非零；full-circle三矩精确成为含自项与所有i<k有序项的72个实方程，条件数不宣rank。完整副本三矩使不同完整block交叉为0，不消每block内部尾。所有原槽逐项给平移次数≤10。对R183八复制型完整圆，用十二个平移完整副本、g符号(−1)^j和共同实幅度C(11,j)^(1/4)，十一阶差分准确消全部36 odd角条件，并保三矩及平移稳定的完整第三。36 even一般仍非零；偶能量若需保持必须纳入全部副本联调，不由单处零推任意平移保持。新seed一般改变目标，不宣旧同g变化或完成第四。root已逐式独核八密度/导数、Q变分和保留cross、五Γ/十零、矩sl2动作、72展开与次数界，最后仅再读§9十二副本变更，核四次权及有限差分；无新科学或人工执行。

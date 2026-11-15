@@ -50,9 +50,9 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)的固定有限词C1全pure截面已付，未知真实基准与商Q均保留；外扰动须全P IFT。R214/218/220的无常段、偶germ与Morse迁移已由R223/227加强，当前无需重做这些局部控制定理，直接推进完整period与ruling。
 
-[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)已付无开常段/fullpure0/非零闭hook；[R216](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)证明四阶flat状态足以保常态ruling障碍。R218的偶非平端口与R220全域Morse已升级该几何，仍不能从避flat推出完整joint；R199新忠实圆不继承R193旧符号。
+[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)及R218的无常段/偶germ有限端口已由R223/R227全域Morse与非零ke例外安装加强，已付部分不重做；避flat不授完整joint，旧圆仍受R224/249–253准确面积障碍。
 
-[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)支付有限内外标记的共同偶非平端芽，原语九行/fullP IFT、真倒行/桥和Klein位移保M0/TκH/pure0。后来R220/R223/R227加强Morse与非零ke例外端口，已付控制不重做，直接消费新完整mixed门。
+[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)的全部真实桥/倒行/Klein/位移约束保留，当前直接推进完整mixed与ruling。
 
 [R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**Morse只离开R216平点前提；R224另排标准正ε偶germ的原八包，mixed/ruling并未自动支付。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；fullperiod成员已有R225完整判据但实际像未判，不能由F8=0冒完成。
 
@@ -131,6 +131,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)/[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)/[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)已用完整area与同移锚把R239旧圆全部κ≠0/ε>0/b实芽排除：c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，复2×2使两不交真实质心相等，矛盾。不排所有profile，不冒跨b同g。
 
 [R250](results/R250-complete-circle-Gaussian-area-and-nonuniform-profile-cancellation.md)把A−2,−3从pure升级全圆，保D和左尾，以三个真矩全θ零给十条件；40偶微包准确付三矩与该面积，八复制付第三且非GL2分离，但Lc<0。换种子pure两矩零仍有全角m1(π/2)=−120C。[R257](results/R257-cumulative-primitive-energy-in-the-complete-positive-negative-Gaussian-area.md)又给A1,−3的完整必要Q0：Q含½∫(Jq″²)²，40包四局部项恰0而累计primitive平方虚部严格正。其多宽度式(28)准确保左右次序/跨包尾及真实shape常数。**下一同时联调全部面积三外矩/局部能量与ordered-history，不能只调C_i/S_i或只验pure。** 不冒单面积零或局部有限门为完整joint；全period/同w继续。
+
+[R259](results/R259-complete-Gaussian-area-moments-and-ordered-micropacket-interface.md)已给全部六面积72准确条件：Euler密度必须扣完整二次cross；每微包自项、各i<k有序Γ真尾都保留，72为条件数非rank。具有R183八复制结构的完整圆再取12个完整副本、g交替符号与四次binomial幅度，准确消全部36 odd系数；36 even/内部历史及同w仍未付。**下一把全部复制纳入准确参数方程同时解剩余面积与六能量，不能以原处偶能量0推任意平移保持，也不能只验pure。**
 
 ## O1：双圆领相位机制，保留备选
 
