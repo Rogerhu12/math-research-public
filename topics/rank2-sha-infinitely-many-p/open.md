@@ -131,3 +131,7 @@ O4仍缺原最早低增广a≤1的无限p或β(Q)真实全球位置；O6仍缺�
 ### R770：合流导数递推的实际pε修正
 
 [R770](results/R770-actual-gaussian-connection-and-complete-first-lift-correction.md) 已证明去Gaussian新仿射坐标的准确连接：DΘ°=2Q°Θ°，DQ°=2t/(1−t)−fQ°−C，C=(p+1)pc·χ²w^s；普通首系数为单位，在原Γ中却恰p(p+1)pc·χ²ε。R769全部合流算子须加2njC A°_(j−1)，完整首Bockstein递推与每条原列的Q平移/指数/混合ε²均付；不把低轴暂时消失的pε项或单基单位删掉、冒全格非零。继续用完整修正矩阵判同一原前缀；F独立Q时一阶相容，二阶准确差2C·EF，不能把F/H_F/二阶当三个独立零。
+
+### R772：实际P58覆盖的全有限来源与3处点门
+
+[R772](results/R772-original-p58-orthogonal-weight-and-full-finite-schwartz-source.md) 已证明原最终q*及t逐点P⊥，P=Y+(1+3ω)s+2d范数58；真实整行P0=δP范数174、标准even半特征及全正交分裂齐付。全部实际D∞/E/失败门以完整finite-p Fourier和正交jets化为S174全基的有限平移，δΩ及所有17六次缩放幂明确。17处原自对偶格确整分裂、第一轴球无新惯性；额外3-local sectors的完整负一点公式尚未付，未据degree/球性宣布点域或删除补偿。继续对全部实际3-local sectors付good-pair/local period/精确factorization及点下降；原Y/P有完整残差t(aŝ+2đ)/(bY YP)，各补域与无限log尾保留，17球性不先行变成点域结论。

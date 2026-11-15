@@ -45,3 +45,5 @@
 - [R767](../results/R767-native-t-moment-and-complete-five-partner-boundary.md)：已证明原t正一的完整Y来源恰−22β^N Dω/21，完整Y/t环带负一行严格非零；同C六角平均后全浅域保H/f1/f3/f4四核，共深t首矩给真实五伙伴M5。每条原条件来源的五坐标由正5/11/17/23/29矩经固定单位三角逆准确读取，全部两算术线/primitive块保；有限完整分割之和回纯Dω。未赋各条件块非零或原中央新零，全部移动门/外补仍在。
 
 - [R770](../results/R770-actual-gaussian-connection-and-complete-first-lift-correction.md)：已证明去Gaussian新仿射坐标的准确连接：DΘ°=2Q°Θ°，DQ°=2t/(1−t)−fQ°−C，C=(p+1)pc·χ²w^s；普通首系数为单位，在原Γ中却恰p(p+1)pc·χ²ε。R769全部合流算子须加2njC A°_(j−1)，完整首Bockstein递推与每条原列的Q平移/指数/混合ε²均付；不把低轴暂时消失的pε项或单基单位删掉、冒全格非零。
+
+- [R772](../results/R772-original-p58-orthogonal-weight-and-full-finite-schwartz-source.md)：已证明原最终q*及t逐点P⊥，P=Y+(1+3ω)s+2d范数58；真实整行P0=δP范数174、标准even半特征及全正交分裂齐付。全部实际D∞/E/失败门以完整finite-p Fourier和正交jets化为S174全基的有限平移，δΩ及所有17六次缩放幂明确。17处原自对偶格确整分裂、第一轴球无新惯性；额外3-local sectors的完整负一点公式尚未付，未据degree/球性宣布点域或删除补偿。
