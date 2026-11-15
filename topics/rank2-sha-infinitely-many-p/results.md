@@ -485,3 +485,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R786**：[同一原测试的J深完整三输出及真实E深浅外部](results/R786-original-j-depth-three-output-and-native-e-exteriors.md)。原三态J/L546/M78全返回保同q与六支/unit第二项，J深浅落同一固定有限来源，帽/U仍保第四J输出。纯Y/W外部准确两模式；mixed T外部保完整联合Cauchy，第一系数两支之和为原非零Dω负一。未将外部补偿置零，已有first_return只作其真实来源读取。
 
 - **R788**：[原三次因子强接触窗口的全素数排除](results/R788-original-cubic-factor-all-prime-exclusion.md)。r2/mq0/b=b0=3的五型各两原有理子式，其gcd全部坏因子≤211，付p≥347统一排除；十九角准确κ≥9及唯一κ≤11类将剩余压到p311，原九列非齐次系统不解。因此整个b3强窗对全部允许p不存在；b≥4和全中央仍开。公开producer/run/hash齐备，未由有限样本外推。
+
+- **R789**：[同一CM帽的固定解析芽与原T完整外部非零差](results/R789-fixed-cm-hat-germs-and-nonzero-native-exterior-differences.md)。奇m≥n时第三逆Y帽及其浅补归一λ^-m后严格稳定；原固定观察的相邻深度差则精确消质量/t°log，回到原W实际CD失败域后中央导数非零且赋值明确。R483/R493完整联合零付其余215外部非零补偿；四格明确两种补域互斥，未添独立中央零。
