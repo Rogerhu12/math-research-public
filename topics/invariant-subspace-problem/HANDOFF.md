@@ -3,10 +3,10 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** e6b7ef32cb818f237eeaa683b884eedd3e4ba483（2026-11-15 06:23:01 UTC，Actions run43685167522实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685167522-1.json。
+- **最近成功实际 pull 与已读规则提交：** 0e9b256d181270dc7ebfccb4fda46fd5e99839f0（2026-11-15 06:29:40 UTC，Actions run43685671636实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43685671636-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
-- MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[完整快照](notes/2026-11-15-handoff-before-original-unit-elimination-789f.md)，旧未列缺口不算关闭。
+- MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
 
 ## R150：当前精确源及未付条件
 
@@ -19,7 +19,7 @@
 - [23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)已严格仍23维；旧13核闭包/同D候选亦关闭，不重复。
 - p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
 
-- **[当前∞的1632标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)：** 187原子式mod31=28，F31/Q真独立；[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)等同且17缩放31单位。run43679903558外支持实际1.575719778秒：1834×1632秩1603，外核/36自由像均29维，与旧23轴并仍29；Q支撑交仅上界29，6新模方向正作精确提升，旧23成员性须完整原表示。
+- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。正解原1603整子块、核全1834残差再运输全原式，不重4318位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
 
 - **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
 
@@ -30,11 +30,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - [真实带权窗](results/R271-appendix-true-minimal-projection-weighted-window.md)保c*=1601/64、ρ=e^-12.5d³、同top误差及原p_m(B)的W锚。复参数正平均已给μ⁴≤d0^-2 flat²R²，R²≥d0²λ²，仍缺同源全窗ordinary返回预算。
 - **[强尾并头同源流](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)：** C=A+D_<、h=d+R，n+h+R<Q时原同u给真实左最小、完整两费及负图；ΣXi_C²≤2hβ²、h网格≤2β²。R≈ρ^-1使远D范数δ<ρ。目标μ²≤κXi²且κh/Q=O(1)，κ=O(ρ^-1)足但未证，不能沿旧d窗用ρ^-2。
 - **[源精确收缩](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)：** 右Cs*KCs+I≤δ²K与左+I抵消，Sb=L+B/Sf=L+H上||Cs^k||≤δ^k，完整h−1逆芽有无损圆盘演算；零源平方保留，不相减为H−B收缩。
-- **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb在E0=高部⊕裸零源⊖完整零源中，Rret*Rret=H−B，Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零；完整未压缩(C+T)Rret=−Phi T Jb单射，不能倒用压缩Sylvester。
-- **[逐幂真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** 同左最小v=Ur，准确正交孔层展开保全部左零核反馈；δ^-2k(||Cs^k r||_(L+B)²+||P_K C^k v||²)≤||P_far≥k v||²+α²。同top可直接代真实w远孔尾，无头条件数/尾速率；k=1剥尽远真空能量。完整H版仍含λ，不能换α或倒除Cs。继续把保留反馈接q_h(C)及原M/W锚。
+- **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B；Rret Cs=−T0Rret−KJb、行[T0,K]≤δ、kerCs上零。未压缩(C+T)残量单射，不倒用压缩Sylvester。
+- **[真远孔逐幂损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** δ^-2k(||Cs^k r||_(L+B)²+||P_K C^kUr||²)≤||P_far≥k Ur||²+α²，同top可代w尾。完整H版仍含λ，不能换α或倒除Cs；保全部左零核反馈。
 - 对称配平、增长均匀块、V±/全部nuisance Schur的完整常数和链接保open及[旧H](notes/2026-11-15-handoff-before-koszul-support-789f.md)；无全环境S∞，核投影稳定不支付Green逆列。
 - 原均匀池精确K/G因式分解及Green全因子见open；其余强位E(I−G)、完整核Gram逆和差商逆伴随仍须支付，不能沿原d替新h。
-- **[强gauge与准确末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左变化/反馈付远尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端−q_h(Cs)r_(n+h)仍保。返回运输误差≤A_drv α，共同eY∈E0、||eY||²≤||Y||²−α²、Rret*eY=Sb r；大配对仍未付。ordinary λ(qr)与d0λ(r)双边可比，全局M/W锚不免末端。
+- **[强gauge真末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** q_h(C)真左反馈付尾+裸费；n+2h+R<Q时原未来链有界，全部head旗/末端保留。返回运输误差≤A_drv α，eY∈E0、Rret*eY=Sb r；大配对未付。λ(qr)≈d0λ(r)，全局Cg才给M/W锚，勿用Boolean头替它。
 - **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
 - 旧Gq、低forcing、a1/a2及孔导数坏族量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重旧排除。
 

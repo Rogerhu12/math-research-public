@@ -541,3 +541,5 @@
 - **N/Y原逆芽的次阶圆盘放大与强头同窗。** [全证明](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)保持ε=e^-d³/4，τsharp准确为12.5d³−.75d²−1.5d+低阶项，两模型真圆盘至少放大e^(d²/2)。真实输入列权、扩头h−1全演算及n+2h+R<Q*同时保留；窗口可容纳κ的量级提高，但原两费比较仍须证明。
 
 - **标准Koszul原来源的显式31整左逆。** [自足证明](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)用已付187/17单位子式逐次恢复线性/常数斜系数，得ΓΦ=I、真来源投影及31饱和。完整6188身份才判成员；投影不保原选列J，直和项不保证支撑交与mod31交换，未偷付旧23成员性。
+
+- **原选列的标准Koszul支撑交模31恰29维。** [实际完整证明](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)：run43679903558在1.575719778秒核全1834外坐标、rank1603及36自由像rank29，像恰前29轴、比旧23新增六模方向。Q支撑交仅上界29；D整规范e29…e35若将来成为真核则必非标准Koszul。原真核仍23，正作有理提升。
