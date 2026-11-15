@@ -38,7 +38,7 @@ R310准备完整9方向重新评价的complex response基底与误差责任，he
 
 [137同现场入口](notes/2026-11-15-request137-persistent128-precleanup-final-components.md)run43709832101/sourcef9bdab0245e7aaa7f2b4ab62edeea805cfa6bfd3，fresh起19200s总、120s读回，owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800依实际剩余截并先保audit，完整失败/未访/90KB70；原133和七源不改，不预言全224能按时完。
 
-[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。新operator三源950e1810/86782f80/65b2dcf3及接口6948bb74待root全文发布，140独立同job接线并行准备，137继续；不假设有限字同值/误差界/加速，不添fixture。
+[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已完整证明独立literal Gram收缩/角点共享与准确实消去；有限名义分解和两回代缺陷及其导数不能忽略。[新operator三源与完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)现已发布950e1810/86782f80/a2ee773c，完整225矩/226态/全部224列/两mean/port保持，名义factor及方向残差原值读回；独立schema沿当前现场传至原boundary/338/audit，不冒旧dL字同值。140同job新接线继续，137不改；total cap含绑定/编译，另保原science cap和父绝对期限，不预言速度或误差界，不添fixture。
 
 ### 2C. 完整原场域约束与下一35查询
 
@@ -104,7 +104,7 @@ R288提供的具体后继是保128状态、完整primal和明确所选有限root
 
 根README在11:35已读唯一新增说明（blob21bd547f56590b7f2dd279d0297efb289a9b2783）：closed-surface旧gz/npz已清，必要历史输入按原immutable提交恢复；题README未变。137/138新请求只更新已读规则基线，旧在跑任务若真实因规则变化退出则逐原结果重新接续。R304已完整登记136真实退出；139独立改源支付同域积分，未付连续cut jet及完整metric保持。
 
-[R305完整证明](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已直接登记：独立literal Gram全部2M+1矩对方向收缩，准确实Cholesky/两回代导数与线性解等价，共享角点局部偏导、全部几何/226RK/mean/port/cut/far链式保留。名义分解R、两回代a/b及其导数不能由点残差小而删除；新128运算次序不冒R283逐字等价或方向误差证书。配套operator草稿源独立发布和实际执行继续，137不改，不增加fixture门或以性能猜全224完成。
+[R305完整证明](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)已直接登记：独立literal Gram全部2M+1矩对方向收缩，准确实Cholesky/两回代导数与线性解等价，共享角点局部偏导、全部几何/226RK/mean/port/cut/far链式保留。名义分解R、两回代a/b及其导数不能由点残差小而删除；新128运算次序不冒R283逐字等价或方向误差证书。配套operator三源及完整接口已全文读后独立发布，140实际入口继续；137不改，不增加fixture门或以性能猜全224完成。
 
 [133 R308实际完整128射击](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)现已登记：从原失败状态fresh64 J，当前完整128 RHS重做R273并以lift(σ)·lift(z)恢复，唯一α=1接受后完整原norm9.68582474751023176032080482454992093e−11低于原2e−9，真实stop shooting-tolerance-reached。全部576段/129248行、独立fresh128 residual和576×226输出逐字同值，无墙钟截断；所有native/fullDN/全列/338/audit仍false。原末态已清，137同job重新形成现场后接完整责任；此实际进展不支持继续盲调η或猜word，更不单独证明几何完成。
 

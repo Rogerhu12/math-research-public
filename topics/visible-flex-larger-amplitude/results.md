@@ -128,3 +128,5 @@
 - [request139：完整cap端点积分与真实预算partial执行](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)：v3 f12f7470保0040/9aa0及原数学定义，10源/三原输入/三证明/whole-query，原256bit/200000panel/1800秒/六full-width条件；只改有证明的三endpoint积分和确捕ResourceStop传输，完整prefix/未付域原值读回后清理。
 
 - [R309：actual130七批33查询与真实规则退出](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：7warm/7freshFD、33trial/26拒，全部原最终flags false；11:38:40规则变化exit77，第八完整返回未知。完整域失败给MID472/LEFT463新支持责任，已选MID483负而线性可行保原门；全QP/FD/试探/原pair与摘要身份、重演边界均明示，下一独立35查询从真实98另起。
+
+- [R305新数值算子源码及完整final消费接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)：共享角点六偏导/独立225矩作用/真实名义factor两回代，完整226RK、224状态列、mean/port和原残差；新schema逐层保留至原boundary/338/audit，不冒旧运算图字同值或方向误差界。仅源/AST已核，140在原全局期限内实际执行；total cap含编译，science cap另明示，未改137。

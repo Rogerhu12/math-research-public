@@ -420,3 +420,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R309实际130七完整pair和规则停止
 
 [R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)保全部33trial/26域拒、7真warm/7freshFD、全QP后验大值及字节身份；七原JSON+LF逐字核，末场已清不hash续。规则round2在11:38:40真pull见新README退出77，第八完整结果未知；下一独立35查询按实际MID472/LEFT463扩完整B支持8791而原C/outside/门不变。138全部success、两原log已CLI取交R307；139真run43710988676已科学。H改为当前责任，旧open全文29789B移notes至139检查点，更新已完成/在跑事实，原正文/历史链接保全；所有科学仍公开Actions。
+
+## 2026-11-15 /root — R305共享算子及完整final消费者源码
+
+[完整接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c和bc0990全文读后发布；root核实际字节/Python AST，未编译或本地科学。完整literal Gram/226RK/224列/mean/port和原名义缺陷保留，新算子schema绑定同job真实128状态并传播至原boundary/338/audit；独立total/science cap与父绝对期限保持，未预言速度/误差界/native。137继续原入口，140接新源直接实际计算，不加fixture或审批门。

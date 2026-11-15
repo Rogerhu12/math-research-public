@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:58:18 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 bdb38705854ebf3dd5a371fc86624b9b3171c3e5。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:02:14 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 9f69befb876f3a8efcb864150270ccddc7f339a1。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)：run43704718358/source4f0ea9a175e3b3bd9f38515bd61833a392e8dbd6，current128 RHS新R273方向，唯一α=1接受；完整576段/129248行norm由.000122096054597410989492629881621789239降至9.68582474751023176032080482454992093e−11，原容差停止。独立fresh128全部残差/576×226输出逐字一致；原64只受控sentinel。全224J/338/物理audit/native/fullDN仍false，末态e0f20c36已清不可SHA恢复，下一项137/140，不盲调η。
 
-[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。三源新operator 950e1810/86782f80/65b2dcf3与接口6948bb74待root全文发布，140独立接线由exact_refinement继续，137不改。
+[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)付固定准确实分支共享、全226RK/端口/两mean及完整112 QR两端唯一性/577响应；浮点pivot不证实非共振，338为明确混合方法。[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)付独立literal Gram225矩收缩及准确实消去；名义R/a/b及dR/da/db缺陷完整保留，不冒finiteword等价/误差界。[新operator接口](notes/2026-11-15-R305-contracted-finite-trace-operator-interface.md)三源950e1810/86782f80/a2ee773c已全文读并发布，完整225矩/226态/全部224列和名义缺陷读回保持，独立schema不冒旧dL字同值。140同job新接线继续，137不改；总cap含编译，独立science cap和父绝对期限均保。
 
 [122 R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)original488/refined187段均partial、全norm空；单方向不付全224列、已清局部失败不补造，入口8008.370981772s含fresh。原113全部policy责任见R288，不重跑昂贵已结清对照。
 
