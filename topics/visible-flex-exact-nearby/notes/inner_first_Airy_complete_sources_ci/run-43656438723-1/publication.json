@@ -1,0 +1,55 @@
+{
+  "actual_returncode": 1,
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43656438723",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T00:06:03.419123+00:00",
+      "before": "b5ea6bd0d96522317e07ea3036cf7079afe94c20",
+      "after": "b5ea6bd0d96522317e07ea3036cf7079afe94c20",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:06:04.745328+00:00",
+      "before": "b5ea6bd0d96522317e07ea3036cf7079afe94c20",
+      "after": "b5ea6bd0d96522317e07ea3036cf7079afe94c20",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/inner-first-Airy-complete-sources.json.gz",
+      "bytes": 12436,
+      "sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b",
+      "original_sha256": "76df4e555b4bbaa84c061ee922c799671190c6a47736a52a5fed12f1c91a957b"
+    },
+    {
+      "file": "consumers/inner-first-Airy-complete-sources.stdout.log",
+      "bytes": 1193,
+      "sha256": "28a4fa9a18d62000d4414145990529236b30b86a23a13ff7fdd09687a9856d63",
+      "original_sha256": "28a4fa9a18d62000d4414145990529236b30b86a23a13ff7fdd09687a9856d63"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 15314,
+      "sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279",
+      "original_sha256": "ee53c2516f4d1c8fdd4512d93b5d50d56c1b2fe4f088a42c15e7b37cdf495279"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 13680,
+      "sha256": "2dbaca6a5318fa5e072089c5f9dcf35e2167bd8411a0bca531717686fd368d8c",
+      "original_sha256": "2dbaca6a5318fa5e072089c5f9dcf35e2167bd8411a0bca531717686fd368d8c"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2354,
+      "sha256": "a9bda82a0a6373aef09c90b9a23d6772e6d6f15f57a7c50bfe876668a54674e6",
+      "original_sha256": "a9bda82a0a6373aef09c90b9a23d6772e6d6f15f57a7c50bfe876668a54674e6"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
