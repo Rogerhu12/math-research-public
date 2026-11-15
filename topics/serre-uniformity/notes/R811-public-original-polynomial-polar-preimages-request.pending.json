@@ -1,0 +1,46 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R811-original-polynomial-polar-preimages",
+    "p": 41,
+    "requested_stage": "complete_base_y_two_chart_polar_preimages",
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "matrix_tile_size": 16,
+    "transcript_archive_operations_per_chunk": 128,
+    "expected_original_polar_degree_for_final_comparison_only": 1206,
+    "core": "R811_original_polynomial_polar_preimages.py",
+    "core_sha256": "ec100a760d84ff81e16d7e55f2b810fe3e41aeae64f8d275046696816e38d325",
+    "wrapper_sha256": "64f9bc9a2ed2e641e090db53a0e3b5b5372887c9b78a8c6be82a879a50b91518",
+    "module_helper": "R811_exact_L_polynomial_modules.py",
+    "module_helper_sha256": "09f21a903e4906666d63f58575b389be7a04c20b68c7fcac624d3821837a9126",
+    "field_core": "R754_original_periods_and_Hom_kernel.py",
+    "field_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+    "io_helper": "R811_public_original_regular_multipliers.py",
+    "io_helper_sha256": "2a1d1c286ca26e37b784bdc94d587e056e69732f9a60bb26840ee8f07f340e8a",
+    "proof": "results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md",
+    "R811_proof_sha256": "263d8a15085c3fc053dac1df546ad0c3efb565d67ce312c78ec6e5ddb4dccf78",
+    "method": "notes/R811-original-streamed-polynomial-preimage-method.md",
+    "polynomial_method_sha256": "e861c359296fd834b56f48591bc5dca73dabd989a5f4374a85676c3e1ae27965",
+    "workflow": ".github/workflows/serre-p41-original-polynomial-polar-preimages.yml",
+    "retained_artifacts": {
+      "R811": {
+        "result": "R811-original-regular-multipliers-and-polar-preimages",
+        "run_id": "PENDING",
+        "source_commit": "PENDING",
+        "artifact_id": "PENDING",
+        "artifact_name": "PENDING",
+        "archive_sha256": "PENDING",
+        "manifest_sha256": "PENDING",
+        "core_sha256": "849bca27968dcec4353b1af0f458d2329b6a5c8ab3b0dc2a7d65779da7fed2b3",
+        "certificate_name": "p41-original-regular-multiplier-certificate.json",
+        "files": {
+          "p41-original-regular-multiplier-certificate.json": "PENDING"
+        }
+      }
+    },
+    "resume": null,
+    "pending_reason": "Only the actual successful original R811 A/B regular-multiplier certificate and its exact tau/sigma rows may activate this scope. The producer remains pending; no raw coordinates, kernel rank, or ideal degree have been fabricated."
+  }
+}
+

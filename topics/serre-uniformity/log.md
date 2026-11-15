@@ -137,3 +137,7 @@
 ### 2026-11-15 22:08（Asia/Taipei）｜serre-public-astra-20261115
 - R824 root全文核Koszul/准确RR300与572/各次Hilbert等维自由性，原Laurent完整pole界与246³κ式、纤维V7 quotient及两图逐列t^a运输均过。proof 3a32e69f；权和1604给实际包含+满秩后的全长1206，未预填r/生成元。
 - R781已成R0..142与原H³第五块保直接复用；正只读R787旧minor决定是否实际r28可省权7，不改正在运行core。R820完整实际结果已推c4dcefc12，主目标OPEN。
+
+### 2026-11-15 22:15（Asia/Taipei）｜serre-public-astra-20261115
+- R811完整char0极前像工程保存pending：root全文核38,918B core/52,672B wrapper/method/workflow，exact另核archive/close/chart恢复；原P独立保留，全部核原式、双向Laurent和τ全长＋σ零长度保持。coreec100a76/wrapper64f9bc9a。
+- 通用helper09f21a90已由真实五路径generic验证，无新增gate；128操作原字节archive先全SHA后prune，只最终H/W留大payload。此为仍待真实regular A/B的正确方案，R824较小齐次路线继续，不预填原极理想。主目标OPEN。
