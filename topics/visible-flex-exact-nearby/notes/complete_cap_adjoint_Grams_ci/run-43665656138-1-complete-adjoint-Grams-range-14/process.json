@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete7908_cap_adjoint_Gram_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43665656138",
   "run_attempt": "1",
@@ -246,6 +246,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:35:18.290261+00:00",
+      "before": "46d2096e23cbf2ccaa79a714edfb2cf22976aba2",
+      "after": "0be436317cc28dedcd9b704483aebb80a10d5d31",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -263,6 +271,11 @@
       "time": "2026-11-15T02:26:27.042577+00:00",
       "final": false,
       "commit": "7c960f21d0ab89b86a5b9d44ab64f6b5836b7cce"
+    },
+    {
+      "time": "2026-11-15T02:35:17.700212+00:00",
+      "final": false,
+      "commit": "0be436317cc28dedcd9b704483aebb80a10d5d31"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -307,7 +320,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "46d2096e23cbf2ccaa79a714edfb2cf22976aba2",
+  "last_read_commit": "0be436317cc28dedcd9b704483aebb80a10d5d31",
   "immutable_scientific_copy": "/__w/_temp/complete-adjoint-range-14-work/science",
   "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
   "exact_recovery_scope": {
@@ -326,8 +339,8 @@
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
     "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc"
   },
-  "snapshot_utc": "2026-11-15T02:35:15.485498+00:00",
-  "wall_seconds": 1815.253992577,
+  "snapshot_utc": "2026-11-15T02:35:18.434496+00:00",
+  "wall_seconds": 1818.2029899759998,
   "native_files": [
     {
       "logical_file": "evidence/actual-complete32-slice-plan-process.json",
@@ -339,7 +352,13 @@
       "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "bytes": 3462,
-      "sha256": "38332e405b76f30a468f9e054ae4ba9113b787e139f8d7fcb6caa12adb095136"
+      "sha256": "37cf97ec43605892b0494a74093b1b42da552daf1beaf3e1601637ad7f39dc54"
+    },
+    {
+      "logical_file": "evidence/complete-adjoint-Grams-range-summary.json",
+      "file": "evidence/complete-adjoint-Grams-range-summary.json",
+      "bytes": 3625,
+      "sha256": "89e4a6ebebadbb17e2dfaaccf2c7628019e66f7403f954dde23fb864b35e47a7"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14141144478.json",
@@ -362,5 +381,9 @@
   ],
   "actual_completed_bundles": 0,
   "actual_completed_quarters": 248,
-  "latest_scientific_native_sha256": "fd6fd0f46f64798a6248a6f57302b1b32a1060866036f55dc88952316b768639"
+  "latest_scientific_native_sha256": "fd6fd0f46f64798a6248a6f57302b1b32a1060866036f55dc88952316b768639",
+  "complete_native_sha256": "fd6fd0f46f64798a6248a6f57302b1b32a1060866036f55dc88952316b768639",
+  "actual_scientific_gates": 3,
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-15T02:35:17.909542+00:00"
 }
