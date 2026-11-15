@@ -628,3 +628,7 @@
 ### 2026-11-15 19:01（Asia/Taipei）｜serre-public-astra-20261115
 - 登记R806原primitive乘法执行契约e73f66bd：原690选行保持、272生成右端、全820模筛与实际cyclic determinant，成功候选才做34组准确恢复，不计算巨大特征零Krylov逆。
 - 有限候选/素数/特化公平枚举和统一有理重构界已证；R805真实输出尚待run43706758013纯IO审核，不预填n、minor或primitive结果。下一步原core/后继工程。
+
+### 2026-11-15 19:02（Asia/Taipei）｜serre-public-astra-20261115
+- 登记R805实际认证：n=1，739下pencil/S均秩690、det509/332，V2补基det488；15.520676秒。公开IO run43706758013全1322manifest项/1324ZIP/1272原输入及冻结verify已过。
+- 真pull于11:00:18.765935UTC读到6bdaec3b57a766b596efeaab9b59f2814b7d4bd2，两README无变化，H已记录。两项R807所需41项真实前缀交后继，R806/R807继续；主目标仍OPEN。

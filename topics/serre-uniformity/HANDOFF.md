@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：9f960b8e0b2fa825ab1391e86db4e1383ffdd700**（2026-11-15T10:46:02.292495+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：6bdaec3b57a766b596efeaab9b59f2814b7d4bd2**（2026-11-15T11:00:18.765935+00:00 公开Actions run43706758013实际部分clone/pull；两README相对9f960b8e无差异）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
@@ -29,7 +29,8 @@
 **R804原五map复用与真点**：[整数循环/八节点证明](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)、[点接口](notes/R804-original-CM-point-consumer-interface.md)。五a(T)、C/C逆全整数，仅这五元素；原degree1485/1521/1602/1674/1728、N≤196，保T⁷=ζ²/全Gal。点coreecd9fc2a/wrapper5126b836/request087bbd4e已推0a75ac360，只有pending待R792；四组25文件契约，旧三组18项真IO全核。按实际点坐标分O/碰撞/二挠，核原Hom字与vβ；不选A有限核前像。全局反对角两图/支撑saturation接口已证，未实际执行。
 
 **R805原整环/极除子**：[证明](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)，proofb48d9f8d/methoddf706176。两锚秩690−degG，自由S模度数1/144/127，两正规图272整基；primitive必须真实Krylov，平面幂基非整闭替代。M6以θ∈H−2E清极，5残余核+3右端/full55项。E_g=B+3D_g，B=20cusps+P0、P1不分歧；逐重数trace radical，最大D569完整ideal作V3两flip，padding≤297P。G=u/v保全标量，ηprincipal mathcalG³、三同源mathcalG⁹R。
-最小core730a7d8f/wrapper0eddbd19/request4b2c6331：run43705580592/source9f960b8e0b2fa825ab1391e86db4e1383ffdd700已success，job132785817999 compute/verify均过；artifact14158193403，55,714,523B/cea9ac5d，到Nov16 10:45:54UTC。**完整输出IO公开审核已激活，未登记真实n/minor**；脚本`R805_public_success_io_audit.py` SHA5ae35d0c，逐全产物/1272原输入验哈希及冻结verify，并真实部分clone/pull和两README差异记录。原1272文件/34.9MB输入已核；仅缺积、铅笔/补基/690 S行，无primitive/极理想/η。R806 [primitive执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)已证/登记（e73f66bd）；原690行集不重选、272真实V3右端、full820模筛/真实272 cyclic minor，仅成功候选Dixon/full820与带权支撑核，未有实际primitive。R807 M6清极契约/工程继续准备；旧alias和完成断点直接复用。
+**R805实际全部认证**：[结果](results/R805-certified-original-affine-pencil-free-basis.md)。run43705580592/source9f960b8e，core730a7d8f/wrapper0eddbd19；15.520676秒，n=1、p739，pencil690/det509，V2=291+127/det488，S690/det332。127个V2补行为146..217、219..272、291。全1324ZIP/1322manifest/1314stage（619新积+690S行）与1272原输入经run43706758013冻结verify全过。certd65c799f/manifestdfb7a4e5；artifact14158193403至Nov16 10:45:54UTC。R807两项e3/4·e73的41项已成，直接续尾。
+R806 [primitive契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)已登记e73f66bd；原690行集/272真实右端/full820模筛与实际cyclic，仅成功候选Dixon。尚无实际primitive。R807 M6清极契约/工程继续准备；旧alias和完成断点直接复用。
 
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 

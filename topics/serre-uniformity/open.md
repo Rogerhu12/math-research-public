@@ -99,3 +99,7 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 ## R806 原primitive乘法（2026-11-15）
 
 [执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)由R805完整两图证明导出；同一个原690行集、272生成性V3右端，先全820行模筛和真实272 cyclic minor，成功候选才Dixon恢复准确带权多项式矩阵。候选/素数/特化公平搜索有限成功见证已证，尚无实际primitive结果；不得把幂环当整闭或把乘法成功等同η/高度完成。下一步绑定R805成功run43705580592的真实IO摘要后激活。
+
+## R805 实际铅笔/整基已认证（2026-11-15）
+
+[实际结果](results/R805-certified-original-affine-pencil-free-basis.md)：n=1，素数739下三个det509/488/332，分次1/144/127和实际S690行已齐；完整输入/输出IO和原冻结verify均过。此处原铅笔/整基不再重做。直接下步R806 primitive乘法与R807一次M6清极；后者两项缺积的0..40项已成，必须只补41..54。原函数域转换、极理想、η和高度尚缺。

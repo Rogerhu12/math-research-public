@@ -397,3 +397,5 @@
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
 
 - **R806 执行契约（证明沿R805，尚无实际计算结果）**：[原primitive乘法与实际Krylov证书](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)：原690选行/272生成右端，full820模筛、实际cyclic见证、成功候选准确乘法和有限公平搜索；method SHA e73f66bd2e4836389dfbf64d5d724ada725944e80233a33e493408971a4242c1。
+
+- **R805 实际认证已证明**：[原无基点铅笔与分次自由整基](results/R805-certified-original-affine-pencil-free-basis.md)：实际n1/p739/det509,488,332；run43705580592/source9f960b8e，15.520676秒，完整1322输出manifest项和1272原输入经公开IO全核。已成两个R807乘积前缀直接复用；不宣称primitive/极理想/η。
