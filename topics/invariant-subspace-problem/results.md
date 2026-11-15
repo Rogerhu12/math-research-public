@@ -394,3 +394,8 @@
 ### 2026-11-15：完整饱和第二页正分支的三次原投影与1058费用（789f）
 
 [条件恢复定理](notes/2026-11-15-r150-saturated-second-positive-three-projectors-1058-789f.md)对实际第二页任一相容目标只恢复其完整204组合：t关系使原高核系数≤5，同一raw T96 q1截面给起点182。完整F0保七列、κ8、六旧K4及全部cochain，规范s/t carry同步改q2−c；任意合法全局q2/q3来源差经精确B核提升落完整第一页W1，从而第二类模U9保持。三次真实整数P必须分别作用F0/L3/L4，成本182→474→766→1058；完整raw目标的other-primary correction保留，最终X+pPL4+Σp^(5−ei)κiai+p5w对原17全乘回。旧765/796实现容量不足，须真16位次数和完整checkpoint扩展；没有预报第二页相容目标，也未执行全局正证书或证明char0身份。
+
+
+### 2026-11-15：真实最小投影的带正向gauge窗口及同源左配对（789f）
+
+[完整证明](notes/2026-11-15-true-minimal-projection-gauge-weighted-window-and-common-left-pairing-789f-next.md)保原c26无权窗口，另取m≥10、c*=1601/64。全位权区间给||B^k||=||B_m^k||=Wk，真实逆芽半径和bit和使log||G1||≤(35/6)d⁴+3d³≤(47/8)d⁴。重新支付同一联合carry、全部ad_D和真低输出修复，在Q≤e^(c*d³)把母差与真正v_Q误差锐到e^-6d⁴；原正交最小化给k_Q同界及u_Q两倍界。因此G1与G1*的实际投影误差都≤2e^(-d⁴/8)||w||，真正P_VG1(I−P_V)w也≤e^(-d⁴/8)||w||。同一u_Q所有cut的原<Lr,G1r>与物理截断自配对误差≤4e^(-d⁴/8)||w||²；不逐cut重选源。高孔自配对、完整ordinary右费λ(B_mtop)及剩余P_KG1u块仍未支付，κ=O(ρ^-2)仍是足够量级而非已得比较；N=M未闭。
