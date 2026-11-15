@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R119 G：新94成员的真实 B collar 与 graph 种子](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)：在原首 q transition 的 d=2^-1024 正 collar，精确五jet Hermite修补实际非mean slope，完整κ与一global λ重建；全参数Γ1返回输入不变，经值图唯一性第一Γ准确不变。实际aw ratio与三径source转换给E8192种子<2^-54866996、完整source<2^-5275847456。原coefficient第三jet/高度第五broken跳保；B*≤2^6000000仍为独立条件，未授全augmented BVP。SHA256 ee52b1480b4d0d3a5de7e582c3c0f45462f601e4a0211b27443eb2ea8ee6fa73。
+
 - [R133 S：整域相关真实源的完整scalar预算](results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md)：新RF=3/20000、原final Rs=3/40000/σs=1/256；先逐域/坐标像/特征路径门，再G36 root零点、完整signed ΔV0/ΔR、raw M0次序与旧forced积分，最后joint full Fourier/径尾/mean。已知量仅恢复；新域完整disk球代数与旧Taylor系数计算严格分开。此为条件合同，尚无新gate实跑或全genuine源列范数。SHA256 ee408a3c1c2dcfaf24ab04ffa2b65eecff14c10311951a1b93937dcf88b516cf。
 
 - [R133 F：实际零宽全周期帽图与finite-Sob Φ](results/R133-supplement-actual-zero-width-full-periodic-cap-Phi-and-finite-Sobolev-tame.md)：真实Bmean右lift补入而完整压缩<.881/端保持不变；固定analytic γ，接受低小高有限非解析fB。known-only复平移→逐Taylor张量加权列和→one-high Young，q≤8160/Cq=2^{96(q+32)+16384}，不用未知复角值。完整4jet commutator与双向Schur给Φ半阶/帽曲率−3/2及两mean/height列<2^128；physical w/aw/唯一λ仍在，全augmented onto独立。SHA256 3959bb3674bcbd119568299a28c7f6f96d9fb27c3f8348cfa65cbd0ae49a834a。

@@ -173,3 +173,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### S：新整域相关scalar合同已付，实际域门仍待
 
 [完整合同](results/R133-supplement-complete-scalar-budget-for-correlated-whole-reference-forcing.md)固定新RF3/20000和原final Rs3/40000/σs1/256，逐一保所有Cauchy/像/特征路径、真实zero factor、signed ΔV0与raw M0次序、原forced两列积分和全尾/mean。root独核S10 Leibniz零点、S19–20次序、S22原producer公式；新版仅补新disk algebra范围。SCI/25pin/worker/flow审查后由public Actions首次执行新门；不把条件预算冒实际数值。G15全真实源列、两负窗forward/positivegraph与全strong return仍需接续。
+
+### 新94种子的实际 graph 入口已闭，外部增广门继续
+
+[G真实B collar](results/R119-supplement-new-94-B-collar-lift-and-actual-graph-seed.md)已完成：原同一positive首段、d2^-1024、5jet真实单侧PDE/Hermite、物理aw ratio、完整mean投影与唯一λ均付。种子E8192<2^-54866996，三径完整source<2^-5275847456；不能再将far残差到graph入口列为未做。所有候选Γ1上的负分量输入准确不变，值图唯一性保同Γ1，Γ2已固定。下一入口是同actual far外行的低form/独立weighted N2、B*和全部cap内/height/ν/flux/frame增广Schur；它们不由本种子自动通过。
