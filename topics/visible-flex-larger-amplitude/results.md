@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R276. 完整原σ行的仿射无穷范数严格下降区间](results/R276-native-affine-infinity-descent-interval.md)（已证明，有限保存数组精确代数定理）：全部活跃行严格向内为正步下降充要条件，全部非零斜率首触界值给精确区间(0,α*)；原十档可行恰需2^-9<α*，等号仅持平。ρ=0、端点ε<ρ充分结论与整数全行算法完整处理；保cut/stage/far原σ，区分formed-L2、字面trial舍入及真正noJ，不增原native接受门或预判73成败。
+
 - [R275. 原no-J逐运算同一性与完整变分链](results/R275-original-noJ-primal-identity-and-complete-variational-chain.md)（已证明，冻结源码条件命题）：同ordinary/local-cusp/profile次序与相同浮点括号、原root/RHS及无写回捕获给成功返回时完整226态逐bits相同；feed-only原product-J与完整226×224链式变分保两mean及port。明确理想regular branch导数不等于字面浮点DF，不推J误差、Newton或闭面接受；原验收函数/阈值不变。
 
 - [R274. 公共径向背景的角差消去与有限细分非平面性](results/R274-shared-background-cancellation-and-open-piece-nonplanarity.md)（已证明，完整条件定理）：同r角差中B及cut公共Hermite项严格消去；角解析延拓与各径向片行列式实解析非恒零排除平面开片，有限背景节点细分不需新见证。共享quintic B自身C²与全场seam/原g/reach/δE分开，测试是充分而非必要；实际新场非零见证仍待Actions。

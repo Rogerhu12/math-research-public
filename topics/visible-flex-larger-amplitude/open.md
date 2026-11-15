@@ -50,6 +50,8 @@
 
 ### 1B. Native：71新primal逐位吻合；73已进入完整576段续解
 
+[R276完整证明](results/R276-native-affine-infinity-descent-interval.md)已直接登记：固定同一原σ的全部129248行，当前全部活跃行严格向内为存在正仿射∞下降的充要条件，首触界必须取全部非零斜率；原十档包含下降候选恰需2^-9<α*，ρ=0/等号分别处理。已有精确endpoint ε<ρ足证十档在同模型下降，但不保证实际noJ trial、guard或native通过。后继只在Actions消费原signed exact账/r/σ，不重新做J/QR或增验收门；等73实际tuple与完整原件同次读取。
+
 已证 [R269](results/R269-native-zero-reference-height-slope-gauge.md)、[R271](results/R271-discrete-RK-stage-gauge-covariance.md)、[R272](results/R272-native-RK-reference-and-propagation-error-split.md)、[R273](results/R273-complete-native-damped-square-root-chain.md)；完整证明已登记。R273保所有cut/stage/far、每node罚块、carry与纯常数，L2下降不保证原∞下降。实际longdouble为64有效位，不称binary128。
 
 28/41/47/50/54的全部已完成原捕获和byte核不重跑；43 exact小节区分形成/传播/求解误差。54原1372方向失败，55真实十试步九guard/一内部momentum失败，没有完整norm；57在1372矩阵上的小线性缺陷不能转移原576目标，原十norm全同亦不证明trial state全同。详见检查点与各正式note。
