@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 963241ccd59501b12a92a3a477700f4a0d1e4536（2026-11-15 17:30:41 UTC，临时研究session run43740928483实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 58e41861ebe285577c8f0f930331cc8679ac8750（2026-11-15 17:41:41 UTC，Actions run43742531550实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43742531550-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -25,7 +25,7 @@
 - F±及E8局部九h0来源均已闭：F±低谱3,3且F±²W；E8低谱2,2且E8W。原证明、全部共轭点和界保open最新入口，未知完整有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
 - local43736746064（16:40起45分钟）全部新步骤已成：s2 B583/[B,C]590、首项15、185640原产品及九零读数；纯/切向cube分别rank591/592仍15。[完整H3](results/R150-appendix-two-complete-normal-three-high-kernel-and-first-head-stability.md)实1.604522462秒以11上rank988＋两真Q核夹逼，故全三次高核恰2维且不增头；normal4/5及完整β1仍开。旧job已成功结束/tmp失，所有SHA保实际小回执。
-- **新活跃source-kernel run43740928483**（17:24:27起）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，170分钟loop/180分钟job，每30分钟实际pull核两README并记H。7件历史输入全SHA已核，216同源实2.714139235秒重建；已排full32/O35各180s/1GiB，逐核旧0…21的66系数文件，再供两mapper；完整第一连接拟用原好11单位夹逼，无需旧22RHS缓存。
+- **新活跃source-kernel run43740928483**（17:24:27起）：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，170分钟loop/180分钟job，每30分钟实际pull核两README并记H。7历史输入已核；216实2.714139235秒重建。full32实9.832547971秒、O35实13.869621876秒完成，各66旧系数文件仅换binding后逐字节匹配；全原乘回/旧谱66与149保持，只供F31两mapper。现排完整原s2好11 β1（300秒/2GiB），22真实常核/6188来源/4367目标全部保留；0…2原分母11单位、J3det≡4/freeblock(5,5)均须实核。仅实测β1,11=7才夹Q=7；执行前不预填。
 - [真Q13投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实2.917069073秒付λ=2/12单位，全核Z_(31)[[u]]整/原freeI及80444原乘回真。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实3.845816541秒，Φ_H(0)rank1632/det15，510082常项整数产品真；SE27×216泛rank14/核202但mapper未算。Q full/O/high及leading单位仍开。
 - [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给原17式常数来源，弱列导数阶降一；其余二次和共动反馈仍保留。
 
