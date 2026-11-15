@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "35421ae75ce3dbb31c3d6b262957215b81bd721f",
+  "rulesReadAtCommit": "fc1f4ee7ce513e1872ba8ce13ccc55be7b83f319",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1089,6 +1089,37 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/infinity-complete-tenth-after-high-probe-receipt.json"
+    },
+    {
+      "id": "original-global-projection-localized-row-module-dag-600",
+      "requires": [
+        "original-global-projection-row-module-gcd-600",
+        "original-global-projection-row-checkpoint-statistics"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global-projection-localized-row-module-dag-789f.py",
+      "scriptSHA256": "91e5d19ae0ac1069dcf9a85229fd3be5e2b6308c4546be8027469cf9981b02d8",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        }
+      ],
+      "argv": [
+        "--core-source",
+        "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+        "--parent-checkpoints",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--out",
+        "{work}/original-global-projection-localized-row-module",
+        "--through",
+        "gcd",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/original-global-projection-localized-row-module/localized-row-module-dag-receipt.json"
     }
   ],
   "previousSession": {
@@ -1097,5 +1128,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Full infinity first7 ranks4,0,1,3,1,1,1, length63..66. Actual eighth high terms A2lambda6 and A1lambda7 separately zero,99008 original lower products and11 whole incoming verified, including75 nonzero higher incoming coordinates. Queue complete1088x600 low stage with entire incoming high reconstruction. Original Q[s] core56x22 now actually verified:641 nonzero entries,degree126,height409/213bits; full polynomial row-module gcd not yet computed. Ordinary ISP remains open. Continue exact56x22 polynomial row module and complete gcd for600 seconds/4096MiB; all forward56-source combinations and reverse56-row reductions mandatory. No gcd or Omega degree prefilled; if budget-checkpoint, inspect only actual saved complete state."
+  "mathematicalProgramStatus": "Full original rational infinity spectrum is exactly [1,1,1,1,3,4,4,4,5,6,7,8,10,11], length66, submax55; ordinary ISP remains open. Continue original global projection row module from actual completed19/pending20 prefix via localized units and exact source DAG, with all forward and reverse gates; no gcd predeclared."
 }
