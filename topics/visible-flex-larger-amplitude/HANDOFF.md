@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:35:54 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6f936467928627a3dd8f791e655d8f4394ad4c40。
+规则同步记录：2026-11-15 18:37:29 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0210a95e21d5f0798f0bd0906a22108ee1a76b71。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -23,7 +23,6 @@
 |171 exact，R361|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→原37八批→同job末pair→新LEFT462/38，97pins；原17档/FD|
 |170 exact，R365|43741803578 /bf1880f8c2e0381223bf29fd50ffb6e205afc75b|真98原37/FD→R354端点/全段M、pointwise Hermite，84af正sin/100pins|
 |172 geometry，R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p重生、全129248行R360，124pins/18000s|
-|169重试 geometry，R367|43741519736 /de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80|compute/report终态，geometry整理R367；58pins，原R320九p/λ.001/3active+109core|
 
 仅唯一负责人读已结束原日志；未返call不补拒。各源码/配方/预算/原错误与完整未访责任见同号notes接口和open；API状态或job绿不代数学门。
 
@@ -40,7 +39,9 @@
 [R358实际162](results/R358-actual162-complete-C-deep112-and-first-projective-pivot-stop.md)全C/cut/deep112齐；首m2仅49commit/100attempt，row17/piece3/depth32双端点盒含0，19栈/全后缀/其他111模态保，非资源止，无共振结论。
 [R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：43739491932/sourcefbb6a6c9，全1440/六primitive/两闭域/cut两jet/deep112齐；目标physical far=.05056158669090205，仍m2同row17仅49commit后pivot未付，0far/0unitrow，required[18,10387)/19栈保。native client未启动，非Newton拒；0.150405163s/resources.stop=null。六小块/四report完整核后原raw已清，大ledger只身份。
 
-[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证全族两图Riccati比较、闭段存在/非零sign-log幅度重构、二幂/隔零切图及全部cut候选。177从原全深端族重算，不裁旧失败盒，不保证改善；geometry实现，实际R379。R357每候选单位取向行/非零范数及数值代表非准确C成员继续保。旧R339/342/348原C与far work200000未完、R362首169 sparse缺件科学未起，全部原值/后缀/清理见结果和检查点，169重试不预填成功。
+[R375](results/R375-continuous-C-two-chart-Riccati-comparison-and-cut-cover.md)已证全族两图Riccati比较、闭段存在/非零sign-log幅度重构、二幂/隔零切图及全部cut候选。177从原全深端族重算，不裁旧失败盒，不保证改善；geometry实现，实际R379。R357每候选单位取向行/非零范数及数值代表非准确C成员继续保。旧R339/342/348原C与far work200000未完、R362首169 sparse缺件科学未起，全部原值/后缀/清理见结果和检查点。
+
+[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：43741519736/sourcede9a730a，C1440/cut两jet/新419片数值profile/deep112齐；九控制域10657未决/15未访，未称全域过。m2仍49commit/100attempt后row17/depth32双pivot含0，19栈/required[18,10387)/其余111模式保，资源stop=null；0far/0单位行，BVP/H/J/FD未启动。六读回后原raw已清。179准备接R375原族到物理far/R357单位行及原完整453，实际R382，不改原169门。
 
 [R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：C1440齐，32977完整闭叶全半径正/有限δ<1；38严格速度域反证、32488未决/481目标过并存，65535节点止/受控exit4。只限固定R320九p，不否定整个族/169未来p。[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：原1.48GB日志到EOF且38已找到，但cover/pending/unresolved计数不齐；95577B超90KB，2388B明确70，38位置表未返回。r2保计数门、分离38与全cover状态并修原行首BOM解析，exact核新R381；不预判310/46差额原因。大enclosure仅内部字节核，不新算科学。R341/R349历史和R352共享Bernstein表达式保。
 

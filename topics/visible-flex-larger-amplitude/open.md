@@ -104,11 +104,11 @@ R296/R301/R307/R316/R320/R329和[R335实际154](results/R335-actual154-full-nine
 
 [R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：43739491932/sourcefbb6a6c9，同C3262.5176462070003s全1440/六primitive/点与whole闭域、cut两jet/deep112齐；whole2609分辨率未付仍有效包含。真实physical far=.05056158669090205，m2仅100attempt/49commit，row17/piece3/depth32双endpoint盒含0，0.15040516299995943s/resource.stop=null，非25M/墙钟/磁盘。19闭stack、required[18,10387)及m4..224全保，0far候选/0unitrow；native client未启动、CurrentCGeometryUnpaid，不能记Newton拒或零响应。六小块及四report原字节/清理全核，大系数/accepted账仅身份；目标不同于162。R375/177从原全根族改变传播方式，数值代表同一C、full112/338/native及全场仍未付。
 
-[R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)：43732286420/source4241fb33，全C/cut/deep112齐而九p域partial，far m18/work200000止；原9616闭栈、piece1339和全模态后缀保原文/检查点，BVP/H/J/FD/trial/final未启动，非数学拒。六读回后raw清，SHA不能续接。[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)58直接/driver51/native25，R320九p/λ.001/453/3active+109core；前三scalar可变后六冻结，同C三输入/闭query/深端、现场H/MaterialTrace与E/Ep比较保。首169/R362接线未起科学，重试R367由geometry核，不借旧159或anchor预填。
+[R348实际159](results/R348-actual159-complete-C-far-work-limit-and-unstarted-full453-BVP.md)保m18/work200000原止与全部后缀，BVP未起；[R362首169](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)是另一次稀疏缺件、科学未起。二者原值/错误/资源与清理见结果和175前检查点，不能借已清raw续算。
 
-[R362](results/R362-actual169-workflow-sparse-checkout-and-unstarted-science.md)首169稀疏缺件、科学未起；原八栈/未清范围保。仅接线/metadata重发de9a730a，数学/recipe/58/51/25pins不变；真实重试R367另核。
+[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：新实际43741519736/sourcede9a730a，原来源缺件已解；C2624.792453377s全1440/两闭query/cut两jet/deep112齐，新标量419片/418seam的显式数值profile建成，但九控制域10657未决/15stack仍partial，中点不证同一准确C。far m2仅100attempt/49commit后row17/piece3/depth32双端点盒含0，资源stop=null；完整19栈与required[18,10387)、m4..224未访保，0far/0单位行。native_geometry_ready=false使BVP根本未启动，不能记Newton拒。全部必要摘要和六读回/静止后清理齐；R375物理far后继179正在接线，必须从原全深族重算。
 
-同一owner真实H/J→原三扰动/两法Richardson边界FD→8outer/17inner/fullDN/BVP/RMS/BC/fresh audit；完整112/338、32×10/2e−9/FD5e−5保持，18入口说明不作为新截断门。sampling声明14400+1800，实际rules启动后同比clip并预留原BVP7200；18900是此前阶段启动计划而非通用kill，原BVP launcher开始后才按其真实namespace截止。job360/read45、32GiB起盘/2GiB余量只资源，未保证所有阶段完成。六完整读回success、同run/source marker、父PID/start_ticks和科学独占PGID静止后才清；不要求runner公共组为空。169不等168零响应作新前门；数值代表/逐点中值/JSexp不证同一准确C、无限非线性DN或九冻结450同g精化。
+原169完整合同及后继仍须同一owner真实H/J、三扰动/两法边界FD、8outer/17inner与fullDN/BVP/RMS/BC/fresh audit；112/338/453、3active+109core、32×10/2e−9/FD5e−5不变。数值代表/中点/JSexp不证准确C、无限非线性DN或九冻结450同g精化。原全部预算/namespace启动clip/owner/清理范围见[169接口](notes/2026-11-15-current-C-projective-full453-physical-DN-interface.md)及R367，不把资源计划提升为成功保证。
 
 ## 4. 同一g闭合与真正九冻结450
 
@@ -140,4 +140,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ### 175完整闭段query域后继
 
-[175设计与执行接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：独立真actual98→一次原37/FD，capture0a8f4920、consumercf4fa7b3、runtime825caec6，私有84af端点模块数学逐字保。实际singleton b/C、完整453/338/两mean、G0+tG1+t²G2逐点余项族与完整14次query P，37×2048×17全域及事务/未访责任保持；不误对随t变化余项求导。10800s含恢复/原model/FD，diag5400/reserve300+60，8GiB ledger、190science/215job；170不作前门。单≤90KB必要读回保全部17槽原trial标量/拒因、全部37 query分类与原角计数/未访范围、完整结果/ledger身份；长科学对象仅Actions内部，不分包，失败不写清理marker。原求解/FD/IEEE/native门不变，exact核实际R372，未预填成功。169重试已终态，实际R367待完整结论。
+[175设计与执行接口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：独立真actual98→一次原37/FD，capture0a8f4920、consumercf4fa7b3、runtime825caec6，私有84af端点模块数学逐字保。实际singleton b/C、完整453/338/两mean、G0+tG1+t²G2逐点余项族与完整14次query P，37×2048×17全域及事务/未访责任保持；不误对随t变化余项求导。10800s含恢复/原model/FD，diag5400/reserve300+60，8GiB ledger、190science/215job；170不作前门。单≤90KB必要读回保全部17槽原trial标量/拒因、全部37 query分类与原角计数/未访范围、完整结果/ledger身份；长科学对象仅Actions内部，不分包，失败不写清理marker。原求解/FD/IEEE/native门不变，exact核实际R372，未预填成功。169重试实际范围见R367。

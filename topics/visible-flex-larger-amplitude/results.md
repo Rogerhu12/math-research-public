@@ -320,3 +320,5 @@
 - [R374：actual176找到38节点但完整计数和传输未完成](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：旧原日志完整到EOF，38唯一反证已找到；cover/pending/unresolved原计数未齐，95577B超90KB仅返2388B明确70，38位置表未交。原R356科学状态不改，最小词法/摘要修订继续，不放松计数或增科学门。
 
 - [R376：actual174全站奇形状与20档完整merit拒绝](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)：1397位置全处理、602允许站全用，fresh全3斜率负；20全域过而全3 Armijo拒，0接受、ξ0/W未变。120FD/12levels及Arb453完整，80909B单摘要齐，全部非零终门未付；不推全形状空间驻点。
+
+- [R367：实际169重发新标量建成但首far pivot未付](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：C1440/cut两jet/419片profile/deep112齐，九域仍partial；m2在49commit/100attempt后双端点盒含0，非资源耗尽，全部栈/后缀保。0far/0单位行，BVP/H/J/FD未启动；六读回后真实清理，不能冒Newton拒或准确共振。
