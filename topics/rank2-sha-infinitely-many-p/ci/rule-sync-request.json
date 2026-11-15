@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261115T1800-rule-pull",
-  "utc": "2026-11-15 18:00:01 UTC",
-  "last_rules_read": "e26b00116a4c48a1f085fb0eddddbdf083fa5b98",
-  "reason": "Hourly real git pull and README diff check; preserve read-only authenticated inventory and record the checked commit."
+  "request_id": "rank2-20261115T1846-rule-pull",
+  "utc": "2026-11-15 18:46:11 UTC",
+  "last_rules_read": "62feff66edaf319cb4ee7df9b94a3d3e36384164",
+  "reason": "Before the hourly deadline, perform actual read-only git pull --rebase; compare both README files and record the checked commit and inventory."
 }
