@@ -179,3 +179,6 @@ R640将R609三个完整Wilson来源经真实x²W13入B19，再用原conductor与
 
 
 R639完整中央gauge中原指定s−1/2s−1两行与首Gaussian逐项相同，因为Fc−cX始X²；真正u-整的是h/Ec=T^-1，σ/Ec=uH/T仍含原H，T未证属于k(E)。R636继续准确formal Cartier两行与division-cocycle约束；不以整个形式单位的存在推出2×2块非退化。
+
+
+R642在原κ=34c规范下付完整余因子D_c=Ec/e^cX的第三精度运输：辅助列只去D_c并恢复首Gaussian；F2s整，标准B(f0,f1,f2)=(0,0,πf1)给M_c=(I−34F2s p²B/a)M modp³。两13carry/ell+13完整长度保留，同P/R过原p²门后第二代表逐项相同。它不改变原指定d₂，不是删除全Ec的整等价；R637继续原完整Padé高尾。

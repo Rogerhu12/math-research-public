@@ -132,3 +132,6 @@
 
 
 - [R639：完整原中央规范与整个形式群内盘的同一缺陷](../results/R639-complete-original-central-gauge-and-full-formal-disc-stokes.md)：原prime-to-p CM除法的范数一极限给h/Ec的完整u整单位；J全进位界使完整中央连接在全内盘严格常数主导。真实Banach逆与原小盘比较保同一j，j0等价延到所有R<R_E，原两投影全范围已属同p域；指定临界两行不变，未添局部维数或免费旗标成本。
+
+
+- [R642：完整中央余因子在原第三精度的整单位运输](../results/R642-complete-central-remainder-and-original-third-precision-unit.md)：保首Gaussian的实际辅助矩阵只受标准第三块p²幂零目标单位作用；F2s整性、ell+13长度和两13carry全部保持。同一个P/R已经过原p²门后第二代表逐项相同，不将完整中央删除或一般目标也称整共轭。
