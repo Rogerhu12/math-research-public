@@ -1,0 +1,148 @@
+{
+  "schema": "request70-source-and-workflow-static-only-v1",
+  "no_scientific_module_imported": true,
+  "no_scientific_computation": true,
+  "new_sources": [
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py",
+      "bytes": 15297,
+      "sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c"
+    },
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_condensed_response.py",
+      "bytes": 2636,
+      "sha256": "270797569ecff1e3b895d8bb5482c6c9f3c2a4e11d29ebc980c3cfd8bcd88bb0"
+    },
+    {
+      "file": "geometry_20261114_twenty_one_query_lambda27_collocation_observer_warm.py",
+      "bytes": 16764,
+      "sha256": "12437f6887b7fb6a7d5ea91214b95227056238054cd73e6db8c123f2aa49e881"
+    }
+  ],
+  "workflow": {
+    "file": "visible-larger-request70-workflow.yml",
+    "bytes": 23124,
+    "sha256": "23e3804fec63e797b05e8ea4797b76827da3c674d8e6615198f30ab883fbe9b4"
+  },
+  "request": {
+    "file": "visible-larger-request70-request.json",
+    "bytes": 12675,
+    "sha256": "478a9bd116ed46504a9354424191f00fc9061655d9d7ebebc35abeef81cc1fd4"
+  },
+  "source_pin_count": 43,
+  "shell_blocks": [
+    {
+      "job": "select",
+      "step": 1,
+      "name": "Select only explicitly requested public follow-up lanes",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 1,
+      "name": "Bound maintenance and establish independent follow-up output paths",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 3,
+      "name": null,
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 4,
+      "name": "Bind the explicit request and current source pins",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 5,
+      "name": "Compile the independent condensation and original-response interfaces",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 6,
+      "name": "Restore all78 consumed pinned source files from the public repository",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 7,
+      "name": "Restore the actually completed M112 preparation and boundary response",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 8,
+      "name": "Restore the exact actual66 parent with transparent status compression handling",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 9,
+      "name": "Compare explicit lambda27 with request68 on the same actual66 complete21query model",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 10,
+      "name": "Recheck the original complete Rphi derivatives on the actual recovered warm",
+      "bash_n": true
+    },
+    {
+      "job": "followup",
+      "step": 12,
+      "name": "Publish bounded outputs with the original ordinary rebase and README check",
+      "bash_n": true
+    }
+  ],
+  "inline_python": [
+    {
+      "job": "select",
+      "step": 1,
+      "heredoc": "PYLANES",
+      "AST": true,
+      "sha256": "f1a6dface136beb4bada28d918ce50c15ad52755c5bf6314ff2dad9ab76c21d1"
+    },
+    {
+      "job": "followup",
+      "step": 4,
+      "heredoc": "PYPINS",
+      "AST": true,
+      "sha256": "843364657855314b09f5410ed51e8e85915acba81491af288455e8ef38e67698"
+    },
+    {
+      "job": "followup",
+      "step": 6,
+      "heredoc": "PYSOURCE",
+      "AST": true,
+      "sha256": "055a56db99adb57b3c8a66a3ef6717f0f15019be7f1a3bdb18c49e121fa8d9be"
+    },
+    {
+      "job": "followup",
+      "step": 7,
+      "heredoc": "PY112",
+      "AST": true,
+      "sha256": "7249a5a6ba90fe3d1d389c380a73678ea0a350313dae14865262038f6c01d0b8"
+    },
+    {
+      "job": "followup",
+      "step": 8,
+      "heredoc": "PYPARENT66",
+      "AST": true,
+      "sha256": "3aa0da74eccbf72e3a5d55b43f8a1e57cd550b837697cced983d2d9a212d8e9d"
+    },
+    {
+      "job": "followup",
+      "step": 9,
+      "heredoc": "PYWARM",
+      "AST": true,
+      "sha256": "11dcfe74c16aed7bbdd7bd0e495132129aa5515959d0105a0152a9472f516c5f"
+    }
+  ],
+  "same_parent_pair_as_request68": true,
+  "old_source_mutated": false,
+  "new_scientific_gate": false
+}

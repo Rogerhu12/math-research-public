@@ -1,0 +1,128 @@
+{
+  "schema": "twenty-one-query-lambda27-source-only-static-check-v1",
+  "source": {
+    "file": "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py",
+    "bytes": 15297,
+    "sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c"
+  },
+  "frozen_twenty_one": {
+    "file": "geometry_20261114_twenty_one_query_condensed_warm.py",
+    "bytes": 41712,
+    "sha256": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2"
+  },
+  "frozen_original_engine": {
+    "file": "frozen-original-full-angle-engine.txt",
+    "bytes": 36439,
+    "sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
+  },
+  "mathematical_modules_imported": false,
+  "numerical_functions_called": false,
+  "AST_parse_passed": true,
+  "all_seven_frozen_functions_accounted": true,
+  "actual_source_transformation": {
+    "schema": "same-model-single-damping-source-transform-v1",
+    "original_twenty_one_source_sha256": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+    "original_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "twenty_one_functions": [
+      {
+        "function": "equal",
+        "original_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+        "adapted_sha256": "c1a7f961a6d0f7818effc25dafdb68267975122fbba442e63be08cc63828fc8b",
+        "complete_original_body_preserved_except_listed_current_metadata": false,
+        "body_byte_identical": true,
+        "reversible_edits": []
+      },
+      {
+        "function": "guard",
+        "original_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+        "adapted_sha256": "774f01be597bc996d234502dd84028d2a08a64a5df988b9bf4576ad36bd7a5b5",
+        "complete_original_body_preserved_except_listed_current_metadata": false,
+        "body_byte_identical": true,
+        "reversible_edits": []
+      },
+      {
+        "function": "scalar_or_none",
+        "original_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+        "adapted_sha256": "0d04e65e3f0fe7e650ba84535748f2fada6378c8fd058c50b09822ec2ca4c18d",
+        "complete_original_body_preserved_except_listed_current_metadata": false,
+        "body_byte_identical": true,
+        "reversible_edits": []
+      },
+      {
+        "function": "evidence",
+        "original_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+        "adapted_sha256": "3e65930231c792d93c8a79bf24a978212c0d91f5e50200e56030fb6ca20ba296",
+        "complete_original_body_preserved_except_listed_current_metadata": false,
+        "body_byte_identical": true,
+        "reversible_edits": []
+      },
+      {
+        "function": "compact_metadata",
+        "original_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+        "adapted_sha256": "63a6427601f7b34a5d66a11727068e1f03ea10792c250e3e54846e5d7ae17474",
+        "complete_original_body_preserved_except_listed_current_metadata": false,
+        "body_byte_identical": true,
+        "reversible_edits": []
+      },
+      {
+        "function": "_run_engine",
+        "original_sha256": "fd254c6992e795ca8677dc5c706c821de191dd6d599726f8e22d05fdfe760dc7",
+        "adapted_sha256": "3f5d35741acc7b24f9caf5f251dc5c46969054168f7b065f56db5ca7b12c769a",
+        "complete_original_body_preserved_except_listed_current_metadata": true,
+        "body_byte_identical": false,
+        "reversible_edits": [
+          {
+            "before": "original_lambda_LSMR_projection_and_seventeen_trials_unchanged=True,",
+            "after": "original_LSMR_projection_and_seventeen_trials_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+          }
+        ]
+      },
+      {
+        "function": "main",
+        "original_sha256": "35bab63b35c936e5ff186340e9c7bda8958e678bdfee59d8c1b2faf68be9161f",
+        "adapted_sha256": "a79dcf79f3256ab8f6514441d92237b8797032c154a8591e67196dabbf9b3c7f",
+        "complete_original_body_preserved_except_listed_current_metadata": true,
+        "body_byte_identical": false,
+        "reversible_edits": [
+          {
+            "before": "original_lambda_and_row_and_chart_weights_unchanged=True,",
+            "after": "original_row_and_chart_weights_unchanged=True,\n        damping_changed_explicitly=True,\n        single_damping_experiment=SINGLE_DAMPING_CONTRACT,"
+          }
+        ]
+      }
+    ],
+    "original_engine_main_sha256": "42e7387dcc9e7ca04a94e444542f093e27f898bccd8b67e8125dd7364dc83fb9",
+    "adapted_engine_main_sha256": "1cfd9d055e2517317600a27e231c374ec0ae2a44f9207efda8250d19c72cd57a",
+    "engine_edits": [
+      {
+        "before": "parser.add_argument(\"--damping\", type=float, default=270.)",
+        "after": "parser.add_argument(\"--damping\", type=float, default=27.)"
+      },
+      {
+        "before": "args.damping != 270.",
+        "after": "args.damping != 27."
+      },
+      {
+        "before": "Use the declared one-model lambda270/full-angle experiment and original trial bounds",
+        "after": "Use the declared one-model lambda27/full-angle experiment and original trial bounds"
+      },
+      {
+        "before": "Same complete ||A z+b||^2+lambda^2||z||^2, lambda270",
+        "after": "Same complete ||A z+b||^2+lambda^2||z||^2, explicit lambda27; prior lambda270 experiment"
+      }
+    ],
+    "original_function_source_recovered_exactly_by_declared_inverse": true,
+    "old_twenty_one_module_globals_or_source_file_mutated": false,
+    "temporary_engine_main_assignment_restored_in_finally": true,
+    "original_main_all_other_statements_byte_identical": true,
+    "no_complete_matrix_or_direction_computed_by_source_adapter": true
+  },
+  "private_main_is_called_before_any_entry_output_write": true,
+  "entry_main_does_not_create_output_directory": true,
+  "original_engine_main_restored_in_finally": true,
+  "same_actual66_parent_as_request68": true,
+  "single_explicit_damping": 27,
+  "original_twenty_one_domain_source_not_changed": true,
+  "own_schema_resume_supported": false,
+  "new_scientific_acceptance_gate": false
+}

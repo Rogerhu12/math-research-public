@@ -1,11 +1,11 @@
 {
-  "request": 68,
-  "requested_at": "2026-11-14T23:27:13.695710Z",
+  "request": 70,
+  "requested_at": "2026-11-14T23:47:06.607275Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue the exact actual66 saved warm/status pair with one complete twenty-one-query model. Add only the nearest failed original left-RMS466 on its full 2048-angle grid. Retain all twenty prior typed grids, original complete H, lambda270, 512/200 and every original trial, domain and FD condition. Continuous local nodes466..486+p7101 retain explicit zero B node484 and all original H couplings. Actual66 farther alpha1/4 midpoint484 was not the nearest rejection and is not added.",
+  "purpose": "One explicit lambda27 experiment compared with request68 lambda270 on their identical actual66 parent pair and complete twenty-one typed angular-query model. The common left-RMS466 is present in both; no query or support change relative to request68. Rebuild C, complete QR, full affine local root and full outside recovery for lambda27. Preserve all original 512/200 budgets, seventeen nonlinear trials, complete domain/RMS/merit and new warm FD. This is a finite-budget comparison, not a damping scan or QP optimality claim.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -45,7 +45,11 @@
     "geometry_20261114_twenty_one_query_domain_operator.py": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
     "geometry_20261114_twenty_one_query_condensed_warm.py": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
     "geometry_20261114_twenty_one_query_condensed_response.py": "d1da3a179bc05d346406961b81fc233e6edd098810bd6834537bc50d33901301",
-    "geometry_20261114_twenty_one_query_collocation_observer_warm.py": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de"
+    "geometry_20261114_twenty_one_query_collocation_observer_warm.py": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de",
+    "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c",
+    "geometry_20261114_twenty_one_query_lambda27_condensed_response.py": "270797569ecff1e3b895d8bb5482c6c9f3c2a4e11d29ebc980c3cfd8bcd88bb0",
+    "geometry_20261114_twenty_one_query_lambda27_collocation_observer_warm.py": "12437f6887b7fb6a7d5ea91214b95227056238054cd73e6db8c123f2aa49e881",
+    "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152"
   },
   "actual_parent_run": 43651436427,
   "actual_parent_warm_sha256": "80b4590f476cf782d63cbc1680a4c205713bf6a533e544472219b6fef85a3cf6",
@@ -57,7 +61,7 @@
     "recovery_reserve_seconds": 30,
     "local_working_rows": 512,
     "dual_sweeps": 200,
-    "lambda": 270,
+    "lambda": 27,
     "lsmr_iterations": 200,
     "projection_sweeps": 200,
     "original_trial_count": 17
@@ -69,11 +73,9 @@
   "native_tail_requested": false,
   "research_goal_completed": false,
   "original_midpoint482_retained": true,
-  "complete_B_support_expanded": true,
   "original_left_RMS482_retained": true,
-  "new_queries_added": true,
-  "source_entry": "geometry_20261114_twenty_one_query_collocation_observer_warm.py",
-  "mathematical_producer": "geometry_20261114_twenty_one_query_condensed_warm.py",
+  "source_entry": "geometry_20261114_twenty_one_query_lambda27_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py",
   "observer_read_only": true,
   "extra_RHS_Jacobian_or_trial_calls": 0,
   "original_midpoint481_retained": true,
@@ -172,8 +174,8 @@
     485
   ],
   "actual_parent_warm_bytes": 4817773,
-  "optimizer_schema": "exact-constraint-twenty-one-query-condensed-complete-H-warm-v1",
-  "current_entry_supports_own_schema_resume": true,
+  "optimizer_schema": "exact-constraint-twenty-one-query-lambda27-condensed-complete-H-warm-v1",
+  "current_entry_supports_own_schema_resume": false,
   "added_query": {
     "kind": "left-RMS",
     "interval": 466,
@@ -264,5 +266,19 @@
     "full_original_RMS_scan_executed": false,
     "all_previous_twenty_modeled_grids_valid": true,
     "not_added_as_a_new_query": true
-  }
+  },
+  "same_parent_comparison_request": 68,
+  "same_parent_comparison_damping": 270,
+  "explicit_current_damping": 27,
+  "relative_to_request68_new_queries_added": false,
+  "relative_to_request68_B_support_changed": false,
+  "actual67_updated_warm_not_used_as_parent": true,
+  "scientific_A_b_g_B_W_S_expected_unchanged_and_to_be_verified_from_actual_output": true,
+  "B_model_provenance_SHA_equality_not_a_scientific_gate": true,
+  "C_complete_QR_local_root_rebuilt_for_current_damping": true,
+  "original_full_g_retained": true,
+  "damping_scan": false,
+  "full_QP_optimality_claimed": false,
+  "new_queries_added_relative_to_actual66_parent": true,
+  "complete_B_support_expanded_relative_to_actual66_parent": true
 }

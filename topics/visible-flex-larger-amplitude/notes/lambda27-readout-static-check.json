@@ -1,0 +1,78 @@
+{
+  "scope": "Source-only literal and AST comparison; no import or scientific execution",
+  "ready_for_dispatch": true,
+  "new_producer": {
+    "file": "geometry_20261114_twenty_one_query_lambda27_condensed_warm.py",
+    "bytes": 15297,
+    "sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c"
+  },
+  "files": [
+    {
+      "original_file": "geometry_20261114_twenty_one_query_condensed_response.py",
+      "original_sha256": "d1da3a179bc05d346406961b81fc233e6edd098810bd6834537bc50d33901301",
+      "new_file": "geometry_20261114_twenty_one_query_lambda27_condensed_response.py",
+      "bytes": 2636,
+      "sha256": "270797569ecff1e3b895d8bb5482c6c9f3c2a4e11d29ebc980c3cfd8bcd88bb0",
+      "all_original_text_recovered_exactly": true,
+      "all_original_AST_recovered_exactly": true,
+      "permitted_metadata_import_documentation_pin_changes": [
+        {
+          "new": "geometry_20261114_twenty_one_query_lambda27_condensed_warm",
+          "old": "geometry_20261114_twenty_one_query_condensed_warm",
+          "count": 1
+        },
+        {
+          "new": "twenty-one-query lambda27 warm",
+          "old": "twenty-one-query condensed warm",
+          "count": 1
+        },
+        {
+          "new": "twenty_one_query_lambda27_condensed_QP_response_entry",
+          "old": "twenty_one_query_condensed_QP_response_entry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "original_file": "geometry_20261114_twenty_one_query_collocation_observer_warm.py",
+      "original_sha256": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de",
+      "new_file": "geometry_20261114_twenty_one_query_lambda27_collocation_observer_warm.py",
+      "bytes": 16764,
+      "sha256": "12437f6887b7fb6a7d5ea91214b95227056238054cd73e6db8c123f2aa49e881",
+      "all_original_text_recovered_exactly": true,
+      "all_original_AST_recovered_exactly": true,
+      "permitted_metadata_import_documentation_pin_changes": [
+        {
+          "new": "geometry_20261114_twenty_one_query_lambda27_condensed_warm",
+          "old": "geometry_20261114_twenty_one_query_condensed_warm",
+          "count": 1
+        },
+        {
+          "new": "twenty-one-query lambda27 warm",
+          "old": "twenty-one-query warm",
+          "count": 1
+        },
+        {
+          "new": "twenty-one-query lambda27 schema",
+          "old": "twenty-one-query schema",
+          "count": 1
+        },
+        {
+          "new": "original_twenty_one_query_lambda27_entry_source_sha256",
+          "old": "original_twenty_one_query_entry_source_sha256",
+          "count": 1
+        },
+        {
+          "new": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c",
+          "old": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "interface": {
+    "file": "2026-11-14-twenty-one-query-lambda27-readout-interface.md",
+    "bytes": 6005,
+    "sha256": "8b13cc3a22bfeb4b1b0c9640dfaea59189fff91d3de18dbfb5fe3686fe78bcd6"
+  }
+}
