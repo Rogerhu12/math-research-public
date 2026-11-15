@@ -83,6 +83,9 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，已绑定实际R806 w0=e2，run43715253991/source74f5296a运行，core830ae652/wrappere838f3ab；不预填导子矩阵或极理想。
 
+**R814（完整零理想与准确降重数已证明，实际矩阵仍待）**：[证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。在原正规基上C=im[Γ,Mg]，须在基环完成后的整个DVR乘积中同时积分证明，不能先假定列像为R理想；C恰约化20cusps。完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)=R∩NC^-1逐点max(m−1,0)，sqrtI=(I:_R P)。δσ=tδτ，Γσ有−t²Mgσdiag eps项；两图Laurent互含/global degree照原接口。六原E的cusp重数1，首层后可省C商；三重数提取/原G及Norm⁹全部常数不变。仅证明接口，不预填矩阵、理想或η；R815正在准备Mg/Mh/Γ实际消费者，ambient场迹全表非必要。
+
+
 ### 全p sigma：同一个真正可见标签的三个单位
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。

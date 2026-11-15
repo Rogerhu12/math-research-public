@@ -423,3 +423,5 @@
 - **R806原primitive乘法已准确完整认证**：[实际结果](results/R806-certified-original-primitive-multiplication.md)。run43707290840/source75b1d56c，实际candidate0/w0=e2/n1，cyclic p1000000007/z0=0/det489861234；34×8列全820/weighted support，前18组184与后16组432 Dixon位，4725.462438秒。10603manifest/10605ZIP/2580原输入与冻结verify经公开IO run43714843253全核。正规整基与原尺度不变，不把幂环当整闭；R813实际两S3请求接续，R811仍待真A/B。结果SHA d4d6dc9391ea7a5f663fe53a5ae55095a43934cfe31c3a153abfaaa72b139fcc。
 
 - **原惰性Gaussian分支的精确剩余源（已证明接口）**：[harmonic7路线记录](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)。p11mod12的原频率是a²b(a⁴+b⁴)/(a²+b²)；五阶多项式与H7/(32(a²+b²))的准确分解、五个Qpoly条目及P0消失已逐式核。剩余是原level6 harmonic theta的一次q原函数，不是通常权8七重Eichler积分；余项不能擅称水平。原指定CM FG条目的独立代数评价/单位性仍开，不从输入theta非零外推同标签结论。SHA fc343d27f4da8c2a1bd77d2bd3b9227701426fca62402d57333bd72e9ae14b99。
+
+- **R814（已证明）**：[原导子约化cusp零理想与准确降重数](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。C=im[Γ,Mg]的整体完成乘积/分歧积分证明；N(I)=im[H,ΓH+MgH′]准确给完整理想，整理想商P=(N:_R C)降每个正重数一，sqrtI=(I:_R P)。本题c≤1与m=0分支显式保留，第二图改δσ=tδτ并含−t²Mgσdiag eps。六原E首层后无cusp，后层可省C商；保持原三重数/Norm⁹/主函数常数。无需ambient场迹全表，仍待真实Γ/极理想输出。SHA 6ecbcab0910b6a495d0bab705c69420600aad52b0aba63cc41766d6a2a619b84。

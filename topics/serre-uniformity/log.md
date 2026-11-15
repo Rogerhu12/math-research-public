@@ -65,3 +65,8 @@
 - 登记原p11mod12的准确harmonic7源接口：root对照R812五端项/EO投影和低jets，核完整多项式分解及五Qpoly条目，均在P0消失。原harmonic theta的一次q原函数仍须指定CM FG比较，未声称单位或水平，note fc343d27。
 - R811首scope core849bca27/wrapper2a1d1c28及workflow/pending请求已全文审并保存：8好点插值、9固定准确点/全firstcol、CRT原子历史、原14字段与第二图t^5。真实R806 producer已绑定；唯有R809真A/B可激活，尚无乘法/极理想新数值。
 - R806实际结果已推74f5296a，R813 run43715253991已到数学步；R787/R809继续。H完整归档压缩；CAS遇并发后立即实际pull/rebase，2026-11-15T12:48:20.043066+00:00读4417e649两README不变再重推，主目标OPEN。
+
+### 2026-11-15 20:53（Asia/Taipei）｜serre-public-astra-20261115
+- R814完整证明登记：root全文核零理想列像、分歧完成化、完整I导数列式、整理想商/m0保护/c≤1、两图δσ修正及原三重数。补明整个基环完成乘积同时积分，排除仅各投影检查的循环；proof 6ecbcab0。
+- 真正消费者以原Γ/Mg恢复约化cusp并逐层剥重数，可替代有限商trace-radical；不生成无需求的ambient场迹全表，不更改原G/Norm⁹/刚性化标量。实际矩阵和理想仍待，R815开始同源有限域Krylov/CRT工程。
+- 惰性sigma原函数note及R811 pending工程已推c26703d8；R813/R809/R787继续，H全文归档压缩；2026-11-15T12:53:35.611935+00:00实际pull/read e76a5e92两README不变，主目标OPEN。
