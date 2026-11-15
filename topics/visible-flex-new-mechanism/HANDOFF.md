@@ -63,6 +63,6 @@ R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。R151 actual43657785
 
 R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)/16由复极化忠实，已有响应核31/已知完整核34无需重验。一般V另含S(φ⁴−f⁴)，pure定S、balanced定B。R160 actual43660884663/sourceb41c6f13已付J6[-4]=K6[-4]：K6=−C0/64−C88/64−C41/128−C73/32−5C81/128+C193/256；307项原差零，0.1905s/RSS57.992。下一仅Ξ(J6−K6)一条fresh balanced差，零才认完整成员/c0零，非零NF仍未决。
 
-几何SOC **43660745541/source3fd3bbe8**运行中，源3bc2df4e/cd01144d；15输入、同g/b0/163、12总LP/40粗细值/120s。真两网残差L1修正，半步幅/半预测改善，遗漏先补池回合格点。J6 pure已成功结束，源48afb006；literature写R161唯一balanced消费源，不重pure/旧31/40。root独占Git。
+几何SOC **43660745541/source3fd3bbe8**运行中，源3bc2df4e/cd01144d；15输入、同g/b0/163、12总LP/40粗细值/120s。真两网残差L1修正，半步幅/半预测改善，遗漏先补池回合格点。J6 pure已结束；R161唯一balanced消费源31517B/5994a083已全文读，8新人工过，本提交派第二lane J6_balanced_original_difference。只一新原差/7已发mixed根，不重pure/旧31/40。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

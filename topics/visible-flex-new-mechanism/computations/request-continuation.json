@@ -1,36 +1,29 @@
 {
-  "request": "one-complete-J6-pure-target-with-nine-archived-response-representatives",
-  "created_at": "2026-11-15 00:58:36 UTC",
+  "request": "one-balanced-original-J6-minus-proved-K6-difference",
+  "created_at": "2026-11-15 01:05:34 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "general_pure_J6_membership"
+    "J6_balanced_original_difference"
   ],
-  "goal": "For the single full R136 coefficient J6=[h^-2] Abar_kk, consume nine archived R151 original roots and stored sound representatives, solve over Q, and prove only the fresh original pure difference. No old normalization, dependency rerun, profile evaluation, mixed root or forcing computation.",
+  "goal": "Consume the successful R160 exact-Q pure identity and form only one balanced (2,2) original difference from J6 and six archived mixed response roots. Sound zero plus R159 proves the full canonical identity; a nonzero sound remainder is only undecided. No pure rerun, old response or kernel generation, profile evaluations or Schur search.",
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/literature_general_pure_D0_membership.py": "c296f72becff4366297e3b9f00db97425b1aa5b15c10ba7625932966ae7c8f1f",
     "topics/visible-flex-new-mechanism/scripts/literature_D0_pivot_residual_probe.py": "e6a4c15bfe95c587c4cde0cae26b33cf0bf4f54f0ea7b9cfb5c83026c98afbcd",
     "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
     "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_membership.py": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc",
-    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J6_membership.py": "48afb00617c5c5251bde7ab2f7782740ff43bf4318cfd78193137c3343c0f745"
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J6_membership.py": "48afb00617c5c5251bde7ab2f7782740ff43bf4318cfd78193137c3343c0f745",
+    "topics/visible-flex-new-mechanism/scripts/literature_J6_balanced_original_difference.py": "5994a0837aa7e9a4657de09b085b93b6b23ca0ba8fbe809b2914dec2264e1022"
   },
   "jobs": {
-    "general_pure_J6_membership": {
+    "J6_balanced_original_difference": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/general-pure-J6-membership-development.json"
+        "@OUT@/J6-balanced-development.json"
       ],
       "research": [
-        "--family-directory",
-        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-acceleration_layer_mixed",
-        "--basis-directory",
-        "topics/visible-flex-new-mechanism/notes/actions-43657785023-1-general_pure_J_membership",
-        "--max-seconds",
-        "180",
-        "--memory-mib",
-        "1024",
         "--output",
-        "@OUT@/general-pure-J6-membership.json"
+        "@OUT@/J6-balanced-original-difference.json"
       ]
     }
   },
@@ -48,5 +41,6 @@
   "sync_private_rules": false,
   "research_only_in_public_Actions": true,
   "task_complete": false,
-  "preceding_general_pure_D0_run_completed": "43659795254"
+  "preceding_general_pure_D0_run_completed": "43659795254",
+  "preceding_general_pure_J6_run_completed": "43660884663"
 }
