@@ -1,0 +1,68 @@
+{
+  "schema": "completed95-live-root-source-byte-readback-v1",
+  "checks": [
+    "delivery 2026-11-15-completed95-noJ-primal-live-client-and-full-DN-interface.md",
+    "delivery complete-source-contract-check.json",
+    "delivery exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py",
+    "delivery exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py.diff",
+    "delivery exact_20261115_completed95_noj_primal_live_current576_damped_system.py",
+    "delivery exact_20261115_completed95_noj_primal_live_current576_damped_system.py.diff",
+    "delivery frozen-files.json",
+    "delivery geometry_20261115_completed95_noj_primal_live_full_dn.py",
+    "delivery geometry_20261115_completed95_noj_primal_live_full_dn.py.diff",
+    "delivery geometry_20261115_completed95_noj_primal_live_tail_client.py",
+    "delivery geometry_20261115_completed95_noj_primal_live_tail_client.py.diff",
+    "delivery geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs",
+    "delivery geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs.diff",
+    "delivery pure-source-roundtrip.json",
+    "delivery source-static-check.json",
+    "complete inverse to actual Git client",
+    "complete published diff client",
+    "complete inverse to actual Git hook",
+    "complete published diff hook",
+    "complete inverse to actual Git system",
+    "complete published diff system",
+    "complete inverse to actual Git qr",
+    "complete published diff qr",
+    "complete inverse to actual Git driver",
+    "complete published diff driver",
+    "actual95 dispatch source geometry_20261115_native_word_first_current576_solve.py",
+    "actual95 dispatch source geometry_20261115_native_word_first_current576_solve_hook.mjs",
+    "actual95 dispatch source exact_20261115_native_word_first_current576_system.py",
+    "actual95 dispatch source exact_20261115_native_word_first_current576_chain_qr.py",
+    "actual95 dispatch source exact_20261115_native_word_first_candidate.py",
+    "actual95 dispatch source exact_20261115_native_word_first_parent.py",
+    "241 inspected source-only checks replay exact"
+  ],
+  "all_checks_passed": true,
+  "count": 32,
+  "source_files": {
+    "geometry_20261115_completed95_noj_primal_live_tail_client.py": {
+      "bytes": 35376,
+      "sha256": "867bbd75e6f5a9859bc3bfb48cff40f12916b4a470a97b051c99cacbd38c4038"
+    },
+    "geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs": {
+      "bytes": 51410,
+      "sha256": "583514abde5ce47b56be3b628fec66907f86ccc34c51266fb1e9011370c7278c"
+    },
+    "exact_20261115_completed95_noj_primal_live_current576_damped_system.py": {
+      "bytes": 33578,
+      "sha256": "e621f9aefc29c030dbcbd4e70d2ce19198d58cc740c9091145c11c3f595a114c"
+    },
+    "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py": {
+      "bytes": 22434,
+      "sha256": "94e5691a59936a7f3fdbc60fec69bcf0b6791c0688e717fd3424629a390ae31e"
+    },
+    "geometry_20261115_completed95_noj_primal_live_full_dn.py": {
+      "bytes": 32654,
+      "sha256": "814e2ca1d8da16fb5f47c45dc6600b16fb34988ad8a1e6132da3ad149e969a2c"
+    }
+  },
+  "complete_interface_sha256": "3c952800af1d27bc4ba2ca1fc9af7fdda58d41a39a82835b01e2299c3a6eecf7",
+  "original_five_Git_sources_restored_exactly": true,
+  "actual95_six_dispatch_source_bytes_verified": true,
+  "source_only_241_checks_replayed_identically": true,
+  "original_math_and_worker_ownership_unchanged": true,
+  "actual95_success_not_claimed": true,
+  "no_scientific_execution": true
+}

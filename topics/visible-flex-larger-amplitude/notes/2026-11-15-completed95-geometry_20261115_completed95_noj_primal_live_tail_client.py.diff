@@ -1,0 +1,318 @@
+--- geometry_20261114_noj_primal_live_tail_client.py
++++ geometry_20261115_completed95_noj_primal_live_tail_client.py
+@@ -1,9 +1,9 @@
+ #!/usr/bin/env python3
+ """Persistent noJ-primal native TailClient with per-request current576 R273 corrections.
+ 
+-Only public Actions may execute this module.  A completed actual73 response
++Only public Actions may execute this module.  A completed actual95 response
+ is an explicitly pinned source of a literal JSON-decoded initial state, not
+ a response cache.  One fresh bootstrap request establishes the new worker's
+ own last/tangent predictor; all later caller requests use the original
+ protocol, original equal-H cache, original ten trials and final audit.
+ """
+@@ -27,27 +27,31 @@
+     IO_KEYS, numerical_configuration, numerical_sources, ready_semantics, same,
+ )
+ 
+ 
+ HERE = Path(__file__).resolve().parent
+-HOOK_NAME = "geometry_20261114_noj_primal_live_tail_client_hook.mjs"
+-QR_NAME = "exact_20261114_noj_primal_live_current576_damped_chain_qr.py"
+-ADAPTER_NAME = "exact_20261114_noj_primal_live_current576_damped_system.py"
+-QR_SHA = "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909"
+-ADAPTER_SHA = "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3"
+-ANCHOR_PRODUCER_SHA = "938fbec22f0733fff6ceb22e6e9b7a9e12942c12d1eae31c608d8f517702df8c"
+-ANCHOR_HOOK_SHA = "099798e9c57f09b82f7532ea184d124446aeeb2cdbafe452390cb794b8db405d"
++HOOK_NAME = "geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs"
++QR_NAME = "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py"
++ADAPTER_NAME = "exact_20261115_completed95_noj_primal_live_current576_damped_system.py"
++QR_SHA = "94e5691a59936a7f3fdbc60fec69bcf0b6791c0688e717fd3424629a390ae31e"
++ADAPTER_SHA = "e621f9aefc29c030dbcbd4e70d2ce19198d58cc740c9091145c11c3f595a114c"
++ANCHOR_PRODUCER_SHA = "69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0"
++ANCHOR_HOOK_SHA = "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3"
++# These are source identities, never fabricated future result identities.
++ANCHOR_RESULT_SCHEMA = 'native-word-first-current576-damped-solve-result-v1'
++ANCHOR_SPEC_SCHEMA = 'native-word-first-current576-damped-solve-spec-v1'
++ANCHOR_SOURCES = {'geometry_20261115_native_word_first_current576_solve.py': '69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0', 'geometry_20261115_native_word_first_current576_solve_hook.mjs': '932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3', 'exact_20261115_native_word_first_current576_system.py': '2c6c012d9f2306f2ac13d240510eb8086b74d2b60ff318aa9e359dd72c05a3a8', 'exact_20261115_native_word_first_current576_chain_qr.py': '4c887fbb4a16e0d2219969043e708c2d49c446f0ac75ba1dc3e6e17f7d2ee314', 'exact_20261115_native_word_first_candidate.py': 'd9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226', 'exact_20261115_native_word_first_parent.py': '8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8'}
+ PRIMAL_MODULE = 'geometry_20261114_noj_matched_variational_engine.mjs'
+ PRIMAL_MODULE_SHA = 'f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9'
+ ORIGINAL_DEPENDENCIES = {
+     "product_jacobian": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+     "local_cusp_grid": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+ }
+ FACTOR_SHA = "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33"
+ KERNEL_SHA = "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f"
+ MODEL_SCOPE = "R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates"
+-VARIABLE = "VISIBLE_FLEX_NOJ_PRIMAL_LIVE_CURRENT576_SPEC"
++VARIABLE = "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_LIVE_CURRENT576_SPEC"
+ RAW_NODE = [0, 72, 144, 216, 288, 360, 432, 504, 576]
+ CORE_SHA = "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3"
+ RUNTIME_SHA = "f29dc9c7f992fd773f96ca57ec1822f3e28365f653473ee424743801f1e6a96f"
+ EVALUATE_SHA = "9725a6c9af466913eb2ef25d7ba094b9d04937d7921295a7cc79b99ba51ad0e9"
+ TRIAL_SHA = "603924d1d9c038596d41850b28bb80a9e70d69ccc882af518bfba4bb83444f99"
+@@ -151,63 +155,108 @@
+     equal((path.stat().st_size, sha(path)), (item["bytes"], item["sha256"]), name)
+     return path
+ 
+ 
+ def load_completed_anchor(result_path, result_sha, output):
+-    """Read a true completed73 response; derive only its literal JSON seed."""
++    """Read a true completed95 response; derive only its literal JSON seed."""
+     result_path = Path(result_path).resolve()
+-    equal(sha(result_path), valid_sha(result_sha, "completed73 result"), "completed73 result")
++    equal(sha(result_path), valid_sha(result_sha, "completed95 result"), "completed95 result")
+     result, directory = read(result_path), result_path.parent
+-    for key, value in dict(schema="native-noj-primal-current576-damped-solve-result-v1", success=True,
++    for key, value in dict(schema=ANCHOR_RESULT_SCHEMA, success=True,
+             native_accepted=True, source_sha256=ANCHOR_PRODUCER_SHA, hook_sha256=ANCHOR_HOOK_SHA,
+             original_complete_client_response_returned=True, actual_worker_exit_code=0,
+             original_native_requests=1, actual_original_converged_flag=True,
+             requested_full_DN_Jacobian=True, requested_full_finite_audit=True,
+             new_primal_variational_source_sha256=PRIMAL_MODULE_SHA,
+             independently_identified_withJ_flow_replaced=True,
+             only_nonlinear_correction_call_replaced=False,
+             only_core_nonlinear_correction_call_replaced=True).items():
+-        equal(result[key], value, "completed73 " + key)
++        equal(result[key], value, "completed95 " + key)
+     if result.get("actual_error") or result.get("actual_original_failure_message"):
+-        raise ValueError("The original completed response must not be a failed73 checkpoint")
++        raise ValueError("The original completed response must not be a failed95 checkpoint")
+     inventory = {row["file"]: row for row in result["small_output_files"]}
+     if len(inventory) != len(result["small_output_files"]):
+-        raise ValueError("Unique completed73 inventory required")
++        raise ValueError("Unique completed95 inventory required")
+     needed = ("current-solve-spec.json.gz", "current-input-config.json", "native_0001.json.gz",
+               "native_intent.json", "native_ready.json.gz", "native_capacity.json",
+-              "original-live-identity-before-failed61-seed.json", "primal-flow-installation.json")
++              "original-live-identity-before-failed73-seed.json", "primal-flow-installation.json")
+     paths = {name: verify_file(directory, inventory[name]) for name in needed}
+     equal(described(paths["native_0001.json.gz"]), result["original_response"], "completed original response receipt")
+     equal(described(paths["current-solve-spec.json.gz"]),
+-          {k: result["specification"][k] for k in ("file", "bytes", "sha256")}, "actual73 specification")
+-    equal(sha(paths["current-solve-spec.json.gz"]), result["spec_sha256"], "actual73 spec SHA")
++          {k: result["specification"][k] for k in ("file", "bytes", "sha256")}, "actual95 specification")
++    equal(sha(paths["current-solve-spec.json.gz"]), result["spec_sha256"], "actual95 spec SHA")
+     specification = read(paths["current-solve-spec.json.gz"])
++    # Every check below is an original-file/source identity check. It does
++    # not import the failed73 seed or repeat95's first-word algorithm.
++    for key, expected in dict(schema=ANCHOR_SPEC_SCHEMA,
++            source_sha256=ANCHOR_PRODUCER_SHA, hook_sha256=ANCHOR_HOOK_SHA,
++            only_nonlinear_correction_call_replaced=False,
++            only_core_nonlinear_correction_call_replaced=True,
++            independently_identified_withJ_flow_replaced=True,
++            original_ten_trial_body_retained=True,
++            original_final_endpoint_J_and_fresh_audit_retained=True,
++            no_initialCheckpoint_remesh=True, no_height_threshold=True,
++            no_zero_solve=True).items():
++        equal(specification[key], expected, "completed95 specification " + key)
++    for field, name in (
++            ("word_candidate_source_sha256", "exact_20261115_native_word_first_candidate.py"),
++            ("current_direction_source_sha256", "exact_20261115_native_word_first_current576_chain_qr.py"),
++            ("current_system_source_sha256", "exact_20261115_native_word_first_current576_system.py")):
++        equal(result[field], ANCHOR_SOURCES[name], "completed95 producer " + field)
++    equal(result["factor_engine_source_sha256"], FACTOR_SHA, "completed95 original R273 factor")
++    for field, expected in dict(
++            source_file="exact_20261115_native_word_first_current576_chain_qr.py",
++            source_sha256=ANCHOR_SOURCES["exact_20261115_native_word_first_current576_chain_qr.py"],
++            system_source_file="exact_20261115_native_word_first_current576_system.py",
++            system_source_sha256=ANCHOR_SOURCES["exact_20261115_native_word_first_current576_system.py"],
++            factor_engine_source_sha256=FACTOR_SHA, kernel_source_sha256=KERNEL_SHA,
++            model_scope=MODEL_SCOPE).items():
++        equal(specification["bridge"][field], expected, "completed95 original bridge " + field)
++    for field, expected in dict(
++            source_file="exact_20261115_native_word_first_candidate.py",
++            source_sha256=ANCHOR_SOURCES["exact_20261115_native_word_first_candidate.py"],
++            parent_source_sha256=ANCHOR_SOURCES["exact_20261115_native_word_first_parent.py"],
++            only_original_iteration=0,
++            original_total32_and_ten_trial_body_not_extended=True,
++            no_extra_step_accepted_before_original_loop=True,
++            same_fresh_snapshot_R273_fallback_if_not_model_selected=True).items():
++        equal(specification["word_candidate"][field], expected, "completed95 first-word provenance " + field)
++    for name in ("exact_20261115_native_word_first_candidate.py",
++                 "exact_20261115_native_word_first_parent.py",
++                 "exact_20261115_native_word_first_current576_system.py",
++                 "exact_20261115_native_word_first_current576_chain_qr.py"):
++        equal(specification["frozen_sources"][name], ANCHOR_SOURCES[name], "completed95 source closure " + name)
++    # Its prior failed73 state remains history only. The live seed below is
++    # always read from the completed95 response.checkpoint.states.
++    for key in ("parent_failed73", "parent_binding"):
++        equal(result[key], specification[key], "completed95 immutable parent provenance " + key)
++    equal(result["parent_failed73"]["native_accepted"], False, "failed73 historical scope")
+     installation = read(paths["primal-flow-installation.json"])
+     for key, expected in dict(schema="noj-primal-current576-live-flow-installation-v1",
+             source_sha256=ANCHOR_PRODUCER_SHA, hook_sha256=ANCHOR_HOOK_SHA,
+             spec_sha256=result["spec_sha256"], stage_count=576,
+             original_noJ_functions_not_wrapped=True, Function_toString_not_modified=True,
+             new_flow_does_not_reuse_saved_J=True,
+             installation_does_not_execute_root_RHS_ODE=True).items():
+-        equal(installation[key], expected, "completed73 original flow installation " + key)
++        equal(installation[key], expected, "completed95 original flow installation " + key)
+     for key, expected in dict(schema="original-noJ-matched-primal-captured-variational-v1",
+             source_file=PRIMAL_MODULE, source_sha256=PRIMAL_MODULE_SHA,
+             original_dependencies=ORIGINAL_DEPENDENCIES,
+             only_flowStateWithJacobian_replaced=True, original_root_rhs_rk4_unchanged=True,
+             complete_state_dimension=226, shape_dimension=224, captured_root_feed_only=True).items():
+-        equal(installation["implementation"][key], expected, "completed73 flow implementation " + key)
++        equal(installation["implementation"][key], expected, "completed95 flow implementation " + key)
+     equal(specification["primal_flow_module"]["sha256"], PRIMAL_MODULE_SHA,
+-          "completed73 declared independent flow source")
++          "completed95 declared independent flow source")
+     equal(specification["original_primal_dependencies"], ORIGINAL_DEPENDENCIES,
+-          "completed73 original local variational dependencies")
++          "completed95 original local variational dependencies")
+     payload = read(paths["native_0001.json.gz"])
+     response, request = payload["response"], payload["request"]
+     config = numerical_configuration(read(paths["current-input-config.json"]))
+-    equal(request, specification["fresh_request"], "full completed73 request")
+-    equal((request["jacobian"], request["audit"]), (True, True), "actual73 full requested J and audit")
+-    equal(numerical_configuration(payload["config"]), config, "completed73 actual response config")
+-    equal(numerical_configuration(specification["numerical_configuration"]), config, "completed73 spec config")
++    equal(request, specification["fresh_request"], "full completed95 request")
++    equal((request["jacobian"], request["audit"]), (True, True), "actual95 full requested J and audit")
++    equal(numerical_configuration(payload["config"]), config, "completed95 actual response config")
++    equal(numerical_configuration(specification["numerical_configuration"]), config, "completed95 spec config")
+     equal((int(config["modes"]), int(config["spacing"])), (112, 2), "complete original native capacity")
+     if config.get("initialCheckpoint"):
+         raise ValueError("Do not use the geometric-remapping initializer")
+     if response.get("failed") or response.get("converged") is not True:
+         raise ValueError("A complete actual converged native response is required")
+@@ -218,18 +267,24 @@
+         raise ValueError("The actual original full audit is missing")
+     jacobian = response["heightJetJacobian"]
+     if (not isinstance(jacobian, list) or len(jacobian) != (3 * 112 + 2) * 112
+             or any(type(v) not in (int, float) or not math.isfinite(v) for v in jacobian)):
+         raise ValueError("The actual original full endpoint Jacobian is missing or invalid")
++    equal(result["residual"], response["residual"], "completed95 actual residual receipt")
++    equal(result["audit"], response["audit"], "completed95 actual audit receipt")
++    equal(result["original_tolerance"], config["solveTolerance"], "completed95 original tolerance")
++    equal(result["original_max_iterations"], config["maxIterations"], "completed95 original iteration budget")
++    equal(specification["original_solve_tolerance"], config["solveTolerance"], "completed95 spec tolerance")
++    equal(specification["original_max_iterations"], config["maxIterations"], "completed95 spec iteration budget")
+     checkpoint = response["checkpoint"]
+     equal(checkpoint["rawNode"], RAW_NODE, "actual original physical-cell map")
+     equal(checkpoint["cutHeight"], request["height"], "completed checkpoint full H")
+     height_raw = raw_rows([request["height"]], 1, 112, "complete anchor H")
+     state_raw = raw_rows(checkpoint["states"], 577, 224, "literal decoded completed state")
+     ready = read(paths["native_ready.json.gz"])
+     intent = read(paths["native_intent.json"])
+-    live = read(paths["original-live-identity-before-failed61-seed.json"])
++    live = read(paths["original-live-identity-before-failed73-seed.json"])
+     equal(numerical_sources(payload["source_sha256"]), numerical_sources(intent["source_sha256"]), "completed original source map")
+     equal(numerical_sources(specification["original_source_sha256"]), numerical_sources(intent["source_sha256"]), "completed spec source map")
+     equal(numerical_configuration(checkpoint["parameters"]), live["parameters"], "completed checkpoint same original geometry")
+     equal(live["rawNode"], RAW_NODE, "unchanged original rawNode")
+     output = Path(output)
+@@ -239,22 +294,28 @@
+         stream.write(state_raw)
+     rows = []
+     for n, values in enumerate(checkpoint["states"]):
+         negatives = [j for j, value in enumerate(values) if float(value) == 0 and math.copysign(1., float(value)) < 0]
+         rows.append(dict(node=n, state=values, negative_zero_columns=negatives))
+-    literal = dict(schema="completed-native73-noj-primal-literal-JSON-seed-v1", rows=rows,
++    literal = dict(schema="completed-native95-word-first-noj-primal-literal-JSON-seed-v1", rows=rows,
+         source_response=described(paths["native_0001.json.gz"]), source_result=described(result_path),
+         source_pointer="response.checkpoint.states", rawNode=RAW_NODE,
+         state_float64le_sha256=hashlib.sha256(state_raw).hexdigest(),
+         literal_original_JSON_decoded_state=True, pre_JSON_negative_zero_preservation_claimed=False,
+         source_negative_zero_words_not_reconstructed=True, native_accepted=False,
+         scope="Only a literal initial guess; no imported response cache or live predictor.")
+     cp_file = output / "anchor-literal-checkpoint.json.gz"
+     cp_receipt = write(cp_file, literal, compressed=True)
+-    parent = dict(schema="completed-native73-noj-primal-literal-JSON-anchor-v1",
++    parent = dict(schema="completed-native95-word-first-noj-primal-literal-JSON-anchor-v1",
+         producer_result=described(result_path), original_response=described(paths["native_0001.json.gz"]),
+         producer_source_sha256=ANCHOR_PRODUCER_SHA, producer_hook_sha256=ANCHOR_HOOK_SHA,
++        completed_parent_result_schema=ANCHOR_RESULT_SCHEMA,
++        completed_parent_source_sha256=ANCHOR_SOURCES,
++        original_parent_evidence={name: described(path) for name, path in paths.items()},
++        parent_failed73_provenance=result["parent_failed73"],
++        parent_failed73_state_used_as_live_seed=False,
++        parent_first_word_algorithm_repeated_in_live_worker=False,
+         parent_primal_flow_installation=described(paths["primal-flow-installation.json"]),
+         primal_flow_source_sha256=PRIMAL_MODULE_SHA,
+         original_primal_dependencies=ORIGINAL_DEPENDENCIES,
+         native_accepted=True, full_J_returned=True, full_audit_returned=True,
+         source_state_encoding="original-response-JSON-decoded-binary64-v1",
+@@ -280,22 +341,22 @@
+         self._bootstrap_record = None
+         self._external_calls = []
+         self._live_error = None
+         self._stderr = None
+         self.proc = None
+-        anchor_path = os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT")
+-        anchor_sha = os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT_SHA256")
++        anchor_path = os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT")
++        anchor_sha = os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT_SHA256")
+         if not anchor_path or not anchor_sha:
+-            raise ValueError("Supply the actual completed73 result and its complete SHA256 explicitly")
+-        eta_text = os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_ETA", "1")
++            raise ValueError("Supply the actual completed95 result and its complete SHA256 explicitly")
++        eta_text = os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_ETA", "1")
+         eta = float(eta_text)
+-        workers = int(os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_EXACT_WORKERS", "2"))
+-        factor_bytes = int(os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_FACTOR_BYTES", "2147483648"))
++        workers = int(os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_EXACT_WORKERS", "2"))
++        factor_bytes = int(os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_FACTOR_BYTES", "2147483648"))
+         if not math.isfinite(eta) or eta <= 0 or workers < 1 or factor_bytes < 1:
+             raise ValueError("Explicit positive eta and resource choices are required")
+         prefix = Path(record_prefix).resolve()
+-        out_setting = os.environ.get("VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_OUTPUT")
++        out_setting = os.environ.get("VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_OUTPUT")
+         output = Path(out_setting).resolve() if out_setting else prefix.parent / (prefix.name + "-noj-primal-current576-bridge")
+         if output.is_relative_to(Path(anchor_path).resolve().parent):
+             raise ValueError("Keep new live output outside immutable anchor evidence")
+         output.mkdir(parents=True, exist_ok=True)
+         if any(output.iterdir()):
+@@ -310,11 +371,11 @@
+         config = numerical_configuration(read(config_path))
+         equal(config, prior["config"], "same full original g/config for the live worker")
+         if config.get("initialCheckpoint"):
+             raise ValueError("No geometric checkpoint remapping is introduced")
+         hook = HERE / HOOK_NAME
+-        spec = dict(schema="noj-primal-live-current576-tail-client-spec-v1", source_sha256=sha(__file__),
++        spec = dict(schema="completed95-noj-primal-live-current576-tail-client-spec-v1", source_sha256=sha(__file__),
+             hook_sha256=sha(hook), frozen_sources=frozen, output=str(output),
+             source_topic=str(Path(source_root).resolve().parent.parent),
+             primal_flow_module=dict(file=PRIMAL_MODULE, bytes=(HERE/PRIMAL_MODULE).stat().st_size,
+                                     sha256=PRIMAL_MODULE_SHA),
+             original_primal_dependencies=ORIGINAL_DEPENDENCIES,
+@@ -341,11 +402,11 @@
+             no_native_call_limit_added=True, no_cut_or_far_projection=True, task_completed=False)
+         spec_path = output / "live-client-spec.json.gz"
+         self._live_specification = write(spec_path, spec, compressed=True)
+         self._live_spec = spec
+         self._bootstrap_record = dict(attempted=False, completed=False, imported_cached_response=False)
+-        write(output / "live-client-intent.json", dict(schema="noj-primal-live-current576-tail-client-intent-v1",
++        write(output / "live-client-intent.json", dict(schema="completed95-noj-primal-live-current576-tail-client-intent-v1",
+             source_sha256=sha(__file__), hook_sha256=sha(hook), specification=self._live_specification,
+             parent_anchor=prior["parent_anchor"], full_original_client_constructor_retained=True,
+             first_bootstrap_must_be_a_real_original_native_request=True,
+             fixed_binary_bytes_per_correction=704387088,
+             total_storage_is_not_bounded_by_one_native_call=True, native_accepted=False, task_completed=False))
+@@ -383,11 +444,11 @@
+                 equal(capacity[key], prior["capacity"][key], "live original capacity " + key)
+             if len(commands) != 1 or self.calls != 0 or self.cache_key is not None:
+                 raise ValueError("Start a fresh original worker without an imported response cache")
+             self.original_sources = dict(self.sources)
+             self.sources.update({Path(__file__).name: sha(__file__), HOOK_NAME: sha(hook), **frozen})
+-            write(output / "verified-launch-intent.json", dict(schema="noj-primal-live-current576-verified-launch-v1",
++            write(output / "verified-launch-intent.json", dict(schema="completed95-noj-primal-live-current576-verified-launch-v1",
+                 spec_sha256=sha(spec_path), source_sha256=sha(__file__), hook_sha256=sha(hook),
+                 parent_anchor=prior["parent_anchor"], actual_command=commands[0],
+                 current_original_sources=self.original_sources, complete_live_source_closure=self.sources,
+                 current_capacity_sha256=sha(self.capacity_record), complete_current_ready_sha256=sha(self.record_prefix.with_name(self.record_prefix.name + "_ready.json.gz")),
+                 identity_verified_before_request=True, initial_native_solve_calls=0, initial_response_cache_empty=True))
+@@ -465,11 +526,11 @@
+         finally:
+             output = getattr(self, "_live_output", None)
+             if not getattr(self, "_live_closed", False) and output is not None and output.is_dir():
+                 self._live_closed = True
+                 try:
+-                    write(output / "live-client-summary.json", dict(schema="noj-primal-live-current576-tail-client-summary-v1",
++                    write(output / "live-client-summary.json", dict(schema="completed95-noj-primal-live-current576-tail-client-summary-v1",
+                         source_sha256=sha(__file__), hook_sha256=sha(HERE / HOOK_NAME),
+                         specification=getattr(self, "_live_specification", None),
+                         parent_anchor=getattr(self, "_parent_anchor", None),
+                         bootstrap=getattr(self, "_bootstrap_record", None),
+                         external_calls=getattr(self, "_external_calls", []), actual_error=self._live_error,

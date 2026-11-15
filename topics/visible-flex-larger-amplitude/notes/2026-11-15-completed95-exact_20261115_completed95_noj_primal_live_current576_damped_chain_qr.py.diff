@@ -1,0 +1,123 @@
+--- exact_20261114_noj_primal_live_current576_damped_chain_qr.py
++++ exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py
+@@ -6,11 +6,11 @@
+ The parent retains the original evaluate body, ten trials, convergence
+ and audit. Its identified with-J flow follows the original no-J primal
+ path; final sensitivities use that new variational implementation.  In particular no actual28 baseline, no actual57
+ direction, and no zero-cut assumption enter this consumer. Each positive
+ protocol call retains its actual height, target, sigma and current state;
+-the completed73 literal JSON seed is used only by the parent bootstrap.
++the completed95 literal JSON seed is used only by the parent bootstrap.
+ 
+ All scientific execution is confined to this public repository Actions.
+ The caller redirects this child process's stdout/stderr to per-iteration
+ files; they must never be forwarded into the native worker protocol.
+ """
+@@ -35,17 +35,17 @@
+ import numpy as np
+ import scipy
+ 
+ 
+ HERE=Path(__file__).resolve().parent
+-SYSTEM_NAME='exact_20261114_noj_primal_live_current576_damped_system.py'
+-SYSTEM_SHA='e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3'
++SYSTEM_NAME='exact_20261115_completed95_noj_primal_live_current576_damped_system.py'
++SYSTEM_SHA='e621f9aefc29c030dbcbd4e70d2ce19198d58cc740c9091145c11c3f595a114c'
+ QR_NAME='exact_20261114_native_damped_chain_qr.py'
+ QR_SHA='9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33'
+ KERNEL_NAME='exact_20261114_native_allrows_dyadic_residual.py'
+ KERNEL_SHA='0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f'
+-SCHEMA='complete-native-noj-primal-live-current576-damped-square-root-direction-v1'
++SCHEMA='complete-native-completed95-noj-primal-live-current576-damped-square-root-direction-v1'
+ MODEL_SCOPE='R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates'
+ _KERNEL=None
+ 
+ 
+ def require_actions():
+@@ -96,11 +96,11 @@
+     No eta rows are inserted in this diagnostic.  The returned maximum
+     concerns the exact arithmetic of the saved finite arrays, not an
+     automatically exact mathematical derivative or a native acceptance.
+     """
+     require_actions()
+-    B=system.B;E=kernel();C=S.NoJPrimalLiveCurrent576ExactContext(system,E)
++    B=system.B;E=kernel();C=S.Completed95NoJPrimalLiveCurrent576ExactContext(system,E)
+     M,K,D=system.M,system.K,system.depth
+     label='current_damped'
+     inputs={name:system.raw(name) for name in ('stage-residuals','cut-residual','end-residual',
+                                               'original-scales','original-far-graph')}
+     raw=B.float_bytes(delta);digest=hashlib.sha256(raw).hexdigest()
+@@ -181,11 +181,11 @@
+     witness=B.write(output.directory/'current576-worst-witness.json',dict(
+         source_sha256=producer_sha,kernel_sha256=KERNEL_SHA,**current_identity(system),
+         direction_float64le_sha256=digest,exact_original_sigma_maximum=maximum,
+         operands=C.worst_witness(state['worst'],raw,inputs),
+         saved_finite_arrays_only=True,exact_nonlinear_derivative_not_claimed=True))
+-    detail=dict(schema='noj-primal-live-current-native576-complete-exact-direction-readback-v1',
++    detail=dict(schema='completed95-noj-primal-live-current-native576-complete-exact-direction-readback-v1',
+         source_sha256=producer_sha,system_source_sha256=SYSTEM_SHA,kernel_sha256=KERNEL_SHA,
+         matrix_scope=S.MATRIX_SCOPE,**current_identity(system),
+         direction_label=label,direction_float64le_sha256=digest,direction_array=direction_descriptor,
+         exact_rows=state['rows'],completed_stages=stages,original_product_positions=state['products'],
+         exact_global_original_sigma_norm=maximum,exact_stored_base_sigma_norm=E.public_record(base_worst),
+@@ -207,11 +207,11 @@
+ 
+ def checkpoint(B,output,system,delta,eta,producer_sha):
+     rows=[dict(node=n,state=row.tolist(),
+         negative_zero_columns=np.flatnonzero((row==0)&np.signbit(row)).tolist()) for n,row in enumerate(delta)]
+     return B.write(output.directory/'native-direction-checkpoint.json.gz',dict(
+-        schema='complete-native-noj-primal-live-current576-damped-direction-v1',source_sha256=producer_sha,
++        schema='complete-native-completed95-noj-primal-live-current576-damped-direction-v1',source_sha256=producer_sha,
+         system_source_sha256=SYSTEM_SHA,factor_engine_source_sha256=QR_SHA,
+         input_binding=system.binding,**current_identity(system),M=system.M,K=system.K,depth=system.depth,
+         original_depth=system.depth,old_to_new=system.old_to_new,
+         eta_binary64=B.scalar(eta),model_scope=MODEL_SCOPE,
+         delta_float64le_sha256=hashlib.sha256(B.float_bytes(delta)).hexdigest(),rows=rows,
+@@ -230,19 +230,19 @@
+         'new_matrix_identity_sha256','input_binding','factor_report','factor_summary',
+         'factor_index','formed_stage_inventory','formed_model_diagnostic','native_delta',
+         'native_direction_checkpoint','original_exact_readback','array_manifest',
+         'actual_error','elapsed_seconds','maximum_RSS_kib')
+     result={key:report[key] for key in keys if key in report}
+-    result.update(schema='native-noj-primal-live-current576-damped-chain-small-summary-v1',full_result=full_result,
++    result.update(schema='native-completed95-noj-primal-live-current576-damped-chain-small-summary-v1',full_result=full_result,
+         native_accepted=False,task_completed=False,no_cached_baseline=True,
+         no_linear_norm_threshold_is_a_native_trial_gate=True,
+         L2_model_descent_does_not_imply_original_infinity_descent=True)
+     if len((json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode())>=95000:
+         result={key:report[key] for key in ('diagnostic_completed','linear_direction_computed',
+             'snapshot_result','native_call','nonlinear_iteration','snapshot_sequence','current_state_sha256',
+             'new_matrix_identity_sha256','actual_error','elapsed_seconds') if key in report}
+-        result.update(schema='native-noj-primal-live-current576-damped-chain-small-summary-v1',full_result=full_result,
++        result.update(schema='native-completed95-noj-primal-live-current576-damped-chain-small-summary-v1',full_result=full_result,
+             compact_transport_fallback=True,native_accepted=False,task_completed=False)
+     return result
+ 
+ 
+ def main():
+@@ -292,11 +292,11 @@
+         original_native_trial_convergence_finalJ_audit_remain_in_parent=True,
+         factor_budget_seconds=a.factor_budget_seconds,maximum_factor_bytes=a.max_factor_bytes,
+         exact_workers=a.exact_workers,NumPy=np.__version__,SciPy=scipy.__version__,
+         BLAS_threads={key:os.environ.get(key) for key in ('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS')})
+     try:
+-        system=S.NoJPrimalLiveCurrent576System(a.snapshot_directory,a.snapshot_result_sha256,B)
++        system=S.Completed95NoJPrimalLiveCurrent576System(a.snapshot_directory,a.snapshot_result_sha256,B)
+         report.update(current_identity(system))
+         report['input_binding']=B.write(out/'input-binding.json.gz',system.binding,compressed=True)
+         report['original_arrays']=system.export_inputs(output)
+         deadline=None if a.factor_budget_seconds is None else time.monotonic()+a.factor_budget_seconds
+         factor=Q.NativeDampedChainQR(system,eta,a.eta,output,deadline,a.max_factor_bytes)
+@@ -344,11 +344,11 @@
+         manifest_identity={key:report[key] for key in ('snapshot_result','native_call','nonlinear_iteration',
+             'snapshot_sequence','current_state_sha256','request_height_float64le_sha256',
+             'current_request_file','bootstrap_request','primal_flow_source_sha256',
+             'new_matrix_identity_sha256') if key in report}
+         report['array_manifest']=B.write(out/'output-array-manifest.json.gz',dict(
+-            schema='complete-native-noj-primal-live-current576-damped-direction-arrays-v1',source_sha256=producer_sha,
++            schema='complete-native-completed95-noj-primal-live-current576-damped-direction-arrays-v1',source_sha256=producer_sha,
+             factor_engine_source_sha256=QR_SHA,**manifest_identity,
+             arrays=output.entries,all_arrays_artifact_only=True,native_accepted=False),compressed=True)
+         report['elapsed_seconds']=time.monotonic()-started
+         report['maximum_RSS_kib']=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+         full=B.write(out/'result.json.gz',report,compressed=True)

@@ -1,0 +1,84 @@
+--- geometry_20261114_noj_primal_live_full_dn.py
++++ geometry_20261115_completed95_noj_primal_live_full_dn.py
+@@ -1,9 +1,9 @@
+ #!/usr/bin/env python3
+ """One live current576 worker: actual warm H/J, original affine FD, full DN.
+ 
+-The completed native73 noJ-primal response supplies only the independently declared
++The completed native95 noJ-primal response supplies only the independently declared
+ bootstrap state of the frozen live client.  That client actually solves
+ the bootstrap H/J in its new worker, then the complete current warm H/J.
+ The original boundary FD is evaluated on that last, explicitly affine
+ map.  The same client is handed to the unchanged physical-test full-DN
+ entry; its original first/new-H calls, inner solve, outer checks and final
+@@ -42,13 +42,13 @@
+ from geometry_20261114_physical_test_response import make_directions
+ from geometry_20261114_actual_direction_probe import clean
+ 
+ 
+ HERE = Path(__file__).resolve().parent
+-SCHEMA = "noj-primal-live-current576-actual-H-FD-and-original-full-DN-v1"
++SCHEMA = "completed95-noj-primal-live-current576-actual-H-FD-and-original-full-DN-v1"
+ FINITE_SCHEME = "physical-phi-complete-DN-v1"
+-CLIENT_NAME = "geometry_20261114_noj_primal_live_tail_client.py"
++CLIENT_NAME = "geometry_20261115_completed95_noj_primal_live_tail_client.py"
+ ACCEPTED_SHA = "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff"
+ CONFIG_SHA = "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+ HISTORICAL_ZERO_SHA = "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51"
+ FIXED_BINARY_BYTES_PER_NATIVE_CORRECTION = 704387088
+ SOURCE_PINS = {
+@@ -68,14 +68,14 @@
+     "geometry_20261114_banded_collocation.py": "0780dcc4e331f6cde64141b0fa9ebdd1325eec2af87d94fc455e72405a0524f1",
+     "geometry_20261114_constrained_trust_response.py": "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78",
+     "exact_20261114_true_tail_client.py": "1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09",
+     "exact_20261114_seeded_zero_tail_client.py": "a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776",
+     'geometry_20261114_noj_matched_variational_engine.mjs': 'f9b292c4c3f80d1d7b3030ea0350416746795377833661af8d3095e349a73ad9',
+-    CLIENT_NAME: "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64",
+-    "geometry_20261114_noj_primal_live_tail_client_hook.mjs": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1",
+-    "exact_20261114_noj_primal_live_current576_damped_system.py": "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3",
+-    "exact_20261114_noj_primal_live_current576_damped_chain_qr.py": "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909",
++    CLIENT_NAME: "867bbd75e6f5a9859bc3bfb48cff40f12916b4a470a97b051c99cacbd38c4038",
++    "geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs": "583514abde5ce47b56be3b628fec66907f86ccc34c51266fb1e9011370c7278c",
++    "exact_20261115_completed95_noj_primal_live_current576_damped_system.py": "e621f9aefc29c030dbcbd4e70d2ce19198d58cc740c9091145c11c3f595a114c",
++    "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py": "94e5691a59936a7f3fdbc60fec69bcf0b6791c0688e717fd3424629a390ae31e",
+ }
+ 
+ 
+ def sha(path):
+     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+@@ -123,11 +123,11 @@
+     """Use the unchanged v3 scalar and all 453 saved endpoint coordinates."""
+     require_sha(args.accepted, ACCEPTED_SHA, "actual accepted96 source")
+     require_sha(args.tail_config, CONFIG_SHA, "unchanged complete native configuration")
+     require_sha(args.warm, args.warm_sha256, "actual warm")
+     require_sha(args.warm_status, args.warm_status_sha256, "actual warm status")
+-    require_sha(args.anchor_result, args.anchor_result_sha256, "actual completed73 noJ-primal result")
++    require_sha(args.anchor_result, args.anchor_result_sha256, "actual completed95 noJ-primal result")
+     accepted, warm, status, port, config = [original.read(path) for path in
+         (args.accepted, args.warm, args.warm_status, args.port, args.tail_config)]
+     validate_source(accepted)
+     optimization = warm.get("optimization_warm", {})
+     history = status.get("identity")
+@@ -355,16 +355,16 @@
+     write(output / "orchestration-status.json", state)
+     client = None
+     saved_argv = sys.argv[:]
+     saved_load = original.load_client
+     live_environment = {
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT": str(args.anchor_result.resolve()),
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT_SHA256": args.anchor_result_sha256,
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_ETA": args.native_eta,
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_EXACT_WORKERS": str(args.native_exact_workers),
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_FACTOR_BYTES": str(args.native_max_factor_bytes),
+-        "VISIBLE_FLEX_NOJ_PRIMAL_CURRENT576_LIVE_OUTPUT": str(output / "full-dn" / "true-tail-noj-primal-current576-bridge"),
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT": str(args.anchor_result.resolve()),
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_ANCHOR_RESULT_SHA256": args.anchor_result_sha256,
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_ETA": args.native_eta,
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_EXACT_WORKERS": str(args.native_exact_workers),
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_FACTOR_BYTES": str(args.native_max_factor_bytes),
++        "VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_CURRENT576_LIVE_OUTPUT": str(output / "full-dn" / "true-tail-noj-primal-current576-bridge"),
+     }
+     old_environment = {key: os.environ.get(key) for key in live_environment}
+     handoff = dict(load_client_calls=0, full_driver_solve_calls=[], original_full_DN_entry_called=False)
+     try:
+         context = build_context(args)

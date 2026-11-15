@@ -1,0 +1,75 @@
+{
+  "schema": "completed95-live-source-only-adaptation-static-v1",
+  "scientific_execution": false,
+  "no_scientific_module_imported": true,
+  "no_actual95_result_or_success_anchor_created": true,
+  "parent_success_required_only_from_future_actual_original_files": true,
+  "no_future_result_SHA256_assigned": true,
+  "input_sources": {
+    "geometry_20261114_noj_primal_live_tail_client.py": {
+      "bytes": 29877,
+      "sha256": "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64"
+    },
+    "geometry_20261114_noj_primal_live_tail_client_hook.mjs": {
+      "bytes": 51076,
+      "sha256": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1"
+    },
+    "exact_20261114_noj_primal_live_current576_damped_system.py": {
+      "bytes": 33197,
+      "sha256": "e30e53e635f84ae4762ef045e6510c20d63524efd604ba617cec3a849bdfb3d3"
+    },
+    "exact_20261114_noj_primal_live_current576_damped_chain_qr.py": {
+      "bytes": 22328,
+      "sha256": "c3284d556e76f389d084bc612579c485697f15aeb4c5b7a5caa49567a9920909"
+    },
+    "geometry_20261114_noj_primal_live_full_dn.py": {
+      "bytes": 32522,
+      "sha256": "bb8ad207c5b85fb10e0a5ee83b36eed4317c757646055eaec58b2bc3c8945c14"
+    }
+  },
+  "parent_source_identities": {
+    "geometry_20261115_native_word_first_current576_solve.py": "69c9a8d5cccfcfdcdda35c475b089609c789747803a7b363a17fb67c5bae28d0",
+    "geometry_20261115_native_word_first_current576_solve_hook.mjs": "932961ef9f267f95f5de6bb28791ed43ef2c66d15b18b55823bc3f2384545bc3",
+    "exact_20261115_native_word_first_current576_system.py": "2c6c012d9f2306f2ac13d240510eb8086b74d2b60ff318aa9e359dd72c05a3a8",
+    "exact_20261115_native_word_first_current576_chain_qr.py": "4c887fbb4a16e0d2219969043e708c2d49c446f0ac75ba1dc3e6e17f7d2ee314",
+    "exact_20261115_native_word_first_candidate.py": "d9692107d197dcb4478fc2027beec21e3e611e67109af9d4b13ae09fb506e226",
+    "exact_20261115_native_word_first_parent.py": "8cd7027df2f7039302dbdc1ed15068c6cf48d6645bc236d74e6e5b1e7dd387e8"
+  },
+  "output_sources": {
+    "geometry_20261115_completed95_noj_primal_live_tail_client.py": {
+      "bytes": 35376,
+      "sha256": "867bbd75e6f5a9859bc3bfb48cff40f12916b4a470a97b051c99cacbd38c4038"
+    },
+    "geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs": {
+      "bytes": 51410,
+      "sha256": "583514abde5ce47b56be3b628fec66907f86ccc34c51266fb1e9011370c7278c"
+    },
+    "exact_20261115_completed95_noj_primal_live_current576_damped_system.py": {
+      "bytes": 33578,
+      "sha256": "e621f9aefc29c030dbcbd4e70d2ce19198d58cc740c9091145c11c3f595a114c"
+    },
+    "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py": {
+      "bytes": 22434,
+      "sha256": "94e5691a59936a7f3fdbc60fec69bcf0b6791c0688e717fd3424629a390ae31e"
+    },
+    "geometry_20261115_completed95_noj_primal_live_full_dn.py": {
+      "bytes": 32654,
+      "sha256": "814e2ca1d8da16fb5f47c45dc6600b16fb34988ad8a1e6132da3ad149e969a2c"
+    }
+  },
+  "full_text_reverse_adaptation_passed": {
+    "geometry_20261115_completed95_noj_primal_live_tail_client.py": true,
+    "geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs": true,
+    "exact_20261115_completed95_noj_primal_live_current576_damped_system.py": true,
+    "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py": true,
+    "geometry_20261115_completed95_noj_primal_live_full_dn.py": true
+  },
+  "python_AST_parse_passed": [
+    "geometry_20261115_completed95_noj_primal_live_tail_client.py",
+    "exact_20261115_completed95_noj_primal_live_current576_damped_system.py",
+    "exact_20261115_completed95_noj_primal_live_current576_damped_chain_qr.py",
+    "geometry_20261115_completed95_noj_primal_live_full_dn.py"
+  ],
+  "changed_scope": "Only source/schema/filename/environment identities, parent95 source/file consistency and provenance; no native/QR/FD/BVP mathematics",
+  "old_frozen_files_not_written": true
+}

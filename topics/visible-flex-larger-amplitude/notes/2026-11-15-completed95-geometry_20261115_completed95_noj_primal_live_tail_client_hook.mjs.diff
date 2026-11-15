@@ -1,0 +1,317 @@
+--- geometry_20261114_noj_primal_live_tail_client_hook.mjs
++++ geometry_20261115_completed95_noj_primal_live_tail_client_hook.mjs
+@@ -11,30 +11,30 @@
+ import {spawnSync} from 'node:child_process';
+ 
+ if(process.env.GITHUB_ACTIONS!=='true'||
+    (process.env.GITHUB_REPOSITORY??'').toLowerCase()!=='rogerhu12/math-research-public')
+  throw Error('Current native576 execution belongs only to this public repository Actions');
+-const specPath=process.env.VISIBLE_FLEX_NOJ_PRIMAL_LIVE_CURRENT576_SPEC;
++const specPath=process.env.VISIBLE_FLEX_COMPLETED95_NOJ_PRIMAL_LIVE_CURRENT576_SPEC;
+ if(!specPath)throw Error('An explicit live current576 specification is required');
+ const selfPath=fileURLToPath(import.meta.url),here=path.dirname(selfPath);
+ const sha=value=>crypto.createHash('sha256').update(value).digest('hex');
+ const fileSHA=file=>sha(fs.readFileSync(file));
+ const unpack=raw=>raw[0]===31&&raw[1]===139?zlib.gunzipSync(raw):raw;
+ const specRaw=fs.readFileSync(specPath),spec=JSON.parse(unpack(specRaw)),specSHA=sha(specRaw);
+-const KEY='visible-flex.native-noj-primal-live-current576-client.v1';
++const KEY='visible-flex.native-completed95-noj-primal-live-current576-client.v1';
+ const frozenPath=path.join(here,'tail_frozen_worker.mjs');
+ const enginePath=path.join(here,'tail_resumable_engine.mjs');
+ const frozenSHA='3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054';
+ const engineSHA='1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8';
+ const coreSHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3';
+ const runtimeSHA='f29dc9c7f992fd773f96ca57ec1822f3e28365f653473ee424743801f1e6a96f';
+ const evaluateSHA='9725a6c9af466913eb2ef25d7ba094b9d04937d7921295a7cc79b99ba51ad0e9';
+ const internalSolveSHA='d7d063fe2fca25c1742c68ec8056902a583952b61cdda98e1d9eaab7c09f3615';
+ const trialSHA='603924d1d9c038596d41850b28bb80a9e70d69ccc882af518bfba4bb83444f99';
+-if(spec.schema!=='noj-primal-live-current576-tail-client-spec-v1'||spec.hook_sha256!==fileSHA(selfPath)||
++if(spec.schema!=='completed95-noj-primal-live-current576-tail-client-spec-v1'||spec.hook_sha256!==fileSHA(selfPath)||
+    spec.original_runtime_core_sha256!==runtimeSHA||spec.original_core_file_sha256!==coreSHA||
+-   spec.parent_anchor?.schema!=='completed-native73-noj-primal-literal-JSON-anchor-v1')
++   spec.parent_anchor?.schema!=='completed-native95-word-first-noj-primal-literal-JSON-anchor-v1')
+  throw Error('The live current576 specification or completed anchor identity changed');
+ for(const [name,digest] of Object.entries(spec.frozen_sources)){
+  if(path.basename(name)!==name||fileSHA(path.join(here,name))!==digest)
+   throw Error('Frozen original or current correction source changed: '+name);
+ }
+@@ -206,11 +206,11 @@
+  const implementation={schema:'original-noJ-matched-primal-captured-variational-v1',
+   source_file:spec.primal_flow_module.file,source_sha256:spec.primal_flow_module.sha256,
+   original_dependencies:spec.original_primal_dependencies,only_flowStateWithJacobian_replaced:true,
+   original_root_rhs_rk4_unchanged:true,complete_state_dimension:226,shape_dimension:224,captured_root_feed_only:true};
+  const descriptor=writeJSON(spec.output,'primal-flow-installation.json',{
+-  schema:'noj-primal-live-current576-live-flow-installation-v1',source_sha256:spec.source_sha256,
++  schema:'completed95-noj-primal-live-current576-live-flow-installation-v1',source_sha256:spec.source_sha256,
+   hook_sha256:fileSHA(selfPath),spec_sha256:specSHA,implementation,
+   dependency_files:{product_jacobian:receipt(productPath),local_cusp_grid:receipt(cuspPath)},
+   unique_engines:descriptions.length,stage_count:dn.tail.cells.length,stage_engine_indices:stageEngineMap,
+   engines:descriptions,original_noJ_functions_not_wrapped:true,Function_toString_not_modified:true,
+   new_flow_does_not_reuse_saved_J:true,installation_does_not_execute_root_RHS_ODE:true,
+@@ -226,11 +226,11 @@
+ 
+ function finishRequestContext(ctx){
+  if(!ctx||ctx.summaryWritten)return;
+  ctx.summaryWritten=true;
+  const item=writeJSON(ctx.directory,'current-correction-summary.json',{
+-  schema:'noj-primal-live-current576-one-request-correction-summary-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
++  schema:'completed95-noj-primal-live-current576-one-request-correction-summary-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
+   spec_sha256:specSHA,parent_anchor:spec.parent_anchor,native_call:ctx.call,current_request:ctx.metadata,
+   current_direction_source_sha256:spec.bridge.source_sha256,current_system_source_sha256:spec.bridge.system_source_sha256,
+   eta_cli_text:spec.bridge.eta_cli_text,eta_binary64:spec.bridge.eta_binary64,model_scope:spec.bridge.model_scope,
+   snapshots_completed:ctx.snapshots,directions_returned:ctx.directions,iterations:ctx.records,
+   actual_bridge_failure:ctx.failure,actual_first_snapshot_input_hashes:ctx.inputHashes,
+@@ -244,11 +244,11 @@
+ 
+ function finishAll(){
+  if(summaryWritten)return;summaryWritten=true;
+  finishRequestContext(activeRequest);
+  writeJSON(spec.output,'live-current-corrections-summary.json',{
+-  schema:'noj-primal-live-current576-all-request-correction-summary-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
++  schema:'completed95-noj-primal-live-current576-all-request-correction-summary-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
+   spec_sha256:specSHA,parent_anchor:spec.parent_anchor,actual_protocol_requests:requestRecords.length,
+   requests:requestRecords.map(ctx=>({native_call:ctx.call,current_request:ctx.metadata,summary:ctx.summary,
+    snapshots_completed:ctx.snapshots,directions_returned:ctx.directions,actual_bridge_failure:ctx.failure})),
+   original_worker_response_files_and_trace_decide_native_success:true,
+   this_summary_does_not_claim_native_convergence:true,native_accepted:false,task_completed:false});
+@@ -263,11 +263,11 @@
+  const before=liveIdentity(dn);
+  if(call===1){
+   if(installedDN||globalThis[Symbol.for(KEY)])throw Error('Install one live bridge per fresh original worker');
+   const launch=readVerified({path:path.join(spec.output,'verified-launch-intent.json'),
+    ...receipt(path.join(spec.output,'verified-launch-intent.json'))});
+-  for(const [key,value] of Object.entries({schema:'noj-primal-live-current576-verified-launch-v1',spec_sha256:specSHA,
++  for(const [key,value] of Object.entries({schema:'completed95-noj-primal-live-current576-verified-launch-v1',spec_sha256:specSHA,
+    source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),identity_verified_before_request:true,
+    initial_native_solve_calls:0,initial_response_cache_empty:true}))equal(launch[key],value,'verified live launch '+key);
+   equal(numericalSources(launch.current_original_sources),numericalSources(spec.original_source_sha256),'live original source map');
+   equal(actualRequest,spec.bootstrap_request,'actual first live bootstrap request');
+   equal(binaryRowsHash([actualRequest.height]),spec.parent_anchor.height_float64le_sha256,'literal anchor complete H');
+@@ -286,11 +286,11 @@
+   assertInstalledPrimalFlows();
+   finishRequestContext(activeRequest);
+  }
+  const directory=path.join(spec.output,'call-'+String(call).padStart(4,'0'));
+  fs.mkdirSync(directory,{recursive:false});
+- const metadata={schema:'noj-primal-live-current576-native-request-context-v1',native_call:call,request:actualRequest,
++ const metadata={schema:'completed95-noj-primal-live-current576-native-request-context-v1',native_call:call,request:actualRequest,
+   request_height_float64le_sha256:binaryRowsHash([actualRequest.height]),
+   height_negative_zero_columns:actualRequest.height.flatMap((v,j)=>Object.is(v,-0)?[j]:[]),
+   bootstrap_request:call===1,seed_assigned:call===1,original_worker_predictor_and_fallback_unmodified:call>1,
+   original_request_flags_retained:true,original_final_sensitivity_not_redirected:true,
+   primal_flow_source_sha256:installedPrimalImplementation.source_sha256};
+@@ -302,18 +302,18 @@
+   original_predictor_and_same_process_last_retained:true,seed_assigned:false}};
+  const packet=readVerified(spec.literal_seed_checkpoint),rawFile=spec.literal_seed_raw.path;
+  const raw=fs.readFileSync(rawFile);
+  equal(raw.length,spec.literal_seed_raw.bytes,'literal anchor raw byte count');
+  equal(sha(raw),spec.literal_seed_raw.sha256,'literal anchor raw bytes');
+- equal(packet.schema,'completed-native73-noj-primal-literal-JSON-seed-v1','explicit literal seed representation');
+- equal(packet.source_result,spec.parent_anchor.producer_result,'literal seed source completed73 result');
++ equal(packet.schema,'completed-native95-word-first-noj-primal-literal-JSON-seed-v1','explicit literal seed representation');
++ equal(packet.source_result,spec.parent_anchor.producer_result,'literal seed source completed95 result');
+  equal(packet.source_response,spec.parent_anchor.original_response,'literal seed source original response');
+  equal(packet.pre_JSON_negative_zero_preservation_claimed,false,'no claim about unexported pre-JSON signs');
+- const restored=restoreRows(packet,raw,'literal completed73 response seed');
++ const restored=restoreRows(packet,raw,'literal completed95 response seed');
+  equal(binaryRowsHash(restored.states),spec.parent_anchor.literal_seed_state_float64le_sha256,'literal seed raw identity');
+  writeJSON(directory,'literal-seed-restored.json',{
+-  schema:'noj-primal-live-current576-literal-anchor-seed-assignment-v1',native_call:call,parent_anchor:spec.parent_anchor,
++  schema:'completed95-noj-primal-live-current576-literal-anchor-seed-assignment-v1',native_call:call,parent_anchor:spec.parent_anchor,
+   state_float64le_sha256:sha(raw),restored_negative_zero_count:restored.negativeZeros,
+   initial_guess_only:true,old_response_cache_not_loaded:true,old_predictor_not_imported:true,
+   predicted_set_true_to_preserve_full_literal_initial_guess:true,no_cut_or_far_projection:true,
+   pre_JSON_negative_zero_preservation_claimed:false,native_accepted:false});
+  return {states:restored.states,diagnostics:{native_call:call,literal_seed_state_float64le_sha256:sha(raw),
+@@ -375,21 +375,21 @@
+  const requestRaw=fs.readFileSync(path.join(ctx.directory,'request.json'));
+  equal(sha(requestRaw),ctx.requestFile.sha256,'actual complete request receipt');
+  fs.writeFileSync(path.join(directory,'request.json'),requestRaw,{flag:'wx'});
+  const currentRequest={...ctx.metadata,request_file:receipt(path.join(directory,'request.json'),directory)};
+  const flowMetadata=writeJSON(directory,'flow-return-metadata.json.gz',{
+-  schema:'noj-primal-live-current-native576-original-flow-return-scalars-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
++  schema:'completed95-noj-primal-live-current-native576-original-flow-return-scalars-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
+   scope:'Read-only original returned meanHeight/minA/minD; no extra flow call or recomputation',
+   rows:ev.flows.map((f,n)=>({stage:n,rawCell:before.stages[n].rawCell,rawSegment:before.stages[n].rawSegment,
+    meanHeight:numberRecord(f.meanHeight),minA:numberRecord(f.minA),minD:numberRecord(f.minD)}))
+  },{compressed:true});
+  const manifest=writeJSON(directory,'array-manifest.json',{
+-  schema:'noj-primal-live-current-native576-withJ-snapshot-arrays-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
++  schema:'completed95-noj-primal-live-current-native576-withJ-snapshot-arrays-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
+   native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,M,K,depth,arrays,
+   all_original_payloads_artifact_only:true,signed_zero_and_actual_nonfinite_payload_bits_retained:true});
+  const context=writeJSON(directory,'context.json.gz',{
+-  schema:'noj-primal-live-current-native576-withJ-snapshot-context-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
++  schema:'completed95-noj-primal-live-current-native576-withJ-snapshot-context-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),
+   native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,parent_anchor:spec.parent_anchor,current_request:currentRequest,
+   original_sources:numericalSources(spec.original_source_sha256),numerical_configuration:spec.numerical_configuration,
+   parameters:before.parameters,rawNode:before.rawNode,cells:before.stages,
+   graphs_sha256:before.graphs_float64le_sha256,gains_sha256:before.gains_float64le_sha256,
+   far_graph_sha256:before.far_graph_float64le_sha256,raw_array_sha256:hashes,core_instrumentation:coreReceipt,
+@@ -400,22 +400,22 @@
+   original_evaluate_and_flow_source_not_instrumented:false,
+   original_evaluate_source_not_instrumented:true,same_original_noJ_primal_contract:true,
+   primal_flow_implementation:installedPrimalImplementation
+  },{compressed:true});
+  const result=writeJSON(directory,'result.json',{
+-  schema:'noj-primal-live-current-native576-withJ-snapshot-result-v1',snapshot_completed:true,source_sha256:spec.source_sha256,
++  schema:'completed95-noj-primal-live-current-native576-withJ-snapshot-result-v1',snapshot_completed:true,source_sha256:spec.source_sha256,
+   hook_sha256:fileSHA(selfPath),native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,M,K,depth,
+   manifest,context,actual_current_original_norm:numberRecord(ev.norm),actual_current_original_minA:numberRecord(ev.minA),
+   actual_current_original_minD:numberRecord(ev.minD),current_state_sha256:hashes['base-states'],
+   original_fresh_withJ_already_returned:true,new_RHS_J_ODE_calls_by_snapshot:0,native_accepted:false,task_completed:false});
+  return {result,manifest,context,current_request:currentRequest,raw_array_sha256:hashes,current_state_sha256:hashes['base-states'],
+   primal_flow_implementation:installedPrimalImplementation};
+ }
+ 
+ function checkedCurrentDirection(directory,snapshot,{it,call,sequence}){
+  const file=path.join(directory,'result.json.gz'),raw=fs.readFileSync(file),result=JSON.parse(unpack(raw));
+- const expected={schema:'complete-native-noj-primal-live-current576-damped-square-root-direction-v1',
++ const expected={schema:'complete-native-completed95-noj-primal-live-current576-damped-square-root-direction-v1',
+   source_sha256:spec.bridge.source_sha256,system_source_sha256:spec.bridge.system_source_sha256,
+   factor_engine_source_sha256:spec.bridge.factor_engine_source_sha256,kernel_source_sha256:spec.bridge.kernel_source_sha256,
+   model_scope:spec.bridge.model_scope,diagnostic_completed:true,linear_direction_computed:true,
+   native_accepted:false,task_completed:false,native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
+   current_state_sha256:snapshot.current_state_sha256};
+@@ -423,11 +423,11 @@
+  if(result.actual_error)throw Error('The current complete linear direction did not finish: '+result.actual_error);
+  equal(result.eta_cli_text,spec.bridge.eta_cli_text,'unchanged explicit eta CLI');
+  equal(result.eta_binary64,spec.bridge.eta_binary64,'unchanged explicit eta binary value');
+  equal(result.snapshot_result,snapshot.result,'this actual current snapshot receipt');
+  const binding=readVerified(result.input_binding,directory);
+- for(const [key,value] of Object.entries({schema:'noj-primal-live-current-native576-complete-linear-system-binding-v1',
++ for(const [key,value] of Object.entries({schema:'completed95-noj-primal-live-current-native576-complete-linear-system-binding-v1',
+   adapter_source_sha256:spec.bridge.system_source_sha256,snapshot_result_sha256:snapshot.result.sha256,
+   snapshot_context_sha256:snapshot.context.sha256,snapshot_manifest_sha256:snapshot.manifest.sha256,
+   current_state_sha256:snapshot.current_state_sha256,raw_array_sha256:snapshot.raw_array_sha256,
+   native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,modes:112,shape_dimension:224,
+   depth:576,original_depth:576,node_count:577,old_to_new:Array.from({length:577},(_,i)=>i),
+@@ -435,21 +435,21 @@
+   current_cut_far_errors_not_projected_or_zeroed:true,parent_anchor:spec.parent_anchor,current_request:snapshot.current_request,
+   primal_flow_implementation:snapshot.primal_flow_implementation}))
+   equal(binding[key],value,'complete actual current system binding '+key);
+  equal(result.new_matrix_identity_sha256,binding.new_matrix_identity_sha256,'this current matrix identity');
+  const packet=readVerified(result.native_direction_checkpoint,directory),manifest=readVerified(result.array_manifest,directory);
+- for(const [key,value] of Object.entries({schema:'complete-native-noj-primal-live-current576-damped-direction-arrays-v1',
++ for(const [key,value] of Object.entries({schema:'complete-native-completed95-noj-primal-live-current576-damped-direction-arrays-v1',
+   source_sha256:spec.bridge.source_sha256,new_matrix_identity_sha256:binding.new_matrix_identity_sha256,
+   factor_engine_source_sha256:spec.bridge.factor_engine_source_sha256,all_arrays_artifact_only:true,native_accepted:false}))
+   equal(manifest[key],value,'current output manifest '+key);
+  const entries=new Map();
+  for(const entry of manifest.arrays){if(entries.has(entry.name))throw Error('Unique output array names required');entries.set(entry.name,entry);}
+  const entry=result.native_delta;equal(entries.get('complete-original-coordinate-delta'),entry,'full current direction descriptor');
+  equal(entry.shape,[577,224],'complete current direction shape');equal(entry.dtype,'<f8','current direction binary dtype');equal(entry.order,'C','current direction order');
+  const deltaFile=safeWithin(directory,entry.file),deltaRaw=fs.readFileSync(deltaFile);
+  equal(deltaRaw.length,577*224*8,'full current delta byte count');equal(deltaRaw.length,entry.bytes,'delta descriptor bytes');equal(sha(deltaRaw),entry.sha256,'full current delta raw hash');
+- for(const [key,value] of Object.entries({schema:'complete-native-noj-primal-live-current576-damped-direction-v1',
++ for(const [key,value] of Object.entries({schema:'complete-native-completed95-noj-primal-live-current576-damped-direction-v1',
+   source_sha256:spec.bridge.source_sha256,system_source_sha256:spec.bridge.system_source_sha256,
+   factor_engine_source_sha256:spec.bridge.factor_engine_source_sha256,input_binding:binding,M:112,K:224,depth:576,
+   original_depth:576,old_to_new:Array.from({length:577},(_,i)=>i),eta_binary64:spec.bridge.eta_binary64,
+   model_scope:spec.bridge.model_scope,native_accepted:false,task_completed:false,native_call:call,
+   nonlinear_iteration:it,snapshot_sequence:sequence,current_state_sha256:snapshot.current_state_sha256}))
+@@ -483,31 +483,31 @@
+   record.current_state_sha256=snapshot.current_state_sha256;
+   const qrDir=path.join(iterationDir,'qr'),command=[spec.bridge.python_executable,path.join(here,spec.bridge.source_file),
+    '--snapshot-directory',snapshotDir,'--snapshot-result-sha256',snapshot.result.sha256,
+    '--eta',spec.bridge.eta_cli_text,'--out',qrDir,
+    '--max-factor-bytes',String(spec.bridge.max_factor_bytes),'--exact-workers',String(spec.bridge.exact_workers)];
+-  writeJSON(iterationDir,'qr-launch.json',{schema:'noj-primal-live-current576-synchronous-QR-launch-v1',native_call:call,
++  writeJSON(iterationDir,'qr-launch.json',{schema:'completed95-noj-primal-live-current576-synchronous-QR-launch-v1',native_call:call,
+    nonlinear_iteration:it,snapshot_sequence:sequence,command,shell:false,original_evaluate_already_returned:true,
+    snapshot_result:snapshot.result,source_sha256:spec.bridge.source_sha256,system_source_sha256:spec.bridge.system_source_sha256,
+    stdout:'qr.stdout.log',stderr:'qr.stderr.log',original_worker_stdout_protocol_not_used_by_child:true});
+   const stdout=fs.openSync(path.join(iterationDir,'qr.stdout.log'),'wx'),stderr=fs.openSync(path.join(iterationDir,'qr.stderr.log'),'wx');
+   let completed;
+   try{completed=spawnSync(command[0],command.slice(1),{shell:false,cwd:here,
+    env:{...process.env,OPENBLAS_NUM_THREADS:'1',OMP_NUM_THREADS:'1',MKL_NUM_THREADS:'1'},stdio:['ignore',stdout,stderr]});}
+   finally{fs.closeSync(stdout);fs.closeSync(stderr);}
+-  const exit={schema:'noj-primal-live-current576-synchronous-QR-exit-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
++  const exit={schema:'completed95-noj-primal-live-current576-synchronous-QR-exit-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
+    status:completed.status,signal:completed.signal,error:completed.error?cleanError(completed.error):null,
+    stdout:receipt(path.join(iterationDir,'qr.stdout.log'),iterationDir),stderr:receipt(path.join(iterationDir,'qr.stderr.log'),iterationDir)};
+   writeJSON(iterationDir,'qr-exit.json',exit);record.qr_exit=exit;
+   if(completed.error||completed.status!==0)throw Error('Live current576 QR process failed; complete original snapshot and child logs retained');
+   const answer=checkedCurrentDirection(qrDir,snapshot,{it,call,sequence});
+   equal(binaryRowsHash(states),snapshot.raw_array_sha256['base-states'],'bridge did not change current states');
+   equal(binaryRowsHash([target]),snapshot.raw_array_sha256['cut-target'],'bridge did not change current target');
+   equal(binaryRowsHash([scales]),snapshot.raw_array_sha256['original-scales'],'bridge did not change current sigma');
+   equal(liveIdentity(installedDN),before,'bridge did not change immutable original geometry');
+   assertInstalledPrimalFlows();
+-  const direction={schema:'noj-primal-live-current576-returned-correction-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
++  const direction={schema:'completed95-noj-primal-live-current576-returned-correction-v1',native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,
+    current_state_sha256:snapshot.current_state_sha256,snapshot_result:snapshot.result,
+    result:answer.result_receipt,input_binding:answer.input_binding,direction_checkpoint:answer.direction_checkpoint,
+    array_manifest:answer.array_manifest,native_delta:answer.delta_receipt,new_matrix_identity_sha256:answer.new_matrix_identity_sha256,
+    restored_negative_zero_count:answer.negative_zero_count,complete_current576_original_coordinates:true,
+    no_cut_or_far_projection:true,chartCondition_not_computed:true,returned_maxChartCondition:null,
+@@ -516,20 +516,20 @@
+   record.direction=direction;record.linear_direction_returned=true;ctx.directions++;
+   fs.appendFileSync(path.join(ctx.directory,'current-corrections.jsonl'),encode(record));
+   return {delta:answer.delta,maxChartCondition:null};
+  }catch(error){
+   record.actual_error=cleanError(error);ctx.failure={native_call:call,nonlinear_iteration:it,snapshot_sequence:sequence,error:record.actual_error};
+-  try{writeJSON(iterationDir,'bridge-failure.json',{schema:'noj-primal-live-current576-correction-bridge-failure-v1',...record,native_accepted:false});
++  try{writeJSON(iterationDir,'bridge-failure.json',{schema:'completed95-noj-primal-live-current576-correction-bridge-failure-v1',...record,native_accepted:false});
+       fs.appendFileSync(path.join(ctx.directory,'current-corrections.jsonl'),encode(record));}catch(retentionError){
+    process.stderr.write('Live bridge failure retention failed: '+String(retentionError)+'\n');
+   }
+   throw error;
+  }
+ }
+ 
+ const correctionReplacement={before:'const cor=correction(ev,states,target);',
+- after:'const cor=globalThis[Symbol.for("visible-flex.native-noj-primal-live-current576-client.v1")].correction({ev,states,target,scales,it,M,K,depth});'};
++ after:'const cor=globalThis[Symbol.for("visible-flex.native-completed95-noj-primal-live-current576-client.v1")].correction({ev,states,target,scales,it,M,K,depth});'};
+ let engineLoadCount=0;
+ function transformEngine(loaded){
+  if(engineLoadCount++!==0)throw Error('Only one original stored/recovery engine load is permitted');
+  const source=typeof loaded.source==='string'?loaded.source:Buffer.from(loaded.source).toString('utf8');
+  if(sha(source)!==engineSHA)throw Error('The original stored/recovery engine source changed');
+@@ -561,18 +561,18 @@
+   'const currentNativeInstrumentedSolve=currentNativeSlice(core,currentNativeSolveStart,currentNativeSolveEnd);',
+   'const currentNativeUnchangedEvaluate=currentNativeSlice(core,currentNativeEvalStart,currentNativeEvalEnd);',
+   'const currentNativeUnchangedTrial=core.slice(core.indexOf(currentNativeTrialStart),core.indexOf(currentNativeTrialEnd));',
+   'if(currentNativeUnchangedEvaluate!==currentNativeOriginalEvaluate||currentNativeUnchangedTrial!==currentNativeTrialText)',
+   ' throw Error("Original evaluate or trial arithmetic changed");',
+-  'const currentNativeSolveIdentity={schema:"noj-primal-live-current-native576-internal-solve-source-roundtrip-v1",',
++  'const currentNativeSolveIdentity={schema:"completed95-noj-primal-live-current-native576-internal-solve-source-roundtrip-v1",',
+   ' original_internal_solve_source:currentNativeOriginalSolve,original_internal_solve_source_sha256:sha256(currentNativeOriginalSolve),',
+   ' instrumented_internal_solve_source:currentNativeInstrumentedSolve,instrumented_internal_solve_source_sha256:sha256(currentNativeInstrumentedSolve),',
+   ' replacement:currentNativeChange,exact_internal_source_roundtrip_verified:true,',
+   ' source_scope:"trimmed unique internal solve declaration in actual compiled runtime core",',
+   ' distinct_from_public_split_wrapper_Function_toString:true,Function_toString_not_modified:true};',
+   'fs.writeFileSync('+JSON.stringify(path.join(spec.output,'core-instrumentation.json'))+',JSON.stringify({',
+-  ' schema:"noj-primal-live-current-native576-correction-only-core-instrumentation-v1",spec_sha256:'+JSON.stringify(specSHA)+',',
++  ' schema:"completed95-noj-primal-live-current-native576-correction-only-core-instrumentation-v1",spec_sha256:'+JSON.stringify(specSHA)+',',
+   ' source_sha256:'+JSON.stringify(spec.source_sha256)+',hook_sha256:'+JSON.stringify(fileSHA(selfPath))+',',
+   ' original_core_file_sha256:sha256(originalCore),original_runtime_core_sha256:sha256(currentNativeOriginalCore),',
+   ' instrumented_runtime_core_sha256:sha256(core),exact_correction_call_roundtrip_verified:true,',
+   ' internal_solve_source_identity:currentNativeSolveIdentity,original_evaluate_source_sha256:sha256(currentNativeOriginalEvaluate),',
+   ' actual_evaluate_source_sha256:sha256(currentNativeUnchangedEvaluate),original_evaluate_body_byte_identical:true,',
+@@ -585,11 +585,11 @@
+   ' native_accepted:false,task_completed:false},null,2)+"\\n",{flag:"wx"});'
+  ].join('\n')+'\n';
+  const transformed=source.replace(anchor,program+anchor);
+  if(transformed.replace(program,'')!==source)throw Error('Engine loader source insertion is not exactly reversible');
+  writeJSON(spec.output,'engine-loader-instrumentation.json',{
+-  schema:'noj-primal-live-current-native576-engine-loader-source-roundtrip-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),spec_sha256:specSHA,
++  schema:'completed95-noj-primal-live-current-native576-engine-loader-source-roundtrip-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),spec_sha256:specSHA,
+   original_engine_sha256:engineSHA,instrumented_engine_sha256:sha(transformed),inserted_program_sha256:sha(program),
+   exact_loader_insertion_roundtrip_verified:true,insertion_after_original_identity_checks:true,
+   original_disk_source_and_original_ready_manifest_retained:true});
+  return {...loaded,source:transformed};
+ }
+@@ -620,11 +620,11 @@
+   'const liveCurrentInjection='+JSON.stringify(injection)+';',
+   'source=source.slice(0,liveCurrentAt)+liveCurrentInjection+source.slice(liveCurrentAt);',
+   'if(source.slice(0,liveCurrentAt)+source.slice(liveCurrentAt+liveCurrentInjection.length)!==liveCurrentOriginalSource)',
+   ' throw Error("Live request context instrumentation must be insertion-only");',
+   'fs.writeFileSync('+JSON.stringify(path.join(spec.output,'worker-instrumentation.json'))+',JSON.stringify({',
+-  ' schema:"noj-primal-live-current-native576-live-request-context-and-first-literal-seed-v1",',
++  ' schema:"completed95-noj-primal-live-current-native576-live-request-context-and-first-literal-seed-v1",',
+   ' source_sha256:'+JSON.stringify(spec.source_sha256)+',hook_sha256:'+JSON.stringify(fileSHA(selfPath))+',spec_sha256:'+JSON.stringify(specSHA)+',',
+   ' frozen_worker_sha256:'+JSON.stringify(frozenSHA)+',original_compiled_worker_sha256:sha256(liveCurrentOriginalSource),',
+   ' instrumented_compiled_worker_sha256:sha256(source),injection_sha256:sha256(liveCurrentInjection),',
+   ' exact_insertion_roundtrip_verified:true,per_request_context_assignment_only:true,first_initial_assignment_only:true,predicted_set_true_only_for_seed:true,',
+   ' worker_last_and_tangentPredictor_not_fabricated:true,no_initialCheckpoint_geometry_remapping:true,',
