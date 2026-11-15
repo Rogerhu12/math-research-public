@@ -1,20 +1,20 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:19:05 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:25:08 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
-本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 12:21:47定时及13:01非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar及log；ref不冒pull，每小时CLI继续。
-最近只读README核：8bdd16296ad3a4dcbeccb2cc8ce181744713b833；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 13:23:55定时及13:09非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar/AJ及log；ref不冒pull，每小时CLI继续。
+最近只读README核：f8c9dc1a856fbc7feaceffd3f8e6453d5eef99a5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
 
 须同一连通闭C²嵌入及C²连续固定metric族，材料H有内点逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D、四非共面不同静态marker、purephase刚体。未达，持续不等用户。
 同candidate ac1d5b98/repair440866a3/Zdef6a71cb81/native87ed2f61与η0；Qδ近似、||q*−Z||<4.572198020300e−6。finite193负窗.003509417445587非全频；whole .007490301792401不同窗。全频ν响应负[0,rplus]≤.005及参数Schur仍待。
-intrinsic ν依C6–7 Eν=Eexp(νw)，最终ν*/Γ1*/Γ2*/η/metric冻结。单真G+既付G14/G17/G24经P/9a5bcb14给RτGS−τ+4静态marker族；不额外要ν族IFT。43584188751/26几何仍需同η0/fullC0≤1e−4/|δν|≤1e−5/全部matching，细阈值/对象身份保8832e7ff同H与原报告，不冒已存在G。
+intrinsic ν依C6–7，最终ν*/Γ1*/Γ2*/η/metric冻结；单真G经P/9a5bcb14给固定metric相位族。完整几何条件/身份保690b33bc9ade2a20583b8bba1ca7bf0bf21c22f2同H及末节；未有G，不额外要ν族IFT。
 
 ## Green v4：newton_source
 
@@ -27,8 +27,10 @@ v4实际43711315338/1 headce17e68d，SCIba931a8a/helper9e699a28/workerf67d62e2/3
 负侧旧共同势/旧圆/S/G/C/D全成功锁，完整域、两sign/两column、mean/seam/源单位/失败和restore保6d87bc850bc8150bd6acbe87ee9df5b885beaf3e同H与原报告，旧root/Taylor/FFT/profile/积分不重算。K/eca5b805的真实径向两普通源→density与负body/cut映射已成，不转授完整非径向/positive/return。
 AJ/afeab152新精确T0=t+5dφ保fullmean，F=1/Q后cT与Xi由L=−Fr+dFφ−(t+4dφ)F、B+=x²+Ty²准确分解。全B逆/leading M逆/合并QG角jets、真实外RG径Cauchy与内H小量分付；新SCI32c45b33/workerc70791fe/50pin871240a7已部署，旧44pin零改；只新AJ scalar+10整项，待actual，非GH。
 P/B/L2全部成功/失败/restore保47dd93ace95c65d9858743f658244dfd6a2c9320同H与原actual；三旧run锁，B只raw1改、L2 q2=1，禁重算，volume非strong-return。
-G actual43714194714/1 child0/25门成功锁；reporte412153c/execution5e5f414a/result0dff8993，SCI a705c2b4/worker68cf6bf2/44pin bbfbdbc2。7/10整项改善、pair<5.536113e14；所有数值/未变31列/域/mean/真实权保d6c1f5ba同H和actual报告。0旧math，非strong-return。
-N actual43716450174/1 child0/17门锁；report59ab1bb6/execution318dd25b/result72745bf3，SCI179cc14a/worker28e2d96e/22pin7c07d303。6cut中R=.005/.01/.015/.02过，.001/.002只保raw。R=.005普通gain<1.070261672/root-jump<15.135785709，G贡献<5.92509e14。0旧math、全mean/head保；root/jump实际列/positive/waist/return未付。
+G43714194714/1 child0/25门成功锁，reporte412153c/execution5e5f414a/result0dff8993；旧44pin/31列/真实域与径权保690b33bc同H及actual。pair<5.536113e14，后接AJ；0旧math，非strong-return。
+N43716450174/1 child0/17门锁，report59ab1bb6/execution318dd25b/result72745bf3；22pin/6cut/完整域及失败保690b33bc同H/原actual。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709，旧G贡献<5.92509e14；root/jump实际列/positive/waist/return未付。
+
+RV/8e91d7a2新证L1用[μ^-1A0,K]准确消ℬ′b0e1，再保ℬ″KJ+w0与iεTℬ′J+(2w0X+Xi w0)；L2用物理b1r/b1φ和完整xy/y² rank。负cover h≤H仅从旧正算法addend扣严格lower再付新tail，有限Taylor/原六径权不重算。只可改local1/2，29列逐字AJ，新scalar待；非GH。
 
 ## 实际帽与core全频接口
 

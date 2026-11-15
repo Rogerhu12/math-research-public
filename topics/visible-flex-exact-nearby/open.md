@@ -110,22 +110,8 @@ transport/Taylor/profile/moment/源行只恢复。
 [D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
 及actual43703879926/1已锁定：child0/12门、27pins、96分母/16比率/4组合，旧数学0。
 κ5/3准确付两个J窗，完整21first+10mean、外CJ/meanfactor及真实dr/root包络保。
-[P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)及actual43709396175/1 child0/13门锁；完整源/17pin/失败失temp恢复/全部旧界保d6c1f5ba51ed63cd65ae877c46513886958e1362同open及原报告，成功不重算。新完整界已由下列B/G替代。
-
-[B正预算分离](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)与[actual43711480764/1](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)成功锁：child0/19门，q1<.004848651663，仅raw1收紧；其余20first/10mean逐字P。完整RT/正预算/六jet/finite与tail/真实dr-root-mean域、失败链和数值逐字保47dd93ace95c65d9858743f658244dfd6a2c9320同路径本段及原文，旧成功不重算。
-最新完整ledger由下面G消费；L2的q2=1没有新增改善，不能另造合并数学。volume upper不是算子下界或strong-return常数。
-
-[L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
-已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
-G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
-L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根零；
-未新增determinant域或数值收紧。
-[L2完整第二local消费](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)
-已付E12完整第二行与真实xy/y² rank，保原raw2已付1/n。
-[actual43711568963/1](results/R133-supplement-actual-second-local-vector-and-rank-budget.md) child0/16门/math.005412712s，
-23pins602844B、P原17零改；新R1/4000/Σ5/1024完整域及complex频率方盒determinant均过。
-新完整第二op4.837164e17高于旧3.040655e17，故q2=1，21first+10mean逐字P，非收紧结论。
-B现行ledger已逐字保同raw2，不需新合并数学；本成功不重跑。
+[P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)、[B正预算分离](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)及[第二local](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)完整证明/actual/原输入/失败/域/31列保690b33bc9ade2a20583b8bba1ca7bf0bf21c22f2同open本节及原报告。P43709396175/1、B43711480764/1、L2 43711568963/1全成功锁，0旧math；B仅raw1收紧q1<.004848651663，L2新4.837164e17高于旧3.040655e17故q2=1。未成数学不能借压缩删除；不重跑成功，volume非strong-return。
+[L准确相关transport](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)仍保K²=TI、E12只取第二分量、真实rankφ/n^-2/q=v g−vφp和全部mean。后续RV另付新恒等式与负cover域。
 [F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
 进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
 G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。
@@ -143,6 +129,8 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 9/10 cut、positive两端选择或完整GH；j0与原物理seam独立保留。
 
 [AJ完整运输系数的角jets](results/R133-supplement-angular-jets-with-retained-radial-part-of-factored-transport.md)新证：T0=t+5dφ的全mean只留零阶，F=1/Q使cT/Xi经真实B+=x²+Ty²分解；QG/2与G^-1的角导先准确合并。原fold j/BT/BA/gap及外RG/内H两域给完整递推，μ/leading M逆不冒径向，普通高导不Cauchy收费径向常数。新SCI32c45b33/workerc70791fe/50pin871240a7已部署，原44pin零改/31列整项比；actual待，旧G不重算。
+
+[RV准确径向抵消与负侧local预算](results/R133-supplement-exact-radial-cancellation-and-negative-side-local-source-budgets.md)新证L1的ℬ′b0e1在取模前准确抵消，保ℬ″KJ+w0和iεTℬ′J+(2w0X+Xi w0)；L2改用完整物理b1r/b1φ及xy/y² rank，原1/n不改。新负cover h≤H从已存完整正算法预算减去同addend严格lower再加h-tail，绝不相减两个upper；finite Taylor、旧六row径积分不重算。只local1/2可换新整界，第三local/18nonlocal/10mean逐字最新AJ；新scalar未成，source-to-trace/GH仍待。
 
 [N负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)与[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)已锁：child0/17门/math.551217555s、22pin、6cut、0旧math；SCI179cc14a/worker28e2d96e/manifest7c07d303，report59ab1bb6/execution318dd25b/result72745bf3。
 原ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer完整。真cut r_+−R中R=.005/.01/.015/.02过，.001两τ大于1、.002仅τ2>1，失败不冒奇异、raw完整界仍有效。最小proved R=.005 ordinary增益1.070261672/root-jump15.135785709，最新G完整贡献上界5.92509e14；不同cut不可拼min。
@@ -275,6 +263,6 @@ full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，12:21:47定时及13:01非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。亲读Green真pull12:44:29.764146→acedf945458a4909bccb2281484bc7dd7436a381及cut12:45:44.009824→e2db433eb4f317c1a5c84b4bcb2f8ad19f084817，两README diff均空；终端恢复即pull查差。
+本机executor持续不可用，13:23:55定时及13:09非FF即时真pull仍无环境；根规8仅准<100KB UTF8 connector，禁binary/gzip，ref不冒pull。runner真pull与两README空diff已亲读Green13:14:47.775148→9e62c9f20aafcd92bcbdb3db0b613a5a24b9c683；其余完整记录保log/actual，终端恢复即pull查差。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

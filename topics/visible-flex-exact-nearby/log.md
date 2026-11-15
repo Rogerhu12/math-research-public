@@ -207,3 +207,9 @@ H的H1/Cδ/CS及open第4节旧帽详账亦仅压缩引用6d87bc85同路径和原
 - 2026-11-15 13:16:08 UTC visible-exact-astra-0df9：AJ部署SCI32c45b33/workerc70791fe/50pin871240a7/flowc964a6c5，原44pins全等；完整outerF径Cauchy、mean t、Bplus/M逆及相关QG角jets进原10整项recipe，旧quotient/inverse/径积分0重做。部署前修main局部old遮蔽，无数学改动；共享.github新增本题flow。亲读Green13:14真pull9e62c9f2两README空，3312/1056/1360仍运行；只读main fc8bf3a20b6e36f90bbff6017ad438b6cfdc80e9 无新规，继续MC/local/Green。
 
 - 2026-11-15 13:19:05 UTC visible-exact-astra-0df9：亲读MA actual43717700427/1完整12门/2窗/5case及job success，reportbe2de85d入results。原raw mean两窗P-L2<5.163871e−7/4.963677e−10，窄d费<4.963677e−20；五例恢复有条件完整高门，低仍false，其余10旧pass不授权。13:12:15.631018真pull ec6c38bc 两README空；只读main 8bdd16296ad3a4dcbeccb2cc8ce181744713b833无变化，继续AJ/local/lowtrace/Green。
+
+### 2026-11-15 13:25:08 UTC：RV准确抵消和负cover局部源合同
+
+独立核对RV的K/J/E交换子、两向量分量、完整rank/n^-2、六旧径行和正算法lower逻辑后提交proof 8e91d7a28a4d2cdda467abba0703d615d9b5cd194a8808a65df2c5fc29a43b71，18012B。新算法只消费已有完整Taylor预算并付负cover h新tail，AJ cT/Xi仅读，旧数学不重算。当前尚无RV scalar actual。
+
+本机13:23:55 UTC实际git pull --rebase origin main再次因无usable executor失败；未冒只读ref为pull。最近root已亲读Green13:14:47.775148实际pull至9e62c9f2及两README空diff；本次只读f8c9dc1a856fbc7feaceffd3f8e6453d5eef99a5两README blob仍等已读版本。H/open旧细节压缩至690b33bc同路径及原actual，不删除任何未付门。总任务未完，继续AJ实际报告、RV消费者、Green与全core。
