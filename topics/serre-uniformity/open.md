@@ -70,6 +70,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R814完整降重数接口已证**：[原证明](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)。全完成乘积内积分给C=im[Γ,Mg]恰约化20cusps；完整I的N=im[H,ΓH+MgH′]，P=(N:_R C)逐点max(m−1,0)，sqrtI=(I:_R P)，m0保留。六原E=20cusps+P0+3D，度1206/1485/1521/1602/1674/1728；第一剥后无cusp可省C商。实际原极I/Γ尚缺，η/height未成。
 
+**R825原重数提取已证**：[原对数导数比与三重数前像](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)/[执行契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。原E=固定21点＋3D且cusp重数1，导数层Iℓ保cusp/其余降一；r=y/δy在非cusp极点一阶、cusp单位，逆递推Jk=R∩(I_(3k+1)+rJ_(k+1))准确给I_D。只适用原m≡0/1mod3，一般m5会给2；原f4安全界395不作实际层数。真实C稀疏坐标和完整δ^jH列的Bézout给终止，固定P=MaMb/Q=δa·b−a·δb的权10/11及两图导数消项已证；272×816完整核秩544，必须全部投影再取完整像。无一般理想商/闭点分解/ambient迹，真实I/P/Q/D仍未得。proof SHA 73f9f293f0a0526a2f1eed8b62aea562b659090b546d1e122c0e12dbd1f90930；method SHA 8629d5ee41233176abc96b188e9e9937ff261ebf2eb7155615349f423f6e2928。
+
 **R820小有限代数入口已证**：[原两图cusp理想](results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md)。仅273已成S3 q0行同除N0给F20值与Z；两个原锚点避全部cusps，R806 Q-form/忠实扩张给评价满射。逆序Z链≤292候选，实际rank20/minor/全部关系及两图各总度20才认证完整HNF；不预填常数E秩20或Z primitive。第二图用同F的Z^-1/Z^-eps，无需新Fourier或等待大导子，[实际已成](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)：run43721747750/source7890fde1，36.411901553秒；两图rank20/colength20/292步/5380非monic，只有d271=20。600ZIP/598manifest/590stage/289原输入全IO及冻结verify过；C可直接供R814，不等导子。
 
 ### 全p sigma：同一个真正可见标签的三个单位

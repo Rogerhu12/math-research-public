@@ -145,3 +145,7 @@
 ### 2026-11-15 22:19（Asia/Taipei）｜serre-public-astra-20261115
 - 旧R787真实minor链只读核完：manifest613f436b及chart/selection/rational-blocks/branch0/三个回执逐SHA；ell1000000753的1186det296007862、A1234det336446771、constant20det322380492均非零。无新矩阵算术，完整旧run仍BudgetStop。
 - R824新实际推论：r=1214−1186=28由RR上下界夹定，h1=0，28权5＋244权6/无权7。结果 f3a20761，直接省新R143..155/H³尾，补旧R130..142来源；原A/B/候选/height仍待，主目标OPEN。
+
+### 2026-11-15 22:26 CST · serre-public-astra-20261115 · R825
+- 已证原r=y/δy与完整多项式前像准确提取E=固定21点＋3D的D；限制m≡0/1，保全部544核投影与权10/11两图消项。
+- 原C稀疏坐标/δ^jH完整列Bézout可认证终止；真实I/P/Q/D仍待，不替eta或高度。证明与执行契约已全文核，立即推送。
