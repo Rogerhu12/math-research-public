@@ -1,0 +1,191 @@
+{
+  "kind": "true_waist_coordinates_saved_positive_products_fixed_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "63fc880f409151152a40a6361b781280bd3785b337cf2bd3386c03496e1b9424",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_waist_coordinates_saved_products.py",
+  "scientific_source_sha256": "63fc880f409151152a40a6361b781280bd3785b337cf2bd3386c03496e1b9424",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md",
+  "contract_sha256": "c5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1",
+  "input_read_commit": "fcbec5f18b016dc88433063d6f8400b2fb4f1a98",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "selected_conjugacy_parameter_absolute_upper": "0.00000000009368259853002",
+    "selected_conjugacy_derivative_lower": "31/32",
+    "selected_conjugacy_derivative_upper": "33/32",
+    "selected_conjugacy_second_derivative_upper": "4",
+    "original_ST_run": "43757644616/1",
+    "original_TC_run": "43754703603/1",
+    "physical_frequency": "n=4|j|",
+    "known_drift_label_bandwidth": 192,
+    "coordinate_windows": [
+      "L2",
+      "H^(-4/3)"
+    ],
+    "complete_mean_coordinates": 2,
+    "exact_complete_radial_interval": [
+      "0",
+      "76285779072683/320000000000000"
+    ],
+    "flow_scope": "every shorter interval in either direction in the same real family",
+    "selected_common_input_order": "S = U_H_inverse U_X_minus = U_(X_minus o H_inverse)",
+    "all_independent_means_and_finite_cross_blocks_retained": true,
+    "old_successful_scientific_calls_allowed": 0,
+    "old_binary_or_archive_inputs_restored": 0,
+    "full_incoming_finite_Schur_or_return_R0_claimed": false,
+    "expected_actual_gate_count": 20
+  },
+  "expected_actual_gate_count": 20,
+  "input_paths": {
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_waist_coordinates_saved_products.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "accepted_ST_execution": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+    "accepted_ST_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py",
+    "accepted_ST_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-tail-true-cut-to-waist-CI-inputs.json",
+    "ST_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md",
+    "accepted_ST_actual_proof": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md",
+    "accepted_TC_execution": "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json",
+    "accepted_TC_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_branch_density_coordinates.py",
+    "accepted_TC_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-branch-density-coordinates-CI-inputs.json",
+    "TC_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md",
+    "accepted_TC_actual_proof": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md",
+    "SP_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+    "SP_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+    "AC_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md"
+  },
+  "current_text_input_roles": [
+    "scientific_source",
+    "contract",
+    "reviewed_rules",
+    "accepted_ST_execution",
+    "accepted_ST_source",
+    "accepted_ST_manifest",
+    "ST_contract",
+    "accepted_ST_actual_proof",
+    "accepted_TC_execution",
+    "accepted_TC_source",
+    "accepted_TC_manifest",
+    "TC_contract",
+    "accepted_TC_actual_proof",
+    "SP_source",
+    "SP_contract",
+    "AC_contract"
+  ],
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "all_inputs_are_current_small_texts": true,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_phases_rays_profiles_sources_normalizers_and_physical_receivers_recomputed": false,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "same_true_waist_and_all_shorter_characteristic_intervals": true,
+    "three_complete_angular_flow_derivatives": true,
+    "same_inverse_in_L2_and_Hminus4_3": true,
+    "complete_means_and_primitive_finite_ranks_retained": true,
+    "actual_H_common_input_only_for_same_selected_delta": true,
+    "complete_ordered_common_input_and_inverse": true,
+    "ungauged_leading_flow_both_directions_and_windows": true,
+    "physical_ng_endpoint_ratios_still_separate": true,
+    "new_radial_source_or_first_coefficient_budgets": false,
+    "waist_normalizer_inverse": false,
+    "actual_incoming_or_outgoing_error": false,
+    "finite_Schur_or_whole_return_R0": false
+  },
+  "file_count": 16,
+  "total_pinned_input_bytes": 413946,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-tail-true-cut-to-waist-CI-inputs.json",
+      "bytes": 17702,
+      "sha256": "e43b2c7036088cd8d1401c580c1aa6ef694d283057dcce7c65839f92fc1b0e80"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-true-branch-density-coordinates-CI-inputs.json",
+      "bytes": 11113,
+      "sha256": "0e78cfa73d9d2ce8d53fc8eb1c0bdffef276739360aa66f55f13ea13f5ab3c45"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+      "bytes": 47282,
+      "sha256": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/true_branch_density_coordinates_ci/run-43754703603-1/execution.json",
+      "bytes": 38057,
+      "sha256": "37c2a5ae3b77e7f0895aa0c3130d8707868816f1d26a119a880272f9b92f902e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md",
+      "bytes": 33144,
+      "sha256": "9d142befa03b5432c922d4bc0a665cd7a437d1b2fb1d12540294081d91d33b18"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md",
+      "bytes": 8974,
+      "sha256": "6527fa46ddc21ed3d3e8c6ce4bb1f39f2db816d9fff5684e6daf4f30951c46f4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md",
+      "bytes": 21029,
+      "sha256": "3c374c3518ab9305de4ae42f5853a99248a2fd770dc2eba9f3e2bc924538767d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-primitive-and-mean-strict-propagation-to-the-waist.md",
+      "bytes": 20730,
+      "sha256": "ae01c213b63ae618e4657b5966604e7fbec4acb4763ea4b8aae848e1a40a40b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-strict-tail-from-true-branch-cut-to-waist.md",
+      "bytes": 22403,
+      "sha256": "b15c1630edba1510dc293dea447d4bfe8144680cf73523c3b3b7a237949d5938"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-true-waist-coordinates-from-saved-positive-products.md",
+      "bytes": 20033,
+      "sha256": "c5157bbb14b300c1a418642e96917b49f0f90c1ebc3571a124a26b863adc9ae1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md",
+      "bytes": 13989,
+      "sha256": "57ff88f5b022b68e78512e485528fd6b5e61b704dfd56a6003d13d24a37f8a07"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_primitive_mean_strict_propagation.py",
+      "bytes": 44298,
+      "sha256": "9d6ef721338e47e2cae8d179ce84976881df91762050d2a77d83b5399f6ba69a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py",
+      "bytes": 50111,
+      "sha256": "743e4318ca0cbdf57afde3a188013a64c2bacba0958c31fde3b42fcf8a7aa7d5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_branch_density_coordinates.py",
+      "bytes": 30290,
+      "sha256": "e05b4a9cbe5d66e03a1fb22b70c75ee48cdc885d1bd83c523d9a0173b92b0d71"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_waist_coordinates_saved_products.py",
+      "bytes": 32330,
+      "sha256": "63fc880f409151152a40a6361b781280bd3785b337cf2bd3386c03496e1b9424"
+    }
+  ]
+}
