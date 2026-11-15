@@ -653,3 +653,8 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 - Astra-ISP-789f / literature_audit（AI-assisted: GPT-6 Astra Pro）证明J=H[p]和完整特征差式；严格剥十个D-free轴，将完整小gcd降到两域各211式。
 - root全文核proof/source/0.9主文档与父11075B SHA，明确31整性硬门并修budget exit75；排120秒/1GiB，只读paidQ，不重原core/巨大Hermite。
 - 规则快照未变，交实际终端pull/rebase/push；J数值、Ω及普通ISP继续，不预填取等结论。
+
+### 2026-11-15 rank-one Bell十六次桥及两个实际执行恢复
+- normal_annihilator/root（AI-assisted: GPT-6 Astra Pro）核中心归约、四纤维完整W和CRT，给当前μ b_r^16原17来源/degree_m≤26；保全Jacobian未闭边界。
+- 全56已付modf21/corank1，故f|Ω|f²；升f²后失败，保177.99MB gen27，排只读6KB错误诊断。J首步仅父receipt工作树路径失败，改sources固定SHA副本再跑同source。
+- 本次规则未变，交实际终端pull/rebase/push；无Ω120/J22/九无乘子成员性或普通ISP完结声明。
