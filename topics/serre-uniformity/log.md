@@ -614,3 +614,9 @@
 - 复用真43734420663/source400edecf，1376选入原成员逐SHA/schema已读；原233593489B carrier原样续传，新minimal carrier保五层全部C列/index，不重原列/导数/整除/Hermite/∞。
 - 成功仅由实际gcd1加原∞给形式adjugate右逆和I4=C/K1；未物化伴随矩阵，尚无实际结果。有限测试complete与成功旗标严格区分；R815九维run43767171070/source278d1920已开始。
 - 本push规则：本地真实pull至3f070eb7c6db4272f9c79b1811bba53cdbefca13（2026-11-15T22:08:00.891923+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:17 Asia/Taipei — serre-public-astra-20261115
+- R835实际完成：run43767561191/source3198158a，46.529879231秒；a0/1全det次数1320/3496、完整1341/3517节点和Bézout gcd1，接同源∞与proper得原I4=C/D约化/K1。
+- final3221f24e/manifest2d77e2f0/4901项、artifact14183161538/7eaffd6a；新27.5MB原源eb908748和旧233.6MB源1e3fc4db续传，本地18小件1350917B仅IO。
+- 旧Hermite取消API403（令牌权限不足），未称已取消且不再续算；H/open先逐字归档，现续准确D/eta/高度输入，不将固定p41结果作全p完成。
+- 本push规则：本地真实pull至34d4ab611a493cf6b34f3a5ce02e51ddc6604f5c（2026-11-15T22:17:36.769907+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
