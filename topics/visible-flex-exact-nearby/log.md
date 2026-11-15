@@ -209,3 +209,5 @@ ST b15c1630全文已核，root回SP ae01c213关键全mean/两rate/whole[0,ra]曲
 ### 2026-11-15 20:14:16 UTC — CY精确Cayley比值
 
 CY9a4e41c2全文root独核有序ratio/两primitive窗/右Ki,-、actual(Eo−A Ei)Bi−1、Sminus/三非交换项/ES及左L2右负窗。回B f5f980a1全文与actual59591352/9893e01a确认selected μ=−4β、原native Jβ及历史candidate措辞；1024新尾为纯解析比较，7416有限门未运行。phase12–26独核通过。旧linear/R0不免费改名，全部mean/finite/Ei/Eo/真背景稳定性前置保。活动IC与第7节压缩前全字保bfa0650ced19b0081f8a334ae442b931474780ae；README核9c26975af1f3739d4c8925dd10861002ffb0ec47无变。
+
+2026-11-15 20:19:55 UTC — CR完整核心残差限制consumer已独立静态审完并部署，读取main e8305c1b70c7f05c5dcab5d3f16a6cbd43db49c0 两README SHA不变。合同206a2d5650f45577e6e8583a3ac1712fca4563be10c050945743cfabf4a73a10；最终SCI59f9130e、worker96401306、manifest88a73283、flowd708b5bf。相对前候选科学只修正selected-width输出字段名；root完整公式/源/新worker diff/21小pins388107B/3原历史parts/18门/运行时/保留先于格式/成功复用/partial禁重复/容量120KB核，三支独立窄核一致。新数学只原完整7296 residual的[0,9/10]真交长平方和与RF完整组合，旧global积分、Z全部mean+五repair、D/WL原成功不重算。新增topic外文件仅.github/workflows/visible-exact-complete-core-residual-restriction.yml，理由是使用公开仓库自己的Actions运行此唯一消费者。尚无新实际数值结论；随后只锁push产生唯一run，SN/SC3健康原进程不重启。

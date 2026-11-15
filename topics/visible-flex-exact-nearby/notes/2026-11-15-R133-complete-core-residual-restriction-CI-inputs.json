@@ -1,0 +1,354 @@
+{
+  "kind": "complete_core_residual_restriction_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "exact_new_mathematics": "Only the new [0,9/10] restriction of the original complete7296 saved residual rows by genuine closed-row intersection lengths, plus scalar repair and selected-source assembly. No old producer, original whole-interval integral, complete Z, D, WL, target, QR, Gram, or Green calculation is repeated.",
+  "source_sha256": "59f9130e024c51ce63b6138960535f986d0eaaa63dd724a1015a55729ff98f54",
+  "expected_actual_gate_count": 18,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "runtime": {
+      "Python": "3.12.14",
+      "python_flint": "0.9.0"
+    },
+    "exact_core_interval": [
+      "0",
+      "9/10"
+    ],
+    "complete_original_interval": [
+      "0",
+      "25/8"
+    ],
+    "exact_delta_half_width": "1/10000000000",
+    "exact_amplitude": "6890507429876859/9007199254740992",
+    "exact_eta0": "-7789843107295549/4611686018427387904",
+    "exact_nu0": "-2572625729470897/72057594037927936",
+    "original_row_count": 7296,
+    "original_interface_count": 6143,
+    "original_residual_degree": 96,
+    "original_state_and_repair_degree": 32,
+    "ordinary_radial_measure": "dr",
+    "ordinary_angle_measure": "normalized original moving circle",
+    "pair_norm": "Euclidean L2, with the full even mean of weight one",
+    "centre_repair_pair_A0": "0.000000000000000003861",
+    "centre_repair_pair_A1": "0.00000000000000001970",
+    "original_global_integral_recomputed": false,
+    "complete_Z_inner_source_recomputed": false,
+    "old_raw_mean_or_Z_offset_charged_again": false,
+    "old_producer_target_primitive_interface_or_Green_calls": 0,
+    "expected_gate_count": 18,
+    "nonlinear_solution_or_actual_domain_entry_claimed": false
+  },
+  "mathematical_input_sha256": {
+    "raw_manifest": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "z_summary": "e1ae6bd3ae8b9f04297fb2c9664d249c15ffe9366d15a4504444f06f08b727ac",
+    "z_process": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48",
+    "d_execution": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "wl_execution": "936633fcfb2cdc9ed3f0e108909275497337f59daea9e1fa33ee0ab40de0ec5d"
+  },
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "historical_small_text_commit": "9ae48daeadff2acbba9c7e0b2563e0a2b06ec340",
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-core-residual-restriction-contract.md"
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction.py": "59f9130e024c51ce63b6138960535f986d0eaaa63dd724a1015a55729ff98f54",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction_public_worker.py": "96401306459ceadca70659876f9219477c98098cd5a49d7fbd64a53775585a1d",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-core-residual-restriction-contract.md": "206a2d5650f45577e6e8583a3ac1712fca4563be10c050945743cfabf4a73a10",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md": "c47231215b6fc6064cfe0ef8011cc83b1ffe41796d0fc2875fd392c859ab4bca",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "topics/visible-flex-exact-nearby/notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-finish/evidence/complete-Z-source-finish-summary.json": "e1ae6bd3ae8b9f04297fb2c9664d249c15ffe9366d15a4504444f06f08b727ac",
+    "topics/visible-flex-exact-nearby/notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-finish/process.json": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48",
+    "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+    "topics/visible-flex-exact-nearby/notes/complete_waist_lifting_ci/run-43749764738-1/execution.json": "936633fcfb2cdc9ed3f0e108909275497337f59daea9e1fa33ee0ab40de0ec5d",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_merge_complete_moving_residual.py": "24ec0bf2b9d2b03ebfa07f4b39b8fdee3277f8e4b2aa14385c267122e6b8e81f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_mixed_Z_source_cover.py": "90c90fb1b21806e803e61d5f850b1d8057fcadc577452d3454b05348500a697f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_pilot.py": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-mixed-Z-source-cover-contract.md": "3567bcd86a2ae190117c9e9acb22f588085ad4d144b5da5417fccb0d666a03c4",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md": "6845d8f54208909e8b5ddf10977789106f68b635e4268cc16bd6f442e82875e7",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py": "827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_waist_lifting.py": "d6764c570b935ed760425b10aeead6dea20e406fa0a0e606c1e61ad0c027d3b6",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md": "575bd371c09d0b82a975b0c80082f652b82468c90d56d0e730da5e98602d6861",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md": "5d525aac1c64d87980494f7bbbd72feda2e06a770d113ed29823905e33bba150"
+  },
+  "file_receipts": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction.py",
+      "git_blob": "5af6cb4194815eeb6b87d2ba5e6596a562703d8e",
+      "bytes": 22267,
+      "sha256": "59f9130e024c51ce63b6138960535f986d0eaaa63dd724a1015a55729ff98f54"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_core_residual_restriction_public_worker.py",
+      "git_blob": "252f22542fe1e35da5411ef723eca1a75a94b1dc",
+      "bytes": 47287,
+      "sha256": "96401306459ceadca70659876f9219477c98098cd5a49d7fbd64a53775585a1d"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-core-residual-restriction-contract.md",
+      "git_blob": "fc5e005f033c39cb17061299d80f5fa0a377b9ec",
+      "bytes": 10408,
+      "sha256": "206a2d5650f45577e6e8583a3ac1712fca4563be10c050945743cfabf4a73a10"
+    },
+    {
+      "role": "rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "RF_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-core-residual-reuse-for-the-selected-centre.md",
+      "git_blob": "8ab20084464c58b6b4b5f374f280570d23826095",
+      "bytes": 13711,
+      "sha256": "c47231215b6fc6064cfe0ef8011cc83b1ffe41796d0fc2875fd392c859ab4bca"
+    },
+    {
+      "role": "raw_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts.json",
+      "git_blob": "413240311cf39cb0eacbd3f473525b7b59a51928",
+      "bytes": 1814,
+      "sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec"
+    },
+    {
+      "role": "z_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-finish/evidence/complete-Z-source-finish-summary.json",
+      "git_blob": "79fb51921478ac1e8682601980b35dc1cb3cb904",
+      "bytes": 21085,
+      "sha256": "e1ae6bd3ae8b9f04297fb2c9664d249c15ffe9366d15a4504444f06f08b727ac"
+    },
+    {
+      "role": "z_process",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-finish/process.json",
+      "git_blob": "df3beb2150d8eeb080a70198d22670472d41867f",
+      "bytes": 16343,
+      "sha256": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48"
+    },
+    {
+      "role": "d_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/selected_parameter_core_scalar_fees_ci/run-43713242980-1/execution.json",
+      "git_blob": "ce7af74c8b2f8cf7715775f352d2c26afb03413a",
+      "bytes": 40659,
+      "sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071"
+    },
+    {
+      "role": "wl_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_waist_lifting_ci/run-43749764738-1/execution.json",
+      "git_blob": "ac779c8c374e1d577f004eee3024f087d7e5034d",
+      "bytes": 25000,
+      "sha256": "936633fcfb2cdc9ed3f0e108909275497337f59daea9e1fa33ee0ab40de0ec5d"
+    },
+    {
+      "role": "raw_producer",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_residual_checkpointed.py",
+      "git_blob": "ceb34c84cf885a8a2c1d10fb8e42125b45376019",
+      "bytes": 12188,
+      "sha256": "98eb7034038d76a341e112927cff4bcb7bfd425bc56698305803a689060ac31e"
+    },
+    {
+      "role": "raw_merger",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_merge_complete_moving_residual.py",
+      "git_blob": "10ad6291c67dd7c2c3e153038b454b8211f11ca8",
+      "bytes": 11093,
+      "sha256": "24ec0bf2b9d2b03ebfa07f4b39b8fdee3277f8e4b2aa14385c267122e6b8e81f"
+    },
+    {
+      "role": "Z_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_mixed_Z_source_cover.py",
+      "git_blob": "c3c07b7b05488c2a389581ab6c07ff0642756af2",
+      "bytes": 26118,
+      "sha256": "90c90fb1b21806e803e61d5f850b1d8057fcadc577452d3454b05348500a697f"
+    },
+    {
+      "role": "Z_pilot",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_pilot.py",
+      "git_blob": "1fac6da3acf7116b5feef156adc845e072147e83",
+      "bytes": 31302,
+      "sha256": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8"
+    },
+    {
+      "role": "Z_contract",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-mixed-Z-source-cover-contract.md",
+      "git_blob": "2e78310c5f10c2344989675b29b32142cce2e654",
+      "bytes": 8736,
+      "sha256": "3567bcd86a2ae190117c9e9acb22f588085ad4d144b5da5417fccb0d666a03c4"
+    },
+    {
+      "role": "Z_actual_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md",
+      "git_blob": "f6d2a6ad9e00fa2e13bb3f6fed53e0dcbdf61d22",
+      "bytes": 5765,
+      "sha256": "6845d8f54208909e8b5ddf10977789106f68b635e4268cc16bd6f442e82875e7"
+    },
+    {
+      "role": "D_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_parameter_core_scalar_fees.py",
+      "git_blob": "704b1e1d4aa74e97c866c725a2524c1b8624039e",
+      "bytes": 25571,
+      "sha256": "827fcb237a79b48c095872b61c370ff2ceafc143a8dc6a1774021188ff3ea320"
+    },
+    {
+      "role": "WL_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_waist_lifting.py",
+      "git_blob": "7257f8dd331a45da8f85ffdc69651e253d0d114a",
+      "bytes": 27937,
+      "sha256": "d6764c570b935ed760425b10aeead6dea20e406fa0a0e606c1e61ad0c027d3b6"
+    },
+    {
+      "role": "complete_residual_identity",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md",
+      "git_blob": "4cd540b5da2e5f2de3aff44a52fc003ab26d5ae5",
+      "bytes": 14153,
+      "sha256": "575bd371c09d0b82a975b0c80082f652b82468c90d56d0e730da5e98602d6861"
+    },
+    {
+      "role": "exact_centre_repair",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-continuous-repair-of-final-centre.md",
+      "git_blob": "7338254acdfdab61bd22124d964a4231791b9f7f",
+      "bytes": 11484,
+      "sha256": "a39fcfa2b7ca6f83cd9fadcc1987afe86f3364830848de78d2401469d7ce9f44"
+    },
+    {
+      "role": "raw_mean_correction",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-raw-response-mean-identity-and-corrected-collar-source.md",
+      "git_blob": "7f4455905e182accb35c2bbe0e6564d78faf543c",
+      "bytes": 12725,
+      "sha256": "5d525aac1c64d87980494f7bbbd72feda2e06a770d113ed29823905e33bba150"
+    }
+  ],
+  "historical_native_receipts": [
+    {
+      "role": "raw_part_000",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "bytes": 1910756,
+      "sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+      "payload_bytes": 2000000,
+      "payload_sha256": "1e58c2138dd568167314c51805cf26e8670dbfb76d5797f8ebe406b8c20a2a88",
+      "original_offset": 0,
+      "restore": "exact Git history to runner temporary work only"
+    },
+    {
+      "role": "raw_part_001",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "bytes": 1947563,
+      "sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+      "payload_bytes": 2000000,
+      "payload_sha256": "adaee651b2357c0a10882e14c94b8b8ce9f61f3340ae13debcc67d8e8bb4e09d",
+      "original_offset": 2000000,
+      "restore": "exact Git history to runner temporary work only"
+    },
+    {
+      "role": "raw_part_002",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "bytes": 571365,
+      "sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf",
+      "commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+      "payload_bytes": 592623,
+      "payload_sha256": "4390b1ae0584097a3a70024a798f6c9e5d541bc0e67181d7896fb511d3cf0791",
+      "original_offset": 4000000,
+      "restore": "exact Git history to runner temporary work only"
+    }
+  ],
+  "complete_small_input_count": 21,
+  "complete_small_input_bytes": 388107,
+  "original_complete_native": {
+    "bytes": 4592623,
+    "sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+    "rows": 7296,
+    "interface_count": 6143,
+    "parts": 3,
+    "manifest_sha256": "0705cb80101f25105d74181aafdf9daaf5a65baeece2d41e8a25b4589259cdad",
+    "old_rows_recomputed": false
+  },
+  "maximum_original_Git_blob_bytes": 5000000,
+  "new_scientific_timeout_seconds": 900,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "execution": {
+    "only_public_Actions_mathematics": true,
+    "arithmetic_bits": 320,
+    "new_source_AST_before_evaluation": true,
+    "source_and_worker_runtime_before_success_reuse": true,
+    "immutable_original_texts_AST_only_no_import": true,
+    "only_three_original_binary_parts_restored": true,
+    "temporary_original_artifact_downloads": 0,
+    "new_artifacts": 0,
+    "new_Releases": 0,
+    "new_reproducible_array_commits": 0,
+    "pre_math_complete_conclusion_capacity_reserve_bytes": 120000,
+    "maximum_topic_bytes": 200000000,
+    "complete_scientific_limit": 45000,
+    "complete_prepublication_science_and_report_limit": 59000,
+    "complete_execution_limit": 59000,
+    "actual_result_markdown_limit": 12000,
+    "prepublication_status_limit": 1000,
+    "full_atomic_science_printed_before_any_size_guard": true,
+    "live_child_stdout_preserved": true,
+    "runtime_preserved_in_science": true,
+    "complete_success_reuse_required": true,
+    "wrapper_failure_does_not_authorize_science_repeat": true,
+    "typed_read_only_metadata_retry_preserves_healthy_child": true,
+    "actual_pull_and_live_rules_before_every_capacity_check": true,
+    "publication_retry_seconds": 600,
+    "no_stale_capacity_accepted": true,
+    "original_complete_Git_part_hashes_verified_before_new_arithmetic": true
+  },
+  "prior_successful_mathematics": {
+    "Z": {
+      "run_id": 43613560173,
+      "attempt": 1,
+      "complete_gates": 6,
+      "summary_sha256": "e1ae6bd3ae8b9f04297fb2c9664d249c15ffe9366d15a4504444f06f08b727ac",
+      "process_sha256": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48",
+      "full_raw_mean_and_continuous_offset_already_paid": true
+    },
+    "D": {
+      "run_id": 43713242980,
+      "attempt": 1,
+      "complete_gates": 12,
+      "execution_sha256": "6956c214240cd85e6263331b33e0c7efcf6abc3e71190d46ff3eabddecd35071",
+      "exact_selected_delta_half_width": "1/10000000000"
+    },
+    "WL": {
+      "run_id": 43749764738,
+      "attempt": 1,
+      "complete_gates": 18,
+      "execution_sha256": "936633fcfb2cdc9ed3f0e108909275497337f59daea9e1fa33ee0ab40de0ec5d",
+      "whole_core_positive_products_already_paid": true
+    }
+  },
+  "scope": {
+    "new_old_row_quantity": "ordinary L2 squared component bounds restricted to the genuine [0,9/10] intersection",
+    "full_even_mean_retained": true,
+    "exact_alpha_applied_once": true,
+    "normalized_moving_angle_not_physical_angle": true,
+    "radial_P_or_weighted_state_conversion_applied": false,
+    "original_global_records_copied": true,
+    "complete_Z_inner_full160_and_low193_records_copied": true,
+    "old_Z_raw_mean_or384EZ_charged_again": false,
+    "complete_background_choices_kept_separately": 2,
+    "entrywise_min_used": false,
+    "known_f0_residual_support": 96,
+    "unknown_nonlinear_residual_support_not_assumed": true,
+    "actual_core_solution_proved": false,
+    "actual_low_cut_or_cap_domain_entry_proved": false,
+    "full_high_inverse_proved": false,
+    "final_surface_proved": false
+  }
+}
