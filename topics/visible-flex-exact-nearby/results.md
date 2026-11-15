@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 PGA**：[实际完整主因子逆的两窗对数界](results/R133-supplement-actual-complete-principal-inverse-logarithmic-certificates.md)，43770122351/1首次成功；完整A0/A1、V0/P0/B1/3/P4/3和两个log证书，20门/60字段齐。两optional Neumann失败完整保存、全mean同一ODE逆成立，未授物理incoming或Schur。
+
 - **已证明 PIB**：[完整主因子逆的伴随逐级增益](results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md)，已有完整L2逆经H1/3、H4/3和duality给同一负窗逆及无需exp的新log候选；保全mean，optional同号门尚无actual signed输入。
 
 - **已证明 WEA**：[实际已付腰部强误差装配](results/R133-supplement-actual-paid-waist-strong-error-assembly.md)，43769746581/1首次成功；三完整状态差、独立port因子、有序state因子和paid总上界均成，原CG整费一次。六retained仍exact-border-unpaid，未授完整Ei/Eo、incoming、Schur或R0。
