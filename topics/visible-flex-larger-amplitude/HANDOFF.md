@@ -40,4 +40,4 @@ Sameg v4 freezes allp*/g/t, releasesK=k=0/activep=[]/T=M/state4M+2.699bisect1397
 78 actualrun43662193286/source11b5d25c allworkflowSUCCESS, smallartifact downloading for geometry originalread; candidate outcome unknown. Workflow1fd040e6/request30c288e9/interface0c55a6f7 starts exact77finalp, same3b9 scientificsource/68pins/fourinputs/8steps, only original supportedbacktracks20 (through2^-19),sameArmijo/tol/Arb/full112. Sevenbash/fourinlineAST passed; real result pending. Exact agent preparing full high109 diagnostic, not a low3 substitute.
 
 
-规则同步记录：2026-11-15 01:18:18 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fec228bbdaced25ffba4ec15bed533bf326c74c0。
+规则同步记录：2026-11-15 01:22:37 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 61942f9abc225b76f74ec52b0df7394faa891d84。
