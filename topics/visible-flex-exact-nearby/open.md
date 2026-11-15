@@ -161,3 +161,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 新fixed-stop同对象94链已成；实际graph初入口与全Schur继续
 
 [P1–27](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)现在用实际X/H而非抽象帽输入，全部复标签球限制共同反射a_-m=a_m，原C8/C24/C29与R§5保证tail/逆/每step同域。新far残差<2^-5280041760只是准确强角斜率，不等于Nash普通三径源或augmented端口范数。tail接同B界面实际lifting、完整κ mean与一个λ、physical wB/新ρ/ε/有限高norm，再核reference graph低球/initial threshold；inner γ选择与B/Cmean/phase/ν仍独立。
+
+### 当前实际帽的moving读出已闭；同一内端还须匹配
+
+[Y1–19](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)已给X的真实物理→moving全局复条带逆及原相位规范，两个mean按准确公式输出。这个读出保同固定η0/α/ν、内B/Cmean/phase未预设相等，q≤8160有限高界不冒极小M8212球。下一把该真实inner输出与mixed-body/ν端列合并；zero-width两未知输入的finite-Sob映射另外建设，不从Y的analytic域免费扩授。

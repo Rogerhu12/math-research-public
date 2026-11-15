@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 Y：实际帽的moving读出、归一角与两mean](results/R133-supplement-actual-cap-moving-readout-with-normalized-angle-and-both-means.md)：任意物理复pair邻域ρ3e−6中j=C/C0，Rej>15/32，周期全局inverse含S_(σ/16)；τ=2^-18完整joint moving pair<2^21。复contour证明原zero-mean角规范及m=1/C0、ubar=<B>/C0准确，无丢phase/mean。用于实际X后解析参数依赖与q≤8160有限值/两参数半球导<2^262144已付；不授rough输入、原tiny高球或全匹配。SHA256 0a08995fcfc7699249e9ef20bb661bfdcd3545896dbb4b2cc81f61c0eaf963ee。
+
 - [R119 P：新fixed-stop对象与实际帽的完整94链](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)：同S25/S26/C18/J18，全部复标签球/导数/94步严格a_-m=a_m，与当前X/H复偶域同轴；全正负mode都计。小σ帽通过同真实long Green另付incoming大宽与非零fB mixed（320/5⁄8/mean1⁄24）；Ra2^-55000000、β94=66624、真实far斜率<2^-5280041760。每步保Γ/Φ及真mean/物理w_B/唯一λ；仍须界面lifting/三径graph源和augmented全入口，非旧94改名。SHA256 83381f93444f8929eda0ec667fdd36e451bb420a4dc63c61e8648d80d731dc4b。
 
 - [R133 G：真实reference完整有序源与整域相关消去](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)：精确μC旧变量式无需除T/反坐标导，三local向量保n^-k输入次序；六old-circle项/五mean/物理两源及seams完整。新whole forcing先消同mean径向项，Vrad与离根z0势分开，全部ΔV0/ΔR/μM0及有限频曲率项保。G15全输出列范数与正graph仍条件，G35/36是待公开新消费的精确配方，无新增强源常数。SHA256 c3267f91b1d1e767acbe2b1a1e33507f4811f3f944cdece305d2bed49c54da4e。
