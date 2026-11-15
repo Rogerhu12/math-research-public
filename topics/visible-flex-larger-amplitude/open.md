@@ -30,7 +30,7 @@
 
 124/128的原来源、全部源和300/330/350预算见各自入口；真实完成范围现分别由R315/R319结清。原120首次完整H失域不证无解，没有正λ完整接受父可自动接450。
 
-[R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)已完整结清：15call启动/14返回；零H真converged/residual0，随后13正s×10trial共130个stage0/rawCell0/rawSegment8 D/S/A域拒，全部当前withJ基点已返回。最后返回s3.814697265625e−6/norm47.989089918750544，第15 s1.9073486328125e−6 in-flight时真实规则SIGTERM，runner77/child−15/10822.942995484s而budget_exhausted=false；不补其数学结果。原warm实际采用，relative指标分母含1e−250，不能把e252冒绝对位移或唯一归因warm。全15行/130trial范围与原身份见正文；未到s1/338J/FD/fullDN/audit。145改当前H/完整states/fresh全withJ的全cut+576stage+far R273候选，原warm先保以区分作用，原10档noJ/D/S/A/strict decrease和全部原终门保留，直接公开实现。
+[R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)全15call/14返回：zero收敛，13正s各10trial全stage0/rawCell0/rawSegment8 D/S/A拒、当前withJ完整基点已返；最后norm47.989089918750544。第15 s1.9073486328125e−6未返即规则SIGTERM/runner77，非budget耗尽；relative分母1e−250不能唯一归因warm。完整原值与全部130trial见正文，无s1/338J/FD/fullDN/audit；145原warm先保而改完整系统候选。
 
 [R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)run43702058809/source3ee6c538：8call启动/7返回，zero895.1974098029999s收敛norm0；6个正s从1/64至1/2048各原10trial全stage0/rawCell0/rawSegment8 D/S/A拒，withJ完整基点均返回，末norm677.0568077768113。第8 s1/4096未返，12:17:44原README变化SIGTERM/runner77，8124.568825915s未耗尽18000s；两job摘要33756B/aa9f9c0f逐字同，原60trial全读。原warm/cache/所有来源和输出SHA在正文，无endpoint338J/FD/fullDN/audit。真127九p不是124六p的同初点对照；145保持124来源，当前全H/states/freshJ QR候选及原十档/严格下降/最终门不变。
 
@@ -78,7 +78,7 @@
 
 R294同时给固定原g的cut atlas兼容并分C0/C1/C2层级：几何图的v,b须与原目标使用同一图；有限Gauss必须对自己的实表达求导，独立常数/mask/clip和stored width不能靠小差冒恒等。九C²bumps不修基底jump。R286内cuff允许E=(1,0,0)平延拓；natural外端则E=1+w²、E_r<0、E_rr>0，不能接常值。准确位置修补可按同g重新支付全角两jet和Gram/完整像误差，不能改g掩不兼容；C²目标六式本身不新增原BVP门。后继直接用真实完整场绑定已付结构，积分132部分结果仍按R293负责全部未付域。
 
-[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)已完整证明原最后保留片的条件clip障碍：真实正邻域、正Gauss权和非零dyadic初相位给半径一阶非零jump，任意九C²控制不消它，真求积但保clip也不消。若准确finite对象就是既定g且a>0，C²准确等距不可能；未读取实际descriptor前不把前提假填为满足，也不推出有限C0相对metric下界。原浮点程序、准确finite/mask实表达、另声明真积分模型必须区分。仍可按R294同g处理准确几何及闭格比较；搜索阶段转向显式新连续g族时必须另身份，全九控制/原域/完整BVP等全部重新求值，旧参数和场仅初猜。[R300新连续九族](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)现已证明准确core、两个短速度Hermite片及显式coast长度构造正半径/严格|a′|<1基底；全九degree6/7/8独立且0附近有开可行域。主模式cut三次collar用真实E/E_r/E_rr匹配同尾目标两jet，无需自然Rout外延；可选真弧长重合才另付外侧合法域。有效dyadic选择须收敛可计算输入，任意深根族或一次粗包围不够。旧134参数不自动合法；新准确factory/数值BVP仍须真正实现，公共u域保L²拉回，完整方程与全部final重求。
+[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)已完整证明原最后保留片的条件clip障碍：真实正邻域、正Gauss权和非零dyadic初相位给半径一阶非零jump，任意九C²控制不消它，真求积但保clip也不消。若准确finite对象就是既定g且a>0，C²准确等距不可能；未读取实际descriptor前不把前提假填为满足，也不推出有限C0相对metric下界。原浮点程序、准确finite/mask实表达、另声明真积分模型必须区分。仍可按R294同g处理准确几何及闭格比较；搜索阶段转向显式新连续g族时必须另身份，全九控制/原域/完整BVP等全部重新求值，旧参数和场仅初猜。[R300新连续九族](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)现已证明准确core、两个短速度Hermite片及显式coast长度构造正半径/严格|a′|<1基底；全九degree6/7/8独立且0附近有开可行域。主模式cut三次collar用真实E/E_r/E_rr匹配同尾目标两jet，无需自然Rout外延；可选真弧长重合才另付外侧合法域。有效dyadic选择须收敛可计算输入，任意深根族或一次粗包围不够。旧134参数不自动合法；新准确factory/数值profile现已实现，实际新BVP仍须执行；公共u域保L_true²拉回，完整方程与全部final重求。
 
 [R279](results/R279-finite-field-direct-continuous-curvature-certificate.md)、[R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)、[R281](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)、[R282](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)条件证明已付；现需同一实际场的连续六jet、法向球、材料图、全空间×两RP1相位覆盖及所有未付叶。不得把fixture或条件证明写作实际reach。
 
@@ -119,6 +119,9 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 
 [145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。
+
+
+[新连续九族v3完整实现](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)现已发布：恢复原三源650a/93cc/b154原字，新factory0d8937/numeric7cfab1/physicald86f6f独立身份。只接f12f原result/input/query和1c39完整点两jet读回；factory其余25定义/numeric13/flow5逐文本保留，准确E语义叶/全部九shape/公共u与L_true²/f76原full physical/NaN政策保持。三个中点仅数值搜索近似，不冒同根真实jet/C²/新C J。暂无实际factory或新BVP；真实144数据须同job消费或同源重生，明确core/recipe并付同C有限头/全112端口，不能凭hash复原raw或把有限盒当任意精化oracle。
 
 ## 5. 存储和原件维护
 
