@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WL 实际完整 original96 腰部第五列与六个已知贡献已成。** [实际全文](results/R133-supplement-actual-complete-original96-waist-lifting.md)9a4d19bd：公开43749764738/1 child0/18、8pins/2AST；root独立复原SCI4bc0980f/preGit0cfb9ab7并逐字核34球。由原D正算法固定ε提新B*/G*，NF完整384/mean给a*/ell*；同CPA两case各三wY与WA腰球一次乘积均成，wholebody约3.248351886e−16/3.147989468e−16。没有重旧rows/积分/Green/WA，actualγ域、另四源、独立high/mean与真实PDE解仍待。
+
 - **SN 丢失参考续跑包与终点分导读出部署。** 在已发布 7edf79c7 恢复合同和 18a3a7f6 丢失范围下，SCI6c63241a/worker022f998c/manifestf6e5f9fe/flowc7cf0ce3 仅重建原314×4有限参考并读取1256成功预算，从next2831继续；207pins/8AST/21门设计。新终点保存双branch四导标量，完整physical A1/128尾且原H3公式不变；typed只读metadata暂错不杀正常child。root及两peer静态核通过，尚无新最终C，所有原mean/无限频/真实参数费用保留。
 
 - RR新completion consumer部署：35固定输入13515985B、9AST/28门设计，same-germ signedK1 FTC与joint Bfree·g后四physical读出。旧四ΓwΓp、原domain和产品只读；原两archive身份不变，body字节补实际1167787。数值待唯一自然公开CI。

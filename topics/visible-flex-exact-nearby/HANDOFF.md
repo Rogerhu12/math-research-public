@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 19:13:23 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 19:14:30 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
-本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 18:44:44本轮定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤19:44，ref不冒pull。runner18:39:40.392329真pull4781aac81b53ad3179a51e53909e45d89f5ffe87双README空diff。
-最近只读README核：a0f28a08e309292887c2c950896dc00ce5510bd0；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 18:44:44本轮定时CLI及每次非FF即时CLI仍失败。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；下一定时真CLI≤19:44，ref不冒pull。runner18:59:23.174390真pull dc282749384a4416e89d2f544a139779983dbec0，三README记录空diff。
+最近只读README核：b8bd86a2b206306962b4cf62b7b3c940a46a13cb；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保21ad67119ea940c72c368c7874c9d0cba01b3f99同路径，递归2f8be6/19df/30337/b13dfa/f010/656b/66d375/31e2/908da2/3f716/96001/5fd5旧档；所有域/mean/单位/失败/restore/未付义务保留，成功禁重。
 
 ## 同一个对象与总验收
@@ -35,7 +35,7 @@ NF9c33e882完整散度N保两mean，Π96角导付384，值和真正Lipschitz分�
 帽X/M/I/R/CS全部旧域与units保63905及原文：γA0≤1e−9、fBdotA²<2^-60、ρ3e−6、unknown high/完整97/mean/metric-height不能删。I旧wholebody差1/5与F失败原保。
 CP actualca05fbe7：43741463694/1 child0/18+5+两组3strict锁；full/tail κ.0019952502133/.00196507842537、det.24612876846/.25397668235。同域三窗四列/mean保f010，νvolume非全ν，不授whole/high/入口。首失败及全部Hessian/单位保；AR5b35ab58的κ一次/exactmean/height7/25/非零affine/腰/high不删。
 CH1e443100/SR43da1e99完整式/域逐字保215af6c4f07f58afeb5276fc51e3db73979c0c6d同H/open及原proof：realH1 norm-sumρ≤2^-10、chart值128H1pair²/差2^11ρ与exactmean保持。sameCPA对任意完整||K||≤κ统一，actualγ凸段割线在左，highcut已含cY；右仍affine/height7/25/high/腰。wholecore/H1/γ域/height导数独立，未授解；第五列用WL而非旧κ0wY。
-WLe2e9d6d4：D正算法M0≥3bKp(14ε+ε²)、M1≥GpKpε，固定旧ε=19e−10由wholecore max提Bk/Gk，非任意norm倒推。M=7+ε/Mφ=6+83d代NF384完整a*、ell*=L^-1/2+a*√(L/3)，同CPA两case各三wY乘WA同d腰范数。SCI d6764c57/workeraba70688/manifest70c8488c/flow92c2b3d8本次部署，8pins214104B/2AST/18门设计，全UTF8现identity root核、SCI全文/worker相对IN仅小diff核，唯一自然run待。无旧rows/积分/Green/WA重算；mean/high/γ域和其他四源独立。
+WLactual9a4d19bd：43749764738/1 child0/18、8pins214104B/2AST锁。exec936633fc/SCI4bc0980f/preGit0cfb9ab7双hash及34球root精确核。D正算法固定ε19e−10提B*4.729884448/G*13.861871569，非任意norm倒推；NF384保mean给a*73092.47130/ell*40035.44941。同CPA两case三窗完整腰列均成，WA同d球只乘一次；wholebody已知贡献约3.248351886e−16/3.147989468e−16。无旧rows/积分/Green/WA重算；γ域/其他四源/high/mean/ν/真解独立。全部原球/域/源码/容量/恢复见actual原文。
 WAactuale81087a2：43747940791/1 child0/13锁；execae7c3b79/SCI91a93919/preGite3411257完整33字段及原球root核。11pins/4AST，新base65bitwise过、Z193/两e0只读；raw96/√2/baseα一次，三exactrational/四d端max保30337。d1e−10 norm约8.923e−26，base/Z均非exact0；只已知族不扩PDE域。
 SA85e07aba：D0 value的Hessian准确消，只用旧formalGram；完整97的outer/mean/jump/selected左缺陷保。IBP/forwardΘ共享三类128moments待actual完整指数/径向尾。SA29–31已知端−<zL,ΔWδL>及eLδ(yL−ΔLδ)准确，ELδ/Yδ须真付；body/outer仍原y。全部旧预算/SA24/26/RW域保f010，旧QR/7908禁重。
 SC927c3ba2新合同：用精确径向Wref从known affine全体/两端同时减去，三类完整128 Fourier矩共享给97列；二阶径Taylor+完整三阶/指数尾，不改unknown y/旧所有fees。逐7908原row重核单candidatepiece/原midpoint，不授跨片延拓；原core689bf2c5 gate全文核。target96无√97，外端用A15 repaired1.3e−15/2.05e−19/原完整f球不双付height。SCI准备中，旧QR/Gram/7908 producer禁重，actual小门未付。

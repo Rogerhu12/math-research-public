@@ -72,7 +72,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [WA合同](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab及[actual腰输入](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)e81087a2：43747940791/1 child0/13/11pins/4AST锁，execae7c3b79/SCI91a93919/preGite3411257全核。base65位门过，Z193/两e0只读；原96/√2/baseα一次，三rational/四uniformmax全保30337。d1e−10 norm<8.923e−26且base/Z均非exact0；不删源、不扩PDE域。
 
-[WL完整腰部延拓与同CPA第五列](results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md)e2e9d6d4已root/phase全文核：原D正算法各row的M0≥3bKp(14ε+ε²)、M1≥GpKpε，用固定ε=19·1e−10及已成whole_core maxima提Bk/Gk；不是任意operator norm倒推。M=7+19d/Mφ=6+83d代NF的完整384/mean/rank，ell*=L^-1/2+a*√(L/3)。SR的sameCPA两case各三wY再乘WA同d腰球；只新scalar，无旧40parts/6376rows/Green或积分重算。新SCI d6764c57/workeraba70688/manifest70c8488c/flow92c2b3d8本次部署；8pins214104B、2AST/18门，root所有当前小原件SHA/bytes全核，source全文及worker差异核。唯一自然公开CI待取，不授新数值；其他四源/wholecore/γ入口/high/ν/真正解仍独立。
+[WL完整腰部延拓与同CPA第五列](results/R133-supplement-complete-waist-lifting-from-saved-positive-scalar-algorithm.md)e2e9d6d4及[实际完整第五列](results/R133-supplement-actual-complete-original96-waist-lifting.md)9a4d19bd：43749764738/1 child0/18、8pins214104B/2AST全success。root独立复原SCI15873B/4bc0980f与preGit17918B/0cfb9ab7，34完整球逐字与exec936633fc核。原D各row正summand/wholecore maxima及固定ε19e−10给B*=4.729884448…、G*=13.861871569…，不是任意norm倒推；NF384/完整mean给a*=73092.4712995…、ell*=40035.4494071…。sameCPA两case各三完整wY均成，乘WA同d腰球一次，wholebody贡献约3.248351886e−16/3.147989468e−16（原完整球在actual）。两mean/独立highbody-highcut及actualγ域完整保留，其他四源/ν/wholecore/真正解不因本列成立。旧40parts/6376rows/积分/Green/WA rational dot成功全部只读，禁止重算。
 
 ## 4. 实际帽图与完整core接口
 

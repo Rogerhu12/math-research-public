@@ -300,3 +300,13 @@ README 在 a0f28a08e309292887c2c950896dc00ce5510bd0 核两blob不变。此前两
 root全文审恢复核心/worker，并比最终terminal差异：reference_H3只缓存原值，另8个未曾完成终点的Parseval scalar，加saved errors与同Gaudit完整A1/128 Cauchy各导尾；该尾本含双sign和强制meanfee。没有由H3球除常数倒推分量，没有重旧准备/1256残差/parameter/Gram。每branch保q0..3的reference/error/tail/full四数组，原H3/角误差Ej独立不改。两peer独核通过。原点参考递推与原六函数都已核，prefix旧hash不可比不冒核，suffix诊断范围明确。
 
 worker只对暂时read-only metadata故障有限重试并保healthy child，先实际pull/README/pins再capacity；真规则/pin/schema/容量失败仍硬停。终局先写SCI/stdout再publication，typed final retry至600s。无新artifact/Release/数组Git。自然push唯一续跑待actual；完整C、强返回、incoming/GH与PDE核心尚未完成。
+
+## 2026-11-15 19:14:30 UTC：锁定 WL 全部第五列及同参数已知腰项
+
+在 b8bd86a2b206306962b4cf62b7b3c940a46a13cb 核两README blob不变。发布actual proof738bddd45963844ead8697a6102e691be75776cc/14827B/9a4d19bd632069c3fc7f2ae8ca6f52a3783fff73a1dd021645213ba3684ae968。root全文核定理、原算法可反读的正summand、三窗源单位/两case/双mean/high与γ域；亲取完整jobs3201B/a7e2c9b00bf87cf407f0268af1ef6de64433b018ff9046628866f8ef697b46e8核job132920905767全success 18:58:44→18:59:32。公开43749764738/1唯一自然run，child0/18gates/8pins214104B/2AST；数学.003677701000000866s。
+
+exec ac779c8c374e1d577f004eee3024f087d7e5034d/25000B/936633fcfb2cdc9ed3f0e108909275497337f59daea9e1fa33ee0ab40de0ec5d；report0958fa72fbab5892fa83afe3cb52e9fbb8f10ad0/2912B/c6388549f2d9b9e7f2d839484dd67eb2076598a76c13f9690ff2c89555b5aabc。root按source原dict插入顺序独立恢复原SCI15873B/4bc0980f58d3d334d10d70e2e36f2dbe6501b54e27f3b907e8760b411820b35c；按worker21字段恢复preGit17918B/0cfb9ab794f979a88abd4c4f7d18995d7e400a13d8eeb4d784c7c2d2f959268f，均byte/hash完全相同；34球全部逐字存在原science，exact U0/JN分数原式一致。无科学重跑。
+
+B*=4.729884448094…、G*=13.861871568892…、a*=73092.471299520…、ell*=40035.449407099…是本次新scalar。两同CPA case各三完整original96 waist列、六个WA同d=1e−10球的一次乘积均成；原完整directed balls在actual，摘要小数不冒新球。γ入口/highbody/highcut/完整mean/其他四源/ν与真解独立。
+
+最末runner真pull18:59:23.174390至dc282749384a4416e89d2f544a139779983dbec0，三README空diff。该次记录topic199786696→199814608仅旧出版时容量，之后3d6fb已删1221901B，不作现在容量主张。temporary5046B/b4ac34e1与stdout236B/7621da6b只保hash，无新artifact/Release或数组Git。完成此子问题后继续SN/RR/TN/SC及完整core，无总验收宣称。
