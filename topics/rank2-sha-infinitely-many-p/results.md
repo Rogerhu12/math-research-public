@@ -262,3 +262,5 @@
 - [R698：保旧17²类的A三十四层返回与完整CM算术词](results/R698-adjusted-cm-and-thirty-four-layer-arithmetic-words.md)：固定[68] A/Q覆盖上旧gπ²奇部分阶17，whole A34准确为耦合二挠核；adjusted CM13/19与之逐项交换。保所有角型的固定来源在同一原A/Y/Z真词上返回S/new/参考，原Π0不穿A深，H双门/12次差及W/V补域完整保留。
 
 - [R697：保完整三层的最高项修正与同R顶三charge余项](results/R697-full-third-normal-top-reduction-and-same-correction-cap.md)：唯一c_F F³消去保全3C，非固定最高根准确双极要求Vrad²|Q；固定角整提升给同预算完整首像吸收。后续同P₂=Pfact+pR的障碍准确压到C_R=Π>D(μR)及原μphys·d2，完整提升判据保全旧目标/两13行/非单位成本，未判指定非零。
+
+- [R693：中性三十次权、完整半周期关系与同门双S/T返回](results/R693-neutral-thirty-degree-carry-and-complete-st-companion-return.md)：完整半周期准周期/+i绝对号付ell72=3^9δell34，29中性G列+c0给真实30逆并在同ray密度一全N4整。原π4保持，两冻结c0S/0、cd=S、nativeW=6δT、J2=1；相同E深/浅及横Z/V/W三态回原S/T，P30和全部J2/8/14/20/26、高质量及T混合补域保留。
