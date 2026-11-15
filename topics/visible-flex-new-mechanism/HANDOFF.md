@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后已读规则提交：`954515ffe4d41b0bc36c04d78cf275314e693e48`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`e6a012b8cb8e3da9ab1a0154dbb2d520e1960543`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 04:28:52 UTC实际pull至`589cd54e75bff1d9ec80dcb6688afa71e898c381`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅元数据notes/terminal-private-pull-20261115-0428.json。05:19连接API观察main7863a4ab，根blob无差/题README仍无，QUEUE本行仍进行中；这不是实际pull。终端不可用期间按根8读取，恢复即实际pull。
 
@@ -47,7 +47,7 @@ R183：四台阶+三个左补矩包给真正重叠圆，三射影平台不能GL2
 
 **R187已付**：R183矩形补偿的复平方幅全实，q″逐点实/纯虚，I4=∫(f″⁴+g″⁴)>0。真实常态pure σ²首项为−(1+k²)²(1+e_c²)³I4/(12288 h⁵λ⁷)，原尾/交叉forcing和Möbius因子保全；全部二/三gauge不动它。只排充分窄化类，不排任意宽度。**R189去常段桥已证**：R70正则8参数加1个h补偿参数精确守M/ω终值/frame，端全jets固定的Fréchet扰动+Baire去除所有有理区间常状态；任意有限阶贴近原桥。固定有限交换词/R72桥/Klein新实际位移仍给闭M0/TκH与完整R183三阶。只移除常段前提，不给具体数值桥或fourth。不得为已排不交/窄类重跑。
 
-**当前actual43680023529/source9b7c07f**：growth job132708447996科学阶段complete、开发stdout passed，但printer先展开98KB开发诊断触发20KB门，实际科学表未打印；publisher仅hash回执成功，不能据此宣改善。正修只读printer并公开恢复必要临时输入/结果；**R193四系数job132708447958已完整**，23新人工过，4×4有理槽全正，故ReF(qλ)>0对全部λ>0；同一准确补矩C∞邻域全宽度保正，全部二/三gauge不能动pure σ²。root全文读设计/源/日志/receipt。仅标准(0,1,0)原八包，λ支撑[λ,155λ]须在I，不延至一般状态/无常段。新publisher只交receipt来源/参数/run/hash，无payload/artifact/Release；只读日志保全部科学门和失败。
+**当前actual43680023529/source9b7c07f**：[growth观察失败](notes/trust-growth-observation-failure-20261115.md)：job132708447996科学阶段complete、开发stdout passed，但printer先展开98KB开发诊断触发20KB门，实际科学表未打印；publisher仅hash回执成功，不能据此宣改善。正修只读printer并公开恢复必要临时输入/结果；**R193四系数job132708447958已完整**，23新人工过，4×4有理槽全正，故ReF(qλ)>0对全部λ>0；同一准确补矩C∞邻域全宽度保正，全部二/三gauge不能动pure σ²。root全文读设计/源/日志/receipt。仅标准(0,1,0)原八包，λ支撑[λ,155λ]须在I，不延至一般状态/无常段。新publisher只交receipt来源/参数/run/hash，无payload/artifact/Release；只读日志保全部科学门和失败。
 
 **R191已证**：任意w紧支撑在f/g共同常值平台，canonical完整Bθw准确0，任意合法共同入值下商modW零；真实右尾与s历史全保。hook的Lf w亦0，六矩自动0，二阶平方/交叉仅三矩由R47真实第三右逆支付。无限维平台自由度不扩大joint商像。下一单独研究f常/g变区，不能套此结论。
 

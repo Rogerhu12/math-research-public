@@ -20,7 +20,7 @@
 
 新控制器仅允许有条件增长下一模型trust：从末态/全池/r1/64000/streak0；两个连续模型都首α1主步全门接纳、ratio≥3/4、真实步norm≥.9r、粗细任何新行0、无SOC/回退/缩步，下一r×2，上限新增为1/1000。其余重置计数，旧缩步优先、每模型至多一次。主代价、原floor/drop/mintrust和12LP40值120s预算均不变；24输入/98args，公开job先付新摘要去重人工，再实际。旧代码没有最大trust字段，不能说新cap是旧门。
 
-新growth actual43680023529科学阶段已报complete、开发stdout passed，但日志提炼先递归巨大dev诊断触发20KB错误，实际科学模型/门尚不可读。新根15已不存payload，正在只修只读printer并public恢复必要输出；不据complete状态猜接纳、下降或增长成功。
+[growth观察失败](notes/trust-growth-observation-failure-20261115.md)：actual43680023529科学阶段已报complete、开发stdout passed，但日志提炼先递归巨大dev诊断触发20KB错误，实际科学模型/门尚不可读。新根15已不存payload，正在只修只读printer并public恢复必要输出；不据complete状态猜接纳、下降或增长成功。
 
 所有旧Schur/谱/adaptive/reserve/physical失败身份保留，不原样续预算；新实际到达即接真实缺口。当前只有限两网数值通过，离准确同g和完整reach仍远。
 
