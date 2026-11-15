@@ -15,13 +15,13 @@ jobs:
   actual-pull:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      RANK2_RULE_SYNC_DIR: ${{ runner.temp }}/rank2-sha-rule-sync
     steps:
       - name: Sparse public clone, actual pull, and README difference
         shell: bash
         run: |
           set -euo pipefail
+          RANK2_RULE_SYNC_DIR="$RUNNER_TEMP/rank2-sha-rule-sync"
+          export RANK2_RULE_SYNC_DIR
           git -c maintenance.auto=false clone --filter=blob:none --sparse --depth=1 --no-checkout --branch main https://github.com/Rogerhu12/math-research-public.git "$RANK2_RULE_SYNC_DIR"
           git -C "$RANK2_RULE_SYNC_DIR" sparse-checkout set --no-cone '/README.md' '/topics/rank2-sha-infinitely-many-p/README.md' '/topics/rank2-sha-infinitely-many-p/ci/rule-sync-request.json'
           git -C "$RANK2_RULE_SYNC_DIR" checkout --quiet main

@@ -6,16 +6,16 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ffe069ab4fa924c611736f12a43c313a6d408cb5；2026-11-15 01:55:04 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:55:02 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：688c4d6f0d96a5cd90ce638b6b52d4b1800c4823；2026-11-15 01:57:31 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:57:30 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
-- 只读Actions rank2-sha-readonly-rule-pull已请求实际pull及规则差异，成功日志待取；与本地断连分记。
+- 只读Actions rank2-sha-readonly-rule-pull首跑43665311173未建job；已移除job级runner表达式重送，待取实际pull日志；本地断连分记。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–643及R646–647已登记；R364/R561仍开，R637/R644/R645/R648/R649进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r636-supplement.md)、[open](notes/2026-11-15-open-before-r638.md)。
+R1–363、R365–560、R562–636、R638–643及R646–648已登记；R364/R561仍开，R637/R644/R645/R649/R650进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r648.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
@@ -23,7 +23,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 - root：R639/641完整gauge与准确边界、R643中央正成本次主量已付；续R644真实全源传播及open其余算术接口。
 - theta：R638已发表；续R645原Y/W与旧A/W同D的真实交域、全部q/单位测试和补偿。
 - literature：R647原S/T/U完整Cartier已付；续R649同源真实必要式的算术非零。
-- deep：续R648全C带权旗标Smith细分与R637旧小预算同R/全Padé/26carry，两目标不混。
+- deep：R648全C全Smith已付；续R637旧小预算同R/全Padé/26carry。
 
 ## 原对象、ray及未闭旧支线
 
@@ -39,14 +39,9 @@ R638另有局部二挠来源h_W=−H2,W μ0/2，不能串成上述h。
 
 ## 普通完整中央及真实词域
 
-R567中央纠正、R594同q/坏集、R599 T−Rn、R601两Q/十五谱、R605七coset、R611非π4反射、R613两carry全态均按完整归档；旧局部值不移。
-R617全native环带/Bpole；R621 P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2及消I1线保持三补域/四unit失败支。中央0仅T0。
-R626 V核εp²1、RV两态/共同深原J、全部H/V非交换word；
-R628 EY=R−(3+3ω)Y/34、EW=R−(19+3ω)W/72及完整RVunit算子保所有常数/log/η/ζ/N0。
-V前三条件矩整条零，四球y/w/e/f严格分离，11个q自由方向对完整RV测试不可见；隐藏cut仍可变。
-R634 whole S72、μW=P6,Cρ1、W/EW两态，原T每层EW返回；
-Ξ/new全五伴随质量52/3保留，EW含Y不作纯伴随cut。
-W−真实[17]覆盖degree20808不认T；M1回P1三补偿，Vdeep在p⁴，另两项/B1不删。
+R567纠正、R594同q/坏集、R599–613全态/隐藏cut/参考均照前检。R617–628全native、RV两态及EY/EW移权保三个补域/全部log；V前三矩零，11个q自由方向对RV不可见。
+R634 whole S72/原T各EW层、ΛB质量52/3均保持；W−的[17]degree20808不认T。
+M1接P1=−36bKΩ5I1+B1及三补偿，Vdeep在p⁴，另两项/B1不删。
 
 R638在(μ0,μW,h_W)整饱和三态上
 D: μ0→μ0, μW→h_W−μW, h_W→h_W；
@@ -117,7 +112,9 @@ R629 bD≥s−13原J_A满射/γ0，同R过原J/p²后第二A才可吸收；
 
 R646 fD<p、p>101原全C分歧w=πz、π^s=p归一全部高尾后，真实合流族modπ独立；
 C_u≤p全参数/三个小p边界均付，保13/P134/U0/40及所有q帽，不把分歧缩放称整等价。
-原Smith全非零，e≤B_D=ceil((bD+13)/s)≤7，p≥137时≤6；较高指数细分与旧D+仍开。
+原Smith全非零，e≤ceil((bD+13)/s)≤7，p≥137时≤6。
+R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δj=dj−d(j−1)，μe=ce−δe+δ(e−1)。
+(E)早阶门下dJ=Σu(NuJ−(p−6u))_+，全g/q高尾三角付；p≥6101全部fD<p自动(E)。这是列权旗标，非有序jet前缀；旧M/D+仍开。
 
 R640 conductor q_c有a305d229整除/deg≤3433，S189 c B19⊂V836；
 真商deg≤3060<3278，Wilson先乘x²W13再全G0，保D836/p>3766/charge876/σdegree29784。
