@@ -477,3 +477,8 @@
 - 已核Brown–Levin原mixed heat、Kaneko–Kuwata X6及Larson–Smith式9；Cayley u^5不是X6有理乘子，指定Sym5/原筛仍缺。open完整旧版归档后压缩已闭R808/810。
 - R815两列首run43754577366/source1a043f2b同次AST过，但读旧META顺序导致KeyError source_commit，core未启动；18,420B artifact14177627002/12c2da9b保实际IO，正在仅修runner。其rules132935750666实际pull1a043f2b两README无diff。
 - 本push前rules132936185078实际pull至c75f753144b642236095d328a64fc0aefb3764f0，两README无diff；R78756仍真实运行。
+
+### 2026-11-16 03:54 Asia/Taipei — serre-public-astra-20261115
+- 修R815两列首运行的实际IO错误：META原顺序是run/core/initial，review_previous_scan误赋initial/run/core；现改三显式文件名，runner58d65088，core00087968不改。
+- 首run43754577366在子进程启动前停且无core-receipt/新数学；复用原425与旧scan来源重触发，未重做任何已成算术、不添测试gate。
+- push前rules132936854106实际pull至a3bb1caf898149dffb36502938c1fef27c649cdc，两README无diff；终端根目录命令恢复，正在找回本地checkout。

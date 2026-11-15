@@ -678,7 +678,8 @@ def review_previous_scan(item, root):
         if name != "full-outputs-manifest.json":
             assert plain(entry) == files[name]
     assert plain(source["input_bundle"]) == files[INPUT_BUNDLE]
-    initial, run, core = (read(folder/name) for name in META[1:])
+    initial, run, core = (read(folder/name) for name in
+                          ("public-actions-input.json", "run-receipt.json", "core-receipt.json"))
     assert initial["result"] == run["result"] == core["result"] == RESULT
     assert initial["source_commit"] == run["source_commit"] == source["source_commit"]
     assert str(run["workflow_run_id"]) == str(source["run_id"])
