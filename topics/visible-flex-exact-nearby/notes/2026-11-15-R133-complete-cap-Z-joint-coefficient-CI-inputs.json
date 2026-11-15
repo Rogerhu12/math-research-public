@@ -1,0 +1,97 @@
+{
+  "kind": "exact_complete_cap_Z_joint_coefficient_input_manifest_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "python_version": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "python-flint": "0.9.0"
+  },
+  "readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "files": {
+    "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete-cap-Z-joint-coefficient-contract.md": "5b794649675d14efcc2314ddc6d450a07cb0fa441aa3eff47b98b349f9439f91",
+    "topics/visible-flex-exact-nearby/notes/correlated_body_ci/run-43583838026-1-prepare/prepared-manifest.json": "fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893",
+    "topics/visible-flex-exact-nearby/notes/correlated_body_ci/run-43583838026-1-prepare/process.json": "48ae4b765cf4d0ca9bbed76f2f34779114a27c03521e667cdb660fd7b7d056d4",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_body_CI_worker.py": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_Z_joint_coefficient_bounds_CI.py": "4dd0af86d323ebfecb22060b80e2c5cee8da54d5696255fd560a0e52b87a09d2",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_Z_joint_coefficient_bounds.py": "d909f2fc5eff54e42c3dcfe9355016f42c08cef1a6b04298cc62022fe6bf7d1e",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap128_CI_worker.py": "8116d02b3145c1c492cb136b14600c76dea9fddc7322ebc847cf379cc0602490",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_high7_CI_worker.py": "602e696db855f1aca2765bef23fd7d9190c1fdd6d4f05528b758e0a515167323",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_native_lossless_parts.py": "730c0ba646cdb193a5524a6a8a02910575fa75f58be970f6a2ac23c1368b250c"
+  },
+  "consumer_ranges": [
+    [
+      0,
+      6144
+    ]
+  ],
+  "original_prepared_artifact": {
+    "id": 14109363064,
+    "run_id": 43583838026,
+    "attempt": 1,
+    "name": "visible-exact-body-prepared-43583838026-1",
+    "size_in_bytes": 166702374,
+    "sha256": "34d95f5d263b210134da3ae5bb243df4369cd83fbdd196c068c9727b194cd710"
+  },
+  "external_original_complete_shards": [
+    {
+      "file": "response-full-part012.npz.gz",
+      "sha256": "777337c853329f26719b148e34db079c5ca0ed34991aa40220f25624e4af0b3c",
+      "bytes": 2698989,
+      "first_interval": 5436,
+      "last_interval_exclusive": 5889,
+      "radial_left": 0.8347222222222221,
+      "radial_right": 1.85
+    },
+    {
+      "file": "response-full-part013.npz.gz",
+      "sha256": "4a863085ec89c7d7104b4fdf566f9ae380d22eb7b4e4f8b2146cd190c3b4b037",
+      "bytes": 1517845,
+      "first_interval": 5889,
+      "last_interval_exclusive": 6144,
+      "radial_left": 1.85,
+      "radial_right": 3.125
+    }
+  ],
+  "exact_cap_interval": [
+    "9/10",
+    "25/8"
+  ],
+  "complete_original_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "complete_repaired_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "new_mathematics": "per-state exact rational restricted cubic Bernstein maxima over the complete cap, plus the original complete per-state repair suprema, followed by directed joint Wiener sums",
+  "requested_widths": [
+    "0",
+    "1/256",
+    "1/128",
+    "1/64"
+  ],
+  "homogeneous_angular_orders": [
+    0,
+    1,
+    2
+  ],
+  "complete_original_state_count": 193,
+  "independent_even_mean_index": 96,
+  "original_targets_ODE_FFT_finite_trials_and_repairs_recomputed": 0,
+  "raw_physical_response_has_no_new_alpha_or_sqrt2_factor": true,
+  "original_radial_supremum_taken_before_each_Fourier_sum": true,
+  "intrinsic_beta_gamma_K_bounds_consumed": false,
+  "changing_angle_identity_difference_claimed": false,
+  "only_same_fixed_eta0_nu0_Z": true,
+  "original_archive_bytes_restored_only_in_public_Actions": true,
+  "original_shards_retained_in_output_artifact_without_byte_change": true,
+  "complete_child0_reused_after_publication_failure": true,
+  "actual_mathematical_failure_not_repeated_unchanged": true,
+  "periodic_actual_pull_and_README_diff_minutes": 10,
+  "compute_minutes": 45,
+  "plaintext_summary_maximum_UTF8_bytes": 60000,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false
+}

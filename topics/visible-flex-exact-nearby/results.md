@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：完整193方向在帽区的逐模联合系数合同](notes/2026-11-15-R133-complete-cap-Z-joint-coefficient-contract.md)：从两片原始cubic shard与已成全修补界取逐分量径向上界，再求全频Wiener和；五件公开Actions消费者已装，尚待实际数值，不重算旧修补或目标。
+
 - [R133：真实全δ外边界在固定基点帽逆中的完整反馈](results/R133-supplement-true-full-delta-outer-rows-in-fixed-base-cap-inverse.md)：原real |δ|≤1e−8 的完整nonmean与独立mean边界差，经准确右逆和物理仿射lift得到反馈<1/8；与P19主体判据合为<3/8。s=0按原统一正项公式支付，全部height/mean/正Robin费保留。
 
 - [R133：固定基点完整散度源与邻近帽主体逆](results/R133-supplement-fixed-base-conservative-source-transport-and-nearby-cap-linearization.md)：DΨ0∂φA=∂θ(M Ahat)+Wθ〈C Ahat2〉，完整旧primitive/两mean保；附近DF差无需Y_r，显式joint Wiener球给原反射类固定线性端口的全频body反馈<1/4。真实变动边界/fullδ及非线性同域另续。

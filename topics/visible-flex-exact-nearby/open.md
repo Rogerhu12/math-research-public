@@ -135,3 +135,7 @@ P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-
 ### 2026-11-15 actual full-delta outer rows in the fixed cap
 
 [O1–15](results/R133-supplement-true-full-delta-outer-rows-in-fixed-base-cap-inverse.md)已证原real显式Qδ、|δ|≤1e−8的真实外边界反馈<1/8。S20–38统一0≤s≤1的正项公式授实际L²完整Eδ和mean行；准确S(r,s)=(Jr,s)、两图kernel相等与T0 injective付完整仿射lift，不估changing composition差。fixed inner非mean C与全部独立外源保持。合P19主体后反馈<3/8、逆因子<8/5；实际joint capδZ系数球仍由新原193逐模consumer落实，进一步未知状态的nonlinear边界图需自己的域核验。
+
+### 2026-11-15 complete193 cap joint coefficient consumer deployed
+
+原full193 Z的joint Aσ系数范围已部署13pin五件：SCId909f2fc…/CI4dd0af86…/manifest6be86873…。严格从原prepared43583838026 artifact14109363064校完整archive SHA，只恢复原012/013 shard字节；每193state在真[9/10,25/8]先取逐cell Bernstein上确界再加原87ed2全修补sup，最后四width/三角导数求和。保mean/4j且无extra alpha。当前仅新消费者/合同，actual后再支付固定Φ0组合和P19；原βγK全cap界另从完整旧输入获取，不重跑repair/ODE/FFT/target。
