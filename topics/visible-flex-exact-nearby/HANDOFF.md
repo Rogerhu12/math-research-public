@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 11:40:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 11:43:52 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机最后真pull：11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 11:22:44定时及11:14非FF即时pull仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读Green27次README空diff，最新11:24:29→391f90372f1f2eed07b1fca0a8808c44f2738c0f；第三diag真pull11:26:58→89e8efa9e47abeda59747ccafdb5d8a494f2aa1a两README空。ref不冒pull，每小时CLI继续。
-最近只读README核：bedbe5b4a22c955ae98207694944531805464f70；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：77b2125f968bbcc13025c4008cedbee45d02192b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、对象和最终族
@@ -19,7 +19,7 @@ geometry43584188751/26仍仅在同η0/全闭真G/fullC0≤1e−4/|δν|≤1e−5
 
 ## Green v3：newton_source
 
-run43690634784/1现已failure（job132740339581 step7 11:35:03、step8小process打印成功），非人工取消。上次已出版11:24 processcb9b5eae/3bfa4b08：future5970/product5970、past3808/85groups；final真实计数/stack待0数学日志诊断，不据旧进度冒final。旧rules hash在新README后触发check_inputs可疑，先核actual；失去新临时结果按用户授权恢复，旧1886等不重算。
+v3 43690634784/1已failure，diag43709951426/1 actual execf526d0b1已核：旧README guard终止并挡出版，log57620B/dc649478；非数学失败声明。末已打印future5970=1886旧+4084新/product5970 done，past4032/groups103为11:34最后进度而非终止清点，childreturn仍null。全部新temp不可恢复，v4按用户授权重做已记录及未刷进度的新算术，旧1886等不重算；先根审live已读rules索引。
 旧5970同F/7908伴随/1886future/同97cap只恢复；v2 43681612825/1溢出失去新2340/1800/4331由v3重做。完整signed W/全193/97/两±4096与资源门保。反递推单进程；v4只standby。真正body数学固定repaired M32 δ0/η0/ν0，继承字段whole_parameter_half_width=1e−9不是BVP参数转授；selectedδ*高相位与低块身份必须另接。
 
 ## 真共同参考与负侧源：phase_inverse

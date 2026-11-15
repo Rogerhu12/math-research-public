@@ -37,3 +37,9 @@ newton从公开API亲取43690634784已completed/failure、updated11:35:13；job1
 root全文核17089B/SHA96d68c643f9c0ab33b3c5281f3bbbfeb6bb88c5d7d57b2145fe2168c5b3e9650；另亲读原C全joint表、Hilbert L6–11小球和完整gauge G23–26，newton独核全部7原件与H1–25通过。known shift h1/256只移动已知背景，未知仍L2；原rZ1e−12保13.316116，完整Bmean×65/64，residual exact96 exp<21与gauge<33/32合<22，Hessian<.09，Kpair<16。Cauchy4096与skew-adjoint号正确，signed S*=mV含实际Jacobian，97任意组合≤63072，无sqrt97。
 
 结果只固定旧repair440866/η0/δ0/known解析fB；K_C0标量与Kpair明确区分，rough新帽差仍用独立1/5比较，不冒同阶L2 composition小。fullraw moving非反射phase未被此辅助空间删除。为保持log<100KB/H<10KB，旧完整文本以71e2264不可变同路径保链，仅压缩当前导航。freshmain bedbe5b4a22c955ae98207694944531805464f70两README未变，继续sameδ具体差与new Green恢复。
+
+### 2026-11-15 11:43:52 UTC — Green真实终止证据已恢复，明确丢失范围
+
+root亲读diag43709951426/1 execution14506B/SHAf526d0b17bc9ac74e167ba612d4911a7bcc526cfe2d7fa7b784eb893ddf8000a。原完整log57620B/dc64947834d24e767bfa967ea8be3986580ad502c52d7bfe2d771f6ed83d89d2；原step8完整选择JSON9663B/f03d217c89302f18587a4a39e1320b1ad970f5692a7d9facbd812e0dd7d9adbc。真实stack execute418→publish→sync100→check_inputs180，failure/publication_failure均新README旧guard。
+最后真pull11:35:03.495115→fc7e1084347dded47d75cdea6c4bb83fffb8da0c，diff正是根已读的历史补记；旧runner仍绑137c review。future5970(1886复用/4084新)、product5970已done；past4032/103groups是11:34:34/45最后日志，不是终止时exact文件总数，可能另有未刷进度完成件。child return字段仍null，不伪造退出码或数学failure。
+全部新临时数组已不可恢复；依用户明确授权只重做该lost新计算及继续未完部分，旧sameF/7908/同97/1886不重算。v4新规则入口仅接受root明确亲读的独立review记录、精确当前两README与执行政策，科学369pins独立保持。freshmain 77b2125f968bbcc13025c4008cedbee45d02192b两README未变，继续恢复与sameδ。
