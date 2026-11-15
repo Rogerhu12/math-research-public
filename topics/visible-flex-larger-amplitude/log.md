@@ -93,3 +93,7 @@
 ## 2026-11-15 16:08:47 UTC /root — R349原151完整日志及读回边界
 
 [R349](results/R349-actual163-original151-complete-log-reconstruction.md)全文核后即发：163 read151一次原日志下载，470411检查及五语义组全匹配，原输入/结果与完整覆盖收据已读。原65535节点预算/10468未决/globalδnull不变；65535节点仅字节覆盖、未逐值重证，不以汇总猜主因，167继续157原字段。API核cab806da9d4e74d9dfce0762da728c84b04cde43双README未变，真pull记录保留。
+
+## 2026-11-15 16:14:04 UTC /root — request166保原数学的37控制身份配对
+
+[166接口](notes/2026-11-15-request166-original37-bound-control-R334-interface.md)五运行件/完整158差异及接口核后即发：97pins/三参数、真实98新model/FD，按station及原B控制完整身份匹配并保全部候选，44原数学定义不变。原75776/17档/453及6000/1800资源保；观察清单即使bind失败也完整读，缺匹配不覆原接受，无本地AST/科学或未来结果。H压缩重复叙述、全部责任由open及检查点保；API核52510c331193da0e71d3c0d5b1ac7356a8c27600双README未变，真实pull行保留。
