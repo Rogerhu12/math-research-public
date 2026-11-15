@@ -77,3 +77,7 @@ root已读科学/reader/request/workflow全部相对108差异及完整接口。�
 ## 2026-11-15 实际113首跑历史输入故障
 
 run43687907457/source7308ea/job132732158878在首快照前退出；旧driver从HEAD取104已删历史JSON，Git128，非128数值失败。CPP成功，summary942b3c55、log65777B/a5e0a15a；详见[实际113故障](notes/2026-11-15-actual113-first-run-missing-historical-input.md)。按公开历史原件临时恢复修复中；110运行、115准备继续。
+
+## 2026-11-15 完整活动六jet与mixed责任入口
+
+发布source675ab8df/dbdedb45及[完整接口](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)。准确全场表达自身求六jet与单位法向球，完整活动×两帽rank，不用worst子集；原family已核，共同cuff局部责任明确未付。只源码/证明与元数据核，无科学执行或替代场，不改旧static/R24/求解门。

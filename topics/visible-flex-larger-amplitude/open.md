@@ -50,7 +50,7 @@
 
 [R280](results/R280-joint-endpoint-all-phase-normal-balls-and-finite-cover.md)、[R281](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)已登记完整证明与源；109/111新增有理例实际匹配。R281保两RP1闭图、π、偶重零、共享端点、全部未付叶及四门OR。无需再加fixture或审批；当前要付的是实际场的连续球和完整责任对。
 
-[固定帽球生产器与真实覆盖边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b，从原SHA绑定shared plan/assembly有限graph导两帽有理位置/法向球；法向归一化误差、上下方向、支撑切触及闭disk全覆盖均保。当前source-only，未有实际接受场输出。旧v3覆盖静态base再用R24，不能把旧pair旋转一端冒mixed consumer；worst≤128/每坏对4children不是完整对表。geometry继续活动片完整jet球、完整mixed枚举及active-active/fixed-fixed/接缝local责任。
+[固定帽球生产器与真实覆盖边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b，从原SHA绑定shared plan/assembly有限graph导两帽有理位置/法向球；法向归一化误差、上下方向、支撑切触及闭disk全覆盖均保。当前source-only，未有实际接受场输出。旧v3覆盖静态base再用R24，不能把旧pair旋转一端冒mixed consumer；worst≤128/每坏对4children不是完整对表。[完整活动jet球与mixed接线](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)现已发布：source675ab8df/dbdedb45，从原准确有限表达求完整六jet/归一化法向球；实际RαA∪C全部活动×两帽，完整rank及未访问后缀。无实际接受场/run。共同cuff闭cell含零弦仍为未付原local责任，旧静态base+R24保持独立；geometry继续完整局部图/路径证明与责任导出。
 
 D必须取完整闭F0。固定有内点H需diamH≥.2D，整面像Hausdorff δhold≥.2D，含反射δE>0，全t reach≥.03D。材料点位移/core-to-core/core直径不能替代。held可在reach预算未完成时独立读整个活动面与两帽，不加前置门；所有证据必须同场，不能套用旧小幅证书。
 

@@ -52,7 +52,7 @@ run43685348016 / source8d4a3af1d553cd85cfa9694ec8cfaf1c0b66ce3f / job13272456175
 
 R277/R278/R279/R280/R281完整证明已登记，不再加证明审批或旧fixture。R279有限完整jet→连续曲率条件，R280 joint端点门，R281两RP1图精确Sturm闭区间换门；它们不是当前场证书。109三有理例全匹配；111 depth2五叶全付、depth1两未付，偶重根准确保留。[实际111](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md)：run43685039861/source77d65ad2/job132723637032；summary7898B/7279b591。
 
-[固定帽球及真实链边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b/interface499e1078：从SHA绑定原shared plan/assembly精确有限graph导完整闭disk位置/法向球，归一化误差付清，原H只须有限，存储kappa只诊断。source-only/noactualfield。旧v3是静态base+R24，不是mixed consumer；worst≤128非全对。geometry继续活动完整jet球及全部mixed空间责任，不能旋转旧static一端或从条件例造场。
+[固定帽球及真实链边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布 sourcea3ada50b/interface499e1078：从SHA绑定原shared plan/assembly精确有限graph导完整闭disk位置/法向球，归一化误差付清，原H只须有限，存储kappa只诊断。source-only/noactualfield。旧v3是静态base+R24，不是mixed consumer；worst≤128非全对。[完整活动jet球与mixed入口](notes/2026-11-15-complete-active-jets-and-mixed-phase-component-interface.md)已发布 source675ab8df/dbdedb45：准确共有节点/全FFT/B/materialcut/SE2表达自行求六jet，完整单位法向归一化；全部活动×两帽rank含未访问后缀。原phase_rule已核RαA∪C，共同cuff零弦仍为未付local责任。无实际场/run，未撤原static+R24。geometry续局部图/路径的完整责任。
 
 完整闭面driver54079bcd/interface12d84a2a/workflow998ba5ad待真实fullDN+自身final audit/config/port：完整physical/material/z0/mean/ninejets/唯一SE2→R249首单元/shared quintic B/两帽；g不换成B′，held独立于reach预算全读。R274/R258adaptere372待同场见证。same-g v4冻结g/所有p/t，K=k=0、activep空、T=M/state4M+2；699二分1397+knots须prepare/fullDN两处max_nodes>1200。有限phi不冒有限theta，数值不冒严格存在。
 
