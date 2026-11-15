@@ -1,6 +1,6 @@
 {
   "format": "isp-original-source-kernel-temporary-session-v1",
-  "rulesReadAtCommit": "95e8ce23d10f9a7cf706d0d63ee99ca39ed7bd55",
+  "rulesReadAtCommit": "a0f9e573e761a9640132ac6261a3f7175c3774d9",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -456,6 +456,37 @@
       ],
       "timeoutSeconds": 700,
       "receiptPath": "{work}/original-two-mapper-higher-quotient/higher-original-two-mapper-quotient-receipt.json"
+    },
+    {
+      "id": "two-same-original-projected-field11-diagnostic",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-two-same-original-projected-field11-diagnostic-789f.py",
+      "scriptSHA256": "c96f6150c7e34538a3100af74ea55011aacc55e127a4ecd9dbe0495452a17aa8",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43740928483-two-full-original-schur-through-three-field11.json",
+          "sha256": "0d721310db73560427a1c14a59c08853387c9761e117cb0dcaf24951b9aa2ac8"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-local-projection-session-789f/43729338969-two-original-projected-order4.json",
+          "sha256": "693da6446a6f04cba2c343ea49d9d3466caad1aebd056e91db338163b20d3332"
+        }
+      ],
+      "argv": [
+        "--paid-receipt",
+        "{scripts}/43740928483-two-full-original-schur-through-three-field11.json",
+        "--projection-receipt",
+        "{scripts}/43729338969-two-original-projected-order4.json",
+        "--parent-checkpoint-dir",
+        "{work}/two-full-schur-three",
+        "--out",
+        "{work}/two-projected-field11-diagnostic",
+        "--remaining-seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/two-projected-field11-diagnostic/two-same-original-projected-field11-diagnostic-receipt.json"
     }
   ],
   "previousSession": {
@@ -465,5 +496,5 @@
     "allPublishedResultsRemainValid": true,
     "status": "completed-success"
   },
-  "mathematicalProgramStatus": "Two regular202 mappers through21 verified; execute complete original6188 and1834 transports then same-Jc high quotient. Original s=2 Schur through3 actually gives field indices1^7,3 with one direction unresolved, so no fullQ length upper bound; exact Q beta1=7 and truncated nine-target membership remain paid."
+  "mathematicalProgramStatus": "Complete original high quotient executed:194 units and positive spectrum1,1,1,2,4,5,5,7, length26/max7, all original transports/products verified. s=2 field11 full through3 has1^7,3 and one unresolved direction; inspect same actual projected155 coordinates before choosing further full computation. Q high/source-flat and target-local questions remain open."
 }

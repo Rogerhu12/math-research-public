@@ -149,3 +149,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [两个正规202映射与独立精度](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)已实际付21阶及全部原small产品/freeI；完整原source/O左运输和高商现排独立600秒步骤。s2全22原三阶Schur实际F11正指数只覆盖1⁷,3，最后一项≥4；不因此断定Q第二页退化或局部长度，先查同原投影在11的页谱。
 
 [实际固定测试的全部暗对矩](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)已付不交物理/真primitive暗对的所有阶乘矩及平方根指数尾；先投完整真jet再读暗数的次序也已付，仅多(r+1)²且无j/h/Q。原投影见证及合法下降读数可严格控制，但低暗方向、Γ提升和全部顺次MP混合返回仍开；不能由单坏族下界当全返回上界。
+
+[全部真正交旗的联合高暗矩](results/R271-appendix-all-orthogonal-jet-flags-dark-factorial-moments-and-derivative-bandwidth.md)现完整求和全部jet：利用每个H_i的真三带及r阶投影差导数双侧j±r支撑，系数为16(r+1)²(2r+1)r!，无height/Q。低暗方向和顺次MP混合返回仍开。高核商F31实际完整谱已为1³,2,4,5²,7、194单位，源/外左全原运输通过；下一真Q八方向不能由此自动lift。
