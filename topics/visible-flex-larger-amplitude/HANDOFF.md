@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 14:02:07 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0bee3ef1e3587c2a530d98f5657f12e16179b489。
+规则同步记录：2026-11-15 14:02:09 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ef0f4088eb029822786b9230ddc906d5792132f0。
 
 集成复核：150已发d1d4c01a/run43721616091；152五件/原52+3pins/全部阶段列及错误流已完整核读并本次发。R328/R330已推，R329全文已交root待核；151由exact、153由geometry、154由amplitude实现。科学仅公开Actions。
 
