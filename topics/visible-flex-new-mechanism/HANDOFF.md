@@ -47,17 +47,15 @@ R148固定k sharp门：a≥0、d+(3−σ)²a/9≥0 iff全平端h的最高action�
 
 R146五族商协变给ω_j=N^jω0/j!；R154真实反号+七点插值将全部状态化为h1/ω0/k0,1,2,3的20值轨道span。非dim20/实际控制/有限点正性；原80权条目可消费，不盲扫。
 
-R152固定h最高action给一维Sturm充要门（e可局部负）；R155扩为全部水平曲线Γ的二次型族iff全部L4 action非负，保面积H/完整Q4/水平总导数和有限flat实现，不授L0/L2/统一μ。R158在权−2边界a0=0,c0>0,4a2c0=b1²上，β=b1/2c0，全部null速度路k=K h^-β且ω按真方程积分（β−1含log）；逐点L4=Eβ h_s⁴，故该受限类非负iff全state Eβ≥0。Eβ保完整五项Q4和H，不推PSD内部或全正性。
+R152固定h的Sturm门与R155全部水平曲线Sturm族仅刻画最高L4非负，保H/Q4/真水平路径，不授低阶/统一μ。R158只付权−2秩一PSD边界的null路k=Kh^-β及完整Eβ逐点门；β−1真ω含log，不推PSD内部或全正性。
 
-## 5. 已付pure层与剩余mixed门
+## 5. 已付pure层与完整原数据
 
-完整因子43651096112存N0/N2和两mode v2/v4共3974原根，gzip9daddeaf/raw58e450c4；不得重编forcing/W/旧N。R134五个A/H族只依v4，但完整L2/Q4仍须原N2。
+3974完整因子run43651096112（gz9daddeaf/raw58e450c4）包含N0/N2及两mode v2/v4，不重编forcing/W/N。R134五A/H只依v4，完整Q2/Q4仍保N2。
 
-R133已证Π8(U)=Π8(R)=T（31/偶15），R116同一四块C的整Π8V_C恒零。m8层结束，不重复；不推广一般pure/mixed。
+R133已证Π8(U)=Π8(R)=T31/偶15，同四块C整Π8V恒零；m8结束不重跑、不推一般mixed。R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。
 
-R138原差证G[-4]=B_p2(W1)[-4]/128，整个轨道pure入R。R151 actual43657785023/sourcec606688付J九项pure身份；31原依赖+旧40子式九pure行给像9/核31，Π8再丢3维。J轨道pure已付、N⁷[J]=0仅模R；旧R143不重跑。
-
-**R157 actual43659795254/source ce6c80bf已证D0一般pure。** 只读R151九原基/旧代表，D0新402项原差fresh零（faf4f97b）；九项Q系数/全局列见R157，未用模lifts，0旧40/31或新采样。0.138s/RSS34.281，11根证书15463B/f5355a03。真实E_D=R−2+span(G³,J,D0)恰43维、pure像9、pure核34。三个轨道都可取pure零代表；U≥239、lineality/query237不变，J/D0实际正负仍未付。当前不证πU=πR，不另开D0平移链。
+R151 actual43657785023/sourcec606688给J九项Q恒等及31完整响应原依赖；旧40子式九pure行证像9/核31。J轨道pure已付、N7[J]=0仅模R；旧R143不重跑。R157 actual43659795254/sourcece6c80bf仅新D0的402项原差fresh零（faf4f97b），九系数及11根证书15463B/f5355a03已存。E_D=R−2+span(G³,J,D0)真43维、pure像9/核34；完整J/D0仍独立，lineality/query237、U≥239不变。不另开D0链、不假定πU=πR，旧40/31不重算。
 
 ## 6. 正在运行与未付终局
 
@@ -65,6 +63,6 @@ R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ；mixed(2,2)=−B(qbar²,q²)
 
 R162新consumer49848B/ae375c1a及设计已全文读，13项新人工0.00742s通过。source0700d815已派单lane J6_implicit43_original_separation：只评J6和一条旧42整体组合，消费R153完整残差作隐式43消元；新非零子式才证分离。模全零只试B32767唯一有理候选，完整pure+balanced原差零才认成员，保43系数；同SHA旧R160/R161证据直接复用。J/D0系数不零时成员也不授c0零。预算180s/1024MiB，0旧列/旧NF重跑。
 
-几何新actual已完整登记；曲线回退新源准备中。R163正在整理全部14正规族的协变/八矩cocycle与完整字符商；不以五族或已知E_D代替全部U。root独占Git。
+几何新actual已完整登记；曲线回退新源准备中。R163已付全部14族：最高10族H^eF(gS)=P_gF(S)；F0/Q2带同一C_g(M)=Σa_i(M)F0(gS_i*)。g∘g′=(HH′,d′+H′d)，C复合方向已核；低阶平移∂ωF−c(m)，最高层∂ωF。故完整Hσ=(Rσ+Tσ)/(Rσ+Dσ)，Dσ用同权14族及静态cσ生成全部N Uσ+1模R。权−2无需另编−1；pure+balanced都保，不认πU入R。下一消费旧3974/static与五族，仅新权−2剩余系数/必要N2收缩，再解完整字符必要锥；E_D不是全部U。root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

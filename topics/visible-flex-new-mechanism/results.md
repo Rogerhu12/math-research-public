@@ -337,3 +337,5 @@
 - [SOC首轮实际跨过曲率60](notes/curvature-soc-first-actual-result-20261115.md) — run43660745541/source3fd3bbe8保持同g/b0/163，model5的真实SOC使双网κ63.5172→59.7113、全部原物理门通过。model3细网漏4行先拒绝；最终b03c522a，fineη.267199711466、strip余8.26e−8、cap近活跃。进入55后主步.16约成功步九倍，连续补池至4198/1118，未进SOC；12LP=10primary+2SOC、23粗细值、活动55.806s、总430.614s/RSS2272136KiB。下一继承成功尺度trust1/1000与全部池，同预算续55，不放宽门或宣连续reach。
 
 - [继承成功尺度后的两网曲率59.5101与曲线回退入口](notes/curvature-inherited-scale-first-actual-result-20261115.md) — actual43662323270/sourcebb41e860仅初始trust.001，同g/b0/163/原门。model3/4原步α1/8、1/32两次合格接纳到78b36，κ59.7113→59.5101、fineη.267199864505；55未达。模型3后无遗漏，末池4208/1176，SOC6虽大降metric余差仍不合格；末SOC7有LP无值不认。12LP/40值、活动30.688s/总256.541s。下一保同预算，仅把失败SOC后的直线回退改为含已有修正的二次曲线，全门仍验。
+
+- [R163：十四族完整八矩cocycle与同权字符商](results/R163-complete-normal-coefficient-cocycle-and-single-weight-character-head.md) — 真实端点纤维和时长权给F0/Q2同一C_g(M)=Σa_i(M)F0(gS_i*)，完整最高十族无cocycle。正确群复合(HH′,d′+H′d)，低阶平移为∂ω−c(m)。因此Hσ=Uσ/(Rσ+N Uσ+1)=(Rσ+Tσ)/(Rσ+Dσ)，Dσ只用同一权σ全部14族与静态参考导数。权−2无需另编−1或profile平移；保完整N2/pure+balanced，不预报维数或正性/实际period完成。
