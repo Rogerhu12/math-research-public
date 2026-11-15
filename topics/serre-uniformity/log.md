@@ -171,15 +171,19 @@
 - 公开全manifest verify过，artifact14165618753仅一日续接；未独立下载ZIP、不冒称CM和非零，立即推送结果。
 - 14:49 UTC公开rules run43714581068/attempt11实际pull到ff65b8df，两README无变化；已记H。
 
-### 2026-11-15 23:16（Asia/Taipei）｜serre-public-astra-20261115 · R827
+### 2026-11-15 23:15（Asia/Taipei）｜serre-public-astra-20261115 · R827
 - 两图真实mod多项式满射⇒原char0导数层终止的完整充分判据已核：flat C、两族齐次原source、proper/Nakayama；Stacks四原条目已直接核。
 - 同unit Schur/S5与原W/vg/vh的8/6/5单位节点给无需char0 CRT的真实约化入口；仍待实际节点/两图Bézout，不预填q4或D约化。proof c37119f3，H归档后立即推送。
 - 三项原R787/R809/R815仍在数学步；原R824首scope工程正核，主目标OPEN。
 
-### 2026-11-15 23:19（Asia/Taipei）｜serre-public-astra-20261115 · R828
+### 2026-11-15 23:16（Asia/Taipei）｜serre-public-astra-20261115 · R828
 - 原P₂的S/T交换、EO保持与原U共同相位已全文核；允许空间稳定＋已成G两列交零，严格推出两原CM源值及companion值零。
 - 全16个二次模等距纸分类通过，old六维上所有保EO者仅标量；仍缺六项原和非零，不把投影零/全局theta非零代点值。proof d5c70b7d，立即推送。
 
-### 2026-11-15 23:22（Asia/Taipei）｜serre-public-astra-20261115 · R825输入adapter
+### 2026-11-15 23:17（Asia/Taipei）｜serre-public-astra-20261115 · R825输入adapter
 - 保存已全文核的原normal导数小adapter、wrapper、方法、pending请求与workflow：core89579f79/wrapperd6374901；两图d/u原负号、权6/8及完整C整除保留。
 - 无active请求、未运行AST/新算术；R809 A/B与R815来源仍空，不能提前激活。R824写入前预算检查已按实际续算风险移到下一算术边界；新core1ece3cf4尚未运行。
+
+### 2026-11-15 23:19（Asia/Taipei）｜serre-public-astra-20261115 · 记录校正
+- R827后加§7.5独占行数学定界符统一为双美元，数学内容不变；最终proof SHA 2972e84562b4534875d3fd6ba1975ab67bd6d925a68517b75915b1f8e46272b9。
+- 对照三次实际Git提交UTC回执，修正紧邻三条日志的Asia/Taipei分钟；没有把未发生的时间记为已完成。

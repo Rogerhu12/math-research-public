@@ -24,7 +24,7 @@ R824完整core97048B/1ece3cf4、wrapper66226B/c5907739、workflow42bae915及pend
 
 [R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 
-**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化两图C^-1[F0..Fq]皆有完整多项式右逆，则proper支撑＋Nakayama迫原I_q=C。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA c37119f3。
+**[R827新完整充分判据](results/R827-original-global-modular-surjectivity-and-derivative-termination.md)**：同DVR中实际C两图的monic20/单位常数给整Laurent拼接及flat quotient；两族原导数列按a+2k齐次化，另一图递推tδ−(a+2k)δt保证像仍在原I_k。若真实约化两图C^-1[F0..Fq]皆有完整多项式右逆，则proper支撑＋Nakayama迫原I_q=C。单点rank/函数域rank不够；失败不作反证。root完整核及Stacks源核，proof SHA 2972e845。
 
 R827可选入口无需三项char0 CRT先完成：同单位Schur chart严格定义原canonical B的p整lift，原S5单位块给vB；原W在8个不同unit cyclic节点给真实MB整性/模插值，原vg/vh在6/5点给Mg/Γ。源B·d_i有272条/权5,6^144,7^127，不把一条B的附加零理想称完整I_E。优先原ell1000000753/branch0；同prime/节点已成cache直接复用，缺的才新增。必须全源分母单位、σ负幂相消、两图完整Bézout。尚无实际q；若将来q4通过才可说D约化/K1。exact_height正接实际消费者，所有数学仅Actions。
 
