@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 93cbbb45acec111f4b0f085861054cdfd510f4de（2026-11-15 00:10:29 UTC，Actions run43656791951实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43656791951-1.json。
+- **最近成功实际 pull 与已读规则提交：** c0588770e3f5d464277ac1806fc5eefc7776b2c6（2026-11-15 00:13:41 UTC，Actions run43657061501实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43657061501-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -24,7 +24,7 @@
 
 [实际selector](notes/2026-11-14-r150-unscaled197-true-source-span-and-two-dimensional-first-page-789f.md)run43654741434（源e7d0638b、数据c09e0eec）0.036855237秒完成，5恢复256910B全保；197投影rank7、全b10=0，恰张成(U9)_2。modU7/U8/U9像维2/1/0；K2尾(10,11,0)、K3尾(24,28,0)，det16。完整Bsat在Z_(31)[[t]]、t=s−2的第一页=U9/U7二维/J=2I；未付全局q2或其它primary。
 
-**[完整下一页204来源](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)已成。** β1源核2040基=1834原核+θ1…7+e9+196ω+te8+tζ2。1834均有真Bsat精确核提升；θ3及θ4−e9由原κ8/κ9 canonical recipe再精确消去。余204=θ1/2/5/6/7、e9、ω3…198、te8、tζ2；ωj=ζj−(aj−15bj)e8−17bjζ2。第二类旧六源及te8已零，只需新算196ω+tζ2共197类；进入第三须保全部204真实提升，第二零不能删第三自由。后继完整源核由(I−TC)、T(sI−J)给，不只取常数核。连续页20→15→10→5的原p6/carry与逐层Smith合同正在冻结；用κ8与ζ2原三次除源支付第一像，不借κ9额外p7。
+**[完整下一页204来源](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)已成。** β1源核2040基=1834原核+θ1…7+e9+196ω+te8+tζ2。1834均有真Bsat精确核提升；θ3及θ4−e9由原κ8/κ9 canonical recipe再精确消去。余204=θ1/2/5/6/7、e9、ω3…198、te8、tζ2；ωj=ζj−(aj−15bj)e8−17bjζ2。第二类旧六源及te8已零，只需新算196ω+tζ2共197类；进入第三须保全部204真实提升，第二零不能删第三自由。后继完整源核由(I−TC)、T(sI−J)给，不只取常数核。[逐层carry/精度合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已成：原p6按R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项，三次Smith各损5。第一页基κ8与L3,2均真p3来源，第三纠偏是pκ8/pL3,2，不能用κ9常数改初值。先实算并保存完整第二页204来源/10项余量及全后继核，再按实际像接第三；代码入口在编写，未预报新页结果。
 
 197原入口、两个P/765全局充分费用及已编译未运行正分支的全部合同、SHA和原式范围保本次H全文；本次无正目标，不声称已核九原正证书。
 
