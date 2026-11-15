@@ -141,3 +141,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:53:43 UTC /root — 发布117六控制完整三式实验
 
 [完整接口](notes/2026-11-15-actual116-to-six-control-curved117-interface.md)15535B/4b443c7f及六运行件已读并发布；数学源79464f9c/e154afe2、reader3e2c0515、recipe4f40206d/request7147dbda/workflowf3e7a17e。root核全部差异、方向/normal关键全文及真实116四p映射，old4列[0,1,2,4]、81+2 pins/22→24闭包，原门及8×20/12×20保留。新.github工作流仅为本课题公开计算，唯一request触发；raw和静态回执不入库，未本地执行科学。并按实际Git时间校正两条先前手写日志时间。
+
+## 2026-11-15 07:55:10 UTC /root — 117公开运行已启动
+
+run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute132744387346，07:53:57UTC创建，实际元数据已通过81+2原源/输入/recipe身份，正在原78源恢复；尚未读回科学结果。继续118新增真实midpoint471及非零112薄入口。
