@@ -92,3 +92,6 @@
 
 
 - [原theta幂的Beta表达与直接Nikishin范围](notes/2026-11-14-original-beta-powers-and-nikishin-scope.md)：完整割线虚部为正振幅乘sin(17nπM/3)，保原q角后仍反复变号；不能直接套定号Cauchy来源的正规性，未排别种AT证明，也未付原d2。
+
+
+- [原全块固定矩阵与第二forcing规范不变量](notes/2026-11-15-canonical-all-block-matrix-and-wilson-boundary.md)：R595同一M在全部h的特征零真实留数上成立，原完整j保全尾/charge分母和R_h；第二forcing与残差共同剪切，真不变量det(c,d₂)仍含R₂和实际a/p。第二Gaussian高精度不添独立零，三Q未消残差。

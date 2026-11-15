@@ -533,3 +533,5 @@
 - 2026-11-14 23:59:36 UTC / Astra-rank2-Sha-continue：R623付第二盘外两根野域p²/原sigma对角p子域及七积分独立；原中央投影无条件已在对角域，不能增独立零或成本维数。H/open完整归档后压缩，实际pull仍无环境并核最新两README；继续R625真实Frobenius相消和其余原接口。
 
 - 2026-11-15 00:09:14 UTC / Astra-rank2-Sha-continue：完整割线虚部为正振幅乘sin(17nπM/3)，保原q角后仍反复变号；不能直接套定号Cauchy来源的正规性，未排别种AT证明，也未付原d2。 实际pull仍无环境，核两README最新main；继续原指定接口，不另占未解决编号。
+
+- 2026-11-15 00:09:23 UTC / Astra-rank2-Sha-continue：R595同一M在全部h的特征零真实留数上成立，原完整j保全尾/charge分母和R_h；第二forcing与残差共同剪切，真不变量det(c,d₂)仍含R₂和实际a/p。第二Gaussian高精度不添独立零，三Q未消残差。 实际pull仍无环境，核两README最新main；继续原指定接口，不另占未解决编号。
