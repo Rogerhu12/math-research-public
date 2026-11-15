@@ -8,15 +8,15 @@
 
 唯一已接受起点是 M96/N1024、scalar .99 的开放大核；材料三分量误差5.77368e−7不是全相对度量operator证书。后续 .996/.9975超限、.997875失败均已存。当前 M112/T112/N2048、699节点、453状态（338physical、112core、3p）、236036自由坐标，原scalar/控制/core与全部physical/constant行保持。原T112零H的完整J及audit已完成；七件身份完全相同且exact H=0首请求可复用，当前非零H及最终audit必须真worker，不能归零或拿T96代T112。
 
-### 1A. 前缀：实际79接受1/32；84只补最近LEFT465
+### 1A. 前缀：实际84接受1/4；86同25重新线性化
 
-此前1A全文逐字存于[本次发表前检查点](open-checkpoint-before-request79-publication-2026-11-15.md)，76及更早完成的原件/byte scope不重跑。
+[实际84完整结论](notes/2026-11-15-actual-request84-twenty-five-query-quarter-step.md)、[三档原试步读数](notes/2026-11-15-actual84-original-readout.json)、[17关系/64源身份](notes/2026-11-15-actual84-primary-identity-readback.json)已保存。run43666177645/source39799fc1/job132665958586接受1/4，同轮固定W merit43.56581593085674→43.48929991208616，ratio.9876503855457118。全部原node/mid、uniform-angle guard、两组698点原RMS通过；physicalmax.007108203814352419/BC1.3149281045422406e-8，新的完整affine物理边界FD四阶9.901031794093097e-10。success/new coupled acceptance仍false；FD不冒当前H非线性尾已解。
 
-实际79见[完整六trial/QP/FD结论](notes/2026-11-15-actual-request79-twenty-four-query-left465-limit.md)、[原读数](notes/2026-11-15-actual79-original-readout.json)、[17关系/62源身份](notes/2026-11-15-actual79-primary-identity-readback.json)。run43663293492/source31d2ad909接受1/32，同模型freshW43.57627837509625→43.5661119869748，physicalmax.007108516833554497/BC1.7532371533528647e-8，零锚完整FD四阶1.006440735979892e-9；success/new coupled acceptance仍false。
+最近1/2在原MID479/486/487失域，同时只读25查询中已有LEFT465失域；原完整RMS和merit未执行，其余24selected正。51200线性reserve全正不保证有限步真实域。不能把多个已建模/未建模的失败归为单一漏MID487；86先从真实84新pair保持同25、55冻结源/λ270/512working/200sweeps/17trial与全部原预算/门，重新建一个实际模型，不自动添第26查询。最坏physical row155819/interval461仍在完整A/fullH，当前权重199.03226329104072非零；旧跨模型W不可相减。QP512预算stop与−1.37e-13原slack、1.76e-12浮点gap不冒已证主障碍或严格最优。
 
-最近1/16全部原node/mid和24查询有效，actualmerit下降，完整RMS唯一LEFT465失域(beta²=-.421944063367393)。1/8、1/4也仅此LEFT465失败，不能推margin单调；远1/2原MID487失败，RMS/merit未执行。84仅补最近LEFT465：17LEFT+8MID/51200行、17捕获cell/22端点465..486/7439实际支持。C4059、完整outside、原lambda270/LSMR200/C-Hildreth200/512working/dual200、600/90/30/1200秒预算、17alpha及全部node/mid/双RMS/rho/merit/FD门不变。每模型刷新W，禁止跨模型merit相减；线性域行不代有限步检查。
+新warm4880394B/fead4e7b8c1c78b62c8adef0d122a09ea12e7e3a94b0586ba2e59a63c3b429af；原decoded status2620898B/8ad4ae64ccf4a84106a22db9f60c3abedfe4efae67d467b59aa6c06480b9bbde，公开gzip305169B/bbd61744b2457b40654573460fbd25433f406f3a41d79bbae4fd3f56e5a65d38。25查询17LEFT+8MID/51200行、nodes465..486+p/7439支持、zero[]，C4059及fulloutside包括465，完整H/原FD保持。
 
-79 H优于C且最终slack全正，global repair后不冒条件外部精确最优/完整KKT。最坏physical row155819仍在全A/g/H；真正native/fullBVP尚未接受。79五小原件已读；完整artifact14141611284/639331603B/ZIPc2432e48绑定既有24reader1aa4da4e和parent76bba24c1f/a1a67b9a，工作流3cd2eba4不改。完整chainQR未导出界限保留，不增加84科学gate。76reader43662815323/addendum689a88eb/receipt867d5b38的完整byte scope已付。84独立四源及[完整接线接口](notes/2026-11-15-request84-left465-only-followup-interface.md)已发表：workflowf0641240/request5511eeb7，root完整读全部源差异及接口、核55源/11shell/6inline。25-query由原唯一computations请求触发，实际run43666177645/source39799fc1已完成，五小原件唯一取回，完整科学读回继续；真实artifact14142830941/670263923B/fb8d56c1已绑定prefix25 completed-reader请求fb3779c5，sharedworkflow8953逐字不变，不重科学；原79 reader43665645276的[完整byte附记](notes/2026-11-15-actual79-completed-byte-reader-addendum.md)已发表：215domain/1396数组、108condensed/38完整数组、14raw415120992B、71源(62primary子集)/17关系/17col+6mid闭合。类历史added485不是79新增查询；全chainQR未导出界限保持。独立25reader9239b310及共享prefix25 route已就位，现有79请求字节不改、不造未来84tuple。
+84完整artifact14142830941/670263923B/fb8d56c1由已发布prefix25 reader9239b310读取，requestfb3779c5/shared8953，原79父565e/e790保留；root只取五小原件，完整byte读回不作下一科学gate。79及76/74完整formal/byte已付，详见[79完整附记](notes/2026-11-15-actual79-completed-byte-reader-addendum.md)和历史检查点；全chainQR未导出界限保持，不重跑旧数学。
 
 ### 1B. Native73：实际线搜索失败与全部十档模型下降
 
