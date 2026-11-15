@@ -359,3 +359,7 @@ literature只读新有理点及旧14线性行，root全文核读并手核因式�
 ## 2026-11-15 02:43:44 UTC — R172全最高层与完整Q2精确平方证书
 
 tail纸面给θ=η=−1，root逐项核矩阵及四平方、f/两个null边界项，全文读后仅补式11第二项前排版加号。a=ℓ=1，Gram正定；Q2的两个平方与det完整。当前仍静态负；后继保持两个修正层且静态全非负时任何合法全路径门都不能切，应转原函数关系。完整证明直接发布，无Gram数值优化或重复人工门。
+
+- 2026-11-15 02:43:56 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交eeceaeb1d14d1aac48358d77ba0c647d0ec09ff3记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 02:44:08 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ef6f75878fc78981d3f75a056e7501f7131a37e0记录于H；继续推送同一完整结论，无force。
