@@ -16,3 +16,5 @@
 - [R707：原固定theta均方与三分之四迹高度](../results/R707-original-theta-average-and-three-quarter-trace-height.md)：利用同一固定theta的全部高斯包，准确Heisenberg重叠与p²维Weyl正交将Hall均方回模p²范数同余计数；非单位/零向量及全Galois共轭重数全保。原Σ_r|S_r|²≪p^(5/2)log^(1/2)p，故迹高度≤(3/4)logp+(1/4)loglogp+O(1)（Eisenstein gcd增补已付），非零原边界v≤3/4+o(1)−1/(p−1)。这是实际平均收益；原迹非零和中央联系仍开。
 
 - [R708：原单模p前缀与整Gaussian完整返回](../results/R708-original-mod-p-prefix-and-integral-gaussian-return.md)：R707的真实3/4高度使原迹零准确等价于p−2条首模p行，进一步只需J=ceil(α(p−1))−1、α∈(3/4,1)。b_(h−1)=g^c_h在h≤p−1特征零逐项相等；原μd范数的整根付完整首窗Gaussian三角整逆，故等价原g_h模p全零。实际来源窗dJ−6，无需LT/Tg，中央L_H高精度与逐行零的缺口仍保。
+
+R707/R708原第三来源增补： 第三原m136/P_U也已逐项付同迹、D136=91·2^46·3^34·17^23、边界身份及同3/4高度（p>136），第三中央假设不从前两条推出。
