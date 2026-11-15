@@ -70,3 +70,7 @@
 - [131：actual129真实第8末九p接原八批](notes/2026-11-15-actual129-final-nine-control-continuation131-interface.md)：recipe28acc474/request98d97b5a/workflow86551b13，R291参数仅为新初猜；原全部科学source/84+2/own26及8批资源和读回合同保持，实际字段未预填。128独立正λ完整H路径仍执行。
 
 - [九冻结450：全九连续scalar和同场模型C metric适配](notes/2026-11-15-nine450-continuous-scalar-and-model-C-metric-interface.md)：0c4353d1/4b13425a独立认69bb新guard，原0865全部九nested项、675完整六jet与材料角混合、a601四Loewner/全DFS/两帽0全部保留。实际9aa0查询与自然Rout严格绑定，不将旧finite改名连续g；live来源声明不认证现场，全局C²/atlas/标准4未预付，无实际场或数值证书。
+
+## R292 — actual131 八个九控制批次的完整原读回
+
+[R292](results/R292-actual131-eight-nine-control-batches.md)：64接受/236试探/172拒绝、18接受inner false，W6.426170559507028→5.003044586685377，全部原最终标志仍false。保全8行FD/Arb/圆、首档跳降及全步缩半径例外、完整原日志与末点身份；不是非零native场。
