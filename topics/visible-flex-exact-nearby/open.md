@@ -163,3 +163,7 @@ SCI dee201d0…/flow c3370a24…只在public Actions临时读取原job1327132474
 ### Green v3 完整误差方向修复（2026-11-15）
 
 合约 `notes/2026-11-15-R133-scaled-signed-product-error-Gram-contract.md` 与六件部署已推；SCI `1d8383a8…`、worker `c06a5758…`、369pin manifest `637c7bdf…`。下一项直接读其真实 Actions preflight/三流/消费/最终完整门。前32真product在同run复用，旧1886与5970/7908只恢复；v2失去的2340/1800/4331/5970新临时工作明确重做。全signed W及任意指数dyadic不改变原97维形式、独立mean或真实cut，也不保证原阈值必过；未知实际门保持未知。
+
+### 精确清理的第二次容量验收（2026-11-15）
+
+worker `c0039f74065cad450c1bd5cd338261fbace2ea3fcada97b930d0522d9fae2c9e` /flow `30e18c75d412b02c141fb8bd3caef3ab98a2f031d0b86d66926c800b5df27fa6` 已推，仅读九个确认输出版本7607204B，不重hash先前11834件。下一项读 `notes/data_cleanup_confirmed_outputs/run-*/publication.json` 的真实当前tree容量；仍超限就继续核剩余计算输出，不能把worker成功等同≤200MB。

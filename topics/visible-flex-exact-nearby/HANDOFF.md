@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 07:35:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 07:36:14 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字和静态核。每结论独推、非FF立即真pull --rebase重试到成功，禁force。root独管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，禁文件/输出/connector。根规12不另设审批。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，06:45:46重试仍无。root已核runner真pull：07:17:05.353018 UTC e9a7712fb431397cd172960692c17631f5056325，两README diff空。ref读不冒pull，每小时继续真pull尝试。
 现根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，仅script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector仅UTF8<100KB，禁binary/gzip。旧输入runner从immutable原commit/path或既有artifact临时恢复。
-最近只读README核：eed2a8c65a4a466ea1c97c1d6b8ab2bab1a2e12e；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：c445ebe5a274a5ae27e850d51b6b16119737eb89；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public，AGENTS无。前H全链：notes/2026-11-15-handoff-before-actual-reference-gates-and-raw-base-inverse.md（735b4dfe…，9749B）；同名open-before归档41cb6563…/29328B。原inputs/全部失败均保；log归档见前H，压缩不取消历史门。
 
 ## 同一对象与总完成门
@@ -29,7 +29,7 @@ Green v1 43680721302身份换行门失败/0新数学；v2 43681612825/1数学chi
 原Taylor/Nraw/b*/1328/六profile/failed域/whole邻片及1079seam/653ledger全身份见前H链，禁重算。整域43680556665 child0/15；2547/2551新源43682479300 child0/21/10.658338976s，49stage/13行(11+2)，六case4305旧行逐字；R.001完整负/正<7.448677497188e19/4.717220050477e19。报告f3a372ce…/SCI9e81e2…/131pin4a3e28…，未重排名/未strong return。
 共同P/8b5ad0ab…、I/ece60de2…、B/cae161da…保原I/J两P/mean/真实seam及全Taylor尾。势actual43685624307/1 child0/16/.157509657s，SCI04271368…/20pin44555290…；H1/6000给V<276/VT<26431/VTT<3830956、κ像及全分母。H1/10000与1/6000覆原2549，小两域false；δ方盒1e−8/z方盒1/9409、|j|≥97两sign/j0独立。报告6b6db11b…/actual844b88e2…/executiond4c48d61…。
 A/0e56cf64…真实两列在实T±1/2000、n≥388，Wronskian=n^(2/3)/π、root shear<138n^-4/3<1/19、正两权21/20、负relative/inverse6/5、两端propagator10/9；两普通源/n幂rootport/mean/seam不丢，实T不免费授复φ。
-H/edede2b1…实际43688459733/1 child0/16/.004610519999999951s（parentwall.414535937），SCI9596ebee…/9pin1869212f…/2AST；原势/fold不重算。整2549旧圆h1/20000的HV gap>.9999880505123，Wiener逆/两导<1.000382716/.048988522/12.541136604；真正实两列/shear全过。报告188cd247…/actual1d619b1a…/executionfabe59ee…，不授complex角列norm或fullhigh。继续物理正Schur/完整返回。cleanup43679889657/1已普通删除11834件/1905188820B（315bf6e0…），实际剩206137215B>200MB；process171441b3…/publicationeefd8712…，门false。继续只删经producer确证的剩余data，保真实参数/历史。
+H/edede2b1…实际43688459733/1 child0/16/.004610519999999951s（parentwall.414535937），SCI9596ebee…/9pin1869212f…/2AST；原势/fold不重算。整2549旧圆h1/20000的HV gap>.9999880505123，Wiener逆/两导<1.000382716/.048988522/12.541136604；真正实两列/shear全过。报告188cd247…/actual1d619b1a…/executionfabe59ee…，不授complex角列norm或fullhigh。继续物理正Schur/完整返回。cleanup43679889657/1普通删除11834件/1905188820B（315bf6e0…），剩206137215B>200MB/门false；process171441b3…/publicationeefd8712…。追加worker c0039f74…/flow30e18c75…已部署，仅9个确证输出原path/blob/bytes白名单7607204B；8原SHA/第9真hash、并发改版保留，旧11834不rehash。容量待实际复验。
 
 ## 外返回、有限正则尾与全网络：tail_connector
 

@@ -127,3 +127,7 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 ## 2026-11-15 07:35:27 UTC — 有向误差 Gram v3 合约逐件核完并部署
 
 读取main `eed2a8c65a4a466ea1c97c1d6b8ab2bab1a2e12e`，两README blob未变。根已逐段读helper/SCI差异、worker差异、flow及新增7pin；旧362pin逐项零改，三份Python静态括号检查通过，真正AST在公开Actions。phase另核helper、product/preflight/reader/merge/full C*HC/waist；原临时v2精确counts与run/SHA全部入manifest。六件SHA分别helper `2e5dbdb57fcb225c8b6c4671e7c968699597a7f6b439ac7ca27c66ba7f6ea213`，SCI `1d8383a8531b9120b25f0ce132e33fc858afdaa53be26bf0bfade385e6a70784`，worker `c06a57582a06c76844cf82dc3dfb396c78904df4ef79941bb56f11fa6aee7cc6`，contract `95917d7f0bbe4c5428b0998acff20640c584645dfee6d0ff609ffe5795b0cd2a`，manifest `637c7bdf2e91f993421d56277fcc2c569e25b76032090e3f664661edd99adc6f`，flow `02f0ab27b860d6fc3b3211a71ffcfc340b2e43958c8ecb530b1420ed83b467df`。测14GiB临时余量/4GiB RAM/4CPU，然后32真product与极指数全97Gram测试；不得将preflight冒整体Green结论。新数学只待本公开Actions；无本地数学/新artifact/Release/数据入Git。
+
+## 2026-11-15 07:36:14 UTC — 九项精确输出版本清理接续首轮容量失败
+
+根读取 `c445ebe5a274a5ae27e850d51b6b16119737eb89` 两README未变。phase逐件核producer/report，根审完整九项allowlist和原worker差异/新flow；路径、blob、bytes及八个原SHA均固定，另保首轮run43679889657/1的三个小receipt原SHA，最后一项只凭原blob/bytes选取再由runner真实SHA。非白名单/并发改变版本不删；旧11834数据不读或rehash，未确认R46 bootstrap保留。worker `c0039f74065cad450c1bd5cd338261fbace2ea3fcada97b930d0522d9fae2c9e`，flow `30e18c75d412b02c141fb8bd3caef3ab98a2f031d0b86d66926c800b5df27fa6`，静态括号通过，实际AST/普通删除/真实pull与最终计量只在公开Actions。首轮206137215>200000000的失败继续如实保留；后轮若仍超限显式fail，不删未核路径。

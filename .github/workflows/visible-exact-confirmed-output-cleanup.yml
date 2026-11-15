@@ -1,0 +1,102 @@
+name: Visible exact confirmed output cleanup
+
+on:
+  workflow_dispatch:
+    inputs:
+      audit_only:
+        description: "Record exact inventory without staging data deletions"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/visible-exact-confirmed-output-cleanup.yml"
+      - "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-confirmed-output-cleanup
+  cancel-in-progress: false
+
+jobs:
+  ordinary-cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      AUDIT_ONLY: ${{ inputs.audit_only && 'true' || 'false' }}
+    steps:
+      - name: Partial checkout of scripts and explicitly reviewed instructions
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json
+
+      - name: Check the actual worker bytes and Python syntax
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import ast, hashlib
+          from pathlib import Path
+          path = Path("topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py")
+          raw = path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest() == "c0039f74065cad450c1bd5cd338261fbace2ea3fcada97b930d0522d9fae2c9e", "worker identity"
+          ast.parse(raw.decode("utf-8"), filename=str(path))
+          print("Exact cleanup worker and Python syntax accepted; no mathematics executed.")
+          PY
+
+      - name: Hash only nine reviewed output versions and publish ordinary deletion metadata
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, os, subprocess
+          token = os.environ['GITHUB_TOKEN']
+          os.environ.update(GIT_TERMINAL_PROMPT='0', GIT_CONFIG_COUNT='1',
+              GIT_CONFIG_KEY_0='http.https://github.com/.extraheader',
+              GIT_CONFIG_VALUE_0='AUTHORIZATION: basic '+base64.b64encode(('x-access-token:'+token).encode()).decode())
+          argv = [
+              "python3", "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_confirmed_output_cleanup.py",
+              "--repo-root", os.environ["GITHUB_WORKSPACE"],
+              "--reviewed-rules", "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json",
+              "--reviewed-rules-sha256", "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+              "--publish",
+          ]
+          if os.environ.get("AUDIT_ONLY") == "true":
+              argv.append("--audit-only")
+          raise SystemExit(subprocess.call(argv))
+          PY
+
+      - name: Summarize metadata without uploading an artifact
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          root = Path("topics/visible-flex-exact-nearby/notes/data_cleanup_confirmed_outputs") / ("run-" + os.environ["GITHUB_RUN_ID"] + "-" + os.environ["GITHUB_RUN_ATTEMPT"])
+          lines = ["# Nine confirmed computational outputs", "", "No mathematical calculation, Release upload, or Actions artifact upload is performed.", ""]
+          for name in ("process.json", "publication.json"):
+              p = root / name
+              if not p.exists():
+                  lines.append(name + ": not reached; consult the actual failed process log.")
+                  continue
+              raw = p.read_bytes()
+              if len(raw) > 60000:
+                  raise ValueError("unexpected large readable cleanup metadata")
+              doc = json.loads(raw)
+              keys = ("complete", "predeletion_commit", "initial_topic_bytes", "staged_data_deletions", "staged_deleted_original_bytes", "ordinary_deletion_commit", "topic_bytes_at_published_commit", "topic_within_200000000_bytes")
+              lines.extend([name + ":", ""] + [str(k) + ": " + str(doc[k]) for k in keys if k in doc] + [""])
+          Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text("\n".join(lines), encoding="utf-8")
+          PY
