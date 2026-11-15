@@ -293,3 +293,8 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:41:28 UTC /root — 176r2行首BOM与独立38表读回
 
 19369B与9531B两完整diff已读，原finish逐字同及最终source/request/wf绑定核后四件即发2e5717de/3ba3e2a2/41fe2cdf。只处理真实JSON空白/单行首BOM，原字节身份不动；38表与全cover状态分开、单90KB，不预断165差额主因。真实pull已读5abed1112bda247391e5b84863cc30acc7f38911，双README未变。
+
+
+## 2026-11-15 18:47:22 UTC /root — 178完整十坐标Newton公开入口
+
+完整科学47546B、五运行diff及18261B接口已读后八件即发；固定旧形状/尺度与完整十列，原full3/20档/120FD/全部终态保持，无新rank门。open已结历史入完整检查点，§4–6逐字保；H含所有实际run/待刊结论及恢复。真实pull已读7bb3392aaf3ec93271d45de3f2d3b8eaf6aca7a0，双README未变。

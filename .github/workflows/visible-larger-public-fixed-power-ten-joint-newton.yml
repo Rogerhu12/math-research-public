@@ -1,0 +1,298 @@
+name: visible-larger request178 fixed-power full-ten scaled Newton
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-fixed-power-ten-joint-newton-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-fixed-power-ten-joint-newton
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Actual157 point, fixed support1 power4, complete ten-coordinate Newton
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      compact_summary: ${{ steps.chain.outputs.compact_summary }}
+      compact_summary_bytes: ${{ steps.chain.outputs.compact_summary_bytes }}
+      compact_summary_sha256: ${{ steps.chain.outputs.compact_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish independent temporary metadata paths
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-fixed-power-ten-joint-newton"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-fixed-power-ten-joint-newton" >> "$GITHUB_ENV"
+        echo "VISIBLE_INPUTS=$RUNNER_TEMP/visible-fixed-power-ten-joint-newton/original-inputs" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install original projection runtime; Decimal is standard library
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind actual157 literal parent,112 sources,10 supports and four original inputs
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        input_root=Path(os.environ['VISIBLE_INPUTS']);input_root.mkdir(parents=True,exist_ok=False)
+        raw=(comp/'public-fixed-power-ten-joint-newton-request.json').read_bytes();request=json.loads(raw)
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==178
+        assert request['schema']=='public-fixed-power-ten-joint-newton-request-v1'
+        assert request['lanes']==['smallcoreresonance']
+        assert request['execution_entry']=='geometry_20261115_fixed_power_ten_joint_newton_temporary.py'
+        assert request['scientific_entry']=='geometry_20261115_fixed_power_ten_joint_newton_recipe.py'
+        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_fixed_power_ten_scaled_newton.py":"6b55a6d223f0103bb0396a578d89cfd06c6b4888d38dbb4d518eaa3ecb6f2861","geometry_20261115_fixed_power_ten_joint_newton_recipe.py":"3e5c8a34f5043fac35addf09627e16e59dcfc7287bb7ec087805be5dcac1474e","geometry_20261115_fixed_power_ten_joint_newton_temporary.py":"9bb076c098115d701804cfbdf32cb4c1af0689c5e060e6e9dc55a0b2646ee224","root_20261115_fixed_power_ten_joint_newton_scalar_readout.py":"0610bc3ff66494370018df8c8cd5cb04371fe33c1e48b7160033cbf4e951221a"}''')
+        for name,digest in wanted_new.items():
+         assert request['source_sha256'].get(name,request['workflow_support_source_sha256'].get(name))==digest
+        assert request['experiment_contract']==json.loads(r'''{"max_experiments":1,"complete_joint_directions":8,"complete_original_real_backtracks":20,"fixed_shape_catalogue_index":3,"fixed_shape_support_index":1,"fixed_shape_power":4,"all_ten_coefficients_variable":true,"independent_parameter_dimension":10,"initial_added_coefficient":"0","original_nine_relative_scale":"0.01","added_coordinate_absolute_scale":"0.01","scaled_trust_radius":"1","physical_scales_fixed_from_actual157_parent_words":true,"parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false}''')
+        assert request['scientific_policy']==json.loads(r'''{"complete_parameter_dimension":10,"complete_residual_dimension":3,"selected_support_index":1,"selected_power":4,"selected_catalogue_index":3,"original_nine_relative_scale":"0.01","new_xi_absolute_scale":"0.01","fixed_scales_use_actual157_nine_input_words":true,"scales_recomputed_after_acceptance":false,"scaled_trust_radius":"1","original_parent_radius_is_provenance_only":true,"full_ten_direction_budget":8,"original_real_backtrack_budget":20,"proposal":"column-pivoted QR of complete transpose(J*S), minimum-norm solve then radial clip","fallback":"complete scaled Cauchy direction after recorded Newton arithmetic failure or nonnegative formed slope","scalar_residual_rows_reweighted":false,"normal_matrix_formed":false,"singular_value_cutoff_or_rank_acceptance_gate":false,"normal_curved_path_used":false,"post_rejection_same_point_retry":false,"original_full3_strict_slope_and_exact_binary64_lift_Armijo":true}''')
+        assert request['fixed_shape']==json.loads(r'''{"catalogue_index":3,"support_index":1,"power":4,"family":"geometry_20261115_adjoint_selected_ten_control_family.py","family_sha256":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","selection_origin":{"request_number":164,"engineering_revision":"r3","run_id":"43743904448","source_commit":"257b227a49034faaf1979bfe093122e7d06e1785","status_bytes":565694,"status_sha256":"0f9c86d1f8e1ad94bcf83dc32ea4774534cf3f0854c696b9806905cc6397cb53","summary_bytes":89762,"summary_sha256":"33ca4bc6d9dc545d75ccb625d16d588d7298f259c0b1896df3a1351b65f0716b","scientific_result":"R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md"},"same_original_family_function_not_same_direction_or_algorithm":true,"selection_not_recomputed_at_current_or_perturbed_points":true,"actual157_nine_words_remain_the_initial_numerical_parent":true}''')
+        d=request['diagnostic']
+        assert d['complete_parameter_dimension']==10 and d['all_ten_coordinates_permitted_in_actual_direction'] is True
+        assert d['candidate_steps']==8 and d['backtracks']==20 and d['normal_path_used'] is False
+        assert d['initial_final_Decimal_FD_checks']==d['initial_final_binary64_projection_FD_checks']==60
+        for path,blob in request['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply actual rules'
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1
+        for group,count in [('source_sha256',112),('workflow_support_source_sha256',10)]:
+         assert len(request[group])==count
+         for name,digest in request[group].items():
+          assert PurePosixPath(name).name==name
+          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
+          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
+        origin=request['source_closure']['origin_producer'];current=request['source_closure']['current_producer']
+        added=request['source_closure']['new_current_consumed_names']
+        assert len(origin)==41 and len(current)==45 and len(added)==4
+        assert current=={**origin,**{name:request['source_sha256'][name] for name in added}}
+        assert all(request['source_sha256'][name]==digest for name,digest in current.items())
+        item=request['parameter_recipe'];rel=PurePosixPath(item['file'])
+        assert not rel.is_absolute() and '..' not in rel.parts
+        recipe_raw=(repo/item['file']).read_bytes()
+        assert len(recipe_raw)==8891==item['bytes']
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='c8bb1ca8dfbd745845fab11e421ca9189bfdd20af101931c5ddb7a4ab8cd37a7'
+        recipe=json.loads(recipe_raw)
+        assert recipe['schema']=='R259-actual157-to-fixed-power-ten-joint-Newton-recipe-v1'
+        assert recipe['origin']==item['origin']==request['actual157_source_provenance']
+        assert recipe['origin']['run_id']=='43729310294'
+        assert recipe['origin']['source_commit']=='c71cbeac7fd13c65cf50c7eb39842e9949737b25'
+        assert recipe['origin']['status_sha256']=='931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0'
+        assert recipe['original_nine_literal_parameters']==d['original_nine_literal_parameters']
+        assert len(recipe['original_nine_literal_parameters'])==9 and all(type(x)is str for x in recipe['original_nine_literal_parameters'])
+        assert recipe['initial_added_parameter']=='0'
+        assert recipe['parent_relative_trust_radius']==item['parent_relative_trust_radius']==d['parent_relative_trust_radius']=='0.0000390625'
+        assert recipe['expected_original_literal_binding']['canonical_binding_sha256']==item['expected_original_literal_binding_sha256']=='cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3'
+        assert recipe['policy']==request['scientific_policy']
+        assert recipe['fixed_shape']==request['fixed_shape']
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        assert request['resource_contract']['producer_wall_seconds']==request['resource_contract']['whole_child_wall_seconds']==2400
+        assert request['resource_contract']['termination_grace_seconds']==90
+        history=request['original_input_history_commit']
+        assert history=='8bd267107cc8710d371f3b62c02986655ac965b0'
+        subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True)
+        paths={}
+        for key,item in request['inputs'].items():
+         rel=PurePosixPath(item['file'])
+         assert not rel.is_absolute() and '..' not in rel.parts and str(rel).startswith('topics/visible-flex-larger-amplitude/')
+         b=subprocess.check_output(['git','show',history+':'+str(rel)])
+         assert len(b)==item['bytes'] and hashlib.sha256(b).hexdigest()==item['sha256']
+         p=input_root/(key+'-'+rel.name);p.write_bytes(b);paths[key]=str(p)
+        (out/'original-input-paths.json').write_text(json.dumps(paths,sort_keys=True)+'\n')
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request178-source-input-identity',source_commit=head,
+         request_sha256=hashlib.sha256(raw).hexdigest(),source_count=112,workflow_support_source_count=10,
+         origin_child_source_count=41,current_child_source_count=45,
+         parameter_recipe_sha256=request['parameter_recipe']['sha256'],
+         actual157_nine_persistent_words_are_only_initial_numerical_inputs=True,
+         independent_ten_coordinate_family=True,initial_xi='0',fixed_xi_coordinate_scale='0.01',
+         fixed_support=1,fixed_power=4,complete_joint_direction_budget=8,scaled_trust_radius='1',
+         parent_radius_is_provenance_only=True,parent_state_J_merit_FD_not_reused=True,
+         math_inputs_restored_under_RUNNER_TEMP=True,
+         scientific_model_not_executed_in_this_metadata_step=True,raw_output_retention=False)),flush=True)
+        PYPINS
+    - name: Restore original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'fixed-power-ten-joint-newton-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Eight joint ten-coordinate directions and original20 full3 trials each
+      id: science
+      timeout-minutes: 50
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve();repo=Path(os.environ['GITHUB_WORKSPACE']);out=Path(os.environ['VISIBLE_OUT'])
+        request_path=comp/'public-fixed-power-ten-joint-newton-request.json'
+        request=json.loads(request_path.read_text());request_sha=hashlib.sha256(request_path.read_bytes()).hexdigest()
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+         raise ValueError('Use the frozen original metadata runner')
+        wanted_source=request['workflow_support_source_sha256']['root_20261114_current576_rules_runner.py']
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=wanted_source:
+         raise ValueError('The original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+         raise ValueError('Both reviewed rules identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+         raw=(repo/name).read_bytes()
+         blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+         if blob!=expected:raise ValueError('Reviewed README changed: '+name)
+         baselines[name]=dict(blob=blob,text=raw.decode())
+        old={name:item['blob'] for name,item in runner.BASELINES.items()}
+        runner.BASELINES=baselines
+        print(json.dumps(dict(event='request178_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_true_pull_rebase_diff_and_stop_on_changed_rules_retained=True)),flush=True)
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),
+         '--request',str(request_path),'--request-sha256',request_sha,
+         '--repository-directory',str(repo),
+         '--original-input-paths',str(out/'original-input-paths.json'),
+         '--rules-directory',str(out/'rule-sync'),
+         '--out',str(out/request['output_directory'])]
+        print(json.dumps(dict(event='request178-actual-experiment-argv',argv=argv,
+         original_nine_literal_parameters=request['diagnostic']['original_nine_literal_parameters'],
+         new_shape_parameter_initial='0',fixed_xi_coordinate_scale='0.01',
+         complete_joint_direction_budget=8,original_real_trials_per_direction=20,
+         all_ten_coordinates_permitted_in_actual_direction=True,
+         complete_original_fixed112_terminal_and699_chain=True,
+         persistent_owner_dimension=10,complete_ten_forward_and_all120_original_FD_checks=True,
+         original_full3_merit_and_exact_binary64_lift_Armijo=True,
+         complete_QR_and_Cauchy_proposals_not_rank_or_accuracy_gate=True,
+         scalar_Arb_and453circle_final_checks_at_explicit_binary64_projection=True,
+         projection_never_replaces_Decimal_owner=True,native_or_nonzero_field_completion_not_claimed=True,
+         scientific_source_sha256=request['source_sha256'][request['scientific_entry']])),flush=True)
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read actual independent-family status or honest partial; never rerun science
+      id: chain
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/geometry_20261115_fixed_power_ten_joint_newton_temporary.py" \
+          --report-only \
+          --out "$VISIBLE_OUT/fixed-power-ten-joint-newton-temporary" \
+          --rules-directory "$VISIBLE_OUT/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+    - name: Preserve complete original child errors before temporary cleanup
+      if: always()
+      run: |
+        python - <<'PYERRORS'
+        import hashlib,json,os
+        from pathlib import Path
+        root=Path(os.environ['VISIBLE_OUT'])/'fixed-power-ten-joint-newton-temporary'
+        chain=root/'run-metadata.json'
+        value=json.loads(chain.read_bytes()) if chain.is_file() else {}
+        names=['producer-stderr.txt','reader-stderr.txt']
+        if value.get('reader_exit_code') not in (None,0):names.append('reader-stdout.txt')
+        if value.get('child_exit_code')!=0:
+         names.append('producer-stdout.txt')
+        for name in names:
+         path=root/name
+         if not path.is_file():continue
+         raw=path.read_bytes();whole=hashlib.sha256(raw).hexdigest()
+         count=max(1,(len(raw)+11999)//12000)
+         print(json.dumps(dict(event='request178-complete-child-log-identity',file=name,bytes=len(raw),sha256=whole,parts=count,transport='Engineering log text only: json.loads(text_json_ascii).encode(utf-8,surrogateescape) by byte range; no scientific-array transfer',no_scientific_evaluation=True),ensure_ascii=True),flush=True)
+         for part in range(count):
+          start=12000*part;piece=raw[start:start+12000]
+          record=dict(event='request178-complete-child-log-part',file=name,file_bytes=len(raw),file_sha256=whole,part=part,parts=count,byte_start=start,byte_stop=start+len(piece),bytes=len(piece),sha256=hashlib.sha256(piece).hexdigest(),text_json_ascii=json.dumps(piece.decode('utf-8','surrogateescape'),ensure_ascii=True))
+          encoded=json.dumps(record,sort_keys=True,separators=(',',':'),ensure_ascii=True).encode('ascii')
+          if len(encoded)>90000:raise ValueError('Complete error-text segment exceeds bound; do not claim complete transport')
+          print(encoded.decode('ascii'),flush=True)
+        PYERRORS
+    - name: Remove only this request temporary inputs, source cache and scientific payloads
+      if: always()
+      run: |
+        python - <<'PYCLEAN'
+        import json,os,shutil,stat
+        from pathlib import Path
+        runner=Path(os.environ['RUNNER_TEMP']).resolve();base=Path(os.environ['VISIBLE_OUT'])
+        targets=[base/'fixed-power-ten-joint-newton-temporary',base/'original-inputs',runner/'fixed-power-ten-joint-newton-original-source']
+        removed=[]
+        def own_tree_writable(path):
+         if path.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         for parent,dirs,files in os.walk(path,topdown=True,followlinks=False):
+          p=Path(parent);s=p.lstat()
+          if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned trees')
+          os.chmod(p,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|stat.S_IXUSR)
+          for name in dirs+files:
+           child=p/name;s=child.lstat()
+           if stat.S_ISLNK(s.st_mode):continue
+           if s.st_uid!=os.getuid():raise PermissionError('Cleanup only request-owned entries')
+           os.chmod(child,stat.S_IMODE(s.st_mode)|stat.S_IWUSR|(stat.S_IXUSR if stat.S_ISDIR(s.st_mode) else 0))
+        for target in targets:
+         if target.is_symlink():raise ValueError('Do not follow a cleanup symlink')
+         target.resolve().relative_to(runner)
+         if target.is_dir():
+          own_tree_writable(target);shutil.rmtree(target);removed.append(str(target.relative_to(runner)))
+        print(json.dumps(dict(event='request178_temporary_scientific_payloads_removed',relative_directories=removed,compact_original_readback_and_errors_precede_cleanup=True,readout_success_not_inferred_from_cleanup=True,raw_artifact_or_Release_upload=False)),flush=True)
+        PYCLEAN
+  report:
+    name: One compact actual conclusion; full-array and FD-perturbation tables only identified
+    needs:
+    - compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print one compact original scientific conclusion and exact output SHA
+      env:
+        COMPACT_SUMMARY: ${{ needs.compute.outputs.compact_summary }}
+        COMPACT_SUMMARY_BYTES: ${{ needs.compute.outputs.compact_summary_bytes }}
+        COMPACT_SUMMARY_SHA256: ${{ needs.compute.outputs.compact_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('COMPACT_SUMMARY','')
+        if not text:
+         payload=dict(schema='request178-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
+        else:
+         raw=text.encode('utf-8')
+         if len(raw)>90000:raise ValueError('Compute job output exceeded the explicit small summary bound')
+         if len(raw)!=int(os.environ['COMPACT_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['COMPACT_SUMMARY_SHA256']:
+          raise ValueError('The original compute-to-report compact JSON output identity changed')
+         json.loads(raw)
+        print('BEGIN_VISIBLE178_COMPACT_SUMMARY')
+        print(raw.decode('utf-8'))
+        print('END_VISIBLE178_COMPACT_SUMMARY')
+        print(json.dumps(dict(event='request178-report-summary-identity',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'])),flush=True)
+        PYREPORT
