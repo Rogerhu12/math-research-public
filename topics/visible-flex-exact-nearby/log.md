@@ -235,3 +235,9 @@ root完整静态核757行SCI、最终单行proof pin差、worker全部相对G差
 只新负h 13尾、两个准确local向量/整项比较和31ledger整aggregate；所有旧数学0调用。27门须Actions实际执行，静态核不冒AST/runtime通过。公共容器3.12.14、flint.9/numpy2.3.5/scipy1.17，原whole formatter失败与数学成功分记；AJ两小件独立pin。worker实际540s以内pull/readmediff、同身份成功逐原resultbytes复用、既有科学失败不盲重试、120KB容量余量、预Git完整小stdout、nonFF循环都保。
 
 H旧负侧细账/finite接口及open第5节压缩到2cc71aff同路径和原文，全部未付条件保留。本次只读661a7b9cc0c932ad81310e81be2016c0470bab74两README不变。首次run由flow路径推送触发；继续跟到actual，不收尾。
+
+### 2026-11-15 13:32:09 UTC：NR新nonmean restriction合同
+
+root全文读NR11408B/75f86ebeb47eab668b35ef439370e26d4b3e8e3c2675bd1e7f850f805c3355fc与候选SCI26039B/129f7f7955bb8d11385b9804353f0e389761ba38cc74467436a9600283376934。另亲读原row producer3af195a/13043B/SHA1651f6cf的row_budget97–137及原helperfcad3e3/10940B/SHA18de4ef7的norms198–237：实际response不乘alpha、Rnon字段明确，真dr/poly有限支持误差和Euclidean pair均完整。不是mean-completed字段。
+
+新交段只min(λsup²,whole-cell L2²)且不按长度缩旧integral，完整K权后加旧完整repair/连续offset；真实有限支持≤160使640角费合法。已成MC均值/五高窗直接copy；unknown cL/两侧low-high body/实际residual均不填0。新scalar尚未执行。只读ff12754a75219b52c7c1258ec1f23be394775f22两README未变，H/open持续记真待付门，继续公开首次计算与core。

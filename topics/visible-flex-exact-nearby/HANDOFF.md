@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 13:30:55 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 13:32:09 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与恢复
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学。本机/代码模式只文字、静态核和元数据；每结论独推，非FF立即真pull --rebase再循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 根规15：可重算data/证书/新Actions输出不存Git/Release/artifact，仅script/args/run/SHA/真正小结论；题main≤200MB。旧成功数学禁重算，failed lost temp明确重做。原输入从immutable公开commit/path或旧artifact临时恢复。无executor时根规8仅准UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 13:23:55定时及13:09非FF即时仍无。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。亲读runner真pull见Green/collar/AJ及log；ref不冒pull，每小时CLI继续。
-最近只读README核：661a7b9cc0c932ad81310e81be2016c0470bab74；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ff12754a75219b52c7c1258ec1f23be394775f22；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前完整H/log：71e2264e0234da0ef0479e8137a6f56e83fab36e同路径；再接802c93c及原notes链。所有旧输入/失败/restore/未付门完整保留，归档不授权重算。
 
 ## 总验收、同对象和最终族
@@ -45,6 +45,8 @@ W/423f4719由同完整有限base32/Z96在h1/256构真Wiener逆角，known physic
 E/H/A/R式保46b3c697同H/原文。MC/5d525aac证b0=s0+rraw,mean e2，fδ补+δrraw,mean；正角导/>96源不变。MA actual43717700427/1 child0/12门锁，reportbe2de85d/executionc5424be2/result5d77fee7；SCI7547ece2/worker804a001d/13pin5157dfea，0旧math。窄窗mean L2<4.963677e−10、d费<4.963677e−20，5个ell2^-18/rho2^-20/24/28/32/36全过，恢复same-state条件H8193<2^377904。旧91/15保记录，其余10pass未补授权。最低H1上界仍.000389113；真双侧H1/core/unknown低迹未造，D/cut/W/CS/Green无影响。
 
 LT/d4ca6057给同一双侧真H1 state的Π96/97..288/>288三带trace：一阶能量+真comm给H1/2，known带192两leg在H288精确消，未知ΔA/Δd和mean保；fδ degree288，MA同态H8193只用于无限尾插值。LT20/26须actual low cut和左右low/high body/源，finite Green只含左侧；未评数值门/未造core。
+
+NR/75f86ebe锁原raw nonmean四范数及完整误差：新交段取min(λsup²,旧整格L2²)，K全正权后加完整repair/offset；全部degree≤160故640角费，MC均值直接copy。两新restriction/五LT系数待首次scalar，actual左右body/cut仍独立。
 
 ## 完整tail与同一几何对象
 

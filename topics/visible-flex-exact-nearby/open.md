@@ -199,6 +199,8 @@ G21三local列和六oldcircle/五mean/真实seam的完整累积。
 
 [LT三带真实collar迹](results/R133-supplement-finite193-middle-band-and-infinite-collar-trace.md)现给Π96、97..288和>288三段的完整低入口：真实双侧一阶能量及comm给H1/2迹；参考带192使两finite→>288 leg精确为0，未知ΔA/Δd、中间带/mean保。fδ全degree288，true f=0才使F288=0，MA同态H8193仅用于无限尾插值；LT20/26保known源影响的middle及独立mean。须实际有限cut cL和截面两侧low/high body；Green只给左侧算子gain，不能越域或当实际correction。LT22/23另保近似态真实Fφ和speed mean；新数值门未评，core/匹配未成。
 
+[NR原始nonmean限制](results/R133-supplement-saved-nonmean-restriction-and-three-band-trace-consumer.md)锁真实交长与旧整格积分两完整界min、全K权及repair/offset；degree160付640角费，MC均值仅读。仅两新restriction/五LT系数，actual左右body/cut继续待付。
+
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。
 collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可用完整Fval/factorial。旧7296的f0平方dr积分不受此项影响。
