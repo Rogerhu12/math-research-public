@@ -38,7 +38,7 @@
 
 [R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD及α1/8接受，全75776×17仿射和148×453点态齐；α1/4与α1坏行不同。完整整段/余13真实trial/BVP未付，全部数值与读回/清理范围保原文。
 
-[R354已证](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)给完整V″/严格分母界、全338+115零行；原e0/e1、Hermiteδ0/δ1和执行η不归零。[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)100pins/三原参数已发，实际43741803578/sourcebf1880f8：真98原37/FD先返回，再复制原A分块缓存而无新增旧RHS/J；Arb384/320位向外算完整DFT/两mean、全端点2048×17闭段M/域与37×17末点差，t权已核+sin。末点gap非整段统一盒；整IEEE、query角域、699/698/两RMS/连续角仍未付。10800含恢复/diag5400/保留300+60、190science/215job，读回success+marker后清，exact核R365，不设原求解新门。
+[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)完整V″保338/两mean/115零RHS、e0/e1与形成δ0/δ1及执行η。[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)已完成：43741803578/sourcebf1880f8，真98原37在1/8接受，最近1/4已选LEFT464/MID471分别4/8负角；原W43.363003729098274→43.33605694766103、FD8.81884772255149e−10，仍非BVP。29端点×17各2048角的闭段域/完整338二阶界全proved，629准确末点Hermite gap与四真实trial×37执行η全部可用；13未访原档不补η。2668.260350612s无资源partial/异常，全部8文档/1230成员原身份读齐，原raw清后不能凭SHA续。末点gap非统一整段包围，整IEEE/truequery角域/699/698/两RMS连续角/native/fullDN仍未付；175独立重生继续，不能把此诊断当原接受门。原100pins/参数/预算及全部身份见[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)。
 
 ## 2. 九控制残差与新的形状方向
 

@@ -324,3 +324,5 @@
 - [R367：实际169重发新标量建成但首far pivot未付](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)：C1440/cut两jet/419片profile/deep112齐，九域仍partial；m2在49commit/100attempt后双端点盒含0，非资源耗尽，全部栈/后缀保。0far/0单位行，BVP/H/J/FD未启动；六读回后真实清理，不能冒Newton拒或准确共振。
 
 - [Request177：同C全112的Riccati比较与完整cut族](notes/2026-11-15-request177-complete112-Riccati-cut-interface.md)：五件/17pins，原全深端族重新生成；两个全闭barrier证明存在后保整比值管/幅度，准确切图与所有cut商、事务/未访责任保持。单份≤90KB必要摘要，原C/native门不改，实际R379由geometry核。
+
+- [R365：actual170完整端点曲率与629个Hermite末点包围](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)：原37在1/8接受/新FD过，最近1/4已选LEFT464和MID471失域；493组端点闭段域与完整338二阶界全过，629末点gap/148实际η齐。无资源partial，13未访原档无η，统一整段gap/truequery/IEEE/native仍未付，175独立继续。

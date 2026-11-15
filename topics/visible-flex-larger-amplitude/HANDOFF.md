@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:38:50 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 df600652300d741f3a989f44fae5d505274f0c26。
+规则同步记录：2026-11-15 18:40:29 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f01029cef7cfbbb83c5c94a67509328c7ec4e43e。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -21,7 +21,6 @@
 |---|---|---|
 |160 root，R359|43729874541 /b34692d09c8d5ecdd7b859e43489da4413f1468e|compute132859748674 step14；真实128→全576×224/112/338/audit，58pins/19200s|
 |171 exact，R361|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→原37八批→同job末pair→新LEFT462/38，97pins；原17档/FD|
-|170 exact，R365|43741803578 /bf1880f8c2e0381223bf29fd50ffb6e205afc75b|真98原37/FD→R354端点/全段M、pointwise Hermite，84af正sin/100pins|
 |172 geometry，R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p重生、全129248行R360，124pins/18000s|
 
 仅唯一负责人读已结束原日志；未返call不补拒。各源码/配方/预算/原错误与完整未访责任见同号notes接口和open；API状态或job绿不代数学门。
@@ -32,7 +31,7 @@
 
 [R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)首正H五J/四接受，末十档全拒norm2317.31958952296，非预算。R360已证d=b+Aq+s；[172接口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)新same-X noJ及全十拒后2^-10..-12仅诊断，全J/状态/Δ/e保到准确分解或明partial。额外调用有缓存/时间影响，不称145逐词轨迹；原32×10/strict下降/2e−9/worker.last不改。单≤90KB必要表，大dyadic/日志仅内部+身份，完成marker/owner静止后清。
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。170只付端点参考/闭M，不冒整query闭域。[175完整入口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：真98原37/FD后G0+tG1+t²G2及14次query P，capture0a8f/consumercf4f/runtime825c，单≤90KB完整trial标量/全部37×17分类，原科学门不改；10800s含恢复，实际run43747437442/source81bf71ae，exact核R372。
+[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)原37接受1/8/FD过，最近1/4在已选LEFT464/MID471失域；29×17端点闭段域和338二阶界全proved，629末点gap/148实际η齐，无partial。13原未访档无η；整query闭域、统一gap、IEEE/native未付，不能冒BVP接受。[175完整入口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：真98原37/FD后G0+tG1+t²G2及14次query P，capture0a8f/consumercf4f/runtime825c，单≤90KB完整trial标量/全部37×17分类，原科学门不改；10800s含恢复，实际run43747437442/source81bf71ae，exact核R372。
 
 ## 同C的失败现场与新推进
 
