@@ -113,3 +113,7 @@ root又在main137c5a877fb387a82cbde01f084d1fa67ee717aa读到根README差异；�
 phase负责本题main可重算data/旧人工parts的普通删除；清理workflow现已部署（SCI40c0f3df…），真实逐对象核SHA256/Git blob/bytes，保原脚本、参数、run、哈希及结论，完成后按精确Git树核题目录≤200MB。不改写历史或强推。确实需要旧文件时，用记录的完整删除前public commit与path执行git show恢复到临时science树，逐字核原manifest；旧artifact只作已成计算的临时输入。
 
 newton负责原Green失败artifact最新成功prefix的临时恢复，并让下一完整计算链在同runner内消费结果；新输出不再持久上传。root的六case诊断消费同一原件，只登记脚本/参数/run/输出SHA和实际结论，不复算旧norm。所有数学任务继续，题README总完成标准保持。
+
+### 共同径向势的稳定表达已齐
+
+[P1–12](results/R133-supplement-cancellation-preserving-common-radial-potential-and-ports.md)现把 c 和 V 中重复 η_r/η 先作准确代数消去，保 z=j^-2 的所有有限背景因子及 bilinear 复参数。G_r/G=B−c 逐真缝继承非零入口，两普通源仍含 g2 与 c g2、没有 g2_r，root混合 n1/3 trace/独立 j0 保。下一消费者须在原合法common domain实际付 η/k/Abar/a/κ及有限分母gap、势/传播和原old-circle/非径向principal费用；本恒等式未给数值门。

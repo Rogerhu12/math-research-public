@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 补充 P1–12：共同径向势与双源端口中的准确消去](results/R133-supplement-cancellation-preserving-common-radial-potential-and-ports.md)：在取区间上界前消去重复 η_r/η；同一完整 V、G 和两物理源行保所有有限频率/mean/真正接缝。只需至二阶径向 jet；不授新势界、径向域或高频逆。
+
 - [R119补充 O1–22：非解背景真Jacobi与几何散度的准确残差差](results/R119-supplement-exact-off-shell-divergence-Jacobi-and-narrow-residual-defect.md)：EN=αNk−βNθp−γNp无新δ逆幂，保〈A0EN〉=〈NDA0〉及两mean/通量；metric reference后完整+ψN与EN都保。H66小近邻仅扩s≤64二次代数门<2^524288Y64Ys；不从已知解逆转授任意背景逆。
 
 - [R119补充 P1–42：有限Sob principal KAM与第一真实度量反项](results/R119-supplement-finite-Sobolev-principal-KAM-and-true-first-metric-counterterm.md)：真实物理非mean高度H8196小域、M的holonomy/总高度补全；完整解析Newton与dyadic证明H8192→C8188，τ正权Frechet式/C0 Lipschitz1及统一余项给全无限层+新外行firstΓ。原analytic成员从真正绝对宽嵌入；不授second相位、nearby全逆或Y64→H8196闭合。
