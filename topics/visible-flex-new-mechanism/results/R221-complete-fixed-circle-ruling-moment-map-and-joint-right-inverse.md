@@ -695,7 +695,7 @@ G_{\rm geo}
 \begin{pmatrix}
 L_\theta G_{\rm ker}&0_{42\times3}\\
 0_{3\times132}&-I_3
-\end{pmatrix}\\[2mm]
+\end{pmatrix}\$$2mm]
 G_WC_\theta P_6G_{\rm ker}\quad 0_{3\times3}
 \end{pmatrix},
 \qquad

@@ -254,3 +254,8 @@
 ## R235：真正不可分离、完整三阶与例外领先双零兼容
 
 [R235 完整存在证明](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)在任意正活动I内付真实三矩圆，不能由任何常数GL2换成不交profiles，同时hook不可见、完整二三阶range和R231两个领先能量为0。等差四尺度使P*严格负；平移bulk为次数≤10多项式，八复制P8的形式L0值非零，所以可在合法开间距避有限根而保0<|t|<1。两不交正尺度block分别取α与π/2−α，真实x²左尾的交叉能量按紧槽正交消去，四条实际射影方向给不可分离。两个block使用同一几何/右锚/history起点，完整四第三槽相加。最终F另选后才冻结同一个gε，不冒沿R193旧目标的gauge；第四剩余层及period/joint仍欠。没有新求积或符号目标运行。
+
+
+## R236：二次平端层的原目标主部准确判据
+
+[R236 完整证明](results/R236-quadratic-endpoint-principal-part-criterion.md)在真实左零通量、有限极点光滑类内证明：若G″=p²R+p³R3，则u=w′可光滑延拓 iff t⁸R光滑；在已消一次层的G=P2+p²B+p³C且真实平台P2″0时，等价t⁴B光滑。归一算子的常系数分别−12c⁴与4c²，保证最低负极点不能被导数项抵消；u(0)=−[t⁴B](0)/(3c²)，允许非零平滑端值。这里只须原目标有限Laurent主部，无需先算逆解jets；例G=p²t^-5失败而p²t^-4平滑。保真实c、a′/a、真平台/支路和首f-up/g0范围，不声称H_E该主部已消或完整period通过。下一七必要mixed根的新degree2消费；旧一次层已结，不机械复核。root完整纸推经tail独立全文审查，无新科学计算。

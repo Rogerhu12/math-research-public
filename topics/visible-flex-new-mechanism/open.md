@@ -10,9 +10,7 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103列首轮实际](notes/entry-body103-first-actual-result-20261115.md)43691833140/source2f25b5aa/job132743956019已完成并完整读取。一次growth→strip→SOC仅恢复必要输入643875e4→267c41ff→ec76，不强求历史hash；新阶段1LP/1两网试探/1接纳、0SOC，末态
-`bfbd7465044bd742b48d731f0f381ef015e32fa0867b20442488be9bd9831b1a`。
-两网eta .26651073966292449/.26651075196396212，fineκ57.999989440433026、条带余4.3969304031055145e−8，原全门通过，新.26未到。固定外域t=.7725,θ=pi/2的eta=.26651073136454873，剩余下降空间2.06e−8<原最小接纳drop1e−7，下一模型在J/LP前准确退出。预测比.925、只用.03997r，不是半径或预算阻塞；不延同103列预算。完整外域六jet/metric、全域b/中心和60固定系数保持，真实全门/8defect/全部计数见正文。
+[103列首轮实际](notes/entry-body103-first-actual-result-20261115.md)43691833140/source2f25b5aa已完整消费：一次growth→strip→SOC必要恢复后1LP/1接纳，末bfbd7465、两网η .26651073966292449/.26651075196396212，原全门过而.26未到。固定外域.7725峰余下降2.06e−8低于原最小drop，下一模型在J/LP前退出；不延同103预算，完整费用和门见原note。
 
 ### 154首轮已消费；下一原高度零总积分方向
 
@@ -52,9 +50,9 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R212](results/R212-C1-sections-for-complete-real-pure-cost-control.md)的固定有限词C1全pure截面已付，未知真实基准与商Q均保留；外扰动须全P IFT。R214/218/220的无常段、偶germ与Morse迁移已由R223/227加强，当前无需重做这些局部控制定理，直接推进完整period与ruling。
 
-[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)已同时实现无开常段、完整pure准确控制及非零闭hook：正则前缀/真倒行保有限满锥，六类词结构保M/T/frame；原语九行IFT后全P IFT精确修成本，Baire覆盖全部原语/校正块与倒行发生位置，Klein按新位移闭合。但[R216](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)已证一个状态四阶flat点足以保常态σ² ruling障碍：同锚/同真实history冻结给K″=2K_const，所有允许gauge均不改。标准共同flat端口配R193原八包及其光滑邻域全宽度失败；其他状态保R187充分窄化排除。**不派发这些已排候选。** R218已付共用偶非平germ的真倒行/缩放桥/低阶与全pure控制；这只避flat拼口前提，仍须实际mixed/joint。R199新忠实圆的F门未评价，不继承原八包正性。
+[R214](results/R214-nowhere-constant-closed-hook-with-exact-universal-pure-zero.md)已付无开常段/fullpure0/非零闭hook；[R216](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)证明四阶flat状态足以保常态ruling障碍。R218的偶非平端口与R220全域Morse已升级该几何，仍不能从避flat推出完整joint；R199新忠实圆不继承R193旧符号。
 
-[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)已准确支付新的偶非平端口类别：所有有限外/内部标记拼口h=h*exp(εσ²)、k/ω常，物理s与固定collar使可变长度下germ仍匹配；倒行/正H/桥完整兼容。端速度0支付原端势与成本同U，九行IFT、完整结构T词、全P IFT及Klein新位移保M0/TκH/pure0闭合。所有标记拼口h″>0，可同时去开常段；R218本身不排内部4-flat点；这一项现由R220受约束jet论证完整支付，仍未解第四joint。
+[R218](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)支付有限内外标记的共同偶非平端芽，原语九行/fullP IFT、真倒行/桥和Klein位移保M0/TκH/pure0。后来R220/R223/R227加强Morse与非零ke例外端口，已付控制不重做，直接消费新完整mixed门。
 
 [R220](results/R220-constrained-Morse-geometry-with-exact-universal-pure-control.md)已把R218加强到**全域h Morse与局部C1全pure实际截面**，因此整条实际闭hook均无状态四阶flat点。九行/fullP先非线性求解；Duhamel/IBP光滑密度与点导数分布独立，全部发生位置物理2jet满射，紧零集有限方向+C1低维投影零测完成，不滥用Sard。Morse在C2开故同一邻近pure目标族保持。**Morse只离开R216平点前提；R224另排标准正ε偶germ的原八包，mixed/ruling并未自动支付。** [R221](results/R221-complete-fixed-circle-ruling-moment-map-and-joint-right-inverse.md)已完成任意w的完整有限矩映射与指定包类的全部period核右逆。18局部+24真实history函数给42几何生成元/126矩，加6合法性矩；核Gram精确像非采样近似。完整joint先保两原period成员门，再保五相位目标的45几何span余项，最后48×135矩阵及有限降秩消极点条件准确支付同w/全相位/种子。生成元数非rank，未验证一个实际目标；fullperiod成员已有R225完整判据但实际像未判，不能由F8=0冒完成。
 
@@ -75,6 +73,8 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 [R226](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)给p¹有限首项的指数失败、p²有限极点门和p³以上左零通量延拓；特定δ链扣真二次尾后仅p⁴，不能代表U/R。[R230](results/R230-first-flat-end-layer-as-an-exact-cubic-tail-operator.md)付G=P2+Tτf+p²A，τ保同右锚三次函数和shuffle；指定解析ψP时(D+p'/p)有限有理消元判Tτf，不猜有限jet。
 
 [R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已消费43699241372/ee9e2098：12新增人工全过，17新层/34cubic，宽门秩4、合三旧pure行秩6，两门均member。H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32满足whole pure0、λ+1和本T0，fresh2694项原差验证；pure核的一次层像维3。T明确只真权0、canonical mixed−2、首f-up/g0左平端。**本一次层读λ路线结束，不机械加同类查询或扩别权。** 下一必须处理p²真实有限极点、完整内部/平台/通量门，或全period/ruling共同算子。未指定P/真实τ，不冒固定圆成员、完整端点像或全权R225响应商；raw旧I符号/真耦合/外锚jet顺序保持。
+
+[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。下一只恢复H_E的C2/R0/R1/R2/R3/R4/R10七必要根，以可达jet给严格截断界，提取degree2真尾规范式和负主部。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 

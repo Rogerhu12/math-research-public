@@ -200,7 +200,7 @@ $$
 \mathcal W_e=
 \begin{cases}
 \operatorname{span}\{1,e^{\varepsilon\sigma^2},
-e^{-\varepsilon\sigma^2}\},&k_e\ne0,\\[2mm]
+e^{-\varepsilon\sigma^2}\},&k_e\ne0,\$$2mm]
 \operatorname{span}\{e^{\varepsilon\sigma^2},
 e^{-\varepsilon\sigma^2}\},&k_e=0.
 \end{cases}
