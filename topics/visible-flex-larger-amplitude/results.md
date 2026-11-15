@@ -433,3 +433,7 @@
 ## R369 — 实际172当前H全行有限割线分解与原十档全拒
 
 [results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)（35268 B / 340ab9cb86d934e895c90e608fabc21a3cbd83194053cebc0070f890c5de71db）记录run43745317876/source3975e583，compute132907218328科学exit3、必要/清理成功，report132957129361返回同67468B/1e9170eb摘要。零H完成而无J/audit；首正s1/64仅两原trial接受，i2原十档全拒，norm3488.882983000276，10281.277116862s非资源。3同X及3extra是6次新增noJ，14原trial另计；三轮17完整R360分解每档129248行，exact恒等式齐。末b≈4.83e−5、Aq≤约1.3914e−4而finite_secant为数千，13保存仿射模型均下降；不唯一归因某root/cache/J，也不把有限割线当已证Taylor余项。全部17原最大词/地址、三freshQR/原gradient、六输入/124源/四实际pull和真实清理保全文；3extra门为null，原noJ minAD无穷只字面。正H/fullDN/FD/端点/final/audit未起，原课题未完成。
+
+## 2026-11-15 — Request190：记录算子预装配的完整当前128执行链
+
+[完整接口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)17208B/c77697fd及六源/request/workflow全部源差异、61项request变化已核，原64pins全保→70。实现R402的全角literal A_m/A_L/F_m/F_L，在实际原root/名义L与同s上形成；保完整113行C解残差/名义缺陷、226RHS/RK、224种子/两mean/端口和通用geometry fallback。重关联是新binary128实现，不冒186词、C精确逆、R283导数或已付误差/性能；整数digit未实现。真91→fresh64/J/R273→same-job128/replay→全部576×224→112boundary→338×112endpoint/独立audit，19200总与所有原组件预算不改，单90KB必要/quiet后清。186仍独立，R403不预填，无新fixture/前门。当前H/open原文完整存检查点，仅压缩已刊重复，open§4–6逐字保留。
