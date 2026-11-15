@@ -584,3 +584,8 @@
 - 全六有限heat连接纸面证明登记：root给Lamé15X/4三对称平方解，sigma独立核不变量/二解，双方逐式核偶部张量矩阵四行与det−108、完整水平矩阵det2916c²；仅排2/3，全部允许p可分/零曲率。
 - 原偶部Hurwitz c_(p+1)=(0,0,2A,6DA)，首p源/P0非零与完整原值heat曲率准确保留；明确函数pullback的CM共轭乘子，与MH统一。SHAb1500d09ca02a09386d28ee0810e0f3fd7fc91d2a2024c9addf7f0617a38aec2。仍未排critical/primitive全零，不把有限覆盖单位当筛后单位。
 - R803真实run43702905620已in_progress；R801真实success正在全输出IO审。OP已推0b59e8a4；每次真实pull两README无差异。R805原全局除子自由模接口继续，主目标OPEN。
+
+## 2026-11-15 18:27 Asia/Taipei · serre-public-astra-20261115
+- R801实际长尾完整登记：796.738575秒，V6[109,142)/V7[96,176)/V8[109,196)，原40ξ/20t相位与旧mod739核验全过。真实低幂闭包power2/3/4/5全部到195，因而旧七八铅笔V3至136/149缺口已关闭，不再补算。
+- ordinary逐块核实际1,049,535,812B ZIP/30,781输出及10,477原bundle成员；冻结verify全断言通过，只以惰性读相同七字段替代头缓存避免本地137，其他逻辑不变。root全文核审核源码/小摘要与public原verify步骤success；cert1fbcd66f、artifact14156204348，一日raw不入Git。
+- 全六heat证明已推ebf778913，R787/R803继续，R804β消费者和R805全局整基/极理想接口接续。主目标OPEN，未将基尾输入完成替代函数或高度。

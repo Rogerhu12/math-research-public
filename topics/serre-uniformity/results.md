@@ -381,3 +381,5 @@
 - **R803（公开工程已成，实际请求已启用）**：[执行契约](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)。四条原M6短补行与五混合前缀，一个694模解算器服务六组14右端，Dixon精确残差/统一重构界及全1680行准确代回；781个真实旧输入完整IO核通过，最小31.8MB源bundle。core1233536f/wrapperb8cedc8f，尚无新minor、坐标或高度结果。
 
 - **原全六有限heat连接（已证明）**：[完整代数平凡化与偶部边界](notes/2026-11-15-sigma-full-heat-tame-trivialization-and-even-source.md)。偶部通过det−108矩阵同构Lamé5X/16⊗15X/4；显式平方根覆盖与Wronskian²−27/4给全部允许p的完整零曲率。保偶部Hasse首p源和原值基完整heat非零p曲率，不将全向量单位误当真正同标签critical非零。SHA256 b1500d09ca02a09386d28ee0810e0f3fd7fc91d2a2024c9addf7f0617a38aec2。
+
+- **R801（公开准确长尾已完成）**：[原六至八次幂长尾及实际低幂闭包](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；V6 q109..141、V7 q96..175、V8 q109..195全核。实际全部power2..5也到195，原七八铅笔V3尾缺口自动关闭。30,781输出/30,773stage与完整ZIP/bundle全SHA、冻结verify逻辑通过，cert1fbcd66f。无新函数、极除子、η或高度。

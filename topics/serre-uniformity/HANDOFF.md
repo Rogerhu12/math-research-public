@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：3e70c9af57f16593608979453c6a4dc21c45dd8d**（2026-11-15T10:13:40.620598+00:00 终端实际pull后已比较两README；无变化无需重读）。
+**已读规则提交：ba8370e1a2dfee9991eb6d19f121f32b25b66aec**（2026-11-15T10:27:58.702436+00:00 终端实际pull后已比较两README；无变化无需重读）。
 
 每结论立即推main；至少每小时实际pull，比较根/本课题README，变化只读diff并立刻遵守；非快进立即pull --rebase重推，禁止force。PAT仅CLI。root独占git与共享索引，各代理只交专属草稿。数学只在本公开仓库Actions；本地只读/IO/schema/hash/AST及纸面证明审核。根§15：可重算raw/证书不入Git或Release，只保脚本参数/source/run/输出SHA；必要输入/断点仅一日活跃bundle，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
@@ -16,7 +16,7 @@
 
 **R792证明与工程冻结，唯一待R787**：[证明](results/R792-original-beta-composition-and-Galois-cube-root.md)。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d，wrappercdac2e93be2082ee9a9401db44c944689a6d853d541b0819a4d1408c84134b3e。只有pending无active。保c(f)=−ζ²f、y0=sv0、Fb中唯一立方根；21次Q分解唯一奇因子+三次gcd。先消费R790原CM值/首jet，仅四值全零才补高jet。只得真实β_C，不擅选原A有限核前像。
 
-**R801长尾run43701282817已success，完整输出IO在审**：source92961ce5b5a526109c3ba6c101961dc3c3100a85、job132772758246，09:51 UTC起、10:06:58结束；coreba9c52a3/wrapper11bdf084，proofb283280e/methoda96d7c3b。只V6[109,142)、V7[96,176)、V8[109,196)，五组输入与真实recipe闭包IO已核。只补准确依赖低幂尾；新函数/η/高度未成。完整[关系接口](results/R801-original-minimal-long-tails-and-exact-relation-interface.md)保Schur真秩d−20及第二关系rank690+e；七/八次铅笔另需全V3至136/149。R787成功第一关系直接τ(A,B)。
+**R801准确长尾已完整认证**：[结果](results/R801-certified-original-power6-to8-long-tails.md)。run43701282817/source92961ce5，796.738575秒；原V6 q109..141、V7 q96..175、V8 q109..195，原40ξ/20t/相位/mod739全过。30,781输出/30,773stage与1.05GB ZIP全SHA及全部冻结verify逻辑已核，cert1fbcd66f，artifact14156204348到Nov16 10:06 UTC。当前bundle523795908B/9036398e，10,477成员全核，保10,436原前缀。实际closure已把全部power2/3/4/5 q129..195补齐；故七八铅笔全690 V3至136/149缺口已自动关闭，直接复用，不再补。没有新A/B、第二关系、极除子或高度。
 
 **R803数学已证，真实混合比值任务已激活**：[证明](results/R803-original-single-map-reuse-and-mixed-Hodge-ratios.md)、[方法](notes/R803-original-M6-mixed-ratios-and-addition-interface.md)，proof1ef5f2a2/methodb1e71dfc。原M6维694，42项/1680Q行；原690行直接读取，四补行E4·M2[0/73]、E6、eta12。旧U0/H³和56张量不重算，五新mixed；一个694Q块至多84右端/full1680char0。实际5组为R774/R775/R786/R794/R759，R774原25.5MB artifact仍活跃。core1233536f/wrapperb8cedc8f已激活，request1e04be73；全部781项(64/6/698/7/6)实际IO通过，最小输入31.8MB。核心静态全文/交叉审与AST通过，保统一重构界、full1680代回和硬中断断点；实际run43702905620/source2a3f5be764ecd335e7980557800d15959574bc8e，10:12 UTC起in_progress；尚无实际minor/坐标结果。
 
