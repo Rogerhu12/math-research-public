@@ -544,3 +544,8 @@
 - R799真实短基登记：V7维1778/q95/minor534、V8维2050/q108/minor148，均mod739；实际三锚点0/1/73、cursor4518/9036，无两锚点无基点外推。六次仅补82..108；555.818秒。
 - 公开IO run43699442183核完整ZIP、全部5347输出/5339阶段、冻结source/request/wrapper verify，cert5a6c7fbe；R801真实依赖IO已过，最终选中原recipe和全部短行随其当前bundle续接。
 - R800已CLI推747968f6，非快进已即时pull/rebase后成功；两README每次diff空。R797正式登记接续，原函数/η/高度和主目标OPEN。
+
+## 2026-11-15 17:47 Asia/Taipei · serre-public-astra-20261115
+- R797五个原低次数映射实际Laurent完成登记：N170/172/176/193/196，907个逐阶状态与15个scalar/H3/prefix，共922阶段；完整280Q字段、κ非零/cusp e1/原相位/逐阶ODE全核，2106.946833秒。
+- 公开IO核原ZIP及930输出全SHA、冻结wrapper与各前后阶段链，certf41ee0a2；只κ^(N−1)已成，后继κ^N各补一次，不重跑旧f4或多算R_N。
+- R799已CLI推0d773971，pull规则无变化；R801仅新增长尾准备激活，R787继续。原A/B、η、规范高度和主目标OPEN。

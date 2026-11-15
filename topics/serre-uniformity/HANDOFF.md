@@ -4,7 +4,7 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 当前会话serre-public-astra-20261115；日志Asia/Taipei。沿远端main，不寻找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：6669d33fe97c8f7d90fa23fe949338aca910374a**（2026-11-15T09:43:19.517387+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
+**已读规则提交：afb06ee3ef654ce5c202767787780e1e9c087a29**（2026-11-15T09:47:28.120567+00:00 终端实际pull后已比较两README；无变化无需重读）。每结论立即推main，至少每小时实际pull并比较两README，变化只读diff；非快进立即pull --rebase重推，禁止force。PAT仅CLI，root独占git/共享索引。数学只在本公开仓库Actions；只读/IO/schema/源码审核可在本地。根§15：可重算数据不入Git/Release，保脚本参数/run/source/输出SHA；活跃输入和断点一日包转交，不重算已成阶段。Markdown<100KB，H<10KB，open<30KB。
 
 08:56 UTC环境失联时按根§8用小文本API保全并推cosigma、R801/R802与IO工程。09:31 UTC终端恢复，旧tmpfs已失；已重新部分克隆远端main，现恢复终端git提交/推送。公开IO亦有真实pull回执，不把GET叫pull。
 
@@ -16,7 +16,7 @@
 
 **R787原函数run43683912711仍待结果**，source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23，job132720221921，06:06 UTC起，core预算300min；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04。14分支共同主元/自由列=1，在原L整基全残差Dixon提升；须非零A/B通过完整129×20 L准确代回。预算停则读取真实断点同源续接，不重算完成阶段，不预称原函数/β/高度。
 
-**R797五新Laurent run43693453831已success且完整输出IO已核**，source05bf2b2b22d1435a20233f48cb34a78fc53e7154，corefd3bfd286b587dba76283cbfe6e56244eef6ce5248a91e9457988bccde051086。只用R774共同56三积与R794新微分，保4·mult/1722³、一次q移、原相位及R781除数3n+1；个别N170/172/176/193/196，不重算旧f4。最后清行还需各自κ^N，R797保存至κ^(N−1)，后继只补一次乘法，不多跑R_N。
+**R797准确前缀已登记**：[结果](results/R797-certified-five-original-Laurent-prefixes.md)。run43693453831/source05bf2b2b，2106.946833秒，五新映射N170/172/176/193/196，原280Q字段、κ非零/cusp e1/相位/每阶ODE全核；930输出/922阶段和ZIP SHA已核，certf41ee0a2，artifact14154283549。旧f4/56Hodge不重算。每map实际仅κ^(N−1)，后继只补一次κ^N，不生成额外R_N。
 
 **R792证明及工程冻结，唯一待R787。** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)保c(f)=−[ζ²]f、y0=√−3v0及Fb=Q(b)中唯一立方根；21次Q分解唯一奇次数因子+三次gcd。Fb仅指定实嵌入；共同零阶0/1用R790已成首jet，四值全零才需更高jet。core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d，只有pending无active。三直接producer/父bundle与两旧Git小回执已核；保原14坐标及82尺度。只得β_C/真实vβ，不解原A有限同源核原像。
 
