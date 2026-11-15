@@ -42,15 +42,15 @@ R148固定k sharp：a≥0、d+(3−σ)²a/9≥0，权−2给λ(D0+25J/9)≥0。R
 
 R156严格排输入相位捷径：q→e^{iα}q保U/锥 iff α∈πZ。R81 hook给反例；mixed输入荷4/2/0平均保非零荷0，输出移相/固定F重置也未获控制。R84倒行第四成本同号，不授实际负成本。
 
-## 5. 已付pure与原数据（不重算）
+## 5. 已付pure及原数据（不重算）
 
-3974完整因子run43651096112（gz9daddeaf/raw58e450c4）含N0/N2、两mode v2/v4；N2不能删。旧static43645177423有197/mode原L0。五A/H43654534244全314/648根。新完整head下节已统一消费，后继不再编forcing/W/已成N。
+3974完整因子43651096112（gz9daddeaf/raw58e450c4）含完整N0/N2、两mode v2/v4；static43645177423有197/mode原L0；五A/H43654534244全314/648根。完整head已统一消费，不重编forcing/W/旧N。
 
-R133整m8已结束：Π8U=Π8R=T31/偶15，同四块完整m8 period0，不外推mixed。R138 Gpure=Bp2W1/128。R151 Jpure九基身份与31原依赖全付；R157 D0新的402项原差Q零，E_D真43/pure9/核34。R160 J6pure六基身份已付。所有完整原证书路径和SHA在各结果/旧log；这些已成任务不新增profile/旧基/NF复核。R162在完整mixed排J6成员，见下。
+R133整m8 Π8U=Π8R=T31/偶15、四块m8 period0已结束。R151 Jpure九基及31原依赖全付；R157 D0九基402项原差零，E_D真43/pure9/核34；R160 J6pure六基身份全付。完整原证书见各结果/旧log。pure+balanced忠实由R159付；R162原成员已付，均不再新增profile/旧列/NF复核。
 
 ## 6. 正在运行与未付终局
 
-R159已付pure零V=B(f²,f²−φ²)，B=2K−Lᵀ，balanced(2,2)=−B(qbar²,q²)/16忠实；一般V另含S(φ⁴−f⁴)，pure+balanced合起来忠实。R160 J6 pure六列Q身份已付；R161 balanced176项/45fallback当时未决，R162已解决原成员，不再重NF/pure/旧31/40。
+R159 pure零V=B(f²,f²−φ²)、B=2K−Lᵀ，balanced=−B(qbar²,q²)/16忠实；一般V另含S(φ⁴−f⁴)。R161此前未决已由R162原式解决。
 
 **R162 actual43663137188/source0700d815证J6∉E_D。** 仅新J6和一条旧42整体和，R153隐式43消元给t1/35的ΛJ6=1266268570 mod2147483647、新44det1176345646。3.984s/RSS100.527；E6真44、pure9、核/balanced35，U≥240而lineality/query237。10原根135334B/5563bacb、完整39600B/3c20b09a。J6∈R已否定，但J6∈R−2+N U−1未定，c0/b1不可归零。不追第45孤立列。
 
@@ -58,6 +58,6 @@ R163完整14族：最高10族H^eF(gS)=P_gF(S)，F0/Q2带同一C_g=Σa_i(M)F0(gS_
 
 R164已付全部可行μ协变，权−2唯一由同一F0的c/d给出；Lie兼容自动。新增§10八参考态精确消元：任意真实该权字符有μ=(0,2a(0),2a(1),0,0,0,0,8a(0))，c=0；μm0=a(0)(k²−1)−a(1)kh，μm2=−a(0)(h_s/h)²。a(1)是值非系数。仅字符后数值关系，原U cocycle不可删，外必要等式已包含不重计。修正14族=h^(σ−e)f(k)，完整正性iff全部平端r=logh,k有∫e^-2rP≥0，保0/2/4层及面积，不推P点态正。
 
-43665345551的head/reserve实际均已消费，当前几何状态见§3。后继本提交single **character_minus2_finite_necessary**，源45116B/d4c3751c；13人工0.703s/61.672MiB（标签修订前原源身份保留，公开首次development用新源）。精确全107坐标外等式消元、6条有理多项式路×5时长/静态/PSD/sharp必要行，双号非负Q Farkas全成才排权−2正字符；外部可行不授真实泛函。固定240s/1024MiB，完整head字节绑定已齐。literature跟实际；mechanism接reserve结果及固定硬κ降η（须fine7→11完整二jet）；root独占Git。
+**有限必要系统actual43665971895/source05bb659b完整结束而未排除。** 107原坐标、124有理外等式秩84/23自由，63必要半空间；2.005s/RSS167.5，实际13人工通过。第0自由坐标+向无双证，保存精确非零外部候选；不是正字符存在/函数秩。完整证书31976B/5658e056、raw143028B/dd539b08，主10143B/1e8d751f；notes/character-minus2-finite-necessary-actual-20261115.md。只消费此候选寻找具体遗漏静态/全路径门或真实原依赖，不重生成旧124/63/六积分，不原样加预算。tail推进实际Q4_0/1零后的固定h二次型；mechanism新恢复见§3；root独占Git。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
