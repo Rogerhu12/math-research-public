@@ -181,3 +181,6 @@ R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六
 ### R810：原 r2 四次强接触窗口已全素数排除
 
 在原Fp/b4/b0=3下，真实零角(1,0,0,0)及n4的t因子给完整57格。全最大子式gcd坏素数≤283、最高行50付p>611；全部十九角小素数枚举的539个类出现/438个实际非齐次矩阵均无解，q0非零五型也按原几何包含。合R799/R803，此原r2强窗的剩余因子须b≥5。继续寻找变化b的统一gcd/接触门及R790指定配对；不得以此次固定b排除声称高b或原p³已解。见[R810](results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)。
+
+
+R808原同M primitive p³在k0、r<h下迫同R的J p²，故R在原点恰分裂两条k光滑支，领先λ及2λ/3，交数与δ=h；近支跟原轴至少h+r，整段ER≡−a⁻¹w^hCu³ mod w^(h+r)，native ξ由下一阶起仍保。原零角准确m_R=2；全十九角、两13和真实d₂继续联立。当前全局只得2h≤B_D·C，未排h/κ→9/8。继续同R全分量/normal，不把局部分裂当全局因式分解。见[R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)。

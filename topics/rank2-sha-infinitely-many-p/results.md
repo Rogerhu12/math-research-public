@@ -147,3 +147,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R809](results/R809-original-primitive-connection-three-cm13-components.md)：已精确分解同q原投影连接的三CM13比值分量，三者及完整交换缺陷均在原固定格整可逆。每条旧primitive线同时非零进入三条型四线，完整有限角色比分别χ17、χ17⁵、χ17³；同G2有九项准确运输，保半周期/ζ/和变量unit及原W外部，未把相同三次特征式当点表示相认。
 
 - [R810](results/R810-original-quartic-all-prime-exclusion-and-complete-zero-chain.md)：已排原Fp、r2、b4/b0=3的全素数强窗，含q0零与非零：新增零角(1,0,0,0)/n4带t完整保留，57格全最大子式gcd的坏素数≤283、最高行50付p>611；全部十九角给10898必要类，剩12p的539出现/438原非齐次矩阵全不解。合R799/R803，此原窗口须b≥5；未外推随p增长的b或同R提升。
+
+- [R808](results/R808-original-third-precision-corrector-split-branches-and-near-normal-jet.md)：已将原M第三精度严格送到同一R的J第二精度，原−2/5/−6三项强制剩余域上的两光滑支、交数及δ=h。近支接触≥h+r且完整r段normal由同Gaussian carry指定，零角准确m_R=2；全部十九角/两13及下一位保。全局必要门仅2h≤B_D·C，未将局部分裂或固定次数排除外推为原完整forcing非零。
