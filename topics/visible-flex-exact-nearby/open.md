@@ -90,11 +90,11 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/compose消费真实完整native；原341/341/238 pins逐键不变。选取实际artifact child0/全部gates，数学成功后出版失败仍可消费；原>60KB过程整件留Actions，只有真正小摘要进正文。等全7908与boundary后先完整Wcap，再实际真Poisson的三HY；不重旧Gram/目标/试解。
 
-### 整原根分片科学全成，零数学整理摘要
+### 整原根分片及6case actual全成，继续真实邻片与seam
 
-80pin SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…的实际43669106351已child0/10门；25新stage、9root、6case和4329旧外行全成，原native6668c9b2…44628B/process242d82b6…8346B保。仅CI摘要重复complete键TypeError；[原失败记录](notes/2026-11-15-R133-whole-root-piece-complete-math-summary-only-failure.md)明确保留成功科学与失败wrapper。
+[完整actual](results/R133-supplement-actual-whole-physical-root-piece-complete-first-Airy-sources.md)：科学43669106351 child0/10门、native6668c9b2…，25stage/9root/6case及4329原外行全成；摘要duplicate complete失败保。receipt43671024244 child0/7门、40pins/0数学，原science/80pin/native全不改，process201e57af…/summary832a57db…；自然5596452B case60278982…整件在原artifact。
 
-独立40pin receipt/source f285c6be…已部署，只读取全部自然stage/case及原native，不改原science/80pin且0数学重算。原新R.02自然5596452B SHA60278982…整件从436691原artifact取回；完整diagnostics另保，真正摘要≤60000B。实际摘要到达后立即记录全九词+五mean、两侧源界与现存上包络主导行，接真实修正seam、正weighted端口及强返回。背景/forcing跳、1079physical seam/653ledger、固定η0/完整δ窗、原piece2549及两侧root-band费用全保。
+真rootpiece全源负<1.264156e6、正<9.358131e9；完整R.001负<4.653601e20/正<5.805843e20，R.02负<2.713164e22/正<4.211712e21。全九词+五mean/2侧root-band/固定bodycut/1079seam/653ledger皆保。完整case主导旧upper在负piece2548及正piece2550/row794，已超出根piece；这些是enclosure，不是误差下界。下一项直接以原w1、原邻片相关Taylor/真实transport费用改善这些界；只更改rootpiece人工积分切口无效。真实修正seam、正weighted端口、完整strong-return与cutoff97尚未授予。
 
 ### 完整 low-even97 伴随接口已证，按实际误差主项选择消费
 

@@ -331,3 +331,13 @@ H9990B完整存notes/2026-11-15-handoff-before-whole-rootpiece-receipt.md，SHA0
 完整D_j按真实finite背景M≤96配对，a(z)−η=zα(z)、16(a²−η²)/z可去奇；原Tκ²=Kη²、κ*=a*^(2/3)，不改principal fold或4j算术。G∞吻合原closed-leading归一，G/G∞含完整trace积分及所有mean；C14保两ordinary源，C15保dT=κdr，C16保n1/3物理mixed root两列。C20–22 deformed基的完整势、势导数与一阶项全部显示；原I/J/mean及频率耦合乘法次序不动。
 
 没有任何新数值评估，也未宣称新公共复域/非零gap、径向势上界、正端口选择、完整seam或strong-return。实际unknown无限背景不继承有限M的z圆盘；不同canonical图/一阶d∂仍须原合同。后继以已有native系数做真正新增reference预算，所有成功target/FFT/Taylor工作不重复。只读README核720d00ef1717d4006994647c98039c07fe0c9db6两blob未变。
+
+## 2026-11-15 03:17:58 UTC — 整原根分片与六case实际完整结果已入主线
+
+发布actual报告476ec2a…16159B/SHAed1e4b7c212a6d23c25f7598775c192890b37e2172c1a5aeb3fab8adba6a7484。root全文读原process242d82b6…、receipt process201e57af…47691B、summary832a57db…53301B及worker4cb85e6f…2859B，按SHA独立核scientific child0/10门、receipt0/7门、40pins/25原stage/49norm-multiplier receipts/6case/4329旧row、原failed wrapper全保。自然5596452B case60278982…原artifact整件，0新数学，原80pin/source/native不改。
+
+实际rootpiece两侧完整源分别<1.264156e6与9.358131e9，完整local/九old-circle词/五mean已读。6R完整界逐个对照原balls：R.001/.002/.005/.01/.015/.02各完整覆盖；最小负4.653601e20/正5.805843e20，最大负2.713164e22/正4.211712e21。root负最大row790，root正793；全case主导旧upper负piece2548的778/766（大三径785），正piece2550/794。无新人工seam；真实1079/653 ledger、两root-band charge、fixedbodycut、源单位H^-4/3→ordinary L²H^-2/3 pair与独立mean全部保。上界很大不证明真实误差很大。
+
+phase后继优先同w1的邻片相关Taylor/真实transport，不重原target/FFT/Taylor成功内容、不跨真piece偷作解析延拓；继续完整修正seam与正weighted端口，fullreturn/cutoff97/PDEbranch仍未付。common-T仅保已证接口，不先以新恒等式开无关计算链。
+
+worker真pull03:09:33.130466UTC至bb4fc5c89396e95ef9136a7fbb4851a101a7f920、两diff空；另root已读刚成完整7908 finish processd2895902…25679B，其最后真pull03:15:26.485202至7a6cdaf64c6b142ff99eb903d201d8feeba45208、全部4次diff空，更新H。只读README核024d40babc233a946d20c6dd61db56746c04c1c9不是额外pull。
