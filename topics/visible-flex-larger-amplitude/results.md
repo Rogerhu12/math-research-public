@@ -468,4 +468,4 @@
 
 
 
-- [194：实际189返回owner的完整三残差继续](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)：六文件最终全diff已核；120原科学身份/15support、50当前闭包，真69接受末十词作为新初猜，明确partial、final缺/非completed。原16×8/20α/3×20全3normal、固定actual157 S/半径1、2400整体钟和120FD/Arb/453/终门保持；单90KB明确选出必要标量，全部地址/判定/owner merit/接受界/FD门/错误未访保，非编码raw。reader f6c0a5c2/wrapper da346ac1/request7482a654/workflow8c4721d3，接口cf579adf；未预填actual R410。当前H/open完整原文逐字入194前检查点，open§4–6不改。
+- [194：实际189返回owner的完整三残差继续](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)：六文件最终全diff已核；120原科学身份/15support、50当前闭包，真69接受末十词作为新初猜，明确partial、final缺/非completed。原16×8/20α/3×20全3normal、固定actual157 S/半径1、2400整体钟和120FD/Arb/453/终门保持；单90KB明确选出必要标量，全部地址/判定/owner merit/接受界/FD门/错误未访保，非编码raw。reader f6c0a5c2/wrapper da346ac1/request7482a654/workflow8c4721d3，接口cf579adf；未预填actual R410。当前H/open完整原文逐字入194前检查点，open§4–6不改。 官方run43767916582于22:11:46Z创建，sourceefdafe38a05abd8f2885231e592bf197cfe86c52、compute132977067065已过全部pin与AST编译并恢复原源码；root唯一读取R410终态。

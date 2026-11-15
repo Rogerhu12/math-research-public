@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:12:31 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c880c56fe3c4589f7bcc241070d6884b78986155。
+规则同步记录：2026-11-15 22:13:53 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 136be499f5b303abeec138d59d4ec9abf7c7fba0。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -23,7 +23,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：compute132950069367已入真实far；正端点表示→真180→全112far→原453|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
 |188/R399|43761083360 /068805ae3009884cbbcd200ba4c9f9be474f5bd7|exact：compute132955840323原science；真98/37/FD→629gap/全闭段，105pins|
-|189/R401 →194/R410|43762371885 /598951293035cb2e2fa705bc13e24cc1a5f59b8a已读|R401刊；194完整独立入口本次发，root唯一终态R410，真实run待官方回读；geometry补R409|
+|194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：compute132977067065已过全部pin/AST编译，恢复原源码；真189末owner，全部原方法/预算/终门|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：compute132961756447已进step14；70pins/全576×224四组件/原全部预算|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |R400 /193/R408|四源/证明本次刊；193真实453→450入口准备|amplitude接真实currentH/FD/fullDN两阶段；geometry补current-C径向/sharedB闭链|
@@ -57,7 +57,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [192完整入口](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)九件全文与全部差异已核；wf仅修重复public schema，最终6c56f6f4/接口eb95d98f。77pins保原70值，全literal/226/两mean/每列113C残差/一般fallback与原全预算齐；single90KB、原quiet/回收/清理保，未预写R406。open原29121B逐字存192前检查点，只压缩已刊1A且§4–6不动。
 
-[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)六件最终diff全读：120+15pins/50闭包，真189第69个接受点十词新起，明示partial/final缺；不恢复raw或冒completed父。原16×8/20α/3×20全3normal、固定S/半径1、2400总钟、120FD/Arb/453全部保。单90KB明确选掉中间slope/逐αpredictor词，只留原身份/首末及极值；全地址/判定/owner merit/接受界/错误/FD门和未访保，quiet后清；无新科学门，实际R410待回读。
+[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)六件最终diff全读：120+15pins/50闭包，真189第69个接受点十词新起，明示partial/final缺；不恢复raw或冒completed父。原16×8/20α/3×20全3normal、固定S/半径1、2400总钟、120FD/Arb/453全部保。单90KB明确选掉中间slope/逐αpredictor词，只留原身份/首末及极值；全地址/判定/owner merit/接受界/错误/FD门和未访保，quiet后清；无新科学门，官方run43767916582/compute132977067065已过pin；实际R410待终态回读。
 
 ## 恢复与保存
 
