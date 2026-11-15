@@ -525,3 +525,5 @@
 - **均匀池行复合与完整Green列因式分解。** [自足恒等式](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)保全部池顶边、真实核Gram逆及Green列中的差商逆伴随；加入其它强位时准确余项E(I−G)仍在。核投影稳定没有代替伪逆列费用，普通封口未外推。
 
 - **同p768联合来源格26个实际候选。** [完整原乘回结果](results/R150-appendix-p768-joint-source-lll-twentysix-actual-candidates.md)核13个观察行模31满秩、26维LLL整数变换及26个6188原来源；全4367整数乘回均非零。实际15.251823463秒，真核仍23/选列秩4318…4331；不排格组合。原列范数给直接Hadamard界2^570108，p768本身不能据此闭合。
+
+- **强联块gauge的真实反馈、驱动返回与普通末端。** [完整证明](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)同时支付真实左最小变化/零核反馈；原未来链有界但全部头旗和末端保留。真实divided-difference仅花裸费，eY给共同返回代表；新ordinary λ仍与原值双边可比，全局锚未代封口。

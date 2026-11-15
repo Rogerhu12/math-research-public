@@ -143,3 +143,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [增长均匀块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)只在对称P上给有界双向交织和完整nuisance Schur，无全环境S∞。[真均匀池因式分解](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)保完整核Gram、Green列差商逆伴随和其余强位E(I−G)。固定f=e_a⊗vac的足够目标||(C*)†f||²=O_a(R³)仍开；核投影稳定不代伪逆列费用。
 
 正常有限秩相容全链/下一完整尾上界、原首低通道短旗及上列其它未关闭接口继续有效。任何局部排除、候选失败、固定模或有限算子恒等式都不是主课题完成。
+
+### 强gauge最新准确接口
+[完整反馈与末端](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)已付同源左反馈、裸驱动divided-difference及真实eY；剩共同大配对<eY,q(−T0)Rret r>和全部head旗/普通末端。q_gauge不会降低λ规模，原全局M/W锚只支付锚及低远孔运输，不支付反向除B或末端修复。
