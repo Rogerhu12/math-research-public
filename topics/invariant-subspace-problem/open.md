@@ -140,3 +140,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **同母提升的正向gauge误差已付。** [真实联合预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)在原每步c_p中保同一p_m，纯尾R′和新bit0域不变；h_m(ζ_p)≤4d0<1使完整R h_m g_p exp(2R g_p)仍受原跨块预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，并有真实||P_K(m,Q) G1* w||≤(8e^-2d⁴+e^-80d⁴)||w||，覆盖全c26。反向P_KG1w及P_VG1(I−P_V)反馈、高孔自配对和普通右费仍开，不用独立大gauge范数抹掉。
 
 **第二页实际首跑修复。** run43659199975在新prepare断言原目标全属root2时停止；九列实际含其它分量，尚无新第二像或余量结果。保全部原目标，明确相关投影并修复输入合同后继续；旧197/selector不重跑，该失败不构成原来源成员的否定。
+
+**第二头真实Schur联合恢复。** [完整校正](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)以F1的真实b⊥块H和v=H⁻¹r给D0，m≥11付H≥S/2、D0∈[S²/2,S²]；同u的Du/D²u/范数及原Γ/source/零源/Gq两列式全保。下一项是h̃2和h21在同一完整Γ_CC⁻¹及同一q下的联合远孔传播，不能把显式primitive项已吸收误读为原源已趋零；a1仍须o(S)。

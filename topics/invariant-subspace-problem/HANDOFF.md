@@ -6,7 +6,7 @@
 - **最近成功实际 pull 与已读规则提交：** 055ea99445c9290b95d83f1f3786076e698f6093（2026-11-15 00:47:29 UTC，Actions run43659866953实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43659866953-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用$及$；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
-- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-forward-gauge-mother-budget-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
+- 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-second-head-schur-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
 
 ## 当前执行
 
@@ -24,7 +24,7 @@
 
 **[完整204后继](notes/2026-11-14-r150-saturated-first-kernel-204-and-complete-next-source-module-789f.md)** 由2040全β1源核剥1834真Bsat精确核及θ3、θ4−e9而来；保θ1/2/5/6/7、e9、ω3…198、te8、tζ2。ωj=ζj−(aj−15bj)e8−17bjζ2。第二尚新196ω+tζ2共197类，第三必须保全204真实第二提升；完整下一核以(I−TC)、T(sI−J)给，含非恒定关系。
 
-**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**完整第二页实际首跑未成。** run43659199975/job132644502808（源b00e141e）四编译/30输入恢复通过；准备在0.144303541秒因`PM*raw!=raw`停止，真实原九目标并非全属root2，尚未进入新矩阵乘回，recovery 0。结果[回执](notes/r150-saturated-second-page-actions-789f/43659199975-1/saturated-second-page-pipeline-receipt.json)已实际推f118500f68992632c780e85a8b9c9992078e2e9a；publisher实际pull读e5d603c69f2472356e4e22c30611090d6fdcda96，两README未变。normal正在保完整目标和明确相关投影后最小修复新prepare；不重旧197/selector，也不把该断言失败记成数学负性。当前manifest SHA86c2b577c455c76f1920108d45c1ef7737ec7a668eb60adb8a05e1d3b1bd4194，修复须同步manifest/request。30输入/7恢复包，四编译各30秒/512MiB、数学共享300秒；完成第二须即接第三或全局原17，普通ISP未完成。
+**[精度/carry合同](notes/2026-11-15-r150-saturated-pages-integer-carry-and-nested-jet-precision-789f.md)已付，数学未跑。** 原p6给R2 p4/20项→D3 p3/15项→D4 p2/10项→D5 p/5项；真形式像/free先付，三次Smith各损5，规范t整除与全部B坐标同运。第一页基κ8、L3,2都e3；第三纠偏pκ8/pL3,2不能换κ9常数或擅加p7。先完整第二页独立保存204真实来源、10项余量及后继核，再依实际像接第三/全局原17。**第二页实际首跑未成。** run43659199975/job132644502808源b00e141e，四编译/30输入通过，prepare 0.144303541秒因误设`PM*raw==raw`停止；recovery 0、尚无新矩阵结果。[回执](notes/r150-saturated-second-page-actions-789f/43659199975-1/saturated-second-page-pipeline-receipt.json)已实推f118500f。正确旧条件为raw−P2raw∈U9；normal正保raw/P2raw/差及真实U9坐标，最小修复新prepare/合同。冻结源/运行身份保[完整H](notes/2026-11-15-handoff-before-second-head-schur-789f.md)。30输入/7包、四编译各30秒/512MiB、数学共300秒，不重旧197/selector。第二完整后即接第三或全局原17，不将断言失败记数学负性。
 
 ## 实际边界：同源两费、完整gauge与真实投影
 
@@ -36,6 +36,8 @@
 - **[固定测试完整列](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)：** h_a=G_a^{-*}f_a=(A*)^ae0/Wa，T*h_a=(−D*)^aΩ/Wa；完整零源Schur给||b′a||²≤Ka S_m^(a+1)，S_m≤1/(3m³)，a0零。原Euler W_U*b=−F*c保低核反馈。**[a1双块恢复](notes/2026-11-15-first-physical-head-exact-gauge-recovery-and-same-gap-scaling-789f-next.md)** 精确c1=(W1/S)(Γ_CC^½−Γ_CC^-½)y、b1=−W1b′1/S，仅O(m³)恢复。v=Ty∈K1及h1+(S/W1)f1−v=C*f0/W1使同t/Gq/dq都同尺度，已有b′1≤S/W1只给平凡原列界；仍缺o(S)。a>1和真实primitive占据纠正继续。
 - **[全局carry与完整W锚](notes/2026-11-15-global-weighted-shift-to-true-head-gauge-carry-and-w-anchor-789f-next.md)：** p_m为z/F_m的<d截断，真ρ=exp(−12.5d³)，全部借位给||B^k−B_m^k||≤α_m(k<d)，进而||p_m(B)−G1,m||≤η=exp(−80d⁴)。BM⊂N及T/B交换付P_Mp_m(B)*w=d0w，所以完整w自配对近d0||w||²；正整数a同证绝对误差。未免费移至孔截断或Ur。
 - **[同母提升的正向gauge预算](notes/2026-11-15-same-mother-lift-forward-gauge-joint-budget-and-low-kernel-feedback-789f-next.md)已成：** 对全部Q≤exp(26d³)原K_(m,Q)，在每步纯尾R′/新bit0修复中插同h_m；ζ_p=d0/(4R_p)上h_m≤4d0<1，完整跨块R h_m g_p exp(2R g_p)仍用旧e^-2·16^p预算。故||p_m(B)(Λ−I)k||≤8e^-2d⁴||k||，||p_m(B)Λk−G1k||≤θ||k||，θ=8e^-2d⁴+η≤e^-d⁴。准确付||P_K G1* w||≤θ||w||。反向P_K G1w、P_VG1(I−P_V)非自伴反馈、高孔自配对及ordinary λ(B_m top)仍未付；不能以构造z的带权小量删真实最小投影反馈。
+
+- **[第二头真实一孔Schur](notes/2026-11-15-second-physical-head-true-one-hole-schur-and-two-column-recovery-789f-next.md)已成：** 原F1=SI−2Z+bb*，K=b⊥、H=P_KF1|K、r=Zb−s2 b/S，取v=H⁻¹r、D0=S²−s2−2<r,v>。m≥11付H≥S/2、S²/2≤D0≤S²；同一u=D*(b+2v)给Du=2D0 b/S、D²u=2D0Ω、||u||²=2D0。校正h̃2=h2−2W1 h1,v/W2及真低核T(u/W2)在原source/零源/Gq给完整两列恢复，保全部Γ_CC⁻¹及低核反馈。只消显式primitive残量；两列联合远孔预算仍开，未将单列范数当原列衰减。
 
 ## 其余未闭主接口
 
