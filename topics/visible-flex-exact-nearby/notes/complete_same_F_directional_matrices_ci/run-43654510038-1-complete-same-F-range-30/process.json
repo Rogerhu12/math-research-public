@@ -37,7 +37,9 @@
         "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
       ],
       "started_utc": "2026-11-15T01:43:36.767132+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 3653.687397096,
+      "finished_utc": "2026-11-15T02:44:30.454870+00:00"
     }
   ],
   "readme_checks": [
@@ -128,6 +130,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:44:31.425479+00:00",
+      "before": "ac392a436bdc5b90682d893829c5a9c2dad5baae",
+      "after": "c9aa783adff6f81cf65464cd9d086a741b86e962",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -160,6 +170,11 @@
       "time": "2026-11-15T02:34:09.208263+00:00",
       "final": false,
       "commit": "810d328ae547194566c3acf654a2d34cd6ce3e54"
+    },
+    {
+      "time": "2026-11-15T02:44:25.452760+00:00",
+      "final": false,
+      "commit": "c882d92a6f9426ab840e40fadac21607fee2dba0"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -200,7 +215,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "ac392a436bdc5b90682d893829c5a9c2dad5baae",
+  "last_read_commit": "c9aa783adff6f81cf65464cd9d086a741b86e962",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -406,8 +421,8 @@
     "slice_id": 15
   },
   "original_empty_failed_range_native_sha256": "a42448c6e0dcb7524103dd33120c1ea91076ac1575783519393c76f34cf61a19",
-  "snapshot_utc": "2026-11-15T02:44:21.691442+00:00",
-  "wall_seconds": 3647.736736143,
+  "snapshot_utc": "2026-11-15T02:44:31.456768+00:00",
+  "wall_seconds": 3657.502063404,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
