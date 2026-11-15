@@ -80,7 +80,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [CP完整加权实际帽导数差](results/R133-supplement-weighted-actual-cap-Poisson-difference-and-complete-inner-receiver.md)578ac4a2及[actual有限逆](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7：43741463694/1 child0/18+5prereq+两γ各3strict全过，exec6865e7e8/science77ed0069/预Git983fac65与50球已核锁。Hilbert K12.823617/χ.6596041；γ1e−9给κ.0019952502133、det.24612876846，γ1e−9/128给κ.00196507842537、det.25397668235。两域各三窗四独立列/两mean全保，νvolume非全ν；仅inner(B,Cmean)差，不授wholebody/high/实际入口。完整D0y=V TQ K*−H0K0、旧Hessian/全outer/mean/wR下端/同正算法资格/原F失败及全部字段逐字保3c74同open/原proof。首43740644806无science/数学进度未知原保，恢复成功禁重。actual affine/腰/high未付。
 
-[AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。下一真H1非mean chart余项与same-state入口，不能从C0免费composition。
+[AR一次积分与高度源](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58已解析核：Ef在真实A0凸球上L2-Lipschitz≤κ，NF的N∂+ΔB合成一次κ；准确chart保R_B、P⊥R_C及μ²/[m²(m+μ)]。固定sB两normalized height原球的完整97源<2^-60，不授实际f(γ)导数；RW四字段给完整非零affine。same-state真实入口仍待，不能从C0免费composition。
+
+[CH真实H1角图及完整边界余项](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md)1e443100已解析核：r=||h2||H1≤2^-10、s=||h1||H1、e=||h2||2给RC≤re、RB≤rs+2re，mean准确μ²/[m²(m+μ)]。CH6两态H1 norm-sum球ρ≤2^-10给||RΨ(h)−RΨ(k)||L2sum≤16ρ||h−k||H1sum；未知只一阶真角导，不授粗composition全图C2。CPA同域且fixedheight时完整97边界E≤cCapκ||h||L2pair+7rs+114re≤线性项+128||h||H1pair²；差分另付2^11ρ||h−k||H1sum，κ只一次。两个真实γ需同A0凸球，未知cutH1/γ入口、affine/实际height选择导数/腰/high均独立未付；不同pair范数不可同半径偷换。
 
 ## 5. 新94链、真实B collar和实际body种子
 

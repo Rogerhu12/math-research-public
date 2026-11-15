@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **真实 H1 角图的二次余项与完整 97 边界费（已证）**：[CH1–24](results/R133-supplement-real-H1-physical-chart-remainder-and-complete-boundary-error.md) 保真测度与完整 mean，仅用未知一阶角导给 RC≤r e、RB≤rs+2re；两态 norm-sum H1 球上余项 Lipschitz≤16ρ。结合 CPA/AR 后，实际完整边界只付一次 κ，二次项≤128||h||H1pair²、差分项≤2^11ρ||Δh||H1sum。physical gamma 准入、fixed-height 条件、真实 cut H1、affine/腰/high 保独立，不授 core 存在。
+
 - **AR实际帽一次积分消元、完整affine与独立height源**：[证明](results/R133-supplement-actual-cap-affine-height-and-single-integral-boundary-elimination.md)5b35ab58。沿同真实A0凸球积分CP导数差，Ef为L2-Lipschitz≤κ，NF边界N∂+ΔB合成一次完整κ；exact chart余项与独立Cmean μ²/[m²(m+μ)]不删。固定sB下，两原normalized height球的完整97差源<2^-60；λ/height span/腰和实际tail选解导数仍独立。RW既有四字段直接组成非零affine预算，未重旧计算；physical入口及非mean H1 chart余项待付。
 
 - **CP actual加权帽内端差与两个finite193逆严格通过**：[完整证明](results/R133-supplement-actual-weighted-cap-inner-difference-and-finite193-inverse.md)ca05fbe7；公开43741463694/1 child0/18，5 prerequisites及两域各3strict全pass。γA0半径1e−9与1e−9/128分别得κ≈.0019952502133/.00196507842537，det≈.24612876846/.25397668235；Hilbert双分量+独立Cmean重新起门，未借旧Wiener界。三窗四独立输入/完整mean均保，原κ1/5失败不改。exec6865e7e8、science77ed0069、预Git983fac65、50个有向球root逐核；成功禁重。仅同真实帽域内inner pair与条件finite逆，actual entry/affine/chart/height/腰/high/全ν仍待。

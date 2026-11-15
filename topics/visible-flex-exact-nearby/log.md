@@ -116,3 +116,11 @@ root fresh main 53deb3cfe426f801db8fddce4dc0cbecd3e8fd20两README blob未变。�
 root独读原9门failure并复原完整science同hash，逐行diff确认仅将g.path按原REL规范到已恢复path，再检m.files[name]==原g.sha256；没有改变任一数学公式/门/参数/真域。新198pin13468162B，原196除SCI外195条(path,bytes,SHA)全相同，新加两件完整首失败receipt作为事实记录，files/receipts唯一一致。未把首失败称lost；没有已成新数学可重，旧scalar/root/response/ray/KAM全部成功禁重。
 
 沿原公开workflow自然触发唯一继续child，21科学门、320bits/reference128/全频source残差/两sign/全mean/540s真pull/340min上限不改；当前actual H3常数仍未授。phase另已交SN source_algebra/fields/root_entry/mean_reference/parameter_error独核：符号/δ导/完整mean费用与n=1 Dual门保持。
+
+## 2026-11-15 17:52:48 UTC — CH 真实 H1 角图余项与完整边界非线性费独推
+
+root fresh main 2357e67892d8ce611c1655c4935a63a996452f6f双README blob未变。最终证明8e343b48e8f667dc1aa29c093468ab3ea0ec8a24/12289B/SHA1e443100d4c6749eb72c676b54571a5bed3944b22eba15bef3c333e2e5c57fc3全文根审通过；phase独核CH3–5/newton独核CH6–7，末新增mean FTC句已核。root发现并仅修CH1范围文字“至CH6不要求s小”为“至CH5”；CH6仍明确两态H1 norm-sum小球，所有公式零改。无新数值调用，无旧数学重算。
+
+已知finite96只对known函数用Bernstein；unknown仅real H1，真normalized圈下I:L2→L∞、inverse lifts的Jacobian下界给实际composition FTC。inverse remainder≤r e、ratio后composition四项完整保持，得RC≤r e、RB≤rs+2re；physical mean准确μ²/[mbar²(mbar+μ)]。同两态H1 norm-sum球ρ≤2^-10，直接difference而非假设rough图C2，RΨ差≤16ρ||Δh||H1sum，mean差(2/27)ρ|Δmean|。
+
+在另外已进入同一真实A0帽凸球、fixednormalizedheight的条件下，AR一次平均算子保原cCap并只收一次实际κ：完整97值≤cCapκ||h||L2pair+7rs+114re≤线性项+128||h||H1pair²，差分≤cCapκ||Δh||L2pair+2^11ρ||Δh||H1sum。gamma入口、真cutH1、affine、实际tail height函数的Lipschitz/C1、原96腰/meanheight/λ/highmatching与高逆均未由本证明支付。

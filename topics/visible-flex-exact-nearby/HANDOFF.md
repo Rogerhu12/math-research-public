@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 17:52:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 17:52:48 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 17:49:19定时/17:21非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤18:49，ref不冒pull。root已核PC17:17:14.103932→6285b44a3015a1f80a5ad5b9986af135871373aa及CP17:31:06.855539→de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80真pull/双README空diff。
-最近只读README核：53deb3cfe426f801db8fddce4dc0cbecd3e8fd20；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：2357e67892d8ce611c1655c4935a63a996452f6f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保3c74f04e37bcf9b29afe47405468a2d4b3eddddf同路径，递归保e9e0d67a/63905/1c956/96744/bf97fb/27caa/2c755全部原档。压缩不取消任何旧域/mean/单位/失败/restore和未付义务，成功数学禁重。
 
 ## 同一个对象与总验收
@@ -35,7 +35,8 @@ GH0ffb191a须完整R:H(s−4/3)→Hs与χ=128CsΛJ^-1/3<1；J97/C0≤1/32仅目�
 
 NF9c33e882完整散度N保两mean，Π96角导付384，值和真正Lipschitz分开。固定Sδ真97残差无DS·base遗漏；原96腰U无α/第二ρ、W−GδDδW三窗。五输入ordinary/right97/highbody/highcut/waist和actualcap余项全保，不能借右collar授wholeC0。
 帽X/M/I/R/CS全部旧域与units保63905及原文：γA0≤1e−9、fBdotA²<2^-60、ρ3e−6、unknown high/完整97/mean/metric-height不能删。I旧wholebody差1/5与F失败原保。
-CP578ac4a2/actual ca05fbe7：43741463694/1 child0/18+5prereq+两组3strict全过；exec6865e7e8/reportd959ef60，21pin/4AST及全50球、science77ed0069/预Git983fac65已核，SCI/worker/manifest锁不重。Hilbert K12.823617/χ.6596041；fullγ1e−9 κ.0019952502133、tailγ1e−9/128 κ.00196507842537，finite det.24612876846/.25397668235通过。两域三窗四列全保，νvolume非全ν，CP仅inner B-L2+Cmean pair，不授wholebody/高逆/实际入口。首43740644806 child1无science/数学程度未知，exec9e7921fd/990B日志bf20f05c原保；恢复成功禁重。全字段/旧F失败/旧Hessian/两outer/mean详3c74同H/open/原proof。AR5b35ab58：真实A0凸球Ef差≤κ；N∂+ΔB只付一次κ；exact mean μ²/[m²(m+μ)]。fixedsB两height球完整97差<2^-60，非实际f(γ)导数；RW保非零affine。入口/chart/腰/high未付。
+CP578ac4a2/actual ca05fbe7：43741463694/1 child0/18+5prereq+两组3strict全过；exec6865e7e8/reportd959ef60，21pin/4AST及全50球、science77ed0069/预Git983fac65已核，SCI/worker/manifest锁不重。Hilbert K12.823617/χ.6596041；fullγ1e−9 κ.0019952502133、tailγ1e−9/128 κ.00196507842537，finite det.24612876846/.25397668235通过。两域三窗四列全保，νvolume非全ν，CP仅inner B-L2+Cmean pair，不授wholebody/高逆/实际入口。首43740644806 child1无science/数学程度未知，exec9e7921fd/990B日志bf20f05c原保；恢复成功禁重。全字段/旧F失败/旧Hessian/两outer/mean详3c74同H/open/原proof。AR5b35ab58：真实A0凸球Ef差≤κ；N∂+ΔB只付一次κ；exact mean μ²/[m²(m+μ)]。fixedsB两height球完整97差<2^-60，非实际f(γ)导数；RW保非零affine。入口/腰/high未付。
+CH1e443100已root/两peer核：真H1角图RC≤r e、RB≤rs+2re，CH6 norm-sum球ρ≤2^-10给RΨ差≤16ρd；完整mean精确保。actual97 E≤cCapκ||h||L2pair+7rs+114re、同球差≤cCapκ||Δh||L2pair+2^11ρ||Δh||H1sum。未知cutH1/physicalγ准入须另付，fixedheight非tail导数。
 RW43729429382/15全部成功锁，1/2与3/4真实权值/内端/右C0原scope不改；RB physical pair-sum movingL2≤80，RC仅右[.9,.95] C0<8.2297e−5，非whole/H1。W known差≤13|δ|/200；samecut raw H1≤1.96875e−11足γA0<1e−9/128，若Green输出Q−Q0须另付δZ。
 MC/MA/NR/WC/DB/SB全source/mean/band/χ′/真f0与失败详63905原档。MA43717700427/12仅五窄ρ且独立H8193；wide不授。inputGram非outputreceiver，J288不消225..288壳。LC数学成功包装失败无损compact44b4da07已收；NCBD43733916510与NG43736004806全核锁不重。
 NG actual54711e89：J96a1/200,N23；J288a1/1000,N76，整行不entrymin。宽ρ1e−4,J96 source+conditionalhigh<1.012e−11。剩余真门385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12才足fullpair H1<1.962e−11；cL是rawcut低频，z=P(Q−Qδ)同outer I0。same连续两侧H1/wholewideC0/真residual0/mean及MA独立H8193仍待，不能由conditionalhigh/右RC授。
