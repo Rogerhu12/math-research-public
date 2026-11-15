@@ -81,6 +81,8 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope待真实R806/R809 A/B。
 
+**R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，pending真实R806，不预填w0/导子矩阵或极理想。
+
 ### 全p sigma：同一个真正可见标签的三个单位
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。

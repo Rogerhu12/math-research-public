@@ -30,3 +30,8 @@
 - R809四组4117原输入逐manifest/receipt/SHA/schema全核：3457/19/629/12；619旧新monomial前缀保留、R807真实pair尾0，纯IO包279222934B/49848da9，无本地数学。
 - root已全文审冻结core/wrapper及最终真实R803引用schema、不可变接口/manifest；core dedb5d61、wrapper3616aac1，激活C0…C5共84Q右端，A/B以后追加不换公共身份。仅一日活跃artifact，raw不入Git/Release。
 - R806/run43707290840、R787/run43708449812继续；R813已收两Wronskian证明/契约待全文审，R812固定六case公开计算准备，主目标OPEN。
+
+### 2026-11-15 20:12（Asia/Taipei）｜serre-public-astra-20261115
+- R813完整证明/契约登记：δ=D0/τ、两个普通S3 Wronskian；root全文核粗曲线/椭圆消失阶、原n/82尺度、690基与全820注入、非齐次commutator唯一性及第二图矩阵修正。proof3cf42cc8/method00c21c72，无新本地数学。
+- Mg/Mh六好点插值、七固定准确终验；Γ五插值/六终验，不能混用。首scope只做两个原Q右端，146个旧τe_i不重算，真实w0待R806；完整导子与原函数DAG仍待实际阶段。
+- R809已CLI推91fbd81e，实际run43712427063 in_progress；12:09:40.739651UTC实际pull/read57cbf374两README无差异。R806/R787继续，R812固定六case核对原规范与封装，主目标OPEN。

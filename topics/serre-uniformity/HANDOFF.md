@@ -4,11 +4,11 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115，日志Asia/Taipei；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：57cbf374f4def532e7cb340d52a9c8da3444b4d0**（2026-11-15T12:09:40.739651+00:00 实际pull --rebase；根/本课题README无差异）。
+**已读规则提交：158f1370e0653c2b1a26e7a47fd8fd32b5e073de**（2026-11-15T12:12:31.988772+00:00 实际pull --rebase；根/本课题README无差异）。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁止force。PAT仅CLI。root独占git/共享索引，代理只专属稿。数学只本公开Actions，本地仅IO/schema/hash/AST/纸面审核。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点只一日活跃包，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB。
 
-10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R809激活前H](notes/2026-11-15-handoff-before-R809-activation.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
+10:50UTC终端失联时按根§8小文本集成；11:30恢复，新部分clone/pull后改回CLI。此前完整状态/公式/source/run/SHA逐字保[R813前H](notes/2026-11-15-handoff-before-R813.md)，内接更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。旧raw清理run43679907787已成，禁再用Release。
 
 ## 正在运行与立即消费者
 
@@ -16,7 +16,7 @@
 
 **R792** [证明](results/R792-original-beta-composition-and-Galois-cube-root.md)及工程冻结，仅pending待R787。core7b7a5483e560f2d2/wrappercdac2e93be2082ee。保c(f)=−ζ²f、y0=sv0、Fb唯一立方根；21次Q分解唯一奇因子+三次gcd。先原CM值/首jet，四值全零才补高jet。只真β_C/vβ，不选原A有限核前像。
 
-**R803已实际成功**：[结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)，run43702905620/source2a3f5be7；694块p1000000007/det637607829，84右端均368 Dixon位/full1680，2127.991746秒。31输出manifest/781原输入经冻结verify全核。artifact14158313322至Nov16 10:47:43UTC；cert9b2854ac。84列不重算。
+**R803已实际成功**：[结果](results/R803-certified-original-M6-mixed-Hodge-ratios.md)，run43702905620/source2a3f5be7；694块p1000000007/det637607829，84右端均368位/full1680，完整31输出/781输入已核。artifact14158313322至Nov16 10:47UTC；84列不重算。
 
 **R801长尾已成**：[结果](results/R801-certified-original-power6-to8-long-tails.md)，run43701282817；V6到141/V7到175/V8及V2..5到195，artifact14156204348至Nov16 10:06UTC。完整IO/冻结verify已核，禁止重算。
 
@@ -26,17 +26,19 @@
 
 **R802**：[半线性七次字段](results/R802-original-semilinear-parity-and-degree-seven-relations.md)已证原q/v符号、全球±掩码和七分支同归一/两右端还原；未算r±/minor/kernel，保持R787。
 
-**R804原五map与真点**：[八节点证明](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)/[点接口](notes/R804-original-CM-point-consumer-interface.md)。五原degree1485/1521/1602/1674/1728，N≤196；点coreecd9fc2a/wrapper5126b836，四组25项契约、旧三组18项IO全核，pending待R792。按真点完整处理O/反点/二挠，核原T7/全Gal及vβ；不选A有限核前像。
+**R804原五map与真点**：[八节点证明](results/R804-original-selected-map-reuse-in-integral-cyclic-module.md)/[点接口](notes/R804-original-CM-point-consumer-interface.md)。coreecd9fc2a/wrapper5126b836，旧三组18项IO全核，pending待R792；真点O/反点/二挠与原T7/全Gal/vβ，不选有限核前像。
 
 **R805原整环/极除子**：[证明](results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md)/[契约](notes/R805-original-affine-integral-basis-and-polar-ideal-method.md)。两图272正规基；primitive须真Krylov。E_g=B+3D_g，B=20cusps+P0、P1不分歧；trace radical逐重数，最大D569完整ideal的V3两flip/padding≤297P。G=u/v与原ηprincipal mathcalG³、三同源mathcalG⁹R保全部标量。实际极理想/η仍缺。
 **R805实际全部认证**：[结果](results/R805-certified-original-affine-pencil-free-basis.md)，run43705580592/source9f960b8e；15.520676秒，n1/p739，pencil/V2/S minor509/488/332，自由度1/144/127。127补行146..217、219..272、291。1322manifest/1272原输入全核；artifact14158193403至Nov16 10:45:54UTC。两项已成41阶直接复用。
 R806 run43707290840/source75b1d56c已运行，[primitive契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)e73f66bd已证；coreb014f9b3/wrapperb199f040/request8ab0ac3a已激活。两组真实R805/R786原输入，690原行集不重选，272真实右端/full820模筛/实际cyclic，成功候选34×8 Dixon；每组/最新残差可续，尚无实际primitive。
 
-**R807已实际认证**：[原清极结果](results/R807-certified-original-M6-pole-clearing.md)，run43707939269/source2c44d025；375.019515秒，962minor p1000000007/det290159643，真实残余rank2/kernel3。θ=e0−112648621e1/282292255+223442698e2/282292255；λ3/4零，无新增pair尾。五投影488位，成员690/691/693为336/464/472位，692旧投影组合；四full1100。1003manifest/997原输入经公开IO run43709814489冻结verify全过；cert2680e922，原artifact14159481627，小续接14159593339至Nov16 11:37:45UTC。
+**R807已实际认证**：[结果](results/R807-certified-original-M6-pole-clearing.md)，run43707939269/source2c44d025，962minor p1000000007/det290159643，残余rank2/kernel3。θ=e0−112648621e1/282292255+223442698e2/282292255；λ3/4零，无新pair尾。四full1100，1003输出/997输入公开IO全核；原artifact14159481627、小续接14159593339至Nov16 11:37UTC。
 
-**R809公开请求已激活**：[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[工程与原输入IO](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117原文件逐SHA/schema全核，619旧monomial前缀保留、无R807不存在尾。先六τθU_j共84Q右端，1234列/1380行；A/B后增不换公共身份。保82/原b/s/λ及τ最高项零，公共/目标分身份，manifest不可变命名；尚无新minor/坐标。
+**R809运行中**：run43712427063/source91fbd81e；[证明](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[方法](notes/R809-original-S5-normal-coordinate-consumer-method.md)/[工程与原输入IO](notes/R809-public-activation-and-original-input-IO.md)。core dedb5d61/wrapper3616aac1；四组4117原文件逐SHA/schema全核，619旧monomial前缀保留、无R807不存在尾。先六τθU_j共84Q右端，1234列/1380行；A/B后增不换公共身份。保82/原b/s/λ及τ最高项零，公共/目标分身份，manifest不可变命名；尚无新minor/坐标。
 
 **R811已证**：[完整极理想前像/两图](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[方法](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。r5九固定点＋weighted bound准确验全部commutator；第二图t^r D M D^-1。unimodular列核投影给满前像，Laurent互含与τ全长＋σ零纤维长度验全除子，不拆闭点/不重计。原DAG常数不随HNF首一化改变；微分桥仍待实际输入。core首scope准备，须等R806/R809真实A/B。
+
+**R813已证**：[两Wronskian导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[方法](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，G=τD0σ−σD0τ、J=τD0w0−w0D0τ为原V3；只新增两个Q右端/原S3全820，τe_i旧V2全复用，保n/82及82²/82⁶。Γ界2+eps_a−eps_b，非齐次commutator＋cyclic唯一；Mg/Mh六插值/七终验，Γ五插值/六终验。两图修正−tMgσ diag(eps)，保H极与原14分量。首scope工程pending真实R806；尚无导子矩阵。
 
 R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号备用m≤8/N≤202仅真选时补V8 q196..201。R793/R798 V3/V6 span/colon/flip和原主函数保持；真实η、对称代表二挠比较、c0刚性化及高度仍缺。
 
@@ -48,7 +50,7 @@ R803真Norm/b⁷/Nb、三同源、反实Lambda/s及R794列作用不省。符号�
 
 **R808已证**：[原Gram商/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)：原轨道格去Gram radical为Sym^(2r)det^(−r)，r=min(h−1,p−h)，保e0、自配对−1/Frob-Hermitian、原Tζ平均s^(−r)P_r(1/s)(X²−XY+Y²)^r与N_h；位置torus/internal oscillator分开，链中心r!/(2r−j)!规范。
 
-**R810已证**：[原toric单位矩/曲率链](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)：P_T exp(tE)P_T=P_r(1+2t²/3)P_T，全部偶矩(2j)!·binom(r,j)binom(r+j,j)/3^j单位；Hankel非退化给整链循环/观测双基。K^p(P0)=3B²E的高偶矩非零，但P_T不水平，K(P_Tv)=P_Ts+[K,P_T]v；原u_h在Legendre零时不可归一。**实际σ原z/t经Kraw混合与同h源配对未闭合**，继续真实源，不以整链单位代指定系数。
+**R810已证**：[原toric单位矩/曲率链](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)：全部偶矩为单位、Hankel非退化、整链双循环；K^p(P0)=3B²E，但P_T不水平，原u_h在Legendre零时不可归一。真实源须保[K,P_T]，原z/t经Kraw混合与同h源配对未闭合。
 
 ## 原规范与主问题边界
 

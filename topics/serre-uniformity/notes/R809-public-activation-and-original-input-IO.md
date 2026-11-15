@@ -26,3 +26,6 @@ root 已全文审 core/wrapper/证明/方法，最终变更只修原R803前690�
 纯IO测试所建临时输入包279222934B，SHA256 49848da935883713c59dd22ade543002be22ec9f10fcbe251cc425eeffb899e5；正式Actions重建tar时mtime元数据可能改变包字节，成员原SHA不变。该包不入Git/Release。
 
 继续同核时完整stage不重算，每个Dixon组只保最新完整向量与小SHA历史；六目标及以后A/B各自全1380行终验。输出只保一日活跃artifact，不自动入Git/Release。实际S5 minor、正规向量、极理想、eta和高度此刻均未报告完成。
+
+## 实际启动
+本请求已推 source 91fbd81eb539c07f11e21116e71def91fdab5254；实际公开 run [43712427063](https://github.com/Rogerhu12/math-research-public/actions/runs/43712427063) 已进入运行。未以启动状态代替准确成功。
