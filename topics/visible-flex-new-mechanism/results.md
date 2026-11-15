@@ -369,3 +369,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## SOC持径首入口的恢复失败：新控制尚未调用
 
 [完整人类失败记录](notes/height159-soc-hold-first-restoration-failure-20261115.md)消费run43705209195/source9ca83546/job132784732079及元数据回执。新增人工passed；六必要前缀共919.703秒，原159用2个初值+2个独立末值评价，0LP/0活动秒。两网全部旧门过，物理初末同1e624、fine η.26648836627858957/κ57.999987818344678，但内部控制返回error；新hold objective未构造。原stage.error未打印，handoff仅留下completed current temporary159 result required，临时清理后不可恢复。静态只定位初始池/预检/首次J区间，严格不把可能的容量边界当原因。下一最小修改保留原诊断，不放宽成功状态/门/池，不重已通过的新开发套件；必要输入重建另记恢复费用。原五高度新控制没有正/负科学结论，漂移的较低η不记其收益。root逐核35来源与receipt全同、98原参数及全部失败摘要；完整来源/各前缀次数/门与证据边界见原note。
+
+
+## 八个额外第三模板的准确对角提升：最小消费者已接线
+
+[完整设计](notes/third-diagonal-eight-lifts-design-20261115.md)及新源075b106b仅读取已发表W36完整原DAG，恢复求坐标必需的18旧对角参考各一次，再处理原索引30/32/34/37/40/100/104/109八个新目标。每项打印原28交换子顺序的准确γ；先在a;b,c原式构造χ=τ−γ，再用独立mapper做真实同右锚对角零证。全部存留词核R179语法，参考pivot不预设18；不重旧151/152/3974、P1或第四response。公开首跑只新增八人工，再120秒/512MiB轮询的actual；19源绑定、30参数，输出仅临时main/内存proof，全部坐标stdout可读。root全文审源码、最终设计及JointSpan/原reader/字母语法API；接线仅workflow四处与publisher两处，新人工与科学尚未执行。结果只补R247八χ具体定义，完整period/signed成本/联合ruling仍须继续。

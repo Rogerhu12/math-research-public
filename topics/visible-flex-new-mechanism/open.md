@@ -80,7 +80,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R246](results/R246-complete-multiplatform-interface-and-unique-eleven-module-correction.md)给本11维模完整八平台接口：8F+8E单射，原余1维必在另一e平台露出；八E差插值、C(D)^−1 I³R和前三F给唯一P，其余五F+八D为13独立iff关系，额外e-flux另验。本模不能继续任调，也不把这些关系冒全R0障碍。
 
-[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)现转全部响应：完整B=2[X,Y]的Jacobi压288至232维呈示，旧下界228给余核≤4；不是fullperiod只有四障碍。E=V4⊕V2及W71真实28维分解已付，W36沿R87既有证据。R208同对角覆盖给八χ_j和全R_p0=(R71∩kerπ)+B(E,spanχ)；只找第三对角核会漏另一项。hook七串给56形式pure0方向，j0八列在固定圆L_f像内，j>0不自动继承。**下一仅提取八个Δτ_j相对旧18交换子对角的真实γ坐标与新原差，补完整χ；不重151/152/3974或旧P1。随后接整个pure核和R225全部平台/flux/内部Laurent/平端观测像，同w ruling仍欠。** 新消费者尚未运行。
+[R247](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)完整B=2[X,Y]的Jacobi给232呈示，旧下界228使余核≤4，并非fullperiod仅四障碍。全R_p0=(R71∩kerπ)+B(E,spanχ)保两项；hook七串56形式pure0输入不授实际rank/固定圆不变。[八χ最小消费者](notes/third-diagonal-eight-lifts-design-20261115.md)已全文审，源075b106b：只恢复旧18必要对角参考，八个新γ在原28完整交换子求坐标，原有颜色χ再以fresh map证Δχ0。公开lane third_diagonal_eight_lifts首跑先新增八人工再actual，19来源/30args；尚未声称passed/成员。随后接整个pure核和R225全部平台/flux/内部Laurent/平端O像，同w ruling仍欠，不重151/152/3974或旧P1。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
