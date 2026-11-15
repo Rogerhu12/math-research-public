@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "ffcd9085652f73f1adee7a839024390e7bc8d3a4",
+  "rulesReadAtCommit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1194,6 +1194,36 @@
       ],
       "timeoutSeconds": 30,
       "receiptPath": "{work}/original-global-projection-localized-small-error-inspection-receipt.json"
+    },
+    {
+      "id": "original-three-minor-determinant-upper-180",
+      "requires": [
+        "original-global-projection-polynomial-core"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+      "scriptSHA256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        }
+      ],
+      "argv": [
+        "--core-source",
+        "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+        "--parent-checkpoints",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--out",
+        "{work}/original-three-minor-determinant-upper",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--max-candidates",
+        "3"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-three-minor-determinant-upper/three-minor-upper-receipt.json"
     }
   ],
   "previousSession": {
@@ -1202,5 +1232,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Ordinary ISP remains open. Full rational infinity66 and D31 Smith/source kernel proved; original global P localized row-module600 continues from paid19 rows. A different original maximal minor is proved to have infinity order66 and leading31unit; queue only historical text recovery and exact dictionary/weight verification, not a large determinant evaluation."
+  "mathematicalProgramStatus": "Ordinary ISP remains open. Original finite 31-local defect and thirteen true divided columns prove affine degree at most302, residual degree at most144. Localized row module failed with MemoryError after13 verified roots; preserve its prefix and reuse only paid original56x22 core for at most three exact determinant upper certificates. Nonconstant candidate is not actual Omega."
 }

@@ -1,0 +1,133 @@
+{
+  "format": "r150-three-original-minor-determinant-upper-input-v1",
+  "date": "2026-11-15 UTC",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "mathematicsNotExecuted": true,
+  "localASTNotRun": true,
+  "repository": "Rogerhu12/math-research-public",
+  "prefix": "topics/invariant-subspace-problem",
+  "sources": [
+    {
+      "path": "notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+      "blob": "766c8e072b176435223f767a1616e392731a6b92",
+      "bytes": 29189,
+      "sha256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be",
+      "role": "bounded exact determinant consumer"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+      "blob": "178a474ace771c3c934ca85fb500fef3f79425ef",
+      "bytes": 34432,
+      "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+      "role": "read-only exact polynomial decoder and multiplication"
+    }
+  ],
+  "parent": {
+    "originalRun": "43756208221",
+    "originalStep": "original-global-projection-polynomial-core",
+    "binding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+    "checkpoints": "{work}/original-global-projection-polynomial/checkpoints",
+    "phase": "polynomial-core",
+    "file": "polynomial-core-efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5.json.gz",
+    "bytes": 1394807,
+    "sha256": "8693870cd23a4693d840d2d27bc1e0676ff4b8253a2b9c85e7b3c267a8199a82",
+    "payloadSHA256": "efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5",
+    "coreLogicalSHA256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8",
+    "lastObservedManifest": {
+      "bytes": 5650,
+      "sha256": "c43828673dc6513c43042e4452c91d146e78a26a15b3b82aa3f9e8a87ff49aa9"
+    },
+    "entireMutableManifestNotPinned": true,
+    "onlyExactImmutableCoreDescriptorRead": true,
+    "oldRowModuleStateNotLoaded": true,
+    "coreNotRecomputed": true
+  },
+  "argvTemplate": [
+    "--core-source",
+    "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--parent-checkpoints",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--out",
+    "{work}/original-three-minor-determinant-upper",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--max-candidates",
+    "3"
+  ],
+  "outerTimeoutSeconds": 240,
+  "candidateDefinition": {
+    "profilePrime": 65521,
+    "profilePointsInOrder": [
+      4,
+      3,
+      5
+    ],
+    "purpose": "only select provably nonzero polynomial minors",
+    "first": "greedy independent original rows in increasing order",
+    "second": "greedy independent original rows in decreasing order",
+    "third": "greedy rows of fixed T=U L; both56 triangular factors have diagonal1 and SHA-defined off-diagonal +/-1",
+    "seed": "R150-original56-three-minors-789f-v1",
+    "maximumCandidates": 3,
+    "noFiniteFieldGcdClaim": true,
+    "noRandomScan": true
+  },
+  "exactGates": [
+    "all paid immutable core bytes/payload/semantic/logical identities",
+    "all56 rows rescaled only by nonzero rational constants; 1232 polynomial identities",
+    "all484 original56 source products for each selected22 square",
+    "every Bareiss division remainder zero and exact quotient multiplication",
+    "row and column permutation signs retained",
+    "whole pivot two-slot atomic checkpoint, no pending transformation committed",
+    "independent tiny3x3 six-term determinant and pending-interruption check",
+    "three exact integer specialization determinant checks per complete polynomial",
+    "known-factor stripping only by exact division",
+    "candidate gcd divides every completed determinant outside exactly Sigma0"
+  ],
+  "outputs": {
+    "smallReceipt": "{work}/original-three-minor-determinant-upper/three-minor-upper-receipt.json",
+    "preparedSources": "prepared-row-sources.json.gz",
+    "candidateComplete": "candidate-{0,1,2}/complete-determinant.json.gz",
+    "candidatePointer": "candidate-{0,1,2}/state-pointer.json",
+    "candidateSlots": "candidate-{0,1,2}/state-slot-{0,1}.json.gz",
+    "upper": "current-outside-gcd-upper.json.gz",
+    "allPolynomialArraysTemporaryOnly": true,
+    "largeOutputsNeverUpload": true,
+    "smallCheckpointSummariesRetain": [
+      "nextPivot",
+      "completedPivots",
+      "exactDivisions",
+      "sign",
+      "lastCompletePivot"
+    ]
+  },
+  "conclusions": {
+    "gcdOne": "exact original projection outside divisor Omega=1",
+    "gcdNonconstant": "only Omega divides the exact candidate gcd; no equality claimed",
+    "noDirectOriginalH0OrNineTargetGlobalMembershipClaim": true,
+    "historicalConservativeOutsideDegreeCeilingInCode": 157
+  },
+  "continuation": {
+    "sameSourceSameOut": true,
+    "bindingIncludes": [
+      "self bytes and SHA",
+      "paid core source bytes and SHA",
+      "immutable parent phase/payload/logical SHA",
+      "fixed localization factors",
+      "fixed profile prime and points",
+      "fixed candidate seed",
+      "algorithm version"
+    ],
+    "bindingExcludes": [
+      "temporary paths",
+      "time limit",
+      "memory limit",
+      "maximum candidate count"
+    ],
+    "reuseCompletedDeterminants": true,
+    "resumeOnlyLastWholePivot": true,
+    "budgetExitCode": 75
+  }
+}
