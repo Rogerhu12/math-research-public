@@ -128,9 +128,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [八χ源设计](notes/third-kernel-eight-local-operators-design-20261115.md)首次公开run43712266529已由R261完整消费：8新人工过，8算子普适阶4、最高f-jet5、全自伴、原重构fresh词均0。53请求来源一致；新科学.217361633秒/28.55078125MiB。目标已付，后继直接用人读系数，机器proof/main不发布，不重复旧原式编译或据此宣fixed-circle像。
 
-[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)真实联合支付多宽度圆的三矩/全third/六能量/全A−2,−3及36 odd；锐S/C比值与真实实现分开。它的特定排序被[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)真实Q<0排除。[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)用每外包TM3伴随方向保所有diagonal输出/交叉三矩，把imaginary primitive平台局限在外包内；固定大间距后重新联解原准确IFT得Q>0。在两个最终不交位置分别完成全部条件，再正幅四次混合，准确Q0且保全部先前门。**下一用同一真实母包联调其余even向量/完整面积，再接全部period/同w；新增仅一条even线性组合，不据30−1称rank29。** 新seed另冻结目标，大有限复制仍只作存在证明。
-
-[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已从原[P,p0]/[P,s1]完整self三外矩及非紧Green端项，将A−1,−3所有even归为同母Fκ=Kκ/C−ν=0。中央真实幅γ/宽s使(H,Fκ)在h0处Jac=−16L⁴/3，固定正h后主α/γ/s三变量IFT同时付六能量/整个新面积；同源伴随与Q正负余量、最终正幅混合均保持。现已付两个整面积及一条剩even组合；余24表项不是rank。[R268](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)已证居中cell的完整A1,−3在θ=π/2的I0严格非零，真实self左端边项和有序累积都保；伴随/正幅Q混合不改变此平方门。**下一改变真实高低次序并重付三矩/IFT/完整包装，再联调剩外矩，不把局部shape或Q标量当full ruling。**
+[R256](results/R256-sharp-profile-energy-contrast-and-multiwidth-joint-construction.md)/[R265](results/R265-companion-directions-and-positive-blocks-pay-an-ordered-Gaussian-area.md)/[R267](results/R267-amplitude-width-shapes-pay-the-complete-minus-one-minus-three-area.md)已以真实宽度/中央幅γ/形状s、主三变量IFT与完整包装同时付三矩/全third/六能量/两个整面积A−2,−3及A−1,−3/36 odd。居中排序的[R262](results/R262-ordered-primitive-obstruction-for-the-multiwidth-energy-branch.md)Q负可由TM3伴随正幅消，但[R268](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)S04仍正。[R269](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)真实20A左右错位高点、准确方差扣回及三虚矩保持，给S04负而同排序内仍Q±。四个最终不交位置分别完成所有IFT/包装，先每order消Q，再跨order正幅消S04；完整角身份E22−E04=−ReQ支付整个A1,−3第零外矩。**下一同一实际族的剩22形式even（非rank），尤其该pair I1/I2与其它面积，再接完整period/同w；不得把符号/零次矩搬到其它外矩、任意O2重选seed或平移原能量根。**
 
 ## O1：双圆领相位机制，保留备选
 

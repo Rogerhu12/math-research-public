@@ -262,3 +262,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R268：居中 cell 的完整 sine-four 面积严格非零
 
 [R268 完整证明](results/R268-full-sine-four-area-obstruction-for-centered-microcells.md)研究真实S04=2I0{g,[P,Y](g;ff−gg)}，对应Gaussian A1,−3的乘子−ζc/2非零，区别于已付A−1,−3。非三矩单包self保原端项−[x(Jρ²)²]/2，得S_self=−[m²ξ/2+Cξ²/w+w(ℒ−Δ/4)]，再与原Γ=−m²ξ_i一起消费。居中64低/1高的准确cell求和为Jcell=−10928qaA，高包真实小偏移因其尾系数0消失；并非近似置中。完整S04=10928nm²qaA+64na(1−q²)(Cν−ℒ+Δ/4)>0；先固定小h，再取正δ支路，R267γ/s邻域也保该正号。伴随改变g符号不改本槽平方，完整三矩block跨项零使八/十二复制和任意正幅混合只能同号相加。所以R265/R267支付pure Q仍不成full ruling；准确只排居中次序，下一必须改变real质量次序并重付三矩/IFT。root核全部self原边项、有限cell和、物理系数及真实有限宽范围，lit独立核；无新计算。
+
+
+## R269：真实错位排序与四个正幅块支付整个 A1,−3 第零外矩
+
+[R269 完整证明](results/R269-reordered-real-masses-pay-a-complete-Gaussian-zero-moment.md)保持低网，令高点B(k−c)+20Aσk、σk=TM(floor(k/4))；B²准确扣400A²方差，σ及εσ的低矩付完整三复矩。63A<B<64A、真实漂移<A/100，使高点严格落第12/52个低包后，间隙>0.49A，未在已有δ根上搬点。原母/主IFT只依mean0/真实方差差，R267全新面积与六能量继续；高次odd不再偷用原TM位置恒等，全部由完整12copy支付。
+
+完整cell J保中心项aρσ(64q+1)tcell及漂移项，它们全和才由Σσ(k−c)=0消。新S04 leading=−nm²aA(1872q+400)，固定母根先选有限大A再正δ得负；原居中为正。新排序原方向Q仍负：完整ordered和下界281nA/2，伴随Q正来自真实紧imaginary自成本加严格正A项。四最终区间各先完成R267实际三变量IFT/8+12包装，再仅正四次幅：每order先Q0，跨order再S040；原跨block由inner三矩消，全部已付门保。完整上三角self/cross阵给E22−E04=−ReQ，连同36odd，准确付整个A1,−3 I0，不只是两个无关系数字。余22even非rank，I1/I2及其余完整joint/有限同g仍欠。root全文独核有限和/真实排序/IFT次序，lit补全逐cell中心项后仅再读两处diff；无新执行。
