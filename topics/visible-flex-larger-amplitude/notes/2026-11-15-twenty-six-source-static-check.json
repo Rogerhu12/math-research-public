@@ -1,0 +1,274 @@
+{
+  "scope": "AST, literal source layout, original parent JSON and byte SHA only; no project import or scientific execution",
+  "scientific_modules_imported": false,
+  "scientific_arithmetic_executed": false,
+  "identical_function_AST": [
+    {
+      "file": "domain_operator",
+      "function": "query_value",
+      "identical_AST": true
+    },
+    {
+      "file": "domain_operator",
+      "function": "selected_actual_angles",
+      "identical_AST": true
+    },
+    {
+      "file": "domain_operator",
+      "function": "_LeftCaptureView",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "equal",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "guard",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "scalar_or_none",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "evidence",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "compact_metadata",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "_run_engine.ObservedResidual",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.CapturedLinearization",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.project",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.choose",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "scalar",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "component",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.observer_write",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.annotate_current",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.write",
+      "identical_AST": true
+    }
+  ],
+  "source_files": [
+    {
+      "file": "geometry_20261114_twenty_six_query_domain_operator.py",
+      "bytes": 32954,
+      "sha256": "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8",
+      "frozen_parent_file": "geometry_20261114_twenty_five_query_domain_operator.py",
+      "frozen_parent_sha256": "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260"
+    },
+    {
+      "file": "geometry_20261114_twenty_six_query_condensed_warm.py",
+      "bytes": 43689,
+      "sha256": "b9954eb5caffca7e3e001e66b07b0628a8275a22139ca3000cf527e258023197",
+      "frozen_parent_file": "geometry_20261114_twenty_five_query_condensed_warm.py",
+      "frozen_parent_sha256": "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c"
+    },
+    {
+      "file": "geometry_20261114_twenty_six_query_condensed_response.py",
+      "bytes": 2619,
+      "sha256": "17908d4cb301f2073ce6539a8fcdc218a434529586722f013202c69378933b01",
+      "frozen_parent_file": "geometry_20261114_twenty_five_query_condensed_response.py",
+      "frozen_parent_sha256": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d"
+    },
+    {
+      "file": "geometry_20261114_twenty_six_query_collocation_observer_warm.py",
+      "bytes": 16728,
+      "sha256": "e10055b6e6d5604d247ecfbe637f8ca01b2b1337a7a528da8e25cbe48e6b8b25",
+      "frozen_parent_file": "geometry_20261114_twenty_five_query_collocation_observer_warm.py",
+      "frozen_parent_sha256": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55"
+    }
+  ],
+  "complete_midpoint_J_P_chain_constructor_AST_unchanged": true,
+  "verify_export_AST_identical_after_explicit_scope_labels_only": true,
+  "FD_full_text_reverse_identity": true,
+  "observer_full_text_reverse_identity_after_names_and_entry_pin": true,
+  "left_queries": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "midpoint_queries": [
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "previous_midpoint_queries": [
+    473,
+    475,
+    477,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "only_added_query": {
+    "kind": "collocation-midpoint",
+    "interval": 479,
+    "fraction": 0.5
+  },
+  "query_cells": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "actual_query_endpoints": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486
+  ],
+  "unique_capture_cell_count": 17,
+  "capture_node_count": 22,
+  "full_B_rows": 53248,
+  "literal_layout_column_count": 7439,
+  "zero_layout_nodes": [],
+  "literal_capture_support_unchanged": true,
+  "runtime_complete_column_union_check_retained": true,
+  "C_support_nodes": [
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482
+  ],
+  "C_support_dimension": 4059,
+  "complete_B_outside_C_nodes": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    483,
+    484,
+    485,
+    486
+  ],
+  "current_row_order_seventeen_left_nine_mid": true,
+  "source_pins_match": true,
+  "actual86_parent_pair_file_SHA_matched": true,
+  "parent_status_gzip_exact_decoded_bytes": true,
+  "parent_status_identity_embedded_exactly": true,
+  "parent_producer_schema": "exact-constraint-twenty-five-query-condensed-complete-H-warm-v1",
+  "parent_model_source_count": 60,
+  "new_model_source_count_by_preserved_source_name_construction": 62,
+  "parent_warm": {
+    "file": "/tmp/visible-larger-actual86-published/twenty-five-condensed-warm/warm-001.json.gz",
+    "bytes": 4891299,
+    "sha256": "d38c6968225535cb26c46c9dc3f9892603ef0c94942d9c571356fa016bccf69e"
+  },
+  "parent_status": {
+    "file": "/tmp/visible-larger-actual86-published/twenty-five-condensed-warm/driver-status.json.gz",
+    "stored_bytes": 334831,
+    "stored_sha256": "610e287259236ce996683bfaacdf02045cd0c4256c7ce10a2a33122c623a1464",
+    "original_bytes": 2870978,
+    "original_sha256": "7d6e7fa1fa3e92397d353f1e9b7c2a9c12d750f9714c2e79b1cfdfc40862a235"
+  },
+  "old_source_files_untouched": true
+}

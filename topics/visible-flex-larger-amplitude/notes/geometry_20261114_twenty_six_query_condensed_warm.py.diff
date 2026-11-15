@@ -1,0 +1,301 @@
+--- frozen25/geometry_20261114_twenty_five_query_condensed_warm.py
++++ independent26/geometry_20261114_twenty_six_query_condensed_warm.py
+@@ -1,13 +1,13 @@
+ #!/usr/bin/env python3
+-"""Continue actual79 with only the nearest observed original left-RMS465.
+-
+-All twenty-four earlier queries remain. Add left-RMS465 at its original
+-CubicHermiteSpline station with complete endpoint465/466 J/P and direct
+-scalar chains, captured from the same one original complete Jacobian.
+-The eight original midpoint queries remain; midpoint487 is not added.
+-B support expands to465..486+p (7439 actual columns, no zero block).
+-C stays471..482+p with all outside raw contributions including465.
+-Damping270, budgets, all original trials and FD gates remain.
++"""Continue actual86 with only the nearest observed original midpoint479.
++
++All twenty-five earlier queries remain. The new midpoint uses the actual
++state.middle[479]/problem.mid[479] and complete endpoint479/480 J/P and
++direct scalar chains captured from the same one original Jacobian.
++The seventeen left-RMS and eight earlier midpoints remain; midpoint487
++is not added. Complete B support still465..486+p (7439 actual columns,
++no zero block); C stays471..482+p with every original outside offset.
++Damping270, budgets, all original seventeen trials and FD gates remain.
+ """
+ from __future__ import annotations
+ 
+@@ -23,8 +23,8 @@
+ import numpy as np
+ 
+ import geometry_20261114_twelve_query_projection_warm as baseline
+-import geometry_20261114_twenty_four_query_condensed_warm as parent
+-import geometry_20261114_twenty_five_query_domain_operator as domain
++import geometry_20261114_twenty_five_query_condensed_warm as parent
++import geometry_20261114_twenty_six_query_domain_operator as domain
+ import geometry_20261114_full_metric_projection_warm as archive_source
+ import geometry_20261114_full_metric_inequality_correction as identities
+ import exact_20261114_regularized_block_qr as square_root
+@@ -35,20 +35,20 @@
+ engine = baseline.engine
+ observed, support = baseline.observed, baseline.support
+ original = engine.baseline.original
+-SCHEMA = "exact-constraint-twenty-five-query-condensed-complete-H-warm-v1"
++SCHEMA = "exact-constraint-twenty-six-query-condensed-complete-H-warm-v1"
+ PARENT_SCHEMA = parent.SCHEMA
+-ACTUAL79_WARM_SHA = "565e2487317ffbc85560dd01efa2cfb4e479447d51a17216deb4ef61f55b4504"
+-ACTUAL79_STATUS_SHA = "e790e998ed6eebdc084546131e206dd4e5d723aebf7f92830b3153f82a25a8c0"
+-TWENTY_FIVE_OPERATOR_SHA = "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260"
++ACTUAL86_WARM_SHA = "d38c6968225535cb26c46c9dc3f9892603ef0c94942d9c571356fa016bccf69e"
++ACTUAL86_STATUS_SHA = "7d6e7fa1fa3e92397d353f1e9b7c2a9c12d750f9714c2e79b1cfdfc40862a235"
++TWENTY_SIX_OPERATOR_SHA = "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8"
+ LIBRARY_SHA = "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b"
+ LOCAL_QP_SHA = "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173"
+ SOURCE_NAMES = tuple(dict.fromkeys((
+     Path(__file__).name, Path(domain.__file__).name, *parent.SOURCE_NAMES)))
+ FROZEN = {
+     **parent.FROZEN,
+-    "geometry_20261114_twenty_four_query_condensed_warm.py":
+-        "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+-    "geometry_20261114_twenty_five_query_domain_operator.py": TWENTY_FIVE_OPERATOR_SHA,
++    "geometry_20261114_twenty_five_query_condensed_warm.py":
++        "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c",
++    "geometry_20261114_twenty_six_query_domain_operator.py": TWENTY_SIX_OPERATOR_SHA,
+     "root_20261114_complete_local_qp_condensation.py": LIBRARY_SHA,
+     "geometry_20261114_condensed_local_inequality_qp.py": LOCAL_QP_SHA,
+ }
+@@ -150,11 +150,11 @@
+ 
+ 
+ def _run_engine():
+-    """Bind twenty-five typed grids without changing any frozen source module.
++    """Bind twenty-six typed grids without changing any frozen source module.
+ 
+     The outer main has set only the reused validator's explicit schema
+     and producer lists. This independent binding supplies the current
+-    twenty-five-query identity and all typed domain methods to the original
++    twenty-six-query identity and all typed domain methods to the original
+     full residual/trial engine. The old twelve-query main is not called.
+     """
+     extra = argparse.ArgumentParser(add_help=False)
+@@ -167,23 +167,23 @@
+     binding.add_argument("--out", type=Path, required=True)
+     args, _ = binding.parse_known_args(remaining)
+     resume_sha, status_sha = original.sha(args.resume), original.sha(options.parent_status)
+-    equal(resume_sha, args.expected_resume_sha, "actual twenty-five-query parent warm")
+-    equal(status_sha, options.expected_parent_status_sha, "actual twenty-five-query parent status")
++    equal(resume_sha, args.expected_resume_sha, "actual twenty-six-query parent warm")
++    equal(status_sha, options.expected_parent_status_sha, "actual twenty-six-query parent status")
+     parent_status = original.read(options.parent_status)
+     if parent_status.get("schema") == PARENT_SCHEMA:
+-        equal(resume_sha, ACTUAL79_WARM_SHA, "first actual79 warm")
+-        equal(status_sha, ACTUAL79_STATUS_SHA, "first actual79 status")
++        equal(resume_sha, ACTUAL86_WARM_SHA, "first actual86 warm")
++        equal(status_sha, ACTUAL86_STATUS_SHA, "first actual86 status")
+     elif parent_status.get("schema") != SCHEMA:
+-        raise ValueError("Only actual79 or a completed own-schema twenty-five-query warm is a parent")
++        raise ValueError("Only actual86 or a completed own-schema twenty-six-query warm is a parent")
+     identity = dict(
+         entry_source_sha256=original.sha(__file__), optimizer_schema=SCHEMA,
+         parent_optimizer_schema=parent_status.get("schema"),
+         declared_initial_parent_optimizer_schema=PARENT_SCHEMA,
+-        declared_initial_parent_warm_sha256=ACTUAL79_WARM_SHA,
+-        declared_initial_parent_status_sha256=ACTUAL79_STATUS_SHA,
++        declared_initial_parent_warm_sha256=ACTUAL86_WARM_SHA,
++        declared_initial_parent_status_sha256=ACTUAL86_STATUS_SHA,
+         actual_resume_sha256=resume_sha, actual_parent_status_sha256=status_sha,
+-        parent_twenty_four_condensed_source_sha256=FROZEN[Path(parent.__file__).name],
+-        twenty_five_query_operator_source_sha256=TWENTY_FIVE_OPERATOR_SHA,
++        parent_twenty_five_condensed_source_sha256=FROZEN[Path(parent.__file__).name],
++        twenty_six_query_operator_source_sha256=TWENTY_SIX_OPERATOR_SHA,
+         projection_engine_source_sha256=original.sha(engine.__file__),
+         actual_midpoint_observer_source_sha256=original.sha(observed.__file__),
+         fixed_support_projection_source_sha256=original.sha(support.__file__),
+@@ -205,32 +205,34 @@
+         final_outside_direction_claimed_unchanged=False,
+         left_RMS_fraction=domain.LEFT_FRACTION, collocation_midpoint_fraction=.5,
+         mixed_kinds_do_not_share_one_fraction=True,
+-        added_query=dict(kind="left-RMS", interval=465, fraction=domain.LEFT_FRACTION),
+-        added_query_evidence=("During actual79 from the actual76 parent, the nearest rejected alpha1/16 "
+-            "had all twenty-four modeled grids positive, every original node and midpoint valid, "
+-            "and actual fixed-weight merit decrease0.02023277691421299. The complete original "
+-            "RMS evaluation found only left-RMS465 invalid, beta_squared=-0.421944063367393 "
+-            "at phi0; the right RMS family had no invalid query. Farther alpha1/4 and1/8 had "
+-            "the same left-RMS465 failure and actual merit decrease. Alpha1/2 failed original "
+-            "midpoint487 before full RMS, and alpha1 failed other original midpoints and "
+-            "already-modeled queries. Midpoint487 is not added from that farther trial. "
+-            "No larger step or complete-domain sufficiency is promised; preserve all original checks"),
++        added_query=dict(kind="collocation-midpoint", interval=479, fraction=.5),
++        original_midpoint479_explicitly_added=True,
++        original_left_RMS479_separately_retained=True,
++        added_query_evidence=("During actual86 from its real actual84 own-schema parent, the nearest "
++            "rejected alpha1/8 had all twenty-five modeled grids positive and every original "
++            "node valid. Only original midpoint479 failed: beta_squared=-0.07269811719200936 "
++            "at angle index894, phi2.742757648739526, with8 negative angles. Its finite "
++            "original middle input produced a nonfinite original midpoint RHS. The full RMS "
++            "scan and actual merit were not evaluated for that rejected trial. Alpha1/16 "
++            "was accepted by the unchanged complete residual and both RMS families. "
++            "Farther alpha1/4 failed midpoint487, which is not added here. No larger step "
++            "or complete-domain sufficiency is promised; preserve all original checks"),
+         retained_original_midpoints=[473, 475, 477, 480, 481, 482, 484, 485],
+         current_original_midpoints=list(domain.MID_INTERVALS),
+-        all_sixteen_original_left_RMS_queries_retained=True,
++        all_seventeen_original_left_RMS_queries_retained=True,
+         current_left_RMS_query_count=len(domain.LEFT_INTERVALS),
+         original_left_RMS466_retained=True,
+         original_left_RMS484_retained=True,
+         original_midpoint484_retained=True,
+         original_left_RMS485_retained=True,
+-        original_left_RMS465_explicitly_added=True,
++        original_left_RMS465_retained=True,
+         original_midpoint487_not_added=True,
+         original_left_RMS467_retained=True, original_left_RMS468_retained=True, original_left_RMS469_retained=True, original_midpoint481_retained=True,
+         original_left_RMS481_separately_retained=True,
+         original_left_RMS482_separately_retained=True,
+         original_midpoint482_separately_retained=True,
+-        complete_B_capture_support_unchanged_from_parent=False,
+-        complete_B_capture_adds_original_node465=True,
++        complete_B_capture_support_unchanged_from_parent=True,
++        complete_B_capture_adds_new_node=False,
+         actual_query_endpoint_nodes=list(domain.QUERY_ENDPOINT_NODES),
+         actual_block_column_union_dimension=7439,
+         declared_contiguous_local_layout_nodes=list(domain.LOCAL_LAYOUT_NODES),
+@@ -238,7 +240,7 @@
+         declared_local_layout_equals_actual_B_column_union=True,
+         original_node484_actual_query_columns_retained=True,
+         complete_B_capture_includes_original_node484=True,
+-        complete_B_capture_expanded=True,
++        complete_B_capture_expanded=False,
+         complete_B_capture_retains_original_node466=True,
+         complete_B_capture_retains_original_node467=True,
+         original_midpoint480_retained=True,
+@@ -250,8 +252,9 @@
+         retained_left_RMS484_uses_original_endpoint484_and485=True,
+         retained_midpoint484_reuses_captured_endpoint484_and485=True,
+         retained_left_RMS485_reuses_captured_endpoint485_and486=True,
+-        added_left_RMS465_uses_captured_endpoint465_and466=True,
+-        added_left_RMS465_full_row_keeps_outside_nodes465_and466=True,
++        retained_left_RMS465_uses_captured_endpoint465_and466=True,
++        added_midpoint479_reuses_captured_endpoint479_and480=True,
++        retained_left_RMS465_full_row_keeps_outside_nodes465_and466=True,
+         complete_B_capture_retains_original_node468=True,
+         retained_midpoint481_reuses_captured_endpoint481_and482=True,
+         retained_left_RMS467_full_row_keeps_outside_nodes467_and468=True,
+@@ -306,19 +309,19 @@
+         if Path(path).name == "optimization-intent.json" and isinstance(value, dict):
+             # Add aliases to the live identity before the engine saves
+             # it into status/warm; never descend into resume_producer.
+-            value.update(twenty_five_query_projection_entry=identity,
++            value.update(twenty_six_query_projection_entry=identity,
+                 selected_angle_row_count=len(domain.QUERY_SPECS)*2048,
+                 query_specs=[dict(row) for row in domain.QUERY_SPECS],
+                 query_interval_order=list(domain.QUERY_INTERVALS),
+                 capture_intervals=list(domain.CAPTURE_INTERVALS), fraction=None,
+-                projection_metric="C_S on nodes471..482+p; complete B_out*z0_out including465,466,467,468,469,470,483,484,485,486 (including the added node465 B contribution)",
++                projection_metric="C_S on nodes471..482+p; complete B_out*z0_out including465,466,467,468,469,470,483,484,485,486 (including the retained node465 B contribution)",
+                 projection_correction_support_physical_nodes=list(support.FIXED_PHYSICAL_NODES),
+                 projection_effective_offset="c+B_out*z0_out",
+                 projection_outside_raw_preserved_only_before_full_vector_radial=True,
+                 final_outside_direction_claimed_unchanged=False)
+         report = observed.previous.current_row_labels(value)
+         if isinstance(report, dict):
+-            report.update(twenty_five_query_projection_entry=identity,
++            report.update(twenty_six_query_projection_entry=identity,
+                 selected_angle_row_count=len(domain.QUERY_SPECS)*2048,
+                 query_specs=[dict(row) for row in domain.QUERY_SPECS])
+             if "intervals" in report:
+@@ -337,7 +340,7 @@
+         prepared, current, resume_sha, parent_status)
+     engine.write, engine.CompleteResidual = write, ObservedResidual
+     engine.EndpointJacobianCapture = domain.capture_queries
+-    engine.FullAngleDomainOperator = domain.TwentyFiveQueryDomainOperator
++    engine.FullAngleDomainOperator = domain.TwentySixQueryDomainOperator
+     engine.selected_actual_angles = domain.selected_actual_angles
+     engine.local_halfspace_projection = support.fixed_support_projection
+     old_argv = sys.argv
+@@ -380,23 +383,25 @@
+     equal(original.sha(args.parent_status), args.expected_parent_status_sha, "actual parent status")
+     status = original.read(args.parent_status)
+     if status.get("schema") == PARENT_SCHEMA:
+-        equal(args.expected_resume_sha, ACTUAL79_WARM_SHA, "first condensed actual79 warm")
+-        equal(args.expected_parent_status_sha, ACTUAL79_STATUS_SHA, "first condensed actual79 status")
++        equal(args.expected_resume_sha, ACTUAL86_WARM_SHA, "first condensed actual86 warm")
++        equal(args.expected_parent_status_sha, ACTUAL86_STATUS_SHA, "first condensed actual86 status")
+     elif status.get("schema") != SCHEMA:
+-        raise ValueError("Only actual79 or a completed own-schema warm is a parent")
++        raise ValueError("Only actual86 or a completed own-schema warm is a parent")
+     equal(status.get("latest_warm_file"), args.resume.name, "actual parent basename")
+     entry = dict(schema=SCHEMA, entry_source_sha256=original.sha(__file__),
+         frozen_dependencies={name:original.sha(HERE/name) for name in FROZEN},
+         actual_parent_warm_sha256=args.expected_resume_sha,
+         actual_parent_status_sha256=args.expected_parent_status_sha,
+         actual_parent_schema=status.get("schema"),
+-        initial_actual79_warm_sha256=ACTUAL79_WARM_SHA,
+-        initial_actual79_status_sha256=ACTUAL79_STATUS_SHA,
++        initial_actual86_warm_sha256=ACTUAL86_WARM_SHA,
++        initial_actual86_status_sha256=ACTUAL86_STATUS_SHA,
+         query_specs=[dict(q) for q in domain.QUERY_SPECS],
+         original_full_coordinates=236036, complete_B_local_coordinates=7439,
+         selected_angle_row_count=len(domain.QUERY_SPECS)*2048,
+-        twenty_five_query_operator_source_sha256=TWENTY_FIVE_OPERATOR_SHA,
+-        added_query=dict(kind="left-RMS", interval=465, fraction=domain.LEFT_FRACTION),
++        twenty_six_query_operator_source_sha256=TWENTY_SIX_OPERATOR_SHA,
++        added_query=dict(kind="collocation-midpoint", interval=479, fraction=.5),
++        original_midpoint479_explicitly_added=True,
++        original_left_RMS479_separately_retained=True,
+         unique_capture_intervals=list(domain.CAPTURE_INTERVALS),
+         complete_B_physical_nodes=list(domain.LOCAL_LAYOUT_NODES),
+         complete_B_outside_C_nodes=[465, 466, 467, 468, 469, 470, 483, 484, 485, 486],
+@@ -405,21 +410,22 @@
+         original_left_RMS481_separately_retained=True,
+         original_left_RMS482_separately_retained=True,
+         original_midpoint482_separately_retained=True,
+-        original_twenty_four_query_parent_producer_preserved=True,
++        original_twenty_five_query_parent_producer_preserved=True,
+         original_midpoint480_retained=True,
+         original_midpoint485_retained=True,
+         original_midpoint484_retained=True,
+         original_left_RMS485_retained=True,
+-        original_left_RMS465_explicitly_added=True,
++        original_left_RMS465_retained=True,
+         original_midpoint487_not_added=True,
+         retained_midpoint484_reuses_captured_endpoint484_and485=True,
+         retained_left_RMS485_reuses_captured_endpoint485_and486=True,
+-        added_left_RMS465_uses_captured_endpoint465_and466=True,
+-        added_left_RMS465_full_row_keeps_outside_nodes465_and466=True,
++        retained_left_RMS465_uses_captured_endpoint465_and466=True,
++        added_midpoint479_reuses_captured_endpoint479_and480=True,
++        retained_left_RMS465_full_row_keeps_outside_nodes465_and466=True,
+         original_left_RMS484_separately_retained=True,
+         original_left_RMS480_separately_retained=True,
+-        complete_B_capture_support_unchanged_from_parent=False,
+-        complete_B_capture_adds_original_node465=True,
++        complete_B_capture_support_unchanged_from_parent=True,
++        complete_B_capture_adds_new_node=False,
+         actual_query_endpoint_nodes=list(domain.QUERY_ENDPOINT_NODES),
+         actual_block_column_union_dimension=7439,
+         declared_contiguous_local_layout_nodes=list(domain.LOCAL_LAYOUT_NODES),
+@@ -466,9 +472,9 @@
+                     "projection_outside_raw_preserved_only_before_full_vector_radial"):
+             if key in value:
+                 value["baseline_C_"+key] = value.pop(key)
+-        if isinstance(value.get("twenty_five_query_projection_entry"), dict):
+-            value["twenty_five_query_projection_entry"]["fixed_support_description_applies_only_to_baseline_C"] = True
+-            value["twenty_five_query_projection_entry"]["condensed_global_H_alternative_declared_separately"] = True
++        if isinstance(value.get("twenty_six_query_projection_entry"), dict):
++            value["twenty_six_query_projection_entry"]["fixed_support_description_applies_only_to_baseline_C"] = True
++            value["twenty_six_query_projection_entry"]["condensed_global_H_alternative_declared_separately"] = True
+ 
+     def write(path, value):
+         if isinstance(value, dict):
+@@ -702,10 +708,10 @@
+     support_saved = baseline.support.fixed_support_projection
+     old_argv = sys.argv
+     # Reuse the frozen full producer/constant-state/profile validator with
+-    # an explicit actual79 initial parent, then this new own schema.
++    # an explicit actual86 initial parent, then this new own schema.
+     baseline.SCHEMA, baseline.PARENT_SCHEMA = SCHEMA, PARENT_SCHEMA
+     baseline.SOURCE_NAMES, baseline.PARENT_SOURCE_NAMES = SOURCE_NAMES, parent.SOURCE_NAMES
+-    baseline.ACTUAL37_WARM_SHA, baseline.ACTUAL37_STATUS_SHA = ACTUAL79_WARM_SHA, ACTUAL79_STATUS_SHA
++    baseline.ACTUAL37_WARM_SHA, baseline.ACTUAL37_STATUS_SHA = ACTUAL86_WARM_SHA, ACTUAL86_STATUS_SHA
+     baseline.__doc__ = __doc__
+     engine.CompleteLinearization, engine.choose_feasible_descent = CapturedLinearization, choose
+     engine.write, engine.FROZEN = write, {**engine.FROZEN, **FROZEN}

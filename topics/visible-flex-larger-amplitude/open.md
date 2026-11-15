@@ -107,3 +107,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 **R278已完成：** [项目化归一化、原零集及局部消元证明](results/R278-finite-resonance-projective-normalization-and-local-elimination.md)已直接登记。正反向有限链的非零条件、奇异右块/零向量例外、根处Jac和离根商法则、原unit早停与完整112候选阈值分开。第三原方程已有合法根及非零偏导才可非线性局部二维缩减；当前候选尚未提供这些存在前提。后续saved输出诊断不成为native/prefix或本证明的新审核门。
 
 **真实SDK工程结果：** [完整锁构建与干净安装](notes/2026-11-15-actual-native-live-SDK-lock-and-clean-install.md)已保存；run43668049747/source7181/job132671745626全success。所有21原件在 `notes/public-actions-43668049747-1-native-live-sdk-build/`，含真实package3876fc4e和完整lock9451fd2e（266依赖项），禁脚本生成锁及独立npm ci均0，SDK2.3.2 constructor实际加载成功。120项字节/来源核对通过；没有SDK artifact方法、科学计算或supervisor部署，原glob弃用warning保留，不虚称安全审计或跨平台保证。
+
+### 1F. 第89轮唯一26-query实际调度
+
+[完整接口](notes/2026-11-15-twenty-six-query-condensed-interface.md)与[主控静态回执](notes/2026-11-15-request89-root-static-check.json)已发布。四新源b5b72fde/b9954eb5/17908d4c/e10055b6、workflow45e881d6/requesta1a5bcd0只新增MID479，真实父86 warmd38/status7d6e/gzip610e；原55pins全保加4共59。17LEFT+9MID/53248行、17cells22nodes7439列/zero[]、C4059与全outside不变；MID读实际middle/mid、同一次完整J端点链。root全读四diff/全接口/两接线diff、119项/59pins11shell6inline；原35/25/80分钟、λ270/512/200/17trial/完整FD及所有原验收不改。新warm是否接受须实际Actions返回，不由静态核对预判；86完整reader和88 saved-model分析已成功，后续正式读回不挡本轮科学。
