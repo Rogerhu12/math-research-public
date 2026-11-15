@@ -1,13 +1,13 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "6e42b8d06dbb77d0ae46bd52f516fa44cff08a1b",
+  "rulesReadAtCommit": "fc47c1193519eb3e918a8834ba62f064e045aad0",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "largeDataPersistenceAllowed": false,
   "releaseAssetsUsedOrCreated": false,
-  "maximumIdleSeconds": 1200,
+  "maximumIdleSeconds": 3600,
   "closeSessionWhenStepsComplete": false,
   "historicalInputs": [
     {

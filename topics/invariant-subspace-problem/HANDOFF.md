@@ -27,7 +27,7 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现24步。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现24步；闲等限3600秒以保下一源码审校期间的临时数据。每步/每发布真实pull核两规则。大数组仅同job临时；全部SHA/已读源见各实际小回执及本H归档。
 - 同选重建selected-natural-u-rebuilt、第一selected-natural-first-left-envelope、旧第二selected-natural-second-left-regauged均保完整来源；旧36单位解SHA9c3b02d2…不重95.542秒。normal4完整目录selected-natural-second-left-normal-four-complete130保130新解75.6MB/SHAccfdf7db…、166残差SHA7e060678…和22原jet，不重355.152873124秒。
 - normal5目录selected-natural-second-left-normal-five-high-elimination：H5实际Q/F31rank1287/单位18；30.715285713秒消786列后触150k工作门槛，余501列/950行、361878nnz/3996bit；完整slot1 SHA179b3645…、72,645,943B及DAG可续。完整高Schur/新头未成。step24实际30.574848201秒重建29原source、126643产品真，配对ρ5/h1；其余维7上界已闭β2=9。完整来源与29×36配对保same-source-koszul29-second-pairing，rawbe9838a1…；下一先用旧22真jet作受限第三入口，未称完整24第三像。
 - 零第六祖先zero-sixth-full-source-checkpoint保verified residual6188×7/SHA d4c8142e…及top2779×10/43.2MB/SHAf36b8e55…；第五4738×7 cochain在zero-sixth-preparation。旧全逆超时但zero-sixth-unit-continuation-checkpoint保verified RHS2295×10/SHA b58b78d8…、常核990×2/SHA526a9229…、unit988²/SHA1afff063…；不重这些阶段。
