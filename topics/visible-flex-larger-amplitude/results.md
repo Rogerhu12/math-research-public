@@ -318,3 +318,5 @@
 - [Request175：全部闭段Hermite查询域](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)：六件/103pins，真98原37/FD后完整453余项族和14次query P，保37×2048×17及全部原试探/未访责任。原科学与接受门不改；单份≤90KB必要摘要，大见证仅Actions内部，实际R372由exact核。
 
 - [R374：actual176找到38节点但完整计数和传输未完成](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)：旧原日志完整到EOF，38唯一反证已找到；cover/pending/unresolved原计数未齐，95577B超90KB仅返2388B明确70，38位置表未交。原R356科学状态不改，最小词法/摘要修订继续，不放松计数或增科学门。
+
+- [R376：actual174全站奇形状与20档完整merit拒绝](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)：1397位置全处理、602允许站全用，fresh全3斜率负；20全域过而全3 Armijo拒，0接受、ξ0/W未变。120FD/12levels及Arb453完整，80909B单摘要齐，全部非零终门未付；不推全形状空间驻点。

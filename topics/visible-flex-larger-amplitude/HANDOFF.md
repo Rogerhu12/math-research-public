@@ -4,7 +4,7 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:35:00 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 75b9ca3938c6025717af99238dacd9e7c29ec81e。
+规则同步记录：2026-11-15 18:35:54 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6f936467928627a3dd8f791e655d8f4394ad4c40。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
@@ -23,7 +23,6 @@
 |171 exact，R361|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→原37八批→同job末pair→新LEFT462/38，97pins；原17档/FD|
 |170 exact，R365|43741803578 /bf1880f8c2e0381223bf29fd50ffb6e205afc75b|真98原37/FD→R354端点/全段M、pointwise Hermite，84af正sin/100pins|
 |172 geometry，R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p重生、全129248行R360，124pins/18000s|
-|174 amplitude，R376|43745211514 /411c6ed30e304c681c5ced2f672f4518d138020f|compute/report已终态，唯一读回中；全站固定odd新十族|
 |169重试 geometry，R367|43741519736 /de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80|compute/report终态，geometry整理R367；58pins，原R320九p/λ.001/3active+109core|
 
 仅唯一负责人读已结束原日志；未返call不补拒。各源码/配方/预算/原错误与完整未访责任见同号notes接口和open；API状态或job绿不代数学门。
@@ -51,7 +50,9 @@
 
 [R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)同1998科学的新run43743904448/source257b227a，89762B摘要齐；六三响应/120FD/Arb453，20全部有限域过却全3 Armijo拒，最终ξ0/W未变。十列投影σmin3.984796…仅数值动机，不证准确秩。R364类型误拒、R371超限/raw清各守旧范围，不回填。
 
-R351完整七状态/112与173全部1397逻辑站已发；R363/R366/R370给准确G/H/span与不交odd箱，不预填实际rank。174真157父上h*全部中心/宽度/符号一次冻结，新真正十族/fresh十列、|dξ|1/20trial/120FD/Arb453/full112，113+10pins/41→46、2400s。178另固定164支撑1/k4，联合十列带固定S尺度的QR最小范数Newton/clip/Cauchy；[R378条件证明](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)已发、R377实际未起，amplitude继续。原全3/strictslope/真实域和全部终态门保持。
+R351完整七状态/112与173全1397逻辑站已发；R363/R366/R370准确G/H/span与不交odd箱不预填实际rank。[R376实际174](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)：43745211514/source411c6ed3，1397全处理/602允许站全用，原fresh slope−1.3768423356…；20全部域过而全3 Armijo拒，0接受/ξ0/W同157。120FD/12levels无异常、Arb2456叶/0未决、453圆齐，原全部finalfalse/native未调用；80909B摘要完整，不推全形状驻点。
+
+178另固定164支撑1/k4、固定S，联合十列QR最小范数Newton/clip/Cauchy；[R378条件证明](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)已发，amplitude实现实际R377。原全3/strictslope/20档/真实域及全部终态门保持。
 
 ## 闭合、精化、文件和恢复
 

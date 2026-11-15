@@ -62,7 +62,7 @@ R296/R301/R307/R316/R320/R329和[R335实际154](results/R335-actual154-full-nine
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)的隔离七次零2-jet形状给单一准确商响应εw/a；[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)对同坐标不同逻辑输入聚合G=Σw/a、H=−Σwb/a²，偶/奇基给ε²H/εG，完整允许C²响应span/rank/左零空间已证。共享node权只计一次，相同形成q词不证明准确公共q；奇池全零不排除值方向，无实际rank或误差认证。
 
-[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)已证不交odd箱准确斜率−Σ|g|与max型C²界；173 helper2d2d84eb保全部1397逻辑输入/严格隔离。[174接口](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)真157父上全部中心/宽度/符号一次固定，所有旧p FD和trial消费同一h*及Arb全断点；独立十族/fresh十列、|dξ|1/原20档/120FD/Arb453/full112保。113+10pins/41→46、2400s/50/65，单≤90KB必要摘要，原域与全3门保持；实际43745211514/source411c6ed3，R376由amplitude核。形成odd分数不证准确驻点/R366值方向/同g精化或非线性native。
+[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)保不交odd箱准确斜率和max型C²界，173保1397逻辑输入；[R376实际174](results/R376-actual174-all-station-odd-signsum-and-twenty-full-merit-rejections.md)已完整返回：602允许站全进入冻结h*，97正/505负，fresh完整三分量斜率−1.376842335645604…；20档全部有限primal域过但全3 Armijo拒，最终ξ0/九p与W同157。120FD/12level无异常，Arb2456叶/0未决与原453圆齐；80909B单摘要/原完整trial标量与来源见结果。原unit/full112/nonzero/success全false、native未调用；FD有限差额不证准确弱方向，odd失败不推R366值方向/全形状驻点/同g精化。独立178改联合十列方向，不能将174来源套用164或未返回旧raw。
 
 [R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）固定新形状与正尺度S，对完整A=JS作AᵀΠ=Q₃R，Rᵀy=−ΠᵀF、z=Q₃y给满行秩时最小S范数联合方向；径向截取保Jd=−θF，完整Cauchy回退也给负准确斜率。明确Q←QH顺序/三方程pivot及准确c_A，形成算术误差、真实非线性余项与固定20档仍分责，不作rank/新阈值门。178独立true157父固定164支撑1/k4；旧九S=.01max(1,|p157|)、Sξ=.01、缩放半径1全程固定，最多8×20/每接受fresh十列，初末120FD与全部原终态保；这不是单减ξ或更换目标。源码由amplitude推进，实际R377未起，不预填改善。
 
