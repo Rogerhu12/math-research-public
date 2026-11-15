@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 09:55:14 UTC实际pull后已读规则提交：`efcd0941eaea2392f60dbf935f2a9a56bada2872`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 09:57:58 UTC实际pull后已读规则提交：`48fbd2f22a5ee247906eb5c73fe2b3fd73816051`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 09:32:15 UTC实际pull至`982ed07727fd9740c9601c5724c1a75dc86939e6`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **154 actual已消费**：43694686825/source71744524/job132752541415，见notes/entry-tail154-first-actual-result-20261115.md。B103/T51全uv动、9height固定，旧尾锁峰解除。四前缀各一次必要恢复，fc0d8139 η .26653564958657405→2ee6e90e .26652257791835787；8主LP/5接纳/0SOC，降1.30717e−5。恢复漂移大于新降幅，未破103最低/未达.26。m1/m3真曲率失败；m6硬门过而fineη增，新soft返回跳SOC。末两高比率已增下一半径，120.0745秒先到；全880.5913秒，fine J85.1928秒。原两网门过/帽高仅tol，新metric/reach未付；不延154预算。
 
-**159首次开发输出失败已修，公共继续检查**：run43701306331/source40c0f4d6/job132772851014，developer返回后atomic_save遇NumPy bool序列化TypeError，未打印passed、未进任何prefix或actual。六源完整静态审，159仍原163物理族+五精确null高度、九有理canonical/真耦合盒、物理Ms∞/L1、rH=4rB；实际154 B/T controller与原门/soft返回不改。仅两个人工比较显式bool，blocks6aa3e08b；新请求继续未完成公共开发；12LP/40值/120秒预算不增，不冒首次人工通过。完整设计与实现见notes。
+**159首次开发输出失败已修，公共继续检查**：run43701306331/source40c0f4d6/job132772851014，developer返回后atomic_save遇NumPy bool序列化TypeError，未打印passed、未进任何prefix或actual。六源完整静态审，159仍原163物理族+五精确null高度、九有理canonical/真耦合盒、物理Ms∞/L1、rH=4rB；实际154 B/T controller与原门/soft返回不改。仅两个人工比较显式bool，blocks6aa3e08b；修复提交ef8c1cdb，run43701558227正在公共运行；12LP/40值/120秒预算不增，不冒首次人工通过。完整设计与实现见notes。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -36,9 +36,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R229/R231/R232例外主层已付**：真实G左尾与全部local/chain/history保留，物理正支上完整K/(hβ²)→sin²θLc+sin2θLs。43699241372/ee9e2098的13新toy过，原八包b0的Lc<0/Ls>0准确双证（0.2728秒/23.24MiB），排原圆全可容正宽度和已付C∞邻域，不排其他圆/b。原件9524B/675a8bc4只留hash，旧目标不重算。
 
-**R233/R235新圆已付**：四尺度Lagrange权与真实左尾正bulk付三矩和Lc/Ls双零；Sj=a_jS*。八复制先清完整第三槽，再取非零t=−P/Q的两根α、π/2−α，置于任意正I内两个不交正尺度block。真尾能量可加，四射影方向严格排所有GL2分离；完整M0/TκH几何上的二三阶保全。最终F重选会改旧指定gε；旧first-f-up/g0、F8不继承。仍欠完整第四次层/joint。
+**R233/R235新圆已付**：四尺度Lagrange权付三矩，保真左尾正bulk与Sj=a_jS*；八复制清完整第三槽后取两根α、π/2−α置于两个不交尺度block。非零t与四射影方向排全GL2分离，完整二三阶及Lc/Ls0同付。新F改旧指定gε，旧first-f-up/g0、F8不继承；第四仍欠。
 
-**R237完整下一mixed层已付**：b0例外端芽且Lc=Ls0时，D算子=Φp1−Φt1/8，完整K/(h²σ⁶)→(8ε²ke³/5)E(Gff,D(f²−φ²))。真实第二C=c5σ5D+Oσ3、第三history的2βG(φ,CD)均保；全部local/chain余层严格低阶。故还需Mc=E(Gff,Dgg−Dff)=Ms=E(Gff,Dfg)=0。两新数未评价，不冒R235失败或第四通过；不交完整三矩block的真尾加法继续可用。
+**R237完整次层**：b0例外且Lc=Ls0，D=Φp1−Φt1/8，完整K/(h²σ6)→(8ε²ke³/5)E(Gff,D(f²−φ²))。第二Cσ5、第三2βG(φ,CD)与全部local/chain已核；还须Mc/Ms双零。新圆两数未评价，不冒失败/第四通过。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
@@ -48,11 +48,11 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R221joint接口**：18局部+24真history给126矩加六合法行，非rank；全部period核Cf+B/平台自由匹配和Gram付全核矩像。先两个period成员，再五相位45几何span门，最后48×135矩阵增广子式/降秩消极点iff；种子和原合法行保留，无实际通过。
 
-**R225完整period range**：全平台G''0、每包总flux0、内部q=F/(Ap²)的Laurent禁k≤−ord(p)−2及residue、两平端u=p∫q真C∞、右双零/平台连接调∫u0，共同iff。u*=1/p给内部门过而平端坏的Y反例，非canonical。完整有限O的像未知：Hper=O(U0)/O(R0)为0才授fullperiod控制；λ杀kerO才授障碍。R96付有限原查询光滑s密度，一般R0的T/Morse保持仍须另付。
+**R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 
 **R226/R230/R234端层已付**：p¹非零有限首项迫gauge指数发散，p²保有限极点门，p³以上只在左零通量支路可延；δ链扣真二次尾后仅p⁴，非一般U/R。完整原DAG一次层G=P2+Tτf+p²A，τ保真三次函数；指定ψP时L=D+p'/p有限消元判Tτf。43699241372/ee9e2098首actual12toy过，17新层宽秩4、合三旧pure行秩6；R234给H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32，whole pure0、λ+1且本T=0，fresh2694项原差验证。T仅权0/mixed−2/首f-up,g0平端，不冒所有端层。一次层读λ路线结束；下一p²真实极点、内部/平台/通量及完整joint，不扩同读出。11.4095秒/112.62MiB，38943B/577157ad只存hash。
 
-**R236二次层判据已付**：同首f-up/g0、真实左零通量支路，p=±e^(-c/t)a，平台G''=0及一次层已消后G=P2+p²B+p³C。有限极点类内，u=w'光滑 iff t⁴B光滑，等价目标p²系数R满足t⁸R光滑；若V=t⁴B，则u(0)=−V(0)/(3c²)。故仅需原目标有限负Laurent主部，不求退化逆解jets。下一只恢复H_E七必要mixed根，消费degree2/principal part；不重17一次层，不冒完整端点/全部响应商。
+**R236二次层已付，新单HE入口已提交**：p=±e^(-c/t)a，首f-up/g0、真平台/一次层已付且零端flux，G=P2+p²B+p³C的u平滑 iff t⁴B无负主部；u(0)=−[t⁴B](0)/(3c²)。新lane character_zero_quadratic_endpoint只恢复C2及六R根，扫描实际J后按Ud/K有限界提degree2真尾主部。helper01efa75b、driver98e8caae，root逐读+mechanism独核；12新人工/单目标尚未执行。旧17层/纯查询不重算，非零只未修代表，不授λ类/固定圆障碍；不迁移R235非零局部ray。详notes/character-zero-quadratic-endpoint-principal-design-20261115.md。
 
 ## 6. 保留边界
 

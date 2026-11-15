@@ -274,3 +274,8 @@
 ## 159首次公共开发的严格JSON输出修复
 
 Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报告失败：两个人工比较值为NumPy bool。尚未打印passed、没有进入任何科学prefix。只在两处原比较外显式bool，blocks源码27974B/6aa3e08b；其余五源、生产LP/原门/预算不变。新request继续未完成开发，过后才首次进入真实159阶段。不能据计算曾返回推断检查通过；无科学结果被重跑。
+
+
+## R236单H_E二次主部：首次公共消费入口
+
+[完整消费设计](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)及新helper/driver已逐读，mechanism独核有限精度、积分符号和真尾规范式。只恢复C2及R0/R1/R2/R3/R4/R10七必要原mixed根，核H_E2694项/346ea2a1；不重旧17一次层/旧pure查询。由完整可达J定D、Ud和K，保真实c、anchor与b Taylor；原I左增量正，quadratic真尾先同锚颜色/shuffle/IBP规范，再只置外jets0。12新人工在公共Actions首次执行后才进240秒/1024MiB单新目标。若主部零，只在原平台另通过时付此首f-up/g0端芽；形式非零不授固定圆或λ类障碍，不迁移R235。失败或资源退出不输出完成数学结论，payload/certificate均临时。

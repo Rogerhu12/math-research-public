@@ -74,7 +74,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 [R234](results/R234-weight-zero-first-endpoint-layer-cancelled-by-a-zero-pure-response.md)已消费43699241372/ee9e2098：12新增人工全过，17新层/34cubic，宽门秩4、合三旧pure行秩6，两门均member。H_E=C2−R0/8−R1/64+13R2/32+R3/48+5R4/64−R10/32满足whole pure0、λ+1和本T0，fresh2694项原差验证；pure核的一次层像维3。T明确只真权0、canonical mixed−2、首f-up/g0左平端。**本一次层读λ路线结束，不机械加同类查询或扩别权。** 下一必须处理p²真实有限极点、完整内部/平台/通量门，或全period/ruling共同算子。未指定P/真实τ，不冒固定圆成员、完整端点像或全权R225响应商；raw旧I符号/真耦合/外锚jet顺序保持。
 
-[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。下一只恢复H_E的C2/R0/R1/R2/R3/R4/R10七必要根，以可达jet给严格截断界，提取degree2真尾规范式和负主部。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
+[R236](results/R236-quadratic-endpoint-principal-part-criterion.md)现给二次层准确有限观测：同首f-up/g0且真实平台/一次层已付、左零通量时，G=P2+p²B+p³C的u=w′光滑当且仅当t⁴B无负Laurent主部；保实际c和光滑a，u(0)=−[t⁴B](0)/(3c²)。[单HE新入口](notes/character-zero-quadratic-endpoint-principal-design-20261115.md)已提交：只恢复C2/R0/R1/R2/R3/R4/R10七必要根，以实际可达J给严格Ud/K截断，提取degree2真尾负主部。12新人工先公共执行，随后单目标；当前尚无结果。该有限条件不替代另一端、内部/平台/通量或完整joint；不重原17一次层。
 
 [R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
@@ -86,7 +86,7 @@ R210已将它用于闭hook：先以X0X0rev成本2V0证明原基准V0∈U，再�
 
 R189的真实桥与有限约束迁移已由R220/R223/R227加强；已付低阶/Morse控制不重做。固定圆完整第四像仍须实际支付，不能靠增加几何自由度或一般Baire论证代替。
 
-R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实查询t1/35、ΛJ6=1266268570、新44det1176345646 mod2147483647，零旧列/NF重跑。E6真44、pure9、纯核/balanced像35，U≥240但lineality/query仍237。此原成员问题已结束；不追第45孤立列，转完整字符分母R−2+N U−1中J6是否为零。R163已证明全部14族最高层协变、低阶同一八矩cocycle及 Hσ=(Rσ+Tσ)/(Rσ+Dσ)。Dσ仅用同权正规系数与静态修正生成全部N Uσ+1模R，权−2无需另编−1。完整head actual43665345551已付107原记录/66平移组合，Q4_0/1本权原式零；计数不是维数。有限必要actual43665971895已完整消费：124外等式秩84、23外自由、63必要半空间仍有准确非零外部候选。这些旧外点不是真实字符；后续R186/R188已付完整原关系与无非零正字符结案，不重编旧static/3974/N收缩。
+R162已用新44det准确证J6∉E_D，该旧成员问题结束；R163后的完整head与R186/R188已经结清原权−2函数核/正字符，不追第45孤立列，不重107记录、3974forcing、旧NF或必要LP。来源与边界见原R文及results。
 
 [R208](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)已从完整旧151列sound覆盖与通用同锚原式证明：所有πR都有jet≤2代表。WΔ=(W71)Δ不授完整W相同或真dim18；第三交换子的外局部q″项对称相消，再用线性q‴原函数消阶和Fréchet归纳。故真高jet规范余词可准确证非成员；完整pure−4中的N与动态项必须各自支付，不能默认模R删高jet。
 
@@ -94,15 +94,9 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 已结束的子问题与可复用结论
 
-- R37/R45的零二阶和四块闭合、R52的完整三阶圆只给有限阶与闭正则浸入环带。完整frame、位移、M/T、共同右锚和连接基准不可删除。
-- R98已排全部正states的universal P1路线；不再扫同类states或旧72/252列。特殊profile圆或固定有限N的完整 $P_0+NP_1$ 仍未排。R84真倒行第四成本同号；实际成本仅加法半群，线性span/闭锥不是实际逆元。
-- R105给共同有限真实空间U；R109给准确局部密度 $L=v-B_mN$，零M整字的完整成本与 $\int L$ 的差在R8。真实s导数先于累计history值置零；N(0)只到完整M=0才消。非零M段的完整V可含复制数二/三次，不能以局部积分界替代。
-- R129按真实 $X=\partial_h,Y=\partial_k+(2h)^{-1}\partial_\omega$ 作水平IBP；L2→速度二次，L4→三加速度二次、两面积型及五速度四次，保全部Laurent/log链项和端势。R130证明 $U=R8+K$，K为八矩规范化后14个状态函数族值的span，**不是维数14**，也不授系数独立正负实际控制。
-- 完整原因子43651096112已存raw N0/N2与两mode全部v2/v4、3974根；不得再编旧forcing或W36。N2=Pacc未可从完整L2/L4删去。新五族43654534244有314状态系数/648完整根，后续直接消费。
-- R133用完整1009正规packet的原式IBP证 $\Pi_8(U)=\Pi_8(R8)=T$，dim31/四块偶15；R116同一四块的整个m8 pure period已恒零，保全部桥/基准，无须新求根。R110/R111的D25和R133的整层都已结束，不再重跑m8猜完整mixed。
-- R138已进一步证明任意同右collar profile的 $G_{-4}=B_{p_2}(W_1)_{-4}/128$。整个G仿射轨道的一般pure像属于响应像；其完整非零商能取pure恒零代表。这不授全部14族的一般pure支付。
+R37/R45/R52只给完整有限低阶；frame/位移/M/T/右锚不可删。R98已排正states的universal P1，固定profile及P0+NP1仍未排。R84真倒行第四成本同号，线性span/闭锥不是实际逆元。
 
-- R146完整商协变将五族314条目缩为80个ω0起始记录，后继ω_j=N^jω0/j!模R。R154再由真实反号与k次数≤6的七点插值，给h1/ω0/k0,1,2,3共20状态值的正仿射轨道生成全部五族。20不是维数/实际控制/有限点正性；一般pure成员亦可如此缩减，但不盲扫。
+R105/R109/R130给完整有限U、局部密度与14状态族span，14非维数；非零M时N²/N³保留。3974原forcing、五族648完整根、m8纯period、31维旧pure商都已消费，不重编。R146/R154的20状态正仿射轨道是代数生成，不授正实际控制。旧细节和准确来源统一见results及对应R文，当前只推进下列尚未付joint。
 
 ### 已结完整商与当前joint
 
