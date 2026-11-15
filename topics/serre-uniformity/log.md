@@ -335,3 +335,8 @@
 - R786完整证明5ℒ/1234基与129项原函数恢复，保实际degree1206及20 cusp；kernel=28+h1不假定h1零。weight10逐个slash因子核原相位，B0与A有理消元给1326×1214 L后继规模。
 - 新core只生成原power5准确q0..128；wrapper严格消费旧R775预算失败run中的六个真complete stage，并核原R771，不要求power6/final证书。root完整读新核心/包装，核旧stage schema及Zywina原Lemma4.7/Cor4.10。所有新算术由专用公开workflow执行。
 - 写真实输入请求触发R786；R775继续已有断点，R777较大方案保备用未触发。H/open/index同步；后继实际kernel/函数/β/高度仍待。原始输出只当前一日转交，Git只参数/run/输出SHA。
+
+## 2026-11-15 13:48 Asia/Taipei · serre-public-astra-20261115
+- 执行环境恢复后重新部分克隆，05:47 UTC实际pull main至3516c330；与前已读f9af比两README无差异，H记实际SHA，恢复终端git提交。
+- R786公开run43682100611成功：1234原power5基完整q0..128/40坐标与旧mod739逐条吻合；root核实际ZIP、manifest及3740文件全部SHA/size，无本地数学重算。登记R786-certified并同步H/open/index。
+- 后继R787直接消费R786与R781求原L关系，R777大方案保备用。R775原续跑继续；实际映射/β/高度尚未输出，主目标OPEN。

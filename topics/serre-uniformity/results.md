@@ -318,4 +318,6 @@
 
 - **R785（已证明）**：[原Rosati块高度压缩与规范首外积类](results/R785-original-Rosati-block-height-compression-and-leading-exterior-class.md)。活跃简单块End_Q^0=F和F稳定Lagrangian使原高度为ΣTr(cα x*ᵗMαy)，实际参数降至ΣdimFα^+，原极化/同源分母全保且配对仍可在JY求。真正首项是[s_i] mod Qp(v_i)，同时保原CM值与切向两列；仅要求v向量非零，允许个别v_i=0。该类A/Y splitting不变，实际非零和全p排根尚未证明。
 
-- **R786（已证明；准确短基公开任务已启动）**：[原五次截面与129阶恢复](results/R786-original-power5-sections-and-129-Laurent-recovery.md)。5ℒ degree1360/维1234给原degree1206函数的28+h1维关系；129个完整Laurent条件即可全球认证。weight10原相位给Q实字段系数，B0秩20及A有理Schur将后继缩至1326×1214 L，实际rank待算。直接复用R775已成六stage，不等power6；不重算R781，不预称y/β/高度。
+- **R786（已证明；准确短基已完成）**：[原五次截面与129阶恢复](results/R786-original-power5-sections-and-129-Laurent-recovery.md)。5ℒ degree1360/维1234给原degree1206函数的28+h1维关系；129个完整Laurent条件即可全球认证。weight10原相位给Q实字段系数，B0秩20及A有理Schur将后继缩至1326×1214 L，实际rank待算。直接复用R775已成六stage，不等power6；不重算R781，不预称y/β/高度。
+
+- **R786（公开准确计算已完成）**：[1234条原五次幂基短展开](results/R786-certified-original-power5-short-basis.md)。run43682100611/source dd262672准确生成全部q0..128/40坐标，尺度82^10、原basis次序与配方全保，逐条核旧mod739；cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9。仅复用R775已成六stage和原R771，无power6成功假设。原L关系核、y/β/高度继续，原始数据仅一日活跃断点。

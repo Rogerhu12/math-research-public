@@ -210,7 +210,7 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 
 [R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。
 
-R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。[公开run43679703344已成功](results/R781-certified-original-inverse-free-Laurent-prefix.md)：原R0..142、144实字段/逐阶stage全部通过原相位和准确递推校验，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。继续接R777准确基、2860×3028 L关系、原函数/β和完整高度；这些后继尚未计算，主目标仍OPEN。
+R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。[公开run43679703344已成功](results/R781-certified-original-inverse-free-Laurent-prefix.md)：原R0..142、144实字段/逐阶stage全部通过原相位和准确递推校验，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。当前依R786已成power5短基接R787原L关系、原函数/β和完整高度；这些后继尚未计算，主目标仍OPEN。
 
 ### R785：原高度的最小块参数与规范首外积类
 
@@ -221,3 +221,5 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### R786：当前直接执行的原power5函数恢复
 
 [R786](results/R786-original-power5-sections-and-129-Laurent-recovery.md)证明原5ℒ/1234截面足以表示同一个degree1206的y；kernel=28+h1≥28。129完整Laurent条件−1..127准确认证全球关系，weight10原半线性相位逐项保留，系数在Q(ξ+ξ^-1)。先以B0秩20消cusp常数，再用1234阶Q minor消A，真正待解缩为1326×1214 L；rank≤1186为理论界，尚无实rank或函数。新准确短基任务直接消费旧R775已成M2/power2..5/det六stage与原R771，生成1234条q0..128；R781真实R0..128和κ129已够。R777完整M6/M12方案保留备用，当前不自动触发其较大计算。
+
+[R786准确短基已实际完成](results/R786-certified-original-power5-short-basis.md)：公开run43682100611/source dd262672成功，1234原基q0..128与原mod739逐条一致；证书dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9，原尺度82^10和40坐标全保。R787后继只消费此真短基与R781，先实际选主元/求原L关系，再做全部129阶准确认证；不预填rank、核或高度。
