@@ -113,3 +113,6 @@
 
 
 - **真实归一bit联合伴随及原物理核整行下界。** [自足证明](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)保原Ni及全部carry、同一完整H，ΣNiNi*≥I−Ptop直接给核内dist²≤C_m整行能量；连原正角和超小carry，任意w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²。没有最小单权逆，仍不把W的固定列强零换成移动整行速率。
+
+
+- **精确核曲线的加权支撑阶与全部子式因子。** [自足定理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)把κ外来源O(u^ell)转成active E_J的同一个单位右基下列u^ell，故全部j阶原子式≥δ_j+最小j权和；删列/原来源换列损失由wedge严格支付。已有29曲线的新1834×29外一阶矩阵若核维t2，可用当前34/31给63+t2及62/59+max(t2−1,0)。只付条件接口，无新t2数值、成员性或首项单位。

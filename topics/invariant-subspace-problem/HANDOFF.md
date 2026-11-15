@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** ee1dc3e9fda310d8d86e53d4513dee677fdf1b47（2026-11-15 09:42:31 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** b2a38f2b928107ea41b41877c6bd60d11d4b4cb3（2026-11-15 09:44:27 UTC，Actions run43700676812实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43700676812-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -19,6 +19,8 @@
 - [完整Smith与29精确曲线](results/R150-appendix-full-smith-formal-koszul-selected-orders60-59-56-and-cost8685.md)与[完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)现给指定D≥63、原来源换列≥62、cofactor≥59；任意analytic目标换列只直接取59。原29是同自然u完整精确Koszul曲线，仅常项支撑J；不能以36常核替29曲线。
 - 完整∞第二连接实际1.291280400秒，1088×595前缀秩578/582/582，全1088校正/5100自动零给β2=0、δ4354≥34/δ4353≥31。[有限零点23条left2jets](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)实际1.537155172秒同型全原校正成功，r1+r2≤4及r1≤4给s34；K80=s20K60、lc=5^6是31单位。当前q235…8627，原成员性前提下费8672（非基8671、目标8450）；不预称零点β2=0。
 - [九原模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成、费1339；不付Q[s]成员性、固定e无界精度或lc(D)单位。常数31饱和不付参数leading单位；旧mod31仿射gcd315也不自动提升char0。标准Koszul1632支撑交29、二次skew降次、LLL/闭包/单65521均已成，不重旧计算。
+
+- [精确曲线支撑阶加权引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：active E_J经同一个单位右变换有列u^ell，所有j子式付最小j权和。既有29曲线只新增外一阶M1834×29；若真Qrank r、t2=29−r，则当前δ34/31下D≥63+t2、换/cof≥62/59+max(t2−1,0)。t2未算，不预填新阶；不重1603求解或七大Q，删列损失用wedge子式支付。
 
 ## 同w边界：继续原权及完整返回
 

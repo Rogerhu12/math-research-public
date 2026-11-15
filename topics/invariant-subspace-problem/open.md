@@ -151,3 +151,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 
 **当前实际排入的新增参数阶。** [完整∞第三左页](notes/2026-11-15-r150-infinity-third-left-envelope-interface-789f.md)只加原u³及13列残差；[同选自然u来源Schur](notes/2026-11-15-r150-selected-natural-u-schur-source-jets-interface-789f.md)沿原4318部分逆逐完整层保6188来源/4367残量，并恢复此前33第一校正。分别30秒/512MiB和degree8/60秒/512MiB；请求不计为结果，不重旧大Gaussian/NF，也不以有限域Smith代特征零长度。
+
+
+**精确曲线的有限阶支撑入口。** [加权因子完整定理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)对同一个active来源因子，列支撑阶ell经单位右补基给全部j子式的最小j权和。现29精确Koszul曲线只需新增外一阶M1834×29；若真Qrank r，则t2=29−r使D≥63+t2，原换列/cofactor≥62/59+max(t2−1,0)，K80条件费用8672−max(t2−1,0)。t2尚未计算；固定曲线组合不等允许uPhiY纠偏后的最大支撑维数，后继保完整一阶syzygy及旧常项身份，不重旧1603块。
