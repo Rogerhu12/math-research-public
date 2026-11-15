@@ -56,7 +56,10 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
-[R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)已证明固定颜色优先级局部唯一分解及完整word有限终止。当前新任务是在R174的77字面基上建立共同sound映射，pure旧40及31关系/J/D0已存代表直接复用；新balanced(2,2)需完整共享行。消费端明确是直接Φ还是逐基复用Ψ；二者均可用零和证明真实关系，但不能预设相同，也不能用非零word断言真实独立。完整关系证明必须绑定原列与各列转换，不能只给秩/残差计数。
+[R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)已证固定颜色优先级局部唯一分解及word有限终止；[R179](results/R179-universal-independence-of-fixed-color-remainder-words.md)进一步用Euler逐色剥离与不交packets证明规范余letter words对普适原函数单射。必须保同锚、规范正次数letter、完整local系数、全部ξ输入；固定profile上的非零性不随之取得。
+
+当前只在R174的77字面基上完成共同两根表，旧40/31及J/D0 pure代表按原转换+余letter语法复用。R179使合格旧代表与直接Φ自动相等；完整表的核就是真实函数核，R177可降为真实泛函iff消灭全部核。找到一条被R177赋非零的核关系即可排该点并保剩余cursor；若无违例，须完成全77才授良定义。不重70字面依赖/40 pure或孤立rank。资源退出不是完整核结论，有限有符号查询不授实际控制。
+
 
 **[R177](results/R177-explicit-all-layer-positive-point-after-nine-original-relations.md)给出尊重九条原式关系的新全层正点**：静态=(1+k²)²/4，二次为(k′)²+(1+k²)v²+k²(k′−2kv)²/4乘h^-2，完整最高M=diag(1/16,11/48)配纯h正平方；全action≥∫h^-2/4。原23 y与十四族、同μ/c/d完整列出。[指定点实际](notes/character-minus2-raw-positive-candidate-actual-20261115.md)43672582314/source14f33da3已完整：86行全部满足且零恰64..85，107/14/九式/同μ与R177准确匹配，0.009609s/RSS25.207；证书12864/b7b7cf0f保全。无LP/原式/路径重算，该点任何完整标量路径门都已由全正证支付。旧B+九式覆盖全部已发表70真式；唯一真实性缺口是这些是否穷尽真实函数核，不误读旧报告字段成剩余61未付。tail消费新共享word，lit并行找直接真实泛函定义。
 
