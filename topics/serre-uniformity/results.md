@@ -341,3 +341,5 @@
 - **R794（已证明；公开小算术请求已启用）**：[原范数极化与有限低次数η基](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)。原12基及两两和的范数必覆盖原F⁰；149固定候选中按真实degree作拟阵贪心，并输出原R791基的可逆变换。保原极化、域与η规范；三同源主函数和未计算的二挠刚性化比较分清。实际rank/选择/次数待Actions，不声称全格最优或高度已得。
 
 - **R794（公开准确选择已完成）**：[原五维η的低次数输入](results/R794-certified-original-low-degree-eta-basis.md)。run43691270124/source7cf16012，原12单norm实际rank5；选f0/f3/f1/f0+f10/f0+f4，degree1485/1521/1602/1674/1728，m最多8、完整Laurent条件最多196，保原R791五方向可逆基变换。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f；只在149候选内最小总degree8010。新极除子/η/高度仍未求。
+
+- **R795（公开工程已启用，实际短基待run）**：[普通power6 q0..81方法](notes/R795-exact-ordinary-power6-prefix-method.md)。只由真实R775配方和R786旧power1/5生成1506条新82¹²尺度行，保原40/20坐标、mod739与逐项反演，不重算旧E1/短基/Laurent，不预称μ33或高度已得。

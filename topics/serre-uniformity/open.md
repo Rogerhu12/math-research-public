@@ -36,135 +36,23 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 ## 当前执行与精确缺口
 
-压缩前全部公式、来源及路线边界保存于[完整检查点](notes/2026-11-14-open-checkpoint-through-R721.md)；
-以下以最新已证接口继续，已完成计算不重跑。
+本次压缩前全部公式、真实数据绑定及路线限制逐字存于[本次R795前open](notes/2026-11-15-open-before-R795.md)，内接完整旧归档。已成数学不重跑。下面正式结果是当前接口，不把算法存在写成实际数值。
 
-### 原变化导子与指定本原非消失
+### 指定本原非消失与真正同标签单位
 
-原 R317 剩余为 $p>37$、$p\equiv2,5\bmod9$、$a^3+db^3=1$、$p\mid b$；
-$D,b,c$ 无统一上界，R604 的 even 支撑下界不能倒用。
-R575 的原正商是 $\Psi_\theta\kappa_4$、根号负；
-R597 的 $X_1/c_1$ 与 $X_d/c_0$ 不可自由互换。
+R575原正商是Ψθκ4、根号负，原X1/c1和Xd/c0不得互换。R616给指定L′(gθ+,1)L(gθ−,1)非零与原β非挠的准确等价。R726已经对全部充分大允许p证明原本原signed-ray误差趋零，接原Gross–Zagier得β非挠、rank=dim和原log同构；不再要求因子数/素数密度前提。有效阈值下仍须原更锐有限证书；R719实际137147945171点与完整无穷尾、R722整数trace已完成，不重跑。复非消失不等于同标签模p单位或高度排零。
 
-[R616](results/R616-original-CM-point-difference-and-explicit-height-basis.md)
-给原 $\beta=q[c_1-c_0]$ 非挠当且仅当指定
-$L'(g_{\theta,+},1)L(g_{\theta,-},1)\ne0$，成立即
-$A(\mathbb Q)\otimes\mathbb Q=F\beta$ 且对数同构。
-[R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)
-在保留 $\kappa_p^m$ 和全部 signed-ray 后给明确充分区域，
-含固定 $\omega((p+1)/3)$ 的充分大素数及其所述次对数 $J$ 区域；
-该估计自身不覆盖全部 $p$，现由下述 R726 补上充分大范围。
+R730全阶尾界、R742整数η≥−2及R744真Weierstrass因子已证；深度4/5/6实际根和高度仍缺。R747/R750原signed轨道T_h²=2N_hP_h及各微分首jet原实域运输保持。R748原p41首jets/p4等距、R739两真实定点、R7065992有限窗都已关闭，不能用完整Abel等距替正秩有理点排除。真正primitive/Legendre筛下同h三单位问题按下面sigma接口继续。
 
-[R726](results/R726-uniform-original-primitive-nonvanishing.md)
-现去掉因子形状限制：对全部充分大的 $p\equiv2,5\pmod9$，
-原本原 signed-ray 误差的 Gaussian 权和 $\mathcal B_p\to0$。
-固定阶的小高度点用乘法独立性、模 $p$ 注入和分裂素理想赋值计数；
-大阶用 Rankin 乘积，所有无穷尾完整保留。
-原 $E_1$ 核逐点有 Gaussian 比较，故两误差分别 $o(1)$、$o(\log p)$，
-接同一原轨道/Gross–Zagier 接口，得指定 $\beta$ 非挠、
-$A(\mathbb Q)\otimes\mathbb Q=F\beta$ 和原 log 同构。
-不存在关于 $\omega((p+1)/3)$、radical 或素数密度的前提。
-有效阈值以下的有限层仍需原较锐证书；
-此结论不提供高度矩阵或实际共同无根，主目标仍 OPEN。
+### 真正高度：原规范完整，实际值和排根仍缺
 
-[R719](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)
-已闭合实际137147此前提：公开 run43597653737 的945171点、
-132178范数行、2769点独立全核与完整无穷尾给
-$B<106516214032/10^{12}<1/2$。
-证书 SHA256 为2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f。
-完成枚举不重跑；复非消失不等于模 $p$ 单位或原高度排零。
-[新核文献范围](notes/2026-11-14-primitive-nonvanishing-literature-scope.md)
-明确固定素数反圆分、固定参数化横向 Heegner 与 Dirichlet 素数幂结果
-尚缺原变化 $p$、六水平及指定本原投影的接口。
+R593/R596原η_h、χ、刚性化、μ3 tensor与清分母保持；R690/694/696真实坏靶Ω={0}。R634消A高度矩阵但保Y线性项、Picard修正与局部常数。R724以实际MW对数/高度矩阵给原ell_h，保因子2、第二类周期、原Hecke轨道、Poincaré/universal extension校正、非p项和完整尾；不假设H可逆。须真实生成η、β、规范高度jets并验证(724.33)有限Bézout及其对全p存在，零数上界不能代共同无根。
 
-### 原 sigma 临界系数与完整 Abel 函数
-
-完整已成公式、实际 run/SHA 与尾估计保[本次完整归档](notes/2026-11-14-open-before-R759-actual.md)，原结果文件继续有效，全部已成计算不重跑。
-
-R730 全阶界 $v(M_m/m!)\ge-1-mp/(p+1)$、R742 原未分歧下降给整数 $\eta_h=v_p(M_{2,h})\ge-2$，且原 $P_h$ 非零时赋值偶。R729/R726 对充分大允许 p 给原 M2 非零及 rank/log 接口；共同 Abel 阶为 1，仅使真实高度被 s² 整除，不给高度首项单位。
-
-R737 均方界与 R742 rounding 给 p≥2^160 某本原 η≤1，p≥2^512 此类超过 g/16。完整 p7 盘等距已证。R744 把完整 p4 盘化为次数≤3的真正 Weierstrass 因子；非中心 Qp 零只可能深度4/5/6，实际因子及高度排零仍须求。实际 KS 标量不设单位。
-
-R740/R741 原 N 赋值非负偶、N单位标签比例趋于至少1/2；R734 每允许 p≥41 有 h>1 真本原 N单位。上述比例不强迫同h低η或两Cartier非零，固定有限 h 可同时失去本原性。R727 真正充分条件仍是同一本原 h 的 N_h、C_(h−2)、C_(p−h−2) 三单位，成立才给 η=−2 与整个 v_p(s)>3 仅center。
-
-R747/R750 保原signed Galois轨道：T_h=αnM2/[144(1−ζ²)]∈F0、T_h²=2N_hP_h，全部αM_(3j−1)/(1−ζ²)∈F0；非零jet比值全局实，不因此把完整Weierstrass因子系数放进F0。R748实际 p41 signed根和六首项已成，ω0首43719/(7·41²)，完整尾给p4等距；这不替正秩有理点的高度条件。
-
-R706的5992素数窗口仅137147原Cp−3为零；R717/R719/R722实际指定本原非消失、137148个完整整数trace及真实M2单位已全部完成。p137147的两额外scalar根深度7/2非Qp，完整p4等距；R739 p47/h7、p41/h37的准确Norm与M2也已成。来源均见归档及各结果；不重开已闭合数值项。
-
-### 真正高度：规范输入可构造，实际数据与排根仍须完成
-
-R593/R596 的原 $\eta_h,\chi$、刚性化、完整 $\mu_3$ tensor、
-清分母及截面保持；R690/R694/R696 给实际坏靶 $\Omega_{\rm actual}=\{0\}$。
-R634 消去 $A$ 的高度矩阵，但保留 $Y$ 线性项、Picard 修正和局部常数。
-R703/R716 的有限代数 jet 提取及完整相对尾已证，
-后者免预求 $\gamma$；零数上界不能代共同无根。
-
-[R724](results/R724-original-Chow-Heegner-height-matrices-and-canonical-jet-evaluation.md)
-补上真正规范求值：$Y$ splitting 在原 $\Lambda$ 中含因子2及常数精确抵消；
-完整 adelic Hecke/GL$_2$-type 使原 $\eta_h$ 有限轨道给所需 MW 基。
-以实际对数矩阵 $L$、高度矩阵 $H$ 得
-$\ell_h(v)=y_h^tL^{-t}HL^{-1}e_\eta v$，不假设 $H$ 可逆。
-代数 universal-extension 提升先作
-$\Delta=\log_I Z-r(\log Q)$ 校正，再在原 Poincaré 纤维做群对数求值。
-第二类周期、截面常数、非 $p$ 局部项及完整形式群尾全部保留。
-
-[R725](results/R725-original-CM-elliptic-model-and-splitting-field.md)
-给原正 CM 椭圆分量的实际模型：在固定
-$E_{27}:Y^2=X^3+16$ 上令
-$w(P)=\prod_{a\in\mathbb F_p^\times}t([a]P)$、
-$r_0=(w(P)-w([\sqrt{-3}]P))/2$、$b=r_0^6$。
-则 $L=K(b)$ 次数 $(p+1)/6$，
-$C:y^2=x^3+b$ 是原正 $\kappa_4$ 的分量，
-$v_L(b)=1$、类型 II 最小模型；全部系数有核多项式 resultant 公式，
-并给具体同源 cocycle。完整正角色、三同源和微分方向均保留。
-这只补椭圆分量与分裂域，原 $J_X\to A\to C$ 同态、
-$\beta$ 坐标、实际 NS/Picard/刚性化运输及 KS 尺度仍需生成。
-
-
-[R728](results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md)
-已将此分量提升为实际有理模型
-$B=\operatorname{Res}_{L^+/\mathbb Q}(y^2=x^3+b)$，
-其 $m$ 条余式方程、全部原正标签诱导分解和有限阶移位 $T$ 已显式给出。
-$T^m=[\eta]$、$cTc=T^{-1}$，故
-$e_n=n^{-1}\sum_jc_n(j)T^j$ 精确切出原本原因子，分解同源次数素于 $p$。
-在 trace 识别下真实 Néron 余切格为
-$F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格由 $e_n^*$ 取直接和，
-而非任意省略逆 different。实际极化和 NS 线丛也已给出。
-原 $q/\beta$ 现在准确降为 $(X_1)_{L^+}\to C$ 的有理函数及其原 Hodge 比较；
-这些函数仍未生成，原 KS/Manin 指数、Picard 修正和刚性化常数仍保留。
-
-
-[R732](results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md)
-已闭合原函数构造中的周期/Manin 规范和有限终止界：
-原闭周期除以同一 $\Omega_0$ 是带标签 torsion completed-zeta 的有限代数和，
-$E(P)=-D^2\psi_M(P)/(2M^2D\psi_M(P))$ 保留完成化常数。
-有限 $K$-线性核 $R\sum_jv_jw_{ji}\in K$ 恰给原
-$\operatorname{Hom}_L(A,C)\otimes\mathbb Q$；清分母整数必须记录。
-整数辛周期精确给映射次数 $d$；
-Riemann–Roch 线性系统截断超过 $\deg D+2d$ 后，
-极点度界严格恢复 $x=A/B$、$y=dx/(2h)$，再在原 $c_0,c_1$ 求值。
-这是准确有限算法及证明；尚未执行原函数表、$\beta$ 坐标或比较矩阵，
-不能把算法存在登记为原高度数值已得。
-
-须继续生成同一原曲线/对应/线丛模型、有限关系矩阵和规范高度前缀，
-并实际验证 R724 (724.33) 的有限 Bézout 不等式及全部尾。
-137147 的真实高度 jet 尚未生成，排根证书尚未通过；
-亦未证明该证书对全部 $p$ 存在。
-任意第三类微分、任意曲率原函数、未知高度非退化均不能替代实际输入。
-
-### 原普通 Norm、首矩与类作用参数
-
-完整旧链存[before-R763](notes/2026-11-14-open-before-R763.md)。固定p43的776bit q已Gaussian5排除，非Serre反例；保原Γ/s/t、P0、未平均P+。
-R715给m43、普通NS E=E_N、NP E=(p,π)E_L；R718全塔m_n42n+1与相容普通Norm逆极限。R731全部层NΓE_M=(p,s−1,NT)E_B，商k[T]/NT；完整ordinary除子与原q ambiguous socle均保，不能代域Norm根。
-[R720](results/R720-original-C-and-b-by-the-complete-Robert-chain-comparison.md)的C=9ib、L=31+26b、r_y=25+9b、Ω₂=ε(22+17b)，零iff b24；实际b未知，pure-p24/一次10/Ct9禁代。
-[首矩重建](notes/2026-11-14-r599-first-moment-normalization-reconstruction.md)给原Jℓ选择无关、Jr=−2Jℓ，全部见证X+(t−1)E和余数改变量I²；Norm普通基校正c=−Jℓ/(13i)。R185准确Aflat=Aα−8i/1848 u、Jflat=J−18；原ep(dq)|q=(J/2)K0、ep(dq−8d0)|q=((J−18)/2)K0，奇异0。
-R743保正确Sha方向，原p-flat primitive满足2(aq−16bq)=−ε(J−18)，不是strict-p。R746真实ordinary判据z=b iff δDz=(−ellcyc−2izκp−2iκq)∪w有Σ支持且p类0；原〈D0p,d0〉=26εb，d0p=(24,20)，flat dual=(0,41)是另一个独立泛函。
-R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈z0,d0〉p=9ε；不反推b。R752/R755/R756/R758/R761及新R763见下，真正J/b/σ₂和ordinary-to-flat下降仍待求。
-
+R725原正CM模型b=r0^6、L=K(b)与原同源cocycle、R728本原Weil/Néron格/逆different、R732原period和Manin规范均保持；真正同态/基点方向以R759/R764/R791/R792的新准确结果为准。原K子域或模型不得自由替换。R785最小Rosati块与首外积类同时保CM值/切向两列；splitting不变，实际p进非零仍未求。下列p41函数输入服务这些真实高度缺口，不重开已完成R707分类。
 
 ## 当前原数据和最新接口
 
-本次压缩前完整输入、run/SHA、旧阶段与限制逐字保存于[此次R793前open](notes/2026-11-15-open-before-R793.md)，内接全部旧归档；已成数学不重跑。当前H保活跃run和接续，正式结果保证明与准确来源。
+本次压缩前完整输入、run/SHA、旧阶段与限制逐字保存于[此次R795前open](notes/2026-11-15-open-before-R795.md)，内接全部旧归档；已成数学不重跑。当前H保活跃run和接续，正式结果保证明与准确来源。
 
 ### 原p41函数与高度输入
 
@@ -256,3 +144,7 @@ R790真实点/首导配固定乘法可构造K上的胖点理想及长度155/156�
 ### R794：保原五方向的有限低次数η输入选择
 
 [R794](results/R794-original-norm-polarization-and-low-degree-eta-basis.md)证明原12个Hom基与两两和的范数张成整个实域，按真实Gram次数去迹后覆盖原F⁰。固定149候选作按degree排序的线性拟阵贪心，只声称该清单内最小总degree；原κ/e_R、全部五方向和可逆基变换保持。一般a∈E的映射先在K上，Norm的自伴NS类/η在⊗Q下降；实际线丛的二挠代表比较和刚性化常数仍须保。[真实run43691270124已成功](results/R794-certified-original-low-degree-eta-basis.md)：原12单norm实际rank5，选择f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728、m7/7/7/8/8、N170/172/176/193/196，原基可逆变换已核。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f。后续采用这五条真实新输入；R797新增其Laurent，原极除子、η和高度未计算。
+
+### R795：只新增普通power6的准确短基
+
+[方法](notes/R795-exact-ordinary-power6-prefix-method.md)与公开工程已审并启用真实请求。只读R775已成1506条power6配方和R786旧power1/5准确行，新增q0..81的82¹²尺度乘积；保40个ξ坐标及原v,t的20实坐标，逐项核旧mod739与反演。已有6+1244输入文件逐SHA/schema通过，只是IO核验。core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac；实际新基待run，不称μ33/极除子/高度已得。全部完成阶段和最小旧输入随一日bundle续传。

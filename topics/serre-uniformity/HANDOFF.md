@@ -6,7 +6,7 @@
 
 已读根/本题README及本题当前记录；私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。当前部分克隆在/dev/shm，终端git正常；先前环境恢复及完整绑定见[本次Hurwitz前H](notes/2026-11-15-handoff-before-Hurwitz.md)。
 
-**已读规则提交：25fdaddb02cdaf2a247264c87c7f8ad5add44eb6**（2026-11-15 07:49 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：8e52679dcf3b934c2c488915c4b9622be6e6bf3c**（2026-11-15 07:54 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -31,6 +31,8 @@ core7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d与wrapper/w
 [原实下降比较](notes/2026-11-15-original-real-descent-three-isogeny.md)：D_(1−ζ)把原f以degree1同构降到Fb上的C′:Y²=X³−27b，映射degree仍1206；ψD=[1−ζ²]、ψ*ω=3ω′，极化e′=e/3且原h仍须因子3。原q/基点不改，主函数新旧常数(-27)^[-7(bj+aj)]明确保留；不以模型替换消高度规范。
 
 **R794真实选择已成**：run43691270124/source7cf16012，0.0557秒。原12单norm实际rank5；149候选选f0/f3/f1/f0+f10/f0+f4，degrees1485/1521/1602/1674/1728，m7/7/7/8/8，N170/172/176/193/196。最大m由14降8、N358降196；保原F⁰和实际可逆R791基变换，非全格最优。certc6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f、artifact14152074788；见[R794真实结果](results/R794-certified-original-low-degree-eta-basis.md)。只得原η类输入及新微分组合，未求极除子/η/刚性化/高度。R797预留root新增这五条Laurent，R796做较小CM局部接口。
+
+**R795已启用**：只消费R775真power6配方及R786旧1/5行，新增1506行q0..81、82¹²尺度和40/20坐标；core2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac。6+1244个旧输入已逐SHA/schema核，非本地算术。结果待run，未求μ33；完成行/输入随1日bundle续传。R797工程现由ordinary_local接手，原五新Laurent只收缩旧R774的56个Hodge三积。
 
 ## 已成输入与ordinary续点
 

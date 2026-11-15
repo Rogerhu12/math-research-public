@@ -449,3 +449,8 @@
 - R794公开run43691270124实际成功，核心0.055699029秒；原12单norm已rank5，149候选贪心选五条degree1485/1521/1602/1674/1728，最大普通幂14降8、完整Laurent条件358降196。
 - root核实际ZIP/全部10文件SHA及两个阶段、run/source/core/proof。原极化加权迹、五阶非零minor、原R791准确双向基变换均来自真实Actions。只小来源metadata入Git，完整坐标/候选表随一日活跃包给后继。
 - 后续直接采用f0/f3/f1/f0+f10/f0+f4及其已认证原六微分组合；R797由root新增这些Laurent，R795/R796继续。极除子、Jacobianη、刚性化与真正高度保持未完成。
+
+## 2026-11-15 15:53 Asia/Taipei · serre-public-astra-20261115
+- R795 core/method/wrapper/workflow全审并启用真公开请求；只新增原1506条power6的q0..81，原R775配方与R786旧因子逐SHA/schema对齐，双40/20坐标与旧mod739逐项验证。
+- 输入实际IO共R775六文件/R7861244文件通过，旧数学没有本地重算；core2a338672、method084cc240、R793 proof6f716b64冻结，完成行与输入独立一日bundle续传。
+- open逐字归档压缩并保所有旧公式/限制。R797由ordinary接续，只用旧R77456个共同Hodge三积收缩五条新函数，R796最小CM局部接口继续，主目标OPEN。
