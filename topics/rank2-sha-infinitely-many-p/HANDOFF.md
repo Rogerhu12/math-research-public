@@ -4,7 +4,7 @@
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：47dd93ace95c65d9858743f658244dfd6a2c9320；2026-11-15 12:47:19 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:47:18 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
+- 最近已读规则提交：c26703d87956f01b0b97f7a0ce8fbe6de34bbe84；2026-11-15 12:50:41 UTC核两README无变。实际CI pull 2026-11-15 12:29:28 UTC/0d1e6ff09e857a2f3773ae45ca7f02461f4391ae（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 12:50:40 UTC仍无环境。最迟2026-11-15 13:15 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
 - 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境；API小文本接fresh head、拒推即重试pull --rebase。12:29:28实际pull run43714095022/job132811769665；回执ci/rule-pull-20261115T122928.json，两README差异空、blob核同。27,361,244B/1975文件无超限、旧3真实输入块保；下次13:15前。
@@ -13,7 +13,7 @@
 
 ## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r757.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754、756–757；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-native-words.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–754、756–757；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta续真同域词；literature续type0全Hecke谱；deep续原ξ/同R；root续中央桥/Norm3实际预算。
 固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
@@ -33,16 +33,15 @@ R753 point-only投影在Cp拓扑不连续，固定数域有界系数已反例；
 
 [实际中央剪切](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)付保Gram的Cayley参数和有限稳定门：∂u∂sM=J′_dotf+d_pα mass+d_pΩI_D。真Fourier变分zD的周期差ℓjD在任何固定有限cover不消；保连接，未冒holomorphic扩张非裂。同一固定Lp(s)且C M²=Lp Q、C/Q真units才使原M0=M′s0的零传给该负一矩；现未付此身份。权错位(n+1,−n)→(n,1−n)，全部moving权/scale/局部pairing保。
 
+
+[原四盘/移动A34](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：实际Y/Z/W/V在P1给自由两生成群，所有不同约化词的G4像不交；反向字母留平面Cκ而固定伙伴。全有限分区/无限Σ∞/plane-zero纤维保，来源D4关系不等物理词关系。实际HEZ,n PA,34像恰J,L∈pⁿ、J+29κⁿY∈p^(n+34)，Yunit迫vJ=n；原返回Y/E/Z/W/V与ΦN三十次权全保，不能把增长精度冻结成纯伙伴中央零。
+
 ## 深支：同一个R及完整WD
 
 M=c*U0m13J、P134/charge40、13free/26carry/conductor10980、十九角、ξ0与全p²/p³保。清极一般+3，+2须原两∞矩/顶帽，不加未知R奇偶或额外中央零。
-R495完整H3在同WD且联合值/normal短jet满射；R722/726/727所有unit/三charge/截顶和同商(0,16cz_c)只在其实际块，不以子块排全来源。R730 h≤4aF+8b+3Δ迫原UA|Z非零；FH2商由真实Kmir读取；J/M分别T=s−r/s−r−13。
-R731原镜轴B模F²唯一，ρ≤2κ−h；完整M尾/漏13、真2h延拓及H_B常数分支保。R741 Vη首位H=h+k+ρ单位且M行13+H<s，完整ξ/carry保；因子保持型整提升需t^(k−r)真极。整个FH2子格Smith为1^(2κ+χ−aη),p^(aη+1)，无p²；非F列加入会改余核，Vη本身不杀全像，PB+pA须同步R−A。
-R738真高前缀核、d0≤floor((4r+2)/3)、容量2v(v+d0−1)−min(v,r−k)及[终止界限](notes/2026-11-15-original-prefix-iteration-critical-limit.md)保；h+vd0≤2κ仅越h>3κ/2，未越9κ/8。
-R743原六固定纤维S-unit顶系数/tame分支给h≤6g_norm+2a+14b−6；d<p的小残余线系保奇点和复合次数ν，用primitive t+cY及Castelnuovo–Severi给有限核界。临界aη≤13κ/32、bη≤17κ/48、全H3单位秩≥359κ/96+oκ。剩余缺陷≤73κ/96，缺全部D/k有序饱和运输，**未改变原全局(aI,bI)=(0,3)**，不冒aI+2bI<3。
+R495全H3同预算及真联合jet满射；R730–731原F/e、Kmir、η/ρ与T_J=s−r、T_M=T_J−13完整沿前检。R741首位H=h+k+ρ且M行13+H<s；全FH2子格Smith=1^(2κ+χ−aη),p^(aη+1)，无p²；非F列仍改余核，Vη不杀全像，改变PB提升须同步R。R738真高前缀核只越h>3κ/2未越9κ/8。R743原六固定纤维S-unit给h≤6g_norm+2a+14b−6；原小d<p线系/奇点/复合ν保，临界aη≤13κ/32、bη≤17κ/48、H3单位秩≥359κ/96，剩余≤73κ/96。这些单位是含Gaussian行缩放的M单位，普通行仍p^−i；**未付全D/k有序饱和运输，(aI,bI)仍(0,3)**。
 
-R750专用1≤ell≤r≤13、N0=s−13≤2h、T=N0−r：完整值forcing
-fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅) modtT，𝔅=B0+2ηB1、ord≥T，末r−k位保。原n2低r实列给整右逆，完整高尾不得删。全WD归一曲线值UD⊂N³(E′)，E|C=rP+E′、e′=BD·C−3κ−r；0→H0(N³)→UD→实际主部VE′→0。Rosenlicht/Serre对偶D_T=H0(ωN^-3(TP))中杀全部VE′残数的Lval正好全值左核，配合低右逆得真杀全WD的λ_ω；值可解iffResP(fBω)全零。实际ξ前整段已由原H3吸收。e′≤(BD²−9κ)/3−r，临界主阶无余量时仅O(b)，但指定残数未证非零。值解后只能在R*+Kval内修normal/第三块/两13/d2，完整F整除空间、高值核与真实主部核全保；不冒全p²可解/不可解。
+R750原1≤ell≤r≤13、N0=s−13≤2h、T=N0−r：fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅) modtT，末r−k位和原低r整右逆全高尾保。全WD曲线值UD⊂N³(E′)，E|C=rP+E′，0→H0(N³)→UD→实际主部VE′→0；D_T=H0(ωN^-3(TP))中杀VE′残数的Lval正好全值左核，值可解iffResP(fBω)全零。ξ前缀由H3吸收，e′≤(BD²−9κ)/3−r在临界仅O(b)。值解后仅R*+Kval修normal/第三块/两13/d2；完整F整除及高值/主部核均保，指定非零未付。
 
 R750[增补](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)给全F整除WD逐charge真基与H1(BD)=0；δC=h1(BD−C)由真基/RR精确算，实际主部维=e′−δC，δC0才全满。primitive p²先过原两13带，强迫ord𝔅≥T_M+13；未过即排此PB提升。过门后实际值配对缩为Res eB0[ξ−b_s t^(k−r)u²/(2a)]ω；完整ξ/normal/第三块/d2仍同R，尚未证明指定非零。
 
