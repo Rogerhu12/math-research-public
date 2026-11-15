@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261115T2120-rule-pull",
-  "utc": "2026-11-15 21:20:25 UTC",
-  "last_rules_read": "306e143530500db17a55f3172f2d65148c33bd56",
-  "reason": "Hourly actual git pull --rebase, compare both READMEs against the last checked commit, and audit rule-15 inventory. Use the existing read-only public Actions checkout; the local exec environment is still unavailable."
+  "request_id": "rank2-20261115T2202-rule-pull",
+  "utc": "2026-11-15 22:02:13 UTC",
+  "last_rules_read": "8839cad6bdb5bdd7b5f09959cbc3a20c55c680c6",
+  "reason": "Hourly actual git pull --rebase, compare both READMEs with last read commit, and audit rule-15 inventory. Existing public read-only sparse Actions checkout; local exec remains unavailable."
 }
