@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:02:18 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ff7a87e52618f9bc12c59a9f9a410343dfacde99。
+规则同步记录：2026-11-15 10:03:24 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 25855ae98abaf436159698eec4c8e29167799fa5；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 25855ae98abaf436159698eec4c8e29167799fa5。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -26,9 +26,11 @@ root唯一Git/pull/push/ref及workflow发布者；每条结论立即推，每pus
 
 [127 R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)run43700393105/source47bda302：8批64接受/130trial/66拒绝，fresh W49.73979281434833→11.126800189953372，unit首项−4.717371832840097，全final false。14接受inner tol=false、FD第5末1.092813e−7、末Arb1499叶/0未解及全部圆保原记录；8primary/64groups/8fullview身份核同、raw清。末真九p接128/129；[129入口](notes/2026-11-15-actual127-final-nine-control-continuation129-interface.md)run43701523658/sourceaba485afe160b63717b52f57d7f5c57a0a303173、compute132773497339/report132774328966均success，原8批/全部科学源保持，原日志待读，不冒科学接受。
 
-[九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101与[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128实际入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)已发布：真127第8末九p、λ=.001/fresh-circle，recipe739a2a00/request2ef24cc2/workflowdcdcfe05；110pins/29显式closure/原4输入+2ready+78源、300min单一deadline/330science/350job保持。独立push触发后核实际run；无九正λ接受结果，不预接450。
+[九H完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101与[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7保原00e4九设计/e830同owner全112H(s)、六shape/三active453、端点全J→FD→fullDN/finalJ/audit。[128实际入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)已发布：真127第8末九p、λ=.001/fresh-circle，recipe739a2a00/request2ef24cc2/workflowdcdcfe05；110pins/29显式closure/原4输入+2ready+78源、300min单一deadline/330science/350job保持。run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起step10science；无九正λ接受结果，不预接450。
 
-[九450原版](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b/1610保持；[独立v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070已显式支持真00e4或0433设计父/自身v2，完整各自闭包及H原receipt不重标/不当新缓存。全九末系数与两有限路径冻结，K=k=0/450、左338/右112，真父词→fresh RHS/二分+全knots，max_nodes须容1397以上；当前H全J/FD/fullDN/finalaudit保持，450本身未自动接H路径。exact继续v2 SavedPrefix/closed，无真实接受父。
+[九450原版](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b/1610保持；[v2](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)5e95afdb/92cfb070只接真00e4/0433完整接受父或自身v2，祖先H回执只作来源。全九冻结/K=k=0/450/左338右112，真父→fresh RHS/二分+全knots、max_nodes须容1397以上，原当前H全J/FD/fullDN/finalaudit保持，未自动接H路径。
+
+[九450完整读出/闭面接口](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)e8deb413/69bbba26已发：保全部physical338/core112/z0/原十jet方法/两有限scalar路径及原tail/config/H/J/audit/cut/SE2/sharedB七元组，新guard显式认九schema；不冒旧v3/v4，不自动付九连续scalar/a601或新接受，无真实450父。
 
 ## 原六H(s)与native方向
 
