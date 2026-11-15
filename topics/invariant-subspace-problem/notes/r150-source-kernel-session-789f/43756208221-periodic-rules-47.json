@@ -1,0 +1,35 @@
+{
+  "format": "isp-periodic-actual-readme-pull-v1",
+  "runId": "43756208221",
+  "largeDataUploadedOrCommitted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:14:14 UTC",
+      "beforeReadCommit": "ea5042f3996e9e32851cc6d150d4a7737fd8d732",
+      "originMainAfterPull": "1b8d38af848d6d3717113d3c488a4c950d19fadb",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:14:37 UTC",
+      "beforeReadCommit": "1b8d38af848d6d3717113d3c488a4c950d19fadb",
+      "originMainAfterPull": "0f32356175be405b10e9062e15338a3a646cca10",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 48,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 16465,
+    "logicalJsonSHA256": "8a9302bdbad4c2bad25fa76793c37d4abd5ce5980654b2819e7e780ceb6cfa0e",
+    "itemCount": 48
+  },
+  "lastRulesReadCommit": "0f32356175be405b10e9062e15338a3a646cca10",
+  "summaryExcludesRecomputableArraysOnly": false
+}
