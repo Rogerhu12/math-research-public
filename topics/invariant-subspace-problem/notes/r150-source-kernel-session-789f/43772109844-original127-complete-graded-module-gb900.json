@@ -1,0 +1,252 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-graded-module-gb900",
+  "executionSourceCommit": "e856cf63679fc22f77380987b5c25b15ef6d9b9d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-runner-789f.py",
+  "scriptSHA256": "e4cb324ce03d750ab8fdbe42939772fd3e74e23a86aa44cde5b02d5ac7a0c52d",
+  "argvTemplate": [
+    "--normal-forms-out",
+    "{work}/original127-normal-forms-all6188",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-complete-graded-module",
+    "--seconds",
+    "900",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30"
+  ],
+  "timeoutSeconds": 960,
+  "exitCode": 0,
+  "wallSeconds": 152.61229384599983,
+  "fullTemporaryReceiptBytes": 5289,
+  "fullTemporaryReceiptSHA256": "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2",
+  "result": {
+    "binding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+    "elapsedSeconds": 152.53167762900011,
+    "format": "r150-original127-complete-graded-module-pipeline-v1",
+    "outcome": "complete-original127-graded-module-basis",
+    "status": "completed",
+    "parameters": {
+      "affineTorsionDegreeComputed": false,
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "basisMetadata": {
+        "allOriginalSourceDAGRetained": true,
+        "basisRank": 1021,
+        "binding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "components": 1034,
+        "format": "r150-original127-complete-graded-basis-v1",
+        "freeModuleRank": 13,
+        "maximumBasisDegree": 8,
+        "noParameterPolynomialInverted": true,
+        "originalTargetCount": 9,
+        "prime": 127,
+        "processedOriginalSources": 2855,
+        "sumBasisDegrees": 701
+      },
+      "binary": {
+        "bytes": 90984,
+        "file": "original127-graded-module-gb",
+        "sha256": "994a754a39cdad20115329b810548125347198348912b382b4909faa3819c6cc",
+        "temporaryOnly": true
+      },
+      "committedState": {
+        "activeSlot": 1,
+        "activeStateFile": "gb-state-1.bin",
+        "basisRank": 1021,
+        "committedDAGBytes": 763659470,
+        "committedInputOffset": 33009372,
+        "currentOriginalRawSource": 6188,
+        "currentSourceActive": false,
+        "currentSourceNode": 69410283,
+        "finalized": true,
+        "generation": 7,
+        "maximumInputDegree": 45,
+        "processedSources": 2855,
+        "reductions": 69407428,
+        "swaps": 11591
+      },
+      "compileReused": false,
+      "compileSeconds": 1.5682215980000365,
+      "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "completeBasisAudit": {
+        "allBasisSourceNodesPresent": true,
+        "allNineOriginalTargetRowsRetained": true,
+        "basisRank": 1021,
+        "components": 1034,
+        "freeModuleRank": 13,
+        "maximumBasisDegree": 8,
+        "originalTargetCount": 9,
+        "processedOriginalSources": 2855,
+        "sumBasisDegrees": 701
+      },
+      "identity": {
+        "algorithm": "complete-univariate-streaming-GB-two-slot-active-source",
+        "normalFormBinding": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+        "normalFormFiles": {
+          "nf-backward.bin": {
+            "bytes": 3145942,
+            "file": "nf-backward.bin",
+            "sha256": "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc",
+            "temporaryOnly": true
+          },
+          "nf-component-dictionary.bin": {
+            "bytes": 8348,
+            "file": "nf-component-dictionary.bin",
+            "sha256": "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312",
+            "temporaryOnly": true
+          },
+          "nf-forward.bin": {
+            "bytes": 2434477,
+            "file": "nf-forward.bin",
+            "sha256": "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0",
+            "temporaryOnly": true
+          },
+          "nf-normal-forms.bin": {
+            "bytes": 33009372,
+            "file": "nf-normal-forms.bin",
+            "sha256": "0655289d4b14f4d5134e3fde02dc83c651f3eea7437515c55e3db52ce771aca4",
+            "temporaryOnly": true
+          },
+          "nf-reduction.bin": {
+            "bytes": 118454308,
+            "file": "nf-reduction.bin",
+            "sha256": "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1",
+            "temporaryOnly": true
+          }
+        },
+        "originalSourceCount": 6188,
+        "prime": 127,
+        "remainingSourceCount": 2855,
+        "sources": {
+          "2026-11-15-r150-original-f127-bitplane-789f.hpp": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
+          "2026-11-15-r150-original127-graded-module-gb-789f.cpp": "696c3c07461de74f9a2d3d92dbe835e1b5aa057d7dd1392c0baf8d7ffe57e508"
+        },
+        "wrapperSHA256": "e4cb324ce03d750ab8fdbe42939772fd3e74e23a86aa44cde5b02d5ac7a0c52d"
+      },
+      "infinityGoodReductionProved": false,
+      "maximumAll1034PivotCacheBytes": 395542224,
+      "memoryMiB": 2048,
+      "nativeExitCode": 0,
+      "nativeHardBudgetStop": false,
+      "nativeReceipt": {
+        "bytes": 712,
+        "file": "gb-native-receipt.json",
+        "sha256": "d4cbcd75e1455237fb823db55d7b961555b4f31d31f8292d49b81e59eb7209e2",
+        "temporaryOnly": true
+      },
+      "nativeStatistics": {
+        "activeSlot": 1,
+        "allOriginalComplementSourcesCompleted": true,
+        "basisRank": 1021,
+        "binding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "committedDAGBytes": 763659470,
+        "committedInputOffset": 33009372,
+        "currentOriginalRawSource": 6188,
+        "currentSourceActive": false,
+        "elapsedSeconds": 150.248,
+        "exhaustiveScalarArithmeticChecks": 244990,
+        "finalized": true,
+        "format": "r150-original127-graded-gb-native-v2",
+        "fullSourceCount": 2855,
+        "generation": 7,
+        "maximumInputDegree": 45,
+        "oldField31BasisReused": false,
+        "parentNFBinding": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+        "prime": 127,
+        "processedSources": 2855,
+        "reductions": 69407428,
+        "sourceCheckpointResumed": false,
+        "status": "completed",
+        "swaps": 11591
+      },
+      "nativeWallSeconds": 150.29767925499982,
+      "oldField31NumericBasisReused": false,
+      "parentActualReceipt": {
+        "bytes": 4468,
+        "file": "original127-normal-form-pipeline-receipt.json",
+        "sha256": "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe",
+        "temporaryOnly": true
+      },
+      "prime": 127,
+      "seconds": 900.0,
+      "temporaryFiles": [
+        {
+          "bytes": 92,
+          "file": "gb-active.bin",
+          "sha256": "3083eff8f40c39bb182b8a598e5f4a82ebfe0e9305592d0a572e7b3bc0375b82",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 43403962,
+          "file": "gb-state-0.bin",
+          "sha256": "1aefa1f5d332015432d935b6d10fd3c5bf3d37d40b53c99d7e1514a57db0415e",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 43403962,
+          "file": "gb-state-1.bin",
+          "sha256": "450b84ac326602e4f68ae058719c1905989cb917c7a012add5ef29fea303dbb4",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 763659470,
+          "file": "gb-operations.bin",
+          "sha256": "7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 43787388,
+          "file": "gb-basis.bin",
+          "sha256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d",
+          "temporaryOnly": true
+        },
+        {
+          "bytes": 373,
+          "file": "gb-basis-metadata.json",
+          "sha256": "78ea5329ad9a781f5e8498187bc04560526895482657d3dc1827061149feb269",
+          "temporaryOnly": true
+        }
+      ]
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:54:40 UTC",
+      "beforeReadCommit": "3b78b2c4e4b2910e3e5c7bafbec6d1de8a478405",
+      "originMainAfterPull": "e856cf63679fc22f77380987b5c25b15ef6d9b9d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:57:13 UTC",
+      "beforeReadCommit": "e856cf63679fc22f77380987b5c25b15ef6d9b9d",
+      "originMainAfterPull": "39aac7d56f4ce32c327454a86ca32900152b1b07",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 23,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 7890,
+    "logicalJsonSHA256": "9b36873ed375b29da08bd626f57885a722bff9bd3ff331090c721ce16c650994",
+    "itemCount": 23
+  },
+  "lastRulesReadCommit": "39aac7d56f4ce32c327454a86ca32900152b1b07",
+  "summaryExcludesRecomputableArraysOnly": false
+}
