@@ -14,7 +14,7 @@
 
 容量/成功SOC持径与选行J因子化的已付实际、失败、漂移和来源/费用均见对应notes及results，不重旧阶段；当前后继从真实当前恢复点继续，不能借旧最终数值强制重播。最新消费边界如下。
 
-[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)失败范围保原件。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)已从同原run43728280256完整summary读6模型/7trial：η.266401179156→.266381717617，最终双网14门/盒过，κfine57.999983395。10primary+2SOC耗尽12LP；m3/5细网原曲率失败由SOC修回并保B.000125，七步无遗漏硬行。m4/5需358/342新cuts；m5首LP完整norm为负改善，补342cut后改善，m6仅余1LP且完整norm负改善，有限模型停止非驻点。已评价步完整预测覆盖差近零，剩实际e/f非线性3.8e−7～1.7e−6。54/106源和24路径/decodedSHA已核，同g/b0/159/163不变；9恢复805.206121s/新active35.287169s、16+2值分账不变。新开发全过，首6方向源绑复用不重。仍专读恢复drift/详细SOC表；下一实际设计携原ID/norm支持方向并在新中心重建有效cuts，不能搬旧A/b或只续旧预算。未达.26或主1e−6，η不冒δhold。
+[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)失败范围保原件。[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)已从同原run43728280256完整summary读6模型/7trial：η.266401179156→.266381717617，最终双网14门/盒过，κfine57.999983395。10primary+2SOC耗尽12LP；m3/5细网原曲率失败由SOC修回并保B.000125，七步无遗漏硬行。m4/5需358/342新cuts；m5首LP完整norm为负改善，补342cut后改善，m6仅余1LP且完整norm负改善，有限模型停止非驻点。已评价步完整预测覆盖差近零，剩实际e/f非线性3.8e−7～1.7e−6。54/106源和24路径/decodedSHA已核，同g/b0/159/163不变；9恢复805.206121s/新active35.287169s、16+2值分账不变。新开发全过，首6方向源绑复用不重。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)已完成：旧历史末态不复现被如实保留，未重试或强制旧SHA；第九handoff同原H/reference/pools/controller，m3/5的17个hold guard与4个bind均真，半径是取消暂缩而非新增长。原native第五模型行首有BOM，完整字节和JSON存在；新reader只去识别前导BOM并读其精确159/163、reference/池/cut容器目录，所有数值payload留runner内存。下一新算法携原ID/norm方向，在新接受中心重建有效支持cut；直接从原已完成checkpoint恢复，不再机械跑九段优化，不能搬旧A/b、重锚高度或只续预算。未达.26或主1e−6，η不冒δhold。
 
 ### 仍须支付
 

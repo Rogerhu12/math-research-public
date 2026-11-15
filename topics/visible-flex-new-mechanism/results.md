@@ -442,3 +442,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R324 完整原式与有限频率证明](results/R324-complete-rational-quotient-and-nineteen-dimensional-local-ruling-control.md)从R56全P/B/η、local/chain及完整U原函数（保中心常数）严格封口：entire Rrat只含h^−7…h⁴，除原We=span{1,h,h^-1}后恰九个真实系数。由原完整主平方抽取九行，对共同αB因子作C=bW/e余式，低六次数0/1/2/4/5/6，高三经明确行变换为8/9/10、首项全非零；和R321十行严格合19。偶母盲核uv/vr与仅(x,W,C)依赖交零，全copy平移三角可逆，故实际主空间也19。
 
 稿件逐条把R299真尾/Green的whole pure-self补偿重新接到新constant-k,ω芽，保原Γ与非紧self；25个真实几何函数和11平移构成初选275个可冗余C²观察。十二实际交替位置×有限χ形成全R19正锥，有限N IFT付包括完整低阶基线的19真零，全部旧三矩/third/E8面积/log/全角保持。因此同一新构造圆E²/log/E全零、entire Rrat∈We，经R312完整比较消本芽原偶部商。其余段、奇部、canonical period、同w joint、高阶和有限几何未付；无科学或人工执行。
+
+
+## 完整 affine 原运行的九段恢复与 SOC 读完；后续直接定位原检查点
+
+[原输出补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)消费observer43735401279对同科学run43728280256的恢复和SOC表。九段真实末态/LP/value/费用及各次旧历史哈希不复现都保留；第2/3段B低于旧最小值而无模型，第九末态dbecd8…以同g/b0/H/reference/pools/B.000125+streak0交接。两次accepted SOC全部17guard/4bind真，校正tail量6.54e−9/9.25e−9、总步预测比率.8775/.9225；复原原B而非保守增长。浮点LP对偶/残差不冒验证证书。
+
+原第3090行native模型5有前导U+FEFF，1509969B/SHA535f6c04b2e2e250457dd2798647194225ebfc82cd8cf73301d4e84b095fbe06，原JSON完整。新只读reader修识别BOM并输出原exact159/163/reference/row-pool/support-cut的目录元数据，为新中心支持方向复用的直接checkpoint入口准备输入，不执行求解器/人工，也不存数值payload。原模型6有限预算停止仍非驻点；下一真正新算法而非预算延长。

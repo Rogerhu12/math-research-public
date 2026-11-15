@@ -526,28 +526,53 @@ def table_view(value):
     return value
 
 
+def input_payload_directory(value, path="$", result=None):
+    """Metadata only: find already printed state/reference/pool containers."""
+    result = [] if result is None else result
+    if isinstance(value, dict):
+        for key, child in value.items():
+            child_path = path + "." + key
+            terms = ("reference_state", "reference_height", "reference_physical",
+                     "coordinate_definition", "row_indices", "pool_history",
+                     "controller_continuation", "selected_two_grid_physical_point",
+                     "accepted_iterates", "known_fine_metric_locations",
+                     "exact_binary64_independent_coordinates",
+                     "exact_original_physical_coefficients")
+            if isinstance(child, (dict, list)) and any(term in key for term in terms):
+                result.append({"path": child_path, "shape": shape(child, 0),
+                               **fingerprint(child)})
+            input_payload_directory(child, child_path, result)
+    elif isinstance(value, list):
+        for i, child in enumerate(value):
+            if isinstance(child, (dict, list)):
+                input_payload_directory(child, path + "[" + str(i) + "]", result)
+    return result
+
+
 def actual_view(report, preview):
-    keys = ("schema", "status", "phase", "github_sha", "github_run_id", "github_repository",
-            "prepare_elapsed_seconds", "optimization_active_seconds", "process_total_elapsed_seconds")
+    keys = ("schema", "status", "phase", "github_sha", "github_run_id", "github_repository")
     result = {key: report[key] for key in keys if key in report}
-    result["previous_six_model_gate_error_and_24_input_readback_run"] = 43734816216
+    result["previous_completed_semantic_readbacks"] = [43734816216, 43735401279]
+    stage = report.get(STAGE)
+    require(isinstance(stage, dict), "original actual report lacks its stage")
+    result["top_level_field_directory"] = shape(report, 0)
+    result["stage_field_directory"] = shape(stage, 1)
+    result["resume_candidate_containers"] = {}
+    for key in ("independent_coordinate_definition", "input_replay", "initial_state",
+                "final_state", "configuration", "full_value_sampling_definition",
+                "learned_pool_replay", "exact_input_storage"):
+        if key in report:
+            result["resume_candidate_containers"][key] = {
+                "shape": shape(report[key], 0 if key == "configuration" else 1), **fingerprint(report[key])}
+    result["payload_location_metadata_only"] = input_payload_directory(report)
+    result["terminal_controller_scalars"] = {
+        key: stage.get(key) for key in ("status", "last_restricted_trust",
+            "final_consecutive_growth_qualifying_models", "error", "budget_message")}
     result["source_files_sha256_previously_read"] = {
         "source_count": len(report["source_files_sha256"]),
         "all_bindings_rechecked_against_receipt_here": True,
         **fingerprint(report["source_files_sha256"])}
-    for key in ("input_restoration_conclusions", "ninth_handoff_summary"):
-        require(key in report, "original restoration field missing: " + key)
-        preview.field(result, key, shallow_semantic(report[key]), 54000, required=True)
-    stage = report.get(STAGE)
-    require(isinstance(stage, dict), "original actual report lacks its stage")
-    for key in ("SOC_hold_diagnostic_table", "correction_table"):
-        if key in stage:
-            preview.field(result, "original_stage_" + key, table_view(stage[key]), 76000, required=False)
-    result["original_stage_fields_not_reprinted"] = sorted(set(stage) - {
-        "SOC_hold_diagnostic_table", "correction_table"})
-    result["original_top_level_fields_not_reprinted"] = sorted(set(report) - set(result))
     return result
-
 
 def model_view(value, preview, path):
     result = small_scalars(value)
@@ -603,7 +628,7 @@ def parse_log(data, job):
                                       log_time(step["completed_at"]) if step.get("completed_at") else None))
     for number, raw in enumerate(io.BytesIO(data), 1):
         line = raw.decode("utf-8").rstrip("\r\n")
-        clean = ANSI.sub("", line)
+        clean = ANSI.sub("", line).lstrip("\ufeff")
         match = TIME_PREFIX.match(clean)
         timestamp, body = (match.group(1), match.group(2)) if match else (None, clean)
         identity = {"original_line": number, "timestamp": timestamp}
@@ -757,6 +782,7 @@ def run(args, context):
         "outputs": receipt.get("outputs"), "original_pulls": receipt.get("pulls"),
         "readmes_read_commit": receipt.get("readmes_read_commit")}
     log, redirects = api.job_log(original_job)
+    require(digest(log) == request.get("original_log_sha256"), "original complete log hash changed")
     context["original_log"] = {"bytes": len(log), "sha256": digest(log),
         "downloaded_at": utc_now(), "redirects_without_authorization": redirects,
         "byte_limit": LOG_CAP, "only_in_memory": True, "written_or_uploaded": False}
@@ -787,22 +813,34 @@ def run(args, context):
         2500, preview_extra, "$.original_actual_pull_records")
     context["native_model_record_count"] = len(models)
     context["native_model_numbers_observed"] = [row["model"].get("number") for row in models]
-    context["summary_not_native_printer_supplies_model_five"] = True
+    require([row["model"].get("number") for row in models] == list(range(1, 7)),
+            "BOM-normalized original native records must contain all six models")
+    context["native_model_five_recovered_by_removing_only_leading_UTF8_BOM"] = True
     context["original_trials_and_failure_gates_already_read_in_run"] = 43734816216
-    neighbors = {row["model"].get("number"): row["original_line"] for row in models}
-    layout = []
-    if 4 in neighbors and 6 in neighbors and neighbors[6] - neighbors[4] <= 4:
-        for number, line_bytes in enumerate(io.BytesIO(log), 1):
-            if neighbors[4] < number < neighbors[6]:
-                clean = ANSI.sub("", line_bytes.decode("utf-8").rstrip("\\r\\n"))
-                match = TIME_PREFIX.match(clean)
-                body = match.group(2) if match else clean
-                layout.append({"original_line": number, "line_bytes": len(line_bytes),
-                               "line_sha256": digest(line_bytes),
-                               "timestamp_recognized": match is not None,
-                               "native_model_marker_offset": body.find("COMPLETE AFFINE OUTER MODEL "),
-                               "body_prefix": body[:180], "body_suffix": body[-120:]})
-    context["layout_only_between_native_models_four_and_six"] = layout
+    native_directory = []
+    for row in models:
+        model = row["model"]
+        trials = []
+        for i, trial in enumerate(model.get("trials", [])):
+            trials.append({
+                "trial": i, "kind": trial.get("kind"),
+                "accepted_as_next_iterate": trial.get("accepted_as_next_iterate"),
+                "accepted_index": trial.get("accepted_index"),
+                "physical_state_sha256": trial.get("physical_state_sha256"),
+                "exact_independent_coordinates": {
+                    "shape": shape(trial.get("exact_binary64_independent_coordinates"), 0),
+                    **fingerprint(trial.get("exact_binary64_independent_coordinates"))},
+                "exact_physical_coefficients": {
+                    "shape": shape(trial.get("exact_original_physical_coefficients"), 0),
+                    **fingerprint(trial.get("exact_original_physical_coefficients"))},
+                "field_names": sorted(trial)})
+        native_directory.append({
+            "original_line": row["original_line"], "timestamp": row["timestamp"],
+            "model": model.get("number"), "payload_sha256": row["payload_sha256"],
+            "field_names": sorted(model), "linear_program_directory": shape(model.get("linear_program"), 1),
+            "trials": trials, "scale_feedback_update": small_scalars(model.get("scale_feedback_update")),
+            "SOC_hold_model_binding": model.get("SOC_hold_model_binding")})
+    context["native_checkpoint_directory_no_coefficient_values"] = native_directory
     context["old_human_tables_and_publisher_log_not_reprinted"] = {
         "human_line_count": len(human), "publisher_line_count": len(publisher),
         "previous_readback_run": 43732702362}
@@ -831,7 +869,7 @@ def run(args, context):
         "original_process_total_elapsed_seconds": real.get("process_total_elapsed_seconds"),
         "original_peak_rss_kib_linux": real.get("peak_rss_kib_linux"),
         "readback_only": "Values above are copied from the pinned original reports.",
-        "unexpanded_detail": "Restoration and SOC records are projected after the prior six-model read. Raw arrays remain in the original log."}))
+        "unexpanded_detail": "Only metadata directories of the original exact states, coordinate reference, pools and support-cut records are read. Numeric payloads stay in the original log and runner memory."}))
     return rows
 
 
