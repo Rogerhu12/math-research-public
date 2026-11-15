@@ -8,7 +8,11 @@
 
 唯一已接受起点是 M96/N1024、scalar .99 的开放大核；材料三分量误差5.77368e−7不是全相对度量operator证书。后续 .996/.9975超限、.997875失败均已存。当前 M112/T112/N2048、699节点、453状态（338physical、112core、3p）、236036自由坐标，原scalar/控制/core与全部physical/constant行保持。原T112零H的完整J及audit已完成；七件身份完全相同且exact H=0首请求可复用，当前非零H及最终audit必须真worker，不能归零或拿T96代T112。
 
-### 1A. 前缀：实际74接受1/64；76只补最近left485，70比较已完成
+### 1A. 前缀：实际76接受1/4；79保持24查询重线性化
+
+**最新76已完成：** [三trial正式结论](notes/2026-11-15-actual-request76-twenty-four-query-quarter-step.md)、[原读数](notes/2026-11-15-actual76-original-readout.json)、[primary身份](notes/2026-11-15-actual76-primary-identity-readback.json)。run43661532089/source1377826d/job132651746146接受1/4，freshW43.67031770334245→43.57938353308094/drop.09093417026150519/ratio.9927567534550313，原完整域/RMS及零锚仿射FD8.532100047207813e−10通过。nearest1/2同时已有left466与原mid486失域，实际merit/RMS未执行，不能仅归为漏mid486；79从新bba24c1f/a1a67b9a双SHA保持同24/270/512/200重新建模。17关系/62源已核，仍非native/fullBVP。
+
+完整640977134B artifact14140726714/ZIPb57824ec按真实tuple派独立24reader1aa4da4e，routecc0f9832/requesteadaeba1；33非domain函数AST不变、7shell/4inlineAST及publisher22e均核。先原结果后完整导出字节，原chainQR未导出界限保留，不增加后继科学门。
 
 [R270](results/R270-exact-local-support-damped-QP-condensation.md)保全部236036维原g、pure-global仿射列、109freecore和全部外部physical条件响应。C只修正4059坐标，完整H不限于它。完整原子模型、LSMR200、C-Hildreth200、512工作行/dual200、候选600秒/试步预留90秒/恢复30秒/总1200秒及17档alpha、node/mid/双RMS/rho/merit门均保。每模型刷新W，禁止跨模型merit相减；线性域行不代替实际有限步检查。原完整QR因子未导出，不冒独立payload审计。
 
