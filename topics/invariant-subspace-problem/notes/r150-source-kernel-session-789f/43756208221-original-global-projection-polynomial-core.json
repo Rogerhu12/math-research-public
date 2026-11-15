@@ -1,0 +1,281 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "original-global-projection-polynomial-core",
+  "executionSourceCommit": "11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+  "scriptSHA256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--out",
+    "{work}/original-global-projection-polynomial",
+    "--through",
+    "core",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 330,
+  "exitCode": 0,
+  "wallSeconds": 11.643943500999995,
+  "fullTemporaryReceiptBytes": 6068,
+  "fullTemporaryReceiptSHA256": "354d34109b5b1a9593b038a69c7ad59e6eaa9ddd345474797408f05117c9639b",
+  "result": {
+    "binding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+    "elapsedSeconds": 11.513223331000006,
+    "format": "r150-original-global-projection-polynomial-core-v1",
+    "noNewNineTargetMembershipClaim": true,
+    "status": "completed",
+    "parameters": {
+      "allLargeArtifactsTemporaryOnly": true,
+      "checkpointManifest": {
+        "bytes": 5223,
+        "sha256": "1ffc2a56b02deda8e0cc6dbbfa663992e966c1fd2a8a91325727199bd801e3ec"
+      },
+      "checkpointPhases": {
+        "free-thirteen-kernel": {
+          "bytes": 157898,
+          "file": "free-thirteen-kernel-70b27882aced10d9de363b30056d93491860db2b102d3750c949659a7ad11fc0.json.gz",
+          "payloadSha256": "70b27882aced10d9de363b30056d93491860db2b102d3750c949659a7ad11fc0",
+          "sha256": "b4cd026450d301328d4273ca7256dd9d8ee645576fcc5a5118aecd99a4fc2c51",
+          "summary": {
+            "all2912OriginalProductsZero": true,
+            "freeNormalization": "Dlinear^2 I13",
+            "matrix": {
+              "logicalSha256": "0094105c15f99860016767a662e27b7b60ddfb04b085f044f50bacfe694aabe6",
+              "maximumDegree": 116,
+              "maximumDenominatorBits": 128,
+              "maximumNumeratorBits": 310,
+              "nonzeroEntries": 58,
+              "shape": [
+                155,
+                13
+              ]
+            }
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "linear-adjugate": {
+          "bytes": 143217,
+          "file": "linear-adjugate-b05096d7cf8b6384f65adb85c21d86445f369b1d82daf01ac8a1cb4b21dae308.json.gz",
+          "payloadSha256": "b05096d7cf8b6384f65adb85c21d86445f369b1d82daf01ac8a1cb4b21dae308",
+          "sha256": "ae021782aaa0a74f3f27bb56e628dc77b0fb33e7d7b79e5c0ff5462f6cf580ca",
+          "summary": {
+            "H": {
+              "logicalSha256": "f4b656baa103b7e05fd313693602193a39d188a08b8e3fa57c6884fd5fccc0fe",
+              "maximumDegree": 22,
+              "maximumDenominatorBits": 114,
+              "maximumNumeratorBits": 136,
+              "nonzeroEntries": 81,
+              "shape": [
+                9,
+                9
+              ]
+            },
+            "all162AdjugateCoordinatesVerified": true,
+            "normalizedAdjugate": {
+              "logicalSha256": "7363f4519106e59c737e550a0df7c5f4d238be8444d1d5cc29887b77e5637dc3",
+              "maximumDegree": 64,
+              "maximumDenominatorBits": 99,
+              "maximumNumeratorBits": 186,
+              "nonzeroEntries": 81,
+              "shape": [
+                9,
+                9
+              ]
+            }
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "original-polynomials": {
+          "bytes": 75504,
+          "file": "original-polynomials-162c4bba6ef2341b63ec8c59eeec0a68f624b2a0493f0866f6d2952e30ed9785.json.gz",
+          "payloadSha256": "162c4bba6ef2341b63ec8c59eeec0a68f624b2a0493f0866f6d2952e30ed9785",
+          "sha256": "f6b2a65345272df61881d4be5b71c8d6912c430b8c87c7d5440730a5d136f463",
+          "summary": {
+            "all5100HigherNormalSourceProjectionsZeroByExactSupport": true,
+            "all918OneNormalSourceRepresentationsVerified": true,
+            "allOriginalPolynomials": true,
+            "prefixChecked": true,
+            "projection": {
+              "logicalSha256": "d21c82f705c8be41988e30464977a7a69f65fc8a0a1d2b6175c8719db1750e72",
+              "maximumDegree": 21,
+              "maximumDenominatorBits": 119,
+              "maximumNumeratorBits": 137,
+              "nonzeroEntries": 4014,
+              "shape": [
+                224,
+                155
+              ]
+            }
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "polynomial-core": {
+          "bytes": 1394807,
+          "file": "polynomial-core-efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5.json.gz",
+          "payloadSha256": "efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5",
+          "sha256": "8693870cd23a4693d840d2d27bc1e0676ff4b8253a2b9c85e7b3c267a8199a82",
+          "summary": {
+            "core": {
+              "logicalSha256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8",
+              "maximumDegree": 126,
+              "maximumDenominatorBits": 213,
+              "maximumNumeratorBits": 409,
+              "nonzeroEntries": 641,
+              "shape": [
+                56,
+                22
+              ]
+            },
+            "knownUnitDivisionCount": 300,
+            "knownUnitDivisionsSha256": "7ca91faa39108bbe9498fc4ae1b5aa9a86ddd529b6dd24fa5d6e8dd0b026deee",
+            "newGcdNotYetComputed": true,
+            "previouslyProvedGenericRank": 22,
+            "separatedFreeColumns": 13,
+            "separatedUnitColumns": 120,
+            "separatedZeroRows": 48
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "polynomial-uncancelled-core": {
+          "bytes": 23407803,
+          "file": "polynomial-uncancelled-core-d2a898d39af6b98bfdc12539d94bd2f23ef8d2704902cf91879a2da3c23cbc19.json.gz",
+          "payloadSha256": "d2a898d39af6b98bfdc12539d94bd2f23ef8d2704902cf91879a2da3c23cbc19",
+          "sha256": "26c8574cace48c141f9468fd0b684f32e7def1e975042925d9811b72f0d7af92",
+          "summary": {
+            "allOriginal119GraphRowsVerified": true,
+            "core": {
+              "logicalSha256": "dac918d509dd3924cfc5aa5346dec292a4bb2a08ae696d7e55112faa747e3b34",
+              "maximumDegree": 218,
+              "maximumDenominatorBits": 213,
+              "maximumNumeratorBits": 577,
+              "nonzeroEntries": 641,
+              "shape": [
+                56,
+                22
+              ]
+            }
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "triangular-degree-0": {
+          "bytes": 4494838,
+          "file": "triangular-degree-0-4989a5ba5b068e1e121412a6ab4e085e94248df7b4e3dba968b613bbd09b5ffa.json.gz",
+          "payloadSha256": "4989a5ba5b068e1e121412a6ab4e085e94248df7b4e3dba968b613bbd09b5ffa",
+          "sha256": "bf524b8ea3316f3a01bc183aea2c5aab8cc278649fe2a4628ea9175a86f9e53f",
+          "summary": {
+            "blockCount": 1,
+            "degree": 0
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "triangular-degree-1": {
+          "bytes": 3762362,
+          "file": "triangular-degree-1-c4a16b912d0b150655397c91e468e7d7aed82ef1516af15decc6d6fa15b1e19e.json.gz",
+          "payloadSha256": "c4a16b912d0b150655397c91e468e7d7aed82ef1516af15decc6d6fa15b1e19e",
+          "sha256": "c2b530221b2c05979ababb94f23621d4be99ab980d3bab1521dd91edd177b12c",
+          "summary": {
+            "blockCount": 2,
+            "degree": 1
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "triangular-degree-2": {
+          "bytes": 1612862,
+          "file": "triangular-degree-2-7c2a9d3546777fe0efb649bb9fa8b57acb90beceea0cc6704edab41139dd4b06.json.gz",
+          "payloadSha256": "7c2a9d3546777fe0efb649bb9fa8b57acb90beceea0cc6704edab41139dd4b06",
+          "sha256": "e9d0d5d5705819e123b285bbc62e50f2f19c961a601400d04c5b8e81d1aae90b",
+          "summary": {
+            "blockCount": 2,
+            "degree": 2
+          },
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "triangular-degree-3": {
+          "bytes": 376461,
+          "file": "triangular-degree-3-afe1854fcee5ada85c42173fea6de227fdd9ed21df564ba6953086d15f05cdf5.json.gz",
+          "payloadSha256": "afe1854fcee5ada85c42173fea6de227fdd9ed21df564ba6953086d15f05cdf5",
+          "sha256": "fdf100611b2955037ee9c39f32c0544488b59b821b211cbf0ef77da05e2fe0be",
+          "summary": {
+            "blockCount": 2,
+            "degree": 3
+          },
+          "temporaryOnly": true,
+          "verified": true
+        }
+      },
+      "coreShape": [
+        56,
+        22
+      ],
+      "currentlyPaidFullInfinityLengthLowerBound": 63,
+      "currentlyPaidResidualMultiplierDegreeUpperBound": 160,
+      "currentlyPaidResidualTimesReducedH0DegreeUpperBound": 183,
+      "inputFiles": {
+        "generator": {
+          "bytes": 15328,
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        "script": {
+          "bytes": 34432,
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        }
+      },
+      "memoryMiB": 2048,
+      "originalSourceRows": 6188,
+      "originalTargetRows": 4367,
+      "projectionShape": [
+        224,
+        155
+      ],
+      "remainingSeconds": 300.0,
+      "temporaryLargeCheckpointsOnly": true,
+      "through": "core"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:09:26 UTC",
+      "beforeReadCommit": "11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13",
+      "originMainAfterPull": "11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:09:28 UTC",
+      "beforeReadCommit": "11c769ce66e0cbd65ca0b4de4eda1641c5fa0b13",
+      "originMainAfterPull": "a45522c15cdd90a16e6c9ef3fc119328d10cfeda",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 28,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 9605,
+    "logicalJsonSHA256": "09c79e6274fd6da4017fd81316004fa346558c2934e7cb340dd7ecfc08f6580b",
+    "itemCount": 28
+  },
+  "lastRulesReadCommit": "a45522c15cdd90a16e6c9ef3fc119328d10cfeda",
+  "summaryExcludesRecomputableArraysOnly": false
+}
