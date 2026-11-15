@@ -1,0 +1,151 @@
+name: visible-larger R259 small-core original-circle resonance diagnostic
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-small-core-resonance-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  smallcoreresonance:
+    name: Read complete true T112 zero J and diagnose the original circle low modes
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    concurrency:
+      group: visible-larger-public-smallcoreresonance
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+    - name: Establish one independent diagnostic output
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-small-core-resonance/smallcoreresonance"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-small-core-resonance/smallcoreresonance" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install the existing original operator diagnostic runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind all original inputs and the unchanged diagnostic source
+      run: |
+        python - <<'PYPINS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT']);repo=Path.cwd()
+        raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
+        if (request.get('schema')!='public-small-core-resonance-request-v1' or request.get('repository')!='Rogerhu12/math-research-public' or request.get('request_number')!=75 or request.get('lanes')!=['smallcoreresonance']):
+            raise ValueError('Use the one explicit existing-source R259 request75')
+        if request.get('scientific_entry')!='geometry_20261114_small_core_resonance.py':raise ValueError('Retain the frozen diagnostic entry')
+        expected={'parameters':[0.0,0.0,0.0],'newton_steps':0,'backtracks':12,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1}
+        if request.get('diagnostic')!=expected:raise ValueError('This request only runs the original bounded default diagnostic')
+        required={'geometry_20261114_small_core_resonance.py','geometry_20261114_constrained_trust_warm.py','geometry_20261114_constrained_collocation.py','geometry_20261114_full_prefix_operator.py','geometry_20261114_direct_operator_cell.py','exact_20261114_public_resume.py','source-dependencies.json','root_20261114_publish_actions.py'}
+        if not required.issubset(request['source_sha256']):raise ValueError('Missing required source identities')
+        verified=[]
+        for name,digest in request['source_sha256'].items():
+            if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',digest):raise ValueError('Explicit local source identity required')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=digest:raise ValueError('Frozen source changed: '+name)
+            if name.endswith('.py'):compile(data,name,'exec')
+            verified.append(dict(file=name,bytes=len(data),sha256=digest))
+        inputs=[]
+        for key,item in request['inputs'].items():
+            rel=PurePosixPath(item['file'])
+            if rel.is_absolute() or '..' in rel.parts or not str(rel).startswith('topics/visible-flex-larger-amplitude/'):raise ValueError('Explicit public topic input required')
+            data=(repo/str(rel)).read_bytes()
+            if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:raise ValueError('Original input changed: '+key)
+            inputs.append(dict(name=key,**item))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the actual triggering source commit')
+        (out/'request75-input-and-source-identity.json').write_text(json.dumps(dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,scientific_execution_claimed=False),indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,source_count=len(verified),input_count=len(inputs))),flush=True)
+        PYPINS
+    - name: Restore the original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE' 2>&1 | tee "$VISIBLE_OUT/public-source-restore.log"
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'small-core-resonance-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Execute the unchanged R259 circular-reference and full-tail-J diagnostic
+      timeout-minutes: 45
+      run: |
+        python -u - <<'PYDIAGNOSTIC' 2>&1 | tee "$VISIBLE_OUT/small-core-resonance.log"
+        import json,os,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);repo=Path.cwd();out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((comp/'public-small-core-resonance-request.json').read_text());d=request['diagnostic']
+        argv=[sys.executable,'-u',str(comp/request['scientific_entry'])]
+        for key in ('accepted','prepared','tail_anchor','tail_config'):argv+=['--'+key.replace('_','-'),str(repo/request['inputs'][key]['file'])]
+        argv+=['--parameters']+[str(value) for value in d['parameters']]
+        for key in ('newton_steps','backtracks','candidate_resonance_tolerance','interval_bits','interval_depth'):argv+=['--'+key.replace('_','-'),str(d[key])]
+        argv+=['--out',str(out/'resonance')]
+        (out/'exact-diagnostic-command.json').write_text(json.dumps(dict(argv=argv,parameters=d,one_original_diagnostic_invocation=True,native_solver_started=False),indent=2)+'\n')
+        raise SystemExit(subprocess.call(argv))
+        PYDIAGNOSTIC
+    - name: Copy the saved diagnostic status without adding scientific tests
+      if: always()
+      run: |
+        python - <<'PYREAD'
+        import hashlib,json,os
+        from pathlib import Path
+        out=Path(os.environ['VISIBLE_OUT']);path=out/'resonance'/'resonance-status.json'
+        if not path.is_file():
+            result=dict(original_status_present=False,scientific_success_not_claimed=True,scope='The source did not write a status; preserve its original log and partial files')
+        else:
+            raw=path.read_bytes();status=json.loads(raw)
+            wanted=('schema','phase','diagnostic_completed','seconds','success','exception','input_sha256','consumed_source_sha256','original_mesh_nodes','field_and_tail_modes','complete_zero_slope_J_retained','native_nonlinear_solver_called','original_full_BVP_or_large_amplitude_acceptance_claimed','straight_homotopy_only','weighted_lambda_j_homotopies_not_excluded','initial','final','complete_scalar_domain','original_complete_circle_check','low_mode_candidate_has_small_full_recorded_right_residual','this_candidate_threshold_is_not_an_original_BVP_acceptance_gate','full_nonlinear_nonzero_lambda_solution_computed','high_mode_nonresonance_or_interval_transversality_proved')
+            result={key:status[key] for key in wanted if key in status}
+            result.update(original_status=dict(file='resonance/resonance-status.json',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()),copied_existing_status_only=True)
+        data=(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+        if len(data)>=90000:
+            large=out/'large-arrays';large.mkdir(exist_ok=True);(large/'complete-diagnostic-readback.json').write_bytes(data)
+            result={key:result[key] for key in ('schema','phase','diagnostic_completed','seconds','success','exception','original_status') if key in result}
+            result.update(large_original_diagnostic_fields_retained_in_artifact=True,complete_readback='large-arrays/complete-diagnostic-readback.json',mathematical_computation_performed_by_this_readback=False)
+            data=(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode()
+        (out/'small-core-resonance-readback.json').write_bytes(data)
+        print(json.dumps(dict(report='small-core-resonance-readback.json',bytes=len(data),original_status_present=path.is_file())),flush=True)
+        PYREAD
+    - name: Preserve every original diagnostic output and failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-smallcoreresonance-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-small-core-resonance/smallcoreresonance/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded original results with ordinary pull and rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane smallcoreresonance

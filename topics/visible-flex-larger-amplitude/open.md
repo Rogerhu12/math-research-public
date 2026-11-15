@@ -66,7 +66,7 @@
 
 真实当前H原生达到原容差后，仍须完整outer/inner、RMS1e−6、BC1e−11、原FD与fresh audit。已发布[同live合同](notes/2026-11-14-current576-live-client-multirequest-extension-contract.md)、[逐请求snapshot/QR](notes/2026-11-14-live-current576-per-request-adapter-interface.md)、[实际H/FD/fullDN入口](notes/2026-11-14-live-current576-actual-H-FD-full-DN-interface.md)。clientc9f33777/hook7e83b398/adapter9346c0a7/QRee174e82及driver7ba3fd5f冻结；同worker bootstrap真anchor H/J后继续当前H/J、FD、fullDN/finalaudit。所有原门不变。
 
-61失败，必要completed native anchor尚不存在，不能把失败result硬接为接受输入或伪造未来request。32GiB为单call预算；19协议call最坏已识别固定数组428267349504B另加可变量，须按真实成本配资源，不删完整数组。R259小核心共振/条件IFT仍是未调度备选，R257有限恒速平面Fourier的圆障碍不能靠缩初猜消除。
+61失败，必要completed native anchor尚不存在，不能把失败result硬接为接受输入或伪造未来request。32GiB为单call预算；19协议call最坏已识别固定数组428267349504B另加可变量，须按真实成本配资源，不删完整数组。R259小核心共振/条件IFT的首次原默认诊断75已按[明确接线](notes/2026-11-15-request75-small-core-resonance-first-execution.md)独立派发（workflow891e79c2/request5359a2d3）：p=0/newton0、原699/full112零J/Arb160depth14，尚无实际结果；完整高core Schur、非零振幅parent和真尾未由此计算，R257有限恒速平面Fourier的圆障碍不能靠缩初猜消除。
 
 新noJ-primal live五源已独立保存：[client/fullDN接口](notes/2026-11-15-noJ-primal-live-client-and-full-DN-interface.md)、[每请求snapshot/QR接口](notes/2026-11-15-noJ-primal-live-current576-adapter-and-QR-interface.md)。client7aa2aba1/hook0e802785/systeme30e53e6/QRc3284d55/driverbb8ad207保持同原32/10/FD/fullDN/audit，真实成功73加八原件才可作为初猜父输入，必须fresh bootstrap，不导旧cache。已完成[资源与生命周期核查](notes/2026-11-15-noJ-primal-live-resource-flow-and-retention.md)和[无损归档合同](notes/2026-11-15-noJ-primal-live-lossless-archive-contract.md)：每轮704387088B/1750固定binary，原草稿漏两formed-rho共1792B已在初次发布前修正；32GiB仅单call，未实施归档、未删原件，未预造成功request。
 
