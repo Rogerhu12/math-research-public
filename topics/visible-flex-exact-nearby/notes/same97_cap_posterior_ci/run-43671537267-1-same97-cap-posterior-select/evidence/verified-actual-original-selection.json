@@ -1,0 +1,55 @@
+{
+  "selected_actual_complete_mathematics": {
+    "body": {
+      "run": 43665656138,
+      "attempt": 1,
+      "artifact": "visible-exact-complete-adjoint-Grams-finish-43665656138-1",
+      "actual_native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43",
+      "actual_artifact_process_sha256": "d100e7e6f7b2c7b961c3b4e0997381a7cdedca7a273c847041af734138fcbe37",
+      "original_workflow_conclusion": "success",
+      "original_process_complete": true,
+      "original_mathematical_gates": 2,
+      "receipt_gates": [
+        {
+          "name": "actual_complete_body_mathematics_and_artifact_receipt",
+          "passed": true
+        }
+      ],
+      "exact_mathematical_complete": true,
+      "original_worker_source_sha256": "86c2a02bd23eb146fbe4ee4c61cb2fd98d35110c36fde8eed1d6f426e73efed7",
+      "original_input_manifest_sha256": "baf3a42869c52ac0158ec6aac709aebced64a06efda8a8ea6d52939da71f1df5"
+    },
+    "boundary": {
+      "run": 43666716585,
+      "attempt": 1,
+      "artifact": "visible-exact-cap-adjoint-boundary-high-Grams-43666716585-1",
+      "actual_native_sha256": "6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92",
+      "actual_artifact_process_sha256": "2c52a359e83aefe2259f48850859f90b307543028017ca0e85046f37efa86bf2",
+      "original_workflow_conclusion": "success",
+      "original_process_complete": true,
+      "original_mathematical_gates": 10,
+      "receipt_gates": [
+        {
+          "name": "actual_complete_boundary_mathematics_and_artifact_receipt",
+          "passed": true
+        }
+      ],
+      "exact_mathematical_complete": true,
+      "original_worker_source_sha256": "ab34ab0edfeb69901b46b468255d9d74780a63742ade1bceec459ac226fb5cfe",
+      "original_input_manifest_sha256": "b753b78658c11326aadb0b70fab2be440c690b1f3ac78fabcac42ca799612465"
+    }
+  },
+  "rejected_original_artifact_receipts": [
+    {
+      "role": "poisson",
+      "run": 43660061501,
+      "attempt": 1,
+      "receipt": "not-selected-poisson-43660061501-1.json"
+    }
+  ],
+  "cap_ready": true,
+  "Poisson_ready": false,
+  "workflow_conclusion_not_a_mathematical_gate": true,
+  "exact_original_child_or_success_reuse_native_and_all_gates_required": true,
+  "only_original_receipts_consumed_no_mathematical_recalculation": true
+}

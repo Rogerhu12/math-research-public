@@ -1,0 +1,32 @@
+{
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43665656138",
+  "run_attempt": "1",
+  "role": "body",
+  "artifact_name": "visible-exact-complete-adjoint-Grams-finish-43665656138-1",
+  "artifact_id": 14144178799,
+  "api_archive_bytes": 1684515,
+  "actual_archive_length": 1684515,
+  "actual_HTTP_range_bytes": 1684516,
+  "complete_archive_downloaded_or_claimed_hashed": false,
+  "actual_process_sha256": "d100e7e6f7b2c7b961c3b4e0997381a7cdedca7a273c847041af734138fcbe37",
+  "actual_native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43",
+  "exact_selected_files": [
+    {
+      "file": "process.json",
+      "bytes": 25822,
+      "sha256": "d100e7e6f7b2c7b961c3b4e0997381a7cdedca7a273c847041af734138fcbe37"
+    },
+    {
+      "file": "native/complete7908-cap-adjoint-Grams-finish.json.gz",
+      "bytes": 1192190,
+      "sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43"
+    },
+    {
+      "file": "matrices/complete7908-adjoint-residual-Grams.npz",
+      "bytes": 332723,
+      "sha256": "d6bb53d5ab4098ef6635f7bc3d22a253788436ce7385c24b5d64ece25f39422b"
+    }
+  ],
+  "old_per_cell_arrays_fetched": false
+}
