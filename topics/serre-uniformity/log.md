@@ -590,3 +590,9 @@
 - 28LLL84行含8零D，49不同正候选（baseline已包含）全首(z,row,col)=(0,0,2)准确非零；scan25/四pair限额，未进入完整七点出口，不声称原Mg或425精度失败。
 - 纯IO12Range/13681996B核196小输出，manifest0f2be930/198项、artifact14181118695/afe625bf；大carrier未重哈希。D=d012·a已实施，继续原更深CRT及新消元问题。
 - 本push规则：本地真实pull至6f0f27fbe68908364b4652e343899bd68a55a0c9（2026-11-15T21:41:03.554702+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:55 Asia/Taipei — serre-public-astra-20261115
+- 登记原R827行列式Bézout充分证明7e07f78e：Σa_i det(GV_i)=1给分解多项式右逆Σa_iVi adj(GVi)，接原σ∞/proper可证I4=C；没有假设实际gcd已为1。
+- 复用1360条已成C列22.97MB，不重导数/20次整除/Hermite；原detC=P20给投影度界ΣW−418，a0界1340、非零a界3516。
+- 首scope为a=0,1,−1,2，公开core正实现节点原子det/完整Newton插值代回/xgcd乘回；有限投影失败不否定全模，原同核Hermite继续。
+- 本push规则：本地真实pull至b8d335ee5f882635cf9da06ed15cd73fe6326d92（2026-11-15T21:55:06.765012+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

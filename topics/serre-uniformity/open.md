@@ -81,7 +81,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 四pairs仍(10,11),(12,13),(15,17),(20,24)，28LLL84行中8个D零，其余49不同正候选全首(z,row,col)=(0,0,2)准确非零；baseline已含其中，未进入七点完整交换子。scan25、8失败、scope未耗尽，仅4pair限额；manifest0f2be930/198项、artifact14181118695/afe625bf。核心已强制D=d012·a，再提出该倍数格不是新信息；改a坐标仅改度量。有限拒绝只排各中心提升矩阵，不否定原Mg、425精度或同D的不同非中心提升。已成第三列/LLL/RR/旧拒绝不重做，最终原七点完整交换子/cyclic/Γ出口保持。
 
 
-**R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原六E=20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，安全K395非实际。
+**R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原E含20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，安全K395非实际。
 [AB消费者](notes/R825-original-R824-normal-input-consumer-method.md)coref09fae2b/runner43b00855保持89579f79/28字段/双图齐次项，P=MaMb/Q=δa·b−a·δb与272×816全核rank544全部投影，不用ambient迹或一般理想商；仍pending，无真实I/P/Q/D/eta/height。旧全部界、SHA与公式保[压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
 
 **R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
@@ -119,7 +119,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 此前执行/来源保[本次open归档](notes/2026-11-15-open-before-R832.md)，内接全部原证明；当前run/source/断点以HANDOFF为准。
 
-1. 原函数工程继续R827的真实q4两图充分检验、R824的准确27+244方向和R815完整Mg/Γ；R787旧430位BudgetStop已核，新run43737413555从438MB包同核续算中。原1234行/基/旧模分支不重算。[R827真q4断点](notes/R827-q4-infinity-rank-and-Hermite-checkpoint-continuation.md)已得σ∞rank272/det695832206；τ33839完整操作/pivot_row24尚未完，仅换真实resume同核继续。全τ多项式生成尚缺，不以纤维满秩代全局终止。
+1. 原函数工程继续R827的q4两图、R824准确27+244方向和R815完整Mg/Γ；R787从真430位同核续算，原1234行/基/模分支不重算。[R827真q4断点](notes/R827-q4-infinity-rank-and-Hermite-checkpoint-continuation.md)已得σ∞rank272/det695832206；τ33839完整操作/pivot_row24尚未完，仅换真实resume同核继续。全τ多项式生成尚缺，不以纤维满秩代全局终止。 [行列式Bézout](notes/R827-original-determinantal-Bezout-termination-certificate.md)7e07f78e给新充分右逆：准确det(GVi)的gcd1+原∞，复用1360列，a0/1/−1/2及次数1340/3516；实际det仍未算，不取消同核Hermite。
 2. 任一实际完成R824五次关系或原R787关系均可在真实来源绑定后给原y。已保存R824→R792入口；新共同零实际判断，后继CM点/R809 A,B正规向量/R811极理想/R825原D和eta依真输出接续。所有旧C0..5、曲率输入、基和算子来源保持不变。
 3. 原全p sigma仍缺同一primitive h的Legendre及两Cartier单位。R812全split未筛单位、R829旧p47和16、R826固定八运输/R828两new零、R830 conductor-p权6lift都直接复用。R831完整EO交换代数已成：任意Weil交换子压回EO在old6上标量，不能再用其降FG/HJ。继续真实conductor-p与指定Eisenstein CM配对，不把同Hecke特征当实际同一test vector。
 4. 原高度已得下列显式接触阶界，下一缺口仍是实际高度/周期与全尾的共同根证书。不能因知道一个有限截止阶，就任择高度常数或断言原整盘无非中心根。
