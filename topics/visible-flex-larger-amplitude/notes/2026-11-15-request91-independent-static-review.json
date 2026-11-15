@@ -1,0 +1,75 @@
+{
+  "schema": "geometry-request91-independent-static-review-v1",
+  "scope": "Read-only source, AST and already stored JSON descriptors; no project module imported or executed, no scientific arithmetic, no download or Git",
+  "sources": [
+    {
+      "file": "/tmp/actual83-four-row91-source/exact_20261115_actual83_four_row_state_formation.py",
+      "bytes": 41270,
+      "sha256": "17659d25b5f24d21843c188f845247ce3a132a7462e28d7b4fbcdf59db17bc8c"
+    },
+    {
+      "file": "/tmp/actual83-four-row91-source/exact_20261115_fetch_actual83_four_row_inputs.py",
+      "bytes": 10726,
+      "sha256": "e3dae97ae649dadd46cf77508e84b8573daaff30a77c14cc6f7c0a77a3bc6c92"
+    },
+    {
+      "file": "/tmp/actual83-four-row91-source/2026-11-15-request91-four-row-attribution-and-word-spacing-interface.md",
+      "bytes": 14285,
+      "sha256": "00bbe7b06846157a38fae40dfea48250f22165ed4449b86294be545b19dbc90d"
+    }
+  ],
+  "original_rounding_source": {
+    "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_saved_stage_full_rational_reference.py",
+    "bytes": 37047,
+    "sha256": "119864f3dffd764500e3f15b9bfe8c7e27367384486eaaa11a5db885422b8f12"
+  },
+  "frozen_transport": {
+    "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py",
+    "bytes": 28006,
+    "sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+  },
+  "rounding_function_AST_identity": {
+    "nearest_even_integer": true,
+    "rational_to_binary64_word": true
+  },
+  "review_findings": [
+    {
+      "area": "orientation and complete row action",
+      "evidence": "process_row uses node_vectors[stage+1] for all224 J coefficients, node_vectors[stage][row] for the explicit negative identity contribution; J row offset is within chunk stages8..11; exact sums are compared to the original83 eight-vector ledger",
+      "issue_found": false
+    },
+    {
+      "area": "row mapping and ledger records",
+      "evidence": "Requested stage/row/global indices are (10,187,2539),(10,184,2536),(11,186,2762),(9,0,2128). Full node records9..12 and stage records10..12 cover all incoming/outgoing coordinates with the original cut-first ledger order",
+      "issue_found": false
+    },
+    {
+      "area": "scale and scope",
+      "evidence": "Node word spacing uses sigma[node] only as labeled. Per-row J-times-gap and contributions use unnormalized gaps divided by sigma[stage]. Native norm spacing uses scale1 and never divides by a state sigma twice",
+      "issue_found": false
+    },
+    {
+      "area": "binary64 adjacency and nearest-even",
+      "evidence": "Both signed zeros have numeric adjacent subnormal neighbors; negative words reverse integer stepping; nonfinite neighbors are recorded without forming a finite gap. Integer ties-to-even handles subnormal carry, normal carry and overflow; mathematical exact-zero sign convention is explicit",
+      "issue_found": false
+    },
+    {
+      "area": "original input identity",
+      "evidence": "Actual83 exact result60feb and probe result7be2 re-read by hash; manifest and input-binding equal the fixed exact result copies. The original73 chunk2 descriptor is stages8..11,1605632B,fd117e, tied to whole-J1f5e and original matrix6ea4. No J payload is inferred from83 row totals",
+      "issue_found": false
+    },
+    {
+      "area": "transport and input preservation",
+      "evidence": "Both complete ZIP hashes/source commits are pinned. The original73 single-member extractor first validates all central-directory names/types/duplicates and streams the selected member with CRC/SHA/size and exclusive no-follow creation. Network/credential/publication stays in512247. Original raw inputs are copied under new large-arrays paths and never mutated",
+      "issue_found": false
+    },
+    {
+      "area": "scientific claims and execution",
+      "evidence": "Source is Actions-gated before binding and new Fraction/word arithmetic. Complete224+direct outputs are retained. No new RHS,J,ODE,QR,solve,trial or threshold; no universal residual lower bound, unique whole-flow cause, or all-ten-trial claim",
+      "issue_found": false
+    }
+  ],
+  "deterministic_interface_or_algebra_blocker_found": false,
+  "source_modified": false,
+  "review_is_not_an_additional_dispatch_gate": true
+}

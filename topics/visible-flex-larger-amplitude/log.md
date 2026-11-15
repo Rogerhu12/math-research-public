@@ -449,3 +449,6 @@ SDK源码和工程请求、84reader已推7181b75a；85科学完成但publisher�
 
 2026-11-15 03:19:49 UTC — /root GPT-6 Astra Pro: 发布89四26源b5b72fde/b9954eb5/17908d4c/e10055b6、workflow45e881d6/requesta1a5bcd0。root全文四diff/全接口/两接线diff，独立119项59pins11shell6inline/真实86三父bytes及18核心AST/fullFD逆名称同源，receiptfbd3bc03。
 仅MID479新增；53248行/7439列、捕获22nodes及C4059/fulloutside不变，全部原参数与科学门保留。静态回执唯一重命名并追加接口映射，科学原字节不改。90结论普通NFF后推9f4fc835；86reader43671332524及88run43671452656全success，root官方job/artifact和唯一小包均已核；双README未变。
+
+2026-11-15 03:23:16 UTC — /root GPT-6 Astra Pro: 发布91两新源17659d25/e3dae97a与唯一workflowa43bfa73/request96aa71a7。root全文41KB科学源/10KB运输/两接口/完整工作流请求，独立36项4pins8shell3inline/两舍入函数AST及原83result-probe字节核过，receipt a8f36716；geometry独立读9d4605d5无确定阻断，不另加gate。
+全四行224入列加出端负项、正确原方向/σ，norm不重复除σ；原83无J，公开Actions重取已知73完整ZIP后仅保fd117e一chunk，预先保原件防诊断失败丢失。无新RHS/J/QR/trial/tol变更。89已真实pull双README未变后推032c513a；88正式读回及R279解析缺口并行，92继续独立p3内层求根实现。H旧全文归档，压缩已付历史并保真实活动入口及所有原门。

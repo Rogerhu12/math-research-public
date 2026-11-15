@@ -1,0 +1,184 @@
+name: visible-larger actual83 four-row exact state formation and word spacing
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-native-four-row-attribution-request.json
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  modelresponse:
+    name: Fixed original bytes, four exact row decompositions, and neighboring-word diagnostics
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    concurrency:
+      group: visible-larger-public-native-four-row-attribution
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/README.md
+          /topics/visible-flex-larger-amplitude/HANDOFF.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish independent output and bounded Git maintenance
+      run: |
+        set -euo pipefail
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        mkdir -p "$RUNNER_TEMP/visible-actual83-four-row/modelresponse"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-actual83-four-row/modelresponse" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Bind frozen sources, two actual archives, original J chunk, and rules
+      run: |
+        set -euo pipefail
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,re,subprocess,sys
+        from pathlib import Path
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-native-four-row-attribution-request.json').read_bytes();request=json.loads(raw)
+        if os.environ.get('GITHUB_REPOSITORY')!='Rogerhu12/math-research-public' or os.environ.get('GITHUB_ACTIONS')!='true':
+            raise RuntimeError('Use the designated public repository Actions')
+        if (request.get('schema')!='public-actual83-four-original-row-attribution-request-v1'
+            or request.get('repository')!='Rogerhu12/math-research-public'
+            or request.get('request_number')!=91 or request.get('lanes')!=['modelresponse']):
+            raise ValueError('Use the one fixed actual83 four-row diagnostic request')
+        expected_sources={'exact_20261115_actual83_four_row_state_formation.py': '17659d25b5f24d21843c188f845247ce3a132a7462e28d7b4fbcdf59db17bc8c', 'exact_20261115_fetch_actual83_four_row_inputs.py': 'e3dae97ae649dadd46cf77508e84b8573daaff30a77c14cc6f7c0a77a3bc6c92', 'exact_20261114_fetch_pinned_public_artifact.py': '51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859', 'root_20261114_publish_actions.py': '22e640bb764936215e0bf0d2a4cefcb69808e27b2c81cf0c6b94a751a1e5b9ca'}
+        expected_inputs={'actual83': {'run_id': 43668743706, 'artifact_id': 14143009723, 'artifact_name': 'visible-mainline-modelresponse-43668743706-1', 'expected_size': 48375172, 'expected_sha256': '9eadec9633a1260597268a760b5870bf59bd18ef808e8c5eb6ac5e006df5634c', 'source_commit': '8d199eda5c1f1df162ded244e8dfd012e0c8d127'}, 'original73-j-chunk': {'run_id': 43657001633, 'artifact_id': 14141540502, 'artifact_name': 'visible-mainline-nojprimalnative-43657001633-1', 'expected_size': 1752742419, 'expected_sha256': '3430597bc72c02c387b62fd908b229c87c7caa01d4d14e2599c66f834480eef9', 'source_commit': '9515d5aaf7c68f8efd366438d6bd81ce73c3486f'}}
+        expected_chunk={'file': 'native-noj-primal-current576-damped/iteration-002/snapshot/large-arrays/stage-jacobians-0002.f64le', 'bytes': 1605632, 'sha256': 'fd117e2d3cfdd26ddfa584e5c75e521209f12ca16f098596ec61cab3e47f8677', 'shape': [4, 224, 224], 'dtype': '<f8', 'order': 'C', 'chunk_index': 2, 'row_start': 8, 'row_stop': 12}
+        expected_rows=[{'global_row': 2539, 'stage': 10, 'local_row': 187, 'component': 'Pi76', 'input_node': 11, 'output_node': 10}, {'global_row': 2536, 'stage': 10, 'local_row': 184, 'component': 'Pi73', 'input_node': 11, 'output_node': 10}, {'global_row': 2762, 'stage': 11, 'local_row': 186, 'component': 'Pi75', 'input_node': 12, 'output_node': 11}, {'global_row': 2128, 'stage': 9, 'local_row': 0, 'component': 'Q1', 'input_node': 10, 'output_node': 9}]
+        expected_readmes={'README.md': '6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09', 'topics/visible-flex-larger-amplitude/README.md': 'bff8aea253a9e6a7a4fac28d810ac454c5499fec'}
+        if request.get('source_sha256')!=expected_sources:raise ValueError('Require the exact four-file source and publisher closure')
+        if request.get('inputs')!=expected_inputs:raise ValueError('Both original artifact tuples must remain exact')
+        if request.get('selected_original_J_chunk')!=expected_chunk:raise ValueError('Require the single original stage8..11 chunk')
+        if request.get('watch_rows')!=expected_rows:raise ValueError('Retain the four original rows and n+1 to n orientation')
+        if request.get('expected_readme_blobs')!=expected_readmes:raise ValueError('Do not substitute the last-read rules')
+        if (request.get('python_version'),request.get('standard_library_only'),request.get('minimum_free_bytes'))!=('3.12.14',True,4294967296):
+            raise ValueError('Retain the stated standard-library runtime and resource allocation')
+        if sys.version_info[:3]!=(3,12,14):raise ValueError('The public runtime Python version changed')
+        verified=[]
+        for name,expected in expected_sources.items():
+            if Path(name).name!=name or not re.fullmatch(r'[0-9a-f]{64}',expected):raise ValueError('Explicit source identity required')
+            data=(comp/name).read_bytes()
+            if hashlib.sha256(data).hexdigest()!=expected:raise ValueError('Source changed: '+name)
+            ast.parse(data,filename=name)
+            verified.append(dict(file=name,bytes=len(data),sha256=expected,AST_parsed=True,imported_or_executed=False))
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        if head!=os.environ['GITHUB_SHA']:raise ValueError('Retain the triggering source checkout')
+        readmes={name:subprocess.check_output(['git','rev-parse','HEAD:'+name],text=True).strip() for name in expected_readmes}
+        if readmes!=expected_readmes:raise ValueError('README rules changed; read the new actual rules before proceeding')
+        intent=dict(schema='public-actual83-four-row-request-source-identity-v1',source_commit=head,
+            request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,
+            source_checkout_readme_blobs=readmes,scientific_execution_claimed=False,
+            future_scientific_step='Exact four-row contributions and neighboring binary64 word analysis',
+            output_route_only='modelresponse; independent request91 schemas remain explicit')
+        (out/'request91-input-and-source-identity.json').write_text(json.dumps(intent,indent=2)+'\n')
+        print(json.dumps(dict(source_commit=head,verified_sources=len(verified),new_scientific_arithmetic_not_started=True)),flush=True)
+        PYPINS
+    - name: Reserve complete original73 ZIP and retained input/output storage
+      run: |
+        set -euo pipefail
+        python - <<'PYSPACE'
+        import json,os,shutil
+        from pathlib import Path
+        root=Path(os.environ['RUNNER_TEMP']);out=Path(os.environ['VISIBLE_OUT'])
+        request=json.loads((Path(os.environ['VISIBLE_COMPUTATIONS'])/'public-native-four-row-attribution-request.json').read_text())
+        needed=request['minimum_free_bytes'];free=shutil.disk_usage(root).free
+        record=dict(schema='request91-complete-input-storage-v1',required_free_bytes=needed,actual_free_bytes=free,
+            original_archive_bytes={name:item['expected_size'] for name,item in request['inputs'].items()},
+            fetches_sequential=True,original73_complete_ZIP_size_and_SHA_before_selection=True,
+            original73_selected_member_bytes=request['selected_original_J_chunk']['bytes'],
+            original73_selected_payload_file_count=1,original73_unselected_member_CRC_claimed=False,
+            all15_actual83_probe_arrays_and_selected_J_retained_in_diagnostic_artifact=True,
+            deleted_scientific_payloads=False,scientific_iterations_or_tolerances_changed=False)
+        (out/'request91-input-storage.json').write_text(json.dumps(record,indent=2)+'\n')
+        print(json.dumps(record),flush=True)
+        if type(needed) is not int or needed<=0 or free<needed:raise RuntimeError('Insufficient declared complete ZIP/input/output storage')
+        PYSPACE
+    - name: Fetch and verify the complete fixed actual83 artifact
+      id: fetch_actual83
+      timeout-minutes: 15
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        set -euo pipefail
+        python -u "$VISIBLE_COMPUTATIONS/exact_20261115_fetch_actual83_four_row_inputs.py"   --input actual83 --out "$RUNNER_TEMP/request91-actual83"   2>&1 | tee "$VISIBLE_OUT/actual83-complete-fetch.log"
+    - name: Verify the complete fixed original73 ZIP and extract only the one original J chunk
+      id: fetch_original73_chunk
+      timeout-minutes: 30
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        set -euo pipefail
+        python -u "$VISIBLE_COMPUTATIONS/exact_20261115_fetch_actual83_four_row_inputs.py"   --input original73-j-chunk --out "$RUNNER_TEMP/request91-original73-Jchunk"   2>&1 | tee "$VISIBLE_OUT/original73-one-J-chunk-fetch.log"
+    - name: Preserve available transport receipts and the actual J chunk before diagnostic arithmetic
+      if: always()
+      run: |
+        set -euo pipefail
+        python - <<'PYPRESERVE'
+        import hashlib,json,os,shutil
+        from pathlib import Path
+        out=Path(os.environ['VISIBLE_OUT']);temp=Path(os.environ['RUNNER_TEMP'])
+        request=json.loads((Path(os.environ['VISIBLE_COMPUTATIONS'])/'public-native-four-row-attribution-request.json').read_text())
+        rows=[]
+        for kind,dirname in request['input_directory_names'].items():
+            original=temp/dirname/'_pinned_public_artifact_receipt.json'
+            if original.is_file():
+                raw=original.read_bytes();target=out/(kind+'-original-transport-receipt.json')
+                target.write_bytes(raw)
+                rows.append(dict(input_kind=kind,file=str(target.relative_to(out)),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest()))
+        item=request['selected_original_J_chunk'];source=temp/'request91-original73-Jchunk'/item['file']
+        if source.is_file():
+            raw=source.read_bytes()
+            if (len(raw),hashlib.sha256(raw).hexdigest())!=(item['bytes'],item['sha256']):
+                raise ValueError('Do not preserve a different original J chunk as the selected input')
+            target=out/'large-arrays'/'request91-pre-arithmetic-inputs'/item['file']
+            target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
+            rows.append(dict(input_kind='original73-j-chunk',file=str(target.relative_to(out)),bytes=len(raw),sha256=item['sha256']))
+        (out/'request91-available-transport-and-J-receipts.json').write_text(json.dumps(dict(
+            schema='request91-preserved-input-bytes-v1',files=rows,
+            scope='Byte copies only; original transport receipts and the one supplied J payload',
+            scientific_arithmetic_performed=False),indent=2)+'\n')
+        PYPRESERVE
+    - name: Compute new exact contributions for all four original rows and separate word-spacing diagnostics
+      id: four_row_exact_diagnostic
+      timeout-minutes: 30
+      run: |
+        set -euo pipefail
+        python -u "$VISIBLE_COMPUTATIONS/exact_20261115_actual83_four_row_state_formation.py"   --actual83-directory "$RUNNER_TEMP/request91-actual83"   --original73-chunk-directory "$RUNNER_TEMP/request91-original73-Jchunk"   --out "$VISIBLE_OUT/actual83-four-row-attribution"   2>&1 | tee "$VISIBLE_OUT/actual83-four-row-attribution.log"
+    - name: Preserve complete new exact evidence, actual input bytes, and every partial failure
+      if: always()
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+      with:
+        name: visible-mainline-modelresponse-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/visible-actual83-four-row/modelresponse/
+        compression-level: 1
+        retention-days: 30
+        if-no-files-found: warn
+    - name: Publish bounded request91 evidence with ordinary pull and rebase
+      if: always()
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        set -euo pipefail
+        python -u "$VISIBLE_COMPUTATIONS/root_20261114_publish_actions.py" --results "$VISIBLE_OUT" --lane modelresponse

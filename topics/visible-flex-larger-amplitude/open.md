@@ -32,7 +32,7 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [83完整精确h分解](notes/2026-11-15-actual83-exact-realized-step-component-decomposition.md)、[原result](notes/2026-11-15-actual83-original-exact-result.json.gz)、[完整byte范围](notes/2026-11-15-actual83-complete-exact-output-byte-audit.json)已保存：全部129248行八向量、577节点增量、578原块和旧R276三family对应全true。控制row2539理想下降1.18395970716579e-7几乎被实际状态形成抹去；realized-affine仍精确下降8.63524260187103e-20，实际flow/model余项在该行恰补回。另余项全局max7.95665191227233e-6位于row2536，不能以范数差冒向量差或称状态形成是唯一原因。未计算a范数舍入词，不能猜其RN与base同位。
 
-91将补既定四行完整224列贡献及坐标/输出/norm独立ULP；83包没有J载荷，须Actions从原73 ZIP核全SHA后只提stage8–11的真实单chunk并保入91 artifact，不由总Ah反造J。无新RHS/J/QR/solve，不加新gate、不放宽原tol，也不把一次固定alpha扩展至十档全因果或正误差底线。失败73末statef6abeb04/delta4b4b1aaa仍非接受尾锚。
+[91完整算术接口](notes/2026-11-15-request91-four-row-attribution-and-word-spacing-interface.md)与[唯一Actions接线](notes/2026-11-15-request91-public-actions-execution-interface.md)已发布：新source17659d25/运输e3dae97a/workflowa43bfa73/request96aa71a7。既定四行完整224列贡献加出端负项、坐标/输出/norm独立ULP及正确RN(a)全在Actions；真实83小包无J载荷，须核原73整个ZIP SHA后只提fd117e单chunk并保入91artifact与15原raw。4pins/8shell3inline、root完整两源两接口/工作流请求及36静态核过。无新RHS/J/QR/solve/trial，不加gate、不放宽32/10/tol2e-9，也不把一次alpha推十档全因果或正误差底线。失败73末statef6abeb04/delta4b4b1aaa仍非接受尾锚。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 
