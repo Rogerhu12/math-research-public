@@ -365,3 +365,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R749](results/R749-point-factor-projectors-and-finite-character-extraction.md)：已证明全代数点张量的椭圆对数映射单射，完整点表示的数值关系可施固定系数的point-only Galois幂等元。真实Q2⊗t²展示自然semilinear trace与此投影不同；只p分歧与17角色联合分离。明确线性点身份(H)成立的finiteχ族中所有非零值独立，一变量门平凡分量为hatΦ(1)ΩI_k1；未预付(H)或全多变量门。
+
+
+- [R748](results/R748-original-type-five-ramified-good-pair-and-point-eigenspaces.md)：已证明两原Dk全部合法finiteχ的实际点对数公式，原共同Ω、代数系数及只p分歧的ρχ点特征齐付。保LZZ真实点/完整local Q与BDP精确归一，dual型及负locus reciprocity使两period同ν；仅非零后用GZ/Kolyvagin转平方。支付R749(H)，所有非零(k,χ)值独立及一变量门平凡部可读；完整多变量谱仍待识别。

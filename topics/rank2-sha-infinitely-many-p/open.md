@@ -300,4 +300,7 @@ R742已付固定r、u^-1λ^-4N的真极限，r1只保≤125层原门；完整17�
 R743已用全部正规分支和实际六固定纤维得到原因子的正规化亏格下界，奇异C与全部复合小度线系保；两实际连接核有限界及临界13/32、17/48给整H3真实单位秩359κ/96。继续全res_C W_D的指定完整jet、normal与同R第三位；新界只控制像大小，不以维数排一个指定forcing，不交换J/M的T。
 
 
-R749已付完整point-log空间的Qbar单射及只作用点、固定系数的Galois投影。新finiteχ若另付实际点身份(H)，不同(k,ρ)的所有非零负一值独立，一变量门平凡分量为hatΦ(1)ΩI_k1；当前(H)与全多变量p-Schwartz谱仍须逐项证明。K-defined算子的自然trace不等point-only trace，原Q2⊗t²反例已付；不能把任意原中央Cp数施此投影。
+R749已付完整point-log空间的Qbar单射及只作用点、固定系数的Galois投影。新finiteχ若另付实际点身份(H)，不同(k,ρ)的所有非零负一值独立，一变量门平凡分量为hatΦ(1)ΩI_k1；其中(H)已由R748在两原Dk的所有合法finiteχ上支付；全多变量p-Schwartz谱仍须逐项证明。K-defined算子的自然trace不等point-only trace，原Q2⊗t²反例已付；不能把任意原中央Cp数施此投影。
+
+
+R748已用真实good pair和LZZ有限CM点支付两原Dk的全部p-ram线性点身份、共同Ω及代数因子，点域Hχ只p分歧、point-factor角色ρ准确。dual型/负locus逐项核后仅在非零时推rank1并化平方；R749的(H)与不同(k,χ)独立性因此闭合。继续全34维/flat pool的实际p-Schwartz谱，及原各O_i完整log或中央零的额外约束；R742无条件恒等式拆谱本身不产生中央零。

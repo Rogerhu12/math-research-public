@@ -2,61 +2,52 @@
 
 ## 目标、授权与规则
 
-固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；QUEUE持续，跨上下文继续，不等阶段确认。**
+固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成，持续研究；不以阶段结果或时长收尾。**
 
-- 最近已读规则提交：b412ee25acc1fe9a3f40001abb4550389abccba5；2026-11-15 11:48:04 UTC核两README无变。实际CI pull 2026-11-15 11:25:00 UTC/9c1a8a0ffac2e2fb280487954a051d7746896d20（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:47:49 UTC仍无环境。最迟2026-11-15 12:10 UTC再实际pull。
-- 首次全文读旧库根/题README授权789d22af7199385c25aa905e9ed144370b484152；只写Rogerhu12/math-research-public/main。完整结论即推；禁强推/改历史，令牌不入文件或回复。
-- 每小时实际pull，每次核两README，仅读差异即照办、记提交。本地exec无环境；API非强制追加，拒推即尝试pull --rebase并接新head循环推；CI实际pull与本地失败分记。
-- 规则12无冻结/独审/复跑门；13数学计算全用公开Actions；15@708f058a（新增别题清理记录已读）不存可重算输出/不新分块，只留脚本、参数、run/hash。
-- H<10KB、MD/API文本<100KB、open尽量<30KB、单文件<5MB、题目录≤200MB；题log每轮≤5行，不写根LOG。
-- 实际pull回执ci/rule-pull-20261115T112500.json：run43708808704/job132795688504；库存27,013,452B/1950文件无超限，旧3输入块保。
-- [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)普通删除206输出；79未匹配/2自读/3旧块先核实际生成器，真实输入/历史保。
+- 最近已读规则提交：dcd7350fa74a286b2bc95b9dce7cd30cdf58ee81；2026-11-15 11:53:56 UTC核两README无变。实际CI pull 2026-11-15 11:25:00 UTC/9c1a8a0ffac2e2fb280487954a051d7746896d20（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 11:53:54 UTC仍无环境。最迟2026-11-15 12:10 UTC再实际pull。
+- 只写Rogerhu12/math-research-public/main。首次全文读旧库授权789d22af；完整结论即推，不设冻结/独审/复跑门，禁强推和改他人历史，令牌不入文件/回复。
+- 每小时实际pull、每次核根/题README，仅读差异即执行并记提交。root15@708f058a只补别题清理记录，已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
+- 本地exec无环境；API仅小文本追加，拒推立即尝试pull --rebase并接fresh head循环。CI实际pull与本地失败分记。11:25 run43708808704/job132795688504，回执ci/rule-pull-20261115T112500.json；27,013,452B/1950文件无超限，旧3真实输入块保；下次实际pull最迟12:10。
+- 数学运行全用公开Actions；可重算数据/输出不存仓库或Release、不切新块，仅脚本/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB，题log每轮≤5行、不写根LOG。
+- [规则15复现](notes/2026-11-15-recomputable-output-provenance.md)已普通删除206输出；79未匹配/2自读/3旧块待核，真实输入及历史保。
 
-## 完整前检与分工
+## 完整前检、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r749.md)沿链完整保全部旧条件、原ray/CRT/δprimary、λβκΩ、坏集、预算和未闭接口。登记R1–363、365–560、562–653、655–711、713–746、749；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep已付R741/R743，续完整res_C W_D与同R；theta已付R742，续全坏处恢复与同域来源；literature核p-ram BDP线性公式；root已付R744/R745/R749点域、有限来源与point-only投影，续完整中央桥。
-固定E17/E24/E2312的rank2和完整桥2+corankSha≤2ordJ已付；仍需同一无限p族至少一条固定原J′非零。O4低增广/O6相对类群按open保，有限p/局部负矩非零不算完成。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r748.md)沿链完整保旧ray/CRT/δprimary、λβκΩ、坏集、十九角、来源预算及未闭接口。登记R1–363、365–560、562–653、655–711、713–746、748–749；R364/R561/R654/R712及主目标仍开。入口results.md、notes/PROOF-INDEX-R701-R750.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。theta写R747两返回逆搬原Y与全bad处；literature已付R748，续全p-Schwartz谱；deep已付R743，续R750完整WD同R。root已付R749 point-only投影，续原中央桥。
+固定E17/E24/E2312的rank2及完整2+corankSha≤2ordJ已付，仍需同一无限p族至少一条固定原J′非零。O4原低增广和O6真实核Np有限/λ≤3按open保；有限p或非中央负矩非零不完成。
 
-## 普通：原负矩、primitive与十七惯性
+## 普通：同一测试、完整有限门及实际点
 
-R698/702/713完整补域/三态/log、R719全149列/58行与R715两q真实J2=1、全FZ零按前检保。reader50非J2、无独立B；仅完整cd尾升p2N，附角域须原返回。
-R732全type5 CM13最小(T+1)(T+ω²)(T³+ω)，两线Dω/D_-及primitive三维全保。R734同q/ζ+h140/h147真5×5逆，公开43702293882及CM密度付同ray密度一、全N4。q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147保正规/π4、J2=(a+b)/aunit，整个冻结差=(c/a)Dω+(1/a)D_-；系数K，λ=−barπ0^-1、κ=pλ²、u=κ^N。
-R733/735：P2=(-4,15)∈E289、P4=(42,397)∈E83521映E1为Q2/Q4，Kummer角色ω/ω²；全2/3/17与严格AFE付rank1，ΩI_k=A_kp logQk且A∈Qbar×。AST给真实q/u0组合非零，内P31行v=N+vI∞<2N；外部反号仍保。
-R737：M_a,k=P_a,k+(−1)^kχ29λ²κ^(a+k)M(ℓ−1)，Q_k=∏a≤30(T²−λ6κ^(2a+2k))消whole E/Z共同深层。primitive是G4+λHW+γλHV、两返回均e1；不同观察/移动E门/质量/各端点全保，paired反号。R728原连接/近消/J_P′保持。
-R739点域/AST基础及普通log、常数的分离沿前检保；三原曲线精确域门用R744。
-R740：完整六轴W,V,E,R2,R3,R4 Gram=(72,18936,7627,5,330,638)全17unit，R4系数γ7²=8+5ω；原六sigma/C平均/16quarter是17球，Yang惰性Lemma2.7给绝对特征1。全p门/剪切保W/V三次投影零，但非Y投影零。
-κ=π0/barπ0全局norm1，两个完整yκ仍norm34，Yκ三次投影是原Y投影整共轭；原Y17 gluing未消。两个E/V剪切不同，全部质量与κ级数保，固定p增N不能删κ²尾。只有无门完整伙伴积分才是11维，混门须全S72/pℓ扭。
-实际条件积分的代数系数已由R745付；全p-conductor点身份/域与G4仍开，局部球不自动给R739条件。
+R698/702/713全部来源/三态/补域按前检保。R715全50真逆、R719全149列/58行及R734同5×5逆保同ray密度一/全N4；q*=q+(b/a)ζ+(r1/a)h140+(r2/a)h147，真实J2=(a+b)/aunit、全π4与整个FZ0，不用独立B。冻结差(c/a)D2+(1/a)D4；λ=−barπ0^-1、κ=pλ²=π0/barπ0、u=κ^N，系数K。
+R732全type5 CM13最小(T+1)(T+ω²)(T³+ω)，primitive三维不删。R733 Q2=(-4/t²,15/17)、Q4=(42/t4,397/289)，t³17，Kummer角色ω/ω²且非扭；AST全p代数log独立。
+R735两原Dk完整2/3/17 Schwartz/period、严格AFE/rank1已付，ΩI_k=A_kp logQk，A∈Qbar×。真实q/u0组合非零；固定p大N内P31行v=N+vI∞<2N。**全paired-T外部精确反号，非原中央非零。**
+R737 whole E/Z共同深层由Q_k=∏a≤30(T²−λ6κ^(2a+2k))消去；primitive保G4+λHW+γλHV，两返回均e1，移动E门、条件质量、完整观察和每个外部端点全保。R728真实连接/近消/J_P′及全部log保。
+R740完整六轴W,V,E,R2,R3,R4 Gram=(72,18936,7627,5,330,638)全17unit；六sigma/C平均/16quarter是原17球，Yang惰性Lemma2.7给绝对特征1。W/V三次投影零不代表Y投影零；κ全局norm1，两Yκ仍norm34且保原Y gluing。全κ尾不能因N增删。
+R742固定r=n−N，整式除uλ4N后u→0给真Φ∞；只需门≤r+124（r1≤125）。K(17²)/Heis17Λ固定完整Y模块，旧π≡273+87ωmod289固定κ*；两返回保阶整除17算子，非标量。quarter用ε2mod4N0²/half-base/c0，CRT只换周期代表、全相位保。两负一分量各自完整有限式非零，外部仍逐投影反号；不对scalar中央零施投影。
+R745全有限p门/正交正矩由Fourier与真正BK formal torsion/Mumford译回代数theta；每次Ω与中心相位保。原Y生成列y^t，整轴全34维及真实flat pool。单独清返回分母d=36barπ给index34·36²p、H=dΩI，不能冒裸34。R747正在先将全core逆搬原e0以避免这项额外成本；在正式证明前仍按R745范围。
+R739/R744全p AST相对分离：Q2/Q4不能由E17/E24在17-unram域的点，以及E2312在2、17皆unram域的点log代数抵消。E2312二处门必需，(-8,30√2)确回Q2；必须先有实际点身份，不凭球性给域。
 
-## 惰性与第一wild：完整旧门按前检保持
+## 全finite角色：R746/R748/R749
 
-R707/708原三m全trace零iff原g_h模p的p−2行，αp前缀须α>3/4；第三m136还要p>136和独立j0。R710全carry/normal/Q/正则项，R714/717–725全部AH二位与CM密度恢复按前检逐条件保；恢复原来源不等中央非零，旧WD自映射/预算不免费。
-R716第一wild阶p/导子p²/root+；L/Ω=48940416|S_r|²/p。原边界零iffΦp因子，j34另加边界零才λ≥p+3；μ0无统一λ，固定p深层不代变化p第一层。R724实际全同步含有理9π/(17√3)、非实anti-Fermat及Gauss尾，必须整annulus o(p²)，指定零平移不冒平均。
-R736保原B3/R10404及坏2/3/17；2176→368/plus184/47整数，全Hecke公开43705223442核47→7→1，base0/值0,±1,±2/c_int81/68。A_t=(1/36)Σprimitive Normβp²,ell=t f_int(barβ)，全modp²二位保；A_t∈2Z、ΣA0。仍需完整C_pv无限p非零及j34→边界桥。
-[normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正、Gaussian真base A0∈4Z，下一位保全paired f；公开43705781851固定2048类仅0/2。同R全αj仅Qi/K，身份/δ等2D可被其余同步补偿。所有producer/ci参数/hash沿前检保、无输出入库。
+R746两原Dk对全部合法finiteχ精确
+Katz(barψkρ)=34c_kθ11Ω χ(34)^−1 I_kχ²；χ|μ6≠1则I=0。完整tame/weight-disc延拓保，ρ=χ∘(ψhat/barψhat)只p分歧，p/ barp conductor p^n，Hχ在2/3/17 unram；不取错torsion稠密极限。
+**R748已付全部这些χ的线性点身份(H)**：ΩI_kχ=A_kχ logE1(φkP_kχ)，A²=εχ(34)θ^(−k−12)/(34c_k)∈Qbar×，P∈Ek(Hχ)_Q⊗KQbar，point-factor角色ρ。zero取零pointtensor。good pair的ψ p-unram而ξ可p-ram；LZZ真实有限CM点、BDP精确归一/全部local Q保，非匿名Λunit。两period的dual型N/ψ*及负locus共轭reciprocity各付后同ν；仅在Katz非零时由GZ/Kolyvagin推rank1再乘积化平方。辅助域按实际twist/isogeny消，未预设rank/Sha。
+R749全E1点tensor→Cp log为Qbar单射；已具完整点表示的关系可唯一回点空间，按point-only Gal投影、固定全部系数。不同(k,ρ)的非零I_kχ现由R748(H)全部独立；一变量Φ门平凡部准确hatΦ(1)ΩI_k1，平均非零即值非零。
+自然semilinear trace不同：Q2⊗t²非零且自然不变，但point-only平均0。K-defined门不自动消非平凡点特征；全六变量/partner/flat pool尚未证明只在这两来源内。原各O_i^T完整log不是有限p门，只有已付u一阶极限回负一行；不能由新谱给中央附加零。
 
-## 深支：完整WD、指定镜轴与同一个R
+## 深支：同一个R及完整WD
 
-M=c*U0m13J/P134/charge40、13free/26carry/conductor10980、十九角、同Pfact/ξ0与p²/p³全保。清极一般+3，+2须原两∞矩/顶帽，不加R奇偶或中央零。
-R722/726完整00/三charge/十九角/normal/截顶回旧D，R727同商(0,16cz_c)及cube p/同R保；退出子块不排全WD。R730原h≤4aF+8b+3Δ、Δ>0迫UA|Z非零，FH2全商由真实Kmir读取，J/M长度s−r/s−r−13不可换。
-R731指定B modF²唯一、ρ≤2κ−h；低门k+ρ<r有两p。全第三块保Mη镜尾与漏13，ord镜尾<2h或H_B modt^(ell−k)非常数仍两p；未决高ρ/真2h延拓/H_B常数，ell−k1末测试空。全WD低列/低右逆高尾/同R联立。
-R738实际平衡家族全吸收产生更多真前缀核，不能把非cube强制成cube。零角d0≤floor((4r+2)/3)，容量2v(v+d0−1)−min(v,r−k)，r=ell1最多3c。
-[前缀界限](notes/2026-11-15-original-prefix-iteration-critical-limit.md)：真核h+vd0≤2κ，终止v*=floor((2κ−h)/d0)+1容量≥2(2κ−h)+1；现有计数只越h>3κ/2而非9κ/8。所有准确来源/成本沿前检保。
+M=c*U0m13J、P134/charge40、13free/26carry/conductor10980、十九角、ξ0与全p²/p³保。清极一般+3，+2须原两∞矩/顶帽，不加未知R奇偶或额外中央零。
+R495完整H3在同WD且联合值/normal短jet满射；R722/726/727所有unit/三charge/截顶和同商(0,16cz_c)只在其实际块，不以子块排全来源。R730 h≤4aF+8b+3Δ迫原UA|Z非零；FH2商由真实Kmir读取；J/M分别T=s−r/s−r−13。
+R731指定镜轴B modF²唯一、ρ=ordB1=ordB0−h≤2κ−h；高ρ增补保Mη镜尾和漏13，真2h延拓/H_B常数仍未关，ell−k1末测试空。R741前两块Vη首位H=h+k+ρ单位且M行13+H<s，实际ξ/整提升/carry全保；全WD修正需R|C=−Vηβ全jet，不能F整除或保持F·B整因子，后者需t^(k−r)真极。
+R741完整FH2子格Smith准确1^(2κ+χ−aη),p^(aη+1)，无p²；非F列加入会改余核。Vη不杀全首像/垂直块；PB+pA须同步R−A。指定首jet可被R495全WD吸收，仍须整段值/normal及全第三块同一个R。
+R738平衡家族吸收产生真高前缀核，不能把新非cube强制成cube。零角d0≤floor((4r+2)/3)、容量2v(v+d0−1)−min(v,r−k)。[终止界限](notes/2026-11-15-original-prefix-iteration-critical-limit.md)真核h+vd0≤2κ，现有计数只越h>3κ/2而非9κ/8。
+R743原六固定纤维S-unit顶系数/tame分支给h≤6g_norm+2a+14b−6；d<p的小残余线系保奇点和复合次数ν，用primitive t+cY及Castelnuovo–Severi给有限核界。临界aη≤13κ/32、bη≤17κ/48、全H3单位秩≥359κ/96+oκ。剩余缺陷≤73κ/96，缺全部D/k有序饱和运输，**未改变原全局(aI,bI)=(0,3)**，不冒aI+2bI<3。
 
-R741非cube指定PB的原两块Vη在H=h+k+ρ准确单位，M行13+H<s；全部实际ξ/整提升/carry保。全WD首次R必须R|C=−Vηβ modt^min(2h,s−δ0)，不能F整除；保持F·B整因子变形需A|C有t^(k−r)真极。Vη不杀完整首像/垂直块，PB+pA须同步R−A，真实限制商/全段同R/p³仍开。完整FH2子格首核F Kmir，准确Smith 1^(2κ+χ−aη),p^(aη+1)、无p²；非F列加入会改余核。
+## 惰性、第一wild与仍开桥
 
-R744：三原曲线span已分离；E17/E24点域17不分歧，E2312须2和17皆不分歧。M=K(17^(1/6))的σ在各E1像为−ω²/1/ω，Q2/Q4为ω/ω²；先投cubic再√2惯性2，AST付全p代数系数log分离。E2312二处门必需：(-8,30√2)经原φ确回Q2；不冒完整条件积分已有所需点身份。
-
-R746：R735两原线的全部finite χ已付精确Katz平方=34c_kθ11Ω χ(34)^−1 I_kχ²。χ|μ6非1则原I严格0；全合法tame分支先整数权极限再整weight-disc恒等，含任意p-ram/零值。ρ=χ∘(ψhat/barψhat)两p导子p^n、2/3/17不分歧，Hχ只p-ram。完整gate不一定只有两线；原Katz→同period ramified点身份尚缺，不用任意Iwasawa单位。
-
-R745：原全部有限p门先六变量Fourier，再用BK真正formal torsion/Mumford译（保中心）；quarter偶阶用half-base和ε≡2mod4N0，不能ε0mod2又1mod4。Y生成列是y^t非bar y^t；正交外张量使全partner有限jets回代数theta，原各次数Ω逐项消，G4=Ω×真实负一单位矩。Yκ有理轴用d=36barπ清分母，index真34·36²p、积分dΩI，保完整level/flat twist/质量。并非全gate只有D2/D4，也不预付点域或中央非零。
-
-
-R742：固定r=n−N，整式除uλ4N后u→0给Φ∞真有限正矩，门深≤r+124（r1≤125）。K(17²)与Heis17Λ固定完整Y模块；旧π≡273+87ωmod289固定κ*，两Yκ投影保阶整除17算子而非标量。quarter用ε2mod4N0²/half-base/c0，CRT只换周期代表、全相位保，p门与17投影真正相容。两原负一分量各自有完整G4+λHW+γλHV非零有限式；全paired外部仍相反，不从scalar中央零施投影。返回2处P作用可能恢复原e0，不能仅凭raw quarter断言√2点域。
-
-
-R743：原最高Y系数只在六固定纤维有零的实际门下，tame正规分支与ODE给h≤6g_norm+2a+14b−6，奇点不冒光滑。残余线丛度d<p，primitive t+cY、完整复合次数ν及Castelnuovo–Severi给有限核界C(G,d,a+b)。满主阶h/κ→9/8、T/κ→9/4且a+b,χ=oκ时aη≤13κ/32+oκ、bη≤17κ/48+oκ，同原H3单位秩≥359κ/96+oκ；只增实际秩，不判指定forcing退出。J/M各自T与全同R/carry/p³保持。
-
-
-R749：全E1代数点tensor→Cp椭圆log为Qbar单射，故已具完整点表示的恒等式可唯一回点空间，再只作用point作Gal幂等元、系数固定；不对任意Cp数施投影。L=K(t),t³17与只p分歧H不交，联合17/p角色分离。新finiteχ线性身份(H)须另付；付后所有非零I_kχ按(k,ρ)独立，一变量门平凡投影精确hatΦ(1)ΩI_k1。自然semilinear trace不同：Q2⊗t²非零且自然不变，但point-only平均0；K-defined门不自动消非平凡点角色。全多变量谱封闭/中央身份仍开。
+R707/708原三m全trace零iff原g_h模p前缀（全p−2或αp,α>3/4）；m136另需p>136及独立j0。R710全carry/normal/Q/正则项；R714/717–725全部AH二位与CM密度恢复均按前检保。一般j0只迫首余数p整除，不迫完整前缀；恢复原来源不等中央非零。
+R716第一wild阶p/导子p²/root+，L/Ω=48940416|S_r|²/p；边界零iffΦp因子，j34另加边界零才λ≥p+3，μ0无统一λ。R724完整同步含有理9π/(17√3)、非实anti-Fermat及高斯尾；需整annulus o(p²)，指定平移0不冒Haar平均。
+R736原B3/R10404坏2/3/17、2176→368/plus184/47整坐标；公开43705223442核47→7→1，base0/值0,±1,±2/c_int81/68。全A_t由primitive Normβp²、ell_p=t读取，全modp²二位保；A_t∈2Z、ΣA0。
+[normalizer](notes/2026-11-15-original-normalizers-and-gaussian-parity-boundary.md)：whole j正、Gaussian真base A0∈4Z，下一位保全paired f；公开43705781851固定2048类仅0/2。同R全αj仅Qi/K；C_pv无限p非零及原中央→边界仍均开。全部脚本/参数/run/hash沿前检保，不存输出。
