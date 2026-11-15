@@ -8,7 +8,7 @@
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
-真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`e9d3419a6fe42fa2a0647ad05155dc4e9ee92566`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
+真实几何/积分/ODE/优化/完整符号研究仅本公开GitHub Actions；本地只纸面证明、源码/已发输出解析和小人工开发。PAT仅瞬时CLI/env，不文件/提交/日志/API。根12禁止机械冻结/复核/重复已付研究；新证明直接登记，不为历史保守标签重跑。H<10KB，MD<100KB，open尽量<30KB；新根15已于137c5a只读差异即应用：可由源码/参数重算的数据/证书/Actions输出不存仓库或Release，只交源码/参数/run/SHA；目录≤200MB、禁分块。本题已查1541件/54107494B，无>5MB/分块。partial/sparse clones为`/dev/shm/visible-recovered-9974ea84/{public,private}`。08:55终端环境不可用，根8小文本接口例外恢复；接口核公开`d040b4588ff35cc10851c7959ac76b19f2539308`双README原blob、私有`8a1cb7c2332e2a208a7d9326cb344ae1d716b014`根无差/QUEUE进行中。接口核查不冒真实pull，恢复立即补pull。
 
 ## 2. 完成门
 
@@ -28,11 +28,13 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 4. 完整字符与真实全pure控制
 
-**R210完成实际S=P与闭锥Cp=P。** 已核pure权0/−2/−6/−4像维3/9/3/9全等响应、最低−9/−8零；真实桥/正2V基准/有限整数与商截面支付实际控制，非span冒负路径。全部奇权未求，Q=P/πR保未知，未证πR=P。最后actual43688302217/source1b032593的全部原列/响应/关系已读，不重跑。full正λ+=L+∫(logh)'²不灭pure核，不能下降pure或否定pure零。R208/209只给pure的jet2代表，保history/右锚，不授完整mixed。
+**R208–210完整pure已结**：S=P、Cp=P，真实桥/正2V基准/有限整数和商截面支付实际控制。已核权0/−2/−6/−4像维3/9/3/9等响应，最低−9/−8零；奇权未全求、Q=P/πR未知，不宣πR=P。最后actual43688302217/source1b032593已读不重跑。λ+=L+∫(logh)'²不灭pure核，不能下降pure；R208/209只授pure二jet代表，非完整mixed。
 
 ## 5. 真实pure零/Morse闭hook与未付第四joint
 
-**R223/R227已给保有限目标的真实Morse闭hook**：M0/TκH、frame/新Klein位移闭合、pure0/F8=0、全h Morse。R227可把所有已选非零ke端口安装为h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/he exp(−εσ²)，端速度0/原U/完整T不变。先把R70指定末frame作三外参IFT，后八M+真omega九IFT，最后全E IFT/受约束Morse；内部omega保前方积分，不逐口重置。该C0例外的W=span{h,σ²,(1+4ε²ke²σ⁴)/h}，新最高二阶算子hkG_b；R229已付其G候选quartic的完整边界身份：−(l+b)³C_b(q)²/64，三复矩使C_b=0；q紧支撑一般不足删G左尾。整个b多项式延拓不冒q/z过零积分。完整其他相位/次层仍欠，不宣ruling已解。设计改变一般改g。
+**R223/R227真实Morse闭hook与例外端口已付**：M0/TκH、frame/Klein位移闭合、pure0/F8=0、全h Morse。R227在非零ke端口装h=he exp(εσ²)、k=ke(1−2εσ²)、ω=b+ke/h；先三维末frame IFT，再八M+真omega九IFT、全E IFT。内部omega保真实积分，原U/完整T保留；设计一般改g。
+
+**R229/R231例外主层已付**：G候选quartic准确等于−(l+b)³C_b(q)²/64，三复矩使0；一般G左尾不可删，全b仅原多项式延拓。R231在x+b>0、x+b+ke/he>0下保所有局部/chain/真history，β=∫hk~−keσh，完整K/(hβ²)→sin²θ Lc+sin2θ Ls。Lc=E_b(Gff,Ggg−Gff)、Ls=E_b(Gff,Gfg)；两紧差/交叉槽付循环身份，Gff本身非紧。任一非零严格排该固定圆所有gauge，双零只付主层。下一b0原八包两新能量consumer，λ共同伸缩仅乘正λ；不重旧c系数，不预填符号。
 
 **第四仍须同一w解R184联合range**：V0+2κL_fw=0，K0+Bθw∈三矩W；w²由第三单φ右逆支付。R213给真正两个源：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0/右因果仅使f整右带0时源0，内部f平台仍须Vd″/Ve″0。左二次尾=½∫kKd/Ke，M0让k杀W且全部合法gauge不改；具体基准值不能由pure0猜。R211局部Green只覆盖紧支撑/有限简单退化类；完整平端/高阶零仍须R225新值域判据，不能用局部门替代。
 
