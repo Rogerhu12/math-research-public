@@ -161,3 +161,7 @@ run43691986785/source8e52679dcf3b934c2c488915c4b9622be6e6bf3c/compute13274438734
 ## 2026-11-15 08:08:59 UTC /root — 118实际公开批次启动
 
 run43693006085/sourcebb1d75675dc639f3f1ab74749798a5c11b2ac3a5/job132747387808，08:07:11UTC创建。实际API确认已完成源/输入接线并进入原8批science，未先报数值。只用本仓Actions；root继续119六控制真实批次和非零112源。
+
+## 2026-11-15 08:12:43 UTC /root — 发布119真实六参数的独立原八方向批次
+
+[完整接口](notes/2026-11-15-actual117-to-six-control-batches119-interface.md)15186B/2d38b705、wrapper31337B/b9db240d/recipe1898B/e930b7c9/request39308B/7a99ec41/workflow14719B/66ba3f93已全文与原合同核过。原81+2 pins不变仅新wrapper，真实117六参数/来源逐字核，原24-source child/status+summary读全后生成ownrecipe，独立8批各radius=.1、所有原预算和final保留。工程90KB失败诚实停链；已读batch删raw、未读现场仅runner临时，不上传。H压缩117重复值至正式note，保全部执行责任；无本地科学。

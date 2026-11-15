@@ -1,0 +1,208 @@
+name: visible-larger temporary independent six-control batches
+'on':
+  push:
+    branches:
+    - main
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-six-control-batch-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-six-control-batches
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Actual117 six parameters through separate original eight-direction batches
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      chain_summary: ${{ steps.scalar.outputs.chain_summary }}
+      chain_summary_bytes: ${{ steps.scalar.outputs.chain_summary_bytes }}
+      chain_summary_sha256: ${{ steps.scalar.outputs.chain_summary_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
+          /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
+    - name: Establish independent temporary metadata paths
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-six-control-batches119"
+        echo "VISIBLE_OUT=$RUNNER_TEMP/visible-six-control-batches119" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - name: Install unchanged original operator runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind actual117 recipe and all82 plus2 unchanged source identities
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
+        raw=(comp/'public-six-control-batch-request.json').read_bytes();request=json.loads(raw)
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==119
+        assert request['schema']=='public-six-control-temporary-batch-request-v1'
+        assert request['lanes']==['smallcoreresonance']
+        entry='geometry_20261115_small_core_six_control_curved_recipe.py'
+        wrapper='geometry_20261115_six_control_temporary_batches.py'
+        assert request['execution_entry']==wrapper and request['scientific_entry']==entry
+        assert request['source_sha256'][entry]=='e154afe28c588ce0c2ae936d4304b67ec84e2b46c96b03e48ce4113e2401a761'
+        assert request['source_sha256']['geometry_20261115_small_core_six_control_family.py']=='79464f9c6af8863d3c65254701a858f067881b22ca80dba24bacf2bfea484acf'
+        assert request['workflow_support_source_sha256']['root_20261115_small_core_six_control_curved_scalar_readout.py']=='3e2c0515ee9759162e3736915674c86ca9a56441f2a7561df9dc09d37fea4d45'
+        expected={'parameters':[0.42123313016645575,0.2168136988206389,0.5629172159488391,-0.1326982215718915,0.00881492232668194,0.08635618490039039],'backtracks':20,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1,'initial_relative_radius':.1,'candidate_steps':8,'normal_iterations':12,'normal_backtracks':20,'normal_target_tolerance':1e-8}
+        assert request['diagnostic']==expected
+        assert request['batch_chain']==dict(max_batches=8,chain_budget_seconds=3600,budget_checked_only_between_complete_batches=True,reset_initial_relative_radius_each_batch=.1,carry_final_relative_trust_radius=False,one_continuous_sixty_four_direction_solve=False)
+        for path,blob in request['reviewed_README_blobs'].items():
+         assert subprocess.check_output(['git','hash-object',path],text=True).strip()==blob,'README changed: read and apply new rules'
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(line.startswith('规则同步记录：'.encode()) for line in handoff.splitlines())==1
+        for group,count in [('source_sha256',82),('workflow_support_source_sha256',2)]:
+         assert len(request[group])==count
+         for name,digest in request[group].items():
+          assert PurePosixPath(name).name==name
+          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
+          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
+        closure=request['source_closure']['current_producer']
+        assert len(closure)==24 and request['source_closure']['origin_producer']==closure
+        assert all(request['source_sha256'][name]==digest for name,digest in closure.items())
+        item=request['parameter_recipe'];recipe_raw=(repo/item['file']).read_bytes()
+        assert len(recipe_raw)==item['bytes'] and hashlib.sha256(recipe_raw).hexdigest()==item['sha256']
+        recipe=json.loads(recipe_raw)
+        assert set(recipe)=={'schema','origin','literal_parameters','input_sha256','family'}
+        assert recipe['schema']=='R259-explicit-six-control-odd-shape-recipe-v1'
+        assert recipe['literal_parameters']==expected['parameters'] and recipe['origin']==item['origin'] and recipe['family']==item['family']
+        assert recipe['origin']['producer_file']==entry and recipe['origin']['producer_sha256']==request['source_sha256'][entry]
+        assert recipe['origin']['producer_schema']=='R259-six-control-full-three-two-normal-curved-trust-recipe-v1'
+        assert recipe['origin']['run_id']=='43691986785' and recipe['origin']['source_commit']=='8e52679dcf3b934c2c488915c4b9622be6e6bf3c'
+        assert recipe['origin']['status_bytes']==1210862 and recipe['origin']['status_sha256']=='d6d16e0da855325b97fc130a052743a8a9b51154382aecb29313e7be40011cef'
+        assert recipe['origin']['log_summary_bytes']==88323 and recipe['origin']['log_summary_sha256']=='14b3c8afe2a4fb03537a6d16dd4c55d44a37d750750ee25aef3bf157a026ac6b'
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        assert request['trust_radius_restart']['actual117_last_recorded_radius']==.0125
+        assert request['trust_radius_restart']['every_child_initial_radius']==.1
+        assert request['trust_radius_restart']['continuation_of_stored_trust_state'] is False
+        history=request['original_input_history_commit'];fetched=False
+        def original(item):
+         global fetched
+         rel=PurePosixPath(item['file'])
+         assert not rel.is_absolute() and '..' not in rel.parts and str(rel).startswith('topics/visible-flex-larger-amplitude/')
+         p=repo/str(rel)
+         if not p.is_file():
+          if not fetched:
+           subprocess.run(['git','fetch','--filter=blob:none','--no-tags','origin',history],check=True);fetched=True
+          b=subprocess.check_output(['git','show',history+':'+str(rel)])
+          p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b)
+         b=p.read_bytes();assert len(b)==item['bytes'] and hashlib.sha256(b).hexdigest()==item['sha256'],str(rel)
+        for item in request['inputs'].values():original(item)
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip();assert head==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request119-source-input-identity',source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),source_count=82,workflow_support_source_count=2,origin_child_source_count=24,current_child_source_count=24,parameter_recipe_sha256=request['parameter_recipe']['sha256'],old_publisher_executed=False,raw_output_retention=False)),flush=True)
+        PYPINS
+    - name: Restore original78 public numerical source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        source=prepare_public_source(Path.cwd(),Path(os.environ['RUNNER_TEMP'])/'six-control-batches119-original-source',Path(os.environ['VISIBLE_OUT']))
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Independent original eight-direction batches under original periodic rules runner
+      id: science
+      timeout-minutes: 75
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve();repo=Path(os.environ['GITHUB_WORKSPACE']);out=Path(os.environ['VISIBLE_OUT'])
+        request_path=comp/'public-six-control-batch-request.json';request_raw=request_path.read_bytes();request=json.loads(request_raw)
+        if Path(runner.__file__).resolve()!=comp/'root_20261114_current576_rules_runner.py':
+         raise ValueError('Use the pinned original metadata runner')
+        wanted_source=request['workflow_support_source_sha256']['root_20261114_current576_rules_runner.py']
+        if hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()!=wanted_source:
+         raise ValueError('Original rules runner source changed')
+        wanted=request['reviewed_README_blobs']
+        if set(wanted)!={'README.md','topics/visible-flex-larger-amplitude/README.md'}:
+         raise ValueError('Both explicitly reviewed README identities are required')
+        baselines={}
+        for name,expected in wanted.items():
+         raw=(repo/name).read_bytes();blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+         if blob!=expected:raise ValueError('Reviewed README bytes changed: '+name)
+         baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+        old={name:item['blob'] for name,item in runner.BASELINES.items()};runner.BASELINES=baselines
+        print(json.dumps(dict(event='request119_explicit_rules_baseline_update',unchanged_runner_sha256=wanted_source,old_embedded_blobs=old,reviewed_current_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_diff_and_stop_on_new_rules_retained=True)),flush=True)
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),'--request',str(request_path),'--request-sha256',hashlib.sha256(request_raw).hexdigest(),'--repository-directory',str(repo),'--rules-directory',str(out/'rule-sync'),'--out',str(out/request['output_directory'])]
+        print(json.dumps(dict(event='request119_six_control_batch_wrapper_argv',argv=argv,max_separate_children=8,each_original_direction_budget=8,each_original_outer_backtracks=20,each_original_normal_iterations=12,each_original_normal_backtracks=20,every_child_initial_radius=.1,parent_final_radius=.0125,parent_radius_not_carried=True,between_batch_budget_seconds=3600,child_budget_not_truncated=True,original_final_checks_every_child=True,scientific_source_sha256=request['source_sha256'][request['scientific_entry']])),flush=True)
+        sys.argv=[runner.__file__,'--out',str(out/'rule-sync'),'--command',*argv]
+        raise SystemExit(runner.main())
+        PYRUN
+    - name: Read compact chain metadata and final actual rule-sync receipts
+      id: scalar
+      if: always()
+      run: |
+        python "$VISIBLE_COMPUTATIONS/geometry_20261115_six_control_temporary_batches.py" \
+          --report-only --out "$VISIBLE_OUT/six-control-temporary-batches" \
+          --rules-directory "$VISIBLE_OUT/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}"
+  report:
+    name: Compact chain metadata; original batch summaries remain separate in compute log
+    needs:
+    - compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions: {}
+    steps:
+    - name: Print bounded chain metadata and its exact SHA
+      env:
+        CHAIN_SUMMARY: ${{ needs.compute.outputs.chain_summary }}
+        CHAIN_SUMMARY_BYTES: ${{ needs.compute.outputs.chain_summary_bytes }}
+        CHAIN_SUMMARY_SHA256: ${{ needs.compute.outputs.chain_summary_sha256 }}
+        COMPUTE_RESULT: ${{ needs.compute.result }}
+      run: |
+        python3 - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('CHAIN_SUMMARY','')
+        if not text:
+         payload=dict(schema='request119-compute-output-unavailable-v1',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],scientific_completion_not_claimed=True)
+         raw=json.dumps(payload,sort_keys=True,separators=(',',':')).encode()
+        else:
+         raw=text.encode('utf-8')
+         if len(raw)>90000:raise ValueError('Compact chain metadata exceeded its declared bound')
+         if len(raw)!=int(os.environ['CHAIN_SUMMARY_BYTES']) or hashlib.sha256(raw).hexdigest()!=os.environ['CHAIN_SUMMARY_SHA256']:
+          raise ValueError('The compute-to-report chain metadata identity changed')
+         json.loads(raw)
+        print('BEGIN_VISIBLE119_CHAIN_METADATA')
+        print(raw.decode('utf-8'))
+        print('END_VISIBLE119_CHAIN_METADATA')
+        print(json.dumps(dict(event='visible119-chain-summary-sha256',bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),hash_scope='UTF-8 JSON string excluding log separator LF',compute_job_result=os.environ.get('COMPUTE_RESULT'),run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],original_batch_summaries_printed_separately_in_compute_job=True)),flush=True)
+        PYREPORT
