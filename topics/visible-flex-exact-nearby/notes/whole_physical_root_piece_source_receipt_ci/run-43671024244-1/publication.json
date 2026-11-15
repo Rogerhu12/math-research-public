@@ -1,0 +1,121 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43671024244",
+  "reviewed_pull_history": [
+    {
+      "time": "2026-11-15T03:09:31.344244+00:00",
+      "before": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "after": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:09:33.130466+00:00",
+      "before": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "after": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/cases/radius-1-100-receipt.json",
+      "bytes": 42640,
+      "sha256": "0a4dbdea60a432dc36d1e7ef591f0be213edecef0912f7d6a042957bd8ed9c6f",
+      "original_sha256": "0a4dbdea60a432dc36d1e7ef591f0be213edecef0912f7d6a042957bd8ed9c6f"
+    },
+    {
+      "file": "consumers/cases/radius-1-1000-receipt.json",
+      "bytes": 43157,
+      "sha256": "ed0b9d2147efbbe9661fe04808d85fab2bd15022b5a9cff1e23f347e67bda34f",
+      "original_sha256": "ed0b9d2147efbbe9661fe04808d85fab2bd15022b5a9cff1e23f347e67bda34f"
+    },
+    {
+      "file": "consumers/cases/radius-1-200-receipt.json",
+      "bytes": 43160,
+      "sha256": "82f0e2d5a4448d2bc59e3729e17b78a374354649dc5512bee7f72447dc4ac3a9",
+      "original_sha256": "82f0e2d5a4448d2bc59e3729e17b78a374354649dc5512bee7f72447dc4ac3a9"
+    },
+    {
+      "file": "consumers/cases/radius-1-50-receipt.json",
+      "bytes": 42650,
+      "sha256": "c4d5d37d7890147956d78f951d6b7fb93ea22047428c787eca9676b3fa9888fc",
+      "original_sha256": "c4d5d37d7890147956d78f951d6b7fb93ea22047428c787eca9676b3fa9888fc"
+    },
+    {
+      "file": "consumers/cases/radius-1-500-receipt.json",
+      "bytes": 43155,
+      "sha256": "99012c87d707cdbe63195108a384dc040677f3c5d4739f8fd00d1d1146c38598",
+      "original_sha256": "99012c87d707cdbe63195108a384dc040677f3c5d4739f8fd00d1d1146c38598"
+    },
+    {
+      "file": "consumers/cases/radius-3-200-receipt.json",
+      "bytes": 42652,
+      "sha256": "d695ba94ae90887acd46b9f4506c816b27e33daff083cfc630d79d084f7f26c5",
+      "original_sha256": "d695ba94ae90887acd46b9f4506c816b27e33daff083cfc630d79d084f7f26c5"
+    },
+    {
+      "file": "consumers/complete-existing-source-diagnostics.json.gz",
+      "bytes": 64679,
+      "sha256": "ac76b69f26ed138eaa2826df333179b86d7c687ef1509b4f775d569a69c2df8e",
+      "original_sha256": "ac76b69f26ed138eaa2826df333179b86d7c687ef1509b4f775d569a69c2df8e"
+    },
+    {
+      "file": "consumers/complete-original-natural-stage-inventory.json.gz",
+      "bytes": 6744,
+      "sha256": "fa7ad5a9b7f50cf71816dce125c83e7c33cc03fc4be5b261b47f859a9e82a72d",
+      "original_sha256": "fa7ad5a9b7f50cf71816dce125c83e7c33cc03fc4be5b261b47f859a9e82a72d"
+    },
+    {
+      "file": "consumers/complete-whole-physical-root-piece-source-summary.json",
+      "bytes": 53301,
+      "sha256": "832a57db3c3abe5b58132ba0bf04f5505223715f0142abf4a8fff4b2a45a18b0",
+      "original_sha256": "832a57db3c3abe5b58132ba0bf04f5505223715f0142abf4a8fff4b2a45a18b0"
+    },
+    {
+      "file": "consumers/evidence/original_native.json.gz",
+      "bytes": 44628,
+      "sha256": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d",
+      "original_sha256": "6668c9b2c8f1632e3bd8af392a803335f076c64e1d7fb74dfc9e1605f0e1ee2d"
+    },
+    {
+      "file": "consumers/evidence/original_process.json",
+      "bytes": 8346,
+      "sha256": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+      "original_sha256": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145"
+    },
+    {
+      "file": "consumers/evidence/original_publication.json",
+      "bytes": 11945,
+      "sha256": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+      "original_sha256": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099"
+    },
+    {
+      "file": "consumers/evidence/original_worker.json",
+      "bytes": 4080,
+      "sha256": "32c4b0005653da73765d647cc57049e880b6f6fd6f540691bb2b1a89a5ce9f9d",
+      "original_sha256": "32c4b0005653da73765d647cc57049e880b6f6fd6f540691bb2b1a89a5ce9f9d"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 47691,
+      "sha256": "201e57afd0f916ef49e2c792d27d661b3a18ee230e14c75c27df26be4f7b50bb",
+      "original_sha256": "201e57afd0f916ef49e2c792d27d661b3a18ee230e14c75c27df26be4f7b50bb"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 256,
+      "sha256": "26e22acf95418082ee411a3faa7bb7bf1dc897bce5822a53de6ca9b78eef258e",
+      "original_sha256": "26e22acf95418082ee411a3faa7bb7bf1dc897bce5822a53de6ca9b78eef258e"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2859,
+      "sha256": "4cb85e6f67d81fd0b6b492a6d5da3f6173fa2798dc3feb1e14218206bdce75ce",
+      "original_sha256": "4cb85e6f67d81fd0b6b492a6d5da3f6173fa2798dc3feb1e14218206bdce75ce"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

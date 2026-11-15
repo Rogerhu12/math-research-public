@@ -1,0 +1,62 @@
+{
+  "kind": "actual_public_whole_physical_root_piece_source_receipt_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43671024244",
+  "run_attempt": "1",
+  "workflow_commit": "a3aa4a3077afd76e3afc540bfb16f87087960d83",
+  "worker_sha256": "760da59a14dcfaa06a7150043d1722cdc1a56277ed0933607f2138d67c4223b5",
+  "manifest_sha256": "0a7e70dc93752f0eced2802f047358e8cd47c124dd56b9d7fdf03f21864ae3f5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-15T03:09:30.905937+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-15T03:09:31.344244+00:00",
+      "before": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "after": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:09:33.130466+00:00",
+      "before": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "after": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "mathematical_subprocesses_started": 0,
+  "new_interval_targets_FFT_Taylor_norms_or_source_integrals": 0,
+  "original_complete_scientific_run": "43669106351",
+  "original_scientific_manifest_unchanged": true,
+  "original_native_and_all_completed_natural_files_preserved": true,
+  "original_artifact_receipts": [
+    {
+      "name": "original_complete_case_5",
+      "run_id": "43669106351",
+      "path": "original/consumers/cases/radius-1-50.json.gz",
+      "sha256": "602789829d5afc1d6a61ec7edfa3af4862b933ade6e769a6bbbb6eca4a89aa83",
+      "bytes": 5596452
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-whole-physical-root-piece-source-receipt-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_source_receipt.py",
+    "--repo",
+    "/__w/_temp/visible-exact-whole-physical-root-piece-source-receipt-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-whole-physical-root-piece-source-receipt-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-whole-physical-root-piece-source-receipt-inputs.json",
+    "--manifest-sha",
+    "0a7e70dc93752f0eced2802f047358e8cd47c124dd56b9d7fdf03f21864ae3f5",
+    "--out-dir",
+    "/__w/_temp/visible-exact-whole-physical-root-piece-source-receipt-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-whole-physical-root-piece-source-receipt-science/originals"
+  ],
+  "complete_original_inputs_verified": 40,
+  "actual_scientific_checkout_commit": "bb4fc5c89396e95ef9136a7fbb4851a101a7f920",
+  "receipt_wall_seconds": 1.4165705770000017
+}
