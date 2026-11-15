@@ -38,6 +38,12 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本、ruling 与有限连续族
 
+### R198最右端不可校正的纯period门
+
+[R198](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)已证明：当f在整个右锚区间[b,r]为0时，任何全I合法二阶w的L_f(w)严格0，第三齐次也不改period；该区间原Vθ准确等于sin⁴θ P_B(g)。这不需要把w缩到单包或施六条仅充分的矩约束。R183的b可取153λ，唯一右端输入为−[1−S(x/λ−154)]，右方155λ后0。只省略ξ右方看不到的左包，整条真实B的s累计保留。
+
+立即判同一B的这个单有理step P_B是否非零，不重新生成八包/左补矩或旧forcing。若尚无具体B，必须输出符号原根条件而非假典型数值。严格内点非零可经足够高阶、保支撑/补矩的C∞连续性保留；C7原型为零不能直接转平滑。新的19根pure U0目标只决定λ+能否经过pure映射，非成员对偶仍须杀其他权才能当整个U的固定profile读出。
+
 ### 新入口：固定圆不可见的第三算子与二阶齐次校正
 
 [R180](results/R180-fixed-circle-invisible-third-hook-and-signed-fourth-period-gauge.md)已给真实闭合低阶例：Klein八边保M0、T=κH≠0，H在所选R46圆的低阶通道不可见，完整二/三阶range仍成立。对f/g支撑邻域准确仿射w，交叉三矩逐项0；补真实三阶后，第四周期准确变为V−6κC a(θ)(f″)²，C可正负，a为周期函数且0/π零。sin²选择不动pure−4，保同几何/目标/圆，没有未知C²周期成本。

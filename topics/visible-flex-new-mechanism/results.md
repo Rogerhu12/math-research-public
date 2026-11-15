@@ -137,3 +137,5 @@
 - [R196：完整权零头部、唯一正射线与严格canonical成本](results/R196-complete-weight-zero-character-head-positive-ray-and-strict-canonical-cost.md) — actual43681388902/source7872857e十新人工过，11新收缩与16缺失R0原根恢复给38列/318忠实行/rank19/19全核，U0=19/R0=16/商3/平移像1/H0=2。全部22坐标自由(x,y)，同μ含α；a=c=y、b0=−y/3的真实快路径迫y0，完整正性iff x≤0且0≤α≤−x。λ+=(−1,0)对M0闭成本准确λ+V=∫k²=L+∫(h_s/h)²>0，真canonical成本锥为真子锥。固定圆需另付代入核因子化，独立二阶w须另付泛函范围；不扫剩权、不冒全课题不可能。
 
 - [增长恢复实际：两次增长、六次接纳与细网条带阻断](notes/trust-growth-recovered-actual-20261115.md)：43681388902同g真实η降至.26653464896453305，新.26未达；11次细网拒绝已有strip充分原因，下一只改提案余量。
+
+- [R198：最右单profile完整period对全部二阶gauge不变](results/R198-rightmost-single-profile-period-obstruction-under-all-second-gauges.md)：f全部右支撑之外L_f任意w严格0，固定目标准确退sin⁴θ P_B(g)；R183只需一有理下降step，保真实s历史，尚待零/非零判定。
