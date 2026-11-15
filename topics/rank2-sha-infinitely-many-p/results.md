@@ -459,3 +459,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R775**：[原仿射三格的完整惰性p-曲率及实际首共振](results/R775-original-affine-inert-p-curvature-and-native-first-resonance.md)。显式A^p−A=2(Q^p−Hp)EΘ+Rp∂Q，单位常数准确匹配原Gaussian；p>204D原有限来源算子核仅常数，完整像支付t/Q帽的3s/p增长。每个原非恒定单项式首w^(K+s)分母单位；未把它替同一有序饱和旗标或原中央桥。
 
 - **R768 实际 r2 重做**：[三次有限纤维、固定最高主部与完整两输出](notes/2026-11-15-r768-actual-r2-cubic-fiber-and-full-two-output-source.md)。r2/ell1/k0、b0=m3、degQ0≤1/p≡11mod12未被首层帽排除；原qt²框和低二阶右逆给真二维最高层及Q2全部高尾。同S两输出、唯一常数二阶核2和实际ωord=2c0qt dt/FY全保；未认强接触F已存在或全球延拓已完成。
+
+- **R777**：[原B分量的P/t整核、完整中央返回与四单位余域](results/R777-original-b-sector-p-t-core-and-complete-central-renewal.md)。完整两核/174平方锚、P/t全矩形、W/Vt真两态及近消环带合法传原JT；四-unit仍有G′=−A1′−B1′，原负二/负五和174负一/负四全级数保。帽/CD/U/E全转置，P收缩不保原帽，未将局部非零换成全中央矛盾。
