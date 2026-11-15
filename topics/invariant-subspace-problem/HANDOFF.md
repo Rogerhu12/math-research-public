@@ -19,7 +19,7 @@
 - [23核一次变量完整闭包](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)已严格仍23维；旧13核闭包/同D候选亦关闭，不重复。
 - p768的52/26/39个确定LLL基候选均全原核完、新增0；[最后39候选证明](results/R150-appendix-p768-two-degree-blocks-thirtynine-full-original-candidates.md)保首次未完成及同格保基实绩，不再试格。原17式rank8/quad17及m0,m1的31单位精确消元已成，selected有限来源仍须运输；完整链接见open。
 
-- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。正解原1603整子块、核全1834残差再运输全原式，不重4318位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
+- **[标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)**和[旧来源保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已付；**[同J支撑模31恰29维](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)**实际run43679903558/math1.575719778秒，外1834×1632秩1603、全外核及36自由像rank29，像恰slots0…28，新增六轴17/18/19/26/27/28；Q只上界29。先入同job原整数O的一/二支撑Q等价消元、保存完整逆代DAG与精确core（60秒/2GiB）；随后只解剩余单位块，核全1834残差再运输全原式，不重4318位数。未来D整规范e29…e35真核必非标准Koszul，存在性未付。
 
 - **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
 
