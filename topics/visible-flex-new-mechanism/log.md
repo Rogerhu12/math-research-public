@@ -384,3 +384,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:28:31 UTC｜guard新4全过、6实际接受及第7未完成模型的准确边界
 
 唯一原log通过observer43769144830全部语义回读；observer raw661449B/SHAce508cd8fe6731b6d9f6d8537603277b190b7a9d1ea0541c14d7f7fc1d027e6b。前三14原paid复用、仅第4组4新执行全过，七guard模型真实LP使用、六普通α1实际接受，原14门/精确盒/旧167/625通过。m7在scoped ceiling1后的epigraph gap未合，总10/12尚余2，不能将外层stalled标签当stationarity；下一只针对这条真实未完成接口。γ延后消费与438-bank/4525fine池已核，费用含230.7735s初验及pre-active J。原科学和两observer的actualpull/README差异均已读，H记录最新22:24:53/58双repo SHA。基底51fb1430e588a622fa233b9534b73b7f17d98f20。
+
+
+## 2026-11-15 22:30:39 UTC｜R394准确区分局部germ、k值闭合和全相位joint
+
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)，17886B/hash900a912ea23d536a536530fb0ce852fd68a126c0a008f5b86e4908e1814b2ade。保wholeE0/Λall0为尚未联合安装的前提；真有序partial flux给剩余range，gap k′积分调整有平台成本，真实incoming X保进13rhs。对原实际相位矩阵的有限Smith门准确涵盖seed及rankdrop，不用phase采样替代；≤52只为局部整除总阶。root全文和原R225§6–7/R327列式核通过。H去旧重复数值段保最新规则/guard证据；数值继续m7未完成内模型接口，理论接新partial核。基底a280559a33bbea65c5ad5b2630b876a068f0cfc8。

@@ -160,3 +160,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### guard首实际已读：下一处理未完成cut模型的原预算分配
 
 run43767357527七个guard主模型/新四检查通过（旧14复用零执行）；前6普通α1全14门通过，当前η.26623355613853394/bank438/γ17.022353404161095与18.064283125328743，原.26及reach欠。m7只授1primary，LP10/12后仍余2，完整epigraph gap2.4768679406952238e−5未合、inexact=true/无物理trial。不是凸模型驻点或guard不可行证据。下一按此已观察失败研究同一未完成primary的有限预算再分配：不增全12/per-primary3/40value/120active/10秒LP，仍保SOC槽和原gate，不重复前6或旧开发研究。完整费用/源身份见即将发表actual note及首次readback。
+
+
+### R394完整条件性period/同规范接口，继续实际像
+
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。下一核R345十一wholeE核类是否由完整H/Abar+响应构成，从而是否同时Λall0；若真则说明total零仍保独立partial门，不重旧Vandermonde。

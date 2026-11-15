@@ -18,9 +18,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 ## 3. 数值唯一续点
 
-已读最近科学[covered首实际](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)：run43762868037/job132961344492/source4f136530，η.2663015219132816→.2662701215525791、fineκ57.99998346840656。6model=4普通+2旧same-layout SOC均α1接受；9primary+2SOC=11，末1按no-unpaired未用。原14门/盒/167/625过，新.26欠。新covered proposal/使用0，不归因新规则；m1增长/两hold均旧逻辑。bank59→375/hash470bf8bb…、physical6ef6682e…；末池4432/4451版本1/2，B.00025/双streak0。1303memory重装+377真新cuts；总324.293553086s/active35.064484719s，初验234.362847179s与pre-active首J全记。
+前科学完整来源：[covered首实际](notes/covered-soft-ordinary-growth-first-actual-result-20261115.md)，run43762868037/source4f136530，输入当前guard前η.2662701215525791、bank375、池4432/4451、B.00025双0；旧guard首失败/准确费用保原note，不重跑。
 
-新curvature-defect guard首run43766593534：前三5/5/4全过，第4组fixture写只读fixed_zeta失败，零科学。见[首失败](notes/observed-curvature-defect-guard-first-development-failure-20261115.md)及[严格续4](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)。仅删fixture setter及新增付费复用，生产core/outer/transfer不改；原14只读复用、138py+6workflow不变，只执行未付4后首科学。
+guard首开发失败43766593534前三14已付、第4 fixture setter报错零科学；[严格续4](notes/observed-curvature-defect-guard-four-check-resume-20261115.md)只删该行/复用入口，生产core/outer/transfer未变，旧14不重执行。
 
 **guard首科学原记录已读**：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0。observer43769144830只读核原log7918876B/hash8ce149f0…、146/140绑定；新4全过、旧14复用不执行。7models均guard实际用于LP，modified52；前6普通α1接受/原两网14门全true，10primary/SOC0。η .2662701215525791→.26623355613853394；coarse/fineκ57.99651016191997/57.99982504159888；新.26/reach欠。m7 scoped primary只授1，gap2.4768679406952238e−5>1e−9、inexact=true/returned_candidate=false，原状态虽stalled但**非完整凸模型驻点**；总10/12尚余2，不机械重跑。下一核当前未完成primary能否保1SOC而释放1剩余LP，保持原总预算和门。
 
@@ -46,7 +46,10 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 
 **有理芽period**：R184/221/225原iff保平台G″/活动flux/禁Laurent/residue/真端germ/双collar，要求同一w；R312–327已付19局部门/端口，两完整period欠。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在实际πV0不交包圆保真二次尾，Vθ=Σai²[diSi+Σj>i djUij]；ωi=Λui(V)、ωij=[a³b²]Λ_(aui+buj)(V)。两整包flux准确−ai³(Riωi+ΣRjωij)/(2τ)、+ai³(Tiωi+ΣTjωij)/(2τ)。最右必Λun0；R∩kerπ全盲，非任意π0U。wholeQ0付平台二次系数，原解析平端类中全部端germ iff整包flux0，不除p；内部Laurent/平台仿射连接/13同规范仍欠。R345 wholeE核≤11指定内部flux不授整包/全period。内部简单零与19根相容现已付R391，继续完整period剩余接口。
 
-[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)在同一真实19根/完整低阶纤维中选严格单峰解析母、正解析χ与两偶quadrature；真最大minor和principal minor同时保持。正kernel使删任一幅列仍满19，其他不交包准确补偿，两参数在真实root流形上横截Af0；相对prefactor保平端/单峰，共同annulus/Sard给全部内部Af简单，p仅一个简单零。原逆式p零的分母三次项与分子线性项消，禁residue自动无；每Af简单点恰需同一累计F(x*)0。原R345至多11指定Vd点升级完整光滑germ，未扩大数量或付Ve/其它点/整包/13joint；新profiles先定后原真实wholeE联调。
+[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19真根/低阶纤维/解析端：正kernel删列补偿与两偶quadrature在真实root流形使全部Af零简单，p仅一个简单零。p零的禁residue准确抵消；各Af点完整germ iff同一累计F0。R345≤11指定Vd点升级完整germ，不扩大点数/Ve/总flux/13门；先新profiles后真wholeE几何联调。
+
+
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)条件性完整接口：当前实际wholeE0及Λall0前提下，全部period只余每个简单Af点两组原partial flux（保真实ordered三矩suffix及±ai³/(2τ)）。活动k′真germ接入正gap，另付∫k′0后才右collar去Lf k−G仿射差；gap修正的k平台代价进13rhs。保真实m*的XΔ/Xfg；sinθ除法准确付0/π seed。实际13×2n相位矩阵化degM≤4/degb≤6，Smith零行恒等+单位圆整除jets是全圆光滑iff，整除总重数≤4r≤52（非rank/全部条件数），可取实解析相位解。**未授E/Λall实际联调、内部partial或13像满**；接R395核旧11内部类是否同时全Λ0。
 
 ## 5. 继续
 

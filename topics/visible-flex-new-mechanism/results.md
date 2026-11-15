@@ -269,3 +269,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R391｜同一19根的全部简单退化与指定完整逆germ
 
 [R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)（19848B；SHA256 307fc49287bb8cf52be9ca57ac6e088bba40c8fd3ab896ad6102ffa0a4f25f25）。从起点以两个真实minor的多项式非零集选解析正单峰母，Af参考多项式有六简单零；正χ和两偶quadrature保完整低阶纤维。原正kernel保证删任一幅列满19，其他不交包在真实root流形补全后，局部两参数仍横截Af0；相对prefactor/共同annulus/有限维Sard付全部内部Af简单，p只一个简单零。原逆式在p零的三次项/residue精确消，每Af简单点iff唯一真实累计flux0。先定新profiles再原wholeE几何联调，原≤11指定Vd点遂有完整光滑germ。未付其它点/Ve/总flux/端gluing/13joint；点数不限11。root全文/ψ小式/逆germ/参数链手核，tail窄核，未执行。
+
+
+## R394｜条件性完整period及全相位同规范有限iff
+
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)（17886B；SHA256 900a912ea23d536a536530fb0ce852fd68a126c0a008f5b86e4908e1814b2ade）。明确假设当前实际wholeE0/全部自然Λ0，不由R333或固定双Λ推出。wholeQ0降有序左尾为仿射，真partial通量/右方三矩suffix保全部端项，各简单Af点两门给完整range iff。k′延拓、gap积分清零、右锚消输出仿射差分开支付，平台代价和真实m*不删。sinθ除法编码双seed，原13×2n矩阵deg≤4/rhs≤6的Smith零行恒等与圆上有限整除jets给真实全相位光滑iff，并能取实解析解；局部整除总阶≤4r≤52而非控制秩。内部值/联合实际像及所有其余主门仍欠。root全文及R225/327来源、方向/因子/Smith/值闭合纸审，无执行。
