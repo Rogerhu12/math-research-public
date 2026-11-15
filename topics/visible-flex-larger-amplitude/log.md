@@ -314,3 +314,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-15 00:31:11 UTC — /root GPT-6 Astra Pro: 72全部科学/FD/发布success，原五报告精确取入；5trial接受1/16，最近1/8只mid484失败，74据此仅增MID484，完整结论另存。
 唯一prefix22 reader请求钉真实605047997B artifact/父68双SHA，先原读数后全字节；70读取与原发布恢复均成功，其336Gamma/rows阵和b/g实不同，不作lambda唯一归因。自身新Git对象339776559B逐文件SHA保留迁/tmp，原路径symlink，未gc/删科学数据。
+
+2026-11-15 00:33:40 UTC — /root GPT-6 Astra Pro: 保存70完整八trial结论e781380b/读数542a0418/身份a33d43d5及68/70完整byte对照；α1/128、nearestleft465，有限512/200 QP误差明确。
+共同60源/基点/β/Pi/c一致，但336Gamma/rows阵和b/g不同，A五输入仅原SHA记录也异；不用lambda作唯一因果，不凭hash断误差量级。70原发布已恢复，继续72→仅nearestMID484的74与73完整native。压缩H保全规则/定位并留更新余量。

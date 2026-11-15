@@ -1,0 +1,54 @@
+{
+  "schema": "actual68-70-same-parent-completed-byte-receipt-comparison-v1",
+  "scientific_arrays_recomputed": false,
+  "scientific_modules_imported": false,
+  "norms_actions_ratios_or_optimizations_computed": false,
+  "complete_large_payloads_verified_by_original_Actions_readers": true,
+  "those_payloads_not_reaudited_locally_by_this_tool": true,
+  "cross_run_difference_is_not_an_acceptance_gate": true,
+  "completed": true,
+  "detail": {
+    "file": "complete-byte-comparison.json.gz",
+    "bytes": 179038,
+    "sha256": "7517eb91b43fa04462254bc46954b589372de94c3e53874194af73437bbaeece"
+  },
+  "B_file_count": 190,
+  "B_array_count": 1226,
+  "all_verified_B_arrays_equal": false,
+  "all_B_file_sets_and_payloads_equal": false,
+  "original_b_g_c_equal": false,
+  "full_A_input_records_all_equal": false,
+  "full_A_payload_equality_scope": "The original Actions raw-SHA records for all L/R/P/BY/BC/BP/inlet/S/Wr inputs; no independent local full-chain A payload audit",
+  "B_query_specs_equal": true,
+  "B_metadata_SHA": {
+    "baseline": "7e5512fa872b45e87fd88e5a2a0c4857ab8881fef8a2e47b3d78b77075486bcc",
+    "changed": "23df7023ac5215339c8df134782f00b3381c2ccae5cdf8e158d349201031000d",
+    "equal": false,
+    "metadata_difference_alone_is_not_a_scientific_array_difference": true
+  },
+  "original_runs": {
+    "baseline": {
+      "run_id": 43653811809,
+      "artifact_id": 14137921466,
+      "artifact_name": "visible-followup-condensedqp-43653811809-1",
+      "expected_size": 590574983,
+      "expected_sha256": "0fe545ea42c48bb2d5551afddb86190af3c7ff1a14509b9f1ed5a6e5d0e53784"
+    },
+    "changed": {
+      "run_id": 43656059206,
+      "artifact_id": 14139045881,
+      "artifact_name": "visible-followup-condensedqp-43656059206-1",
+      "expected_size": 606816318,
+      "expected_sha256": "e45f32846bf48cb474c738c58675b30dada435229846ed3b27e319d8dcb63bd9"
+    }
+  },
+  "original_dampings": {
+    "baseline": 270.0,
+    "changed": 27.0
+  },
+  "comparison_source": {
+    "file": "exact_20261115_compare_actual68_70_readback_bytes.py",
+    "bytes": 15025,
+    "sha256": "4d02c9cc698c7f4f74cc3fe0d311de092ab82c89620f37d995c266079dad82d6"
+  }
+}
