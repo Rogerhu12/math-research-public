@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [全实δ固定端口帽主体的 Sobolev 逆](results/R133-supplement-full-delta-body-shifted-Sobolev-inverse-with-fixed-ports.md)：W1–19先由解析lag把原K复域收窄至2^-128、真正反演完整G0z，再付actual δZ的完整flux/mean族；shift M2^1024给−3/2≤s≤2114全部原源列增益<2^2200000。真改变外行的同阶转授独立保留，不用裸复合。
+
 - [有限 Sobolev 非线性 holonomy、mean 荷与高度图](results/R119-supplement-finite-Sobolev-nonlinear-holonomy-charge-and-height-chart.md)：M1–37直接在原ζ131有限角近邻上构造可去holonomy小根、真实无限Volterra荷及唯一高度；收缩<2^-2400，非mean PDE与完整mean方程双向等价。一般残差保(DA0)N与metric −ψr/+ψN，仍未授非mean全背景逆或Γ选择。
 
 - [原整个实参数区间的完整帽线性逆](results/R133-supplement-complete-real-delta-fixed-base-cap-linear-inverse.md)：V1–14把实际660片Z联合界、1346原闭行本征界与固定Φ0复合逐项接入P19；原real|δ|≤1e−8全频body<1/4、真outer<1/8，合计<3/8，相对完整基点lift的逆因子<8/5。保全mean/原反射类/同η0与真端口；不授一般非线性背景、高阶全δ或ν精细误差。

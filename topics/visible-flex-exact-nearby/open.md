@@ -163,3 +163,7 @@ N1–25合同已接244pin六件：SCI dd0cd551…/algebra1860872f…/CI4fe4c38a�
 [M1–37](results/R119-supplement-finite-Sobolev-nonlinear-holonomy-charge-and-height-chart.md)已在有限角近邻直接建立可去Φq和真实χ无限Volterra图，收缩<2^-2400，保外端holonomy荷/高度两输出与唯一平端gauge。nonmean方程成立时与完整mean PDE双向等价；不需原analytic224标签。一般有残差背景保(DA0)N，metric列原r有−ψr、归一N有+ψN，reference高度lift跨胞全保。mean/height同域子项闭合；继续变化背景nonmean逆、Γ principal/首相位与全参数联立。
 
 - **两邻片28stage原字节续跑**：43675967042/1过10门/成28stage后up(int)错误，0新全源行/case。现279pin仅精确int/Q入口修复及该唯一28旧byte lineage，source/helper/manifest旧header不改，原失败保。详[修复与继承](notes/2026-11-15-R133-adjacent-scalar-coercion-and-byte-exact-prefix-recovery.md)；继续新actual完整源/两ray/九词五mean。
+
+### 2026-11-15 fixed-port full-delta cap body at finite Sobolev orders
+
+[W1–19](results/R133-supplement-full-delta-body-shifted-Sobolev-inverse-with-fixed-ports.md)已付原real|δ|≤1e−8固定原外行的完整主体−3/2..2114逆。先收窄S复域至2^-128使G0z真正可逆，再以fixed Φ0的实际Z联合界和全flux/mean公式付解析body族；shift M2^1024给所有原ordinary/div/端荷/jump及fB两角导入口<2^2200000。真实改变外行的高阶门仍须t无关long拉回PDE/weighted mean/curvature图，不能把自然物理图的analytic-lag与裸composition拼成未证frozen族。

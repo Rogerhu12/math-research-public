@@ -415,3 +415,7 @@ M1–37全文18003B/2ffbf6fe…root全读及逐段指数核；newton独立手核
 ### 2026-11-15 04:28:26 UTC：仅精确 scalar 类型修复，28成功原阶段逐字续接
 
 43675967042/1 child1/10门/10.236884446s，28完整stage=25norm+1majorants+1signed cubic差+1intrinsic，0完整新源行/case；原processda9445d1…/nativeb46953d2…/publicatione1944e1f…已核。helper只在原up前对int/Fraction调用原ex；既有Arb路径不动。新policy唯一锁该run的28完整原stage、原header/payload/byteSHA/runtime和原三整件archive；当前manifestpin、原publication、原native三方一致。root亲核全部28收据与代码diff，AST数学校验仅Actions。279pins中241原项不变、只更新SCI/helper/CI；6原外case不变。SCI fa344d17…、policyb5706e3b…、manifest57b978db…、flowd4be03c5…独推续跑；不重成功builder、不开放通用跨source恢复。README核bb3e76494f518e86a91e718170db391cce34b326无变化，继续新actual结果。
+
+### 2026-11-15 04:33:48 UTC：原全实δ的固定端口帽主体高/负阶转授
+
+W1–19全文9814B/85169eb7…经tail独立核W5/W15/W17和源单位。S12复K大界不直接Neumann；以完整lag垂直差先从1/128收窄到2^-128，差<2^-47、真实K<1/64授完整G0z。actual Z与固定Φ0联合复合仍<1，P全ordered primitive/mean无未知导数，body复族粗2^64、实<1/4。M2^1024/q≤2114给weighted差2^-690<2^-600，源各单位不变，usual转换一次M^|s|，最终<2^2200000。只固定原真实外行；真changed-outer交newton以t无关pullback方程新付，不偷角复合。H9821逐字归档后压缩；root已读Green1420/5970、04:28:40真pull及adjacent成功child0过程，最新04:29:31 pull→0326a076…两README差空，actual报告续独推。04:28非FF已立刻真pull尝试仍无executor并循环成功。README只读核0d642288dbc6f42f3765edd8c104d48881dae208无变化。
