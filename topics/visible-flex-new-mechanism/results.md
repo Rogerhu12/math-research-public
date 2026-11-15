@@ -195,3 +195,5 @@
 - [R217：两个左二次尾在pure零响应上满射](results/R217-two-left-tail-invariants-independent-on-pure-zero-responses.md)：同右锚代数导子Df=x²f′−2xf保E8/真实交换响应；K1=δK与K3=δ³K的左pair为(8A*,0)、(B*,−96J*)，非对称下降包与实三补偿/八packet使A*>0/J*≠0。两左尾联合仍不能因子化λ+，显式H_tail纯零/两尾零/λ1。保全部偶基准的四实际同λ/pure0闭hook形成非退化平行四边形，至少三条period必要门失败；不排更大joint或宣同g。
 
 - [metric辅助δ与条件整像幅度预算的澄清](notes/metric-auxiliary-delta-and-hold-amplitude-budget-20261115.md)：旧.26640845723为metric epigraph变量，非δhold；原aux失败保留。完整连续球1.01/条带.38999若成立，旋转核心见证给δhold/D≥61001/202000>.3、握持直径比≥22/101>.2。仅端口和径向长度给|y|≤.7，不足替代条带；无排.3的幅度上界，现有采样未付连续支持。
+
+- [R219：八个修正退化通量在pure零响应上独立](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)：每包退化通量减准确平台二阶端值，消掉全部全I gauge及其他packet右尾；K_PR单层J结构在delta下保留，Nδ^nK=n(n−11)δ^(n−1)K给八平移Vandermonde满射R8。λ+不经八元组因子化，左pair+任一flux另满射R3；不混成十元组满射，不把有限必要门当完整joint。无新研究计算。
