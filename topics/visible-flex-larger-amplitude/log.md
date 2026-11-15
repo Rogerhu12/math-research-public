@@ -85,3 +85,7 @@
 ## 2026-11-15 16:07:35 UTC /root — R352完整共享变量目标包围
 
 [R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)全文核后即发：准确校准恒等、全部九项合并、所有分支共同变量差和向外Bernstein已证；数值ℓ/S3/δ及系数缺陷严格保留，固定上游盒不可凭u细分变窄。165继续独立实现，不作159的额外门，无本地科学或新δ预填。API核8c96e078ddd3e412db425c5a31cf6682d4445bff双README未变，原真实pull行保留。
+
+## 2026-11-15 16:07:59 UTC /root — R346实际158原接受与诊断接口失败分离
+
+[R346](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)完整原结论核后即发：α1/8接受/新warm FD通过，前3档为原域拒，末native/fullDN仍false；后置0.2647s绑定失败、0/75776，非预算或原model拒。原8文档138成员、1057172B joblog及1961B error全核；166按station/原显式control返回身份修复，不猜74次、不假恢复已清raw。API核ab3616788bbe241cab4cabcbf277d3b19d8744d3双README未变，真pull原行保留。

@@ -30,7 +30,7 @@
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)原a>0及P=a²|d×e|²−ν²|d|⁶>0等价、完整八次/Bernstein、453 Hermite全RHS缺陷保。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model及新warm FD先尝试，再独立诊断全75776行×17档×九系数；global6000/diagnostic1800/reserve180、原未访范围/字节保，不添155门。
 
-实际158已终态，exact唯一读原log：原model/FD返回，后置因“全部base37返回”数量绑定异常未开始；R346记录完整实际结论。observer把缓存填充与原显式同站控制返回都保存，不能据37查询猜总返回恰37或实际74。166按query station及原explicit scalar_control_jets身份配对，完整保额外调用，不删检查、重造旧数组或将异常当域反证。原raw清后新实际诊断需从真98重算。仿射参考/真实RHS余项/端点与query表示误差仍分开，缺整段二阶界不冒连续α安全，N2048不冒连续角。
+[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)已全文核后发表：四原trial，α1/.5/.25在真实域拒，α.125接受，W43.363003729098274→43.33605694766103；最近拒绝为已选LEFT464和MID471，不是漏MID489/490。全37线性slack正仍不代真实非线性域；QP最大working512/dual200后验未证最优。新warm原FD最大四阶相对8.81884772255149e−10通过，但current nonlinear DN/native/full BVP/closed仍false。后置R334在输入绑定报All base37 returns，0/75776及全部17档未付，无新Hermite算术；非预算或原模型拒。原8文档/138成员及1961B error全核，raw已清。observer把缓存填充与原显式同站控制返回都保存，不能据37查询猜总返回恰37或实际74。166按query station及原explicit scalar_control_jets身份配对，完整保额外调用，不删检查、重造旧数组或将异常当域反证。原raw清后新实际诊断需从真98重算。仿射参考/真实RHS余项/端点与query表示误差仍分开，缺整段二阶界不冒连续α安全，N2048不冒连续角。
 
 ## 2. 九控制残差与新的形状方向
 

@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:07:35 UTC 已读 8c96e078ddd3e412db425c5a31cf6682d4445bff，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
+root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，按根8仅用官方GitHub集成发<100KB源/结论。API复核 2026-11-15 16:07:59 UTC 已读 ab3616788bbe241cab4cabcbf277d3b19d8744d3，双README blob仍同上；这不是git pull。 恢复立即真实pull --rebase，之后每push前且≥每小时核规则，有变仅读差异；NFF/CAS立即读新头重放至成功，不force。Actions镜像2700秒真pull，不换科学checkout。
 
 根15禁止可重算raw/证书/Actions输出入Git、Release、新artifact；只保源/参数/run/SHA/紧凑结论。题≤200MB，H<10000B、MD<100KB、open宜<30KB；证明直接results、log每条≤5行，无根LOG、额外fixture/审批/六九jet门。每条结论同步H/open/log/results即推，未确认临时件不当已保存。
 
@@ -27,7 +27,7 @@ root部分克隆 /tmp/visible-larger-root-git-149；14:33共享终端失联，�
 |159 geometry|43732286420 /132867163903|4241fb33b951ee3b0bad9b1579ec7efb7e0de62e；step11 C运行|
 |160 root|43729874541 /132859748674|b34692d09c8d5ecdd7b859e43489da4413f1468e；前13步过、step14|
 
-158已终态：43731669039/132865254053，de638f2ab272db4dbe0a695394c126b72a56fa42；exact唯一完整取原log。原37model/新warm FD已返回；后置R334输入“所有base37返回”数量绑定异常，非数学拒绝/预算。R346成文、166按station/原显式返回身份修；具体计数未导出不得猜74。
+[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：43731669039/132865254053/source de638f2a。原37model α1/8接受，W43.363003729098274→43.33605694766103，新warm FD8.81884772255149e−10过；native/fullDN仍false。R334输入绑定错误，0/75776及全17未付，非预算/原模型拒。8完整文档/138成员/1961B error核；166按station/显式返回身份配对，实际总calls未导出不猜74。
 
 163已全success：43732715988/source4e1decc718c712b2eaa26a7da598d89236a21ef0，read151132868511229/read157132868510914/report132868952547。amplitude唯一核小report/两index及151新semantic；157新semantic仍Transport closed无正文，原完整矩阵不能冒已读。R349/R350分别记范围；167只读原163 log的精简必要原字段，不重科学。
 

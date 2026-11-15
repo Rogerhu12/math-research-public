@@ -224,3 +224,5 @@
 - [R351：完整七状态三列伴随与零jet新控制响应](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)（已证明，条件准确有限链定理）：698cell完整r/mid/sqrt/三模态、112终端耦合、直接末q与start项保；一次三列伴随取得全部node/mid响应，真实shape商法则及补左零空间条件明确。准确实数、形成线性系统与Decimal舍入分清，不预填157秩/驻点或164改善，原域/strict slope/字面Armijo与全native责任保。
 
 - [R352：共享校准正规形式与全九项Bernstein目标包围](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)（已证明，条件包含定理）：同一准确collar/coast/last-transition先消去重复依赖，三个支撑各全三项合并，再于同一u形成完整差多项式及向外Bernstein。原419片/支撑内外/双闭端点、数值参考全部字面校准缺陷及同场metric责任保，不改参数或缩语义盒，不预填151主因、165精度或实际δ。
+
+- [R346：actual158原37一步接受与后置绑定错误](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)（实际Actions有限诊断）：四trial，α1/8接受，W43.363003729098274→43.33605694766103；新warm FD四阶8.81884772255149e−10过，native/fullDN仍false。最近拒绝在已选LEFT464/MID471，线性可行不代非线性域。R334因观察总返回与37查询错误等同而绑定失败，0/75776及全17未付；8文档/138成员/1961B错误完整核，真实controls总数未导出不猜。166保所有返回按原身份修，不改原数学门。
