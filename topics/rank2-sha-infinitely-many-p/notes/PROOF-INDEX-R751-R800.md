@@ -55,3 +55,5 @@
 - **R768 增补（范围已更正：r1/b0≥3原窗口为空，不作实际改进）**：[完整零纤维数据与普通二阶消极](../notes/2026-11-15-r768-full-zero-fiber-data-and-ordinary-second-normal.md)。r=ell=1、k=0时实际主部商二维，完整首次p²固定−3B(Y−1)²及其它有限支满极；原Qquad全高尾和同S两输出完整保。对偶铅笔d₂+λd₁的唯一λ=−1使每个Y有极边界支准确改善−v(Y)，未付全球延拓。
 
 - **R768 原次数门更正**：[原来源的有限零纤维可行范围](../notes/2026-11-15-r768-original-fiber-degree-feasibility.md)。真正Pfact首t层强制3b0+degQ0≤4r+2；联合b0>4k+2需r≥3k+2，原r≤13故k≤3。r1/b0≥3增补为空，立即撤回其实际可用措辞；r2/k0/b03仅是未被此门排除的候选。
+
+- **R773 公开执行增补**：同一原q*的真实共同帽/U失败域已证负一非零。run43726080626/job132848187370保原50/quarter、两核、M5/E逆/M-unit/U300；四辅助点两arith分量非零，固定CM密度引理付旧ray相对密度1、两η和所有N4单位。固定五维归一极限与两个P分母给共同W差准确赋值m+v*p；原JT′=0只强制完整外部反号同赋值，不能删补域。producer/参数/hash见[R773附录A](../results/R773-native-common-hat-domain-and-five-conditional-moment-return.md)。

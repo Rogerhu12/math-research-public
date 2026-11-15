@@ -6,7 +6,7 @@
 
 有两个需要先说明的范围。第一，原物理 $E_\perp$ 在共同帽深 N 域中自动深 N，故该域上的原 $E_\perp$ 浅 N 支确为空；归一后的 $E_\perp/\kappa^N$ 单位环带仍在。第二，本文不把 R737 的 cd 返回权 $\Phi_N$ 换成 q，也不删除该返回坐标中的 E-unit 条件。
 
-为实际读取一个固定深度差的条件来源，本文另付原失败轴的完整第300层核。取真实 $n=N+300$ 后，五条件矩成为两个完整、无切集的正矩之差，总次数不超过60。它们使用同一个 q，并保全部第二项；这里尚未给其中某个算术幅度赋非零。
+为实际读取一个固定深度差的条件来源，本文另付原失败轴的完整第300层核。取真实 $n=N+300$ 后，五条件矩成为两个完整、无切集的正矩之差，总次数不超过60。它们使用同一个 q，并保全部第二项；其实际算术幅度及条件负一非零由文末公开执行增补支付。
 
 ## 1. 同一来源与共同外域
 
@@ -528,7 +528,7 @@ $1-\beta\kappa$（若有精确 t 环带）和全部高阶对数尾都保留。
 全 t 分层仍包括 $m<N$ 的三个浅独占支、
 $N\le m<n$ 的三条不同失败支、$m\ge n$ 的共同深支和整个深尾。
 原 $I/O/X$、R737 的 cd 返回 E-unit、reference 项和原 T 相反外部
-全部继续存在。即使后续证明 (31) 的某个实际负一行非零，
+全部继续存在。文末增补虽然支付 (31) 的实际负一非零，
 仍须在这个完整分割中支付另一条原中央约束，才可能关闭主目标。
 
 ## 依赖与执行范围
@@ -540,6 +540,267 @@ $N\le m<n$ 的三条不同失败支、$m\ge n$ 的共同深支和整个深尾。
 - [R737](R737-common-depth-elimination-and-native-primitive-strips.md)：原 cd 与 paired 外部的完整范围。
 - [R753](R753-discontinuous-point-projectors-and-finite-carrier-limits.md)：有限 carrier 与无限点投影的区别；本篇只使用有限有理坐标。
 
-本篇由显示的完整格、半特征、原 whole 核及真实域恒等式证明，
-没有新增数值运行或输出文件。式(31) 的具体数值幅度另由原生成算法公开计算；
-此处不把尚未执行的计算写成非零结论。
+以上完整格、半特征、whole 核与真实域恒等式由代数证明支付。
+式(31) 的具体幅度及其非零后果见以下已完成的公开运行增补；
+可重算输出不另存文件。
+
+
+## 公开执行增补 A. 同一条件来源的两算术幅度、负一非零与原外部
+
+本增补使用已完成的公开 Actions。正文的格、whole 核和域身份不依赖此运行；运行只读取式(31) 已定义的实际有理坐标。
+
+### A.1 真实运行及四个辅助非零值
+
+- producer：[check-r773-native-conditional-five-moments.js](../scripts/check-r773-native-conditional-five-moments.js)；
+- 参数：`--max-block=4 --taus=2,3 --with-b --b-g-blocks=3 --neutral-degree=12`；
+- source commit：a98e0fc95f624d7fd4a83d71f86a19b7de2cf165；
+- run：43726080626；job：132848187370；
+- producer SHA256：a8d5b436e383831f418b04f546d6d18d7c1b13cde3f5a9d81694f692a7aec5b7；
+- 原 R719 producer SHA256：29bd414c63ac4fdca93ae4b56ccdf2ccaa2114395bf96a52d2e8fd1ea809fdb2；
+- stdout：6788字节；SHA256：
+  1d58673c8174e98ef2af10087a97dc2a8bb5c8c78e93bb1ca20a40c821db6a4d。
+
+该脚本从原 R594/R702/R715/R734 算法重建 q，不读取旧生成输出。
+它在完整原50行、quarter 行和两条核列均保留的情况下，按
+(18)、(20)、(29)、(31) 计算两个完整正矩生成式。
+原 M-unit 第二项与 $\lambda^{300}P_{U,\kappa^{300}}$ 都先保留，
+随后才取边界专门化 $\kappa=u=0$。
+在这个边界，$P_{U,\kappa^{300}}$ 成为真实正交投影 $P_{U,0}$，
+不是把 D 单独设为零。
+
+令
+$$
+\mathcal F_\eta(\lambda,\kappa,u)
+=\sum_{j=0}^4 c_j(\lambda,\kappa,u,\eta)\Xi_j,\qquad
+c=\mathbb T^{-1}m^{\rm nat},
+\tag{A1}
+$$
+即式(31) 去掉共同单位 $\lambda^{2N}\beta^N$ 后的完整来源。
+用 R767 的全 CM13 投影写
+$$
+\mathcal F_\eta
+=A_{\omega,\eta}D_{\omega,b}
+ +A_{-,\eta}D_{-,b}+\mathcal F_{{\rm prim},\eta}.
+\tag{A2}
+$$
+实际矩阵输入是在 $\mathbf F_{1009}$、$\omega=374$、
+$b=\Omega=1$、$\lambda=(1-\tau)/\tau$。输出为
+
+| $\tau$ | $\eta$ | $A_{\omega,\eta}(\lambda,0,0)$ | $A_{-,\eta}(\lambda,0,0)$ |
+|---:|---:|---:|---:|
+| 2 | $+1$ | 844 | 722 |
+| 2 | $-1$ | 831 | 50 |
+| 3 | $+1$ | 453 | 462 |
+| 3 | $-1$ | 582 | 87 |
+
+四点均重新验证原 q 的全部行；R734 的 a、$b_0$ 为629、240，
+规范后真正 $\mathfrak j_2$ 为319。没有把旧五行读数50改称 $\mathfrak j_2$。
+原50阶逆、五阶逆及 a 在这些点都非退化。
+$1+\lambda=1/\tau$ 也非零；显示的新几何分母和正矩分母不含1009。
+
+三个 primitive 坐标在这四个辅助点都为零。
+这个有限零值**没有**被提升为 $\mathcal F_{{\rm prim},\eta}=0$。
+以下证明完整保该三维来源，只使用表中两列的非零。
+
+### A.2 旧射线上的实际单位幅度，量词包括全部 N
+
+式(A1)、(A2) 的每个坐标都是正文已经定义的
+$K(\lambda,\kappa,u)$ 有理式，$\eta$ 分别取 $\pm1$。
+其固定分母来自原两级整逆、(13)、固定三角 reader、
+完整 CM13 投影和 (23) 的整数几何。
+这里没有 $\kappa^{-N}$ 遗留；它已经在真实 carry 深域返回中消去。
+
+对每个 $\eta$，清掉这些分母，取
+$A_{\omega,\eta}(L,0,0)$、$A_{-,\eta}(L,0,0)$ 的有理分子。
+表中非零值证明四个固定 $K[L]$ 分子均不是零多项式。
+这一步不需要辅助点属于原 ordinary ray，也不把它当一个实际 p。
+
+将四个分子、全部分母的固定 Norm 多项式一并加入
+[固定 CM 单位密度引理](../notes/2026-11-14-fixed-cm-polynomial-unit-density.md)
+的有限乘积，代入 $L=-1/\bar\pi_0$。
+在原完整固定射线的相对密度一子族上，该乘积为单位；
+所删无限坏集仍为 $O(\sqrt X\log X)$，另删固定有限分母素数。
+原射线本身没有被重定义，也未新增149同余条件。
+
+实际 $\kappa=p\lambda^2\in p\mathcal O$、$u=\kappa^N\in p\mathcal O$。
+所有分母在 $(\kappa,u)=(0,0)$ 为单位，故对上述同一素数子族，
+**两种 $\eta$ 和所有 $N\in4\mathbf Z_{>0}$ 同时**有
+$$
+\boxed{
+A_{\omega,\eta}(\lambda,\kappa,\kappa^N)\in\mathcal O^\times,\qquad
+A_{-,\eta}(\lambda,\kappa,\kappa^N)\in\mathcal O^\times.
+}
+\tag{A3}
+$$
+$\lambda^{300}$ 完整属于这些有理式，未从单位性论证中删去。
+有限测试证明的是固定分子非恒等零；
+(A3) 才是实际 CM 参数上的结论。
+
+### A.3 真正条件负一行非零，保整个 primitive 块
+
+定义
+$$
+\mathfrak I_p(u)
+=\Omega_p\int_{\mathcal O^\times}Y^{-1}
+ d\nu_{\mathcal F_\eta(\lambda,\kappa,u)}(Y).
+\tag{A4}
+$$
+R735 给 $D_{\omega,b},D_{-,b}$ 的原负一值及其共同周期点公式，
+两值非零且在 $\overline{\mathbf Q}$ 上线性独立。
+R761 支付整个 primitive 三块的准确 cyclic9 点域和点公式，
+包括它们可能为零的情形。
+其17惯性标签为 exact order9；两条 rank-one 线是不同的 order3 标签。
+等价地，可先用实际2惯性平均杀 primitive，再用两个 cubic 标签分开。
+
+因此，在每个固定 p、N 的**有限** point-log carrier 中，
+(A3) 的非零两幅度不能被另一条算术线或 primitive 块抵消。
+所有系数均在 K，周期已按 (A4) 统一，不是任意
+$\mathbf C_p$ 系数。准确得到
+$$
+\boxed{\mathfrak I_p(\kappa^N)\ne0.}
+\tag{A5}
+$$
+结合式(31)，这就是原同一测试、原同一有限失败域的结论：
+$$
+\boxed{
+\int_{\substack{Y\ {\rm unit}\\
+ \hat s,\hat d\in p^N,\ U\notin p^{N+300}}}
+ \frac{t}{Y}\,q_N^*\,de_0
+=\lambda^{2N}\beta^N\mathfrak I_p(\kappa^N)\ne0 .
+}
+\tag{A6}
+$$
+这不同于未切原域的 R767(27)。这里两条帽深和原 U 失败条件
+都在，未把裸 $D_\omega$ 代入一个新条件域。
+
+### A.4 固定五维 carrier 的极限及真实 P 分母
+
+现在固定一个满足 (A3) 的实际 p。
+先除掉原单位相位 $\lambda^{2N}\beta^N$；
+该相位一般不随 N 收敛，本文不对它取极限。
+(A1) 在 $u=0$ 正则且整，于是
+$$
+\mathcal F_\eta(\lambda,\kappa,\kappa^N)
+=\mathcal F_\eta(\lambda,\kappa,0)+p^N
+ \sum_{j=0}^4\mathcal O\,\Xi_j .
+$$
+这里始终只有同一个五维来源空间。
+(A3) 也在 $u=0$ 成立，故按同一个有限点分离证明，
+$$
+\mathfrak I_p(0)\ne0,\qquad
+\mathfrak I_p(\kappa^N)=\mathfrak I_p(0)+p^N\mathcal O .
+\tag{A7}
+$$
+这不是把 point-only 投影延为 $\mathbf C_p$ 连续算子。
+先在固定五维坐标中取代数有理系数的极限，再对该明确极限来源
+用 R735/R761。它满足 R753 的有限 carrier 条件。
+
+置 $v_p^*=v_p(\mathfrak I_p(0))<\infty$。
+对充分大的原 $N\in4\mathbf Z$，$N>v_p^*$ 时，
+(A6) 的赋值准确为 $v_p^*$。
+
+对真正 P 观察，使用正文(32) 的**两个完整分母**。
+它们在 Y-unit 上都是单位，并分别与 $b_YY$ 相差 $p^N$；
+全部权及返回矩阵整有界。因此只有有界解析比较
+$$
+\boxed{
+\lambda^{-2N}\beta^{-N}
+ \int_{\mathcal D^\infty_{N+300,N}}\frac{t}{P}q_N^*\,de_0
+=b_Y^{-1}\mathfrak I_p(0)+p^N\mathcal O .
+}
+\tag{A8}
+$$
+对这个有理积分或其无限幂展开，未施加任何点惯性投影。
+所以 $N>v_p^*$ 时，(A8) 自身非零且赋值 $v_p^*$。
+另附 t-unit 的原行准确乘 $1-\beta\kappa$，这个因子为单位。
+
+回到 R764(40)，固定 $n=N+300$、$m\ge n$，取两个不同 $j,k$。
+记 $I_j$ 为 R764(33) 在同一个共同深外部块上的 T 中央行。
+则完整首项为
+$$
+\begin{aligned}
+I_j-I_k
+={}&-\frac{(1+3\omega)(\omega^{2j}-\omega^{2k})d_p}{b_Y}
+ \lambda^{n+2N}\beta^{m+N}\kappa^m\mathfrak I_p(0)\\
+&\quad+p^{m+N}\mathcal O+p^{4m}\mathcal O .
+\end{aligned}
+\tag{A9}
+$$
+所有显示系数除 $\kappa^m\mathfrak I_p(0)$ 外均为单位。
+故在同一固定 p 的充分大 N 范围，
+$$
+\boxed{v_p(I_j-I_k)=m+v_p^*.}
+\tag{A10}
+$$
+若使用精确 t 环带，首项再乘 $1-\beta\kappa$，
+赋值不变；原高阶对数尾仍在 (A9) 的准确范围内。
+
+### A.5 原中央实际要求的完整外部，不能删除
+
+令 $r_n=(-\kappa)^n$，并保原全归一观察
+$$
+f_{j,n,w}
+=1_{W_j\circ P_{Y,r_n}^{-1}\ {\rm unit}}
+ \left\langle W_j\circ P_{Y,r_n}^{-1}\right\rangle^{d_pw}.
+$$
+R764 的完整 Y 核与原 $\pi_4$ 身份给
+$$
+\boxed{
+\int_{\{Y\in p^n\}}f_{j,n,w}\,q_N^*\,de_0
+=\lambda^n\beta^N\,6\delta\,k_jJ_T(w),
+\quad (k_0,k_1,k_2)=(1,0,-\omega^2).
+}
+\tag{A11}
+$$
+对于 $m\ge n$，三个原
+$\mathcal O_{j,n}\cap\{t\in p^m\}$ 是同一个完整物理块；
+记它为 $\mathcal B_{n,m,N}$。将 (A11) 的域精确分成该块与
+$\{Y\in p^n\}\setminus\mathcal B_{n,m,N}$。
+记后者使用同一 $f_{j,n,w}$ 的中央导数为 $E_j$，则
+$$
+\boxed{
+E_j-E_k
+=\lambda^n\beta^N6\delta(k_j-k_k)J_T'(0)-(I_j-I_k).
+}
+\tag{A12}
+$$
+所以在原 $J_T'(0)=0$ 假设下，实际强制的是
+$$
+E_j-E_k=-(I_j-I_k),\qquad
+v_p(E_j-E_k)=m+v_p^*,
+\tag{A13}
+$$
+而不是 $I_j-I_k=0$。这给出了同一个原全外部必须承担的
+明确非零差和准确赋值。
+
+这里的完整外部包含所有浅 t 支、帽/U 补域、原观察各自的
+unit 进入或失败支，以及按原坐标运输的 E 条件；
+它不是把其中某一个参考支单独叫作 $E_j$。
+原 R737 的 cd 返回 E-unit 仍保留。
+
+还可准确分清 S 中央与本首行所在的来源。定义真实两投影
+$$
+e^{(1)}=\frac{\omega h_W-\omega^2e_0}{1-\omega^2},\qquad
+e^{(\omega^2)}=\frac{e_0-\omega h_W}{1-\omega^2}.
+\tag{A14}
+$$
+它们分别是 $\mathcal T_*$ 的特征1、$\omega^2$ 来源。
+对任何本文 $\mathcal T$-不变的伙伴域 $\mathcal D$，
+q、Y也不变，故
+$$
+Y_*(1_{\mathcal D}q\,e^{(\omega^2)})=0,
+\qquad
+Y_*(t\,1_{\mathcal D}q\,e^{(\omega^2)})
+=Y_*(t\,1_{\mathcal D}q\,e_0).
+\tag{A15}
+$$
+第二式使用 $t\mathcal T=\omega^2t$，保同一域与权。
+另一方面完整
+$$
+W_*e^{(\omega^2)}=\frac{6\delta}{1-\omega^2}\nu_T .
+\tag{A16}
+$$
+因此 S 的零并不在 (A15) 中产生一个额外负一零；
+T 的原中央控制 (A16) 的**完整行**，其真实条件补偿正是
+(A12)。本增补支付了原共同块的非零和全外部的必要差，
+尚未将这个外部消掉，主中央目标仍保持开放。
