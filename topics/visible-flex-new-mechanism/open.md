@@ -143,9 +143,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R334](results/R334-positive-dilations-pay-the-full-second-Gaussian-area-with-the-old-layer.md)两α/Fκ±四实际强模块以正伸缩付完整新I2，保原负Ψ储备和两完整面积。新[R337](results/R337-true-translation-excludes-the-same-sign-reflected-weak-block-architecture.md)保真实Z/W平移与二次尾：B0^s=B0+s(a+b)A0+(2χ/3)sCθ，χ非0。同C<0的R331弱反射块置全部正物理中心，十二copy后完整第三I0=(2χ/3)ΣρXC·sin²θ≠0；强面积四模块和原全72控制器贡献真零。此为当前同号/反射/中心架构限制，不是全弱圆否定。下一R339构造相反C正的已付低阶弱模块；必须连同宽cutoff/矩补偿/原面积/Ψ和最终真实中心一起支付，不仅口头平移。
 
 
-### R335/R338：全响应整包flux的真实Green修正，继续纯核/联合核像
+### R335/R338：真实Green尾的权−6因子化已付，续真实U值
 
-[R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)保原E8完整D³自伴与两次不同Green边界：正式π=raw/16，5Ω−16∫u‴πV=4C_tail，C_tail完全由原二次左尾μ/ν三矩给出。L/[P,R]使clean16/5差2μ0M3/15≠0，不能只用形式自伴丢原尾。全Z十八方向Ω0；complex紧输入自身三矩0才全R clean，非零实micro不满足。一般R∩kerπ及R∩kerE上的真实像仍欠，R338续原−6全标签尾像；与R330内部flux、R333wholeQ控制分别保准确范围。
+[R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)全响应5Ω−16∫u‴πV=4C_tail保真二次尾。新[R338](results/R338-weight-minus-six-pure-response-total-flux-and-exact-tail-coordinate.md)逐原20标签手算尾，复用R207原三维pure坐标与完整Jacobi关系，C_tail=μ0M3ℓ_tail(πV)/6、ℓ(aρ0+bρ2+dρ3)=a+b+3d。故全13维R−6∩kerπ的整包Ω=0；K全部δ串亦Ω0但不授Q0。限定读出A=Ω−16Lπ/5−2μ0M3ℓ(π)/15消R−6，可真权投影得全R annihilator；尚未证它在U非零。下一读取真实U−6成本的完整输出，不重旧pure秩/13核；一般权/整circle两period与全E联合仍欠。
 
 
 ### R336：原两flux后继的whole-self成本必须同账

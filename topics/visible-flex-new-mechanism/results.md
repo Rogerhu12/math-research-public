@@ -550,3 +550,10 @@ R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定
 [R337 完整原式](results/R337-true-translation-excludes-the-same-sign-reflected-weak-block-architecture.md)给Z*/W*新面积B0在真实平移下B0^s=B0+s(a+b)A0+(2χ/3)sCθ，χ=κ(28t²−35t−4)/(64he³)非0，完整δ²/δ³项由已付原面积准确消失。R331每个足够大L的反射基块C=−4W8(J0+Jx0+Lj0)<0，所有最终正中心与正四次权使十二copy全角B0=(2χ/3)ΣρXC·sin²θ严格非零。R334两斜率强模块经完整反射/真实尾/复制有B0全θ0，原全72零controller及有限N同样0，不能抵消。
 
 R334已经支付的两完整面积、third和指定层仍真；本稿只排上述同C符号/反射/正中心架构。不同符号实际弱块或非零中心面积仍为真后继，须付其全部原成本。纸面完成即推，无新执行。
+
+
+## R338：完整权负六纯核总通量为零，真Green尾准确经pure因子化
+
+[R338 全部20标签证明](results/R338-weight-minus-six-pure-response-total-flux-and-exact-tail-coordinate.md)保原R144权−6列号，手算μ/ν四积分及完整二次尾Green；16旧列pure关系复用R207，余四列用完整三槽Jacobi。真实C_tail=μ0M3ℓ_tail(πV)/6，其中ℓ(aρ0+bρ2+dρ3)=a+b+3d。因此Ω=16∫u‴πV/5+2μ0M3ℓ_tail(πV)/15，全13维R−6∩kerπ的整包Ω严格0，保R335明确非zero尾反例。
+
+另以完整四输入δ变分给Ω(δV)=−D_uΩ(V)[(x²D−2x)u]，由K=−r⁴/3−2Lf(Puu)/3及原通量端条件得所有δⁿK的Ω0；不冒其Q0。限定成本读出A_u=Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消整个R−6，真权投影后消全R，但尚未证真实U上非零。下一直接读U原函数，不重秩或以预期作前提。纯纸证，无新执行。

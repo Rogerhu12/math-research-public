@@ -27,7 +27,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 ## 4. 纸证的当前边界
 
-R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左尾；43712266529八新人工已付。全Rp0首项不可删。R259/263的72/81是条件非rank；R277–281全period/Green/解析端iff不授未算门零，详原稿。
+R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人工已付。全Rp0首项不可删；72/81非rank，原period/Green/解析端iff不授未算门零。
 
 **R281解析端**：ψ乘正解析prefactor母给有限阶内部p/Af零点，真Tf/尾与共轭端germ有限iff均保；平台/flux仍须实付。
 
@@ -37,7 +37,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R314–333完整pure/self**：R314保全T九矩/局部Euler六jet忠实，R322真成本σ→self缩放σ−2。R316 H*满足π0/整Q0/λ+1，13pure核比较像rank7，旧结果不重。R323真负权−8 self0，−6二维/−4八维原响应覆满、保Z=μ0²/2；E=(π,全Q)实际闭锥=E(U)。**R329实际/R333真实控制已完成**：[完整结果](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)，run43740129876/a5383f6/job132891272196，两C4/C6 MEMBER、8新人工过、468新primitive/6.521884s；旧13完整列只读，fresh2492/2198原mixed差T/Euler/重构0/selfword0。R126 old标签准确式见稿。严格E(U0)=E(R0)维10、两核维9/6，故零权商0；不是全权响应等像。结合满闭锥、两次真实商截面/有限整数复制及最后响应收缩，**E(S)=E(U)**且紧集C1真实截面；可选wholepure+wholeQ零/全T零背景。所有原基准/桥/锚保，完整canonical λ仍正。wholemixed/period、同gauge及额外Gaussian/Morse/两flux不自动联合，须各自增强接口。
 
-**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。一般real pure/E核的Ω像仍欠，R338续真−6尾像，不能用Q0冒Ω0。
+**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15在R−6恒0，其U−6值仍欠；其他权/整circle像不冒已付。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main dc425c954db25a64d509070e4a38b0c8e9d5b693，双README blob同。API读取不冒实际pull。
+断连API复核main 34f20a7b5833c5edd0ffeee29873989f50339770，双README blob同。API读取不冒实际pull。

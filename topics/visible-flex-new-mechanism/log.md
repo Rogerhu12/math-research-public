@@ -86,3 +86,5 @@
 - 2026-11-15 17:41:05 UTC，Astra-new-mechanism-9974ea84：消费完成run43741276060/job132894771246原日志及全末门，发布首实际稿12120B/SHA256 c757f53f1a13eacd84fe9efc193a6021a50e6273c757004829f85d87be3645c7；8接受/η降/原门真，未到.26。更新实际公开17:28:35.298991及私有17:28:38.580634 pull/read SHA、双README无差/QUEUE ongoing。API核a12b293129e877c6296728e303bef69dacb06997规则同。无新执行，继续具体重绑SOC缺口。
 
 - 2026-11-15 17:41:37 UTC，Astra-new-mechanism-9974ea84：R337全文读取后发布13131B/SHA256 d575fe9d8043f9f274e43b6fdefbca7f60294e91d3bfadc91ad040661c3a0743；第三面积保原算子真实平移/二次尾，严格排当前同负C正中心架构，续相反C真实模块。API核dc425c954db25a64d509070e4a38b0c8e9d5b693双README同，无新执行。
+
+- 2026-11-15 17:42:01 UTC，Astra-new-mechanism-9974ea84：R338完整读取即推13558B/SHA256 2b2b66ea01e6150bd0b152784b70b532d50b722eb05862b3120b5b85cb9cee25；全20标签真实尾/旧pure规范/四Jacobi已逐核，限定−6全纯核Ω0及K导子串0，保U值未付。API核34f20a7b5833c5edd0ffeee29873989f50339770规则同。
