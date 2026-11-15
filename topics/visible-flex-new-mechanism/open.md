@@ -39,7 +39,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 当前直接后继：
 
 1. 对同一端芽的一般局部rank-two实圆，从原完整mixed槽重算同一annihilator：保 f″、g″及三导交叉、全部ordered尾，判断是否仍正定；不得凭重叠自由度增大宣可行。
-2. 对非圆轨道先检查真实旧三矩/第三range与同一余量；固定rank-one包空间内仅换幅值曲线未必逃离，须证明而非猜测。
+2. [R311](results/R311-continuous-rank-one-profile-orbits-are-rigid-under-the-complete-low-order-gates.md)已逐参数证明固定rank-one包空间任意连续轨道刚性：旧面积/三个directed门/新一层迫ci²=ai²，连通初值迫ci=ai，零ai亦覆盖。三矩本身允许真实sqrt(ai²+tv_i)非圆轨道，阻断来自更完整门。因此仅换圆为椭圆、高维幅值曲线或非GL2轨道不再是后继；必须离开这个固定包空间或改初始合法端芽。
 3. 若换几何端芽，从最初实际安装，并重新支付相应完整period/ruling及输入轨道。不能在已固定g上事后改seed/g，也不通过κ=0除零退化冒取旧公式。
 
 ### 已付有限原式可复用，不能把低阶保持当自动零
