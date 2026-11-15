@@ -37,3 +37,7 @@ root已读完整新增编排器、workflow、request和接口。源a1ba1cd8在�
 ## 2026-11-15 06:29:31 UTC /root — request112 拒绝后缩半径重算完整方向
 
 root已读科学/reader/request/workflow全部相对108差异及完整接口。仅新整组拒绝后的quarter重算策略，p/state/J不采用拒绝点；8方向总预算含拒绝，原20trial/完整3列QR/原最终块保持。actual108真recipe98d5d9e0，sourceb9fff58b/request5840314f/workflowc2c1d4c7。独立公开Actions/report与原规则监控；无本地科学，接口公式按根规则4统一$$。110实际43685348016正在连续原模型，111实际完成等待读回。
+
+## 2026-11-15 06:31:03 UTC /root — actual111 完整换门与诚实预算未付
+
+[实际结论](notes/2026-11-15-actual111-exact-phase-switch-and-unresolved-budget.md)：深度2五闭叶全付，深度1两个u叶明确预算未付，所有解析预期匹配。u根moving端点41/25均正但内部Sturm根数1，准确拒绝；旧四整圆门均false。summary7898B/7279b591，full38169B/876be9cd与28682B/010f91f3，不存raw。R281不等此例审批，已完成；下一补真实连续球producer与实际native/小核主线。
