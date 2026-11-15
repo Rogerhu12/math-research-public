@@ -259,3 +259,10 @@ R56/R243的真实有限s函数空间由有限点评价忠实承载；把hatK的1
 [R302 完整证明](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)核χ30/32/37/40来自真实R77 area及完整R71 lift；A(a)A0^R Lχ正则前缀保基点Tχ并保2V_A0成本。整个长块含旧后缀允许自由h，九原约束只保M0/端口/frame，τ可漂移。R101同名共享原型及当前整块真倒行使完整字对每个扰动仍M=T0，所有漂移成本保留；此结构补R225所留实现条件，未用diagonal替代完整第三槽。
 
 在全部新基准上重建R222增强C1截面，全(pure,T9,q单u)方程用I/4I导块恢复目标，再以先frame后九约束安装真正κe/ε二维开邻域中的ε=κe²/4。新增观测是固定原query，其自由h导数有光滑s密度；精确约束内jet满射/有限坏点投影给Morse，Klein用改后真实位移闭合。故新窄几何类可实际指定整T和一个固定u的self。root全文读，mechanism独核R101整词/九约束关键；未授全部self、另一冻结Gaussian圆或完整period/ruling/同g有限族。无新执行。
+
+
+## R301：完整self的五维平移轮廓与至多五包的真实联合控制
+
+[R301 完整证明](results/R301-five-dimensional-translated-full-self-control-and-compatibility.md)用原N的E8表取A0=P、A1=(R+S)/2、A2=(U−L)/3、A3=T/12−V/3、A4=−p2/6，NA_l=A_{l−1}。χ30没有显x，真实同锚平移给完整q_{u_c}(B_Alχ30)=Σc^r d_{l−r}/r!；d0=3/512∫u″²u‴²严格正，故恰全Pol≤4。全部C²余项和原尾均保，非仅principal。
+
+≤5个同母同宽异中心及非零幅包的完整self矩阵det=∏ρj⁴·d0^m·Vandermonde/∏l!；与R297九矩列准确三角化，R222保所有基准给actual全pure/九矩/这m个self同时指定。任意多中心只有该五模块的准确四次插值iff，不宣整个响应空间障碍；整个canonical self轮廓可能更高次。换母包需重调，有限紧C1→C3母族可统一有限计数/收缩截面，不能由同C²F★推继承旧几何。root全文原链/同锚/行列式/参数范围核读；无新执行。

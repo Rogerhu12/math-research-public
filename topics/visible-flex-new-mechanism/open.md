@@ -161,4 +161,6 @@ R293/294从起点F⁺已联合付全部二层×全角、72面积/三矩/全third
 
 R292保YW真右累计，R295由末真实high/low迫整T_B0、各self q_i0；q有C³主平方，不能冒低阶纤维。R297原χ32/37/40的c矩给九单位响应，保所有基准的R222 m9取得actual纯零/T任意。R298 χ30/P又给T0而完整q=3/512∫u″²u‴²>0；九矩加单个预固定u的self可真m10控制，两actual矩阵零hook整q差非C²。
 
-[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。**下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。
+[R302](results/R302-regular-chi-prototypes-shared-reversal-and-enhanced-Morse-control.md)已补结构几何：成对正则前缀保基点χ/全基准，自由h遍及整长块，仅保M0允许τ漂移；R101共享当前整块及真倒行保持字级M=T0，新基准重建完整增强截面后用全目标IFT恢复。联合κe/ε开邻域安装共振偶germ，有限光滑s密度与坏点投影取全域Morse，真实Klein位移闭合。此法不要求逐原型冻结全部T；不是diagonal覆盖。[R301](results/R301-five-dimensional-translated-full-self-control-and-compatibility.md)原χ30×二次五平移链给完整self轮廓Pol≤4，d0>0使≤5同母同宽异中心的self与9矩准确Vandermonde联调；多中心仅该五模块的插值iff，非全R障碍。换shape须重新联调，有界C1→C3母族可统一有限控制，不由同C²Fang保持。
+
+**下一同一选型下支付全部self/完整period/同w，并核与Gaussian母包的选择次序。** 单个预固定u不等于所有最终q_i或整self函数，分别满射不能相加。数值run43728280256已成功，原大日志读取连续传输closed，补只读原log的公共观察步骤，未判actual改善。
