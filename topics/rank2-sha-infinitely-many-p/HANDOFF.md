@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：36b55cffd976a4fff13c5b717c3a33c4d53f2729；2026-11-15 08:48:24 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:48:23 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
+- 最近已读规则提交：54fe9b190d5d9b146d7c8481b6169016c30f1fab；2026-11-15 08:51:03 UTC核两README无变。实际CI pull 2026-11-15 08:39:25 UTC/bcda802f775facb68d37ca6d884d50119d646e81（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:51:03 UTC仍无环境。最迟2026-11-15 09:25 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -16,7 +16,7 @@
 ## 完整前检与当前分工
 
 压缩前全文：[R720后HANDOFF](notes/2026-11-15-frontier-after-r720.md)，沿链保持全部原预算/坏集/域与旧问题；本摘要不关闭任何旧门。
-R1–363、365–560、562–653、655–700、701–711、713–718、720已登记；R364/R561/R654及主目标开。主入口results.md、notes/PROOF-INDEX-R701-R750.md。
+R1–363、365–560、562–653、655–700、701–711、713–718、720–721已登记；R364/R561/R654及主目标开。主入口results.md、notes/PROOF-INDEX-R701-R750.md。
 root唯一metadata/ref写者；代理仅交独有proof/script/blob。deep R712同R指定forcing；theta R719真实混合/J2与两斜门；literature原第一wild tame averages；root R720后原CM分布到中央条件的算术联系。
 
 固定E17/E24/E2312的rank2为R294/398/469；完整Selmer桥2+corankSha≤2ordJ。需同一无穷p族至少一条固定原J′非零。quartic E17/E136/E389、R364、O4原δ^aεw的a≤1无穷p、O6 q_p=1无穷p/全核Np仍按open依序。
@@ -62,3 +62,5 @@ R709原平面Q_D<s时目标p前缀全单位，阈≈141D²/2，无Δ_D；exact k
 [极端carry短行](notes/2026-11-15-extreme-carry-multiplied-actual-forcing.md)：ell=r、s=2h+1，先乘同μ后全目标=iotaξ((m|C)e(b_su²/(2a)+3tξ)) modt^(h+1−r)。保原ξ0，不改Pfact；全部行由同F实际forcing恢复。r1同R矩阵已给，unit常数不判非零。R712继续全真实像、两13carry/d2，不以接口重排冒非零。
 
 [两斜门完整返回](notes/2026-11-15-two-adjacent-s-slanted-cores-and-native-pair.md)已付：原全六输入μ|Li deepℓ=λℓ(RY^ℓ PLi,κℓ)_*μ，由R664全联合及Y核单射约去，不认whole10710标量。q移位为t的≤30次整权；原paired负矩准确为λ^(2n+2N)Σk u^k/k·(M1k(t)−M3k(t))，deg≤30+k，t1差零但t−1是unit。全部C支/原Yunit/尾保；近消分区另排固定p|19·61·22699·64111，不改高幂ray。
+
+**R721** 显式h_p=(x²/y)Σ_{j<s}a_j(b/y²)^j，a1=−3/5、a_j=(6j−3)/(6j−1)a_(j−1)，末系数unit；同H−h_p=O(z^p)。Zhat=Z+cp^-1h_p^p匹配全部q窗且DZhat=1，极帽准确M_pD2、M_p=p(2s−1)，在只D2/原型/全窗类中最小。Σ_AH全部原首Cartier不变，总帽降m(q−6)M_pD2，3M_p个真实单零及负幂成本保。中央非零门不变。
