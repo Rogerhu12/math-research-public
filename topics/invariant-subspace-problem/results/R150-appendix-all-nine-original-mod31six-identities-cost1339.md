@@ -233,16 +233,16 @@ $$
 [完整实际审计](../notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json)。
 该记录亦保此次完整回执、最终来源散列、来源源码提交和发布失败及恢复状态，不凭重新计算结果覆盖原实绩。
 
-## 6. 完整证书和数据保存
+## 6. 实际证书身份、历史发布与现行保存规则
 
-九列primitive来源与原未缩放17式来源各为256783738原字节。两者均完整保存，而非只留散列。
+九列primitive来源与原未缩放17式来源各为256783738原字节，原运行及旧规则下均已完整核验和发布。根README规则15更新后，可重算大数据已从当前main删除；现在只保存脚本、参数、运行号、输出SHA和简要结果，禁止重新以Git分片、Release或大工件存档。下面的字节数与发布记录是已发生的历史事实，不表示这些数据仍在当前main。
 
 | 完整来源 | 原文件SHA256 | gzip字节数 |
 |---|---|---:|
 | primitive来源 | ee004a1908356c22a1e095082f5250fdda07ef83a5797b7346e49ff029a185a1 | 232989760 |
 | 原未缩放17式来源 | 1f2f23ab12da3f2113413a6153c92ec474e1f0abccc1f003b2347834b67e9f68 | 232990336 |
 
-每个gzip均按4500000字节上限保存52片。先按清单核每片字节数与散列、顺序连接，再解压，可恢复上述完整原来源文件。完整gzip SHA256依次为
+旧规则下每个gzip曾分为52片，完整原字节的核验已完成。现行规则禁止以分片绕过文件大小限制，后继不再照此发布。历史完整gzip SHA256依次为
 
 $$
 \mathtt{0215058d60cbc4ff5a9634aa7589794583451a12ee1fcb936cd4e106ee8c4141},
@@ -266,9 +266,9 @@ $$
 
 三个artifact的完整ZIP SHA256和所有小回执原字节SHA256均在上述实际审计中。根已下载紧凑包，核ZIP SHA256、CRC及六份实际回执的原字节散列，并逐项核最终完成标志与实际来源成本。
 
-完整数据的长期仓库目录为
-[r150-saturated-third-global-actions-789f/43674463008-1](../notes/r150-saturated-third-global-actions-789f/43674463008-1/)。
-完整目录已实际进入主分支，最终提交为
+完整数据的历史目录为
+[r150-saturated-third-global-actions-789f/43674463008-1](https://github.com/Rogerhu12/math-research-public/tree/0d642288dbc6f42f3765edd8c104d48881dae208/topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43674463008-1)。
+完整目录当时已实际进入主分支，最终历史提交为
 [0d642288dbc6f42f3765edd8c104d48881dae208](https://github.com/Rogerhu12/math-research-public/commit/0d642288dbc6f42f3765edd8c104d48881dae208)。
 [发布完成运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43677160684)
 逐个推进六条不超过400000000字节的数据提交，六次main推送全部成功；七次实际pull/rebase后两份README均无差异。1047个存储文件的路径与Git内容标识映射SHA256为
@@ -291,4 +291,4 @@ $$
 [固定来源界的下降定理](R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)
 只有在同一费用界、同一目标和同一分母指数对无界精度成立时才给特征零结论；
 [条件来源8740](R150-appendix-common-minor-factor-conditional-source-cost8740.md)
-也没有预先保证成员性或无穷远leading coefficient的31单位条件。后继继续这些真实特征零接口，使用本次已经保存的原来源，不重已完成的第二、第三页或最终九列。
+也没有预先保证成员性或无穷远leading coefficient的31单位条件。后继继续这些真实特征零接口，以已提交源码、参数和散列确定本次原来源；需要时读取历史或重现必要数据，不重复已经关闭的第二、第三页或最终九列。

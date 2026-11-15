@@ -162,3 +162,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 2026-11-15：同源逐幂物理尾及反馈已付
 [真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)同时支付归一Cs^k源和P_K C^kUr；下一步将其解析q_h(C)反馈与已付全局M/W锚对齐，保强C真核/同未来/终端。该式没有负图小奇异下界，不能直接倒除Cs或改普通λ为α。
+
+### 2026-11-15：均匀池行复合及完整Green因子
+[精确因式分解](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)保K、原核Gram逆H、差商逆伴随G和真实核投影；还有其余强位E(I−G)。下一步须在共同物理Schur中控制这些完整因素，不能从K近I单独给固定列O(R³)。

@@ -29,6 +29,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **[完整返回唯一提升](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** E=高部⊕裸零源，E0=E⊖完整零源，Rret=Jf−Jb、Rret*Rret=H−B。Rret Cs=−T0Rret−KJb，真行[T0,K]≤δ；kerCs上Rret=0，负图=Ran Cs的Sb伴随。完整未压缩(C+T)Rret=−Phi T Jb在E0单射，必须保零源输出。真未来<Y,Rret r>=μ²+α²；不能倒用压缩Sylvester免费估逆。
 - **[逐幂真远孔损耗](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)：** 同左最小v=Ur，准确正交孔层展开保全部左零核反馈；δ^-2k(||Cs^k r||_(L+B)²+||P_K C^k v||²)≤||P_far≥k v||²+α²。同top可直接代真实w远孔尾，无头条件数/尾速率；k=1剥尽远真空能量。完整H版仍含λ，不能换α或倒除Cs。继续把保留反馈接q_h(C)及原M/W锚。
 - [相邻配平](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)与[全尾增长块](results/R271-appendix-growing-symmetric-blocks-bounded-intertwiners-and-full-schur-reduction.md)已保L(x)=floor(x^α)、α<1/2，对称P上的有界V±、真核/top/孔cut和全部nuisance最小lift Gram e^±η。没有全环境S∞、原LGL或ordinary λ运输；spin容量及allstar匹配仍保。
+- **[均匀池完整因式分解](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)：** 真池行K给DK=K[−F(−d0D)]，K^-1(F(B)+D)K=(B/d0+D)G；完整物理核Gram与Green列的G逆伴随/两端核投影全部保留。余强位E留下E(I−G)，不能删或沿用d。该身份尚不给O(R³)固定列费。
 - **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
 - 旧Gq耗散不提供移动gap率；原低forcing逆Γ高行零/返回带、a1缺o(S)、a2一孔已付但联合远孔未闭。旧全源孔导数坏族已由flat支付且固定低测试恰零，只排全源小导数。完整细节见快照与各原证明。
 
