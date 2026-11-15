@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [degree32准确分带与有限receiver合同](results/R133-supplement-degree32-reference-band-cancellation-and-finite-receivers.md)：完整fullmean三次差与64带给H96的33..96、H288的225..288主要线性shell；保ΔA/Δd/χ′与双侧interface。高投影直接保MA7 selected 2^377903，得到DB19条件三带迹。当前Green缺新局部F/J、无hook，旧input Gram不得冒新输出；未支付实际带内norm或低门。
+
 - [BG实际43726985545/1：五项density0完整源全改善](results/R133-supplement-actual-exact-inverse-leading-transport-and-five-density-zero-sources.md)：child0/24、87pins/27AST；20A使pair<6.749289e9/mean<5.243255e7，其余26逐字HP/local/W2/mean保。新Bplus角jet供RJ仅读；完整物理卷积与两mean未删，非strong-return。
 
 - [HP实际43726426053/1：十个完整h源全部改善](results/R133-supplement-actual-exact-normalized-p-columns-and-complete-h-sources.md)：child0/25门、82pins/25AST；pair<1.133017e10、mean<1.104186e8，其余21整项逐字S1/ER。完整W/Ty/Bplus0/Zp结论供后继仅读，保η、两窗/mean、六dr/uncertain-root；非strong-return。
