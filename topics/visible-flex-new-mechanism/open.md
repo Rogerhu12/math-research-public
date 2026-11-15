@@ -40,7 +40,9 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R183](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md)已构造真正重叠的导数分包圆：原平台有三条实射影方向，不能GL2变为不交；三个左补偿包准确付三复矩，八个完整包付四条第三ruling，H在该平面全三次槽为零。保八个独立有符号mixed方向；下一处理同一圆完整period和ruling模原二阶矩像的共同匹配，不能直接套R50不交假设。
 
-[R181](results/R181-degenerate-self-adjoint-equation-for-fixed-circle-period-gauges.md)已给L_f的准确退化自伴ODE、同右锚两常数、双collar/七线性约束与每个A_f零点的累计通量必要门；多包斜率给独立有符号方向。下一研究真正重叠圆及周期与第四ruling的共同线性匹配，不把通量必要条件当充分。只控制第四period，完整第四ruling仍欠；既有R50不交常段障碍不删除，不为该已排实例重跑计算。原canonical U/条件λ只管零incoming规则，不能未经证明延至此独立w；也不能以新增方向宣布第四可解。
+[R181](results/R181-degenerate-self-adjoint-equation-for-fixed-circle-period-gauges.md)已给L_f的准确退化自伴ODE、同右锚两常数、双collar/七线性约束与每个A_f零点的累计通量必要门；多包斜率给独立有符号方向。R183真正重叠圆已付低阶；下一具体解周期与第四ruling的共同线性匹配，不把通量必要条件当充分。只控制第四period，完整第四ruling仍欠；既有R50不交常段障碍不删除，不为该已排实例重跑计算。原canonical U/条件λ只管零incoming规则，不能未经证明延至此独立w；也不能以新增方向宣布第四可解。
+
+[R184](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md)已把全部二阶/三阶gauge下的第四可解性准确化为同一w的联合仿射线性问题：保第三range，V0+Lθw=0，并且K0+Bθw落三列矩像W。平方项由真实第三gauge的单φ Gram右逆准确支付，保光滑全相位/种子；不能分别解两式取不同w。hook时Lθ=2κL_f。下一在R183具体圆上处理这个joint像或计算R181内部退化点的真实不变量，不把有限试空间无解冒全无解。
 
 [R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
 
@@ -66,7 +68,7 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 [R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)及[R179](results/R179-universal-independence-of-fixed-color-remainder-words.md)已经给规范两根表的真实函数含义；旧pure依原转换和规范语法复用，不重40/31或70字面关系。
 
-**最新word actual43675575597/sourcef423160a已在第62列发现真实关系排除R177，值384。** 首62/77列已转，代表rank52、10完整原关系，旧B/R168/R174外1新等式；17.9188s/RSS165.293。2332原atoms中2171完整可达且严格q/qbar，161未用模板保全。完整cert295591/0a3ee52c与state551408/48c260b7已发布，cursor62无active；下一同源resume目录/main d23d6bee/receipt5d3a0cf2并--finish-all-77，只付剩余15列，复用已过atom人工2。
+**最新word actual43675575597/sourcef423160a已在第62列发现真实关系排除R177，值384。** 首62/77列已转，代表rank52、10完整原关系，旧B/R168/R174外1新等式；17.9188s/RSS165.293。2332原atoms中2171完整可达且严格q/qbar，161未用模板保全。完整cert295591/0a3ee52c与state551408/48c260b7已发布，cursor62无active；当前actual43676765171/sourceca4e5286同源resume目录/main d23d6bee/receipt5d3a0cf2并--finish-all-77，只付剩余15列，复用已过atom人工2。
 
 [R182](results/R182-shared-word-original-identity-rejects-the-all-layer-positive-point.md)已从完整原式关系推出低层常数 **D0=−α−β**；旧必要外空间12→11，非完整真实head。原64投影转换保右锚、规范语法与两faithful分量，不以字面相消冒原函数证明。
 
