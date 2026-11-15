@@ -132,3 +132,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 真正返回满足正向方程(C+D_x)Rr=−P_hi T J_b r，不能以伴随估计直接乘其残量。实际P_Ehat和全部零源Schur一般不保孔数；原n≈Q≫x窗口未被上述引理覆盖。继续同W真实forcing抵消/投影运输；T−L_m跨位carry估计只用于实际出现的同源误差。
 
 联合bit反馈的原核整行下界已付，原W仅有固定列强零；移动整行上界尚缺。Riordan右/裸/全旗及同窗误差已付，强gauge末端和完整左费用未付。其余正常有限秩相容链、下一完整尾距离、原Haar循环性和全部旧开放接口保持上文与归档的范围。
+
+
+### 原T上的局部读数已付，返回与规范形式原像继续
+
+[原T完整证明](results/R271-appendix-true-global-anisotropic-low-head-growing-tail-adjoint-readout.md)取u=N+s+1024、x=48u，先核G0输出总孔<4u，全部跨头carry在X3里有B_s(x)e^(−40u⁴)预算；一次Gtrue=G0−G3(T−L_m)G0给原T的准确右逆TGtrue=Π。完整局部伴随MP读数为Gtrue*(I−PkerT)，固定早孔s、远孔≤N成本exp[O_s(log^(4/3)(N+2))]。已付原carry运输；没有把W放入T*像、没有删除核forcing，也不覆盖n≈Q≫x返回。继续真正返回投影及N⊥的规范形式原像。
