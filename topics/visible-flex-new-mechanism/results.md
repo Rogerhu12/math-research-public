@@ -335,3 +335,5 @@
 - [R161实际：唯一J6 balanced原差仍未决](notes/R161-one-balanced-J6-difference-actual-boundary.md) — actual43661460271/sourceae7e5af3消费R160已证Q身份，只1目标+6旧mixed根；1335项完整差的502项balanced原差归约留176项（45cycle fallback），0.509s/RSS69.414。没有新增成员/非成员、维数、c0或b1零条件。10原根及余项全存，下一单J6真实原评价可消费旧42枢轴与R153残差组成隐式43比较；不提高NF预算或重pure/旧31/40。
 
 - [SOC首轮实际跨过曲率60](notes/curvature-soc-first-actual-result-20261115.md) — run43660745541/source3fd3bbe8保持同g/b0/163，model5的真实SOC使双网κ63.5172→59.7113、全部原物理门通过。model3细网漏4行先拒绝；最终b03c522a，fineη.267199711466、strip余8.26e−8、cap近活跃。进入55后主步.16约成功步九倍，连续补池至4198/1118，未进SOC；12LP=10primary+2SOC、23粗细值、活动55.806s、总430.614s/RSS2272136KiB。下一继承成功尺度trust1/1000与全部池，同预算续55，不放宽门或宣连续reach。
+
+- [继承成功尺度后的两网曲率59.5101与曲线回退入口](notes/curvature-inherited-scale-first-actual-result-20261115.md) — actual43662323270/sourcebb41e860仅初始trust.001，同g/b0/163/原门。model3/4原步α1/8、1/32两次合格接纳到78b36，κ59.7113→59.5101、fineη.267199864505；55未达。模型3后无遗漏，末池4208/1176，SOC6虽大降metric余差仍不合格；末SOC7有LP无值不认。12LP/40值、活动30.688s/总256.541s。下一保同预算，仅把失败SOC后的直线回退改为含已有修正的二次曲线，全门仍验。
