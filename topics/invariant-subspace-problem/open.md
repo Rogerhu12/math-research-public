@@ -138,3 +138,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [原9×9 pencil非幂零](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)：s=4/3/5全真实产品通过，s4非零trace排全正常有限几何级数逆；不否原h0目标、完整Γ反馈或s=2局部来源，勿重试该普适幂零捷径。
 
 [保原D的交换resolvent](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)给闭直和ℒ和R_x=(I+xℒ/4)^−1、uniform2、R/R*在共同原H强趋I、保D/C/孔cut与核旗。整链平滑后与重取顺次MP之差是同K_Q纯future核，故同实际u配对中可交换R位置并保两端；future端交换能量1/x、完整ℒ残量12/x、整正交旗行81/x均保真实输入范数。尚缺A_nR或RA_n返回预算，不把保持旗说成与正交投影对易。
+
+[统一扇形与同一热算子全阶平滑](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)已付ℒ+4I/x的π/4数值域和闭直和，T=e^(−xℒ/4)范数≤e^.5、所有||ℒ^kT||≤e^1.5 k!(8/x)^k、完整正交旗交换行<160||v||²/x。原D/C/孔cut、同u完整链与paired交换仍真，T/T*强趋I；尚须支付T A_n实际混合返回，不能把全阶正则性当所需费用上界。
