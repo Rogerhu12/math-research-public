@@ -53,8 +53,21 @@ v4两个同选点优化仅standby，当前v3不改不取消。
 新Gram保完整signed $W$、任意指数dyadic正权、真实全193乘积、
 同97均值/切口与最终 $C^*HC$；不能逐entry取min或用有限sample
 冒未知high。取得真实HY后，消费原low97缺陷、
-signed tr(HY Werr)、全部9/10 Hermite端和独立mean，接真正
-||qν−Z||≤.005及参数Schur。
+signed tr(HY Werr)、全部9/10 Hermite端和独立mean。
+[S三真实HY→actual帽→完整low/high Schur](results/R133-supplement-true-Poisson-Grams-actual-cap-transfer-and-complete-low-high-Schur.md)
+现明确下一消费：pY=√||HY||，ε=max(||S0||,1)||HC0||/5，τ=εp_cut<1时
+先得到actual有限边界逆，再更新原signed cap/body列；新扰动只付εpY，
+不增加√97，也不把HY/(1−τ)²误写成新Loewner矩阵。
+三个输出whole/negative/cut始终不同；真实high inverse GH及其body/cut双输出
+另给非负B后，才用2×2 AB的三条有理门闭全频Schur。
+
+原P17–22/24和L9的ν响应功能只积分[0,r*]，r*≤rplus，
+因此需要全频||qν−Z||L²([0,rplus])≤.005；全[0,.9]的.00749不被换名。
+原physical fourth-mode及mean行、high源/真实seam/actualcap改动均保。
+零宽γA0入球、未知high Wiener trace和Ψ非线性余项是独立门；
+当前tail原解析γ入口尚待粗输入种子转授，有限H不自动给解析性。
+一般bordered矩阵只保当前真正出现的参数/荷；自由半面的height/frame是几何输出。
+Green final与上述GH/B/γ/参数门尚未由该条件定理支付。
 
 ## 3. 真实共同参考、完整源与强返回
 
@@ -362,10 +375,10 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
-本机executor持续不可用，09:28:36定时及09:54非FF即时pull仍返回无环境；
+本机executor持续不可用，10:24:25定时及09:54非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull10:13:55.854700
-到ebf7789134ebe11a80d4fa489e6f3423024db968，18次两README diff均空。
+ref读取不叫pull。最新亲读runner真pull10:24:24.107001及10:24:29.757575
+到28a923c42e0500619004045b40e1d93950799b7d，两README diff均空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

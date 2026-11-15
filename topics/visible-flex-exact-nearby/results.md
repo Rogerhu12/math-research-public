@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实Poisson Grams与actual帽完整Schur条件](results/R133-supplement-true-Poisson-Grams-actual-cap-transfer-and-complete-low-high-Schur.md)：固定旧body上τ=εp_cut<1可转授actual低97边界逆，保旧signed cap contraction，新完整扰动用εpY；合法Young Gram与真实GH/B的2×2 AB门明确。原ν .005门是[0,rplus]全频误差，消费P/L的[0,r*]功能，不冒全[0,.9]。γ入球/强hightrace/非线性余项/tail输入域与真参数行另付；无新数值通过声明。
+
 - [两窗完整directed-word严格复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)：原KΛ全指数lag矩阵界的κ5/3同时控制H^-8/3→H^-5/3及H^-5/3→H^-2/3。八个旧wholeword常数可按原正算法预算lower的统一比率乘已成功的逐项L²界；不重复g/导数/积分，不相减upper。SV与Bop/Bj身份及外CJ/独立meanfactor保。数字改进须新标量Actions。
 
 - [单半面自由安放与腰反射](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md) §9：准确消费原M3–12。真实far全四态加同B一次mean-height接合后用单一frame；完整内core B/C及Cmean匹配后径向重建无需另一函数位置条件，腰反射复制成闭C²浸入。当前没有两个独立给定世界锚；ΔHp/未screen跨度/bF/bQ仍为真几何输出。所有PDE、内匹配、设计ν与同对象G17/G24仍待，未授最终闭合。

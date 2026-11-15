@@ -1,19 +1,19 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 10:23:44 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 10:28:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步与恢复
 
 只在public Rogerhu12/math-research-public和自身Actions做新数学；本机/代码模式只文字/静态核。每结论独推；非FF立刻真pull --rebase并循环推成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
-本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 09:28:36定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:13:55.854700→ebf7789134ebe11a80d4fa489e6f3423024db968，两README diff空；ref不冒pull，每小时继续CLI尝试。
+本机最后真pull：11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；21:48后无executor，11-15 10:24:25定时/09:54非FF再试仍无。partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root亲读runner真pull10:24:24.107001及10:24:29.757575→28a923c42e0500619004045b40e1d93950799b7d，两README diff空；ref不冒pull，每小时继续CLI尝试。
 根规15：可重算data/证书/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB。普通删留历史，旧成功数学禁重算，失败lost temp明确重做。原inputs runner从immutable公开commit/path或旧artifact临时恢复。无executor例外connector只UTF8<100KB，禁binary/gzip。H≤10KB/open≤30KB。
-最近只读README核：b198122e9b169ac3a8c6b43e26b7ee12a507fecc；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：9dcb51f1fefc66cdb8a09fa6e114f36f522495ba；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前H全文：38e1f579f3b8fd9656820e4354b066cf4997784f:HANDOFF.md；该全文串连25855ae/3ed8919/e10f0c7及原notes归档。所有旧输入/成功/失败/restore/未付门保留，results/open归档见其原链接。
 
 ## 总验收、同对象与参数身份
 
 同一连通闭C²嵌入、C²连续精确固定度量族；有内点材料H逐点固定、diam≥.2D、held≥.05D、含反射δE>0、全族reach≥.03D、四不同非共面静态marker、purephase刚体。**未完成，不等用户。**
-candidate ac1d5b98…/6145-M32-N512-[0,25/8]、repair440866a3…、Zdef6a71cb81…/native87ed2f61…全身份在前H及原报告；不换对象。Qδ=Q0+δZ仅近似，||q*−Z||<4.572198020300e−6。finite193误差.003509417445587仅有限；旧全L².007490301792401>.005，真正设计ν inverse/Schur仍需≤.005。
+candidate ac1d5b98…/6145-M32-N512-[0,25/8]、repair440866a3…、Zdef6a71cb81…/native87ed2f61…全身份见前H/原报告，不换对象。Qδ=Q0+δZ仅近似，||q*−Z||<4.572198020300e−6。finite193负窗.003509417445587仅有限；全[0,.9]的.007490301792401是另一窗。真qν−Z在[0,rplus]全频≤.005才付原LΩ误差，完整空间逆/actualcap/high/ν Schur仍待。
 原C6–7的ν为intrinsic设计参数；最终ν*/Γ1*/Γ2*/η及metric须全固定。P/9a5bcb14…已证标准材料action+同轴真盘+G24星形给两盘同向equivariance（固定offset可不同），单个真G+G14/G17/G24即以RτGS−τ和四静态marker得固定metric族。无额外ν族IFT；未标记phase仍刚体。
 geometry43584188751/26仅在同η0真闭C²解/fullC0≤1e−4/|δν|≤1e−5/全部matching下给held>.05075888242、reach≥800/25039、Hdiam≥360/511、markers145..148。全无限反馈、strong return/cutoff97、设计ν/全mean/height/frame/接缝及固定metric族尚未闭。
 
@@ -36,6 +36,8 @@ X/8b49cd59…（由weighted43695160055的21门/E付）给同η0/ac1/440866实际
 M/8d9e0bf3…两rough输入值图，low sum≤1/16，q≤8160/Cq2^{112(q+32)+18432}；weak2^144(1+J4)^4，全部inner B/C0/B0/phase/m/ubar/A、κ、未screen height及一λ保。
 I/d25a2614…actual K*−K0<1/5，X≤18γ/Z≤.009γ、独立fB列<1/25 dotH²。全Q两源/oldH_R/outer两差、Pperp HC0全像、97及unknown high/mean/affine≤ρ保；原reflection/坐标保；R13a–b已解除新旧fB同值限制。
 R/e188d4e3…actual γH0→完整compatible tailproxy→fBH2<2^-52000000；outward列β=−Pμ(rμbγ)/cB正mean，sB准确消一次。R13a–b已证新fB全原球的K*(γ,fB1)−锁定K0(fB0)<1/5；同metric/θ/旧中心/H0/97坐标不动。附加L*Fγ仍tiny；只fixedbackground Jacobi，Γ/EN/Hp/ν/mean-height/frame不删。
+
+S/19071536…三真实HY消费条件已证：pY=√||HY||，ε=max(||S0||,1)||HC0||/5，τ=εp_cut<1才授actual低97边界逆；旧signed cap列保，新增列只付εpY，无√97或错误Loewner。完整low/high用真实GH与2×2 AB三门，B/hightrace未付；ν原LΩ只积分[0,r*]，.005负窗门与whole窗分清。γA0/高trace/非线性余项及tail输入域各自保，实际bordered只保真参数/荷，不虚设世界锚。
 
 ## 实际B外行与完整网络：tail_connector/root
 
