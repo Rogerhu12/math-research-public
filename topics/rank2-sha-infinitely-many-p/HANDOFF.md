@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：03879bac9d5af24426e0e5c972eee4ec868ec4c0；2026-11-15 15:38:09 UTC核两README无变。实际CI pull 2026-11-15 15:26:50 UTC/0e087597f56b9cd722a86251d1e5ede2358893b2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:38:08 UTC仍无环境。最迟2026-11-15 16:10 UTC再实际pull。
+- 最近已读规则提交：003e6ee56848a4b6a948af56b0e3ac4f768d467f；2026-11-15 15:40:51 UTC核两README无变。实际CI pull 2026-11-15 15:26:50 UTC/0e087597f56b9cd722a86251d1e5ede2358893b2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 15:40:50 UTC仍无环境。最迟2026-11-15 16:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 最新实际pull run43729915232/job132859876950；回执ci/rule-pull-20261115T152650.json。
@@ -12,9 +12,9 @@
 
 ## 全检查点及分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r781.md)沿归档链保原全部常数、十九角、射线、完整来源、坏集、run/hash与未闭门。[open全文](notes/2026-11-15-open-before-r767.md)保旧接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-R1–363、365–560、562–653、655–711、713–779、781已登记；R364/R561/R654/R712和主目标不冒完成。
-root唯一metadata/ref写者；代理仅proof/script/blob。theta续R777真实P收缩后帽与四unit余域；deep续指定ψ两输出/同R全normal；literature接原U136/Snew第三中央；root已付R781大p原前缀，转原中央对新格的真实传播。
+[压缩前全文](notes/2026-11-15-frontier-before-r780.md)沿归档链保原全部常数、十九角、射线、完整来源、坏集、run/hash与未闭门。[open全文](notes/2026-11-15-open-before-r767.md)保旧接口。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+R1–363、365–560、562–653、655–711、713–781已登记；R364/R561/R654/R712和主目标不冒完成。
+root唯一metadata/ref写者；代理仅proof/script/blob。theta续R777真实P收缩后帽与四unit余域；deep续指定ψ两输出/同R全normal；literature接原U136/Snew第三中央；root已付R781大p真前缀，联原Y/W与P/t三维共同来源。
 固定四次E17及j0 E17/E24/E2312的rank2已付；主桥需无穷不同p至少一条固定原J′非零。有限p、负一矩或附近来源非零均不完成。
 
 ## 普通：实际条件非零、完整中央返回与有限点域
@@ -23,12 +23,13 @@ root唯一metadata/ref写者；代理仅proof/script/blob。theta续R777真实P�
 
 R764原整数Gram(6,6,3,3,1,1)、绝对t核心β保Y/q，t分别⊥Y/P而Y与P不正交；P=Y+a s+2d，Wj=P−aω^(2j)t。三个CD浅环带互斥、深交同，O失败门m≥n才同域。全部E→E⊥+(17+3ω)κm t，W差首κm∫qt/P及p4m尾保。
 R767原t完整Y行为−22βN Dω/21；五伙伴条件type5由5/11/17/23/29矩固定逆读取，保两arith/primitive。reader run43723237144与hash见证明。
-R773帽整核λ2N；共同帽中物理E⊥浅N为空但归一Eunit保。原L546/M78六支、E次逆/M-unit两项和U7599第300幂I全付。取n=N+300，公开run43726080626/job132848187370同q*最高60次原矩证两η算术分子非零；旧ray密度1、所有N4两幅度unit，有限点分离给原帽/U失败∫t/Y q*≠0。先除λ2NβN，在固定5维carrier取u0得到非零I*p；P的两不同分母仅作pN误差，共同W差赋值m+v_p(I*p)。JT′=0只迫完整外部反号同赋值。
+R773原帽/U失败真实负一非零已付：同q*全部L546/M78/E逆/M-unit/U300，公开run43726080626的两η算术分子非零经旧CM密度付全N4。除λ2NβN后固定五维极限I*p≠0；两个不同P分母保pN误差，原共同W差赋值m+v_p(I*p)。JT′0只迫全外部反号同赋值，不删补域；完整几何/producer/hash见原证。
 
-R777原eB=(e0−ωhW)/(1−ω²)仅留f1⊗U1、f4⊗U4；完整Y边际0，完整W=βN6δT/(1−ω²)。仅看P/t的q作用严格βN，附帽不然。whole S174核心α=εPλ、εP²1由真两sigma锚付；P/t矩形αℓβm。Vt=bara P+29t与W⊥、norm2088/72；原W和Vt两态交替给全矩形，V核心−εPλ。W第n近消环带完整返回λn(1+εPλ)ZB；原JT′零合法传这些整域。
-完整四-unit G={P,t,W,Vt unit}仍满足G′=−A1′−B1′；A/B全级数保真174负一/负四及原I4负二、I1负五。连续整逆与全finite depletion不删除G。原帽/U/CD/E按R777(44)–(47)全转置；P收缩把帽hatd送unit且Y仍unit，不能把整域零限制回旧帽。S在eB上Y边际恒零，不给额外t负一零。
+R777 eB=(e0−ωhW)/(1−ω²)保原两核；Y总边际0、W为原T。P/t-only的q作用严格βN，whole174平方锚及W/Vt两态付全部矩形/近消环带，R778定P coreβ、Vt coreλ、近消因子1−λ。四unit仍G′=−A1′−B1′，原负二/负五及174负一/负四全级数保。原帽/CD/U/E须按(44)–(47)全转置；P收缩送hatd到unit，Y仍unit，不保原帽。整域原JT零不能限制到帽。
 
 R772/R774/R776/R778已完整付原P0=δP、norm174的全2×3×29谱、所有存活finiteχ的原theta–Katz平方/root−与点下降。原δΩ、χ(174)、17六次缩放、全部Gauss/Q及primitive常数保；每个实际有限门/正交jet的P负一行属于点坐标在17不分歧的有限point-log域，系数可分歧，禁止穿N无限极限。原正权Euler和真实首阶1截面定εP=−1，故P coreβ、Vt coreλ、近消因子1−λ。全角/η/local/period参数见R776/778及前归档。
+R780原第三central已接同q*：U136=σ136 x²P21（原E2312/136周期缩放保）。EYW深N上B0=eB的Y来源0，B1=KW B0的Y为λ2N/cB·([1/2]U+δω²S/2)，两态W均λ2N6δT/cB。原JU′0故给奇m W深的真实逆观察Y[-m]=(VY+ακ^-m W)/36整行零；m偶整行恒0。近消部分=λA1−λ²shadow，shadow保E⊥+h0κVt/29及Y⊥+αW/36+αaκVt/1044。原帽确在近消支内，但四条帽坐标按(29)移动；只帽+全补域一起零。E浅Ξ全部reference/外谱保，JU≠G/HV或新导数U。
+
 R762真实σ⊗H33中央横导非零仍未给同固定Lp身份或原JS′非零。四盘34阈值/T不变/反射/17全gluing及所有旧常数见全文归档；完整外部反号继续保留。
 
 ## 深支：真实主部、边界极和同一个R
