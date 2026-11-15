@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 23:39:43 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 23:45:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 22:59:32定时CLI仍无executor，下一≤23:59。原SN末真pull22:54:50.633088→33106181b03aa96ef5df9c70a6bc35688655efc4，两README空diff；ref读取不冒真pull。
-最近只读README核：d47749f7289ba0965e912a0e0e026bc619ebd4cb；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：955062a211d54e89479d30cc8b30c9d56b0e35e1；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -19,7 +19,7 @@ candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位
 ## 原Actions状态，成功不重
 
 SNA4214de05原43751213826/1 child0/21已成功锁；SCI22817/8fea75ce、exec4dbde1fc/42242/eccb4ce4及207pins/8AST/34pull全核。3146interval/cursor0/12584cells；双branch四导/真H D/ε/μ完整，原lost参考限定重建/旧hash未冒核、18a3/7edf失败保SNA及5899928eedc707938656e8333ec59f9de18e26da同H/open。
-SC3唯一43754452928/1，部署555d311；helper6f868faf/SCI41b8f50c/manifestcd28e23a/flow6936992e，23pins/9history/36archive。仅tuple→list修正；SC1/2失败62bdfc64/f98d1f32保，SC2首row部分new lost、完整row/group/model0、旧math0。23:36正式12steps全success，root已核步骤；完整actual结论待核。禁读104306B大log；97全affine待。
+SC3原43754452928/1 child0/20、12steps全success锁。SCI a05d881b/23672/f0838341、exec34050b25/43738/9ce9955f、report625a4cbf/8796/aded5e9a；root已核32Git/36archive/8AST/23pull和SCI/preGit32824/9f40e616。7908/32groups/4pilot/128tests/完整3×97与独立mean全保存；known约3.8444e−13、完整affine约1.61721e−7，未知body仍主导。actual proof待发布；SC1/2失败/限定lost保原proof，成功禁重/大log禁读。
 两worker的typed只读暂错保healthy child，真正rules/identity/cap失败硬停。每次存prefix沿完整原receipt核；进度不冒数学成功。
 
 ## 当前已付链与下一实际计算
@@ -32,9 +32,9 @@ DX4/ZD→DZA50d9712b原43773671216/1 child0/24锁，14pins/4AST/25球/六registe
 BF e8e29c49真实square T+E+LV、χ=K0 CE ΛJ^-4/3及增广Schur保PUVP/两mean；actualcolumns/全E/matrix仍待。SE22201747的S_nat=Dc+K增2/3、自然−7/6/−5/2窗index0保。FC46ccc206新证固定smooth kernel/cokernel有限W使A+W同一各固定窗可逆，不靠incoming。实际Poisson补列覆盖同一given-head整图，共同diag(Csharp,Id_rest)可在真正incoming逆确成后同侧消。原C核不宣称0；m/真实F列与dual/完整mean/独立ports/finiteinverse及参数uniform仍待。
 BT b5c2f844具体factor：Q97 TF^-1双侧消，旧head dual=E97* S^-1，joint无√193；Z^S右作用只finite Z97 unitary。rootFF/固定端point/mean/cross给真实LV但actual columns待；radial193head和r积分finite family都不自动finite，原SJ/CG/WE paid不减。真实square/独立ports/完整无限误差/finiteinverse仍待。
 PSB e6c777a7完整mean同号Fredholm onto、nilpotent导数矩阵及adjoint/dual/interpolation给同一各固定Hs逆；实coefficient球r<κ、有序resolvent/各阶导数已证。actual高导/数值/真背景membership及fullincoming仍待。
-UT c2734ab5 fullT trial精确替FJ体源：只读SJ三独立正积分与全部3070jump，另新FT endpoint Λ^(1/3)费；cut ngc Bc=Bfree消，腰ng0/TJ逆完整补回，再与oldtrial整界min并按WE原序新paid。两mean/两端/全部retained保，无total−upper。新scalar待，旧成功锁。
+UT c2734ab5 fullT trial精确替FJ体源：只读SJ三独立正积分与全部3070jump，另新FT endpoint Λ^(1/3)费；cut ngc Bc=Bfree消，腰ng0/TJ逆完整补回，再与oldtrial整界min并按WE原序新paid。两mean/两端/全部retained保，无total−upper。新包0144305d/d96f78bc/983ffcea/a853c52a已部署待唯一自然run；9current296854B/3AST/4原success/18原标量/22门，120KB reserve先核。旧成功锁。
 
-NW1469fdd0解析新消费：只读SEI八真导合成v=vo−vi，按LN给true w/p Wiener；CN双mean ODE→一次exp(P0)真实N0，PIB对w给同一N负窗，optional Neumann与旧direct log各整选不混norm。第二[N,Z]左右K_N0/K_N−及forward负窗全序保，结果仅A_Z+B_Z CE、A_Cay+B_Cay CE条件式；完整CE仍未付，linear μ²/Cayley cubic分开。NW新包SCI c8352847/worker c58a65f5/manifest d66bc4a1/flow3f0f1003已部署，9current219503B/2AST/20门/71字段；只新scalar/一次exp(P0)，等唯一自然run。旧成功禁重。
+NW1469fdd0完整true w/p与CN双mean inverse、第二[N,Z]原有序合同见open；完整CE仍未付，linear μ²/Cayley cubic独立。新包SCI c8352847/worker c58a65f5/manifest d66bc4a1/flow3f0f1003唯一43775614821/1已12steps全success；exec1215ffc9/35204/1e327e83、report4f850335/1580/22d640a0保存，actual proof待root核发布。9current/2AST/20门/71字段，只新scalar/一次exp(P0)，旧成功锁。
 
 PTB0ee90c65已证fullprincipal tame：fixed低Wiener cW与L2逆K下，positive估计线性依赖cHs，adjoint/dual negative估计线性依赖cH(s−1)；exact DA=−A Mh I A保一次primitive gain与均值。仅fixedcircle scalar组件，真背景high norms/坐标导数/fulloperator tame仍待。
 

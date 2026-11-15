@@ -152,3 +152,7 @@ SC3原43754452928/1正式12steps全success，root只读核；science/exec/report
 2026-11-15 23:39:43 UTC FC：root全文及phase2–4核通过；fixed smooth Fredholm completion不借incoming，natural权/同两窗/真实Poisson columns/全rest ports原序保。actual m/F列/dual/finite/全incoming仍待，未作数值。
 UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第二次推送成功27063dd2，未force。SC3 SCI23672/f0838341、preGit32824/9f40e616及32inputs/8AST/36artifacts/23pull已root复原，actualproof继续。
 双README读取d47749f7289ba0965e912a0e0e026bc619ebd4cb未变；定时CLI仍按≤23:59继续，根规8小文本例外。
+
+## 2026-11-15 23:45:27 UTC — UT 新端点消费者部署，旧成功只读
+
+两README在955062a211d54e89479d30cc8b30c9d56b0e35e1按blob复核无变。UT合同c2734ab5已先推27063dd2；root全文读SCI434行、与成功DZ2 wrapper全差异及manifest/flow，逐字核9输入296854B（7个既有当前文件在8b3377ad5f78fa05bb9405dfb997faf83d171117核SHA）、4原run/source/manifest/runtime/全部26/24/20/22门、18原标量路径、3独立source与3070jump。PARAMETERS/PINNED/6科学CLI/两端返原trial whole-min/WE顺序/六retained一致；静态delimiter通过，真正3AST由Actions在新数学前执行。保原成功安全流：实际pull+README、120KB reserve、科学先原子保存完整打印、typed只读暂错不杀健康child、非FF真rebase循环、成功绝不重。四blob410f54d2/e3df9b4c/00c0aac9/bcfd6215按原字部署，只接唯一自然push run，不主动dispatch。SC3实际小件与NW12steps成功已保存，完整证明逐一核后推；无本机新数学。

@@ -1,0 +1,90 @@
+name: visible-exact full-normalizer endpoint replacement
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-full-normalizer-endpoint-replacement.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-full-normalizer-endpoint-replacement
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  UT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-full-normalizer-endpoint-replacement-CI-inputs.json
+  UT_MANIFEST_SHA: 983ffcea0cf9a03899cdd56143e4dce6784b482194dcf7445322b280d5bc905f
+  UT_PIPELINE_SHA: 0144305da1dc2587be8801ef2f2175530e7f3e8e5cee0c670677f522550a0afc
+  UT_WORKER_SHA: d96f78bc7b4df1326d92bd475ff4d87ff1d801fdcb842f72cd19cc635ed11b46
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  full-normalizer-endpoint-replacement:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_normalizer_endpoint_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-full-normalizer-endpoint-replacement-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_normalizer_endpoint_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['UT_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_normalizer_endpoint_public_worker.py --mode hydrate
+          --manifest "$UT_MANIFEST" --manifest-sha "$UT_MANIFEST_SHA"
+          --pipeline-sha "$UT_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new consumer and evidence-only SJ source before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['UT_MANIFEST']).read_text())
+          for role in ('source','sj_source'):
+              item=next(x for x in manifest['files'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read four completed records and evaluate only new full-normalizer endpoint replacements
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_normalizer_endpoint_public_worker.py --mode run
+          --manifest "$UT_MANIFEST" --manifest-sha "$UT_MANIFEST_SHA"
+          --pipeline-sha "$UT_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-full-normalizer-endpoint-replacement-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-full-normalizer-endpoint-replacement-output"
+      # Root rule15: all nine inputs are current small text; zero old binaries or artifacts are restored.
+      # The original SJ source is AST-only evidence; it is never imported or called.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain120000 bytes before any new arithmetic.
