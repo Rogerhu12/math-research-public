@@ -241,3 +241,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:10:08 UTC /root — 174固定全站奇形状真实方向入口
 
 三科学完整diff、reader全文与全部接线/16839B接口及逐字重复引用小diff核后九件即发975bb25f/1e61b40e/11f08242；h*全固定、任意点/Arb全断点、新真正十族及原20试探/120FD保持，ξ1为显式新策略。open完整归档后压缩已结历史，未付范围不减；新实际R376不预填接受。API核f87548f9f12b6cac624040b52a4aac03f6dab4b7双README未变，真pull保。
+
+## 2026-11-15 18:11:15 UTC /root — 172完整当前H割线诊断入口
+
+六数学源完整diff与consumer全文、launcher/recipe/request/workflow及新版37271B reader/28820B接口核后13件即发；124pins原115逐项保，额外调用不冒旧轨迹，原32×10/2e−9门保持。单份≤90KB必要标量替代大见证拆包，未完不清raw；新实际R369由geometry核。API核c5d009d67b09189655dd90f4ce7b8f12c68c3e36双README未变，真pull保。

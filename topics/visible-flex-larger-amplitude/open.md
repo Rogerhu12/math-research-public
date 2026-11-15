@@ -12,7 +12,9 @@
 
 ### 1A. 完整高度与原warm路径
 
-[R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)、[R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)保六/九p所有已返拒及规则中断未返call，分母1e−250不是独立唯一原因。[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)同124六p/λ.001，零H过；首正s1/64五fresh J/R273，四接受/十五残差拒/零DSA，末norm2317.31958952296，原十档全返且非预算止。五次完整129248形成模型约.208不冒实际noJ映射，338/112/FD/fullDN/final尚未起，失败请求不晋worker.last。原raw已清。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证同现场全行d=b+Aq+s，分离基点noJ/withJ、真实trial形成及有限割线；cut/far仿射抵消，sigma-max与打印norm分责。172由geometry同源真实重生和观察，原warm/fallback/32×10/严格下降/2e−9不改；较小步若做仅明确后置诊断，不冒第十一接受。真实主因与准确参考导数仍未付。
+[R315实际124](results/R315-actual124-complete-height-path-refusals-and-rules-interruption.md)/[R319实际128](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)保所有原拒与规则中断未返call；分母1e−250非唯一归因。[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)同六p/λ.001零H过、首正s1/64五fresh J/R273，四接受/十五残差拒/零DSA，末norm2317.31958952296；原十档全返、13264.184668586s非预算。形成129248模型约.208不冒真实noJ导数，FD/fullDN/final未起，raw已清。
+
+[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证全行d=b+Aq+s；[172完整执行接口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)13件/124pins（原115逐项保）已发，8030B原六p/λ.001新recipe、reader0cb0dea5/requeste6971124/wf568e0763。同145原源重新形成当前H与live worker，原每轮额外same-X noJ；原十档全拒后另试2^-10..-12仅诊断。逐129248行准确q/ℓ/b/Aq/s/d及sigma-max、真实原norm/gate/error/未访范围保；精确单位扩至−2148−kmax，不误用旧固定dyadic单位。额外调用可改缓存/耗时，不宣称逐词145轨迹；无第11接受或准确参考Taylor证。原32×10/strict下降/2e−9、full338/112/453/末FD/audit保持，J/r/sigma/Δ/e与观察原件到准确结果或显式partial才退役。child18000s、逐分解900s按余量clip，330science/350job/30read不保证无条件读完；单份≤90KB必要标量，全部大dyadic见证/数组/日志只内部与身份，超限incomplete2且不清raw，不编码拆包。geometry核新实际R369，原R343不作其已重现事实。
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 

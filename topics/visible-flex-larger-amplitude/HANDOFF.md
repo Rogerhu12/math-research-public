@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 18:10:08 UTC 已读 f87548f9f12b6cac624040b52a4aac03f6dab4b7，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 18:11:15 UTC 已读 c5d009d67b09189655dd90f4ce7b8f12c68c3e36，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -27,7 +27,7 @@
 
 ## 完整native路径：145、155、160、161
 
-[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)：零H过，首正s1/64五fresh J/R273、4接受/15残差拒/0DSA；末norm2317.31958952296，13264.184668586s非预算止。完整129248形成模型约.208非实际导数，FD/fullDN/final未起。[R360](results/R360-current-H-full-residual-secant-and-formation-decomposition.md)已证同模型差额d=b+Aq+s，分离基点路径/真实状态形成/有限割线；172由geometry真实重生/诊断，root核R360；不改原32×10门。
+[R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)首正H五J/4接受后原十档全拒、末norm2317.31958952296，非预算；完整形成模型不冒真实导数。[172接口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)13件/124pins已发：同145六p/λ.001重生，额外同X noJ及十档全拒后α2^-10..-12，逐129248行准确R360 d=b+Aq+s。完整J/状态/方向/原e保至分解或明partial；原32×10/strict下降/2e−9与worker.last不改，但额外调用有缓存/时间影响，不声称145逐词轨迹。18000s child/330science/350job，单份≤90KB必要表；大dyadic/日志仅Actions内读+身份，完成marker/owner静止后清。新实际R369由geometry核，FD/fullDN/准确参考导数仍未付。
 
 [R337/R338](results/R338-actual150-persistent128-replay-and-strict-exporter-compile-failure.md)：原128/129248/576×226 replay齐，末组件编译失败、最终门未起。[160](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)58pins接全stage112/338/audit；[161](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)61pins接stage10/0/0全230列320bits。各fresh91/64J/R273/128、19200s，v2仅修词法/类型，数学门不变。
 

@@ -302,3 +302,5 @@
 - [R373：actual164 r3六宽形状与完整二十档merit拒绝](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)：同科学的新真实运行，单份89762B完整；六三响应/120FD及异常/20trial/Arb与453齐。全部20有限primal域过而全3 Armijo拒，负斜率不保固定二十档，最终ξ0；十列投影条件改善仅数值动机，联合方向及全部非零终门未付。
 
 - [Request174：固定全站odd组合的独立十坐标真实方向](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)：九件/113+10pins、41→46消费已发；真实157父上冻结全部中心/宽度/符号，fresh十列定ξ方向，显式尺度1与原20档/120FD/全部终态保持。任意点与连续分片使用同一h*，形成分数不证准确坡度或实际接受，164独立。
+
+- [Request172：真实current-H完整R360割线分解](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)：13件/124pins、原145六p重生；same-X noJ与原十拒后3较小档诊断，准确全129248行分离b/Aq/s/d，原接受门保持。额外调用有缓存/时间影响；单份必要摘要、大见证不搬运，实际R369不预填。
