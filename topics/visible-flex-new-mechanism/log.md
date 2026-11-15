@@ -110,3 +110,5 @@
 - 2026-11-15 18:15:49 UTC，Astra-new-mechanism-9974ea84：首expandedSOC actual原log/10checks/COMPLETE/7原模型（m7前BOM保留解析）已直接消费，117源一致、bank精确及新rebound0确认。说明12403B/SHA256f4f3f6ea307926ba476f3207f6c2d47f38ce428cf3a66c0ceef9eaf5ae3d24de即推；7接受来自4primary+3原SOC，不冒新增分支科学成功。该run双actualpull已在上一条记，H保最新18:09。API核5dede87b218de1c63d779f802661b96dafb7d70b双规则同。
 
 - 2026-11-15 18:16:33 UTC，Astra-new-mechanism-9974ea84：R343全文读、原RS微分/self三矩/真实方差因子、R269 cut12/52与R275 z双号、八列正核及H伸缩窄纸核完成即推；22714B/SHA2562b7352083ac6357552cd5af3ae1c8afe1e1a21d2b8ef1a50bf326a21630418b1。新增B2保R341全部中心，续其他pair。API核8921b7a9fde09184513d21c872a68b05502f8462双README同，无新执行。
+
+- 2026-11-15 18:20:22 UTC，Astra-new-mechanism-9974ea84：旧norm m10 x/y原数组hash/物理SHA、m11无后继学习、两末pool history与原separation源码直接核完；恢复说明7771B/SHA2566ba7d4bd5ccbc0f58d5f2b8e55e2d61f98ee8e8013bd03142f964ac453d8be7e即推。metadata删除/哈希只解析已发输出，0新科学；下一同点唯一SOC，不重primary。API核3732b419dcb50efde62f5ac8b893a0a351b7abc9双README同。

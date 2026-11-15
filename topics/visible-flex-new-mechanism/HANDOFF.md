@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **Norm-memory实际**：[原结论](notes/norm-memory-first-actual-result-20261115.md) run43741276060/c30e7ea/job132894771246，同g/b0/H与完整159/163；11模型/12primary/8接受使η.266381717617→.266366277975，bank7→9；m1/5/10学新行提前退，m5/10真曲率失配见[诊断](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)。0旧optimizer，原12LP/40值/120s全保。
 
-**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。下一只读旧failed x/y/池是否可精确恢复，首次定点应用新rebound；不延预算等触发。
+**扩池SOC首次完整实际**：[新结论](notes/expanded-pool-SOC-first-actual-result-20261115.md) run43744903357/job132905938795/source5fa2424。新10检查过、117/119科学依赖全匹配，cfg原样；原reference163/状态159/物理163/完整池/controller与9方向hash07a1f00…精确续接。7模型全部接受，9primary+3原same-layout SOC=12，η.266366277975→.266347520761；fineκ57.999988521，原两网硬门/物理盒过，.26仍未达。**新expanded rebound生产0次，不将下降归因该分支**；m3修正后fine新1拒hold，m2/6原17guard过，m7接受后fine新1。费用/计时边界见原记录，非受控提速。末bank11，B1/8000/streak0，完整checkpoint只runner；末物理SHA见新记录。首fixture43744268876只读失败保留，仅开发副本修复，生产未改。**旧m10完整可恢复已付**：原x/y159/163、9bank/新两池齐；删唯一72480/144960得旧4417/4091池。历史11LP留1，逐模型wall余量未存。下一唯一同点新SOC源码中，旧primary0，不延预算等触发。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -35,7 +35,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R292–302**：完整后缀迫T9/逐self；R297真9单位。R302保实际χ原型/共享整词真倒行、自由h跨全词、M0固定τ可漂；增强IFT指定有限pure/T/query、芽安装/Morse/Klein真闭合，通常新seed/g，不授全q或实际逆元。
 
-**R314–333完整pure/self**：R314九T/局部Euler六jet忠实，R322真权σ→selfσ−2。R316 H*为π0/整Q0/λ+1，完整13核self rank7不重。R323负权−8 self0、−6二维/−4八维响应覆满，E=(π,全Q)实际闭锥=E(U)。[R333实际控制](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)用run43740129876/a5383f6/job132891272196两C4/C6 MEMBER、8新人工与fresh2492/2198原差；R126 old标签准确式见稿。严格E(U0)=E(R0)维10/两核9与6，零权商0，非全权等像。原两商截面/全部原型桥基准/有限整数及最后响应收缩给**E(S)=E(U)**和紧集C1截面，wholepure/wholeQ/整T0背景可实付；不是任意不相容pure×Q。完整canonical λ仍正。wholemixed/period/同规范及额外门不自动联合，R340单独付两flux接口。
+**R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→selfσ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323 −8 self0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 
 **全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消R−6；**R342首实际43745111286成功**：四原mixed根的π0成本A=N⁷G+315R0/32+315R2/16−315R3/32，在预定C7一参数族的Ω多项式准确0；10新人工过，3.665s/1,232,486乘积，旧根/pure/self/rank0。仅该族未检出，非普遍恒等/完整period；续真泛函结构。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 8921b7a9fde09184513d21c872a68b05502f8462，双README blob同。API读取不冒实际pull。
+断连API复核main 3732b419dcb50efde62f5ac8b893a0a351b7abc9，双README blob同。API读取不冒实际pull。

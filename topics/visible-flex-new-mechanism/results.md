@@ -327,3 +327,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [R343完整证明](results/R343-two-real-orders-and-positive-center-clusters-pay-the-third-Gaussian-second-moment.md)保B2真平移中的χsR2。直接原式得RS self=(C/3,−2X1/3+4N0/3,−5X2/3+16N1/3−4V2−4U3/3)，真实J(r³)常尾保、Γ_RS全0；同母两坡真实方差使完整R2向量固定，不随A/ρ/普通伴随变化。固定α9/20而非旧六能量主根，R269的ρ0/20两真实排序各有普通/伴随异号差，R275全第一矩式给z0>10920q+2731/8>0、z20<(43384−236880q)/127<0。四实际B1向量及A足够大时四斜率2B1+χR2均秩2且有严格正核。
 
 将四原型置两群有限正中心，4×8实际矩阵由固定非零minor和严格正kernel得全R4正锥；原型中心B2=0由完整反射/真二次尾正交与四次权中心零支付。原R341弱中心/幅度完全固定；新强模块共同H伸缩、H5正四次权，用c=k+R(0,−b/H)使新增B1=0、B2=−b，Ψ成本H−2→0，有限H保全部真实间隙。最后同F★/原72零controller有限N清Ψ和三行。因此同一新seed/g圆三个Gaussian pair全部九外矩/全相位、third、三directed及指定一层准确联合；其余pair/完整层/period/joint未付，不能把controller自身72零授整个圆。无新执行，完成即推。
+
+
+## 已观察m10失败点：完整x/y与扩池前后原ID列表均可精确恢复
+
+[原字段与恢复证明](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)只消费run43741276060/c30e7ea已完成日志：m10的accepted index7给完整x159/163，唯一α1 trial给完整y159/163，物理SHA分别10b0a3b208ccb13919227d2b459995bffbe86dd528f0f1f136098d7b75adba1d、627c9474c4f3d2cb9c28c248f1ae06251274e1c1d50a2097280fc93e57d4d290。m10旧池4417/4091各新增1，唯一后继m11用4418/4092且学习0，故完整末池即其新池。原separation强保peak，soft whole-grid0/唯metric_plus omitted1确定新增ID72480/144960；原末池各删一次得旧池，四列表hash全部有原字段与明确口径。
+
+原reference/cfg、9bank事件及B1/8000齐；原primary账前十模型累计11，尚有一个12LP格。普通全网缓存/J未保存，逐模型active-clock checkpoint也未保存，不能声称历史wall剩余。后继仅对该冻结失败trial首次作新expanded SOC并另记必要恢复费用，不重跑旧primary/优化、不扩预算或捏造可行结果。源码中，所有新执行仍只公开Actions。

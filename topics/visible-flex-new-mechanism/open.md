@@ -127,7 +127,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [run43744903357首次完整实际](notes/expanded-pool-SOC-first-actual-result-20261115.md)：十新检查过、117/119依赖逐项同；source cfg不变，完整reference163/final159/physical163、两池/controller与9方向07a1f00…准确续接。7模型/7接受、9primary+3原same-layout SOC=12，η.266366277975→.266347520761，fineκ57.999988521、原两网硬门/盒过，.26未到。新expanded rebound records空：没有失败primary学新行的入口，下降不能归新分支。m2/m6原17hold真，m3接受修正后fine新1拒hold，m7primary接受后fine新1；不洗学习历史。末bank11/B1/8000/streak0；22+2值、active29.836s/process164.992s，初始ordinary105.456s和recovery含首J47.770s分账，非受控加速比较。
 
-[原norm十一模型](notes/norm-memory-eleven-model-diagnostics-and-next-SOC-interface-20261115.md)的m5/m10曾有失败full primary与新soft行。下一只读既有log检查其完整x/y/两池/实际d是否精确可恢复；若有，首对该既有失败点应用新rebound而不重跑primary，若无指出缺失。不可只延预算等待触发。原[扩池合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)仍要求同x/y新池/完整binding、原scalar RHS与full预测分账、调用前LP账/原12/40/120/原17guard，新旧报告精确对应、真双网验收。生产效果尚欠；首只读fixture失败及最小修复保留，旧12/optimizer0。
+[旧m10准确可恢复](notes/observed-m10-failed-trial-exact-recoverability-20261115.md)已由原norm日志付：accepted[7]与唯一α1 trial含完整x/y159及physical163，xSHA10b0a3b…、y627c9474…；m10前池4417/4091、各新1，m11同新4418/4092且added0，因此新池就是完整末池。原separation强保true-η peak，两唯一metric_plus新ID72480/144960，末池各删一次准确得旧池hash；9bank原事件完整，前11primary留一个原LP。原ordinary/J未存、逐模型clock余量未存，必须将恢复费用明记，不能捏造历史剩余秒。下一只在该既有失败m10首次调用同core expanded SOC，旧primary0/新SOC1/原12账11→12，不再扩m5或延预算等触发。原[扩池合同](notes/expanded-pool-same-trial-SOC-design-20261115.md)仍要求同x/y新池/完整binding、原scalar RHS与full预测分账、调用前LP账/原12/40/120/原17guard，新旧报告精确对应、真双网验收。生产效果尚欠；首只读fixture失败及最小修复保留，旧12/optimizer0。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
