@@ -4,11 +4,11 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b7f8eed5c427e76a3e7568f4815a5da660e13588**（2026-11-15T16:49:04.592442+00:00；公开run43714581068/attempt36/job132883482197真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
+**已读规则提交：cdcff2436b119b50b6c714b9d39fc9a9b1b1346f**（2026-11-15T16:56:09.401025+00:00；公开run43714581068/attempt38/job132885457483真实git pull --rebase origin main，两README无diff）。14:34UTC终端失联，根§8允许小文本GitHub接口；数学/实际pull仍公开Actions。全部前态逐字保[此前H](notes/2026-11-15-handoff-before-R832.md)和[此前open](notes/2026-11-15-open-before-R832.md)，内接全部历史与source/run/SHA。
 
 每结论立即推，非快进/引用竞争立即实际pull --rebase循环重推，禁force；至少每小时及每次push前实际pull，比较两README，变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release或悬挂blob，仅一日必要活跃artifact。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不加独立测试gate。
 
-## 当前公开计算（2026-11-15 16:46 UTC）
+## 当前公开计算（2026-11-15 16:55 UTC）
 
 **R787真实430位BudgetStop，立即同核续算**：[完整断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)。run43708449812/job132794639922/sourceac5998f3，core93d3d72b/wrapper42157e0d不变。新artifact14170087848/438780485B/ZIP b6ec1bf53540cd59e69309e445ef15a44e0dc64e9f298d2a065609647ea82340；manifest430709B/1262条/SHA1b92c4e594f4d1d14cfd4b62fda8513511dc879a7c6e2c7d9f60de52dd5ca689，至Nov16 16:25UTC。最新430位60765868B/SHA00855d88fec4c18ec7cbfd4927dd72042d8e0372d1ac95498a0e5fcd9f118029，历史430条、429指针b3112803；原prime753/free1186/14分支不变。小IO43737168117/source2ed14525成功，73Range/60.99MB只核最新与元数据；真实错误BudgetStop，不是关系失效。新run43737413555/job132883028161/source4092d1cc已in_progress，从430位续不回退259。该run规则job132882965375在16:47:19.142248UTC实际pull/read4092d1cc4d1156bc24a10ff820fd39c5713e8ad7，两README无diff。当前无真实A/B，成功后R792/804/809。
 
@@ -28,7 +28,7 @@
 
 [R820两图C](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)20链/Z primitive、d271=20其余0已成；R806原W、R813原vg/vh及全部源SHA见前H/各certified结果。R801/803/805/807、R797/799/800、R781 R0..142/κ幂已成；V6至141/V7至175/V8与旧V2..5至195。R805[1,144,127]是次数计数，非272项EPS；缺尾真需才补。
 
-**真R824关系→R792入口已推c818ac3f**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)68877a98/adapter5a6a100a/变体a8a33d32继承原beta框架7b7a5483。单个真新weight5 exact及17个129×280验证块，经20×129>2566给同原y；新非恒定共同零另验，denominator/content不重插。只能绑定已完成success或已结束checkpoint，当前无已发布新exact，runner/request待；不伪装R787，不重算1186。原R792/804保原共轭、唯一Fb立方根/21次奇因子、全部例外点/T7/Norm刚性化，不选未知同源核前像。
+**真R824关系→R792入口已推c818ac3f**：[方法](notes/R824-original-exact-relation-adapter-to-beta-consumers.md)68877a98/adapter5a6a100a/变体a8a33d32继承原beta框架7b7a5483。单个真新weight5 exact及17个129×280验证块，经20×129>2566给同原y；新非恒定共同零另验，denominator/content不重插。只能绑定已完成success或已结束checkpoint，当前无已发布新exact；runner8991eb80/pending c945be74/workflowf8c68233已全文核并保存，active文件尚不创建。六真实来源/17全验证段/原146CM jets/Hom相位俱保，300min+15外层限时保完整stage；不伪装R787，不重算1186。原R792/804保原共轭、唯一Fb立方根/21次奇因子、全部例外点/T7/Norm刚性化，不选未知同源核前像。
 
 R811首乘法/完整极前像待真实A/B正规坐标，原P全式/双向Laurent/全长1206与R822认证保持；generic helper09f21a90验证已完成，不加gate。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)原E=20cusps+P0+3D，r=y/δy与逆递推给I_D；adapter core89579f79/wrapperd6374901已审pending，仍待真实A/B及R815。安全K395不是实际层数，272×816全核544必须全投影。未有实际I/P/Q/D/eta或高度。
 

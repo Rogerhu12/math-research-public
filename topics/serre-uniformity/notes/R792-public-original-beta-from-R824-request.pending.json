@@ -1,0 +1,140 @@
+{
+  "session": "serre-public-astra-20261115",
+  "pending_reason": "Only an actually published completed R824 weight-five exact-generator may fill the missing source. No modular kernel or uncompleted lift is an exact relation.",
+  "job": {
+    "result": "R792-original-beta-from-R824-relation",
+    "p": 41,
+    "coarse_jet_order": 1,
+    "budget_minutes": 300,
+    "producer_inputs_pending": true,
+    "core": "R792_original_beta_from_R824_relation.py",
+    "core_sha256": "a8a33d32b19525896a137fcf02c3fbf07ced88207839e9c89f16c9c527e827bf",
+    "wrapper_sha256": "8991eb802d3024130e119394a37f06ac13ef20677dd11fbcff02a62fea4414b7",
+    "beta_framework": "R792_original_beta_composition.py",
+    "beta_framework_sha256": "7b7a5483e560f2d244092af486c8aed606b18c1f3557dddb3b850a290b4e343d",
+    "relation_adapter": "R824_original_exact_relation_adapter.py",
+    "relation_adapter_sha256": "5a6a100a561ce02350a5d538df908d4cca9575e21b251a848a3bfba9d3df1958",
+    "field_core": "R754_original_periods_and_Hom_kernel.py",
+    "field_core_sha256": "f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proof": "results/R792-original-beta-composition-and-Galois-cube-root.md",
+    "R792_proof_sha256": "75362e44da996c4c481b548816bfeb532f799bde47f63400bcc7791e0aa5f46b",
+    "method": "notes/R824-original-exact-relation-adapter-to-beta-consumers.md",
+    "relation_adapter_method_sha256": "68877a988f4df5dc3a7609ea46d4f40129d40af40b5467200456829df730d818",
+    "workflow": ".github/workflows/serre-p41-original-beta-from-R824-relation.yml",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "retained_artifacts": {
+      "R735": {
+        "result": "R732-p41-original-CM-model",
+        "run_id": "43608152850",
+        "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+        "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+        "artifact_id": 14118747540,
+        "archive_sha256": "de684d4e688085f4d9797639ce43fb1f3aca16ef68884fa2d3ca83e4d9d8f917",
+        "manifest_sha256": "2b29c302c796e98318d15a51df2fb556b18e9f83ae507428bd47cabc8be817ce",
+        "certificate_name": "p41-original-CM-model-certificate.json",
+        "core_sha256": "4d6f860506347ab578f1a4f0e30eb0041f8a56b6e62b29762aa958c843f17ec5",
+        "files": {
+          "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+        },
+        "metadata_repository_paths": {
+          "full-outputs-manifest.json": "computations/R732-p41-original-CM-model/43608152850-1/full-outputs-manifest.json"
+        }
+      },
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "artifact_id": 14148883593,
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-M2.json.gz": "51113988c90b301cb6117fec5c294b77110e1826bf00229b7993ba82144f5d3d",
+          "R775-basis-power-2.json.gz": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+          "R775-basis-power-3.json.gz": "00361e5155c429de5c54b613b8a3cb46ac9530c554e1a812823748bb2bf5fe18",
+          "R775-basis-power-4.json.gz": "85beb7662eee64f4eca9e205314a6625506e3041bea199985489c7cf1f62dd4e",
+          "R775-basis-power-5.json.gz": "7aff6faa89a91649db5549bbf9360647534bff6f9586ce3f5963e322d33c30ba"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35"
+        },
+        "metadata_repository_paths": {
+          "core-receipt.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json",
+          "public-actions-input.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json"
+        }
+      },
+      "R790": {
+        "result": "R790-original-CM-fiber-jets",
+        "run_id": "43688215703",
+        "source_commit": "9e4074fd9c99ab3af6bfad363b674e57f938800f",
+        "artifact_name": "serre-global-R790-original-CM-fiber-jets-43688215703-1",
+        "artifact_id": 14151827531,
+        "archive_sha256": "605aaaaefc5dc44f459ca4b8567204530e69a36134a52ac9614941c4219ddff2",
+        "manifest_sha256": "49b5ccda0bbe3bc9d06a263fa3b15632f34b97ce518bc3825002583fb74afa60",
+        "core_sha256": "981eb543b791db416fad355d83eedb9bfe3b86b3e5461483fe4397e2129040b6",
+        "certificate_name": "p41-original-CM-fiber-jets-certificate.json",
+        "files": {
+          "p41-original-CM-fiber-jets-certificate.json": "672044345934c0fc16b81ec2e2eaeb2a3282fa785069d53e240845d26b65e1fd"
+        }
+      },
+      "R791": {
+        "result": "R791-original-Hom-Galois-and-eta-inputs",
+        "run_id": "43686308194",
+        "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+        "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+        "artifact_id": 14149997458,
+        "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+        "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+        "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+        "certificate_name": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "files": {
+          "p41-original-Hom-Galois-and-eta-input-certificate.json": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46",
+          "R791-original-twelve-CM-tangents.json.gz": "32be372f46560ce7cfc0af40666cdc32b39170bfc7b6ec32b92ea747a0629e7e",
+          "R791-original-Hom-Galois-matrices.json.gz": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183"
+        }
+      },
+      "R824": {
+        "result": "R824-original-global-polar-generators",
+        "run_id": "PENDING_ENDED_R824_RUN_WITH_EXACT_GENERATOR",
+        "source_commit": "PENDING_ACTUAL_R824_SOURCE_COMMIT",
+        "artifact_id": "PENDING_ACTUAL_R824_ARTIFACT_ID",
+        "artifact_name": "PENDING_ACTUAL_R824_ARTIFACT_NAME",
+        "archive_sha256": "PENDING_ACTUAL_R824_ARCHIVE_SHA256",
+        "manifest_sha256": "PENDING_ACTUAL_R824_MANIFEST_SHA256",
+        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+        "expected_conclusion": "success",
+        "certificate_name": "p41-original-global-polar-generators-certificate.json",
+        "files": {
+          "p41-original-global-polar-generators-certificate.json": "PENDING_ACTUAL_SUCCESS_CERTIFICATE_OR_EXPLICIT_ENDED_CHECKPOINT",
+          "PENDING_REAL_R824_POWER5_EXACT_GENERATOR.json.gz": "PENDING_ACTUAL_EXACT_GENERATOR_SHA256"
+        }
+      }
+    },
+    "relation_spec": {
+      "file": "PENDING_REAL_R824_POWER5_EXACT_GENERATOR.json.gz",
+      "bytes": "PENDING_ACTUAL_FILE_BYTES",
+      "sha256": "PENDING_ACTUAL_EXACT_GENERATOR_SHA256"
+    },
+    "resume": null
+  }
+}

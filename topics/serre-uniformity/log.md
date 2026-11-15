@@ -289,3 +289,8 @@
 - R833完整证明登记：原βhat12DA与Γ=β^(6−p)C^p给同点SS权6评价，完整K^p/κ^p/old d^-6及p mod24角色交换；root核Serre原文pp2–4/6、MH33与R812原曲线/微分，SHAe265f39d。仍无指定六CM和或同h单位。
 - R787真430位续算run43737413555/job132883028161/source4092d1cc已进行；其rules job在16:47:19.142248UTC实际pull/read4092d1cc两README无diff，原核/14分支不变。
 - 旧97646B结果索引逐字同目录归档并缩当前索引；2026-11-15T16:49:04.592442+00:00真实pull/read b7f8eed5c427e76a3e7568f4815a5da660e13588两README无diff。R815/R824/R827继续；主目标OPEN。
+
+### 2026-11-16 00:55（Asia/Taipei）｜serre-public-astra-20261115
+- 原R824真关系→R792最小公开runner8991eb80/pending c945be74/workflowf8c68233全文核完并保存；只待真实已结束exact输入，当前pending不触发、不伪装R787或新beta。
+- 原五成功来源与新R824保持独立身份，原recipe/146 CM jets/两Hom矩阵/17准确检查段全闭包；同tag只恢复完成阶段，300min+15外层timeout/短宽限保最终manifest与一日bundle，未动数学核。
+- 首次引用竞争立即公开实际pull/rebase重推；2026-11-15T16:56:09.401025+00:00实际pull/read cdcff2436b119b50b6c714b9d39fc9a9b1b1346f，两README无diff。原R775/R786 artifact API已核有效至Nov16 05:52/05:41 UTC，实际关系发布后及时消费；主目标OPEN。

@@ -1,0 +1,83 @@
+name: Serre p41 original beta from an actual R824 relation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R792-public-original-beta-from-R824-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R792-original-beta-from-R824
+  cancel-in-progress: false
+
+jobs:
+  compute:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R792_original_beta_from_R824_relation.py
+            /topics/serre-uniformity/scripts/R792_public_original_beta_from_R824_relation.py
+            /topics/serre-uniformity/scripts/R824_original_exact_relation_adapter.py
+            /topics/serre-uniformity/scripts/R792_original_beta_composition.py
+            /topics/serre-uniformity/scripts/R754_original_periods_and_Hom_kernel.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/results/R792-original-beta-composition-and-Galois-cube-root.md
+            /topics/serre-uniformity/notes/R824-original-exact-relation-adapter-to-beta-consumers.md
+            /topics/serre-uniformity/notes/R792-public-original-beta-from-R824-request.json
+            /topics/serre-uniformity/computations/R732-p41-original-CM-model/43608152850-1/full-outputs-manifest.json
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json
+            /.github/workflows/serre-p41-original-beta-from-R824-relation.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse all frozen sources without importing arithmetic
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root = Path("topics/serre-uniformity/scripts")
+          for name in ("R792_original_beta_from_R824_relation.py",
+                       "R792_public_original_beta_from_R824_relation.py",
+                       "R824_original_exact_relation_adapter.py",
+                       "R792_original_beta_composition.py",
+                       "R754_original_periods_and_Hom_kernel.py",
+                       "R824_public_original_global_polar_generators.py"):
+              path = root/name
+              ast.parse(path.read_text(), filename=str(path))
+              print("AST_OK", name)
+          PY
+      - name: Install the frozen arithmetic dependency
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Compose the original beta from the actual exact relation
+        run: |
+          python topics/serre-uniformity/scripts/R792_public_original_beta_from_R824_relation.py \
+            --output "$RUNNER_TEMP/R792-R824/output"
+      - name: Verify all original selected source bytes and completed outputs
+        run: |
+          python topics/serre-uniformity/scripts/R792_public_original_beta_from_R824_relation.py \
+            --output "$RUNNER_TEMP/R792-R824/output" --verify
+      - name: Preserve the one-day active source bundle and continuation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R792-original-beta-from-R824-relation-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R792-R824/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
