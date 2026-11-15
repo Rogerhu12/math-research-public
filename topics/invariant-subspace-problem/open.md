@@ -147,3 +147,5 @@ Haar 普通循环性、正常有限秩相容链、原 $G_{\rm reg}$ forcing/carr
 [完整第一连接与有限阶目标成员性](results/R150-appendix-two-full-first-connection-exact-seven-and-truncated-target-membership.md)给精确β1,Q=7；Q[t]/t²的双湮灭付九tj∈imA+t²V，故九h0tj∈imA+t³V。完整正谱只缩为1⁷,a,b（2≤a≤b、5≤a+b≤21）；不能把九平方推成整个W的有限阶结论。继续全22原头的三阶单位Schur，完整局部成员性仍开。
 
 [两个正规202映射与独立精度](results/R150-appendix-two-regular202-mappers-and-independent-precision-recovery.md)已实际付21阶及全部原small产品/freeI；完整原source/O左运输和高商现排独立600秒步骤。s2全22原三阶Schur实际F11正指数只覆盖1⁷,3，最后一项≥4；不因此断定Q第二页退化或局部长度，先查同原投影在11的页谱。
+
+[实际固定测试的全部暗对矩](results/R271-appendix-actual-fixed-test-all-dark-pair-factorial-moments-and-square-root-exponential-tail.md)已付不交物理/真primitive暗对的所有阶乘矩及平方根指数尾；先投完整真jet再读暗数的次序也已付，仅多(r+1)²且无j/h/Q。原投影见证及合法下降读数可严格控制，但低暗方向、Γ提升和全部顺次MP混合返回仍开；不能由单坏族下界当全返回上界。
