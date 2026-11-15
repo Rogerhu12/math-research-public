@@ -10,7 +10,7 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103列首轮实际](notes/entry-body103-first-actual-result-20261115.md)43691833140/source2f25b5aa已完整消费：一次growth→strip→SOC必要恢复后1LP/1接纳，末bfbd7465、两网η .26651073966292449/.26651075196396212，原全门过而.26未到。固定外域.7725峰余下降2.06e−8低于原最小drop，下一模型在J/LP前退出；不延同103预算，完整费用和门见原note。
+[103首轮](notes/entry-body103-first-actual-result-20261115.md)43691833140/2f25b5aa已全消费：末η.26651075196396212，固定外峰余下降低于最小drop；不延预算，完整门/费用见原note。
 
 ### 159首轮已消费；下一成功SOC的严格条件持径
 
@@ -20,7 +20,7 @@
 
 H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合盒、原物理∞/L1、B/T继承与H=4B已实现。首次开发bool保存失败仅修两个比较；修复ef8c1cdb/run43701558227新增人工全过，五prefix各一次必要恢复后首actual完成。完整[159实际](notes/entry-tail-height159-first-actual-result-20261115.md)：从本次c9a起η.266520536442降到b429 .266491207122，8主/1SOC、8接纳，仍未达.26/1e−4参考。m6扩大半径后唯一细网8曲率拒绝被SOC修回，旧规则仍令下一B减半；外域/帽高null/原准确盒与所有旧两网门全保。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[完整实现](notes/height159-SOC-radius-retention-implementation-20261115.md)已审并接新lane metric_height159_soc_hold。实际z−x/原base v/J比值≥1/2，实际z−y按163 M/D的B/T/H范数≤B/10、总步≤1.1B；恰一primary+一SOC、primary已降η而仅曲率失败、SOC全部原门/残差/准确盒过、无任何新行含soft、身份/行池一致且无其他旧shrink原因时才持原B/streak0。其余沿旧返回，12/40/120预算不变。两新源c6fb9d46/f6ff70d5、35来源/98参数只out变；六原前缀每段一次恢复、原有理reference/H不重锚。**下一消费首次新增人工与actual的全部新guard/门/模型/费用；尚无开发通过或下降结论。** [选行J径向分解设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)已由原源逐式审定：先角模/三径向jet收缩，再展开选定行的154切向列与五null列；同384/768全角原函数和parent六jet定义保留。未实现/运行，待本actual确定必要的新科学步骤。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[完整实现](notes/height159-SOC-radius-retention-implementation-20261115.md)已审并接新lane metric_height159_soc_hold。实际z−x/原base v/J比值≥1/2，实际z−y按163 M/D的B/T/H范数≤B/10、总步≤1.1B；恰一primary+一SOC、primary已降η而仅曲率失败、SOC全部原门/残差/准确盒过、无任何新行含soft、身份/行池一致且无其他旧shrink原因时才持原B/streak0。其余沿旧返回，12/40/120预算不变。两新源c6fb9d46/f6ff70d5、35来源/98参数只out变；六原前缀每段一次恢复、原有理reference/H不重锚。**新增人工已passed；首次159handoff拒绝，新持径stage未调用。下一完整消费前缀状态/第一异常并修复，尚无持径效果结论。** [选行J径向分解设计](notes/selected-row-Jacobian-radial-factorization-design-20261115.md)已由原源逐式审定：先角模/三径向jet收缩，再展开选定行的154切向列与五null列；同384/768全角原函数和parent六jet定义保留。未实现/运行，待本actual确定必要的新科学步骤。
 
 ### 仍须支付
 
@@ -124,13 +124,15 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)以固定偶χ、节点c+δ(0,ζ,1,2)、八平移3jδ，在三矩/第三准确族内解真实UQ−PV=0。归一延拓D0(ζ)+δR在δ0的简单根给有限正δ准确IFT零，P>0/t非零；双block完整四门0。
 
-[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。联合(q,ε)真实IFT开域支付参数选择，Morse随后；旧F8不迁移新圆。六门已结，不重算；完整偶部现在由R243有限化。
+[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)完整求h²σ4层：第三history余项、jβ²的E1及真实循环缺陷合为εke³Λf(Dθ)，bulk U_T=−8(T+S1)使共振ε=ke²/4下两谐波准确6Z=0。联合(q,ε)真实IFT开域支付参数选择，Morse随后；旧F8不迁移新圆。六门已结，不重算；R243有限化后，R249已用完整面积排除这份共振实现。
 
 [R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
 
 [R245](results/R245-complete-block-additivity-and-four-Gaussian-history-reduction.md)已付完整block全四阶a⁴可加、平移≤10及旋角0/2/4的55生成函数；四Gaussian原函数及其积/面积共21个Laurent模生成元，n≤(a+1)[21(M−m)+45]。均匀角平均领先门严格负，4^11个Prouhet完整不交块的准确位置矩匹配亦保该负值，不能用均匀配角消门。
 
-[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)继续保全部真实history得到不交微包完整P(q)=Σc_i²c_j²Qij，别包第三仿射尾与紧Y导数配对准确0；二阶跨尾未删。逐包g=±f使整个P实，旋转乘e^−4iα，复Fourier4=P/16而实谐波幅=P/8。R239有限正δ可保证−1/2<t<0，两互补角矩阵可逆，故总偶cos4/sin4入We iff各未旋转block的实偶P_e分别入We。**下一准确判单block的P_e，或给可消条件；还未证明其成员/非成员。** 非均匀实际正锥、零/二次谐波、奇部、全period与同w joint保留，微包原分子不冒独立合法ruling。
+[R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；复Fourier4=P/16、实幅P/8，互补两角门等价于各block实偶成员。
+
+[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)现完整判此类失败：四Gaussian字母模DF独立，真实21长度≤2词亦独立；三次history是反对称面积唯一来源，局部/chain/Z²不能补其系数。共振ε=κ²/4的A−2,−3槽非零常数乘E(q,−J(q″³)/3)，必要M4=∫q″⁴=0及m2*=0。R239小正δ构造cos4α>1/2，双block ReM4严格负，排完整第四偶部及合法C²近邻；六能量零仍真。**停止用这份±微包互补双块和同共振芽追下一增长层。下一：全θ面积的完整外槽约束、其他可实现芽、能准确付M4/m2的不同profile方向。** 普通复四次无普遍正性，不宣所有三矩圆无解；全period与同w joint继续。
 
 ## O1：双圆领相位机制，保留备选
 

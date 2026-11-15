@@ -354,3 +354,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## R247：完整响应的Jacobi呈示、232上界与穷尽pure核分解
 
 [R247 完整证明](results/R247-complete-response-Jacobi-presentation-and-pure-kernel-decomposition.md)以固定F的向量场X_A=Φ_A(F−φ²)、Y_τ=τ(φ;F−φ²)逐项保完整槽，得B_A=2[X_A,Y_τ]及56条独立完整Jacobi关系。E⊗Λ²E/Λ³E维168，加八旧额外模板响应64维给232呈示；R147同完整R的原函数下界228使0≤余核≤4、R71维164..168。W36/28交换子/八额外类独立本为R87已付，另用秩一张量与交替三张量交零再推旧事实，不虚报新rank。R208的ΔW=ΔW71允许选χ_j=τ_j−γ_j∈kerΔ，准确穷尽R_p0=(R71∩kerπ)+B(E,spanχ)，两个像未宣直和。E=V4⊕V2、W71=2V6⊕V4⊕3V2；完整非零hook有七维δ串，给V10⊕2V8⊕2V6⊕2V4⊕V2共56维形式pure核输入，实际像另判。固定圆j0的八hook响应已在L_f像内，δ后不能当固定圆不变；O(U0)/O(R_p0)仍未知。列清既存W-only原根及八个新同对角提取的最小规格，不重旧152/3974/151列或完整response。root与mechanism全文独核；全部为纸证/继承旧原式，无新科学运行。
+
+
+## R249：真实Gaussian词独立性及当前共振双块的完整第四障碍
+
+[R249 完整证明](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)先在F=R(σ,H)、H=e^(εσ²)证明H超越/常域R。非H不可约monic分母若D不增极点会迫有理系数的log导等于非零线性σ；剩Laurent系数的极点/最高次分析证明不同非零H^r模DF独立。最小顶层支持微分归纳给所有有限迭代词真独立，特别21个常元/单E/积/面积是F基。共振ε=κ²/4保全R73导数项后，B−2=a r1+b s0、B−3=c r0，a=−(51κ⁴+2κ²+8)/(64he²)、b=−(17κ⁴+4κ²)/(32he²)、c=−κ(41κ⁴+27)/(216he³)，c(a+3b)非零。完整Z²只有对称积、第三局部/chain只有单历史，故A−2,−3唯一完整系数准确为2c(a+3b)E(q,τ)，τ=−J(q″³)/3。全三矩给m0=0、m1=−M4/4、E=−jM4/8+h m2*/4，必要M4=m2*=0。R239未旋转±微包M4严格负，最终互补双块cos4α>1/2使ReM4<0；该共振构造及相对合法C²近邻无完整第四ruling，全部允许二/三齐次gauge不能修。六已付能量不矛盾，普通复四次无普遍符号，不扩为一般圆/芽无解。root全文并从R73手核raw三式及a/b/c，mechanism独核词/系数/因子2；无新科学计算。
