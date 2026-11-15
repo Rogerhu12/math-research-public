@@ -263,3 +263,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request127从真实126第8末点继续
 
 [完整接口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)与新recipe2288B/e667ca5f、request41500B/d75c1478、workflow18134B/fa921b4e已发布。全部九词由原第8primary/链记录直接取，26源闭包与实际consumed映射一致；原wrapper b15a6571及family/search/reader、84+2 pins、8批/3600秒批间/原科学预算全部不改。新pretty参数文件不冒原compact recipe字节。`.github/workflows/visible-larger-public-nine-control-batches.yml`只同步127身份、真实参数/来源和report框名，继续本公开Actions，不预填科学结果。root已读完整两文件差异及原参数来源，无本地科学或新增门。
+
+### 2026-11-15 R288 actual113完整128对照与原64失败
+
+[R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)完整读取原113 job113563B/255c0724：四次128原全部129248行，原stop全步降至.00011718707987942263382，refined全步增至.02783350799348104264，均未过2e−9。原stop半步189stage/42560行因7200秒partial/norm空，然后原64十档全拒iteration0，原native失败/exit2；不是bridge/输入故障，原budget未截断64控制。1freshJ/1R273，无新finalJ/audit，原科学源不改；summary f1c7bf72。root读取原四完整评价/部分事件/最终摘要及全文，原临时raw清理完成，只发布参数/源/run/SHA与紧凑结论。后继推进所选128有限映射匹配方向与完整solver，不重复整套昂贵对照。

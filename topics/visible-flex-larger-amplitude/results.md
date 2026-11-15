@@ -40,3 +40,5 @@
 - [R287：actual126九控制八批64接受与完整读回](results/R287-actual126-eight-nine-control-batches.md)：112原外trial、20接受内tol=false，W279.1236575692574→49.739792814348064；所有科学final仍false，原九FD/Arb/圆与完整64方向段/8视图身份已核，同源真实末点继续。
 
 - [request127：actual126第8批真末点的原九控制续算](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)：recipee667ca5f/requestd75c1478，原84+2源和wrapper不改，最多八独立原批次；实际结果另读。
+
+- [R288：actual113完整128策略相关下降与原64十档仍拒](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)：两策略各完整base/alpha1；原stop全步降、refined未降，半步因7200秒partial；原64完整十档全拒iteration0，native/finalJ/audit未付，匹配128方向与持久状态继续。

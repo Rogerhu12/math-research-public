@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:41:16 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3ed8919120ad6a00a1fbf3c91b55a19a1be90f99。
+规则同步记录：2026-11-15 09:42:11 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 6de606c8a58ea4ad84df6f9aa676ff553246d436；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6de606c8a58ea4ad84df6f9aa676ff553246d436。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -28,7 +28,7 @@ M112/T112/N2048、699节点、453态/236036free，前三core固定、scalar.99/c
 
 [125/R284](results/R284-actual125-nine-control-eight-further-acceptances.md)原8接受/17trial，W431.4178353348037→279.12365756925647，全部final false；原分段已完整读/核，末九p为126初值，raw已清。
 
-[126实际R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。8批各8接受/14trial，共64接受/112trial；fresh W279.1236575692574→49.739792814348064、末unit首项−9.973944268492758，所有final仍false。20接受内tol=false但原Armijo接受；各.1 reset/末.0125。8primary/64group/8完整view身份核同，域/FD/圆已读，stop只8批数，raw全清。链20119/e7d726ca；末status1512486/0b18be04、primary62555/c3126e3d、view113376/b5e1f7ad。[127入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)已发布：真第8末p、recipee667ca5f/requestd75c1478/wffa921b4e，原wrapper b15a/family0865/search824c/readerf57及84+2/own26全不改，.1 reset/8批/全final保持；真实run待取。
+[126实际R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。8批各8接受/14trial，共64接受/112trial；fresh W279.1236575692574→49.739792814348064、末unit首项−9.973944268492758，所有final仍false。20接受内tol=false但原Armijo接受；各.1 reset/末.0125。8primary/64group/8完整view身份核同，域/FD/圆已读，stop只8批数，raw全清。链20119/e7d726ca；末status1512486/0b18be04、primary62555/c3126e3d、view113376/b5e1f7ad。[127入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)已发布：真第8末p、recipee667ca5f/requestd75c1478/wffa921b4e，原wrapper b15a/family0865/search824c/readerf57及84+2/own26全不改，.1 reset/8批/全final保持；run43700393105/source47bda30230e7aea8a85b5ecd039832c023249f87，09:40:45创建，结果待读。
 
 [九full112源](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)00e4d2c3/f18f4740保6shape/3active453及真实H全J→原FD→同owner fullDN/finalaudit，无九正λ场。[九冻结450](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b9b35/1610d6fb已发布：全九末系数、点/批两原有限路径，K=k=0左338右112，原物理338+全部自由core112。只接真00e4接受父或自身真450，保父词后fresh RHS/二分+全knots，max_nodes必填；完整原求解门不减。未选未来父/run；exact接独立SavedPrefix/闭面消费者。
 
@@ -40,7 +40,7 @@ M112/T112/N2048、699节点、453态/236036free，前三core固定、scalar.99/c
 
 ### 113、122有限精度/方向实验
 
-[113接口](notes/2026-11-15-complete-binary128-native-primal-experiment-interface.md)/[原输入修复](notes/2026-11-15-native113-frozen-input-restoration-interface.md)，第二run43688981685/source8d68a39e/job132735373768，07:13:29创建，已terminal failure且owned cleanup成功，原log113563B/255c0724已取，R288读取中，不由作业状态推科学原因。两policy/全226RK/129248行、64原词提升、7200s child；partial后原64完整loop/finalJ/audit继续，320step350job，不冒128一致J。
+[113实际R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)run43688981685/source8d68a39e/job132735373768：两128策略各base+alpha1完整129248行/576stage。原stop范数.00012209605459741098949→.00011718707987942263382严格降；refined .02783149326844054368→.02783350799348104264未降，均未达2e−9。原stop半步189stage/42560行因7200秒部分停止/norm空；随后原64十档全拒iteration0，native/finalJ/audit仍false。三科学源不改，真实6943子步；64J仅原方向，后继须保128状态及匹配有限root策略的方向/全部审计。summary f1c7bf72/log113563B/255c0724，raw全清。
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[JVP源](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)冻结。[122](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)33pin+91context/2ready/78源，fresh全J/R273→唯一packet→alpha0双policy，总7200s/首≤3600s；sentinel受控停，原十trial/finalJ/audit未执行，不冒全224J/IEEE导数/接受锚。run43696328387/source05b1dc3b/job132757561652，08:49:59创建、最近step14，未读结果。
 
