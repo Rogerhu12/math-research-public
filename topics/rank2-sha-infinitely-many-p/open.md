@@ -165,3 +165,7 @@ R801已直接读取同q/58行/全E逆的实际E深Z²来源；四辅助值付六
 ### R806：原型四负二的准确算术身份
 
 原三线有完整order18角色与原Schwartz、全权平方及负二Katz公式；反射落权4中央root−，但同CM型Katz函数方程乘子+1，故不能换CM型强赋零。指定三项线性组合仍须证明非零，局部p²Euler不产生全球Soulé类，有限Artin周期/全W外部继续保留；详见[R806](results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)。
+
+### R807：同源连接的唯一 primitive 预像
+
+原G2的未投影余行Λ和算术像余行均为旧ray全N单位，因而不能省去PB4或只用两点线。PB4∇在旧primitive3上可逆，完整5×3右逆已给同源唯一P−；真正返回是17ω/(1−ω²)Σ[y/(x−e)]U_eP−。原负二仍须完整半周期与degree1×33卷积权(v−33c)/(c+v)²，不能由旧primitive负一非零替代；全W外部及高尾保持。详见[R807](results/R807-original-projected-connection-and-native-second-source.md)。

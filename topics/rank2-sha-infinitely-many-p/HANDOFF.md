@@ -3,25 +3,25 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：c820e3a6d122d54973e83e023e79ee3ae176f858；2026-11-15 18:00:02 UTC核两README无变。实际CI pull 2026-11-15 17:17:31 UTC/215f89a0359c0d7df3af6b157592420f890f2f33（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:00:01 UTC仍无环境。最迟2026-11-15 18:00 UTC再实际pull。
+- 最近已读规则提交：6c02fbddac71c959ce90e744646f325e582d4e25；2026-11-15 18:01:24 UTC核两README无变。实际CI pull 2026-11-15 18:00:14 UTC/2e951d4e3c6c79f2ce2a117a4bb2c882587a8678（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 18:01:23 UTC仍无环境。最迟2026-11-15 18:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
-- 实际CI pull17:17:31全成功，run43740261274/job132891647699/head215f89a0359c0d7df3af6b157592420f890f2f33；两README差异空，回执ci/rule-pull-20261115T171731.json。最迟18:00再实际pull。本地环境不可用，与CI区分。
-- 最新盘点28,759,045B/2093文件，无超限，3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核；真实输入和历史保。
+- 实际CI pull18:00:14成功，run43744230301/job132903884950/head2e951d4e3c6c79f2ce2a117a4bb2c882587a8678；两README差异空，回执ci/rule-pull-20261115T180014.json。最迟18:55再实际pull。本地环境不可用，与CI区分。
+- 最新盘点28,941,806B/2107文件，无超限，3旧真实输入块。[规则15复现](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核；真实输入和历史保。
 
 ## 完整归档、状态及分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r806.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-15-frontier-before-r807.md)沿归档链保全部常数、来源、十九角、坏集、ray、run/hash和未闭条件；不因压缩撤去任何门。[完整open](notes/2026-11-15-open-before-r782.md)；[完整结果索引](notes/2026-11-15-results-index-before-r804.md)。当前入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 
-R1–363、365–560、562–653、655–711、713–803、805–806已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
-root唯一metadata/ref写者；root R807原covariant连接；deep R808原完整指定配对；theta 原型四负二/primitive连接；literature R804实际Ψ/CM补域与新稿精确接口。完整证明一成即单独推，随后继续未闭门。
+R1–363、365–560、562–653、655–711、713–803、805–807已登记；R364/R561/R654/R712及主目标仍开。旧未发表R235/R237已重做。
+root唯一metadata/ref写者；root 原二阶真实负矩；deep R808原完整指定配对；theta 原型四负二/primitive连接；literature R804实际Ψ/CM补域与新稿精确接口。完整证明一成即单独推，随后继续未闭门。
 
 ## 当前执行与未推状态
 
 R801/R803的正式run43739961915/job132890717650成功，producer/参数/hash见两篇原证。R803替代首次仅报告>59KB的失败run；无旧输出待恢复。
-R807 producer已推08b5c59698e361935d3e57c7e3d46b354564f669，run43742915855/job132899794982成功。脚本check-r807-native-covariant-connection.py，python-flint0.9.0；重建原半周期、协变导数及同q二阶的新增余商，不读旧输出矩阵。原有限连接/同q余行全通过，R807完整证明已收到待登记；不预认负二非零。
-R804/R807/R808未登记；只用已完成文本，不把代理口头候选当定理。
+R807已登记；公开run43742915855/job132899794982成功，source08b5c59698e361935d3e57c7e3d46b354564f669；原半周期/同q重建，stdout4635B/9f4a91a7102aaf9e5e796be5998c5ba8fffe3228632f178c0233acfe4139b23f。参数/输入hash见原证，无待恢复输出。
+R804/R808未登记；无数学run执行中，继续真实未闭门。
 
 ## 普通：固定原源、完整域与真正中央
 
@@ -40,6 +40,8 @@ R796全六变量半周期给h_W=H_Y e0，原Y⊥的E/J/q门真交换；全E深B0
 R798/R801完整PB：型五恰两arith、primitive3全杀；型四rank3/charX³+ω。原E深Z²=λ2NΩ² P4F2；同q原六系数在旧ray两η/全N均unit，真实Yunit正四×Z²矩unit。K上三维循环性和σ(2z)²σ26因子已付。指定负二仍λ2NΩ²Σd_j I_j,-2，不能从系数或正矩推出非零；ζ伴随和原W全部浅补保。
 
 R806原型四三线的完整order18角色、Schwartz、全权平方与负二Katz身份已付；负二为权差3，反射古典权4中央root−，同CM型Katz乘子却+1。原三项线性组合、p²Euler、有限Artin/Soulé未付门保，不从相反CM型零推出本支零。
+
+R807实际G2在旧ray两η/全N均不在未投影∇像或两arith投影∇像：原辅助1009余行54/724。原primitive3上PB4∇为同构，完整5×3右逆给唯一P−；G2=17ω/(1−ω²)Σ[y/(x−e)]U_eP−，项项全纯有X+b。真实degree1×33卷积权(v−33c)/(c+v)²与和变量unit、全PB均须保留，旧点负一非零不代此负二。
 
 R780第三原U136/E2312精确E深表保两态W=T及scale质量；旧§6(28)已撤回：帽只Eperp深，帽∩W深迫Eunit。R784全216 CM的E浅U行、各canonical源/逆Y/局部质量与Ξ/reference/外谱保。
 R789两种外部互斥：第三逆Y帽归一稳定；固定观察Δ2质量0而中央非零，余215必须补。不能相减。

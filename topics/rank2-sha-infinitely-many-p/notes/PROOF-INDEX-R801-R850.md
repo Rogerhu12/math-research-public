@@ -13,3 +13,5 @@
 - **R805**：[原常数charge的全分支属门与全部profile真实秩界](../results/R805-original-constant-charge-genus-gate-and-all-profile-rank.md)。F0=λd^cH直接控制固定四纤维外全部正规零支，任意最高项移动极亦完整计入，目标p上得h≤6γ+2a+10b+2degH−6。故R743两真实连接/359κ/96单位秩门扩到原全部已分类格，去掉最高系数S-unit假设；同R指定forcing、全部余列和两13不删。
 
 - [R806](../results/R806-original-type-four-order-eighteen-and-negative-two-katz.md)：已证明原型四三条完整十八阶Hecke角色/2、3、17处向量、原Schwartz和全权平方，负二准确为Katz值的三项平方根线性组合。负二反射落权4中央root−而同CM型Katz乘子+1，不能互换CM型强赋零；真高权差3、p²局部Euler及未付Artin/Soulé非零保留，原W全补偿不变。
+
+- [R807](../results/R807-original-projected-connection-and-native-second-source.md)：已证明原型五至型四协变导数的完整余商、两算术像及primitive三维同构，给唯一5×3原预像；同q/58行的两真实余行在旧ray两η/全N为单位，故实际二阶源不在未投影像或两算术投影像。完整半周期交换子逐项全纯且有X+b，准确degree1×33卷积与同一和变量unit保留，原负二及W外部非消失仍开。
