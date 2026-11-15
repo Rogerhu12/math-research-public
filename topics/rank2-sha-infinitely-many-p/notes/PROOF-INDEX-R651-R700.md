@@ -78,3 +78,6 @@
 
 - [主角型carry的原角域三次稳定](2026-11-15-principal-carry-corner-third-jet-stability.md)：同一原整权的齐次次数在6Z时，完整相对Mellin三次项与R682相同并读实际二阶积分；适用于已付q♯，新增十二次单行质量和全部尺度log保留。
 
+
+- [R680着色根能量增补](2026-11-15-r680-colored-root-energy-with-linear-multiplicity-cost.md)：同实际不可约因子内部判别式整体按w(1)=1、w(m)=4(m−1)着色，异色仍乘mn；原准确负自交项保，重复次数成本降线性，4q(H−r)≤3B_D²+32D。必要主界p≤141D²/(8q)+O(D)，一般D≥sqrt(8/141)√p；q3恰临界不删线性项，同R forcing仍开。
+

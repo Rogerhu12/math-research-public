@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R680着色根能量增补](notes/2026-11-15-r680-colored-root-energy-with-linear-multiplicity-cost.md)：同实际不可约因子内部判别式整体按w(1)=1、w(m)=4(m−1)着色，异色仍乘mn；原准确负自交项保，重复次数成本降线性，4q(H−r)≤3B_D²+32D。必要主界p≤141D²/(8q)+O(D)，一般D≥sqrt(8/141)√p；q3恰临界不删线性项，同R forcing仍开。
+
 - [R679：中性十二次扩展与三份完整S适配](results/R679-neutral-degree-twelve-three-s-and-exterior-return.md)：原11核及前8核乘真实π4输出G^6给六/十二次整测试q♯，实际19阶全参数逆使两冻结源与cd端点全等S且归一J2=1；同ray密度一族全N4保完整算术返回。未切V/X与十二步I/O/X都准确回JS，新增J8/全H8尾不删，负一深支仍非零；全T失败支尚未与这些S域相认，旧零质量不搬。
 
 - [主角型carry的原角域三次稳定](notes/2026-11-15-principal-carry-corner-third-jet-stability.md)：同一原整权的齐次次数在6Z时，完整相对Mellin三次项与R682相同并读实际二阶积分；适用于已付q♯，新增十二次单行质量和全部尺度log保留。
