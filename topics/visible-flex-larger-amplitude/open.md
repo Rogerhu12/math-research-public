@@ -24,7 +24,9 @@
 
 reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/104检查/18源闭合；每轮576J/577因子与常数/1167f64/129248 exact行已付，未导出formedV/rho仅hash。R276独立Actions给全部30原alpha严格affine∞下降、endpoint约9.6856e-11、alpha*约2；不能把实际全拒归为该保存J方向无十档线性下降。完整未预条件gradient仍大，finite J不冒真实DF；历史ULP只it0stage11Pi75，非末it2stage10Pi76。publisher后发H冲突与原科学失败独立，原件已恢复出版。
 
-末failed state f6abeb044a692342f2e3184776bacb34ddb2cf499517fecbc41fb36e7e279ad6，delta4b4b1aaacd96910635a03f97d45957ae995c724997a0e18b66ac1d06408e294a，完整577×224 JSON比特同/负零0，仍不是成功尾锚。83固定上述原件及H/target/sigma/far，只重放原alpha1/512：原JS形成roundedstate，evaluate(false)一次，保全out/r/cut/far/norm/argmax及原root字段。精确h=trial-base不先round，用保存A分开state-add项和其余flow/tangent-model差；后者不预断唯一非线性/root/J原因。旧73源/η/原门保持，四新源305f5db2/c03f59e4/51f86528/3570aa9f及[83接线](notes/2026-11-15-request83-workflow-handoff.md)已发布workflow54e24e45/request90da387c；root全文读源与接口、20pins10shell6inline通过；实际未来SHA仅runtime形成。[已付末轮R276原小gzip](notes/2026-11-15-actual73-r276-iteration002-original.json.gz)可直接作83绑定输入，无第二次取包。
+[83原noJ完整试步及根返回](notes/2026-11-15-actual83-original-noJ-realized-trial-and-root-readback.md)已保存：run43668743706/source8d199eda/job132673843713 success，一次原alpha1/512复现norm .000060618737006888706/hex71f299f11bc80f3f，与73base及trial9逐位同，仍无严格下降。129248状态词有103123改变，不能称整state不变；全部576原stage通过/27772root返回/0fallback，控制仍stage10 Pi76 row2539。613原件/15完整raw/576packet/473295numberRecord字节范围完整已付，原内部226state/L/moments只有SHA的部分不冒payload。原32/10/tol2e-9保持，此probe没有solve/J/QR。
+
+同包实际roundedstate的exact h与原savedA/ideal/actualr分解另由exact完整读回，不能把一次试步归因推广到全部十档或真实误差底线。下一91仅对原四行作完整224列贡献和独立坐标/输出/norm ULP诊断；不预选放宽门或保证新方向。末failedstatef6abeb04/delta4b4b1aaa仍非接受尾锚，原83接口及it2R276小gzipb7812e06保留。
 
 ### 1C. actual-H → 原FD → 同live fullDN
 

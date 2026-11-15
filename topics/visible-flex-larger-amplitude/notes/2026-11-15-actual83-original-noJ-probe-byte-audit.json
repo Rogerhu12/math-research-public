@@ -1,0 +1,150 @@
+{
+  "actual_public_run": "43668743706",
+  "actual_source_commit": "8d199eda5c1f1df162ded244e8dfd012e0c8d127",
+  "all_probe_file_bytes": 14299594,
+  "all_probe_files_rehashed": 613,
+  "all_root_full226_states_L_moments_payloads_independently_hashed": false,
+  "artifact": {
+    "ZIP_not_redownloaded_or_rehashed_by_this_reader": true,
+    "ZIP_verified_by_parent_sole_downloader": true,
+    "bytes": 48375172,
+    "id": "14143009723",
+    "zip_sha256": "9eadec9633a1260597268a760b5870bf59bd18ef808e8c5eb6ac5e006df5634c"
+  },
+  "checks": {
+    "complete_flow_rows": 576,
+    "complete_root_packets": 576,
+    "complete_source_text_roundtrips": 3,
+    "file_descriptors": 604,
+    "gzip_raw_descriptors": 580,
+    "launch_source_digest_aliases": 89,
+    "original_root_return_records": 27772
+  },
+  "complete_inventory": {
+    "bytes": 182118,
+    "file": "2026-11-15-actual83-original-noJ-probe-complete-byte-inventory.json.gz",
+    "sha256": "b388bd4ec495e78640ed7e9c072ec174afc0f6663fd647df656d031749824cde"
+  },
+  "complete_original_root_packets": 576,
+  "complete_raw_array_bytes": 6214024,
+  "complete_raw_arrays": 15,
+  "exact_h_consumer_audit_owned_separately": true,
+  "failure_cause_proven": false,
+  "full_original_parent73_archive_reaudited": false,
+  "job": "132673843713",
+  "literal_original_state_change_diagnostics": {
+    "bit_different_words": 103123,
+    "numerically_different_words": 103123
+  },
+  "literal_readout": {
+    "bytes": 181720,
+    "file": "2026-11-15-actual83-original-noJ-probe-literal-readout.json.gz",
+    "sha256": "ccd972ed5a7d3f216f6821d5de8f2e2211eaeea976c3d6ab6d43309ab58c0f88"
+  },
+  "local_operations": [
+    "SHA256/size",
+    "gzip/JSON decoding",
+    "f64 bit classification and JSON number-record encoding consistency",
+    "raw byte slices and word equality",
+    "source text roundtrip",
+    "metadata counts"
+  ],
+  "native_accepted": false,
+  "not_performed": [
+    "RHS",
+    "root",
+    "ODE",
+    "J generation",
+    "QR",
+    "trial reconstruction",
+    "floating residual subtraction",
+    "norm/argmax calculation",
+    "exact action or decomposition",
+    "scientific threshold comparison"
+  ],
+  "number_records_byte_validated": 473295,
+  "original_evaluate_count": 1,
+  "original_native_norm": {
+    "classification": "finite",
+    "float64le_hex": "71f299f11bc80f3f",
+    "value": 6.0618737006888706e-05
+  },
+  "original_result": {
+    "bytes": 2679,
+    "file": "result.json",
+    "sha256": "7be2d7f0a98445e5efcd0ba146b7f8257483fa7593a54a6b389e8279f7fcf6ea"
+  },
+  "original_stage_guard_return_flag": true,
+  "original_successful_root_return_records": 27772,
+  "original_summary": {
+    "bytes": 6091,
+    "file": "summary.json",
+    "sha256": "3142ac7893e2adc5d03168c38be69e5e513e999cd1d65a0e37ef4b084caffc5e"
+  },
+  "original_worst_row": {
+    "block": "Pi",
+    "column": 187,
+    "frequency": 152,
+    "global_row": 2539,
+    "kind": "stage",
+    "mode": 76,
+    "normalized_absolute": {
+      "classification": "finite",
+      "float64le_hex": "71f299f11bc80f3f",
+      "value": 6.0618737006888706e-05
+    },
+    "rawCell": 0,
+    "rawSegment": 7,
+    "residual": {
+      "classification": "finite",
+      "float64le_hex": "000000000020173c",
+      "value": 3.1340219048409113e-19
+    },
+    "scale": {
+      "classification": "finite",
+      "float64le_hex": "08d0dad5aa48f73c",
+      "value": 5.170054771158893e-15
+    },
+    "stage": 10
+  },
+  "parent_binding_scope": "Original parent receipts and output raw aliases match; parent native/QR/J archive is not re-downloaded here.",
+  "pass": true,
+  "probe_directory": "actual73-realized-trial",
+  "raw_state_bit_changed_words": 103123,
+  "raw_state_word_classifications": {
+    "base-states": {
+      "finite": 129248
+    },
+    "native-delta": {
+      "finite": 129223,
+      "negative-zero": 25
+    },
+    "trial-states": {
+      "finite": 129248
+    }
+  },
+  "reader_source": {
+    "bytes": 22469,
+    "file": "read_actual83_probe_bytes.py",
+    "sha256": "24cbf36c50126b84854cc3b2e0bf0ab803d541a8800caac7925242ae09633564"
+  },
+  "root_fallback_field_histogram": {
+    "False/False": 27772
+  },
+  "root_histogram_scope": "Counts of saved categorical/count fields only; no root error/scale ratio or new extrema computed.",
+  "root_iteration_field_histogram": {
+    "0": 26868,
+    "1": 904
+  },
+  "root_packet_compressed_bytes": 7466582,
+  "root_packet_decoded_bytes": 57672999,
+  "root_payload_scope": "Root full226/L/moments are SHA-only in the producer packets; their syntax and packet bytes are bound, not unavailable payloads. Incoming stage rows and all returned stage/out/residual/means payloads are independently hashed.",
+  "root_return_count_histogram_by_stage": {
+    "48": 545,
+    "52": 31
+  },
+  "saved_J_payloads_read_by_this_reader": false,
+  "schema": "actual83-original-noJ-probe-byte-audit-v1",
+  "task_completed": false,
+  "worker_roundtrip_scope": "Worker source roundtrip is a producer receipt only; evaluate/core/root complete saved source strings were independently reversed and hashed."
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "actual83-two-reported-rows-original-word-readout-v1",
+  "scope": "Raw words read only; no differences, ULPs, nextafter, norm or scientific arithmetic. Stage out/residual row 11 is a different downstream equation, not the input of stage 10.",
+  "rows": [
+    {
+      "node": 10,
+      "column": 184,
+      "component": "Pi73",
+      "base-states": {
+        "float64le_hex": "8402bcb5869cb9be",
+        "value": -1.5265602177351432e-06
+      },
+      "native-delta": {
+        "float64le_hex": "cc43380d8994b438",
+        "value": 1.548283387599687e-35
+      },
+      "trial-states": {
+        "float64le_hex": "8402bcb5869cb9be",
+        "value": -1.5265602177351432e-06
+      },
+      "trial-stage-out": {
+        "float64le_hex": "3e01bcb5869cb9be",
+        "value": -1.5265602177350742e-06
+      },
+      "trial-stage-residuals": {
+        "float64le_hex": "000000000060f43b",
+        "value": 6.903318520122548e-20
+      },
+      "saved-stage-residuals": {
+        "float64le_hex": "000000000080e03b",
+        "value": 2.795208725939191e-20
+      }
+    },
+    {
+      "node": 10,
+      "column": 187,
+      "component": "Pi76",
+      "base-states": {
+        "float64le_hex": "fae064304963e53e",
+        "value": 1.0198514712387176e-05
+      },
+      "native-delta": {
+        "float64le_hex": "cc43380d8994e438",
+        "value": 1.2386267100797497e-34
+      },
+      "trial-states": {
+        "float64le_hex": "fae064304963e53e",
+        "value": 1.0198514712387176e-05
+      },
+      "trial-stage-out": {
+        "float64le_hex": "b3e164304963e53e",
+        "value": 1.019851471238749e-05
+      },
+      "trial-stage-residuals": {
+        "float64le_hex": "000000000020173c",
+        "value": 3.1340219048409113e-19
+      },
+      "saved-stage-residuals": {
+        "float64le_hex": "000000000020173c",
+        "value": 3.1340219048409113e-19
+      }
+    },
+    {
+      "node": 11,
+      "column": 184,
+      "component": "Pi73",
+      "base-states": {
+        "float64le_hex": "ba01863efe54bb3e",
+        "value": 1.6291144167846875e-06
+      },
+      "native-delta": {
+        "float64le_hex": "5d9519650bbab838",
+        "value": 1.860232890904781e-35
+      },
+      "trial-states": {
+        "float64le_hex": "ba01863efe54bb3e",
+        "value": 1.6291144167846875e-06
+      },
+      "trial-stage-out": {
+        "float64le_hex": "fc00863efe54bb3e",
+        "value": 1.6291144167846473e-06
+      },
+      "trial-stage-residuals": {
+        "float64le_hex": "0000000000c0e7bb",
+        "value": -4.0234064994579266e-20
+      },
+      "saved-stage-residuals": {
+        "float64le_hex": "0000000000c0e7bb",
+        "value": -4.0234064994579266e-20
+      }
+    },
+    {
+      "node": 11,
+      "column": 187,
+      "component": "Pi76",
+      "base-states": {
+        "float64le_hex": "6446ac2c6648e4be",
+        "value": -9.671597032165354e-06
+      },
+      "native-delta": {
+        "float64le_hex": "e8b8bb98077cb038",
+        "value": 1.2401552606031872e-35
+      },
+      "trial-states": {
+        "float64le_hex": "6446ac2c6648e4be",
+        "value": -9.671597032165354e-06
+      },
+      "trial-stage-out": {
+        "float64le_hex": "c646ac2c6648e4be",
+        "value": -9.67159703216552e-06
+      },
+      "trial-stage-residuals": {
+        "float64le_hex": "00000000008008bc",
+        "value": -1.6601845766184287e-19
+      },
+      "saved-stage-residuals": {
+        "float64le_hex": "00000000008008bc",
+        "value": -1.6601845766184287e-19
+      }
+    }
+  ]
+}
