@@ -1,0 +1,953 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "complete-global197-original-i2-600",
+  "executionSourceCommit": "b5ee6143e79210ab6db86666e2b40f78cda48370",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-runner-789f.py",
+  "scriptSHA256": "fc1bfafdf11119390f19adef3f6230d76cf8d93d7bdaa95d439589a3f4ec77df",
+  "argvTemplate": [
+    "--inputs-root",
+    "{work}/global197-original-inputs",
+    "--input-manifest",
+    "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/global197-i2",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "final"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 75,
+  "wallSeconds": 582.494905368,
+  "fullTemporaryReceiptBytes": 29698,
+  "fullTemporaryReceiptSHA256": "978cf538cd460f6f262f7f2979b8243319df03093d18165d38361956ba9d0590",
+  "result": {
+    "elapsedSeconds": 582.40937125,
+    "error": "native stage saved or stopped: b05-q1-original",
+    "errorType": "BudgetStop",
+    "format": "r150-global197-original-i2-pipeline-v1",
+    "prime": 31,
+    "status": "budget-checkpoint",
+    "parameters": {
+      "activeColumns": 197,
+      "all198PaidGlobalFirstRemaindersZero": true,
+      "batchSize": 31,
+      "batches": [
+        {
+          "activeHighKernelNumbersOneBased": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "batch": 1,
+          "binding": "3cdbc4361da3d71a35655eda11ea5862641de0398f085de159343ca54036bbe1",
+          "files": {
+            "firstMixture": {
+              "bytes": 14002,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/first.mix",
+              "sha256": "0fec4ccd53487e0beb935b7965b0304cbb532ae214c9da51e867ffa9bb222dba"
+            },
+            "imageMetadata": {
+              "bytes": 783,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/complete-G-image/complete-G-image-image-certificate.json",
+              "sha256": "e9f9e2fe5e6fdb9f0c9680f928b52c7372b50cd61933d7f2fd3c59fce7deed6b"
+            },
+            "imageRemainders": {
+              "bytes": 8402,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/complete-G-image/complete-G-image-image-remainders.bin",
+              "sha256": "d04779584345d4cc424adb2f32cfde25b0887c6ed4db882a8ead3942847c88d8"
+            },
+            "normalBackward": {
+              "bytes": 3052119,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/paid-normal/paid-normal-backward.bin",
+              "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+            },
+            "normalForward": {
+              "bytes": 2378937,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/paid-normal/paid-normal-forward.bin",
+              "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+            },
+            "originalMetadata": {
+              "bytes": 1115,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/divided-original/divided-original-original-product.json",
+              "sha256": "562123b885229152b25114f59643734e78a701de18271fdfb3a9cc9303882960"
+            },
+            "secondRecipe": {
+              "bytes": 16046,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-01/second-divided.recipe",
+              "sha256": "57f8dc5c9d56a797077ddd57d5661637ba77b4eb8850c446265f488a9c5c3ffa"
+            }
+          },
+          "paddedColumnCount": 0
+        },
+        {
+          "activeHighKernelNumbersOneBased": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "batch": 2,
+          "binding": "3cdbc4361da3d71a35655eda11ea5862641de0398f085de159343ca54036bbe1",
+          "files": {
+            "firstMixture": {
+              "bytes": 14002,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/first.mix",
+              "sha256": "3777dabc78dc6ec71f1a51bf1e5e084395af4d7fb1207f42da51f8d7cbda8f1b"
+            },
+            "imageMetadata": {
+              "bytes": 783,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/complete-G-image/complete-G-image-image-certificate.json",
+              "sha256": "636fd24a599c4f573066d42b238bf43e5bf64ca80f68304405bf8e52f4559c1d"
+            },
+            "imageRemainders": {
+              "bytes": 8418,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/complete-G-image/complete-G-image-image-remainders.bin",
+              "sha256": "4fbd81c9d39bbc7d53abc9d47e50b9666feda12052ae316228da80a6d3d369a0"
+            },
+            "normalBackward": {
+              "bytes": 3052119,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/paid-normal/paid-normal-backward.bin",
+              "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+            },
+            "normalForward": {
+              "bytes": 2378937,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/paid-normal/paid-normal-forward.bin",
+              "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+            },
+            "originalMetadata": {
+              "bytes": 1114,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/divided-original/divided-original-original-product.json",
+              "sha256": "d1d7852de69ebc81ee90fa665f18a5afb5d7fdacf8cbbac098c610f800895bc6"
+            },
+            "secondRecipe": {
+              "bytes": 16046,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-02/second-divided.recipe",
+              "sha256": "69c3759dabc4e466da712507fd5d174b720c794a060c363ec0a10172f682b5cc"
+            }
+          },
+          "paddedColumnCount": 0
+        },
+        {
+          "activeHighKernelNumbersOneBased": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "batch": 3,
+          "binding": "3cdbc4361da3d71a35655eda11ea5862641de0398f085de159343ca54036bbe1",
+          "files": {
+            "firstMixture": {
+              "bytes": 14002,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/first.mix",
+              "sha256": "94a722884cfd29c6c306d1363226f13af21d9141a111fe9f9a80d263fed91f1b"
+            },
+            "imageMetadata": {
+              "bytes": 783,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/complete-G-image/complete-G-image-image-certificate.json",
+              "sha256": "b7221ee99ea08b8f97dc188c838ad659d7fa681401947a4296084ad436e9b851"
+            },
+            "imageRemainders": {
+              "bytes": 8374,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/complete-G-image/complete-G-image-image-remainders.bin",
+              "sha256": "7fa7bcd9f923440b981c54e7120eb42bcc8e2a515e7c08c018536997f2fd99b4"
+            },
+            "normalBackward": {
+              "bytes": 3052119,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/paid-normal/paid-normal-backward.bin",
+              "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+            },
+            "normalForward": {
+              "bytes": 2378937,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/paid-normal/paid-normal-forward.bin",
+              "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+            },
+            "originalMetadata": {
+              "bytes": 1115,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/divided-original/divided-original-original-product.json",
+              "sha256": "0629d5a9059908fb67aaaed64a157c8a410b5101e1da09f94622a581519d6efb"
+            },
+            "secondRecipe": {
+              "bytes": 16046,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-03/second-divided.recipe",
+              "sha256": "f1c7bbcebd492132da21f13253e47d72e1b122d599150df3d08ce239774ce5c8"
+            }
+          },
+          "paddedColumnCount": 0
+        },
+        {
+          "activeHighKernelNumbersOneBased": [
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "batch": 4,
+          "binding": "3cdbc4361da3d71a35655eda11ea5862641de0398f085de159343ca54036bbe1",
+          "files": {
+            "firstMixture": {
+              "bytes": 14002,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/first.mix",
+              "sha256": "a8fef3fb190d808dfe4505710e39a62a251f0c3949a692d68b44dcc5fd8fae6d"
+            },
+            "imageMetadata": {
+              "bytes": 783,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/complete-G-image/complete-G-image-image-certificate.json",
+              "sha256": "8d8ed84129028c28451f9b9a39fe5de13a9e0b42e9816639b003f8c76f78d745"
+            },
+            "imageRemainders": {
+              "bytes": 8398,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/complete-G-image/complete-G-image-image-remainders.bin",
+              "sha256": "48e21ab94c9fdfe34cb5b57ef934b48d8c7e85516e74c45bc78b6f346485cd48"
+            },
+            "normalBackward": {
+              "bytes": 3052119,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/paid-normal/paid-normal-backward.bin",
+              "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+            },
+            "normalForward": {
+              "bytes": 2378937,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/paid-normal/paid-normal-forward.bin",
+              "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+            },
+            "originalMetadata": {
+              "bytes": 1115,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/divided-original/divided-original-original-product.json",
+              "sha256": "3ebc266c5f0076a6dd6895f02340d4b5067405b351f144c9f14cc6cc33c1d9fa"
+            },
+            "secondRecipe": {
+              "bytes": 16046,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-04/second-divided.recipe",
+              "sha256": "0597dec11f305b13919520c035b515f05490c5b523929a1685f6f0be0f252b9f"
+            }
+          },
+          "paddedColumnCount": 0
+        }
+      ],
+      "binding": "3cdbc4361da3d71a35655eda11ea5862641de0398f085de159343ca54036bbe1",
+      "compilations": {
+        "image": {
+          "elapsedSeconds": 5.0779720920000955,
+          "reused": false,
+          "sha256": "db26f2804f27851aa8cbfba0d31b2e5911192fde09d1cfaf5cad076b94280a1f",
+          "status": "completed"
+        },
+        "normal": {
+          "elapsedSeconds": 2.4107650590000276,
+          "reused": false,
+          "sha256": "c421c5de605c0b60649435a3742f68a6eb27db665dae529c66ef1e88a15b1be1",
+          "status": "completed"
+        },
+        "original": {
+          "elapsedSeconds": 2.06776069,
+          "reused": false,
+          "sha256": "85f352830e6c8d416961fe9706f566460129c3d0094887eed894e3d320cd47cd",
+          "status": "completed"
+        },
+        "source": {
+          "elapsedSeconds": 2.3404772299999195,
+          "reused": false,
+          "sha256": "89033a58b058b1f36c0863e430b658a95bbefd62d61b96f2c775d2ff9ba175cb",
+          "status": "completed"
+        },
+        "transport": {
+          "elapsedSeconds": 3.8410349550000547,
+          "reused": false,
+          "sha256": "cb8208bb1606d161ea997f908914c20857d5c045aea9125e26f61245f75852ff",
+          "status": "completed"
+        }
+      },
+      "firstRHSCostBound": 81,
+      "inputManifestSHA256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac",
+      "inputs": {
+        "backward": {
+          "bytes": 3052119,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/backward.bin",
+          "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+        },
+        "forward": {
+          "bytes": 2378937,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/forward.bin",
+          "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+        },
+        "graph": {
+          "bytes": 101365853,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/graph.bin",
+          "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+        },
+        "integerModel": {
+          "bytes": 22824,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/integerModel.txt",
+          "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+        },
+        "model": {
+          "bytes": 128145,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/model.txt",
+          "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+        },
+        "normalTrace": {
+          "bytes": 101244784,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/normalTrace.bin",
+          "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+        },
+        "oldK": {
+          "bytes": 48275717,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldK.bin",
+          "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+        },
+        "oldNF": {
+          "bytes": 10865128,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldNF.bin",
+          "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b"
+        },
+        "oldQ": {
+          "bytes": 16649150,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldQ.bin",
+          "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+        },
+        "oldRem": {
+          "bytes": 2520,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldRem.bin",
+          "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de"
+        },
+        "oldTrace": {
+          "bytes": 113614260,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldTrace.bin",
+          "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+        },
+        "originalNF": {
+          "bytes": 32916190,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/originalNF.bin",
+          "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+        },
+        "selector": {
+          "bytes": 10040,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/selector.bin",
+          "sha256": "2d90d72ac72cc63e5531b80a6e788ef82c6bf794481b53546b27b0afcb7134ee"
+        },
+        "state": {
+          "bytes": 1470456,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/state.bin",
+          "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+        }
+      },
+      "memoryMiB": 4096,
+      "runnerSHA256": "fc1bfafdf11119390f19adef3f6230d76cf8d93d7bdaa95d439589a3f4ec77df",
+      "seconds": 600.0,
+      "sourceCostBound": 177,
+      "sources": {
+        "2026-11-14-r150-f31-bitplane-789f.hpp": {
+          "bytes": 3030,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        "2026-11-14-r150-torsion-characteristic-789f.py": {
+          "bytes": 5002,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-14-r150-torsion-characteristic-789f.py",
+          "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+        },
+        "2026-11-15-r150-global197-i2-closure-789f.py": {
+          "bytes": 17625,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-closure-789f.py",
+          "sha256": "9071f4a3b48fdf277a6cc6e7c65f5dc0b5aea213dd6cf0b4affffc1eccb1a471"
+        },
+        "2026-11-15-r150-global197-i2-common-789f.hpp": {
+          "bytes": 11064,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-common-789f.hpp",
+          "sha256": "a871e1ddb8e06c9580351fad6f3275f9076a639cd7b251c28c50f53a08427519"
+        },
+        "2026-11-15-r150-global197-i2-image-789f.cpp": {
+          "bytes": 7039,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-image-789f.cpp",
+          "sha256": "73b23703d5519afa2e6e75fa4f90b06f06d0dc3d1849e1771008f50d59ac24fd"
+        },
+        "2026-11-15-r150-global197-i2-normal-789f.cpp": {
+          "bytes": 17662,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-normal-789f.cpp",
+          "sha256": "9b0eb1fa130ef556aa7179dcebbcdfb01fa1d260fe63f7051ff021bd6c4eeb89"
+        },
+        "2026-11-15-r150-global197-i2-original-789f.cpp": {
+          "bytes": 13458,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-original-789f.cpp",
+          "sha256": "8be9925cf90da48f8a7e6115d0d6b2d0374ce6de2ac92c1b9665d2b6def81afe"
+        },
+        "2026-11-15-r150-global197-i2-source-789f.cpp": {
+          "bytes": 22602,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-source-789f.cpp",
+          "sha256": "281907d42d90ba1666f8df20cc08b3f573f21c710387401cb2ddb7d3d2325f74"
+        },
+        "2026-11-15-r150-global197-i2-transport-789f.cpp": {
+          "bytes": 24225,
+          "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-global197-i2-transport-789f.cpp",
+          "sha256": "c2f195bb866a72923ecb7846b679f8c163a3ca60f29e58e199b003bc708f8aad"
+        }
+      },
+      "stages": {
+        "b01-complete-G-image": {
+          "completedCache": {
+            "bytes": 1897,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-complete-G-image.json",
+            "sha256": "1b26e8ef82d3d6824694fde5546bee8007fb77ac484b667a304caf1ff3d0b91e"
+          },
+          "elapsedSeconds": 4.428807773000017,
+          "inputBinding": "fe54b980e71c17441994509b97b86d54388a0adbe9caf4321f110b5cecd1ea34",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b01-divided-original": {
+          "completedCache": {
+            "bytes": 2165,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-divided-original.json",
+            "sha256": "5a9bb12db58c70abb6736bd5af0b4276987786c5565918bc1cac6cab57907938"
+          },
+          "elapsedSeconds": 13.570269929000006,
+          "inputBinding": "2e48d05742836619db95f3668cd07ac4c21fcca5e8fd01a6db9cb8aecc8fbaf6",
+          "nativeStatus": "full-original-combination-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b01-first-image": {
+          "completedCache": {
+            "bytes": 1815,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-first-image.json",
+            "sha256": "bd28aebf2a97148c3d0df69ac0daf776f8f408ca7175a8d0a05c9cc5c4be508f"
+          },
+          "elapsedSeconds": 1.6366680009999754,
+          "inputBinding": "831ce12b0fd69f3f5ceeee3bef55e75ba0d6ed5b11cbd4ecca77b5b263c0554f",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b01-paid-normal": {
+          "completedCache": {
+            "bytes": 1920,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-paid-normal.json",
+            "sha256": "dbd19ddf1a24141bb6abba87b2b41f9f9a2e973c1ac4b172e79bab881f2dd333"
+          },
+          "elapsedSeconds": 27.179067700999894,
+          "inputBinding": "2b3227f37fa57ce7650bb6fa63116b38f6d9c08a932febbae36146c117526373",
+          "nativeStatus": "global197-i2-paid-normal-forms-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b01-q1-original": {
+          "completedCache": {
+            "bytes": 1115,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-q1-original.json",
+            "sha256": "c032ab06fd505c1a056e25e7072bf34f0cf31c19a9988a1400d55a6bb2c08e18"
+          },
+          "elapsedSeconds": 20.275099682000018,
+          "inputBinding": "ca3a60e342c992465656c6cda65d5774b45d6e65c7b4bb64d530310f05ea5f81",
+          "nativeStatus": "original-source-transport-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b01-raw-VQ": {
+          "completedCache": {
+            "bytes": 1381,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b01-raw-VQ.json",
+            "sha256": "e075b2cc8fd6a984c54ac6896c753efac1c968eeabdec647514ee73b4f9db335"
+          },
+          "elapsedSeconds": 56.373036952999996,
+          "inputBinding": "6b3403a2bc7682dbae2dfd6a8ccf6989abd29a398f40ee1646d3d0e507100c86",
+          "nativeStatus": "packed-image-source-convolution-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-complete-G-image": {
+          "completedCache": {
+            "bytes": 1897,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-complete-G-image.json",
+            "sha256": "8e034a279e20fb3a2dfca5b9f0d4968e4f3348c52ea9be96c5aba098d69b69be"
+          },
+          "elapsedSeconds": 4.428275140999972,
+          "inputBinding": "06a58a0c06db86984197b7a28903175a458beb3fe1a9c3f0df8ec023f3c4babf",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-divided-original": {
+          "completedCache": {
+            "bytes": 2165,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-divided-original.json",
+            "sha256": "cd6021761ba6a5869a5f169038eb933136ee8dbb61c4ba1f978eed7dc1f35010"
+          },
+          "elapsedSeconds": 13.548430976999953,
+          "inputBinding": "c9dfdbf8f7fad2acb08c6a938cac96790cf04925d39dad692f66ba47320c8b2e",
+          "nativeStatus": "full-original-combination-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-first-image": {
+          "completedCache": {
+            "bytes": 1815,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-first-image.json",
+            "sha256": "3a36b32bbcde0d1d75a2e89dab985bf0e6701d0ca0f1b2dae1fb18975ff107ca"
+          },
+          "elapsedSeconds": 1.6515372830000388,
+          "inputBinding": "41ad266cdb9309b46483596ca6ff7156b467357f6d3b3538007a079481f99183",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-paid-normal": {
+          "completedCache": {
+            "bytes": 1920,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-paid-normal.json",
+            "sha256": "de6afee2d4f07a51964fc4d2498348594f3fd2e6c8f3b3c970d79c57e5ebd3e0"
+          },
+          "elapsedSeconds": 27.328349050000043,
+          "inputBinding": "a29d9478495135d56f4d2bb13afa95251c39289a64253a79cb84320d6a7fe796",
+          "nativeStatus": "global197-i2-paid-normal-forms-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-q1-original": {
+          "completedCache": {
+            "bytes": 1115,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-q1-original.json",
+            "sha256": "18517335a7d61fd5813cbdc44ff8be0e85b7c0663e479a085ced0a179e26993f"
+          },
+          "elapsedSeconds": 20.629638139999997,
+          "inputBinding": "b6656bb404d66f0e7d0169317f9a468b9aaf6dd73e67157aee67d6ad42258d11",
+          "nativeStatus": "original-source-transport-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b02-raw-VQ": {
+          "completedCache": {
+            "bytes": 1381,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b02-raw-VQ.json",
+            "sha256": "af14a2a74f3f721176ccd9d3f15e8f7455fec1e6e0f9ed12ac6d6ae1bde9ebd7"
+          },
+          "elapsedSeconds": 57.05317560200001,
+          "inputBinding": "5f4df5d59976859c8301cc146e9b193cd42afeb8e001790e1c120791d23dc1be",
+          "nativeStatus": "packed-image-source-convolution-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-complete-G-image": {
+          "completedCache": {
+            "bytes": 1897,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-complete-G-image.json",
+            "sha256": "4522a8ea3ef20c2dbc64650cd8e0e02466144666baca726b889b91c9c0cd4592"
+          },
+          "elapsedSeconds": 4.531264595000039,
+          "inputBinding": "9ae74c26093d79a8fc84a4201cd103dddb40cf7739b2c1b204b200e4dc6282e3",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-divided-original": {
+          "completedCache": {
+            "bytes": 2165,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-divided-original.json",
+            "sha256": "b728e0dc6471689094e37d5f34dc3d05bfcd70cbb20420dfa62ee55c4fbf7b2f"
+          },
+          "elapsedSeconds": 13.588276011000062,
+          "inputBinding": "1083f41a91baa8f4fca00419f54e4ef9146e2884c0b1d064dbdcc18cd7eb1c20",
+          "nativeStatus": "full-original-combination-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-first-image": {
+          "completedCache": {
+            "bytes": 1815,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-first-image.json",
+            "sha256": "93f2470902bea846d2f2a0fbb71b8b7b156b0b7f860fa2a3d45350122ec148d7"
+          },
+          "elapsedSeconds": 1.6824630180000213,
+          "inputBinding": "2ac9ba6f756d512f237b0b6e49fbf94e15be461df384eb0b3c970ff7a5d0038b",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-paid-normal": {
+          "completedCache": {
+            "bytes": 1920,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-paid-normal.json",
+            "sha256": "3c756a6bd60604d452ca981c5c514a480e96884cb5634669fd36d3bc65d4702e"
+          },
+          "elapsedSeconds": 27.269158754000046,
+          "inputBinding": "c19f41969fc1002f334767eba7982cbf1ce90213a67d8389539872a996de5f43",
+          "nativeStatus": "global197-i2-paid-normal-forms-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-q1-original": {
+          "completedCache": {
+            "bytes": 1115,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-q1-original.json",
+            "sha256": "7d44bb8cbb502ee6254f04adc7679fe9bc2b7878af71ee2fa0a2b818e906116c"
+          },
+          "elapsedSeconds": 20.552619003000018,
+          "inputBinding": "cdd9ce6a10fdd67d670522857a7129eb57581ea36a5f4668fefa7653893940a3",
+          "nativeStatus": "original-source-transport-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b03-raw-VQ": {
+          "completedCache": {
+            "bytes": 1380,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b03-raw-VQ.json",
+            "sha256": "81de52e95482895bd2ccb07e36f958392386796de0f7aa9e9d6743d2dd85785a"
+          },
+          "elapsedSeconds": 56.717583214,
+          "inputBinding": "3ebe057f740c25bac3a2144be1ec503602d994be117d54a834630c12e5e20bc8",
+          "nativeStatus": "packed-image-source-convolution-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-complete-G-image": {
+          "completedCache": {
+            "bytes": 1897,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-complete-G-image.json",
+            "sha256": "4e143b52a0304a76b3edde1f55ac80d391b8d6c4103eb826488c8fd5773922d8"
+          },
+          "elapsedSeconds": 4.42355690699992,
+          "inputBinding": "2f06ed1892c5db3c2a70445f97756346def75f6aa51a63ef3eb60d8bf45ed250",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-divided-original": {
+          "completedCache": {
+            "bytes": 2165,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-divided-original.json",
+            "sha256": "2a4fd63e24c05b9fcb2a54ee5e4c0168f3fcfd7703ef254e81d1dcf77c4e14f8"
+          },
+          "elapsedSeconds": 13.674424827999928,
+          "inputBinding": "109585d10c208b29acf23ca706bf2ee28f1be6b548d32355b3ca37d5ed69adba",
+          "nativeStatus": "full-original-combination-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-first-image": {
+          "completedCache": {
+            "bytes": 1815,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-first-image.json",
+            "sha256": "bb0a5ada5cecf66b28b730d19b6ce8f4939ce1d0082e803fd6e93661a53898be"
+          },
+          "elapsedSeconds": 1.6743720609999855,
+          "inputBinding": "5c32d5f9f120145ada6417b14a5d2b8f837a7d5ce8efc4c50e17d02a69e97289",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-paid-normal": {
+          "completedCache": {
+            "bytes": 1920,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-paid-normal.json",
+            "sha256": "6293fa31d55aa03660be63d629c80c011cc651b70c9dd2f0b4facdb79da15890"
+          },
+          "elapsedSeconds": 27.66459818999988,
+          "inputBinding": "b75c34eb526d42b93df40e971a1875fff4768fd2367328ba0ac7378d9f6bd1f1",
+          "nativeStatus": "global197-i2-paid-normal-forms-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-q1-original": {
+          "completedCache": {
+            "bytes": 1115,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-q1-original.json",
+            "sha256": "1ad32dd94af11c44d0fe4b2f985d9ba7aa839317218f5e8b6fecf6761781a052"
+          },
+          "elapsedSeconds": 20.66253041999994,
+          "inputBinding": "aad12c5eb3d713863c299601626658db9d4a3cdf413b41e0867ed1da66131c18",
+          "nativeStatus": "original-source-transport-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b04-raw-VQ": {
+          "completedCache": {
+            "bytes": 1381,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b04-raw-VQ.json",
+            "sha256": "744606ba58cf430a7bf37b68712cc057a8c6c4f116397b6526dee7a994005e85"
+          },
+          "elapsedSeconds": 56.72718299999997,
+          "inputBinding": "2ce7d2ed7a7d410be72bc12f8621fcc6695f5ecdb6fd56810991d8b9d4aaee67",
+          "nativeStatus": "packed-image-source-convolution-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b05-first-image": {
+          "completedCache": {
+            "bytes": 1815,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b05-first-image.json",
+            "sha256": "5bec9acd16d3c35b7337267e3661c013d4d5997614613cacc03a1c7dfe81131a"
+          },
+          "elapsedSeconds": 1.6664985899999465,
+          "inputBinding": "eb2c9f204139c823fe612c18d52872d2ee90649e34e9ef3213a0024b4f50e8ac",
+          "nativeStatus": "saved-quotient-mixture-complete",
+          "reused": false,
+          "status": "completed"
+        },
+        "b05-q1-original": {
+          "elapsedSeconds": 8.332558128000073,
+          "exitCode": 75,
+          "inputBinding": "9848e6b1a24ceb870e906283873d032bb26ec07f27f6851438bd012830937ce0",
+          "inputs": {
+            "0": {
+              "bytes": 8879681,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-05/raw-VQ/raw-VQ-standard-coefficients.bin",
+              "sha256": "4d07ebefcb1906b24d70f8e56388b6faea0317c66429866ae086d1e8b1145cdd"
+            },
+            "1": {
+              "bytes": 128145,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/model.txt",
+              "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+            },
+            "2": {
+              "bytes": 101244784,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/normalTrace.bin",
+              "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+            },
+            "3": {
+              "bytes": 2378937,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/forward.bin",
+              "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+            },
+            "4": {
+              "bytes": 3052119,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/backward.bin",
+              "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+            },
+            "5": {
+              "bytes": 10865128,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldNF.bin",
+              "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b"
+            },
+            "6": {
+              "bytes": 16649150,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldQ.bin",
+              "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+            },
+            "7": {
+              "bytes": 2520,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldRem.bin",
+              "sha256": "1f33a90bb81566e900dd2fc56d5cba50a853d73e3f927b288c0e19936b29d9de"
+            },
+            "8": {
+              "bytes": 113614260,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-original-inputs/oldTrace.bin",
+              "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+            },
+            "9": {
+              "bytes": 14002,
+              "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/stages/batch-05/first.mix",
+              "sha256": "49392fcd76e12377965acb1571c5afe70b50ac8ef5865e72556837c5499ed41e"
+            }
+          },
+          "lastProgress": {
+            "exitCode": 75,
+            "status": "checkpointed-time-limit"
+          },
+          "logical": {
+            "activeHighKernelNumbers": [
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156
+            ],
+            "bound": 177
+          },
+          "nativeStatistics": {
+            "exitCode": 75,
+            "status": "checkpointed-time-limit"
+          },
+          "status": "budget-checkpoint"
+        },
+        "b05-raw-VQ": {
+          "completedCache": {
+            "bytes": 1381,
+            "file": "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/global197-i2/cache/b05-raw-VQ.json",
+            "sha256": "9b6ee15c4d72d37ec753451a5509244f7a5bb7db31f113cd30156ef3b29f61be"
+          },
+          "elapsedSeconds": 56.471000157999924,
+          "inputBinding": "9c0c40e154698e2d0090b0e7df6c0ad493d0d68a40b1d5f6b05c74e3b349e413",
+          "nativeStatus": "packed-image-source-convolution-complete",
+          "reused": false,
+          "status": "completed"
+        }
+      },
+      "through": "final"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 23:08:03 UTC",
+      "beforeReadCommit": "c257936dea17b078f46bbfd3423b15e0c62e9725",
+      "originMainAfterPull": "b5ee6143e79210ab6db86666e2b40f78cda48370",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 23:17:47 UTC",
+      "beforeReadCommit": "b5ee6143e79210ab6db86666e2b40f78cda48370",
+      "originMainAfterPull": "baaefa108bc8824166e5ccd516ee625170746290",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "d470629f119154e3c85bdf9d7d6ec42d0c4dcb299f700b48aae51ee65d29c965",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "baaefa108bc8824166e5ccd516ee625170746290",
+  "summaryExcludesRecomputableArraysOnly": false
+}
