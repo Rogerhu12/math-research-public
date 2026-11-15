@@ -6,7 +6,7 @@
 
 已读根/本题README、H/open/log及当前notes；私有QUEUE已终端推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。04:55 UTC环境断连期间依根8用小文本API；05:40恢复后旧临时检出已失，重新部分克隆至/dev/shm，05:47实际pull main至3516c33095b9ab28b89f1fe62d247e66b059a0ad。两README自f9afc650无差异，未将API读取当pull。
 
-**已读规则提交：c310272eeb224d0c3833257f37bc776494fdc4f7**（2026-11-15 05:51 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
+**已读规则提交：f9e601b96acdaaf060b128f669f90aa19f12d43f**（2026-11-15 06:01 UTC实际pull后diff为空）。根15：可重算数据不入Git/Release，只保脚本、参数、run与输出SHA。run43679907787普通删除2016项/775633196B，本题实际64952729B；历史来源7aa9b249ab30bd6e051ed31dc0cd2800c2858156及逐项SHA见清理summary，未改历史。旧Release方案未推未执行。数学仅本公开仓库Actions；活跃断点一日临时转交后清理。
 
 每结论单独推main已授权，禁止force；终端正常时每推前及每小时pull，非快进立即重拉再推。API备用时读最新main/规则，以expected_sha且force=false提交。根独占commit/ref。PAT只CLI，无秘密入文件。Markdown<100KB，H<10KB、open<30KB。旧完整检查点见[本次R785前H](notes/2026-11-15-handoff-before-R785.md)、[接手前H](notes/2026-11-15-handoff-before-resume.md)及原归档链；已成数学不重跑。
 
@@ -42,7 +42,7 @@ R720原Ω₂=ε(22+17b)，零iff b24，实际b未知。R755真dual保负adjoint/
 
 R770/73f1d9b3保同一本原h=6a+1：原(p²M2h/ζ)²=(1296αsB⁵P6a UhVh)²。原Legendre有限平均/Möbius primitive筛给准确双线性配对；非零足够但未证，不选signed平方根。R765单位残差总指标N+1，所需N−1；三同源把degree6改18，不能当原六维theta空间自作用。
 
-**R782本次已证**：原F=xσ6、G=−xyσ6满足所有D^(6m)F·G=c_mFG；FG零点阶5/2/1小于稳定子6/3/2，故商无极点。完整生成函数Σc_m t6m/(6m)!=W²，W=(x³−4)σ6；D5F·G=−120W²、c1=−5184、c2=2^12·3^9·79，后二者对允许p均单位。原critical i+j=N−1矩阵K_li=[T6l](1+T)^(6i+4)(1−T)^(6(N−1−i)+1)准确，保同h/Legendre/primitive全部接口；不能假定与对角筛交换或高c_m单位，同h非零仍开。最终$/$证明SHAfa289d58fa1bbd2273e4d88d5dc5b30e325be57e0943cd4b51394981ae331b92。
+**R782已证**：原F=xσ6、G=−xyσ6满足D^(6m)F·G=c_mFG，生成函数W²；D5=−120W²、c1=−5184、c2=2^12·3^9·79均按原规范。三标签/Legendre/primitive筛不与该矩阵自由交换，高c_m单位未证；完整证明与SHA见R782，原首外积及非零仍开。
 
 R730全尾/R737均方/R742整数η给大p某η≤1和完整p7等距；R744全p4 Weierstrass次数≤3，Qp额外根仅深度4/5/6，实际因子/高度缺。R741密度/R734某primitive N单位不能拼同h两Cartier。R706/R7225992素数及137147、R739两定点、R707 p41全129盘=121排除+8CM且无Qcusp皆已闭合不重跑，非全p证明。
 
@@ -50,9 +50,11 @@ R730全尾/R737均方/R742整数η给大p某η≤1和完整p7等距；R744全p4 
 
 **主要缺口仍为真实高度**：R690/694/696坏靶Ω={0}；R634外积消A但保Y/常数。R724原Y splitting因子2、第二类period、MW Hecke基及ell=yᵀL^-ᵀHL^-1eη（不反演H）、实际Poincaré/universal-extension和非p局部项全保。原q/β坐标、实际高度jets及(724.33)有限Bézout全尾证书未生成，全p证书存在未证明。Abel不回零不能替正秩有理点排除。其余O3/O4/O6见open及完整归档，完成标准不降。
 
-**R784已证明**：原未平均F(z+t)G(z−t)恰为六个degree12截面的三个wedge，μ6特征(5,0)/(3,2)/(1,4)、核秩6；R782仅取第一通道。全critical Kfull有整数左逆L Kfull=2^(p−6)I，实际primitive/Legendre权用对偶L准确运输到三通道式(784.27)，无筛选交换假设。仍未证该有限域表达非零；形式可逆不提供新算术约束。完整证明见results/R784；继续实际三通道相消/同h非消失。
+**R784已证**：原全核为六degree12截面的三wedge、秩6；critical矩阵有整数左逆L K=2^(p−6)I，原primitive/Legendre权准确运输，不假设筛交换。R788进一步耦合原首pole与完整核，仍缺真正非零。
 
 
 **R785已证明**：原活跃简单块End_Q^0=F；实际同源ι/原极化M=λ0^-1ι∨λYι与F稳定Lagrangian给hY=ΣTr(cα x*ᵗMαy)，cα*=cα。所需高度参数降至ΣdimFα^+，可全在原JY配对，保分母。真正首外积类为[s_i] mod Qp(v_i)，v_i=T_i−T_g仅向量非零；s_i=2T_iλ_i0−λ_i1+2Θ_i1−4T_iΘ_i0，保原CM值和切向两列。类不随允许A/Y splitting变；实际值、非零/赋值及完整Bézout仍待。详见R785。
 
 D12降阶已完整排查，见notes/2026-11-15-sigma-matrix-research.md：首pole源项136650240B，仍有N项高带；在p659源项也零。全部常系数总阶12算子逐项消高带必同时消critical系数。仅关闭该线性策略，继续原同标签零支撑。
+
+**R788已证**：于Fp[z,t]/(z^p,t^p)，原核=(1+Φp)P(z+t)Q(z−t)，Φp=−12B Σ偶r z^(p+1−r)t^r/[r(r−1)]。原高块整有限部全消，p除法先准确抵消，低6×6 minor det36使秩恰6，给全部Schur关系。未筛critical全零会迫六完整零行；仅primitive筛后全零不能套此条件。继续真筛后共同非零，详见R788。最新前H归档notes/2026-11-15-handoff-before-R788.md。

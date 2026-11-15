@@ -345,3 +345,8 @@
 - 推出原完整ordinary平衡二阶jet K：保Euler首项和τ-compatible曲线，原Θ=−iKq，dR两坐标及B1/B45全部保留；K对辅助Norm原像/共同Γ分支选择无关。
 - 写出假定实际primal与exact-dual cocycle时的完整二阶cup/reciprocity，明确所有低阶交叉和曲线二阶修正。root核公式，并修正群元43次幂表述与局部角色零的充分条件表述。
 - 记录为研究笔记而非实际Θ计算；原Kummer/Shapiro比较、dual提升及局部Frobenius值仍缺。H/open同步；R786实际结论已推46653675，R775仍运行，原L关系求解工程继续。
+
+## 2026-11-15 14:01 Asia/Taipei · serre-public-astra-20261115
+- R788将R702首pole与R784全六秩核准确合并，得到含原Cartier单位的有限环修正式；高整有限部全消，所有除p先整除后约化。
+- 原首6×6方块det36给rank6/全部Schur关系，未筛critical全零迫六完整零行。root逐式回核原pole范围、端点、实际六截面及低端乘数；真正primitive筛后零条件未解，不新增扫描。
+- H先归档再压缩更新，open/index同步。R787核心已落本地正审计，wrapper/workflow已准备；R775真实续跑仍在，主目标OPEN。

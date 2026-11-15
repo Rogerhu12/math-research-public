@@ -227,3 +227,7 @@ R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exac
 ### 原ordinary的平衡二阶jet与准确对偶互反接口
 
 [完整笔记](notes/2026-11-15-ordinary-balanced-second-jet-reciprocity.md)保留原cs的全两坐标：沿z=(1+T)^i−1的零/一阶严格零，二阶K给dR=(Ku−11/2)d0−iKq dq，Θ=−iKq，实际目标Kq≠11i仍未判。二阶exact-dual cup公式保全部作用、低阶交叉和曲线二阶修正，逐局部完整求和；不能用pure-p24替原巨大q的Θ。继续原cs Kummer/Shapiro二阶比较、真全球dual提升和全部支撑的局部值；此一般恒等式未提供实际数值算法。
+
+### R788：原完整核的跨p算术耦合
+
+[R788](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)把原首pole与三wedge完整核合并：Fp[z,t]/(z^p,t^p)中K=(1+Φp)P(z+t)Q(z−t)，Φp=−12B Σ偶r z^(p+1−r)t^r/[r(r−1)]，保同一个Cartier单位。先准确除p后约化，全部高整有限部、双pole及跨项按实际次数处理。原6×6minor det36给rank6与全部Schur约束，首次把低f/g和Cartier常数放入同一实际系统。未筛全critical零迫六完整零行，但真正目标只在原primitive/Legendre可见集逐项非零，不能偷换为未筛条件；继续该耦合的真实共同零界。

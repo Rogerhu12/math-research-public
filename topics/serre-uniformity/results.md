@@ -321,3 +321,5 @@
 - **R786（已证明；准确短基已完成）**：[原五次截面与129阶恢复](results/R786-original-power5-sections-and-129-Laurent-recovery.md)。5ℒ degree1360/维1234给原degree1206函数的28+h1维关系；129个完整Laurent条件即可全球认证。weight10原相位给Q实字段系数，B0秩20及A有理Schur将后继缩至1326×1214 L，实际rank待算。直接复用R775已成六stage，不等power6；不重算R781，不预称y/β/高度。
 
 - **R786（公开准确计算已完成）**：[1234条原五次幂基短展开](results/R786-certified-original-power5-short-basis.md)。run43682100611/source dd262672准确生成全部q0..128/40坐标，尺度82^10、原basis次序与配方全保，逐条核旧mod739；cert dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9。仅复用R775已成六stage和原R771，无power6成功假设。原L关系核、y/β/高度继续，原始数据仅一日活跃断点。
+
+- **R788（已证明）**：[原跨p Cartier修正与六秩耦合](results/R788-original-cross-p-Cartier-correction-and-rank-six-coupling.md)。原p×p核恰为(1+Φp)P(z+t)Q(z−t)，明确Φp保原非零B且高整有限部全消；原首6×6minor det36使rank恰6，给全部Schur等式。未筛critical全零的六完整零行只是必要条件，不能用于仅primitive筛后全零。真正同标签非零与高度仍开，无新有限素数扫描。
