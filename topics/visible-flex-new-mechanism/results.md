@@ -462,3 +462,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R364：真正的局部角商与五行根支付完整PZ
 
 [完整证明](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)，23005B/SHA256 ba0d05778a3bab7a93c65190137e8df2fdb5822b7c5c60c78213e561a21f7828。whole复三矩让原方向真紧；原DF_P2[Lq²/Uq²]保两primitive端项，18面积中的PY0/PZ2准确消A2与C2，得Ξ_PZ2=2(d+e)Re(Ksh−28eJ/[15(d+7e)])。这条C²角商确需新控制。与R359同权商det=(a−b)(d²+de+4e²)/[3(d+7e)]非零；真实母两自由/真Wact给10列低5锥，接middle6/high2成13×26正核并S5幅保持18面积、留负Ψ。末控制器从起点显式Fnew保J/K平移系数，自身额外角商0；原x4r²首项6e与三χ使36实际列全R5正锥，有限N完整五行根支付整个P²/PW/PZ。root逐DF/IBP/商代数与正核/跨块真尾手核。剩12对称函数位置不冒rank，R368续PY/ZZ；全部有限选择后才he/新几何，不继承wholeE/period。
+
+## R366：七个独立自然总通量的真实联合满射
+
+[完整证明](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)，17661B/SHA256 14007bc7d810732f7492c0081e1d5b7e0016059a19672ba691e91b86ee284d65。完整Hγ的真−7/−5/−3/−1与Hδ的−6/−4/−2均非零：单一真实三bump负J²母在x0>0有u>0/v0/r<0且∫r5非零，一次有限C²小高频同时检出六个正C³²系数/保第七C²值。7正缩放的指数−9..−3为准确Vandermonde；原Haffine稳定和有限真权插值把7列送入真实H像。一般m维H观察满秩时，真实γδ=(ε/τ)(vψ+σwψ′)、det1/ψ偶/τ=ε3/2给双向leading；全状态AbarΛ0、完整N0/N2低项、有界回端/M桥及整块倒行保全部cost。有限ε向量IFT准确解任意紧目标，并用含固定基准向量的Klein词闭位移。故7固定自然Λ在实际M0/T0成本上覆盖R7，有紧集光滑截面。非全U/wholeE免费保持/固定g有限flex，原高阶/嵌入/reach门欠。mechanism独立核七权和单u共同见证，root完整构造。
