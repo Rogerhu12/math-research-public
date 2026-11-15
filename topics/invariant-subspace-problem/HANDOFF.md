@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** abd849a842567757b64bf4ac9d1cc14ca7e71cec（2026-11-15 02:05:06 UTC，Actions run43665970300实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43665970300-1.json。
+- **最近成功实际 pull 与已读规则提交：** 81a1d19ba1e0d9ae37d338a9ee4bda224251b3e9（2026-11-15 02:07:13 UTC，Actions run43666150521实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43666150521-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-15-handoff-before-complete-saturated-second-and-third-run-789f.md)及递归快照；[open全文](notes/2026-11-15-open-before-intrinsic-gap-and-complete-saturated-kernel-789f.md)保旧接口。未列问题不视为关闭。
@@ -24,7 +24,7 @@
 
 **当前发布故障与恢复：** 第三数学完成，初次唯一数据分支git push在180秒处超时；尚无main数据提交，prepared a09650e03375，不当数学失败。实际pull读4a2824de，两README无变。根已实际push82e2a562并调度publication-only run43665755992，正在恢复：只取上述两工件，不重数学；push限900秒、pack.window/depth=0，仍真实pull/rebase/main push，非快进立即续循环。目标目录notes/r150-saturated-third-page-actions-789f/43664532571-1/。
 
-**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。实际selected常数正在收紧1345；两者均非已执行的原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
+**立即接全局真来源：** normal已转正分支；原全315/其它primary、四次真实P与T96、完整原17及有限费用须实际完成。四条第二L4全球化回补第三来源改选差的W2；在p4位仍用真p3的b8/D3_K2，不能未缩放换κ9。原[1058三P](results/R150-appendix-saturated-second-positive-three-projectors-cost1058.md)只适用第二正，不能直接套本次。[六槽精确来源比较](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)已证第三改选差落完整W2、q1改规范须同步q2、中间p4不许未缩放κ9；六槽条件费用180→472→764→1056→1348。[实际常数六槽1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)已证：20011+16·20012父ω3…8整数系数[344,409,327,102,1,16]，只需K2…8七raw q1；成本177→469→761→1053→1345，D2≤665、四W2≤957。新global入口代码正在实现，5native各30秒、单过程1024MiB、共享数学300秒，成功须九原17/p6及实际费用全真。仍非已执行原式证书。共同线与全第三S3覆盖不排char0或关闭ISP。
 
 ## 实际边界：同源两费与完整返回
 
