@@ -123,3 +123,5 @@
 - [R191：共同常值平台二阶gauge的完整ruling不可见性](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md) — 保非零平台值、真实右尾与全s历史，原D恢复分子在平台准确仿射，交叉恢复真紧支撑；完整Bθw canonical为0，其他合法共同入值仅改三矩W。hook周期与六交叉矩亦0，二阶平方/交叉由R47第三单φ右逆支付。因此这整个无限维平台核不能扩大R184 joint商像；不延至f常/g变区，不授第四解。
 
 - [R192：权零协变乘子与完整一阶action](results/R192-weight-zero-character-multiplier-and-first-order-action.md) — 完整势谱比较给L4只两真查询a p′²+c p⁴，保(hk−1)τ1常项。真权零字符有协变μ iff d_p1=0；正字符必满足，同八参考态给μ=(0,2α,2β,0,0,0,0,8α)，α是乘子选择、非自动新增head坐标。反射仿射involution准确处理非唯一μ，完整二变量action保磁项b1p k′及所有低层；任意有限开路径对应成立，最高层iff a,c≥0。下一完整H0仅≤16新收缩并复用旧投影，先付原函数核与D，不预报维数或正性。
+
+- [R193：固定八包圆在标准常态的全宽度第四障碍](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md) — actual43680023529/source9b7c07f/job132708447958完整，23新人工过。完整λ⁷ReF的四系数按(1,∛7,∛21,∛35)给16个严格正有理分量，直接证全部λ>0严格正；保持三矩的同一C∞平滑邻域也全宽度保正。标准态pure K4=−F/8不能由合法二/三gauge改变。固定I支撑与一般常态/无常段边界保留；只存源码参数/run/SHA与证明，原可重算payload不入库或Release。

@@ -46,7 +46,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R185](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md)给重叠八包的16维真实周期核及六矩固定右逆；消六矩不缩周期像。余10个显式合法周期不变方向的ruling只需0/cos2θ/sin2θ共30真s函数；仅有限充分接口，不能冒10像独立。period部分准确缩4个L_f目标，但完整joint不能据此限制所有相位。下一应支付原G_i及真实退化通量/共同ruling像，不继续只列新方向。
 
-[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。任意宽度的符号尚未定；[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)已给无开常段真实桥/闭hook几何，随后须具体支付period/joint。
+[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。[R193](results/R193-full-width-positive-obstruction-for-frozen-eight-derivative-packets.md)现已由公开actual43680023529/source9b7c07f付固定原八包/标准(0,1,0)态的全部正宽度：λ⁷ReF=c0+c2λ²+c4λ⁴+c6λ⁶，4×4精确有理槽全正；同一准确重补矩C∞邻域全宽度保正。固定I须保支撑，不推广一般常态。其他常态的任意宽度符号未定；[R189](results/R189-nowhere-constant-state-matrix-bridges-and-closed-hook-geometry.md)已给无开常段真实桥/闭hook几何，随后须具体支付period/joint。
 
 [R191](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md)已证明共同常值平台上的全部紧支撑二阶w都满足六矩和hook周期核，但完整线性ruling在canonical准确0、一般共同入值modW仍0。全部真实右尾和s历史保留，w平方/交叉仅有限三矩由第三右逆支付；故该无限维空间不能扩大joint商像。下一专门处理f常而g变化的区间，不能把双常平台结论外推。
 
