@@ -380,3 +380,6 @@
 
 
 - **二点完整特征零谱长12，全部九原平方局部入像。** [完整证明](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)以完整常高核、全部低页incoming及同592单位的唯一新第三RHS，实付593→594/第三秩1；321776原四层乘回真。完整正谱 $1^7,2,3$、free13已结束，真实投影同长12使 $W/(L\cap W)=0$。九 $t_j$ 在 $\mathbb Q[s]_{(s-2)}$ 本身入像，该点不需 $h_0$ 的一次因子。F11长14及负目标只属算术跳变，不代Q负结论；全局来源仍须另证。
+
+
+- **原逆芽伴随测试、真实Riordan及全部旗的位置加权运输。** [完整证明](results/R271-appendix-actual-return-germ-adjoint-test-and-position-weighted-full-flag-transport.md)将 $q_h(-T_0)^*$ 写成保原投影的环境多项式，保零源和同一个物理右栈；$d_0=e^{-20}$ 固定。准确局部投影差给返回测试位置费 $20\nu r_xQ\Delta_f^2$，原q和帽q测试分别付 $(78+12r_x^2)r_xA_0^2$、$(252+48r_x^2)r_x\mathcal C_0^2A_0^2$ 的同源系数；全部暗矩、全真旗和primitive形式共同受控，无额外旗数。真实混合配对保持，完整返回及顺次MP负部未由此封口。
