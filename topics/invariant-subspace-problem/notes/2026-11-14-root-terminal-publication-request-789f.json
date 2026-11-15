@@ -1,24 +1,23 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "2b6be01cab2de99401e0a5e0158133126aa86265",
-  "createdUtc": "2026-11-15 04:41:19 UTC",
-  "message": "ISP: prove complete linear-shift closure of thirteen exact kernels and confirm all global data on main",
+  "parentCommit": "1113f3a3b5e2b32d8085a60136164fe218bfd873",
+  "createdUtc": "2026-11-15 04:59:20 UTC",
+  "message": "ISP: publish p200 exact continuation under latest reproducible-data rule15",
   "rulesGitBlobs": {
-    "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
+    "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-open-before-complete-global-and-infinity-kernel-closure-789f.md",
-    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-rule15-release-migration-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-paid-thirteen-infinity-kernels-source-degree-and-linear-shift-closure.md",
-    "topics/invariant-subspace-problem/notes/infinity-source-span-lift-789f.py",
-    "topics/invariant-subspace-problem/notes/infinity-paid13-source-shift-closure-receipt-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-all-nine-original-mod31six-complete-actual-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-third-global-actions-publish-789f.py",
-    "topics/invariant-subspace-problem/results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-root-rule15-actual-readme-diff-789f.patch",
+    "topics/invariant-subspace-problem/results/R150-appendix-selected-infinity-exact-dixon-through-p200.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-dixon-resume184-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-p200-publication-manifest-789f.json",
+    "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-root-rule15-second-actual-readme-diff-789f.patch",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
