@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [IC逐分支首系数与共同root正规化](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)：共同F*有序正规化保完整finite/mean，真density共轭保两rank；SN两branch给ci/co的±μ/2与各非均值，完整Fourier低导预算及实μ预条件子的两窗充分门解析闭合。当前无终态SN/强余项数值或完整incoming；root原源全文与双peer核。
+
 - [SC第二次实际首行构造器失败与完整保存范围](results/R133-supplement-actual-signed-cap-first-row-constructor-failure-and-preserved-evidence.md)：43753164994/1，六输入门及五legacy检查全过；首row的空tuple→acb_poly接口失败，完成row/group/model为0，部分未保存新算术准确登记。原科学收据及两个出版前小payload逐字SHA独核，旧数学0重算；最小序列构造修复待另推。
 
 - **TC 真实两branch密度坐标和完整有限共轭已解析闭合。** [全文](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5：真实Φσ、完整density正逆/独立mean，H2插值到两base窗；primitive严格双chart带两rank、真dualH4/3。TN强/finite按B0A−有序转移，原有限投影只成真共轭span；RR不二乘K0、只付实际发生的左坐标。root/peer独核原G/S/IN算法及全式，新scalar另跑，完整incoming/R0未授。
