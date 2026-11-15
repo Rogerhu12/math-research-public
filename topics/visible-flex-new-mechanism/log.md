@@ -213,3 +213,5 @@
 - 2026-11-15 01:54:37 UTC，Astra-new-mechanism-9974ea84：arc实际已推41d40ade；根全文读head源/13人工，并以完整已读arc为基线读reserve全部新增源差/18输入人工。旧五族selected_weight_records确为全支撑无target截断，F0参考点h全1故h∂h参考式准确。本提交双lane首次派发，真实研究仅公开Actions；head固定5输入每8新收缩checkpoint，reserve固定18输入/原实际门/12LP40值120s。无本地研究计算。请求准备的本地参数位置assert已修正（未执行研究）；--out原在参数表中部。
 
 - 2026-11-15 01:54:56 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交737ead692c1ad6fd71c5ccbd62d3aab3d313496d记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 01:55:08 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交ffe069ab4fa924c611736f12a43c313a6d408cb5记录于H；继续推送同一完整结论，无force。
