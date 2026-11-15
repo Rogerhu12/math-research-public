@@ -381,3 +381,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [完整设计](notes/affine-spectral-metric-model-design-20261115.md)保φ±(e+de·p,f+df·p)的完整范数曲率，实际de/df由同选行virtual jets收缩，不从branch J反除f。新epigraph等价norm≤2(b+rho)−σE，旧LP是零步supporting cut；每次返回独立计算全部旧soft行的rho_aff、上调辅助rho并重核原单位残差。未收敛只返回真实模型有原floor下降的合格incumbent，保gap/失败。每outer最多3次LP，全部共享原12LP/120秒/40值，不追加预算。
 
 冻结build_correction实际调用predicted_slack(primary,p)取得rho_lin(p)，非LP辅助rho；rho_lin≤rho_aff故SOC保较严格原RHS。primary/SOC/parabolic的base-total预测统一原接受点到实际舍入候选的总步；17持径规则/真实门保持，非有限或无正gain不造ratio。新增行级谱曲率/e,f非线性两项，加最大值/遗漏行/εbias准确全账，消费已有ordinary缓存不增几何调用。设计已发cd825df，当前新源码准备，未执行新开发或科学；不能追认旧m6主因。
+
+
+## R280：真实三矩有序面积与五个正幅完整 block 支付全部 Gaussian 条件
+
+[R280 完整证明](results/R280-ordered-three-moment-areas-and-five-block-Gaussian-cancellation.md)从原E22−E04保self/Green，以R²−4T²=7BR/2及十阶矩先消完整self和cross对称部；六余式准确落A01/A02/A12三有序楔积，原Gaussian非零系数给该类准确iff，非rank声明。真实矩m(1,t,t²+ν)给A01=−m²∫(FR²−4FT²)、A02相应一次矩、A12保GR²−4GT²−ν(FR²−4FT²)，第二累计H²项不省。
+
+两层有限编码i=kL+j与i=jK+k均保R/T十阶矩。整块TM的FR≤8B而FT长段增长给A01>0；细TM的FT≤3B、每段R完整平方配方下界给A01<0，无枚举/点质量近似。先做完整8/12copy后实际中心化，按三面积准确平移律，在C、C±D放正模板、C±ell放负模板，以w=(χ−−χ++ell²)/D²∈(0,1)的严格正四次权联合清三个面积；所有inner三矩0杀跨块原核。全部72Gaussian条件因此准确零。所有最后位置/权先固定，再每block用R279同F有限频率真实根付Lc/Mc，odd及一般共振式给六识别能量全0；面积一字不变。root全文核原核反对称表、两累计恒等、前缀严格界、中心化ν消差和正权/支撑/能量次序；仍欠zero/one history、完整period/同w及有限g族，未宣主课题完成。

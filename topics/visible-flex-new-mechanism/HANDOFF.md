@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`2e3dcae9564490f016b073d506f6df65e2dea8f2`；时间2026-11-15 13:51:58 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`48bf2ee6ea8a8633e4121d0c497d1b8b11a27c92`；时间2026-11-15 13:54:34 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -39,7 +39,7 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R278第三斜率真实新方向**：加入a²/b²=1的有限gap包，Dreal不变，保全部原future尾得ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。五gap簇同low宽q的严格正权配0/2/4矩，准确支付新增local even预算；r>0新高坡和原四变量真IFT保三矩/全third/六能量及指定旧面积。固定有限n/r/h后取大有限Λ/N，再δ小，负响应δA^(3/2)超过旧δA，得S>0>Z/k并保Q±，可正幅付Q0。仍ΔY1=ξ0Δ(Z/k)，另Z even保Rshape总项，不能冒独立控制或full面积。
 
-**R277/279同Gaussian数据的高阶机制**：全部self平移系数/3矩有真实C²多项式F；最初选光滑最大秩even母包，真minor+ker等式保完整F，不假任意旧纤维正则。等背景b²=B、R∈{−B/2,8B}的有限17进制/Prouhet格点准确付30even，原8/12copy付36odd。R279在全部最终copy/位置先固定后，用high–low–high三包的真实principal比值−3/Ξ+3(t_i+dbar)/Ξ²严格排序给正balance；N^-3振荡/固定光滑纠正使完整(Lc,Mc)映射C¹收敛，选一个有限N后压缩/IFT付准确双零。原odd Ls/Ms0与共振Nc=6Mc/Ns=6Ms给六识别能量全0，全部72观测值恒定。余6even、全period/同w仍欠；下一真实有序三矩面积，不能以条件数冒rank或把极限当最后profile。
+**R277/279/280新圆已付全部Gaussian与六能量**：全self平移系数/3矩为真C²多项式F；最初选光滑最大秩母包，真minor+ker等式保完整F，不假旧纤维正则。等B、R∈{−B/2,8B}有限格点先付30even/36odd。R280保完整self/Green消对称核，余六式恰由A01/A02/A12三有序矩面积给出；交换17进制R与TM符号两层真实编码，累计平方界给A01双号。五最终完整block正四次权以实际平移律联合清三面积，所有72原条目准确零，非rank。全部位置/权先固定，再逐block用R279三真实high–low–high向量的正balance、同F N^-3扰动和完整能量C¹收敛，选一个有限N的准确根付Lc/Mc；odd与共振一般身份给六识别能量全0。未枚举巨量序列，非数值候选。**下一零/一层history、canonical period/同w ruling；解析端适配另付，不自动套R274/276。**
 
 **R264/266平台原尾**：G″=(aw″)′+bw′−Jcw，Λ=a(pw″−p′w′)+wJcf−fJcw，Λ′=pG″。全平台/flux iff各活动总势矩∫cw0及非零平台局部项0，控制组合只付总和。非零F平台局部像F²(P2D4+2P2′D3)维3，完整K仍含Q2″=−Jcw；不把局部源零当全K零。
 

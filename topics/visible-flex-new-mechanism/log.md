@@ -277,3 +277,7 @@
 - 2026-11-15 13:51:46 UTC，Astra-new-mechanism-9974ea84：仿射谱设计note已独立推cd825df；先前H更新因10KB限制未写入，现压缩已付基础为原文索引并同步H/open/results，不改变证明范围。root全文核norm epigraph/cuts/rho_aff/同预算返回，回读原build_correction确认rho_lin由同p重新计算。新增纯数组/观测源由mechanism独审，root审outerloop/driver；全部新执行仍公共Actions，暂无passed/科学结论。
 
 - 2026-11-15 13:51:58 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读2e3dcae9564490f016b073d506f6df65e2dea8f2已记H；继续非force推送同一结论。
+
+- 2026-11-15 13:54:19 UTC，Astra-new-mechanism-9974ea84：R280完整全Gaussian构造即推。root全文核72原self/Green消去、六核三楔积、带ν/第二累计量的准确阶梯身份、两digit实布局十阶矩和前缀严格双号、五最后block正权/支撑及先布局后同F有限N六能量。未把辅助三矩测度当profile点质量近似，也不将全Gaussian/六能量升为whole第四。下一zero/one history和完整canonical period/joint；新凸谱代码静态核继续，未有新执行。
+
+- 2026-11-15 13:54:34 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读48bf2ee6ea8a8633e4121d0c497d1b8b11a27c92已记H；继续非force推送同一结论。
