@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9f4fc835bfb3330a01d15497ed427b89bf231f66；2026-11-15 03:15:58 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:15:57 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
+- 最近已读规则提交：26e00d13bc72d2a6d581019b83a2415dd804a7fb；2026-11-15 03:18:39 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:18:39 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–663、R665已登记；R364/R561仍开，R637/R654/R664/R666–667进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r665.md)、[open](notes/2026-11-15-open-before-r655.md)。
+R1–363、R365–560、R562–636、R638–653、R655–665已登记；R364/R561仍开，R637/R654/R666–668进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r664.md)、[open](notes/2026-11-15-open-before-r664.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R663真实LT/同解闭盘充要已付；续R666原两中央/完整余数及R649后实际sigma modp²；R606已有H^-p log，不重登。
 - theta：R665原L深混合奇差及四σ系数已付；续R667同R664双S门的浅补域/外部联立。
-- literature：R661两log行的完整Katz返回已付；续R664原Q/L quarter旋转与双S交门，R654真modp²保留。
+- literature：R664原双S真实共同域已付；续R668两S浅域/外部词的严格关系，与R667分工。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
 ## 原对象、ray及未闭旧支线
@@ -38,11 +38,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 R567/594同q/全坏集、R599–634全native/RV两态、四球和EY/EW移权保持；11自由方向对RV不可见，W−不认T，M1接原I1/B1及三个补偿。
 
-R638原D/K三态/四真实轴/全word原T返回照归档；有限来源群≠物理域，Yunit/Wunit不同。外部A′差商仍含M1/I1全补偿，ΛB的EY核−ελ/质量52(1+ελ)/3保持。
-
-R645真实Y^n∩A^(2n)=A^(2n)Q5^n，μ0全返回χ65^nλ^(3n)；原S/T总行及外部均保。
-共同变量的q两门差(1−κ^(2n))aA，交集迫A∈p^N，与A词的Yunit严格不交。
-原L4=1迫q第四法向jet≡x²，11自由项不能删A转置；n≥N两门固定，四个Kj0/Kj1保完整log质量和q导数，未赋积分非零。
+R638/645原D/K三态、四真轴/全word、Y^n∩A^(2n)=A^(2n)Q5^n保持；有限来源群不代物理域，原M1/I1/EY与log质量全保。原两个q门交迫A深且排相应Yunit；原L4=1迫第四法向jet单位，11自由项不能删转置，四K/全部外部不赋零，详完整前检。
 R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+36ω)/360；交门恰W深N。
 原四K同W两层给(1−λ²)K=低W环带+完整共同门/两失败支，不删log质量。
 实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
@@ -53,6 +49,7 @@ R662原S全Y-shell质量0，真实A外部O_m首二行=a5^m(M0(1−a5),M0ℓD+m l
 R655原Σ5=σ17^5全Schwartz/period识别χ导子10、负点barψE80；严格L′>1/50+Rubin–BDP给IΣ,-1≠0，准确Lp=5c5θ11ΩpI²，当前ray χ65=−1。不赋其它log行/失败支零。
 R661全五型给同线K(m)=Lp(ψBρ^m)，ψB为E10000 rank0，ρ=χψ0/barψ0；2ℓD/(1−β)=KD′/(dKD)+log〈5〉，2ℓZ,1/[Ωp(1−βκ)]=KZ′/(dKZ)+log〈5〉。m−1非零不决定m0/1导数，保原H±与全W失败支。
 R665同原Θ±的L深n≥N奇差=2β^nκ^(2n)J_N H_p(κ^n)；全角只保原p0的L²项，H首项36bΩ³(bL/bY)IΣ,-1。全六C分支87D*/37323与Cperp/146718核保补域，原右逆两η二次多项式首常数非零，稀疏删后所有N∈4Z正均vJ=−2N。若2n>vI，vΔ=3n−2N+vI；全浅R_N,n与原T外部差准确合为−Δ，未成中央矛盾。
+R664 quarter J把原q/Y/W同转置成四真S/T行；Y0=A+Q,Y1=A+L共深轴R,D10/E范数126/10/9135、全核−1/−1/ηA。两门差−2ωE/105，交门恰Cunit,D*deepN,EdeepN，E⊥两Y；原七条件Λ_k,N全保，质量仅Λ2=J_N/cF²，二阶差136(1−5ω)J_N/345303为unit倍。共同C+浅L+外部O完整=原JS/JT，未付全中央矛盾。
 同R594未加帽四全行基准0，门外负基准不删。
 固定CM稀疏单位仅供固定λκ式；旧负五I1未付，与R655负一行分清。
 

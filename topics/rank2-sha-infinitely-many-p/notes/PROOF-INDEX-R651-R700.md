@@ -32,3 +32,5 @@
 - [R663：原LT坐标、完整共振余数与同解闭边界充要](../results/R663-original-lubin-tate-residues-and-closed-boundary-equivalence.md)：原形式群严格整LT坐标给[-p]=−pv+v^(p²)、首轨道Q=W^(p−1)−p；全部Q^ell整除回保高尾的准确有限余数。原Y=H^-m R(WH^d)的完整连接在真闭边界及略外仍严格常数主导，故同Y闭盘iffQ|B且真过界；原j=Y0不改，未从j0预支余数或原X下降。
 
 - [R665：原混合单位深支、完整二阶系数与负一非零返回](../results/R665-original-mixed-unit-deep-branch-and-negative-one-return.md)：原Θ±的真实L深域全角型只保原权L²项，完整差分解2β^nκ^(2n)J_N H_p(κ^n)；全六C支/37323与146718核、C单位补项和同一右逆付vJ_N=−2N。H首项准确含R655已非零的IΣ,-1，给深差精确赋值3n−2N+vI；同一L浅补域及原T外部全部保留。
+
+- [R664：原双S完整交域、共同伴随门及同一二阶系数](../results/R664-original-double-s-rotation-and-common-companion-gate.md)：原整数quarter同转置q/Y/W给四真S/T行；两S共深的126/10与共同9135轴全核绝对号付清。两冻结门交恰同R665四输入门加E深，E垂直两Y；全部七条条件A来源和共同/浅/外部保留，二阶差准确为同J_N的显示单位倍，未以质量代完整观察。
