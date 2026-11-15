@@ -165,3 +165,8 @@
 ### 2026-11-15 22:44 CST · serre-public-astra-20261115 · R826
 - 已证原惰性一次原函数与权p−5 Gaussian companion theta的五次Katz比较；完整tame标架/oldform/12⁵/Hasse常数给原卷积=−120c²/d0指定CM和。
 - 外因子单位，指定和非零及同primitive/Legendre仍缺；root逐式核原规范与正则性，H归档后立即推送。
+
+### 2026-11-15 22:52 CST · serre-public-astra-20261115 · R826实际固定八运输
+- 公开run43725592504成功；G1/G5的FG/HJ准确零，F3/F7六old系数全p≥41单位，原式缩六个未知CM值。全部U/源/运输已保存，canonical与源metadata完整日志IO核。
+- 公开全manifest verify过，artifact14165618753仅一日续接；未独立下载ZIP、不冒称CM和非零，立即推送结果。
+- 14:49 UTC公开rules run43714581068/attempt11实际pull到ff65b8df，两README无变化；已记H。

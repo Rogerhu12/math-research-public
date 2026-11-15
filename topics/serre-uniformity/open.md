@@ -118,3 +118,5 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 **惰性固定八源实际执行已准备**：[方法](notes/sigma-inert-Gaussian-source-transport-method.md)。core70e565af/wrapper2d61eb03，Sage10.6；原R812未保存完整U，故只恢复必要6×6基，不重跑旧六案例。新36特征/八EO运输，保存U和两8×8全24有理坐标，零FG/HJ合法；真实run/CM值均待，不以矩阵可逆代指定组合非零。
  
 **R826（已证明）**：[原惰性companion theta的准确CM配对](results/R826-original-inert-companion-theta-CM-pairing.md)。逐原Gaussian理想给Jν=θ_t⁵Cν,p modp，C为权p−5，p|n项先约去分母留p⁵，old d^(p−7)保留；反∞型重指标仍全纯。共同tame1728层上原λ^k截面正则，T_j=A D+jDA运Katzθ，五权p−5…5p−1在P0给−120B⁵。原交替卷积准确=−120c²/d0·Σκν Cν,p^sharp(P0)，外常数全允许p单位；六个零行同时运输。指定CM和非零仍开、权随p变，不代同primitive/Legendre标签。SHA 3b82dfef8f09993b616a8ddc478004af6c79192f0e74eef201419363bd0621be。
+
+**R826固定八运输已准确完成**：[六单位系数与两零通道](results/R826-certified-inert-Gaussian-source-transport.md)，run43725592504/sourced3a42168。FG/HJ的G1/G5准确0；F3/F7各d1/2/4系数清分母Norm仅2/3/11，对全p≥41单位。原source det−8192、完整运输det分母11^16/整Norm2^600·3^432·11^320；U6×6/源8×8/运输8×8全部24坐标已保存。canonical39280B/SHA916e1b95从完整日志重哈希，公开全manifest verify成功，artifact14165618753/17813B/平台ZIP7f0bd3bd至Nov16 14:40:58UTC。原未筛式缩六CM值，未知和仍可相消，不代primitive/Legendre同h。result SHA a37f2e4f5635a2183822ad4fccd7f38fb21d6213301e1bb53c961aa97697663c。

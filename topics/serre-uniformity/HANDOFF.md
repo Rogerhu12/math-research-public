@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R826前H](notes/2026-11-15-handoff-before-R826.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：ff65b8dfc83bdfd5d430657bec71d71dccb12680**（2026-11-15T14:49:07.687210+00:00；公开run43714581068/attempt11/job132849178680实际git pull --rebase origin main，两README无diff）。14:34UTC执行环境失联；按根§8暂用GitHub小文本接口，公开Actions继续。前态逐字保[R826前H](notes/2026-11-15-handoff-before-R826.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -42,7 +42,7 @@ R806原w0=e2/n1乘法34×8/full820和cyclic已成（run43707290840，10603输出
 
 [R812全split未筛非零](results/R812-certified-split-prime-unfiltered-apolar-unit.md) run43713181015/source2b7183a3：六FG Norm只2/3/5/11，U/det只2/3/11，全IO已核。全部p≥41、p5mod12未筛交替卷积单位；不代primitive/Legendre同h，五端项/共同c^(2−2p)保留。p11mod12[原harmonic7](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)余项为一次q原函数，Qpoly在P0零；指定CM FG代数评价/单位仍缺，不能称水平。全SS常系数端项恒等已排，单j0关系未排。
 
-[惰性Gaussian固定角色分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)已证：原harmonic7=四个CM形式F3/F7(level36)、G1/G5(level144)的八oldform分量，nebχ12；GC17八矩阵在Z[ζ8,1/2]整基，原一次原函数保1/d。p11mod12真实Hecke T²+p⁷、U_pJ=−p⁵V_pJ；整基＋原Q正则给八个原缩放CM值eν,p合法，FG=(c²/32)Σκνeν,p。指定组合非零仍缺。[固定八运输请求](notes/sigma-inert-Gaussian-source-transport-method.md)已准备（core70e565af/wrapper2d61eb03），只恢复旧未序列化U并算八新运输，保存U/两8×8全坐标；待实际run，不跑p窗口/旧六case。
+[GC四角色/八old分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)与一次原函数1/d、Hecke T²+p⁷已证。[实际八运输已成功](results/R826-certified-inert-Gaussian-source-transport.md)：run43725592504/sourced3a42168/core70e565af；U及两8×8全24坐标已保存，source det−8192/运输det只2/3/11，G1/G5的FG/HJ准确0，F3/F7三old列均p≥41单位。artifact14165618753至Nov16 14:40:58UTC，canonical916e1b95已从完整日志IO核；公开全manifest verify过。只剩六个实际CM值的指定和，非零仍缺，不重算U/八运输。
 
 [R826](results/R826-original-inert-companion-theta-CM-pairing.md)已证p11mod12原Jν=θ_t⁵Cν,p，C是权p−5的Gaussian companion，保old d^(p−7)、p整分母与同一tame标架。原T_j=A D+jDA精确运Katzθ；五权在P0给−120 B⁵，含12⁵与P=λ^(6p)/d0，原未筛卷积=−120c²/d0·ΣκνCν,p^sharp(P0)。外因子单位，指定CM和的非零仍缺；不是固定代数数或标准七次Eichler。
 
