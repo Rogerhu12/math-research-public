@@ -1,0 +1,103 @@
+{
+  "format": "isp-current-rule15-temporary-input-and-cleanup-v1",
+  "runId": "43679903558",
+  "sourceCommit": "9c4d5366389693f3bebeb2be28974966317137ae",
+  "rulesReadAtCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+  "temporaryP486ArchiveSHA256": "a9d8cf63d4173becb750c1155548fb0e148b5aae95af9ffb681d7ac949002df3",
+  "allCurrentInputsVerified": true,
+  "allHistoricalInputsVerified": true,
+  "temporaryAssetDeletions": [
+    {
+      "id": 749870032,
+      "name": "isp-789f-infinity-p184-recovery-7dfd8b239253.tar",
+      "bytes": 103557120,
+      "sha256": "7dfd8b239253888d4e04656f580c5b164a671a48914db590983fa7d252e86660",
+      "deleted": true
+    },
+    {
+      "id": 749870030,
+      "name": "isp-789f-infinity-p200-recovery-0e22f426e6a3.tar",
+      "bytes": 75806720,
+      "sha256": "0e22f426e6a3f930eb5d3ae36b7778cec35e9b1a5a7f7b05f8b847d8e8a67edf",
+      "deleted": true
+    },
+    {
+      "id": 749870031,
+      "name": "isp-789f-infinity-p256-recovery-3f8e9b0d3cc1.tar",
+      "bytes": 56320000,
+      "sha256": "3f8e9b0d3cc1a62f708bfa3ff13a55f691093515c7e9eb6e741b22107fb5827d",
+      "deleted": true
+    },
+    {
+      "id": 749870028,
+      "name": "isp-789f-infinity-p486-recovery-a9d8cf63d417.tar",
+      "bytes": 242145280,
+      "sha256": "a9d8cf63d4173becb750c1155548fb0e148b5aae95af9ffb681d7ac949002df3",
+      "deleted": true
+    },
+    {
+      "id": 749864672,
+      "name": "r150-infinity-p256-exact-rational-kernel-certificates.json.gz",
+      "bytes": 1254321,
+      "sha256": "0320029f7a72de142c8022241bbf7cda1a95d4de82484d49e97f1f2df1381edf",
+      "deleted": true
+    },
+    {
+      "id": 749864994,
+      "name": "r150-infinity-p256-pipeline-receipt.json",
+      "bytes": 115662,
+      "sha256": "a9c47ef2fd7be6bf435eba9628bccd3297ed4a6daa17f963b3560b2c37bff671",
+      "deleted": true
+    }
+  ],
+  "oldMainDeletionCount": 118,
+  "oldMainDeletionPathBlobSHA256": "a1f8a075f2115ddcdff40dcb1b7d7e7e77ee47e94ab91afca9a11f452c52a02a",
+  "topicBytesBeforeThisCleanup": 151144016,
+  "topicBytesAfterDataDeletionBeforeSmallSummary": 73571703,
+  "topicWithin200000000": true,
+  "largeDataUploadedOrCommitted": false,
+  "workingDataTemporaryOnly": true,
+  "pulls": [
+    {
+      "utc": "2026-11-15 05:10:24 UTC",
+      "beforeReadCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:38 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:40 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:45 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "lastRulesReadCommit": "ee6cf952ae73b3ea5521480faa41605602ed3ef5"
+}
