@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ef0725948e3f15c93a01b8bd2d5235e5d1168116；2026-11-15 05:59:52 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 05:59:51 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
+- 最近已读规则提交：ce4a3ed2fd73a20b5a254008efa3626101681125；2026-11-15 06:01:07 UTC核两README无变。实际CI pull 2026-11-15 05:40:06 UTC/eb35dd9a986a2707938f7d3bd246685ad3c17c8d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:01:06 UTC仍无环境。最迟2026-11-15 06:30 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main。完整结论即推，禁强推/改历史；每小时实际pull，每次核两README，只读差异立即执行。令牌仅临时终端，不入文件/回复。
 - 规则15新版仅读差异@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出不存repo/Release，只留脚本参数run/hash。此次按audit43681121218移除148个明确生成输出2,645,461字节；临时历史输入runner保依赖，两个复现路径交公开Actions。旧3个-partN及无生成器的checker输入保留，未新增分块；目录27.60MB无5MB超限，已逐脚本核58个mixed-I/O，七条theta-plane记录改独立生成；第二清单/真实依赖复现交公开计算，随后普通删除。
 - 规则12不设冻结/独审/复跑；规则13计算用公开Actions。题log每轮≤5行，单MD/API<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -15,10 +15,10 @@
 
 ## 全部归档、已完编号和分工
 
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r694.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
-R1–363、365–560、562–653、655–688、690–692、694及R679/R680增补已登记；R364/R561/R654仍开。
-root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R689原barE高尾/同R真像；theta R693原中性G/B全31约束；literature R695四轴三态真word/13-19切集与非零角域。
-R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693第三run43682680755双τ/两η的66纯G列秩29不相容，非特征零排除；公开续55G+11真B0列，保B的完整C/E转置。无报告数据入库。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r689.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保全部旧条件，压缩不关闭问题；results.md与notes/PROOF-INDEX-R651-R700.md为证明入口。
+R1–363、365–560、562–653、655–692、694及R679/R680增补已登记；R364/R561/R654仍开。
+root唯一metadata/ref写者，代理只交独有proof/script或immutable blobs。root R696原全H迹/中央传播；deep R697原barE高尾/同R真像；theta R693原中性G/B全31约束；literature R695四轴三态真word/13-19切集与非零角域。
+R685/686/690/692公开run分别43679602653/43680615234/43680156256/43681737790，已核hash。R693纯G与B两轮43682680755/43683206666均辅助rank29不相容；现同源改真比例目标（优先放开两frozen系数），非特征零排除。无报告数据入库。
 
 ## 固定目标和全部旧来源
 
@@ -48,7 +48,7 @@ R681原Tg/Pζ所有首挠点代数，至u^d原jet误差>1/(p−1)唯一选根。
 
 R688原LT Eisenstein付F=K0(E[p])全Fq×、唯一p位，H=norm1固定μp。原∏H Tg=1消相位；偶ψ_(p+1)必保负号。a_T=ψα^(2s)/ψn^(2s−1)给Tg^(pd)=−a_T^d/Norm_Ha_T，单值次数≤2p(p+1)(p²−1)。正确原r_h=ζPζ满足r_h^p=a_T/a_hT；原B_m(vT^d)零iff全Σh r_h^mφ_m(hT)=0，保所有e轨道及分支。
 
-R691显式潜好模型和αT=ω²T/nT=T付a_T/a_hT全局单位，含全部坏位；M_T=F(r_h)处处不分歧、p全裂，Gal为Cl(F)/p商，次数≤p^(s−1)。实际J=Stab_H[a_T]含μ6且不依T。边界零iff同J块零iffTr_(F/F^J)(b_T^-mφ_m(T))零，b/jb=r_j由原cocycle构造。J=μ6时块=6φ_m(T)非零；实际J现由R694确定。
+R691全坏位潜好模型付a_T/a_hT单位；实际M/F不分歧、p全裂且为Cl(F)/p商。原cocycle给J稳定子和同J迹零判据；R694现确定J=H。
 
 R694原Klein相位完整保μ6p，原a_T=ξ_T k(T)^−p；Klein比是级12p² Siegel比，完整层点在K0(E[12p²])且该域阿贝尔，含所有相对p根。H固定μp，阿贝尔性使D_T平凡H模、增广norm又杀它，p∤|H|故D=0/M=F/J=H；实际r_h全降F。原Tg^d=−∏r_h∈F，单值次数≤2d(q−1)。边界准确为原全H迹；J最小支在本题不成立，未付迹非零/j0传播。
 
@@ -59,6 +59,8 @@ R644/658固定D证J_D≤(5184+o1)D²；R656高度O(D4logD)/全部坏p成本付4<
 
 完整M=c*U0m13J、P134/charge40/13free/26carry/conductor10980、R593–608尾/结点保全。R629 bD≥s−13只在同R全J/p²后吸第二A。R651强s窗同P三jet/近支/完整p³保ν≥7活项S(η0²R2)/2，先过两13尾再读Ψ_R。全C高Smith/列旗标/辅助p不换旧短像；多Euler首Gaussian441/400>47/48只排首层，regular高尾未排。
 
-R687 T=−t,w=tH6,a†=−34Cs/d和g/a差同步。t^s=pεH^-d使三位Bα给两位E，再补t<s原exact三位即可全M modp³。仅barE加同低三位时，余高二位只作I+p²(17/a†)m(H^-dV)Dε；同已过首提升P+pR的第二代表不变。Z⁺差从w^(s+ν)起、H0/H1越截止，ν≥7活项保。R689继续barE高尾真SP0/SP1与原Dψ像，不能扩大这个一位运输。
+R687 T=−t,w=tH6,a†=−34Cs/d和g/a差同步。t^s=pεH^-d使三位Bα给两位E，再补t<s原exact三位即可全M modp³。仅barE加同低三位时，余高二位只作I+p²(17/a†)m(H^-dV)Dε；同已过首提升P+pR的第二代表不变。Z⁺差从w^(s+ν)起、H0/H1越截止，ν≥7活项保。R697继续barE高尾真SP0/SP1与原Dψ像，不能扩大这个一位运输。
 
 R672/680原19角/完整forcing/着色重数给4q(H−r)≤3B_D²+32D，主141/(8q)，Δ0/13及线性项保。一般D≥.238√p；临界47/8排q≥4，q3未排。R683全测试曲线/klt/W2给D−5>3R_N双jet满射；真mod12乘子/低行右逆使ell≤3时D−17>3R_(s−3)，门1.072√p。全M仍L−26units/26p/13free，.413√p临界与同R forcing未付。Beta/Stieltjes正性不付原Padé；全部旧O4/O6依序继续。
+
+R689整H_top付Kred=K−FH_top、全十九角2C+L/3C+L，真实上下charge缺口h±给边界−h−S0−h+S∞。原F³Q来源返回成本D0+3−h+，一般+2、h+≥3同预算；全P的gcd3不强加每因子。完整normal补项−eH及−f2H−2eEH、全Γ两13尾/同R不删，下一最高项modf为Ah+²g(δf)²，不能免费再除。指定非零仍开。

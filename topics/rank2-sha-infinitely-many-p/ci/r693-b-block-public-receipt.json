@@ -1,0 +1,20 @@
+{
+  "request_id": "rank2-r693-original-neutral-b-block",
+  "run_id": 43683206666,
+  "source_commit": "371c445e4efe7771c03e55eb44507cf008c22b73",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r693-neutral-g12-four-source-adaptation.js",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b"
+      ],
+      "engine": "node",
+      "sha256": "c0c786015ac9f637667352b7af14cf04fa38ef25b879e459b2dea652c988abfa",
+      "stdout_bytes": 45412,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false
+}

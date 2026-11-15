@@ -106,3 +106,5 @@
 - [R692：原四轴三态、三中央及真实四单位切集](../results/R692-original-four-axis-three-state-and-arithmetic-unit-cuts.md)：同q♯全[2]覆盖上付Y/Z的R与W/V的K三态和真实RY物理反射；任意真核心词像格的逆像W观察完整回原JT，三原算术投影同词运输。第三中央进入真实Y深/Zunit支、参考有同环带非零差；四-unit有限depletion及全13/19 CM切集保，质量用转置，不把投影穿过W深。
 
 - [R694：原Kummer根复乘下降、完整稳定子与单一域迹](../results/R694-original-cm-kummer-descent-and-full-norm-one-trace.md)：同原sigma的Klein相位保μ6p，Siegel比完整级12p²及全层点把所有相对p根放进K0(E[12p²])阿贝尔域；H固定μp与增广norm迫D=0、M=F、实际J=H。原全部根降F且Tg^d=−∏r_h，单值次数≤2(p+1)(p²−1)；边界为真实全H迹，未付其非零或j0传播。
+
+- [R689：原forcing整最高项消去、较低charge返回与双边界修正](../results/R689-original-integral-top-charge-reduction-and-complete-forcing-return.md)：明确H_top不除最高系数，Kred=K−FH_top保曲线值及全十九角，degree≤3b−h+且有双严格边界消失；原真实F³Q来源返回D0+3−h+（一般+2，h+≥3同预算）。两个normal修正、全Γ/两13行和同R完整保留，下一项modf的显示余式阻止免费迭代，未判指定d2非零。

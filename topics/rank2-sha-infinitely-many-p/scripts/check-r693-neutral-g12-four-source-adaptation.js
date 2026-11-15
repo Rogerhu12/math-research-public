@@ -2,7 +2,7 @@
 "use strict";
 /*
 R693: actual neutral G6-power extension of the R679 test.
-Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=4 --taus=2,3 --with-b
+Run publicly: node check-r693-neutral-g12-four-source-adaptation.js --max-block=4 --taus=2,3 --with-b --free-normalizations
 No data files are read or written. The original R594 algorithm is executed
 in a child process and its output stays in memory. All requested degree blocks,
 all original 31 constraints, the full C_(6*(max_block+1)) term and every actual W coordinate
@@ -20,6 +20,7 @@ const all=JSON.parse(cp.execFileSync(process.execPath,[inputPath],{encoding:"utf
 const arg=process.argv.slice(2).find(x=>x.startsWith("--max-block="));
 const MAXBLOCK=arg?Number(arg.split("=")[1]):2;
 const WITHB=process.argv.includes("--with-b");
+const FREE_NORMALIZATIONS=process.argv.includes("--free-normalizations");
 let DEBOUND=6;
 assert(Number.isInteger(MAXBLOCK)&&MAXBLOCK>=2&&MAXBLOCK<=8,"max block must be between 2 and 8");
 const argTaus=process.argv.slice(2).find(x=>x.startsWith("--taus="));
@@ -339,11 +340,57 @@ const data=candidates.map(c=>{
  return {...c,selected_columns:selected,selected_determinant:selectedDet,
   full_solution:solution,verified_all31:verified,computed_source_rows:sourceRows};
 });
+
+const freeResults=[];
+if(FREE_NORMALIZATIONS){
+ const ncol=extcols.length;
+ const targets=Array.from({length:4},()=>Array(31).fill(0));
+ for(let b=0;b<3;b++)for(let j=0;j<6;j++)targets[b][6*b+j]=Sjet[j];
+ for(let j=1;j<13;j++)targets[3][17+j]=native[j];
+ const pairs=[[0,1],[0,3],[1,3],[2,3],[0,2],[1,2]];
+ for(const c of candidates){
+  const rows=[];
+  for(const free of pairs){
+   const A=c.matrix.map((row,i)=>[...row,...free.map(j=>md(-targets[j][i]))]);
+   const rhs=c.target.map((v,i)=>md(v-c.old[i]-free.reduce((a,j)=>a+targets[j][i],0)));
+   const e=elim(A,rhs);let chosen=null,det=null,values=null,solution=null,verified=false;
+   if(e.rank===31&&!e.inconsistent){
+    chosen=e.piv;
+    const m=A.map(row=>chosen.map(j=>row[j])),x=elim(m,rhs);
+    det=x.det;solution=Array(A[0].length).fill(0);
+    chosen.forEach((j,k)=>{solution[j]=x.solution[k];});
+    values=[1,1,1,1];free.forEach((j,k)=>{values[j]=solution[ncol+k];});
+    verified=mm(A,solution.map(v=>[v])).every((r,i)=>r[0]===rhs[i]);
+    assert(verified,"all actual equations with free source normalizations");
+    const W0=md(evalRow(Pold,GW.gen6[0],GW.zero.gen6[0],c.eta)+extcols.reduce((sum,P,j)=>
+     md(sum+solution[j]*readRow(P,j,GW,BGW,0,c.eta)),0));
+    assert(W0===0,"whole W mass preserved in proportional target");
+   }
+   rows.push({free_source_indices:free,rank:e.rank,consistent:!e.inconsistent,
+    determinant:det,source_scalars:values,selected_columns:chosen,verified});
+  }
+  freeResults.push({eta:c.eta,choices:rows});
+ }
+ const preferred=pairs.find(pair=>freeResults.every(c=>c.choices.some(q=>
+  q.free_source_indices.join(",")===pair.join(",")&&q.rank===31&&q.consistent)));
+ for(const c of freeResults){
+  c.preferred_free_indices=preferred||null;
+  if(preferred){
+   const original=candidates.find(q=>q.eta===c.eta),choice=c.choices.find(q=>q.free_source_indices.join(",")===preferred.join(","));
+   const A=original.matrix.map((row,i)=>[...row,...preferred.map(j=>md(-targets[j][i]))]);
+   const rhs=original.target.map((v,i)=>md(v-original.old[i]-preferred.reduce((a,j)=>a+targets[j][i],0)));
+   const x=elim(A.map(row=>choice.selected_columns.map(j=>row[j])),rhs);
+   const sol=Array(A[0].length).fill(0);choice.selected_columns.forEach((j,k)=>sol[j]=x.solution[k]);
+   c.preferred_full_solution=sol;
+   c.preferred_source_rows=mm(original.matrix,sol.slice(0,ncol).map(v=>[v])).map((r,i)=>md(r[0]+original.old[i]));
+  }
+ }
+}
 const result={
  format:"R693 actual neutral G6-power extension: three S sources, native W=6deltaT, and normalized J2",
  auxiliary:{p:pp,omega:om,tau:TAU,lambda:md((1-TAU)*iv(TAU)),kappa:0,u:0,b:1,Omega:1},
  actual_columns:"eleven original Pi4-zero columns times G^(6h)/(b^h Omega^(6h)), h=0,...,max_block; with --with-b append the eleven ORIGINAL columns times B0^6/(b Omega^6)",
- max_block:MAXBLOCK,with_B:WITHB,B_geometry:Bgeometry,
+ max_block:MAXBLOCK,with_B:WITHB,B_geometry:Bgeometry,free_normalizations:FREE_NORMALIZATIONS,proportional_adaptation:freeResults,source_scalar_order:["frozen S0","frozen S1","cd S","native 6delta T"],
  degree_blocks:Array.from({length:MAXBLOCK+1},(_,h)=>6+6*h),column_count:extcols.length,constraint_count:31,
  constraint_order:"frozen S0 six jets; frozen S1 six jets; cd endpoint S six jets; native W jets 6,...,72; normalized J2=1",
  original_kernel_indices:piv,common_selected_columns:common,
@@ -363,7 +410,7 @@ return result;
 }
 const report={
  format:"R693 actual G6-power family at fixed auxiliary tau values",
- max_block:MAXBLOCK, taus:TAUS,with_B:WITHB,
+ max_block:MAXBLOCK, taus:TAUS,with_B:WITHB,free_normalizations:FREE_NORMALIZATIONS,
  entries:TAUS.map(t=>{console.error("R693: exact row algebra at tau="+t);return analyze(t);}),
  outputs_persisted:false
 };

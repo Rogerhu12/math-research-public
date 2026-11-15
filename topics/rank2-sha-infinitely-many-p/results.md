@@ -252,3 +252,5 @@
 - [R673：原乘p分子的四位收缩与真实sigma模p²来源](results/R673-original-multiplication-numerator-and-canonical-second-lift.md)：同一Θ=xσ²的准确乘法分子给(1−p^-2φ*)logΘdag=Gp，原t^{<p}窗真实φ∈p6tR，整收缩四位且唯一。分子modp4/Hmodp3即恢复实际Θdagmodp²，全部整除/首次p4修正付清；三原全P_m和H^-hp修正给真实第二中央类，排比较提升的自由高位但未证指定非零。
 
 - [R694：原Kummer根复乘下降、完整稳定子与单一域迹](results/R694-original-cm-kummer-descent-and-full-norm-one-trace.md)：同原sigma的Klein相位保μ6p，Siegel比完整级12p²及全层点把所有相对p根放进K0(E[12p²])阿贝尔域；H固定μp与增广norm迫D=0、M=F、实际J=H。原全部根降F且Tg^d=−∏r_h，单值次数≤2(p+1)(p²−1)；边界为真实全H迹，未付其非零或j0传播。
+
+- [R689：原forcing整最高项消去、较低charge返回与双边界修正](results/R689-original-integral-top-charge-reduction-and-complete-forcing-return.md)：明确H_top不除最高系数，Kred=K−FH_top保曲线值及全十九角，degree≤3b−h+且有双严格边界消失；原真实F³Q来源返回D0+3−h+（一般+2，h+≥3同预算）。两个normal修正、全Γ/两13行和同R完整保留，下一项modf的显示余式阻止免费迭代，未判指定d2非零。
