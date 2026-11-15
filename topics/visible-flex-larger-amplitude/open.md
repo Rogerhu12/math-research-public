@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-本次压缩前完整正文逐字存[194前检查点](notes/2026-11-15-open-checkpoint-before-request194.md)，链回[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)、[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)、[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+本次压缩前完整正文逐字存[R409前检查点](notes/2026-11-15-open-checkpoint-before-R409.md)，链回[194前检查点](notes/2026-11-15-open-checkpoint-before-request194.md)、[192前检查点](notes/2026-11-15-open-checkpoint-before-request192.md)、[190/191前检查点](notes/2026-11-15-open-checkpoint-before-requests190-191.md)、[186/188前检查点](notes/2026-11-15-open-checkpoint-before-requests186-188.md)及全部原历史。只合并已刊事实与重复来源，全部原参数、错误、未访地址、预算、清理和未付责任仍由原结果/完整接口承担；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -75,17 +75,11 @@
 
 ### 3B. 准确九/十族与公共u同目标
 
-[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)/[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)保准确core/两短Hermite窗/正coast/九C²控制、真实E/E_r/E_rr与有效dyadic窗口；旧134/149不自动属于新族。[R328实际147](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)十一条件/419片/452叶/九域partial/数值seam仅207三jet逐词同保原，不能改[完整v3身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)。
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)/[R323](results/R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)保准确core/短Hermite窗/coast/真实E两导数和有效dyadic窗口；旧134/149不自动属于新族。[R328实际147](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)十一条件/419片/452叶/九域partial与207三jet字词同不代准确兼容。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/R330/R352保公共u、准确L²/a(Lu)²、全部片/支撑/中心差/Bernstein及同场误差；固定盒不自动任意精化。
 
-[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)/[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)保公共u、准确L²/a(Lu)²、全部可能片/支撑/两侧/中心差、Bernstein、literal缺陷及同场η+δ+ηδ；固定盒不自动任意精化，实际δ<1/同场metric另付。
+[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)/[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)仍有38严格speed反证、32526pending及原完整身份，不加节点消反证。[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)同准确目标/numeric416 coast三系数必要带，[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)共同β充分域与强C²均只付其条件；实际180 β1/16/419片域已由[R384](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)证，recipe2136/cc87、definition377615/f568须按ba8重生，新J/FD/metric/BVP重付。
 
-[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)C齐/65535nodes/32977cover、全半径正/有限δ<1，但38严格speed反证、32488未决/481过，不能加节点消反证；21pins/419片/预算保。[R374](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)与[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)保55100B完整定位：38反证在numeric416两个闭段、32526pending；BOM只修解析，不冒准确唯一分支/回填首176。
-
-[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)证明165反证与169/179冻结初点同准确目标；numeric416 coast只p3/theta3/eta3直接作用、L固定，中心−κ+2LC·theta3及必要带保，未代入未返LC/分支或推全搜索无解。[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)保共同β显式充分域界、a≥r*/2、|as|≤(1+κ)/2、零系数分支/强C²/同长度/其它片；有限档/预算另付，不增门。
-
-[R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)43753422569/636bbc3060、64284B/503d2e7d：418固定片420叶+β1/16 coast3叶全证，前四β反证/13小档未访，419准确a>0/|as|<1/全根族齐。九有理词投影零/4.607932s非资源；recipe2136/cc87d932与definition377615/f568b816按ba8重生，旧raw已清。[180接口](notes/2026-11-15-request180-accurate-coast-three-coefficient-repair-interface.md)23pins保；新p活动域/shadow/J/FD/metric/BVP须重付。
-
-[连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)与[三源接口](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)72c4635e/7dedb713/a248e957已发：R323准确基底+support1/power4，degree10同体三jet、自然L/u与十项表保持；真180九recipe加显式ξ，ξ0仅同函数限制。3×10、七shape冻453/全十冻450 callable视图已有，真实J/FD/accepted writer/reader/共享闭面缺口仍在，R400独立补协议。0/半/1准确三jet零只局部盲点，未来保内部真实站/全响应，不推整J零/非零或另加rank门；ξ不修coast，旧184九schema不能吞十族，185 finite不改标签。
+[连续十族三源接口](notes/2026-11-15-continuous-C-fixed-power-ten-components-interface.md)72c4635e/7dedb713/a248e957保准确R323/support1/power4/degree10三jet/自然L和全十表；真180九recipe加显式ξ，ξ0仅同函数限制。453七shape冻结三active与450全十冻结 callable不等实际accepted；内部真实站/全响应不因0/半/1三jet零而删，不增rank门，ξ不修coast、185finite不改C标签。旧完整细节逐字留R409前检查点；R400/R409与193承担新完整链。
 
 ### 3C. 新C自己的完整453与真实闭面来源
 
@@ -100,6 +94,8 @@
 [187入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)十二运行件：helper91dd207b/kernelc2f515aa/far965c277c/七薄身份，request075a/wf589f；原74全保→84，driver55/native29。原相关下界不改，log/sqrt分别取准确正端点、倒数准确端点装球只乘不除；完整实角/幅度/取向及先归一再hull保，新旧浮点行不称同。真180→fresh C/factory/e5ab→本次全112far→原453，原全部参数/预算/FD/终门和六必要/quiet后清；actual R396未预填。新kernel的fullcut主程序未另跑，其完整cut责任仍未付。
 
 [R400](results/R400-current-continuous-ten-frozen450-and-complete-prefix-metric-binding.md)与四份独立源3bc68fa4/43f217d1/1c7a2e1c/011ca7db已全文核后公开。profile保准确十族全DAG/自然L、453三活动与450全冻结；真实writer须原未注解fullDN、当前H/FD、338×112/新audit及同g完整父，删3行只可初猜。完整338节点两jet定义准确Hermite，原675六jet/全112材料角/零模与means保；target在数值s坐标严格为g11=(L*/Lnum)^2，全部可能准确piece/support闭并集，原四strict Loewner/两反射前缀/闭DFS全未访保。旧e70d已有H关联1e−12沿用，无新门；准确Hermite不冒rounded renderer，无实际453/450接受、完整current-C径向/sharedB/帽/seams/atlas/全域metric声明。193/R408接真实453→450，geometry另生产真current-C径向场，旧finite/旧tail不改标签。
+
+[R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)24426B/fdf9a2f9及[总接口](notes/2026-11-15-current-C-ten450-complete-radial-and-shared-field-interface.md)21227B/776d2c66、两独立源23039/5cc3134e与48583/6a5f949a已全文根读。真同job450/当前C→全576×steps/2048角/两mean/DC/Nyquist→明确新节点准确Hermite/B/R249/全角cut patch/两帽；抽象S²、准确C²拼接与全t强C²连续解析已付。675只活动片六jet，帽Cartesian区间覆盖未执行；差分二阶/FFT为定义数据、未证原轨迹，R249后metric必须重算。原C E(r)/准确十g不以B′代替，cut/cuff目标atlas/完整E域/自然Rout/全metric/reach/held未付；无真accepted450或实际几何数据。193本次仅真实453→450和现场槽，R409未运行，清raw后只能完整同job重生后接本链。
 
 ## 4. 同一g闭合与真正九冻结450
 
