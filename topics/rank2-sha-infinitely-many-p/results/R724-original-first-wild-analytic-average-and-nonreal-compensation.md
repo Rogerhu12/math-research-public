@@ -518,3 +518,170 @@ $$
 \mathcal F_{\pm,c}h_p(\xi)=p^2h_p(c\xi);
 $$
 只有在已知 $c\in G$ 时才可再认成同一个 $h_p(\xi)$。这保留实际原极化与任意新 CM 倍数之间的差别。
+
+
+## 附录 B. 原非实和的 primitive 理想射线分解
+
+以下只重排 R724 的同一个绝对收敛和，不改原字符、坏位或高斯尺度。
+
+称 $\alpha=a+b_0\omega\in\mathcal O_K$ 为 primitive，若
+$\gcd(a,b_0)=1$；这个条件在乘 $\mu_6$ 后不变。每个非零整理想唯一写成
+$$
+\mathfrak a=(d\alpha),\qquad d\in\mathbf Z_{>0},
+\quad \alpha\ {\rm primitive}\bmod\mu_6.
+\tag{B1}
+$$
+仍要求原 $\mathfrak a$ 与 $2\delta17$ 互素。因为 $2,17$ 在 $K$ 中惰性，primitive $\alpha$ 自动不被它们整除；三处则保留 $(\alpha,\delta)=1$。同理，对本篇任一惰性 $p$，primitive $\alpha$ 自动为 $p$-单位。
+
+记
+$$
+R_{102p}(X)=
+ \sum_{\substack{d\ge1\\(d,102p)=1}}
+ \frac{\chi_{-3}(d)}d e^{-d^2/X}.
+\tag{B2}
+$$
+原 $\psi$ 的乘法性和其有理整数上的准确限制给
+$$
+\frac{\psi((d\alpha))}{N(d\alpha)}
+ =\frac{\chi_{-3}(d)}d
+     \frac{\psi((\alpha))}{N(\alpha)}.
+$$
+而原 anti-Fermat 角色在 $\mathbf Q^\times$ 上平凡，故
+$\ell_p(d\alpha)=\ell_p(\alpha)$。因此
+$$
+\boxed{
+Z_p=
+ \sum_{\substack{\alpha\ {\rm primitive}\bmod\mu_6\\
+                 (\alpha,\delta)=1,\ \ell_p(\alpha)=0}}
+ \frac{\psi((\alpha))}{N(\alpha)}
+ R_{102p}\!\left(\frac{Q_0p^2}{N(\alpha)}\right).
+}
+\tag{B3}
+$$
+单位类 $\alpha=1$ 恰为正文的 $R_p$；去掉这一项就恰为 $N_p$。
+特别原十七处有限角色完整位于 $\psi((\alpha))$ 中，并未变成无权格点计数。
+
+### B.1 径向因子严格为正
+
+先定义
+$$
+R_3(X)=
+\sum_{j\ge0}
+\left\{\frac{e^{-(3j+1)^2/X}}{3j+1}
+      -\frac{e^{-(3j+2)^2/X}}{3j+2}\right\}>0.
+\tag{B4}
+$$
+严格正来自 $u\mapsto e^{-u^2/X}/u$ 在 $u>0$ 上严格递减。
+对惰性素数 $\ell$，删除 $\ell$ 的倍数，准确等于施加
+$1+\ell^{-1}\mathcal T_{\ell^2}$，其中
+$\mathcal T_cF(X)=F(X/c)$。所以
+$$
+R_{102p}
+=(1+2^{-1}\mathcal T_4)
+ (1+17^{-1}\mathcal T_{289})
+ (1+p^{-1}\mathcal T_{p^2})R_3>0.
+\tag{B5}
+$$
+这只给径向因子的正性。非实方向的
+$\psi((\alpha))/N(\alpha)$ 可以有不同实部符号，不能据此给 $N_p$ 定号。
+
+对任何固定 primitive $\alpha$，保持其实际
+$\mathbf1_{\ell_p(\alpha)=0}$，由正文的周期部分和估计得
+$$
+R_{102p}\!\left(\frac{Q_0p^2}{N(\alpha)}\right)
+=\frac{9\pi}{17\sqrt3}+O_\alpha(p^{-1}).
+\tag{B6}
+$$
+故一个固定有限集合 $\mathcal F$ 的原贡献为
+$$
+\frac{9\pi}{17\sqrt3}
+ \sum_{\substack{\alpha\in\mathcal F\\\ell_p(\alpha)=0}}
+   \frac{\psi((\alpha))}{N(\alpha)}
+ +O_{\mathcal F}(p^{-1}).
+\tag{B7}
+$$
+共轭稳定的 $\mathcal F$ 给实数；共轭两项之和是
+$\operatorname{Tr}_{K/\mathbf Q}\psi((\alpha))/N(\alpha)$。
+这些有限方向可能贡献非零常数，不能把非实和中的所有固定短向量都计入一个未经证明的 $o(1)$。
+
+### B.2 完整的 projective Teichmüller 条件
+
+令 $\mathcal R=\mathcal O_K/p^2$。原
+$G=\ker\ell_p\subset\mathcal R^\times$ 的每个 projective 类恰有一个 tame Teichmüller 提升；共有 $p+1$ 个。对每个这样的方向取其自由秩一
+$\mathbf Z/p^2$ 子模 $L_a\subset\mathcal R$。这些子模的模 $p$ 方向互异，且
+$$
+G=\coprod_{a\in\mathbf P^1(\mathbf F_p)}(L_a\setminus pL_a).
+\tag{B8}
+$$
+所有实际第二位就是 Brandt 注 (10)–(11) 中的 $\kappa_p(a)$。
+
+不同 $L_a$ 只在零相交，而 $pL_a\setminus\{0\}$ 将
+$p\mathcal R\setminus\{0\}$ 分割。因此全环上准确有
+$$
+\sum_a\mathbf1_{L_a}
+=\mathbf1_G+\mathbf1_{p\mathcal R}
+     +p\mathbf1_{\{0\}},
+$$
+进而
+$$
+\boxed{
+h=\sum_a\mathbf1_{L_a}
+ -(1-p^{-1})\mathbf1_{p\mathcal R}
+ -p\mathbf1_{\{0\}}-p^{-1}\mathbf1_{\mathcal R}.
+}
+\tag{B9}
+$$
+这是附录 A 的同一个完整 $h$，非单位项一项未删。
+
+在原 trace 加性配对下，
+$\widehat{\mathbf1_{L_a}}=p^2\mathbf1_{L_a^\perp}$。
+正交补仍属于这些 tame 方向：若 $L_a$ 由 $v$ 生成，可取
+$\delta/v$ 生成其 trace 正交补；$\delta$ 的 anti-Fermat 值为零。
+所以 (B9) 也直接恢复 $\widehat h=p^2h$。
+它没有改变原 Fourier 自对偶的范围，也未添一个正性条件。
+
+### B.3 短和节省必须达到的实际尺度
+
+写原有限坏位字符为
+$\psi((\alpha))=\varepsilon_{17}(\alpha)\alpha$；
+$\varepsilon_{17}$ 保其完整 $2,3,17$ 规范。取 $\mu_6$-不变的光滑紧支撑函数
+$W$，支撑在 $c\le |z|\le C$，其中 $0<c<C$ 固定。考虑原非实和在
+$|\alpha|\asymp p$ 上对应的平滑块
+$$
+N_p(W)=\frac16
+ \sum_{\substack{(\alpha,2\delta17p)=1\\
+                 \alpha\notin\mu_6\mathbf Z}}
+ \frac{\varepsilon_{17}(\alpha)}{\bar\alpha}
+ W(\alpha/p)\mathbf1_{\ell_p(\alpha)=0}.
+\tag{B10}
+$$
+令
+$$
+\mathcal C_{p,r}(W)=
+ \sum_{\substack{(\alpha,2\delta17p)=1\\
+                 \alpha\notin\mu_6\mathbf Z}}
+ \frac{p\,\varepsilon_{17}(\alpha)}{\bar\alpha}
+ W(\alpha/p)e_p(r\ell_p(\alpha)).
+$$
+则精确的全族关系是
+$$
+\boxed{
+N_p(W)=\frac1{6p^2}
+              \sum_{r\in\mathbf F_p}\mathcal C_{p,r}(W).
+}
+\tag{B11}
+$$
+所有整数代表、坏位权与删去的有理射线都保持原样。
+
+因而在这一固定 annulus 上要由短和证明 $N_p(W)=o(1)$，
+所需的实际结论是右边总分子为 $o(p^2)$。
+仅有每个非平凡字符的界
+$|\mathcal C_{p,r}|\ll p^{2-\epsilon}$
+通常只给 $O(p^{1-\epsilon})$；
+即使单个字符达到 $O(p)$，逐项绝对值求和也只给 $O(1)$。
+原同步字符平均、低尺度 (B7) 以及高斯尾都仍须分别支付。
+
+尤须注意，原字符在整条 $\mathbf Q^\times$ 上平凡。
+普通一维 Fermat 商 $e_p(rq_p(n))$ 并不具有这个性质，不能将其短和或跨 $p$ 平均定理直接代入 (B11)。将原加性 Fourier 完成到全环只得到附录 A / (B9) 的同一个自对偶式，不自动提供新的节省。
+
+本附录没有证明 (B11) 的 $o(p^2)$，也没有删除任何非实补偿。
