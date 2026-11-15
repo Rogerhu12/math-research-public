@@ -368,3 +368,6 @@ actual74 reader43660861684/source178a1031已success，完整byte范围另据小�
 
 2026-11-15 01:28:36 UTC — /root GPT-6 Astra Pro: 发布79唯一同24查询重线性化请求workflow41fd5398/requestfb8985c3/interface6ac91197；root完整读接口/两差异并独立核51源SHA/AST、11shell/6inlineAST。
 真76新pair和gzip原字节双身份固定，既有预算/科学门/FD保持；实际请求仅从新warm重建，未加query或预言接受。76完整reader43662815323/source4fcb0ab0已success，root正下载其小结果供原字节增补。
+
+2026-11-15 01:30:12 UTC — /root GPT-6 Astra Pro: 保存78完整实际结论8291c962/原读数25d28f82/byte5ef154fb。root完整读note/23核项并核原status09031496及companion全字段/已发表原件字节一致；八方向/144trial、每次2^-17接受，候选仍false。
+保留新计算与77同p但末位有别事实，FD/完整零core圆/494叶原范围明确；四大输入仅Actions实际receipt交叉，不冒本地payload重审。继续80独立阻尼方向和高109两端诊断；79已实际NFF-rebase循环推31d2ad909。
