@@ -635,3 +635,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 23:06 UTC /root — R403实际190完整原读回
 
 [R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)run43762998688/sourceef56f16f、两job同64310B/b46c1341必要齐：真fresh64/J/R273→128 owner唯一α1接受，完整norm1.2209605459741e−4→9.6858247475102e−11；独立新进程全残差/576×226输出逐词同。新stage在b16fac header353的column_environment重载歧义编译返1，科学未起；boundary112/endpoint338×112因缺当前输入未起。独立audit575/576、7485/7488，stage575 query9已读、其后1原子推进未付，另queries[10,13)未访；原1800秒内部budget返2、外壳非超时，极值仅已付部分。192/196包含同header仅标源码风险，不替各终态。原全部门/预算/错误和完整未访保，真实quiet后全清；199/R423/R424仅三namespace限定薄修复并重生原全链，不能SHA续现场或冒native/fullDN。 root全文核21401B正文、64310B必要全部owner/component/原64字段；另核b16fac真实namespace/alias/三调用与a0904ea0先queries再advance原循环，日志身份只指返回UTF8；无本地科学/编译，open§4–6保。
+
+
+## 2026-11-15 23:12 UTC /root — R418完整闭面metric与可恢复责任
+
+[R418](results/R418-current-C-complete-closed-relative-metric-source-interface.md)及49975B/28b7245a独立源已全文核：直接绑定R416准确cut场、R400同一十族DAG和R417两帽，公共u前缀与原C径向目标分明；原C结果/输入/query plan/query results四小原件及现场binding逐字核，逐项核原C有效闭域、自然Rout下界与cut包含，不以B′代E、不以work_resolution作新门。全部112/两反射/每原piece/零mean/材料混合项保，原a601四严格Loewner与闭DFS覆盖、预算前保当前格/栈/未访rank；帽同图metric恒等并保全phase材料平移。固定C查询盒不会随空间分格自动收紧，重新精化并重绑同语义C尚未接跨run接口；不作终止保证。单≤90KB必要/原raw仅own RUNNER_TEMP；源无运行、实际450/全闭metric/reach均未接受，R422接完整曲率/normal-pair条件责任。 原H/open逐字归档，恢复3C压缩时丢失的R400–R417紧凑链接并去除散字，所有责任仍在原文；§4–6逐字不变。仅源码/证明/原JSON/字节核对，无本地科学/导入/AST。
