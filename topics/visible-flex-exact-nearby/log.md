@@ -141,3 +141,7 @@ Green根新增15:46:17 process94a54674/51599/de028e313f5840ee553ff14c24d5ac5573f
 ### 2026-11-15 15:50:15 UTC — NC 有限嵌套局部化与直接高频H1迹
 
 新解析结论root推导，phase全文独核NC20–27/weak angular mollifier，tail全文独核NC14–16/25–27；最终blob5b3bd5f87929a53b55968456006fbab4702e3f24 /15470B/SHA558f47f743ccbfbb14c5305a56a699900e472b03183037951d0b26be33983df9。相对候选ed087仅明写selected|δ|≤1e−10，并将D1上界用“admissible choice =”准确表述。LC零阶cutoff迭代BN≤r^NB0+kΣr^jE；第二个t1来自精确E16，不重认旧E为新。完整低主列+H(d∂pL)、actualD1、B10z含mean及有限rank仅最终HJ消；Mδ2从已知32/96频带付128/384，不假设未知H2。angular mollifier principal commutator在L2趋0，先吸t1后弱极限，最终不加粗正则化费。固定两χ80、nested h1/(40N)，五完整列Θ/Γ/η保，双端FTC常数1和physical P仅一次。新N1..64整行选择/门须公开scalar实际，不报当前数值pass；actual low/shell/cut和独立tail高域仍未付。H/open压缩前b04a6a5f同路径全保旧域/失败/恢复链，最新只读README94733c722842e34d633ab69e006b3f8c6863e27b未变。
+
+### 2026-11-15 15:50:45 UTC — AC 已成真实共轭下完整首系数H3收费
+
+newton给blob30591d2714e45dcad6ae2de1774a9b7e333466de /8974B/SHA6527fa46ddc21ed3d3e8c6ce4bb1f39f2db816d9fff5684e6daf4f30951c46f4。root全文亲核AC1–17，并全文回读已成真实strip a79a7ad7/6138/1e8d001a及primitive covariance 5a758bd3/7324/964537f7，原run43588332723/native dfb2a174不重新恢复或计算。degree-one H′ mean1，A1/128非均值<1/32付j′/j″/j‴≤4/1024/393216；完整逆密度三导矩阵行和2/10/2170/878994及dx=j dφ、H3 binomial权给3754263/4<2^20。输入必须c0−μj，μ=<c0>=<c>；有限rank和前strong余项另保。系数约定、原真实角只选定explicitfamily与隐式curvature角区别均核。新转换完成，actual完整c0/root/strict/waist端点与R0仍未给，不授GH或真core。最新只读READMEc727c474a85641d2a18aae2b779d03a968cb5ccf双blob同。

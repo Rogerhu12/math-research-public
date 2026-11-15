@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 AC：经已成真实共轭的完整一阶系数H3转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)。从已成43588332723的真实H′ Wiener界纯解析付四导及真实density/mean转换，得到C≤2^20||c0−μH′||H3。完整c0函数仍待，非标量β或单半Xi替代。SHA256 6527fa46ddc21ed3d3e8c6ce4bb1f39f2db816d9fff5684e6daf4f30951c46f4。
+
 - [R133 NC：嵌套collar局部化与直接投影后一阶角迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)。有限次零阶局部化后，直接角导能量与双端FTC给完整五输入列的H1高迹；保actual drift、全mean、两截断费用和独立t1门。该迹不需8193插值，但不授low/core或独立tail高域。SHA256 558f47f743ccbfbb14c5305a56a699900e472b03183037951d0b26be33983df9。
 
 - [R133 LC 实际：保存的正collar组件及十二个高频强制估计](results/R133-supplement-actual-saved-positive-collar-components-and-high-frequency-coercivity.md)。43731225532/1科学child0、16结构门与12候选全通过；原出版大小失败完整保留，日志原SHA无损恢复，未重算。最宽域已有a>3.669992340与J96/288 half增益<.916441681/.905987576；全部低/shell/highcutoff/mean保留，未知body/cut仍待。结论567dc8a07e18d65ba5957cd010279218c6672da768f999b24dfc081e6215a70e。

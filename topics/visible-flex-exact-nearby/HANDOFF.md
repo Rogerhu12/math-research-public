@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 15:50:15 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 15:50:45 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 15:20检查时本轮定时及15:22:44非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续真CLI，ref不冒pull。root亲读runner RW15:22:11.594118→8142567c288c4731b5d40b81d350a399fec24028、Green15:46:16.350045→710f16b432b8fa6ad360442a17400b247d3d2c75，两README diff空。
-最近只读README核：94733c722842e34d633ab69e006b3f8c6863e27b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：c727c474a85641d2a18aae2b779d03a968cb5ccf；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前H/open/log：b04a6a5f7abfd1574608750392fe559413d8a259同路径；递归保febfb688/f1a97ec/441257/5d5024/52bc/dc10bb旧档。原输入/域/单位/mean/失败/restore/未付义务全保，成功旧数学禁重。
 
 ## 总验收与同一个对象
@@ -34,6 +34,7 @@ SP/ae01c213完整primitive+mean的√q正反两状态，fullδ curvature/log费�
 D43713242980/12锁f9758b3d/6956c214，40parts7721：e<1.049107e−5/eLH<3.071831e−5，新νwhole<4.324391e−6/negative<1.061687e−6；非全ν/finite逆，a_metric/s不冒speed/m。
 GH/0ffb191a须完整R:H(s−4/3)→Hs与右预条件χ=128CsΛJ^-1/3<1；C0≤1/32仅J97目标，phase-tail≠physical HH；finite border、同δ/two-port/真incoming/outputs/全mean仍待付。S/19071536三HY→actual帽→2×2AB三门有条件。
 CN/427387a2全圆周T=Id+MwI显式ODE逆，无小C/新增finite cutoff，双mean有限秩完整；C=||c−μ||H3、K0=1+2C exp(17C/8)，Rexp≤K0[(1+13C)R0+3|μ|C+C²/16]+μ²/4。scalar exp费即μ常数也不删；actual完整c/R0、真β稳定及GH/physical finiteborder仍未付，不能用Xi/β替C。
+AC/6527fa46仅读旧43588332723真实H′ A1/128，准确density给C≤2^20||c0−μH′||H3；全三导/measure/mean保，不把c0−μ代替。完整c0及root/waist/strict端点仍待。
 PD/58bdf173准确DFΔ=(f+r_f+rνκ,b+E′a)，S=<bν+Lzν>实际非零未付。rho15 gap1/(68j)、aHs≤17wHs+1、Cs=(9/8)2^(s−1)保全mean/raw b/J/regular defects/有损quadratic和smoothing Taylor；不授同阶Neumann/Nash迭代。全regular逆、S下界、D²tame/域和真β背景未付。
 帽X/M/I/R/CS原域/mean/λ/height/κ/affine/high全保dc10bb/8994。γA0≤1e−9、fBdotA²≤2^-60、ρ3e−6/Lip.881；K*−K0<1/5，CS伴随L2≤108/角≤65536，κ费独立无√97。I全模18/1/25与R fixedmetric tiny列不替真Γ/ν/core。
 RB/e87d247a moving ordinaryL2≤80 physical pair-sum，B+≤80[Aδ,+ +√len(18ΔγL2+ΔfH2/25)]；Aδ,+实际基点差保fullmean/反射phase/sB，不能ordinary冒Σmode sup或用ρcap付低门。
