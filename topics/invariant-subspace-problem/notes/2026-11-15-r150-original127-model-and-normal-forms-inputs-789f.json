@@ -1,0 +1,121 @@
+{
+  "format": "r150-original127-model-and-normal-forms-frozen-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "status": "prepared-not-executed",
+  "prime": 127,
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
+      "blob": "e2d6ba7ba590acd433416295b10b88cbdbd97637",
+      "sha256": "76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784",
+      "bytes": 7231
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "blob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
+      "bytes": 4691
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-789f.cpp",
+      "blob": "9871edb17a5ef963e6d8996661274af14033f61a",
+      "sha256": "a3f6891dd2dc5ffb98611d806fa5e1b2b87200a8206143d95bdb335f93c5099f",
+      "bytes": 18709
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
+      "blob": "e62a15aa43f903c31e987bfb505e9f668268e546",
+      "sha256": "89d674d1cc098f070d74d754cd00a7d07d1e44f6380a04e787dbadce88afb96a",
+      "bytes": 9310
+    }
+  ],
+  "primitiveRestore": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-primitive-input-recovery-789f.py",
+    "blob": "1e9a9c452108390d8dd13d6bedcb7258ba33033d",
+    "sha256": "f1ee8d148bc245497eeb64f77edb83bb1b88e8452de7380ae3a2ae76bf8173e0",
+    "bytes": 2826,
+    "argv": [
+      "--repo",
+      "{repo}",
+      "--out",
+      "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+      "--receipt",
+      "{work}/original127-inputs/original127-primitive-input-recovery-receipt.json"
+    ]
+  },
+  "primitive": {
+    "ref": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+    "bytes": 65159,
+    "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+    "uncompressedBytes": 158741,
+    "uncompressedSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+  },
+  "originalDictionary": {
+    "existingPath": "{work}/global197-original-inputs/model.txt",
+    "bytes": 128145,
+    "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+  },
+  "modelCLI": [
+    "python",
+    "{scripts}/2026-11-15-r150-original127-model-789f.py",
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--original-model",
+    "{work}/global197-original-inputs/model.txt",
+    "--out",
+    "{work}/original127-model"
+  ],
+  "nfCLI": [
+    "python",
+    "{scripts}/2026-11-15-r150-original127-normal-form-runner-789f.py",
+    "--model-out",
+    "{work}/original127-model",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-normal-forms",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30"
+  ],
+  "budgets": {
+    "modelSeconds": 60,
+    "nativeNFSeconds": 180,
+    "nativeCompileSeconds": 30,
+    "normalFormOuterSeconds": 240,
+    "memoryMiB": 2048
+  },
+  "resume": {
+    "sameSourceAndDirectory": true,
+    "timeAndMemoryExcludedFromMathematicalBinding": true,
+    "wholePrebasisCacheAndEveryCompletedOriginalRow": true,
+    "uncommittedAppendedTailTruncatedToSavedOffsets": true,
+    "completedStageDoesNotRunAgain": true
+  },
+  "nextStage": {
+    "gradedGBSeconds": 900,
+    "torsionSeconds": 60,
+    "pinsNotYetFrozen": true,
+    "originalField127FullAffineTorsionNotYetComputed": true
+  },
+  "claims": {
+    "modelAll4433ChecksRequired": true,
+    "sourcePartitionAll6188Required": true,
+    "constant3333IndependentAt127Required": true,
+    "newPivotPositionsAllowed": true,
+    "oldF31NumericDAGReused": false,
+    "fullOriginalSourceDAGRetained": true,
+    "old315Or820DimensionsNotAssumed": true,
+    "infinityQualificationIndependent": true
+  },
+  "localValidation": {
+    "localExecUnavailable": true,
+    "ASTOrCompileExecuted": false,
+    "firstActualParseAndCompileIsActions": true
+  },
+  "storage": "Only these sources, parameters, and small actual receipts/hashes may be permanent. The original127 input, dictionary, normalized matrices, DAG and checkpoints remain temporary."
+}
