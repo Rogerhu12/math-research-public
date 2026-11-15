@@ -73,15 +73,15 @@ R793保原V6 142条件、第二关系/rank1116及264维残余；固定degree272�
 R791实下降三同源与R794低次数五基的双向变换保全原极化/η。C′:Y²=X³−27b、ψD=[1−ζ²]、微分因子3、主函数(-27)等全部常数必须保留；实际对称代表的二挠刚性化比较尚未求。
 
 
-**R806原primitive乘法已激活**：[执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)e73f66bd；run43707290840/source75b1d56c，coreb014f9b3/wrapperb199f040。R805/R786真实两组输入，原690行集不重选、272生成性V3右端、全820模筛和实际272 cyclic determinant；仅成功候选做34×8 Dixon/full820及带权支撑核。AST已通过，实际候选/非零minor/准确乘法尚待返回；不把幂环当整闭，不做无需求的巨大完整Q(z) Krylov逆。
+**R806准确primitive乘法已完整认证**：[实际结果](results/R806-certified-original-primitive-multiplication.md)。run43707290840/source75b1d56c，真实candidate0、w0=e2，σ=e1+e73；cyclic p1000000007/z0=0/det489861234/rank272。34×8准确列全820，组000..017各184、018..033各432 Dixon位，4725.462438秒；10603输出/2580原输入与冻结verify公开IO全核。原正规整基、82尺度与weighted bound保留，不把幂环当整闭，不计算特征零Q(z) Krylov逆。原artifact14161637987/小续接14162500418已交R813/R811，已成计算不重做。
 
 **R807原M6一次清极已实际完整认证**：[结果](results/R807-certified-original-M6-pole-clearing.md)。run43707939269/source2c44d025，375.019515秒；原962块p1000000007/det290159643。真实138×5残余rank2/kernel3，θ=e0−112648621e1/282292255+223442698e2/282292255，原λ3/4=0，无新增pair-tail。五选行投影各488 Dixon位；三成员690/691/693为336/464/472位，692由既成投影与核合成，四条全1100准确认证。1003完整manifest项/1005ZIP/997原输入与冻结verify经公开IO run43709814489全核。只需后继六个θU_j正规向量，不重算θ、8右端或旧前缀；极理想/η/高度仍未执行。
 
 **R809（证明/契约已完成，84右端公开请求已激活）**：[原S5正规向量与有界乘法认证](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[契约](notes/R809-original-S5-normal-coordinate-consumer-method.md)。原1234列S5、69阶×20=1380行，共用一个真实新minor；先原R803/R807六个τθU_j的84Q右端，R787成功后追加A/B28且不换公共身份。保82^10、原b/s两块及B_fld=λb换基、τ因子最高项零；只补所需缺尾。实际normal向量经Mw的cyclic first-column/commutator及weighted bound给唯一乘法；只有限域数值Krylov逆，A/B各8点、r4各7点插值。四组4117输入已纯IO全核，core dedb5d61/wrapper3616aac1；见[工程与输入IO](notes/R809-public-activation-and-original-input-IO.md)。尚无S5实际minor/新坐标或极理想。
 
-**R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope待真实R806/R809 A/B。
+**R811（有限算法/证书充分性已证明，实际producer待到）**：[原正规两图极理想前像](results/R811-original-normal-polar-ideal-preimages-and-two-chart-certificates.md)/[执行契约](notes/R811-original-regular-multiplier-and-polar-preimage-method.md)。低度乘法用原Mw循环性及准确first-column/commutator，带权界后九个固定整数点给r5全部系数恒零；同截面第二图须带t^r D M D^-1。完整unimodular列消元的核投影给全部极理想，逆时间左乘记录恢复核，双向Laurent包含验拼接；次数为τ图全长加σ图t=0局部长，无闭点拆分或双图重计。五函数微分输入仍未执行，原函数DAG/Norm/η常数与理想首一化分开保存，首scope的真实R806已到，仍待R809 A/B。
 
-**R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，pending真实R806，不预填w0/导子矩阵或极理想。
+**R813（两低权微分输入与完整导子认证已证，实际值待Actions）**：[两个原S3 Wronskian与唯一导子](results/R813-original-Wronskian-normal-derivation-and-cyclic-certificate.md)/[执行契约](notes/R813-original-two-S3-Wronskian-derivation-input-method.md)。δ=D0/τ，粗曲线加权Wronskian属于普通V_(r+2)(−cusps)；原G/J只需两个690维Q右端、全820行，146个τe_i旧V2直接复用，每目标仅一个新增weighted乘积，保原n/82及82²/82⁶。Γ界2+eps_a−eps_b，由Γe0=0及ΓMw−MwΓ=Mh−MgMw′和真实cyclic唯一；Mg/Mh六好点插值、七固定点终验，Γ五/六；两图修正须为矩阵−tMgσ diag(eps)，可在H有极。14个原L分量共用，同源导数比及原ρ保留。首工程只做两S3，已绑定实际R806 w0=e2并激活公开请求，core830ae652/wrappere838f3ab；不预填导子矩阵或极理想。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
@@ -107,7 +107,7 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 ## 运行和续接
 
-根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive运行，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
+根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive已准确完成，R813两S3请求已激活，R807清极已完整认证；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
 
 
 **R812（六case已准确成功，全部split p的未筛配对非零）**：[实际结果与全p推论](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3。固定六FG均非零、分母121，清分母Norm因子2^38·3^12·5^12·11^24；U分母88、det分母11^6/Norm仅2/3/11。因此每个p≥41、p≡5mod12的原交替卷积Σ(−1)^j f_(N−1−j)g_j为单位，保共同c/Frobenius/Gaussian相位并先代数化再SS评价。完整8文件/6manifest与原verify全核，47.336289秒含拉镜像。原primitive/Legendre同h与p11mod12 Eichler分支仍OPEN，不以未筛代筛后或主定理。

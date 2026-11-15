@@ -55,3 +55,8 @@
 - 激活R806成功产物纯IO审读，script c4f9f2a、workflow9cd549eb；原203879878B ZIP/全manifest、R805/R786 carrier每成员逐SHA，运行冻结wrapper.verify，不import数学core或flint，不重算Mw。
 - root逐行核真实producer/schema、原manifest与selected closure；只保小摘要及R811必要未改文件一日artifact，R813直接读原R806 carrier/固定逆。
 - 小文本CAS遇并发main变化后，均立即重跑rules job实际pull --rebase；2026-11-15T12:37:38.513224+00:00已读af80941c两README不变，再按新main重推。R787/R809继续，主目标OPEN。
+
+### 2026-11-15 20:43（Asia/Taipei）｜serre-public-astra-20261115
+- R806实际准确结果登记：w0=e2/candidate0/n1，cyclic p1000000007/z0=0/det489861234，34×8列全820；18组184/16组432 Dixon位，4725.462438秒，原正规整基及82尺度保留。
+- IO run43714843253全10603输出/2580旧输入与冻结verify通过，无数学重算；certdd266ee6/manifestcc569ea1，必要续接artifact14162500418/0639c595。实际pull12:38:13UTC读9651443b两README无差异；本次推前再actualpull读46b3c697/2026-11-15T12:41:25.643019+00:00亦无差异。
+- root已全文核R813 core/wrapper及最终alias/尺度diff，真实R806全部source字段对照summary；激活两个原S3 Wronskian，core830ae652/wrappere838f3ab/requestdec2573f，只复用原690逆、不消费34组Mw坐标。R787/R809继续，主目标OPEN。
