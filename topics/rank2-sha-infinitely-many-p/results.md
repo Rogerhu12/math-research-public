@@ -206,3 +206,5 @@
 - [R657多Euler增补：完整联合前缀与三个/四个输出常数](notes/2026-11-15-r657-multiple-euler-ordered-prefix.md)：同一P的q个完整Euler输出给准确H_q/k_q连续前缀及原Smith上界，全部高尾/特征p端点保留；三个输出特征零共同接触≤25D²/27，固定至少四个≤3D²/4。旧第三输出仅ell短行，三原S/T/U不提供这些联合输出，目标p的模p核亦不能搬辅助素数。
 
 - [R666：原七条条件A来源的完整33系数与准确深度递推](results/R666-original-conditional-a-sources-and-exact-depth-recurrence.md)：两whole核和C单位补项给归一整条来源对κ^N的至多六次多项式；完整S29按角型共33系数，经原≤35次矩的单位三角准确恢复。原测度全N4满足七阶递推，保全部λκ/原右逆/两η；只对固定测试直接使用，未冻结T移动cut/log或预称系数映射满秩。
+
+- [R667：原十一维核的可见单位质量与七来源完整S5消元](results/R667-original-kernel-visible-mass-and-seven-source-contraction.md)：同一九行整核中构造实际δq，完整π4推前恒零，而其共同二阶质量在同ray相对密度一子族全N4有vδJ=−2N；两η固定函数/整提升全部保留。七个总S5矩给有限n的两个真实S共同域，原T混合cut、浅补域和外部准确补偿非零负一深支；未新增中央零。
