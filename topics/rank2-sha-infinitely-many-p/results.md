@@ -218,3 +218,5 @@
 - [R670：原核对完整Λ2的四维整像与合法取消测试](results/R670-original-full-lambda-two-image-and-exact-cancellation.md)：原四次权/C分离使全部λκκN的wholeS29型零五系数满足显示四维超平面；两η固定minor非零，原11核在同ray相对密度一子族全N4整满射并余七维核。可另造同π4/九约束测试整条Λ2零，也同时取消它的完整负一深支；其余来源/全补域保持，依N新测试不冒原固定P的N递推。
 
 - [R671：固定N原cd返回、真实外部的单位过滤与中央接合](results/R671-fixed-depth-cd-return-and-original-exterior-filters.md)：未附第二Y的cd双深行准确λ^n返回，真双Y S行仅七个λ^(2n)κ^(an)模式；同q七步单位过滤精确恢复S，T偶步质量精确/log全余项≥p^(7n−6N)。cd内Y外部与cd不双深外部同式返回原JS/6δJT，保全部质量/移动cut，不给外部单项赋零。
+
+- [两Euler第一Gaussian前缀的必要下界](notes/2026-11-15-two-euler-first-gaussian-prefix-floor.md)：原真实余类u*=13+A_D及全部帽给有限整数必要门；对所有允许辅助比例p/D≥9/2统一优化得441/400，严格高于旧47/48达37/300。即使联合首层合流矩阵全秩也不能跨该截止；保真实regular高尾/新饱和和目标p短矩阵为未排方向。
