@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:30:58 UTC root因终端服务不可用按根第8条以GitHub集成读取main af928b891554abc549cf9d6dc0529cc421abbd47；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 af928b891554abc549cf9d6dc0529cc421abbd47。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
+规则同步记录：2026-11-15 09:35:56 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0f056c8f43b30bdf8bd845f54f93dce077c146dd。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
