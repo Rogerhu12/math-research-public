@@ -129,3 +129,7 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 [准确E1–6合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)把future Q/past V-W/raw Ecut=I97分开推进，整格signed Gram和全部同源jump在分组时只累矩阵与正权和，末用实际Vcutex给的同C作所有C*HC。三dyadic端口缓存保完整entry球，不取无误差midpoint；192bit仍过原1e−30逆门，旧320bit前缀原字节不改。true96 waist/true97 even mean/完整[0,9/10] body及独立cut trace都保。
 
 新SCI4b864054…/CIc2970d6a…/358pin fea26a82…，原353pin逐键未变；历史7c130fb…只进temporary science，旧286134725B artifact先核实际规则停止和最终完整prefix count。单runner最多4compute进程，后原same97 cap signed方向contract，0旧target/F/C/Gram重算，0新data/artifact/Release。须等actual finite193与三HY后再判断真实剩余量；未授全高频逆/Schur/PDE族。
+
+### 原整片域已实际通过，立即接非零入口源
+
+[actual43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md) child0/15：两target完整原片都在germ/Rg/RHO/RC，full65/full193五片exact knots与rootpiece一致。比较0.03972491499996522s，0旧数学。下一按E合同继承E_phase/F_scalar/ell_G，检查共同ray strip，再消费完整forcing/9词5mean/真实积分。该径向域门不替代角域或strong-return。

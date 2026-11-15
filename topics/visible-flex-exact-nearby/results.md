@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 实际整片域：43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md)：child0/15门，2547/2551整片都在原germ/Rg/RHO/RC，五片真节点full65/full193一致。新比较0.039724915秒、0旧数学；可继续非零入口完整源比较，未授新源界/强返回。
+
 - [R133 补充 E1–6：同一临时运行的三流 Green/Poisson 合成](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)：原准确三角端口使未来 Q、过去 V/W、未归一 E 三流独立；完整 Gram/同源 jump 正权合成后才同 C 归一。真实 Vcut、PC−I、even97、腰端、mean 和独立 cut trace 全保。新 public Actions 已部署，数值门尚待实际。
 
 - [R133 补充 E1–16：下一真实物理片的非零入口继承](results/R133-supplement-nonzero-entry-continuation-to-the-next-physical-pieces.md)：2547/2551 继承前片的 phase、normalized correction 和 log G 径向常数；exact cubic repair 逐缝递推，实际 ray 同时受旧入口 strip 和新局部 strip 约束。条件合同不授新域或源界；整片域消费者已接公开 Actions。

@@ -19,3 +19,9 @@ root全文核E1–16：signed cubic repair递推保常数；严格侧两ray、�
 root全文核36062B新SCI及25617B CI、6344B合同/6566B flow。原Qfuture与V/Wpast确实无相互递推依赖，原早读Q0只为末腰端defect；未归一Ecut=I97最后用真实Vcutex产生同C，产品半径是准确传播包络并非物理jump。tail独核merge_group/weighted_add/normalize_Poisson全部signed位置，跨组ΣH/α与Σα保；root再核末trueeven97/PC−I、负区输出仍全bodydefect、mean/waist和独立cut trace。共同端口三dyadic+完整球不改原准确inverse门1e−30，新192bit必须实际通过。
 
 358pin清单70789B/fea26a82069e507002663b791dc1195b295b30726c473bfa2c5854fc207e1861与原353逐键比较0改；只加原manifest、新SCI/CI/合同/现规。SCI4b864054e8f8c29add6918e94300e4fbc361a4ecf1acfc213ae9993545bf37ce、CIc2970d6ad7180e8aa26866f85425958935b1d7f1bc35aa098eee5312ea6012c6。静态delimiter通过，实际AST及矩阵门待public runner。原34矩阵artifacts较大，workflow只清fresh runner预装Android/.NET/GHC/CodeQL以留临时空间，不清checkout或科学输入。新计算全部同一个临时runner内，仅脚本/参数/run/hash/小结论持久；每10min真pull/差异检查，非FF真rebase循环。freshmain ebca8cdfbda879cd013412e11a3b5f7307be3e8b两README未变。
+
+## 2026-11-15 05:22:53 UTC — 两个主导外片的整域实际成功已核
+
+实际run43680556665/1 child0/15，比较0.03972491499996522s/parentwall0.2642209229999253。两原index及两自然shard从历史a3d84逐字恢复temporary，4pin bytes/SHA全过；五片exact dyadic knots在full65/full193一致且真seam/rootpiece不变。2547/2551整片原germ/Rg=3/8000/RHO=1/6000/RC=1/2000及严格侧全过，完整有理余量已原样写结果。
+
+root全文核actual-result4514B/SHA8bd0ae3d892cb1a603bcebc3f150a95ff5ded2d7dd69ade2c63e947c68644182与execution所有15门/5pins/truepull/child。0旧FFT/cubic value/target/norm/stage，新比较1。最新真pull05:19:46.281134到d13e520839a5beda65c2e8d240d7432f31362abf，两README diff空。临时process11799B仅留SHA581e0db4…，无newartifact/Release/data。下一phase只做非零entry新条带及完整源。freshmain b9a21a4bdcf6831c3e27e34cf3e7c76e6835c359两README未变。
