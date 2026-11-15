@@ -111,3 +111,7 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [R284/actual125完整结果](results/R284-actual125-nine-control-eight-further-acceptances.md)：run43698258576/source36f7152b，8方向8接受/17外trial，W431.4178353348037→279.12365756925647、全部unit/full112/native/success仍false。末dir7全步inner tol=false仍过原Armijo；初末九FD/1178叶域/完整零圆及全部17行已读。primary63133/53a0186f、status1883163/688d64e2、8组完整view118379/56c7fef0逐字核同，raw已删。126从真实末九p接最多8独立原批，.1 reset及原全部门保留，完整status→reader→ownrecipe，不以hash伪续场；123/125零圆仍非非零parent。
 
 [R285原有限selector完整闭覆盖](results/R285-original-finite-selector-closed-cover.md)已证明并直接登记，source65a29ec6全文已读。准确first-match/cut/cuff/48层原阈值分支无需假设profile.r单调，全部未决栈/后缀保留，只有原flat赋值支路可整片付；有限求值器实延拓非恒定时不能是连续g。未运行，无实际E界；a601连续目标责任仍false。geometry接原冻结参数下连续profile的明确出处、E区间或误差桥，不借R26替换原对象、不把Bprime当g。
+
+### 2026-11-15 request126：从真125末点连续原九控制批次
+
+[接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)已付：只接R284原九p，最多8批，每批独立原8×20/12×20、.1半径reset、全部FD/Arb/圆及原停止门；wrapper b15a6571保持真status→原reader→自有recipe，compute逐batch完整原组/report紧凑链，3600s仅批间预算。84科学/2支持pin及own26闭包不改原family/search/reader。尚无126结果，完成后读全部原方向与真实末点继续，不把8批/时间预算当课题终点；仍待九非零完整场及真正fixed-g450/闭面标准。

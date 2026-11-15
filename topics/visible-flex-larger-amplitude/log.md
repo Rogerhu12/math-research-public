@@ -243,3 +243,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 09:21:35 UTC /root — R285原有限背景选择器的完整覆盖证明及源码
 
 [R285](results/R285-original-finite-selector-closed-cover.md)完整证明直接登记，与22356B/65a29ec6源全文已读；准确开闭区间、first-match、原48层/实际阈值/NaN分支、全部未决栈和原flat特例保留。既有19KB说明仅补R编号/AI作者置results，不另复制notes。无fixture或本地科学/实际E输出；有限阶梯求值器与连续g分清，a601仍未付，继续原连续对象及直接区间桥。
+
+### 2026-11-15 request126 原批次续接入口
+
+发布[接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)及5份源/配方/request/workflow：wrapper43812B/b15a6571、recipe2289B/4dd8745b、request41012B/7825a472、workflow18133B/f54989d2。从实际125末点连续最多8个原九控制批次，独立原步长/域/FD/Arb/圆/完整读取责任全部保留；终止/预算只为本运行状态，无未来成功声明。`.github/workflows/visible-larger-public-nine-control-batches.yml`为本公开仓库Actions入口同步来源pin与逐批完整原reader输出。root只小文本/metadata，未本地运行科学代码；每次发布新main父+两README复核，拒绝立即重读重接非force。
