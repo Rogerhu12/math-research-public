@@ -395,3 +395,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R281 完整证明](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)先证固定平端ψ乘偶多项式在共同支撑even C²域稠密，近似实际最大minor及有限方向，再沿ψ至该点的多项式直线避有限根，同时得P0全区正与u0″(0)非零。纠正方向和χ=ψQ都固定解析；R279同F、能量C¹收敛及有限N准确根保留，最后真实profile为ψ[P0+ΣaP+zN^-3QcosNy]且前因子正。R280的A01/m²权及χ差独立母包，故五实际block可先定再解析求根，全部72 Gaussian与六能量同零。
 
 每个最终端p=t^-2 a_e exp(−c/t)，a_e解析非零；内部p/AH零有限且有限阶。使用R276从R56给的一般canonical界G=P+Tf+p²t^-4B，保最后圆的所有真实尾和整个Tf。D+ψ′/ψ有限消局部矩积分，清分母得到有限多项式×不同频率指数；湮灭算子证明其独立，Tf零iff全部有限系数零。非零亚纯共轭微分排除非零全平商；原平台及零通量分支已付时，这些准确系数门恰iff逆解C∞，非零则有p^-1指数发散。实际尾、平台/通量、内部Laurent和系数未评价，完整period/同w/joint与主几何门仍欠。root全文复核密度、真实minor线、正前因子、有限内部退化、有限消积分、频率独立和逆端条件，没有执行新计算。
+
+
+## 仿射谱首公共运行：五源及50来源冻结
+
+[完整接线/审核/执行计划](notes/affine-spectral-implementation-and-first-public-run-20261115.md)固定新模型、直接e/f观测、159目标、新开发及第八handoff driver五源；50绑定含最终workflow/publisher，98研究args仅out改变、24原输入SHA不变。保所有实际门与原预算，返回rho_aff预测/rho_hat辅助量分账，SOC保同step原scalar RHS。逐模型新误差/innerLP/预算比较保公共日志，未有新执行或passed结论。下一通过公共新人工后八必要恢复各一次及唯一新stage，原恢复费用独立。

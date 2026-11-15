@@ -136,7 +136,7 @@ $$
 \tag{11}
 $$
 
-不得把 LP 的 $\rho_{\mathrm{LP}}$ 当作 (11)。将返回辅助变量上调到 (11) 不改变 $p$、$h_\infty$ 或任何 hard/box 行，且满足全部范数约束及全部已有 supporting cuts。最终以实际修复后的完整数组再做原单位 residual 检查。浮点实算只给浮点可行性声明，不授区间证书。
+不得把 LP 的 $\rho_{\mathrm{LP}}$ 当作 (11)。实现把辅助变量保守修复为 $\widehat\rho=\max(\rho_{\mathrm{LP}},\rho_{\rm aff}(p))$；即使某次 LP 返回非最小的过大辅助值，也保留其原值和有符号差，不默认它等于 (11)。修复不改变 $p$、$h_\infty$ 或任何 hard/box 行，且满足全部范数约束及全部已有 supporting cuts。最终以实际修复后的完整数组再做原单位 residual 检查。所有预测仍只用 (11)。浮点实算只给浮点可行性声明，不授区间证书。
 
 记录
 
@@ -163,14 +163,16 @@ $$
 
 所有 inner HiGHS 调用都立即计入原共享 12 次 LP，包含初次 primary、切面修正和原 SOC。每次调用仍受原每 LP 10 秒及剩余共享 120 秒中的较小者控制。所有 cut 构造和范数评价也算新阶段 active wall time。原两网 value 上限 40 不增加。
 
-仅保存已经通过原单位 LP residual、原物理 step/box 检查，并将 $\rho$ 按 (11) 上调后的候选。以修复后的原目标 $\rho_{\rm aff}+\text{weight}\,h_\infty$ 选择当前最好候选。不能把零步自动当 reserve 可行 incumbent：原 strip/curvature proposal floor 可能使接受基点本身不满足更强的 proposal RHS。
+仅保存已经通过原单位 LP residual、原物理 step/box 检查，并将辅助变量修为上述 $\widehat\rho$ 的候选。以真实修复数组的原目标 $\widehat\rho+\text{weight}\,h_\infty$ 选择当前最好候选，并独立记录 (11) 的预测。不能把零步自动当 reserve 可行 incumbent：原 strip/curvature proposal floor 可能使接受基点本身不满足更强的 proposal RHS。
 
-若因 3 次内层上限、剩余共享 LP、wall、重复 cut 或数值失败停止：
+若因 3 次内层上限、已读到的剩余共享预算、重复 cut 或原求解器正常返回失败状态而停止：
 
 - 已有合格候选且 $\rho_0-\rho_{\rm aff}$ 超过原 improvement floor 时，可以返回它，但必须标明有限模型 gap 未达标及停止原因；预测只用 (11)。
 - 没有这样的候选则返回具体失败/模型停滞，保留最后实际接受点；不把 LP 下界改善当实际模型下降。
 - 不补发旧 primary，不扩预算，也不把内层 cut 数计为免费操作。
 - 若剩余最后一次 LP 已用完，允许按原流程评最后一个已形成 proposal；不能再发 SOC 或下一 LP。
+
+若原 wall guard、求解器或修复 residual 检查直接抛出异常，继续走原 outer 的最后真实接受点保存路径；这种路径不声称返回已形成的 proposal。已经开始的 inner LP 及其原错误仍保留在共享 ledger 和当前模型记录中。
 
 算法不保证比旧 scalar LP 更快；本次实验的决定性信息是同样预算下的真实下降、所需切面数、原模型误差两项和新增真实行的分账。
 

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`72e56747067de9020306d4db85c4cca2161a3378`；时间2026-11-15 14:01:33 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`102114cd91efc2e64e8da27782014859121040b2`；时间2026-11-15 14:03:44 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 13:23:05 UTC重新partial/sparse clone并实际pull/read `40e920acc0814538592075cf2a6dfa3bfb691b78`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -23,7 +23,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **159因子化首actual完成**：[完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)，43716860154/a7bb0a16/job132820200829。三新开发组全过6.57835秒；唯一新stageη.2664285858004584→.2663989905276839，两网14原门/精确物理盒过，.26/1e−4未达。11primary+1SOC、10新接受、26共享值+2末验；active43.32511秒，新audit48.67288秒；七必要恢复1175.76681秒各一次，不能算新下降。新coarse/fine选J7.32903/15.96631秒，虚轴≤27，full163/159向量J张量0；旧父projection说明标签过时，历史原件不改，不宣同点加速。m5SOC17守卫全真持B.000125，m6确用但ratio.11484缩半；m8新增1+5行且fineη升而拒。下一新模型处理实际预测缺陷，不延12LP/120秒或重跑同stage。首43716207246只人工fixture漏known_fine_metric_locations，0科学；失败与最小修复仍保原note。45/97源及24输入核对全合。
 
-**仿射谱模型设计已发、未执行**：[方案](notes/affine-spectral-metric-model-design-20261115.md)。保φ±范数曲率，只仿射化e/f；同159/163/原门。cuts每outer≤3且全计共享12LP/120秒；返回完整rho_aff修复，原SOC保真实rho_lin(p)较严格RHS。候选base-total统一实际总步的affine预测，新增两误差/遗漏行/εbias账。八必要恢复各一次后唯一新stage；新源码与公共开发准备中，不追认m6原因或称passed。
+**仿射谱首运行已接线，待公共实际**：[设计](notes/affine-spectral-metric-model-design-20261115.md)/[五源与执行计划](notes/affine-spectral-implementation-and-first-public-run-20261115.md)。50源/98args/24输入绑定；先全新人工，再八必要恢复各一次和唯一新stage。保同159/163/Field/H/reference/原门/池/容量/实际末控制器，cuts每outer≤3全计12LP/40值/120秒。rho_aff预测与rho_hat修复分账，原SOC仍真实rho_lin(p) RHS；候选用实际总步。完整记录两误差/遗漏行/εbias及inner LP，不把旧m6原因追认为已知。本地无新运行，公共passed/actual待消费。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -34,8 +34,6 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右三常数/左尾；43712266529八新人工已过不重。全Rp0=(R71∩kerπ)+B(E,χ8)，不可删首项。R259/263的72全角条目和81有序状态非rank；右inner三矩0才消cross，12完整copy付36odd，平移≤10和内部history均保。
 
 **R267/270/271/273旧有限圆**：三矩/全third/六能量、若干even及36odd已付；完整证明见results。R275严格排原小h双斜率族full面积，不再加位置重试；R278用真实第三斜率gap包脱离原半平面，但仍非full，保备选。
-
-**R278第三斜率真实新方向**：加入a²/b²=1的有限gap包，Dreal不变，保全部原future尾得ΔS0、Δ(Z/k)=−Σμmid J(xDreal)<0。五gap簇同low宽q的严格正权配0/2/4矩，准确支付新增local even预算；r>0新高坡和原四变量真IFT保三矩/全third/六能量及指定旧面积。固定有限n/r/h后取大有限Λ/N，再δ小，负响应δA^(3/2)超过旧δA，得S>0>Z/k并保Q±，可正幅付Q0。仍ΔY1=ξ0Δ(Z/k)，另Z even保Rshape总项，不能冒独立控制或full面积。
 
 **R277/279/280新圆已付全部Gaussian与六能量**：全self平移系数/3矩为真C²多项式F；最初选光滑最大秩母包，真minor+ker等式保完整F，不假旧纤维正则。等B、R∈{−B/2,8B}有限格点先付30even/36odd。R280保完整self/Green消对称核，余六式恰由A01/A02/A12三有序矩面积给出；交换17进制R与TM符号两层真实编码，累计平方界给A01双号。五最终完整block正四次权以实际平移律联合清三面积，所有72原条目准确零，非rank。全部位置/权先固定，再逐block用R279三真实high–low–high向量的正balance、同F N^-3扰动和完整能量C¹收敛，选一个有限N的准确根付Lc/Mc；odd与共振一般身份给六识别能量全0。未枚举巨量序列，非数值候选。**下一十个对称二history乘积、四个一层及零层原系数，另有canonical period/同w ruling；面积零不自动支付这些门；解析端由下述R281适配，实际系数仍欠。**
 

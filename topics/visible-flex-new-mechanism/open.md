@@ -24,7 +24,7 @@ H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合
 
 [选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
 
-[新仿射谱模型设计](notes/affine-spectral-metric-model-design-20261115.md)已完成：保φ±范数凸性，只线性化原e/f，同159/163/原硬门；cuts全计共享12LP/120秒，返回用完整rho_aff修复，不冒LP下界。SOC仍原rho_lin(p)预算，所有候选base-total用真实总步的affine预测。新增两项误差与遗漏行账，消费原缓存不增值调用。新源码/开发准备中，下一仅公共Actions先新接口再一次新stage，八必要恢复另账；未判m6主因，未宣通过。
+[仿射谱五源与首运行接线](notes/affine-spectral-implementation-and-first-public-run-20261115.md)已冻结50源码/98参数/24输入。只仿射化e/f并保谱norm曲率，cuts全计原12LP/40值/120秒。公共首次新开发后八必要输入各一次、唯一新stage；没有本地新运行或passed结论。下一消费所有新开发原结果、两网原门/盒/eta/费用和逐trial两误差/遗漏/ε、SOC同step两预算及实际controller，不重复旧factorized科学或冒m6主因。
 
 ### 仍须支付
 
