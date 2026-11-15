@@ -359,3 +359,7 @@ root亦按SHA读实际artifact过程d100e7e6f7b2c7b961c3b4e0997381a7cdedca7a273c
 ## 2026-11-15 03:27:17 UTC — 全部5970同F方向矩阵覆盖
 
 root独立核读finish process0c832fe8…24106B、summarybd555a3a…1758B与报告ce8a4949…。32范围全成功，finish child0/7门/10.000623207s；原4行逐字复用+5966新，0旧target/validator，native7e1a5709…46,431,200B/原24lossless片与大数组保持原Actions来源。四真实pull末03:21:36.700168→9acb539da7861c3cecf0256575759015899a1266，两README diff空。新Green43672023585已启动，完整全局逆/未知high/参数不因局部覆盖授予。只读README核011a9fb1c9f91939b0b7148c95842cf0efee668c；结论立即独推。
+
+## 2026-11-15 03:30:11 UTC — 实际连续源回原强尾域
+
+独立全文核S1–39：S7两行Jacobi、S17真实holonomy导数、S20–32全未来charge/三段账与source范数顺序通过。发现半角宽R_j中Galerkin J也变，代理修正Rnew≥2^-10Rold并统一用2^-15、review小球2^-24；无其余数学改动。最终54c51dc2a9f0a8b31469e434c519488c654ec0ec0ca63ef770c16c8377cc05e1，完整源回原Xβ<2^400000(Y*²+X||b||β)，仍保finite外口/两mean/height/Γ lift。原95f077草稿与3a4bc8修正版未混同；最终只状态文字修改为已证明。外analytic224和全部global matching继续。只读README核fa53356cffee78df252db488d5445726ca764009；结论立即独推。

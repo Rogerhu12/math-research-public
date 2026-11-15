@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 03:27:17 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 03:30:11 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只用public Rogerhu12/math-research-public及自己的Actions；新数学不得本机/代码模式求值。每结论独推；非FF立刻真pull --rebase重推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。根规12不另设冻结/审批门。
 本机最后真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。root已核最新runner真pull：2026-11-15 03:21:36.700168 UTC 9acb539da7861c3cecf0256575759015899a1266（同F finish process0c832fe8…）；cap03:17:50.561671→8f65c7d81629b02bf1f365c5f6a633a26826f95b，均两README diff空。
 21:48起CLI报No usable execution environment；根规8仅connector<100KB UTF8文本，禁binary/gzip；只读ref不算pull。runner10min真pull，phase45/50min前后pull；终端恢复立即真pull核差。
-最近只读README核：011a9fb1c9f91939b0b7148c95842cf0efee668c；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：fa53356cffee78df252db488d5445726ca764009；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout /workspace/scratch/0df957a82d09/math-research-public（→/tmp/visible-exact-0df9-workspace/math-research-public），原AGENTS无。H9669B完整存notes/2026-11-15-handoff-before-actual-full-cap.md，包含前H9990及更早完整链；旧open29021在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md，旧log在notes/2026-11-15-log-through-inner-source-deployment.md。成功科学与出版失败分记。
 
 ## 同一对象和总完成门
@@ -35,11 +35,9 @@ actual ed1e4b7c…：rootpiece全源负<1.264156e6/正<9.358131e9；完整R.001�
 
 ## 外返回、新简单根和闭网络：tail_connector
 
-同R/η/bump新stop6460b0ae，A/P/N/O/F/J/C、全mean/两weak/参数原生身份和旧失败链见前H9797B及各原证明，旧三根逆不转授。真实五盒公共点好测度>1−93/16384；浅cut=max(Tj,2^131072)、深≥8193、邻Ω比<2^20、fixedCR v_t=M²v/mean0、actualR仅norm2。
-Y1–28/f6ac5411…双逆权mixed差<2^-5800000。Z1–28/897a09a9…完整强source解h=g+ΔS(cλ+R0h)，La g=0恰totalflux兼容，常高度唯一核、gauge逆<2。B1–28/7d1f7b1d…全4Z cap–long保真B0/wR²，完整L2反馈<.9；径向角规范及四quarter位置周期另证。L1–28/fba382d3…物理cap–tail用H^-3/2，Cf2^40/QZ2^64 sBε/TB2^1200000/sB，反馈<2^-32000000，真远端源根H1另付。
-U1–28/a31da63d…完整0≤s≤1024窗：B*=2^65536，Tsharp=max(2^1048704J²δ^-9,2^1056768)，vsharp=2^-600000J^-4165δ^(1073/32)，同公共点补齐remaining频带；mixed差<2^-4300000，强source/mean逆<2，物理η0δ0帽反馈<2^-31000000。全B0/C0、raw cB、totalflux辅助τ及高度gauge保。
-D/P/K（655a89d3…/a4bab7cc…/b22c900a…）已证完整强层、有源二jet与fixed-t ordinary入口：root W_-2H8<2^1600000G；真实root/graph/strict/positive源和weak两迹保，graph不除ζs。S_t1026<2^16384 S2β，完整物理C²<2^3400002J20δ22(外G+εCρ,ε S_t)，全部浅前缀/δ8192^-485/4/Cartesian尺度另保。有限阶输出尚不返analytic224；metric/Γ weak端迹、fullδ/ν非线性继续。R另付实际反射类原F规范相位与waist Bmean恒零，非zero腰行保。
-Q1–27/f7c6f758…新证：完整Taylor普通余项与两Γ metric源；先取已知参考height hψ_t=awψ，剩余源为nψt+n²ψ。原六项邻胞N6<2^132C#后，DΓ真联合Cauchy给S_t<2^200000X||dot a||224，固定metric余项<2^200000Y*²；两mean/实际height与flux端列全保。仅给原strong方向的输入域，K输出尚不保证下一轮同域。A1–20/8aeb9aab…已严格排除泛源角阶升δ150：真实Q7紧支mean的S^(s)全有界却二jet≈δ128；固定m4齐次真尾≈Λ4^-j，2^132<Λ4<2^133，含完整闭兼容源。H2048仅remaining多δ128，未支付全2048门。实际Q余项Cj²、metric lift后nψt+n²ψ是更小源域；继续以原C.44强向量源和真实低核恢复可迭代域，ζ131/profile不改。
+同R/η/bump新stop6460b0ae；旧身份/失败链与Y/Z/B/L/U/D/P/K完整常数见H9669归档及对应全文。Y双逆mixed<2^-5800000；Z两mean强source/常高度gauge逆<2；B全4Z cap–long反馈<.9，仍非嵌入。U全0≤s≤1024完整公共点、Tsharp/vsharp/浅深前缀保，mixed<2^-4300000、帽—尾反馈<2^-31000000。D/P/K保root/graph/strict/positive两weak与普通源，S_t1026<2^16384S2β，实际C²<2^3400002J20δ22(外G+εCρ,εS_t)，有限Sob输出不自动为analytic224；两mean/charge/height/Cartesian尺度全保。
+Q1–27/f7c6f758…精确ordinary二次余项和两Γ参考height lift后nψt+n²ψ，六邻胞费与DΓ真联合Cauchy全保。A1–20/8aeb9aab…排除泛源角bootstrap强径向衰减：mean二jet≈δ128、m4真尾Λ4在(2^132,2^133)，H2048仅remaining改善；ζ131/profile不改。
+S1–39/54c51dc2…已证真实连续Jacobi源返原强域：h→h/2同时重付Galerkin J，Rnew≥2^-15Rold，小球2^-24；ω=√(1+|Q|)、两向Cauchy<2^4096J8δ^-30，角损<h/128。完整charge χ_t=w²〈JD^-3/2 e〉/跨胞唯一height保，Tsharp源范数用全胞和支付Σm supj。实际Cj²二次与selected两DΓ余源→原Xβ<2^400000(Y*²+X||b||β)，含全部浅前缀/两尺度缝。仅使用精确tail chart迭代；forced输出h/8不自动重复输入h/2，外closed inverse的analytic224仍需闭合。
 
 ## 完整角规范与残差桥：root
 

@@ -119,3 +119,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 2026-11-15 complete5970 same-F data finished
 
 43654510038 的32范围及finish真实全部成功，原4+5966覆盖全部5970闭区间，同F逆误差/完整signed源和输出Gram/真实Q及ρ端点全保（[实际报告](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)）。数据生产子项闭合；Green43672023585已实际启动，继续双扫坐标、所有真实graph舍入跳跃、完整waist/regular mean边界及独立cut迹，再连接Poisson/Wcap。
+
+### 2026-11-15 actual quadratic/Gamma source strong-tail return
+
+S1–39已闭合实际ordinary源回原强endpoint域（[全文](results/R119-supplement-complete-continuous-Jacobi-strong-sources-and-actual-quadratic-tail-return.md)）：直接fixed-t两向复角Cauchy、真实profile积分/变差、全未来mean charge和唯一跨胞height，实际Cj²与selected DΓ余源给Xβ<2^400000(Y*²+X||b||β)。源范数通过全胞和支付sum_m sup_j，全部浅前缀和两个尺度接缝保留。继续精确tail chart与外部closed inverse的同analytic224接口；不把forced输出h/8自动当作无限重复输入h/2。
