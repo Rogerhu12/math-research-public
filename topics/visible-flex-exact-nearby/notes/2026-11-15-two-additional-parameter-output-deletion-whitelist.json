@@ -1,0 +1,90 @@
+{
+  "kind": "metadata_only_two_additional_reproducible_output_deletion_candidates",
+  "repository": "Rogerhu12/math-research-public",
+  "immutable_restore_commit": "da6b6e3ae229bdcc6a59dbe42e8654c6845a3a81",
+  "verified_tree_chain": [
+    {
+      "path": "",
+      "git_tree": "3bb7c4d56e796790d1d4bf80635c5783beaed6c8"
+    },
+    {
+      "path": "topics",
+      "git_tree": "15f69bb99201806b8c80d62fef9821f509d83ef8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby",
+      "git_tree": "1e1c78b3541000f31ae0fe6b472487ccf82b92b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data",
+      "git_tree": "06c367892dbefff7e37230b9fac1731c90a6d205"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation",
+      "git_tree": "b7e786ded43d139e29ef7545f1cc522b41a79d7b"
+    }
+  ],
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density419_Q384_center.json.gz",
+      "git_blob_sha": "9be443d8069670a37c0359c4f43c88e4518980f9",
+      "bytes": 245827,
+      "sha256": "0af4af95284a5c6d9adc038f505f57d8b082b4a804978007123085bee76fc9eb",
+      "classification": "completed full segment419 Q384 centre parameter-density output; not an input seed",
+      "original_success_scope": "same exact affine delta5; all time-circle nodes, analytic double tails, finite DFT, exact dyadic selection, deletion tail, reference composition, true caps and spatial derivative costs completed; whole forward return not claimed",
+      "producer": "topics/visible-flex-exact-nearby/scripts/fourfold_parameter_density_pipeline_efficient_v4.py",
+      "producer_sha256": "7cd6b61fed53602353e0d18f9ebee8a5f9942b8244fb35b3fb6b37757730df3e",
+      "original_command_from_retained_note": "python scripts/fourfold_parameter_density_pipeline_efficient_v4.py --primitive-nodes 384 --target 1e-9 --directory data/phase_ring_continuation/step5_parameter_density419_Q384_center --out data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density419_Q384_center.json.gz",
+      "classification_primary": "topics/visible-flex-exact-nearby/notes/2026-11-12-efficient-parameter-Q384-and-prefix10.md",
+      "identity_primary": "topics/visible-flex-exact-nearby/notes/2026-11-12-efficient-parameter-Q384-prefix10-ready-manifest.json"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_forcing419_pilot.json.gz",
+      "git_blob_sha": "639eea7b7095a6da33a8acb0b8d1b1f7026170f1",
+      "bytes": 207429,
+      "sha256": "fb5018fb1d6d24c8072062c4b49c852f3c3ee17c506ce452bb5742f2069001de",
+      "classification": "completed finite-node true parameter-source pilot output; not an input seed",
+      "original_success_scope": "exact delta5, true physical fixed-tau parameter tube radius1e-14, Q512/256bits, forward419 three time nodes with64 angular labels each; no continuous integral, alias or twist claim",
+      "producer": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_real_parameter_forcing.py",
+      "producer_sha256": "7c1d1393cf32b8d5e98f8f3cbb2963e2b04deeaa8cc7a19dedf41e607cc3b632",
+      "original_command_from_retained_note": "python scripts/fourfold_phase_real_parameter_forcing.py --out data/phase_ring_continuation/type_fixed_step02_d5_step5_real_parameter_forcing419_pilot.json.gz",
+      "classification_primary": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-parameter-forcing-interface.md",
+      "identity_primary": "topics/visible-flex-exact-nearby/notes/2026-11-12-R80-actual-parameter-source-frozen-manifest.json"
+    }
+  ],
+  "exact_metadata_total_bytes": 453256,
+  "primary_receipts": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-efficient-parameter-Q384-and-prefix10.md",
+      "blob": "7d42cb532808ddd2e79d11f513dcae470fa3170a",
+      "bytes": 3642,
+      "sha256": "bfe161d5e2704f25c41feff765a3a94bc3b2e583ad93ca9dce5f0ecf2e05c732"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-efficient-parameter-Q384-prefix10-ready-manifest.json",
+      "blob": "acdc9072df31321b03d8775cf4b6ab9a9809d474",
+      "bytes": 83484,
+      "sha256": "d6942945d0bd30ac26fc48e3a468f2f1e41745e7f73c3f3b47e9b8001937b2b8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-parameter-forcing-interface.md",
+      "blob": "3479bb578bd4c3bd2c4c04e28703fa15fadc0f9d",
+      "bytes": 3309,
+      "sha256": "55446f4b8df8bd10ee299e76ae3e14b60cc730e574471ed8fafe50f84cd203ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R80-actual-parameter-source-frozen-manifest.json",
+      "blob": "99cfeede8464348b8017e5ccd09e856642e4024a",
+      "bytes": 2468,
+      "sha256": "c3f940dd6c0675364005028a38cef67e55a5446a089e7793481bf158ac7e34ce"
+    }
+  ],
+  "original_binary_or_gzip_bodies_read": false,
+  "new_scientific_computation": 0,
+  "previous_deleted_files_repeated": false,
+  "input_seed_arrays_included": false,
+  "original_scripts_parameters_small_conclusions_and_failure_proofs_retained": true,
+  "candidate_only_no_deletion_performed": true,
+  "proposed_deletion_kind": "ordinary commit only; no history rewrite",
+  "restore_instruction": "Restore exact original path from immutable_restore_commit using git show into the public runner temporary directory and verify original bytes/SHA; do not recompute completed mathematics"
+}

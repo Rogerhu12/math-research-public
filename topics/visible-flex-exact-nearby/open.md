@@ -213,6 +213,7 @@ full moving-state C0≤1e−4、|δν|≤1e−5，并真正解全部B/C/Cmean、
 
 规则15继续普通删5件旧R59/R6/RMS可重算输出920170B，见[五件精确清单](notes/2026-11-15-five-additional-old-output-deletion-whitelist.json)。恢复ec6c38bc8cc9bfedfc50c7a1d4eddac5c5dfe561:原path并核bytes/SHA；代码、参数、小结论与失败说明保留，禁止重跑成功数学。
 旧R57/R56/R80/后7件所有成功删除/恢复链保ec6c38bc同open/H及原清单；各新消费者实核200MB。
+继续普通删两旧参数输出453256B，见[两件完整清单](notes/2026-11-15-two-additional-parameter-output-deletion-whitelist.json)。restore da6b6e3ae229bdcc6a59dbe42e8654c6845a3a81同path并核bytes/SHA；原成功仅原域，脚本/参数/小结论/失败不删、不重跑。
 
 每结论独推；非FF马上真pull --rebase再推到成功，禁force。
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
