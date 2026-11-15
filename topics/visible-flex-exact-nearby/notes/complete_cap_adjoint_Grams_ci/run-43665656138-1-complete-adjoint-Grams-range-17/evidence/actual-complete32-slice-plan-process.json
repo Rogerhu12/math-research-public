@@ -1,0 +1,370 @@
+{
+  "kind": "actual_public_complete7908_cap_adjoint_Gram_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43665656138",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "f06f846013fa716843573bcc2da143f10cbb94ba",
+  "worker_source_sha256": "86c2a02bd23eb146fbe4ee4c61cb2fd98d35110c36fde8eed1d6f426e73efed7",
+  "started_utc": "2026-11-15T02:00:50.526538+00:00",
+  "children": [
+    {
+      "label": "prepare_exact_original32_slices_without_target_or_trial_recomputation",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/complete-adjoint-plan-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py",
+        "--phase",
+        "plan",
+        "--input-index",
+        "/__w/_temp/complete-adjoint-plan-work/exact-original-complete-adjoint-inputs.json",
+        "--proposal-arrays",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/proposal-state",
+        "--pilot-arrays",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cap-adjoint-Gram-pilot-43664278200-1/matrices",
+        "--bundles",
+        "/__w/_temp/complete-adjoint-plan-output/bundles",
+        "--out",
+        "/__w/_temp/complete-adjoint-plan-output/native/complete7908-cap-adjoint-Grams-plan.json.gz",
+        "--proposal",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/native/complete97-cached-physical-adjoint-proposal-v2.json.gz",
+        "--proposal-process",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cached-cap-adjoint-proposal-v2-43662865692-1/process.json",
+        "--background",
+        "/__w/_temp/complete-adjoint-plan-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+        "--local",
+        "/__w/_temp/complete-adjoint-plan-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+        "--pilot",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cap-adjoint-Gram-pilot-43664278200-1/native/complete97-ordinary-cap-adjoint-residual-Gram-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/complete-adjoint-plan-work/original-public-inputs/visible-exact-cap-adjoint-Gram-pilot-43664278200-1/process.json"
+      ],
+      "started_utc": "2026-11-15T02:01:19.316173+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 110.00336057899995,
+      "finished_utc": "2026-11-15T02:03:09.320098+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T02:00:51.643073+00:00",
+      "before": "82515c99256f9e1f6c69f656b9038d0ae7668d76",
+      "after": "5a527b6c7d9bfcd0c275af30850643b168568c78",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:01:17.786433+00:00",
+      "before": "5a527b6c7d9bfcd0c275af30850643b168568c78",
+      "after": "a1e225eaeddf62309756ebb361a48fbcc11ef7a6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:03:10.651379+00:00",
+      "before": "a1e225eaeddf62309756ebb361a48fbcc11ef7a6",
+      "after": "aeb1f48ecf8bb021e5090d4903810bd4d9b76b3a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T02:03:12.607282+00:00",
+      "before": "aeb1f48ecf8bb021e5090d4903810bd4d9b76b3a",
+      "after": "d9b255f2c484fe5a06cd29fca972c3a0af48ff27",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T02:01:19.313734+00:00",
+      "final": false,
+      "commit": "6e82152e600df7502990279cff3c6768ced3ebb8"
+    },
+    {
+      "time": "2026-11-15T02:03:12.286262+00:00",
+      "final": false,
+      "commit": "d9b255f2c484fe5a06cd29fca972c3a0af48ff27"
+    },
+    {
+      "time": "2026-11-15T02:03:13.986148+00:00",
+      "final": true,
+      "commit": "778a57564ca403c6e91ec3901a08422c5c5d2f10"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "plan",
+  "complete_matrix_run": "None",
+  "complete_matrix_attempt": "None",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "new_array_storage": "original public Actions artifacts only",
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "group": null,
+  "original_pilot_run": 43664278200,
+  "original_pilot_native_sha256": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+  "original_targets_or_adjoint_trial_recomputed": 0,
+  "exact_original_four_pilot_quarters_recomputed": 0,
+  "original_arrays_and_new_Grams_stay_in_public_Actions": true,
+  "successful_scientific_rows_preserved_after_publication_failure": true,
+  "complete7908_adjoint_cover_proved": false,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "input_manifest_sha256": "baf3a42869c52ac0158ec6aac709aebced64a06efda8a8ea6d52939da71f1df5",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "d9b255f2c484fe5a06cd29fca972c3a0af48ff27",
+  "immutable_scientific_copy": "/__w/_temp/complete-adjoint-plan-work/science",
+  "exact_recovery_scope": {
+    "phase": "plan",
+    "group": null,
+    "source_sha256": "6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d",
+    "manifest_sha256": "baf3a42869c52ac0158ec6aac709aebced64a06efda8a8ea6d52939da71f1df5",
+    "original_pilot_native_sha256": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+    "original_proposal_native_sha256": "acb2151b60f24ad88b30e6f7d1d966851abc53c15e45df19df2bfca27c2393c7"
+  },
+  "actual_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "repair": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "quarter-plan": "406e3e5331720a3f87f2b5f53c2e7d2988bea25b7537d650157ed97278e3073a",
+    "quarter-plan-process": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43",
+    "quarter": "770106a925812df4fc380785ca3e715b2a30a649a355fb888e0dcbe0e6a65298",
+    "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
+    "native-points": "41156aa8ac5b124b2ccca96e2f52b210edf1a3f5c170fdf839e66bf0602725b8",
+    "native-points-process": "e773364b578f4dae3f7f420cf75a223052d1b2a469e3de1d291a5ac3a68ee4ee",
+    "range-0-256": "02cfd7c9945180adcdb208f0e6101b3c9da37c0deca8b012160c89ea7148ccb8",
+    "range-0-256-process": "ae5ae042e6983fcb66cac83b12b066758baf58944af487f541f6eeda003ecb34",
+    "range-256-512": "04bff7029a899685af2a4ae9326041a07168242a8c892d60e505c1b5ca8a2137",
+    "range-256-512-process": "c892d2c8322a4635afc4d9007e47a686571c379d362f00ab45f0d3ef31499dd2",
+    "range-512-768": "59b665075652821572996a2bb4b38a380cce787e8138ed71ddcc92663bc53788",
+    "range-512-768-process": "962a963da1ce117e461a3cd658c4769f59bd12d0a91cd0eed317bcc638d42a35",
+    "range-768-1024": "bb8f593e21e9eedaf0f173f3c29c833944198eb220c44c262dd438e966e7145e",
+    "range-768-1024-process": "55908efe12ab21cf84c29e670f487912ecbec038a143a9b56f47a2e2bbc3f32a",
+    "range-1024-1280": "5afd5f617fc85b669d3e8018043ed312b7e30ae10c11c011be0c939e1c29476a",
+    "range-1024-1280-process": "3976469661b5c53894ca8982ee5f3c2faa9e1111051e434eb510fc13da8e1da8",
+    "range-1280-1536": "d3945ab69d90dddaec660e369e4982a3e1eb04243c4b555557b2711a3d127b79",
+    "range-1280-1536-process": "6a744fabd4ba9ef3b35e58bfe6f40d45d1c131550d72de6cb0b005835ad36ef6",
+    "range-1536-1792": "3d00b805eb79489f23b8e7fcc44115aea3bc0305dd9ed7ba9ca986838175c881",
+    "range-1536-1792-process": "20b69a27f551a6fe434eb537ad763d1578876eb9907b2ff269f6c46aaaebb271",
+    "range-1792-1977": "0a4ef5ee7924839bcc53ccf04fe85d8011c865b25a10eba59a66553331a14563",
+    "range-1792-1977-process": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782",
+    "background": "35db98d4124d50ef3bd69f3ec3aa6906289e3f6083c3ba91c8197da7547830ff",
+    "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
+    "proposal": "acb2151b60f24ad88b30e6f7d1d966851abc53c15e45df19df2bfca27c2393c7",
+    "proposal-process": "44b6d5c74961398f39234d37a2215af506cad72403adb3fc97ef39f0f262e42f",
+    "pilot": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+    "pilot-process": "643fd671a175b66c1808a04f3ca1490e8b3856acc2f14f9ecfc734d942f14002"
+  },
+  "snapshot_utc": "2026-11-15T02:03:12.674565+00:00",
+  "wall_seconds": 142.149023575,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
+      "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
+      "bytes": 2112,
+      "sha256": "10ff5f5b0a4d434ea887b521e5a396b25fc256fc71b192ca512d4c9d58286034"
+    },
+    {
+      "logical_file": "evidence/complete-adjoint-Grams-plan-summary.json",
+      "file": "evidence/complete-adjoint-Grams-plan-summary.json",
+      "bytes": 4662,
+      "sha256": "865401e7def43751c782066c1f620b6957b39bbc1ec033133649b1a4868e2451"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125124920.json",
+      "file": "evidence/original-artifact-downloads/14125124920.json",
+      "bytes": 534,
+      "sha256": "f04e75611ee9ddf0e661ea72d25e498f1328ff6bd81782ea27f68b5bfb573477"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125261105.json",
+      "file": "evidence/original-artifact-downloads/14125261105.json",
+      "bytes": 524,
+      "sha256": "46d30c0666efc8b313f7d7cac727a8367c634a21ef70b61ca3602e41eb70b7ce"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125388223.json",
+      "file": "evidence/original-artifact-downloads/14125388223.json",
+      "bytes": 533,
+      "sha256": "cd00f0a22cbb13fc6af1a22a57252a3ee735bc1f35230eefb7b1af00a5be6c9d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125634227.json",
+      "file": "evidence/original-artifact-downloads/14125634227.json",
+      "bytes": 534,
+      "sha256": "35b46e04d5caacc6c55ebe57cddbdd2a23933be83ce9280b79a5926b13114247"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125689191.json",
+      "file": "evidence/original-artifact-downloads/14125689191.json",
+      "bytes": 534,
+      "sha256": "6af0b645561ff04d1521c361b9f90bbe87bc0470d5e3cf5ae19f577442bb8a90"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14125908545.json",
+      "file": "evidence/original-artifact-downloads/14125908545.json",
+      "bytes": 532,
+      "sha256": "224d3e29873e2f22d5ff0f7190ba7533f02ebdc8759ac1c8d4d0b8f8a0b22e75"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126180206.json",
+      "file": "evidence/original-artifact-downloads/14126180206.json",
+      "bytes": 532,
+      "sha256": "e2fa6a422692f7f80c3e48cd5a8a306f436378ce493b4f25b6689b9abc90a8b7"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126423123.json",
+      "file": "evidence/original-artifact-downloads/14126423123.json",
+      "bytes": 532,
+      "sha256": "a779e6706411d7b1462ce32df36fd93f4859fe2e2b5f7f895bd241c7d2779dc6"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126599359.json",
+      "file": "evidence/original-artifact-downloads/14126599359.json",
+      "bytes": 528,
+      "sha256": "fe40a0164b2069b1090be32750d10c43e8d1cea0d700932a11bc93be3d732b3d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14126660303.json",
+      "file": "evidence/original-artifact-downloads/14126660303.json",
+      "bytes": 536,
+      "sha256": "4c5692f1abba4d62d343c7e8ac26b743bf5c39da1632ffbbab8d80311dfcf237"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14130321022.json",
+      "file": "evidence/original-artifact-downloads/14130321022.json",
+      "bytes": 527,
+      "sha256": "f4fb731011f9cfb91ddd34b9abde248a900db1ab134e2176fb615b05284d5e5d"
+    },
+    {
+      "logical_file": "evidence/original-artifact-downloads/14141059620.json",
+      "file": "evidence/original-artifact-downloads/14141059620.json",
+      "bytes": 521,
+      "sha256": "df61ba429cc2e6ee5f5bcdc06c68a6c44f6bdb7de1f048e95f15ce3b283de173"
+    },
+    {
+      "logical_file": "evidence/original-complete97-adjoint-artifact-process.json",
+      "file": "evidence/original-complete97-adjoint-artifact-process.json",
+      "bytes": 20714,
+      "sha256": "44b6d5c74961398f39234d37a2215af506cad72403adb3fc97ef39f0f262e42f"
+    },
+    {
+      "logical_file": "evidence/original-complete97-adjoint-selected-download.json",
+      "file": "evidence/original-complete97-adjoint-selected-download.json",
+      "bytes": 645,
+      "sha256": "78ffbbc6d93be22e7fc3056255e41d712aa9b4fb6a6cca5dc1c5c90db82e944c"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-plan-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-plan-43623547711-1.json",
+      "bytes": 11904,
+      "sha256": "82a44b78e3e3af3e0b1285a828a7aba2026dcc5b04001996bd228243baccca43"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1024-1280-43623547711-1.json",
+      "bytes": 10390,
+      "sha256": "3976469661b5c53894ca8982ee5f3c2faa9e1111051e434eb510fc13da8e1da8"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1280-1536-43623547711-1.json",
+      "bytes": 10083,
+      "sha256": "6a744fabd4ba9ef3b35e58bfe6f40d45d1c131550d72de6cb0b005835ad36ef6"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-1536-1792-43623547711-1.json",
+      "bytes": 10083,
+      "sha256": "20b69a27f551a6fe434eb537ad763d1578876eb9907b2ff269f6c46aaaebb271"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-256-512-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-256-512-43623547711-1.json",
+      "bytes": 9142,
+      "sha256": "c892d2c8322a4635afc4d9007e47a686571c379d362f00ab45f0d3ef31499dd2"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-512-768-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-512-768-43623547711-1.json",
+      "bytes": 8827,
+      "sha256": "962a963da1ce117e461a3cd658c4769f59bd12d0a91cd0eed317bcc638d42a35"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1.json",
+      "file": "evidence/original-processes/visible-exact-complete-quarter-cap-range-768-1024-43623547711-1.json",
+      "bytes": 8369,
+      "sha256": "55908efe12ab21cf84c29e670f487912ecbec038a143a9b56f47a2e2bbc3f32a"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-missing-native-point-Hessian-43635264409-1.json",
+      "file": "evidence/original-processes/visible-exact-missing-native-point-Hessian-43635264409-1.json",
+      "bytes": 24191,
+      "sha256": "e773364b578f4dae3f7f420cf75a223052d1b2a469e3de1d291a5ac3a68ee4ee"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-finish-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-finish-43626024582-1.json",
+      "bytes": 16508,
+      "sha256": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-0-256-43626024582-1.json",
+      "bytes": 10051,
+      "sha256": "ae5ae042e6983fcb66cac83b12b066758baf58944af487f541f6eeda003ecb34"
+    },
+    {
+      "logical_file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1.json",
+      "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1.json",
+      "bytes": 9086,
+      "sha256": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+    },
+    {
+      "logical_file": "evidence/original-successful-four-quarter-pilot-process.json",
+      "file": "evidence/original-successful-four-quarter-pilot-process.json",
+      "bytes": 18714,
+      "sha256": "643fd671a175b66c1808a04f3ca1490e8b3856acc2f14f9ecfc734d942f14002"
+    },
+    {
+      "logical_file": "native/complete7908-cap-adjoint-Grams-plan.json.gz",
+      "file": "native/complete7908-cap-adjoint-Grams-plan.json.gz",
+      "bytes": 525421,
+      "sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32"
+    }
+  ],
+  "actual_completed_bundles": 32,
+  "actual_completed_quarters": 0,
+  "latest_scientific_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+  "complete_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+  "actual_scientific_gates": 5,
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-15T02:03:12.326594+00:00"
+}
