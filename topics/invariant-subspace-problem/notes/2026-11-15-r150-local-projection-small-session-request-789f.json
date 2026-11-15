@@ -1,6 +1,6 @@
 {
   "format": "isp-independent-small-local-projection-session-v1",
-  "rulesReadAtCommit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+  "rulesReadAtCommit": "7dfcbc00acf76c39a80d87bc00aef76a6d178b0c",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -41,6 +41,43 @@
       ],
       "timeoutSeconds": 110,
       "receiptPath": "{work}/two-original-projected-order4-receipt.json"
+    },
+    {
+      "id": "e8-original-low-projection-local-smith",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+      "scriptSHA256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
+          "sha256": "73c11b1d957962fdb8c9b17143aaf8d894845b1b4c8382f200eeaf2422178119"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-minus-six-original-projected-local-smith-789f.py",
+        "--out",
+        "{work}/e8-original-low-projection-local-smith-receipt.json",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--max-order",
+        "4"
+      ],
+      "timeoutSeconds": 205,
+      "receiptPath": "{work}/e8-original-low-projection-local-smith-receipt.json"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "2ea536cc53a7acff2387eef7d1cc4b1970976bf8",
+  "rulesReadAtCommit": "7dfcbc00acf76c39a80d87bc00aef76a6d178b0c",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -430,6 +430,195 @@
         "final"
       ],
       "timeoutSeconds": 1880,
+      "receiptPath": "{work}/third-missing-four-constant-unit-pipeline/missing-third-constant-unit-pipeline-receipt.json"
+    },
+    {
+      "id": "koszul-outside-field-smith-first120",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-outside-field-smith-selector-789f.py",
+      "scriptSHA256": "6db545a1fb6ccb518d8c057f69dfa6d96ac37bafec67053483040f1ad31d7a1a",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-selected-natural-u-minimal-rebuild32.json",
+          "sha256": "e57d4bc56bbd50e1d1700b819a3f5f6499c92b885788ec3fe55089b5a6755657"
+        }
+      ],
+      "argv": [
+        "--pairing-root",
+        "{work}/same-source-koszul29-second-pairing",
+        "--primitive-equations",
+        "{primitive}",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--paid-schur-summary",
+        "{scripts}/43702348535-selected-natural-u-minimal-rebuild32.json",
+        "--out",
+        "{work}/koszul-outside-field-smith",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "1024",
+        "--maximum-degree",
+        "21"
+      ],
+      "timeoutSeconds": 140,
+      "receiptPath": "{work}/koszul-outside-field-smith/koszul-outside-field-smith-receipt.json"
+    },
+    {
+      "id": "constant-unit-last-checkpoint-reconstruct-only",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-runner-789f.py",
+      "scriptSHA256": "a9d26fcf924d15069ab979ef3e129339dcb21e3c7b26d1de5607665a3b71cd21",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "d592f2086e81be2206adb67c7553de15ce36d49a9d1e62721a47a469d8afece2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-789f.cpp",
+          "sha256": "8d32e180db2113fe4bbaa4963cbc0e4a10635e80c32d09c2d93d94c1fbeabe09"
+        }
+      ],
+      "argv": [
+        "--pipeline-out",
+        "{work}/third-missing-four-constant-unit-pipeline",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+        "--adapter-source",
+        "{scripts}/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-789f.cpp",
+        "--out",
+        "{work}/constant-unit-final-checkpoint-reconstruction",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--adopt-verified"
+      ],
+      "timeoutSeconds": 230,
+      "receiptPath": "{work}/constant-unit-final-checkpoint-reconstruction/constant-unit-last-checkpoint-reconstruction-receipt.json"
+    },
+    {
+      "id": "third-missing-four-post-reconstruction-final180",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-constant-unit-pipeline-789f.py",
+      "scriptSHA256": "15b4fcae4f8e251971d1eb9d79ba9802cea75c7f16e0484cce63ebf073a3c538",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "d592f2086e81be2206adb67c7553de15ce36d49a9d1e62721a47a469d8afece2"
+        }
+      ],
+      "argv": [
+        "--constant-preparation-out",
+        "{work}/third-missing-four-constant-unit-preparation",
+        "--unit-prepared-out",
+        "{work}/third-missing-four-eighteen-unit-preparation",
+        "--second-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--first-out",
+        "{work}/selected-natural-first-left-envelope",
+        "--prepared-out",
+        "{work}/third21-forcing-support-preparation-v2",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--consumer-out",
+        "{work}/third21-normal-four-original-consumer",
+        "--pairing-out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--fourth-out",
+        "{work}/same-source-koszul29-fourth-on17-pairing",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+        "--out",
+        "{work}/third-missing-four-constant-unit-pipeline",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 220,
+      "receiptPath": "{work}/third-missing-four-constant-unit-pipeline/missing-third-constant-unit-pipeline-receipt.json"
+    },
+    {
+      "id": "constant-unit-extra-checkpoint-reconstruct-only",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-runner-789f.py",
+      "scriptSHA256": "a9d26fcf924d15069ab979ef3e129339dcb21e3c7b26d1de5607665a3b71cd21",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "d592f2086e81be2206adb67c7553de15ce36d49a9d1e62721a47a469d8afece2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-789f.cpp",
+          "sha256": "8d32e180db2113fe4bbaa4963cbc0e4a10635e80c32d09c2d93d94c1fbeabe09"
+        }
+      ],
+      "argv": [
+        "--pipeline-out",
+        "{work}/third-missing-four-constant-unit-pipeline",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+        "--adapter-source",
+        "{scripts}/2026-11-15-r150-constant-unit-checkpoint-reconstruct-only-789f.cpp",
+        "--out",
+        "{work}/constant-unit-extra-checkpoint-reconstruction",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--adopt-verified"
+      ],
+      "timeoutSeconds": 170,
+      "receiptPath": "{work}/constant-unit-extra-checkpoint-reconstruction/constant-unit-last-checkpoint-reconstruction-receipt.json"
+    },
+    {
+      "id": "third-missing-four-post-extra-reconstruction-final120",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-constant-unit-pipeline-789f.py",
+      "scriptSHA256": "15b4fcae4f8e251971d1eb9d79ba9802cea75c7f16e0484cce63ebf073a3c538",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+          "sha256": "d592f2086e81be2206adb67c7553de15ce36d49a9d1e62721a47a469d8afece2"
+        }
+      ],
+      "argv": [
+        "--constant-preparation-out",
+        "{work}/third-missing-four-constant-unit-preparation",
+        "--unit-prepared-out",
+        "{work}/third-missing-four-eighteen-unit-preparation",
+        "--second-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--first-out",
+        "{work}/selected-natural-first-left-envelope",
+        "--prepared-out",
+        "{work}/third21-forcing-support-preparation-v2",
+        "--third-out",
+        "{work}/same-source-koszul29-third-pairing",
+        "--consumer-out",
+        "{work}/third21-normal-four-original-consumer",
+        "--pairing-out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--fourth-out",
+        "{work}/same-source-koszul29-fourth-on17-pairing",
+        "--native-source",
+        "{scripts}/2026-11-15-r150-constant-unit-multiple-rhs-dixon-checkpoint-789f.cpp",
+        "--out",
+        "{work}/third-missing-four-constant-unit-pipeline",
+        "--seconds",
+        "120",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 160,
       "receiptPath": "{work}/third-missing-four-constant-unit-pipeline/missing-third-constant-unit-pipeline-receipt.json"
     }
   ],

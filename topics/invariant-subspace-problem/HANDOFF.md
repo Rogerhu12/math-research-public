@@ -2,54 +2,44 @@
 
 ## 目标、授权与同步
 
-- **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** f6e7bcc3d9329e16cff769cc498ac552b2636f90（2026-11-15 15:21:02 UTC，临时研究session run43729338969实际pull --rebase，两README无差异；详见notes/r150-local-projection-session-789f/）。
-- 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
-- 已读规则根21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00；逐实际pull核，仅读diff。
-- token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
-- MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行；数学美元符，不写根LOG。无额外审核门槛；Actions约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。
+- **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续 open，不停在阶段报告或时限。
+- **最近成功实际 pull 与已读规则提交：** f6e7bcc3d9329e16cff769cc498ac552b2636f90（2026-11-15 15:21:02 UTC，临时研究 session run43729338969 实际 pull --rebase，两 README 无差异；后续真实发布器在本行更新）。
+- 仅授权 Rogerhu12/math-research-public；根独占 main/H/open/results/log，代理交独占稿。每结论真实终端 push；非快进即 pull --rebase 再推、不 force。至少每小时及每推前实际 pull，核两 README，仅读新差异，已读 commit 记此。
+- 已读规则根 21bd547f56590b7f2dd279d0297efb289a9b2783、课题 4d6570e9cf346431ab781a1290076a6321aaaa00。token 仅 CLI、不落文件/日志。可重算矩阵/证书不存 Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执。topic≤200MB，API 小 UTF8<100KB；MD≤100KB、H≤10000B、open 尽量≤30KB、log 每条≤5行；数学美元符，不写根 LOG。
+- 无额外审核门槛；Actions 约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。当前本地托管执行不可用，既有 Actions 执行真实 pull/rebase/push；不能拿 API source commit 冒充实际主线推送。
 
-## 旧全文与未列缺口
+## 完整历史
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-minus-six-closure-and-independent-local-session-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+本次压缩前全部来源、完整数值、未列缺口保[H 全文](notes/2026-11-15-handoff-before-fixed-test-row-and-small-local-e8-789f.md)、[open 全文](notes/2026-11-15-open-before-fixed-test-row-and-small-local-e8-789f.md)及其归档链；未列条目不算关闭。
 
-## R150：当前已证与未付范围
+## R150 当前已证
 
-- 原A为4367×6188、泛秩4354；同选I,J各4354、权8770，常数Q/F31秩4318/核36。完整同选前三连接3/9/3，二阶24头、三阶21头；[17真第三cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)已核296072原产品，法≤4完整头17，四缺头坐标15/18/19/20。
-- [原17头第四配对](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)给raw1/16可延头存在、完整β4∈[3,5]，λ4未构造。known来项13/full15缺2、第三显式17/full21缺4。完整H45原rank1736、高核1036/模旧130为906；Mstar4318常像加HF/T的全商rank12，只需实际18 RHS，未重906大核。
-- 同选D∞≥130、全部cofactor/原来源换列∞≥125。最新K115下q8412…8525，非基/转移/目标三费8569/8574/172，统一条件8574。原九目标全局Q[s]成员性仍是前提；函数域像与零点局部像现均已付。模31所选长度243仅属F31；真Q degD8527…8640、v∞130…243，lc31单位等价真Q v∞243，未付。
-- 两端原全常数rank4340/coker27，各14正Smith。零点完整β1…11=4,0,1,3,1,1,1,1,0,1,1；正谱1⁴,3,4³,5,6,7,8,10,11，δ最大/次大66/55、amax11，最后13自由头、965328原产品。原完整∞仅首4/次0，不能由zero谱搬运。
-- K115=s66(s−2)9(s+6)12F+²F−²E8²，degree115/lc5^6为31单位。[泛型像回接与零点精确费用](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)已核旧13泛函及142+4212夹逼，九平方原≤3来源Q(s)像此前已证；完整mod s11双湮灭及amax11现给全九s³t_j在Q[s]_(s)/Q[[s]]真像，t2局部消去理想恰s³。十三自由余核的泛型目标配对已清；其余有限点与全局Q[s]成员性继续。
-- 原h0零点s³现在无条件恰足且不可降低；任意k阶真左jet九平方读数必O(s^(k−2))，第十一λ9非零只是允许的末端torsion，不能据此否泛型像。零谱/零点目标子问题关闭，不再排第十二；其它点、未知分母支持和固定D leading31单位继续。旧29曲线/GB/LLL/65521/uPhiY等范围保归档。
+- 原 A 为4367×6188、泛秩4354。同选 I,J 各4354、总权8770、常数 Q/F31 秩4318/核36。完整前三连接3/9/3，第二24头/第三21头；[17条真第三 cochain](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)经296072原产品；完整第四 β4∈[3,5]、λ4未构造，来项15缺2、第三21缺4。
+- 同选 D∞≥130、cofactor/原来源换列∞≥125。K115=s66(s−2)9(s+6)12F+²F−²E8²，degree115/lc5^6为31单位；q8412…8525，非基/转移/目标费8569/8574/172，统一条件8574。**全局 h0 九目标 Q[s]成员性仍是前提**；同D leading31单位未付，真Q v∞130…243（等于243才单位）、degD8527…8640。
+- [完整零谱及原目标](results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md)：β1…11=4,0,1,3,1,1,1,1,0,1,1，正谱1⁴,3,4³,5,6,7,8,10,11；δ66/次大55/max11，最后13自由头/965328原产品。旧13泛函与142+4212已给九平方原≤3来源 Q(s)像；现全九 s³t_j 在零点真局部像，t2消去理想恰s³。零子题关闭，不再第十二；末端jet非零不能否泛型像。
+- 两端原全常数rank4340，各14正Smith。原完整∞首4/次0，[第三连接上界](results/R150-appendix-infinity-third-connection-one-dimensional-bound-order43-and-cost8663.md)已给β3≤1、δfull∞≥43/次大≥39，根已重新全文核对；不能把完整∞只记成首两页，也不能由zero谱搬运。
+- [真实局部投影长度差](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)：len T=δA−δP，T=W/(L∩W)、W=(I²)≤5；差≤e即t^eW⊂L。170原行+54g倍行局部双向生成，g零点只除η单位。E8²首项31单位先剥后给2点δA≤30。
+- [负六完整局部闭合](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)：真P/full谱1⁷,2,3、长度12/次大9/max3，W全在原局部像，九目标无需s+6，已纳K115。实7.521673933秒/raw8191B/0039c5bd…。
+- 新2点原order4实4.637497190秒、全P常133/连接7,1,1，已达泛秩142，所以P正谱恰1⁷,2,3、长度12。full仍仅12…30，T长≤18；不证明h0一阶足够，也不否定九目标。高于3不再提高此P长度；转原W或九目标。实际回执见新session。旧order17超时只说明该次首Schur未成。
+- [原Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)：O1834×1632常rank1603/29正指数；tors cokerO注入同B余核。Fp31 O最大≤21/总长≤243；Q总长≤Fp总长但Q最大不能用21。D≥δfull+σ、cofactor≥δsub+σ−amax、换列≥δfull+σ−amax；真Q δfull+σ≥243才付同D leading单位。新O数值尚未执行。
 
-- [真实局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)已证明len(W/(L∩W))=δA−δP，差≤e即t^eW⊂L。170+54g局部双向生成不除g；原E8²首项31单位先剥，2点δA≤30。充分δP阈值−6:12、2:29、F±:6、E8:4；数域长度不乘域次，E8不可约性已核。尚无新投影结果。
+## 活跃计算、源码与恢复
 
-- [原Koszul外支撑扭子模](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)已严格注入同B余核；O1834×1632常rank1603，29正指数。Fp31 O最大≤21/总长≤243，Q总长≤Fp总长但Q最大不可用21。原D≥δfull+σ、cofactor≥δsub+σ−amax、原换列≥δfull+σ−amax；δfull+σQ≥243才付同D leading单位。新O数值尚未算。
+- 旧 run43702348535/job132776011109 保全部大临时输入。session 数学循环约10:07:10起340分钟，到15:47:10才不再开新一轮；job硬截止约16:00:13。请求一次读取后的全部串行步骤继续执行，勿把有限job时限当课题停止理由。
+- 原47步参数完整保 commit795c0306493c98aa0a04a11a2751b4cb0949709b 的 notes/2026-11-15-r150-recovery-small-session-request-789f.json（95791B，SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。当前滚动请求只有后继；新job须先真实恢复相应依赖，不能假定旧数组存在。无大数据长期保存。
+- 真4318单位18 RHS 输入与旧14主元桥接已付。step49/50：从653续至1205完整digits/34946bits、18次重建未成、单位产品0；step50实1186.227843521秒/raw5290B/0514d6af8471fde6e6e04f57a56ac5b9085db5351a9d74e0b27d1a534021d539。binding2cd043a0fa006deb45f0811412adcd021fb1c0bee395215b812b3d8ad1c5a2af；active slot1 341404739B/eebf82c7…，全部精确 pins 见归档。不能把有限重建未成当无有理解。
+- step53 同冻结源码/out续1800秒/4GiB/final仍在跑；原 native 预算尾只存完整digit、不自动尝试最后精度。新增step54 O有限域selector120秒/1GiB/degree21；step55最后实际完整精度独立重建180秒/4GiB，成功才显式 adoption；step56原final180秒；step57新完整精度独立重建120秒；step58原final120秒。原始 active/slot/nextrec 不改，所有新操作来源单独记录。已成单位则适配器明确拒绝重复、下一冻结final直接消费；不得把后继失败空报为数学成功。
+- O源码44adf1ef…/SHA6db545a1fb6ccb518d8c057f69dfa6d96ac37bafec67053483040f1ad31d7a1a，真实rebuild目录 selected-natural-u-rebuilt，paid小回执26242B/e57d4bc5…；只算1603单位/29 RHS，不重原4318。适配器cpp5b5a69a4…/8d32e180…，runner883bdce2…/a9d26fcf…；根逐全文及原restore/reconstruct/冻结consumer审过，首次解析编译仍待实际Actions。
+- 原单位解必须77724单位产品全真；随后全部4354残差18列、missing2第二/missing4第三及同29×81第四配对才可提升完整β4。旧第一、第二、normal4/5、第三17及所有原SHA见归档/历史request；已成大消元不重算。
+- 新独立小session **run43729338969**，45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，无历史大输入。step1 two-original-projected-order4已成，raw8820B/9c965a0846e84cd6dc3e0302319da87c7cc7f1ed45933633b6190a66627dd5c4，source22889e90bc66c833bac107fb562f254c7cb63758。
+- 新step2 E8原低51×36，真实Q[α]/E8正规表示408×288，180秒/2GiB/order4；源码4e773f40…/SHA4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f。全部224原投影中低jet加4个exact高pure核注入，generic核9+4=13，故δP≥δlow；不是任意子矩阵det外推。实际lower≥4才付h0局部，≥5才全W；未预填。小回执目录notes/r150-local-projection-session-789f/。
 
-## 临时同run：滚动请求与恢复
+## 原同w边界：当前真实联合缺口
 
-- run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
-- 当前request路径同历史；累计step48完整第十一实55.241368715秒、13头/965328原产品，raw c7d982b2…/outer c7de3966…，完整精确SHA与checkpoint保小回执及H归档。
-- 原4318单位、真Q旧14主元加4目标的18RHS桥接均已付；旧HF/T primitive模31rank4未当全12。所有输入完整SHA/原低cochain/常块规范保本次归档及真实回执。
-- 累计step49/50真Dixon从653续至1205完整digits/34946bits，18次重建未成、单位产品仍0；step50实1186.227843521秒，raw5290B/0514d6af8471fde6e6e04f57a56ac5b9085db5351a9d74e0b27d1a534021d539。binding2cd043a0…，active slot1=341404739B/eebf82c7…，逆/input同旧；不当数学失败。累计step53同源码/out续1800秒/4GiB/final，先真单位解再全4354回填2第二/4第三/完整第四；不能预填。预算末仅存完整digit、不自动尝试该最后精度。
-- 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
+M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w、真u_Q、future、负前缀、完整核旗及自然MP域；ordinary λ、bare α、左μ不能互换。
 
-- [负六完整局部闭合](results/R150-appendix-minus-six-local-smith-length12-and-original-nine-target-membership.md)实7.521673933秒，raw8191B/0039c5bd…：投影1⁷,2,3/长度12夹原δA=12，full谱同、max3/sub9，W真局部包含，九目标无需s+6。所有原6188投影/Schur核真；新K115与条件8574已正式。
-
-- step52原2点order17/120秒在首Schur完成前超时，系数0…17/全6188投影/常rank133已核，phase空；raw4131B/4427c371…，未报谱。新独立轻量session用同源order4先实测，后续逐阶checkpoint；请求notes/2026-11-15-r150-local-projection-small-session-request-789f.json，无历史大输入、45分钟/新run号待回执。原native大数组继续旧run。
-
-## 原同w边界：完整负部仍开
-
-M=kerT、N=closure BM、W=M⊖N，普通N=M未证。所有变换保同w、真正u_Q、future、负前缀、完整零核及固定层MP自然域；不能将bare α代ordinary λ或把局部伴随界代正向返回。
-
-- [同u完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：顺次链c_j=−P_(p+j,j)u_(p+j)保头/尾旗，c_h=0；u⊥K给μ_p²=−ΣRe〈P_j u,u〉。跨cut保全部同层部分和和两端，bare比kerD^j少一出生不能删。完整正向返回(C+D_x)Rr=−P_hi T J_b r与PEhat范围保留。
-- [固定二次窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)可取R=d、h=2d、Q=L0h²，不携带逆芽gauge。新[跨m正交孔带](results/R271-appendix-disjoint-global-hole-bands-and-divergent-reciprocal-negative-cost.md)取晚cut Q/2…Q−R−h−1；真future F_m落互不交global[Q/2,Q+m]，Σ||F_m u_m||²有界。若同u合并负部≤c_m Q_m||F_m u_m||²且Σ1/c_m发散，即迫w=0；允许c_m=O(m log m)，即Q logQ loglogQ级。该负部估计本身仍开，未由条件转换证明N=M。
-- 真逆仍是G=P_E(DD*)^−1P_E，非(P_E DD*P_E)^−1。去正交primitive后，顺次和真块为G^1/2 N G^−1/2，实际输入坐标−G^1/2 C u_prev；须联合控制同Cu的负部，分别界G和创建列退回旧费用。
-- 原低孔借位6^k/强头7^k四次衰减、连续尾完整核、原T局部运输、N⊥形式读数及[同一Neumann修正](results/R271-appendix-regular-one-step-correction-and-same-neumann-canonical-forcing.md)均保持原范围。G_reg输出X3、TG_reg=Π，carry X7费≤B_s e^(−40u⁴)，原形式h的Π读数已付；未假h∈H或扩大MP域。全部原参数、来源及联合bit反馈见H归档。
-- [创建泄漏无普适单权界](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)已完整排除仅靠hardcore/满射/平方可和/bmax的绝对界；不是原固定b_j=(j+1)^−2或同u预算反例。继续实际位置和层间抵消；高variance旧界的birth=n−t≈Q，不能把short height h当birth移用。
-
-- [完整模型行与原三阶负部](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)把已推15/8加强19/10：强位占据≤S_J，源比较Λ付投影差，经真Γ/H0合同得C*≥q^(19/5)/(4(x+1)³)。真实E3负sup=(√C*−3)/2，q≈κx²时≥cκx^(23/10)，排全E_h的Q logQ loglogQ。实际同w/整串C递推及更窄窗口仍开；不冒充实际u、不删两端partial。
-
-## 其余未闭
-
-Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；每闭不变M有closure AM=M，普通循环性未知。正常有限秩仍缺同一相容全链严格正距或实际下一完整尾距离上界，R289/R291不矛盾。所有未列open条目继续，不以中间结果结束主课题。
+- [同u完整返回](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)：c_j=−P_(p+j,j)u_(p+j)合法，u⊥整个K，μ_p²=−ΣRe〈P_j u,u〉；跨cut两端partial与内部完整和都保。真G=P_E(DD*)^−1P_E，不能换压缩后求逆。
+- 固定R=d、h=2d、Q=L0h²的原误差一致；晚cut future落互不交global孔带，Σ||F_m u_m||²有界。若仅实际同u的合并负部≤c_m Q||F_m u_m||²且Σ1/c_m发散则w=0；允许c_m=O(m logm)，该上界尚未付。
+- [原完整模型19/10负部下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)：C*≥q^(19/5)/(4(x+1)³)，真E3负下界q^(19/10)/(4(x+1)^1.5)−1.5，二次尺度x^(23/10)。已排整个E_h统一QlogQloglogQ，未识别坏向量为实际同w；近线性窗/完整height未排。
+- **新已证[固定测试交换行及双线性配对](results/R271-appendix-actual-fixed-test-adjacent-swap-row-and-same-top-bilinear-pairing.md)**：固定finite f同真u_f=(P_V−P_K)f，全部n及j≥x的Σ||P_j^-u_f,n||²≤8||f||²/x，无Q因子；任意不交对高反对称数r能量≤8/(rx)。同一u_w/u_f串链给完整双线性负配对，固定||f−w||≤||w||/8使各late cut左锚≥7||w||²/16。仍须控制真顺次MP合并算子作用于这个低交换能量端；没有把交换投影当顺次MP，也没有声称整个负谱被已展示暗对覆盖。
+- 原G_reg同一Neumann forcing、X3输出/carry X7预算、正常有限秩相容链、Haar普通循环性及旧所有开放接口保归档。继续实际来源联合配对，不重做已闭有限分类。
