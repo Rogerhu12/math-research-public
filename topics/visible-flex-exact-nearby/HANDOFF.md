@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 01:42:37 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 01:50:12 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
-最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:31:19.648685 UTC e6c81ee7fde76361a177ea467829cae967d5a793；伴随v2原过程两README diff空。
+最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:40:32.307071 UTC 608cab996b9f406492205ac38a1e75ac0117cf9b；Taylor12原过程两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：be3eea640c8e8e80edadd38916a4217bc6b77bf4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：760280899bc5e808003acb189f7b18b9ac811d04；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
-前H9724B完整存notes/2026-11-15-handoff-before-angular1024-network.md（efdfe65c…），内含前H9914/9790/9641/9719/9610/9900全部历史链；旧log在notes/2026-11-15-log-through-inner-source-deployment.md。原actual/native/失败/参数/逐行证明全部保。
+前H9756B完整存notes/2026-11-15-handoff-before-actual-Taylor12-and-adjoint-cover.md（6622b612…），包含前H9724及全部历史链；旧open29021B同名open归档（45a8a8db…），当前open仅列仍有效任务。旧log在notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全部保。
 
 ## 同一对象和总完成门
 
@@ -28,13 +28,10 @@ A1–29/d054ee75…全帽伴随后验保S*=mV、97误差Gram、PH Iφ high/Hessi
 
 ## Airy根、第一修正与全源：phase_inverse、root
 
-原root/forcing/Cauchy/seam/moment、1328矩阵行、6 profiles/4377积分全成，原身份/失败/参数及逐行账保在前H9790B和actual；禁重算。精确fold43642808159/8门/native0ceafc2b…；负mean43652283078/10门/183850c3…新2765负+原1612正，全4377保，源upper713577.173144仍粗，RQJ主要费用。九词、独立mean、原dr/seams全保。
-aux失败43640181602/6276b4b8…及anchored v1 43646714623/a6f6225c…保；v2 43647998272/84e2bd1b…小13门原样/大域R3/8000新14门。固定η0高根v2 43651259105/15门/38a8ba8d…12误差/36mean/11E/内蕴0..9/54对照，0FFT；Nyquist失败保。μ=Q²B+、a0=GB−、J=−QB+、detM0=G²B+²，勘误b816799e…；C1–12/48940b32…同复δ a1奇/b1偶。
-oldρ Taylor43653825736/20门/native18990ac2…52843B/process eebbbf37…48844B：258新cubic/75stage，0旧FFT/intrinsic/aux；fold8、forcing/w1六阶、|j|≤1536。固定[rlo−9e−6,rhi+9e−6]；φ1/512归一化local两sup24.457019495/781421.481649，非operator norm。
-inner首次43656438723 child1/9门/两成功stage保；reader-v2 43657933806 child0/17门，native6b5e6c64…/process e54c7505…原两stage新4转换/4积分。K1–11实θ²合同b1f0f0c3…；71pin actual43659519776 child0/11门，native97d92739…13433B/process c6ec19e8…13838B，2新stage/4local积分，负完整源<10602457152、正<3219480409，原nonlocal/mean保。
-H1–9仅补ae0e26fd…：66pin actual43661471951 child0/12门，nativeec702cff…619835B/processc7ff6924…41444B；44新stage/6FFT/45mean/24intrinsic，新F12..17、E11..16、内蕴10..15，原12列/36mean/54对照逐字保。T1–15/8bf949ce…的89pin五件已装SCI42048094…/CIc563cd2a…/manifest5700ded5…/worker2fb4cc82…：仅补fold/leading9..14与forcing/w1 7..12、18norm/三N12预算，原75stage逐字保；待actual。
-外段E1–25/557dd24e…有序Zρ=CZφ+MZ−N(fa,fb)；actual43657793725 child0/11门，1328新导数/4359外行/6case，native73227377…14518B/process bca94cb1…43892B，0旧数学重算。R.001负/正local upper4.691836e21/1.150755e22；normalized f/fρ/fφ/fρφ全存。完整nonlocal首次43660649533 AST少')'、0数学/0stage保；仅修括号后SCI d4ea7d15…/manifest6456b7fb…（其余26pin不变），后继43660841558 child0/11门，native17112d96…11664B/process aa106c22…54355B；1324新转换+4原inner、6profile/4359积分、0旧数学重算。R.001负combined<4.814928e21、nonlocal<1.340022e20、mean<1.819444e18；R.02自然5517372B原artifact保，完整61274B原process亦保。
-b*剥离B1–25/6d34960b…与S1–16/973ddf1c…保实r双ray/根mean/真forcing跳/有序二导。25+9pin actual43663147595 child0/9门，native d61f4239…13655B/process ef0e7f24…37657B；新7norm/1tail/6profile/653seam/1036行，0旧数学。R.001/.002/.005双侧路径过，负local<4.337713e20/5.654995e20/7.954848e20；大三径fixedX/正optical失败，3323行原界保。fullprocess100236B/c89ba87c…勿connector读。phase只继续新表的全nonlocal/mean；leading/内外片/真seams/正weighted端口均独立，不授strong-return/cutoff。
+原root/forcing/Cauchy/seam/moment/1328矩阵/六profile/4377积分和所有失败身份在前H9756B及actual正文完整保，禁重算。fold43642808159/8门、leading负mean43652283078/10门（全2765负+1612正）仍给R.001负source upper713577.173144，非下界。aux失败、anchored v1失败保；v2 43647998272 native84e2bd1b…原小13门/大R3/8000新14门。μ=Q²B+，a0=GB−，两B符号及同复δ branch保。
+旧Taylor43653825736/20门/native18990ac2…75stage/258cubic全保。高根补充43661471951/12门/nativeec702cff…619835B/processc7ff6924…41444B：44新stage/6FFT/45mean/24intrinsic，原低阶/54对照逐字。新Taylor12 actual43664023495 child0/19门，89pins/原75+新205stage（51helper+133output+18norm+3N12），0旧数学；native758a2901…88854B/process42ab23b9…34792B，287文件完整发布。fixedη0复δ≤1e−8，旧内窗9e−6；a1/b1支持±2496/±2688。φ1/512 raw local pair<68.712280537/13452216.620035，normalized<3.701070441/724580.830344，均非operator norm；须新内窗全源消费。
+inner原失败两成功stage、v243657933806/17门全保；实角43659519776/11门/native97d92739…13433B，2新stage/4local积分，旧负完整<10602457152、正<3219480409。外导数43657793725/11门，1328导数/4359行/六case；完整nonlocal先AST失败0数学保，仅补括号后43660841558 child0/11门，native17112d96…11664B/processaa106c22…54355B，1324新转换+4原inner/4359积分，R.001负combined<4.814928e21。R.02自然5517372B原artifact整件、完整61274B process保。
+b*B1–25/6d34960b…与S1–16/973ddf1c…保实r双ray/根mean/真forcing跳/有序二导。actual43663147595 child0/9门，natived61f4239…13655B/processef0e7f24…37657B：7norm/1tail/6profile/653seam/1036新行，0旧数学。R.001/.002/.005双侧路径过，负local<4.337713e20/5.654995e20/7.954848e20；大三径fixedX/正optical失败、3323旧行保。fullprocess100236B/c89ba87c…勿connector读。phase新合并只更新1036行全九词/五mean、3323原payload逐字，不重跑旧profile/矩阵/local；完整修正seam/正weighted端口/strong-return/cutoff仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector
 
