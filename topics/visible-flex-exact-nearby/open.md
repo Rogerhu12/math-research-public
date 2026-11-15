@@ -84,7 +84,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [AW完整P22锚定比较](results/R133-supplement-complete-P22-anchored-free-trial-strong-comparison.md)694b3647全式/原域/三ball保148ac7ee614bdf839691285f6a1eea0d6ec8ddd6同open/H/proof。真positive列与free锚定齐次到腰的差H−4/3→primitive L2pair+两mean≤C_PC+C_ST,4，仅符号和；两行cut连续、PC§9 restriction/zeroextension、root e+−PFh/非零stable/β/两sign两wave/四同caseRR及独立PW七ports/mean/finite保。只difference延拓，非各trial/stable强界。实际waist receiver与完整incoming/Schur/R0仍待，TC不移腰。
 
-[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/free P8 w1，完整J/六mean/两I尾，先真微分再DLMF real（无nω≥1），n^-2列余项经HS付H−4/3→L2。两sign两wave/P23a抵消/TN有序逆+FS/RN/finite≤Js+191，FA32–34a原UΦ与corrected负窗，Jc/Js不混。新包bff4c15e/3d8873d0/34b9a041/7fe3c7f1：20pins/5AST/24门，旧10历史逐tuple核RV4718b4b8；只新scalar待唯一Actions。strict propagation、实际waist normalizer/receiver/Ei/Eo/incoming/Schur/R0仍待。
+[FA完整free首遗漏](results/R133-supplement-complete-free-Airy-first-omitted-strict-cut-columns.md)24216c6d：同P22/free P8 w1，完整J/六mean/两I尾，先真微分再DLMF real（无nω≥1），n^-2列余项经HS付H−4/3→L2。两sign两wave/P23a抵消/TN有序逆+FS/RN/finite≤Js+191，FA32–34a原UΦ与corrected负窗，Jc/Js不混。新包bff4c15e/3d8873d0/34b9a041/7fe3c7f1：20pins/5AST/24门，旧10历史逐tuple核RV4718b4b8；新scalar唯一43762821220/1运行中。strict propagation、实际waist normalizer/receiver/Ei/Eo/incoming/Schur/R0仍待。
 
 [TC](results/R133-supplement-true-branch-density-coordinates-and-complete-finite-conjugation.md)57ff88f5/[actual](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)3c374c35/43754703603/18成功锁；全42球/SCI/preGit/真Φ四norm/两rank/finite全值保d358150130b7ff4771711c1e409d540f82dc56c0同open/H/proof。PΦ真span/mean/HL-LH/97..J−1保；cutnorm不移腰，Ei/Eo/Schur/R0待。
 

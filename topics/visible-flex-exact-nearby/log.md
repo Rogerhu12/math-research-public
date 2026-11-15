@@ -271,3 +271,7 @@ Root 已全文读 SCI、CY→worker 全差异/保存先后/历史恢复/成功�
 同原SN43751213826/1，新完整小checkpoint308763d830e92996a62921fc2151d3e8e0f5a256/16544/SHA07f8309ffd0ac052908472186eb5b45ac28a8a7bada2e14b60414686e8c645ab。Root逐字段差异核身份207pins/8AST/14current均同；6952=旧1256+新5696，interval1408，cursor1504952875479641/9007199254740992，两支H3prefix原球[2.400753145682265 +/-3.75e-16]，complete/target false、return/supervision null。真pull21:12:59与21:13:04.915046末至c136747a87f8483b7d6841bed98d02d32264e7e1，两README空diff；该published metadata199151444B，owned delta后199151678，投影199153400，均只该快照非此后容量。非终点C，健康原运行不重启。
 
 本次只读核两README 974b5c0491dbf960ee31491145e09a1c77aeb29e 仍同。root没有executor，ref核不冒真pull；下一定时CLI≤21:35，非FF立即实际CLI再保远端循环。总课题未完成，继续。
+
+### 2026-11-15 21:17:56 UTC — FA 唯一公开运行身份
+
+部署731c618bf8995e36396fe633c81d93d5dd2a6b47，仅一项匹配push：43762821220/attempt1，workflow .github/workflows/visible-free-airy-first-omitted-cut-scalars.yml，API in_progress/conclusion null。newton只监该原run，不重启；实际24门及五最终量尚待。只读README f2cc6b82fa002fa58de08a205aadeeb2a5d6bedf 原blob未变。
