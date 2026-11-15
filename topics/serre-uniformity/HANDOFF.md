@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：215d30ebce4e88a2062540a4fee43bbc8dc6049c**（2026-11-15T23:35:27.282218+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
+**已读规则提交：ab5ad8ab2f33ee39cb85c12be98d19373314f265**（2026-11-15T23:37:20.829696+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -34,6 +34,9 @@
 **R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
 
 **R792原点DAG已激活**：[消费接口](notes/R792-original-source-bound-CM-DAG-beta-interface.md)ce50b9c2复用791R.16/R792；coreafb49c1a/wrapper96045ab0消费CM165+R7919共174旧文件。B0真实非零、原w<0/h0≠0保证Q,N非零，输出准确β_C=(3h0Q/N,A0/B0)及原f_R点DAG。准确展开/抽象A原像/eta/height均false，八节点加法仍须准确零判。无需89MB大载体、旧CM/取根/Norm不重；推送激活后登记新run。
+
+
+**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。
 
 ## 后继来源与期限
 

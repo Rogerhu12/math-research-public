@@ -68,6 +68,9 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R792原点DAG已激活**：[消费接口](notes/R792-original-source-bound-CM-DAG-beta-interface.md)ce50b9c2复用791R.16/R792；coreafb49c1a/wrapper96045ab0消费CM165+R7919共174旧文件。B0真实非零、原w<0/h0≠0保证Q,N非零，输出准确β_C=(3h0Q/N,A0/B0)及原f_R点DAG。准确展开/抽象A原像/eta/height均false，八节点加法仍须准确零判。无需89MB大载体、旧CM/取根/Norm不重；推送激活后登记新run。
 
+
+**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。
+
 ### 全p sigma：同一个真正可见标签的三个单位
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。
