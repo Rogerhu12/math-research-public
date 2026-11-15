@@ -54,6 +54,8 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
+[R171](results/R171-static-negative-interval-of-the-parity-corrected-outer-candidate.md)已排联合新外点：a_static(1/2)=0但a_static(2/3)=−371/11664。完整静态为p(k²)、deg p≤3；下一仅对当前准确p解析端点、无穷和正局部极小，严格负输出有理k，全半轴非负输出准确证书。不能仅逐格追加k，也不能把本点边界导数条件强加所有未知字符。
+
 [R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。[联合实际](notes/character-minus2-static-parity-actual-20261115.md)43668125602已完整结束：68条必要半空间仍有新有理外点，原63/124/RREF/六积分保持，四错误degree全扫；旧23仅坐标接口，不称更新后自由度。新点完整14系数正按已有真实门解释，旧数据不重算。
 
 [R167](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md)给完整最高层有限充分证书：四单项Z的常4×4 Gram加两个真边界参数，PSD及R148轴向门即充分。后继点若取得准确证书可转低层/真实关系；Gram不可行不等于有负路径，不为已排旧点重测。

@@ -349,3 +349,7 @@ root全文读主6971B、dev2353B、actual note5127B，并终端物化核gz9222B/
 - 2026-11-15 02:42:04 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交641c5d2ded708c6b3d76130cde2e887944e0c40c记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 02:42:16 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交0a18108696e8a5aee5dc95861808a78b88736a03记录于H；继续推送同一完整结论，无force。
+
+## 2026-11-15 02:43:26 UTC — R171新外点完整静态负区间
+
+literature只读新有理点及旧14线性行，root全文核读并手核因式、−371/11664、μ/c/d和周期6π/√13。已加a(1/2)不够：新点正卡边界却邻域负；真实常段及固定连接周期付完整作用量。完整证据直接登记，无研究求解重跑。下一解析完整三次半轴，验证全支撑再用端/无穷/导数极小，不盲扫网。
