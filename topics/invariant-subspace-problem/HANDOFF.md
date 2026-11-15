@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 3b78b2c4e4b2910e3e5c7bafbec6d1de8a478405（2026-11-15 23:53:57 UTC，临时研究session run43772109844实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 4762e0cc35edb99ece9714e4493685646c17d146（2026-11-15 23:54:25 UTC，Actions run43777294719实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43777294719-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -33,7 +33,7 @@
 - **全56Ω120与约化：** step32/71.12834121秒全核，cert39654723·147a40fa/payload0ca29224。step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，未断μ1。全证明/原范围见上文外除子8411。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，全197原4367/505/315/J/DAG真；χ=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21。outerf6b83a6e/raw46870·5d9fc76f；I3须197纠偏源、7参数关系+b8/pb9。step5全210 recipe已0.510477秒核真，33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。
-- **F127覆盖修正：** step6原整数恢复真；step7在3333+2195=5528断言失败，outer77c527bc/raw585·5f276aac，旧NF未执行。新model全364×17给2855补集/660新增源；新ID original127-original-model-all6188及original127-complete-normal-forms-all6188-180，源a0eec726/46ef43c4/050ef5d7，NF180秒/2GiB。新out均后缀-all6188，逐660实际读零/非零；GB/∞资格未付。request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
+- **F127完整6188：** 旧step7因3333+2195=5528失败（outer77c527bc/raw585·5f276aac），旧NF未运行。新model-all6188已0.025017904秒全4433/6188/18单位真，raw3207·fcaeb395/binding7196ed17；2855含660新增逐条实算。NF180秒/2GiB源46ef43c4/050ef5d7，out original127-normal-forms-all6188；成功才接GB900秒/2GiB源696c3c07/e4cb324c，out original127-complete-graded-module，保整行恢复。torsion/∞资格待付。request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 

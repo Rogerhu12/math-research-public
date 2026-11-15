@@ -1,23 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "3d4ced177a0d224ccfd9b2453f34662b8db1c3ce",
-  "createdUtc": "2026-11-15 23:51:52 UTC",
-  "message": "Astra ISP: repair F127 source coverage to all 6188 original labels",
+  "parentCommit": "dc96b799e7083a0f6863e7b1d9d8ee90d39a337d",
+  "createdUtc": "2026-11-15 23:53:37 UTC",
+  "message": "Astra ISP: queue complete original F127 module basis after full normal forms",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-normal-form-runner-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-and-normal-forms-inputs-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-and-normal-forms-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-i2-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-handoff-before-complete6188-repair-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

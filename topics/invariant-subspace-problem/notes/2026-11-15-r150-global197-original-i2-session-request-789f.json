@@ -326,6 +326,40 @@
       ],
       "timeoutSeconds": 240,
       "receiptPath": "{work}/original127-normal-forms-all6188/original127-normal-form-pipeline-receipt.json"
+    },
+    {
+      "id": "original127-complete-graded-module-gb900",
+      "requires": [
+        "original127-complete-normal-forms-all6188-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-runner-789f.py",
+      "scriptSHA256": "e4cb324ce03d750ab8fdbe42939772fd3e74e23a86aa44cde5b02d5ac7a0c52d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-graded-module-gb-789f.cpp",
+          "sha256": "696c3c07461de74f9a2d3d92dbe835e1b5aa057d7dd1392c0baf8d7ffe57e508"
+        }
+      ],
+      "argv": [
+        "--normal-forms-out",
+        "{work}/original127-normal-forms-all6188",
+        "--sources-root",
+        "{scripts}",
+        "--out",
+        "{work}/original127-complete-graded-module",
+        "--seconds",
+        "900",
+        "--memory-mib",
+        "2048",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 960,
+      "receiptPath": "{work}/original127-complete-graded-module/original127-graded-module-pipeline-receipt.json"
     }
   ]
 }
