@@ -222,3 +222,5 @@
 - [Request163：原151/157日志的一次只读恢复入口](notes/2026-11-15-request163-original151-157-log-readback-interface.md)（源码/元数据入口）：官方原run/source/job/协议身份先核，两个原compute各一次下载；原数字词法与完整JSON/字节重建，151结果/input/全账覆盖、157初末FD/84trial/normal/末模型完整输出。巨大内部表只完整hash/结构覆盖与明确选中/异常范围，不冒逐值科学核查，无科学重算或新raw存储。
 
 - [R351：完整七状态三列伴随与零jet新控制响应](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)（已证明，条件准确有限链定理）：698cell完整r/mid/sqrt/三模态、112终端耦合、直接末q与start项保；一次三列伴随取得全部node/mid响应，真实shape商法则及补左零空间条件明确。准确实数、形成线性系统与Decimal舍入分清，不预填157秩/驻点或164改善，原域/strict slope/字面Armijo与全native责任保。
+
+- [R352：共享校准正规形式与全九项Bernstein目标包围](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)（已证明，条件包含定理）：同一准确collar/coast/last-transition先消去重复依赖，三个支撑各全三项合并，再于同一u形成完整差多项式及向外Bernstein。原419片/支撑内外/双闭端点、数值参考全部字面校准缺陷及同场metric责任保，不改参数或缩语义盒，不预填151主因、165精度或实际δ。

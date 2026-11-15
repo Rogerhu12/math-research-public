@@ -81,3 +81,7 @@
 ## 2026-11-15 16:07:06 UTC /root — R351完整离散伴随与同步未付范围
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)全文核后即发：七状态/三q局部变分、三列reverse、完整112终端及所有直接项、零jetshape响应与补秩条件已证，无本地科学或实际秩预填。H/open压缩重复叙述，原open逐字存同目录至163检查点，全部责任保；158真实异常按原返回成文、163已完成及157仍未取正文范围明确，162/164/165/166/167继续。API核6f6bc02dcf3b6886118ccae9b6940764cecb2f78双README未变，真实pull行按当前原记录保留。
+
+## 2026-11-15 16:07:35 UTC /root — R352完整共享变量目标包围
+
+[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)全文核后即发：准确校准恒等、全部九项合并、所有分支共同变量差和向外Bernstein已证；数值ℓ/S3/δ及系数缺陷严格保留，固定上游盒不可凭u细分变窄。165继续独立实现，不作159的额外门，无本地科学或新δ预填。API核8c96e078ddd3e412db425c5a31cf6682d4445bff双README未变，原真实pull行保留。

@@ -70,7 +70,7 @@ amplitude继续requestless helper，164据实际完整FD/梯度及新shape响应
 
 [R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)target127.386056539s/65535节点在65536cap前两子事务止；完整u盖32977叶/10468未决、unvisited0/transaction null/严格反证0，globalδnull/exit3，非900墙钟。163原result/input、五账身份及全部覆盖补读已成功，R349待完整成文；不能把身份检查当新的区间运算。
 
-165将按实际未决范围改进同一准确DAG的校准恒等式、九项合并和共同变量Bernstein；原数值ℓ/S3/δ及系数缺陷保，不把数值量套准确校准。完整419片/全部支撑inside/outside/双闭端点与事务覆盖不减，不缩语义输入盒、不添native门；R352纯证明由exact交付待发表。若径向宽度来自固定上游盒，u细分本身不支付它；实际主因须由原字段而非猜测决定。
+165将按实际未决范围改进同一准确DAG的校准恒等式、九项合并和共同变量Bernstein；原数值ℓ/S3/δ及系数缺陷保，不把数值量套准确校准。完整419片/全部支撑inside/outside/双闭端点与事务覆盖不减，不缩语义输入盒、不添native门；[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)已发表完整条件包含证明：cut中心collar、准确coast消去重复宽度、右锚last transition；每支撑全部三项先合并成至多八次式，全部分支向外Bernstein及共同u差多项式保。数值参考自身长度/anchor/系数字面缺陷不归零；精确单点和全部inside/outside/两侧闭端点保。exact继续165实际消费者，未有新δ或域结论。若径向宽度来自固定上游盒，u细分本身不支付它；实际主因须由原字段而非猜测决定。
 
 ### 3C. 当前C自己的零场与完整453非零BVP
 
