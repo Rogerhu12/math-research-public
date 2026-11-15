@@ -48,6 +48,8 @@
 
 后继独立35查询保原33再加MID472与LEFT463全部原2048角。新LEFT463须capture463及node463，B局部支持变463–488/26端点/8791local；MID472已有capture。原C471–482/4059、完整outside/236036自由度、全部A/AT/B/BT/17trial/原两RMS/域/FD保持。从可恢复98另起轨迹，不冒130已删末态接续；已有selected非线性失败及有限512工作集/200duals精度仍未解决，新增两点不保证更大接受步。root继续实际源/完整接线。
 
+[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)已按上述完整支持实际发布，run43712613111/compute132807257922/sourcea7ce55798404fec8fb3638c0fbf083250c5363b2，12:11:58起且science在跑；不得把入口发布当新接受结果。
+
 ## 3. 闭合与固定同一g精化
 
 [真正九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)已发布profile070b9b35/full1121610d6fb。只接受真正00e4完整接受父场或本新入口自己的实际450；保全九末系数、完整支撑/width/port及点/批两条原有限scalar路径。全部九冻结使K=k=0，物理338加112自由core=450，空target为左338/右112；不继承原三固定目标，不把空active重写成空冻结系数。
@@ -75,6 +77,12 @@ R294同时给固定原g的cut atlas兼容并分C0/C1/C2层级：几何图的v,b�
 [R282 owner/组合器](notes/2026-11-15-R282-local-owner-and-complete-mixed-combiner-interface.md)0b52a408/4e31ad6b保真实membership、cross-Gram或逐闭叶全phase四门OR、两RP1及完整DFS未访后缀。[曲率/D读取器](notes/2026-11-15-shared-field-curvature-and-diameter-budget-interface.md)b1c2dfb9用同tau/K、完整active及两帽闭覆盖、marker Hessian；缺叶fullD为空，C² seam未付则full_surface_curvature/reach不能true。无实际接受场或数值预算。
 
 D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold≥.2D，含反射δE>0，全t reach≥.03D。材料点位移、core-to-core或core直径均不能替代。held可独立于reach求整个活动面与两帽，但全部证据须同场，不能套旧小幅证书。
+
+### 4A补充. 新连续C自己的完整112零尾与有限头
+
+[R312完整证明](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)现已支付原准确mode2校准根族（不替换为65/64）的全部m=2,4,…,224统一深尾：n≥160、物理端点F+1且F≥159，归一化转移扰动≤2^[-16−floor((F−159)/2)]，Green范数<9；唯一有界归一化尾给全112 Robin斜率，误差≤20ε_F，截尾/有限矩阵近似误差≤128(ε_N+η)再加实际除法舍入。准确mode2斜率为0；尾高度以C²平零接cuff。有效计算仍须固定有效选根规则及真正区间ODE，不把一次根族粗盒当收敛oracle。
+
+有限头必须使用同一R*(s)、w、q及真实D>0/合法cut/逆像；可逆二阶传递给非零(h_m,l_m)及总成立的Robin条件h_m k−l_m u=0。只有每个h_m真实不含0才准构造完整DN diag(l_m/h_m)。现未做有限头实际积分/非共振认证，没有新112零J或新非线性响应；不重标旧e788，不支付无限频R15图、means、闭面嵌入/reach或同场metric。geometry据此写独立深端全模态生产器，root继续新九族来源全文与直接公开执行。
 
 ### 4B. 连续原g与完整相对算子误差
 

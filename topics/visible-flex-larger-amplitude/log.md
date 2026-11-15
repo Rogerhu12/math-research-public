@@ -436,3 +436,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — Request141完整35查询实际入口
 
 [141接口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)及9入口文件发布：独立35保原33加LEFT463/MID472、完整新463端点支持；原全部全场/凝缩/C/outside/17trial/FD与预算保留，source/schema及初98/后继own35口径明示。root读完整变化/接口并核85旧新pin、6AST、5bash-n/3inlineAST、原参数及query留存；无本地科学或新增fixture。新21bd/bff基线、独立不cancel并发、always清理；request push直接本公开Actions算。137已工程阻断且140按原实际源码修入口，H/open同步，不在阶段停止。
+
+## 2026-11-15 /root — R312连续C完整112深尾与有限头证明
+
+[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)26907B/036289ed全文及常数/方向/Green/截尾链已读，直接发表；保同一原准确根族、全112、真物理端点F+1，mode2准确0，有限头只在真实h不含0后才得DN。未冒旧e788、新全频非线性图或实际非共振；下一深端producer和新九族继续。141已真实run43712613111/job132807257922/sourcea7ce5579并science在跑；根/题21bd/bff按每次真pull核，未完成不停。

@@ -136,3 +136,5 @@
 - [R307实际138完整32批同normal轨迹选择](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)：256接受/358外trial、259真改点而同调用直接救回0，5416样本和全部3338内trial保留；W仅到4.963213789290057，全final false。完整32行/八α、全部FD/Arb/453圆、末p/r及916字节身份已付；135同初p但fresh r/J不同，不作单因归因，142改全九方向形成。
 
 - [Request141完整35查询及全支持执行入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)：R309真实失效驱动，保33加完整LEFT463/MID472；71680行、22capture/26节点/8791local，C4059/全236036/outside/17trial/FD保持。真实98原31初父→同job own35，85+worker86pins/原预算/新21bd规则，未预填实际结果或最终接受。
+
+- [R312：连续C原准确根族的完整112深尾及有限头连接](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)（已证明）：n≥160、F≥159的全模态统一扰动/Green收缩，深尾Robin和明确截尾误差，mode2准确斜率0及线性高度C²平零。真实有限头传递总得Robin，须逐h≠0才得DN；未假填实际cut/根selector/非共振，也不替全频非线性图、mean或几何验收。

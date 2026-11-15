@@ -1,10 +1,10 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：ChatGPT /root（GPT-6 Astra Pro，AI-assisted）。**未完成；达到全部README标准后还须加强比例，不在阶段、时间或批次数处停。** 完整原值、证明、来源、失效范围见链接正文；当前任务见open。
+维护：ChatGPT /root（GPT-6 Astra Pro，AI-assisted）。**未完成；达到全部README标准后还须加强比例，不在阶段、时间或批次数处停。** 完整原值、证明及责任见链接正文/open。
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:12:25 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4b95ba8d3a2542b01b55d2879e724042a2117c20。
+规则同步记录：2026-11-15 12:16:33 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 fdbd2ac2c593d0904568c5335e11893f42336334。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -38,23 +38,23 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 
-137原fresh起19200s总/120s读回、owner6000含1200replay及四组件全scope均保；实际先于owner因入口分派阻断，R313记录日志事实与源码推断。140修首参数分派/完整stderr并接新operator，总cap/原science caps/独立audit预留沿新接口，不能把旧packet或133已清state伪接。
+137先于owner被入口分派阻断；R313分开真实日志和源码推断。140首参数/完整stderr、新operator及原19200s总cap/全部science cap/独立audit预留，不能伪接已清现场。
 
 旧规则runner可能按真实README变化退出；只读实际完整原结果并以新已读基线明确再生，不绕过或伪确认，不取消现有任务。
 
 ## 九控制与完整原场搜索
 
-[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)、[135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)均完整32批256接受；135 W仅到4.963213788986739、radius到9.5367431640625e−8，全final false。完整真p/r/FD/Arb/453圆及896字节身份在正文，不由整列FD或弱σ推无根。
+[134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)、[135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)各32批256接受/allfinalfalse；135末W4.963213788986739/radius9.5367431640625e−8。原p/r/FD/Arb/453圆/896身份见正文；整列FD或弱σ不证无根。
 
 [138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)全32批/256接受/358trial，259真改点而同调用直接救回0；5416样本/全部normal保留，W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部final false。135同初p但fresh r/J不同，不作单因归因。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)证明及helper50044473已发布：全9新方向、原度量G和原真实门，内部消去仍未界；142据138真末p另接，不复跑同小步。
 
-[130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)完整7pair/33trial/26拒，规则变化exit77，第8完整未知；MID472/LEFT463及已选MID471/483非线性失域均保。末raw已清。[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)现从真实98另起：保33加LEFT463/MID472，全71680行/22capture/26端点/8791local，C4059/全236036/outside/17trial/FD不变；85+worker86源，8批/10500s批间/175min，直接公开执行待真实run。
+[130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)完整7pair/33trial/26拒，规则变化exit77，第8完整未知；MID472/LEFT463及已选MID471/483非线性失域均保。末raw已清。[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)现从真实98另起：保33加LEFT463/MID472，全71680行/22capture/26端点/8791local，C4059/全236036/outside/17trial/FD不变；85+worker86源，8批/10500s批间/175min。已run43712613111/job132807257922/sourcea7ce55798404fec8fb3638c0fbf083250c5363b2，12:11:58起且science在跑。
 
 ## 连续目标、闭面与几何
 
 [R304](results/R304-actual136-cap-callback-budget-and-unpaid-domain.md)实际136为1800.0188949619999s/SystemError，日志1386片但producer返回0/全[0,1440)未付，query0/Rout空。[R306](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)付完整cap全C²及完整w、χ恒1、闭panel导数同号下三端点积分；139 f12f7470/request3c210929/workflow1e93333a保持1440片/六primitive/全深根/256bit/200000panel1800s/全宽门，确捕ResourceStop回传prefix/pending，未知异常仍真失败。
 
-[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154与完整接口待root全文发布；新C自己的全112零响应/far graph由geometry写R312，不能重标e788旧零J，不能预付非线性全频图。
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。factory650a/numeric93cc/augmentedb154待root全文发布。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振与新producer继续。
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给共享Hermite/全角cut/反射/cuff帽及强C²条件；同g atlas仍另责。[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)在明确末片条件下证明finite mask/clip一阶jump，九C²控制不消；实际descriptor未核，不推有限metric下界或完成。
 
