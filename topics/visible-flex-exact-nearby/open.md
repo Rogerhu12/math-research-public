@@ -133,3 +133,9 @@ newton负责原Green失败artifact最新成功prefix的临时恢复，并让下�
 ### 原整片域已实际通过，立即接非零入口源
 
 [actual43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md) child0/15：两target完整原片都在germ/Rg/RHO/RC，full65/full193五片exact knots与rootpiece一致。比较0.03972491499996522s，0旧数学。下一按E合同继承E_phase/F_scalar/ell_G，检查共同ray strip，再消费完整forcing/9词5mean/真实积分。该径向域门不替代角域或strong-return。
+
+### 有限径向子域中的第二标量间隙已保，继续真正余项与变化背景逆
+
+[B1–31](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)把两根完整密度 finite part 写成两项准确扣除+普通可积余项；实Fuchsian图保Piola，正侧Taylor图保y³全部principal残差/normal-trace Ai幅度λ^-1/3，给几何J真实首相位。只在明确weighted piecewise Ct4 H8196子域内；根Q/x到四阶由原真实polynomial germ另付，不从一般C4 profile推断。固定已知成员γ2，仍由P真实firstΓ保持ω，完整模型Δβ比<2^-2980000，gap>1/(256N_i|n|)，两mean不代β/n。
+
+下一付同一域全层4/3余项、真实高低列/中低选择和帽反馈；不能从每个分量有限常数推closed inverse。O的真实L−J残差差、+ψN及两mean/height仍保。旧解析成员≤2^133000X进此域；R Y64校正仍无自动Ct4/H8196输入，必须另做radial/angular smoothing与tame inverse。

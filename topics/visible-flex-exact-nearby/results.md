@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R119 补充 B1–31：有限径向两根首相位及固定第二参数间隙](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)：piecewise Ct4 H8196 子域内的真实密度 Hadamard 有限部等于几何返回首相位；正侧只用实 Taylor 图并付完整 y³ principal residual。固定已知成员的第二参数后，全层全非mean模型仍有>1/(256N_i|n|)间隙。全层余项、实际中低窗和变化背景逆仍待付。
+
 - [R133 实际整片域：43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md)：child0/15门，2547/2551整片都在原germ/Rg/RHO/RC，五片真节点full65/full193一致。新比较0.039724915秒、0旧数学；可继续非零入口完整源比较，未授新源界/强返回。
 
 - [R133 补充 E1–6：同一临时运行的三流 Green/Poisson 合成](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)：原准确三角端口使未来 Q、过去 V/W、未归一 E 三流独立；完整 Gram/同源 jump 正权合成后才同 C 归一。真实 Vcut、PC−I、even97、腰端、mean 和独立 cut trace 全保。新 public Actions 已部署，数值门尚待实际。

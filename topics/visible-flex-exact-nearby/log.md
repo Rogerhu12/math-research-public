@@ -25,3 +25,11 @@ root全文核36062B新SCI及25617B CI、6344B合同/6566B flow。原Qfuture与V/
 实际run43680556665/1 child0/15，比较0.03972491499996522s/parentwall0.2642209229999253。两原index及两自然shard从历史a3d84逐字恢复temporary，4pin bytes/SHA全过；五片exact dyadic knots在full65/full193一致且真seam/rootpiece不变。2547/2551整片原germ/Rg=3/8000/RHO=1/6000/RC=1/2000及严格侧全过，完整有理余量已原样写结果。
 
 root全文核actual-result4514B/SHA8bd0ae3d892cb1a603bcebc3f150a95ff5ded2d7dd69ade2c63e947c68644182与execution所有15门/5pins/truepull/child。0旧FFT/cubic value/target/norm/stage，新比较1。最新真pull05:19:46.281134到d13e520839a5beda65c2e8d240d7432f31362abf，两README diff空。临时process11799B仅留SHA581e0db4…，无newartifact/Release/data。下一phase只做非零entry新条带及完整源。freshmain b9a21a4bdcf6831c3e27e34cf3e7c76e6835c359两README未变。
+
+## 2026-11-15 05:27:04 UTC — B1–31 有限径向首相位及固定第二参数模型间隙已推
+
+root逐式核B6–9的s=x^-1/4 h展开、两Taylortrace扣除及FP，B10真实S±和差消元；newton独核Piola/null covectors→B11准确diagonal、B12常数5b/16和B项0。根正则曾指出Q/x四阶不能由一般C4给；最终已引用原F5三次B0/新A3四次B0及准确系数，sqrtB0四导另付2^12。root读取两个primary全文对应部分核身份。
+
+root核B21–23正侧有限Taylor图的完整principal误差y³，补真实normal-trace Ai幅度λ^-1/3：最坏y³λ²项完整L²_y为λ^-2/3，再source H^-2/3给4/3增益；cross/yy更好，全部Ai导数平方矩保。绝不复角求有限光滑背景。B31四次径向导对四态实际需第五角导，最终保五个1/8余宽。全层beta/γ1真实费用按原三段profile求和，固定已知γ2得模型比<2^-2980000及所有n gap；不删除第二metric外部方向。
+
+final26144B/SHA8dc64a91cce46c09e73078c89f4b42557e5cc38eddba04caeb548aa0f7a89e67。每分量4/3有限常数存在不等于全层closed Schur，变化背景逆/smoothing仍缺，真实L仍为J减O残差项。无新数值。freshmain 94c0b45f0e6b91471c9422c79ebdfa9c98c83adb两README未变，继续实际全层余项。
