@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 532a112f61abacbaadb590129c8a7317ead2a023（2026-11-15 13:46:53 UTC，Actions run43720771001实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43720771001-1.json。
+- **最近成功实际 pull 与已读规则提交：** 89209c5c1846c96c71db8fd6c58e50df3a5cc996（2026-11-15 13:48:51 UTC，Actions run43720944017实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43720944017-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地13:30:51实际pull到661a7b9cc0c932ad81310e81be2016c0470bab74，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -27,8 +27,9 @@
 
 ## 当前临时计算：同run直接接续
 
-- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现35步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
-- 原selected-natural-u-rebuilt、first-left-envelope、second-left-regauged和normal4-complete130全部保留。旧36/130单位解、166残差、21新单位解不重。normal5高消元保786pivot后的72.6MB slot1/179b3645…、全部H4与DAG，余501列未付；继续前先核H45真秩/完整高齐次，不能假满1736或只保4个非齐次头。
+- run43702348535/job132776011109仍活跃，请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现36步、idle3600秒。每步/每发布真pull核规则，全部大数组仅同job临时；完整源码、输入/输出SHA与失败历史见实际小回执和H归档。
+- 原selected-natural-u-rebuilt、first/second-left与normal4-complete130全保，旧36/130/21单位解及166残差不重。normal5保786pivot后的slot1 72.6MB/179b3645…、全部H4/DAG，余501列；真实目录selected-natural-second-left-normal-five-high-elimination。
+- step36高profile 831fee03…已全文审排60秒/2GiB：复用原H45，模31单位下界与29真源的严格高支撑交给Q上界，只有相等才闭秩；同核17取4真商代表并核原4354行。保全部2772列高齐次，不预设rank1736/新906，不重786pivot。接口含完整4318规范的源级证明。
 - same-source-koszul29-second/third-pairing保29真原核及旧29×58 rank6、全部21第三头坐标。完整β3=3/21头已闭；third21-normal-four-original-consumer实际全4354余rank4/kernel17，17四层来源及296072产品全真，raw12713B/e5950239…；whole余阵65222B/7835f183…和17头组合2138B/4a27a932…保存。
 - step34 same-source-koszul29-fourth-on17-pairing实2.793442951秒，17原R4、29×75 rank7/旧6、完整原75核投影16。配对217868B/7152e005…、核79458B/2f3c764a…、raw7661B/ce50560e…。第四完整秩[3,5]、λ4未构造；known来项13/full15缺2、第三显式17/full21缺4。补k第三头后上界r_k+4−k，补2且raw仍1可闭β4=3。
 - 零六zero-sixth-rhs-columns-checkpoint binding2ab96ac8…保完整高零head核2与低582单位。零八完整最后校正给58/49、K104；零九固定头2不提高阶、不盲续第十。旧pack与全部来源已归档，只借其公共阶下界，不冒作完整高页秩。
