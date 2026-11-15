@@ -64,3 +64,5 @@
 - [R676：原近自同构CM分子的单位逆与三位真实提升](../results/R676-original-unit-cm-numerator-and-three-digit-lift.md)：α=ω(p+ω)的同一原CM numerator给D=(ν−fα*)/p，整ξ=tH6基上所有特征δ_n≡−1−6nω²为unit，中央δ_s≡ω。完整canonical差先证p整除，Bα三位给实际来源两位并保三P_m/H^-hp/Xi；比较lift残差仍可见。原logΘ首p挠点准确等于−logBα(T)/[p(p−1)]，不预支闭边界逆、指数或指定非零。
 
 - [R678：有限原词的八角域、零质量差商与负一返回](../results/R678-original-finite-word-corners-and-negative-one-return.md)：同q†的八个互不相交原A/Q/L环带角域完整pullback，四整三阶差商权严格消全部质量，有限S/T相对log有准确非零赋值3(r+M)+3−2N+vI。原全算术行共同unit系数及全部外部保齐；同域对顶q1/观察和x²/y·A项明确不同，未据局部非零预支中央矛盾。
+
+- [R680：全十九角的原两jet能量与混合charge限制](../results/R680-original-nineteen-angle-root-energy-and-mixed-charge-restriction.md)：原Euler forcing完整中间框付H0(3C+L)、L·C≤8degY，实际全预算及接触曲线nef。charge同余的q个真jet及重复轨道给4q(H−r)≤3B_D²+8mmaxBct，临界排q≥4；一般D≥(√(8/237)−o1)√p。gcd1/2/3和同R第二forcing仍开，未免真实来源返回成本。

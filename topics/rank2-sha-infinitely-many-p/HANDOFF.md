@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：fcd27914a3e5df09ba9265b27b28e52a136c798f；2026-11-15 04:23:48 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 04:23:47 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
+- 最近已读规则提交：9f30d54d1dbe964cc167b6fa8defc98cffd9e93c；2026-11-15 04:28:17 UTC核两README无变。实际CI pull 2026-11-15 03:53:49 UTC/0acba0afc1615625ee3dece1706ec7dcdc0e6056（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 04:28:16 UTC仍无环境。最迟2026-11-15 04:45 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 记录、完整归档与分工
 
-R1–363、R365–560、R562–653、R655–678已登记；R364/R561仍开，R654/R679–682进行中。
+R1–363、R365–560、R562–653、R655–678、R680已登记；R364/R561仍开，R654/R679/R681–683进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r678.md)、[open](notes/2026-11-15-open-before-r676.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R676原近自同构CM分子的单位逆/三位恢复两位已付；续R681同一T_g首挠点的完整代数关系与R663余数，R654指定中央非零仍开。
 - theta：R678有限八角域零质量S/T负一返回已付；续R682同域q1/S1/T1完整相对行及权差，保x²/y项/差商/全低阶。
 - literature：R677同q†端点及整个J仿射族不能同时回S/完整O-X过滤已付；续R679端点六维来源的额外算术关系，保实际T失败支及全log。
-- deep：R672同目标p的两jet加权根能量/单charge余类排除已付；续R680稠密混合类与同R第二forcing，全部真实帽/carry保。
+- deep：R680完整十九角根能量/临界charge gcd≥4排除已付；续R683 gcd1/2/3的原mod12 regular高尾与同R forcing。
 
 ## 原对象、所有旧线与固定射线
 
@@ -63,4 +63,5 @@ R646全C高尾Smith≤7、R648列权旗标及早门不等旧短前缀；R657同P
 R637原短J在ell≤A_D、(D−n0+3)²>36(s−A_D)、fD<p时整满射，n0=max(0,ceil[2(D+3A_D+B_D−4)/11])；完整M仅unit/p及13自由，同R二阶类可吸。全曲线能量/W2/ABL假设付清。低ell充分D>约3.943√p，未覆0.413√p临界。
 两Euler首Gaussian方案全辅助比例的必要前缀≥(441/400−o1)D²，超旧47/48达37/300；仅排首层unit子式，不排regular高尾/重饱和。
 R672直接同目标p：清角M_D=5D+4−(D mod2)、r≥1、H=s−Δ（kerJ/真K2 Δ0，kerM Δ13）。完整重复/切向根能量≥4(H−r)，若charge单模q且有效B=(nmax−nmin)/q≥2，则≤6(M_D−r)B+3B²；r≥H另保简单门。临界p/D²→47/8排所有q≥8/单mod12块，但混合稠密核与同R forcing未排。
+R680全十九角真实Euler forcing∈H0(3C+L)、L·C≤8degY，原B_D及各接触曲线nef；同一charge对称给q个真实jet点，4q(H−r)≤3B_D²+8mmaxBct，mmax≤D/q。必要p≤[141/(8q)+12/q²]D²+O(D)，临界排q≥4，gcd1/2/3仍开；没有免费K_F来源返回/指定d2非零。
 Beta/广义Stieltjes正性不付原Padé；A2严格正密度也可有理。R640/642全部原界与同R搬运保持，不增中央零。
