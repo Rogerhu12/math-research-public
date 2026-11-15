@@ -379,3 +379,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:24:39 UTC｜guard终态首次真实读回并仅续未输出语义
 
 [guard首次只读终态](notes/curvature-guard-first-original-log-readback-20261115.md)：原log7918876B/hash8ce149f0…、146/140闭包一致，七model与原COMPLETE对齐；原终eta .26623355613853394/bothκ57.99982504159888/旧门盒true/新.26false。observer43768982932仅因589111B语义超自设180k返回LIMIT，不是科学失败；不预报DEV/使用/费用。现仅上限660k并强制已知原loghash，script26824B/SHA8270802ad2f9292b47430a0091270e844f60c673118d15544e15188ea293bc1d、workflow2083B/SHA1eb9b008b5985bce611672520e98124713d6e28382248883482d4027633404bd、request2405B/SHAb0aaa2b5787c2e3efbab49e34e2bd4fd6e5b340b37e2c6e5f71af4ad4be4217d；原selector不改、研究与开发0执行。两repo实际pull及空README差异已立即记H（public22:23:08 ab95e801…/private22:23:11 13c9950…），QUEUE本会话进行中。基底e5fefb8760cc605d44f58dc973a4c0aabe885b0b。
+
+
+## 2026-11-15 22:28:31 UTC｜guard新4全过、6实际接受及第7未完成模型的准确边界
+
+唯一原log通过observer43769144830全部语义回读；observer raw661449B/SHAce508cd8fe6731b6d9f6d8537603277b190b7a9d1ea0541c14d7f7fc1d027e6b。前三14原paid复用、仅第4组4新执行全过，七guard模型真实LP使用、六普通α1实际接受，原14门/精确盒/旧167/625通过。m7在scoped ceiling1后的epigraph gap未合，总10/12尚余2，不能将外层stalled标签当stationarity；下一只针对这条真实未完成接口。γ延后消费与438-bank/4525fine池已核，费用含230.7735s初验及pre-active J。原科学和两observer的actualpull/README差异均已读，H记录最新22:24:53/58双repo SHA。基底51fb1430e588a622fa233b9534b73b7f17d98f20。

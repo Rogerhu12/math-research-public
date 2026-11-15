@@ -155,3 +155,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R391已付：内部退化降为真实点通量，继续完整period
 
 [R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19完整值、整个低阶纤维、全部实际副本和解析平端；真实零流形上两偶quadrature/别包补偿给所有Af简单，p仅中心简单零。p零禁residue自动消；每Af点完整germ iff同一原累计F为零。原R345≤11指定对应Vd点现有完整光滑germ，非全部点或Ve；零点数可>11。下一付两目标其余点/整包通量、原仿射尾与右collar重建、R327同一相位13行；不要重做已付minor/秩或把指定必要值继续当高重充分。
+
+
+### guard首实际已读：下一处理未完成cut模型的原预算分配
+
+run43767357527七个guard主模型/新四检查通过（旧14复用零执行）；前6普通α1全14门通过，当前η.26623355613853394/bank438/γ17.022353404161095与18.064283125328743，原.26及reach欠。m7只授1primary，LP10/12后仍余2，完整epigraph gap2.4768679406952238e−5未合、inexact=true/无物理trial。不是凸模型驻点或guard不可行证据。下一按此已观察失败研究同一未完成primary的有限预算再分配：不增全12/per-primary3/40value/120active/10秒LP，仍保SOC槽和原gate，不重复前6或旧开发研究。完整费用/源身份见即将发表actual note及首次readback。
