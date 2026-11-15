@@ -76,3 +76,5 @@
 - **[1541个新增真枢轴与完整2751核心](results/R150-appendix-exact-low-fill1541-and-original-seven-core2751.md)：** 原七RHS问题在8.242471283秒精确新增1541步，总1567步，原4318单位系统严格化为2751核心/424921项；coeff3693bit、RHS3677bit。完整状态封存3.925719243秒，达到固定工作门槛时只保完整已提交pivot；原源/DAG/7RHS均保，Q核数仍29。后继只查正列内容、真实块结构和本job底层FLINT版本，按实际状态继续。
 
 - **原2751单位块的完整列内容与单一结构块。** [精确结论](results/R150-appendix-seven-core2751-column-contents-and-single-structural-block.md)：run43679903558实际2.807727007秒核全424921除法，2700非单位列，最大位数3693→3691，SCC仍2751。保原7RHS及完整逆代，未添有理核；接B-only行内容和真实RHS分母。
+
+- **2751原单位块全部行内容为一。** [完整检查](results/R150-appendix-seven-core2751-all-row-contents-one.md)：run43679903558实际2.560350913秒核全部424921系数，列归一后2751行gcd全1、七真实右端分母全1；系数3691bit不再降。无新核，继续可恢复原生精确求解，开发环境按实际检查。
