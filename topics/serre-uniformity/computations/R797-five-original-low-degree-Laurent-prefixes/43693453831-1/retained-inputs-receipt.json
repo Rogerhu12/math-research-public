@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "label": "R774",
+      "producer": {
+        "result": "R774-original-p41-Hodge-cube",
+        "run_id": "43631427773",
+        "source_commit": "93056f04536e61ccdd486674003b4d1380a27475",
+        "artifact_id": 14128247134,
+        "artifact_name": "serre-global-R774-original-p41-Hodge-cube-43631427773-1",
+        "archive_sha256": "91d9f6d926dc2a649d5fd401b9881cc6f88f8e233724408fbce8dcba109d1f0b",
+        "manifest_sha256": "4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222",
+        "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
+        "certificate_name": "p41-original-Hodge-cube-certificate.json",
+        "files": {
+          "p41-original-Hodge-cube-certificate.json": "aea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59",
+          "R774-original-L-cubic-scalars.json.gz": "b5b1232fa0585e6437d0e8d5f92b81efe672e91ed417bce7f6bc66c6456d596e"
+        }
+      },
+      "file_count": 62,
+      "all_sizes_sha256_and_original_schemas_verified": true
+    },
+    {
+      "label": "R794",
+      "producer": {
+        "result": "R794-original-low-degree-eta-basis",
+        "run_id": "43691270124",
+        "source_commit": "7cf160128953901a9e4c1d60cfd7cb5a45a17332",
+        "artifact_id": 14152074788,
+        "artifact_name": "serre-global-R794-original-low-degree-eta-basis-43691270124-1",
+        "archive_sha256": "5786585d55dc70b7279c8514afd7e1e528e2582f328aab4f12aee4ca9ba7c520",
+        "manifest_sha256": "2b052692106674a64896167a4b322f93fbe1f1efe08d8fcd5fbc328b28908cb8",
+        "core_sha256": "9fc7f30b06ebe4d2721fc5e67aecc40abae2d72a58268e8eac9164d3ff1c3d45",
+        "certificate_name": "p41-original-low-degree-eta-basis-certificate.json",
+        "files": {
+          "p41-original-low-degree-eta-basis-certificate.json": "c6c8c64146442992a4fd00431343fdd3502aaee216b8b7703ea5aad62dfdea9f",
+          "R794-selected-original-low-degree-eta-basis.json.gz": "5b96f623e1f43d834a7db21064ff2cb101284b9a4038e5434eb291b6e73f6e0f"
+        }
+      },
+      "file_count": 6,
+      "all_sizes_sha256_and_original_schemas_verified": true
+    }
+  ],
+  "all_inputs_from_verified_R797_active_bundle": false,
+  "only_shared_triples_original_model_witness_and_new_selected_differentials_retained": true,
+  "old_f4_H3_blocks_or_Laurent_coefficients_retained": false,
+  "old_arithmetic_recomputed": false
+}
