@@ -53,3 +53,7 @@
 ## 2026-11-15 15:26:10 UTC /root — request160完整128后四组件资格化修复
 
 [160接口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)五件写完即发：55原pins逐值全留→58，runtime/bridge及workflow来源块之外的完整替换逆序等于152原件；新v2只修条件冒号与统计类型，原576×224/112/混合338/audit、19200预算和全部原门/完整错误读回保持。未本地科学或编译，未预填结果；161已run43729456722/ce2b12c0，R341/342/343/344/345分别留151/153/145/155/161实际。API核d439e63457d22cc1575ac7b83847263eb3547853双README未变，真实pull行保留。
+
+## 2026-11-15 15:38:31 UTC /root — R341实际151完整覆盖与节点资源止
+
+[R341](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)四原report块逐字核后发：全u盖32977叶，65535/65536节点两子事务前止/10468未决/strict反证0/globalδnull，非900s墙钟；原九p/419片/同C/cut保持。compute大日志Transport closed一次未交正文，未冒全frontier独核，163只读恢复；159真BVP照原门继续。160/161均前13步过入原科学，H压缩R339/R331重复但完整责任仍在正文/open；API核980e1d0a3a715632606f58bc427c3f371f216a28双README未变，真pull行保留。

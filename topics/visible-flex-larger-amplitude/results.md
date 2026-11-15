@@ -208,3 +208,5 @@
 - [Request161：v2资格化后的同job完整230列严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)（源码/参数入口）：保150全部58源pin并加三新执行身份；共用v2仅分隔条件冒号/全局JSON token并显式选择原统计类型，原数学C++/certifier及门不改。fresh91/64J/R273/128后原stage10/step0/field0/320bits全230列，完整19200预算和所有原JSON/错误读回；未预付实际编译、证书或全native。
 
 - [Request160：v2编译修复后的完整128四组件入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)（源码/参数入口）：原152全部55pins保留→58，fresh91/64J/R273/128后全576×224、112边界、混合338及独立physical audit原门/预算不减。只明确JSON token分隔和原统计类型，完整旧读回/错误/依赖语义保持；实际编译及科学尚待Actions，未预填全native或证书。
+
+- [R341：实际151完整公共坐标覆盖与节点预算停止](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)（实际report明确范围）：全u盖32977叶，65535/65536节点在两子事务前止、10468未决/严格反证0、globalδnull，127.386秒未触900秒；同C/cut/原147构造保。report四块完整字节核；巨量compute传输失败，未冒全部frontier独核，163继续只读恢复，原同场metric/闭场未付。

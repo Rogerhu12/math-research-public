@@ -80,7 +80,9 @@ R314/R325即使实际完成也只付固定准确有限trace条件包含，不代
 
 [R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)已证公共u的准确L²、a(Lu)²、全可能片/九支撑/数值两侧、中心差和同场η+δ+ηδ。实际δ、δ<1及同一场参考metric前提未付；固定E盒不保证任意精化。
 
-[151入口](notes/2026-11-15-request151-common-coordinate-target-enclosure-interface.md)运行43724306509，保原147原子构造/20pins，以C3600、旧两域300和新target900/320整数网格/65536/depth32执行。先419全粗盖，再两子齐后替父；全部frontier与中断事务原样读回，严格反证和未决分明。它继续R320p，不偷偷改成149/154末p。
+[R341实际151](results/R341-actual151-complete-public-coordinate-cover-and-node-budget-stop.md)已读原report四块并逐字核SHA：原147原子构造和同C1440/cut两jet完成，真实target127.386056539s到65535/65536节点后，在下一两子事务前停止。完整公共u闭盖32977叶、10468未决、unvisited coarse0/interrupted null、严格反证0；全域域/半径/速度/目标比较未付，globalδnull，exit3。未触900s墙钟，不能称域反证或metric>1e−6。
+
+原report声明全部节点/frontier/事务已打印后清，但root的compute工具一次Transport closed未得正文，不能冒全部未决行独核。163仅从原Actions日志恢复原完整result/input/grid及真实未决范围，不科学重算、不增门、不上传raw。先据真实未决行区分域隔零/角系数/准确输入宽度/节点调度，再独立改变明确资源或算法；原九p、419片/两侧/R330、同场δ转移前提及所有责任不减，159真BVP不等这个充分证书。
 
 ### 3C. 当前C真正的数值provider：153
 
