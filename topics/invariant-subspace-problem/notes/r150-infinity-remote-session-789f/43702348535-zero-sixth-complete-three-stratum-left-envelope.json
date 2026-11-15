@@ -1,0 +1,76 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "zero-sixth-complete-three-stratum-left-envelope",
+  "executionSourceCommit": "a6245d8e3ee7682e2bb48cd76197664d73ee03b1",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+  "scriptSHA256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+    "--cochain-exporter",
+    "{scripts}/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py",
+    "--cochain-manifest",
+    "{work}/zero-sixth-preparation/fifth-joint-high-low-checkpoint.json",
+    "--cochain-receipt",
+    "{work}/zero-sixth-preparation-receipt.json",
+    "--fifth-receipt",
+    "{scripts}/43702348535-zero-fifth-joint-high-low-left-envelope.json",
+    "--checkpoint-dir",
+    "{work}/zero-sixth-full-source-checkpoint",
+    "--out",
+    "{work}/zero-sixth-full-source-receipt.json",
+    "--through",
+    "final",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": -6,
+  "wallSeconds": 187.548660079,
+  "fullTemporaryReceiptBytes": null,
+  "fullTemporaryReceiptSHA256": null,
+  "result": {
+    "status": "failed-no-mathematical-receipt",
+    "receiptAbsent": true,
+    "errorLogTail": "FLINT exception (General error):\n    Unable to allocate memory (8).\n",
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 11:18:51 UTC",
+      "beforeReadCommit": "f9d8da4e9a7b783caa51b6da4790c473fe471920",
+      "originMainAfterPull": "a6245d8e3ee7682e2bb48cd76197664d73ee03b1",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 11:22:00 UTC",
+      "beforeReadCommit": "a6245d8e3ee7682e2bb48cd76197664d73ee03b1",
+      "originMainAfterPull": "81ae4cf1bca04cdd1cd65d3a4e8ec28ad21884a3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 30,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 10291,
+    "logicalJsonSHA256": "20344b44baf377ab854afbe2faddc9d48aff7032c5547ef5949023d109fc23ad",
+    "itemCount": 30
+  },
+  "lastRulesReadCommit": "81ae4cf1bca04cdd1cd65d3a4e8ec28ad21884a3",
+  "summaryExcludesRecomputableArraysOnly": false
+}
