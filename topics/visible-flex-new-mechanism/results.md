@@ -311,3 +311,5 @@
 - [R152：固定h最高action与Sturm–Liouville二次型等价](results/R152-fixed-h-Sturm-Liouville-highest-action.md) — 用ψ=|k′|^(3/2)准确换元，任意有限时间平端k最高action非负iff∫[(4/9)cψ′²+eψ²]≥0。已付可数单调弧、零速度集a.e.及真实finite flat-cap反构造；e不必逐点非负。只一维最高层，完整h/k联动、低阶乘子及真实可达仍欠。
 
 - [R150实际：完整h轴D0仍未决，原根已保存](notes/literature-h-axis-sharp-actual-20261115.md) — 43657526246/source0d5df18完整保v4分部积分和两条未约化N2收缩，13.469s/RSS222.539；D0对已证42维空间仍205项sound余，非成员/符号均未证。12个完整新根gzip14497B，后继直接消费，不重做两收缩。
+
+- [R151：一般pure J恒等、九维响应像与新pure零代表](results/R151-general-pure-J-identity-nine-dimensional-range-and-kernel.md) — actual43657785023给J九项有理原响应表示，398项完整原差及31条新pure依赖全sound归零；与R131旧非零子式9条pure行合得dimπ(R−2)=9、核31，m8再丢3维。G³/J独立新类给42维E的pure核33，整个G/J轨道可取pure零代表；J七个ω后继pure入响应，N⁷[J]=0仅模R。不授J负成本或全U支付，零新profile评价。

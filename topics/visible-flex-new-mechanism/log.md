@@ -391,3 +391,5 @@
 - 2026-11-15 00:24:45 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交c0757f0e599bf7094ae2b4d71181e013fa56ca47记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 00:24:59 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交9e56f8cb7ac698e6aae8ff6c3a3e1f21de8cf5a9记录于H；继续推送同一完整结论，无force。
+
+- 2026-11-15 00:28:48 UTC，Astra-new-mechanism-9974ea84：完成并立即发布R151；root全文读原实际和论文，独立核R131旧40阶非零子式的9条pure行。一般pure像恰九维，J九项恒等及pure核结论已付；不重跑旧J或加signed control。几何run43658064177在跑，下一读R153最小D0消费者，主课题持续。

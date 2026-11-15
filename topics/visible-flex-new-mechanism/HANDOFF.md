@@ -57,11 +57,11 @@ R133的packet-only IBP实际43653293263保全P/A/R端势，1009正规packet余�
 
 R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B_p2(W1)[-4]/128，398项原差sound归零；1新pure、0mixed/profile/tail。原证书9533B/412dbe8f、main16657B/c02d93af。整个G轨道一般pure入响应像，(A_G∩kerπ)/(R∩kerπ)≅A_G/R；不授全U。
 
-R143实际43656084792/source82f3a12完成：J[-4]减R133固定六列，392项原差sound归约后65项，故一般pure成员**仍未决**，不证候选假或非成员。1.282s/RSS95.469；主28753B/ae03942b、证书15409B/f01f2086，0新响应/profile/tail/mixed。现派新源1a84590f消费G³40基的pure像求此单J：每条新依赖原差核零；目标若未决，才作一次原pure子式匹配真上界。8新人工过，240s/1024MiB；不盲换目标或重算旧块。
+**R151已解决一般pure J。** actual43657785023/source c606688消费40旧pure基，31条新完整原差核零；J的398项原差准确归零。九全局列0/48/88/112/41/73/81/193/170系数−3/16,−3/128,−7/64,1/64,−1/64,−1/8,−3/64,3/256,1/512。与R131旧非零40子式内9条pure行合得dimπ(R−2)=9恰好、完整R−2 pure核31；Π8再丢3维。G³/J两个独立新类均有pure零代表，42维子空间E的pure核33。R146还给J的七个ω条目pure入R、N⁷[J]=0仅模R；整个G/J轨道均能取pure零代表，不授J signed control/全U支付。4.134s/RSS94.234，零新响应/profile/tail/mixed；证书84283B/af46437f。R143六列历史不再重跑。
 
 
 ## 6. 正在运行与未付终局
 
-run43655713308的G7/mixed几何及43656084792的J均已success。G9已登记R149，链结束；D0已complete未决且R150已登记；J完整pure实际43657785023也已success待R151。当前仅curvature_target_ladder研究lane。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
+当前几何run43658064177/source bf3497f2仅curvature_target_ladder在跑。D0 actual已登记R150，literature准备R153：重用旧42×42真pivot，只评价D0和一条原整数lift组合的新查询，不重42×96；模零仅未决。R151已登记，tail续五族35个状态轨道生成纸证R154。root独占Git/派算；已完G链和J成员均不再复算。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。
