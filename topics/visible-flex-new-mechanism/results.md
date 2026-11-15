@@ -510,3 +510,8 @@ R222/R302完整成本、实际prototype/真倒行/M0/闭合和增强IFT保固定
 [R333 完整实际与实现证明](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)来自run43740129876/job132891272196/sourcea5383f62。R126原old编号下，E(C4)=−95E(R2)/768−E(R3)/3072−95E(R4)/1536+115E(R5)/768+E(R7)/64−29E(R9)/1024；E(C6)=5E(R2)/384−5E(R3)/1536+5E(R4)/768−E(R5)/384−E(R9)/512。两目标用已存pure三查询和R316全部13faithful比较列，旧self/Euler/pure映射零重跑；fresh2492/2198项原mixed复合T/Euler/重构全部零，实际selfword也0。八新人工全过，468新primitive，6.521884229s/115.6484375MiB。34直接绑定根核无差；metadata-only receipt56025B。
 
 严格推得E(U0)=E(R0)真维10，U0/R0联合核维9/6，零权商消失。配合R323满闭锥及R206/R212，R333展开真实正缩放/整数floor复制、prototype基准首商支付、第二t依赖商截面和有限n响应收缩，得到E(S)=E(U)及紧目标C1截面。它是相容wholepure+wholeuniversal self的同时实际控制，可取全Q/全T0闭hook背景；不是全权响应等像、wholecanonical任意signed控制或fullmixed/固定圆period/ruling完成。其它指定芽/Morse/两flux须真实增强联合接口，不能将独立可控系统相加。
+
+
+## 数值：首次准确物理转移通过，新优化前的数学度量哈希口径已修正
+
+[首run完整说明](notes/norm-memory-first-transfer-interface-result-20261115.md)记录run43740751558/job132893148520/source3821b425：十二新接口全过，159/163与原physical SHA通过，15.753480451s后在g metadata gate失败，尚无新优化、九旧优化0。原API区分整个metric描述与mathematical_definition SHA；首次代码误比较两层，现按原数学定义及其SHA双核，b0独立核，未变g/参数/预算。根README12下复用已经通过的十二人工，绑定110未改依赖和708B被测恢复函数；继续原未执行的新实际。原log95304B/SHA1139f0c7…，原dev12726B/SHAa49ab078…，全hash见说明。该结果不是物理g改变或算法不可行结论。

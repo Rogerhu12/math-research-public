@@ -317,12 +317,35 @@ def main():
         if hashlib.sha256(Path(path).read_bytes()).hexdigest() != expected:
             raise RuntimeError("requested source differs: "+path)
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    import frame_metric_norm_memory_development as development
-    check = development.developer_check()
-    check["source_files_sha256"] = implementation_hashes()
-    emit("NORM_MEMORY_DEVELOPMENT", check)
-    if not check.get("passed"):
-        raise RuntimeError("new norm-memory development checks failed")
+    previous = request.get("reuse_completed_development")
+    if previous is not None:
+        # Root consumed this immutable completed public output. Reuse its twelve
+        # passed new fixtures; the metric metadata gate was outside those fixtures.
+        import inspect
+        current = implementation_hashes()
+        for name, expected in previous["unchanged_source_files_sha256"].items():
+            if current.get(name) != expected:
+                raise RuntimeError("completed-development dependency changed: "+name)
+        function_source = inspect.getsource(transfer.recover_reference_heights)
+        if hashlib.sha256(function_source.encode("utf-8")).hexdigest() != previous["tested_recover_reference_heights_source_sha256"]:
+            raise RuntimeError("the tested exact reference recovery function changed")
+        emit("NORM_MEMORY_DEVELOPMENT_REUSED", {
+            "original_run_id":previous["run_id"], "original_job_id":previous["job_id"],
+            "original_source_commit":previous["source_commit"],
+            "original_report_bytes":previous["development_report_bytes"],
+            "original_report_sha256":previous["development_report_sha256"],
+            "completed_passed_checks":previous["completed_passed_checks"],
+            "unchanged_dependencies":len(previous["unchanged_source_files_sha256"]),
+            "tested_exact_reference_function_unchanged":True,
+            "new_development_executions":0,
+            "changed_metric_metadata_scope_is_checked_by_the_actual_transfer":True})
+    else:
+        import frame_metric_norm_memory_development as development
+        check = development.developer_check()
+        check["source_files_sha256"] = implementation_hashes()
+        emit("NORM_MEMORY_DEVELOPMENT", check)
+        if not check.get("passed"):
+            raise RuntimeError("new norm-memory development checks failed")
     try:
         prepared = transfer.prepare_transfer(request,
             args.out.parent/"original24-input-preparation-failure.json", started)

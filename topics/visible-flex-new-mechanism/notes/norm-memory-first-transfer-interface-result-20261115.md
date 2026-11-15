@@ -1,0 +1,61 @@
+# 首次精确转移：十二项新接口通过，数学度量哈希口径修正
+
+日期：2026-11-15。本文只消费已完成公开 run43740751558 / job132893148520 / source3821b425d6405116a44c3ada28d1cc84d50e0a5b 的实际原日志。没有本地研究、人工或新求值。该运行失败在新优化器启动之前；不把接口错误写成物理目标变更或数值方法失败。
+
+## 1. 实际达到的阶段
+
+十二项新语义人工全部通过。原NORM_MEMORY_DEVELOPMENT JSON子串保原格式再加一个LF为12726B，SHA256 a49ab07833b9c1b0208e3e0cda52b5933673e1bc5846ec638b2d9deb859bcdfd。
+
+这些检查包含准确单位球、改变中心/trust时旧A/b失效反例、两原分支支持、selected/新增原点导数、原ID/上下文、512记忆、第一LP的seed和共享计数、原SOC primary未变，以及非二进有理H下的准确height恢复与拒绝接口。
+
+随后读取并绑定原run43728280256的完整已完成日志、106源码和24旧输入。精确159/163列表、准确九height恢复、原canonical physical identity均已通过。下一行的g/b0联合metadata gate发生异常。run_audit及新的objective/优化循环尚未进入；九个旧优化器执行0，新的科学优化执行0。15.753480451秒是准备/输入/失败阶段总时间，不能报作新迭代费用。
+
+## 2. 具体接口错误及最小修正
+
+原frame_body_metric_design.py的frozen_definition返回外层模型描述，其中包含：
+
+- mathematical_definition：真正数学定义；
+- mathematical_definition_sha256：该内层定义的规范SHA；
+- schema和设计状态等其它外层说明。
+
+原FiveHeightField.snapshot以及旧159审计始终用内层mathematical_definition_sha256作为complete_metric_sha256。首版transfer却把digest(field.metric_model(q))这个整个外层对象hash与固定g的内层hash比较。两种scope不同；所以即使前一行原physical identity完全相同，也会拒绝。
+
+窄修直接按原接口同时核
+
+$$
+\operatorname{digest}(\text{metric.mathematical_definition})
+=\text{metric.mathematical_definition_sha256}
+=\text{原固定g SHA}.
+$$
+
+b0仍核原完整definition的SHA，并拆成独立报错。固定g仍为
+fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；
+固定b0仍为
+d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。
+没有改变任何物理参数、数学定义、精确列表、原验收或求解预算。
+
+## 3. 已付检查复用范围
+
+根README12禁止机械重复已经付清的检查。下一次只编译修改的transfer/audit文件，并消费上述十二项已经完成的新接口结果。
+
+memory算法、developer文件及其它110个依赖源码的SHA必须与首实际development记录完全相同。测试中调用的recover_reference_heights函数原文本708B，SHA256
+278c8b7c92c63844d8dcda0691ca18552317e75673463096a00ce9b6693a4e7b；
+运行时再次核其源码未改。新的数学g metadata gate不在这些人工中，作为此前未能越过的真实转移检查执行；没有虚称它已经通过。
+
+request记录原开发run/job/source、原报告bytes/SHA、110未变依赖及原函数文本SHA。新stdout明确NORM_MEMORY_DEVELOPMENT_REUSED和new_development_executions0，不重复发出伪装成新执行的passed报告。
+
+## 4. 原输出与pull身份
+
+完整decoded job log95304B，SHA256
+1139f0c7b79ba0ade1de081fe4324d8d4846870282e8ec66e63da904e1fd45c6。
+
+原TRANSFER_ERROR JSON子串加LF13193B，SHA256
+374f8be7f44d46fed96b8b18e943b4ec2537a1b1a04194863c3b03ea852f07db。
+
+runner临时audit.json13914B，SHA256
+4d47d0b7d4fd792e0f5285c98899438156a004d197b4267b4b65b86b779d3b20。
+文件和原数组没有进入仓库、artifact或Release；此处只有来源metadata与人类结论。
+
+本轮public实际pull完成2026-11-15T17:22:57.696611Z，read3821b425d6405116a44c3ada28d1cc84d50e0a5b，根/题README无差。private实际pull完成17:22:59.993400Z，read9e6139ca87a48dcb5d5cbc21fab9a67ef9fc0d0a；根blob5ba164843b1f5802184178a82d786264404873a3、题README缺，规则无差且QUEUE唯一进行中。本机环境再次仍不可用；API小文本集成不冒实际pull。
+
+下一次执行只继续未进行的新数值方法。对原物理/g/b0/坐标/盒/两网完整值的真实门仍逐项负责，任何失败准确记录，未满足主README标准之前继续。

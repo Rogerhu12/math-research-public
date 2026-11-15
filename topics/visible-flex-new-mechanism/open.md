@@ -150,3 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R330两partial flux只保十个self，不能与本全E控制直接相加；具体δK的全Q可能非零，须真联合kernel/增强控制。R335继续原Ω完整Green尾，不以Q0冒全mixed或period0。
+
+
+### 数值首转移接口失败已定位并窄修
+
+[原实际与修正](notes/norm-memory-first-transfer-interface-result-20261115.md)：run43740751558十二新接口通过，准确物理identity通过；g gate把外层模型对象hash错比内数学定义hash，新优化尚未进入，0旧optimizer。按原API改核mathematical_definition及其原SHA，b0单独核。下一运行核110未变依赖/被测恢复函数源码并复用12人工，只继续真正未执行的新数值求解；不能把该metadata异常当g漂移或算法实验失败。

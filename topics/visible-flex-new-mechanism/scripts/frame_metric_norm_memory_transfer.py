@@ -165,9 +165,12 @@ def reconstruct_same_field(original, initial24, original_gate, lower, upper,
     require(field.coordinates.physical_exact(q) == physical, "new affine map changes exact physical point")
     require(digest(field.identity(q)) == request["original"]["final_physical_sha256"],
             "reconstructed canonical physical identity differs")
-    require(digest(field.metric_model(q)) == request["fixed_complete_metric_sha256"] and
-            digest(field.height_base_definition) == request["fixed_b0_definition_sha256"],
-            "permanent target metric or b0 changed")
+    metric = field.metric_model(q)
+    require(digest(metric["mathematical_definition"]) ==
+            metric["mathematical_definition_sha256"] == request["fixed_complete_metric_sha256"],
+            "permanent mathematical target metric definition changed")
+    require(digest(field.height_base_definition) == request["fixed_b0_definition_sha256"],
+            "permanent b0 definition changed")
     definition = copy.deepcopy(field.coordinate_definition)
     new_reference_tag = definition["reference_physical_sha256"]
     definition["reference_physical_sha256"] = request["original_height_reference_physical_sha256"]
