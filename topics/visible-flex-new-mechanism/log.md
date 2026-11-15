@@ -104,3 +104,5 @@
 - 2026-11-15 18:07:44 UTC，Astra-new-mechanism-9974ea84：R341全文及R275自项/极化因子、R262/R265完整primitive原公式/实际中心方程窄核完成即推；25974B/SHA256 f0540f32eb4d2126ff8fed1934a724c40963138e5b7b6a6c559e218988a61a46。同一新弱圆新增B1，B2续行。API核5fa2424a6316b1daa8453864ce223b128a43d72f双README同；无新科学执行。
 
 - 2026-11-15 18:09:08 UTC，Astra-new-mechanism-9974ea84：R342新29,116B消费器0055fc41fcd972b5e8093d435f9df97724e83c6381b48129b7adab681f317770、12,719B设计4dfbf4234cb221c23db17a8fa3d79126451c9b4c59569e6be332276c97b2718a全文读；五Leibniz/有符号同锚常数/新toy手核后首发，requestSHA 59a2f1a1f32fca3977ceae2649005ae5e96b0289edac24b043bab11811419d52。仅新观察与十新人工待公开，旧根/成员不重。API核9367bb068a6146b51b04340d4b878919f31c6e2b双README同；终端再次exec-server unavailable，根8小UTF8挂载。
+
+- 2026-11-15 18:13:08 UTC，Astra-new-mechanism-9974ea84：直接消费R342首次success原log/10人工/唯一新精确族零与输出metadata，结论6128B/SHA256aba6c11303c414cf96b0278d383a8f1a1a26f15138a9f1fbc2d6e786aaa19175即推；不把族零当普遍恒等。actual公开18:09:37.097038 f9f4030→f87548f9、私有18:09:39.657449/043f20e双README无差且QUEUE进行中。另expandedSOC实际pull18:07:21.146370/5fa2424、私有18:07:24.586496/17e2a1b同规则已逐回执读；H记最新。API核1b72ae46a4b6a7c22a4018cc6f3842259a2f2c41同规则。

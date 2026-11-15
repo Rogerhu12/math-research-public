@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后actual pull/read `455f6c7e2e70ec5db2564de0db085074821dbf1c`，2026-11-15 18:00:53.242588 UTC，run43744268876双README无差；下一最迟19:00:53。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `f87548f9f12b6cac624040b52a4aac03f6dab4b7`，2026-11-15 18:09:37.097038 UTC，run43745111286双README无差；下一最迟19:09:37。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 18:00:57.232954 UTC实际pull/read `3e1c3ec396fbba3afecd2c8cd5a938ddfbf7ab26`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
+私有2026-11-15 18:09:39.657449 UTC实际pull/read `043f20e3709f8693bc7e08d4c847fa8c7dd3f662`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
 真实研究及新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法、元数据及既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧data54107494B。本地unavailable，按根8小UTF8发布，API非pull。
 
@@ -37,7 +37,7 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 **R314–333完整pure/self**：R314九T/局部Euler六jet忠实，R322真权σ→selfσ−2。R316 H*为π0/整Q0/λ+1，完整13核self rank7不重。R323负权−8 self0、−6二维/−4八维响应覆满，E=(π,全Q)实际闭锥=E(U)。[R333实际控制](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)用run43740129876/a5383f6/job132891272196两C4/C6 MEMBER、8新人工与fresh2492/2198原差；R126 old标签准确式见稿。严格E(U0)=E(R0)维10/两核9与6，零权商0，非全权等像。原两商截面/全部原型桥基准/有限整数及最后响应收缩给**E(S)=E(U)**和紧集C1截面，wholepure/wholeQ/整T0背景可实付；不是任意不相容pure×Q。完整canonical λ仍正。wholemixed/period/同规范及额外门不自动联合，R340单独付两flux接口。
 
-**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消R−6；**R342首新观察已发**：只读R144四mixed原根，A=N⁷G+315R0/32+315R2/16−315R3/32为π0；预定C7族精确λ多项式/同锚常数全保，非零才C4连续推真光滑见证，零仅族未检出。新10人工/科学只Actions，旧根/pure/self/rank0；未知结果，非全period。
+**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消R−6；**R342首实际43745111286成功**：四原mixed根的π0成本A=N⁷G+315R0/32+315R2/16−315R3/32，在预定C7一参数族的Ω多项式准确0；10新人工过，3.665s/1,232,486乘积，旧根/pure/self/rank0。仅该族未检出，非普遍恒等/完整period；续真泛函结构。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -50,4 +50,4 @@ R281解析prefactor给有限阶退化；真尾/端germ iff不授未付flux零。
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 9367bb068a6146b51b04340d4b878919f31c6e2b，双README blob同。API读取不冒实际pull。
+断连API复核main 1b72ae46a4b6a7c22a4018cc6f3842259a2f2c41，双README blob同。API读取不冒实际pull。

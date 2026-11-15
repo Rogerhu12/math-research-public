@@ -306,3 +306,10 @@ R334已经支付的两完整面积、third和指定层仍真；本稿只排上�
 [R342 原式与设计](notes/weight-minus6-total-flux-observer-design-20261115.md)保R138原pure恒等式，对三位置手推五种N⁷分配并消费R207既有pure坐标，准确得到A=N⁷G+315R0/32+315R2/16−315R3/32、πA0。R338证明全部R−6纯核的Ω0，故本次只新观察该A的真实Ω。只读run43655713308/d21c87a四mixed−2原根及完整原积分常数，−4规范和右锚4明确；不重编旧根/forcing、pure/self/rank或旧检查。
 
 固定支撑[2,3]、t=x−2、uλ=t8(1−t)8[1+λ(2t+3t²+5t³)]，求精确Q[λ]≤5整多项式；非零才六预设参数选见证，并由C4连续推真实C∞紧见证。原零延拓仅C7，零结果只能称该族未检出，不能称普遍恒等。新标准库消费器与十人工先在独立公开Actions首次执行；120秒/512MiB/15M有理乘积、原右锚逐可达正profile次数检查，来源/锚或预算失败如实报。输出只runner临时/有界stdout，正式仅代码/请求/run/hash/人类结论。结果尚未产生，不宣period或主课题达标。
+
+
+## R342：预定族总通量准确零，普遍泛函仍未判
+
+[R342首次实际](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)：run43745111286/job132906586198/sourcef9f4030bfea092d5dfd82cf1989a0e13e73c1cdb成功。10新增人工全部过；只读四个原mixed−2根，准确求预定uλ=t8(1−t)8[1+λ(2t+3t²+5t³)]下A=N⁷G+315R0/32+315R2/16−315R3/32的整Q[λ]总通量，非零系数表为空，无见证。真实同锚常数/各层支持检查保，非仅六点浮点零。新观察3.664958819秒、1,232,486有理乘积、最大169bits/λ5/t86、RSS51272KiB；旧根编译/旧开发/成员秩0。
+
+准确结论仅Ωuλ(A)=0对该预设一参数C7族；不能推任意C∞ profile、全U−6或完整period。原R338响应消去和R144非成员仍真。runner报告6458B/SHA256fafb8df1127d9a675db9fe265cb3aa972f8212410ac5ad3eabd404384b33a36f，原log71466B/27f5423ad25625325d2dbe502edf82c5a9f7b4eb1451f0af6a84032d5b506ff1；无payload/artifact提交。继续普遍Green尾与成本泛函结构。
