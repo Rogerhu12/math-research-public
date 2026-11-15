@@ -1,0 +1,109 @@
+{
+  "result": "R799-original-power7-power8-short-bases",
+  "p": 41,
+  "source_repository": "Rogerhu12/math-research-public",
+  "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+  "job": {
+    "result": "R799-original-power7-power8-short-bases",
+    "p": 41,
+    "power6_new_interval": [
+      82,
+      109
+    ],
+    "new_basis_dimensions": {
+      "7": 1778,
+      "8": 2050
+    },
+    "new_basis_bounds_qY": {
+      "7": 95,
+      "8": 108
+    },
+    "anchor_indices": [
+      0,
+      1,
+      73
+    ],
+    "auxiliary_prime_start": 739,
+    "auxiliary_prime_policy": "ascending primes from739; omit divisors of82",
+    "selection_batch_size": 64,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R799_original_power7_power8_short_bases.py",
+    "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+    "proof": "results/R799-original-power7-power8-minimal-basis-construction.md",
+    "R799_proof_sha256": "ca6abba83ba9bb0c843f3ef37b6fe3f703c380bc7e0be3339c05df9a7b7a54b4",
+    "method": "notes/R799-power7-power8-minimal-bases-method.md",
+    "R799_method_sha256": "d1e489cdf8dfeb2b7fc2607e10831b599b6dcd8b20330e554b9e8203020133f9",
+    "workflow": ".github/workflows/serre-p41-original-power7-power8-short-bases.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-power-6.json.gz": "05c5580b73eeba72b832e2a871221c19c482baf1c9656cab62a0c2c694ffafa1"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      },
+      "R795": {
+        "result": "R795-exact-original-power6-short-basis",
+        "run_id": "43692029484",
+        "source_commit": "ac6d8fff1e1905539339bf1bec39365fd62312ba",
+        "artifact_id": 14152762920,
+        "artifact_name": "serre-global-R795-exact-original-power6-short-basis-43692029484-1",
+        "archive_sha256": "557bb851ffe175643aa2b759fab3f378afdd51ef5d665fd4508a2a1f22ab8248",
+        "manifest_sha256": "fb4a8f656c66d5ae10dee052baab79c07b43c7e7f19bb66b6e7d71be13b83ada",
+        "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+        "certificate_name": "p41-exact-original-power6-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power6-short-basis-certificate.json": "c5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae",
+          "R795-exact-power6-basis-index.json.gz": "9c2d5a8731b491b464cc7580d1b504a4c7efac957a46b56a1fa7137049f06358",
+          "R795-exact-stages-manifest.json.gz": "37b3894e51f834bbe26113c2d4346de6a3f804114970a371e35783a105f3d064"
+        },
+        "input_bundle": {
+          "file": "R795-retained-producer-inputs.tar.gz",
+          "bytes": 50326942,
+          "sha256": "87ad3ae7b639688467871a5b124be5ff5e0353464540e5d30fa23df7a962d6c4"
+        }
+      }
+    },
+    "resume": null
+  },
+  "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+  "proof_sha256": "ca6abba83ba9bb0c843f3ef37b6fe3f703c380bc7e0be3339c05df9a7b7a54b4",
+  "method_sha256": "d1e489cdf8dfeb2b7fc2607e10831b599b6dcd8b20330e554b9e8203020133f9",
+  "driver_sha256": "f74313ac65b2b34cc8079e3506e97c8ca60211a2cf92fcd64df01bc49f6211a4",
+  "request_sha256": "5b726dc8d7f5e2b81141d1246a110eeb97341804b50f16b1cf90fb02636572f1",
+  "root_readme_sha256": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+  "topic_readme_sha256": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d",
+  "workflow_sha256": "78386c03135c5a464a11f71b3c7653812cc3a9e894945623cbdb7bd11b3b8e8e",
+  "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+  "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "prepared_at_utc": "2026-11-15T08:40:14.749572+00:00",
+  "new_arithmetic": "only V6 q82..108, V7 q0..95 and V8 q0..108 with actual complete-coordinate minors",
+  "actual_original_function_polar_divisor_beta_eta_or_height_claimed": false
+}
