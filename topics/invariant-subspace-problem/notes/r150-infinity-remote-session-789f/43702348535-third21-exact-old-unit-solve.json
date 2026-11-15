@@ -1,0 +1,194 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "third21-exact-old-unit-solve",
+  "executionSourceCommit": "ed99d59cb572b7439904cf73de2ba02933c4f337",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third21-exact-old-unit-solve-runner-789f.py",
+  "scriptSHA256": "22e0a697e0ba9cccd93264adf3da5ac82e4a20aba4940975d09cb25b691a4a52",
+  "argvTemplate": [
+    "--prepared-out",
+    "{work}/third21-forcing-support-preparation-v2",
+    "--regauged-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--unit-worker",
+    "{scripts}/2026-11-15-r150-selected-left-normal-four-unit-solve-worker-789f.py",
+    "--out",
+    "{work}/third21-unit-solve",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 26.824356250001074,
+  "fullTemporaryReceiptBytes": 3705,
+  "fullTemporaryReceiptSHA256": "15682db0c90b8c29b2948a26c835895eb0e7a46faca87dd38260c63ca4772eaa",
+  "result": {
+    "all21CompleteUnitSolutionsSaved": true,
+    "all32466OriginalUnitProductsZero": true,
+    "explicitNewLambda3SourcesConstructed": false,
+    "full4354OriginalThirdProductsStillRequired": true,
+    "full4354OriginalThirdProductsVerified": false,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 26.761078060999353,
+    "newRightHandSides": 21,
+    "old130ExactUnitSolutionsRecomputed": false,
+    "old36ExactUnitSolutionsRecomputed": false,
+    "outcome": "all21-exact-unit-solutions-original-products-complete",
+    "phase": "complete",
+    "status": "completed",
+    "parameters": {
+      "actualWorkerParameters": {
+        "algorithm": "fmpq_mat.solve(dixon)",
+        "all1546OriginalUnitRowsVerified": true,
+        "all4354InputRowsDecoded": true,
+        "allCompleteRationalColumnsSaved": true,
+        "allOriginalRowContentsVerified": true,
+        "candidateTemporaryOnly": true,
+        "checkpointBindingVerified": true,
+        "correctionVariables": 1546,
+        "denominatorBitLengths": [
+          589,
+          596,
+          549,
+          106,
+          599,
+          597,
+          596,
+          588,
+          584,
+          583,
+          6127,
+          6193,
+          603,
+          6206,
+          6190,
+          6199,
+          6197,
+          603,
+          6203,
+          6194,
+          6193
+        ],
+        "dixonReturnedCompleteRationalMatrix": true,
+        "full4354ProductVerificationStillRequiredByCaller": true,
+        "largeDataUploadedOrCommitted": false,
+        "originalRowCount": 4354,
+        "originalUnitProductCoordinates": 32466,
+        "paidUnitDeterminantModulo31": 5,
+        "pythonFlint": "0.9.0",
+        "resumedCompleteCandidate": false,
+        "rhsAndMatrixBothRowDivided": true,
+        "rhsColumns": 21,
+        "selectedOriginalRowsSHA256": "dbc92cfdb8c4fc61176d2052485861f067defa9b653d9c37c0414186617c8155",
+        "signalStopRequested": false,
+        "timeoutAndMemoryManagedByCaller": true,
+        "unitDeterminantRecomputedByWorker": false,
+        "unitPrime": 31,
+        "unitRowCount": 1546
+      },
+      "all4354PreparedRightHandSideRowsReverified": true,
+      "binding": "fbb22b5b1d9ea4500455d1cddc8f0f1e3bdb23f62744d5737edcbd391b083a42",
+      "completeSolutionSavedBeforeProductVerification": true,
+      "completeUnitReceipt": {
+        "bytes": 2131,
+        "sha256": "f65f843bef9856075220b87c1870edbee50cdf8f5bbbad09564db1c8fbb0303d"
+      },
+      "completeUnitSolution": {
+        "bytes": 9850907,
+        "sha256": "92f802330ac3c61fa30dc31b03b43ca4dfd534e4539f5d1ffde2a344a2829366"
+      },
+      "lastActualUnitCheckpoint": {
+        "all1546OriginalUnitRowsVerified": true,
+        "binding": "3ac423ccd312ea0fa7084f70b9a2fb788a26822a62e9918998f17d6762fc371a",
+        "candidateFile": "complete-m0-unit-solution.json.gz",
+        "candidateIdentity": {
+          "bytes": 9850907,
+          "sha256": "92f802330ac3c61fa30dc31b03b43ca4dfd534e4539f5d1ffde2a344a2829366"
+        },
+        "completeSolutionSavedBeforeProductVerification": true,
+        "elapsedSeconds": 26.314903170001344,
+        "format": "isp-selected-second-left-unit-solve-receipt-v1",
+        "inputIdentity": {
+          "bytes": 5511912,
+          "sha256": "675fea9cbc0be933f7c1dc742552184fd62ccdc21acd17efa9b5ba91de05b623"
+        },
+        "lastVerifiedColumn": 20,
+        "originalUnitProductCoordinates": 32466,
+        "phase": "completed",
+        "status": "completed",
+        "verifiedColumnCount": 21,
+        "workerSHA256": "c9e1eee6142d29daf661682e177702825e90aef7222611baa2adadaffe0dc731"
+      },
+      "memoryMiBPerProcess": 4096,
+      "oldUnitIdentity": {
+        "bytes": 9008513,
+        "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+      },
+      "preparedProgramIdentity": {
+        "bytes": 14109,
+        "sha256": "a6bb496eeff96c9a7ca69583f372190e2974e89335b677ea29b5e89c74a2df48"
+      },
+      "preparedReceiptIdentity": {
+        "bytes": 4842,
+        "sha256": "d808ccef10e2388fd3618de07b2981dff7f4545c0140adaee00bd624d78cc2e1"
+      },
+      "programIdentity": {
+        "bytes": 8444,
+        "sha256": "22e0a697e0ba9cccd93264adf3da5ac82e4a20aba4940975d09cb25b691a4a52"
+      },
+      "rowScalingFormula": "U_i=M0_i/g_i, R_i=-rhs_i/g_i in Q; no divisibility of rhs by g_i required",
+      "secondsLimit": 300.0,
+      "sourceBinding": "3ac423ccd312ea0fa7084f70b9a2fb788a26822a62e9918998f17d6762fc371a",
+      "unitInputIdentity": {
+        "bytes": 5511912,
+        "sha256": "675fea9cbc0be933f7c1dc742552184fd62ccdc21acd17efa9b5ba91de05b623"
+      },
+      "workerIdentity": {
+        "bytes": 16412,
+        "sha256": "c9e1eee6142d29daf661682e177702825e90aef7222611baa2adadaffe0dc731"
+      }
+    },
+    "events": [
+      {
+        "elapsedSeconds": 26.37758838300033,
+        "exitCode": 0,
+        "stage": "unit21"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 13:10:51 UTC",
+      "beforeReadCommit": "8f3c4ce5ea78ce6bf10941315bd2ea4bb749b05c",
+      "originMainAfterPull": "ed99d59cb572b7439904cf73de2ba02933c4f337",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 13:11:18 UTC",
+      "beforeReadCommit": "ed99d59cb572b7439904cf73de2ba02933c4f337",
+      "originMainAfterPull": "b8fd579991d5c39c922172949424c8df4208af83",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 65,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 22296,
+    "logicalJsonSHA256": "9afbd0ddab0bf0889e9d59b345f521664e46aa406462371cde6cd4df8cffb5aa",
+    "itemCount": 65
+  },
+  "lastRulesReadCommit": "b8fd579991d5c39c922172949424c8df4208af83",
+  "summaryExcludesRecomputableArraysOnly": false
+}
