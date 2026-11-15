@@ -443,3 +443,6 @@
 
 
 - [R405. 完整dyadic层、全指数与一次RN113点积](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)：完整113-bit字词/全部非零尾位与指数；20bit有符号digits、每2048项int64绝对和<2^51，12层/64MiB只选实现，宽路径保226-bit乘积和完整carry。正负准确重构，直接subnormal量子、guard/sticky/parity、overflow tie及带符号下溢；准确零+0。15867B/b70e768a证明及18871B/5c2a0cb1自有kernel，无Boost/BLAS；未执行/未编译/无新fixture。只证明输入字词dot及其末次舍入，原系数/因子/全导数/最终门与性能另付；192完整链继续，186/190冻结不改。
+
+
+- [R391. 实际184真实coast选点、新C与正范数未付](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)：43756949463/cd459815双job failure已完整读。五帧原必要与compute逐字同；真实180 recipe/definition恢复，新C1440/两query粗包围、factory base452/current1846叶、deep112完成，但2883工作宽片未付。m2仅52accepted/119work，row18/piece4/[0,2^-32]/d32正范数表示失付，33栈+[19,10387)/111模式及全BVP未起；线性0.266761s/stopnull非资源。六必要/quiet后确清，不冒零向量/极点或native拒绝；187独立修复继续，不回填184。

@@ -526,3 +526,7 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 21:35 UTC /root — R405完整位点积证明与源
 
 [R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)15867B/b70e768a与18871B/5c2a0cb1 kernel全文核后单独发：完整significand/指数、20bit int64分块/宽carry、正规及直接subnormal一次RN113，无Boost/BLAS/本地科学/新门。仅修源注释最坏65820bit，不改代码；输入字词准确dot不代上游形成/原因子/完整导数误差或提速，192接全224列与原全链继续。H/open压缩已刊重复来源，完整原文在190前检查点；open§4–6逐字保，R407日志分钟按真实发布改21:33。
+
+## 2026-11-15 21:37 UTC /root — R391实际184完整原读回
+
+[R391](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)17148B/35d97b51全文核后即发：真180确定性恢复、新C1440/两query粗包围与factory/deep112齐，2883工作宽未付；far m2实际row18/piece4/d32正范数失付，33栈/后续[19,10387)/111模式/全BVP未起，非传播资源。五必要帧同compute、六读回success/quiet后确清；187正端点独立继续，H原9929B逐字检查点后压缩，open§4–6不动，完整任务仍未付。

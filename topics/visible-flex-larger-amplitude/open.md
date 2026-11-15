@@ -101,6 +101,8 @@
 
 [184入口](notes/2026-11-15-request184-selected-coast-Pruefer-full453-interface.md)十源/74pins、driver53/native27：真180原九词/receipt→630c/ba8恢复→fresh C/原0d893 factory/e5ab初域语义→R380全角/实际μ/每候选QPi单位行→原112/338/453/FD/final。准确family/root/初域语义保，盒不须相等/子集，新shadow/J/metric/活动p另付。namespace18900、实际clip、BVP7200/360job；单90KB必要/六读回/quiet后清，184独立不改，exact核R391。
 
+[R391实际184](results/R391-actual184-selected-coast-fresh-C-and-positive-frame-unpaid.md)完整原读回：run43756949463/sourcecd459815双job failure，五必要帧逐字同compute；真180 recipe2136/cc87与definition377615/f568精确恢复，fresh C1440/两query有效粗包围齐但全域2883工作宽片未付，factory base452/current1846叶零未决，deep112完整。m2原52 accepted/66 split/119work，最后提交row17，实际row18/piece4/[0,2^-32]/d32正范数失付；33完整栈+[19,10387)/111模式未起，0far/unit/BVP零call。线性0.266761s/stopnull非资源，顶层errornull不抹模式错。六必要全成功/owner quiet后确删raw；后继187已独立运行正端点表示，不回填184、不冒真实向量零/极点/共振。
+
 [187入口](notes/2026-11-15-request187-positive-endpoint-Pruefer-selected-coast-full453-interface.md)十二运行件：helper91dd207b/kernelc2f515aa/far965c277c/七薄身份，request075a/wf589f；原74全保→84，driver55/native29。原相关下界不改，log/sqrt分别取准确正端点、倒数准确端点装球只乘不除；完整实角/幅度/取向及先归一再hull保，新旧浮点行不称同。真180→fresh C/factory/e5ab→本次全112far→原453，原全部参数/预算/FD/终门和六必要/quiet后清；actual R396未预填。新kernel的fullcut主程序未另跑，其完整cut责任仍未付。
 
 ## 4. 同一g闭合与真正九冻结450
