@@ -557,3 +557,5 @@
 - **原Y逆芽也有领先12.5的真实负轴障碍。** [独立全证明](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)先保R=2r*内全部真实分母和导数符号，原负轴首临界给RψY<4e20 r*，无需假设该点单根。领先指数不能固定降小；安全次阶半径、Green和回返费用分别保原范围。
 
 - **新六规范真核的实际高度与全部p768同余。** [完整记录](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)实际3.456136225秒，六列全部6188来源同余和4367新整数乘回真；分母2356–3803bit、分子最高3868bit，均不满足该精度的平衡/乘积充分条件。准确解释旧恢复未成与真核存在相容，不排所有算法；核数仍29。
+
+- **2026-11-15，原65521单次秩及七列真Q入口：** [R150-appendix-single-prime65521-rank-after-paid-twentynine](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)：原4367×4325在唯一新素数上rank4318/null7，14.919986302秒，全原乘积真；Q区间仍4318…4325。已锁原4318×7精确有理求解与全残差小核[接口](notes/2026-11-15-r150-seven-original-exact-rational-solve-interface-789f.md)，600秒/4GiB，实际完成前不提升结论。

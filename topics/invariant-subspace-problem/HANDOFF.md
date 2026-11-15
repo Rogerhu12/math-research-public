@@ -41,11 +41,10 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成，65521原rank仍4318，下一只解余七真Q；不续多素数。20分钟空闲/6h job上限，不持久化大数据。
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成；[单次65521](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)原rank4318。已入队seven-original-exact-rational：4318原单位块/7有理RHS、全4367残差小核；600s/每进程4GiB、同out可--resume。仅回执完成后才更新Q秩，不续多素数。20分钟空闲/6h job上限，不持久化大数据。
 
 - 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
-- paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
 - 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
 - 全部实际小回执在notes/r150-infinity-remote-session-789f/；6旧Release资产已删除，main另删118生成数据，本题约73.57MB。原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，入口/参数/哈希已入main。
 

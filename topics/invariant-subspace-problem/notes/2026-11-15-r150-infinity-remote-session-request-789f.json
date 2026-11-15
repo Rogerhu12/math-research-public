@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "7f6f123f05860ce691ec1fc0770ec42a592d63b3",
+  "rulesReadAtCommit": "b21d278104247c09e9065942d98ff5d20d23a55b",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -423,6 +423,37 @@
       ],
       "timeoutSeconds": 85,
       "receiptPath": "{work}/single-prime65521-selected-rank/single-prime65521-selected-rank-receipt.json"
+    },
+    {
+      "id": "seven-original-exact-rational",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-seven-original-exact-rational-solve-789f.py",
+      "scriptSHA256": "c9d064c4a64c8f0c9ef78b93db68c9d30883c42eb0a85e931e87a7bf862b98c6",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--point-model",
+        "{selected_model}",
+        "--native-model",
+        "{native_model}",
+        "--prepared-model",
+        "{work}/koszul-exact-sparse-preparation/exact-original-koszul-outside-model.json.gz",
+        "--prime-dir",
+        "{work}/single-prime65521-selected-rank",
+        "--out",
+        "{work}/seven-original-exact-rational",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 640,
+      "receiptPath": "{work}/seven-original-exact-rational/seven-exact-rational-original-receipt.json"
     }
   ]
 }

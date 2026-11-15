@@ -152,3 +152,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [原Y负轴首临界点](results/R271-appendix-original-y-inverse-germ-negative-axis-critical-point.md)现已独立证明，与N结论各用本身原导数/分母。两原零逆芽均有领先12.5的真实上界障碍；不以任意临界值代原分支，也不拿它支付强位Green或普通返回。
 
 [新六规范来源高度](results/R150-appendix-six-normalized-koszul-heights-and-full-p768-source-congruence.md)已实际核：3.456136225秒，全部6188余数与4367整数身份真，分母2356…3803bit/分子最高3868bit，均超原p768的两类充分高度条件。这一记录入口已闭，核数仍29；接剩余七的原有理方程，不将高度不适用说成算法不可能。
+
+- **2026-11-15，原65521单次秩及七列真Q入口：** [R150-appendix-single-prime65521-rank-after-paid-twentynine](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)：原4367×4325在唯一新素数上rank4318/null7，14.919986302秒，全原乘积真；Q区间仍4318…4325。已锁原4318×7精确有理求解与全残差小核[接口](notes/2026-11-15-r150-seven-original-exact-rational-solve-interface-789f.md)，600秒/4GiB，实际完成前不提升结论。
