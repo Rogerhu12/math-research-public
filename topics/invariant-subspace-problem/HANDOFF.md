@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 7e378f9e48edaabbdc2b5dc43b1878ea368a0af5（2026-11-15 16:24:04 UTC，Actions run43735253809实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43735253809-1.json。
+- **最近成功实际 pull 与已读规则提交：** 47e9151a2608b98d0def326a4d2480a33dbfdd17（2026-11-15 16:28:46 UTC，Actions run43735673057实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43735673057-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -31,7 +31,7 @@
 - [解析双Dlin与E8局部](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已闭：真实51行经单位变换降27行/24零行，M2整提升不除g，底H⊕H的有限coker满射给δS≥2v(Dlin)。E8得4≤δP≤δA≤5、T≤1、E8W及九h0目标局部来源，全八共轭点覆盖；没有报exact4/5。原2点上界降28/T≤16。新真小域实际14.265291455秒已完成：low谱2,2/长4/自由9，全单位与原Schur真；raw20945B/d371f188c758a45fd5bf5c711407f00f24c77e31160853fd8ed9e3badc294514。该low已闭，不加阶。
 - 新full∞ run43731615668（15:45起45分钟/55分钟job）只核6历史输入。manifest notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json，blob00c4da90…/SHAf845995bd1bce3410baea46ec968892621a48465aad62092798f372b7d6f00e8；历史commit8c6304e273e64b0544d3dd58bc0e48a672a87c36。
 - full27 v2已成功：sourcef44e943989d93799d66e80d99d98c8fc4557c055，math9.075420298/compile4.526625665，raw21358B/540fd2d44e7d49f9d4284d8966e9994397320f145e353c1560c7807f76caf9b4。1,711,875 pre尾均降m次数1，全4340单位/6188残量及80444形式核常产品真；out full-infinity-natural-dual-schur-v2的L/S 0…21仍临时可用。首版I3333失败已显著标注，v2未删原校验。
-- O最小入口真实13.08863037秒完成0…21，126643原产品真；sourcee238d925a11a50a0098ffda39ce243c4afbfeda6，raw15832B/eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6。新的G_I13消费者正在准备，须同I^c/真实mapper精度；不得把旧21系数误说足所有G阶。
+- O最小入口真实13.08863037秒完成0…21，126643原产品真；sourcee238d925a11a50a0098ffda39ce243c4afbfeda6，raw15832B/eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6。G_I13消费者已全读排队，request末步full-kernel-deleted-original-output-projection；同I^c仅12单位行加N22,free15，旧21源层仅给mapper10，必要仅续native至39给mapper28；结果未预填。
 - [正常pencil非幂零](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)：s=4/3/5原有理计算0.049385118秒，完整81+99产品真；s4非零trace排全正常有限几何级数逆，不否九目标/全部Γ反馈，勿重试此捷径。全局h0仍余s=2和未知异常支持。
 
 ## 原同w边界：正交旗后继续真正返回

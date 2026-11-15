@@ -1,6 +1,6 @@
 {
   "format": "isp-full-infinity-dual27-minimal-session-request-v1",
-  "rulesReadAtCommit": "a5c6902ac02bcd98083607b01b24b83e72d0ae4f",
+  "rulesReadAtCommit": "47e9151a2608b98d0def326a4d2480a33dbfdd17",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -237,7 +237,54 @@
       ],
       "timeoutSeconds": 250,
       "receiptPath": "{work}/full-infinity-natural-dual-schur-v2/full-infinity-natural-dual-schur-receipt.json"
+    },
+    {
+      "id": "full-kernel-deleted-original-output-projection",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-kernel-deleted-output-projection-789f.py",
+      "scriptSHA256": "16767d899ff5ad34afca4bd647d344ace846fa8d084c17a04d475718311997e3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-v2-789f.cpp",
+          "sha256": "82ce435444ea112e78d842a7975df4a6b6103f6ea0bf03efc73f58631985d6f9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+          "sha256": "54631a695dbd6dc41c446c8c3ab60ba527c5dd4f34fbe70187cdd0613caef1fb"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-saturated-global-common-789f.hpp",
+          "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        }
+      ],
+      "argv": [
+        "--full-out",
+        "{work}/full-infinity-natural-dual-schur-v2",
+        "--outside-out",
+        "{work}/koszul-outside-minimal-field-smith",
+        "--native-model",
+        "{native_model}",
+        "--selected-receipt",
+        "{work}/inputs/repo/selected-infinity-minor-dag-receipt.json",
+        "--original-native-source",
+        "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-v2-789f.cpp",
+        "--extension-native-source",
+        "{scripts}/2026-11-15-r150-full-infinity-natural-dual-schur-through39-789f.cpp",
+        "--out",
+        "{work}/full-kernel-deleted-output-projection",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "1024",
+        "--compile-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 250,
+      "receiptPath": "{work}/full-kernel-deleted-output-projection/full-kernel-deleted-output-projection-receipt.json"
     }
   ],
-  "mathematicalProgramStatus": "Root-reviewed complete original dual27 consumer queued; no new Smith values preset."
+  "mathematicalProgramStatus": "Root reviewed actual original deleted13 projection consumer; full original layers0..21 yield mapper0..10 only; if needed native-only extends to39 for mapper28. No new projection length preset."
 }
