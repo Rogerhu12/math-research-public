@@ -1,0 +1,15 @@
+# Request101：同f43、同η=.01续接，停止保存可重算输出
+
+类型：科学接线与参数；尚无新结果。作者：/root GPT-6 Astra Pro，2026-11-15。
+
+父为actual99/run43677789194/source2b6be01cab2de99401e0a5e0158133126aa86265的真实末接受参数：[0.5028915872638302,-0.30533374854090733,0.5947144547996672]。父status971400B，SHA256 9b4cf9f1c7488ef310f38fcecccdeee7a8883c276d9cba351bf8f0bc2185fe82。只因8方向预算停止，原unit/full112/native仍false，详见actual99紧凑正式结论。
+
+科学入口geometry_20261115_small_core_inexact_p3_eta_0p01.py，SHA256 f43c20ea6b8a5616b4330870897a1d0b6bd2c157435544366af1fe70dcdff7bd完全不改；η=.01、外8×20/内12×20、full3 merit/J斜率/.2Armijo及最终unit/full112/FD/Arb/圈检查不改。原73来源字典与PYSOURCE/PYDIAGNOSTIC工作流正文逐字保留。父/producer均14源，99首次引入的历史父13源另记，不改贴身份。
+
+PYPINS重新绑定实际父status和原四数学输入，每件核size/SHA，原模型重新evaluate/description和求当前J。缺少main旧数据时允许从明确历史commit8bd267107cc8710d371f3b62c02986655ac965b0经部分fetch/git show取回，并仍核相同size/SHA，不改成新科学结果。
+
+作者137c5a877fb387a82cbde01f084d1fa67ee717aa的新第15条不保存可重算输出于repo或Release。因此删除旧upload-artifact和22e publisher两步，权限改contents:read。原科学程序的临时记录保持，末step只复制原关键值、全部外trial和输出SHA至<90000B日志，不重算科学量；root随后写紧凑结论与脚本/参数/run/SHA。旧22e在73源中只作来源，不执行。
+
+若完整文件hash清单令短摘要超限，记录该清单规范JSON的SHA/字节数/生成方法，不删科学trial；仍超限明确报读取失败。数据只在临时runner中用于本轮计算。没有新数值接受门，也没有把diagnostic_completed当课题完成。
+
+共享终端不可用，未声称本地AST或git pull成功。根据根第8条用小文本GitHub通道发布；Actions入口实际解析/compile源码。新run/job/结果仅由实际执行产生。

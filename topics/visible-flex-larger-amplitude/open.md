@@ -131,3 +131,7 @@ root完整读四源码diff、17099B接口、两配置diff和两纯静态checker�
 [实际95正式结论](notes/2026-11-15-actual95-single-word-prediction-and-native-rejection.md)保存来源、脚本/参数、47小原件范围和SHA。fresh完整affine模型预测下降，但唯一Q76/node11向下相邻词的原单位步norm升至6.848278937534994e-5，九个更小档均为6.0618737006888706e-5；首iteration0十档全拒，零接受/零R273，未到最终J/audit。相同表达式下半ULP ties-to-even回偶基点，解释这个方向的无效回溯，不是普遍精度极限；实际单位步flow/argmax仍缺。
 
 103拟在首correction用原cellFlow真实noJ比较上下有限邻词、重形成完整129248行，仅严格改善者作proposal，仍交原32×10/2e-9/域/finalJ/audit；无邻词改善时转同fresh-J完整R273，不能重复95已失败词。要求成功95锚的live/fullDN适配器当前不可运行。方案未执行，不冒新native接受。
+
+### 1Q. 第101轮同η续算，取消原输出归档
+
+[接线说明](notes/2026-11-15-request101-same-eta-and-no-output-retention.md)。f43科学源、73pins和PYSOURCE/PYDIAGNOSTIC逐字保留，父99/当前均14源，重新实际评价。去掉upload-artifact/旧22e publisher，只复制<90KB原关键值及SHA到日志，由root写结论。原输入若main清理后缺失，取历史8bd26710并核同size/SHA。尚无第101轮实际值，不预填成功。

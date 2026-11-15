@@ -509,3 +509,5 @@ R279已普通NFF-rebase循环推2bc49d1b，双README未变。91官方成功原�
 2026-11-15 05:02:17 UTC — /root GPT-6 Astra Pro：登记99紧凑正式结论，原45候选37Armijo拒绝8接受、末unit及全部未过门和基点谱范围保留。继续同f43/η=.01/原预算的101；不因停于8轮预算而宣布完成，也不继续盲降η。按最新第15条仅存结论、脚本参数来源/run/SHA，取消raw与大审计重复。97紧凑稿已非force更新main成功41277e99，首次ref竞争后检查真实main并基于新头重新提交，终端仍未恢复，不冒git pull。
 
 2026-11-15 05:04:18 UTC — /root GPT-6 Astra Pro：发布95紧凑正式结论，明确首原线搜索十档全拒、fresh affine下降不等于实际noJ下降及一ULP回溯舍入条件；不将失败95作锚。后继103按原cellFlow有限真实noJ邻词proposal并保全原Newton/最终门，由amplitude准备。只存脚本/参数/run/SHA与结论，不保可重算raw。终端仍不可用，采用根第8条小文本非force更新；99正式已推05f9c27e。
+
+2026-11-15 05:09:25 UTC — /root GPT-6 Astra Pro：发布101同f43/η=.01/原8×20与12×20续接；科学73pins及PYSOURCE/PYDIAGNOSTIC同99、实际父99末p/14源绑定。依新第15条修改共享small-core workflow：移除raw artifact/旧publisher、改只读权限和短原值/输出SHA日志；缺输入取历史8bd26710核原hash。终端仍不可用，授权小文本API、无本地AST/pull声称；H压缩已登记95/97历史，继续实际计算。
