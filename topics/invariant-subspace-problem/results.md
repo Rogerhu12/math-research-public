@@ -215,3 +215,5 @@
 - [R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)：固定四个left8经完整最后校正得到两left9，所有12376原来源产品及十组平方读数均零；不提高58/49、K104或8600条件费。明确区分最后校正全核与全历史cochain自由，不把4→2冒作完整第九正秩；转回完整低页商继续。
 
 - [R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)：实际17条原自然λ0…λ3，全296072整数产品真/max5460bit；完整21右端模旧166残差的余rank4，法≤4范围恰17，完整第三头21维不变。保全部列比例及Eold/Enew，第四受限域17与known W13/full W15缺2分别记账，未预填第四秩。
+
+- [R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)：原真正顶部误差对允许Q一致，β独立于Q；一个固定Q=L0h²上的同u线性合并负部预算已足，C Q²/x²亦足。纯转换可取R=d，另需h²/Q→0时有同w慢对角选择；完整负部估计仍是未付假设，不称N=M。

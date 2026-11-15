@@ -161,6 +161,8 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 
 [完整返回标量](results/R271-appendix-same-top-sequential-projection-negative-form-and-complete-return-scalar.md)在同u_Q、同cut上取合法顺次右链c_j=−P_(p+j,j)u_(p+j)，原头/尾旗与c_h=0均真；u⊥K给μ_p²=−Σ_j Re〈P_(p+j,j)u_(p+j),u_(p+j)〉。对同一窗口交换有限求和后，内部同层算子为旧顺次jet次数N_(h,n)−I，两端保精确部分和；不为每项另选来源。若这些真实短核部分和的Hermitian负部有O(Q)预算即可推进共同窗口，但该关键上界仍开。旧顺次/真幂Gram比未因此已付，bare少一出生不能视为完整零源；普通N=M未闭。
 
+[固定二次与自适应慢窗口](results/R271-appendix-fixed-parabolic-and-adaptive-slow-windows-for-the-actual-negative-form.md)收窄剩余门槛：原u_Q误差对4d≤Q≤Qmax一致，β_m与Q无关；某一个固定Q=L0h²曲线上的同u合并负部≤C_L0 Q β²已足。M≤C Q²/x²也足，纯此转换可选R=d、Q≈4L0d²；不携带逆芽gauge条件。若另需h²/Q→0，可对同w慢择L，甚至只需逐固定L的有限常数。负部上界本身仍未证，真正G压缩逆及全部端点/nuisance不得省略；晚cut的真实birth≈Q，旧高variance结论不因h≈sqrt(Q)自动适用。
+
 ### 最大单权不能单独支付创建泄漏
 
 [两权临界池与满射弱尾](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)给完整物理第二创建泄漏随m线性增长的精确源；加入正弱位和严格正ℓ1∩ℓ2无限弱尾仍保当前固定层全部满射与任意大泄漏。因此仅用hardcore、满射、平方可和及bmax，不能得到绝对常数c的B2B2*≤c bmax² I。该可选尾不是原b_j=(j+1)^−2，未反证原同u_Q的负部预算；继续真实连续尾位置结构和完整层间抵消。
