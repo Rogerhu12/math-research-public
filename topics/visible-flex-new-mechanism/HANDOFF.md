@@ -43,9 +43,11 @@ R141已证单权、N*λ0字符的加速度真协变：A_hh=h^(σ−2)a(k)、A_hk
 
 R145以真实k/ω反号、h保持正和同右锚原递推证明完整V的奇偶身份；负H仅有限Laurent代数延拓。闭锥基点无关且SC=C，故R127的非零正字符只能偶整权；不能据此把奇权分量或J当作实际负控制。
 
-R148给固定k的sharp最高action门：a≥0、d+(3−σ)²a/9≥0 iff该一维全部平端h非负。权−2得λ(D0+25J/9)≥0；D0新consumer7f4ee057已派h_axis_sharp：仅两项未约化N2响应，保完整Q4^v−D0P3v−B_m2N2、原42维比较块；14新人工通过，实际未出。此门不证全action或J双向支付。
+R148给固定k的sharp最高action门：a≥0、d+(3−σ)²a/9≥0 iff该一维全部平端h非负。权−2得λ(D0+25J/9)≥0；D0实际43657526246完成：只两项未约化N2响应，完整Q4^v−D0P3v−B_m2N2对原42维块仍余205项，非成员未证；原根已存待R150。此门不证全action或J双向支付。
 
 R146已把五族协变提升到整个U/R：H^e[F(S_Hd)]=P[F(S)]，ω_j=N^jω0/j!模R。已发314状态记录化为80个起始条目（每族16）；非独立维数/成员/可调性结论。任意仿射不变Z及一般pure成员可用此缩减，当前仍仅检J。
+
+R152证明固定h的最高action全平端路径非负 iff ∫[(4/9)c(k)ψ′²+e(k)ψ²]≥0对全Cc∞；单调弧/零速度集/有限时间flat cap全部付清。e可局部为负，不据密度单项判正。
 
 ## 5. 已付pure层与最小新原差
 
@@ -55,11 +57,11 @@ R133的packet-only IBP实际43653293263保全P/A/R端势，1009正规packet余�
 
 R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B_p2(W1)[-4]/128，398项原差sound归零；1新pure、0mixed/profile/tail。原证书9533B/412dbe8f、main16657B/c02d93af。整个G轨道一般pure入响应像，(A_G∩kerπ)/(R∩kerπ)≅A_G/R；不授全U。
 
-R143实际43656084792/source82f3a12完成：J[-4]减R133固定六列，392项原差sound归约后65项，故一般pure成员**仍未决**，不证候选假或非成员。1.282s/RSS95.469；主28753B/ae03942b、证书15409B/f01f2086，0新响应/profile/tail/mixed。下一只消费G³已发40完整独立列的pure像来求此单J；不盲换候选、不重算旧块。
+R143实际43656084792/source82f3a12完成：J[-4]减R133固定六列，392项原差sound归约后65项，故一般pure成员**仍未决**，不证候选假或非成员。1.282s/RSS95.469；主28753B/ae03942b、证书15409B/f01f2086，0新响应/profile/tail/mixed。现派新源1a84590f消费G³40基的pure像求此单J：每条新依赖原差核零；目标若未决，才作一次原pure子式匹配真上界。8新人工过，240s/1024MiB；不盲换目标或重算旧块。
 
 
 ## 6. 正在运行与未付终局
 
-run43655713308的G7/mixed几何及43656084792的J均已success。G9已登记R149，链结束；当前仅h_axis_sharp新研究lane，几何阶梯与J全pure消费器待接。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
+run43655713308的G7/mixed几何及43656084792的J均已success。G9已登记R149，链结束；D0已complete未决，当前仅general_pure_J_membership；几何阶梯修摘要大小后接另一槽。mechanism负责几何actual，root负责G链，tail负责J，literature正性。新的末三径向行支持纸证notes/curvature-existing-terminal-row-support-20261114.md给现有54列保持t≤.36完整二jets；加6d6+5d7+4d8=0可保持开放尾位置（53维）。本轮全163维不启用此限制，仅待actual显示需要时用；不证明目标可行。
 
 完整函数P0/ruling、其他pure正规族、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度全部仍欠。R98已结束正states universal P1路线，不重扫；特殊profile或固定N完整P0+NP1未排。R84真倒行V同号，闭锥/span不授实际逆元。R93/R97真驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，不独立指定history。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。运行预算只结束该次计算，主课题继续open。

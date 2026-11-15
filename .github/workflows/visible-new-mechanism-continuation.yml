@@ -34,7 +34,7 @@ jobs:
               'static_g_rational_dual','static_m8_tail_quotient','curvature_feasible_exchange',
               'constrained_static_m8_tail_quotient','g_first_translation',
               'local_fourth_derivative_factors','curvature_feasible_trial_diagnostics','g_second_translation','derivative_m8_tail_quotient',
-              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity','h_axis_sharp'}
+              'derivative_m8_geometry_ibp','g_translation_successor','curvature_feasible_steps','acceleration_layer_mixed','general_pure_G_identity','curvature_mixed_grid_steps','general_pure_J_identity','h_axis_sharp','general_pure_J_membership'}
           if not lanes or len(lanes)>2 or len(lanes)!=len(set(lanes)) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded continuation request')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
@@ -220,13 +220,14 @@ jobs:
               'general_pure_G_identity':'literature_general_pure_G_identity.py',
               'curvature_mixed_grid_steps':'frame_curvature_mixed_grid_steps_audit.py',
               'general_pure_J_identity':'literature_general_pure_J_identity.py',
-              'h_axis_sharp':'literature_h_axis_sharp_coefficient.py'}
+              'h_axis_sharp':'literature_h_axis_sharp_coefficient.py',
+              'general_pure_J_membership':'literature_general_pure_J_membership.py'}
           flags={'local_fourth_quotient':'--toy-only','curvature_epigraph_exchange':'--check-only',
               'full_m8_tail_response_projection':'--toy-only','constrained_static_fourth':'--toy-only',
               'static_g_rational_dual':'--toy-only','static_m8_tail_quotient':'--toy-only',
               'curvature_feasible_exchange':'--check-only','constrained_static_m8_tail_quotient':'--toy-only','g_first_translation':'--toy-only',
               'local_fourth_derivative_factors':'--toy-only','g_second_translation':'--toy-only','derivative_m8_tail_quotient':'--toy-only',
-              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only','h_axis_sharp':'--toy-only'}
+              'derivative_m8_geometry_ibp':'--toy-only','g_translation_successor':'--toy-only','curvature_feasible_steps':'--check-only','acceleration_layer_mixed':'--toy-only','general_pure_G_identity':'--toy-only','curvature_mixed_grid_steps':'--check-only','general_pure_J_identity':'--toy-only','h_axis_sharp':'--toy-only','general_pure_J_membership':'--toy-only'}
           config=r['jobs'][lane]; script=root/'scripts'/scripts[lane]
           for path,expected in r['source_sha256'].items():
               if hashlib.sha256(Path(path).read_bytes()).hexdigest()!=expected:

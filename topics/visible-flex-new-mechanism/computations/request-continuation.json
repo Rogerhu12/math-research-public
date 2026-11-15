@@ -1,35 +1,40 @@
 {
-  "request": "one-complete-h-axis-sharp-action-coefficient-after-G-chain-ended",
-  "created_at": "2026-11-15 00:18:12 UTC",
+  "request": "one-general-pure-J-against-all-published-weight-minus-two-responses",
+  "created_at": "2026-11-15 00:21:21 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "h_axis_sharp"
+    "general_pure_J_membership"
   ],
-  "goal": "One complete two-mode D0 with the original v4 IBP and exactly two missing unreduced N2 contractions; compare against the already published 42-dimensional response-G-J space. G translation chain is finished exactly at quotient dimension nine.",
+  "goal": "One J in the general pure projection of all 40 proved full-response basis roots. New pure dependencies require original zero identities; unresolved target permits one original pure rational separation only after attaining the true upper bound. No new response or tail or mixed computations.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
-    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_membership.py": "1a84590f8b6f0c35a1df5f251a8ffa0e9f4da65ea2cc3bd777e752482ef05bcc",
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_J_identity.py": "ddacad3474844368e3546f4e4b0f92e71eb276363cd283ad4f300259e8161f63",
+    "topics/visible-flex-new-mechanism/scripts/literature_general_pure_G_identity.py": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7",
     "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
   },
   "jobs": {
-    "h_axis_sharp": {
+    "general_pure_J_membership": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/h-axis-sharp-development.json"
+        "@OUT@/general-pure-J-membership-development.json"
       ],
       "research": [
+        "--family-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43654534244-1-acceleration_layer_mixed",
+        "--response-directory",
+        "topics/visible-flex-new-mechanism/notes/actions-43653293263-1-g_translation_successor",
         "--max-seconds",
-        "180",
+        "240",
         "--memory-mib",
         "1024",
         "--output",
-        "@OUT@/h-axis-sharp.json"
+        "@OUT@/general-pure-J-membership.json"
       ]
     }
   },
   "other_active_research_runs_at_dispatch": [],
+  "preceding_h_axis_run_completed": "43657526246",
   "previous_private_actual_pull_time": "2026-11-14 23:45:18 UTC",
   "previous_private_actual_pull_commit": "b2a4c84965609d677a650f47f63cd5e96c1fa726",
   "sync_private_rules": false,
