@@ -89,3 +89,7 @@ root全文核SCI/worker/flow/20pin manifest，newton独核derivative/k尾、原s
 ## 2026-11-15 06:35:36 UTC — true outer 4480阶 finite commutator
 
 newton核E_B准确signed抵消与total-jet账，tail全文核E1–10；修正文一处J19错号为J11/J24及原N19。实际rankone mean行保，未把A0当A1乘子；q+5≤4485的factorial/有限Leibniz与signed Schur全纳2^131072。独推，原J尖常数仍保。root另核Green最新17570B/fdc6cda4…精简process：06:31:16真pull→57453dd6…两README空、3216future/1088past/1504product/0groups。README 68e7391ff7007fc0460fa48b90063cbab6eda4fb两项无变。
+
+## 2026-11-15 06:41:01 UTC — 共同径向势actual与整根片覆盖
+
+root全文核新SCI、20pin、worker/flow及实际27645B execution/13866B结论，逐四case核16门/真实pull/原输入收据441a6d12…；所有圆整方向保守，最大域V/VT/VTT与inverse-image来自同一复δ/z域。较小两域false、独立even mean、原piece2549物理身份、尚未reference两列均明确保。signed中间balls没有新持久化。open原29104B全文归档b869510f…，同步Green v2和已成新子门；前H9620B归档b60896e2…。README 9c5e3a9f9602155ec2b8bbd94125d6970ddc77e0两项无变，独立结论推送。

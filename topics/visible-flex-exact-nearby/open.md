@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新2026-11-15。**总任务未完成，连续研究，不等用户。** 本页保留当前证明入口与下一项。此前全部原文在[本次压缩前 open](notes/2026-11-15-open-before-adjacent-actual-and-full-delta-Sobolev.md)逐字保存；该档案继续引用更早的29021B档案与全部旧链。所有仍有效的参数限制、失败记录、原 source 合同及未付义务继续有效。组件只按其正文量词使用。
+更新2026-11-15。**总任务未完成，连续研究，不等用户。** 本页保留当前证明入口与下一项。此前全部原文在[本次压缩前 open](notes/2026-11-15-open-before-actual-common-potential-and-low-direction-Gamma.md)逐字保存；该29104B档案完整保留此前部署/实际结果、全部失败、参数域与更早档案链；本页同步已经完成的子门。所有仍有效的参数限制、失败记录、原 source 合同及未付义务继续有效。组件只按其正文量词使用。
 
 ## 1. 同一对象与最终完成标准
 
@@ -16,7 +16,9 @@ newton_source负责原同F链。原有限193 actual43635487128/8只授有限负�
 
 [全部5970同F数据](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)已由43654510038完成32范围及finish，原4+5966新、child0/7门，native7e1a5709…/process0c832fe8…。同193状态/128high、真实Q、ρ端点、F逆误差、signed源与输出Gram完整保留，0target重算。原225pin8d334ee7…不动。
 
-Green43672023585目前真实backward1420/5970、45chunks、7入口门、failure=null，04:28:40真实pull到f1117512…两README差空。原234pin3350a96f…依次接forward，再238pin94e46b22…真右Poisson。必须保原所有实际graph舍入跳跃、F/V换基、完整waist与regular mean边界、独立cut迹及全三方向whole/negative/cut输出；局部矩阵数据不等于全BVP逆。原数学逐stage/array续接，不重已成格。
+当前同runner三流 actual43681612825/1，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…：原backward最终1886/320bit只从唯一artifact14146873569逐bytes复用，13856旧array/34array artifacts、199历史输入已核。06:31 future3216=1886旧+1330新、past1088、product1504、0groups；没有最终Green/Poisson界。此前v1 43680721302仅旧impulse换行SHA门失败、0新数学，修复记录完整保留。真pull06:31:16.716699→57453dd6…两README差空。worker总340min至11:16:45，不能靠实时速度承诺完成。
+
+[三流与真97合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)保future Q、past V/W、raw Ecut=I97及全部同源jump；完整dyadic entry球和原1e−30逆门，187组全signed Gram由实际Vcutex同C合成。true96 waist、true97 even mean、完整[0,9/10] body和独立cut trace、三个HY与全部8whole方案都保；新数组仅runner临时消费。局部matrix成功不代全BVP逆。
 
 ### 同97帽伴随已成输入
 
@@ -66,7 +68,7 @@ native5754193c…42046B、process9e8f1f92…37783B、worker ec4a322e…5488B。�
 
 43675153388原reader字段错误0stage、43675967042原up(int)错误28stage均保。[唯一28字节继承修复](notes/2026-11-15-R133-adjacent-scalar-coercion-and-byte-exact-prefix-recovery.md)只加原int/Fraction→Arb精确入口；旧header/source/manifest/runtime不改，279pins/原6外case校验完整。新当前SCI fa344d17…、helper071065fc…、policyb5706e3b…、manifest57b978db…不可触发旧成功数学重跑。
 
-新的11pin诊断workflow已部署：SCIb7884944…、manifest09b2f621…、workerb276a356…，原6case仅从准确历史a3d84d…及旧artifact14146726654恢复到runner临时目录。一次新增诊断消费/0旧包络重算，保原piece/commonrow、真实径向权、完整九词/五mean；现行规15下只登记真实结论/参数/run/输出SHA，不上传任何新可重算data。[实际诊断43679322008](results/R133-supplement-actual-saved-source-row-diagnostics-and-next-physical-pieces.md)现child0/6门：4383原行全部消费，诊断2.354193127s/0旧包络。六case负主导piece2547（小R row752、大R完整/local row758），正piece2551 row796；最小R local主导，两侧最大nonlocal为complete_RQ_J_gd、mean为complete_uJ_gd。下一先核这两片是否全在原Rg/RHO已付域，再消费真正相关比较或新共同T径向基；不外推Taylor域。真实修正seam算子、正weighted端口、strong-return定量及cutoff97充分性仍须完成。
+新的11pin诊断workflow已部署：SCIb7884944…、manifest09b2f621…、workerb276a356…，原6case仅从准确历史a3d84d…及旧artifact14146726654恢复到runner临时目录。一次新增诊断消费/0旧包络重算，保原piece/commonrow、真实径向权、完整九词/五mean；现行规15下只登记真实结论/参数/run/输出SHA，不上传任何新可重算data。[实际诊断43679322008](results/R133-supplement-actual-saved-source-row-diagnostics-and-next-physical-pieces.md)现child0/6门：4383原行全部消费，诊断2.354193127s/0旧包络。六case负主导piece2547（小R row752、大R完整/local row758），正piece2551 row796；最小R local主导，两侧最大nonlocal为complete_RQ_J_gd、mean为complete_uJ_gd。该诊断仅针对原源行；随后真实2547/2551的整片域与新源已经实际完成，见下一节。没有消费新行再排名，故不能据旧诊断猜下一主导片。真实修正seam算子、正weighted端口、strong-return定量及cutoff97充分性仍须完成。
 
 [完整Fourier径向参考R1–29](results/R133-supplement-exact-physical-Fourier-diagonal-radial-reference-and-complete-mean.md)保primitive排零、独立j0、不除K的两态方程。[共同Langer C1–22](results/R133-supplement-common-radial-Langer-reference-and-complete-source-ports.md)保Tκ²=Kη²、全mean及无需g2′的两源，准确主部∂T²+T∂X²，root为n1/3混合矩阵。不能把旧Ai界直接改名为deformed基；d∂、I/J、mean、正两端图及subprincipal返回相位仍计费。
 
@@ -106,76 +108,42 @@ Y_s<2^7340034 N_{s+2050}+2^4194304 Bext_{s+2048}。
 
 每子问题完成即接本页下一项。总完成门未达不收尾，不因阶段报告或时长停止。
 
-## 7. 最新根规15：可重算数据不保存，普通删至≤200MB
+## 8. 已完成的新子门与当前紧接任务
 
-root又在main137c5a877fb387a82cbde01f084d1fa67ee717aa读到根README差异；题README仍未变。现行[已读规矩收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json)记录root blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7。它明确取代几分钟前的Release计划：能由已提交script/参数重新生成的证书、数据和Actions输出，一律不保存，repo/Release均不放；只提交script/参数/run/输出SHA，结论写实际script/args/run/result。无任何Release上传；未发布的共享Release helper与迁移草稿已取消。
+### 正帽有限背景、未知角及完整真实 long 接口
 
-phase负责本题main可重算data/旧人工parts的普通删除；清理workflow现已部署（SCI40c0f3df…），真实逐对象核SHA256/Git blob/bytes，保原脚本、参数、run、哈希及结论，完成后按精确Git树核题目录≤200MB。不改写历史或强推。确实需要旧文件时，用记录的完整删除前public commit与path执行git show恢复到临时science树，逐字核原manifest；旧artifact只作已成计算的临时输入。
+[C1–23](results/R133-supplement-finite-Sobolev-nearby-cap-body-inverse-and-same-space-remainder.md) 在1≤S≤8212的M_S球保完整conservative主体、相位primitive与两mean。已知乘子C*=2^212992、H<2^425986，hatY=H z且||z||≤2^-8388608时，固定原真实δ线性outer的主体反馈<2^-2097152，逆<2^4194305，二次/Lipschitz同空间成立；独立charge从同源增广读出。此极小球还没有实际残差入球证明。
 
-newton负责原Green失败artifact最新成功prefix的临时恢复，并让下一完整计算链在同runner内消费结果；新输出不再持久上传。root的六case诊断消费同一原件，只登记脚本/参数/run/输出SHA和实际结论，不复算旧norm。所有数学任务继续，题README总完成标准保持。
+[U未知角good tangent](results/R133-supplement-exact-unknown-outer-angle-good-tangent-and-full-means.md) 保真实Π0相位、D_j/weighted mean/primitive准确交换、两个curvature mean及offshell运输。good height在Hs+2；raw pulled height多b h_x，一般仅Hs+1，不能免费混用。[D完整弱DN](results/R133-supplement-real-angle-full-weak-DN-and-good-density.md) 给j∈[1/2,2]的scalar H1/2和density H−1/2变换各<5，同j DN差<25倍且相对能量准确不变；负半阶scalar曲率和正半阶density另付Jacobian乘子。
 
-### 共同径向势的稳定表达已齐
+[F physical finite jets](results/R133-supplement-cap-finite-Sobolev-ball-to-physical-curvature-jets.md) 已从M8212帽球用实际Π0 phase、reciprocal和D_j导数推出曲率至8192阶jets≤q!128^q2^-36，差费<2^1048576||zcap||，两mean不删；没有未知analytic延伸。[Q完整高阶逆窗](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md) 既有−3/2..8212全源gain<2^4194304/moving读出<2^4718592，physical fB Hs+2费用保留。
 
-[P1–12](results/R133-supplement-cancellation-preserving-common-radial-potential-and-ports.md)现把 c 和 V 中重复 η_r/η 先作准确代数消去，保 z=j^-2 的所有有限背景因子及 bilinear 复参数。G_r/G=B−c 逐真缝继承非零入口，两普通源仍含 g2 与 c g2、没有 g2_r，root混合 n1/3 trace/独立 j0 保。下一消费者须在原合法common domain实际付 η/k/Abar/a/κ及有限分母gap、势/传播和原old-circle/非径向principal费用；本恒等式未给数值门。
+[J1–32真实long](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 已在zero-width固定点和有限8192参数jets下付DN差、bare Poisson signed Schur及实际E_B/mean投影/伴随。DN差2^128(F+ε)、q≤2176 comm2^65536(F+ε)；整个能量etaC+2^150A<1/2即逆<2。tail真实B trace给F≤2^-438R、n≤2^-432R；帽F给实际曲率域。[E扩窗](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 将完整DN/Poisson/E_B comm扩至4480、费用2^131072，q+5有限jets全计；原2176尖界保。
 
-### 下一两片的非零入口与整域实际门
+下一完成未知状态真实long nonlinear外行在同一有限Sob域的Lipschitz差，含C_R反馈、两个mean、全部高度/curvature/affine荷；raw残差运输不能省。将该外行与C主体同时反馈到同一完整Gδ，之后才有nearby全帽逆。实际中心残差与可迭代状态域仍须单独验证。
 
-[E1–16](results/R133-supplement-nonzero-entry-continuation-to-the-next-physical-pieces.md)保原2549→2548→2547及2549→2550→2551：cubic差递推含非零常数，phase/first correction只继承连续值，径向jets按新片单侧方程重建。G/Gbar除A比还保ell_e，若旧未保存须明确新增entry预算。ray gate同时含旧phase/修正strip，不可重置相位误差或G。
+### 变化背景尾部、残差径向域与真正迭代尺度
 
-已部署 `visible-exact-dominant-outer-piece-domain-comparison.yml`，SCI43abdfca…/manifest9c5aac33…/workere5b06714…：只从历史a3d84原2index+2shard核五整片exact dyadic knots、两target真实侧/原germ/Rg/RHO/RC。无旧target/FFT/cubic value/norm或78stage重算。等待实际run结论；径向域即使通过，后续新条带/完整源/真seam算子仍分别待付。
+[C受控径向域](results/R119-supplement-off-shell-controlled-radial-jets-and-exact-holonomy-retraction.md) 定义R_s=B_(s+4)+N^[3]_(s+4)、s≤4416，输入至4420，保physical残差δ16/根三导δ13、strict residual/TV和准确Π_A0 mean。mean二阶holonomy重建先P⊥后恢复全mean，不虚取第四κ导。
 
-### 同runner三流与真97合成已部署，数值仍待实际
+[B固定第二参数gap](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md) 在weighted Ct4 H8196域保持全部n的gap>1/(256N_i|n|)；fixed known γ2，firstΓ为真实P值图。旧analytic成员≤2^133000X进入，有限Sob未知方向不被当作analytic方向。
 
-[准确E1–6合同](notes/2026-11-15-R133-ephemeral-parallel-matrix-Green-Poisson-contract.md)把future Q/past V-W/raw Ecut=I97分开推进，整格signed Gram和全部同源jump在分组时只累矩阵与正权和，末用实际Vcutex给的同C作所有C*HC。三dyadic端口缓存保完整entry球，不取无误差midpoint；192bit仍过原1e−30逆门，旧320bit前缀原字节不改。true96 waist/true97 even mean/完整[0,9/10] body及独立cut trace都保。
+[I全nearby tail proxy逆](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 已在R≤2^-8192000、H8196加residual三jets4420域付high/deep/remaining/mean及两向强4/3。Bfin=2^229376、strong=2^524288，实际Cauchy先多项式bootstrap再scattering/model<2，余反馈<2^-350000，相同T#/v#/所有源单位保持。Y_s≤2^7500000N_(s+2050)+2^4300000Bext_(s+2048)，s≤64。body平端χ=0不删独立外flux；fixed true long行含全C_R/affine，新行按J合同联立帽曲率口。
 
-新SCI4b864054…/CIc2970d6a…/358pin fea26a82…，原353pin逐键未变；历史7c130fb…只进temporary science，旧286134725B artifact先核实际规则停止和最终完整prefix count。单runner最多4compute进程，后原same97 cap signed方向contract，0旧target/F/C/Gram重算，0新data/artifact/Release。须等actual finite193与三HY后再判断真实剩余量；未授全高频逆/Schur/PDE族。
+下一完成firstΓ低方向切向及投影metric列Schur，然后把全网络扩到足够高角阶并支付真实tame/smoothing。I的2050损失不能靠小常数取消，Y64不自动返回H8196。真实Jacobi的EN=αNk−βNθp−γNp和metric +ψN必须始终保留。
 
-### 原整片域已实际通过，立即接非零入口源
+### 新物理片与共同径向参考的实际进展
 
-[actual43680556665/1](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md) child0/15：两target完整原片都在germ/Rg/RHO/RC，full65/full193五片exact knots与rootpiece一致。比较0.03972491499996522s，0旧数学。下一按E合同继承E_phase/F_scalar/ell_G，检查共同ray strip，再消费完整forcing/9词5mean/真实积分。该径向域门不替代角域或strong-return。
+[整片域43680556665](results/R133-supplement-actual-dominant-outer-whole-piece-domain-comparison.md) child0/15门，两target完整原片与五exact knots均过原germ/Rg/RHO/RC，0旧数学。[两外邻片actual43682479300](results/R133-supplement-actual-next-physical-pieces-nonzero-entry-complete-sources.md) child0/21门、10.658338976s：49新stage、13完整行（2547为11、2551为2），六case各13全选且4305旧行逐字。最小R.001负/正完整源<7.448677497188e19/4.717220050477e19，最大R.02<8.737298521586e20/3.559569762900e20。非零phase/first-correction/ell入口、真实ray/两branch/九词五mean/全部seam都保；没有strong-return结论或新主导排名。
 
-### 有限径向子域中的第二标量间隙已保，继续真正余项与变化背景逆
+[I旧圆递推与mean](results/R133-supplement-common-radial-reference-old-circle-primitive-and-mean-interface.md) 保H_V=H−n^-2 yVE12、1−ζ完整分母、两P/原L/mean、有序I/J尾及gdV新增项。输入n^-1不等于输出逆频率，所有真实reference seam与径向jump源保留。
 
-[B1–31](results/R119-supplement-finite-radial-Sobolev-first-phase-and-fixed-second-parameter-gap.md)把两根完整密度 finite part 写成两项准确扣除+普通可积余项；实Fuchsian图保Piola，正侧Taylor图保y³全部principal残差/normal-trace Ai幅度λ^-1/3，给几何J真实首相位。只在明确weighted piecewise Ct4 H8196子域内；根Q/x到四阶由原真实polynomial germ另付，不从一般C4 profile推断。固定已知成员γ2，仍由P真实firstΓ保持ω，完整模型Δβ比<2^-2980000，gap>1/(256N_i|n|)，两mean不代β/n。
+[共同势actual43685624307](results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md) child0/16门、0.157509657s；SCI04271368…/20pin44555290…从immutable原root0..15、M3复域、a0..14消费，0旧系数/FFT/target重算。四复径向radius全部势/分母/image门过，δ方盒1e−8、z方盒1/9409覆盖全部|j|≥97两sign；物理j0独立。最大H=1/6000给V<276、VT<26431、VTT<3830956，κ>4.485249802470、|1+θ|>.999998241662。H=1/10000和1/6000确实覆盖原piece2549；小两域false保留，未把邻片cubic认作同一物理背景。
 
-下一付同一域全层4/3余项、真实高低列/中低选择和帽反馈；不能从每个分量有限常数推closed inverse。O的真实L−J残差差、+ψN及两mean/height仍保。旧解析成员≤2^133000X进此域；R Y64校正仍无自动Ct4/H8196输入，必须另做radial/angular smoothing与tame inverse。
+actual-result SHA844b88e2…、executiond4c48d61…；所有signed中间balls仅临时，无新artifact。下一由真实势/导数/像域构造reference两列、正两端图和旧圆H_V gap，再付强双Schur/strong-window。旧free-Airy upper不能作为可相减误差。
 
-### 正帽有限角窗口现已覆盖8196及额外重建角余量
+## 9. 当前根规15与原数据恢复
 
-[Q1–16](results/R133-supplement-high-finite-Sobolev-window-for-the-true-full-delta-cap-inverse.md)从原同一analytic operator family改辅助M=2^416，signedlag差<2^-15/shift逆<2，将完整真外帽全realδ源inverse扩至s8212。物理fB Hs+2/密度均付2^524288，总source<2^4194304/moving读出<2^4718592。下一建立M_s附近body状态球及真实非线性外图；没有把ordinary L²源升级Ct4，也不把显式Qδ逆自动套给有限Sob未知背景。
+现行规则由137c5a877fb387a82cbde01f084d1fa67ee717aa根README差异授予；root blob74c08a36…、topic7e2b93d6…。[规则收据](notes/2026-11-15-R133-reviewed-public-CI-rules-reproducible-data.json) SHA f2661bd5…：可重算证书/data/Actions输出不入Git、Release或新artifact，只scripts/args/run/SHA与小结论。题main≤200000000B，普通删除、不改历史/不force。原Release迁移计划在执行前已取消。
 
-### 三流实际原前缀已核，唯一event身份门已修
-
-[v1实际43680721302](notes/2026-11-15-R133-ephemeral-v1-original-event-hash-failure.md)恢复最终1886旧行/320bit、13856原array文件和41archive，7身份门通过；在新三流前因impulse原无换行event SHA误用matrix有换行canonical而child1。0新ports/past/product/groups，新future也0（仅1886旧包装）。v2只该event gate改回原producer，SCI f33345d1…/CI53d672d2…/362pin81fcf32f…，全部原353和v1 358 pins逐字保。新workflow已部署，待actual continuation/真HY/同97 signed contract，不把此身份修复称为数值成功。
-
-## 完整有限 Sobolev 正帽主体球已付：继续真实 nonlinear outer
-
-C1–23（SHA730ffff4e641615aafdafdda12bb3b147bf227a6c4386b9d4165a7efb4ab7699）在1≤S≤8212建立明确M_S球。已知系数joint strip给C*=2^212992，未知场仅有限Sob；完整保守flux/primitive/mean不损角导、不取Y_r。hatY=H z、||z||≤2^-8388608时相对全真实δ帽逆的主体反馈<2^-2097152，state逆<2^4194305；完整增广charge用同源恢复，物理零荷/匹配仍是真方程。已付same-space quadratic/Lipschitz；没有证明actual残差进球。下一项给未知状态的真实long nonlinear图、正/伴随图费用和完整外行余项；尾部全层nearby/97精细ν/global matching继续。
-
-## 两块外邻片完整非零入口消费者已部署
-
-SCI9e81e2bc57d3f94cd7231fa3d52f2511c844625a644f7387b277e96d2b684f70、helperd9547ccc…、131pin manifest4a3e28f6…，由已成domain whole gate续接真实2547/2551。完整30旧stage/49norm+background/6case按原身份消费；新phase入口E、first-correction入口F、全mean log常数ell逐真seam继承，ray严格用旧入口宽及新域的较小值。source仍全九nonlocal词/五independent mean，Nraw不额外除mu，whole-row整行选择。worker c0c4c16a…/flow38627ecb…已实际43682479300 child0/21门通过，49新stage/13新行、6case各13选入/4305旧行copy；实际报告见下条。仅小结论/execution，0旧数学重算/0data上传；仍不转授strong-return/全逆。
-
-## common-T 旧圆 I/J 与 mean 接口已准确展开
-
-I3–14/SHAece60de2b024228b768582ffe8d7bd14b72122d304b6db0d04706ff42f89e629：H_V=H−n^-2 yV E12，ζ=y²V/(n²Bplus)，完整inverse分母1−ζ；IPU递推保两个P及有限尾，J式保完整L/mean和原逆定义域。径向gd^V保n^-2∂φ(QVB_j e1(iεy,x)w)。输入n^-1不等于输出逆频率，强双Schur/真实V/V_T/V_TT/新两列/正区图尚须实际支付。当前新source消费者身份完全不改。
-
-## 已付残差控制的径向域与准确 holonomy 重建
-
-C1–29/SHAad1fc17b90c226149e806fde173f0ecf0d8deb5d107f7a8cf8bd78ad89fefdc1 新增 R_s=B_(s+4)+N_(s+4)^[3]≤2^-2097152（0≤s≤4416，输入至4420），区别于任意Ct4球。ct/c=2A+4，physical残差的δ16转换保留，root第三source导δ13；J/D等逆幂在完整有限Sob代数绝对求和。fixed-t true residual diagonal/v_t项、strict κres及一次TV不增加原负层幂。相容ordinary source用Π_A0保〈A0N〉=0而不删ordinary mean；proxy准确切向，mean小根二阶重建先读P⊥再恢复全mean，避免未付κ2第四导。固定metric，不将ordinary相容子类代替一般ν/Γ/weak端荷。继续全层high/middle/deep网络、真正/伴随外图、参数列及可重复smoothing。
-
-## 两外邻片实际完整源结论已成
-
-run43682479300/1 child0/21门，数学10.658338976s；新49stage（临时）、13完整行，6case各13选入且4305旧行逐字。报告f3a372ce…、实际小结论6b6db7c5…/executiona4718587…；全部131pin与11源码AST真过、原78中只读30必要阶段，0旧包络重算。最小R.001完整负/正源分别<7.448677497188e19、4.717220050477e19；最大R.02分别<8.737298521586e20、3.559569762900e20。旧failed大半径与九词五mean/1079seam仍在。新片完整entry/exit E/F/ell及两真实ray都已付；下一片整域/新ray仍须独立门。此次没有新排名，不能猜下一主导片；源整体仍未强返回闭合，common-T新势/两列/有序old I/J继续。
-
-## 真实未知 long 图与完整弱外口已接上有限背景域
-
-[J1–32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 已用 zero-width 完整固定点、有限8192参数jets、全signed Schur付真实DN与独立Poisson；U/D保持good方向和conormal密度，F帽球给actual physical曲率jets，tail真实B trace给F≤2^-438R/n≤2^-432R。E_B未匹配修正、mean投影、全荷、wholeform/adjoint均保；该新接口足以供变化背景正区继续消费。下一根端任务是帽完整nonlinear outer行的同域差/增广charge与其Taylor余项，不能从已有主体球单独宣布全帽非线性逆。tail全层与真正tame尺度、ν精细Schur仍同步继续。
-
-## 变化背景上的全 tail proxy inverse 已完成，继续 Γ 与可迭代尺度
-
-[I1–39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 已在R≤2^-8192000的原物理域付完整high/deep/remaining/mean、两侧强4/3及全部原source；remaining差<2^-350000。相同fixed真long行含全C_R反馈/affine荷，新nonlinear行更新按J完整能量接口，cap未知仍通过独立曲率口联立。ordinary body平端χ=0不清掉外flux荷。输出Y≤64且真实损失2050，下一做Γ低方向投影列/真参数Schur及能够维持H8196/residual三jets的tame尺度。单靠截平滑Y64不足以自动抵消2050损失；须实际闭完整迭代账。
-
-## common-T 新scalar potential/gap消费者已部署
-
-SCI042713687b7d2d561ba25678a76ae9dbd95e042ec1d57bf4a0caa89310063fe7、20pin manifest44555290…、workerf67fa3f9…/flow6fab4a57…只恢复原root0..15、完整M3复域、旧a0..8与6个a9..14。新增四radial radius的Abar尾/复gap、signed c/W/V/VT/VTT、真实T inverse-image与两普通源预算；不重做旧系数/FFT/target。所有signed中间balls仅temporary；只小实际结论/run/SHA入Git，无artifact。尚待实际run，不预授reference两列/old-circle gap/strong-high inverse。
+cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，完成后消费小结论并核实际题树大小。需要旧输入时只从记录的删除前immutable public commit/path用git show到temporary science，或恢复已存在的旧artifact，逐原bytes/SHA核对；已成功数学禁止重算。无executor时connector只读写<100KB UTF8，严禁binary/gzip。真实pull及两README差异在H和runner记录分别保留；ref read不冒充pull。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 真实共同径向势与整根片覆盖实际完成（2026-11-15）**：[完整actual结论](results/R133-supplement-actual-complete-common-radial-potential-and-root-piece-image.md)，run43685624307/1 child0/16门、数学0.157509657s。四复径向域保全δ/z参数；最大H=1/6000得V<276、VT<26431、VTT<3830956和全部分母/坐标像门，H=1/10000与1/6000确覆原piece2549，较小两域false保。原root/M3/a0..14只复用，0旧数学/0新data保存；reference两列/old-circle/strong inverse尚待。10482B，blobb4dc5f5f21394c5163dacd40edc22d6cdb82b333，SHA2566b6db11ba57bb1273bc84d352fc2318cc69bb982a5a4803e662903932a41cbf1。
+
 - **R133 完整真实 outer commutator 扩至4480阶（2026-11-15）**：[E.1–E.10](results/R133-supplement-extended-finite-jet-outer-commutator-window.md) 保原8192 finite jets，DN差/独立Poisson/实际E_B统一费2^{131072}；原2176阶2^{65536}门不改。E_B准确写Pµ[-a C_L+a T+b∂]，a=µT−µL、b=µLdL−µTdT，rank-projection只需A0负半阶输出，最坏(q+5)!512^{q+5}全组合付清。8671B；blobce06d2befc6a4e8aaf07ebac1c24bf9a479591c9；SHA256cdbb5b5612bc3dedee42f9f5754ecd681fc56ca22f79f9cfabdd438d9741e4d9。仅外口扩窗，完整高阶tail及tame仍须另付。
 
 - **R119 finite-Sobolev nearby 背景上的完整尾部 proxy inverse（2026-11-15）**：[I.1–I.39](results/R119-supplement-nearby-finite-Sobolev-full-tail-proxy-inverse-and-complete-sources.md) 在R≤2^{-8192000}的H8196+窄residual三jets域，完整finite角/两窗4/3/同表示Schur给全high/deep/remaining/mean逆；真实Cauchy多项式bootstrap先于scattering/model<2，保全部source/反向输出/affine cut/mean flux。Y_s≤2^{7500000}N_{s+2050}+2^{4300000}Bext_{s+2048}，0≤s≤64。J的新有限jet E_B/型/adjoint接口已显式付费，真Jacobi EN、Γ重选与tame仍不由proxy逆自动关闭。37845B；blob6bd7ba8716457ea499f99af7c46cb07c48373a3a；SHA2561e4df044af399ce60e9ed195e28896489f5b4041d3fa5f75648ee7802cffe887。
