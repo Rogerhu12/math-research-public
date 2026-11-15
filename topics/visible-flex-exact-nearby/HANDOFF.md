@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 02:43:24 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 02:49:58 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 02:34:14.158409 UTC ac2497f9f7ecd6c6b06a3bae832950bfbbb99267；同97select原process10c4e073…两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：f7e1e604f958ae508bbe7f360bbededcf780e6fd；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：efb3b6f4c89cf6dbe044d0ab38f422669ce786a4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
-前H9850B存notes/2026-11-15-handoff-before-shifted-Sobolev-and-whole-rootpiece.md（1ae76dc5…），含H9797/9946/9769/9756完整历史链；旧open29021B在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md（45a8a8db…）。旧log存notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全保。
+前H9918B存notes/2026-11-15-handoff-before-reflection-and-low-even-adjoint.md（88ffda68…），含H9850/9797/9946/9769/9756完整历史链；旧open29021B在notes/2026-11-15-open-before-actual-Taylor12-and-adjoint-cover.md（45a8a8db…）。旧log存notes/2026-11-15-log-through-inner-source-deployment.md；原actual/native/失败/参数/逐行证明全保。
 
 ## 同一对象和总完成门
 
@@ -29,11 +29,10 @@ A1–29/d054ee75…后验保S*=mV、真Robin/mean/jump/全high/Hessian；actual�
 
 ## Airy根、第一修正与全源：phase_inverse
 
-原root/forcing/Cauchy/1079真实seam、全部moment/1328矩阵/六profile和失败身份在前H9946B及各actual正文完整保，禁重算。principal μ=Q²B+、leading a0=GB−，两branch/同复δ/真实old-circle九词与独立五mean不删。fold与leading-mean旧最小窗upper713577.173144非下界；aux anchored v2 43647998272 native84e2bd1b…原小13/大14门仍有效。
-高intrinsic43661471951 nativeec702cff…0..15原低阶逐字保。Taylor12 actual43664023495 child0/19门、89pin/原75+新205=280stage，native758a2901…88854B/process42ab23b9…34792B；固定η0复δ≤1e−8、同根片/内窗9e−6，forcing/w1至12、leading/fold至14，全Fourier a1±2496/b1±2688；φ1/512 raw local pair<68.712280537/13452216.620035，非完整operator。原inner失败两成功stage/v243657933806与实角43659519776全保；旧完整负<10602457152/正<3219480409。
-严格外段local43657793725、完整old-circle43660841558已成，原4359occurrences/六case/真实来源全保；旧case1/50自然5517372B原artifact。b*剥离actual43663147595 child0/9门、natived61f4239…/processef0e7f24…保7norm/1tail/6profile/653seam/1036新、3323fallback；大三径fixedX/正optical失败记录保，fullprocess100236B禁connector读取。
-b*完整源actual43665091373 child0/8门，native2a387a9d…31133B/processa7c42cca…55665B，1036新/3323逐字、1328转换/六profile0重算。前三R负完整<4.834450e20/6.332163e20/8.952481e20；正<1.155745e22/1.422447e22/1.960789e22，最粗在真piece2549首外格，负2548。case1/50自然5630289B只原artifact。
-N1–17合同68ad0339…的actual43666374252 child0/10门：SCIe9024812…/39pin manifestbc34acdc…，nativefbe1bce6…60456B/process6396a554…34986B，26原stage逐字/60新。σ1/512完整Nraw q0<54.373309627/13315816.514291689；b尾仅.096369，有限均值不能删；q1/q2全保。原43666029053漏topic路径hydrate失败0数学，只修1path+flow。whole-piece P1–12/d6369980…已证：真piece2549/scalar germ含域门、48已成norm、原R1/6000补全尾、JP九词+五mean、根band两侧计费、旧outside原行保；80pin consumer已装SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…，48旧norm/78旧pins保；atomic stage与case/index间断可逐字核恢复，所有summary独立stage。背景/forcing跳不改；修正seam/正weighted端口/strong-return/cutoff仍缺。
+原root/forcing/1079真实seam、全部moment/1328转换/六profile/旧失败、source/manifest/native身份在前H9918B及actual正文完整保，禁重算。μ=Q²B+、leading a0=GB−，两branch/同复δ/九old-circle词与五独立mean不删。aux v2 43647998272原小13/大14门native84e2bd1b…；高intrinsic43661471951到15，Taylor12 actual43664023495 child0/19门、原75+新205stage，native758a2901…/process42ab23b9…；固定η0、复δ≤1e−8、原R1/6000/Σ1/128和内窗9e−6保。
+旧内窗43659519776、外段43657793725、完整circle43660841558均成；b*剥离43663147595保7norm/1tail/6profile/653seam/1036新、3323fallback，后三大径fixedX/正optical失败保。b*完整actual43665091373 child0/8门，native2a387a9d…31133B/processa7c42cca…55665B，0转换/profile重算；前三R负<4.834450e20/6.332163e20/8.952481e20，正<1.155745e22/1.422447e22/1.960789e22。R.02自然5630289B SHA6324952d…只原artifact；fullprocess100236B c89ba87c…禁connector读取。
+Nraw actual43666374252 child0/10门，SCIe9024812…/39pin bc34acdc…，nativefbe1bce6…60456B/process6396a554…34986B，26原/60新。σ1/512 q0<54.373309627/13315816.514291689，b尾仅.096369、有限mean不能删；全部q1/q2及sup/Wiener差异见actual585e7229…。原43666029053漏topic路径0数学失败已修。
+whole-piece P1–12/d6369980…保真piece2549、48已成norm、h*<1/6000完整尾、九词+五mean、rootband双侧、outside原payload。80pin五件SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…部署d549f0c，actual43669106351运行；78旧pins/唯一external不变，atomic stage/case中断逐字恢复、summary独立stage。背景/forcing跳不改；修正seam/正weighted端口/strong-return/cutoff仍缺。代理另推完整逐模径向mean参考，保primitive真实对角/两branch/j0，不粗置u=0或v=m。
 
 ## 外返回、新简单根和闭网络：tail_connector
 
@@ -48,3 +47,5 @@ G1–26/1507b1da…已证：全4Z Eh=I(Ch2)−m〈CI(Ch2)〉，逆与两mean准�
 S1–24/6812a8a6…新证：真long B0闭合后K<1/64；σ1/128完整复角Kz<2^64，M=2^256 shifted权共轭差<2^-166，−3/2≤s≤1024通常物理M_s逆<2^262145。Cf_cov<2^400000，连原U尾反馈<2^-31000000；两mean/完整jump与原F相位不删。moving仅输出L∞rHφ^s，不冒称ℓ²sup_r同模；全δ/原F相位/ν非线性继续。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。
+
+L1–16/7a97adc2…已另证同一adjoint trial完整low-even97输出，保a与实际zC,0；(E−E0)(E−E0)*≤c*²Werr只在输出侧，真Poisson HY可按signed tr(HY Werr)收费。未新数值；由实际主导分量决定后续是否消费，0旧Gram重算。

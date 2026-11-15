@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 L1–16：完整 low-even97 伴随与方向边界差。** [证明](notes/2026-11-15-R133-complete-low-even-adjoint-and-directional-boundary-defect.md)，SHA256 `7a97adc27d884c507e44a79df4c7e45d5c9071ce1fbbfd820bbed733391880a6`。准确恢复此前high投影消去的真实moving mean，保独立输入a及physical trial mean；后验矩阵在正确输出坐标给(E−E0)(E−E0)*≤c*²Werr，可消费已证真Poisson的signed方向trace。无新数值改善或循环逆证明。
+
 - **R119 K1–34：固定径向根源与原普通源物理C²逆。** [完整证明](results/R119-supplement-fixed-radial-root-sources-and-complete-ordinary-C2-inverse.md)，SHA256 `b22c900a3fbfd0417b590188e2dc5aa6dc7b599004d15a82c7a560d5b3ea0120`。仅同径向截面改变角坐标，准确保 total-flux mean 与高度 mean；根能量、实际两端仿射接线、所有浅前缀及深层权均已付。原 S2β→S_t1026<2^16384，继得完整普通源物理δ22 C²；不授解析输出、未核弱端迹或主课题闭合。
 
 - **R133 完整角规范Hessian的负阶/高阶Sobolev与帽尾Schur。** [S1–24](results/R133-supplement-shifted-Sobolev-complete-gauge-Hessian-and-cap-tail-Schur.md)在同repair/η0δ0，真B0闭合后K<1/64；完整复角族粗界2^64与M=2^256权给共轭差<2^-166，−3/2≤s≤1024通常物理M_s逆<2^262145。完整Cf_cov<2^400000，原U全尾反馈仍<2^-31000000。保两mean/跳/原F相位aRφ；实际角转换仅给moving L∞rHs，不冒称radial-sup模块不变。

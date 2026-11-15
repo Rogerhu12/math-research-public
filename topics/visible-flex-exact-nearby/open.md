@@ -93,3 +93,7 @@ SCIed62ebe4…/CIa52bb62b…/353pin manifest7473f786…按已证P1–7分cap/com
 ### 整原根分片全源 consumer 已部署
 
 80pin 五件 SCI66668065…/CI855bcec6…/manifestd30c306e…/workerbc2292cf…，只消费原48norm、完整Nraw/乘子、1328转换和六原case；唯一自然>5MB输入读取43665091373的整件原artifact。固定真piece2549和原R1/6000补全h*尾后计算完整九词+五mean，原piece外payload逐字保；未授真实修正seam或强返回。每个scalar/row/summary单独检查点，case先保存而index未写的中断只按独立原payload恢复，原native不改；partial陈旧结果不冒领。新数学限公开Actions，实际结果到达立即接端口与完整高频闭合。
+
+### 完整 low-even97 伴随接口已证，按实际误差主项选择消费
+
+[L1–16](notes/2026-11-15-R133-complete-low-even-adjoint-and-directional-boundary-defect.md)用同一个adjoint trial恢复全部low-even97，包括独立mean输入a与实际physical zC,0；输出侧(E−E0)(E−E0)*≤c*²Werr。若真实Poisson仍被旧统一97边界差主导，只新增完整low输出与原矩阵差、全部alias/round费，不重7908/5970或旧proposal。必须先有真实HY，保参数X*X、signed tr(HY Werr)和同输入Cauchy；尚无此项新数值结论。
