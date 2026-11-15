@@ -1,0 +1,287 @@
+{
+  "kind": "actual_public_ephemeral_parallel_matrix_Green_Poisson_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43680721302",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "2d648178615c3918f57c042f33fd5ec62a4cf1db",
+  "worker_source_sha256": "c2970d6ad7180e8aa26866f85425958935b1d7f1bc35aa098eee5312ea6012c6",
+  "started_utc": "2026-11-15T05:23:21.758219+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-15T05:23:45.327426+00:00",
+      "before": "b9a21a4bdcf6831c3e27e34cf3e7c76e6835c359",
+      "after": "1a3f41b912af97045e336372173ef3800c35d9bf",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:23:58.281288+00:00",
+      "before": "1a3f41b912af97045e336372173ef3800c35d9bf",
+      "after": "1a3f41b912af97045e336372173ef3800c35d9bf",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd",
+  "explicit_readme_review_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "one_ephemeral_complete_consumer",
+  "complete_matrix_run": "43654510038",
+  "complete_matrix_attempt": "1",
+  "original_targets_F_C_source_Grams_output_Grams_and_scalar_ports_recomputed": 0,
+  "complete_finite193_directional_two_boundary_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "complete_rows_reused_despite_later_publication_failure": true,
+  "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+  "new_recomputable_repository_data": false,
+  "new_Release_uploads": false,
+  "new_Actions_artifacts": false,
+  "actual_original_backwards_run": "43672023585",
+  "actual_original_cap_run": "43671537267",
+  "original_complete_scientific_rows_recomputed": 0,
+  "new_arithmetic_bits": 192,
+  "maximum_compute_processes": 4,
+  "actual_available_cpu_count": 4,
+  "conclusion_scope": "finite193 and true97 Poisson; full high inverse remains separate",
+  "historical_hydration": {
+    "fixed_public_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
+    "exact_files": 358,
+    "historical_files": 199,
+    "full_temporary_receipt_sha256": "a02f30e3e35cc298c04cef00c076a0dfc1fcd86b2c7d229330f599b0bcaf1002",
+    "restored_into_checkout": false,
+    "old_mathematics_executed": false
+  },
+  "input_manifest_sha256": "fea26a82069e507002663b791dc1195b295b30726c473bfa2c5854fc207e1861",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "python_version": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "all_pinned_inputs_verified": true,
+  "immutable_scientific_copy": "/home/runner/work/_temp/visible-exact-ephemeral-matrix-work/science",
+  "actual_reviewed_readme_sha256": {
+    "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "1a3f41b912af97045e336372173ef3800c35d9bf",
+  "exact_old_future_prefix": {
+    "run_id": "43672023585",
+    "run_attempt": "1",
+    "artifact_id": 14146873569,
+    "original_zip_sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773",
+    "native_sha256": "09df7651d1fbef04eb0d67ab5c762a29d4624ad2610015de1254496b70dce1e9",
+    "process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809",
+    "actual_complete_rows": 1886,
+    "old_successful_rows_recomputed": 0,
+    "actual_original_failure": {
+      "type": "RuntimeError",
+      "message": "new unread repository rules need their actual diff read: README.md"
+    },
+    "actual_original_gates": [
+      {
+        "name": "actual_complete5970_same_F_matrix_cover_and_original_four_rows",
+        "passed": true
+      },
+      {
+        "name": "same_actual_complete_finite193_Green_native_and_original_artifact_process",
+        "passed": true
+      },
+      {
+        "name": "same_repaired_centre_full_mean_true_boundaries_and_fixed_root_window",
+        "passed": true
+      },
+      {
+        "name": "all6391_continuous_cells_all5970_interfaces_and_virtual_waist_are_exact",
+        "passed": true
+      },
+      {
+        "name": "original_complete_true_ordinary_L2_Green_kernel_and_process",
+        "passed": true
+      },
+      {
+        "name": "all5970_true_individual_weighted_jump_gains_and_actual_public_process",
+        "passed": true
+      },
+      {
+        "name": "complete_true97_boundary_including_mean_and_exact_nominal_matrix",
+        "passed": true
+      }
+    ],
+    "latest_original_readme_check": [
+      {
+        "time": "2026-11-15T04:49:05.079498+00:00",
+        "before": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+        "after": "d45e811152a7bfad8b59a5a2ca3aca7fc92b4ba2",
+        "changed": true,
+        "actual_diff": "diff --git a/README.md b/README.md\nindex 6183b7f..f9a8c9c 100644\n--- a/README.md\n+++ b/README.md\n@@ -34,7 +34,7 @@\n    - 不要整篇打开超过 100 KB 的文件，包括 `results/archive-*/` 的分卷、`log/` 下的旧日志和 `notes/` 里的大文件。需要旧结论时，先查 `results/archive-*/INDEX.md`，只打开它所在的那一卷。\n    - 单个 Markdown 文件不超过 100 KB；`README.md`、`open.md` 尽量不超过 30 KB，超出就把旧内容移进 `notes/`。\n    - 新结论写成新文件 `results/R<编号>-<短名>.md`，并在 `results.md` 的\"新增结论\"列表加一行。不要往大文件末尾追加。\n-   - 数据文件超过 1 MB 先压缩成 `.gz`；不要提交超过 5 MB 的文件。\n+   - 数据文件超过 1 MB 先压缩成 `.gz`；不要提交超过 5 MB 的文件，更大的放 Release，见第 15 条。\n    - **推送用终端 git（2026-11-09 起）**：经 GitHub 集成或 API 工具传送的内容都会进入对话，大数据会拖慢工作。有终端 git 认证时一律用终端 `git push`，令牌只在终端里使用，不写进任何文件、提交、日志、HANDOFF 或笔记，也不在回复里重复。只有 GitHub 集成可用时，集成只传文本和小于 100 KB 的文件；更大的数据文件不提交，只提交生成它的脚本、参数和哈希，保证可以重新生成。不要把数据分块或编码后经工具调用传送，也不要把二进制内容读进对话。这一条优先于课题 README 中直接提交数据的要求。\n 9. **交接摘要**：每轮结束时重写自己课题的 `HANDOFF.md`，不超过 10 KB：问题一句话、当前状态、已证结论的编号各一句、下一步、正在用的文件。下一个会话只靠它和 `open.md` 接手。\n 10. **不要完整克隆（2026-11-10 起）**：仓库有数 GB，几乎全是 `topics/` 下的数据。完整克隆或拉取会占满沙盒磁盘、耗费大量时间。一律用部分克隆，只检出需要的目录：\n@@ -44,7 +44,7 @@\n     git sparse-checkout set topics/<你的课题> papers/<需要的论文>\n     ```\n     需要读其他目录时用 `git sparse-checkout add <目录>`，或 `git show origin/main:<路径>` 只取单个文件。已有的完整克隆也改成这样（`git sparse-checkout set ...`）。\n-    - 数据文件只提交复核真正需要的；可由脚本和参数重新生成的大中间数据不入库，只提交脚本、参数和哈希。每个课题的数据总量尽量控制在 200 MB 以内。\n+    - 数据文件只提交复核真正需要的；可由脚本和参数重新生成的大中间数据不入库，只提交脚本、参数和哈希。每个课题目录的总大小不超过 200 MB，见第 15 条。\n 11. **规矩会更新，每次拉取后检查（2026-11-10 起）**：作者和协调方会随时修改本 README 和自己课题的 README。每次 `git pull` 之后（至少每小时一次）检查这两个文件有没有变：\n     ```\n     git diff <上次读过的提交> origin/main -- README.md topics/<你的课题>/README.md\n@@ -53,3 +53,13 @@\n 12. **不为防错设流程（2026-11-10 起）**：作者只担心做少，不担心做错或做多。新结论写出完整证明就直接登记进 `results/`，不必先冻结候选、请未参与者独立审查、逐字归档、机械核验或独立重跑；各课题 README（包括其状态段）里残留的这类要求一律作废，已经在走的这类流程可以停掉。省下来的时间用来推进问题本身。完成标准里写明“只算中间进展”的情形照旧不算完成。\n 13. **CI 直接用本仓库的 GitHub Actions（2026-11-14 起）**：本仓库公开，Actions 不受私有仓库计费故障影响（`ubuntu-latest`，4 核、16 GB 内存，单任务最长约 6 小时，账号内最多 20 个任务同时运行）。workflow 放在本仓库 `.github/workflows/`，按 push 或手动触发，结果提交回本仓库。只运行本仓库这些课题的计算。需要读取私有仓库 `Rogerhu12/math-research` 中其他课题的来源文件时，在 workflow 里用 `secrets.MR_TOKEN`。私有仓库里还没执行的 `ci-queue/` 请求不会再运行，需要的请改成本仓库的 workflow。\n 14. **本仓库公开**：所有内容任何人可见。令牌照旧只在命令行或 Actions secret 里用，不写进文件、提交、日志或 workflow 明文。\n+15. **大数据放 Release，不进仓库（2026-11-15 起）**：仓库已超过 10 GB，几乎全是切成小块提交的证书，再涨下去推送和克隆都会出问题。这一条优先于课题 README 中直接提交数据的要求。\n+    - 不要把文件切成 `.part001`、`.part002` 之类的分块，也不要用其他办法绕开 5 MB 上限把大数据提交进仓库。每个课题目录的总大小不超过 200 MB。\n+    - 超过 5 MB 的证书、数据和 Actions 输出，上传为本仓库 GitHub Release 的附件（单个附件最大 2 GB）。每个课题用自己的 release，tag 为 `data-<课题名>`；一个 release 的附件到 1000 个上限后，新建 `data-<课题名>-2`，依此类推。\n+      ```\n+      gh release create data-<课题名> --title \"data-<课题名>\" --notes \"数据附件\"   # 已存在就跳过\n+      gh release upload data-<课题名> <文件> --clobber\n+      ```\n+      workflow 里用 `GITHUB_TOKEN` 上传，并在 workflow 中声明 `permissions: contents: write`。\n+    - 仓库里只提交清单：附件名、大小、SHA-256、下载地址，以及生成它的脚本、参数和 run 编号。复核时用 `gh release download` 取回并核对哈希。\n+    - 已经提交进仓库的分块文件，以及让课题目录超过 200 MB 的数据：合并回原文件后上传为 Release 附件，写好清单，再用普通提交从 `main` 删除。不改写历史，不要强推。\n",
+        "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+      }
+    ]
+  },
+  "snapshot_utc": "2026-11-15T05:23:58.343873+00:00",
+  "wall_seconds": 36.586423904000014,
+  "actual_temporary_progress": {},
+  "original_process_receipts": [
+    {
+      "file": "original-all5970-impulse-artifact-process.json",
+      "bytes": 8566,
+      "sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "file": "original-complete-L2-kernel-process.json",
+      "bytes": 8264,
+      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "file": "original-complete-finite193-Green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "file": "original-complete5970-matrix-process.json",
+      "bytes": 24249,
+      "sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "file": "original-complete5970-projector-process.json",
+      "bytes": 4269,
+      "sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "file": "original-complete97-weighted-boundary-process.json",
+      "bytes": 13666,
+      "sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "file": "original-rule-failure-process.json",
+      "bytes": 69351,
+      "sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "actual_original_artifact_archives": [
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cut-projector-prepared-43594139132-1",
+      "artifact_id": 14113777182,
+      "api_size_in_bytes": 1258246,
+      "exact_downloaded_archive": {
+        "bytes": 1258246,
+        "sha256": "8d27c78358dfcf7196bf71e3be3d7e2caae9e6ea4c4171c1dcf13ddbf0af9b25"
+      },
+      "arrays_only": false,
+      "extracted_files": 14,
+      "actual_process_sha256": "e8f975932aedf150d1a2beaaae6a05650f7983f8844b9ae488343d953a1a9184"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43594139132",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-5970-projectors-43594139132-1",
+      "artifact_id": 14116108990,
+      "api_size_in_bytes": 3813407,
+      "exact_downloaded_archive": {
+        "bytes": 3813407,
+        "sha256": "ff371eb320491b179265a90c6ed19be318c2930f8ed1c48f861f1bb1542a551a"
+      },
+      "arrays_only": false,
+      "extracted_files": 5,
+      "actual_process_sha256": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43601964129",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-cut-Green-complete-43601964129-1",
+      "artifact_id": 14117096043,
+      "api_size_in_bytes": 17919531,
+      "exact_downloaded_archive": {
+        "bytes": 17919531,
+        "sha256": "86c48eb560961d3ac97e45b8de97c301f6c5ee3d6455a946a0528cda3bd68d84"
+      },
+      "arrays_only": false,
+      "extracted_files": 9,
+      "actual_process_sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43633074696",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-finite193-L2-Green-kernel-43633074696-1",
+      "artifact_id": 14128549530,
+      "api_size_in_bytes": 17615189,
+      "exact_downloaded_archive": {
+        "bytes": 17615189,
+        "sha256": "551a889edaa4a4c59a3af66d56b195b783bad1cb1482e644d4134b4783dd86ae"
+      },
+      "arrays_only": false,
+      "extracted_files": 7,
+      "actual_process_sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43649423561",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-cached-interface-impulse-43649423561-1",
+      "artifact_id": 14135173447,
+      "api_size_in_bytes": 13683038,
+      "exact_downloaded_archive": {
+        "bytes": 13683038,
+        "sha256": "ea4e7f5f7eecb82ed5861af8631c500fa298e4a0b7306932a20c03f3259cb632"
+      },
+      "arrays_only": false,
+      "extracted_files": 9,
+      "actual_process_sha256": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-5970-finish-43654510038-1",
+      "artifact_id": 14144756174,
+      "api_size_in_bytes": 45347805,
+      "exact_downloaded_archive": {
+        "bytes": 45347805,
+        "sha256": "49d9e622aa059f4f9ce059f1e352bfda6fe5c57dc2943f60e25795b2051dbebd"
+      },
+      "arrays_only": false,
+      "extracted_files": 40,
+      "actual_process_sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43672023585",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-directional-matrix-Green-backward-43672023585-1",
+      "artifact_id": 14146873569,
+      "api_size_in_bytes": 286134725,
+      "exact_downloaded_archive": {
+        "bytes": 286134725,
+        "sha256": "de4e8dbdde0e34f6cfbd00b643ed70544ddc55d5852e1654a400ec8d3eaf3773"
+      },
+      "arrays_only": false,
+      "extracted_files": 2044,
+      "actual_process_sha256": "d2119ed8676cfe08cf6341611afa725133f041897ef1f3418d0afed6ca77c809"
+    }
+  ],
+  "new_output_policy": "only scripts, parameters, run IDs, output SHA and true small conclusions; no new data artifact"
+}
