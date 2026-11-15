@@ -2,13 +2,15 @@
 
 日期：2026-11-15。接[已发布设计](complete-model-covered-soft-ordinary-growth-design-20261115.md)。仅源码审查；新增检查与科学计算尚未执行，均只在本公开仓库 Actions 运行。
 
-## 已接的三个新源
+## 已接的五个新源
 
 | 文件 | 字节 | SHA256 |
 |---|---:|---|
 | scripts/frame_metric_covered_soft_growth.py | 38024 | 1e0dd68fd4cd1ab4c2e07aa91f90018d7fbe1c4af4f3afae29e50ffd6125a0fb |
 | scripts/frame_metric_covered_soft_growth_recovery.py | 47755 | f51613f5fa28a2cdea2747952cf5dcb9f8e327fd778df649bded19f6473aa3df |
 | scripts/frame_metric_covered_soft_growth_development.py | 32318 | a9e8772e620b70dd7a94beee139006bea13d6956ec9d7361921fafdb07caa665 |
+| scripts/frame_metric_covered_soft_growth_transfer.py | 16622 | 645c13c86f78d5235b59bc921b8a5b229d9a671333e3ae0c61573ff9d0e15ec5 |
+| scripts/frame_metric_covered_soft_growth_audit.py | 31035 | fb7b04055ac7b0d9c52c4a0b1cb8fa8483316919b0c1c6d51103a378a33fbfe4 |
 
 原130个已付脚本均不修改。新 core 直接继承已付接口；恢复外层从当前 SOC-pair 源派生，原 primary/SOC/学习/接纳/回退分支保留。新增的模型字段只绑定实际接受中心的双网最大值、两次 factory 之后的完整对象和原数据，并报告两个独立 streak 及实际后继使用。
 
@@ -35,10 +37,18 @@
 
 ## 下一唯一执行接口
 
-两新 transfer/audit driver 正在接线，随后发布独立工作流与单独 request。只读取当前完成 run43758666042/job132948276657/source aca67097b60b7eacdcf20798395ce6d4d1ab2845 的原日志一次；原4组19条、此前26条与cache证据传递复用，不执行旧检查。
+两新 transfer/audit driver 与独立工作流现已接好，下一单独 request 触发首次执行。只读取当前完成 run43758666042/job132948276657/source aca67097b60b7eacdcf20798395ce6d4d1ab2845 的原日志一次；原4组19条、此前26条与cache证据传递复用，不执行旧检查。
 
-唯一科学入口保持 exact159/reference163/physical163、原 $g,b_0$、59项有序 bank、4432/4358原有序池、$B=1/8000$、legacy1/new0。新阶段仍为原12 LP/40完整值/120 active秒/10秒每LP；原 SOC 配额与原完整门不变。全部140项绑定预计由135脚本和5工作流组成。
+唯一科学入口保持 exact159/reference163/physical163、原 $g,b_0$、59项有序 bank、4432/4358原有序池、$B=1/8000$、legacy1/new0。新阶段仍为原12 LP/40完整值/120 active秒/10秒每LP；原 SOC 配额与原完整门不变。全部140项绑定由135脚本和5工作流组成。原24输入参数数组逐字保留，新增五源以原130源为递归闭包。
 
 工作流将在科学前实际 pull --rebase 公私规则，读取每次README差异，并保私有 QUEUE 为本会话进行中。新检查通过以后仅一次当前最好点延续。无论新扩径是否触发，都消费原实际结果再决定下一科学问题，不为等触发重播同阶段。
 
 暂时只表示源码已接与待执行范围，不表示新检查通过、数值改进或连续几何完成。
+
+## 执行元数据
+
+工作流 `.github/workflows/visible-covered-soft-growth.yml`：4223B，SHA256 08029ae79f69438e9e8ffad5f232bd395a5b999102407cfefccba01c8a3bf7e1。
+
+单独请求 `computations/request-covered-soft-growth.json`：37359B，SHA256 8c720549a3ccbbc41e0597114abeff8b009e75eb2ae5bfaff05c7befd59a76db，140源码/工作流绑定；这份请求只包含参数、原输入路径与校验元数据，不包含可重算检查点 payload。
+
+CLI 的 SCHEMA 为 `same159-current-best-complete-model-covered-soft-ordinary-growth-v1`，stage 为 `covered_soft_ordinary_growth_stage`，完整状态为 `complete-two-grid-covered-soft-ordinary-growth-audit`。输出前缀 `COVERED_GROWTH_`；future checkpoint 同时保原 legacy 和新 covered 末状态。临时 JSON 仅 runner，Git/Release/artifact 都不保存。
