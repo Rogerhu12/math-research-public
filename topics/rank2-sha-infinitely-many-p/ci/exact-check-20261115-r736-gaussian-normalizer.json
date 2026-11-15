@@ -1,0 +1,22 @@
+{
+  "request_id": "rank2-20261115-r736-gaussian-normalizer",
+  "run_id": 43705781851,
+  "source_commit": "fa1cd6a1ab3caf6886eba4a56283dca12fd54d41",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r736-normalizer-and-gaussian-square.py",
+      "script_sha256": "f6b501b6e06986ae9d221567ddbf5d30f77c2b79327fee1960d52f82e02e0290",
+      "args": [],
+      "engine": "python3",
+      "sha256": "0f376f20ac4a80c078cfdf4ab748e8a73d2bc3cece3015da2bd76c588bbf6e45",
+      "stdout_bytes": 478,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": "0.8.0",
+  "job_id": 132786423082,
+  "workflow_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43705781851",
+  "fixed_records_sha256": "9f66a42402a017e05939df0f2803d3aad96ce2b69700cdfbf324518156031b9e",
+  "scope": "fixed whole normalizer and Gaussian square residue classes modulo 102; no varying-prime sample; no generated table persisted"
+}
