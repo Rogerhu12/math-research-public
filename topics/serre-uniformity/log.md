@@ -170,3 +170,8 @@
 - 公开run43725592504成功；G1/G5的FG/HJ准确零，F3/F7六old系数全p≥41单位，原式缩六个未知CM值。全部U/源/运输已保存，canonical与源metadata完整日志IO核。
 - 公开全manifest verify过，artifact14165618753仅一日续接；未独立下载ZIP、不冒称CM和非零，立即推送结果。
 - 14:49 UTC公开rules run43714581068/attempt11实际pull到ff65b8df，两README无变化；已记H。
+
+### 2026-11-15 23:16（Asia/Taipei）｜serre-public-astra-20261115 · R827
+- 两图真实mod多项式满射⇒原char0导数层终止的完整充分判据已核：flat C、两族齐次原source、proper/Nakayama；Stacks四原条目已直接核。
+- 同unit Schur/S5与原W/vg/vh的8/6/5单位节点给无需char0 CRT的真实约化入口；仍待实际节点/两图Bézout，不预填q4或D约化。proof c37119f3，H归档后立即推送。
+- 三项原R787/R809/R815仍在数学步；原R824首scope工程正核，主目标OPEN。
