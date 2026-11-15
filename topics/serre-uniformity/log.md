@@ -390,3 +390,9 @@
 - R815原run43719622321已真实结束：18:33:50UTC数学exit1/error null，最终verify因complete=false失败；artifact14174374945/2716759066B/ZIP597aaf00、3466文件已上传，未先把原因说成BudgetStop。
 - 激活已核0f587776纯IO脚本的真实请求cf5bb753，仅取小metadata/完整index/最新CRT receipt；原53源/80516ff9核心/ab725da0包装及目标/prime/mode全不变，真manifest确认后仅增resume立即续接。无新算术或额外测试gate。
 - 推送接口拒绝后立即真实pull/rebase；2026-11-15T18:39:05.888833+00:00实际read 656b4c2d17050c130730a60d1f673183fc92497e，两README无diff；主目标OPEN。
+
+
+### 2026-11-16 02:44（Asia/Taipei）｜serre-public-astra-20261115
+- R815小IO run43747973677已成，真实BudgetStop而非数学失败；g425prime/last1000008791/模数12707bits，Γ未开始。原manifest4e78095e、current402379e2与425收据f136bee8匹配；只506992 Range bytes，没有重hash大current/整ZIP。
+- 保存425断点全pins并立即激活同核请求ac0870b2；逐键核只改resume，53来源、80516ff9/ab725da0/849bca27、目标/prime/重构间隔/16行块/nested模式全不变，原wrapper全核后从425继续。
+- 2026-11-15T18:42:06.345648+00:00实际pull/read 48e55d2e0f6f07405c216b5417ef97844654124e，两README无diff；尚无完整Mg/Γ或高度，主目标OPEN。
