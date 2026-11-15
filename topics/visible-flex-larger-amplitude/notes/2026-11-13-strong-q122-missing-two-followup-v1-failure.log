@@ -1,9 +1,0 @@
-{"event": "waiting_for_original_missing_two_owned_exit", "utc": "2026-11-13T15:49:46.590810+00:00", "response_prefix": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2", "no_new_response_started": true}
-{"event": "immutable_archive_completed", "utc": "2026-11-13T15:50:47.943332+00:00", "response_prefix": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2", "manifest": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-archive-r2.json", "manifest_sha256": "96acae74996986185798848554dcebe9383387469bbf44e793f8332ed99d9f3e", "files": 21, "bytes": 13828117}
-{"event": "original_merger_started", "utc": "2026-11-13T15:50:47.950476+00:00", "response_prefix": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2", "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python", "-u", "computations/strong_merge_completed_six_missing_two.py", "--partial-six", "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json", "--missing-two", "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2.json", "--out-prefix", "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r1"], "no_ODE_or_Jacobian": true}
-Traceback (most recent call last):
-  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_completed_missing_columns_followup.py", line 179, in <module>
-    main()
-  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_completed_missing_columns_followup.py", line 159, in main
-    raise ValueError('The frozen original exact-row merger failed; supplemental archive is retained')
-ValueError: The frozen original exact-row merger failed; supplemental archive is retained

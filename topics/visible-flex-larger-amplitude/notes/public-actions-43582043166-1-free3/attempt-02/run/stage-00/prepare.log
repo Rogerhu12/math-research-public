@@ -1,9 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_normal_bvp_continue.py", line 114, in <module>
-    main()
-  File "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_normal_bvp_continue.py", line 82, in main
-    L,norms,diagnostic=normal.projector(q,s1,predicted,args.fixed_modes+1)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_normal_terminal_projector.py", line 37, in projector
-    raise ValueError('Principal elliptic boundary requires strictly positive sampled det II and nonzero II_phi_phi')
-ValueError: Principal elliptic boundary requires strictly positive sampled det II and nonzero II_phi_phi

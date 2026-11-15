@@ -1,9 +1,0 @@
-file:///workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs:11
-if(!selected)throw Error('Missing verified adjacent-topic sources; use a full repository checkout or set CLOSING_TAIL_CACHE to its scripts directory.');
-                   ^
-
-Error: Missing verified adjacent-topic sources; use a full repository checkout or set CLOSING_TAIL_CACHE to its scripts directory.
-    at file:///workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs:11:20
-
-Node.js v24.22.1
-{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["node", "--max-old-space-size=256", "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/root_R167_M8_actual_root_coordinates_v2.mjs", "--inputs", "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/input-manifest.json", "--out", "/workspace/scratch/d1aa462cfc02/root-work/r127/R167-M8-root-coordinates-r2.json"], "wall_seconds": 0.41117262840270996, "exitcode": 1, "termination_signal": null, "peak_rss_kib": 37580, "user_seconds": 0.128549, "system_seconds": 0.053604, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

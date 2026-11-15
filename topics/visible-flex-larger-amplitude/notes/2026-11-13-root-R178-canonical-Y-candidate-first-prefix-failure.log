@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R178_canonical_Y_quintic_candidate.py", line 100, in <module>
-    if __name__=='__main__':main()
-                            ^^^^^^
-  File "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R178_canonical_Y_quintic_candidate.py", line 29, in main
-    a=ap.parse_args();assert not any(a.out_prefix.parent.glob(a.out_prefix.name+'*'));started=time.monotonic();ctx.prec=256;ctx.threads=1
-                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError

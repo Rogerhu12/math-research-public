@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/closure_outer_physical_green_geometry_recovered_v2.py", line 644, in <module>
-    main()
-  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/closure_outer_physical_green_geometry_recovered_v2.py", line 531, in main
-    guard()
-  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/closure_outer_physical_green_geometry_recovered_v2.py", line 439, in guard
-    raise MemoryError('Observed owned RSS exceeded the declared stop threshold: '+str(peak))
-MemoryError: Observed owned RSS exceeded the declared stop threshold: 45308

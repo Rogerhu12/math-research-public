@@ -1,6 +1,0 @@
-{"time":"2026-11-14T11:04:10.406Z","event":"tail_variational_backend","backend":"fourier-root-and-product-moments-v1","predictor":"full-shooting-tangent-v1"}
-{"time":"2026-11-14T11:04:11.387Z","event":"request","call":1,"height":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"jacobian":true,"audit":true}
-{"time":"2026-11-14T11:04:11.419Z","event":"compact_storage_gc_before_solve","call":1,"before":{"rss":621645824,"heapTotal":101507072,"heapUsed":91696744,"external":316223205,"arrayBuffers":313962483},"after":{"rss":621645824,"heapTotal":99147776,"heapUsed":85758920,"external":316223205,"arrayBuffers":313592611}}
-{"time":"2026-11-14T11:22:55.316Z","event":"iteration","call":1,"elapsed_ms":1123929,"iteration":0,"norm":0,"minA":1,"minD":1}
-{"time":"2026-11-14T11:26:21.665Z","event":"tangent_predictor_ready","call":1,"maxChartCondition":385639413119263240000}
-{"time":"2026-11-14T11:26:21.666Z","event":"response","call":1,"elapsed_ms":1330279,"converged":true,"residual":0,"maxChartCondition":0}

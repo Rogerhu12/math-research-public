@@ -1,8 +1,0 @@
-{"event": "start", "M": 128, "N": 1536, "fixed_modes": 3, "nodes": 157, "end": 1.0005, "initial_boundary": 0.0, "fft_rhs_difference": 1.045844906626588e-14, "fft_directional_jacobian_difference": 1.5253925900182708e-10}
-   Iteration    Max residual  Max BC residual  Total nodes    Nodes added  
-{"event": "jacobian", "count": 1, "nodes": 157, "workers": 4, "seconds": 43.90312075614929}
-{"event": "jacobian", "count": 2, "nodes": 156, "workers": 4, "seconds": 73.27834033966064}
-{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 0.0, "max_collocation": 0.00036885937567769455}
-       1          5.33e-01       0.00e+00          157            12       
-{"event": "jacobian", "count": 3, "nodes": 169, "workers": 4, "seconds": 147.2669394016266}
-{"event": "jacobian", "count": 4, "nodes": 168, "workers": 4, "seconds": 185.58754134178162}

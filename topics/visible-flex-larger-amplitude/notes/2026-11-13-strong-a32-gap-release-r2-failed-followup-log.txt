@@ -1,7 +1,0 @@
-{"event": "waiting_original_actual_owned_exit", "utc": "2026-11-13T19:18:55.639232+00:00", "actual_prefix": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2", "plan_sha256": "5639e72b7a88314f72fb33423db87c73a3c65edca389ad8e3012ef98939a6202", "watcher_sha256": "7c604028f85a1f6407ba78d0622a464c6b888436c1e97a07bc4a28b75aa7792f"}
-Traceback (most recent call last):
-  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_laws_accepted_followup.py", line 158, in <module>
-    main()
-  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_laws_accepted_followup.py", line 72, in main
-    raise RuntimeError('The original actual owned job did not exit successfully')
-RuntimeError: The original actual owned job did not exit successfully
