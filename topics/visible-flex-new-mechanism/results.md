@@ -324,3 +324,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 同m7已付见证接口｜精确身份恢复后，单次冷值耗尽原时间
 
 [同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)（7342B；SHA256 038ce2f6fd8f7eea441532e176605e34d85cd9217a0dc74814fd488dd8888728）。run43773136836/source403a2fcf…审计完整；正确objective55d6c627…/field047cef…各同原，16检查仅复用。必要粗value205.448292651s返回后触发120秒门，累计active241.314203844、值15；新J/模型/LP/SOC/接受0，原bank在新模型绑定仍pending。未变最佳点η.26623355613853394/κ57.99982504159888，14门来自原独立两网末验。LP10余2不赋新的时间预算；此接口不重跑，继续冷评估/缓存新机制与open理论。完整历史/本次费用及双repoactualpull见note。
+
+
+## R402｜完整静态低层的首条明确非零自然通量
+
+[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)（18061B；SHA256 ae0b4c18bc26ccee95ad771eded8d34359edcdca421650ad21031cfca7eee127）。从原F0=v0−B_m0N0−Γm0保全部外槽，静态线k=ω0的h⁻⁴系数为原U元素，Λ=3∫(u′−xu″)⁴u‴/32。N0 h⁻⁴准确0、h⁻²=τ，Γ该行0；原协变−b/YC/ZZ、pure归一及ordered2+2三表相加消尽primitive与μ0H。结果C²五次且Euler主系数−4(u′−xu″)³非零。仅线性静态系数，不冒实际负闭路径或全自然字符延拓；零权C2/C4/C6仍欠。根全文及关键分部积分/三表组合核过，literature独核§8，无执行。

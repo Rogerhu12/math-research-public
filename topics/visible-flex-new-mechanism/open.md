@@ -162,15 +162,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
-### R393完整Q4自然像已闭，低层仍是实际联合商关键
+### R402完整静态低层首条非零通量已付
 
-[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整函数像9维，−4/−2两个平移字符头在Q4四次速度上有准确非负平方action。旧E负权等像不能消去新增自然读出；Q4无零权也不授全Λ无零权。下一继续R130十四族中F0/三Q2的完整forcing/N0/N2/Γ/水平势，检验头能否延拓及低速项是否破坏非负；不重算已闭Q4/旧秩。
-
-
-R396的实际P_LE/双A/旧partial增强成本全部保留，现继续R399/401内部增强；qE的三项原基准仍欠。
-
-
-R397原raw Hd/He及C=RiHe+TiHd保真实有序suffix三矩；完整cell首末C0，旧K全C盲。新非零suffix控制见R399/401；两种actual截面仍不拼wholeE+A。
+[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权函数和三Q2仍未求清，继续原收缩，不重闭Q4或旧E。
 
 
 ### R400原正字符与全自然joint：三个静态函数是当前具体门

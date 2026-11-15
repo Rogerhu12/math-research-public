@@ -28,29 +28,24 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 ## 4. 纸证与准确剩余门
 
-R105/109/130完整U保N0/N2/N3、history、Γ和端势；R84倒行第四同号，span不是实际逆元，R156只α∈πZ合法。R333实际whole E=(pure,self)满射/紧集C1截面保全部有限原型/桥/复制成本；仅E(U0)=E(R0)维10，非全权等像。mixed/同规范/高阶/同g仍欠。
+原U保全部N0/N2/N3、history、Γ及端势（R105/109/130）；R84倒行第四同号，线性span非实际逆元，R156只α∈πZ合法。R333已实际whole E=(pure,self)满射/紧集C1截面，全部原型/桥/复制基准保留；只有E(U0)=E(R0)维10，不是全权等像。完整非线性同g仍欠。
 
-自然Λ按R344/352含真ordered三矩尾，杀R。完整Abar与更正H全Λ0（R350/382）；旧H非零与其7/13控制撤回。R386完整Q4自然式已付。[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)其函数像恰9维，权−7…−2维1/2/2/2/1/1，完整N表及−4/−2两头；Q4上各有非负平方action，**尚非全U正字符**。继续十四族F0/三个Q2的完整N0/N2/Γ/势，不能用Q4无零权或旧E负权等像删增强字符。
+自然Λ用R344/352完整有序三矩尾，杀R。完整Abar及更正后正常H全Λ0（R350/382），旧H非零/7–13秩已撤回。[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整Q4函数像9维、权−7…−2及−4/−2两头已付；Q4非负平方action不授全U正字符。R398已排F0/三Q2全部自然恒零。
 
-R390/392/396实际(P_LE,双固定A,≤11 Hd)保全部原型清A×n、后A通量和有限n一次收缩；L=E(R)，qE三项原基准未消。线性(E,A)像全乘积、λ+不经其下降，但固定A核非已知仿射稳定。[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)旧K0…10在R71∩ker(E,Λall)，指定简单Af点partial独立、非零给真log障碍；不能以总通量零删内部门。
+[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)给第一条具体完整F0读出：V*=[h⁻⁴]F0(h,0,0)，Λu(V*)=3∫(u′−xu″)⁴u‴/32≠0。完整N0外槽、Γ幂、−b、YC/ZZ、正式pure及有序2+2全部保留，最终primitive/μ0H抵消；是原U线性系数，不是一条已实现的负闭路径，不授Q4头全延拓。
 
-Gaussian R388完整R0/R4=正系数D4=∫(f″²−u″²)²，无P分母；对所有κ≠0已存在同Gaussian/M0/TκH芽，全period迫D4=0，连通C²首阶轨道只能f。未排高阶才动/其它机制/一般C²面。
+[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)增强权零商=span{n2,n4,n6}，ni=Λall(Ci)原F0完整函数。H*=C2+R不是正常H。全函数核真仿射稳定后，ker(E,Λall)内λ+=1存在iff n2∈span(n4,n6)；反之λ+下降且真实L+∫(h′/h)²>0阻wholejoint零。两分支仍未判，C6按原R196是hkω，R333标头已改正。继续固定F0原函数/三Q2，旧E或正常H零不能替代。
 
-有理芽R391保19真根、原低阶纤维/解析端，全部Af简单、p仅中心简单零；p的禁residue真抵消，各Af点完整germ iff同一累计F0。R389/394在**实际wholeE0/Λall0前提**下保有序三矩suffix、两组内部值、k′延拓和gap总积分归零以付k值双collar；gap平台代价与真实m*进入13rhs。sinθ付0/π seed；deg4矩阵/deg6rhs的Smith零行恒等和圆上整除jets给全相位光滑iff，整除总重数≤4r≤52不含零行条件/不授rank。
+R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
 
-[R397](results/R397-actual-unsubtracted-internal-fluxes-and-the-ordered-two-period-remainder.md)改用raw Hd，实际(P_LE,A,Hd)仍可联调，保平台成本；二阶gauge不改变原累计量。全E0时C=RiHe+TiHd=a_i³𝔞_i(x;Σ后(TiRk−RiTk)μk)，局部K轨道盲。完整8副本块/更右全部块的两组三矩真闭，首/末微包C0；另用R345实际wholeE0+至多11首包对应partial0，可同时付这些d/e门，**不保双A**。不能拼两种实际截面。其余点、Λall、qE、13同规范仍欠。
+R391有理母包保持19完整条件、原低纤维与解析端：全部Af零有限简单、p仅中心简单零；p禁residue抵消，每Af完整germ iff同一原累计F0，根数未授仅一对。R397改用raw Hd/He，合法incoming Lf不改这些值；全E0时C=RiHe+TiHd=a_i³𝔞_i(x;Σ后(TiRk−RiTk)μk)，局部旧K全盲。完整8-copy cell首末suffix0，真实全部矩/平台费用保留。
 
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)新τ*=64(χ34−3χ32)−𝔍/2有a2p²/c0/自伴Au0，八响应wholeE/Λall0；partial=2p²(pw″−rw′)在Af点无Af因子。负布局倒二微包真实n非零，12copy C像ε·ρ⁷Pol≤3，≤4对应C与旧≤11Hd联调。
+[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一偶包镜点ξ±y的K0/K1两Hd与新τ*两C构成真4×4可逆block，付该两点两period。二者分别有actual wholeE0+指定内部零，或actual(P_LE,A,指定内部)，**两种截面不拼wholeE+A/Λall**。其它根/包仍欠。
 
-[R398](results/R398-complete-low-layer-natural-fluxes-cannot-both-vanish.md)已排F0/三个Q2全部自然读出恒零：若皆零则全自然像=R393九维Q4，−2头复合Λ成非零真实仿射字符；完整固定端M=T0路径的ΓM、正导数势/真history全保后action=∫h_s⁴/(32h⁶)≥0，违R188。至少一个低族真非零；未定具体族/状态/零权，继续完整低层密度，不将Q4头冒全U正字符。
+R394只在实际wholeE0/Λall0前提下：全部简单Af两通道、k′延拓、gap积分与k值双collar、真实incoming m*和平台代价进入13rhs。sinθ付0/π seed；原deg4矩阵/deg6rhs的Smith零行恒等与圆上整除jets给全相位光滑iff，局部重数≤4r≤52不含零行条件，非rank。全period与同一k/同规范仍未实际支付。
 
-
-[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)新增τ*=64(χ34−3χ32)−𝔍/2，完整c0/a2p²，𝔄自伴且𝔄u0；八响应wholeE/Λall0。真实partial=2p²(pw″−rw′)，Af点无Af因子；原负布局倒二微包n=2RTμ_last非零。12真副本的C像ε·ρ⁷Pol≤3，至多4对应点可与旧≤11 Hd联调；实际(F,A,Hd,C)及另一个wholeE0/Hd0/C0截面各自成立，不拼wholeE+A，不授其它点/13门。qY已用r†纠正锚符号，根全文核。
-
-
-[R400](results/R400-weight-zero-natural-flux-kernel-and-three-static-function-criterion.md)权零增强商精确为span{n2,n4,n6}，ni=完整Λall(Ci)原静态函数。H*=C2+R非正常H；全函数核真仿射稳定后，存在ker(E,Λall)内λ+=1 iff n2∈span(n4,n6)。反之λ+经joint下降，真实action=L+∫(h′/h)²>0严格阻wholeE/全Λ同零。两分支尚未判；继续三固定F0原收缩，非重做旧E。C6是hkω，按R196更正R333状态键标头，原列/系数不变。
-
-
-[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)在同一最终偶包镜点ξ±y（p变号/r>0/Af简单）付四raw通量：旧K0/K1给det−20y h*²，新τ*取真linear/quadratic尾给det2r(p+yr)(4a³p²)²>0，四行真block三角。分别actual wholeE0且两点d/e0，或actual(P_LE,A,四raw)；不拼wholeE+A，不称该包仅两根。继续同19值纤维能否约束全部Af根及剩余内部门。
+Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″²−u″²)²迫连通C²首阶轨道恒f；不排高阶才动、别机制或一般C²面。下一新有理母形/全部内部门、完整自然joint及真正同g有限族，不能回已阻断芽。
 
 ## 5. 继续
 

@@ -459,3 +459,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:20:42 UTC｜结论ref并发后立即实际rebase及规则核读
 
 23:15:55更新结论commit68fcf4067138ed54e751844bf59984cde2402697遇远端推进1c20f2633e7e48a1819c818d92628f155ea8511b。已立即请求纯规则actualpull，run43773912382/job132995698247：公开23:16:32.549409→32.727504在ff7d6a8f7f6e84a483fdc8c95d0f29a56dfce8d3，双README空diff；私有23:16:34.978009→35.568688在d8d9addd849d584456d2ee31ba8c289a75dc7390，根无差/题无/QUEUE进行中。根读双回执后重推同结论，未重跑任何科学/人工工作，下一≤11-16 00:16:32。
+
+
+## 2026-11-15 23:21:29 UTC｜R402原N0/Γ/尾完整保留后的静态非零式
+
+[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)，18061B/hashae0b4c18bc26ccee95ad771eded8d34359edcdca421650ad21031cfca7eee127。根全文审读，手工核(6)(14)(23)、self/pure/tail系数(30)→(31)、三表(35)→(43)与最终(44)→(45)及Euler主项；§8由另一分支独核。没有重做原根/积分程序/旧秩。保完整原U与实际路径的区别，继续两个/三个零权原函数及其它低层。H纸证节压缩为当前有效结论，旧完整证明均保原results；基底ca6fd818c3ee407e05be204560f03d4e03979f38。
