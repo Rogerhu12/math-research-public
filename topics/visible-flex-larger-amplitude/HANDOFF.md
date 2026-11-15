@@ -12,7 +12,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 根15禁可重算raw/证书/Actions输出入Git/Release/新artifact，只留源/参数/run/SHA/紧凑结论。题≤200MB、H<10000B、MD<100KB，open宜<30KB；证明直接results，不加独立审批/fixture门、不写根LOG。每结论同步H/open/log/results立即推。
 
-集成复核：2026-11-15 12:41:30 UTC API读取main 46b3c697bc4272b27adb859179cacd0c224f79ca，双README21bd/bff未变；不是git pull。R316完整原结果已审读；146改normal两P形成，全部原门保留。
+集成复核：2026-11-15 12:42:14 UTC API读取main b1c59ba0758a6223c074d8c270f3192fb82160fa，双README21bd/bff未变；不是git pull。R318原112深端完整读回已审，下一同C有限头传播与cut非零投影。
 
 ## 真正完成标准
 
@@ -53,7 +53,7 @@ root唯一发布者。终端/tmp/visible-larger-root-git-138于12:24失联；roo
 
 [139 R311](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)run43710988676/source431ec674、compute132802263809/report132810057213全success：全1440/六primitive/whole-natural闭域界完成；1800.8219652040002s后保2900合法粗片/1追加积分pending，resolutionfalse但domaintrue。真实Rout−binarycut严格正，仍无cut点两jet/同场1e−6；144同f12f先cut点后whole，完整原预算/源不减。原132/136责任见R293/R304/R306。
 
-[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。原factory/numeric/augmented草稿未发布且终端当前不可读；重建独立v3消费者后全文发表。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振继续。[143完整入口](notes/2026-11-15-request143-original-C-complete112-deep-far-interface.md)fe66789e/requestc5e9931a/wf93bcf11b：F159/256bit、11+5源/三原输入，全112深端包围；逐行临时核后清，待实际run。
+[R300](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)定义新g：准确core→Hermite/coast→匹配合法尾E两jet的三次collar，九独立控制及0邻域可行；旧p不自动可行，有效选窗需收敛oracle，公共u=s/L须L²拉回。原factory/numeric/augmented草稿未发布且终端当前不可读；重建独立v3消费者后全文发表。[R312](results/R312-continuous-C-complete112-zero-tail-and-head-connection.md)已证明原准确根族全部112模态：n≥160、F≥159的深尾统一收缩/Robin及截尾误差，m2准确斜率0；同真实C有限头总有Robin，只有逐模态h≠0才得DN。不得重标e788旧J或预付全频非线性图；真实cut/有限头非共振继续。[143 R318](results/R318-actual143-complete112-deep-far-enclosure.md)run43714438444/sourcea809a7eb、compute132812800337/report132812935598全success；F159/256bit全部112行完成、后缀空、所有原深根族统一包含/mode2准确0。原行494612B/d68c5547、摘要7988B/aebde69b完整Actions读回后清；finitehead/cut域/非零分母/DN/非线性未付。
 
 [R294](results/R294-nine450-exact-C2-seams-and-target-atlas.md)给准确C²结构，[R298](results/R298-original-finite-Gauss-clip-seam-and-same-target.md)给条件finite clip障碍；实际field/atlas/有限误差仍未付。
 

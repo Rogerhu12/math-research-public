@@ -154,3 +154,5 @@
 - [R314：literal有限root轨迹及完整方向的条件后验误差界](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)：真实C/F形成误差与名义因子/两回代缺陷、方向右端与primal误差全部保留；逆比较矩阵严格界可传完整224列/226态/RK/端口/129248原行，真正有限根及隐式方向另用实际F_e。仅条件定理、无实际区间证书，不改原门。
 
 - [R316：actual142完整九方向响应及normal精度边界](results/R316-actual142-complete-nine-directional-response-and-normal-precision.md)：真实8方向/14外trial/8接受，136parts完整重建，全部56normal/146内trial/FD/Arb/453圆读回；仍极小下降，9改选/直接救回0/6接受targettolfalse，四次全拒后段参数与残差词重复，同点real/complex实部不同。无非零场；146保原门独立形成两P响应。
+
+- [R318：actual143完成同C全部112模态深端统一区间包围](results/R318-actual143-complete112-deep-far-enclosure.md)：F159/物理node160、256bit，原允许深根族统一包含、全部112行完整、mode2准确0、未付后缀空。原494612B行流在Actions完整核读，7988B摘要两job逐字同；本地未重算区间。有限头、cut域/非零高度投影、DN与非线性仍未付。
