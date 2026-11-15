@@ -14,7 +14,7 @@
 
 newton_source负责。原有限193 actual43635487128 child0/8门仅给有限负窗误差<.003509417445587；全L²<.007490301792401、C0<.060889190964764。真正目标仍是全解||qν−Z||≤.005；||q*−Z||<4.572198020300e−6另保。真97帽源、独立mean、knownhigh旧界分别1.379019669555e−7、4.079815735966e−8、2.920495224265e−7；unknown χH<.003840162不因known-source变小。
 
-原6391 signed Gram/5970接口、主体cross、sameF四格、全部impulse和原正high4650行都已成，禁止重算。sameF5970的v4 run43654510038以32互斥范围只补5966格，原四格和完整端点Δ保。root已核group11 child0/13门/192新格，其余真实进度由原process登记；不能仅靠工作流success名称推断5970全覆盖。
+原6391 signed Gram/5970接口、主体cross、sameF四格、全部impulse和原正high4650行已成，禁止重算。sameF5970的v4 run43654510038全部32范围及finish实际成功：原4逐字+5966新格、7覆盖门、0旧target/validator；native7e1a5709…、process0c832fe8…，详见[实际完整报告](notes/2026-11-15-R133-actual-complete5970-same-F-directional-matrix-data.md)。新Green43672023585已真启动backward，33数组artifact/11970文件原SHA核完；真实双扫未完成，不凭覆盖授全逆。
 
 完整方向Green的234pin五件已装，实际全5970矩阵成立后自动backward→forward：同输入signed covariance、全部body残差/真V跳、完整97右帽和独立cut trace分别保。原界面的独立round矩阵不能未经端点patch就当连续同一F。当前未授完整无限BVP。
 
@@ -28,7 +28,7 @@ newton_source负责。原有限193 actual43635487128 child0/8门仅给有限负�
 
 [实际完整97提案](notes/2026-11-15-R133-actual-complete97-cap-adjoint-proposal-v2.md) run43662865692 child0/5门：1977节点/1976片、257state×97input新QR和独立动作完成，native acb2151b…；finite relative6.9688e−15不是连续误差界。515原文件/1.125GB仅原artifact。原7908whole/64补点和v1失败中已成selection全复用，0target。首实际float0.9与真9/10必须按同一Hermite极短延拓处理。
 
-[四格实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)：337pin连续ordinary/Hessian Gram run43664278200已实际child0/9门；原quarter0/64/4096/7907完整97 signed矩阵、独立mean、无限系数尾、原Hessian转置与全部真交段保。它只授这四闭格；完整7908五件已部署（SCI6b3a47a5…/CI86c2a02b…/341pin manifestbaf3a428…）。32互斥范围仅补7904缺格，原四格及337pins逐字保；prepare只整件读取原提案一次，range只读准确原字节slice，finish保全部97 signed九Gram与真实径向链。[全7908 actual](notes/2026-11-15-R133-actual-complete7908-cap-adjoint-residual-Grams.md)已完整32范围及finish child0/2门，4pilot+7904新、9个完整97 signed Gram，真普通残差HS<.001546601378；native4e505e02…/arrayd6bb53d5…。边界/high43666716585亦已actual，43671537267真select已选二者并运行cap合成；完整Wcap仍以该实际输出为准。数学与摘要全部保原对象身份，任何新数组只能在公开Actions生成。
+[四格实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)：337pin连续ordinary/Hessian Gram run43664278200已实际child0/9门；原quarter0/64/4096/7907完整97 signed矩阵、独立mean、无限系数尾、原Hessian转置与全部真交段保。它只授这四闭格；完整7908五件已部署（SCI6b3a47a5…/CI86c2a02b…/341pin manifestbaf3a428…）。32互斥范围仅补7904缺格，原四格及337pins逐字保；prepare只整件读取原提案一次，range只读准确原字节slice，finish保全部97 signed九Gram与真实径向链。[全7908 actual](notes/2026-11-15-R133-actual-complete7908-cap-adjoint-residual-Grams.md)已完整32范围及finish child0/2门，4pilot+7904新、9个完整97 signed Gram，真普通残差HS<.001546601378；native4e505e02…/arrayd6bb53d5…。边界/high43666716585亦已actual，43671537267/1 cap合成已真child0/9门，完整Wcap使CH CH*≤Wcap、||CH||<.000943，含全部unknown high/mean/端点/Hessian；signed矩阵保留等三真HY。数学与摘要全部保原对象身份，任何新数组只能在公开Actions生成。
 
 [真端点与完整high-output合同](notes/2026-11-15-R133-cap-adjoint-true-boundary-high-Gram-contract.md)的341pin五件已装：SCI41052363…/CIab34ab0e…/manifestb753b786…；真9/10 Hermite、完整97左误差/独立mean、128外qstar与正比较fee、4096格/512保留模外的完整composition alias/无限tail皆保。真实m<0，所有正上下界为|m|，exact式仍用signed m。actual43666716585 child0/10门已核，trWT<1.132443e−9、κ<13.367450、c*²<.010388235；随后与7908主体及真97右Poisson同输入合成。没有full7908与所有边界费用，不授新的无限帽high-to-low或真实ν门。
 
@@ -127,3 +127,7 @@ S1–39已闭合实际ordinary源回原强endpoint域（[全文](results/R119-su
 ### 2026-11-15 adjacent physical pieces correlation contract
 
 N1–25合同已证（[全文](results/R133-supplement-correlated-adjacent-piece-rays-and-first-Airy-source-transfer.md)）：分别跟踪实际与辅助真ray，显式付Δd∂和Δη，完整非零entry/b*常数与ordered Δw1径向两导、Nraw保。两真实邻片2548/2550 consumer继续，辅助2549 cubic仅在原germ作已付参考，不能代换actual输出phase。domain/trajectory/homotopy/denominator须实际门，sup→Wiener另付正宽差；仍保旧外行和所有mean/jump。
+
+### 2026-11-15 fixed-base conservative cap perturbation
+
+P1–21已证（[全文](results/R133-supplement-fixed-base-conservative-source-transport-and-nearby-cap-linearization.md)）：固定原DΨ0后，moving angular divergence准确成为physical divergence+完整rank mean；旧Iφ也在固定物理模块准确表示。DF邻态差只需joint A0系数，不需Y_r或新R_Y Hessian。原反射类/固定真实linear边界的ε≤2^-22/[k*(1+b*+g*)]给全频body反馈<1/4。继续消费真正cap上的δZ joint系数与actual changed边界，不能以row supΣ冒Σsup，不能由M输出自动授Wiener非线性迭代。
