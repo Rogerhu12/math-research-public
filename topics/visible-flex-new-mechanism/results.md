@@ -474,3 +474,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R367：原N2的完整Green收缩与非零四次速度校正
 
 [完整证明](results/R367-exact-N2-Green-contraction-and-nonzero-quartic-velocity-correction.md)，13016B/SHA256 d077984d8bfd77785ad68e0e647f1dd97ad12b7ef1619ab1c26a49a3df2d32e3。原N2完整外槽N(f;u²)=c[Ql_f a−θJ(Qf‴a)]，D³N为明确自伴四阶式；紧trace−aL²的非紧二次尾变分另有−Green，不能无条件微分。正式pure1/8与真实有序2+2/三矩输运给Λhat B_EN=8(S+2aLα+2G/3)/5。h1/γ0/δ1上q=−M/4、a=−(Qr²+2M)/16，原积分完整化为−∫eQ²r³t²/80+∫e(9+e²)r5/2400+∫er³(M−μ)/240；真C²余项和正窗口有限高频给严格非零。root逐trace/Green/因子/δ方向所有IBP手核。这里只完成原Q4不可删ambient校正，不授B_m2N2单独U成员/整个Q4非零，也不冲突R356全U最低权相消。下一R370保C_A m2链/D0P3v后合真正Q4，N0/Q2亦未付。
+
+## R369：原cubic第1矩恒等与八维真实锥支付完整ZW
+
+[完整证明](results/R369-vanishing-first-cubic-and-eight-target-control-pay-the-ZW-product.md)，18527B/SHA256 f4f686b716315405b129cca29ad179d382854db8018d78871462af2d60cecd1b。原FL1/FU1/FZ1在任意紧u上恒零，L保P的非零左常尾；合法紧WD变分给whole QZW1=−I1(Zff,WD)−area。旧面积后只有sin²/cs，真十二copy/全偶反射把整个ZW化一个实际值。新增行经ZW1−(a+b)PZ2为2a∫[dxuv+(2e−d)x²v²−3ex³vr]t²；正母四比值Taylor minor720/同Fnew最大minor给四χ，保真实copy后2高次/3二次/3常量八维满秩。48实际列严格正核/同finiteN完整八根保持旧18面积/R364T/Ψ/三F/四乘积而付ZW全部相位。root逐cubic尾IBP、两行变换、jet720、copy秩核；仍9位置非rank，R372继续，不授全period/新旧几何移植。
