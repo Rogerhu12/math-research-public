@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 1755a4f414a77d41d85eae9a0e1625f55a74be90（2026-11-15 03:34:42 UTC，Actions run43672981734实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43672981734-1.json。
+- **最近成功实际 pull 与已读规则提交：** 0d2c91f49bf82952e8413ffc995a8227f45f71b9（2026-11-15 03:38:41 UTC，Actions run43673279640实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43673279640-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。数学仅用行内美元符与双美元陈列符；Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 全部未列状态/旧来源保[完整H](notes/2026-11-15-handoff-before-strong-tail-block-flow-789f.md)及递归快照；原open未列问题不视为关闭。
@@ -28,8 +28,10 @@
 
 **条件来源界：** [原子式降度](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)与下条∞cofactor付8801；仅证明有Q[s]解时可同界选取。若同一D最高系数31单位，模31ⁿ也能保同B/e降度；该单位条件、实际成员性及固定31分母均未证。
 
-**[同一原子式∞实绩（已实际推edd35f86）](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)：** 唯一10秒/512MiB任务实际3.771379255秒，旧NF/完整∞一阶不重跑。所选1021常坐标rank985，原4354方阵常秩4318；保完整P投影并只商所选常像后连接rank3，模31余块36、3阶一/33阶≥2，v∞≥69。5矩阵和全来源核全部保存。char0仅4318≤rank≤4340，不能称14块或lc(D)单位；继续额外22亏损的原char0常块。已知char0 rank≤4340又迫全部adj在∞至少13阶，条件成本界可加强至8801，仍不证明实际成员性。
+**[所选原子式∞](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)**已实际推edd35f86：原所选常秩4318/连接3，模31余36方向为3阶一、33阶≥2，v∞≥69；全部来源/矩阵保存。char0只[4318,4340]，cofactor至少13阶付条件来源8801；不称14块或lc(D)单位。
 
+
+**[所选常数第一Bockstein为零](results/R150-appendix-selected-infinity-constant-bockstein-zero.md)**：60秒/512MiB任务实际1.610578836秒，36原核支撑同4354源；完整4367×36原mod961产品全除31，只商所选985像，36×36余阵全零。源/产品/余阵全存，17原整数∞行与既有char0系统有理比例全核。仅排31-Smith估值1，char0仍[4318,4340]；所选输出外13维不删。现复用同基补36源并Dixon提升/有理重建，区分所选方阵核与完整4367核。
 
 ## 实际边界：同源两费与完整返回
 

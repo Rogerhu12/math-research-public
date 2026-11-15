@@ -449,3 +449,7 @@
 ### R271 强物理尾位并头后的同一顶部两费流
 
 [完整证明](results/R271-appendix-strong-tail-block-same-top-source-flow-and-exact-two-fee-budget.md)。同原u_Q、C=A+D_<、h=d+R及准确两孔截断给真正左最小与完整/裸链同源预算：全cut ΣXi_C²≤2hβ²、h网格≤2β²，μ_C≥||w||−β，负图全保。强位R≈ρ^-1后剩κh/Q门槛；κ=O(ρ^-1)足但未证，不将新联块λ_C当原单孔ordinary费用。
+
+### R150 所选无穷远常数方阵第一 Bockstein 完整为零
+
+[全证明及实际证据](results/R150-appendix-selected-infinity-constant-bockstein-zero.md)：36个真实原来源核的4367×36模961产品全部整除31；只商同一所选985像，36×36第一Bockstein矩阵逐项零。排除所选31-Smith因子赋值1，尚不能确定char0常秩4318还是更大；输出外13维保留。17原∞整数行与既有char0系统比例逐项相符，实际1.610578836秒，全部源/产品/商阵保存。

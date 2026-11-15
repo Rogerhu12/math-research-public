@@ -1,0 +1,289 @@
+{
+  "format": "isp-selected-infinity-constant-bockstein-v1",
+  "status": "completed",
+  "sharedMathematicalSeconds": 60.0,
+  "nativeMemoryMiB": 512,
+  "compileSecondsLimit": 30.0,
+  "scope": "same original selected4354 constant infinity minor",
+  "oldFullInfinityJetRecomputed": false,
+  "otherPrimeComputed": false,
+  "characteristicZeroInfinityConnectionComputed": false,
+  "inputs": {
+    "native-model": {
+      "file": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "primitive-equations": {
+      "file": "r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+    },
+    "known-infinity": {
+      "file": "2026-11-14-rank-one-zero-infinity-centered-systems.json",
+      "bytes": 80392,
+      "sha256": "06039281494f3f30912f055cb86f995e6bdbf73b3060a6226dc350829a411506"
+    },
+    "forward": {
+      "file": "r150-module-actions-789f/43588728414-1/char31/nf-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca"
+    },
+    "backward": {
+      "file": "r150-module-actions-789f/43588728414-1/char31/nf-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28"
+    },
+    "selected-receipt": {
+      "file": "selected-infinity-minor-dag-receipt.json",
+      "bytes": 75700,
+      "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+    },
+    "selected-kernel": {
+      "file": "selected-constant-source-kernel.bin",
+      "bytes": 36776,
+      "sha256": "aff9aad0db90b744e05068018b9007ffb743e3078f34cc6e2dffc0fb8327c9a9"
+    }
+  },
+  "sources": {
+    "native": {
+      "file": "2026-11-15-r150-selected-infinity-constant-bockstein-789f.cpp",
+      "bytes": 13515,
+      "sha256": "bfc5376e0c259c94288804e25b3d20c534eecdfc56dd190aeec6f4b7e443fad4"
+    },
+    "common": {
+      "file": "2026-11-15-r150-saturated-global-common-789f.hpp",
+      "bytes": 11284,
+      "sha256": "f19a9c64b7f57175b757d445594fb5521d1a7a9c5b0b0fe57391a407323c41e1"
+    },
+    "bitplane": {
+      "file": "2026-11-14-r150-f31-bitplane-789f.hpp",
+      "bytes": 3030,
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    "runner": {
+      "file": "2026-11-15-r150-selected-infinity-constant-bockstein-runner-789f.py",
+      "bytes": 13761,
+      "sha256": "412731d31f366e2f69254f7f266b254d392c225aa9cf6a7918f0122523097a02"
+    }
+  },
+  "stages": [
+    {
+      "stage": "exact-input-preparation",
+      "elapsedSeconds": 0.08995156599848997,
+      "characteristicZeroSameOriginal17Verified": true,
+      "inputBinding": "69bb2287a4ef2057dc625092338d71165639566afa20f6625540d9b2a07ef2ff"
+    },
+    {
+      "stage": "native-original-selected-bockstein",
+      "exitCode": 0,
+      "elapsedSeconds": 1.5205100620078156,
+      "log": "execution.log"
+    }
+  ],
+  "compile": {
+    "exitCode": 0,
+    "elapsedSeconds": 12.015000814004452,
+    "log": "compile.log",
+    "binarySHA256": "57b01591c5efb4995fbc1362a813c050ef5703a0de686fd5ca8bf7fd69975842"
+  },
+  "semanticBinding": "69bb2287a4ef2057dc625092338d71165639566afa20f6625540d9b2a07ef2ff",
+  "mathematicalElapsedSeconds": 1.6105788360000588,
+  "nativeStatistics": {
+    "status": "completed",
+    "nativeStatus": "original-selected-constant-bockstein-complete",
+    "inputBinding": "69bb2287a4ef2057dc625092338d71165639566afa20f6625540d9b2a07ef2ff",
+    "field": 31,
+    "integerModulus": 961,
+    "selectedSourceCount": 4354,
+    "originalSourceCount": 6188,
+    "fullOriginalOutputCount": 4367,
+    "completeKernelDimension": 36,
+    "selectedBaseRank": 4318,
+    "bocksteinRank": 0,
+    "characteristicZeroSelectedRankLowerBound": 4318,
+    "characteristicZeroSelectedRankUpperBound": 4340,
+    "characteristicZeroSelectedRankProved": false,
+    "fullOriginalIntegerProductVerified": true,
+    "allOriginalCoordinatesDivisible31": true,
+    "sameSelectedSourceSupportVerified": true,
+    "onlySelectedImageQuotiented": true,
+    "all36KernelDirectionsRetained": true,
+    "originalProductCoordinates": 157212,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "elapsedSeconds": 1.494447417,
+    "selectedCokerOutputIndicesZeroBased": [
+      832,
+      834,
+      835,
+      836,
+      837,
+      838,
+      847,
+      848,
+      849,
+      850,
+      851,
+      852,
+      853,
+      854,
+      855,
+      856,
+      857,
+      864,
+      865,
+      866,
+      867,
+      868,
+      869,
+      870,
+      965,
+      966,
+      967,
+      1010,
+      1012,
+      1013,
+      1014,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020
+    ],
+    "selectedCokerOriginalOutputIndicesZeroBased": [
+      2975,
+      2977,
+      2978,
+      2979,
+      2980,
+      2981,
+      2990,
+      2991,
+      2992,
+      2993,
+      2994,
+      2995,
+      2996,
+      2997,
+      2998,
+      2999,
+      3000,
+      3995,
+      3996,
+      3997,
+      3998,
+      3999,
+      4000,
+      4001,
+      4285,
+      4286,
+      4287,
+      4349,
+      4352,
+      4351,
+      4353,
+      4357,
+      4358,
+      4359,
+      4360,
+      4361
+    ],
+    "bocksteinPivotSourceIndicesZeroBased": []
+  },
+  "bocksteinRank": 0,
+  "characteristicZeroSelectedRankBounds": [
+    4318,
+    4340
+  ],
+  "characteristicZeroSelectedRankProved": false,
+  "characteristicZeroSameOriginal17Verified": true,
+  "fullOriginalIntegerProductVerified": true,
+  "all36KernelDirectionsRetained": true,
+  "onlySelectedImageQuotiented": true,
+  "sameSelectedSourceSupportVerified": true,
+  "files": [
+    {
+      "file": "actual-actual-selected-basis985.bin",
+      "bytes": 1005705,
+      "sha256": "ca5f0bb2856f354ce724e57ea4988a1556ef01c96e5e10c51350ec3d16035fe7",
+      "storedFile": "actual-actual-selected-basis985.bin.gz",
+      "storedBytes": 535833,
+      "storedSHA256": "3e3a0214e6371a9a764bba41106675329cea053dd9e7b4da13b0d68fa24449a1"
+    },
+    {
+      "file": "actual-full-prebasis-normal-product.bin",
+      "bytes": 157232,
+      "sha256": "de865773b99bfdf70049afa31d3f895659195c7aae574e746acdc2e30b232f63",
+      "storedFile": "actual-full-prebasis-normal-product.bin"
+    },
+    {
+      "file": "actual-original-infinity-constant-model.json",
+      "bytes": 87459,
+      "sha256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074",
+      "storedFile": "actual-original-infinity-constant-model.json"
+    },
+    {
+      "file": "actual-original-kernel36.bin",
+      "bytes": 222788,
+      "sha256": "c008e57b7a7e80312f8ba292bb24241d53bb59d4c57b2a8d07ec1017b9de0744",
+      "storedFile": "actual-original-kernel36.bin"
+    },
+    {
+      "file": "actual-original-product-div31.bin",
+      "bytes": 157232,
+      "sha256": "04ade7e0c34900df60a770ca05552c06c2d37b427f77b7d72a71e3527f03d877",
+      "storedFile": "actual-original-product-div31.bin"
+    },
+    {
+      "file": "actual-original-product-mod961.bin",
+      "bytes": 314444,
+      "sha256": "68cdb451534e0bd03a48c91b6e38d77f6129f5c3738c03e09ba793a156d9c050",
+      "storedFile": "actual-original-product-mod961.bin"
+    },
+    {
+      "file": "actual-receipt.json",
+      "bytes": 1284,
+      "sha256": "a3d8a7d2b4e79e410bd31ce2d428e8b55e3815e8f88b5eae715e5d7a91269123",
+      "storedFile": "actual-receipt.json"
+    },
+    {
+      "file": "actual-selected-coker36-bockstein-rref.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "storedFile": "actual-selected-coker36-bockstein-rref.bin"
+    },
+    {
+      "file": "actual-selected-coker36-bockstein.bin",
+      "bytes": 1316,
+      "sha256": "7397c57bf65bfba693c538d22995606f6610ffde3b099565505f44c9cb0f60d1",
+      "storedFile": "actual-selected-coker36-bockstein.bin"
+    },
+    {
+      "file": "compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storedFile": "compile.log"
+    },
+    {
+      "file": "execution.log",
+      "bytes": 1604,
+      "sha256": "ebe1708d755bc35cdce048e3da6938536c2a4cd4de6132fa3712b8b500b54d24",
+      "storedFile": "execution.log"
+    },
+    {
+      "file": "native-normal-form-input.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6",
+      "storedFile": "native-normal-form-input.txt"
+    },
+    {
+      "file": "prepared-original-constant-mod961.txt",
+      "bytes": 102047,
+      "sha256": "9f045e43cc6fb0e7e797acff1ef2f2ae7f693d1486796a9c9181fb3b7144fd7b",
+      "storedFile": "prepared-original-constant-mod961.txt"
+    }
+  ],
+  "persistenceSeconds": 0.02297315800387878,
+  "buildIsTemporary": true
+}
