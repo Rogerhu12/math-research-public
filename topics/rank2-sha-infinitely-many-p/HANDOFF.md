@@ -3,7 +3,7 @@
 ## 主目标、授权和规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；继续研究，不以阶段结果、时长或等待回复收尾。**
-- 最近已读规则提交：f350a7e6da28975918ff71f53a50f05f1fea2429；2026-11-15 19:25:54 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:19:10 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
+- 最近已读规则提交：02f1bd7c08c9f4c9b019e7be37b60217ea4b3eb9；2026-11-15 19:35:14 UTC核两README无变。实际CI pull 2026-11-15 19:22:57 UTC/9aebdd900d415eabe79d6844fb5ae75994c21de8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 19:35:13 UTC仍无环境。最迟2026-11-15 20:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase/新head重推至成功；不强推、改他人历史或保存/回显令牌。
 - 根/题README blob分别21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次pull检查差异、记录提交，至少每小时一次。
 - 数学运行全公开Actions。可重算输出不入仓库/Release、不切新块，只保producer/参数/run/hash。H<10KB、MD/API<100KB、open尽量<30KB、单文件<5MB、题≤200MB；每轮题log≤5行，不写根LOG。
@@ -17,7 +17,7 @@ R1–363、365–560、562–653、655–711、713–812、814–815已登记；
 root唯一metadata/ref写者；root原全nef锥约束下的变动b，deep原同R完整normal/指定配对，theta原固定来源全flag与中央关系，literature固定共同good pair/原特殊化非零。完整证明一成即单独推，随后继续未闭门。
 
 实际pull19:22:57成功，run43752101383/job132928092622，两README差异空/blob吻合；回执ci/rule-pull-20261115T192257.json，最迟20:15再实际pull。
-R812 run43749289064/job132919420622成功，producer/source/args/hash见原证，全文已登记；R814固定共同good pair/AJ平方已登记；R813仍研究原同R全法向；R815完整曲面锥/S铅笔已登记。R816接实际来源对偶/forcing，R817固定p7993原B4三负二producer已提交待公开run；依赖R798/R732重建全CM13/PB4，仅--workers=4，不扫描或换p，不把正在写的工作视为已证。
+R812 run43749289064/job132919420622成功，producer/source/args/hash见原证，全文已登记；R814固定共同good pair/AJ平方已登记；R813仍研究原同R全法向；R815完整曲面锥/S铅笔已登记。R816接实际来源对偶/forcing，R817固定p7993公开43752389762/job132928993680已成功：三余值2522/2828/3696均unit，完整cycle证明待登记；依赖R798/R732重建全CM13/PB4，仅--workers=4，不扫描或换p，不把正在写的工作视为已证。
 
 ## 普通：原同源负二及真实全局门
 
@@ -50,7 +50,7 @@ R790原cube指定forcing：
 β1=t^hQ(H^-1V³+6at²eVB_h)，原第三w13行3aQ0e0V0²。
 全WD减Q2仍保非F²余列/同R双输出；真左对ν(f)=μ(6t^(h+2)QeVf)杀全factor HP，
 障碍=3B(K0−2K1−K2)−μ(a^-1t^hQH^-1V³)−〈ν,β_HP〉。
-β_HP不是自由ξ，mq1不能套旧scalar第三块；同R全部高尾/两13/d₂仍未闭。
+β_HP不是自由ξ；同R全部高尾/两13/d₂仍未闭。R790增补已付移动H/H(0)可零及mq1原q：真H⁰(X,O(C))在h>κ核kF，EF整归一保H；ell2须加第三余行C_ell=(6/a)Hcal^-1QeV²，全左对含n²τ且障碍另−τ(C_ell)，不以scalar替q或外推全profile。
 
 R808原k0/r<h的M primitive p³先付同R的J p²；−2/5/−6迫R在k上两光滑支，领先λ与2λ/3，互交及δ=h。近支跟原轴≥h+r，ER(近支)≡−a⁻¹w^hCu³ mod w^(h+r)；native ξ从h+r起保。零角准确m_R2；局部分裂≠全局分解，当前仅2h≤B_D.C，未排9κ/8。
 R805无最高项S-unit假设的全正规零/极计数给h≤6γ+2a+10b+2degH−6，原全部已分类格可用R743两真实连接/359κ/96单位秩门；仍不代指定forcing。
