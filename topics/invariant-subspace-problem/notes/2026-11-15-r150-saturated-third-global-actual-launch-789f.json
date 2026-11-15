@@ -1,0 +1,25 @@
+{
+  "format": "r150-saturated-third-global-actual-launch-v1",
+  "actualRootPublication": {
+    "status": "pushed",
+    "sourceCommit": "f06ab29877a7e662495349a254e7340a4d1e1eff",
+    "publishedCommit": "5003424a932068d07a7897cd8b6a625c6b04d238",
+    "runId": "43668292474",
+    "runAttempt": "1",
+    "lastRulesReadCommit": "3a1573b09a2778199b0d9883af2cb9c55b6c3225",
+    "dispatches": [
+      {
+        "workflow": "invariant-subspace-r150-saturated-third-global.yml",
+        "ref": "main",
+        "httpStatus": 204,
+        "registrationAttempts": 2
+      }
+    ]
+  },
+  "mathematicsRun": 43668434588,
+  "sourceCommit": "5003424a932068d07a7897cd8b6a625c6b04d238",
+  "observedUtc": "2026-11-15 02:35:55 UTC",
+  "status": "running",
+  "mathematicsComplete": false,
+  "characteristicZeroIdentityAsserted": false
+}

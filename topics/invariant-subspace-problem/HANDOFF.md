@@ -24,7 +24,7 @@
 
 **[六槽实际1345](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)**：所选第三父ω3…8整数系数[344,409,327,102,1,16]；七raw q1、四真W2、一个第三主源、一个D2，成本177→373→469→665→761→957→1053→1249→1345。q1的s/t规范须同步q2 carry；中间p4仅U7/真p3 κ8/真p3 D2，不换未缩放κ9。第三改选差在完整W2，四次真P与所有315/505/原17均保。
 
-**新原式任务已冻结并接入：** [清单](notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json)12源码、3复用依赖、49输入533394601B/8旧包；manifest SHA7c3b8c1b…，contract8215f48e…。workflow invariant-subspace-r150-saturated-third-global.yml由本次实际发布后dispatch；5native各30秒、每过程1024MiB、共享数学300秒，旧二/三页不重算。唯一成功all-nine-original-p6-complete须九原17模887503681及六辅助原身份、全315和九实际费用≤1345全真；未运行前不称证书。所有中断来源/乘回/缓存均保，实际运输沿已成功方案。下一步直接接该实际回执；完成后仍继续char0/普通ISP。
+**新原式任务已冻结并接入：** [清单](notes/2026-11-15-r150-saturated-third-global-frozen-manifest-789f.json)12源码、3复用依赖、49输入533394601B/8旧包；manifest SHA7c3b8c1b…，contract8215f48e…。入口/复参数证明已实际推5003424a932068d07a7897cd8b6a625c6b04d238，root run43668292474成功；global实际run43668434588已启动（原式结果待回执）；5native各30秒、每过程1024MiB、共享数学300秒，旧二/三页不重算。唯一成功all-nine-original-p6-complete须九原17模887503681及六辅助原身份、全315和九实际费用≤1345全真；未运行前不称证书。所有中断来源/乘回/缓存均保，实际运输沿已成功方案。下一步直接接该实际回执；完成后仍继续char0/普通ISP。
 
 ## 实际边界：同源两费与完整返回
 
