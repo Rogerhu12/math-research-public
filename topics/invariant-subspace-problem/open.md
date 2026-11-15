@@ -140,3 +140,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **实际常数主列已把六槽全局上界收紧1345。** [完整费用证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)由真实prepared两列给20011+16·20012仅父ω3…8、整数系数[344,409,327,102,1,16]；只需K2…8七raw q1，六槽起点177，四次whole-P/T96后1345。真D2及四W2辅助不抬高上界。正在实现实际全局入口；只有九原十七式p6乘回/完整315对账/实际来源费用全通过才登记原式正证书。
 
 **高孔项的同源二进制插值已付。** [统一真实预算与插值](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)对同H和真u/r保全部a≤2^(d−1)的环境/carry/投影；Lagrange总变差<9使整组高孔自配对准确合成原尾范数。只剩同s_j=H^(2^j−1)B_m top的普通完整右费R_p²；ΣR_p²≤K_mn_m||w||²且K_md/n_m=O(1)足矛盾。该新预算尚未证明，不能以环境范数或bare费用替代。
+
+**复参数同源正平均与普通费未闭。** [完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)以d个单位根参数付平均H_a=I及μ⁴≤d0^-2 flat²R²；同真实环境/最小投影/原未来全保，高孔二次型正平均恰原尾范数。准确Parseval为R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，不能把平均当更弱普通费用。继续原顶部封口/完整高返回及全窗口ΣR²≤K_m n_m||w||²、K_m d/n_m=O(1)。
+
+**R150六槽全局原式已接新任务。** [冻结入口](notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json)只读49真实已存输入，七原核/六槽/九目标，实际费用上界1345。成功须全九原17模31⁶、六辅助和315/505全真；局部第三全正已成，原式与char0不得混称，旧二/三页不重算。
