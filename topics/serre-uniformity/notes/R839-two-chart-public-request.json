@@ -1,0 +1,62 @@
+{
+  "budget_minutes": 300,
+  "completion_proof": "notes/R839-ended-tau-source-rank-and-two-chart-completion.md",
+  "completion_proof_sha256": "e9269c0e9352bbc9933f0bdb4a7837615547266d00226dfc234b00e6e24436eb",
+  "core": "R839_two_chart_short_RR_spaces.py",
+  "core_sha256": "6fe0a0d3f37592b1ac3081a8347a205503de41cdd54e41a05529c837a7b3c73e",
+  "expanded_sources_sha256": "016087b3ecaede48df3a719d33026b9165bc71e3f256e417d3d9dea7a617ae9f",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "legacy_core": "R839_original_short_RR_spaces.py",
+  "legacy_core_sha256": "0a027c2dd83cfab37181e6386cfd8b22baf176421b727d81a7584d7b351d0c36",
+  "legacy_wrapper_sha256": "dee4e8fb7fedae80e0076d8a1b3fa0e24114477d129a7b8381238d33b88529c7",
+  "method": "notes/R839-original-two-chart-short-RR-and-D-kernel-method.md",
+  "method_sha256": "c649f95f49abc94c6cd672e61d51d49c4f1394c90cb8b8449c166af01d4f4649",
+  "p": 41,
+  "previous_tau_source": {
+    "accepted_process_exit_codes": [
+      2
+    ],
+    "archive_bytes": 109735402,
+    "archive_sha256": "2430e1a236948e6d8c508a95337c8c56752ee9a56a394c382d4255eb49b79111",
+    "artifact_id": 14185612727,
+    "artifact_name": "serre-global-R839-original-short-RR-spaces-and-D-kernel-43773898829-1",
+    "certificate_name": "p41-original-short-RR-and-D-kernel-certificate.json",
+    "configuration_sha256": "111621ab17dfb725e3898319e9b421883663d0eac2bfc7dc28d11e42ef978e33",
+    "core_sha256": "0a027c2dd83cfab37181e6386cfd8b22baf176421b727d81a7584d7b351d0c36",
+    "expected_conclusion": "failure",
+    "input_bundle": {
+      "bytes": 79467921,
+      "file": "R839-retained-original-inputs.tar.gz",
+      "sha256": "32fe84b85380c36294f5c53f9139c7d756f9f7a7034754fadf4896ebb2aab52e"
+    },
+    "manifest_bytes": 2200,
+    "manifest_file_count": 13,
+    "manifest_reference": {
+      "bytes": 224,
+      "file": "full-outputs-manifest-reference.json",
+      "sha256": "9140babef59c7640173b1777a146aaabb8958d23e9b4b711adc2dd14737b190e"
+    },
+    "manifest_sha256": "5be6d7d6044297a6674b3b0079c5234270f929668dac0266d76c3b52bfe6e633",
+    "result": "R839-original-short-RR-spaces-and-D-kernel",
+    "run_id": "43773898829",
+    "selected_file_count": 14,
+    "selected_files_sha256": "4e1ba3bdf8f9f9706f62474a35a1c14fb0d16174edff7a912306ecbc44d52a1c",
+    "source_commit": "ac885f5ad099379f433c09d467eea90d5015e485"
+  },
+  "producer_inputs_pending": false,
+  "proof": "notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md",
+  "proof_sha256": "f0044713eaa2332531ae7354566e4c72de25d50786efa644fb2524eb6a4c6629",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R839-original-two-chart-short-RR-spaces-and-D-kernel",
+  "resume": null,
+  "rules_last_read_commit": "de8b5a371b4f114941916398e1cca31cb32c9633",
+  "selected_original_file_count": 2919,
+  "sigma_extra_file_count": 123,
+  "sigma_extra_files_sha256": "f25a0631afb349e801a3605b1e7f4461c720fc4177d2a17c8b07e0a94e8853bb",
+  "workflow": ".github/workflows/serre-R839-two-chart-short-RR.yml",
+  "wrapper": "R839_two_chart_public.py",
+  "wrapper_sha256": "f27a4585deb43880e162b337a9c6b39528086ce864ea12e17c23192cbb260d2a"
+}
