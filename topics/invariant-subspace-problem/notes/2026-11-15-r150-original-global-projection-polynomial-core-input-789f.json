@@ -1,0 +1,102 @@
+{
+  "format": "r150-original-global-projection-polynomial-core-input-v1",
+  "date": "2026-11-15 UTC",
+  "author": "AI (ChatGPT / literature_audit)",
+  "repository": "Rogerhu12/math-research-public",
+  "prefix": "topics/invariant-subspace-problem",
+  "mathematicsNotExecuted": true,
+  "sources": [
+    {
+      "path": "notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+      "blob": "178a474ace771c3c934ca85fb500fef3f79425ef",
+      "bytes": 34432,
+      "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb",
+      "role": "entry point"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+      "role": "paid original K/J2/J3 and independent P0/P1"
+    }
+  ],
+  "firstRun": {
+    "step": "original-global-projection-polynomial-core",
+    "cli": [
+      "python3",
+      "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+      "--generator",
+      "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "--out",
+      "{work}/original-global-projection-polynomial",
+      "--through",
+      "core",
+      "--remaining-seconds",
+      "300",
+      "--memory-mib",
+      "2048"
+    ],
+    "outerTimeoutSeconds": 330,
+    "requiresHistoricalLargeInputs": false
+  },
+  "continuation": {
+    "sameSourceSameOutSameGenerator": true,
+    "through": [
+      "module",
+      "gcd"
+    ],
+    "bindingExcludes": [
+      "temporary paths",
+      "budget",
+      "memory limit",
+      "through"
+    ],
+    "bindingIncludes": [
+      "self source SHA and bytes",
+      "generator SHA and bytes",
+      "original s chart",
+      "Q arithmetic",
+      "source degree 3",
+      "target degree 5",
+      "known localization factors"
+    ],
+    "onlyAfterActualCoreStatistics": true
+  },
+  "outputs": {
+    "smallReceipt": "{work}/original-global-projection-polynomial/original-global-projection-core-receipt.json",
+    "temporaryCheckpointManifest": "{work}/original-global-projection-polynomial/checkpoints/checkpoint-manifest.json",
+    "immutableTemporaryPayloads": "phase-canonicalSHA.json.gz",
+    "gzip": {
+      "filename": "",
+      "mtime": 0,
+      "compresslevel": 1
+    },
+    "largeOutputsNeverUpload": true,
+    "stdoutIsOnlySmallReceipt": true
+  },
+  "exactGates": [
+    "untruncated original17 polynomial construction and geometric pure identities",
+    "all170x135 coefficients match paid P0 and P1",
+    "all918 one-normal rows represented by actual g rows; all5100 higher-normal projections zero by exact support",
+    "all224x13 polynomial kernel products and Dlinear^2 I13 normalization",
+    "both9x9 H-adjugate identities; detH/Dlinear is a nonzero rational constant",
+    "all7 H blocks identical; U has only adjacent-degree off-diagonal blocks",
+    "all63x22 U*N=Dlinear^4*B identities",
+    "all119x22 original retained graph products",
+    "only exact divisions by known localized unit factors",
+    "module/gcd phases additionally verify every final basis row as a polynomial combination of original56 rows and reduce all56 original rows exactly to zero"
+  ],
+  "currentPaidBounds": {
+    "fullInfinityLengthLower": 63,
+    "residualMultiplierDegreeUpper": 160,
+    "residualTimesHstarDegreeUpper": 183,
+    "globalSourceCostUpper": 8531
+  },
+  "notConclusions": [
+    "no actual new core rank or degree before execution",
+    "no prefilled Q60 factor",
+    "no finite-field lifting",
+    "no claim that the original h0 is a global member"
+  ]
+}

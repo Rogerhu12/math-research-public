@@ -399,3 +399,5 @@
 - **原P在已知临界支撑之外准确缩减到56×22。** [原来源证明](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)在 $S=\mathbb Q[s,\Sigma_0^{-1}]$ 上用13归一核、54真g行、3纯列及7份同一H9单位，得 $\operatorname{coker}_S P^{\mathsf T}\simeq S^{13}\oplus\operatorname{coker}_S G^{\mathsf T}$。四物理次数层给 $\widetilde G=h^4G$ 为多项式；其全部22阶子式gcd在Σ0外准确等于ΔP。保全部Γ及来源，未预报gcd、有限域因子或九目标全局成员性。
 
 - **∞第七两原代表的全高强迫均为Q零。** [实际证明](results/R150-appendix-infinity-seventh-two-original-high-forcings-zero.md)：run43740928483/2.250406075秒，全部5100×2高坐标真零，原86632低阶产品真；第六normal2的75个非零坐标完整保留。两高核与10incoming给完整1088×599低式；未提前给β7或进一步长度界，fullQ仍62…66。
+
+- **∞完整第七秩恰1、16原头与长度至少63。** [完整证明](results/R150-appendix-infinity-complete-seventh-connection-one-sixteen-heads-and-length63.md)：run43740928483/5.077439027秒，原1088×599前缀578/580/590→591，全核8/头投影1，全部792064原八层产品真。Qfull63…66、次大53…55/max10…13、AI65…68；差模2…5且u5灭杀。Δaff≤318、R/Rout/U≤160、Rh*≤183，来源三支8526/8531/331。下一第八两高系数与11incoming须实际运输。
