@@ -5,20 +5,20 @@
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
 - **最近成功实际 pull 与已读规则提交：** b383dc5220eb147ff4b37dccb2234878589ceeff（2026-11-15 13:19:49 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
-- 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地12:09:47确认实际pull到a934b45c33f7f4807a307b6a556bf32b76db675d，两README均无新diff；此前11:34根清理记录diff已读。
+- 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地13:30:51实际pull到661a7b9cc0c932ad81310e81be2016c0470bab74，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
 - MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行；数学美元符，不写根LOG。无额外审核门槛；Actions约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。
 
 ## 旧全文与未列缺口
 
-所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-zero9-envelope-and-complete-third-restart-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
+所有旧来源、完整数值、未列问题保[本次H全文](notes/2026-11-15-handoff-before-seventeen-explicit-third-and-complete-zero-third-789f.md)及其归档链；最新开放目录open.md。未列条目不算关闭。
 
 ## R150：完整参数Smith与原成员性仍开
 
 - 原A为4367×6188、泛秩4354；指定I,J各4354，总权H8770。h0度24，H0=(s−2)h0不同；真实九目标为共动平方n_j²（原t_j为完整binomial平方）。
 - 同选常数Q/F31rank4318、核36；完整同选常左核normal≥3零，full49=20pure+29、square36=10pure+26。第一连接恰3、33真头；额外13输出不由指定jet免费核验。
 - [完整normal≤4包络](results/R150-appendix-selected-normal-four-complete-envelope-twenty-two-and-no-new-heads.md)恰22真头、normal4分量全零；完整130核、166残差与95788原产品均真。完整第二24头缺2的normal5及整个高部分映射rank2；允许normal5必须保H4η4+H5η5补偿。
-- [完整第二9、第三3](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)：真29源配对旧ρ5/新ρ6，余维7全含低页像给完整商；β1/2/3=3/9/3，二阶24头、三阶21头恰全在旧22族内。第三头坐标已真，λ3及低层补偿尚未显式。∞阈值36/33/24/21给D≥114、全部cofactor/原换列≥110；K104下q8423…8552，三费8596/8600/187，统一条件8600，原成员性未付。
+- [完整第二9、第三3](results/R150-appendix-selected-natural-third-connection-exact-three-twentyone-heads-and-cost8601.md)：真29源配对旧ρ5/新ρ6，余维7全含低页像给完整商；β1/2/3=3/9/3，二阶24头、三阶21头恰全在旧22族内。[实际17条λ3](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)与296072原产品已核，法≤4完整头17；完整21头不改，缺4须更高校正。∞阈值36/33/24/21给D≥114、全部cofactor/原换列≥110；K104下q8423…8552，三费8596/8600/187，统一条件8600，原成员性未付。
 - [同选模31完整长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做，51旧数组全SHA同；36正指数sum243/max21，field cofactor222只属F31。真Q degD8527…8656、v∞D114…243，lc31单位等价真Q v∞D=243，仍未证。
 - 两端原完整常数rank4340/coker27，各14正Smith；∞已付第一4/第二0。零第六完整零头纤维10已闭第一4/第二0；[第八14头](results/R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600.md)保4347完整校正及最后Q歧义，原6188×4产品真。累计≤4/4/5/8/10/12/12/13，公共阶58/49；K104=sK103=s58(s−2)9(s+6)9F+²F−²E8²，degree104/lc5^6为31单位。
 - 零点原模31上界66/55结合真Q58/49，得δ4354∈[58,66]、δ4353∈[49,55]及9≤最大Smith≤17。仅在原目标先已付Q((s))像时，整个原系统模s17才等价Q[[s]]成员性；13自由坐标及其他点/全局成员性仍开。
@@ -27,13 +27,13 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现32步，idle3600秒。每步/每发布真实pull核两规则；大数组仅同job临时，全部来源/完整SHA见实际小回执与本H归档。
-- 原selected-natural-u-rebuilt、selected-natural-first-left-envelope、selected-natural-second-left-regauged均完整保留。旧36单位解SHA9c3b02d2…、normal4完整130解75.6MB/SHAccfdf7db…及166残差7e060678…不重；normal5仍保786步后的72.6MB slot1/179b3645…和全部H4/DAG，余501列未付。
-- same-source-koszul29-second-pairing保真29源/29×36；same-source-koszul29-third-pairing保287364原产品、29×58 rank6/配对912a7775…、21头投影c8e25e15…及全部22原R3。完整第三3已证，下一须显式λ3和全部低页补偿。
-- 支撑v1把旧1736行误作全部空行，输入0.152秒失败(raw027e5950…)原样保留。v2已核M0实1922空行/额外186及21高列全零；third21-forcing-support-preparation-v2保原RHS4617848B/22d41ddb…和input5511912B/675fea9c…；全部整条cochain比例保存。
-- step31实际26.761078061秒，21个新1546单位解与32466原产品全真；third21-unit-solve内完整候选9850907B/SHA92f80233…、worker2131B/f65f843b…，raw3705B/15682db0…。完整4354残差及四层cochain尚未核；消费者32637B/89a1e354…已全文审并排step32，300秒/4GiB，不重这些单位列，下一页规范60+已知33自由仍保全。
-- 零六完整数据在zero-sixth-rhs-columns-checkpoint（binding2ab96ac8…）；原高零head核2、低582单位和已成RHS可复用。零八zero-eighth-reused-high-checkpoint保17651×4 pack187354B/dde7ce7f…及真实头比例，已付K104/58,49。
-- [固定第九](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)实9.063365441秒，low598变量rank586/kernel12/head2/零头10，原12376产品及λ0…9平方全零；21998×2 pack17432B/b2ac2a10…在zero-ninth-reused-high-checkpoint，raw33003B/a4084770…。两头不提高Smith/K104，不盲续第十；下一恢复完整23个left2，借完整β2=0及全高核2计算完整第三页，保全部较低阶自由。
+- 活跃run43702348535/job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现33步，idle3600秒。每步/每发布实际pull核规则；大数组仅同job临时，完整SHA/来源见小回执与H归档。
+- 原selected-natural-u-rebuilt、first-left-envelope、second-left-regauged及normal4-complete130数据保留；旧36/130单位解及166残差不重。normal5保786pivot后的72.6MB slot1/179b3645…、全部H4和反代DAG，余501列未付。
+- same-source-koszul29-second/third-pairing保真29原核、29×58 rank6、21头投影及全部22原R3。完整β3=3/21头存在已闭；known W13/full W15缺2，第四不可省。
+- 支撑v1误将旧1736行当全部空行，raw027e5950…失败保留。v2实核M0空行1922/额外186，全21高RHS零；prepared输入SHA675fea9c…、RHS22d41ddb…。third21-unit-solve的21完整单位解9850907B/92f80233…及32466原产品已付。
+- step32实22.819771112秒，全部原4354残差商rank4、kernel17；17四层原jet及296072产品全真/max5460bit。third21-normal-four-original-consumer下residual-span/complete-third21-residual-after-paid166-span.json.gz 65222B/7835f183…；head组合2138B/4a27a932…；original-products内17完整来源及verified逐列回执。原raw12713B/e5950239…；正式稿有完整比例与两嵌入。下一先算这17的R4/已知W13商，真秩r仅给max(3,r−2)≤β4≤r+4；缺4从余阵取真商代表，保H4/H5全部高齐次。
+- 零六zero-sixth-rhs-columns-checkpoint binding2ab96ac8…保完整高零head核2、低582单位/已成RHS。零八保17651×4 pack187354B/dde7ce7f…，K104/58,49已付。固定零九head2/zero10、12376产品全真，pack17432B/b2ac2a10…；不增加阶、不盲续第十。
+- step33新入口180b7f6c…已全文审并排180秒/2GiB：恢复完整23个left2（三旧normal实际RHS/两旧系数SHA复核），加十exact、13非exact；完整β2=0保证全历史差落W1。复用高齐次2，低1088×607=[B592,Ch2,R3_13]；只16新实际RHS、不重旧高RREF/完整逆，所有4×6188原产品必核。完整β3待真实结果，保存所有cochain及全来项作下一完整页。
 
 ## 原同w边界：返回和相邻孔通量仍开
 

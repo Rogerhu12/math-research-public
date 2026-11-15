@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "8bdd16296ad3a4dcbeccb2cc8ce181744713b833",
+  "rulesReadAtCommit": "661a7b9cc0c932ad81310e81be2016c0470bab74",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1542,6 +1542,95 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/third21-normal-four-original-consumer/third21-normal-four-original-consumer-receipt.json"
+    },
+    {
+      "id": "zero-complete-third-reused-full-high",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-complete-third-reused-full-high-789f.py",
+      "scriptSHA256": "180b7f6c3a4d3c9ff560b9f9e4a590af04d00996abcba75cfeb35c1778272156",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+          "sha256": "a6c423b98d70e06fb5a28797f09a11300129ec59128921c1e2d5c0e54fa8b5f2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+          "sha256": "36356983e71ee1e67677da1a7a5f7aebf2987db282a5447a741b6a6af93084d5"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+          "sha256": "b46ca6a4fc594b53687d692986229edc97ca770e21ac6332703eaf998c9e0b67"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+          "sha256": "4e63c72c550e8f90c022b086d3758f8e7b12edf4fb16a0ef387bc1a92f97366a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-sixth-actual-rhs-columns-complete-continuation.json",
+          "sha256": "0f30617b728af521fe9d928e37a0ee04a2274abd9d148e033a23c29c20ff10f1"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-second-pure-envelope.json",
+          "sha256": "9fa21a1f33225c470af62e4186046ff93281f4647bcb126c32f239bf355f846a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-second-normal-envelope.json",
+          "sha256": "2bf6ad79a39cace74510f195bae244abb620b4ca138a87c5c9b99d7cf2c282c8"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-zero-third-left-envelope.json",
+          "sha256": "8fae063a281b65d9dc8710597f886093c08ba44f53bb690b11e3b3f0e9b0d8cf"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-15-r150-zero-sixth-complete-three-stratum-left-envelope-789f.py",
+        "--unit-schur-helper",
+        "{scripts}/2026-11-15-r150-exact-actual-rhs-unit-schur-kernel-789f.py",
+        "--reused-driver",
+        "{scripts}/2026-11-15-r150-zero-seventh-reused-complete-high-kernel-789f.py",
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-789f.py",
+        "--sixth-receipt",
+        "{scripts}/43702348535-zero-sixth-actual-rhs-columns-complete-continuation.json",
+        "--sixth-checkpoint-dir",
+        "{work}/zero-sixth-rhs-columns-checkpoint",
+        "--first-connection-receipt",
+        "{scripts}/43679903558-original-transverse-first-connection.json",
+        "--second-pure-receipt",
+        "{scripts}/43679903558-zero-second-pure-envelope.json",
+        "--second-normal-receipt",
+        "{scripts}/43679903558-zero-second-normal-envelope.json",
+        "--old-third-receipt",
+        "{scripts}/43679903558-zero-third-left-envelope.json",
+        "--checkpoint-dir",
+        "{work}/zero-complete-third-full-high-checkpoint",
+        "--out",
+        "{work}/zero-complete-third-full-high-receipt.json",
+        "--through",
+        "final",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--unit-algorithm",
+        "dixon",
+        "--unit-batch-columns",
+        "1",
+        "--max-new-unit-groups",
+        "64"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/zero-complete-third-full-high-receipt.json"
     }
   ]
 }

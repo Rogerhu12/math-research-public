@@ -213,3 +213,5 @@
 - [R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound](results/R271-appendix-two-weight-critical-creation-leakage-without-an-absolute-bound.md)：原物理投影下，两权临界池的第二创建泄漏比精确为(1−t²)m−2t²+o(1)，bmax=1；奇数弱位和严格正无限弱尾保固定层满射，故无仅靠最大单权的普适绝对常数界。自足证明完整核/MP范围，不作为原固定连续尾或普通边界的反例。
 
 - [R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)：固定四个left8经完整最后校正得到两left9，所有12376原来源产品及十组平方读数均零；不提高58/49、K104或8600条件费。明确区分最后校正全核与全历史cochain自由，不把4→2冒作完整第九正秩；转回完整低页商继续。
+
+- [R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness](results/R150-appendix-seventeen-explicit-natural-third-left-jets-and-restricted-normal-four-completeness.md)：实际17条原自然λ0…λ3，全296072整数产品真/max5460bit；完整21右端模旧166残差的余rank4，法≤4范围恰17，完整第三头21维不变。保全部列比例及Eold/Enew，第四受限域17与known W13/full W15缺2分别记账，未预填第四秩。
