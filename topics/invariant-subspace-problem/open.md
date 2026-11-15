@@ -150,3 +150,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **首段损耗已将源演算锐化为精确δ收缩。** [完整正平方证明](results/R271-appendix-first-row-observability-loss-exact-source-contraction-and-disk-calculus.md)给两右C_s*K C_s+I≤δ²K（K=B,H），准确抵消左+I，故真S_b/S_f的幂界为δ^k，无sqrt(k+1)。自足有限模型给无损圆盘演算及原逆芽误差4d0²εδ/ρ；仍须保至h−1。H−B的同源返回和完整两费比较继续，不可直接相减两端Stein不等式。
 
 **23真核的全部一次变量扩张仍23维。** [完整证明](results/R150-appendix-paid-twentythree-infinity-kernels-complete-linear-source-closure.md)来自run43679903558实际0.399616051秒：完整低次数空间恰10维、110乘积越界rank98/核12，12合法乘积全6188身份均在旧23span。因此该完整扩张已闭、新核0，不排其它真核。当前同一临时job从真实486继续，120秒/512MiB请求768；新大输出不存档，只原整数核验和小运行摘要。
+
+### 2026-11-15：实际p768后接多坐标候选
+真486→768已完成、仍23条完整原有理核，证明见[同源p768](results/R150-appendix-selected-infinity-exact-dixon-through-p768.md)。现有run43679903558临时工作源直接接固定三坐标LLL；只由全4367原整数零及自由I36增加真核。该有界候选若耗尽，继续来源变换/严格高度或原char0连接，不把有限模与候选失败当结论。
