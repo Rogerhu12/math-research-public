@@ -295,3 +295,7 @@
 ## 2026-11-15：真实单调漂移界及特定联合源的完整MP预算
 
 [原漂移和二次删除联合源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)保occupation望远镜，得到整个闭域Domℒ=Domℒ*、||ℒ*T||<90/x；同primitive源的D†C1Tf与完整(D²)†C2Tf均受90/x控制。顺次返回额外F2项、原D3及普通N=M仍开。
+
+## 2026-11-15：明确平滑源的完整顺次返回已达二次窗口尺度
+
+[顺次MP返回和二次窗口费用](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)用原R254相容原像在真正primitive源上给完整逆上界，准确保留D†Π1C1Tf及两端partial，得到y=ℒ*Tf列的O(Q)返回。actual同u来源识别仍开，不以特殊列预算宣布N=M。

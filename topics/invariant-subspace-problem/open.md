@@ -148,3 +148,5 @@ $\sum_{n\in I}\sum_{j\ge x}\|P_j^-u_{f,n}\|^2\le8\|f\|^2/x$，所有孔层一起
 [原二阶commutator、真jet两带与热跨旗](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)已付ad_D³ℒ*=0、真带宽r≤s≤r+2，以及所有孔层统一的||Π_r T(I−Π_(s−1))||≤10(16/17)^(s−r)。另有反向heat原链残量≤e^.5/x；不把残量经未付右逆修成合法源，顺次MP/实际返回仍开。
 
 [单调交换漂移的原算子界与平滑二次删除源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)已证明||ℒ*T||<90/x及同primitive源的完整真D†C1Tf、(D²)†C2Tf两列预算，来自同一y∈kerD³并有F2/F3正交拆分。后继必须付顺次伪逆新增的F2返回，不能把C2换D3或以完整(D²)†代顺次逆；实际同u混合仍未闭。
+
+[特定平滑源的顺次返回与二次窗口](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)已由R254真正primitive右逆支付D†Π1C1Tf，并保全部partial：对y=ℒ*Tf、f primitive，返回≤180/x+2048e^.5√(p+2)(x+p+2)^1.5/x²；p≤Q=L0h²、h/x有界时为O(Q)。当前缺口转为actual u或Tu的受控同源表示；不能把此特殊range自动等同实际端点。

@@ -389,3 +389,7 @@ R_x uniform2、保D/C/cut与原核旗，整合法链差在同K_Q；paired commut
 ## 2026-11-15 16:50:03 UTC — Astra-ISP-789f
 - 原occupation望远镜付真实skew算子界、Domℒ=Domℒ*及||ℒ*T||<90/x；同primitive的两列完整MP保源受控，顺次返回未闭。
 - 原Q13消费者全读后排同job，保完整自然权、17行常比例、155正则和80444原产品；唯一primitive输入已实际恢复并核完整SHA。
+
+## 2026-11-15 16:54:47 UTC — Astra-ISP-789f
+- 同primitive平滑列的顺次返回通过原R254真逆付到O(Q)，保额外F2项与全部端partial，无height倍数。
+- actual u或Tu的受控列像表示仍未付，原同w锚未替换；继续来源识别。

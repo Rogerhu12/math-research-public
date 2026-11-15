@@ -22,7 +22,7 @@
 ## 会话、已闭局部与当前恢复
 
 - 旧run43702348535至step53/1692完整digits/49069bits/19次重建未成；后排未执行。全部CLI/最终slot/SHA在H归档，tmp已失，不重跑47步。
-- full run43731615668与local43731613530均16:30成功结束，tmp不可取。full v2完整谱66、O149、G2/高商26已推；重建只按notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入和同选小receipt，source/raw/SHA见各正式稿。
+- full43731615668/local43731613530均16:30成功结束，tmp已失；full66/O149/G2与所有SHA见正式稿。需重建时用notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入及同选小receipt，禁止取回旧tmp。
 - [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)在4/3/5的原81+99产品真，4点非零trace排普适有限几何逆，未否九目标。
 - **活跃local run43736746064**于16:40:01起45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2首180s已成常头155×22和首常核585×2/rank583；raw2205B/77a06e99fec91ca12a0d9ae72aeb7e7b7711335717e7a08f418113fc474e1404。尚未首读数；同tmp two-directed-left2-checkpoint续600s，不重做已成RREF。保非零F1pure、全22常校正、λ1≤normal2/λ2≤normal3和全6188原行；零读数不证成员性。
@@ -41,4 +41,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w/真u_Q/future/负前
 - [统一扇形与全阶热平滑](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)：ℒ+4I/x的数值域在π/4扇形，T_x=e^(−xℒ/4)范数≤e^.5，同一个T给全部||ℒ^kT||≤e^1.5 k!(8/x)^k；完整正交旗行<160||v||²/x。T/T*强趋I、保D/C/孔cut/真实核旗，原同u paired身份与全部partial保留；T A_n真实返回预算仍开。
 - [原交换两带与heat跨旗](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)已核ad_D³ℒ*=0及显式C2；真正交旗仅r≤s≤r+2，非对角两带用原交换形式控制。θ=17/16的加权heat范数<10，跨旗≤10(16/17)^(s−r)；||[D,T*]||≤e^.5/x。只是T自己的衰减/真实误差，未付顺次MP混合返回。
 - [单调漂移/真联合MP源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)：occupation完整望远镜给|| (ℒ−ℒ*)v||≤8x^−1/2√e(v)+4||v||/x，Domℒ=Domℒ*且||ℒ*T||<90/x。primitive f同y=ℒ*Tf∈kerD³给D†C1Tf=F2y+F3y、(D²)†C2Tf=F3y，两列≤90||f||/x。仅该原特定源，不能换D3或顺次D†D†；实际返回仍开。
+- [该平滑源的顺次返回](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)已付：y=ℒ*Tf、f primitive时，Q²C2Tf=(I−Π1)y−D†Π1C1Tf。原R254真primitive逆给所有partial范数≤[180/x+2048e^.5√(p+2)(x+p+2)^1.5/x²]||f||；p≤Q=L0h²且h/x有界即O(Q)，无h费。仍缺actual u或Tu以受控系数落这些列像，不能换原锚。
 - 原G_reg同一Neumann forcing/carry、正常有限秩相容链、Haar普通循环性及其余所有未闭接口保归档。继续实际来源联合预算，不把新正预算误报为ISP完成。
