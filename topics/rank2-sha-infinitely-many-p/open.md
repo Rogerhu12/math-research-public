@@ -192,3 +192,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 [R763](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md) 付新U的准确六次来源、Q的Norm3 affine返回与真实ε/ε²展开。去总Gaussian后p[ws]正规化U≡34pc是单位，不能按旧R614分子整性处理；Q°同源的6s t3(v/d)χw^s第二位亦必须保。继续在这个实际来源上建立原中央失败→新三格全ordered flag界；旧全WD/十三行/同R不能借六次根或affine代入免除。
 
 [真实剪切附录B](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md) 已付有理酉作用与全17处(j,−j) gluing；原S τ12和R762非零first jet τ3/1/7/13不同。已核Borade等2025 Thm5.6的完整period条件；先投原Katz角色会换掉非零切向，不能由Weil同表示直接推整条raw斜限制的同Lp身份。此具体接口已清楚，保其它完整automorphic实现仍可研究，继续O4/O6真实原始性与全Selmer门。
+
+[2026 Wang rank2-BSD稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md) 已按作者原文、Ribet原Theorem1及真实Nguyen2510.12890证明其两个起始局部条件相矛盾，并核全Selmer/λ比较缺口。该声明不能关闭O4/O6；纠正其等号或root符号仍须原最早节点、全部局部条件及目标p-unit，不以深节点非零或变化辅助形式复L非零替代。

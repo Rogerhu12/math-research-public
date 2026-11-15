@@ -3,7 +3,7 @@
 ## 目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；持续推进，不以阶段结果或时长收尾。**
-- 最近已读规则提交：4bfdf9147c3c7f6bbab94756f885b736f214857d；2026-11-15 13:46:57 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:46:57 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
+- 最近已读规则提交：e26b9f5ecbf37cb09d52212b3304e055f3495bd2；2026-11-15 13:50:05 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:50:04 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main；旧库首次授权789d22af。完整结论立即推；非快进即pull --rebase重推，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核两README，仅重读差异并即执行、记提交。root15@708f058a差异已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 13:45:20 UTC/run43720635080/job132831644669，head4dcc434d；两README差异空且blob同，回执ci/rule-pull-20261115T134520.json。下次最迟14:25 UTC。
@@ -53,3 +53,5 @@ R762真实through-S家族：μ=νσ⊗ν_(S/σ)，Y=c+v、Z=(33c−v)/34，Gram(
 R763新U完整式：Q=1+xζ/y，B=34QP4−6P4−6tP4′，U=−t5(1−t)³Θ102 B6/b5；旧场上六次覆盖，正规化除t5不得免费入旧格。Norm3 Q↦(3vQ+12t)/d；原Γ中U=6^6w5 e^{6aε}(vS+δvS+asεvS)^6，去charge204 Gaussian后p[ws]U正规化≡a为单位。Q°同源另加6s t3(v/d)χ w^s；全部两位/极帽保，中央及全flag桥仍开。
 
 剪切note附录B付原17处全部(j,−j) gluing；原τ12投影杀R762非零切向，有理period共轭不将raw斜限制认作固定Katz。
+
+[2026 Wang稿核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)：起始全split虚二次域根号与其+要求冲突，辅助q条件又违反真实level raising必要同余；Nguyen/λ0步骤亦未成立。不采其rank2 Sha声称，续原O4/O6全球位置门。

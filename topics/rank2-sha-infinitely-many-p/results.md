@@ -425,3 +425,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [R763：正导数新增坐标的仿射ζ与完整Gaussian运输](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md)：已证明新U=(S′)^6在原(t,Θ,Q=1+xζ/y)上的准确六次式，旧场上六次覆盖与原点正规化成本均保；Norm3的Q返回为(3(1−4t)Q+12t)/(1+8t)。完整ε/ε²目标保affine ζ项，去charge204 Gaussian后实际首共振p系数仍为单位a；全Gaussian三同源还带非零未定第二位修正。原新三格斜率及中央传播未付，不套旧WD。
 
 - [原剪切附录B：完整有理period与十七处gluing](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：附录B已证明原Cayley有理酉作用的dual/row规范及完整toric-period共轭，原17球线经E[17]完美gluing含全部17对(j,−j)。S的τ12/伙伴6与真实first jet的τ3、1/7/13及其伙伴不同；先投原角色会删掉已付非零切向。已核发表原文Theorem5.6适用完整period，未把未投影斜限制冒同一Katz函数。
+
+- [2026 Wang rank2声明的原输入核查](notes/2026-11-15-xiong-rank-two-level-raising-input-audit.md)：已逐原文核2026 Wang rank2-BSD稿，两独立必要条件反向：全部坏素数split的虚二次基变根号实际−，其起始+域不存在；q≡−1且a_q非零modp违反q-new必要等式a_q²=(q+1)²。真实Nguyen全split/rank1 torsion比较不覆盖所用inert升level；Λ/(T+p)自含反例排除非零复L值⇒λ0的推断。此稿不提供原O4/O6输入，目标本身未被否定。
