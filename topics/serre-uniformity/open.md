@@ -50,7 +50,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 已成且禁止重算：R774共同56Hodge三积，R775 M2/M6/M12及普通power1..6配方，R781原f4的R0..142与κ幂，R786原power1..5 q0..128，R790原146个M2的CM值/首粗导，R791原Hom/实下降，R794五维低次数η基，R795原1506个V6 q0..81，R796原CM的144条全局二次关系及length2，R798真实1506选行minor和690个τ³V3积。具体真实来源、耗时与输出SHA保各certified结果和上述归档。
 
-**R787**：run43683912711/source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23于11:06:48UTC实际BudgetStop，未有原完整A/B。原V5 1234列、129条件、14分支同主元同自由坐标，core93d3d72b不变；artifact14159006977为5,148,711,108B/32652fdb，manifest613f436b共1517项。同核续算已激活（wrapper42157e0d/request583e43be）：逐1517输出/1372原输入真SHA后恢复每prime最新完整Dixon及所有其它已成阶段、原输入包；原数学核/配置不变，不改用R802或预填kernel。结果仍只认真实非零A/B及全129×20准确代回。
+**R787**：run43683912711/source eab5e58bbf951c48ccf13a109bbdf0b0289a6f23于11:06:48UTC实际BudgetStop，未有原完整A/B。原V5 1234列、129条件、14分支同主元同自由坐标，core93d3d72b不变；artifact14159006977为5,148,711,108B/32652fdb，manifest613f436b共1517项。同核续算run43708449812/sourceac5998f3已运行（wrapper42157e0d/request583e43be）：逐1517输出/1372原输入真SHA后恢复每prime最新完整Dixon及所有其它已成阶段、原输入包；原数学核/配置不变，不改用R802或预填kernel。结果仍只认真实非零A/B及全129×20准确代回。
 
 **R797/R799/R800**：公开run43693453831/43695571499/43696070150已success，完整输出已由公开纯IO run43699442183核过；三者的准确实际结果均已登记，原回执/每项SHA可直接消费。分别为五条新映射170/172/176/193/196条件的原Laurent；原V6尾82..108和新V7/V8最小短基；146原M2尾129..195。R797最后清行另需各自κ^N，仅增一次乘法，不能多跑R_N。所有raw仅一日活跃artifact/bundle。
 
@@ -75,7 +75,7 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R806原primitive乘法已激活**：[执行契约](notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md)e73f66bd；run43707290840/source75b1d56c，coreb014f9b3/wrapperb199f040。R805/R786真实两组输入，原690行集不重选、272生成性V3右端、全820模筛和实际272 cyclic determinant；仅成功候选做34×8 Dixon/full820及带权支撑核。AST已通过，实际候选/非零minor/准确乘法尚待返回；不把幂环当整闭，不做无需求的巨大完整Q(z) Krylov逆。
 
-**R807原M6一次清极已激活**：[执行契约](notes/R807-original-M6-pole-clearing-execution-contract.md)09fd69d4，run43707939269/source2c44d025，cored92cf79b/wrapperd499a33b。真实三组997原文件；五个E6·e_i只作962选行准确投影，真实138×5残余核给θ，秩只知≤4。四条原M6乘θ坐标全1100认证，F692用已成投影合成，余三条同块；R805已成两积0..40项强制读取，只在λ需要时续41..54。无实际θ/残余秩/清极坐标；预算停仍保每个独立完成右端和当前准确残差。
+**R807原M6一次清极的公开计算/完整verify已成功，实际输出审读中**：[执行契约](notes/R807-original-M6-pole-clearing-execution-contract.md)09fd69d4，run43707939269/source2c44d025，cored92cf79b/wrapperd499a33b。真实三组997原文件；五个E6·e_i只作962选行准确投影，真实138×5残余核给θ，秩只知≤4。四条原M6乘θ坐标全1100认证，F692用已成投影合成，余三条同块；R805已成两积0..40项强制读取，只在λ需要时续41..54。原run已success，artifact14159481627/SHA74c80150；真实θ/残余秩/清极坐标待纯IO审读后登记，不仅凭success预填数值。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 
@@ -93,10 +93,12 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 原period/split有限商的识别已关闭；继续完整八通道源到原同标签Cartier量的真实配对，不重复有限norm识别。
 
+**R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。
+
 ### ordinary真实值与原全局对偶
 
 原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。实际Robert/Kummer/Shapiro、global dual、Θ仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。
 
 ## 运行和续接
 
-根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787仍运行，R803混合比值运行，R801长尾已全输出认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。
+根会话独占main/共享索引；各子代理只交专属小文本或核心源码。R787同核断点续算运行，R806 primitive运行，R807原计算success正在审读；R803混合比值/R805整基/R801长尾已完整认证；R797/R799/R800完整输出IO已过，R800/R799/R797实际结果均已登记。终端失联时按根§8用小文本API，公开Actions承担实际pull和输出IO；最近真实pull与规则提交以HANDOFF为准。每结论立即提交，按原source+数学tag续接；不重算旧前缀，不把success状态代完整输出，不把中间输入完成代主定理。

@@ -403,3 +403,6 @@
 - **R807 执行契约（证明沿R805，尚无实际θ）**：[一次原M6清极](notes/R807-original-M6-pole-clearing-execution-contract.md)：五962选行投影、真实138×5残余核、四条原M6清极坐标/full1100，复用R805两个实际41项前缀。初版method SHA0547494f426ab45fdc02cc20e4cc527077651d8176a7a114fc6ab542ead0ebb3；绑定实际R805前缀的当前契约SHA09fd69d4ffa8319a5473a077cfafb6dd1264dcb230ca57927679674b03d7b19c。
 
 - **R803 实际原混合比值已证明**：[六组原M6坐标认证](results/R803-certified-original-M6-mixed-Hodge-ratios.md)：run43702905620，694块p1000000007/det637607829，84右端均368 Dixon位/full1680，2127.991746秒；完整产物及781输入IO全过。实际五个Hodge比值完成，待原A/B接真实函数。
+
+
+- **R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。 SHA256 0342c756fd0f330a15b0585e3d56c88359b17280f07ba4d1cc946090d2170515.
