@@ -148,3 +148,7 @@ SCI c8352847/worker c58a65f5/manifest d66bc4a1；仅新truew组合/一次exp(P0)
 2026-11-15 23:36:40 UTC UT：root全文/原SF39–43及SJ三函数独核，phase源/跳/newton端点peer齐；改fullT后两端/mean/jumps完整，返回oldtrial才whole-min，新scalar尚未执行。
 SC3原43754452928/1正式12steps全success，root只读核；science/exec/report原小件锁，下一核完整affine读出与recovery，不重跑。
 双README读取4f7272430734c1df7e5fd5cc3bdd5d2de01da4c8未变；本机22:59:32真CLI无executor，继续根规8小文本例外。
+
+2026-11-15 23:39:43 UTC FC：root全文及phase2–4核通过；fixed smooth Fredholm completion不借incoming，natural权/同两窗/真实Poisson columns/全rest ports原序保。actual m/F列/dual/finite/全incoming仍待，未作数值。
+UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第二次推送成功27063dd2，未force。SC3 SCI23672/f0838341、preGit32824/9f40e616及32inputs/8AST/36artifacts/23pull已root复原，actualproof继续。
+双README读取d47749f7289ba0965e912a0e0e026bc619ebd4cb未变；定时CLI仍按≤23:59继续，根规8小文本例外。
