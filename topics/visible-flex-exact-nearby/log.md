@@ -237,3 +237,9 @@ README只读核36f7152b0b32072dd938f22e67d4d861484b266a无变。全文核M1–28
 ### 2026-11-15 09:18:15 UTC — 实际S26门与十项改进单独推送
 
 README只读核9ca5460c504b8fcf8fc8f2d692b6cd477634c035无变；root全读run43698106023/1 execution45554B/3896925b…及result24624B/3a271393…，job132763013737全success、child0/26门/math.17425771900002474。09:13:04.218316真pull→b1df8ec306e596256a317df925464af6acaa31c6，两diff空。新RF域/相关raw forcing/regular积分/完整mixed输出成立；144项仅10个fb二径更小，36mean无变化。旧7background+1fold和全部既成数学只恢复，成功新RF不重算；临时27514B native59c06d1a…不存。报告9138B/SHAa9a4522879b6df55a82f84b17ab74b7f787c4f1b0062c6cff46ddccfb19afb54，所有G15/source/positive/strong return门明确继续。
+
+### 2026-11-15 09:22:21 UTC — G真实holonomy输入/全mean三jets澄清；整理当前open
+
+README只读核27b9728881282bb6096678cd13c1a90175686b05无变。G已核正文仅显式列κ(q;P,K,U)的真实U=Pθ输入，并先由同PDE递推消非mean前三源jets、再用完整holonomy投影得到全源三jets为0；保root已付整p族Γ1唯一性及physical m∈4Z。新17944B/SHA7570b240444adbdb03eb017d50193240d4caaa6cf6d7e834c77ed5837dd416f1，原常数/域全不变。
+
+此前open原文28800量级已完整归档notes/2026-11-15-open-before-actual-two-input-cap-and-graph-seed.md（29121B/SHA12bcd17a3f1c3837ef06dc17f7eefab70c8b8356caaf7494e6d08871d2ccfee2；源7abd3136d6fe8948ca96f447746b7bd16f5fd5a9，原SHA86fa249d5dbb1aee06cb9c38eb41d3c0c3b377d721a48399a5a56609ffc53680）。当前页更新为已付X/H/F/M/P/G/Sactual与剩余Green/G15/N2/全augmented/ν/geometry的准确状态，任何旧门未删。H压缩前同源commit保全。已亲读Green09:13 process41168B/ef2cfe83…，真pull09:13:36.658793→737f0c7287c2959a016bcc7572bbe50d818ce7c5，两README空diff；future3536=1886旧+1650新/past1232/product1664/0group。09:18非FF即时CLI真pull仍无executor，随后保远端重建推送成功，未force。

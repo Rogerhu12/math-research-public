@@ -142,7 +142,8 @@ $$
  P=\frac{u_\theta}{aw},\quad K_\perp=\frac{u_t}{aw},\quad
  U=P_\theta,\quad V=(K_\perp)_\theta .
 $$
-$K=K_\perp+\kappa(q_{\rm phys},P,K_\perp)$ 含原 holonomy 小根，
+$K=K_\perp+\kappa(q_{\rm phys};P,K_\perp,U)$ 含原 holonomy 小根；
+这里显式列出其真实 $U=P_\theta$ 输入，不把它当成无角导的代用根，
 $q_{\rm phys}=w^2$。原完整方程准确给
 $$
  P_t=V+(Q-1)P,\quad
@@ -249,8 +250,10 @@ $Q$ 在 B 与 long 的常 $Q=-1$ 的0、1、2阶 jets相同；
 第五阶使用真实的一侧 PDE，不抹掉该已知 coefficient跳。
 这足以保实际所需 $C^2$ matching；更高阶始终按原 broken口径。
 
-由于 (G.12) 正是 PDE递推，$\widetilde u$ 的普通 residual及其
-前三单侧 $t$ derivatives在 B准确为0。此处不以一个点的 residual
+由于 (G.12) 正是 PDE递推，其普通非mean residual及前三单侧
+$t$ derivatives在 B准确为0。完整 holonomy恒等式 (G.25) 再给
+$\widetilde u$ 的全 residual及这三个 derivatives亦准确为0；不是
+只检非mean行。此处不以一个点的 residual
 上界代替 collar中的完整源预算。
 
 ## 6. 同一 graph 单位中的实际 lift 界
