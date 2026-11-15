@@ -44,10 +44,10 @@ newton_source监视，root最终消费。
   32真product/两个±4096 full97权preflight63.221s同run复用；
   14GiB/4GiB/4CPU实际门通过。
 
-root已读09:53过程42995B/SHAc375e662…：各stream末future4368=1886旧+2482新、
-past1808、product3552；combined较早4352/1808/3536，0group无failure。
-signed W norm log2≤−102，selected E≤2^-5；旧scalar诊断3397不被消费。继续三流、187groups、三个完整HY及final。
-两port前沿已重叠，但product/past尚不足形成首完整组；不从计数冒完成。
+root已读10:03过程43766B/SHAad45b74a…：future4800=1886旧+2914新、
+past2064/product4112；首完整组[3968,4000)在10:03:22已成。
+combined为1group/5queued/1consumer，无failure；Werror log2≤−102。
+继续三流、187groups、三个完整HY及final，逐组结果不等于全局门已过。
 v4两个同选点优化仅standby，当前v3不改不取消。
 
 新Gram保完整signed $W$、任意指数dyadic正权、真实全193乘积、
@@ -110,7 +110,9 @@ w1/w1r/w1rr分别<227086.046676/79268255645/26074855745890286。
 三raw local保持原顺序，w1rr可准确拆出复用完整旧norm；
 两J窗口分别−8/3→−5/3与−5/3→−2/3，CV1保旧值另加新项，绝不相减。
 全部九词、五oldmean、独立physical mean、true dr与uncertain-root单侧权均明确。
-该recipe尚无新数值结论，phase正在制作只消费旧成功量的公开CI。
+该recipe尚无新数值结论；SCIb0648a3b…/manifest8465759d…/worker5647b1ab…
+和独立workflow已审部署。19pins中旧G15十二项完全不变，原1328行/5成功receipt只读；
+新逐行系数仅临时，公开保完整范数/分项小结论、run及SHA，等待实际运行。
 **当前下一接口：** C recipe的实际完整source消费；
 原−8/3→−5/3和−5/3→−2/3两负窗的准确forward/trace；
 G21三local列和六oldcircle/五mean/真实seam的完整累积。
@@ -334,8 +336,8 @@ commit499ec549b2c32d7205126782835376533739aff7普通删1305312B，
 每小时真pull后查两README，只读变化diff并立即遵循，已读SHA写H。
 本机executor持续不可用，09:28:36定时及09:54非FF即时pull仍返回无环境；
 根规8仅准小于100KB UTF8 connector例外，禁binary/gzip。
-ref读取不叫pull。最新亲读runner真pull09:53:48.349228
-到af766074f7f7c5a583d5028ec25cf934e8f726ad，两diff空。
+ref读取不叫pull。最新亲读runner真pull10:03:51.806710
+到54b5171fef8585078f6ceeff870b4be4cfe252dc，两diff空。
 终端恢复立即pull查差。H和本页随实际进展更新。
 
 子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。

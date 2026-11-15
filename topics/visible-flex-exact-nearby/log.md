@@ -313,3 +313,7 @@ root全文读C final be1625f69c3902bead4c3d2a7cc0185dff7aef31，16352B/SHA 98d3a
 ## 2026-11-15 10:03:13 UTC — actual fixed γ 的外预算、真实seed与body Nash闭合
 
 root全文读F以及原A/B全文核同域、source单位、投影残差与端口边界；newton独核E.2/3/17/22→O13真实81·2^-440迹费，phase核固定高因子和全部幂。F final61d12e570edb9910286010fcfb1379ca53dd91f7，13091B/SHA 16b2f923cd6d251c9ca29bddc2c4d02ef1929004bba94547595ae65931eaeb23。不是取sup_n Aq，固定Bbarγ乘显式E高状态；same γ=0或原Aσ/128均有actual seed，全部body Nash入口已付。F(u∞)=0不自动消nonlinear far/inner/height/frame端行；立即继续这些真实联立条件。D.2现行aec404…已是正确μT，误读旧摘录不修改正确正文。单结论独推，只读maind50c20fb34e7d51eb64ba6274c8b341e36e8f931两README未变。
+
+## 2026-11-15 10:09:15 UTC — 部署新完整 genuine negative源的只复用CI
+
+root全文读SCI/worker/flow/manifest，newton独核complete_coefficient_jets、local_vectors、complete_nonlocal_row与C/V/G；规则15逐行数组仅移到temporary，数学式未变。SCI b0648a3bc244e6671176ac096c759b3e70e57d8c04b75bd4dd74442bfcaf95c0；manifest8465759dfe9101bb7e20275cec1a5b98e23efb4dbe643e492fb8189250b005b9；worker5647b1ab56c7d7d863845b273554d1f79601fe4a59ed62576e6cd8efaa3e236b；flow27bfb98c19097f702d82c1485a6bcb02c59766b040b5f1d4ef319a85c9da9c81。静态delimiter/19pin闭包及旧G15十二原pins逐字核过，完整AST留runner；只有新校准/jet closure/有序source与dr积分，旧科学0重算。45min任务/900s科学、真pull/README guard/nonFF循环，未出实际结果前不称成功。Green root亲读10:03完整process，首合并组已成，仍保187组/三HY后继。只读main0b59e8a4d90be9ca8db88b931ecf708d2eeb4528两README未变。
