@@ -1,0 +1,74 @@
+name: Serre p41 original primitive multiplication
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R806-public-original-primitive-multiplication-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R806-original-primitive-multiplication
+  cancel-in-progress: false
+
+jobs:
+  original_primitive_multiplication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/serre-p41-original-primitive-multiplication.yml
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R806_original_primitive_multiplication.py
+            /topics/serre-uniformity/scripts/R806_public_original_primitive_multiplication.py
+            /topics/serre-uniformity/scripts/R786_public_exact_power5_short_basis.py
+            /topics/serre-uniformity/scripts/p41_public_actions_recovery.py
+            /topics/serre-uniformity/notes/R806-public-original-primitive-multiplication-request.json
+            /topics/serre-uniformity/notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md
+            /topics/serre-uniformity/results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python source syntax without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          for name in ("R806_original_primitive_multiplication.py", "R806_public_original_primitive_multiplication.py"):
+              path = Path("topics/serre-uniformity/scripts") / name
+              ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
+          PY
+      - name: Install exact arithmetic
+        run: python -m pip install python-flint==0.9.0
+      - name: Find an actual primitive witness and restore only its exact multiplier
+        continue-on-error: true
+        timeout-minutes: 315
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/R806_public_original_primitive_multiplication.py compute
+      - name: Transfer the active checkpoint to the immediate continuation only
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-global-R806-original-primitive-multiplication-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-global/R806-original-primitive-multiplication/output
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Require the exact original multiplier and actual cyclic certificate
+        if: always()
+        run: python topics/serre-uniformity/scripts/R806_public_original_primitive_multiplication.py verify

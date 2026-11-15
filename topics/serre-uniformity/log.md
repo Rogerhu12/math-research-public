@@ -640,3 +640,7 @@
 ### 2026-11-15 19:04（Asia/Taipei）｜serre-public-astra-20261115
 - 登记R807一次M6清极执行契约0547494f：五个独立可续投影共962块，138×5真实残余核选θ，余三右端完整1100行代回；不把投影误判成V4成员，不预填残余秩4。
 - R805真实e3/4·e73前41项已成，激活分支必须源绑定读取，只续41..54。无新θ或清极坐标；R803纯IO已激活f59c795，R806/R807继续工程。
+
+### 2026-11-15 19:06（Asia/Taipei）｜serre-public-astra-20261115
+- R806 coreb014f9b3/wrapperb199f040/request8ab0ac3a全文审完，绑定R805真实全认证来源后直接激活原primitive乘法；源码AST及完整输入选择在公开Actions数学执行前做，原I/alias和已成stage不重算。
+- 新增本课题workflow `.github/workflows/serre-p41-original-primitive-multiplication.yml`；仅一日active checkpoint，无raw Git/Release。R803 IO全过，真实pull11:04:01.494034UTC到f59c795两README无变化，H同步；下一步登记R803与续R787。

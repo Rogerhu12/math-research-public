@@ -1,0 +1,64 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R806-original-primitive-multiplication",
+    "p": 41,
+    "qY_count": 41,
+    "auxiliary_prime_start": 1000000007,
+    "dixon_group_columns": 8,
+    "reconstruct_every_digits": 8,
+    "requested_stage": "primitive_multiplication_and_cyclic_certificate",
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R806_original_primitive_multiplication.py",
+    "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+    "wrapper_sha256": "b199f04098d2f0b99810f55d93e43af40e58195f393626ea2b1ce03a930b2a8e",
+    "proof": "results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md",
+    "R805_proof_sha256": "b48d9f8dd5d8d1a89aa2574ab7f9ee014b83ca21baf41694252b9c53993571e8",
+    "method": "notes/R806-original-primitive-multiplication-and-cyclic-certificate-method.md",
+    "R806_method_sha256": "e73f66bd2e4836389dfbf64d5d724ada725944e80233a33e493408971a4242c1",
+    "workflow": ".github/workflows/serre-p41-original-primitive-multiplication.yml",
+    "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+    "io_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+    "retained_artifacts": {
+      "R805": {
+        "result": "R805-original-affine-pencil-free-basis",
+        "run_id": "43705580592",
+        "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+        "artifact_id": 14158193403,
+        "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+        "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30",
+        "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+        "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+        "certificate_name": "p41-original-affine-pencil-free-basis-certificate.json",
+        "input_bundle_sha256": "00eda19de6591df21622a93b97c0bd6722c84d1c98922164dcb0be752eb56d78",
+        "input_bundle_bytes": 32662339,
+        "files": {
+          "p41-original-affine-pencil-free-basis-certificate.json": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0",
+          "R805-stage-manifest.json.gz": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547",
+          "R805-degree3-S-basis-index.json.gz": "962694917252e23deb1d185a8caae81da773e314d3fca0475bac18a088dedd7e",
+          "R805-degree3-S-basis-short-minor.json.gz": "a75727f04295dfce77057b2df564a936008fbb6523b346de05e3d009c2ba7118",
+          "R805-graded-free-basis.json.gz": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9",
+          "R805-accepted-pencil.json.gz": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c",
+          "R805-original-monomial-alias-index.json.gz": "7be03da22d30c8527afa38bbb22a0e9c4329276f220525fde1dc57ba7a2a2eb5"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      }
+    },
+    "resume": null
+  }
+}
