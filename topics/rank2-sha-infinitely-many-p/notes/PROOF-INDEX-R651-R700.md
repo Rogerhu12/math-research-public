@@ -122,3 +122,5 @@
 - [R700：原全迹固定分母、全部复共轭与对数高度](../results/R700-original-fixed-denominator-and-logarithmic-trace-height.md)：固定倍点循环在三个潜好模型付全部有限位，显示D_m使同一个w^-mφ全整；Klein模紧环面界覆盖K0共轭。原迹高度≤log(p+1)+log(D_m C_m)，非零实际边界v≤1+O(1/logp)，大p的真实v≥2即迫零；未预支j0下界/迹非零/高Hermite条件。
 
 - [R699：原首边界统一两位判据与有限真实来源窗口](../results/R699-original-uniform-two-digit-boundary-criterion.md)：大p下原迹零iff v≥2，准确等价前e−1条b_i+p b_(i+e)模p²和末条b_(e−1)模p为零；全部无限尾按精度付清。原sigma/LT完整窗口L=2p²−p−9有限恢复同一系数，总2p−3个剩余域位，未由两中央预支这些行或高Q/同X下降。
+
+后续：[R701–R750](PROOF-INDEX-R701-R750.md)。

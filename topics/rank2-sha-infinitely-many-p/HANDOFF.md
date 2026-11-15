@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题 README 全授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：687ee06644786955949944d3b29eed50939cc746；2026-11-15 06:43:40 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:43:39 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
+- 最近已读规则提交：6fee720b57819cd19490f743197dcff89480ae3a；2026-11-15 06:47:40 UTC核两README无变。实际CI pull 2026-11-15 06:39:54 UTC/918943f467450fb47bb71c4561adebed3966b146（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 06:47:38 UTC仍无环境。最迟2026-11-15 07:25 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推、禁强推/改历史。每小时实际 pull，每次比两 README，只读差异立即执行，记已读提交。令牌不入文件/回复。
 - 规则15新版@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存 repo/Release、不新拆分。已普通删除206个/4,912,763B，保历史与真实输入；独立 theta-plane 及 R466→R471 在 run43683428893 同旧SHA复现。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开 Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -16,9 +16,9 @@
 
 ## 完整检查点与分工
 
-本次压缩前全部条件：[HANDOFF](notes/2026-11-15-frontier-before-r700.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整旧来源、坏集、预算、证明和未付问题；本摘要不关闭它们。
-R1–363、365–560、562–653、655–700已登记；R364/R561/R654及主目标仍开。入口 results.md、notes/PROOF-INDEX-R651-R700.md。
-root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原Fermat-det和界/中央有限两位；deep R701原顶三charge真实像/同R第二代表；theta R702新同q30的完整中央/补域；literature R703原全H迹相位/复和界。
+本次压缩前全部条件：[HANDOFF](notes/2026-11-15-frontier-before-r703.md)、[log](notes/2026-11-15-log-before-r696.md)、[open](notes/2026-11-15-open-before-r676.md)。沿链保完整旧来源、坏集、预算、证明和未付问题；本摘要不关闭它们。
+R1–363、365–560、562–653、655–700、703已登记；R364/R561/R654及主目标仍开。入口 results.md、notes/PROOF-INDEX-R651-R700.md 与 notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/immutable blob。root R704原Fermat-det和界/中央有限两位；deep R701原顶三charge真实像/同R第二代表；theta R702新同q30的完整中央/补域；literature R705原wild字符/完整环Fourier。
 
 ## 全部固定目标和原规范
 
@@ -29,9 +29,9 @@ j0 E:y²=x³+17,+24,+2312 的 rank2见R294/398/469，通常Selmer桥2+corankSha�
 
 R594九行/20列/11核、全部native/RV/word/C补项、五型七Λ、质量/log见完整前检；依N新测试不能搬固定P递推。R655负一I非零非unit；R661两Katz log导数不由值决定。R659/662原补偿保持。
 R679 π4中性六/十二次q♯的19逆付两冻结、cd全S及J2=1，同ray密度一全N4整；P12 I/O/X回JS。实际J8≥−8N，全H8；n>N、2n>vI时P12Δ的v=3n−2N+33+vI。T全外部P12(1)及L浅仍补，全部λκu/原矩保持。
-R678/682六次八角unit差给3r+4M+5−2N；搬q♯须真6Z稳定及新pair8质量。R685 N4/M2/r44 gives T143/S≥145/质量≥339，但两步Q全消X/V时亦消中央；P13共轭κ6只杀低10，三高源与全log不删。
+R678/682旧六次八角和R685原q♯过滤全部见完整前检；新q30不沿用旧质量/J8或单角非零。Q消X/V也消中央，P13共轭κ6及三高尾/全log保留。
 R686 Z=W−bY Y、E=(5+6ω)A−29c−(58+87ω)d；H=D*−E/29使q♯/qcd逐点四轴不变。E深N单独Y=λ2N S且保每Z环；相对Mellin的三单位/Y深/W第二态/小参数全尾和条件质量均保持。
-R690 native W完整B_W在even72十三基内，19逆/84矩/C12；E深W=λ2N B_W、E浅W=λN6δT−λ2N B_W。固定二挠trace m1给Wunit质量−λm1，不等同缩Z的A_T。
+R690旧q♯的nativeW为B_W、第二态质量m1；它与缩Z的A_T不同。R693新q自然已付nativeW=6δT，旧权的结论不混用。
 R692全[2]覆盖S136⊗S35768的R/K三态及真实RY物理反射，R²=K²=(KR)^4=1。真词像格+逆W观察回原JT；三原算术投影同词运输。四unit有限depletion保质量转置/全CM切集，Pnew/PH不穿W深。
 R695全奇CM fibre与Y/Z/W/V/A²核心逐支交换，外尺度s=ζbarα/α保全部216真共轭词管。A/Z同R原12次Δ及浅双H门；A²W/WA²原角交叠返回深k−1/k−3，参考完整差消JH′，不同s管分离不删积分补域。
 R693新原q自然最高30次：29条中性G列+c0的30逆（151/967，c0=381），原半周期完整相位+i给ell72=3^9δell34，付最后一行。清真实λκu全部分母后同ray密度一全N4整，新增成本0；两冻结为c0S/0、cd=S、nativeW=6δT、J2=1。相同E深/浅门给全S/T，横Z/V及W三态同原T；P30保c0/0，J2/8/14/20/26与T混合外部/尺度质量全保，R702续真实补域。
@@ -59,3 +59,5 @@ R698保旧17²类：gπ²=1−17δ阶17，固定A/Q [68]覆盖使whole A34=B2而
 R697唯一c_F F³修正保全3C；free最高根准双极要求Vrad²|Q，固定角整f时μ=m3cF真乘子W_N→W_N+3且h+≥3同预算。原Pfact首核使完整旧forcing模p已入首像；同P₂=Pfact+pR的下一障碍只来自C_R=Π>D(μR)顶三charge，完整Ω=(MC_R+MS)/p−μphys MP₂/p²。原两13行/raw F³/非单位μ均保，未判指定d₂。
 
 R699大p原首迹零iff vp≥2，准确等价 b_i+p b_(i+e)=0 modp²(i<e−1)、b_(e−1)=0 modp。全尾已付，真实sigma/LT窗口L=2p²−p−9；总2p−3个剩余域位，不是两中央。所得只付Q|B/同Y闭盘，原j0→全条件及高Q/同X仍缺。
+
+R703原ξ_v=ω4s χ(v)ζp^(sNv)，真正H Teichlift mod12恒等/Norm1modp²；Klein公共因子被c³=c^p=1定为1。原迹精确为norm-r圆上e_p(τ_m(v))A_m(v/p)之和（全局根单位），τ=m det((v^p²−v)/p,v)/2；换代表相位抵消不能丢。固定幅度DFT ℓ1≤C log²p、和的Parseval均付，最大和幂次节省未付。R704/R705查真实wild-character/原section，不套普通conic Weil。
