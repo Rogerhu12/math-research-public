@@ -167,3 +167,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 ### 高背景真 outer 的差已付，raw 基点必须独立补齐
 
 [B1–25](results/R133-supplement-high-background-true-regular-row-difference-and-good-height.md) 给M8212/H8197背景上的方向S≤8192外行差2^2097152D；完整H0/原source预合，真实phase、good-height、两mean与raw offshell运输均保。原Gδ对应固定physical good行，raw输出另有基点b_H Rδ,x；B25显式写C_raw，未暗中认原逆已有该列。紧接用原实际long背景付该known analytic运输列的低反馈和Q高窗，再与帽主体/独立高度背景/全部荷组合；极小球的actual residual入球仍独立。
+
+### long 外口已取得真实两层 tame
+
+[K1–23](results/R133-supplement-two-level-finite-Sobolev-true-long-DN-and-Poisson-tame.md) 对q≤8160、背景q+32≤8192，用完整zero-width全纯图与实平移协变核付Cq=2^(96q+16384)：DN/EB及真adjoint为A64·high+Aq·low；Poisson保sB ε及普通Dq。K21a将cap读出/方向单位写全，均值和aw(L)/165高度跨度不带ε。只要求低A64小，高Aq/Dq有限；后续网络若需低1856须明确另设门。下一将此与L低Γ/真实网络/三径jet联立，不把单个边界form逆称全mixed tame逆。

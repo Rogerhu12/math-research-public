@@ -111,3 +111,5 @@ root全文核A1–27，独立打开DLMF9.2/9.7的方程、四初值、Wronskian�
 2026-11-15 07:07:40 UTC，L低范数真实firstΓ独推（a1b0a2abb35600fff7ddfe3a2bff45abd3e0f47eb353bb7ee96cbab198f81148）：root全文及P原低阶门复核，phase独核L18–22 cutoff/GN/Faà/一次低Gronwall。高Dr不要求小；没有省全层mean/height或外行。fresh a8ab414eebd87e342d226136e691151da6da8963 两README未变，H同步；新数学为手推，无本机数值。
 
 2026-11-15 07:08:17 UTC，B外行差独推 b7661dd0…/22464B，root全读原篇及最终条件化diff，tail/phase窄核mean/Schur/finitejets/real-angle费用。发现并明确基点raw与good输出区别，B25不先占未证的基逆。fresh 9dc01afb868480521a7b8287a9c7d06365890150 两README未变，H/open同步。
+
+2026-11-15 07:09:19 UTC，K两层true-long结论独推 1aaa27fe9c4a5c340e7f573757a27bd963af3793b6e7cc20dce2acac124d671c；tail独核K6–18 Fourier核/one-high/adjoint及常数，phase独核K17–23 source/mean/能量并回读N/S。root全文核并将K21a源与归一读出明确化，physical chiR/高度两导/独立f*src均保。fresh c161c1504d5d84a0e970db39ff3a51889a4a126f 两README未变，H/open同步；无本机数值。
