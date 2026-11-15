@@ -20,6 +20,8 @@
 - 完整∞第二连接实际1.291280400秒，1088×595前缀秩578/582/582，全1088校正/5100自动零给β2=0、δ4354≥34/δ4353≥31。[有限零点23条left2jets](results/R150-appendix-zero-twenty-three-second-left-jets-factor80-and-cost8672.md)实际1.537155172秒同型全原校正成功，r1+r2≤4及r1≤4给s34；K80=s20K60、lc=5^6是31单位。当前q235…8627，原成员性前提下费8672（非基8671、目标8450）；不预称零点β2=0。
 - [九原模31⁶](results/R150-appendix-all-nine-original-mod31six-identities-cost1339.md)全成、费1339；不付Q[s]成员性、固定e无界精度或lc(D)单位。常数31饱和不付参数leading单位；旧mod31仿射gcd315也不自动提升char0。标准Koszul1632支撑交29、二次skew降次、LLL/闭包/单65521均已成，不重旧计算。
 
+- [精确曲线支撑阶加权引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)：active E_J经同一个单位右变换有列u^ell，所有j子式付最小j权和。既有29曲线只新增外一阶M1834×29；若真Qrank r、t2=29−r，则当前δ34/31下D≥63+t2、换/cof≥62/59+max(t2−1,0)。t2未算，不预填新阶；不重1603求解或七大Q，删列损失用wedge子式支付。
+
 ## 同w边界：继续原权及完整返回
 
 M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前缀、自然逆域；ordinary完整右λ、裸α、左μ不得互换。强尾并头C=A_m+E、h=d+R，Xi²=α²+flat²，ΣXi²≤2hβtail²；仍须μ²≤κXi²且κh/Q有界，κ=O(h)足，当前h²/Q→0。原始全公式、来源链及所有缺口见上方H快照。
