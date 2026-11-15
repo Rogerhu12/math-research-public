@@ -507,3 +507,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - **R799**：[原常数charge非零的全部三次强窗全素数排除](results/R799-original-all-cubic-nonzero-constant-charge-windows-excluded.md)。R792的r2/3/4,k0及同p/h关系联旧单位子式排全部大h；准确κ把有限部分压到三原九列系统，公开各rank9/aug10。因此q0非零的整个b=b0=3强窗不存在，覆盖所有允许ell/mq；此支必须b≥4，零常数支另保。
 
 - **R798**：[原B0半周期的完整两型与物理E深二阶来源](results/R798-original-halfperiod-two-types-and-e-depth-second-source.md)。全Q(ω)二挠点/CM13计算付原绝对PB：型五恰两arith，primitive3整条消去；型四恰三维X³+ω块。原E深Z²准确投到此块及三个指定负二值，实际向量和负二非零仍须另付；whole算子、原unit域和全中央补域保持。
+
+- **R802**：[移动因子真实返回、唯一一charge例外与接触核](results/R802-original-moving-factor-return-and-unique-one-charge-exception.md)。63格原L回W_b，h7²d最大角型严格无同charge标量返回，th7Y给最小+1；移动H全profile的一维接触核及真实下一单位行在准确B_(b+ε).C门下成立。新增charge、H全部系数、未知Δ/p与原同R完整carry保持。

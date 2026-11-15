@@ -1,0 +1,18 @@
+{
+  "kind": "rank2_actual_ci_git_pull",
+  "actual_git_pull_success": true,
+  "utc": "2026-11-15 17:14:40 UTC",
+  "head": "66d8e9d100ccac2e50a893557dae645d189d726e",
+  "last_rules_read": "abf0b529edcda0d85b8cc3d38b40bb392aaecccd",
+  "request_id": "rank2-20261115-after-r798-r799",
+  "readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/rank2-sha-infinitely-many-p/README.md": "965ab236bbd6753acb812b45fcc36ae9b6f83b3c"
+  },
+  "rules_changed": false,
+  "scope": "read-only sparse CI checkout; local workspace remains separate",
+  "workflow_run_id": 43739990281,
+  "job_id": 132890806259,
+  "job_conclusion": "failure_after_successful_pull_and_readme_comparison",
+  "inventory_error": "GitHub unauthenticated API rate limit (HTTP 403) after the actual pull receipt was emitted"
+}
