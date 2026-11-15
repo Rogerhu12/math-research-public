@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保66d37555cabd632dccf8fbd237af6221bdd2d7b2本路径及HANDOFF/log，递归31e2a9/5fd5/c820/81041a9e全部原档；仍逐项有效。
+本轮压缩前全部逐字前页/运行/域/源单位/恢复链保f01029cef7cfbbb83c5c94a67509328c7ec4e43e本路径及HANDOFF/log，递归656b/66d375/31e2/5fd5/c820/81041全部旧档；未付义务和成功禁重均继续有效。
 
 ## 1. 总验收与同一个对象
 
@@ -67,11 +67,9 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [IN首实际全τ scalar](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)8d27fee5：43746008734/1 child0/23门锁，exec81648388/SCI6c49494a/preGit15a81425与94球root核。m3>.9999986308459、24coeff/14运用/六receiver/五inhom已付；density0 H−1/density1 L2/extraD H−5/3、全mean及旧10receipt只读。完整身份/参数/域保656b本节/proof，physical/free四项转DR，incoming/fullR0仍待，大upper非障碍。
 [DR完整physical严格截面](results/R133-supplement-complete-strict-physical-Darboux-receiver.md)0e80f086已解析核：原P⊥/J/L/B/η−1按序，H−1→H−5/3→H−2/3→H−1再(I,Π)/ng/Tq；P22 actualwhole-row与独立两mean。freeR2/R3用新完整产品Cauchy φ4/rφ3，原H savedfreegap直接读，n^-m输入费一次。四完整贡献构成oldcircle CDar；actual新值未跑，严格normalizer/真circle/incoming/waistCE/fullR0仍待。
 
-[NF散度型非线性源与完整五输入接收](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882已解析独核：同νδ、Qbar=Qδ，N=∂φV−β(〈C_h〉h+〈S_h〉Qbar)，两mean不删。Π96∂φ只付384，wholeordinary值λ与真正Lipschitz分开；wholeC0/β,G,K域须实际付，不借右collar。
-固定Sδ的真97 residual以actual帽图在(γQδ,fB)求导，ΔB作用全hL+hH、baseaffine/非线性边界/mean全保。左腰U原96正交行、无α/第二ρ，b0δ=−UQδ(0)不预设0；W=ψUᵗb0与W−GδDδW给同F fixedcap三窗左Poisson解析费。
-因此xY≤gY(rδ+nδ)+pY qδ+aY yB+cY yC+wY||b0δ||，其中qδ保完整真cap差与N∂，a/c已含selected费不重复oldload。全high、真νphase/右高matching、wholeC0/独立H8193/边界Lipschitz及NG numerical门仍待；未跑新数值。
+[NF完整五输入](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882：同νδ/Qδ的N=∂φV−β(〈Ch〉h+〈Sh〉Qδ)保两mean，Π96导数384；wholeC0/β,G,K与Lipschitz均独立。固定Sδ真97残差/全hL+hH、非零affine/mean及a,c的selected费准确一次；xY≤gY(r+n)+pYq+aYyB+cYyC+wY||b0||。原96腰/ψlift/true dr、全high/phase/wholeC0/H8193/NG所有条件逐字保f010本节/proof；不借右collar。腰norm见WA，实际新第五列仍待。
 
-[WA原96腰行](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab：raw96odd/√2、baseα一次/Z不α，exact A/B/D及uniformmax=A+d|B|+d²D。SCI098ae596/worker41a8b811/manifest3cf007a2/flow7a614d39 root核后部署；11pins2918702B/4AST/13门，旧5e14 index+part000临时恢复作新65bitwise门，原Z193/两e0成功身份只读。四d只known族不扩PDE/metric；唯一43747940791/1在跑，NFell0/第五列仍独立。
+[WA合同](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab与[实际腰输入](results/R133-supplement-actual-exact-selected-waist-data-and-original96-rows.md)e81087a2：唯一43747940791/1 child0/13门/11pins/4AST成功锁；execae7c3b79、SCI91a93919/preGite3411257与完整33字段root准确复原。新base65位端值身份过，Z193/两zero-repair只读。raw96/√2且baseα一次/Z不α；exact A/B/D、四uniform端max全保。d1e−10完整norm<8.923e−26，base/Z两exactzero标志false；不删腰源、不扩PDE域。NFell0/CPA第五列/实际解仍独立待。
 
 ## 4. 实际帽图与完整core接口
 
