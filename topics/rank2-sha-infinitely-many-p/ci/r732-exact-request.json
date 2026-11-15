@@ -1,10 +1,13 @@
 {
-  "request_id": "rank2-r799-original-b3-r3-r4-20261115170149",
+  "request_id": "rank2-r798-whole-halfperiod-type4-20261115",
+  "python_flint_version": "0.9.0",
   "checks": [
     {
       "engine": "python3",
-      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r799-original-b3-remaining-windows.py",
-      "args": [],
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r798-type-four-halfperiod-and-cm13.py",
+      "args": [
+        "--workers=4"
+      ],
       "include_stdout": true
     }
   ]
