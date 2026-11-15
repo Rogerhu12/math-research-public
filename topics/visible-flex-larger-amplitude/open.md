@@ -115,3 +115,7 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 ### 2026-11-15 request126：从真125末点连续原九控制批次
 
 [接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)已付：只接R284原九p，最多8批，每批独立原8×20/12×20、.1半径reset、全部FD/Arb/圆及原停止门；wrapper b15a6571保持真status→原reader→自有recipe，compute逐batch完整原组/report紧凑链，3600s仅批间预算。84科学/2支持pin及own26闭包不改原family/search/reader。尚无126结果，完成后读全部原方向与真实末点继续，不把8批/时间预算当课题终点；仍待九非零完整场及真正fixed-g450/闭面标准。
+
+### 2026-11-15 九标量全部冻结的真正450入口
+
+[完整接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)及070b9b35/1610d6fb源已付：只消费真00e4完整接受场/自身真450，不将搜索点当父；冻结全部九个实际末系数及两个原有限求值路径，保原338物理+全部112自由core，空target使左338右112。新网格为父节点/中点/全literal knots，按最终固定scalar fresh RHS，显式节点预算；原native全J/FD/同owner全DN/finalaudit完整。未选未来场/参数/λ/run，未有实际450结果。后续显式接新SavedPrefix/closed身份，不冒旧v3/v4。126真实run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/job132766891270，09:27:51创建，计算仍在进行。

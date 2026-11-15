@@ -34,3 +34,5 @@
 - [R285. 原48层有限选择器的完整闭区间覆盖与连续目标边界](results/R285-original-finite-selector-closed-cover.md)（已证明，确定性有限算法条件定理）：原first-match及严格比较以准确开闭半径子域归纳覆盖全部48层，不假设数值profile单调或真逆；完整栈/后缀使资源partial不冒全界。有限实比较延拓取值有限，连通区间非恒定即非连续。source65a29ec6调用原工厂并只用原flat源码捷径；无实际E界/run，未付a601的原连续g责任。
 
 - [request126：actual125末点连续原九控制临时批次接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)：独立原8方向×最多8批，完整原reader按batch保留，真status传自有recipe；入口已付，实际结果和非零完整场另付。
+
+- [九系数全部冻结的真正450维同度量重构与完整DN入口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)：070b9b35/1610d6fb，保全九末系数及两个原有限求值路径，K=k=0、338+112=450，真实父网格二分+全knots；源码/输入输出合同已付，实际接受场、闭面及连续证书另付。

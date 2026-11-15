@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:28:34 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a。
+规则同步记录：2026-11-15 09:28:51 UTC root因终端服务不可用按根第8条以GitHub集成读取main d9c4795a140a6815253f079eaf7936ac096a92ad；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d9c4795a140a6815253f079eaf7936ac096a92ad。此为集成读取，不冒git pull；真实周期pull仍由Actions规则runner执行。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -28,9 +28,9 @@ M112/T112/N2048、699节点、453态/236036free，前三core固定、scalar.99/c
 
 [125实际](results/R284-actual125-nine-control-eight-further-acceptances.md)run43698258576/source36f7152b0b32072dd938f22e67d4d861484b266a/compute132763479304/report132763765544均success。8接受/17外trial，W431.4178353348037→279.12365756925647，末unit首项−23.62725559552975、末radius.0125，全unit/full112/native/success仍false。起末九FD/新Arb1178叶0未解/原453零圆/全部17行已读，dir7全步inner tol=false仍原Armijo接受；零eta辅助是反事实evaluate而非当前点/旧J，实际25数组相同。primary63133/53a0186f、status1883163/688d64e2、8组完整view118379/56c7fef0均核，原临时raw已删。末九p只取正文原值。
 
-[126入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)已发布：真125末九p→最多8个独立原批次，各.1 reset/原8×20/12×20及全部final。wrapper b15a6571、request7825a472、84+2pin/own26；family0865/search824c/readerf57原封。真status+原reader全组核后传ownrecipe，compute按batch原文框定、report紧凑链；3600s只批间界、75step90job。规则完整回执清理前消费，不称原日志含完整JSON。真实run待取；原非零场/最终门仍false。
+[126入口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)已发布：真125末九p→最多8个独立原批次，各.1 reset/原8×20/12×20及全部final。wrapper b15a6571、request7825a472、84+2pin/own26；family0865/search824c/readerf57原封。真status+原reader全组核后传ownrecipe，compute按batch原文框定、report紧凑链；3600s只批间界、75step90job。规则完整回执清理前消费，不称原日志含完整JSON。run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/job132766891270，09:27:51创建、当前step7；实际结果未读，非零场/最终门仍false。
 
-[九full112源](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)00e4d2c3已发布f18f4740，固定6shape/3active仍453，真实H全J→原FD→同owner fullDN/finalaudit；无九参数正λ场。exact正接真正same-g全部9冻结、K=k=0/450、左338右112重构，保00e4先shape后even的有限路径；旧v3/v4不能丢shape改标签，未选未来parent。
+[九full112源](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)00e4d2c3/f18f4740保6shape/3active453及真实H全J→原FD→同owner fullDN/finalaudit，无九正λ场。[九冻结450](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b9b35/1610d6fb已发布：全九末系数、点/批两原有限路径，K=k=0左338右112，原物理338+全部自由core112。只接真00e4接受父或自身真450，保父词后fresh RHS/二分+全knots，max_nodes必填；完整原求解门不减。未选未来父/run；exact接独立SavedPrefix/闭面消费者。
 
 ### 120首实际H拒绝→124同worker完整H(s)
 

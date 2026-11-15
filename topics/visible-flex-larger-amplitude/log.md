@@ -247,3 +247,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 request126 原批次续接入口
 
 发布[接口](notes/2026-11-15-actual125-nine-control-temporary-batches126-interface.md)及5份源/配方/request/workflow：wrapper43812B/b15a6571、recipe2289B/4dd8745b、request41012B/7825a472、workflow18133B/f54989d2。从实际125末点连续最多8个原九控制批次，独立原步长/域/FD/Arb/圆/完整读取责任全部保留；终止/预算只为本运行状态，无未来成功声明。`.github/workflows/visible-larger-public-nine-control-batches.yml`为本公开仓库Actions入口同步来源pin与逐批完整原reader输出。root只小文本/metadata，未本地运行科学代码；每次发布新main父+两README复核，拒绝立即重读重接非force。
+
+### 2026-11-15 全九冻结450源码与126实际启动
+
+发布[九冻结同度量完整接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)和两独立源：profile22140B/070b9b35、full11240951B/1610d6fb；root完整读源及18561B接口，保原完整求解函数体/两有限scalar路径/实际未来parent合同，未本地执行科学或新增fixture门。真正K=k=0、338+112=450，原九系数冻结标量与空active严格分开，显式二分+knots/预算责任不删。尚无接受父、参数/λ/运行选择或科学结论。126已实际由push触发run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a、compute132766891270；09:27:51创建，当前原source restoration，完成后读实际全部批次继续。
