@@ -121,3 +121,5 @@
 - [R190：完整权+2商消失与剩余偶权](results/R190-complete-weight-plus2-quotient-vanishes-and-remaining-even-weights.md) — 真实水平路径把N缩放差模W压成常势，原N0(1,1,1)=0支付基点常数；N2高于0、N0高于1的真权落W。完整v2/v4上界与八矩方向给正几何层+2入R，R115静态与同Γ/14族IBP合得U2=R2、H2=0。R105完整分子恢复递推得U权⊂[-9,3]；结合偶性与R188只余−8/−6/−4/0，尚无全锥或实际可达结论。
 
 - [R191：共同常值平台二阶gauge的完整ruling不可见性](results/R191-constant-platform-second-gauges-are-invisible-to-fourth-ruling-quotient.md) — 保非零平台值、真实右尾与全s历史，原D恢复分子在平台准确仿射，交叉恢复真紧支撑；完整Bθw canonical为0，其他合法共同入值仅改三矩W。hook周期与六交叉矩亦0，二阶平方/交叉由R47第三单φ右逆支付。因此这整个无限维平台核不能扩大R184 joint商像；不延至f常/g变区，不授第四解。
+
+- [R192：权零协变乘子与完整一阶action](results/R192-weight-zero-character-multiplier-and-first-order-action.md) — 完整势谱比较给L4只两真查询a p′²+c p⁴，保(hk−1)τ1常项。真权零字符有协变μ iff d_p1=0；正字符必满足，同八参考态给μ=(0,2α,2β,0,0,0,0,8α)，α是乘子选择、非自动新增head坐标。反射仿射involution准确处理非唯一μ，完整二变量action保磁项b1p k′及所有低层；任意有限开路径对应成立，最高层iff a,c≥0。下一完整H0仅≤16新收缩并复用旧投影，先付原函数核与D，不预报维数或正性。
