@@ -1,0 +1,77 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "original-global-projection-localized-small-error-inspection",
+  "executionSourceCommit": "f9e8ea13f0b348c086cc665efddcec32bb7cc645",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-localized-row-module-small-error-inspection-789f.py",
+  "scriptSHA256": "2aec4eefded6dfea6c62f500db2a522cf71c2d572ac7dc11f11a2d6d613d3f5c",
+  "argvTemplate": [
+    "--receipt",
+    "{work}/original-global-projection-localized-row-module/localized-row-module-dag-receipt.json",
+    "--out",
+    "{work}/original-global-projection-localized-small-error-inspection-receipt.json"
+  ],
+  "timeoutSeconds": 30,
+  "exitCode": 0,
+  "wallSeconds": 0.06382281900005182,
+  "fullTemporaryReceiptBytes": 803,
+  "fullTemporaryReceiptSHA256": "250f2e9372bd0e67ac26a5b51b9be0c960707512b9ce265f73a15d827579ca1a",
+  "result": {
+    "elapsedSeconds": 8.440399960818468e-05,
+    "format": "r150-localized-row-module-small-error-inspection-v1",
+    "originalErrorMessage": "",
+    "originalErrorType": "MemoryError",
+    "originalStatus": "failed",
+    "status": "completed",
+    "parameters": {
+      "checkpointManifest": {
+        "bytes": 1364,
+        "sha256": "92960aa94bb894b756d384162ed7381d27f0ef10754581006b414d34d43d7dfb"
+      },
+      "largeCandidateStateRead": false,
+      "newMatrixOperations": false,
+      "originalBinding": "7c3aded0ec336814fa62f0a475ca47f0abda4a896b3275825f918cfb7468014a",
+      "originalElapsedSeconds": 497.7846026500001,
+      "originalError": {
+        "message": "",
+        "type": "MemoryError"
+      },
+      "receiptBytes": 2301,
+      "receiptSHA256": "b947eb34c7b9b8507689fa9d6560b30fe58268341e65b9be66eafbd21d99d1c0"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 21:21:41 UTC",
+      "beforeReadCommit": "d8a5f6d3232e1a580a0e309c8f443120b4c54d76",
+      "originMainAfterPull": "f9e8ea13f0b348c086cc665efddcec32bb7cc645",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 21:21:42 UTC",
+      "beforeReadCommit": "f9e8ea13f0b348c086cc665efddcec32bb7cc645",
+      "originMainAfterPull": "f9e8ea13f0b348c086cc665efddcec32bb7cc645",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 56,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 19209,
+    "logicalJsonSHA256": "8fdda960efefb46400d8ef9c2920f0919b1e25fcce59004a882a4f49901de4a6",
+    "itemCount": 56
+  },
+  "lastRulesReadCommit": "f9e8ea13f0b348c086cc665efddcec32bb7cc645",
+  "summaryExcludesRecomputableArraysOnly": false
+}
