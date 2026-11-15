@@ -114,6 +114,8 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 
 [R311实际139完整结果](results/R311-actual139-complete-continuous-C-domain-and-unpaid-resolution.md)已付全1440/六primitive/深尾/finite-protected与唯一whole-natural闭域；真实Rout−binarycut严格正。完整head先1552.8056291300002s完成，1800.8219652040002s停止属inverse-query B追加积分，保2900合法粗query片/1integral pending且无源/query未访后缀。domaintrue/resolutionfalse分列；E全域display不冒同场1e−6，原dyadic/四大账/真实callback与清理范围见正文。144同f12f/三输入/全六primitive/原256bit1800s先binarycut点后whole，在Actions完整读叶三jet；v3消费者另立身份，有限头DN与非线性仍未付。
 
+[144独立cut两jet完整入口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)已全文审读后发布：原f12f/256bit/1800s/所有1440片/六primitive/全部根族保持，原config binary0.3点query先、原whole-natural第二。新reader1c39b242从同job全点叶准确dyadic端点并包E/Er/Err、全宽及全流SHA，合法粗界保留，原E工作宽度不冒导数宽度门；query4e59c69f/requestdcd4a892/wf209794c4。两个各≤90KB摘要分别完整读回，工程/partial/数值责任分开，原ownedraw末always清，无预填run成功；旧v2新g源已找回但必须独立v3适配。
+
 ## 5. 存储和原件维护
 
 104普通删除8184件已知可重算数据后课题168796207B，未知JSON未全分类，不声称全存储责任完成；不重存旧raw。新文件仅完整源码/参数/紧凑结论，H<10000B、各MD<100KB。旧results索引97869B原文同目录移到results-index-through-actual120.md，保全部相对链接。源码、模型接口和已出版证明不设额外review/fixture审批；真实科学一完成就读原输出、写结论并继续open。

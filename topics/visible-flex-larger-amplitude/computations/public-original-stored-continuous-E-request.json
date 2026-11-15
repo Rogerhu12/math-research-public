@@ -1,6 +1,6 @@
 {
   "schema": "public-original-stored-continuous-E-request-v1",
-  "request_number": 139,
+  "request_number": 144,
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "storedcontinuousE"
@@ -16,9 +16,10 @@
     "exact_20261114_closed_background.mjs": "be358bf780c88ebd85cdf07d9e8d2cc3b37ca20a4d8ea3a1ba69e7c40c2c4e1b",
     "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
     "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
-    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde"
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_stored_C_v3_cut_twojet_readout.py": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed"
   },
-  "source_count": 10,
+  "source_count": 11,
   "original_formula_source_sha256": {
     "runtime:tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
     "runtime:strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
@@ -64,9 +65,9 @@
     }
   },
   "query_recipe": {
-    "file": "topics/visible-flex-larger-amplitude/computations/original-stored-continuous-E132-queries.json",
-    "bytes": 782,
-    "sha256": "4fa2baa15518ee5045d4a21305ff3f727ef594f966e8a95f9bc6f89eaac3b979"
+    "file": "topics/visible-flex-larger-amplitude/computations/original-stored-continuous-E144-queries.json",
+    "bytes": 1303,
+    "sha256": "4e59c69fae54045e100180e2d7576b848423a503394ff0b4dd87f6e219b7fd59"
   },
   "reviewed_README_blobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
@@ -111,7 +112,11 @@
     "original_finite_output_relabelled": false,
     "R26_numerical_certificate_used": false,
     "actual_accepted_field_supplied": false,
-    "no_original_metric_threshold_or_acceptance_gate_added": true
+    "no_original_metric_threshold_or_acceptance_gate_added": true,
+    "original_config_binary_cut_is_first_point_query": true,
+    "original_whole_natural_domain_is_second_query": true,
+    "actual_complete_cut_leaf_twojet_readout_required": true,
+    "derivative_width_not_an_additional_acceptance_test": true
   },
   "execution": {
     "python": "3.12.14",
@@ -120,7 +125,8 @@
     "job_timeout_minutes": 65,
     "rules_sync_period_seconds": 2700,
     "declared_work_budget_is_partial_scope_not_mathematical_failure": true,
-    "numerical_child_has_no_GitHub_token": true
+    "numerical_child_has_no_GitHub_token": true,
+    "cut_twojet_readout_step_timeout_minutes": 10
   },
   "retention": {
     "raw_temporary_only": true,
@@ -129,7 +135,8 @@
     "publish_raw_to_git": false,
     "complete_result_and_query_metadata_in_bounded_stdout": true,
     "temporary_ledgers_and_original_inputs_readout_then_always_removed": true,
-    "retain_only_script_parameters_run_hash_and_compact_conclusion": true
+    "retain_only_script_parameters_run_hash_and_compact_conclusion": true,
+    "cut_twojet_exact_readout_is_separate_bounded_stdout_block": true
   },
   "evaluation_strategy": {
     "schema": "R306-complete-cap-endpoint-and-supported-budget-six-integral-strategy-v3",
@@ -186,14 +193,33 @@
     "incomplete_head_prefix_has_separate_identity_not_natural_Rout": true
   },
   "preceding_actual_execution": {
-    "request_number": 136,
-    "run_id": "43707070768",
-    "source_commit": "c1178bd2e17383a5a0f6bed1ec8fe1896704a528",
-    "compute_job_id": "132790329190",
-    "result_sha256": "745d601a05a4bb429c0345a1c4f42929aec172fdf975b8ff9555330336b48904",
-    "scalar_summary_sha256": "26794a89d0404632f7c231bc810856dc0e542a18eec9d5b7cf32ce783618dd2e",
-    "role": "Actual incomplete cap-callback run motivates complete-w endpoint identities and precise resource transport; no prior numerical ledger or field is an input",
-    "preserved_physical_inputs_query_and_budgets": true,
+    "request_number": 139,
+    "run_id": "43710988676",
+    "source_commit": "431ec67492ab99b63b42a9a1d962bea0a2cdaf0b",
+    "compute_job_id": "132802263809",
+    "result_sha256": "74ecaa93eed9f3ec0f78edb777f858e5b13fbdad916551ca116a976de5ad9c38",
+    "scalar_summary_sha256": "8ed43445ca84981899c68da46615e9a3781ce4b327e0116faab44dd6bedf7cb3",
+    "role": "Actual full1440/six-primitive and whole-domain completion motivates an explicitly first original-cut point query and complete-leaf twojet readout; no prior numerical ledger is an input",
+    "preserved_physical_inputs_and_budgets": true,
+    "original_whole_natural_query_retained": true,
+    "point_query_order_change_explicit": true,
     "current_run_result_or_success_predeclared": false
+  },
+  "cut_twojet_readout": {
+    "file": "geometry_20261115_stored_C_v3_cut_twojet_readout.py",
+    "bytes": 19023,
+    "sha256": "1c39b242224824b361cbe5d28ea838b7e4824f5506a05302c662f045f735aeed",
+    "schema": "R286-v3-original-binary-cut-complete-twojet-hull-v1",
+    "point_query_id": "original-binary-config-cut-point",
+    "complete_original_leaf_stream_hashed": true,
+    "all_point_leaves_E_Er_Err_exact_dyadic_hull": true,
+    "new_readout_arithmetic_is_Actions_only": true,
+    "original_domain_bounds_cross_checked": true,
+    "no_new_integral_or_ODE_or_J": true,
+    "original_E_only_work_goal_unchanged": true,
+    "no_derivative_width_gate": true,
+    "partial_source_or_point_returns_null_jet": true,
+    "summary_independent_of_original_scalar_block": true,
+    "scalar_summary_limit_bytes": 90000
   }
 }

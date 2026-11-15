@@ -480,3 +480,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R319实际128完整拒绝范围与规则中断
 
 [R319](results/R319-actual128-nine-height-refusals-and-rule-interruption.md)17981B/449b886e直接原文完成即推：zero原norm0，6正s×10trial全首段D/S/A拒，withJ基点已返；第8 s1/4096未返即真实README变化SIGTERM/runner77，8124.568825915s且预算未尽。两job摘要33756B/aa9f9c0f逐字同，原60trial与warm/cache/source完整读回，未补数学结果/FD/fullDN；145保124六p另改当前全系统QR校正。根8故障期间小文本快进，API核规则不冒pull。
+
+## 2026-11-15 /root — 144原binarycut全叶两jet实际入口
+
+[144接口](notes/2026-11-15-request144-original-binary-cut-twojet-interface.md)17958B/8aaee639与四运行件全文读，10原源/3证明SHA核同；同f12f/256bit/1800s/全部1440六primitive，query4e59c69f原binarycut点先、whole后，新1c39b242全点叶准确并包三jet。requestdcd4a892/wf209794c4保原45/65min与2700s真pull，两个独立≤90KB摘要/末ownedcleanup，无导数宽门、无raw归档/本地science，直接本库Actions。终端仍不可用依根8小文本快进；旧新g三源原字恢复仍v2、后继显式v3。

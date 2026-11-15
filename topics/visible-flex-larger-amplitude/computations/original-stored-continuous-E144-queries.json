@@ -1,0 +1,26 @@
+{
+  "schema": "R286-original-stored-convention-C-closed-queries-v1",
+  "config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+  "calibration_ledger_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+  "stored_reference_sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+  "queries": [
+    {
+      "id": "original-binary-config-cut-point",
+      "kind": "closed-rational-radius-interval",
+      "left": 0.3,
+      "right": 0.3,
+      "left_closed": true,
+      "right_closed": true
+    },
+    {
+      "id": "whole-original-source-natural-continuous-domain",
+      "kind": "whole-natural-domain",
+      "left_closed": true,
+      "right_closed": true
+    }
+  ],
+  "interpretation": "Explicit R286 convention C, every admissible original exact deep-root sequence; first the exact binary64 config.rCut point, then the unchanged whole natural domain; natural R_out is computed and never replaced by the nominal cut",
+  "actual_accepted_field_supplied": false,
+  "original_finite_selector_certified": false,
+  "original_cut_endpoint_semantics": "The JSON numeric token 0.3 is parsed as the original config binary64 word and checked bitwise against that exact config before science; it is not the exact decimal rational 3/10"
+}
