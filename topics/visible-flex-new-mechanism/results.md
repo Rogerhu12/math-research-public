@@ -389,3 +389,5 @@
 - [R177：九真式之后显式全层严格正的有理外点](results/R177-explicit-all-layer-positive-point-after-nine-original-relations.md) — 在R174十二参数中取staticα=β1/4，二次(1,1/4,0,1,1)，最高(a,b,f,g,ℓ)=(1,1/4,−1/8,0,1)。完整23 y满足九新式与旧B/R168，原70关系按已发生成证书支付；静态≥h^-2/4、二次三平方、最高R175 M=diag(1/16,11/48)及纯h正平方给全部真实平端action≥∫h^-2/4>0。全14族与同μ=(0,1/2,2,0,0,0,0,2)明确，指定点86行公开核对待回执；真实原函数完整核仍未付，不再为此点追负路径/LP。
 
 - [R178：固定颜色优先级的局部唯一IBP与终止word映射](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md) — 在固定正profile多次数中，最高存在颜色的最高jet线性项逐级分部积分，得唯一f=DB+R；右平collar令B(r)=0。完整shuffle及对偶序(word长、该颜色jet)使共同word映射有限终止，保全部颜色/右锚。直接Φ与复用旧R151 pure代表的Ψ分别sound，不混称同一映射；仅零代表授原恒等，非零不授真实独立。下一仅消费77字面基及必要新balanced，复用旧40/31/J/D0，不重70原依赖或升孤立rank。
+
+- [自适应谱恢复三次接纳与已选曲率边界](notes/adaptive-spectral-metric-recovery-first-actual-result-20261115.md) — actual43671924759/source67319aea同g/b0/163，m1/5/6使η.266932648992→.266553335836、κ57.999985928，全部原门过但.26未到。m5/6真实预测比.978/.832；末两细κ越数e−6，最紧已选group8且遗漏硬行0。9LP/20值/活动73.907s，因旧最小trust退出；唯一SOC95072迭代限时无primal，不是不可行。完整a9eda状态/4402、3489池/raw5406057B保留，下一明确曲率提案内余量，原真实门/预算保持。
