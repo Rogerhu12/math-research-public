@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 10:31:58 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 6a4f06d254de923b993d15a2fc11768cbb9080ef；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6a4f06d254de923b993d15a2fc11768cbb9080ef。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 10:34:09 UTC root终端已恢复，真实 git pull --rebase origin main 后读main c076dc093fbcd7706336ee519466e3ccf4d22d1a；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c076dc093fbcd7706336ee519466e3ccf4d22d1a。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；所有科学计算/科学模块导入/数值测试只本库Actions。本地仅源/证明编辑、原输出选择/JSON重建、语法/metadata/hash/Git。PAT只CLI瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -32,9 +32,9 @@ root唯一Git/pull/push及workflow发布者；部分克隆/tmp/visible-larger-ro
 
 [124入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)run43698138088/sourceb1df8ec306e596256a317df925464af6acaa31c6/job132763110680，09:12:48起science。真119第3六p/λ=.001；原120首全H在D/S/A拒绝不证无解。e830/557f、103pins/四输入/两ready/78源；同worker真zero→H(s)，首1/64、成功×2上限1/4、绑定数学拒绝/2，2^-20/64calls/300min仅partial。s1取原H_*全词求全J→FD/fullDN/finalaudit；未知IPC/record不缩步，不由首zero冒实际目标为零。
 
-[113 R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)run43688981685：原stop128完整base→alpha1下降，refined未降，均未达2e−9；半步7200秒partial/norm空，随后原64十档全拒iteration0，无finalJ/audit。实际6943RK子步/1freshJ/1R273，raw清。exact实现持久128全状态/残差和原root策略，64 J只作明确近似chord；原32×10真实128接受、fresh replay/变分及cut/far/敏感度最终审计仍须实际付。
+[113 R288](results/R288-actual113-complete128-policy-dependent-descent-and-original64-rejection.md)原stop128全步下降而refined未降，均未达2e−9；原64十档全拒，无final审计。[133独立入口](notes/2026-11-15-request133-persistent128-execution-interface.md)已发：CPP7789007e/launcher767a4c4b/bridge2657ddee/probe2683e8e1，37pins/真91+两ready+78源。fresh64全J/R273只作固定chord，持久128当前全残差/全226、原32×10严格σ范数，状态不折64；4threads/18000s含1200独立replay，guard18330s/330science350job。requestfff42780/wfbe43ebdf；matched-trace none/列0，末replay不冒338×112/finalJ/fullDN/audit，所有未付flags保false。全事件先输出，90KB不完整70；待真实run。
 
-[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[122](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59起、最近step14science。33pins+实际91/两ready/78源，fresh全J/R273→唯一packet→α0双policy共7200s/首≤3600；sentinel受控停非native接受，原10trial/finalJ/audit未执行，不冒全224J/IEEE导数。完成后读原日志继续。
+[R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)/[122](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59起science。33pins+真91/两ready/78源，fresh全J/R273→唯一packet→α0双policy7200s；sentinel受控停止非native接受，原10trial/finalJ/audit未执行，不冒全224J/IEEE导数。
 
 ## 真实原场查询继续
 

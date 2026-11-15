@@ -48,7 +48,9 @@ s=1使用原H_*全部binary词并直接求完整J，随后原FD、同live owner�
 
 [R283](results/R283-finite-root-trace-differentiation-with-literal-tables.md)和[JVP源](notes/2026-11-15-native-finite-root-trace-direction-implementation-interface.md)给实际有限root每步F/C、Cholesky、代回和226态RK固定分支变分，保C独立于F_e，不省近似solve的残差导数；不证明IEEE光滑、分支稳定或全224列J。[122实际入口](notes/2026-11-15-request122-fresh-direction-finite-trace-interface.md)由实际91原现场fresh全J/R273产生唯一packet，α0两policy实验，总7200s/首≤3600s；随后精确sentinel受控停止，原十trial/finalJ/audit未执行。run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59创建，当前step14。procedure成功、科学完成和native接受须分开，等待原日志。
 
-[高精度后继缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)仍须持久owner、匹配全残差/J和独立实际cut/敏感度/audit；113下降不能直接作为完整native门。实际103已不支持反复相邻±ULP建议，原J/R273仿射小残差亦不保证nonlinear十档接受。
+[高精度后继缺口](notes/2026-11-15-native128-state-variational-and-final-audit-gaps.md)仍须匹配全残差/J和独立实际cut/敏感度/audit；113下降不能直接作为完整native门。
+
+[133持久128实际接线](notes/2026-11-15-request133-persistent128-execution-interface.md)及[完整数学接口](notes/2026-11-15-native-persistent128-original-stop-chord-interface.md)现已发布：独立CPP7789007e/launcher767a4c4b/bridge2657ddee/probe2683e8e1，旧33pin原值+新4=37；真91失败BASE、两ready和78源全部重新恢复。首fresh64全576J/R273只作固定近似chord；当前完整128残差形成全部R273行/节点惩罚，方向sigma128×lift(z64)，状态、残差、226输出持久不折64。原stop30×20/32方向×10档/严格σ范数全保留，异常前已有行保全，原事件在consumer前输出。4threads/18000秒含binding/编译及1200秒末独立fresh replay，guard18330秒，330science350job；原32×10不保证单job全付。request15507B/fff42780、workflow21177B/be43ebdf；显式matched-trace none/columns0，末replay只核完整射击/226词，不冒full224J、338×112端点或原物理audit。90KB删字段fallback必须不完整/exit70；原64受控sentinel不冒数学失败。raw消费清理后后继须从91重算有序前缀，不由SHA伪恢复，实际run随后登记。实际103已不支持反复相邻±ULP建议，原J/R273仿射小残差亦不保证nonlinear十档接受。
 
 ### 2C. 原场midpoint471的实际模型
 

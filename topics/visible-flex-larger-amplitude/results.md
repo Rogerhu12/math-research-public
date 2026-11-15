@@ -82,3 +82,7 @@
 ## R293 — actual132 连续 E 面板预算与未付整域
 
 [R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)：482.799843329s/200000panel，1378/1440片；cell6/seg1部分与[1379,1440)后缀全部保责任，整query E/Rout空。真实深端包围不冒完整同场metric；原摘要/result/query逐字身份已核，raw清理后按源重做。
+
+## 持久128原stop迭代：Request133独立源码及执行
+
+[数学接口](notes/2026-11-15-native-persistent128-original-stop-chord-interface.md)与[133执行](notes/2026-11-15-request133-persistent128-execution-interface.md)：固定fresh64 chord/当前全128残差/持久状态/原32×10和独立末replay。完整37来源、明确18000/1200资源与全部未付endpoint/audit责任；源不是实际native结果。

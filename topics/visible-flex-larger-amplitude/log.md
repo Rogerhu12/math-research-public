@@ -335,3 +335,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 — actual132 原输出结清为 R293，134已启动
 
 [R293](results/R293-actual132-continuous-E-panel-budget-and-unpaid-whole-domain.md)记录公开run43702946191/source185e4f3eb798fbca5fabab8ca928741cb4cd6446的完整可用原输出。实际science482.79984332900005s用尽200000panel，仅1378/1440片，首未付piece1378/cell6/segment1；31panel+source后缀+wholequery未付，E/Rout空，非数学失败也非全域证书。原result5992B/query608B/producer摘要6125B/compute-report摘要8716B逐字重建/核原SHA；原大ledger仅Actions完整消费后清，保准确可读取范围，无本地科学。R295及134已推19911f56968ad3581636e77d240c4d5e9064645f，run43704292938/job132781953477于10:29:11起science。继续处理真实积分瓶颈及133持久128接线。
+
+## 2026-11-15 — Request133持久128状态完整接线发布
+
+独立四源7789007e/767a4c4b/2657ddee/2683e8e1及完整数学接口发布；[执行合同](notes/2026-11-15-request133-persistent128-execution-interface.md)绑定request15507B/fff42780和workflow21177B/be43ebdf。旧122全部33pin保持+新4，总37，真91失败BASE+两ready+78源重新恢复，fresh64 J/R273→固定chord，当前128全残差和真正持久128状态逐原32×10试步。4线程、18000秒含1200秒末独立fresh replay；matched-trace none/columns0，fullDN/338×112/物理审计不预付。最终diff明确O3及caller-owned evaluation/外层异常scope，不冒只加observer；每条owner先输出和90KB不完整70。root完整读源差异/接口/接线并做12 shell+6内嵌Python语法，无本地science或额外门，推送触发本公开库实际run。
