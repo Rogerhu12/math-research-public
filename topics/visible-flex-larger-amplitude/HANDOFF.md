@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 23:15:53 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b77807061ada16be6b9dc3e07c0fae438a227557。
+规则同步记录：2026-11-15 23:16:49 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ff7d6a8f7f6e84a483fdc8c95d0f29a56dfce8d3。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -22,8 +22,8 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 |---|---|---|
 |187/R396|43759238493 /6a272aae6a3a0ac864bb2c5769bcf78a6a2312c8|exact：R396全112far完成后数值代表失败/453未起/已清；R419/197修相关代表|
 |186/R397|43760800088 /3fe28c27e48eb39f35259578c4daf0a92cc3d33b|amplitude：compute132954941845原science；64pins/真父重生/完整576×224四组件|
-|194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：R410已核61接受/2400秒partial/末FD与Arb453未起/已清，198已发布入口/root唯一R421待run|
-|198/R421|发布后立即查官方run/source并绑定|root唯一：真194十词fresh、121+17pins/原2400全链；尚无结果|
+|194/R410|43767916582 /efdafe38a05abd8f2885231e592bf197cfe86c52|root：R410已核61接受/2400秒partial/末FD与Arb453未起/已清，198已入原science8/root唯一R421|
+|198/R421|43773780174 /4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040|root：compute132995301108已入step8原science；121+17pins/真实194十词fresh/原2400全链|
 |190/R403|43762998688 /ef56f16ff3ca573fec8982754fe9d5256748317e|amplitude：R403真128接受/replay同；stage编译未起、audit575/576、已清；199薄修|
 |191/R404|43766271165 /7891ee252147194137c2a933b6407a7c2c0ac19f|exact：compute132971948907已入step7原science；真98/39/10819/461自由，103+worker104/八批FD|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入原完整C重建；真十族453→同十词450、共用原7200总钟|

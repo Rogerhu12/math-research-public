@@ -645,3 +645,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 23:14 UTC /root — request198真实返回参数独立续算
 
 [198完整入口](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)七件全文/完整diff核后发布：实际194双路径返回的554B/9732bd60十词逐字作为fresh初猜，父61接受/partial和initial60FD齐、末60/Arb/453未起明确；不继承J/FD/接受状态。旧120+15 pins逐值保→121+17，消费闭包50→51；两段核心续算函数逐字同，原固定actual157 S/半径1、16×8方向/20α/3×20法向、2400总钟及全部120FD/Arb/453消费者不改。单90KB保所有原地址/计数/错误/未访，原静止与完整读回后清理保；无新科学门或本地执行，root唯一R421待真实结果。 root核全部新增正文/旧新完整diff，原request全部数值policy/input/runtime/resource对象逐值同；核心函数及真实十词另作纯文本核对，H前文逐字归档、open§4–6同。
+
+
+## 2026-11-15 23:16 UTC /root — request198公开运行绑定
+
+官方run43773780174于23:15:06Z创建，source4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040、compute132995301108已完成121+17 pins/四输入和原78源恢复，进入step8原2400秒science；root唯一R421终态，不读取运行中日志或预填科学接受。 完整七件已推4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040；每次实际pull核双README并记H，原全部科学/读回/清理门不变。
