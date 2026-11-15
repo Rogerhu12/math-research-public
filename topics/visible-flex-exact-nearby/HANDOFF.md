@@ -1,19 +1,19 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 17:03:24 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 17:06:48 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 17:01:47定时/15:57:29非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤18:01，ref不冒pull。root亲读Green末16:39:26.131536→b330ccefd4437249abf64ab09a37cf7b1147940b及NG16:32:40.653696→7705aa375a506301b3e35a0265ee934449bcd150真pull/双README空diff。
-最近只读README核：198f22cee3cb170f88766b574596e669daaf76f2；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0acb377d8e87df66f9f1d48c7fdfb434dbf8a970；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保27caa3d070adb531a62be5e6c2f99181311a592e同路径；其递归保bd8ac/2c755/106e9等全部原档。压缩不取消任何旧域/mean/单位/失败/restore和未付义务，成功数学禁重。
 
 ## 同一个对象与总验收
 
 须同一连通闭C²嵌入及C²连续fixedmetric族，材料H有内点逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、reach≥.03D、四不同非共面静态marker、purephase仅刚体。总验收未达。
-同candidate ac1d5b98/repair440866a3/Zdef6a71cb81/native87ed2f61/η0；Qδ仍近似。全频ν负[0,rplus]≤.005与||q*−Z||<4.572198020300e−6未付；finite193 .003509417与whole .007490301不同窗。
+同candidate ac1d5b98/repair440866a3/Zdef6a71cb81/native87ed2f61/η0；Qδ仍近似。全频||qν−Z||负[0,rplus]≤.005待；旧43589465579/10已付mean-trial ||q*−Z||全[0,25/8]<4.572198020300e−6（08faefe0），q*非真实PDE响应；finite193 .003509417与whole .007490301不同窗。
 同η0真fullcore须capC0≤1e−4、|δν|≤1e−5、全B/C/Cmean/腰u0/physical第四Robin/mean/phase。geometry43584188751/26条件付held>.05075888242D/reach≥800D/25039/Hdiam≥360D/511/marker145..148。P9a5bcb14只在同对象全部闭合后一次冻结ν/Γ/η/metric，非另变ν族IFT。
 
 ## Green与同参数finite反馈：newton_source

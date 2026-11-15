@@ -46,7 +46,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [GH完整强返回/physical高块](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)需R:H(s−4/3)→Hs及χJ=128CsΛJ^-1/3<1正确域右逆，J97/C0≤1/32只是目标。actual完整C/R0/Rexp0、trueincoming/positive/root/head、角密度高阶费/β稳定、physicalfiniteborder/两H16输出、所有mean-source均待；phase与physical P96不对易，97..160旧带宽不穿过圆周逆。
 [PD完整增广一步](results/R133-supplement-complete-phase-row-approximate-inverse-and-quadratic-defect.md)58bdf173保DFΔ=(f+r_f+rνκ,b+E′a)、rho15一导损/真实第四Robin/mean/腰输出，actualS非零、真regular逆/ν响应、D²tame/smoothing/Taylor和可求和迭代仍待。小E′不授同阶Neumann。
-原P17–22/24/L9全频ν负[0,rplus]≤.005和||q*−Z||<4.572198020300e−6、实际γ低高域/全core/匹配/同一个最终曲面尚未同时闭合。
+[旧完整mean-trial到Z](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)08faefe0早已由43589465579/1 child0/10门支付全[0,25/8]的||q*−Z||<4.572198020300e−6；q*是原有限trial+独立mean校正，绝非真实PDE参数响应，成功旧数学不重。root回读summary9a3d38dd/process39d9ae0e确认。真正仍待原P17–22/24/L9的全频||qν−Z||负[0,rplus]≤.005，或同域||qν−q*||≤.004995427801979700；完整边界/连续背景变化/selectedδ/高频费用必须齐。实际γ低高域、全core/匹配及同一个最终曲面也未闭合。
 
 ## 3. 真实共同参考、完整源与强返回
 

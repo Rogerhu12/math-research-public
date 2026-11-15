@@ -313,3 +313,9 @@ root亲读原known_response7ead1dbd/79796ab5与weighted15d4f7cc/32bea27d primary
 
 17:01:47定时真CLI git pull --rebase origin main返回No usable execution environment；下次≤18:01。按根规8继续小UTF8，随后只读6de3892a333e211e2ac4297f3a426489cca21b99两README相同原blob，非真pull。出版前再核198f22cee3cb170f88766b574596e669daaf76f2同blob；规则无变化。压缩前H/open/results/log逐字保27caa3d070adb531a62be5e6c2f99181311a592e及其递归档；旧域/失败/源单位/未付义务全部保留。
 下一优先新cap对称resolvent+已成RW权界的完整差合同和actual消费，并行positive Airy scalar、完整signedc0/H3；总标准未达继续。
+
+## 2026-11-15 17:06:48 UTC — 纠正压缩检查点误列的既成 mean-trial 到 Z 费用
+
+root检索完整ν剩余门时发现H把||q*−Z||<4.572198020300e−6写为未付。原证明c57569c4fb580c2dc8193039dcc8331c23bb7f48/5412B/08faefe077525ee9bb957d5bf4dc9bed180202eff2e3d186a8a5d348e7f39c48明确该项早已完成。root已全文读原证明、全部process42be8c31/5376B/39d9ae0ea6d25567af4720750b67f9ee44ea26cd168986849fd84d318d6ecd85、summary2331526c/38435B/9a3d38dd53309dbd883174a86224e1ca04fe12b952f7384f48e369424b9b08b0的全部门/原scope/费用字段。原43589465579/1 child0/10门、全7721格和[0,25/8]，报告SHA与process原记录一致。旧v1失败及所有原input/native保留，不重任何旧计算。
+
+q*=qraw+真实mean校正，Z是另一个连续方向；原全physicalGram/mean1/nonmean1/2费用已付。其原球4.572198020299175…e−6与剩余.004995427801979700824…在实际summary保留。q*不是未知完整PDE响应，真正待付qν−Z负域≤.005或qν−q*对应门，所有regular边界/连续背景变化/selectedδ/高反馈还须支付。本次只纠正当前H/open/results，历史原字保6a454a0a0fd6bf05491ef54da92d465f52bbb105。双README在0acb377d8e87df66f9f1d48c7fdfb434dbf8a970未变；继续实际cap差与positive/完整density消费者。

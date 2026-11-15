@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [既成 mean-trial 相位费用的检查点纠正](results/R133-supplement-actual-complete-mean-correction-to-phase-direction.md)：重新亲读原43589465579/1 child0/10门小记录，确认原mean-completed有限trial q*与连续Z的全区间差<4.572198020300e−6早已证明。当前H/open误将该已付费用列为待付，现纠正；真正待付是qν−Z≤.005或qν−q*≤.004995427801979700的全频真实响应门。没有重算任何旧数学。
+
 - [R133 complete nonlinear finite193 receivers](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)：完整Taylor余项写成散度加两mean，Π96只付384，值/Lipschitz分别证明。固定Sδ的真97边界保baseaffine/actualcap差/全h，左腰U96显式W−GδDδW给不重Green的完整左Poisson费；以F已成四列合成ordinary/right97/highbody/highcut/waist五输入。未授actualcap inverse、wholeC0/高块/νphase或NG通过，无新数值。
 
 - [R133 genuine positive Airy cutoff and strong correction](results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md)：真terminalAi/非零βn的正profile、全9word/5mean/true-dr、χ′两原曲率行和PH L(PLχh)给完整positive source及finitehead；同shift全矩阵.z、Z7/Z5全和与两sign保。DG完整disk g1可读，RJ负rowmax及未存三阶不得转用。独立correction有strong≤9CRω1C+ +CR CF+CO C−，trial真stable不删；新标量与完整incoming/R0/GH尚待。
