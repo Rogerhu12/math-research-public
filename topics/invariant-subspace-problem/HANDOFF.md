@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 6a4d4b5f361e9c855d6dffd73032e73850254ede（2026-11-15 07:06:42 UTC，Actions run43688449242实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43688449242-1.json。
+- **最近成功实际 pull 与已读规则提交：** 3d6ecb555dd650b4ebbc0a689a74a1615dab7d1d（2026-11-15 07:13:10 UTC，Actions run43688946974实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43688946974-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -41,11 +41,10 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 
 ## 当前临时计算会话与可恢复身份
 
-本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成，65521原rank仍4318，下一只解余七真Q；不续多素数。20分钟空闲/6h job上限，不持久化大数据。
+本地实际pull读6f18e558c6d0aa174bc9d8d2f13409fc61653221（2026-11-15 06:38:42 UTC），两README无差异；后续加--no-stat。临时session **43679903558**每步实际pull并核规则，p768与29真核均保临时；六列高度/同余已成；[单次65521](results/R150-appendix-single-prime65521-rank-after-paid-twentynine.md)原rank4318。已入队seven-original-exact-rational：4318原单位块/7有理RHS、全4367残差小核；600s/每进程4GiB、同out可--resume。仅回执完成后才更新Q秩，不续多素数。20分钟空闲/6h job上限，不持久化大数据。
 
 - 29真Koszul目录work/koszul-exact-rational-support；basis.gz1670175B/SHA b2421f22d40ed376302982f049fa63a35f811ab9899604abc58c964e3a4a2808，free36.gz29488B/SHA24f4cbd8ca7c39d5c6280159b71cf8fc85fd9811a1dc9bc6f8bdeb50a977f249；完整29列证书散列见实际小回执。
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
-- paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
 - 会话请求 notes/2026-11-15-r150-infinity-remote-session-request-789f.json；新步骤必须新id，sources及scriptSHA全锁，完整候选小元数据放parameters供sanitise保存。主只推小文本；生成大来源留job，禁止旧二进制工具/Release上传。
 - 全部实际小回执在notes/r150-infinity-remote-session-789f/；6旧Release资产已删除，main另删118生成数据，本题约73.57MB。原输入可读历史8c6304e273e64b0544d3dd58bc0e48a672a87c36，入口/参数/哈希已入main。
 
