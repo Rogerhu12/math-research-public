@@ -97,3 +97,7 @@ R251四Loewner/完整Gram的解析fixture已完成，不重跑。新真实场须
 [123九控制完整入口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)及[新分段reader](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)已发布：原121第5真六p+eta三零，新增原支撑raw二次C²零jet，完整3×9及原所有full3/8×20/12×20门，九列FD/新域/原453circle重付。family086572f9/search824c0967/recipecc4e9095/request0a1df153/workflow5343c510/readerf57a7dfa；每方向全部trial可完整分段重建，primary独立≤90KB，非恢复121遗失raw。root核82旧HEAD source+3新源及真fallback参数/身份。尚无实际123结果；九设计量后续非零112需自己的六shape冻结适配，不能直接用807f。
 
 122已实际run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b/job132757561652，08:49:59UTC创建并进入原fresh全模型/有限trace实验，尚未读回科学结果。
+
+[actual123已结清](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)：run43696642468/source9744b760，8方向8接受/17原外试探，W738.1754024784359→431.4178353348037，所有unit/full112/native最终门仍false。初末九列FD、新scalar域1133叶/0未解、原453零圆与全部17行已读；dir5 alpha.25接受保inner tol=false。primary62682B/4a2e32af，8完整组重建view118661B/fb9cef3c，无外trial省略；临时raw原清理完成。125由真末九p继续同冻结源26闭包，.1 reset/原8×20/12×20与全部final不变；不能把零圆或数值奇异值冒非零场。九full112六shape冻结适配待发布，124仍沿120真实首H失败接同worker全H路径。
+
+08:55左右终端服务不可用；按根第8条由唯一可用GitHub集成发布<100KB小文本，非force/ref lease拒绝立即重读新父/规则并重建。集成读取不冒git pull，Actions规则runner继续实际pull；恢复后回终端。全部科学只本库Actions，未以环境故障停止课题。

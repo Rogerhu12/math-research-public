@@ -217,3 +217,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:53:48 UTC /root — 发布123实际第五批来源的九控制独立实验；122已启动
 
 [123完整接口](notes/2026-11-15-actual121-to-nine-control-curved123-interface.md)17049B/5d567d66与[reader接口](notes/2026-11-15-nine-control-segmented-scalar-readout-interface.md)11811B/0b15a451、全部新科学diff/reader全文/workflow差异已读。root核82旧源码缓存SHA+当前HEAD Gitblob及3新源、8正式文件；121fallback16702B/24c3与原six末IEEE字面/来源/status逐项吻合。只修接口零eta对照措辞：evaluate数组不是独立旧J比对；科学086572f9/824c0967不动。原83+2pin/24→26、8方向/完整三式/新域/九FD/原453circle保持，每方向全部trial结构分段，raw仅临时。122 run43696328387/source05b1dc3b/job132757561652实际进入science，无结果预填；H压缩113/119/121/110及118详情到既有完整接口。
+
+## 2026-11-15 09:04 UTC /root — actual123八方向真实改进及小文本集成接续
+
+[实际结论](notes/2026-11-15-actual123-nine-control-eight-acceptances-and-complete-readback.md)：run43696642468/source9744b760，8接受/17外试探，W738.1754024784359→431.4178353348037，全final false；初末九FD/1133叶域/原453circle/全部trial已读。62682B primary与8完整组重建118661B view逐字SHA吻合，dir5 inner tol=false真实接受保留，无raw入库。终端08:55断开按根第8条仅集成小文本，准确记非pull同步；H压缩、旧97.8KB索引逐字迁同目录，125/124及原113/118/122继续。无本地科学。
