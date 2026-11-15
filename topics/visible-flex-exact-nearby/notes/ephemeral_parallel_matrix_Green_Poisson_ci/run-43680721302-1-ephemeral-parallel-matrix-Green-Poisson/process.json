@@ -25,9 +25,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
+    },
+    {
+      "time": "2026-11-15T05:25:34.892484+00:00",
+      "before": "1a3f41b912af97045e336372173ef3800c35d9bf",
+      "after": "28b59a6f4ac64fdf1614773d9ca46aab8000ae9e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T05:23:59.645085+00:00",
+      "final": false,
+      "commit": "30406ff80af14d9052316bc5c757b39492f7ec2a"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -81,7 +95,7 @@
     "README.md": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "1a3f41b912af97045e336372173ef3800c35d9bf",
+  "last_read_commit": "28b59a6f4ac64fdf1614773d9ca46aab8000ae9e",
   "exact_old_future_prefix": {
     "run_id": "43672023585",
     "run_attempt": "1",
@@ -136,9 +150,37 @@
       }
     ]
   },
-  "snapshot_utc": "2026-11-15T05:23:58.343873+00:00",
-  "wall_seconds": 36.586423904000014,
+  "snapshot_utc": "2026-11-15T05:25:34.955456+00:00",
+  "wall_seconds": 133.198008648,
   "actual_temporary_progress": {},
+  "required_original_array_artifacts": 34,
+  "required_original_array_files": 13856,
+  "all_original_array_files_verified": 13856,
+  "original_array_data_recomputed": 0,
+  "exact_original_cap": {
+    "run_id": "43671537267",
+    "artifact_id": 14144516627,
+    "native_sha256": "56efa27c6410caed656eb7e691de49283dfbd34d60e5b2c23c516b932c72dd99",
+    "original_array_sha256": "c500a1a96ae6eca76de7447effe225e0a11621b06090e2fbf2dce7ef325c3ec0",
+    "actual_process_sha256": "61e9fec29b54bd12ac7cae3db6b35be1e3511cadcdbfcf57550302e241cc53d7",
+    "original_rows_recomputed": 0
+  },
+  "actual_input_sha256": {
+    "matrix-data": "7e1a5709b49df2aa52470e8df5bccb8ddfdc6a5184d9a715d343c202cb436edd",
+    "matrix-process": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b",
+    "profile": "3460a4b5636bf6a3d9c160f6141ab5153fc5fc705ca79000c5f10370a978cb69",
+    "profile-process": "16608b57571d17a427857bcfe0127186589b3f79e93d89a7e423ac48a2740af9",
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800",
+    "impulse": "fbba350708fb89366272641433e9c2899c4ec04027616650b4317969105bcd37",
+    "impulse-process": "d07226d44cdf78ee760f6ae25cc29735a6090775061064b7dcbd7b9f507bb6e9",
+    "reviewed-impulse-process": "b55c2df02439b910c1e6e46fb78c2391ca135138421e2f05ee05a14dcb5de468",
+    "boundary": "56db8a3498494bf48de14b50418010053bb6058c722c41993c894c463786dc25",
+    "nominal-cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
+  },
+  "actual_source_sha256": "4b864054e8f8c29add6918e94300e4fbc361a4ecf1acfc213ae9993545bf37ce",
   "original_process_receipts": [
     {
       "file": "original-all5970-impulse-artifact-process.json",
@@ -154,6 +196,11 @@
       "file": "original-complete-finite193-Green-process.json",
       "bytes": 8548,
       "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "file": "original-complete-same97-cap-process.json",
+      "bytes": 10256,
+      "sha256": "61e9fec29b54bd12ac7cae3db6b35be1e3511cadcdbfcf57550302e241cc53d7"
     },
     {
       "file": "original-complete5970-matrix-process.json",
@@ -254,6 +301,501 @@
     },
     {
       "repository": "Rogerhu12/math-research-public",
+      "run_id": "43648579604",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-same-F-matrix-Gram-pilot-43648579604-1",
+      "artifact_id": 14135471378,
+      "api_size_in_bytes": 9996896,
+      "exact_downloaded_archive": {
+        "bytes": 9996896,
+        "sha256": "72bd4f1e3b8290eb5ea3017538326443d79a825fe450a2012ebeb3429741fae2"
+      },
+      "arrays_only": true,
+      "extracted_files": 5,
+      "actual_process_sha256": "d1465c2d20081bf22c0909dfa1d28f62239ff91394d030f34faf375ac479330a"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-7-43654510038-1",
+      "artifact_id": 14139174476,
+      "api_size_in_bytes": 213623308,
+      "exact_downloaded_archive": {
+        "bytes": 213623308,
+        "sha256": "0d0da3926164c54da5c74153bfd022e24851f29e00b2857c6f4f6a1978de94ab"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "9d68c37030c2e1cb578ddb2262698c3b3466e33e46f240bdc5eea32c8ce45763"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-11-43654510038-1",
+      "artifact_id": 14139604806,
+      "api_size_in_bytes": 213165887,
+      "exact_downloaded_archive": {
+        "bytes": 213165887,
+        "sha256": "7b2f2d6fc96dcb2a35a1d496c06304499957ec133e9d2d9c4727f173d62435bd"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "72a59c6339b3891ac6645a010d789f6582da212286f02f66bf6eb31ccf5b2b78"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-12-43654510038-1",
+      "artifact_id": 14139875128,
+      "api_size_in_bytes": 213082492,
+      "exact_downloaded_archive": {
+        "bytes": 213082492,
+        "sha256": "58cac4f7ae1121cccc8c6061426946e2151ede6a32c82defe5d12c9b88f45636"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "6fbb42a38b047347d266c39e56ce33a6a347f041ffaaa40e92f6857bb54e5660"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-15-43654510038-1",
+      "artifact_id": 14140142037,
+      "api_size_in_bytes": 213084515,
+      "exact_downloaded_archive": {
+        "bytes": 213084515,
+        "sha256": "98f4a85e994db05d86c0df4d116341056e087d1cb51524666b569bbffadd361c"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "1295b0126fbd26ad16ae1d1d6d303ac682a9132cae6d273616d18881559177c5"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-13-43654510038-1",
+      "artifact_id": 14140225789,
+      "api_size_in_bytes": 213098459,
+      "exact_downloaded_archive": {
+        "bytes": 213098459,
+        "sha256": "dea82f8200e5f8fadb2b83be31b9ef79f222492b232d4ae0a83675f8b475c758"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "1e8260cebe807108bd4cc04da58b18a8bc58eb9ead67df482b57ceee111f4faa"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-3-43654510038-1",
+      "artifact_id": 14140323450,
+      "api_size_in_bytes": 213500201,
+      "exact_downloaded_archive": {
+        "bytes": 213500201,
+        "sha256": "c254ef80b91932fc8fdfd8bca3527a5654f55605ebcbea6033a25cdcbf5ec88f"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "c7bb3a0ed5aa905f6bd8939247dbe2d6cf9264927e5baf828849203ec4345408"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-9-43654510038-1",
+      "artifact_id": 14140862820,
+      "api_size_in_bytes": 213541768,
+      "exact_downloaded_archive": {
+        "bytes": 213541768,
+        "sha256": "1e8cf4127b1003ca1138b0e949845f2e098ae5987d33b8f0e7271cc8b08982a8"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "f2041795e984115306176871ca7055defa700cca179e1582d74bae4b48c93589"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-14-43654510038-1",
+      "artifact_id": 14140875544,
+      "api_size_in_bytes": 213074837,
+      "exact_downloaded_archive": {
+        "bytes": 213074837,
+        "sha256": "bb63029c3ca863df495a6d89823db9b1a4b8c03f8b94e30eb23f3b02ec91815d"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "7bdf151b2c9eb825cc0d75e0b60d41f7d6bcd5aa43bd6110771bfc1280e8c27e"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-4-43654510038-1",
+      "artifact_id": 14140900263,
+      "api_size_in_bytes": 213553049,
+      "exact_downloaded_archive": {
+        "bytes": 213553049,
+        "sha256": "f4dab9458e703308b0c662b39443cddd1058028525ed46bd580e154b4ffcb201"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "37f649cd4c25d227a02ae589722538ef20e303c644e482e046304abec6452bb3"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-10-43654510038-1",
+      "artifact_id": 14140933370,
+      "api_size_in_bytes": 213417440,
+      "exact_downloaded_archive": {
+        "bytes": 213417440,
+        "sha256": "51888d35fd6a8d0e08a09143b5b29a8544d512bba974b0a6688feb75540d57e6"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "24e0e9177d1d3560d8853ae21bc3d41ca1384d093c851f8f55786c84b0cf292b"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-5-43654510038-1",
+      "artifact_id": 14140973725,
+      "api_size_in_bytes": 213649233,
+      "exact_downloaded_archive": {
+        "bytes": 213649233,
+        "sha256": "4de238adda4011419b7ce4a2bc3977cbcb7e529578e1e21c0f7f60966423f8db"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "a8ae50dbd128b931aa26ff79697f705b3789739e86c839b81c9042a47afc9b8d"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-8-43654510038-1",
+      "artifact_id": 14141002497,
+      "api_size_in_bytes": 213595568,
+      "exact_downloaded_archive": {
+        "bytes": 213595568,
+        "sha256": "4239495dd760b8783868b78e3931a96b039db93a0e7fc986045ff4dbda9d68f5"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "ed3d6af6809824c4d243f2847a33082bbce33f06490eed0d65e96d20579bcded"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-6-43654510038-1",
+      "artifact_id": 14141042182,
+      "api_size_in_bytes": 213614904,
+      "exact_downloaded_archive": {
+        "bytes": 213614904,
+        "sha256": "9c1dbe33457c370f5a55392271da353e265c1a8154b3c666f781ab2ec6040814"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "56a1e98bd035f6a02133ecd6c9d4710a84e369bed67f08d41089b254adf2d359"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-1-43654510038-1",
+      "artifact_id": 14141406819,
+      "api_size_in_bytes": 213627549,
+      "exact_downloaded_archive": {
+        "bytes": 213627549,
+        "sha256": "c044233b2007a27d899e2cf70bdf39969138a427323a843d04d856e3907fdd3d"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "3bb9dd03950ed5e0213a4f04eb4b15b5e0f7e60a436f849974dcfb512a36cccf"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-2-43654510038-1",
+      "artifact_id": 14141526936,
+      "api_size_in_bytes": 213536917,
+      "exact_downloaded_archive": {
+        "bytes": 213536917,
+        "sha256": "a6a1d15bddc2ee95950d2918b34722a07445d12074740b74f6417b49b2b4e9ae"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "fa589dcd3483d9947b0e21db880eafc9976701bd5d1c7597a26cd05eadb7070a"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-16-43654510038-1",
+      "artifact_id": 14141558838,
+      "api_size_in_bytes": 213053945,
+      "exact_downloaded_archive": {
+        "bytes": 213053945,
+        "sha256": "ded858cfabe4eb7bbb9972e44d043f0796be9ccea49fa3ddd3a8636cb9dd5514"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "3c6d38d84685f67aa17a2954c89aa88ccbf1643ff0059b3b4a3d5219290fa6dc"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-21-43654510038-1",
+      "artifact_id": 14141969412,
+      "api_size_in_bytes": 213552262,
+      "exact_downloaded_archive": {
+        "bytes": 213552262,
+        "sha256": "eabe4a66083ab9fa15261a416f56e535f70c7c1dc5c08af22c88109d9220bb59"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "54909f064d554215927ef253d6e0f7abaa735877fde5f5a733d97e1a0ff828d9"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-18-43654510038-1",
+      "artifact_id": 14141993789,
+      "api_size_in_bytes": 213121737,
+      "exact_downloaded_archive": {
+        "bytes": 213121737,
+        "sha256": "c89866ab5db093c1655793bdd7e7366e077cae9e09033ee4f92ac549819cf31e"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "88ea02a5c1ddd7559db69ab19e3a63923641ad047b9305a682dc854c5801573b"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-22-43654510038-1",
+      "artifact_id": 14142189688,
+      "api_size_in_bytes": 213557908,
+      "exact_downloaded_archive": {
+        "bytes": 213557908,
+        "sha256": "53ce890bdbf199ae89621cfb2c9f92efccf9c033a75b08ee736807648b0d3023"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "034a0700f56e7f44119ad077a614de9ac00788497ca2b1b0a97c813ea1b9e1dd"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-17-43654510038-1",
+      "artifact_id": 14142296992,
+      "api_size_in_bytes": 212367040,
+      "exact_downloaded_archive": {
+        "bytes": 212367040,
+        "sha256": "7dc398fe41f759c16387ba79b0e4f6498c3d80ad87325a475c6d083596783360"
+      },
+      "arrays_only": true,
+      "extracted_files": 385,
+      "actual_process_sha256": "8b422115b796cd23822e19d0f3a646742918f489939f9ee39800087827deb8cd"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-31-43654510038-1",
+      "artifact_id": 14142332616,
+      "api_size_in_bytes": 19196178,
+      "exact_downloaded_archive": {
+        "bytes": 19196178,
+        "sha256": "f907c1794f0b2f71cae1ff09df0ddd8ac94d9bb902eed33e0dfbb5799bcc8d46"
+      },
+      "arrays_only": true,
+      "extracted_files": 36,
+      "actual_process_sha256": "ea403e688815364b5256aecd60eab61381cb191d35c6deba91ca8198535bef1b"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-19-43654510038-1",
+      "artifact_id": 14142341267,
+      "api_size_in_bytes": 213280642,
+      "exact_downloaded_archive": {
+        "bytes": 213280642,
+        "sha256": "c0d9294510545adb51b3bdefb7c898255f06e9034738aaea398138242796e9a6"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "cc2fd8e7d5ee3adeaccf08516d7deff7e2363546d42324649275362686beaa1e"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-0-43654510038-1",
+      "artifact_id": 14142428802,
+      "api_size_in_bytes": 211382965,
+      "exact_downloaded_archive": {
+        "bytes": 211382965,
+        "sha256": "fdf209413baa50d7982fb63bd53ecc985424425ab23a76e44abca9cd9d5d0a68"
+      },
+      "arrays_only": true,
+      "extracted_files": 383,
+      "actual_process_sha256": "aaad523f54997c699d2cbdfd1ca4892031372600a0b593c7623cf556b99f39b8"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-23-43654510038-1",
+      "artifact_id": 14142432809,
+      "api_size_in_bytes": 213495899,
+      "exact_downloaded_archive": {
+        "bytes": 213495899,
+        "sha256": "81c7aa8d1dc265d52305e2b9c0d1d7199d8b8cdfdc5024eeb8720f6265807ca6"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "aa8e9ac64e3d92a6d3ce08e87a62f4a20fb99d9efd1c170e26eaea4c93ec7e91"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-28-43654510038-1",
+      "artifact_id": 14142839414,
+      "api_size_in_bytes": 213623763,
+      "exact_downloaded_archive": {
+        "bytes": 213623763,
+        "sha256": "7f3db223f0aa198c45dc8b141359705be64f022ae68d1e8bb3d5a58e69d16d71"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "25630a187e84c716c42f2673da9837c08ad866b8b2a7831ad244ca4fd7f2e105"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-20-43654510038-1",
+      "artifact_id": 14143022745,
+      "api_size_in_bytes": 213422369,
+      "exact_downloaded_archive": {
+        "bytes": 213422369,
+        "sha256": "f7611ec340703e5fb0073d5b0a746cebe515711dfbac2fa83f6f753290167ac9"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "608ae8ac067a0882ed115aa288895b184acd632baab1705d74f7c53f0e7e74ac"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-30-43654510038-1",
+      "artifact_id": 14143179334,
+      "api_size_in_bytes": 213494548,
+      "exact_downloaded_archive": {
+        "bytes": 213494548,
+        "sha256": "7fda2276621efc9cb67dd93d571a7d4c297abf2e072486da5ec497dd429c68b2"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "908c535497fe5330abadeba91aae69251759cfd2b16abd506a618619f1627e79"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-24-43654510038-1",
+      "artifact_id": 14143378736,
+      "api_size_in_bytes": 213553084,
+      "exact_downloaded_archive": {
+        "bytes": 213553084,
+        "sha256": "eefb2f04c8a3280180f74b0c6eca424a3e9ba031c7882292163dfb48043470d2"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "87283d0a84e56a225ce5f502208dedf9248541a96c979bc0d58b57cddab36caf"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-26-43654510038-1",
+      "artifact_id": 14143724297,
+      "api_size_in_bytes": 213678597,
+      "exact_downloaded_archive": {
+        "bytes": 213678597,
+        "sha256": "3621e3b877520fa38f587ceef6b8a66a1a70f746393203ea2e48869faced1189"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "a76e8ec95459669bc5f7e828beb5830d53a88ac1a5a22933fd4a6739a437f6ba"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-29-43654510038-1",
+      "artifact_id": 14143747791,
+      "api_size_in_bytes": 213545381,
+      "exact_downloaded_archive": {
+        "bytes": 213545381,
+        "sha256": "e1ac8f767182df20d659c1ac8bcd7c9c6d7d01ed1ac6556443cb982cdae59998"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "c2d8b934f6a13949f1fee4ae05387f7f49563018fcb5b239ac1b96da2a5e7e3c"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-25-43654510038-1",
+      "artifact_id": 14143905880,
+      "api_size_in_bytes": 213625498,
+      "exact_downloaded_archive": {
+        "bytes": 213625498,
+        "sha256": "8ee4a3031c3321c36034770f6242993d0cd2fbd536543a7d277dba62eb696d66"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "a61247e6cbfbc427b59349644c8496bd6580969464ee02992d8765176ef4a5cd"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43671537267",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-same97-cap-posterior-cap-43671537267-1",
+      "artifact_id": 14144516627,
+      "api_size_in_bytes": 759122,
+      "exact_downloaded_archive": {
+        "bytes": 759122,
+        "sha256": "b8809594d2efeba92b510c1c78ba4b8155b62514f60475c806e2bf10ceae7957"
+      },
+      "arrays_only": false,
+      "extracted_files": 14,
+      "actual_process_sha256": "61e9fec29b54bd12ac7cae3db6b35be1e3511cadcdbfcf57550302e241cc53d7"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
       "run_id": "43654510038",
       "run_attempt": "1",
       "artifact_name": "visible-exact-complete-same-F-5970-finish-43654510038-1",
@@ -266,6 +808,21 @@
       "arrays_only": false,
       "extracted_files": 40,
       "actual_process_sha256": "5e59d45dba5be13d5828693d9ab3447a22f79efe911c65243eb9c643b840283b"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43654510038",
+      "run_attempt": "1",
+      "artifact_name": "visible-exact-complete-same-F-range-27-43654510038-1",
+      "artifact_id": 14145080275,
+      "api_size_in_bytes": 213636994,
+      "exact_downloaded_archive": {
+        "bytes": 213636994,
+        "sha256": "1b7f9527ada151b643748e3203138d8c88ff098cfb2de9b2ff498c50c897124b"
+      },
+      "arrays_only": true,
+      "extracted_files": 386,
+      "actual_process_sha256": "03870095979055e9fb338d10ad5ceac51699cd59bca6d876f53febde923838b9"
     },
     {
       "repository": "Rogerhu12/math-research-public",
