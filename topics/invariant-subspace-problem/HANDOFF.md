@@ -36,11 +36,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2
 - **窄入口：** 固定f=e_a⊗vac，同top真零远孔行给<u,f>=−<u1,D_>*(C*)†f>；足够||(C*)†f||²=O_a(R³)未证。literature保原F_m(B_m)/池行混合与divided-difference，不能删其余强位或把h换d。boundary继续共同返回配对及真实远孔尾观测，不用环境gap/一般Jordan条件数。
 - 旧Gq、低forcing、a1/a2及孔导数坏族量词保[完整H](notes/2026-11-15-handoff-before-strong-gauge-789f.md)，不重旧排除。
 
-- **[N原逆芽真实临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)：** 负轴首个简单临界值确属原零支，Rψ≤|w_c|<e20 r_c，最高位给−logRψ≥12.5d³−1.25d²+O(d+m)；完整逆圆盘不能把12.5固定降小。只限N，次阶放大及原两费另行推进。
+- **[N原逆芽临界障碍](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)**给−logRψ≥12.5d³−1.25d²+O(d+m)，领先12.5不能固定降小；**[N/Y次阶圆盘增益](results/R271-appendix-inverse-germ-second-order-radius-gain-and-same-window-budget.md)**给τsharp=12.5d³−.75d²−1.5d+…，ρsharp=e^-τsharp、ε仍e^-d³/4。R=ceil4/ρsharp、h≤6/ρsharp、2h+R<Q*/2，同原w/母窗，强gauge按新h全截断；Q*/h≥e^(801d³/64+.5d²)/12。两费κ未付。
 
 ## 当前临时计算会话与可恢复身份
 
-本地已清两失败fetch临时包3828207615B；禁用git diffstat后实际pull成功：026eba3773bcbab72d7e909e52ecb0ca75d7e5d9（2026-11-15 06:03:08 UTC），两README与已读规则一致。后续本地pull用--no-stat，避免为统计取历史大blob。实际研究session **43679903558**仍持有p768及8原历史输入；每步真实pull/rebase核两README，所有源码/模型SHA锁定。最新39维原候选已完整完成，Koszul外支持实际已完成、正接真Q提升；20分钟空闲终止前继续，最长job6h，不持久化大数据。
+本地最近成功pull读026eba3773bcbab72d7e909e52ecb0ca75d7e5d9（06:03:08 UTC），两README未变；后续加--no-stat避免为diffstat拉历史大blob。临时session **43679903558**每步真实pull/readme核验，持有p768/paid23和8原历史输入；Koszul外支持已成，接精确Q提升。20分钟空闲/6h job上限，数据仅临时。
 
 - p768原source：work/dixon-after486/stage-p768/actual-p768-exact-source36.bin，36433748B，SHA256 0ea5c472aa4013242357ae671b42226b217f61948ee741334eb8a1df0e5dbd07。
 - paid23原JSON：work/dixon-after486/exact-rational-kernel-certificates.json，5978318B，SHA256 fa3f1ae516dd7c8a4f366936b75d607010587b5a7b85b804e3d9002964b65b25。p768 native receipt385B/SHA7b9164665c2c6116d5a5d5100d0f91edb5376889117693255b8686921299d094。
