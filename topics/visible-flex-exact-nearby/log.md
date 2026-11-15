@@ -81,3 +81,8 @@ DX4提供同一ψ C4新输入，原CYA四root只读，不新增gap计算；tail�
 ### 2026-11-15 23:04:41 UTC — two exact archived snapshot removals
 已按先推98bf8b52白名单fd57e301/cdfd4345 fresh核blob/size，普通删两derived NPZ合721358B；restore903645f5同path完整保，原源/小结论/active pins不变。
 binary未取、旧成功数学未重。两README在d6a7d38339ff3d087f51b169abcbc913f1c9717f无变；继续唯一原Actions及完整算子义务。
+
+### 2026-11-15 23:05:50 UTC — terminal-only individual energy contract
+SEI0f83547b/268be1a8全文核：SN八列+真H/μ误差一次、四sup整选、strict signedκ、pass才两窗energy，fail保PG/PIB，0exp；独推解析结论。
+原SN43751213826/1真实success/child0/21、3146interval/cursor0，SCI22817/8fea75ce已root lexical精确复原；旧1256只读+新11328，成功不重。
+README于a78a59d685e6bfcfe50d2dcb9f98cf15aa62268a核无变；actual SN证明与SEI新consumer继续，fullincoming/finite/mean/core未宣称。
