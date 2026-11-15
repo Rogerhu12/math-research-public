@@ -369,3 +369,6 @@
 
 
 - [Request182r2：原160必要摘要的重复元数据消除](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)：首182完整扫描但92966B超限的实际身份入新request；c4728fbb只将固定manifest/约定共享、完全相同必要字典以同一JSON pointer引用，原trial/四组件/失败/未访及key/null保。90KB、预算和科学均不变；只加section字节计数，不假称未来成功，root唯一读新实际。
+
+
+- [R393. 实际182r2必要摘要仍超136字节](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)：43756253033/3b987774，原160全3234095B/3513行完整、internal0/协议0错；必要90136B>90000，70且四组件/trial正文未返。原状态不重分类、cleanup skip，r3仅去重复schema说明，全部原科学范围及上限保持。

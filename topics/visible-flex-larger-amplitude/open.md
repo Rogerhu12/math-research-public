@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-183前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request183.md)，链回182及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
+184前完整正文已存[完整检查点](notes/2026-11-15-open-checkpoint-before-request184.md)，链回183及更早历史；只缩写已结事实，原参数/错误/后缀及全部未付责任保，§4–6逐字不变。实际run、负责人和规则记录见[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -18,7 +18,7 @@
 
 ### 1B. 完整128末态、物理审计与严格有限trace
 
-[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整/0协议错，但92966B超90KB→70，只返3277B fallback，原trial/组件仍未付。[182r2接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)c4728fbb/bdeebd5d/b84e300f已发：固定manifest/约定只一次，同份必要JSON内完全相同字典才pointer共享，全部原行/键存在/null/错误/未访保。单90KB、1200s/32GiB/35min不变，失败不清/不分包；root唯一核新实际，原全576×224、112/mixed338/audit及预算责任不变。
+[160完整入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)/[161严格入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)保v2、fresh91/64J/R273/128及19200s，不互作门。原160report仅child70/四flag未返；[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流完整/0错却92966B超限，[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)90136B仍超90000、exit70，四组件/trial仍未返、清理skip。[182接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)全部原行/key/null/错误/未访保；r3只精简重复schema自述，单90KB/1200s/32GiB/35min不变、不分包。root唯一核真实正文；全576×224、112/mixed338/audit责任不变。
 
 [R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：128一次α1接受/replay齐，stage10/RK0/field0全230列320bits认证，0未决；仅固定输入/trace准确有限算法误差。原子70由同job恢复，42969B摘要齐，大列账只身份。上游/整RK/576J、112/338/audit/native/fullDN未付，160继续。
 
@@ -84,9 +84,9 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)公共u、准确L²与a(Lu)²、全部可能片/九支撑/数值两侧/中心差及同场η+δ+ηδ保；固定E盒不自动任意精化，实际δ<1与同一场metric前提另付。
 
-[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)共享表达式/完整Bernstein保全部九项及literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：43736208020/source1f2ec637，C1440齐；target581.166182384s、65535nodes/32977闭叶，全半径正/有限δ<1，但38严格速度域反证、32488未决/481目标过，受控exit4。固定R320九p不能靠加节点消除有效反证；新p须重付全域，不据此否定169未来p或整个family。原419片/21pins/全部预算及四摘要范围见正文；38具体u/piece/as现由R381从原保存字段完整补齐；同场metric/native仍未付。
+[R352](results/R352-shared-calibration-normal-forms-and-complete-Bernstein-target-enclosures.md)保共享表达/Bernstein全部九项与literal缺陷。[R356实际165](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)C齐，65535nodes/32977叶全半径正/有限δ<1，但38严格speed反证、32488未决/481过、exit4；不能靠加节点消反证。原419片/21pins/全部预算/目标宽度与metric/native未付保。
 
-[R374实际176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)首读38表未返；[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)单55100B完整补齐32977cover/32526pending/32488unresolved/38反证。38全numeric416，17正/21负两闭u区间，均非radius反证；未决32484宽度/3速度/1两者。708BOM仅解析，原1.48GB身份保，不重科学或回填R374。原165exit4/目标宽度责任保，numeric标签不冒唯一准确分支；165/169/179准确同一目标已由R383支付。
+[R374首176](results/R374-actual176-original-refutation-readback-count-and-transport-limits.md)未完整返回；[R381实际176r2](results/R381-actual176r2-complete-strict-refutation-locations-and-readback-recovery.md)55100B完整付32977cover/32526pending/32488unresolved/38反证：numeric416、17正/21负两个原闭u区间，未决32484宽度/3速度/1两者。BOM只改解析、原流SHA保，不重科学/不回填首176，也不冒每叶唯一准确分支。新p须重付全域；R383准确同一性及R384真实新域分责。
 
 [连续C固定power4十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)明确在原R323准确基底追加ξ，support1=[L0,L0+δA]，h=δA²·64x³(1−x)³(2x−1)^4，同表达三jet/零延拓/C²与准确自然L/公共u保持。独立factory十项表、degree10完整域、新numeric(3,10)/物理层(0,3,10)、七shape固定453和全冻450接点已列；原178 LiteralTenModel硬复制旧base/mesh/J，不能仅换profile冒新C响应。设计没有实际参数/域/求解或门；support1 ξ不能代coast参数修复，180独立继续。
 
@@ -100,9 +100,7 @@ R364类型绑定0call、[R371](results/R371-actual164-r2-twenty-rejections-and-i
 
 [完整新C绑定](notes/2026-11-15-new-C-complete112-profile-and-BVP-binding-interface.md)、[R331](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)保准确来源、453/450/459、公共u旧场/fresh RHS、两mean及非除Robin。非末−I前沿和末整体非共振是不同责任；η1全链方向不代η0全112敏感，QR不证严格非共振。
 
-[R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)独立全C1440/六primitive/两query/cut/deep112齐，whole2609欠分辨率。physicalfar=.05056158669090205；m2仅100attempt/49commit后row17/piece3/depth32双pivot含0，.150405163s/stop=null非资源。19栈/required[18,10387)/余111保，0far/0unit，native未启动；原错误/六读回与清理见结果，不记Newton拒或准确共振。
-
-[R367实际169重发](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)独立全C/cut/deep112与419片数值profile齐，九域10657未决/15stack；m2在同row17/piece3/depth32双盒含0，100attempt/49commit、19栈/required[18,10387)/余111保，stop=null非资源。0far/0单位行使BVP未启动，不记Newton拒；六读回/静止清理齐，原run/全部数值见结果。[179完整入口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)十件原范围保，实际已由R382完整结论承接。
+[R368实际168](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)/[R367实际169](results/R367-actual169-retry-new-scalar-and-unstarted-BVP-at-first-far-pivot-stop.md)各独立全C1440/cut/deep112齐；同physicalfar首m2 row17/piece3/depth32双pivot含0，49commit/100attempt、19栈/required[18,10387)/余111，均非资源。0far/0unit、BVP未起，不记Newton拒或准确共振；169新九域10657未决/15stack。完整原数值/错误/六读回/静止清理及全部未付责任保两结果和检查点；179由R382接，旧失败不重标新成功。
 
 [R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)43749949418/ccf1b023的五必要块及两日志已齐；report errors=[]，红色仅传播compute/BVP未付。全C1440/point/deep112返回，fixed九域1735过/10849未决/14栈保；真实rFar=.05056158669090205首m2在row17/piece3/depth32下闭屏障未证正，58paid/110work/.173086674s、stop=null非资源。11栈/required[18,10387)/111未起/0far/0unit保，原H/J/FD/完整453及audit未启动；不能记作Newton拒。六必要读回/静止后清，全部原数值与ledger范围见正文。原[179接口](notes/2026-11-15-request179-Riccati-far-and-current-profile-full453-interface.md)59/52/26闭包、五输入、112/338/453、3active/109core、32×10/2e−9、FD5e−5、8outer17inner和RMS/BC/final全保；C3600/sampling14400+1800启动clip/BVP7200/360job不减。184改用R380/181真实全角/QPi，不重跑已知Riccati失败；原域反证不外推p3全搜索无解。
 

@@ -4,7 +4,7 @@
 
 ## 规则与工作位置
 
-规则同步记录：2026-11-15 20:13:00 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bfa0650ced19b0081f8a334ae442b931474780ae。
+规则同步记录：2026-11-15 20:13:48 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 78292df097d9417ffa2aa3fae11cf18013d34025。
 
 只在公开Rogerhu12/math-research-public及其Actions。全部科学算术/导入/编译/数值测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一发布，代理交独立文本/blob；PAT仅瞬时CLI，不入文件、提交、回复或connector。
 
@@ -20,7 +20,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 |请求/结论负责人|run / source|当前职责|
 |---|---|---|
-|160/182 R359/R388 root|原16043729874541/b34692d0；首18243754644599/ee516d47；r2本次触发|首读92966B超90KB→70；r2 c4728fbb/bdeebd5d仅去重复metadata，root读新终态|
+|160/182 R359/R388/R393 root|原16043729874541/b34692d0；r2 43756253033/3b987774|原流完整/0错；r2必要90136B仍超90KB→70，四组件/trial未返；r3仅精简重复说明|
 |171 R361 exact|43739787509 /298c7dbebc28b5fa94bea030b4efe1426b21bf67|真98→37八批→同job末pair→38/LEFT462，97pins|
 |172 R369 geometry|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p/λ.001，全129248行d=b+Aq+s，124pins/18000s|
 |175 R372 exact|43747437442 /81bf71ae214da94b01ebff4870fb4ee3ecd8782b|原37/FD后37×17×2048闭段query，103pins|
@@ -44,7 +44,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 ## 正在推进的完整入口
 
-[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整/协议0错，但必要92966B超90KB→70，仅3277B fallback；四组件/trial未返、清理skip不冒持久保存。[r2接口](notes/2026-11-15-request182-original160-native128-necessary-readback-interface.md)c4728fbb/bdeebd5d/b84e300f本次发：原八来源/科学不变，固定说明只一次、同一必要JSON内严格相同字典pointer共享；全部原行/key/null/失败/未访保。单90KB与1200s/32GiB不变，root唯一读。
+[R388首182](results/R388-actual182-complete-original160-log-and-necessary-summary-overflow.md)原流3234095B完整但92966B超限；[R393实际182r2](results/R393-actual182r2-original160-necessary-summary-136-byte-overflow.md)仍90136B>90000、exit70，四组件/trial未返，清理skip。原科学不变，r3仅精简重复schema说明，全部原字段/未访保，root唯一读。
 
 [R379实际177](results/R379-actual177-Riccati-full-cut-first-barrier-partial.md)保m2 row17/piece3/depth32下屏障未正、58/110非资源、11pending+[18,14644)/111未起/0cut；必要读回/静止后清，不证准确极点，181续。
 
@@ -52,17 +52,15 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、全部H/J/FD/f
 
 [R382实际179](results/R382-actual179-physical-far-Riccati-first-barrier-and-unstarted-full453.md)：43749949418/ccf1b023，五必要块齐，report红色只传播compute/BVP未付。C1440/deep112齐，真实rFar首m2同row17/piece3/depth32下屏障未正，58paid/110work/.173086674s非资源；11栈+[18,10387)/111未起、0far/0unit，BVP未启动。六读回/静止后清；全部59pins/原453/FD/预算责任保原接口，184接全实角。
 
-[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)证明165/169/179初点同准确目标；coast仅p3/theta3/eta3作用，L不随九p变，中心必要带不代全域或全搜索。R381反证与新参数域分责，numeric416不冒每叶唯一准确分支。
+[R383](results/R383-accurate-R323-target-identity-and-coast-control-necessary-band.md)付同准确目标/coast三控制与必要带，未付全搜索；[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)付共同β充分域界/强C²，实际余量和预算仍须支付。
 
 [R384实际180](results/R384-actual180-complete-accurate-coast-domain-and-selected-nine-parameters.md)43753422569/636bbc3060，64284B必要齐：418/420叶全证，前四β各反证，β1/16 coast5nodes/3叶全证；准确419域/全根族齐，九有理词恰好binary64，13未访。原C不重算，完整必要/wait后清；recipe cc87d932/2136、definition f568b816/377615按ba8可重生，184接新C/factory/BVP。
-
-[R386](results/R386-accurate-coast-uniform-feasible-scaling-and-C2-bounds.md)给准确coast共同β的显式域充分界、强C²/同长度和有限档责任；余量r_*/Λ必须真实支付，不预填180。
 
 [181完整入口](notes/2026-11-15-request181-complete-Pruefer-head-interface.md)保原19pins/C3600/深族112/cut/事务、全角lift/正log/二幂、Taylor正dot及逐候选物理单位Robin，DN独立隔零、不造nativeμ；head14400/25M/256bits/depth32/norm1/4/18900启动clip/360job和读回清理保。184必须接真实farμ的QPi变换，exact唯一负责。
 
 [R323连续十族设计](notes/2026-11-15-continuous-C-fixed-power-ten-source-design.md)保新support1/power4同三jet、degree10/自然L/u及十控制和453/450接点；旧178表不能只换profile。该ξ不修coast；R351/173/R363/R366/R370完整响应证明仍保。
 
-[coast→BVP语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c/34871B已发，完整原20585B diff与18569B接口已读；按R383核同C全根族/core/cut/窗口/准确九p/DAG，初点全域可传，不要求两盒相等/子集。新shadow/J/FD/metric及活动p另付，原179四字段外不改。[真实selected恢复](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发：原180 summary→原来源/DAG重建两件并核旧SHA→真fresh factory；不改环境或伪造result。exact接184/R391；geometry接185全3校正，amplitude并行接已发连续十族设计的独立factory/numeric组件，不改184/185。
+[coast语义组件](notes/2026-11-15-actual-coast-selected-current-BVP-input-interface.md)e5ab2a8c与[真实selected恢复](notes/2026-11-15-selected-coast-original-input-restoration-interface.md)ba8fb7f3已发/全文核：同准确全根族/九点/DAG传初域，盒不必相等/子集；原180两件按原SHA重生后真fresh factory，不造result或改环境。新shadow/J/FD/metric/活动p另付。exact接184/R391；geometry接185全3校正，amplitude接连续十族独立factory/numeric，不改184/185。
 
 ## 恢复与保存
 
