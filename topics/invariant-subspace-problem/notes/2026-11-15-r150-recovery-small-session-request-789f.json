@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "08752b3d96a153f9ebedcad9faf8b4134d5e129e",
+  "rulesReadAtCommit": "6e42b8d06dbb77d0ae46bd52f516fa44cff08a1b",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1183,6 +1183,51 @@
       ],
       "timeoutSeconds": 660,
       "receiptPath": "{work}/zero-sixth-rhs-columns-receipt.json"
+    },
+    {
+      "id": "same-source-koszul29-second-pairing",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-same-source-koszul29-second-pairing-789f.py",
+      "scriptSHA256": "33b8a3e0c501488e5da6e2d654bfa84c915237ea537279fd45d24ba846653f14",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+          "sha256": "9332d9d394b1a17444c9ccc20b3971cf74b7e932cffc8d9189e4e2f64fe0c428"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-outside-sparse-preparation-789f.py",
+          "sha256": "7fcaee1cf34ea2545f10050fbb899e6d2a682a61485e2351214250072d819170"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-koszul-exact-rational-support-solve-789f.py",
+          "sha256": "0689aec8f35c098a3d1e831297b94102ec38596fe724ac63cdf4bbc9c012e7a2"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-15-r150-selected-infinity-fixed-three-coordinate-lll-789f.py",
+        "--preparation",
+        "{scripts}/2026-11-15-r150-koszul-exact-outside-sparse-preparation-789f.py",
+        "--support-solver",
+        "{scripts}/2026-11-15-r150-koszul-exact-rational-support-solve-789f.py",
+        "--native-model",
+        "{native_model}",
+        "--point-model",
+        "{selected_model}",
+        "--selected-receipt",
+        "{paid_dir}/selected-infinity-minor-dag-receipt.json",
+        "--regauged-out",
+        "{work}/selected-natural-second-left-regauged",
+        "--rebuild-root",
+        "{work}/selected-natural-u-rebuilt",
+        "--out",
+        "{work}/same-source-koszul29-second-pairing",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/same-source-koszul29-second-pairing/same-source-koszul29-second-pairing-receipt.json"
     }
   ]
 }
