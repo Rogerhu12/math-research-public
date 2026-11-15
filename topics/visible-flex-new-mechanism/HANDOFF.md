@@ -37,7 +37,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 **R314–333完整pure/self**：九T+局部Euler六jet忠实，真权σ→selfσ−2；R316 H*为π0/全Q0/λ+1，13核self rank7已付不重。R323 −8 self0、−6二维/−4八维覆满，E=(π,全Q)实际闭锥=E(U)。[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费run43740129876/a5383f6/job132891272196的C4/C6 MEMBER、8新人工/fresh2492/2198原差；原R126编号保。只E(U0)=E(R0)维10、核9/6、零权商0，非全权等像。两原商截面/全部原型桥基准/有限复制收缩得E(S)=E(U)及紧集C1截面，wholepure/wholeQ/T0真可付，非任意不相容积。λ仍正；mixed/period/同规范不自动付。
 
-**全period/joint仍欠**：R184/185/221/225的G″平台0、逐活动flux0、q=F/(AHp²)禁极点/residue、真C∞端germ/双collar共同iff；p简单零可二阶极点，六矩核投影非七矩。同一w要同时解两period和ruling，pure0不授左尾0，旧45span/48×135子式仅iff。**R335原整包Ω已准确修正**：Ω=∫u‴V(u²,0)，正式pure=raw/16；全响应5Ω−16∫u‴πV=4C_tail，C_tail由真实二次尾Green G(a,b)=a″b−a′b′+ab″及μ/ν三矩给出。L/[P,R]反例差2μ0∫u″³/15，故无尾16/5一般错；全Z十八方向Ω0，复紧u自身三矩0时才clean，非零实u不可能。**R338真−6已付**：全20旧标签真尾经R207三维pure像因子化，C_tail=μ0M3(a+b+3d)/6；全13维−6pure核Ω0，K全部δ后继亦Ω0。限定annihilator Ω−16Lπ/5−2μ0M3ℓ_tail(π)/15消R−6；**R342首实际43745111286成功**：四原mixed根的π0成本A=N⁷G+315R0/32+315R2/16−315R3/32，在预定C7一参数族的Ω多项式准确0；10新人工过，3.665s/1,232,486乘积，旧根/pure/self/rank0。仅该族未检出，非普遍恒等/完整period；续真泛函结构。
+**全period/joint**：R184/185/221/225原iff保G″平台/逐活动flux/q=F/(AHp²)禁极点residue/真C∞端germ和双collar；p简单零允许二阶极点，六矩核非七矩。同一w同时解两period/ruling，pure0不授左尾0，45span/48×135只是iff。R335全响应5Ω−16∫u‴πV=4C_tail，正式π=raw/16，真实二次Green尾不可删；原反例差2μ0M3/15保。R338已付−6尾经三维pure像因子化。**R344全权提升已付**：完整pure有序左u/右v的2+2系数Γ满足8Γ=q_J，原三阶自伴保尾收缩h_J=3C；三真实右bump矩Vandermonde反演μu，得Ω=16Lπ/5+(32/15)Σc_j∫u‴Γπ(u,vj)，覆盖全R（额外Z的π/Ω0）。故全权R∩kerπ总Ω0，不能独立用响应保pure改Ω。该有限读出在全U定义Λ、全R上0；**未证Λ在U非零或U−6恒零**。R342 run43745111286十新人工过，只对预定C7族A=N⁷G+315R0/32+315R2/16−315R3/32的Ω整λ多项式0；无见证/无普遍恒等，旧根/秩0重跑。续原U真实完整成本结构。
 
 **R304/306/311旧阻断**：同0<κ²<.01共振偶芽下完整面积/三directed/E−3一层正∫g″4，排不交rank-one圆及固定包连续幅轨道；R306原mixed/Green尾推广W=g′f″−f′g″=0，双hook0⇔W0。原第三只需单hook AfW0，regular弱核被排，Af0曲开段仍有效rank-two入口，不是一般C²刚性。
 
@@ -50,4 +50,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴、K=−J³Af保真尾；旧八人
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 85f9206320a2f2d38f7a27bb7805d5a3646b3df4，双README blob同。API读取不冒实际pull。
+断连API复核main 66d37555cabd632dccf8fbd237af6221bdd2d7b2，双README blob同。API读取不冒实际pull。

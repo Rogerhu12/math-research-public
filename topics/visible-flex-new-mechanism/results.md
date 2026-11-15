@@ -348,3 +348,10 @@ expanded_pool_rebound_records=[]，没有新分支的实际x/y重绑或SOC，不
 [R346完整原式与剩余表](results/R346-positive-six-target-cone-pays-a-further-complete-Gaussian-zero-moment.md)先核R259/R263未付Y相关三pair，保K1/K3真实有序核与全36odd。新增C0=I0[Z,Y]：原L/Y、U/Y self保真实Green端项并准确抵消，跨微包Γ全0；其even向量沿(αβ,1)。同真实even母的Fκ/J两行minor在实际正h非零，取Fκ0、J/h=±τ；固定最终中心/间距/全copy后保全部δ²项选择有限正δ，取得两真实符号。两α给四实际射线全R²正锥，非指定抽象积分值或借旧六能量主根。
 
 新C0与B1/B2完整权−3/−5/−4；四新列先以H3正幅伸缩，使上四行小、C0不变，与R343八列构成真实rank6/严格正核。固定有限H后全组再以S5正幅解(0,0,−Cold/S²)，新增B1/B2均0、C0准确清残，Ψ正成本S−2小；R343弱块最终中心全不动。原同F★ controller有限N恢复Ψ/三行/指定层，九旧外矩和新C0全部全θ保持。同一新圆仍欠PY/WY各三矩、ZY第1/2矩；16只是形式even位置，PY第一矩两even本有准确重复。整个72/完整层/period/同规范未授。无新执行，完成即推。
+
+
+## R344：真实有序pure交叉项恢复全部权的响应总通量
+
+[R344完整原式](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)扩展R338单权结论。二次多项式p对原右零、可有左尾的w作用准确为原sl2一阶算子；逐原DT全部槽保非紧qE后，正式pure有序左u/右v的2+2系数满足8Γ=q_J。原D³自伴与左Green端给h_J=3C，无删尾。三个真实右侧同宽平移bump的原三矩Vandermonde可逆，以其线性组合恢复μu，准确得Ω(V)=16∫u‴πV/5+(32/15)Σc_j∫u‴ΓπV(u,vj)对全部R成立；额外全Z响应π/Ω0补足，非只R71。
+
+故全权Ω(R∩kerπ)=0，包含wholeE核；R335反例的2μ0M3/15由有序pure交叉修正准确恢复，不能改称无尾16/5。该有限原pure读出可在所有U直接定义Λ且消整个R，无需πU=πR；在已付U−6上恰等R338读出并aux无关。未证Λ在U非零或相关U−6恒零，R342仍仅声明族的精确零。附原权−5全部28+8生成尾手表，36非rank。后继继续原U完整成本的兼容结构；全period/同规范未授。

@@ -143,9 +143,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R346](results/R346-positive-six-target-cone-pays-a-further-complete-Gaussian-zero-moment.md)新增C0=I0[Z,Y]全θ。完整L/Y、U/Y self保Green尾准确消项、跨微包Γ0；实际even母奇扰动的(Fκ,J/h)对(γ,z)真minor给Fκ0及±J，保最后中心/全部δ²项得到严格两号；两个α的四射线±(αβ,1)全R²正锥。C0/B1/B2真权−3/−5/−4，四新列与R343八列的实际块三角极限给有限六目标正核；再共同S伸缩、S5正幅解(0,0,−Cold/S²)，保九矩而Ψ成本S−2可小，弱中心全不动。最后同F★/全72零controller有限N复原Ψ/三directed/指定层。仍欠PY与WY各三外矩、ZY的第1/2矩，共16形式even位置；PY第一矩两even恒等只一共同值，不能按位置报rank。原K1/K3有序尾须保，旧B1已限制PY的primitive差不能任意指定。下一从真平移/全self选新接口，其他完整层/period/同规范仍欠。
 
 
-### R335/R338：真实Green尾的权−6因子化已付，续真实U值
+### R344：全权响应总通量经完整pure因子化，续原U上的真实值
 
-[R335](results/R335-complete-response-flux-identity-with-quadratic-tail-Green-correction.md)全响应5Ω−16∫u‴πV=4C_tail保真二次尾。新[R338](results/R338-weight-minus-six-pure-response-total-flux-and-exact-tail-coordinate.md)逐原20标签手算尾，复用R207原三维pure坐标与完整Jacobi关系，C_tail=μ0M3ℓ_tail(πV)/6、ℓ(aρ0+bρ2+dρ3)=a+b+3d。故全13维R−6∩kerπ的整包Ω=0；K全部δ串亦Ω0但不授Q0。限定读出A=Ω−16Lπ/5−2μ0M3ℓ(π)/15消R−6，可真权投影得全R annihilator；尚未证它在U非零。[R342首观察设计](notes/weight-minus6-total-flux-observer-design-20261115.md)及新源码/请求/独立workflow已发：由原R138五Leibniz分配和R207表准确取A=N⁷G+315R0/32+315R2/16−315R3/32、πA0；只读R144四既有mixed−2根，观察−4∫u‴M−2。预定uλ=t8(1−t)8[1+λ(2t+3t²+5t³)]，真实锚4逐可达积分保常数，完整Q[λ]次数≤5。首次十新增人工/新观察仅Actions、旧根编译/pure/self/rank/旧人工0；非zero给C4连续的真C∞紧见证，zero只该族未检出。[R342首实际](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md) run43745111286/f9f4030成功，十新人工过；完整ΩA λ系数全0，3.665秒/1,232,486乘积，旧根/pure/self/rank0，无见证。只该族未检出，不升级普遍恒等；接保完整Green尾的U−6泛函结构，邻权/整circle两period与全E联合仍欠，不自动换族重跑。
+[R344](results/R344-general-pure-factorization-of-total-response-flux-with-ordered-Green-tails.md)从R335完整Green出发，原多项式输入对有左尾/右零输出仍是sl2一阶作用；逐原槽得有序pure 2+2系数8Γ=q_J，三阶自伴的真左端给h_J=3C。选三个真正右侧平移bump，以真实三矩Vandermonde反演左u矩，得到Ω=16Lπ/5+(32/15)Σc_j∫u‴Γπ(u,vj)对全部R成立；额外第三Z响应π/Ω0补足全空间，不需猜奇权pure秩或全R δ闭合。故全权R∩kerπ的总Ω0，R335无尾16/5反例仍由新增交叉项准确恢复。32/15 finite纯读出在全U定义真正Λ消全R，不假πU=πR；U−6上借原R207恰等R338且aux无关，普遍U上不预设aux无关/非零。28+8个权−5原生成尾附表只是标签覆盖非rank。
+
+[R342首次实际](results/R342-declared-profile-family-has-zero-weight-minus6-total-flux.md)run43745111286/f9f4030十新人工过，四原mixed根对预定C7族的ΩA整Q[λ]系数0，无见证；只族未检出。下一从R56/R109原完整U成本及保边界结构证明或否定Λ(A*)普遍零，不另换族/重跑旧pure/self/rank。内部Af部分flux可用R345局部E核改变，与整个包Ω不同；完整period/同规范仍欠。
 
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
