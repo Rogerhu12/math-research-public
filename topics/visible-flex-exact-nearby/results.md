@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 actual 真端点与完整无限高频试验列。** [实际报告](notes/2026-11-15-R133-actual-true-cap-adjoint-boundary-high-Grams.md)：public43666716585/1 child0/10门/3完整stage。真9/10 Hermite左端、25/8真outer、全97含mean与全部高频输出；逆角P0/P1、alias/无限尾均实际通过。trWT<1.132443e−9、trWL<1.833309e−19、trWR<1.146113e−80，κ<13.367450、c*²<.010388235。全7908体残差仍待合成，不冒称完整Wcap/全逆。
+
 - **R133 同97后验与方向保持的真Poisson收缩合同。** [P1–7](notes/2026-11-15-R133-complete-same97-cap-posterior-and-Poisson-contract.md)将7908完整body与真左/outer/high同输入Grams按正固定权组合为完整Wcap；formal+Hessian与true残差仅按完整组比较，保97含mean全部有符号项。再用同repair/真BR输入单位的三种实际HY计算tr(HY Wcap)，不以绝对entry范数代替。帽区可以先独立出数；实际Grams未全成之前不授数值bound/全无限逆。
 
 - **R133 whole original root piece：完整第一修正源的解析消费定理。** [P1–12](results/R133-supplement-whole-physical-root-piece-complete-first-Airy-sources.md)在原piece2549及scalar germ真含域门下消费已成Taylor12/Nraw10范数，按新h支付原R1/6000全部尾；真实Airy JP、九个非局部词与五个独立mean项全保。根不确定带两侧分别付2√长度；外部旧行逐字复用，跨人工边界只重权，不从旧upper总量相减。未移动物理seam，实际数值consumer继续。

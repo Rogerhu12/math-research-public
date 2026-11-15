@@ -245,3 +245,11 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ## 2026-11-15 02:18:56 UTC — 同97 cap posterior 完整解析合同
 
 亲读P1–7全文，核weighted Cauchy正权、两完整body分组、真outer DN/mean fee、完整c*和κ、全signed Loewner矩阵、actual修正中心与真BR97同单位。合同11826B SHA1298eb965fca2fd9c4968b454a4d1c2ae991c4db6b53e98a021b1cc94e8a8ae8独推；边界使用已发布manifestb753b786…。有向目标为零但矩阵非零仍付正fallback权，禁止逐entry选小。Wcap先独立出数，再接实际完整右Poisson的body/negative/cut三HY，整组trace优化不重算旧math。尚缺实际全7908+三边界stage及完整5970方向Green/Poisson，未授无限逆或全参数Schur。只读README核f928770b516d71e541f4dc83caf362e1604cbd4c未变。
+
+## 2026-11-15 02:20:29 UTC — actual cap 真端点与无限high三stage
+
+亲读5982B实际报告SHA703d1dcb741b3fa2ccca784e952b7bfebea4aae68fc31459f73e85087a9dc4f5、process20113B SHA9b4aaf5fb77229e475dc1ecc003121bac01601d81deb7229a7e753d463fa4c6c及summary14928B SHAbe014360bf6d2915e8a9323d0d262b10c4cf4ffa364f703b7b7f02122c95e1a5。43666716585/1真实child0/10门、28.852352370s，native24540B SHA6a845f62a4984f6dd438ec4060b7a87f139479feaa656472a7f0525d01de7b92。root不读取binary/gzip；三原97 signed数组留原public artifact14142391334/1761363B。
+
+完整左/outer/high三stage：trWL<1.833309e−19、trWR<1.146113e−80、trWRB<1.271736e−51、trWR0<5.061954e−21、trWT<1.132443e−9；完整tail-only<8.971376e−89。逆角在ρ1/16实际P0<.005483389/P1<.022178877，原独立mean响应和outer正old/current比较全保。κ<13.367450、c*²<.010388235实际核原repair/Hessian门。0target/旧trial/原四格重算；全7908 ordinary body未完成前不宣称Wcap或无限逆。
+
+实际最新pull02:15:02.259762→0c9a439142dd5f4c175a39bd64519105c1dc07a0、两README diff空，本次只读核05734b5ccb6de249b5bc378ea88fbae91c882b2c。H9797B全存notes/2026-11-15-handoff-before-deep-source-jets-and-cap-boundaries.md SHA0e62ecf2b8e9e5db2b18370a890191eefd6fff4390ed140537d01c6e47983f07再缩写尾网络，不丢历史。02:19本机真pull仍报No usable execution environment。
