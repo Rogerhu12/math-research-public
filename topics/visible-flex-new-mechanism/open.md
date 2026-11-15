@@ -20,6 +20,8 @@
 
 下一新改变只给group7–10的primary/SOC线性曲率提案加floor1e−7，保原scale100单位；其他提案、真实58/两网全物理门及真实η下降验收保持。初态a9eda、22输入、首trust1/32000（继承最后成功尺度），旧mintrust和预算不动。当前基点该行低于新floor，实际可行性不能预称。独立SOC可逆缩放纸证可准备，但先不与此次内余量混合；不降mintrust、延时或原样重复，不把timeout当不可行/唯一病态证据。
 
+[曲率内余量实现](notes/spectral-metric-curvature-proposal-reserve-implementation-20261115.md)及22输入driver已成，两源ff0cf08e/c3bc10bc。新人工39.72s全过，全部新表/四gate/SHA字典无损，压力摘要91731B；90args全部22路径存在。本提交single metric_spectral_curvature_reserve公开派发，真实进展待回执。
+
 历史谱43669710846已消Schur权重偏差，adaptive全20值谱slack仍与η−.26吻合至1.11e−16；旧Schur失败43667582193与已付输入不重跑。新实际到达即继续下一具体缺口。
 
 ### 仍须支付
