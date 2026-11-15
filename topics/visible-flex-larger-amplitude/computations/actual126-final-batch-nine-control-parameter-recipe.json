@@ -1,0 +1,78 @@
+{
+  "schema": "R259-explicit-nine-control-raw-quadratic-shape-recipe-v1",
+  "origin": {
+    "log_summary_bytes": 62555,
+    "log_summary_sha256": "c3126e3d46b1be0e3880e8f096db9b79172ef7649484e4ac4d94f9630ffa0613",
+    "parameter_field": "final.parameters",
+    "producer_file": "geometry_20261115_small_core_nine_control_curved_recipe.py",
+    "producer_schema": "R259-nine-control-full-three-two-normal-curved-trust-recipe-v1",
+    "producer_sha256": "824c0967e5de5cc9079a80018b66b1232c78ce406a6de4e0d7ab4cdee876bdaf",
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43699369075",
+    "source_commit": "b80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a",
+    "status_bytes": 1512486,
+    "status_sha256": "0b18be04bcd7331138c326d78a4975fdfb11fbc9a5b1b60418c0159812c8848b"
+  },
+  "literal_parameters": [
+    0.35492774711914105,
+    0.21566361592859798,
+    0.4379141866432249,
+    -0.07589766636480334,
+    -0.029272702912017837,
+    0.7848308334598069,
+    0.6773078757503707,
+    0.4883556214691533,
+    0.21781452899246784
+  ],
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "family": {
+    "schema": "three-original-supports-even-odd-raw-quadratic-C2-controls-v1",
+    "support_indices": [
+      0,
+      1,
+      2
+    ],
+    "original_even_controls": 3,
+    "retained_odd_controls": 3,
+    "new_quadratic_controls": 3,
+    "new_parameter_count": 9,
+    "parameter_order": [
+      "p1",
+      "p2",
+      "p3",
+      "theta1",
+      "theta2",
+      "theta3",
+      "eta1",
+      "eta2",
+      "eta3"
+    ],
+    "old_six_column_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "old_four_column_indices": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "newly_added_quadratic_column_indices": [
+      6,
+      7,
+      8
+    ],
+    "formula": "sum p_i*b_i + sum theta_i*b_i*t_i + sum eta_i*b_i*t_i^2, t_i=2*x_i-1",
+    "raw_quadratic_controls_not_centered": true,
+    "zero_new_quadratics_reduces_to_previous_six": true
+  }
+}

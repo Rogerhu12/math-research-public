@@ -38,3 +38,5 @@
 - [九系数全部冻结的真正450维同度量重构与完整DN入口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)：070b9b35/1610d6fb，保全九末系数及两个原有限求值路径，K=k=0、338+112=450，真实父网格二分+全knots；源码/输入输出合同已付，实际接受场、闭面及连续证书另付。
 
 - [R287：actual126九控制八批64接受与完整读回](results/R287-actual126-eight-nine-control-batches.md)：112原外trial、20接受内tol=false，W279.1236575692574→49.739792814348064；所有科学final仍false，原九FD/Arb/圆与完整64方向段/8视图身份已核，同源真实末点继续。
+
+- [request127：actual126第8批真末点的原九控制续算](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)：recipee667ca5f/requestd75c1478，原84+2源和wrapper不改，最多八独立原批次；实际结果另读。

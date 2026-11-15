@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 09:39:06 UTC root终端已恢复，真实 git pull --rebase origin main 后读main e897efadb26b24295bd594bbe77ac03a82081e5d；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e897efadb26b24295bd594bbe77ac03a82081e5d。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
+规则同步记录：2026-11-15 09:40:36 UTC root终端已恢复，真实 git pull --rebase origin main 后读main 52625589001c2318c38b48f6160a31cf5273f6bb；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 52625589001c2318c38b48f6160a31cf5273f6bb。双README后续有变只读diff即按新规；Actions规则runner仍2700秒真实pull。
 
 只在公开Rogerhu12/math-research-public；科学计算/科学模块导入/数值测试只本库Actions。本地/code-mode仅源/证明编辑、原输出选择、语法、元数据/hash及Git；PAT仅终端瞬时环境，禁文件/Git/回复/连接参数。
 
@@ -28,7 +28,7 @@ M112/T112/N2048、699节点、453态/236036free，前三core固定、scalar.99/c
 
 [125/R284](results/R284-actual125-nine-control-eight-further-acceptances.md)原8接受/17trial，W431.4178353348037→279.12365756925647，全部final false；原分段已完整读/核，末九p为126初值，raw已清。
 
-[126实际R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。8批各8接受/14trial，共64接受/112trial；fresh W279.1236575692574→49.739792814348064、末unit首项−9.973944268492758，所有final仍false。20接受内tol=false但原Armijo接受；各.1 reset/末.0125。8primary/64group/8完整view身份核同，域/FD/圆已读，stop只8批数，raw全清。链20119/e7d726ca；末status1512486/0b18be04、primary62555/c3126e3d、view113376/b5e1f7ad。127从真第8末p准备同源8批，wrapper b15a/family0865/search824c/readerf57及84+2/own26不改，尚未发布。
+[126实际R287](results/R287-actual126-eight-nine-control-batches.md)run43699369075/sourceb80ec2ad7d63918eb12fa6f02eef57fd5b6f5a1a/compute132766891270/report132767703974均success。8批各8接受/14trial，共64接受/112trial；fresh W279.1236575692574→49.739792814348064、末unit首项−9.973944268492758，所有final仍false。20接受内tol=false但原Armijo接受；各.1 reset/末.0125。8primary/64group/8完整view身份核同，域/FD/圆已读，stop只8批数，raw全清。链20119/e7d726ca；末status1512486/0b18be04、primary62555/c3126e3d、view113376/b5e1f7ad。[127入口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)已发布：真第8末p、recipee667ca5f/requestd75c1478/wffa921b4e，原wrapper b15a/family0865/search824c/readerf57及84+2/own26全不改，.1 reset/8批/全final保持；真实run待取。
 
 [九full112源](notes/2026-11-15-nine-control-three-active-nonzero112-interface.md)00e4d2c3/f18f4740保6shape/3active453及真实H全J→原FD→同owner fullDN/finalaudit，无九正λ场。[九冻结450](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)070b9b35/1610d6fb已发布：全九末系数、点/批两原有限路径，K=k=0左338右112，原物理338+全部自由core112。只接真00e4接受父或自身真450，保父词后fresh RHS/二分+全knots，max_nodes必填；完整原求解门不减。未选未来父/run；exact接独立SavedPrefix/闭面消费者。
 

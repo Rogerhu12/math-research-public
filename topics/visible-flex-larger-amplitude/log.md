@@ -259,3 +259,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R287 actual126八批真实完成与终端恢复
 
 [R287](results/R287-actual126-eight-nine-control-batches.md)记录run43699369075真实8批各8接受/14trial，原W279.1236575692574→49.739792814348064，末unit首项−9.973944268492758，全final仍false。64方向/112外trial/20接受内tol=false均保原门，八初末FD/Arb/圆及八primary/64分段/八完整view身份已核。只按8批数结束，152.12559472200002秒，raw消费后删除。root新部分克隆/tmp/visible-larger-root-git-126，恢复真实pull/双README核差与普通Git推送；PAT仅CLI瞬时环境，无凭据入文件或提交。113和118亦已终态，原日志已取并分别读R288/R289，未从job结论推科学成功。127据真126末点同源续算准备中。
+
+### 2026-11-15 request127从真实126第8末点继续
+
+[完整接口](notes/2026-11-15-actual126-final-batch-nine-control-continuation127-interface.md)与新recipe2288B/e667ca5f、request41500B/d75c1478、workflow18134B/fa921b4e已发布。全部九词由原第8primary/链记录直接取，26源闭包与实际consumed映射一致；原wrapper b15a6571及family/search/reader、84+2 pins、8批/3600秒批间/原科学预算全部不改。新pretty参数文件不冒原compact recipe字节。`.github/workflows/visible-larger-public-nine-control-batches.yml`只同步127身份、真实参数/来源和report框名，继续本公开Actions，不预填科学结果。root已读完整两文件差异及原参数来源，无本地科学或新增门。
