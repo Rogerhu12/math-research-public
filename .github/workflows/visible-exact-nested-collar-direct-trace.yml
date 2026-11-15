@@ -1,0 +1,76 @@
+name: visible-exact nested collar direct trace
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-nested-collar-direct-trace.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-nested-collar-direct-trace
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  NESTED_TRACE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-nested-collar-direct-trace-CI-inputs.json
+  NESTED_TRACE_MANIFEST_SHA: 191aec33eee20cae472857dc10d5d7cc81f2023738310e56fe02feabb30f0e1d
+  NESTED_TRACE_SCI_SHA: 57ca8b5b9357a875180c7aec2caef7ab975a2e1b5d64b0ae6b88f510dd606204
+  NESTED_TRACE_WORKER_SHA: 954f9ae55a43e9f554ac389a03f11f719e170094284eab17a3305bea2222dbb1
+  NESTED_TRACE_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  NESTED_TRACE_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  nested-collar-direct-trace:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the small scientific entry and existing conclusions
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_nested_collar_direct_trace_CI.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-nested-collar-direct-trace-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+            /topics/visible-flex-exact-nearby/notes/nested_collar_direct_trace_ci/
+      - name: Check the independently pinned worker and complete input manifest
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          python - <<'PY_NESTED_TRACE'
+          import ast,hashlib,json,os,pathlib
+          w=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_nested_collar_direct_trace_CI.py')
+          assert hashlib.sha256(w.read_bytes()).hexdigest()==os.environ['NESTED_TRACE_WORKER_SHA']
+          ast.parse(w.read_text(),filename=str(w))
+          p=pathlib.Path(os.environ['NESTED_TRACE_MANIFEST'])
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['NESTED_TRACE_MANIFEST_SHA']
+          m=json.loads(p.read_bytes())
+          assert m['source_sha256']==os.environ['NESTED_TRACE_SCI_SHA']
+          r=pathlib.Path(os.environ['NESTED_TRACE_RULES'])
+          assert hashlib.sha256(r.read_bytes()).hexdigest()==os.environ['NESTED_TRACE_RULES_SHA']
+          PY_NESTED_TRACE
+      - name: Install the identical directed scalar runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Consume completed small conclusions for all 768 NC BD scalar triples
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_nested_collar_direct_trace_CI.py
+          --repo "$GITHUB_WORKSPACE"
+          --work "$RUNNER_TEMP/visible-exact-nested-collar-direct-trace"
+          --manifest "$NESTED_TRACE_MANIFEST" --manifest-sha "$NESTED_TRACE_MANIFEST_SHA"
+          --rules "$NESTED_TRACE_RULES" --compute-minutes 20
+      # Rule15: no numerical native, large audit, Release or Actions artifact is retained.

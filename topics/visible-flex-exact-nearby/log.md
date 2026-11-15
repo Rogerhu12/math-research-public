@@ -173,3 +173,9 @@ newton原52d7c65f/18940/b3ee4a0e；root全文独核PF1–30、回读原P23a/P24/
 phase合同d22fc849/16459/246c81ac，root全文PW1–21、原6765382c/0f1383da负一阶合同及3abd0f6b/41797/0a3fb8e1全部8×7实际行、18门、两外端行亲读；SP原20门/真实根cut/forward-reverse endpoint保原字。完整rootpair≤s+U，所以新系数9 C_R(u_i+1_{i=s})；不是仅unstable trace，也不把输入9(17/16)与输出9互换。B_F含完整低/两mean，外端mean不顶替root trace；raw body/collar jumps逐列、单cut双投影可加合，两普通正源同分区才做Euclidean结合。严格L1源与严格jump同C_1，严格L2仅普通源换C_2；根窗跳另mixed C_R，均无错加√长度。所有7未知实际输入仍保，current RJ→waist已成product仅读copy。此条纯解析，phase继续最小新scalarconsumer，未声称actual系数/BVP/strong门。
 
 Green16:06:28 process7c062042/52701/780eb272全差亲读，future/product各5970done、past4832@16:06:11，combined146/queued151/三consumer，childnull；异步consumer计数不相加当终值。真pull16:06:27.195912到a4f9ced29c3ac422210c122e93b2730c55b4ebdd双README空diff，actual容量198862299/inventorybc9627f4；原run未干预。H/open第3节压缩前6f6bc02d同路径保原全部成功失败/域/数字。最新只读READMEb5639920bccd154e867112d0b1be662ce32d43c4未变。
+
+### 2026-11-15 16:09:50 UTC — NC/BD 新完整标量消费者冻结并部署
+
+根亲取final四件SCI466cdf59/25200/57ca8b5b、workerca62b72c/35594/954f9ae5、manifest62a7a788/14492/191aec33、flowbb1758b2/3794/69c4dbc4；全文SCI433行与worker559行、manifest9当前小pin/209382B/0history、完整flow均核。phase独核projection/nested/整row选择，newton独核inputs/coeff；SCI最后diff仅失败分支considered1536/evaluated2valid、768examined口径，全部公式不变。使用LC原成功compact/process/recovery与WC原小source、最终NC558f47f7/BDbb792252，绝不恢复4650旧native或重算旧源。新12个t1门独立于16结构门，失败只无行不冒逆；768全部NC/BD审计仅临时，12选行同N保全部五列，选择只η_N upper，非entrymin或总误差最优。
+
+320bit内部、输出仅outward Arb24至16位格式，global Pnorm≥pc且一次；SCI≤45000B/report≤12000B/完整preGit≤59000B，先打印≤1000B实际状态。静态纯格式模型42447B及总payload<55KB，非科学计算。公开worker真pull/两READMEdiff/容量120KB预留/同成功复用/非FF循环全保，无data artifact。此commit仅部署，尚无actual新门/数值；下一亲取run/job/complete小结论。最新只读README294a9920485cd5e1f7e71d678c47ebbbb2465bc4双blob未变。
