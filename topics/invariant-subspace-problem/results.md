@@ -167,3 +167,6 @@
 
 
 - [R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)：保全部强位的7^k低孔四次幂界；原连续尾完整L_m的有限Neumann低输入右逆与完整伴随MP低输出读数，显式B_s(x)不付环境幂零维数，原T/返回/同W接口仍开。
+
+
+- [R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：九个真实平方目标完整运输后，已付17条零点五阶左jet与h0t_j全部配对为0 mod s6；原9×3/最终9×7矩阵均精确零，非成员性证明。

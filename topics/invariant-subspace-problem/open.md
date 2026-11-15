@@ -219,3 +219,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：全部强位的低孔预算与原连续尾局部伴随读数
 
 [正式证明](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)保C=A_m+D_<的全部R强位，得7^k exp[−(770/256)(k−s)+^4]，阈值为同一输入总孔s。真实连续D_x逐孔MP/高层右逆给有限Neumann原式L_m G=I，x≥3072+48s时低孔成本B_s(x)=(s+3)√(2/S_x)exp[sτ+τ^(4/3)]，从而完整(L_m*)†的低输出同界，完整自然域与核投影保留。只付log B=O_s(log^(4/3)x)；原T carry修正、真实返回P_Ehat、同W与ordinary费用继续，不能将环境Riordan保孔移给返回投影。
+
+
+### 2026-11-15：九原平方目标通过当前十七条零点五阶左jet检验
+
+[准确结论](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)核完整共动目标t_j=n_j²、原h0三阶系数−917294284800及实际Z3Z4Z5；原9×3二阶平方坐标和最后9×7配对全部为零，十恒等纯方向也为零。实际run43702348535/1.509597193秒。故本17条left5不能否定成员性；不声称全部五阶左核已穷尽或原目标在像内。下一先读已付λ3平方，再保2805三normal来源计算完整第六延拓，只有实际left6才能检验s6障碍。
