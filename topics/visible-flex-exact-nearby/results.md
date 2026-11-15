@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 根值剥离第一 Airy 导数 actual（2026-11-15）**：[完整报告](results/R133-supplement-actual-root-value-subtracted-first-Airy-derivatives.md)。run43663147595 child0/9门，原数学零重算；新1036行覆盖R=.001/.002/.005，负local上界分别<4.337713e20/5.654995e20/7.954848e20。后三半径的新fixed-X/正optical路径失败，3323行完整原界保留。根mean、653个真seam记录与所有两阶导数保；全新nonlocal/mean、strong return及97 cutoff仍继续。
+
 - **R133 十二阶 old-rho 第一 Airy Taylor 的仅追加计算入口（2026-11-15）**：89pin五件消费原75自然stage与高根0..15；SCI42048094…只补leading9..14、forcing/w1 7..12、18个范数行和三个N12预算。原六阶/258 cubic/所有FFT与辅助域均逐字保，完整新旧stage有独立身份和续接检查。见 [合同](results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md)；这是公开Actions执行入口，尚非实际数值改进。
 
 - **R133 计算入口：精确根值剥离后的完整有向导数与 local 源。** 25个仓库文件及9个原artifact文件逐SHA冻结；原7个 normalized-forcing stage直接恢复，新7norm/1forcing尾/6profiles/4359标量行只消费已成数据。SCI `3e3bd6b66a90c1244c9b97f0e07d6cd5e15845780f80c87aee8912a41008f139`，manifest `5158bc631e1cbf3eddea6b6ad1a2e28ac2e782eea1f94da5970f1ac7c3e1c426`。完整均值与真接缝保，负实δ和正optical路径分核；实际新数值尚待run。
