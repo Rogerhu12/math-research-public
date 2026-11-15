@@ -43,7 +43,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
 - Q第二已成22头，临时目录selected-natural-second-left-regauged；binding c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e。完整36RHS单位解18,124,389B/SHA9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d已保存，后继先求normal4在旧1736零行的新核，只为真新方向续解，不重95.542秒解；旧HF/T及两E/33+36自由保留。
-- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：λ2原9×3/现9×7及λ3原9×12/现9×7全零；只当前固定17条left5无障碍，未付成员性/left6。第六须保H4/H5及全部2805顶行；cochain-export f2e03d6c已排30秒/512MiB，读原四phase不改旧manifest，真4738×7 pack及λ4/5平方读数先付。
+- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：七条固定left5的λ0…λ5与九n_j²全部配对零，故整截断λ≤5·h0n_j²恒零；仍非成员性。实际4738×7 pack逻辑SHAcf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640已在zero-sixth-preparation（11.027009277秒）。完整第六driver a6c423b9已排300秒/2GiB/through final；保2805顶行、全H4/H5核、中/低层完整运输及全6188乘回，各层可续，未预填新秩。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭

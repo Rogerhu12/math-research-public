@@ -169,7 +169,7 @@
 - [R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)：保全部强位的7^k低孔四次幂界；原连续尾完整L_m的有限Neumann低输入右逆与完整伴随MP低输出读数，显式B_s(x)不付环境幂零维数，原T/返回/同W接口仍开。
 
 
-- [R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：九原平方目标完整运输，当前17条零点left5与h0t_j均为0 mod s6；原λ2的9×3、λ3的9×12及现七条对应9×7全部精确零。λ3预读还不构成六阶提升，原成员性保持开放。
+- [R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：九原平方目标完整运输，固定七条left5的全部λ0…λ5配对均零，十恒等方向也零；整截断与h0t_j恒零，仍非完整左零向量/成员性。实际完整4738×7 cochain包已导出供第六页。
 
 
 - [R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：同原I,J第二自然左jet22头及全95788产品，Q第二rank∈[9,11]；同选D91/cofactor88/原换列88、K99下条件统一费8627与目标209。保两E完整自由及原成员性前提，normal4/5仍开。
