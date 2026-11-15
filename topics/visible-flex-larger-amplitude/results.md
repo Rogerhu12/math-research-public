@@ -106,3 +106,5 @@
 - [R300：准确累计桥、cut校准与完整九控制连续新族](results/R300-continuous-nine-control-scalar-family-and-cut-calibration.md)（已证明，明确输入下）：两速度Hermite片加显式coast给正半径/严格速度余量；九degree6/7/8独立且0附近开可行，cut三次collar准确匹配原合法尾E两jet。有效计算另需收敛oracle；显式新g不继承旧场/旧p可行性，实际factory与全部重求解继续。
 
 - [R303：actual122两份部分有限root方向及受控停止](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)：同一fresh64 J/R273的original488段/refined187段，全部全norm null，exit3为预算partial；固定trace/单方向/未访行与sentinel范围逐项证明。入口包含fresh前置8008.370981772s，完整原摘要与raw身份保留；没有full224J/native/audit或全局几何结果。
+
+- [R301：actual135真实半径继承的32批完整读回](results/R301-actual135-carried-radius-thirty-two-batches.md)：256接受/357trial，W仅到4.963213788986739、radius到9.5367431640625e−8，全部final false；86接受inner未达和72外拒inner已达、32行FD/Arb/圆、896文字身份及真末p/r全部保全。有限弱响应不证无根，继续独立完整merit全局化与原非零场。

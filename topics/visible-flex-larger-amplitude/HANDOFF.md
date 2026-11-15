@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 11:24:57 UTC root依根8经API读main 9c1a8a0ffac2e2fb280487954a051d7746896d20；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:20:07/a6245d8e3ee7682e2bb48cd76197664d73ee03b1；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
+规则同步记录：2026-11-15 11:25:33 UTC root依根8经API读main 7fe923a341423bb61eec49bdb3d1c3ddab13dc19；双README未变（根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec），非git pull。最近Actions真pull 11:20:07/a6245d8e3ee7682e2bb48cd76197664d73ee03b1；root真pull 10:41:31/1017f3871a3617071e2bf6259a052e62bb7d6757。恢复终端即pull核diff。
 
 只在公开Rogerhu12/math-research-public；科学计算/导入/测试仅本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -22,7 +22,7 @@ root唯一发布者；部分克隆/tmp/visible-larger-root-git-126。终端可�
 
 [134 R296](results/R296-actual134-thirty-two-nine-control-batches.md)：run43704292938/source19911f56968ad3581636e77d240c4d5e9064645f，32批256接受/2322trial，W5.003044586685467→4.963213836829105，末radius.000390625。完整原值/例外/全部身份见正文，全部final false，raw已清。
 
-[R295](results/R295-nine-control-radius-reset-and-ideal-model-descent.md)保理想下降及有限误差边界。[135入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)接R296真第32批九p/r=.000390625；ed78684f/24c5ff04/df856e9e、87+3/26→27，recipe494f73d1/requesta68b9556/wf06ef8696。原8×20/12×20/全部final/32批/3600s批间及75/90分钟全保，真末radius携带、零不修复。run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c/job132790776755于11:05:30创建，现两job success/32批完整，chain63769B/90e5aa2f已核，256方向读回中；未付112/native。
+[135 R301](results/R301-actual135-carried-radius-thirty-two-batches.md)：run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c，两job成功/32批256接受357trial，W4.963213836829105→4.963213788986739；radius .000390625→9.5367431640625e−8。86接受inner false、72外拒inner已达；完整FD/Arb/453圆及896原文字身份已核，全部final false。真末p/r/SHA见正文；不再重置仍微降。R299完整merit选择另接138，从与135相同的真134父/半径比较，非135末续跑；旧135保持。
 
 [128九H入口](notes/2026-11-15-request128-actual127-nine-control-height-path-interface.md)：真127第8九p/λ=.001/fresh-circle，0433/d075/c756保e830同owner全112H(s)、六shape/三active453、全J/FD/fullDN/finalaudit。110pins/29closure/四输入+两ready+78源、300min总/330science350job；run43702058809/source3ee6c53840032444b2b88bb4ff98d69f038239d3/job132775124928，10:01:42起science，未有正λ接受，不预接450。
 

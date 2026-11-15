@@ -1,12 +1,12 @@
 # 当前未解决的问题
 
-## 最新实际134与真实半径接续
+## 最新实际135与下一完整merit算法
 
 [R296](results/R296-actual134-thirty-two-nine-control-batches.md)已完整读回32批：256原方向接受、2322外trial/2066拒、81接受inner目标未达；20外trial内部371域失败由原函数保有限候选，4次内层12步用满均外拒。32初末FD/Arb/453圆均完成，全部unit/full112/nonzero/native/success仍false。W5.003044586685467→4.963213836829105；后段接受alpha到2^-17，末最小σ9=.001251424267791722，不能把慢降只归因.1reset或据SVD判无根。
 
-[135完整真实半径入口](notes/2026-11-15-nine-control-carried-radius-thirty-two-batch-interface.md)已发布：从真实第32批九参数与final_relative_trust_radius=.000390625续接；新ed78684f/24c5ff04/df856e9e完整保原外8×20/内12×20、每批fresh J及全部final。recipe494f73d1/requesta68b9556/workflow06ef8696、87+3源/26→27闭包、原32批/3600s批间/75science90job；真final半径含末拒绝quarter，零不修复，不用末接受点推测。原停止/90KB显式不完整/全32行及失败保留，旧未发布稿弃其身份，实际run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c/job132790776755于11:05:30创建并进入science。现存192组整列FD不认证弱奇向量/切向梯度，不因此加新数学门；继续原全3目标的全局化/导数。
+[135 R301完整结果](results/R301-actual135-carried-radius-thirty-two-batches.md)：run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c，32批全部完成，256接受/357外trial/101拒，W4.963213836829105→4.963213788986739；真radius .000390625→9.5367431640625e−8。86接受保内目标未达，72外拒已有内目标达标；0外域异常与115次normal全回溯拒绝返回有限点须区分。192组/1728列FD、Arb/453圆及896原JSON身份完整，全部unit/full112/nonzero/native/success false，真实末九p及半径/SHA在正文。去重置仍微降，不把弱σ9=.0001573075243699922/condition1.0298838911775264e12或整列FD成功当精确弱方向/无根证明。下一独立138采用R299同轨迹完整merit选择，从与135相同的真134末p/radius作可比首方向，不冒135末续跑；所有原外层与最终责任继续。
 
-2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，已有122/124/128/130/133继续。
+2026-11-15终端环境unavailable；根第8条允许只用GitHub集成传<100KB文本。记录API新main及规则对照，保最近真实Actions/root pull来源；恢复后立刻实际pull。所有数学仍只在本公开库Actions，122已完整读回可得部分结果，124/128/130/133/136仍按各自请求继续。
 
 本课题尚未完成。目前只接受了大幅开放前缀，闭面和[README](README.md)全部标准均须实际付清；达到最低标准后继续提高比例，不在阶段、时间或批次数预算处结束。实时输入、run及环境见[HANDOFF](HANDOFF.md)。此前全文保存在[request134检查点](open-checkpoint-through-request134-2026-11-15.md)，它仍链接request126及[actual112检查点](open-checkpoint-through-actual112-2026-11-15.md)及更早记录。正式结论、完整原数值、来源与限制以各results/note为准。
 
@@ -14,7 +14,7 @@
 
 ## 1. 九控制低三条件的真实接续
 
-原123/125/126/127/129及完整8批算法、全部原试探/FD/Arb/圆例外、真九参数与字段身份保于[request134检查点](open-checkpoint-through-request134-2026-11-15.md)及[R287](results/R287-actual126-eight-nine-control-batches.md)、[R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)、[R291](results/R291-actual129-eight-nine-control-batches.md)。其中仅标量候选W逐次下降，完整112/native标志一直未付；已有原记录不靠摘要或SHA恢复已删场。当前真实接续为下列131/134。
+原123/125/126/127/129及完整8批算法、全部原试探/FD/Arb/圆例外、真九参数与字段身份保于[request134检查点](open-checkpoint-through-request134-2026-11-15.md)及[R287](results/R287-actual126-eight-nine-control-batches.md)、[R290](results/R290-actual127-eight-nine-control-batches-and-retained-final-responsibilities.md)、[R291](results/R291-actual129-eight-nine-control-batches.md)。其中仅标量候选W逐次下降，完整112/native标志一直未付；已有原记录不靠摘要或SHA恢复已删场。当前131/134/135完整原结果已登记，独立138按明确新算法继续。
 
 [R292实际131](results/R292-actual131-eight-nine-control-batches.md)八批64接受/236trial/18接受inner false，W6.426170559507028→5.003044586685377，全final false；完整原primary/方向/FD/Arb/圆和真末p/来源见正文。批2/8首方向全步接受，不能只由reset归因慢降。[134入口](notes/2026-11-15-request134-thirty-two-nine-control-batch-interface.md)保85+2/own26、原最多32批和全部科学门，实际完整结果现见R296。旧123–134全部细节仍在原检查点与正式结果，不再在open重复。
 

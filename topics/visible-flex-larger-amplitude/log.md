@@ -375,3 +375,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R303实际122完整可得原输出
 
 [R303](results/R303-actual122-partial-finite-root-directions-and-controlled-stop.md)登记run43696328387/source05b1dc3b09f586b2f12f13ad45a82dc07b97778b：original488段/refined187段，均science预算partial/三全norm null，0 shadow mismatch仅付已执行原值；未读2/1局部失败不冒全timeout。1fresh64全J/R273后受控sentinel，原十trial未执行，入口exit3不冒native拒绝；全日志/27431B原摘要逐字核，完整数组身份非完成。直接证明部分行、单方向及固定trace责任，137预算计入fresh前置，继续在跑科学和真实新求解。
+
+## 2026-11-15 /root — R301实际135全32批读回
+
+[R301](results/R301-actual135-carried-radius-thirty-two-batches.md)已全文读并直接发布；run43707220616/source41ef8d7de1843bd8c831eb9d9166673bb552409c全部32批256接受357trial，W4.963213836829105→4.963213788986739，radius到9.5367431640625e−8，全部最终门false。保86合法接受inner未达、72外拒inner已达、115 normal回溯全拒与0外域异常的区别，全部FD/Arb/圆与896原文字身份及末p/r/SHA完整；root独立核原chain并全文读结论。独立138准备R299选择器，与135同真实134父/初radius比较首方向，旧135保持且不预填改善；持续136/133与新准确g接线。
