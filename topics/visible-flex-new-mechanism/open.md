@@ -12,7 +12,7 @@
 
 [103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
 
-[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)与[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c：18新检查过，两个固定容量保全部旧ID/余槽；η.266513719074→.266474122294→.266443965488，各11primary+1SOC/活动94.195与86.885秒。末m11全17guard真保B.000125，但配额尽，没有使用heldB的后继模型。全部原门保而.26/1e−4未达，旧失败/漂移保原notes。
+[成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c；18新检查过，η分两新阶段至.266443965488、每段11primary+1SOC，最后17guard真但未有后继使用heldB。全部旧门/ID/容量与费用/失败/漂移保原note，不重已付阶段。
 
 [选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
 
@@ -158,3 +158,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R285 后续：全部对称乘积的真实基线与新 shape 控制
 
 [R285](results/R285-principal-splitting-of-symmetric-Gaussian-products.md)准确分离30对称外矩的三阶平方主项及保全尾的C²余项。固定母包/单χ/全部copy时，连Lc/Mc的32必要量主向量只在次数≤10位置空间，span≤11；下界5来自R284。下一计算原mixed外矩和新shape的独立比值，或求真实左核兼容；不能把C²余项称旧F已经固定，也不能凭增加同χ位置宣完整控制。未付全部角、0/1层、canonical period/同w和主几何门。
+
+
+### R283 后续：内部零平台的一组三个真实端历史矩
+
+[R283](results/R283-canonical-end-layer-three-history-moments-and-pure-symmetry-cancellation.md)从原平台齐次方程和完整cross得真实端势及三个hρ加权矩。已安装whole pure0后，两mixed目标共用Q_e=P_e[Wfc]=2P_e[C(g;ff)]；完全对称三次加权历史消失，不是点态尾消失。完整block外端自动过，相邻两包同一零平台只需一组。下一对内部平台用原一次m、二次mm/面积来源支付实际有序Q_e；未证明面积/能量门推出，平台/flux/Laurent和同w另保。

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后实际pull已读规则提交：`39176227ae4f5191c1f4278bf5e697d25cb09add`；时间2026-11-15 14:21:04 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后实际pull已读规则提交：`3360e42efa1da7cc2ece958312086e481800fab7`；时间2026-11-15 14:22:15 UTC；双README无差。每次pull后核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 14:14:00 UTC实际pull/read `6eb7f1f968522b9aaa7b54ec8e41e16f6a13978e`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。此前公开Actions的真实pull和NFF复核保原receipt/note，断连API读取从未冒pull。
 
@@ -43,11 +43,13 @@ R254/258/261给全Z=H7⊕J3⊕χ8维18，Af自伴且Af f0，K=−J³Af保同右�
 
 **R276原canonical端界**：R56真实恢复给G=P+Tf+p²t^-4B，保Π2/Π3历史及右锚。原EL类的一次层准确有限化；平台/flux先付时逆germ光滑iff一次层零。非零首层p^-1发散不能由Cp修复，完整period仍欠控制解。R281支付新解析纤维适配。
 
-**R281新解析同F圆**：固定ψ×偶多项式在even C²域稠密；真实minor沿多项式线给P0全区正的最大秩母包和解析纠正方向。χ=ψQ保R279正balance/C¹有限N根，最终ψ[P0+ΣaP+zN^-3QcosNy]全区prefactor正；可从最初接R280五块，全部72面积/六能量同零。真实p=t^-2 a_e exp(−c/t)、内部p/AH零有限。保最后圆全canonical尾，整个Tf经D+ψ′/ψ有限消积分，清分母后不同频率多项式指数独立，端门等价有限准确系数零并排非零全平例外。平台/flux已付时这恰iff逆germ光滑；未求实际尾/系数/rank，不授period或joint。
+**R281解析同F圆**：固定ψ×偶多项式C²稠密，真minor多项式线给全区正P0及解析纠正/χ。R280先定布局权再同F有限N根，保72面积/六能量与prefactor全区正。真实p=t^-2 a_e exp(−c/t)、内部p/AH有限退化；保整个canonical Tf，D+ψ′/ψ有限消积分、频率独立及亚纯性排全平例外。平台/flux先付时端门准确有限iff，实际值原欠。
 
 **R282/284对称history**：R282原式给十个ErEs，E−3²恰iff新H0/H1/H2零（H2保低阶项），并证此前各门不蕴含H0。R284现用六真实交替high/low包：五principal多项式行化{1,x,x²,q9,q10}，六minor首2520X12·Vandermonde同号，cofactor正核给R5正锥。同F完整五量C¹收敛、一个有限N真根付H0/H1/H2/Lc/Mc；五最后block逐一做，全部72面积/六能量及整圆E−3²同零。可从最初用R281解析族。余九乘积/0、1层/period/joint欠，下一原式处理，不当五维控制全fourth。
 
 **R285全部对称乘积主项**：保真实尾的C²降阶后，30外矩主项为−Σa_i²d_i∫x^jα_rα_s(u_i‴)²；全部C²余项仍在完整基线。原L/U/V等六输出α已逐式核。固定母包/单χ/完整copy的32必要量主向量是位置次数≤10多项式，span≤11而非32维控制，R284给下界5。未求full rank/左核及余角C²门；继续原mixed项或新shape控制，不能只加同χ位置。
+
+**R283原canonical端三矩**：真实第三平台齐次方程给cross一次层¼hρ(Rf′−Rxf)−¼∂s[hv_s(Rf′−Rxf)]，ρ=vss+v−kw；完整第三闭合才消端势，余hρ乘1、ζ、ζ²+h^-2三矩。实际R210/213的whole-period pure0消完全对称三次加权历史，绝非点态尾零。两个mixed目标在g=ℓf包共用Q_e=P_e[Wfc]=2P_e[C(g;ff)]，一次层为−(ℓ,1)D_Qf/(8κ)。完整block外端自动0，内部同平台只记一组三矩；原一次m/二次mm/面积全保。内部Q值、平台/flux/Laurent/joint仍欠。
 
 **一般period与joint仍欠（R184/185/221/225）**：G″平台0、逐活动flux0、q=F/(AHp²)全部禁极点/residue、真C∞端germ及双collar共同iff；p简单零的二阶极点允许。R185六矩核投影不额外加七个局部门。同一w须联立V0+2κLf w0与K0+Bθw∈同三矩W；R213 Gc=−Vd/(4κ)、Gs=−Ve/(2κ)，pure0不授真左尾0。R221两period成员+五相位45span+48×135增广子式/降秩消极点只是完整iff，尚无实际解。
 
