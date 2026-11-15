@@ -499,3 +499,8 @@
 - R798真实请求已启用，root全文核core/wrapper/workflow：只作原短矩阵真实RREF/minor和690锚点积，q/ξ stride79与v/t stride39的全部1640坐标比较；不计算全表或原基逆。
 - exact_height核两实际ZIP及698+1513输入文件SHA、原basis/recipe/配置和来源链；root核全部冻结源码绑定，所有新数学留公开Actions。完整阶段和最小源bundle一日续接。
 - proofcc245ea6、methodf7fd0900、core334935ac、wrappere54e0781冻结；新minor和输出未预填。R799/R800工程接续，原β/η/高度及主目标仍OPEN。
+
+## 2026-11-15 16:39 Asia/Taipei · serre-public-astra-20261115
+- R799完整工程已审并启用：只补V6 q82..108，V7至95/V8至108；最多三原锚点，以完整20坐标分批真实模秩和最终准确候选minor认证。新尾区间矩形在相乘前排除旧系数，八次stride121不生成七次多余尾。
+- root核wrapper/来源/断点与核心，exact_height独立全文核核心数学；ordinary实际IO核R775六文件/R7861244/R7951513，全部2763输入SHA/schema通过。无本地新数学，原输入只从R795及其活跃父包读取。
+- core32ff9d38、wrapperf74313ac、proofca6abba8、methodd1e489cd冻结；R798真实run43695452689已运行，R787/R797继续。R800新尾与R801长尾接口接续，主目标OPEN。
