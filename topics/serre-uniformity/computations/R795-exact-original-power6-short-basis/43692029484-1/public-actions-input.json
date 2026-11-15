@@ -1,0 +1,69 @@
+{
+  "result": "R795-exact-original-power6-short-basis",
+  "p": 41,
+  "source_repository": "Rogerhu12/math-research-public",
+  "source_commit": "ac6d8fff1e1905539339bf1bec39365fd62312ba",
+  "job": {
+    "result": "R795-exact-original-power6-short-basis",
+    "p": 41,
+    "ordinary_power": 6,
+    "ordinary_power_dimension": 1506,
+    "basis_bound_qY": 81,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "core": "R795_exact_power6_short_basis.py",
+    "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+    "method": "notes/R795-exact-ordinary-power6-prefix-method.md",
+    "R795_method_sha256": "084cc240ea34f2737a6939ef8066dffa536e3b80e35a20ab62f70298db296b25",
+    "proof": "results/R793-original-RR-pole-divisors-and-CM-local-algebra.md",
+    "R793_proof_sha256": "6f716b64432227244a46d91f01ae2f46ba6d4a5f893666693ed07dec9e2e5cab",
+    "workflow": ".github/workflows/serre-p41-exact-power6-short-basis.yml",
+    "retained_artifacts": {
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-power-6.json.gz": "05c5580b73eeba72b832e2a871221c19c482baf1c9656cab62a0c2c694ffafa1"
+        }
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      }
+    },
+    "resume": null
+  },
+  "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+  "method_sha256": "084cc240ea34f2737a6939ef8066dffa536e3b80e35a20ab62f70298db296b25",
+  "proof_sha256": "6f716b64432227244a46d91f01ae2f46ba6d4a5f893666693ed07dec9e2e5cab",
+  "driver_sha256": "8f92ec419fd7bc36fdec02eaef4848c95990339074cf0268a235194667fcf313",
+  "request_sha256": "9bb9c8dba4688d8bca045613851f92666f9e95ad8457165dc91188a4bfa867f4",
+  "root_readme_sha256": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+  "topic_readme_sha256": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d",
+  "workflow_sha256": "f20d25d0a713a5c5fd8af280c56ce11ddcdd9d2e93fc62afe8bdb65e15655262",
+  "download_helper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+  "publication_helper_sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+  "prepared_at_utc": "2026-11-15T07:54:37.810343+00:00",
+  "new_arithmetic": "only original power6 qY0..81; completed power1/5 factors consumed",
+  "multiplication_table_polar_divisor_beta_eta_or_height_claimed": false
+}

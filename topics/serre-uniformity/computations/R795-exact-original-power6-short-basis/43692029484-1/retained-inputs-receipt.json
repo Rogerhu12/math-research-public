@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "label": "R775",
+      "producer": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "artifact_id": 14148883593,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43679160495-1",
+        "archive_sha256": "a902a34432a26ff817443c859bd1f6d50953d9bc8800e8dad19c84966677597d",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "files": {
+          "p41-original-K-defined-RR-basis-certificate.json": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203",
+          "R775-basis-power-6.json.gz": "05c5580b73eeba72b832e2a871221c19c482baf1c9656cab62a0c2c694ffafa1"
+        }
+      },
+      "file_count": 6,
+      "all_sizes_sha256_and_original_schemas_verified": true
+    },
+    {
+      "label": "R786",
+      "producer": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-power5-basis-index.json.gz": "0bb7cfeda48d6759f1553dec74485a28dc16e31cf3d500a095963888973c9b35",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        }
+      },
+      "file_count": 1244,
+      "all_sizes_sha256_and_original_schemas_verified": true
+    }
+  ],
+  "all_inputs_from_verified_R795_active_bundle": false,
+  "only_power6_recipes_and_their_completed_power1_power5_factors_retained": true,
+  "old_arithmetic_recomputed": false
+}
