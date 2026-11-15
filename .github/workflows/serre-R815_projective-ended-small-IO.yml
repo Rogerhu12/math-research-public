@@ -1,0 +1,104 @@
+name: Serre R815 projective ended small IO review
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R815_projective-ended-small-IO-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R815-projective-ended-small-IO
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R805_public_success_io_audit.py
+            /topics/serre-uniformity/notes/R815_projective-ended-small-IO-request.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Actually pull main and compare both rule files with the read commit
+        run: |
+          python - <<'PY'
+          import hashlib
+          import importlib.util
+          import json
+          import os
+          from pathlib import Path
+          path = Path("topics/serre-uniformity/scripts/R805_public_success_io_audit.py")
+          assert hashlib.sha256(path.read_bytes()).hexdigest() == "5ae35d0c86b20a8b6234f3aac6059c6567cfbea73ed6f835d74f15ba48360e4f"
+          spec = importlib.util.spec_from_file_location("R815_projective_ended_rules_pull", path)
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          request = json.loads(Path("topics/serre-uniformity/notes/R815_projective-ended-small-IO-request.json").read_text())
+          root = Path(os.environ["RUNNER_TEMP"])/"serre-R815-projective-ended-small-IO-rules-pull"
+          (root/"audit-output").mkdir(parents=True, exist_ok=True)
+          module.pull_and_compare(root, request["rules_last_read_commit"])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R815-projective-ended-small-IO-rules-pull-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R815-projective-ended-small-IO-rules-pull/audit-output
+          retention-days: 1
+          if-no-files-found: warn
+
+  review:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/scripts/R815_projective_ended_small_IO.py
+            /topics/serre-uniformity/notes/R815_projective-ended-small-IO-request.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read actual ended source metadata and small diagnostic members only
+        run: |
+          python topics/serre-uniformity/scripts/R815_projective_ended_small_IO.py \
+            --request topics/serre-uniformity/notes/R815_projective-ended-small-IO-request.json \
+            --output "$RUNNER_TEMP/serre-R815-projective-ended-small-IO"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R815-projective-ended-small-IO-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-R815-projective-ended-small-IO
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

@@ -440,3 +440,8 @@
 - R787首42候选小IO43750891953已完整读：全D为unit/8570或8571bits，m0构造性通过、m1全部首非零；登记准确诊断、manifest/queue/LLL/回执SHA，不把falseFINAL的0误作未通过任何单阶。
 - R815新run43751142120/job132925208417同次AST已过、compute进行；规则job132925133766实际pull5abcb9cc、两README无diff。
 - 下一步复用旧42全格基研究56维增probe与准确A构造；本次push前专用rules132925255487实际pull至5abcb9ccfba85d6a708b1df94e6383ff549f72a7，两README无diff。
+
+### 2026-11-16 03:24 Asia/Taipei — serre-public-astra-20261115
+- R815新projective run43751142120已结束：compute exit2/error null，未成完整Mg/Γ；真实artifact14176572237/2719932638B/7884ab57。
+- 激活24,325B reader4a1336a7与仅本课题IO workflow，Range读实际小manifest/候选/LLL/早期残差/scan，跳2.7GB carrier；不重首prefix数学。
+- push前rules job132928338206真实pull至03b8326f34b980a3651d2d38e8a316dd7b2b6138，两README无diff；四原续算继续，root准备复用42全基的56维新消费者。
