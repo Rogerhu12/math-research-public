@@ -211,3 +211,7 @@ root全文亲读6889B报告bc19415f…、13372B process b782c9a2…、27436B sum
 2026-11-15 08:58:52 UTC：Y1–19独推，SHA 0a08995fcfc7699249e9ef20bb661bfdcd3545896dbb4b2cc81f61c0eaf963ee（11343B）。root以连续中心已付A1/64界和actual X建立inverse-image，再以复周期积分付phase/两mean；newton独核全局inverse与Y18–19高有限窗，最高fB导指数261202<262144。无数学重算。root亲读Green08:53 process40254B/SHA038b1345…、真pull08:53:30.521237→664026df7a8e29197e90bc10831ce894c46d5721两README diff空；只读核48912a2f7a4a7882fe124f07555f54a4e82fb6d4两blob不变。
 
 2026-11-15 09:00:38 UTC：F实际zero-width全周期帽及finite-Sob Φ独推，SHA 3959bb3674bcbd119568299a28c7f6f96d9fb27c3f8348cfa65cbd0ae49a834a（17214B）。root全文核；newton亲读原Bmean及当前未闭mean lift，核F14–21完整张量列和与F26–28有限jets/两向Schur；唯一措辞修正为线性LC^-1<9而完整DZΦ<10，不改费用。状态改已证，未新算任何旧科学。H旧有限尾细账指向既有逐字归档及9e1ce9…，全门保留。只读README核9e1ce9f76d30894f7ca7d83f0b595615da2dd508两blob未变。
+
+### 2026-11-15 09:10:30 UTC — 精确两件旧计算输出普通删除部署；压缩检查点
+
+根/题README在f18f47408f097b6d417cd2a77651ed9a76fc8beb只读核无变；runner09:03:33.114875已真pull到aa622bafea7666f3888b8b10eff7d2ebc0a47979、两diff空。压缩前完整HANDOFF保于7acf18ba28b29550117544e5e7b42b923587f6c5同路径，全部门/失败/恢复身份有效。已全文原R57§2/5、R56§5及两producer，确认仅526295B real parameter N与779017B complex-angle certificate为computed输出。新allowlist只path/blob/bytes两个原版本，R57 SHA已知，R56由runnerstream实际记录；旧逻辑不变，零数学/无artifact/普通删除留历史，所有inputs/code/parameters/结论保。worker SHA09f9d899988b5699169d57e12f0235c446b0d928571bf866fcc63a740ba7fa77，flow ba697bcece70433e882612e6f4e6af60ca416505b26fb5e4b1eccd0aec6de153；静态diff/括号核已过，AST/实际删除/体积等待本公开仓库Actions，不预称成功。

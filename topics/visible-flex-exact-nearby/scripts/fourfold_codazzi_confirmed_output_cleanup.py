@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove one confirmed computational output; exact historical bytes remain recoverable.
+"""Remove two confirmed computational outputs; exact historical bytes remain recoverable.
 
 Storage administration only: no target, interval, Fourier, or mathematical stage
 is evaluated.  No Release or Actions artifact is uploaded.  No history rewrite.
@@ -34,21 +34,38 @@ READMES = ("README.md", TOPIC + "/README.md")
 # The earlier 11834-file deletion and its complete metadata remain untouched.
 CONFIRMED_OUTPUTS = json.loads(r'''[
   {
-    "bytes": 321489,
-    "git_blob": "3a430a83adc68117d2ec170f22100b4276293b25",
-    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_step5_fixed_tau_parameter_source_full.json.gz",
-    "sha256": "33c2bdddb0c4e1172275b961da0a2e5e23486299168efe80c4cb6870c30dd556",
-    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_fixed_tau_parameter_bounds.py",
-    "producer_sha256": "0f93dd40ca924fd22a5df1e00e800c0cc0d2db4ac6e5cad753f7e0f3042841b2",
-    "run_reference": "Original R80 section 6 records the actual local computation (CPU 151.225 seconds; wall 1389.709 seconds). No Actions run ID is invented.",
+    "bytes": 526295,
+    "git_blob": "f3a2a6ef5c9b005e2f08eeb992a060b62412f645",
+    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_parameter_N_interval.json",
+    "sha256": "b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a",
+    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_N_interval.py",
+    "producer_sha256": "284874fb52ec8739bf2ad0526c21805169f4b14ad9cf0f66dbf65f629007b3b0",
+    "run_reference": "The fully read original R57 sections 2 and 5 record the completed computation on 592 original closed cells, all passed with no pending or failed cells. The original proof records the exact output SHA256 and complete command. No Actions run ID is invented.",
     "classification_evidence": {
-      "path": "topics/visible-flex-exact-nearby/results/R80-full-core-fixed-tau-parameter-sources.md",
-      "git_blob": "e398f1f2f48f67b30316a9f31fffd55e560d1071",
-      "bytes": 13097,
-      "sha256": "37efb206c4d975554b44e712cb2195dea59e0eb638a7dd84dbc931011fc12528"
+      "path": "topics/visible-flex-exact-nearby/results/R57-real-parameter-N-tube-and-common-root.md",
+      "git_blob": "ea84dbd0e77c9fdac58792a44cfcf8d7270ed0e6",
+      "bytes": 12625,
+      "sha256": "d6111abd585c297aa805179534ce8e3b46b8bb006dd19badf1ec96d3809b6e91"
     },
-    "reason": "Original complete computed fixed-tau parameter-source output: 169 bulk leaves from 167 original closed spans plus the full turn region, with two failed coarse attempts retained. The report gives the exact output SHA256, producer, actual runtime and command. This is a reproducible numerical output, not an input-parameter definition.",
-    "parameters_reference": "Retain the R80 proof, producer and frozen manifest notes/2026-11-12-R80-actual-parameter-source-frozen-manifest.json. Original 192-bit Arb/Acb, Q256 angular primitive, radial series order 7, physical theta strip 1/56, both branches and p radius 1/2000000. Original source certificate and all parameter/input records remain; recovery uses actual predeletion commit/path with exact bytes and SHA256, without rerunning accepted mathematics."
+    "reason": "Complete directed real-parameter N-tube computed interval certificate for the exact independent control box. All finite cells, genuine infinite angular primitive, interval DFT and tails are computed outputs. This is not an input-parameter definition.",
+    "parameters_reference": "Keep the original R57 proof section 5 complete command, unchanged producer, checkpoint type_fixed_step02_d5_jet_corrected_probe.npz, inputs type_fixed_step02_d5_jet_interval_inputs.npz, Schur directions, corrected step02 parameter map48, actual_parameter_direction.npz and origin type_fixed_step02_d5_jet_core_N_interval.json. Parameter radius is exact binary64 0.01 and the original core endpoint is exact binary64 0.24. Later consumers restore the original certificate by actual predeletion commit/path and verify all identities; no accepted mathematics is rerun."
+  },
+  {
+    "bytes": 779017,
+    "git_blob": "bbec05ce87c38f667cdfcc2aecab3175d5d6d999",
+    "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_parameter_complex_angle_1over256.json",
+    "sha256": null,
+    "producer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_parameter_characteristic_strip.py",
+    "producer_sha256": "c74ce0761d46bb3da9f1db7a938a3c2236dce48bf85222f768366bed223e7236",
+    "run_reference": "The fully read original R56 section 5 records the complete extension of the same R57 independent control box over all 592 closed cells to physical angular width 1/256, with Re Nraw < -0.19191. The proof names this exact output and its adapter producer. No Actions run ID or unrecorded output SHA256 is invented.",
+    "classification_evidence": {
+      "path": "topics/visible-flex-exact-nearby/results/R56-complex-angle-characteristic-denominator-and-flow-tube.md",
+      "git_blob": "0d3acf9dc5c0a344e932e68a181165897d8edfa7",
+      "bytes": 13054,
+      "sha256": "67497fb636d789557b765d2c045541a2d1de94ad0eab76d8b9aa4b6d30e9b975"
+    },
+    "reason": "Computed complete complex-angle Nraw continuation certificate of the previously accepted R57 independent parameter box. The unchanged producer explicitly writes the full computed rows, source and input hashes, gate and maximum bounds. Exact Git blob and byte count guard this original version; this worker records its actual streamed SHA256 before ordinary deletion.",
+    "parameters_reference": "Retain R56 section 5, the exact unchanged adapter source and dependencies, original inputs and actual parameter direction. Adapter inputs are --inputs, --direction and --real-certificate for the completed R57 certificate b52537b755e7b5475dc945a5781c0d57a93e71ccdf39ec90891c236fcae2438a, with --width 1/256. The real certificate supplies the exact parameter interval and original closed radial cells. Restore both selected original certificate files from their actual predeletion commit/path when needed, without recomputing either accepted result."
   }
 ]''')
 CONFIRMED_BY_PATH = {row["path"]: row for row in CONFIRMED_OUTPUTS}
@@ -226,7 +243,7 @@ def metadata_inventory(repo, commit, api):
 def classification(path, item):
     reviewed = CONFIRMED_BY_PATH.get(path)
     if reviewed is None:
-        return "retain_outside_exact_allowlist", "not the single reviewed original computational output"
+        return "retain_outside_exact_allowlist", "not either reviewed original computational output"
     if item["mode"] not in ("100644", "100755"):
         return "retain_changed_reviewed_path", "nonregular object retained"
     if (item["git_blob"], item["bytes"]) != (reviewed["git_blob"], reviewed["bytes"]):
@@ -431,7 +448,7 @@ def main():
     destination = repo / dest_rel
     source = Path(__file__).resolve()
     state = {
-        "kind": "ordinary_public_topic_one_confirmed_output_deletion",
+        "kind": "ordinary_public_topic_two_confirmed_outputs_deletion",
         "complete": False, "started_utc": now(), "repository": REPOSITORY,
         "topic": TOPIC, "source_path": TOPIC + "/scripts/" + source.name,
         "source_sha256": sha256(source.read_bytes()),
@@ -520,7 +537,7 @@ def main():
         "predeletion_commit": original, "pre_staging_main_commit": current,
         "producer": state["source_path"], "producer_sha256": state["source_sha256"],
         "parameters": {"reviewed_rules_path": args.reviewed_rules, "reviewed_rules_sha256": RULES_SHA256, "maximum_topic_bytes": MAX_TOPIC_BYTES,
-            "selection": "only one exact path/Git-blob/byte-count triple reviewed as a computed output"},
+            "selection": "only two exact path/Git-blob/byte-count triples reviewed as computed outputs"},
         "complete_reviewed_output_allowlist": CONFIRMED_OUTPUTS,
         "original_cleanup_receipts": prior_receipts,
         "original_cleanup_run": PRIOR_RUN,
@@ -570,7 +587,7 @@ def main():
     small["topic_budget_claim"] = "Exact post-push tree size is checked separately; unknown parameters are not deleted to reach the limit."
     readable_json(destination / "process.json", small)
     note = (
-        "# Ordinary deletion of one confirmed computational output\n\n"
+        "# Ordinary deletion of two confirmed computational outputs\n\n"
         "Storage administration only: no mathematical target or certificate is evaluated, and no data are uploaded to a Release or Actions artifact.\n\n"
         f"- Public repository: {REPOSITORY}.\n"
         f"- Immutable original commit: {original}.\n"
@@ -579,7 +596,7 @@ def main():
         f"- Staged ordinary deletions: {len(removable)}; bytes: {state['staged_deleted_original_bytes']}.\n"
         f"- Manifest: {name}; SHA-256 {receipt['sha256']}.\n"
         f"- Worker: {state['source_path']}; SHA-256 {state['source_sha256']}.\n\n"
-        "The exact one-path allowlist comes from the current metadata tree and the fully read original R80 section 6 and source certificate. No generic filename classification is reused. The previous 11834 deleted files are not rehashed; only the one reviewed output version is eligible. The manifest retains every exact path, Git blob, byte count, SHA-256, predeletion commit and original producer/parameter/run reference. All scripts, conclusions, parameter/identity records and unlisted paths remain. Concurrent newer versions are preserved.\n\n"
+        "The exact two-path allowlist comes from the current metadata tree, the fully read original R57 sections 2 and 5, R56 section 5, and both unchanged producers. No generic filename classification is reused. The previous 11834 deleted files and the later R80 deletion remain untouched and are not rehashed; only these two reviewed output versions are eligible. The manifest retains every exact path, Git blob, byte count, SHA-256, predeletion commit and original producer/parameter/run reference. All scripts, conclusions, parameter/identity records and unlisted paths remain. Concurrent newer versions are preserved.\n\n"
         "## Restore an original input for a continuing calculation\n\n"
         "Use the exact manifest entry in the public repository:\n\n"
         "~~~sh\n"
@@ -596,12 +613,12 @@ def main():
         return
     git(repo, ["config", "user.name", "visible-exact-actions"])
     git(repo, ["config", "user.email", "visible-exact-actions@users.noreply.github.com"])
-    git(repo, ["commit", "-m", "Remove one reviewed visible-exact computed output with exact history restore metadata"])
+    git(repo, ["commit", "-m", "Remove two reviewed visible-exact computed outputs with exact history restore metadata"])
     publication = sync.push_until_success()
     after = metadata_inventory(repo, publication, api)
     after_bytes = sum(item["bytes"] for item in after.values())
     final = {
-        "kind": "actual_one_confirmed_output_deletion_publication",
+        "kind": "actual_two_confirmed_outputs_deletion_publication",
         "run_id": run_id, "run_attempt": attempt,
         "ordinary_deletion_commit": publication, "predeletion_commit": original,
         "topic_bytes_at_published_commit": after_bytes,
