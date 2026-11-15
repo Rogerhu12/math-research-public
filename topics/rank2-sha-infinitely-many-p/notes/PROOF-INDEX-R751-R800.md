@@ -35,3 +35,5 @@
 - [R765](../results/R765-original-zero-angle-and-unavoidable-nonfactor-first-correction.md)：已证明原完整F整除来源的准确最低t阶r_F及下界ceil((m−2)/4)_+；k<r_F时，原第三单位行13+k排除全部F整除首次修正。任何完整R须给非零实际restriction并消到N0=s−13，同时命中代表无关normal行ν_k=−c_k≠0；全部19角/U0/w13/carry保，该行不冒全左核，真正高接触像与全normal同R仍开。
 
 - [R764](../results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md)：已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。
+
+- [R766](../results/R766-actual-principal-part-normal-functional-and-specified-small-obstruction.md)：已证明R765选定normal行准确下降到原实际主部像V_E′并杀全部H0(N³)；原n0/2/3列给d_k(v_k)=1的明确单位主部，完整低r右逆高尾保。高接触和指定单位行同解恰O_T(v_k)∈O_T(ker d_k)；若对偶O_T*ω=d_k有解，显示Λ_ω逐列杀全原M且对原cube首forcing取单位c_k。未判定该实际成员性，其他normal/两13/d₂仍由同R满足。

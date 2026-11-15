@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；持续研究，不以阶段结果或时长收尾。**
-- 最近已读规则提交：42f2764157e7f01c27a00f11819cf1bb403a59ec；2026-11-15 14:00:42 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:00:41 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
+- 最近已读规则提交：7e8879bb7ec4e04f4eb04d0f33a0a267823cd9ba；2026-11-15 14:01:17 UTC核两README无变。实际CI pull 2026-11-15 13:45:20 UTC/4dcc434d851238ed069e47468173387225597a5b（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:01:16 UTC仍无环境。最迟2026-11-15 14:25 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main，旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase重推至成功，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核根/题README；变动只读差异即执行、记提交。root15@708f058a变更已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 13:45:20 UTC/run43720635080/job132831644669、head4dcc434d，两README差异空且blob同；回执ci/rule-pull-20261115T134520.json。下次最迟14:25 UTC。
@@ -12,7 +12,7 @@
 
 ## 完整检查点与分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r764-r765.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–765已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+[压缩前全文](notes/2026-11-15-frontier-before-r764-r765.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–766已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta续R764条件负一行的完整五伙伴来源与全部浅独占支；deep续R766实际主部小矩阵与vF全normal同R；literature续O4/O6完整Selmer最早节点；root续新三格算术桥和全来源联立。
 固定四次E17及j0 E17/E24/E2312 rank2已付；全Selmer桥保完整Sha，仍须无穷不同p至少一条固定原J′非零。非中央负矩、有限p和附近变化来源均不完成。
 
@@ -45,7 +45,7 @@ v_F=π_L(F(t,g)/p)=eξ，c_F=e b_s t^−d0 u²/(2a)，L=h−k−13−ρ、d0=r�
 这些真实低窗均在首Gaussian前；≤13极仍读正则尾，不能独立指定v_F或从高轴中央零删掉它。
 
 R755全部cube=d^-CD F³H0(E)在kerMbar，进kerJbar iff H0∈t^d0；所有过门cube全值Bockstein零。未过门仅末(2d0−13)+行；修复PB须实际E来源低jet命中，修后𝔅系数−1/6、值类与选择无关，C4/ξ0/w13/U0及同R余块保。
-[R755增补](notes/2026-11-15-r755-entire-cube-first-bockstein-injection.md)：e_E<min(κ,h−(13−2d0)+)时整个cube限制Smith恰全p；全WD其它R仍可吸收。R765已付r_F≥ceil((m−2)/4)_+；k<r_F时任何首修正R|C非零、接触≥N0=s−13，并须命中实际restriction上的代表无关ν_k=−c_k≠0。该行非全左核，仍须计算高接触像及全normal同R。
+[R755增补](notes/2026-11-15-r755-entire-cube-first-bockstein-injection.md)：e_E<min(κ,h−(13−2d0)+)时整个cube限制Smith恰全p；全WD其它R仍可吸收。R765已付r_F≥ceil((m−2)/4)_+；k<r_F时任何首修正R|C非零、接触≥N0=s−13，ν_k=−c_k≠0。R766已证ν下降到真实V_E′的d_k并给原列单位v_k：k0用1−ι_r1，k≥1用Y³q3t^(k−1)−ι_r(seed|C)，整高尾保；故V_E′≠0。高接触同解iff O_T(v_k)∈O_T(ker d_k)；若实际O_T*ω=d_k，显示Λ_ω杀全M且取原cube forcing单位c_k。指定小矩阵尚未判定，继续全部normal/两13/d₂同R。
 
 ## 惰性新三格、原Norm3及其余门
 

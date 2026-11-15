@@ -202,3 +202,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 ### R764：真正同域差的原条件首行
 
 [R764](results/R764-y-preserving-six-axis-and-three-cd-exterior-domains.md) 已证明原整数正交六轴与whole S6绝对核，新轴t同时逐点固定Y和最终q*，给完整Y/t矩形及原中央零传播。三个CD域在精确浅环带互斥、深交相同；原O全失败门须m≥n才同域，移动E和归一W_j均保。共同域差仅留1mod3幂，首项为同原q/失败/E条件下的真实type5负一行；全部浅独占支和外部补偿仍在，未赋该条件行零或非零。接续计算保全部五伙伴的t正一收缩，连同全部CD/O/E门识别条件来源；不能以裸边际、全矩形零或单个条件非零删去其余环带。
+
+### R766：原单位主部与完整高接触的指定成员性
+
+[R766](results/R766-actual-principal-part-normal-functional-and-specified-small-obstruction.md) 已证明R765选定normal行准确下降到原实际主部像V_E′并杀全部H0(N³)；原n0/2/3列给d_k(v_k)=1的明确单位主部，完整低r右逆高尾保。高接触和指定单位行同解恰O_T(v_k)∈O_T(ker d_k)；若对偶O_T*ω=d_k有解，显示Λ_ω逐列杀全原M且对原cube首forcing取单位c_k。未判定该实际成员性，其他normal/两13/d₂仍由同R满足。接续解实际O_T*ω=d_k或判O_T(v_k)的真实余类；V_E′=0已被原单位列排除，不能拿它作非空非零门。原非cube v_F指定残数继续保留。
