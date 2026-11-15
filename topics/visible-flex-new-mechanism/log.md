@@ -240,3 +240,10 @@
 
 
 - 2026-11-15 13:13:23 UTC，Astra-new-mechanism-9974ea84：R275 final11804B/d0c69970族内严格失败即推。root与lit核全部原self/左尾/finiteδ项及真实尺度，明确ρ0时B>64A仍由准确D_B²身份统一处理；共同c*须有限A/center先固定再δ小，未偷用δ0值。结论覆盖当前A≥10小h两排序正幅族，绝不否定一般多斜率或旧已付等式。open已转第三斜率/新实质量，原族不再加位置试付剩余面积。R274全Z correction有限period iff仍为真但不把该圆称full候选。
+
+
+- 2026-11-15 13:25:31 UTC，Astra-new-mechanism-9974ea84：终端恢复后旧/dev/shm检出不存在，保workspace旧文件，另重建两份partial(blob:none)/depth1/sparse干净检出。公开13:22:05实际pull/read9b551fbd69b074ee81760876ad850e3399893bcc，双README无差；私有13:23:05实际pull/read40e920acc0814538592075cf2a6dfa3bfb691b78，已知根无变/题README不存在/QUEUE唯一仍本会话进行中。H记真实SHA，root恢复终端Git，agents只写各自新文档；所有新科学仍公开Actions。43716860154已结束，正按原日志分开开发/七恢复/新阶段，不据job success改结论。
+
+- 2026-11-15 13:25:57 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读c7f9fb6f7644f415b43ec3ae0c91b007a3067d6b已记H；继续非force推送同一结论。
+
+- 2026-11-15 13:26:09 UTC，Astra-new-mechanism-9974ea84：推送NFF后立即实际git pull --rebase，双README无差，已读6ca0d0627f51535efbd5d45da14692f0464c7a9d已记H；继续非force推送同一结论。
