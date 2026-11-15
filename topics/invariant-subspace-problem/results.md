@@ -465,3 +465,7 @@
 ### R150 附录：完整36核的原整数Dixon至第三十二位
 
 [完整证明与实际证据](results/R150-appendix-selected-infinity-exact-dixon-through-p32.md)从实际p⁴只推进28位，14.592554667秒；每位保6188×36原来源、全部4367输出残差身份与自由坐标I36，p⁸/p¹⁶/p³²重新以原整数乘回全真。全部修正/来源/产品及编译失败回执保存，84文件24916470存储字节均有SHA。非单位31-Smith若非零赋值≥32；108次平衡重建未完成整列，仍无精确Q核，所选char0秩仍[4318,4340]。只记录此实际精度，后继由真p³²接。
+
+### R271 附录：相邻强尾位的真投影配平与完整反对称Schur
+
+[自足全证明](results/R271-appendix-adjacent-strong-weight-balancing-and-complete-symmetric-source-schur.md)用精确对角S将相邻原权换几何平均；全部强对对称P上PS^±2P≤e^(2/m)，真实闭核K被P约化时，投影到SK与K在P上之差≤sqrt(e^(2/m)−1)，全强位数/孔窗一致。证明保正交的两项投影误差及全部反对称nuisance；完整Schur在e^±(2/m)倍真对称Gram之间，实际最小回返≤(e^(2/m)−e^(-2/m))||x_sym||²。真实V/K/扩块/物理joined空间逐一满足，固定测试强接近、同top差≤2epsilon；没有越过非交换LGL或普通λ。
