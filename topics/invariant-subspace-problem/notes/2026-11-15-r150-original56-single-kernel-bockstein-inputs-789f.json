@@ -1,0 +1,121 @@
+{
+  "format": "r150-original56-single-kernel-bockstein-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "dateUTC": "2026-11-15",
+  "source": {
+    "path": "notes/2026-11-15-r150-original56-single-kernel-bockstein-789f.py",
+    "blob": "7bcc6dec08648d2c0628ab711c80f81db27f2a92",
+    "bytes": 30109,
+    "sha256": "49a8a83e627d2db1ab76a2b37be6652e956cdd73a55181cc2e95f458a4848674"
+  },
+  "sourceDependencies": [
+    {
+      "path": "notes/2026-11-15-r150-complete-original56-local-outside-gcd-789f.py",
+      "blob": "6aa70edef4444856feb034a425c7b0e51d2f4da0",
+      "bytes": 29457,
+      "sha256": "0e111c2334bf62e4b4404d84c8af5e9f62ee99a6b64f766bad541c126b1e7fa4"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+      "blob": "766c8e072b176435223f767a1616e392731a6b92",
+      "bytes": 29189,
+      "sha256": "4ae559a6b1b5efdf3d88e1f59bc987895f0f6ab5ec8dd2d61d5a55db3ef9a1be"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+      "blob": "178a474ace771c3c934ca85fb500fef3f79425ef",
+      "bytes": 34432,
+      "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+    }
+  ],
+  "parentCore": {
+    "root": "{work}/original-global-projection-polynomial/checkpoints",
+    "binding": "ce358eac629541da0c9d35fd29c66424fa0d89ded97cfec93f324cf56e9d16ba",
+    "file": "polynomial-core-efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5.json.gz",
+    "bytes": 1394807,
+    "sha256": "8693870cd23a4693d840d2d27bc1e0676ff4b8253a2b9c85e7b3c267a8199a82",
+    "payloadSHA256": "efdb8a0cff5626575fb1e667c5753cf82dc040d0a3598444d61f5452db1d67a5",
+    "logicalSHA256": "752d21d7ca74ee5235c05ade9048ef48f120891c567abfb5132a4b2b33b745c8"
+  },
+  "upper": {
+    "root": "{work}/original-three-minor-determinant-upper",
+    "binding": "5fc42d162e51b638ce06bbd67c2afd5755539a95a3bf5a650c4155df0ed6c8ef",
+    "rawReceipt": {
+      "file": "three-minor-upper-receipt.json",
+      "bytes": 8436,
+      "sha256": "a18b3c1dd68890455a2b256adf1dfd9a9d690b60f81c99155be6e60a507dd145"
+    },
+    "file": "current-outside-gcd-upper.json.gz",
+    "bytes": 12999,
+    "sha256": "b6c26ab0cfae6a08dbdb02ebac570ef2fffaec953a0de4d9aef422b74815c3ab",
+    "payloadSHA256": "e1722fa0f09424affa18c29e4275858619cf4c789a891937fc6c6d4355a867c1",
+    "coefficientSHA256": "150089b4e115b8d975d4e4eb13492779a692a6af258094f852af22b7f34e652d"
+  },
+  "paidProfile": {
+    "runId": "43756208221",
+    "stepId": "complete-original56-local-outside-gcd-300-second",
+    "executionSource": "8e4025c0ef0ee422077b1fc66ece96d97c3c40e9",
+    "publishedReceipt": "notes/r150-source-kernel-session-789f/43756208221-complete-original56-local-outside-gcd-300-second.json",
+    "root": "{work}/complete-original56-local-outside-gcd",
+    "binding": "862cca4d82af7c8031de01117b2f18516c0d3622a73b4e794c4f3280a0fe9850",
+    "rawReceipt": {
+      "file": "complete-original56-outside-gcd-receipt.json",
+      "bytes": 6043,
+      "sha256": "26917bb0ac3058ce08c57b18f91bca119b42ad866c4264e98ad9d4a02a7382cc"
+    },
+    "state": {
+      "file": "checkpoints/state-slot-1.json.gz",
+      "generation": 27,
+      "bytes": 177991821,
+      "sha256": "068922367edfca1458b0bd729d16b1a092ecd53f7c3de306cbaa4439f38b462c",
+      "payloadSHA256": "669cddad863f7873b4b847ace1ef50af4e11647cba015a9958526404f04f30d0"
+    },
+    "squarefreeFactorSHA256": "c2e27cf7e732257b695a6fa655f24b2305fd817a779baa3965a2eccc5f663dc2",
+    "actualResidueRank": 21,
+    "actualResidueCorank": 1,
+    "wholeCompressedAndPayloadHashesRequired": true,
+    "onlyFirst21OperationObjectsDecoded": true,
+    "precisionTwoMatrixDecoded": false
+  },
+  "budget": {
+    "mathematicalSeconds": 300,
+    "memoryMiB": 2048,
+    "outerSeconds": 360,
+    "sourceMaximumSeconds": 1200
+  },
+  "argvTemplate": [
+    "--lower-source",
+    "{scripts}/2026-11-15-r150-complete-original56-local-outside-gcd-789f.py",
+    "--upper-source",
+    "{scripts}/2026-11-15-r150-original-three-minor-determinant-upper-789f.py",
+    "--core-source",
+    "{scripts}/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--parent-checkpoints",
+    "{work}/original-global-projection-polynomial/checkpoints",
+    "--upper-out",
+    "{work}/original-three-minor-determinant-upper",
+    "--profile-out",
+    "{work}/complete-original56-local-outside-gcd",
+    "--out",
+    "{work}/original56-single-kernel-bockstein",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "rawReceipt": "{work}/original56-single-kernel-bockstein/original56-single-kernel-bockstein-receipt.json",
+  "checkpoints": "{work}/original56-single-kernel-bockstein/checkpoints",
+  "newMathematicsExecutedBeforePublication": false,
+  "completionGates": [
+    "Exact paid raw and whole compressed/payload checkpoint hashes",
+    "All21 paid residue pivots and unit inverses reproduced in the same original square",
+    "All2870 selected-square Schur coordinate identities",
+    "Both21-row original single-RHS products",
+    "All56 original Ax=fE exact polynomial identities",
+    "All56 original correction products and E-Ay quotient/remainders",
+    "Complete support gcd over the whole squarefree f",
+    "Exact outside gcd f*g and divisibility into the paid upper f^2"
+  ],
+  "longTermPolicy": "Only small UTF-8 source, parameters, run metadata and hashes; recomputable arrays remain job-temporary."
+}
