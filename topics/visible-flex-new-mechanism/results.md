@@ -384,3 +384,8 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 原159恢复诊断的最小修复：保持原拒绝和全部科学输入
 
 [设计与新增检查范围](notes/height159-soc-hold-prefix-diagnostic-repair-20261115.md)针对run43705209195确定的信息丢失，仅把新consumer返回的第六prefix.status、stage.error/budget、已有池/预检/J计数在原成功检查之前打印，并存失败main/native摘要；缺失字段保持不可用。新driver89178B/17256713相对旧f6ff70d5仅六处差异，根与tail逐行核对，原六源/成功handoff/门/容量/98生产参数未变。新增独立--check-prefix-diagnostic-only定义八个字典stub检查，真实走原失败分支及清理/摘要，不调用旧15开发或科学。公开首跑先该新增检查，再恢复必要输入并尝试此前未调用的hold；没有预称原未知异常已修复，也无持径效果结论。
+
+
+## R253：同移物理坐标与右锚后的两block质心障碍
+
+[R253 完整证明](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)令ω=b+κ/h、y=x+b并把I/collar/原右锚同移；z、e=hx+d、λ及σ微分逐项成为b=0原式，全部嵌套J没有新常数。三复矩三角变换，We=span{h,j,(1+j²)/h}不变，M4/N1不变而M1→M1+bM4。R252完整门因而覆盖任意实b：c≠0已被旧圆ReM4<0排除；c=0则完整复条件要求两block的K_j=M1j+bM4j同为0，因为互补角2×2行列式2A1⁴A2⁴sin4αcos4α非零。每个M1j/M4j是正密度Σa⁴(u″)⁴的真实质心，严格处于各自不交包络内，所以不可能同−b。旧R239圆在整个实平移/正ε/κ非零的该芽族均无完整第四ruling。坐标重标描述每个固定物理输入，不宣不同b保持同g；平移后I可含负数、无须假设M1实部仍负，也不虚称旧六能量沿b保持。root全文逐核z/e/λ、锚/三矩与复行列式、严格支撑质心；mechanism独核，无新计算。

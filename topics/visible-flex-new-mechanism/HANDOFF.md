@@ -4,9 +4,9 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。远端检查2026-11-15 11:13:02 UTC/`846daedbd85a3644a1b1bcccc48b7168de21d430`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。远端检查2026-11-15 11:14:21 UTC/`3118252fb5b7e72fb108594970b339fe65f7c262`双README blob无差（环境失联期间API检查，非实际pull）；公开仓库2026-11-15 10:47:41 UTC实际pull后已读规则提交：`fa1cd6a1ab3caf6886eba4a56283dca12fd54d41`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull；本公开Actions又于11:10:21实际pull/read `282173404f65d5cc7b1dee61c66c69c3ca17866c`双规则无差（另非本地恢复）。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有2026-11-15 10:17:36 UTC实际pull至`1fd7800079cfee8a43ff6ec4a187f6f9124abc86`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。首次fetch signal9后已单线程重拉，规则无差，详见log。
+私有最后实际pull2026-11-15 10:17:36/read `1fd7800079cfee8a43ff6ec4a187f6f9124abc86`。11:13:43 API/read `fba7100f73f20172d8753a438c25abf560acbe22`根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行本会话进行中；该API检查非实际pull，环境恢复立即补。
 
 真实研究计算及当前新增人工/API检查仅本公开GitHub Actions；本地只纸证、源码文本/语法和既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁机械重跑已付研究；根15仅存源码/参数/run/SHA和人类结论，可重算payload不入仓库/Release/artifact。H<10KB，MD<100KB，open尽量<30KB；题目录≤200MB、单文件<5MB、禁分块。旧数据54107494B。2026-11-15 10:49 executor再次明确unavailable；按根8仅GitHub集成小UTF8暂交，PAT不进入集成。恢复后立即partial/sparse与真实pull。
 
@@ -44,7 +44,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R245完整block/历史已付**：第三闭块四阶forcing按a⁴可加，平移≤10/旋角0,2,4；Gaussian历史21生成元。均匀旋角平均及Prouhet有限实现主层严格负，不排非均匀策略。
 
-**R248/R249/R251/R252面积已排当前圆全b=0芽族**：四Gaussian字母/21历史基真独立；完整area系数−2E(q,[Bs,Bt]Δ)。R252以A−1,−3在c≠0迫M4=0；c=0整曲线用A−1,−2及严格非零D，N1=0时迫M1=∫xq″⁴=0。R239偶微包双block ReM4/ReM1<0、N1=0，故所有κ≠0/ε>0、ω=κ/h同族均不能完整第四ruling；二/三gauge不可修。非任意平移b、任意圆或任意芽；下一全θ外槽/不同profile，不重六能量。
+**R248–253面积已排旧双block全例外芽族**：真实Gaussian字母/21历史独立，完整area=−2E(q,[Bs,Bt]Δ)。c≠0迫M4=0；c=0且N1=0迫M1+bM4=0。R253同时y=x+b/锚平移，真实分子/全部history/We均共轭；旧互补双block的非退化复2×2迫两实质心同−b，与不交包络矛盾。故当前偶微包圆对任意实b、κ≠0、ε>0都无完整第四ruling，不授任意圆/germ或跨b同g。下一不同profile及全θ外槽，不重旧六能量。
 
 **第四仍须同一w解R184 joint**：V0+2κL_fw=0，K0+Bθw∈同三矩W；w²由第三单φ右逆付。R213完整两个mixed给Gc=−Vd/(4κ)、Gs=−Ve/(2κ)；pure0不授内部平台Vd″/Ve″0，真左尾½∫kKd/Ke不能猜零。R211局部Green只涵紧支持/有限简单退化类；全period/平端仍须R225，所有gauge同w联立。
 
@@ -54,7 +54,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **R225完整period range**：平台G″0、每包总flux0、内部q=F/(Ap²) Laurent禁低极点/residue、两平端真C∞及双collar/连接条件共同iff。u*=1/p是非canonical Y反例。完整O像及Hper=O(U0)/O(R0)未知；Hper0授fullperiod控制，λ杀kerO才授障碍。一般R0保T/Morse仍须另付，不扩已付有限flux。
 
-**R226/R230/R234/R236/R240首平端已付**：真G=P2+Tτf+p²B+p³C，p1非零迫发散；零端flux且真实平台已付时光滑 iff t⁴B无负主部，p3+自动。HE的whole pure0/λ1/T0由43699241372/ee9e2098付，2694项346ea2a1；43701766182/623f1c00又付同HE raw二次主部0（J4/D6/K5七根），主文70189310。−4Re/+4Im恢复两mixed；原完整系数/费用见R234/R240，不重已付科学。
+**R226/230/234/236/240首平端已付**：HE wholepure0/λ1/T0及raw二次主部0分别由43699241372/ee9e2098、43701766182/623f1c00付；完整原式/费用见R234/240。真实G=P2+Tτf+p²B+p³C，零flux/平台已付时光滑 iff t⁴B无负主部；p1失败/p3+自动。两mixed的−4Re/+4Im保留，不重首端。
 
 **R242/R244首平台与八d通量联合已付**：K整δ链恰11维，δ11零、原F*同构Pol≤10；八flux核Q_L·Pol≤2。真实首gap双尾扣第一左comp，核内两列minor首项5040βγV L12且V>0；有限L后affine压回I保rank10。同HE减响应得pure0/λ1/F8d0/首pair0/TB0，两首germ光滑。只新选ψP圆，不授旧冻结圆或actualsigned成本。
 

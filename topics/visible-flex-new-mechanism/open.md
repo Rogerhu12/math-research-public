@@ -132,7 +132,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R248](results/R248-complete-fourth-harmonics-and-complementary-block-reduction.md)保真实跨尾归约P(q)=Σc_i²c_j²Qij；四次规范和互补两角成员门已付。
 
-[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)已付四Gaussian真实词独立及完整area唯一来源。[R251](results/R251-nonresonant-Gaussian-area-obstruction-and-two-exceptional-curves.md)去共振后，[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)再用两完整面积关闭两曲线：c≠0的A−1,−3迫M4=0；c=0的A−1,−2系数D严格非零，N1=0迫M1=0。当前R239偶微包双block ReM4/ReM1<0、N1=0，所以ω=κ/h、κ≠0/ε>0全族皆排，六能量零仍真。**下一：全θ外槽及能同时满足这些完整矩的不同profile/真实芽；不重复本已排圆的六能量或只移两曲线。** 一般N1≠0仅得完整线性关系，不宣所有三矩圆无解；全period/同w joint继续。
+[R249](results/R249-Gaussian-word-independence-and-complete-resonant-fourth-harmonic-obstruction.md)真Gaussian词与完整area已付；[R252](results/R252-two-further-Gaussian-areas-exclude-the-even-packet-exceptional-family.md)关闭两参数曲线，[R253](results/R253-common-anchor-translation-and-two-block-centroid-obstruction.md)再以y=x+b/共同锚平移覆盖任意实b。c≠0迫M4=0；c=0/N1=0迫M1+bM4=0，旧互补双block的复2×2迫两个不交支撑的真实质心相等，矛盾。故当前R239偶微包圆在全部κ≠0/ε>0/b实的例外芽族均排。**下一全θ外槽与能同时付全部矩门的不同profile/真实芽；不重旧六能量，不只移动参数。** 一般复矩可相消，不宣所有三矩圆无解，也不把跨b改变g称同g。全period/同w joint继续。
 
 ## O1：双圆领相位机制，保留备选
 
