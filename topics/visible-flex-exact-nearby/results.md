@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **ER完整E行的规范根零保留。** [证明](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)be46d277：原B2确为canonical b0/T²全模，先保根因子再T导，完整μ/cT/V/VT与mean保。新3/256角域严格image门待；只将新E整界与M七项相加，原C算法lower比较，保最新SV账本，旧mixed零重算。
+
 - **SV精确leading逆列及三完整density0源合同。** [证明](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)5374f2b0：B_jw0先精确乘法，保y²/y³、fullG/mean与真实n^-2；完整SV七项词/mean word/径权仅读，M baseline其余28项原字。原gap只physical n/全角δ域；新23门数值待。
 
 - **M actual 43721735003/1：直接第一局部项完成。** [完整报告](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)：child0/23门，10新mixed+2角4与八物理项给raw1<5.399608e10，first<3.714349e11/pair<3.714351e11；其余30项逐字DG，mean原字，旧成功数学0重算。report ea28b65a、execution b8588530、result 5f1ad2e5；root核74球/完整job。仍需真实return/high/core。
