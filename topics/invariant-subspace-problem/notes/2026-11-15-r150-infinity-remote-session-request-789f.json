@@ -1,6 +1,6 @@
 {
   "format": "isp-temporary-infinity-research-session-request-v1",
-  "rulesReadAtCommit": "e81b56dc8e9a95ec4276a756d11a3f96db825f4b",
+  "rulesReadAtCommit": "2e055d6402339f66ce95fdd347eedcc4f1971cd6",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -344,6 +344,23 @@
       ],
       "timeoutSeconds": 345,
       "receiptPath": "{work}/koszul-exact-rational-support/koszul-exact-rational-support-receipt.json"
+    },
+    {
+      "id": "exact29-free-graph",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact29-free-graph-probe-789f.py",
+      "scriptSHA256": "46ce4329f834edf8acb563936d669cb7b65a7be33d81348979686a34fa649c1f",
+      "argv": [
+        "--free-image",
+        "{work}/koszul-exact-rational-support/exact-selected-koszul-free36-image.json.gz",
+        "--out",
+        "{work}/exact29-free-graph",
+        "--seconds",
+        "30",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 45,
+      "receiptPath": "{work}/exact29-free-graph/exact29-free-graph-receipt.json"
     }
   ]
 }

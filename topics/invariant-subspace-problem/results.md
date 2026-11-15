@@ -543,3 +543,5 @@
 - **标准Koszul原来源的显式31整左逆。** [自足证明](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)用已付187/17单位子式逐次恢复线性/常数斜系数，得ΓΦ=I、真来源投影及31饱和。完整6188身份才判成员；投影不保原选列J，直和项不保证支撑交与mod31交换，未偷付旧23成员性。
 
 - **原选列的标准Koszul支撑交模31恰29维。** [实际完整证明](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)：run43679903558在1.575719778秒核全1834外坐标、rank1603及36自由像rank29，像恰前29轴、比旧23新增六模方向。Q支撑交仅上界29；D整规范e29…e35若将来成为真核则必非标准Koszul。原真核仍23，正作有理提升。
+
+- **同选列标准Koszul支撑交严格29维、六个真新方向。** [全原整数结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)：run43679903558实际33.711323768秒，原1603单位块及全部1834残差给Qdim29，29列全6188/4367乘回、36自由Qrank29真；并旧23仍29，借自由坐标单射严格补齐旧核成员性。所选char0秩4318…4325，标准族穷尽，余七非Koszul尚未构造。

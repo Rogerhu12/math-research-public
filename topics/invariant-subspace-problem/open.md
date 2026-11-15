@@ -171,3 +171,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 [全1834外支持实际秩1603](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)给模31支撑交恰29，自由像正是slots0…28；新增六轴17/18/19/26/27/28。Q交仅上界29，真核仍23。继续解原1603整数单位块与29RHS，结果先留临时，核完整外残差；剩余约束在29列内精确求核，最后全6188/4367及36自由Q独立才收录，不把模31值提前当结论。
 
 [原整数精确求解接口](notes/2026-11-15-r150-koszul-exact-rational-support-solve-interface-789f.md)已接同session：稀疏准备实际0.412781492秒、无一/二支撑可剥，保1808×1632/44362整数项和全部1834原行。现在以模31仅选原单位子块，求29 RHS真Q解，先保结果再求全部外残差核及全原乘回；仍未预报成功或新增维数。
+
+### 当前准确检查点：29真核，转非Koszul余七
+[完整原Q结果](results/R150-appendix-selected-infinity-twentynine-exact-koszul-kernels.md)已成：33.711323768秒，Qdim29/外rank1603，全1834支撑及29列全部4367整数输出真；自由像rank29、旧23精确包含。当前同选秩4318…4325，标准Koszul支撑空间已经穷尽。先核Q自由像的top29归一与bottom7是否严格零，再研究标准族之外余七；不重LLL、旧NF或原Dixon位，未声称七核存在。
