@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [实际P：完整第一局部向量的regular-transport收紧](results/R133-supplement-actual-regular-transport-first-local-vector-reduction.md)：公开43709396175/1 child0/13门，17原pins/旧数学0；q1<.483791321412289，完整pair<1.772092107010686e16，其余20first+10mean逐字保。原根包络/dr/outer J全保，第一local仍主导，完整high inverse仍待。
+
 - [F：完整transport首矩阵的准确因子分解](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)：M=G U_-²与U_+M=G B_+U_-合并L13全部三项，非主导两矩阵对角准确相消；完整G0(MZ)不另付ZX，仍保n^-2真rank导数、q的vφ与全部mean。新完整g预算尚待实际公开消费者。
 
 - [真实moving core迹到physical inner曲率输入 V](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)：以真实Θ和相对Ĉ差证明γA0<hH1/2，完整Cmean=1/m；直接展开(j^-1∂φ)^q并one-high估计，给hH1≤1e−9/128、hH8193≤2^393000足原尾部γ两门。剩inner准确为完整B函数与Cmean；core图存在及真实trace界仍待，条件Schauder不冒已闭合。15194B/SHA256 58eccc1715c74068d8a682b50af9f57049e5daa045c5f3e8a4579c68b12cba49。

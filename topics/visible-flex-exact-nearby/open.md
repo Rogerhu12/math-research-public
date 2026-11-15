@@ -133,18 +133,17 @@ local原3.565082e16及全部固定oldmean/两种未替换physicalmean项不变�
 leading intertwiner与真实E12左乘准确消去公共径向connection和未相关w1rr。
 P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
 原S已成RT1/2000、forcing角1/128、amplitude角3/512全文核对；
-新R1/3000、角5/1024的实际像门、connection和积分预算待公开Actions。
-通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
-P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根权的点值norm。
-最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
-仅新一次小域/connection/L1预算、1比率/3组合。diag43707945899证首43705772615首次sync超时、child0；
-恢复43707514815已结束1child，后出版rebase触发未公开HEAD树404，数学exit/gates未知、temp失。
-按用户要求重做未推结果，仅恢复这段新消费者；原SCI/17pins及全部旧成功锁定。
-修复workera68f2d69/flowbda661b7已按真诊断保首child0、次child1且exit/gates未知；
-仅重做未持久化的新P。API只审计公开origin/main，精确核本run两owned HEAD小blob增量，
-从不请求未发布树。科学后先stdout完整≤59000B小结/13门/identity防出版丢失；
-原SCI/17pins及旧成功S/C/D不重算，两原failed run均保留。
-其余30项及全部mean保持；本次旧成功比较也锁定不重算。
+新R1/3000、角5/1024的实际像门、connection和积分预算已由
+[实际P43709396175/1](results/R133-supplement-actual-regular-transport-first-local-vector-reduction.md)
+通过：child0/13门，17pins/467721B，1旧fold+4成功receipt/18系数/31项只读。
+新q1<.483791321412289，local_raw1<1.718923711902699e16，local<1.730978416526017e16，
+first<1.772092028752768e16、完整pair<1.772092107010686e16；其它20first+10mean逐字不变。
+原外J、所有|ρ|^-1/4包络、平方权|ρ|^-1/2 dr和one-sided rootband全保。
+科学仅.004425838s；source c479/manifest8113原样，旧成功S/C/D没有重算。
+首43705772615/第三43708483581均真实0child，第二43707514815已完1child但exit/gates未知且失去临时结果；
+本次仅按用户授权恢复该lost新消费者，三原失败/两只读diag保持。
+原P现锁成功，不再执行。当前第一local仍主导，继续其真实regular结构和完整source-to-trace；
+更新g/L2消费者须读此新ledger，不得把其它项恢复到旧值，也不把volume上界当strong-return。
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。
