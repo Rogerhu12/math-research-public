@@ -413,3 +413,5 @@
 - [R183：不可换基为不交的第三hook不可见圆](results/R183-overlapping-derivative-packet-circle-invisible-to-third-hook.md) — hook原式化为仅正阶导数的单层三次密度；各导数包沿固定实方向即H|P³=0。四个平滑台阶产生三条实射影平台，任意GL2不能化不交。三个左复平方幅度包准确补全三矩，八个完整平移包的第七差分逐s消四条第三ruling；真实M0/T=κH闭几何给完整三阶圆及八个独立有符号第四mixed gauge。第四range/有限等距/嵌入未付，不冒绕过全部第四障碍。
 
 - [R184：全部二阶gauge后的固定圆第四range仿射线性判据](results/R184-affine-linear-fixed-circle-fourth-range-with-second-gauge.md) — 固定M0低阶圆，保第三range的同一w须同时付完整V0+Lθw=0及K0+Bθw∈W；二阶平方项真实落在三个几何矩列像W，R47单φθ三矩Gram右逆给光滑周期第三gauge准确支付，保持0/π种子。无需六联合密度独立或全T零。hook时Lθ=2κL_f，R181整包/内部退化点通量给固定圆不变量。必要充分是重述为joint线性像，尚无解/满射结论；第四以上与有限族仍欠。
+
+- [R185：周期核中的六矩右逆及十个合法ruling方向](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md) — R183八个完整包给16维K且H|K³=0；三平移矩列Vandermonde非零，六交叉矩在K上满射。固定投影Q消六矩并保持L_f，故周期像不缩。K∩六矩核维10有显式真基，其ruling每方向只有0/cos2θ/sin2θ三个真实s系数；不预称像独立、joint像无损或解已存在。单独period准确归为四个退化ODE目标，全部种子/相位/collar保持。
