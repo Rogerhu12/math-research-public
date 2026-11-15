@@ -10,3 +10,5 @@
 - [R653：原degree五完整核、三条标量行与四个真实带门系数](../results/R653-original-five-degree-kernel-and-native-rows.md)：同一det−5 joint在完整S5⊗S5中准确分成五项，原四K回−M0ℓD、6bH−IΣ,−1+3bFH+ℓZ,1、−A0、3ΩA1；未改负一Σ5行。真实环带保非齐次log质量，两个W失败支保全五型及移动cut，同一未加帽多项式的四条全域零基准不删门外补项。
 
 - [R657：原连续长前缀的全列单射与二次接触界](../results/R657-original-long-ordered-prefix-and-quadratic-contact-bound.md)：原合流单位行全部位于k*=1+max_u(u+s(Cu−1))之前，故真正连续前缀保全列秩与Smith上界ceil((bD+13)/s)。同一个固定未正规G0W_D借辅助惰性素数得最大接触≤(99/40+o(1))D²；完整高尾/帽/13与40保留，未把长前缀搬进旧M或R644五源。
+
+- [R658：同一五来源辅助空间的真实Gaussian子式与二次jet界](../results/R658-original-auxiliary-gaussian-minor-and-quadratic-jet-bound.md)：辅助惰性q>max(K,M,101)，π^(q+1)=q下完整H/regular高尾严格落π；真实行r+j(q+1)只读j<q，整Vandermonde给有理子式准确vq=−KM(M+1)/2。原K66D/M72D的连续jet因此≤(5184+o(1))D²，保全部原函数与分母；其他p的分子坏集仍须计成本。

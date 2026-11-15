@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：afc8bf6292b015e3508e74a7c9d7af3c83c412d1；2026-11-15 02:28:20 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:28:17 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：28fb7abe8478ac336f8860fc2f01e21a2193f48b；2026-11-15 02:30:54 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:30:53 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,15 +14,15 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R657已登记；R364/R561仍开，R637/R654–656/R658–659进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r657.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–653、R657–658已登记；R364/R561仍开，R637/R654–656/R659进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r658.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
-- root：R652五次jet/七次证书高度已付；续R656原全源传播/坏素数成本，O4/O6保留。
+- root：续R656以R658二次jet把同整证书降到四次高度，并在全九格付例外成本；原传播/O4/O6保留。
 - theta：R653全S5²/原四K分离已付；续R659真实M0/H±和W失败支。
 - literature：R649已付；R655窄核σ5负一矩完整有限角色，R654真modp²连接保留。
-- deep：R657原C长连续前缀已付；续R658辅助q二次jet及R637旧同R/全Padé。
+- deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
 ## 原对象、ray及未闭旧支线
 
@@ -42,10 +42,9 @@ R567纠正、R594同q/坏集、R599–613全态/隐藏cut/参考均照前检。R
 R634 whole S72/原T各EW层、ΛB质量52/3均保持；W−的[17]degree20808不认T。
 M1接P1=−36bKΩ5I1+B1及三补偿，Vdeep在p⁴，另两项/B1不删。
 
-R638原(μ0,μW,hW)三态D/K整饱和、D²=K²=(DK)^4=I；真实四轴A/B/κA^-1/κB^-1及外部λ/λ/ελ/ελ全保。
-三W边际=(6δT,6δT,0)，word须完整逆像W测试才回JT；源群不等物理词域，reduced word Smith(0,r)、首字异交域p^r全平面。
-Y/W共域仍Yunit/Wunit两cut；两中央0只给外部B0，外部A′=−ε^nλ^(2n)β^N d L_n，差商回M1并保全部补偿。
-ΛB的EY核−ελ/单位质量(1+ελ)52/3、隐藏q子域不单抽β^N，均照完整前检。
+R638原三态D/K整饱和、D²=K²=(DK)^4=I，真实四轴/λ外系数及word全原T返回保留。
+有限来源群不等物理域：reduced word Smith(0,r)，异首交域p^r；Yunit/Wunit切集不同。
+两中央0仅给外部B0，外部A′差商仍为M1及全部补偿；ΛB的EY核−ελ、质量(1+ελ)52/3与隐藏q门保持。
 
 R645真实Y^n∩A^(2n)=A^(2n)Q5^n，μ0全返回χ65^nλ^(3n)；原S/T总行及外部均保。
 共同变量的q两门差(1−κ^(2n))aA，交集迫A∈p^N，与A词的Yunit严格不交。
@@ -86,6 +85,7 @@ R644现对任意固定D构造有理jet长度J_D及Δ_D≠0；p>max(101,J_D)、v_
 全p²−1简单边界零点与真实Tg整性付所有p依赖系数/同权抵消；辅助维66D(72D+1)不作免费原格。
 R652原五变量degree7系统+已发表Binyamini Cor1给J_D≤Λ_D−72D，Λ_D=64(210D+24)^5。
 整证书A_D的log高度O(D7logD)，p>Λ_D且p∤A_D才进定理；大坏素数Σvlogp/p=O(D²logD)，不省成无例外cutoff。原中央→闭RE仍未付。
+R658同原u^KL(KO)h≤M经aux q的真子式付J≤K+M(q+1)=(5184+o(1))D²；vqΔ=−KM(M+1)/2，完整H/regular高尾严格π，不删除其他p分子坏集。
 R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；真实负收益/增长条件另付。
 
 ## 原同R与完整物理格
