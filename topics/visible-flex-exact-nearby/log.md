@@ -469,3 +469,11 @@ public run43679322008/1真实child0/6门，诊断2.354193127000002s、父wrapper
 negative所有R最大在piece2547，小3R完整/local row752，大3R完整/local row758，nonlocal/mean仍row752；positive全为piece2551 row796。最小R两侧local平方界较大，最大nonlocal RQ_J_gd、mean uJ_gd；只是已存upper排序，不是残差lower。下一据这些真实片核原Rg/RHO和非零entry/积分常数/seam，不能猜域或外推Taylor。正式报告5693B/SHAd5e2313448e571b88bdfa87602daeaecfacabbabc25982dc6e0a0adecc4206fb。
 
 worker执行两次真pull，最新05:03:12.505994→05f9c27ed946be658dc46b5d84a8a9d952a99e8f，README两差空、现行rules137c5a/f266。原件只历史/旧artifact进临时；新native4c763fec…2917B与6stage全只记SHA，不uploadartifact/Release。实际结论1ed5c391…13843B、execution622bfabc…12402B已亲读。H9730B全文归档后压缩现H，原Green停止/最终旧artifact恢复计划同步更新。freshmain 199268b852c965c65b6f65932a547ab68ebbbf97两README未变。
+
+## 2026-11-15 05:09:19 UTC — P1–42 新有限Sob域的principal与第一真实Γ闭合
+
+root已全读最终稿及指定原算术Q1–6、controlled C22–24、stronger U2。实际目标确给κ/(4096|n|)，不误用早期n^-2门。解析Newton自动约化保E′w与二阶Taylor，z迭代准确平方；dyadic增量N^(k+5/2−s)在k≤s−4可和，8192→8188真实四阶损失。τ的唯一性、C0 Lipschitz1、正权平均与invariant probability论证给真正Frechet二次余项；全层weighted ℓ∞用同一统一界，无逐行导数冒Banach导数。
+
+输入固定真实u_perp、M真holonomy根与总参考高度随Γ变；ODE二次变分最高需8194角导，H8196供给。旧成员嵌入由原τj+224宽、C22整胞损失h_j与U2定义逐式导出，内区绝对宽>236，connector>3；不从R仅Y64输出偷取H8196。root仅澄清一般引理s为整数并改已证状态，正文27572B/SHAbe46bd9f44c0f60f5b07c768efac1aa6f48363bd23ba08e6ca12277a5cfa459a。
+
+原ζ131/ω/β目标/几何/两bump全保，firstΓ平移不变且DΓ0=0；second相位、nearby inverse和smoothing闭合继续，未授最终族。无新增数值。freshmain f0292795817a534937d35904e2e11275631e878d根/题README未变，H/open已记准确范围。
