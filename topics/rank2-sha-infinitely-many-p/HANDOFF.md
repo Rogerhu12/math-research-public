@@ -3,7 +3,7 @@
 ## 目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；持续推进，不以阶段结果或时长收尾。**
-- 最近已读规则提交：0ecbea53bccfd58c862855e68636dd619e024ae2；2026-11-15 13:43:16 UTC核两README无变。实际CI pull 2026-11-15 13:22:50 UTC/f4e8b5be70ca7046da4ee9d880691190996a39d2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:43:15 UTC仍无环境。最迟2026-11-15 14:05 UTC再实际pull。
+- 最近已读规则提交：212d39b0721701a31bd41003a96cafb6442b8be0；2026-11-15 13:45:08 UTC核两README无变。实际CI pull 2026-11-15 13:22:50 UTC/f4e8b5be70ca7046da4ee9d880691190996a39d2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:45:07 UTC仍无环境。最迟2026-11-15 14:05 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main；旧库首次授权789d22af。完整结论立即推；非快进即pull --rebase重推，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核两README，仅重读差异并即执行、记提交。root15@708f058a差异已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 13:22:50 UTC/run43718692940/job132825709070，headf4e8b5be；两README差异空且blob同，回执ci/rule-pull-20261115T132250.json。下次最迟14:05 UTC。
@@ -12,15 +12,14 @@
 
 ## 完整前检、当前分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r755-supplement.md)沿归档链保所有常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–763登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F与全normal/same-R；theta续四反射/ξ4边界、实际O_i；literature续R762之后的完整fixed-representation；root续R763新三格算术桥/O4/O6。theta四反射/保ξ4边界note已登记，续真实同域O_i。
+[压缩前全文](notes/2026-11-15-frontier-before-r764.md)沿归档链保所有常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–763登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F与全normal/same-R；theta续四反射/ξ4边界、实际O_i；literature续R762之后的完整fixed-representation；root续R763新三格算术桥/O4/O6。theta正写R764保Y/q*轴与三CD域的实际交/差；literature核O4/O6全Selmer最早节点。
 原四次E17及j0 E17/E24/E2312 rank2已付。全Selmer桥保全Sha；须无限不同p至少一条固定原J′非零，非中央负矩/有限p不完成。O4低增广a≤1/β(Q)、O6实际Np有限/λ≤3仍开。
 
 ## 普通：原来源、点域与中央传播
 
-R734同5×5逆q*保原ray密度一、N4/π4/FZ0/J2unit；λ=−barπ0^-1、κ=pλ²、u=κN。R735原Q2/Q4及全period给ΩIk=AklogQk。R737过滤后G4+λHW+γλHV，A_T,N=S+O(u²)，paired外部逐有限投影反号。R742真u0/门≤r+124、17²/BK、R728 P连接及R745/747全原矩阵保。
-R748/751付两dyadic族的全角色/good-pair/localQ/dual/finiteχ、全部点域与period；仅非零后推rank1。R749 point-only有限tensor单射；R753该投影Cp不连续，只有有限carrier逐代数系数极限合法。
-R752/754保五深伙伴Y⊥、firstfactor34p、伙伴≤125及τk=Dk/P+k全来源；primitive=C Dk，原正六矩保证过滤窗口至少一C非零。étale取c0，point平凡部p c0,−/(p−1)。原P/G/λHW/γλHV份额1,(p−3)/(p−1),1/(p−1),1/(p−1)，三份非零恰补primitive；全外部仍反号。
+R734最终5×5 q*保原ray密度一、N4/π4/FZ0/J2unit；λ=−barπ0^-1、κ=pλ²、u=κN。R735全period原点Q2/Q4、R737全过滤与paired外部反号、R742真实有限极限/门≤r+124均保。R748/751全角色/finiteχ/localQ/点域仅在非零后推rank1；R749有限pointtensor单射，R753其Cp投影不连续。
+R752/754完整五伙伴/第一factor34p/τk双来源给primitive=C Dk，过滤窗口至少一C非零；étale读c0、point读p c0,−/(p−1)。P/G/λHW/γλHV份额1,(p−3)/(p−1),1/(p−1),1/(p−1)，三份非零恰补primitive，外部反号。所有坐标/有限phase/普通核心详前检。
 
 [真实剪切](notes/2026-11-15-actual-central-shear-and-fixed-representation-gate.md)：全Gram Cayley/稳定门给∂u∂sM=J′dotf+d_pαmass+d_pΩI_D；zD周期差保连接。只有同一固定Lp的C M²=Lp Q且C/Q完整units才传播双零，现未付。principal first jet实际来自Π5,Y⊗Π1,伙伴，先投Π0,Y/S则消；z把5转0。完整mixed/finiteχ/moving权、二阶z²D2−r zA′保。
 [四原盘/A34](notes/2026-11-15-four-native-discs-and-a34-moving-threshold.md)：约化词G4像不交，反向字母含平面Cκ，保Σ∞/plane-zero。HEZ,n PA,34的真像J,L深n且J+29κⁿY深n+34；Yunit迫vJ=n，完整观察/三十次权不冻结。
@@ -33,8 +32,8 @@ R761三type5 η阶9、Ψ=ψ0η^-1为quadratic17扭曲/root−，全Schwartz/权�
 ## 深支：指定ξ与同一个R
 
 原M=c*U0m13J、P134/charge40、13free/26carry/conductor10980、十九角、p²/p³保。R495 χ=−KC≥2b、κ=C²、H1(mC)=0及完整H3预算已付，H1(BD−C)不可假设零。
-R741 FH2 Smith=1^(2κ+χ−aη),p^(aη+1)，其它原列改变余核，Vη不杀全像，换PB提升须同步R。R738仅h>3κ/2；R743六固定纤维S-unit/临界aη≤13κ/32、bη≤17κ/48、单位秩≥359κ/96为缩放M结果，普通行仍p^-i，全D/k运输未付，包络仍(0,3)。
-R750 ell≤r≤13、N0=s−13≤2h、T=N0−r，fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅)，低r原整右逆保高尾。全WD值0→H0N³→UD→真实VE′→0；Lval⊂H0(ωN^-3(TP))杀实际主部、恰全值左核，值可解iff全Res(fBω)=0。值解后只在R*+Kval修全normal/两13/第三块/d2。
+R741 FH2子格Smith单位/p不代全WD；其它列改变余核，Vη不杀全像，换PB提升须同步R。R738仅h>3κ/2；R743临界Gaussian缩放M单位秩≥359κ/96、缺陷≤73κ/96，但普通行仍p^-i、全D/k运输未付，包络(0,3)。全部角/奇点/复合次数按前检。
+R750原ell≤r≤13、N0=s−13≤2h、T=N0−r，完整fB=−eξB0+(eb_s/2a)t^(k−r)u²(B0+𝔅)，低r整右逆保高尾。全WD值的真主部像VE′与其Rosenlicht左核已付，值解iff全Res(fBω)=0；其后只在R*+Kval内处理全部normal/两13/第三块/d2。
 [全F/carry](notes/2026-11-15-r750-whole-divisible-source-and-primitive-carry-filter.md)给全charge整除基/H1BD0/δC=h1(BD−C)及dimVE′=e′−δC，δC0才满主部。primitive第二13带迫ord𝔅≥T_M+13，过门后Ω=Res eB0[ξ−b_s t^(k−r)u²/(2a)]ω。
 [小Bockstein](notes/2026-11-15-r750-smaller-factor-bockstein-and-actual-residue-input.md)：L=h−k−13−ρ，λ=B0ω∈H0(ωN^-1(LP−D_B))，vF=π_L(Ftilde(t,g)/p)=eξ。Ω=Res(vF−e b_s t^−(r−k)u²/(2a))λ；g modp² <L/η0最高s−k−14−ρ<s，Gaussian≤13极仍读λ≤12阶。
 R755完整cube=d^-CD F³H0(E)⊂kerMbar，全部Gauss来源rE≥1，进kerJbar iff H0∈t^(r−k)。过门cube全值Bockstein零；未过门仅末(2(r−k)−13)+行。修复PB须ord𝔅≥2h−r及实际E的≤13jet命中，修后值类独立、𝔅系数−1/6。全C4/ξ0/w13/U0与同R余块保。
@@ -44,8 +43,7 @@ R755完整cube=d^-CD F³H0(E)⊂kerMbar，全部Gauss来源rE≥1，进kerJbar i
 
 R756 Norm3全WD返回3D+ceil((36D+181)/47)，19角/G0比值/h→h+a/Euler两jet/Gaussian exp(34n t3w^s)全保。R758所有统一乘子非零须47m≥36D+65，精确∞帽f_m−1；最优主阶177/47，特定F/真子格/非乘法返回仍开。
 R760固定三格(S,T,(∂zS)^6)，U非U136。ζ周期给trdeg3/复增长1/3，正阶导数六卷积付全普通饱和jet≤1；惰性仍floor(6kp/(p²−1))和总3klogk。全真实binom(D+3,3)旗标严格门aI+3bI<6，或全层p>CD^θ且θ<2。新ζ格不能免费套旧WD/Smith或中央零。
-R707/708原三m trace零iff真实g_h前缀；R714/717–725/729 height2/AH/Norm3/7只确定来源。R716 firstwild阶p/导子p²/root+，边界零iffΦp因子；与j34同零才λ≥p+3，μ0不给统一λ。R724完整有理9π/(17√3)/anti-Fermat/Gaussian与整annulus o(p²)门保。
-R736原B3/R10404全坏处/47整坐标、run43705223442核47→7→1、base0/f0±1±2/cint81/68；At∈2Z、和0，whole normalizer baseA0∈4Z。公开固定2048类仅0/2，无免费二次base。Cp v无穷p非零及原中央→边界两桥仍开。
+R707/708全trace与真实g_h前缀、R714/717–725/729 height2/AH/Norm3/7只定来源。R716 firstwild阶p、边界Φp与j34同时零才λ≥p+3；μ0无统一λ。R724全有理/anti-Fermat/Gaussian、整annulus o(p²)门保。R736全B3/R10404/47整格与whole normalizer已付，公开核47→7→1、base0、At偶且和0、baseA0∈4Z；无免费二次base。Cp v无穷p非零及中央→边界仍开，全部运行/hash及常数按前检。
 O4/O6、supersingular H=cℓℓt、strict向量非自动全局Selmer类，依open及全归档续；AST线性结论不代二次regulator或完整Sha。
 
 [原四单反射及保x边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：R_j(e0,hW)=(-e0,e0+hW)，h+=hW+e0/2分别偶；共同[2]全K多项式、whole S4给任意六深度矩形。N∈4Z的cd两态同λ2N，但完整q/Y/W转置；保(ξ2,x,d)边界ω²νσ⊗[1/2]νσ4⊗νσ/84只用于真正因子化测试。三个CD/O域不同、任意两交=全三交，保W_j与归一P_Y，真J2+ωJ1+ω²J0=0不认同域。
