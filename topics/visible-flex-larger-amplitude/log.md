@@ -235,3 +235,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 
 [125接口](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)10383B/a8675b33及完整request/workflow diff已读且由原9744逐字重放核同，2289B recipe ed40e690九p与actual123原JSON字面逐项同；83+2pin/原预算不变，own26/反事实zeroeta边界保留，无本地科学。124 run43698138088/sourceb1df8ec3/job132763110680已进入step10，首次发布ref并发后即时重读新父重建成功。
 新增.github/workflows/visible-larger-public-small-core-nine-control-resume.yml独立触发125，保原完整分段reader和公开Actions，未改123或其科学源。
+
+## 2026-11-15 09:19 UTC /root — R284登记actual125八次继续接受
+
+[完整结果](results/R284-actual125-nine-control-eight-further-acceptances.md)已读17行/九FD/1178叶新域/原453circle及全部false；8方向全接受，W431.4178353348037→279.12365756925647，末dir7内层tol=false保原接受。63133B primary与8完整group重建118379B view的字节/SHA全同，原规则09:15:01真实pull及原清理已读，无raw入库。H压缩已结清详情到正文、保所有未付门和五标题；126真实末九p串批、124/113/118/122继续，无本地科学。

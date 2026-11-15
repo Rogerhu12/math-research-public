@@ -26,3 +26,7 @@
 - [124完整H(s)同worker实验入口](notes/2026-11-15-request124-original-full-height-continuation-interface.md)：真实120首请求D/S/A失败后独立bootstrap，原全部112H/原求解接受/64请求与总300min资源范围；末端直接原H_*全J，之后原FD/fullDN/finalaudit。源helper e830a167/adapter557f3aab已发布，无实际124结果；协议/record歧义不伪数学拒绝。
 
 - [125实际123九末点单批接续接口](notes/2026-11-15-actual123-nine-control-single-batch-resume-interface.md)：原family/search/reader和83+2pin不变、own26→26，真末九p逐字绑定正常分段primary，.1重置/原8方向及全final。反事实zeroeta只比较evaluate数组，原辅助异常可终止准备；没有新的实际125数值或接受预填。
+
+## 新增结论
+
+- [R284. actual125同九控制的八次继续接受](results/R284-actual125-nine-control-eight-further-acceptances.md)（实际Actions有限诊断）：run43698258576/source36f7152b，8接受/17试探，W431.4178353348037→279.12365756925647；全部unit/full112/native/success仍false。初末九FD、1178叶0未解、新453零圆及全部trial已读，末dir7内层tol=false仍原Armijo接受；完整118379B view逐字重建核同。非严格根/非零场/闭面完成，真末九p接126。
