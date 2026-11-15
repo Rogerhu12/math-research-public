@@ -211,3 +211,7 @@ R753/R757原ψp模p²、R760最高N+1除法数据modp⁴和c0规范完整保留�
 [R784](results/R784-original-full-sigma-kernel-and-primitive-preserving-left-inverse.md)补上原未平均sigma加法：三个wedge共六个degree12截面、核秩6。全critical矩阵有显式左逆L Kfull=2^(p−6)I，三种独立同余通道可准确恢复每个原a_i；原primitive/Legendre对角权经对偶左逆给三通道表达(784.27)。因此无需再猜单个R782小矩阵可逆或假定筛与矩阵交换。必须进一步证明实际表达的非零或某个被筛单项非零；左逆本身没有排除有限域相消，也不是高度排根。
 
 R781准确Laurent工程已从远端证明重建：[方法](notes/2026-11-15-exact-height-research.md)。core d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751只读真R774前五块/14原尺度，核ξ^(10n)切向不变后递推R0..142；无κ逆、逐阶续接。[公开run43679703344已成功](results/R781-certified-original-inverse-free-Laurent-prefix.md)：原R0..142、144实字段/逐阶stage全部通过原相位和准确递推校验，cert b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0。继续接R777准确基、2860×3028 L关系、原函数/β和完整高度；这些后继尚未计算，主目标仍OPEN。
+
+### R785：原高度的最小块参数与规范首外积类
+
+[R785](results/R785-original-Rosati-block-height-compression-and-leading-exterior-class.md)将R724完整高度矩阵严格压为每个活跃简单块一个Rosati不变cα；需原ι/Mα与ΣdimFα^+个真实配对，均可回原JY，不假设高度非退化。原首外积由s_i=2T_iλ_i0−λ_i1+2Θ_i1−4T_iΘ_i0模v_i=T_i−T_g决定，保CM点值与切向两列；v仅向量非零，选真非零v_i0作商。得到规范splitting不变类，但实际cα、Poincaré局部前缀及该类未输出，不能用Rosati或实正定代p进非零。继续真实参数求值及完整尾/Bézout。
