@@ -1,0 +1,405 @@
+{
+  "kind": "immutable_genuine_positive_Ai_cutoff_strong_correction_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "9890c13e59453778e9eff28ffff1986917b52de3a179ba770f0f21c48b46009d",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_positive_Ai_cutoff_strong_correction.py",
+  "scientific_source_sha256": "9890c13e59453778e9eff28ffff1986917b52de3a179ba770f0f21c48b46009d",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md",
+  "contract_sha256": "5368abae4c66f73800c16d5f2b906ddaa0f1d62d07e9bd9a3ca539061bdf5d68",
+  "historical_input_commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "mathematical_parameters": {
+    "cutoff_abs_j": 97,
+    "physical_frequency": "n=4|j|",
+    "physical_root_piece": 2549,
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "exact_physical_piece_interval": [
+      "2147184947341121/9007199254740992",
+      "4295308144604611/18014398509481984"
+    ],
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_transition_s_interval": [
+      "1/500000",
+      "3/1000000"
+    ],
+    "exact_cutoff_derivative_upper": "1875000",
+    "exact_original_fold_radius": "3/8000",
+    "exact_original_fold_strip": "3/128",
+    "exact_original_inverse_strip": "1/64",
+    "exact_new_p_strip": "1/256",
+    "exact_new_shift": "1/512",
+    "exact_original_genuine_amplitude_radius": "1/8000",
+    "exact_original_genuine_amplitude_strip": "3/512",
+    "common_potential_radius_case": "1/6000",
+    "exact_reference_terminal_T": "1/2000",
+    "both_carrier_signs": true,
+    "real_parameter_values_before_contour": true,
+    "input_window": "H^(-4/3), physical |j|>=97",
+    "positive_source_window": "ordinary L2_dr H^(-2/3) plus independent constant row",
+    "correction_output_window": "old-circle primitive density L2 pair plus both full means",
+    "old_directed_run": "43632464994/1",
+    "old_directed_artifact_id": 14128707026,
+    "arithmetic_bits": 320
+  },
+  "expected_actual_gate_count": 30,
+  "input_paths": {
+    "columns_execution": "topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json",
+    "potential_execution": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+    "accepted_ER_execution": "topics/visible-flex-exact-nearby/notes/leading_root_zero_E_row_ci/run-43724065270-1/execution.json",
+    "accepted_RV_execution": "topics/visible-flex-exact-nearby/notes/correlated_radial_local_sources_ci/run-43719681982-1/execution.json",
+    "accepted_M_execution": "topics/visible-flex-exact-nearby/notes/direct_genuine_first_local_mixed_jets_ci/run-43721735003-1/execution.json",
+    "accepted_SV_execution": "topics/visible-flex-exact-nearby/notes/exact_leading_inverse_density_zero_sources_ci/run-43722805762-1/execution.json",
+    "accepted_HP_execution": "topics/visible-flex-exact-nearby/notes/exact_normalized_p_h_sources_ci/run-43726426053-1/execution.json",
+    "accepted_BG_execution": "topics/visible-flex-exact-nearby/notes/exact_normalized_leading_g_sources_ci/run-43726985545-1/execution.json",
+    "refined_first_local_execution": "topics/visible-flex-exact-nearby/notes/positive_budget_first_local_Taylor_tail_ci/run-43711480764-1/execution.json",
+    "accepted_DG_execution": "topics/visible-flex-exact-nearby/notes/direct_physical_genuine_first_transport_ci/run-43720766795-1/execution.json",
+    "complete_genuine_execution": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+    "old_fold_majorants_stage": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "original_norm_native": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+    "original_norm_process": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/process.json",
+    "directed_process": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+    "directed_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+    "directed_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-directed-matrix-old-circle-sources-CI-inputs.json",
+    "directed_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+    "directed_reuse_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+    "ordered_source_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+    "genuine_columns_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+    "real_seam_operator_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+    "old_genuine_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+    "original_fold_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "original_DG_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_physical_genuine_first_transport.py",
+    "original_RV_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_radial_local_sources.py",
+    "original_M_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_genuine_first_local_mixed_jets.py",
+    "original_ER_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_root_zero_E_row.py",
+    "original_SV_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_leading_inverse_density_zero_sources.py",
+    "original_HP_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_normalized_p_h_sources.py",
+    "original_BG_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_normalized_leading_g_sources.py",
+    "complete_genuine_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+    "refined_first_local_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_budget_first_local_Taylor_tail.py",
+    "original_inverse_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+    "reviewed_rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "accepted_RJ_execution": "topics/visible-flex-exact-nearby/notes/retained_radial_density_one_sources_ci/run-43728317408-1/execution.json",
+    "accepted_PW_execution": "topics/visible-flex-exact-nearby/notes/positive_ports_to_waist_density_ci/run-43734233535-1/execution.json",
+    "scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_positive_Ai_cutoff_strong_correction.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md",
+    "PW_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_ports_to_waist_density.py",
+    "PW_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md",
+    "PW_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-positive-ports-to-waist-density-CI-inputs.json",
+    "directed_native": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/directed-matrix-old-circle-sources.json.gz"
+  },
+  "current_text_input_roles": [
+    "columns_execution",
+    "potential_execution",
+    "accepted_ER_execution",
+    "accepted_RV_execution",
+    "accepted_M_execution",
+    "accepted_SV_execution",
+    "accepted_HP_execution",
+    "accepted_BG_execution",
+    "refined_first_local_execution",
+    "accepted_DG_execution",
+    "complete_genuine_execution",
+    "directed_algorithm",
+    "directed_manifest",
+    "directed_contract",
+    "directed_reuse_contract",
+    "ordered_source_contract",
+    "genuine_columns_contract",
+    "real_seam_operator_contract",
+    "old_genuine_contract",
+    "original_fold_algorithm",
+    "original_DG_algorithm",
+    "original_RV_algorithm",
+    "original_M_algorithm",
+    "original_ER_algorithm",
+    "original_SV_algorithm",
+    "original_HP_algorithm",
+    "original_BG_algorithm",
+    "complete_genuine_source",
+    "refined_first_local_algorithm",
+    "original_inverse_algorithm",
+    "reviewed_rules",
+    "accepted_RJ_execution",
+    "accepted_PW_execution",
+    "scientific_source",
+    "contract",
+    "PW_source",
+    "PW_contract",
+    "PW_manifest"
+  ],
+  "legacy_artifact_inputs": [
+    {
+      "id": 14128707026,
+      "name": "visible-exact-directed-matrix-old-circle-sources-43632464994-1",
+      "run_id": "43632464994",
+      "run_attempt": "1",
+      "head_sha": "cc63139fb3fae12f99ee332bae4a41ac0dddb3ee",
+      "bytes": 7900304,
+      "sha256": "05d77d28b89d57ff475de07dc0e41974f7408e76821c2edcb81609e49303daa1",
+      "member": {
+        "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/directed-matrix-old-circle-sources.json.gz",
+        "basename": "directed-matrix-old-circle-sources.json.gz",
+        "bytes": 7873296,
+        "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b"
+      },
+      "scope": "Only the exact complete original archive/member is temporarily restored. No original producer is called."
+    }
+  ],
+  "old_successful_scientific_calls_allowed": false,
+  "all_inputs_are_current_small_texts": false,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_targets_profiles_coefficients_Taylor_words_and_integrals_recomputed": 0,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "small_actual_conclusion": true,
+    "small_complete_execution": true,
+    "temporary_native_and_row_arrays_not_published": true,
+    "complete_positive_volume": true,
+    "cutoff_both_rows": true,
+    "finite_head_and_two_means": true,
+    "positive_correction_with_zero_stable_input": true,
+    "trial_actual_stable_input_kept_separate": true,
+    "negative_PW_product_read_verbatim": true,
+    "full_true_incoming_inverse_or_return_R0": false
+  },
+  "file_count": 45,
+  "total_pinned_input_bytes": 14108671,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-directed-matrix-old-circle-sources-CI-inputs.json",
+      "bytes": 9368,
+      "sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-positive-ports-to-waist-density-CI-inputs.json",
+      "bytes": 11522,
+      "sha256": "8c3d9c450f571541295754b21667f02b964c26b3ceca918765b3d77b9ec07133"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_radial_potential_budget_ci/run-43685624307-1/execution.json",
+      "bytes": 27645,
+      "sha256": "d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/common_reference_columns_old_circle_ci/run-43688459733-1/execution.json",
+      "bytes": 16120,
+      "sha256": "fabe59eed2174e92352f71b8a0e9d80ce8c127580806f5dab917345b05337f57"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/complete_genuine_negative_sources_ci/run-43702688640-1/execution.json",
+      "bytes": 25715,
+      "sha256": "bca0f97d7c610f8f2572e61d1e1442a8b9c256a4c5429253682b6d803e3a21c3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "bytes": 37783,
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "bytes": 4501,
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "bytes": 26496,
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_radial_local_sources_ci/run-43719681982-1/execution.json",
+      "bytes": 36426,
+      "sha256": "0781239c0753785d2b196b77cc90c0eb343d52cc73226d84d7f8f6bb23136473"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/direct_genuine_first_local_mixed_jets_ci/run-43721735003-1/execution.json",
+      "bytes": 33627,
+      "sha256": "b858853023fd93bfefbac5f8e18471c93c88d90c051999bcf35dd9bc0df8aa4e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/direct_physical_genuine_first_transport_ci/run-43720766795-1/execution.json",
+      "bytes": 46195,
+      "sha256": "48ca7d65c1abd9575c7be6e4e8ae4594cb6f4e1cf3d415cf119e2f2de3ebe425"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/directed-matrix-old-circle-sources.json.gz",
+      "bytes": 7873296,
+      "sha256": "3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/directed_matrix_old_circle_sources_ci/run-43632464994-1/consumers/process.json",
+      "bytes": 49990,
+      "sha256": "00afd54464db46f110ecff8c1968b158deedac719a363590fc366038b47fedb8"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_leading_inverse_density_zero_sources_ci/run-43722805762-1/execution.json",
+      "bytes": 46508,
+      "sha256": "ba96a4832017144ea3ccd59902e8bcb8f1b0acd1c722edadc44b763dfac6c0d0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_normalized_leading_g_sources_ci/run-43726985545-1/execution.json",
+      "bytes": 53936,
+      "sha256": "7736f33c74ccfc84cd8d00108f8035d6cc5d3f16cd9878f885a17481b8d17927"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_normalized_p_h_sources_ci/run-43726426053-1/execution.json",
+      "bytes": 55119,
+      "sha256": "01d9990041478c1a81a6413909d388038af43395578054fd71be2e83a4f8b036"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/leading-old-circle-remainder-sources.json.gz",
+      "bytes": 4837715,
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_old_circle_remainder_sources_ci/run-43629465215-1/consumers/process.json",
+      "bytes": 48987,
+      "sha256": "f888e47e69f41b4b5c73656ac9afd321289a806ce948816d9612111a045d99e4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/leading_root_zero_E_row_ci/run-43724065270-1/execution.json",
+      "bytes": 31796,
+      "sha256": "dedbfcad60efd024fddab17ca948ab5720c24e34a48dcde7e25af7a0aea641fc"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/positive_budget_first_local_Taylor_tail_ci/run-43711480764-1/execution.json",
+      "bytes": 33131,
+      "sha256": "20422f41645c2a4544bb8a0d79eddf771b45ff0386cc81b3ee97a32849586ef2"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/positive_ports_to_waist_density_ci/run-43734233535-1/execution.json",
+      "bytes": 35295,
+      "sha256": "f17516d3083cd2782866c2163635a3a89efe9479ced8f57eefb2bf63e3f92e90"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/retained_radial_density_one_sources_ci/run-43728317408-1/execution.json",
+      "bytes": 58674,
+      "sha256": "042031e1e0baaa53ef062d87918c7ede09eb1f6b4c12bc1d4e4a2ee19ad6a084"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-real-Airy-seam-operator-in-negative-source-window.md",
+      "bytes": 12056,
+      "sha256": "16467e1459f92971a1440cee84c3e2ee5ab4fedc1ba48cca127105dc6ecb3841"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-directed-analytic-matrix-old-circle-remainders.md",
+      "bytes": 11462,
+      "sha256": "394068a9b18a47d5c1b9330f162c39b9b02a0d65db4b46ba5773c995adc6a52e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md",
+      "bytes": 15528,
+      "sha256": "0e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-genuine-positive-Airy-cutoff-and-complete-strong-correction-columns.md",
+      "bytes": 37079,
+      "sha256": "5368abae4c66f73800c16d5f2b906ddaa0f1d62d07e9bd9a3ca539061bdf5d68"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md",
+      "bytes": 22688,
+      "sha256": "c3267f91b1d1e767acbe2b1a1e33507f4811f3f944cdece305d2bed49c54da4e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-positive-linear-reuse-and-complete-genuine-negative-sources.md",
+      "bytes": 16352,
+      "sha256": "98d3a51630cc94f5116a847c72a5ba952aab88c3ccbda62a0fd575e71841f7b4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-seven-positive-ports-and-mixed-root-to-waist-density.md",
+      "bytes": 16459,
+      "sha256": "246c81ac387392c75a3267faaa934a7f0a4b978fdad8b8ac7cbbd4bd5c413562"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md",
+      "bytes": 10607,
+      "sha256": "9f4f5f9b225fe3981068c665c2326b39183449a7d2fa57debc51a9cea9f5c7e0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_common_reference_columns_old_circle.py",
+      "bytes": 24060,
+      "sha256": "9596ebee08e95939cf1b8a9d46a9f32053bd4706cc77e2263a80d09ede99294c"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_genuine_negative_sources.py",
+      "bytes": 47184,
+      "sha256": "b0648a3bc244e6671176ac096c759b3e70e57d8c04b75bd4dd74442bfcaf95c0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_radial_local_sources.py",
+      "bytes": 54891,
+      "sha256": "d59893af66b8829d924d75686fb0ecd6e6d25f9b72b70a0fac6564c4e96fdf60"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_genuine_first_local_mixed_jets.py",
+      "bytes": 46805,
+      "sha256": "b4bc768e149f01591102a9bcc8c16b166bd8ba97fd0c0c245ba3073ba3382496"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_direct_physical_genuine_first_transport.py",
+      "bytes": 40609,
+      "sha256": "7d28ab5f16bfec72faf898118781a5df0af9bc610e80d11bc9d67b8e0527e594"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources.py",
+      "bytes": 27730,
+      "sha256": "f3a5d7b0caad97d65464e6b79e0884e3a50085cbc6b2d9bab35e9ab1e8a66b0d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_leading_inverse_density_zero_sources.py",
+      "bytes": 32334,
+      "sha256": "44021afbf608638e7e08f584a5574acdc76738c5985d72ca0f2b036c8f7d2dc0"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_normalized_leading_g_sources.py",
+      "bytes": 40227,
+      "sha256": "f3f3737931bfa528f57a8f23c0c00043c6027b7ec0d2157ec2a05fb2985d27e4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_normalized_p_h_sources.py",
+      "bytes": 39516,
+      "sha256": "bacbc58b43d7b5463996377802ff700a6ff1abf9dc23dce835541ef934f6a6e6"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_genuine_positive_Ai_cutoff_strong_correction.py",
+      "bytes": 55815,
+      "sha256": "9890c13e59453778e9eff28ffff1986917b52de3a179ba770f0f21c48b46009d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_root_zero_E_row.py",
+      "bytes": 40241,
+      "sha256": "5e1e33549c1495f5d65a68ce3755367eb4ddbd232ffd0b5e5b6923514980b652"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_budget_first_local_Taylor_tail.py",
+      "bytes": 45318,
+      "sha256": "e0541949f521e0852bb4a8b204b51281f7d83e0ed2a7a1afbb259ca73362e92a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_ports_to_waist_density.py",
+      "bytes": 37395,
+      "sha256": "268e033e3973ba60eb01b6b45842221f5d480cbe584de541731a4e34e5632e3c"
+    }
+  ]
+}
