@@ -50,7 +50,7 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 ### 当前真正的完整商与正性任务
 
-[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。下一直接联合a(1/2)和全部Q2错误奇偶±行继承旧系统，不先派缺此已知关系的中间singlecut计算。
+[R168](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md)已付全部真权−2字符的修正二次奇偶：b0/b2偶、b1奇。完整Γ反射缺陷与唯一μ同付，原ν26/41/61/67=0属于真实头部关系，未授R成员或独立rank。本提交派 character_minus2_static_parity：直接联合a(1/2)和全部Q2错误奇偶±行继承旧系统；新8人工已过，不先派缺此已知关系的中间singlecut计算。待新准确双证或外点，旧完整数据不重算。
 
 [R167](results/R167-four-monomial-Gram-certificate-for-complete-highest-action.md)给完整最高层有限充分证书：四单项Z的常4×4 Gram加两个真边界参数，PSD及R148轴向门即充分。后继点若取得准确证书可转低层/真实关系；Gram不可行不等于有负路径，不为已排旧点重测。
 

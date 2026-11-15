@@ -311,3 +311,9 @@ root提出当前外点Q2错误奇偶缺口，tail完成全证明，root全文核
 - 2026-11-15 02:25:50 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交5648b8f5f1ea12675617e877eafc0940ef4f9690记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 02:26:01 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交fa2ebb8a5e5336dfb2d5309742c8878f66b744d8记录于H；继续推送同一完整结论，无force。
+
+## 2026-11-15 02:30:20 UTC — R166+R168联合新必要行公开续算
+
+新singlecut helper26313B/d5a65482与联合source18508B/9e7f7d2b、两份设计/新增人工全部全文读；联合source只从原43665971895绑定三文件继承23自由坐标/124等式RREF/63原行/六积分，先a(1/2)，再遍历三Q2族全部degree错误奇偶±行。重复仅记索引不改旧reason counters，旧等式杀零也存记录。两号所有自由坐标Q非负双证全成才排权−2，否则保存准确外点不授真实函数/正性。
+
+独立新增parity8人工.001290902s/13.625MiB；单cut自身8人工.95396s已成存档，不派只静态的中间实际，也不重跑旧13/旧实际。workflow/publisher新增character_minus2_static_parity、三原文件sparse输入；本次240s/1024MiB/输出上限保持。几何43667582193继续，不取消。
