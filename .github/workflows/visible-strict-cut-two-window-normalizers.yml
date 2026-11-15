@@ -1,0 +1,82 @@
+name: visible-exact strict-cut two-window normalizers
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-strict-cut-two-window-normalizers.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-strict-cut-two-window-normalizers
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-cut-two-window-normalizers-CI-inputs.json
+  PHASE_MANIFEST_SHA: 9e5688400b91714b189e2ed3865cf5448b54bf26d0ff8fef76ba3af06161646e
+  PHASE_PIPELINE_SHA: 4dbc776babf0e8be12440bb21ac0765e2676c9cea02912326d46f53cfb627256
+  PHASE_WORKER_SHA: 9dcab91674a40010ad5a75f1985d7af2a3d4ab174f1d6c5d8eaf7db64c1fe32a
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  strict-cut-two-window-normalizers:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_cut_two_window_normalizers_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-strict-cut-two-window-normalizers-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_cut_two_window_normalizers_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate source and small provenance without restoring data into Git
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_cut_two_window_normalizers_public_worker.py --mode hydrate
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new source before any mathematical evaluation
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_cut_two_window_normalizers.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PHASE_PIPELINE_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the identical completed scientific runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5 scipy==1.17.0
+      - name: Check the full immutable AST closure and evaluate the two-window strict-cut normalizers
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_cut_two_window_normalizers_public_worker.py --mode run
+          --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-strict-cut-two-window-normalizers-science"
+          --out-dir "$RUNNER_TEMP/visible-strict-cut-two-window-normalizers-output"
+      # Root rule15: no upload-artifact, Release upload, native or numerical-data commit.
