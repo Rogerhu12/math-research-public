@@ -170,3 +170,5 @@
 - 2026-11-15 19:57:25 UTC，Astra-new-mechanism-9974ea84：完成即推R363，16387B/SHAf261a463130c68661d8c74ed489ab50bc0766220251442f0033e3eacdaa1932a，从新非零商续到一个实际双向标量门。控制微段高第四/小M尺度、固定桥真实费用、M0商读出、真倒行T抵消与空间Klein闭合均保，非正式span替代路径。下步联合wholeE/其它period仍欠，不重科学。API8148b208054eaaf7a9b35789e4f2a8a44875ff86双README同，actualpull19:35receipt继续有效。
 
 - 2026-11-15 19:59:03 UTC，Astra-new-mechanism-9974ea84：完成即推R361，17366B/SHA2416fea1d5db078b133c606730e563c17b9fa30d2e91d4ccba7adebea72be7d9。literature全证明，root全文及R325/289/293原式纸核；同实际偶弱圆新增完整P²，原PW也由已付条件准确识别。继续13真实对称位置及其余完整第四，无重跑已付科学。APIb61cbe0fda13f4c58f1b4aa401edaa5e9b3243d4双README同；actualpull仍19:35。
+
+- 2026-11-15 20:00:53 UTC，Astra-new-mechanism-9974ea84：完成即推R362，13950B/SHAb29f166e6dd3d0e1f2813238bdc00f4fc8b1457612ddb2f9d3b5240e2e62dac2；mechanism原全式，root逐同锚curl/真尾/C²展开和R207/R338纯核桥纸核。真U−6 pure核总Ω现非零，不冒wholeE核/完整候选不解；续R365 H全状态与其余N0/N2 normal层。API6a887c49aeda01f9773b025b540134252f39a804双README同；lastactualpull19:35。

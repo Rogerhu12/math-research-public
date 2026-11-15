@@ -446,3 +446,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R361：完整P²平方与PW乘积在同一偶弱圆上全部支付
 
 [完整证明](results/R361-even-weak-circles-and-three-oscillation-shapes-pay-the-negative-three-square.md)，17366B/SHA256 2416fea1d5db078b133c606730e563c17b9fa30d2e91d4ccba7adebea72be7d9。完整D三矩/原二次尾正交给对称反射，18面积与F1已付PW全三矩。原PP0=−∫(f″²)′Dρ′、PP1=−∫[x(f″²)′+2φ″²]Dρ′适用真实rank-two弱圆；PP1偶性0、PP2=F0，所以只新增一个sin²型PP0。三χ在同一个正解析/F★最大minor母上实现四行principal真rank4，finite-jet见证Δ=−30、原36交替列严格正核；完整finiteN/C1根保18面积、三F和Ψ，并精确指定PP0=τsin²。τ0给P²全三外矩，τ非0明确旧门不蕴含。余13对称函数位置非rank，零/一history及period/joint不授。root原R325/R289/R293全文相关链纸核，新PP式/jet/128ad/真实副本和finiteN均保，无执行。
+
+## R362：完整H2的真C²余项及权−6 pure核总Ω非零
+
+[完整证明](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)，13950B/SHA256 b29f166e6dd3d0e1f2813238bdc00f4fc8b1457612ddb2f9d3b5240e2e62dac2。原R358完整curl的bulk与ZZ项/两tail先准确消势，H̃δ=+4H2；唯一C³²为(1/1920)∫x(1+x²)²r(ur−v²/2)t²，全部余项ℒ+BLKγδ−2ALKδδ显式保真jA/jB/左值。两j原式降C²，再按同锚outer规则消一次t；真−6通过有限Laurent系数提取保C²余式。固定正窗口的真光滑uN→u0于C²而三导平方增长，得到严格非零。R207完整πU−6=πR−6三基只读消费，唯一坐标减Rπ给**W6⁰∈U−6∩kerπ、ΩW6⁰=ΛW6≠0**，关闭R338；−4/−2同式亦非零。未授wholeQ/真实半群。root全文手核curl、所有系数、j的两IBP、真权/正窗口，并实读R207/R338，不重旧根/秩/科学。
