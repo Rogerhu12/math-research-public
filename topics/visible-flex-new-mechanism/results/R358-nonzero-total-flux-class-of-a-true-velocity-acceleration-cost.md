@@ -1,5 +1,8 @@
 # R358：一个原速度—加速度成本的非零总通量商类
 
+> **R382 后续核定（2026-11-15）。** [完整修正后原式](R382-universal-cancellation-of-the-corrected-H-total-flux-and-independent-Q4.md)现已证明所有实际状态的两个H自然总通量均为零。旧具体7/13自然通量控制在此通道没有H响应；仅保抽象条件命题，不能以本族读出满足其非零/满秩前提。此结论不说H算子为零或H属于R。
+
+
 > **2026-11-15 R378 更正。** 原式(23)漏第三history在Ps/Bs的链项；指定真−7的自然通量准确为零，本文非零及由此给出的非成员证明撤回。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
 
 

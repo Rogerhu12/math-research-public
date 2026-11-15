@@ -1,5 +1,8 @@
 # R371：完整 H 层模 C² 恰十二维、十三个独立自然通量与真实闭路联合控制
 
+> **R382 后续核定（2026-11-15）。** [完整修正后原式](R382-universal-cancellation-of-the-corrected-H-total-flux-and-independent-Q4.md)现已证明所有实际状态的两个H自然总通量均为零。旧具体7/13自然通量控制在此通道没有H响应；仅保抽象条件命题，不能以本族读出满足其非零/满秩前提。此结论不说H算子为零或H属于R。
+
+
 > **2026-11-15 R378 更正。** 本稿“实际H模C²恰12维”撤回；修正后principal商为零。完整像至少13及相应实际13联合控制的旧证明不成立，须重新核完整C²值。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
 
 

@@ -284,3 +284,7 @@ results已到91665B，将首段R304–R343及同期数值索引原样移至resul
 ## 2026-11-15 21:17:33 UTC — 首次covered-soft普通扩径请求，唯一新阶段
 
 提交request-covered-soft-growth.json，37359B/SHA256 8c720549a3ccbbc41e0597114abeff8b009e75eb2ae5bfaff05c7befd59a76db，140绑定；源已单独接入81be993d9962f42e425cb1163115361944920ed3。仅4新组20条首次检查和一次原12LP/40值/120active/10s续跑，不重复旧19/26/cache或旧科学。source run43758666042 exact159/163、59bank、4432/4358、B1/8000、legacy1/new0；科学前actual pull检查根/题README与私有QUEUE，变化则停止执行并只读diff改规。当前未读新实际，不预称触发/改进。
+
+## 2026-11-15 21:22:00 UTC — R382 完整H全消，立即推送并同步旧范围
+
+tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导数及两精确self桥均过。根逐项手展开§3的M/T系数、两local式、每一线性t分部积分至Iγ/Iδ，并核(19)(20)全多项式逐项相消；保真尾/任意状态affine/原15/4规范，独立三bump非零值也核。全文11628B/SHA256 a72c9536d6bdb289ddbad61651cc40b1a665b0491a85aa48253d0df6b0bd6481。旧H自然Λ具体7/13不可用已写原稿顶部；未宣整个H算子0。mechanism接R385 Q4单标量真实双号，根另核Q4两线性类，不停在纠错或阶段结果。

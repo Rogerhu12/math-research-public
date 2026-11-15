@@ -214,3 +214,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R381：修正后H的全部有序真尾准确抵消
 
 [完整证明](results/R381-exact-cancellation-of-the-ordered-tail-in-the-corrected-H-flux.md)。真实aL保原三矩，n-tail=(daL/4)(γVγ+δVδ)，原YC-tail权2/3给(daL/6)D_V。三D/K差分别为−(L²Vγ)′/4、(rLVγ−2WL²)′/4、(WrL)′/2，端项由紧outer支付，故新尾=−旧daL·K。只留原已显示速度三次梯度，任意状态的全部H有序尾curl0；未置任何左矩为零。完整self余值仍未付，不恢复旧秩、不宣全H0。7729B/SHA256 8a163876ac6bf42be2fb4cc60d1063f80052466c5c5e498e1bd3b37a8aa30278。
+
+## R382：整个H层的自然总通量普遍为零，Q4是真正新类
+
+[完整证明](results/R382-universal-cancellation-of-the-corrected-H-total-flux-and-independent-Q4.md)。补后self的四j系数为紧导数，得两精确A/B表达式；M/T系数分别为(2QL³)′/(−QrL²)′及(−2QrL²)′/(Qr²L)′，保原M′/T′后与全local多项式准确抵消。连R381全部真尾与原正规化/affine输运，Λu(H1(S))=Λu(H2(S))=0对所有实际S/紧u成立。旧具体7/13自然通量H控制不能恢复；不授H算子零或属于R。R370独立完整δ⁴读出及真紧三bump给Qδ4∉R+spanH，未授实际成本可达。11628B/SHA256 a72c9536d6bdb289ddbad61651cc40b1a665b0491a85aa48253d0df6b0bd6481。
