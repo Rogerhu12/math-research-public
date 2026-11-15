@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "sourceRun": 43660606254,
+  "sourceCommit": "4824d0153c7d09944788bf83c9797f68cb3dcf59",
+  "actualRecoveryFiles": 433,
+  "actualRecoveryBytes": 1239127670,
+  "allSavedRawFileHashesMatched": true,
+  "completedStagesToReuse": [
+    "saved-saturated-source-preparation",
+    "q1-twenty-vq",
+    "q1-twenty-original",
+    "true-L2-twenty",
+    "L2-normal-twenty",
+    "q2-complete-twenty",
+    "q2-twenty-vq",
+    "q2-twenty-original",
+    "true-L3-twenty",
+    "true-198-next-relations",
+    "next-relations-normal-fifteen",
+    "q3-complete-fifteen",
+    "q3-fifteen-vq"
+  ],
+  "continueStage": "q3-fifteen-original",
+  "priorRawAndCompressedManifestsVerified": true,
+  "noMathematicsRecomputed": true,
+  "elapsedSeconds": 1.029921566000013
+}

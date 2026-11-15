@@ -1,0 +1,201 @@
+{
+  "binding": "0784d041d93860d74687f8a1d1d91522df7b799293ec493bfae7cfda5b380b60",
+  "depth": 2,
+  "format": "isp-local-unit-schur-f31-v1",
+  "incoming": {
+    "G": "83acaae88292ca46ee8e4791815aef5dca9c6f93469e327fb8a280121e627f6c",
+    "cols": 8,
+    "column_labels": [
+      946,
+      947,
+      949,
+      950,
+      951,
+      952,
+      953,
+      956
+    ],
+    "nrhs": 197,
+    "precision": 13,
+    "rhs": "9d45053d4a148bff8e34aa9e77be90c22bf0523889587860a64fa43e0281df2a",
+    "row_labels": [
+      470,
+      471,
+      472,
+      800,
+      801,
+      802,
+      964,
+      965,
+      966,
+      967,
+      1020,
+      1021,
+      1022,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033
+    ],
+    "rows": 21
+  },
+  "matrices": {
+    "Ainv_B": {
+      "bytes": 195,
+      "cols": 5,
+      "compression": "none",
+      "decoded_bytes": 195,
+      "decoded_sha256": "9ae9db4f7efd01902b5087b20107114ced511857867ba6971eddeaf828e1570f",
+      "file": "Ainv_B.bin",
+      "precision": 13,
+      "rows": 3,
+      "sha256": "9ae9db4f7efd01902b5087b20107114ced511857867ba6971eddeaf828e1570f"
+    },
+    "Ainv_rhs": {
+      "bytes": 7683,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 7683,
+      "decoded_sha256": "9baa8aaf75573efa181106e081319ede58961f645527e47ddaac323c6c5f579a",
+      "file": "Ainv_rhs.bin",
+      "precision": 13,
+      "rows": 3,
+      "sha256": "9baa8aaf75573efa181106e081319ede58961f645527e47ddaac323c6c5f579a"
+    },
+    "G": {
+      "bytes": 2184,
+      "cols": 8,
+      "compression": "none",
+      "decoded_bytes": 2184,
+      "decoded_sha256": "83acaae88292ca46ee8e4791815aef5dca9c6f93469e327fb8a280121e627f6c",
+      "file": "G.bin",
+      "precision": 13,
+      "rows": 21,
+      "sha256": "83acaae88292ca46ee8e4791815aef5dca9c6f93469e327fb8a280121e627f6c"
+    },
+    "rhs": {
+      "bytes": 53781,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 53781,
+      "decoded_sha256": "9d45053d4a148bff8e34aa9e77be90c22bf0523889587860a64fa43e0281df2a",
+      "file": "rhs.bin",
+      "precision": 13,
+      "rows": 21,
+      "sha256": "9d45053d4a148bff8e34aa9e77be90c22bf0523889587860a64fa43e0281df2a"
+    },
+    "schur": {
+      "bytes": 1170,
+      "cols": 5,
+      "compression": "none",
+      "decoded_bytes": 1170,
+      "decoded_sha256": "4f509f4f65b7e86922829be2db277678c20569144440866d499c0534451aa08d",
+      "file": "schur.bin",
+      "precision": 13,
+      "rows": 18,
+      "sha256": "4f509f4f65b7e86922829be2db277678c20569144440866d499c0534451aa08d"
+    },
+    "schur_rhs": {
+      "bytes": 46098,
+      "cols": 197,
+      "compression": "none",
+      "decoded_bytes": 46098,
+      "decoded_sha256": "3280d95b2901193e073236a224f64f3a419a25025e331222ad6c22a09d880d4c",
+      "file": "schur_rhs.bin",
+      "precision": 13,
+      "rows": 18,
+      "sha256": "3280d95b2901193e073236a224f64f3a419a25025e331222ad6c22a09d880d4c"
+    },
+    "unit_inverse": {
+      "bytes": 117,
+      "cols": 3,
+      "compression": "none",
+      "decoded_bytes": 117,
+      "decoded_sha256": "8ee39d0ad1b126128619ead60a318f8d0d571a0ee84bbb290264b91a74c0653f",
+      "file": "unit_inverse.bin",
+      "precision": 13,
+      "rows": 3,
+      "sha256": "8ee39d0ad1b126128619ead60a318f8d0d571a0ee84bbb290264b91a74c0653f"
+    }
+  },
+  "remaining_column_labels": [
+    950,
+    951,
+    952,
+    953,
+    956
+  ],
+  "remaining_columns": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "remaining_row_labels": [
+    471,
+    472,
+    801,
+    802,
+    965,
+    966,
+    967,
+    1020,
+    1021,
+    1022,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033
+  ],
+  "remaining_rows": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "row_label_meaning": "retained row slots after preceding Schur eliminations",
+  "unit_column_labels": [
+    946,
+    947,
+    949
+  ],
+  "unit_columns": [
+    0,
+    1,
+    2
+  ],
+  "unit_rank": 3,
+  "unit_row_labels": [
+    470,
+    800,
+    964
+  ],
+  "unit_rows": [
+    0,
+    3,
+    6
+  ]
+}
