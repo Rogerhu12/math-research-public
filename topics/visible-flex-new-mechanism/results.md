@@ -339,3 +339,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R403｜保完整十九目标而使每个实际包仅一对内部退化
 
 [R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)（23525B；SHA256 41476082d69ccefbdbdfa08033fbe59edc81abcd635e4cf9a3d0cedea870f5cc）。新ψ3P母基以密度/有限多项式minor兼容选真max-F和19点对秩；paired三导集中在负Af内区、全量t²+C²余给完整C1极限，12真实交替正核与固定正幅盒给有限N精确19根。实际u′×pulse≤0及外区/平端相对估计保全部真实包恰一对简单Af和中心p单零，全部原复制/F_rat/端解析保持。它重选初始母数据，不冒旧数值纤维或固定旧g。R401遂覆盖指定包全部内部两period germ，其余包/总通量/13joint未付。root全文、mechanism独核§3–10/source、tail窄核符号端部；无执行。
+
+
+## R405｜共同外区与所有内部第二通道的完整局部current
+
+[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)（22253B；SHA256 4dc54099c503a75112c4e7f66f347467d589cb059f0363cf6879d9afa26ea8aa）。限制内支撑affine空间的真max-F与同19有限根保每包外区精确ψ3、仅原镜点两Af零，旧数值fiber不冒用。原跨包密度全导数和右锚P给Q=L+ΣmJ；whole self仅消m″，全Λ0再经任意紧u/三个真实右矩及三次Euler齐次给D_xJ=u′U″。真suffix下全部C_i=a_i³J(x_i)，各实际宽w_i保留，同宽42/全42|W|只生成界；实际仅E0应保右镜ordered总量。完整证明，未重执行。实际所有包像、同包余通道和全joint继续。

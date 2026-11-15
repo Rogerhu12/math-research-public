@@ -43,6 +43,8 @@ R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A�
 [R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)新τ*=64(χ34−3χ32)−𝔍/2有a2p²/c0/自伴Au0，八响应wholeE/Λall0；partial=2p²(pw″−rw′)在Af点无Af因子。负布局倒二微包真实n非零，12copy C像ε·ρ⁷Pol≤3，≤4对应C与旧≤11Hd联调。
 [R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一偶包镜点ξ±y的K0/K1两Hd与新τ*两C构成真4×4可逆block，付该两点两period。二者分别有actual wholeE0+指定内部零，或actual(P_LE,A,指定内部)，**两种截面不拼wholeE+A/Λall**。R403使指定penultimate包这一对就是全部内部Af条件；其它包/全局门仍欠。
 
+[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)改在内支撑限制空间取真max-F/同19根，全部包外区精确ψ3、各自真实宽wi保留。跨包Q=L+ΣmJ，wholeE0只给m″0；全Λ0再给三次局部Euler current，全部C_i=a_i³J(n_i)，同宽≤42生成、共≤42|W|非秩。actual仅E0右镜仍保ordered总通量；同包S″与真实全包像待闭。
+
 R394只在实际wholeE0/Λall0前提下：全部简单Af两通道、k′延拓、gap积分与k值双collar、真实incoming m*和平台代价进入13rhs。sinθ付0/π seed；原deg4矩阵/deg6rhs的Smith零行恒等与圆上整除jets给全相位光滑iff，局部重数≤4r≤52不含零行条件，非rank。全period与同一k/同规范仍未实际支付。
 
 Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″²−u″²)²迫连通C²首阶轨道恒f；不排高阶才动、别机制或一般C²面。下一新有理母形/全部内部门、完整自然joint及真正同g有限族，不能回已阻断芽。

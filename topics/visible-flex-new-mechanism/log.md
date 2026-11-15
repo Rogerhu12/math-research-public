@@ -291,3 +291,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:34:34 UTC｜按单Markdown上限整理人类日志
 
 Astra-new-mechanism-9974ea84：旧log接近100KB，归档此前人类日志50100B/SHA256 0015955f04b5968ef0cad3335ade97610baef55884418b2278ea33fdceda920d（原段50097B/hash03697f04e9bfbe966eb4bb0c0ae35bc532abf2d3a5999795dbe05518f7481b59），只调整相对链接；保所有run、失败、实际pull与费用。非机器输出分块，无新研究执行。继续direct-reference接口、C2/C6自然函数及全部内部period；基底2597617030f7b4db5518de15586e96b4fd3efad4。
+
+
+## 2026-11-15 23:38:26 UTC｜R405共同外区与跨包完整current
+
+Astra-new-mechanism-9974ea84：[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)，22253B/hash4dc54099c503a75112c4e7f66f347467d589cb059f0363cf6879d9afa26ea8aa。根读R56/R292/R389原项，手核β全导数与Euler current，明确原所有w_i而非新增等宽假设，改正两处显示数学delimiter；actual仅E0仍留总量/平台，同包S″不偷用跨包式。无新计算；接R407同包纤维路径及真实全包像。基底fd4d63fe4f30ae6aa939abd33805d2de2794de63。

@@ -150,12 +150,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 - **R390→R392响应E与两Λ实际joint已付，继续完整商**：[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)同一有限字可任意指定F=P_LE和两个固定自然Λ，−6/−4/0完整pure/self同付；wholeE其余商qE含原型×n成本仍欠。真kerE的X/M两类只付线性完整乘积J(U)，λ+不经固定J下降；下一实际联合商C⊕R²，须保fixed读出核的仿射问题及全部桥基准。
 
 
-### R391已付：内部退化降为真实点通量，继续完整period
+R391原解析有限简单germ已付；R403/405新初选进一步降至共同母坐标镜点一对，仍保p中心单零和原同锚累计条件，不把指定点支付当全period。
 
-[R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19完整值、整个低阶纤维、全部实际副本和解析平端；真实零流形上两偶quadrature/别包补偿给所有Af简单，p仅中心简单零。p零禁residue自动消；每Af点完整germ iff同一原累计F为零。原R345≤11指定对应Vd点现有完整光滑germ，非全部点或Ve；零点数可>11。下一付两目标其余点/整包通量、原仿射尾与右collar重建、R327同一相位13行；不要重做已付minor/秩或把指定必要值继续当高重充分。
-
-
-旧guard末模型的gap与全部预算见原actual notes；后继冷恢复已耗尽该epoch时间，不能续m7。
 
 ### R394完整条件性period/同规范接口，继续实际像
 
@@ -187,6 +183,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)同一最终偶包的ξ±y处，K0/K1两Hd与τ*真linear/quadratic尾两C成4×4可逆block；所有原型/倒行/桥/Klein和后置截面成本保留。分别actual wholeE0且两点d/e0，或actual(P_LE,A,四raw)，不拼wholejoint。R391只授有限简单根，不授仅一对；下一读原ψ/保护区及同19值纤维，研究全部Af根/全部包条件，不重做这四行。
 
 
-### R403新母形使每个实际包仅一对内部Af零点
+### R403/405保十九真根与共同外区，继续全部包的真实像
 
-[R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)从新ψ3P共同基点保原F_rat定义/逐包等值与19个完整零，不冒旧数值纤维。全19密度准确t²+C²余、paired集中与12真正核付有限N根；实际u′×pulse非正及端相对控制保每包仅镜点两根/p中心单零。R401在最终指定负penultimate包的四query现覆盖其全部内部germ；仍非所有包联调或全period。下一检保共同外区jets的局域形状，以及有限U对全部镜点/有序尾的真实响应像，继续13同规范/全Λ。
+[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)在内区restricted affine空间取真最大F秩，原19完整C1集中/正核给有限根，外区准确ψ3且每包两Af简单点；原actual宽w_i各自保留。跨包period Q=L+Σm_jJ_j，wholeE0仅消m_j″，二阶成为局部；全Λall0再由原3+2与Euler齐次给显式三次current。全部镜点C_i=a_i³J_{n_i}共用含真w/suffix的有限表，同宽每侧≤21生成、总≤42|W|，非秩或满射；共同平移可至8次。actual仅wholeE0，右镜仍保原ordered总通量。下一闭同包S_u″在cap的真实纤维不变式，求全包actual响应像/13同规范；不拼分别截面。
