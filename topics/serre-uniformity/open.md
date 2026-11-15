@@ -77,6 +77,8 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R807原M6一次清极已实际完整认证**：[结果](results/R807-certified-original-M6-pole-clearing.md)。run43707939269/source2c44d025，375.019515秒；原962块p1000000007/det290159643。真实138×5残余rank2/kernel3，θ=e0−112648621e1/282292255+223442698e2/282292255，原λ3/4=0，无新增pair-tail。五选行投影各488 Dixon位；三成员690/691/693为336/464/472位，692由既成投影与核合成，四条全1100准确认证。1003完整manifest项/1005ZIP/997原输入与冻结verify经公开IO run43709814489全核。只需后继六个θU_j正规向量，不重算θ、8右端或旧前缀；极理想/η/高度仍未执行。
 
+**R809（证明/执行契约已完成，实际坐标待Actions）**：[原S5正规向量与有界乘法认证](results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md)/[契约](notes/R809-original-S5-normal-coordinate-consumer-method.md)。原1234列S5、69阶×20=1380行，共用一个真实新minor；先原R803/R807六个τθU_j的84Q右端，R787成功后追加A/B28且不换公共身份。保82^10、原b/s两块及B_fld=λb换基、τ因子最高项零；只补所需缺尾。实际normal向量经Mw的cyclic first-column/commutator及weighted bound给唯一乘法；只有限域数值Krylov逆，A/B各8点、r4各7点插值。尚无S5实际minor/新坐标或极理想。
+
 ### 全p sigma：同一个真正可见标签的三个单位
 
 真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。
