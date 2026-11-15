@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 44d727dae5beba12177887d624da7cb1ddd8dbbf（2026-11-15 09:12:01 UTC，临时研究session run43679903558实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 2a5b30535e502b0b4e5df88f77402932a41ea334（2026-11-15 09:17:23 UTC，Actions run43698511069实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43698511069-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。最新规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8：仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学预算为本任务自选。全部旧状态保[本次完整快照](notes/2026-11-15-handoff-before-koszul-q-lift-789f.md)，旧未列缺口不算关闭。
@@ -29,8 +29,8 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 - **[完整返回](results/R271-appendix-complete-return-orthogonal-decomposition-driven-system-and-unique-lift.md)：** Rret=Jf−Jb∈E0，Rret*Rret=H−B，Rret Cs=−T0Rret−KJb、[T0,K]≤δ。未压缩残量单射，不能倒用压缩Sylvester。原eY∈E0、||eY||²≤||Y||²−α²、Rret*eY=(L+B)r，正主配对为μ²+α²。
 - **[强gauge](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)：** 同未来/末端/全旗保留，n+2h+R<Q；驱动误差付A_drvα，未付测试q_h(−T0)*eY。全局M/W锚用原Cg而非Boolean头，carry不删。
 - N/Y各自负轴领先12.5障碍及次阶安全放大已付。**[当前Riordan](results/R271-appendix-relative-hole-riordan-conjugacy-full-bare-source-transport-and-uniform-budget.md)**用τ14=12.5d³+26.75d²+…、R=ceil4e^τ14、h=d+R，K及逆≤exp[32(1+e1070)]固定；h²/Q≤72e^(−d³/64+54d²)→0。完整右/裸/旗/首源g/零源都运输，新头Ĉ=ψ_m(C)/d0，g在Sb等范数距I≤2M0/h。整个左L未运输，不相减Gram。
-- **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** ω=d0F(B)/B，W_h=ω(B)^Ns，C=W_h L_linω(B)W_h^-1；Ĉ=V0 L_linV0^-1，V0仅在kerL_lin等于W_h。W_h四向固定强真空f；完整G=i*W_h*W_hi、forcing=i*f，Green输入是ω^-* [f−W_h*W_hiG^-1i*f]。G^-1不保原次数，不能拆估或把W_h用于全部Ĉ返回链。
-- **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)**在池长≥2d给平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真四次幂可付；加入其余强E必须改全部A_rest/h/Gram。原连续尾固定f的Green O(R³)、共同高孔残量及ordinary两费都未付。特定旧Artin/裸J(L)^-*的d⁴大列不下界真实Green。
+- **[保强孔规约](results/R271-appendix-strong-hole-diagonal-linearization-vacuum-forcing-and-full-green-schur.md)：** C=W_hL_linωW_h^-1；Ĉ用V0，V0仅在kerL_lin等于W_h。W_h四向固定强真空；完整Green输入ω^-*[f−W_h*W_hiG^-1i*f]必须整体估计，G^-1不保原次数。全参数/旧缺口保[本次H](notes/2026-11-15-handoff-before-second-normal-envelope-789f.md)。
+- **[等权长池Green](results/R271-appendix-uniform-pool-exact-green-column-and-true-head-power-budget.md)：** L≥2d时平方≤(4/S)C(A,S/4)〈H^-1f,f〉，原A_m真幂可代；加入早强位必须改A_rest/h/全部Gram。原连续尾固定f Green O(R³)及ordinary两费仍未付；特定Artin大列不下界真实Green。
 
 - **[Riordan实际返回配对](results/R271-appendix-riordan-actual-return-mixed-pair-transport-and-window-error.md)：** ê=P_ÊK^-*eY，误差≤C0²α||eY||、平均O(C0²h/Q)趋零；主项/q_h测试仍开，不运输L，Ĉ用V0。完整旧状态保[本次H](notes/2026-11-15-handoff-before-first-binary-schur-789f.md)。
 
@@ -44,7 +44,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/u_Q/未来/负前缀及自然
 
 - [Dixon1085恢复身份](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit，18重建未返解；2751核心/1567DAG、逆与78MB活动槽保在{work}/seven-sparse-dixon-original，全部SHA见注。现36核存在已由585投影付清，显式29，不盲续算。
 - 会话请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json锁全部sources/scriptSHA，新步须新id。临时work目录保p768、29Q核及65521profile；大数据不上传，旧6Release资产已删。
-- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。零点第二纯包络亦全零、K77已付。已排selected-natural-first-connection-f31（30s/512MiB），原参数历史65KB只读临时恢复，全常项/自然一次/完整36余均核；尚未预填连接秩。
+- 585原投影已成、完整Qrank4318已付，不再为常核存在盲接Dixon1085。∞第二纯包络已实成；旧缓存定位仅找到两压缩forward/backward，无旧jet/reduction。零点第二纯包络亦全零、K77已付。selected-natural-first-connection-f31在inputs因缺NumPy退出0.091968757秒，未添结论；primitive旧字节已临时落，代理正改只用FLINT/std库。已排∞第二normal三方向1088×595一次RREF（30s/512MiB），只给β2上界，不预填秩或重NF。
 
 ## 其余仍开
 
