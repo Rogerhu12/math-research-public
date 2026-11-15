@@ -46,6 +46,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R185](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md)给重叠八包的16维真实周期核及六矩固定右逆；消六矩不缩周期像。余10个显式合法周期不变方向的ruling只需0/cos2θ/sin2θ共30真s函数；仅有限充分接口，不能冒10像独立。period部分准确缩4个L_f目标，但完整joint不能据此限制所有相位。下一应支付原G_i及真实退化通量/共同ruling像，不继续只列新方向。
 
+[R187](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md)已排R183矩形/实纯虚补偿圆的充分共同窄化类：任一非空常状态段的pure σ²完整门首项严格非零，所有二/三齐次gauge不改变它；准确三矩/低阶/period自由度不支付这个ruling门。不为该窄类派第四计算。任意宽度的符号尚未定；literature已成无开常段真实桥稿R189，待读，随后须具体支付period/joint。
+
 [R175](results/R175-complete-highest-action-sharp-two-by-two-criterion-after-original-relations.md)已结清R174关系下的整个最高层：a≥0、ℓ+25a/9≥0及二阶M PSD充要，完整边界恒等及R169有理幂路径必要性齐全。下一新外点只读五数按此准确分离；通过即不再跑最高层路径/Gram，仍保低层、完整时长与原函数良定义门。
 
 [R170](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md)已完整支付固定k的0/2/4 action：A,D,C≥0与B+2√C(4√A/3+√D)≥0充要，等价全t,s∈Q正的B+4(tA+C/t)/3+sC+D/s≥0。只在新点有严格违例时定向选有理κ,t,s；不盲加时长/参数网，不把B单独判负。

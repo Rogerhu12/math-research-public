@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库最后已读规则提交：`9355f2e3731aa41374a6daeb29dbdb8ee829d4d5`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库最后已读规则提交：`93ca81c65560ce211713c9a41371b2c38f9bb1fb`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 04:28:52 UTC实际pull至`589cd54e75bff1d9ec80dcb6688afa71e898c381`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅元数据notes/terminal-private-pull-20261115-0428.json；下一私有pull不晚05:28 UTC。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 末m4–7硬门全过、真实改善8.86e−9、预测比.99963，但低于drop1e−7；SOC后三已约.34s成功且改善更小。7主4SOC=11LP、30共享+2末值，active55.03s，旧mintrust退。原范数罚随trust缩小放大，末代价约52%预测改善；不能仍归因曲率/SOC超时。
 
-**当前待消费actual43676765171/sourceca4e52869123fa97df4560232a03f9529cf05332，lane metric_spectral_physical_penalty**：仅primary权改w(r)=1e−6 r/(1/1000)，固定物理范数系数1e−3；新库9fbfdcc1/driver c04c99a7。23输入/94args，从b0bf、4407/3711、trust1/64000继续；原floor1e−7、drop1e−7、硬门、min1/102400、12LP40值120s全不动。实际step已完成，等完整发布原件；mechanism负责全模型/失败/native门。不能以准确LP偏差≤w冒浮点最优或必改善。
+**当前已完成待写actual note：43676765171/sourceca4e52869123fa97df4560232a03f9529cf05332，lane metric_spectral_physical_penalty**：仅primary权改w(r)=1e−6 r/(1/1000)，固定物理范数系数1e−3；新库9fbfdcc1/driver c04c99a7。23输入/94args，从b0bf、4407/3711、trust1/64000继续；原floor1e−7、drop1e−7、硬门、min1/102400、12LP40值120s全不动。原件已发布，root双SHA全核同：full1046934/dc8f4c34(raw8598827/dc6d87a2)、native68590/daf111ca。初读12主/0SOC、11接纳至c0108184，η.26654026379723106、κ57.9999861933；全trust1/64000且norm1，12LP预算退。细内strip余−1.44e−10仅原tol过；mechanism全读全部失败/门，下一有条件增长trust。不能以准确LP偏差≤w冒浮点最优或必改善。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -48,7 +48,7 @@ R183：四台阶+三个左补矩包给真正重叠圆，三射影平台不能GL2
 
 **R184完整第四iff**：同一个w先保第三range，再付 V0+Lθw=0 与 K0+Bθw∈W（三真实矩列span）。平方项真实落W，R47单φθ三矩Gram右逆给光滑周期第三gauge支付，保种子；不需六密度独立。hook时Lθ=2κL_f，R181通量为固定圆不变量。joint方程仍未解。
 
-literature当前处理R183真实常段pure σ²门，R187稿已成待root读：只能排充分窄化类，保交叉forcing/左仿射尾；不能据此排任意宽度。下一优先原Gi/真实通量或joint ruling，而非继续列未评价接口。不得为已排不交/窄类重跑。
+**R187已付**：R183矩形补偿的复平方幅全实，q″逐点实/纯虚，I4=∫(f″⁴+g″⁴)>0。真实常态pure σ²首项为−(1+k²)²(1+e_c²)³I4/(12288 h⁵λ⁷)，原尾/交叉forcing和Möbius因子保全；全部二/三gauge不动它。只排充分窄化类，不排任意宽度。R189去常段真实桥稿已成待读；仍不授fourth。不得为已排不交/窄类重跑。
 
 ## 6. 保留边界与当前交付
 

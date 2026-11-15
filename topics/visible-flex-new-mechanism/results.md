@@ -109,3 +109,5 @@
 - [R185：周期核中的六矩右逆及十个合法ruling方向](results/R185-six-moment-right-inverse-inside-fixed-circle-period-kernel.md) — R183八个完整包给16维K且H|K³=0；三平移矩列Vandermonde非零，六交叉矩在K上满射。固定投影Q消六矩并保持L_f，故周期像不缩。K∩六矩核维10有显式真基，其ruling每方向只有0/cos2θ/sin2θ三个真实s系数；不预称像独立、joint像无损或解已存在。单独period准确归为四个退化ODE目标，全部种子/相位/collar保持。
 
 - [R186：权−2完整真函数核及五维字符头部](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md) — full77 actual43676765171/sourceca4e5286完成154同锚规范转换；R159/R179给真rank52、25新三角核，配旧70得147列完整95核。首40R真独立，U−2/R维12；全部66平移分母和七新式给真H−2维5，完整五参数与同μ显式。R175矩阵det−161m²/64迫任何正字符m0，剩四参全action待解。25.52965s/RSS208.594，前缀重放0，全部cert/state双SHA核同，不重旧LP/原式。
+
+- [R187：R183充分窄化重叠圆的严格常段障碍](results/R187-narrow-derivative-packet-circle-constant-state-obstruction.md) — 原矩形复矩全实、三个左补偿幅的平方全实，故完整raw q″逐点实/纯虚，∫q″⁴=∫(f″⁴+g″⁴)>0。R53完整尾公式与R54真实Möbius迁移给任意常态pure σ²首项−(1+k²)²(1+e_c²)³I4/(12288h⁵λ⁷)；实归一只乘正四次幅。全部二/三gauge只改较低σ次，第四ruling失败。仅排充分窄化，不排任意宽度/其他导数相位/无常段几何。
