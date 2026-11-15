@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 66e8cf02a0e31459fb9b3b50099cbc807c40d177（2026-11-15 10:00:49 UTC，Actions run43701975196实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43701975196-1.json。
+- **最近成功实际 pull 与已读规则提交：** 56bb70f4b862f243b6341f8acc3db1c7b7bfb080（2026-11-15 10:05:08 UTC，Actions run43702332141实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43702332141-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -37,12 +37,11 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 
 ## 临时数学会话与恢复
 
-- **session43679903558已于09:57结束，旧临时文件均不可续接。** 32层数学日志报完整36指数末四17,18,18,21、总243；但摘要加累计pulls≥100000发布失败，未入main，按用户规则重做未推结果。日志raw65518B SHAd3cf7a1bc57ca39e39fe6c4c3c63d8ef664bf5cfb5eac97b9b654b6d0fe155c5；仅记未推检查点，不升正式结论。
-- 唯一请求notes/2026-11-15-r150-infinity-remote-session-request-789f.json，含全部CLI、来源SHA与唯一step。完整输出只在{work}。每个实际小回执在notes/r150-infinity-remote-session-789f/；branch创建不等于main push，须核publication实际提交。
-- 已推0…16层结论与全部源/输入SHA安全，但临时来源数组已丢；重建最小历史输入后复算缺失检查点及未推32层。新session只保各次pull的小记录，避免累计历史挤爆摘要；不得重用旧bootstrap下载已删Release资产。
-- [固定29曲线外一阶全秩](results/R150-appendix-fixed-koszul-curve-first-outside-rank29-and-no-constant-second-support.md)：exec9da4ca88，2.028866967秒；1834×29全Q秩29、t2=0，保全原常项与一阶乘回。只关闭常系数组合，不排除uPhiY校正；未重1603消元。
-- 零点K89正式稿已发表。∞合法cubic单列实际4.132641949秒，A0prefix579/base583/aug584，残差仍1，未升最后方向。下一完整990三normal校正先保2295高来源真核，再投低1088；只需main四小回执与源码。
-- [Dixon1085恢复](notes/2026-11-15-r150-checkpointed-sparse-dixon-through1085-789f.md)：p536870923、1085位/31466bit、18重建未返解，2751核心/1567DAG/模逆/78MB活动槽仅旧{work}/seven-sparse-dixon-original，现随job结束已丢。36核存在已另证，不为维数盲续；显式仍29。其它旧临时输入/哈希详见H全文与请求。
+- **旧session43679903558于09:57已结束，旧临时数组均丢。** 32层日志报末四指数17、18、18、21/总243，但summary累积pulls超100KB未推；按用户规则重做后才发表。全部中断SHA/旧恢复链见[最小恢复计划](notes/2026-11-15-r150-unpublished-natural32-minimal-recovery-789f.md)和[本次H全文](notes/2026-11-15-handoff-after-unpublished-natural32-789f.md)。
+- 已排新minimal recovery workflow。唯一新请求notes/2026-11-15-r150-recovery-small-session-request-789f.json；只读固定历史8c6304e的9份原输入到临时目录，不碰已删Release。重建selected/profile/first缓存后实际复算未推32阶；前16层51份数组在映回旧binding后逐完整SHA比较。
+- 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
+- 零点K89正式稿已推。∞cubic单列仍k1；下一完整990三normal目标先保2295高来源真核，再加低1088，只需main五小回执和源码，可先跑。新rank未执行前不填写。
+- Dixon1085、p768、29精确曲线等大数组也随旧job丢失；存在性证明和源码/输入哈希仍在。只有实际后继需要时再最小重建，不为已闭维数盲续。
 
 ## 其余未闭
 
