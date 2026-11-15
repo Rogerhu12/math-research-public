@@ -27,7 +27,7 @@ guard首开发失败43766593534前三14已付、第4 fixture setter报错零科�
 当前bank438/hash1a1d5585…、physical e0ab278d…，池4432/4525版本1/2（初fine+74、6trial新行0），B.00025双streak0。γ初8.04055201441574/7.87327242334797，m4/m5实际样本仅下model更新，末17.022353404161095/18.064283125328743；8events全committed/pending0。总321.967762679s/active35.542398458s，初验230.773521914s及pre-active首J全记，values14+2/RSS2292208KiB。[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)已全文核并发表：原log/DEV双LF、全部7模型/8学习事件/预算/两observer/全部actualpull完整保留。
 
 
-guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8原scaled determinant负defect按真实共同步长b²学习，γ只下一模型生效，current冻结；target=max(oldtarget,1e−7+γB²)，仅域内active8。零γ原数值；A/c/J/bounds/soft/余门不改。不可行照旧收费/shrink，无免费resolve；旧SOC自原J/y构建，不读guarded RHS；expanded rebound原selected。双factory最终sameobject/oldmap/版本核。保cfg/g/b0/159/163、375-bank/两池/B/双0和12LP/40value/120active/10secLP。
+guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8按真实b²学习γ、仅下一模型更新，target=max(old,1e−7+γB²)，仅active8。A/c/J/bounds/soft/其它门不改；旧SOC用原J/y，不用guarded RHS；最终双factory同对象/映射/版本核。cfg/g/b0/159→163及12LP/40value/120active/10secLP固定。
 
 ## 4. 纸证已付与边界
 
@@ -35,22 +35,25 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 
 **自然通量**R344/352定义Λ∈(U/R)*。完整Abar自然0；R378/381/382保全部self/真尾/速度势后ΛH1=ΛH2=0对所有state/all紧u。旧H非零、模C²维12/≥13、具体7/13控制撤回；R366一般满秩条件保留但这些H族不满足。未称H算子0或H⊂R。
 
-[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)完整Q4：
+[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)完整Q4自然式为−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²；两真尾使加速度/速度势抵消。纯δ回得X/M，γδ³产生额外函数像；仍非实际多Λ控制。R393续完整像。
 Λ[γ,δ]=−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²。两真尾使加速度/速度势逐state抵消，有完整C²式；纯δ回得∫(hx+d)r⁵/(80h⁷)。混合γδ³的偶母平移二次项在X/M外，函数像≥3，**非actual3**。
 
 [R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)固定两镜像profiles/共同锚域/三state，四Q4列严格正核(1,3A/B,1,1)，det−4ADm。水平脉冲τ=ε^(3/2)，先有限M0桥、真reverse/T0、运输，全部基准留统一O_C1(1)。一个有限ε二维收缩给任意双Λ/紧集C1截面；Klein用(y−bK)/4保桥成本并闭全位移。保M/T/scalar/frame/ω下界，未保wholeE/其它Λ/冻结g。
 
-[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)实际支付F=P_LE与两Λjoint，L=E(R)。先清prototype A基准，其全部成本×n进入a；定t0/紧盒后原小二阶族固定q覆盖大±t，后置A校正完整F成本保𝔈，最后一个有限n收缩解F/A。−6/−4/0完整pure/self及所有响应分量同付，非wholeE0。qE原式(26)保2nΣqE(vhat)。另真协变/−6投影/同权响应给kerE类KX的Λ=X/80，小平移给KM的Λ=M/80；两固定列独立，**线性**J(U)=E(U)⊕R²，λ+不经J下降。fixed两Λ核未证仿射稳定，**实际完整联合商C⊕R²截面欠**；mechanism续此门。
+[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)实际F=P_LE/两固定Λ joint已付：prototype A清零全部成本×n、先定紧盒再固定q覆盖±t、后A校正全F成本进入同一个有限n收缩。L=E(R)，−6/−4/0全pure/self及其余响应分量同付，非wholeE0；qE原式(26)保2nΣqE(vhat)。另kerE的KX/KM给Λ=X/M，线性J(U)=E(U)⊕R²；λ+不经J下降，fixed两Λ核未证仿射稳定。实际C⊕R²仍欠。
 
-**Gaussian首阶刚性**：R354–383有限三矩/third/18面积/三directed/Ψ/十对称三外矩表仍真，Ψ非末Fstar新增行。R388原完整R0/R4组合=正系数·D4，D4=∫(f″²−u″²)²；无P分母，条件适用于所有κ≠0的已存在该Gaussian/M0/TκH芽。完整任意w/gauge/history不能吸收独立Gaussian词，全period迫D4=0，连通C²首阶轨道从f⇒u=f。排同芽非圆首阶，但未排高阶才动/其它机制/一般C²面。继续不同芽或第三结构。
+**Gaussian首阶刚性**：R354–383旧真实表保留；R388完整R0/R4组合为正系数D4=∫(f″²−u″²)²，无P分母。对所有κ≠0已存在该Gaussian/M0/TκH芽，原w/gauge/history不能消独立Gaussian词；全period迫D4=0，连通C²首阶轨道从f⇒u=f。仅排同芽非圆首阶，未排高阶才动/其它机制/一般C²面。
 
-**有理芽period**：R184/221/225原iff保平台G″/活动flux/禁Laurent/residue/真端germ/双collar，要求同一w；R312–327已付19局部门/端口，两完整period欠。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在实际πV0不交包圆保真二次尾，Vθ=Σai²[diSi+Σj>i djUij]；ωi=Λui(V)、ωij=[a³b²]Λ_(aui+buj)(V)。两整包flux准确−ai³(Riωi+ΣRjωij)/(2τ)、+ai³(Tiωi+ΣTjωij)/(2τ)。最右必Λun0；R∩kerπ全盲，非任意π0U。wholeQ0付平台二次系数，原解析平端类中全部端germ iff整包flux0，不除p；内部Laurent/平台仿射连接/13同规范仍欠。R345 wholeE核≤11指定内部flux不授整包/全period。内部简单零与19根相容现已付R391，继续完整period剩余接口。
+**有理芽period**：R184/221/225原iff保平台G″/活动flux/禁Laurent/residue/真端germ/双collar及同一w。R312–327已付19局部门/端口。[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)完整ordered二次尾与两组真实三矩suffix保留；wholeQ0付平台二次系数，解析平端类的全部端germ iff整包flux0。R∩kerπ盲而非任意π0U；内部germ与13同规范另付，现接R391/394。
 
 [R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19真根/低阶纤维/解析端：正kernel删列补偿与两偶quadrature在真实root流形使全部Af零简单，p仅一个简单零。p零的禁residue准确抵消；各Af点完整germ iff同一累计F=0。R345≤11指定Vd点升级完整germ，不扩大点数/Ve/总flux/13门；先新profiles后真wholeE几何联调。
 
 
-[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)条件性完整接口：当前实际wholeE0及Λall0前提下，全部period只余每个简单Af点两组原partial flux（保真实ordered三矩suffix及±ai³/(2τ)）。活动k′真germ接入正gap，另付∫k′0后才右collar去Lf k−G仿射差；gap修正的k平台代价进13rhs。保真实m*的XΔ/Xfg；sinθ除法准确付0/π seed。实际13×2n相位矩阵化degM≤4/degb≤6，Smith零行恒等+单位圆整除jets是全圆光滑iff，整除总重数≤4r≤52（非rank/全部条件数），可取实解析相位解。**未授E/Λall实际联调、内部partial或13像满**；接R395核旧11内部类是否同时全Λ0。
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)条件性完整接口：当前实际wholeE0及Λall0前提下，全部period只余每个简单Af点两组原partial flux（保真实ordered三矩suffix及±ai³/(2τ)）。活动k′真germ接入正gap，另付∫k′0后才右collar去Lf k−G仿射差；gap修正的k平台代价进13rhs。保真实m*的XΔ/Xfg；sinθ除法准确付0/π seed。实际13×2n相位矩阵化degM≤4/degb≤6，Smith零行恒等+单位圆整除jets是全圆光滑iff，整除总重数≤4r≤52（非rank/全部条件数），可取实解析相位解。**未授E/Λall实际联调、内部partial或13像满**。
+
+
+[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)：旧K0…K10本身属于R71响应闭模块，故全在ker(E,Λall)。同R391实际profiles/原m≤11对应点矩阵仍可逆，不重算Vandermonde；指定partial非零给k′真实非零log项，total零不替代内部germ。增强线性J+像=J像×Rm，响应像同乘Rm，不新增响应商；未授actual joint。接R396实际F/A/partial三角增强。
 
 ## 5. 继续
 
-先读guard唯一成功原log，按真实gate/费用决定下一模型，不重付旧检查；每小时双repo actual pull。同步推进实际联合商、有理芽同一w完整period。全第四/高阶收敛/同g有限族/全时嵌入、reach、幅度未付；局部或有限维控制不等于主课题完成。
+guard原log已完整读核；m7原p未保存，四attainer已付，正构造保438全部旧约束、≤4合法新支持、至多ordinal11及保留SOC12的同模型续算；每小时双repo actual pull。同步推进实际联合商、有理芽同一w完整period。全第四/高阶收敛/同g有限族/全时嵌入、reach、幅度未付；局部或有限维控制不等于主课题完成。

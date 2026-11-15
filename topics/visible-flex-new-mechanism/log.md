@@ -394,3 +394,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:32:21 UTC｜guard首次完整实际稿冻结并接同一未完成primary
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)，15548B/SHA1aad87192373d27166ae6255ae8cd4b0cbdb35dc829a1c84222dde3430a3d6bb。tail按根唯一已读语义记录成稿，root全文核原DEV/model/trial14门/learning/cost/身份；补明确物理归一化九height范数、精确物理盒与容差高度门分开、每LP10秒，以及affine评估仍浮点而非区间证书。m7不能称驻点，旧paid第10次LP不再调用；续算是否可恢复全部候选/当前J/冻结guard/原oracle与cuts仍在核源。所有科学与人工只原公开Actions执行。基底9d386bbc7067b3ac8fde3704396a1ac81324f246。
+
+
+## 2026-11-15 22:39:49 UTC｜R395发布，内部partial门不能由total门删去
+
+[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)，6993B/hashba9e305aba8ad8aafa82cb3928493ac8cb62e94e0d6962bd800a6f656364b02e。旧十一类在R71，所有自然读出为零但对应partial仍独立；R391使非零partial成为完整简单退化germ障碍。线性增强不增商，实际基准仍另付。root全文复核后逐条推；下接R396实际响应F/双Λ/partial。基底94136fac3bc5ff5ce56ffaf607746af94fca9c8a。

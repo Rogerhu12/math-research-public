@@ -279,3 +279,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## 数值｜原单位curvature-defect guard首次完整实际与准确未合模型
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)（15548B；SHA256 1aad87192373d27166ae6255ae8cd4b0cbdb35dc829a1c84222dde3430a3d6bb）。原科学43767357527/source6f886c…：新4检查全过/旧14只读复用，6普通α1双网接受，η.2662701215525791→.26623355613853394，原14门/163精确盒/旧metric通过，新.26及reach欠。7guard模型真LP使用/52修改行，γ初8.04055/7.87327经next-model提交到17.02235/18.06428，8events无pending。末438-bank/4432与4525池/双streak0。10primary/SOC0；m7只获1内部LP、gap2.4769e−5未合、repaired无改善、尚余2LP，不是完整凸模型驻点。总321.9678s含230.7735s初验，active35.5424s、16value、RSS2292208KiB；311真新cuts与2875memory重装分开。原输出两次只读回读不重研究，全部hash/规则pull和未触发范围保留。下一仅针对原m7未完成inner续接口，不reset重跑。
+
+
+## R395｜whole-E与全部自然通量核中仍有十一条独立内部通量
+
+[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)（6993B；SHA256 ba9e305aba8ad8aafa82cb3928493ac8cb62e94e0d6962bd800a6f656364b02e）。K0…K10全在旧R71响应闭模块，故完整E0/Λall0；同R391实际profiles和原至多11对应点沿用旧矩阵可逆性。指定partial非零使原逆k′带−1/(2τ A_f′p)的非零log项，整包及全自然通量零仍不能保证光滑。J+=(E,Λall,partial)的全像与响应像同乘Rm，联合响应商不变。严格为真实线性成本结论，不作实际路径或whole joint声明。root全文纸审来源/局部因子/边界，无新执行。

@@ -165,3 +165,8 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 ### R394完整条件性period/同规范接口，继续实际像
 
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。下一核R345十一wholeE核类是否由完整H/Abar+响应构成，从而是否同时Λall0；若真则说明total零仍保独立partial门，不重旧Vandermonde。
+
+
+### R395全自然核中的内部独立性已付
+
+[R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)原十一K列本身属于R71⊂R，完整E0/Λall0，不需新H/Abar分解。保R345旧对应点满秩及R391真简单零，partial独立且非零产生真实log逆障碍；不重算旧Vandermonde。增强线性响应商不增，尚非actual path。继续R392的F=P_LE/双固定Λ加这些partial的实际三角增强，全部prototype/后校正/有序平台成本保入同一有限n。
