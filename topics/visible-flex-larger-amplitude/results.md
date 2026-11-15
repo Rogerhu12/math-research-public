@@ -421,3 +421,7 @@
 ## R402 — 记录字面表/名义因子下的完整R305块作用等价
 
 [results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)（16187 B / 763aeb4eddf19dad4a1ef824f017d0dbb03b934f56195630fda198420a5494f4）按原950e/bcca/86782源码固定实际局部系数、s、L与回溯，证明两块right和两块flux公式；不借理想三角恒等式、不混literal gram/cosine或B首列，不把名义L逆当原C逆。完整226态/224列/RK/两mean/端口及原全部C方向残差仍须保留。预装配改变乘加结合，不声称同binary128词、真正有限root准确导数或IEEE；无实测速度/完整stage证书。20-bit整数digit/k≤2048安全界与完整dyadic重建、逐层形成误差恒等式已作条件推导，内核尚未实现/实际误差未包围。独立190/R403完整后继准备，186原运行不改，不增小fixture/前门。
+
+## R361 — 实际171完整37→38十六对与新RIGHT459域障碍
+
+[results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)（18655 B / c2a0fc3f50a850628580b91497cba3174c96ff21ba57083bc512966e93142f52）记录run43739787509/source298c7dbe的16模型/16fresh FD、80原trial/16接受。真实98→37八对→同job原末pair→38八对，13364.315132717s只按两阶段批数止；38首全步、末1/8192。最后六批最近拒唯一RIGHT-RMS459，末拒α1/4096的38选点/77824 reserve全通过、merit下降而原RIGHT β²负；已选LEFT462的大步非线性失败仍保。末最大physical残差MID461与域障碍不同；全QP最优/native/fullDN/非零成功未付。完整97来源/四输入/原全trial/FD/清理、官方11515407B/49c540d8原日志与历史语义传输身份分责，末pair已清不能凭SHA续。191明确从actual98独立39query后继，不伪称本末场续接。

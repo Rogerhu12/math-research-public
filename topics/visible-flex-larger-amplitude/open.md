@@ -30,6 +30,9 @@
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八批23trial/八接受后未选LEFT462失败，末physical .0071041184748284756仍非BVP，pair已清。[171入口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)97pins从真98同job重做原37八批，绑定末warm/status/runtime/producer后才转38；22LEFT+16MID/25cells/30端点462..491/B10143/77824行、C4059/full236036/109core保。原1200/600/90/30、17档/完整FD、300min含恢复、science320/job350；不足余量保未访，不保证16批。全部trial读后清，失败always补两schema/parent-after；170不作门。
 
+
+[R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)：真实37八对→同job末pair→38八对全部完成，97pins/16新FD/80trial/16接受，13364.315132717s按明确两阶段批数停。38首α1，随后至1/8192；最后六批最近拒唯一RIGHT-RMS459，末1/4096的38选点和77824线性reserve均过，原merit确降6.1357113e−6而β²−.00202637605。已选LEFT462在较大步仍可非线性失败，新增线性query不代有限步域；末physical .007101312274733623在MID461与域障碍不同，fullQP最优/native/fullDN/success均false。原97来源/四输入/全试步/16FD/实际清理与完整原日志身份保正文，末pair已清。191/R404从true actual98独立另起39query：保原38，真实RIGHT fraction0.8273268353539885/459及完整capture459、端点459/460；不是171末场续接，原17档/全H/FD/域门保留，无新audit。
+
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)保a>0与P=a²|d×e|²−ν²|d|⁶、八次/Bernstein及453 Hermite全RHS缺陷。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model+新warm FD先尝试，再全75776行×17×九系数诊断；6000/1800/180及未访/字节责任保。
 
 [R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点、338二阶界、629点态gap、四真实trial×37η，余13不补η。统一整段/IEEE/truequery/699/698/连续角/native/fullDN未付；最近拒LEFT464/MID471在37内。原八文档1230成员/清理保，后继须真父重生。
