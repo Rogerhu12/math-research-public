@@ -4,7 +4,7 @@
 
 ## Rules and unavailable terminal
 
-规则同步记录：最后本地真实pull为2026-11-15 04:43:05 UTC，已读70c93da8c9e45c2a5c2e1f46860656b1d614ae9b；其后终端不可用，API已核8163c184d81412c54bf22f8ab50d3268870e2c6f双README未变，非新git pull。
+规则同步记录：2026-11-15 05:37:32 UTC 真实 git pull --rebase origin main 后核双README；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 301d0b6429ae273cf745fdb7fe8e4696f9786e89。
 
 Only public Rogerhu12/math-research-public and its Actions for ALL scientific execution/arithmetic/imports/RHS/J/ODE/RK/optimization. No private repo, force push, history rewrite or token in files/logs/Git/connector/reply. PAT only transient CLI. Complete proofs directly results+index; root rule12 cancels extra freeze/reviewer/byte-audit gates. Preserve original scientific acceptance conditions.
 
