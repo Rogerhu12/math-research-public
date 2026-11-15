@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133：原96腰行的exact selected初值与完整范数](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)：已证b0δ=−(αa+δz)/√2、A+Bδ+Dδ²及uniformmax=A+d|B|+d²D。base初值与首piece尚需新65位bitwise门；Z193与两zero-offset身份只读。四个δ半径只代数，不扩大PDE域；未算NFell0/第五列，数值待公开runner。
+
 - [R133：实际全τ Darboux误差与完整scalar接收](results/R133-supplement-actual-all-segment-Darboux-error-and-complete-scalar-receivers.md)：43746008734/1 child0/23门成功，m3>.9999986308459、24系数/14运用/六receiver及五inhom已付。完整mean与H−4/3→L2、rawH−1、extraH−5/3窗口分开；旧math零重算。真实physical J/L/B/ng/q/freeR2/R3、incoming/全R0仍待。
 
 - [R133：同源物理帽仿射负荷的完整有符号伴随接收式](results/R133-supplement-signed-physical-cap-affine-and-complete-adjoint-receivers.md)：同What的准确值方程、Hessian相消、全部97伴随/外端/均值/选定读出；用新knownforward-angle moments计算signed affine，旧formal Grams直接消费。新向量及全部误差尚待公共Actions actual，不授完整core。 SA29–31追加准确selected端重排，known端仅需两forward角矩，完整新左缺陷费与均值仍留。

@@ -6,7 +6,7 @@
 更早的[完整源与网络前页](notes/2026-11-15-open-before-signed-root-forcing-and-two-level-network.md)
 继续保留全部原输入、失败、success、域、源单位和恢复身份。
 归档不取消任何未付义务，也不允许重算已有成功数学。
-本轮压缩前全部逐字前页/运行/域/源单位/恢复链保5fd5c4bef9bdd520f804be5c4e0a9c5383b75ed8本路径及HANDOFF/log，递归c820/81041a9e/3c74全部原档；仍逐项有效。
+本轮压缩前全部逐字前页/运行/域/源单位/恢复链保66d37555cabd632dccf8fbd237af6221bdd2d7b2本路径及HANDOFF/log，递归31e2a9/5fd5/c820/81041a9e全部原档；仍逐项有效。
 
 ## 1. 总验收与同一个对象
 
@@ -37,7 +37,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [PF完整逐点有限部](results/R133-supplement-pointwise-root-finite-part-and-complete-true-ray-first-coefficient.md)5856c8cf保全两row/oldI/错相−SI、函数root有限项0、g1hat=g1pt+g0dφ*及c0=X−′(Croot∘X−)，不能用旧scalar均值替代完整density。
 [CT完整密度输运](results/R133-supplement-regular-density-transport-for-complete-first-coefficient.md)341a9463保χ=g1pt+2g0dφ*/3、八source/A2,B1,d1完整Taylor差、全mean/未知全频及c0=U_Pinv f̃−−f̃+。同R31条带1/128+3B<7/128<1/16与e3L/eL付全initial/jump/residual；新完整signed目标由SN继续，旧scalar/ray/KAM不重，具体全域与单位保c820e3a6原文。
-[SN完整密度/H3合同](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170的source/mean/四状态/真实dr/单位保908da2原文。第三43744151905准备77e36f22已锁；第四43745279722 child1/17门/0subcell，science12522/96d88d6a，首次gram nonfinite，首σ−1新Taylor/reference/residual/parameter中间值未存；精确lost scope3f716b5，四阶段prep只读，旧成功禁重。现仅正Parseval取upper后sqrt+finite/首gram前atomic记录，SCI540a0f8e/helper217a91e2/manifestbbe747a6/flow417f0323；204pins/8AST/21门，signed源/reference/gram/prep不动。root/phase核后唯一自然run待取；未证明旧nan实际根因，完整H3/C/R0/GH/真ν/core仍待。
+[SN完整密度/H3合同](results/R133-supplement-signed-nonmean-density-transport-and-H3-validation.md)6e906170及第三准备77e36f22锁。第四43745279722首次gram nonfinite/0完成subcell，精确lost范围3f716b5；四准备只读。新SCI540a0f8e/helper217a91e2/manifestbbe747a6仅正Parseval upper后sqrt+首gram前atomic/finite诊断，signed代数/reference/gram不改。唯一43746794222/1运行中；实际旧nan根因未定，完整H3/C/返回待。全部前三失败、原域/mean/四状态/true dr/单位逐字保66d37555cabd632dccf8fbd237af6221bdd2d7b2同open/H及原文，成功禁重。
 
 [AC真实H密度转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)6527fa46给C≤2^20||c0−μH′||H3，μmean不变；真实H′四导/1/128已付，不能替c0−μ。actual C仍待。
 [CN全圆周正规化](results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md)427387a2的Id+MwI准确逆保全mean/rank；旧linear-reference的μ²/4费保留。
@@ -69,6 +69,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [NF散度型非线性源与完整五输入接收](results/R133-supplement-divergence-nonlinear-core-source-and-complete-finite193-receivers.md)9c33e882已解析独核：同νδ、Qbar=Qδ，N=∂φV−β(〈C_h〉h+〈S_h〉Qbar)，两mean不删。Π96∂φ只付384，wholeordinary值λ与真正Lipschitz分开；wholeC0/β,G,K域须实际付，不借右collar。
 固定Sδ的真97 residual以actual帽图在(γQδ,fB)求导，ΔB作用全hL+hH、baseaffine/非线性边界/mean全保。左腰U原96正交行、无α/第二ρ，b0δ=−UQδ(0)不预设0；W=ψUᵗb0与W−GδDδW给同F fixedcap三窗左Poisson解析费。
 因此xY≤gY(rδ+nδ)+pY qδ+aY yB+cY yC+wY||b0δ||，其中qδ保完整真cap差与N∂，a/c已含selected费不重复oldload。全high、真νphase/右高matching、wholeC0/独立H8193/边界Lipschitz及NG numerical门仍待；未跑新数值。
+
+[WA原96腰行与selected真实初值](results/R133-supplement-exact-selected-waist-data-and-original96-rows.md)6b8142ab解析核：b0δ=−UQδ(0)，literal odd96/√2、仅base乘α，Z193原bitwise/zero-repair成功身份只读。新base首part65位initial=c[3,0]必须逐位检查；不假旧index字段即端值。exact A/B/D给signed norm²及uniformmax=A+d|B|+d²D，四d0/1e−10/1e−8/1e−5仅显式族代数，不扩大任何PDE/metric域。新runner未跑；NFell0/CPA第五列/全waist与实际解仍待。
 
 ## 4. 实际帽图与完整core接口
 

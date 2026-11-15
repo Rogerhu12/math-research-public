@@ -222,3 +222,7 @@ runner末18:19:15.194323真pull e4527195767d1686aaf41b72d65e273241d975c5双READM
 ## 2026-11-15 18:28:37 UTC — SA已知selected端的准确物理配对
 
 同路径SA扩展到blobf7db2f18230e62d216f8a901b990bfd9e6d703c0/23561/SHA85e07aba2d895c160be6c307da9ff0740fb817bbad6f3813d0acf3242e0f35d1；原571f04全文不动，仅§7a。root逐式核SA29：−ζγδ−dδΔWB−aΔCmean−eLδ yL=−<zL,ΔWδL>−eLδ(yL−ΔLδ)，完整nonmean与mean逐项合并。SA30新tildeB只用原signed源/trueouter和known物理端差；SA26向量必须换tildeB，SA22左费改ELδYLδ，root明确文字。YLδ可取已付YL+||ΔLδ||，不假它小；ordinary/Gauss/outer仍用同原y/Yw/ρ/ZR，未冒全cap trial误差。已知端用SA19b两forwardΘδ/Θ0矩，完整exp/端点尾仍需新actual。ELδ≤EL0+有限96输入的(Sδ*−S0*)完整norm，后者未免费授予。旧formal/field/outer/EL0 Grams仅读，不重算。两README核0985dcf4dc2416f92d30f087aa7cdb0143a683b9无变。
+
+## 2026-11-15 18:35:44 UTC — WA准确腰部输入合同与旧初值身份
+
+新proof a8ea0842c28ff06e284e0bf5b8a0efd108cb0b21/5734/SHA6b8142abbb303930e952e0f1f8015f2798b6148515fc8fbd06fd8f0cda18fdb9 root全文核：normalized四重圈原96正交odd行需raw sine/√2；base仅α一次，Z不α，evenmean仍完整身份。base shard格式没有initial=c[3,0]保证，所以新runner恢复唯一part000并比较65个binary64 bitpattern；Z193由原成功producer与完整proof保，两个exact repair首offset0不重算。新exact rational A/B/D retaining signed B，convex quadratic在两端取max即A+d|B|+d²D；四d 0/1e−10/1e−8/1e−5只known显式族，尚未新数学运行，不扩大旧域。NFell0/CPA第五列、actualPDE与全matching独立待。H/open压缩前全文归档66d37555cabd632dccf8fbd237af6221bdd2d7b2，旧scope/失败/lost/restore不删。两README只读核d4ecddeab02a8e0cbca2c22586f64b3c3ed9c22d。
