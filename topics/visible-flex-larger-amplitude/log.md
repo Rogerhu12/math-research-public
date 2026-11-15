@@ -113,3 +113,7 @@ run43689328906/sourcec9eb007df84297f5345d0e7fab42b845df0bf912/compute13273641495
 ## 2026-11-15 07:28:22 UTC /root — R282 共同cuff局部积分门证明
 
 [R282全文](results/R282-local-cross-Gram-cuff-charts-and-complete-phase-responsibility.md)28642B/b740ca17及[实际输入/完整叶合同](notes/2026-11-15-R282-local-owner-input-and-phase-ledger-contract.md)10495B/2ebe7ad2直接登记。root读全文并核原tail_coefficients(-1)/tail()/sharedB首cell，完整Hermite零jet、全FFT含均值及Nyquist、共同材料theta=Phi(phi)+alpha和marker-free窄图一致。严格交叉Gram下界给m|Δu|²，不要求商对角正弦；所有rank仍须空间×两RP1相位闭叶全覆盖，旧全局责任保留。只证明/源码读取，无fixture、科学执行或实际余量；继续最薄独立local owner，不增审核门。
+
+## 2026-11-15 07:33:06 UTC /root — actual116 八次较小接受与弱响应
+
+[完整实际](notes/2026-11-15-actual116-eight-smaller-acceptances-and-weaker-response.md)：run43690052251/source4f4dbf70，8接受/27外trial/零全拒，W1236.0078724708571→1234.283357373182；末radius.000390625、完整3×4小奇异.19378008756935441，unit仍−49.684657180215且全部最终false。981eval零异常/131J，多个inner tol=false仍获原full3接受；四列FD和theta冻结原方形检查重做，新Arb841叶0未决。summary77038B/d24aa292、status1603983B/5e5b634c。后继比较实际末点接续与独立控制响应，不冒极小/无根。并发同步行冲突曾造成本地H截断，自动检查阻止推送；已从完整R282基准逐字恢复正文、核最终差异后普通提交推送，未把截断正文发布为main终态。
