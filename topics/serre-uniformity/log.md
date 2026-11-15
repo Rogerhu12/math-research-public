@@ -578,3 +578,9 @@
 - 指定CM值严格为3αR_p，S_(p−6)=αR_p/1458；CR16/17保五次分母、原相位和三次分歧常数。指定留数及primitive/Legendre同h非零仍开。
 - H/open压缩前逐字归档；R827说明只修正首次IO实际为manifest及run/core/input三元数据的件数措辞，不改任何输出数值或数学结论。
 - 本push规则：本地真实pull至98e31ea220a9f9b8f83f88a3fd246f4ea71d3220（2026-11-15T21:31:37.478065+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 05:34 Asia/Taipei — serre-public-astra-20261115
+- 保存R787真精度增量完整core414fef53/runner889cdf5e与pending请求；仍未有更深current，new_current_source/new_checkpoint均null，不触发算术。
+- 新核全部A/C相容、56×42残差/unit42逆/KH新全格、一次56LLL与完整幺模见证；直接保原129×280成功出口，旧98拒绝默认完全不复用。
+- 根已通读新core/runner/请求/workflow和父类complete接口，只用静态阅读/AST；R827续接43764014099/job132964965600/sourcefd4cbaea已开始。
+- 本push规则：本地真实pull至94c9eac2461e2b7285413b56639104a4765ea540（2026-11-15T21:34:00.927517+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

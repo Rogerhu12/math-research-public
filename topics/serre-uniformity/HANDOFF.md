@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：98e31ea220a9f9b8f83f88a3fd246f4ea71d3220**（2026-11-15T21:31:37.478065+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main；旧rules入口见归档。本次结果前H逐字保于[98结果前归档](handoff-archive-2026-11-15-before-fixed-C-results.md)。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
+**已读规则提交：94c9eac2461e2b7285413b56639104a4765ea540**（2026-11-15T21:34:00.927517+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main；旧rules入口见归档。本次结果前H逐字保于[98结果前归档](handoff-archive-2026-11-15-before-fixed-C-results.md)。完整此前H在[固定C前归档](handoff-archive-2026-11-15-before-fixed-C-next-digit.md)，open在[同次归档](notes/2026-11-15-open-before-fixed-C-next-digit.md)，全部旧pins/断点由此接续。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -13,15 +13,14 @@
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
 | R787原430位同核续算 | 43737413555 / 132883028161 | 4092d1cc4d1156bc24a10ff820fd39c5713e8ad7 | core93d3d72b / wrapper42157e0d，预算约21:47后 |
-| R787固定C前缀Ω | 43759938677 / 132952339244 | 53ef6c84a175645d66bea73c1eeca8b9825e9ca0 | core01f96568/runnerd363d0e9，98个固定C全严格排除/603.191秒 |
 | R815原425-prime续算 | 43748439850 / 132916821952 | a108ce1e72958b296dcca7ff55710c94e8ed16ef | core80516ff9 / wrapperab725da0，原目标/prime/mode不变 |
 | R824从365完整位续算 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | core1ece3cf4 / wrapperc5907739，准确27+244 scope同核继续 |
-| R827首真q4及续接 | 43734420663 / 132873746638 | 400edecfeab313d1858cdb72bf18f8452ab9566a | 21:15核心BudgetStop；σ∞rank272，τ33839完整操作，已切真实同核resume |
+| R827 q4同核Hermite续接 | 43764014099 / 132964965600 | fd4cbaea820d79e115c300d766042582be14a091 | σ∞rank272已成；从τ33839完整操作续接，compute中 |
 
 **R787430/42/56与固定C已闭**：[430断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)、[42诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)、[56诊断](notes/R787-three-probe-56-ended-and-fixed-C-next-layer.md)保完整原来源。旧42/56具体A/B全m1拒，旧28只D_bound筛，不重复旧Dixon/LLL。
 [固定C实际结果](notes/R787-fixed-C-98-ended-strict-exclusions.md)run43759938677/source53ef6c84、603.191秒，将42+56共98个固定C的任意A全严格排除，prefix零者0；证书a2352d81/manifest0db15330，artifact14180336041/dc408563。原280整坐标先除M/自由qC=0保留；无新Dixon/原关系，不推430不足，新精度旧拒绝仅当整个C准确相同才复用。
 
-**R787真实精度增量完整核格已证**：[来源契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891从旧42/56全基H构造满射残差E与unit minor，K H给新完整格/指数ell^(14kd)，与加probe相容。不虚构>430 current；只probe降模够造格，旧Ω复用另须全部1214×14 C降模及准确同一C，旧A/B拒绝还需全部1234×14 A。新core/IO条件式准备，不激活未知来源。
+**R787真实精度增量完整核格已证**：[来源契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891从旧42/56全基H构造满射残差E与unit minor，K H给新完整格/指数ell^(14kd)，与加probe相容。不虚构>430 current；只probe降模够造格，旧Ω复用另须全部1214×14 C降模及准确同一C，旧A/B拒绝还需全部1234×14 A。新core57769B/414fef53、runner51259B/889cdf5e已完整保存pending，含新核格/一次56LLL/原129×280出口；默认不用旧98拒绝。new_current_source/new_checkpoint仍null，真93d3 current发布才激活。
 
 **R815425及三个原列**：[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保425prime/12707bits/Γ未开始，冻结80516/849bca27不改。[首列诊断](notes/R815-projective-first-prefix-ended-and-known-columns.md)58拒、[两列诊断](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)49拒均已成，不重RR/旧格/Wvg。两列run43755027718/sourcee1d8a956的known8907fb65/manifestcdf06cf3、scan25及四pairs保；d01=6485bits仅两列分母。
 [三列方法](notes/R815-original-three-known-columns-projective-reconstruction-method.md)6d12fe13用真We1=e271，仅新W×已成第二列给Mg e271；四原子乘积、2886原同余、joint d012及6/7高项全零核。core515e1555/runner3b573881的run43762388370/job132959925649/sourceca1fe0d5于21:23 exit2/errornull；实际三列输出小IO读取中；未知probe排0/1/271，early查col2/3，原七点完整交换子/cyclic/Γ不改。三列源均真旧artifact，不冒用摘要字段。
