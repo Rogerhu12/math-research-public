@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 08:44:29 UTC实际pull后已读规则提交：`72bcecd883dc26f64160769f202a45eb6c1bfd7f`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 08:48:46 UTC实际pull后已读规则提交：`882da4658f72b96f604613eaf674a4283cc41fed`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 08:02:20 UTC实际pull至`d0ef67071ceed1384297051b0f55fc3b48414eaf`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -38,7 +38,8 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **有限不变量已付但不等于fullperiod。** R215的K_PR纯零/flux=−8q⁵/45而全部global L_f通量0，真实同λ两hook至少一失败；R217两左尾δK/δ³K给非退化pair(8A*,0)/(B*,−96J*)，λ不能经pair因子化，实际四hook至少三失败。δ仅代数导子，经真实词实现；各几何一般不同g。R219八修正通量F8在pure零响应满射R8；左pair+任一flux另满R3，非十元组。R222整pure+F8真实C1联调保Q与全部mixed基准，末有限n收缩给闭hookpure0/F8=0。R223已兼容Morse，但尚未付fullperiod/ruling。
 
-**R216平点与R224正ε偶germ障碍均已付。** R216在h/k一点1..4阶全零时，真实历史冻结给K''=2常态σ²系数，杀全部gauge。R224在h=h_e exp(εσ²)、k/ω常时准确Ev(Bθw)∈W_e，真实历史偶部也仅改W_e；k≠0时W_e=span{1,h,h^-1}，k0时span{h,h^-1}，完整偶部ODE是必要门。标准k=ω0且ε>0，a=(v²−1)/(8h²)、b=−(1+v²)/8，B=−σ/8−ε²σ³/6；保chain/局部恢复后K/(hB²)极限的第四复幅Re=−8c6/λ<0，严格排R193原八包/已付光滑邻域所有可放入I的正宽度。只延拓局部解析模型、不延实际路径；任意正ε非小ε近似。R199一般新圆和一般k/ω端口不被这条符号自动排。下一选择真可拼接新germ或新圆，不能把Morse当绕过。
+**R216/R224/R228局部ruling障碍已付。** R216四阶flat点冻结杀全部gauge；R224任意共同偶h/k/ω的Ev(Bθw)与真实传入history偶部仅改W_e。标准k=ω0、h=he exp(εσ²)任意正ε，保chain/局部恢复后K/(hB²)第四实复幅−8c6/λ，排R193原八包/已付光滑邻域全合法宽度。只延拓局部解析模型，非实际路径或ε0近似。
+R228新族d=bh+aσ²、h=he exp(εσ²)、k=a/(2ε)−aσ²+C exp(2εσ²)，C=ke−a/(2ε)。虽W_e含σ²，C≠0时原六项最高βT_b，β=C²h⁴/(8he⁴)，B~β/(8εσ)；完整third/chain余项低阶，b0仍同−8c6/λ严格失败，尤其原ke=ωe0全部a≠0。C0、ke≠0例外必须另判，当前推进可实现端口及新G算子；一般b/任意R199圆不自动继承原符号。Morse/finiteflux不等于第四通过。
 
 **R221完整joint接口**：任意w的Bθ为18局部速度+24真实history×三矩，126profile矩加六合法性矩=132；非rank。指定包类全kerLf为活动区Cf+B/常平台自由匹配，端迹+平台Gram给准确全核矩像。先付两个原period成员，再付五相位K0在45几何span内，最后48×135矩阵的增广子式/有限降秩消极点准确iff，保种子和原三合法行。尚无实际目标通过。
 

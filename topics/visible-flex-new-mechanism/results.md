@@ -215,3 +215,5 @@
 - [原九高度的零总积分入口方向](notes/same-g-nine-height-zero-integral-entry-directions-20261115.md)：准确总积分λ给8维核，d_i=−e_i+(λ_i/λ3)e3、i0..2在.09严格降低b，位置全二jet于t≥.603恢复；共同帽高/尾帽/strip真不变，活动区其他全门需重评。原盒的补偿容量仍未知，严格null须准确仿射参数化而非九字段独立舍入；此时仅纸面方向，不预定154之后的实际派发。
 
 - [R226：平端精确指数层与既有响应链的不可见性](results/R226-exact-flat-end-layers-and-remainder-germs-of-the-response-chain.md)：两个换元/全阶指数支配给真C∞归一积分；p¹非零首层迫u以−p^-1 t^(ν+8)/(16c⁴)发散，p²保有限负幂条件，p³以上在零左通量分支可延。R219完整单层J和多项式真尾给δ^nK在每个首f上升端仅p⁴余项，平台修正germ观测为0；一般U/R与λ读出未付，不能用八flux满秩替代完整端点判据。
+
+- [R228：增长曲率偶端口仍受原八包四次障碍](results/R228-growing-curvature-even-germs-retain-the-original-circle-obstruction.md)：d=bh+aσ²新族虽使W_e含σ²，C=ke−a/(2ε)≠0的原六项最高βT_b、β=C²h⁴/(8he⁴)，B~β/(8εσ)。真实分子估计保全部第三局部/chain，K/(hB²)仍同T_b泛函；b0由R193−8c6/λ排所有合法宽度。只延拓消z分母的解析身份，不延物理路径。C0的非零ke例外及一般b/新圆仍未判，禁止把新增三矩维数冒通过。
