@@ -1,0 +1,67 @@
+{
+  "schema": "noj-primal-live-byte-storage-independent-source-review-v1",
+  "date_utc": "2026-11-15",
+  "author": "ChatGPT / amplitude",
+  "files_read_completely": [
+    {
+      "file": "/tmp/noj-primal-live-storage-source/native_closed_iteration_bytes.mjs",
+      "bytes": 13414,
+      "sha256": "482cdf9bf2c6c5ed4a5369b47a9cf9ec8ad6d1ca3c1ead5f4f48d261b5880b73"
+    },
+    {
+      "file": "/tmp/noj-primal-live-storage-source/native_live_artifact_supervisor.mjs",
+      "bytes": 11478,
+      "sha256": "aec52b5a4de2fe4a03f1861963999208c0f8455ee032cc1e8002a94784257397"
+    },
+    {
+      "file": "/tmp/noj-primal-live-storage-source/native_restore_artifact_batches.mjs",
+      "bytes": 3867,
+      "sha256": "8e0ec7aaba8c98ebaa156b6c0da3c43ddfa83b3ee20a22cc0fad29529bb0504f"
+    },
+    {
+      "file": "/tmp/noj-primal-live-storage-source/2026-11-15-native-live-byte-supervisor-source-draft.md",
+      "bytes": 8381,
+      "sha256": "c95148e0c1b1c1171ee3f2331bb04632721aa632e73da4d0b0e3e79e6ff52171"
+    }
+  ],
+  "official_source_receipt": {
+    "file": "/tmp/noj-primal-live-upload-research/official-source-receipts.json",
+    "bytes": 1475,
+    "sha256": "673413c4e8b4d76cadad3e3bbfce84efe0a8c1084ccc8be1e0aee897a50b685c"
+  },
+  "official_source_commit": "c40bccc9c31c29df15c93abbea5b18bb474a4add",
+  "official_sdk_version": "2.3.2",
+  "official_source_byte_bindings_checked": 7,
+  "frozen_closure_sources": [
+    {
+      "file": "/tmp/noj-primal-live-multi/geometry_20261114_noj_primal_live_tail_client.py",
+      "bytes": 29877,
+      "sha256": "7aa2aba10e44f0a0fd0e6eee47e9239a2f2244bb9663b8ec5ede294edc71bb64"
+    },
+    {
+      "file": "/tmp/noj-primal-live-multi/geometry_20261114_noj_primal_live_tail_client_hook.mjs",
+      "bytes": 51076,
+      "sha256": "0e802785329c73d5a951ca69942414ca5dcc40a9284dae9d31c4ca6cb819daa1"
+    }
+  ],
+  "scope": [
+    "source reading",
+    "saved official source SHA verification",
+    "closure and caller/callee field correspondence",
+    "storage path, member, catalog and restore control-flow inspection"
+  ],
+  "concrete_blocking_defect_identified": false,
+  "boundary_notes": [
+    "Only complete successful returned-correction records close their immutable per-iteration payloads; native line search remains pending after this boundary.",
+    "Catalog and verified/eviction receipts must be preserved by the eventual ordinary final workflow artifact; this draft has no workflow.",
+    "Restore covers sealed batch members. Appending call JSONL and final call/global summaries require the separate ordinary final artifact; batch original_complete_line_base64 is retained remotely in its manifest.",
+    "No installed lock, production JavaScript action, SDK upload/download or full restoration has been executed in this review; no end-to-end success claim."
+  ],
+  "network_SDK_installed_or_executed": false,
+  "storage_module_imported_or_executed": false,
+  "scientific_computation_performed": false,
+  "scientific_sources_modified": false,
+  "original_storage_sources_modified": false,
+  "repository_or_branch_modified": false,
+  "new_scientific_acceptance_gate": false
+}

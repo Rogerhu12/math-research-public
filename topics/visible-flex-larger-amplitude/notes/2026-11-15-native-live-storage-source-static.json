@@ -1,0 +1,44 @@
+{
+  "schema": "native-live-byte-supervisor-source-only-check-v1",
+  "checked_at_utc": "2026-11-15T01:16:54.960421+00:00",
+  "files": [
+    {
+      "file": "native_closed_iteration_bytes.mjs",
+      "bytes": 13414,
+      "sha256": "482cdf9bf2c6c5ed4a5369b47a9cf9ec8ad6d1ca3c1ead5f4f48d261b5880b73"
+    },
+    {
+      "file": "native_live_artifact_supervisor.mjs",
+      "bytes": 11478,
+      "sha256": "aec52b5a4de2fe4a03f1861963999208c0f8455ee032cc1e8002a94784257397"
+    },
+    {
+      "file": "native_restore_artifact_batches.mjs",
+      "bytes": 3867,
+      "sha256": "8e0ec7aaba8c98ebaa156b6c0da3c43ddfa83b3ee20a22cc0fad29529bb0504f"
+    },
+    {
+      "file": "2026-11-15-native-live-byte-supervisor-source-draft.md",
+      "bytes": 8381,
+      "sha256": "c95148e0c1b1c1171ee3f2331bb04632721aa632e73da4d0b0e3e79e6ff52171"
+    }
+  ],
+  "node_check_exit_codes": {
+    "native_closed_iteration_bytes.mjs": 0,
+    "native_live_artifact_supervisor.mjs": 0,
+    "native_restore_artifact_batches.mjs": 0
+  },
+  "static_scope": [
+    "syntax only",
+    "manual source contract and byte/path/closure review"
+  ],
+  "sdk_installed": false,
+  "supervisor_imported_or_executed": false,
+  "fixture_run": false,
+  "artifact_uploaded_or_downloaded": false,
+  "scientific_module_imported": false,
+  "scientific_computation_executed": false,
+  "repository_modified": false,
+  "actual73_success_anchor_created": false,
+  "production_dependency_lock_created": false
+}

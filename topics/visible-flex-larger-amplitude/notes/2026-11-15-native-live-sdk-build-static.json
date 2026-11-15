@@ -1,0 +1,49 @@
+{
+  "schema": "native-live-sdk-build-draft-static-check-v1",
+  "request_id": "storage-sdk-build-20261115",
+  "files": [
+    {
+      "file": "visible-larger-public-native-live-sdk-build.yml",
+      "bytes": 16508,
+      "sha256": "6be68b21a7491e4908f064a18ae68edd457b3b5a6e19e4fca176924657e382c5"
+    },
+    {
+      "file": "public-native-live-sdk-build-request.json",
+      "bytes": 2072,
+      "sha256": "0346c555ef79bc5f9da7e87b36e8ce08935d2e7b970db1fb1b19b009ec1a2f3a"
+    },
+    {
+      "file": "sdk-build-driver.mjs",
+      "bytes": 12357,
+      "sha256": "9fe4f7290fe76e1584adfee64587b63d7a7b18441c521cb4322892d188235dc9"
+    }
+  ],
+  "workflow_YAML_loaded": true,
+  "unique_push_request_trigger": true,
+  "pinned_actions": [
+    "actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+    "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+    "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02"
+  ],
+  "shell_checks": [
+    {
+      "step": 1,
+      "name": "Establish independent build and receipt directories",
+      "bash_n_exit": 0
+    },
+    {
+      "step": 3,
+      "name": "Generate the actual complete lock, run clean npm ci, and construct only the client",
+      "bash_n_exit": 0
+    }
+  ],
+  "inline_driver_equal_to_review_copy": true,
+  "node_check_exit": 0,
+  "package_lock_created_locally": false,
+  "npm_install_or_ci_executed_locally": false,
+  "SDK_imported_or_constructed_locally": false,
+  "artifact_API_exercised": false,
+  "scientific_computation_performed": false,
+  "repository_or_branch_modified": false,
+  "workflow_dispatched": false
+}

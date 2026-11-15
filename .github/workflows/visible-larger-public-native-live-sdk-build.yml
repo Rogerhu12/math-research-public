@@ -1,0 +1,213 @@
+name: visible-larger independent native-live artifact SDK lock build
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-native-live-sdk-build-request.json
+permissions:
+  contents: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  storage-sdk-build:
+    name: Generate a real SDK lock and check a scripts-disabled clean installation
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: visible-larger-public-native-live-sdk-build
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-larger-public-native-live-sdk-build.yml
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/public-native-live-sdk-build-request.json
+      - name: Establish independent build and receipt directories
+        run: |
+          set -euo pipefail
+          task_root="$RUNNER_TEMP/visible-native-live-sdk-build"
+          mkdir "$task_root"
+          mkdir "$task_root/receipts"
+          echo "VISIBLE_SDK_BUILD_OUT=$task_root/receipts" >> "$GITHUB_ENV"
+          echo "VISIBLE_SDK_LOCK_ROOT=$task_root/lock-generation" >> "$GITHUB_ENV"
+          echo "VISIBLE_SDK_CI_ROOT=$task_root/clean-ci" >> "$GITHUB_ENV"
+          printf '%s\n' 'SDK dependency build only; no scientific program or artifact SDK API method is invoked.' > "$task_root/receipts/build-purpose.txt"
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 24.22.1
+          check-latest: false
+      - name: Generate the actual complete lock, run clean npm ci, and construct only the client
+        timeout-minutes: 15
+        run: |
+          set -euo pipefail
+          cat > "$VISIBLE_SDK_BUILD_OUT/sdk-build-driver.mjs" <<'SDKBUILD'
+          // Generated verbatim from the triggering workflow; engineering only.
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import crypto from 'node:crypto';
+          import assert from 'node:assert/strict';
+          import {spawnSync} from 'node:child_process';
+          import {createRequire} from 'node:module';
+
+          const output = process.env.VISIBLE_SDK_BUILD_OUT;
+          const generation = process.env.VISIBLE_SDK_LOCK_ROOT;
+          const installation = process.env.VISIBLE_SDK_CI_ROOT;
+          const repository = process.env.GITHUB_WORKSPACE;
+          const workflowRelative = '.github/workflows/visible-larger-public-native-live-sdk-build.yml';
+          const requestRelative = 'topics/visible-flex-larger-amplitude/computations/public-native-live-sdk-build-request.json';
+          const digest = raw => crypto.createHash('sha256').update(raw).digest('hex');
+          const desc = file => { const raw = fs.readFileSync(file); return {file:path.basename(file),bytes:raw.length,sha256:digest(raw)}; };
+          const write = (name, value) => fs.writeFileSync(path.join(output,name),JSON.stringify(value,null,2)+'\n');
+          const scrub = value => {
+            let text = String(value);
+            for (const key of ['GITHUB_TOKEN','GH_TOKEN','NODE_AUTH_TOKEN','NPM_TOKEN','ACTIONS_RUNTIME_TOKEN'])
+              if (process.env[key]) text=text.split(process.env[key]).join('<redacted>');
+            return text;
+          };
+          const result = {
+            schema:'native-live-sdk-build-result-v1',request_id:'storage-sdk-build-20261115',
+            completed:false,phase:'bind-request',scientific_computation_performed:false,
+            SDK_artifact_methods_called:[],supervisor_deployed:false,success_anchor_required:false,
+            node_modules_archived:false,lifecycle_scripts_requested:false,stages:[]
+          };
+          let phase = 'bind-request';
+          const npmEnv={...process.env};
+          for(const key of ['GITHUB_TOKEN','GH_TOKEN','NODE_AUTH_TOKEN','NPM_TOKEN','ACTIONS_RUNTIME_TOKEN','ACTIONS_RUNTIME_URL','ACTIONS_RESULTS_URL','ACTIONS_CACHE_URL']) delete npmEnv[key];
+          function runNpm(label,args,cwd) {
+            const stdout=fs.openSync(path.join(output,label+'.stdout.log'),'wx');
+            const stderr=fs.openSync(path.join(output,label+'.stderr.log'),'wx');
+            let processResult;
+            try { processResult=spawnSync('npm',args,{cwd,env:npmEnv,shell:false,stdio:['ignore',stdout,stderr]}); }
+            finally { fs.closeSync(stdout); fs.closeSync(stderr); }
+            const receipt={argv:['npm',...args],cwd,exit_code:processResult.status,signal:processResult.signal,
+              launch_error:processResult.error?{name:processResult.error.name,code:processResult.error.code??null,message:scrub(processResult.error.message)}:null,
+              ignore_scripts_explicit:args.includes('--ignore-scripts'),
+              stdout:desc(path.join(output,label+'.stdout.log')),stderr:desc(path.join(output,label+'.stderr.log'))};
+            write(label+'.json',receipt);result.stages.push({name:label,...receipt});
+            return receipt;
+          }
+          function successful(receipt) {
+            assert.equal(receipt.exit_code,0,receipt.argv.join(' ')+' did not succeed');
+            assert.equal(receipt.signal,null);assert.equal(receipt.launch_error,null);
+          }
+          try {
+            assert.equal(process.env.GITHUB_ACTIONS,'true');
+            assert.equal(process.env.GITHUB_REPOSITORY,'Rogerhu12/math-research-public');
+            assert.equal(process.version,'v24.22.1');
+            const requestRaw=fs.readFileSync(path.join(repository,requestRelative));
+            const request=JSON.parse(requestRaw);
+            assert.equal(request.schema,'public-native-live-sdk-build-request-v1');
+            assert.equal(request.request_id,'storage-sdk-build-20261115');
+            assert.equal(request.repository,process.env.GITHUB_REPOSITORY);
+            assert.deepEqual(request.sdk,{package:'@actions/artifact',version:'2.3.2',registry:'https://registry.npmjs.org/'});
+            const packageSpec={name:'visible-larger-native-live-artifact-sdk',version:'0.0.0',private:true,engines:{node:'24.22.1'},dependencies:{'@actions/artifact':'2.3.2'}};
+            assert.deepEqual(request.package,packageSpec);
+            assert.deepEqual(request.actions,{checkout:'11d5960a326750d5838078e36cf38b85af677262',setup_node:'49933ea5288caeca8642d1e84afbd3f7d6820020',upload_artifact:'ea165f8d65b6e75b540449e92b4886f43607fa02'});
+            assert.deepEqual(request.operations,{generate_real_lock:true,install_from_generated_lock:true,ignore_scripts:true,audit:false,fund:false,constructor_only:true,SDK_artifact_API_methods_called:false,scientific_modules_imported:false,scientific_program_called:false,success_anchor_required:false,supervisor_deployed:false,node_modules_archived:false});
+            assert.equal(request.runtime.node,'24.22.1');
+            const head=spawnSync('git',['rev-parse','HEAD'],{cwd:repository,shell:false,encoding:'utf8'});
+            assert.equal(head.status,0);assert.equal(head.stdout.trim(),process.env.GITHUB_SHA);
+            const workflowRaw=fs.readFileSync(path.join(repository,workflowRelative));
+            fs.writeFileSync(path.join(output,'request-original.json'),requestRaw);
+            fs.writeFileSync(path.join(output,'workflow-original.yml'),workflowRaw);
+            write('source-identity.json',{source_commit:head.stdout.trim(),workflow:{file:workflowRelative,bytes:workflowRaw.length,sha256:digest(workflowRaw)},
+              request:{file:requestRelative,bytes:requestRaw.length,sha256:digest(requestRaw)},actions:request.actions,
+              inline_build_driver:desc(path.join(output,'sdk-build-driver.mjs')),official_source_reference:request.official_source_reference,
+              npm_lock_existed_before_this_run:false,mathematical_sources_required:false});
+            const npmVersion=spawnSync('npm',['--version'],{env:npmEnv,shell:false,encoding:'utf8'});
+            assert.equal(npmVersion.status,0,'Record the actual bundled npm version');
+            const versions={node:process.version,npm:npmVersion.stdout.trim(),node_components:process.versions,platform:process.platform,architecture:process.arch,
+              runner_os:process.env.RUNNER_OS,runner_arch:process.env.RUNNER_ARCH,runner_image:process.env.ImageOS??null,runner_image_version:process.env.ImageVersion??null};
+            write('runtime-versions.json',versions);result.versions=versions;
+            fs.mkdirSync(generation,{recursive:false});
+            fs.writeFileSync(path.join(generation,'package.json'),JSON.stringify(packageSpec,null,2)+'\n',{flag:'wx'});
+            fs.copyFileSync(path.join(generation,'package.json'),path.join(output,'package.json'),fs.constants.COPYFILE_EXCL);
+            phase='generate-real-package-lock';
+            const lockReceipt=runNpm('lock-generation',['install','--package-lock-only','--ignore-scripts','--no-audit','--no-fund','--registry=https://registry.npmjs.org/'],generation);
+            const generatedLock=path.join(generation,'package-lock.json');
+            if(fs.existsSync(generatedLock)) fs.copyFileSync(generatedLock,path.join(output,'package-lock.json'),fs.constants.COPYFILE_EXCL);
+            successful(lockReceipt);
+            result.lock_phase_node_modules_present=fs.existsSync(path.join(generation,'node_modules')); // Record only; the ci directory remains independent and new.
+            phase='verify-complete-lock';
+            const lockRaw=fs.readFileSync(generatedLock),lock=JSON.parse(lockRaw);
+            assert(lock.lockfileVersion>=2 && lock.packages && typeof lock.packages==='object','Actual complete packages lock is required');
+            assert.deepEqual(lock.packages[''].dependencies,packageSpec.dependencies);
+            assert.equal(lock.packages['node_modules/@actions/artifact'].version,'2.3.2');
+            const packages=Object.entries(lock.packages).filter(([name])=>name!=='');
+            const missing=[];
+            for(const [name,item] of packages) {
+              if(typeof item.version!=='string'||typeof item.integrity!=='string'||!item.integrity||typeof item.resolved!=='string'||!item.resolved.startsWith('https://registry.npmjs.org/')) missing.push(name);
+            }
+            const lockEvidence={package:desc(path.join(generation,'package.json')),lock:desc(generatedLock),lockfile_version:lock.lockfileVersion,
+              dependency_entries:packages.length,entries_missing_required_registry_integrity:missing,
+              packages_declaring_install_scripts:packages.filter(([,item])=>item.hasInstallScript===true).map(([name,item])=>({name,version:item.version})),
+              declared_script_is_not_proof_script_is_required_for_constructor:true,
+              complete_lock_preserved_without_reserialization:true,lock_generated_by_actual_npm:true};
+            write('lock-verification.json',lockEvidence);result.lock=lockEvidence;
+            assert.equal(missing.length,0,'Retain incomplete original lock and report its missing entries');
+            phase='clean-ci-from-real-lock';
+            fs.mkdirSync(installation,{recursive:false});
+            fs.copyFileSync(path.join(generation,'package.json'),path.join(installation,'package.json'),fs.constants.COPYFILE_EXCL);
+            fs.copyFileSync(generatedLock,path.join(installation,'package-lock.json'),fs.constants.COPYFILE_EXCL);
+            const beforePackage=desc(path.join(installation,'package.json')),beforeLock=desc(path.join(installation,'package-lock.json'));
+            const ciReceipt=runNpm('clean-npm-ci',['ci','--ignore-scripts','--no-audit','--no-fund','--registry=https://registry.npmjs.org/'],installation);
+            const afterPackage=desc(path.join(installation,'package.json')),afterLock=desc(path.join(installation,'package-lock.json'));
+            write('install-source-preservation.json',{package_before:beforePackage,package_after:afterPackage,lock_before:beforeLock,lock_after:afterLock,
+              package_bytes_unchanged:fs.readFileSync(path.join(generation,'package.json')).equals(fs.readFileSync(path.join(installation,'package.json'))),
+              lock_bytes_unchanged:lockRaw.equals(fs.readFileSync(path.join(installation,'package-lock.json')))});
+            successful(ciReceipt);assert.deepEqual(beforePackage,afterPackage);assert.deepEqual(beforeLock,afterLock);
+            phase='constructor-only';
+            // The SDK receives none of the runtime/API tokens. No artifact client method is called.
+            for(const key of ['GITHUB_TOKEN','GH_TOKEN','NODE_AUTH_TOKEN','NPM_TOKEN','ACTIONS_RUNTIME_TOKEN','ACTIONS_RUNTIME_URL','ACTIONS_RESULTS_URL','ACTIONS_CACHE_URL']) delete process.env[key];
+            const require=createRequire(path.join(installation,'package.json'));
+            const packageFile=require.resolve('@actions/artifact/package.json');
+            const packageRaw=fs.readFileSync(packageFile),installed=JSON.parse(packageRaw);
+            assert.equal(installed.name,'@actions/artifact');assert.equal(installed.version,'2.3.2');
+            const entry=require.resolve('@actions/artifact');
+            fs.writeFileSync(path.join(output,'installed-sdk-package.json'),packageRaw);
+            fs.copyFileSync(entry,path.join(output,'installed-sdk-entrypoint.js'),fs.constants.COPYFILE_EXCL);
+            const sdk=require('@actions/artifact');
+            assert.equal(typeof sdk.DefaultArtifactClient,'function');
+            const client=new sdk.DefaultArtifactClient();
+            assert(client instanceof sdk.DefaultArtifactClient);
+            const constructorEvidence={package_name:installed.name,package_version:installed.version,
+              installed_package:desc(packageFile),installed_entrypoint:desc(entry),export_names:Object.keys(sdk).sort(),
+              DefaultArtifactClient_type:typeof sdk.DefaultArtifactClient,constructor_succeeded:true,
+              artifact_API_methods_invoked:[],runtime_artifact_credentials_inherited:false,
+              lifecycle_scripts_enabled:false,scientific_module_imported:false,supervisor_launched:false,
+              scope:'Module load and constructor only; no upload/download/list/get/delete API call, no transport integration claim.'};
+            write('constructor-check.json',constructorEvidence);result.constructor=constructorEvidence;
+            result.completed=true;phase='complete';
+            result.reproducibility_scope='One clean installation from the actual generated complete lock on the recorded runtime/platform; not a second-run, cross-platform or artifact-transport test.';
+          } catch(error) {
+            result.error={name:error.name,code:error.code??null,message:scrub(error.message),stack:scrub(error.stack??'')};
+            result.install_scripts_not_enabled_to_work_around_failure=true;
+            process.exitCode=1;
+          } finally {
+            result.phase=phase;write('build-result.json',result);
+            const files=fs.readdirSync(output).sort().filter(name=>name!=='build-output-manifest.json').map(name=>{
+              const file=path.join(output,name);assert(fs.lstatSync(file).isFile(),'Only bounded regular receipts belong in the artifact');return desc(file);
+            });
+            write('build-output-manifest.json',{schema:'native-live-sdk-build-output-files-v1',files,
+              manifest_self_hash_excluded:true,node_modules_excluded:true,full_lock_preserved:fs.existsSync(path.join(output,'package-lock.json')),
+              successful_build:result.completed,SDK_artifact_API_methods_invoked:[],scientific_computation_performed:false});
+            console.log(JSON.stringify({completed:result.completed,phase:result.phase,receipt:'build-result.json'}));
+          }
+          SDKBUILD
+          node "$VISIBLE_SDK_BUILD_OUT/sdk-build-driver.mjs"
+      - name: Preserve the original lock, versions, sources and all build failure receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-native-live-sdk-build-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-native-live-sdk-build/receipts/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: warn
