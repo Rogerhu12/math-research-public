@@ -157,3 +157,7 @@ newton给blob30591d2714e45dcad6ae2de1774a9b7e333466de /8974B/SHA6527fa46ddc21ed3
 root新推导，phase/tail独立逐项核完整B10差、DN差、primitive/Pperp保mean、band64及constant diagonal消去；最终blob5a06a9f2958221544222ce4b0918bef79b37b0dd /10158B/SHA423d642196c1883a11bb725532ae0ff668baac8932392e89bd4c902ee01958f9。three local差6M0E1+3Δ(M1+E1)，Pperp再2M0E1+Δ(M1+E1)，primitive[E2(2M0+Δ)+M2Δ]/4；rank仅最终HJ消。actualΔdφ保knownA0 norm1/unknownC0 norm2，basecentre不重复进selected差。C1S用D0φ+b(6MavN0+3N0²)仅低→高，t1仍fullactual。新DS shell/DL full low/DH high保完整五列；两χ80、nested有限N、rawP一次及weakH1依据NC不变。tail将同一新consumer完整6×2×64组各保NC/BD整row，全部审计临时，选择仅最小highbody列而非未知总误差最优；尚无actual scalar宣称。H/open压缩前75bade02同路径所有原域/失败/恢复完整保。
 
 上一SP单条初次非FF后根立即CLI git pull --rebase，仍No usable execution environment，保远端重建CAS第二次成功75bade02；未冒称ref为pull，H已记最新尝试。当前只读README792af1653e99867e63c5b00f83513be197bb4273双blob未变。
+
+### 2026-11-15 15:57:29 UTC — BD.2 向量范数口径即时更正
+
+tail全文最后复核指出：LC的M0/M1/N0由两分量A0 envelope的Euclidean组合得到，作为vector pointwise L∞成立，但不能写成一般Σ_k|U_k|_R2的vector Wiener A0。root确认并立即将BD.2八个向量norm记号改L∞，明写128/384从原componentwise A0 known-band取得，BD5/9原raw已知A0修补仍独立保留。全部operator差/五列数字公式不变，尚无新BD scalar运行。更正最终blob43a121c6f05ebc6bab28dfe8ff3caf4fcc5bf849 /10645B/SHAbb792252f0a3400547293ba5d8e9f9f5c2aa842dcf749abfd3f993abd478935c；原e5fbb3e历史保留，此条单独纠正，不掩盖。最新只读READMEaa0dbc95cd343ce073420b7b29c7631a2e356599双blob未变。

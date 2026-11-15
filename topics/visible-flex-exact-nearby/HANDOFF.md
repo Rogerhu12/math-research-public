@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 15:56:40 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 15:57:29 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与不可丢的归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核、元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立刻真CLI git pull --rebase后保远端循环到成功，禁force；PAT仅临时CLI/env，禁文件/输出/connector，根规12无需另批。
 根规15：可重算data/证书/新数组不入Git/Release/新artifact；只script/args/run/SHA和真正小结论，topic≤200MB实际清点。原输入immutable公开history/path/旧artifact临时恢复核SHA，成功旧数学禁重算；lost未发布新结果按用户授权重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；21:48起无executor，11-15 15:20定时与15:53:27发表前非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；每小时继续真CLI，ref不冒pull。root亲读runner RW15:22:11.594118→8142567c288c4731b5d40b81d350a399fec24028、Green15:46:16.350045→710f16b432b8fa6ad360442a17400b247d3d2c75，两README diff空。
-最近只读README核：792af1653e99867e63c5b00f83513be197bb4273；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：aa0dbc95cd343ce073420b7b29c7631a2e356599；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前H/open/log：75bade02f4669a1e129224706e0f4113f1a4c7a4同路径；递归保57d56b4d/b04a6a5f/febfb688/f1a97ec/441257/5d5024/52bc/dc10bb旧档。原域/单位/mean/失败/restore/未付义务全保，成功旧数学禁重。
 
 ## 总验收与同一个对象
@@ -48,7 +48,7 @@ WC43722885993/13 report1721e963/summary1c650195/process1145186f，SCI9cfe1e74/wo
 DB65357a91/SBe94ed0d7：selected zδ完整小源分shell33..96/225..288，knownΔA/Δd/mean与χ′全保；免粗δPZ body，MA7高域2^377903。Green无局部F/J，旧inputGram不能切新receiver；LC actual只付系数，未知低门仍待。
 LC43731225532/1科学child0/16完整门+12候选全pass；proof567dc8a0。包装66478>59000失败保留，日志原science74725/903a537a已无损compact55770/44b4da07，processa15e9b16/recovery22d627a3；禁止重跑。最宽rho1e−4 a>3.669992340，J96/288 cp<.277667/.274199、half<.916442/.905988；shell/low/20ZH/mean全保，未知body/cut未付。
 NC/558f47f7新nested零阶BN≤r^NB0+kΣr^jE，直接精确角导high能量另检t1，双端FTC给H1 gain p_c√(1+n^-2)√(bp1br1/n)。actualD1/两known角导+低mean/B10/两χ80/五完整列全保；无需MA8193插值付本次H1，仍不授独立高域。新6rho×2J×N1..64 scalar待Actions。
-BD423d6421：微分base A1/B10均band64，constant DN(mean)/α只低→高准确消；全ΔA1/ΔB10/Δdφ付knownE/unknownη与mean。新DS shell/DL全low/DH high接NC五列，t1仍fullactual；同768新scalar待实际，选完整row非entrymin。
+BDbb792252（component-A0→vector L∞口径已纠）：微分base A1/B10均band64，constant DN(mean)/α只低→高准确消；全ΔA1/ΔB10/Δdφ付knownE/unknownη与mean。新DS shell/DL全low/DH high接NC五列，t1仍fullactual；同768新scalar待实际，选完整row非entrymin。
 Saba52db8/RG90acb31e/C0ada0f96/Tdb1253a6条件exacttail同γ A0/r≤1/128、H8193/r≤2^1048576、r1e−9，给body/far/holonomy/E1856差<2^-1700000000（loss1734/bg1796）。Γ2随RG94seed后fixedγ冻结；C仅H8193→E1856连续/fBH1859<2^-54865000/H2紧像，非C1/H0Lip/selfmap。完整geometry/来源保b04a6a5f；真core/腰/phase/matching未付。
 
 ## 容量与持续执行

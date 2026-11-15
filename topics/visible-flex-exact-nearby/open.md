@@ -90,7 +90,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 [NC嵌套局部化与直接高频H1迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7给BN≤r^NB0+kΣr^jE、保完整selected低/shell/χ′源，再对真实p=zφ另检t1。Mδ2≤128M1+384E1、actualD1与B10全mean保留；固定h=1/(40N)和两χ80给完整五列，双端FTC因子1和最终P仅一次。此H1迹免8193插值，独立tail高域仍待；6rho×2J×N1..64新scalar待Actions，未知low/shell/body没有因此被赋值。
 
-[BD微分后degree32完整分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)423d6421将base A1/B10/d0的全部低输入准确限到64shell；constant αD/DN(mean)在low→high准确消，t1仍用fullactual。ΔB10=b[8M0E1+4Δ(M1+E1)]+b/4[E2(2M0+Δ)+M2Δ]、完整ΔA1/Δdφ和全部mean保；新DS/DL/DH接NC的五列。6rho×2J×N1..64只新scalar待实际，整row按highbody列选，不称unknown总误差最优。
+[BD微分后degree32完整分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)bb792252（BD2向量L∞/component A0已澄清）将base A1/B10/d0的全部低输入准确限到64shell；constant αD/DN(mean)在low→high准确消，t1仍用fullactual。ΔB10=b[8M0E1+4Δ(M1+E1)]+b/4[E2(2M0+Δ)+M2Δ]、完整ΔA1/Δdφ和全部mean保；新DS/DL/DH接NC的五列。6rho×2J×N1..64只新scalar待实际，整row按highbody列选，不称unknown总误差最优。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 

@@ -25,13 +25,13 @@ $$
 with the LC bounds
 $$
  \begin{gathered}
- \|U\|_{A^0}\le M_0,\quad
+ \|U\|_{L^\infty}\le M_0,\quad
  |\langle U\rangle|\le M_{\rm av},\quad
- \|U-\langle U\rangle\|_{A^0}\le N_0,\quad
- \|U_\phi\|_{A^0}\le M_1,\\
- \|U_{\phi\phi}\|_{A^0}\le M_2:=128M_1,\qquad
- \|e\|_{A^0}\le E_0,\quad \|e_\phi\|_{A^0}\le E_1,\quad
- \|e_{\phi\phi}\|_{A^0}\le E_2:=384E_1,\qquad
+ \|U-\langle U\rangle\|_{L^\infty}\le N_0,\quad
+ \|U_\phi\|_{L^\infty}\le M_1,\\
+ \|U_{\phi\phi}\|_{L^\infty}\le M_2:=128M_1,\qquad
+ \|e\|_{L^\infty}\le E_0,\quad \|e_\phi\|_{L^\infty}\le E_1,\quad
+ \|e_{\phi\phi}\|_{L^\infty}\le E_2:=384E_1,\qquad
  \|z\|_{C^0}\le\eta .
  \end{gathered}
  \tag{BD.2}
@@ -40,6 +40,13 @@ The base $U$ has full angular degree32, including its continuous
 repair. The selected direction $e$ has degree96, including its full
 canonical correction. Neither statement truncates the actual $z$.
 The values $M_{\rm av},N_0$ refer to this same base $U$.
+The vector norms displayed in (BD.2) are Euclidean pointwise sup
+norms. LC supplies them from Euclidean combinations of the two
+componentwise $A^0$ envelopes. The bounds $128M_1$ and $384E_1$
+follow by differentiating the known component envelopes on their
+degree32 and degree96 supports. No identification with the sum of
+Euclidean Fourier coefficient lengths is used. The separate known
+raw $A^0$ repair hypotheses in (BD.5) and (BD.9) are retained.
 
 The positive collar is outside the compact $\nu$ perturbation.
 Thus the compared $\beta,G,K,P,b,\alpha,g$ here are the same radial
