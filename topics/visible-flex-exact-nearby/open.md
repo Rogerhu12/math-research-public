@@ -325,6 +325,12 @@ R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN
 只用unknown C0与known两角导数、完整F/Fφ付E19–22 H1 cut公式。
 两侧必须同一连续state；真实jump须单独lift/边界form，不能拿任意L²端跳当ordinary源。
 实际系数和源/body数值须使E21/22达到J的新15e−9/128门（selected reference再付J18已知cut差）；高8193窗口仍待。
+[H有限factorial与完整高cut门](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)
+已给同一双侧collar的finite N=8193能量、已知drift comm、ρ径宽/q!及完整14/9二三次费。
+H24–26实门给X_N≤2CE A_N；finite real差商使初始H1即可，不先假未知高norm。
+实σ≥2^-32及H32门将same-cut高差压在2^377904<2^393000，已付δZ已知高差；
+精确state的reference残差band288使完整高源≤exp(1152σ)||Pf0||，近似state仍付自身0..8193残差。
+H5b可只消费已知finite-band逐row A0/B1/D1，不能把未知C0当Wiener。实际低/系数/source门由7721 jets及原state包络消费，尚未过。
 自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 

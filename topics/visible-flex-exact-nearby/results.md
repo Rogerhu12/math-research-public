@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 有限factorial collar与完整8193内迹门](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)：实际speed/known drift分离、ρ径宽与q!、完整mean/14–9非线性及共用源barrier；finite real差商由H1给高迹。H24–26/H32实际过才给hH8193<2^393000，selected已知高差已付；真解参考band288保完整高源，未授core存在。
+
 - [R133 分离shape与完整mean的真实曲率低迹](results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md)：精确缩放到同m0后，γA0≤||(h−j0μ)φ||/16+|μ|/576≤||h||H1/15。当前tail低门可用hH1≤15e−9/128；完整mean、physical Jacobian和known selected-cut差保，高8193门不删。
 
 - [R133 actual43711480764/1：第一local完整尾大幅收紧](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)：child0/19门，6全tail比较使3个b1二径界改善；q1<.004848651663、raw1<1.722740e14、完整pair<7.039768e14。其它20first+10mean原球不变；旧数学0重算。当前最大项转为density1 RQJg；仍仅真实volume源界。

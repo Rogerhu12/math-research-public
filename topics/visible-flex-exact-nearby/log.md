@@ -90,3 +90,7 @@ root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7
 ## 2026-11-15 12:07:34 UTC — 真实physical γ低门按shape/mean分离改善
 
 读main 505e87214fd4271a9fffe31099cdf85492070c50两README未变。J最终9008B/a23d28b4445a7c3a2391b28c8f6c50a785712d30568e30eafb92fb30f070ef7c。root从V原paid m0/j0/Cθ界逐式推出a=m0/m、tildev=av同normalized angle，k=a(h−j0μ)；reciprocal费<1/64、完整真实measure、Poincaré及a²给shape<1/16，mean≤1/576。tail独立逐核J12/J14–17与same-cut δZ通过。主范数关系改≤以涵零h，常数严格比较不变。γA0≤hH1/15使低充分门15e−9/128；当前actual core trace未冒已付，H8193及全B/Cmean/参数仍待。纯解析，无新数值运行。
+
+## 2026-11-15 12:08:12 UTC — finite collar高迹完整门解析完成
+
+读main a934b45c33f7f4807a307b6a556bf32b76db675d两README未变。H最终23826B/bd31916b47acd8b28f45ec25a35b46413f97b95071561f717df72dd05452f76c，root全文审原21522B及H5a/b/H33a/b两新增段；phase独立核H20全部五产品、14/9、H34–40 shifted Leibniz/ρ'Dh/同AN barrier/weak trace、band288全残差。root补Dδ来源及J低门链接。未知无复角求值，初始H1/低有界+finite高源足开始，ρ′不残q，mean/rank/F和真seam全保。真解f=0只在独立已成H1同state时使用，不循环授存在。selected δZ高差19·385^8193<2^73742已接H33，低差J18另付。actual collar7721 intrinsic jets+完整mean/state入口仍由新consumer支付，不声明数值门已过。
