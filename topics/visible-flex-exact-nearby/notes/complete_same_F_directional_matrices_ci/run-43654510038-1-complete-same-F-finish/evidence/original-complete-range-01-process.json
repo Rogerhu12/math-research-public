@@ -1,0 +1,760 @@
+{
+  "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43654510038",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "f42ded4aac8463083fa2dc5209c16de42f0965d7",
+  "worker_source_sha256": "71b203d54afc982de4ac762a7486cd99bde7acbd9ca50d7ca9c486a283c1326b",
+  "started_utc": "2026-11-14T23:43:23.492871+00:00",
+  "children": [
+    {
+      "label": "new_missing_canonical_same_F_matrices_and_complete_directional_Grams",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_same_F_directional_matrices_v2.py",
+        "--phase",
+        "range",
+        "--bits",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-complete-same-F-output/native/complete-same-F-range-01.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-exact5970-same-F-disjoint-plan.json.gz",
+        "--group",
+        "1",
+        "--reference-artifact",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/reference",
+        "--frame-slice",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/frames",
+        "--arrays",
+        "/__w/_temp/visible-exact-complete-same-F-output/matrices",
+        "--profile",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
+      ],
+      "started_utc": "2026-11-14T23:43:57.161663+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 6933.9673745869995,
+      "finished_utc": "2026-11-15T01:39:31.129448+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:43:24.613780+00:00",
+      "before": "c7f487baf81a487a6575fe42eb4fe9255fdbff66",
+      "after": "0b277923991c2b61b21816bda975a7fcc64bf8c2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:25.546732+00:00",
+      "before": "0b277923991c2b61b21816bda975a7fcc64bf8c2",
+      "after": "096c40af0d823107ddb32857c22770b6e79080f0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:28.346547+00:00",
+      "before": "096c40af0d823107ddb32857c22770b6e79080f0",
+      "after": "e5fc62748ca9fb0b197a3abd26b7fa1a723c9c51",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:31.186404+00:00",
+      "before": "e5fc62748ca9fb0b197a3abd26b7fa1a723c9c51",
+      "after": "8dded8e847530acea638623c23d2bc610c93637f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:33.838534+00:00",
+      "before": "8dded8e847530acea638623c23d2bc610c93637f",
+      "after": "a2ffb9e0af0fd82d04c85f73786bcd36ba95bb5e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:36.427462+00:00",
+      "before": "a2ffb9e0af0fd82d04c85f73786bcd36ba95bb5e",
+      "after": "eaad033db7aaa66c10219304c749cefb0c26bc3e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:39.349723+00:00",
+      "before": "eaad033db7aaa66c10219304c749cefb0c26bc3e",
+      "after": "842adad52edd62a088aa50775557c8d5229b9390",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:42.219289+00:00",
+      "before": "842adad52edd62a088aa50775557c8d5229b9390",
+      "after": "87d21a421efca8b71c16735ed3c809e4d4135fbd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:44.717964+00:00",
+      "before": "87d21a421efca8b71c16735ed3c809e4d4135fbd",
+      "after": "6a5f5ac9a44e65efff4a67919e401cf6f83f3438",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:47.550508+00:00",
+      "before": "6a5f5ac9a44e65efff4a67919e401cf6f83f3438",
+      "after": "a2cf4b398d2d7351d78aa19021ea28603a92ad50",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:50.220827+00:00",
+      "before": "a2cf4b398d2d7351d78aa19021ea28603a92ad50",
+      "after": "8fc25d66b953be493f8f598a9713b81ad8f509e4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:53.050847+00:00",
+      "before": "8fc25d66b953be493f8f598a9713b81ad8f509e4",
+      "after": "327d9ca467c7c1fad617e71c9bcb3d3f6d734f98",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:55.770894+00:00",
+      "before": "327d9ca467c7c1fad617e71c9bcb3d3f6d734f98",
+      "after": "9f9841a96377cd8160e9e9afaa719611ba0d95d9",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:00.071890+00:00",
+      "before": "9f9841a96377cd8160e9e9afaa719611ba0d95d9",
+      "after": "550fe9433526180855d697dcf8c1f5306209b065",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:02.155434+00:00",
+      "before": "550fe9433526180855d697dcf8c1f5306209b065",
+      "after": "217f5d9cb06a77364f21a8c8c8a29844a313e914",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:04.196890+00:00",
+      "before": "217f5d9cb06a77364f21a8c8c8a29844a313e914",
+      "after": "8994b8dd701ad8ffcfdfad965bfef75d56faffd8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:04:07.864543+00:00",
+      "before": "8994b8dd701ad8ffcfdfad965bfef75d56faffd8",
+      "after": "058826cde1c95cccf746d0eaba1e375f2af3813d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:11.450075+00:00",
+      "before": "058826cde1c95cccf746d0eaba1e375f2af3813d",
+      "after": "01644bab389fa8ecb0e5a93411557532bfb1e03f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:13.514322+00:00",
+      "before": "01644bab389fa8ecb0e5a93411557532bfb1e03f",
+      "after": "1687ec9fb5f803c5b6100a87f968274bad451f6d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:16.515327+00:00",
+      "before": "1687ec9fb5f803c5b6100a87f968274bad451f6d",
+      "after": "02b65f029f03a6d53280ba7ee15d3c8cdaf3130d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:19.504207+00:00",
+      "before": "02b65f029f03a6d53280ba7ee15d3c8cdaf3130d",
+      "after": "62f6df2130f10b846158eee3eaee8426144be430",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:23.581323+00:00",
+      "before": "62f6df2130f10b846158eee3eaee8426144be430",
+      "after": "6950d3790676e3069eceb2aa31d16f057c8ceaba",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:25.648824+00:00",
+      "before": "6950d3790676e3069eceb2aa31d16f057c8ceaba",
+      "after": "336d333dcd3109ad547fc70b45f09c6f70b7256b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:34:30.108687+00:00",
+      "before": "336d333dcd3109ad547fc70b45f09c6f70b7256b",
+      "after": "39d8d5d7511173a6939fd1d432b952e6d7ce22cd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:34:32.277993+00:00",
+      "before": "39d8d5d7511173a6939fd1d432b952e6d7ce22cd",
+      "after": "a7dfbf3893f64c5f8548e31adb45a2e66cb2ab63",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:44:36.509508+00:00",
+      "before": "a7dfbf3893f64c5f8548e31adb45a2e66cb2ab63",
+      "after": "46dd1df8ffbfdcf317656a7ffdce76c83131c350",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:44:38.623942+00:00",
+      "before": "46dd1df8ffbfdcf317656a7ffdce76c83131c350",
+      "after": "8f08cecdef642dd63bb7f664d47bbaeda3437a5d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:54:44.303076+00:00",
+      "before": "8f08cecdef642dd63bb7f664d47bbaeda3437a5d",
+      "after": "e7fa3d889591f61b7768dd8c87527f490336cfae",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:54:46.259076+00:00",
+      "before": "e7fa3d889591f61b7768dd8c87527f490336cfae",
+      "after": "7dd1f2dc449ec9eec5a13d1feb05493ddeae8dc8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:54:48.282852+00:00",
+      "before": "7dd1f2dc449ec9eec5a13d1feb05493ddeae8dc8",
+      "after": "e68db21d1cfa8732485615d50701d71bfc943d3a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:54:51.433138+00:00",
+      "before": "e68db21d1cfa8732485615d50701d71bfc943d3a",
+      "after": "13e22f749f0ff40ba46fce51f63d96a0a574308f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:04:55.937288+00:00",
+      "before": "13e22f749f0ff40ba46fce51f63d96a0a574308f",
+      "after": "a875e4030c7bf056f6fcc402cde67c31892b970e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:16:46.747647+00:00",
+      "before": "a875e4030c7bf056f6fcc402cde67c31892b970e",
+      "after": "89d239f52ecb404e7d4a45bbb2ed9d75c34b2872",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:16:49.236594+00:00",
+      "before": "89d239f52ecb404e7d4a45bbb2ed9d75c34b2872",
+      "after": "349b89e1c08209b1a994eb93cc39031fc772feb6",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:26:53.974599+00:00",
+      "before": "349b89e1c08209b1a994eb93cc39031fc772feb6",
+      "after": "32a2bb99c2151d76a621de91e679128f4e1363a0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:26:56.905245+00:00",
+      "before": "32a2bb99c2151d76a621de91e679128f4e1363a0",
+      "after": "71fc8077d83c5adad696bf65c10b7b1b563b8ea2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:37:04.227400+00:00",
+      "before": "71fc8077d83c5adad696bf65c10b7b1b563b8ea2",
+      "after": "e4f7cdd7f57a5127e22890d722b959657a416e07",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:39:32.496248+00:00",
+      "before": "e4f7cdd7f57a5127e22890d722b959657a416e07",
+      "after": "f79a02de25a789d6bf1c7046b9db855226a59c35",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:39:35.117465+00:00",
+      "before": "f79a02de25a789d6bf1c7046b9db855226a59c35",
+      "after": "cf0e519210820bae1bc817fdee9e76e699e5642c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T23:43:57.159731+00:00",
+      "final": false,
+      "commit": "f42737be95936dfcdcea3137c7559789466525c8"
+    },
+    {
+      "time": "2026-11-14T23:54:05.754336+00:00",
+      "final": false,
+      "commit": "ef582c75043a69847c5e82beac57c445fbfd4405"
+    },
+    {
+      "time": "2026-11-15T00:04:09.429778+00:00",
+      "final": false,
+      "commit": "686123eec45895657e595f082b4fe57f802302c8"
+    },
+    {
+      "time": "2026-11-15T00:14:21.041133+00:00",
+      "final": false,
+      "commit": "302e9a6c43e1e4d2841aac634371dd21a25dc0e4"
+    },
+    {
+      "time": "2026-11-15T00:24:27.189819+00:00",
+      "final": false,
+      "commit": "18c30242237c2e57c27e0b02089b309ddf4ada2c"
+    },
+    {
+      "time": "2026-11-15T00:34:34.013402+00:00",
+      "final": false,
+      "commit": "9650e9523eaf6d6ebb493fe993e3877cda72012a"
+    },
+    {
+      "time": "2026-11-15T00:44:40.327527+00:00",
+      "final": false,
+      "commit": "14a1e62221931c339d6e50e7067c91dc161d4823"
+    },
+    {
+      "time": "2026-11-15T00:54:52.936067+00:00",
+      "final": false,
+      "commit": "f0b192625694830408ce8e487d597aefef366272"
+    },
+    {
+      "time": "2026-11-15T01:04:57.981902+00:00",
+      "final": false,
+      "commit": "14eb6fd77c652b569fceeb3b683eb26f689b0839"
+    },
+    {
+      "time": "2026-11-15T01:16:51.209888+00:00",
+      "final": false,
+      "commit": "457bc2278177088e7170109289e8aa7dfe9b4ffc"
+    },
+    {
+      "time": "2026-11-15T01:26:58.512160+00:00",
+      "final": false,
+      "commit": "cf9bff7839b9d4e4611f8329022fd9d472163c1f"
+    },
+    {
+      "time": "2026-11-15T01:37:06.122546+00:00",
+      "final": false,
+      "commit": "6b251ed7a6a8e035d61032bcece5cd85e26006c3"
+    },
+    {
+      "time": "2026-11-15T01:39:34.593505+00:00",
+      "final": false,
+      "commit": "cf0e519210820bae1bc817fdee9e76e699e5642c"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "range",
+  "group": 1,
+  "original_projector_run": 43594139132,
+  "original_same_F_pilot_run": 43648579604,
+  "original_successful_F_or_Gram_cells_recomputed": 0,
+  "original_target_or_validator_calls": 0,
+  "all_original_Q_and_R_endpoint_bytes_required": true,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "8d334ee75c0cf78a13b31483ceb495194c73e7cbcf57c1eeec3f447da17cab19",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "original32_failure_receipt_sha256": "61b23116289a18ee6fac5d9afa9df85d2f33cf9ad0f67b87d8d5a6783a3142bc",
+  "original_failed_complete_matrix_cells": 0,
+  "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
+  "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
+  "last_read_commit": "cf0e519210820bae1bc817fdee9e76e699e5642c",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
+  "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "exact_requested_group": {
+    "end": 384,
+    "exact_new_indices": [
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383
+    ],
+    "first": 192,
+    "group": 1,
+    "new_cells": 192,
+    "reused_pilot_indices": [],
+    "slice_id": 0
+  },
+  "original_empty_failed_range_native_sha256": "dc228ecfc0ede41f5299c405b063233779c8471f1f1a0f302650bf83d1fb61c0",
+  "snapshot_utc": "2026-11-15T01:39:35.145570+00:00",
+  "wall_seconds": 6971.653200869,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 3934,
+      "sha256": "85ab3b1bedbc5363997941c6e2d23bd72f928e88fe1fc0966b67ba0dac9b4165"
+    },
+    {
+      "logical_file": "evidence/complete-range-matrix-summary.json",
+      "file": "evidence/complete-range-matrix-summary.json",
+      "bytes": 4293,
+      "sha256": "b90832de0ffdf680c06f71e9e69559398fc3e82e39053019ef8765b0c7aaa844"
+    },
+    {
+      "logical_file": "evidence/original-empty-range-outcome.json",
+      "file": "evidence/original-empty-range-outcome.json",
+      "bytes": 701,
+      "sha256": "c73e13f3f9522308f361ac2f76d9410bdd00e50c212eb1891e5cc033cb4b13be"
+    },
+    {
+      "logical_file": "evidence/original-empty-range-process.json",
+      "file": "evidence/original-empty-range-process.json",
+      "bytes": 21707,
+      "sha256": "3fc8ad70a74b9e501a5bff5b288f0c75775f6f5115655e54dcb66d06a488d025"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-000.json",
+      "file": "evidence/scientific-array-origin-inventory-000.json",
+      "bytes": 30451,
+      "sha256": "a440f16cfcd37cf1a774bb605b05265c7fceef38c1b0e2a45ae3a22814f2e625"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-001.json",
+      "file": "evidence/scientific-array-origin-inventory-001.json",
+      "bytes": 30453,
+      "sha256": "15b790418a2ddf0bc6c4fadc76edce7fb8d0dd5a3c641a94c0c90fa4bf5ed7ce"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-002.json",
+      "file": "evidence/scientific-array-origin-inventory-002.json",
+      "bytes": 30454,
+      "sha256": "964a33efc49d39dd7a2634fab4d1013af29897bf7ecd54fdb930f1c03b2ffad1"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-003.json",
+      "file": "evidence/scientific-array-origin-inventory-003.json",
+      "bytes": 30454,
+      "sha256": "b62cf22e7423962402e567a97a85f8f53bbae25bf77d5bf97978cfe9b568c914"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-004.json",
+      "file": "evidence/scientific-array-origin-inventory-004.json",
+      "bytes": 30454,
+      "sha256": "692ae9e028bfb250392b806a145a111e98e06481c7f6258ed0ab8638c15d9233"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-005.json",
+      "file": "evidence/scientific-array-origin-inventory-005.json",
+      "bytes": 30454,
+      "sha256": "91841002caec68fc54d0eb63b04933dc9d4157cad73e092e7b9be6a1c733b394"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-006.json",
+      "file": "evidence/scientific-array-origin-inventory-006.json",
+      "bytes": 651,
+      "sha256": "fa203c54d9f57dab5570f21a4ef50df48ed17724cd144ffec5e0b7e988664873"
+    },
+    {
+      "logical_file": "evidence/selected-actual-matrix-row-budgets.json",
+      "file": "evidence/selected-actual-matrix-row-budgets.json",
+      "bytes": 6444,
+      "sha256": "4f5fedc1d44bb75ff94e6a8cc0788abf7a3b60891ececa58af614837a68f8d91"
+    },
+    {
+      "logical_file": "native/complete-same-F-range-01.json.gz",
+      "file": "native/complete-same-F-range-01.json.gz",
+      "bytes": 1590415,
+      "sha256": "57a7aeee07047a7fcf69369dd6ad017ab3ef572c86ee621c5fa0909cb2b24028"
+    }
+  ],
+  "complete_native_sha256": "57a7aeee07047a7fcf69369dd6ad017ab3ef572c86ee621c5fa0909cb2b24028",
+  "actual_scientific_gates": 13,
+  "actual_complete_local_matrix_cells": null,
+  "actual_new_matrix_cells_this_child": 192,
+  "complete_local_matrix_cells": 192,
+  "original_complete_success_reused_without_child": false,
+  "all_matrix_array_bytes_remain_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-15T01:39:34.820415+00:00"
+}

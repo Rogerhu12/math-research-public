@@ -1,0 +1,758 @@
+{
+  "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43654510038",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "f42ded4aac8463083fa2dc5209c16de42f0965d7",
+  "worker_source_sha256": "71b203d54afc982de4ac762a7486cd99bde7acbd9ca50d7ca9c486a283c1326b",
+  "started_utc": "2026-11-14T23:43:26.252807+00:00",
+  "children": [
+    {
+      "label": "new_missing_canonical_same_F_matrices_and_complete_directional_Grams",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_same_F_directional_matrices_v2.py",
+        "--phase",
+        "range",
+        "--bits",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-complete-same-F-output/native/complete-same-F-range-03.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-exact5970-same-F-disjoint-plan.json.gz",
+        "--group",
+        "3",
+        "--reference-artifact",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/reference",
+        "--frame-slice",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/frames",
+        "--arrays",
+        "/__w/_temp/visible-exact-complete-same-F-output/matrices",
+        "--profile",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
+      ],
+      "started_utc": "2026-11-14T23:44:00.512211+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5903.057305173,
+      "finished_utc": "2026-11-15T01:22:23.569936+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:43:27.645553+00:00",
+      "before": "ea21df64f3250d3055842dd27f93fb10628128ff",
+      "after": "096c40af0d823107ddb32857c22770b6e79080f0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:28.754113+00:00",
+      "before": "096c40af0d823107ddb32857c22770b6e79080f0",
+      "after": "73fbedec33effa0671e84290e8404ac042931068",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:31.892794+00:00",
+      "before": "73fbedec33effa0671e84290e8404ac042931068",
+      "after": "4c4981ece2efd91c619c8768ef26b046aba77f10",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:34.092501+00:00",
+      "before": "4c4981ece2efd91c619c8768ef26b046aba77f10",
+      "after": "aea05d6f1a20ed4f5f96f4cfb369700c12a6d4f5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:36.223878+00:00",
+      "before": "aea05d6f1a20ed4f5f96f4cfb369700c12a6d4f5",
+      "after": "222804acd2dce179f3c82749b3f3e57b6d6521a3",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:39.341455+00:00",
+      "before": "222804acd2dce179f3c82749b3f3e57b6d6521a3",
+      "after": "4a5a1df1eadf2e3ac16cd167287fe1926fe5db7c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:42.441536+00:00",
+      "before": "4a5a1df1eadf2e3ac16cd167287fe1926fe5db7c",
+      "after": "0337425a9c0e4e63be0627b2137b98ee82750c23",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:44.562337+00:00",
+      "before": "0337425a9c0e4e63be0627b2137b98ee82750c23",
+      "after": "6c28a88bc914725c7aa5ee238615fca9f82f5458",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:47.647237+00:00",
+      "before": "6c28a88bc914725c7aa5ee238615fca9f82f5458",
+      "after": "f1a142f883d2c8832cd2b7c13f0b9e9dc8c4d0cc",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:50.745760+00:00",
+      "before": "f1a142f883d2c8832cd2b7c13f0b9e9dc8c4d0cc",
+      "after": "d6d3a193dc5629dfd6f9634c4a488c602e12de33",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:53.774381+00:00",
+      "before": "d6d3a193dc5629dfd6f9634c4a488c602e12de33",
+      "after": "16485393fc1b8c92a842e0ed43c2b684df704930",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:56.802996+00:00",
+      "before": "16485393fc1b8c92a842e0ed43c2b684df704930",
+      "after": "6ddc70c695b75f5b25ecceeac0e6cc8718b675bf",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:43:59.022743+00:00",
+      "before": "6ddc70c695b75f5b25ecceeac0e6cc8718b675bf",
+      "after": "59fd1a592ddbfde4686d12384f4e581cb6ef7662",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:04.059809+00:00",
+      "before": "59fd1a592ddbfde4686d12384f4e581cb6ef7662",
+      "after": "2c38ad4a24edbd02d49695b89120573c0d1fe4ad",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:06.518291+00:00",
+      "before": "2c38ad4a24edbd02d49695b89120573c0d1fe4ad",
+      "after": "5779c2ba4ef0fca53d6e54eb090c49a94e0d3a65",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:08.858290+00:00",
+      "before": "5779c2ba4ef0fca53d6e54eb090c49a94e0d3a65",
+      "after": "357d2340dfc9974b4c60be0789b03edac4cb73c8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:11.169251+00:00",
+      "before": "357d2340dfc9974b4c60be0789b03edac4cb73c8",
+      "after": "245fc4783d585e4db3614ad4782d254691c58df8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:54:14.425683+00:00",
+      "before": "245fc4783d585e4db3614ad4782d254691c58df8",
+      "after": "f6e24527e9eec26617445b9451414a3c86b6cc97",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:04:18.733447+00:00",
+      "before": "f6e24527e9eec26617445b9451414a3c86b6cc97",
+      "after": "462871068705dc5a6dd6d8b7aed58c5007bfd90f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:04:21.300143+00:00",
+      "before": "462871068705dc5a6dd6d8b7aed58c5007bfd90f",
+      "after": "b89d4fc0994566382ad32dbc415ff628d861ed3b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:04:24.439604+00:00",
+      "before": "b89d4fc0994566382ad32dbc415ff628d861ed3b",
+      "after": "1d5efcbebd4c0c777155c07c407116e5834f4512",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:29.089377+00:00",
+      "before": "1d5efcbebd4c0c777155c07c407116e5834f4512",
+      "after": "5d6ca6a2f0c2c533421f82013d47c6fe7434a6ea",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:31.711865+00:00",
+      "before": "5d6ca6a2f0c2c533421f82013d47c6fe7434a6ea",
+      "after": "e83ff44209f34276e2b99193436b46e98268bb4a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:14:34.283503+00:00",
+      "before": "e83ff44209f34276e2b99193436b46e98268bb4a",
+      "after": "cfb69b54f40ca72162e3feefdbcc7b5fceb1922c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:39.714905+00:00",
+      "before": "cfb69b54f40ca72162e3feefdbcc7b5fceb1922c",
+      "after": "9b9f555ab4a887ec76859ff8a9b71f8ec17022d3",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:42.269546+00:00",
+      "before": "9b9f555ab4a887ec76859ff8a9b71f8ec17022d3",
+      "after": "b9aa61ac8f605afdd35f6476c5d032caaa6a3ed4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:44.710538+00:00",
+      "before": "b9aa61ac8f605afdd35f6476c5d032caaa6a3ed4",
+      "after": "86e877ee2bb50c1128ced08f4bf75ce1efc68e64",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:24:47.771782+00:00",
+      "before": "86e877ee2bb50c1128ced08f4bf75ce1efc68e64",
+      "after": "f5e0782b0dd95f1f9221a1ae3a2f2585427451fa",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:34:53.706793+00:00",
+      "before": "f5e0782b0dd95f1f9221a1ae3a2f2585427451fa",
+      "after": "24f84bffe9201c379bff92593a7a0a97d21cb475",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:44:58.991481+00:00",
+      "before": "24f84bffe9201c379bff92593a7a0a97d21cb475",
+      "after": "f550b378e03ffbc39d2b04dbdd6c146e799cabff",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:45:01.639660+00:00",
+      "before": "f550b378e03ffbc39d2b04dbdd6c146e799cabff",
+      "after": "774ff6b09baf4e5948d1fd764e9da7d23c0d799a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:55:08.278239+00:00",
+      "before": "774ff6b09baf4e5948d1fd764e9da7d23c0d799a",
+      "after": "436df4125a43e5d781f030249d3b4cec4ead0058",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T00:55:10.980536+00:00",
+      "before": "436df4125a43e5d781f030249d3b4cec4ead0058",
+      "after": "a1c0d69f6f50d09d6d8378ce31079ea060655b98",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:05:16.448309+00:00",
+      "before": "a1c0d69f6f50d09d6d8378ce31079ea060655b98",
+      "after": "746f336106993bb76b50892f1a39e5e3b709e88d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:05:19.634611+00:00",
+      "before": "746f336106993bb76b50892f1a39e5e3b709e88d",
+      "after": "03bdd64f1a575fa09338d265289dc7b7494764e5",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:05:22.912095+00:00",
+      "before": "03bdd64f1a575fa09338d265289dc7b7494764e5",
+      "after": "ea65f758b910589c7fb9f3fba8664e0767e60a1a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:17:13.632214+00:00",
+      "before": "ea65f758b910589c7fb9f3fba8664e0767e60a1a",
+      "after": "7fcf2d042d16b0d9ac48dd95c4941175daac5a9c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:17:16.781568+00:00",
+      "before": "7fcf2d042d16b0d9ac48dd95c4941175daac5a9c",
+      "after": "a40cb1def8c349856452a43bf1f980f85de0c351",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:22:25.639973+00:00",
+      "before": "a40cb1def8c349856452a43bf1f980f85de0c351",
+      "after": "523f595de601e3bf92ed5e8108b95d598c85f86e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:22:28.537019+00:00",
+      "before": "523f595de601e3bf92ed5e8108b95d598c85f86e",
+      "after": "bfce21f35f1eed201255f9aac9b03a9f6cb457d9",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T23:44:00.510044+00:00",
+      "final": false,
+      "commit": "3989ebd5f5748f5db926378525fcf07aaa94a19f"
+    },
+    {
+      "time": "2026-11-14T23:54:16.036217+00:00",
+      "final": false,
+      "commit": "4f361fbe220b0189c656a178aa8a2eaf72f0d935"
+    },
+    {
+      "time": "2026-11-15T00:04:26.141006+00:00",
+      "final": false,
+      "commit": "e3206e7c32a8be9b511e5308e1fc85341663b079"
+    },
+    {
+      "time": "2026-11-15T00:14:36.092005+00:00",
+      "final": false,
+      "commit": "aba95b561e0a178e9da4e5a55e3c933687549998"
+    },
+    {
+      "time": "2026-11-15T00:24:49.694835+00:00",
+      "final": false,
+      "commit": "9e56f8cb7ac698e6aae8ff6c3a3e1f21de8cf5a9"
+    },
+    {
+      "time": "2026-11-15T00:34:55.668361+00:00",
+      "final": false,
+      "commit": "0bf167ae446ca9e0cd0ee7cab7f7fd30f1f56f98"
+    },
+    {
+      "time": "2026-11-15T00:45:03.492358+00:00",
+      "final": false,
+      "commit": "97f93fd585302d68f0f459ec2090e0005bbbb55e"
+    },
+    {
+      "time": "2026-11-15T00:55:12.888603+00:00",
+      "final": false,
+      "commit": "9c01a38777cf008b25614b37cf5c1a1dfd946f27"
+    },
+    {
+      "time": "2026-11-15T01:05:24.624025+00:00",
+      "final": false,
+      "commit": "45cb322a8cb61283f0f8af5e4d58049589ddc59b"
+    },
+    {
+      "time": "2026-11-15T01:17:18.558779+00:00",
+      "final": false,
+      "commit": "b5c4da4c7db72351778d01f4706c822728b02cf2"
+    },
+    {
+      "time": "2026-11-15T01:22:27.846182+00:00",
+      "final": false,
+      "commit": "bfce21f35f1eed201255f9aac9b03a9f6cb457d9"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "range",
+  "group": 3,
+  "original_projector_run": 43594139132,
+  "original_same_F_pilot_run": 43648579604,
+  "original_successful_F_or_Gram_cells_recomputed": 0,
+  "original_target_or_validator_calls": 0,
+  "all_original_Q_and_R_endpoint_bytes_required": true,
+  "full_two_boundary_directional_Green_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "8d334ee75c0cf78a13b31483ceb495194c73e7cbcf57c1eeec3f447da17cab19",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "original32_failure_receipt_sha256": "61b23116289a18ee6fac5d9afa9df85d2f33cf9ad0f67b87d8d5a6783a3142bc",
+  "original_failed_complete_matrix_cells": 0,
+  "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
+  "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
+  "last_read_commit": "bfce21f35f1eed201255f9aac9b03a9f6cb457d9",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
+  "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "exact_requested_group": {
+    "end": 768,
+    "exact_new_indices": [
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750,
+      751,
+      752,
+      753,
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767
+    ],
+    "first": 576,
+    "group": 3,
+    "new_cells": 192,
+    "reused_pilot_indices": [],
+    "slice_id": 1
+  },
+  "original_empty_failed_range_native_sha256": "c86210e5f09e67f6551992a41fd0feeb0d876e3319deb531e100c2369957d4e3",
+  "snapshot_utc": "2026-11-15T01:22:28.568304+00:00",
+  "wall_seconds": 5942.315981679,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 3934,
+      "sha256": "60755eef06c6415b6e9ececc86a3f71b455efc9dba796827f66775bd86059faf"
+    },
+    {
+      "logical_file": "evidence/complete-range-matrix-summary.json",
+      "file": "evidence/complete-range-matrix-summary.json",
+      "bytes": 4268,
+      "sha256": "0d69143ffee761e9cdd2610663f9a2704288301e87b6386f3ecf148de29718da"
+    },
+    {
+      "logical_file": "evidence/original-empty-range-outcome.json",
+      "file": "evidence/original-empty-range-outcome.json",
+      "bytes": 701,
+      "sha256": "10729bb8b2b984769ceb69f3cb1aea621cb2e593aea1bdc0d8b1693c9fec412a"
+    },
+    {
+      "logical_file": "evidence/original-empty-range-process.json",
+      "file": "evidence/original-empty-range-process.json",
+      "bytes": 10163,
+      "sha256": "6c3c695360e2ce197a745386b52fadd4ed2d035c3dcb8ac5ae0548d32abea9bf"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-000.json",
+      "file": "evidence/scientific-array-origin-inventory-000.json",
+      "bytes": 30451,
+      "sha256": "9507e33f50ba37fc950d0f710f642c415946d100404a509465d8adc971cb3c12"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-001.json",
+      "file": "evidence/scientific-array-origin-inventory-001.json",
+      "bytes": 30453,
+      "sha256": "016f666c3cafff2e1321e6d42109c1df2ed16d4d4b8059157a6dadbe6babfba5"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-002.json",
+      "file": "evidence/scientific-array-origin-inventory-002.json",
+      "bytes": 30454,
+      "sha256": "06ef9f3d0e18b47fc11e4ba091c6a1f338a5e513d203822a87f88ccf3a85ace2"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-003.json",
+      "file": "evidence/scientific-array-origin-inventory-003.json",
+      "bytes": 30454,
+      "sha256": "b0899d99711d15c55525e300dc24e5b5488283d21640f3518393adbf3b9c70a3"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-004.json",
+      "file": "evidence/scientific-array-origin-inventory-004.json",
+      "bytes": 30454,
+      "sha256": "d5225f3b57d24c35c39a2d7654908f352470a0b73b461ffd1c2eaa3954a3e548"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-005.json",
+      "file": "evidence/scientific-array-origin-inventory-005.json",
+      "bytes": 30454,
+      "sha256": "dc12b9568bd71ff01f518e05b864553e60d71bf0819036d3c84af74982288fcd"
+    },
+    {
+      "logical_file": "evidence/scientific-array-origin-inventory-006.json",
+      "file": "evidence/scientific-array-origin-inventory-006.json",
+      "bytes": 651,
+      "sha256": "03c42c1db8a485a575af1b8db8d0ffd8f0a699e398abd6bdb57439d4bd44ab40"
+    },
+    {
+      "logical_file": "evidence/selected-actual-matrix-row-budgets.json",
+      "file": "evidence/selected-actual-matrix-row-budgets.json",
+      "bytes": 6429,
+      "sha256": "04597629f75ae890f1a68200ddf54ba0e10cdcfcd0d129b0e595f7bab017b1e3"
+    },
+    {
+      "logical_file": "native/complete-same-F-range-03.json.gz",
+      "file": "native/complete-same-F-range-03.json.gz",
+      "bytes": 1556758,
+      "sha256": "afb12f961a253ee0705a5bb2e33d08655fa1ddd4a138290c120a918bc581ec4d"
+    }
+  ],
+  "complete_native_sha256": "afb12f961a253ee0705a5bb2e33d08655fa1ddd4a138290c120a918bc581ec4d",
+  "actual_scientific_gates": 13,
+  "actual_complete_local_matrix_cells": null,
+  "actual_new_matrix_cells_this_child": 192,
+  "complete_local_matrix_cells": 192,
+  "original_complete_success_reused_without_child": false,
+  "all_matrix_array_bytes_remain_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-15T01:22:28.084280+00:00"
+}
