@@ -251,3 +251,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R836](results/R836-original-restricted-euler-values-and-three-long-kernel-presentation.md)：在原同WD返回/三真长窗及3b<p下，全D3余核H3^0/F0H2^0长z_-≤2，但高前缀须先解A_T(V)=[D3V]模ev_Z(V_T)。唯一V1由同H2实现，两值固定后自由恰F²H1；第三行准确为单位c_F乘同H1的3η镜轴单射，给K3≅kerΘ_T。第四短长恰max(ell−r,0)，同一G再读E³；指定forcing另保w^(13+r)低行、真实仿射截面纤维及同一V/V1/L/G。旧全部q t^rFB族排除，不声称实际余类非零或全WD核消失。
+
+
+[四原对角的完整有理分部边界](notes/2026-11-15-original-four-diagonals-rational-telescoping-boundary.md)：在F=C(E)(Z), DZ=1中，两周期Legendre关系排−x的有理primitive，域迹排全部有限代数primitive；因而F[ζ]无有限Darboux除子，任意ζ有理分母和最高次项均排除(D+2nζ+2ny/x)V=f∈F非零。四原tPν与Z^(−p−2)、完整角换元都保；仅排特征零同charge有理分部，不能删原伴随第二项，不排p依赖Frobenius或证明指定α非零。

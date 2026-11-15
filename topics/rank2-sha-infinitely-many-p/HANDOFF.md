@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：c3cce53015c7783a36102bfc5961cddaafa9b817；2026-11-15 22:56:18 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
+- 最近已读规则提交：ba4c2a2ca9333a514150847ea929a15b2765287d；2026-11-15 23:06:45 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -34,6 +34,7 @@ R821新V66/charge33/17仍在旧B33；Hurwitz八权降四权、裸(4,−6,8,−6)
 R824同G0/charge40的k=r+13+2h−s<13首单位6a²C0u²e²；k13原WD零角二次帽左行配对36a⁻¹C0u²e²，可提升须r+2h≥s+1。同R分支28/−11/3、native ξ先保后消；一般N纯幂最优主比2(N−2)/(N−1)<2。
 R828全精度高轴两参数、低卷积/Fermat p⁴进位及真实w整三角给u*=a_pv+χ2z。四中央必要b+a_pB4v+χ2B4z=0。[d运输](notes/2026-11-15-r828-complete-d-reference-transport.md)同charge整列恒等给bΘ=b+χ2B4z，βΘ°=β°+χ2ΣzL、βact=βΘ°+a_pΣvL。真实native Schur/同K1/C1全保，不称χ2落im M。
 [全低核反射](notes/2026-11-15-original-first-diagonal-full-reversal-and-rh-convolution.md)：rN−j=rN·j!/(3/2)j，完整R_NH卷积=3rN q_p(3)/8；四α仍保Θ^nP/H完整伴随式与第二项。不能以RH/q_p(3)替实际bΘ；原四charge17/36/68/33。
+[有理分部边界](notes/2026-11-15-original-four-diagonals-rational-telescoping-boundary.md)：Legendre/域迹排−x代数primitive，Darboux与最高ζ项排四原同charge有理证书；只限特征零，不代实际α非零，p依赖Frobenius层继续。
 R834原Γ4三长窗T=T_M=s−r−13，h<T≤2h、T>2κ，全I=FH2+eH2单射；原qsrc/总charge40/unit三角及39carry保持，unit秩≥1+(7κ+3χ)/2。贴边s=2h+r需h≥max(14,κ+7)。全H3核注入V_T=H0N³(−TP)再入原Z。
 [全H3秩增补](notes/2026-11-15-r834-three-long-unit-rank-bound.md)：unit秩≥1+2κ+χ+T−C(G_F,T−2κ−χ,a+b)，R805全profile属界/全部复合次数保。h/κ→9/8、T/κ→9/4、a+b+z+χ=oκ时≥199κ/48+oκ，占H3的199/216。仅已付同WD返回子格；不改Bost(0,3)或付全lifting。
 R836已付K3≅kerΘ_T：3b<p，全D3余核H3^0/F0H2^0长z_-≤2；V0须解A_T，唯一V1由同H2实现，余自由恰F²H1。第三长行=c_F·L(ψe^{3η})且同H1评价单射，第四短长max(ell−r,0)只读同一G。指定forcing先验w^(13+r)低行，再解真实仿射V/V1及唯一L、第四行；旧R741全部q t^rFB族排除。实际余类非零、中央→深核、全WD和全部高位仍开。
