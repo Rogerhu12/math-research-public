@@ -275,3 +275,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ### 2026-11-15 R286原连续metric完整证明
 
 [R286](results/R286-original-stored-continuous-integral-and-metric-bridge.md)全文已读并直接登记：明确C模型语义、全部六primitive共同累计、正warp的q/D cusp消去、原准确深根族及E二阶平圆领极限；保内保护端实际兼容、冻结lambda自然Rout和完整材料pullback。给闭panel积分/深尾/真逆像以及原有限输出的实际误差桥，不假定48有限selector连续或G8/G16差有误差保证。未本地运行任何科学，无实际E区间、闭场或阈值证书；直接接独立连续E producer，不增加fixture/审批门。
+
+### 2026-11-15 九控制同worker H(s)及独立运行读回源码
+
+[完整入口](notes/2026-11-15-nine-control-same-worker-height-path-full112-interface.md)0433e101和[runner/reader](notes/2026-11-15-nine-control-height-path-runner-and-readout-interface.md)d075af46/c756ede7全文差异及两接口已读，原00e4数学函数/e830策略/453方形与全部原门保持。新薄runner保单一300min截止和进程组，reader只原字段/身份，不以过程成功冒科学。无本地科学或fixture，旧源不改；128将从127真实第8末点明确λ=.001提出完整非零实验。H按当前责任压缩，保全部正在运行、已结清/删失现场和未付门。
