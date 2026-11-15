@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：710720bf4075a7c952e0d72159523e6a02689770；2026-11-15 23:50:46 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
+- 最近已读规则提交：22f52be78e29cc9bf499e7e0462bc545d0d2c951；2026-11-15 23:51:18 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -14,7 +14,7 @@
 [本次压缩前全文](notes/2026-11-15-frontier-before-common-cartier-trace.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–838已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R838已付，其后编号由root协调。结论成即分别推。
-实际pull23:16:07/run43773875458/job132995582097，两README差异空；回执ci/rule-pull-20261115T231607.json。下一00:00前。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
+实际pull23:16:07/run43773875458/job132995582097，两README差异空；回执ci/rule-pull-20261115T231607.json。下一00:00前；23:51已触发新实际pull，待run回执。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
 

@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261115T2316-rule-pull",
-  "utc": "2026-11-15 23:15:54 UTC",
-  "last_rules_read": "0125a288b2113d525b40ac099abee22a11e903e6",
-  "reason": "Perform actual git pull --rebase, read only both README diffs, and inventory rule-15 storage before the 23:25 deadline; prior ref rejection was retried non-forcing after local pull failed to spawn."
+  "request_id": "rank2-20261115T2351-rule-pull",
+  "utc": "2026-11-15 23:51:18 UTC",
+  "last_rules_read": "f264e6106bf2116f418364db4a8f9e1883800260",
+  "reason": "Perform actual git pull --rebase, inspect only both README diffs, and inventory rule-15 storage before the 00:00 deadline."
 }
