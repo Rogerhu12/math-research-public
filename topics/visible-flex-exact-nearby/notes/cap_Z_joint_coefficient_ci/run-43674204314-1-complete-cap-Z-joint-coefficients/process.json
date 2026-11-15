@@ -8,7 +8,28 @@
   "workflow_commit": "eca7a66290928a339efeefc4e36f9ec843198efa",
   "worker_source_sha256": "4dd0af86d323ebfecb22060b80e2c5cee8da54d5696255fd560a0e52b87a09d2",
   "started_utc": "2026-11-15T03:51:55.271252+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "complete_cap193_coefficientwise_Bernstein_and_joint_norms",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap-Z-joint-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_Z_joint_coefficient_bounds.py",
+        "--index",
+        "/__w/_temp/visible-exact-cap-Z-joint-work/science/topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+        "--parts-dir",
+        "/__w/_temp/visible-exact-cap-Z-joint-artifact/original-data",
+        "--direction-native",
+        "/__w/_temp/visible-exact-cap-Z-joint-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+        "--out",
+        "/__w/_temp/visible-exact-cap-Z-joint-artifact/native/complete-cap-Z-joint-coefficients.json.gz"
+      ],
+      "started_utc": "2026-11-15T03:52:06.409606+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000651038,
+      "finished_utc": "2026-11-15T03:52:16.410555+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T03:51:55.620361+00:00",
@@ -25,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:52:17.185940+00:00",
+      "before": "eca7a66290928a339efeefc4e36f9ec843198efa",
+      "after": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T03:52:06.407916+00:00",
+      "final": false,
+      "commit": "47859b3ccd6908e2b1f7783ddb490a90cae42c78"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -52,11 +87,17 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "eca7a66290928a339efeefc4e36f9ec843198efa",
+  "last_read_commit": "8adc3251a8fe2ee7bcbc5d6d8381631b1558141e",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap-Z-joint-work/science",
-  "snapshot_utc": "2026-11-15T03:52:04.954471+00:00",
-  "wall_seconds": 9.683615928999998,
+  "snapshot_utc": "2026-11-15T03:52:17.192744+00:00",
+  "wall_seconds": 21.921889346000015,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-cap-Z-joint-summary.json",
+      "file": "evidence/actual-latest-cap-Z-joint-summary.json",
+      "bytes": 17312,
+      "sha256": "5090df3b04567489462f1615cd1438e9d55b3d5fbc4978dc312b1ae1805d030b"
+    },
     {
       "logical_file": "evidence/original-prepared-artifact-receipt.json",
       "file": "evidence/original-prepared-artifact-receipt.json",
@@ -68,6 +109,14 @@
       "file": "evidence/original-two-cap-shard-selection.json",
       "bytes": 1288,
       "sha256": "5e68b0efd242fc6e978909bb5e94324c82cbedfc5d71e788a6203ba36178574b"
+    },
+    {
+      "logical_file": "native/complete-cap-Z-joint-coefficients.json.gz",
+      "file": "native/complete-cap-Z-joint-coefficients.json.gz",
+      "bytes": 71737,
+      "sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c"
     }
-  ]
+  ],
+  "actual_completed_cap_pieces": 660,
+  "latest_scientific_native_sha256": "dd236bb30e17ed457a45bd38a24ff3188d896562e5e2e4189d5f3a5579cdc39c"
 }
