@@ -145,3 +145,9 @@ Green根新增15:46:17 process94a54674/51599/de028e313f5840ee553ff14c24d5ac5573f
 ### 2026-11-15 15:50:45 UTC — AC 已成真实共轭下完整首系数H3收费
 
 newton给blob30591d2714e45dcad6ae2de1774a9b7e333466de /8974B/SHA6527fa46ddc21ed3d3e8c6ce4bb1f39f2db816d9fff5684e6daf4f30951c46f4。root全文亲核AC1–17，并全文回读已成真实strip a79a7ad7/6138/1e8d001a及primitive covariance 5a758bd3/7324/964537f7，原run43588332723/native dfb2a174不重新恢复或计算。degree-one H′ mean1，A1/128非均值<1/32付j′/j″/j‴≤4/1024/393216；完整逆密度三导矩阵行和2/10/2170/878994及dx=j dφ、H3 binomial权给3754263/4<2^20。输入必须c0−μj，μ=<c0>=<c>；有限rank和前strong余项另保。系数约定、原真实角只选定explicitfamily与隐式curvature角区别均核。新转换完成，actual完整c0/root/strict/waist端点与R0仍未给，不授GH或真core。最新只读READMEc727c474a85641d2a18aae2b779d03a968cb5ccf双blob同。
+
+### 2026-11-15 15:53:27 UTC — SP 实际完整primitive/两mean传播单条发表
+
+唯一push43731464771/1 job132864600910于15:43:30→15:44:26真实success；root亲取完整jobs3238B/7b2e0cd7ce5aa55223cae1a86605970bb42e0c9354f327aeebb23fb016486a84。child0/20门/math2.4845965279999973/wall3.2705140010000093；exec99985268/35259/a3a02969与rawreport5479ba5b/13189/6a1df053均完整亲读，科学参数semantic逐键等manifest（原序列化key顺序不同非参数变）；30pins/7AST、17natural和3旧ZIP逐SHA精确、原3071strict恢复不重算。新2804交格/5608正exp/1156compact/正反两乘序与所有endpoint/source行通过。root逐字核proof54fca854/24781/95d3abfe全部65球/64unique、rawreport同65/64均exec原字，无missing。正反norm约5.867923328/173.871626616，ordinary到waist144.136425183，root-jump2038.396873263；RJ31词读原字，完整source贡献765104227462.508958…；其余rootmixed/七port/角图/有限border/BVP选择和全strong仍待。
+
+真pull15:44:02.021422→3633及15:44:19.233625→2c95958aee5935384b62a04dcc5b07684d6ed2b9，双README空diff；capacity198655123→198703571，preGit37425/6bbdf0ee完整先打印。SCI/worker/manifest冻结，成功禁重。H压缩前57d56b4d同路径保PD完整细节和所有旧域；当前只读READMEbafa6f0440fd2695d021df75d79b7795f27ddd9e未变。

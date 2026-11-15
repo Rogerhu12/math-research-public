@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 SP 实际：完整primitive／均值严格传播与腰部读出](results/R133-supplement-actual-complete-primitive-and-mean-strict-propagation-to-the-waist.md)。43731464771/1 child0/20门/7AST成功；同fullδ的正反两状态传播、ordinary源和独立jump、真实ng/q及normalizer有序费用完成。正反范数<5.867924/173.871627，当前RJ整源到waist贡献<7.651043e11；不是全return/GH或边界选择。SHA95d3abfe8f05a14e15f1570f85b379a06120700c157549e9d1f507ade2ee58aa。
+
 - [R133 AC：经已成真实共轭的完整一阶系数H3转换](results/R133-supplement-actual-conjugacy-density-transfer-for-complete-first-coefficient.md)。从已成43588332723的真实H′ Wiener界纯解析付四导及真实density/mean转换，得到C≤2^20||c0−μH′||H3。完整c0函数仍待，非标量β或单半Xi替代。SHA256 6527fa46ddc21ed3d3e8c6ce4bb1f39f2db816d9fff5684e6daf4f30951c46f4。
 
 - [R133 NC：嵌套collar局部化与直接投影后一阶角迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)。有限次零阶局部化后，直接角导能量与双端FTC给完整五输入列的H1高迹；保actual drift、全mean、两截断费用和独立t1门。该迹不需8193插值，但不授low/core或独立tail高域。SHA256 558f47f743ccbfbb14c5305a56a699900e472b03183037951d0b26be33983df9。
