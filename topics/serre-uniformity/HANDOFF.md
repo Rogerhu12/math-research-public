@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：009c8a70d3e3033963eebe98b54d06a6577e2c06**（2026-11-15T22:18:46.599880+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态与pins逐字保于[R835前H](handoff-archive-2026-11-15-before-R835.md)及[R835前open](notes/2026-11-15-open-before-R835.md)，并串接全部旧归档。
+**已读规则提交：8920b38c011b2f90d5185f338c9b8008ef758950**（2026-11-15T22:20:16.077595+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态与pins逐字保于[R835前H](handoff-archive-2026-11-15-before-R835.md)及[R835前open](notes/2026-11-15-open-before-R835.md)，并串接全部旧归档。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -22,9 +22,9 @@
 [核格契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891/core414fef53/runner889cdf5e保全A1234×14/C1214×14相容、56×42残差/unit42逆/KH新全格、一次56LLL和原129×280出口；旧98拒绝默认不用。新格正在运行，尚无准确关系/y。
 旧430/42/56 LLL及固定C98全Ω非零已闭，不重跑；同C任意A全拒，不推430不足。新精度同D不代同C，旧拒绝默认不用；全部pins保[R835前H](handoff-archive-2026-11-15-before-R835.md)。
 
-**R815原425 CRT与三准确列**：[425断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保425prime/12707bits/Γ未始，深续算43748439850仍原80516/849bca27。[首列58拒](notes/R815-projective-first-prefix-ended-and-known-columns.md)、[两列49拒](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)已闭。
-[三列真实结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)43762388370/sourceca1fe0d5：三列2886同余/high6,7零过，d012=10238bits；四pairs28LLL/49正候选全首(0,0,2)残差非零。scan25非scope耗尽或Mg不存在；manifest0f2be930/198项、artifact14181118695/afe625bf。原D=d012·a已实施，不重Wvg/第三列/旧格/拒绝；新矩阵仍须原七点/cyclic/Γ。
-[八probe九维入口](notes/R815-original-eight-probe-common-denominator-lattice-method.md)3f11d09c/core49f8952f/runner5f0bc897、run43767171070/source278d1920：固定10/11/12/13/15/17/20/24，一次完整9DLLL、UH=R/detU±1；三列和49旧拒绝仅真实同D/M/known/W时引用，保持原七点/Γ。原198小源和两carrier续传，false FINAL不覆盖原子current；尚无新候选结果。
+**R815**：[425 CRT断点](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)保425prime/12707bits/Γ未始，原深续算仍80516/849bca27。
+[真实三列结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)run43762388370/sourceca1fe0d5已成列0/1/271、2886同余、高6/7次零、d012=10238bits；四pair28LLL的49正候选全首(0,0,2)拒。manifest0f2be930/artifact14181118695/afe625bf。仅排中心提升，不推425不足；D=d012·a已实施，不重第三列/Wvg/旧格/拒绝。
+[八probe九维](notes/R815-original-eight-probe-common-denominator-lattice-method.md)run43767171070/job132974881457/source278d1920，core49f8952f/runner5f0bc897；固定八probe一次全9DLLL，UH=R/detU±1，三列与旧49只同D/M/known/W引用。保原198小源/两carrier/原七点/cyclic/Γ，false FINAL不覆current；结果未回。
 
 **R824**：[365断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)manifestf45e2193/currentc6ddf4fb/lifta7a95048、artifact14179899060/bc2789d4；27+244同核继续，free1186归R787，原129/142/280Q、1521及κ/246一次保留，r28不补143..155，全生成才1778minor/1206。
 
@@ -55,5 +55,7 @@ sigma须同一primitive/Legendre h的三个原单位，R739/R741/R737不拼。R8
 [原C^-5完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原τ三挠平移排正则余项，β=x^pν(y)，Carβ=xΣres(ν)^(1/p)dy/(y−a)；指定P0值=3αR_p，S=αR_p/1458，R_p为y=2/α的实际留数。极阶全<p，但指定留数及两变量primitive/Legendre同h非零仍缺，不由其他留数或全局源非零代值。
 
 [P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
+
+[cusp固定非零](notes/2026-11-15-sigma-critical-cusp-residue-nonzero.md)78f5d9e5保c_*=0的完整11阶极部：原L=72U·M，有限jet给resβ=(yc/3)(A(d)/λ)^5K，K∈Z[1/30]且纸证K≡11 mod13。故固定有限例外外全局Carβ非零；仍不定位P0或原同h三单位。
 
 ordinary p43/776bitq已Gaussian5排；[Shapiro](notes/2026-11-15-original-Robert-Shapiro-second-class.md)337a9892/[θ-lift](notes/2026-11-15-original-exact-dual-theta-lift-and-shifted-cup.md)7388c4be保唯一K_glob/Θ=i a_q及同Σ θ3。C4/T²杯积仅复现R779，无独立Θ值，禁巨大q枚举。R816/818/819/821/823与R729的原c1不分歧已成，不添高度单位。原模型/CRT6逆/ζ²一次/246/c0c1不改。主目标OPEN，继续open.md。

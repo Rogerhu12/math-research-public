@@ -74,8 +74,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **真实精度增量核格已证并绑定518**：[契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891以旧全基H、满射残差E/unit minor给KH新完整格，保指数ell^(14kd)与加probe相容；core414fef53/runner889cdf5e将核全A1234×14/C1214×14降模、一次新56LLL/完整幺模及原129×280。已填真实518 current，默认不复用旧98拒绝；尚无新格或准确关系结果。
 
-**R815准确三列与真实49拒绝**：[首列58拒](notes/R815-projective-first-prefix-ended-and-known-columns.md)、[两列49拒](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)已闭。依据真We1=e271，[三列方法](notes/R815-original-three-known-columns-projective-reconstruction-method.md)只新W×已成第二列；[实际结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)run43762388370/sourceca1fe0d5、72.164秒/exit2已成0/1/271列、2886原同余、高6/7次零和joint d012=10238bits/3082digits（known ffa005ae）。
-四pairs仍(10,11),(12,13),(15,17),(20,24)，28LLL84行中8个D零，其余49不同正候选全首(z,row,col)=(0,0,2)准确非零；baseline已含其中，未进入七点完整交换子。scan25、8失败、scope未耗尽，仅4pair限额；manifest0f2be930/198项、artifact14181118695/afe625bf。核心已强制D=d012·a，再提出该倍数格不是新信息；改a坐标仅改度量。有限拒绝只排各中心提升矩阵，不否定原Mg、425精度或同D的不同非中心提升。已成第三列/LLL/RR/旧拒绝不重做，最终原七点完整交换子/cyclic/Γ出口保持。
+**R815三准确列与49拒绝已闭**：[真实结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)run43762388370/sourceca1fe0d5、72.164秒，列0/1/271的2886同余与高6/7零过；d012=10238bits/3082digits、knownffa005ae。四pairs28LLL给49正候选全首(0,0,2)非零，baseline已含，scan25非scope耗尽；manifest0f2be930/198项、artifact14181118695/afe625bf。D=d012·a已实施，有限失败只排中心提升，不否定Mg/425精度/同D不同提升；不重第三列/Wvg/旧LLL/RR/拒绝，保持原七点完整交换子/cyclic/Γ。全pins与旧首列58/两列49见结果及[R835前open](notes/2026-11-15-open-before-R835.md)。
 
 
 **R814/R825的完整原重数接口已证**：[R814](results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md)保完整C=20cusps、N=im[H,ΓH+MgH′]、P=(N:_R C)和sqrtI=(I:_R P)，m0不删；原E含20cusps+P0+3D。[R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)保原m0/1mod3、r=y/δy、Jk=R∩(I_(3k+1)+rJ_(k+1))，原安全K395现由[R835实际四阶成功](results/R835-certified-original-order4-termination-and-reduced-D.md)降为K1，D约化已证；仍缺准确D坐标。
@@ -111,6 +110,9 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 
 **原P1下降与各类C根留数**：[P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
+
+
+**原cusp留数固定非零**：[cusp固定非零](notes/2026-11-15-sigma-critical-cusp-residue-nonzero.md)78f5d9e5保c_*=0的完整11阶极部：原L=72U·M，有限jet给resβ=(yc/3)(A(d)/λ)^5K，K∈Z[1/30]且纸证K≡11 mod13。故固定有限例外外全局Carβ非零；仍不定位P0或原同h三单位。
 
 
 ### ordinary真实值与原全局对偶
