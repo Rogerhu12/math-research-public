@@ -10,6 +10,8 @@
 
 ## 新增结论
 
+- [R683：全原十九角双jet与短三块的较低平方根门](results/R683-whole-original-angular-system-and-short-three-block-surjectivity.md)：原全十九角的准确曲线能量及显示klt边界给D−5>3R_N的双N-jet整满射，完整支付b≥p曲线和W2提升；真实模十二乘子/原低行右逆回旧短三块，ell≤3时D−17>3R_(s−3)，渐近门sqrt(54/47)√p≈1.072√p。完整M仅L−26单位/26p/13自由，临界0.413√p和同R指定forcing仍开。
+
 - [R602：原单Gaussian余项的全Hurwitz整性与下一完整中央Bockstein](results/R602-original-gaussian-hurwitz-integrality-and-next-central-bockstein.md)：同一高度二系数与整数Bell公式给全n!整性、n<p完整整窗及更大开解析盘；原完整j模p³只读前两项，准确返回原A_s/A_2s的第二非齐次条件。全H严格尾、原物理缩放与中央投影保持，未由首层失败或余项整性推出无穷非零。
 
 

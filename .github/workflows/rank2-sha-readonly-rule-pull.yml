@@ -27,7 +27,7 @@ jobs:
           git -C "$RANK2_RULE_SYNC_DIR" checkout --quiet main
           git -C "$RANK2_RULE_SYNC_DIR" -c merge.stat=false pull --rebase --no-stat --quiet origin main
           python3 - <<'PY'
-          import datetime, json, os, pathlib, subprocess
+          import datetime, json, os, pathlib, re, subprocess, urllib.request
           root = pathlib.Path(os.environ["RANK2_RULE_SYNC_DIR"])
           def git(*args):
               return subprocess.check_output(["git", "-C", str(root), *args], text=True).strip()
@@ -53,4 +53,20 @@ jobs:
               print("RANK2_RULE_DIFF_BEGIN")
               print(diff)
               print("RANK2_RULE_DIFF_END")
+          api = "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/"
+          def tree(sha, recursive=False):
+              req = urllib.request.Request(api + sha + ("?recursive=1" if recursive else ""), headers={"User-Agent": "rank2-readonly-rule-sync", "Accept": "application/vnd.github+json"})
+              with urllib.request.urlopen(req, timeout=60) as response:
+                  data = json.load(response)
+              if data.get("truncated"):
+                  raise RuntimeError("Tree inventory truncated; do not infer a size bound")
+              return data["tree"]
+          root_tree = tree(head)
+          topics_sha = next(x["sha"] for x in root_tree if x["path"] == "topics")
+          topic_sha = next(x["sha"] for x in tree(topics_sha) if x["path"] == "rank2-sha-infinitely-many-p")
+          entries = [x for x in tree(topic_sha, True) if x["type"] == "blob"]
+          large = [{"path": x["path"], "bytes": x["size"], "sha": x["sha"]} for x in entries if x["size"] > 5000000]
+          parts = [{"path": x["path"], "bytes": x["size"], "sha": x["sha"]} for x in entries if re.search(r"\.part\d+($|\.)", x["path"])]
+          inventory = {"kind": "rank2_rule15_inventory", "head": head, "tree": topic_sha, "blob_count": len(entries), "total_bytes": sum(x["size"] for x in entries), "limit_bytes": 200000000, "over_5mb_count": len(large), "part_count": len(parts), "over_5mb": large[:100], "parts": parts[:100], "lists_complete": len(large) <= 100 and len(parts) <= 100}
+          print("RANK2_RULE15_INVENTORY " + json.dumps(inventory, ensure_ascii=False))
           PY

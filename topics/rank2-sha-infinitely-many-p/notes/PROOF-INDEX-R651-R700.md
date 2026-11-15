@@ -70,3 +70,6 @@
 - [R681：原完整规范的首挠点代数值与全共振余数](../results/R681-original-torsion-gauge-and-finite-algebraic-residues.md)：同Bα/原torsion轨道给T_g的明确幂方程，额外p支付log核；原至u^(p+1)有限jet唯一选正确根。边界真实导数γ=1+pω²给全部正阶log/T_g jet代数，原LT运输全保；Hermite插值精确恢复所有Q^ell余数并等同原无限尾。未从代数性推出余数非零、j0传播或原X闭盘。
 
 - [R682：同八角域的第二观察与统一有限单位差](../results/R682-original-opposite-corners-and-uniform-unit-difference.md)：全q1/S1/T1及x²/y项经真实角型给完整三次四pair项；整组合消负一矩，正二矩单位付r>2N+5M+14时准确赋值3r+4M+5−2N，可固定N4/M2/r34得107。两套原全S/T返回系数仍unit，全部外部按同式保齐，未据角域非零关闭中央缺口。
+
+- [R683：全原十九角双jet与短三块的较低平方根门](../results/R683-whole-original-angular-system-and-short-three-block-surjectivity.md)：原全十九角的准确曲线能量及显示klt边界给D−5>3R_N的双N-jet整满射，完整支付b≥p曲线和W2提升；真实模十二乘子/原低行右逆回旧短三块，ell≤3时D−17>3R_(s−3)，渐近门sqrt(54/47)√p≈1.072√p。完整M仅L−26单位/26p/13自由，临界0.413√p和同R指定forcing仍开。
+
