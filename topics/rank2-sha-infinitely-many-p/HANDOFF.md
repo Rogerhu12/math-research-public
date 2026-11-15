@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：f798dca524dc2b0953a65e985d6858eb3c0d2603；2026-11-15 01:40:03 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:40:02 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
+- 最近已读规则提交：4c8d749ca8276fdce3f7f283b1c213c5e4ca5475；2026-11-15 01:45:39 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 01:45:35 UTC仍无环境。最迟2026-11-15 02:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
@@ -14,7 +14,7 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–635、R638–643已登记；R364/R561仍开，R636/R637/R644/R645进行中。
+R1–363、R365–560、R562–636、R638–643已登记；R364/R561仍开，R637/R644–647进行中。
 完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r638.md)、[open](notes/2026-11-15-open-before-r638.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972成功，证书da54025b保留，不复跑。
@@ -22,8 +22,8 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 - root：R639/641完整gauge与准确边界、R643中央正成本次主量已付；续R644真实全源传播及open其余算术接口。
 - theta：R638已发表；续R645原Y/W与旧A/W同D的真实交域、全部q/单位测试和补偿。
-- literature：R636原指定两forcing的真正有理Cartier返回成稿中，原曲率和全部高极点保持；不以完整formal unit冒k(E)。
-- deep：R637旧bD≤s−14的同R/全部Padé高尾/26carry；R640固定返回、R642有限gauge运输已发表。
+- literature：R636有理Cartier返回已发表，h5原z/Z仿射补项待追加；续R647指定配对与完整中央残差。
+- deep：R637旧小预算同R/全Padé/26carry继续；R646 full C分歧合流及全部Smith界成稿待立即推。
 
 ## 原对象、ray及未闭旧支线
 
@@ -73,6 +73,12 @@ R624原det(c,d₂)是真Hadamard指定行8倍；S12 addition保坐标除子及1�
 原ψp四位完整恢复同det，低R₁/R₂/实际a/p全保。R630原numerator p⁷误差、
 五整商首阶js/单位C_s^j/j!已付，二次unit始2s在指定2s−1窗外；全端点卷积不删。
 原a=M c+R、R606 canonical gauge、R609三Q/Wilson不新增中央零，指定非退化仍开。
+R636原DZ1、D^p0，∇=D−6G、∇^p=−6(G+x²/y)^p≠0；
+P6=Z^pQ6=−∇^(p−1)Z^(p+5)与原sigma6首Gaussian在z^(6p+6)前相同。
+A4=xQ6、A1=−Z³xyQ6：cℓ=ResO(Aℓω)，dℓ2=−D^(p−1)(Aℓ/Z)(O)。
+第一行可回任一非零二挠点；第二行全部Zzero极点保持，极帽O(p³)不免费入旧源。
+真正Vred∈k(x³)、DVred=G+x²/y，删p倍极次、deg≤p(p−1)/2−1；有限指数/y²亦配同低窗。
+规范重标保全算子/两行剪切；未证指定detunit，不删原R1/R2/a/p。
 
 R614–619全部整窗/坏带/Newton尾照归档，H_L极/ps二阶/全T_p保持；
 j0不逐项赋零。R618 τ₂=(2p−1)/(p(p²−1))；R622第二连接保全W_k；

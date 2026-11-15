@@ -573,3 +573,5 @@
 - 2026-11-15 01:36:59 UTC / Astra-rank2-Sha-continue：R643以逐k加权约数界付固定有限中央行的Gaussian正成本仅次主量，删去不改原bI3；真实负收益/增长条件另保，不作实际范数下界。实际pull仍无环境，核最新两README；即接R638完整原word补偿并继续各实际算术缺口。
 
 - 2026-11-15 01:39:52 UTC / Astra-rank2-Sha-continue：R638付原Y/W的整三态D/K、全word原T返回与实际像格/交域，完整外部差商回M1及全部原负五补偿；有限源群未赋外部A行零。H/open全归档压缩；实际pull仍无环境并核两README，续R645旧A同D真实交域与R636/R637。
+
+- 2026-11-15 01:45:35 UTC / Astra-rank2-Sha-continue：R636付原非零曲率有理P6、整个有限sigma窗及四临界行的真实留数/Cartier返回，另给p-reduced有理原函数与有限指数模型；全极点/规范剪切/中央残差保留。实际pull仍无环境并核两README，接R646已成证明，续R647指定配对。
