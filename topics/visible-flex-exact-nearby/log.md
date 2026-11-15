@@ -53,3 +53,6 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 - 2026-11-15 22:12:36 UTC 部署SJ完整新标量：SCIdfcf40ab/worker99394e09/manifest31602b83/flow193206b2；root完整审新source与worker差异，48pins、参数、8AST清单和跨文件SHA静态闭合，数学仅公开Actions。
 - 18原parts/3322旧行临时恢复，限制3071真cut行；新Markov/全δ K3/源积分/3070无length跳量，旧成功target/ray/profile/预算禁重；完整结果先原子保存再发布两小件，120KB reserve。
 - 九报告已守名单普通删c880c56f；5000baf310f76eae383660e514cba95a392930de两README空diff。唯一push run待识别，当前不冒数学成功，继续CG及四receiver。
+
+- 2026-11-15 22:19:14 UTC PG4737325d解析独推：完整A0/A1→V0/P0/W1/3(b)/W4/3(p)，MI原两mean逆在负窗先增一导，K−/logK无|mean|，H1平滑验证同一双侧逆。
+- 不运行新数学；只selected同对象，CG actual未替代且全Ei/retained/Schur未付。旧完成索引压缩前页保095ca同H/open，原证全保；281c338cd72d4c5e0694054a35a42c726b1193f8两README空diff。
