@@ -696,3 +696,7 @@ z_j=1/Mz=f²q给显式ℓ，原多项式E/V及三det/f²的Σ-Bezout给完整P�
 ## 2026-11-15 23:01:10 UTC — 固定原头的完整物理Gram与真实top预算
 保原S全部物理度量、grade带宽与Neumann级数，严格付J约γm^-1 logx的预测top；同actual u和完整一次D†全层小量均保。
 b4986950已全根审；不假设原C齐次、不省χm/γm、不把余−CQ_D作真核。moving-m仍继续，实际pull核两README后push。
+
+## 2026-11-15 23:07:38 UTC — 完整全局197除源/315闭包入队
+根与独立代理全审新normal/original、外层及完整505/315/J/DAG门；固定runner fc1bfafd、closure9071f4a3与全部原pins，14原件已恢复真。
+新run43772109844排step2/600秒/4GiB，31×7末20零列严格保留；只读paidF/B不新选主元。I2维r未填，所有数组只临时，实际pull核两README后push。

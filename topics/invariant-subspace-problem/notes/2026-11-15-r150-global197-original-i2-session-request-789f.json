@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd",
+  "rulesReadAtCommit": "cca516b7c8b7b3db1ce4b5fa3721d5f2f386e0df",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -36,6 +36,74 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/global197-original-inputs/original-input-recovery-receipt.json"
+    },
+    {
+      "id": "complete-global197-original-i2-600",
+      "requires": [
+        "restore-original197-minimal-historical-inputs"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-runner-789f.py",
+      "scriptSHA256": "fc1bfafdf11119390f19adef3f6230d76cf8d93d7bdaa95d439589a3f4ec77df",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-common-789f.hpp",
+          "sha256": "a871e1ddb8e06c9580351fad6f3275f9076a639cd7b251c28c50f53a08427519"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-image-789f.cpp",
+          "sha256": "73b23703d5519afa2e6e75fa4f90b06f06d0dc3d1849e1771008f50d59ac24fd"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-source-789f.cpp",
+          "sha256": "281907d42d90ba1666f8df20cc08b3f573f21c710387401cb2ddb7d3d2325f74"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-transport-789f.cpp",
+          "sha256": "c2f195bb866a72923ecb7846b679f8c163a3ca60f29e58e199b003bc708f8aad"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-789f.cpp",
+          "sha256": "8be9925cf90da48f8a7e6115d0d6b2d0374ce6de2ac92c1b9665d2b6def81afe"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-normal-789f.cpp",
+          "sha256": "9b0eb1fa130ef556aa7179dcebbcdfb01fa1d260fe63f7051ff021bd6c4eeb89"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-closure-789f.py",
+          "sha256": "9071f4a3b48fdf277a6cc6e7c65f5dc0b5aea213dd6cf0b4affffc1eccb1a471"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+          "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+          "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+        }
+      ],
+      "argv": [
+        "--inputs-root",
+        "{work}/global197-original-inputs",
+        "--input-manifest",
+        "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+        "--sources-root",
+        "{scripts}",
+        "--out",
+        "{work}/global197-i2",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/global197-i2/global197-i2-pipeline-receipt.json"
     }
   ]
 }

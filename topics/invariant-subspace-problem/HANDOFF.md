@@ -34,7 +34,7 @@
 
 - **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
 
-- **全局197真R2独立会话：** run43772109844始22:57:13，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live保留。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。step1实际8.054750272秒全14件核真，raw5199/8323772d，tmp为isp-global197-original-i2-session-43772109844；不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
+- **全局197真R2：** run43772109844始22:57:13/350min，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；14原件实际8.054750272秒全核，raw5199/8323772d。step2[完整消费者](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)排600秒/4GiB、源码fc1bfafd/closure9071f4a3，31×7保原p³÷p²/全505/315/J/DAG。r未填；完成才用t2=r−2、Δ≤306−r/μ≤28−r。数组只tmp，旧live与每步pull核规均保。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
