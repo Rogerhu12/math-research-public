@@ -474,3 +474,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 23:24:45 UTC｜R403完整集中构造与指定包内部门闭合
 
 [R403](results/R403-one-pair-degeneracies-and-nineteen-exact-rational-targets-by-concentration.md)，23525B/hash41476082d69ccefbdbdfa08033fbe59edc81abcd635e4cf9a3d0cedea870f5cc。根全文核psi3多项式/密度minor/IFT/完整C1极限/符号与端点范围；mechanism独立回R296/R324核§3–10，确认无隐藏t³/t⁴，tail只审符号不冒全证明。两种actual截面不拼；新母数据准确标明。立即推并继续全包共同jets/完整响应像；基底d8149f6d4fe6abd6d2043be2bd447111818b2a40。
+
+
+## 2026-11-15 23:32:17 UTC｜直接reference冷路径的数据流等价性与新源码
+
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)，18560B/SHA256 01f70a8324b55ec59cf1518607858135615e7b85c8fd1b24ba4cd200bd3f6e18；模块23148B/SHA256 ac6bb23c625429452d8216018b996cdbc9fc3fc8d9cfe5c04cc6a46a7b99ab0b。根完整审对SingleQ/Bounded/FiveHeight各geometry和fixed/polynomial缓存键，确认只用三字段、被覆盖积分及未用四角jets可删除；原最终jets/完整J/null坐标不变，评价路由SHA另记，继承variant须显式wrap。纠正设计来源范围：403a repaired resume不冒68f92同源。源码静态发布；新人工/研究执行0，旧120秒epoch已耗，尚无加速实测/新bank绑定。基底220ed287c8692577305dc56e193f531b1c5d3615。继续小人工与同runner下真正新任务合同。

@@ -16,7 +16,7 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；同b0/159→163，永久enriched reference c0不换selected。η≈.26627是metric epigraph，**非δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3、H径≥22/101；连续支持欠。τreach.061须κ≤1000/61≈16.39344及非局部门，现κ≈58。旧失败/漂移保持，不重跑。
 
-## 3. 数值唯一续点
+## 3. 数值已付状态与新接口
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0。原log7918876B/hash8ce149f0…经observer43769144830完整读核，旧140Python/146总绑定一致。新4检查通过、旧14只复用；首失败43766593534与费用保原note，不重执行。
 
@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit、pending0，state57aeeb039749c574598477d41764c7651b7314c8530f150c83d3691815ade498。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
 
-**同m7接口已读结局：身份恢复通过，冷粗值耗尽时间、LP11未进入**：[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)。run43773136836/source403a2fcf…审计完整；objective55d6c627…与field047cef…各同原值，16人工仅复用。唯一新粗value205.448292651s返回后触发原120active门，累计active241.314203844/values15；新J/模型/LP/SOC/接受全0，bank current-model绑定仍pending。首失败与本次prepare累进init293.542781793，进程224.820478542/RSS548340KiB；原最佳点/14门只原独立收据。LP仍10余2但时间已耗，不能重启同epoch或仅加时再付冷恢复；转真正新冷评估/持久runner机制。原bank438/学习8/池1/2/B双0不变。
+**同m7接口已读结局：身份恢复通过，冷粗值耗尽时间、LP11未进入**：[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)。run43773136836/source403a2fcf…审计完整；objective55d6c627…与field047cef…各同原值，16人工仅复用。唯一新粗value205.448292651s返回后触发原120active门，累计active241.314203844/values15；新J/模型/LP/SOC/接受全0，bank current-model绑定仍pending。首失败与本次prepare累进init293.542781793，进程224.820478542/RSS548340KiB；原最佳点/14门只原独立收据。LP仍10余2但时间已耗，不能重启同epoch或仅加时再付冷恢复；转真正新冷评估和同runner内缓存复用机制。原bank438/学习8/池1/2/B双0不变。
 
 ## 4. 纸证与准确剩余门
 
@@ -49,4 +49,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-数值继续查明冷粗值205秒的不可变基元/缓存来源，设计真正新接口；旧epoch时间耗尽，不重启m7、不重复已付粗值。全部失败/成功回执与费用保原note。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。源码已发布、人工/实际未执行，新预算及bank/学习迁移待闭，全部旧费用保留。理论继续F0/Q2完整自然像、同一个实际joint商、其它内部ordered门及13同规范。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。

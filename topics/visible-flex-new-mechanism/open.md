@@ -155,7 +155,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R391](results/R391-analytic-simple-degeneracies-and-complete-selected-inverse-germs-on-the-rational-circle.md)保持同一19完整值、整个低阶纤维、全部实际副本和解析平端；真实零流形上两偶quadrature/别包补偿给所有Af简单，p仅中心简单零。p零禁residue自动消；每Af点完整germ iff同一原累计F为零。原R345≤11指定对应Vd点现有完整光滑germ，非全部点或Ve；零点数可>11。下一付两目标其余点/整包通量、原仿射尾与右collar重建、R327同一相位13行；不要重做已付minor/秩或把指定必要值继续当高重充分。
 
 
-旧guard末模型的已付预算与gap见上方O2当前节及原actual note；同一m7唯一续算边界不变。
+旧guard末模型的gap与全部预算见原actual notes；后继冷恢复已耗尽该epoch时间，不能续m7。
 
 ### R394完整条件性period/同规范接口，继续实际像
 
@@ -172,9 +172,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R404](results/R404-natural-weight-zero-image-at-most-two-and-single-function-kernel-criterion.md)由原正规C20全Λ0与R196真商/两字符，得C20=C4+c0C6+R、n4=−c0n6。R400原正字符的联合核条件准确缩为n2∈span(n6)，增强零权商至多2维；c0及两个完整函数均未求，不冒秩2或actual路径。下一只做H*/J6的完整自然收缩，保原N0/Γ/mixed/ordered尾，复用原成员与共用响应列，不重旧根/秩。R402的−4静态行不替代真权0两函数。
 
 
-### 同m7接口的实际结局已付，转冷评估与缓存机制
+### 直接reference求值已源码闭合，准备最小新接口
 
-[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：run43773136836两域身份精确同原、16人工0重跑；一次粗value205.448292651s在返回后触发120active，累计241.314203844/values15，J/model/LP/SOC/接受0。历史及本次prepare/init/总费用完整保留；原最佳点仍η.2662335561。不能因LP余2再启相同epoch，不能重复本次冷恢复。下一读取代码确定不可变基元缓存与真实值成本，设计原规则允许的同runner持续工作或真正新评估机制；理论继续F0原函数与全内部门。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)证明SingleQ只用base三字段；新模块直接用原metric、height_jets、固定同锚primitive和九高度积分，保完整当前角场/二阶jets/原163→159J。原被覆盖查询积分及四角未用几何被准确删除，不把205.4483s全归于它们。新ordinary SHA诚实变更；原g/b0/坐标不变。旧epoch active241.314203844>120/LP仍10，不能续m7。下一仅3组新人工接口＋新的同过程两网ordinary及必要cache消费合同；先闭旧bank/学习向新context迁移和独立预算，不重旧开发或真实旧geometry，不存数组。静态来源已付，速度/数值对照未测。
 
 
 ### R399新的第二period内部通道已实际付至四点
