@@ -384,3 +384,5 @@
 
 - 2026-11-15 15:55:53 UTC，Astra-new-mechanism-9974ea84：R304完整正余量定理读毕即推，16692B/SHA256 6334223e8476b2c0478d6be304dc6babe7ff1328c57d3c4c86e7acc2866014fa。全角旧面积+三directed行令E−3指定真系数严格正，排整个不交实rank-one圆，非仅等B同F。H/open撤销被排类的继续加主观察任务，原已付必要门仍保；接R306一般mixed与R311不同轨道/端芽，无新执行。
 - 2026-11-15 15:55:53 UTC：同时记录run43728280256原实际首读η.266381717617、两网14门/盒过、原9恢复/1新阶段和费用；54/106源receipt核合。只读observer43732214112成功，但原publisher控制标记破context显示，尚需转义及完整模型消费；不以工作流success冒所有细节已读。API核130a5de43bb2ceed18be44c4354a95a6aed76ddb双README同，actualpull见H。
+
+- 2026-11-15 15:57:01 UTC，Astra-new-mechanism-9974ea84：只读observer43732214112确已给原dev/actual，因嵌入原publisher的legacy ##[group]被Actions日志解释器消费，context整前缀缺失；准确转义JSON中的legacy/current命令标记（解码文本/原hash不变），优先原checkpoint/solver，减去已消费两网明细重复。新source 338dd08febffcc223903e38549baec9f5b987264514abbdde5106fb676e00da7 /request 6a55700aa8fdac1378c282a17ae63b0742d8ae47e9d26c425902b1d3b94fe0be，继续只读同run43728280256；无科学/人工重跑，无payload文件/上传，不增90KB上限。API核e5fbb3eaca71ff3ace6ea0f3d97c80e33ef83e16双README同，actualpull原证见H。

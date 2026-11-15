@@ -47,7 +47,11 @@ def digest(data):
 
 
 def encoded(value):
-    return ENCODER.encode(value).encode("utf-8")
+    # Escape legacy and current Actions command markers inside JSON strings.
+    # This changes only JSON spelling, not decoded original text or its hashes.
+    return (ENCODER.encode(value).encode("utf-8")
+            .replace(b"##[", b"\\u0023\\u0023[")
+            .replace(b"::", b"\\u003a\\u003a"))
 
 
 def fingerprint(value):
@@ -341,35 +345,29 @@ def development_view(report, preview):
 
 
 def actual_view(report, preview):
-    result = {}
-    for key, value in report.items():
-        if scalar(value):
-            preview.field(result, key, value, 30000, required=True)
+    result = {k: v for k, v in report.items() if scalar(v)}
     preview.field(result, "source_files_sha256", report["source_files_sha256"], 30000, required=True)
-    priorities = ("initial_current_constraints", "initial_doubled_constraints",
-                  "final_full_grid_constraints", "final_doubled_constraints",
-                  "final_selection_validation", "value_evaluation_counts",
-                  "factorized_selected_J_execution", "error", "pipeline_failure")
-    for key in priorities:
+    for key in ("final_selection_validation", "value_evaluation_counts", "error", "pipeline_failure"):
         if key in report:
-            preview.field(result, key, report[key], 30000, required=False)
+            preview.field(result, key, report[key], 30000, required=True)
     stage = report.get(STAGE)
     if isinstance(stage, dict):
         selected = {k: v for k, v in stage.items() if scalar(v)}
-        for key in ("checkpoint", "costs", "budget", "value_evaluation_counts",
-                    "error", "complete_affine_model_definition"):
+        for key in ("checkpoint", "solver", "last_pre_LP_decision",
+                    "complete_original_row_floor_and_nonlinear_defect_records"):
             if key in stage:
                 preview.field(selected, key, stage[key], 12000, path="$." + STAGE)
-        for key, value in stage.items():
-            if key not in selected:
-                selected[key] = preview.omit(value, "$." + STAGE + "." + key,
-                                            "model data represented by native printer and explicit directory",
-                                            directory=True)
-        preview.field(result, STAGE, selected, 30000)
+        remaining = {k: v for k, v in stage.items() if k not in selected}
+        selected["unexpanded_stage_fields"] = preview.omit(
+            remaining, "$." + STAGE + ".unexpanded_stage_fields",
+            "original model human lines and focused directories follow; final grids were already read in observer 43732214112",
+            directory=True)
+        preview.field(result, STAGE, selected, 30000, required=True)
     skipped = {k: v for k, v in report.items() if k not in result}
     result["unexpanded_top_level_fields"] = preview.omit(
         skipped, "$.unexpanded_top_level_fields",
-        "first semantic observation; no claim of complete model/trial expansion", directory=True)
+        "focused model/checkpoint/pull observation; original final gates already consumed from run 43732214112",
+        directory=True)
     return result
 
 
