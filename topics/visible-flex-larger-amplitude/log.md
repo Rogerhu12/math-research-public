@@ -233,3 +233,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 17:56:23 UTC /root — 164r3真正小结与同科学新实际
 
 23191B完整diff/6380B接口核后五件即发，reader0fed29ad；wrapper只一pin、workflow只名/两pin，request只真实r2来源及读回范围，原科学/recipe/政策逐字保持。全20档/六候选三响应/FD失败与原终态保，硬90KB不抬、不拆raw；新run由amplitude核R373。API核f9994205cbd0880339cb83cd4dd3278fa2843eaa双README未变，真pull保。
+
+## 2026-11-15 18:09:00 UTC /root — R373完整六形状和20档真实拒绝
+
+原新run43743904448/source257b227a、完整89762B摘要由amplitude唯一读，36224B结论全文核后即发；20域过/全3 merit拒、120FD及Arb/453范围齐，ξ0与全部finalfalse保持。旧r2原件不回填；open逐字归档保未付责任。API复核9811758895a18b9a51d20ade3cb12e95b332d731双README未变，真实pull记录保留。

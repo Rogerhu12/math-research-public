@@ -298,3 +298,5 @@
 - [R356：实际165的有限目标上界与严格速度域反证](results/R356-actual165-finite-target-bound-and-strict-speed-domain-refutations.md)：完整32977闭叶全正半径/有限δ<1；38严格速度域反证与32488未决、65535节点资源止同时存在，受控exit4。四小摘要及源语义已核，38位置和大账未逐值读；固定R320结论不推广到整个family或169未来p。
 
 - [164r3：保原科学与全部实际失败的紧凑读回](notes/2026-11-15-request164-focused-readback-r3-interface.md)：五件/完整四diff已核；只改reader与引用，逐20trial/六候选/FD失败及全部终态必要标量保留，重复固定词和匹配大表仅身份。原producer/recipe/门/预算不变，硬90KB；后续实际另记R373，不冒已清r2恢复。
+
+- [R373：actual164 r3六宽形状与完整二十档merit拒绝](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)：同科学的新真实运行，单份89762B完整；六三响应/120FD及异常/20trial/Arb与453齐。全部20有限primal域过而全3 Armijo拒，负斜率不保固定二十档，最终ξ0；十列投影条件改善仅数值动机，联合方向及全部非零终门未付。

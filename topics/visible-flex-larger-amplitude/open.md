@@ -2,7 +2,7 @@
 
 **未完成。** 持续执行下列实际任务；单个批次、资源预算、阶段报告或子题完成都不是课题终点。完整标准以[课题README](README.md)为准：固定同一 $g$、连通闭 $C^2$ 嵌入和全 $t$ 强 $C^2$ 族，固定有内点的 $H$ 且 $\operatorname{diam}H\ge0.2D$，整个像的 $\delta_{\rm hold}\ge0.2D$、含反射的 $\delta_E>0$，全 $t$ reach 至少 $0.03D$，全域相对度量算子误差至多 $10^{-6}$；$D$ 取完整闭 $F_0$。达到最低标准后继续加强比例。
 
-截至170发布与R370的全部此前正文已保存在[完整检查点](notes/2026-11-15-open-checkpoint-through-R370.md)，仅调整相对链接；全部未付责任继续有效，旧检查点链保留。实际run、来源、负责人、规则SHA与未推源恢复在[HANDOFF](HANDOFF.md)。
+R373前的全部正文已存[完整检查点](notes/2026-11-15-open-checkpoint-through-R373.md)，仅调整相对链接；全部未付责任及更早检查点链继续有效。当前实际run、来源、负责人、规则SHA与未推源恢复在[HANDOFF](HANDOFF.md)。
 
 所有科学算术、模块导入、数值测试及科学编译仅在公开 Rogerhu12/math-research-public 的 Actions。每条结论同时写 results/HANDOFF/open/log 并立即推送；每次真实pull后检查双README，有变仅读差异并立即执行。终端失联期间根8允许官方集成发小文本，API复核不能冒真实pull；恢复立即补真实pull。只保源码、参数、run/SHA和紧凑结论，不重存可重算raw或以SHA制造已删除原件。
 
@@ -49,13 +49,13 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)已证原698cell七状态(r与三个2模态)的完整三列离散伴随。局部7×10变分保r/mid/sqrt及终端112耦合、直接q_N和start项；对实际零jetshape收缩δq=(ah′−bh)/a²（b为原返回斜率列，不假定finite-Gauss a的准确导数），原物理导数坐标链不可漏。准确旧响应左零空间须被新增响应消去才补秩，函数线性独立不自动足够；形成线性系统/Decimal舍入/准确实数对象分清。
 
-[R351 helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)source12a95d40保698×7×10/112×8、三列反传/共享q散射和旧九对照。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发布，112直接源+10支持源，真实消费41→45；重建actual157末九p50，三个原支撑各k=3,4共六个C²零jet候选取实际完整三响应，再进入独立十坐标族。fresh十列forward定第十方向符号，旧九方向为0；原full3/域/strict slope/字面c_A及20档Armijo不变，初末十列120项FD与fresh Arb160/原square453/circle/full112/FFT终态均保。
+[R351 helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)12a95d40保698×7×10/112×8、完整反传/共享q散射。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)112+10pins/41→45消费；真157末九p50、六宽C²零jet候选、独立十族，fresh十列定仅ξ方向，原20档full3/域/strict slope/字面c_A、初末120FD及Arb/453/circle/full112不变。2400s/50min/65min原资源与全部错误责任保历史检查点，未得非线性native或闭场。
 
-164 producer及全child各2400s、TERM90s、reader300s/30s、science50min/job65min；资源止/结构错误保原状态，单份≤90KB必要标量，大表仅身份，无raw上传。新shape表仍为binary64采样再准确提升，非高精连续函数证书；有限空池/全拒/近词尾小步不证函数空间驻点。原nine optimizer不再跑，旧module只用于完整来源绑定，不把十维发给旧九维owner；首跑R364及后继R371由amplitude核，全部非线性native/闭场成功仍未预填。
+新增形状的binary64表再准确提升不代连续高精证书。有限候选全拒/近词尾微降不证函数空间驻点；原九optimizer不重跑，十坐标不得送旧九owner。全部原source/预算/运行语义在164接口和本页检查点。
 
 [R364首164](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：43741113847/source39e6ff80已setup/建表，Decimal/JSON类型误拒，0 tracked模型调用，六候选/20trial未起。r2以完整encoded绑定修复，producer1998fa80；全部原recipe/112+10pins/45消费/门/预算保持，原绑定2984B/ad491与完整错误范围见结果及历史接口。
 
-[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：43742275745/sourcebab76df4，producer0/完整20全拒/accepted0，返回不等于FD/域门通过；reader70因148101B超90KB，565694B原status已清，5243B fallback与两日志齐。逐trial/候选/FD/Arb/圆原值未读不补造。[164r3接口](notes/2026-11-15-request164-focused-readback-r3-interface.md)仅reader及pins/真实r2元数据五件重发：0fed29ad/e14936fe/7ea5a78d；保全部20实际值/六候选三响应/120FD覆盖与全失败、原域/终门，重复旧九词仅一次、匹配大表仅身份。目标40–60KB未实测、硬90KB不变，producer1998/recipe/全部科学与预算不变；新实际由amplitude核R373，不能冒恢复旧raw。173/174独立真157父，无新rank或读取门。
+[R371实际164r2](results/R371-actual164-r2-twenty-rejections-and-incomplete-compact-readback.md)：43742275745/sourcebab76df4，producer0/20全拒，reader70因148101B超90KB；5243B fallback已核，逐trial/FD/域正文未传且raw已清。[R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)：43743904448/source257b227a，同1998科学producer/recipe/门新真实运行，单份89762B/33ca4bc6完整；六三响应/120FD及两zero-extension编码例外、初末/20trial/Arb1586叶0未决/453齐。20全部有限primal域过但全3 Armijo拒；负slope−.125553691081…、末α2^-19仍W4.963792684398…，最终ξ0/W4.963213787524…未变。十列投影σmin3.9847962884605677仅数值动机，不证准确秩；本次只动ξ，联合十维方向未做。新164不冒旧r2恢复，不机械重跑单列；173/174独立真157父继续，同g/native/闭场及全部final仍未付。
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)的隔离七次零2-jet形状给单一准确商响应εw/a；[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)对同坐标不同逻辑输入聚合G=Σw/a、H=−Σwb/a²，偶/奇基给ε²H/εG，完整允许C²响应span/rank/左零空间已证。共享node权只计一次，相同形成q词不证明准确公共q；奇池全零不排除值方向，无实际rank或误差认证。
 
