@@ -1,5 +1,7 @@
 # R808 — 原第三精度同一修正的分裂二支与近支完整法向段
 
+后继：[R813 同一个修正的实际带权 Cartier 单位](R813-original-corrector-weighted-cartier-unit-at-first-resonance.md)；已付非恰当性，原完整左行接口仍开。
+
 后继：[同一修正的完整短块二支式与远支法向段](../notes/2026-11-15-r808-complete-short-block-and-far-normal.md)，保单位函数λ/B和ell≤r精度。
 
 日期：2026-11-15。**状态：下述同一原来源、原精度和实际分支结论已证明；原全余像的指定非零及主目标仍未完成。**

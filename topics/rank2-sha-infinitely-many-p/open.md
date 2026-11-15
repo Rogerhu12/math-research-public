@@ -201,3 +201,6 @@ R816以两处有限2下降证明E−11:y²=x³−11的rank≥2，完整2/3/11角
 
 
 R819对原全nef锥证明κ≥(b−m)e+bm、χ≥2b+m（m=C.f0、e=C.H+为真实S次数），并给所有非负余项和m>0的全部等号链。原r2/m3得e≤3+[κ−(6b−9)]/(b−3)，近最小自交区域实际投影次数有界；同R同属m2分量由δ=h再得κ≥2h+2b。数值类不预设不可约代表，不代长接触或同源Cartier配对。 继续低S次数与其余区域的原接触/同R，见[R819](results/R819-original-nef-surplus-and-s-projection-degree.md)。
+
+
+R813在原因子曲线与原E0的指定正规化分量上，用同一个R构造ζ_F和Ω_R=t^r(ER)|C·(dζ_F+xω0)。真实参数z0=−x/y的首阶恰p−1，准确系数−5(6h)(6h−1)q0u0⁴/(34ae0)为单位，故Cartier非零且Ω_R非恰当；物理b尺度为b^s。仅用低于共振的原有限前缀，未抽出非恒定权；原全M尚未迫该类恰当或Cartier零，真实左行/全部极点和两13仍须接合。 继续实际dt/e留数、原全像左行与同R余块，见[R813](results/R813-original-corrector-weighted-cartier-unit-at-first-resonance.md)。
