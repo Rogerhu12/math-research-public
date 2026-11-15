@@ -353,3 +353,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R277 完整证明](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)从原self的cubic变分与真实Green尾出发，所有三导只线性出现，准确IBP后得到C²连续多项式；把全部18self平移系数与3矩纳入有限F，便保持任意既定不交布局的全72观测和原ordered history。从最初选光滑非零最大秩母包，用真实r阶minor的有限IFT及邻域ker DF*=ker DF准确保全部F，不假任意旧母纤维正则。有限N^-5/2振荡的C²扰动小、三导N^1/2，而固定光滑纠正三导小，原正bulk S/N有严格正积分极限。
 
 新的等平方背景b_i²=B、R_i=a_i²−B∈{−B/2,8B}由有限17进制和二进制Prouhet付R/T十阶矩。全部E04的self+真实ordered前缀分别次数≤8/5，故18条全零；R²=15BR/2+4B²再付3个Γ0 pair的9条及3对称核条，共30even。原M0/TκH真实闭hook、八copy全第三及十二copy36odd完整保留。完整Lc同形严格负；只替一个R<0基本包及全部真实copy，F恒定、正能量无界，选一个有限N后沿真实连续路径IVT使Lc=0，Ls亦零。余6even、Mc与其它层未付，不能从这条存在证明宣完整joint/大幅同g族。root全文核原R259的Q/Green/72式、R183全第三以及R238真实bulk边界；mechanism独核格点代数，无新科学执行。
+
+
+## R276：canonical 四阶目标的全部零端二次界与一次层有限 iff
+
+[R276 完整证明](results/R276-canonical-fourth-periods-at-analytic-zero-ends-and-finite-first-layer-conditions.md)从R56原J/Tx/Ts/Tsx及全部恢复式传播真实加权germ：V2=Π2+p²t^-4C∞，V3=Π3+pt^-2C∞+p³t^-8C∞，四阶Tx二次/四次分别p²t^-6/p⁴t^-12，真实局部积分和全s周期得G=P+Tf+p²t^-4B。Π2/Π3均原平台尾，不是自由常数；保全history，不加任意齐次高jet输入。由此canonical二次层已有足够界，补此前R274只处理全Z correction的范围。
+
+对R274最初解析ψ后真实EL/有限宽根，每最细包f=Aψ+ψ³R，A≠0/R有限有理极点；保持原已扰动圆的真实三次尾系数，后项吸收，剩Lψ。以Dψ=D+ψ′/ψ反复消多项式系数矩I_j/ψ，得有限有理Qn；Qn0 iff Lψ0，非零一次层必有有限首幂。原平台/零端flux已付时，Lψ0给真正C∞，非零则u首项−p^-1 t^(r+8)b0/(16c⁴)指数发散、Cp不能修；左右端σ²同号。结合R225/R274的有限内部退化，canonical完整period为真平台/flux/内部Laurent/每端Qn及原右锚条件；未求实际尾值、响应rank或控制解。root原式纸推，mechanism独立全文核最坏pole、真实history、有限消元及逆解两向，无新执行，不重R240旧特例。

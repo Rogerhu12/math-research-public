@@ -102,13 +102,7 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 
 [R219](results/R219-eight-packet-fluxes-independent-on-pure-zero-responses.md)的δ^0..δ^7真响应在pure核上付八修正通量满射R8，保原平台尾；左pair+单flux另满R3，未付十元组。[R222](results/R222-simultaneous-real-pure-and-eight-flux-control.md)给真实整pure+F8的固定有限词C1截面，保Q/全部mixed，先清原型pure再有限整数收缩；[R223](results/R223-Morse-closed-hooks-with-exact-pure-and-eight-flux-constraints.md)兼容全域Morse与真Klein位移。这里一般改g，完整period/ruling仍欠，不宣大紧集全局截面。
 
-[R224](results/R224-even-germ-ruling-invariant-and-positive-epsilon-obstruction.md)已付完整偶germ/history只改W_e；标准k=ω0及[R228](results/R228-growing-curvature-even-germs-retain-the-original-circle-obstruction.md)的C≠0增长曲率偶族，b0原八包均由旧c6严格排全允许宽度。只延拓局部解析身份，不延实际路径；一般b/新圆不继承符号。[R227](results/R227-realizable-quadratic-k-even-ports-and-the-exceptional-germ.md)付非零ke、C0例外安装；[R229](results/R229-p2-energy-boundary-identity-for-exceptional-germs.md)付其pure候选四次消尾；[R231](results/R231-complete-mixed-leading-gate-for-the-exceptional-even-port.md)保完整局部/chain/真history，得到Lc=E(Gff,Ggg−Gff)、Ls=E(Gff,Gfg)。
-
-[R232](results/R232-original-eight-packet-exceptional-port-obstruction.md)已消费43699241372/ee9e2098：13新人工、Lc<0/Ls>0与16bit严格分离全过，排原八包全可容正宽及已付C∞近邻。真左尾/14段/跨包正交保留，不再改变同原圆宽度或预算；不排全部C²构造。
-
-[R233](results/R233-four-scale-moment-circles-cancel-both-exceptional-leading-energies.md)/[R235](results/R235-nonseparable-complete-third-order-circles-with-zero-exceptional-leading-energies.md)已给三矩/全第三/LcLs0的非GL2新圆，目标F改变后另冻g。后继[R237](results/R237-complete-next-mixed-layer-after-exceptional-leading-cancellation.md)/[R238](results/R238-scalar-reduction-of-the-next-two-energies-for-complete-blocks.md)/[R239](results/R239-nonseparable-third-order-circles-paying-four-exceptional-energy-gates.md)保真尾以简单根IFT准确付四能量；这些已付门不重算，全文保留。
-
-[R241](results/R241-complete-sigma-four-layer-and-resonant-exceptional-germs.md)保完整第三history和循环尾，在共振ε=κ²/4准确付另两能量；联合(q,ε)真实开域IFT/Morse已付。旧圆六门均完成，但R249–253完整面积已排整个例外芽族，不再把六能量零当完整解。
+R224/R228标准/增长曲率偶芽已由原八包c6排除，R232另严格排原例外八包及其近邻；都不排一般profile。R227真实安装非零ke/C0例外芽；R233/R235/R237–241的非GL2新圆已付六识别能量，但R249–253完整面积排其原例外族。上述已付低层和已败原族不重跑，准确范围见各原R文；后继使用新真实圆，不能以六能量替代全ruling。
 
 [R243](results/R243-finite-jet-criterion-for-the-complete-even-exceptional-ruling.md)已将整个例外ruling偶部化为准确有限条件：消1/z后的全部真尾/history闭包X′=(N+2εσD)X，非零输出ord≤n(n+1)/2−1；先扣We的0/2/4 jet，再验剩余有限偶jet。五相位谐波及真实初值保留，不假生成函数独立；尚无实际n或新符号目标值。
 
@@ -127,6 +121,8 @@ R105/R109/R130真实有限U与完整history保留；非零M时N²/N³不能删�
 [R266](results/R266-constant-platform-projective-model-for-full-third-kernel.md)给全Z在非零常平台的准确局部像F²(P2D4+2P2′D3)，维3；H/J所有阶乘与χ104从属已付。完整K=F²(P2w′−P2′w)+Q2，Q2″=−J(cw)保真尾；输入实为二次时K″=2F²(βA2−γA1)−T。局部源零不能代完整K零，f常/g变也不能猜Φ输入二次；后继按同一实际目标使用，不重平台表。
 
 [R272](results/R272-smooth-inverse-germs-for-the-full-third-kernel-at-flat-zero-ends.md)/[R274](results/R274-real-analytic-micropackets-and-finite-period-conditions-for-full-third-kernel.md)已把明确零端germ接入真实R270/271存在构造：最初选解析ψ，EL扰动/全部复制后仍p=t^-2 a∞e^-c/t；最细包p/AH内部退化有限，全Z Kfg0且逐包flux自动0。该correction完整period **iff逐包总势矩∫cw0+全部内部Laurent**，平台/germ/双collar均有原式证明。下一求真实联合响应与同w，不把未列实际矩阵/rank称完成；canonical Vd/Ve、非零step与全Rp0其余部分不外推。
+
+[R276](results/R276-canonical-fourth-periods-at-analytic-zero-ends-and-finite-first-layer-conditions.md)从R56原恢复补canonical端界G=P+Tf+p²t^-4B，保原Π2/Π3/全history。对实际ψ+EL微包，一次Lψ恒零iff有限有理Qn0；原平台/零通量已付时这恰为C∞端门，二次主部自动无碍。**下一在未被面积障碍排除的新圆上，代入真实canonical尾值并联合原平台/逐包flux/全部内部Laurent/各端Qn及同w ruling。** 未计算矩阵或实际解，不能套到R277任意最大秩母包；需从最初另构解析同F纤维。
 
 八χ首次run43712266529已由R261消费，8新人工/8科学目标通过、53来源吻合；人读全系数直接复用，机器payload不发布，不重复原编译或冒fixed-circle rank。
 
