@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 实际失败与最小恢复：伴随浮点网格选片。** [恢复记录](notes/2026-11-15-R133-adjoint-proposal-float-knot-recovery.md)核首run43662395328 child1/两成功输入门/0QR；原完整标量选点与失败字节保存。v2仅按格左端选原candidate片，原两端门不变，253pins保原247零变化；新runner从原artifact恢复已成selected数组，未重算原target或QR。
+
 - **R133 补充 T1–15：只追加 old-ρ Airy Taylor 七至十二阶。** [合同](results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md)固定原域、原复δ与全Fourier/mean，证明新leading9..14只需已成内蕴15；保持原75stage字节，仅补缺阶、18个norm行及三份新十二阶预算。合同SHA256 `8bf949ce602ecd2dfa23ded74a78d01aa8b75881b5ccf9a5905a46512f105862`。实际新增数据尚未运行，不授strong return或完整逆。
 
 - **R133 actual：完整严格外段第一 Airy 修正的全部 old-circle 与独立 mean 源。** [实际报告](results/R133-supplement-actual-complete-strict-exterior-first-Airy-old-circle-sources.md)核公开 run43660841558 child0/11门、1324新同阶转换+4原inner转换、6profiles/4359积分；native `17112d96633634d463059cab37efcd1d4a71dbdbc956e2ac8ddeded63378790c`、process `aa106c220259fe511630652c2c3198adbd12b6fe8c9c24ca4c5516937c571ac2`。R=.001负combined<4.814928e21，九词与五个独立mean项完整；仍是粗upper，未得strong-return/cutoff或PDE族。
