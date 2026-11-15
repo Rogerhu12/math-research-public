@@ -6,20 +6,20 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：d6ea5e3ef19bce2c8a3b1d77cd51c0b1cc7bdb80；2026-11-15 03:44:09 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:44:08 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
+- 最近已读规则提交：5aa50e25b0c35603b7482b5180db037eb1c55ec8；2026-11-15 03:46:37 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:46:35 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。本地无环境时用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
 
 ## 记录、完整归档与分工
 
-R1–363、R365–560、R562–653、R655–670已登记；R364/R561仍开，R654/R672–675进行中，R671完整blobs待立即登记。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r670.md)、[open](notes/2026-11-15-open-before-r637.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
+R1–363、R365–560、R562–653、R655–671已登记；R364/R561仍开，R654/R672–675进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r671.md)、[open](notes/2026-11-15-open-before-r637.md)；沿归档链保全部旧条件，压缩不关闭问题。主入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R669两S共同源六维完整返回已付；续R673惰性原sigma modp²指定提升/真实两高商，R654与R663中央→余数仍开。R606已有H^-p log不重登。
 - theta：R670全Λ2四维真像/同核整取消已付；续R674两个实际S34共同来源在原11核上的成对整像，六次权保C第六矩。
-- literature：R671固定N原cd/两外部过滤已成待登记；续R675 j=N/M0未附第二Y的cd单Y完整S34六系数及是否原S线，非R669共同域。
+- literature：R671固定N原cd/两外部过滤已付；续R675 j=N/M0未切cd单Y完整S34六系数/是否原S线。n=N端点与R669共同E深真同域，对应R669 t=1（非t=0）。
 - deep：R637原短三块的√p大预算整满射已付；续R672真正小预算/原两输出子式与同R forcing，辅助p不冒目标p。
 
 ## 原对象、射线和未闭旧线
@@ -36,8 +36,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 原R567/594同q/九约束/全坏集、R599–634全native/RV/四球及R638/645/650三态四轴/全部word保持，11自由不能删A转置。全门位移/E/G/质量/log、所有失败支和odd1755见前检。R653原K第二项6bH−IΣ,-1+3bFH+ℓZ,1勿多b；R655负一IΣ≠0但未称unit，χ65=−1；R661两log是反圆导数加log5，负一非零不定它们。
 
-R659全D0四层/Esharp补项付M0,N模p=−λ^(N−1)P(λ)/(b(1+λ))，固定P常数非零；同ray相对密度一子族全部正四倍N质量unit。原Q/p^m环带与全W差非零。
-R662原S全Y-shell质量0，真实A外部质量却unit，log尺度项准确补全部W差；原T留B±=bL L±bY Q的混合Θ±与外部反号，未成中央矛盾。
+R659原冻结M0全D0/Esharp补项付固定CM二次首项，ray密度一子族全N4质量unit；原Q环带/W差非零。R662原A外部unit质量/log恰补该差，原T仍有全混合Θ±与外部负号，未成矛盾。
 R665原Θ±的L深n≥N奇差Δ=2β^nκ^(2n)J_N H_p(κ^n)，全角只保原L²系数。H首项36bΩ³(bL/bY)IΣ,-1。六C支/87D*与Cperp的37323/146718全核保补项，两η固定非零多项式给所有N4 vJ_N=−2N；2n>vI时vΔ=3n−2N+vI。全浅R_N,n及原T外部之差为−Δ，不能删。
 R664 quarter同转q/Y/W给四真S/T行；Y0=A+Q,Y1=A+L，共深轴R,D10/E范数126/10/9135，全核−1/−1/ηA。两门差−2ωE/105；共同门恰Cunit,D*deepN,EdeepN，E⊥两Y。七条件Λ全保，质量仅Λ2=J_N/cF²；二阶差136(1−5ω)J_N/345303为unit倍。共同C+浅L+外部O准确等原JS/JT。
 
@@ -46,6 +45,7 @@ R667实际δq来自Π_p e_CFG4，Π=I−B(A_pB)^−1A_p；九约束全部保持�
 R668四Y任三交=A/Q/L全深，所有邻/对面交与唯一外部给真实五词包含排除。Γ内E第j<n层准确=A/Q/L/c/d/W同浅；j≥1原q还迫D*deepj，完整四轴返a=(ηAχD)^jλ^(2n+2j)，保持Cperpunit/H_i深N−j及原E/G修正。固定剩余M/ℓ的权对κj degree≤6，S真七阶根λ16κ^(4a)；T/S单位cut同一，差为完整log(1+κj R)并保logbY质量。第零层及全部Y外部不删。
 R669完整两S共同源合回Ξ_j=σ34x^(17−3j),j0..5。u=κN,t=κ^(n−N)，原归一pref=(−1)^iλ^(2n+2N)，六coeff对u/t各≤6；完整联合σ合成及无zeta算子保Gaussian/周期，由原≤36次矩单位三角恢复。固定N的n步七根λ²κ^a，固定n−N的N四步七根λ16κ^(4h)。原JS仅s·六Mellin行，完整浅+外部为总行减共同；未给其它基中央零。
 R670原Λ2 whole型0五系数准确满足47360b4c13+64b2c7−32bc4−69c1=0；全λκκN均在固定4维H29。原11核四显示列两η minor固定非零，同ray稀疏删后所有N4真整满射、核余7。可另造q_N^kill整条Λ2零，仍保全π4/九约束；它同时杀R665全部负一深支，其余六Λ/外部不删。kill向量依N，不能直接继承固定P的N递推。
+R671固定N/j，未切cd双深原行V=c_jλ^(n+3j)A，额外双Y I=c_jλ^(2n+2j)B(κ^(n−N))。同q原外部O=V−I，S由P1(T)=∏a0..6(T−λ²κ^a)准确unit过滤回A；T偶步质量同精确、log余项≥7n−6N。原cd不双深X满足P1(T)O+P1(λ)X=P1(λ)(−1)^iλ^nβ^N JS，T保6δJT和全余项；O/X不同真域不单独赋零。
 同R594未加帽四全行基准0，门外负基准不删。固定CM稀疏单位仅供固定λκ多项式；旧负五I1未付，与负一分清。
 
 ## 惰性全中央、解析和全成本
@@ -55,8 +55,7 @@ R624/630原Hadamard/三Gaussian/ψp四位、division p7及全低残差保。R636
 R639整范数一CM极限给Ec=hTg,Tg±1整；原j0仅使零初值同解延每个R<RE。R660原Φ/B、完整边界轨道/首[z^(p+1)]A_m给闭X盘必须j0和Q^(p+1−m)|B；Hurwitz/复界迫大p首有理系数真0。
 R663真实整LT坐标使[-p]=−pv+v^(p²)，Q=W^(p−1)−p；完整余数r_ij=Σ_(k≥j)binom(k,j)p^(k−j)b_(i+(p−1)k)。同Y=H^-mR(WH^d)满足Y′+maY=(1+dWH′/H)B，a在真闭边界略外仍常数主导；同Y闭盘iffQ|B且真过界。原j=Y0/Neumann全尾保持；j0→余数及原X更强下降均未付。
 
-全九格独立：普通3klogD、惰性(0,3)、复−3klogk+3klogD；aI+NbI<3N−6未过。R641/644固定D五C闭RE仅常数须p>J,p∤A；R652/658真实Gaussian子式付J≤(5184+o(1))D²，R656同A对数高度O(D4logD)，全部坏素数九格成本≤20kH/X，4<θ<7迫p>CDθ,p∤A的非整层。原中央→所有D/k真整层仍缺。
-R643有限中央Gaussian正成本O(k(loglogk)²)不改bI3；七塔/全非中央Stokes、增长和真实负收益不省。
+原全九格：普通3klogD、惰性(0,3)、复−3klogk+3klogD，严格门aI+NbI<3N−6未过。R644固定D闭RE仅常数须p>J,p∤A；R658 J≤(5184+o(1))D²、R656同A高度O(D4logD)及坏p成本付4<θ<7大p真非整层，但原中央→所有D/k真整层仍缺。R643有限中央Gaussian正成本不改bI3；全部七塔/非中央/增长范围见完整前检。
 
 ## 原同R及全物理格
 

@@ -46,3 +46,5 @@
 - [R669：两原S共同来源的完整六维返回与双深度递推](../results/R669-original-double-s-six-dimensional-source-return.md)：七条件A源和完整pair通过零交叉Gaussian算子准确合回Ξ_j=σ34x^(17−3j)六基；原≤36次矩单位三角恢复全系数，对κ^N、κ^(n−N)各至多六次。固定N的七根λ²κ^a及固定差深度的七根λ16κ^(4h)为真实来源递推；原JS与全浅/外部同六观察返回，未新增中央零。
 
 - [R670：原核对完整Λ2的四维整像与合法取消测试](../results/R670-original-full-lambda-two-image-and-exact-cancellation.md)：原四次权/C分离使全部λκκN的wholeS29型零五系数满足显示四维超平面；两η固定minor非零，原11核在同ray相对密度一子族全N4整满射并余七维核。可另造同π4/九约束测试整条Λ2零，也同时取消它的完整负一深支；其余来源/全补域保持，依N新测试不冒原固定P的N递推。
+
+- [R671：固定N原cd返回、真实外部的单位过滤与中央接合](../results/R671-fixed-depth-cd-return-and-original-exterior-filters.md)：未附第二Y的cd双深行准确λ^n返回，真双Y S行仅七个λ^(2n)κ^(an)模式；同q七步单位过滤精确恢复S，T偶步质量精确/log全余项≥p^(7n−6N)。cd内Y外部与cd不双深外部同式返回原JS/6δJT，保全部质量/移动cut，不给外部单项赋零。
