@@ -19,10 +19,12 @@
 - [Q十三原始核](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)付λI=2/十二单位、整性/freeI及80444原产品。[216原来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)保1632 Koszul单位块；SE核202不自动共同整基。[完整高商](results/R150-appendix-complete-original-higher-kernel-eight-positive-indices-and-length26.md)仅F31谱 $1^3,2,4,5^2,7$、长26，26659556原产品。准确vdetB=δfull+2+σO+δhigh；F31=243=66+2+149+26。Q的O29…149、高商26及同D leading31单位仍开。
 - [完整射影gcd381](results/R150-appendix-full-projective-divisor-degree381-and-residual-multiplier170.md)配∞61给Δaff≤320、同非零R=Δaff/K158次数≤162，九Rh0tj全局原像、degRh0≤186；K158=s66(s−2)12(s+6)12F+⁶F−⁶E8⁴。[同九source费8531](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)保全部4367输出及原次数≤3，三支8526/8531/334。R系数/来源高度/固定31分母未算。原同D自然权8770、∞阶130…243/deg8527…8640、q8369…8482；lc(K158)=5^16为31单位。normal pencil非幂零，原能量/参数导数保全部反馈。
 
+- [全局严格删除二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)：对每个tj及任意a,k，(s−2)^k a tj∈L iff a tj∈L；以全部原局部环判准，不逐坐标除来源。h*=h0/(s−2)次数23与原h0全局成员性等价；真Δ在2恰12故R(2)≠0。同九Rh*tj有原多项式来源，degRh*≤185、成本仍8531（目标支路333）。R其余未知支撑未清。
+
 ## 活跃执行、原缓存及恢复
 
-- run43740928483自17:24:27运行170分钟loop/180分钟job，约20:14结束；每30分钟及每步/推前实际pull核两README。持续增量并在结束前准备新job恢复，不因时限结束研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前15步actual完成，大数组只留本job临时区。
-- 第12步P61实际34.995920669秒，tmp infinity-small-original-projection-smith/temporary有Q/F31完整state及原系数；第10步第五tmp infinity-fifth-true-incoming-checkpoint保18条链/两高核。第15步∞完整高实际3.976483646秒、binding be780095c27b5cdc6729a5736c7b42d84dc4d0a11bec67ca2997f592dc7dea05，tmp infinity-complete-normal345-high-field31保actual31主元/DAG。normal正续两个第六退出方向。
+- run43740928483自17:24:27运行170分钟loop/180分钟job，约20:14结束；每30分钟及每步/推前实际pull核两README。持续增量并在结束前准备新job恢复，不因时限结束研究。request为notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，前15步actual完成，第16步第六低式已入队180秒/2GiB（外240）；大数组只留本job临时区。
+- 第12步P61实际34.995920669秒，tmp infinity-small-original-projection-smith/temporary有Q/F31完整state及原系数；第10步第五tmp infinity-fifth-true-incoming-checkpoint保18条链/两高核。第15步∞完整高实际3.976483646秒、binding be780095c27b5cdc6729a5736c7b42d84dc4d0a11bec67ca2997f592dc7dea05，tmp infinity-complete-normal345-high-field31保actual31主元/DAG。子tmp infinity-complete-sixth-two-projection-failures保完整RREF先落盘、随后每整阶原乘回；normal续第六。
 - 二点父tmp two-one-true-q-second保592单位/X2/S2；第13高17实际4.196554438秒、第14第三实际5.484275119秒，子tmp two-one-complete-q-third。二点已封；literature转全局去因子与未知有限支撑。全部源码/参数/原SHA在各正式稿和notes/r150-source-kernel-session-789f/小回执。
 - 旧43731615668/43731613530/43736746064/43702348535均结束，旧tmp不可假用；新job必须按归档源码重建。根独占main/H/open/results/log与逐结论actualpush；代理只交已冻结独占稿。
 
