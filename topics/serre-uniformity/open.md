@@ -92,6 +92,8 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R810（已证明）**：[原toric完整单位偶矩与曲率链配对](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)。原P_T exp(tE)P_T=P_r(1+2t²/3)P_T给全部(2j)!·binom(r,j)binom(r+j,j)/3^j单位；完整Hankel非退化，原toric线的E链和观测链均为基。K^p(P0)=3B²E的压缩高偶矩仍为单位，但P_T不水平、P_TKP_T零曲率，真实源方程必须保[ K,P_T ]v。实际u_h在Legendre零时不能归一，整链非退化不保证原指定系数；继续原z/t到同h的完整源配对，未筛与primitive/Legendre共同非零均仍OPEN。
 
+**惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输待算，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
+
 ### ordinary真实值与原全局对偶
 
 原p43、776bit q已Gaussian5排除，不是Serre反例。R773/776/779/780原格/cochain/real/NT像已成，三个Norm/深度自动，不决定真实Robert值。R783原Θ=B−iA=13b、b=10Θ、Ω₂/ε=22−2Θ，坏值Θ=11；平衡jet Θ=−iKq，坏Kq=11i。实际Robert/Kummer/Shapiro、global dual、Θ仍缺。保Euler因子和一次交叉相位，不做巨大q挠点枚举；真K子域乘积/43次幂及小11次角色都不能代χ±1。

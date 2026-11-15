@@ -4,7 +4,7 @@
 
 证明绝对常数C使所有无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：69bde9bfc46a9c4f4c3d9c1eb40b66bada1f7c97**（2026-11-15T14:26:41.680818+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI。前态逐字保[R820成功前H](notes/2026-11-15-handoff-before-R820-success.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
+**已读规则提交：0783d07e20cbd9e81525a25eb52c66c02880deb0**（2026-11-15T14:30:12.632514+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI。前态逐字保[Gaussian分解前H](notes/2026-11-15-handoff-before-Gaussian-rayclass.md)，内接全部归档；[R820前open](notes/2026-11-15-open-before-R820.md)。
 
 每结论立即推；至少每小时实际pull并比较两README，变化只读diff即遵守/记SHA；非快进或main锁竞争立即pull --rebase循环重推，禁force。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions；本地只纸证/IO/schema/hash/AST。根§15：可重算raw/机器证书不进Git/Release，必要输入/断点仅一日活跃传输。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行。
 
@@ -44,8 +44,9 @@ R801长尾/R803混合比/R805整基/R807清极和R797/799/800均已完整IO，so
 
 [R812全split未筛非零](results/R812-certified-split-prime-unfiltered-apolar-unit.md) run43713181015/source2b7183a3：六FG Norm只2/3/5/11，U/det只2/3/11，全IO已核。全部p≥41、p5mod12未筛交替卷积单位；不代primitive/Legendre同h，五端项/共同c^(2−2p)保留。p11mod12[原harmonic7](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)余项为一次q原函数，Qpoly在P0零；指定CM FG代数评价/单位仍缺，不能称水平。全SS常系数端项恒等已排，单j0关系未排。
 
-R816原实cusp域Q(ξ_p)^+，c=3m−1与L/K=m互素，Y_L/X_L单轨道、原三次盖全分歧且剩余域不变。R818原首Fourier泛函同构/u_h非零给真实Hom非零评价；R819经原R728得K[T]=Q(ζ_(p+1))与Hom域rank1，T=Dρ^-1σ、ωTv=ρσωv，评价核稳定故每非零原Hom全cusp不分歧。R821整Hom格保Φ_n(T)=0，实际cusp像在C[1−ζ]，σ固定cusp后T=±1，Φ_n(±1)=1迫像O；原y在Y每cusp简单极，x/a及h/a阶(p−2)/3。非cusp极仍待。
-R823在原M2,1≠0下由有理c1/s=a−1与同一域稳定核，得所有非零原Hom在c1不分歧；保J_h=c_h M2,h s/16+…、c0/β常数。充分大前提用R729，旧共同m1不重申为新结果。以上char0非零均不代p单位/深度4/高度外积非零。
+[惰性Gaussian固定角色分解](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)已证：原harmonic7=四个CM形式F3/F7(level36)、G1/G5(level144)的八oldform分量，nebχ12；GC17八矩阵在Z[ζ8,1/2]整基，原一次原函数保1/d。p11mod12真实Hecke T²+p⁷、U_pJ=−p⁵V_pJ；整基＋原Q正则给八个原缩放CM值eν,p合法，FG=(c²/32)Σκνeν,p。指定组合非零仍缺；新固定运输待Actions，不跑p窗口/旧六case。
+
+R816/818/819/821/823已成全p原Hom接口：实cusp域Qξ⁺与L互素单轨道；原K[T]=Qζ_(p+1)、Hom域rank1及cusp评价核稳定，全部非零原Hom在cusp不分歧。整格Φ_n(T)及C[1−ζ]像迫全cusp映O，Y原y每cusp简单极。原M2,1≠0还给c1不分歧，充分大前提用R729；不代p单位/高度。全部作用、比较尺度与原c0保上述归档及各完整证明。
 
 ## 主目标边界
 
