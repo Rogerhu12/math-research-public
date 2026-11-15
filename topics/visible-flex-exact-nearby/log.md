@@ -357,3 +357,9 @@ root全文核proof fb206b4ba1f08f80aca72cf4488f59104adbe4b3/23196/cfc6acd40081cb
 最终847a7dd335158482811561c2ed5e1aa7175e8797/30764/ebf8713508a11ef96decc5691056ea6eaa15d967d08b3a8af4b20c4284f6d1b3：root全文核原414行与8925B新增diff，亲回原P23a–24/PF15–23/CT4–6/IC9–25与AW/SF/WTA实际；newton核leading/右序/两ε同一，phase核双primitive/两rank/腰P。Jσ编码在完整T_Js^-1之后，mean原样读回；PF20b κ/ng*/E0同密度，cut与腰两类rank不混。WY24双I中间窗、WY28完整dual行、WY35只state相邻角取消均核，所有未付input保符号，不算新数字。
 新增WY39–51：先FA τ=−σ重标，原n^-1幅度乘iε给d_c，C_c=d_c∘H_c，不是density Jacobian替换；leading完整LΦ′。CT4同实RHS及PF共同根finite F*证明两ε的C相同且real。H=χ∘Hc和真实dr使SF signed积分正是CT个别系数，再原TF/S右序成为IC两支及LN差。whole两sign状态误差精确为UX^-1 J T^-1 E* Λ^-1，故只KΛ无另猜√2；Λ不得越TF/S。腰projection/mean/finite/P97与PW独立ports全保。Λlower、TF两窗、同函数三窗、SF积分/所有join及incoming/Schur/R0仍未付。
 压缩H/open前页完整保cf5f919905206521eec83635da5d9f5621ae6d36同path及原proof，不删旧域/mean/失败/恢复。本次只读README核2b4cc2f2131d4e463e343f0a4b94c3627e182164未变，本机定时CLI仍以21:32:52为最新失败尝试，下次≤22:32。继续SJ真实径导/参数鼓包/接缝及新预算。
+
+### 2026-11-15 21:47:32 UTC · visible-exact-astra-0df9 · 七浮点报告预删记录与SN原进度
+
+清单add3714ef22e151daa40c906ed42a02e93d487c5，28120B/SHA256 9b4947bb9c9e54eb0303919b5545d8efefd32d0fd59ad3fa079ed678bd7609ce：七份完整成功ordinary floating报告共367017B，逐path/blob/size/SHA、source/argv/旧成功status及restore d9466f8ba77abd78dc45c25230f0803c5a69d7ff已写；尚未删除，原NPZ/native/完整finite候选/失败/proof全部保。
+SN原43751213826/1的018e4e34f4a9f65f171b574924bb328ab6e8e8f6/16006/c6e5b6d120347d327607a8d473ee7f3edaba3b674805d68cc8f736fe2fed4c3a完整核：8488=1256+7232、interval1024、cursor4379750637617807/36028797018963968、双H3prefix[2.532635974319041 +/-3.46e-16]；complete/target false、return/supervision null，207pins/8AST/14current/4hash/runtime不变。原真pull21:40:29.858672→d9466f8b，两README空diff；只进度非终点C。
+只读138eb07409cef7be6bade82d888a1ca1e70c5ec5两README未变，非冒真pull；下一顺序普通删清单精确七path，接SJ新整段系数与KL根幅逆；SN/SC3沿健康原run，不重任何已成数学，最终验收仍未达。

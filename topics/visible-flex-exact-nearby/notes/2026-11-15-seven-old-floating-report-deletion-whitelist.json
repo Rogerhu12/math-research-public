@@ -1,0 +1,645 @@
+{
+  "kind": "reviewed_ordinary_floating_report_deletion_whitelist",
+  "date_utc": "2026-11-15",
+  "prepared_by": "newton_source",
+  "repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "scope": "Only the seven exact JSON paths below; ordinary deletion in a new root-reviewed commit. No deletion performed by this review.",
+  "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+  "restore_validation": "Each complete UTF-8 report and each producer was fetched at this exact immutable public-main commit; byte length, Git blob and SHA-256 were recorded. Recovery is git show restore_commit:path, without rerunning mathematics.",
+  "candidate_count": 7,
+  "total_candidate_bytes": 367017,
+  "individual_read_limit_bytes": 100000,
+  "all_report_bytes_below_limit": true,
+  "preserved_categories": [
+    "all producer/dependency sources",
+    "all endpoint NPZ and parent endpoint NPZ",
+    "the full exact object and finite candidates",
+    "all native evidence",
+    "all failed/interrupted diagnostics",
+    "all analytical proofs and small scientific conclusions",
+    "all ray/QR/Green/SN/FA/SJ evidence"
+  ],
+  "scientific_scope": {
+    "certified": false,
+    "whole_parameter_interval": false,
+    "whole_real_angular_circle": false,
+    "whole_radial_domain": false,
+    "interpretation": "These are successful finite floating diagnostics, not continuous certificates. Their original limitations and primary diagnostic summaries remain preserved."
+  },
+  "common_preserved_inputs": {
+    "object": {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "exact_center_parameter": {
+      "numerator": "-7789843107295549",
+      "denominator": "4611686018427387904"
+    }
+  },
+  "preserved_primary_diagnostics": [
+    {
+      "label": "R125 actual Cauchy-evolution diagnostics",
+      "git_blob": "f9b309cb1d622d198b1e6ede3a84bdf1c98e99a0",
+      "bytes": 6273,
+      "sha256": "4a5df93ff37063f81b97b9f00938ea993483a32279a3c675f5a39d4d0e0e1a42",
+      "purpose": "Preserves successful short-interval diagnostics, resolution warning, and separate failed .235 attempt; explicitly uncertified."
+    },
+    {
+      "label": "R126 actual two-field candidate and first-root diagnostics",
+      "git_blob": "adfe97699fa73cd9ae24d3db8837e4ec3fda7ffa",
+      "bytes": 8714,
+      "sha256": "68acb99affa62507776252d4b6b23d7199ab0442c72f4b8bb561adc50a741b30",
+      "purpose": "Preserves the separate complete finite candidate, source/endpoint conventions and first-root diagnostics; all native/candidate files remain."
+    }
+  ],
+  "producers": [
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_resume_probe.py",
+      "blob": "70fbbcca9f1ee19e188eaddd930bd44b65b97353",
+      "bytes": 6086,
+      "sha256": "4be02352c7de4084519b448d046ba8d03a0024f118b8dcddbe19d69e43162f27",
+      "ref": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_waist_cauchy_evolution_geometry_probe.py",
+      "blob": "a5f0d193ee8502f7ceea2d262685b52542a10ec1",
+      "bytes": 7081,
+      "sha256": "b13ba7bca7a8b9882373d875537fe245e18777e6f9f8fc60402873bf30764096",
+      "ref": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_waist_cauchy_evolution_probe.py",
+      "blob": "daeb9757204f6c284a889ce1844005a474cf3d47",
+      "bytes": 6339,
+      "sha256": "d9e88d75e80bb85db00196043b9ff1d2d60d1704107bb970f1d9f4ff4b9eb558",
+      "ref": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff"
+    }
+  ],
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r02383-n1024-floating.json",
+      "blob": "26a3fe4e488baa58a8631fa336a6a068f306b96f",
+      "bytes": 58589,
+      "sha256": "9b5dac23ece4df48bf26560f1b9c82a8e1a02e9a1542d5621ffcabe6f850ea94",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 0,
+      "success_evidence": {
+        "kind": "floating_Codazzi_turning_continuation",
+        "complete": true,
+        "certified": false,
+        "status": "finished",
+        "exception": null,
+        "solver_message": null,
+        "requested_radial_interval": [
+          0.235,
+          0.2383
+        ],
+        "finished_radial_interval": [
+          0.235,
+          0.2383
+        ],
+        "rows": 34,
+        "rhs_calls": 580
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz",
+        "sha256": "7a1386a774f3b5be7d5280adeb738eabb0bdf405f6e0037e017962ffab1b8af1",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-evolution-r0235-n1024-endpoint-floating.npz",
+        "sha256": "825e9eb6b4c587c41bd39ef36c76f28366993a81af754c120fea9dbcf1081552",
+        "identity_source": "original JSON parent_state_path/parent_state_sha256; no binary body read"
+      },
+      "recorded_parameters": {
+        "angular_grid": 1024,
+        "nonlinear_grid": 2048,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.0001,
+        "method": "DOP853 with dealiased two-field continuation (producer definition)",
+        "samples": 34
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_codazzi_resume_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--state-in",
+        "notes/2026-11-13-codazzi-evolution-r0235-n1024-endpoint-floating.npz",
+        "--right",
+        "0.2383",
+        "--samples",
+        "34",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.0001",
+        "--out",
+        "notes/2026-11-13-codazzi-to-r02383-n1024-floating.json",
+        "--state",
+        "notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-target-root-n1024-floating.json",
+      "blob": "8a10e8a5fe674a12159d5137b80e90f4c98a2d18",
+      "bytes": 20866,
+      "sha256": "08d327d0f00afcc14a57084dadbfe23cb2a2367de1bca6244899a39dd23dea64",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 0,
+      "success_evidence": {
+        "kind": "floating_Codazzi_turning_continuation",
+        "complete": true,
+        "certified": false,
+        "status": "finished",
+        "exception": null,
+        "solver_message": null,
+        "requested_radial_interval": [
+          0.2383,
+          0.23839687429986536
+        ],
+        "finished_radial_interval": [
+          0.2383,
+          0.23839687429986536
+        ],
+        "rows": 11,
+        "rhs_calls": 173
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-target-root-n1024-endpoint-floating.npz",
+        "sha256": "2bf674c8d58636c270759964e392824db1b6a7cc33ea0171bc17e83d8b6867b9",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz",
+        "sha256": "7a1386a774f3b5be7d5280adeb738eabb0bdf405f6e0037e017962ffab1b8af1",
+        "identity_source": "original JSON parent_state_path/parent_state_sha256; no binary body read"
+      },
+      "recorded_parameters": {
+        "angular_grid": 1024,
+        "nonlinear_grid": 2048,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00001,
+        "method": "DOP853 with dealiased two-field continuation (producer definition)",
+        "samples": 11
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_codazzi_resume_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--state-in",
+        "notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz",
+        "--right",
+        "0.23839687429986536",
+        "--samples",
+        "11",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00001",
+        "--out",
+        "notes/2026-11-13-codazzi-to-target-root-n1024-floating.json",
+        "--state",
+        "notes/2026-11-13-codazzi-to-target-root-n1024-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r0239-n1024-floating.json",
+      "blob": "166e12ad74e438c093368225f3c1d49cd12aea68",
+      "bytes": 50354,
+      "sha256": "ba58504f0b52c526dd8276ad12ef02a43607e325dd7a39ea8b41481663aaa74f",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 0,
+      "success_evidence": {
+        "kind": "floating_Codazzi_turning_continuation",
+        "complete": true,
+        "certified": false,
+        "status": "finished",
+        "exception": null,
+        "solver_message": null,
+        "requested_radial_interval": [
+          0.2383,
+          0.239
+        ],
+        "finished_radial_interval": [
+          0.2383,
+          0.239
+        ],
+        "rows": 29,
+        "rhs_calls": 271
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz",
+        "sha256": "b54cdfb48418f6794610c3b3ed6f47f496f069316fff9be5ab3550d5a2895e51",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz",
+        "sha256": "7a1386a774f3b5be7d5280adeb738eabb0bdf405f6e0037e017962ffab1b8af1",
+        "identity_source": "original JSON parent_state_path/parent_state_sha256; no binary body read"
+      },
+      "recorded_parameters": {
+        "angular_grid": 1024,
+        "nonlinear_grid": 2048,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00005,
+        "method": "DOP853 with dealiased two-field continuation (producer definition)",
+        "samples": 29
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_codazzi_resume_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--state-in",
+        "notes/2026-11-13-codazzi-to-r02383-n1024-endpoint-floating.npz",
+        "--right",
+        "0.239",
+        "--samples",
+        "29",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00005",
+        "--out",
+        "notes/2026-11-13-codazzi-to-r0239-n1024-floating.json",
+        "--state",
+        "notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-cap-cut-n1024-floating.json",
+      "blob": "8914b382279def5a18e2247cbaf4fcaa200c314f",
+      "bytes": 76375,
+      "sha256": "608bf9061daa6594af9d69c89416fca2ca0566d37f342cbaeadb3b5fb413fc38",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 0,
+      "success_evidence": {
+        "kind": "floating_Codazzi_turning_continuation",
+        "complete": true,
+        "certified": false,
+        "status": "finished",
+        "exception": null,
+        "solver_message": null,
+        "requested_radial_interval": [
+          0.239,
+          0.25
+        ],
+        "finished_radial_interval": [
+          0.239,
+          0.25
+        ],
+        "rows": 45,
+        "rhs_calls": 3583
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-cap-cut-n1024-endpoint-floating.npz",
+        "sha256": "ddc7826072274095d2bed4cd7a19590fc565bc4217fb2c087c4f6064eba821ab",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz",
+        "sha256": "b54cdfb48418f6794610c3b3ed6f47f496f069316fff9be5ab3550d5a2895e51",
+        "identity_source": "original JSON parent_state_path/parent_state_sha256; no binary body read"
+      },
+      "recorded_parameters": {
+        "angular_grid": 1024,
+        "nonlinear_grid": 2048,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00005,
+        "method": "DOP853 with dealiased two-field continuation (producer definition)",
+        "samples": 45
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_codazzi_resume_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--state-in",
+        "notes/2026-11-13-codazzi-to-r0239-n1024-endpoint-floating.npz",
+        "--right",
+        "0.25",
+        "--samples",
+        "45",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00005",
+        "--out",
+        "notes/2026-11-13-codazzi-to-cap-cut-n1024-floating.json",
+        "--state",
+        "notes/2026-11-13-codazzi-to-cap-cut-n1024-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-cap-cut-projected-n512-floating.json",
+      "blob": "4fbd6973179dc91b25f425360ab8b6b82fbe4107",
+      "bytes": 76158,
+      "sha256": "0541707de6d516691ae4215b84cd26cc76ca4cf0688499fbe0782d2ce3417204",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 0,
+      "success_evidence": {
+        "kind": "floating_Codazzi_turning_continuation",
+        "complete": true,
+        "certified": false,
+        "status": "finished",
+        "exception": null,
+        "solver_message": null,
+        "requested_radial_interval": [
+          0.239,
+          0.25
+        ],
+        "finished_radial_interval": [
+          0.239,
+          0.25
+        ],
+        "rows": 45,
+        "rhs_calls": 3583
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-to-cap-cut-projected-n512-endpoint-floating.npz",
+        "sha256": "30b5c936787413b6539584f40422987e2892a3bc4d0e445906ee261ff0781431",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-at-r0239-projected-n512-endpoint-floating.npz",
+        "sha256": "f3da6e3220a919c69bff6ed29a9ccdbb29438b9fd5e9347341736c6ed8a77300",
+        "identity_source": "original JSON parent_state_path/parent_state_sha256; no binary body read"
+      },
+      "recorded_parameters": {
+        "angular_grid": 512,
+        "nonlinear_grid": 1024,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00005,
+        "method": "DOP853 with dealiased two-field continuation (producer definition)",
+        "samples": 45
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_codazzi_resume_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--state-in",
+        "notes/2026-11-13-codazzi-at-r0239-projected-n512-endpoint-floating.npz",
+        "--right",
+        "0.25",
+        "--samples",
+        "45",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00005",
+        "--out",
+        "notes/2026-11-13-codazzi-to-cap-cut-projected-n512-floating.json",
+        "--state",
+        "notes/2026-11-13-codazzi-to-cap-cut-projected-n512-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_codazzi_evolution_probe.py": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-waist-cauchy-evolution-r005-n1024-floating.json",
+      "blob": "db90e24f1fbb07291bf3bb4bc1f1a2ae934467f5",
+      "bytes": 48827,
+      "sha256": "7900a017646ba6a0ae945a6935579b2edb3869cb227162e7a0de5a3b89d561c1",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 1,
+      "success_evidence": {
+        "kind": "floating_fixed_target_nonlinear_waist_Cauchy_evolution",
+        "complete": true,
+        "certified": false,
+        "status": null,
+        "exception": null,
+        "solver_message": "The solver successfully reached the end of the integration interval.",
+        "requested_radial_interval": [
+          0,
+          0.05
+        ],
+        "finished_radial_interval": [
+          0,
+          0.05
+        ],
+        "rows": 51,
+        "rhs_calls": 2555
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-waist-cauchy-evolution-r005-n1024-endpoint-floating.npz",
+        "sha256": "993b804149fa27c410533af5da7e91a8a49ab496aa74249ea892f0dc4ee8f0fc",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": null,
+      "recorded_parameters": {
+        "angular_grid": 1024,
+        "nonlinear_grid": null,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00025,
+        "method": "DOP853 finite rotating-frame Fourier collocation",
+        "samples": 51
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_waist_cauchy_evolution_geometry_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--nodes",
+        "512",
+        "--angles",
+        "1024",
+        "--right",
+        "0.05",
+        "--samples",
+        "51",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00025",
+        "--out",
+        "notes/2026-11-13-waist-cauchy-evolution-r005-n1024-floating.json",
+        "--state",
+        "notes/2026-11-13-waist-cauchy-evolution-r005-n1024-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+        "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be"
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-waist-cauchy-evolution-r005-floating.json",
+      "blob": "992527b7568dd7cd472a62bf1ae7c4231ef33a8a",
+      "bytes": 35848,
+      "sha256": "5b32ff836b2b9ac454f1e5f734646eed15d0e5ad1c72292d4e5c8376fa157068",
+      "restore_commit": "d9466f8ba77abd78dc45c25230f0803c5a69d7ff",
+      "classification": "ordinary_successful_uncertified_floating_report",
+      "producer_index": 2,
+      "success_evidence": {
+        "kind": "floating_fixed_target_nonlinear_waist_Cauchy_evolution",
+        "complete": true,
+        "certified": false,
+        "status": null,
+        "exception": null,
+        "solver_message": "The solver successfully reached the end of the integration interval.",
+        "requested_radial_interval": [
+          0,
+          0.05
+        ],
+        "finished_radial_interval": [
+          0,
+          0.05
+        ],
+        "rows": 51,
+        "rhs_calls": 2555
+      },
+      "preserved_endpoint": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-waist-cauchy-evolution-r005-endpoint-floating.npz",
+        "sha256": "723ed6410f9682e323c5af7cd6dd6930d662db794ed06f343312f634cdb11e28",
+        "identity_source": "original JSON endpoint_state_path/endpoint_state_sha256; no binary body read"
+      },
+      "preserved_parent_endpoint": null,
+      "recorded_parameters": {
+        "angular_grid": 512,
+        "nonlinear_grid": null,
+        "primitive_nodes": 512,
+        "exact_center_parameter": {
+          "numerator": "-7789843107295549",
+          "denominator": "4611686018427387904"
+        },
+        "rtol": 3e-10,
+        "atol": 3e-12,
+        "max_step": 0.00025,
+        "method": "DOP853 finite rotating-frame Fourier collocation",
+        "samples": 51
+      },
+      "reconstruction_argv": [
+        "python",
+        "scripts/fourfold_phase_waist_cauchy_evolution_probe.py",
+        "--object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--nodes",
+        "512",
+        "--angles",
+        "512",
+        "--right",
+        "0.05",
+        "--samples",
+        "51",
+        "--rtol",
+        "3e-10",
+        "--atol",
+        "3e-12",
+        "--max-step",
+        "0.00025",
+        "--out",
+        "notes/2026-11-13-waist-cauchy-evolution-r005-floating.json",
+        "--state",
+        "notes/2026-11-13-waist-cauchy-evolution-r005-endpoint-floating.npz"
+      ],
+      "reconstruction_argv_basis": "Read-only reconstruction from the original successful report and the exact producer argument parser, not a recorded shell command or authorization to rerun.",
+      "retained_dependency_sha256": {
+        "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+        "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+        "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+        "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be"
+      }
+    }
+  ],
+  "required_root_predelete_guards": [
+    "Fresh current-main exact path/git_blob/bytes match for every proposed deletion; stop on changed identity.",
+    "Delete only listed report JSONs; do not expand to adjacent endpoint, native, candidate, proof or failure files.",
+    "Preserve this whitelist and immutable restore commit identity in the maintenance record.",
+    "No history rewrite, no source execution, no binary connector read and no new numerical conclusion."
+  ]
+}
