@@ -179,3 +179,6 @@
 
 
 - [R150-appendix-zero-smith-length-bounds-and-exponent-nineteen](results/R150-appendix-zero-smith-length-bounds-and-exponent-nineteen.md)：原零点Q最大/次大子式阶分别[53,66]/[47,55]，最大Smith≤19；对已付函数域像目标，完整原系统模s19是形式局部成员性的充分必要判准，13自由坐标前提保留。
+
+
+- [R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection](results/R150-appendix-selected-normal-four-high-kernel130-and-residual-intersection.md)：同选normal4高块真Qrank1355、完整核130及225680原高产品；新130残差独立，normal≤4新增头数等于其像与旧14维残差像的交维0…2，尚待实际原第二乘回。
