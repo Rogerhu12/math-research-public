@@ -435,3 +435,8 @@
 - 首4probe对/七固定权/300min，同次Actions AST和数学；修继承Γ拒绝receipt分支及outer-timeout续接，无额外测试gate；旧同核run不改。
 - R787小IO43750891953已见全部42项m0通过/m1首非零，falseFINAL的0是总成功字段，非未验单阶；按真实残差继续。
 - 新workflow仅为本课题公开计算；push前rules job132924494373真实pull至40c3bb3c22f46c4a2a8b1051f4a90d9cb5864281，两README无diff。
+
+### 2026-11-16 03:15 Asia/Taipei — serre-public-astra-20261115
+- R787首42候选小IO43750891953已完整读：全D为unit/8570或8571bits，m0构造性通过、m1全部首非零；登记准确诊断、manifest/queue/LLL/回执SHA，不把falseFINAL的0误作未通过任何单阶。
+- R815新run43751142120/job132925208417同次AST已过、compute进行；规则job132925133766实际pull5abcb9cc、两README无diff。
+- 下一步复用旧42全格基研究56维增probe与准确A构造；本次push前专用rules132925255487实际pull至5abcb9ccfba85d6a708b1df94e6383ff549f72a7，两README无diff。
