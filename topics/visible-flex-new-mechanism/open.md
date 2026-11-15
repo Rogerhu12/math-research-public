@@ -70,7 +70,7 @@ R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实
 
 [R178](results/R178-fixed-color-priority-IBP-and-terminating-shared-word-map.md)及[R179](results/R179-universal-independence-of-fixed-color-remainder-words.md)已经给规范两根表的真实函数含义；旧pure依原转换和规范语法复用，不重40/31或70字面关系。
 
-**full77 actual43676765171/sourceca4e5286已完整**：从62原态只续15列，全部77转换、代表rank52、25真原关系、旧外共7新独立式。25.52965s/RSS208.594，旧normalization/pivot replay0、新primitive0；全部原件保留。main12724/68bf26fc、receipt43019/1e4faea0、cert773910/fec2d558(raw3936105/88baa9dd)、state1031761/951fb294。正在消费完整7行和原转换，R186将给真函数空间/响应商/完整字符头部的不同含义；不继续外点串或重旧LP。
+**[R186](results/R186-complete-weight-minus2-function-kernel-and-five-dimensional-character-head.md)完整呈示已闭合**：77列/154两根规范转换给U−2真维52、R40真独立、响应商维12；全部66分母+七新式给真正H−2维5，147列完整核95。真实五参数(α,β,a,δ,m)，最高矩阵det−161m²/64迫正字符m0，剩R186(26)完整四参action。root正在写全路径排除链R188，tail独立核有限边界；不再编77/旧RREF/必要LP。全原件stored/raw双SHA已核，历史保守标签由R179纸证解释。
 
 [R182](results/R182-shared-word-original-identity-rejects-the-all-layer-positive-point.md)已从完整原式关系推出低层常数 **D0=−α−β**；旧必要外空间12→11，非完整真实head。原64投影转换保右锚、规范语法与两faithful分量，不以字面相消冒原函数证明。
 
