@@ -485,3 +485,7 @@ process27298/65c727ece5f30a11c62ccb4acb5b2c301990cb2173eb8edd395d3d611c4540f7，
 DB最终35e8a305ee2c2bfd300db49e02a1d79e4ce9892b /13869B /SHA65357a91b18afbf76662a711e2a7c58360f4bb55acd357dcdc3a0a81e0427433。root全文/最终两段diff、MA7/MA8/WC原件亲读；phase独核DB6–16并回E12–18，newton独核DB20–22。主要线性频带缩33..96与225..288，fullmean/非线性差/两侧费用保；无新科学/旧重算/数值低门。activeGreen缺局部F/J且无hook，原input Gram不能生成新receiver。H/open压缩只移重复细账到完整不可变dc10bb948416e2f89f4cd487867b6a06cceb5f48同路径，所有原义务/失败/恢复链保留。
 
 root亲读Green15:05:51 process fbb5dab686be2056a22379d031eba85b1bca0ced /48959B /SHAe2de871e69996101a7ca50527b54734c326ee54316856e540c39a4592e008957；future/product各5970done，past3424、47groups、107queued/3consumer、childnull，尚无final。runner15:05:49.831798真pull到35690c7731f50e5124d2e722230eacbf8aee7a68，两README diff空；capacity199023820B。最新根只读README核f23580745a06ff5191087fe47ff5a3d99f1dcb35，不冒本机pull；本机仍14:22:21定时/14:51:51非FF真实CLI无executor，按根规8小文本例外推进。
+
+## 2026-11-15 15:08:37 UTC：保径向系数与density1十项新合同独立推送
+
+RJ最终blob3c679f1fa1b71b6dc18bee76ab04a0e039787b12 /19975B /SHAf63693dd37786555c58abb830661b3a990c8b9ba35b8ada701734b688aacabd3。root全文及唯一域说明diff亲读；newton全文独核，并逐回原fold27427dd6/410675cf Gi全RG/SG含EG而非Bi、成功RV aa6d7305/d59893af negative_geometry literal ell3=up(vp2/(7dt))。root随后亲读同两原件。新Q reciprocal/product、QT消去、V chain、Δ逆/完整rank与25A/10项/21原字合同通过；不重旧幅度、fold、profile或径积分。原analytic全δ列和六real参数rows分别保；physical频标/无extra388/两J窗/outerJ位置/η^-1/全mean保。候选SCI4233f036/c1ed2857正在根静态核，尚无新actual或改善声称。两README于800ef234fc0ee9d8383094e8701b07bf77689aa1无变，规则与本机无executor例外保持。

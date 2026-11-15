@@ -75,6 +75,8 @@ phase_inverse负责完整负侧。此前逐字源链、输入/域/源单位、su
 
 [BG精确leading g逆列](results/R133-supplement-exact-inverse-leading-transport-and-five-density-zero-sources.md)、[actual43726985545/1](results/R133-supplement-actual-exact-inverse-leading-transport-and-five-density-zero-sources.md)：child0/24/math.151850595，report7c53f3c6/execution7736f33c/resulteb999876；87pins/27AST、HP82零改。完整signed c*y消去、q修正/BV∂φR0/fullSG holXi/SB、六row和fullmean保；20A只改五density0、26逐字HP/local/W2，68球核。当前pair<6.749289e9/mean<5.243255e7，g0RQJ<1.746569e9/primitive<1.159522e9。新Bplus1..3供RJ只读，Bplus0端点再编码radius3.40e−64，不要求同HP字符串。源预算不等于strong-return常数。
 
+[RJ保径向系数jets与density1十整项](results/R133-supplement-retained-radial-coefficient-jets-and-density-one-transport-sources.md)f63693dd合同：Q=W/G及(QT)φ=Qy/2先准确消去；原Gi为fullSG scalar逆，VTTT=7U3仅读RV原正预算。14幅度/HP W/SV GXY/BG Bplus仅读，Δ逆jets/ordered rank/物理g=Dw−pφ完整；25A拟只换7first+3独立mean、另21原字BG。保原analytic列与real参数rows各自域、两窗/六dr/η^-1/全mean；新SCI未实际运行，不能先称改善或GH。
+
 [K真实径reference两ordinary源与两输出](results/R133-supplement-genuine-radial-reference-two-source-kernels-and-both-outputs.md)保n^-7/6、κ/真实dr、独立F2且不微分F2，Σmode sup在积分前；root仍付n^7/6混合迹。它只授真实径reference，不授非径耦合/两端选择/GH。
 [N完整负源→strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)、[actual43716450174/1](results/R133-supplement-actual-negative-source-to-strict-density-cut-readout.md)锁child0/17、22pins/六cut/旧math0，report59ab1bb6/execution318dd25b/result72745bf3。ordinary H−2/3 first+独立mean→H−1 physical→density/mean→两有序normalizer的完整身份保。R=.005最小proved，ordinary<1.070261672/root-jump<15.135785709；.001/.002充分门失败不冒奇异，不拼不同cut最小值。
 
