@@ -596,3 +596,9 @@
 - 复用1360条已成C列22.97MB，不重导数/20次整除/Hermite；原detC=P20给投影度界ΣW−418，a0界1340、非零a界3516。
 - 首scope为a=0,1,−1,2，公开core正实现节点原子det/完整Newton插值代回/xgcd乘回；有限投影失败不否定全模，原同核Hermite继续。
 - 本push规则：本地真实pull至b8d335ee5f882635cf9da06ed15cd73fe6326d92（2026-11-15T21:55:06.765012+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:00 Asia/Taipei — serre-public-astra-20261115
+- 核原43737413555真实结束：21:49:24UTC BudgetStop/exit1/errornull；完整518位73180954B/4997a05b，历史518条，未得准确关系。
+- 核manifest7a22beb2/1262项、artifact14181899102/451202899B/343bee0a；原请求只换resume继续93d3/42157，保原输入/十四分支/每八位重构。
+- 将新精度414fef53/889cdf5e绑定实际518 current并激活：完整A/C相容、KH新全格/一次56LLL及原129×280；旧98拒绝默认不用，H/open压缩前逐字归档。
+- 本push规则：本地真实pull至d41db6dac9f69f7288ba7e1663d355e51e559b69（2026-11-15T22:00:38.573516+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

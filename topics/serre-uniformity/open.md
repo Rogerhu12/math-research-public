@@ -52,9 +52,9 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 已成且禁止重算：R774共同56Hodge三积，R775 M2/M6/M12及普通power1..6配方，R781原f4的R0..142与κ幂，R786原power1..5 q0..128，R790原146个M2的CM值/首粗导，R791原Hom/实下降，R794五维低次数η基，R795原1506个V6 q0..81，R796原CM的144条全局二次关系及length2，R798真实1506选行minor和690个τ³V3积。具体真实来源、耗时与输出SHA保各certified结果和上述归档。
 
-**R787真实430位BudgetStop后立即续算**：run43708449812/sourceac5998f3完整430位，最新60765868B/SHA00855d88及430条历史由小IO43737168117实读。新run43737413555/job132883028161/source4092d1cc已进行，同core93d3d72b/wrapper42157e0d恢复新manifest1b92c4e5/1262条和原14分支，不回退259、不换R802。详见[430位断点](notes/R787-430-digit-checkpoint-and-same-core-continuation.md)，当前无真实A/B。
+**R787真实518位及双入口**：[真实断点](notes/R787-518-digit-checkpoint-and-precision-increment-activation.md)原43737413555/source4092d1cc结束于BudgetStop，最新73180954B/4997a05b、历史518条07875f05、manifest7a22beb2/1262项、artifact14181899102/343bee0a。原93d3/42157只换resume同核继续，保全部14分支/原数域/原129×280；另将414fef53/889cdf5e新精度消费者绑定真实518位并激活。新run由本次push派发，准确关系仍未成。
 
-**原430位数域共同分母的已闭首轮**：[projective契约](notes/R787-original-projective-reconstruction-method.md)9a75fd87保原1186方向/整阶D/free/Z/129×280与B非零；[实际首轮](notes/R787-projective-first-ended-search.md)记run43745966802的5×28行只因充分唯一性D_bound被筛（K59bits），未做准确候选验算。充分高度界不是准确式必要条件，旧28格不重跑。随后42/56已按原数据结束，准确失败和固定C的独立Ω见下文；不由任何有限失败宣称430不足。
+**原430位共同分母已闭首轮**：[原契约](notes/R787-original-projective-reconstruction-method.md)9a75fd87保1186/整阶D/free/Z/129×280及B非零；[首轮](notes/R787-projective-first-ended-search.md)5×28行仅充分D_bound筛、未准确验算，K59bits非必要高度。旧28格不重跑，不推430不足。
 
 **R809六原C已准确完成**：[实际结果](results/R809-certified-original-six-Hodge-normal-vectors.md)，run43712427063/source91fbd81e，84Q右端/full1380、S5=1234、p1000000007/minor29693114；13341.116785255秒，各最高项零给权4。原冻结verify全部成功；小IO run43733430148仅精读16件4.80MB取得真实manifest/cert/S5/minor，不重算旧行。保82^10、b/s与λ一次；A/B仍待真关系后追加，极理想/eta/高度未得。
 
@@ -70,12 +70,11 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R815原Mg/Γ真实425素数后同核续算**：原run43719622321/source2a3300a9因BudgetStop退出；小IO run43747973677确认g完成425prime、last1000008791、模数12707bits，Γ未开始、无完整operator。manifest4e78095e/3464项，current561995095B/402379e2与425小receipt f136bee8准确匹配；[断点全pins](notes/R815-425-prime-checkpoint-and-same-core-continuation.md)。新原请求ac0870b2只增真实resume，不改80516ff9核心/ab725da0包装/849bca27框架、53源、prime007或原嵌套mode；恢复完整stage和唯一current，从425后继续。保持Mg六模/七准确点与Γ五模/七嵌套准确点、完整[[Γ,W]+MgW′,W]=0及两图因子，不另Mh。
 
+**R787旧42/56已闭**：[42诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2/[56方法](notes/R787-original-incremental-three-probe-reconstruction-method.md)58a7713f/[56结果](notes/R787-three-probe-56-ended-and-fixed-C-next-layer.md)保全基/幺模/来源：42D和56新D全原m1拒，后者旧引用0/队列尽/三预算false。只排当时A/B，不重LLL或断精度不足。
 
-**R787双/三probe实际结束**：[42诊断](notes/R787-two-probe-first-lattice-ended-and-continuation.md)375414b2、[56方法](notes/R787-original-incremental-three-probe-reconstruction-method.md)58a7713f及[56实际诊断](notes/R787-three-probe-56-ended-and-fixed-C-next-layer.md)保原完整基/幺模/来源。42个D全m1拒、余5对未执行；真A0增广的56新D全m1拒/旧引用0/队列尽/三预算false，1275.363秒。只排当时A/B，固定C严格结论见下；不重旧LLL或宣称430不足。
+**固定C98已严格排除**：[共享残差](notes/R787-original-fixed-C-next-digit-obstruction-and-shared-source-contract.md)5c4ab25c/[branch0方法](notes/R787-original-fixed-C-prefix-obstruction-method.md)01f4a93d保280坐标先除M、selection κ逆、自由qC=0与原129出口；Ω=P(E/M)独立于A提升。[实际43759938677](notes/R787-fixed-C-98-ended-strict-exclusions.md)603.191秒、42+56固定C全Ω非零/零者0，cert a2352d81/manifest0db15330，故任意A全拒，不再扩同C行/分支。新精度同D可能改C，复用须整个准确C相同；完整旧执行细节保[518前open](notes/2026-11-15-open-before-518-digit-activation.md)。
 
-**R787固定C下一模层严格障碍与执行契约已证**：[共享残差证明](notes/R787-original-fixed-C-next-digit-obstruction-and-shared-source-contract.md)5c4ab25c保旧A模逆/selection κ逆，先280坐标除M再分支，Ω=P(E/M)与A提升无关，每D为DΩ0+P(Cy qC)。[branch0执行方法](notes/R787-original-fixed-C-prefix-obstruction-method.md)01f4a93d绑定同一个真实56产物/两个原carrier、旧42+新56共98D；共享69A/70B、146行，5块原子断点，候选qC/image/result独立保存。非零严格拒固定C，通过仅前缀必要；未来真>430 current可切独立mode直接C′≡D Cnew，不预称已发布。去content前/原freeD/129成功出口保，不重430/14Schur逆；core01f96568/runnerd363d0e9的实际run43759938677已完成603.191秒，[98严格排除诊断](notes/R787-fixed-C-98-ended-strict-exclusions.md)记录42+56个固定C全Ω非零/零者0、cert a2352d81/manifest0db15330。故同C的任意A均排除；不再为这98个同一C扩支或加行。更深精度同D可能改变C，只有完整准确等同性才复用旧排除。
-
-**R787真实精度增量完整核格已证**：[来源契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891从旧42/56全基H构造满射残差E与unit minor，K H给新完整格/指数ell^(14kd)，与加probe相容。不虚构>430 current；只probe降模够造格，旧Ω复用另须全部1214×14 C降模及准确同一C，旧A/B拒绝还需全部1234×14 A。新core57769B/414fef53、runner51259B/889cdf5e已完整保存pending，含新核格/一次56LLL/原129×280出口；默认不用旧98拒绝。new_current_source/new_checkpoint仍null，真93d3 current发布才激活。
+**真实精度增量核格已证并绑定518**：[契约](notes/R787-original-precision-increment-kernel-lattice-and-source-contract.md)bc91a891以旧全基H、满射残差E/unit minor给KH新完整格，保指数ell^(14kd)与加probe相容；core414fef53/runner889cdf5e将核全A1234×14/C1214×14降模、一次新56LLL/完整幺模及原129×280。已填真实518 current，默认不复用旧98拒绝；尚无新格或准确关系结果。
 
 **R815准确三列与真实49拒绝**：[首列58拒](notes/R815-projective-first-prefix-ended-and-known-columns.md)、[两列49拒](notes/R815-two-known-columns-ended-and-exact-denominator-boundary.md)已闭。依据真We1=e271，[三列方法](notes/R815-original-three-known-columns-projective-reconstruction-method.md)只新W×已成第二列；[实际结果](notes/R815-three-known-columns-ended-and-denominator-boundary.md)run43762388370/sourceca1fe0d5、72.164秒/exit2已成0/1/271列、2886原同余、高6/7次零和joint d012=10238bits/3082digits（known ffa005ae）。
 四pairs仍(10,11),(12,13),(15,17),(20,24)，28LLL84行中8个D零，其余49不同正候选全首(z,row,col)=(0,0,2)准确非零；baseline已含其中，未进入七点完整交换子。scan25、8失败、scope未耗尽，仅4pair限额；manifest0f2be930/198项、artifact14181118695/afe625bf。核心已强制D=d012·a，再提出该倍数格不是新信息；改a坐标仅改度量。有限拒绝只排各中心提升矩阵，不否定原Mg、425精度或同D的不同非中心提升。已成第三列/LLL/RR/旧拒绝不重做，最终原七点完整交换子/cyclic/Γ出口保持。
@@ -119,7 +118,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 此前执行/来源保[本次open归档](notes/2026-11-15-open-before-R832.md)，内接全部原证明；当前run/source/断点以HANDOFF为准。
 
-1. 原函数工程继续R827的q4两图、R824准确27+244方向和R815完整Mg/Γ；R787从真430位同核续算，原1234行/基/模分支不重算。[R827真q4断点](notes/R827-q4-infinity-rank-and-Hermite-checkpoint-continuation.md)已得σ∞rank272/det695832206；τ33839完整操作/pivot_row24尚未完，仅换真实resume同核继续。全τ多项式生成尚缺，不以纤维满秩代全局终止。 [行列式Bézout](notes/R827-original-determinantal-Bezout-termination-certificate.md)7e07f78e给新充分右逆：准确det(GVi)的gcd1+原∞，复用1360列，a0/1/−1/2及次数1340/3516；实际det仍未算，不取消同核Hermite。
+1. 原函数工程继续R827的q4两图、R824准确27+244方向和R815完整Mg/Γ；R787从真518位同核续算并启新精度核格，原1234行/基/模分支不重算。[R827真q4断点](notes/R827-q4-infinity-rank-and-Hermite-checkpoint-continuation.md)已得σ∞rank272/det695832206；τ33839完整操作/pivot_row24尚未完，仅换真实resume同核继续。全τ多项式生成尚缺，不以纤维满秩代全局终止。 [行列式Bézout](notes/R827-original-determinantal-Bezout-termination-certificate.md)7e07f78e给新充分右逆：准确det(GVi)的gcd1+原∞，复用1360列，a0/1/−1/2及次数1340/3516；实际det仍未算，不取消同核Hermite。
 2. 任一实际完成R824五次关系或原R787关系均可在真实来源绑定后给原y。已保存R824→R792入口；新共同零实际判断，后继CM点/R809 A,B正规向量/R811极理想/R825原D和eta依真输出接续。所有旧C0..5、曲率输入、基和算子来源保持不变。
 3. 原全p sigma仍缺同一primitive h的Legendre及两Cartier单位。R812全split未筛单位、R829旧p47和16、R826固定八运输/R828两new零、R830 conductor-p权6lift都直接复用。R831完整EO交换代数已成：任意Weil交换子压回EO在old6上标量，不能再用其降FG/HJ。继续真实conductor-p与指定Eisenstein CM配对，不把同Hecke特征当实际同一test vector。
 4. 原高度已得下列显式接触阶界，下一缺口仍是实际高度/周期与全尾的共同根证书。不能因知道一个有限截止阶，就任择高度常数或断言原整盘无非中心根。
