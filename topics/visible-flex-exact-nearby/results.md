@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [STA实际P22严格尾到腰与四个完整强比较列](results/R133-supplement-actual-complete-strict-tail-from-true-branch-cut-to-waist.md)9d142bef：43757644616/1 child0/25，267+1新row/538指数，双向density及ordinary H−1 source/独立jump/两mean全保；G−≈36.73318、四同case和≈2.85705e20。science7ec41c2d/preGitfab22fc1/113球字段逐字核；free首遗漏/全Ei/Eo/incoming/R0仍待。
+
 - [CRA实际核心残差限制与完整selected普通源](results/R133-supplement-actual-complete-core-residual-restriction-and-selected-ordinary-source.md)ffa5acbd：43757468943/1 child0/18；5956真交覆盖[0,.9]，全mean/α一次/连续修补/完整Z与D费齐，uniform全源<4.848889e−8。science dbae6acd、preGit174c0583逐字核，旧计算0；未知高/全core/γ/匹配未付。
 
 - [RH：已知selected残差的精确频带与完整高源](results/R133-supplement-exact-selected-residual-frequency-bands-and-complete-known-high-forcing.md)b3bfaf73：同moving角f0≤96、s0≤160、fδ≤288；H96无F0费，固定νδ state展开给H160二/三次及H224纯三次，全部mean/repair保。只解析完整源公式，无新数值或unknown高模支撑声明。
