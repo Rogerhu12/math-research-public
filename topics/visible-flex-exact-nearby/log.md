@@ -46,3 +46,6 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 - 2026-11-15 22:11:57 UTC 九份已完成ordinary floating报告恢复白名单7008333d/68f83dd4先推，504341B；restore4c5287d0同path/原blob/SHA/source/args/status全保，尚未删除。
 - 全candidate/native/NPZ、失败137/QR记录、source/proof/active SN/SC/SJ输入保；agent全读9件4producer，root核完整名单和三类原件，不重算数学。
 - SN原88cea14a已到10024/interval640；完整36固定字段、207pins/8AST原字，双H3prefix2.735692533431341非终值；SC3原step9健康。efdafe38a05abd8f2885231e592bf197cfe86c52两README空diff。
+
+- 2026-11-15 22:12:14 UTC fresh main逐件核九报告path/blob/bytes后普通删504341B；先推名单1b09dba7、restore4c5287d0同path，原完整内容可逐字恢复。
+- 仅九JSON出Git当前树；所有native/候选/NPZ/manifest/source/失败/proof和active输入保，无history改写、无数学重算；fdd59fa7c098559266ffc5871e769336f9e9d6f4两README空diff，继续SJ部署。
