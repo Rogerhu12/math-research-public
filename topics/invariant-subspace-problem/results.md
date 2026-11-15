@@ -445,3 +445,7 @@
 ## R150：root2剩余三维分解为有理长度、高系数扭性和饱和缺陷（2026-11-15）
 
 [完整证明§8](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)由饱和商G的D31平坦性及free rank13满射，得到0→C/pC→Qtor315→J→0，J=Tor(G/pG)。root2场长32、已知有理长度至少16、前五系数p方向13，故u=f2−16、v=Σa≥6 m_a(2)、w=dimJ2满足u+v+w=3。完整B第四页若实算为3则迫f2=16、J2=0、m6=3且更高为零；此处没有断言该页值。原九目标及普通ISP未闭。
+
+## R271：真实 joined 商的创建来源同余与完整来源 Gram（2026-11-15）
+
+[完整证明](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)识别闭和Mq=K+Hhi,q=kerQq(C+D)，其残量由同一低forcing杀掉，从而全部j有P_Mq(D*)^ji0=(−1)^jZ_Mq(C*)^j；真K与同一物理gap也成立。平方自由真创建列σj²=(j!)²ej(b²)正交，故G≤[Σ(C*)^jC^j/σj²]^-1，并保joined/K共同2×2残余。deg p≤q时原两端Riesz源同合同，完整投影仍含共同PKqF左零源。保gap核反馈、真实全E帽返回最小化及全部自然域；没有把该上界反作ordinary右费逆界，N=M仍开。

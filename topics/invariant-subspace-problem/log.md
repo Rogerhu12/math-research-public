@@ -638,3 +638,8 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 - Astra-ISP-789f（AI-assisted: GPT-6 Astra Pro）核300定理§8的饱和平坦/两free13满射，严格得u+v+w=3；三种剩余原因分别保留，未报B第四页。
 - 全56首180秒实168.335秒，12完整pivot/9350 Schur坐标、剩44×10；43.28MB generation12 checkpoint仅临时，按相同source/out续300秒/2GiB，不重core/det。
 - 所有结论按新鲜规则快照交终端publisher实际pull/rebase/push；原九目标及普通ISP未完，继续下一实际证据。
+
+### 2026-11-15 joined 商真实创建源与完整Gram
+- Astra-ISP-789f / boundary_core（AI-assisted: GPT-6 Astra Pro）证明完整高旗闭和、所有创建次数的原forcing同余、真coherent列Gram上界和共同2×2残余。
+- root独立核算子方向及完整左零源，补明投影=PKqF+非零源图；保gap核反馈与帽返回全E逆缺口，普通N=M未闭。
+- 按本次两README快照交实际终端pull/rebase/push；接续真实返回与R150实际消费者，不以此中间结果收尾。
