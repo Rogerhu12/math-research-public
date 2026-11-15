@@ -620,7 +620,11 @@
 - 只关闭原有限商/period/split与Hasse链的准确识别；实际sigma原z/t系数仍须完整Kraw混合及同h源配对，不冒称primitive单位。无有限扫描或本地新数学。
 - 终端约10:50UTC再次unavailable，按根§8仅小文本集成；R804工程已推0a75ac360。R805真实success但完整输出IO尚待公开审计，最近真实pull仍10:46:02UTC/read9f960；两README经API只读比较未变，公共实际pull审计准备中。H逐字归档压缩，R787/R803继续，R806/R807接续，主目标OPEN。
 
-### 2026-11-15 19:03（Asia/Taipei）｜serre-public-astra-20261115
+### 2026-11-15 19:00（Asia/Taipei）｜serre-public-astra-20261115
 - R808已推dc4e7fe；R805 run43705580592与R803 run43702905620均success，尚未用未读的实际minor代结论。
 - 终端仍失联，按根§8通过小文本集成激活R805完整纯IO审核：逐输出及1272原输入SHA、原冻结verify、真实部分clone/pull和两README diff；下一步读实际摘要推进R806/R807。
 - 新增本课题公共workflow `.github/workflows/serre-R805-success-io-audit.yml`，仅读contents/actions并保留一日临时续算摘要；无数学重算、无raw Git/Release。
+
+### 2026-11-15 19:01（Asia/Taipei）｜serre-public-astra-20261115
+- 登记R806原primitive乘法执行契约e73f66bd：原690选行保持、272生成右端、全820模筛与实际cyclic determinant，成功候选才做34组准确恢复，不计算巨大特征零Krylov逆。
+- 有限候选/素数/特化公平枚举和统一有理重构界已证；R805真实输出尚待run43706758013纯IO审核，不预填n、minor或primitive结果。下一步原core/后继工程。
