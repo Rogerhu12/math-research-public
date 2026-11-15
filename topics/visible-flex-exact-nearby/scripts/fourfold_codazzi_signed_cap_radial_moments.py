@@ -60,7 +60,7 @@ class Laurent:
 
     def __init__(self, coefficients=(), lo=0):
         self.lo = int(lo)
-        self.p = coefficients if isinstance(coefficients, acb_poly) else acb_poly(coefficients)
+        self.p = coefficients if isinstance(coefficients, acb_poly) else acb_poly(list(coefficients))
         if len(self.p) == 0:
             self.lo = 0
 

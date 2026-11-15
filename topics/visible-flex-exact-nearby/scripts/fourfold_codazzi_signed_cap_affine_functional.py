@@ -29,7 +29,7 @@ REL="topics/visible-flex-exact-nearby/"
 PRODUCER=REL+"scripts/fourfold_codazzi_signed_cap_affine_functional.py"
 KIND="actual_complete97_signed_radial_subtracted_cap_affine_v1"
 CHECKPOINT_KIND="complete_prefix97_signed_cap_affine_scientific_checkpoint_v1"
-HELPER_SHA="8103ca4a856a92fd98923ed518e9241c2bc8332f087550017e58ba7933d2c0d0"
+HELPER_SHA="6f868fafd82a62c7c7a3a04bebbb0da1363209c80097f218f086781d37f2efb4"
 READER_SHA="a7c099608ec6ef1504a1d30b9cabbe9232bdd1dfd0390e28bbfd9fc836772ad0"
 EXPECTED_GATES=20
 RUNTIME=dict(python="3.12.14",packages={"python-flint":"0.9.0","numpy":"2.3.5"},bits=256)

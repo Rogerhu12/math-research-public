@@ -17,8 +17,8 @@ concurrency:
 env:
   PYTHONDONTWRITEBYTECODE: '1'
   SC_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-signed-cap-affine-functional-CI-inputs.json
-  SC_MANIFEST_SHA: 5113a116c23455ed272460e5a7eca5117dc86433c44869d96a5e258cc0fcde44
-  SC_PIPELINE_SHA: bd148b48a019b705cd140212e7134f91f3a71e4418544ad7b9c1da237a0bfe62
+  SC_MANIFEST_SHA: cd28e23a13ef68281dd4813de793896e89b235926936d2668e64e7bfe6e22aa9
+  SC_PIPELINE_SHA: 41b8f50cd7faafc438f37f3f4514caa24142af63d9921044d91ead67d6fcd1dd
   SC_WORKER_SHA: 414e55cb40c516ad02cbba8ae45ac4772f18545dbbfaab8adae5f2ef2abcf6ce
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
   REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
