@@ -101,6 +101,8 @@ R815全Mori/nef锥、原S无基点已付；R819/R825夹界(b−m)e+bm≤κ≤2be
 R827全r2 τ≤13/4、准确平方差及B_D.C≤D(B∞C)+35b/6，使p>47b²+156b+38时整个profile核kG/下一行unit成立，实际临界比下最终自动成立。它保R802唯一+1角成本与移动H；仍须证明唯一Δ/p非零并接入全M指定左行。R795门h+1>B_(b+ε).C不准换成小H0(C)的h>κ。
 R805全profile/tame/最高移动极的h≤6γ+2a+10b+2z−6继续有效；R743两连接单位秩不代指定forcing。H3 Serre行须先核全部原WD列才是可用左行。
 
+[原mirror边界增补](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md#6-增补原-r2-分类实际杀掉所有非固定-y0-移动项)：同注§6已证明当前r2全部非固定Y=0移动边界为零：q0≠0时无移动交点，q0=0时原q_src含正Y因子逐正规化支杀AH de/e。仅限真实因子倍来源；Y∞、固定角、一般Xi_R及十三行尾仍保。
+
 ### 四原中央：同M的真实指定余类
 
 R816/R820付固定E−11的rank≥2、V66全部坏位/导子66/ray360/198→66尺度，完整普通和惰性通常Selmer桥给r+corank全Sha≤2ord原半因子；原导数非零即所需有限。新第四源charge33/17仍在旧二元B33，不增加函数域维数。

@@ -249,3 +249,55 @@ $\mathcal T\in\operatorname{im}\alpha_\eta^*$。
 没有新增中央零，没有扩大来源，没有把 $\mathcal H_3$ 的结论冒认整个 $\mathcal W_D$。
 原 $P_{134}/U_0$、两个十三行 carry、同一 $P^{\rm fact}+pR$、
 下一位 $p^2T$ 和指定 forcing 的真实非零问题均保持。
+
+
+## 6. 增补：原 r=2 分类实际杀掉所有非固定 Y=0 移动项
+
+这里继续使用当前原 $r=2$ 全分类，不另假设最高 charge 为 $S$-单位。
+记 $q_0(t)=q_{\rm src}(t,0)$；
+R792/R797 采用同一原固定角清分母后的因子规范：
+
+* 若 $q_0\not\equiv0$，原因子的常数 charge 为 $F(t,0)=\lambda d^c$，
+  所以非固定水平 $Y=0$ 上没有移动交点。
+* 若 $q_0\equiv0$，准确有 $q_{\rm src}=Y^j q^\circ$，$j\ge1$。
+  原 $F(t,0)=\lambda d^c H_0(t)$ 可有移动根，包括非单位 $H_0(0)$ 的情形；
+  后者落在固定 $t=0$ 边界，仍按原边界读取。
+
+现在取第二种情形中位于所有固定底纤维之外的
+$Q\in C\cap(Y=0)$，并取其任意正规化分支 $\widetilde Q$。
+在这个原仿射框中，$F_t,q^\circ$ 和每个
+$H\in\mathcal H_2$ 都真正正则；
+这是原全 Gauss 来源在非固定有限角没有分母的性质。
+$W_s$、$t^r$ 为单位。因此
+$$
+\operatorname{ord}_{\widetilde Q}(A H)
+\ge j\,\operatorname{ord}_{\widetilde Q}Y>0.
+\tag{17}
+$$
+另一方面，任取正规化参数 $v$，写 $e=v^n u(v)$、$u(0)\ne0$，则
+$$
+\frac{de}{e}=n\,\frac{dv}{v}+\frac{du}{u}.
+\tag{18}
+$$
+无论 $Q$ 是否奇异，也无论 $p$ 是否整除 $n$，
+这个对数微分至多简单极；若 $p\mid n$，极项反而消失。
+(17) 与 (18) 直接给
+$$
+\boxed{
+\operatorname{Res}_{\widetilde Q}
+\left(A H\,\frac{de}{e}\right)=0
+\quad\text{对全部原 }H\in\mathcal H_2.
+}
+\tag{19}
+$$
+因此它也在实际 $K_{\rm mir,T_\Delta}$ 上为零；
+不是通过扩大核或选择不同 $H$ 得到的。
+各正规化分支分别为零，故全部剩余域迹均为零。
+
+结合两种 $q_0$ 情形，当前原 $r=2$ 全分类下，
+(7)、(9) 的 $\mathfrak B_{\log}$ 可以**准确删除非固定水平 $Y=0$ 的全部移动项**。
+这是原 $q_{\rm src}$ 的正 $Y$ 因子所支付的消去；
+不能把 (19) 扩到一般 $\Xi_R$、非因子倍来源，
+也不能删掉 $t=0$ 等固定点、水平 $Y=\infty$ 的移动最高系数根、
+真 $e$ 的其余极或两条十三行 carry。
+剩余的联合边界仍须与同一个 $\alpha_\eta$、同一个 $R$ 一起比较。

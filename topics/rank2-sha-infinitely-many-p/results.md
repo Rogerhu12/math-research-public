@@ -214,3 +214,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原mirror迹与十三行尾带](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：原mirror迹已准确写为−Res_P(AH de/e)−全部边界；同真实长轴的候选主部2Aηde延拓当且仅当对全部H1列留数为零，且唯一。短M额外十三行在r≤11必须保留；即使延拓也只付α*两项相消，未证明裸迹落α*像或指定同R障碍非零。
 
 - [R829](results/R829-same-degeneracy-diagonal-chow-vanishing.md)：R829证明R826同一pr拉回的两个old向量使完整Ξ=pr*Ξ_Y、pr_*ω_f=0，故第四槽恒零；Manin–Drinfeld支付cusp基点后，小对角平坦恒等给整个选定f⊗g⊗h的Chow投影为零。因此该类不能非零比例比较R814原类（R817在7993已非零）；保R826张量/杯积和独立LLZ公式，须改实际2处向量再付全部坏位。
+
+- [原mirror非固定零水平边界](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：同注§6已证明当前r2全部非固定Y=0移动边界为零：q0≠0时无移动交点，q0=0时原q_src含正Y因子逐正规化支杀AH de/e。仅限真实因子倍来源；Y∞、固定角、一般Xi_R及十三行尾仍保。
