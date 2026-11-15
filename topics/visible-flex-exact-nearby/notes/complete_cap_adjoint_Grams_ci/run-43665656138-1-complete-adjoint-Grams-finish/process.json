@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete7908_cap_adjoint_Gram_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43665656138",
   "run_attempt": "1",
@@ -58,6 +58,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T03:15:26.485202+00:00",
+      "before": "c713bac7c515ba9a04c458a8d9d09b79bf5e54c9",
+      "after": "7a6cdaf64c6b142ff99eb903d201d8feeba45208",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -65,6 +73,11 @@
       "time": "2026-11-15T03:14:13.182323+00:00",
       "final": false,
       "commit": "89b33aa325424b035e514b54dddd224a6372f0e2"
+    },
+    {
+      "time": "2026-11-15T03:15:26.116476+00:00",
+      "final": false,
+      "commit": "7a6cdaf64c6b142ff99eb903d201d8feeba45208"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -94,7 +107,7 @@
   "exact_original_four_pilot_quarters_recomputed": 0,
   "original_arrays_and_new_Grams_stay_in_public_Actions": true,
   "successful_scientific_rows_preserved_after_publication_failure": true,
-  "complete7908_adjoint_cover_proved": false,
+  "complete7908_adjoint_cover_proved": true,
   "complete_full_cap_high_to_low_bound_proved": false,
   "input_manifest_sha256": "baf3a42869c52ac0158ec6aac709aebced64a06efda8a8ea6d52939da71f1df5",
   "package_versions": {
@@ -109,7 +122,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "c713bac7c515ba9a04c458a8d9d09b79bf5e54c9",
+  "last_read_commit": "7a6cdaf64c6b142ff99eb903d201d8feeba45208",
   "immutable_scientific_copy": "/__w/_temp/complete-adjoint-finish-work/science",
   "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
   "exact_recovery_scope": {
@@ -128,8 +141,8 @@
     "original-pilot-process": "643fd671a175b66c1808a04f3ca1490e8b3856acc2f14f9ecfc734d942f14002",
     "actual32-range-index": "f23e397f1d02c9d7ca84ba7675d288bce6346f1c8a827614cc2241034942b191"
   },
-  "snapshot_utc": "2026-11-15T03:15:24.354648+00:00",
-  "wall_seconds": 115.32266487099997,
+  "snapshot_utc": "2026-11-15T03:15:26.579496+00:00",
+  "wall_seconds": 117.54751210399996,
   "native_files": [
     {
       "logical_file": "evidence/actual-complete32-slice-plan-process.json",
@@ -141,7 +154,7 @@
       "logical_file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "file": "evidence/actual-latest-complete-adjoint-Grams-outcome.json",
       "bytes": 7790,
-      "sha256": "2c48b1e179539572ef26bafae29e1148fc42546a602b49e452a0e01583801418"
+      "sha256": "e600d705a29c7341f2312908cfb34a4f42544c70a97c03e0c6cde7e771a02542"
     },
     {
       "logical_file": "evidence/actual-range-processes/range-00.json",
@@ -334,6 +347,12 @@
       "file": "evidence/actual-range-processes/range-31.json",
       "bytes": 11712,
       "sha256": "b40538d17f027bcb74c3dad4c734ea547a0b8f950e13f04dc7cadcb3d91a4afd"
+    },
+    {
+      "logical_file": "evidence/complete-adjoint-Grams-finish-summary.json",
+      "file": "evidence/complete-adjoint-Grams-finish-summary.json",
+      "bytes": 7982,
+      "sha256": "ca1411120265fac503eba147289da621634cc98304766aa56dfb6da80b5180df"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14141059620.json",
@@ -554,5 +573,9 @@
   ],
   "actual_completed_bundles": 0,
   "actual_completed_quarters": 0,
-  "latest_scientific_native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43"
+  "latest_scientific_native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43",
+  "complete_native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43",
+  "actual_scientific_gates": 2,
+  "original_complete_success_reused_without_child": false,
+  "finished_utc": "2026-11-15T03:15:26.207365+00:00"
 }

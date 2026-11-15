@@ -1,0 +1,180 @@
+{
+  "kind": "actual_complete7908_same_proposal_physical_adjoint_residual_Grams_v1",
+  "phase": "finish",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "all7908_original_closed_quarters_covered_once_with_exact_four_pilot_reuse",
+      "passed": true
+    },
+    {
+      "name": "true9over10_to25over8_radial_measure_mean_and_all_infinite_errors_retained",
+      "passed": true
+    }
+  ],
+  "seconds": 63.76448380000002,
+  "group": null,
+  "range": null,
+  "completed_bundles": null,
+  "completed_quarters": null,
+  "reused_completed_quarters": null,
+  "new_completed_quarters_this_child": null,
+  "complete_quarter_count": 7908,
+  "object_identity_sha256": null,
+  "plan_native_sha256": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+  "new_intrinsic_target_calls": 0,
+  "original_successful_pilot_quarters_reused": 4,
+  "new_quarters_from_actual_ranges": 7904,
+  "complete_Gram_trace_uppers": {
+    "complete_Hessian_adjoint": {
+      "ball": "[5.6357850815119891032138272469225626e-16 +/- 1.98e-51]",
+      "lower": "[5.6357850815119891032138272469225626e-16 +/- 1.98e-51]",
+      "mid_float": 5.635785081511989e-16,
+      "radius_upper_float": 0.0,
+      "upper": "[5.6357850815119891032138272469225626e-16 +/- 1.98e-51]"
+    },
+    "complete_formal_ordinary": {
+      "ball": "[2.3919075326606561880595381436309665e-6 +/- 4.47e-41]",
+      "lower": "[2.3919075326606561880595381436309665e-6 +/- 4.47e-41]",
+      "mid_float": 2.391907532660656e-06,
+      "radius_upper_float": 0.0,
+      "upper": "[2.3919075326606561880595381436309665e-6 +/- 4.47e-41]"
+    },
+    "complete_true_adjoint_ordinary": {
+      "ball": "[2.3919758222677262503254227293814083e-6 +/- 4.01e-41]",
+      "lower": "[2.3919758222677262503254227293814083e-6 +/- 4.01e-41]",
+      "mid_float": 2.3919758222677263e-06,
+      "radius_upper_float": 0.0,
+      "upper": "[2.3919758222677262503254227293814083e-6 +/- 4.01e-41]"
+    },
+    "finite_ordinary": {
+      "ball": "[2.3919071295406973907938207035694944e-6 +/- 1.25e-41]",
+      "lower": "[2.3919071295406973907938207035694944e-6 +/- 1.25e-41]",
+      "mid_float": 2.3919071295406974e-06,
+      "radius_upper_float": 0.0,
+      "upper": "[2.3919071295406973907938207035694944e-6 +/- 1.25e-41]"
+    },
+    "full_coefficient_remainder": {
+      "ball": "[5.1771441256413579819866768059313983e-19 +/- 2.58e-54]",
+      "lower": "[5.1771441256413579819866768059313983e-19 +/- 2.58e-54]",
+      "mid_float": 5.177144125641358e-19,
+      "radius_upper_float": 0.0,
+      "upper": "[5.1771441256413579819866768059313983e-19 +/- 2.58e-54]"
+    },
+    "trial_B": {
+      "ball": "[1.4971353117043171288003122754162177 +/- 4.44e-35]",
+      "lower": "[1.4971353117043171288003122754162177 +/- 4.44e-35]",
+      "mid_float": 1.4971353117043171,
+      "radius_upper_float": 0.0,
+      "upper": "[1.4971353117043171288003122754162177 +/- 4.44e-35]"
+    },
+    "trial_Btheta": {
+      "ball": "[24061.605960372788103995844721794128 +/- 4.18e-31]",
+      "lower": "[24061.605960372788103995844721794128 +/- 4.18e-31]",
+      "mid_float": 24061.605960372788,
+      "radius_upper_float": 0.0,
+      "upper": "[24061.605960372788103995844721794128 +/- 4.18e-31]"
+    },
+    "trial_C": {
+      "ball": "[2.4580106241923980192609633377287537 +/- 1.41e-35]",
+      "lower": "[2.4580106241923980192609633377287537 +/- 1.41e-35]",
+      "mid_float": 2.458010624192398,
+      "radius_upper_float": 0.0,
+      "upper": "[2.4580106241923980192609633377287537 +/- 1.41e-35]"
+    },
+    "trial_Ctheta": {
+      "ball": "[38539.941051188339770305901765823364 +/- 2.58e-31]",
+      "lower": "[38539.941051188339770305901765823364 +/- 2.58e-31]",
+      "mid_float": 38539.94105118834,
+      "radius_upper_float": 0.0,
+      "upper": "[38539.941051188339770305901765823364 +/- 2.58e-31]"
+    }
+  },
+  "complete_Gram_HS_uppers": {
+    "complete_Hessian_adjoint": {
+      "ball": "[2.3739808511258023841991809324523411e-8 +/- 4.04e-43]",
+      "lower": "[2.3739808511258023841991809324523411e-8 +/- 4.04e-43]",
+      "mid_float": 2.3739808511258024e-08,
+      "radius_upper_float": 0.0,
+      "upper": "[2.3739808511258023841991809324523411e-8 +/- 4.04e-43]"
+    },
+    "complete_formal_ordinary": {
+      "ball": "[0.0015465793004759426780873818467653024 +/- 1.95e-38]",
+      "lower": "[0.0015465793004759426780873818467653024 +/- 1.95e-38]",
+      "mid_float": 0.0015465793004759427,
+      "radius_upper_float": 0.0,
+      "upper": "[0.0015465793004759426780873818467653024 +/- 1.95e-38]"
+    },
+    "complete_true_adjoint_ordinary": {
+      "ball": "[0.0015466013779470540256826990403680476 +/- 1.41e-38]",
+      "lower": "[0.0015466013779470540256826990403680476 +/- 1.41e-38]",
+      "mid_float": 0.001546601377947054,
+      "radius_upper_float": 0.0,
+      "upper": "[0.0015466013779470540256826990403680476 +/- 1.41e-38]"
+    },
+    "finite_ordinary": {
+      "ball": "[0.0015465791701496232781835001625539536 +/- 1.91e-38]",
+      "lower": "[0.0015465791701496232781835001625539536 +/- 1.91e-38]",
+      "mid_float": 0.0015465791701496233,
+      "radius_upper_float": 0.0,
+      "upper": "[0.0015465791701496232781835001625539536 +/- 1.91e-38]"
+    },
+    "full_coefficient_remainder": {
+      "ball": "[7.1952374009766751976045205692377957e-10 +/- 1.89e-45]",
+      "lower": "[7.1952374009766751976045205692377957e-10 +/- 1.89e-45]",
+      "mid_float": 7.195237400976675e-10,
+      "radius_upper_float": 0.0,
+      "upper": "[7.1952374009766751976045205692377957e-10 +/- 1.89e-45]"
+    },
+    "trial_B": {
+      "ball": "[1.2235748083808840532516257940948186 +/- 1.07e-35]",
+      "lower": "[1.2235748083808840532516257940948186 +/- 1.07e-35]",
+      "mid_float": 1.223574808380884,
+      "radius_upper_float": 0.0,
+      "upper": "[1.2235748083808840532516257940948186 +/- 1.07e-35]"
+    },
+    "trial_Btheta": {
+      "ball": "[155.11803879746800132954438083227925 +/- 4.54e-33]",
+      "lower": "[155.11803879746800132954438083227925 +/- 4.54e-33]",
+      "mid_float": 155.118038797468,
+      "radius_upper_float": 0.0,
+      "upper": "[155.11803879746800132954438083227925 +/- 4.54e-33]"
+    },
+    "trial_C": {
+      "ball": "[1.5678043960240697128586135137522786 +/- 2.52e-35]",
+      "lower": "[1.5678043960240697128586135137522786 +/- 2.52e-35]",
+      "mid_float": 1.5678043960240697,
+      "radius_upper_float": 0.0,
+      "upper": "[1.5678043960240697128586135137522786 +/- 2.52e-35]"
+    },
+    "trial_Ctheta": {
+      "ball": "[196.31592154277334561088144516866263 +/- 2.54e-33]",
+      "lower": "[196.31592154277334561088144516866263 +/- 2.54e-33]",
+      "mid_float": 196.31592154277334,
+      "radius_upper_float": 0.0,
+      "upper": "[196.31592154277334561088144516866263 +/- 2.54e-33]"
+    }
+  },
+  "mathematical_certificate_for_listed_range_only": null,
+  "mathematical_certificate_for_complete_ordinary_adjoint_body_Grams": true,
+  "complete7908_adjoint_cover_proved": true,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "latest_actual_quarters": [],
+  "complete_new_array_receipt": {
+    "bytes": 332723,
+    "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+    "file": "complete7908-adjoint-residual-Grams.npz",
+    "sha256": "d6bb53d5ab4098ef6635f7bc3d22a253788436ce7385c24b5d64ece25f39422b"
+  },
+  "native_sha256": "4e505e025870904f35a160fefb637c72b67b846843d69d07f3ec2d8b2b183b43",
+  "actual_input_sha256": {
+    "plan": "93e9b52054d9af86b9f238fb13a4183ec23b90f2e0017676aef4773fa28dce32",
+    "plan-process": "4d91706ce53d863095a73b7f94f92c15c735fea1825bfc173d63a8be961e3970",
+    "original-pilot": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+    "original-pilot-process": "643fd671a175b66c1808a04f3ca1490e8b3856acc2f14f9ecfc734d942f14002",
+    "actual32-range-index": "f23e397f1d02c9d7ca84ba7675d288bce6346f1c8a827614cc2241034942b191"
+  },
+  "original_complete_success_reused_without_child": false
+}
