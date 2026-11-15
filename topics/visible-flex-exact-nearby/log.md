@@ -317,3 +317,11 @@ g1原1.593307563547866e14→新2.119336473528759e9；完整local700682134898.508
 PE9/12/14–15只更尖解析上界；原LT/NR全部成功数值保持合法并冻结，后续若算新表只按已存正向费重组，不相减独立upper。真实unknown cut与同态左右body仍不可代入C0半径为完成门。tail接着核宽collar低能量+同cut窄MA高界的分域接口；当前MA只授权窄五例，不能借旧15pass无完整表冒宽高域。无新科学运行。
 
 H/open仅精简旧AJ/RV/D/CS等重复履历；精简前完整2e3dcae9564490f016b073d506f6df65e2dea8f2同路径及全部更早archive/恢复链持续有效，任何域、源单位、失败、未付义务均不删除。总验收未达，继续新M局部源/SV及Green/strong-return/core。
+
+### 2026-11-15 13:53:24 UTC — M真实genuine第一local的直接物理二阶公式
+
+亲读main 83fe8f22821c6a692aa5d1a93968475640678705，两README blob未变。合同8e78a62974744b7ab22ed4dbbe28c291f130a91c /16814B/SHA7a17ff8830d94d96a4c435c7965befc4469da0d623182973a5f1eadafd1eaa2f已root全文核；newton独代核leading intertwiner的E行。M9完整degree13尾的0/1/2径导、M10两sign Fourier和、M11同正算法tail lower恢复、M12不缩finite预算及正strip损失全保。
+
+只新增两个genuine分量各p2q0..2、p1q3、正宽1/512下p0q3，共10预算；正宽→角4各一次，DG/RV已成14低导逐字读，不再算成功jets。M15–16由同leading M_T+cT M/2恒等先取b行，E源=μ[iεV(2a0X+Xi a0)+Vb0/T−VTb0]e1，b0/T的原可去性保，a0T不偷入。M17–19用原fold数、新μ模、RV负域a0X/Th及AJ完整holomorphic Xi付全E角0..2，非旧RV closure重复；所有物理域/参数/正负carrier/mean保。
+
+M20直接展开D²给8完整项，原∂r=−∂ρ正确；dφ/dr/T0=t+5dφ、V0/ϑ及完整rank相关源不删。18原正校准、六true dr/uncertain-root权只读，原C算法参数lower比率新whole候选与DG raw1取整界min，其他20first+10mean逐字。主子代理继续实现新scalar，成功/实际收紧尚待；非source-to-wave/strong-return/GH。旧成功计算全部冻结，HANDOFF/open持续最新。

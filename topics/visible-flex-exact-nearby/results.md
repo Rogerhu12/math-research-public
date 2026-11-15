@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [真实第一局部残差的直接混合jet公式与新消费者合同](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)：W已合并signed genuine w1V保持；DG/RV14低导只读，仅补10个negative mixed/正宽预算及角4转换。leading E先投正确第一行，直接展开完整D²/物理8项；原C正算法lower与六行真实dr只读，成功后只替DG raw1。尚无新actual数字，不授完整return/GH。
+
 - [固定高投影主部的正 collar 能量与三带迹收尖](results/R133-supplement-projected-principal-collar-energy-and-sharper-three-band-trace.md)：真实a,d与正交H_J使drift交叉项在投影空间准确消；高自项不再另收4Jd+D1，仍保径恢复、真实dφp、middle→far腿、mean/rank及两cutoff。PE9/12/14–15可正向重组完整界，旧NR成功数值不改；实际未知cut/body/残差与核心存在仍未付。
 
 - [实际 genuine 第一修正的直接物理 transport 与完整源账本](results/R133-supplement-actual-direct-physical-transport-of-genuine-first-correction.md)：43720766795/1 child0/27门；只新7个a1、只读RV7个b1，五完整density1项全收紧。g1<2.119337e9，完整first<1.017686e12/独立mean<3.401970e8/pair<1.017686e12，26其余项逐字RV；59pins含旧AJ50零改、旧math/径积分0。主导转raw1与density0SV，source-to-wave/true return/GH仍独立。
