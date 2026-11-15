@@ -245,3 +245,7 @@ AW10两物理row连续使distributional residual仅原negative source restrictio
 root已核RH原数学与CR复制链；newton窄核CR输入schema与完整旧Ed/SH/D/WL，phase窄核whole候选选择/ordinary与H−1物理频率/ST真实域，均通过。保原full/low/high和evenmean/continuityoffset；Ed=dD/2原字段只复制。HS.12与17比较最终序列化候选的upper，保全候选且不upper平方相减。新量仅三known高尾和原4j的负一阶范数；H288 exact0，ST只同forcing真[0,P22]限制，不重propagation、mean不会因source high而消失。全core/phase/H−4/3/unknownstate和最终PDE未获结论。
 
 worker实际pull→live规则→pins→容量120KB保留、typed metadata暂错不杀healthychild、同science跨wrapper复用、先atomic保存/tee再45000/59000B格式门、非FF即时pull重推均沿已成主干。无oldnative/artifact恢复，无新数组上传。此次workflow path一次push触发，不额外dispatch；完成后只读其原小结论。13186d2ffc65f1d1aa69a3b8ab4b89ad061b4b86两README不变；H/open前页逐字保366d34f6c1008f1db6186db7af354dceaa72c9f6，任务持续。
+
+## 2026-11-15 20:43:51 UTC — HS唯一原运行登记
+
+按部署head_sha 9bf1c00cebf2f15f1f08ae1106022981ba3a4737亲读workflow runs metadata，仅43759656502/1，push事件20:43:20开始；未另dispatch。root与tail均核同一run，待原science/execution/report，不重复数学。fresh fe4ec5cfcf01d252fe050aeb70da3e30c480733a两README仍未变。
