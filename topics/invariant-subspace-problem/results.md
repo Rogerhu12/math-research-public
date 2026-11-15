@@ -521,3 +521,5 @@
 - **p768固定三坐标52候选全部排除。** [完整范围和原乘回证明](results/R150-appendix-fixed-three-coordinate-lll-p768-candidates-rejected.md)：run43679903558实际13.304095603秒，13次LLL变换整数核真、52候选全4367乘回非零；新增0，仍23真核及同选秩4318…4331。不排其它分母/自由方向组合。
 
 - **同一左最小源的逐幂远孔损耗。** [完整证明](results/R271-appendix-same-source-power-far-occupation-loss-and-left-null-feedback.md)从C^kUr准确孔层正交展开和右观测和抵消，给源幂及左零核反馈同时由真实远孔尾+裸费控制；同u_Q/同r_n可直接代原w尾，不乘头条件数。完整右版仍含普通λ，未反推源或封ordinary。
+
+- **均匀池行复合与完整Green列因式分解。** [自足恒等式](results/R271-appendix-uniform-pool-row-composition-and-full-green-column-factorization.md)保全部池顶边、真实核Gram逆及Green列中的差商逆伴随；加入其它强位时准确余项E(I−G)仍在。核投影稳定没有代替伪逆列费用，普通封口未外推。
