@@ -1,0 +1,308 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "selected-natural-second-left-normal-five-high-elimination",
+  "executionSourceCommit": "4b95ba8d3a2542b01b55d2879e724042a2117c20",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-selected-natural-second-left-normal-five-high-elimination-789f.py",
+  "scriptSHA256": "8c671b279161dad3dce4e0caeed3ed49f9911ac6844dba705bf040e2ebcf1a3d",
+  "argvTemplate": [
+    "--regauged-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--normal-four-out",
+    "{work}/selected-natural-second-left-normal-four-complete130",
+    "--out",
+    "{work}/selected-natural-second-left-normal-five-high-elimination",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 120,
+  "exitCode": 75,
+  "wallSeconds": 30.840243188000386,
+  "fullTemporaryReceiptBytes": 5581,
+  "fullTemporaryReceiptSHA256": "04efeded2528b471dba9898c0dfde67567889518b55f69a90e4c1dcb8a0110d0",
+  "result": {
+    "allFinalOriginalSecondProductsVerified": false,
+    "committedExactPivots": 786,
+    "completeExactH5Elimination": false,
+    "completedMathematicalSecondsBeforeFinalCheckpoint": 27.76000228400062,
+    "error": "single-pivot work gate; exact current equations saved",
+    "everyCommittedPivotComplete": true,
+    "exactRowUpdatesThisRun": 47176,
+    "finalCheckpointSeconds": 2.9301312360003067,
+    "format": "isp-selected-normal-five-high-elimination-v1",
+    "inheritedExactPivots": 0,
+    "largeDataUploadedOrCommitted": false,
+    "leadingUnitProved": false,
+    "mathematicalElapsedSeconds": 30.715285713000412,
+    "newExactPivots": 786,
+    "newM0RightHandSidesSolved": 0,
+    "normalFiveSecondEnvelopeComputed": false,
+    "old130AdditionalUnitSolutionsRecomputed": false,
+    "oldNormalFourKernelRecomputed": false,
+    "originalHighEquationKernelPreservedOverQ": true,
+    "outcome": "bounded-high-elimination-prefix",
+    "partialPivotDiscarded": false,
+    "phase": "exact-H5-only-pivots",
+    "remainingHighRows": 950,
+    "remainingMaximumIntegerBits": 3996,
+    "remainingNonzeroEntries": 361878,
+    "remainingNormalFiveColumns": 501,
+    "status": "completed-prefix",
+    "parameters": {
+      "actualPreparation": {
+        "actualH5UnitDeterminantModulo31": 18,
+        "all1485NormalFourCompensationColumnsRetained": true,
+        "all1736HighRowsRetained": true,
+        "all4354OriginalM5RowsConstructed": true,
+        "allOriginalNonhighRowsZero": true,
+        "binding": "eff732ce44d956078f54b08550801cecf96aed1f1ce9d517cd3bfd0c45698b2b",
+        "outcome": "complete-original-h5-unit-profile",
+        "outputs": [
+          {
+            "bytes": 564745,
+            "file": "complete-original-normal-five-block.json.gz",
+            "sha256": "97054ecb078055a85af7ca4dbb2490b1f868ebcb40290fa4197efa67126a26b1"
+          },
+          {
+            "bytes": 1019818,
+            "file": "complete-original-high-normal-five-and-four.json.gz",
+            "sha256": "d2ae353a064704e8d721d1663a6e838f93195438d004d2662386a8d34dd56024"
+          },
+          {
+            "bytes": 5489,
+            "file": "original-h5-field-unit-profile.json.gz",
+            "sha256": "c4e504e9ad006aa6b44572c888d26602662f9efde7a040dd43c0a9e446c878f1"
+          }
+        ],
+        "rankH5Modulo31": 1287,
+        "rankH5OverQ": 1287,
+        "sourceNormalDegreeHistogram": {
+          "0": 144,
+          "1": 810,
+          "2": 1664,
+          "3": 1736
+        },
+        "status": "completed"
+      },
+      "actualTemporaryCheckpoint": {
+        "activeSlot": 1,
+        "binding": "eff732ce44d956078f54b08550801cecf96aed1f1ce9d517cd3bfd0c45698b2b",
+        "committedPivots": 786,
+        "generation": 17,
+        "remainingHighRows": 950,
+        "remainingNormalFiveColumns": 501,
+        "stateIdentity": {
+          "bytes": 72645943,
+          "file": "normal-five-high-state-slot1.json.gz",
+          "sha256": "179b3645a70b7d9be552f1910252cc4ed3ab5db4611a376f2a3642c10f465cb7",
+          "temporaryOnly": true
+        }
+      },
+      "attachedColumnCount": 1485,
+      "binding": "eff732ce44d956078f54b08550801cecf96aed1f1ce9d517cd3bfd0c45698b2b",
+      "candidateRows": 64,
+      "inputIdentities": {
+        "coefficients": {
+          "bytes": 20580,
+          "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "paid_full": {
+          "bytes": 27679,
+          "sha256": "4158cc3b978edeafd9c993e7f1c054d9acc419eb9a5d3f34cf8e9f2cff965c22"
+        },
+        "paid_m4": {
+          "bytes": 911218,
+          "sha256": "a359450582e0081fbabd6ff79e6e0e7083d7cd5bfdcef1d801438d00a3d5c814"
+        },
+        "profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        }
+      },
+      "maxIntegerBits": 8192,
+      "maxNnz": 500000,
+      "maxSinglePivotWork": 150000,
+      "memoryMiB": 2048,
+      "normalFiveNoNewSecondHeadClaim": true,
+      "originalHighRowCount": 1736,
+      "paidNormalFourBinding": "672a21c0de59ec537f5d19333524f92ceb71ad3621eec643b9c11cf3f3fce2d3",
+      "pivotColumnCount": 1287,
+      "programIdentity": {
+        "bytes": 20716,
+        "sha256": "8c671b279161dad3dce4e0caeed3ed49f9911ac6844dba705bf040e2ebcf1a3d"
+      },
+      "secondsLimit": 60.0
+    },
+    "events": [
+      {
+        "committedPivots": 50,
+        "elapsedSeconds": 2.1781626760002837,
+        "heightUpperBound": 143,
+        "nnz": 72689,
+        "remainingH5": 1237,
+        "remainingRows": 1686
+      },
+      {
+        "committedPivots": 100,
+        "elapsedSeconds": 2.3921558150004785,
+        "heightUpperBound": 143,
+        "nnz": 81297,
+        "remainingH5": 1187,
+        "remainingRows": 1636
+      },
+      {
+        "committedPivots": 150,
+        "elapsedSeconds": 2.6105246020006234,
+        "heightUpperBound": 249,
+        "nnz": 86929,
+        "remainingH5": 1137,
+        "remainingRows": 1586
+      },
+      {
+        "committedPivots": 200,
+        "elapsedSeconds": 2.8466431850001754,
+        "heightUpperBound": 255,
+        "nnz": 91711,
+        "remainingH5": 1087,
+        "remainingRows": 1536
+      },
+      {
+        "committedPivots": 250,
+        "elapsedSeconds": 3.0835518499998216,
+        "heightUpperBound": 261,
+        "nnz": 95509,
+        "remainingH5": 1037,
+        "remainingRows": 1486
+      },
+      {
+        "committedPivots": 300,
+        "elapsedSeconds": 3.392584260000149,
+        "heightUpperBound": 264,
+        "nnz": 107579,
+        "remainingH5": 987,
+        "remainingRows": 1436
+      },
+      {
+        "committedPivots": 350,
+        "elapsedSeconds": 3.7097977280000123,
+        "heightUpperBound": 269,
+        "nnz": 114819,
+        "remainingH5": 937,
+        "remainingRows": 1386
+      },
+      {
+        "committedPivots": 400,
+        "elapsedSeconds": 4.122335269000359,
+        "heightUpperBound": 276,
+        "nnz": 130256,
+        "remainingH5": 887,
+        "remainingRows": 1336
+      },
+      {
+        "committedPivots": 450,
+        "elapsedSeconds": 4.657076375000543,
+        "heightUpperBound": 319,
+        "nnz": 157189,
+        "remainingH5": 837,
+        "remainingRows": 1286
+      },
+      {
+        "committedPivots": 500,
+        "elapsedSeconds": 5.352503762000197,
+        "heightUpperBound": 361,
+        "nnz": 185768,
+        "remainingH5": 787,
+        "remainingRows": 1236
+      },
+      {
+        "committedPivots": 550,
+        "elapsedSeconds": 6.213815457999772,
+        "heightUpperBound": 443,
+        "nnz": 210760,
+        "remainingH5": 737,
+        "remainingRows": 1186
+      },
+      {
+        "committedPivots": 600,
+        "elapsedSeconds": 7.566059669999959,
+        "heightUpperBound": 1260,
+        "nnz": 240452,
+        "remainingH5": 687,
+        "remainingRows": 1136
+      },
+      {
+        "committedPivots": 650,
+        "elapsedSeconds": 9.890326007000112,
+        "heightUpperBound": 2048,
+        "nnz": 271242,
+        "remainingH5": 637,
+        "remainingRows": 1086
+      },
+      {
+        "committedPivots": 700,
+        "elapsedSeconds": 13.94310890900033,
+        "heightUpperBound": 3046,
+        "nnz": 295770,
+        "remainingH5": 587,
+        "remainingRows": 1036
+      },
+      {
+        "committedPivots": 750,
+        "elapsedSeconds": 19.573377984000217,
+        "heightUpperBound": 3906,
+        "nnz": 331708,
+        "remainingH5": 537,
+        "remainingRows": 986
+      },
+      {
+        "committedPivots": 785,
+        "elapsedSeconds": 27.46055546400021,
+        "heightUpperBound": 3993,
+        "nnz": 362260,
+        "remainingH5": 502,
+        "remainingRows": 951
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 12:12:27 UTC",
+      "beforeReadCommit": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+      "originMainAfterPull": "4b95ba8d3a2542b01b55d2879e724042a2117c20",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 12:12:58 UTC",
+      "beforeReadCommit": "4b95ba8d3a2542b01b55d2879e724042a2117c20",
+      "originMainAfterPull": "0e89220bae774c84c590400dd2ddbeafb9f810c1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 45,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 15436,
+    "logicalJsonSHA256": "b22337fa9305db3c65d01924448d6e89bce429739399e1cebca1b17dc057d829",
+    "itemCount": 45
+  },
+  "lastRulesReadCommit": "0e89220bae774c84c590400dd2ddbeafb9f810c1",
+  "summaryExcludesRecomputableArraysOnly": false
+}
