@@ -82,7 +82,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [M真实第一local](results/R133-supplement-direct-genuine-first-local-residual-from-negative-mixed-jets.md)及[actual43721735003/1](results/R133-supplement-actual-direct-genuine-first-local-mixed-jet-bounds.md)成功child0/23，ea28b65a/b8588530/5f1ad2e5。只10mixed/2角4新、14低jet读；八完整物理项/μ/V/Xi/b0/T可去与原C算法lower保，raw1<5.399608e10/local<5.443134e10，30列逐字DG、74报告原球root核。全SCI/26pins/域/余项及旧聚合保上述acfd归档/actual；ER仅新E行，不重M成功mixed，非GH。
 
-[S1已成真实第一列的density1整项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)4bd29959已root全文及原C.2/C.5/G.17–21核。DG/RV零输出宽joint Wiener q0..2仅读，原18正coeff一次A，Γ1=M1；六原dr行与两wholeword只更新density1 SV/V0mean/uJB三整项，不额外1/n、不重复inner J/B/u，另28原字。baseline须保SV及刚完成ER；新消费者待实际，无旧math/无GH。
+[S1已成真实第一列的density1整项](results/R133-supplement-saved-genuine-first-column-and-density-one-SV-sources.md)4bd29959已root全文及原C.2/C.5/G.17–21核。DG/RV零输出宽joint Wiener q0..2仅读，原18正coeff一次A，Γ1=M1；六原dr行与两wholeword只更新density1 SV/V0mean/uJB三整项，不额外1/n、不重复inner J/B/u，另28原字。baseline须保SV及刚完成ER；已部署SCI09a2cb90/workeradd608a2/77pin ae9c1bbe，root全核且SV69旧pin零改，21门待actual；无旧math/无GH。
 
 [ER保leading根零](results/R133-supplement-retained-leading-root-zero-and-complete-local-E-row.md)及[actual43724065270/1](results/R133-supplement-actual-retained-leading-root-zero-and-local-E-row.md)已成child0/20/math.00641225，reporte906656c/executiondedbfcad/resultbb00c78d；23pin/7AST。b0=T²b2固定X导数，SE3/256像margin>.0039059077，Ehol<.268118560/Eoperator<3213786.797，七M非E原字相加。仅raw1降至4.348065e8、local<8.700621e8、first<2.641736e10、pair<2.641789e10；mean<1.675903e8/非local和其余30逐字SV、完整径权/cover保。root全20门/31账本/7原项与91报告球核源，M mixed/fold/旧math0，非GH。
 
