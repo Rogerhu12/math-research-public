@@ -116,3 +116,5 @@ R738[零角Gauss增补](2026-11-15-r738-zero-angle-cap-and-high-rho-prefix.md)�
 - [R740](../results/R740-original-w-v-spherical-seventeen-tensor-and-mixed-cuts.md)：已证明原六输入的十七处完整自对偶球张量及实际W/V三次投影，全部C平均/quarter/p门/混剪切保；κ全局norm1使完整Yκ仍norm34，原Y三次gluing只被整共轭，不能由裸W/V球删全返回。条件质量、全κ级数、G4和真正点身份仍保。
 
 - [R741](../results/R741-specified-noncubic-first-forcing-and-necessary-normal-smoothing.md)：已证明原非cube镜轴核的完整前两块值投影在H=h+k+ρ有指定单位首项，原M读取13+H<s；实际ξ/整提升/ordinary carry全保。任何全WD首次修正必须有指定非零R|C，保持F·B因子的整变形不可能；该投影不杀全首像，真实限制商/同R其余块/p³仍开。
+
+R741 [完整FH2增补](2026-11-15-r741-complete-fh2-first-bockstein-injectivity.md)：实际子格qt^rF H2的首核准确F Kmir，值投影检出全部非cube核、第三块检出cube；Smith准确1^(2κ+χ−aη), p^(aη+1)，无p²。加入非F列会改变余核，完整WD与同R仍开。
