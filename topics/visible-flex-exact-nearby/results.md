@@ -6,7 +6,9 @@
 
 ## 新增结论
 
-- **SV actual43722805762/1完成。** [完整报告](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)75c453c0，child0/23门；三density0整项全改善，SV<1.813617e6，first<7.997863e10/mean<1.675903e8/pair<7.997880e10，28项逐字M。root50球/23门/69pins/20AST/job实核，physical n域/fullmean保；旧math0，return/high/core未付。
+- **WC actual43722885993/1六宽表已成。** [完整报告](results/R133-supplement-actual-wide-collar-mean-and-six-ordinary-half-trace-tables.md)1721e963：child0/13门，140原行full mean_gap>2.8982165181396939；六ordinary表保χ′20/全部mean，known-middle<7.362908e−14。原NR宽record/MC两mean/5窄MA逐字；WA17实际cL/左右body及同态匹配仍待，旧91/H零重算。
+
+- **SV actual43722805762/1完成。** [完整报告](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)75c453c0，child0/23门；三density0整项全改善，SV<1.813617e6，first<7.997863e10/mean<1.675903e8/pair<7.997880e10，28项逐字M。root58处球/23门/69pins/20AST/job实核，physical n域/fullmean保；旧math0，return/high/core未付。
 
 - **RB真实右帽到ordinary moving body。** [证明](results/R133-supplement-actual-right-cap-body-and-nonlinear-moving-L2-comparison.md)e87d247a：精确均值/逆角/测度给系数80，只微分已知reference；实际18/1/25两输入加独立非零base load，左右同态匹配仍必需。仅ordinary L2，不授Σmode sup或实际低迹；global sup两分量sum明确。
 
