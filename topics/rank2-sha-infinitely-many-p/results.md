@@ -10,6 +10,10 @@
 
 ## 新增结论
 
+- [R679：中性十二次扩展与三份完整S适配](results/R679-neutral-degree-twelve-three-s-and-exterior-return.md)：原11核及前8核乘真实π4输出G^6给六/十二次整测试q♯，实际19阶全参数逆使两冻结源与cd端点全等S且归一J2=1；同ray密度一族全N4保完整算术返回。未切V/X与十二步I/O/X都准确回JS，新增J8/全H8尾不删，负一深支仍非零；全T失败支尚未与这些S域相认，旧零质量不搬。
+
+- [主角型carry的原角域三次稳定](notes/2026-11-15-principal-carry-corner-third-jet-stability.md)：同一原整权的齐次次数在6Z时，完整相对Mellin三次项与R682相同并读实际二阶积分；适用于已付q♯，新增十二次单行质量和全部尺度log保留。
+
 - [R683：全原十九角双jet与短三块的较低平方根门](results/R683-whole-original-angular-system-and-short-three-block-surjectivity.md)：原全十九角的准确曲线能量及显示klt边界给D−5>3R_N的双N-jet整满射，完整支付b≥p曲线和W2提升；真实模十二乘子/原低行右逆回旧短三块，ell≤3时D−17>3R_(s−3)，渐近门sqrt(54/47)√p≈1.072√p。完整M仅L−26单位/26p/13自由，临界0.413√p和同R指定forcing仍开。
 
 - [R602：原单Gaussian余项的全Hurwitz整性与下一完整中央Bockstein](results/R602-original-gaussian-hurwitz-integrality-and-next-central-bockstein.md)：同一高度二系数与整数Bell公式给全n!整性、n<p完整整窗及更大开解析盘；原完整j模p³只读前两项，准确返回原A_s/A_2s的第二非齐次条件。全H严格尾、原物理缩放与中央投影保持，未由首层失败或余项整性推出无穷非零。
