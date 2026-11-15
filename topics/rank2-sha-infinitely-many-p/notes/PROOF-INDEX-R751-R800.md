@@ -105,3 +105,5 @@
 - **R792**：[原常数charge非零窗口的r/k分类与三次排除扩展](../results/R792-original-nonzero-constant-charge-classification-and-cubic-extension.md)。不加mq0即迫r=2/3/4、k0、F0=λd^c，原Fp全部十三个显示系数格及真实W_b返回已付；R788 b3全p排除扩至q0非零全部mq。零常数余支保原最低charge j≤45和移动因子度界，r2恰q=Y qtilde、degH≤2；同R/第三单位行不免费运输。
 
 - **R793**：[原W正交帽轴、固定条件来源与第四块J/E返回](../results/R793-original-w-orthogonal-hat-axis-and-fourth-cell-j-e-return.md)。真实degree2808整轴/旧ray/Theta锚付全三态z°偶核，并得保W的独立双轴框架；原D°的J/z双返回保U300及Yunit/log。第四块实际两门表使用同W观察，列为原T、行为J条件来源；全部逆Y、W深补域和不同E门明确保留。
+
+- **R797**：[原零常数charge的移动因子、六十四格与完整三次几何门](../results/R797-original-zero-constant-charge-moving-factor-and-complete-cubic-gates.md)。r2余支q=Y qtilde的H度0/1/2及移动/零点根全保，原50+13+1 mask和每charge帽准确给出；三次全十九角给κ≥3χ−18≥9+6z。实际接触右端保−t^z/−d^ct^z及全部H未知列；公开producer随文提交，未预认全p排除。
