@@ -400,3 +400,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 ## 仿射谱首公共运行：五源及50来源冻结
 
 [完整接线/审核/执行计划](notes/affine-spectral-implementation-and-first-public-run-20261115.md)固定新模型、直接e/f观测、159目标、新开发及第八handoff driver五源；50绑定含最终workflow/publisher，98研究args仅out改变、24原输入SHA不变。保所有实际门与原预算，返回rho_aff预测/rho_hat辅助量分账，SOC保同step原scalar RHS。逐模型新误差/innerLP/预算比较保公共日志，未有新执行或passed结论。下一通过公共新人工后八必要恢复各一次及唯一新stage，原恢复费用独立。
+
+
+## R282：十个对称 Gaussian history 原系数与确实新增的平方门
+
+[R282 完整证明](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)保原Z²和三阶history给四个平方与六个交叉ErEs准确式，真实21元独立基防止用已零面积或零/一层冒抵消。B−3=cP，P(u,v)=J(u″v″)，原三外矩与真实左尾给q0=−∫F′d′、q1=−∫(xF′+2r²)d′及保2u′v′/−2d²的完整q2。实际不交微包化为Kj=∫x^j[(u″²)′]²及C=∫u″⁴；C由R267非合法单包原self的非零系数保持，未加强F。
+
+在原等平方背景/12odd完整包装中，平方整圆系数恰为−sin²θ(H0,H1,H2)，Hj=Σa²R Kj，H2另加2ΣR²C。同F三实际high–low–high参数的(-H0,Lc,Mc)principal行列式首为135s0²X16乘三点Vandermonde；原C¹有限N纠正使双能量准确零曲线上H0非恒定。因此存在保三矩/全third/全部72面积/六能量而H0非零的真实圆，非仅未检查，也不宣R280某未指定根或全族失败。root完整纸核三矩IBP、self非零因子、角归并、真实copy权与有限N非蕴含。下一五量联合和余九乘积，完整period/同w及主课题仍欠。

@@ -24,7 +24,7 @@ H有理精确计算，原九物理系数与float评价分层；真实c3/c8耦合
 
 [选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
 
-[仿射谱五源与首运行接线](notes/affine-spectral-implementation-and-first-public-run-20261115.md)已冻结50源码/98参数/24输入。只仿射化e/f并保谱norm曲率，cuts全计原12LP/40值/120秒。公共首次新开发后八必要输入各一次、唯一新stage；没有本地新运行或passed结论。下一消费所有新开发原结果、两网原门/盒/eta/费用和逐trial两误差/遗漏/ε、SOC同step两预算及实际controller，不重复旧factorized科学或冒m6主因。
+[仿射谱五源与首运行接线](notes/affine-spectral-implementation-and-first-public-run-20261115.md)已冻结50源码/98参数/24输入。只仿射化e/f并保谱norm曲率，cuts全计原12LP/40值/120秒。首run43722283235/bb33192/job132836684400在行，前置pull过；新开发后八必要输入各一次、唯一新stage，尚无可读passed/实际结论。下一消费所有新开发原结果、两网原门/盒/eta/费用和逐trial两误差/遗漏/ε、SOC同step两预算及实际controller，不重复旧factorized科学或冒m6主因。
 
 ### 仍须支付
 
@@ -132,9 +132,11 @@ R267/270/271/273已付旧有限正宽圆三矩/全third/六能量、36odd及若�
 
 ### R277/R279/R280：全部 Gaussian 面积和六识别能量已联合支付
 
-[R277](results/R277-low-jet-observation-fibers-and-high-jet-energy-control-for-equal-background-circles.md)/[R279](results/R279-finite-frequency-fiber-control-pays-both-even-profile-energies.md)的真实最大秩F纤维保持全部72观测；[R280](results/R280-ordered-three-moment-areas-and-five-block-Gaussian-cancellation.md)在原self/Green及对称cross准确消后，将余六式化为A01/A02/A12三个真实有序矩面积。17进制R/二进制TM两层编码交换给A01严格双号；五最终完整block的正四次权按原平移律同时清三个面积，全部72条准确为零。最后位置/权先定，再各block按R279同F有限N真实根付Lc/Mc，原odd/共振一般微包式给六能量全0。不是从条件数推rank，未枚举巨量序列或提供数值候选。
+R277/279的真实最大秩F纤维保持全部72观测；R280以原self/Green与ordered矩核、两种实际digit布局的A01严格双号和五最后完整block正四次权清全部72面积，随后逐block同F有限N准确根付Lc/Mc及六识别能量。完整证明见results，非数值候选或rank计数。
 
 **下一按原四阶完整Gaussian word表达，核付十个对称二history乘积、四个一层与零层及整个ruling系数，再与canonical完整period/同w gauge联立。** [R281](results/R281-analytic-packet-fibers-and-finite-canonical-end-germ-conditions.md)已从最初用ψ×偶多项式真最大秩母包、解析同F有限N根接R280：全72面积与六能量同零且p=t^-2 a_e exp(−c/t)、内部退化有限。整个canonical Tf保最后真尾，经共轭微分和频率独立化为有限准确系数；平台/flux已付时这些系数零iff端逆germ光滑。**下一提取实际尾并支付这些系数、平台/通量/内部Laurent，非再证明有限性。** 高阶收敛/同g有限族/全时嵌入reach仍欠。
+
+[R282](results/R282-symmetric-Gaussian-products-and-an-independent-square-history-gate.md)已从原式完整提十个ErEs；E−3²恰iff三个新Hj零，H2保低阶正基线。同F真三参/有限N曲线证明H0不由此前全部门推出，未判某个未指定旧根失败。**下一用六真实交替high/low位置联合(H0,H1,H2,Lc,Mc)，再做余九乘积；原72面积须逐包保持。**
 
 ## O1：双圆领相位机制，保留备选
 
