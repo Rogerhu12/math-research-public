@@ -21,6 +21,8 @@
 
 - **[当前∞的1632标准Koszul真注入](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)：** 187原子式mod31=28，F31/Q真独立；[旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)等同且17缩放31单位。run43679903558外支持实际1.575719778秒：1834×1632秩1603，外核/36自由像均29维，与旧23轴并仍29；Q支撑交仅上界29，6新模方向正作精确提升，旧23成员性须完整原表示。
 
+- **[Koszul的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)：** 187/17原单位子式给ΓΦ=I、直和与31饱和；成员性须核全6188及斜对称，投影不保J，不能把外核mod31当Q。
+
 ## 同w边界：完整返回仍须费用估计
 
 M=kerT、N=closure BM、W=M⊖N，N=M未证。同w/未来/负前缀、初M3后M2及所有自然逆域保留。Xi²=bare²+flat²，λ²=<G^-1r,r>、μ²=<Lr,r>，ordinary λ不准互换。
