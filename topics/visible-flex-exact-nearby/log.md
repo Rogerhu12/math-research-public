@@ -275,3 +275,7 @@ P22实际mixed-root/graph1026源域与fixed-t S2严格区分；P28完整有序�
 Cf完整state来源L8，乘残差逆后<2^400000；与原U的TB2^1600000/sB、QZ2^(64+65536)sBε联立，sB准确消，反馈<2^-31000000。原F必须保a′=DA[h]、aRφ及端点phase；固定η0δ0/Fcov范围明确，fullδ/analytic224/内体high/ν非线性未宣称已成。所有新界为显示代数与原已证常数的演绎，无新数值实验。
 
 H9850B完整存notes/2026-11-15-handoff-before-shifted-Sobolev-and-whole-rootpiece.md SHA1ae76dc57b29521b70c61540fac3dc091f8ff136b7a3bfc6620b697f6f0e573d后缩写旧adjoint历史，全身份原文保。本次只读README核2f423a78f943016aeabfd8efda2794880e27dad1两blob未变，真pull仍另按原worker记录。
+
+## 2026-11-15 02:41:58 UTC 固定径向完整根源 K1–34 已证并独推
+
+核根与题README于 641c5d2ded708c6b3d76130cde2e887944e0c40c，blob均未变。完整核对K.1–K.34、原C.2/C.43–47、U.2及J.1–8；C.2准确给m_j≤δ_j，不借新假设。新增证明SHA256 b22c900a3fbfd0417b590188e2dc5aa6dc7b599004d15a82c7a560d5b3ea0120。仅t固定角Piola，保两weak分量、χ加权primitive约束和两真实mean；K.9的reaction由真实D_t−dDθ恒等式推出。退化根单向能量未反向滥用，完整两端源接线只用旧齐次逆word。原fixed-t普通源经有限角Sobolev嵌入进入同一有源C²逆，真实浅前缀/δ8192因子均保。weak/metric两Γ、analytic输出、fullδ/相位及ν非线性仍继续，不以此收尾。无新数值计算。

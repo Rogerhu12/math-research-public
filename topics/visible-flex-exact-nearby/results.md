@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R119 K1–34：固定径向根源与原普通源物理C²逆。** [完整证明](results/R119-supplement-fixed-radial-root-sources-and-complete-ordinary-C2-inverse.md)，SHA256 `b22c900a3fbfd0417b590188e2dc5aa6dc7b599004d15a82c7a560d5b3ea0120`。仅同径向截面改变角坐标，准确保 total-flux mean 与高度 mean；根能量、实际两端仿射接线、所有浅前缀及深层权均已付。原 S2β→S_t1026<2^16384，继得完整普通源物理δ22 C²；不授解析输出、未核弱端迹或主课题闭合。
+
 - **R133 完整角规范Hessian的负阶/高阶Sobolev与帽尾Schur。** [S1–24](results/R133-supplement-shifted-Sobolev-complete-gauge-Hessian-and-cap-tail-Schur.md)在同repair/η0δ0，真B0闭合后K<1/64；完整复角族粗界2^64与M=2^256权给共轭差<2^-166，−3/2≤s≤1024通常物理M_s逆<2^262145。完整Cf_cov<2^400000，原U全尾反馈仍<2^-31000000。保两mean/跳/原F相位aRφ；实际角转换仅给moving L∞rHs，不冒称radial-sup模块不变。
 
 - **R119 全无限深有源 particular 二jet与实际坐标 ordinary 源逆。** [P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)完整支付root两行、真实graph affine drive、strict两个mean、positive零迹particular及raw PDE二阶重建。新增actual mixed图普通源域S_at1026，保原真实尺度/weak端迹/全部浅前缀与δ8192^-485/4；Gbody<2^1600000 εC S_at，物理归一C²最终<2^3400002 J20δ22(外G+εC S_at)。原fixed-t S2与analytic224尚无自动转授；classical及接缝假设明确保留。

@@ -60,7 +60,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 [U完整1024角窗](results/R119-supplement-complete-1024-angular-Sobolev-network-and-physical-cap-Schur.md)重新付B*=2^65536、真实commutator与全lag，Tsharp=max(2^1048704J²δ^-9,2^1056768)、vsharp=2^-600000J^-4165δ^(1073/32)。同公共点从旧full inverse准确恢复新增remaining频带，mixed差<2^-4300000、全mean强source逆<2，物理η0δ0帽反馈<2^-31000000。
 
-[D强层衰减与物理平端C²](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)已证：w=δ^-64，remaining H1024→H9给δ939/32，actual mean向外因果Green与完整双PoissonF³保留；完整有序D.3源域的所有root状态W_-2H8<2^1600000G。齐次深尾按真实root/strict/positive三段支付物理二jet<2^131072J12δ^-32，连层δ54得δ22且保ρ/ε_s，故真实平端C²延拓成立。P1–31已支付完整有源particular及明确actual mixed源域；weak/BV原子仍只保原单侧迹，非紧参数/Γ列须真正入域。继续fixed-t普通源入口及analytic224输出，不能仅从endpoint荷冒称C²。
+[D强层衰减与物理平端C²](results/R119-supplement-strong-layer-decay-and-physical-flat-end-C2-reconstruction.md)已证：w=δ^-64，remaining H1024→H9给δ939/32，actual mean向外因果Green与完整双PoissonF³保留；完整有序D.3源域的所有root状态W_-2H8<2^1600000G。齐次深尾按真实root/strict/positive三段支付物理二jet<2^131072J12δ^-32，连层δ54得δ22且保ρ/ε_s，故真实平端C²延拓成立。P1–31已支付完整有源particular及明确actual mixed源域；weak/BV原子仍只保原单侧迹，非紧参数/Γ列须真正入域。[K固定径向完整源](results/R119-supplement-fixed-radial-root-sources-and-complete-ordinary-C2-inverse.md)已另付原fixed-t普通源入口：保持径向的真实角规范、完整两行/两mean，零根particular只正向估计，接线反向仅用既有齐次核。原S2β控制S_t1026，给同一有源物理C²。继续实际metric/Γ弱端迹及非线性输出空间；不能从有限阶输出直接升analytic224。
 
 [G完整角规范与残差Hessian](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)已证：全4Z Eh含真正weighted rank-one常数，原moving source符号J=[[0,K],[-1,0]]；A=〈dv/m−γu〉、Fcov=F−AQφ精确物理共轭。恢复原F的线性方程须保a′=DA[h]、aRφ体源及真端点a，非解中心不能删。固定η0δ0给定全部物理端口下新Z≤J旧Z、未知Hessianχ<1/128；真正long B0反馈仍单独付。[S1–24](results/R133-supplement-shifted-Sobolev-complete-gauge-Hessian-and-cap-tail-Schur.md)已付真B0与−3/2≤s≤1024残差共轭：通常物理M_s逆<2^262145、Cf_cov<2^400000，完整帽尾反馈<2^-31000000。继续全δ、原F有限phase联立、ν与最终holonomy；不转授原analytic224。
 
@@ -84,7 +84,7 @@ tail_connector负责。同一新simple-root固定stop、同一R/η/两bump、同
 
 ### 全深有源二jet已付，继续真实源域入口
 
-[R119 P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)已将D齐次结论延至完整root/graph/strict/positive particular；ordinary actual mixed图S_at1026→Gbody与物理C²常数全部付清。继续由实际producer/非线性源证明S_at及weak/metric两列的域成员，不能把fixed-t S2或原analytic224直接改名。完整mean/totalflux兼容、真实raw接缝和高度gauge不变。
+[R119 P1–31](results/R119-supplement-complete-deep-source-particular-jets-and-actual-coordinate-ordinary-inverse.md)已将D齐次结论延至完整root/graph/strict/positive particular；ordinary actual mixed图S_at1026→Gbody与物理C²常数全部付清。K1–34已证明原fixed-t S2β→S_t1026及完整有源物理C²，不要求混合根图producer。继续核实际非线性源和weak/metric两列的域成员及真实弱端迹；有限阶输出不能直接改名为原analytic224。完整mean/totalflux兼容、真实raw接缝和高度gauge不变。
 
 ### 同97帽后验与方向Poisson消费已部署
 
