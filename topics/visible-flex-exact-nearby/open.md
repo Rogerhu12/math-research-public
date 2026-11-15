@@ -218,13 +218,14 @@ v=S_Tu、w=−R_v S_Tf没有第二截断；a1856/b6396、
 参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight、
 一个λ、ν及所有独立荷须同augmented近似右逆联立。
 body/holonomy mean收敛不等于全部外匹配。
-实际迭代始终在同一固定最终Γ2和原profile族上，不重选另一个度量。
+当前E/L/B迭代冻结最终Γ2，但沿Γ1*(u)重建设计metric；这给最终设计metric的一成员。**整个族固定metric的量词尚未闭合：** 最终Γ1冻结后，覆盖ν/flex族的完整增广逆与非线性入口必须另付。不能把Γ1随u变化的graph收敛直接写成README所需的固定metric族，也不能据此推否定结论。
 
 ## 7. 单一frame、全部匹配及最后几何
 
 正collar不变principal的完整参数族证明已用于实际G种子。
-关于frame的准确后继构造在独立审阅中：
-gh=g−dz²，真coframe/连接Ω保全部径向phase；
+[T单一frame接口](results/R119-supplement-positive-collar-principal-invariance-and-single-frame-reconstruction.md)
+已经证明：gh=g−dz²，真coframe/连接Ω保全部径向phase，
+Ω_t=q(1+K)(V−P)/(B√D)，dΩ=qJD^-3/2 residual dt∧dθ。
 只有PDE residual=0时dΩ=0，才可由一个共同frame/位置积分。
 四重周期与holonomy-one给真实位置周期。
 matching完整height和slope包含mean后，可以将尚待安装的一侧

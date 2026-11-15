@@ -243,3 +243,7 @@ README只读核9ca5460c504b8fcf8fc8f2d692b6cd477634c035无变；root全读run436
 README只读核27b9728881282bb6096678cd13c1a90175686b05无变。G已核正文仅显式列κ(q;P,K,U)的真实U=Pθ输入，并先由同PDE递推消非mean前三源jets、再用完整holonomy投影得到全源三jets为0；保root已付整p族Γ1唯一性及physical m∈4Z。新17944B/SHA7570b240444adbdb03eb017d50193240d4caaa6cf6d7e834c77ed5837dd416f1，原常数/域全不变。
 
 此前open原文28800量级已完整归档notes/2026-11-15-open-before-actual-two-input-cap-and-graph-seed.md（29121B/SHA12bcd17a3f1c3837ef06dc17f7eefab70c8b8356caaf7494e6d08871d2ccfee2；源7abd3136d6fe8948ca96f447746b7bd16f5fd5a9，原SHA86fa249d5dbb1aee06cb9c38eb41d3c0c3b377d721a48399a5a56609ffc53680）。当前页更新为已付X/H/F/M/P/G/Sactual与剩余Green/G15/N2/全augmented/ν/geometry的准确状态，任何旧门未删。H压缩前同源commit保全。已亲读Green09:13 process41168B/ef2cfe83…，真pull09:13:36.658793→737f0c7287c2959a016bcc7572bbe50d818ce7c5，两README空diff；future3536=1886旧+1650新/past1232/product1664/0group。09:18非FF即时CLI真pull仍无executor，随后保远端重建推送成功，未force。
+
+### 2026-11-15 09:25:27 UTC — 单一frame接口独推，固定metric族的量词明确保留
+
+README只读核983edc8321b3ff7bf85ffd587e32f11cba6a2236无变。root全文核T1–21并手核Ωt简式，newton独核T9–16/残差正号、phase核相关jets；加入准确Ωt=q(1+K)(V−P)/(B√D)。真PDE使连接flat，fullCauchy与mean配齐后一次frame/位置安装给全B圆连续及真实四重周期；非zero residual种子没有据此成为immersion。正文11187B/SHA8cd57dc6b7998efc3dfd36c961067ff02c058af369ece1889ab7fe60a124e39d。另核E/L/B量词：冻结Γ2但Γ1*(u)随设计状态重建，当前只设计最终metric一成员。最终Γ1冻结后覆盖ν/flex族的增广逆/非线性入口没有现成转授，已进open/H，不隐藏该README核心门。继续local actualΦ与全N2/完整source/97。

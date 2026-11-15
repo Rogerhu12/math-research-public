@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 09:22:21 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 09:25:27 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只文字与静态核。每结论独推，非FF立即真pull --rebase再推至成功，禁force。root独管main/H/open/results/log，代理交blob。PAT只瞬时CLI/env，禁文件/输出/connector；根规12不另审批。
 最后本机真pull 2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9；自21:48无executor，08:32:05定时及09:18非FF即时重试仍无。原partial checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。root已核runner真pull 09:13:36.658793 UTC 737f0c7287c2959a016bcc7572bbe50d818ce7c5，两README diff空；ref读不冒pull，每小时继续CLI尝试。
 根规15：可重算证书/data/Actions输出不存Git/Release/新artifact，只script/args/run/SHA/小结论；题main≤200MB，普通删除留历史，旧成功数学禁重算。无executor例外connector只UTF8<100KB、禁binary/gzip。旧输入runner从immutable commit/path或既有artifact临时恢复。H≤10KB/open≤30KB。
-最近只读README核：27b9728881282bb6096678cd13c1a90175686b05；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：983edc8321b3ff7bf85ffd587e32f11cba6a2236；根74c08a36f6c997d0bc1e64a7956b42276f5fa5d7、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 137c5a877fb387a82cbde01f084d1fa67ee717aa；rules f2661bd5cf5cb006c1f78c64126b3ac065e6bc26a50790545ac443efb5e372bd、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 压缩前全部逐字检查点保存在7abd3136d6fe8948ca96f447746b7bd16f5fd5a9:本文件；再串notes/2026-11-15-handoff-before-new-object-94-chain.md及此前H。全部旧输入身份、失败/成功、门与restore链原样有效。results全档notes/2026-11-15-results-through-actual-cap-and-height.md，SHA bf415c805d41f603e822e9a8ec96611d3ead8f71aed3afe58a84062fbeb9a42f。
 
 ## 总完成门与固定对象
@@ -35,7 +35,7 @@ N/b6a1e3e3…需要两独立低门：state R1856≤2^-8192000及weighted远端Sc
 B/7ad04c3b…Nash a1856/b6396，p3000/Tnext=T^5/4，v=S_Tu、w=−R_vS_Tf，无第二截断；high3500/400、低−4220、高1*T320+C*T274。实际T0^126≥16C*、T0^1266≥16C*/ρE及|f0|a≤T0^-3000，连同augmented Schur/端列/Hp/ν/commutator仍需付。
 P/83381f93…新S25/S26/C18/J18同fixed-stop94链已付，全部复标签及Cauchy方向a_-m=a_m、同物理轴偶。帽σ1/8192；wide incoming/mixed同long另付，完整mean/物理aw/唯一λ保。Ra2^-55000000、β94=66624、far斜率<2^-5280041760。每步同Γ/Φ图值解析更新，非新数值；预处理Γ随a变，Nash须固定最终Γ2后识别Γ1 value graph。
 新G/7570b240…17944B已付实际B collar种子：原首q transition内d2^-1024，单侧5jet Hermite、真实κ的U输入/全mean源三jets/aw ratio；L10整参数族输入不变→L15 Γ1准确不变。E8192种子<2^-54866996、完整三径source<2^-5275847456，meanκ/唯一λ/第五broken跳全保。若另付B*≤2^6000000，T02^1500000实际初门全过；B*与augmented仍未授。root全文/newton及phase窄核。
-root接真实Φ远端导数/low form/N2：旧K域Z/(3.3e−10)低≤1/16不含当前实际帽trace，禁直接套用，须按真实f*域重新实例化。所有mean/height、跨端Hp、一global λ保，body/holonomy mean收敛非全部matching。
+root接实际Φ的local tame/form，tail接两actual外图的完整N2 weighted transport；旧K小Z域不含当前帽，须由f*≤rf重实例化。T/8cd57dc6…单frame已付：Ωt=q(1+K)(V−P)/(B√D)，dΩ=qJD^-3/2 residual；真PDE+全Cauchy/mean→一个frame位置周期，off-shell不授。全mean/height/Hp/一λ保。E/L/B沿Γ1*(u)只设计最终metric的一成员；最终Γ1冻结后完整ν/flex族的augmented逆/非线性入口仍未付，绝不冒固定metric族。
 
 ## 实际帽、真实Φ与rough输入
 
