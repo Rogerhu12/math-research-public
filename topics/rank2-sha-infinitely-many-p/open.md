@@ -125,3 +125,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 [R831全old矩阵](results/R831-original-dyadic-old-space-and-unique-endpoint-class.md)：原2处整个三维old空间在共同目标的Chow矩阵严格为[[0,0,Z],[0,0,0],[−Z,0,0]]：七项同低层消失、显式W4反射和f的绝对−1类型符号齐付。任意线性extraction仅乘c0d2−c2d0；保X0次数6、X1次数12、遗忘1632/816及全部AJ两项/同分母。唯一端点类/global AJ与原R814比较仍开。 继续唯一端点类的原λ投影，不再靠换这三维old空间中的向量增加算术条件。
+
+
+[原mirror正水平与t1](notes/2026-11-15-mirror-trace-positive-horizontal-jets-and-t1-fiber.md)：原q_src t^rFH对数代表在Y∞准确读x^(3b+c)完整jet，奇支保平面conductor/tame极阶；真实α框变换保2b项。精确充分门3s>(3b+c)deg_tF逐正规化支杀整个t=1纤维，原帽仅用M_D=f_D+C_D及3b+c≤D；不宣称r2自动满足。其余水平/十九角、真实kerα及短13尾仍开。
