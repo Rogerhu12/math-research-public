@@ -1,4 +1,4 @@
-name: visible-larger fixed eta0.01 inexact p3 restoration with original merit
+name: visible-larger explicit recipe eta0.01 inexact p3 restoration
 'on':
   push:
     branches:
@@ -13,7 +13,7 @@ defaults:
     shell: bash
 jobs:
   smallcoreresonance:
-    name: Continue actual99 with unchanged eta0.01 and original complete-three merit
+    name: Continue actual101 literal recipe with original complete-three merit
     runs-on: ubuntu-latest
     timeout-minutes: 60
     concurrency:
@@ -40,7 +40,6 @@ jobs:
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz
           /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json
-          /topics/visible-flex-larger-amplitude/notes/public-actions-43677789194-1-smallcoreresonance/small-core-inexact-p3-restoration/inexact-p3-restoration-status.json
     - name: Establish one independent diagnostic output
       run: |
         git config gc.auto 0
@@ -54,20 +53,20 @@ jobs:
         python-version: 3.12.14
     - name: Install the existing original operator diagnostic runtime
       run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
-    - name: Bind actual99 own-schema parent and unchanged73 sources
+    - name: Bind actual101 explicit parameter recipe and current74 sources
       run: |
         python - <<'PYPINS'
         import ast,hashlib,json,os,subprocess
         from pathlib import Path,PurePosixPath
         repo=Path.cwd();comp=Path(os.environ['VISIBLE_COMPUTATIONS']);out=Path(os.environ['VISIBLE_OUT'])
         raw=(comp/'public-small-core-resonance-request.json').read_bytes();request=json.loads(raw)
-        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==101
+        assert request['repository']=='Rogerhu12/math-research-public' and request['request_number']==105
+        assert request['schema']=='public-small-core-parameter-recipe-request-v1'
         assert request['lanes']==['smallcoreresonance']
-        entry='geometry_20261115_small_core_inexact_p3_eta_0p01.py'
-        producer_sha='f43c20ea6b8a5616b4330870897a1d0b6bd2c157435544366af1fe70dcdff7bd'
+        entry='geometry_20261115_small_core_inexact_p3_eta_0p01_recipe.py'
+        producer_sha='3169b2d3ea821a244d9f27611cd6c5cb3b239cf0e7f9bbbd7f49ac9d5f1dc9ee'
         assert request['scientific_entry']==entry and request['source_sha256'][entry]==producer_sha
-        assert request['scientific_source_unchanged'] is True
-        expected={'parameters':[0.5028915872638302,-0.30533374854090733,0.5947144547996672],'backtracks':20,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1,'damping':'0.01','candidate_steps':8,'inner_newton_steps':12,'inner_backtracks':20}
+        expected={'parameters':[0.5003346243435612,-0.2840549745844459,0.5965308971991595],'backtracks':20,'candidate_resonance_tolerance':1e-8,'interval_bits':160,'interval_depth':14,'original_mesh_nodes':699,'field_modes':112,'tail_modes':112,'physical_angle_grid':2048,'material_and_boundary_angles':4096,'original_RHS_workers':1,'damping':'0.01','candidate_steps':8,'inner_newton_steps':12,'inner_backtracks':20}
         assert request['diagnostic']==expected
         for path,key in [('README.md','root_readme_blob'),('topics/visible-flex-larger-amplitude/README.md','topic_readme_blob')]:
          assert subprocess.check_output(['git','hash-object',path],text=True).strip()==request['publication_policy'][key], 'README changed: root must read new difference'
@@ -77,10 +76,18 @@ jobs:
          b=(comp/name).read_bytes();assert hashlib.sha256(b).hexdigest()==digest,name
          if name.endswith('.py'):compile(ast.parse(b,filename=name),name,'exec')
          verified.append(dict(file=name,bytes=len(b),sha256=digest))
-        assert len(verified)==73
+        assert len(verified)==74
         closure=request['source_closure']['current_producer']
-        assert len(closure)==14 and closure==request['source_closure']['parent_producer']
+        assert len(closure)==15 and len(request['source_closure']['origin_producer'])==14
         assert all(request['source_sha256'][name]==digest for name,digest in closure.items())
+        item=request['parameter_recipe'];p=repo/item['file'];recipe_raw=p.read_bytes()
+        assert len(recipe_raw)==1249==item['bytes']
+        assert hashlib.sha256(recipe_raw).hexdigest()==item['sha256']=='98209dc9d214041865fea6cd2d5db34cfe7fdccc37ac3095e86e739cd2534091'
+        recipe=json.loads(recipe_raw)
+        assert recipe['schema']=='R278-explicit-three-parameter-continuation-recipe-v1'
+        assert recipe['literal_parameters']==expected['parameters'] and recipe['origin']==item['origin']
+        assert recipe['origin']['run_id']=='43679869518' and recipe['origin']['source_commit']=='17a07c22ef60eb2f913703956c1284b8da533f32'
+        assert recipe['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
         history=request['original_input_history_commit'];fetched=False
         def original(item):
          global fetched
@@ -99,22 +106,12 @@ jobs:
         inputs=[]
         for name,item in request['inputs'].items():
          original(item);inputs.append(dict(name=name,**item))
-        prior=request['prior_candidate'];item=prior['original_status']
-        assert item['bytes']==971400 and item['sha256']=='9b4cf9f1c7488ef310f38fcecccdeee7a8883c276d9cba351bf8f0bc2185fe82'
-        parent_raw=original(item);parent=json.loads(parent_raw)
-        assert parent['source_sha256']==producer_sha and parent['schema']==request['output_status_schema']
-        assert parent['consumed_source_sha256']==closure
-        assert parent['phase']=='diagnostic-completed' and parent['diagnostic_completed'] is True
-        assert parent['success'] is False and parent['native_nonlinear_solver_called'] is False
-        assert parent['final']['parameters']==expected['parameters']==parent['last_accepted_parameters']
-        assert parent['last_accepted_point_semantics']=='original-three-merit-accepted-candidate-or-fresh-parent'
-        assert parent['input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
         head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
         assert head==os.environ['GITHUB_SHA']
-        identity=dict(source_commit=head,request=request,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_prior_candidate=prior,parent_source_closure=closure,current_producer_source_closure=closure,scientific_execution_claimed=False,raw_output_retention=False)
+        identity=dict(source_commit=head,request_sha256=hashlib.sha256(raw).hexdigest(),verified_sources=verified,verified_original_inputs=inputs,verified_parameter_recipe=request['parameter_recipe'],current_producer_source_closure=closure,scientific_execution_claimed=False,origin_status_or_log_payloads_read=False,raw_output_retention=False)
         data=(json.dumps(identity,indent=2)+'\n').encode()
-        (out/'request101-input-and-source-identity.json').write_bytes(data)
-        print(json.dumps(dict(event='request101-source-input-identity',source_commit=head,request_sha256=identity['request_sha256'],identity_bytes=len(data),identity_sha256=hashlib.sha256(data).hexdigest(),source_count=73,parent_source_count=14,producer_source_count=14,old_publisher_executed=False)),flush=True)
+        (out/'request105-input-and-source-identity.json').write_bytes(data)
+        print(json.dumps(dict(event='request105-source-input-identity',source_commit=head,request_sha256=identity['request_sha256'],identity_bytes=len(data),identity_sha256=hashlib.sha256(data).hexdigest(),source_count=74,origin_source_count=14,producer_source_count=15,old_publisher_executed=False)),flush=True)
         PYPINS
     - name: Restore the original78 public numerical source files once
       run: |
@@ -135,10 +132,10 @@ jobs:
         request=json.loads((comp/'public-small-core-resonance-request.json').read_text());d=request['diagnostic']
         argv=[sys.executable,'-u',str(comp/request['scientific_entry'])]
         for key in ('accepted','prepared','tail_anchor','tail_config'):argv+=['--'+key.replace('_','-'),str(repo/request['inputs'][key]['file'])]
-        argv+=['--parent-status',str(repo/request['prior_candidate']['original_status']['file']),'--parent-status-sha256',request['prior_candidate']['original_status']['sha256'],'--damping',d['damping']]
+        argv+=['--parameter-recipe',str(repo/request['parameter_recipe']['file']),'--parameter-recipe-sha256',request['parameter_recipe']['sha256'],'--damping',d['damping']]
         for key in ('candidate_steps','backtracks','inner_newton_steps','inner_backtracks','candidate_resonance_tolerance','interval_bits','interval_depth'):argv+=['--'+key.replace('_','-'),str(d[key])]
         argv+=['--out',str(out/request['output_directory'])]
-        (out/'exact-diagnostic-command.json').write_text(json.dumps(dict(argv=argv,parameters=d,one_independent_inexact_p3_restoration_invocation=True,parent_approximate_root_algorithm_executed=False,actual_third_residual_in_normal_correction=True,inner_threshold_is_not_an_outer_eligibility_gate=True,parent_three_coordinate_direction_engine_executed=False,original_model_and_checks_imported_unchanged=True,new_two_coordinate_algorithm_explicit=True,source_chain=request['source_chain'],native_solver_started=False),indent=2)+'\n')
+        (out/'exact-diagnostic-command.json').write_text(json.dumps(dict(argv=argv,parameters=d,one_independent_inexact_p3_restoration_invocation=True,explicit_literal_recipe_is_not_parent_status=True,parent_approximate_root_algorithm_executed=False,actual_third_residual_in_normal_correction=True,inner_threshold_is_not_an_outer_eligibility_gate=True,parent_three_coordinate_direction_engine_executed=False,original_model_and_checks_imported_unchanged=True,new_two_coordinate_algorithm_explicit=True,source_chain=request['source_chain'],native_solver_started=False),indent=2)+'\n')
         raise SystemExit(subprocess.call(argv))
         PYDIAGNOSTIC
     - name: Report original scalar decisions and output hashes under rule15
@@ -150,18 +147,23 @@ jobs:
         out=Path(os.environ['VISIBLE_OUT']);p=out/'small-core-inexact-p3-restoration/inexact-p3-restoration-status.json'
         def pick(value,keys):
          return {k:value[k] for k in keys if k in value} if isinstance(value,dict) else value
-        result=dict(readback_schema='request101-original-scalar-readback-no-raw-retention-v1',run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],new_scientific_computation=False,raw_artifact_repo_or_Release_retention=False)
+        result=dict(readback_schema='request105-original-scalar-readback-no-raw-retention-v1',run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],new_scientific_computation=False,raw_artifact_repo_or_Release_retention=False)
         if not p.is_file():
          result.update(original_status_present=False,scientific_success_not_claimed=True)
         else:
          raw=p.read_bytes();s=json.loads(raw)
-         result.update(pick(s,('schema','phase','diagnostic_completed','success','exception','seconds','source_sha256','consumed_source_sha256','input_sha256','damping_cli_text','initial_original_three_equation_merit','final_original_three_equation_merit','last_accepted_parameters','search_stop_reason','last_accepted_point_semantics','inner_call_count','original_unit_stopping_tolerance_met','low_mode_candidate_has_small_full_recorded_right_residual','native_nonlinear_solver_called','full_nonlinear_nonzero_lambda_solution_computed','high_mode_nonresonance_or_interval_transversality_proved')))
+         result.update(pick(s,('schema','phase','diagnostic_completed','success','exception','seconds','source_sha256','consumed_source_sha256','input_sha256','parameter_recipe','explicit_recipe_is_not_a_parent_status','prior_status_or_log_payloads_read','damping_cli_text','initial_original_three_equation_merit','final_original_three_equation_merit','last_accepted_parameters','search_stop_reason','last_accepted_point_semantics','inner_call_count','original_unit_stopping_tolerance_met','low_mode_candidate_has_small_full_recorded_right_residual','native_nonlinear_solver_called','full_nonlinear_nonzero_lambda_solution_computed','high_mode_nonresonance_or_interval_transversality_proved')))
          result['original_status']=dict(file=str(p.relative_to(out)),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
          for k in ('initial','final'):
           result[k]=pick(s.get(k,{}),('parameters','unit_diagonal_defects','low_equations_used','three_by_three_parameter_jacobian','independent_real_parameter_difference_checks','complete_first_order_right_residual','high_right_leak_max','source_circle_node_and_mid_minimum_beta2','source_circle_node_and_mid_minimum_radius','scalar_node_and_mid_minimum_radius'))
          result['original_call_trace']=pick(s.get('original_call_trace',{}),('counts','observer_errors','file'))
-         result['original_complete_circle_check']=pick(s.get('original_complete_circle_check',{}),('completed','passed','file','bytes','sha256'))
-         result['complete_scalar_domain']=pick(s.get('complete_scalar_domain',{}),('completed','passed','success','leaf_count','split_count','unresolved_count'))
+         def small_metadata(v,depth=0):
+          if v is None or isinstance(v,(str,int,float,bool)):return v
+          if isinstance(v,dict) and depth<5:return {k:small_metadata(x,depth+1) for k,x in v.items()}
+          if isinstance(v,list) and len(v)<=32 and depth<5:return [small_metadata(x,depth+1) for x in v]
+          return dict(original_value_omitted_from_scalar_summary=True,item_count=len(v),original_status_sha256=hashlib.sha256(raw).hexdigest())
+         result['original_complete_circle_check']=small_metadata(s.get('original_complete_circle_check',{}))
+         result['complete_scalar_domain']=small_metadata(s.get('complete_scalar_domain',{}))
          result['outer_searches']=[]
          for row in s.get('searches',[]):
           z=pick(row,('iteration','parameters','residual','merit_before','true_model_merit_slope','accepted','reason','direction_model_error'))
@@ -181,8 +183,8 @@ jobs:
          result['all_output_hash_manifest']=dict(file_count=len(hashes),bytes=len(hraw),sha256=hashlib.sha256(hraw).hexdigest(),recipe='sorted relative paths, byte sizes and SHA256 of every temporary original output',not_persisted=True)
          data=(json.dumps(result,indent=2,ensure_ascii=True,allow_nan=False)+'\n').encode()
         assert len(data)<=90000,'Bounded scalar readback too large; no raw payload publication permitted'
-        print('BEGIN_VISIBLE101_SCALAR_SUMMARY')
+        print('BEGIN_VISIBLE105_SCALAR_SUMMARY')
         print(data.decode(),end='')
-        print('END_VISIBLE101_SCALAR_SUMMARY')
-        print(json.dumps(dict(event='visible101-summary-sha256',bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),run_id=os.environ['GITHUB_RUN_ID'])),flush=True)
+        print('END_VISIBLE105_SCALAR_SUMMARY')
+        print(json.dumps(dict(event='visible105-summary-sha256',bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),run_id=os.environ['GITHUB_RUN_ID'])),flush=True)
         PYREAD
