@@ -1,0 +1,33 @@
+{
+  "request_id": "rank2-20261115-r719-frozen-native-first",
+  "run_id": 43697687827,
+  "source_commit": "63e5720e227dde734882563922afa70bdf277530",
+  "checks": [
+    {
+      "script": "topics/rank2-sha-infinitely-many-p/scripts/check-r719-frozen-native-first-row.js",
+      "script_sha256": "bcb4d2d9803e88ae940114c5234e4debcac0fd1e0f7e3de4f8096452d17accf0",
+      "args": [
+        "--max-block=4",
+        "--taus=2,3",
+        "--with-b",
+        "--b-g-blocks=3",
+        "--neutral-degree=12"
+      ],
+      "engine": "node",
+      "sha256": "36c92ff5dc52591afbd8ece6319281c615894737cb1a3a68032ec804d7710dd6",
+      "stdout_bytes": 13829,
+      "exit_code": 0
+    }
+  ],
+  "outputs_persisted": false,
+  "python_flint_version": null,
+  "job_id": 132761748164,
+  "success": true,
+  "scope": "Actual frozen q715/zeta715 source over four auxiliary points only; no conclusion on negative unit moments.",
+  "observed_rank": {
+    "old": 50,
+    "with_five_differences": 52,
+    "with_both_branches": 52
+  },
+  "all_original_rows_verified": true
+}

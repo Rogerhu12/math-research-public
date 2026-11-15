@@ -58,3 +58,7 @@ R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位�
 R722增补：[指定forcing退出单位块](2026-11-15-r722-specified-extreme-forcing-outside-unit-block.md)付真实最低h−1行与度κ矛盾；[截顶charge回旧D](2026-11-15-r722-original-budget-truncated-tangent-unit-block.md)只损δj线性列且低charge两jet整分裂，原单位块/两实列确入WD。所有其它原列及同R仍保。
 
 R724附录：真实anti-Fermat指示h=1_G−p^-1 1_R×在整个O/p²上有F±h=p²h，全部primitive wild Gauss和绝对+p²；零点/非单位/任意加性乘子均已支付，不由自对偶宣称正下界。
+
+R722截源§4.1：实际额外两坐标给公共t阶≥r+1的真原首核，故dim K1≥1+dim I_cut；只有已证原首核一维时才得全截源饱和。
+
+R724后续[原Brandt二阶与同步匹配](2026-11-15-first-wild-brandt-second-moment-and-synchronized-pairs.md)：全incidence、norm-fibre对角、真实κ_p(a)及全Haar正均值均付；缺失紧方向不从固定CM基点免费平均。

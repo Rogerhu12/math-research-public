@@ -866,6 +866,51 @@ for(const c of candidates){
   assert(sc.rank===5&&!sc.inconsistent,"full S34/type5 coordinates at the true frozen gate");
   return {jets_z5_11_17_23_29:jets,theta_coordinates:sc.solution,is_zero:jets.every(v=>v===0)};
  };
+
+ const dot=(a,b)=>md(a.reduce((v,x,j)=>md(v+x*b[j]),0));
+ const rowReader=(base,goal)=>{
+  const e=elim(goal.map((_,j)=>base.map(r=>r[j])),goal);
+  if(e.inconsistent)return {exists:false,base_rank:e.rank};
+  assert(goal.every((v,j)=>dot(base.map(r=>r[j]),e.solution)===v),"entire finite row identity");
+  return {exists:true,base_rank:e.rank,coefficients:e.solution};
+ };
+ const noJRows=augmented.filter((_,i)=>i!==29);
+ const paidJReader=rowReader(noJRows.concat(diffMatrix),c.matrix[30]);
+ if(paidJReader.exists){
+  const coeff=paidJReader.coefficients,baseCoeff=coeff.slice(0,noJRows.length),normalCoeff=coeff.slice(noJRows.length);
+  const expected=md(1-c.old[30]-dot(baseCoeff,augSymRhs.filter((_,i)=>i!==29))+dot(normalCoeff,diffOld));
+  const actualDiff=fullFirstSource(diffMatrix,diffOld,as.solution,true).jets_z5_11_17_23_29;
+  const neutralDiff=fullFirstSource(diffMatrix,diffOld,an.solution,false).jets_z5_11_17_23_29;
+  assert(dot(normalCoeff,actualDiff)===expected&&dot(normalCoeff,neutralDiff)===1,
+   "J2 is read from the same actual q/neutral first-normal difference");
+  paidJReader.five_normal_coefficients=normalCoeff;
+  paidJReader.symmetric_rhs=expected;paidJReader.neutral_rhs=1;
+ }
+ const nativeBase=c.matrix.slice(0,30).concat(Zmatrix);
+ const nativeJReader=rowReader(nativeBase.concat(diffMatrix),c.matrix[30]);
+ if(nativeJReader.exists){
+  const coeff=nativeJReader.coefficients,baseCoeff=coeff.slice(0,nativeBase.length),normalCoeff=coeff.slice(nativeBase.length);
+  const nativeRhs=c.target.slice(0,30).map((x,i)=>md(x-c.old[i])).concat(Zold.map(x=>md(-x)));
+  const expected=md(1-c.old[30]-dot(baseCoeff,nativeRhs)+dot(normalCoeff,diffOld));
+  const actualDiff=fullFirstSource(diffMatrix,diffOld,as.solution,true).jets_z5_11_17_23_29;
+  const neutralDiff=fullFirstSource(diffMatrix,diffOld,an.solution,false).jets_z5_11_17_23_29;
+  assert(dot(normalCoeff,actualDiff)===expected&&dot(normalCoeff,neutralDiff)===1,
+   "native, non-quarter J reader preserves the exact same tests");
+  nativeJReader.five_normal_coefficients=normalCoeff;
+  nativeJReader.symmetric_rhs=expected;nativeJReader.neutral_rhs=1;
+ }
+ const residual=diffMatrix.map(R=>R.map((v,j)=>md(v-moreCols.reduce((a,col,k)=>
+  md(a+R[col]*as.reduced[k][j]),0))));
+ const er=elim(residual),rt=residual[0].map((_,j)=>residual.map(R=>R[j])),el=elim(rt);
+ const leftResidual=[],leftSetF=new Set(el.piv);
+ for(let f=0;f<5;f++)if(!leftSetF.has(f)){
+  const row=Array(5).fill(0);row[f]=1;
+  el.piv.forEach((j,k)=>{row[j]=md(-el.reduced[k][f]);});
+  assert(rt.every(R=>dot(R,row)===0),"whole five-row residual annihilator");
+  const sq=fullFirstSource(diffMatrix,diffOld,as.solution,true).jets_z5_11_17_23_29;
+  const nq=fullFirstSource(diffMatrix,diffOld,an.solution,false).jets_z5_11_17_23_29;
+  leftResidual.push({row,symmetric_rhs:dot(row,sq),neutral_rhs:dot(row,nq)});
+ }
  const frozenNormalAnalysis={
   raw_first_observations:["Y0=A+c+2d","Y1=A+2c-d"],
   raw_second_observations:["W0=A+3delta*c+4d","W1=A+4c-3delta*d"],
@@ -881,6 +926,9 @@ for(const c of candidates){
    branch0:fullFirstSource(frozenNormalMatrices[0],frozenNormalOld[0],an.solution,false),
    normalized_branch1:fullFirstSource(frozenNormalMatrices[1],frozenNormalOld[1],an.solution,false),
    difference:fullFirstSource(diffMatrix,diffOld,an.solution,false)},
+  exact_auxiliary_J2_readers:{paid_forty_nine_plus_difference:paidJReader,native_without_quarter:nativeJReader},
+  residual_image:{rank:er.rank,pivot_columns:er.piv,
+   basis_columns:er.piv.map(j=>residual.map(R=>R[j])),left_relations:leftResidual},
   same_fifty_minor:minor.det,selected_rows:moreRows,selected_columns:moreCols,
   old_rank:as.rank,rank_with_five_differences:elim(augmented.concat(diffMatrix)).rank,
   rank_with_both_branches:elim(augmented.concat(...frozenNormalMatrices)).rank,
