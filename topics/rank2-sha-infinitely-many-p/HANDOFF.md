@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040；2026-11-15 23:15:12 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:15:11 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
+- 最近已读规则提交：1c20f2633e7e48a1819c818d92628f155ea8511b；2026-11-15 23:15:55 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:15:11 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -14,7 +14,7 @@
 [本次压缩前全文](notes/2026-11-15-frontier-before-katz-direction-comparison.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–836已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R836已分配deep，R837以后由root协调。结论成即分别推。
-实际pull22:39:36/run43770506389/job132985133266，两README差异空；回执ci/rule-pull-20261115T223936.json，下一23:25前。R818/820/830的43757109911/43756861065/43765677768均成功，source/args/hash见各证，不复跑；R830初版18/288阶枚举误用已修。
+实际pull22:39:36/run43770506389/job132985133266，两README差异空；回执ci/rule-pull-20261115T223936.json。现已提前请求下一实际pull，23:25期限保持。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
 
@@ -23,7 +23,7 @@ R817仅p7993三负二unit2522/2828/3696及固定cycle独立；R818三λ复秩1�
 R826固定(2,2,2)四CM因子，λ在全纯第四槽；完整Besser两项与U=pφ⁻¹、分母1+barπ/π²保持。LLZ critical germ=Ωιs(1−s²)Kprim，simple zero iff原I≠0。
 R829旧同q0选定类完整Chow零。R830 q4*修复已付2/3/17全有限test vectors及4/12尺度；完整AJ两项与原分母沿归档，global非零/原类比较仍开。
 R831共同目标Chow矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]；任何old extraction只乘c0d2−c2d0。X0次数6、X1次数12、遗忘1632/816及W4绝对负号已付。
-R832真正Artin/h1与CM收缩付Mλ⊕L Mγ⊕L h1E17³⊕L h1E17⁵；R757全轨道值、BFH分裂域/KL原假设、CM自扭付三混合K点rank0，故CH²混合全零、Z=prλZ、三ordinary槽全零。仅h1用全忠实性；Z非零、λ Chow维数/R814比例未付。
+R832真正Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，原全轨道值/BFH/KL/CM自扭付混合K点rank0，故Z=prλZ、三ordinary槽全零。仅h1用全忠实；Z非零、λ Chow维数/R814比例未付。
 R835固定λ、任意type(1,0)ψa且c+c^c=OK：a=ψa/ψa^c在原2/3/17恒1；新增split两处epsilon乘积ψa,q(−1)，全局乘积−1。因此γa=λ/(Na) type1/cond(34δ)cc^c，Wγ=−1、Lγ(1)=0。任何同最高λ三低权张量含Nγa，复秩≥2；这种固定互素导子修复不能保原simple zero/三mixed rank0，不排其他critical路线。
 [高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ坏位Σc_l log l，Marannino非CM等门未付；[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由BDP12证明，刊本未得，不断言错误。CG2 Thm8.2.6保CWE22 §1.2.3(4)导子互素；仍缺实际πf[Ξ02]到canonical λ类，不把形式Hecke作用当该值。
 
@@ -44,7 +44,7 @@ R836已付K3≅kerΘ_T：3b<p，全D3余核H3^0/F0H2^0长z_-≤2；V0须解A_T�
 ## 同 R mirror、真实 Euler 像与全边界
 
 始终原M=c*U0 w13J、P134/charge40、13free/26carry、conductor10980、十九角、p²/p³及全部余列。T_J=s−r、T_M=s−r−13；同R*+Kval保全normal/两13/d₂，v_F=eξ非自由，改F提升须同步R。
-旧mirror仍保R768准确强窗、原r2 q/H分类、R799/803/810的b3/b4全排和b≥5未闭；R790全q/ell1,2的Δ/p/n²τ−τC_ell，R808同R两支δ=h/近支h+r/远支normal及全部native高尾均沿本次全文归档，不从局部分裂外推全局。
+旧mirror的R768强窗/q/H分类、R790 ell1,2真实Δ/p与R808近远支/同normal沿本次全文归档完整保持；b3/b4已全排、b≥5及实际Schur未闭。
 R813/R822同R的Xi=Omega/u^p，原点Res=γ/6 unit；IBP真GRes分子W_sFt²E²R/Y²。FH列给Trace_Z(W_sFtH)，光滑可非零/奇点总迹零；全式γ/6+G_F+B_F=0不可删边界。
 [对数主部](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：实际ΔR=qsrc t^rFH，A=W_sFt qsrc t^r；Trace=−ResP(AH de/e)−全边界。2Aηde延拓 iff杀全部实际H1且唯一，延拓只给α*两项相消，不给裸迹落像；短M r≤11保额外13尾。原r2全部非固定Y0移动项已逐支杀。
 [正水平jets](notes/2026-11-15-mirror-trace-positive-horizontal-jets-and-t1-fiber.md)：Y∞读x^(3b+c)全jet/奇支conductor，真α框保2b；3s>(3b+c)deg_tF杀整t1纤维，原帽M_D=f_D+C_D，不称r2自动满足。
