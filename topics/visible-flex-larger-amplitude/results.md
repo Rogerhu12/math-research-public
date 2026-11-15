@@ -429,3 +429,7 @@
 ## 2026-11-15 — Request189：真实185末点的完整十维全三normal连续入口
 
 [完整接口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)与六件全部source/diff/97项request原值变化已核；原117+12pins保留→119+13，48→49实际闭包。真185十Decimal词在同owner最多16×8方向，只有原八方向budget词续块；每块新完整J、原固定S/半径/2400墙钟和初末120FD/Arb/453全部保持，不把unit或全20拒重启成预算块。原3bec数学不改，无新增科学门。单≤90KB必要给128方向/16块地址、全部实际α/normal计数和所有接受bound，精确相等的原merit才能别名，未传中间大向量与首末原词分责；超限/错误/静止和清理保原合同。actual R401尚未预填，finite模型不替代连续C族或native/闭面。
+
+## R369 — 实际172当前H全行有限割线分解与原十档全拒
+
+[results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)（35268 B / 340ab9cb86d934e895c90e608fabc21a3cbd83194053cebc0070f890c5de71db）记录run43745317876/source3975e583，compute132907218328科学exit3、必要/清理成功，report132957129361返回同67468B/1e9170eb摘要。零H完成而无J/audit；首正s1/64仅两原trial接受，i2原十档全拒，norm3488.882983000276，10281.277116862s非资源。3同X及3extra是6次新增noJ，14原trial另计；三轮17完整R360分解每档129248行，exact恒等式齐。末b≈4.83e−5、Aq≤约1.3914e−4而finite_secant为数千，13保存仿射模型均下降；不唯一归因某root/cache/J，也不把有限割线当已证Taylor余项。全部17原最大词/地址、三freshQR/原gradient、六输入/124源/四实际pull和真实清理保全文；3extra门为null，原noJ minAD无穷只字面。正H/fullDN/FD/端点/final/audit未起，原课题未完成。

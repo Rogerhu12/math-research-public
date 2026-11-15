@@ -16,6 +16,8 @@
 
 [172完整入口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)13件/124pins保原六p/λ/currentH/live worker/每轮same-X noJ；全129248行q/ℓ/b/Aq/s/d、sigma-max及准确单位−2148−kmax。原十档之后2^-10..-12仅诊断，无第11接受；不冒逐词145轨迹或准确Taylor界。32×10/strict下降/2e−9与全部末门保；child18000/逐分解900按余量clip、330science/350job/30read、单90KB。J/r/sigma/Δ/e原件到准确结果或显式partial才退役，超限incomplete2不清raw；geometry唯一读R369。
 
+[R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：run43745317876/source3975e583，单67468B/1e9170eb完整必要两job同词。零H call1返回，无J/audit；首正s1/64前两轮α1、1/4接到3488.882983000276，i2原十档全拒，extra1/1024..1/4096仅诊断不接受。10281.277116862s非预算；3同X+3extra为6新增noJ，20observations还含14原trial。三轮17trial全129248行d=b+Aq+s实际全付；末b约4.83e−5/Aq最多约1.3914e−4，s数千且13保存模型均预测下降。只定位本次finite_secant差额，不把它自动当准确Taylor二阶或唯一root/cache/J原因。全部原参数/124源/六输入/17分解及地址/未访轮/quiet清理保正文；正H端点、338×112/J、FD/fullDN/final/audit未起，无非零接受。后继对准真实有限求值及完整响应/精度，不新增诊断验收，不改extra为接受档。
+
 ### 1B. 完整128末态和固定trace
 
 [R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6、89269B/35f0397f必要齐；128首方向α1把norm1.2209605459741099e−4降至9.6858247475102318e−11，replay同，余31方向/9档未访。stage8000s仅20/576，20..575完整未付地址保正文；boundary/endpoint未起。audit576/7488齐，仅C-based有限程序；原98321B摘要70与stage预算独立，global未耗尽，IEEE/连续metric/native/fullDN未付。R388/R393不回填，已清末state须真实重生。
