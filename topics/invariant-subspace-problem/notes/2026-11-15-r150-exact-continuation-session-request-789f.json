@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "81650105225be9f97505e3404d7c46e23e74a52d",
+  "rulesReadAtCommit": "8e4025c0ef0ee422077b1fc66ece96d97c3c40e9",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1332,6 +1332,28 @@
       ],
       "timeoutSeconds": 360,
       "receiptPath": "{work}/complete-original56-local-outside-gcd/complete-original56-outside-gcd-receipt.json"
+    },
+    {
+      "id": "original-free-thirteen-quotient-defect-120",
+      "requires": [
+        "original-global-projection-polynomial-core"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-free-thirteen-quotient-defect-789f.py",
+      "scriptSHA256": "7f092c2327864ed01d93095ae8f44af5bb42022f262fabbe5d5cd3801c2385b6",
+      "argv": [
+        "--core-receipt",
+        "{repo}/topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-original-global-projection-polynomial-core.json",
+        "--checkpoint-dir",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--out",
+        "{work}/original-free-thirteen-J",
+        "--remaining-seconds",
+        "120",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/original-free-thirteen-J/j-quotient-defect-receipt.json"
     }
   ],
   "previousSession": {

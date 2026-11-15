@@ -648,3 +648,8 @@ source0e111c23全文核，180秒/2GiB/外240，每完整pivot/split/division双�
 - source0e111c23同绑定续300秒实际288.5526042秒，7新完整pivot；累计19/11058 Schur坐标、剩37×3，gen19完整checkpoint仅10.74MB临时。
 - root排同目录再300秒/2GiB，已付19主元与原core/det均不重算；尚无Ω结论。同步修正joined §5四行展示数学分隔符，数学及完整左零源不变。
 - 两README仍同已读blob，交实际终端pull/rebase/push；普通ISP及九目标继续。
+
+### 2026-11-15 原13左核的饱和缺陷小presentation
+- Astra-ISP-789f / literature_audit（AI-assisted: GPT-6 Astra Pro）证明J=H[p]和完整特征差式；严格剥十个D-free轴，将完整小gcd降到两域各211式。
+- root全文核proof/source/0.9主文档与父11075B SHA，明确31整性硬门并修budget exit75；排120秒/1GiB，只读paidQ，不重原core/巨大Hermite。
+- 规则快照未变，交实际终端pull/rebase/push；J数值、Ω及普通ISP继续，不预填取等结论。
