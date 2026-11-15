@@ -29,10 +29,10 @@
 
 - 新local run43731613530（15:45起45分钟循环/55分钟job）；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，已修每次非快进重推前mkdir。旧run43729338969失败中未推F+按用户要求真实重做成功，F−亦完成。
 - [F±完整局部结论](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)：真三次数域低谱各3,3/长度6/自由9，低jet加4exact纯核注入原完整P，得6≤δP≤δA≤8、T长≤2，六共轭点F±²W及原h0九目标均已付。数学9.738919457/10.510911032秒；raw15732B/19c6a404c77dd26afb59da72fbe7219c477c8a7e86602f725030bf887f0ddd4b与15793B/06db12970af9b8f791f734e113b87d4ccf18947fab17fa6384dcac37ade670ba。不是完整P/full精确谱6。
-- [解析双Dlin与E8局部](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已闭：真实51行经单位变换降27行/24零行，M2整提升不除g，底H⊕H的有限coker满射给δS≥2v(Dlin)。E8得4≤δP≤δA≤5、T≤1、E8W及九h0目标局部来源，全八共轭点覆盖；没有报exact4/5。原2点上界降28/T≤16。新真小域1284314e…/SHA54f88bdb…仍实际300秒/2GiB/order4争取精确谱，out e8-true-field-schur；immutable数组+原子ledger可续。
+- [解析双Dlin与E8局部](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)已闭：真实51行经单位变换降27行/24零行，M2整提升不除g，底H⊕H的有限coker满射给δS≥2v(Dlin)。E8得4≤δP≤δA≤5、T≤1、E8W及九h0目标局部来源，全八共轭点覆盖；没有报exact4/5。原2点上界降28/T≤16。新真小域实际14.265291455秒已完成：low谱2,2/长4/自由9，全单位与原Schur真；raw20945B/d371f188c758a45fd5bf5c711407f00f24c77e31160853fd8ed9e3badc294514。该low已闭，不加阶。
 - 新full∞ run43731615668（15:45起45分钟/55分钟job）只核6历史输入。manifest notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json，blob00c4da90…/SHAf845995bd1bce3410baea46ec968892621a48465aad62092798f372b7d6f00e8；历史commit8c6304e273e64b0544d3dd58bc0e48a672a87c36。
-- full27首次compile6.793秒/native2.421秒退出1，4433原系数真，但all3333 prebasis identity断言失败；无新jet。已定位旧F/B只消同m次数，真实A0仍有严格降次数pre尾，须按原pivot顺序单位三角消去并保完整伴随尾；代理正在修，不能删校验后当通过。失败raw4291B/81a8881e81d2eb0fdcb59a59851866c58e5038b319624436612471fde4aca73c。
-- O最小新入口00f07c8b…/SHAc4b92e5d…已根审并排fullsession：只额外git show原8c6304中75700B selected小回执（SHA5cd9543d…）至tmp，接原native/primitive/paid32，真实F31选1603单位/29核/126643产品，180秒/1GiB/0…21。没有依赖旧Q数组。全局h0尚余s=2和未知异常支持，Dlin低长度不单独封全部非线性支持。
+- full27首次compile6.793秒/native2.421秒退出1，4433原系数真，但all3333 prebasis identity断言失败；无新jet。已定位旧F/B只消同m次数，真实A0仍有严格降次数pre尾，须按原pivot顺序单位三角消去并保完整伴随尾；v2已根审并排180秒/1GiB/21，独立out full-infinity-natural-dual-schur-v2，nativee4968077…/runnerc173cf44…；所有主尾严格降次数、正向和伴随完整保尾，不删校验。失败raw4291B/81a8881e81d2eb0fdcb59a59851866c58e5038b319624436612471fde4aca73c。
+- O最小入口真实13.08863037秒完成全部0…21，constant1603/全29原来源/126643产品真；Fp31完整谱1²,2^10,3³,4³,5,6,8²,9,10²,11,12,13,14，总长149/max14。sourcee238d925a11a50a0098ffda39ce243c4afbfeda6，raw15832B/eeddfe8782d06338d15d834bdf387de5cd2f85d8334415f59411d24bfca244a6。真Q仅σ≤149，不能填等号；正式谱稿在审。全局h0仍余s=2和未知异常支持。
 
 ## 原同w边界：正交旗后继续真正返回
 
