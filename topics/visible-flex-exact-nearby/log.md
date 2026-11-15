@@ -124,3 +124,7 @@ DZF先独推ef141c7b后，DZ2四件5909e8da/61a11736/296f84d4/baeb8def全部窄d
 2026-11-15 23:23:49 UTC SEIA：root全文及107处89种球、9ordered pins/245579B和3AST digest独核；SCI35198/e830e10b、preGit38060/bf61fe8d逐字复现。
 原43773319871/1 child0/20，2/2真实同号门pass；完整principal shared K0<1.034/K−<7.823，同一逆/mean/原fallback全保，旧数学0/0exp；fullincoming/finite/return/背景仍待。
 双README读取b7fb7097f732da3917f06b6e494ef30e2f269853未变；本机22:59:32真CLI仍无executor，根规8小文本例外继续。
+
+2026-11-15 23:25:07 UTC PSB：root完整解析与phase/newton分别核2/3–5/6–7；全mean、双边adjoint/dual、nilpotent/Bessel权及有序resolvent齐，无新数值。
+完整同一principal每固定Hs与coefficient邻域成立；实际高导、真PDE背景入口/tame/fullincoming不冒授。已成索引窄压，逐字前页保e0d74db25a5db1a7e3df06ea8f0905d568aff366同H/open，未付义务不减。
+双README读取16982df447fed53497252e49ed91f88720dfc1c2未变；本机22:59:32真CLI无executor，继续根规8小文本例外。
