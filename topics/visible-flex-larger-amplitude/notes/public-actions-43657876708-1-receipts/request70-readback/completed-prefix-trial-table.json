@@ -1,0 +1,3961 @@
+{
+  "schema": "completed-twenty-one-lambda27-prefix-artifact-readback-and-byte-audit-v1",
+  "source": "original model-000.json, no evaluation",
+  "before": {
+    "node_domain_failures": 0,
+    "midpoint_domain_failures": 0,
+    "boundary_finite": true,
+    "finite": true,
+    "original_uniform_phi_rho_guard_valid": true,
+    "original_rho_guard_angles": 4096,
+    "original_uniform_phi_rho_min": 0.16604058243275,
+    "boundary_domain_error": null,
+    "complete_trial_RHS_recomputed": true,
+    "all_core_states_identical": true,
+    "all_control_states_identical": true,
+    "left_residual_max": 0.0,
+    "physical_collocation_max": 0.007109134582008451,
+    "complete_boundary_max": 2.9883251941050535e-08,
+    "constant_collocation_max": 0.0,
+    "original_RMS_query_domain_failures": 0,
+    "original_RMS_query_checks": [
+      {
+        "fraction": 0.17267316464601146,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      },
+      {
+        "fraction": 0.8273268353539885,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      }
+    ],
+    "read_only_midpoint_observer": {
+      "evaluate_call": 1,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "original_reported_midpoint_failure_count": 0,
+      "observed_nonfinite_midpoint_rhs_count": 0,
+      "bad_midpoint_indices": [],
+      "original_whole_flow_recomputed": false,
+      "original_Jacobian_recomputed": false,
+      "original_returned_finite_or_merit_changed": false,
+      "original_returned_finite_unchanged": true,
+      "original_returned_residual_bytes_unchanged": true,
+      "points": []
+    },
+    "read_only_collocation_location_observer": {
+      "evaluate_call": 1,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_entry_count": 235924,
+      "finite_physical_entry_count": 235924,
+      "physical_maximum_undefined_reason": null,
+      "model_weights_available": true,
+      "original_returned_finite_unchanged": true,
+      "original_returned_residual_bytes_unchanged": true,
+      "original_returned_collocation_bytes_unchanged": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007109134582008451,
+        "absolute_value": 0.007109134582008451,
+        "original_vector_value": -0.007109134582008451,
+        "original_array_components": {
+          "y_left": 0.21357022164862605,
+          "y_right": 0.20642156053182825,
+          "f_left": -0.009940270419561793,
+          "f_right": -0.006024045980323092,
+          "f_midpoint": -0.00790387106392765,
+          "middle_state": 0.2099934510613797
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.05060973500673,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+            "bytes": 1888288
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.00790387106392765,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007109134582008451,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_argmax": {
+        "kind": "physical-collocation",
+        "original_residual_row": 155819,
+        "signed_value": -0.007109134582008451,
+        "absolute_value": 0.007109134582008451,
+        "interval": 461,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        }
+      }
+    }
+  },
+  "original_model_scalars": {
+    "iteration": 0,
+    "fixed_weight_merit_before": 43.755265024906336,
+    "damping": 27.0,
+    "accepted": true,
+    "actual_coefficient_direction_max": 0.006661320259912167,
+    "selected_angle_row_count": 43008,
+    "execution_wrapper_source_sha256": "12437f6887b7fb6a7d5ea91214b95227056238054cd73e6db8c123f2aa49e881",
+    "mathematical_producer_source_sha256": "a8dd293b4b10ab45a2e69dd1e3e37a2032e4af3eb4d5f21eefa556277cb0d64c"
+  },
+  "all_original_trials": [
+    {
+      "alpha": 1.0,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 2.3580764306426474,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0009639194041307642,
+        "maximum": 2.8424345191426648,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 6.716849298982197e-15,
+        "maximum": 2.562975744908692,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 18,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 2,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 18,
+          "observed_nonfinite_midpoint_rhs_count": 18,
+          "bad_midpoint_indices": [
+            467,
+            468,
+            473,
+            474,
+            475,
+            477,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484,
+            485,
+            486,
+            487,
+            491,
+            492,
+            494
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 467,
+              "station": 1.1719324797412352,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.03496105189006271,
+                "angle_index": 914,
+                "phi": 2.804116880254952,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.06459936171303944,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00467.npz",
+                "sha256": "a0d9f458bc1a32c3110bceda4c49a8467d63741c7fab028217000f5509da34a8",
+                "bytes": 9088,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "5511ec4bd8ead7405829e77e12471d551e992f5ae2a4674f64286eb863149618",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 468,
+              "station": 1.1769169312409948,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -2.016615027736261,
+                "angle_index": 882,
+                "phi": 2.705942109830271,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.043844998623070605,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00468.npz",
+                "sha256": "ba85bab1beb9636887d4adf8118b69d5881acd8bb8a275f89706673831348e20",
+                "bytes": 9226,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "6ed67581259dedcaadffb2f27a2d72e1e2a50b4fd17a349fe3970b0cd7e4bd0e",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 473,
+              "station": 1.2018391887397941,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.05137672387463588,
+                "angle_index": 862,
+                "phi": 2.6445828783148455,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.1251424168258314,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00473.npz",
+                "sha256": "121d6b74da8af835091e6b99164213d2face9b4cc1842877fe3370286d2566a0",
+                "bytes": 9609,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "0ecf282eb8056ac488911805556d21b4bd6cdcf0869b2074ee77871a9d01386c",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 474,
+              "station": 1.2047617549969183,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.162810949533436,
+                "angle_index": 811,
+                "phi": 2.48811683795051,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.12466805523374175,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00474.npz",
+                "sha256": "da6bb37e50ccf17081c4578dd08708d0ddcd4cd31779d7083423499c7dbd9764",
+                "bytes": 9502,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "4c0a8916aace3684a6e2014d9fedc9228cf13065a1a59b41a9f6b6216b91bb35",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 475,
+              "station": 1.2072539807467981,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.09140654474330479,
+                "angle_index": 173,
+                "phi": 0.5307573526084318,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.133674962405001,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00475.npz",
+                "sha256": "d11a1b7bcbdd89d48c5cad30ab5fd6263a68fd23267693e8882d37309cdd4683",
+                "bytes": 9613,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "40ea19101f891ec725bec8d23fedb36f25dcfa4aef2ca5ed801418a5b18baa3e",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 477,
+              "station": 1.212238432246558,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.11692637690557173,
+                "angle_index": 173,
+                "phi": 0.5307573526084318,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.14201101000788374,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00477.npz",
+                "sha256": "db7209a64c02785207b34907c99f27c3712431821b949b26b346058be10a5524",
+                "bytes": 9638,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "2e99ac95313553d5c11982fd49e9ce8d7abc1737aef7c82bcbb017d089c387d5",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 479,
+              "station": 1.217222883746318,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.47721512414498046,
+                "angle_index": 207,
+                "phi": 0.6350680461846554,
+                "negative_count": 24,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.1320686211483795,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00479.npz",
+                "sha256": "0f53c15c2385ae8eb4e0536bf8765d7e538db81fc3bbcb97174b5ab9e58f09b4",
+                "bytes": 9589,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "adc1bec8a7d7f0bd7bdcdb743d5433152eacb8d5639bacfea68527f87a1a16bc",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 480,
+              "station": 1.2217769947388337,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.07352879109314259,
+                "angle_index": 186,
+                "phi": 0.5706408530934585,
+                "negative_count": 20,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.16412277947852688,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00480.npz",
+                "sha256": "0aafe57a68c37c71545907c9e7e7e23dc07c149ade9ac0b6842f225e59914521",
+                "bytes": 9721,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "cd877db6e81dc33edf9e1c77d5b12d7e033fc6959b831586c0f88368a12c6794",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 481,
+              "station": 1.2267614462385934,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.7146252437314229,
+                "angle_index": 947,
+                "phi": 2.9053596122554044,
+                "negative_count": 28,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.13783241901366142,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00481.npz",
+                "sha256": "990338601fe7e9cf99404541cdb51d9a56460dd42c7e0c51789f5d451363ac10",
+                "bytes": 9776,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "f67e70ab758449c514136e4061631120367c85b2e578fe7f6b031ee6bc93d8b8",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 482,
+              "station": 1.2317458977383535,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.7048230280666845,
+                "angle_index": 52,
+                "phi": 0.1595340019401067,
+                "negative_count": 36,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.14621868322696172,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00482.npz",
+                "sha256": "a9bf5efc4e229f0c2718a61883d3bf5afd774dbf7267cf3f19f7ea8739c8bcc9",
+                "bytes": 9759,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "a981f18ddde5c532764a6dee2de8d0d68e637578f0a8a4ee7cc68b728d465924",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 483,
+              "station": 1.2367303492381132,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.1321973260970839,
+                "angle_index": 857,
+                "phi": 2.629243070435989,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.18922956575292346,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00483.npz",
+                "sha256": "0461c0c1afa010b6115399bc47ce83de73fc9860ff33f5822c357eeefe42f995",
+                "bytes": 9727,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "4d8bfeea648c7ec80c39d30cd3fc4159dd56ad677c45fd88c3d00e1f31a03774",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 484,
+              "station": 1.2417148007378733,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -10.320738286186774,
+                "angle_index": 0,
+                "phi": 0.0,
+                "negative_count": 30,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.06294373074125237,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00484.npz",
+                "sha256": "ed88062f17cbdc9a65ead1fb26c6d8de269da67593bea50c51a5536c8761706b",
+                "bytes": 9734,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "64951961970048aa61d51ed2dd2e09bb6cf96df648f36aed3a2c7bfb96dad1c1",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 485,
+              "station": 1.246699252237633,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -21.718543456979358,
+                "angle_index": 39,
+                "phi": 0.11965050145508001,
+                "negative_count": 16,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.04662125824441052,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00485.npz",
+                "sha256": "043fc105c95a723ecf49e0c35eb300671c2bfe334c1707cd57dcc27a47bc38bd",
+                "bytes": 9833,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "9f2a59d8309d8e77ed88157346a6f4f83e6d67bbf785f08f0c6e7da90ab7dae1",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 486,
+              "station": 1.2516837037373927,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.010102704218606595,
+                "angle_index": 48,
+                "phi": 0.14726215563702155,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.23148201621695277,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00486.npz",
+                "sha256": "3b030b2170653de806e50e34c75c2e67248d75a0f9b7a4abe750ac04f53f49fb",
+                "bytes": 9815,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "6ccea234744f70e33dd4552827d49a71db69a550683963bc6d6249040382db03",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "913d6a240b59774968a26709d21fd62a2c0b33b352d769900588c5458361ec44",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 487,
+              "station": 1.2566681552371528,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.0029620303228992118,
+                "angle_index": 951,
+                "phi": 2.9176314585584895,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.24272195610115824,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00487.npz",
+                "sha256": "809d27267df9102f912456e5a235da5ae76214d7af72a079a7cc84520d8423ec",
+                "bytes": 9742,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "cc59c71f01a2c3f009b0f8af8f1820302381e90abf23bd0d4d360ee8d97e4f9b",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 491,
+              "station": 1.2766059612361924,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.003035109925535018,
+                "angle_index": 8,
+                "phi": 0.02454369260617026,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.2843788474727124,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00491.npz",
+                "sha256": "26392170a712277a341ededb3e2e67bb12adfe5bc9b63d0ee8bb3c0130e1e0e0",
+                "bytes": 9699,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "11d5c38f3f1bf0a754e7a5b1ec42eaf8206130411f647b8990e343e5c428fb92",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "87901c7ee671bf47657ca93a6a985d9eaa95b27deeaf2b576190cbd9e46910aa",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 492,
+              "station": 1.281590412735952,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.001059544467133522,
+                "angle_index": 985,
+                "phi": 3.021942152134713,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.29508522275935767,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00492.npz",
+                "sha256": "9f443688daf8824d9c74ca2a5b29e50e5f0ea6a0c807cce0857de1fe939eee1d",
+                "bytes": 9671,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "b47d4705c542d5b0ecdea4bbd977f8299b59c4ed93430521c63e99aee6dff149",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 494,
+              "station": 1.291559315735472,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.0032310908137214156,
+                "angle_index": 1020,
+                "phi": 3.129320807286708,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.31559355869263095,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00494.npz",
+                "sha256": "bd5057aaa03c2cc071a444f3723352f2628af61d4e9c3cf6b8a1231b562589c2",
+                "bytes": 9645,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "317b9f95e565a48a020a1c482e5312d959123a57006d9629a2f10c67c1105898",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "92466df3678f47643553d9a5739df25cd1401bbdfb3a88dd2f68b96840a336d2",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 2,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 229858,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -1.1504005922757239,
+            "angle_index": 881,
+            "phi": 2.7028741482545,
+            "negative_count": 22,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "station": 1.170300935005843,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.6929512877352733,
+            "angle_index": 44,
+            "phi": 0.1349903093339364,
+            "negative_count": 30,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "station": 1.175285386505603,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.3909265113284601,
+            "angle_index": 21,
+            "phi": 0.06442719309119693,
+            "negative_count": 30,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "station": 1.180269838005363,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.40623901680358143,
+            "angle_index": 186,
+            "phi": 0.5706408530934585,
+            "negative_count": 42,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "station": 1.1852542895051228,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.23195992423729073,
+            "angle_index": 119,
+            "phi": 0.3650874275167826,
+            "negative_count": 30,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "station": 1.1902387410048825,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.1518752598637323,
+            "angle_index": 870,
+            "phi": 2.6691265709210157,
+            "negative_count": 38,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "station": 1.1952231925046424,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.37361564348816123,
+            "angle_index": 817,
+            "phi": 2.5065246074051375,
+            "negative_count": 26,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "station": 1.2002076440044023,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.08994965751124973,
+            "angle_index": 784,
+            "phi": 2.405281875404685,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "station": 1.2059041600041278,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.040396146122687604,
+            "angle_index": 828,
+            "phi": 2.5402721847386216,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "station": 1.2158730630036476,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.04039086573508932,
+            "angle_index": 827,
+            "phi": 2.5372042231628504,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "station": 1.2201454500034419,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.08393870358288669,
+            "angle_index": 122,
+            "phi": 0.37429131224409645,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 12,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "station": 1.2251299015032016,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.1352124777586634,
+            "angle_index": 991,
+            "phi": 3.040349921589341,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 13,
+          "kind": "left-RMS",
+          "interval": 482,
+          "fraction": 0.17267316464601146,
+          "station": 1.2301143530029615,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.06765120495298826,
+            "angle_index": 825,
+            "phi": 2.531068300011308,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "station": 1.2018391887397941,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.05137672387463588,
+            "angle_index": 862,
+            "phi": 2.6445828783148455,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "station": 1.2072539807467981,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.09140654474330479,
+            "angle_index": 173,
+            "phi": 0.5307573526084318,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "station": 1.212238432246558,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.11692637690557173,
+            "angle_index": 173,
+            "phi": 0.5307573526084318,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 17,
+          "kind": "collocation-midpoint",
+          "interval": 480,
+          "fraction": 0.5,
+          "station": 1.2217769947388337,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.07352879109314259,
+            "angle_index": 186,
+            "phi": 0.5706408530934585,
+            "negative_count": 20,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 18,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "station": 1.2267614462385934,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.7146252437314229,
+            "angle_index": 947,
+            "phi": 2.9053596122554044,
+            "negative_count": 28,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 19,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "station": 1.2317458977383535,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.7048230280666845,
+            "angle_index": 52,
+            "phi": 0.1595340019401067,
+            "negative_count": 36,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 20,
+          "kind": "collocation-midpoint",
+          "interval": 485,
+          "fraction": 0.5,
+          "station": 1.246699252237633,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -21.718543456979358,
+            "angle_index": 39,
+            "phi": 0.11965050145508001,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-00-all-selected-angles.json.gz",
+        "sha256": "4fe990beca2cfe4d5b3b8547a4980ca6e585ea96a786de9dad45fbab155af0f3"
+      }
+    },
+    {
+      "alpha": 0.5,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 1.309303089984087,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0012273139859738658,
+        "maximum": 1.7509694939301141,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0004819597020653821,
+        "maximum": 1.4212172595713324,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 14,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 3,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 14,
+          "observed_nonfinite_midpoint_rhs_count": 14,
+          "bad_midpoint_indices": [
+            465,
+            466,
+            467,
+            472,
+            477,
+            479,
+            481,
+            482,
+            483,
+            484,
+            485,
+            489,
+            491,
+            492
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 465,
+              "station": 1.1619635767417154,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -17.43563057716339,
+                "angle_index": 882,
+                "phi": 2.705942109830271,
+                "negative_count": 12,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.010446358450922628,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00465.npz",
+                "sha256": "cc28786446b40428343e06258402137bb487bb07f4366e231dafadd52634dfdc",
+                "bytes": 8981,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "526ee0e70078e53b2b6376d522cce6b1370acee75e16dfa3b57226de34ea402b",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 466,
+              "station": 1.166948028241475,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.7192831730093354,
+                "angle_index": 88,
+                "phi": 0.2699806186678728,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.04216400737793469,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00466.npz",
+                "sha256": "ed151661802e98a4034c4ae455215af44ee8849c1d75037b5d9ca508fbbc8fd8",
+                "bytes": 9082,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "89188328d133c0807ebeeea7dac74a37aea86449e9f8a791b80775df451e5eba",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "53acdd0aa4d3de5ec0e261f7fc41c0cda6457866f59f39ed3785fa46962bfade",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 467,
+              "station": 1.1719324797412352,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -4.072829380480225,
+                "angle_index": 141,
+                "phi": 0.4325825821837508,
+                "negative_count": 12,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.029178643802227375,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00467.npz",
+                "sha256": "b7880d9e0831a5a15d8ea104c5a88bb4512c26e582f1f9326247aa8e4aefc0ea",
+                "bytes": 9109,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7eec9ba5610be19c8ffc10498552a0b2fb30263cba1ebc2f0ef92ffcb78380e1",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 472,
+              "station": 1.1968547372400344,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.7017860289070639,
+                "angle_index": 196,
+                "phi": 0.6013204688511713,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.09036525045621716,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00472.npz",
+                "sha256": "098b0f2ee79af429bb27bb4616d36f12e5bbed18c17e64e155505ddb9f60f8cd",
+                "bytes": 9539,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "e17ae5c11e6be742c2c66993ea4cf730859cbcab0f0df441566c99c9ed879522",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "127b09e3c554871a53b5628ba183c156dc0e5bfcfc5311e8f591475727adb902",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 477,
+              "station": 1.212238432246558,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.013339214611095551,
+                "angle_index": 773,
+                "phi": 2.371534298071201,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.14909286663159713,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00477.npz",
+                "sha256": "0c0c18030c0195eeb2b587efc82b14da5231dc2417fe3b64f186c1c3f1b8c048",
+                "bytes": 9665,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "ea2cde45e45d76639b4c091ecdad012e9903ff42e90ed2b9b0ea0327b51a4537",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 479,
+              "station": 1.217222883746318,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.3464497626714902,
+                "angle_index": 217,
+                "phi": 0.6657476619423682,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.13833320506938973,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00479.npz",
+                "sha256": "bcd0350fb3ccec8abc25317e6c078fecb1c44bc4fbbf433d0029c712e5c0317e",
+                "bytes": 9590,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "0c96d6b6cada984de39236eb11b7f020b929e6612922ebf610e6b78a7557c2ae",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 481,
+              "station": 1.2267614462385934,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.1651375464719591,
+                "angle_index": 87,
+                "phi": 0.26691265709210155,
+                "negative_count": 12,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.16720427849279274,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00481.npz",
+                "sha256": "972aee27f8df14d7cb0824f36e177a6e548729ad8255cb9d43efb99802480e55",
+                "bytes": 9774,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "c0f484d70a0cd02bd86bb5a4e3b1b41c25f3ebfb7e4b864d4d5e2508996e8567",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 482,
+              "station": 1.2317458977383535,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.17727846482256537,
+                "angle_index": 169,
+                "phi": 0.5184855063053467,
+                "negative_count": 16,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.17595552982854837,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00482.npz",
+                "sha256": "716f0df409511f6459eb51f46fd976169cba52eb3dc14a4a36e217d5db3f70a1",
+                "bytes": 9764,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "35747606853d9564674374cf205475c272fa8aa9226a116e02accf82a2a456d7",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 483,
+              "station": 1.2367303492381132,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.13431665293437112,
+                "angle_index": 979,
+                "phi": 3.0035343826800855,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.18905270738007032,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00483.npz",
+                "sha256": "3b96ada893874517d207c6122546d4849b58666321f87b307d3e56ffc83f6060",
+                "bytes": 9723,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "f429ed85adb2c5ce30aca5ed4e33141ab652ba594198b86254a9d5b3e028963d",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 484,
+              "station": 1.2417148007378733,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -1.111492120553509,
+                "angle_index": 0,
+                "phi": 0.0,
+                "negative_count": 14,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.14574548947206128,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00484.npz",
+                "sha256": "f4b7fbb96478a53b22191139340cd04ab2f4405c4bad1c2f597c0524ebb298e2",
+                "bytes": 9783,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "daca5a90132f793b89c3b5eb1853fede6788e989850c9b0e2ab319d153f31332",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 485,
+              "station": 1.246699252237633,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.9658082167105464,
+                "angle_index": 984,
+                "phi": 3.018874190558942,
+                "negative_count": 44,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.15849065472002558,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00485.npz",
+                "sha256": "ef4e0380b8ff931dcffd8f375998a0329fbb46858c401829eaa94e7e105d6d36",
+                "bytes": 9852,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "2e574f65d0d6a8b9435e86b02c7a8a8e6201e4fdcff4bcf8ccb03aa0886c9c27",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 489,
+              "station": 1.2666370582366726,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.0004685935707533506,
+                "angle_index": 1,
+                "phi": 0.0030679615757712823,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.26388434106192904,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00489.npz",
+                "sha256": "7a10bd7825bd4be54d9151b23321bdba017c4c389fa6e97285a029bfa6a7d3bf",
+                "bytes": 9638,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "92048f8367fdcacf6dafaa73181bf272bf34ef30dda898224f472f6e2a66d419",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 491,
+              "station": 1.2766059612361924,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.004775423083207331,
+                "angle_index": 991,
+                "phi": 3.040349921589341,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.284132462696127,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00491.npz",
+                "sha256": "97504122a4ddb086a923c1b55b8d7556ba0abe23547d5536b436630c055f71a3",
+                "bytes": 9622,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "e3e8f82a980c41fef0a1567f28c60ff0263007bd2769201ad3cbc957ae0c53d5",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 492,
+              "station": 1.281590412735952,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.0045113974834531945,
+                "angle_index": 27,
+                "phi": 0.08283496254582462,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.29457777835192933,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00492.npz",
+                "sha256": "16dc350e59c9ff4e339f3a3319362b6939bf864d95fa1dd868136d88a9aeca20",
+                "bytes": 9622,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "bf1829f3bdc43b205eec906a2316f122ecb648d5cd81e134f02452ee1860db7a",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 3,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 231199,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.8937583744996433,
+            "angle_index": 992,
+            "phi": 3.043417883165112,
+            "negative_count": 20,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "station": 1.180269838005363,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.3327445637975319,
+            "angle_index": 839,
+            "phi": 2.5740197620721057,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "station": 1.1852542895051228,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.24491907174929994,
+            "angle_index": 141,
+            "phi": 0.4325825821837508,
+            "negative_count": 22,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "station": 1.1902387410048825,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.20823169993424506,
+            "angle_index": 862,
+            "phi": 2.6445828783148455,
+            "negative_count": 30,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "station": 1.1952231925046424,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.08113358601095788,
+            "angle_index": 0,
+            "phi": 0.0,
+            "negative_count": 6,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "station": 1.2002076440044023,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.005854801418252453,
+            "angle_index": 206,
+            "phi": 0.6320000846088841,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "station": 1.2059041600041278,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.09229025959286474,
+            "angle_index": 783,
+            "phi": 2.402213913828914,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "station": 1.2108886115038877,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.07367268142507699,
+            "angle_index": 219,
+            "phi": 0.6718835850939109,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "station": 1.2158730630036476,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03338085240197097,
+            "angle_index": 227,
+            "phi": 0.6964272777000811,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 12,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "station": 1.2251299015032016,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.11752569532249257,
+            "angle_index": 136,
+            "phi": 0.4172427743048944,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 13,
+          "kind": "left-RMS",
+          "interval": 482,
+          "fraction": 0.17267316464601146,
+          "station": 1.2301143530029615,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.12443696284139927,
+            "angle_index": 865,
+            "phi": 2.6537867630421594,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "station": 1.212238432246558,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.013339214611095551,
+            "angle_index": 773,
+            "phi": 2.371534298071201,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 18,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "station": 1.2267614462385934,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.1651375464719591,
+            "angle_index": 87,
+            "phi": 0.26691265709210155,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 19,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "station": 1.2317458977383535,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.17727846482256537,
+            "angle_index": 169,
+            "phi": 0.5184855063053467,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 20,
+          "kind": "collocation-midpoint",
+          "interval": 485,
+          "fraction": 0.5,
+          "station": 1.246699252237633,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.9658082167105464,
+            "angle_index": 984,
+            "phi": 3.018874190558942,
+            "negative_count": 44,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-01-all-selected-angles.json.gz",
+        "sha256": "1d34e4d4579c0b37807840e214b05ba6c85ea7df101b6471757532459b306091"
+      }
+    },
+    {
+      "alpha": 0.25,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.6872177636577343,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0013590112768954166,
+        "maximum": 1.2228372744533904,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0006136569929869329,
+        "maximum": 0.8754847469650571,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 6,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 4,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 6,
+          "observed_nonfinite_midpoint_rhs_count": 6,
+          "bad_midpoint_indices": [
+            475,
+            481,
+            482,
+            484,
+            488,
+            489
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 475,
+              "station": 1.2072539807467981,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.034013185750783714,
+                "angle_index": 784,
+                "phi": 2.405281875404685,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.13733470818716145,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00475.npz",
+                "sha256": "a3697acacc201f8a778155cd2283e853c8f70f17e20690832224d80813cade20",
+                "bytes": 9628,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "57186b34af5df3b230c184fd2fc2bec247aa3aac572a7a1208081aec996c6c2b",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 481,
+              "station": 1.2267614462385934,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.03143538033635962,
+                "angle_index": 87,
+                "phi": 0.26691265709210155,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.17771127088187597,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00481.npz",
+                "sha256": "d43348e8cc4f88a0264c06f3432d51d4237fc61d0405362e088882fc66798af2",
+                "bytes": 9716,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "449531febcc14443a563d693733f2a6f578939aef1641446aa15383e2a4fbc7c",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 482,
+              "station": 1.2317458977383535,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.047489344721594495,
+                "angle_index": 854,
+                "phi": 2.6200391857086753,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.1865381705215294,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00482.npz",
+                "sha256": "730196e8f144fd63d27d75be7cf3431a5635360bf2fa731df95801b26bd023c2",
+                "bytes": 9714,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "8483e6065e6d6b4f22ae1a0760eff9a8ce9012b64352a26bb25113142e3ccebf",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 484,
+              "station": 1.2417148007378733,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.12183587757453918,
+                "angle_index": 13,
+                "phi": 0.039883500485026674,
+                "negative_count": 18,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.19995174245730526,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00484.npz",
+                "sha256": "f7aed07788ece582ec0720701f718b4cb0a3fd38bbc9fa722e60900ebbeea7a6",
+                "bytes": 9788,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "42d44bdaae1edcd2f050157538fae5d30ec0167d9fa434ebe1695c658568fbd4",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 488,
+              "station": 1.2616526067369125,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.006514890193726419,
+                "angle_index": 986,
+                "phi": 3.0250101137104846,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.2526919803458426,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00488.npz",
+                "sha256": "3366ac8c708caebc7abf6ac8c7002d20c0faa7c25f0989a1c9238e0370dcb2bc",
+                "bytes": 9628,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "0affcbc3c278185b4ff3a7f00c707f5f8dabd685505362ecb10ae4f8126bea3b",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 489,
+              "station": 1.2666370582366726,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.0024614349944014347,
+                "angle_index": 1014,
+                "phi": 3.11091303783208,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.26362191637254273,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0004-midpoint-00489.npz",
+                "sha256": "1df0217389ce1f3b9db5bbc05c7f9ee4d4bf8fe5eafd81ddbf92859146e11c27",
+                "bytes": 9615,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "9814084208d28619ef11f7a173e183f9e3a7ba9e4b88e24ca2093180e139d9a2",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 4,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 233896,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.6542024416628951,
+            "angle_index": 882,
+            "phi": 2.705942109830271,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "station": 1.170300935005843,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.23686397570377138,
+            "angle_index": 861,
+            "phi": 2.641514916739074,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "station": 1.175285386505603,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.33246205792798045,
+            "angle_index": 153,
+            "phi": 0.4693981210930062,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "station": 1.180269838005363,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03318204980881623,
+            "angle_index": 153,
+            "phi": 0.4693981210930062,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "station": 1.1902387410048825,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.003947598496087945,
+            "angle_index": 0,
+            "phi": 0.0,
+            "negative_count": 2,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "station": 1.1952231925046424,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.08275042254418863,
+            "angle_index": 174,
+            "phi": 0.5338253141842031,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "station": 1.2059041600041278,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.1083379557796249,
+            "angle_index": 807,
+            "phi": 2.475844991647425,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "station": 1.2108886115038877,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.06139059914419254,
+            "angle_index": 807,
+            "phi": 2.475844991647425,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "station": 1.2158730630036476,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03691630474373264,
+            "angle_index": 807,
+            "phi": 2.475844991647425,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 15,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "station": 1.2072539807467981,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.034013185750783714,
+            "angle_index": 784,
+            "phi": 2.405281875404685,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 18,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "station": 1.2267614462385934,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03143538033635962,
+            "angle_index": 87,
+            "phi": 0.26691265709210155,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 19,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "station": 1.2317458977383535,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.047489344721594495,
+            "angle_index": 854,
+            "phi": 2.6200391857086753,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-02-all-selected-angles.json.gz",
+        "sha256": "03a57f29ea7a18a0ae2ccbb005c5368d67d752488491d9bbe613b4707d8a6fac"
+      }
+    },
+    {
+      "alpha": 0.125,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.3517504364952899,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.001424859922356192,
+        "maximum": 1.0228150630444786,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0006795056384477083,
+        "maximum": 0.6114186372266952,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 4,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 5,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 4,
+          "observed_nonfinite_midpoint_rhs_count": 4,
+          "bad_midpoint_indices": [
+            465,
+            481,
+            484,
+            486
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 465,
+              "station": 1.1619635767417154,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.22539100514081123,
+                "angle_index": 87,
+                "phi": 0.26691265709210155,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.04051880032194251,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0005-midpoint-00465.npz",
+                "sha256": "522b2f997590c667782b226ec1b811a3a1b7eb634b16da301458348466316676",
+                "bytes": 8964,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "8dd45d87730ec184a457ba08cd6f233eab280a059e7e30fbd4dff80bec2adc8e",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 481,
+              "station": 1.2267614462385934,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -2.1955314211119514e-05,
+                "angle_index": 87,
+                "phi": 0.26691265709210155,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.18048088731287226,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0005-midpoint-00481.npz",
+                "sha256": "b10aa66c3a26fcd90ce23b8d54a7e60753d1b265289f3e4a2e4d67d084950962",
+                "bytes": 9699,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "8f79805937f9a7c260e0f057044ace003b5beb31117b1ae96e4ae37296532401",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 484,
+              "station": 1.2417148007378733,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.09762857223767618,
+                "angle_index": 41,
+                "phi": 0.12578642460662257,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.20214460446488997,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0005-midpoint-00484.npz",
+                "sha256": "e29df2587e364d4bd0efebc8cf4a43379aa9de503869a0955ed6f384fda9bfb0",
+                "bytes": 9697,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "a4a705609ab8ed2fb4ecef3b0cd64526f85d68fd21759a39e239bc4d246ef808",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 486,
+              "station": 1.2516837037373927,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.008300167820699755,
+                "angle_index": 999,
+                "phi": 3.064893614195511,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.23168883381854935,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0005-midpoint-00486.npz",
+                "sha256": "1a1ce21fb560c38c313bec12902a84f67481c913521d867dbb0f0b9bddfab813",
+                "bytes": 9629,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "8626eeafa6e137c323d6e820f14fb047c06ddef19920a2f749580c7322e9e102",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 5,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 234572,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.7047237055798117,
+            "angle_index": 130,
+            "phi": 0.3988350048502667,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "station": 1.170300935005843,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.4472641671223929,
+            "angle_index": 131,
+            "phi": 0.401902966426038,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 18,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "station": 1.2267614462385934,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -2.1955314211119514e-05,
+            "angle_index": 87,
+            "phi": 0.26691265709210155,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-03-all-selected-angles.json.gz",
+        "sha256": "45f56c67ea5d539c57ab5cedcb40010054126544e8b8be70c545a6bbd4cee7e8"
+      }
+    },
+    {
+      "alpha": 0.0625,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.17791060691425062,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0014577842450865797,
+        "maximum": 0.999773373846755,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.000712429961178096,
+        "maximum": 0.5114075315222393,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 6,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 1,
+          "observed_nonfinite_midpoint_rhs_count": 1,
+          "bad_midpoint_indices": [
+            484
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 484,
+              "station": 1.2417148007378733,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.027034599989124164,
+                "angle_index": 43,
+                "phi": 0.13192234775816514,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.20897643600490573,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0006-midpoint-00484.npz",
+                "sha256": "525abaaf21cf47dd946daf9b5e5cca44661c5ec8917cc5fb5e3aef83c6476488",
+                "bytes": 9674,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "084c475b7e57ed645692b4919ebf03e670d6ef812bdc772ae93024a4b7ce2875",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 6,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235586,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [],
+      "selected_angle_values": {
+        "file": "trial-04-all-selected-angles.json.gz",
+        "sha256": "6a02acf7178d79caf1c280e35ea97cf4dee79240ef44c68110ec1d83f49cb58a"
+      }
+    },
+    {
+      "alpha": 0.03125,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.08946415062377673,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "actual_fixed_weight_merit": 43.666083392245646,
+      "actual_merit_reduction": 0.08918163266069001,
+      "actual_to_predicted_ratio": 0.996842109815866,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0014742464064517735,
+        "maximum": 0.9997715848421427,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0007288921225432898,
+        "maximum": 0.4998866869233775,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.007105199461405321,
+        "complete_boundary_max": 2.8949405389434134e-08,
+        "constant_collocation_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 7,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 7,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.007105199461405321,
+            "absolute_value": 0.007105199461405321,
+            "original_vector_value": -0.007105199461405321,
+            "original_array_components": {
+              "y_left": 0.2135689096951705,
+              "y_right": 0.2064210883355398,
+              "f_left": -0.010581792917282135,
+              "f_right": -0.0067099025883154105,
+              "f_midpoint": -0.008503532021740572,
+              "middle_state": 0.2099925866091605
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.007105199461405321,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.007105199461405321,
+            "absolute_value": 0.007105199461405321,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "complete_original_RMS_query_domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.007105199461405321,
+        "complete_boundary_max": 2.8949405389434134e-08,
+        "constant_collocation_max": 0.0,
+        "original_RMS_query_domain_failures": 2,
+        "original_RMS_query_checks": [
+          {
+            "fraction": 0.17267316464601146,
+            "points": 698,
+            "invalid_count": 2,
+            "first_invalid_points": [
+              {
+                "interval": 464,
+                "left": 1.1544868994920756,
+                "right": 1.1594713509918353,
+                "s": 1.1553475805065636,
+                "a": 1.194153450444551,
+                "ap": -0.03702539332593621,
+                "app": -2.4982858126236525,
+                "minimum_beta_squared": -0.21829951808444692,
+                "phi": 3.074097498922825,
+                "curve_curvature_at_minimum": 0.028090696448331433,
+                "scalar_parameters": [
+                  -3.709279035923486e-18,
+                  2.0514536426626155e-16,
+                  2.1085921670387974e-12
+                ]
+              },
+              {
+                "interval": 465,
+                "left": 1.1594713509918353,
+                "right": 1.1644558024915952,
+                "s": 1.1603320320063233,
+                "a": 1.193937869693328,
+                "ap": -0.04947478091233733,
+                "app": -2.4969384329285087,
+                "minimum_beta_squared": -0.5720631783486281,
+                "phi": 3.104777114680538,
+                "curve_curvature_at_minimum": 0.033049672054843354,
+                "scalar_parameters": [
+                  -3.709279035923486e-18,
+                  2.0514536426626155e-16,
+                  2.1085921670387974e-12
+                ]
+              }
+            ]
+          },
+          {
+            "fraction": 0.8273268353539885,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          }
+        ],
+        "read_only_midpoint_observer": {
+          "evaluate_call": 8,
+          "original_require_rms": true,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 8,
+          "original_require_rms": true,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.007105199461405321,
+            "absolute_value": 0.007105199461405321,
+            "original_vector_value": -0.007105199461405321,
+            "original_array_components": {
+              "y_left": 0.2135689096951705,
+              "y_right": 0.2064210883355398,
+              "f_left": -0.010581792917282135,
+              "f_right": -0.0067099025883154105,
+              "f_midpoint": -0.008503532021740572,
+              "middle_state": 0.2099925866091605
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.007105199461405321,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.007105199461405321,
+            "absolute_value": 0.007105199461405321,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [],
+      "selected_angle_values": {
+        "file": "trial-05-all-selected-angles.json.gz",
+        "sha256": "3e39cbfc8e6e3c96b5418ac17bdfac9b1c13ecd78518a7b6b7a6e2667d37d841"
+      }
+    },
+    {
+      "alpha": 0.015625,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.04485928710355122,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "actual_fixed_weight_merit": 43.71049325509106,
+      "actual_merit_reduction": 0.044771769815277196,
+      "actual_to_predicted_ratio": 0.9980490709076137,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0014824774871343704,
+        "maximum": 0.9997706903398366,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0007371232032258868,
+        "maximum": 0.49988579242107134,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.0071071569456406455,
+        "complete_boundary_max": 2.9416326445021507e-08,
+        "constant_collocation_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 9,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 9,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.0071071569456406455,
+            "absolute_value": 0.0071071569456406455,
+            "original_vector_value": -0.0071071569456406455,
+            "original_array_components": {
+              "y_left": 0.21356956567189828,
+              "y_right": 0.20642132443368402,
+              "f_left": -0.010260999565428353,
+              "f_right": -0.0063669686031986705,
+              "f_midpoint": -0.008206743238120479,
+              "middle_state": 0.20999301885173244
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.0071071569456406455,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.0071071569456406455,
+            "absolute_value": 0.0071071569456406455,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "complete_original_RMS_query_domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.0071071569456406455,
+        "complete_boundary_max": 2.9416326445021507e-08,
+        "constant_collocation_max": 0.0,
+        "original_RMS_query_domain_failures": 1,
+        "original_RMS_query_checks": [
+          {
+            "fraction": 0.17267316464601146,
+            "points": 698,
+            "invalid_count": 1,
+            "first_invalid_points": [
+              {
+                "interval": 465,
+                "left": 1.1594713509918353,
+                "right": 1.1644558024915952,
+                "s": 1.1603320320063233,
+                "a": 1.193937869693328,
+                "ap": -0.04947478091233733,
+                "app": -2.4969384329285087,
+                "minimum_beta_squared": -0.9357384204538486,
+                "phi": 3.040349921589341,
+                "curve_curvature_at_minimum": 0.0297837115526741,
+                "scalar_parameters": [
+                  -2.3491682053373836e-18,
+                  1.0278761539888778e-16,
+                  1.0542957357670787e-12
+                ]
+              }
+            ]
+          },
+          {
+            "fraction": 0.8273268353539885,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          }
+        ],
+        "read_only_midpoint_observer": {
+          "evaluate_call": 10,
+          "original_require_rms": true,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 10,
+          "original_require_rms": true,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.0071071569456406455,
+            "absolute_value": 0.0071071569456406455,
+            "original_vector_value": -0.0071071569456406455,
+            "original_array_components": {
+              "y_left": 0.21356956567189828,
+              "y_right": 0.20642132443368402,
+              "f_left": -0.010260999565428353,
+              "f_right": -0.0063669686031986705,
+              "f_midpoint": -0.008206743238120479,
+              "middle_state": 0.20999301885173244
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.0071071569456406455,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.0071071569456406455,
+            "absolute_value": 0.0071071569456406455,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [],
+      "selected_angle_values": {
+        "file": "trial-06-all-selected-angles.json.gz",
+        "sha256": "98557d9da78da3cdefca0b694e4506d68a5f35b71a3bd671ed79a6ac99f2c3d9"
+      }
+    },
+    {
+      "alpha": 0.0078125,
+      "actual_model_slope": -2.879135929293701,
+      "predicted_unregularized_merit_reduction": 0.022461446499691326,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": true,
+      "actual_fixed_weight_merit": 43.73282692338201,
+      "actual_merit_reduction": 0.022438101524329568,
+      "actual_to_predicted_ratio": 0.9989606646498889,
+      "selected_linear_beta_squared": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.001486593027475669,
+        "maximum": 0.9997702430886835,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 43008,
+        "finite_count": 43008,
+        "minimum": 0.0007412387435671852,
+        "maximum": 0.4998853451699183,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.007108143274268264,
+        "complete_boundary_max": 2.9649792414025513e-08,
+        "constant_collocation_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 11,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 11,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.007108143274268264,
+            "absolute_value": 0.007108143274268264,
+            "original_vector_value": -0.007108143274268264,
+            "original_array_components": {
+              "y_left": 0.21356989366026216,
+              "y_right": 0.20642144248275615,
+              "f_left": -0.010100626933606728,
+              "f_right": -0.006195505825688244,
+              "f_midpoint": -0.008056058728922157,
+              "middle_state": 0.20999323496066377
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.007108143274268264,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.007108143274268264,
+            "absolute_value": 0.007108143274268264,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "complete_original_RMS_query_domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243275,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.007108143274268264,
+        "complete_boundary_max": 2.9649792414025513e-08,
+        "constant_collocation_max": 0.0,
+        "original_RMS_query_domain_failures": 0,
+        "original_RMS_query_checks": [
+          {
+            "fraction": 0.17267316464601146,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          },
+          {
+            "fraction": 0.8273268353539885,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          }
+        ],
+        "read_only_midpoint_observer": {
+          "evaluate_call": 12,
+          "original_require_rms": true,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 12,
+          "original_require_rms": true,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.007108143274268264,
+            "absolute_value": 0.007108143274268264,
+            "original_vector_value": -0.007108143274268264,
+            "original_array_components": {
+              "y_left": 0.21356989366026216,
+              "y_right": 0.20642144248275615,
+              "f_left": -0.010100626933606728,
+              "f_right": -0.006195505825688244,
+              "f_midpoint": -0.008056058728922157,
+              "middle_state": 0.20999323496066377
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.05060973500673,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "ae83aa163850620927fdb03a43c5c6f17c6fcc1b84e8f47621c74ca6d47b0766",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.00790387106392765,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.007108143274268264,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.007108143274268264,
+            "absolute_value": 0.007108143274268264,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "original_selected_query_count": 21,
+      "original_selected_failed_query_readouts": [],
+      "selected_angle_values": {
+        "file": "trial-07-all-selected-angles.json.gz",
+        "sha256": "2435da19c93361d6317d3f259e95119157d7bfac39c40f94235c34f19a4a27dd"
+      }
+    }
+  ]
+}
