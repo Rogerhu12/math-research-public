@@ -22,7 +22,9 @@
 
 [R337实际152](results/R337-actual152-complete128-replay-and-final-component-compile-block.md)已完整读回run43722101766：当前128唯一α1到9.68582474751023176032080482454992093e−11，原全部129248残差及576×226独立replay逐word同。stage/audit都因临时C++三冒号和stage BatchStats歧义编译return1，112/338缺前置而未启动；两个完整summary共1291成员、16原byte段和134stderr行及双job primary全核。它不是预算、域或共振反证，绿色只表示编排/传输结束。
 
-160继续[152原完整责任](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)：以独立v2修正词法与实际统计类型，从fresh91/64J/R273重做owner、576×224有限root切向、112边界、混合338和独立physical audit。55原pins及19200s/原退出与门保留并明确新增执行身份，完整JSON字段/错误先读后清。已清理raw不当可续状态，未启动、partial和完成分列。
+[160入口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)独立五件已发布：原55pins原值全留并新增runtime/bridge/shared v2，共58；仅JSON helper前空格与原stage统计类型使用点资格化，原科学C++/Python数值正文不改。fresh91/64J/R273重做当前128 owner，再付全576×224有限root切向、112边界、混合338和独立physical audit。19200总期限/6000owner/1200replay及8000/600/600/1800四科学cap、原退出/依赖/32×10/2e−9全保，stage不全时audit仍按原预留执行。
+
+160沿152完整JSON成员/原序列化字节和12000-byte错误流读后清；typed路径、数组长度、全部stage/column/未访范围及原exit/partial分明。runtime/bridge全部明确替换逆序等于原件，workflow除完整55→58来源块及身份变化外可逆回原文；只做源码/元数据，没有本地编译或预填实际结果。该入口不等待161证书；旧152原件不动，已清理raw不当可续状态。
 
 [R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)的共享有限root、225Gram/226态/224列、因子与两次回代缺陷、完整129248×112仍是同一现场责任。不得把浮点pivot当严格非共振，或把有限root的实延拓当真正隐式根及IEEE程序导数。
 
@@ -30,7 +32,7 @@
 
 [161入口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)五件及共用[v2源接口](notes/2026-11-15-native128-qualified-json-statistics-v2-interface.md)已发：58原pins全部保留+新runtime/bridge/v2三件=61；仅JSON调用前ASCII空格及六处stage/exporter统计使用点显式资格化，五原C++/三certifier数学源原字节不改。仍fresh91→64J/R273→当前128末状态→stage10/step0/field0全230列/320bits，19200总期限/6000owner/1200replay/1200export/9000cert及完整错误/字段读回不减。新临时源逐完整逆变换/预定SHA绑定；无本地编译或新实际证书，Actions承担正常实际编译。
 
-R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；150 raw已清，161完整重算，不凭hash恢复。160复用同一v2继续完整152最终门，两个请求各自独立源/并发组，不相互作前置门。
+R314/R325即使实际完成也只付固定准确有限trace条件包含，不代真 $F_e$、真正隐式root、动态分支稳定、IEEE、全部RK/112/338/physical或native。原未付字段不能由传输成功改写；150 raw已清，161完整重算，不凭hash恢复。真实run43729456722/source ce2b12c0f391a008343866ed9fe649f44d91ed28已启动，实际由exact负责。160复用同一v2继续完整152最终门，两个请求各自独立源/并发组，不相互作前置门。
 
 ### 1C. 37查询及真实非线性域：155在跑，158实现中
 

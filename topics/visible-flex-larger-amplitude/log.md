@@ -49,3 +49,7 @@
 ## 2026-11-15 15:21:41 UTC /root — request161及共享v2明确词法/类型修复
 
 [161接口](notes/2026-11-15-request161-qualified-v2-literal-root-certificate-interface.md)与[v2接口](notes/2026-11-15-native128-qualified-json-statistics-v2-interface.md)完整差异核后即发：58原pins原值全留→61，新shim只加JSON前导空格及六处统计使用点资格化，原数学源/预算/门保持；fresh91至128后同job230列，全字段/错误读后清。无本地科学编译或未来结果；157已run43729310294/132858021333、前6步过，H移除已完成150/152/156重复表行但原结论范围完整保。API核2688cce1ac9ddfbff5a9259872582c252c0e49d5双README未变，真pull行保留。
+
+## 2026-11-15 15:26:10 UTC /root — request160完整128后四组件资格化修复
+
+[160接口](notes/2026-11-15-request160-qualified-v2-complete-final128-interface.md)五件写完即发：55原pins逐值全留→58，runtime/bridge及workflow来源块之外的完整替换逆序等于152原件；新v2只修条件冒号与统计类型，原576×224/112/混合338/audit、19200预算和全部原门/完整错误读回保持。未本地科学或编译，未预填结果；161已run43729456722/ce2b12c0，R341/342/343/344/345分别留151/153/145/155/161实际。API核d439e63457d22cc1575ac7b83847263eb3547853双README未变，真实pull行保留。
