@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:04:31 UTC实际pull后已读规则提交：`b1dde7d97b52d5ddda852d1fbbf47f82a7cb9b40`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:08:43 UTC实际pull后已读规则提交：`5459013f4b0dee47ed0e0bc13a810f4c30c18c9f`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -38,9 +38,9 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R207已完整**：actual43687004289/source28b2c1f，πU−6=πR−6真dim3。14族241原state合164原列（36/163真函数零）+16响应，180列/177原关系全零；基旧0/2/3。134新收缩/最终9人工过，3.68533s/RSS317.1875MiB，全部坐标和metadata见正文，非full U−6=R−6。
 
-**新pure−4完整请求已提交**：source be5d2ffa，设计notes/complete-pure-minus4-projection-design-20261115.md；5旧目录/28args/240s/1024MiB，40旧完整响应只读pure，29 A/H旧根直接用。114势请求=44旧缓存（35非空9空）+70必要临时输入恢复；新197静态/62 v2/78 v4投影与≤164新pure收缩，14族/同Γ/完整原核。4新人工已过，公共先check后actual；不重−6目标、旧mixed/NF/正性。结果待实际，非零商不自动正字符。
+**pure−4 actual43688302217/source1b032593/job132733352458已完整**：πU−4=πR−4真dim9。14族152原state合123列（33/122真函数零）+40旧响应，163列154原关系全零；基global0/1/2/3/8/9/12/14/16。127新收缩/最终4人工过，4.26319s/RSS317.543MiB/21bit。全部123坐标/152别名/40响应与receipt47378/f739e4a0已读。最后pure字符排除，按R202/R206连满锥与真实全pure支付；R210正文正在成稿，mixed/ruling未付。
 
-**R208已证全πR有jet≤2代表**：旧151对角第三列完整覆盖WΔ，18保留皆R71，仅用sound上界得WΔ=(W71)Δ，不冒dim18。通用复合外q″多项式对称消掉，第三可选外局部无q″；同锚线性q‴ IBP与Fréchet嵌套归纳付全pure响应。R179使真高jet规范行成为非成员证；不授πU/N或mixed同样降阶。
+**R208/R209已证全部πR和πU都有jet≤2代表**。R208旧151覆盖WΔ=(W71)Δ，仅sound上界，不冒dim18；对称外q″相消与同锚线性q‴ IBP付响应。R209从R56全动态分子得n_r=2aa_s、明确N*=∫a²dr；NΔ−N*外无r。先s导后零history，D_s(U²+2C)|0=0；完整v−B_mN高jet恰Ds(a³q‴/6)，常germ端项零。参考连接只用于已消移动分母的universal延拓，不改原I/q/右锚。非πU=πR声明，也不延mixed/独立gauge。
 
 ## 5. 固定圆gauge与真实第四joint
 
