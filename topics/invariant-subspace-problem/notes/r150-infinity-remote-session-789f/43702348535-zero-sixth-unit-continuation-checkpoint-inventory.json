@@ -1,0 +1,158 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "zero-sixth-unit-continuation-checkpoint-inventory",
+  "executionSourceCommit": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-sixth-temporary-checkpoint-inventory-789f.py",
+  "scriptSHA256": "d485f9ea6a21e708927c2e60b1b68c4fab1f6ac8f34a7a1c8aaef0b47a706bca",
+  "argvTemplate": [
+    "--checkpoint-dir",
+    "{work}/zero-sixth-unit-continuation-checkpoint",
+    "--out",
+    "{work}/zero-sixth-unit-continuation-checkpoint-inventory.json",
+    "--remaining-seconds",
+    "10"
+  ],
+  "timeoutSeconds": 30,
+  "exitCode": 0,
+  "wallSeconds": 0.11417413600065629,
+  "fullTemporaryReceiptBytes": 4137,
+  "fullTemporaryReceiptSHA256": "5b66e8ba99e725c29696703c11154083d87e7370ba01278d2d9a09fd83fee146",
+  "result": {
+    "elapsedSeconds": 0.025604906999433297,
+    "format": "r150-sixth-temporary-read-only-inventory-v1",
+    "scriptSHA256": "d485f9ea6a21e708927c2e60b1b68c4fab1f6ac8f34a7a1c8aaef0b47a706bca",
+    "status": "completed",
+    "parameters": {
+      "directories": [
+        {
+          "directory": "/home/runner/work/_temp/isp-recovery-session-43702348535/zero-sixth-unit-continuation-checkpoint",
+          "exists": true,
+          "files": [
+            {
+              "bytes": 36203917,
+              "bytesHashed": 36203917,
+              "file": "middle-actual-rhs.json.gz",
+              "manifestByteCountMatches": true,
+              "manifestPhase": "middle-actual-rhs",
+              "manifestReportedVerified": true,
+              "manifestSHA256Claim": "b58b78d89410a74525460ab47f24e9c9b6044866b686b839c97787f30b3bc95f",
+              "manifestSHA256Matches": true,
+              "sha256": "b58b78d89410a74525460ab47f24e9c9b6044866b686b839c97787f30b3bc95f"
+            },
+            {
+              "bytes": 22845,
+              "bytesHashed": 22845,
+              "file": "middle-unit-constant-kernel.json.gz",
+              "manifestByteCountMatches": true,
+              "manifestPhase": "middle-unit-constant-kernel",
+              "manifestReportedVerified": true,
+              "manifestSHA256Claim": "526a9229f01cced209a00a23dc725a350e97b11dab7abad6716e972b1af238c5",
+              "manifestSHA256Matches": true,
+              "sha256": "526a9229f01cced209a00a23dc725a350e97b11dab7abad6716e972b1af238c5"
+            },
+            {
+              "bytes": 78392,
+              "bytesHashed": 78392,
+              "file": "middle-unit-unit.json.gz",
+              "manifestByteCountMatches": true,
+              "manifestPhase": "middle-unit-unit",
+              "manifestReportedVerified": true,
+              "manifestSHA256Claim": "1afff063fc00b7ccc3d6feef35345e4e4f4663766a50de8801b4952893cacd5c",
+              "manifestSHA256Matches": true,
+              "sha256": "1afff063fc00b7ccc3d6feef35345e4e4f4663766a50de8801b4952893cacd5c"
+            },
+            {
+              "bytes": 1242,
+              "bytesHashed": 1242,
+              "file": "sixth-checkpoint.json",
+              "sha256": "aaf1e88407f4028b7e442b8cd14f051953feac7a8b61239a1ad57814f3b1fd0b"
+            }
+          ],
+          "label": "sixth",
+          "manifest": {
+            "binding": "b850dd94e0e26a6f5d69a94805bf31a00c037db112c97e404aae30012d5bd8fc",
+            "bytes": 1242,
+            "file": "sixth-checkpoint.json",
+            "format": "r150-zero-sixth-full-source-temporary-v1",
+            "phases": {
+              "middle-actual-rhs": {
+                "bytes": 36203917,
+                "file": "middle-actual-rhs.json.gz",
+                "matrixSHA256": "a6532697480d964c38cbf4c3289f5afa324883ba4fbe688de817d665f184e4f3",
+                "sha256": "b58b78d89410a74525460ab47f24e9c9b6044866b686b839c97787f30b3bc95f",
+                "shape": [
+                  2295,
+                  10
+                ],
+                "verified": true
+              },
+              "middle-unit-constant-kernel": {
+                "bytes": 22845,
+                "file": "middle-unit-constant-kernel.json.gz",
+                "matrixSHA256": "2314aa5e592d3e397fdbfc0dd76b1b31f4bb4b6f10474b2be651d2c7808985b5",
+                "sha256": "526a9229f01cced209a00a23dc725a350e97b11dab7abad6716e972b1af238c5",
+                "shape": [
+                  990,
+                  2
+                ],
+                "verified": true
+              },
+              "middle-unit-unit": {
+                "bytes": 78392,
+                "file": "middle-unit-unit.json.gz",
+                "matrixSHA256": "f412b29faed54bc76ffd67cf6d99d2cbedc313c4f4a1cb9a8ec248dd6d3a1ab5",
+                "sha256": "1afff063fc00b7ccc3d6feef35345e4e4f4663766a50de8801b4952893cacd5c",
+                "shape": [
+                  988,
+                  988
+                ],
+                "verified": true
+              }
+            },
+            "sha256": "aaf1e88407f4028b7e442b8cd14f051953feac7a8b61239a1ad57814f3b1fd0b",
+            "temporaryOnly": true
+          }
+        }
+      ],
+      "noExistingFilesModified": true,
+      "noMathematicalComputation": true,
+      "noMatrixPayloadDecompressed": true,
+      "sharedSeconds": 10.0
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 12:07:21 UTC",
+      "beforeReadCommit": "ea24ec16dae1dbcc59da299a329227fc5fa3369c",
+      "originMainAfterPull": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 12:07:21 UTC",
+      "beforeReadCommit": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+      "originMainAfterPull": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 43,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 14750,
+    "logicalJsonSHA256": "e02e4f5ea952b2a3fb77e8ea4f0af6ba01985572fc04089c18897c85827e06eb",
+    "itemCount": 43
+  },
+  "lastRulesReadCommit": "399504cbf3431451f4ae13a762fb746224c4ebb5",
+  "summaryExcludesRecomputableArraysOnly": false
+}
