@@ -432,3 +432,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R307实际138全32批normal选择读回
 
 [R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)20538B/314c3cdc全文已读发布：全部32批/256接受/358trial、259改点而同调用救回0，保全部normal/5416样本及FD/Arb/453圆，916字节身份原日志重建通过。W慢降末4.963213789290057/allfinalfalse，135同初p但fresh r/J不同；142据真138末p及已发R310形成新全九方向，未冒新非零父。137实际907.237564652s/owner child1无summary/outer70，非global deadline，原CLI两log已取交R313/140修实际接口；H同步该事实，不猜数学失败。
+
+## 2026-11-15 /root — Request141完整35查询实际入口
+
+[141接口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)及9入口文件发布：独立35保原33加LEFT463/MID472、完整新463端点支持；原全部全场/凝缩/C/outside/17trial/FD与预算保留，source/schema及初98/后继own35口径明示。root读完整变化/接口并核85旧新pin、6AST、5bash-n/3inlineAST、原参数及query留存；无本地科学或新增fixture。新21bd/bff基线、独立不cancel并发、always清理；request push直接本公开Actions算。137已工程阻断且140按原实际源码修入口，H/open同步，不在阶段停止。

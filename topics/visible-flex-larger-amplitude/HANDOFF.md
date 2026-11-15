@@ -4,7 +4,7 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 12:04:34 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 bc2139961cdf5ed53044f0df1a270490127e49aa。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
+规则同步记录：2026-11-15 12:11:50 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读origin/main提交 a4f6fdd22afd05507df61de867dc1724a1065466。当前部分克隆/tmp/visible-larger-root-git-138；非API代称。
 
 只在公开Rogerhu12/math-research-public，科学计算/科学模块导入/数值测试只用本库Actions。root仅源与证明编辑、原输出/JSON重建、语法/hash/Git。PAT只CLI瞬时环境，禁文件/提交/回复/连接参数。
 
@@ -38,7 +38,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 124/128真zero→全112H(s)：首1/64、成功×2至1/4、绑定数学拒绝/2；2^-20/64calls/300min是partial，IPC未知不冒数学拒绝。s1全H词、全J→FD/fullDN/finalJ/fresh audit保留；尚无正λ场。
 
-137新21bd规则，fresh起19200s总/120s读回；owner6000含1200replay、stages8000/boundary600/endpoint600/audit1800按实际剩余额度，先保audit。清理前真实末态消费，90KB超限明示70；native/fullDN不预填。140须新operator身份/同job现场，不把133已删state或旧137组件标签伪接。
+137原fresh起19200s总/120s读回、owner6000含1200replay及四组件全scope均保；实际先于owner因入口分派阻断，R313记录日志事实与源码推断。140修首参数分派/完整stderr并接新operator，总cap/原science caps/独立audit预留沿新接口，不能把旧packet或133已清state伪接。
 
 旧规则runner可能按真实README变化退出；只读实际完整原结果并以新已读基线明确再生，不绕过或伪确认，不取消现有任务。
 
@@ -48,7 +48,7 @@ root唯一发布者。原/tmp/visible-larger-root-git-126随终端丢失；新�
 
 [138 R307](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)全32批/256接受/358trial，259真改点而同调用直接救回0；5416样本/全部normal保留，W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部final false。135同初p但fresh r/J不同，不作单因归因。[R310](results/R310-complete-nine-directional-response-basis-and-finite-error.md)证明及helper50044473已发布：全9新方向、原度量G和原真实门，内部消去仍未界；142据138真末p另接，不复跑同小步。
 
-[130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)：run43702578242/source690ca0f924f069c6b8c2134ca83bc856918c2e89完整7批33trial/7warm接受/7freshFD；11:38:40规则round2真实变化exit77，第8完整返回未知。最近拒绝MID472/LEFT463，末还含selected MID471；linear可行不保证非线性域。全部native/fullDN false，末raw已清。root继续独立35查询：保原33再加MID472/LEFT463，新增capture463/node463→26端点/8791local，C4059/全outside/原门不变；从可恢复98另起，不伪续130末。完整来源、试探/后验/身份见正文。
+[130 R309](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)完整7pair/33trial/26拒，规则变化exit77，第8完整未知；MID472/LEFT463及已选MID471/483非线性失域均保。末raw已清。[141完整35入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)现从真实98另起：保33加LEFT463/MID472，全71680行/22capture/26端点/8791local，C4059/全236036/outside/17trial/FD不变；85+worker86源，8批/10500s批间/175min，直接公开执行待真实run。
 
 ## 连续目标、闭面与几何
 

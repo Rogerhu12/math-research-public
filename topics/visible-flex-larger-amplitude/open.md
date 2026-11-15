@@ -2,7 +2,7 @@
 
 ## 最新：完整128射击容差已达，完整final与新模型继续
 
-[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列组件在跑，140独立R305算子接线继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。137已实际exit70/owner child1/summary空，R313完整读回、140修真实接线；139仍须真实整域结果。
+[R308实际133](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)支付完整576段/129248行原射击容差及独立fresh128逐字replay，native/fullDN/全列/物理final仍未付；137原全列入口已工程阻断，140独立R305算子与最小入口修复继续。[R307实际138](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)完整32批/全部normal已结清，259改点而同调用直接救回0，慢下降仍未解除，142重形完整九方向。137已实际exit70/owner child1/summary空，R313完整读回、140修真实接线；139仍须真实整域结果。
 
 完整来源/实时run/规则/恢复责任见[HANDOFF](HANDOFF.md)。此前全文保留于[至139检查点](notes/open-checkpoint-through-request139-2026-11-15.md)，并接原137/134/126/112记录，正式证明及原数值不删。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
@@ -111,3 +111,5 @@ R288提供的具体后继是保128状态、完整primal和明确所选有限root
 [R306完整证明](results/R306-complete-cap-endpoint-primitives-and-budget-preserving-integration.md)给完整cap低/高transition同一多项式、±L两jet接合，真实valley/flat/cut覆写后的同一w为C²；χ恒1且整个闭panel的完整q同号时，A/√E A/wA三积分由完整w端点给出。端点所有possible branches并集、原range交集及原全宽门保留，B三项/两χ过渡/未知符号仍原路径；未知异常不改标签，仅确捕ResourceStop经ValueError还原并返回连续已付prefix/全部pending。[139完整入口](notes/2026-11-15-request139-complete-cap-endpoint-continuous-E-interface.md)现已发v3 f12f7470/request3c210929/workflow1e93333a、10源/3证明/三原输入及原whole-query，同域同预算直接公开执行；不假设成功或加fixture。
 
 [R307实际138完整回读](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)：32/32批、256方向全部原Armijo接受、358外trial/102拒；259次同轨迹改选含186外接受，但256已接受档的原working也都过同一原界，直接救回0。5416有限样本/3338内trial/95整normal方向拒绝/263无新方向tol终端完整保留，184已接受点内tol=false仍依原门。W4.963213836829283→4.963213789290057，末radius3.814697265625e−7，全部unit/full112/native/nonzero/success false；初p与135字同但fresh r/J/方向不同，不作单因归因。192组1728列FD、32Arb/453圆及916字节身份已核；142按R310实际改方向形成，不重复旧小步或伪造接受父场。
+
+[141完整35查询实际入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)已按R309真实失效增加LEFT463/MID472，保全部原33查询及完整17试探/两RMS/BC/physical/原FD。21LEFT+14MID=71680角行，新增capture463/node463，22capture/26端点463..488/8791local；原C4059、236036全场和完整H外部恢复不减。真实98原31仅初父，后继仅本job实际own35 pair；原80源完整保留+5新source/readout+独立worker，request a6d0f90f/workflow826017b2。只AST/hash/5bash-n/3inlineAST核，无本地科学；新21bd/bff规则、8批10500s批间/原1200s模型/600sQP/175min实际入口直接执行，结果按完整原日志继续，不预填改善或最终通过。

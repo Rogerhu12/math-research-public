@@ -134,3 +134,5 @@
 - [R310完整九方向响应与有限误差责任](results/R310-complete-nine-directional-response-basis-and-finite-error.md)（已证明，固定有限公式及明示局部条件）：可逆全9换基须保原度量G，完整12×9正阻尼目标、严格下降和半径单调性；旧J乘Q不修旧形成误差，直接complex-step只改变动作形成路径。真实曲线原点导数含目标动作不一致修正，内部传递/终端相消仍未界；独立helper50044473/全接口已发布，无实际新科学或新增门。
 
 - [R307实际138完整32批同normal轨迹选择](results/R307-actual138-complete-normal-trace-selection-and-thirty-two-batches.md)：256接受/358外trial、259真改点而同调用直接救回0，5416样本和全部3338内trial保留；W仅到4.963213789290057，全final false。完整32行/八α、全部FD/Arb/453圆、末p/r及916字节身份已付；135同初p但fresh r/J不同，不作单因归因，142改全九方向形成。
+
+- [Request141完整35查询及全支持执行入口](notes/2026-11-15-request141-thirty-five-query-complete-support-interface.md)：R309真实失效驱动，保33加完整LEFT463/MID472；71680行、22capture/26节点/8791local，C4059/全236036/outside/17trial/FD保持。真实98原31初父→同job own35，85+worker86pins/原预算/新21bd规则，未预填实际结果或最终接受。

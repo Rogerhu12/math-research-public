@@ -1,0 +1,673 @@
+{
+  "schema": "actual98-thirty-five-model-and-FD-recipe-v1",
+  "request": 141,
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "New35 trajectory from the exact recoverable actual98 original31 pair. Keep every original33 grid and add complete LEFT463/MID472 rows and actual new capture/node463. Reform full A/weights/B/C/H/g; preserve all17 nonlinear trials, all original budgets and fresh actual-warm FD. Deleted130 fields and old successes are not resumed or relabelled.",
+  "source_sha256": {
+    "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
+    "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
+    "geometry_20261114_condensed_projection_warm.py": "5d398d3d702e0fd93af3777504fc1d4e918110c7e5f0683601eac5d21c49914a",
+    "geometry_20261114_condensed_projection_response.py": "461b0d48068dba6cfcb62974c1e8f16889b1bd8ca5bd4b86e1bf6a3e09ac83b8",
+    "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
+    "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
+    "geometry_20261114_thirteen_query_condensed_response.py": "2cbd850a3a810f4296920e13629e86a9ca11545d7dd002d1a0d569e9e6d2319a",
+    "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+    "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+    "geometry_20261114_fourteen_query_condensed_response.py": "a84a693172af678146eb36cd43b965b8206bf3d048dac32047fb7acc4c7e82a1",
+    "geometry_20261114_fifteen_query_domain_operator.py": "c6581f0b8fdef4c3bc48d364c6845cff9a4244b043a4d14c772ef6fd3b2503e8",
+    "geometry_20261114_fifteen_query_condensed_warm.py": "f1310edc94fb3a9c9f95b5dad98e7073c1879997b9a9bdf06c5028e91f83351e",
+    "geometry_20261114_fifteen_query_condensed_response.py": "3328eb649daab9b7e2da831e0fd6fa864f10f4dd6c98c51adff0ddfbe0424487",
+    "geometry_20261114_sixteen_query_domain_operator.py": "a92efa1735832d144cb65d617beb2d9018d7822f5cc7d3846d00757abfb2db2a",
+    "geometry_20261114_sixteen_query_condensed_warm.py": "b5bfc20259b2d182ac881cf9dab7062912578fb489ef17940c259082bf184815",
+    "geometry_20261114_sixteen_query_condensed_response.py": "9f0717bde76c7c29d86f05d3d9710bf7f1668e538ee32f99bc4167e5b731c025",
+    "geometry_20261114_sixteen_query_collocation_observer_warm.py": "3f9df52b6d7dc2b721c91f7c97e28421283043b35f833d1151ef408e2ce9d05e",
+    "geometry_20261114_seventeen_query_domain_operator.py": "5bb4f214d4d2505185448a9162c0d995bdb6c37168e6d9542dfe6202e8f21a41",
+    "geometry_20261114_seventeen_query_condensed_warm.py": "f8131287af5d10653692f6e5b7c3cf8ee1d4f17757c3017007b20061598f317b",
+    "geometry_20261114_seventeen_query_condensed_response.py": "f85fefd928e5ff7945e10082419e197b1b8c5cf3c4d00c1cdcd270380470bbbb",
+    "geometry_20261114_seventeen_query_collocation_observer_warm.py": "4205f7322d67cac1c3e851fb5759612ea31288433a21b90fa55b8b8406916121",
+    "geometry_20261114_eighteen_query_domain_operator.py": "ec43c049542f523e1c4f2b1956c07a9216497eb066a8f6f22ceddd8f11e2c051",
+    "geometry_20261114_eighteen_query_condensed_warm.py": "b9f7d9150c57cff485f5f891881870095fc91f7a58fd40f63544e6bb9c3ef335",
+    "geometry_20261114_eighteen_query_condensed_response.py": "5885daeced8a8961f7f12d259ed5479683e7fd8dc2cccb8a2873ac9424918c9e",
+    "geometry_20261114_eighteen_query_collocation_observer_warm.py": "6ad75ce4b350aee4ae52afe2c6045f50d657931419ef7c4b46d0758db3acd1ca",
+    "exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "geometry_20261114_nineteen_query_domain_operator.py": "945114799a2cf564c59b463e1429b55119d4ad421bc5f3414c7143333e43d35e",
+    "geometry_20261114_nineteen_query_condensed_warm.py": "63ec6bd0da782933ad01628c686499d6325fa10df2c624f97c6f131a233e8d39",
+    "geometry_20261114_nineteen_query_condensed_response.py": "6b497ddec4dbf9a307f5501b352fc520d115f08a9eb7d5e8b6cb8dd03cf965bb",
+    "geometry_20261114_nineteen_query_collocation_observer_warm.py": "7fee2874557ca6681743bc5607a2ea59a72c2b3f474bc9fc701898569bb62282",
+    "geometry_20261114_twenty_query_domain_operator.py": "16157412cbb4af0d01ade0cb3e373413fda175059186ccf17ef3b1d727d27ce1",
+    "geometry_20261114_twenty_query_condensed_warm.py": "9d750fcba45624f23dbae19ca44fded0437f1f5dc15943879cbf046064fe22ee",
+    "geometry_20261114_twenty_query_condensed_response.py": "6890d58c28ea697bf025de85f0d276e351041ea8928afdb325d1162dadcece17",
+    "geometry_20261114_twenty_query_collocation_observer_warm.py": "4b2c875a58c9dfb43581922bfec983188c763b2014fc438cc918b178a50d6a05",
+    "geometry_20261114_twenty_one_query_domain_operator.py": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
+    "geometry_20261114_twenty_one_query_condensed_warm.py": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+    "geometry_20261114_twenty_one_query_condensed_response.py": "d1da3a179bc05d346406961b81fc233e6edd098810bd6834537bc50d33901301",
+    "geometry_20261114_twenty_one_query_collocation_observer_warm.py": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de",
+    "geometry_20261114_twenty_two_query_domain_operator.py": "083abbf5e7f6dfede4f717d059192011e2ca4f895ff2f57e2d3760f49d06feb0",
+    "geometry_20261114_twenty_two_query_condensed_warm.py": "2b01d4384f312a435b4e00feb9296c93a15aebe063a29fe9c588ac230aaf867a",
+    "geometry_20261114_twenty_two_query_condensed_response.py": "08f8343b56b1f000ec2439b3d3d949260b26a3da5ad1dc6820788a1fd45be481",
+    "geometry_20261114_twenty_two_query_collocation_observer_warm.py": "240837606d8b98214d25a6c0fe8b5546ce5b4994349bea39af32e96e22241ffa",
+    "geometry_20261114_twenty_three_query_domain_operator.py": "755d9bf2a01c5c417b28bfd265ee76712bba54a9fdeddf34ea56c4668abefe98",
+    "geometry_20261114_twenty_three_query_condensed_warm.py": "1fe5b698e452112583ee82a81ab7890095c7f3f31de05cdfb60c79e35039721c",
+    "geometry_20261114_twenty_three_query_condensed_response.py": "1eb07544b30abdce43599d3297c5f7732c3d19f4c74bf5aedd15ae008fa87e8a",
+    "geometry_20261114_twenty_three_query_collocation_observer_warm.py": "06ed3a98c48cbb2feffbc319f08c6509012f5ab9f7a460a5af3d6f74e73fc697",
+    "geometry_20261114_twenty_four_query_domain_operator.py": "06933e9341664d63b5a9eaeb00998daa1be7b1c1d143a60f1ae2ef05efa9db36",
+    "geometry_20261114_twenty_four_query_condensed_warm.py": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452",
+    "geometry_20261114_twenty_four_query_condensed_response.py": "87261854684d5844c97d59b328db2aa070b015b565baf46dfb7e811808b3bb87",
+    "geometry_20261114_twenty_four_query_collocation_observer_warm.py": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
+    "geometry_20261114_twenty_five_query_domain_operator.py": "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260",
+    "geometry_20261114_twenty_five_query_condensed_warm.py": "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c",
+    "geometry_20261114_twenty_five_query_condensed_response.py": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d",
+    "geometry_20261114_twenty_five_query_collocation_observer_warm.py": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55",
+    "geometry_20261114_twenty_six_query_domain_operator.py": "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8",
+    "geometry_20261114_twenty_six_query_condensed_warm.py": "b9954eb5caffca7e3e001e66b07b0628a8275a22139ca3000cf527e258023197",
+    "geometry_20261114_twenty_six_query_condensed_response.py": "17908d4cb301f2073ce6539a8fcdc218a434529586722f013202c69378933b01",
+    "geometry_20261114_twenty_six_query_collocation_observer_warm.py": "e10055b6e6d5604d247ecfbe637f8ca01b2b1337a7a528da8e25cbe48e6b8b25",
+    "geometry_20261114_twenty_eight_query_domain_operator.py": "25767045b9a26764bfdb89881832ec7da01de1ac86ebc491402c7b9801175cd0",
+    "geometry_20261114_twenty_eight_query_condensed_warm.py": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c",
+    "geometry_20261114_twenty_eight_query_condensed_response.py": "3a3d5f2888b4d826c69e2949ae9ec5ef896c54cb04f9b2283a71051221d7c5d9",
+    "geometry_20261114_twenty_eight_query_collocation_observer_warm.py": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc",
+    "geometry_20261114_thirty_one_query_domain_operator.py": "44c82d410f1e52f45e6b87f9e9eb86b3aeccb0e937510f04561855360347128f",
+    "geometry_20261114_thirty_one_query_condensed_warm.py": "1cf2d88dfeeba1ea542dabad261759151f1c6e30e29caece8fc2056fbe5f107e",
+    "geometry_20261114_thirty_one_query_condensed_response.py": "1bc1f6e02e2d450b24df73aab6e660c4453fdbf088e9aa2b3054b5ae5a2d84d5",
+    "geometry_20261114_thirty_one_query_collocation_observer_warm.py": "1e2f1ff075daf761c496271b5d93d29178d7af098d2bc03ba0eb6b38328107a1",
+    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+    "root_20261115_read_existing98_scalar_summary.py": "e2e8ec32c30bbc9ff0e77709524ff09f100f0ff5f4decd23c43b6445562b7484",
+    "root_20261114_current576_rules_runner.py": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde",
+    "geometry_20261115_actual98_same31_temporary_resume.py": "2b4e9f2132263d166d7d4ee298725f55e547427cb1c25c335edf366b4aa784ba",
+    "geometry_20261115_thirty_two_query_domain_operator.py": "a55edba9bf4dde9c909ceb6aa47aee5957ed4d26fa13dd40f8bf38d9ce74df0f",
+    "geometry_20261115_thirty_two_query_condensed_warm.py": "3f4162b9594acb5c7607f3329e757dad3e18311a1544ea20a081f5c4689cafb8",
+    "geometry_20261115_thirty_two_query_condensed_response.py": "47f420ad7dcddee0192ac6eb02aec4caedbfb66e3100d5fe879261cc33251e73",
+    "geometry_20261115_thirty_two_query_collocation_observer_warm.py": "845af95d9481ef2c30bf76d8169f91c5a3640980400b0b69828cf6c7cadb3f5d",
+    "root_20261115_thirty_two_temporary_readout.py": "a05af3878e1f93c66a8f0b253be0936ddc4342438f4dbd13d4ed178ed6f4955d",
+    "geometry_20261115_thirty_three_query_domain_operator.py": "3c06f9c59b91d39b6a7db86e7017ca50dcf5549764f3aed143102c9913fb93d5",
+    "geometry_20261115_thirty_three_query_condensed_warm.py": "18827b3f4bcc67d96875a25f86c71ded459e4a9b505d071b2d0dfda208ce31e7",
+    "geometry_20261115_thirty_three_query_condensed_response.py": "cbb533db27892d6918de7d81c9053db5750a7954c3ef74a07235c5511b911289",
+    "geometry_20261115_thirty_three_query_collocation_observer_warm.py": "c2bfbddc3e680c00627c0a33d16efd1cccf1ee7fd9971a12012ef6322b45d244",
+    "root_20261115_thirty_three_temporary_readout.py": "9415e05990f64b02287bcf37bf1a870c756f4864ac72a867fa269c453bd8b743",
+    "geometry_20261115_thirty_five_query_domain_operator.py": "31b41de105bdfabbdc4bb1df2f562643249e8dd4baabf40aed5280c502369cbf",
+    "geometry_20261115_thirty_five_query_condensed_warm.py": "18796ca062c4e68f4e15f975cb2617161a675ef2fa547a9a44ae8d340793a0ff",
+    "geometry_20261115_thirty_five_query_condensed_response.py": "2df69f7f0d01870792458b9587ab0fb7b62e8c1cce9103fc0a5f6d106d3b7d92",
+    "geometry_20261115_thirty_five_query_collocation_observer_warm.py": "4867364d1f1bbbf0185b1dafa769d58e6bd14d1271b4e41c5b29716c39ed28c5",
+    "root_20261115_thirty_five_temporary_readout.py": "7a58bf11cb169548c6df50a8b75831bafe023f79478bf7251cf2b03798d54e5d"
+  },
+  "parameter_sha256": {
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941"
+  },
+  "declared_source_pin_count": 85,
+  "original98_scientific_pins_unchanged": true,
+  "unconsumed_old_publisher_pin_removed": true,
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "parent_artifact": {
+    "run_id": 43677587785,
+    "artifact_id": 14147700690,
+    "artifact_name": "visible-followup-condensedqp-43677587785-1",
+    "expected_size": 809042943,
+    "expected_sha256": "9917774d965e86b0a8d46677a1f54c0fb23fc8fa61a67cbab998e7493d33151a"
+  },
+  "parent_source_commit": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+  "parent_warm": {
+    "file": "warm-001.json.gz",
+    "bytes": 4927052,
+    "sha256": "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
+  },
+  "parent_status": {
+    "file": "driver-status.json",
+    "bytes": 3379453,
+    "sha256": "b7ad389fad867fecf85edc4313145980d6e8686f207acf781ff6a050e7eae6ff",
+    "original_JSON_not_reserialized": true
+  },
+  "parent_schema": "exact-constraint-thirty-one-query-condensed-complete-H-warm-v1",
+  "current_schema": "exact-constraint-thirty-five-query-condensed-complete-H-warm-v1",
+  "same_schema_parent": false,
+  "actual_query_change": [
+    {
+      "kind": "left-RMS",
+      "interval": 463,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 472,
+      "fraction": 0.5
+    }
+  ],
+  "source_entry": "geometry_20261115_thirty_five_query_collocation_observer_warm.py",
+  "mathematical_producer": "geometry_20261115_thirty_five_query_condensed_warm.py",
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 463,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 464,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 465,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 466,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 467,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 468,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 469,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 482,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 484,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 485,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 486,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 487,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 471,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 472,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 479,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 480,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 481,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 482,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 483,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 484,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 485,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 486,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 487,
+      "fraction": 0.5
+    }
+  ],
+  "selected_query_count": 35,
+  "selected_angle_row_count": 71680,
+  "full_B_physical_nodes": [
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "complete_B_local_dimension": 8791,
+  "baseline_C_nodes": [
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482
+  ],
+  "baseline_C_dimension": 4059,
+  "complete_B_outside_C_nodes": [
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "complete_H_outside_response_not_frozen": true,
+  "model_flags": [
+    "--iterations",
+    "1",
+    "--damping",
+    "270",
+    "--lsmr-iterations",
+    "200",
+    "--projection-sweeps",
+    "200",
+    "--line-search-steps",
+    "17",
+    "--budget-seconds",
+    "1200",
+    "--angles",
+    "4096",
+    "--jac-workers",
+    "2",
+    "--condensed-budget-seconds",
+    "600",
+    "--condensed-trial-reserve-seconds",
+    "90",
+    "--condensed-recovery-reserve-seconds",
+    "30",
+    "--condensed-max-working",
+    "512",
+    "--condensed-dual-sweeps",
+    "200",
+    "--condensed-store-root"
+  ],
+  "fresh_J_weights_B_C_and_H": true,
+  "old_direction_not_reused": true,
+  "native_tail_requested": false,
+  "scientific_thresholds_or_original_stopping_tests_changed": false,
+  "new_BVP_acceptance_claimed": false,
+  "actual98_evidence": {
+    "readback_run": 43682529851,
+    "summary_bytes": 83396,
+    "summary_sha256": "5fb8012ed36e10864a61bd08ce26563122b8eea170a73f08f9da2cba8cb6a42e",
+    "original_model_sha256": "e2957f2d413653ea08c7f893f7cc3584c05450ff2ccb8c761d8109cfef1dfa6a",
+    "fixed_weight_merit_before": 43.42621386634224,
+    "accepted": {
+      "alpha": 0.25,
+      "actual_fixed_weight_merit": 43.36604610143146,
+      "actual_merit_reduction": 0.06016776491077991,
+      "actual_to_predicted_ratio": 1.0029891422465396
+    },
+    "nearest_rejected": {
+      "alpha": 0.5,
+      "node_failures": 0,
+      "midpoint_failures": 0,
+      "actual_fixed_weight_merit": 43.31301254907233,
+      "actual_merit_reduction": 0.11320131726990468,
+      "left_RMS_failed_intervals": [
+        464,
+        465
+      ],
+      "left_RMS_beta_squared_minima": [
+        -1.8377510686892449,
+        -0.4505572547560164
+      ],
+      "both_failed_queries_already_modeled": true,
+      "right_RMS_failures": 0
+    },
+    "FD_maximum_relative_directional_error": 8.408533903133078e-10,
+    "no_cross_model_merit_subtraction": true
+  },
+  "readback_scope_correction": {
+    "compare_explicit_scientific_model_fields": true,
+    "standalone_document_provenance_not_required_equal_to_nested_model": true,
+    "comparison_is_readout_not_new_gate": true
+  },
+  "retention": {
+    "all_inputs_and_outputs_in_owned_RUNNER_TEMP": true,
+    "full_original_child_exit_before_cleanup": true,
+    "compact_scientific_summary_and_output_SHA_only": true,
+    "new_raw_artifact_upload": false,
+    "Release_upload": false,
+    "Git_raw_data_publication": false
+  },
+  "rules_monitor": {
+    "unchanged_source": true,
+    "current_baselines_explicitly_loaded_from_reviewed_README_bytes": true,
+    "original_2700_second_pull_rebase_diff_and_stop": true,
+    "merge_stat_disabled_only_to_avoid_historical_deleted_blob_diffstat": true
+  },
+  "frozen_previous_source_pin_count": 80,
+  "new_independent_sources": [
+    "geometry_20261115_thirty_five_query_domain_operator.py",
+    "geometry_20261115_thirty_five_query_condensed_warm.py",
+    "geometry_20261115_thirty_five_query_condensed_response.py",
+    "geometry_20261115_thirty_five_query_collocation_observer_warm.py",
+    "root_20261115_thirty_five_temporary_readout.py"
+  ],
+  "provenance_only_not_called": [
+    "geometry_20261115_actual98_same31_temporary_resume.py",
+    "geometry_20261115_thirty_two_query_domain_operator.py",
+    "geometry_20261115_thirty_two_query_condensed_warm.py",
+    "geometry_20261115_thirty_two_query_condensed_response.py",
+    "geometry_20261115_thirty_two_query_collocation_observer_warm.py",
+    "root_20261115_thirty_two_temporary_readout.py",
+    "geometry_20261115_thirty_three_query_domain_operator.py",
+    "geometry_20261115_thirty_three_query_condensed_warm.py",
+    "geometry_20261115_thirty_three_query_condensed_response.py",
+    "geometry_20261115_thirty_three_query_collocation_observer_warm.py",
+    "root_20261115_thirty_three_temporary_readout.py"
+  ],
+  "own_schema_same_job_parent_allowed": true,
+  "domain_operator": "geometry_20261115_thirty_five_query_domain_operator.py",
+  "FD_entry": "geometry_20261115_thirty_five_query_condensed_response.py",
+  "complete_capture_support_unchanged_from_original31": false,
+  "added_capture_intervals": [
+    463
+  ],
+  "added_capture_nodes": [
+    463
+  ],
+  "query_change_reference": "frozen original33 query model",
+  "query_changes_from_initial_actual98": [
+    {
+      "kind": "left-RMS",
+      "interval": 463,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 471,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 472,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 483,
+      "fraction": 0.5
+    }
+  ],
+  "old32_entry_or_search_not_executed": true,
+  "actual118_final_payload_used": false,
+  "actual118_final_payload_recreated_from_hash": false,
+  "actual118_replayed_before_new33": false,
+  "query_count": 35,
+  "unique_capture_intervals": [
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487
+  ],
+  "unique_capture_interval_count": 22,
+  "actual_query_endpoint_nodes": [
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "actual_query_endpoint_count": 26,
+  "complete_B_local_coordinates": 8791,
+  "baseline_C_support_dimension": 4059,
+  "actual118_selection_evidence": {
+    "result": "results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md",
+    "run_id": "43693006085",
+    "source_commit": "bb1d75675dc639f3f1ab74749798a5c11b2ac3a5",
+    "compute_job_id": "132747387808",
+    "last_batch_index": 7,
+    "original_summary_bytes": 43258,
+    "original_summary_sha256": "d996ed38e592b491b95f6e31bb01fd55ff0cbdc820ca45b8c4deac2564bea7c6",
+    "accepted_alpha": 0.00390625,
+    "nearest_rejected_alpha": 0.0078125,
+    "nearest_failed_query": {
+      "kind": "collocation-midpoint",
+      "interval": 483,
+      "beta_squared_minimum": -0.0008413561364628563,
+      "station": 1.2367303492381132,
+      "left": 1.2342381234882334,
+      "right": 1.2392225749879933,
+      "phi": 2.8440003807399785,
+      "angle_index": 927,
+      "negative_count": 4,
+      "nonfinite_count": 0,
+      "middle_input_finite": true,
+      "classification": "finite-original-middle-input-with-nonfinite-original-RHS"
+    },
+    "last_four_nearest_rejections_only_mid483": true,
+    "last_nearest_all32_selected_query_negative_counts_zero": true,
+    "other_mid472_and_larger_step_left463_barriers_not_declared_resolved": true,
+    "old_final_warm_sha256": "46adc694ff2d989e16924c3469ba1d208630406a6e4cb5f338484bd055a540f6",
+    "old_final_status_sha256": "dd24bfeff587a9b73677fffb398ca494ccd6889bfc38361580cf197893011b3f",
+    "old_final_pair_deleted": true,
+    "evidence_only_not_a_current_parent": true,
+    "no_larger_acceptance_or_finite_QP_optimality_guaranteed": true
+  },
+  "original33_domain_baseline_is_hashed_by_current_source": true,
+  "old33_entry_or_search_not_executed": true,
+  "complete_capture_endpoint_and_local_support_unchanged_from_original33": false,
+  "actual130_final_payload_used": false,
+  "actual130_final_payload_recreated_from_hash": false,
+  "actual130_replayed_before_new35": false,
+  "actual130_selection_evidence": {
+    "result": "results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md",
+    "run_id": "43702578242",
+    "source_commit": "690ca0f924f069c6b8c2134ca83bc856918c2e89",
+    "compute_job_id": "132776702379",
+    "complete_pairs": 7,
+    "original_trial_count": 33,
+    "original_rejected_trial_count": 26,
+    "nearest_mid472": [
+      {
+        "batch_index": 2,
+        "alpha": 0.125,
+        "beta_squared_minimum": -0.11046072015586228,
+        "phi": 0.23930100291016002,
+        "angle_index": 78,
+        "negative_count": 4,
+        "nonfinite_count": 0
+      },
+      {
+        "batch_index": 3,
+        "alpha": 0.125,
+        "beta_squared_minimum": -0.018482080555981772,
+        "phi": 0.23930100291016002,
+        "angle_index": 78,
+        "negative_count": 4,
+        "nonfinite_count": 0
+      },
+      {
+        "batch_index": 5,
+        "alpha": 0.25,
+        "beta_squared_minimum": -0.036722737377565595,
+        "phi": 0.21168934872821848,
+        "angle_index": 69,
+        "negative_count": 4,
+        "nonfinite_count": 0
+      }
+    ],
+    "nearest_left463": {
+      "batch_index": 4,
+      "alpha": 0.015625,
+      "beta_squared_minimum": -0.2074104393836982,
+      "phi": 0
+    },
+    "already_selected_mid471_and_mid483_still_fail_on_some_larger_trials": true,
+    "linear_feasibility_does_not_prove_nonlinear_domain": true,
+    "last_original_summary_bytes": 31198,
+    "last_original_summary_sha256": "1070c0d7b70130e1562d99d08ac930a1a22e2dfa438d5c27952644daebacd7d6",
+    "last_warm_sha256": "ca3c849cb2f4712c4d663923634eadc9130243d9d2c151236766a18da6ba6da4",
+    "last_status_sha256": "46099d4260e45705f028707a235e6e83adc5507c4ec3d552248cf2940904e9e7",
+    "final_pair_deleted": true,
+    "evidence_only_not_a_current_parent": true,
+    "actual_rule_change_exit_code": 77,
+    "eighth_complete_pair_unknown": true,
+    "no_larger_acceptance_or_QP_optimality_guaranteed": true
+  }
+}
