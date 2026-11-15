@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成；持续研究，不以阶段结果或时长收尾。**
-- 最近已读规则提交：a012a27a2280e77e401fe089221e4190f5c58768；2026-11-15 14:19:04 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:19:02 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
+- 最近已读规则提交：ef9160d0b4a12673d7e4b7217634bab34a3a4473；2026-11-15 14:23:54 UTC核两README无变。实际CI pull 2026-11-15 14:05:38 UTC/0cf6fbadd99a4d8dd3315e7bc2b722bb2ea660d1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 14:23:53 UTC仍无环境。最迟2026-11-15 14:45 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main，旧库授权789d22af已全文读。完整结论立即推；拒推即pull --rebase重推至成功，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核根/题README；变动只读差异即执行、记提交。root15@708f058a变更已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 最新实际pull run43722439716/job132837121707，回执ci/rule-pull-20261115T140538.json；本地仍无可用执行环境，数学运行全公开Actions。
@@ -12,7 +12,7 @@
 
 ## 完整检查点与分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r767-r768.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–769已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md；open压缩前全文notes/2026-11-15-open-before-r767.md。
+[压缩前全文](notes/2026-11-15-frontier-before-r767-r768.md)沿归档链保所有原常数、十九角、射线、来源、坏集、运行及未闭条件。R1–363、365–560、562–653、655–711、713–770已登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md；open压缩前全文notes/2026-11-15-open-before-r767.md。
 root唯一metadata/ref写者；代理只交proof/script/blob。theta续真实条件五矩/全部浅域及P/Y/t联合；deep续R768实际全局消极及同R；literature核原P58全Schwartz/点域兼O4/O6；root续R769合流矩阵/实际连接。
 固定四次E17及j0 E17/E24/E2312 rank2已付；全Selmer桥保完整Sha，仍须无穷不同p至少一条固定原J′非零。非中央负矩、有限p和附近变化来源均不完成。
 
@@ -54,6 +54,8 @@ R768在b0=degY F(0,Y)>4k+2下给d_k的同零纤维完整Lagrange/非约化留数
 R756全Norm3返回预算3D+ceil((36D+181)/47)，R758任意统一乘子须47m≥36D+65，最优主阶177/47。保19角/G0比值/h→h+a/两jet/全部Gaussian；特定F/子格/非乘法仍开。
 R760新三格(S,T,(S′)^6)，U非U136；trdeg3/复增长1/3、全普通饱和jet≤1已付。惰性仍floor(6kp/(p²−1))及总3klogk，真实全flag严格门aI+3bI<6（或全层cutoffθ<2），尚无中央传播。
 R763付Q=1+xζ/y、U=−t5(1−t)³Θ102B6/b5及Norm3仿射返回；原Γ全ε/ε²与去Gaussian首单位p分母、Q°次位6s t3(v/d)χws保。R769将每个新原列同charge化为Σg_r(t)(−6t∂t)^rΘ^n，原P4^j零点消全部转换极，deg≤5a+11b+32c。实际矩阵Σg_ri[−6(k−i)]^rθ_n,k−i，分母7^(a+b+6c)(2n)^(6c)，p>204D单位；原w/t饱和前缀同、首行差(−1)^k，全flag保。继续同一前缀的惰性界，不将各n/r/i独立、旧WD/Smith或中央零免费搬入。
+
+R770已付实际去Gaussian连接误差C=(p+1)pc χ²ws=p(p+1)pc χ²ε，首普通系数单位；全A_j°递推增2njC A°_(j−1)，保原每列Q平移/指数与完整首Bockstein混合ε²。未赋全原列单位余类，继续同前缀估值。
 
 R707/708 trace前缀、R714/717–725/729 height2/AH/CM仅确定原来源。R716 firstwild边界与j34同零才λ≥p+3；R724整annulus o(p²)未付。R736完整B3/R10404/47整格、whole normalizer与所有偶性/边界核保，Cp v无穷p非零及原中央→边界仍开；完整常数/run/hash按前检。
 O4原低增广a≤1/β(Q)、O6全Np有限/λ≤3与supersingular二次regulator仍开；AST线性和strict局部向量不代全Selmer。

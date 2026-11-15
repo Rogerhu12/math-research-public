@@ -43,3 +43,5 @@
 - [R768](../results/R768-finite-fiber-normal-residue-and-original-global-pole-divisor.md)：已证明在准确b0=degY F(0,Y)>4k+2门下，原normal泛函由同t=0纤维除P外的有限分支读取；monic Weierstrass单位、非约化Grothendieck留数核和w/t单位全保。确定局部代表ω0=(a²/2)q t^(r−k−1)A_k dt/FY在P正则，完整原十九角/∞极由div(e³ω0)+Δ_C−3D_e准确计，极次数≥2κ+χ。真实全局延拓仍须res_E′ω+d_local∈V_E′⊥，没有以局部代表或RR维数付掉它。
 
 - [R767](../results/R767-native-t-moment-and-complete-five-partner-boundary.md)：已证明原t正一的完整Y来源恰−22β^N Dω/21，完整Y/t环带负一行严格非零；同C六角平均后全浅域保H/f1/f3/f4四核，共深t首矩给真实五伙伴M5。每条原条件来源的五坐标由正5/11/17/23/29矩经固定单位三角逆准确读取，全部两算术线/primitive块保；有限完整分割之和回纯Dω。未赋各条件块非零或原中央新零，全部移动门/外补仍在。
+
+- [R770](../results/R770-actual-gaussian-connection-and-complete-first-lift-correction.md)：已证明去Gaussian新仿射坐标的准确连接：DΘ°=2Q°Θ°，DQ°=2t/(1−t)−fQ°−C，C=(p+1)pc·χ²w^s；普通首系数为单位，在原Γ中却恰p(p+1)pc·χ²ε。R769全部合流算子须加2njC A°_(j−1)，完整首Bockstein递推与每条原列的Q平移/指数/混合ε²均付；不把低轴暂时消失的pε项或单基单位删掉、冒全格非零。
