@@ -20,7 +20,7 @@
 
 新covered增长proposal/实际使用全0；m1真实增长属旧legacy pair，m2真factory/2primary使用；m4旧at-cap pair清计数；m2/6保B属旧same-layout17条件hold，expandedhold0。8trial学习全0，fine+93在首model前，不改记新事件。1303memory行重装+377真新cuts；total324.293553086s/active35.064484719s和初验234.362847179s完整保账。禁止重播本阶段等新规则触发。
 
-下一新算法设计见[notes/observed-curvature-defect-primary-guard-design-20261115.md](notes/observed-curvature-defect-primary-guard-design-20261115.md)：m2/6原group8同一实际行负缺陷，按真实y−x映射的共同body范数平方学习两个非负经验γ。仅下一ordinary primary的在域group8 target=max(旧target,旧floor+γB²)；其他数组、实际14门、SOC独立RHS、expanded rebound、learning/fallback及原预算不改。历史binding在旧样本/旧context内部核同，当前只核不变定义，不误要求旧池等于新池。新375入口/同模型冻结pending及完整含B签名正在实现；尚未执行不得称有效，不将经验量称连续误差证书。
+下一新算法设计见[notes/observed-curvature-defect-primary-guard-design-20261115.md](notes/observed-curvature-defect-primary-guard-design-20261115.md)：m2/6原group8同一实际行负缺陷，按真实y−x映射的共同body范数平方学习两个非负经验γ。仅下一ordinary primary的在域group8 target=max(旧target,旧floor+γB²)；其他数组、实际14门、SOC独立RHS、expanded rebound、learning/fallback及原预算不改。历史binding在旧样本/旧context内部核同，当前只核不变定义，不误要求旧池等于新池。新375入口/同模型冻结pending及完整含B签名五源已静态审完（[notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)），仅四组18新增人工和一次新阶段待公开执行；尚未执行不得称有效，不将经验量称连续误差证书。
 
 ### 仍须支付
 

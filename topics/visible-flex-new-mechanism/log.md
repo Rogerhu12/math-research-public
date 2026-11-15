@@ -317,3 +317,8 @@ tail_cost独立纸核§1–2：D/Σ全部因子、principal相消、四j紧导�
 ## 2026-11-15 21:51:50 UTC｜R388扩大同芽障碍到任意连续首阶轨道
 
 [R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)，16738B/hashf0a0d93826cb30fee6fa3dd1e5a1a5cb411548a14e9df23241b1708bf4cb5a7b。原R184/R224/R306/R311/R325逐参数接口与两完整one-history row保真，不除P。严格正多项式消元迫u″²=f″²，连通C²首阶轨道点态符号恒定。根全文/weak IBP/R0原系数手核，peer确认两row与全部gauge范围；仅文字修正，不执行符号/求积/人工。H/open已停止把同芽非圆视作新入口，转有理芽同规范joint及独立Q4线；大κ安装/高阶才动/主题一般C²不被宣排。基底6f6ae85b05d4c717bc2b80601c6e5d603dc9a0a2。
+
+
+## 2026-11-15 21:55:56 UTC｜guard五源与首次入口安装（未执行）
+
+[notes/observed-curvature-defect-primary-guard-implementation-20261115.md](notes/observed-curvature-defect-primary-guard-implementation-20261115.md)，8945B/hash8a36fb71…；core35055B/d04e56fd…、outer48568B/4a3b6dde…、dev29288B/4be459de…、transfer20945B/7ac5f872…、audit31920B/df8eb689…。4新组18项(5/5/4/4)只人工数组，旧20/19/26/cache不执行；actual算法尚未运行。根全文/outer逐diff核，tail独立核transfer/audit接口。开发375构造的局部依赖mock明确人工、退出恢复，生产链不patch冻结源码，设计已精确化。新workflow4305B/hash199af979…先actual pull及双规则核，request另行触发，所有新科学仅公开Actions。H/open同步；仍未完成。基底2f785827f9120c0152b672a8a4bea51511d6bc48。

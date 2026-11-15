@@ -251,7 +251,7 @@ Norm bank的context只依原coordinate/reference/factorization/grid/epsilon；so
 4. frame_metric_curvature_defect_guard_transfer.py：root负责唯一原log读取、原checkpoint和两sample恢复、paid source闭包核。
 5. frame_metric_curvature_defect_guard_audit.py：root负责四类新入口/实际audit/输出及request/workflow。
 
-Recovery保持原参数名与返回结构，增加独立metadata。不得monkeypatch冻结模块或覆盖旧tag冒旧source。没有新增primary/SOC solve入口，也不改变共享ledger ceiling的try/finally恢复。
+Recovery保持原参数名与返回结构，增加独立metadata。生产恢复链不得monkeypatch冻结模块或覆盖旧tag冒旧source。新增构造人工可在局部context-manager内临时替换基础依赖以隔离新入口，退出即恢复且明确标记人工；这不修改任何冻结源码，也不进入实际恢复链。没有新增primary/SOC solve入口，也不改变共享ledger ceiling的try/finally恢复。
 
 ## 9. 仅覆盖新逻辑的开发范围
 
