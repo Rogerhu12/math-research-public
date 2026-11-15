@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 根值剥离的完整 old-circle 源合并入口（2026-11-15）**：44仓库pin+9原artifact文件逐字复用原27pin和root/directed两原件，仅消费1036新导数行的完整九词/五mean，3323原source payload及其大半径summary逐字保。完整算子分别取同一w1的两个合法上界之小者，不改物理对象或丢mean/seam。SCI314c092b…、manifestbd17d377…；公开Actions待actual，未授正weighted端口、完整seam修正或strong-return。
+
 - **R133 连续伴随四闭区间的完整97 signed Gram actual（2026-11-15）**：[实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)。43664278200 child0/9门、42.4305s，quarter0/64/4096/7907保完整mean、无限系数误差、真实Hermite交段与Hessian转置；0target/旧QR。四格true ordinary Gram trace上界分别1.244641e−28、9.983373e−9、4.844180e−25、7.886543e−33，完整矩阵符号交叉项原样保。只授四格，后继复用并补7904及全边界/high输出，不外推全帽或参数Schur。
 
 - **R133 十二阶 old-rho Airy Taylor actual（2026-11-15）**：[完整报告](results/R133-supplement-actual-append-only-old-rho-Airy-Taylor-through-twelve.md)。43664023495 child0/19门，89pins、75旧stage逐字保、新205stage和287完整发布文件；0旧target/FFT/cubic/aux/output重算。相同fixedη0/复δ≤1e−8/内窗9e−6，forcing/w1到12、leading14，完整支持a1±2496/b1±2688。width1/512 raw local pair<68.712280537/13452216.620035，normalized<3.701070441/724580.830344，分别保sup/Wiener，均未授完整operator source或strong-return。
