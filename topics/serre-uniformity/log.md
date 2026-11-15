@@ -195,3 +195,8 @@
 ### 2026-11-15 23:23（Asia/Taipei）｜serre-public-astra-20261115 · 实际规则pull与运行
 - 15:22:09 UTC rules run43714581068/attempt12/job132858526823实际git pull --rebase到8142567c288c4731b5d40b81d350a399fec24028；两README无diff，已记H。
 - R824 run43729293174/job132857969568/source87c131f1已启动，AST成功，真实源IO/数学仍待；新增本课题.github两项R824/R825 workflow用于公开原计算，其中R825只有pending请求。
+
+### 2026-11-15 23:27（Asia/Taipei）｜serre-public-astra-20261115 · R827更小完整证书
+- 新推论已证明：τ整仿射图多项式满射＋σ的∞纤维实际272阶minor足够；全球Φ与局部Nakayama排尽特殊纤维余商，再用proper提升，省第二图全HNF。
+- σ仅需q+1阶初始/算子jet逐次降精度；τ不能换成有限点rank。最终proof ccb5380582f25170e66fed68d08162f1244341850b5f0ee92e48da2177e65caa；无新数值、实际q仍待。
+- 首推接口错误后立即实际pull/rebase至ddbd2bf535655f1ad9b6c8167dd76ce5c7145b5f（2026-11-15T15:27:39.996553+00:00），两README无diff，重新基于最新main提交；R824仍进行。
