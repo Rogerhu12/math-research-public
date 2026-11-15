@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 11:58:36 UTC实际pull后已读规则提交：`985e20ff90aeed2af2ebb49a2c2130cae20cdaff`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 12:00:53 UTC实际pull后已读规则提交：`624ef5b52b2bd30309b0276bdab93f9a85f827b7`。11:38 pull/read708f058a9442982a08ad3f04b5cce853623ce93e根15仅新增另一课题1457个gz/npz清理记录，已只读该差异；本题无变。每次pull --rebase后立即核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每条结论即commit/push，NFF立即pull/rebase、核规则、再推直到成功，不force。新根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 11:30:58 UTC实际pull/read `839ca22109ee06130136ded8f5d1b1e24bfeeb45`；根blob5ba164843b1f5802184178a82d786264404873a3无差、本题README不存在、QUEUE唯一行仍本会话进行中。失联期间API检查从未冒称实际pull，恢复后公开/私有均已补。
 
