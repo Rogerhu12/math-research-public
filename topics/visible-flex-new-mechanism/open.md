@@ -18,9 +18,9 @@
 
 两次未接纳主步准确由曲率越界拒；新归一SOC均最优且有有限primal，原单位残差0/1.06e−22、随后两网实际门通过。其同点曲率行余差由约1e−7降至1e−10。活动101.822s、全process720.832s（含必要准备606.942s），12LP计数退出；细Jac66.022s仍主导，不能只报SOC约.78秒或再延同预算。缩放保原准确LP可行/最优集，不保证同浮点轨迹，不能反推旧超时唯一成因。
 
-**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。[103列完整支持证明](notes/same-g-entry-body103-support-20261115.md)已完成：S=[0,54)∪[81,129)∪{153}，保60原列；W2/W5的完整ramp与入口O(x5)/O(x8)、Q止.36、逐圈Π使[0,tc]及[.765,L]外域六jet严格不变，.78曲率峰保持。轴上T值固定不代表角原函数或E固定。下一设计一个真正新的局部约束求解；先保外域软余量聚合下界与所有原实际硬门，常量硬行/帽高只按原容差，不能向零Jac行加正floor制造伪不可行。固定高度给R59/R60平均速度下界，在下一必要初始化同次读b，不为遗漏标量重跑旧实际。
+**决定性新状态：末metric峰移至t=.09、theta=3pi/2。** 既有34体段列在此六jet准确不动，所以不能单独严格降低当前全域max；不派发此strict-max子族。[103列完整支持证明](notes/same-g-entry-body103-support-20261115.md)已完成：S=[0,54)∪[81,129)∪{153}，保60原列；W2/W5的完整ramp与入口O(x5)/O(x8)、Q止.36、逐圈Π使[0,tc]及[.765,L]外域六jet严格不变，.78曲率峰保持。轴上T值固定不代表角原函数或E固定。[新103受限算法](notes/same-g-entry-body103-restricted-step-design-20261115.md)源码已完成并提交首轮公开lane：r=cap1/4000、streak0，原12LP/40共享值/120活动秒，fullJ仍163；外域完整双soft给rho_out、常量hard/帽高只用原tol，inside零J保留，proposal正floor仅可变域，每轮固定域锁峰在J前退出。SOC只对新受限数组作准确正缩放等价。helper/lib/driver全文及最终人工已过；当前无新科学下降结论。固定b/平均Xs下界在本次必要初始化同次读取，完整原两网门及初末同态值输出；总下降1e−4仅诊断参考，未达到也不重跑延同预算。
 
-旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)与源码全部保留。后继只为必要输入各恢复一次growth→strip→SOC，完整状态/池/g/b0/实际控制器继承、成本分账，不强求任何旧canonical/hash。全连接同g精化、全域/全时reach与宏观幅度仍欠。
+旧[physical](notes/physical-step-cost-first-actual-result-20261115.md)、[growth](notes/trust-growth-recovered-actual-20261115.md)、[strip](notes/strip-reserve-first-actual-20261115.md)、[读取失败](notes/trust-growth-observation-failure-20261115.md)与源码全部保留。后继只为必要输入各恢复一次growth→strip→SOC，完整状态/池/g/b0及旧实际控制器如实记录、成本分账；103新阶段另明示r/cap1/4000、streak0，不继承旧fullspace控制器或强求任何旧canonical/hash。全连接同g精化、全域/全时reach与宏观幅度仍欠。
 
 ### 仍须支付
 

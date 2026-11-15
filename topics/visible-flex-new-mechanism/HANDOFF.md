@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:47:33 UTC实际pull后已读规则提交：`0225922d3c0762e62625f54d17e1279797049cfa`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:51:43 UTC实际pull后已读规则提交：`10823fd392de410f3d80388c1dd8dc79e7ba79ce`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 07:31:07 UTC实际pull至`7d82f4fd0f51441985003c68c6e6204fe3c28311`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **最新SOC actual43687834522/sourcef03c4eb/job132731961031全部已读**，见notes/soc-equivalent-scaling-first-actual-20261115.md。必要growth→strip恢复643875e4→267c41ff；新10主+2SOC/12LP、10真实接纳至ec76df0b4d8c47521da5121904aa711db23a578e1a8f567d6020be0de6149664，η .26652303622182338→.26651100522045557，.26未达；fineκ57.999989440433026、strip余3.88794e−8。两SOC有限最优、原单位残差≤1.06e−22且真实曲率门修复；缩放只保准确LP双射，不保证浮点轨迹。全部trial/96defect/dual/初末门/同态加密/开发及receipt48047-cec2754f已读。活动101.822s、全程720.832s（必要准备606.942s）、fineJac66.022s；末池4417/3988、r约1/32000/streak1。det=q⁴(λ±κ1)(λ±κ2)/10000，floor非曲率余量。保原g/b0/163/原门；payload只临时，不为日志或旧hash复跑。
 
-**末最大metric峰已移到t=.09，34体段列不能严格降低当前全域max。** 原B7/B8共34列支持[.198,.684]/[.279,.765]，外域六jet严格不变，证明见notes/same-g-body-tangent-columns-and-locality-20261115.md。103列纸核已付，见notes/same-g-entry-body103-support-20261115.md：S=[0,54)∪[81,129)∪{153}，完整W2/W5 ramp、入口O(x5)/O(x8)、Q止.36、全六jet在[0,tc]及[.765,L]不变；轴上T固定不等于ΠT/metric固定。下一新受限模型保外域软下界，不向零Jac常量行请求新正floor；固定高度平均速度下界按R59/R60，只在下一必要初始化读实际b，不重已结科学。尚无下降结论。
+**新103受限lane已提交、待公开首轮。** 旧末峰t=.09使34体段列strict-max路线退出。支持证明notes/same-g-entry-body103-support-20261115.md：S=[0,54)∪[81,129)∪{153}，W2/W5完整ramp、入口O(x5)/O(x8)、Q止.36；[0,tc]∪[.765,L]六jet固定，轴上T固定不等于E固定。新设计notes/same-g-entry-body103-restricted-step-design-20261115.md，helper09f91a1d/lib7054eaa6/driver90a03cea已全审，最终新开发834d6d1e全部通过。只恢复growth→strip→SOC各一次必要输入，原g/b0/163与全池保留；新r=cap1/4000、streak0，12LP/40值/120s。外域完整双soft聚合rho_out、常量hard/帽高按原tol；inside零J不删，正floor仅可变域，锁峰在每轮J前退出。SOC缩放等价只指新restricted数组。固定60逐位/真实缓存API/原行映射/唯一stage+失败checkpoint已付；fullJ仍163。下一实际同次读固定b/平均Xs下界及所有原门，1e−4只总下降诊断参考。不得复跑追ec76或补旧标量。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 

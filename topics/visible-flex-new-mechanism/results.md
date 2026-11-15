@@ -187,3 +187,5 @@
 - [R216：单个四阶平点已保留完整常态ruling障碍](results/R216-fourth-ruling-obstruction-at-a-single-flat-state-point.md)：R56有限jet表与同右锚、真实W2/W3入值冻结给K″=2常态σ²系数；该jet泛函杀整个三矩W及全部二阶/第三gauge响应。标准原八包及其已付光滑邻域全宽度严格排除扩到单点，任意固定状态保充分共同窄化。R214无开常段/全pure定理不受损，但flat拼口未避ruling门；新profile或非平拼口须另付真实条件。无旧计算复跑。
 
 - [R218：共同偶非平端口与精确全pure控制](results/R218-common-even-nonflat-germs-and-exact-universal-pure-control.md)：全部外/内部拼口在真实s下统一h=h*exp(εσ²)，倒行/正H/桥与有限词兼容。当前实际坐标与固定物理collar支付变长参数；端速度0使R129全端势/N2消，M0消N0初势修正，成本仍原U。原语九行IFT/结构T词/全P IFT准确保全部低阶、pure目标与Klein新位移闭合，所有标记拼口h″>0且可去开常段。未宣全域无4-flat或完整ruling可解。
+
+- [同g103列受限主步与SOC的首轮设计](notes/same-g-entry-body103-restricted-step-design-20261115.md)：原全163态/固定60/同g，103阵列投影保原IDs与fullJ；外域两soft给精确rho下界、常量hard按原tol、可变域独用正floor。新r=cap1/4000与原预算明确，三段只恢复必要输入各一次，最终完整门/固定域/高度与总下降参考直接日志。新人工和源码接线完成，首个真实公开结果待读；不授下降、收敛或连续reach。
