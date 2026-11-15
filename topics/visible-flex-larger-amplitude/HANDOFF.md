@@ -36,9 +36,9 @@
 
 [119八批实际](notes/2026-11-15-actual119-eight-batches-and-weaker-last-response.md)run43693462669/source6fffce1f/compute132748791692/report132749530039成功，8批各原8方向全接受、显式批数停止。W1056.4579275781534→739.9479122854005，末unit首项−38.46941285550693；unit/full112/native/nonzero/success全false。末3×6最小奇异3.2653479765584335、前三列.41668210491439717、radius.00078125，不推导无根/极小/秩丢失。全部trial/FD/scalar/零circle已读，正常可选省略有身份非over-budget；真实status→summary→recipe，raw已删。117及119全数值/身份见正式note。
 
-121从第8批真实六末p重启独立8批，各radius=.1；原e154/79464/3e2c、24闭包/8×20/12×20/final不变。末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd。geometry五件已冻结/tmp/visible-six-control-batches121，root待读/发布；不能hash伪恢复raw。
+121从第8批真实六末p重启独立8批，各radius=.1；原e154/79464/3e2c、24闭包/8×20/12×20/final不变。末recipe1568B/cb2e9c83、summary77719B/74926bcb、status1977219B/33e7b1fd。[121五件已发布](notes/2026-11-15-actual119-to-six-control-batches121-interface.md)：wrapper8ac33f77/recipe cb2e9c83/requestae4d1b17/workflow8f5ea35d。84源及实际HEAD/原24闭包已核，原reader117正常省略非失败、true status→recipe保持；3600s仅批间、step75/job90min，尚无121run，不能hash伪恢复raw。
 
-[120完整请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)六件已root全文读并发布：wrapperef4e977c/reader3f22a074/recipe1b9f8dc7/request6006acdf/workflowd6ffd544，99源绑定实际HEAD+新2源。选119第3批真实末p（非第8），summary73546B/4ec08e23/status1568824B/10c31f1d；前三列最小奇异23.479971346554226仅作初猜依据。λ=.001只缩前三core目标/对应初猜，不缩scalar。入口807f、client1cdf0e14、原01930无initialCheckpoint；4输入/2历史ready/78源真实恢复。三odd固定/三p active，453全态/高109自由；真当前H+完整J→原FD→同owner原banded/core/native/finalJ+audit，全部原门。300min部分运行/330step/350job、2700s规则、90KB诚实摘要后清临时，无raw上传。尚无120run/非零接受；低三阈值不作启动门，成功后冻全六设计转450维same-g。
+[120完整请求](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)六件已root全文读并发布：wrapperef4e977c/reader3f22a074/recipe1b9f8dc7/request6006acdf/workflowd6ffd544，99源绑定实际HEAD+新2源。选119第3批真实末p（非第8），summary73546B/4ec08e23/status1568824B/10c31f1d；前三列最小奇异23.479971346554226仅作初猜依据。λ=.001只缩前三core目标/对应初猜，不缩scalar。入口807f、client1cdf0e14、原01930无initialCheckpoint；4输入/2历史ready/78源真实恢复。三odd固定/三p active，453全态/高109自由；真当前H+完整J→原FD→同owner原banded/core/native/finalJ+audit，全部原门。300min部分运行/330step/350job、2700s规则、90KB诚实摘要后清临时，无raw上传。实际run43694844403/sourceace38440324f09471482826136584da38960c417，08:30:44UTC创建，API in_progress，未读科学结果；低三阈值不作启动门，成功后冻全六设计转450维same-g。
 
 ### 118补真实midpoint471，运行中
 
@@ -60,4 +60,4 @@ same-g v4冻结g/全p/t范围，K=k=0/activep空/T=M/state4M+2；699二分1397+k
 
 ## 维护与重做范围
 
-已完成95–117各结果在正式note，113及118运行/119已结清/120已发布待实际run/121待root发布。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。
+已完成95–117各结果在正式note，113/118/120运行、119已结清、121已发布待实际run。104普通清理后题168796207B，未知JSON未全分类；旧raw不重存。102v3顶层writer装饰差异不添复算门。旧log/open检查点保历史。未推稿仅/tmp的后继源/接口，原件若已清理按配方真实重建，不伪恢复。每条新结论立即note/H/open/log并push，再接下一项。

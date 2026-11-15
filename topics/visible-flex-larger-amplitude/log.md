@@ -181,3 +181,9 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 08:30:20 UTC /root — 发布120真实第3批参数的正λ完整112实验
 
 [120接口](notes/2026-11-15-request120-actual119-batch3-positive-lambda-full112-interface.md)9512B/37f8b33f、两source/recipe/request/workflow均已全文读；核99源缓存SHA与实际HEAD Gitblob及新2source，实际119第3批原参数/摘要身份逐字相等。wrapperef4e977c/reader3f22a074/request6006acdf/workflowd6ffd544保原807f/1cdf0e14、4数学输入+2历史ready+78源、真当前H全J/FD/原fullDN全部门。λ=.001仅缩目标与一阶初猜，不缩六scalar；原300min墙钟只报告partial，90KB超限不冒完整。无本地科学/未来run预填/raw上传。H将已结清117/119/110重复值缩至正式note，保五标题与全部未付责任；继续121/JVP源及实际读回。
+
+## 2026-11-15 08:31:37 UTC /root — 120实际启动及121真实六参数续接发布
+
+120 run43694844403/sourceace38440324f09471482826136584da38960c417，08:30:44UTC创建，API in_progress，未报科学结果。发布120的并发ref拒绝已由helper立即实际pull --rebase重推成功，双README仍原blob。
+
+[121接口](notes/2026-11-15-actual119-to-six-control-batches121-interface.md)12296B/428cc4a2及四件完整差异已读。wrapper8ac33f77/requestae4d1b17/workflow8f5ea35d；84原/新源SHA与实际HEAD核过，20旧函数/类不变，仅四函数的来源/标签改变。新1568B recipe cb2e9c83实际逐值/身份与119第8批及chain相同；原可选省略表也逐字相同。原六维全部科学与final门保留，.1 reset/独立8批/3600s批间/75-90min无改。无本地科学、raw上传、未来121run或成功预填；继续原113/118/120及有限trace方向源。
