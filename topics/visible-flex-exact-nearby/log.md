@@ -267,3 +267,11 @@ P22实际mixed-root/graph1026源域与fixed-t S2严格区分；P28完整有序�
 部署前已修CI原大process人工碎片：完整原字节单件留artifact/original-processes，不重压缩/重编码，repo仅≤60000B实际摘要。自动选择验证实际artifact native/source/worker/manifest/phase/child0或已证reuse/全部gates，不以workflow结论代替数学；原失败数学只留拒选据，不重算。compose允许本run cap出版失败后先读实际artifact，由completed_cap严格门决定是否可算；SCI本身未改。精确HTTP Content-Range只取原native/process/最终97数组，不转发token到签名URL，不虚报整包hash。
 
 另亲读43665656138 range00 process14234B SHA492fdc9210fd42002bc61437bc0f3f29e8a0220625d1c3dd829598da025edf3b及summary3453B SHAa897352280dd49950facd728af52358919f05e3aeacbd28f022435f9bf62cff4；实际child0/3门/246新（原0/64排除），native1662803B cb7d64d9b5938d484a762015b3ac79e8bfcb53bad4a16a9c7056656fc05b6947，1000.87014349s。此仅已列range，未冒称全7908。末真pull02:22:06.050773→5b629ac4dc25b572121e60ca688901c3855ea3c0，两README diff空。本次只读核ab7669c47ea7116bcd7f9b40b6b6a5c015d09779未变。
+
+## 2026-11-15 02:35:38 UTC — S1–24 shifted Sobolev 完整残差桥与同尾Schur
+
+新解析正文17679B SHA6812a8a61b00d6bd4b7c15d47365f728460db3a22f21d04643adfe7da447780a独推。根已亲读原G完整角规范、local triangular L1–10、continuous C4–35、allmode C24–28和L3–13/U完整窗；tail窄核S2/S13–24通过。完整moving residual degree96仅用于系数，193个原系数/同Φ的Aσ全输出给Rhat<2^16、Rhatθ<2^26；Gz普通/divergence、真B0与全rank-one mean给Kz<2^64。真实小K<1/64与operator-valued signed-lag在ℓ²(radial-sup)上继承，σ1/128、M2^256得差<2^-166、通常物理M_s逆<2^262145。负阶density adjoint与fixed-r链式收费，未授radially varying pullback保持moving ℓ²sup_r。
+
+Cf完整state来源L8，乘残差逆后<2^400000；与原U的TB2^1600000/sB、QZ2^(64+65536)sBε联立，sB准确消，反馈<2^-31000000。原F必须保a′=DA[h]、aRφ及端点phase；固定η0δ0/Fcov范围明确，fullδ/analytic224/内体high/ν非线性未宣称已成。所有新界为显示代数与原已证常数的演绎，无新数值实验。
+
+H9850B完整存notes/2026-11-15-handoff-before-shifted-Sobolev-and-whole-rootpiece.md SHA1ae76dc57b29521b70c61540fac3dc091f8ff136b7a3bfc6620b697f6f0e573d后缩写旧adjoint历史，全身份原文保。本次只读README核2f423a78f943016aeabfd8efda2794880e27dad1两blob未变，真pull仍另按原worker记录。
