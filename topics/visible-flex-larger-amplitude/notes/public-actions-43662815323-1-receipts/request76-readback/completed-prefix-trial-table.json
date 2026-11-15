@@ -1,0 +1,1149 @@
+{
+  "schema": "completed-twenty-four-prefix-artifact-readback-and-byte-audit-v1",
+  "source": "original model-000.json, no evaluation",
+  "before": {
+    "node_domain_failures": 0,
+    "midpoint_domain_failures": 0,
+    "boundary_finite": true,
+    "finite": true,
+    "original_uniform_phi_rho_guard_valid": true,
+    "original_rho_guard_angles": 4096,
+    "original_uniform_phi_rho_min": 0.16604058243274977,
+    "boundary_domain_error": null,
+    "complete_trial_RHS_recomputed": true,
+    "all_core_states_identical": true,
+    "all_control_states_identical": true,
+    "left_residual_max": 0.0,
+    "physical_collocation_max": 0.007108873959470118,
+    "complete_boundary_max": 2.4130581390514712e-08,
+    "constant_collocation_max": 0.0,
+    "original_RMS_query_domain_failures": 0,
+    "original_RMS_query_checks": [
+      {
+        "fraction": 0.17267316464601146,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      },
+      {
+        "fraction": 0.8273268353539885,
+        "points": 698,
+        "invalid_count": 0,
+        "first_invalid_points": []
+      }
+    ],
+    "read_only_midpoint_observer": {
+      "evaluate_call": 1,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "original_reported_midpoint_failure_count": 0,
+      "observed_nonfinite_midpoint_rhs_count": 0,
+      "bad_midpoint_indices": [],
+      "original_whole_flow_recomputed": false,
+      "original_Jacobian_recomputed": false,
+      "original_returned_finite_or_merit_changed": false,
+      "original_returned_finite_unchanged": true,
+      "original_returned_residual_bytes_unchanged": true,
+      "points": []
+    },
+    "read_only_collocation_location_observer": {
+      "evaluate_call": 1,
+      "original_require_rms": true,
+      "original_returned_finite": true,
+      "complete_physical_maximum_defined": true,
+      "full_physical_entry_count": 235924,
+      "finite_physical_entry_count": 235924,
+      "physical_maximum_undefined_reason": null,
+      "model_weights_available": true,
+      "original_returned_finite_unchanged": true,
+      "original_returned_residual_bytes_unchanged": true,
+      "original_returned_collocation_bytes_unchanged": true,
+      "full_physical_argmax": {
+        "interval": 461,
+        "left_node": 461,
+        "right_node": 462,
+        "left_station": 1.139533544992796,
+        "right_station": 1.1445179964925558,
+        "existing_midpoint_station": 1.1420257707426757,
+        "interval_length": 0.004984451499759901,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        },
+        "original_residual_row": 155819,
+        "signed_value": -0.007108873959470118,
+        "absolute_value": 0.007108873959470118,
+        "original_vector_value": -0.007108873959470118,
+        "original_array_components": {
+          "y_left": 0.21357012460811153,
+          "y_right": 0.20642151410115567,
+          "f_left": -0.009985787393385733,
+          "f_right": -0.006073579660221965,
+          "f_midpoint": -0.007943308743528166,
+          "middle_state": 0.20999338182842073
+        },
+        "frozen_model_row_weight": {
+          "available": true,
+          "original_residual_row": 155819,
+          "value": 199.04282150515004,
+          "model_weight_call": 1,
+          "base_evaluate_call": 1,
+          "original_weight_array_identity": {
+            "shape": [
+              236036
+            ],
+            "dtype": "<f8",
+            "sha256": "4261d73fa3e0bc44f059a97366703e4e94714553f718c40c36273fcfb2b2a00f",
+            "bytes": 1888288
+          },
+          "read_from_original_returned_weight": true,
+          "recomputed_from_trial_fmid": false,
+          "base_midpoint_RHS_component": -0.007943308743528166,
+          "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+        },
+        "original_scalar_maximum_if_reported": 0.007108873959470118,
+        "equals_original_reported_maximum": true
+      },
+      "complete_residual_argmax": {
+        "kind": "physical-collocation",
+        "original_residual_row": 155819,
+        "signed_value": -0.007108873959470118,
+        "absolute_value": 0.007108873959470118,
+        "interval": 461,
+        "component": {
+          "state_component_index": 1,
+          "family": "radial",
+          "mode": 1,
+          "angular_frequency": 2,
+          "angular_basis": "cos"
+        }
+      }
+    }
+  },
+  "original_model_scalars": {
+    "iteration": 0,
+    "fixed_weight_merit_before": 43.67031770334245,
+    "damping": 270.0,
+    "accepted": true,
+    "actual_coefficient_direction_max": 0.00013710101466050568,
+    "selected_angle_row_count": 49152,
+    "execution_wrapper_source_sha256": "f6639751ea97bd857ad05ad0a36d38d11024dac25f6ecc0610fef2d9fe90cf35",
+    "mathematical_producer_source_sha256": "b453b53d4ae759e0bc50d5d789beb04e53c18903adaf427c2a28c0382827d452"
+  },
+  "all_original_trials": [
+    {
+      "alpha": 1.0,
+      "actual_model_slope": -0.38090637568030233,
+      "predicted_unregularized_merit_reduction": 0.3228430251383855,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 0.000674761767456275,
+        "maximum": 2.6758115862880385,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 4.579669976578771e-16,
+        "maximum": 2.5248984777817056,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 7,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 2,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 7,
+          "observed_nonfinite_midpoint_rhs_count": 7,
+          "bad_midpoint_indices": [
+            475,
+            477,
+            479,
+            480,
+            481,
+            485,
+            486
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 475,
+              "station": 1.2072539807467981,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.06540999283066884,
+                "angle_index": 195,
+                "phi": 0.5982525072754,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.1352960023743381,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00475.npz",
+                "sha256": "4f651b9a46da2e3cdfd4b99b3d64ff0f7d26e9aedf9e0b4e553f98bd7a92eaba",
+                "bytes": 9619,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "eec8c77302f3bf151236528045254d95d32aca6a067fce371d4e924de5bed32a",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 477,
+              "station": 1.212238432246558,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.04526581177154054,
+                "angle_index": 828,
+                "phi": 2.5402721847386216,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.1467982630302049,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00477.npz",
+                "sha256": "676dab02ad4a8a76c683b3d0c196a694e2ca062fce07edd4c56750af904f6f4e",
+                "bytes": 9629,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "327a2e2d9f4283adee798b14725f0b45f85a9554e097c27b03cea7a68150f4ae",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 479,
+              "station": 1.217222883746318,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.07278247746459399,
+                "angle_index": 894,
+                "phi": 2.742757648739526,
+                "negative_count": 12,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.15497644012323566,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00479.npz",
+                "sha256": "b706c66deb59e98866c4b8bb88f3ca01be0a5c2510f7c1af4df69068306f8023",
+                "bytes": 9580,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "2fd16f37cf7af3e91527e711c7b2d0c168e6c98b09edd3d77ecffc398efb2993",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 480,
+              "station": 1.2217769947388337,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.10947242993447226,
+                "angle_index": 840,
+                "phi": 2.5770877236478773,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.16144234386484468,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00480.npz",
+                "sha256": "c81e1e1ef81d28311f900b7510f7e06dd87428ad6bd354ef62eeba9c8b041386",
+                "bytes": 9674,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "5455a0b6772f20ce6e7427dd8de3f38702576e80aadaf7de7acdf768028812ca",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 481,
+              "station": 1.2267614462385934,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.10020124732388291,
+                "angle_index": 137,
+                "phi": 0.4203107358806657,
+                "negative_count": 8,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.17206792379578376,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00481.npz",
+                "sha256": "836c5776bd7aa131ebc93a3210c4324a7f6cba52153ff5c7aad83a0f678f0170",
+                "bytes": 9671,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "b24760afc883fb35083545160f5c65fbb0a9e5bb71d651555b1b2845524b76be",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 485,
+              "station": 1.246699252237633,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.07461019985007522,
+                "angle_index": 1020,
+                "phi": 3.129320807286708,
+                "negative_count": 12,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.2143624703343546,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00485.npz",
+                "sha256": "f0d4fe305156082dfc5b1326ebf78f1d911e2ae8c9d92007c56897352f459c78",
+                "bytes": 9655,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "93fdad0bc62bcd162bbe21509b8c7de9e94a29e11ed45fc486497e03e9370360",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            },
+            {
+              "interval": 486,
+              "station": 1.2516837037373927,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.044560585532574803,
+                "angle_index": 988,
+                "phi": 3.031146036862027,
+                "negative_count": 20,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.22763194333107753,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0002-midpoint-00486.npz",
+                "sha256": "f23075a7f1d0ac958fac5877460bc5f5ea686094a12ce4c3dcad42a8d8a28b2a",
+                "bytes": 9638,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "3b8b7db1d630a74ab311397b8e1883901ae2f46d60a51e8c01740dbbde48c9de",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 2,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 233558,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 24,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.6831892718719108,
+            "angle_index": 43,
+            "phi": 0.13192234775816514,
+            "negative_count": 24,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "station": 1.170300935005843,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.23095087282861293,
+            "angle_index": 948,
+            "phi": 2.9084275738311756,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "station": 1.175285386505603,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.3675700956572088,
+            "angle_index": 108,
+            "phi": 0.3313398501832985,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "station": 1.180269838005363,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.2074700735803865,
+            "angle_index": 109,
+            "phi": 0.33440781175906975,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "station": 1.1852542895051228,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.21325545976020388,
+            "angle_index": 894,
+            "phi": 2.742757648739526,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "station": 1.1902387410048825,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.07826245247591146,
+            "angle_index": 894,
+            "phi": 2.742757648739526,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "station": 1.2059041600041278,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.07291487531109109,
+            "angle_index": 829,
+            "phi": 2.543340146314393,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "station": 1.2108886115038877,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.049753926186500985,
+            "angle_index": 196,
+            "phi": 0.6013204688511713,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 12,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "station": 1.2251299015032016,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03346918665442389,
+            "angle_index": 136,
+            "phi": 0.4172427743048944,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 15,
+          "kind": "left-RMS",
+          "interval": 485,
+          "fraction": 0.17267316464601146,
+          "station": 1.2450677075022412,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.08479006909932929,
+            "angle_index": 1018,
+            "phi": 3.1231848841351653,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 17,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "station": 1.2072539807467981,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.06540999283066884,
+            "angle_index": 195,
+            "phi": 0.5982525072754,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 18,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "station": 1.212238432246558,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.04526581177154054,
+            "angle_index": 828,
+            "phi": 2.5402721847386216,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 19,
+          "kind": "collocation-midpoint",
+          "interval": 480,
+          "fraction": 0.5,
+          "station": 1.2217769947388337,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.10947242993447226,
+            "angle_index": 840,
+            "phi": 2.5770877236478773,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 20,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "station": 1.2267614462385934,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.10020124732388291,
+            "angle_index": 137,
+            "phi": 0.4203107358806657,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 23,
+          "kind": "collocation-midpoint",
+          "interval": 485,
+          "fraction": 0.5,
+          "station": 1.246699252237633,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.07461019985007522,
+            "angle_index": 1020,
+            "phi": 3.129320807286708,
+            "negative_count": 12,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-00-all-selected-angles.json.gz",
+        "sha256": "8429ffb37ed7e1804b63c5663d93197302a8cd5c3478b7eff79749386cd3565f"
+      }
+    },
+    {
+      "alpha": 0.5,
+      "actual_model_slope": -0.38090637568030233,
+      "predicted_unregularized_merit_reduction": 0.17593735020467197,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "selected_linear_beta_squared": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 0.0010121426509067596,
+        "maximum": 1.5416230538859164,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 0.0003373808837281375,
+        "maximum": 1.3379057931440193,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 3,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "original_reported_midpoint_failure_count": 1,
+          "observed_nonfinite_midpoint_rhs_count": 1,
+          "bad_midpoint_indices": [
+            486
+          ],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": [
+            {
+              "interval": 486,
+              "station": 1.2516837037373927,
+              "fraction": 0.5,
+              "middle_input_finite": true,
+              "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+              "physical_angles": 2048,
+              "original_beta_squared": {
+                "finite_count": 2048,
+                "nonfinite_count": 0,
+                "minimum": -0.02459725597153306,
+                "angle_index": 47,
+                "phi": 0.14419419406125028,
+                "negative_count": 4,
+                "zero_count": 0
+              },
+              "curve_curvature_at_reported_minimum": 0.2298388442380451,
+              "raw_original_arrays": {
+                "file": "midpoint-observer/evaluate-0003-midpoint-00486.npz",
+                "sha256": "38a0fe0311d0b9794352c96f3b88351a995aa463ef378218090eaac3c10443a3",
+                "bytes": 9626,
+                "nonfinite_original_bytes_preserved_without_JSON_quantization": true
+              },
+              "original_middle_state": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "6c33ca6f46bf272311c77db9913e6809b4484e6fc1858f26f10fcf694c6b0025",
+                "bytes": 3624
+              },
+              "original_midpoint_rhs": {
+                "shape": [
+                  453
+                ],
+                "dtype": "<f8",
+                "sha256": "7ddb4c09bd446185881c95dce3c461be42bf7e7e43d3ba6d626fe9b2ff2cd586",
+                "bytes": 3624
+              }
+            }
+          ]
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 3,
+          "original_require_rms": false,
+          "original_returned_finite": false,
+          "complete_physical_maximum_defined": false,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235586,
+          "physical_maximum_undefined_reason": "At least one original physical collocation entry is nonfinite; no finite-subset maximum is substituted",
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": null,
+          "complete_residual_argmax": null
+        }
+      },
+      "original_selected_query_count": 24,
+      "original_selected_failed_query_readouts": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 466,
+          "fraction": 0.17267316464601146,
+          "station": 1.1653164835060832,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.4800191170959498,
+            "angle_index": 959,
+            "phi": 2.9421751511646597,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        }
+      ],
+      "selected_angle_values": {
+        "file": "trial-01-all-selected-angles.json.gz",
+        "sha256": "fa2f57cbfe6f5fc91cb65fa522eec468b2189f8b6c1b86ead75a23b6ed64b463"
+      }
+    },
+    {
+      "alpha": 0.25,
+      "actual_model_slope": -0.38090637568030233,
+      "predicted_unregularized_merit_reduction": 0.09159763451120578,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": true,
+      "actual_fixed_weight_merit": 43.57938353308094,
+      "actual_merit_reduction": 0.09093417026150519,
+      "actual_to_predicted_ratio": 0.9927567534550313,
+      "selected_linear_beta_squared": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 0.001180833092632002,
+        "maximum": 1.1096121926544738,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "all_selected_linear_reserve_slack": {
+        "size": 49152,
+        "finite_count": 49152,
+        "minimum": 0.0005060713254533798,
+        "maximum": 0.7708115269429582,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.00710855617496271,
+        "complete_boundary_max": 1.8097932193318206e-08,
+        "constant_collocation_max": 0.0,
+        "read_only_midpoint_observer": {
+          "evaluate_call": 4,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 4,
+          "original_require_rms": false,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.00710855617496271,
+            "absolute_value": 0.00710855617496271,
+            "original_vector_value": -0.00710855617496271,
+            "original_array_components": {
+              "y_left": 0.21357000511367516,
+              "y_right": 0.2064214568552296,
+              "f_left": -0.01004184329008307,
+              "f_right": -0.006134593781587551,
+              "f_midpoint": -0.007990941173870274,
+              "middle_state": 0.20999329654749332
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.04282150515004,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "4261d73fa3e0bc44f059a97366703e4e94714553f718c40c36273fcfb2b2a00f",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.007943308743528166,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.00710855617496271,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.00710855617496271,
+            "absolute_value": 0.00710855617496271,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "complete_original_RMS_query_domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.00710855617496271,
+        "complete_boundary_max": 1.8097932193318206e-08,
+        "constant_collocation_max": 0.0,
+        "original_RMS_query_domain_failures": 0,
+        "original_RMS_query_checks": [
+          {
+            "fraction": 0.17267316464601146,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          },
+          {
+            "fraction": 0.8273268353539885,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          }
+        ],
+        "read_only_midpoint_observer": {
+          "evaluate_call": 5,
+          "original_require_rms": true,
+          "original_returned_finite": true,
+          "original_reported_midpoint_failure_count": 0,
+          "observed_nonfinite_midpoint_rhs_count": 0,
+          "bad_midpoint_indices": [],
+          "original_whole_flow_recomputed": false,
+          "original_Jacobian_recomputed": false,
+          "original_returned_finite_or_merit_changed": false,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "points": []
+        },
+        "read_only_collocation_location_observer": {
+          "evaluate_call": 5,
+          "original_require_rms": true,
+          "original_returned_finite": true,
+          "complete_physical_maximum_defined": true,
+          "full_physical_entry_count": 235924,
+          "finite_physical_entry_count": 235924,
+          "physical_maximum_undefined_reason": null,
+          "model_weights_available": true,
+          "original_returned_finite_unchanged": true,
+          "original_returned_residual_bytes_unchanged": true,
+          "original_returned_collocation_bytes_unchanged": true,
+          "full_physical_argmax": {
+            "interval": 461,
+            "left_node": 461,
+            "right_node": 462,
+            "left_station": 1.139533544992796,
+            "right_station": 1.1445179964925558,
+            "existing_midpoint_station": 1.1420257707426757,
+            "interval_length": 0.004984451499759901,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            },
+            "original_residual_row": 155819,
+            "signed_value": -0.00710855617496271,
+            "absolute_value": 0.00710855617496271,
+            "original_vector_value": -0.00710855617496271,
+            "original_array_components": {
+              "y_left": 0.21357000511367516,
+              "y_right": 0.2064214568552296,
+              "f_left": -0.01004184329008307,
+              "f_right": -0.006134593781587551,
+              "f_midpoint": -0.007990941173870274,
+              "middle_state": 0.20999329654749332
+            },
+            "frozen_model_row_weight": {
+              "available": true,
+              "original_residual_row": 155819,
+              "value": 199.04282150515004,
+              "model_weight_call": 1,
+              "base_evaluate_call": 1,
+              "original_weight_array_identity": {
+                "shape": [
+                  236036
+                ],
+                "dtype": "<f8",
+                "sha256": "4261d73fa3e0bc44f059a97366703e4e94714553f718c40c36273fcfb2b2a00f",
+                "bytes": 1888288
+              },
+              "read_from_original_returned_weight": true,
+              "recomputed_from_trial_fmid": false,
+              "base_midpoint_RHS_component": -0.007943308743528166,
+              "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+            },
+            "original_scalar_maximum_if_reported": 0.00710855617496271,
+            "equals_original_reported_maximum": true
+          },
+          "complete_residual_argmax": {
+            "kind": "physical-collocation",
+            "original_residual_row": 155819,
+            "signed_value": -0.00710855617496271,
+            "absolute_value": 0.00710855617496271,
+            "interval": 461,
+            "component": {
+              "state_component_index": 1,
+              "family": "radial",
+              "mode": 1,
+              "angular_frequency": 2,
+              "angular_basis": "cos"
+            }
+          }
+        }
+      },
+      "original_selected_query_count": 24,
+      "original_selected_failed_query_readouts": [],
+      "selected_angle_values": {
+        "file": "trial-02-all-selected-angles.json.gz",
+        "sha256": "d3c678d43dc3f247368f88284608620aa7eababd2407f9f33380ba7fef5bab5a"
+      }
+    }
+  ]
+}
