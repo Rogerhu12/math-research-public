@@ -548,3 +548,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 /root — R330公共坐标中心差与目标相对系数界
 
 [R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)证明固定字面数值lookup分片上N−A由中心差及全段导数差闭包含，真实L和字面ℓ均保；由正准确半径与差界得2ρ+ρ²，配径向比进入R326共同合同变换。数值接缝两侧闭值、完整九控制及所有可能准确分支不删；盒宽可限制精化，未给实际δ/场。151消费者继续；147compute/report已success待完整读，149已实跑待R329，均不预填科学结论。
+
+## 2026-11-15 /root — R328实际147准确构造与原九域未决
+
+[R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)全文付同次C/cut、R323 d=2^-19/e=2^-10/κ1/2、419pieces和基底452叶合法；九p完整300s检查仍12766terminal+13stack，不把success或编译profile冒合法场。三摘要compute/report原字同，width14295B/16e05d75与seam152147B/4c6cfc68全9段核回；418接缝仅207三jetword同，非准确C²判断。raw已清、pending具体坐标未输出，151重生并补全；无新DN/场/metric。

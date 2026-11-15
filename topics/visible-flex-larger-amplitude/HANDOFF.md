@@ -4,9 +4,9 @@
 
 ## 规则与环境
 
-规则同步记录：2026-11-15 13:49:31 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ad49110797c1aab48c517fe072a21f96f48db1cf。
+规则同步记录：2026-11-15 13:54:59 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 71ce2b1a600a1e66cc18533a52ed80f82c238597。
 
-集成复核：root终端恢复并真实partial clone/pull，149九件全文及原100+7来源核读后CLI发布；此前API不是git pull。152完整重算由amplitude接管，150接线由exact，151目标消费者由root继续。
+集成复核：R328已完整读同次C/cut/构造三摘要及width/seam两组，结论即推；150与152纯传输修补已齐待root全文差异核，151由exact并行实现。科学仅公开Actions，root只文本/原JSON/字节/语法/Git。
 
 仅公开 Rogerhu12/math-research-public。科学计算、科学模块导入、数值测试和科学编译只在本库Actions；root只源/证明/原输出JSON重建/语法/hash/Git。PAT仅CLI瞬时环境，不入文件/提交/回复/连接参数。root唯一发布者，agent仅小文本blob交接。
 
@@ -26,7 +26,6 @@
 |---|---|---|
 |141|43712613111 / 132807257922|a7ce55798404fec8fb3638c0fbf083250c5363b2；真实98新生35点/71680行/22capture/26端点/8791local，8批10500s批间，仍运行|
 |145|43716379970 / 132818710078|a513ada7d1dbe1b2fa51d3f1f987c59b48233dba；115pins/6输入/78恢复已过，原warm+当前R273科学运行|
-|147|43717814570 / 132823027880|3b2df31a555b9466911c9b0b3e9b45c7df576c41；compute/report132832524225均success；root完整读回中|
 |148|43719446020 / 132828030323|da307af38f4c9ae29fdb650603342da53a181060；13:31:34起，全部准备过，原C科学运行|
 |149|43720604504 / 132831559151|94b139513148f17e2dc04b51235fd9d1f5ad9ade；compute全success，amplitude完整原值读回中，R329保留|
 
@@ -34,15 +33,15 @@
 
 ## 当前分工与下一实际动作
 
-**root / 147、151及唯一集成；amplitude主写152。** [140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已结清：128唯一α1到9.68582474751023176032080482454992093e−11，完整129248残差/576×226独立逐word同；stage/audit g++ return1，112/338缺前置未起，余15460s非预算拒。源码确定JSON quoted的ADL冲突，原compiler正文未转发已清。152保原全stage/all224/112/338/audit与19200s总限，只按SHA在临时编译副本限定::quoted并读回完整错误/范围。旧Git数学源不改。
+**root / 唯一集成及研究续接；amplitude主写152。** [140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已结清：128唯一α1到9.68582474751023176032080482454992093e−11，完整129248残差/576×226独立逐word同；stage/audit g++ return1，112/338缺前置未起，余15460s非预算拒。源码确定JSON quoted的ADL冲突，原compiler正文未转发已清。152保原全stage/all224/112/338/audit与19200s总限，只按SHA在临时编译副本限定::quoted并读回完整错误/范围。旧Git数学源不改。
 
-147保原144十一pins/1440六primitive/点+whole/256bit1800s；真M96 core、R320末九p经R323有限盒显式κ1/2/d/e/e，再原v3基底/全九两域各300s和明确数值profile，十九pins/job95min/构造20min。全width/seam及中断元数据读回后清。根本区别见[v3身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)，不借旧域/场/J。新[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)付全可能piece/支撑公共u包围、L_true²及完整材料角、同场η+δ+ηδ转移；[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)另证固定数值分片上中心差+导数差闭包含及角系数2ρ+ρ²，保两侧端点；151消费者续写，未给实际δ或metric。
+[147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)run43717814570/source3b2df31a、compute132823027880/report132832524225均success。真cut两jet同R322；R323 d=1/524288、eA=eB=1/1024、κ1/2，419pieces定义d783cac1。基底452叶完整；原九p301s后1735passed/12766terminal/13stack，未决不冒真实域失败；raw未留全pending坐标，151须重生完整frontier。数值ℓ2.723563252110879，418seams仅207全jetword同，不能冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)已付公共u准确L²、全分支/支撑、中心差及同场η+δ+ηδ；151固定网格消费者由exact主写，未给实际δ/metric。
 
 **geometry / 148及新C完整BVP。** [144 R322](results/R322-actual144-original-cut-twojet-and-complete-domain.md)run43715729122/sourcead4a4345、compute132816731637/report132824742430全success；原cut完整1叶/5refine，E>1/Er<0/Err跨零，全部dyadic正文保，cut work true不冒导数宽门。全1440/六primitive/两域完整，whole2891粗叶+1晚期积分未付，无source/query后缀，raw已清。R312/143 R318全112深尾已付。R324通量j=wk、二幂尺度、原径向包含、Taylor+Duhamel闭管及全cut同归一hull已证。148源58317B/4531b5b3，13sources/5proof、同job C/cut/far/flux；新linear1800排除binding，35min外步包全程/job110min；四读回后清。R327留实际148，逐h严格非零才准DN。新数值profile/全699公共u/453采样与真正非线性C provider需独立身份；不得把148线性图或旧client冒非零DN。
 
 **amplitude / 149及152。** [146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)run43716274591/source69765fcd、compute132818390627/report132818651357已完整结清。8方向15trial8接受，W4.963213788832056/radius4.76837158203125e−8，全finalfalse；42normal/84两P全返、五次20档拒有p/残差同字后缀、10shadow直接救回0。[149九件完整入口](notes/2026-11-15-persistent-decimal50-nine-control-primal-response-interface.md)已发、run43720604504/source94b13951；五新源已读：Decimal50/ROUND_HALF_EVEN，真146末p和radius准确提升、持久参数/primal/699半径链/三2×2/full112/9及2P forward/全QR同精度；100+7pins、父33/current36。单8×20/12×20、原Armijo/R299/域/半径保；75min科学/90minjob，完整错误无损读回。旧64投影点原54FD/Arb/453圆另记，不当实际Decimal点证书；新点自己全9×3FD。无高精度原表形成/连续g/非零场声称。
 
-**exact_refinement / 150、145。** [R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)/[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)完整固定trace条件后验/区间包含已证。[三源接口](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)保113root/225Gram/226态/224shape+6独立几何列、整数向外、SPD/严格逆界及primal误差；150首个stage10/RKstep0/field0完整230列/320bits，同job真owner，应用同JSON限定shim。保原child exit70/summary_incomplete，同时清理前无损读完整certificate/launcher result与全部列/未访后缀。C不冒F_e/真根/IEEE导数/全RK，不加140/145 gate。145首次正高度原数学拒绝结束本轮，QR工程错误独立，原warm/10trial/2e−9/338/FD/fullDN/audit完整。
+**exact_refinement / 150、145及151。** [R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)/[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)完整固定trace条件后验/区间包含已证。[三源接口](notes/2026-11-15-R314-complete-field-interval-certificate-interface.md)保113root/225Gram/226态/224shape+6独立几何列、整数向外、SPD/严格逆界及primal误差；150首个stage10/RKstep0/field0完整230列/320bits，同job真owner，应用同JSON限定shim。保原child exit70/summary_incomplete，同时清理前无损读完整certificate/launcher result与全部列/未访后缀。C不冒F_e/真根/IEEE导数/全RK，不加140/145 gate。145首次正高度原数学拒绝结束本轮，QR工程错误独立，原warm/10trial/2e−9/338/FD/fullDN/audit完整。
 
 ## 原责任与恢复
 
