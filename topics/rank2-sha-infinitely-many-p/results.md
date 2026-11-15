@@ -362,3 +362,6 @@ R741 [完整FH2增补](notes/2026-11-15-r741-complete-fh2-first-bockstein-inject
 
 
 - [R743](results/R743-normalization-genus-and-actual-two-kernel-rank-improvement.md)：已证明原六固定纤维/低共振ODE迫正规化亏格h≤6γ+2a+14b−6；d<p的残余线系用primitive t+cY及完整复合次数得有限有效核界。临界两核上界13κ/32、17κ/48，使同预算全H3单位秩≥359κ/96+oκ；原奇点/J与M长度/同R全保，未断言指定forcing非零。
+
+
+- [R749](results/R749-point-factor-projectors-and-finite-character-extraction.md)：已证明全代数点张量的椭圆对数映射单射，完整点表示的数值关系可施固定系数的point-only Galois幂等元。真实Q2⊗t²展示自然semilinear trace与此投影不同；只p分歧与17角色联合分离。明确线性点身份(H)成立的finiteχ族中所有非零值独立，一变量门平凡分量为hatΦ(1)ΩI_k1；未预付(H)或全多变量门。
