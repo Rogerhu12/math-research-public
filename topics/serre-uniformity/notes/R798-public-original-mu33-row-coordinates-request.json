@@ -1,0 +1,71 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R798-original-mu33-row-coordinates",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "budget_minutes": 300,
+    "core": "R798_original_mu33_row_coordinates.py",
+    "core_sha256": "334935ac54ca8cd3c0186720f0f3333ad3b42274053e5ce7f655cabfbcc27b3b",
+    "proof": "results/R798-original-power6-row-coordinate-interface.md",
+    "R798_proof_sha256": "cc245ea60a12e93b2e5db620f5a08b57ce67a0a13b119e332d5458b9b0542f55",
+    "method": "notes/R798-original-mu33-row-coordinate-method.md",
+    "R798_method_sha256": "f7fd0900173a236de6fcf484a4d1892cd45e8357e816d60d92fff5b5949cd2f5",
+    "R793_proof": "results/R793-original-RR-pole-divisors-and-CM-local-algebra.md",
+    "R793_proof_sha256": "6f716b64432227244a46d91f01ae2f46ba6d4a5f893666693ed07dec9e2e5cab",
+    "workflow": ".github/workflows/serre-p41-original-mu33-row-coordinates.yml",
+    "anchor_index": 0,
+    "auxiliary_prime_start": 739,
+    "retained_artifacts": {
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9",
+          "R786-exact-stages-manifest.json.gz": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        },
+        "stage_selection": {
+          "ordinary_power": 3,
+          "dimension": 690,
+          "anchor_witness_powers": [
+            1,
+            2
+          ],
+          "anchor_witness_index": 0
+        }
+      },
+      "R795": {
+        "result": "R795-exact-original-power6-short-basis",
+        "run_id": "43692029484",
+        "source_commit": "ac6d8fff1e1905539339bf1bec39365fd62312ba",
+        "artifact_id": 14152762920,
+        "artifact_name": "serre-global-R795-exact-original-power6-short-basis-43692029484-1",
+        "archive_sha256": "557bb851ffe175643aa2b759fab3f378afdd51ef5d665fd4508a2a1f22ab8248",
+        "manifest_sha256": "fb4a8f656c66d5ae10dee052baab79c07b43c7e7f19bb66b6e7d71be13b83ada",
+        "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+        "certificate_name": "p41-exact-original-power6-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power6-short-basis-certificate.json": "c5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae",
+          "R795-exact-power6-basis-index.json.gz": "9c2d5a8731b491b464cc7580d1b504a4c7efac957a46b56a1fa7137049f06358",
+          "R795-exact-stages-manifest.json.gz": "37b3894e51f834bbe26113c2d4346de6a3f804114970a371e35783a105f3d064"
+        },
+        "stage_selection": {
+          "ordinary_power": 6,
+          "dimension": 1506
+        }
+      }
+    },
+    "io_helpers_sha256": {
+      "R786_public_exact_power5_short_basis.py": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec",
+      "p41_public_actions_recovery.py": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e"
+    },
+    "resume": null
+  }
+}

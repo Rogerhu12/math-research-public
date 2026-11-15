@@ -494,3 +494,8 @@
 - R798固定乘法坐标证明与方法审核完成：原1640×1506短矩阵真实选行给Ψ_I，生成的V3积可直接完整卷积后选行；原基有理性只适用有理完整列，不声称曲线Q定义。初次仅690个τ³V3积，无完整有理逆或全表。
 - 修正并证明Dixon固定矩形2AB<M唯一重构界；外来短列/原基系数必须全1640行准确代回。proofcc245ea6、methodf7fd0900冻结，新minor/积尚待Actions，公开工程正审核。
 - R787/R797实际状态仍in_progress；继续R799最小基和R800新增原M2尾，主目标OPEN。
+
+## 2026-11-15 16:38 Asia/Taipei · serre-public-astra-20261115
+- R798真实请求已启用，root全文核core/wrapper/workflow：只作原短矩阵真实RREF/minor和690锚点积，q/ξ stride79与v/t stride39的全部1640坐标比较；不计算全表或原基逆。
+- exact_height核两实际ZIP及698+1513输入文件SHA、原basis/recipe/配置和来源链；root核全部冻结源码绑定，所有新数学留公开Actions。完整阶段和最小源bundle一日续接。
+- proofcc245ea6、methodf7fd0900、core334935ac、wrappere54e0781冻结；新minor和输出未预填。R799/R800工程接续，原β/η/高度及主目标仍OPEN。
