@@ -1,49 +1,48 @@
 {
-  "request": "new-complete-literal-rational-relations-of147-archived-original-columns",
-  "created_at": "2026-11-15 02:58:35 UTC",
+  "request": "new-nine-original-equalities-inherited-character-necessary-system",
+  "created_at": "2026-11-15 03:13:20 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "character_head_literal_relations"
+    "character_minus2_literal_relation_cuts"
   ],
-  "goal": "Read the complete common original head DAG and archived107-coordinate view; insert40 R columns then107 normal columns in a new exact coefficient comparison. Every dependency must have a fresh exact zero sum in each original mode and explicit147 coefficients. Project only through saved B and complete R168 parity, report genuinely new equalities and exact violations at the published point and the R173 half-static point. Preserve resumable new state under240s/1024MiB/8192bits; no old RREF/LP, response compilation, profile evaluation, path integral or 68-row recheck. Literal nonzero is not functional independence or nonmembership.",
+  "goal": "Consume the nine freshly proved original identities from43670254711. Preserve the archived23-coordinate B and68 halfspace prefix; append each new equality with both signs, then seek exact nonnegative rational Farkas certificates for all46 coordinate directions or save one exactly verified new outer point with107 values, all14 families and the same multiplier. No original expression, RREF, profile query, path integral or literal elimination is repeated; a surviving outer point is not a true character.",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995"
+    "topics/visible-flex-new-mechanism/scripts/literature_character_minus2_literal_relation_cuts.py": "1861db94d22ffb1a7c4e96319fb9fe18fed9121a0d1edfeb20f83e22290aa4f0"
   },
   "jobs": {
-    "character_head_literal_relations": {
+    "character_minus2_literal_relation_cuts": {
       "development": [
         "--toy-only",
         "--output",
-        "@OUT@/character-head-literal-relations-development.json"
+        "@OUT@/character-minus2-literal-relation-cuts-development.json"
       ],
       "research": [
-        "--head-dir",
-        "topics/visible-flex-new-mechanism/notes/actions-43665345551-1-character_head_minus2",
-        "--finite-dir",
-        "topics/visible-flex-new-mechanism/notes/actions-43665971895-1-character_minus2_finite_necessary",
-        "--parity-dir",
-        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity",
-        "--diagnose-half-static",
+        "--source-report",
+        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/character-minus2-static-parity.json",
+        "--source-publication",
+        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/receipt.json",
+        "--source-certificate",
+        "topics/visible-flex-new-mechanism/notes/actions-43668125602-1-character_minus2_static_parity/character-minus2-static-parity-certificate.json.gz",
+        "--original-system-certificate",
+        "topics/visible-flex-new-mechanism/notes/actions-43665971895-1-character_minus2_finite_necessary/character-minus2-finite-necessary-certificate.json.gz",
+        "--literal-report",
+        "topics/visible-flex-new-mechanism/notes/actions-43670254711-1-character_head_literal_relations/character-head-literal-relations.json",
+        "--literal-publication",
+        "topics/visible-flex-new-mechanism/notes/actions-43670254711-1-character_head_literal_relations/receipt.json",
+        "--literal-certificate",
+        "topics/visible-flex-new-mechanism/notes/actions-43670254711-1-character_head_literal_relations/character-head-literal-relations-certificate.json.gz",
         "--max-seconds",
-        "240",
+        "180",
         "--memory-mib",
-        "1024",
-        "--integer-bits",
-        "8192",
-        "--checkpoint-every",
-        "8",
+        "512",
+        "--rational-bits",
+        "16384",
         "--output",
-        "@OUT@/character-head-literal-relations.json"
+        "@OUT@/character-minus2-literal-relation-cuts.json"
       ]
     }
   },
-  "other_active_research_runs_at_dispatch": [
-    {
-      "run": "43669710846",
-      "source": "c33955d79a72efd359c066106ddff6598b1a5f57",
-      "lane": "metric_spectral_recovery"
-    }
-  ],
+  "other_active_research_runs_at_dispatch": [],
   "previous_private_actual_pull_time": "2026-11-15 02:53:29 UTC",
   "previous_private_actual_pull_commit": "6439d29b875126d271b8dee9a6907dfcca85e5cc",
   "sync_private_rules": false,
