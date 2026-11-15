@@ -1,0 +1,45 @@
+{
+  "schema": "visible-existing98-scalar-readback-request-v1",
+  "request": 102,
+  "repository": "Rogerhu12/math-research-public",
+  "purpose": "Read existing actual98 scalar results and identities only; no new scientific calculation or raw output retention.",
+  "source_sha256": {
+    "root_20261115_read_existing98_scalar_summary.py": "7e5f36100ffafe1ffe44cc878e18aeb2af3c4c73fcce7f64f21a22ec9313a083",
+    "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+  },
+  "actual_original": {
+    "run_id": 43677587785,
+    "job_id": 132701028492,
+    "source_commit": "918fdb11dbb7a424b6149b405e2c7fab3cc0c737",
+    "artifact_id": 14147700690,
+    "artifact_name": "visible-followup-condensedqp-43677587785-1",
+    "artifact_bytes": 809042943,
+    "artifact_sha256": "9917774d965e86b0a8d46677a1f54c0fb23fc8fa61a67cbab998e7493d33151a",
+    "request_git_blob": "6aa7cc61e52b314c31699e8849fb9a9cc5c11b62",
+    "workflow_git_blob": "f998c08cc5320559204b7b2d5a67f4f2f1afdc99",
+    "warm_sha256_from_original_job_log": "b59f40c003bf924f3f3c10aa6783425a606b3e395fd86311cbba159b835feb67"
+  },
+  "primary_member_suffixes": [
+    "thirty-one-condensed-warm/model-000.json",
+    "thirty-one-condensed-warm/driver-status.json",
+    "thirty-one-condensed-warm/condensed-QP-summary.json",
+    "physical-response/response-check.json",
+    "thirty-one-condensed-warm/warm-001.json.gz"
+  ],
+  "readback_limits": {
+    "stdout_summary_bytes": 90000,
+    "new_scientific_calls": 0,
+    "raw_artifact_uploads": 0,
+    "release_uploads": 0,
+    "git_data_publication": 0,
+    "all_original_trials_preserved_without_silent_truncation": true,
+    "unused_full_arrays_not_audited": true
+  },
+  "current_policy": {
+    "commit": "137c5a877fb387a82cbde01f084d1fa67ee717aa",
+    "root_readme_git_blob": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+    "topic_readme_git_blob": "bff8aea253a9e6a7a4fac28d810ac454c5499fec",
+    "retention": "Only committed scripts, parameters, run numbers, output SHA-256 and honest compact conclusions. Temporary original bytes removed before successful summary."
+  },
+  "validation_scope": "Source text and identity reviewed without local AST or Python execution because shared terminal is unavailable; Actions parses both sources before original artifact read."
+}

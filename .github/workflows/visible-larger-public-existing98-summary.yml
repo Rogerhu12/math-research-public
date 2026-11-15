@@ -1,0 +1,124 @@
+name: visible-larger-existing98-scalar-readback
+'on':
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-existing98-summary-request.json
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-larger-existing98-scalar-readback
+  cancel-in-progress: false
+jobs:
+  read-existing98:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout only source and request text
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/root_20261115_read_existing98_scalar_summary.py
+            /topics/visible-flex-larger-amplitude/computations/exact_20261114_fetch_pinned_public_artifact.py
+            /topics/visible-flex-larger-amplitude/computations/public-existing98-summary-request.json
+      - name: Original supported Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Check source identity and current rules
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import ast, hashlib, json, subprocess
+          from pathlib import Path
+          root = Path("topics/visible-flex-larger-amplitude")
+          comp = root / "computations"
+          request = json.loads((comp / "public-existing98-summary-request.json").read_bytes())
+          assert request["request"] == 102
+          expected = {
+              "root_20261115_read_existing98_scalar_summary.py": "7e5f36100ffafe1ffe44cc878e18aeb2af3c4c73fcce7f64f21a22ec9313a083",
+              "exact_20261114_fetch_pinned_public_artifact.py": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+          }
+          assert request["source_sha256"] == expected
+          for name, digest in expected.items():
+              data = (comp / name).read_bytes()
+              assert hashlib.sha256(data).hexdigest() == digest, name
+              ast.parse(data.decode("utf-8"), filename=name)
+          for path, expected_blob in (
+              (Path("README.md"), "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7"),
+              (root / "README.md", "bff8aea253a9e6a7a4fac28d810ac454c5499fec"),
+          ):
+              actual = subprocess.check_output(["git", "hash-object", str(path)], text=True).strip()
+              assert actual == expected_blob, "README changed; read its new diff before execution"
+              raw = path.read_bytes()
+              print(json.dumps({"rules_file": str(path), "git_blob": actual, "bytes": len(raw),
+                  "sha256": hashlib.sha256(raw).hexdigest(),
+                  "scope": "actual Actions checkout; no local terminal pull claimed"}))
+          PY
+      - name: Read original source text and existing artifact once
+        timeout-minutes: 20
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import base64, hashlib, importlib.util, json, os, subprocess, sys, tempfile
+          from pathlib import Path
+          comp = Path("topics/visible-flex-larger-amplitude/computations").resolve()
+          transport_path = comp / "exact_20261114_fetch_pinned_public_artifact.py"
+          raw = transport_path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest() == "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859"
+          spec = importlib.util.spec_from_file_location("_readonly98_transport", transport_path)
+          transport = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(transport)
+          opener = transport.make_opener()
+          token = os.environ["GITHUB_TOKEN"]
+          source = "918fdb11dbb7a424b6149b405e2c7fab3cc0c737"
+          original = (
+              ("request98.json", "topics/visible-flex-larger-amplitude/computations/public-condensed-qp-request.json",
+               "6aa7cc61e52b314c31699e8849fb9a9cc5c11b62"),
+              ("workflow98.yml", ".github/workflows/visible-larger-public-condensed-qp.yml",
+               "f998c08cc5320559204b7b2d5a67f4f2f1afdc99"),
+          )
+          with tempfile.TemporaryDirectory(prefix="actual98-original-parameters-", dir=os.environ["RUNNER_TEMP"]) as tmp:
+              tmp = Path(tmp)
+              for name, remote, blob in original:
+                  url = "https://api.github.com/repos/Rogerhu12/math-research-public/contents/" + remote + "?ref=" + source
+                  response = transport.request_once(opener, url, token, True)
+                  try:
+                      assert int(response.code) == 200, "Original source HTTP status"
+                      body = response.read(131073)
+                      assert len(body) <= 131072, "Original small text response limit"
+                  finally:
+                      response.close()
+                  metadata = json.loads(body)
+                  assert metadata["sha"] == blob and metadata["encoding"] == "base64"
+                  data = base64.b64decode("".join(metadata["content"].split()), validate=True)
+                  assert len(data) < 100000
+                  data.decode("utf-8")
+                  actual_blob = hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
+                  assert actual_blob == blob
+                  with (tmp / name).open("xb") as target:
+                      target.write(data)
+                      target.flush()
+                      os.fsync(target.fileno())
+                  print(json.dumps({"original_source_path": remote, "commit": source,
+                      "git_blob": actual_blob, "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(),
+                      "temporary_only": True}, sort_keys=True))
+              result = subprocess.run([
+                  sys.executable, "-u", str(comp / "root_20261115_read_existing98_scalar_summary.py"),
+                  "--transport", str(transport_path), "--request98", str(tmp / "request98.json"),
+                  "--workflow98", str(tmp / "workflow98.yml"),
+              ], shell=False, check=False)
+          raise SystemExit(result.returncode)
+          PY
