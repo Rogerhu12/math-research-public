@@ -3,18 +3,18 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：1c20f2633e7e48a1819c818d92628f155ea8511b；2026-11-15 23:15:55 UTC核两README无变。实际CI pull 2026-11-15 22:39:36 UTC/94136fac3bc5ff5ce56ffaf607746af94fca9c8a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:15:11 UTC仍无环境。最迟2026-11-15 23:25 UTC再实际pull。
+- 最近已读规则提交：76d2b517558c80b11811502aff4bbf86bb5f3eab；2026-11-15 23:20:26 UTC核两README无变。实际CI pull 2026-11-15 23:16:07 UTC/1cf679b578409ccf4ec6cedf45fbae167b1c7540（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:15:11 UTC仍无环境。最迟2026-11-16 00:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 最近盘点30,162,386B/2202文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
+- 最近盘点30,244,655B/2210文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
 
 ## 完整归档与当前分工
 
 [本次压缩前全文](notes/2026-11-15-frontier-before-katz-direction-comparison.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–836已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R836已分配deep，R837以后由root协调。结论成即分别推。
-实际pull22:39:36/run43770506389/job132985133266，两README差异空；回执ci/rule-pull-20261115T223936.json。现已提前请求下一实际pull，23:25期限保持。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
+实际pull23:16:07/run43773875458/job132995582097，两README差异空；回执ci/rule-pull-20261115T231607.json。下一00:00前。R818/820/830成功run与source/args/hash见各证，不复跑；R830初版18/288误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
 
