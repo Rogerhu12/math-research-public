@@ -47,7 +47,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 **R304/306/311完整障碍**：同0<κ²<.01共振偶芽，旧面积+三个directed+完整E−3 σh−2j0给严格正系数 (41t²+27)N(t)/(15552he³(51t²+2t+8))∫g″4，N=16+184t−1713t²−2475t³−4590t⁴>15。R304排任意不交实rank-one圆，不需同母/宽/序/等B；R311同一余量逐参数迫固定包空间ci²=ai²，连通初值ci≡ai，任何连续幅轨道也刚性。R306从全mixed原式和Green/ordered尾推广至 **W=g′f″−f′g″=0** 的全部重叠实圆；两个hook同时0⇔W0，退化开段有限边界的3/2幂拼口亦严格排。弱原第三周期只需H(g;ff)=0⇔AfW0，**不强加第二hook**；regular弱核被排，但Af0的曲开段仍留真实rank-two入口。第三原range/矩与第四须重新支付。旧principal/有限门真但不能修复被排类；不是主课题无解。
 
 
-**R308真实弱hook三阶构造**：紧f在内部J为(x−b)^(5/2)，非零紧g⊂J使AfW0而W≠0；三左复幅Vandermonde精确付三复矩，不改弱hook。任意合法I内八个完整配平副本以七次差分消四ruling；仅对全θ组合付周期/range，单槽不要求各自periodic。第二hook确非零，真正导数rank-two；同几何新选seed目标的完整三阶圆已付、余差O(ε4)。完整第四及原平台/尾/同w尚欠，不能继承旧rank-one端局域或宣布有限flex。
+**R308真实弱hook三阶构造**：紧f在内部J为(x−b)^(5/2)，非零紧g⊂J使AfW0而W≠0；三左复幅Vandermonde精确付三复矩，不改弱hook。任意合法I内八个完整配平副本以七次差分消四ruling；仅对全θ组合付周期/range，单槽不要求各自periodic。第二hook确非零，真正导数rank-two；同几何新选seed目标的完整三阶圆已付、余差O(ε4)。R317全mixed余量=−DκD4+Γκ(J+7C/12)，真曲段修正Σ(75A²/192)∫(9x+5β)g″²；物理β≥0子族完整第四严格阻断。负β仍须全联立，平台/尾/同w未付，不冒有限flex。
 
 **R312新初始端芽**：h=he(1+εσ²),k=κ≠0,ω=ωe常数，ε>0；原9参安装保M/frame/ωend/全词/闭合，之后才固定g。y=x+ωe后d=−κ，We=span{1,h,h^-1}。完整M与中心history=mrat+E Bε，E=atan(√εσ)/√ε；完整第三新增L=log(1+εσ²) residue项。完整偶ruling为Rrat+E RE+E²R2+L RL，两极monodromy证四词有理独立；须R2=RL=RE0,Rrat∈We，非旧Gaussian面积逐项门。§3.1从原恢复/真尾证明全gauge同We商，不误用R243特殊芽。R315已实际以有限N圆清整角E²三门与全部E8交换面积，保三矩/third；新B真尾/Green/corrected-self、初选Fnew、四交替包正锥全付。log有序history残数清零，local+chain残数、单E、有理及全joint仍欠。
 
@@ -56,4 +56,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴，K=−J³Af保真右三常数/�
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d，双README blob同。API读取不冒实际pull。
+断连API复核main 33b85be5f353dc670461ed011f44ee0ebd376be9，双README blob同。API读取不冒实际pull。

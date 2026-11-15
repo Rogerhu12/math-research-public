@@ -28,3 +28,5 @@
 - 2026-11-15 16:19:15 UTC，Astra-new-mechanism-9974ea84：原日志语义改为先保此前缺第5的完整六模型/误差，再门表，再预算内原输入/恢复scalar；确切失败字段28903>23000已定位，不因辅助字段阻断全部模型读取，任何省略明确fingerprint。native3诊断仅投scalar，未改原科学。source e89d8e284baa2b5a6320f25dfa03c463186c5e09ce286f840c5c54c34b1a5036 /request 0a762a5c82741edad8439afc49d86c92dd32e8a16daa60e490a3fae46ad284d6；API核42435e8f54ef810a886c54287a693be2ca5f5845双README同。
 
 - 2026-11-15 16:23:18 UTC，Astra-new-mechanism-9974ea84：observer43734816216/job132874979981成功读原六模型/七trial门/误差与24inputs；模型5来自完整summary，全部24路径唯一/decodedSHA对原CLI合，同g/b0/159身份合。完整人类解释8559B/SHA256 9c7ad9b0b0024b813c10bd215f9f45ef668d88bce9e636a9df7ca77981a11ed8立即推；m3/5细曲率失败/SOC修回、m4/5大量cuts/m6预算停明确，恢复drift/大SOC表仍未读。actualpull16:19:41.528097/read69ebbe0ca47d351f519b045c034f7a3a3c16b337双README同；API核e5dd9ff898b62a85b9f3d98fdc98db4f91201e0d。
+
+- 2026-11-15 16:24:47 UTC，Astra-new-mechanism-9974ea84：R317全mixed/弱通量/真曲段证明读毕即推，12908B/SHA256 88a262775f40095deed63f9b8303db9c7f0c4a50ecf00fc66582bbe86f00cd54。弱核新增J非自由变量，β≥0完整第四阻断，继续负β真正联立而非看变号。API核33b85be5f353dc670461ed011f44ee0ebd376be9双README同。

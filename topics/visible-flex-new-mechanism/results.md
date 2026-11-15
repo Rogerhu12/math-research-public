@@ -381,3 +381,10 @@ S−R完整self F=2∫u′²u‴²−∫u″4/6≥∫u″4/18>0。五块N结构�
 ## 完整仿射六模型实际解释：明确曲率拒绝、重复 support cuts 与预算停止
 
 [完整原读数](notes/complete-affine-six-model-interpretation-20261115.md)：run43728280256的六模型/七trial现已读，第5由原summary恢复。m3/5 primary细网曲率分别58.000001945/58.000009623而被拒，SOC修回、最终η.266381717617。m4/5需358/342cuts，m5首LP完整norm负改善但补cut后真改善；m6只剩共享第12次LP，完整norm仍负改善，非驻点/不可行证书。七步真实e/f非线性3.8e−7～1.7e−6，完整覆盖差近零。24路径及decodedSHA对原CLI逐项合，同g/b0/159身份保留。只读无新执行；恢复drift大表继续读，下一原ID/norm方向在新中心重建cuts而非搬旧A/b或仅延预算。
+
+
+## R317：弱 hook 的完整 mixed 修正，非负分支曲段仍有严格第四障碍
+
+[R317 完整证明](results/R317-exact-weak-hook-mixed-correction-and-nonnegative-branch-obstruction.md)对真实弱核通量及紧支撑曲段作全局IBP，得Y=−2C/3−2J、B=−2(D4+C)/3−2J，完整面积改迫Z=C。原四directed/local/elementary全合给O=−DκD4+Γκ(J+7C/12)，未删C²或任何inner/ordered尾。
+
+R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75A²/192)∫(9x+5β)g″²；真实副本均正四次幅权。乘原cP后两个系数对0<κ²<.01皆正，因此正物理区间上全部β≥0子族无法过完整第四。原三阶仍真；负β不按单一符号冒可行，须继续其余面积/三directed/period/joint联立。纯纸证，无新执行。
