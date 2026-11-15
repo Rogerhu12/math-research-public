@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 Green v4恢复与已读规则契约](results/../notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)：原369 pin零改，新376 pin保持同二进选点/完整signed193/97、三输出及原门；明确v3丢失新算术重做、live已读规则和完整小stdout恢复。仅源及执行契约，待首次实际run，不声明Green成功。
+
 - [Dδ：selected参数的完整core差与finite193转移准则](results/R133-supplement-exact-selected-parameter-core-differences-and-finite193-transfer.md)：准确Gδ/Kδ、完整M1∂φ+M0含mean/primitive、96→192→288真实支撑；全Fν/响应defect及双body/cut有限反馈定理已证。实际普通源/Poisson增益和三条反馈门未付，不把旧元数据宽度当δ*逆。
 
 - [Cδ：selected参数下全部97帽行的完整转移](results/R133-supplement-selected-parameter-cap-row-transfer-with-unknown-high-input.md)：fixed旧K时，|δ|≤1e−10给全even L2输入到97行的差<1e−4，未知high/mean完整。实际HC*与旧伴随H1付角变换，未用同阶composition小；新actual cap差另有明确物理1/5费用。

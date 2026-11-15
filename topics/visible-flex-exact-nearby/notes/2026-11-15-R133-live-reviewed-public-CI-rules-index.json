@@ -1,0 +1,37 @@
+{
+  "kind": "explicit_live_review_index_for_unchanged_public_execution_rules",
+  "repository": "Rogerhu12/math-research-public",
+  "policy": "Only exact separately read README revisions whose entire operational instructions are explicitly certified unchanged may be adopted; no science identity or execution permission is changed.",
+  "execution_policy": {
+    "rule": 15,
+    "topic_directory": "topics/visible-flex-exact-nearby",
+    "maximum_topic_bytes": 200000000,
+    "maximum_git_file_bytes": 5000000,
+    "reproducible_data_persisted_in_repository": false,
+    "reproducible_data_persisted_in_Releases": false,
+    "new_reproducible_Actions_output_uploads": false,
+    "keep_only_scripts_parameters_runs_output_hashes_and_conclusions": true,
+    "existing_data_restore": "git show <immutable_predeletion_commit>:<path> into temporary scientific work",
+    "normal_deletion_only": true,
+    "no_history_rewrite": true,
+    "no_artificial_data_splitting": true,
+    "original_completed_mathematics_must_not_be_recomputed": true
+  },
+  "accepted_reviews": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+      "read_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1",
+      "readme_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "all_operational_rules_unchanged": true,
+      "scientific_input_manifests_and_sources_not_changed": true
+    }
+  ],
+  "new_or_changed_operational_rules_require_new_worker_review": true,
+  "unread_README_revisions_are_not_accepted": true,
+  "known_only_history_annotation_change_is_not_a_scientific_model_change": true
+}

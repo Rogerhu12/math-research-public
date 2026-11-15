@@ -26,31 +26,17 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 全无限反馈、强返回、真实ν Schur、增广非线性迭代和最后几何条件
 仍未同时完成。任何局部组件均不满足总验收。
 
-## 2. 主动计算：完整Green v3、同97 Poisson和ν方向
+## 2. 主动计算：完整Green v4、同97 Poisson和ν方向
 
-newton_source监视，root最终消费。
+newton_source监视，root最终消费。压缩前实际进度/所有失败身份见8832e7ff291efe5a4ffe5b7134621a95efa7e863本路径及原报告，旧成功不重算。
 
-- finite193 run43635487128/8的误差.003509417445587仅有限；
-  旧全L²界.007490301792401大于所需.005。
-  ||q*−Z||<4.572198020300e−6独立保留。
-- 原5970同F run43654510038、7908完整伴随43665656138、
-  同97 fullcap43671537267与原1886future均成功，只准确恢复；
-  97列包括全部未知high、mean、真实outer和Hessian。
-- v2 43681612825/1的finite Arb转binary64溢出、0group失败保留。
-  临时新future2340/past1800/product4331已失，v3明确重做；
-  不把旧1886成功前缀重算，不从进度计数伪造矩阵。
-- v3 run43690634784/1现已completed/failure，job132740339581 step7在11:35:03退出，step8成功打印小process；真实final计数/原因由0数学日志诊断取回，非人工取消。SCI1d8383a8…、
-  worker c06a5758…、369pin637c7bdf…与helper2e5dbdb5…保持。
-  32真product/两个±4096 full97权preflight63.221s同run复用；
-  14GiB/4GiB/4CPU实际门通过。
+- finite193 run43635487128/8误差.003509417445587仅有限；旧whole L²界.007490301792401是另一窗。全频negative目标.005、||q*−Z||<4.572198020300e−6独立。
+- 旧5970同F43654510038、7908伴随43665656138、同97帽43671537267与旧1886future只恢复。全high、mean、真实outer、Hessian保留。
+- v2 43681612825/1 finiteArb→float溢出，临时新2340/1800/4331失去，原失败保持。
+- v3 43690634784/1已failure。实际0数学diag43709951426/1 f526d0b1核完整log57620B/dc649478，失败为旧README guard；childreturn未记，不能称数学失败。future5970=1886旧+4084新/product5970已成；past4032/groups103仅最后报告而非终止清点，新temp不可恢复。
+- [v4恢复契约](notes/2026-11-15-R133-ephemeral-Green-v4-recovery-and-live-rules-contract.md)现已部署首次运行待ID，用户授权重做lost新算术。SCIba931a8a/helper9e699a28/workerf67d62e2/manifest42810dfa共376pin，原369零改。去未消费中间norm/全193验后取97主块均保持同选点和原数学。live index仅接已读且操作规则未变；实际每10分钟pull/两README，published-origin容量、预Git小stdout、终止实文件清点保。已完成同身份则直接引用，不重算。
 
-root已读11:24过程48681B/SHA3bfa4b08…：future5970=1886旧+4084新及product5970全成，
-past3808，combined85groups/118queued/3consumers，无failure；Werror log2≤−101。
-真正数学仍fixed repaired M32 δ0、原η0/ν0；继承process字段1e−9并非BVP全参数域。
-现成高相位gap在selectedδ*，同一对象的有限低块转移与非线性phase保持仍须接。
-当前先恢复已打印的最终小process/真实stack并核清lost新临时结果；旧成功1886/5970F/7908/同97不重算。
-v4两个同选点优化仍须根审，首次启动前接已读新README record；不能假当前v3仍运行。
-187groups、三个完整HY及final尚未全成，逐组结果不等于全局门已过。
+187groups/三HY/final尚未全成。数学仍固定repaired M32 δ0/η0/ν0；继承1e−9字段不是BVP参数授域。selectedδ*的低块转移按Dδ另付。
 
 新Gram保完整signed $W$、任意指数dyadic正权、真实全193乘积、
 同97均值/切口与最终 $C^*HC$；不能逐entry取min或用有限sample

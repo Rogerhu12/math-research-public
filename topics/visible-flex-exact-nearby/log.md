@@ -59,3 +59,11 @@ root从原P14、C joint表、真实signed S*=mV及H1完整97测试独立推Cδ1�
 
 root从真F/DF逐项推D1–23，tail独核D1–8及D17–23全过。最终15214B/SHA92fd222bbcc4495cce091cedee2628f83d014be23a40328a7292d47616621635；ΔS_Q仅新metric下state差，intrinsic kΔQ0²另保；principal mean与rank mean、I真实1/4完整。有限LL费M0+384M1，LH仅97..288但不穿过composition/old J。
 真Fν的Kν/Jν变更及compact外0明确；完整响应defect另有global +(Aδ−A0)Z，边界−ΔB Z及真bν全保。root证明L²body×独立cut上的2×2收缩和重构同迹，不以body L²冒bounded trace；aY=G0P A0H与普通源gY区分。actual e/gY/pY/row费三门仍待，未报sameδ有限逆或完整ν .005已成。freshmain ff04572dad056c4a301eb16d757467a8a8f9c938两个README未变；继续新消费者/Greenv4和强返回。
+
+## 2026-11-15 11:56:12 UTC — v4首次恢复已审并部署
+
+读main 6f11ac329c5754fc2d4397ae74665b49367821dd，两README blob未变。root逐字读v4 SCI/helper/worker差、契约/live index/flow和原MatrixFiles.load_receipt/gram，369→376输入静态核零删零改；三个Python delimiter通过，AST及所有新数学只在public Actions。phase独立读原193loader与选点链。最终workerf67d62e2、SCIba931a8a、helper9e699a28、manifest42810dfa、flow32119e74。新增同source/worker/manifest且全部scope/count/child0原成功复用门，原完成数学不再执行。
+
+v3实际failure原因/完整log及最后报告counts只引43709951426/1 f526d0b1。失去的新temp按用户授权重做，past4032/groups103不伪称精确终止计数；旧1886/5970F/7908/同97只恢复。v4带root已读规则索引与published-origin容量审计、≤59KB完整小stdout和终止实文件清点；不预先宣称runtime或任何数学门成功。部署后接实际run/首AST/preflight，继续Dδ实际scalar与strong-return主导源。
+
+新增既已计算的posterior_complete_true_Green_constants小结字段，三个ordinary source/waist/right输出明确区分；科学源完全不变。此字段只为后继Dδ消费，不能拿specialized cross aY替gY。
