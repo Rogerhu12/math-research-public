@@ -150,6 +150,7 @@ collar精确T2/T3和四带96/160/224/288不变；MC补入独立raw mean后才可
 最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 
 [DB degree32准确分带](results/R133-supplement-degree32-reference-band-cancellation-and-finite-receivers.md)65357a91给新的条件式：H96主要线性输入仅33..96、H288仅225..288，fullmean/ΔA/Δd/χ′和两侧interface费仍保；selected高投影与base相同，直接消费MA7的2^377903，不需MA8完整base2^377904。DB19保完整cL/两高输出。active Green未保存局部F/J、无receiver hook，旧input-side Gram不能给新shell；至多whole范数乘有界投影。此篇无新数值，左/右ordinary body、局部receiver和同态低门继续待付。
+[SB selected源与32模拆分](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)e94ed0d7把同一degree32主算子直接作用selected zδ，精确known ΔA/Δd与未知差均另付，保NR/WC完整 fδ 小源；无需给selected shell添加DB22的粗δPZ body triangle。J≥96只准确消known rank输出，全mean仍保；SB17径向diagonal给较尖mix需另付actual N0/N1。root全文/newton SB13–15/phase SB4–12及17–18独核，无新数值、未声称新receiver/γ低门成立。
 
 ## 7. 单一frame、同对象几何及最终族
 

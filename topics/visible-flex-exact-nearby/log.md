@@ -83,3 +83,11 @@ Green15:15:57 process a9f0b83591cc66ab579ed6de3efb86eae3b70c57/49507B/f254884898
 6κ=1/16,1/8,1/4,3/8,1/2,3/4，各64闭z区间覆盖[0,1/4]；真D−λ/C+λ、两独立mean、one-weight 13ρ和完整outer后验保。15门核完整性，六χw可失败并保原件；只有实际χw<1才能使用该候选Xw/右body/inner。left H=0/sourceq(t)/outputq(r)、physical/moving output分清，旧已成解域不变。static delimiter通过，真正完整AST/Arb仅公开Actions。root另核WC原worker0a474642/33110B/1412c9c4与actual process完全一致；WC SCI=9cfe1e74，1c650195为actual summary SHA并非SCI，已纠正交接字段。
 
 只读两README核db5658f60245f73a587bb8017e4f93c2c57b7343空变更；推入公开自身Actions入口，下一亲读actual，无新本地数学。
+
+### 2026-11-15 15:22:44 UTC — SB：同selected未知直接32模分带，保完整小源
+
+全文亲读6bcc2ce9aa51d57640ba8187d526f765c679cc44/8839B/e94ed0d73b6299970482073efbd7bdd3302e323956b1dbe3c7bbb9f48895e058。root核SB1–18；newton独核SB13–15与全mean/source/receiver，phase回读原E13/DB6–16后独核SB4–12、17–18通过。相同正collar避νbump，P/α/b/g共同径向。Δref A明确保6M0E0+3E0²、primitive三交项及gE1 rank；J≥96仅最后rank高输出准确零。实际非线性差以Wδ为背景，selected球ηδ和完整Δd分别保。高方程直接作用selected z，NR/WC的完整fδ=f0−δb0+δrmean−δ²T2−δ³T3保持；H288真源为0仅用于真解，approx另保Pf。主要shell33..96/225..288无需粗δPZ body triangle，DB22旧转换仍正确。
+
+另SB17以真实径向mean拆分给A_mix，但实际N0/N1尚未赋值；不得由两个独立上界相减。high A*与mean/principal L/cutoff/两侧端口未删。无新数值、未动旧NR/DB/activeGreen；当前Green缺局部F/J，旧inputGram不能变成新输出shell。H短化前完整f1a97ec0436c38aa274ffc1636a4d8277a0f803e同路径，历史单位与义务保留；只读README核cd5186ba1c4c9a1d2bf5763edb66a335058b3dba未变。
+
+RW唯一push run43729429382/1 headf1a97ec job132858381096已识别，未重复dispatch；actual候选待读。

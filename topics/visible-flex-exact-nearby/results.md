@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [SB：保完整 selected 小源的 degree32 分带](results/R133-supplement-selected-reference-band-splitting-with-complete-small-source.md)：用 $z_\delta=P(Q-Q_\delta)$ 保留 NR/WC 已成完整残差，主低 shell 仍为33–96/225–288；known reference 的完整差和未知非线性差各自支付，避免 DB22 的粗基点 body triangle。径向 mean diagonal 只在真实 N0/N1 另付后收尖 mix；全部 mean、cutoff、drift、high费与两侧 receiver 义务保留。纯解析结论，root与两代理分别独核。
+
 - [RJ：保留径向系数 jets 的实际完整源](results/R133-supplement-actual-retained-radial-coefficient-jets-and-density-one-sources.md)：public Actions 43728317408/1、27/27 门、child0，十个 density-one 项全改善，21 其他项逐字保 BG。两窗/六 true-dr/η^-1/独立均值保全，总 pair<5.308195e9、mean<3.445226e7；local<8.700621e8 原字。92 pins/29 AST，旧成功数学及积分零重算；root 全报告、103 球/79 unique、jobs 与原始回执独核。属于完整负源预算，strict传播/腰/强返回继续另付。
 
 - [既成fullδ正侧七输入图](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)及[负一阶七输入八输出](results/R133-supplement-actual-full-delta-negative-one-positive-source-graph.md)重新接入当前检查点：原43617150971/10与43627228225/18成功证据完整只读；后者ordinary H−2/3→raw H−1、全mean/端口/jump与独立外mean保。纠正近期压缩遗漏，不重算或称为新数学；真实source/jump/root/return接线和全Schur仍待付。
