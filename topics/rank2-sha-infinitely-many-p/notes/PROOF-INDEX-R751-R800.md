@@ -95,3 +95,5 @@
 - **R791**：[原J深浅负一行与真实E双块的非退化二算术分量](../results/R791-original-j-depth-negative-moments-and-two-e-sectors.md)。原R773第一返回项的完整CM谱付两η/all-N算术幅度unit；全primitive点因子保后，两个J深浅t/Y值各非零且Qbar独立，真实Π3deep/E双块及固定p深度赋值齐付。原mixed T全外部仍承担其首系数和全部尾，不冒新中央零。公开窄reader/run/hash保。
 
 - **R790**：[同一原cube的完整forcing与因子接触Bockstein真实配对](../results/R790-original-cube-full-forcing-and-factor-contact-bockstein-pairing.md)。全p² forcing精确由同ρ_<s模p²、因子低Hensel缺陷及显式carry读取，保原q而不scalar化；全WD余列在同R上联立。每个真实左对转置到因子HP真左核，指定障碍准确分为固定主部、carry和β_HP配对；两13/第三单位行保，原p³全高尾未删。
+
+- **R794**：[原E/J交域的整三态返回、五维首矩与实际W环带](../results/R794-original-e-j-intersection-and-native-w-annuli.md)。原E_V偶核经整域单射约消付清，物理J截距及所有附门保；已知J负一进入真正E深门，完整帽外负一全N非零。Z环带全五维来源和原W中央首项准确给出，完整E深外部仍保反号补偿。
