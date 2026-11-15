@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-15 22:19:28 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 683694c907d8f4fb63891dbbab80353ed903a82f。
+规则同步记录：2026-11-15 22:22:12 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e286b58406fcf3828e90735416a663933f7215f4。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -33,7 +33,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 ## 最近结论与直接后继
 
-[R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：首正s1/64仅α1、1/4两接受，norm3488.882983，i2十档拒/10281s非预算；17trial各129248行d=b+Aq+s完整，b/Aq微小、s数千/13模型下降，只定位finite_secant，不唯一归因root/cache/J。3sameX+3extra仅6新增noJ，extra不接受；端点/J/FD/fullDN/final未起，已清。exact做195原有限root trace切向，仍付全部原H/J/FD/fullDN/audit，不预填R412。
+[R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)：首正s1/64仅α1、1/4两接受，norm3488.882983，i2十档拒/10281s非预算；17trial各129248行d=b+Aq+s完整，b/Aq微小、s数千/13模型下降，只定位finite_secant，不唯一归因root/cache/J。3sameX+3extra仅6新增noJ，extra不接受；端点/J/FD/fullDN/final未起，已清。[R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)12390B/1d66947d付实际有限root分支切向：逐Cholesky/两代回/原noJ RK/224列226态与338原二阶FD责任保；成功≤29、第30更新后只失败。非IEEE导数/误差证书，不唯一归因172；195完整原链准备，R412未预填。
 
 [R361](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)16真实37/38对+FD/80trial/16接受，末1/8192；最近1/4096线性reserve过/merit降，唯一RIGHT459域障碍，LEFT462较大α仍阻，physical MID461不同。[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)/b7a5 adapter与[191接口](notes/2026-11-15-request191-independent39-gap-condensation-and-one-chain-readback-interface.md)保真98另起39、free461全仿射、10819/103+worker104/八批FD/原预算；单90KB先存再移pair，实际session/quiet后读、cleanup再fresh观察，未知不读删。
 

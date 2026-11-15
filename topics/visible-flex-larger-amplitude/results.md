@@ -472,3 +472,6 @@
 
 
 - [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)24426B/fdf9a2f9及[总接口](notes/2026-11-15-current-C-ten450-complete-radial-and-shared-field-interface.md)21227B/776d2c66、两独立源23039/5cc3134e与48583/6a5f949a已全文根读。真同job450/当前C→全576×steps/2048角/两mean/DC/Nyquist→明确新节点准确Hermite/B/R249/全角cut patch/两帽；抽象S²、准确C²拼接与全t强C²连续解析已付。675只活动片六jet，帽Cartesian区间覆盖未执行；差分二阶/FFT为定义数据、未证原轨迹，R249后metric必须重算。原C E(r)/准确十g不以B′代替，cut/cuff目标atlas/完整E域/自然Rout/全metric/reach/held未付；无真accepted450或实际几何数据。193本次仅真实453→450和现场槽，R409未运行，清raw后只能完整同job重生后接本链。
+
+
+- [R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)12390B/1d66947d已根全文核：原cbf有限root实际接受更新与205b最终Gram隐式J是不同对象；零更新成功分支L=target、DL=Dt，未据此归因172最坏行。三套literal/113root/225Gram/224方向/226态、实际expm1/log1p C与F分开；明确逐Cholesky/两原回代及实际α、原noJ RK和完整stage/cut/far，338的一阶采用新切向、二阶仍原FD。固定实分支光滑定理需定义域与邻域分支稳定；数值AD不冒IEEE导数/严格误差/性能。两成功return均更新≤29，第30次仅失败trace保；195独立接全原H/J/FD/fullDN/fresh audit及原18k总预算，源接线准备，没有新科学前门或实际结果。

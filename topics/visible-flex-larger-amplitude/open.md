@@ -16,6 +16,8 @@
 
 [R369实际172](results/R369-actual172-current-H-complete-secant-and-trial-decomposition.md)43745317876/3975e583、67468B/1e9170eb两job同词：首正H仅α1、1/4两接受，norm3488.882983，i2十档拒/10281s非预算；3sameX+3extra共6新增noJ，extra不接受。三轮17trial各129248行齐，末b≈4.83e−5/Aq≈1.3914e−4、s数千且13原模型下降，只定位finite_secant，不唯一归因root/cache/J或准确Taylor。正H端点/J/FD/fullDN/final/audit未起，确清；124源/六输入/全部原词地址/未访/门及清理保全文，后继继续原有限求值/响应精度，不增诊断验收。
 
+[R411](results/R411-original64-finite-root-trace-matched-variation-and-full-return.md)12390B/1d66947d已根全文核：原cbf有限root实际接受更新与205b最终Gram隐式J是不同对象；零更新成功分支L=target、DL=Dt，未据此归因172最坏行。三套literal/113root/225Gram/224方向/226态、实际expm1/log1p C与F分开；明确逐Cholesky/两原回代及实际α、原noJ RK和完整stage/cut/far，338的一阶采用新切向、二阶仍原FD。固定实分支光滑定理需定义域与邻域分支稳定；数值AD不冒IEEE导数/严格误差/性能。两成功return均更新≤29，第30次仅失败trace保；195独立接全原H/J/FD/fullDN/fresh audit及原18k总预算，源接线准备，没有新科学前门或实际结果。
+
 ### 1B. 完整128末态和固定trace
 
 [R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)：182r3 43757046032/442413b6、89269B/35f0397f必要齐；128首方向α1把norm1.2209605459741099e−4降至9.6858247475102318e−11，replay同，余31方向/9档未访。stage8000s仅20/576，20..575完整未付地址保正文；boundary/endpoint未起。audit576/7488齐，仅C-based有限程序；原98321B摘要70与stage预算独立，global未耗尽，IEEE/连续metric/native/fullDN未付。R388/R393不回填，已清末state须真实重生。
