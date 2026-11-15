@@ -597,3 +597,7 @@ P只读统计实付完成19/第20待约化、basis24452bits/provenance44184bits�
 ## 2026-11-15 21:17:45 UTC — 并发rebase失败恢复与行模失败前缀保全
 新minor源b4a03c7的实际run43762575975已pull成功后遇并发rebase错误，未冒充已推；只合并最新H实拉记录，立即从最新main重新实际pull/rebase/push。
 localized600已核13原根，57步后系数564431/629810bits、464.75MB候选state，exit1且无Ω；已通知修订fraction-free/模块方法，历史/新字典任务继续。
+
+## 2026-11-15 21:21:12 UTC — 所有31精度的已有原来源统一降费8655
+新D*=detB*保不重标，首一K158给q8611及全部原Pℓ整；任一既有Ax≡31^e b mod31^n保同e/n降费max(8655,τ+1)。固定e任意高精度可解才给exact来源，单p6未升级。
+H/open完整归档；新minor重推成功，历史恢复v2修正为原repo cwd并续5输入字典核，另只读失败回执取真实error。逐pull核两README后实际push。

@@ -427,3 +427,5 @@
 - **实际低端forcing全对删除正Gram及完整creation行。** [完整原来源证明](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)把真实加权交换压后方程极化为整个forcing空间的正交叉Gram，准确保碰撞项；共同正分解DαZ=MαDZ、ΣMα≤I给真实整行。Fi≤4(i+1)/3与奇异源变分式付Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3；双缺陷保GΔ†后同u_f/w的配对平方和≤(8/3)Δ_f²||w||²，常数不随Q或头维增长。完整K压后C*后继等于压后−D*后继；未知物理返回列识别、两缺陷Du抵消及顺次MP负部未由此封口。
 
 - **一组明确新原行列给degree8769、首项31单位的最大子式。** [原坐标证明](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)以同核补RΦ1632∪F_H202的真实块三角单位证明J*=P4340+14active E列张满整im，原13free输出的补I*识别饱和像；cokerB*=完整fulltors，故∞66且u66系数31单位。实际字典权H8835给degree8769；新cofactor阶≥55、新原列replacement阶≥66。其小字典读器核5份完整输入及全4340/14/13原索引，不声称实算新大det或旧O149/高26。
+
+- **所有模31精度的既有原来源可统一降费8655。** [完整有限环证明](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)以新unit-leading D*=detB*及首一K158给q=D*/K次数8611、全部Pℓ整，保所有4367输出。任何已存在的Ax≡31^e b mod31^n可保同e/n降费max(8655,τ(b)+1)；利用该既有解才证明adjB*b的K余式为零，故没有偷假目标先为Q[s]成员。固定e任意高n可解且统一有限系数维数才推出exact D31源；单p6不升级。旧Q共同乘子费8531−d仍较小，来源整性/实际Ω/h0自身成员性未由本条解决。
