@@ -1,6 +1,6 @@
 {
   "format": "isp-minimal-recovery-session-request-v1",
-  "rulesReadAtCommit": "c66f749e43904742f8b8ea9778b9441a7b21dd95",
+  "rulesReadAtCommit": "1234b97ef949a864ca547b39c21c6d3521f04e16",
   "rulesGitBlobs": {
     "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -97,5 +97,65 @@
       "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz"
     }
   ],
-  "steps": []
+  "steps": [
+    {
+      "id": "infinity-third-complete-cubic-normal-kernel",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-third-complete-cubic-normal-kernel-789f.py",
+      "scriptSHA256": "42f91004ab4cbd248e7856902bb190ebf3a80fcb43cfe20a7bec27232c49791c",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+          "sha256": "6cb201867c430b4375dbe93cb411ad1e74bea39571261d1ecfec233e4b397517"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-original-transverse-first-connection.json",
+          "sha256": "03c80c0185cc7ea19a6b8aec57f3fcb905f4b6299c5bad2fdc872229bce85548"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-pure-envelope.json",
+          "sha256": "a16ecefa8669222653aacd1a8fb7fb10c858e44d91a117b09db7a851f1da6b98"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-second-normal-envelope.json",
+          "sha256": "cf9d9439fb2ca44921cb4f2614cf3400d5045783e4e9842321c0fdb3aef540da"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-third-left-envelope.json",
+          "sha256": "8df6d0f6ec01a1fcebd9234adc963ad2e73ab3481089f2d5063d805fdfb58f45"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43679903558-infinity-third-cubic-normal-extension.json",
+          "sha256": "7a010dccda1d989e8c7e98e1fc93bdc5072e6d2ff146c7e5764e59dc338c4644"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--normal-generator",
+        "{scripts}/2026-11-15-r150-infinity-second-normal-envelope-789f.py",
+        "--first-connection-receipt",
+        "{scripts}/43679903558-original-transverse-first-connection.json",
+        "--second-pure-receipt",
+        "{scripts}/43679903558-infinity-second-pure-envelope.json",
+        "--second-normal-receipt",
+        "{scripts}/43679903558-infinity-second-normal-envelope.json",
+        "--third-receipt",
+        "{scripts}/43679903558-infinity-third-left-envelope.json",
+        "--cubic-receipt",
+        "{scripts}/43679903558-infinity-third-cubic-normal-extension.json",
+        "--checkpoint-dir",
+        "{work}/third-complete-cubic-checkpoint",
+        "--out",
+        "{work}/infinity-third-complete-cubic-normal-kernel-receipt.json",
+        "--remaining-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 80,
+      "receiptPath": "{work}/infinity-third-complete-cubic-normal-kernel-receipt.json"
+    }
+  ]
 }
