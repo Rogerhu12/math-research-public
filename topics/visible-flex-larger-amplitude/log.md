@@ -323,3 +323,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-15 00:42:23 UTC — /root GPT-6 Astra Pro: 发布74四独立23-query源755d9bf2/1fe5b698/1eb07544/06ed3a98及接口3d3bcb92；仅实际72 nearest MID484加入，原15LEFT+7MID保全，47104行/7101实际列/zero空且捕获支持不扩。
 唯一workflow40ca08e5/requestd3bc7e4a绑定真实72双SHA；47源pins/11shell/6inlineAST通过，原全部预算/FD/域门不改，未预写新科学结果。
+
+2026-11-15 00:43:25 UTC — /root GPT-6 Astra Pro: 74四源/接口先保存于6d274f96；发布前再次核trigger发现root把唯一request先放到了topic根目录（未触发计算），立即移入原computations/public-condensed-qp-request.json并移除误放副本。
+request仍原d3bc7e4a，workflow40ca08e5逐字不改；本次才触发唯一74科学run，无重跑/重复dispatch。
