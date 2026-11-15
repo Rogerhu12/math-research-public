@@ -1,4 +1,5 @@
 # R814 — 三个原十八阶角色的共同固定 good pair 与同一几何来源的 AJ 平方
+> 后继：[R817](R817-fixed-prime-original-negative-two-and-nonzero-fixed-cycles.md) 已用唯一固定普通素数7993的原负二整矩证书，证明本篇三份固定 cycle 的实际 AJ 非零，因而其真实有限角色投影在共同 Chow 模中非零且独立。其它 p 的 AJ 非零和原中央仍未付。
 
 日期：2026-11-15。**状态：已证明。** R804／R806 的三个角色可以同时使用一条固定的 weight4 CM 模形式、一个固定的有限层几何来源和三个固定的有限角色。选择这些对象时不需要知道随后采用的普通素数 p。本文还保留原负二矩与这些固定 generalized Heegner cycles 的 Abel–Jacobi 配对之间的准确平方恒等式，包括两个不同的 ordinary Euler、原 30 平滑、Artin/CM 周期和真实 de Rham 基变换。
 

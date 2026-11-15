@@ -199,3 +199,6 @@ R815完整证明原十九角X的26条Mori/4501条nef极射线，惰性Fp为21/90
 
 
 R790完整增补已付原q0零/移动H及ell=1,2：EF支付保持整个H的整点归一，较小真H⁰(X,O(C))在h>κ核kF、下一行unit并给实际SchurΔ/p。ell2保C_ell=(6/a)Hcal^-1QeV²及第三真余行，所有余列左对须含n²τ，完整障碍再含−τ(C_ell)；未scalar化原q、未删除同R/两13/下一位，指定非零仍开。见[完整增补](notes/2026-11-15-r790-moving-factor-and-two-short-blocks.md)。
+
+
+R817在唯一固定p7993精确重建原CM13/PB4及完整sigma整窗，三实际归一B4负二矩的Ω^-7990余值2522/2828/3696均unit；真实unit depletion、b17/7990!/周期和谱归一保。由原Soulé/AJ比较付该p三个z_j和固定cycle均非零，三个实际有限χ投影在同Chow模独立。未外推别p、原Sha7993、原三I线性和或点AST；c_j仅需非零不预称该p单位。见[R817](results/R817-fixed-prime-original-negative-two-and-nonzero-fixed-cycles.md)。
