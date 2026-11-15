@@ -1,0 +1,246 @@
+{
+  "schema": "R133_three_old_D5_endpoint_output_deletion_whitelist_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "created_utc": "2026-11-15",
+  "restore_commit": "8870549d52e48343cb43a979a13f9368cb992736",
+  "audit_scope": "Only frozen small manifests, original proof texts, small producer source and input definitions, and Git tree metadata read; no target output body or binary read or scientific execution.",
+  "deletion_mode": "Ordinary exact guarded Git deletions; no force, history rewrite, artifact deletion, script/proof/object deletion, or mathematical rerun.",
+  "immutable_restore_tree_chain": [
+    {
+      "path": "",
+      "tree": "b75c3910fcb333499e06877ffadc482e0c8fafe4"
+    },
+    {
+      "path": "topics",
+      "tree": "0acf49c486a356799663d9c946c2537162c95897"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby",
+      "tree": "ab7480f02391f0a89e6d409c04a0612c312bdc1d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes",
+      "tree": "539839a690b10f75b1de2984b2d452bac4b4c32f"
+    }
+  ],
+  "total_selected_output_bytes": 617556,
+  "entries": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-knot-Hnodes516.json",
+      "git_blob_sha": "f3983420831e1088179edc377fd89ebf1876c939",
+      "bytes": 156637,
+      "sha256": "118239ce6fa60c1363e65ae15759dc5c2aee11115ecea43349c4ec9476f40791",
+      "classification": "Completed reproducible floating endpoint output; not an original object, definition, proof, script or instruction.",
+      "original_scope": "Floating ODE ray and parameter-column samples at this exact parameter; not a continuous validated trajectory, KAM acceptance, PDE inverse or completed surface.",
+      "frozen_output_evidence": {
+        "blob": "0c50b6fc9b377c64e7210183b2cf3d2720dc39c8",
+        "bytes": 22692,
+        "sha256": "c83fe33edb6d2bd9285dc6f198d741fef54389e67d70f3c55ab07c1d43510809",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-shared516-step4-preconjugacy-frozen-manifest.json"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-shared516-exact-step4-and-preconjugacy.md",
+        "blob": "31a8751a78db56805d8ce56aacf1779e3450afc1",
+        "bytes": 7187,
+        "sha256": "e6ac082874a7936b671973e4f93c9aca473e2f6a5076108dba48a35fdbabd71f"
+      },
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_knot_aligned_nodes.py",
+        "blob": "024aedd6d2c47cffb9fd5ed57d0442877db54c56",
+        "bytes": 1353,
+        "sha256": "ce862bebcb7d81578a946ec985e33a7a8fb78a7ce1dcb49806e6f5bd48cd2106"
+      },
+      "retained_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "bytes": 1638,
+          "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "bytes": 9997,
+          "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+          "bytes": 40008,
+          "sha256": "028a95679f5c6e6ff6438b539c9c427f745f976a4dbc70b46c0bb01dd0f4fb49"
+        }
+      ],
+      "original_parameters": {
+        "quarter_nodes": 256,
+        "rays": 516,
+        "block_size": 43,
+        "tolerance": "2e-12",
+        "resume": true,
+        "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+        "root_certificate": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+        "dyadic_conjugacy": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+        "original_trace_directory": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_knot_dense516",
+        "working_directory": "topics/visible-flex-exact-nearby"
+      },
+      "original_parameters_are_provenance_only_not_authorization_to_rerun": true,
+      "original_numerical_result_bodies_read_for_this_audit": false,
+      "restore": {
+        "commit": "8870549d52e48343cb43a979a13f9368cb992736",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-knot-Hnodes516.json",
+        "method": "git show <commit>:<path> to public runner scratch; verify byte count, Git blob and SHA256 before use; never recompute completed old math"
+      },
+      "specific_scope": "Preserve both grouped and shared-grid results as distinct floating runs at the exact step3 object; their close sampled difference is not a directed ODE error."
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-shared-knot-Hnodes516.json",
+      "git_blob_sha": "df95e900f5d4072cf09b2f16394344a4f0ecf1e6",
+      "bytes": 159444,
+      "sha256": "3ba4ca28b138a63ca9fe3ce6202e393ab33cc7d5b15063a7580902458085278b",
+      "classification": "Completed reproducible floating endpoint output; not an original object, definition, proof, script or instruction.",
+      "original_scope": "Floating ODE ray and parameter-column samples at this exact parameter; not a continuous validated trajectory, KAM acceptance, PDE inverse or completed surface.",
+      "frozen_output_evidence": {
+        "blob": "0c50b6fc9b377c64e7210183b2cf3d2720dc39c8",
+        "bytes": 22692,
+        "sha256": "c83fe33edb6d2bd9285dc6f198d741fef54389e67d70f3c55ab07c1d43510809",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-shared516-step4-preconjugacy-frozen-manifest.json"
+      },
+      "retained_proof": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-shared516-exact-step4-and-preconjugacy.md",
+        "blob": "31a8751a78db56805d8ce56aacf1779e3450afc1",
+        "bytes": 7187,
+        "sha256": "e6ac082874a7936b671973e4f93c9aca473e2f6a5076108dba48a35fdbabd71f"
+      },
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_shared_knot_nodes.py",
+        "blob": "baa67bc39d9025703e84d88f45708c0673954c85",
+        "bytes": 3028,
+        "sha256": "1f97fdfd51c546540b6f53598845bff560cd922c83754a0d194c7de9bb73e8f8"
+      },
+      "retained_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+          "bytes": 1638,
+          "sha256": "e6ff2d46ed2d321c1b287e6c9d8e44ead7b9a70523350d145d703b4edd6def0f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+          "bytes": 9997,
+          "sha256": "afdc964a11682f9c54ceb1e6a165950f007ea26ab917f8dbde8b38c9fe78629f"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+          "bytes": 40008,
+          "sha256": "028a95679f5c6e6ff6438b539c9c427f745f976a4dbc70b46c0bb01dd0f4fb49"
+        }
+      ],
+      "original_parameters": {
+        "quarter_nodes": 256,
+        "rays": 516,
+        "block_size": 516,
+        "tolerance": "2e-12",
+        "resume": true,
+        "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_object.json",
+        "root_certificate": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_root_tight.json",
+        "dyadic_conjugacy": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step3_dyadic_H.json",
+        "original_trace_directory": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step3_shared_knot_dense516",
+        "working_directory": "topics/visible-flex-exact-nearby"
+      },
+      "original_parameters_are_provenance_only_not_authorization_to_rerun": true,
+      "original_numerical_result_bodies_read_for_this_audit": false,
+      "restore": {
+        "commit": "8870549d52e48343cb43a979a13f9368cb992736",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step3-shared-knot-Hnodes516.json",
+        "method": "git show <commit>:<path> to public runner scratch; verify byte count, Git blob and SHA256 before use; never recompute completed old math"
+      },
+      "specific_scope": "Preserve both grouped and shared-grid results as distinct floating runs at the exact step3 object; their close sampled difference is not a directed ODE error."
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step4-shared-knot-Hnodes1032.json",
+      "git_blob_sha": "89cda4535dd3edd2c3ec60c5d9c95ff2c43a54ad",
+      "bytes": 301475,
+      "sha256": "4ef35b2a2eb3320a67b9a777859feeffb8448057c97c5e5e2053fbf86e156d01",
+      "classification": "Completed reproducible floating endpoint output; not an original object, definition, proof, script or instruction.",
+      "original_scope": "Floating ODE ray and parameter-column samples at this exact parameter; not a continuous validated trajectory, KAM acceptance, PDE inverse or completed surface.",
+      "frozen_output_evidence": {
+        "blob": "5de702888ec7896066ff6a9de783cbc7e5e75f3c",
+        "bytes": 2292,
+        "sha256": "98b8c7d7a341c5e239ccf157b5efc61750475867fe16f53aa2c6cbc10784cff4",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-step4-1032-step5-predictor-frozen-manifest.json"
+      },
+      "retained_proof": {
+        "blob": "1d312ed4d044ddd98715ec62fa8160513632a7dc",
+        "bytes": 5865,
+        "sha256": "7bc7d6dc018667e93e11918c40b2f1bac4e476ba5ae173d63c961b0e189dcabc",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-step4-1032-and-step5-predictor.md"
+      },
+      "producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_shared_grid_adaptive_chunks.py",
+        "blob": "e72d626f2e5ca5128226804f77bab54e39410c2f",
+        "bytes": 2694,
+        "sha256": "0245627b9973a0cbac80c5466e6276d91ec9ad61d4c60d9f25286fac2a799994"
+      },
+      "retained_input_pins": [
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+          "bytes": 1638,
+          "sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5",
+          "git_blob_sha": "6e214ee2b49194a764372bf6f28452b9331f6cdf"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_root_tight.json",
+          "bytes": 9992,
+          "sha256": "03a0863733b25b6c4058a39590648dda2292a2943e783021747e3bc3f27c86f4",
+          "git_blob_sha": "f798e96a951f073423eef29fae87a935da39b0e7"
+        },
+        {
+          "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_dyadic_H.json",
+          "bytes": 64427,
+          "sha256": "8bd6078f8c442b48bab2b15850b99e2455d616ab48e687abb22114a1f1bfe39b",
+          "git_blob_sha": "10adc628428a6886c7f5e05be2a240c2a8028056"
+        }
+      ],
+      "original_parameters": {
+        "quarter_nodes": 256,
+        "rays": 1032,
+        "block_size": 1032,
+        "tolerance": "2e-12",
+        "resume": true,
+        "object": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+        "root_certificate": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_root_tight.json",
+        "dyadic_conjugacy": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_dyadic_H.json",
+        "original_trace_directory": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/exact_affine_step4_shared_knot_dense1032",
+        "working_directory": "topics/visible-flex-exact-nearby"
+      },
+      "original_parameters_are_provenance_only_not_authorization_to_rerun": true,
+      "original_numerical_result_bodies_read_for_this_audit": false,
+      "restore": {
+        "commit": "8870549d52e48343cb43a979a13f9368cb992736",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step4-shared-knot-Hnodes1032.json",
+        "method": "git show <commit>:<path> to public runner scratch; verify byte count, Git blob and SHA256 before use; never recompute completed old math"
+      },
+      "specific_scope": "The recorded float root derivative lies outside that object's later strict interval. Preserve this incompatibility and all unpaid continuous-flow errors; do not relabel step4 samples as the step5 exact predictor."
+    }
+  ],
+  "retained_dependencies": {
+    "shared_runner_manifest": {
+      "blob": "a1b46ca3f6f0d6a958473fe29d34d188597caecb",
+      "bytes": 1610,
+      "sha256": "90c5a2cce64262f479b69ec419840d00a81a18c7cb9424984fcd9987316e461f"
+    },
+    "full_step3_original_inputs": {
+      "blob": "6aa827223aef9b19fb32124455dc7543575270fe",
+      "bytes": 13636,
+      "sha256": "006a3d03f0dd2fed9f179d6fc66bea301e30bce57eac0e3d9b75676c842d0beb"
+    },
+    "step4_source": {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_shared_grid_adaptive_chunks.py",
+      "blob": "e72d626f2e5ca5128226804f77bab54e39410c2f",
+      "bytes": 2694,
+      "sha256": "0245627b9973a0cbac80c5466e6276d91ec9ad61d4c60d9f25286fac2a799994"
+    },
+    "prior_cleanup_whitelist": "notes/2026-11-15-R93-R94-D5-old-output-deletion-whitelist.json"
+  },
+  "fresh_guard_requirements": [
+    "Each exact target path, bytes and Git blob must match immediately before deletion.",
+    "All original objects, scripts, manifests, proofs, hash tables and failures remain retained.",
+    "This whitelist alone does not claim the deletions have occurred.",
+    "Restore original completed bytes; never rerun either completed numerical science or completed diagnostic to recover them."
+  ]
+}

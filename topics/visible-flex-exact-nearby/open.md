@@ -138,12 +138,12 @@ R/MC保fδ=f0−δb0+δrmean e2−δ²T2−δ³T3、连续repair/offset径导/in
 
 ## 8. 执行规则与当前可恢复记录
 
-只用public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字、静态核和来源元数据。成功旧数学禁重。根规15仅script/args/run/SHA/真正小结论；data/证书/新数组不入Git/Release/新artifact，旧输入immutable公开history/path/已有artifact临时核SHA恢复，各consumer核topic≤200MB及120KB预留。
+只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，consumer实核topic≤200MB+120KB预留。
 
-全部旧输出普通删除、完整参数/原域/producer和精确恢复清单保b04a6a5f7abfd1574608750392fe559413d8a259本路径第8节与HANDOFF递归原档，无historyrewrite。最近四件R64/R66/R91/R95删1049034B，清单notes/2026-11-15-R64-R66-R91-R95-old-output-deletion-whitelist.json/ae406265，restore dc10bb948416e2f89f4cd487867b6a06cceb5f48:path+bytes/SHA；更早ec6c38bc/da6b6e3a/cbb63584全部清单和失败原字保留，成功数学不重算。
+全部旧删除/恢复/原域/producer/参数/失败逐字保3f716b507943ddccfd818db5cb53f5b937701421本路径第8节和H/log，递归b04a6/506de/81041；原清单均保。R64/R66/R91/R95四件1049034B恢复dc10bb948416e2f89f4cd487867b6a06cceb5f48；R93/R94/D5五件800471B清单6d66c2c5，恢复6d7c7422888a1bdf02e6eba7183954f5fc49a6fb。全部同path/bytes/SHA，无historyrewrite，原scope不变。
 
-新依根规15普通删R93/R94/D5五旧输出800471B，见[五件精确清单](notes/2026-11-15-R93-R94-D5-old-output-deletion-whitelist.json)6d66c2c5。restore6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同path+bytes/SHA；R93高体限制与R94完整弱通量、D5浮点诊断各原scope保留，非原seed/脚本/证明，成功数学不重算。
+本次依[三份D5 endpoint输出清单](notes/2026-11-15-D5-three-old-endpoint-output-deletion-whitelist.json)ac4eb046，普通删除617556B；只旧step3 grouped/shared516与step4 shared1032浮点输出。精确恢复8870549d52e48343cb43a979a13f9368cb992736同path/bytes/Gitblob/SHA。原scripts/objects/root/H/manifest/proof保，step4浮点root导与strict区间不相容诊断保；不是ODE证书/seed，成功诊断也不得重做。
 
-每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；每小时真pull后查两README只读diff照新规记H。17:49:19定时/18:09两次非FF CLI仍无executor，根规8限<100KB UTF8 connector、禁binary/gzip，ref非pull；下一真CLI≤18:49。runner最近实际pull/容量见完整report，每consumer重核200MB+120KB。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功、禁force。每小时真pull后查两README只读diff即照新规记H。17:49:19定时/18:09及18:18非FF CLI仍无executor；根规8限UTF8<100KB connector、禁binary/gzip/ref冒pull，下一真CLI≤18:49。runner真pull/容量依完整receipt。
 
-子问题完成即接下一项；总门未达不收尾，不因时长或阶段报告停下。
+子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。

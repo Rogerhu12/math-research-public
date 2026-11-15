@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 18:20:41 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 18:23:06 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则与逐字归档
 
 只在public Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。root独管main/H/open/results/log，代理只交blob。每结论独推，非FF立即真CLI pull --rebase保远端循环成功，禁force；PAT仅临时CLI/env，不入文件/输出/connector，根规12无需再批。
 根规15：可重算data/证书/新数组禁Git/Release/新artifact，只scripts/args/run/SHA/真小结论，topic≤200MB。旧输入按immutable公开history/path/旧artifact临时核SHA恢复，成功旧数学禁重，lost未发布新量可重做。无executor根规8仅UTF8<100KB connector，禁binary/gzip。H≤10KB/open≤30KB。
 本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 17:49:19定时/18:09两次非FF即时CLI仍无环境。checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。下一每小时真CLI≤18:49，ref不冒pull；runner实际pull见SN及原日志。
-最近只读README核：40317d9332979b6aea69e3b6c00e6d20c25f34bc；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：879b74e476c3d0a277ccc780c5c6497a0fa68dfc；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整压缩前H/open/results/log逐字保96001fbab4e62356d30ebf5b105b381e7639fe06同路径，递归5fd5/c820/81041a9e/3c74/e9e0d67a全部旧档。旧域/mean/单位/失败/restore/未付义务逐项保，成功数学禁重。
 
 ## 同一个对象与总验收
@@ -47,5 +47,5 @@ Saba52db8/RG90acb31e/C0ada0f96/Tdb1253a6：同γ低高域A0/r≤1/128、H8193/r�
 
 ## 容量与持续执行
 
-全部删除/restore链保506de085110d7249a7641b13e0b8cd715ad3cab9及81041a9e同H/open/log。R93/R94/D5五旧输出800471B清单6d66c2c5、restore6d7c7422888a1bdf02e6eba7183954f5fc49a6fb同path/bytes/SHA；script/proof/params/scope保，完成科学/诊断禁重。每consumer实核200MB+120KB预留。
+全部旧删除/restore/原scope逐字保3f716b507943ddccfd818db5cb53f5b937701421同H/open/log及原清单。本次三D5 endpoint旧输出617556B普通删，清单ac4eb046；恢复8870549d52e48343cb43a979a13f9368cb992736同path/bytes/Gitblob/SHA。script/object/root/H/proof及step4不相容诊断保；完成科学/诊断禁重。每consumer核200MB+120KB。
 继续open：c0/强返回/incoming→GH/真ν；完整affine/五输入/low-shell/γ入口→同态core与连续tail；全matching后同对象最终几何。总标准未达持续、不等用户、不因时长停。
