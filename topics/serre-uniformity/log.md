@@ -668,3 +668,9 @@
 - 四CM值/一阶响应只需消费原R790与真实518；原14branch全单位才给整体商。点值候选仍需准确bordered零或行空间乘回，不送旧R792成功接口。
 - 完整证明notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md，SHA8d5b58a5；新最小CM consumer实施中，R837真实success回执由原作者接入。
 - 本push规则：本地真实pull至793d723a806e86614d1a361fd4e3e098381c6b48（2026-11-15T22:49:43.140837+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:51 Asia/Taipei — serre-public-astra-20261115
+- 原二阶长度判据e7888210已证并激活：core7a6d64aa/runner f42e96fc，只新三块投影2429节点/插值/gcd，旧d0和真实σ∞子式（只层0/1）直接复用。
+- 真gcd395时由proper有限DVR余商长度≤415与原I2长度415+ε夹逼得ε0/J2=I2；此刻未预称实际通过，源27.5MB原样续传。
+- R837真实run43770995901/job132986722252已success，正式源与1213minor回执接入；修正R787518结束笔记的方法文件链接，原结论不变。
+- 本push规则：本地真实pull至9d790b6a2cf758b344ba29e8639508e5184d64e1（2026-11-15T22:51:19.120594+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

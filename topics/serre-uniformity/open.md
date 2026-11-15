@@ -48,6 +48,9 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 ### 原p41函数与高度输入
 
+**原二阶长度新入口**：[395充分判据](notes/R827-original-order2-colength-and-complete-I2-certificate.md)e7888210与[请求](notes/R827-order2-colength-public-request.json)本push激活；core7a6d64aa/runner f42e96fc。只新det(G0+G1+G2)的2429节点/准确插值/gcd，旧d0(1320)与σ∞det695832206直接复用；原σ子式列均层0/1。若真gcd395，proper长度夹逼迫ε0及J2=I2；未运行前不称成功。复用原27.5MB carrier，旧导数/整除/σ/1341节点不重。
+
+
 **R787真隐式关系已证**：[原单位选行块/CM值](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5用真2420×2420 L块+完整28维核，adj/det唯一原free1186关系自动满足全部129/280；不假Q逆或模重构成功。四CM响应可直接收缩真实518当前值，原6724^5/κ/ζ转换一次；全14branch单位才取整体518商。准确展开点须bordered determinant零或真行空间乘回；此时只定义精确表达式，尚未计算CM新收缩/点坐标。原权6的2692块同理定义全部300真隐式B，非300模向量冒名。
 
 
@@ -88,7 +91,7 @@ R735/R738/R745原模型、4920陪集/800闭链/六Hodge、R754 period/Hom、R759
 
 **R836已证短核入口**：[固定21点铅笔与原D](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保ε=multP0D未知，E2=C+D+εP0，完整整商I_D=(I2:I_(C+P0))。权2两锚在原V5的rank1213认证共同零恰21点；完整T4时830/832×690核=M3(D)，dim295。真不完整短源仅给包含，实际295维或272个权2/3/4候选+V4真962minor/权和793才迫完整；未有实际锚/T′/D/eta。单B模列不能冒名完整char0层，q3只备选未跑。
 
-**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；真实run43770995901/sourcefa17c77f已激活。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
+**R837固定锚已发布公开入口**：[方法](notes/R837-original-fixed-branch-pencil-method.md)3fdfec25/[请求](notes/R837-fixed-branch-pencil-public-request.json)，core5702b42e/runner eec99c9e、workflow9751c619；真实run43770995901/job132986722252/sourcefa17c77f已success，三旗标/rank1213；正式小回执接入中。原T41/qY负号与6724不变；560×146两个Q右端→P0，cusp40/rank20及P0→397维原U，2760×1380真1213minor证两锚。source R79043688215703/49b5ccda、R78643682100611/e3c29e85合1413必要原文件、无旧CM/前缀重算；同prime固定u积复用、17列原子阶段、预算/8试次不入数学身份。尚无实际P0/U/锚成功回执。
 
 **R820实际两图C已成**：[完整结果](results/R820-certified-original-cusp-finite-algebra-and-ideals.md)run43721747750/source7890fde1，rank/colength20，292步/5380非monic/d27120，600ZIP/598manifest/590stage/289输入全核。原273行/F20/两锚点/Z^-eps不改，不重算。
 

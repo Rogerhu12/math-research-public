@@ -1,6 +1,6 @@
 # R787：518 位新全格的实际结束与固定基行边界
 
-本条登记公开 run **43766834526**、job **132973884134**、source **0084d2e067710af828ae071e7850764791e41300** 的真实输出。方法为[原精度增量完整核格](R787-original-precision-increment-kernel-lattice-method.md)；原 518 位输入与双入口已在[断点记录](R787-518-digit-checkpoint-and-precision-increment-activation.md)登记。不得重做已成 430 位格、旧 98 条候选或旧固定分母向量的 \(\Omega\) 结论。
+本条登记公开 run **43766834526**、job **132973884134**、source **0084d2e067710af828ae071e7850764791e41300** 的真实输出。方法为[原精度增量完整核格](R787-original-precision-increment-kernel-lattice-and-source-contract.md)；原 518 位输入与双入口已在[断点记录](R787-518-digit-checkpoint-and-precision-increment-activation.md)登记。不得重做已成 430 位格、旧 98 条候选或旧固定分母向量的 \(\Omega\) 结论。
 
 ## 1. 完整格已经准确取得
 
