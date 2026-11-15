@@ -137,8 +137,9 @@ P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
 通过后六角jet用18个已成正线性系数转换，同一个local预算数比率可复用旧6行/dr/rootband。
 P26显式保每点|ρ|^-1/4和原平方权|ρ|^-1/2 dr；Cnew本身不是无根权的点值norm。
 最小consumer已部署：17pins/467721B，1旧fold+4成功receipt/18系数/31项只读，
-仅新一次小域/connection/L1预算、1比率/3组合。实际43705772615/1的step9在11:03失败，
-此前AST/runtime成功；真实日志与科学启动状态待核，13门尚无回执。
+仅新一次小域/connection/L1预算、1比率/3组合。diag43707945899证首43705772615首次sync超时、child0；
+恢复43707514815已结束1child，后出版rebase触发未公开HEAD树404，数学exit/gates未知、temp失。
+按用户要求重做未推结果，仅恢复这段新消费者；原SCI/17pins及全部旧成功锁定。
 恢复worker7f7b9126/flow7a5df407仅改容量元数据与旧失败诊断：exact-HEAD API树
 严格核完整topic bytes及出版两小文件增量；原SCI/17pins冻结。
 先临时读旧job完整log并核bytes/SHA、真实首次sync的ls-tree超时stack及旧worker源码；
@@ -278,100 +279,44 @@ F本身只授实际body存在性。新增[S非线性far固定图与Nash](results
 现已在原解析γ域及§11明确的固定粗H8193域内同时解body和真实far；内core/waist/ν仍须联立。
 该证明使用真正保持nonlinear值图的坐标，未把linearized行冒作值保持。
 
-## 6. 实际外行与保持非线性far匹配的完整迭代
+## 6. 完整exact tail、连续选解及真实参数列
 
-实际Φ→long、完整high/source及body Nash已付。S现已付解析域以及独立§11
-粗physical γ A0/rγ≤1/128、H8193/rγ≤2^1048576域的真实nonlinear far值约束。
-RG的右零宽/真实B端宽种子保原94/G全整数界；S44端点费用5530265<6291456，
-保全部mean/physical单位、1734/1796及strong差。当前继续实际core/waist/ν全匹配。
+本节压缩前全部域/源单位/指数/未付门保存在b63ef7fde2b03c4b90636725e28e5d342acade10同路径；
+其已成功数学不重算。当前固定实际physical γ满足
+A0/rγ≤1/128、H8193/rγ≤2^1048576，rγ=1e−9。
 
-S使用U=w+L∂qγ(f)，固定fL∂=0使J逆准确nilpotent，并在E_s^+增加
-2^440||fB||H(s+3)。额外端导由实际两行微分、FU完整inverse及原source取得，
-不增加1734/1796网络损失。固定affine与非径向linear项、两条真正comm均计入。
-在ρ+=2^-33554432、T0=2^1500000下，同一3500/400归纳给
-完整body F=0、真实far bγ=0和holonomy；相对同一个实际seed的
-E1856变化<2^-1700000000。
-S40–41由真深层profile及完整mean给scalarheight物理a-jets C²平延，保全部ρ费用。
-T§10现在由同一coframe/Ω/α/X积分与显式三个二阶jet，证明真实C²整平盘；
-core/waist全匹配后才由共同quarter旋转与唯一腰平面推出镜像两盘同轴。
-实际盘距和全部几何费用现由第7节G在同对象core/fullC0入口下转授旧B，核心入口仍待。
-S§11只逐个固定γ授exact tail存在，尚不自动给γ→u∞选解图可微。
-其RG种子a94(γ)和对应冻结Γ2可随γ变化；R的fixed-metric tiny列不能未经
-真实参数/差分论证就认成该选解图的导数。最终core仍须验证完整物理γ低/高门。
+[RG粗输入真实94/G种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)
+用M零宽帽和真实long分离端：B宽7L/16、E'>39194024及原94/G全部指数不变。
+实际Γ2由a94(γ)选择，随γ可变，每次body迭代内冻结；
+Γ1由真实principal map选定，fixed-γ collar不改negative principal输入。
 
-[D完整两actual外传输](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)
-已付全finite connector/Poisson后的weighted差合同。
-同short及明确zero-input真fixed-CR reference保finite反射/EB0，
-d1792是±1796的真实physical Hhalf→H−half差，无sB归一。
-先单独闭正片半阶Neumann、再high/deep，最后Lnew ΔU Rold保全部长程；
-完整双逆v#差<2^3000000 d1792，d≤2^-3500000足付第二N2门。
-B源→remaining<2^1500000、相容完整tail→normalized fB<2^3100000/sB，
-独立mean/flux/height/λ均保，O局部门与HT新高常数账已成。
+[O实际帽/long](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)、
+[D完整外行](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)、
+[HT全窗口](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)
+已付两N2低门、最高反馈2^-608928；full N最终8388609/33554433、
+loss1734/bg1796不变。真实finite反射、EB0、adjoint、mean/flux/height/λ与全Poisson保留。
+未screen另保Dact/2^41943040，不能把这些行的tame界冒完整增广逆。
 
-[N两层全网络](results/R119-supplement-two-level-full-network-tame-inverse-and-complete-sources.md)
-在低R1856≤2^-8192000、高至8192仅finite时付原proxy及projected
-第一参数反馈；真实EN仍有1734/1796体系中的有损残差缺陷。
-一般charged projected inverse不等于charged非线性Γ值图。
+[S非线性far及完整Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
+§11现付上述粗H8193域的exact body F=0、真实far bγ=0及holonomy。
+U=w+L∂qγ(f)，fL∂=0使J逆nilpotent；E_s^+加2^440||fB||H(s+3)，
+额外端导由实际两行恢复。affine/非径linear/二次项、两comm和DΠ_A[v]f分别记账。
+ρ+=2^-33554432、C+=2^167772160(1+Bbarγ)^8、T0=2^1500000，
+3500/400归纳给E1856离seed<2^-1700000000；端核5530265<6291456，最高窗8192不扩。
+三径source/四径state和A22完整端缺陷保，S40–41/T给真物理C²整盘。
 
-更新真实外图必须分别付：
+[C连续exact-tail选择和真实第二相位列](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)
+现证明同一确定RG seed/Nash序列的γH8193→u∞ E1856+连续。
+真实Γ2层权W=J³δ^-5 C^P下q和Dγq均极小；先用精确L0 reference差统一图范数，
+再在固定非mean/B0域重建完整holonomy mean。C19真实proxy差分用S24低E20逆，
+结合实际correction E6396界插值、S37统一尾，得到连续而不借同阶Banach逆。
+actual fB∞连续H1859、统一<2^-54865000，像在H2相对紧。
 
-1. A1824≤2^-2097152，连同actual relative form、adjoint、
-   完整Poisson、mean及physical源接口。
-2. (v#)^−1 ΔS_rem,out (v#)^−1 在H1792的完整范数<2^-400000，
-   **经过全部真实finite connector和Poisson**。
-   局部门不能替代该门；两个actual图之差的deep/long程项不准设0。
-
-[O actual两输入cap→long](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)
-现已直接以M的ΦdotA²<1e−8和真实两输入导数重实例化，
-不要求实际帽trace属于旧K的Z/(3.3e−10)≤1/16球。
-q≤8144的Cq=2^{384(q+32)+262144}保full known-only lag、
-one-high/真实adjoint/rank-one/mean与物理单位；
-Γ/ν/metric方向仍另列。O21明确R1856与γ低/高输入域，
-给A1824<2^-7000000及actual相对radial<2^-6167547。
-旧合法zero-input真fixed-CR reference仍含finite反射/EB0，
-其相对radial<2^-7996412，故两actual d1792<2^-6000000。
-结合D得到完整双逆v#差<2^-3000000，
-**两个独立N2低门现已在O21域内支付**。
-这不使未知inner匹配γ自动落入该域，也不删其独立输出。
-
-[HT完整actual高阶和源](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)
-现已把C8144=2^3401728真正计入，先low正片后high吸收，没有循环。
-最高新反馈2^-608928；三种high插入最大20609056仍在原20971520桶内；
-raw source未放宽32805408<33554432。
-因此原N最终8388609/33554433与loss1734/bg1796窗口保持。
-全部未screen输出另保Dact与2^41943040费用；这是已有行的tame界，
-不是它们联立矩阵的逆。
-独立γ列保sBε，f*source准确为−μL sB DgK，
-physical远端height须除sR；meanheight aw(L)/165、两曲率mean、
-一λ及全inner读出不screen，Robin/weak/原子/独立荷保持。
-
-[J三径source](results/R119-supplement-three-radial-source-jets-four-state-jets-and-1734-loss.md)
-只要求ordinary源前三径导，state四径，s≤6396/bg s+1796≤8192。
-[E真graph](results/R119-supplement-reference-graph-scale-exact-residual-and-angular-smoothing.md)
-让固定L0与S_T交换，每次重建firstΓ和holonomy mean；
-[A近似逆](results/R119-supplement-reference-graph-approximate-right-inverse-and-exact-port-defects.md)
-与[B有限Nash](results/R119-supplement-finite-Nash-iteration-in-reference-graph-with-port-conditions.md)
-的已付1734/1796窗口保持。
-v=S_Tu、w=−R_v S_Tf没有第二截断；a1856/b6396、
-损失1734/bg1796、p3000/Tnext=T^5/4，high3500/400，
-低−4220、高1*T320+C*T274均保。
-
-完整A22端口缺陷、DΠ_A[v]f、L=J−EN/c、EN各真项继续存在。
-参数高度Hp仅在同截面差中相消；跨端ΔHp、未screen meanheight与一个λ
-仍须准确保留。ν及实际给定的独立荷须联立；当前自由安放单半面路线
-依T§9把height/frame作为同次重建的输出，而不额外预设两世界锚。
-body/holonomy mean收敛不等于真实far和内帽/core全匹配。
-当前E/L/B冻结最终Γ2、沿Γ1*(u)设计一个最终metric的成员。
-原C6–7的ν也是intrinsic设计参数，最终ν*/Γ1*/Γ2*/η及其它metric数据
-须一次选定后全部固定。
-[P准确相位与静态marker入口](results/R133-supplement-frozen-metric-extrinsic-phase-and-fixed-marker-family.md)
-已从原第五marker定理§5复核：单个全闭精确径向metric面G、
-双真盘上的同一材料作用G∘Sτ=RτG、原G14/G17/G24一旦成立，
-Rτ G S−τ后作同四块真实静态曲率替换，即得共同最终metric族。
-两盘允许不同但固定相位offset。P3a另证：标准有效材料action、S不变同轴真盘和G24星形使两极盘轨道在去轴空间的绕数相同；全局选一次正向即得所需equivariance。因此无需额外PDE相位条件，也不能只凭盘的集合旋转不变冒逐点固定。
-**不另要求一个变动ν或重新求整族的IFT。**
-当前欠项是单个G及其完整augmented匹配/平盘/几何条件，
-不是一个额外未指定的ν/flex分支；沿Γ1的设计收敛本身也不授这些条件。
+仍未授γ→tail的C1或H0-Lipschitz，也没有core selfmap。
+R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN源须保。
+实际core输出γ的低A0和高H8193门、全inner B/Cmean及设计ν相位仍待。
+自由安放的height/frame是同一次重建输出；若实际指定独立荷，原完整增广义务不删。
+最终ν*/Γ1*/Γ2*/η一次冻结后，第7节既有P给固定metric族，不新增变动ν的族IFT。
 
 ## 7. 单一frame、同对象几何及最终族
 
