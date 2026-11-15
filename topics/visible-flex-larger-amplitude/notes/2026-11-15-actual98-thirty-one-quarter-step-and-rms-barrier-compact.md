@@ -45,3 +45,9 @@
 原FD最大四阶相对误差8.408533903133078e−10，原阈值5e−5，implementation_check_passed=true；二阶误差9.883441196551308e−6且收缩检查true。它确实在本次warm重新计算完整边界差分；nonlinear_DN_evaluated、nonlinear_native_at_current_H_solved、full_BVP_solved、full_Cartesian_closed_surface均false。
 
 据最近半步的真实失败点，下一第107轮先从原98的真实warm/status对，在相同31查询与原完整B/H/C/outside/预算/验收门下重新线性化。当前没有近邻证据要求增加新query；不按更远整步的失败点猜补点。后续model→FD均在公开Actions临时目录，按根第15条只留脚本、参数、run、输出hash和诚实结论。完整边值问题、固定g闭面、全t reach和整像幅度仍未解决。
+
+## 第102轮整文档比较的源码解释
+
+已直接读取原 `geometry_20261114_thirty_one_query_condensed_warm.py` 的 `_run_engine.write` 和 `geometry_20261114_seven_query_projection_warm.py` 的 `current_row_labels`。后者递归创建新的dict/list，仅替换两条旧通用标签并原样保留resume_producer。前者先复制本次写出对象，再只给本次报告的顶层补充thirty_one_query_projection_entry、selected_angle_row_count与query_specs；独立model文档的顶层来源装饰不会因此成为status内嵌model的同一顶层字段。
+
+因此第102轮v3把“独立写出文档包含的来源身份也逐字段等于status嵌套科学对象”当成契约，范围过宽。它的false与exit2保持原记录；此源码解释不冒称已经逐字段核过两个原JSON的全部差异，也不据此改写原状态。第107轮只报告iteration、before、固定merit、damping、accepted、trials、方向最大系数的对应关系，并明确该读回不是新的科学门。无需重新计算98或重新下载原大件来重复已经完成的科学结论。
