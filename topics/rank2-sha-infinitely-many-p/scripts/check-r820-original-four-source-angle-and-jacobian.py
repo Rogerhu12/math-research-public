@@ -89,7 +89,7 @@ divisors={k:val(fV,f) for k,f in fixed.items()}
 
 # All formal jets come from the original differential equation x''=6x^2.
 L=6
-def cut(a):return list(a[:L+1])+[Q(0)]*max(0,L+1-len(a))
+def cut(a):return list(map(Q,a[:L+1]))+[Q(0)]*max(0,L+1-len(a))
 def sm(a,b):return cut(mul(a,b))
 def sp(a,n):
     z=cut([1]);a=cut(a)
@@ -98,7 +98,7 @@ def sp(a,n):
         a=sm(a,a);n//=2
     return z
 def si(a):
-    a=cut(a);z=cut([1/a[0]])
+    a=cut(a);z=cut([Q(1)/a[0]])
     for n in range(1,L+1):z[n]=-sum(a[k]*z[n-k] for k in range(1,n+1))/a[0]
     return z
 def se(a):
@@ -121,6 +121,7 @@ names=["S34","T72","U136","V66"]
 angles=[fS,fT,fU,fV]
 charges=[17,36,68,33]
 sources=[sm(sp(Theta,m),sc(f,tw)) for m,f in zip(charges,angles)]
+assert all(isinstance(x,Q) for seq in [W,F,Theta,tw]+sources for x in seq)
 assert all(v[0]==0 and v[1]==1 for v in sources)
 assert sources[0][2]==Q(-988,105)
 assert sources[1][2]==Q(-2938,35)
