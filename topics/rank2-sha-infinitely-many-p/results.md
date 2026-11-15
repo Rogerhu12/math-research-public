@@ -421,3 +421,5 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 - [原四输入单反射与保第四输入完整边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：已证明同一原六输入的四个单反射与分别偶来源h+=hW+e0/2，完整四变量K多项式和whole S4锚给全部独立深度矩形。保x的三变量边界准确ω²νσ⊗[1/2]νσ⁴⊗νσ/84；原q/Y/W仍依被忘输入，全部权和单位门必须完整转置。三个CD/O域与移动W_j观察均明确，未添原中央零。
 
 - [R762：穿过原S的真实Cayley家族与非零中央切向](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md)：已证明真实σ⊗(S/σ)来源经Gram(34,33/34)的Cayley族穿过原S；u∈pZp原unit切割/质量严格不动，完整Mellin切向为d_p s𝕀_DS，R761给中央横向导数非零。原J′若零，在此族中是simple-u-zero；完整正权/higher jets/赋值门均付。实际deep切向与冻结原even-core的差(β−λκ)zDS(κz)严格非零，附近来源尚无同固定Lp身份。
+
+- [R763：正导数新增坐标的仿射ζ与完整Gaussian运输](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md)：已证明新U=(S′)^6在原(t,Θ,Q=1+xζ/y)上的准确六次式，旧场上六次覆盖与原点正规化成本均保；Norm3的Q返回为(3(1−4t)Q+12t)/(1+8t)。完整ε/ε²目标保affine ζ项，去charge204 Gaussian后实际首共振p系数仍为单位a；全Gaussian三同源还带非零未定第二位修正。原新三格斜率及中央传播未付，不套旧WD。

@@ -186,3 +186,7 @@ R750 [完整来源/carry增补](notes/2026-11-15-r750-whole-divisible-source-and
 ### R762：已付穿过原S的实际非零中央横向方向
 
 [R762](results/R762-original-through-s-cayley-family-and-nonzero-central-tangent.md) 由原σ⊗H33和完整Cayley族给∂uM(0,s)=d_p s𝕀_DS(s)；unit/质量不变，R761使∂uJ(0)≠0。若原J′S=0，它只是该来源族内的simple u-zero。完整positive/higher jets和p依赖深度门保；actual deep切向与冻结原ordinary eigline相差(β−λκ)zDS(κz)≠0。继续真正同一全局表示/全local-vector/period的fixed-Lp实现，或其他原中央路径；同范数、附近来源非零与p依赖小u均不能替代主目标。
+
+### R763：新三格的原仿射ζ与首共振已完整确定
+
+[R763](results/R763-positive-derivative-affine-zeta-model-and-full-gaussian-transport.md) 付新U的准确六次来源、Q的Norm3 affine返回与真实ε/ε²展开。去总Gaussian后p[ws]正规化U≡34pc是单位，不能按旧R614分子整性处理；Q°同源的6s t3(v/d)χw^s第二位亦必须保。继续在这个实际来源上建立原中央失败→新三格全ordered flag界；旧全WD/十三行/同R不能借六次根或affine代入免除。

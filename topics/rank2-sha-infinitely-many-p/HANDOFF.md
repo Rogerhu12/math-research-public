@@ -3,7 +3,7 @@
 ## 目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**主目标未完成；持续推进，不以阶段结果或时长收尾。**
-- 最近已读规则提交：c7f9fb6f7644f415b43ec3ae0c91b007a3067d6b；2026-11-15 13:25:49 UTC核两README无变。实际CI pull 2026-11-15 13:22:50 UTC/f4e8b5be70ca7046da4ee9d880691190996a39d2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:25:48 UTC仍无环境。最迟2026-11-15 14:05 UTC再实际pull。
+- 最近已读规则提交：eb29cd5c4db75c5694d32d45451ec81119d4af09；2026-11-15 13:39:03 UTC核两README无变。实际CI pull 2026-11-15 13:22:50 UTC/f4e8b5be70ca7046da4ee9d880691190996a39d2（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 13:39:02 UTC仍无环境。最迟2026-11-15 14:05 UTC再实际pull。
 - 只写Rogerhu12/math-research-public/main；旧库首次授权789d22af。完整结论立即推；非快进即pull --rebase重推，禁强推/改他人历史/令牌入文件或回复。
 - 每小时实际pull，每次核两README，仅重读差异并即执行、记提交。root15@708f058a差异已读；根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题965ab236bbd6753acb812b45fcc36ae9b6f83b3c。
 - 本地exec无环境，末次成功2026-11-14 21:35:50/7aa38f25e。实际CI pull 13:22:50 UTC/run43718692940/job132825709070，headf4e8b5be；两README差异空且blob同，回执ci/rule-pull-20261115T132250.json。下次最迟14:05 UTC。
@@ -12,8 +12,8 @@
 
 ## 完整前检、当前分工
 
-[压缩前全文](notes/2026-11-15-frontier-before-r755-supplement.md)沿归档链保所有常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–762登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
-root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F与全normal/same-R；theta续四反射/ξ4边界、实际O_i；literature续R762之后的完整fixed-representation；root续新三格算术桥/O4/O6。theta四反射/保ξ4边界note已登记，续真实同域O_i。
+[压缩前全文](notes/2026-11-15-frontier-before-r755-supplement.md)沿归档链保所有常数、来源、十九角、射线、坏集及未闭接口。R1–363、365–560、562–653、655–711、713–763登记；R364/R561/R654/R712及主目标不冒完成。入口results.md、notes/PROOF-INDEX-R751-R800.md、open.md。
+root唯一metadata/ref写者；代理只交proof/script/blob。deep续指定v_F与全normal/same-R；theta续四反射/ξ4边界、实际O_i；literature续R762之后的完整fixed-representation；root续R763新三格算术桥/O4/O6。theta四反射/保ξ4边界note已登记，续真实同域O_i。
 原四次E17及j0 E17/E24/E2312 rank2已付。全Selmer桥保全Sha；须无限不同p至少一条固定原J′非零，非中央负矩/有限p不完成。O4低增广a≤1/β(Q)、O6实际Np有限/λ≤3仍开。
 
 ## 普通：原来源、点域与中央传播
@@ -51,3 +51,5 @@ O4/O6、supersingular H=cℓℓt、strict向量非自动全局Selmer类，依ope
 [原四单反射及保x边界](notes/2026-11-15-four-input-reflections-and-x-preserving-boundary.md)：R_j(e0,hW)=(-e0,e0+hW)，h+=hW+e0/2分别偶；共同[2]全K多项式、whole S4给任意六深度矩形。N∈4Z的cd两态同λ2N，但完整q/Y/W转置；保(ξ2,x,d)边界ω²νσ⊗[1/2]νσ4⊗νσ/84只用于真正因子化测试。三个CD/O域不同、任意两交=全三交，保W_j与归一P_Y，真J2+ωJ1+ω²J0=0不认同域。
 
 R762真实through-S家族：μ=νσ⊗ν_(S/σ)，Y=c+v、Z=(33c−v)/34，Gram(34,33/34)。u∈pZp的unit域与质量严格固定；∂uM(0,s)=d_p s𝕀_DS(s)，所以J中央横向导数≠0，若原J′S0则simple u-zero。全正权/higher jet及p依赖赋值门保；actual deep切向β zDS(κz)与冻结even-core λκ zDS(κz)差非零，未有同固定Lp身份，不以附近来源冒固定原中央。
+
+R763新U完整式：Q=1+xζ/y，B=34QP4−6P4−6tP4′，U=−t5(1−t)³Θ102 B6/b5；旧场上六次覆盖，正规化除t5不得免费入旧格。Norm3 Q↦(3vQ+12t)/d；原Γ中U=6^6w5 e^{6aε}(vS+δvS+asεvS)^6，去charge204 Gaussian后p[ws]U正规化≡a为单位。Q°同源另加6s t3(v/d)χ w^s；全部两位/极帽保，中央及全flag桥仍开。
