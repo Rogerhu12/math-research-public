@@ -1,0 +1,178 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43702348535",
+  "stepId": "third-missing-four-constant-unit-preparation",
+  "executionSourceCommit": "5e884cce0254c48a558be83c2154fb4f03f72f0e",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-third-missing-four-constant-unit-preparation-789f.py",
+  "scriptSHA256": "6bfab671f390be5f40c30e3d2260bb873ac7c8a37302d2a4902228e6521089b7",
+  "argvTemplate": [
+    "--second-out",
+    "{work}/selected-natural-second-left-regauged",
+    "--normal-four-out",
+    "{work}/selected-natural-second-left-normal-four-complete130",
+    "--normal-five-out",
+    "{work}/selected-natural-second-left-normal-five-high-elimination",
+    "--high-profile-out",
+    "{work}/third-missing-four-high-profile",
+    "--prepared-out",
+    "{work}/third21-forcing-support-preparation-v2",
+    "--rebuild-root",
+    "{work}/selected-natural-u-rebuilt",
+    "--kernel36",
+    "{bockstein_dir}/actual-original-kernel36.bin",
+    "--selected-receipt",
+    "{paid_dir}/selected-infinity-minor-dag-receipt.json",
+    "--out",
+    "{work}/third-missing-four-constant-unit-preparation",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 90,
+  "exitCode": 75,
+  "wallSeconds": 1.7186862009984907,
+  "fullTemporaryReceiptBytes": 3375,
+  "fullTemporaryReceiptSHA256": "23035e646b1d3598fae8c42e2c34195f910962213a846289fca656ad9f1b7742",
+  "result": {
+    "all113204ConstantLeftProductsZero": true,
+    "all155448ConstantKernelPairingsZero": true,
+    "allOriginalCorrectionRowsMatched": true,
+    "allOriginalSourceKernelFreeCoordinatesVerified": true,
+    "binding": "8a66f5f182b224bcdf158b3cbd739f23692f333c9c338e7056ca8c5162018ebf",
+    "constantUnitPrime31Proved": true,
+    "format": "isp-missing-third-constant-unit-preparation-v1",
+    "fullTwelveQuotientColumnsSelected": false,
+    "largeDataUploadedOrCommitted": false,
+    "mathematicalElapsedSeconds": 1.6275091350016737,
+    "newLargeGaussianPerformed": false,
+    "newOriginalThirdCoChainsConstructed": false,
+    "newRationalRightHandSidesSolved": 0,
+    "old130UnitSolutionsRecomputed": false,
+    "old786PivotsRecomputed": false,
+    "outcome": "constant-unit-proved-quotient-field-profile-incomplete",
+    "phase": "quotient-profile",
+    "status": "completed-prefix",
+    "unitSelectionUsesOnlyPaidFieldKernel": true,
+    "parameters": {
+      "actualConstantGaugeDeterminantModulo31": 11,
+      "actualIncomingPrimitiveFieldRank": 4,
+      "binding": "8a66f5f182b224bcdf158b3cbd739f23692f333c9c338e7056ca8c5162018ebf",
+      "completePaidQuotientRankOverQ": 12,
+      "constantUnitJustification": "K_F=I, K^T*M=0, rank(M)=4318 imply M[J\\F,:] invertible overF31 and Q",
+      "constantUnitOriginalSourceRowsSHA256": "46b066c42abd4cc843973789cd60e0e758a3d95e49919673ae9810e6d67d9873",
+      "constantUnitRowCount": 4318,
+      "constantUnitSize": 4318,
+      "inputIdentities": {
+        "coefficients": {
+          "bytes": 20580,
+          "sha256": "7ab537a3c8f9a3d13b924a23f37f8d4ce4fa7621e3608920404ed0051b2fd5c1"
+        },
+        "field_cokernel": {
+          "bytes": 5472,
+          "sha256": "091c273d65812bcd9b1d0955a63d29ed2a41a59aafc13c8398b4f41c8a547d62"
+        },
+        "four": {
+          "bytes": 106872,
+          "sha256": "7d8ef24fae893516a54667234d6e50eac52e006671e66c35de7c004f4f15db40"
+        },
+        "gauge": {
+          "bytes": 4271,
+          "sha256": "d4cd90b0a7e1a790fa1892bf60044b73795d6394cdb0ba5e4e96a9dde004c8b4"
+        },
+        "high_profile": {
+          "bytes": 9606,
+          "sha256": "254a5173f108fec33890160d3424a8235e1ca2ef169fe7a801d7b6be268821d3"
+        },
+        "kernel36": {
+          "bytes": 222788,
+          "sha256": "c008e57b7a7e80312f8ba292bb24241d53bb59d4c57b2a8d07ec1017b9de0744"
+        },
+        "m4": {
+          "bytes": 911218,
+          "sha256": "a359450582e0081fbabd6ff79e6e0e7083d7cd5bfdcef1d801438d00a3d5c814"
+        },
+        "m5": {
+          "bytes": 564745,
+          "sha256": "97054ecb078055a85af7ca4dbb2490b1f868ebcb40290fa4197efa67126a26b1"
+        },
+        "old_unit": {
+          "bytes": 9008513,
+          "sha256": "c53406d65cfd66f2f3b6f1c946bd7495e44c7041538c4f3c85518eb7be7d5dfe"
+        },
+        "prepared_rhs": {
+          "bytes": 4617848,
+          "sha256": "22d41ddbd72836d013f0855cf094f243ae5bc63a07f9006b9603031383794598"
+        },
+        "profile": {
+          "bytes": 21066,
+          "sha256": "044b28d717749d23a2959a02c0f8ed7570bfa19bcdff04207056f2a66d2e413d"
+        },
+        "selected": {
+          "bytes": 21285,
+          "sha256": "20373c07422701e37b9226fe1fe72cb8ee1e7848df505ebbacd92cf818093c2a"
+        },
+        "selected_receipt": {
+          "bytes": 75700,
+          "sha256": "5cd9543de68bdb562bbe21189d5b0712248e6943c5572fe38ff27ec4fc1f5f68"
+        }
+      },
+      "memoryMiB": 2048,
+      "missingHeadCoordinates": [
+        15,
+        18,
+        19,
+        20
+      ],
+      "naturalChart": "u=1/s",
+      "onlyAlgorithmicField": 31,
+      "programIdentity": {
+        "bytes": 20126,
+        "sha256": "6bfab671f390be5f40c30e3d2260bb873ac7c8a37302d2a4902228e6521089b7"
+      },
+      "secondsLimit": 60.0,
+      "selectedOriginalHFandTColumns": [
+        0,
+        1,
+        2,
+        18
+      ],
+      "sourceCokernelDimension": 36,
+      "unitDeterminantNumericallyRecomputed": false
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 14:13:01 UTC",
+      "beforeReadCommit": "4d12cfef7625aa709bf2b578d2dae8cb1549da44",
+      "originMainAfterPull": "5e884cce0254c48a558be83c2154fb4f03f72f0e",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 14:13:03 UTC",
+      "beforeReadCommit": "5e884cce0254c48a558be83c2154fb4f03f72f0e",
+      "originMainAfterPull": "5e884cce0254c48a558be83c2154fb4f03f72f0e",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 85,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 29156,
+    "logicalJsonSHA256": "60b1babfb711a258325f1224a6a6213f025f73a65fb8be8064cd0d1ecaee02d0",
+    "itemCount": 85
+  },
+  "lastRulesReadCommit": "5e884cce0254c48a558be83c2154fb4f03f72f0e",
+  "summaryExcludesRecomputableArraysOnly": false
+}
