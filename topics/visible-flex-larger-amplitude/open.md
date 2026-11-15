@@ -2,7 +2,7 @@
 
 完成条件以本题 [README](README.md) 为准；当前只有大幅开放前缀，尚无满足全部标准的完整闭场。只用公开 `Rogerhu12/math-research-public` 的 Actions 做科学计算，原件和规则同步见 [HANDOFF](HANDOFF.md)。每条结论立即提交推送，做完继续下一项。
 
-此前原始 open 全文逐字保存在 [截至请求67的检查点](open-checkpoint-through-request67-2026-11-14.md)，更早历史见其链接。这里保留正在推进的事实、限制及真实接口，不重做已完成数学或已付字节读取。
+此前原始 open 全文逐字保存在 [截至请求92的检查点](open-checkpoint-through-request92-2026-11-15.md)，更早历史见[截至67检查点](open-checkpoint-through-request67-2026-11-14.md)及其链接。这里保留正在推进的事实、限制及真实接口，不重做已完成数学或已付字节读取。
 
 ## 1. 同一大核的完整物理边值问题
 
@@ -44,31 +44,17 @@ reader43664753410完整核原1.75GB，root只取4389973B小包。35原packets/10
 
 [已关闭迭代的后台artifact接线](notes/2026-11-15-noJ-primal-live-background-artifact-wiring.md)完成源码/官方接口核对：SDK2.3.2在同job持续计算中流式上传，双迭代批次避单job500件限制；同id下载、显式digestMismatch=false及全部成员原SHA核同后才可释放已闭合large-arrays，原manifest/小记录保留。Node supervisor持有新增runtime凭据且不转给科学child，三个独立源及[完整接口](notes/2026-11-15-native-live-byte-supervisor-source-draft.md)已发布，含恢复入口；[SDK真实锁构建](notes/2026-11-15-native-live-sdk-lock-build-interface.md)已用唯一工程请求发布，只生成真实完整锁、禁脚本安装与constructor加载。尚未部署supervisor、上传/删除科学原件。网络积压不保证32GiB总容量，storage错误与科学接受分记。
 
-### 1D. R259：实际82又八次全步接受，低三根仍未解
+### 1D. 低三方程：实际92内层资格阻点；93保留非零残差继续
 
-[88完整保存模型结论](notes/2026-11-15-actual88-saved85-singular-directions-and-local-damping-predictions.md)已核并保存：8组实际85模型的主要残差在中间奇异方向，eta.1削减因子从.0039706到.0016068；弱投影仍约369。较小eta仅保存模型预测，最后eta.001首方程反增且参数方向大，无域/非线性接受。原eta.1方向与SVD动作读回差约1e-11，同时真实第三方程偏差仍显著；不能归为唯一原因或冒90/92结果。完整原174419B报告无损保留，345字节检查/13当次源/八完整模型已付。
+75/77/78/80/82/85/87/90的完整原件与正式结论已付，见原open检查点和notes；85仅publisher体积失败，十一原件已按原字节恢复，无科学重跑。90的η.01/8方向实际接受但第三项变大，真实status5a4d157a作为92父，旧p不能继承81高109证明。
 
-[92独立内层求根接口](notes/2026-11-15-small-core-p3-inner-root-search-interface.md)及[唯一接线](notes/2026-11-15-request92-p3-inner-root-workflow-interface.md)已发布：真实90父5a4d、source3b48、workflow2e64115a/requesta8323622。内层只改p3、原d3阈值1e-8/12更新20回溯；初始投影单独付完整三merit/真实gdot/原.2 Armijo，失败保fresh父。外层eta.1/8方向20回溯，每档重新求p3并保实际非零d3；原full112/FD/Arb/零圆检查保持。不是IFT根或native接受，全部内层轨迹保留。root全文源/接口/两diff，100静态核71pins/7shell4inline通过；等待实际Actions原值，不以88诊断作门。
+[88完整保存模型结论](notes/2026-11-15-actual88-saved85-singular-directions-and-local-damping-predictions.md)已核：主要残差位于中间奇异方向，η.1保留很强，弱投影仍约369；较小η是同一旧85矩阵的预测，不是当前域/非线性接受。345字节检查、13当次源、八完整模型/24预测保留，不作后继计算门。
 
-[actual82完整结论](notes/2026-11-15-actual-request82-damped-resume-eight-full-steps.md)、[完整原status与读数](notes/2026-11-15-actual82-original-readout.json)、[完整字节审计](notes/2026-11-15-actual82-original-byte-audit.json)已保存。run43665944742/sourcef1a2c808/job132665204485，eta0.1八方向均首档alpha1接受，没有域/merit拒绝或回溯截断，八步预算用完。原merit15492237698.871288→11949245423.478903；finalp=[.07254576672993071,-.0403277008444164,-.11497411877394303]，单位三缺陷=[224.4830723005632,-154577.5000610159,2058.380235692375]。第二项绝对值改善，第一/第三项最终仍略高于初值；总merit下降不冒各项同时改善。candidate/success/native/nonzero仍false。
+92实际run43672921972/source1755a4f4/job132686715503全部成功；676336B/f10832ba小包已完整取回。独立原d3内层阈值1e-8的策略先接受完整三merit初投影和两次外层更新，随后第三轮二十个试点均未得到usable内根；全39inner报告保留。真实最后接受p=[.6929598480979777,.1236195236907518,.5225323995570981]，unit=[-233.46281549983243,126623.86001929421,-7.863297485366516e-9]，完整merit8016828215.536017。一些被挡的实际内点merit更低，但不是已接受点；exact完整formal/byte读回继续。原498765B status e822be88、所有实际J/FD/Arb/零圆范围保留，unit/full112/native/nonzero未通过。
 
-54263B原status1e56d89c、70源/11原件/215检查保全，readout含完整原status。末FD三档7.60517568680229e-9/1.874469986361574e-9/5.09761710307341e-10；467 Arb叶/24split/0unresolved仅声明a/ap范围。完整699×453零core圆col3.8903884454211113e-16/BC0、原全部域通过，但不是非零幅度parent、强C2或真实连续R证明。大输入缺失payload处只按已有receipt跨绑定，原完整尾J本次未独立导出；81在actual78的高块不能继承到新p。
+[93完整新算法](notes/2026-11-15-inexact-p3-restoration-search-interface.md)与[唯一Actions接线](notes/2026-11-15-request93-inexact-p3-restoration-workflow-interface.md)现发布：sourcece93a364/workflow6872ff02/request9a5f4f3f，只从92最后真实接受参数fresh求值。完整实际r3经normal n3=-r3/J33和rho=r12+J13*n3进入当前线性Schur模型；η.1/8方向20档、inner12/20不变。内层仍争取原1e-8，最后有限实际点和同点有限J/J33可交原full3 merit/真实gdot/.2 Armijo试验；不把未达内层目标冒根，也不因它单独禁止试验。实际恢复位移与alpha*v分开记录，非IFT曲线断言。原最终unit/full112阈值及整个FD/Arb/零圆阶段AST保持。root完整源diff/两接口/全workflow/requestdiff与117静态核72pins、十三直接源、7shell4inline已付；只等真实Actions结果，继续求解。
 
-[85完整结论](notes/2026-11-15-actual-request85-damped-resume-eight-full-steps-publication-limit.md)与[原status/读数](notes/2026-11-15-actual85-original-readout.json)、[完整字节账](notes/2026-11-15-actual85-original-byte-audit.json)已保存：run43667636063/sourcec9daab1a/job132670464205，η.1八方向均alpha1接受、0拒绝，merit11949245423.478903→11479182858.417969；finalp=[.06389479553738595,-.012958081345244933,-.11220747933971734]，unit=[227.29559514822407,-151517.87117025955,805.4623398988991]，full_right前三=[104.98950588871833,9044.785448730578,12.669968215409119]，其余109原signedzero。全candidate/nonzero/native仍false。218项/11原件/70源已核，466 Arb叶仅a/ap、完整零core圆仅参考，当前p不继承81高块。
-
-85科学、readback、artifact均成功，后发publisher仅因H规则行替换9992→10003B失败；[出版恢复回执](notes/2026-11-15-actual85-root-publication-recovery.json)记录全部11原件455455B已按原字节恢复，未重算。H保留更新空间，原publisher22e与硬上限不改。
-
-[87完整结论](notes/2026-11-15-actual-request87-damped-resume-eight-full-steps-low-three-unresolved.md)/[完整status读数](notes/2026-11-15-actual87-original-readout.json)/[字节范围](notes/2026-11-15-actual87-original-byte-audit.json)已保存：run43669359806/source3c7c5eef/job132675725853科学和publisher全success，8方向均alpha1接受、0拒绝，merit11479182858.417963→11289805820.156862，但unit=[228.5006013402948,-150264.2154200839,474.3331904136449]，原full112候选仍false。父85末与87fresh初原末位不同，不复用或强行相等；216项/11原件/70源/完整原status e805446d保全。FD/466 Arb/完整699×453零core圆各保原范围，不冒非零parent。
-
-[90唯一显式η=.01续接](notes/2026-11-15-request90-smaller-explicit-damping-own-schema-interface.md)从真87finalp=[.057323451817869575,.002679377797021207,-.11058649307511116]继续，同ec9/1691/3b9/70pins/8/20、四输入/runtime/原merit和全部原门。workflowaba91c0d/request016ee1e1，root全文两diff/interface+70pins7shell4inline/parentIEEE/父η只作receipt的AST已核；当前与父η明确不同。当前选择不保证下降，不做同矩阵因果推断，也不依赖saved85额外诊断门。
-
-[实际90完整结论](notes/2026-11-15-actual-request90-smaller-damping-backtracking-and-third-defect-growth.md)、[完整status读数](notes/2026-11-15-actual90-original-readout.json)、[全字节回执](notes/2026-11-15-actual90-original-byte-audit.json.gz)已保存：run43670368504/source4424f9c4/job132678845557全success。η=.01的8个方向接受alpha为[1/16,1/32,1/32,1/32,1/32,1/64,1/32,1/32]，48trial/40拒绝/0域异常/未耗尽20档。merit11289805820.156862→11213045978.398226，但unit=[229.78524027424547,-149015.7614289278,14843.921358477846]，第一/第三均未改善。方向5的1/32虽merit下降仍被原Armijo拒绝，不能称全部40次merit增加。
-
-真实90 finalp=[.04241436079648833,.02766947731512731,-.10800335072481342]，完整status60951B/5a4d157a、233项/11原件/70源已核；末FD三档1.5098650030008722e-8/3.878724677379875e-9/9.113386660122363e-10，465 Arb叶仅a/ap、699×453零core圆仅参考，candidate/native/nonzero仍false。92据此准备独立p3实际内层求根：所有近根误差与内层轨迹留账，首投影单独满足完整三方程原gdot/merit/.2Armijo才纳入baseline，外层每trial重新解p3并保所有原门；不把近根或当前J33非零冒R278精确IFT。
-
-[88保存模型谱分析](notes/2026-11-15-request88-saved85-spectrum-workflow-interface.md)及[源码范围](notes/2026-11-15-saved85-small-direction-spectrum-interface.md)已发布：consumer20fcaa26/workflowbc23829b/request548ad162只读取实际85完整原status72397df1和11源字节，8个保存3×3缩放矩阵的SVD、残差投影、η=.1/.01/.001模型预测及原Jd运算次序差异只在公开Actions计算。13pins/NumPy2.3.5、唯一新trigger、always完整artifact/readback/publisher；不重原RHS/J、另生成候选、解释为当前90模型，或增加92接受门。
-
-**高109实际81已完成：** [完整结果与模型范围](notes/2026-11-15-actual-request81-high109-finite-exact-and-interval-limit.md)。固定actual78参数和原699节点/112尾J，112 exact模式全部已读，高109保存有限系数两端行列式非零、全部单位入口映射存在，高Schur非奇异。另定义的声明实数Arb模型160/320/640位后仅解决高4–9，10–112仍未排零；所有right-cell/unit-map已定义，未遭预算截停。含零包络不是奇异证明，finite结论不能替换interval/连续结论。476原件/17完整阵/112exact/328Arb/3circle/69当前源全部已付byte scope，稠密两端矩阵和QR未形成。低三/横截/非零BVP未付，之后改p不能继承此点高块；这不成为native/prefix新gate。
+R277/R278已入results，原固定78高109非零与项目化零集/条件IFT证明不能代当前根。Saved85项目化消费者69971a7c/接口8752f821虽冻结但尚未执行；活模型完整项目化参数J设计继续，不以诊断代替实际求解。
 
 ## 2. 接受场闭合、固定g与全t精化
 

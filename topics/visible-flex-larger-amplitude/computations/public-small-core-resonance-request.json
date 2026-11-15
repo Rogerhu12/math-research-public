@@ -1,12 +1,12 @@
 {
   "schema": "public-small-core-resonance-request-v1",
   "repository": "Rogerhu12/math-research-public",
-  "request_number": 92,
+  "request_number": 93,
   "lanes": [
     "smallcoreresonance"
   ],
-  "rationale": "Actual90 accepted eight heavily backtracked eta0.01 directions but its third original unit defect grew to14843.921358477846; the original three-equation candidate is still unsolved. From its actual final.parameters, try one independent bounded nonlinear p3-inner-root candidate algorithm under the conditional R278 framework. First seek an actual original-unit d3 near-root, account for the initial projection with the complete three-merit/actual full-J slope/.2 Armijo, and only then construct an explicit eta0.1 column-scaled two-coordinate Schur model. Every outer trial resolves p3 and uses the same actual unweighted complete-three merit and original Armijo/domain responsibility. Retain actual residual error, full112 right readout and original final FD/Arb/circle diagnostics. Failed inner roots/projections remain probes, not accepted or nonzero parents. No exact IFT, future descent, native solve or BVP solution is claimed; saved85 spectrum is not a new prerequisite.",
-  "scientific_entry": "geometry_20261115_small_core_p3_inner_root_search.py",
+  "rationale": "Actual92 accepted its initial full-merit projection and two outer updates, then all20 trials of its next direction lacked an inner point meeting1e-8; some genuine final inner probes had substantially lower original full-three merit. Continue only from its actual last accepted final.parameters. Use a separately identified full-residual linear Schur model with normal n3=-d3/J33, effective rho=r[:2]+J[:2,2]*n3 and v3=n3-J[2,:2]*v[:2]/J33. Bounded p3 restoration still seeks1e-8 but its last actual finite point with own finite fullJ/J33 may enter the original full-three merit/gdot/.2Armijo even if that inner threshold was not met. Preserve actual d3 and all original final unit/full112/FD/Arb/circle gates. This is an explicit new candidate algorithm, not an IFT claim, an accepted old probe, or a BVP/native tolerance change.",
+  "scientific_entry": "geometry_20261115_small_core_inexact_p3_restoration.py",
   "scientific_source_unchanged": false,
   "inputs": {
     "accepted": {
@@ -101,7 +101,8 @@
     "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
     "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
     "strong_20261114_scaled_core_tail_connector.py": "661d5d84dc0dd3da46f4936c2c3ad28f80df3475f421c56d770a2afa6402ac08",
-    "strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be"
+    "strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "geometry_20261115_small_core_inexact_p3_restoration.py": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e"
   },
   "runtime": {
     "python": "3.12.14",
@@ -112,9 +113,9 @@
   },
   "diagnostic": {
     "parameters": [
-      0.04241436079648833,
-      0.02766947731512731,
-      -0.10800335072481342
+      0.6929598480979777,
+      0.1236195236907518,
+      0.5225323995570981
     ],
     "backtracks": 20,
     "candidate_resonance_tolerance": 1e-08,
@@ -133,57 +134,42 @@
   },
   "job_timeout_minutes": 60,
   "scientific_step_timeout_minutes": 45,
-  "output_directory": "small-core-p3-inner-root",
+  "output_directory": "small-core-inexact-p3-restoration",
   "scope": {
     "original_complete_scalar_formula_and_three_supports": true,
     "all_112_by_112_actual_zero_slope_J_entries_read": true,
-    "ready_linear_graph_substitution": false,
-    "offdiagonal_rounded_or_thresholded_to_zero": false,
     "all_112_low_trial_right_residuals_reported": true,
-    "high_free_core_Schur_computed": false,
-    "high_mode_nonresonance_proved": false,
     "general_nondiagonal_case_not_silently_replaced_by_diagonal": true,
-    "interval_real_scalar_expression_not_literal_program_roundoff": true,
-    "circle_reference_not_nonzero_parent": true,
+    "original_three_equation_and_jacobian_functions_reused": true,
+    "actual_third_residual_never_overwritten": true,
+    "full_nonzero_third_residual_in_linear_normal_correction": true,
+    "initial_parent_not_projected_before_outer_search": true,
+    "original_unit_1e_minus8_is_still_inner_target_and_final_threshold": true,
+    "inner_threshold_is_not_an_outer_eligibility_gate": true,
+    "last_actual_finite_inner_point_is_only_a_candidate": true,
+    "same_point_full_original_J_and_nonzero_J33_required": true,
+    "actual_restore_displacement_separate_from_alpha_direction": true,
+    "original_full_three_merit_gdot_and_point2_Armijo_retained": true,
+    "all_inner_calls_trials_failures_retained": true,
+    "original_eight_direction_twenty_trial_outer_budget_retained": true,
+    "explicit_inner_twelve_update_twenty_trial_budget_retained": true,
+    "optional_same_model_spectrum_is_not_a_gate": true,
+    "unit_stop_and_full112_candidate_flag_remain_distinct": true,
+    "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
+    "high_mode_nonresonance_proved": false,
+    "exact_implicit_function_curve_proved": false,
     "nonlinear_tail_called": false,
-    "nonzero_lambda_BVP_computed": false,
+    "native_nonlinear_solver_started": false,
+    "full_BVP_solved": false,
     "large_amplitude_goal_completed": false,
     "original_scientific_acceptance_gates_changed": false,
-    "candidate_search_is_not_a_BVP_acceptance_gate": true,
-    "original_three_equation_and_jacobian_functions_reused": true,
-    "original_complete_three_merit_directional_derivative_computed": true,
-    "original_unweighted_three_merit_domain_and_point2_Armijo_retained": true,
-    "initial_p3_projection_has_separate_original_full_merit_acceptance_responsibility": true,
-    "failed_initial_projection_preserves_fresh_parent_as_last_accepted_point": true,
-    "inner_intermediate_points_are_root_finding_probes_not_accepted_outer_states": true,
-    "each_outer_trial_re_solves_original_p3_root": true,
-    "inner_only_changes_p3": true,
-    "inner_acceptance_is_actual_abs_original_d3_strict_decrease": true,
-    "inner_threshold_is_original_unit_1e_minus8": true,
-    "actual_third_residual_never_overwritten": true,
-    "finite_nonzero_original_J33_required_for_approximate_Schur_model": true,
-    "exact_inner_elimination_or_IFT_proved": false,
-    "independent_four_by_two_column_scaled_positive_damped_model": true,
-    "explicit_outer_positive_damping_cli_text": "0.1",
-    "original_three_equation_residual_not_augmented_by_penalty": true,
-    "optional_same_model_two_dimensional_spectrum_is_not_a_gate": true,
-    "original_final_FD_Arb_and_complete_zero_core_circle_checks_retained": true,
-    "unit_stop_and_complete112_candidate_flag_are_distinct": true,
+    "failed_inner_or_parent_is_a_nonzero_accepted_field": false,
+    "old92_algorithm_executed_as_current_search": false,
+    "parent_J_merit_state_reused": false,
     "design_parameter_search_not_claimed_one_fixed_metric": true,
-    "all_original_twenty_outer_backtracks_retained": true,
-    "original_eight_outer_direction_budget_retained": true,
-    "new_twelve_update_twenty_trial_inner_budget_explicit": true,
-    "saved85_or_any_other_diagnostic_is_a_prerequisite": false,
-    "only_literal_parent_final_parameters_reused": true,
-    "parent_J_or_merit_or_state_reused": false,
-    "original_frozen_sources_not_modified": true,
-    "new_independent_producer_schema": true,
-    "same_frozen_resume_source_as_parent": false,
-    "frozen1691_direction_function_executed": false,
-    "future_root_or_nonlinear_descent_guaranteed": false,
-    "all_inner_calls_and_failures_retained": true
+    "new_independent_schema_and_algorithm_declared": true
   },
-  "source_pin_scope": "Retain all70 original request90 pins byte-for-byte and add exactly the independent R278 p3-inner-root candidate source. The original3b9 equation/J/description/Arb/circle functions execute unchanged; ec9/1691 are verified actual-parent provenance, not the new direction engine. Twelve consumed source identities are reported by the new producer. Four original mathematical inputs, runtime and public78 source restoration remain unchanged.",
+  "source_pin_scope": "All71 request92 source pins remain byte-for-byte; add exactly one independent inexact-p3-restoration entry. Original3b9 equations/J/final checks execute unchanged. The 3b48 parent and ec9/1691 older sources are immutable provenance only. Twelve existing files plus the new producer are directly checked; the workflow verifies all72. Four original inputs/runtime/public78 restoration remain unchanged.",
   "proofs": [
     {
       "file": "topics/visible-flex-larger-amplitude/results/R259-small-core-homotopy-and-resonance-conditions.md",
@@ -204,95 +190,97 @@
     {
       "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-small-core-p3-inner-root-search-interface.md",
       "sha256": "ff0ba1d21a105b696d91a271044c4e5f3676fa0cf0ee0c47ed3ad418a97ac899"
+    },
+    {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-15-inexact-p3-restoration-search-interface.md",
+      "sha256": "6f57a2de34d3833ecde4aa8faa3ed223b14b43b445e3d7651834c041820533c2"
     }
   ],
-  "publisher_revision_scope": "Retain the existing smallcoreresonance lane and exact publisher22e640bb, ordinary pull/rebase/README checks, complete artifact and bounded publication. The new status/schema/output directory are explicit. Full model evaluation JSONL is under large-arrays artifact-only; every inner report and partial failure remains in the complete artifact. No new scientific acceptance test is inserted into publication/readback.",
-  "requested_at": "2026-11-15T03:25:32.742779+00:00",
+  "publisher_revision_scope": "Keep existing smallcoreresonance lane, publisher22e640bb, complete artifact/partial failure preservation and ordinary rebase/README checks. New output/schema explicit; streamed original evaluation trace remains large-arrays artifact-only. Readback copies actual saved inner eligibility, full residuals and displacement responsibility; no new mathematical check.",
+  "requested_at": "2026-11-15T03:48:37.883934+00:00",
   "prior_candidate": {
-    "run_id": 43670368504,
-    "source_commit": "4424f9c45f8866f54872e876430b8a3dd56aec1b",
-    "job_id": 132678845557,
-    "artifact_id": 14143584095,
-    "artifact_bytes": 269478,
-    "artifact_zip_sha256": "23c18e81de8e4f5d1492e818abf034437961d801bff54dcc0d59b493b179e7e1",
+    "run_id": 43672921972,
+    "source_commit": "1755a4f414a77d41d85eae9a0e1625f55a74be90",
+    "job_id": 132686715503,
+    "artifact_id": 14144239294,
+    "artifact_bytes": 676336,
+    "artifact_zip_sha256": "f10832bad2ebf3b48a4da501bc0a50b7556e7a839eb86ddd532cab497338d74a",
     "original_status": {
-      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43670368504-1-smallcoreresonance/small-core-damped-resume/damped-resume-status.json",
-      "bytes": 60951,
-      "sha256": "5a4d157aa0bcada3cdd1d319adb419f23b94f52bfc1c945a3c6afe1207cb2f5a"
+      "file": "topics/visible-flex-larger-amplitude/notes/public-actions-43672921972-1-smallcoreresonance/small-core-p3-inner-root/p3-inner-root-status.json",
+      "bytes": 498765,
+      "sha256": "e822be884ac07e2b2c46ac7aba7f589ba5233e86cdbb33ad9c95108cc8dca01e"
     },
-    "original_schema": "R259-original-three-equation-column-scaled-LM-resume-v1",
-    "producer_source_sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a",
-    "direction_engine_source_sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728",
+    "original_schema": "R278-original-three-equation-approximate-p3-inner-root-LM-v1",
+    "producer_source_sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9",
     "parameters_from_original_status_field": "final.parameters",
     "parameters": [
-      0.04241436079648833,
-      0.02766947731512731,
-      -0.10800335072481342
+      0.6929598480979777,
+      0.1236195236907518,
+      0.5225323995570981
     ],
     "diagnostic_completed": true,
     "scientific_candidate_success": false,
     "low_mode_candidate_has_small_full_recorded_right_residual": false,
-    "previous_candidate_iterations_attempted": 8,
-    "previous_candidate_iterations_accepted": 8,
-    "previous_total_trial_records": 48,
-    "previous_trial_rejections": 40,
+    "previous_outer_directions_attempted": 3,
+    "previous_outer_directions_accepted": 2,
+    "previous_outer_trial_count": 38,
+    "previous_inner_call_count": 39,
     "previous_accepted_alphas": [
-      0.0625,
-      0.03125,
-      0.03125,
-      0.03125,
-      0.03125,
-      0.015625,
-      0.03125,
+      0.00048828125,
       0.03125
     ],
-    "previous_damping_cli_text": "0.01",
-    "new_explicit_outer_damping_cli_text": "0.1",
-    "new_algorithm_is_not_a_single_damping_parameter_comparison": true,
     "original_final_unit_defects": [
-      229.78524027424547,
-      -149015.7614289278,
-      14843.921358477846
+      -233.46281549983243,
+      126623.86001929421,
+      -7.863297485366516e-09
     ],
-    "original_final_J33": -72000128.47538549,
-    "nonzero_partial_at_nonroot_does_not_prove_inner_root_existence": true,
-    "old_circle_or_candidate_is_not_a_nonzero_parent": true,
-    "only_literal_final_parameters_reused": true,
-    "parent_model_or_J_or_merit_reused": false,
+    "original_final_merit": 8016828215.536017,
+    "original_stop_reason": "all original outer backtracks exhausted without an accepted complete-three-merit candidate",
+    "initial_projection_was_adopted": true,
+    "only_last_accepted_literal_final_parameters_reused": true,
+    "unaccepted_last_inner_probe_is_not_the_new_parent": true,
+    "parent_model_J_merit_or_state_reused": false,
     "scientific_step_conclusion": "success",
     "original_readback_step_conclusion": "success",
     "original_artifact_step_conclusion": "success",
     "publisher_step_conclusion": "success"
   },
   "imported_original_model_source_unchanged": true,
-  "output_status": "p3-inner-root-status.json",
-  "output_status_schema": "R278-original-three-equation-approximate-p3-inner-root-LM-v1",
+  "output_status": "inexact-p3-restoration-status.json",
+  "output_status_schema": "R278-original-three-equation-inexact-p3-restoration-LM-v1",
   "direction_model": {
-    "original_equations": "Original unweighted unit d1,d2,d3 and full original3x3 J",
-    "approximate_inner_root": "Hold p1,p2 fixed; original p3 Newton with strict actual abs(d3) decrease; abs(d3)<=1e-8",
-    "schur": "K=J[:2,:2]-J[:2,2:3] J[2,:2]/J[2,2] only at an actually obtained near-root",
-    "column_scale": "D_j=hypot-reduced Euclidean norm of K[:,j]; exactly zero column uses1",
-    "scaled_matrix": "A=K D^-1; no residual row weighting",
-    "augmented_least_squares": "[A; eta I_2] z approximately equals [-d1;-d2;0;0]",
-    "recovered_direction": "v[:2]=D^-1 z; v3=-J[2,:2] v[:2]/J33",
+    "original_equations": "Actual original unit r1,r2,r3 and full3x3 J at current point",
+    "normal_correction": "n3=-r3/J33",
+    "tangent": "t=-J[2,:2]/J33",
+    "schur": "K=J[:2,:2]+J[:2,2:3]*t",
+    "effective_residual": "rho=r[:2]+J[:2,2]*n3",
+    "scaled_matrix": "A=K D^-1; D column hypot norm, exact zero column uses1",
+    "augmented_least_squares": "[A;eta I2] z ~= [-rho;0]",
+    "full_direction": "v12=D^-1 z; v3=n3+t*v12",
+    "full_linear_residual": "r+Jv is recorded including its actual floating third component; never overwritten",
     "damping_cli_text": "0.1",
     "normal_equations_formed": false,
-    "original_full_merit_slope": "d dot (J v), including the actually retained nonzero d3",
-    "actual_outer_trial": "Seed p+alpha v, re-solve p3, then test original full merit<=before+.2 alpha slope",
-    "initial_projection": "Actual total p3 root displacement at alpha1 must pass original full-merit gdot/Armijo or fresh parent is retained",
-    "approximate_root_is_not_an_IFT_proof": true,
-    "original_d3_not_set_to_zero": true
+    "near_root_required": false,
+    "original_merit_slope": "r dot Jv, not a claimed derivative of a nonlinear implicit restoration curve",
+    "actual_outer_trial": "Actual seed p+alpha*v then bounded p3 restoration; last finite point+own fullJ enters original complete-three merit Armijo",
+    "actual_restoration_displacement_separately_recorded": true,
+    "original_final_thresholds_unchanged": true
   },
   "imported_frozen_direction_engine_source_unchanged": false,
   "source_chain": {
     "independent_algorithm_entry": {
-      "file": "geometry_20261115_small_core_p3_inner_root_search.py",
-      "bytes": 43598,
-      "sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
+      "file": "geometry_20261115_small_core_inexact_p3_restoration.py",
+      "bytes": 45133,
+      "sha256": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e"
     },
     "original_model_and_checks": {
       "file": "geometry_20261114_small_core_resonance.py",
       "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
+    },
+    "parent_inner_root_provenance_only": {
+      "file": "geometry_20261115_small_core_p3_inner_root_search.py",
+      "bytes": 43598,
+      "sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
     },
     "parent_resume_provenance_only": {
       "file": "geometry_20261115_small_core_damped_resume.py",
@@ -305,5 +293,6 @@
       "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
     }
   },
-  "immutable_parent_direction_source_preserved_but_not_executed": true
+  "immutable_parent_direction_source_preserved_but_not_executed": true,
+  "immutable_parent_inner_root_source_preserved_but_not_executed": true
 }
