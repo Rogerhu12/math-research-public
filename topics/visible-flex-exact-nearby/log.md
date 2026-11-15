@@ -73,3 +73,7 @@ root逐差核v2：复制原posterior函数，只把impulse event SHA换m.old.can
 ## 2026-11-15 06:21:44 UTC — 帽有限 Sobolev 球进入真实物理曲率有限jet域
 
 全文核F1–24，并回读T24原实际端点/完整S20–21及C10的H费用：fixed Π0相位、signed m、real j范围、finite inverse递推、D_j组合r!²和physical A0读出全部保。tail另独核组合常数。独推11688B证明，原两curvature mean独立；新数学仅符号推导。README 72fa825bb954ac14836c3666ccae18dba0fa7173两项无变。
+
+## 2026-11-15 06:22:38 UTC — finite-jet true long DN / Poisson / 完整正伴随型
+
+全文写成并分工独核：newton J1–20确认有限参数curve/真实comm、q+5预算、bareB先Schur再actualµ；tail J21–32核E_B rank-mean、两source/wholeform/adjoint和物理B四态入口。F帽有限jet证明已单独推；本篇0宽true C_R图不需未知解析性。独推完整23074B，SHA f7f1c86442e350c18c5e5861212c796b2e11fa84f6671ae83fee0cc2d275eb93。所有mean/height/flux/metric显式列保，未冒称最终族。README 973b5ed832d565f4080da6c5add3ca82b980c21a两项无变。

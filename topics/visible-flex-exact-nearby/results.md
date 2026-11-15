@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 finite jets 下真实 nonlinear long、完整 DN/Poisson/未匹配能量（2026-11-15）**：[J.1–J.32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 在σ=0完整Wiener重作原C_R固定点，再以8192阶有限参数曲线和real covariance支付全signed Schur。完整DN差<2^{128}(F+ε)，2176阶comm<2^{65536}(F+ε)；独立curvature Poisson保s_Bε和all means。真实E_B/mean projection/同j密度、非自伴型与adjoint俱保；whole-form门eta_C+2^{150}(n+F+ε)<1/2。F帽M8212球与tail H8196真实B trace给全部输入，无未知analytic假设。23074B；blobaa0a1e667c93663d64b281d8045bdc118e6587c8；SHA256f7f1c86442e350c18c5e5861212c796b2e11fa84f6671ae83fee0cc2d275eb93。未完成帽全nonlinear row/参数Schur/global matching。
+
 - **R133 有限帽球到真实物理曲率 jets（2026-11-15）**：[F.1–F.24](results/R133-supplement-cap-finite-Sobolev-ball-to-physical-curvature-jets.md) 从完整 M_{8212} 半径2^{-8388608}球、固定完整逆规范H与实际 endpoint数据，沿真实相位/mean/reciprocal证明0≤q≤8192的 physical Z jets<q!128^q2^{-36}。完整曲率差费<2^{1048576}||zcap||；最后才作nonmean投影，两个实际curvature mean另保。11688B；blob950edb77252f1cb5822da8418234221773ce0972；SHA256a31faadf521ea4ff71f096e01555fc6aef1c498db00077ccbad13d50a96b8d11。无未知复角延拓/新数值，非全匹配存在定理。
 
 - **R133 common-T 势与两阶 T 导数的完整最小预算（2026-11-15）**：[B.1–B.19](results/R133-supplement-minimal-complete-common-radial-potential-and-derivative-budget.md) 从原0..15根jets/三阶整复域付K至5阶及其余至4阶的完整尾；signed c/V抵消后一次生成W、V、V_T、V_TT。整个复z盘|z|≤97^{-2}保全部|j|≥97和双sign，物理even mean独立。所有κ/η/Abar及旧圆gap、真实inverse-image、seam与非零G入口列为实际数值合同，未宣称这些门或参考两列成功。12776B；blob71064dc5456a0ff8f4f0f3326b51d79d6e478163；SHA256cae161da962d9dc6e8f53934ebdf5b2410f75718439736f1b61d673ed6fe6fe5。

@@ -167,3 +167,7 @@ C1–29/SHAad1fc17b90c226149e806fde173f0ecf0d8deb5d107f7a8cf8bd78ad89fefdc1 新�
 ## 两外邻片实际完整源结论已成
 
 run43682479300/1 child0/21门，数学10.658338976s；新49stage（临时）、13完整行，6case各13选入且4305旧行逐字。报告f3a372ce…、实际小结论6b6db7c5…/executiona4718587…；全部131pin与11源码AST真过、原78中只读30必要阶段，0旧包络重算。最小R.001完整负/正源分别<7.448677497188e19、4.717220050477e19；最大R.02分别<8.737298521586e20、3.559569762900e20。旧failed大半径与九词五mean/1079seam仍在。新片完整entry/exit E/F/ell及两真实ray都已付；下一片整域/新ray仍须独立门。此次没有新排名，不能猜下一主导片；源整体仍未强返回闭合，common-T新势/两列/有序old I/J继续。
+
+## 真实未知 long 图与完整弱外口已接上有限背景域
+
+[J1–32](results/R133-supplement-finite-angular-jet-true-long-DN-Poisson-and-energy.md) 已用 zero-width 完整固定点、有限8192参数jets、全signed Schur付真实DN与独立Poisson；U/D保持good方向和conormal密度，F帽球给actual physical曲率jets，tail真实B trace给F≤2^-438R/n≤2^-432R。E_B未匹配修正、mean投影、全荷、wholeform/adjoint均保；该新接口足以供变化背景正区继续消费。下一根端任务是帽完整nonlinear outer行的同域差/增广charge与其Taylor余项，不能从已有主体球单独宣布全帽非线性逆。tail全层与真正tame尺度、ν精细Schur仍同步继续。
