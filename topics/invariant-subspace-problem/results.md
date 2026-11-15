@@ -392,3 +392,6 @@
 
 
 - **九目标共同最小湮灭式的剩余支撑精确隔离。** [完整证明](results/R150-appendix-known-critical-support-removal-and-external-target-annihilator.md)从真R剥全部已付临界支撑，得 $R_{\rm out}$ 与 $s(s-2)(s+6)F_+F_-E_8$ 互素，同九 $R_{\rm out}h_*t_j$ 仍有原来源/费8531。共同最小湮灭式为 $s^3F_+^{a_+}F_-^{a_-}E_8^{a_8}U$，$a_\pm\le2,a_8\le1$、$U\mid R_{\rm out}$；零点三阶严格最小，二点/负六指数零。未知U不宣称为1，原泛型例外集合含未知Δ，未被已有临界分类清除。
+
+
+- **原无穷远完整第六连接恰1、17头与总长下界62。** [完整证明](results/R150-appendix-infinity-complete-sixth-connection-one-seventeen-heads-and-length62.md)实付全低1088×598前缀578/580/589增至590，核8、17独立首项与736372原七层产品；前六秩 $(4,0,1,3,1,1)$。fullQ长62…66、次大52…55/max10…14、原选出δAI64…68，差商长1…5。射影界同步给R/Rout/U次数≤161、共同Rh*≤184，原source费8531不变。新增λ6normal2/3完整保留，第七高forcing不假零。
