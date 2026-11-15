@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [TC实际真实双branch密度坐标与完整有限共轭](results/R133-supplement-actual-true-branch-density-coordinates-and-complete-finite-conjugation.md)：43754703603/1 child0/18门、19小输入/4AST，4坐标窗、primitive两rank、ordered正逆/强/finite与四physical列全部付。SCI/preGit原字重构、42球与全部旧对象独核。保两mean/真共轭投影/finite真span，K0只一次；非Ei/Eo、完整incoming或R0，成功冻结。
+
 - [AD终端Ai首列的相关Darboux根剪切](results/R133-supplement-terminal-Airy-Darboux-correlation-and-root-shear.md)：对原n≥388的同一terminal-Ai列，精确signed Wronskian连同两项终端费用给βd−β完整n^-8/3；共同首列输入正规化可逆，root-input强尾随K衰减，low/mean/其它列仍Id。完整g列/inhom/physical source/positive/finite独立，纯解析无旧producer重算，不授完整incoming。
 
 - [VR同态值与差分的完整吸收及collar入口](results/R133-supplement-selected-value-and-difference-absorption-with-complete-cap-and-collar-inputs.md)：在明示wholecore/真实cut先验与实际physicalγ域内，以同CPA case的2×2正矩阵同时吸收低体与切口非线性；保uniform affine/height/waist/mean及真正左右collar输入。NG整行可替独立high H1；差分常数与height仍另付。纯条件解析，不认定五输入已小或core存在。
