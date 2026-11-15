@@ -159,3 +159,7 @@ cleanup run43679889657/1、SCI40c0f3df…仍逐原对象核bytes/SHA/Git blob，
 ### 旧圆真实逆已备完整合同，等实际标量门
 
 [H1–15](results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md) 将原fold真二次T因子按h/Rg缩放，完整determinant及Sherman–Morrison两路上界、ordered二角导与较窄Wiener均保符号/mean/两P/I/J。新SCI9596ebee…/9pin1869212f…只做新标量门，原势/target/FFT不重算；须消费实际run与rootcover/image/gap，再付正物理Schur和强返回。A实T列并不授旧复角列norm。
+
+### 第一 Γ 的低域与高正则现已分开
+
+[L1–24](results/R119-supplement-low-norm-principal-Gamma-map-and-tame-high-conjugacy.md) 在真实D20<2^-2097152低开放球构造完整weighted ℓ∞第一参数C¹值图；D8只是其真实导数的低functional，不冒低值域。高Dr仅有限时，同一实际ODE/同一共轭给r−8输出：flow2^1048576、conjugacy2^1310720γ^-1 J C^P，r≤8196。GN/Faà最高因子仅一次，Gronwall只用低norm；全mean/height/γ2固定保。紧接全网络与radial jets的两层tame，不把本篇量词扩张误用于尚未证明的全inverse或G2114源窗。

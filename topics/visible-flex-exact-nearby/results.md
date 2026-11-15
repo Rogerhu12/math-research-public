@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R119 L：低范数第一Γ值图与同一高阶共轭](results/R119-supplement-low-norm-principal-Gamma-map-and-tame-high-conjugacy.md)：真实D20<2^-2097152定义完整第一参数C¹图；高Dr≤8196仅需有限，真实flow/同一conjugacy分别付2^1048576和2^1310720γ^-1的one-high界。完整GN/cutoff/一次低Gronwall已付，低D8导数识别保两mean、实际height与固定γ2；全网络tame与charged值图仍另付。
+
 - [R133 H：真实共同参考列的完整旧圆逆预算](results/R133-supplement-complete-old-circle-gap-for-genuine-common-reference-columns.md)：以原4501B fold和已完成全复域势为输入，给H_V真行列式下界、完整逆矩阵及两角导、较窄完整Wiener界；两P/I/J/mean/两sign/真实seam保持。9pin公共标量consumer随本结论部署，实际正gap须待run；不重算旧势/fold/FFT，不持久化新data。
 
 - **R133 真共同径向两列、root shear与完整两源（2026-11-15）**：[A1–27](results/R133-supplement-genuine-common-radial-reference-columns-and-two-source-ports.md) 从actual43685624307的V<276及完整T像，构造实T±1/2000上n≥388的两列，精确Wronskian n^{2/3}/π；完整shear<138n^-4/3<1/19，正两权21/20，负relative及inverse6/5、真实两端relative propagator10/9。两普通源不取g2径向导，原n幂/κ rootport、独立mean/实际positive行与seam保；没有授old complex angle或全strong return。15528B；blob62909c54de321da071a6bbc6e169e87b5888dde6；SHA2560e56cf640b5c5f46c917699396e0ef6e5cce1fd5276cbddfc56ee1ed58d89c49。
