@@ -268,7 +268,7 @@ class Preview:
         self.omissions.append(info)
         marker = {"_explicit_omission": True, **{k: v for k, v in info.items() if k != "path"}}
         if directory:
-            marker["field_directory_and_shape"] = shape(value, 1)
+            marker["field_directory_and_shape"] = shape(value, 0)
         return marker
 
     def compact(self, value, path="$"):

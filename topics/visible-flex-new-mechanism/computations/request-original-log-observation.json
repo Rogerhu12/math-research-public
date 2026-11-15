@@ -2,9 +2,9 @@
   "schema": "original-completed-actions-log-observation-request-v1",
   "mode": "read-only-original-actions-log-v1",
   "repository": "Rogerhu12/math-research-public",
-  "source_sha256": "fc2da09769ed19f3eb9e2e496b77467abc1eed6dd978bc3f31179af0043c9288",
+  "source_sha256": "473691736814206e3a814c06751cb1d24dbc9352ee1f8236603c38304f44654f",
   "workflow_sha256": "72fde480fff2efee00efa6bf827d0bd1937ae13c5ca1d125359938f06632d18b",
-  "reason": "Native log transport closed three times; read the same completed original log without rerunning research or artificial checks.",
+  "reason": "First original-log observer run 43732106770 verified original log and all 106 source hashes but its proposed 98963-byte semantic selection exceeded 90000. Reduce nested omission directories to field types; read the same completed log without science or development reruns.",
   "original_run_id": 43728280256,
   "original_job_id": 132854922848,
   "original_source_commit": "7329385a2dd84a40a271181c017c9a4028ae0f31",
@@ -17,5 +17,7 @@
   },
   "stdout_byte_limit": 90000,
   "publication_policy": "Source/request/run/hash/human conclusions only. The original log remains in memory; readback is semantic stdout only.",
-  "completion_claim": false
+  "completion_claim": false,
+  "previous_observer_run_id": 43732106770,
+  "original_log_sha256": "65c4dbae5dd981eae9bb8fa6ffccd338c6988e1b4e1778813ef839025421fddd"
 }

@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开最后已证actual pull/read `f773a6eb22daa687202ae2d54b9255630527224a`，2026-11-15 run43728280256发布receipt：从7329385实际pull到该SHA，双README无差，原stdout尚在恢复，不虚构精确秒；前次精确预检15:03:23。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开最后actual pull/read `c727c474a85641d2a18aae2b779d03a968cb5ccf`，2026-11-15 15:50:48.578152 UTC，observer43732106770真实pull已是最新，双README无差；原科学发布另已证f773a6e。每次pull核双README，有变只读差异即执行并记SHA，至少每小时实际pull；每结论即推，NFF立即rebase/核规则/再推，不force。根blob21bd547f56590b7f2dd279d0297efb289a9b2783；题d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 15:03:27 UTC实际pull/read `dece04bc03915d3124624a9c963d743681fc7021`；根blob5ba164843b1f5802184178a82d786264404873a3无差，题README不存在，QUEUE唯一行仍本会话进行中。原public日志/receipt已直接消费；API读取不冒pull。
 
@@ -21,7 +21,7 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **已消费159系列**：容量/hold、因子化J与选行仿射actual全部见对应notes，不重已付阶段。旧选行仿射43722283235/bb33192：η.266419188→.266401179，8模型/12LP/0SOC/7接纳；两网14门/盒过，m6漏峰/已选曲率失败、m5 e/f非线性保原记录。active16.997316s、八恢复569.558425s分账，50/102源24输入核合。所有旧失败/漂移/费用仍保原件。
 
-**完整两网actual待消费**：[设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)保单全θ JVP/四凸max/真实attainer切面、冻结outer/原12LP120s40值3inner。43727663245首方向6过，array误要求替换并列incumbent失败、零恢复零科学；[原失败/修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)保留。源绑定复用已付方向，续run43728280256/7329385/job132854922848 **success**，原大stdout接口3次Transport closed；只读原log观察source/request-original-log-observation.json 已提交，首读限90KB语义stdout，正在取同一run原输出，不重科学。receipt 55785B/SHA77435aab53274594ad70ba8e4da0a6e6fe7961de6e10b7d587bff85ddb65acb7，实际audit16929326B/cee75e9b…、summary3282056B/fcd318dc…；尚未判新checks/实际降幅。
+**完整两网actual待消费**：[设计](notes/complete-two-grid-affine-metric-directional-separator-design-20261115.md)保单全θ JVP/四凸max/真实attainer切面、冻结outer/原12LP120s40值3inner。43727663245首方向6过，array误要求替换并列incumbent失败、零恢复零科学；[原失败/修正](notes/complete-affine-first-development-tie-and-resume-20261115.md)保留。源绑定复用已付方向，续run43728280256/7329385/job132854922848 **success**，原大stdout接口3次Transport closed；只读原log观察source/request-original-log-observation.json 已提交，observer第二首读：原log2reports/106源核合，首语义98963>90KB结构退出；收窄嵌套目录，再读同log，不重科学。receipt 55785B/SHA77435aab53274594ad70ba8e4da0a6e6fe7961de6e10b7d587bff85ddb65acb7，实际audit16929326B/cee75e9b…、summary3282056B/fcd318dc…；尚未判新checks/实际降幅。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -55,4 +55,4 @@ R264–281原完整period接口保G″=(aw″)′+bw′−Jcw、GreenΛ′=pG″
 
 R105/109/130真实有限U与完整history不可删；非零M时N²/N³保留。R84倒行成本同号，span/闭锥非实际逆元；R156只α∈πZ合法。R98只排正state universal P1。Engman仅S1等变、Freese–Weber另加曲率条件，非一般C²刚性。完整第四、高阶收敛、固定g有限族、嵌入/全时reach/幅度均欠，按open接续，不阶段收尾。
 
-断连API复核main 57d56b4d636f6afe673b7279d81069b5174eb6f1，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
+断连API复核main 63477c9b0272c3da4d6ac7e2326bbc170400767f，双README blob同。所有小UTF8 proof/source已保存；未把API读作实际pull。
