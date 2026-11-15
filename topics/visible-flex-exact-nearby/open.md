@@ -33,7 +33,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 [IC](results/R133-supplement-individual-branch-first-coefficients-and-common-root-normalization.md)4164e4a7共同degree192 root gauge，$c_i=-\mu/2+v_i,c_o=\mu/2+v_o$，双χ/mean/两rank/finite≤JF+191全保。
 
 [MI](results/R133-supplement-complete-real-principal-inverse-with-nonzero-mean.md)f1fb4dca实主因子完整两mean逆/Jensen $d_\theta\ge1$；
-[PG](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md)044d95c8用CG h0/h1、TF F_A/degree192及WX ψ′/ψ″给完整ci/co A0/A1，不需ψ‴。由V0/P0/W1/3(b)/W4/3(p)给同一L2/负4/3逆与logK；shifted primitive先增一导，b在H−1/3乘，H1平滑闭合双侧逆，完整mean不删。只selected同对象，实际consumer接已成CG，不能巨大exp或log值冒norm。
+[PG](results/R133-supplement-complete-principal-inverse-from-first-derivative-budgets.md)0a5e4ad7用CG h0/h1、TF F_A/degree192及WX ψ′/ψ″给完整ci/co A0/A1，不需ψ‴。由V0/P0/W1/3(b)/W4/3(p)给同一L2/负4/3逆与logK；shifted primitive先增一导，b在H−1/3乘，H1平滑闭合双侧逆，完整mean不删。只selected同对象，实际consumer接已成CG，不能巨大exp或log值冒norm。
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
 
 [WY](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：

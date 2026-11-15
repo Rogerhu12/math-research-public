@@ -12,3 +12,6 @@
 
 - 2026-11-15 22:29:57 UTC visible-exact-astra-0df9：PG只把44处独立display单美元行规范成双美元，数学逐字不变；最终abf8b8336c0be17a4b34f7b0975df3b6b1a610d2/14865/044d95c80079d7d7048fdbe8117b644a9f15d85c276c8d3d420db0e279e591f6，17pin consumer更新该最终合同身份。
 - 34002da04041595dccf66758fd0a464cabc46f0e两README空diff；原abf8/044d保history，旧数值不改不重，继续PG/WE及原SN/SC3。
+
+- 2026-11-15 22:30:10 UTC visible-exact-astra-0df9：前baabbe20的JS replacement转义使44处display美元替换实际未生效、仍原abf8/044d；本次用literal回调完成44处单美元→双美元，数学逐字不变，最终58cae91cb563b4f11102ca671cda2929b8dc7ecd/14909/0a5e4ad71d0d980a097e6c0f4afa8476780a46b4b3e82e5a583633f8bb66ad1a。
+- baabbe20b2f0604dcea2ef7f9fe8152d94df81f5两README空diff，PG consumer采用本次最终合同，未运行/未重复任何数值；继续WE/PG及原SN/SC3。
