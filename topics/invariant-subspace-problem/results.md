@@ -495,3 +495,7 @@
 ## R271：精确兼容真空塔与同actual测试的有限孔真核比较（2026-11-15）
 
 [完整证明](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)在同一Bernoulli池事件N≥L上平均逆权列，逐层精确Dv_r=v_(r−1)、v0=Ω，整塔σr||v_r||≤A=P(N≥L)^−1(Sx/Sx+L)^L。T_La=Σ(-C)^ra⊗v_r在W_L=kerC^(L+1)上是真核，完整Gram夹H_L与A²H_L；两种逆都仅在同W_L上压缩后取得。结合固定头物理G的完整Neumann尾，严格得原||u_g||²≤[1−A^-2+A^-2 min(1,χm²ρm^(2ν))]||g||²。固定m取L约logx、Q≥R+L给平方O_m(log²x/x)的精确K_Q比较，已超一次MP残量。移动头条件及运输到原全局T的carry/核lift仍须同源支付。
+
+## R271：原缩放相似、Chebyshev完整源能量与明确moving模型窗口（2026-11-15）
+
+[完整证明](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)保原N/Y物理权，取真实小齐次Jordan权ρ/d0，准确S及逆的Cauchy界给logχ≤(35/3)d⁴+5d³+O(d)≤47d⁴/4。完整能量中的Chebyshev候选grade≤L，严格δ²≤min(1,4ϑ^(2floor(L/(d−1))))||f_L||²，ϑ=(√χ−1)/(√χ+1)，无旧χ²前因子。配兼容塔取x=ceil e^(12d⁴)、L=ceil e^(71d⁴/12)、Q≥x−m+L，原全头实际u平方≤36e^(−d⁴/6)+4e^(−x/12)+4exp[−2e^(d⁴/24)/d]；显式k_pol∈K_(m,L)且与同f_L距离趋零。原carry修复保完整两侧高幂R0^(j+ℓ+1)，旧合法母窗e^(26d³)并未扩大；同T核lift和实际w低输出仍待付。
