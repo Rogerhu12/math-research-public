@@ -439,3 +439,5 @@
 - **R818（已证明）**：[原primitive首cusp系数与实际全cusp不分歧Hom存在](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)。互素cyclotomic导子使E^Fp/E1的首Fourier系数泛函为同构，原u_h非零给全部primitive Hodge线char0 cusp非零；由真实L-isogeny的Hom拉回基与R816单轨道，得至少一个实际Hom在全部cusps不分歧。原正twist/CRT/αs/tame项保留，比较尺度只用于非零，不宣称p单位或高度。SHA adf5939ac7bf10186d1eba6b16180df2944941d548dcfe0aeb7808f7d15534ec。
 
 - **R811 generic模块实际验证成功（非原CM结果）**：[结果](results/R811-certified-generic-polynomial-module-validation.md)。公开run43719858329/source3018f798在Q(c,ζ)、c⁷=2上准确消去(u−α)，两图闭式H/W、原P完整方程、Laurent互含和degree1全过；四个真实exit97边界续算后五数学文件字节SHA均c5cd89b2。2.405270309秒；原ZIP/summary/65个直接引用spec已IO核。仍待原A/B，未给原极除子。
+
+- **R819（已证明）**：[原primitive Hom域与每个非零方向的全cusp不分歧](results/R819-original-primitive-Hom-field-and-all-cusp-nonramification.md)。经原R728 Weil伴随精确核T=Dρ^-1σ与正CM作用，Hom是K[T]=Q(ζ_(p+1))的rank1模；不是L向量空间。由单cusp轨道和ωTv=ρσωv，评价核是域子模，R818真实非零评价排全体，故全部非零原实际Hom在每cusp不分歧。保原c0与比较尺度；不推出p单位、cusp像或高度。SHA 0d02e619f9cb85985bbeb0445f4fabbd68bc719066b5a0aad92a8824833a03f6。

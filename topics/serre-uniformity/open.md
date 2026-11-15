@@ -123,4 +123,4 @@ R791实下降三同源与R794低次数五基的双向变换保全原极化/η。
 
 **R812（六case已准确成功，全部split p的未筛配对非零）**：[实际结果与全p推论](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3。固定六FG均非零、分母121，清分母Norm因子2^38·3^12·5^12·11^24；U分母88、det分母11^6/Norm仅2/3/11。因此每个p≥41、p≡5mod12的原交替卷积Σ(−1)^j f_(N−1−j)g_j为单位，保共同c/Frobenius/Gaussian相位并先代数化再SS评价。完整8文件/6manifest与原verify全核，47.336289秒含拉镜像。原primitive/Legendre同h与p11mod12 Eichler分支仍OPEN，不以未筛代筛后或主定理。
 
-**R816一般p cusp轨道缺口已闭**：[证明](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。原Y_K标准level2p模型的准确剩余域为实Q(ξ_p)^+，c=3m−1与L/K次数m互素，Y_L/X_L全部cusps单轨道；X→Y原三次盖总分歧而剩余域不变。L定义截面全部cusps同阶。R818已证原primitive首cusp系数char0非零及至少一个真实Hom全cusp不分歧；原K[T]秩一强化继续核；不把单轨道当同h三单位。
+**R816一般p cusp轨道缺口已闭**：[证明](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。原Y_K标准level2p模型的准确剩余域为实Q(ξ_p)^+，c=3m−1与L/K次数m互素，Y_L/X_L全部cusps单轨道；X→Y原三次盖总分歧而剩余域不变。L定义截面全部cusps同阶。R818原首cusp系数char0非零及真实Hom存在、R819原K[T]=Q(ζ_(p+1))秩一与评价核稳定均已证，故每个非零实际primitive L-Hom在全部cusps不分歧；不把char0结论当p单位或同h三单位，cusp像与原函数极除子另核。

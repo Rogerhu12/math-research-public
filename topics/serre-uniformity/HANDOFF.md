@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM的E/Q在p>C时模p满射，或完整构造p→∞反例族。**主目标OPEN，未达README完成标准。** 会话serre-public-astra-20261115；沿远端main，不找旧未推分支。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。日志Asia/Taipei。
 
-**已读规则提交：d4c8df1e10f6af89fe5377d1d096b595494ff009**（2026-11-15T13:44:05.643448+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R816前H](notes/2026-11-15-handoff-before-R816.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
+**已读规则提交：7c2ddc20f5512ab52ae4d022f41a19d397d3a97e**（2026-11-15T13:50:26.596432+00:00；实际git pull --rebase origin main，两README无diff）。当前检出/dev/shm/serre-main-restored-1320，CLI推送。完整前态逐字保[R819前H](notes/2026-11-15-handoff-before-R819.md)，内接全部更早归档；[R801前open](notes/2026-11-15-open-before-R801.md)。
 
 每结论立即推；至少每小时实际pull并比较根/本README，变化只读diff即遵守；非快进立即pull --rebase循环重推，禁force。PAT仅CLI、不落文件。root独占main/共享索引，代理只专属稿。**新数学只本公开Actions**；本地仅纸面审查、IO/schema/hash/AST。根§15：可重算raw/证书不入Git/Release，仅脚本参数/source/run/SHA；必要输入/断点仅一日活跃传输，已成阶段不重算。Markdown<100KB，H<10KB，open<30KB；旧raw清理run43679907787已成。
 
@@ -39,9 +39,7 @@
 **R812全split p未筛非零已成**：[真实结果](results/R812-certified-split-prime-unfiltered-apolar-unit.md)，run43713181015/source2b7183a3；六FG Norm仅2/3/5/11、U/det仅2/3/11，全部原文件/verify已核。因此所有p≥41、p5mod12原未筛交替卷积非零；不等于primitive/Legendre同h。五端项、CM共同c^(2−2p)、先代数化再SS规范保持，不重算六case。
 惰性p11mod12见[原harmonic7源](notes/2026-11-15-sigma-inert-Gaussian-harmonic-seven-source.md)：余项H7/(32(a²+b²))为一次q原函数，Qpoly在P0零；指定FG代数CM评价/单位仍缺，不能称水平。[全SS端项障碍](notes/2026-11-15-sigma-endpoint-global-Hasse-obstruction.md)只排Δ(αf末+βg末)=γDA常系数全SS恒等，单j0关系保留。
 
-**R816一般p尖点单轨道已证**：[结果](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)。原Y_K由u=24s(2t−1)识别到level2p，范数标签{±n}的算术作用d^-1，真实剩余域Q(ξ_p)^+。c=(p−1)/2=3m−1与[L:K]=m互素，故原Y_L/X_L均一个cusp闭点；a³=t在cusps全分歧3且剩余域不变。L定义截面各cusp同阶。[R818首cusp非零/真实Hom存在](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)已证；不外推p41 Hom域/秩一，也不由char0非零宣称p单位。
-
-**R818已证**：原E=Q(ζ_(p+1))与Q(ξ_p)互素导子，E^Fp/E1→E(ξ_p)的首Fourier系数泛函准确同构；原Cartan u_h非零，故所有原primitive Hodge线在参考cusp char0非零。实际L-isogeny的Hom拉回张成Hodge，加R816单轨道得到至少一个实际Hom在全部cusps不分歧。原CRT/αs/tame项/宽6p保留；每个非零Hom的强化正由原R728半线性作用核，未给p单位。
+**R816/R818/R819一般p cusp桥已证**：[实cusp域](results/R816-original-all-prime-real-cusp-orbit-and-degree-coprimality.md)为Q(ξ_p)^+，c=3m−1与[L:K]=m互素，Y_L/X_L各单轨道，X→Y全分歧3不改剩余域。[原首系数](results/R818-original-primitive-cusp-coefficients-and-unramified-Hom-existence.md)由互素导子E^Fp/E1的Fourier泛函同构及原Cartan u_h非零，给真实Hom存在，保原比较尺度。[原primitive Hom域](results/R819-original-primitive-Hom-field-and-all-cusp-nonramification.md)经原R728 Weil伴随确认为K[T]=Q(ζ_(p+1))上的rank1，T=Dρ^-1σ是K线性，ωTv=ρσωv。cusp评价核由单轨道T稳定、只能0/全体，R818排全体：每个非零实际primitive L-Hom全部cusps不分歧。仅char0，未给cusp像、p单位/同h三单位或高度；原c0刚性化保留。
 
 ## 原规范与主目标边界
 
