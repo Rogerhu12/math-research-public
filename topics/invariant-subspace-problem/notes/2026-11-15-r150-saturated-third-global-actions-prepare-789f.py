@@ -34,7 +34,7 @@ def source():
  req=request()
  fixed={'format':'r150-saturated-third-global-fixed-request-v1','original_high_kernel_count':7,
   'auxiliary_source_slots':6,'actual_source_cost_upper_bound':1345,'target_labels':TARGETS,
-  'integer_modulus':887503681,'original_target':'31^2*h0','shared_mathematical_seconds':300,
+  'integer_modulus':887503681,'original_target':'31^2*h0','shared_mathematical_seconds':1200,
   'per_child_memory_mib':1024,'per_compilation_seconds':30,'native_compilations':5,
   'old_second_page_mathematics_recomputed':False,'old_third_page_mathematics_recomputed':False,
   'characteristic_zero_identity_asserted':False}
@@ -66,7 +66,7 @@ def source():
   raise ValueError('Every real input and complete scope set required')
  if len(c['inputs'])-counts['notes']!=req['artifact_input_count']:raise ValueError('Artifact input count')
  if {x['scope']:x['id'] for x in req['artifact_sources']}!=ARTIFACT_IDS:raise ValueError('Exact eight source artifacts required')
- if c['nativeModulus']!=887503681 or c['sharedMathematicalSeconds']!=300 or c['nativeCompilations']!=5 or c['perChildMemoryMiB']!=1024:
+ if c['nativeModulus']!=887503681 or c['sharedMathematicalSeconds']!=1200 or c['nativeCompilations']!=5 or c['perChildMemoryMiB']!=1024:
   raise ValueError('Bounded original arithmetic contract changed')
  if set(c['completedOutcomes'])!=set(OUTCOMES) or len(c['completionRequired'])<5:
   raise ValueError('Complete original global scope and completion facts required')

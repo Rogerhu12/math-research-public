@@ -415,7 +415,7 @@
   "artifactCount": 8,
   "nativeCompilations": 5,
   "compileSecondsEach": 30,
-  "sharedMathematicalSeconds": 300,
+  "sharedMathematicalSeconds": 1200,
   "perChildMemoryMiB": 1024,
   "mainReceipt": "saturated-third-global-pipeline-receipt.json",
   "completedOutcomes": [
@@ -582,5 +582,14 @@
   "newNativeFinalBoundsCompiled": false,
   "newMathematicsExecuted": false,
   "mathematicalStateAtFreeze": "Actual third local result is all-positive. This new global continuation has not run; only all-nine original17 multiplication can mark it completed.",
-  "workflowTrigger": "workflow_dispatch"
+  "workflowTrigger": "workflow_dispatch",
+  "executionBudgetRevision": {
+    "previousSharedMathematicalSeconds": 300,
+    "sharedMathematicalSeconds": 1200,
+    "reason": "Two actual completed continuation rounds show saved VQ phases need longer uninterrupted verification; preserve every completed cache and exact partial array.",
+    "mathematicalProgramBytesUnchanged": true,
+    "previousContractSHA256": "8215f48edebdfda93e43e0b084735e1c050ce4ad8c3f706eba6b4ad2d9c04bb1",
+    "perChildMemoryMiBUnchanged": 1024,
+    "perCompilationSecondsUnchanged": 30
+  }
 }

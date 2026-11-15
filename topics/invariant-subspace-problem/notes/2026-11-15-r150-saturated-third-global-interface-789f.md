@@ -32,12 +32,12 @@ python -B 2026-11-15-r150-saturated-third-global-runner-789f.py \
   --seven-recovery SEVEN --current-recovery CURRENT \
   --ninth-recovery NINTH --old200-recovery OLD200 \
   --second-recovery SECOND --third-recovery THIRD \
-  --out OUTPUT --math-seconds 300 --memory-mib 1024 --compile-seconds 30
+  --out OUTPUT --math-seconds 1200 --memory-mib 1024 --compile-seconds 30
 ~~~
 
 精确合同固定 49 个实际输入，总原字节数 533394601，来源为 8 份既有 recovery artifact 加 notes 的模型和 torsion 状态。第二页只读取已成 prepared receipt 和 20-jet 原 $q_1$；第三页只读取两份 prepared/complete receipt 及其小矩阵。所有原来源、NF、G quotient、余量及常预基 trace 都按原 SHA256 和实际字节数校验。旧局部页、旧 197/204/208 列均不重算。
 
-五个 C++17 helper 各有独立 30 秒编译上限；编译与既有输入恢复完成后开始唯一 300 秒数学时钟。每个子进程地址空间限 1024 MiB。原来源和完整原输出数组可同时存在，因而本次明确增加了内存界，未继承前序 512 MiB 边缘配置。
+五个 C++17 helper 各有独立 30 秒编译上限；编译与既有输入恢复完成后开始唯一 1200 秒数学时钟。每个子进程地址空间限 1024 MiB。原来源和完整原输出数组可同时存在，因而本次明确增加了内存界，未继承前序 512 MiB 边缘配置。
 
 Python 依赖为 NumPy 2.2.6、python-flint 0.9.0。所有 Python 使用 -B。冻结时三个新 Python 文件已实际 AST 解析；最终 1345 界的五份 native 源尚未执行编译，真实编译结果由 Actions 回执记录。较早 1058 界的编译不能冒充本次编译或数学运行。
 
@@ -91,3 +91,7 @@ $$
 通过 --resume-recovery SAVED 复用完成阶段和真实 native 检查点；可再传 --resume-results SAVED_RESULTS 复用已封存证书字节。绑定只使用输入字节、代码/header SHA 和规范来源多项式，不使用恢复目录路径。VQ 保完整 partial 来源数组及 next-row；wide 原运输保 raw/beta 双槽；原乘回保完整 product 数组与原源输出前缀。恢复不会重算已完成阶段。
 
 全部实际 recovery 文件和 stage-cache 无损保存。大流采用 gzip level 1，分片每份不超过 4500000 B，清单保原完整 SHA、压缩完整 SHA 和全部分片 SHA。封存时间单独记录，不挤占数学时钟；局部检查点绝不标为全局证书。
+
+## 执行预算接续记录
+
+首轮及首续已保存真实检查点；后续共享数学时钟由 300 秒提高至 1200 秒，以连续完成已有 VQ 数组的完整原来源核验。五个 native、矩阵、carry 及 runner 的数学源码字节不变，输入 SHA、源多项式、模式和 header 绑定全部保持，因此旧完整 cache 及 partial 可继续复用。编译仍各 30 秒，子进程仍 1024 MiB；外层数学步骤 40 分钟、job 90 分钟，低于根 README 的 6 小时上限。提高的是后续执行预算，不补记任何尚未完成的恒等式。

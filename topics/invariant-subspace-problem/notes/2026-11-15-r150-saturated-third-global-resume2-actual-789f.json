@@ -1,0 +1,291 @@
+{
+  "format": "r150-saturated-third-global-second-resume-actual-v1",
+  "run_id": 43670796654,
+  "job_id": 132680153887,
+  "source_commit": "3493809f84c945ab5d026a6790a5b9e64446a6c4",
+  "actual_compact_artifact_sha256": "d9dfb507295acbbbce2d857326891c3f98c4057a61b5402efbc1cb2b5f12b27d",
+  "mathematical_elapsed_seconds": 300.0078725,
+  "packaging_elapsed_seconds": 10.419251265000014,
+  "recovery_files": 314,
+  "recovery_bytes": 2108880863,
+  "recovery_manifest_sha256": "90ef457c61bc51f0fc9fd34afc3aff162a73407706ce2b9903b79862015caf9a",
+  "artifacts": [
+    {
+      "id": 14144218208,
+      "name": "isp-r150-saturated-third-global-recovery-43670796654-1",
+      "bytes": 1400301120,
+      "digest": "sha256:6dc3171167876ac4df8878b2a439a17f67962f0a2359acf9762baf3e0225c2d7"
+    },
+    {
+      "id": 14144078717,
+      "name": "isp-r150-saturated-third-global-results-43670796654-1",
+      "bytes": 1422061988,
+      "digest": "sha256:fb0ddc447f0488f4853dd2d3447173a5242151fb694471d4930c674b3351ab93"
+    },
+    {
+      "id": 14143799423,
+      "name": "isp-r150-saturated-third-global-compact-43670796654-1",
+      "bytes": 71789,
+      "digest": "sha256:d9dfb507295acbbbce2d857326891c3f98c4057a61b5402efbc1cb2b5f12b27d"
+    }
+  ],
+  "reused_complete_stages": 17,
+  "new_complete_stages": 5,
+  "completed_stages": [
+    {
+      "name": "prepare-actual-six-global-sources",
+      "input_binding_sha256": "1bac604712a1c7530bcacfc1fac1a8432ba44a6635f2a58ad7332e6fd43c5e64"
+    },
+    {
+      "name": "seven-q1-image",
+      "input_binding_sha256": "6ac67c8095874f48af8e9453ed1bad8e2cde8f6bebe5183c09a7edece15ec8e7"
+    },
+    {
+      "name": "seven-q1-VQ",
+      "input_binding_sha256": "1859cac2cde868e508c306be6a5e3d70449c822b8ea38711fefc097021d09238"
+    },
+    {
+      "name": "seven-q1-original",
+      "input_binding_sha256": "c42e3bf606a9292763433375091ca4981ece90182d90fd575be25bf96140277b"
+    },
+    {
+      "name": "same-q1-integer-carry",
+      "input_binding_sha256": "de29db95170e1d1c05aee3f0810ca848ad2c7ddda901833f25ed2da88776c8de"
+    },
+    {
+      "name": "projected-six-initial-p2",
+      "input_binding_sha256": "fe6ecdae6fd1ef759cb07b8b23231240370fbe9e00bcc3337c3b7db1966d2da3"
+    },
+    {
+      "name": "projected-six-initial-normal",
+      "input_binding_sha256": "c909ed591f3bb79cc46d81cd35038255f3bc502a44726ad0671bc873233833ff"
+    },
+    {
+      "name": "projected-six-initial-whole-image",
+      "input_binding_sha256": "08fd44fa03d59f54adc945c05001c863da8620942b02b1eeed170b0378973ec2"
+    },
+    {
+      "name": "six-q2-image",
+      "input_binding_sha256": "0db306d9f25a8215d020e12aa5f0e7339d4ec4ae4fdc46ebfebc273b4fa042c8"
+    },
+    {
+      "name": "six-q2-VQ",
+      "input_binding_sha256": "84464ef29691ffeec9af9339f74903a038299678ec746d5b386e85a813d48dcd"
+    },
+    {
+      "name": "six-q2-original",
+      "input_binding_sha256": "c5b18025da24224c43e7f322f1e4397aed51245a5e450a8405c87d78cfd61263"
+    },
+    {
+      "name": "six-L3-p3",
+      "input_binding_sha256": "245441bfbca45cdb0dfaafaa99d1d487fed01e331fe316f27fdef2fbf3979864"
+    },
+    {
+      "name": "projected-six-L3-p3",
+      "input_binding_sha256": "9549a99c532d74a96ccdbbcc411a6a32bc5a30c11799e2db97524f6e1ef9f55c"
+    },
+    {
+      "name": "projected-six-L3-normal",
+      "input_binding_sha256": "1a2ed8a98544c9c4e1cb9b6411d6b044bea25b07904d2db6c2c8895ece1fa896"
+    },
+    {
+      "name": "projected-six-L3-whole-image",
+      "input_binding_sha256": "cadf79df0e417239564e9d8264a7cdf580a377fcd5f291c44d3b3021520f9ee7"
+    },
+    {
+      "name": "global-D2-and-seven-correction",
+      "input_binding_sha256": "fea16a93dcd3497eae5c245500028f46eead61daf28ca90a8bf794c2e203ac0e"
+    },
+    {
+      "name": "five-q3-image",
+      "input_binding_sha256": "8c13b7b5f0a14d8f11fd88150560181389e76fa2652d8ae66feedd7a450eb5bd"
+    },
+    {
+      "name": "five-q3-VQ",
+      "input_binding_sha256": "52b9da733781d4225c522f2167454e23f9dbfafe210e5a3e5c7ac73a1b5bd600"
+    },
+    {
+      "name": "five-q3-original",
+      "input_binding_sha256": "30a7179f57f3cbe9531fe105c923b162abee651ee740f787130ce43f4b2b4507"
+    },
+    {
+      "name": "five-L4-p4",
+      "input_binding_sha256": "c1e4eb5145965f6e967dfb3bb8d86f290193dfefc48fd1c206b0ad864ae9e013"
+    },
+    {
+      "name": "projected-five-L4-p4",
+      "input_binding_sha256": "2657e027912eaf6682dff2e713536cbc90b0462229afd3257d0965104a09511e"
+    },
+    {
+      "name": "projected-five-L4-normal",
+      "input_binding_sha256": "a005584d5d58fdb9d6e01c462a96c1c9b16ca63dd82d79758f9c9356f3b787cc"
+    }
+  ],
+  "new_actual_stages": {
+    "five-q3-VQ": {
+      "status": "completed",
+      "inputBindingSHA256": "52b9da733781d4225c522f2167454e23f9dbfafe210e5a3e5c7ac73a1b5bd600",
+      "elapsedSeconds": 184.73340238400002,
+      "exitCode": 0,
+      "nativeStatistics": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": false,
+        "rawPaidVQSectionPreserved": true,
+        "sourceMode": "raw",
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          757,
+          757,
+          757,
+          757,
+          757,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 0,
+        "peakRSSKiB": 152012,
+        "elapsedSeconds": 184.717
+      }
+    },
+    "five-q3-original": {
+      "status": "completed",
+      "inputBindingSHA256": "30a7179f57f3cbe9531fe105c923b162abee651ee740f787130ce43f4b2b4507",
+      "elapsedSeconds": 68.82435965600001,
+      "exitCode": 0,
+      "nativeStatistics": {
+        "status": "original-source-transport-complete",
+        "phase": 5,
+        "nextRow": 0,
+        "family": 4,
+        "generation": 9,
+        "binding": "5b5aa87f5e4daaa3df6e0504cc69bee9165547d454ec6c059a14bab5d6ce2e61",
+        "elapsedSeconds": 68.8087
+      }
+    },
+    "five-L4-p4": {
+      "status": "completed",
+      "inputBindingSHA256": "c1e4eb5145965f6e967dfb3bb8d86f290193dfefc48fd1c206b0ad864ae9e013",
+      "elapsedSeconds": 7.818013237000002,
+      "exitCode": 0,
+      "nativeStatistics": {
+        "status": "full-original-saturated-positive-product-complete",
+        "divisor": 923521,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod887503681": false,
+        "actualSourceCosts": [
+          757,
+          757,
+          757,
+          757,
+          757,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsedSeconds": 7.80587
+      }
+    },
+    "projected-five-L4-p4": {
+      "status": "completed",
+      "inputBindingSHA256": "2657e027912eaf6682dff2e713536cbc90b0462229afd3257d0965104a09511e",
+      "elapsedSeconds": 13.484685024999976,
+      "exitCode": 0,
+      "nativeStatistics": {
+        "status": "full-original-saturated-positive-product-complete",
+        "divisor": 923521,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod887503681": false,
+        "actualSourceCosts": [
+          953,
+          953,
+          953,
+          953,
+          953,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "elapsedSeconds": 13.4713
+      }
+    },
+    "projected-five-L4-normal": {
+      "status": "completed",
+      "inputBindingSHA256": "a005584d5d58fdb9d6e01c462a96c1c9b16ca63dd82d79758f9c9356f3b787cc",
+      "elapsedSeconds": 19.622144615000025,
+      "exitCode": 0,
+      "nativeStatistics": {
+        "status": "197-third-global-normal-forms-complete",
+        "sources": 0,
+        "targets": 9,
+        "components": 1034,
+        "forwardOperations": 782976,
+        "backwardOperations": 1010703,
+        "normalOperations": 14608231,
+        "originalRHSCost": 957,
+        "originalRHSNonzeroCoefficients": 19157362,
+        "peakRSSKiB": 141036,
+        "elapsedSeconds": 19.6062
+      }
+    },
+    "projected-five-L4-whole-image": {
+      "status": "failed-or-incomplete",
+      "inputBindingSHA256": "fa76664904d3c9cd01d87c930680c6a23186bb8efc6e43f23f40d311bc340e58",
+      "elapsedSeconds": 4.789029384000003,
+      "exitCode": 124,
+      "nativeStatistics": {
+        "phase": "old-quotient-mixture-image",
+        "label": 9810,
+        "additionalReductions": 4684801,
+        "remainderNonzero": 0,
+        "elapsedSeconds": 2.0065
+      }
+    }
+  },
+  "outcome": {
+    "run_id": "43670796654",
+    "run_attempt": "1",
+    "source_commit": "3493809f84c945ab5d026a6790a5b9e64446a6c4",
+    "native_step_outcome": "failure",
+    "pipeline_status": "failed-or-incomplete",
+    "outcome": null,
+    "complete": false,
+    "completionFactsMatched": false,
+    "allNineTargetLabelsVerified": false,
+    "actualSourceCostsWithin1345": false,
+    "allOriginalIdentitiesAndSixAuxiliariesVerified": false,
+    "completed_original_target_labels": [],
+    "actual_final_source_costs_by_slot": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "mathematical_elapsed_seconds": 300.0078725,
+    "packaging_elapsed_seconds": 10.419251265000014,
+    "full_original_all_nine_mod887503681_identity": false,
+    "characteristic_zero_identity_asserted": false,
+    "scope": "All nine actual original p2h0 targets modulo p6 with complete17 identities and actual finite source costs at most1345. No characteristic-zero identity is asserted.",
+    "partialCheckpointIsNotIdentity": true,
+    "rootOwnsSharedResearchIndices": true
+  },
+  "publication": {
+    "status": "pushed",
+    "publishedCommit": "4450179601946844a03fa705c2ea746ac37e21ed",
+    "publishedResultDirectory": "topics/invariant-subspace-problem/notes/r150-saturated-third-global-actions-789f/43670796654-1",
+    "lastRulesReadCommit": "7c130fb94528de8f003a43e7049fb42768a64eec"
+  },
+  "old_local_pages_recomputed": false,
+  "characteristic_zero_identity_asserted": false
+}

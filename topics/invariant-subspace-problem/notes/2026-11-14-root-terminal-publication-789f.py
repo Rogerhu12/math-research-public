@@ -40,8 +40,8 @@ def main():
       "pulls":[],"pushes":[],"dispatches":[],"forcePushUsed":False}
     def save():
         (out/"publication-receipt.json").write_text(json.dumps(state,indent=2)+"\n")
-    def git(*args,check=True):
-        p=subprocess.run(["git",*args],env=environment,capture_output=True,text=True,timeout=180)
+    def git(*args,check=True,input_text=None):
+        p=subprocess.run(["git",*args],env=environment,capture_output=True,text=True,input=input_text,timeout=180)
         stdout=p.stdout.replace(token,"***").replace(auth,"***")
         stderr=p.stderr.replace(token,"***").replace(auth,"***")
         with (out/"terminal-git.log").open("a") as f:
@@ -64,6 +64,21 @@ def main():
             if not name:continue
             if name not in allowed or not(name.startswith(ROOT) or name.startswith(".github/workflows/invariant-subspace")):
                 raise ValueError("Change outside this prepared ISP conclusion: "+name)
+        # Hydrate only this conclusion and its pull receipt; never the whole data tree.
+        receipt_path=ROOT+"notes/root-terminal-pulls-789f/"+run+"-"+attempt+".json"
+        sparse_paths=sorted(allowed|set(RULES)|{
+            ROOT+"HANDOFF.md",REQUEST,
+            ROOT+"notes/2026-11-14-root-terminal-publication-789f.py",
+            ".github/workflows/invariant-subspace-789f-root-terminal-publication.yml",
+            receipt_path})
+        if any(not re.fullmatch(r"[A-Za-z0-9_./-]+",name)
+               or name.startswith("/") or ".." in name.split("/") for name in sparse_paths):
+            raise ValueError("Exact bounded publication paths required")
+        git("sparse-checkout","set","--no-cone","--stdin",
+            input_text="".join("/"+name+"\n" for name in sparse_paths))
+        state["exactSparsePaths"]=sparse_paths
+        state["wholeTopicCheckoutUsed"]=False
+        save()
         if git("status","--porcelain")[1].strip():
             raise ValueError("Prepared checkout must be clean")
         git("switch","-c","isp-root-terminal-"+run+"-"+attempt)

@@ -22,9 +22,14 @@ jobs:
           ref: ${{ github.sha }}
           fetch-depth: 2
           persist-credentials: false
+          sparse-checkout-cone-mode: false
           sparse-checkout: |
-            topics/invariant-subspace-problem
-            .github/workflows
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/HANDOFF.md
+            /topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json
+            /.github/workflows/invariant-subspace-789f-root-terminal-publication.yml
       - name: Publish prepared conclusion with actual pull and immediate non-fast-forward retries
         env:
           GH_TOKEN: ${{ github.token }}

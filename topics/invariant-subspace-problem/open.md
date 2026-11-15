@@ -121,7 +121,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧结论、完整常数/来源/工件与未关闭问题保[本次压缩前全文](notes/2026-11-15-open-before-complete-saturated-second-and-third-run-789f.md)及递归快照；未列旧问题不视为关闭。
 
-**R150现在接完整第三。** [第二实绩](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)已实际完成：全部204原来源/原17除p4及104自由检查全过，W2维4、J2=2I4；完整后继核208列、最高1次，第三相关商21维。九目标第二均未相容，共同315 dual九值[1,28,16,11,7,7,4,1,11]全非零，但未消未算第三像。run43662590949准确复用前13阶段后数学24.687697673秒，全457恢复/1538941791B保留并实际推d6e44520，不重旧页。第三26输入/6恢复包合同已冻，立即运行208真实关系的10→5原carry；其完整S3源覆盖已证。真正第三负才排全任意次数原modp6，正仍接全局315/原17。更高31分母与char0继续。
+**R150完整第二/三局部层已闭。** [第二](results/R150-appendix-complete-saturated-second-image-four-and-kernel208.md)像rank4、208真后继源；[第三](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md)像rank2，九目标全部315局部身份均正，原数据已实际推cef83145。既有原17/104自由/完整核已全保存，不重旧局部页；继续六槽原式全局来源及特征零。
 
 **原真实窗口及未付比较。** c26无权窗口保同w/同负图/同top、全cut ΣXi²≤2d尾能量。新[c*=1601/64真带权窗口](results/R271-appendix-true-minimal-projection-weighted-window.md)付真正v/k误差e^-6d4及u两倍，真实||G1||≤e47d4/8后G1/G1*误差≤2e^-d4/8，P_VG1(I−P_V)同源反馈已小。原全部cut左<Lr,G1r>现在准确接物理低孔自配对。主κd/Q=O(1)已足平均，κ=O(e25d3)在此窗口有裕量，但κ尚未证明；旧联合旗δ不能扩到新窗。
 
@@ -133,20 +133,20 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **完整第二后九目标只余一条特征线。** [精确小系统读出](results/R150-appendix-saturated-second-target-eigenline.md)给V13秩13、连九raw秩14，九余类为ρ2的非零倍[1,28,16,11,7,7,4,1,11]，最小式s−2；全315的13×9原基差身份已保存。第三208完整来源必须全九同成败，仍逐列核；全部负才得原p²h0模p6任意次数否定，正则继续完整原来源回提。冻结第三入口已随本提交实际发布后调度，目标char0与ordinary ISP均未闭。
 
-**第三208来源已全九局部正，转原式全球化。** [完整第三实绩](results/R150-appendix-complete-third-image-two-and-all-nine-local-solutions.md) run43664532571数学91.020765506秒、相关第三像rank2，九目标全315身份均正；实际只用两条第三常数列、四条第二列及U9。原17/p6全局身份与费用尚未回提。原数据分支push180秒超时，全部197恢复已存工件，根正publication-only恢复，不重数学；normal接真实四P来源链和完整W2回补。
+**第三局部正的原式任务。** 所选20011+16·20012只用父ω3…8整数[344,409,327,102,1,16]，四W2/真D2与U7修正、同一raw q1的s/t carry全保。局部全正不等于九原17模31⁶已经恢复；全局源必须逐条原式乘回并扫描实际成本。
 
 **第三正后的六槽真实来源比较已证。** [完整证明](results/R150-appendix-third-selected-source-comparison-and-six-slot-recovery.md)给S_r中初值仅差真正B核提升时的选择差落W_(r−1)，第三须补完整W2；q1规范变化须同步q2。中间p4须真p3的b8/D3_K2；四条第二像必须先全球化，末p5用pH_a修正。通用六槽费用1348仅条件预算，实际global执行仍开，正在按已存常系数收紧1345。
 
-**实际常数主列已把六槽全局上界收紧1345。** [完整费用证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)由真实prepared两列给20011+16·20012仅父ω3…8、整数系数[344,409,327,102,1,16]；只需K2…8七raw q1，六槽起点177，四次whole-P/T96后1345。真D2及四W2辅助不抬高上界。正在实现实际全局入口；只有九原十七式p6乘回/完整315对账/实际来源费用全通过才登记原式正证书。
+**实际常数主列付六槽全局上界1345。** [全证明](results/R150-appendix-actual-third-constant-solution-six-slot-global-cost1345.md)保七raw q1、六槽初界177与四次whole-P/T96的真来源链。原式全九、六辅助、315/505及实际费全部通过才登记最终有限模正证书。
 
 **高孔项的同源二进制插值已付。** [统一真实预算与插值](results/R271-appendix-dyadic-gauge-family-uniform-budget-and-source-interpolation.md)对同H和真u/r保全部a≤2^(d−1)的环境/carry/投影；Lagrange总变差<9使整组高孔自配对准确合成原尾范数。只剩同s_j=H^(2^j−1)B_m top的普通完整右费R_p²；ΣR_p²≤K_mn_m||w||²且K_md/n_m=O(1)足矛盾。该新预算尚未证明，不能以环境范数或bare费用替代。
 
 **复参数同源正平均与普通费未闭。** [完整证明](results/R271-appendix-complex-gauge-positive-average-and-ordinary-right-family.md)以d个单位根参数付平均H_a=I及μ⁴≤d0^-2 flat²R²；同真实环境/最小投影/原未来全保，高孔二次型正平均恰原尾范数。准确Parseval为R²=d0²Σλ((log H)^k r/k!)²≥d0²λ(r)²，不能把平均当更弱普通费用。继续原顶部封口/完整高返回及全窗口ΣR²≤K_m n_m||w||²、K_m d/n_m=O(1)。
 
-**R150六槽全局原式已接新任务。** [冻结入口](notes/2026-11-15-r150-saturated-third-global-ci-request-789f.json)只读49真实已存输入，七原核/六槽/九目标，实际费用上界1345。成功须全九原17模31⁶、六辅助和315/505全真；局部第三全正已成，原式与char0不得混称，旧二/三页不重算。
+**全局续算已到五L4模31⁴原整除。** run43670796654完整复用17并新成5阶段；五原源实际费757、再P后953，22完整cache/314恢复全保，只有下一whole-image末段未成。[第三续入口](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)保原数学字节与49输入，执行预算1200秒继续；全部九原式p6成功、固定B/e全精度和char0是不同待付接口。
 
 **固定来源界的31进下降及当前原式续算。** [完整定理](results/R150-appendix-fixed-source-bound-p-adic-descent-and-infinity-escape.md)要求同一B、同一目标、同一分母指数e；无界精度可解才推出真实Z_(31)来源，精度间不必相容。1−31s及u(u−31)分别排无界来源次数和只看∞纤维秩的捷径。global首轮已实际推6d6bf1a4，九阶段/七q1及全carry已成，六q2保存1021像行后时钟止，九原式仍开；按[固定续接请求](notes/2026-11-15-r150-saturated-third-global-resume-request-789f.json)继续。
 
-**原char0成员性已有条件固定界8814。** [原子式降度证明](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)仅用已证非零的原8770齐次子式与原行列权；有Q[s]解即可选同一cost8814。不能据此称实际有解或分母31指数≤2。若能证明该真实D的最高系数31单位，可把各模精度任意来源降到同B/e，再接全精度下降；等价的该子式∞消失阶比较仍未付。继续全局实际run43669639448，不重原局部页。
+**原char0成员性已有条件固定界8814。** [原子式降度证明](results/R150-appendix-original-projective-minor-conditional-source-cost8814.md)仅用已证非零的原8770齐次子式与原行列权；有Q[s]解即可选同一cost8814。不能据此称实际有解或分母31指数≤2。若能证明该真实D的最高系数31单位，可把各模精度任意来源降到同B/e，再接全精度下降；等价的该子式∞消失阶比较仍未付。现由下条∞证据加强条件界8801；继续最新全局检查点，不重原局部页。
 
 **同一原子式∞压缩已实算，char022亏损仍开。** [完整证据](results/R150-appendix-selected-original-infinity-minor-rank4318-and-connection3.md)给选定1021常rank985/真连接3，原4354常秩4318、模31v∞≥69；不能混成全矩阵1007/4或char0结论。须直接处理原char0常块，当前4318≤rank≤4340、余块14…36。已知char0上界付cofactor至少13阶并把条件来源界加强8801，但lc(D)单位/全部精度/实际成员性仍未付。
