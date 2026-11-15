@@ -327,3 +327,7 @@ tail完成、root已全文核读的R169直接登记。真实k=Kh^p及ω积分含
 02:36:57 UTC实际public pull到78ed27a89bac323c03a6e9a1ec331fdaf0ddf07c，两README blob不变，已记H；两新actual已完成，几何零接纳而联合必要锥仍有精确外点。仅读取原公开gzip，未重新研究计算。
 
 - 2026-11-15 02:38:59 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交d6c1cb1ecf314cc1d6131e2650e71dd321a212da记录于H；继续推送同一完整结论，无force。
+
+## 2026-11-15 02:39:53 UTC — R170完整固定k的sharp低阶/最高层门
+
+root完成、两代理已独立纸核的完整证明直接登记，无新研究求解。p=1/h后H=A X+(D−A/9)Y，与q=1/3+√(D/A)配平方给sharp HW≥(4√A/3+√D)²Z²。正有限flat近等号覆盖cos/Gauss/cosh、临界D0先q_n再截断、A0指数折点平滑；端通量和有限时间缩放顺序完整。B可负，正性取三层合并门；AM–GM准确转全正有理t/s的线性半空间接口。

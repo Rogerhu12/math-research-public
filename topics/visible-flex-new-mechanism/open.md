@@ -34,6 +34,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本、ruling 与有限连续族
 
+[R170](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md)已完整支付固定k的0/2/4 action：A,D,C≥0与B+2√C(4√A/3+√D)≥0充要，等价全t,s∈Q正的B+4(tA+C/t)/3+sC+D/s≥0。只在新点有严格违例时定向选有理κ,t,s；不盲加时长/参数网，不把B单独判负。
+
 [R169](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md)已完成：全实p的真实k=Kh^p给A(p)及Ω(p)必要门，sharp有限flat构造与Gram可实现曲线齐备。读取联合43668125602新有理点后才定向选严格违例p；不预设外点被切，不盲扩路径网。
 
 R162 actual43663137188/source0700d815已严格J6∉E_D：同profile mixed−2实查询t1/35、ΛJ6=1266268570、新44det1176345646 mod2147483647，零旧列/NF重跑。E6真44、pure9、纯核/balanced像35，U≥240但lineality/query仍237。此原成员问题已结束；不追第45孤立列，转完整字符分母R−2+N U−1中J6是否为零。R163已证明全部14族最高层协变、低阶同一八矩cocycle及 Hσ=(Rσ+Tσ)/(Rσ+Dσ)。Dσ仅用同权正规系数与静态修正生成全部N Uσ+1模R，权−2无需另编−1。完整head actual43665345551已付107原记录/66平移组合，Q4_0/1本权原式零；计数不是维数。有限必要actual43665971895已完整消费：124外等式秩84、23外自由、63必要半空间仍有准确非零外部候选。它不是真实字符；继续消费其具体失败方向，不重编旧static/3974/N收缩。

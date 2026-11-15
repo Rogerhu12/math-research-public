@@ -363,3 +363,5 @@
 - [R168：完整反射低层奇偶与四条真实头部关系](results/R168-reflection-of-corrected-low-action-and-four-head-relations.md) — R145真h正反射与λS=λ、全开路径端点纤维给Γ缺陷β#；μ′=μJ8−β#在正仿射群共轭下仍协变，权−2唯一性迫完整修正action不变，不先假正性。β#=−4a_static(1)E_p2*，静态缺陷2a1kh保留；δ分层/微幅路径给b0,b2偶及b1奇。原ν26/41/61/67=0，有限维对偶分离给四Vi∈R−2+NU−1；不宣原R成员/独立rank或signed control。
 
 - [R169：真实幂路径的锐利四次门与可实现Gram方向](results/R169-power-path-sharp-quartic-gate-and-real-Gram-directions.md) — k=Kh^p保真ω，完整最高K² action化A(p)X+D(p)Y，sharp inf X/Y=(2p−2)²/9。全实p的A≥0与显式Ω≥0准确刻画该路径子类，Ω首次保留f；固定有限flat逼近、有限K及时间缩放给严格负方向。四单项Gram曲线ζ真实L²可逼近，ζᵀGζ=Ω，不把任意负特征向量当真路径；无新研究计算。
+
+- [R170：固定k完整0/2/4 action的锐利充要门](results/R170-complete-fixed-k-action-sharp-criterion-and-rational-cuts.md) — 固定κ，A=a+bκ²、D=ℓ+mκ²+25A/9、B=b2(κ)、C=a_static(κ)，完整路径非负iff A,D,C≥0及B+2√C(4√A/3+√D)≥0。p=1/h给锐利HW≥(4√A/3+√D)²Z²；正平端近等号构造覆盖D=0、A=0，不能漏临界边界通量。等价全有理正t,s线性行可从已存14族直接形成，保同一μ；只固定k子类，不宣一般两函数正性。

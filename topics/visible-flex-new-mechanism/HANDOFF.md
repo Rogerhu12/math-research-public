@@ -52,4 +52,6 @@ finite43665971895/source05bb659b完整：107坐标、124外等式秩84/23旧自�
 
 **R169已成真实power-path sharp门**：k=Kh^p保真实ω，A(p)=b+cp+dp²，Ω(p)=[b(5−2p)²+cp(p+2)(5−2p)+dp²(p+2)²]/9+p(p−1)(e+fp)+gp²+jp+m。最高正⇒A,Ω对全实p非负；固定p该K²形状充要，sharp常数(2p−2)²/9由有限flat路径逼近。任意严格负值先有限h、再K、后时间缩放付完整action；Gram曲线ζ=((p−1)²/3,p−1,−2(p−1)/3,1)满足ζᵀGζ=Ω且真路径L²逼近。只此曲线实际，不授任意Gram负向。
 
+R170已成固定κ的完整0/2/4 sharp门：A=a+bκ²，D=ℓ+mκ²+25A/9，B=b2(κ)，C=a_static(κ)。充要A,D,C≥0、B+2√C(4√A/3+√D)≥0；p=1/h与正flat逼近覆盖所有临界端点。等价全正有理t,s行B+4(tA+C/t)/3+sC+D/s≥0，下一可从存储系数直接形成；不授一般vary-k完整正性。
+
 完整函数P0/ruling、所有高阶收敛、固定g连续族、闭嵌入/全时reach/宏观幅度仍欠。R98已结束正states universal P1，不重扫；特殊profile或固定N完整P0+NP1未排。文献Engman仅S1等变、Freese–Weber另需主曲率不变，不外推一般C²刚性。预算只结束该次计算，主课题继续open。
