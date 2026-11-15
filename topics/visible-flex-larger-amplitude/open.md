@@ -104,7 +104,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 
 新选MID479在全部六试步有效，但最近1/16仍仅MID487失域（beta²=-.00668183443965642，index982）。另1/4的所有原node/mid/26selected有效、原merit43.41518161646212确有下降，却被完整原RMS的LEFT487否决（fraction.17267316464601146、s1.2550366105017607、beta²=-.007792206623105091）。487的两种查询均不在本轮26selected内；这些记录不意味着失败集合随alpha单调，也不把不同父模型的改善唯一归因于新MID479。
 
-94从真实89 warm8985f7a5、decodedstatusc7852868/gzipc784987c继续，明确同时增加LEFT487与MID487，无27中间轮。四独立28-query源与唯一工作流已冻结，root逐diff/接口读与静态接线中；24端点465..488、完整B/H8115列由实际查询支持导出。C沿用原固定support公式并重新形成，完整outside新增487/488，不重用旧7439维H。原λ270/512working/200sweeps/17trial/完整FD及全部域、RMS、native门不变。完整byte reader仅补原载荷证据，不挡科学。
+94从真实89 warm8985f7a5、decodedstatusc7852868/gzipc784987c继续，明确同时增加LEFT487与MID487，无27中间轮。[四独立28-query源与完整接口](notes/2026-11-15-twenty-eight-query-condensed-interface.md)、唯一工作流e25ab202/request480f8d88及[主控静态回执](notes/2026-11-15-request94-root-static-readback.json)现已发布。root完整读四diff/接口/两配置diff，105项63pins11shell6inline、真实89父字节和原C返回键均核；24端点465..488、完整B/H8115列由实际查询支持导出。C沿用原固定support公式并重新形成，完整outside新增487/488，不重用旧7439维H。原λ270/512working/200sweeps/17trial/完整FD及全部域、RMS、native门不变。完整byte reader仅补原载荷证据，不挡科学。
 
 ### 2A. 连续曲率输入的解析接口已补齐
 

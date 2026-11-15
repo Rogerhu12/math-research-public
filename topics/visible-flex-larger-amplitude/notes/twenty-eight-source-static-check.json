@@ -1,0 +1,344 @@
+{
+  "schema": "independent28-source-and-actual89-parent-static-check-v1",
+  "scientific_modules_imported": false,
+  "scientific_calculation_executed": false,
+  "scope": "AST/source text, exact saved parent bytes/JSON and finite integer index bookkeeping only",
+  "source_files": [
+    {
+      "new": {
+        "file": "/tmp/visible-larger-twenty-eight-source/geometry_20261114_twenty_eight_query_domain_operator.py",
+        "bytes": 33705,
+        "sha256": "25767045b9a26764bfdb89881832ec7da01de1ac86ebc491402c7b9801175cd0"
+      },
+      "frozen_original": {
+        "file": "/tmp/visible-larger-twenty-six-source/geometry_20261114_twenty_six_query_domain_operator.py",
+        "bytes": 32954,
+        "sha256": "b5b72fde97ece27c034a5f1ae3c81f0c0288b4092050f63e96296f764e7068c8"
+      },
+      "public_original_bytes_unchanged": true
+    },
+    {
+      "new": {
+        "file": "/tmp/visible-larger-twenty-eight-source/geometry_20261114_twenty_eight_query_condensed_warm.py",
+        "bytes": 46021,
+        "sha256": "990029102808ede1134bd9e6a163b6da84ae0d9189857f49af216ba64bfa188c"
+      },
+      "frozen_original": {
+        "file": "/tmp/visible-larger-twenty-six-source/geometry_20261114_twenty_six_query_condensed_warm.py",
+        "bytes": 43689,
+        "sha256": "b9954eb5caffca7e3e001e66b07b0628a8275a22139ca3000cf527e258023197"
+      },
+      "public_original_bytes_unchanged": true
+    },
+    {
+      "new": {
+        "file": "/tmp/visible-larger-twenty-eight-source/geometry_20261114_twenty_eight_query_condensed_response.py",
+        "bytes": 2625,
+        "sha256": "3a3d5f2888b4d826c69e2949ae9ec5ef896c54cb04f9b2283a71051221d7c5d9"
+      },
+      "frozen_original": {
+        "file": "/tmp/visible-larger-twenty-six-source/geometry_20261114_twenty_six_query_condensed_response.py",
+        "bytes": 2619,
+        "sha256": "17908d4cb301f2073ce6539a8fcdc218a434529586722f013202c69378933b01"
+      },
+      "public_original_bytes_unchanged": true
+    },
+    {
+      "new": {
+        "file": "/tmp/visible-larger-twenty-eight-source/geometry_20261114_twenty_eight_query_collocation_observer_warm.py",
+        "bytes": 16736,
+        "sha256": "fc5a3e4b35557a7056d96cd7ade6756b861f3667e44aea83d51e4f5cd59c7dfc"
+      },
+      "frozen_original": {
+        "file": "/tmp/visible-larger-twenty-six-source/geometry_20261114_twenty_six_query_collocation_observer_warm.py",
+        "bytes": 16728,
+        "sha256": "e10055b6e6d5604d247ecfbe637f8ca01b2b1337a7a528da8e25cbe48e6b8b25"
+      },
+      "public_original_bytes_unchanged": true
+    }
+  ],
+  "identical_function_AST": [
+    {
+      "file": "domain_operator",
+      "function": "query_value",
+      "identical_AST": true
+    },
+    {
+      "file": "domain_operator",
+      "function": "selected_actual_angles",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "equal",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "guard",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "scalar_or_none",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "evidence",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "compact_metadata",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "_run_engine.ObservedResidual",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.CapturedLinearization",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.choose",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "scalar",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "component",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.observer_write",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.annotate_current",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.write",
+      "identical_AST": true
+    }
+  ],
+  "complete_midpoint_and_left_J_P_chain_constructor_AST_unchanged_after_identity_label": true,
+  "verify_export_AST_unchanged_after_scope_labels": true,
+  "original_C_projection_call_and_returned_tuple_unchanged": true,
+  "only_new_C_readback_is_existing_returned_metadata": true,
+  "FD_full_text_reverse_identity": true,
+  "observer_full_text_reverse_identity_after_names_and_entry_pin": true,
+  "left_queries": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485,
+    487
+  ],
+  "midpoint_queries": [
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485,
+    487
+  ],
+  "retained_left_queries": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "retained_midpoint_queries": [
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "only_added_queries": [
+    {
+      "kind": "left-RMS",
+      "interval": 487,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 487,
+      "fraction": 0.5
+    }
+  ],
+  "query_cells": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485,
+    487
+  ],
+  "actual_query_endpoints": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "unique_capture_cell_count": 18,
+  "capture_node_count": 24,
+  "full_B_rows": 57344,
+  "complete_B_local_dimension_by_literal_index_formula": 8115,
+  "previous_B_local_dimension_by_literal_index_formula": 7439,
+  "new_original_global_physical_columns": {
+    "first": 164268,
+    "last_inclusive": 164943,
+    "count": 676
+  },
+  "node487_original_global_columns": [
+    164268,
+    164606
+  ],
+  "node488_original_global_columns": [
+    164606,
+    164944
+  ],
+  "zero_layout_nodes": [],
+  "runtime_complete_column_union_check_retained": true,
+  "C_support_nodes_from_original_frozen_formula": [
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482
+  ],
+  "C_support_dimension_by_original_literal_index_formula": 4059,
+  "complete_B_outside_C_nodes": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488
+  ],
+  "C_and_H_are_reformed_from_current_original_model_not_cached": true,
+  "actual_runtime_dimensions_are_future_Actions_outputs": true,
+  "source_pins_match": true,
+  "actual89_parent_pair_file_SHA_matched": true,
+  "parent_status_gzip_exact_decoded_bytes": true,
+  "parent_status_identity_embedded_exactly": true,
+  "parent_producer_schema": "exact-constraint-twenty-six-query-condensed-complete-H-warm-v1",
+  "parent_model_source_count": 62,
+  "new_model_source_count_by_preserved_source_name_construction": 64,
+  "parent_warm": {
+    "file": "/tmp/visible-larger-actual89-published/twenty-six-condensed-warm/warm-001.json.gz",
+    "bytes": 4902436,
+    "sha256": "8985f7a5f146f0e98af04d5b1fc3d86648c7e6007403d9be54b1ed8ca4143fc9"
+  },
+  "parent_status": {
+    "file": "/tmp/visible-larger-actual89-published/twenty-six-condensed-warm/driver-status.json.gz",
+    "stored_bytes": 359700,
+    "stored_sha256": "c784987c5c45a35b43f9b805618c63b1ccbecb083dc676b0ae06e1233322499b",
+    "original_bytes": 3122352,
+    "original_sha256": "c78528682d239d941ccc1391df004c8da3b51d60b6315c6d30334828d0204540"
+  },
+  "original_fixed_C_source": {
+    "file": "/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261114_fixed_support_halfspaces.py",
+    "bytes": 16950,
+    "sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68"
+  },
+  "old_source_files_untouched": true
+}
