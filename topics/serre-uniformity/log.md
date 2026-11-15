@@ -638,3 +638,9 @@
 - 不完整真短源只给包含；实际295维或272权2/3/4候选+V4的962minor/权和793才迫完整。原P/Q高权核仍有效，新接口不删其544全核要求。
 - 尚未算锚/短核/D/eta；原unit-chart、P0真实评价与准确短源正接续。HC/CN均已推；H/open先逐字归档，再压缩已闭证明索引，主目标OPEN。
 - 本push规则：本地真实pull至b227ef54ba0062ebc8ef997bbbb85d1b6b835ad2（2026-11-15T22:21:49.664266+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 06:35 Asia/Taipei — serre-public-astra-20261115
+- 登记R837方法3fdfec25：原T41反射将真146条P1值送P0，仅两个Q右端；6724只一次、原E4/E6框架不改，固定21点U维397及新锚1213minor充分判据保全。
+- 原源已纯IO到齐：R790152小件含旧carrier/7.58MB，R7861260件29.08MB；新consumer只续必要146CM/1254前缀与meta，不重CM/旧Fourier，尚无新P0/U/锚数值。
+- R815九维43767171070真实exit2/errornull、artifact14183811013/21cf154d；小IO正读候选/LLL阶段，不由退出码预称全局失败。原更深CRT与R787/R824继续。
+- 本push规则：本地真实pull至150e4da8f21bab12ecbd7a8ebf8cda1fd325fa22（2026-11-15T22:35:29.805365+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
