@@ -42,3 +42,5 @@ R710法向增补：全部a,i的原ℐ(Q^aW^i)=(-p)^aJ_i·ν、ν∈1+p^(e−1)O�
 - [R718：原CM分布与唯一Gaussian共振](../results/R718-original-cm-distribution-and-unique-gaussian-resonance.md)：选择实际α≡1 mod6、αmodp生成Fp²×，Normα≤27p²，原σ(αz)/σ(z)^N是完整p整CM division polynomial。原U满足U(α6w)=U^N Rα exp(c(N−α^(p+1))w^s)，有限指数全整；tbar=c_p N0 q_p(α)，Nmodp²的Frobenius幂保。高度二窗只有n=s共振，原logU_s=0唯一补齐，故实际CM输入唯一恢复R717全部二位族和原首Cartier行；p变次数/全局极帽与中央进位缺口保持。
 
 R718标量增补：原Gaussian共振给准确tα=−[w^s]logRα；s<p的单位对数和原有理Cartier均读出完整q_pα，无独立标量二位输入。实际Nmodp²的Frobenius幂、全部Z1零点/CM核极点与旧预算成本仍保。
+
+- [R720：两固定CM来源与密度一长整窗](../results/R720-two-fixed-cm-sources-and-density-one-resonance-window.md)：固定1±6ω的Norm31/43 division输入为x³中5/7次，准确乘积φ6−ω²xψ6²及低log标量全付。范数/反范数独立两元的box计数给坏p O(X^0.9/logX)，好p共同六次群阶>X^1.2/12；任固定Cp窗仅原n=s共振，gauge唯一重建原U。亦付p^(1+ε),ε<1/3窗；实际全局极帽/旧预算与中央联系仍保。

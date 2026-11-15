@@ -4,7 +4,7 @@
 
 固定一条 E/Q，完整证明 rank≥2 且无穷不同p的全Sha[p∞]有限。**主目标未完成，QUEUE进行中；跨上下文持续，不等阶段确认。**
 
-- 最近已读规则提交：efcf08abd0b28f49ee0a74283261fcb2f5ad32a1；2026-11-15 08:35:02 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:35:01 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
+- 最近已读规则提交：1df8c08ca18a47dca3e137e39aeeb32e3bc26ea5；2026-11-15 08:37:33 UTC核两README无变。实际CI pull 2026-11-15 07:52:56 UTC/a4502220bef9e5e94d43d20054d51561a8f87ac1（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 08:37:32 UTC仍无环境。最迟2026-11-15 08:40 UTC再实际pull。
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。只写Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史，令牌不入文件或回复。
 - 每小时实际pull，每次比根/题README、仅读差异即遵守并记提交。本地exec无环境；API仅非强制追加，拒推立即本地pull --rebase重试并接新head再推，循环至成功；实际CI与本地失败分记。
@@ -15,9 +15,9 @@
 
 ## 完整前检与分工
 
-全部压缩前内容：[最近HANDOFF](notes/2026-11-15-frontier-before-r720.md)，沿内链保全部规范/坏集/预算/原域和未付问题。本摘要不关闭旧门。
-R1–363、365–560、562–653、655–700、701–711、713–718已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
-root唯一metadata/ref写者；代理只交独有proof/script/blob。deep R712指定forcing/同R真实像；theta R719特征零J2/混合关系及原斜门；literature原第一wild层tame-average非零；root R720固定31/43 CM与密度一窗口。
+全部压缩前内容：[最近HANDOFF](notes/2026-11-15-frontier-before-r720-proof.md)，沿内链保全部规范/坏集/预算/原域和未付问题。本摘要不关闭旧门。
+R1–363、365–560、562–653、655–700、701–711、713–718、720已登记；R364/R561/R654及主目标开。主入口results.md及notes/PROOF-INDEX-R701-R750.md。
+root唯一metadata/ref写者；代理只交独有proof/script/blob。deep R712指定forcing/同R真实像；theta R719特征零J2/混合关系及原斜门；literature原第一wild层tame-average非零；root R720后原CM分布与中央非零的真实联系。
 
 ## 固定算术规范
 
@@ -41,10 +41,10 @@ R614原U、X在n<L=(p²−1)/6整，首坏行真实；R647同P2与三完整P_m/�
 **R703–707** 原p² Hall相位、m个固定宽p高斯Zak包、Bessel±U及全交叉包已付。实际Σ_r|S_r|²≪p^(5/2)log^(1/2)p，含全部共轭重数/非unit/零向量；h(trace)≤3/4logp+1/4loglogp+O(1)，非零trace v<1、非零B≤3/4+o(1)−1/e。
 m136扩展p>136、φ极130、D136=91·2^46·3^34·17^23，同根域/迹/平均全付；第三j0不从前两条推出。
 **R708** 原迹零iff首p−2条b_i模p零；任α∈(3/4,1)只需J=ceil(αe)−1条。特征零b_(h−1)=g_c,h(h≤e)，完整μd范数整根付Gaussian三角逆，等价原g_h模p前缀零；窗dJ−6。原j0从未自动给逐行零。
-**R710** 原J_i=(-1)^i i!(mc)^(-i−1)ε_i、ε_i∈1+pO，全阶逐词分母/i!及无限重排付清。任H尾≥H+1+v(H!)，j0iff全实际carry整、下一跳p^(1+v(H+1))。B=R+QC正则首值−p²C0/γ，C0≡b_e=g_c,p+(d−m)h_ea1的原Frob交界保。全Q^aW^i权=(-p)^aJ_i(1+p^(e−1)O)，所有normal双和保。仅同连接整forcing+j0的余数像恰pO⊕O^(e−1)，不冒固定φ。
-**R711** 第六旧Cartier须减1/Z简单极，T6=g6+(m/2)η+7κ5a_m^+；原两m消η再消U_s仍保原低残差和γ_m^6(L5/p6)/120真实低商。
-**R714** 指定Z1=Z+c_p^−1(G+r)^p匹配全部原degree<p²整参数；粗q−p−1误差由D及μ6型补齐。DZ1=1，极帽(p³−p²)D2/全部零点保。全h≤p−1 Cartier先减真实简单极，前五块=g_h、第六=g6+(m/2)η。
-**R717** 原整Artin–Hasse因子a_n=f_n(p∤n)、a_pk=f_pk−f_k^p/p；全n<L仅X_pk及X_(s+pk)各k1..s−1需第二位，其余第一位由xZ1²读取，a_s=0。共同U=U_np V^p给全g_h有限卷积；付实际二位后Σ_AH=Z1U_AH(Z1^6)回全原首Cartier，无未知模型差，极帽m(q−6)(p³−p²)D2仍保。
+**R710** 原全阶J_i=(-1)^i i!(mc)^(-i−1)ε_i（ε_i∈1+pO），任H尾≥H+1+v(H!)；j0iff全部真实carry整，下一跳p^(1+v(H+1))。全Q法向双和、pC0和原b_e=g_c,p+(d−m)h_ea1保；仅同连接整forcing+j0余数像pO⊕O^(e−1)，不冒固定φ，详细整性/截断见前检。
+**R711** 第六旧Cartier先减1/Z，T6=g6+(m/2)η+7κ5a_m^+；原两m消共同η但真实L5/p6与固定残差保。
+**R714** 指定Z1=Z+c_p^−1(G+r)^p、DZ1=1，准确匹配原degree<p²；全h≤p−1 Cartier先减真实简单极，极帽(p³−p²)D2及全部Z1零点保。
+**R717** 原Artin–Hasse全n<L仅X_pk、X_(s+pk)各k1..s−1须第二位；真实U=U_np V^p卷积及Σ_AH恢复全首Cartier。实际除商/大极帽m(q−6)(p³−p²)D2保，不把参数自由化。
 R663同Y闭盘iff Q|B；原X仍须j0、高Q^(d−m)及真下降。原两j到前缀/全局限制开。
 
 ## 深支：同R指定像仍开
@@ -64,3 +64,5 @@ R712极端carry完整短行已入notes/2026-11-15-extreme-carry-multiplied-actua
 R718标量增补：特征零tα=−[w^s]logRα，s<p故直接约化；完整q_pα由同来源低行决定，也等−(c_pN0)^−1·(原Cartier(Z1^-1gαω)/ω在O值)^p，输入留数0/坐标误差已付。Nmodp²幂和全部其他极点保；不增旧预算列。
 
 同first-wild note §6付BHKO全联合步骤的真实计数门：|D1|=(p+1)/6，非恒定纤维须2^|D1|≤p^(n−1)(p+1)/3，n2不能统一。弱目标仍为原p个tame平均不全相等，不冒总和为零。
+
+**R720** 固定α±=1±6ω、Norm31/43给x³中5/7次真实division输入，乘积=φ6−ω²xψ6²。两个独立范数/反范数群的box计数给每[X,2X]坏p=O(X^0.9/logX)，好p共同六次群阶>X^1.2/12；任固定Cp窗只有原n=s共振，原gauge唯一恢复U。t±从低log读取，N<p无需二位指数。也可p^(1+ε)、ε<1/3；不能冒R708二次窗，固定CM不免费保持W_D。R719精确run43694974589/job132753387780进行中。
