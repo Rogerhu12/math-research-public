@@ -297,3 +297,15 @@ root已全文核SCI、成功AJ worker的逐项差异、全部manifest/flow；pha
 140/2行新nonmean真实限制由min(交长sup²,整格L2²)，不按比例缩积分；完整K权/repair/offset与degree160角640全保。known F96<3.596675358e−18/角<3.167386591e−15，finite支撑给known F288=0；MC均值完整付/高投影精确消仅该投影。五例known middle<6.019547661e−16及signed remaining>1.9686898045e−11不是actual未知入口；NA14明确实际cL、双侧同态ZL/ZH，右帽非旧Green范围，近似态另付真实residual/mean-speed。所有core/finite193 transfer/highinverse/lowentry字段false；成功锁不重算。首43719591979仅preGit大小失败child未知，用户授权恢复失去new，未重跑旧成功。
 
 runner真pull13:42:45.545104和13:43:02.602009→e3e8a96665af1638bbf6be05be639b4f889103d1，非FF后13:43:06.581062→2261f92458b5c32a55cbd5455347fba283dd63ee，全部两README diff空。实际最终容量199021487B。DG43720766795已自然启动，Green/全core/强返回/ν/同态低高trace仍继续，未达总验收。
+
+### 2026-11-15 13:51:07 UTC — DG实际成功、五个完整源项收紧及31项原窗账本
+
+亲读main cd825dffd5b5e817a7835c40d1d2815774d43cf4，两README无变。actual报告d3bf943339f60b0c7d2eed6302f51ed88bcd7243 /14739B/SHA dcc00d77b504b2bf3692b1f882c95478233008c7f0385dd360b06d1bceda9ee4已root全文核。run43720766795/1，job132832040147全步骤success；科学child0/27门/0.21650018699999407s，59pins/17AST，只有7新a1与5complete比较，8旧成功回执/7RV b1仅读。
+
+execution a28aa20c1eae70c40393e9eb1293ec72b3018d10 /46195B/SHA48ca7d65c1abd9575c7be6e4e8ae4594cb6f4e1cf3d415cf119e2f2de3ebe425；result45972c22b55203f5d281c0457e7415a37a837963 /6494B/cf4f07894f8737c41af84600db57ba6cec9ffd2e15eadf65afffcee51bd1c3e4。root读完27门、全部genuine jets/完整p/g/rank/principal jets、五whole比较/31最终列；报告68个ball字符串全部来自DG或RV真实receipt。完整17first+9mean逐字RV零差；四first变化仅density1 RQJg/primitive/mean transported/mean vphi，唯一独立mean变化为density1 uJg。
+
+g1原1.593307563547866e14→新2.119336473528759e9；完整local700682134898.50838、nonlocal317003568467.00881、first1017685703365.5172、mean340196969.88378343、pair1017685760226.8717。五项全收紧，所有输入/外J/mean/真实六dr保，未删除root、reference seam、positive或其他源。raw1 700246879283.2702及density0SV289595803409.87424成为当前主导，继续新准确估计。完整volume不是Tvol或strong-return，高逆/真实core仍未付。
+
+初末真pull13:47:17.770389/13:47:24.729018→a65da7effcb2ed8631f64516fb62ae642cb1b651，两README实际diff空。预Git33160B/f75747dd6f1617923481dac4269ad9dd45f66d0dca9543fe52b50bba37373ce5；临时process24810B/91c1c2320b093e4bb245df1d09854d0dc0ba8b3bc89c0091cf3826c830d62ce0、native15347B/820a723a1612de356cc6074aa1d679c378117f4b5d73f29247f92b497a8e24eb仅hash保。实际容量199181717B。
+
+为保持H≤10KB/open≤30KB，精简AJ/RV/N重复履历，精简前完整H/open/log为506fb5616283556781a7b7f78fb2f5e90ce2604b同路径；全部原域/输入/计数/失败/restore及未付义务仍保其原文，不授权成功重算。继续Green/直接L1/SV/三带真实同态低迹与完整core闭合。
