@@ -8,7 +8,7 @@
 
 只用公开 Rogerhu12/math-research-public及其Actions。科学算术、模块导入、数值测试/编译仅Actions；本地限源码、证明、原JSON词法/字节、语法/Git。PAT仅CLI瞬时，不入文件/提交/回复/连接参数。root唯一发布，三agent交独立源。
 
-部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:36:50 UTC 已读 fd26627303b9d743b18b0dad18460dc57f606cb3，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
+部分克隆 /tmp/visible-larger-root-git-149；14:33终端失联未恢复，根8小文本fallback。API复核 2026-11-15 17:38:42 UTC 已读 89268e02d3b63f80a4155b9e8521f7cb949b907d，双README blob仍同上；这不是git pull。恢复即真pull --rebase；每push前及≥每小时核规则，变更仅读差异；CAS/NFF读新头重放至成功、禁force。Actions镜像2700秒真pull且不换科学checkout。
 
 根15：只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出。根8不分块或编码大数据经工具搬运。题≤200MB/H<10KB/MD<100KB/open宜<30KB；新结论直接results并同步H/open/log每条即推；log≤5行，无根LOG/额外fixture或审批门。
 
@@ -23,7 +23,7 @@
 |161 exact|43729456722 /132858464847|ce2b12c0f391；前13步过、step14|
 |160 root|43729874541 /132859748674|b34692d09c8d；前13步过、step14|
 
-163实际43732715988/source4e1decc7成功，[R349](results/R349-actual163-original151-complete-log-reconstruction.md)付151。[R350实际167](results/R350-actual167-original157-FD-trials-and-last-direction.md)：43738237606/sourcecdcff243，80173B/ea07c9b4单结论，18FD层/162项/84trial及末方向已读；四工程失败保。末F₁约−3.15、相对梯度约1e−26，非精确驻点；域/圆/大矩阵仅身份，不重开搬运，164继续新族。
+[R349](results/R349-actual163-original151-complete-log-reconstruction.md)已读151完整原日志；[R350](results/R350-actual167-original157-FD-trials-and-last-direction.md)已读157的18FD层/162项/84trial/末方向。末F₁约−3.15且形成相对梯度约1e−26，非准确驻点；域/圆/大矩阵仅身份，不重开搬运。
 
 ## 完整native路径：145、155、160、161
 
@@ -33,7 +33,7 @@
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)：8原37/FD与23trial/8接受齐，末两最近拒仅未选LEFT462；非BVP。末pair已清。[171接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发：真98→原37八批→保同job真实末pair→新增LEFT462/node462的38模型/FD，17档不变；300min含恢复/320science/350job、预算不保16批。实际43739787509/source298c7dbe，exact核R361。
 
-[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD过、75776×17仿射及148×453点态齐。[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)六件/100pins已发，84af1e25/4206610b/2334bce6；真98→原37/FD→R354准确338/两mean+115零行、全端点2048×17闭段M及37×17末点Hermite差。10800s含恢复/diag5400/190science/215job；完整读后清，exact核R365，整IEEE线段/query角域仍未付。
+[R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：原37/FD过、75776×17仿射及148×453点态齐。[170接口](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)六件/100pins已发，84af1e25/4206610b/2334bce6；真98→原37/FD→R354准确338/两mean+115零行、全端点2048×17闭段M及37×17末点Hermite差。10800s含恢复/diag5400/190science/215job；完整读后清，实际43741803578/sourcebf1880f8，exact核R365；整IEEE/query角域未付。
 
 ## 同C、完整BVP及162
 
@@ -53,7 +53,7 @@
 
 [R340实际157](results/R340-actual157-residual-quadratic-square-chain-and-readback-scope.md)：八方向4接受/80normal拒，末W4.9632137875241047283817296655204217818016943746082，微降不证准确根，全finalfalse。真实末九p50和半径见原文；R350补必要标量，禁搬154值。
 
-[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保七状态/完整112伴随。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发：112+10pins、actual157末九p50/六候选选一，独立十族fresh forward及原20档/full3/strict slope/Armijo；初末120项FD及原终态保，2400s/50min science/65min job，实际43741113847/source39e6ff80，amplitude核R364。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)补同站G/H完整span；[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)证不交odd箱组合下降/统一C²界。173仅odd，174独立真157父、固定形状待实现，不冒rank或同g换形状。
+[R351 helper](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)保全七状态/112。[R364首164](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：43741113847/source39e6ff80已setup/建表，Decimal与JSON字符串直接比较误拒，0 tracked primal/forward/second、伴随/六候选/试探未起。[164r2](notes/2026-11-15-request164-canonical-binding-retry-interface.md)仅完整encoded比较和pins/metadata重发1998fa80/089b73a1/cd4150ef，原recipe/全部门/预算保，amplitude核R371。[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)G/H完整span与[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)不交odd箱/统一C²已证；173仅odd、174独立真157父固定形状待实现。
 
 
 ## 闭合、精化与恢复

@@ -194,7 +194,7 @@ def main():
             p9=[k.dec(word) for word in parameters_recipe['original_nine_literal_parameters']]
             old_model=old_model_module.LiteralCircleModel(original_model,event_sink)
             status['original_nine_literal_binding']=old_model.binding
-            if old_model.binding!=parameters_recipe['expected_original_literal_binding']:
+            if k.encoded(old_model.binding)!=k.encoded(parameters_recipe['expected_original_literal_binding']):
                 raise ValueError('The actual reconstructed original literal coefficient identity differs')
             with old_model.context('fresh-original-nine-at-actual157-parameter-words'):
                 original_state=old_model.evaluate(p9)

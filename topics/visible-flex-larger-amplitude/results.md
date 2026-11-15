@@ -284,3 +284,5 @@
 - [Request170：原37之后的完整R354准确有限端点参考](notes/2026-11-15-request170-complete-R354-endpoint-reference-interface.md)：六件/100pins，原model/FD门保持；实际A分块缓存绑定、全338/两mean投影与115零行、320位向外全17闭段二阶界，保e0/e1及453形成差。Hermite输出仅17末点，整IEEE及query角域仍未付；t投影已按原FFT核为+sin，无本地科学运行。
 
 - [R370：不交局部奇形状的统一C²界与系数箱下降方向](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)（已证，无新数值）：完整sign组合在所声明有限箱的准确线性merit取−Σ|g|，C²界因支撑不交不随站数累加；形成误差与原真实接受分责。174使用真157父并在全部FD/trial冻结同一h，任意点仍须完整分片评价。
+
+- [R364：首164完整绑定的Decimal／JSON类型误拒](results/R364-actual164-literal-binding-type-failure-before-tracked-model-calls.md)：setup/表已构造而0 tracked模型调用，完整canonical binding与recipe同，六候选/20trial/FD/final未开始。两日志/原摘要/错误/清理全核；仅改既有encoded完整比较和必要来源pins，r2保原父/数学/预算重发。

@@ -1,4 +1,4 @@
-name: visible-larger request164 independent new-shape full3 direction
+name: visible-larger request164 r2 canonical binding and new-shape direction
 'on':
   push:
     branches:
@@ -71,7 +71,7 @@ jobs:
         assert request['lanes']==['smallcoreresonance']
         assert request['execution_entry']=='geometry_20261115_adjoint_selected_ten_control_temporary.py'
         assert request['scientific_entry']=='geometry_20261115_adjoint_selected_ten_control_recipe.py'
-        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_literal_seven_state_adjoint.py":"12a95d40929cc7799761e56c33eadc9e5fbe16fa3eacf0d0be94c56ea3452b0f","geometry_20261115_adjoint_selected_ten_control_recipe.py":"9da7ebacbf40ff65733d518169c028a82f9060770c62ab89562b29f87793a782","geometry_20261115_adjoint_selected_ten_control_temporary.py":"573d323a6a22be4735e08d8eb9a956eb844b46f7f7408b6323941eefe878cff5","root_20261115_adjoint_selected_ten_control_scalar_readout.py":"fd01706a6f2c7aa8559ebfdce11a94a60e9c1382648c7c6b152e0dbff85f6fe2"}''')
+        wanted_new=json.loads(r'''{"geometry_20261115_adjoint_selected_ten_control_family.py":"09240b33b82be3f595e82df05d93b309baefd6eeb74f1c34ba3a095cb2548016","geometry_20261115_adjoint_selected_ten_decimal_model.py":"8cb8352b76be0770ab565de3b24907faa302a86a75660b9f5ffaa9a23cc6a9b7","geometry_20261115_literal_seven_state_adjoint.py":"12a95d40929cc7799761e56c33eadc9e5fbe16fa3eacf0d0be94c56ea3452b0f","geometry_20261115_adjoint_selected_ten_control_recipe.py":"1998fa8062ca91d798fe13ef60e2dc4ee08e5709c871d88346e81692852cad2b","geometry_20261115_adjoint_selected_ten_control_temporary.py":"d9b969a948e7afb661d4f1d9aa81371000692f234de5da7beef91670b4a8d289","root_20261115_adjoint_selected_ten_control_scalar_readout.py":"54d38cc81927e0aae686613ab8384b1591402c71fd3488f4b66e4844e1f1562e"}''')
         for name,digest in wanted_new.items():
          assert request['source_sha256'].get(name,request['workflow_support_source_sha256'].get(name))==digest
         assert request['experiment_contract']==json.loads(r'''{"max_experiments":1,"actual_new_shape_directions":1,"complete_original_real_backtracks":20,"finite_catalogue_size":6,"old_nine_coefficients_fixed":true,"independent_parameter_dimension":10,"initial_added_coefficient":"0","explicit_absolute_added_step":"0.01","parent_radius_is_provenance_only":true,"extra_rank_or_response_agreement_gate":false}''')

@@ -16,7 +16,7 @@ import traceback
 
 ENTRY='root_20261115_adjoint_selected_ten_control_scalar_readout.py'
 PRODUCER='geometry_20261115_adjoint_selected_ten_control_recipe.py'
-PRODUCER_SHA='9da7ebacbf40ff65733d518169c028a82f9060770c62ab89562b29f87793a782'
+PRODUCER_SHA='1998fa8062ca91d798fe13ef60e2dc4ee08e5709c871d88346e81692852cad2b'
 PRODUCER_SCHEMA='R259-adjoint-selected-ten-control-one-real-full3-direction-v1'
 STATUS_NAME='adjoint-selected-ten-control-status.json'
 SCHEMA='request164-independent-ten-control-original-compact-readback-v1'

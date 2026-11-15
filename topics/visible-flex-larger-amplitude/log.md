@@ -205,3 +205,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 17:36:50 UTC /root — R370不交形状组合及174固定族责任
 
 8057B/0f1ef542证明即发：有限odd系数箱sign组合的准确一阶斜率与统一C²界、形成分数误差和原Armijo分责；174独立真157父，FD扰动旧p时也必须冻结中心/宽度/符号。无实际方向/秩/科学运行，173仅odd范围不扩。API核fd26627303b9d743b18b0dad18460dc57f606cb3双README未变，真实pull记录保留。
+
+## 2026-11-15 17:38:42 UTC /root — R364完整首164读回及规范绑定重试
+
+13592B/a80430f2全文与9273B全diff/5525B接口核后即发；setup与0 tracked调用分责，完整encoded比较只修Decimal/JSON类型边界。producer1998fa80/request089b73a1/wfcd4150ef，原recipe及所有门/预算保；open29673B全文归档后合并当前责任，未付范围不减。170已43741803578；API核89268e02d3b63f80a4155b9e8521f7cb949b907d双README未变，真pull记录保。

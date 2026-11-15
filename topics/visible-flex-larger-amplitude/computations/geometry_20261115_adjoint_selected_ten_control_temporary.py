@@ -22,9 +22,9 @@ import uuid
 HERE=Path(__file__).resolve().parent
 ENTRY='geometry_20261115_adjoint_selected_ten_control_temporary.py'
 SCIENCE='geometry_20261115_adjoint_selected_ten_control_recipe.py'
-SCIENCE_SHA='9da7ebacbf40ff65733d518169c028a82f9060770c62ab89562b29f87793a782'
+SCIENCE_SHA='1998fa8062ca91d798fe13ef60e2dc4ee08e5709c871d88346e81692852cad2b'
 READER='root_20261115_adjoint_selected_ten_control_scalar_readout.py'
-READER_SHA='fd01706a6f2c7aa8559ebfdce11a94a60e9c1382648c7c6b152e0dbff85f6fe2'
+READER_SHA='54d38cc81927e0aae686613ab8384b1591402c71fd3488f4b66e4844e1f1562e'
 SCIENCE_SCHEMA='R259-adjoint-selected-ten-control-one-real-full3-direction-v1'
 STATUS_NAME='adjoint-selected-ten-control-status.json'
 REQUEST_SCHEMA='public-adjoint-selected-ten-control-real-direction-request-v1'
