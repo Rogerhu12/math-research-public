@@ -529,3 +529,5 @@
 - **强联块gauge的真实反馈、驱动返回与普通末端。** [完整证明](results/R271-appendix-strong-gauge-true-left-feedback-driven-return-and-ordinary-endpoint.md)同时支付真实左最小变化/零核反馈；原未来链有界但全部头旗和末端保留。真实divided-difference仅花裸费，eY给共同返回代表；新ordinary λ仍与原值双边可比，全局锚未代封口。
 
 - **原无穷远17式的小秩及31单位两变量消元。** [自足证明](results/R150-appendix-original-infinity-small-linear-quadratic-blocks-and-two-unit-eliminations.md)由原8/17阶mod31非零子式与精确右核给线性rank8、二次rank17；N0,N1对m0,m1为常系数线性，Δ模31=5，故在Z_(31)上真多项式消元。所选4354来源/乘子≤3仍须显式运输，未冒充大Q正常形。
+
+- **当前无穷远187注入与1632标准Koszul真独立。** [完整证明](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)实际187阶原子式mod31=28，给二次头一次倍在F31/Q注入；比较三次/二次部分严格推出136关系和1496一次倍均原来源独立。外支持1834×1632的下一秩尚未计算，未外推现23核归属。

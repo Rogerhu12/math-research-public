@@ -149,3 +149,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 原17式精确小结构及可运输消元
 [两变量31单位消元](results/R150-appendix-original-infinity-small-linear-quadratic-blocks-and-two-unit-eliminations.md)已严格给N0/N1常系数解m0,m1、其余15式次数≤4；原次数3乘子可能变6，不能免费删除原selected范围。继续原有限来源映射及标准Koszul源的selected支撑交。39维首次仅native超时、候选0；正在同格保基后完整核验，不作负结果。
+
+### 当前无穷远标准Koszul空间已精确注入
+[187阶原子式与1632真来源](results/R150-appendix-physical-infinity-linear-multiples187-and-koszul1632-injection.md)已同时给F31/Q独立。现在只对原选列J之外1834个来源坐标求1632列的支撑矩阵秩；其模31秩只给Q支撑交维数上界，不能直接提升核或免费认定旧23核属于该span。
