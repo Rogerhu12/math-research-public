@@ -518,3 +518,7 @@ run43759673057/fe5f7cc2，两原日志和76157B/acc93f03必要齐；8/8方向/12
 ### 2026-11-15 request190：公开运行身份绑定
 九件已推ef56f16ff3ca573fec8982754fe9d5256748317e，官方run43762998688/compute132961756447于21:19:02Z创建，前13项成功并进入原完整science。
 amplitude唯一终态R403；186仍独立原science，未读取运行中日志或提前认定任何数学完成。
+
+## 2026-11-15 21:35 UTC /root — R407真实39的free461完整仿射消元
+
+[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)及13361B/b7a5f7e6源全文核后单独发布：原R270任意L定理保，原8479只接连续的具体缺口以真实internal cover完整QR补；338个461变量自由条件消元，所有global/affine/原g及完整H恢复保，actual10819支撑不补零B。无新科学执行/门，191完整八对与单90KB读回继续；184双job终态由exact唯一读取，187真实far在途，完成标准仍未付。

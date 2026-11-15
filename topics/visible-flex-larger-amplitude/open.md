@@ -37,6 +37,8 @@
 
 [R361实际171](results/R361-actual171-real37-to38-sixteen-pairs-and-right459-barrier.md)：真实37八对→同job末pair→38八对全部完成，97pins/16新FD/80trial/16接受，13364.315132717s按明确两阶段批数停。38首α1，随后至1/8192；最后六批最近拒唯一RIGHT-RMS459，末1/4096的38选点和77824线性reserve均过，原merit确降6.1357113e−6而β²−.00202637605。已选LEFT462在较大步仍可非线性失败，新增线性query不代有限步域；末physical .007101312274733623在MID461与域障碍不同，fullQP最优/native/fullDN/success均false。原97来源/四输入/全试步/16FD/实际清理与完整原日志身份保正文，末pair已清。191/R404从true actual98独立另起39query：保原38，真实RIGHT fraction0.8273268353539885/459及完整capture459、端点459/460；不是171末场续接，原17档/全H/FD/域门保留，无新audit。
 
+[R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)与13361B/b7a5f7e6 adapter已付具体非连续支撑实现：R270本已允许任意L，原8479 binder只接连续；191真实32节点459/460/462…491/10819 coords，不补零B461。内部33-node cover11266全仿射front，完整Qᵀ先消free461/338列，余10928再原109core/local QR；纯global/原g/常数全保，原完整H恢复在461仍rhs=−g、其梯度仍属于E。准确同Schur问题而非相同浮点词，旧所有readback/门不变；实际耗时/误差/FD/接受未付。191八对入口与单90KB全链读回继续，未派发。
+
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)保a>0与P=a²|d×e|²−ν²|d|⁶、八次/Bernstein及453 Hermite全RHS缺陷。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model+新warm FD先尝试，再全75776行×17×九系数诊断；6000/1800/180及未访/字节责任保。
 
 [R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点、338二阶界、629点态gap、四真实trial×37η，余13不补η。统一整段/IEEE/truequery/699/698/连续角/native/fullDN未付；最近拒LEFT464/MID471在37内。原八文档1230成员/清理保，后继须真父重生。

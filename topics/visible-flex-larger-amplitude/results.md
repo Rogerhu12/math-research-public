@@ -437,3 +437,6 @@
 ## 2026-11-15 — Request190：记录算子预装配的完整当前128执行链
 
 [完整接口](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)17208B/c77697fd及六源/request/workflow全部源差异、61项request变化已核，原64pins全保→70。实现R402的全角literal A_m/A_L/F_m/F_L，在实际原root/名义L与同s上形成；保完整113行C解残差/名义缺陷、226RHS/RK、224种子/两mean/端口和通用geometry fallback。重关联是新binary128实现，不冒186词、C精确逆、R283导数或已付误差/性能；整数digit未实现。真91→fresh64/J/R273→same-job128/replay→全部576×224→112boundary→338×112endpoint/独立audit，19200总与所有原组件预算不改，单90KB必要/quiet后清。186仍独立，R403不预填，无新fixture/前门。当前H/open原文完整存检查点，仅压缩已刊重复，open§4–6逐字保留。
+
+
+- [R407. 实际39非连续支撑的完整仿射内部消元](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)：R270任意L的具体实现，真实459/460/462…491保10819局部坐标，不补零B461。33-node完整cover先消338个free461坐标，再原109core/局部QR；Qᵀ作用全border/仿射列，准确条件最小与原Schur等价。原完整H恢复保−g461、实际local mismatch与全梯度。13361B/b7a5f7e6 adapter随文发布；新binary64次序/成本与原H误差分列，未执行、无QP/native/FD/接受声明，不加门。
