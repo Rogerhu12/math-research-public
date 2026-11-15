@@ -4,7 +4,7 @@
 
 ## 当前规则与环境
 
-规则同步记录：2026-11-15 14:16:27 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f2e168af337f2b08d63887106b23a27770e6d0cb。
+规则同步记录：2026-11-15 14:21:17 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4c0e815bbd2379415326d776f6722c4e6f98067a。
 
 仅公开 Rogerhu12/math-research-public。科学算术、科学模块导入、数值测试/编译只在本库Actions；root只源/证明/原JSON词法/字节/语法/Git。PAT仅CLI瞬时用，不入文件/提交/回复/连接参数。root唯一发布，三个agent独立/tmp交源。
 
@@ -30,9 +30,9 @@
 
 ## root：真实读回、151集成和155接续
 
-R333已推7248eef2466d618278d0d9622489a975ed4653f0：[actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md) run43712613111/sourcea7ce5579/job132807257922全success，13:44:37原结束。8真model/8freshFD、27trial/8接受/19域拒，末physical .0071047205741851865、全native/fullDNfalse。所选LEFT463/464/MID471等曲率拒与未选MID489/490分开；末五拒所选35全合法，末α1/32。512行/200dual后验仍大，8原summary全SHA已核。末warm104ecd32/status6102a519已清；155须在Actions真重生35链后同job转独立37完整B支持，或明确actual98另起；不得只增query标签而不扩capture/端点/消元支持。155尚未写源。
+[R333 actual141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)已推7248eef2：run43712613111/sourcea7ce5579/job132807257922全success。8真model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。末五拒所选35全合法，未选MID489/490失败，末α1/32；512行/200dual后验仍大。原summary与末warm/status身份由R333完整保留，raw已清。155须Actions真重生35链后同job转独立37完整B支持，或明确actual98另起；须扩capture/端点/消元，不能只加query标签。155尚未写源。
 
-[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)付完整128 norm9.68582474751023176032080482454992093e−11及独立全129248/576×226逐word replay；后stage/audit g++return1，112/338未起，余15460s非预算拒。原compiler正文已清；共同e609 shim仅临时源quoted→::quoted。152重做完整fresh91/64J/R273/owner/576×224/112/混合338/独立audit，原19200s和所有门保；55pins、完整summary树/原错误全byte先读后清，原exit/依赖不改。root负责152实际。
+[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)付128精度下降及独立全129248/576×226逐word replay；后stage/audit编译return1、112/338未起，非预算拒。原错误正文已清；e609 shim仅临时quoted→::quoted。152按完整接口重做全fresh91/64J/R273/owner/576×224/112/混合338/独立audit，保19200s/55pins/所有原门，完整summary树和错误字节读后清。root负责152实际。
 
 [147 R328](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md) run43717814570/source3b2df31a、两jobsuccess；准确cut同R322，R323 d=1/524288/eA=eB=1/1024/κ1/2，419piece定义d783cac1。基底452叶完整；原九p1735passed/12766terminal/13stack未决，原pending坐标未全文输出，151必须重生。数值ℓ2.723563252110879；418seams仅207全jetword同，不冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)付公共u准确L²/全branch/全九支撑、中心差及同场η+δ+ηδ；未给实际δ/field metric。
 
@@ -56,7 +56,7 @@ R333已推7248eef2466d618278d0d9622489a975ed4653f0：[actual141](results/R333-ac
 
 [149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)已推23a78deab，run43720604504/source94b13951，两jobsuccess；15groups/128段/1202255B原view27982134、chain17106B两job逐字同。8方向11trial8接受，W4.9632137888301623609431700810671232566920999516706→4.9632137886926788574333991166172617637072457983871，全finalfalse。11normal均一次Newton/β1达标、0内拒/域错、55样本全working，仍3外拒真增W。旧54投影FD/Arb/453与新54持久点FD分清，不冒连续证书。
 
-[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)已推de9e9665，完整Hessian/二阶jet、移位及Cauchy模型下降、有限误差式和直线/normal额外曲率已付。154草稿 /tmp/visible-nine-curvature154，真149末九p50字符串原样，父radius仅来源，新探索=.01；完整3×9×9与全部9维shift/谱/Cauchy候选，主直线20档失败后另标原GN/normal回退，原W/0.2Armijo/域/final保。Decimal50非区间/高精度原表，谱不冒准确正交或strict rank，未承诺大步。源/recipe/无损reader/wrapper/workflow继续，未发。
+[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)已推de9e9665；本次明确原Armijo常数为binary64 0.2准确实提升c_A（非另设十进制），完整Hessian/二阶jet、移位及Cauchy模型下降、有限误差式和直线/normal额外曲率已付。154草稿 /tmp/visible-nine-curvature154，真149末九p50字符串原样，父radius仅来源，新探索=.01；完整3×9×9与全部9维shift/谱/Cauchy候选，主直线20档失败后另标原GN/normal回退，原W/0.2Armijo/域/final保。Decimal50非区间/高精度原表，谱不冒准确正交或strict rank，未承诺大步。源/recipe/无损reader/wrapper/workflow继续，未发。
 
 ## 其他完整责任与恢复
 

@@ -584,3 +584,7 @@ run43693462669/source6fffce1f36e876f3b08a1c73198a7fde259d94d6/job132748791692，
 ## 2026-11-15 14:16:04 UTC /root — R327 原148 C头资源未付，有限头未开始
 
 [R327全文](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)21569B/37acee98已核：run43719446020/source da307af3、compute step12 failure/report success，四原JSON块两job逐字同。原C1800.010812505s只1432/1440，sqrtE_B真ResourceStop、10pending及1433..1439后缀全保，Rout/cut未付；深112全付，有限头0mode/0panel/0coefficient、exit2为前置未付，非ODE/共振失败。156只C重建3600并保原13pins/线性1800/全112/数学门，151亦明确同预算调整；H压成当前完整接续，历史正文不删。
+
+## 2026-11-15 14:22 UTC /root — R332原Armijo常数精确定义
+
+[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)明确c_A为原binary64 0.2的准确实提升，局部直线Armijo证明用c_A与1−c_A，不用新十进制数替换实际常数。只改证明的常数身份，实际算法和门不动；全文11282B/16385345。154继续完整二阶和原有限回溯接线，未宣称实际接受或收敛。
