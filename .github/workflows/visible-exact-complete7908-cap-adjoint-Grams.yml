@@ -1,0 +1,692 @@
+name: visible-exact complete7908 cap adjoint Grams
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py'
+      - 'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py'
+      - 'topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-CI-inputs.json'
+      - '.github/workflows/visible-exact-complete7908-cap-adjoint-Grams.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-complete7908-cap-adjoint-Grams
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  FULL_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-CI-inputs.json
+  FULL_MANIFEST_SHA: baf3a42869c52ac0158ec6aac709aebced64a06efda8a8ea6d52939da71f1df5
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  exact-texts:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Partially check out the exact new source and wrapper
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py
+      - name: Check exact SHA256 and syntax without any numerical imports
+        run: |
+          python - <<'PY_EXACT_AST'
+          import ast,hashlib,pathlib
+          expected={
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams.py':'6b3a47a54386171b2c659c776bbfeff52ae0ebe4456ced5b67350f7eabf48a8d',
+              'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py':'86c2a02bd23eb146fbe4ee4c61cb2fd98d35110c36fde8eed1d6f426e73efed7',
+          }
+          for name,sha in expected.items():
+              raw=pathlib.Path(name).read_bytes()
+              if hashlib.sha256(raw).hexdigest()!=sha:
+                  raise ValueError('An exact complete-adjoint text changed: '+name)
+              ast.parse(raw.decode(),filename=name)
+          print('Both exact new sources parsed; no mathematical producer imported or executed.')
+          PY_EXACT_AST
+
+  prepare:
+    needs: exact-texts
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 200
+    outputs:
+      source_run: ${{ steps.paths.outputs.source_run }}
+      source_attempt: ${{ steps.paths.outputs.source_attempt }}
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out immutable sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Set the actual container-visible output paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/complete-adjoint-plan-output" >> "$GITHUB_OUTPUT"
+          printf 'source_run=%s\n' "$GITHUB_RUN_ID" >> "$GITHUB_OUTPUT"
+          printf 'source_attempt=%s\n' "$GITHUB_RUN_ATTEMPT" >> "$GITHUB_OUTPUT"
+      - name: Hydrate341 exact files with all337 original pilot pins unchanged
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/
+      - name: Install the original pinned arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Run the actual plan phase with real pulls and complete prefix preservation
+        id: scientific
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase plan
+          --work "$RUNNER_TEMP/complete-adjoint-plan-work"
+          --artifact-dir "$RUNNER_TEMP/complete-adjoint-plan-output"
+          --compute-minutes 170 --checkpoint-minutes 10
+      - name: Preserve an actual nonempty process and exact completed scientific prefixes
+        id: collect
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_ACTUAL'
+          import json,os,pathlib,shutil
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          process=root/'process.json'
+          if not process.is_file() or not process.stat().st_size:
+              raise RuntimeError('No actual nonempty complete-adjoint process exists')
+          d=json.loads(process.read_text())
+          if d.get('repository')!='Rogerhu12/math-research-public':
+              raise ValueError('The actual process belongs to another repository')
+          for group in range(32):
+              folder=root/'bundles'/('range-%02d'%group)
+              complete=(folder/'bundle-index.json').is_file()
+              if complete:
+                  index=json.loads((folder/'bundle-index.json').read_text())
+                  complete=all((folder/x['file']).is_file() for x in index['exact_source_files'])
+              if complete:
+                  shutil.copyfile(process,folder/'process.json')
+              with open(os.environ['GITHUB_OUTPUT'],'a') as out:
+                  out.write('bundle%02d=%s\n'%(group,'true' if complete else 'false'))
+          files=[p for p in root.rglob('*') if p.is_file()]
+          print(json.dumps(dict(actual_files=len(files),actual_bytes=sum(p.stat().st_size for p in files),
+              process_complete=d.get('complete'),actual_failure=d.get('failure'),
+              actual_quarters=d.get('actual_completed_quarters'),actual_bundles=d.get('actual_completed_bundles'),
+              old_target_calls=0,full_cap_high_to_low_claimed=False)))
+          PY_ACTUAL
+      - name: Retain the actual plan control process and every true mathematical outcome
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-Grams-plan-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ steps.paths.outputs.output }}/
+            !${{ steps.paths.outputs.output }}/bundles/**
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 00
+        if: ${{ always() && steps.collect.outputs.bundle00 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-00-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-00/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 01
+        if: ${{ always() && steps.collect.outputs.bundle01 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-01-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-01/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 02
+        if: ${{ always() && steps.collect.outputs.bundle02 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-02-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-02/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 03
+        if: ${{ always() && steps.collect.outputs.bundle03 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-03-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-03/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 04
+        if: ${{ always() && steps.collect.outputs.bundle04 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-04-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-04/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 05
+        if: ${{ always() && steps.collect.outputs.bundle05 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-05-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-05/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 06
+        if: ${{ always() && steps.collect.outputs.bundle06 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-06-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-06/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 07
+        if: ${{ always() && steps.collect.outputs.bundle07 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-07-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-07/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 08
+        if: ${{ always() && steps.collect.outputs.bundle08 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-08-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-08/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 09
+        if: ${{ always() && steps.collect.outputs.bundle09 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-09-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-09/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 10
+        if: ${{ always() && steps.collect.outputs.bundle10 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-10-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-10/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 11
+        if: ${{ always() && steps.collect.outputs.bundle11 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-11-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-11/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 12
+        if: ${{ always() && steps.collect.outputs.bundle12 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-12-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-12/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 13
+        if: ${{ always() && steps.collect.outputs.bundle13 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-13-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-13/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 14
+        if: ${{ always() && steps.collect.outputs.bundle14 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-14-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-14/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 15
+        if: ${{ always() && steps.collect.outputs.bundle15 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-15-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-15/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 16
+        if: ${{ always() && steps.collect.outputs.bundle16 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-16-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-16/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 17
+        if: ${{ always() && steps.collect.outputs.bundle17 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-17-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-17/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 18
+        if: ${{ always() && steps.collect.outputs.bundle18 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-18-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-18/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 19
+        if: ${{ always() && steps.collect.outputs.bundle19 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-19-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-19/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 20
+        if: ${{ always() && steps.collect.outputs.bundle20 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-20-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-20/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 21
+        if: ${{ always() && steps.collect.outputs.bundle21 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-21-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-21/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 22
+        if: ${{ always() && steps.collect.outputs.bundle22 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-22-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-22/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 23
+        if: ${{ always() && steps.collect.outputs.bundle23 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-23-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-23/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 24
+        if: ${{ always() && steps.collect.outputs.bundle24 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-24-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-24/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 25
+        if: ${{ always() && steps.collect.outputs.bundle25 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-25-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-25/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 26
+        if: ${{ always() && steps.collect.outputs.bundle26 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-26-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-26/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 27
+        if: ${{ always() && steps.collect.outputs.bundle27 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-27-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-27/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 28
+        if: ${{ always() && steps.collect.outputs.bundle28 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-28-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-28/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 29
+        if: ${{ always() && steps.collect.outputs.bundle29 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-29-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-29/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 30
+        if: ${{ always() && steps.collect.outputs.bundle30 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-30-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-30/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+      - name: Preserve exact original proposal slice 31
+        if: ${{ always() && steps.collect.outputs.bundle31 == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-original-slice-31-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/bundles/range-31/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+
+  ranges:
+    needs: prepare
+    if: github.repository == 'Rogerhu12/math-research-public'
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        include:
+          - group: 0
+            tag: '00'
+          - group: 1
+            tag: '01'
+          - group: 2
+            tag: '02'
+          - group: 3
+            tag: '03'
+          - group: 4
+            tag: '04'
+          - group: 5
+            tag: '05'
+          - group: 6
+            tag: '06'
+          - group: 7
+            tag: '07'
+          - group: 8
+            tag: '08'
+          - group: 9
+            tag: '09'
+          - group: 10
+            tag: '10'
+          - group: 11
+            tag: '11'
+          - group: 12
+            tag: '12'
+          - group: 13
+            tag: '13'
+          - group: 14
+            tag: '14'
+          - group: 15
+            tag: '15'
+          - group: 16
+            tag: '16'
+          - group: 17
+            tag: '17'
+          - group: 18
+            tag: '18'
+          - group: 19
+            tag: '19'
+          - group: 20
+            tag: '20'
+          - group: 21
+            tag: '21'
+          - group: 22
+            tag: '22'
+          - group: 23
+            tag: '23'
+          - group: 24
+            tag: '24'
+          - group: 25
+            tag: '25'
+          - group: 26
+            tag: '26'
+          - group: 27
+            tag: '27'
+          - group: 28
+            tag: '28'
+          - group: 29
+            tag: '29'
+          - group: 30
+            tag: '30'
+          - group: 31
+            tag: '31'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 200
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out immutable sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Set the actual container-visible output paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/complete-adjoint-range-${{ matrix.tag }}-output" >> "$GITHUB_OUTPUT"
+          printf 'source_run=%s\n' "$GITHUB_RUN_ID" >> "$GITHUB_OUTPUT"
+          printf 'source_attempt=%s\n' "$GITHUB_RUN_ATTEMPT" >> "$GITHUB_OUTPUT"
+      - name: Hydrate341 exact files with all337 original pilot pins unchanged
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/
+      - name: Install the original pinned arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Run the actual range phase with real pulls and complete prefix preservation
+        id: scientific
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase range --group ${{ matrix.group }} --source-run ${{ needs.prepare.outputs.source_run }} --source-attempt ${{ needs.prepare.outputs.source_attempt }}
+          --work "$RUNNER_TEMP/complete-adjoint-range-${{ matrix.tag }}-work"
+          --artifact-dir "$RUNNER_TEMP/complete-adjoint-range-${{ matrix.tag }}-output"
+          --compute-minutes 170 --checkpoint-minutes 10
+      - name: Preserve an actual nonempty process and exact completed scientific prefixes
+        id: collect
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_ACTUAL'
+          import json,os,pathlib,shutil
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          process=root/'process.json'
+          if not process.is_file() or not process.stat().st_size:
+              raise RuntimeError('No actual nonempty complete-adjoint process exists')
+          d=json.loads(process.read_text())
+          if d.get('repository')!='Rogerhu12/math-research-public':
+              raise ValueError('The actual process belongs to another repository')
+          files=[p for p in root.rglob('*') if p.is_file()]
+          print(json.dumps(dict(actual_files=len(files),actual_bytes=sum(p.stat().st_size for p in files),
+              process_complete=d.get('complete'),actual_failure=d.get('failure'),
+              actual_quarters=d.get('actual_completed_quarters'),actual_bundles=d.get('actual_completed_bundles'),
+              old_target_calls=0,full_cap_high_to_low_claimed=False)))
+          PY_ACTUAL
+      - name: Retain the actual range control process and every true mathematical outcome
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-Grams-range-${{ matrix.tag }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ steps.paths.outputs.output }}/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1
+
+  finish:
+    needs: [prepare,ranges]
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 200
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out immutable sources and reviewed rules
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Set the actual container-visible output paths
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/complete-adjoint-finish-output" >> "$GITHUB_OUTPUT"
+          printf 'source_run=%s\n' "$GITHUB_RUN_ID" >> "$GITHUB_OUTPUT"
+          printf 'source_attempt=%s\n' "$GITHUB_RUN_ATTEMPT" >> "$GITHUB_OUTPUT"
+      - name: Hydrate341 exact files with all337 original pilot pins unchanged
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/complete_cap_adjoint_Grams_ci/
+      - name: Install the original pinned arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Run the actual finish phase with real pulls and complete prefix preservation
+        id: scientific
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_cap_adjoint_Grams_CI.py
+          --manifest "$FULL_MANIFEST" --manifest-sha "$FULL_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --phase finish --source-run ${{ needs.prepare.outputs.source_run }} --source-attempt ${{ needs.prepare.outputs.source_attempt }}
+          --work "$RUNNER_TEMP/complete-adjoint-finish-work"
+          --artifact-dir "$RUNNER_TEMP/complete-adjoint-finish-output"
+          --compute-minutes 170 --checkpoint-minutes 10
+      - name: Preserve an actual nonempty process and exact completed scientific prefixes
+        id: collect
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_ACTUAL'
+          import json,os,pathlib,shutil
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          process=root/'process.json'
+          if not process.is_file() or not process.stat().st_size:
+              raise RuntimeError('No actual nonempty complete-adjoint process exists')
+          d=json.loads(process.read_text())
+          if d.get('repository')!='Rogerhu12/math-research-public':
+              raise ValueError('The actual process belongs to another repository')
+          files=[p for p in root.rglob('*') if p.is_file()]
+          print(json.dumps(dict(actual_files=len(files),actual_bytes=sum(p.stat().st_size for p in files),
+              process_complete=d.get('complete'),actual_failure=d.get('failure'),
+              actual_quarters=d.get('actual_completed_quarters'),actual_bundles=d.get('actual_completed_bundles'),
+              old_target_calls=0,full_cap_high_to_low_claimed=False)))
+          PY_ACTUAL
+      - name: Retain the actual finish control process and every true mathematical outcome
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-complete-adjoint-Grams-finish-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ steps.paths.outputs.output }}/
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 1

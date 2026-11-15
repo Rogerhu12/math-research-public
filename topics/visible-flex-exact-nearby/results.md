@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整7908帽伴随Gram覆盖合同](notes/2026-11-15-R133-complete7908-cap-adjoint-Gram-contract.md)：原四格实际结果及同一257×97 Hermite提案逐字复用，32互斥范围仅补7904新格；保九类97 signed covariance、独立mean、完整Hessian/无限尾与真实9/10到25/8径向链。五件/341pin已接公开Actions，尚无全覆盖actual，不转授边界/high或无限BVP。
+
 - **R133 根值剥离的完整 old-circle 源合并入口（2026-11-15）**：44仓库pin+9原artifact文件逐字复用原27pin和root/directed两原件，仅消费1036新导数行的完整九词/五mean，3323原source payload及其大半径summary逐字保。完整算子分别取同一w1的两个合法上界之小者，不改物理对象或丢mean/seam。SCI314c092b…、manifestbd17d377…；公开Actions待actual，未授正weighted端口、完整seam修正或strong-return。
 
 - **R133 连续伴随四闭区间的完整97 signed Gram actual（2026-11-15）**：[实际报告](notes/2026-11-15-R133-actual-complete97-adjoint-residual-Gram-pilot.md)。43664278200 child0/9门、42.4305s，quarter0/64/4096/7907保完整mean、无限系数误差、真实Hermite交段与Hessian转置；0target/旧QR。四格true ordinary Gram trace上界分别1.244641e−28、9.983373e−9、4.844180e−25、7.886543e−33，完整矩阵符号交叉项原样保。只授四格，后继复用并补7904及全边界/high输出，不外推全帽或参数Schur。
