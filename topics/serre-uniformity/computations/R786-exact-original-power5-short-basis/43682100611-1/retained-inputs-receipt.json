@@ -1,0 +1,503 @@
+{
+  "artifact_groups": [
+    {
+      "label": "R771",
+      "producer": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "artifact_id": 14127715743,
+        "artifact_name": "serre-global-R771-p41-original-quotient-RR-bases-43628998192-1",
+        "archive_sha256": "e158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+        "certificate_name": "p41-original-quotient-RR-basis-certificate.json",
+        "files": {
+          "p41-original-quotient-RR-basis-certificate.json": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f"
+        }
+      },
+      "producer_run_and_source_verified": true,
+      "artifact_metadata_digest_verified": true,
+      "certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f",
+      "files": [
+        {
+          "file": "R771-Eisenstein-row-00.json.gz",
+          "sha256": "65403aaafbc503bb5445252e3c6c9545c598fda86389aca0862261300a24d1c2",
+          "bytes": 5806
+        },
+        {
+          "file": "R771-Eisenstein-row-01.json.gz",
+          "sha256": "82aa83f21d1c710d0e59e77968bac3209875c79671406dc9d0732bf150181828",
+          "bytes": 25858
+        },
+        {
+          "file": "R771-Eisenstein-row-02.json.gz",
+          "sha256": "d428fea81286cd4a590c1bc985a0bc45e59ea10730052416149e1fe6a15ffd6f",
+          "bytes": 25023
+        },
+        {
+          "file": "R771-Eisenstein-row-03.json.gz",
+          "sha256": "9fb5e51ecb99e1191db6578d32d77dbb3d4b3f7e9ad3492a706ceeef7ebc5798",
+          "bytes": 32553
+        },
+        {
+          "file": "R771-Eisenstein-row-04.json.gz",
+          "sha256": "c14b0214dae9bd2b4f3bf2de41ac95ef14635f40b93fd51e45e1a625a96e5a92",
+          "bytes": 28545
+        },
+        {
+          "file": "R771-Eisenstein-row-05.json.gz",
+          "sha256": "b9cfa109ec72a862184c60aab5c4468b0eaa9006816f641f26635eb685299bfe",
+          "bytes": 40110
+        },
+        {
+          "file": "R771-Eisenstein-row-06.json.gz",
+          "sha256": "26ac534f9bb8a62d16199457e64848ba59e613e9610e562d3792edd2d3ac1e0f",
+          "bytes": 30366
+        },
+        {
+          "file": "R771-Eisenstein-row-07.json.gz",
+          "sha256": "28a312d575aef7ba7850de0da108a10569c57e9080dc731c8c75c858ef4bd800",
+          "bytes": 43103
+        },
+        {
+          "file": "R771-Eisenstein-row-08.json.gz",
+          "sha256": "c6409c8d87ca4cad71c115e9c45664f2349500339301fd7ae8b02bd33cb27bd7",
+          "bytes": 32161
+        },
+        {
+          "file": "R771-Eisenstein-row-09.json.gz",
+          "sha256": "7319a5bd58e0346184c99984da4791acc86a71f4a10befcba86bbe3de6a355f4",
+          "bytes": 39942
+        },
+        {
+          "file": "R771-Eisenstein-row-10.json.gz",
+          "sha256": "5048991288789ed33cc73903ed08ab7dc3073ed4a501a0ed392e950f995ce4ca",
+          "bytes": 35028
+        },
+        {
+          "file": "R771-Eisenstein-row-11.json.gz",
+          "sha256": "c6d665c0efc0289cf86b02fb58f3685bf183094567c5b65930b83496b13d7790",
+          "bytes": 43064
+        },
+        {
+          "file": "R771-Eisenstein-row-12.json.gz",
+          "sha256": "8475dd8fe72a3e895c97b6f5003803641d41602d608445baf1f637d60846527d",
+          "bytes": 31143
+        },
+        {
+          "file": "R771-Eisenstein-row-13.json.gz",
+          "sha256": "75fb6f5ddf3c02e4aded022cd3bee6399686af95ae3d4e1944e04cffe73be342",
+          "bytes": 40828
+        },
+        {
+          "file": "R771-Eisenstein-row-14.json.gz",
+          "sha256": "4b04ad4a943e1fa3489ff2cfd65b06d06a13ca14afc0f643232fe20ba1869565",
+          "bytes": 34286
+        },
+        {
+          "file": "R771-Eisenstein-row-15.json.gz",
+          "sha256": "5e61b576e30550a906ff87902bf8012ff90fd7bca23a7b100b34fd1419dcf305",
+          "bytes": 38537
+        },
+        {
+          "file": "R771-Eisenstein-row-16.json.gz",
+          "sha256": "7b2f7c47b86512e85c103c68b87cdd77b117bd0b0de2b723a5fcc1724eaf77a1",
+          "bytes": 32153
+        },
+        {
+          "file": "R771-Eisenstein-row-17.json.gz",
+          "sha256": "8a3a48d4720480de323eac4026ff2450c0c57676e5f0111fe45f9e41c6cca191",
+          "bytes": 37868
+        },
+        {
+          "file": "R771-Eisenstein-row-18.json.gz",
+          "sha256": "f38c53675fb54cc4289e443533e9d01ac48c81f6e5999e5c47b4561bb099198e",
+          "bytes": 32254
+        },
+        {
+          "file": "R771-Eisenstein-row-19.json.gz",
+          "sha256": "4370993394745ddff614fbdb2e5b3badfc80345f47f71df6f1e8ff458dd88412",
+          "bytes": 36381
+        },
+        {
+          "file": "R771-Eisenstein-row-20.json.gz",
+          "sha256": "756b681949922fdacdb99430647f2cba49be9da18dbc9c7304416c1fee9eb89b",
+          "bytes": 30426
+        },
+        {
+          "file": "R771-Eisenstein-row-21.json.gz",
+          "sha256": "a40642ef1936bf5cb12a05f983d2c52d3eae8d050de0aa0be521454d89fa3a2f",
+          "bytes": 35236
+        },
+        {
+          "file": "R771-Eisenstein-row-22.json.gz",
+          "sha256": "af5a4a0c3d2a236e6db737c3927150542c35641f61c7368962d8dc04a814c36f",
+          "bytes": 31784
+        },
+        {
+          "file": "R771-Eisenstein-row-23.json.gz",
+          "sha256": "f18c2271ec5dafc0fd52eec6571054c8d07b4aa12bc9d3f8a6827d09f3d90ef3",
+          "bytes": 34735
+        },
+        {
+          "file": "R771-Eisenstein-row-24.json.gz",
+          "sha256": "75229257465994f2c78070b4ebc96871ee13f206da38e78ee4119a0b428f9087",
+          "bytes": 29707
+        },
+        {
+          "file": "R771-Eisenstein-row-25.json.gz",
+          "sha256": "eebbe651f2b9d3d6a5c7c80bb73d478a41a14a98a244e885a65cca5940ff98c1",
+          "bytes": 33220
+        },
+        {
+          "file": "R771-Eisenstein-row-26.json.gz",
+          "sha256": "fb9109715d1782d6499e20a185315793823bcd480217779a78e284e1f23e9352",
+          "bytes": 29828
+        },
+        {
+          "file": "R771-Eisenstein-row-27.json.gz",
+          "sha256": "a343bc92dc6de82c7a781e0498a98d9eb8b0ea54b4957d579f2c717faa36c1a5",
+          "bytes": 31252
+        },
+        {
+          "file": "R771-Eisenstein-row-28.json.gz",
+          "sha256": "f89642cfbfa382fb1fa1ef00bde696379cc9042889bb8ee62c6e488b409c8a43",
+          "bytes": 28126
+        },
+        {
+          "file": "R771-Eisenstein-row-29.json.gz",
+          "sha256": "4235ac26f7241170677ea688fa2827544cb3fc539da5d69bb891178d77b41c4e",
+          "bytes": 31365
+        },
+        {
+          "file": "R771-Eisenstein-row-30.json.gz",
+          "sha256": "0c88f29427bf6ac4a56175c4bd61aba1c92273da5f420a365e3708e25d74a815",
+          "bytes": 28335
+        },
+        {
+          "file": "R771-Eisenstein-row-31.json.gz",
+          "sha256": "b50b7be3109da803fe30c6875fb3882af648be254a11c6c9691e594c95ec9145",
+          "bytes": 31472
+        },
+        {
+          "file": "R771-Eisenstein-row-32.json.gz",
+          "sha256": "be47d3febfa9bd6eb4ee2ba81f9f040f89f91959fdfd6e7d4b5cf78c163ebe9e",
+          "bytes": 28080
+        },
+        {
+          "file": "R771-Eisenstein-row-33.json.gz",
+          "sha256": "31ae0c25b088bb0b47e9d6b22c66b6a442cacc417b845c2ee6bc3eefce9cb2ef",
+          "bytes": 30803
+        },
+        {
+          "file": "R771-Eisenstein-row-34.json.gz",
+          "sha256": "1190cdff246df72b7899d4d5daafe336fcc25cbfb3429dac8cd263646b698748",
+          "bytes": 28034
+        },
+        {
+          "file": "R771-Eisenstein-row-35.json.gz",
+          "sha256": "678798dc780d92de837dbaf43b0bac581eb5477a5d7d62e4383bb19fff712c69",
+          "bytes": 30825
+        },
+        {
+          "file": "R771-Eisenstein-row-36.json.gz",
+          "sha256": "c9c5bb1a026533534caafb230e877c3a866d7c6fabd0ff229e035ebf75c5c1ab",
+          "bytes": 27679
+        },
+        {
+          "file": "R771-Eisenstein-row-37.json.gz",
+          "sha256": "e21a1182df7ccda01feb9d7c3544d824c3be1e5e29965982de332ea1bd3d618e",
+          "bytes": 30758
+        },
+        {
+          "file": "R771-Eisenstein-row-38.json.gz",
+          "sha256": "749f7bc05d1743040b9f47f2b46fb47406eb69cce913d23fed322d88a0182a1d",
+          "bytes": 27698
+        },
+        {
+          "file": "R771-Eisenstein-row-39.json.gz",
+          "sha256": "94a25568bbd396a61805157bf7ab2ad9e25278dca6a1250bbed3c2b96231de22",
+          "bytes": 29073
+        },
+        {
+          "file": "R771-Eisenstein-row-40.json.gz",
+          "sha256": "26176595586ac94cddc11a412007e878ee53e92059d5d128edbda926dc8a9dff",
+          "bytes": 23828
+        },
+        {
+          "file": "R771-Eisenstein-row-41.json.gz",
+          "sha256": "33c5f041b4249ef3da3cb0bcc8c1874e24ddb36ab29c582cc6eefac912985459",
+          "bytes": 9006
+        },
+        {
+          "file": "R771-Eisenstein-row-42.json.gz",
+          "sha256": "223c603cc6f080a83d237fa3889cbafced0e316bace0ce2cc75e4c247a55b6d9",
+          "bytes": 23797
+        },
+        {
+          "file": "R771-Eisenstein-row-43.json.gz",
+          "sha256": "d75028f3a86a82291a386cafbb127d9225a7e6313503b82fe958ca4115fe70ec",
+          "bytes": 29117
+        },
+        {
+          "file": "R771-Eisenstein-row-44.json.gz",
+          "sha256": "5c822313eeee6b2cb3b57101e1552d8c9f130418b511ca70603967d9be542c83",
+          "bytes": 27681
+        },
+        {
+          "file": "R771-Eisenstein-row-45.json.gz",
+          "sha256": "017eb6ce7950f399e902e55e635983cc657da72da4bc60a01ce46d0c46698e61",
+          "bytes": 30754
+        },
+        {
+          "file": "R771-Eisenstein-row-46.json.gz",
+          "sha256": "70932767946e817475f8af9c619da79b5e63068d9e44a3d530bd3d74fef37914",
+          "bytes": 27647
+        },
+        {
+          "file": "R771-Eisenstein-row-47.json.gz",
+          "sha256": "dd281caee1adbe8ab3bccec12dab0245791a63d20547098fa79894d86b56d3a5",
+          "bytes": 30779
+        },
+        {
+          "file": "R771-Eisenstein-row-48.json.gz",
+          "sha256": "de666b196c4f0afd62573f5319cef4bc2c403125a87d492514f1a92092620b71",
+          "bytes": 28025
+        },
+        {
+          "file": "R771-Eisenstein-row-49.json.gz",
+          "sha256": "f5c5337519b11818354e4d6cd918caac4de15aa0a029b65389042512ab2775e0",
+          "bytes": 30761
+        },
+        {
+          "file": "R771-Eisenstein-row-50.json.gz",
+          "sha256": "270a0132bc02108df20ede523027c5756e1fa98e5bcc8eab905fffa3e0bca825",
+          "bytes": 28090
+        },
+        {
+          "file": "R771-Eisenstein-row-51.json.gz",
+          "sha256": "ed8bae2d7b23878089cc0608681306652762a2a5773b95a7624425e508909f20",
+          "bytes": 31489
+        },
+        {
+          "file": "R771-Eisenstein-row-52.json.gz",
+          "sha256": "841d78f4c8870a65bb8e28ece819d53ec4dae589b0f4f68967c3aa76a30a70c2",
+          "bytes": 28374
+        },
+        {
+          "file": "R771-Eisenstein-row-53.json.gz",
+          "sha256": "17fa4bc2fc0b92ab9c230d298556b23b83f709a62bc4f6ee90b5520e064a9781",
+          "bytes": 31355
+        },
+        {
+          "file": "R771-Eisenstein-row-54.json.gz",
+          "sha256": "d749f639acd9cce4171a7c0b103dbc6e3adb4e601d210bedf88e7073986a931a",
+          "bytes": 28088
+        },
+        {
+          "file": "R771-Eisenstein-row-55.json.gz",
+          "sha256": "cfeab731c1f138da8972d421c006c94ff757b1a57de5281d84d0480dc3b306ca",
+          "bytes": 31289
+        },
+        {
+          "file": "R771-Eisenstein-row-56.json.gz",
+          "sha256": "37de76c4aa6c4801a291005b393fd478c1cc5c89e8c285e0f78aa68dffbf4a8e",
+          "bytes": 29798
+        },
+        {
+          "file": "R771-Eisenstein-row-57.json.gz",
+          "sha256": "cf24f52bc28ca099fcbe9f53a33cfe6064dde50e8ccfafb4a107d8096a88d230",
+          "bytes": 33250
+        },
+        {
+          "file": "R771-Eisenstein-row-58.json.gz",
+          "sha256": "0848472e2c9e9783d1617bc8c1c205249adeca5b41c14deb18cfef9839863913",
+          "bytes": 29786
+        },
+        {
+          "file": "R771-Eisenstein-row-59.json.gz",
+          "sha256": "440ac980d924dc5fc6e3c38702d06fad5a7ecbbdefc8af67d304e465d83186a3",
+          "bytes": 34683
+        },
+        {
+          "file": "R771-Eisenstein-row-60.json.gz",
+          "sha256": "1a9ba9ce9d7274fc827e227d91ed2b7ab7c1b1f271efcdc6340c0f23b26d7056",
+          "bytes": 31876
+        },
+        {
+          "file": "R771-Eisenstein-row-61.json.gz",
+          "sha256": "d92983461b788e5b642f338a64223d875700bebb340a30749c6a367c7ec078f4",
+          "bytes": 35179
+        },
+        {
+          "file": "R771-Eisenstein-row-62.json.gz",
+          "sha256": "fc30583f63a6382bee6971ece2612bde58f0961ff51bcc3102477ee7f22e7984",
+          "bytes": 30431
+        },
+        {
+          "file": "R771-Eisenstein-row-63.json.gz",
+          "sha256": "18191a8f12b53e01d24eac24c810d71bf854b7685f80c1a1fbe0f7e4968f52ac",
+          "bytes": 36414
+        },
+        {
+          "file": "R771-Eisenstein-row-64.json.gz",
+          "sha256": "088d3ea71c7f8951a70330cb1ad1562618b17c5d612c02df48141bfe76b1f25d",
+          "bytes": 32210
+        },
+        {
+          "file": "R771-Eisenstein-row-65.json.gz",
+          "sha256": "3ca2303a5a771b2465d34679440de139f483a54cd3543513b1c30eaa02f137e5",
+          "bytes": 37802
+        },
+        {
+          "file": "R771-Eisenstein-row-66.json.gz",
+          "sha256": "48121625113ad959a4584854732bee15af10f69cca845fc4aec2ba53c70f2d35",
+          "bytes": 32160
+        },
+        {
+          "file": "R771-Eisenstein-row-67.json.gz",
+          "sha256": "c70475e15c63fa7808b1199d26ca7d78cb9dc49a4f62d97e6e3436c81458db77",
+          "bytes": 38610
+        },
+        {
+          "file": "R771-Eisenstein-row-68.json.gz",
+          "sha256": "416d1888bcce2c7d3d199abcd21bb75fb53f7a8e106fa669acbac6ba5d486c14",
+          "bytes": 34285
+        },
+        {
+          "file": "R771-Eisenstein-row-69.json.gz",
+          "sha256": "e4414a6520bddfb204a1a1b2543cb7e9af2f9d5146e0cba4947acb5fac660c8a",
+          "bytes": 40901
+        },
+        {
+          "file": "R771-Eisenstein-row-70.json.gz",
+          "sha256": "b09b124c23541fea0df3823c3523f4321517c1af1970ccf178b0b568ce72a533",
+          "bytes": 31190
+        },
+        {
+          "file": "R771-Eisenstein-row-71.json.gz",
+          "sha256": "7dcfb4bd11f71c7f94984b7d00df4646605b9a798aafead8e7bdc0431182105b",
+          "bytes": 43062
+        },
+        {
+          "file": "R771-Eisenstein-row-72.json.gz",
+          "sha256": "f127a8a593b38469342c9c3e7a1339bd01d8fcbe3eecbb91cb0fa090ea1dc02a",
+          "bytes": 35118
+        },
+        {
+          "file": "R771-Eisenstein-row-73.json.gz",
+          "sha256": "ea806c6d2bee7e791a3cdc45a6cb4fd7551306900ae23aa74ec86a90fe311d53",
+          "bytes": 40115
+        },
+        {
+          "file": "R771-Eisenstein-row-74.json.gz",
+          "sha256": "b856450530d6f6dfec7735bf7e55b8a10e62de26f17fd0501a2f3040b88bd948",
+          "bytes": 32165
+        },
+        {
+          "file": "R771-Eisenstein-row-75.json.gz",
+          "sha256": "e763f4f155433d30bac343dc3d0cf2a42dfa94c0ade87ed5ec8029c954c66dcd",
+          "bytes": 43176
+        },
+        {
+          "file": "R771-Eisenstein-row-76.json.gz",
+          "sha256": "3928932a71db438480ff46c733b10cea7437855056c03c648e3365243efbd4c3",
+          "bytes": 30478
+        },
+        {
+          "file": "R771-Eisenstein-row-77.json.gz",
+          "sha256": "eee00087669e927f4cc09f31d4b9b5ec17de334cd2e1fdeb75cc5f1fd000c1dc",
+          "bytes": 40160
+        },
+        {
+          "file": "R771-Eisenstein-row-78.json.gz",
+          "sha256": "881964b7e534afa97a67447f7168ca6c10a5cf76890c0c0cd77a9b68634571a3",
+          "bytes": 28653
+        },
+        {
+          "file": "R771-Eisenstein-row-79.json.gz",
+          "sha256": "324b170a626d4099b5ed5aed05d68c536f72d7d46999750ee57724611d403684",
+          "bytes": 32652
+        },
+        {
+          "file": "R771-Eisenstein-row-80.json.gz",
+          "sha256": "5bc618374815e8e9eef5e0daa1f63170b4966617ba4050459a966217f9945935",
+          "bytes": 25186
+        },
+        {
+          "file": "R771-Eisenstein-row-81.json.gz",
+          "sha256": "d5a240bad48985c94e1eaeb1f5a8fc38acf762c2776a3c1679d6cd22a4b2b313",
+          "bytes": 26013
+        },
+        {
+          "file": "R771-original-level82-Eisenstein-label-group.json.gz",
+          "sha256": "3f394ae69f2b7f40940cd76b9847502964402181c0003bef6f2967f86eb9d2fc",
+          "bytes": 9673
+        }
+      ],
+      "complete_stage_prefix_consumed": false,
+      "R775_final_certificate_assumed": false
+    },
+    {
+      "label": "R775",
+      "producer": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43631335355",
+        "source_commit": "00295b27a3f7367028ccee84eb867b5aeadc7540",
+        "expected_conclusion": "failure",
+        "artifact_id": 14130299697,
+        "artifact_name": "serre-global-R775-p41-original-K-defined-RR-bases-43631335355-1",
+        "archive_sha256": "15961ced472e2a7633c353e86522a90553e0eb615410759cd19df913a4957540",
+        "manifest_sha256": "d763da2a2ee83b0474effa4deafebe3e0b689bc109c34ca43f3fa196ae43e46a",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "files": {
+          "R775-determinant-cosets.json.gz": "759d6f7643032fa358a0da02417d576f5d6f89a3996f9e6fb4b3bf954c52ecac",
+          "R775-basis-M2.json.gz": "51113988c90b301cb6117fec5c294b77110e1826bf00229b7993ba82144f5d3d",
+          "R775-basis-power-2.json.gz": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+          "R775-basis-power-3.json.gz": "00361e5155c429de5c54b613b8a3cb46ac9530c554e1a812823748bb2bf5fe18",
+          "R775-basis-power-4.json.gz": "85beb7662eee64f4eca9e205314a6625506e3041bea199985489c7cf1f62dd4e",
+          "R775-basis-power-5.json.gz": "7aff6faa89a91649db5549bbf9360647534bff6f9586ce3f5963e322d33c30ba"
+        }
+      },
+      "producer_run_and_source_verified": true,
+      "artifact_metadata_digest_verified": true,
+      "certificate_sha256": null,
+      "files": [
+        {
+          "file": "R775-determinant-cosets.json.gz",
+          "sha256": "759d6f7643032fa358a0da02417d576f5d6f89a3996f9e6fb4b3bf954c52ecac",
+          "bytes": 1341
+        },
+        {
+          "file": "R775-basis-M2.json.gz",
+          "sha256": "51113988c90b301cb6117fec5c294b77110e1826bf00229b7993ba82144f5d3d",
+          "bytes": 288806
+        },
+        {
+          "file": "R775-basis-power-2.json.gz",
+          "sha256": "734a61e967c51ba3c9cd93eaff1a81fba165600110abb941dfdbbeed41b6ebe4",
+          "bytes": 834135
+        },
+        {
+          "file": "R775-basis-power-3.json.gz",
+          "sha256": "00361e5155c429de5c54b613b8a3cb46ac9530c554e1a812823748bb2bf5fe18",
+          "bytes": 1380446
+        },
+        {
+          "file": "R775-basis-power-4.json.gz",
+          "sha256": "85beb7662eee64f4eca9e205314a6625506e3041bea199985489c7cf1f62dd4e",
+          "bytes": 1926820
+        },
+        {
+          "file": "R775-basis-power-5.json.gz",
+          "sha256": "7aff6faa89a91649db5549bbf9360647534bff6f9586ce3f5963e322d33c30ba",
+          "bytes": 2473149
+        }
+      ],
+      "complete_stage_prefix_consumed": true,
+      "R775_final_certificate_assumed": false
+    }
+  ],
+  "old_producer_mathematics_recomputed": false
+}
