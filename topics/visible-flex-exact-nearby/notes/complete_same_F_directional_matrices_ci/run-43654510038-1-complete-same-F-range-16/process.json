@@ -96,6 +96,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:34:09.210034+00:00",
+      "before": "4fcb0ab080482efaf71f8c5cdd2f3358d7b0d820",
+      "after": "a04f6929996b8f75a4c7c7aff7b9660fec28b9f2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:34:12.095625+00:00",
+      "before": "a04f6929996b8f75a4c7c7aff7b9660fec28b9f2",
+      "after": "d1ccb75c16f0ed3085651220824edd8b6adb59af",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -118,6 +134,11 @@
       "time": "2026-11-15T01:13:05.037916+00:00",
       "final": false,
       "commit": "e12d03188a8b0a97342322304cc9e8ef3c801b86"
+    },
+    {
+      "time": "2026-11-15T01:23:10.606851+00:00",
+      "final": false,
+      "commit": "fd2cc27077950d9b618a5d69c90c83b357b90cd9"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -158,7 +179,7 @@
   "original_failed_complete_matrix_cells": 0,
   "original_failed_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
   "exact_F_object_and_patch_unchanged_by_correlation_aware_endpoint_gate": true,
-  "last_read_commit": "4fcb0ab080482efaf71f8c5cdd2f3358d7b0d820",
+  "last_read_commit": "d1ccb75c16f0ed3085651220824edd8b6adb59af",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
   "exact_requested_group": {
@@ -364,8 +385,8 @@
     "slice_id": 8
   },
   "original_empty_failed_range_native_sha256": "c6723e2263a98f632ea24ce75f7344f4ae72e83f40c978057024b4dbde1ccff2",
-  "snapshot_utc": "2026-11-15T01:23:08.766794+00:00",
-  "wall_seconds": 2426.988704542,
+  "snapshot_utc": "2026-11-15T01:34:09.252717+00:00",
+  "wall_seconds": 3087.474626752,
   "native_files": [
     {
       "logical_file": "evidence/original-empty-range-outcome.json",
@@ -382,8 +403,8 @@
     {
       "logical_file": "native/complete-same-F-range-16.json.gz",
       "file": "native/complete-same-F-range-16.json.gz",
-      "bytes": 684380,
-      "sha256": "6e8b34690ce33abe89ef6748267e899588a7d4da8ac6faf42348fee3168d3fbd"
+      "bytes": 874047,
+      "sha256": "5b50fd33e81c6e78798a90a3e275d0ff6bfd67cb137c81f084522196d0660e8c"
     }
   ]
 }
