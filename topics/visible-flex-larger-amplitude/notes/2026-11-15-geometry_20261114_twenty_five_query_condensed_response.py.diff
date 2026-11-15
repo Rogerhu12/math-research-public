@@ -1,0 +1,27 @@
+--- geometry_20261114_twenty_four_query_condensed_response.py
++++ geometry_20261114_twenty_five_query_condensed_response.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Original complete affine Rphi FD on a new twenty-four-query condensed warm.
++"""Original complete affine Rphi FD on a new twenty-five-query condensed warm.
+ 
+ The true zero-H T112 J is held explicitly affine. This recomputes every
+ original direction/step/Richardson test on the actual new warm, with its
+@@ -10,7 +10,7 @@
+ from pathlib import Path
+ 
+ import geometry_20261114_constrained_trust_response as original_response
+-import geometry_20261114_twenty_four_query_condensed_warm as producer
++import geometry_20261114_twenty_five_query_condensed_warm as producer
+ 
+ HERE = Path(__file__).resolve().parent
+ ORIGINAL_RESPONSE_SHA = "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78"
+@@ -39,7 +39,7 @@
+ 
+     def write(path, value):
+         if Path(path).name == "response-check.json" and isinstance(value, dict):
+-            value["twenty_four_query_condensed_QP_response_entry"] = identity
++            value["twenty_five_query_condensed_QP_response_entry"] = identity
+             value["source_sha256"] = identity["entry_source_sha256"]
+             for name in (Path(__file__).name, *producer.SOURCE_NAMES):
+                 value["consumed_source_sha256"][name] = original.sha(HERE/name)

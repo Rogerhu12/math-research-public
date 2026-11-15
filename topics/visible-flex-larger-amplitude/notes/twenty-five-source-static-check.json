@@ -1,0 +1,257 @@
+{
+  "scope": "Source AST, literal layout, parent JSON and exact byte checks only; no scientific module import or numerical execution",
+  "identical_function_AST": [
+    {
+      "file": "domain_operator",
+      "function": "query_value",
+      "identical_AST": true
+    },
+    {
+      "file": "domain_operator",
+      "function": "selected_actual_angles",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "equal",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "guard",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "scalar_or_none",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "evidence",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "compact_metadata",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.CapturedLinearization.__init__",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.CapturedLinearization.operator",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.project",
+      "identical_AST": true
+    },
+    {
+      "file": "condensed_warm",
+      "function": "main.choose",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "scalar",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "component",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.observer_write",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual.__init__",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual._weight",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual._physical_row",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual._report",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual._observe",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual.evaluate",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.LocationObservedResidual.weights",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.annotate_current",
+      "identical_AST": true
+    },
+    {
+      "file": "collocation_observer_warm",
+      "function": "main.write",
+      "identical_AST": true
+    }
+  ],
+  "original_operator_constructor_AST_identical_after_diagnostic_labels_only": true,
+  "original_operator_constructor_diagnostic_label_changes": {
+    "Preserve all seventeen unique captured cells and the original left RMS rule": "Preserve all sixteen unique captured cells and the original left RMS rule",
+    "All declared local columns must belong to the actual twenty-five-query blocks": "All declared local columns must belong to the actual twenty-four-query blocks"
+  },
+  "FD_full_text_reverse_identity": true,
+  "query_cells": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    475,
+    477,
+    479,
+    480,
+    481,
+    482,
+    484,
+    485
+  ],
+  "actual_query_endpoints": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486
+  ],
+  "declared_local_nodes": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486
+  ],
+  "zero_layout_nodes": [],
+  "full_B_rows": 51200,
+  "declared_local_dimension": 7439,
+  "actual_block_column_union_dimension": 7439,
+  "added_left_RMS465_uses_original_endpoint465_and466": true,
+  "added_capture_endpoint_only465": true,
+  "capture_taken_from_one_original_complete_A": true,
+  "all_sixteen_parent_left_queries_retained": true,
+  "all_eight_parent_midpoint_queries_retained": true,
+  "farther_midpoint487_not_added": true,
+  "C_support_nodes": [
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482
+  ],
+  "C_support_dimension": 4059,
+  "complete_B_outside_C_nodes": [
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    483,
+    484,
+    485,
+    486
+  ],
+  "empty_zero_layout_identity_preserved": true,
+  "source_pins_match": true,
+  "actual79_parent_pair_file_SHA_matched": true,
+  "parent_status_gzip_exact_decoded_bytes": true,
+  "current_row_order_seventeen_left_eight_mid": true,
+  "source_files": [
+    {
+      "file": "geometry_20261114_twenty_five_query_domain_operator.py",
+      "bytes": 32768,
+      "sha256": "55fe72b1bad9cf3ee26b1d29a1a6cefb7f0f62f2570d7703bb8f3dfcd01b2260"
+    },
+    {
+      "file": "geometry_20261114_twenty_five_query_condensed_warm.py",
+      "bytes": 43409,
+      "sha256": "5dbd5948f815a1fcf4eaf2a08f7d130407ce52c96b25240738d26c6476b48b0c"
+    },
+    {
+      "file": "geometry_20261114_twenty_five_query_condensed_response.py",
+      "bytes": 2622,
+      "sha256": "8d55ce7f29520318db39de5dcdb0790cdce43452dc29085ec26cbfe042dfa75d"
+    },
+    {
+      "file": "geometry_20261114_twenty_five_query_collocation_observer_warm.py",
+      "bytes": 16732,
+      "sha256": "be6815071387c34fb25b4f064508af2ab65691bba4ff512d1fa999236a1f4d55"
+    }
+  ]
+}
