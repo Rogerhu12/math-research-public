@@ -1,0 +1,397 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43679903558",
+  "stepId": "physical17-quadratic-multiplier",
+  "executionSourceCommit": "34b099ad4687850c57bcae58623ac255beae0434",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-physical17-quadratic-multiplier-block-789f.py",
+  "scriptSHA256": "85452c7d1f750fa1e139d9bc86212dfed5a0278221164eaf58708b0498021bb4",
+  "argvTemplate": [
+    "--point-model",
+    "{selected_model}",
+    "--out",
+    "{work}/physical17-quadratic-multiplier",
+    "--seconds",
+    "30",
+    "--memory-mib",
+    "512"
+  ],
+  "timeoutSeconds": 50,
+  "exitCode": 0,
+  "wallSeconds": 0.5150483529996563,
+  "fullTemporaryReceiptBytes": 1590,
+  "fullTemporaryReceiptSHA256": "d39276fb49e812f7c6c7ebfba1f863834e1f34f6e408a8af43c643f312edcfd9",
+  "result": {
+    "format": "isp-physical-seventeen-quadratic-multipliers-degree2-v1",
+    "status": "completed",
+    "largeDataUploadedOrCommitted": false,
+    "oldNormalFormsRecomputed": false,
+    "newDixonDigitsComputed": 0,
+    "rankModulo31": 986,
+    "nullityModulo31": 136,
+    "constantKoszulSubspaceDimensionOverQ": 136,
+    "rankOverQLowerBound": 986,
+    "rankOverQUpperBound": 986,
+    "rankOverQExactly986Proved": true,
+    "all1001By136ConstantKoszulProductsZeroModulo31": true,
+    "quadraticSkewTopCancellationAddsNoSourceBeyondDegreeOneFamilyProved": true,
+    "higherSkewCoefficientDegreesExcluded": false,
+    "entireKoszulModuleExcluded": false,
+    "mathematicalElapsedSeconds": 0.4200099549998413,
+    "parameters": {
+      "codeSHA256": "85452c7d1f750fa1e139d9bc86212dfed5a0278221164eaf58708b0498021bb4",
+      "inputPointSHA256": "97d31570a0bd99d33066fc6ea47984203b2964521ceeb50920f0a49dd3bb8074",
+      "columnOrder": "equation0..16 then lex homogeneous quadratic monomial",
+      "rowOrder": "lex homogeneous degree4 monomial",
+      "physical17QuadraticMinorDeterminantModulo31": 4,
+      "char0UpperBoundUsesExactSymbolicKoszulIdentitiesAndIndependentQ": true,
+      "finiteParameter986ResultNotUsed": true,
+      "temporaryFiles": [
+        {
+          "file": "physical17-degree2-multiplier-matrix-mod31.bin",
+          "bytes": 1123142,
+          "sha256": "d4fb7c84b50b7fc2056e446cad5843ee997048c5d50375aedd63efa106b28831",
+          "temporaryOnly": true
+        },
+        {
+          "file": "physical17-degree2-multiplier-rref-mod31.bin",
+          "bytes": 1123146,
+          "sha256": "136cbb81097dddbc9969ce7a6bd92d2d87bcfc7fd59a7f2a71da02c561f32a13",
+          "temporaryOnly": true
+        },
+        {
+          "file": "physical17-constant-koszul136-mod31.bin",
+          "bytes": 152612,
+          "sha256": "6eb228c949f9ebc50b377651f6c9eaed73344acd3e4674c8d8ab21fcee818aad",
+          "temporaryOnly": true
+        }
+      ]
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 05:10:24 UTC",
+      "beforeReadCommit": "1063ed7dbb24b7a0422d72714b5b335511f6b226",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:38 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:40 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:45 UTC",
+      "beforeReadCommit": "7aa9b249ab30bd6e051ed31dc0cd2800c2858156",
+      "originMainAfterPull": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:47 UTC",
+      "beforeReadCommit": "ee6cf952ae73b3ea5521480faa41605602ed3ef5",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:10:48 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:17:55 UTC",
+      "beforeReadCommit": "e953806fcc8dde28a29d6ed2211d07e186797b8a",
+      "originMainAfterPull": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:19:44 UTC",
+      "beforeReadCommit": "d2df6a718eaf3fdb08c5875a1296b9d5bc797fe9",
+      "originMainAfterPull": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:35 UTC",
+      "beforeReadCommit": "1f1dc3d0e9b17d3f124b642395506ebc7e068652",
+      "originMainAfterPull": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:32:49 UTC",
+      "beforeReadCommit": "7dcf76d0cc3545dfd741553e32ddd1ab2d076d21",
+      "originMainAfterPull": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:37 UTC",
+      "beforeReadCommit": "8238d63b1919fd6968b71d83c90af1c450a49eb4",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:39:52 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:53:36 UTC",
+      "beforeReadCommit": "b4ffca2894234d335b434c8fb5421e3c5721eff3",
+      "originMainAfterPull": "01257b6763f020c18074d829fff94dee9d663658",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 05:55:02 UTC",
+      "beforeReadCommit": "01257b6763f020c18074d829fff94dee9d663658",
+      "originMainAfterPull": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:00:08 UTC",
+      "beforeReadCommit": "07363e56a1bb59c41c3ccc4341e640fd4d75146d",
+      "originMainAfterPull": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:01:55 UTC",
+      "beforeReadCommit": "b0a612da885619690067cac0e90da621dba9dbf0",
+      "originMainAfterPull": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:05 UTC",
+      "beforeReadCommit": "d4a694406c8fdbc8770a45df1e2ba62a4bf9f648",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:13:07 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:03 UTC",
+      "beforeReadCommit": "72a9ac524b51a3f99c8217e29d28d3e494d96e2b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:32:04 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:37:30 UTC",
+      "beforeReadCommit": "5151739a08307a8d3305a5e6060362f386d5b15b",
+      "originMainAfterPull": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:38:04 UTC",
+      "beforeReadCommit": "f7147419a96024d50121cec3d577c0f2cf5fd5d9",
+      "originMainAfterPull": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:46:12 UTC",
+      "beforeReadCommit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "originMainAfterPull": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:46:13 UTC",
+      "beforeReadCommit": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "originMainAfterPull": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:25 UTC",
+      "beforeReadCommit": "436dc391fad3e4de57544bd28fbea328bb77aed2",
+      "originMainAfterPull": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:29 UTC",
+      "beforeReadCommit": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "originMainAfterPull": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:31 UTC",
+      "beforeReadCommit": "293f7c7c584f1b122bb08f8543978906ac5cc1fd",
+      "originMainAfterPull": "778af4df0b40a54a4db5e12a8d79e3d47e1214ed",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 06:59:46 UTC",
+      "beforeReadCommit": "778af4df0b40a54a4db5e12a8d79e3d47e1214ed",
+      "originMainAfterPull": "7308ea262f596e4caf1cf49ab7c16cdca6a7f504",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 07:14:23 UTC",
+      "beforeReadCommit": "7308ea262f596e4caf1cf49ab7c16cdca6a7f504",
+      "originMainAfterPull": "c17f31ff976bb4283f2b06658733b615725bc20c",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 07:24:16 UTC",
+      "beforeReadCommit": "c17f31ff976bb4283f2b06658733b615725bc20c",
+      "originMainAfterPull": "47d8445ab5d9924cf1b3a2a905361949828fcc31",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 07:24:38 UTC",
+      "beforeReadCommit": "47d8445ab5d9924cf1b3a2a905361949828fcc31",
+      "originMainAfterPull": "34b099ad4687850c57bcae58623ac255beae0434",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 07:24:39 UTC",
+      "beforeReadCommit": "34b099ad4687850c57bcae58623ac255beae0434",
+      "originMainAfterPull": "34b099ad4687850c57bcae58623ac255beae0434",
+      "rulesGitBlobs": {
+        "README.md": "74c08a36f6c997d0bc1e64a7956b42276f5fa5d7",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "lastRulesReadCommit": "34b099ad4687850c57bcae58623ac255beae0434"
+}
