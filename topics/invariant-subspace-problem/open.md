@@ -167,3 +167,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M仍开。须保同w、原u_Q、future
 **完整模型行的加强。** [新原占据恒等及Schur下界](results/R271-appendix-full-model-row-occupation-cancellation-and-nineteen-tenths-negative-bound.md)保全部强位坐标并核〈W_hdω,ω〉≤S_J||ω||²，以Λ源比较付同一Riesz投影，得C*≥q^(19/5)/(4(x+1)³)。三阶实际负下界为q^(19/10)/(4(x+1)^(3/2))−3/2，二次尺度增长x^(23/10)；仍只排全短核统一估计，同w来源及近线性窄窗全height问题继续。
 
 **原局部投影长度差接口。** [完整准则与2点30上界](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)严格保原6188来源及W=(I²)≤5：len W/(L∩W)=δA−δP，差≤e即可局部t^eW⊂L。小P的170原行+54g倍行在所有有限点都双向生成；g零点只除η的真实单位。先整除已付E8²再模31消碰撞，δA,2≤30；足够δP为−6:12、2:29、F±:6、E8:4，实际值待回执。零点已闭，不重复。
+
+**同D外支撑筛选。** [原Koszul扭子模注入](results/R150-appendix-koszul-outside-torsion-embedding-and-selected-minor-test.md)保完整Φ1632列及outside1834坐标：tors cokerO注入同所选B余核，故Fp31的29正指数最大≤21、总长≤243；Q总长≤Fp总长而非逐指数比较。真Q σ若与full∞下界L满足L+σ≥243，才闭同D leading31单位。cofactor及原换列分别保δsub/δfull+σ−amax。O新数值待真小Schur，不把fixed29原外一阶raw rank29当已付参数系数校正。
