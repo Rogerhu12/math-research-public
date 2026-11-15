@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-characteristic-zero-projection-and-cubic-extension-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
+- 全部精确来源、旧参数及未列开放问题保[本次压缩前H](notes/2026-11-15-handoff-before-source-kernel-long-session-789f.md)和其中open/H归档链；未列不算关闭，open.md继续作目录。
 
 ## R150 已证与真正缺口
 
@@ -22,11 +22,12 @@
 ## 会话、已闭局部与当前恢复
 
 - full43731615668/local43731613530均16:30成功结束，tmp已失；full66/O149/G2与所有SHA见正式稿。需重建时用notes/2026-11-15-r150-full-infinity-dual27-minimal-input-locations-789f.json的6历史输入及同选小receipt，禁止取回旧tmp。
-- [F±局部](results/R150-appendix-both-cubic-fields-low-smith33-and-original-nine-target-local-membership.md)已闭：低谱3,3/长6，6≤δP≤δA≤8，F±²W。[双Dlin/E8](results/R150-appendix-original-low-projection-double-linear-divisor-and-E8-local-target-membership.md)δlow≥2vDlin；E8低谱2,2/长4、4≤δP≤δA≤5，E8W。对应九h0局部均付；已闭low不增阶，未知完整Γ有限支持仍开。
+- F±及E8局部九h0来源均已闭：F±低谱3,3且F±²W；E8低谱2,2且E8W。原证明、全部共轭点和界保open最新入口，未知完整有限支持仍开。
 - [原正常pencil](results/R150-appendix-original-normal-pencil-nonnilpotence-and-finite-elimination-boundary.md)已排普适有限几何逆，未否九目标；实际原三点及产品保原稿。
-- **活跃local run43736746064**（16:40起45分钟循环/55分钟job）：request notes/2026-11-15-r150-local-projection-small-session-request-789f.json。s2全B秩583/[B,C]590/首项15/185640原产品、九读数零见[首稿](results/R150-appendix-two-directed-fifteen-first-left-heads-and-zero-original-square-readings.md)。[纯cube切片已排完](results/R150-appendix-two-pure-cubic-high-kernel-uniqueness-and-unchanged-first-heads.md)：实12.338020447秒，增广591/核17/首项仍15、同头读数零；父two-directed-cubic-left1-checkpoint完整23rhs。切向cube也实12.236647931秒未增头（增广592/核17）；两高方向所有相容系数均零。现排完整H3 2295×990在11的rank下界＋两真Q核上界988；未预填全H3维2，原λ2/h0成员仍未证。
-- [原Q十三原始核/投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)已成：同run实2.917069073秒，λ_I,Q=2/12单位，全部核Z_(31)[[u]]整且原自由块I；80444完整原乘回及4367运输真，u²首系数mod31=13。原Q full/O/high及leading单位仍开。后续[216列/双mapper合同](notes/2026-11-15-r150-higher-kernel-216-column-and-two-mapper-interface-789f.md)保真实4340回填；两个历史字典实际0.365590690秒全SHA通过，primitive本job已有；216源实3.845816541秒成，Φ_H(0)rank1632/det mod31=15、510082常项整数产品真，Z31原直和已付；202高mapper未算。
-- [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)：12Q_y=2<N,Y>−p·Γ、6∂sQ_y=<N,T>−(Kv′)·Γ均原17式常数M来源。真弱列导数系数a−1、s2一次；其余二次项及共动三次反馈仍开，不能称九t n_j²已在像。
+- local43736746064（16:40起45分钟）全部新步骤已成：s2 B583/[B,C]590、首项15、185640原产品及九零读数；纯/切向cube分别rank591/592仍15。完整H3实1.604522462秒以11上rank988＋两真Q核夹逼，故全三次高核恰2维且不增头；normal4/5及完整β1仍开。该job tmp不得跨session假用，所有SHA保实际小回执。
+- 新独立source-kernel长session已排：request notes/2026-11-15-r150-source-kernel-long-session-request-789f.json，170分钟loop/180分钟job，每30分钟实际pull核两README并记H。只读7件历史输入到inputs/repo，先同源码重建216后续full32/O35双mapper；完整第一连接拟用原好11单位夹逼，无需旧22RHS缓存。
+- [真Q13投影](results/R150-appendix-original-characteristic-zero-primitive-thirteen-kernels-and-projection-length2.md)实2.917069073秒付λ=2/12单位，全核Z_(31)[[u]]整/原freeI及80444原乘回真。[216来源直和](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实3.845816541秒，Φ_H(0)rank1632/det15，510082常项整数产品真；SE27×216泛rank14/核202但mapper未算。Q full/O/high及leading单位仍开。
+- [原能量/真导数](results/R150-appendix-original-quadratic-energy-parameter-derivative-and-weak-normal-order-drop.md)给原17式常数来源，弱列导数阶降一；其余二次和共动反馈仍保留。
 
 ## 原同w边界：正交旗后继续真正返回
 
@@ -38,5 +39,5 @@ M=kerT、N=closure BM、W=M⊖N，普通N=M未证。保同w/真u_Q/future/负前
 - [保D交换resolvent](results/R271-appendix-commuting-weighted-exchange-resolvent-and-same-source-paired-regularization.md)及[统一全阶热平滑](results/R271-appendix-weighted-exchange-sectorial-form-all-order-heat-smoothing-and-same-top-pairing.md)已付：R范数2、T范数e^.5，R/R*及T/T*强趋I，保D/C/cut/原核旗、同u配对及两端partial；T全阶导数与整旗行160/x。真正MP返回不由这些正预算自动得到。
 - [原交换两带与heat跨旗](results/R271-appendix-weighted-exchange-second-commutator-two-jet-bands-and-heat-flag-decay.md)已核ad_D³ℒ*=0及显式C2；真正交旗仅r≤s≤r+2，非对角两带用原交换形式控制。θ=17/16的加权heat范数<10，跨旗≤10(16/17)^(s−r)；||[D,T*]||≤e^.5/x。只是T自己的衰减/真实误差，未付顺次MP混合返回。
 - [单调漂移/真联合MP源](results/R271-appendix-monotone-exchange-drift-operator-bound-and-smoothed-second-descent-source.md)：occupation完整望远镜给|| (ℒ−ℒ*)v||≤8x^−1/2√e(v)+4||v||/x，Domℒ=Domℒ*且||ℒ*T||<90/x。primitive f同y=ℒ*Tf∈kerD³给D†C1Tf=F2y+F3y、(D²)†C2Tf=F3y，两列≤90||f||/x。仅该原特定源，不能换D3或顺次D†D†；实际返回仍开。
-- [该平滑源的顺次返回](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)已付：y=ℒ*Tf、f primitive时，Q²C2Tf=(I−Π1)y−D†Π1C1Tf。原R254真primitive逆给所有partial范数≤[180/x+2048e^.5√(p+2)(x+p+2)^1.5/x²]||f||；p≤Q=L0h²且h/x有界即O(Q)，无h费。仍缺actual u或Tu以受控系数落这些列像，不能换原锚。
+- [特定平滑源顺次返回](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)通过真R254 primitive逆达p≤Q=L0h²时O(Q)，无h倍数；保额外F2/全部partial。仍缺actual u或Tu受控落这些列像，不能换锚。
 - 原G_reg同一Neumann forcing/carry、正常有限秩相容链、Haar普通循环性及其余所有未闭接口保归档。继续实际来源联合预算，不把新正预算误报为ISP完成。

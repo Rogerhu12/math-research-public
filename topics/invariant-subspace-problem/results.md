@@ -319,3 +319,7 @@
 ## 2026-11-15：真实切向三次校正仍保持十五首项
 
 [切向耦合原来源与实际增量](results/R150-appendix-two-tangent-coupled-cubic-correction-and-unchanged-fifteen-heads.md)从原第二常核生成独立三次方向，17/5100原身份及全185640一阶乘回真；新增一RHS实际12.236647931秒，首项仍15、九平方零读数。没有冒称完整高核已分类。
+
+## 2026-11-15：原1632条来源曲线与216列真实缩减
+
+[原来源直和证明](results/R150-appendix-original-koszul-source-direct-sum-and-216-column-reduction.md)实际3.845816541秒取得1632单位子式mod31=15，完整整数曲线和510082常项产品通过，故来源缩减在Z_(31)[[u]]、Q[[u]]及F31[[u]]同时合法。剩余SE27×216泛秩14、DVR核自由秩202；未计算其映射或特征零高谱。
