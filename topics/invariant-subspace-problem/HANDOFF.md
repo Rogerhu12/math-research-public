@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 6c3d4efa10cf2e472d6269628072843055a8fc8a（2026-11-15 21:29:29 UTC，Actions run43763951703实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43763951703-1.json。
+- **最近成功实际 pull 与已读规则提交：** 784264f45f0022900743cc3083177a2b9c8cd203（2026-11-15 21:32:19 UTC，Actions run43764220201实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43764220201-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -38,4 +38,5 @@
 - [位置形式与Hardy](results/R271-appendix-actual-position-weighted-exchange-full-flags-and-exclusion-hardy.md)给Epos(u)≤4rxQΔ²、primitive≤16rxQΔ²、全旗无h；Gpos≥Ntail/4自然闭域成立，primitive真零模不套下界。[真实q运输](results/R271-appendix-actual-return-germ-adjoint-test-and-position-weighted-full-flag-transport.md)保e^q=PE q_h(−Tamb)*PEY、d0=e−20/A0<3d0/2、原≤Q物理栈；全暗矩/位置/旗及去常数A1均付。
 - [位置二阶/全旗](results/R271-appendix-actual-position-generator-second-moment-and-complete-return-test-transport.md)在自然DomGpos付真实PE反馈与B伴随对易：||Gposu||≤40QΔ；返回/q/帽/帽q常数240/530A0/530C0/1040C0A0，乘Q√νΔ。Lpos*真上2带给全部Fj二阶O(νQ²Δ²)/无h，原u用f−u保Δ。
 - **[同低forcing正Gram及整moving行](results/R271-appendix-actual-low-end-forcing-positive-deletion-grams-and-compressed-adjoint-descendants.md)：** Z=PV/K/e i0的任意尾对删除交叉为正，真实分块DαZ=MαDZ且Mα≥0/ΣMα≤I。Fi≤4(i+1)/3给Σ(i+1)^−1 Ei P_RanZ Ei*≤4I/3；双缺陷源Gram GΔ保全部交叉，Σ|<Ei u_f,w>|²/(i+1)≤(8/3)Δ_f²||w||²，无Q/头维损失。仅全K有压后C*↔−D*桥；不升成Σ||Ei u||²、不假返回帽列等于ZR，顺次MP负部仍开。
+- **[实际连续尾势与完整源逆读数](results/R271-appendix-actual-forcing-continuous-tail-occupation-potential-and-source-schur-readout.md)：** Z*D*DZ=Z*𝒱Z，𝒱(I)=Σ占bi²+2Σ占i/空j bi²bj²/(bi²+bj²)，保碰撞；夹在(1/3)Σ(i+|I|+1)^−3与(8/3)Σ(i+1)^−3。Π_{p≤N≤r,max≤L}Z的完整Gram逆读数≤3(L+r+1)³/p；双缺陷用联合(De,Dk)加常数2，不替Du。不同head来源合成行保ΣRi*GΔRi，帽返回像识别/顺次MP仍开。
 - 此正预算不付返回列、Feshbach逆或顺次MP相对位置负部。共同热/预解保D/C/cut/核旗/自然域；仅primitive f的L*Tf∈kerD³由[相容顺次逆](results/R271-appendix-smoothed-second-deletion-source-sequential-return-and-quadratic-window-budget.md)付二次窗O(Q)、额外F2/全部partial；actual u/Tu表示仍开，L_U*u=−B*k不倒置。G_reg同forcing/carry、Haar普通循环性、正常有限秩链及open全部旧接口继续。
