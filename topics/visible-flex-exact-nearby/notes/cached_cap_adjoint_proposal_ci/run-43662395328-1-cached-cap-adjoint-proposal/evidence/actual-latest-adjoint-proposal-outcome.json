@@ -1,0 +1,50 @@
+{
+  "kind": "actual_cached_scalar_complete97_physical_adjoint_Hermite_proposal_v1",
+  "complete": false,
+  "failure": {
+    "type": "ValueError",
+    "message": "a new collocation interval crosses an actual original candidate cubic join"
+  },
+  "gates": [
+    {
+      "name": "actual_complete7908_quarters_and64_original_native_points_are_successful",
+      "passed": true
+    },
+    {
+      "name": "all7908_original_whole_jets_and_all7908_native_midpoints_reused_without_target_calls",
+      "passed": true
+    }
+  ],
+  "stage": null,
+  "seconds": 13.89575297399999,
+  "radial_nodes": null,
+  "collocation_intervals": null,
+  "case": null,
+  "original_scalar_domain_count": 7908,
+  "original_native_midpoints_count": 7908,
+  "counted_new_blocks_in_this_child": 0,
+  "atomic_batches_completed": 0,
+  "actual_checkpoint_progress": null,
+  "actual_finite_backward_check": null,
+  "end_model_condition_2": null,
+  "new_target_evaluations": null,
+  "all_original7908_scalar_domains_recomputed": null,
+  "all_original64_native_points_recomputed": null,
+  "original_forward_cap_columns_recomputed_or_transposed_as_certificate": null,
+  "complete_continuous_adjoint_bound_proved": null,
+  "complete_full_cap_high_to_low_bound_proved": false,
+  "mathematical_certificate": false,
+  "maximum_floating_inverse_angle_residual": null,
+  "minimum_floating_inverse_angle_jacobian": null,
+  "native_sha256": "f6cdd51f5776ea66435212188cd5db2518f225c24c240823ee7f726e389757d0",
+  "latest_actual_readme_check": [
+    {
+      "time": "2026-11-15T01:18:32.984282+00:00",
+      "before": "fec228bbdaced25ffba4ec15bed533bf326c74c0",
+      "after": "45e6a252879f4d6934f4f75258d618c8faf17f8d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ]
+}

@@ -8,7 +8,30 @@
   "workflow_commit": "fec228bbdaced25ffba4ec15bed533bf326c74c0",
   "worker_source_sha256": "f83b29bcf559820a685f3cc66686126a08ac7ed0b1e2e0fc4a45f7cf6d70d19b",
   "started_utc": "2026-11-15T01:18:19.823890+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "new_complete257_state97_input_physical_adjoint_QR_from_original7908_cached_scalar_jets",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap-adjoint-proposal-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_cap_adjoint_proposal.py",
+        "--input-index",
+        "/__w/_temp/visible-exact-cap-adjoint-proposal-work/actual-original-adjoint-inputs.json",
+        "--state-dir",
+        "/__w/_temp/visible-exact-cap-adjoint-proposal-output/proposal-state",
+        "--out",
+        "/__w/_temp/visible-exact-cap-adjoint-proposal-output/native/complete97-cached-physical-adjoint-proposal.json.gz",
+        "--span",
+        "8",
+        "--batch-blocks",
+        "256"
+      ],
+      "started_utc": "2026-11-15T01:18:34.556969+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 15.000784156000009,
+      "finished_utc": "2026-11-15T01:18:49.558179+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T01:18:20.432044+00:00",
@@ -27,7 +50,13 @@
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-15T01:18:34.554851+00:00",
+      "final": false,
+      "commit": "11b4c9a073579cef94cbe2f2cebf64fa09155676"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -100,9 +129,15 @@
     "range-1792-1977": "0a4ef5ee7924839bcc53ccf04fe85d8011c865b25a10eba59a66553331a14563",
     "range-1792-1977-process": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
   },
-  "snapshot_utc": "2026-11-15T01:18:33.005731+00:00",
-  "wall_seconds": 13.18248962900001,
+  "snapshot_utc": "2026-11-15T01:18:49.563140+00:00",
+  "wall_seconds": 29.739889947,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-adjoint-proposal-outcome.json",
+      "file": "evidence/actual-latest-adjoint-proposal-outcome.json",
+      "bytes": 1813,
+      "sha256": "2e66f239ee53b49f2ecdd0a68cc46bb9004e702b8f15ad2be4468c1e6311da8f"
+    },
     {
       "logical_file": "evidence/original-artifact-downloads/14125124920.json",
       "file": "evidence/original-artifact-downloads/14125124920.json",
@@ -234,6 +269,19 @@
       "file": "evidence/original-processes/visible-exact-quarter-inlet-recovery-range-1792-1977-43626024582-1.json",
       "bytes": 9086,
       "sha256": "24eb816235b4e367124e5ac506ad1a8d13e5874df8cbd3a6a7399c53ade87782"
+    },
+    {
+      "logical_file": "native/complete97-cached-physical-adjoint-proposal.json.gz",
+      "file": "native/complete97-cached-physical-adjoint-proposal.json.gz",
+      "bytes": 1926,
+      "sha256": "f6cdd51f5776ea66435212188cd5db2518f225c24c240823ee7f726e389757d0"
     }
-  ]
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "new_complete257_state97_input_physical_adjoint_QR_from_original7908_cached_scalar_jets returned 1"
+  },
+  "finished_utc": "2026-11-15T01:18:49.559496+00:00",
+  "latest_scientific_native_sha256": "f6cdd51f5776ea66435212188cd5db2518f225c24c240823ee7f726e389757d0",
+  "actual_checkpoint_progress": null
 }
