@@ -20,7 +20,7 @@
 
 [R824原证明](results/R824-original-pole-module-generators-in-weights-five-to-seven.md)及[实际分裂](results/R824-certified-original-pole-module-splitting-from-Schur-minor.md)：旧R787真实ell1000000753/branch0的1186minor det296007862，前级20/1234minor及整性链全核，迫r28/h1=0；原完整极模为28权5＋244权6，无权7。旧R130..142已成，不新算143..155。全部候选以原129/142条件、280Q坐标准确认证A=yB，再以V7真实1778纤维minor认证完整；总权1604−398=degE1206。[分层契约](notes/R824-original-global-polar-generator-consumer-method.md)已推。
 
-R824完整core97048B/1ece3cf4、wrapper66226B/c5907739、workflow42bae915及pending请求5e9b2fcd已由ordinary交小文本blob，root正全文核；尚未激活/AST。首真实scope为common_operators＋modular_generator_profile，给原同prime的28五次与300六次有限方向/56+244；后续同core继续准确27+244，旧1186方向仍由原R787负责。两公共U_N/Q_N完整原式、1521打包与原κ/246尺度不改。详尽源SHA/Range闭包见脚本、契约及R827前H。
+R824完整core97048B/1ece3cf4、wrapper66226B/c5907739、workflow42bae915及首请求5e9b2fcd已全文主审并激活；AST/实际源IO及数学由本公开Actions执行，run待返回。首scope为common_operators＋modular_generator_profile，给原同prime的28五次与300六次有限方向/56+244；后续同core继续准确27+244，旧1186方向仍由原R787负责。两公共U_N/Q_N完整原式、1521打包与原κ/246尺度不改。详尽源SHA/Range闭包见脚本、契约及R827前H。
 
 [R825](results/R825-original-logarithmic-ratio-and-multiplicity-preimages.md)：原E=20cusps+P0+3D，m≡0/1；Iℓ=I+δI保cusp、降其余。r=y/δy与Jk=R∩(I_(3k+1)+rJ_(k+1))精确给I_D。真实P/Q权10/11；272×816完整核544必须全部投影取像，不套投影单射。[契约](notes/R825-original-multiplicity-preimage-consumer-method.md)。小输入adapter core89579f79/wrapperd6374901已全文核，仍待R809 A/B与R815；[五件已保存pending](notes/R825-original-normal-derivative-source-adapter-method.md)，不冒称导数/乘法矩阵已经完成。
 

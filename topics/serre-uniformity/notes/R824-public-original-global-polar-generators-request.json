@@ -1,0 +1,170 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R824-original-global-polar-generators",
+    "p": 41,
+    "budget_minutes": 300,
+    "producer_inputs_pending": false,
+    "requested_scopes": [
+      "common_operators",
+      "modular_generator_profile"
+    ],
+    "weight5_free_columns": "all_new",
+    "weight6_free_columns": "all_selected",
+    "reconstruct_every_digits": 8,
+    "core": "R824_original_global_polar_generators.py",
+    "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+    "wrapper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "field_core": "R781_original_Laurent_prefix.py",
+    "field_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "proof": "results/R824-original-pole-module-generators-in-weights-five-to-seven.md",
+    "R824_proof_sha256": "3a32e69f5ff3fb74ad7b262357e6b9d00da5e1f4348f65b1cdc0705d6fef7be1",
+    "method": "notes/R824-original-global-polar-generator-consumer-method.md",
+    "R824_method_sha256": "1bbba5fc3dcee565af90ed9b773a5a13e0ab3e4026e15608e4492d281c56fa76",
+    "workflow": ".github/workflows/serre-p41-original-global-polar-generators.yml",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "retained_sources": {
+      "R781": {
+        "result": "R781-original-p41-inverse-free-Laurent-prefix",
+        "run_id": "43679703344",
+        "source_commit": "f0292795817a534937d35904e2e11275631e878d",
+        "artifact_id": 14148041703,
+        "artifact_name": "serre-global-R781-original-p41-inverse-free-Laurent-prefix-43679703344-1",
+        "archive_sha256": "b5dc71fa2f675c75ca0b6999192ec1de6ffed7486b9506bfb529c37823f286dd",
+        "manifest_sha256": "ce0554fab03fda8d124e9e0ee338335bca6f7b39ee8499550bbec36358a1a7fd",
+        "core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+        "certificate_name": "p41-original-inverse-free-Laurent-prefix-certificate.json",
+        "files": {
+          "p41-original-inverse-free-Laurent-prefix-certificate.json": "b9e1a2282d6fc0de12df401abbc3014ded525757c7102d11967f0bd33a40f3f0"
+        },
+        "archive_bytes": 91999949
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "artifact_id": 14148389754,
+        "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+        "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power5-short-basis-certificate.json": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+        },
+        "archive_bytes": 111049026,
+        "metadata_repository_paths": {
+          "core-receipt.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json",
+          "public-actions-input.json": "computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json"
+        }
+      },
+      "R795": {
+        "result": "R795-exact-original-power6-short-basis",
+        "run_id": "43692029484",
+        "source_commit": "ac6d8fff1e1905539339bf1bec39365fd62312ba",
+        "artifact_id": 14152762920,
+        "artifact_name": "serre-global-R795-exact-original-power6-short-basis-43692029484-1",
+        "archive_sha256": "557bb851ffe175643aa2b759fab3f378afdd51ef5d665fd4508a2a1f22ab8248",
+        "manifest_sha256": "fb4a8f656c66d5ae10dee052baab79c07b43c7e7f19bb66b6e7d71be13b83ada",
+        "core_sha256": "2a338672b32a9d760a78b234a0df08f05c10eb4ba513a2a3e3759f1e6e6b7aac",
+        "certificate_name": "p41-exact-original-power6-short-basis-certificate.json",
+        "files": {
+          "p41-exact-original-power6-short-basis-certificate.json": "c5cffbd3979b5cd04e1e66c8c132de64974d81caf3b542e97a7a5ce479e3b0ae",
+          "R795-exact-power6-basis-index.json.gz": "9c2d5a8731b491b464cc7580d1b504a4c7efac957a46b56a1fa7137049f06358",
+          "R795-exact-stages-manifest.json.gz": "37b3894e51f834bbe26113c2d4346de6a3f804114970a371e35783a105f3d064"
+        },
+        "archive_bytes": 126375219
+      },
+      "R799": {
+        "result": "R799-original-power7-power8-short-bases",
+        "run_id": "43695571499",
+        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+        "artifact_id": 14153724209,
+        "artifact_name": "serre-global-R799-original-power7-power8-short-bases-43695571499-1",
+        "archive_sha256": "b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477",
+        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933",
+        "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+        "certificate_name": "p41-original-power7-power8-short-bases-certificate.json",
+        "files": {
+          "p41-original-power7-power8-short-bases-certificate.json": "5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b",
+          "R799-exact-stages-manifest.json.gz": "b9cec9358d9adcf31f318dbe82853153e7f4ff318eed19853b8fb0187c4a280b",
+          "R799-original-power6-tail-index.json.gz": "1fcb5cb98c4a18bc02bbb2441a606eed1c7bba1fd7610e6ca6857e4fbfc22c6f",
+          "R799-original-power7-basis-index.json.gz": "b7889ae6e3ccf8607ce40215d68ca65f0075ac2f8638284690d8a4108e244847",
+          "R799-original-power8-basis-index.json.gz": "bc202037fb41aaa3138432c387ed8a69ae3f324cc6fc87c0fc5f50894155d2fd"
+        },
+        "archive_bytes": 453521743
+      },
+      "R787": {
+        "result": "R787-original-power5-function-relation",
+        "run_id": "43683912711",
+        "source_commit": "eab5e58bbf951c48ccf13a109bbdf0b0289a6f23",
+        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+        "artifact_id": 14159006977,
+        "artifact_name": "serre-global-R787-original-power5-function-relation-43683912711-1",
+        "archive_bytes": 5148711108,
+        "archive_sha256": "32652fdbb99ef41340bffb4ba1c9d1a56479de346c999f723023db2e1427645f",
+        "manifest_sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c",
+        "manifest_bytes": 440819,
+        "manifest_file_count": 1517,
+        "expected_conclusion": "failure",
+        "certificate_name": null,
+        "files": {
+          "R787-prime-1000000753-chart.json.gz": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96",
+          "R787-prime-1000000753-selection.json.gz": "a420d94a9a2f56fa449946bac6379f437e7e53120a651d7df95b5f9ef9b07adb",
+          "R787-prime-1000000753-branch-00.json.gz": "c5b75f48b5c5d1cf2d98390e814a245306fa63f10ae43dae194dbfd560d895d7",
+          "R787-prime-1000000753-rational-blocks.json.gz": "fb8a82957474e657fc476aa2baa0d8ce9f4c8b6cc86c2b55a79e75913d610b3b"
+        }
+      },
+      "R801": {
+        "result": "R801-original-power6-to8-long-tails",
+        "run_id": "43701282817",
+        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
+        "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f",
+        "certificate_name": "p41-original-power6-to8-long-tails-certificate.json",
+        "files": {
+          "p41-original-power6-to8-long-tails-certificate.json": "1fbcd66fb639ac94942d6f82df5ca0c291fdf3cb7af3a13c7971a6b42992c64b"
+        },
+        "artifact_id": 14156204348,
+        "artifact_name": "serre-global-R801-original-power6-to8-long-tails-43701282817-1",
+        "archive_bytes": 1049535812,
+        "archive_sha256": "dad8f653dd672099a873618992f32425902298250b1f62a46d8436983a6ef792"
+      },
+      "R798": {
+        "result": "R798-original-mu33-row-coordinates",
+        "run_id": "43695452689",
+        "source_commit": "2052eb1843f656467b942393a86f52af445ee423",
+        "core_sha256": "334935ac54ca8cd3c0186720f0f3333ad3b42274053e5ce7f655cabfbcc27b3b",
+        "manifest_sha256": "f667651a6e0eb94c8dec5a2ca59b3e313f40fd5fbc7d7012953b6a25e9e3dcab",
+        "certificate_name": "p41-original-mu33-row-coordinate-certificate.json",
+        "files": {
+          "p41-original-mu33-row-coordinate-certificate.json": "8141d99de0d654b4c9e70fba13ebe0300e679d39763222e3bec95dfd50b5e0e8",
+          "R798-selected-short-rows.json.gz": "071e43aa7bf56fab206c93876e0e327c24ecb660893d8a8a04baa26fa84108bc"
+        },
+        "artifact_id": 14153129725,
+        "artifact_name": "serre-global-R798-original-mu33-row-coordinates-43695452689-1",
+        "archive_bytes": 122971130,
+        "archive_sha256": "d28496b396ef257a80f85d099395e21b1f5985efbb8f0c196000f886fb212570"
+      },
+      "R805": {
+        "result": "R805-original-affine-pencil-free-basis",
+        "run_id": "43705580592",
+        "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+        "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+        "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+        "certificate_name": "p41-original-affine-pencil-free-basis-certificate.json",
+        "files": {
+          "p41-original-affine-pencil-free-basis-certificate.json": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+        },
+        "artifact_id": 14158193403,
+        "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+        "archive_bytes": 55714523,
+        "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30"
+      }
+    },
+    "resume": null
+  }
+}

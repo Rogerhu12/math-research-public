@@ -1,0 +1,76 @@
+name: Serre p41 original global polar generators
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R824-public-global-polar-generators
+  cancel-in-progress: false
+
+jobs:
+  compute:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R824_original_global_polar_generators.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/scripts/R781_original_Laurent_prefix.py
+            /topics/serre-uniformity/results/R824-original-pole-module-generators-in-weights-five-to-seven.md
+            /topics/serre-uniformity/notes/R824-original-global-polar-generator-consumer-method.md
+            /topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/core-receipt.json
+            /topics/serre-uniformity/computations/R786-exact-original-power5-short-basis/43682100611-1/public-actions-input.json
+            /.github/workflows/serre-p41-original-global-polar-generators.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse frozen source files without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root = Path("topics/serre-uniformity/scripts")
+          for name in ("R824_original_global_polar_generators.py",
+                       "R824_public_original_global_polar_generators.py",
+                       "R781_original_Laurent_prefix.py"):
+              path = root/name
+              ast.parse(path.read_text(), filename=str(path))
+              print("AST_OK", name)
+          PY
+      - name: Install the frozen arithmetic dependency
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Exact original generators and complete stage continuation
+        run: |
+          python topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py \
+            --output "$RUNNER_TEMP/R824/output"
+      - name: Verify all selected sources and complete outputs without importing the core
+        run: |
+          python topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py \
+            --output "$RUNNER_TEMP/R824/output" --verify
+      - name: Preserve the one-day active continuation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R824-original-global-polar-generators-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R824/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

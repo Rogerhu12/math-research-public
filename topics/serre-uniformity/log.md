@@ -187,3 +187,7 @@
 ### 2026-11-15 23:19（Asia/Taipei）｜serre-public-astra-20261115 · 记录校正
 - R827后加§7.5独占行数学定界符统一为双美元，数学内容不变；最终proof SHA 2972e84562b4534875d3fd6ba1975ab67bd6d925a68517b75915b1f8e46272b9。
 - 对照三次实际Git提交UTC回执，修正紧邻三条日志的Asia/Taipei分钟；没有把未发生的时间记为已完成。
+
+### 2026-11-15 23:20（Asia/Taipei）｜serre-public-astra-20261115 · R824首实际scope
+- root完整核97,048B core/66,226B wrapper、原契约及请求；core1ece3cf4/wrapperc5907739，首scope仅公共算子与完整mod kernel/supplement，未启动271条char0提升。
+- 八组真实旧来源/manifest与Range最小闭包均固定，原1186只拷初解/保R787、R781仅0..142；新源AST/IO及数学只由公开Actions执行。未预填rank/新minor或完整极理想。
