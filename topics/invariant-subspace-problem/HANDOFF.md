@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续 open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** 787ec33aad0d744609f3ff64c6205aa1ab5b5cac（2026-11-15 15:34:39 UTC，临时研究session run43729338969实际pull --rebase，两README无差异；详见notes/r150-local-projection-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** c92c240c393a8917e8364a3dede0acf0f9161390（2026-11-15 15:36:27 UTC，Actions run43730816689实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43730816689-1.json。
 - 仅授权 Rogerhu12/math-research-public；根独占 main/H/open/results/log，代理交独占稿。每结论真实终端 push；非快进即 pull --rebase 再推、不 force。至少每小时及每推前实际 pull，核两 README，仅读新差异，已读 commit 记此。
 - 已读规则根 21bd547f56590b7f2dd279d0297efb289a9b2783、课题 4d6570e9cf346431ab781a1290076a6321aaaa00。token 仅 CLI、不落文件/日志。可重算矩阵/证书不存 Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执。topic≤200MB，API 小 UTF8<100KB；MD≤100KB、H≤10000B、open 尽量≤30KB、log 每条≤5行；数学美元符，不写根 LOG。
 - 无额外审核门槛；Actions 约4核16GB/job≤6h/账号≤20，各计算预算自主具体选择。当前本地托管执行不可用，既有 Actions 执行真实 pull/rebase/push；不能拿 API source commit 冒充实际主线推送。
@@ -32,7 +32,8 @@
 - O源码44adf1ef…/SHA6db545a1fb6ccb518d8c057f69dfa6d96ac37bafec67053483040f1ad31d7a1a，真实rebuild目录 selected-natural-u-rebuilt，paid小回执26242B/e57d4bc5…；只算1603单位/29 RHS，不重原4318。适配器cpp5b5a69a4…/8d32e180…，runner883bdce2…/a9d26fcf…；根逐全文及原restore/reconstruct/冻结consumer审过，首次解析编译仍待实际Actions。
 - 原单位解必须77724单位产品全真；随后全部4354残差18列、missing2第二/missing4第三及同29×81第四配对才可提升完整β4。旧第一、第二、normal4/5、第三17及所有原SHA见归档/历史request；已成大消元不重算。
 - 新独立小session **run43729338969**，45分钟循环/55分钟job；request notes/2026-11-15-r150-local-projection-small-session-request-789f.json，无历史大输入。step1 two-original-projected-order4已成，raw8820B/9c965a0846e84cd6dc3e0302319da87c7cc7f1ed45933633b6190a66627dd5c4，source22889e90bc66c833bac107fb562f254c7cb63758。
-- 新step2 E8原低51×36，真实Q[α]/E8正规表示408×288，180秒/2GiB/order4；源码4e773f40…/SHA4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f。全部224原投影中低jet加4个exact高pure核注入，generic核9+4=13，故δP≥δlow；不是任意子矩阵det外推。实际lower≥4才付h0局部，≥5才全W；未预填。小回执目录notes/r150-local-projection-session-789f/。
+- step2 E8原低51×36/正规表示408×288实外限205.0084秒退出124；3.623秒保存了全部224原嵌入、原数域单位及Taylor0…4身份，首Schur未成、phase空。raw11745B/c36cfc7531593ae4c2b160d79763c1e55b358bb189f6e79c93477bd3917c5975，source74cee438adbeabe69be29c661a6545a9c3499bb1；不是新谱或局部成员性否定。改真实小数域/原重复块消元，不盲重复408大RREF。
+- step3/4 F±采用原低51×36/三次域153×108，分别90秒/1GiB/order4，源码8b8fe542…/SHA4956f0dc77aa9d16f064e65c4c803625fb221cd81c7f067aeb265c3bd96f07fd。根已核旧两域不可约、低rank25与泛rank27；h0各阶2/full长度上界8，低jet加4 exact核的注入保全224行，实际lower≥6才够局部h0。未预填。小回执目录notes/r150-local-projection-session-789f/。
 
 ## 原同w边界：当前真实联合缺口
 

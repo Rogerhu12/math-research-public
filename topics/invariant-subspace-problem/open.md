@@ -115,7 +115,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [原局部投影差长](results/R150-appendix-original-local-projection-length-gap-and-two-point-length-bound30.md)保全部6188原来源、170+54g行，len T=δA−δP；E8²先剥模31碰撞给2点δA≤30。[新实际2点完整谱](results/R150-appendix-two-point-complete-projection-length12-and-original-transverse-gap18.md)已达P泛秩142，完整谱1⁷,2,3/长度12，只得T长≤18。继续提高这个P的阶数不再增加长度，应转原W或专门九目标，不能把充分准则未满足当目标不在像。
 
-E8原低51×36全jet加4个高pure exact核注入224×155全投影，真实数域正规表示408×288已排新独立run43729338969、180秒；lower≥4才足h0一阶，≥5才全W。其后处理F±与未知分母支持，不能用Dlin46当完整非线性源的支持界。
+E8原低51×36全jet加4个高pure exact核注入224×155全投影；新run43729338969实核原嵌入和数域Taylor后在首Schur前205秒外限结束，尚无新长度，转真正小数域/重复块算法。另排F±三次域低投影各90秒/order4，原low rank25/generic27，full上界8、h0阶2，lower≥6才足。E8仍须lower≥4才足h0一阶，≥5才全W；未知分母支持继续，不能用Dlin46当完整非线性源的支持界。
 
 同选完整前三连接3/9/3、二阶24头/第三21头；已显式第三17头/296072原产品，完整β4∈[3,5]。真4318单位18 RHS正在旧run43702348535续1800秒，最后已付1205完整digits/34946bits未有理解。已排最后实际精度独立重建及冻结final，必须先真77724单位产品，再全部4354残差/缺2第二与4第三/完整第四配对，不能预填。旧native预算尾不自动重建。
 
