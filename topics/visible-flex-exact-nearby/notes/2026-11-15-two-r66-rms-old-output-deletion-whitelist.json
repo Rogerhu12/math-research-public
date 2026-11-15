@@ -1,0 +1,143 @@
+{
+  "kind": "two_confirmed_old_reproducible_outputs_ordinary_deletion_whitelist",
+  "repository": "Rogerhu12/math-research-public",
+  "status": "reviewable candidate list; no deletion performed by newton_source",
+  "rule": "root README rule 15, reproducible output ordinary deletion; no history rewrite",
+  "immutable_restore_commit": "cbb63584806fa90e7c5532170b5ac75abb1bdf0c",
+  "restore_pattern": "git show cbb63584806fa90e7c5532170b5ac75abb1bdf0c:<entry.path> > <temporary destination>",
+  "current_presence_verified_at_commit": "cbb63584806fa90e7c5532170b5ac75abb1bdf0c",
+  "current_presence_method": "Git Trees metadata only; preserved small manifests, scripts and proof/note read in full",
+  "tree_chain": [
+    {
+      "path": "",
+      "commit": "cbb63584806fa90e7c5532170b5ac75abb1bdf0c"
+    },
+    {
+      "path": "topics",
+      "tree": "82e51d8e61ebfab111c8dfbcd882a6530d024601"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby",
+      "tree": "13b58d5fe03b0359f4523ec90ed152061837c586"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes",
+      "tree": "13ea384de7824fd0f756c2024f29ea27c9bf4ee2"
+    }
+  ],
+  "large_output_blob_bodies_read": false,
+  "large_output_sha256_method": "copied from frozen successful manifests and matched to exact current path, Git blob and byte count; not newly recomputed",
+  "scientific_computations_executed": 0,
+  "entries": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-positive-family-natural-graft.json",
+      "git_blob": "622d3f46fbdaf5afebd1d0d63de635428d246261",
+      "bytes": 870801,
+      "sha256": "d56b7229439ade268b647f17a10f84ba662e02bcb9597f983d2c604fe765fa27",
+      "classification": "reproducible completed numerical output; not the exact input object",
+      "completed_identity": {
+        "manifest": {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-R66-actual-family-graft-ready-manifest.json",
+          "git_blob": "a80ba1c4ae69b6f099ef98858b6b051512a276bb",
+          "bytes": 2627,
+          "sha256": "83c9fc76b6df8811a46971d0befb885eaf07451439a6ba31bd27132c08e859d1"
+        },
+        "kind": "R66_actual_family_natural_graft_ready_manifest",
+        "complete": true,
+        "source_and_report_frozen": true,
+        "actual_graft_cells": 64,
+        "actual_graft_cover": [
+          "3",
+          "25/8"
+        ],
+        "parameter_interval": [
+          "-121752685431711260843/72057594037927936000000",
+          "-121680627837673332907/72057594037927936000000"
+        ]
+      },
+      "preserve_producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_natural_exterior_graft.py",
+        "git_blob": "b0d3fff9f485bf0cd47dc7423e1caf5d00820f1c",
+        "bytes": 18347,
+        "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee"
+      },
+      "preserve_proof": {
+        "path": "topics/visible-flex-exact-nearby/results/R66-actual-family-positive-collar-and-natural-exterior-graft.md",
+        "git_blob": "48e4624843962439ff8743acbfaf88c854377bc4",
+        "bytes": 17626,
+        "sha256": "79000b36b610cb1600437c70673e80f6edcb567e0e7ec0e140e7124221c17e30"
+      },
+      "producer_entry": "main() calls NaturalGraft.evaluate on all 64 cells, saves rows and complete status to --out; no candidate mutation",
+      "replay_working_directory": "topics/visible-flex-exact-nearby",
+      "replay_arguments": [
+        "--center-object",
+        "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step4_object.json",
+        "--half-width",
+        "1/2000000",
+        "--length",
+        "1/8",
+        "--angle-strip",
+        "1/32",
+        "--cells",
+        "64",
+        "--bits",
+        "192",
+        "--out",
+        "TEMPORARY/graft-replay.json"
+      ],
+      "exact_input_object_sha256": "87566dee6e119bb4127200c2dae38f9cdf692a18475c1cde23961a56605919b5",
+      "replay_reference": "preserved R66 proof section 8; preserved ready manifest includes full completed identities"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-actual-parameter-layout-cost-comparison.json",
+      "git_blob": "7bbeb80635b9473833213e208e3bdba7e48dc3a4",
+      "bytes": 281206,
+      "sha256": "fcbdfdaa4c2ee156c0ebc80471124105302d8c4e6800c14881f6c6c57b1d06e8",
+      "classification": "reproducible completed analytic layout-budget comparison output; not sampled fields or an exact seed",
+      "completed_identity": {
+        "manifest": {
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-parameter-rms-hybrid-prefix-ready-manifest.json",
+          "git_blob": "31f51a6bd02a17cb137857a2fea49eb8411acd2e",
+          "bytes": 57994,
+          "sha256": "a5252a60eb082a54c89259a45c8f82fa7965de0eff1843c26337d8e10030324e"
+        },
+        "kind": "completed_actual_parameter_rms_and_hybrid_prefix_package",
+        "complete": true,
+        "listed_in_files": true,
+        "listed_in_archive_required": true
+      },
+      "preserve_producer": {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_parameter_layout_cost.py",
+        "git_blob": "da6de985da7b463ca1a1eaa4702fe2157622227b",
+        "bytes": 9054,
+        "sha256": "333ed04f64ce5cceb02b7ae037c9b8f305a5226f21311dc709d0f89abc74d051"
+      },
+      "preserve_note": {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-12-parameter-density-rms-hybrid-and-cost.md",
+        "git_blob": "7acf3e8934de04d5a34cefb6c5e5e99f2f15184d",
+        "bytes": 5472,
+        "sha256": "8d33aea76087e612b620e3702e9d3da0944302e0fa9ab2589baff202790959d2"
+      },
+      "producer_entry": "main() calls study on four completed old input reports and saves the comparison to --out; source_or_field_resampling_performed=False",
+      "replay_working_directory": "topics/visible-flex-exact-nearby",
+      "replay_arguments": [
+        "--out",
+        "TEMPORARY/actual-parameter-layout-cost-comparison.replay.json",
+        "--bits",
+        "256"
+      ],
+      "replay_reference": "preserved ready manifest replay_commands[0] and preserved note section on layout cost",
+      "original_input_reports": [
+        "data/phase_ring_continuation/step5_parameter_density_forward/forward_0000_center.json.gz",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_parameter_density419.json.gz",
+        "data/phase_ring_continuation/step5_uniform_parameter_density_forward_h1e9/forward_0000_ef134f2a18_uniform.json.gz",
+        "data/phase_ring_continuation/type_fixed_step02_d5_step5_uniform_parameter_density419_h1e9_l2_degree.json.gz"
+      ]
+    }
+  ],
+  "file_count": 2,
+  "output_bytes_to_remove": 1152007,
+  "preserve_all_scripts_manifests_proofs_notes_and_exact_input_objects": true,
+  "delete_only_listed_paths": true,
+  "mutation_policy": "parent must fresh-check each exact path/blob/size before one ordinary deletion commit; restore remains available from immutable history"
+}
