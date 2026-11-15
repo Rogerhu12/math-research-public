@@ -1,0 +1,704 @@
+{
+  "schema": "R278-original-three-equation-inexact-p3-restoration-LM-v1",
+  "phase": "diagnostic-completed",
+  "diagnostic_completed": true,
+  "seconds": 8.097614818000011,
+  "success": false,
+  "source_sha256": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e",
+  "original_status": {
+    "file": "small-core-inexact-p3-restoration/inexact-p3-restoration-status.json",
+    "bytes": 372627,
+    "sha256": "0913ea5d90ddb23bd408b33175887b5b24665fe0db8324d873bbe0b08c12a647"
+  },
+  "search_stop_reason": "explicit outer direction budget completed",
+  "initial_projection_summary": {
+    "performed": false,
+    "fresh_original_parent_retained": true,
+    "reason": "normal correction retains actual d3; no prior root or projection is required"
+  },
+  "initial_original_three_equation_merit": 8016828215.535884,
+  "final_original_three_equation_merit": 146733.11420722902,
+  "last_accepted_parameters": [
+    0.5078436152033409,
+    -0.3849212262335502,
+    0.5911288427829965
+  ],
+  "inner_call_count": 15,
+  "original_unit_stopping_tolerance_met": false,
+  "low_mode_candidate_has_small_full_recorded_right_residual": false,
+  "complete_scalar_domain": {
+    "bits": 160,
+    "complete_declared_real_expression_domain_certified": true,
+    "covered_interval": [
+      "0",
+      "5113846463878377/2251799813685248"
+    ],
+    "exact_prefix_scalar_and_complete_stored_finite_Gauss_expression": true,
+    "exact_scalar_derivative_compatibility_or_C2_interface_certificate": false,
+    "leaf_count": 1091,
+    "literal_binary64_evaluation_roundoff_enclosed": false,
+    "maximum_depth": 14,
+    "returned_ap_identified_with_derivative_of_finite_Gauss_a": false,
+    "schema": "R259-complete-declared-scalar-domain-enclosure-v1",
+    "source_circle_R_and_full_Frenet_domain_covered_by_this_scalar_bound": false,
+    "source_returned_ap_used": true,
+    "split_cells": 648,
+    "unresolved_leaf_count": 0
+  },
+  "original_complete_circle_check": {
+    "actual_domain": {
+      "all_control_states_identical": true,
+      "all_core_states_identical": true,
+      "boundary_domain_error": null,
+      "boundary_finite": true,
+      "complete_boundary_max": 0.0,
+      "complete_trial_RHS_recomputed": true,
+      "constant_collocation_max": 0.0,
+      "finite": true,
+      "left_residual_max": 0.0,
+      "midpoint_domain_failures": 0,
+      "node_domain_failures": 0,
+      "original_RMS_query_checks": [
+        {
+          "first_invalid_points": [],
+          "fraction": 0.17267316464601146,
+          "invalid_count": 0,
+          "points": 698
+        },
+        {
+          "first_invalid_points": [],
+          "fraction": 0.8273268353539885,
+          "invalid_count": 0,
+          "points": 698
+        }
+      ],
+      "original_RMS_query_domain_failures": 0,
+      "original_rho_guard_angles": 4096,
+      "original_uniform_phi_rho_guard_valid": true,
+      "original_uniform_phi_rho_min": 1.0,
+      "physical_collocation_max": 4.0722633598555547e-16
+    },
+    "original_full_FFT_tangent_checks": [
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 0.0,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 0,
+        "station": 0.0
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 3.513871690595784e-17,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 3.5802319168916386e-16,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 1.8487752305378074e-16,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 349,
+        "station": 0.8525
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 3.18047108252219e-16,
+        "all_physical_rows_compared": true,
+        "mode": 1,
+        "node": 698,
+        "station": 2.271004035438285
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 1.2087823401897152e-15,
+        "all_physical_rows_compared": true,
+        "mode": 2,
+        "node": 698,
+        "station": 2.271004035438285
+      },
+      {
+        "actual_full_FFT_direction_relative_error": 3.8078630943040264e-15,
+        "all_physical_rows_compared": true,
+        "mode": 3,
+        "node": 698,
+        "station": 2.271004035438285
+      }
+    ],
+    "original_full_reference_finite": true,
+    "reference_file": "circle-reference.json.gz",
+    "reference_is_not_a_nonzero_parent": true,
+    "reference_sha256": "36eb3f6e4c182893fac4f5860a07242ed27dd38ee071d9b2689125a3e5db40af"
+  },
+  "initial": {
+    "parameters": [
+      0.6929598480979777,
+      0.1236195236907518,
+      0.5225323995570981
+    ],
+    "unit_diagonal_defects": [
+      -233.46281549983243,
+      126623.86001929315,
+      -1.3917459060815845e-07
+    ],
+    "low_equations_used": [
+      -233.46281549983243,
+      126623.86001929315,
+      -1.3917459060815845e-07
+    ],
+    "three_by_three_parameter_jacobian": [
+      [
+        -1107.9006322728314,
+        -114.81514473164773,
+        -375.01293611406993
+      ],
+      [
+        701367.4128892696,
+        196645.73358820027,
+        981203.2544867041
+      ],
+      [
+        54018763.033717126,
+        124091399.49519417,
+        1865745592.4776328
+      ]
+    ],
+    "independent_real_parameter_difference_checks": [
+      {
+        "maximum_relative_error": 3.580630625000313e-09,
+        "step": 2e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 1.0225030556437686e-09,
+        "step": 1e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 7.215930513009632e-10,
+        "step": 5e-06,
+        "valid": true
+      }
+    ]
+  },
+  "final": {
+    "parameters": [
+      0.5078436152033409,
+      -0.3849212262335502,
+      0.5911288427829965
+    ],
+    "unit_diagonal_defects": [
+      -206.33215777138622,
+      500.8924725765619,
+      -3.79434721027843e-08
+    ],
+    "low_equations_used": [
+      -206.33215777138622,
+      500.8924725765619,
+      -3.79434721027843e-08
+    ],
+    "three_by_three_parameter_jacobian": [
+      [
+        -664.3936933663905,
+        610.9338250928995,
+        -538.9189433638402
+      ],
+      [
+        1007526.7640086645,
+        5966.292074939401,
+        512886.3756502762
+      ],
+      [
+        67033101.35869059,
+        -15393147.418586014,
+        706233195.9685296
+      ]
+    ],
+    "independent_real_parameter_difference_checks": [
+      {
+        "maximum_relative_error": 6.9446534019950346e-09,
+        "step": 2e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 3.7035294149978364e-09,
+        "step": 1e-05,
+        "valid": true
+      },
+      {
+        "maximum_relative_error": 2.585242730137743e-09,
+        "step": 5e-06,
+        "valid": true
+      }
+    ]
+  },
+  "outer_search_summary": [
+    {
+      "iteration": 0,
+      "parameters": [
+        0.6929598480979777,
+        0.1236195236907518,
+        0.5225323995570981
+      ],
+      "residual": [
+        -233.46281549983243,
+        126623.86001929315,
+        -1.3917459060815845e-07
+      ],
+      "merit_before": 8016828215.535884,
+      "true_model_merit_slope": -15953879456.81151,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 3483426293.6319866,
+          "original_Armijo_bound": 4826052324.173582,
+          "true_third_unit_residual_preserved": 2.9190154151453873e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.09361803547736303,
+            -0.4794508453238012,
+            0.05153146474713377
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.0169325048890564
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "parameters": [
+        0.5993418126206147,
+        -0.3558313216330494,
+        0.5740638643042318
+      ],
+      "residual": [
+        -249.2008846765844,
+        83467.30189830656,
+        2.9190154151453873e-08
+      ],
+      "merit_before": 3483426293.6319866,
+      "true_model_merit_slope": -6932180998.044287,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 492192629.0230227,
+          "original_Armijo_bound": 2096990094.0231292,
+          "true_third_unit_residual_preserved": -4.707006528905516e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.04673691453966555,
+            0.19488398494483603,
+            -0.0050961015363375495
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            -0.0006744936764885301
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "parameters": [
+        0.5526048980809491,
+        -0.1609473366882134,
+        0.5689677627678943
+      ],
+      "residual": [
+        -135.77650816920047,
+        31374.62067955364,
+        -4.707006528905516e-08
+      ],
+      "merit_before": 492192629.0230227,
+      "true_model_merit_slope": -979487742.7189149,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": false,
+          "actual_merit": 364487367.3026608,
+          "original_Armijo_bound": 296295080.4792397,
+          "true_third_unit_residual_preserved": 4.231762521346785e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0348625927220334,
+            0.365892280263821,
+            -0.04396799777176286
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            -0.008500146216963822
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "accepted": true,
+          "actual_merit": 233211221.31504178,
+          "original_Armijo_bound": 394243854.75113124,
+          "true_third_unit_residual_preserved": -1.1895590933618493e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0174312963610167,
+            0.1829461401319105,
+            -0.02198033791526388
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            -0.004246412137864364
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "parameters": [
+        0.5351736017199324,
+        0.02199880344369709,
+        0.5469874248526304
+      ],
+      "residual": [
+        -91.15393905476691,
+        21596.623198766014,
+        -1.1895590933618493e-08
+      ],
+      "merit_before": 233211221.31504178,
+      "true_model_merit_slope": -464090511.95786214,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 3705654.5586422784,
+          "original_Armijo_bound": 140393118.92346936,
+          "true_third_unit_residual_preserved": -1.0562913910347124e-07,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.024917476016623086,
+            -0.4239841697251045,
+            0.043613509952569296
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            -0.03141832657452692
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "parameters": [
+        0.5102561257033094,
+        -0.4019853662814074,
+        0.5906009348051997
+      ],
+      "residual": [
+        -218.37563692537515,
+        2713.5993069136043,
+        -1.0562913910347124e-07
+      ],
+      "merit_before": 3705654.5586422784,
+      "true_model_merit_slope": -7324953.825935682,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": false,
+          "actual_merit": 146261444.2625362,
+          "original_Armijo_bound": 2240663.7934551416,
+          "true_third_unit_residual_preserved": 1.615600602838897e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.002881742755612926,
+            0.28181442469912615,
+            0.0014348600660628597
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            -0.0031227527795347765
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "accepted": false,
+          "actual_merit": 30595236.80500082,
+          "original_Armijo_bound": 2973159.17604871,
+          "true_third_unit_residual_preserved": -6.667579037728053e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.001440871377806463,
+            0.1409072123495631,
+            0.004484211451806885
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.002205405029008123
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 2,
+          "alpha": 0.25,
+          "accepted": false,
+          "actual_merit": 6886133.708246334,
+          "original_Armijo_bound": 3339406.867345494,
+          "true_third_unit_residual_preserved": 4.3761000249930085e-09,
+          "inner_unit_threshold_met": true,
+          "actual_total_parameter_displacement": [
+            -0.0007204356889032315,
+            0.07045360617478152,
+            0.0017782516687043781
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.0006388484573049968
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 3,
+          "alpha": 0.125,
+          "accepted": false,
+          "actual_merit": 3924030.7383943554,
+          "original_Armijo_bound": 3522530.7129938863,
+          "true_third_unit_residual_preserved": -7.691289753979265e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.00036021784445161575,
+            0.03522680308739079,
+            0.0007306166703207051
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.00016091506462101446
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 4,
+          "alpha": 0.0625,
+          "accepted": true,
+          "actual_merit": 3532205.8901866726,
+          "original_Armijo_bound": 3614092.6358180824,
+          "true_third_unit_residual_preserved": 5.2163879049171163e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0001801089222258634,
+            0.017613401543695395,
+            0.000324873090417066
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            4.0022287567165193e-05
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "parameters": [
+        0.5100760167810835,
+        -0.384371964737712,
+        0.5909258078956168
+      ],
+      "residual": [
+        -207.3749811816258,
+        2649.7938405757654,
+        5.2163879049171163e-08
+      ],
+      "merit_before": 3532205.8901866726,
+      "true_model_merit_slope": -6963888.164162733,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 337475.3841378977,
+          "original_Armijo_bound": 2139428.257354126,
+          "true_third_unit_residual_preserved": 1.0004872215570691e-07,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0020027878378248154,
+            -0.05866364967855603,
+            -0.0006405407471390401
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.00032276375187534345
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "parameters": [
+        0.5080732289432587,
+        -0.44303561441626804,
+        0.5902852671484777
+      ],
+      "residual": [
+        -245.15722081931273,
+        784.1228891927248,
+        1.0004872215570691e-07
+      ],
+      "merit_before": 337475.3841378977,
+      "true_model_merit_slope": -623062.1400610778,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": true,
+          "actual_merit": 186295.48623162817,
+          "original_Armijo_bound": 212862.95612568213,
+          "true_third_unit_residual_preserved": -1.610411785803352e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            2.3173824610478455e-05,
+            0.04398737917879736,
+            0.0005412482909875616
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.00023292996793344845
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "parameters": [
+        0.5080964027678692,
+        -0.3990482352374707,
+        0.5908265154394653
+      ],
+      "residual": [
+        -215.1747044430688,
+        571.2187138313085,
+        -1.610411785803352e-08
+      ],
+      "merit_before": 186295.48623162817,
+      "true_model_merit_slope": -328421.3133278802,
+      "accepted": true,
+      "trials": [
+        {
+          "trial": 0,
+          "alpha": 1.0,
+          "accepted": false,
+          "actual_merit": 661536.5286760153,
+          "original_Armijo_bound": 120611.22356605211,
+          "true_third_unit_residual_preserved": -3.936350583759029e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0010111502581129361,
+            0.05650803601568194,
+            0.001572394594292037
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.00047996569449448856
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 1,
+          "alpha": 0.5,
+          "accepted": false,
+          "actual_merit": 182697.16148755196,
+          "original_Armijo_bound": 153453.35489884013,
+          "true_third_unit_residual_preserved": 4.9839504525587414e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.0005055751290564681,
+            0.028254018007840942,
+            0.0006644226418378585
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            0.00011820819193908427
+          ],
+          "reason": "actual restored candidate fails the original complete-three-merit Armijo test"
+        },
+        {
+          "trial": 2,
+          "alpha": 0.25,
+          "accepted": true,
+          "actual_merit": 146733.11420722902,
+          "original_Armijo_bound": 169874.42056523415,
+          "true_third_unit_residual_preserved": -3.79434721027843e-08,
+          "inner_unit_threshold_met": false,
+          "actual_total_parameter_displacement": [
+            -0.00025278756452828954,
+            0.014127009003920499,
+            0.0003023273435311946
+          ],
+          "actual_restoration_displacement_from_seed": [
+            0.0,
+            0.0,
+            2.922011858186302e-05
+          ],
+          "reason": "actual restored candidate passes the original complete-three-merit Armijo test"
+        }
+      ]
+    }
+  ],
+  "complete_readback": "large-arrays/complete-diagnostic-readback.json",
+  "complete_readback_bytes": 97529,
+  "complete_readback_sha256": "e4ed56a106860b462c2b0879bfcbd940d54c6425b92c532dbd45aad13230b276",
+  "complete_original_inner_reports_remain_in_artifact": true,
+  "mathematical_computation_performed_by_this_readback": false
+}

@@ -1,0 +1,92 @@
+{
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/computations/geometry_20261115_small_core_inexact_p3_restoration.py",
+    "--accepted",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
+    "--prepared",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/preparation112/prepared.json.gz",
+    "--tail-anchor",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz",
+    "--tail-config",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112/T112-config.json",
+    "--parent-status",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/public-actions-43672921972-1-smallcoreresonance/small-core-p3-inner-root/p3-inner-root-status.json",
+    "--parent-status-sha256",
+    "e822be884ac07e2b2c46ac7aba7f589ba5233e86cdbb33ad9c95108cc8dca01e",
+    "--damping",
+    "0.1",
+    "--candidate-steps",
+    "8",
+    "--backtracks",
+    "20",
+    "--inner-newton-steps",
+    "12",
+    "--inner-backtracks",
+    "20",
+    "--candidate-resonance-tolerance",
+    "1e-08",
+    "--interval-bits",
+    "160",
+    "--interval-depth",
+    "14",
+    "--out",
+    "/home/runner/work/_temp/visible-small-core-resonance/smallcoreresonance/small-core-inexact-p3-restoration"
+  ],
+  "parameters": {
+    "parameters": [
+      0.6929598480979777,
+      0.1236195236907518,
+      0.5225323995570981
+    ],
+    "backtracks": 20,
+    "candidate_resonance_tolerance": 1e-08,
+    "interval_bits": 160,
+    "interval_depth": 14,
+    "original_mesh_nodes": 699,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "physical_angle_grid": 2048,
+    "material_and_boundary_angles": 4096,
+    "original_RHS_workers": 1,
+    "damping": "0.1",
+    "candidate_steps": 8,
+    "inner_newton_steps": 12,
+    "inner_backtracks": 20
+  },
+  "one_independent_inexact_p3_restoration_invocation": true,
+  "parent_approximate_root_algorithm_executed": false,
+  "actual_third_residual_in_normal_correction": true,
+  "inner_threshold_is_not_an_outer_eligibility_gate": true,
+  "parent_three_coordinate_direction_engine_executed": false,
+  "original_model_and_checks_imported_unchanged": true,
+  "new_two_coordinate_algorithm_explicit": true,
+  "source_chain": {
+    "independent_algorithm_entry": {
+      "file": "geometry_20261115_small_core_inexact_p3_restoration.py",
+      "bytes": 45133,
+      "sha256": "ce93a364f8423c89e9e696e1e2c96662b61c6daaf225bd51c44fcd572e05654e"
+    },
+    "original_model_and_checks": {
+      "file": "geometry_20261114_small_core_resonance.py",
+      "sha256": "3b9c45abed425a92be662c3547d088a3074ebcc5923c23ac2ef7aaf003124bd5"
+    },
+    "parent_inner_root_provenance_only": {
+      "file": "geometry_20261115_small_core_p3_inner_root_search.py",
+      "bytes": 43598,
+      "sha256": "3b48efd71eb696fef66acbe7fbd163bb8dc8ca63287bfa8c4e873a2600fbf9d9"
+    },
+    "parent_resume_provenance_only": {
+      "file": "geometry_20261115_small_core_damped_resume.py",
+      "bytes": 15452,
+      "sha256": "ec9a56fd184ff7d68fd1caadc9d350312b075172d20dabdee5203ce5b491ad1a"
+    },
+    "parent_direction_provenance_only": {
+      "file": "geometry_20261115_small_core_damped_search.py",
+      "bytes": 13733,
+      "sha256": "1691c7d9aad782f9f1a6308ca16fa9630a44988a1b99decdca594a412cdb1728"
+    }
+  },
+  "native_solver_started": false
+}
