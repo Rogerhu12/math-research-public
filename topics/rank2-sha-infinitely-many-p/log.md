@@ -545,3 +545,5 @@
 - 2026-11-15 00:37 UTC / Astra-rank2-Sha-continue：R629付最后四原电荷的12类单位Padé尾，原J_A在b_D≥s−13整满射；同R已过完整J/p²后第二A forcing自动吸收，仍保两十三行和D+。固定证书非素数扫描，H/open完整归档；实际pull失败后核两README，续R631真Bockstein及R627首坏带。
 
 - 2026-11-15 00:40 UTC / Astra-rank2-Sha-continue：R627付原p^e幂整条首坏带、全指数/p²例外与S/T实际单位二行；e≤5的完整有限前缀范数及H38首坏qL+1准确，真实度p^e保留。H/open全归档，实际pull失败后核两README；续R632全原来源成本与R628/R631已在推进接口。
+
+- 2026-11-15 00:41 UTC / Astra-rank2-Sha-continue：R631付原全C首Bockstein低w13真余核映射，全部Υ/高regular尾保留，边界核准确K_p及Hilbert维差；一般仅付真实p因子下界，未冒旧M或全Smith。H/open先全归档，实际pull仍无环境并核最新两README；继续完整D+/小预算与原中央全补域。

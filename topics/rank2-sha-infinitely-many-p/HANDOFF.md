@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：f118500f68992632c780e85a8b9c9992078e2e9a；2026-11-15 00:40:23 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:40:09 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
+- 最近已读规则提交：5a2002cc172eb435a0fd7c342036d0da204c8bec；2026-11-15 00:41:25 UTC API核两README无变。最后实际pull成功2026-11-14 21:35:50/7aa38f25e；随后断连。最近实际重试2026-11-15 00:41:14 UTC仍无环境。最迟2026-11-15 01:00 UTC再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -15,15 +15,15 @@
 
 ## 已发布、完整归档与分工
 
-R1–363、R365–560、R562–623、R625–627及R629已登记；R364仍开，R561/624/628/631/632进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r627.md)、[open](notes/2026-11-15-open-before-r627.md)。
+R1–363、R365–560、R562–623、R625–627、R629及R631已登记；R364仍开，R561/624/628/632进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r631.md)、[open](notes/2026-11-15-open-before-r631.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta：R626已发表，续R628同carry交域/中央同深返回的完整补域关系。
 - literature：续R624同charge六det(c,d₂)与完整addition/低残差，不能把第二Gaussian当独立中央零。
-- deep：R629已付u≥0原短目标满射；续R631完整C的首Bockstein真实低行及较小预算。
+- deep：R629/631已发表，续原较小预算/完整D+，保同R和真正旧截断。
 - root：R627原幂完整首坏带已付；续R632真实Frobenius来源/全预算与中央接口。
 
 ## 原固定对象及未关闭支线
@@ -45,30 +45,21 @@ M3不重定义，无新增mod25。π0为E1的2δ-primary Frobenius，π17=π24=�
 
 ## 普通完整中央与实际补偿
 
-R567中央纠正有效：J′零不赋native N/I4/I1零，Dn不降π5。
-R594原9×20右逆/固定D594和同Dn新q̃返回Rn，旧局部值不移；
-R599完整E=β^-n(O+K)=T−Rn，T=J′S−6δJ′T，B质量/外矩形保持。
-R601全Q/15维谱保S/2、两参考、四外块，E2312线0；R605
-T=𝒞Rn+Hn+Cout保七coset。全部旧地点/Schwartz/周期/角色/参考见完整前检。
-R611原τ同深差消负三/负五unit，但不保π4；R613两carry交域、整36/396二态、
-H逆回T与native差测试保全，子管不代总积分。
-R617 R=(W−Y)/2 norm8保carry；偶深整环带/native测试提P1/P2；
-首矩6Ωx²yσ⁸、同深反射负五epspole全rayunit回I1，Bpole不删。
+R567中央纠正有效，J′零不赋native N/I4/I1零，Dn不降π5。
+R594同Dn新q̃/固定D594、R599 E=β^-n(O+K)=T−Rn（T=J′S−6δJ′T）、
+R601两Q/15谱、R605七coset及全部旧规范完整保前检，旧局部值不移。
+R611 τ不保π4，R613两carry/36与396两态及native cap/ex全域保持。
+R617原norm8 R保carry，两个全native环带提P1/P2；反射负五unit回I1，Bpole不删。
 R621同B_C⊗σ/F_B六度核给P1=−36bKΩ5I1+B1、P2=−12αΩ5I1+B2；
-两系数unit，αP1−3bK P2消I1。Bk保Hdeep/Vunit、Hunit/Vdeep、H/Vunit余项，
-原四unit/三个失败支和D/E/G/同q/相位完整；中央0只令T0。
+αP1−3bK P2消I1。全部三补域、四unit失败支/D/E/G/同q保全，中央0只令T0。
 
-**R626**已付整2104 V核K_V=εp A2104，εp²=1且号不猜。
-全部quarter中心运输回原K0 degree8；原R/V只有两态，
-K_R μ_i=μ_(1−i)、K_V μ_i=εp μ_(1−i)。
-原Y/W同深n整域=εp^nλ^(2n)(P_Rκn P_Vκn)_*μ0，
-逐个保C/F/G/D/E/G和同q，归一原S/T Mellin确为原J。
-第一R矩Vcore为εpβ；第二矩分成
-h8=2(ω−1)D8−4ω²Θ(2z)，Vcore分别εpλ/εpβ，Hcore均β。
-H/V的A/B不交换；Bk完整两word/单位补支、F4三个失败支均保。
-同carry交域=VdeepN/D_XdeepN/C_Xunit；V归一后两权为同一P_N(κV)/P_N(V)，
-常数消去但native有理/日志测试各自完整转置，不给word项或补域零。
-续R628比较此交域/共同深返回与全补偿，原11自由q系数可检查但不重选已固定q。
+**R626**整2104 V核=εp A2104，真实号εp²=1不猜；全quarter中心回旧K0 degree8。
+R/V整联合两态，Y/W同深n整域=εp^nλ^(2n)P_plane,κn μ0，
+逐个保C/F/G/同q，归一原S/T Mellin确回原J。
+首R矩Vcore εpβ；第二矩h8=2(ω−1)D8−4ω²Θ(2z)分εpλ/εpβ，Hcore均β。
+完整H/V两word不交换，所有Bk/四unit失败支与native测试保持。
+同carry交域VdeepN/D_XdeepN/C_Xunit，归一权P_N(κV)/P_N(V)只消常数；
+不同有理/日志测试不相认，不赋补域零。续R628同两态完整unit与中央关系。
 
 固定CM单位稀疏引理仅用于固定λκ有限式；负五Katz仍root−，
 I1未获非零，不能套p依赖负矩计数。
@@ -135,6 +126,12 @@ b周期增量(4,5,2,6,3,6,2,5,4,6,1,6)；连续电荷binomial子式det1，
 b_D≥s−13时原J_A整满射/γ0。D≡1mod12/u0强迫p合数，其余两子式gcd小素数。
 同一R若已过完整J(P+pR)∈p²，则第二A forcing必由同格T吸收；
 两十三行/完整D+仍必须先过，不把γ0当整C2零。首像缺口必b_D≤s−14。
+**R631**同一全C首Bockstein：Π13保全Υ层的普通w<13，确杀全原像；
+ker(Π13β_C)=K_p⊂K_(p−78)，rank=k_D(p−78)−k_D(p)准确。
+R618全regular尾界使q=floor((6r+i)/p)≥2项至少p²，
+原第一权带p≤6r+i<p+78经真carry单射对应I_(p−78)/I_p。
+故恰p因子至少该rank、≥p²或零方向至多k_D(p)；
+K_p0才得完整unit/p SNF，不宣称一般高Smith已知，不降旧M/连续旗标。
 
 原Beta割线ceil(17n/3)−1次变号，排直接定号Nikishin识别，其他AT/旧d2未排。
 2026文献仍保逐p单位/高度/受限秩与随权条件，无新固定来源无穷非消失输入。
