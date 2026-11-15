@@ -28,13 +28,13 @@ R368前的全部正文已存[完整检查点](notes/2026-11-15-open-checkpoint-b
 
 ### 1C. 真37查询与真实非线性域
 
-[R333实际141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)八model/FD、27trial/8接受/19域拒及完整末值保；已选查询失域、未选MID489/490失域、有限QP后验未付分别保留，一阶slack非负不代真实域。
+[R333实际141](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)八35模型/FD、27trial/八接受/19域拒保原文；已选域失败、未选MID489/490与QP后验未付分别保，线性slack不代真实域。后继37/38路径见R344/171，未得完整BVP。
 
 [R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)已付八真实37模型/FD、23trial/八接受；末两最近拒在merit下降和37selected全有效下仅未选LEFT462 β²<0，末physical .0071041184748284756仍非BVP。末pair已清。[171完整接口](notes/2026-11-15-request171-real37-to38-same-job-continuation-interface.md)十件/97pins已发布：真actual98在同job重生原37八批，原末warm/status字节保持，再用runtime SHA和完整原producer验证进入38；新增LEFT462及真实cell/node462支持，22LEFT+16MID/25cells/30端点462..491/B10143/77824行，C4059/full236036/109core保。原1200/600/90/30、17档及完整FD不变；300min含恢复、science320/job350，未足启动余量保未访后缀，不保证完成16批。全部trial先读再移动/清，失败always补两schema和parent-after，不凭已删155哈希接续；170独立不作前门。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)原a>0及P=a²|d×e|²−ν²|d|⁶>0等价、完整八次/Bernstein、453 Hermite全RHS缺陷保。[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)94源/三参数，原model及新warm FD先尝试，再独立诊断全75776行×17档×九系数；global6000/diagnostic1800/reserve180、原未访范围/字节保，不添155门。
 
-[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)：原37第四档α1/8接受/FD过，但后置R334因缓存与显式同站返回绑定错误未起，不能从37查询猜总控制返回数。后继166已保全部同站候选/匹配下标与显式query控制完整身份，修复绑定后实际范围见R353；旧原值/8文档/138成员/完整错误及94→97源、原三参数与资源责任保[逐字检查点](notes/2026-11-15-open-checkpoint-before-request174.md)。旧raw已清，不从SHA续接；仿射参考、真实RHS余项、端点/query表示误差、连续α/角仍分责。
+[R346实际158](results/R346-actual158-original37-accepted-step-and-post-model-binding-failure.md)保原37第四档接受/FD后绑定失败；166已修缓存与显式同站绑定，实际范围见R353。旧原值/错误/源/预算和未付连续范围在结果及压缩前检查点，原raw已清，不从SHA续接。
 
 
 [R353实际166](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)：run43734326402/sourcec3a7531d，原37/FD及α1/8接受、37query配74原控制齐；全75776×9×17仿射，α≤1/8闭段全正，最近α1/4同实际12坏行，α1另4行不同，不能等同。148×453恒等仅已访点态，余13档真实trial/整α RHS与完整BVP未付；8文档/910成员及raw清理范围见原文，不能从SHA续算。
@@ -63,7 +63,9 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R363](results/R363-local-C2-shapes-and-complete-finite-sample-response-rank.md)的隔离七次零2-jet形状给单一准确商响应εw/a；[R366](results/R366-coincident-inputs-complete-value-and-slope-shape-response.md)对同坐标不同逻辑输入聚合G=Σw/a、H=−Σwb/a²，偶/奇基给ε²H/εG，完整允许C²响应span/rank/左零空间已证。共享node权只计一次，相同形成q词不证明准确公共q；奇池全零不排除值方向，无实际rank或误差认证。
 
-[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)给不交odd箱准确斜率−Σ|g|与取max的C²界；[173 helper](notes/2026-11-15-local-odd-zerojet-station-catalogue-interface.md)2d2d84eb按全部1397真实逻辑输入构造严格dyadic隔离。[174完整接口](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)九件已发：独立真157九p50父，全部允许站的形成F·(εΣw/a)定一次系数，冻结完整h*；新十族/owner/fresh十列定ξ方向，显式|dξ|=1、原20档全3 Armijo/域与120FD、Arb160/depth14/453圆/full112末端保持。原113+10pins/41→46消费、2400s/50min/65min；必要小结硬90KB，完整大shape/weight只身份。所有旧p FD及trial也不得重选中心/宽度/符号，任意点/Arb全断点消费同一函数；零/非有限分数非驻点结论。amplitude核新实际R376，164不作前门；形成方向不保证20档下降，R366值方向、准确导数、同g精化/非线性native/闭场仍未付。
+[R370](results/R370-disjoint-local-shape-box-descent-and-uniform-C2-bounds.md)已证不交odd箱准确斜率−Σ|g|与max型C²界；173 helper2d2d84eb保全部1397逻辑输入/严格隔离。[174接口](notes/2026-11-15-request174-fixed-all-station-odd-signsum-interface.md)真157父上全部中心/宽度/符号一次固定，所有旧p FD和trial消费同一h*及Arb全断点；独立十族/fresh十列、|dξ|1/原20档/120FD/Arb453/full112保。113+10pins/41→46、2400s/50/65，单≤90KB必要摘要，原域与全3门保持；实际43745211514/source411c6ed3，R376由amplitude核。形成odd分数不证准确驻点/R366值方向/同g精化或非线性native。
+
+[R378](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）固定新形状与正尺度S，对完整A=JS作AᵀΠ=Q₃R，Rᵀy=−ΠᵀF、z=Q₃y给满行秩时最小S范数联合方向；径向截取保Jd=−θF，完整Cauchy回退也给负准确斜率。明确Q←QH顺序/三方程pivot及准确c_A，形成算术误差、真实非线性余项与固定20档仍分责，不作rank/新阈值门。178独立true157父固定164支撑1/k4；旧九S=.01max(1,|p157|)、Sξ=.01、缩放半径1全程固定，最多8×20/每接受fresh十列，初末120FD与全部原终态保；这不是单减ξ或更换目标。源码由amplitude推进，实际R377未起，不预填改善。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 

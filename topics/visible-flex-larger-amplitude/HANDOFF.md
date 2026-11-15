@@ -9,7 +9,7 @@
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
 原部分克隆/tmp/visible-larger-root-git-149。14:33终端失联；新环境18:12仅试pwd仍exec-server缺失。按根8小文本fallback，恢复即真实pull --rebase；每push前及≥每小时核双README，变更仅读差异。CAS/NFF立即读新头重放到成功，禁force；Actions镜像2700秒真pull，不改科学checkout。
-API复核 2026-11-15 18:19:03 UTC 已读 96001fbab4e62356d30ebf5b105b381e7639fe06，双README blob仍同上；这不是git pull。
+API复核 2026-11-15 18:20:28 UTC 已读 b211ae8f60cc4681aa4ce12267814caefbfab0e4，双README blob仍同上；这不是git pull。
 
 根15只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出，不拆包/编码大数据走工具。题≤200MB、MD<100KB、H<10KB/open宜<30KB；log≤5行/条，不写根LOG，不增fixture/独审/额外科学门。
 
@@ -51,7 +51,7 @@ API复核 2026-11-15 18:19:03 UTC 已读 96001fbab4e62356d30ebf5b105b381e7639fe0
 
 [R373实际164r3](results/R373-actual164-r3-six-shapes-and-twenty-full-merit-rejections.md)同1998科学的新run43743904448/source257b227a，89762B摘要齐；六三响应/120FD/Arb453，20全部有限域过却全3 Armijo拒，最终ξ0/W未变。十列投影σmin3.984796…仅数值动机，不证准确秩。R364类型误拒、R371超限/raw清各守旧范围，不回填。
 
-R351完整七状态/112与173全部1397逻辑站已发；R363/R366/R370给准确G/H/span与不交odd箱，不预填实际rank。174真157父上h*全部中心/宽度/符号一次冻结，新真正十族/fresh十列、|dξ|1/20trial/120FD/Arb453/full112，113+10pins/41→46、2400s。178另固定164支撑1/k4，联合十列带固定S尺度的QR最小范数Newton/clip/Cauchy；R378条件证明待推、R377实际未起，amplitude继续。原全3/strictslope/真实域和全部终态门保持。
+R351完整七状态/112与173全部1397逻辑站已发；R363/R366/R370给准确G/H/span与不交odd箱，不预填实际rank。174真157父上h*全部中心/宽度/符号一次冻结，新真正十族/fresh十列、|dξ|1/20trial/120FD/Arb453/full112，113+10pins/41→46、2400s。178另固定164支撑1/k4，联合十列带固定S尺度的QR最小范数Newton/clip/Cauchy；[R378条件证明](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)已发、R377实际未起，amplitude继续。原全3/strictslope/真实域和全部终态门保持。
 
 ## 闭合、精化、文件和恢复
 

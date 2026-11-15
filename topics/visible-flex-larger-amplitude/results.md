@@ -310,3 +310,5 @@
 - [R345：actual161单field全230列严格认证](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)：真实128末态唯一α1接受、全226独立replay；stage10/RK0/field0的224shape+6环境列320bit完整认证、两mean保。仅固定实际输入/trace的准确有限算法误差；上游/整RK、112/338/audit/native仍未付，子70传输由同job完整恢复，全部大表只身份。
 
 - [R368：actual168完整C/deep112与首模态pivot未付](results/R368-actual168-complete-C-deep112-and-unstarted-native-at-first-pivot-stop.md)：真实physical far目标上m2仅49commit/100attempt，depth32双端点盒含0，非资源止；19栈/required[18,10387)/其他111模态保，0far/0unitrow，native未启动。六小块/四report和清理完整核，不能冒原Newton拒或准确共振。
+
+- [R378：完整十维最小范数Newton、截取与Cauchy下降](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）：固定S和shape，完整转置QR/pivot回代给满行秩最小范数联合方向，径向截取/全Cauchy保完整线性merit下降；实际Decimal误差、真实域/非线性余项与固定20档另付。178实现中，不预填准确秩或数值成功。

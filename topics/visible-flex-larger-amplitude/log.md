@@ -257,3 +257,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:19:03 UTC /root — R368物理far首pivot未付与未启native
 
 23311B完整实际结论即发（仅合并一处Markdown表空行）；C1440/六primitive/deep112齐，m2的49commit/全部stack/不同far目标及资源null保。无native试步；R375/177重算原族继续。open旧正文归档压缩，H重写保全部活跃run及未付责任；API核96001fbab4e62356d30ebf5b105b381e7639fe06双README未变，真pull保。
+
+## 2026-11-15 18:20:28 UTC /root — R378完整十维联合方向证明
+
+10020B证明全文已核即发；Π与Q顺序、Rᵀ回代/最小范数、clip/Cauchy/原c_A和真实20档边界齐，不增rank门。178按固定shape/固定S独立真157父实现，实际R377不预填；174实际R376正在读回。API核b211ae8f60cc4681aa4ce12267814caefbfab0e4双README未变，真pull保。
