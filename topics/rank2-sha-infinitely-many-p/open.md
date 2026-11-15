@@ -128,3 +128,6 @@ R709单位141/2与flag297/20尚未覆盖47/8；R736全Hecke/2048类仍缺原C_pv
 
 
 [原mirror正水平与t1](notes/2026-11-15-mirror-trace-positive-horizontal-jets-and-t1-fiber.md)：原q_src t^rFH对数代表在Y∞准确读x^(3b+c)完整jet，奇支保平面conductor/tame极阶；真实α框变换保2b项。精确充分门3s>(3b+c)deg_tF逐正规化支杀整个t=1纤维，原帽仅用M_D=f_D+C_D及3b+c≤D；不宣称r2自动满足。其余水平/十九角、真实kerα及短13尾仍开。
+
+
+[十九角Euler与完整α配对](notes/2026-11-15-original-global-euler-frames-and-complete-alpha-residue-pair.md)：逐十九吹起框证明E保持全部H_m，e∈H1、EH∈H2；精确canonical除子及conductor下降条件齐付。原D_E(B0)=EH|Z良定义并读真实2Z jet；完整Gorenstein Serre配对给α*ω(B0)=ResP(B0ω/(2ηe))−〈D_E(B0),ω|Z〉。两端必须来自同一全局ω，非约化普通乘法迹不作完美配对；指定Trace是否在此真像仍开。

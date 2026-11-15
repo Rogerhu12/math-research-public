@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：c3751567acd2a520b0d5c4cfe0730dd49529893c；2026-11-15 22:05:39 UTC核两README无变。实际CI pull 2026-11-15 22:02:26 UTC/d4ecf44301f65b3f299f6cc7680a5d7ab7e0e238（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 22:50 UTC再实际pull。
+- 最近已读规则提交：93227cbf38f702415a3484f4553f2833ae4ccd78；2026-11-15 22:09:27 UTC核两README无变。实际CI pull 2026-11-15 22:02:26 UTC/d4ecf44301f65b3f299f6cc7680a5d7ab7e0e238（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 22:05:38 UTC仍无环境。最迟2026-11-15 22:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -42,7 +42,7 @@ R768旧r1窗撤；准确3b0+degQ0≤4r+2、强窗r≥3k+2。R782/792全q0分类�
 R790保H/原q/ell1,2，全factor βHP=Δ/p；ell2全左行n²τ−τC_ell与native、余列、高尾保。R808同R两支δ=h，近支仅h+r，ell≤r完整短式及远支normal保；局部分裂不代全局。
 R813/R822准确Xi=Omega/u^p，Omega=t^rER(dζ_F+xω0)，ResP=γ/6 unit；IBP后真GRes分子W_sFt²E²R/Y²。FH列化Trace_Z(W_sFtH)，光滑可非零/奇点总迹零；未固定jets的H2→Z满射不能用于真mirror。
 [R550/R822对数主部](notes/2026-11-15-mirror-trace-logarithmic-principal-part-and-thirteen-tail.md)：实际ΔR=q_src t^rFH，A=W_sFt q_src t^r，迹=−ResP(AH de/e)−全边界。长轴2Aηde延拓当且仅当杀全部实际H1列且唯一；延拓只给α*两项相消，不代裸迹落像。短M r≤11保十三行尾，B0→Z在h>κ单射，不自由赋值/导数。
-该注§6已按原r2分类逐正规化支杀所有非固定Y0移动项；Y∞、固定角、一般Xi仍保。[正水平完整jets](notes/2026-11-15-mirror-trace-positive-horizontal-jets-and-t1-fiber.md)已付x^(3b+c)读取、奇支conductor及α框2b项；精确3s>(3b+c)deg_tF杀整t1纤维，原帽M_D=f_D+C_D，不称r2自动满足。仍须真正kerα/fullα*像及全部边界联立，γ/6+G_F(R)+B_F(R)=0不能只留原点。
+该注§6已按原r2分类逐正规化支杀所有非固定Y0移动项；Y∞、固定角、一般Xi仍保。[正水平完整jets](notes/2026-11-15-mirror-trace-positive-horizontal-jets-and-t1-fiber.md)已付x^(3b+c)读取、奇支conductor及α框2b项；精确3s>(3b+c)deg_tF杀整t1纤维，原帽M_D=f_D+C_D，不称r2自动满足。[十九角全局Euler/α配对](notes/2026-11-15-original-global-euler-frames-and-complete-alpha-residue-pair.md)已付E保持H_m、实际canonical框和conductor下降；D_E(B0)=EH|Z读2Z jet，α*ω=ResP(B0ω/(2ηe))−〈D_E B0,ω|Z〉为完整Gorenstein配对。两项来自同一ω，指定Trace在像与否仍开；γ/6+G_F+B_F不能只留原点。
 
 ## 全nef/profile和其他未闭主门
 
