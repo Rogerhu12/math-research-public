@@ -479,3 +479,7 @@
 ## R271：原连续尾相干列的随机池原像及完整MP低高度渐近（2026-11-15）
 
 [完整构造与证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)在原无限连续权内给Dq_k=ω_k−r_k，逐坐标残量为全部外位Bernoulli不入池概率；q相对标量必要费≤Sx/Sx+k+1，||r||≤exp(−Sx+k/zx)||ω||。准确保R234全层12·512^k右逆而非primitive逆，得任意k=o(x)完整D†相干列渐近最优。精确相消||D†η_j||²=−σj²+αj²||D†ωj−1||²给同fcoh低j正交残量一次MP小量。任意r真幂的同池候选及少于r位准确残量也已付；全height一致修复、实际C+D返回及普通N=M继续。
+
+## R150：实际外商单泛函与不倒Ω的完整原来源投影器（2026-11-15）
+
+[完整证明](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)用实存z_j=1、全56行Mz=f²q建立ℓ=zᵀ modf²，两个Q维120的S模间满射给imMᵀ=kerℓ。明确多项式image基E=(e_i−z_i e_j,f²e_j)及Mᵀ=EV，V末行即已付qᵀ；三原来源det/f²在S上gcd1，原嵌入/adj/Bezout给VR=I、P=I−RV张完整34维关系。同步M=C G与H_M=H_G Cᵀ，得到T=coker[B6012,H_M P]，全程只倒原Σ0、不倒Ω。新R/P与W尾未数值展开，不据此消μ。

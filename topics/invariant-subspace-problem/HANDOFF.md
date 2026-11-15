@@ -19,7 +19,7 @@
 - **[有限载体与精确J1/299](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)：** C有限D31、C/pC恰fieldtors/J长314、rankC=degΔaff。root2 p谱前五(1,4,2,4,2)，全球≥15 tors方向/系数长≥44；Δaff≤299/齐次≤365、R≤141，barR|(s−1)(s−2)²P+²P−²E6Q60²。九真差源exact p阶5，非h0所需分母。
 - **[完整外投影Ω120/余乘子21](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60²、投影coker=S13⊕S/(f²)，全Δaff∈[278,299]。μ=Rout/Ω≤21，九μh*tj全局Q成员，总乘子≤44，三源费8406/8411/192。不报μ1、九h*自身来源或精确p²h0。
 
-- **[原正常商的完整来源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)：** A经原120单位/13零输出后保[[Gᵀ,0],[H,B]]，B有6012=5100+864+48真零投影源，T=coker[B,H kerGᵀ]；核秩34全保。B/H的W尾尚未数值构造，不由4212维数免费消高块。
+- **[原正常商6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** 实际z_j=1、Mz=f²q给外商泛函ℓ=zᵀ modf²；imMᵀ=kerℓ。E=(e_i−z_i e_j,f²e_j)、Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I、P=I−RV张完整rank34核。故T=coker[B6012,H_M P]不倒Ω；新adj/R/P及完整W尾尚未数值构造。
 
 - **root2还余二维：** 精确J2=1把旧u+v+w=3更新为u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2。完整B第四页至多2；若actual=2才迫f2=16、m6=2、更高0。当前未报第四页，不把有理长度与高p指数互换。
 
@@ -34,7 +34,7 @@
 
 - **[全56单核Bockstein已完成](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** step32/math71.12834121秒、21paid/2870square/42RHS/56Ax/56纠偏全真，g=f60、Ω=f²。exec7fe5575b，raw4927B/93bcf19e，binding3456b533，gen54；临时cert39654723B/147a40fa/payload0ca29224。源码49a8a83e/全部pins见interface；旧177MB replay状态仅流式SHA核，不重core/det。
 
-- **全局197真R2独立会话：** request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live不重启。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。只恢复必要成员到新job tmp，step1恢复300秒/2GiB；actions:read只读旧包，绝不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
+- **全局197真R2独立会话：** run43772109844始22:57:13，request notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；350分钟/30分及每步pull，旧live保留。manifest b1e3a87e/a5d9cd78保14原件、旧T96/old200两包SHA和历史ref0d642288。step1实际8.054750272秒全14件核真，raw5199/8323772d，tmp为isp-global197-original-i2-session-43772109844；不新传数组。I2=原U7/197真R2的s作用闭包，须全505自由与315tors；七批实算/实际维数待后续源码核验。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
