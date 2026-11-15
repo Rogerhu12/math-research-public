@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [根值剥离后的完整第一Airy源实际8门](results/R133-supplement-actual-complete-root-subtracted-first-Airy-sources.md)：43665091373 child0，1036新完整source/integral、3323原row逐字，1328转换/六profile/旧local全0重算。前三R负完整<4.834450e20/6.332163e20/8.952481e20；保九词/五mean与全部seam。诊断定位真piece2549首外格和负2548的粗费；完整内窗/修正seam/正weighted端口/strong return仍续付。
+
 - [完整规范角、残差Hessian和径向旋转行](results/R133-supplement-complete-normalized-angle-gauge-and-residual-Hessian.md)：全4Z的E_h=I(Ch₂)−m〈CI(Ch₂)〉，完整逆、两mean和二阶链式恒等式保留；按原source符号A=〈dv/m−γu〉，Fcov=F−AQφ准确物理共轭。非解中心恢复原F还须aRφ与真相位端口。原完整Hessian证书在全方向仅多J<2，故固定η0δ0/给定全部物理端口χ<1/128；负/高Sob和全δ仍续付。
 
 - 相关local分子的39pin公开Actions入口已接：[解析合同](results/R133-supplement-correlated-complete-local-Airy-numerator-and-Taylor-tail.md)原SHA保留，只读26个原完整自然stage，新增60stage的完整signed Nraw0..10/独立sup与Wiener尾。三份代码静态分隔核通过，实际AST/数学门留公开Actions；尚未宣称新数值改善。

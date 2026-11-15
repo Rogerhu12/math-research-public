@@ -221,3 +221,7 @@ v2 science0bc067d92254b78e00b022beb455a30595b9713fba686639be78480c69685721；CI 
 ### 2026-11-15 02:09:55 UTC — 全4Z规范角与残差Hessian的精确扩展
 
 读main ee628414d4386b8cf2a5aee96ac05350dbf5145f，两README不变。root按真正零moving-mean lift推导G1–26；全文16233B/SHA1507b1da…，保weighted angle常数、D²Ψ全部mean与原非解R。另亲读未改moving_continuous_residual.py确认原angular项(+γmK vφ,−γm uφ)，最终用J=[[0,K],[-1,0]]和A=〈dv/m−γu〉；草稿错误约定未上main。允许v,m同负，只用m≠0/vm>0，actual Cref<0保。Fcov物理共轭及原F恢复相位a′=DA[h]，严格保aRφ源/两端相位；它不能由小残差当零。旧1341local未知Hessian三角正界仅乘J，给定全physical端口χ<1/128，物理真实B0反馈保持单独列；tail窄核weighted Hessian与恢复链。旧H9769完整归档，压缩当前记录，继续负/高Sob共轭与真实源/全参数，不授非线性或题目完成。
+
+### 2026-11-15 02:12:07 UTC — 根值剥离完整source实际结果独推
+
+读main 69e530c5fbf7241cad25f24db436216f031cd93d，两README不变。root全文核14930B实际报告/SHA4f7ef14f…及原process55665B/a7c42cca…八门、worker5170B/fe14fec8…、publication3978B/ad64051a…、diagnostics11337B/3f618651…；actual43665091373 child0、科学458.091293447s，native2a387a9d…31133B。6case/4359occurrences完整，1036新operator/integral、3323原payload逐字；原1328矩阵/6profile/旧local/真实1079seam0重算。各R完整negative/positive、九词/五mean、负primitive来源和failed-path域全保；case1/50自然5630289B/6324952d…仅原artifact未connector读取。最大正local在原piece2549/common793首外格，负local在2548/common778；不能从大upper反推真实无解。最新已核真pull02:00:43.915137→42d3d349…两README空。phase续同一根片完整source与真实partition，原seam/正port/ν及非线性未授。
