@@ -39,3 +39,6 @@ SN原7784389e781647df193ce31f5f2eff62a15954af/16477/53a933e583ea6d0f0691f807f2b6
 独推e1af6de6c25643fd1e7669824ca4db2c52155eaa/21714/a66ad4c41c831a1d5efd343874c11945edd4cc2b04a39752ddd99d8b16aa72ff；CG3–5原own-row leading和offdiag S给exact own A1 quotient，KL已成公共numerator只除ST cut ng一次；Ccut三导及SJ真dr c经H全density的g三导分别估计，完整C只正和，旧profile/ray/预算禁重。
 三独立乘子窗保mean；fullsigned Cauchy–Schwarz给39/32与243/160，C_I²=17^(2/3)/16给p_H及IC dual，两个p∞候选与条件第三候选不混域。WY两I/两rank/腰P rank、TF有限补/两窗与S selected范围原序保。仅将dual常数a2改名C_I²避免与FA第二jet同名，并把CG10的SJ指向已发布32f770/ccaaa；三十式数理不变。
 只读ff40f57d8c0df767cc8780e93c787045087f834a两README未变；TF原43766881076/1已成功、actual稿待登记，SJ仍待新数值，CG保持条件。继续原SN/SC3与SJ/CG，完整incoming/Schur及总验收未达。
+
+- 2026-11-15 22:10:21 UTC TFA实际6e11a160独推：原43766881076/1的14门、12pins/3AST/9math/7全copy及20完整标量核齐，preGit24430/5661588a逐字重建。
+- JF1024/同一双窗逆与finite1215、mean及before/after费用齐；Cσ/Eσ/incoming/Schur仍待，旧数学禁重。两README在c8ccf1c36b7b971695ee4eb115ca4d3bb2abe659核空diff，保持继续。

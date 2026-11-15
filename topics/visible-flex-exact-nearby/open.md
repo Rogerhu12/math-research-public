@@ -96,7 +96,7 @@ AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ全部已成，21first+10mean、18正coeff/六true-d
 
 [KL实际同Ai幅度逆](results/R133-supplement-actual-correlated-terminal-Ai-leading-scalar.md)2ac6e803/43766439345/1 child0/16锁；解析dc48bdb4与14pins/2AST/11math/10完整copy/14球/SCI/preGit保proof。fullδ1e−8、两ε两σ同模KΛ<10.611，完整R0相关消、仅WX forward与off-bump根短预算，公共numerator原球保存。ng0一次、右Λ^-1TF^-1S^-1及U_X−σ原序、两mean/finite保；optional left/TF/SF/三系数窗/incoming/Schur仍分别待。
 
-[TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c：F*=β*u*v/η*真degree192，WL原B*/7/19与FA full-complex η lower给F_A，root off-bump域不移row790。J_F≥max(192,97,ceil4F_A)使同一TF逆L2≤16/15、H−4/3≤16/13，完整forward也付；finite F_J≤J_F+191及mean保，右乘后不冒有限input，two-I/dual-row费原序。新consumer已部署SCIbf71639d/worker17f825e6/manifest027a4462，12pins/3AST/14门、仅两旧science，无native；唯一push run待识别。实际F_A/J_F仍待；Cσ/Eσ/incoming/Schur独立。
+[TF完整共同根正规化](results/R133-supplement-complete-common-root-normalizer-from-saved-bounds.md)652a9a2c/[TFA实际双窗](results/R133-supplement-actual-complete-common-root-normalizer-and-two-window-inverse.md)6e11a160：原43766881076/1 child0/14成功锁，12pins/3AST/9math/7全copy/20标量与SCI/preGit全保proof；F_A<185、JF1024，同一逆L2<1.048/负4/3<1.061及forward齐。finite≤1215与mean保，右乘后不冒有限input；two-I/finite完整before/after费用分别保存，禁二次乘逆。原degree192/full-complex域不移，Cσ/Eσ/incoming/Schur独立。
 
 [CG分开首系数与完整rank](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)a66ad4c4：own-row A1/κ和KL已存numerator/ST ngcut→Ccut三导；SJ真实完整c积分经H density→g三导，C=Ccut+g不倒扣upper。各自三乘子窗、C_I² dual、两p∞完整候选、WY两rank/独立腰P rank及TF/S原序费用齐。SJ actual未齐前不启动CG，完整mean/finite/其它reference与state-error独立。
 

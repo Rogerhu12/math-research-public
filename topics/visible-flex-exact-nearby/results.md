@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [TFA：实际共同根正规化与同一双窗逆](results/R133-supplement-actual-complete-common-root-normalizer-and-two-window-inverse.md) `6e11a160`：唯一公开Actions `43766881076/1`、14/14门成功；完整根系数给出 `J_F=1024`，同一逆的 L2 与 H−4/3 界分别小于1.048、1.061。原有限补项≤1215、两physical mean、two-I中间窗与原右乘次序全部保留；before/after费用各自保存，旧成功数学零重算。
+
 - [CG：分别估计 cut 与传播首系数及完整 rank 费用](results/R133-supplement-separate-cut-and-propagated-first-coefficient-budgets.md)（2026-11-15，`a66ad4c41c831a1d5efd343874c11945edd4cc2b04a39752ddd99d8b16aa72ff`）：用原FA own-row A1、κ逆 jets和已成KL root-short numerator逐式得到 Ccut 的三阶列（导数0..2），用SJ完整真dr积分得到 g 的对应三列；C=Ccut+g、各自三乘子窗口、primitive dual rows、WY双rank/腰部projection与TF/S有序费用保完整 mean 和 finite。只解析新公式，需SJ及独立TF actual 后才能作完整数值消费；不从总upper倒扣、不冒incoming/Schur。
 
 - [KLA：实际完整 terminal-Ai 首项幅度逆](results/R133-supplement-actual-correlated-terminal-Ai-leading-scalar.md)（2026-11-15，`2ac6e80364f022ae12c7523eb9b3399dac46127b137509ae394ff99be79f8b6d`）：原公开43766439345/1单child0、16门全过，14pins/2AST完整；full |δ|≤1e−8 的同terminal-Ai列四sign/wave共享 KΛ<10.611，L²/H−1/3/H−4/3同一乘子，完整R0保留且ng0仅一次。新根短预算、公共numerator及全部14球保原SCI；true U_X−σ receiver 与右Λ^-1TF^-1S^-1原序、finite/两mean保，未宣称incoming/Schur。
