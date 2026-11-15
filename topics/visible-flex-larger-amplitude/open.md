@@ -49,7 +49,9 @@ R296/R301/R307/R316/R320/R329保存134–149全部原批次、末九p、半径�
 
 [R351](results/R351-literal-seven-state-adjoint-and-C2-control-response.md)已证原698cell七状态(r与三个2模态)的完整三列离散伴随。局部7×10变分保r/mid/sqrt及终端112耦合、直接q_N和start项；对实际零jetshape收缩δq=(ah′−a′h)/a²，原物理导数坐标链不可漏。准确旧响应左零空间须被新增响应消去才补秩，函数线性独立不自动足够；形成线性系统/Decimal舍入/准确实数对象分清。
 
-[R351 helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)source12a95d40已发表，完整698×7×10局部、112×8末端与三列反传/共享q散射及旧九对照；原形成词差和未付精度/rank保。164由amplitude重建原末p50，以三个原支撑上k=3,4的六个明确C²零jet函数获取实际三响应，再进入独立真正十坐标族，用fresh forward定符号、原full3/域/strict slope/字面c_A及Armijo真实试探；初末十列FD和全部终态仍付。有限空池或近词尾小步不证函数空间驻点，不能换参冒补秩或漏完整112耦合。
+[R351 helper接口](notes/2026-11-15-literal-seven-state-adjoint-and-new-shape-interface.md)source12a95d40保698×7×10/112×8、三列反传/共享q散射和旧九对照。[164接口](notes/2026-11-15-request164-adjoint-selected-ten-control-interface.md)九件已发布，112直接源+10支持源，真实消费41→45；重建actual157末九p50，三个原支撑各k=3,4共六个C²零jet候选取实际完整三响应，再进入独立十坐标族。fresh十列forward定第十方向符号，旧九方向为0；原full3/域/strict slope/字面c_A及20档Armijo不变，初末十列120项FD与fresh Arb160/原square453/circle/full112/FFT终态均保。
+
+164 producer及全child各2400s、TERM90s、reader300s/30s、science50min/job65min；资源止/结构错误保原状态，单份≤90KB必要标量，大表仅身份，无raw上传。新shape表仍为binary64采样再准确提升，非高精连续函数证书；有限空池/全拒/近词尾小步不证函数空间驻点。原nine optimizer不再跑，旧module只用于完整来源绑定，不把十维发给旧九维owner；当前run及R364由amplitude核，全部非线性native/闭场成功仍未预填。
 
 ## 3. 原连续C、公共坐标及当前C完整BVP
 

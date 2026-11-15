@@ -1,0 +1,194 @@
+{
+  "schema": "R259-actual157-to-independent-selected-ten-control-recipe-v1",
+  "origin": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43729310294",
+    "source_commit": "c71cbeac7fd13c65cf50c7eb39842e9949737b25",
+    "producer_file": "geometry_20261115_small_core_nine_control_decimal_residual_quadratic_recipe.py",
+    "producer_sha256": "54167dff0ce67e9f8fe0fa5d2899c35f0f99534077f2530d90b296eee7537100",
+    "producer_schema": "R259-nine-control-persistent-decimal50-residual-quadratic-square-trust-v1",
+    "status_bytes": 51842612,
+    "status_sha256": "931b013b6cfaba4215065e0734c129ba2089662273427f7ebecc5df4f35ee2b0",
+    "log_summary_bytes": 89063,
+    "log_summary_sha256": "7411fd01db054215e5d22293f6a4c239aa482302bf75b4da123f35d500d0cad2",
+    "chain_bytes": 29684,
+    "chain_sha256": "9d8bf161d9b88c0c411d326b1717fd2d32332a49534041ebd495b673a35652bd",
+    "parameter_field": "final.parameters",
+    "radius_field": "final_relative_trust_radius"
+  },
+  "original_nine_literal_parameters": [
+    "0.30552142546786087419329326763885317892313777930545",
+    "0.21644987290946319325196797861927627381324526334114",
+    "0.34270150727769461288268268825412573632054712673319",
+    "-0.063223623342288894213621979760433326917938764055697",
+    "-0.017474541697462463794792191406211542045739295377083",
+    "0.93761104499027068067117010211647732552611947830979",
+    "1.0751309729055790270477681013298138652831191583353",
+    "0.68868893897292614021176494008067699691013641552647",
+    "0.93853282406083699927458787857662556746972349511891"
+  ],
+  "parent_relative_trust_radius": "0.0000390625",
+  "expected_original_literal_binding": {
+    "actual_binary64_input_table_words_still_only_lifted": true,
+    "arrays": {
+      "base": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "5a26da19688c7d77b9c20bc3d90f39b4b84038788ed4bc696b724c512ccd96dd",
+        "shape": [
+          699,
+          2
+        ]
+      },
+      "base_mid": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "0c375941ce46d907c4b8b4532a97a8721f88e582473dce891f41922191173703",
+        "shape": [
+          698,
+          2
+        ]
+      },
+      "controls": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "6523f85bd59aeb25c1e9f3d791d9ac79ef1408b007731a3c91d060466c265f2a",
+        "shape": [
+          699,
+          2,
+          9
+        ]
+      },
+      "controls_mid": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "532a6ddb558dab6dce208ebc8e2f79aa52a2ac6c3739a5c7aa727818ba7cc8e6",
+        "shape": [
+          698,
+          2,
+          9
+        ]
+      },
+      "frequency": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "51c16f13beb17c892ed884b329f39d62a6d4318ec7f3d0004f24dcb18872c76f",
+        "shape": [
+          3
+        ]
+      },
+      "h": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "ee6981d6d293a1d067fd7fb53e4ea4ea93b1a4e7406364a3dc503c83162266e7",
+        "shape": [
+          698
+        ]
+      },
+      "mesh": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "3b837d4580a1dff2575208ef6fc76bc19021e744eb6b37277040a2fbc9eb350e",
+        "shape": [
+          699
+        ]
+      },
+      "mid": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "f06f265bd25b0d1d499f94b984caca930f00e357348a8d58372f2875430d263f",
+        "shape": [
+          698
+        ]
+      },
+      "native_slope_J": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "44039f96cb20b0edca76a843a44f40235fbfbf72c19093a12a212c1cf6eb655d",
+        "shape": [
+          112,
+          112
+        ]
+      },
+      "target": {
+        "dtype": "float64",
+        "exact_Decimal_from_float_lift": true,
+        "raw_C_order_sha256": "8ca034c42495150b10a778e9cad2a338837e06c275b36490301f0b656c181585",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "canonical_binding_sha256": "cc10a080eafa19e282ca22cefa62af57dadaf0ab19e54b0a4e6f7e7188ec32d3",
+    "complete_original_tail_J_consumed": true,
+    "continuous_metric_or_interval_roundoff_certificate_claimed": false,
+    "cut_scale_exact_binary64_lift": "0.99681527853612494904922414207248948514461517333984375",
+    "decimal_digits": 50,
+    "exactly_diagonal_as_original_record": true,
+    "field_and_tail_modes": 112,
+    "forward_is_real_expression_variation_not_discrete_rounding_derivative": true,
+    "height_sign_exact_binary64_lift": "-1",
+    "input_table_formation_recomputed_in_higher_precision": false,
+    "original149_literal_model_binding_sha256": "c201e4b709df8f6cf1be61b0d71b19732b4a3cb78b1e56d799f10db1c7760368",
+    "original149_primal_body_reused_without_replacement": true,
+    "original149_primal_source_sha256": "2422be0c2e30d10c38b56ff7b68412c5397d37ed36451676bb16acbdc142ef75",
+    "original_mesh_nodes": 699,
+    "original_three_frequencies": [
+      2,
+      4,
+      6
+    ],
+    "parameter_dimension": 9,
+    "rounding": "ROUND_HALF_EVEN",
+    "schema": "nine-control-persistent-decimal50-literal-circle-model-v1",
+    "second_variation_all9_axes_and45_pairs": true,
+    "second_variation_schema": "nine-control-decimal50-complete-second-forward-v1",
+    "solve2_is_same_real_linear_system_not_the_old_LAPACK_rounding_path": true
+  },
+  "input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "policy": {
+    "catalogue_support_indices": [
+      0,
+      1,
+      2
+    ],
+    "catalogue_powers": [
+      3,
+      4
+    ],
+    "candidate_order": "support-major, then k3/k4",
+    "selected_new_parameter_dimension": 1,
+    "complete_parameter_dimension": 10,
+    "old_nine_coefficients_held_fixed_in_this_experiment": true,
+    "score": "abs(F dot adjoint_response3)/max(1, response3_L2)",
+    "selected_sign_reformed_from_actual_new_model_forward_response": true,
+    "initial_absolute_xi_step": "0.01",
+    "original_real_backtrack_budget": 20,
+    "complete_original_three_merit_and_binary64_lift_Armijo": true,
+    "inner_normal_path_used": false,
+    "one_bounded_actual_new_shape_direction": true,
+    "parent_radius_is_provenance_only": true,
+    "extra_response_accuracy_or_rank_gate": false
+  },
+  "initial_added_parameter": "0",
+  "parameter_scope": {
+    "actual157_nine_Decimal50_words_are_numerical_inputs": true,
+    "no_old_status_or_deleted_primal_payload_is_required": true,
+    "original_nine_table_definition_reconstructed_and_bound": true,
+    "parent_J_merit_FD_or_state_not_adopted": true,
+    "extra_shape_is_not_an_old_nine_parameter": true,
+    "catalogue_selection_is_a_new_explicit_finite_experiment": true,
+    "original_parent_radius_is_only_recorded_not_applied": true,
+    "new_Decimal50_words_not_claimed_as_certified_real_values": true
+  },
+  "scientific_provenance_result_numbers": [
+    "R340",
+    "R350",
+    "R351"
+  ]
+}
