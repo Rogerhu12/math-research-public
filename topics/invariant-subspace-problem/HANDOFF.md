@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a45522c15cdd90a16e6c9ef3fc119328d10cfeda（2026-11-15 20:09:28 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** cb5e57c3f333658caaf6aa57eb5fb407a77c1691（2026-11-15 20:09:55 UTC，Actions run43756483422实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43756483422-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论实际终端push；非快进立刻pull --rebase再推直到成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅源码、参数、run、SHA、小回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。当前本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -25,9 +25,9 @@
 
 ## 活跃执行与恢复
 
-- 旧run43740928483自17:24:27运行170分钟loop/180分钟job，前18步actual完成，约20:14结束。新350分钟loop/360分钟job已排，由exact-continuation-session源码/request接替；每30分钟/每步/推前实际pull核两README。新run号待实际dispatch回执，未假定跨job临时缓存。
+- 旧run43740928483自17:24:27运行170分钟loop/180分钟job，前18步actual完成，约20:14结束。新run43756208221已20:06:58启动，350分钟loop/360分钟job，由exact-continuation-session源码/request接替；每30分钟/每步/推前实际pull核两README。第五原重算及8phase/manifest全SHA恢复已actual成功；其余依赖继续核。
 - 新job只重原第五、P、常高、第六、第七高/低；每段新数学仍全原乘回、单独记录真实用时。恢复助手仅还原gzip时间和旧receipt明确给的RREF用时元数据，所有phase及manifest全旧bytes/SHA成功才接受；不改任何数学条目、不上传大数据。未完成恢复的依赖步不执行。源码/参数见notes/2026-11-15-r150-exact-continuation-session-request-789f.json。
-- 最新第七binding8a9a52e60045cb4124f90e73ce2cb210d98f88acae2802287bd5e17a56d2ab42；4120×16pack逻辑17e518267cd5a1091cf5dccdeaf39f2645020bd6a967ce4b4df1dad26481f43f。第八待实际强迫。原多项式P core56×22另排300秒/2GiB，无历史大输入；先核原17式/224×13核/119×22乘回和degree/height，再续全行模gcd，不预填Ω或Q60。
+- 最新第七binding8a9a52e60045cb4124f90e73ce2cb210d98f88acae2802287bd5e17a56d2ab42；4120×16pack逻辑17e518267cd5a1091cf5dccdeaf39f2645020bd6a967ce4b4df1dad26481f43f。第八真实高forcing已排90秒/2GiB（outer130），显式保两高项与11incoming的λ7高系数，先全99008原低阶乘回；不预填高零或β8。原多项式P core56×22另排300秒/2GiB，无历史大输入；先核原17式/224×13核/119×22乘回和degree/height，再续全行模gcd，不预填Ω或Q60。
 - 全源码/参数/run/SHA小回执保notes/r150-source-kernel-session-789f/；旧执行和所有缓存名、精确阶段SHA保[本次归档](notes/2026-11-15-handoff-before-infinity-seventh63-789f.md)及正式稿。旧已结束job临时数据不可假用。根独占main/H/open/results/log逐结论实际push；代理交冻结稿。
 
 ## 同一个w的边界：测试已控，完整返回仍开
