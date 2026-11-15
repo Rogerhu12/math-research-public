@@ -157,3 +157,7 @@ SCI942db5ef…、worker6512b038…、26pin manifest0d036c7209c0b1f7a61c5eb5e997f
 ### 真reference完整有序源及whole相关消去已成；实际预算继续
 
 [G1–36](results/R133-supplement-ordered-genuine-reference-sources-and-whole-domain-correlated-forcing.md)已保μC/三local/六oldcircle/五mean/物理两源/全部seams，完整source类型明确。whole signed Δw/Δμ/ΔT 与Vrad先取消共同径向项，原z0势在离根仍差−32Kηα0/κ²。下一新消费者只取原已成fold/leading/mean/potential做同域相关预算与完整两尾，先核image和gap再谈新半径。G15所有输出真实两列范数、实际正graph、强返回数值仍独立，不由原HV或实列界替代。
+
+### 新fixed-stop同对象94链已成；实际graph初入口与全Schur继续
+
+[P1–27](results/R119-supplement-new-fixed-stop-small-width-cap-and-full-94-step-chain.md)现在用实际X/H而非抽象帽输入，全部复标签球限制共同反射a_-m=a_m，原C8/C24/C29与R§5保证tail/逆/每step同域。新far残差<2^-5280041760只是准确强角斜率，不等于Nash普通三径源或augmented端口范数。tail接同B界面实际lifting、完整κ mean与一个λ、physical wB/新ρ/ε/有限高norm，再核reference graph低球/initial threshold；inner γ选择与B/Cmean/phase/ν仍独立。
