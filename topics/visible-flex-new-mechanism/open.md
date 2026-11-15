@@ -142,7 +142,7 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根15只留源码/参数/run/SHA/结论；终端13:20恢复，已重建两partial检出并实际pull，恢复终端Git。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
+根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
 ### R275/R278：旧双斜率障碍已定位，第三斜率带来真实新方向
 
@@ -159,10 +159,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R288](results/R288-cross-packet-third-locality-and-automatic-canonical-first-end-layers.md)在当前真实profile紧且不交的解析类，原R56跨包Cij整体局域，diagonal真左尾的三历史矩由actual universal whole pure逐个消去；因此R283所有内部Q_e自动0，两mixed目标不再有一次指数端障碍。真实尾并未消失，不用面积/能量冒推。下一支付原平台P″/零端flux与内部p/A退化；仅导数分包旧step圆或新增任意第三初值不在此证明范围。
 
-### R286 两余门已由R287支付
+### R287/R290：已付两乘积，负二平方的完整余门已提取
 
-[R286](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)完整六式保全D尾及I2低阶；U/V已由R287真实两χ七量根支付，不再另待解。固定单χ共线仍真，不能凭增加同χ位置宣任意新门可控。
-
-### R287 已支付两乘积；继续其余真实系数
-
-[R287](results/R287-two-even-oscillation-shapes-pay-the-complete-mixed-Gaussian-product.md)已在同F用两χ和14原交替包给七量真实正锥/有限N根，联立付H0/H1/H2/Lc/Mc/U/V。当前同一解析圆保全部72面积、六能量、整个E−3²及E−3E−2；不是32量满控，每固定χ七量位置rank6。下一处理E−2²等其余八乘积的完整低阶项、角式与兼容；全principal跨χ仍须看真实普遍关系，不凭数量宣控制。端Q/零一层/同w另欠。
+R287原两χ七量有限N根已付H/L/M/U/V，保72面积/六能量及整个E−3²、E−3E−2。[R290](results/R290-complete-minus-two-Gaussian-square-and-fixed-low-jet-remainders.md)保原primitive/I2，证明初始小κ区间的完整E−2²低阶组合属原F、额外even角归已付总A01；准确余三sin²标量，未宣它们自动零。下一用R289全部主空间和R291完整关系同时处理32必要量真实基线，再付其他角与余七乘积。零一层、完整period/同w和主几何门仍欠。
