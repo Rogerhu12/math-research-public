@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "df1503a1f12b6c0919c6113cb14aaf3d174e93a5",
+  "rulesReadAtCommit": "27063dd2cbf37b57908bdb4c665e7a9ea8e6ed98",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -235,6 +235,43 @@
       ],
       "timeoutSeconds": 60,
       "receiptPath": "{work}/root2-fourth-complete210-preparation/root2-fourth-complete210-source-preparation-receipt.json"
+    },
+    {
+      "id": "original127-primitive-input-recovery",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-primitive-input-recovery-789f.py",
+      "scriptSHA256": "f1ee8d148bc245497eeb64f77edb83bb1b88e8452de7380ae3a2ae76bf8173e0",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--receipt",
+        "{work}/original127-inputs/original127-primitive-input-recovery-receipt.json"
+      ],
+      "timeoutSeconds": 180,
+      "receiptPath": "{work}/original127-inputs/original127-primitive-input-recovery-receipt.json"
+    },
+    {
+      "id": "original127-original-model",
+      "requires": [
+        "original127-primitive-input-recovery",
+        "restore-original197-minimal-historical-inputs"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-model-789f.py",
+      "scriptSHA256": "76bcb04088c106271881a0dbb13eed508e52bf315830b85ff04e1cbf8776f784",
+      "sources": [],
+      "argv": [
+        "--primitive",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--original-model",
+        "{work}/global197-original-inputs/model.txt",
+        "--out",
+        "{work}/original127-model"
+      ],
+      "timeoutSeconds": 60,
+      "receiptPath": "{work}/original127-model/original127-model-receipt.json"
     }
   ]
 }
