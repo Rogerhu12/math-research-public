@@ -164,3 +164,56 @@ ed18d659840b5a90ed42f5caeb2073738846ff44ce5718e443e6723a5461a3c3
 ~~~
 [实际小回执](../notes/r150-infinity-remote-session-789f/43702348535-zero-fifth-third-square-readout.json)
 保存输入身份、完整校正验证、两组实际读数及准确未提升范围。
+
+
+## 5. 同一完整五阶截断的四、五阶平方读数也为零
+
+为构建第六页，程序从同一实际第五页的四个临时 high/low 检查点读取完整数据，按原生产者 binding 验证后，重建七条固定五阶 cochain。所有先前规范哈希、全部原来源身份及 leading 方向保持；这一步没有新增连接秩结论。
+
+令 $H_4,H_5\in\mathbb Q^{585\times7}$ 为重建后的实际四、五阶低目标系数。第五页加入四阶系数的 $QB$ 项只支持一次横向；三次横向目标部分不读二次平方坐标。因此源码直接取得完整系数而非部分代表，并精确得到
+$$
+\boxed{
+\left(\lambda_{4,k}(n_j^2)\right)_{j,k}
+=\left(\lambda_{5,k}(n_j^2)\right)_{j,k}
+=0_{9\times7}.
+}
+\tag{5.1}
+$$
+结合先前全部系数，对每个固定第五页 cochain 有准确多项式恒等式
+$$
+\boxed{
+\lambda_{\le5}(s)^{\mathsf T}n_j^2=0,\qquad
+\lambda_{\le5}(s)^{\mathsf T}h_0(s)n_j^2=0
+\quad(2\le j\le10).
+}
+\tag{5.2}
+$$
+这比仅报某个下一系数为零更明确，但仍然是固定截断的配对，不是完整左零向量或成员性证书。
+
+若后续扩展保持此处零至五阶系数，或只加入已说明的不读平方坐标的一次横向歧义，则目标配对的首个新可能项来自
+$$
+s^9[s^3]h_0\,\lambda_6(n_j^2).
+\tag{5.3}
+$$
+要把它用于否定成员性，仍须核实相应阶数的全部原左方程；不能只凭 (5.3) 的预读数作结论。允许改变更低 cochain 代表的其他分支，也不由本节自动覆盖。
+
+实际 [cochain 准备源码](../notes/2026-11-15-r150-zero-paid-fifth-cochain-export-789f.py)
+SHA256 为
+~~~
+f2e03d6c07e301c85f8c48358d4eefa2cdc201124b0cf32ca469c25005839fae
+~~~
+run43702348535，step zero-paid-fifth-cochain-export，执行源码提交
+846daedbd85a3644a1b1bcccc48b7168de21d430；数学11.027009277000616秒，墙钟11.091623395999704秒，退出码0。四个 $9\times7$ 二至五阶读数的 SHA256 均为
+~~~
+50781d98bb92faafbe14ada9db16b30b1c1142776f5cbfb941b73489f02829a6
+~~~
+临时 $4738\times7$ 完整有理 cochain 包的规范矩阵 SHA256：
+~~~
+cf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640
+~~~
+完整临时小回执23197字节，SHA256：
+~~~
+6235424955208f4fdc7a22d995c3eaf54f8d37ed17badaaadd1413c5bba8bf7b
+~~~
+[已发表小记录](../notes/r150-infinity-remote-session-789f/43702348535-zero-paid-fifth-cochain-export.json)
+保存实际四个阶段的读取身份、所有 cochain 分块哈希和四组零读数。完整可重算矩阵只保于同一临时工作会话。

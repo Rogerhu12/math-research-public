@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** f9d8da4e9a7b783caa51b6da4790c473fe471920（2026-11-15 11:13:05 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 5dd7567178a31ff12825b383bbb3e2ff08198928（2026-11-15 11:18:36 UTC，Actions run43708281128实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43708281128-1.json。
 - 根独占main/H/open/results/log；代理只交独占稿。每结论立即真实push；每推前/至少每小时实际pull，逐次核两README，只读新差异立即遵守，已读commit记此。非快进立即pull --rebase再推，循环不force。
 - 授权只在Rogerhu12/math-research-public；token仅CLI临时环境，不落文件。当前根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7，课题blob4d6570e9cf346431ab781a1290076a6321aaaa00。规则15：可重算数据不放Git/Release/大工件，不分片绕5MB；只源码/参数/run/SHA/小结，topic≤200MB。规则8仅API时只小文本<100KB，不传编码二进制。
 - MD≤100KB、H≤10000B、log每条≤5行，数学美元符，不写根LOG。规则12无额外审核门槛。Actions约4核16GB、job≤6h、账号≤20；各数学限额为具体自选预算。
@@ -43,7 +43,7 @@ M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前
 - 新发布仅保最近两次pull及全部pull日志的累计SHA，不累积长历史；写checkout前核100KB。原数学回执/数组不改。每结论真实push，每pull核两README并更新本H。
 - [完整三normal合法核](results/R150-appendix-infinity-third-complete-cubic-normal-legal-kernel.md)已付H3rank988/null2、free164/494，全部degree5三normal坐标零；当前两端第五完整规范均保临时检查点，不重旧大正常形。
 - Q第二已成22头，临时目录selected-natural-second-left-regauged；binding c40049455e9f310607586b55cc271ca00636dc954f0de63693d0da886a6d067e。完整36RHS单位解18,124,389B/SHA9c3b02d2674af645ffcfd5297cf5c9ac287fe314d0c40f49c8bb99be9396352d已保存，后继先求normal4在旧1736零行的新核，只为真新方向续解，不重95.542秒解；旧HF/T及两E/33+36自由保留。
-- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：λ2原9×3/现9×7及λ3原9×12/现9×7全零；只当前固定17条left5无障碍，未付成员性/left6。第六须保H4/H5及全部2805顶行；cochain-export f2e03d6c已排30秒/512MiB，读原四phase不改旧manifest，真4738×7 pack及λ4/5平方读数先付。
+- [九原平方配对](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)：七条固定left5的λ0…λ5与九n_j²全部配对零，故整截断λ≤5·h0n_j²恒零；仍非成员性。实际4738×7 pack逻辑SHAcf952faf51a2e17fe9b5d668ac8d9c171ce299d0d3a413e5808053640ce94640已在zero-sixth-preparation（11.027009277秒）。完整第六driver a6c423b9已排300秒/2GiB/through final；保2805顶行、全H4/H5核、中/低层完整运输及全6188乘回，各层可续，未预填新秩。
 - Dixon/p768/29曲线旧大数组已丢；只在实际后继需要时最小重建。
 
 ## 其余未闭
