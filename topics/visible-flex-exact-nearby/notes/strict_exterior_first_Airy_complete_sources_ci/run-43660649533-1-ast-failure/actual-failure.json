@@ -1,0 +1,41 @@
+{
+  "kind": "original_actual_public_AST_failure_before_any_mathematics",
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43660649533",
+  "run_attempt": "1",
+  "job_id": "132648980798",
+  "workflow_event_commit": "90cd9d299294fe11fad947541fd308fd7cd7f380",
+  "actual_checkout_commit": "7e9968efc21137cefb028502ee211d1293011b38",
+  "actual_failure_time_UTC": "2026-11-15T00:56:37.2057324Z",
+  "actual_step": "Parse the complete pinned Python source closure without running mathematics",
+  "actual_exception": "SyntaxError: '(' was never closed",
+  "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_exterior_first_Airy_complete_sources.py",
+  "original_source_sha256": "4c3af703ad2165c8efc87d6f4f946c7aa5fe4beddcc5931f9071db7665736817",
+  "original_manifest_sha256": "84a2491539a0ed064f24ff6d3da5c6c50dc6b7f51f35e8f8d9985f9a20fa6ade",
+  "actual_diagnostic_line": 534,
+  "exact_missing_close_location": 536,
+  "actual_repository_hydration_completed": true,
+  "exact_hydrated_repository_inputs": 27,
+  "separately_pinned_worker_hash_check_passed": true,
+  "numerical_runtime_install_started": false,
+  "mathematical_child_started": false,
+  "new_mathematical_stages": 0,
+  "successful_new_mathematical_prefixes": 0,
+  "publication_worker_run_mode_started": false,
+  "mathematical_native_or_process_created": false,
+  "artifact_upload_step_skipped_before_result_path_step": true,
+  "original_job_log": {
+    "path": "topics/visible-flex-exact-nearby/notes/strict_exterior_first_Airy_complete_sources_ci/run-43660649533-1-ast-failure/actual-job.log",
+    "bytes": 30770,
+    "sha256": "1a082d995aa05c646fcbee24bedf7fa3ad72bd1059bf3bdd45f48cb3fd3fd33e",
+    "blob": "9def7ce9ec18ccd69bb8ee724219f480ec79c7fd"
+  },
+  "repair": {
+    "scope": "one literal closing parenthesis; no mathematical formula or input changes",
+    "source_sha256": "d4ea7d15874d602a833cf23c3ff48739974e41f2ca922a62da7ca2563ee9f768",
+    "manifest_sha256": "6456b7fb5a3313b38f73e6e97116b023804778ee88cce5fec20f6a5f9dc17cba",
+    "unchanged_input_pins": 26,
+    "CI_worker_and_all_old_successful_science_unchanged": true
+  },
+  "status": "Actual syntax failure is preserved. It is not a failed mathematical inequality and it has no computed prefix to rerun."
+}

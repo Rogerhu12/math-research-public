@@ -533,7 +533,7 @@ def main():
             checkpoint()
         gate("all six actual exterior radii have complete local nine-term nonlocal and independent-mean sources",
             len(doc["cases"])==len(doc["case_stages"])==6
-            and all(c["complete"] and Q(c["exact_radius"])==RADII[i] for i,c in enumerate(doc["cases"]))
+            and all(c["complete"] and Q(c["exact_radius"])==RADII[i] for i,c in enumerate(doc["cases"])))
         gate("all original successful science remains unchanged and no full inverse or positive port was inferred",
             doc["original_target_FFT_intrinsic_coefficient_fold_ray_Taylor_and_derivative_stages_recomputed"]==0
             and doc["original_complete_matrix_words_recomputed"]==0
