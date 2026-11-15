@@ -303,3 +303,5 @@
 - [真实细角Jac一步跨过固定曲率70](notes/curvature-mixed-grid-target70-actual-result-20261115.md) — 43655713308/source d21c87a在同g/b0/163与原门下，一个LP全步即得d0d635，384/768 κ69.991076/69.991064。保3887粗行+94细行，全部物理组/遗漏违反为零；fineη.267199090914仅余9.09e−7。下一同缓存、同总预算的成功后降目标阶梯，未授连续reach或精确等距。
 
 - [R146：五族完整商协变与80起始条目](results/R146-acceleration-family-quotient-covariance-and-eighty-seeds.md) — 任意商泛函经真实端口补偿、八矩乘子及时长权分离，得到H^e[F(S_Hd)]=P[F(S)]于U/R，故ω_j=N^jω0/j!。已发表五族314条目化为80个ω0起始条目（每族16），只成员问题缩减、不宣称80维或有符号控制；下一仍只J。
+
+- [R147：第八次G平移分离与237个真实共同查询](results/R147-eighth-G-translation-and-237-query-control.md) — 真权−7的8完整原列经1原依赖成7维，原7/8有理子式证明N⁸G非成员，9≤s≤10。同一pure核总197，R8≥228、A_G/lineality/共同查询≥237，R136的J只使U≥238。4.910s/RSS125.082；下一仅N⁹G，N10G=0上界已经证明。
