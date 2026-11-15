@@ -204,3 +204,7 @@ G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；�
 ### T1–15 已成：十二阶补充仅消费已付高根
 
 root继续append-only Taylor consumer：保原75stage/原六阶行和fold8，仅补fold/leading9..14与forcing/w1 7..12、18norm和三新budget；ell/b_loc13 helper显式付。全部新数学仅公开Actions，后续接根值剥离和完整源预算。
+
+### 根值剥离标量入口已装
+
+phase兼监新b* run并接只追加Taylor science；root构建Taylor CI/manifest/worker/flow。新b*保原7完整forcing stage、根mean、所有真实seams和完整两阶导数，失败路径用原界；尚待actual，再消费新table做完整nonlocal/mean与正端口。

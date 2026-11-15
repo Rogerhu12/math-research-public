@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **R133 计算入口：精确根值剥离后的完整有向导数与 local 源。** 25个仓库文件及9个原artifact文件逐SHA冻结；原7个 normalized-forcing stage直接恢复，新7norm/1forcing尾/6profiles/4359标量行只消费已成数据。SCI `3e3bd6b66a90c1244c9b97f0e07d6cd5e15845780f80c87aee8912a41008f139`，manifest `5158bc631e1cbf3eddea6b6ad1a2e28ac2e782eea1f94da5970f1ac7c3e1c426`。完整均值与真接缝保，负实δ和正optical路径分核；实际新数值尚待run。
+
 - **R133 实际失败与最小恢复：伴随浮点网格选片。** [恢复记录](notes/2026-11-15-R133-adjoint-proposal-float-knot-recovery.md)核首run43662395328 child1/两成功输入门/0QR；原完整标量选点与失败字节保存。v2仅按格左端选原candidate片，原两端门不变，253pins保原247零变化；新runner从原artifact恢复已成selected数组，未重算原target或QR。
 
 - **R133 补充 T1–15：只追加 old-ρ Airy Taylor 七至十二阶。** [合同](results/R133-supplement-append-only-old-rho-Airy-Taylor-through-twelve.md)固定原域、原复δ与全Fourier/mean，证明新leading9..14只需已成内蕴15；保持原75stage字节，仅补缺阶、18个norm行及三份新十二阶预算。合同SHA256 `8bf949ce602ecd2dfa23ded74a78d01aa8b75881b5ccf9a5905a46512f105862`。实际新增数据尚未运行，不授strong return或完整逆。
