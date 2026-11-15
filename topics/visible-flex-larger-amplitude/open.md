@@ -132,3 +132,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 ### 3B. 固定帽连续球生产器已接真实定义
 
 [固定帽连续有理球与实际链边界](notes/2026-11-15-R281-actual-closed-cover-boundary-and-fixed-cap-balls.md)已发布：sourcea3ada50b从同SHA绑定shared plan/assembly的确切有限graph导出完整两帽位置/法向球；法向中心非单位的归一化误差、上下帽方向、支撑切触/闭disk边界全付，原H只要求有限，存储kappa仅诊断。原v3实际验静态base再用R24，并不是moving-fixed consumer；worst≤128及每坏对4子块不是完整责任表。没有实际新场/运行，不加fixture或前置门；继续活动侧完整jet球与全mixed枚举。
+
+### 1D续：原控制结构与114弯曲试探
+
+[原三控制全链结构与实际112后路线](notes/2026-11-15-small-core-control-structure-and-post112-options.md)已保存：三个p是分离支撑的scalar bump，均经q、圆半径递推和三条模态完整链作用，不能当独立模态幅度或忽略上游R传播。114保持原full3方向v，后两式目标为c(p)+αCv，完整QR法向校正与切向约束在局部保起点/初速度；真实校正残差仍交原全3门。必要的第四奇形C²零jet方向、完整3×4响应及新schema责任已写清，函数独立不冒响应补秩；尚无114实际结果。
