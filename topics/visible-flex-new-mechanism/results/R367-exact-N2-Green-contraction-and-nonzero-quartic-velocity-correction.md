@@ -1,5 +1,8 @@
 # R367：原 N2 势的完整 Green 收缩与不可删除的四次速度校正
 
+> **2026-11-15 R378 更正。** 开头对旧H非零链的引用已撤回；本稿独立N2 Green/两真尾计算不由该漏项否定。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
+
+
 日期：2026-11-15。**完整纸面推导；没有执行新的 profile 积分、原根恢复、消元、秩计算或研究运行。**
 
 [R365](R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)

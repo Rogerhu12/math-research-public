@@ -1,5 +1,8 @@
 # R365：完整 H 层的两个仿射轨道与真实总通量公式
 
+> **2026-11-15 R378 更正。** 本文显示基准式缺原−Yn的Ps/Bs链项，不能再认作完整H；补项后全部三阶平方principal抵消。独立原式协变结构保留，完整C²基准值须改用R378(14)。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
+
+
 日期：2026-11-15。**完整纸面证明；没有执行新的 profile 积分、旧根恢复、符号程序、秩计算或研究运行。**
 
 [R358](R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md) 从原 R56 恢复了完整速度一形式；

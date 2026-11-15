@@ -437,9 +437,13 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 ## R358：真实速度—加速度成本的非零总通量商类
 
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
+
 [完整证明](results/R358-nonzero-total-flux-class-of-a-true-velocity-acceleration-cost.md)，18792B/SHA256 14f7bf0f5d56fd861fb1f1aeea1aea6795ec2914aeb618d45f13727ef6eae799。原H1/H2在S*=(1,1,1)的V*=−2H1−4H2属于实际U；完整第二history导数A_s=m2使c2准确归约，ZZ原P/B两项与两真ordered尾全部保。完整速度curl的ε−9系数=−∫u″5/15360，经15/4正规因子及原affine真权得**Λ(Π−7V*)=−∫u″5/57600**。三个不交真实偶bump的r=u″零0/1矩且∫r5>0，故实际U/R非零。不是正成本障碍、不是指定路径实现或全部period不解。root全文读原R56/R73/R76/R129关键链，手核a/m2、ZZ尾、完整curl及三IBP/真权因子；原少ZZ项的未发正号草稿已纠正，无新增执行。
 
 ## R363：自然总通量的一维真实双向控制与完整低阶、空间闭合
+
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
 
 [完整证明](results/R363-actual-two-sided-total-flux-control-with-zero-lower-history-and-spatial-closure.md)，16387B/SHA256 f261a463130c68661d8c74ed489ab50bc0766220251442f0033e3eacdaa1932a。选R358真实u使H̃γ非零，任意ω下界S_B上全状态AbarΛ0。真实h/d微段γ=εψ/τ、δ=εσψ′/τ、τ=ε³ᐟ²给M=O√ε/frame近I/端scalar近S_B，Λ局部积分ε⁻³ᐟ²(cσ+O_C1ε)；所有静态/二次/四次与N0/N2费用保。R354/R70同一finite光滑桥准确回germ/frame/M0、费用O_C1(1)；仅此后用R109真history商，再整块真倒行使T0/第四2倍。单一finiteε下σ导数非零，任意Λ值和紧集光滑实际截面成立。固定M=T0frame桥/Klein词准确闭空间位移，完整基准保。非负幅拼接全真实；只一个Λ读出，不把U/R=全1维、全成本正锥或wholeE联合门冒已付。root读原R70/83/109/130/134/210/354，mechanism核ψ偶及h,d来源；无运行。
 
@@ -449,6 +453,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 ## R362：完整H2的真C²余项及权−6 pure核总Ω非零
 
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
+
 [完整证明](results/R362-full-H2-C2-remainder-and-nonzero-weight-minus-six-pure-kernel-flux.md)，13950B/SHA256 b29f166e6dd3d0e1f2813238bdc00f4fc8b1457612ddb2f9d3b5240e2e62dac2。原R358完整curl的bulk与ZZ项/两tail先准确消势，H̃δ=+4H2；唯一C³²为(1/1920)∫x(1+x²)²r(ur−v²/2)t²，全部余项ℒ+BLKγδ−2ALKδδ显式保真jA/jB/左值。两j原式降C²，再按同锚outer规则消一次t；真−6通过有限Laurent系数提取保C²余式。固定正窗口的真光滑uN→u0于C²而三导平方增长，得到严格非零。R207完整πU−6=πR−6三基只读消费，唯一坐标减Rπ给**W6⁰∈U−6∩kerπ、ΩW6⁰=ΛW6≠0**，关闭R338；−4/−2同式亦非零。未授wholeQ/真实半群。root全文手核curl、所有系数、j的两IBP、真权/正窗口，并实读R207/R338，不重旧根/秩/科学。
 
 ## 扩池小SOC保径首次实际：真实改进，新增分支未触发
@@ -457,6 +463,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 ## R365：完整H层的双仿射轨道和两个同锚全公式
 
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
+
 [完整证明](results/R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md)，14015B/SHA256 1dd8ad78aa91591b1802a545d32458520aae9d243fe5d53bc0692e19643390ae。从R358全速度一形式恢复Dγ，连同R362 Dδ逐项给所有jA/jB/左矩尾和C²余项，保YC/ZZ/history/两个ordered-tail原因子。原R89完整曲面/全场协变及三真实矩三角输运给Λ_u(PHcV)=H²Λ_Cu(V)；在(h,d)中常数线性速度/加速度输运不增H，原N2只影响velocity4。全H表达式不依赖独立k。任意S与uS(ξ)=u((ξ−d)/h)准确满足ΛH2=hDδ(uS)/15、ΛH1=−2[Dγ(uS)+kDδ(uS)]/15。两个affine轨道不称二维或全U，不授任意有限路径/几何免费变换。root完整核curl系数、真尾、原R89和反变换尺度；下一原N0/N2的Q2/Q4。
 
 ## R364：真正的局部角商与五行根支付完整PZ
@@ -464,6 +472,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 [完整证明](results/R364-local-angular-quotient-and-five-target-control-pay-the-negative-three-minus-one-product.md)，23005B/SHA256 ba0d05778a3bab7a93c65190137e8df2fdb5822b7c5c60c78213e561a21f7828。whole复三矩让原方向真紧；原DF_P2[Lq²/Uq²]保两primitive端项，18面积中的PY0/PZ2准确消A2与C2，得Ξ_PZ2=2(d+e)Re(Ksh−28eJ/[15(d+7e)])。这条C²角商确需新控制。与R359同权商det=(a−b)(d²+de+4e²)/[3(d+7e)]非零；真实母两自由/真Wact给10列低5锥，接middle6/high2成13×26正核并S5幅保持18面积、留负Ψ。末控制器从起点显式Fnew保J/K平移系数，自身额外角商0；原x4r²首项6e与三χ使36实际列全R5正锥，有限N完整五行根支付整个P²/PW/PZ。root逐DF/IBP/商代数与正核/跨块真尾手核。剩12对称函数位置不冒rank，R368续PY/ZZ；全部有限选择后才he/新几何，不继承wholeE/period。
 
 ## R366：七个独立自然总通量的真实联合满射
+
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
 
 [完整证明](results/R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md)，17661B/SHA256 14007bc7d810732f7492c0081e1d5b7e0016059a19672ba691e91b86ee284d65。完整Hγ的真−7/−5/−3/−1与Hδ的−6/−4/−2均非零：单一真实三bump负J²母在x0>0有u>0/v0/r<0且∫r5非零，一次有限C²小高频同时检出六个正C³²系数/保第七C²值。7正缩放的指数−9..−3为准确Vandermonde；原Haffine稳定和有限真权插值把7列送入真实H像。一般m维H观察满秩时，真实γδ=(ε/τ)(vψ+σwψ′)、det1/ψ偶/τ=ε3/2给双向leading；全状态AbarΛ0、完整N0/N2低项、有界回端/M桥及整块倒行保全部cost。有限ε向量IFT准确解任意紧目标，并用含固定基准向量的Klein词闭位移。故7固定自然Λ在实际M0/T0成本上覆盖R7，有紧集光滑截面。非全U/wholeE免费保持/固定g有限flex，原高阶/嵌入/reach门欠。mechanism独立核七权和单u共同见证，root完整构造。
 
@@ -492,6 +502,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 [R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md](results/R370-complete-quartic-velocity-cost-and-exact-C2-total-flux.md)。原h1、γ0、w=d_s方向的完整Qδ4=16Q04由R130为U成员；保C_A m2、−Yn/P_s链式、原三次势−∂dσ/3、非紧Green与两真实有序尾。C_A项整项抵R367的B_m2N2，原C³项准确消，self残∫er5/64与三矩项，ZZ/YC两尾各为三矩项负值；故Λ_u(Qδ4)=∫(x+d)(u″)^5/80。真−6借原R207消pure得Ω=∫x(u″)^5/80，非零。根逐式独推核心IBP/余项抵消；不授其余Q4、Q2、相对H独立或全半群控制。纸面证明未运行新计算。
 
 ## R371：H模C²像恰十二维与十三维实际联合通量控制
+
+**R378更正：本节依旧H显示式给出的具体非零/秩/控制结论已撤回；独立协变或有条件控制仅保原前提。见[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。**
 
 [R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md](results/R371-complete-H-image-modulo-C2-dimension-twelve-and-thirteen-actual-fluxes.md)。R365完整输运连−dDδ给两principal ±h^-8 p(hx+d){L或r}Et²/480。六真实d平移是Pol≤5基；uN→u0于C²且三导平方/N平均，通过任意局部二阶jet证明P/Q无隐藏关系，完整H模C²恰12。原R358真−7的−∫r5/57600非零C²，有限正伸缩投影和原affine协变使它属于H像，故全像至少13而非恰13。有限求值引理给十三固定同窗同锚profile，在actual H列上满秩；R366一般m定理给R13全部实际目标、M=T0/框架/空间闭合、物理下界及紧集光滑截面，完整Klein桥基准保留。未给数值profile/行列式界、全U、全period或固定g flex。纸证无新执行。
 
@@ -526,3 +538,7 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R379：最后ZZ第二角商与17行共同根
 
 [完整证明](results/R379-complete-ZZ-second-angular-quotient-and-the-frozen-quartic-remainder.md)。原Z输出/cubic经全部primitive与紧outer IBP得完整八系数；KZZ2=cΩO+rΩSRY1+sΩSSY1+zΩSZY0，cΩ=(d+e)(d²+3de+6e²)/(24e)>0，O=∫(q′−xq″)^4。旧18面积清后三项，不能清ReO。新主行x²αZ²的权6三角余x⁴v²=4e²；17真实同母jets/204实际正列给同有限N十七目标根，保九完整乘积和全部π/2值，唯一整个角残量cΩ ReO·sin²θcos²θ。非legal μ1μ2全式及真实self平移二导证明O全部平移系数已由Fstar固定，当前末模板严格零响应；更早弱基线Ω支付仍欠。18653B/SHA256 0a8002514b351e7947ec95ffa7986677de0ffcdcdf1be4e6b952a31a16115f22。
+
+## R378：原第三history漏项更正，H principal及真−7抵消
+
+[完整更正](results/R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。R358(23)只保Ts，原R56/R73/R109要求同时保−Yn在Ps/Bs的链式项；这与c恢复的m2不同。完整self+(2/3)有序真尾补回后新principal curl=+eQ²lEt²/128抵旧，actual H全C²；真−7新+∫r5/15360抵旧，有序尾该权0。撤回R358指定非零、R362/365完整式认定、R371维12/≥13及其具体7/13控制证明。一般条件控制/独立affine结构保留；R374不发。完整C²余值未知，未宣H0或U=R；R370全−Ψ、R350/R367各独立原式不由该漏项否定。12975B/SHA256 add9ecfc8266e742bf4ae3f909b5ad1a0d303d63bdf8faf55702a11bd97f63fb。

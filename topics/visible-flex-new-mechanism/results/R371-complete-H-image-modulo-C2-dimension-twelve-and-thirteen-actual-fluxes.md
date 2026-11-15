@@ -1,5 +1,8 @@
 # R371：完整 H 层模 C² 恰十二维、十三个独立自然通量与真实闭路联合控制
 
+> **2026-11-15 R378 更正。** 本稿“实际H模C²恰12维”撤回；修正后principal商为零。完整像至少13及相应实际13联合控制的旧证明不成立，须重新核完整C²值。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
+
+
 日期：2026-11-15。**有限纸面证明；没有执行新的积分、符号程序、数值秩、人工测试或研究计算。**
 
 [R366](R366-seven-independent-natural-fluxes-and-actual-joint-closed-path-control.md) 已证明：任意固定的有限自然通量向量，只要它在真实 H 状态值上满秩，就可由保真实全部 history、桥基准、物理下界及空间闭合的实际路径联合指定。该稿构造了七个固定读出。本稿从 [R365](R365-complete-H-layer-affine-orbits-and-exact-total-flux-functionals.md) 的两个完整泛函和真实正仿射输运，补出整个 H 像的三阶平方部分，而不只看一个状态的七个权。

@@ -1,5 +1,8 @@
 # R358：一个原速度—加速度成本的非零总通量商类
 
+> **2026-11-15 R378 更正。** 原式(23)漏第三history在Ps/Bs的链项；指定真−7的自然通量准确为零，本文非零及由此给出的非成员证明撤回。详见[完整原式更正](R378-correction-of-the-third-history-term-in-the-complete-H-flux.md)。以下旧正文保留供追溯，不作为被撤回结论的当前证明。
+
+
 日期：2026-11-15。**完整纸面证明；没有执行新的 profile 积分、原根恢复、符号消元、秩计算或科学运行。**
 
 沿 [R352](R352-ordered-three-moment-tail-map-and-natural-total-flux-quotient.md)，原完整成本空间 $U$ 上有自然读出
