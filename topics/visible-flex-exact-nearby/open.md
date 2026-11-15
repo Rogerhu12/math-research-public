@@ -112,40 +112,28 @@ S26门仅改善144导数中10项fb二径，134项/36mean保旧；不由此授str
 旧RF/forced solve/系数校准/源行/径向积分全部不重算；本段旧较松总界由下一D和P继续消费。
 
 [D两窗wholeword复用](results/R133-supplement-two-window-directed-word-reuse-for-genuine-sources.md)
-已从原KΛ完整指数lag范数证明：旧κ5/3成本同时付两真正J窗口。
-可直接读取旧43632464994半径1/1000 case的八个完整word maxima，
-不下载或重算原matrix native。用原六行正算法预算数的严格lower构成最大比率，
-乘本次已经成功的各项L²界，再作完整和/min；原g/导数/dr积分全部保持。
-SV只是同一背景operator的两窗费用，真正genuine Bj修正仍在原幅度中。
-两个外部CJ/meanfactor不误删，21 first与10 physical-mean项完整保。
-[actual directed-word复用43703879926/1](results/R133-supplement-actual-directed-word-genuine-negative-source-bounds.md)
-已success：child0/12门/math.186610706s；27pins=21current+6history，
-原C十九项不变；96分母/16比率/4组合，旧数学0，14项严格收紧。
-完整nonlocal<4.111362e14、first/pair<3.606196e16、mean<5.266503e12；
-local原3.565082e16及全部固定oldmean/两种未替换physicalmean项不变。
-两primitive继续采用原界。完整21/10项与16个q见报告，96行比率仅临时。
-当前上界由local_raw1约3.55e16主导。
-[P准确第一local向量](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)
-现已用w1=M(A,B)的原regular积分直接给P(A,B)，保非zero B(0)，
-leading intertwiner与真实E12左乘准确消去公共径向connection和未相关w1rr。
-P18的Xi由原根anchor可去，E12最后仅取b0/b0T；无upper相减。
-原S已成RT1/2000、forcing角1/128、amplitude角3/512全文核对；
-新R1/3000、角5/1024的实际像门、connection和积分预算已由
-[实际P43709396175/1](results/R133-supplement-actual-regular-transport-first-local-vector-reduction.md)
-通过：child0/13门，17pins/467721B，1旧fold+4成功receipt/18系数/31项只读。
-新q1<.483791321412289，local_raw1<1.718923711902699e16，local<1.730978416526017e16，
-first<1.772092028752768e16、完整pair<1.772092107010686e16；其它20first+10mean逐字不变。
-原外J、所有|ρ|^-1/4包络、平方权|ρ|^-1/2 dr和one-sided rootband全保。
-科学仅.004425838s；source c479/manifest8113原样，旧成功S/C/D没有重算。
-首43705772615/第三43708483581均真实0child，第二43707514815已完1child但exit/gates未知且失去临时结果；
-本次仅按用户授权恢复该lost新消费者，三原失败/两只读diag保持。
-原P现锁成功，不再执行。当前第一local仍主导，继续其真实regular结构和完整source-to-trace；
-更新g/L2消费者须读此新ledger，不得把其它项恢复到旧值，也不把volume上界当strong-return。
+及actual43703879926/1已锁定：child0/12门、27pins、96分母/16比率/4组合，旧数学0。
+κ5/3准确付两个J窗，完整21first+10mean、外CJ/meanfactor及真实dr/root包络保。
+[P准确第一local](results/R133-supplement-exact-first-local-vector-reduction-through-regular-transport.md)
+及actual43709396175/1已锁：child0/13门、17pins，q1<.483791321412289；
+旧first<1.77209203e16/pair<1.77209211e16仅旧时点，上界现被下列B收紧。
+原P首/第三0child、第二1child临时结果丢失后按授权重做，完整失败链/域/门见原报告；
+更多旧D/P细账逐字保于0453ca70f6af06098055286cf175992400faed97同页，旧成功不重算。
+
 [B正预算分离及新完整tail](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)
-已从原whole Taylor正算法和C两支min逐式证明共同正addend，可减其严格lower回读finite/rest，
-不是相减函数误差upper。首次24pin消费者已部署，P原17pin零改；仅新6个二径0..2角导完整tail、
-RT3/5000新product门与完整local1预算，保原所有mean/finite系数/n≥13/两Fourier尾和当前P全ledger。
-实际run43711480764/1（head985e20ff）进行中，新产品门/改善待核；旧S/C/D/P不重算。
+原whole Taylor纯正加和与C两支min共同addend已逐式证明，减的只是同数值预算的严格lower。
+[actual43711480764/1](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)
+现成功：child0/19门/math.006179695s，24pins688041B，P原17全保，6旧receipt/18coeff/31terms只读；
+新RT3/5000完整域通过，6二径0..2角导中3个b1严格改善、3个a1保原，全finite/n≥13/两signed Fourier尾保。
+新完整op<1.119950e15，q1<.004848651663，raw1<1.722740e14；
+local<2.928210e14、nonlocal<4.111362e14、first<7.039571e14、mean<5.266503e12、pair<7.039768e14。
+仅raw1变化，其它20first+10mean逐字P；旧Taylor/FFT/transport/profile/calibration/word/径向积分0重算。
+完整真实dr、平方rho^-1/2权、outer J与不确定根单侧包络、mean/seam/Piola保。
+现在最大项density1 RQJg<2.496417e14，其次raw1、density0 RQJg<1.605165e14、raw2<1.205471e14。
+B已锁成功，不重跑；后续g/y/q消费者须读该新ledger。
+L2实际43711568963/1 q2=1不收紧，其raw2已等于B内旧项，不需另做合并数学。
+大的volume upper不直接授strong-return，也不是算子下界。
+
 [L第二local与完整g/q相关式](results/R133-supplement-correlated-second-local-vector-and-complete-transport-amplitudes.md)
 已证2w1T+cT w1=2Cmat Z+Mv−2iεMK ZX，L2保E12只读第二分量；
 G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部mean。

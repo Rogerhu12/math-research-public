@@ -80,3 +80,9 @@ v3实际failure原因/完整log及最后报告counts只引43709951426/1 f526d0b1
 
 读main 0b038041918431c90e55c05146489ac13d9819fc两README未变。root全文审L2契约f0496e7e、SCI11940389数学及manifest/worker差，phase此前独立全文、tail独立rank复核。E12顺序、regular b、完整complex z方盒rank gap、两分量xy/y²及原1/n均保；只newR1/4000/全scalar，5成功receipt/18系数/31项原读。23pin602844B，P原17pin逐dict不变，accepted_first_local_update模式明确，不倒回D的raw1。root修唯一native hash清单路径与SCI一致（加入rank），worker仅该一行，SCI不动；最终worker2fbca963/manifestdf685783/flow3e9039f8，静态delimiter通过，actual AST在public。16门和实际结果待run；与newtail实际后只读合并。
 root已亲读Green43711315338 jobs：132803266299步骤1–6成功含AST，step7进行中，不预报preflight数学成功。
+
+## 2026-11-15 12:05:39 UTC — actual新tail19门成功独立消费
+
+读main ed4ce83df40f94bb51880401a0a228f2a0329311两README未变。root亲读execution20422f41645c2a4544bb8a0d79eddf771b45ff0386cc81b3ee97a32849586ef2/33131B、result e45666bae022c527ba46da82e72c547001f1cd25e676a3e7bcf6cd68188a130d/8711B及全报告；19门/child0/一子进程、.006179695s数学/.364547388s wall、24pins/6旧receipt/18coeff/31项全核。逐字比P仅raw1变化，20其余first+10mean/nonlocal完全同。q1 .00484865166239…，raw1 172273911175373.365…，first703957079676063.479…，combined703976779498563.761…；g两项现主导。scope继承的unchanged_amplitude宽泛label在报告明确限定，真正6新预算和3改善以表为准，成功SCI/回执不改不重跑。
+
+真实pull11:59:15.083168→d6096905两README空，容量该时197985390B/投影198027232B；预Gitstdout30308B/a4951d1d已记录。原临时native9103B/f205e4b7只哈希不持久化。root另亲读Green首processcbd0a557/16283B：12:00:23→0453ca70两README空，旧1886七门恢复，children空/无新预试断言，题当时198127072B。继续Green、g/y/q与Dδ；L2 q2=1无需额外merge数学。

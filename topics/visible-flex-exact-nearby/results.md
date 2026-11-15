@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 actual43711480764/1：第一local完整尾大幅收紧](results/R133-supplement-actual-positive-budget-first-local-Taylor-tail.md)：child0/19门，6全tail比较使3个b1二径界改善；q1<.004848651663、raw1<1.722740e14、完整pair<7.039768e14。其它20first+10mean原球不变；旧数学0重算。当前最大项转为density1 RQJg；仍仅真实volume源界。
+
 - [R133 完整第二local向量与真实rank消费契约](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)：E12先取完整第二行、xy/y²两rank与regular quotient；complex频率平方域的determinant门及新R1/4000完整预算交首次public run，原raw2的1/n只用一次，保P其余全ledger。未预报实际改善。
 
 - [R133 同正预算分离与第一local完整Taylor尾替换](results/R133-supplement-positive-budget-separation-and-refined-first-local-Taylor-tail.md)：原whole算法finite+两正尾及C两支min共同addend逐式付，严格lower只用于同数值预算，回读finite/rest后保全部尾/mean/Piola。新RT3/5000产品和6完整导数尾交public首次消费者，未预报数值改善。
