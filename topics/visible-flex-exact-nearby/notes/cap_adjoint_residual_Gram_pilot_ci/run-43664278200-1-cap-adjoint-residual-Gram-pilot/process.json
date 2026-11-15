@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete97_ordinary_adjoint_residual_Gram_pilot_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43664278200",
   "run_attempt": "1",
@@ -62,6 +62,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-15T01:44:00.594123+00:00",
+      "before": "319a16675aa5d562a4279e0e55e29ecb90c93c2f",
+      "after": "1a973e6ab0306b0fc63eb19829e4fc094ab79f21",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -69,6 +77,11 @@
       "time": "2026-11-15T01:43:11.814122+00:00",
       "final": false,
       "commit": "a92a2c40210b0deac3a7307ef9bad35323d5edae"
+    },
+    {
+      "time": "2026-11-15T01:44:00.178460+00:00",
+      "final": false,
+      "commit": "1a973e6ab0306b0fc63eb19829e4fc094ab79f21"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -110,7 +123,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "319a16675aa5d562a4279e0e55e29ecb90c93c2f",
+  "last_read_commit": "1a973e6ab0306b0fc63eb19829e4fc094ab79f21",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap-adjoint-Gram-pilot-work/science",
   "actual_input_sha256": {
     "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -143,14 +156,44 @@
     "proposal": "acb2151b60f24ad88b30e6f7d1d966851abc53c15e45df19df2bfca27c2393c7",
     "proposal-process": "44b6d5c74961398f39234d37a2215af506cad72403adb3fc97ef39f0f262e42f"
   },
-  "snapshot_utc": "2026-11-15T01:43:58.420880+00:00",
-  "wall_seconds": 92.95478719900001,
+  "snapshot_utc": "2026-11-15T01:44:00.637084+00:00",
+  "wall_seconds": 95.17099198400001,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-adjoint-quarter-0000-summary.json",
+      "file": "evidence/actual-adjoint-quarter-0000-summary.json",
+      "bytes": 17011,
+      "sha256": "dd71186f716cd897737e6cab16b0c2a4f600ce50fd355c47632758eb9935265c"
+    },
+    {
+      "logical_file": "evidence/actual-adjoint-quarter-0064-summary.json",
+      "file": "evidence/actual-adjoint-quarter-0064-summary.json",
+      "bytes": 16914,
+      "sha256": "f088468ceb18928b1e97badf6329e7b0fc3849acefb0a4304585922508d02d65"
+    },
+    {
+      "logical_file": "evidence/actual-adjoint-quarter-4096-summary.json",
+      "file": "evidence/actual-adjoint-quarter-4096-summary.json",
+      "bytes": 17019,
+      "sha256": "3bff276e4e3961a58fb10952be22b319c3255b941ee0dc442e5ab0f5ccb2359a"
+    },
+    {
+      "logical_file": "evidence/actual-adjoint-quarter-7907-summary.json",
+      "file": "evidence/actual-adjoint-quarter-7907-summary.json",
+      "bytes": 16955,
+      "sha256": "d76488ec53de6275ffe33af4839fa3dcf8faaa3ae3391b80116c24256a51384b"
+    },
     {
       "logical_file": "evidence/actual-latest-adjoint-Gram-pilot-outcome.json",
       "file": "evidence/actual-latest-adjoint-Gram-pilot-outcome.json",
       "bytes": 17135,
-      "sha256": "f98e3f38b35bff14db421a35d0abcbff628862083380cc0e9c21a5e972238582"
+      "sha256": "b6b04f768f00ebdce323cf0ffca7d9a1f6a06b8cfb02fc4fa0d8b379deab47c7"
+    },
+    {
+      "logical_file": "evidence/complete97-adjoint-residual-Gram-pilot-summary.json",
+      "file": "evidence/complete97-adjoint-residual-Gram-pilot-summary.json",
+      "bytes": 19515,
+      "sha256": "de1fc5db39f2a782df94225a62cf2b41899d0d2474dc8c6da74c564decaf4138"
     },
     {
       "logical_file": "evidence/original-artifact-downloads/14125124920.json",
@@ -304,5 +347,10 @@
     }
   ],
   "actual_completed_quarters": 4,
-  "latest_scientific_native_sha256": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb"
+  "latest_scientific_native_sha256": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+  "complete_native_sha256": "eb58b97ae182cedf621c4ff122b421ffb844e3839266a6a7d6df86b9134d8cfb",
+  "actual_scientific_gates": 9,
+  "original_complete_success_reused_without_child": false,
+  "complete_four_closed_quarter_adjoint_Gram_bounds_proved": true,
+  "finished_utc": "2026-11-15T01:44:00.186248+00:00"
 }
