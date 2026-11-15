@@ -27,9 +27,9 @@
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
 - P原gcd600 state42d998c9：19行完成/第20待约化，12basis/2416步。localized91e5d19a实际497.7846秒exit1：13原根乘回全真，57新步仍19行，basis564431bits/current629810bits，临时候选464.75MB/56245ba9，无Ω。只读2301B/b947eb34失败回执已明确MemoryError（7d9899ad）；保父根/core，先改算法，不盲加资源。
-- 新minor并发失败已立即重拉重推成功；历史字典恢复v2/五输入全核均实付，详归档。当前仅核新det，不重已付core或旧消元。
+- 新minor并发失败已立即重拉重推；历史字典恢复/五输入全核详归档。不重已付core/旧消元。
 
-- **原三minor已实际完成。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
+- **[三minor上界120](results/R150-appendix-three-exact-original-minors-outside-upper-degree120.md)。** source4ae559a6在113.562242秒完成3项、各3311整除；全原来源核，外gcd候选degree120/coeffSHA150089b4e、Ω仅已证整除它，尚无相反方向。临时upper12999B/b6c26ab0，详receipt d62c6bb6；下界消费者继续，不重core/det。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
