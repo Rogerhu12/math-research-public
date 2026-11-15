@@ -16,7 +16,7 @@
 
 103由同一failed73 BASE重新开始，首correction至多三次**原完整evaluate**测试base、−1ULP、+1ULP，全部576段/cut/far/sigma照原实现。只有实际norm同时严格小于fresh-withJ和noJ base者可作方向建议；无符合者使用同一freshJ进入完整R273。建议仍须原十档接受，选中后全拒保持原失败；后续均原完整R273。原32×10/η1/2e-9/全部域/finalJ/fresh audit不改，不额外设科学门。
 
-新proposal436cfde6和入口最终c8c072e0、独立workflow/request由amplitude交付，root正在发布。仅每次方向消费后清自身临时snapshot/factor，保原最终链；实际QR失败先给有界真实错误/trace/hash，不能只剩通用退出消息。源/参数/实际输出hash留存，不归档可重算raw。当前无103结果。
+[103完整接口](notes/2026-11-15-native-full-noJ-neighbor-proposal-interface.md)已发布：proposal436cfde6/入口c8c072e0/独立workflow1e8316e9/request984290f6。仅每次方向消费后清自身临时snapshot/factor，保原最终链；实际QR失败先给有界真实错误/trace/hash，不能只剩通用退出消息。源/参数/实际输出hash留存，不归档可重算raw。H已补唯一“规则同步记录”行，旧监控器显式采用当前已读双README，实际每45分钟pull/rebase后可更新记录；尚无103实际结果。
 
 ### 1B. 真实当前H、原FD与同live fullDN
 
@@ -30,7 +30,7 @@
 
 真实98run43677587785/source918fdb11/job132701028492模型、FD、原artifact成功；旧publisher因README变更停止。原日志α1/4接受，同W43.42621386634224→43.36604610143146，slope−.24800196273797923、ratio1.0029891422465396；原FDpass/maxrel8.408533903133078e-10。完整域/RMS/BC与nearest拒绝尚待五原件摘要，不能把日志接受当BVP完成。
 
-102首读回43680444618已核809042943B/9917774d ZIP和全部五primary，但重复producer历史使摘要474627B超90KB；[v2修复](notes/2026-11-15-request102-summary-overflow-and-explicit-readback.md)源68f7c017/workflow72fd003d/request62b06d00已推954515ff，再读同原98，不重算科学。显式保每个原trial、原失败点、31定义、RMS/BC/FD和最终标志；去重复历史，90KB不放宽。读到真实细项后立即选择下一实际查询/方向，不重旧载荷审计。
+102首读回43680444618已核809042943B/9917774d ZIP和全部五primary，但重复producer历史使摘要474627B超90KB；[v2修复](notes/2026-11-15-request102-summary-overflow-and-explicit-readback.md)源68f7c017/workflow72fd003d/request62b06d00已推954515ff，第二run43681045395仍因216637B摘要超限失败；transport及原五件成功，正在进一步只保科学必要字段并报告分节大小，不重算科学。显式保每个原trial、原失败点、31定义、RMS/BC/FD和最终标志；去重复历史，90KB不放宽。读到真实细项后立即选择下一实际查询/方向，不重旧载荷审计。
 
 ### 1D. 低三方程：105又八接受，106连续原批次
 
