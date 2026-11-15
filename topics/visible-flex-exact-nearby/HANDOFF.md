@@ -1,15 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-15 01:09:25 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-15 01:11:26 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：2026-11-15 01:07:18.332589 UTC c136bf4405b26dd8d4d754cdbb4b988f1606bc03；高根补算3次真pull/两README diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：760832f3516e1f3360ad2cf62215caccda71292d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：b3f8a118fa2613fb76ea251e2b00f26691316a56；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
-最新前H9719B在notes/2026-11-15-handoff-before-higher-intrinsic-extension.md；前H9610B在notes/2026-11-15-handoff-before-full97-Poisson-deployment.md；更早H9900B在notes/2026-11-15-handoff-before-closed-mixed-inverse.md；旧log完整在notes/2026-11-15-log-through-inner-source-deployment.md。历史链和所有原actual/native、失败/参数/逐行证明保。
+最新前H9641B在notes/2026-11-15-handoff-before-physical-cap-tail-Schur.md；前H9719B在notes/2026-11-15-handoff-before-higher-intrinsic-extension.md；前H9610B在notes/2026-11-15-handoff-before-full97-Poisson-deployment.md；更早H9900B在notes/2026-11-15-handoff-before-closed-mixed-inverse.md；旧log完整在notes/2026-11-15-log-through-inner-source-deployment.md。历史链和所有原actual/native、失败/参数/逐行证明保。
 
 ## 同一对象和总完成门
 
@@ -40,6 +40,7 @@ oldρ Taylor43653825736/20门/native18990ac2…52843B/process eebbbf37…48844B�
 ## 外返回、新简单根和闭网络：tail_connector
 
 新固定stop6460b0ae保同R/η/两bump/参数，q2→−8再平、ell0一次且D=0；旧三根逆不转授。A/P/N/O/F/J/C完整证明、双strong、独立CR/BR/Robin、全mean/源/参数与原生身份详存前H9719B。关键权仍v+=2^-464800J^-4165δ^(1073/32)，真实五盒好测度>1−93/16384、所有浅cut=max(Tj,2^131072)、深≥8193、邻Ω比<2^20；fixedCR真实v_t=M²v/mean0，actualR仅norm2。
-Y1–28完整weighted mixed差与闭非mean已证：同表示双逆权差η<2^-5800000、全非mean inverse vRv<2；actualR仅norm2，不用假的Schur酉；全high一阶源/deepF窗/finite前缀/两mean/原源保。Z1–28闭mean兼容/gauge已证：强source空间解h=g+ΔS(cλ+R0h)，保持真平端高度/total flux域；La g=0恰为兼容，真实物理常高度唯一核，规范后vRx<2。Laσ末根密度式非零，不从裸弱序列抽高度迹。新all4Z周期cap–long B1–28已证（7d1f7b1d…）：保真实B0=χmean((V−P)(D^-1/2−1))及wR²，完整L2 module、同时反馈<.9，原ac物理cap增此列χ<.821；径向角规范/四quarter位置周期另证。原入口6.600816124e−5全保；waist Bmean与Darboux荷关系、原强source/label、真实cap/νSchur继续，未完成全PDE。
+Y1–28（f6ac5411…）全mixed双逆权差<2^-5800000，非mean vRv<2，actualR仅norm2；全high一阶源/deepF/有限前缀/两mean/独立CR保。Z1–28（897a09a9…）强source空间解h=g+ΔS(cλ+R0h)，保物理平端高度/totalflux域；La g=0恰兼容，常高度唯一核，gauge后vRv<2，Laσ末根密度非零。B1–28（7d1f7b1d…）全4Z周期cap–long保真B0/wR²，完整L2 module、同时反馈<.9、原ac帽χ<.821；径向角规范/四quarter位置周期另证，入口6.600816124e−5全保。
+新物理cap–tail Sobolev L1–28：Z用H^-3/2，Cf<2^40、QZ<2^64 aBwB ε、TB<2^1200000/(aBwB)，真远端源另付根H1<2^14000；全反馈<2^-32000000，未知CR已消。原ac及C8–9转授的repair物理η0/δ0成立；完整B0/C0、raw cB、totalflux兼容τ/高度gauge保。moving负阶Hessian/fullδ、原strong源/标签、waist Bmean和ν联立仍缺。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。

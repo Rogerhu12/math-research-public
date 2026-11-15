@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **2026-11-15：完整物理cap–tail未知曲率接口已闭合。** [L1–28](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md)在Z∈H^-3/2用真实Cf、long屏蔽QZ及完整Y/Z尾逆TB，重新支付B端H^-1/2源→根Airy H1后，反馈<2^-32000000；原aBwB往返准确抵消。原ac帽及已证同物理角C8–9转授的repair/η0/δ0都适用，全部曲率mean、totalflux、raw mean斜率和源域保留；未转授moving负阶Hessian、fullδ或原strong标签。
+
 - **2026-11-15：只补缺失高根阶数实际完成。** [actual](results/R133-supplement-actual-append-only-true-root-intrinsic-jets-through-fifteen.md) run43661471951 child0/12门，44新自然stage、6新Fourier列F12..17、45新mean、E11..16及四内蕴10..15共24导数。原12列/36mean/54checks逐字保，0旧数学重算；nativeec702cff…619835B。现在具备Taylor7..12输入，尚未把高阶数据冒充新的小余项。
 
 - **2026-11-15：真帽未知high→97可由完整伴随后验认证。** [A1–29](results/R133-supplement-full-cap-adjoint-high-to-low-boundary-grams.md)在同repair/η0/δ=0推导S*=mV、physical伴随和含Hessian/真实端点/全部jump的分片恒等式；保97相关误差Gram与独立mean，反射下high试验准确为PH Iφ[(u/v)fφ+m^-2(zCθ∘Θ)]，最后接真实右Poisson H。尚无新伴随试验数值，不宣称Schur已小于1。

@@ -125,3 +125,9 @@ root独立核process41444B SHA c7ff69243d3f724f539cd0ee95c2b0ba219caa5ffba47ff9b
 真实新增6scalar/6FFT/6finite/6error/6norm/45mean/6E/24intrinsic，旧finite/scalar/error/mean/energy/intrinsic/aux/tail重算计数全0，原54checks及全部旧prefix最终门逐项相同。新的高阶ordinary数值只作完整Taylor输入，不能单凭大导数尺度推断算子大小；原两完整aux的十二Cauchy候选均保，选择R1/2000,k5。正半径/E/rotation三gap未变。
 
 runner 01:06:54.435892、01:07:15.491880、01:07:18.332589真pull均README diff空，最后至c136bf4405b26dd8d4d754cdbb4b988f1606bc03；一次发布非FF已立即pull重推实际成功。当前只读README核760832f3516e1f3360ad2cf62215caccda71292d未变。actual结论单独推，root继续同一个w1的Taylor7..12，只追加原75stage之外未付高阶。
+
+## 2026-11-15 01:11:26 UTC — 完整物理cap–tail Sobolev Schur结论
+
+root读L1–28全篇、原N12–15/23–28、R5–6/19–20、正片P1/14–16/23–26/31–32，并核连续修补primary C8–9和§7六门范围。原同宽真实联合角平移支持Cf二阶列→H^.5到H^-1.5；独立Z长段源在完整signed-lag权下给H^-1.5到H^-.5，准确P_muT r_mu和输出mean先保后由totalflux式消零。新PB远端映射以真实高trial零延拓+ordinary对偶付右4/3窗，R_adj=R_a^{-*}再给B源→AiryH1；未假设actual return酉。Y/Z的v/F权逐项抽真实有限e0，aBwB上下准确抵消，Schur<2^-32000000。
+
+原ac完整物理帽与同repair物理η0/δ0适用；C8同A1/64两列、C9外端ΔC4.970e−19/ΔC0 7.898e−23和原核完全保。没有把原L² Hessianχ.003840162升成H^-1.5，也未免费转授moving all4Z或fullδ。保B0/C0、raw cB、totalfluxτ与gauge、全部ordinary/weak/atom/参数源；strong标签和waist/ν仍缺。原H9641B完整归档。两README在b3f8a118fa2613fb76ea251e2b00f26691316a56未变；本条纯解析，无新本地数值。

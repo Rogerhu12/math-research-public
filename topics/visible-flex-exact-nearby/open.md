@@ -184,3 +184,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 完整方向 Green 双扫描入口已装（2026-11-15）
 
 G.1–G.10 合同与234pin五件已推。公开Actions先核两新源码AST；待v4 43654510038的全5970完整native/实际child/gates成立后自动接两次signed covariance扫描。旧225pin及impulse101pin均保持。每行保存真实前缀，全部真实97右边界/mean、body残差和每个V跳保留，cut迹独立计算。拿到实际结果即接完整high/low反馈；当前未以合同替代数值或全ν门。
+
+### 完整物理帽–尾接口的新闭合
+
+[L1–28](results/R119-supplement-complete-physical-cap-tail-Sobolev-Schur-with-all-mean-charges.md) 已在Z∈H^-3/2真正消去独立CR：完整Cf<2^40、QZ<2^64 aBwB ε、TB<2^1200000/(aBwB)，反馈<2^-32000000。B端H^-1/2通量源→根Airy H1通过真实高trial零延拓/伴随另付；不能用旧L²列代替。原ac及C8–9给的repair物理η0/δ0均适用。moving all4Z角规范、H^-3/2 residual-sensitive Hessian/fullδ转授仍须单独付；原strong source/标签、waist曲率Bmean、真实ν与非线性matching仍继续。Darboux totalflux兼容、Codazzi B0/C0和canonical mean不合并。
