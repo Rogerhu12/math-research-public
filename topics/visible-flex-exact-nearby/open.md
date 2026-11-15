@@ -140,9 +140,11 @@ G0(MZ)的ZX以K²=TI准确取消，g保真实n^-2完整rankφ，q保vφ及全部
 L16–18另给exact inverse首列及rank外积，w0完整两分量保xy/y²根零；
 未新增determinant域或数值收紧。
 [L2完整第二local消费](results/R133-supplement-second-local-vector-regular-transport-and-rank-budget.md)
-现付E12完整第二行与真实xy/y² rank，保原raw2已付1/n。首次23pin/acceptedP模式已部署，
-只新R1/4000完整域、complex频率方盒determinant及全两分量预算，P原17pin零改；
-实际16门/数值改善待run。newtail与L2各保当前P，二者actual之后只读合并，不重其旧数学。
+已付E12完整第二行与真实xy/y² rank，保原raw2已付1/n。
+[actual43711568963/1](results/R133-supplement-actual-second-local-vector-and-rank-budget.md) child0/16门/math.005412712s，
+23pins602844B、P原17零改；新R1/4000/Σ5/1024完整域及complex频率方盒determinant均过。
+新完整第二op4.837164e17高于旧3.040655e17，故q2=1，21first+10mean逐字P，非收紧结论。
+B现行ledger已逐字保同raw2，不需新合并数学；本成功不重跑。
 [F完整transport首矩阵](results/R133-supplement-exact-leading-matrix-factorization-of-complete-transport-source.md)
 进一步用M=G U_-²、U_+M=G B_+U_-在取模前合并L13三项；两额外矩阵的对角准确消失，
 G0(MZ)=QG B_+/2{U_-[v−(cT I+iεXi K)Z]−iε(y/T)KJ*Z}。

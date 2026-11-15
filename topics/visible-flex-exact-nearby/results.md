@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-15 [actual second-local-vector/rank](results/R133-supplement-actual-second-local-vector-and-rank-budget.md)：public43711568963/1 child0/16门，23原pin、完整domain/rank及两分量过；新bound未收紧，q2=1、21first+10mean逐字P。B现行ledger同raw2已保，不做重复数学；仍不授完整high逆。
+
 - [R133 有限factorial collar与完整8193内迹门](results/R133-supplement-finite-factorial-collar-bounds-and-complete-high-inner-trace-gate.md)：实际speed/known drift分离、ρ径宽与q!、完整mean/14–9非线性及共用源barrier；finite real差商由H1给高迹。H24–26/H32实际过才给hH8193<2^393000，selected已知高差已付；真解参考band288保完整高源，未授core存在。
 
 - [R133 分离shape与完整mean的真实曲率低迹](results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md)：精确缩放到同m0后，γA0≤||(h−j0μ)φ||/16+|μ|/576≤||h||H1/15。当前tail低门可用hH1≤15e−9/128；完整mean、physical Jacobian和known selected-cut差保，高8193门不删。
