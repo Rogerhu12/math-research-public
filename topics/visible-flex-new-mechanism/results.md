@@ -428,3 +428,10 @@ Run43701306331/source40c0f4d6/job132772851014在新developer返回后保存报�
 [R283 完整证明](results/R283-canonical-end-layer-three-history-moments-and-pure-symmetry-cancellation.md)直接使用R56真实第三平台齐次关系，把完整H(Yf,Π)的一次局部层化为Bf′−Bxf；B=¼[hρR−∂s(hv_sR)]，ρ=vss+v−kw、R=(x+ω−k/h)²+h^-2。任意中间s段保真实端势，实际第三闭周期才相消。所余二次多项式由∫hρ、∫h(ω−k/h)ρ、∫h[(ω−k/h)²+h^-2]ρ三数决定；非零指数平端f使Qf′−Q′f恒零iff这三数零。rigid平台分量ρ0自动不贡献，原六条闭合向量矩不能冒这三个加权矩。
 
 在R210/R213实际安装的universal whole-period pure0范围，原相位身份和一次/二次指数分离使完全对称三次加权历史零；两个mixed目标的端层准确为−(ℓ,1)(Qef′−Qe′f)/(8κ)，共用Qe=P_e[Wfc]=2P_e[C(g;ff)]。保全部三次尾、不授逐s forcing零。正文给Qe的原一次m、完整mm和面积来源；完整第三block外端自动0，共用内部平台只记一组三矩。内部Q值、平台/通量/内部退化及同w ruling尚欠。root全文核真实director/端势/角规范，mechanism独核原R210/R213适用及系数。
+
+
+## R286：整个负三—负二 Gaussian 乘积的原六外矩与两余门
+
+[R286 完整证明](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)从B−3=cP、B−2=aR+bS及R282原规范提取准确cross。先在全合法D上用三矩消2∫dJd，保第三槽真实左尾及I2的2u′v′，随后才局部化成六条完整表；含Kj、Jj、Cj、N，所有低阶系数明确。even母包、原同F确实保持C和完整12odd复制给全角sin²式。H门后零外矩自动零，另外两矩恰iff4aJ1+(2a+5b/2)C0=0和−(a+b)K3+4aJ2−(2a+b)C1=0。C0>0且a,b<0迫J1<−C0/2，但J1带真实正负权，不构成一般不可能性。
+
+固定同一个χ时，J1/H0的高频主比值为¼∫y u0′u0″χ²/∫u0″²χ²，与位置无关。u0″(0)≠0给y u0′/u0″=y²+O(y4)，所以两不同evenχ可选不同真实比值，ψQ解析逼近保严格差；七量正锥和有限N根尚未在本稿支付。root全文核原式，literature独立核全部六式/真实尾与完整角归约，无新执行；其他乘积、0/1、period/joint和主几何门仍欠。

@@ -14,7 +14,7 @@
 
 [成功SOC设计](notes/successful-SOC-radius-retention-design-20261115.md)及[容量actual](notes/height159-capacity-and-successful-SOC-hold-first-actual-20261115.md)已消费43712266529/a934b45c；18新检查过，η分两新阶段至.266443965488、每段11primary+1SOC，最后17guard真但未有后继使用heldB。全部旧门/ID/容量与费用/失败/漂移保原note，不重已付阶段。
 
-[选行J首次完整实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16：三新开发组过，唯一新stageη.2664285858004584→.2663989905276839，原双网14门与准确物理盒过，11primary+1SOC/10新接受。active43.32511秒、七恢复1175.76681秒分账，coarse/fine J7.32903/15.96631秒且无旧全J张量；旧projection文字标签不授实际调用。m5持径由m6真使用，但m6 ratio.11484、m8新增1+5行且fineη反升，不能宣优于旧法。**下一根据真实m6/m8缺陷构造新metric模型或真实自由度，不能延原预算/机械重跑同stage**。首开发漏人工键失败保留，45/97来源与24输入全吻合；仍欠.26及最终1e−6/全时reach。
+[选行J首次实际](notes/selected-row-Jacobian-radial-factorization-first-actual-20261115.md)43716860154/a7bb0a16已消费：三新开发过；η.266428586→.266398991、两网14门/盒过，11primary+1SOC/10接纳，active43.32511秒，七恢复1175.76681秒独立。m6真用heldB后ratio.11484、m8漏行拒绝；45/97来源与24输入合。全部旧失败/漂移保原note，不授同点性能改善；后继用新模型处理真实缺陷。
 
 [仿射谱五源与首运行](notes/affine-spectral-implementation-and-first-public-run-20261115.md)43722283235/bb33192已完成。直接读原log：35新人工全过；新η.266419188→.266401179，两网14门/准确盒过；8模型/12LP/0SOC/7接受、40cut、18+2值，active16.997316秒。八恢复569.558425秒独立。m6新增5fine软行、遗漏模型峰主导误差，同时原已选曲率四行失败；m5选中e/f非线性主导。**下一先完整归账50/102来源与24输入，再设计固定center两网affine-e/f方向分离器，发现漏峰才补选J/cut，仍原预算和真门。** 无SOC实际不能授新路径通过；不延预算或重跑已付stage。
 
@@ -163,3 +163,8 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 ### R283 后续：内部零平台的一组三个真实端历史矩
 
 [R283](results/R283-canonical-end-layer-three-history-moments-and-pure-symmetry-cancellation.md)从原平台齐次方程和完整cross得真实端势及三个hρ加权矩。已安装whole pure0后，两mixed目标共用Q_e=P_e[Wfc]=2P_e[C(g;ff)]；完全对称三次加权历史消失，不是点态尾消失。完整block外端自动过，相邻两包同一零平台只需一组。下一对内部平台用原一次m、二次mm/面积来源支付实际有序Q_e；未证明面积/能量门推出，平台/flux/Laurent和同w另保。
+
+
+### R286 后续：负三—负二乘积的两条原完整余门
+
+[R286](results/R286-complete-mixed-minus-three-minus-two-Gaussian-moments.md)已保全D三矩、第三左尾与I2一阶导，六条P/R、P/S原外矩准确归约。H0/H1/H2后零外矩自动过，另须4aJ1+(2a+5b/2)C0=0和−(a+b)K3+4aJ2−(2a+b)C1=0；C0严格正。固定单χ的J1/H0 principal比值不随位置变。下一从最初选两evenχ，严格联立七量正balance与同F有限N根；不同χ比值已有原式理由，不能把它当完整支付。
