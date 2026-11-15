@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R119 B：有限正则Nash归纳与完整端口条件](results/R119-supplement-finite-Nash-iteration-in-reference-graph-with-port-conditions.md)：真graph平滑v=S_Tu、w=−R_v S_Tf无二次截断，source loss1734/bg1796、a1856/b6396；p3000/增长5/4，high3500/400，全低误差≤C*T^-4220、高精确1*T320+C*T274。T0^126≥16C*与独立实际初残差门付body收敛/holonomy mean；第11节逐项保全Schur/height/ν/charges/commutator与augmented入口。旧94只同端口Sob转授，不冒全对象entry。SHA256 7ad04c3b8c1573ae9c5ddd0853efc421779a56aff99d676e879306746a775736。
+
 - [R133 E：加权Q端点保持与小解析帽球](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)：真Q核K_e<5、w=e^-2∫sC给完整2K_e门，未知二次65ρ²与outerζ/200及两mean保。σ1/8192、ρ3e−6、ζ9.9e−10时主体Lip<.881/image<.99ρ/端点<.9ζ；**条件为新joint加权系数q_w<1e−5，尚未运行**。旧L1只作合法指数升级、128物理矩之外用全F12尾，不重算旧积分；不能提前授帽存在或global height/ν/matching。12777B，SHA256 0e6c0f6acfa4a40378176cf56e03ee941d1932885149a64cd145a7b4e9b91cfe。
 
 - [R133 实际帽L1与完整reference端点源](notes/2026-11-15-R133-actual-cached-cap-L1-reference-endpoint.md)：公开43692857656/1 child0/12门；原7296中1341帽行/949reference/1346交段，known affine<3.038615461e−7、R非mean<2.486289618e−14，完整Cmean单保。两较大long域及条件body门已过，三类未知端点反馈仍待，未冒nonlinear cap解。

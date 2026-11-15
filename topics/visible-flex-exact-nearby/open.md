@@ -125,3 +125,7 @@ T/c0408ef4 的4件公开入口已完成全读：SCI a0f12f84d55c4735507e71e40d35
 ### 帽的完整端点不变域已化为一个新系数门
 
 [E1–23](results/R133-supplement-weighted-Q-endpoint-invariance-and-small-analytic-cap-ball.md)将全帽未知Q线性、二次和真outer三反馈一起闭合，条件为σ1/8192的q_w<1e−5。ρ3e−6/ζ9.9e−10的严格球账已证，内γ≤1e−9/物理sB fB保持。该新门尚待公开Actions，须用旧4650row+完整mode envelope+part004原mean槽新范围及repair逐mode求joint；不重算原target/残差/全卷积/L1。通过才可登记局部真曲率帽存在；F21高度、同一内mean/phase、负体/尾/ν仍须联立。
+
+### 已成有限Nash body归纳；全端口与真实初始门继续
+
+[B1–30](results/R119-supplement-finite-Nash-iteration-in-reference-graph-with-port-conditions.md)已给明确可重复graph迭代：v_n=S_Tu_n、w_n=−R_v S_Tf_n，不再截w；μ1734/ν1796、a1856/b6396、p3000和high3500/400的所有误差幂已核，完整body残差与holonomy mean趋0。实际入口|f0|a≤T0^-3000独立，旧94只能在同对象/同端口作有限Sob转换；尚需真实augmented外行Schur、nonlinear traces/mean/Hp/唯一height/ν全部列与其smoothing，不能由body收敛替代全匹配。
