@@ -18,8 +18,9 @@
 - [D31完整Smith/同202核](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)付Z_(31)[[u]]真Smith/完整核1834良好约化；1632/E216原直和及field14方向全退出，Nakayama给同202freeI规范整核存在。原13左核λI=2。旧O29…149/高商仅F31长26、旧D leading仍开；旧D权8770/阶130…243/次8527…8640。
 - [新原始子式](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)J*=P4340+同E14补列，I*=原13free输出补；原核补三角单位与左图给cokerB*=fulltors。新H8835/∞66/次数8769/leading31单位，replacement≥66/cofactor≥55；不同于旧243子式；字典actual0.407487812秒，5完整SHA/3333+1007原索引权和全真（receipt0f543b9b），不造大det。
 - **[全精度已有来源统一8655](results/R150-appendix-uniform-source-bound8655-over-all-powers-of31.md)：** 始终D*=detB*，只首一K158；q=D*/K∈D31[s]、次数8611、leading单位，Pℓ=adjB*Aℓ/K整。任何既有Ax≡31^e b mod31^n保同e/n可降费max(8655,τ(b)+1)，当前九目标8655。固定e任意高n可解才给exact D31源；单p6不等于all-n，原e=0任意次数mod961负证仍在。
-- [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由原Gauss/full∞同66给Δaff约化保次数≤315；首一R=Δaff/K158次数≤157，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)31单位，R(2)仅Q非零；monic Rout/Ω/M/U均31整，但原来源31分母未定。
-- [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤157；九Mh*tj全局原成员，degM≤157−d/总乘子180−d，原Q源费8531−d（三支8526−d/8531−d/328−d）。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U实际未定，不预填Q60。
+- [仿射gcd首一31整](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)由原Gauss/full∞同66给Δaff首一31整且约化保次数；旧field315/157次包络仍有效，barR|(s−2)^16(s−1)^3P+²P−²E6Q60²。R(0)/R(−6)31单位，R(2)仅Q非零；monic Rout/Ω/M/U均31整，但原来源31分母未定。
+- **[有限31缺陷与八真除源](results/R150-appendix-finite31-defect-module315-eight-divided-columns-and-affine-degree307.md)：** N=genericim∩D31[s]^4367、C=N/imA由新D*首项单位成为有限D31模；C/31C嵌入完整fieldtors315，rank_D C=degΔaff。完整β给t1=2，七/八实际整除源在全商独立给t2≥5、t1+t2+t3≥8，故Δaff≤307/齐次≤373、R/Rout/U/Ω≤149；不推出t3≥1。固定e任意高n可解等价31^e[b]=0；315不界系数31指数，单p6仍不够。
+- [外投影消余因子](results/R150-appendix-external-projection-divisor-removes-target-residual-and-source-cost.md)Ω|Rout、U|M=Rout/Ω，d=degΩ≤149；九Mh*tj全局原成员，degM≤149−d/总乘子172−d，原Q源费8531−d（三支8526−d/8531−d/320−d）。最小目标式s³F+^aF−^bE8^cU，a,b≤2/c≤1，U与Σ0互素；Ω/U实际未定，不预填Q60。
 - [原P的56×22实际core](results/R150-appendix-original-projection-away-from-critical-support-56-by-22-schur.md)在Σ0外准确保全部22子式gcd；全部原17式/P0/P1/224×13核/双H9/119×22graph已核，641非零/次数126/409与213bits，logical752d21d7…；不重core。
 
 ## 活跃执行与恢复
