@@ -166,3 +166,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 标准Koszul来源的精确小系统入口
 [原6188上的31整左逆](results/R150-appendix-standard-koszul-original-source-left-inverse-and-membership.md)已付ΓΦ=I：先187阶恢复三次头的线性系数，再17阶恢复二次余头的常系数，检查完整来源及斜对称才收录。标准空间31饱和，但投影不保J；当前外支持mod31核29维正待完整Q提升，旧23成员性可由此两个小系统核实。
+
+### Koszul支撑的实际模31结果与原整数下一步
+[全1834外支持实际秩1603](results/R150-appendix-selected-support-koszul-mod31-dimension29-and-first29-free-slots.md)给模31支撑交恰29，自由像正是slots0…28；新增六轴17/18/19/26/27/28。Q交仅上界29，真核仍23。继续解原1603整数单位块与29RHS，结果先留临时，核完整外残差；剩余约束在29列内精确求核，最后全6188/4367及36自由Q独立才收录，不把模31值提前当结论。
