@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 06:58:30 UTC实际pull后已读规则提交：`ac0d9b65400d607dbf8f9e4827d4e3297d810fcd`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 06:59:54 UTC实际pull后已读规则提交：`855e8cf3a3f1a67d8e60b96c96f3828f4f818f3b`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -20,7 +20,9 @@ core A1/B7/25/wc1/50；L.9、rc.22、tc.036、tf.846、六帽R.274。g **fd5bc5f
 
 **最新已读strip actual43684152565/sourcec594eeb/job132720986739**，完整见notes/strip-reserve-first-actual-20261115.md。必要growth恢复到643875e4，非旧f2bb；同g/b0/163。新9接纳/12双网trial全部strip过，三拒均directκ失败（其他trial门未全打印，非唯一原因断言）。终267c41ff9cfe565cb859531ab505b3cab85069ff0ad77955fccb5e00354e824e，ηmax .26652303622182338，降1.07659e−5；κfine57.999995287562953，strip余3.91244e−8，.26未达。终池4415/3920，r1/64000/streak1；10主LP成功、1SOC10.121s无primal，fineJac69.629s主导wall。旧完整数据/失败/耗时在原note，不重复旧优化。
 
-**新SOC可逆尺度请求已提交**，设计notes/frame-metric-spectral-soc-scaling-implementation-20261115.md。helper3b74cc8c/lib6e3ef11a/driverd09cd8b4，v=r_c z、aux=r_c t和正二幂行缩放；准确全可行/最优集双射，恢复原A/b/盒按原1e−7门验收。主LP、全部真实门、同g/b0/163、10s单LP及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复，继承实际r/streak，不强迫267或f2bb。全trial门、原单位对偶/残差、同点曲率非线性余差直接stdout，无额外geometry；det=q⁴(λ±κ1)(λ±κ2)/10000，不能把PSD floor当曲率余量。开发仅新小数组，最终公共先check后actual；待实际，不猜更快或改善。
+**新SOC run43687834522/sourcef03c4eb/job132731961031进行中**，设计notes/frame-metric-spectral-soc-scaling-implementation-20261115.md。helper3b74cc8c/lib6e3ef11a/driverd09cd8b4，v=r_c z、aux=r_c t和正二幂行缩放；准确全可行/最优集双射，恢复原A/b/盒按原1e−7门验收。主LP、全部真实门、同g/b0/163、10s单LP及12LP40值120s不变。24旧输入/98args，growth/strip各一次必要临时恢复，继承实际r/streak，不强迫267或f2bb。全trial门、原单位对偶/残差、同点曲率非线性余差直接stdout，无额外geometry；det=q⁴(λ±κ1)(λ±κ2)/10000，不能把PSD floor当曲率余量。开发仅新小数组，最终公共先check后actual；待实际，不猜更快或改善。
+
+已证现有34体段列：u[36,54)、v[113,129)，B7/B8支撑至.684/.765；固定高度及逐圈Π使外域六jet准确不变，.78尾峰不直接阻挡这些列。不能推有可行下降/必须增维，详见notes/same-g-body-tangent-columns-and-locality-20261115.md。
 
 τ.061仍须κ≤1000/61≈16.39344与全时非局部reach；当前metric远欠1e−6。R63准确非圆→圆连接需Tz非零，R64只排有限5度表示，不能宣一般C²刚性。所有旧几何失败原件保持，不重复旧SLSQP/延预算。
 
@@ -32,7 +34,7 @@ R186/R188：真H−2维5，全部非零正字符被完整有限真实路径排�
 
 **R201 actual43683171512/source8c1ab4b已完整**：πU0=πR0、dim3，核16/13。πC2=−πR旧0/48−11πR旧2/64+13πR旧3/96；相应H纯0但λH1，排任何仅pure的λ读出。H是span非实际字，完整λ仍正；全原关系/metadata见R201。
 
-**R202/R203已证**：Cp=cl coneπS=clπC，保末闭包；若Cp真，则单权正字符拉回完整λ须灭kerπ。奇权/+2/−2/0均排。R203从一般动态profile的完整恢复式，保第三初始gauge、正交交项及Ds(fbb′G)，M0端点令最低−9/−8 pure全消；有限formal flow与ad_P²R=ad_P²S=0付次层，局部c平移多项式/faithful右collar测试付全局整权。当时只余−6/−4；R207再排−6后仅余**−4**，不是全U−8零。满闭锥到真实有限支付的额外构造现由R206付；是否满锥仍欠。全λ+仍严格正但不下降pure。
+**R202/R203已证**：Cp=cl coneπS=clπC保closure，真子锥须有杀kerπ的单权正字符。R203从完整一般动态恢复、第三初始gauge/正交交项/Ds(fbb′G)，以M0端点和ad_P²R=ad_P²S=0消最低两层；c平移多项式/faithful右collar测试给πU−9=πU−8=0，不是full U−8零。合既有奇权/+2/−2/0排除和R207，pure正分离仅余**−4**。实际满锥支付由R206付，是否满仍欠。
 
 **R204完整pure−2已结案**：actual43684612905/sourcedf8522fc，21存量列十二新成员/原表再合全零；πU−2=πR−2、dim9、核43/31。与R201合成12维完整像，实际同时控制见R205。A_hh单根五同锚IBP的jet2式见原note，通用非零且R207已准确付成员。
 

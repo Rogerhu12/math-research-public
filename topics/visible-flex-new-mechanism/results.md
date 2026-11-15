@@ -163,3 +163,5 @@
 - [R207：完整权−6 pure像等于三维响应像](results/R207-complete-weight-minus6-pure-image-equals-three-dimensional-response.md)：actual43687004289/source28b2c1f，完整14族241状态系数合164不同原列，加16响应给180列真rank3与177完整原关系全零；134新收缩及最终9人工完成。全部坐标/别名可读，A_hh与A_kk原身份明确；πU−6=πR−6，pure正分离仅余−4。不是完整两模式等式，尚未付满锥/joint/终局。
 
 - [R208：全部universal pure响应都有二阶profile jet代表](results/R208-every-universal-pure-response-has-a-second-jet-representative.md)：旧151完整对角第三列的sound上界给WΔ=(W71)Δ；统一E8复合式的外q″项对称相消，同锚线性q‴ IBP与Fréchet嵌套归纳给πR⊂A2。R179使非零高jet规范行成为真实非成员判别；不宣dim18、完整mixed或πU同样降阶，无新研究计算。
+
+- [同g现有34体段列及完整二阶局域性](notes/same-g-body-tangent-columns-and-locality-20261115.md)：原B7/B8支撑[.198,.684]/[.279,.765]，固定独立高度下逐圈Π给全部六个位置jet的准确差公式；外域对任意有限34列变化保持。已有方向能隔开.66与.78两个已报位置，但不授有效全门下降或reach。六次C2紧支撑扩展只给带明确支持条件的接口，当前SOC试验不改维。
