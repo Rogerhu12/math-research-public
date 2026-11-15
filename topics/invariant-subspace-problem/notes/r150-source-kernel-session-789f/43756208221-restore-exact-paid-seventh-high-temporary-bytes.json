@@ -1,0 +1,94 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "restore-exact-paid-seventh-high-temporary-bytes",
+  "executionSourceCommit": "4d8b3d4e555ac1a13d4f38aeae838bedbd75bce3",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-recomputed-temporary-byte-recovery-789f.py",
+  "scriptSHA256": "c2b80f5a00774327167f031037196501ed1d118a5b815f33711e33a33a3c9172",
+  "argvTemplate": [
+    "--paid-receipt",
+    "{scripts}/43740928483-infinity-seventh-original-high-forcing-probe.json",
+    "--paid-receipt-sha256",
+    "781b00b3b7ee242809905bf7ed60d6520595ec1212db373ff34bc79f8eded65e",
+    "--new-receipt",
+    "{work}/infinity-seventh-original-high-forcing-probe-receipt.json",
+    "--temporary-root",
+    "{work}/infinity-seventh-original-high-forcing-probe",
+    "--out",
+    "{work}/recovered-seventh-high-receipt.json",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 210,
+  "exitCode": 0,
+  "wallSeconds": 0.16418545900000936,
+  "fullTemporaryReceiptBytes": 1148,
+  "fullTemporaryReceiptSHA256": "5a498facb4a4f58f06508111a069f53799788c86c49736c9fa1609e6fd53d96f",
+  "result": {
+    "elapsedSeconds": 0.06927659100000483,
+    "format": "r150-recomputed-temporary-byte-recovery-v1",
+    "outcome": "fresh-original-calculations-match-all-historical-temporary-bytes",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "author": "Astra-ISP-789f / root",
+      "binding": "efbb1df2d0aaa4baaab8c39db75266e51d2b79475dbfcae021d92a701bdd8c24",
+      "freshReceiptSHA256": "99d7157d9c8cbd0d333cf12a1759fe103d376607000478828ada207eb9e7f464",
+      "historicalTimestampRange": [
+        1794772412,
+        1794772434
+      ],
+      "largeDataUploadedOrCommitted": false,
+      "mathematicalEntriesModified": false,
+      "paidReceiptSHA256": "781b00b3b7ee242809905bf7ed60d6520595ec1212db373ff34bc79f8eded65e",
+      "recoveredPhases": [
+        {
+          "allFileBytesMatchHistoricalSHA256": true,
+          "bytes": 1451215,
+          "gzipMtime": 1794772424,
+          "historicalRrefDurationRestored": false,
+          "phase": "complete-two-original-seventh-forcings",
+          "sha256": "8e9fb1e26bb940b537cf6b688d2594f189d791c1977d460c69e766ccb004f0b6",
+          "timestampAttempts": 11
+        }
+      ],
+      "temporaryOnly": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-15 20:08:57 UTC",
+      "beforeReadCommit": "e3998b3d1835e54421ef4fe4d6b24bba3184e04c",
+      "originMainAfterPull": "4d8b3d4e555ac1a13d4f38aeae838bedbd75bce3",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-15 20:08:58 UTC",
+      "beforeReadCommit": "4d8b3d4e555ac1a13d4f38aeae838bedbd75bce3",
+      "originMainAfterPull": "4d8b3d4e555ac1a13d4f38aeae838bedbd75bce3",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 20,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 6861,
+    "logicalJsonSHA256": "63cf96b12069caca2eb71100ef94a5c95688e118e201bc30f935a04f3d446634",
+    "itemCount": 20
+  },
+  "lastRulesReadCommit": "4d8b3d4e555ac1a13d4f38aeae838bedbd75bce3",
+  "summaryExcludesRecomputableArraysOnly": false
+}
