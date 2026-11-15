@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：3618bccd59e57e305ca628fd51d3b641c8fe06df；2026-11-15 02:50:09 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:50:08 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
+- 最近已读规则提交：ce66191995167e0e748b128223a1a36c7221a450；2026-11-15 02:52:23 UTC核两README无变。实际CI pull 2026-11-15 02:31:03 UTC/b1e5559d7a11029dd9021d7da75e2c3fcb398f1c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:52:22 UTC仍无环境。最迟2026-11-15 03:20 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43668151048/job132672040900于02:31:03实际pull成功、两README差异空；回执ci/rule-sync-receipt-2026-11-15T023103Z.json。本地仍断连，下次最迟03:20 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,14 +14,14 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–653、R655–660已登记；R364/R561仍开，R637/R654/R661–663进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r657-two-euler.md)、[open](notes/2026-11-15-open-before-r655.md)。
+R1–363、R365–560、R562–636、R638–653、R655–661已登记；R364/R561仍开，R637/R654/R662–664进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r661.md)、[open](notes/2026-11-15-open-before-r655.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R660实际边界共振理想已付；续R663同原中央与此整商的联系，O4/O6保留。
 - theta：R659原M0,N单位/全W补偿非齐次差已付；续R662两中央对完整补偿的真约束、H±联立。
-- literature：R655原Σ5负一矩非零已付；续R661同S5两条log行，R654真modp²连接保留。
+- literature：R661两log行的完整Katz返回已付；续R664同一实际三点/原门关系，R654真modp²保留。
 - deep：R657/658两原空间的二次jet均付；续R637旧同R/全Padé。
 
 ## 原对象、ray及未闭旧支线
@@ -33,8 +33,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 原ray/高13与19/固定M3/D*门照全归档；R659已核CRT添π0≡−1 mod61,277，不改M3/不增25或81。
 π0为E1的2δ-primary Frobenius，π17=π24=−π0；λ=−barπ0^-1、β=−λ、κ=pλ²、Ωunit；δ=1+2ω、ω²+ω+1=0。
-原ρ0=−σ^⊗6/84、R536的h=η+ρ0/2；Hcd/R1、D14≠D12、half-character/quarter及参考量照R585/590。18物理群≠96来源群。
-R638另有局部二挠来源h_W=−H2,W μ0/2，不能串成上述h。
+原ρ0=−σ^⊗6/84、R536 h=η+ρ0/2与R638 h_W=−H2,Wμ0/2分清；Hcd/R1、D14≠D12、half/quarter及参考照R585/590，18物理群≠96来源群。
 
 ## 普通完整中央及真实词域
 
@@ -54,7 +53,8 @@ R653同一det−5 joint全S5²五项给K=(-M0ℓD,6bH−IΣ,-1+3bFH+ℓZ,1,−A0
 同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩。
 R659全D0四层和Esharp完整核心保补域，M0,N模p=−λ^(N−1)P(λ)/(b(1+λ))，P固定二次且常数非零；同ray稀疏删后所有N∈4Z正均unit。全W补偿相应差严格非零，未给原两中央或任一失败支赋值。
 R655原Σ5=σ17^5全Schwartz/period识别χ导子10、负点barψE80；严格L′>1/50+Rubin–BDP给IΣ,-1≠0，准确Lp=5c5θ11ΩpI²，当前ray χ65=−1。不赋其它log行/失败支零。
-W两失败支须保全五型/真实Q转置；同R594未加帽多项式四全行基准0，门外负基准不删。
+R661全五型给同线K(m)=Lp(ψBρ^m)，ψB为E10000 rank0，ρ=χψ0/barψ0；2ℓD/(1−β)=KD′/(dKD)+log〈5〉，2ℓZ,1/[Ωp(1−βκ)]=KZ′/(dKZ)+log〈5〉。m−1非零不决定m0/1导数，保原H±与全W失败支。
+同R594未加帽四全行基准0，门外负基准不删。
 固定CM稀疏单位仅供固定λκ式；旧负五I1未付，与R655负一行分清。
 
 ## 惰性完整中央、解析与全成本

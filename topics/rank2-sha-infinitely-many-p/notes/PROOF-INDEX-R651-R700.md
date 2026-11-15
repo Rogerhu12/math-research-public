@@ -22,3 +22,5 @@
 - [R660：原范数一坐标、全部边界轨道与真实共振理想](../results/R660-original-torus-coordinate-and-boundary-resonance-ideal.md)：整CM平均给v线性坐标，原完整轨道源=v^(p+1−m)B_m(v^(p+1))且B_m整；全部p²−1点给degree p−1的Eisenstein Q_p。局部无log恰Q_p|B_m，原闭X盘则强迫Q_p^(p+1−m)|B_m；B_m(0)准确为原[z^(p+1)]A_m。完整Hurwitz整性/复界又使充分大p的闭盘假设迫该有理系数真零，未由j0预支闭盘。
 
 - [R657两Euler增补：真实共同前缀与25/18接触常数](2026-11-15-r657-original-two-euler-prefix.md)：同一原P的Φ(P)/Φ(EP)联合连续前缀取Hu=max(Nu,Cu−Nu+1)，导出族及全部特征p端点付全列秩和同Smith界；固定未正规双jet共同接触≤(25/18+o(1))D²。未假设E保持旧核，也未命中旧47D²/48截止，原同R/两13carry仍开。
+
+- [R661：原odd-five全部有限型与两条log行的同一Katz返回](../results/R661-original-odd-five-characters-and-two-logarithmic-rows.md)：全五Schwartz型/period给ρ=χψ0/barψ0和E10000的ψB，三原行读取同一角色线m0、m1、m−1。两真实log行准确是非零Katz值的反圆分对数导数加log〈5〉，原周期/Euler和所有M0/H±/W失败支保留；值非零不被升级为指定导数非零。
