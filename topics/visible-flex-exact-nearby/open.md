@@ -64,13 +64,7 @@ Green final与GH全部实际source/return/readout/border门尚未支付。
 
 ## 3. 真实共同参考、完整源与强返回
 
-phase_inverse负责完整负侧。此前逐字源链、所有源单位/域/success/失败/restore与未付义务保5d5024736de60ca3459a35a303835b0c8c2e4b77本路径第3节及H/log；原档递归保52bc/dc10bb/24b/40eb/acfd与各actual。共同势/root/wholeTaylor/1328六行/9词5mean的所有真实接口不变，旧成功禁止重算。
-
-当前仍为完整21 first+10 mean、十八正coeff、六true-dr行、两sign/两genuine列、两J窗、uncertain root和真实seam。AJ43718112378/29、RV43719681982/27、DG43720766795/27、M43721735003/23、SV43722805762/23、ER43724065270/20、S143724817779/21成功锁；原失败和lost新恢复不删。真实w1V及fullrank n^-2、q=vg−vφp和所有mean不变，SV physical n≥388逆gap不转为独立complex-z。ER七M非E逐字复用，仅raw1<4.348065e8/local<8.700621e8；S1只更新三density1，其他28原字。全部旧值/证据和校验数保上述不可变快照与各actual，不重成功闭包。
-
-[HP actual43726426053/25](results/R133-supplement-actual-exact-normalized-p-columns-and-complete-h-source-ledger.md)e9151554/01d99900/d67104c1锁，15A十h全改善、21原字，完整W/Ty/y³/y²、两density η^-1/六dr/全mean保。后继只读其已成标量。
-
-[BG actual43726985545/24](results/R133-supplement-actual-exact-inverse-leading-transport-and-five-density-zero-sources.md)7c53f3c6/7736f33c/eb999876锁，20A五density0全改善、26原字HP/local/W2；完整signed c*y消去/q修正/BV∂φR0/fullSG holXi/SB和全mean保。Bplus0定向再编码radius3.40e−64不冒HP原字。
+原负侧源链/全部success与失败/域/来源/恢复和字同审计保75bade02f4669a1e129224706e0f4113f1a4c7a4本路径第3节、H/log递归原档，旧成功禁重。当前21first+10mean、18正coeff/六true-dr/两sign与两genuine列/两J窗/uncertain-root/seam保持；w1V/fullrank n^-2/q=vg−vφp和全mean不变。AJ/RV/DG/M/SV/ER/S1/HP43726426053/25/BG43726985545/24全锁；HP15A十h/21原字、BG20A五density0/26原字，完整W/Ty/GXY/Bplus/signedcy/q修正/η/六dr原域与Bplus0radius3.40e−64区别保原报告，不重任何闭包。
 
 [RJ actual43728317408/27](results/R133-supplement-actual-retained-radial-coefficient-jets-and-density-one-sources.md)b39ef915/042031e1/816acb6b：child0/math.170001514，92pins/29AST、BG87零改；25A十density1全改善、21原字BG，root逐项/103球79unique核。pair<5.308195e9、mean<3.445226e7、local<8.700621e8原字。Q=W/G、(QT)φ=Qy/2、VTTT=7RV原正预算、Δ逆/rank/g完整；14幅度只读，analytic列/real rows各自域、两窗/六dr/η/mean全保。旧源/幅度/积分零重算；仍待source-to-trace/return。
 
@@ -95,6 +89,8 @@ phase_inverse负责完整负侧。此前逐字源链、所有源单位/域/succe
 零宽真M帽/long不要求未知γ复宽；Γ1锁同负principal，Γ2随a94(γ)选后fixed-γ内冻结，seed差非仅collar。T0=2^1500000、3500/400/loss1734/bg1796保持；下节S同解exact body/far/holonomy，core/腰/ν及实际γ域仍独立。
 
 [NC嵌套局部化与直接高频H1迹](results/R133-supplement-nested-collar-localization-and-direct-projected-first-angular-trace.md)558f47f7给BN≤r^NB0+kΣr^jE、保完整selected低/shell/χ′源，再对真实p=zφ另检t1。Mδ2≤128M1+384E1、actualD1与B10全mean保留；固定h=1/(40N)和两χ80给完整五列，双端FTC因子1和最终P仅一次。此H1迹免8193插值，独立tail高域仍待；6rho×2J×N1..64新scalar待Actions，未知low/shell/body没有因此被赋值。
+
+[BD微分后degree32完整分带](results/R133-supplement-complete-degree32-splitting-of-the-differentiated-collar-equation.md)423d6421将base A1/B10/d0的全部低输入准确限到64shell；constant αD/DN(mean)在low→high准确消，t1仍用fullactual。ΔB10=b[8M0E1+4Δ(M1+E1)]+b/4[E2(2M0+Δ)+M2Δ]、完整ΔA1/Δdφ和全部mean保；新DS/DL/DH接NC的五列。6rho×2J×N1..64只新scalar待实际，整row按highbody列选，不称unknown总误差最优。
 
 ## 6. 完整exact tail、连续选解及真实参数列
 

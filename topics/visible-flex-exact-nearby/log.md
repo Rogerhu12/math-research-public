@@ -151,3 +151,9 @@ newton给blob30591d2714e45dcad6ae2de1774a9b7e333466de /8974B/SHA6527fa46ddc21ed3
 唯一push43731464771/1 job132864600910于15:43:30→15:44:26真实success；root亲取完整jobs3238B/7b2e0cd7ce5aa55223cae1a86605970bb42e0c9354f327aeebb23fb016486a84。child0/20门/math2.4845965279999973/wall3.2705140010000093；exec99985268/35259/a3a02969与rawreport5479ba5b/13189/6a1df053均完整亲读，科学参数semantic逐键等manifest（原序列化key顺序不同非参数变）；30pins/7AST、17natural和3旧ZIP逐SHA精确、原3071strict恢复不重算。新2804交格/5608正exp/1156compact/正反两乘序与所有endpoint/source行通过。root逐字核proof54fca854/24781/95d3abfe全部65球/64unique、rawreport同65/64均exec原字，无missing。正反norm约5.867923328/173.871626616，ordinary到waist144.136425183，root-jump2038.396873263；RJ31词读原字，完整source贡献765104227462.508958…；其余rootmixed/七port/角图/有限border/BVP选择和全strong仍待。
 
 真pull15:44:02.021422→3633及15:44:19.233625→2c95958aee5935384b62a04dcc5b07684d6ed2b9，双README空diff；capacity198655123→198703571，preGit37425/6bbdf0ee完整先打印。SCI/worker/manifest冻结，成功禁重。H压缩前57d56b4d同路径保PD完整细节和所有旧域；当前只读READMEbafa6f0440fd2695d021df75d79b7795f27ddd9e未变。
+
+### 2026-11-15 15:56:40 UTC — BD 微分后degree32的完整shell分带
+
+root新推导，phase/tail独立逐项核完整B10差、DN差、primitive/Pperp保mean、band64及constant diagonal消去；最终blob5a06a9f2958221544222ce4b0918bef79b37b0dd /10158B/SHA423d642196c1883a11bb725532ae0ff668baac8932392e89bd4c902ee01958f9。three local差6M0E1+3Δ(M1+E1)，Pperp再2M0E1+Δ(M1+E1)，primitive[E2(2M0+Δ)+M2Δ]/4；rank仅最终HJ消。actualΔdφ保knownA0 norm1/unknownC0 norm2，basecentre不重复进selected差。C1S用D0φ+b(6MavN0+3N0²)仅低→高，t1仍fullactual。新DS shell/DL full low/DH high保完整五列；两χ80、nested有限N、rawP一次及weakH1依据NC不变。tail将同一新consumer完整6×2×64组各保NC/BD整row，全部审计临时，选择仅最小highbody列而非未知总误差最优；尚无actual scalar宣称。H/open压缩前75bade02同路径所有原域/失败/恢复完整保。
+
+上一SP单条初次非FF后根立即CLI git pull --rebase，仍No usable execution environment，保远端重建CAS第二次成功75bade02；未冒称ref为pull，H已记最新尝试。当前只读README792af1653e99867e63c5b00f83513be197bb4273双blob未变。
