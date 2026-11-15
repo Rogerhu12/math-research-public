@@ -399,3 +399,8 @@ request computations/request-curvature-defect-guard.json，35867B/SHA256 6a7809a
 ## 2026-11-15 22:39:49 UTC｜R395发布，内部partial门不能由total门删去
 
 [R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)，6993B/hashba9e305aba8ad8aafa82cb3928493ac8cb62e94e0d6962bd800a6f656364b02e。旧十一类在R71，所有自然读出为零但对应partial仍独立；R391使非零partial成为完整简单退化germ障碍。线性增强不增商，实际基准仍另付。root全文复核后逐条推；下接R396实际响应F/双Λ/partial。基底94136fac3bc5ff5ce56ffaf607746af94fca9c8a。
+
+
+## 2026-11-15 22:40:31 UTC｜R393全Q4函数像与增强字符边界
+
+[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)，11707B/hashd6d48e56c05c575722e447bfe1ef8dc087bf1a0c29ad0a28c2182bdc2e9b1392。根全文逐式核9维与两头；发现低层F0/Q2必须继续，不能把分开可控E/A拼成joint。已交mechanism继续真实forcing低层；未执行研究或泛秩。基底a1619d3973a26fb2440e8d7d543fd3710cfb0e52。

@@ -170,3 +170,8 @@ run43767357527七个guard主模型/新四检查通过（旧14复用零执行）�
 ### R395全自然核中的内部独立性已付
 
 [R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)原十一K列本身属于R71⊂R，完整E0/Λall0，不需新H/Abar分解。保R345旧对应点满秩及R391真简单零，partial独立且非零产生真实log逆障碍；不重算旧Vandermonde。增强线性响应商不增，尚非actual path。继续R392的F=P_LE/双固定Λ加这些partial的实际三角增强，全部prototype/后校正/有序平台成本保入同一有限n。
+
+
+### R393完整Q4自然像已闭，低层仍是实际联合商关键
+
+[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整函数像9维，−4/−2两个平移字符头在Q4四次速度上有准确非负平方action。旧E负权等像不能消去新增自然读出；Q4无零权也不授全Λ无零权。下一继续R130十四族中F0/三Q2的完整forcing/N0/N2/Γ/水平势，检验头能否延拓及低速项是否破坏非负；不重算已闭Q4/旧秩。

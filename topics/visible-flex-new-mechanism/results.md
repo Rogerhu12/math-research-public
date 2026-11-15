@@ -284,3 +284,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R395｜whole-E与全部自然通量核中仍有十一条独立内部通量
 
 [R395](results/R395-independent-internal-fluxes-in-the-joint-pure-self-and-natural-kernel.md)（6993B；SHA256 ba9e305aba8ad8aafa82cb3928493ac8cb62e94e0d6962bd800a6f656364b02e）。K0…K10全在旧R71响应闭模块，故完整E0/Λall0；同R391实际profiles和原至多11对应点沿用旧矩阵可逆性。指定partial非零使原逆k′带−1/(2τ A_f′p)的非零log项，整包及全自然通量零仍不能保证光滑。J+=(E,Λall,partial)的全像与响应像同乘Rm，联合响应商不变。严格为真实线性成本结论，不作实际路径或whole joint声明。root全文纸审来源/局部因子/边界，无新执行。
+
+
+## R393｜完整Q4自然函数像九维及两个未延拓的字符头
+
+[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)（11707B；SHA256 d6d48e56c05c575722e447bfe1ef8dc087bf1a0c29ad0a28c2182bdc2e9b1392）。原十五系数以六个完整IBP降九，真权分层及Euler自由jet最高导数核独立，给全N作用。两头权−4/−2的完整Q4 action分别为γ²[γ²+(dγ−hδ)²]与γ4的定号倍数；仅本层非负，尚未延拓全U。保F0/三Q2与全部N0/N2/Γ/势为下一义务，不借旧E像等式排新增负权字符。root全文手核六关系、九密度、Euler系数、权/N表及两action，无执行。

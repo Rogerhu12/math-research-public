@@ -35,7 +35,7 @@ guard policy same159-observed-curvature-defect-primary-guard-v1：两grid/group8
 
 **自然通量**R344/352定义Λ∈(U/R)*。完整Abar自然0；R378/381/382保全部self/真尾/速度势后ΛH1=ΛH2=0对所有state/all紧u。旧H非零、模C²维12/≥13、具体7/13控制撤回；R366一般满秩条件保留但这些H族不满足。未称H算子0或H⊂R。
 
-[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)完整Q4自然式为−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²；两真尾使加速度/速度势抵消。纯δ回得X/M，γδ³产生额外函数像；仍非实际多Λ控制。R393续完整像。
+[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)从R386完整Q4式得自然函数像恰9维：真权−7…−2维1/2/2/2/1/1，六条原IBP与Euler自由jet独立性，完整N表。只有−4/−2平移头；action分别−cγ²[γ²+(dγ−hδ)²]/(32h8)、−bγ4/(32h6)，c,b<0在Q4层非负。**尚非全U正字符**；R130十四族的F0/三个Q2含N0/N2/Γ及正规势仍需原式，不能由Q4无零权或旧E负权等像删增强字符。
 Λ[γ,δ]=−∫Q[γu′−(γx+δ)u″]⁴u‴/(32h⁸)，Q=1+(hx+d)²。两真尾使加速度/速度势逐state抵消，有完整C²式；纯δ回得∫(hx+d)r⁵/(80h⁷)。混合γδ³的偶母平移二次项在X/M外，函数像≥3，**非actual3**。
 
 [R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)固定两镜像profiles/共同锚域/三state，四Q4列严格正核(1,3A/B,1,1)，det−4ADm。水平脉冲τ=ε^(3/2)，先有限M0桥、真reverse/T0、运输，全部基准留统一O_C1(1)。一个有限ε二维收缩给任意双Λ/紧集C1截面；Klein用(y−bK)/4保桥成本并闭全位移。保M/T/scalar/frame/ω下界，未保wholeE/其它Λ/冻结g。
