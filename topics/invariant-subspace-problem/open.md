@@ -158,3 +158,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ### 当前Koszul来源的原参数出处及外支持执行
 [旧660+972保成本头](results/R150-appendix-infinity-weighted-heads-of-paid-low-koszul-sources.md)已严格与当前1632标准空间接通，17实际行缩放全31单位。当前run43679903558执行同J外1834×1632的精确F31支撑秩/全部外核/36自由像，尚未把有限域结果升到Q；旧23有理核的Koszul成员性仍需原表示。
+
+### 原逆芽半径的主常数障碍
+[原N零逆支的负实临界点](results/R271-appendix-original-n-inverse-germ-first-negative-critical-point.md)已证明：完整原逆圆盘的领先指数系数12.5不能固定降小，准确障碍为12.5d³−1.25d²+O(d+m)。此入口只限N，不能代原同源Schur或ordinary封口；继续可用次阶半径增益和真实返回估计。
