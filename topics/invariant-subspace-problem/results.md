@@ -221,3 +221,5 @@
 - [R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585](results/R150-appendix-seventeen-source-fourth-pairing-rank-one-sixteen-heads-and-cost8585.md)：实际原17条R4共74018坐标，同29×75配对rank7/旧6，完整核投影16；给完整β4∈[3,5]及16真第四头存在。∞130/125/125配K104得q8423…8536、条件8580/8585/172，统一8585；未构造λ4或证明原成员性。
 
 - [R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads](results/R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads.md)：完整23二阶头、β2=0的全历史商和完整4347常校正给全第三β3=1；低585−584、head[I12;0]，完整22条第三cochain的544544原产品全真。正Smith恰4个1、0个2、1个3，其余九个≥4；保58/49、K104，不重复计阶收益。第四须加全部R3来项并同步低层回填。
+
+- [R150-appendix-zero-complete-fourth-connection-exact-three-and-nineteen-heads](results/R150-appendix-zero-complete-fourth-connection-exact-three-and-nineteen-heads.md)：完整第三22域/全部R3旧像、完整4347常校正给β4=588−585=3，十九真头的587860原五阶产品全核；真实sT2回填含λ1纯块。前四正Smith分布4/0/1/3，58/49/K104保持；第五保全部R3和R4来项。

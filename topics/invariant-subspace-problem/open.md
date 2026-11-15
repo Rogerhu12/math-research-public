@@ -117,7 +117,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [零点完整第八](results/R150-appendix-zero-fourteen-eighth-left-jets-factor104-and-cost8600.md)从七阶五头保留四个真实组合头，加十恒等共14头。完整4347非pure校正、最后Q歧义和高零head核2均保留；low1088×599 rank585/kernel14、head4/零头10，全部6188×4原产品真。累计≤4/4/5/8/10/12/12/13，公共零点阶58/49，K104=s58(s−2)9(s+6)9F+²F−²E8²；不把受限head损失当完整第八正秩。
 
-原模31上界66/55给最大正Smith9…17；整个原系统模s17只在先付Q((s))像时等价局部成员性，13自由坐标仍须核。λ0…8九平方均零，不代完整左核或目标成员性。[固定第九实绩](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)已核全部原行，low kernel12/head2；只12个总头不增加当前阶界，K104保持，不盲续第十。下一取完整23个left2，利用完整第二连接为零，使同头第三forcing的全历史差落入第一像，再以完整高齐次核2恢复全4347校正求完整第三。[完整零第三](results/R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads.md)已实际得到β3=1及22真头，544544原产品全核；完整低rank585/zero10，恢复全部23个left2及13个R3。58/49、K104不变。下一完整第四须保这13个R3的来项并同步回填λ1…λ3，只有最后Q不足。旧29曲线/GB/LLL/65521等原接口未关闭。
+原模31上界66/55给最大正Smith9…17；整个原系统模s17只在先付Q((s))像时等价局部成员性，13自由坐标仍须核。λ0…8九平方均零，不代完整左核或目标成员性。[固定第九实绩](results/R150-appendix-zero-fixed-four-head-ninth-envelope-and-complete-cochain-boundary.md)已核全部原行，low kernel12/head2；只12个总头不增加当前阶界，K104保持，不盲续第十。下一取完整23个left2，利用完整第二连接为零，使同头第三forcing的全历史差落入第一像，再以完整高齐次核2恢复全4347校正求完整第三。[完整零第三](results/R150-appendix-zero-complete-third-connection-exact-one-and-twentytwo-heads.md)已实际得到β3=1及22真头，544544原产品全核；完整低rank585/zero10，恢复全部23个left2及13个R3。58/49、K104不变。[完整零第四](results/R150-appendix-zero-complete-fourth-connection-exact-three-and-nineteen-heads.md)现已实β4=3/19真头，low588−incoming585、587860原产品全核。第五保R3_13及R4_12全部来项，分别按s²T2/sT3回填；只最后Q仍不足。旧29曲线/GB/LLL/65521等原接口未关闭。
 
 ### 原同w边界：完整返回forcing与共同预算
 
