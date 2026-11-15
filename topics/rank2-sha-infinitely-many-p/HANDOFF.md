@@ -5,7 +5,7 @@
 固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的全 Sha[p∞] 有限。**主目标未完成；QUEUE 进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库两README授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：60d88c9e1adfd240c023dce2ad405843043bd6f1；2026-11-15 07:35:18 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:35:17 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
+- 最近已读规则提交：b6c4d3ab5ad3131b93e40b7b6f8a313e0a073a0d；2026-11-15 07:40:51 UTC核两README无变。实际CI pull 2026-11-15 07:16:15 UTC/1b382d0c9011113b3f41a7a173e488e9954e780c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 07:40:50 UTC仍无环境。最迟2026-11-15 08:05 UTC再实际pull。
 - 只写 Rogerhu12/math-research-public/main；完整结论即推，禁强推/改历史。每小时实际pull，每次比根/题README，仅读差异即照办、记提交。令牌不入文件/回复。
 - 规则15@137c5a877fb387a82cbde01f084d1fa67ee717aa：可重算输出只留脚本/参数/run/hash，不存repo/Release、不新拆分。已普通删除206个/4,912,763B，历史及真实输入保留。
 - 规则12不设冻结/独审/复跑门；规则13计算用公开Actions。题log每轮≤5行，MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB、目录≤200MB。
@@ -49,3 +49,5 @@ R710续R663的B=R+Q C完整余数/正则forcing配对；正则pC0真实首项C0�
 **R697/R701** c_FF³唯一消最高项保全3C；free双极须实际Vrad²|Q。固定角μ=m3c_F为+3乘子、同R cap只top3。两∞矩deg f=14b/3、Σmαα=37b/24另付μ₂+2，但完整forcing还需v∞Pfact≥−4；三门全过才缩top2。原低r高b下μphys=w·unit，两13carry与移入普通行末项完整保，不能除μ推原d2。
 **R709** 单值接触≤Q_D=M_D+3B_D²+8D；Q_D<s时原G0W_D连续普通行0..13+Q_D目标p整分裂单射/全单位Smith，阈p>6Q_D−1≈(141/2)D²，无Δ_D。另exact ker_Q∩原源格旗标在J_aux<13+s且低行整时全层范数≤1，二次门297/20，不称所有短像饱和。两者只原平面，不扩五z/primitive塔；R644/R658旧vpΔ_D=0保。
 临界47/8仍不满足这些大门；R680排q≥4而q3/原同R forcing开。R712回固定μJ(Pfact)/p的原J首像及完整A区下一商；简单重排不加Smith条件，原两13行/rawF³/全normal补项仍联立。
+
+已付[模三光滑cube排除](notes/2026-11-15-critical-mod-three-smooth-cube-exclusion.md)：同相对kerJ、Q单位/EF单位/全P模三支持时，保R680着色负项得s≤12δ_D+12ell+25r+52D+16deg_YF−102，排除47/8临界的真实光滑cube；gcd1/2、非unit余因子/奇异支和一般K1仍开。
