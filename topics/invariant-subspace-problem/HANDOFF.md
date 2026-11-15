@@ -27,11 +27,11 @@
 
 ## 当前临时计算：同run直接接续
 
-- 活跃run43702348535，job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现19步。远端每步/每发布实际pull并核两规则，记录小回执。大数组仅同job临时；旧run43679903558已结束，p768/旧Dixon等只在具体需要时重建。
+- 活跃run43702348535，job132776011109；请求notes/2026-11-15-r150-recovery-small-session-request-789f.json现20步。远端每步/每发布实际pull并核两规则，记录小回执。大数组仅同job临时；旧run43679903558已结束，p768/旧Dixon等只在具体需要时重建。
 - 同选重建目录selected-natural-u-rebuilt；第一Q及33完整jet在selected-natural-first-left-envelope。旧第二目录selected-natural-second-left-regauged，完整36单位解18,124,389B/SHA9c3b02d2…，不要重95.542秒求解。
 - normal4高核在selected-natural-second-left-normal-four-continue/high-kernel，1,446,855B/SHA46b047a3…；其完整Q高求解21.356861559秒、225680原高产品真。最新完整二阶目录selected-natural-second-left-normal-four-complete130：数学355.152873124秒，binding672a21c0de59ec537f5d19333524f92ceb71ad3621eec643b9c11cf3f3fce2d3。新130解75,595,833B/SHAccfdf7db…，完整166 RREF25,174B/SHA7e060678…；原小回执SHA6383e6db…，全部批/残差/22原jet可续。下一normal5先做真实高约束最小消去，保已付130齐次/单位来源。
 - 零第六原2GiB在187.548660079秒FLINT退出−6；inventory已核zero-sixth-full-source-checkpoint中verified residual6188×7（SHA d4c8142e…）和top-kernel2779×10（43,242,447B/SHAf36b8e55…），不重顶层。zero-sixth-preparation的4738×7第五cochain仍完整。
-- step19 zero-sixth-verified-top-unit-schur-continuation：源f349e04b…、helper2d678264…，600秒/8GiB，输出zero-sixth-unit-continuation-checkpoint及小receipt。只读上述祖先，先固定H3 rank988/low base582单位块，再对新RHS作小Schur，保所有齐次核及6188乘回；当前最终实绩未读，不预填第六头/r1。
+- step19真实source c74ee7095cdb729b200fc0874e9a3fcb2d728cbb，外层660.179500199秒到限exit124，无数学receipt/错误尾；不得记第六新头。第20步复用只读inventory查zero-sixth-unit-continuation-checkpoint，先按已落盘phase续接。若停在常单位全逆，改只解实际新RHS；不重已verified祖先顶核。
 - 若第六完整完成，以低总核维nK和实际leading秩r读r1=14−(nK−r)，来自完整非pure4347+A1Q7的零head纤维。若r1<4，公共阶额外增4−r1；全部代数只在实际核完整后使用。公共最大新增a时，Kdegree99+a、当前条件费8627−a/目标209。不使用旧8634/222。
 - 七阶只在实际第六后按λ6高两块在旧3维H45核中的真实active投影决定至多3个新顶RHS；旧常单位可继承，不能用旧齐次核假定新forcing在像。λ4 pure10 incoming已被完整pure二阶lift吸收于low[A0,A1Q]，不重复求。
 
