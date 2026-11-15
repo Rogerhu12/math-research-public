@@ -62,7 +62,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R838完整I2与最小三阶已成**：[正式结果](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)run43771598002/sourcef5fa479f，17.344589635秒；新det2408/2429全节点与旧d0(1320)的gcd395，原σ∞只用层0/1。proper长度夹逼给J2=I2、E2=C20+D、ε0/P0∉D；接R836逐点公式得I3=C且最小阶恰3，不再开q3计算。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0至Nov16 22:52:19。D短RR坐标/eta/height未得。
 
-**R836短RR与下一核**：[原固定21点整商](results/R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)保I_D=(I2:I_(C+P0))。两锚现已实际给出；真T_m完整源仍需截取。exact在写T11原齐次秩与Q5短商/830×690核入口，须真实2451/395子式，不以单B模向量或模核维数冒称char0完整空间。原D/eta未计算。
+**R839短RR新入口**：[完整纸证](notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)以原三层391raw块移位拼2866×2886之T11矩阵；须实际2451子式，再双τ/σ嵌入给415行Q5、真两锚给830×690/395子式，才准确取得295条M3(D)的单位solve基。原R827391块/p753已有S5逆、R8091234原行已纯IO取齐；不做新V11尾/旧导数/旧逆。代码及公共wrapper接入中，尚未填秩或D坐标，eta/height未得。
 
 **真隐式关系与CM新消费者**：[2420原单位块](notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md)8d5b58a5由真核维28给原free1186准确adj/det关系、全129/280；权6的2692块定义全部300真隐式B，均非展开坐标。ordinary实现真实518的四CM响应及十四坐标商：全14branch单位才整体取逆，旧6724^5/κ/ζ只一次；RR候选须真bordered零或准确行空间乘回才能进旧R792。
 
