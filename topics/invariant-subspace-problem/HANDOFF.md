@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子题完成继续open，不停在阶段报告或时限。
-- **最近成功实际 pull 与已读规则提交：** df6db414466f680ee53cd8a011b7ea3d7fe802be（2026-11-15 14:32:04 UTC，临时研究session run43702348535实际pull --rebase，两README无差异；详见notes/r150-infinity-remote-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** ff5bfee690b4e2350eac8ea24f0058e9c8bde3bb（2026-11-15 14:32:16 UTC，Actions run43724873205实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43724873205-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交独占稿。每结论真实终端push；非快进即pull --rebase再推，不force。至少每小时及每推前实际pull，核两README，仅读新差异，已读commit记此。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783，课题4d6570e9cf346431ab781a1290076a6321aaaa00。本地14:21:09实际pull到39176227ae4f5191c1f4278bf5e697d25cb09add，两README均无新diff；此前11:34根清理记录diff已读。
 - token仅CLI、不落文件/日志。可重算矩阵/证书不存Git/Release/大工件，不分块绕限制；仅源码、参数、run、SHA、小回执，topic≤200MB。API仅小UTF8文本<100KB；有终端认证用git push。
@@ -25,12 +25,12 @@
 ## 临时同run：滚动请求与恢复
 
 - run43702348535/job132776011109仍活跃，原47步全完成，所有可重算矩阵/列解只在同job临时目录。当前request只放新续步，已完成参数完整保commit795c0306493c98aa0a04a11a2751b4cb0949709b的同路径request（95791B、SHA0e276a814fb747c8c04758cb193529b6af0e4e0278ad24083883317d5ec82a1d）。新job重做须先用该历史完整47步，再在同job切当前续步；禁止直接只跑续步假定旧数组存在。
-- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，当前新增累计step48=zero-complete-eleventh-full-incoming；180秒/2GiB，只4新/67旧单位列，保全部旧来项与原4367目标/6188来源。
+- 请求路径notes/2026-11-15-r150-recovery-small-session-request-789f.json，当前续步含累计step48=zero-complete-eleventh-full-incoming；180秒/2GiB，只4新/67旧单位列，保全部旧来项与原4367目标/6188来源。
 - 第十一用独立compact源码104882a9…，只压缩逐列重复回执并显式接受旧9bf405d3祖先；全部数学、checkpointPhases/manifest/原物理/ranges及真实祖先SHA不改。第十outer93089B尚完整，换fork防外层94000B摘要删关键phase；旧源码不改。
 - 第九实际40.496545674秒，β9=0/15头、928200产品，raw76694B/91a6381c…、outer85402B/adc77b03…；checkpoint bindingff22e24c…、manifest29426B/a18b7754…。
 - 第十实际49.708861252秒，β10=1/14头、952952产品；checkpoint binding14e1c96e…、manifest31517B/10929f25…，raw83784B/88830dc2…、outer93089B/0cbedfd5…。complete-order-10 cochain35791×14，逻辑243296d6…；λ0…7零、λ8/9/10真实非零，下一看K11。
 - 4318常单位前缀实1.627509135秒，113204/155448产品真，但HF/T primitive模31仅4，未假完整12。18RHS桥接实1.072890655秒，真Q旧14主元[0,1,2,13,14,18,20,25,26,28,29,30,31,32]加四目标，全跨度已证；没有新有理解。
-- third-missing-four-eighteen-unit-preparation内输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。native已装libflint-dev3.4.0-1/header3.4.0/g++15.2.0；下一同18 RHS整digit两槽求解，再实际全4354回填2缺二阶/4缺三阶和joint24/21，全部门槛真才称完整第四秩。
+- third-missing-four-eighteen-unit-preparation内输入9305373B/c2d645d0…，Mstar5245792B/cbd7329c…，binding25c4d030…，raw2628B/a692c7c9…。native已装libflint-dev3.4.0-1/header3.4.0/g++15.2.0。累计step49已排third-missing-four-constant-unit-native-first600：wrapper15b4fcae…/native d592f208…，600秒/4GiB/compile30，--through unit只求18单位RHS，整digit双槽保存；不冒充全4354回填。其后同源码/out的--through final接续，实际2缺二阶/4缺三阶及joint24/21全过才称完整第四秩。
 - 原selected-natural-u-rebuilt、first/second、normal4-complete130、normal5-high-elimination、17第三及各零点完整checkpoints均保。旧36/130/21单位解、normal5的786pivot槽及所有源SHA见历史request/本次H归档；不重已成大消元。job失效按历史参数真实重做，不把历史回执当本轮新解。
 
 ## 原同w边界：完整负部仍开
