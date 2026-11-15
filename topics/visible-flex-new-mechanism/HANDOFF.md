@@ -53,7 +53,8 @@ R133的packet-only IBP实际43653293263保全P/A/R端势，1009正规packet余�
 
 R138实际43654909901/source82a3dae准确证任意同右collar profile的G[-4]=B_p2(W1)[-4]/128，398项原差sound归零；1新pure、0mixed/profile/tail。原证书9533B/412dbe8f、main16657B/c02d93af。整个G轨道一般pure入响应像，(A_G∩kerπ)/(R∩kerπ)≅A_G/R；不授全U。
 
-下一R143只检R136的J一般pure一条原差：读R133既付packet81六个原有理响应系数，按索引对到R131已发G³权−2原列；不编新列、不跑profile/m8/mixed。源ddacad34/设计91cb8722已全文读，现已发单lane general_pure_J_identity；只3项新人工接口后运行。非零NF仍只未决。
+R143实际43656084792/source82f3a12完成：J[-4]减R133固定六列，392项原差sound归约后65项，故一般pure成员**仍未决**，不证候选假或非成员。1.282s/RSS95.469；主28753B/ae03942b、证书15409B/f01f2086，0新响应/profile/tail/mixed。下一只消费G³已发40完整独立列的pure像来求此单J；不盲换候选、不重算旧块。
+
 
 ## 6. 正在运行与未付终局
 

@@ -297,3 +297,5 @@
 - [R145：真实曲率反号与偶权正字符](results/R145-true-curvature-reflection-and-even-positive-characters.md) — 负缩放仅作有限Laurent代数延拓，真实几何保持h正、同输入和右锚；逐R56递推证V反号路径=SV，零矩桥证明闭锥基点无关及SC=C。非零正仿射字符只能偶整权；没有据此宣称奇权分量实际可取负或J已付。
 
 - [R148：固定曲率轴的sharp最高action符号门](results/R148-sharp-one-dimensional-highest-action-positivity.md) — 对全部正平端h，Aσ≥(3−σ)²Bσ/9且显式过渡证明常数sharp；aA+dB非负iff a≥0且d+(3−σ)²a/9≥0。权−2使λ(D0+25J/9)≥0，D0须由完整Q4提取。只一维最高层，不授全部action或实际控制。
+
+- [R143实际：一般J固定六列原差仍未决](notes/R143-general-pure-J-fixed-relation-unresolved-20261115.md) — actual43656084792/source82f3a12只消费J与六个既有原列，392原项→65项sound代表，1.282s/RSS95.469。零新响应/profile/幂尾/mixed；非零NF不证候选为假或pure非成员。下一只J对已发40完整基列的一般pure像成员门。

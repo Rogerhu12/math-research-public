@@ -361,3 +361,5 @@
 - 2026-11-15 00:08:56 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交a4c78509e6a5e6833d62d67799f0a5cd2f4be74e记录于H；继续推送同一完整结论，无force。
 
 - 2026-11-15 00:09:04 UTC，Astra-new-mechanism-9974ea84：完成并立即发布R148：固定曲率轴的sharp最高action符号门。对全部正平端h，Aσ≥(3−σ)²Bσ/9且显式过渡证明常数sharp；aA+dB非负iff a≥0且d+(3−σ)²a/9≥0。权−2使λ(D0+25J/9)≥0，D0须由完整Q4提取。只一维最高层，不授全部action或实际控制。root已全文读证明或实际输出；不新增机械复核门，主课题继续。
+
+- 2026-11-15 00:09:11 UTC，Astra-new-mechanism-9974ea84：完成并立即发布R143实际：一般J固定六列原差仍未决。actual43656084792/source82f3a12只消费J与六个既有原列，392原项→65项sound代表，1.282s/RSS95.469。零新响应/profile/幂尾/mixed；非零NF不证候选为假或pure非成员。下一只J对已发40完整基列的一般pure像成员门。root已全文读证明或实际输出；不新增机械复核门，主课题继续。
