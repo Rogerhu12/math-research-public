@@ -16,9 +16,9 @@
     7440
   ],
   "completed_bundles": null,
-  "completed_quarters": 82,
+  "completed_quarters": 165,
   "reused_completed_quarters": 0,
-  "new_completed_quarters_this_child": 82,
+  "new_completed_quarters_this_child": 165,
   "complete_quarter_count": null,
   "object_identity_sha256": null,
   "plan_native_sha256": null,
@@ -34,62 +34,62 @@
   "complete_infinite_BVP_inverse_proved": false,
   "latest_actual_quarters": [
     {
-      "index": 7272,
+      "index": 7355,
       "request": [
-        1818,
+        1838,
+        4,
+        3
+      ],
+      "interval": [
+        "24876758441687779/9007199254740992",
+        "3110298492652749/1125899906842624"
+      ],
+      "true_adjoint_Gram_trace_upper": {
+        "ball": "[2.9926260008492945144930723334848112e-32 +/- 5.80e-68]",
+        "lower": "[2.9926260008492945144930723334848112e-32 +/- 5.80e-68]",
+        "mid_float": 2.9926260008492945e-32,
+        "radius_upper_float": 0.0,
+        "upper": "[2.9926260008492945144930723334848112e-32 +/- 5.80e-68]"
+      },
+      "exact_array": {
+        "bytes": 344887,
+        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
+        "file": "adjoint-quarter-7355.npz",
+        "sha256": "d709fcf1054eda596388cddf23356733e63e346585d078dd4f18631930fd8596"
+      }
+    },
+    {
+      "index": 7356,
+      "request": [
+        1839,
         4,
         0
       ],
       "interval": [
-        "6124895493223875/2251799813685248",
-        "24505211472429713/9007199254740992"
+        "3110298492652749/1125899906842624",
+        "24888017440756205/9007199254740992"
       ],
       "true_adjoint_Gram_trace_upper": {
-        "ball": "[7.2958781390703971089175975182061757e-32 +/- 1.73e-67]",
-        "lower": "[7.2958781390703971089175975182061757e-32 +/- 1.73e-67]",
-        "mid_float": 7.295878139070397e-32,
+        "ball": "[2.8334882365796422804964558876619774e-32 +/- 1.20e-67]",
+        "lower": "[2.8334882365796422804964558876619774e-32 +/- 1.20e-67]",
+        "mid_float": 2.8334882365796423e-32,
         "radius_upper_float": 0.0,
-        "upper": "[7.2958781390703971089175975182061757e-32 +/- 1.73e-67]"
+        "upper": "[2.8334882365796422804964558876619774e-32 +/- 1.20e-67]"
       },
       "exact_array": {
-        "bytes": 344331,
+        "bytes": 344964,
         "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-7272.npz",
-        "sha256": "44e3cf57d91ab5b3671e16ab36ba8522c2051d4f66301bc931f411367d101eb2"
-      }
-    },
-    {
-      "index": 7273,
-      "request": [
-        1818,
-        4,
-        1
-      ],
-      "interval": [
-        "24505211472429713/9007199254740992",
-        "12255420485981963/4503599627370496"
-      ],
-      "true_adjoint_Gram_trace_upper": {
-        "ball": "[4.9256270723758783088983629708469158e-32 +/- 2.60e-67]",
-        "lower": "[4.9256270723758783088983629708469158e-32 +/- 2.60e-67]",
-        "mid_float": 4.9256270723758783e-32,
-        "radius_upper_float": 0.0,
-        "upper": "[4.9256270723758783088983629708469158e-32 +/- 2.60e-67]"
-      },
-      "exact_array": {
-        "bytes": 344458,
-        "exact_binary64_signed_triangles_and_complete_diagonal_slacks": true,
-        "file": "adjoint-quarter-7273.npz",
-        "sha256": "cc74cdb8a2a8e01ed88fb6952668691cf56452b448a280b67c86a71a1ed1d2f7"
+        "file": "adjoint-quarter-7356.npz",
+        "sha256": "45ab26c2e387d6bc3978f1a542100983236e251729a9de4eb0dbecdd47633450"
       }
     }
   ],
-  "native_sha256": "9af6d14b096643a4a8408f1548ac11b60ce07b66dd86c6c411df2cb24c444a3c",
+  "native_sha256": "2fb19efc82069fa49cbb5549d3c003936911aa512237c1819a33b6cb5e03f49b",
   "latest_actual_readme_check": [
     {
-      "time": "2026-11-15T02:51:49.537475+00:00",
-      "before": "35a01ea75319cd6934047acac34808fcb0e5c997",
-      "after": "c33955d79a72efd359c066106ddff6598b1a5f57",
+      "time": "2026-11-15T03:02:07.472811+00:00",
+      "before": "e4b6a45a60b930a0eaf6df2abdbaaf69ea2911de",
+      "after": "1ab29f27ec26920c1ddaf769e039e2309bfe740a",
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
