@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：26e00d13bc72d2a6d581019b83a2415dd804a7fb；2026-11-15 03:18:39 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:18:39 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
+- 最近已读规则提交：edd35f86d8d968fe25deb3d881d1f3944cd20377；2026-11-15 03:19:47 UTC核两README无变。实际CI pull 2026-11-15 03:14:42 UTC/72dc96dfff88f232c003dc5916ade1cdfefd056a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 03:19:46 UTC仍无环境。最迟2026-11-15 04:05 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
 - 令牌仅临时终端，不入文件/回复。终端断连期用非强制API追加；恢复即pull。拒推立即实际pull --rebase、新head核规则、接父重推至成功。
@@ -14,7 +14,7 @@
 ## 已发表、完整归档与分工
 
 R1–363、R365–560、R562–636、R638–653、R655–665已登记；R364/R561仍开，R637/R654/R666–668进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r664.md)、[open](notes/2026-11-15-open-before-r664.md)。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-multiple-euler.md)、[open](notes/2026-11-15-open-before-r664.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
@@ -38,10 +38,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 
 R567/594同q/全坏集、R599–634全native/RV两态、四球和EY/EW移权保持；11自由方向对RV不可见，W−不认T，M1接原I1/B1及三个补偿。
 
-R638/645原D/K三态、四真轴/全word、Y^n∩A^(2n)=A^(2n)Q5^n保持；有限来源群不代物理域，原M1/I1/EY与log质量全保。原两个q门交迫A深且排相应Yunit；原L4=1迫第四法向jet单位，11自由项不能删转置，四K/全部外部不赋零，详完整前检。
-R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+36ω)/360；交门恰W深N。
-原四K同W两层给(1−λ²)K=低W环带+完整共同门/两失败支，不删log质量。
-实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
+R638/645/650原三态/四轴/全word、Y^n∩A^(2n)及原q两门、第四法向jet、odd1755全核均保。交域/所有失败支/补偿和真实log质量不删；有限来源群不代物理域，11自由项不删A转置。完整门位移和E/G修正详前检。
 R653同一det−5 joint全S5²五项给K=(-M0ℓD,6bH−IΣ,-1+3bFH+ℓZ,1,−A0,3ΩA1)。
 同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩。
 R659全D0四层和Esharp完整核心保补域，M0,N模p=−λ^(N−1)P(λ)/(b(1+λ))，P固定二次且常数非零；同ray稀疏删后所有N∈4Z正均unit。全W补偿相应差非零。
@@ -67,7 +64,7 @@ R649同Θp/型/三挠零/二挠帽的p(λH_(s−1)+μH_(s−2))提升使两a/p�
 R614–619/R625–627的整窗/首坏带/全Newton尾保持；R618 τ₂=(2p−1)/(p(p²−1))。
 R632/635原所有p幂准确RE/闭非Tate、七积分独立含H38；全p²域未付。
 
-R639原CM范数一极限给h/Ec=Tg^-1整单位，Fc=Π0logh；完整中央连接所有R<RE唯一逆原点仍j，j0恰零初值解延全内盘。两中央Π0U无论j均在原p域，不添维数；σ/Ec=uH/Tg、全部H/高尾与两临界窗保持。
+R639原范数一CM极限付Tg±1整，Ec=hTg；完整原中央连接每个R<RE唯一正规解初值仍j，j0只使零初值解延全部内盘。Π0U总在原p域不添维数；σ/Ec=uH/Tg保H及原两临界行，详前检。
 R660完整原Φ/B、原首系数[z^(p+1)]A_m、闭X盘必j0与Q^(p+1−m)|B；原7n!整/复界使大p闭盘迫首有理系数真0。R663严格整LT坐标使[-p]=−pv+v^(p²)、Q=W^(p−1)−p；全余数r_ij=Σ_(k≥j)binom(k,j)p^(k−j)b_(i+(p−1)k)。原Y=H^-m R(WH^d)满足Y′+maY=(1+dWH′/H)B，a闭边界及略外严格c主导；同Y闭盘iffQ|B iff全r_i0零，并真过界。原j=Y0保同Neumann全尾，j0→余数仍缺，原X闭盘的更强下降不删。
 
 R641/644五正规C的H阶2/5/28/38/66、固定D全空间闭RE仅常数，须p>J且p∤A；全边界/p依赖系数/同权抵消保。R652同整流、R658真Gaussian子式使J≤(5184+o(1))D²；R656同A的log高度O(D4logD)、所有坏素数全九格成本≤20kH/X，4<θ<7强迫p>CDθ且p∤A的非整层；中央→所有层仍缺。全原幂/七积分/坏端点与非免费辅助格详完整前检。
@@ -79,14 +76,13 @@ R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；�
 旧M=c*U0m13J、19角/P134/charge40、13自由行/26carry、conductor10980不删。
 R593/597/603/608的同R全D+/两13尾、Qn/Qquad和结点Taylor补偿见全归档，实际余像未闭。
 R620同帽Hilbert/整核、R631全Υ边界K_p、R633准确首β保持；R629 bD≥s−13原J_A满射只吸同R过全J/p²后的第二A。真缺口bD≤s−14，R637须保较早自由列/全Padé高尾。
-R651在1≤r≤ν≤13、ell≤ν、s>max(3ν+ell,ν+13)，帽b_(D−2)≥ν−1/b_D≥2ν−r+ell内，同P三jet整右逆+强t-Hensel给近支ψ。
-全低行核/真实Dψ、两13尾及同R完整p³均付；ν≥7新增S(η0²R2)/2保持，先过barY+=πsbarZ+=0才合法比较Ψ_R∈imTψ，未证非零。
+R651原r≤ν≤13高支在显示强s窗/原帽下付同P整三jet与强t-Hensel、全低核/真实Dψ及同R完整p³；ν≥7新增S(η0²R2)/2不删。必须先过barY+=πsbarZ+=0才读Ψ_R∈imTψ；指定非零仍开，精确窗口见R651及前检。
 
 R646原全C全部高尾/帽/13/40保留的分歧合流证明给全Smith非零，e≤ceil((bD+13)/s)≤7、p≥137≤6，非原整等价。
 R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δj=dj−d(j−1)，μe=ce−δe+δ(e−1)。
 (E)早阶门下dJ=Σu(NuJ−(p−6u))_+，全g/q高尾三角付；p≥6101全部fD<p自动(E)。这是列权旗标，非有序jet前缀；旧M/D+仍开。
 
-R657原长连续前缀全列单射/同Smith界，固定G0W_D接触≤99D²/40+o(D²)。两Euler增补取Hu=max(Nu,Cu−Nu+1)，真共同接触≤25D²/18+o(D²)；不假设E保核，仍未到旧47D²/48截止，不搬旧M。
+R657原长连续前缀/同Smith界保持；同P完整Euler输出数1/2/3/固定≥4的特征零共同接触常数依次99/40,25/18,25/27,3/4。精确H_q=max(N_j+j,C_(q−1)+q−1)、k_q保全特征p端点/高尾；虽后三输出常数过47/48，旧E²P仅ell短行，三S/T/U不提供同P三Euler，也不能把目标p核搬辅助素数。详两篇增补，R637继续。
 
 R640 Wilson回G0W836、charge876/全帽，不添中央零。
 R642保首Gaussian的辅助M_c=(I−34F2s p²B/a)M modp³，B(f0,f1,f2)=(0,0,πf1)、B²0；同P/R先过全MQ2∈p²后第二代表相同，ell+13/26carry全保。

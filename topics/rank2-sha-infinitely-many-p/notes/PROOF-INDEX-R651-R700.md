@@ -34,3 +34,5 @@
 - [R665：原混合单位深支、完整二阶系数与负一非零返回](../results/R665-original-mixed-unit-deep-branch-and-negative-one-return.md)：原Θ±的真实L深域全角型只保原权L²项，完整差分解2β^nκ^(2n)J_N H_p(κ^n)；全六C支/37323与146718核、C单位补项和同一右逆付vJ_N=−2N。H首项准确含R655已非零的IΣ,-1，给深差精确赋值3n−2N+vI；同一L浅补域及原T外部全部保留。
 
 - [R664：原双S完整交域、共同伴随门及同一二阶系数](../results/R664-original-double-s-rotation-and-common-companion-gate.md)：原整数quarter同转置q/Y/W给四真S/T行；两S共深的126/10与共同9135轴全核绝对号付清。两冻结门交恰同R665四输入门加E深，E垂直两Y；全部七条条件A来源和共同/浅/外部保留，二阶差准确为同J_N的显示单位倍，未以质量代完整观察。
+
+- [R657多Euler增补：完整联合前缀与三个/四个输出常数](2026-11-15-r657-multiple-euler-ordered-prefix.md)：同一P的q个完整Euler输出给准确H_q/k_q连续前缀及原Smith上界，全部高尾/特征p端点保留；三个输出特征零共同接触≤25D²/27，固定至少四个≤3D²/4。旧第三输出仅ell短行，三原S/T/U不提供这些联合输出，目标p的模p核亦不能搬辅助素数。
