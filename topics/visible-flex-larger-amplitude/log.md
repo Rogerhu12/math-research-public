@@ -265,3 +265,7 @@ capture/samejob全diff、consumer全文及末修全文核后六件即发84af1e25
 ## 2026-11-15 18:21:24 UTC /root — 176原165严格反例只读定位入口
 
 旧reader/接口全文及最终四件25421B最小diff核后即发07d3b260/c0e93896/39191280；保原输入分段仅Actions内部联结，删除所有新大对象分包，38必要位置/a/as一份90KB；无科学调用，actual R374由exact唯一读。API核3f716b507943ddccfd818db5cb53f5b937701421双README未变，真pull保。
+
+## 2026-11-15 18:32:07 UTC /root — 175完整闭段查询诊断入口
+
+科学capture/consumer及私有84af数学已核，最终四件纯读回差异43564B全文核后六件即发；103pins仅runtime更新、三原参数逐字保。全部原trial标量/37×17分类单份90KB，无大对象分包，失败不清raw；open完整归档压缩已结历史、未付责任不减。终端恢复后重新部分克隆并真实pull读fcc4edbe3abcda99e199b6c335c2c02a56dd75cd，双README未变，H已记录。

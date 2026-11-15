@@ -4,12 +4,12 @@
 
 ## 规则、环境与完成标准
 
-规则同步记录：2026-11-15 18:27:18 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 2a6ce4bd7a2ea78f55e94dcee1f9b5cf5829db0d。
+规则同步记录：2026-11-15 18:33:28 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1dd199ecf50cc4bb65aef510ea855edae929dccc。
 
 只在公开Rogerhu12/math-research-public及其Actions工作。科学算术、科学模块导入/编译/数值测试仅Actions；此处限源码、纸证和已有JSON词法/字节/元数据。root唯一发布，三个代理只交独立文本/blob。PAT仅瞬时CLI，不入文件/提交/回复/connector。
 
-原部分克隆/tmp/visible-larger-root-git-149。14:33终端失联；新环境18:12仅试pwd仍exec-server缺失。按根8小文本fallback，恢复即真实pull --rebase；每push前及≥每小时核双README，变更仅读差异。CAS/NFF立即读新头重放到成功，禁force；Actions镜像2700秒真pull，不改科学checkout。
-API复核 2026-11-15 18:21:24 UTC 已读 3f716b507943ddccfd818db5cb53f5b937701421，双README blob仍同上；这不是git pull。
+终端18:30恢复，旧/tmp克隆已不存在；重新--filter=blob:none部分克隆到/tmp/visible-larger-root-git-180并真pull。后续CLI推送，NFF立刻pull --rebase并重试到成功，禁force；每pull核双README有变仅读差异，至少每小时一次。Actions镜像2700秒真pull，不改科学checkout。
+此前终端失联期间仅按根8官方集成发小文本，API复核未冒git pull；现已恢复真实Git工作。
 
 根15只存源/参数/run/SHA/紧凑结论，不存可重算raw/证书/输出，不拆包/编码大数据走工具。题≤200MB、MD<100KB、H<10KB/open宜<30KB；log≤5行/条，不写根LOG，不增fixture/独审/额外科学门。
 
@@ -24,7 +24,7 @@ API复核 2026-11-15 18:21:24 UTC 已读 3f716b507943ddccfd818db5cb53f5b93770142
 |170 exact，R365|43741803578 /bf1880f8c2e0381223bf29fd50ffb6e205afc75b|真98原37/FD→R354端点/全段M、pointwise Hermite，84af正sin/100pins|
 |172 geometry，R369|43745317876 /3975e583fcdb54e3b87a50bcb0fda8c964ba13bc|同145六p重生、全129248行R360，124pins/18000s|
 |174 amplitude，R376|43745211514 /411c6ed30e304c681c5ced2f672f4518d138020f|compute/report已终态，唯一读回中；全站固定odd新十族|
-|169重试 geometry，R367|43741519736 /de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80|同C全far→453，58pins，原R320九p/λ.001/3active+109core|
+|169重试 geometry，R367|43741519736 /de9a730a8f9cf8ea1f3e31fa6f6dd9cfb64e1d80|compute/report终态，geometry整理R367；58pins，原R320九p/λ.001/3active+109core|
 
 仅唯一负责人读已结束原日志；未返call不补拒。各源码/配方/预算/原错误与完整未访责任见同号notes接口和open；API状态或job绿不代数学门。
 
@@ -34,7 +34,7 @@ API复核 2026-11-15 18:21:24 UTC 已读 3f716b507943ddccfd818db5cb53f5b93770142
 
 [R343实际145](results/R343-actual145-current-H-R273-and-positive-height-line-search-stop.md)首正H五J/四接受，末十档全拒norm2317.31958952296，非预算。R360已证d=b+Aq+s；[172接口](notes/2026-11-15-request172-current-H-complete-secant-diagnostic-interface.md)新same-X noJ及全十拒后2^-10..-12仅诊断，全J/状态/Δ/e保到准确分解或明partial。额外调用有缓存/时间影响，不称145逐词轨迹；原32×10/strict下降/2e−9/worker.last不改。单≤90KB必要表，大dyadic/日志仅内部+身份，完成marker/owner静止后清。
 
-[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。170只付端点参考/闭M，不冒整query闭域。175独立真98父的完整G0+tG1+t²G2/14次query P已设计并实现，纯小读回修订中，实际R372未起。
+[R344实际155](results/R344-actual155-eight-complete37-pairs-and-unselected-left462.md)八37/FD与23trial/八接受齐，末拒在未选LEFT462；末physical仍非BVP，pair已清。171同job重生接38，不能凭旧SHA恢复。R353实际166的全75776×17仿射与148×453点态齐；R354完整V″已证。170只付端点参考/闭M，不冒整query闭域。[175完整入口](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)六件/103pins已发：真98原37/FD后G0+tG1+t²G2及14次query P，capture0a8f/consumercf4f/runtime825c，单≤90KB完整trial标量/全部37×17分类，原科学门不改；10800s含恢复，exact核R372。
 
 ## 同C的失败现场与新推进
 
@@ -57,4 +57,4 @@ R351完整七状态/112与173全部1397逻辑站已发；R363/R366/R370给准确
 
 九冻结450/完整shared-B闭面、R249接缝/两帽、同场R274非零、R294 C²与R298 clip前提、全t六jet/四Loewner/材料/DFS/曲率/距离/完整D/held/δE/reach/metric仍未付。原M112/T112/N2048、699×453/236036、3active/109core及完整H/BC/RMS/FD/fullDN/finalJ/audit不得降系统。真正完整父出现后才冻结同g精化，不借旧小幅/失败场或旧config/port。
 
-详细当前open与[本次压缩前完整检查点](notes/2026-11-15-open-checkpoint-before-R368.md)保全部旧责任/来源；results逐条结论、notes各request完整接口、computations实际源、.github/workflows公开执行。104清理后题168796207B；未知旧JSON不冒全分类。丢失未推源按已记录recipe重做，已清raw须真实重算，不能凭SHA恢复。所有新成果即推；课题未完成，持续下一子题。
+详细当前open与[本次压缩前完整检查点](notes/2026-11-15-open-checkpoint-before-request175.md)保全部旧责任/来源；results逐条结论、notes各request完整接口、computations实际源、.github/workflows公开执行。104清理后题168796207B；未知旧JSON不冒全分类。丢失未推源按已记录recipe重做，已清raw须真实重算，不能凭SHA恢复。所有新成果即推；课题未完成，持续下一子题。

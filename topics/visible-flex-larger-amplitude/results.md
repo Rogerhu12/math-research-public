@@ -314,3 +314,5 @@
 - [R378：完整十维最小范数Newton、截取与Cauchy下降](results/R378-fixed-shape-ten-coordinate-minimum-norm-Newton-and-Cauchy-descent.md)（已证条件代数）：固定S和shape，完整转置QR/pivot回代给满行秩最小范数联合方向，径向截取/全Cauchy保完整线性merit下降；实际Decimal误差、真实域/非线性余项与固定20档另付。178实现中，不预填准确秩或数值成功。
 
 - [Request176：实际165原38条严格速度反例定位](notes/2026-11-15-request176-original165-strict-refutation-log-interface.md)：四件纯元数据入口，Actions一次流式旧日志，内部核原完整对象，只返38必要位置/a/as/原分类与身份，单≤90KB；1500s/4GiB非科学保证，超限明确未完，不新算C或分包大见证。实际R374未预填。
+
+- [Request175：全部闭段Hermite查询域](notes/2026-11-15-request175-complete-closed-Hermite-query-domain-interface.md)：六件/103pins，真98原37/FD后完整453余项族和14次query P，保37×2048×17及全部原试探/未访责任。原科学与接受门不改；单份≤90KB必要摘要，大见证仅Actions内部，实际R372由exact核。
