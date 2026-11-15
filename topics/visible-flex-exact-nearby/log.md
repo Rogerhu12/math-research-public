@@ -177,3 +177,7 @@ root亲读execution6956c214全scientific receipt/12gates及resulta1721aac，独�
 ## 2026-11-15 12:52:50 UTC — 负侧源到strict density的完整类型接口
 
 两README在0e5b86c95570615f8c0bd116d0f9553af563e3e6亲核未变。root全文亲读N合同与原S a223a263/2010d9a1、E948ee3ba/60ceb9c9；N9–12两有序offdiag与5项、两norm门、primitive √17/4及真实mean、完整普通源H−2/3窗口、r_c=r_+−R几何均已核。新合同4d44bbe7082d4ee967ebf9d02284b3510624624ab98adb087b8d0499eb030376/13892B只另去两处文字backtick转义，数学无改。新consumer只能读取旧6 Cauchy常数/1328norm-forcing/3旧intrinsic part，再付新cut正scalar；各失败充分门保原而不冒奇异。尚无actual6cut结果、fullGH或core存在结论。H中帽旧详账和open的P详账仅引用本次前d6c1f5ba同路径，未删义务/未授权重算。
+
+## 2026-11-15 12:55:31 UTC — 已知有限cut真正Wiener逆角与更尖physical γ门
+
+两README在892165349443726fee648e9686630d6bc791c3f0亲核未变。root全文亲读W423f4719/12880B及原J，逐项核有限base32/continuousZ96 repair支持、W6物理4j凸弦、h1/256与σ1/4096同闭球两门、真实mean/reciprocal/正逆角和J4六个新base条件。known Aσ差≤13|δ|/200，δ非0严格；δ0已用非严格齐次式且最终低门仍严格，未留0<0。故真实unknown η有γA0≤13|δ|/200+ηH1/15，独立充分H1≤63d/320=1.96875e−11；未评unknown。原实际cut43715426316成功结果/J18负余量保持；high8193与core图/全matching仍待。无新数值或重算。open第6节旧tail详细指数与义务压缩引用本次前e76a5e92同路径和原proof，所有条件保留。

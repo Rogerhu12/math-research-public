@@ -203,39 +203,14 @@ RG用M零宽图、同真long右宽0/左宽7L/16与E'>39194024，解除未知γ�
 
 ## 6. 完整exact tail、连续选解及真实参数列
 
-本节压缩前全部域/源单位/指数/未付门保存在b63ef7fde2b03c4b90636725e28e5d342acade10同路径；
-其已成功数学不重算。当前固定实际physical γ满足
-A0/rγ≤1/128、H8193/rγ≤2^1048576，rγ=1e−9。
+本节已成tail的全部原域、指数、source/state单位、mean/荷、loss与未付条件逐字保e76a5e92aa7ba49215f74f2dbf7a443fb1d01056同路径第6节及下列原文；成功计算不重算，压缩不删除义务。
 
-[RG粗输入真实94/G种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)
-用M零宽帽和真实long分离端：B宽7L/16、E'>39194024及原94/G全部指数不变。
-实际Γ2由a94(γ)选择，随γ可变，每次body迭代内冻结；
-Γ1由真实principal map选定，fixed-γ collar不改negative principal输入。
+[RG真实94种子](results/R119-supplement-rough-inner-curvature-data-and-true-smoothed-B-seed.md)、[O实际帽long](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)、[D完整外行](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)、[HT全窗口](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)保持同一true M帽/long/fullmixed与N的完整端核。实际physical γ必须A0/rγ≤1/128、H8193/rγ≤2^1048576，rγ=1e−9；Γ1由同负principal锁定，Γ2随a94(γ)选择后在每次body迭代内冻结，fixed-γ collar不改该Γ。
 
-[O实际帽/long](results/R133-supplement-actual-two-input-cap-long-tame-forms-and-physical-Poisson.md)、
-[D完整外行](results/R119-supplement-actual-outer-row-to-complete-mixed-weighted-Schur.md)、
-[HT全窗口](results/R119-supplement-actual-cap-outer-update-in-full-network-tame-and-source-windows.md)
-已付两N2低门、最高反馈2^-608928；full N最终8388609/33554433、
-loss1734/bg1796不变。真实finite反射、EB0、adjoint、mean/flux/height/λ与全Poisson保留。
-未screen另保Dact/2^41943040，不能把这些行的tame界冒完整增广逆。
+[S完整far/Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)在这些域同时解exact body、真实far和holonomy；ρ+=2^-33554432、C+=2^167772160(1+Bbarγ)^8、T0=2^1500000、3500/400及loss1734/bg1796保持，真E1856离seed<2^-1700000000。三径source/四径state、affine/非径linear/二次/comm/DΠ项和未screenheight均保；S40–41/T给true physical C²整盘。
 
-[S非线性far及完整Nash](results/R119-supplement-nonlinear-far-boundary-straightening-and-complete-graph-Nash.md)
-§11现付上述粗H8193域的exact body F=0、真实far bγ=0及holonomy。
-U=w+L∂qγ(f)，fL∂=0使J逆nilpotent；E_s^+加2^440||fB||H(s+3)，
-额外端导由实际两行恢复。affine/非径linear/二次项、两comm和DΠ_A[v]f分别记账。
-ρ+=2^-33554432、C+=2^167772160(1+Bbarγ)^8、T0=2^1500000，
-3500/400归纳给E1856离seed<2^-1700000000；端核5530265<6291456，最高窗8192不扩。
-三径source/四径state和A22完整端缺陷保，S40–41/T给真物理C²整盘。
+[C连续选解](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)给同确定RGseed/Nash的γH8193→E1856连续，actual fB∞连续H1859且<2^-54865000、H2紧像。其证明保真实Γ2层权和full Hp/ψN源，未授C1、H0-Lipschitz或core selfmap；R的fixedmetric tiny列不替真实选解图导数。当前须另造core图并付以下同一截面的低/高入口。
 
-[C连续exact-tail选择和真实第二相位列](results/R119-supplement-continuous-exact-tail-selection-and-true-second-phase-response.md)
-现证明同一确定RG seed/Nash序列的γH8193→u∞ E1856+连续。
-真实Γ2层权W=J³δ^-5 C^P下q和Dγq均极小；先用精确L0 reference差统一图范数，
-再在固定非mean/B0域重建完整holonomy mean。C19真实proxy差分用S24低E20逆，
-结合实际correction E6396界插值、S37统一尾，得到连续而不借同阶Banach逆。
-actual fB∞连续H1859、统一<2^-54865000，像在H2相对紧。
-
-仍未授γ→tail的C1或H0-Lipschitz，也没有core selfmap。
-R的fixedmetric tiny列不能冒此选解图导数：Γ2(a94(γ))和完整Hp/ψN源须保。
 [V真实core截面到physical γ](results/R133-supplement-physical-inner-curvature-data-from-true-moving-core-trace.md)
 原先给同一L截面h=v−v0的充分门。现[J完整shape/mean低转换](results/R133-supplement-shape-and-mean-separated-physical-inner-curvature-trace.md)
 进一步证γA0≤||(h−j0μ)φ||2/16+|μ|/576≤||h||H1/15；低充分门改为hH1≤15e−9/128，
@@ -261,6 +236,9 @@ SCIe39646a5/workercfdb8ecd/manifeste6b4867f；conclusion618bd148/processdbe7fe24
 report048c84d5/conclusion5d74a0f2/process82b7c376；193真实幅度/base32 signed shape、全mean/连续repair均保，0旧math。
 未乘d的xi/xiφ/ζ/ζφ/mean/shape A0上界分别.241363696/.991176944/.601228813/2.456459299/.003278096/.597994429，直接供CS完整行费。
 J18 known上界1.030683e−11大于7.8125e−12，负剩余−2.494322e−12完整保；这不是实际γ下界。未知correction未评，更尖known value-map与真实低入口继续。
+
+[W已知有限cut与全Wiener逆角](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)现证明：同base32/连续Z96经h1/256与physicalσ1/4096完整逆角，known ||Cδ−Ĉ||Aσ≤13|δ|/200（δ非0严格）。全mean/无限reciprocal与逆角未截；不对unknown作复composition。
+新known vδ逐项付J4，故真实unknown η=v−vδ若H1≤63d/320=1.96875e−11则γA0<1e−9/128；这只是充分门，actual unknown仍未评。原J18 false科学字段保持，高h8193≤2^393000及same-state collar/真core存在仍须另付。
 
 [R selected centre完整residual](results/R133-supplement-selected-centre-complete-residual-and-collar-source-bounds.md)
 给fδ=f0−δs0−∫(ΔFν+ΔAZ)及star-shaped余项δ²B(d)/(2d)；s0须raw+A0e，piece offset径导0/接口Dirac准确抵消。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [已知cut完整Wiener逆角与更尖低入口](results/R133-supplement-known-finite-cut-Wiener-angle-and-sharp-low-curvature-entry.md)：同实际有限32/96参考、全mean/连续repair给known物理A1/4096差≤13|δ|/200。新base逐付J4，unknown η的H1≤1.96875e−11足低γ门；实际unknown/core仍未证明，原cut J18 false和高8193义务不变。
+
 - [负侧源到真实strict density cut](results/R133-supplement-complete-negative-source-to-strict-density-cut-readout.md)：逐式付原Cauchy H−1 physical到n_gT、primitive/全mean及两有序normalizer。六真cut为r_+−R；τ1/τ2实际门与source列待新scalar，root/jump/positive/waist/完整return独立，不冒97全BVP逆。
 
 - [finite193反馈合同新增shape/mean整界](notes/2026-11-15-R133-selected-parameter-finite193-scalar-feedback-contract.md)：F1–13原文保持，§7消费真实cut43715426316的六量及完整mean/repair；只有完整row/cap两scalar取min，κ0与κ1/5、三窗四列、三门和失败分支保持。最终Green未出，尚无actual反馈结论。
