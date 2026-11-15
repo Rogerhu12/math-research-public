@@ -428,3 +428,10 @@ R308真幂段f=A(x−β)^(5/2)在原全局面积前提下的修正准确是Σ(75
 [R321 完整证明](results/R321-complete-single-arctangent-gates-and-ten-dimensional-joint-control.md)逐项保原local修正β，给singleE七个h^−4…h²完整principal表；同E²三门提出αB后，恰张成{x^jW,x^jC:j=0…4}。五行消元最后判别式K³+24K²ε+16(7+19κ²)ε²>0；真正偶母/偶χ可能盲核仅span(uv,vr)，与共同αB因子交零，全正copy平移算子三角可逆，故实际主空间同为10维。
 
 从构造起点追加187项可冗余directed/local corrected-self系数，保全部真实Γ、Green、二次左尾和三ordered-wedge；整角十值准确为sin²θ×π/2值。11个真实交替位置对degree≤9多项式给严格正核，有限多个解析χ联合给全R10正锥；保持初选完整C²纤维的有限N IFT将包括所有基线的十个实际值同付零，既有log门不动。因此同一个实际圆的E²/log/E非有理局部门全清。纯有理We商、整个路径period/joint、高阶与有限几何仍欠；无新科学执行。
+
+
+## R320：真实反射弱核圆的全部三矩面积已付，朝外排列仍有严格下一层障碍
+
+[R320 完整证明](results/R320-complete-reflected-area-payment-and-outward-one-history-obstruction.md)保原J的总积分常尾推出三外矩反射律；全局偶 pair 准确给m0=0、m2=2C0m1。一个显式16轴bump强hook三矩原型给A4/E4=7，两相位合成Q4零后四实际旋转方向的R/A=3√2/4>1，严格正锥为R²。先选最终六对物理包络/共同宽度/八完整副本，再实际复四次根付Q4、四个正四次幅付m1，完整A−2,−3的三外矩全θ为零，三矩/弱hook/全部third保持；目标g在最后新seed固定。
+
+同稿继续到原下一门：右侧右向5/2曲段、左侧镜像的朝外排列，含任意strong-hook修正，完整面积迫Cd>K/3、D4=4(K+R)，而J=−K/3。若三directed必要行都付，完整原一层仍>BκK/9>0（0<κ²<.01）。负branch和修正权不能救该类；若directed未付已先失败。下一必须改曲段朝向与所在半侧的关系，不能把面积成功记成完整第四。纯纸证，无执行。

@@ -46,7 +46,7 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 **R304/306/311完整障碍**：同0<κ²<.01共振偶芽，完整面积/三个directed/E−3一层真C²余量给正系数×∫g″4。R304排全部不交实rank-one圆；R311固定包空间任意连续幅轨道也迫ci²=ai²且连通ci≡ai。R306保全mixed/Green/ordered尾推广至所有W=g′f″−f′g″=0重叠圆，双hook0⇔W0（含退化开段有限边界3/2幂不光滑证明）。原第三period只需单hook H(g;ff)=0⇔AfW0，不能强加第二hook；regular弱核被排，Af0曲开段仍是真rank-two入口。上述非主课题一般无解；原系数/假设留各证明。
 
-**R308/317/319弱hook通道**：内部f=A(x−β)^(5/2)、紧g给AfW0而W≠0；三左复幅真三矩、八完整copy消四ruling，再仅对全θ组合施period/range，完整三阶已付且第二hook非零。R317保全mixed新修正/真尾。R319更早面积I0=−(a+3b)/3∫u″²f″f‴排所有同向幂段，β任何号均不可；补包为全导0，真实copy正四次权。正反基本对分别在最终位置完成三阶，再两完整块等幅合并，两个无x相位系数准确互反，整θ这一I0真零。下一同一正反圆的I1/I2/一层/第四period与joint，不能当有限flex。
+**R308/317/319/320弱hook通道**：Af0曲段给真W≠0/单hook0，三左复幅三矩与八copy完整third已付。R319 I0排所有同向5/2曲段，与branch点号无关；正反块先在最终位置独立完成third，再同幅全θI0零。R320保原右常尾得反射三矩律，明确16轴bump原型→两相位Q4零→四实际正方向全R²锥，最终六对包络内付A−2,−3全部三外矩/全θ且保完整third。但右半右向、左镜像的朝外类即使面积及三directed均付，仍J=−K/3、Cd>K/3、D4=4(K+R)，原一层>BκK/9>0，负branch/任意strong-hook补块都不能救。下一R325朝向与半侧重排，必须同一profile联付全部原面积/一层/period/joint。
 
 **R312/315/318/321新初始端芽**：h=he(1+εσ²),κ≠0,ω常；原9参真实安装保M/frame/全词/闭合，先选新seed再固定g。真history=mrat+E Bε、E=atan(√εσ)/√ε，第三另有L=log(1+εσ²)；全gauge同We=span{1,h,h^-1}商，四词有理独立。R315付全部E8面积/三矩/third与E²三门；R318原local+chain residue=κ²ℒ，真τ/ξ/ν尾给cross0、C² self平移≤8，初选加27系数，全log清。R321完整七singleE行加三个E² principal恰10维，正判别式K³+24K²ε+16(7+19κ²)ε²；真偶母/复制不降维。新增187可冗余corrected-self含Γ/Green/local尾，十一真实交替包×有限χ正锥，保全部基线有限N真10零，全θ还原。同一个实际圆E²/log/E已全清；下一从R56全原式支付有理We商（不能只看principal），再全路径period/同w joint。未授完整第四或有限flex。
 
@@ -55,4 +55,4 @@ R254/258/261全Z=H7⊕J3⊕χ8维18，Af自伴与K=−J³Af保原右常数/左�
 
 R105/109/130完整history及非零M的N²/N³不可删；R84倒行成本同号，span非实际逆元，R156仅α∈πZ合法。旧S1/特殊曲率文献非一般C²刚性。完整第四、高阶收敛、同g有限族、全时嵌入/reach/幅度仍欠，按open继续。
 
-断连API复核main 7f39350af348e826c3c918cb20460d41debeb939，双README blob同。API读取不冒实际pull。
+断连API复核main 6d7c7422888a1bdf02e6eba7183954f5fc49a6fb，双README blob同。API读取不冒实际pull。
