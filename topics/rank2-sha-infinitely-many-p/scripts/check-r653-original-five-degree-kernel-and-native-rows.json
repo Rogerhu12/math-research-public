@@ -1,0 +1,232 @@
+{
+  "curve_b": 17,
+  "period": "original Omega_p; no physical dilation",
+  "pair_matrix": [
+    [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ]
+    ],
+    [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "-1",
+        "0"
+      ]
+    ]
+  ],
+  "determinant": [
+    "-5",
+    "0"
+  ],
+  "Gram": [
+    "5",
+    "5"
+  ],
+  "basis": [
+    {
+      "name": "D5",
+      "k": 0,
+      "order": 0,
+      "leading": "1"
+    },
+    {
+      "name": "Z5",
+      "k": 1,
+      "order": 1,
+      "leading": "1"
+    },
+    {
+      "name": "F12",
+      "k": 2,
+      "order": 2,
+      "leading": "2"
+    },
+    {
+      "name": "X5",
+      "k": 3,
+      "order": 3,
+      "leading": "1"
+    },
+    {
+      "name": "Sigma5",
+      "k": 5,
+      "order": 5,
+      "leading": "1"
+    }
+  ],
+  "simultaneous_type_pairs": [
+    [
+      "D5",
+      "F12"
+    ],
+    [
+      "Z5",
+      "Z5"
+    ],
+    [
+      "F12",
+      "D5"
+    ],
+    [
+      "X5",
+      "Sigma5"
+    ],
+    [
+      "Sigma5",
+      "X5"
+    ]
+  ],
+  "degree8_integer_coefficients": {
+    "q3l5": "1260",
+    "q5l3": "1260"
+  },
+  "whole_tensor_coefficients": {
+    "F12*D5": "1",
+    "D5*F12": "-1",
+    "Z5*Z5": "3",
+    "X5*Sigma5": "6b",
+    "Sigma5*X5": "6b"
+  },
+  "whole_Q_moment0": "-nu_F12(L)",
+  "whole_Q_moment1": "3 Omega nu_Z5(L)",
+  "scalar_rows": [
+    "log-principal D5",
+    "unit negative-one Sigma5",
+    "unit positive-one-log Z5"
+  ],
+  "fixed_rows": {
+    "F0": [
+      [
+        "37/87",
+        "-46/87"
+      ],
+      [
+        "-43/29",
+        "-21/29"
+      ],
+      [
+        "56/87",
+        "-65/87"
+      ],
+      [
+        "19/87",
+        "-19/87"
+      ],
+      [
+        "0",
+        "-6/5"
+      ],
+      [
+        "0",
+        "3/5"
+      ]
+    ],
+    "F1": [
+      [
+        "2/3",
+        "-2/3"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "1/3",
+        "-4/3"
+      ],
+      [
+        "-1/3",
+        "-2/3"
+      ],
+      [
+        "0",
+        "-6/5"
+      ],
+      [
+        "0",
+        "3/5"
+      ]
+    ],
+    "G0": [
+      [
+        "-1112/87",
+        "-304/87"
+      ],
+      [
+        "583/29",
+        "-19/29"
+      ],
+      [
+        "38/87",
+        "694/87"
+      ],
+      [
+        "1150/87",
+        "998/87"
+      ],
+      [
+        "-12/5",
+        "-6"
+      ],
+      [
+        "6/5",
+        "3"
+      ]
+    ],
+    "G1": [
+      [
+        "-37/3",
+        "-14/3"
+      ],
+      [
+        "21",
+        "-3"
+      ],
+      [
+        "-5/3",
+        "17/3"
+      ],
+      [
+        "32/3",
+        "31/3"
+      ],
+      [
+        "-12/5",
+        "-6"
+      ],
+      [
+        "6/5",
+        "3"
+      ]
+    ]
+  },
+  "Q_free_and_C_free_checks": true,
+  "W_failure_Q_coefficients_divided_by_z_minus_one": [
+    [
+      "-1/5",
+      "-41/300"
+    ],
+    [
+      "-91/360",
+      "-91/300"
+    ]
+  ],
+  "native_four_rows": [
+    "-M0 ellD",
+    "6b Hminus I_Sigma,-1 +3 bF Hplus ellZ,1",
+    "-A0",
+    "3 Omega A1"
+  ],
+  "annular_reference_difference": "-m M0 (1-chi lambda) log<lambda^2>",
+  "unhatted_baseline": "all four full coefficients zero; restricted pieces remain",
+  "boundary_scope": "five whole tensor summands and every moved Q cut retained"
+}

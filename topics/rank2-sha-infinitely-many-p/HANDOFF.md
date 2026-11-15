@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14），跨上下文持续，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4a8fc95e8c2ec77def569d0e040c2e934f32a6f8；2026-11-15 02:18:04 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:18:03 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
+- 最近已读规则提交：1a8bd62bcab9a951f8ebe33a742ce2ee6bda147d；2026-11-15 02:27:32 UTC核两README无变。实际CI pull 2026-11-15 01:57:47 UTC/de16d54f06d0ed4eeaf9a87f071381d9e2efc118（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 02:27:15 UTC仍无环境。最迟2026-11-15 02:50 UTC再实际pull。
 - 仅Rogerhu12/math-research-public/main；逐完整证明即登记推送，禁强推/改历史。每小时实际pull，每次核两README，仅读差异即执行。
 - 只读Actions43665493710/job132663812985实际pull成功且规则差异空，回执ci/rule-sync-receipt-2026-11-15T015747Z.json；本地仍断连，下一次最迟02:50 UTC。
 - 根规则12不设冻结/独审/复跑；规则13计算用公开Actions。课题log每轮≤5行，单MD/API文本<100KB、H<10KB、open尽量<30KB、文件<5MB。
@@ -14,15 +14,15 @@
 
 ## 已发表、完整归档与分工
 
-R1–363、R365–560、R562–636、R638–652已登记；R364/R561仍开，R637/R653–656进行中。
-完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r652.md)、[open](notes/2026-11-15-open-before-r648.md)。
+R1–363、R365–560、R562–636、R638–653已登记；R364/R561仍开，R637/R654–659进行中。
+完整前检：[HANDOFF](notes/2026-11-15-frontier-before-r653.md)、[open](notes/2026-11-15-open-before-r648.md)。
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R651-R700.md及前卷。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blobs。
 
 - root：R652五次jet/七次证书高度已付；续R656原全源传播/坏素数成本，O4/O6保留。
-- theta：R650固定门W全四行补偿及实际odd1755轴已付；续R653两失败支与原S/T的真关系。
+- theta：R653全S5²/原四K分离已付；续R659真实M0/H±和W失败支。
 - literature：R649已付；R655窄核σ5负一矩完整有限角色，R654真modp²连接保留。
-- deep：R651高临界同P整提升已付；续R637旧同R/全Padé/26carry指定余类。
+- deep：R637旧同R/全Padé继续；R657原C长连续前缀、R658辅助q二次jet在写。
 
 ## 原对象、ray及未闭旧支线
 
@@ -53,6 +53,9 @@ R645真实Y^n∩A^(2n)=A^(2n)Q5^n，μ0全返回χ65^nλ^(3n)；原S/T总行及�
 R650固定q门D_i在W操作下增(z−1)γ_i W，γ0=−(6+ω)/60、γ1=−(61+36ω)/360；交门恰W深N。
 原四K同W两层给(1−λ²)K=低W环带+完整共同门/两失败支，不删log质量。
 实际A门5D1=(5,5ω²,−10ω,0,−6ω,3ω)，六C支whole odd1755核χ65λ；整K_A返回Ehatunit/Aperpunit，E/G/log全部κ^N D1项保持。
+R653同一det−5 joint全S5²五项给K=(-M0ℓD,6bH−IΣ,-1+3bFH+ℓZ,1,−A0,3ΩA1)。
+同门Q/p^m环带差=−mM0(1−χ65λ)log⟨λ²⟩，M0未付非零；Σ5仍原σ17^5。
+W两失败支须保全五型/真实Q转置；同R594未加帽多项式四全行基准0，门外负基准不删。
 固定CM稀疏单位只用于固定λκ有限式；负五Katz仍root−，I1非零未付，不能数p依赖负矩。
 
 ## 惰性完整中央、解析与全成本
@@ -65,15 +68,12 @@ R624原det(c,d₂)是真Hadamard指定行8倍；S12 addition保坐标除子及1�
 原ψp四位完整恢复同det，低R₁/R₂/实际a/p全保。R630原numerator p⁷误差、
 五整商首阶js/单位C_s^j/j!已付，二次unit始2s在指定2s−1窗外；全端点卷积不删。
 原a=M c+R、R606 canonical gauge、R609三Q/Wilson不新增中央零，指定非退化仍开。
-R636同一P6=Z^pQ6完整低窗给两留数/两Cartier实际det；全部极点/O(p³)帽/低R1/R2保留。
-原Z=z−κ5z^(5p)+…，h5准确dℓ5=Tℓ5−ℓκ5；fullFc全部γ2/γ3/γ4三角在。
-R647同一P2=−(D−2G)^(p−1)Z^(p+1)、Θp=xP2给原S/T/U完整有理模型，保全部多项式/O(p³)极帽/Z的3p个零。
-原g_mh=T_mh(h≤4)，g_m5=T_m5−6κ5；j_m0给T_m1=0、T_m2=γm(g_m1/p)bar及T_m5+γm^5 B_m5/24=6κ5。
-B_mh是原低部分和除p^h，不自由/不删除；第三条只在另假设j1360时加入，fullFc全三角保。
+R636原P6付两Cartier实际det及h5仿射−ℓκ5；R647同P2付原S/T/U完整返回，极帽/Z零点/γ2–4三角全部保持。
+原g_mh=T_mh(h≤4)，g_m5=T_m5−6κ5；j_m0给T_m1=0及真实低块除商的两高约束，第三条须另假设j1360。
 R649同Θp/型/三挠零/二挠帽的p(λH_(s−1)+μH_(s−2))提升使两a/p变化det=−228072b/5unit；不是原sigma自由变化，必须付真实modp²条件。
 
-R614–619整窗/坏带/Newton尾、R625–627原p^e首坏带及真实源成本照前检；R618 τ₂=(2p−1)/(p(p²−1))。
-R632原sigma全S≤R<R_E度p/七积分独立不外推全p²域；R635任意p|N正幂准确R_E/闭非Tate，H边界根和d0单位全保。
+R614–619/R625–627的整窗/首坏带/全Newton尾保持；R618 τ₂=(2p−1)/(p(p²−1))。
+R632/635付原全部p幂准确RE/闭非Tate与七积分独立，含H38；不预支全p²域。
 
 R639原CM范数一极限给Pζ=h(ζz(u))/h(z(u))∈1+u²O[[u]]；
 Tg=(∏Pζ)^(1/d)整、Fc=Π0logh、Ec=expFc，h/Ec=Tg^-1全R<R_E Tateunit。
@@ -89,8 +89,7 @@ R644现对任意固定D构造有理jet长度J_D及Δ_D≠0；p>max(101,J_D)、v_
 全p²−1简单边界零点与真实Tg整性付所有p依赖系数/同权抵消；辅助维66D(72D+1)不作免费原格。
 R652原五变量degree7系统+已发表Binyamini Cor1给J_D≤Λ_D−72D，Λ_D=64(210D+24)^5。
 整证书A_D的log高度O(D7logD)，p>Λ_D且p∤A_D才进定理；大坏素数Σvlogp/p=O(D²logD)，不省成无例外cutoff。原中央→闭RE仍未付。
-R643固定有限s_p|ak+b的Gaussian正成本子和仅O(k(1+loglog k)²)，删它不改bI3；
-不限制真实强负估值或已付随D增长条件。多charge/十九角/帽/同R/全旗标须独立付。
+R643固定有限中央指标的Gaussian正成本O(k(loglogk)²)，不改bI3；真实负收益/增长条件另付。
 
 ## 原同R与完整物理格
 
@@ -110,7 +109,7 @@ R646原全C全部高尾/帽/13/40保留的分歧合流证明给全Smith非零，
 R648每列r=u+sj真含p^j，M0全Smith仅1/p；K=ker barM0，dJ=dim(K∩FJ)、δj=dj−d(j−1)，μe=ce−δe+δ(e−1)。
 (E)早阶门下dJ=Σu(NuJ−(p−6u))_+，全g/q高尾三角付；p≥6101全部fD<p自动(E)。这是列权旗标，非有序jet前缀；旧M/D+仍开。
 
-R640完整Wilson经真实conductor/全G0回G0W836，charge876和全部帽保；包含不添中央零。
+R640完整Wilson回G0W836，charge876/全帽保持，不添中央零。
 R642仅对辅助M_c去D_c=Ec/e^cX而保首Gaussian：先合法κ=34c、a=34pc，
 原Γ+标准B(f0,f1,f2)=(0,0,πf1)、B²0，M_c=(I−34F2s p²B/a)M modp³；
 全ell+13/两13carry保，同P/R过MQ2∈p²后第二代表逐项相同。不称全Ec删除或全C整共轭。
