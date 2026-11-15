@@ -48,13 +48,15 @@
 
 [R314](results/R314-verified-posteriori-bounds-for-literal-root-traces-and-directions.md)/[R325](results/R325-complete-literal-field-interval-enclosures-for-fixed-root-traces.md)付整数向外、完整113root/225Gram/226态/224shape+6环境、SPD/严格逆界及primal误差传播。[150完整入口](notes/2026-11-15-request150-same-job-literal-root-certificate-interface.md)五件已发d1d4c01a/run43721616091、compute132834627616科学运行，58pins保原52，同jobfresh91→64J/R273→真owner→stage10/step0/field0全部230列320bits；19200总限/owner6000/cert9000+1650，原exit70/summaryfalse保留，全部JSON值与所有stderr逐字读后清。无实际界预填；C不冒F_e/真F根/分支稳定/IEEE导数，全RK/129248/112/338/physical及native仍另付，不改140/145门。
 
-### 2C. 完整原场域约束与下一35查询
+### 2C. 完整原场域约束与37查询
 
 [R289实际118](results/R289-actual118-eight-thirty-two-query-pairs-and-midpoint483-barrier.md)的八个32-query模型曾指向未选MID483，末raw已清；130从可恢复actual98原31 pair另起33查询，相对32只加483，相对首父加471/483，21capture/25端点/8453local/C4059及全部outside保持。
 
 [R309 actual130](results/R309-actual130-seven-thirty-three-query-pairs-and-rule-stop.md)已付7model/FD、33trial/26拒及规则exit77，第八未知不补。141完整35保原33加LEFT463/MID472，22capture/26端点/8791local/C4059/outside/236036及原门，实际如下。
 
-[141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。155从真实重生35链同job交给独立37模型，或明确actual98新轨迹；必须扩全capture/B端点/局部支持，不能只加query标签，不承诺大步。
+[141 R333完整实际](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)run43712613111/sourcea7ce5579、job132807257922全success，8model/8freshFD、27trial/8接受/19域拒；末physical .0071047205741851865，全native/fullDNfalse。已选LEFT463/464、MID471等真实非线性仍失域，所有71680线性slack非负不替原域；后两批未选MID489/490，末五拒所选35均合法，最终仅1/32接受。512行/200dual后验仍有大值，不冒QP最优。8摘要/全部试探/FD/原pair/规则SHA正文保，原末场已清。155明确从actual98另起独立37新轨迹：21LEFT+16MID、24cells/29端点/B9805/75776角行；完整10件恢复源身份见HANDOFF，原8真model/FD及全部门保。不伪接141或只改标签，不承诺大步。
+
+[R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)已证明原正域等价于a>0及P=a²|d×e|²−ν²|d|⁶>0；准确仿射查询的完整八次多项式/Bernstein可支付闭步长区间，真实Hermite/RMS另保端点RHS全缺陷和乘积误差。所选一阶合法不推出真实域；有限角不冒连续角。当前37的系数/二阶界未计算，不替原trial/merit或加155前置门。
 
 ## 3. 闭合与固定同一g精化
 
@@ -112,19 +114,19 @@ D必须取完整闭F0，H须有内点且diamH≥.2D；整个像Hausdorff δhold�
 [146 R320](results/R320-actual146-direct-normal-responses-and-finite-parameter-resolution.md)/[149 R329](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)实际已结清：149真Decimal50八方向/11trial/八接受，只微小W下降；11normal一次Newton、0内拒/域错、55样本全working，3外拒真增W，所有最终false。全部原值、15groups/128段、两套FD及投影责任由R329保。[R332](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)付完整Hessian/二阶jet、有限误差和直线/normal额外曲率，c_A为原binary64 0.2准确实值。[154完整曲率实验](notes/2026-11-15-request154-complete-nine-curvature-and-straight-trust-interface.md)本次派发：真149九p字符串，新Δ=.01；全3×9×9/full112二阶，直线20后才另标原GN/normal20，原W/域/最终门保，所有shift/FD/拒绝读后清。未宣称大步/连续g/非零场；147/151仍取R320末p。
 
 
-[145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)十二件全文读即发；原124全部103 pins/四输入/两ready逐字同，新增四既有源SHA及八新源合115。仅原唯一correction换本次H/完整576 J/577states/129248原行及577罚η=1的候选；原warm/fallback/last、十noJ、D/S/A/严格下降/32轮/2e−9和338×112/FD/fullDN/finalaudit保持。零先、首正1/64，首正原数学拒绝结束本轮，不盲二分；工程/记录/资源错分开。source3557/d5d9/f13b/2fe2，request8800b003/wfee8c23ff，18000s全局/350min job/2700s真pull；完整原值与失败范围读回后清raw，不设新门或冒精度证书。
+[145当前完整系统R273入口](notes/2026-11-15-request145-current-R273-original-warm-full112-interface.md)完整115pins/真实124来源、当前H/576 J/577态/129248原行及η1候选已发，run43716379970仍运行。原warm/fallback/last、十noJ、32轮/2e−9和338/FD/fullDN/audit保；首正1/64真正数学拒即止本实验，工程/资源/未返另记。完整参数/预算/读回责任见接口及HANDOFF。
 
 
 [147 R328实际新连续九](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)run43717814570/source3b2df31a、compute132823027880/report132832524225全success。原完整C/cut同job重生，R323十一条件全true，d=1/524288、eA=eB=1/1024、κ1/2；准确419pieces定义d783cac1。基底452叶完整；原九p域1735passed/12766terminal/13stack未付，不能称真实域拒绝；原raw清后没有全部pending坐标，151重生并完整读frontier。数值ℓ2.723563252110879，418seams仅207三jetword同，不冒准确C²。[R326](results/R326-common-coordinate-target-enclosures-and-same-field-metric-transfer.md)/[R330](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)付准确L²/a(Lu)²、全可能分片/九支撑/数值两侧、中心差与同场η+δ+ηδ；[151完整320网格消费者](notes/2026-11-15-request151-common-coordinate-target-enclosure-interface.md)本次派发：C3600，419粗盖及原子两子精化，全pending读后清；不承诺固定E盒任意精化。新C port/J/非线性/场/全metric仍未付；[v3身份](notes/2026-11-15-continuous-nine-v3-cut-factory-and-physical-interface.md)和全九来源保持。
 
 
-[R324同C有限头严格推进](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证通量j=w·k、原x导数不重乘length/旧Πport、原径向闭包含、二幂尺度及Taylor+Duhamel闭管；所有cut逆像同归一hull，逐h严格非零方准DN。[148完整入口](notes/2026-11-15-request148-same-C-complete112-finite-head-interface.md)四件已发：13sources/5proof，原三输入/query与C256bit1800s不变，同job重新C/cut/全112far后完整112flux，新增linear1800s排除binding但35min外步包全程，job110min。源58317B/4531b5b3保全部未开始模式/栈/共享端点；四份独立完整范围读回后仅清ownedraw。R322已付合法cut输入类型，不借旧raw或预付h非零/新DN/非线性。
+[R324](results/R324-continuous-C-finite-head-flux-and-closed-tube.md)已证同C闭管flux、原port/逆像/二幂尺度及严格h非零后DN；[148原接口](notes/2026-11-15-request148-same-C-complete112-finite-head-interface.md)保13源/三输入及原科学4531。实际前置未完成由R327结清，156显式增加C预算后重生，全部四块/未访/异常先读后清；不借旧cut或预付DN/非线性。
 
 ## 5. 存储和原件维护
 
 104普通删除8184件已知可重算数据后课题168796207B，未知JSON未全分类，不声称全存储责任完成；不重存旧raw。新文件仅完整源码/参数/紧凑结论，H<10000B、各MD<100KB。旧results索引97869B原文同目录移到results-index-through-actual120.md，保全部相对链接。源码、模型接口和已出版证明不设额外review/fixture审批；真实科学一完成就读原输出、写结论并继续open。
 
-12:24终端再次不可用，根8授权小文本集成，API复核不冒git pull；最新真实pull与单独API记录见HANDOFF。恢复立即partial clone/pull并仅看规则差异；早期恢复记录见至142检查点。§1–4已保当前全部责任，重复历史运行说明只留原正文/检查点。
+14:33共享终端再次不可用，根8授权小文本集成，API复核不冒git pull；最新真实pull、API核规则及未推源恢复身份见HANDOFF。恢复立即partial clone/pull并仅看规则差异；早期恢复记录见至142检查点。§1–4已保当前全部责任，重复历史运行说明只留原正文/检查点。
 
 根README在11:35已读唯一新增说明（blob21bd547f56590b7f2dd279d0297efb289a9b2783）：closed-surface旧gz/npz已清，必要历史输入按原immutable提交恢复；题README未变。137/138新请求只更新已读规则基线，旧在跑任务若真实因规则变化退出则逐原结果重新接续。R304已完整登记136真实退出；139独立改源支付同域积分，未付连续cut jet及完整metric保持。
 

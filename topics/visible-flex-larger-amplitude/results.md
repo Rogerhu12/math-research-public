@@ -172,3 +172,19 @@
 - [R322：真实144原binarycut完整两jet与全自然域](results/R322-actual144-original-cut-twojet-and-complete-domain.md)：全1440/六primitive/两query域完成，cut全部一叶与E/Er/Err原dyadic保留；whole2891粗叶与晚期积分宽度未付，无缺源后缀，不冒有限头DN或同场metric。
 
 - [R321：真实140完整128下降与后继编译停止](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)：唯一α1达原容差，129248残差和576×226独立逐word同；stage/audit g++ return1、112/338未启动，非预算或数学拒绝。源码ADL冲突与未读取compiler正文分开，152保原全部责任修复。
+
+- [R327：实际148的未完成C头与尚未启动的cut传递](results/R327-actual148-incomplete-C-head-and-unstarted-cut-transfer.md)（实际Actions范围）：C1800只1432/1440片、全部10pending及源后缀保留，Rout/cut未付；全112深端已付，有限头0mode/0panel/0coefficient。前置未完成不冒ODE拒绝或共振；156仅显式增加C预算重生。
+
+- [R328：实际147的新连续目标构造与未付九参数域](results/R328-actual147-accurate-new-target-construction-and-unpaid-nine-domain.md)（实际Actions范围）：R323十一条件及准确419片定义完成，基底452叶完整；九p1735passed/12766terminal/13stack未决。数值418接缝词比较不冒准确C²，原pending未全读须151重生。
+
+- [R329：实际149完整持久Decimal50响应与小幅曲线下降](results/R329-actual149-persistent-decimal50-complete-response-and-small-curved-descent.md)（实际Actions有限诊断）：8方向/11trial/8接受，11normal一次Newton、55样本全working，仍3外拒真增W；全部FD/Arb/453及原值身份保留，最终全false。提高算术精度未自动给出大步或根。
+
+- [R330：公共坐标的中心差与目标系数包围](results/R330-centred-common-coordinate-difference-and-target-coefficient-bounds.md)（已证明，条件包含定理）：共同u的中心值加完整导数区间并与直接差相交，全部支撑/分片责任保留；a正下界给角系数2ρ+ρ²及独立径向差，同一场用η+δ+ηδ转移。无实际δ或最终场证书。
+
+- [R331：当前C的零shape初猜、非除Robin与完整敏感度](results/R331-current-C-zero-seed-general-Robin-and-complete-sensitivity.md)（已证明，条件有限维定理）：保两mean与原cut字词，全577节点/129248系统，非末−I前沿满秩、末整体非共振另付；η>0方向与η=0全112敏感度及完整338分开。无当前C的实际非线性接受或严格共振证书。
+
+- [R332：完整九维merit曲率与诚实信赖域提案](results/R332-complete-nine-merit-curvature-and-honest-trust-proposals.md)（已证明，条件优化定理）：全JᵀJ+ΣFₖHₖ及移位/Cauchy/负曲率有限候选，原binary64 c_A准确提升；有限形成误差、直线与normal加速度分别保留。局部存在不保证有限20档或大步成功，最终修订身份16385345。
+
+- [R333：实际141八个完整35查询模型与集合外域失败](results/R333-actual141-eight-complete-thirty-five-pairs-and-exterior-domain-failures.md)（实际Actions有限诊断）：8model/8freshFD、27trial/8接受/19域拒；所选查询的非线性失败、未选MID489/490和大QP后验分列。末physical .0071047205741851865，全native/fullDNfalse；全部试探/身份保留，155另起真实98轨迹。
+
+- [R334：原角域八次余量与真实Hermite缺陷传递](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)（已证明，准确代数与条件包围）：原严格域等价a>0、a²|d×e|²−ν²|d|⁶>0；仿射完整八次、Bernstein闭区间及真实RHS余项的显式乘积误差。未计算当前37系数/缺陷界，不替原非线性域或新增前置门。
