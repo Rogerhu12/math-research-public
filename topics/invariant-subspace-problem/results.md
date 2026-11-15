@@ -419,3 +419,5 @@
 - **∞第十两原高强迫均零，完整两头低商已确定。** [实际原高证明](results/R150-appendix-infinity-tenth-high-zero-and-complete-two-head-quotient.md)核123760原低阶产品、完整5100×2高零及十二入射链原残差；代表λ8/9 normal2各45/75非零、incoming λ9有115非零全保。仅断完整高和为零，不断各summand分别零；余1088×601低式须全原十一阶乘回后决定β10及65/66终谱。
 
 - **完整原∞有理谱恰66，第十连接恰一。** [实际原来源证明](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)给1088×601 prefix592→593、14头及952952原十一层产品；全正谱 $1^4,3,4^3,5,6,7,8,10,11$，sub55/max11、AI68、T∞长5仍只u5。十三已定指数和55及同原F31上界66迫末项11，不需第11计算。Δaff≤315、R/Rout/U≤157、Rh*≤180；外Ω度d时M≤157−d/总乘子180−d/原源费8531−d、第三328−d。完整D31及具体坐标整性另证，不由此假定旧D leading单位或Q高商26。
+
+- **原全无穷远矩阵具有真正D31 Smith，同202来源规范核已付。** [完整证明](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)用Q/F31同有序谱逐层单位Schur，得Z_(31)[[u]]上4340单位与正谱 $1^4,3,4^3,5,6,7,8,10,11$、13自由；完整右核1834自由且约化恰为完整field核。原1632 Koszul直和给同E216核202自由；实读field14方向全退出及原freeI，Nakayama证明这同一202坐标投影为单位，故准确规范整核存在。未假报新Q矩阵，也未把它扩成旧O149/高26或旧指定D leading单位。
