@@ -239,3 +239,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ### 2026-11-15：固定五阶cochain与九平方目标的整截断配对恒零
 
 [续证§5](results/R150-appendix-zero-paid-fifth-left-jets-original-target-pairing-zero.md)读取原四个完整临时阶段并保原producer binding，实际11.027009277秒输出4738×7全cochain；λ4/λ5原平方读数亦全零，因此该固定λ≤5(s)与每个n_j²及h0n_j²作多项式配对均恒零。未将它视为完整左零向量或成员性。保持这些低系数时首次新可能目标项为s9·h0[3]λ6(n_j²)，作障碍须同一九阶左延拓。完整第六现排300秒/2GiB，保新2805顶来源、全H4/H5核和全部低阶自由。
+
+
+### 2026-11-15：完整局部伴随读数扩至线性增长远孔窗口
+
+[完整证明](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)在x≥3072+48s、N≤floor(x/48)下，保同一原强头与连续尾，Π=Pstr≤s Pfar≤N的可行右逆范数仍≤B_s(x)，无N因子。完整MP读数准确为G*(I−Pker L_m)，不能删除核forcing。真正返回列为正向方程，原PEhat不保孔数，n≈Q≫x窗口未覆盖；继续原同W的返回forcing与共同预算。

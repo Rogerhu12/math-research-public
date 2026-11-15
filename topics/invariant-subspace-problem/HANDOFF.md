@@ -11,30 +11,32 @@
 
 ## 完整旧状态与当前入口
 
-全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-sixth-checkpoint-resume-and-normal4-full-high-kernel-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
+全部旧推导、预算、未列缺口和恢复链保[本次H全文](notes/2026-11-15-handoff-before-growing-far-hole-local-readout-789f.md)及其归档链接。未列问题不算关闭，最新开放目录为open.md；普通ISP仍未解决。
 
 ## R150：常数层已闭，完整参数长度与原成员性仍开
 
 - 原A为4367×6188、泛秩4354，同I,J4354/H8770；h0度24≠H0=(s−2)h0。[常数模型](results/R150-appendix-selected-second-transverse-rank556-constant4318-and-infinity-order50.md)给Q/F31同选秩4318/核36及D31单位规范；原完整细节、29显式核及p768身份保H全文。
-- [完整selected余空间](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：full49=20pure+29，square36=10pure+26；Q/D31/F31一致，高normal≥3全在selected像。全部36常核full一阶可升，不等于七新formal曲线。
+- [完整selected余空间](results/R150-appendix-selected-exact-cokernels49-36-and-natural-schur-interface.md)：full49=20pure+29、square36=10pure+26，Q/D31/F31一致；高normal≥3在selected像，36常核full一阶可升，非新formal曲线。
 - [特征零自然第一连接恰3](results/R150-appendix-selected-natural-first-connection-exact-rank-three.md)：同I,J/u，33头全部143682原产品真；λ0=ΛCc、λ1=E_oldXc+Λd，保36常核自由。D31[[u]]消I4318/uI3给第二Q下界9，未另验额外13输出。
 - [第二真22头与条件费8627](results/R150-appendix-selected-natural-second-left-twenty-two-heads-and-rank-interval.md)：新gauge只换1坐标，fielddet11/M0′31rank1546/unitdet5；103.869162799秒、全95788原产品，normal≤3完整头22维，故9≤Qβ2≤11，未排normal4/5。36/33/22阈值给同选D阶≥91/cofactor≥88，原换列正则Laplace≥88；K99下q8428…8580，非基8624/transfer8627/目标209，统一条件8627，原成员性未付。
 - [完整∞第二连接零](results/R150-appendix-infinity-full-second-connection-zero-common-order34-and-cost8675.md)已付β1=4、β2=0。[零点第五页](results/R150-appendix-zero-seventeen-fifth-left-jets-factor99-and-cost8634.md)：17.967190507秒，同九第四头真实高rank988/低rank586，七新头加十恒等头、全6188真。累计≤4/4/5/8/10、公共s53/s47；K99=s39K60，degree99、lc5^6为31单位。不假零点r1=4/β2=0。当时条件8634；当前费用按上条22头更新。
-- [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：15.752552958秒，完整高2295×999 rank988/低1088×603 rank586，七第五头加十恒等头；前五累计≤4/4/5/8/10，公共53/47。29精确曲线给指定82/81/75，已被22头的91/88/88改进。两端包络余rank2均不是完整第五下界；第六须新增2805三normal来源。
+- [∞第五页](results/R150-appendix-infinity-seventeen-fifth-left-jets-order53-and-cost8638.md)：同样17真头、累计≤4/4/5/8/10，完整公共53/47。29曲线指定82/81/75已被91/88/88改进。两端受限第五余rank2均非完整连接下界。
 - [同一模31完整长度243](results/R150-appendix-complete-selected-mod31-infinity-length243-degree8527-and-target230.md)已重做并推，51旧前缀全SHA同，36正指数全部付完/max21，field cofactor222仅用于其范围。deg Dbar8527，现QdegD8527…8679、91≤v∞D≤243；lc31单位等价Qv∞243，未证。重建binding43124d7d621b24353e3686cb1db8932ee6259822f22c1dbb1f8e0cd1d7b54600。
-- [加权精确曲线引理](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)给同一active来源因子的全部j子式最小j权和，删列由wedge支付。旧29曲线外一阶1834×29真Qrank29、固定常组合t2=0；允许uPhiY纠偏的最大支撑维数仍开，不重旧1603块。
+- [加权曲线](results/R150-appendix-weighted-support-orders-of-exact-kernel-curves-and-minor-gains.md)及旧29曲线/1834×29真Qrank29保归档。允许uPhiY纠偏的最大支撑仍开，不重旧1603块。
 - 原九模31⁶证书费1339全成，未付Q[s]成员性、固定e无界精度或lc31单位；旧有限域gcd/GB/LLL/65521均保归档，不重复。
 
 ## 原同w边界：共同预算仍开
 
 M=kerT、N=closure BM、W=M⊖N，N=M未证。保同w、原u_Q、future、负前缀、自然逆域；ordinary右λ、裸α、左μ不得互换。强尾并头C=A_m+E、h=d+R，Xi²=α²+flat²，ΣXi²≤2hβtail²；仍须μ²≤κXi²且κh/Q有界，κ=O(h)足，当前h²/Q→0。
 
-- 四头任意nilpotent反例、首bit完整Schur及三列硬核正角的准确范围保H全文：均未付原W移动整行上界、完整Green或ordinary封口；原反向投影无已付速率。
+- 任意四头反例、首bit完整Schur、三列硬核正角见H归档；原W移动整行上界/普通封口仍未付，原反向投影无已付速率。
 - [联合归一bit反馈](results/R271-appendix-joint-normalized-bit-feedback-and-physical-kernel-row-bound.md)：原Ni保carry、ΣNiNi*≥I−Ptop，同H给核内dist²≤C_m整行能量。任意原w∈M整行≥9e^-2140/[6400(m+4)²C_m^4]||w||²；原W只付每个固定i列强零，移动全行上界仍开，正查相邻投影/同W共同抵消。
 - [低物理孔真实借位与Gram](results/R271-appendix-low-physical-hole-borrow-powers-and-complete-gram-compression.md)：保每词未归并频数，E≥(C/4)^4；原N/Y所有头及全局||A^kP≤s||≤6^k exp[−(770/256)(k−s)+^4]。完整H低源压缩≤D_s=exp[1+sτ+τ^(4/3)]、完整逆低源二次型≥D_s^-1；等权池真实Green只投低孔输出可付4D_s(S/4)/S，保原H_pool^-1。N型低孔测试同核反馈行≥(m−s)D_(s+1)^-1||P_m^Bf||²。仅付等权池此读数；原W整行上界继续。
 - [保强位与原连续尾](results/R271-appendix-strong-head-low-hole-powers-and-continuous-tail-local-adjoint-readout.md)：C=A_m+D_<，全强头低总孔||C^kP≤s||≤7^k exp[−γ(k−s)+^4]，不随R/h换阈值。对L_m=C+D_x=A_m+D≥m及x=m+R≥3072+48s，真实有限Neumann右逆低孔范数≤B_s(x)=(s+3)√(2/S_x)exp[sτ+τ^(4/3)]；保逐孔尾右逆和完整MP自然域，P≤s L_m*†同界。log B=O_s(log^(4/3)x)，不是固定多项式x费。原T carry差/返回P_Ehat/同W运输仍待付。
-- Riordan已付完整右/裸/全旗、真实eY配对运输与同窗误差O(C0²h/Q)→0；不运输整个左L。Ĉ用V0，W_h仅在kerL_lin与V0相同；强孔Gram逆不保次数。强gauge末端q_h及返回主项未付，必须用原Cg而非Boolean头。
-- 等权长池Green完整公式已付L≥2d；加入早强位必须换A_rest及全部Gram。原连续尾固定f Green O(R³)、共同高孔残量与ordinary两费仍未付；特定Artin大列不下界真Green。全部旧来源细节及未列缺口见H全文。
+- Riordan已付完整右/裸/全旗及同窗误差O(C0²h/Q)→0；不运输整个左L。原强gauge末端与返回主项未付，须保原Cg及完整Gram逆。
+- 等权长池L≥2d完整Green已付；原连续尾固定f的O(R³)、共同高孔残量及ordinary两费仍开，特定Artin大列不下界真Green。
+
+- [增长远孔窗口](results/R271-appendix-growing-far-hole-window-low-head-adjoint-readout-with-full-kernel.md)：同B_s(x)扩至Π=Pstr≤s Pfar≤N、N≤floor(x/48)，x≥3072+48s；完整局部MP精确Π(L_m*)†=G*(I−Pker L_m)，保整个forcing。k>J_x−N的整数界已核。不覆盖n≈Q≫x，也不替PEhat/正向返回。
 
 ## 临时数学会话与恢复
 
