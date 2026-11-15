@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_selected_cut_shape_mean_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43715426316",
   "run_attempt": "1",
@@ -9,7 +9,36 @@
   "worker_source_sha256": "c7c83418a890245f224a04e7dc41dadaa80eee7223c00c7a1f1c458eda3eecce",
   "actual_source_sha256": "745fc480b101dbd7ca035c11826d2d0208c4d2db3568e0bbb4214fa401ddbb19",
   "input_manifest_sha256": "95541c2e2bd7cd7547d13319fdacdaf3a0d8ba1eb1ac675fd4d68480b6994b57",
-  "children": [],
+  "children": [
+    {
+      "label": "selected_cut_shape_mean",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_selected_cut_shape_mean.py",
+        "--manifest",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-15-R133-selected-cut-shape-mean-CI-inputs.json",
+        "--manifest-sha",
+        "95541c2e2bd7cd7547d13319fdacdaf3a0d8ba1eb1ac675fd4d68480b6994b57",
+        "--boundary",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science/topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/native/known-waist-and-true-cap-sources.json.gz",
+        "--boundary-process",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science/topics/visible-flex-exact-nearby/notes/known_response_boundary_ci/run-43599771405-1-known-waist-and-true-cap-sources/process.json",
+        "--base-cut",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-repaired-moving96-physical128-C-matrix-native.json.gz",
+        "--temporary-audit",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/new-temporary-cut-shape-signed-audit.json",
+        "--out",
+        "/__w/_temp/visible-exact-selected-cut-shape-mean/actual-cut-shape-mean-conclusion.json"
+      ],
+      "started_utc": "2026-11-15T12:45:42.685397+00:00",
+      "actual_returncode": 0,
+      "finished_utc": "2026-11-15T12:45:43.685937+00:00",
+      "actual_wall_seconds": 1.000554360999999,
+      "temporary_log_bytes": 202,
+      "temporary_log_sha256": "75848717a973bbbfe62a04f3f71e657ac4332ab2055d308590788bf2e87ed4aa"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-15T12:45:34.779210+00:00",
@@ -34,9 +63,27 @@
         "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
       },
       "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+    },
+    {
+      "time": "2026-11-15T12:45:44.009824+00:00",
+      "before": "e2db433eb4f317c1a5c84b4bcb2f8ad19f084817",
+      "after": "e2db433eb4f317c1a5c84b4bcb2f8ad19f084817",
+      "changed": false,
+      "actual_diff": "",
+      "actual_sha256": {
+        "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+      },
+      "separately_read_rules_commit": "2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "utc": "2026-11-15T12:45:42.682117+00:00",
+      "commit": "e2db433eb4f317c1a5c84b4bcb2f8ad19f084817",
+      "final": false
+    }
+  ],
   "original_targets_residual_enclosures_reference_ODE_and_primitive_recomputed": 0,
   "original_recomputable_inputs_only_in_temporary_storage": true,
   "new_recomputable_data_persisted": false,
@@ -47,7 +94,7 @@
   "full_infinite_BVP_inverse_proved": false,
   "historical_restore_commit": "7c130fb94528de8f003a43e7049fb42768a64eec",
   "reviewed_rules_sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
-  "last_read_commit": "9fd56caa97210eed6a126f166758f7a028770f52",
+  "last_read_commit": "e2db433eb4f317c1a5c84b4bcb2f8ad19f084817",
   "package_versions": {
     "python-flint": "0.9.0"
   },
@@ -156,48 +203,100 @@
     "no_core_existence_unknown_correction_or_low_selfmap_claim": true
   },
   "immutable_scientific_copy": "/__w/_temp/visible-exact-selected-cut-shape-mean/immutable-science",
-  "snapshot_utc": "2026-11-15T12:45:39.150151+00:00",
-  "wall_seconds": 4.668098465,
+  "snapshot_utc": "2026-11-15T12:45:43.686423+00:00",
+  "wall_seconds": 9.204357582,
   "published_topic_capacity_metadata": {
     "method": "published_origin_main_Git_Trees_API_metadata_only",
-    "commit": "9fd56caa97210eed6a126f166758f7a028770f52",
-    "root_tree": "48c2115cf82e56678232da3317f116c5f039c3f9",
+    "commit": "e2db433eb4f317c1a5c84b4bcb2f8ad19f084817",
+    "root_tree": "5ad460d0557a6c8a92a78873ec649b2fdcb07369",
     "topic": "topics/visible-flex-exact-nearby",
-    "topic_tree": "e6d1ebdd86d8b8c50bd5e72e0affa082f105adfd",
+    "topic_tree": "2e558ed07d6d3ec3ecf0a510e6a67c60386598fb",
     "truncated": false,
     "all_blob_sizes_checked": true,
-    "blob_count": 14105,
-    "blob_bytes": 198911511,
-    "nested_tree_count": 5578,
+    "blob_count": 14106,
+    "blob_bytes": 198920606,
+    "nested_tree_count": 5580,
     "gitlink_count": 0,
-    "complete_blob_metadata_inventory_sha256": "7f3a123c2d39820cbd59fa64db59b6b0835a13a2e0a9968899f8c81bf1b2c701",
+    "complete_blob_metadata_inventory_sha256": "66f7aae92dd8c7aafeb6d788e3c9630683dbf2ca8a3b808fd8aee47cce8f82a1",
     "metadata_responses": [
       {
-        "tree": "48c2115cf82e56678232da3317f116c5f039c3f9",
+        "tree": "5ad460d0557a6c8a92a78873ec649b2fdcb07369",
         "recursive": false,
         "bytes": 861,
-        "sha256": "30f729b2e8ce1679a0a923cd0ee96373ad1d26da7c888ea6012c188e2f726499",
+        "sha256": "0173de6b8086db6a2e802d9c1f8233b9d6909c08062845a066c763349a008e01",
         "truncated": false
       },
       {
-        "tree": "e9361d8b4b1ce2f87c538e5b90a0b1e115cfd80e",
+        "tree": "635851bd73fae532a88c5d957c25eab96932dc9d",
         "recursive": false,
         "bytes": 1846,
-        "sha256": "9ef74f90d19f738db55032bc334d15a507f8d2cc84d37700ac0573b4b91725e9",
+        "sha256": "277643ec165ccc6ed8624a67c5ce8cb4575a296bfde844c873ba5779447fea0e",
         "truncated": false
       },
       {
-        "tree": "e6d1ebdd86d8b8c50bd5e72e0affa082f105adfd",
+        "tree": "2e558ed07d6d3ec3ecf0a510e6a67c60386598fb",
         "recursive": true,
-        "bytes": 6488829,
-        "sha256": "5491e06239e394c3a0bb7bab1f550ab4a5d43b46fedbfc067831423be3eb2e87",
+        "bytes": 6489664,
+        "sha256": "69039bdcb3085aca35af2ec57ae19e23673566491a389a47b0e2bc7ee04c086f",
         "truncated": false
       }
     ],
     "blob_bodies_requested": false
   },
-  "publication_is_final_attempt": false,
+  "publication_is_final_attempt": true,
   "pre_math_small_conclusion_capacity_reserve_bytes": 120000,
   "pre_math_topic_bytes_with_reserve_upper": 199044540,
-  "projected_topic_bytes_upper": 198924540
+  "projected_topic_bytes_upper": 198936980,
+  "actual_scientific_summary_sha256": "5d74a0f24afe7d490cd17f04f0c0ea5efb671fd277ced502269f4d94c748a413",
+  "actual_scientific_summary_bytes": 7733,
+  "actual_output_sha256": "3658bd3983e0ed67961e07730aaf3f6652cd27598cbfac6dc7bbe140e21f751d",
+  "actual_output_bytes": 24323,
+  "actual_remaining_low_gamma_budget_proved": false,
+  "core_existence_or_low_gamma_selfmap_claimed": false,
+  "actual_scientific_gates": [
+    {
+      "name": "new exact scalar parameters and scientific source are immutable",
+      "passed": true
+    },
+    {
+      "name": "both saved native identities and the actual original boundary process are exact",
+      "passed": true
+    },
+    {
+      "name": "the original public boundary run completed all ten gates without changing the physical trial",
+      "passed": true
+    },
+    {
+      "name": "the stored boundary is the same raw physical full193 trial at the same repaired centre",
+      "passed": true
+    },
+    {
+      "name": "the original cut is the complete left interior trace with all signed physical amplitudes",
+      "passed": true
+    },
+    {
+      "name": "the accepted base cut stores the same exact repaired finite32 endpoint and complete mean",
+      "passed": true
+    },
+    {
+      "name": "the actual repaired base mean is negative with the original shape neighbourhood margin",
+      "passed": true
+    },
+    {
+      "name": "the exact base shape agrees with every saved phase coefficient including the true mean",
+      "passed": true
+    },
+    {
+      "name": "all full193 component norms and the signed correlated shape were evaluated with complete repair fees",
+      "passed": true
+    }
+  ],
+  "actual_scientific_complete": true,
+  "actual_scientific_failure": null,
+  "prepublication_scientific_stdout_receipt": {
+    "bytes": 8475,
+    "sha256": "435a021f0fb122077ebdac3620c13df83a86fec45d34d0ab70c381ef14289242",
+    "complete_conclusion_included": true,
+    "emitted_before_terminal_publication": true
+  }
 }
