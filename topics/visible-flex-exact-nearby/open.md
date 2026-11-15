@@ -87,7 +87,7 @@ root点仍保n^7/6混合迹费用。该定理仅真实径向reference，不转�
 
 [SV精确leading逆列](results/R133-supplement-exact-leading-inverse-column-and-density-zero-SV-source.md)、[actual43722805762/1](results/R133-supplement-actual-exact-leading-inverse-column-density-zero-sources.md)child0/23锁75c453c0/ba96a483/9a31404f，69pins/20AST。B_jw0完整y²/y³/径G/fullmean/physical n^-2一次，三density0整项更新、28逐字M/58球核。只physical n≥388逆gap，非独立complex-z；所有旧数值/完整两窗/18coeff/六dr与域保24b同本段/actual，旧math0，非GH。
 
-[HP准确normalized p列与十h整项](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)8101e7e6已独核；完整principal W(sTy,−x)+y³/y² rank correction、两density η^-1及六dr/mean/三wholeword保，其他21逐字S1+ER。现部署SCI bacbc58b、worker7e7641db、82pin manifest12f93b00、flowec45c632；77原pin零改/7083579B，25实际门与15新A待回执。原SV==DG gap不改，RV重新编码只验正且不代入算术；未部署前已修身份门。
+[HP准确normalized p列与十h整项](results/R133-supplement-exact-normalized-p-columns-and-complete-h-source-ledger.md)及[actual43726426053/1](results/R133-supplement-actual-exact-normalized-p-columns-and-complete-h-sources.md)已成child0/25/math.134433171，reporte9151554/execution01d99900/resultd67104c1；82pins/25AST、77旧零改。完整principal W(sTy,−x)+y³/y² rank/两density η^-1/六dr/全mean/三wholeword，15新A使十h项全改善；另21逐字S1/ER、local与W2/payload保。pair<1.133017e10、mean<1.104186e8，101报告球逐字核。原SVgap未改，RV舍入只验正；新W/Ty/Bp0/Zp供BG仅读，原HP成功禁重。volume非GH/source-to-wave。
 
 [BG精确leading transport逆列](results/R133-supplement-exact-inverse-leading-transport-and-five-density-zero-sources.md)f634f95c已root逐式/phase全文独核。主列(W/2)(s(cBplus+y²),xζ−BplusΞ)准确消去c*y；full q修正/B_V∂φR0、real jets与fullSG holXi/SB逆域分清。六row完整vZg−vφZp和vZp均值、20A只改五density0整项，另26逐字保HP；其他旧算术/径积分不重跑。待HP成功回执、SCI/manifest/run/hash冻结后newton新consumer；五整项volume不授source-to-wave/GH。
 
