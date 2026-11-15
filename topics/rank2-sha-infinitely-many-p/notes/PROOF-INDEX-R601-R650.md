@@ -90,3 +90,6 @@
 
 
 - [R625：原theta的p幂完整整窗与首坏系数](../results/R625-original-theta-powers-integral-window-and-first-bad-coefficient.md)：原f4/f1/S/T归一B的全部p^e幂（1≤e≤p−2）在n<(e+1)L整，紧邻端点一次分母的绝对residue为(-1)^e d b^((e+1)L)/(e+1)。完整H坏因子、两个二项式消去和有限Dwork付指数，保原S/T首w^(p^e)及真实来源度p^e；未把高坏行代真层或不依赖j的整性赋成新零。
+
+
+- [R620：全原来源的准确带权Hilbert函数与十三阶Smith窗](../results/R620-full-original-weighted-hilbert-function-and-thirteen-row-smith-window.md)：原全部十九角/真实帽的modp秩为Σmin(m_r,(p−78−6r)_+)，原高尾由连续电荷单位二项式块完整支付；同帽整核基有exp(O(D²))成本。0≤b_D−(s−13)≤12时全部模p核恰为原t^(s−13)尾列，真实低十三行首Bockstein单射，完整C矩阵仅有unit和p Smith因子；不代旧三块d2或全局真旗标。

@@ -537,3 +537,5 @@
 - 2026-11-15 00:09:23 UTC / Astra-rank2-Sha-continue：R595同一M在全部h的特征零真实留数上成立，原完整j保全尾/charge分母和R_h；第二forcing与残差共同剪切，真不变量det(c,d₂)仍含R₂和实际a/p。第二Gaussian高精度不添独立零，三Q未消残差。 实际pull仍无环境，核两README最新main；继续原指定接口，不另占未解决编号。
 
 - 2026-11-15 00:13:42 UTC / Astra-rank2-Sha-continue：R625付原theta p^e幂全部e≤p−2的完整整窗/首坏端点，保H所有坏因子、Dwork指数及真实度p^e，未预支中央或真旗标。H/open完整归档压缩；实际pull失败后核最新两README，继续原Frobenius接口和全补偿。
+
+- 2026-11-15 00:24 UTC / Astra-rank2-Sha-continue：R620付全原W_D的准确Hilbert函数、同帽整核基与十三阶边界Smith形式，完整C首Bockstein在真余核单射；旧三块d2未代。H/open完整归档再压缩，实际pull仍无环境并核最新两README；立刻接R626已成证明并续原同R forcing。
