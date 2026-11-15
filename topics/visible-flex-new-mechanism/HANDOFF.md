@@ -4,7 +4,7 @@
 
 ## 1. 规则、拉取与状态
 
-根/本题README已全文读。公开仓库2026-11-15 07:23:12 UTC实际pull后已读规则提交：`1fe13fe12e1d8e030440906fc396efc3263cbcca`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
+根/本题README已全文读。公开仓库2026-11-15 07:27:27 UTC实际pull后已读规则提交：`0d63b8bf6f1d6c59105950d4d003ded66b93575e`。每次真实pull --rebase后立即核双README，有变只读差异即执行并记SHA；至少每小时pull。每个结论立即commit/push；NFF立即真实pull/rebase、核规则、再推直到成功，不force。根blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7；题目d0432faff569c8e9af7ed4809847e12880976c11。
 
 私有2026-11-15 06:40:20 UTC实际pull至`5af9da10a0790ed51ef196ead1b7508042ad16f2`，根blob5ba164843b1f5802184178a82d786264404873a3无差，本题README仍不存在；QUEUE唯一行本会话**进行中**。
 
@@ -38,17 +38,15 @@ R206在Q0=0下保所有实际桥和正2V基准、有限正配平/floor整数/统
 
 ## 5. 固定圆gauge与真实第四joint
 
-R180/R183的真实闭Klein M0/TκH与重叠导数包付完整三阶圆。R184把第四准确归为同一w的V0+Lθw=0、K0+Bθw∈三矩W；w²由R47第三单φ右逆支付。R181内部退化flux/双collar及R185六矩右逆/10方向不授joint满射。
-
-R187只排充分窄常态类；R193公开原四系数全正排标准态原八包全部宽度，均不延一般几何。R189正则8+1参数与Baire能保低阶去开常段，Klein按新位移重闭，但不付fourth。R191共同常值平台w的ruling商不可见；R195/R197 f常/g变包有真实非零商线，能迁无常段但可改g，仅σ一次、非joint满射。R198：f在右锚全零则任意合法w的period gauge零，原period=sin⁴θ P_B(g)；R183最右只有a7=−1的下降step，全s历史保持。
-
-**R199/R200已证**：新faithful单调step与全部低阶圆可同时构造，最右period恒零 iff πV_B=0；旧step未授faithful。真实τ0桥H对右step非零，双字/hook/Klein保全部基准给8N(Γ+ℓtH)+C，有限IVT只付一个查询。T可非零的M0字以BBrev成本2V入U，不授实际逆元。
+R180/R183闭Klein M0/TκH与重叠导数包付完整三阶圆；R184第四joint是同一w的V0+2κL_fw=0、K0+Bθw∈三矩W，w²由第三单φ右逆支付。R181退化flux/双collar、R185六矩核均不授joint满射。R187只排窄常态类、R193只排固定标准态八包全宽度；R189保低阶去开常段可改g。R191共同常平台gauge ruling商不可见，R195/R197 f常/g变包有非零商线但只动σ一次。R198右f0必要门、R199新faithful末step、R200单查询支付现由R210整pure控制加强，不再单点扫。
 
 **R206/R210真实全pure已付**：Q0=0下，有限实际正配平、真实缩放桥保2V基准、floor整数和C1商截面，最后有限复制/Brouwer给S=P。取原闭hook X0，X0X0rev成本2V0先付V0∈U；选实际M=T0/frameI的D使πVD=−πV0/4，插Klein第一prototype四份。新位移仍四左旋相消，TκH非零不变，整universal pure准确零。最终几何再选R183/R199完整低阶圆，最右period必要门整函数消失。共同I在全部有限控制族选后取；不是任意原窄I或同g设计，未授无常段迁移/嵌入/reach。下一处理同一w的balanced mixed period与ruling，勿重已结pure。
 
 **R212已把真实全pure控制加强为固定有限词C1截面D(p)。** E_P(t)由R70/R101固定小桥族/整数复制与R56完整恢复为C1；两商截面先固定，最后n>2max(1,M0,M1)使响应盒统一收缩/IFT，完整πVD(p)=p且M=T0/frameI。外扰动若结构保低阶，必须用全部P参数u的Φ_z(u)≈id做IFT同时修Q/L，不能只用响应t冒修商误差。联合去开常段仍须逐词付完整T/frame/端口；R189九行本身不含T。
 
 **R211已证固定circle局部period充分接口**：G″须先紧支撑在J。A_f非零时两齐次adjoint矩+7终端Green矩（含∫u与六交叉矩）准确iff，显式唯一右逆w=∫右锚u，原左affine尾保留。有限m个内部简单A零加m条真实累计通量，Hadamard给唯一光滑延拓；不包平端/高重/无限零。pure0后仅两G_c/G_s，分别过门则同谐波w付全period与种子；这具体目标尚未验证，且同w的ruling商仍须支付。
+
+**R213已给两实际mixed源及不可校正门**：Vd=P[-H(Zd,Zd)−2H(Yg,Wgd)]、Ve=P[H(Yf,Wfc)]，Vθ=s²Vd+2csVe，Gc=−Vd/(4κ)、Gs=−Ve/(2κ)。pure0+右因果使f整个右带0时两源0；内部f平台仍须Vd″=Ve″0。R56左collar二次系数=½∫kK，M0令∫k·w_geom=0，故∫kKd/Ke是ruling商真泛函且全部合法二/三gauge不改，尚未判值。w_E=Φ_ED在原八完整packet以七差分准确付六矩，周期变化正是κK_E,H，不能由这个子族将λ+冒延所有w。下一判上述具体源/不变量。
 
 ## 6. 保留边界与当前交付
 

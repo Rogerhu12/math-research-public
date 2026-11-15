@@ -177,3 +177,5 @@
 - [同g入口与体段103列的完整支持](notes/same-g-entry-body103-support-20261115.md)：原163态中S=[0,54)∪[81,129)∪{153}，其余60列固定；B3..B8止于.36至.765，Q为原W5B3。保完整入口ramp、O(x5)/O(x8)端口、角闭合及[0,tc]∪[.765,L]六jet不变。轴上T固定不使ΠT/E固定；外域max与固定b²−1是后继真实下界。没有新自由基或可行下降断言，常量门与原tol必须正确分块。
 
 - [R212：完整真实pure成本的C1截面](results/R212-C1-sections-for-complete-real-pure-cost-control.md)：R70小桥/固定整数复制及完整R56恢复给E_P真实C1；两商截面在最终响应n前固定，n大有限使盒自映射/严格收缩，IFT给固定有限词D(p)、πVD=p、M=T0/frameI。外扰动需全P近恒等IFT同时修Q/L，非仅响应t。共同scalar包络、可变长度速度和全部基准保留；尚未付任意完整低阶扰动或全字无常段。
+
+- [R213：两个真实mixed源、平台不变量与合法八矩gauge](results/R213-two-mixed-sources-and-gauge-invariant-platform-obstructions-after-pure-closure.md)：pure0后Vθ=s²Vd+2csVe，三个原低阶场给Vd/Ve及两个Green目标；f全右带0使两mixed源消失，内部平台却仍须Vd″/Ve″0。R56左尾二次系数=½∫kK，M0让k杀W，故两个ruling标量对所有合法二/三gauge不变，未判其值。w_E=Φ_ED以原八包七差分付六矩，period恰为κK_E,H；不是任意独立gauge的canonical因子化。
