@@ -108,3 +108,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 [R281完整证明](results/R281-exact-rational-phase-disjunction-and-finite-cover.md)已直接登记：两张RP1图保π，以degree4补齐反序；四门OR逐闭区间作准确Sturm，偶重内部零、共享端点和全部未付叶均完整。严格逐相位可付保证有限dyadic层完成。新解析配置旧整圆距离/两端/joint均未付，理论五叶depth2换门完成；111在公开Actions验证这一新案例与depth1预算未付语义，非新增审批门。真实闭场、球预算、空间块全覆盖仍未有。
 
 111已提交[独立执行接口](notes/2026-11-15-request111-rational-phase-cover-execution-interface.md)：同一新解析配置sqrt128/cells16，分别depth2与depth1，保旧四全圆fail及u根内部偶重根的准确Sturm计数。requestee9d115d/workflow7f5ff780，三源固定，实际run待回读；无旧fixture或实际场、无raw保存，不等本例才登记证明。
+
+### actual107 已接受1/8，110继续真实同31批次
+
+[实际107完整结论](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)：run43683739473/source6df3e818/job132719696865，freshW43.363003729098274→43.33594286031892，1/8接受、新warm原FD8.81884772255149e−10。最近1/4仅原query0的LEFT464 RMS失域，β²−.2683514415128212；不用远档未选点无故扩query。原success/newcoupled仍false，col.007107481419519517/BC6.857449986338445e−9，非BVP/native/fullDN。110准备8批原同31模型，live真实pair/freshFD逐批衔接；新job只能从actual98新重算，不由107 hash造场。

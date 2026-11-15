@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root GPT-6 Astra Pro (AI-assisted). **UNFINISHED: continue until ALL topic README standards, no stage-ending wait.** Prior H inGit; open compressed after105 with fullcheckpoint open-checkpoint-through-request105-dispatch-2026-11-15.md; established results inresults.md/notes. Do not repeat finished byte audits as scientific gates.
+/root GPT-6 Astra Pro (AI-assisted). **UNFINISHED: continue until ALL topic README standards, no stage-ending wait.** Prior H inGit; fullopen checkpoint-through-request105 andlog checkpoint-through-request109 preserveearliertext. Results/notes arecanonical; do notredo finished audits as gates.
 
 ## Rules and execution
 
@@ -8,7 +8,7 @@
 
 Only public Rogerhu12/math-research-public and its Actions for ALL scientific execution/arithmetic/imports/RHS/J/ODE/RK/optimization. No private repo, force push, history rewrite or token in files/logs/Git/connector/reply. PAT only transient CLI. Complete proofs directly results+index; root rule12 cancels extra freeze/reviewer/byte-audit gates. Preserve original scientific acceptance conditions.
 
-**Root rule15 changed AGAIN at137c5a877fb387a82cbde01f084d1fa67ee717aa: reproducible certificates/data/Actions outputs are NOT saved in repo OR Release. Keep scripts, parameters, run IDs, output SHA256 and honest conclusions. Topic total<=200MB; ordinary-commit removal of reproducible main data, history retained. No file splitting. The earlier Release migration plan is CANCELLED.** Root blob74c08a36f6c997d0bc1e64a7956b42276f5fa5d7; topic bff8aea253a9e6a7a4fac28d810ac454c5499fec unchanged. Old raw-output publisher22e640bb and storage contracts must be adapted, not executed as current publication policy.
+**Root rule15 at137c5a877fb387a82cbde01f084d1fa67ee717aa: reproducible certificates/data/Actions outputs NOT in Git OR Release. Keep scripts/parameters/run/outputSHA/honest conclusions; topic<=200MB, ordinary main removal with history retained, no splitting/history rewrite. Old Release migration/publisher22e640bb is CANCELLED.**
 
 Terminal recovered05:43 with shell="bash",login=false,workdir=/tmp. Active blob:none sparse clone /tmp/visible-larger-root-git-106; old workspace full and checkout metadata lost. All publication uses actual terminal Git. Sparse rebase may remove excluded files; drafts stay /tmp and git add --sparse.
 Before every push and >=hourly actual pull--rebase, compare dualREADME, read changed diff only/obey/record commit. NFF immediate pull--rebase/push loop. Root sole Git/H/open/log/workflows/dispatch; agents source drafts. H<10000B, MD<100KB, open preferably<30KB; no rootLOG/fullclone/gc/maintenance.
@@ -25,7 +25,7 @@ M96 accepted b4d2b98a (componentmetric5.77368e-7 NOT operator); prepared1120f94d
 
 98 actual43677587785/source918fdb11: original31quarteracceptedW43.42621386634224->43.36604610143146, nearesthalf failsLEFT464/465RMS (bothalready31). Quarterall31/node-mid/left-rightRMSlegal;col.00710763096028075,BC7.837078403973583e-9,FD8.408533903133078e-10; notBVP/native. Realwarmb59f40c0/statusb7ad389f inartifact14147700690; allfullidentityandscientificdetails notes/2026-11-15-actual98-thirty-one-quarter-step-and-rms-barrier-compact.md.
 102v3 actual43682529851/job132716027313/source4bb0bb4a: 83396Bsummary5fb8012e(includesLF),fiveprimaryidentitiesverified. Wholemodel-embedded equalityfalse causesexit2, sixotherchecks true; original31writer adds onlytop-levelmetadata to copiedmodel, whole-documentequality isnotnestedmodelcontract. Sourceexplanationin98note, no rerun/sciencefailure;107sciencefieldcomparisonreadonly.
-107 wrapper24809B/2b4e9f21/requestf508c1e5/workflow5b762d40.70sourcepins+1parameter;original31modelandnewwarmFDfrozen,1model/17trials/270damping/1200s. No newwarm=>noFD; no parentFD copied. Full31 minima/counts andfailedpointrows compressedinalltrialsummary<90KB, overflowexplicitincompletewithoutsciencegate. Original98ZIP+pairrestoredtemporary,4inputsfrom918fhistory. No rawupload/Release/Gitdata, onlysource/run/SHA/compactconclusion. merge.stat=false+original3b8rulesmonitor. Actual107run43683739473/source6df3e818 started06:03:51; completed success; actualsummaryreading.
+107 COMPLETE run43683739473/source6df3e818/job132719696865: same31 original1/8warm accepted, freshW43.363003729098274->43.33594286031892,drop.02706086877935121/ratio1.0054807844552296. Nearest1/4 onlyLEFT464(query0already31)RMSfails beta²-.2683514415128212; accepted31positive/node-mid/left-rightRMSalllegal. col.007107481419519517/BC6.857449986338445e-9/FD8.81884772255149e-10; status success/newcoupledfalse,notnative/fullDN. Summary35131B/42dd12df,warm4938114B/6d2e5b1c,status3591869B/714347e0; fullhash/trials notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md. All7sciencefieldsagree,no gate. 110prepared8same31batches/175min fromactual98newrecomputedtrajectory, livepairedwarm/status+freshFD betweenbatches; neverforge107raw.
 
 Low-three97/99/101/105 formalnotes are complete; do notredo. Original3169 recipe child47106B uses15originalsources, nofakeparentstatus. Fouroriginalinputs restorehistory8bd267107cc8710d371f3b62c02986655ac965b0 aftermaincleanup.
 

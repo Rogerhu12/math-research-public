@@ -21,3 +21,7 @@
 ## 2026-11-15 06:20:58 UTC /root — request111 相位换门与不足预算
 
 R281已在f465f468正式登记。本轮只执行唯一新解析配置的depth2/depth1两预算，分别预期完整五叶与两未付叶，并直接报告u根内部偶重根。root已读workflow/request/接口全文，source/math未更改；三源固定，job10min，contents只读，无旧场/raw上传或Git写，实际科学只在公开Actions。requestee9d115d/workflow7f5ff780；结果待读。
+
+## 2026-11-15 06:22:35 UTC /root — actual107 同31的真实1/8接受
+
+[完整结论](notes/2026-11-15-actual107-same31-eighth-step-and-selected-left464.md)：四trial，最近1/4只LEFT464 RMS拒且已在31；1/8固定本轮W43.363003729098274→43.33594286031892，全部31/节点中点/左右RMS合法，新FD8.81884772255149e−10。仍非原BVP/native。summary35131B/42dd12df,warm6d2e5b1c,status714347e0；7对应科学字段全等是只读事实。110按8批live真实pair+freshFD继续同31，首批是actual98新重算支线，不冒已删107raw续接。
