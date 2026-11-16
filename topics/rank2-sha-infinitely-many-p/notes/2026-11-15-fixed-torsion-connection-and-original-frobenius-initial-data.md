@@ -1196,6 +1196,172 @@ $$
 四个原 $\alpha_\nu$ 是否同时为零，仍不能由上述范围审核或
 (72) 的存在性作出结论。
 
+## 19. 三次 Cartier 的固定返回，以及不能追回首行的显式测试差
+
+本节先保同一个原输入，再审核“只用迭代 Cartier 返回”能读到什么。
+它没有改变 (20) 的指定 $\mathcal P_{2,M}$，也没有用一个
+较大测试类的反例否定原四来源的可能关系。
+
+### 19.1 原输入的全极确实只在 $\mathcal D_M$
+
+还须核掉 (24) 中未预先删除的其它 $Z_M$ 零点。
+设 $Q\ne O$ 且 $Z_M(Q)=0$。由 $DZ_M=1$，这是简单零。
+$\mathcal D_M$ 是其极集合，故 $Q\notin\mathcal D_M$；
+§5.1 已付 $G_M$ 在此正则，$H_M$ 也正则。
+
+(20) 的第零项是 $Z_M^2$，其余每项有 $Z_M^j$ 且
+$\nabla_{2,M}^j(Z_M^2)$ 在此正则，故
+$\mathcal P_{2,M}(Q)=0$。
+在局部参数 $Z_M$ 中，用 (21) 从零常数项递推，
+$1,\ldots,p-1$ 均为单位，得到
+$$
+\operatorname{ord}_Q\mathcal P_{2,M}\ge p.
+\tag{74}
+$$
+$R_\nu$ 在 $Q\ne O$ 正则，所以
+$f_\nu=Z_M^{-2}\mathcal P_{2,M}^{n_\nu}R_\nu$ 也正则。
+在 $O$ 则由原六阶首项，$f_\nu$ 恰为四阶零。
+因此全部可能极点已经逐一核完：
+$$
+(f_\nu\omega_E)_\infty
+\le Q_{\nu,p}\mathcal D_M,\qquad
+Q_{\nu,p}=n_\nu(p^3-p^2+p+1)-2p.
+\tag{75}
+$$
+$R_\nu$ 在 $\mathcal D_M$ 的零只会降低此上界。
+
+若一个微分在某点的极阶至多 $q$，Cartier 后至多
+$\lceil q/p\rceil$，且不会产生新极点。
+这里 $Q_{\nu,p}<n_\nu p^3$，故
+$$
+\boxed{
+\mathcal C^3(f_\nu\omega_E)
+\in H^0\!\left(E_b,\Omega^1_{E_b}(n_\nu\mathcal D_M)\right).
+}
+\tag{76}
+$$
+右边是先于 $p$ 固定的极帽；必要时在固定好常数域的完美闭包中
+识别各次 Frobenius twist。
+(76) 不是第一输出 $\mathscr C_\nu$ 已落固定池，
+也不是其在 $O$ 的值已被恢复。
+
+### 19.2 固定有理函数及全部符号
+
+因 (2) 含 $6\mid M$，令
+$$
+k=M^2/3.
+$$
+$k$ 是偶整数。定义先于 $p$ 固定的有理函数
+$$
+\boxed{
+u_*=
+M^{-M^2-1}\,
+\frac{\Psi_M(z)}{y(Mz)^k},
+\qquad h_*=Du_*.
+}
+\tag{77}
+$$
+由 $\Psi_M\sim Mz^{1-M^2}$、
+$y(Mz)\sim-M^{-3}z^{-3}$ 和 $k$ 偶，
+$$
+u_*=z+O(z^2),\qquad h_*(O)=1.
+\tag{78}
+$$
+这里没有遗漏 $y$ 的负号；$k$ 偶正是 (78) 的正首项所需规范。
+在每个非零 $\tau\in E[M]$，$\Psi_M$ 简单为零、
+$y(Mz)$ 为三阶极，所以
+$$
+\operatorname{ord}_\tau u_*=M^2+1,\qquad
+\operatorname{ord}_\tau h_*\ge M^2.
+\tag{79}
+$$
+其余极只在 $\mathcal D_M$。
+在该集合上，$u_*$ 恰为 $k$ 阶极，$h_*$ 至多为 $k+1$ 阶极。
+当前 $p\nmid M$、$p>3$ 还保证 $k$ 不被 $p$ 整除，
+故后者其实为准确极阶。
+
+全部原角型也一致：
+$\Psi_M(\zeta z)=\zeta^{1-M^2}\Psi_M(z)$，
+$y(M\zeta z)=\zeta^{-3}y(Mz)$，$\zeta\in\mu_6$。
+因此 $u_*$ 型一，$h_*$ 型零。
+
+### 19.3 保低 jet、高挠点零及两次以上输出，却改变首读取
+
+现在只为审核较大测试类，定义
+$$
+\boxed{\Delta f=h_*^p Z_M^{p-1}.}
+\tag{80}
+$$
+它与原 $f_\nu$ 同为型四。
+在 $O$，由 (78) 及 $Z_M=z+O(z^{5p})$，
+$$
+\Delta f=z^{p-1}+O(z^p).
+\tag{81}
+$$
+所以全部低于 $p-1$ 的原点系数保持，
+而原首 Cartier 读取准确增加 $1$。
+
+在非零 $\tau\in E[M]$，
+$$
+\operatorname{ord}_\tau\Delta f
+\ge p(M^2+1)-1
+\ge n_\nu p-2,
+\tag{82}
+$$
+因为固定的 (2) 保证 $M^2+1>\max n_\nu$。
+因此全部原 (43) 之前的输入高零下界仍保留。
+对相应来源差
+$\Delta\widehat A=Z_M^2\Delta f=h_*^pZ_M^{p+1}$，
+原点所有低于 $p+1$ 的系数不变，非零 $E[M]$ 的原 $n_\nu p$
+零下界也仍成立。
+
+在 $\mathcal D_M$，准确有
+$$
+(\Delta f)_\infty=(p^2+kp)\mathcal D_M.
+\tag{83}
+$$
+特别取 $p>\max(211,k)$，再保全部固定好约化与分母坏集，
+则 $p^2+kp\le2p^2$，严格小于四条 (75) 的最小原极帽。
+甚至允许扣除 $R_\nu$ 的最多 $2n_\nu-6$ 阶零后，
+这个差的极仍更低。故这里没有把新增一个超预算极偷偷塞回原帽。
+
+但完整 Cartier 恒等式恰为
+$$
+\boxed{
+\mathcal C(\Delta f\,\omega_E)=h_*\omega_E=du_*,
+\qquad
+\mathcal C^2(\Delta f\,\omega_E)=0.
+}
+\tag{84}
+$$
+第一式使用 $dZ_M=\omega_E$ 和
+$\mathcal C(Z_M^{p-1}dZ_M)=dZ_M$，第二式是 Cartier 杀 exact 微分。
+因此 $f_\nu$ 与 $f_\nu+\Delta f$ 有完全相同的第二、第三次
+Cartier 输出，而第一次原点读取是
+$$
+\boxed{
+\left(
+\frac{\mathcal C((f_\nu+\Delta f)\omega_E)}{\omega_E}(O)
+\right)^p
+=\overline{\alpha_\nu}+1.
+}
+\tag{85}
+$$
+
+(80) **不是**原四来源之一，也未证明属于原 native 来源格。
+它一般不满足指定的
+$Z_M^{-2}\mathcal P_{2,M}^{n_\nu}R_\nu$ 恒等式，
+不保持 (20) 的全部 Frobenius 初始资料，
+也不保持 (31)–(32) 的原 CM13 frame。
+它只证明一个精确范围：
+仅靠 (76)、全部低于首读数的原点 jet、(26)/(43) 的高零下界、
+原角型和原全极帽，仍不能追回 $\overline{\alpha_\nu}$。
+
+因此下一步必须真正使用四个已指定 $R_\nu$、
+同一个 (20) 和完整 CM13 frame 的额外关系。
+不能把 (80) 当作原来源的可自由修改项，
+也不能把 (85) 当作原四行不能同时为零的证明。
+
 ## 依赖
 
 - [R636](../results/R636-original-rational-cartier-return-for-two-critical-rows.md)：

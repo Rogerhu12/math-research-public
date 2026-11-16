@@ -194,3 +194,6 @@
 
 
 [R841 原对称 Hom 与最低属四的实际二重商](../results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：附录B以规范Poincaré图形付真双线性，Kimura零幂等付最高swap负号，原W4与平移不变性给对称polarization；整个原Γ/Artin系数保留，可用同一a的(F,a q0,a q2)。真实半平移S给原L、完整q4微分4倍和det1；属四时S/R共固定cusp迫两固定branch，D:y³=x(x⁴+Ax²+B)，二重商H:w²=z⁶−2Az³+A²−4B且JH∼E0²。此为实际来源的必要限制，未付原参数/CM order/17角色或canonical非零。
+
+
+[三次Cartier的固定返回与原首读数范围](2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§19逐核所有Z_M零点及O，原C³(fνω)确在先固定H0(E,Ω(nνD_M))。但显式固定u*=M^(-M²−1)Ψ_M/y(Mz)^k、k=M²/3偶，给Δf=(Du*)^pZ_M^(p−1)：充分大p保原极预算/角型、全部非零torsion高零、首读取前O系数与C²/C³，而原首α加1，因C(Δfω)=du*。此差不保指定P2^nRν或CM13完整frame；只关闭‘迭代Cartier返回及上述帽自身能追回首行’的推理，不否定原四来源的额外关系。

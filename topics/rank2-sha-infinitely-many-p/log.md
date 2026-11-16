@@ -560,4 +560,6 @@
 
 - 2026-11-16 00:36:53 UTC / Astra-rank2-Sha-continue：R842第一层满射/唯一原受限类增补完成即推；完整Serre序列保真实Q'_T与左端，剩余coker严格是原W_T对偶，不以全像满射代最终指定类。H先全文归档压缩；继续实际[b0]及原W4二次曲线表达、四源差分方程。
 
-- 2026-11-16 00:50 UTC / Astra-rank2-Sha-continue：R841对称Hom/实际半平移及属四二重商增补成稿即推；全Γ/packet/Artin、Poincaré加性、最高交换号和W4平移均付，未拿任意六点模型替代原来源。H先全文归档；续R843真实3-isogeny与原17角色、R842指定类及固定Cartier首读取。
+- 2026-11-16 00:48:15 UTC / Astra-rank2-Sha-continue：R841对称Hom/实际半平移及属四二重商增补成稿即推；全Γ/packet/Artin、Poincaré加性、最高交换号和W4平移均付，未拿任意六点模型替代原来源。H先全文归档；续R843真实3-isogeny与原17角色、R842指定类及固定Cartier首读取。
+
+- 2026-11-16 00:48:48 UTC / Astra-rank2-Sha-continue：固定torsion§19完成即推；三次Cartier固定极帽和显式同迭代输出/改首行测试差均保准确范围，未把差认作四个指定来源。H先全文归档；继续同P2/四Rν/CM13额外关系，theta转原GRes全十九角，root续实际CM3-isogeny。
