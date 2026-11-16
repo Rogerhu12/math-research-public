@@ -16,13 +16,11 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；同b0/159→163，永久enriched reference c0不换selected。η≈.26610227是metric epigraph，**非δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3、H径≥22/101；连续支持欠。τreach.061须κ≤1000/61≈16.39344及非局部门，现κ≈58。旧失败/漂移保持，不重跑。
 
-## 3. 数值已付状态与新接口
+## 3. 已付数值祖先与关闭入口
 
-[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0，原146源核同；新4过/旧14复用，首失败及费用全保。6普通α1接受、两网14门true；7model/10primary/SOC0，η .26623355613853394，κC/F57.99651016191997/57.99982504159888。m7gap2.4768679406952238e−5，无返回/无trial，非驻点。
+[guard首实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0；6普通α1接受，η .26623355613853394，两网14门真，7model/10LP。m7gap2.4768679406952238e−5、无trial，非驻点；438 bank与8events/7commits均为新direct的已付祖先。
 
-祖先guard physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd；池4432/4525版本1/2，B.00025双0；γ17.022353404161095/18.064283125328743，8events/7commits/pending0。γ只下个primary group8 target=max(old,1e−7+γB²)，原SOC/门不改。
-
-[同m7冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：43773136836/source403a2fcf…；16人工仅复用，唯一粗value205.448292651s耗尽旧120门，active累计241.314203844/values15/LP10，init293.542781793，process224.820478542/RSS548340KiB；新J/model/LP/SOC/接受0，旧最佳仅祖先收据。此epoch关闭，不能重开LP11或加时重付冷恢复，全部失败费保原note。
+[关闭冷恢复](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：run43773136836/source403a2fcf…；16人工仅复用，唯一粗value205.448292651s耗尽旧120门，旧active241.314203844/values15/LP10、init293.542781793；新J/model/LP/SOC/接受0。此epoch关闭，不重开LP11或加时重付冷恢复；旧fees与首两direct失败完整记各note。
 
 ## 4. 纸证与准确剩余门
 
@@ -50,4 +48,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。第三只读660096B已保完整m28及全部最小模型/终态/费用；次级细节明示partial，完整人读note正成稿。续真正cut/预算分配机制，原64不重置；理论续W4与两权速度PSD、全period。全部主门仍欠，持续open/actualpull。
+第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)保全部28模型、m21唯一SOC、m28完整gap/配额、58call冷/命中与末checkpoint；回读次级细节明示partial。续真正cut/预算分配机制，原64不重置；理论续W4与两权速度PSD、全period。全部主门仍欠，持续open/actualpull。

@@ -154,9 +154,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### direct已获真实下降，读取28模型的停止原因后继续
+### direct原28模型已读：只转真实新支持与最后一个未用slot
 
-run43780594182/job133016656592第三尝试完成；只读observer核原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9、161/152源与9复用，28MODEL。η .26623355613853394→.26610226672562226、κ57.99972678574561，两网原硬门/exactbox真，.26仍假。stage affine-spectral-finite-model-stalled并非已证驻点。两selector2439337/1521111B超660KB仅LIMIT；下一固定白名单优先完整m28/末态钟及余模型最小表，保首两失败28.690336299累计及旧241s祖先；不重科学、不只加预算原样重跑。
+[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。薄实现/必要新分支公开Actions，旧九check/优化不重跑。
 
 
 ### R399新的第二period内部通道已实际付至四点

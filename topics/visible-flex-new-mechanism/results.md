@@ -414,3 +414,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R417｜负四完整静态全曲率只剩一个自然锚
 
 [R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)（12873B；SHA256 44ad07efa8a68cfce861748d7153badade88cf0a8046e26aee8c06720bf8109a）。完整外槽原势给N0_h^-3=kS²τ3、N0_h^-2=S(τ0+k²τ1)，与原YC/ZZ全项和真实有序尾共同得N(V4(k))=S³(N(V4(0))+k²N(W4))，S=1+k²。因a(0)=0，剩余负四正字符的静态a(k)=a1 k²S³/8、μ=2a1p2*；a1≥0尚未排。唯一新静态读出W4=[h^-4k8]F0，旧pure坐标不能代其完整自然值。原势、Γ幂及true tails全保，无新科学执行。
+
+
+## Direct-reference 首次完成实际｜27接受，末模型仅配额截断
+
+[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)（24349B；SHA256 230e16584072a133f41db3f240e3caa65ee81bb9c9067c92e5a5d286ab8fde5d）。原run43780594182/job133016656592，第三只读43783131728保完整m28与全部最小表。26普通+1原SOC接受，η .26623355613853394→.26610226672562226；两网14门/原盒真、目标.26未达。实际63/64LP=62primary+1SOC、58values、科学累计257.595331213s（含两失败28.690336299），进程230.059030169s/RSS7259612KiB。m28仅grant1且无下一cut，LP成功但gap2.895900214553316e−5、修复gain负，无几何；余1SOC，非驻点或时间/64耗尽。原完整28行表、m21metric失败/SOC、原冷cache/J、512bank、池v7/6及learning均保人读note；真实小数不是连续reach证明。后续只改明确的新支持/未用slot规则，已付账不重置。

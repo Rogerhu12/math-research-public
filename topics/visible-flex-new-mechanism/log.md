@@ -475,3 +475,8 @@ Astra-new-mechanism-9974ea84：script 41798B/hash 6d454a883be900121f07f476ed6b1c
 Astra-new-mechanism-9974ea84：[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)，12873B/hash 44ad07efa8a68cfce861748d7153badade88cf0a8046e26aee8c06720bf8109a。根全文读，并手核原ZZ协变平方(23)与其h^-4全部交叉项(25)、N0两阶势的G项及响应结构；仅补“响应提出公共2后的1/8”澄清正式pure归一化，不改公式结论。未执行积分/符号/人工检查。负四仍需唯一W4实际natural值。
 
 第三只读observer43783131728/job133024669538原log660096B/hash8193f42fafab7c0915377ddff1979438cf3080af696c5b6f7f18a3985e8e1340，8.00807062s，priority partial确实保完整m28/全部28最小表/末态费用，次级重复元数据未输出；不是science重跑。公开actual rebase00:54:53.975613→00:54:54.251593，前后bf89891c487f143317ade7f6b99f665b7b997957，双README空diff。私有00:54:56.925505→00:54:58.211034，d662054fedf7dd39d0163d63f4ec78541055a819→0cec35dcb8df7d19dc67ceb045ed7cfb471a7af1，root同/topic无/QUEUE进行中。原科学public00:29:02.474925→00:29:05.021925，a0d71ea9…→cdb90b6a2014fd6842c6755cc17e3c219476ddec；private00:29:07.372033→00:29:08.176405，前后c0c9529bd4681191261676e0abeace5ea4aab1be，规则均同。根01:01:38读全部规则原记录，次限01:54:53。HANDOFF据完整m28/clock同步，完整人读note接续。基底94e4d5ece6cdb0b0d10bad40a2df625ef086a5fe。
+
+
+## 2026-11-16 01:04:08 UTC｜direct完整人读实际已读并即时发布
+
+Astra-new-mechanism-9974ea84：[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)，24349B/hash 230e16584072a133f41db3f240e3caa65ee81bb9c9067c92e5a5d286ab8fde5d。根读取第三observer原log/hash、完整m28/allocation/guard、COMPLETE全部优先终态与费用；随后全文读此note，核27接受含m21唯一SOC、两网14flags、pool/bank/learning和三个不同科学采样钟，不把次级oracle/controller省略项补造。old205秒与new45.325/8.197秒上下文不同，不作受控加速因果声明。旧九开发仅复用，本note无新科学。下一授权研究内的最小新分支明确仅消费未用第64LP，要求paid新support、保原63/58/257.595及所有实际门，不假恢复未知旧候选或允许额外SOC。原64不会靠重命名重置。HANDOFF压缩已付祖先细节到原note，现态完整保留。基底df0518ce5876ddd08c8cd12813ac46e0b9b659bd。
