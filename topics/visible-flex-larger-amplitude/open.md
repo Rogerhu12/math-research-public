@@ -70,6 +70,8 @@ R459相对广义谱与准确材料共轭付全t；严格真误差下降、仅upp
 
 [R508/221](results/R508-live128-scoped-ownership-and-original-input-repair.md)/[接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)已8b352f90、actual43835161762/compute133189859163，R509/exact唯一。334旧pin＋2=336、14科学源全字和所有原输入/门/单钟不变；仅pin缺e、先全stat图再按真实owned证据筛quiet、cleanup单行Python修复。owned改uid/不可读/身份变仍unknown禁读删，不向非登记组发信号，外部sameuid权限错不冒本请求所有。09:07:38官方仍科学step10，不填接受；原完整协议范围仍待本次终态。
 
+[217完整入口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)七件完整刊/正式dispatch：真实222/2d1c底座458＋7public＋8gen=473，原R489/R492/R495/R500/R504明确登记220新族，无展开源入Git。首shared后同原钟一次1440/six/cut重算与level0完整metric/measure；原220精化后按真实accepted level1/2在同一新C测量/比较，8stage各自原scope/独立90K保。原旧/new包围合法交/旧粗fallback、四Loewner/全闭域/材料共轭/全t责任保，同场upper改善不冒真实误差下降。新1800含cut120/close30、metric240/measure300/compare120与900计划都裁原18900+2700；原求解/held不依赖新consumer通过。217当前workflow路径检查明确、原2223120只祖先；清理217新marker/quiet→222repair→220九scope/quiet。R490/geometry唯一终态，尚无科学值或接受预填。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
