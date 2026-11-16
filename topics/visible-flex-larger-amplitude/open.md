@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R617 / request254，18:04。** R616已普通刊86199c7ab026378152e53c1ff41710562b83852c，当前完整五件独立接原248全部454对，471=368public+103generated、原六plan/两CPP/10caller全字面绑定。修复adapter8067/bridge8c2d是实际当前源，原R605仅作者模板而非执行父，旧坏adapter不在新表，全部当前compile原门保；真实bridge stdout全字在联合guard前进入source record和prepare-return，stderr与父完整70/必要正文不省。R616/R600具名完整逆只选whole更短；source/science各90000/实际70原样，原owner12000/总19200/全112/fullDN/FD/双mean/freshaudit全不变。完整证明含所有输入/资源/CLI/失败/cleanup范围，本次普通刊后只POST一次；R618 amplitude唯一终态，尚无254实际值或接受。242一次完整scope行政reader与251实际首错回读同步继续。
+
 **R616 / 实际来源首错与最小字面修复，18:04。** 新诊断run43921640781/headce45c6d5/job133490187970在原248454完整祖先之后，原R583 import实际报L221 unterminated string literal，prepare_sources未入、两C++/binding/bridge缺失；完整正文17868/847960a3、子stdout2006/6cac2f45均真实全返，旧252未返字段不补造。新adapter22649/8067ed32只加一个双引号；新bridge25399/8c2d2cec按完整字面关系接同六plan/原完整错误/90000/70，所有数学与原compile不改，完整literal plan/证明接口同刊。R617/254已完整接原248454，待本次后独立发布/唯一派发；251已69910618派run43923406697且两job终态，首source-ancestry步骤失败，geometry待一次必要读真实cause。尚无新增科学接受。
 
 **R606/request251（完整九件，本次独立刊后唯一派发）**：[组成证明](results/R606-actual-same-object-analytic-saved-RHS-C1-complete-caller.md)、[完整CLI与scope接口](notes/2026-11-16-request251-analytic-saved-RHS-C1-complete-chain-interface.md)。769=331public+438generated/17层，旧704对全保，新51候选/driver/pipeline/field真实来源级联加7same-C消费者，owner三个实际计数全修。真实R580.inspect/retire消费同R553返回与原split，R601唯一finish消费同R580/R596；原R575独立诊断保，原metric全域/闭面/时钟/精化门不变。两份generation/composition完整原选scope各作具名同体逆、包含全部报告的whole严格小才用，全部未知/错误/未访和90K/70/quiet保。R608仅未来实际run支付；R610锚/Gram未塞入该已完整入口。旧716草稿全部作废，以本九件532302/topic439030为准。
