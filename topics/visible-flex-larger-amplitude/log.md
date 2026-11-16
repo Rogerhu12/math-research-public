@@ -261,3 +261,7 @@ open§1.3旧全文固定4cc33b31，§1.1/1.2及§2–6原字保；R598已刊、R
 ## 2026-11-16 17:50 UTC /root — R615 request253 同engine归一化moment完整owner12000入口
 
 结论：R615/request253七件已完整，topic135879/根workflow26196；实际单套R611表接原250全调用链，480=370+110/原466全保，原AT/两mean/H/J/FD/fullDN/全部末门与12000/19200不改。原8+14累计统计及safe整数/未保存范围、双90K/70和quiet保，未执行数值或提速预填。本次改根workflow用于公开本仓库正式计算，普通推成功后唯一dispatch，R614由amplitude唯一终态。
+
+## 2026-11-16 17:54 UTC /root — R606 request251 完整769来源与同一R580/R601实际消费
+
+结论：R606/251完整九件532302B、topic439030；769=331+438/17层/51+7源全真接，old704保，owner计数与candidate→driver→pipeline全级联修，R580/R601同对象同retirement唯一finish消费。完整generation/composition具名可逆whole严格小才用，原数学/clock/90K/70/quiet保；无数值预填。本次根workflow用于本仓库实际计算，普通刊后唯一POST；同步补R615真实发布/253绑定，H已结旧行固定4d572940全文。

@@ -1,0 +1,749 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R606-same-object-analytic-saved-RHS-C1-and-metadata-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": {
+    "all_original_actual249_inputs_and_science_preserved": true,
+    "complete_R606_current_field_source_plan_is_required": true,
+    "actual_R580_same_R553_return_and_original_retirement": true,
+    "actual_R601_exclusive_R580_R596_finish": true,
+    "independent_R575_summary_retained": true,
+    "normal_compare_recovery_complete_original_summaries": true,
+    "original_metric_DFS_BVP_FD_and_acceptance_unchanged": true,
+    "all_arithmetic_under_original_live_budget_and_absolute_clock": true
+  },
+  "generator": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+      "bytes": 35149,
+      "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+    },
+    {
+      "file": "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py",
+      "bytes": 23113,
+      "sha256": "12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request249-actual-saved-RHS-and-complete-metric-evidence-v1": "request251-actual-continuous-RHS-C1-and-complete-metric-evidence-v1",
+    "REQUEST249_ACTUAL_SAVED_RHS_COMPLETE_METRIC_EVIDENCE": "REQUEST251_ACTUAL_CONTINUOUS_RHS_C1_COMPLETE_METRIC_EVIDENCE",
+    "request249-zero-linear-gzip-owned-nested-role-v1": "request251-zero-linear-gzip-owned-nested-role-v1",
+    "request249-zero-linear-gzip-complete-refinement-evidence-displays-v1": "request251-zero-linear-gzip-complete-refinement-evidence-displays-v1",
+    "request249-zero-linear-gzip-refinement-one-necessary-readback-v1": "request251-zero-linear-gzip-refinement-one-necessary-readback-v1",
+    "request249-refinement-necessary-readback-complete-v1": "request251-refinement-necessary-readback-complete-v1",
+    "request249-actual-source-and-same-C-registration-composition-v1": "request251-actual-source-and-same-C-registration-composition-v1",
+    "request249-actual-same-C-source-registration-v1": "request251-actual-same-C-source-registration-v1",
+    "request249-same-C-head-refinement-and-complete-field-consumers-v1": "request251-same-C-head-refinement-and-complete-field-consumers-v1",
+    "request249-complete-same-C-consumer-necessary-readback-v1": "request251-complete-same-C-consumer-necessary-readback-v1",
+    "request249-complete-same-C-consumer-readback-marker-v1": "request251-complete-same-C-consumer-readback-marker-v1",
+    "public-current-C-bound249-coast-base-source-closure-request-v1": "public-current-C-bound251-coast-base-source-closure-request-v1",
+    "public-current-C-same-semantic-head-bound249-request-v1": "public-current-C-same-semantic-head-bound251-request-v1"
+  },
+  "view_count": 7,
+  "literal_patches": {
+    "p0000": {
+      "before": "request249",
+      "after": "request251"
+    },
+    "p0001": {
+      "before": "Request249",
+      "after": "Request251"
+    },
+    "p0002": {
+      "before": "bound249",
+      "after": "bound251"
+    },
+    "p0003": {
+      "before": "actual249",
+      "after": "actual251"
+    },
+    "p0004": {
+      "before": "explicit249",
+      "after": "explicit251"
+    },
+    "p0005": {
+      "before": "==249",
+      "after": "==251"
+    },
+    "p0006": {
+      "before": "require(len(specs)==13,\"Keep all original twelve source layers and the actual projection/metadata successors\")",
+      "after": "require(len(specs)==17,\"Keep all fifteen actual249 layers and both complete current251 successors\")"
+    },
+    "p0007": {
+      "before": "zip(specs,(15,5,13,49,51,46,57,6,6,7,56,6,7))",
+      "after": "zip(specs,(15,5,13,49,51,46,57,6,6,7,56,6,7,49,7,51,7))"
+    },
+    "p0008": {
+      "before": "require(len(expected)==324,\"Keep all317 original source identities and seven actual251 projection/metadata callers\")",
+      "after": "require(len(expected)==438,\"Keep all380 original generated sources and all58 current251 successors\")"
+    },
+    "p0009": {
+      "before": "62fb5eeab21230b2091db61c23b1abd7c52b3436abacab87245dd8b7a22417cb",
+      "after": "17f1a9431868c941be597bd46fa9a3683951c1fd9edbefa0107d7f6d7285b574"
+    },
+    "p0010": {
+      "before": "REQUEST249",
+      "after": "REQUEST251"
+    },
+    "p0011": {
+      "before": "independent249",
+      "after": "independent251"
+    },
+    "p0012": {
+      "before": "same-C249",
+      "after": "same-C251"
+    },
+    "p0013": {
+      "before": "same-C-refinement249",
+      "after": "same-C-refinement251"
+    },
+    "p0014": {
+      "before": "== 249",
+      "after": "== 251"
+    },
+    "p0015": {
+      "before": "    outputs = {}\n",
+      "after": "    continuous_spec = request[\"continuous_RHS_C1\"][\"plan\"]\n    continuous_plan,continuous_id = read(relative_file(workspace,continuous_spec),continuous_spec)\n    require(continuous_plan.get(\"schema\") == PLAN_SCHEMA\n        and continuous_plan.get(\"logical_schema\") ==\n            \"R606-same-object-analytic-saved-RHS-C1-and-metadata-source-plan-v1\"\n        and continuous_plan.get(\"view_count\") == len(continuous_plan[\"views\"]) == 7,\n        \"Bind the actual same-object continuous finish and all six metadata successors\")\n    outputs = {}\n"
+    },
+    "p0016": {
+      "before": "        expected = current_rows[0][\"output\"]\n        actual_role = request[\"roles\"][role]",
+      "after": "        expected = current_rows[0][\"output\"]\n        if role == \"evidence\":\n            next_rows = [row for row in continuous_plan[\"views\"] if row[\"role\"] == \"same_evidence\"]\n            require(len(next_rows) == 1 and next_rows[0][\"baseline\"] == expected,\n                \"The continuous evidence starts from the actual complete R597 source\")\n            expected = next_rows[0][\"output\"]\n        actual_role = request[\"roles\"][role]"
+    },
+    "p0017": {
+      "before": "                expected_value = consumer[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n",
+      "after": "                expected_value = consumer[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n                expected_value = continuous_plan[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n"
+    },
+    "p0018": {
+      "before": "len(extras) == 19",
+      "after": "len(extras) == 21"
+    },
+    "p0019": {
+      "before": "actual R575, R596 and R599 sources",
+      "after": "actual R575, R596, R599, R580 and R601 sources"
+    },
+    "p0020": {
+      "before": "len(expected) == 27",
+      "after": "len(expected) == 29"
+    },
+    "p0021": {
+      "before": "        actual_saved_RHS_consumer_generation=actual_sources[\"consumer_materialization\"],",
+      "after": "        actual_saved_RHS_consumer_generation=actual_sources[\"consumer_materialization\"],\n        actual_continuous_RHS_source_plan=continuous_id,\n        actual_continuous_RHS_source_generation=request[\"continuous_RHS_C1\"][\"materialization\"],"
+    },
+    "p0022": {
+      "before": "seven_same_C_sources_have_actual_R597_core_creator_and_evidence_has_actual_R597_consumer_creator=True",
+      "after": "seven_same_C_sources_keep_actual_R597_core_creator_and_evidence_has_actual_R606_creator=True"
+    },
+    "p0023": {
+      "before": "source_creation_was_actual_R597_core_and_consumer_generation=True",
+      "after": "source_creation_preserves_R597_and_adds_actual_R606_generation=True"
+    },
+    "p0024": {
+      "before": "        prepared,prepared_id = read(base/\"source-preparation220\"/\"result.json\");current(prepared)\n",
+      "after": "        spec = request[\"continuous_RHS_C1\"][\"materialization\"]\n        actual,actual_id = read(base/spec[\"receipt\"]);current(actual)\n        require(actual.get(\"schema\") == spec[\"schema\"] and actual.get(\"completed\") is True\n            and same(actual.get(\"source\"),spec[\"generator\"]),\n            \"The actual continuous RHS evidence source generation did not complete\")\n        for row in actual[\"outputs\"]:\n            actual_source = row[\"actual_source\"]; name = Path(actual_source[\"file\"]).name\n            require(name not in available,\"Keep the actual R606 creator distinct from every ancestor\")\n            available[name] = actual_source; creators[name] = actual_id\n        state[\"actual_continuous_RHS_generation\"] = actual_id\n        prepared,prepared_id = read(base/\"source-preparation220\"/\"result.json\");current(prepared)\n"
+    },
+    "p0025": {
+      "before": "All twenty-seven independent runtime sources",
+      "after": "All twenty-nine independent runtime sources"
+    },
+    "p0026": {
+      "before": "    outputs = {}\n",
+      "after": "    binding_spec = request[\"actual_source_binding_repair\"][\"plan\"]\n    binding_plan,binding_id = read(relative_file(workspace,binding_spec),binding_spec)\n    require(binding_plan.get(\"schema\") == PLAN_SCHEMA\n        and binding_plan.get(\"logical_schema\") ==\n            \"R606-actual-candidate-driver-and-complete-field-source-plan-v1\"\n        and binding_plan.get(\"view_count\") == len(binding_plan[\"views\"]) == 51,\n        \"Bind the actual candidate and driver source tuple through every current field consumer\")\n    outputs = {}\n"
+    },
+    "p0027": {
+      "before": "        actual_role = request[\"roles\"][role]\n",
+      "after": "        else:\n            next_rows = [row for row in binding_plan[\"views\"] if row[\"role\"] == cubic_role]\n            require(len(next_rows) == 1 and next_rows[0][\"baseline\"] == expected,\n                \"The field consumer starts from its actual R597 complete source\")\n            expected = next_rows[0][\"output\"]\n        actual_role = request[\"roles\"][role]\n"
+    },
+    "p0028": {
+      "before": "                expected_value = continuous_plan[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n",
+      "after": "                expected_value = binding_plan[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n                expected_value = continuous_plan[\"semantic_schema_rebindings\"].get(expected_value,expected_value)\n"
+    },
+    "p0029": {
+      "before": "        actual_continuous_RHS_source_plan=continuous_id,",
+      "after": "        actual_current_source_binding_plan=binding_id,\n        actual_current_source_binding_generation=request[\"actual_source_binding_repair\"][\"materialization\"],\n        actual_continuous_RHS_source_plan=continuous_id,"
+    },
+    "p0030": {
+      "before": "seven_same_C_sources_keep_actual_R597_core_creator_and_evidence_has_actual_R606_creator=True",
+      "after": "seven_same_C_sources_and_evidence_have_actual_R606_creators_with_all_R597_ancestors=True"
+    },
+    "p0031": {
+      "before": "        spec = request[\"continuous_RHS_C1\"][\"materialization\"]\n",
+      "after": "        binding_spec = request[\"actual_source_binding_repair\"][\"materialization\"]\n        bound,bound_id = read(base/binding_spec[\"receipt\"]);current(bound)\n        require(bound.get(\"schema\") == binding_spec[\"schema\"] and bound.get(\"completed\") is True\n            and same(bound.get(\"source\"),binding_spec[\"generator\"]),\n            \"The actual candidate and complete field source generation did not complete\")\n        for row in bound[\"outputs\"]:\n            actual_source = row[\"actual_source\"]; name = Path(actual_source[\"file\"]).name\n            require(name not in available,\"Every current field successor has one actual creator\")\n            available[name] = actual_source; creators[name] = bound_id\n        state[\"actual_current_source_binding_generation\"] = bound_id\n        spec = request[\"continuous_RHS_C1\"][\"materialization\"]\n"
+    },
+    "p0032": {
+      "before": "            c_queries=copy.deepcopy(self.work[\"c_queries\"]),\n",
+      "after": "            c_queries=copy.deepcopy(self.work[\"c_queries\"]),\n            analytic_projection=copy.deepcopy(self.B.request[\"analytic_angle_projection\"][\"policy\"]),\n"
+    },
+    "p0033": {
+      "before": "521af3737adfcbaebaa97fe86bbb7a70d5f02448f2e4be868d1d1bd259dd1431",
+      "after": "426b734e7c7473f5d8642a57e11ead44adec1c462587c5a5ded966293852778e"
+    },
+    "p0034": {
+      "before": "=249,",
+      "after": "=251,"
+    },
+    "p0035": {
+      "before": "0b3b1790a6488c8f55f10ac30c6c8518614b9964e0437a7d19de8b174cbd8546",
+      "after": "3cbb2ef64bbc4b5f39105284233070a820c8e2a75b7516e9b0f3af94229c99c1"
+    },
+    "p0036": {
+      "before": "e0dae5074bf28564307c73226006ff716ba97e060dd177dec9c5439147a23c7b",
+      "after": "6c914ff8bfdc8d0837fcc35352ff8dd197488ab9cd7163d0b35a79e7e86feb40"
+    },
+    "p0037": {
+      "before": "\"\"\"R597 / request249: actual saved RHS words and complete finite references beside metric.",
+      "after": "\"\"\"R606 / request251: same-object analytic projection and continuous RHS C1 beside metric."
+    },
+    "p0038": {
+      "before": "R580 analytic-strip work is not implicitly registered or executed.",
+      "after": "R580 receives the same tube return and original retirement. R601 alone finishes\nR580 and R596; their complete summaries remain present, including every error.\nThe independent R575 diagnostic remains separate. No B2 success is required."
+    },
+    "p0039": {
+      "before": "request249-actual-saved-RHS-and-complete-metric-evidence-v1",
+      "after": "request251-actual-continuous-RHS-C1-and-complete-metric-evidence-v1"
+    },
+    "p0040": {
+      "before": "REQUEST249_ACTUAL_SAVED_RHS_COMPLETE_METRIC_EVIDENCE",
+      "after": "REQUEST251_ACTUAL_CONTINUOUS_RHS_C1_COMPLETE_METRIC_EVIDENCE"
+    },
+    "p0041": {
+      "before": "SAVED_RHS_SCHEMA = \"R596-actual-saved-RHS-complete-finite-DFT-and-cell-defect-v1\"\n",
+      "after": "SAVED_RHS_SCHEMA = \"R596-actual-saved-RHS-complete-finite-DFT-and-cell-defect-v1\"\nANALYTIC_NAME = \"geometry_20261116_same_evaluation_analytic_angle_projection.py\"\nANALYTIC_SHA = \"0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f\"\nANALYTIC_SCHEMA = \"R580-same-evaluation-analytic-angle-projection-v1\"\nCONTINUOUS_NAME = \"geometry_20261116_actual_analytic_saved_RHS_C1_defect.py\"\nCONTINUOUS_SHA = \"12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d\"\nCONTINUOUS_SCHEMA = \"R601-actual-analytic-projection-saved-RHS-world-C1-defect-v1\"\n"
+    },
+    "p0042": {
+      "before": "                \"c_queries\", \"time_grid\", \"out\"}",
+      "after": "                \"c_queries\", \"time_grid\", \"out\", \"analytic_projection\"}"
+    },
+    "p0043": {
+      "before": "        self.saved_rhs_defect = None\n",
+      "after": "        self.saved_rhs_defect = None\n        self.analytic_projection = self.continuous_defect = None\n        self.added = {key:dict(binding_attempted=False,binding_error=None,\n            error_count=0,first_error=None,last_error=None) for key in (\"analytic\",\"continuous\")}\n"
+    },
+    "p0044": {
+      "before": "    def saved_rhs_summary(self, coverage, close_errors, actual_projection):\n        original = None\n        if self.saved_rhs_defect is not None:\n",
+      "after": "    def saved_rhs_summary(self, coverage, close_errors, actual_projection,\n                          *, original=None, already_owned=False):\n        if not already_owned and self.saved_rhs_defect is not None:\n"
+    },
+    "p0045": {
+      "before": "    def update_lower(self, lower, address):\n",
+      "after": "    def added_unpaid(self, kind, operation, error, cell=None):\n        row = dict(operation=operation,type=type(error).__name__,message=str(error),\n            traceback=traceback.format_exc(),original_cell=copy.deepcopy(cell),diagnostic_only=True)\n        state = self.added[kind]; state[\"error_count\"] += 1\n        if state[\"first_error\"] is None:\n            state[\"first_error\"] = copy.deepcopy(row)\n        state[\"last_error\"] = copy.deepcopy(row)\n        return row\n\n    def analytic_cell(self, cell, tube_record):\n        if self.analytic_projection is None:\n            return dict(schema=ANALYTIC_SCHEMA+\"-cell\",original_cell=copy.deepcopy(cell),\n                available=False,reasons=[\"actual_R580_binding_unpaid\"],\n                error=copy.deepcopy(self.added[\"analytic\"][\"binding_error\"]))\n        try:\n            return self.analytic_projection.inspect(cell,tube_record)\n        except (ResourceStop,MemoryError):\n            raise\n        except Exception as error:\n            return dict(schema=ANALYTIC_SCHEMA+\"-cell\",original_cell=copy.deepcopy(cell),\n                available=False,reasons=[\"actual_R580_observer_return_unpaid\"],\n                error=self.added_unpaid(\"analytic\",\"same_return_inspect\",error,cell))\n\n    def analytic_retirement(self, cell, diagnostic, split):\n        if self.current.field.pieces[cell[\"piece_index\"]][\"kind\"] != \"prefix\":\n            return None\n        if self.analytic_projection is None:\n            return dict(original_cell=copy.deepcopy(cell),original_split=split,\n                terminal_analytic_projection_paid=False,reason=\"actual_R580_binding_unpaid\")\n        try:\n            return self.analytic_projection.commit_original_retirement(cell,diagnostic,split=split)\n        except (ResourceStop,MemoryError):\n            raise\n        except Exception as error:\n            return dict(original_cell=copy.deepcopy(cell),original_split=split,\n                terminal_analytic_projection_paid=False,\n                error=self.added_unpaid(\"analytic\",\"original_retirement\",error,cell))\n\n    def added_frame(self, kind, original):\n        analytic = kind == \"analytic\"\n        name, sha, number = ((ANALYTIC_NAME,ANALYTIC_SHA,\"R580\") if analytic else\n                            (CONTINUOUS_NAME,CONTINUOUS_SHA,\"R601\"))\n        state = self.added[kind]\n        key = (\"complete_prefix_analytic_projection_bound\" if analytic else\n               \"complete_prefix_physical_RHS_C0_and_world_C1_bound\")\n        clean = state[\"error_count\"] == 0\n        if not analytic:\n            clean = clean and self.added[\"analytic\"][\"error_count\"] == 0 and self.saved_rhs_error_count == 0\n        value = dict(schema=SCHEMA+\"-actual-\"+number+\"-necessary-v1\",\n            requested_source=dict(file=name,sha256=sha),\n            actual_loaded_source=copy.deepcopy(self.sources.get(name)),\n            actual_policy=copy.deepcopy(self.data[\"analytic_projection\"]),\n            actual_binding_attempted=state[\"binding_attempted\"],\n            actual_binding_error=copy.deepcopy(state[\"binding_error\"]),\n            observer_error_count=state[\"error_count\"],\n            first_observer_error=copy.deepcopy(state[\"first_error\"]),\n            last_observer_error=copy.deepcopy(state[\"last_error\"]),\n            all_original_cell_returns_and_retirements_in_complete_ledger=True,\n            complete_cell_ledger=copy.deepcopy(self.members.get(\"complete_cell_ledger\")),\n            original_frontier_and_coverage_unchanged=True,\n            original_ledger_rows_not_claimed_fully_transported=True,\n            original_BVP_metric_FD_DFS_and_acceptance_unchanged=True,\n            resource_and_signal_use_original_measurement_budget=True,\n            R575_B2_success_not_an_additional_requirement=True)\n        value[\"original_\"+number+\"_summary\"] = original\n        value[key] = bool(clean and isinstance(original,dict) and original.get(key) is True)\n        return value\n\n    def continuous_summary(self, coverage, close_errors):\n        arguments = dict(original_coverage=coverage,\n            complete_cell_ledger=self.members.get(\"complete_cell_ledger\"),\n            original_error=self.error,original_stop=self.stop,close_errors=close_errors)\n        combined = analytic = saved = None\n        if self.continuous_defect is not None:\n            try:\n                # This is the ONLY R580/R596 scientific finish on the bound path.\n                # R601 returns both complete originals and owns stopped recovery.\n                combined = self.continuous_defect.summary(**arguments)\n            except (ResourceStop,MemoryError):\n                raise\n            except Exception as error:\n                self.added_unpaid(\"continuous\",\"original_owned_finish\",error)\n            if combined is not None:\n                analytic = combined[\"actual_R580_summary\"]\n                saved = combined[\"actual_R596_summary\"]\n            else:\n                # Do not retry an ordinary partially returned finish. Preserve\n                # the actually returned prefix and the exact unfinished address.\n                analytic = copy.deepcopy(self.continuous_defect.analytic_summary)\n                saved = copy.deepcopy(self.continuous_defect.saved_summary)\n        else:\n            # Binding was unpaid before any R601 finish. Independent original\n            # diagnostics may still return; no combined bound is inferred.\n            if self.analytic_projection is not None:\n                try:\n                    analytic = self.analytic_projection.summary(**arguments)\n                except (ResourceStop,MemoryError):\n                    raise\n                except Exception as error:\n                    self.added_unpaid(\"analytic\",\"independent_unbound_finish\",error)\n            if self.saved_rhs_defect is not None:\n                try:\n                    saved = self.saved_rhs_defect.summary(**arguments)\n                except (ResourceStop,MemoryError):\n                    raise\n                except Exception as error:\n                    self.saved_rhs_unpaid(\"independent_unbound_finish\",error)\n        wrapper = self.added_frame(\"continuous\",combined)\n        wrapper[\"actual_unfinished_operation\"] = (None if self.continuous_defect is None else\n            copy.deepcopy(self.continuous_defect.pending))\n        wrapper[\"actual_original_finish_started\"] = (False if self.continuous_defect is None else\n            self.continuous_defect.finish_started)\n        wrapper[\"actual_original_summary_call_count\"] = (0 if self.continuous_defect is None else\n            self.continuous_defect.summary_calls)\n        wrapper[\"actual_R575_context_same_object\"] = self.continuous_defect is not None\n        wrapper[\"separate_R596_optional_R575_composition_not_repeated\"] = True\n        return (self.added_frame(\"analytic\",analytic),\n            self.saved_rhs_summary(coverage,close_errors,None,original=saved,already_owned=True),\n            wrapper)\n\n    def update_lower(self, lower, address):\n"
+    },
+    "p0046": {
+      "before": "            self.saved_rhs_binding_error = self.saved_rhs_unpaid(\"actual_R596_binding\",error)\n        cfg = cp.native_configuration",
+      "after": "            self.saved_rhs_binding_error = self.saved_rhs_unpaid(\"actual_R596_binding\",error)\n        self.added[\"analytic\"][\"binding_attempted\"] = True\n        try:\n            policy = data[\"analytic_projection\"]\n            require(isinstance(policy,dict) and set(policy) == {\"strip_width_cap\",\"exponential_terms\"},\n                \"Declare the complete analytic diagnostic work policy\")\n            require(self.reference_projection is not None,\"Use the actual R575 object without a B2 success gate\")\n            Analytic, self.sources[ANALYTIC_NAME] = load_source(data[\"computations\"],ANALYTIC_NAME,ANALYTIC_SHA)\n            require(Analytic.SCHEMA == ANALYTIC_SCHEMA,\"The actual analytic observer differs\")\n            self.analytic_projection = Analytic.bind_loaded_analytic_projection_defect(\n                self.reference_projection,strip_width_cap=policy[\"strip_width_cap\"],\n                exponential_terms=policy[\"exponential_terms\"])\n        except (ResourceStop,MemoryError):\n            raise\n        except Exception as error:\n            self.added[\"analytic\"][\"binding_error\"] = self.added_unpaid(\"analytic\",\"actual_R580_binding\",error)\n        self.added[\"continuous\"][\"binding_attempted\"] = True\n        try:\n            require(self.analytic_projection is not None and self.saved_rhs_defect is not None,\n                \"Use both actual same-field observers for the continuous RHS composition\")\n            Continuous, self.sources[CONTINUOUS_NAME] = load_source(\n                data[\"computations\"],CONTINUOUS_NAME,CONTINUOUS_SHA)\n            require(Continuous.SCHEMA == CONTINUOUS_SCHEMA,\"The actual continuous composition differs\")\n            self.continuous_defect = Continuous.bind_loaded_continuous_RHS_C1_defect(\n                self.analytic_projection,self.saved_rhs_defect)\n        except (ResourceStop,MemoryError):\n            raise\n        except Exception as error:\n            self.added[\"continuous\"][\"binding_error\"] = self.added_unpaid(\"continuous\",\"actual_R601_binding\",error)\n        cfg = cp.native_configuration"
+    },
+    "p0047": {
+      "before": "            result[\"actual_saved_RHS_reference_defect\"] = self.saved_rhs_cell(\n                cell,result[\"actual_prefix_joint_tube\"])",
+      "after": "            result[\"actual_saved_RHS_reference_defect\"] = self.saved_rhs_cell(\n                cell,result[\"actual_prefix_joint_tube\"])\n            result[\"actual_analytic_angle_projection_defect\"] = self.analytic_cell(\n                cell,result[\"actual_prefix_joint_tube\"])"
+    },
+    "p0048": {
+      "before": "                self.cells.append(record)\n",
+      "after": "                record[\"actual_analytic_angle_projection_retirement\"] = self.analytic_retirement(\n                    cell,report.get(\"actual_analytic_angle_projection_defect\"),refine)\n                self.cells.append(record)\n"
+    },
+    "p0049": {
+      "before": "        try:\n            actual_projection = self.projection_summary(coverage,close_errors)\n            saved_rhs_diagnostic = self.saved_rhs_summary(coverage,close_errors,actual_projection)\n        except ResourceStop as error:\n            # Both global diagnostic compositions remain inside the actual\n            # original budget and installed signal handler. After this stop\n            # the original R553 cover flag is false, so both summaries take\n            # their metadata-only paths and never retry stopped arithmetic.\n            self.stop = dict(type=type(error).__name__,message=str(error),phase=self.phase,\n                mathematical_failure_not_inferred=True,\n                actual_stopped_operation=\"R575_or_R596_global_reference_composition\")\n            actual_projection = self.projection_summary(coverage,close_errors)\n            saved_rhs_diagnostic = self.saved_rhs_summary(coverage,close_errors,actual_projection)\n",
+      "after": "        try:\n            actual_projection = self.projection_summary(coverage,close_errors)\n            analytic_diagnostic,saved_rhs_diagnostic,continuous_diagnostic = self.continuous_summary(\n                coverage,close_errors)\n        except ResourceStop as error:\n            self.stop = dict(type=type(error).__name__,message=str(error),phase=self.phase,\n                mathematical_failure_not_inferred=True,\n                actual_stopped_operation=\"R575_or_R601_owned_continuous_RHS_finish\")\n            # The actual stop makes the original R553 cover incomplete for\n            # diagnostics. R601 reenters only its original metadata branch;\n            # neither R580 exponential work nor the C1 bound is retried.\n            actual_projection = self.projection_summary(coverage,close_errors)\n            analytic_diagnostic,saved_rhs_diagnostic,continuous_diagnostic = self.continuous_summary(\n                coverage,close_errors)\n"
+    },
+    "p0050": {
+      "before": "            actual_saved_RHS_reference_defect=saved_rhs_diagnostic,\n",
+      "after": "            actual_saved_RHS_reference_defect=saved_rhs_diagnostic,\n            actual_analytic_angle_projection_defect=analytic_diagnostic,\n            actual_continuous_RHS_C1_defect=continuous_diagnostic,\n"
+    },
+    "p0051": {
+      "before": "                time_grid=copy.deepcopy(self.data[\"time_grid\"])),",
+      "after": "                time_grid=copy.deepcopy(self.data[\"time_grid\"]),\n                analytic_projection=copy.deepcopy(self.data[\"analytic_projection\"])),"
+    },
+    "p0052": {
+      "before": "        \"actual_reference_angle_projection_defect\", \"actual_saved_RHS_reference_defect\",",
+      "after": "        \"actual_reference_angle_projection_defect\", \"actual_saved_RHS_reference_defect\",\n        \"actual_analytic_angle_projection_defect\", \"actual_continuous_RHS_C1_defect\","
+    },
+    "p0053": {
+      "before": "            actual_saved_RHS_reference_defect=row[\"actual_saved_RHS_reference_defect\"],",
+      "after": "            actual_saved_RHS_reference_defect=row[\"actual_saved_RHS_reference_defect\"],\n            actual_analytic_angle_projection_defect=row[\"actual_analytic_angle_projection_defect\"],\n            actual_continuous_RHS_C1_defect=row[\"actual_continuous_RHS_C1_defect\"],"
+    },
+    "p0054": {
+      "before": "# added R596 saved-RHS global composition. finish records ResourceStop then only emits",
+      "after": "# actual R601-owned global composition. finish records ResourceStop then only emits"
+    },
+    "p0055": {
+      "before": "def emit(directory, result, result_id):\n",
+      "after": "C1_SUMMARY_RELATIONS = {\n    \"R580\": (\"actual_analytic_angle_projection_defect\",\"original_R580_summary\"),\n    \"R596\": (\"actual_saved_RHS_reference_defect\",\"original_R596_summary\"),\n}\nC1_RELATION_KEY = \"R606_named_same_measurement_original_summaries\"\n\n\ndef share_original_C1_summaries(summary):\n    \"\"\"Only two named, equal, complete same-measurement summary relations.\"\"\"\n    if C1_RELATION_KEY in summary:\n        return summary\n    raw = canonical(summary); answer = copy.deepcopy(summary)\n    series = answer.get(\"schema\") == SERIES_SCHEMA\n    rows = answer.get(\"levels\") if series else [answer]\n    if not isinstance(rows,list):\n        return summary\n    references = []\n    for index,row in enumerate(rows):\n        if not isinstance(row,dict):\n            continue\n        owner = row.get(\"actual_continuous_RHS_C1_defect\")\n        target = owner.get(\"original_R601_summary\") if isinstance(owner,dict) else None\n        if not isinstance(target,dict):\n            continue\n        for name,(outer,inner) in C1_SUMMARY_RELATIONS.items():\n            frame = row.get(outer)\n            source = frame.get(inner) if isinstance(frame,dict) else None\n            key = \"actual_\"+name+\"_summary\"\n            if (not isinstance(source,dict) or key not in target\n                    or not isinstance(target[key],dict)\n                    or canonical(source) != canonical(target[key])):\n                continue\n            references.append(dict(container_index=index,original=name,\n                complete_summary_identity=value_identity(source)))\n            target[key] = {\"R606_same_measurement_summary\":name}\n    if not references:\n        return summary\n    answer[C1_RELATION_KEY] = dict(schema=\"R606-complete-original-summary-relations-v1\",\n        container_kind=\"series_levels\" if series else \"one_measurement\",\n        named_relations={key:list(value) for key,value in C1_SUMMARY_RELATIONS.items()},\n        destination=[\"actual_continuous_RHS_C1_defect\",\"original_R601_summary\"],\n        references=references,complete_unshared_selected_identity=dict(bytes=len(raw),sha256=sha(raw)),\n        original_result_file_unchanged=True,complete_source_remains_literal_in_same_row=True,\n        missing_null_types_signed_zero_order_and_unknown_fields_preserved=True,\n        inverse=\"expand_original_C1_summaries\")\n    return answer if len(canonical(answer)) < len(raw) else summary\n\n\ndef expand_original_C1_summaries(summary):\n    \"\"\"Exact named metadata inverse; never a science or writer-test gate.\"\"\"\n    answer = copy.deepcopy(summary)\n    if C1_RELATION_KEY not in answer:\n        return answer\n    table = answer.pop(C1_RELATION_KEY)\n    require(isinstance(table,dict) and table.get(\"schema\") ==\n        \"R606-complete-original-summary-relations-v1\"\n        and table.get(\"named_relations\") ==\n            {key:list(value) for key,value in C1_SUMMARY_RELATIONS.items()}\n        and table.get(\"destination\") == [\"actual_continuous_RHS_C1_defect\",\"original_R601_summary\"],\n        \"Expand only the two declared complete same-measurement originals\")\n    kind = table[\"container_kind\"]\n    require(kind in (\"one_measurement\",\"series_levels\"),\"Keep the original container kind\")\n    rows = [answer] if kind == \"one_measurement\" else answer[\"levels\"]\n    seen = set()\n    for reference in table[\"references\"]:\n        index,name = reference[\"container_index\"],reference[\"original\"]\n        require(type(index) is int and 0 <= index < len(rows)\n            and name in C1_SUMMARY_RELATIONS and (index,name) not in seen,\n            \"Each declared original occurs once in its actual measurement\")\n        seen.add((index,name))\n        outer,inner = C1_SUMMARY_RELATIONS[name]\n        source = rows[index][outer][inner]\n        target = rows[index][\"actual_continuous_RHS_C1_defect\"][\"original_R601_summary\"]\n        key = \"actual_\"+name+\"_summary\"\n        require(isinstance(source,dict)\n            and value_identity(source) == reference[\"complete_summary_identity\"]\n            and target[key] == {\"R606_same_measurement_summary\":name},\n            \"Restore the exact complete original, not an inferred or null value\")\n        target[key] = copy.deepcopy(source)\n    require(value_identity(answer) == table[\"complete_unshared_selected_identity\"],\n        \"The entire original selected body must be recovered\")\n    return answer\n\n\ndef emit(directory, result, result_id):\n"
+    },
+    "p0056": {
+      "before": "    summary[\"actual_complete_result\"] = result_id\n    row = write(Path(directory)/\"summary.json\", summary)\n",
+      "after": "    summary[\"actual_complete_result\"] = result_id\n    summary = share_original_C1_summaries(summary)\n    row = write(Path(directory)/\"summary.json\", summary)\n"
+    },
+    "p0057": {
+      "before": "geometry_20261116_request249_same_C_tail_queries.py",
+      "after": "geometry_20261116_request251_same_C_tail_queries.py"
+    },
+    "p0058": {
+      "before": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+      "after": "geometry_20261116_current_C_captured251_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py"
+    },
+    "p0059": {
+      "before": "geometry_20261116_request249_same_C_metric_family.py",
+      "after": "geometry_20261116_request251_same_C_metric_family.py"
+    },
+    "p0060": {
+      "before": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+      "after": "geometry_20261116_current_C_captured251_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py"
+    },
+    "p0061": {
+      "before": "261398efa1c1145979f2fbd8f331d891f4a96fc876e2873b2c0ea9226b2ae878",
+      "after": "9899b44ea25d8a4c6d9f7bb23d925db234f6ac1daa2308f06c7ec908cd369a77"
+    },
+    "p0062": {
+      "before": "0660a60b5a72c72a6117c1d8364ba2a06b352e464debfef17a6375bbc7cf2571",
+      "after": "795a251e4900cd2c4aff52e1e8fd0df7dcca7b25dd5afdf22ff2e9ac4a5d4c21"
+    },
+    "p0063": {
+      "before": "42bebcdbcf7bcb9ca9af0057599ea29f4373dc4201c566c47895d59d6ad44b74",
+      "after": "442756cb4ad63d9d5bd13b8f7e4f70a8b7fa04bab5cec916be23e665fc82365d"
+    },
+    "p0064": {
+      "before": "ab58befeafa2d3ccf93e4dc3822b67d42f0c539d055c3b0c146071d487c78506",
+      "after": "689f661ff1a8a916ca47baf40f6269139778252148cbd55511b1101d661699ec"
+    }
+  },
+  "views": [
+    {
+      "role": "meta_owner",
+      "baseline": {
+        "file": "geometry_20261116_request249_owned_roles.py",
+        "bytes": 25764,
+        "sha256": "521af3737adfcbaebaa97fe86bbb7a70d5f02448f2e4be868d1d1bd259dd1431"
+      },
+      "output": {
+        "file": "geometry_20261116_request251_owned_roles.py",
+        "bytes": 25747,
+        "sha256": "426b734e7c7473f5d8642a57e11ead44adec1c462587c5a5ded966293852778e"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 7
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 2
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_composer",
+      "baseline": {
+        "file": "root_20261116_request249_same_C_composition.py",
+        "bytes": 38506,
+        "sha256": "6b58a266bbbfe0282dd17c4fb99b471fd5a244840ee4fe1bd9f70ef13f708f97"
+      },
+      "output": {
+        "file": "root_20261116_request251_same_C_composition.py",
+        "bytes": 42261,
+        "sha256": "42a222d83dc12bf9c550b599d19f0e95b6795658d946d9e7170b1513e5f8a678"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 11
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 3
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 10
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 2
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_runner",
+      "baseline": {
+        "file": "geometry_20261116_request249_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "30395f4617190443dd0538cb2d9e89251f5143fce80169f6b8bcd6bed67662fb"
+      },
+      "output": {
+        "file": "geometry_20261116_request251_same_C_refinement.py",
+        "bytes": 45760,
+        "sha256": "bffedf47e400d7c6bee73e6661707635a28ec051ca4384f90d0d1f0466df8b76"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 8
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 4
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_reader",
+      "baseline": {
+        "file": "root_20261116_request249_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "a45154609b59b825089920536146d7048dd3ee217cdf0d6366a272fd6ee6b06e"
+      },
+      "output": {
+        "file": "root_20261116_request251_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "3fbf053d14ef6e856eb54c12e3f7cdaa34788451bc9473f497dfc16c92fa901d"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 6
+        },
+        {
+          "patch": "p0010",
+          "count": 2
+        },
+        {
+          "patch": "p0012",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "role": "meta_reader",
+      "baseline": {
+        "file": "root_20261116_request249_refinement_necessary.py",
+        "bytes": 44584,
+        "sha256": "01e3c64694f9a774c15ead4d61d03d6f55917cd6c1c55487c91188b861cfd590"
+      },
+      "output": {
+        "file": "root_20261116_request251_refinement_necessary.py",
+        "bytes": 44584,
+        "sha256": "72b10337839a3705dc2f83cd4f02f9da264a4db1f95d089ca4d9146fe4ca25ea"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 18
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 2
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_runner",
+      "baseline": {
+        "file": "geometry_20261116_request249_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "7559b639faa356e416d78a13c95de9d986f4aa8e63f37e11522ba1cc8713ade5"
+      },
+      "output": {
+        "file": "geometry_20261116_request251_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "44f19bf9d145c8876df0fde77c224d5e347aa10bb944126684cf62c6e5671bbf"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 9
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_evidence",
+      "baseline": {
+        "file": "geometry_20261116_request249_same_C_saved_RHS_metric_evidence.py",
+        "bytes": 84394,
+        "sha256": "c4aaa9e8e97967cef5b540ab9b9c62f7dc8d5887538d9dd41bbd03a37da479bf"
+      },
+      "output": {
+        "file": "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py",
+        "bytes": 99449,
+        "sha256": "4ce269be709bb0e87f7f3dd7b533755858f7f0acdb912280a2db6e6dbcd35a7b"
+      },
+      "applications": [
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 2
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        },
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0053",
+          "count": 1
+        },
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0056",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0064",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

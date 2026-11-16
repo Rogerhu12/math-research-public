@@ -1,0 +1,1938 @@
+{
+  "schema": "public-current-C-same-semantic-head-bound251-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 251,
+  "upstream": {
+    "request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "schema": "public-current-C-bound251-coast-base-source-closure-request-v1",
+      "request_number": 251,
+      "identity_from": "source-binding251/result.json:actual_derived_request",
+      "published_source_count": 331,
+      "generated_source_count": 438,
+      "complete_source_count": 769
+    },
+    "request_schema": "public-current-C-bound251-coast-base-source-closure-request-v1",
+    "request_number": 251,
+    "workflow": {
+      "file": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml",
+      "bytes": 94508,
+      "sha256": "c1cb332dc9bd9b9b2c0b94b94477152c55d4448323dbd32f6b727142ae39524f"
+    },
+    "workflow_is_frozen_source_ancestor_not_actual_run": true,
+    "owner": {
+      "file": "geometry_20261116_request251_owned_roles.py",
+      "bytes": 25747,
+      "sha256": "426b734e7c7473f5d8642a57e11ead44adec1c462587c5a5ded966293852778e",
+      "schema": "request251-zero-linear-gzip-owned-nested-role-v1"
+    },
+    "runner": {
+      "file": "geometry_20261116_request251_joint_refinement.py",
+      "bytes": 48824,
+      "sha256": "44f19bf9d145c8876df0fde77c224d5e347aa10bb944126684cf62c6e5671bbf",
+      "schema": "request251-zero-linear-gzip-complete-refinement-evidence-displays-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request251_refinement_necessary.py",
+      "bytes": 44584,
+      "sha256": "72b10337839a3705dc2f83cd4f02f9da264a4db1f95d089ca4d9146fe4ca25ea",
+      "schema": "request251-zero-linear-gzip-refinement-one-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request251_sampling_refinement_composition.py",
+      "bytes": 82922,
+      "sha256": "17f1a9431868c941be597bd46fa9a3683951c1fd9edbefa0107d7f6d7285b574"
+    },
+    "namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "deadline_schema": "request205-owned-job-science-deadline-v1",
+    "refinement_directory": "refinement220",
+    "actual_origin": {
+      "kind": "actual202220",
+      "driver": {
+        "file": "geometry_20261116_request251_same_call_cubic_full453_frozen450.py",
+        "bytes": 35562,
+        "sha256": "235ba9e4ba0bd87ce21e3cdccda0f04dcd44d5e30eb5403dbaf4760abae12104",
+        "schema": "R503-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-physical-DN-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      },
+      "launcher": {
+        "file": "geometry_20261116_request251_same_call_cubic_full453_frozen450_launch.py",
+        "bytes": 20615,
+        "sha256": "3cbb2ef64bbc4b5f39105284233070a820c8e2a75b7516e9b0f3af94229c99c1",
+        "schema": "R503-actual202-coast-base-ten-full453-frozen450-owned-process-launch-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      }
+    },
+    "original_binding_block": {
+      "heredoc": "PYPINS",
+      "bytes": 19255,
+      "sha256": "cc39da8308e718f4b755670730d855c204c0785a9ebb21b025b62868cf1b0281",
+      "source_workflow": {
+        "file": ".github/workflows/visible-current-C-coast-base-source-classification-repair222.yml",
+        "bytes": 99393,
+        "sha256": "312005867b9a144c04e2cc47afb7620de2d43b1ecb3f9f9ad2a509f8746458d3"
+      },
+      "source_scope": "Complete frozen222 PYPINS block; actual249 inner digest/count, actual composer basename and current249 workflow path are explicit metadata bindings; every scientific assertion remains original",
+      "original_frozen220_block": {
+        "bytes": 19255,
+        "sha256": "fa217ddf76aee2a2c71dfb8dd9efbb30248fb84a473ae0dc37e37cbf4d27e111"
+      },
+      "original_checked_workflow": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml"
+    },
+    "frozen220_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99218,
+      "sha256": "f6ca63871733d3f5e48ef3eb8d540fc137806ceb1ae74cef01af6b21e25f3aba"
+    },
+    "repair": {
+      "entry": {
+        "file": "root_20261116_request251_actual_source_entry.py",
+        "bytes": 38242,
+        "sha256": "f82d85af4a58bad7c9fc423c88ac4770a261c9a03ef899e029d16a4605b3ae4f"
+      },
+      "schema": "request251-current-C-source-binding-entry-v1",
+      "receipt": "source-binding251/result.json",
+      "frozen_request_copy": "source-binding251/frozen220-request.json",
+      "repaired222_copy": "source-binding251/repaired222-source-contract.json",
+      "working_view": "request251-runtime-metadata-workspace",
+      "environment_script": "request251-runtime-env.sh",
+      "necessary_marker": "request251-source-binding-readback-complete.json",
+      "necessary_marker_schema": "request251-current-C-source-binding-entry-v1-readback-complete-v1",
+      "current_source_metadata_generation_not_an_old_run_or_precomputed_scientific_result": true
+    },
+    "all_original_473_source_ancestors_retained_with_actual_new_binding_sources": true,
+    "old_run_or_raw_or_accepted_parent_not_reused": true,
+    "all_original_535_source_ancestors_retained_with_actual_generation_sources": true,
+    "all_original_545_source_ancestors_retained_with_actual_prefix_tube_sources": true,
+    "all_original_557_source_ancestors_retained_with_actual_same_call_sources": true,
+    "all_original_618_source_ancestors_retained_with_actual_metadata_sources": true,
+    "all_original_627_source_ancestors_retained_with_actual_projection_sources": true,
+    "all_original_642_source_ancestors_retained_with_actual_R596_R599_sources": true,
+    "all_original_704_source_ancestors_retained_with_actual_R580_R601_sources": true
+  },
+  "roles": {
+    "runner": {
+      "file": "geometry_20261116_request251_same_C_refinement.py",
+      "bytes": 45760,
+      "sha256": "bffedf47e400d7c6bee73e6661707635a28ec051ca4384f90d0d1f0466df8b76",
+      "schema": "request251-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request251_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "3fbf053d14ef6e856eb54c12e3f7cdaa34788451bc9473f497dfc16c92fa901d",
+      "schema": "request251-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request251_same_C_composition.py",
+      "bytes": 42261,
+      "sha256": "42a222d83dc12bf9c550b599d19f0e95b6795658d946d9e7170b1513e5f8a678",
+      "schema": "request251-actual-source-and-same-C-registration-composition-v1"
+    },
+    "head": {
+      "file": "geometry_20261116_request251_same_C_full_head.py",
+      "bytes": 42275,
+      "sha256": "cac0a7bfd7406938a108af0c1ce06326f52d53667bb57537673da3c496680877",
+      "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "leaf": {
+      "file": "geometry_20261116_request251_same_C_leaf_target_cut.py",
+      "bytes": 35531,
+      "sha256": "03709dd00eb6ccb878b9526fb7acb36ee6a77b1a5ed1de4a9fa3fdbf0a922da3",
+      "schema": "request230-same-C-refined-leaf-target-cut-v1"
+    },
+    "bridge": {
+      "file": "geometry_20261116_request251_same_C_metric_family.py",
+      "bytes": 12382,
+      "sha256": "442756cb4ad63d9d5bd13b8f7e4f70a8b7fa04bab5cec916be23e665fc82365d",
+      "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "tail": {
+      "file": "geometry_20261116_request251_same_C_tail_queries.py",
+      "bytes": 29686,
+      "sha256": "9899b44ea25d8a4c6d9f7bb23d925db234f6ac1daa2308f06c7ec908cd369a77",
+      "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "metric0": {
+      "file": "geometry_20261116_request251_same_C_original112_metric.py",
+      "bytes": 57273,
+      "sha256": "394fe006acd7d6e63ebd3655856ca8731b2d20d56a0684e6b21353a07b26d18e",
+      "schema": "request230-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "metric1": {
+      "file": "geometry_20261116_request251_same_C_resolution112_metric.py",
+      "bytes": 57300,
+      "sha256": "2b107765b614f077d19c7c4bb4062d1d89555703fa06db8dbf5f4f0760bd4350",
+      "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "metric2": {
+      "file": "geometry_20261116_request251_same_C_incremental_M_metric.py",
+      "bytes": 57477,
+      "sha256": "619edac7eb9212d8a3513f931a377059968eab0ae6c032928a5fd5733cf0231d",
+      "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "evidence": {
+      "file": "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py",
+      "bytes": 99449,
+      "sha256": "4ce269be709bb0e87f7f3dd7b533755858f7f0acdb912280a2db6e6dbcd35a7b",
+      "schema": "request251-actual-continuous-RHS-C1-and-complete-metric-evidence-v1",
+      "frame": "REQUEST251_ACTUAL_CONTINUOUS_RHS_C1_COMPLETE_METRIC_EVIDENCE"
+    }
+  },
+  "runtime_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "root_20261116_request251_same_C_composition.py": {
+      "file": "root_20261116_request251_same_C_composition.py",
+      "bytes": 42261,
+      "sha256": "42a222d83dc12bf9c550b599d19f0e95b6795658d946d9e7170b1513e5f8a678",
+      "schema": "request251-actual-source-and-same-C-registration-composition-v1"
+    },
+    "geometry_20261116_request251_same_C_refinement.py": {
+      "file": "geometry_20261116_request251_same_C_refinement.py",
+      "bytes": 45760,
+      "sha256": "bffedf47e400d7c6bee73e6661707635a28ec051ca4384f90d0d1f0466df8b76",
+      "schema": "request251-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request251_same_C_necessary.py": {
+      "file": "root_20261116_request251_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "3fbf053d14ef6e856eb54c12e3f7cdaa34788451bc9473f497dfc16c92fa901d",
+      "schema": "request251-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "geometry_20261116_actual_prefix_coefficient_tube_majorants.py": {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    "geometry_20261116_finite_frenet_tube_residual_majorants.py": {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    "geometry_20261116_same_call_cubic_quintic_defect.py": {
+      "file": "geometry_20261116_same_call_cubic_quintic_defect.py",
+      "bytes": 39272,
+      "sha256": "6d27df22093e339fe8940bf24c57cff880d247a5f7f4fd478135adf2e4032f66"
+    },
+    "geometry_20261116_current_C_same_call_cubic_bridge.py": {
+      "file": "geometry_20261116_current_C_same_call_cubic_bridge.py",
+      "bytes": 24718,
+      "sha256": "861a7d7b9125df75cc233627d664419183163080677b5b90c96905ca69490eeb"
+    },
+    "geometry_20261116_same_evaluation_full_angle_projection_defect.py": {
+      "file": "geometry_20261116_same_evaluation_full_angle_projection_defect.py",
+      "bytes": 24673,
+      "sha256": "d2cfc1e35509486dd77f5f2ae4aecba3c0527b2e16b910be69540a73f3c2d6b7"
+    },
+    "alternative-outward-probe.py": {
+      "file": "alternative-outward-probe.py",
+      "bytes": 7708,
+      "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+    },
+    "geometry_20261114_r225_outward_probe.py": {
+      "file": "geometry_20261114_r225_outward_probe.py",
+      "bytes": 7542,
+      "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+    },
+    "geometry_20261114_r225_high_core_bvp.py": {
+      "file": "geometry_20261114_r225_high_core_bvp.py",
+      "bytes": 18350,
+      "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+    },
+    "geometry_20261114_r225_free_core_bvp.py": {
+      "file": "geometry_20261114_r225_free_core_bvp.py",
+      "bytes": 23914,
+      "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+    },
+    "geometry_20261114_fft_frenet.py": {
+      "file": "geometry_20261114_fft_frenet.py",
+      "bytes": 2143,
+      "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+    },
+    "geometry_20261116_actual_saved_RHS_reference_defect.py": {
+      "file": "geometry_20261116_actual_saved_RHS_reference_defect.py",
+      "bytes": 56627,
+      "sha256": "8a242686845844df64d248b7b9fd47096ff2c7a8c2044346c85fc9b7425afb3f"
+    },
+    "geometry_20261116_accurate_ten_source_boundaries.py": {
+      "file": "geometry_20261116_accurate_ten_source_boundaries.py",
+      "bytes": 8620,
+      "sha256": "236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7"
+    },
+    "geometry_20261116_same_evaluation_analytic_angle_projection.py": {
+      "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+      "bytes": 35149,
+      "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+    },
+    "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py": {
+      "file": "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py",
+      "bytes": 23113,
+      "sha256": "12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d"
+    },
+    "geometry_20261116_request251_same_C_full_head.py": {
+      "file": "geometry_20261116_request251_same_C_full_head.py",
+      "bytes": 42275,
+      "sha256": "cac0a7bfd7406938a108af0c1ce06326f52d53667bb57537673da3c496680877",
+      "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "geometry_20261116_request251_same_C_leaf_target_cut.py": {
+      "file": "geometry_20261116_request251_same_C_leaf_target_cut.py",
+      "bytes": 35531,
+      "sha256": "03709dd00eb6ccb878b9526fb7acb36ee6a77b1a5ed1de4a9fa3fdbf0a922da3",
+      "schema": "request230-same-C-refined-leaf-target-cut-v1"
+    },
+    "geometry_20261116_request251_same_C_metric_family.py": {
+      "file": "geometry_20261116_request251_same_C_metric_family.py",
+      "bytes": 12382,
+      "sha256": "442756cb4ad63d9d5bd13b8f7e4f70a8b7fa04bab5cec916be23e665fc82365d",
+      "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "geometry_20261116_request251_same_C_tail_queries.py": {
+      "file": "geometry_20261116_request251_same_C_tail_queries.py",
+      "bytes": 29686,
+      "sha256": "9899b44ea25d8a4c6d9f7bb23d925db234f6ac1daa2308f06c7ec908cd369a77",
+      "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "geometry_20261116_request251_same_C_original112_metric.py": {
+      "file": "geometry_20261116_request251_same_C_original112_metric.py",
+      "bytes": 57273,
+      "sha256": "394fe006acd7d6e63ebd3655856ca8731b2d20d56a0684e6b21353a07b26d18e",
+      "schema": "request230-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "geometry_20261116_request251_same_C_resolution112_metric.py": {
+      "file": "geometry_20261116_request251_same_C_resolution112_metric.py",
+      "bytes": 57300,
+      "sha256": "2b107765b614f077d19c7c4bb4062d1d89555703fa06db8dbf5f4f0760bd4350",
+      "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "geometry_20261116_request251_same_C_incremental_M_metric.py": {
+      "file": "geometry_20261116_request251_same_C_incremental_M_metric.py",
+      "bytes": 57477,
+      "sha256": "619edac7eb9212d8a3513f931a377059968eab0ae6c032928a5fd5733cf0231d",
+      "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py": {
+      "file": "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py",
+      "bytes": 99449,
+      "sha256": "4ce269be709bb0e87f7f3dd7b533755858f7f0acdb912280a2db6e6dbcd35a7b",
+      "schema": "request251-actual-continuous-RHS-C1-and-complete-metric-evidence-v1",
+      "frame": "REQUEST251_ACTUAL_CONTINUOUS_RHS_C1_COMPLETE_METRIC_EVIDENCE"
+    }
+  },
+  "source_generation": {
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r544-current-C-actual-binding-source-plan.json",
+      "bytes": 76039,
+      "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b"
+    },
+    "receipt": "same-C251-source-views/result.json",
+    "receipt_schema": "request251-actual-same-C-source-registration-v1",
+    "materialization": {
+      "receipt": "source-views-binding235/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_actual_engine_source_views.py",
+        "bytes": 16553,
+        "sha256": "e094576644fc7a048de8f47af02b49aab776162a66de538e21b044326df936dc"
+      },
+      "schema": "R559-complete-current-C-binding-source-generation-v1"
+    },
+    "generated_sources": {
+      "geometry_20261116_request251_same_C_full_head.py": {
+        "file": "geometry_20261116_request251_same_C_full_head.py",
+        "bytes": 42275,
+        "sha256": "cac0a7bfd7406938a108af0c1ce06326f52d53667bb57537673da3c496680877",
+        "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+        "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+      },
+      "geometry_20261116_request251_same_C_leaf_target_cut.py": {
+        "file": "geometry_20261116_request251_same_C_leaf_target_cut.py",
+        "bytes": 35531,
+        "sha256": "03709dd00eb6ccb878b9526fb7acb36ee6a77b1a5ed1de4a9fa3fdbf0a922da3",
+        "schema": "request230-same-C-refined-leaf-target-cut-v1"
+      },
+      "geometry_20261116_request251_same_C_metric_family.py": {
+        "file": "geometry_20261116_request251_same_C_metric_family.py",
+        "bytes": 12382,
+        "sha256": "442756cb4ad63d9d5bd13b8f7e4f70a8b7fa04bab5cec916be23e665fc82365d",
+        "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+      },
+      "geometry_20261116_request251_same_C_tail_queries.py": {
+        "file": "geometry_20261116_request251_same_C_tail_queries.py",
+        "bytes": 29686,
+        "sha256": "9899b44ea25d8a4c6d9f7bb23d925db234f6ac1daa2308f06c7ec908cd369a77",
+        "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+      },
+      "geometry_20261116_request251_same_C_original112_metric.py": {
+        "file": "geometry_20261116_request251_same_C_original112_metric.py",
+        "bytes": 57273,
+        "sha256": "394fe006acd7d6e63ebd3655856ca8731b2d20d56a0684e6b21353a07b26d18e",
+        "schema": "request230-same-C-original112-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+      },
+      "geometry_20261116_request251_same_C_resolution112_metric.py": {
+        "file": "geometry_20261116_request251_same_C_resolution112_metric.py",
+        "bytes": 57300,
+        "sha256": "2b107765b614f077d19c7c4bb4062d1d89555703fa06db8dbf5f4f0760bd4350",
+        "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+      },
+      "geometry_20261116_request251_same_C_incremental_M_metric.py": {
+        "file": "geometry_20261116_request251_same_C_incremental_M_metric.py",
+        "bytes": 57477,
+        "sha256": "619edac7eb9212d8a3513f931a377059968eab0ae6c032928a5fd5733cf0231d",
+        "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+      },
+      "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py": {
+        "file": "geometry_20261116_request251_same_C_continuous_RHS_C1_metric_evidence.py",
+        "bytes": 99449,
+        "sha256": "4ce269be709bb0e87f7f3dd7b533755858f7f0acdb912280a2db6e6dbcd35a7b",
+        "schema": "request251-actual-continuous-RHS-C1-and-complete-metric-evidence-v1",
+        "frame": "REQUEST251_ACTUAL_CONTINUOUS_RHS_C1_COMPLETE_METRIC_EVIDENCE"
+      }
+    },
+    "source_registration_does_not_repeat_source_generation": true,
+    "original_historical8_and_current49_actual_receipts_separate": true,
+    "source_syntax_only_in_actual_Actions": true,
+    "original_R567_evidence_creation_receipt_remains_bound": true,
+    "original_R570_and_R576_actual_creation_receipts_retained_as_ancestors": true,
+    "original_R597_evidence_and_field_creation_receipts_remain_bound": true,
+    "actual_seven_same_C_consumers_have_real_R606_current_core_creation_receipt": true,
+    "actual_continuous_RHS_evidence_has_real_R606_creation_receipt": true
+  },
+  "same_C_work": {
+    "head_work": {
+      "precision_bits": 384,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 112,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 100000,
+      "value_width_bits": 32,
+      "max_depth": 48,
+      "query_depth": 16,
+      "max_panels": 400000,
+      "max_query_nodes": 400000,
+      "budget_seconds": 1650
+    },
+    "head_resources": {
+      "complete_phase_budget_seconds": 1800,
+      "cut_readout_budget_seconds": 120,
+      "child_shutdown_reserve_seconds": 30,
+      "free_bytes_reserve": 2147483648
+    },
+    "child_shutdown_reserve_seconds": 30,
+    "free_bytes_resource_stop": 2147483648,
+    "terminal_measurement_and_close_reserve_seconds": 900,
+    "metric_budget_seconds": 240,
+    "comparison_budget_seconds": 120,
+    "metadata_reader_cap_seconds": 300,
+    "measurement": {
+      "budget_seconds": 300,
+      "free_bytes_reserve": 2147483648,
+      "interval_bits": 256,
+      "sqrt_bits": 128,
+      "initial_angular_depth": 2,
+      "max_depth": 20,
+      "max_cells": 100000,
+      "measurement_width_goal": "1/100000000",
+      "metric_reference_eta": "1/1000000",
+      "max_inverse_steps": 80,
+      "max_phase_query_cells": 100000
+    },
+    "c_queries": {
+      "precision_bits": 256,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 128,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 200000,
+      "value_width_bits": 80,
+      "integral_max_depth": 40,
+      "inverse_max_depth": 40,
+      "max_panels": 100000,
+      "max_nodes": 200000,
+      "budget_seconds": 900
+    },
+    "time_subdivisions": [
+      4,
+      8,
+      16
+    ],
+    "common_time_witnesses": [
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": true
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": true
+      }
+    ],
+    "all_caps_clipped_to_actual_original_deadline": true,
+    "stages_run_once_per_real_input_no_automatic_retry": true,
+    "budget_total_is_a_plan_not_a_completion_or_timing_guarantee": true
+  },
+  "execution": {
+    "job_timeout_minutes": 360,
+    "original_science_seconds": 18900,
+    "original_readback_seconds": 2700,
+    "original_clock_reset": false,
+    "first_slot": "After the genuine first shared field and original readback; before the complete current refinement",
+    "successor_slot": "After complete actual mesh/M/geometry/evidence/display returns",
+    "new_rules_parent_uses_original_2700_second_sync_runner": true,
+    "original_metric_and_reach_pass_not_required_to_start_same_C_consumers": true,
+    "missing_first_material_B_only_leaves_common_material_measurement_unpaid": true,
+    "repair_original_clock_precedes_source_copy": true,
+    "metadata_working_view": "Explicit251 temporary source/metadata copy; complete249 and all original science/work/clock contracts remain immutable source ancestors"
+  },
+  "scientific_scope": {
+    "original_full1440_ordered_head_six_primitives_and_complete_original_query_plan_recomputed": true,
+    "original_config_calibration_stored_reference_queries_proof_and_restored_source_origin_bound": true,
+    "same_accurate_C_original_all_root_family_cut_and_ten_words_unchanged": true,
+    "current_C_queries_can_remain_partial_with_complete_old_coarse_bounds_retained": true,
+    "cut_leaf_intersection_is_not_a_new_midpoint_or_field": true,
+    "entire_accepted_CP_definition_nodes_R249_background_material_and_construction_preserved": true,
+    "newly_registered_actual_field_families": [
+      "original112",
+      "resolution112",
+      "incrementalM"
+    ],
+    "complete_tail_E_values_query_the_genuine_new_head_and_preserve_original_valid_bounds": true,
+    "whole_tail_Er_Err_not_newly_claimed": true,
+    "same_field_actual_error_sup_does_not_change_when_only_enclosures_are_refined": true,
+    "operator_error_actual_lower_and_upper_separately_returned": true,
+    "full_time_transfer_uses_original_common_material_congruence_and_all_angle_coverage": true,
+    "real_nested_t_queries_not_substituted_for_all_time_theorem": true,
+    "interval_overlap_or_failed_metric_is_not_an_original_BVP_or_refinement_rejection": true,
+    "actual_450_or_error_decrease_machine_precision_or_solver_floor_not_preset": true
+  },
+  "retention": {
+    "full_scientific_temporary_raw_remains_until_original_and_new_complete_readbacks": true,
+    "each_semantically_distinct_head_metric_measurement_compare_body_limit": 90000,
+    "no_encoded_or_split_large_payload_transport": true,
+    "new_composition_frame": "REQUEST251_SAME_C_SOURCE_COMPOSITION_NECESSARY",
+    "new_combined_frame": "REQUEST251_SAME_C_COMPLETE_NECESSARY",
+    "necessary_marker_schema": "request251-complete-same-C-consumer-readback-marker-v1",
+    "necessary_marker": "same-C251-readback/readback-complete.json",
+    "original_all_readback_outcomes_and_cleanup_predicates_preserved": true,
+    "new_rule_directories_are_explicit_distinct_semantic_scopes_not_old_raw_partitions": true,
+    "original_full_reports_not_duplicated_into_job_outputs": true,
+    "report_receives_new_identity_and_step_outcomes_only": true,
+    "source_generation_failure_or_unknown_process_scope_retains_actual_raw": true,
+    "original222_repair_necessary_marker_and_cleanup_predicates_preserved": false,
+    "cleanup_order": "Public251 guard pays all seventeen complete source generations; current same-C composition/necessary/quiet; actual-source-entry scope; current refinement reader preserves every original outcome/quiet predicate. All raw remains until all complete necessary scopes. No R580/R601 or other diagnostic success is a cleanup prerequisite.",
+    "complete_repair_source_scope_frame": "REQUEST251_ACTUAL_SOURCE_BINDING_NECESSARY",
+    "source_composition_frame": "REQUEST251_SOURCE_COMPOSITION_NECESSARY",
+    "whole_composition_relation_only_if_strictly_smaller": true,
+    "composition_original_file_and_selected_body_identities_separate": true,
+    "original_source_preparation_scope_preserved_with_actual238_entry_and_marker": true,
+    "generation_scope": {
+      "frame": "REQUEST251_COMPLETE_SOURCE_GENERATION_NECESSARY",
+      "single_body_limit_bytes": 90000,
+      "source": "root_20261116_request251_sampling_refinement_composition.py",
+      "command": "generation-readback",
+      "summary": "source-generation251-readback/summary.json",
+      "marker": "source-generation251-readback/readback-complete.json",
+      "marker_schema": "request251-current-C-actual-source-composition-v1-generation-readback-complete-v1",
+      "original_errors_and_stderr_returned_without_truncation": true,
+      "complete_transport_is_not_generation_success_or_process_quiet": true,
+      "overflow_returns70_without_body_splitting_or_cleanup_marker": true,
+      "complete_named_relations": {
+        "helper": {
+          "file": "root_20261116_complete_generation_source_relations.py",
+          "bytes": 13605,
+          "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+        },
+        "exact_original_selection_before_relation": true,
+        "named_generation_field_universe": 17,
+        "named_parent_generation_field_universe": 6,
+        "source_identity_columns": 4,
+        "strict_original_types_key_order_missing_null_negative_zero_and_all_unknown_fields": true,
+        "reconstructable_without_original_raw_or_external_source_files": true,
+        "smaller_complete_representation_only_otherwise_original_literal": true,
+        "original_selected_state": "source-generation251-readback/original-selected-state.json",
+        "source_transport_receipt": "source-generation251-readback/source-transport.json",
+        "transport_event": "request251_source_generation_representation",
+        "no_scientific_selection_change_or_new_numeric_gate": true,
+        "original_90000_and_exit70_unchanged": true
+      },
+      "all_seventeen_generations_and_438_declared_source_addresses_retained": true,
+      "current_complete_named_relation_helper": {
+        "file": "root_20261116_current_C_complete_source_role_relations.py",
+        "bytes": 26849,
+        "sha256": "5e9f7baf38c5fa98451447791423ec8eef68c73980b164762fd99883b105fb40"
+      }
+    },
+    "source_generation_failure_or_missing_generated_cleanup_reports_skip_without_claiming_removal": true,
+    "prefix_tube_body_scope": "Full diagnostic necessary object in each original measurement/compare body; actual per-leaf raw rows keep complete ledger identity and all original failure/frontier scope",
+    "same_call_cubic_body_scope": "Each actual first or successor phase reader returns the complete capture status, original full capsule metadata and every retained member identity, including all errors/orphans. Same-C measure/compare/normal recovery retain the complete selected comparison summary and all unpaid terminal addresses. Raw coefficient values remain in the original temporary phase/cell ledger.",
+    "same_angle_projection_body_scope": "Full actual R575 summary, ordinary wrapper errors and incomplete coverage in every selected same-C measurement and comparison, including metadata recovery. Each committed cell keeps its full R553 input, R575 return and original split/retirement in the unchanged gzip cell ledger. Interrupted current cells and all unvisited roots retain the original frontier. No successful-body size is promised; 90000/70 is unchanged.",
+    "actual_saved_RHS_body_scope": "The full actual R596 summary, exact source/capture identity, ordinary errors and unfinished full-N/positive-domain/whole-prefix responsibility are selected in each same-C normal, comparison and recovery body. Per-cell record uses the same R553 return and original retirement. Full unvisited frontiers and incomplete current work remain explicit. Every body keeps 90000/70; no fit or metric success is promised.",
+    "source_composition_current_complete_named_relation_helper": {
+      "file": "root_20261116_current_C_complete_source_role_relations.py",
+      "bytes": 26849,
+      "sha256": "5e9f7baf38c5fa98451447791423ec8eef68c73980b164762fd99883b105fb40"
+    },
+    "current_named_necessary_relations": {
+      "original_R586_generation_and_R544_composition_relations_preserved_as_exact_ancestors": true,
+      "actual_source_rows_and_named_same_run_source_contexts_only": true,
+      "complete_source_change_shapes_values_order_presence_and_JSON_pointer_paths_preserved": true,
+      "complete_original_selection_reconstructed_without_raw_or_external_files": true,
+      "unknown_values_errors_frontiers_reports_markers_and_negative_fields_preserved": true,
+      "compare_complete_serialized_bodies_and_use_only_strictly_smaller": true,
+      "original_90000_and_exit70_no_guaranteed_fit": true
+    },
+    "actual_analytic_C1_scope": "Complete R580, R596 and R601 summaries, actual pending work, source/cell/ledger identities and all errors are selected in normal, compare and recovery. Only the two explicitly equal whole-summary copies share a reversible named relation; each full body still has the original 90000/70 limit without a fit guarantee."
+  },
+  "workflow": ".github/workflows/visible-current-C-analytic-saved-RHS-C1-refinement251.yml",
+  "status": "Complete independent R606 source/Actions caller; no actual run, accepted field or global diagnostic bound is preset",
+  "source_counts": {
+    "original249_all": 704,
+    "added_public_sources": 7,
+    "added_generated_sources": 58,
+    "current_published": 331,
+    "current_generated": 438,
+    "current_complete": 769,
+    "generation_layer_count": 17,
+    "generation_counts": [
+      15,
+      5,
+      13,
+      49,
+      51,
+      46,
+      57,
+      6,
+      6,
+      7,
+      56,
+      6,
+      7,
+      49,
+      7,
+      51,
+      7
+    ],
+    "same_C_runtime_sources": 29,
+    "all380_original_generated_outputs_preserved": true,
+    "all324_original_public_source_pins_preserved": true
+  },
+  "entry": {
+    "file": "root_20261116_request251_actual_source_entry.py",
+    "bytes": 38242,
+    "sha256": "f82d85af4a58bad7c9fc423c88ac4770a261c9a03ef899e029d16a4605b3ae4f"
+  },
+  "frozen217_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-same-semantic-head-refinement217-request.json",
+    "bytes": 26106,
+    "sha256": "dbb6c4c6b4e8fecb955c40fa90c271733dccddef70c3bda9104829bd86a6a75c"
+  },
+  "frozen217_workflow": {
+    "file": ".github/workflows/visible-current-C-same-semantic-head-refinement217.yml",
+    "bytes": 86586,
+    "sha256": "e361dfc2b7b932a6ec9ddbf923612c95af329ad23c2181252a9f3f8fdaf6c2a7"
+  },
+  "frozen217_source_commit": "4a08bebb63482c34c3bb7460582772a966e25c51",
+  "source_binding": {
+    "original222_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-source-classification-repair222-request.json",
+      "bytes": 9442,
+      "sha256": "37f0b3b767eb233d2e714a143b4055e47dfc4629f2963e046b0511e05ba63672"
+    },
+    "repaired222_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99330,
+      "sha256": "2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2"
+    },
+    "composer": {
+      "file": "root_20261116_request251_sampling_refinement_composition.py",
+      "bytes": 82922,
+      "sha256": "17f1a9431868c941be597bd46fa9a3683951c1fd9edbefa0107d7f6d7285b574"
+    },
+    "core_plan": {
+      "file": "r544-current-C-actual-binding-source-plan.json",
+      "bytes": 76039,
+      "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r544-current-C-actual-binding-source-plan.json"
+    },
+    "historical217_plan": {
+      "file": "request217-complete-same-C-source-plan.json",
+      "bytes": 80964,
+      "sha256": "68c284041ccb330e4d61f66161a0799643b9fd83c90016ddcdde3d9649a4b4de",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request217-complete-same-C-source-plan.json"
+    },
+    "metadata_plan": {
+      "file": "request235-complete-generation-metadata-source-plan.json",
+      "bytes": 90706,
+      "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request235-complete-generation-metadata-source-plan.json"
+    },
+    "current_inner_contract": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "schema": "public-current-C-bound251-coast-base-source-closure-request-v1",
+      "request_number": 251,
+      "identity_from": "source-binding251/result.json:actual_derived_request",
+      "published_source_count": 331,
+      "generated_source_count": 438,
+      "complete_source_count": 769
+    },
+    "additional_public_sources": {
+      "geometry_20261116_same_C_full_head_refinement.py": {
+        "file": "geometry_20261116_same_C_full_head_refinement.py",
+        "bytes": 42246,
+        "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+      },
+      "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+        "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+        "bytes": 35549,
+        "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+      },
+      "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+        "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+        "bytes": 12303,
+        "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+      },
+      "geometry_20261116_same_C_refined_head_tail_queries.py": {
+        "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+        "bytes": 29687,
+        "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+      },
+      "geometry_20261116_request217_same_C_refinement.py": {
+        "file": "geometry_20261116_request217_same_C_refinement.py",
+        "bytes": 45394,
+        "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7",
+        "schema": "request217-same-C-head-refinement-and-complete-field-consumers-v1"
+      },
+      "root_20261116_request217_same_C_necessary.py": {
+        "file": "root_20261116_request217_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e",
+        "schema": "request217-complete-same-C-consumer-necessary-readback-v1"
+      },
+      "root_20261116_request217_same_C_composition.py": {
+        "file": "root_20261116_request217_same_C_composition.py",
+        "bytes": 30178,
+        "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f",
+        "schema": "request217-frozen220-and-same-C-source-composition-v1"
+      },
+      "request217-complete-same-C-source-plan.json": {
+        "file": "request217-complete-same-C-source-plan.json",
+        "bytes": 80964,
+        "sha256": "68c284041ccb330e4d61f66161a0799643b9fd83c90016ddcdde3d9649a4b4de",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request217-complete-same-C-source-plan.json"
+      },
+      "root_20261116_complete_source_composition_relations.py": {
+        "file": "root_20261116_complete_source_composition_relations.py",
+        "bytes": 8567,
+        "sha256": "7bc351fe46ce6c8bf94ba067b106a0a21bd89950277910fe46006c502815b163"
+      },
+      "root_20261116_current_C_bound_source_views.py": {
+        "file": "root_20261116_current_C_bound_source_views.py",
+        "bytes": 16140,
+        "sha256": "78ac0c9624beaa1ea2dd660f761b8c49ef56c49794d3928233625d86faff5104"
+      },
+      "r544-current-C-actual-binding-source-plan.json": {
+        "file": "r544-current-C-actual-binding-source-plan.json",
+        "bytes": 76039,
+        "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r544-current-C-actual-binding-source-plan.json"
+      },
+      "root_20261116_request230_sampling_refinement_composition.py": {
+        "file": "root_20261116_request230_sampling_refinement_composition.py",
+        "bytes": 60360,
+        "sha256": "8366daf6f6773526385a4530c844d0a6d51ed3fd7229f84c1c8c26bdbeb88c19"
+      },
+      "root_20261116_request230_actual_source_entry.py": {
+        "file": "root_20261116_request230_actual_source_entry.py",
+        "bytes": 32822,
+        "sha256": "12cb094f0b91039efd54eaf56426da4e0ba5ec6d046eeb2b9a3f69768a7f1cb4"
+      },
+      "request230-complete-binding-metadata-source-plan.json": {
+        "file": "request230-complete-binding-metadata-source-plan.json",
+        "bytes": 85503,
+        "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request230-complete-binding-metadata-source-plan.json"
+      },
+      "root_20261116_current_C_actual_engine_source_views.py": {
+        "file": "root_20261116_current_C_actual_engine_source_views.py",
+        "bytes": 16553,
+        "sha256": "e094576644fc7a048de8f47af02b49aab776162a66de538e21b044326df936dc"
+      },
+      "root_20261116_request235_sampling_refinement_composition.py": {
+        "file": "root_20261116_request235_sampling_refinement_composition.py",
+        "bytes": 74598,
+        "sha256": "090f33c586fd3667c2cb630ad364d83c8b1a52cb2298a43813db3fbfc209b5c7"
+      },
+      "root_20261116_request235_actual_source_entry.py": {
+        "file": "root_20261116_request235_actual_source_entry.py",
+        "bytes": 35660,
+        "sha256": "fafe3ec5306b252e9189a39f8a5f82491c1bb54cc868e7304fb39222d2683fe8"
+      },
+      "request235-complete-generation-metadata-source-plan.json": {
+        "file": "request235-complete-generation-metadata-source-plan.json",
+        "bytes": 90706,
+        "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request235-complete-generation-metadata-source-plan.json"
+      },
+      "root_20261116_request238_actual_source_entry.py": {
+        "file": "root_20261116_request238_actual_source_entry.py",
+        "bytes": 38211,
+        "sha256": "6f482798f41fb7616c1ad1a0c7ff1069dbe35e5df0606003ad357238acb9a073"
+      },
+      "root_20261116_request238_sampling_refinement_composition.py": {
+        "file": "root_20261116_request238_sampling_refinement_composition.py",
+        "bytes": 75663,
+        "sha256": "1a2d8b259853756abbbf574841b2fcf9eaa17b81d43903be8d53ef3c33f31190"
+      },
+      "r567-current-prefix-tube-source-plan.json": {
+        "file": "r567-current-prefix-tube-source-plan.json",
+        "bytes": 27356,
+        "sha256": "36fc6e09fef6e0b80c491fbb60464211417434082464a876851f1ddce2c7f537",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r567-current-prefix-tube-source-plan.json"
+      },
+      "geometry_20261116_actual_prefix_coefficient_tube_majorants.py": {
+        "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+        "bytes": 24412,
+        "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+      },
+      "geometry_20261116_finite_frenet_tube_residual_majorants.py": {
+        "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+        "bytes": 18782,
+        "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+      },
+      "root_20261116_request239_sampling_refinement_composition.py": {
+        "file": "root_20261116_request239_sampling_refinement_composition.py",
+        "bytes": 76607,
+        "sha256": "ebd89315edd17a1e9da8b49c73ec770e108213ef4f4c58d59ddaf0da92224d41"
+      },
+      "root_20261116_request239_actual_source_entry.py": {
+        "file": "root_20261116_request239_actual_source_entry.py",
+        "bytes": 38204,
+        "sha256": "27ef948f256d32994192e8fffb550add9697e69e92d7186c3eeb90f385db4a16"
+      },
+      "r570-same-call-cubic-complete-source-plan.json": {
+        "file": "r570-same-call-cubic-complete-source-plan.json",
+        "bytes": 71198,
+        "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r570-same-call-cubic-complete-source-plan.json"
+      },
+      "geometry_20261116_current_C_same_call_cubic_bridge.py": {
+        "file": "geometry_20261116_current_C_same_call_cubic_bridge.py",
+        "bytes": 24718,
+        "sha256": "861a7d7b9125df75cc233627d664419183163080677b5b90c96905ca69490eeb"
+      },
+      "geometry_20261116_same_call_cubic_quintic_defect.py": {
+        "file": "geometry_20261116_same_call_cubic_quintic_defect.py",
+        "bytes": 39272,
+        "sha256": "6d27df22093e339fe8940bf24c57cff880d247a5f7f4fd478135adf2e4032f66"
+      },
+      "root_20261116_request247_sampling_refinement_composition.py": {
+        "file": "root_20261116_request247_sampling_refinement_composition.py",
+        "bytes": 77251,
+        "sha256": "d7520c1897ee3bbc53d60fdd9f2a6ebd21d24f13e46b8712acbe99d0a79446c2"
+      },
+      "root_20261116_request247_actual_source_entry.py": {
+        "file": "root_20261116_request247_actual_source_entry.py",
+        "bytes": 38200,
+        "sha256": "156d6738ae064af53e66420ecc5f59d291b2c2f1878ec1dbe6134483c00e6847"
+      },
+      "r591-actual-captured-reader-metadata-source-plan.json": {
+        "file": "r591-actual-captured-reader-metadata-source-plan.json",
+        "bytes": 11508,
+        "sha256": "f48be38bc84853fb3fb411bf39e52c56349239244ad3dcd89c94aab9c386090d",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r591-actual-captured-reader-metadata-source-plan.json"
+      },
+      "root_20261116_request241_sampling_refinement_composition.py": {
+        "file": "root_20261116_request241_sampling_refinement_composition.py",
+        "bytes": 79517,
+        "sha256": "7c3e82e97b2fdc1b726a619bb66b98df15be6f7d09521ed44f789091a3c1815b"
+      },
+      "root_20261116_request241_actual_source_entry.py": {
+        "file": "root_20261116_request241_actual_source_entry.py",
+        "bytes": 38221,
+        "sha256": "2619250a64f54abae0c7023b64c5e10133b1ac326ee1911396e34bb7296eba4a"
+      },
+      "r576-same-return-full-angle-projection-source-plan.json": {
+        "file": "r576-same-return-full-angle-projection-source-plan.json",
+        "bytes": 33755,
+        "sha256": "8ed263d3aaed5ceb8ae79e4783cb7d4d5d87170ee2ee453e8eb88339a8a8a560",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r576-same-return-full-angle-projection-source-plan.json"
+      },
+      "geometry_20261116_same_evaluation_full_angle_projection_defect.py": {
+        "file": "geometry_20261116_same_evaluation_full_angle_projection_defect.py",
+        "bytes": 24673,
+        "sha256": "d2cfc1e35509486dd77f5f2ae4aecba3c0527b2e16b910be69540a73f3c2d6b7"
+      },
+      "alternative-outward-probe.py": {
+        "file": "alternative-outward-probe.py",
+        "bytes": 7708,
+        "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+      },
+      "geometry_20261114_r225_outward_probe.py": {
+        "file": "geometry_20261114_r225_outward_probe.py",
+        "bytes": 7542,
+        "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+      },
+      "geometry_20261114_r225_high_core_bvp.py": {
+        "file": "geometry_20261114_r225_high_core_bvp.py",
+        "bytes": 18350,
+        "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+      },
+      "geometry_20261114_r225_free_core_bvp.py": {
+        "file": "geometry_20261114_r225_free_core_bvp.py",
+        "bytes": 23914,
+        "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+      },
+      "geometry_20261114_fft_frenet.py": {
+        "file": "geometry_20261114_fft_frenet.py",
+        "bytes": 2143,
+        "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+      },
+      "root_20261116_complete_generation_source_relations.py": {
+        "file": "root_20261116_complete_generation_source_relations.py",
+        "bytes": 13605,
+        "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+      },
+      "root_20261116_request249_sampling_refinement_composition.py": {
+        "file": "root_20261116_request249_sampling_refinement_composition.py",
+        "bytes": 81200,
+        "sha256": "62fb5eeab21230b2091db61c23b1abd7c52b3436abacab87245dd8b7a22417cb"
+      },
+      "root_20261116_request249_actual_source_entry.py": {
+        "file": "root_20261116_request249_actual_source_entry.py",
+        "bytes": 38242,
+        "sha256": "a3068a4102c70321d1c24b6800c11dc8ba63445634efe376b0e039df2917f3f9"
+      },
+      "geometry_20261116_actual_saved_RHS_reference_defect.py": {
+        "file": "geometry_20261116_actual_saved_RHS_reference_defect.py",
+        "bytes": 56627,
+        "sha256": "8a242686845844df64d248b7b9fd47096ff2c7a8c2044346c85fc9b7425afb3f"
+      },
+      "geometry_20261116_accurate_ten_source_boundaries.py": {
+        "file": "geometry_20261116_accurate_ten_source_boundaries.py",
+        "bytes": 8620,
+        "sha256": "236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7"
+      },
+      "request249-accurate-input-current-field-source-plan.json": {
+        "file": "request249-accurate-input-current-field-source-plan.json",
+        "bytes": 66948,
+        "sha256": "76ad03b100d193d4ca3955ba38bac3a9252c30de4c98483f2b40f6f29964a76f",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request249-accurate-input-current-field-source-plan.json"
+      },
+      "request249-saved-RHS-complete-consumer-source-plan.json": {
+        "file": "request249-saved-RHS-complete-consumer-source-plan.json",
+        "bytes": 37876,
+        "sha256": "ce860964d893262d70a5dfb1ab95c18ef2d4b3fca2b99f0a8e8b686ff342ebfe",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request249-saved-RHS-complete-consumer-source-plan.json"
+      },
+      "root_20261116_request251_sampling_refinement_composition.py": {
+        "file": "root_20261116_request251_sampling_refinement_composition.py",
+        "bytes": 82922,
+        "sha256": "17f1a9431868c941be597bd46fa9a3683951c1fd9edbefa0107d7f6d7285b574"
+      },
+      "root_20261116_request251_actual_source_entry.py": {
+        "file": "root_20261116_request251_actual_source_entry.py",
+        "bytes": 38242,
+        "sha256": "f82d85af4a58bad7c9fc423c88ac4770a261c9a03ef899e029d16a4605b3ae4f"
+      },
+      "geometry_20261116_same_evaluation_analytic_angle_projection.py": {
+        "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+        "bytes": 35149,
+        "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+      },
+      "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py": {
+        "file": "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py",
+        "bytes": 23113,
+        "sha256": "12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d"
+      },
+      "request251-current-candidate-and-field-source-plan.json": {
+        "file": "request251-current-candidate-and-field-source-plan.json",
+        "bytes": 66940,
+        "sha256": "d043263c3d61061e591b20d4e1bbb41ac115170597b21120c6de791b29389e57",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request251-current-candidate-and-field-source-plan.json"
+      },
+      "request251-analytic-saved-RHS-C1-consumer-source-plan.json": {
+        "file": "request251-analytic-saved-RHS-C1-consumer-source-plan.json",
+        "bytes": 45582,
+        "sha256": "99fbc10ed25271156e148053e01372ca74ebe9687618d4b6c291419d4b24197a",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request251-analytic-saved-RHS-C1-consumer-source-plan.json"
+      },
+      "root_20261116_current_C_complete_source_role_relations.py": {
+        "file": "root_20261116_current_C_complete_source_role_relations.py",
+        "bytes": 26849,
+        "sha256": "5e9f7baf38c5fa98451447791423ec8eef68c73980b164762fd99883b105fb40"
+      }
+    },
+    "generation_specs": [
+      {
+        "generator": {
+          "file": "root_20261116_current_C_actual_engine_source_views.py",
+          "bytes": 16553,
+          "sha256": "e094576644fc7a048de8f47af02b49aab776162a66de538e21b044326df936dc"
+        },
+        "plan": {
+          "file": "r544-current-C-actual-binding-source-plan.json",
+          "bytes": 76039,
+          "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b"
+        },
+        "receipt_directory": "source-views-binding235",
+        "schema": "R559-complete-current-C-binding-source-generation-v1",
+        "expected_generated_source_count": 57
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request230-complete-binding-metadata-source-plan.json",
+          "bytes": 85503,
+          "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b"
+        },
+        "receipt_directory": "source-views-metadata230",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request235-complete-generation-metadata-source-plan.json",
+          "bytes": 90706,
+          "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913"
+        },
+        "receipt_directory": "source-views-metadata235",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r567-current-prefix-tube-source-plan.json",
+          "bytes": 27356,
+          "sha256": "36fc6e09fef6e0b80c491fbb60464211417434082464a876851f1ddce2c7f537"
+        },
+        "receipt_directory": "source-views-prefix-tube238",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 7
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r570-same-call-cubic-complete-source-plan.json",
+          "bytes": 71198,
+          "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504"
+        },
+        "receipt_directory": "source-views-cubic239",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 56
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r591-actual-captured-reader-metadata-source-plan.json",
+          "bytes": 11508,
+          "sha256": "f48be38bc84853fb3fb411bf39e52c56349239244ad3dcd89c94aab9c386090d"
+        },
+        "receipt_directory": "source-views-metadata247",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r576-same-return-full-angle-projection-source-plan.json",
+          "bytes": 33755,
+          "sha256": "8ed263d3aaed5ceb8ae79e4783cb7d4d5d87170ee2ee453e8eb88339a8a8a560"
+        },
+        "receipt_directory": "source-views-angle-projection241",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 7
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request249-accurate-input-current-field-source-plan.json",
+          "bytes": 66948,
+          "sha256": "76ad03b100d193d4ca3955ba38bac3a9252c30de4c98483f2b40f6f29964a76f"
+        },
+        "receipt_directory": "source-views-accurate-input249",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 49
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request249-saved-RHS-complete-consumer-source-plan.json",
+          "bytes": 37876,
+          "sha256": "ce860964d893262d70a5dfb1ab95c18ef2d4b3fca2b99f0a8e8b686ff342ebfe"
+        },
+        "receipt_directory": "source-views-saved-RHS249",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 7
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request251-current-candidate-and-field-source-plan.json",
+          "bytes": 66940,
+          "sha256": "d043263c3d61061e591b20d4e1bbb41ac115170597b21120c6de791b29389e57"
+        },
+        "receipt_directory": "source-views-current-binding251",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 51
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request251-analytic-saved-RHS-C1-consumer-source-plan.json",
+          "bytes": 45582,
+          "sha256": "99fbc10ed25271156e148053e01372ca74ebe9687618d4b6c291419d4b24197a"
+        },
+        "receipt_directory": "source-views-continuous-RHS251",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 7
+      }
+    ],
+    "full_original222_object_reconstructed_by_original_literal_plan_before_source_only_changes": true,
+    "current_inner_full_bytes_and_SHA_formed_once_then_used_by_all_callers": true,
+    "actual_same_C_sources_registered_after_real_R544_creation_not_generated_twice": true,
+    "original_guard_predicates_and_scientific_work_values_unchanged": true,
+    "source_preparation_starts_inside_original_namespace_clock": true,
+    "historical_metadata_plan": {
+      "file": "request230-complete-binding-metadata-source-plan.json",
+      "bytes": 85503,
+      "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request230-complete-binding-metadata-source-plan.json"
+    },
+    "original230_complete_535_source_contract_preserved": true,
+    "original230_metadata_six_created_as_explicit_ancestors": true,
+    "actual_source_engine_checks_real_bound_module_file_not_missing_attribute": true,
+    "tube_plan": {
+      "file": "r567-current-prefix-tube-source-plan.json",
+      "bytes": 27356,
+      "sha256": "36fc6e09fef6e0b80c491fbb60464211417434082464a876851f1ddce2c7f537",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r567-current-prefix-tube-source-plan.json"
+    },
+    "original235_all_545_sources_retained": true,
+    "cubic_plan": {
+      "file": "r570-same-call-cubic-complete-source-plan.json",
+      "bytes": 71198,
+      "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r570-same-call-cubic-complete-source-plan.json"
+    },
+    "original238_all_557_sources_retained": true,
+    "actual_same_C_sources_registered_after_real_R570_creation_not_generated_twice": true,
+    "repair_plan": {
+      "file": "r591-actual-captured-reader-metadata-source-plan.json",
+      "bytes": 11508,
+      "sha256": "f48be38bc84853fb3fb411bf39e52c56349239244ad3dcd89c94aab9c386090d",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r591-actual-captured-reader-metadata-source-plan.json"
+    },
+    "original239_all_618_sources_retained": true,
+    "all56_original_R570_scientific_and_diagnostic_output_bytes_unchanged": true,
+    "actual_captured239_reader_exact_key_required": true,
+    "projection_plan": {
+      "file": "r576-same-return-full-angle-projection-source-plan.json",
+      "bytes": 33755,
+      "sha256": "8ed263d3aaed5ceb8ae79e4783cb7d4d5d87170ee2ee453e8eb88339a8a8a560",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r576-same-return-full-angle-projection-source-plan.json"
+    },
+    "original247_all_627_sources_retained": true,
+    "actual_same_return_R575_observer_does_not_replace_original_metric_or_DFS_predicates": true,
+    "generation_readback_metadata_only_helper": {
+      "file": "root_20261116_complete_generation_source_relations.py",
+      "bytes": 13605,
+      "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+    },
+    "accurate_input_plan": {
+      "file": "request249-accurate-input-current-field-source-plan.json",
+      "bytes": 66948,
+      "sha256": "76ad03b100d193d4ca3955ba38bac3a9252c30de4c98483f2b40f6f29964a76f",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request249-accurate-input-current-field-source-plan.json"
+    },
+    "saved_rhs_plan": {
+      "file": "request249-saved-RHS-complete-consumer-source-plan.json",
+      "bytes": 37876,
+      "sha256": "ce860964d893262d70a5dfb1ab95c18ef2d4b3fca2b99f0a8e8b686ff342ebfe",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request249-saved-RHS-complete-consumer-source-plan.json"
+    },
+    "original241_all_642_sources_retained": true,
+    "actual_R599_report_word_and_recipe_receipt_sources_are_current": true,
+    "actual_R596_same_return_diagnostic_is_not_an_acceptance_gate": true,
+    "actual_49_field_sources_and_seven_consumers_have_distinct_current_creator_receipts": true,
+    "continuous_rhs_plan": {
+      "file": "request251-analytic-saved-RHS-C1-consumer-source-plan.json",
+      "bytes": 45582,
+      "sha256": "99fbc10ed25271156e148053e01372ca74ebe9687618d4b6c291419d4b24197a",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request251-analytic-saved-RHS-C1-consumer-source-plan.json"
+    },
+    "current_binding_plan": {
+      "file": "request251-current-candidate-and-field-source-plan.json",
+      "bytes": 66940,
+      "sha256": "d043263c3d61061e591b20d4e1bbb41ac115170597b21120c6de791b29389e57",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request251-current-candidate-and-field-source-plan.json"
+    },
+    "complete_necessary_relation_helper": {
+      "file": "root_20261116_current_C_complete_source_role_relations.py",
+      "bytes": 26849,
+      "sha256": "5e9f7baf38c5fa98451447791423ec8eef68c73980b164762fd99883b105fb40"
+    },
+    "original249_all_704_sources_retained": true,
+    "actual_R601_unique_finish_uses_original_budget_not_a_new_scientific_gate": true
+  },
+  "additional_runtime_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "root_20261116_request251_same_C_composition.py": {
+      "file": "root_20261116_request251_same_C_composition.py",
+      "bytes": 42261,
+      "sha256": "42a222d83dc12bf9c550b599d19f0e95b6795658d946d9e7170b1513e5f8a678",
+      "schema": "request251-actual-source-and-same-C-registration-composition-v1"
+    },
+    "geometry_20261116_request251_same_C_refinement.py": {
+      "file": "geometry_20261116_request251_same_C_refinement.py",
+      "bytes": 45760,
+      "sha256": "bffedf47e400d7c6bee73e6661707635a28ec051ca4384f90d0d1f0466df8b76",
+      "schema": "request251-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request251_same_C_necessary.py": {
+      "file": "root_20261116_request251_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "3fbf053d14ef6e856eb54c12e3f7cdaa34788451bc9473f497dfc16c92fa901d",
+      "schema": "request251-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "geometry_20261116_actual_prefix_coefficient_tube_majorants.py": {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    "geometry_20261116_finite_frenet_tube_residual_majorants.py": {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    "geometry_20261116_same_call_cubic_quintic_defect.py": {
+      "file": "geometry_20261116_same_call_cubic_quintic_defect.py",
+      "bytes": 39272,
+      "sha256": "6d27df22093e339fe8940bf24c57cff880d247a5f7f4fd478135adf2e4032f66"
+    },
+    "geometry_20261116_current_C_same_call_cubic_bridge.py": {
+      "file": "geometry_20261116_current_C_same_call_cubic_bridge.py",
+      "bytes": 24718,
+      "sha256": "861a7d7b9125df75cc233627d664419183163080677b5b90c96905ca69490eeb"
+    },
+    "geometry_20261116_same_evaluation_full_angle_projection_defect.py": {
+      "file": "geometry_20261116_same_evaluation_full_angle_projection_defect.py",
+      "bytes": 24673,
+      "sha256": "d2cfc1e35509486dd77f5f2ae4aecba3c0527b2e16b910be69540a73f3c2d6b7"
+    },
+    "alternative-outward-probe.py": {
+      "file": "alternative-outward-probe.py",
+      "bytes": 7708,
+      "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+    },
+    "geometry_20261114_r225_outward_probe.py": {
+      "file": "geometry_20261114_r225_outward_probe.py",
+      "bytes": 7542,
+      "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+    },
+    "geometry_20261114_r225_high_core_bvp.py": {
+      "file": "geometry_20261114_r225_high_core_bvp.py",
+      "bytes": 18350,
+      "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+    },
+    "geometry_20261114_r225_free_core_bvp.py": {
+      "file": "geometry_20261114_r225_free_core_bvp.py",
+      "bytes": 23914,
+      "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+    },
+    "geometry_20261114_fft_frenet.py": {
+      "file": "geometry_20261114_fft_frenet.py",
+      "bytes": 2143,
+      "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+    },
+    "geometry_20261116_actual_saved_RHS_reference_defect.py": {
+      "file": "geometry_20261116_actual_saved_RHS_reference_defect.py",
+      "bytes": 56627,
+      "sha256": "8a242686845844df64d248b7b9fd47096ff2c7a8c2044346c85fc9b7425afb3f"
+    },
+    "geometry_20261116_accurate_ten_source_boundaries.py": {
+      "file": "geometry_20261116_accurate_ten_source_boundaries.py",
+      "bytes": 8620,
+      "sha256": "236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7"
+    },
+    "geometry_20261116_same_evaluation_analytic_angle_projection.py": {
+      "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+      "bytes": 35149,
+      "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+    },
+    "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py": {
+      "file": "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py",
+      "bytes": 23113,
+      "sha256": "12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d"
+    }
+  },
+  "actual_failure_basis": {
+    "actual238_conclusion": "R568",
+    "actual238_source": "a4c45fc70851164436ed2be48c531a54fbbec11b",
+    "actual238_run": 43885002914,
+    "actual_report_boundary": "float of the exact factory rational string stopped prepare_design before design453/frozen450",
+    "actual_closed_boundary": "The first closed entry selected the non-coast recipe basename while the real launcher produced the coast-base recipe",
+    "new_exact_boundary_component": "R599",
+    "current241_and247_results_not_inferred": true,
+    "previous_source_repairs": {
+      "actual239_conclusion": "R571",
+      "actual239_source": "e396395de8ed0c124cd481d85a32e795aa795812",
+      "actual239_run": 43891863925,
+      "actual_returned_stop": "ValueError: Use the current composer and actual generated metadata readers",
+      "actual239_scientific_computation_started": false,
+      "actual239_all_source_generations_not_started": true,
+      "original_stale_expected_reader": "root_20261116_actual202_bound230_coast_base_zero_linear_gzip_two_phase_necessary_readout.py",
+      "actual_required_reader": {
+        "file": "root_20261116_actual202_captured239_coast_base_zero_linear_gzip_two_phase_necessary_readout.py",
+        "bytes": 32662,
+        "sha256": "508885ca68dc0500a8bd5923b2cfb90746ebb118bc4fd25a83cb5160d153a7e9"
+      },
+      "repair": "Bind the original R570 captured239 reader in the same strict four-key metadata set; no guard relaxation or old-name alias",
+      "previous_source_repairs": {
+        "actual230_conclusion": "R546",
+        "actual230_source": "9f2b9a45d39c22ea979b5a1c4870d26d13de7d5a",
+        "actual230_run": 43867442383,
+        "actual_returned_stop": "R544 source materialization did not complete; current-generation index6",
+        "original_child_exception_was_not_returned_in_actual230": true,
+        "new_R559_source_inference": "Frozen R496 engine has no module.HERE; use its exact bound __file__ and actual computations parent, preserving engine's own original path predicate",
+        "prior_source_repairs": {
+          "conclusion": "R490",
+          "source_commit": "4a08bebb63482c34c3bb7460582772a966e25c51",
+          "first_launcher_passed_old_client_basename_before_science": true,
+          "closed_ENTRY_omitted_coast_base_before_science": true,
+          "composition_original_file_identity_not_necessary_frame_byte_count": true,
+          "old_logs_or_raw_not_inputs": true
+        },
+        "old_logs_or_raw_not_inputs": true
+      },
+      "old_logs_or_raw_not_inputs": true
+    },
+    "old_logs_raw_or_accepted_results_not_inputs": true
+  },
+  "frozen230_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-actual-source-bound-complete-refinement230-request.json",
+    "bytes": 35731,
+    "sha256": "f96cff4dce95c5b7fb744ab6b3d4049fc0b432c2edef14c53c29b6ef5fc3793e",
+    "source_commit": "9f2b9a45d39c22ea979b5a1c4870d26d13de7d5a"
+  },
+  "frozen230_workflow": {
+    "file": ".github/workflows/visible-current-C-actual-source-bound-refinement230.yml",
+    "bytes": 86918,
+    "sha256": "3cae42ef9f7137b9b555068ed9ddd8cf705850dafe5faeb8185bf70d0c915b12"
+  },
+  "frozen235_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-complete-generation-refinement235-request.json",
+    "bytes": 40569,
+    "sha256": "35c1e4230d5ae9b48157d280028cc5f364113a00b2df1041b2193087fe6d4378"
+  },
+  "frozen235_workflow": {
+    "file": ".github/workflows/visible-current-C-generation-complete-refinement235.yml",
+    "bytes": 91176,
+    "sha256": "a65d73cbb8f974c8d7a3e9e6e6a29d846877a84999c516b506019865674ab5d6"
+  },
+  "prefix_tube": {
+    "schema": "R567-current-235-field-prefix-tube-consumer-registration-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r567-current-prefix-tube-source-plan.json",
+      "bytes": 27356,
+      "sha256": "36fc6e09fef6e0b80c491fbb60464211417434082464a876851f1ddce2c7f537"
+    },
+    "materialization": {
+      "receipt": "source-views-prefix-tube238/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "helper": {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    "majorants": {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    "original_coefficient_method": {
+      "file": "geometry_20261115_shared_active_interval_balls.py",
+      "sha256": "675ab8dffaaa86dd7a760dba8502d03d83f04fed15e88224c13da35a4151514b",
+      "owner": "ExactFiniteField.prefix_coefficients"
+    },
+    "actual_target": "The same current230 CoastTargetRange.closed_range return, with actual refined C leaves",
+    "scope": "Same-C level0/1/2 evidence and compare; original preceding three-level normal evidence and three four-Loewner consumers retain exact baseline bytes",
+    "initial_actual_parents_or_field_values_preset": false,
+    "same_real_numeric_prefix_s_and_physical_angle_used": true,
+    "complete_current_modes_both_means_and_exact_six_power_coefficients_required": true,
+    "all_original_closed_DFS_and_time_queries_and_deadlines_preserved": true,
+    "diagnostic_unpaid_never_changes_original_acceptance_or_split": true,
+    "raw_complete_per_leaf_tube_and_errors_in_original_gzip_cell_ledger": true,
+    "original_necessary_and_recovery_emit_same_selected_diagnostic_scope": true,
+    "tolerance_to_full_metric_floor_or_rounded_RHS_error_not_claimed": true
+  },
+  "frozen238_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-prefix-tube-complete-refinement238-request.json",
+    "bytes": 47456,
+    "sha256": "cd71c4dff1629eeab92961994034b4a18b62b9665554653163dbf6ada444ee6e"
+  },
+  "frozen238_workflow": {
+    "file": ".github/workflows/visible-current-C-generation-complete-refinement238.yml",
+    "bytes": 91505,
+    "sha256": "006fd8292ac2d177423837484a08c4c2ba8c35c9c72f06064ece6623466559a4"
+  },
+  "same_call_cubic": {
+    "schema": "R570-actual-same-call-cubic-registration-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r570-same-call-cubic-complete-source-plan.json",
+      "bytes": 71198,
+      "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504"
+    },
+    "materialization": {
+      "receipt": "source-views-cubic239/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "bridge": {
+      "file": "geometry_20261116_current_C_same_call_cubic_bridge.py",
+      "bytes": 24718,
+      "sha256": "861a7d7b9125df75cc233627d664419183163080677b5b90c96905ca69490eeb"
+    },
+    "library": {
+      "file": "geometry_20261116_same_call_cubic_quintic_defect.py",
+      "bytes": 39272,
+      "sha256": "6d27df22093e339fe8940bf24c57cff880d247a5f7f4fd478135adf2e4032f66"
+    },
+    "drivers": {
+      "first_driver": {
+        "file": "geometry_20261116_request249_same_call_cubic_full453_frozen450.py",
+        "bytes": 35578,
+        "sha256": "9ae37ef938cbf035c6ae24a587cd59a434afdb78bc496f0524c8f369321c0742"
+      },
+      "same_driver": {
+        "file": "geometry_20261116_request249_same_call_cubic_refined112.py",
+        "bytes": 56144,
+        "sha256": "7a39d9180d044a3c5ad2709a282efeb496fd76c42db10e0e163ba4ac6dd3a4bc"
+      },
+      "union_driver": {
+        "file": "geometry_20261116_request249_same_call_cubic_incremental_M.py",
+        "bytes": 52845,
+        "sha256": "84d24e8e137cf15a07809cc7e905019bf2e502b2fb3b2f9584daae957de92aa5"
+      }
+    },
+    "phase_names": {
+      "first": [
+        "design453",
+        "frozen450"
+      ],
+      "refined112": "refined450",
+      "incrementalM": "refined-M"
+    },
+    "scope": "Capture only the actual unchanged full-DN returned solve_bvp object; retain full sol.sol.c, actual mesh/states/original spline RHS and original RMS words only after original acceptance. Compare to the actual complete current675 quintic within the original same-C prefix evaluations and DFS retirement.",
+    "capture_status": "same-call-cubic-status.json",
+    "capture_directory": "same-call-cubic",
+    "complete_capture_member_names": [
+      "mesh",
+      "augmented_states",
+      "original_spline_rhs",
+      "ppoly_coefficients",
+      "original_rms_residuals",
+      "solver_parameters",
+      "physical_states",
+      "frozen_physical_rhs",
+      "recomputed_augmented_rhs"
+    ],
+    "raw_format": "complete C-order little-endian IEEE binary64 words with actual full shapes and signed zeros",
+    "same_original_actual_job_deadline_required": true,
+    "driver_cli_deadline_forwarded_by_actual_three_owned_launchers": true,
+    "raw_solver_object_or_original_results_changed": false,
+    "additional_solve_or_RHS_call_for_capture": false,
+    "original_accepted_CP_and_definition_not_rewritten": true,
+    "canonical_exact_C_star_and_actual_literal_C_remain_distinct": true,
+    "exact_current_rho_lower_in_physical_angle_metric_normalization": true,
+    "all_M_physical_columns_both_means_and_augmented_rows_retained": true,
+    "positive_pair_tube_unpaid_is_not_a_scientific_gate": true,
+    "actual_cubic_metric_FFT_table_scalar_and_RHS_formation_error_not_claimed": true,
+    "R575_not_implicitly_executed": true,
+    "actual_accepted_field_capture_or_error_value_preset": false,
+    "original_R570_driver_sources_retained_in_original_complete_plan": true
+  },
+  "frozen239_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-same-call-cubic-refinement239-request.json",
+    "bytes": 54783,
+    "sha256": "6eb0b2572b8ef204b80e1c5d6172e902c0b37254d305f641cb11bef4f818812f"
+  },
+  "frozen239_workflow": {
+    "file": ".github/workflows/visible-current-C-same-call-cubic-refinement239.yml",
+    "bytes": 91712,
+    "sha256": "f49152d9f22af88a35be61056117e07de7cd2d0e54ac985599a42a900b3a8c4d"
+  },
+  "metadata_reader_repair": {
+    "schema": "R591-actual-captured-reader-and-metadata-registration-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r591-actual-captured-reader-metadata-source-plan.json",
+      "bytes": 11508,
+      "sha256": "f48be38bc84853fb3fb411bf39e52c56349239244ad3dcd89c94aab9c386090d"
+    },
+    "materialization": {
+      "receipt": "source-views-metadata247/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "complete_R570_56_sources_byte_identical": true,
+    "all_same_call_capture_native_and_geometric_gates_unchanged": true,
+    "metadata_current_names_schemas_and_actual_file_identities_explicit": true,
+    "actual_accepted_parent_or_scientific_value_preset": false
+  },
+  "frozen247_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-captured-reader-refinement247-request.json",
+    "bytes": 59436,
+    "sha256": "42547b2d206c9a783dad9f10724770523edcd92e935ffda2869b02536cc12f04"
+  },
+  "frozen247_workflow": {
+    "file": ".github/workflows/visible-current-C-captured-reader-refinement247.yml",
+    "bytes": 92020,
+    "sha256": "11bf60e5d66a13c96c9e1914d331031cde78f116203c0138a500e8092059205b"
+  },
+  "same_angle_projection": {
+    "schema": "R576-same-return-full-angle-projection-current-caller-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r576-same-return-full-angle-projection-source-plan.json",
+      "bytes": 33755,
+      "sha256": "8ed263d3aaed5ceb8ae79e4783cb7d4d5d87170ee2ee453e8eb88339a8a8a560"
+    },
+    "materialization": {
+      "receipt": "source-views-angle-projection241/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "helper": {
+      "file": "geometry_20261116_same_evaluation_full_angle_projection_defect.py",
+      "bytes": 24673,
+      "sha256": "d2cfc1e35509486dd77f5f2ae4aecba3c0527b2e16b910be69540a73f3c2d6b7"
+    },
+    "original_DFT_reference_sources": {
+      "alternative-outward-probe.py": {
+        "file": "alternative-outward-probe.py",
+        "bytes": 7708,
+        "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+      },
+      "geometry_20261114_r225_outward_probe.py": {
+        "file": "geometry_20261114_r225_outward_probe.py",
+        "bytes": 7542,
+        "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+      },
+      "geometry_20261114_r225_high_core_bvp.py": {
+        "file": "geometry_20261114_r225_high_core_bvp.py",
+        "bytes": 18350,
+        "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+      },
+      "geometry_20261114_r225_free_core_bvp.py": {
+        "file": "geometry_20261114_r225_free_core_bvp.py",
+        "bytes": 23914,
+        "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+      },
+      "geometry_20261114_fft_frenet.py": {
+        "file": "geometry_20261114_fft_frenet.py",
+        "bytes": 2143,
+        "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+      }
+    },
+    "actual_R553_source": {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    "actual_R521_source": {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    "source_tuple_scope": "Actual new R597 current field/target/coast/675 source tuple; original R575 object and arithmetic are retained. Original R570 and R576 source families remain complete ancestors.",
+    "scope": "The original same-C first/successor measurement slots and comparison; the current evidence also binds the R596 saved-RHS observer. Normal pre-same-C measurement and every original four-Loewner consumer retain their mathematics.",
+    "actual_binding": "Original R575 checks type(actual_R553).__module__, file/SHA/class, actual original R521 method owner, full M/N and all five original source bytes",
+    "actual_evaluation": "inspect(original_cell, exact same already-returned R553 record)",
+    "actual_retirement": "commit_original_retirement(original_cell, actual_R575_return, split=original_metric_split)",
+    "entire_original_prefix_radial_angle_reflection_cover_required_for_global_bound": true,
+    "all_complete_modes_both_means_all_integer_aliases_and_Nyquist_scope_preserved": true,
+    "fixed_physical_angle_rotating_components_not_world_frame_derivative": true,
+    "exact_reference_projection_not_actual_floating_FFT_table_or_RHS_error": true,
+    "original_same_call_cubic_capture_and_rho_normalized_comparison_retained": true,
+    "original_metric_norm_split_refinement_BVP_native_FD_and_final_gates_unchanged": true,
+    "ordinary_observer_error_is_explicit_unpaid_not_metric_rejection": true,
+    "original_budget_resource_signal_and_owned_tree_are_reused": true,
+    "independent_clock_grid_scan_child_or_solver_call_added": false,
+    "R580_not_implicitly_registered_or_executed": true,
+    "actual_parent_or_bound_or_convergence_preset": false
+  },
+  "frozen241_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-full-angle-projection-refinement241-request.json",
+    "bytes": 72451,
+    "sha256": "35e32dafedbc04bf85c562dbec6a03b85ad81334a6fe219cbfadc5481538b5e6"
+  },
+  "frozen241_workflow": {
+    "file": ".github/workflows/visible-current-C-full-angle-projection-refinement241.yml",
+    "bytes": 92426,
+    "sha256": "b66c1ce2441a2f285d3a9a64922b1bdaa3451382eaaa5ad8907888d0d3ce4d8c"
+  },
+  "frozen241_source_commit": "7af9e725e58983a740d3cb53c66b73166914e247",
+  "actual_saved_RHS": {
+    "schema": "R597-actual-saved-RHS-and-accurate-source-boundaries-current-caller-v1",
+    "source_core_plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/request249-accurate-input-current-field-source-plan.json",
+      "bytes": 66948,
+      "sha256": "76ad03b100d193d4ca3955ba38bac3a9252c30de4c98483f2b40f6f29964a76f"
+    },
+    "consumer_plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/request249-saved-RHS-complete-consumer-source-plan.json",
+      "bytes": 37876,
+      "sha256": "ce860964d893262d70a5dfb1ab95c18ef2d4b3fca2b99f0a8e8b686ff342ebfe"
+    },
+    "source_core_materialization": {
+      "receipt": "source-views-accurate-input249/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "consumer_materialization": {
+      "receipt": "source-views-saved-RHS249/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "helper": {
+      "file": "geometry_20261116_actual_saved_RHS_reference_defect.py",
+      "bytes": 56627,
+      "sha256": "8a242686845844df64d248b7b9fd47096ff2c7a8c2044346c85fc9b7425afb3f"
+    },
+    "accurate_source_boundaries": {
+      "file": "geometry_20261116_accurate_ten_source_boundaries.py",
+      "bytes": 8620,
+      "sha256": "236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7"
+    },
+    "actual_R575": {
+      "file": "geometry_20261116_same_evaluation_full_angle_projection_defect.py",
+      "bytes": 24673,
+      "sha256": "d2cfc1e35509486dd77f5f2ae4aecba3c0527b2e16b910be69540a73f3c2d6b7"
+    },
+    "actual_R553": {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    "actual_R521": {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    "binding": "bind_loaded_saved_RHS_defect(actual_R575_object, original_job_deadline=the_same_actual_receipt)",
+    "evaluation": "inspect(original_cell, exact_same_already_returned_R553_record)",
+    "retirement": "commit_original_retirement(original_cell, actual_R596_return, split=the_original_metric_split)",
+    "finish": "Current R601 owns this original R596 summary once with no optional R575 summary; complete independent R575 output remains",
+    "checkpoint_path": "actual cp.directory / checkpoint.json, with strict original basename, actual full bytes/SHA and same-call capture binding",
+    "required_full_same_call_members": [
+      "mesh",
+      "augmented_states",
+      "original_spline_rhs",
+      "ppoly_coefficients",
+      "original_rms_residuals",
+      "solver_parameters",
+      "physical_states",
+      "frozen_physical_rhs",
+      "recomputed_augmented_rhs"
+    ],
+    "actual_controls_are_role_specific_physical_rhs_vs_augmented_rhs": true,
+    "full_N_reference_DFT_positive_domain_is_not_inferred_from_one_angular_leaf": true,
+    "full_M_all_retained_bins_and_both_means_required": true,
+    "node_DY_reference_difference_is_not_automatic_all_cell_FFT_roundoff_or_metric_floor": true,
+    "original_R521_tube_cubic_derivative_and_full_prefix_retirement_responsibilities_preserved": true,
+    "ordinary_error_is_complete_diagnostic_unpaid_not_original_metric_rejection": true,
+    "same_original_absolute_deadline_signal_budget_and_owned_tree": true,
+    "independent_clock_additional_science_child_grid_scan_or_solver_call": false,
+    "R580_and_R601_not_implicitly_registered_or_executed": false,
+    "actual_accepted_parent_bound_or_descending_error_not_preset": true,
+    "accurate_factory_tenword_scope": {
+      "actual_producer": "Original 72c accurate-ten report after complete 3bc target/definition/source binding",
+      "conversion": "Exact rational to binary64 nearest ties-to-even by original R599 integer bit construction; already-binary64 words and signed zero are preserved",
+      "selected_call": "Only raw_words(report.starting_parameters) in current first driver; full_p actual native words remain the original comparison side",
+      "original_H_state_RHS_J_conversion_paths_unchanged": true,
+      "invalid_nonfinite_or_overflow_error_remains_explicit": true
+    },
+    "actual_coast_recipe_scope": {
+      "selected_call": "Actual first closed entry reads the real original launch.recipe receipt and then keeps the original read(path, receipt) byte/SHA binding",
+      "expected_owned_relative_path": "actual202-ten-BVP-input/actual202-coast-base-ten-full453-frozen450-recipe.json",
+      "receipt_path_is_required_not_guessed_from_cwd": true,
+      "no_copy_fallback_old_recipe_or_accepted_parent_fabricated": true
+    },
+    "original249_finish_contract": "summary receives the already-computed actual R575 summary under the original live Budget; after a real ResourceStop only incomplete metadata is reconstructed",
+    "R580_and_R601_registered_explicitly_by_continuous_RHS_C1": true
+  },
+  "frozen249_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-saved-RHS-accurate-input-refinement249-request.json",
+    "bytes": 84809,
+    "sha256": "2617b281a828ea7e0217eb62ad770c7518115ef125be195bba39c88275a2073d"
+  },
+  "frozen249_workflow": {
+    "file": ".github/workflows/visible-current-C-saved-RHS-accurate-input-refinement249.yml",
+    "bytes": 92887,
+    "sha256": "e260d5c4d9f23226b5d852d27a5737cdaaae61a779c10dff8c6dbdd94601be97"
+  },
+  "frozen249_source_commit": "9e13243d17d5fe736352a9a40b88d75f79b8d744",
+  "actual_source_binding_repair": {
+    "schema": "R606-actual-candidate-driver-and-complete-source-binding-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/request251-current-candidate-and-field-source-plan.json",
+      "bytes": 66940,
+      "sha256": "d043263c3d61061e591b20d4e1bbb41ac115170597b21120c6de791b29389e57"
+    },
+    "materialization": {
+      "receipt": "source-views-current-binding251/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "actual_candidate_source": {
+      "file": "geometry_20261116_request251_coast_base_accurate_ten_candidate.py",
+      "bytes": 34108,
+      "sha256": "74288ba187db3dd67132f1a13c2e41a36c03526da470b4121ac9baaa615a7a22"
+    },
+    "actual_pipeline_source": {
+      "file": "geometry_20261116_request251_coast_base_accurate_ten_pipeline.py",
+      "bytes": 32380,
+      "sha256": "2e4a07e915ce00c768a6c37a480b37dd0a383818527264fb197e4db8719e7d94"
+    },
+    "actual_first_driver_source": {
+      "file": "geometry_20261116_request251_same_call_cubic_full453_frozen450.py",
+      "bytes": 35562,
+      "sha256": "235ba9e4ba0bd87ce21e3cdccda0f04dcd44d5e30eb5403dbaf4760abae12104"
+    },
+    "repaired_actual249_owner_contract": {
+      "generation_layers": 17,
+      "declared_layer_counts": [
+        15,
+        5,
+        13,
+        49,
+        51,
+        46,
+        57,
+        6,
+        6,
+        7,
+        56,
+        6,
+        7,
+        49,
+        7,
+        51,
+        7
+      ],
+      "generated_sources": 438
+    },
+    "original_candidate_coast_policy_and_all_scientific_bodies_preserved": true,
+    "actual_candidate_reads_current_driver_basename_before_binding_source_SHA": true,
+    "full_source_closure_contains_each_changed_caller_checkpoint_and_consumer": true,
+    "no_original_source_global_monkeypatch_or_false_old_identity": true
+  },
+  "analytic_angle_projection": {
+    "schema": "R606-actual-same-R575-analytic-observer-policy-v1",
+    "helper": {
+      "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+      "bytes": 35149,
+      "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+    },
+    "policy": {
+      "strip_width_cap": "1/256",
+      "exponential_terms": 24
+    },
+    "existing_R581_explicit_policy_reused_with_actual249_field_sources": true,
+    "binding": "bind_loaded_analytic_projection_defect(the_identical_actual_R575_object, **policy)",
+    "inspection": "inspect(original_cell, the_same_already_returned_R553_record)",
+    "retirement": "commit_original_retirement(original_cell, actual_R580_return, split=original_metric_decision)",
+    "no_B2_success_requirement": true,
+    "no_independent_clock_grid_or_field_sweep": true
+  },
+  "continuous_RHS_C1": {
+    "schema": "R606-actual-analytic-saved-RHS-C1-complete-caller-v1",
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/request251-analytic-saved-RHS-C1-consumer-source-plan.json",
+      "bytes": 45582,
+      "sha256": "99fbc10ed25271156e148053e01372ca74ebe9687618d4b6c291419d4b24197a"
+    },
+    "materialization": {
+      "receipt": "source-views-continuous-RHS251/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "helper": {
+      "file": "geometry_20261116_actual_analytic_saved_RHS_C1_defect.py",
+      "bytes": 23113,
+      "sha256": "12450be1cbdd289b69f74535d98fa42586506709244ed066b338c98cd494490d"
+    },
+    "actual_R580": {
+      "file": "geometry_20261116_same_evaluation_analytic_angle_projection.py",
+      "bytes": 35149,
+      "sha256": "0abe4629415a0e9219a50cf248f30bdceb9819b4338189b811101bdadf3d543f"
+    },
+    "actual_R596": {
+      "file": "geometry_20261116_actual_saved_RHS_reference_defect.py",
+      "bytes": 56627,
+      "sha256": "8a242686845844df64d248b7b9fd47096ff2c7a8c2044346c85fc9b7425afb3f"
+    },
+    "binding": "bind_loaded_continuous_RHS_C1_defect(actual_R580_object, actual_R596_object)",
+    "original_shared_context": "identical actual R575/R553/field/target/M/N/precision/budget callback; explicit positive finite-reference sigma from the real R596 binding",
+    "finish": "R601 alone calls the actual R580 and R596 original summaries and forms the world-angle C1 bound; separate R575 diagnostic finish remains",
+    "normal_readback_and_compare_preserve_all_original_summaries": true,
+    "real_resource_stop_uses_original_signal_path_then_metadata_only_recovery": true,
+    "ordinary_partial_finish_is_recorded_without_retrying_any_completed_original_finish": true,
+    "independent_diagnostics_if_R601_binding_unpaid_are_not_a_combined_bound": true,
+    "full_R596_finite_reference_capture_node_and_whole_cell_scope_preserved": true,
+    "optional_R596_R575_B2_global_composition_not_repeated": true,
+    "actual_R580_weighted_tail_all_alias_world_connection_and_all_coefficient_mean_weights_from_R601": true,
+    "neither_added_complete_flag_is_an_original_metric_DFS_BVP_or_refinement_gate": true,
+    "finite_grid_projection_not_claimed_to_commute_with_arbitrary_phase": true,
+    "full_closed_surface_metric_floor_BC_anchor_radial_transport_tail_patch_caps_and_worker_branch_not_paid": true,
+    "necessary_representation": {
+      "source_result_json": "full original literal objects unchanged",
+      "relations": [
+        "same row R580 original summary -> R601 actual_R580_summary",
+        "same row R596 original summary -> R601 actual_R596_summary"
+      ],
+      "exact_complete_canonical_equality_before_named_relation": true,
+      "strictly_smaller_whole_body_only": true,
+      "inverse": "expand_original_C1_summaries",
+      "complete_original_selected_identity_retained": true,
+      "missing_null_types_signed_zero_list_order_unknown_errors_pending_and_negative_fields_preserved": true,
+      "no_generic_codec_split_or_numerical_gate": true
+    }
+  }
+}
