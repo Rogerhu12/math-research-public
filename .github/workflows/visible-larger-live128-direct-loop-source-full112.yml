@@ -1,0 +1,413 @@
+name: visible-larger direct loop source owner12000 original full112 FD fullDN
+'on':
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+defaults:
+  run:
+    shell: bash
+jobs:
+  compute:
+    name: Actual252 direct loop source bridge with original owner12000 and complete current-H fullDN
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: visible-larger-live128-direct-loop-source252
+      cancel-in-progress: false
+    outputs:
+      necessary_json: ${{ steps.necessary.outputs.necessary_json }}
+      necessary_bytes: ${{ steps.necessary.outputs.necessary_summary_bytes }}
+      necessary_sha256: ${{ steps.necessary.outputs.necessary_summary_sha256 }}
+      necessary_complete: ${{ steps.necessary.outputs.necessary_readback_complete }}
+      source_json: ${{ steps.source_readback.outputs.source_necessary_json }}
+      source_bytes: ${{ steps.source_readback.outputs.source_necessary_bytes }}
+      source_sha256: ${{ steps.source_readback.outputs.source_necessary_sha256 }}
+      source_complete: ${{ steps.source_readback.outputs.source_readback_complete }}
+      current_request_sha256: ${{ steps.source_views.outputs.current_request_sha256 }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/computations/
+            /topics/visible-flex-larger-amplitude/notes/r515-physical128-radial-mode-cache-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r518-live128-cached-radial-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r522-native128-paired-digit-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r527-live128-paired-cache225-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r534-live128-projected-model-core-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r534-live128-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R535-native-root-finite-words-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r547-live128-root-cached-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R550-accepted-root-evaluation-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r551-live128-root-reused-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R561-normal-dyadic-average-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r562-live128-dyadic-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R564-exact-lifted-factor-product-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r565-live128-lifted-product-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R572-exact-root-synthesis-products-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r573-live128-synthesis-product-projected-model-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r589-live128-named-necessary-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r593-live128-extended-owner-budget-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/R583-loop-rounding-observation-complete-source-plan.json
+            /topics/visible-flex-larger-amplitude/notes/r605-live128-direct-loop-source-complete-plan.json
+      - name: Establish original source paths without creating a scientific receipt
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+          echo "VISIBLE_BASE=$RUNNER_TEMP/visible-live128-direct-loop-source252" >> "$GITHUB_ENV"
+          echo "VISIBLE_NECESSARY=$RUNNER_TEMP/visible-live128-direct-loop-source252-necessary.json" >> "$GITHUB_ENV"
+          echo "VISIBLE_SOURCE_PREPARATION=$RUNNER_TEMP/request252-source-preparation" >> "$GITHUB_ENV"
+          echo "VISIBLE_CURRENT_REQUEST=$RUNNER_TEMP/request252-source-preparation/current-request252.json" >> "$GITHUB_ENV"
+          echo "VISIBLE_CURRENT_REQUEST_SHA256=" >> "$GITHUB_ENV"
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - name: Install unchanged original numerical and binary128 compilation runtime
+        run: |
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python --version
+          node --version
+          g++ --version
+      - name: Prepare complete454 ancestry direct R583 binding two includes and all ten actual callers
+        id: source_views
+        timeout-minutes: 10
+        run: |
+          python - <<'PYGENERATE'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          outer=comp/'public-live128-direct-loop-source-composition-request.json'
+          raw=outer.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c'
+          obj=json.loads(raw)
+          assert obj['schema']=='public-live128-direct-loop-source-composition-request-v1'
+          assert obj['request_number']==252
+          generator=comp/'root_20261116_live128_direct_loop_source_views.py'
+          data=generator.read_bytes()
+          assert len(data)==39322 and hashlib.sha256(data).hexdigest()=='e528780ecc5556c4181d1cbe137f6e02140d978525702de8f99d71bb25bc4d58'
+          assert obj['source_generator']==dict(file=generator.name,bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+          plan=comp.parent/obj['source_plan']['file']
+          payload=plan.read_bytes()
+          assert len(payload)==58151 and hashlib.sha256(payload).hexdigest()=='c64422f86312cb0784ea6235b22fe2c139eb60847c0fe4c08ddd5970cfb42d9b'
+          parent_path=comp.parent/obj['parent']['request']['file']
+          parent_raw=parent_path.read_bytes()
+          assert len(parent_raw)==obj['parent']['request']['bytes']
+          assert hashlib.sha256(parent_raw).hexdigest()==obj['parent']['request']['sha256']
+          parent=json.loads(parent_raw)
+          assert parent['schema']=='public-live128-extended-owner-budget-composition-request-v1' and parent['request_number']==248
+          ancestor_path=comp.parent/parent['parent']['request']['file']
+          ancestor_raw=ancestor_path.read_bytes()
+          assert len(ancestor_raw)==parent['parent']['request']['bytes']
+          assert hashlib.sha256(ancestor_raw).hexdigest()==parent['parent']['request']['sha256']
+          ancestor=json.loads(ancestor_raw)
+          core=comp.parent/ancestor['ancestor_R534_core_source_plan']['file']
+          body=core.read_bytes()
+          assert len(body)==72022 and hashlib.sha256(body).hexdigest()=='826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648'
+          subprocess.run([sys.executable,'-u',str(generator),'prepare',
+              '--request',str(outer),'--request-sha256','fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c',
+              '--computations',str(comp),'--out',os.environ['VISIBLE_SOURCE_PREPARATION']],check=True)
+          receipt=json.loads((Path(os.environ['VISIBLE_SOURCE_PREPARATION'])/'source-views.json').read_bytes())
+          actual=receipt['current_request']
+          current=Path(actual['file']);current_raw=current.read_bytes()
+          assert len(current_raw)==actual['bytes'] and hashlib.sha256(current_raw).hexdigest()==actual['sha256']
+          with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+              stream.write('current_request_sha256='+actual['sha256']+'\n')
+          PYGENERATE
+      - name: Bind all471 actual sources with the unchanged original syntax checks
+        run: |
+          python - <<'PYSOURCE'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          path=Path(os.environ['VISIBLE_CURRENT_REQUEST'])
+          raw=path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()==os.environ['VISIBLE_CURRENT_REQUEST_SHA256']
+          request=json.loads(raw)
+          assert request['schema']=='public-live128-direct-loop-source-original-full112-FD-fullDN-request-v1'
+          assert request['request_number']==252 and request['repository']=='Rogerhu12/math-research-public'
+          assert request['source_contract']['explicit_source_pin_count']==len(request['source_sha256'])==471
+          assert len(request['generated_source_sha256'])==103
+          source_record=json.loads((Path(os.environ['VISIBLE_SOURCE_PREPARATION'])/'source-views.json').read_bytes())
+          assert source_record['schema']=='R604-direct-R583-original248-complete-source-preparation-v1'
+          assert source_record['complete'] is True and source_record['error'] is None
+          assert source_record['run']['GITHUB_RUN_ID']==os.environ['GITHUB_RUN_ID']
+          assert source_record['run']['GITHUB_SHA']==os.environ['GITHUB_SHA']
+          assert source_record['current_request']==dict(file=str(path.resolve()),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+          actual_map=Path(source_record['complete_source_map']['file'])
+          map_raw=actual_map.read_bytes()
+          assert len(map_raw)==source_record['complete_source_map']['bytes']
+          assert hashlib.sha256(map_raw).hexdigest()==source_record['complete_source_map']['sha256']
+          mapping=json.loads(map_raw)
+          assert mapping['sources']==request['source_sha256']
+          assert mapping['generated_sources']==request['generated_source_sha256']
+          for name,digest in request['source_sha256'].items():
+              file=comp/name
+              assert Path(name).name==name and not file.is_symlink()
+              source=file.read_bytes()
+              assert hashlib.sha256(source).hexdigest()==digest,name
+              if file.suffix=='.py':
+                  compile(source,str(file),'exec')
+              elif file.suffix=='.mjs':
+                  subprocess.run(['node','--check',str(file)],check=True)
+          repo=Path(os.environ['GITHUB_WORKSPACE'])
+          for name,expected in request['reviewed_README_blobs'].items():
+              data=(repo/name).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+              assert actual==expected
+          print(json.dumps(dict(event='request252_source_binding',
+              request_sha256=hashlib.sha256(raw).hexdigest(),
+              public_outer_sha256='fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c',
+              sources=len(request['source_sha256']),source_commit=os.environ['GITHUB_SHA'],
+              Python_compiled_not_imported=True,Node_syntax_checked_not_executed=True,
+              no_CXX_scientific_compilation_or_scientific_evaluation_yet=True)))
+          PYSOURCE
+      - name: Reserve declared temporary capacity without deleting scientific data
+        run: |
+          python - <<'PYSPACE'
+          import json,os,shutil,subprocess
+          from pathlib import Path
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request=json.loads(Path(os.environ['VISIBLE_CURRENT_REQUEST']).read_bytes())
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          required=request['resources']['minimum_free_bytes_at_start']
+          before=shutil.disk_usage(root)._asdict();removed=[]
+          if before['free']<required:
+              for name in ('/usr/local/lib/android','/usr/share/dotnet','/opt/ghc'):
+                  path=Path(name)
+                  if path.is_dir() and not path.is_symlink():
+                      subprocess.run(['sudo','rm','-rf','--',name],check=True)
+                      removed.append(name)
+          after=shutil.disk_usage(root)._asdict()
+          print(json.dumps(dict(event='request252_declared_capacity',before=before,after=after,
+              minimum_free_bytes_at_start=required,unused_ephemeral_runner_SDKs_removed=removed,
+              maximum_uncached_protocol_calls=18,
+              all_possible_calls_fit_not_proved=True,
+              scientific_payload_deleted=False,
+              original320_minute_clock_not_started_yet=True)))
+          if after['free']<required:
+              raise RuntimeError('Actual runner cannot supply the declared multi-call temporary capacity')
+          PYSPACE
+      - name: Restore original63 complete prefix original78 source and original91 tail guess
+        id: preparation
+        timeout-minutes: 30
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u "$VISIBLE_COMPUTATIONS/geometry_20261116_live128_direct_loop_source_owned_run.py" prepare \
+            --request "$VISIBLE_CURRENT_REQUEST" \
+            --request-sha256 "$VISIBLE_CURRENT_REQUEST_SHA256" \
+            --namespace "$VISIBLE_BASE"
+      - name: Direct-source current-H native owner12000 model FD fullDN and final audit
+        id: science
+        timeout-minutes: 320
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u "$VISIBLE_COMPUTATIONS/geometry_20261116_live128_direct_loop_source_owned_run.py" run \
+            --request "$VISIBLE_CURRENT_REQUEST" \
+            --request-sha256 "$VISIBLE_CURRENT_REQUEST_SHA256" \
+            --namespace "$VISIBLE_BASE"
+      - name: Read the actual source preparation and any precise ungenerated suffix
+        id: source_readback
+        if: always()
+        timeout-minutes: 5
+        run: |
+          set +e
+          python -u "$VISIBLE_COMPUTATIONS/root_20261116_live128_direct_loop_source_views.py" readback \
+            --request "$VISIBLE_COMPUTATIONS/public-live128-direct-loop-source-composition-request.json" \
+            --request-sha256 fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c \
+            --computations "$VISIBLE_COMPUTATIONS" --out "$VISIBLE_SOURCE_PREPARATION"
+          source_code=$?
+          SOURCE_CODE="$source_code" python - <<'PYSOURCEOUTPUT'
+          import hashlib,json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'request252-source-preparation-necessary.json'
+          if path.is_file():
+              raw=path.read_bytes()
+              assert len(raw)<=90000
+              value=json.loads(raw)
+              assert value['schema']=='R604-direct-R583-original248-complete-source-preparation-v1-necessary-v1'
+              assert value['run']['GITHUB_RUN_ID']==os.environ['GITHUB_RUN_ID']
+              assert value['run']['GITHUB_SHA']==os.environ['GITHUB_SHA']
+              assert value['plan']['sha256']=='c64422f86312cb0784ea6235b22fe2c139eb60847c0fe4c08ddd5970cfb42d9b'
+              assert value['request']['sha256']=='fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c'
+              assert value['request_number']==252
+              delimiter='R605_SOURCE_NECESSARY_'+hashlib.sha256(raw).hexdigest()
+              assert delimiter not in raw.decode('ascii')
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  stream.write('source_necessary_json<<'+delimiter+'\n'+raw.decode('ascii').rstrip('\n')+'\n'+delimiter+'\n')
+                  stream.write('source_necessary_bytes='+str(len(raw))+'\n')
+                  stream.write('source_necessary_sha256='+hashlib.sha256(raw).hexdigest()+'\n')
+                  stream.write('source_readback_complete='+str(value.get('necessary_readback_complete') is True).lower()+'\n')
+              print(json.dumps(dict(event='request252_one_source_necessary_transport',
+                  actual_reader_exit=int(os.environ['SOURCE_CODE']),bytes=len(raw),
+                  sha256=hashlib.sha256(raw).hexdigest(),
+                  necessary_readback_complete=value.get('necessary_readback_complete') is True,
+                  scientific_success_not_inferred=True)))
+          else:
+              print(json.dumps(dict(event='request252_source_necessary_not_returned',
+                  actual_reader_exit=int(os.environ['SOURCE_CODE']),
+                  complete_source_scope_not_invented=True,cleanup_permitted=False)))
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  stream.write('source_readback_complete=false\n')
+          PYSOURCEOUTPUT
+          source_transport_code=$?
+          if [ "$source_transport_code" -ne 0 ]; then
+            echo "source_readback_complete=false" >> "$GITHUB_OUTPUT"
+            exit "$source_transport_code"
+          fi
+          exit "$source_code"
+      - name: Quiesce actual owned groups and read one necessary original conclusion
+        id: necessary
+        if: always()
+        timeout-minutes: 20
+        run: |
+          set +e
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u "$VISIBLE_COMPUTATIONS/root_20261116_live128_direct_loop_source_necessary.py" \
+            --request "$VISIBLE_CURRENT_REQUEST" \
+            --request-sha256 "$VISIBLE_CURRENT_REQUEST_SHA256" \
+            --namespace "$VISIBLE_BASE" --out "$VISIBLE_NECESSARY"
+          read_code=$?
+          READ_CODE="$read_code" python - <<'PYOUTPUT'
+          import hashlib,json,os
+          from pathlib import Path
+          path=Path(os.environ['VISIBLE_NECESSARY'])
+          if path.is_file():
+              raw=path.read_bytes()
+              assert len(raw)<=90000
+              value=json.loads(raw)
+              assert value['schema']=='R605-live128-direct-loop-source-original-full112-necessary-v1'
+              assert value['request_number']==252
+              assert value['run']['GITHUB_RUN_ID']==os.environ['GITHUB_RUN_ID']
+              assert value['run']['GITHUB_SHA']==os.environ['GITHUB_SHA']
+              assert value['request']['sha256']==os.environ.get('VISIBLE_CURRENT_REQUEST_SHA256','')
+              delimiter='R605_NECESSARY_'+hashlib.sha256(raw).hexdigest()
+              assert delimiter not in raw.decode('ascii')
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  stream.write('necessary_json<<'+delimiter+'\n'+raw.decode('ascii').rstrip('\n')+'\n'+delimiter+'\n')
+                  stream.write('necessary_summary_bytes='+str(len(raw))+'\n')
+                  stream.write('necessary_summary_sha256='+hashlib.sha256(raw).hexdigest()+'\n')
+                  stream.write('necessary_readback_complete='+str(value.get('necessary_readback_complete') is True).lower()+'\n')
+              print(json.dumps(dict(event='request252_one_necessary_transport',
+                  actual_reader_exit=int(os.environ['READ_CODE']),bytes=len(raw),
+                  sha256=hashlib.sha256(raw).hexdigest(),
+                  necessary_readback_complete=value.get('necessary_readback_complete') is True,
+                  scientific_success_not_inferred=True)))
+          else:
+              print(json.dumps(dict(event='request252_necessary_not_returned',
+                  actual_reader_exit=int(os.environ['READ_CODE']),
+                  actual_scientific_summary_not_invented=True,cleanup_permitted=False)))
+              with open(os.environ['GITHUB_OUTPUT'],'a') as stream:
+                  stream.write('necessary_readback_complete=false\n')
+          PYOUTPUT
+          transport_code=$?
+          if [ "$transport_code" -ne 0 ]; then
+            echo "necessary_readback_complete=false" >> "$GITHUB_OUTPUT"
+            exit "$transport_code"
+          fi
+          exit "$read_code"
+      - name: Remove only a completely read and actually quiescent owned namespace
+        if: always()
+        timeout-minutes: 5
+        env:
+          NECESSARY_COMPLETE: ${{ steps.necessary.outputs.necessary_readback_complete }}
+          SOURCE_READBACK_COMPLETE: ${{ steps.source_readback.outputs.source_readback_complete }}
+        run: |
+          if [ "$NECESSARY_COMPLETE" = "true" ] && [ "$SOURCE_READBACK_COMPLETE" = "true" ]; then
+            PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u "$VISIBLE_COMPUTATIONS/geometry_20261116_live128_direct_loop_source_owned_run.py" cleanup \
+              --request "$VISIBLE_CURRENT_REQUEST" \
+              --request-sha256 "$VISIBLE_CURRENT_REQUEST_SHA256" \
+              --namespace "$VISIBLE_BASE" --summary "$VISIBLE_NECESSARY"
+          else
+            python -c 'import json,os; print(json.dumps(dict(event="request252_cleanup",removed=False,namespace=os.environ.get("VISIBLE_BASE"),reason="source or original-science necessary scope incomplete; raw retained until runner destruction",no_scientific_completion_or_quiet_inferred=True)))'
+          fi
+  report:
+    name: Actual source scope and one necessary252 original scientific conclusion
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    env:
+      NECESSARY_JSON: ${{ needs.compute.outputs.necessary_json }}
+      SOURCE_JSON: ${{ needs.compute.outputs.source_json }}
+      SOURCE_BYTES: ${{ needs.compute.outputs.source_bytes }}
+      SOURCE_SHA256: ${{ needs.compute.outputs.source_sha256 }}
+      NECESSARY_BYTES: ${{ needs.compute.outputs.necessary_bytes }}
+      NECESSARY_SHA256: ${{ needs.compute.outputs.necessary_sha256 }}
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+      CURRENT_REQUEST_SHA256: ${{ needs.compute.outputs.current_request_sha256 }}
+    steps:
+      - name: Print the independent actual source-preparation scope
+        run: |
+          python - <<'PYSOURCEREPORT'
+          import hashlib,json,os,sys
+          text=os.environ.get('SOURCE_JSON','')
+          if not text:
+              print(json.dumps(dict(event='request252_source_necessary_absent',
+                  compute_result=os.environ['COMPUTE_RESULT'],
+                  successful_source_receipt_not_invented=True,science_success_not_inferred=True)))
+              raise SystemExit(2)
+          raw=text.encode('ascii')+b'\n'
+          assert len(raw)==int(os.environ['SOURCE_BYTES'])<=90000
+          assert hashlib.sha256(raw).hexdigest()==os.environ['SOURCE_SHA256']
+          value=json.loads(raw)
+          assert value['schema']=='R604-direct-R583-original248-complete-source-preparation-v1-necessary-v1'
+          assert value['run']['GITHUB_RUN_ID']==os.environ['GITHUB_RUN_ID']
+          assert value['run']['GITHUB_SHA']==os.environ['GITHUB_SHA']
+          assert value['plan']['sha256']=='c64422f86312cb0784ea6235b22fe2c139eb60847c0fe4c08ddd5970cfb42d9b'
+          assert value['request']['sha256']=='fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c'
+          assert value['request_number']==252
+          print('BEGIN_REQUEST252_DIRECT_LOOP_SOURCE_SOURCE_NECESSARY',flush=True)
+          sys.stdout.write(raw.decode('ascii'));sys.stdout.flush()
+          print('END_REQUEST252_DIRECT_LOOP_SOURCE_SOURCE_NECESSARY',flush=True)
+          print(json.dumps(dict(event='request252_source_report_identity',
+              bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),
+              scientific_success_not_inferred_from_source_preparation=True)))
+          PYSOURCEREPORT
+      - name: Print the exact single scientific necessary object or its actual absence
+        if: always()
+        run: |
+          python - <<'PYREPORT'
+          import hashlib,json,os,sys
+          text=os.environ.get('NECESSARY_JSON','')
+          if not text:
+              print(json.dumps(dict(event='request252_no_necessary_summary',
+                  compute_result=os.environ['COMPUTE_RESULT'],
+                  scientific_or_transport_success_not_inferred=True)))
+              raise SystemExit(2)
+          raw=text.encode('ascii')+b'\n'
+          assert len(raw)==int(os.environ['NECESSARY_BYTES'])<=90000
+          assert hashlib.sha256(raw).hexdigest()==os.environ['NECESSARY_SHA256']
+          value=json.loads(raw)
+          assert value['schema']=='R605-live128-direct-loop-source-original-full112-necessary-v1' and value['request_number']==252
+          assert value['run']['GITHUB_RUN_ID']==os.environ['GITHUB_RUN_ID']
+          assert value['run']['GITHUB_SHA']==os.environ['GITHUB_SHA']
+          assert value['request']['sha256']==os.environ.get('CURRENT_REQUEST_SHA256','')
+          print('BEGIN_REQUEST252_DIRECT_LOOP_SOURCE_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY',flush=True)
+          sys.stdout.write(raw.decode('ascii'));sys.stdout.flush()
+          print('END_REQUEST252_DIRECT_LOOP_SOURCE_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY',flush=True)
+          print(json.dumps(dict(event='request252_report_identity',bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),compute_result=os.environ['COMPUTE_RESULT'],
+              scientific_success_not_inferred_from_job_label=True)))
+          PYREPORT

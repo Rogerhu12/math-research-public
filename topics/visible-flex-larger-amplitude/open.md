@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R605 / request252 完整六件已形成并本次独立发表。** 真正父为正式248的同job原454全来源，当前471=368public+103generated；一次原248 prepare后一次R604六计划原函数桥，完整binding文件及原全部guard保。实际252 owner/system/QR/pipeline/call/worker/client/fullDN/runner/reader十角色级联，2个原R583CPP原字；source只明确恢复原R593→R589旧关系再R600，science完整六代目录只整正文严格变小才用。原63/78/91、owner12000/总19200、576/226×224含双mean/338×112/完整FD/fullDN/末审计、两份90000/70及quiet/cleanup保持，244内部未返原因不推断已修；真实推后唯一dispatch，R609 exact。R603正式250运行43916489518/head25265e7e/compute133471931060已唯一POST200，原完整五件不改。249已终态科学前入口失败、两完整必要超限，geometry正在R598逐项归责；未刊251修实际已知两guard和完整必要表示，R610继续完整prefix metric消费。
+
 **R603 / request250 已完整五件形成并本次独立发表。** 以正式248 b38a46a6的实际R593 prepare一次为唯一父，原454 pin全部保，当前466=366public+100generated；两公开R602/R523组件和generator为3新public，9个实际源视图只本job生成。新factory真接worker原import及原初始evaluate/R532完整model两条路径，原owner/R532/c4/assembly不派生；每真实engine全14计数、全部last/fallback/scope/unknown与实际末快照完整消费，不能把同步强杀后未返部分补成当前值。原owner12000/总19200、576 cells、226×224含双mean、338×112、全部FD/RMS/domain/boundary/final fresh audit和两份90000/70均保；R583/244不是本次父，不声称速度、必要fit或数值接受。完整推送后唯一dispatch；R607/amplitude唯一终态，run/source/job只按真实回执补。R604已6707a589真实刊，R610继续同一实际场的正分母/入口锚/全径向覆盖，R606251与R605252独立即时刊。
 
 **R604 已证明（直接来源桥与完整旧表示逆）：** [证明](results/R604-direct-six-plan-source-bridge-and-exact-ancestry-inverse.md)及[完整接口](notes/2026-11-16-direct-R583-source-bridge-and-complete-ancestry-interface.md)给同HERE/六实参唯一调用原R583.prepare_sources，完整binding/原error/partial保，不以内部整stdout90K阻父传递；原最终两必要90000/70不改。仅明确R593→R589及旧R584当前scope解原R588，全部旧reports/marker地址/键序同body保，R600完整共享后精确逆，整body严格更短才选；无fit、速度或244未知子因修复宣称。R605252真实471来源/owner12000/19200接线进行，原数学/统计全保，R609 exact唯一；root接真实prefix锚与正分母的R514/R601消费缺口。

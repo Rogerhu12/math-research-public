@@ -318,3 +318,13 @@ current source及statistics可能比旧摘要更大，完整90K限制不升。�
 当前尚未付的仍包括：新公开job真实sourcepreflight；实际原输入恢复、容量和原钟；完整初始evaluate、R273方向；persistent128 solve/fresh replay；全R532当前模型和所有组件/FD/fullDN；两份真实必要是否fit；实际quiet及cleanup；实际时间与任何数值接受结果。后继R607必须按原返回逐项归责，不能由已刊R602/R603或任何历史正高run接受代判。
 
 当前已成完整执行来源不等于实现额外连续闭面/全t几何证书。这个入口继承原finite-prefix/native/fullDN问题及其既定门。其 source-only 对照仅是源码/参数身份和条件控制流，不新建数学门、额外审计或确认流程。
+
+## 13. 实际普通推送与唯一 dispatch 回执（2026-11-16 17:15 UTC）
+
+本节仅登记已发生的发布与官方运行身份，不将初始化或 job 标签当作数学接受。完整五件的源 commit 为 c82391f7250232c314ac272f2d8b4a42bbc81220；仅临时行政 branch 的 commit 为 52b8aa3da0840ea98bad8d826a9dc70e4abae2a7，行政 workflow 不进入 main。
+
+发布 Actions run43916349469/job133471450557 已 success。17:15:03 实际 partial/sparse clone 后 pull --rebase 读取665dd92b8703fa7118d90fbee0eba7f07e2d60ee；17:15:28 与17:15:32 两次普通 push 遭非快进，均立即真实 pull --rebase，依次读 f0ab4abf900cc502b88787145a193f07764c90e4 与76aaa8bf217571dda4e464a3f4bf343ffb2c8a0a 后普通重推，没有 force。各次根 README blob21bd547f56590b7f2dd279d0297efb289a9b2783 和题 README blobbff8aea253a9e6a7a4fac28d810ac454c5499fec 均未变化，实际读头写入 HANDOFF。
+
+17:15:35.2039901Z 的成功回执为 main **25265e7eaca1b00a879311032a8520546516416c**，实际 topic 总量198710288字节。随即仅一次调用 workflow420391174 的 dispatch；17:15:42.0235796Z 返回200，API直接给出 [run43916489518](https://github.com/Rogerhu12/math-research-public/actions/runs/43916489518)。官方 run再次确认 head_sha等于上述main、event=workflow_dispatch、attempt1、workflow路径正是本文执行件；compute **133471931060**。17:15:56 的纯官方metadata显示前1–3步success、4初始化Python running，科学step11尚未开始。未读取running日志，没有第二次POST。
+
+R607由amplitude作为唯一终态读者保留完整必要、未返与实际资源范围。任何以后结论仍依真实终态返回；本入口的来源、参数、全维/两mean责任和原90000/70合同不因本发布成功而自动通过。
