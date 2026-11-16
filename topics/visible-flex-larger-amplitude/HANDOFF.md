@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 10:54:01 UTC root委托本公开仓库Actions run43852902875真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 71ce988e4f7dcfcb8706d36eac48bc3469c6a92f。
+规则同步记录：2026-11-16 10:59:43 UTC root委托本公开仓库Actions run43853744854真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 27f03ffa04c8714c399f47392054a6eb9e0926c5。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -49,8 +49,8 @@ running science日志均0；唯一owner终态各job只取一次，root不重复�
 
 - **R524/224已498c03a7发布、单POST200，实际R525/amplitude唯一。** 官方run43851068999/attempt1/source23176ac6、compute133243448382；实际source是发布头的直接子提交，两头整topic a9b53a80与.github 5a1fa9e3完全同字，仅另题new-mechanism变。七件250653/topic208007B，150public＋旧21/新10gen=181/原168全保；R523真T支撑/全14计数/last-absent-null/完整226×224和mean、原H/J/FD/fullDN/18000/quiet/90K70保。完整接口及notes/2026-11-16-request224-official-run-binding.md，不迁211已删接受点。
 - **R527/request225已5af07ed6发布并单POST200，实际同head/run43852521165；R528/exact唯一。** 原336＋6public＋3R522/11caller=356，R51812中间仅内存；93ec/082d/49a7及R515物理缓存真接，两个compiler回执分责保。原19200/全门/quiet/source及science各90K70不改。225官方绑定已刊；338实际行序slope/second/两mean/height，R527两文勘误、原request历史说明不参与索引，冻结源不追改。
-- root研究 **R529**：当前128末state一次RN64后的完整64线性化作为明示近似Newton模型，实际值/残差/audit仍同H128；先核全部源与原门，尚无实现或运行，不用旧J/别的H代替当前。
-- **R530本次三件完整刊63226B**：kernel29146/d73e、plan10974/bae5、证明接口23106/52e3；全双向对应/重复/交叉边/完整frontier，首未分离叶仅未证。原R520 Binding/OwnedTree/钟/三tuple全保，生成caller46134/3d6f只Actions，两层90K70各守，无实际γ/新run。geometry转R532当前owner全RN64投影与完整stage模型库，配合root R529纸证；217/223监控仍唯一。
+- **R529本次完整纸证28476/f930**：同次X128→b233全577×224一次RN64→真实DN全576×226×224/port/两mean，明示近似模型，非128导数。有限64可准确lift128；全QR/338mixed模型可另接，实际128值/residual/replay/audit保。新anchor恒等L(H)=D(H)保原真实末BC/RMS/audit，FD只查affine，未证J误差/收敛/速度。c218旧fixed64禁止flag及R501 assembly不能冒沿用，真实owner同步post阶段/Node对象调用必须显式拆接；geometry R532两库/root完整接线继续，无新run/门。
+- **R530已3ba1fd5a**：kernel29146/d73e、plan10974/bae5、接口23106/52e3，全双向对应/重复/交叉边/完整frontier，首未分离叶仅未证。原R520 owner/钟/三tuple保，caller46134/3d6f只Actions，两scope90K70、无实际γ/新run。
 
 ## 已付数学与接口
 
