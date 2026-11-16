@@ -255,3 +255,6 @@
 
 
 - **R439：七条原current关系是一个六次对角多项式。** [证明](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)（18187B/SHAbf88d5d38c4dc55c3d280abbee2d7a7f5e3f60b8e44e5147ee5faaf4a6eab184）D_F(x)=c_F(x;(1,x,x²))且144模块共同current像=kerD，给七完整代表含p-only。全部真实根/幅/宽/suffix的补偿iff为[D_F]=0于Pol≤6/D(kerEval)，形式非零不等于实际无解。从原Ts/B/P得D的完整β/τ path式并保周期端项，不授自动零/全R/actual基准。原w不改点门，P2特解兼容仍独立，无新执行。
+
+
+- **R440：完整c0兼容self模块、十六实际行与五列余商。** [证明](results/R440-complete-zero-order-compatible-self-module-and-sixteen-actual-fluxes.md)（17042B/SHAa8641d8ded23f1e74b9eab9c96d7ade81caa4efcdbbc74969bb2eef521d56ed6）三非恒尾Ξ的完整J项消，原c0 universal C核列全；加K21formal。完整K4给同库11左+5右actual16，全镜族像(P≤10,TP+Q≤4)，核心后精确五blind成本决定全部真实根余像，r0全盲仅本模块条件。actual追加保J⁺/全基准、其它全C另需joint前提，五列signed判据不冒全根截面。无新执行。

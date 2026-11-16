@@ -94,13 +94,16 @@ R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joi
 
 在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
 
-### R345/R435–R438：完整self及十五条实际镜对通量
+### R345/R435–R440：完整兼容self模块与全部根五列余商
 
-R435原完整F_z保左常数：K0=−8r⁵/45，r0首K5=1024p⁵；逐点非盲非全点同时。已有同形/宽/基点≤11或r0≤6同控，全K杀J⁺与全C。R436原P支路新增四formal，同一11左+3右actual14，旧镜族模块(P,TP+Q2)；另根ratio条件仍只是旧模块加行条件。
+R435完整current保左常数，K0=−8r⁵/45、r0首K5=1024p⁵；同母同宽同基点≤11或r0≤6，单点非盲不授全点同时。R436/R438 P/S常尾给18formal与原11左+4右actual15。
 
-[R438](results/R438-constant-tail-S-responses-and-fifteen-joint-actual-mirror-fluxes.md)用S=s0原常尾，self=(2/3)aτr²(xr−3p)，suffix常数由完整c0算子准确杀掉。K+P/S完整current像恰18formal；保K3的32upr³+32xur⁴，原W3−Q3再扣L0/L1完整低项，左全0、右3κx³。原已有十二完整cell中11左+4右真实矩阵可逆，全部ρ⁵/物理宽度/左右锚保留，不需另根比值；全部该镜族像恰(P≤10,TP+Q≤3)，actual15而非18。
+[R440](results/R440-complete-zero-order-compatible-self-module-and-sixteen-actual-fluxes.md)闭原c0标签universal C核：八P/S常尾列及Ξj=2B_Etj τ1−B_Esj τ2，另τ0八列全Af盲。原三矩各唯一syzygy，完整J尾逐对相消，三个ζ列原稿列全；加K恰21formal。完整K4/真常数与Ξ2给L4左0/rightκx4，原11左+5右actual16，全镜族像(P≤10,TP+Q≤4)恰16。
 
-同一actual J⁺可追加H15并保两次商/全部prototype/桥/Klein基准；保另行全C仍须已有(J⁺,C)截面或精确共同等像，不拼路径。完整三矩闭circle首末包cell的C经E因子化，孤立α³包不代替二次闭合。H*减原实际查询矩阵后仍λ1/该组H0。下一所有其它根与完整C0 self模块/实际目标外商，原period及同规范门继续。
+在同一V的全部C已共同支付后，normalized另一通道η=(R Hd−T He)/(a³(R²+T²))，保R0包。先用16核心清原目标，再对所有其它根的真实wi/ξi/jets/suffix比较五条完整blind成本；余残差落它们的共同评价像 iff 本模块可signed清全部根。前四current为r³Δ、xr³Δ、pr²Δ、pr³(u−h*r)，第五保Ξ1/W3/K2完整低项；r0根五列全盲，不宣现有母有r0或全R障碍。
+
+同一actual J⁺可追加16行，保两次商/原型/桥/Klein基准；保其它C仍须joint前提。全根五列判据首先是signed像，不能免费插入冻结几何。完整三矩闭circle首末包的C经E因子化，H*有限组核仍λ1。继续真实剩余目标、更大响应与完整period/同规范。
+
 
 ### 完整period与同一w joint仍须真正求解
 
