@@ -2,49 +2,54 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1254-ready-original-K-fixed-consumer-and-unstarted-queue-recovery",
-  "commit_message": "serre: freeze original K-fixed trace consumer with honest pending source",
-  "rules_last_read_commit": "9d0951f1a32e8d93b804d2e574bac68fa85cfc9f",
+  "request_id": "20261116-1301-freeze-original-K-defined-consumer-and-zero-job-queue-recovery",
+  "commit_message": "serre: freeze original K-defined trace representative consumer",
+  "rules_last_read_commit": "cc9cb4da3a9578684b40ec888ea9d3b5b8055cb0",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "ca3390f859c5c949f1c3d74c19cc76ea018d07d2e411c7c5377eb82fa4492001",
+  "expected_previous_request_sha256": "1e370e9621ee51c4c1be0663c5dede0621e0972f28dd8dc946776d362da2d2ee",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R899_original_K_fixed_seven_trace_RR_basis.py",
-      "sha256": "9901767869180e7ff6c20ab56a693024adeef7d77aeb5b1105af0476a36e0248",
+      "path": "topics/serre-uniformity/scripts/R900_original_K_defined_degree272_representative.py",
+      "sha256": "31d0911137f7521c994abb02c5c06684afe5ad025a126be195a99b0eb687e1af",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R899_public_original_K_fixed_seven_trace_RR_basis.py",
-      "sha256": "2a887562b40272bdb6ba477342f9bbe2190cbd9364b6ff1ce7e3f676ceaeb794",
+      "path": "topics/serre-uniformity/scripts/R900_public_original_K_defined_degree272_representative.py",
+      "sha256": "1ccf84b6d2dd09365c22801283832190d9c24a23285b642621ddd9ded3fe5db4",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R899-original-K-fixed-trace-RR-execution-method.md",
-      "sha256": "255ca6620b43b60971a4ee8c521ce8e817d5609f270c466a3c74a3f922ee0884",
+      "path": "topics/serre-uniformity/notes/R900-original-K-defined-degree272-consumer-method.md",
+      "sha256": "b6db29aed8745d7beffd7b57ed7245e9e0b9faac274c41ce6af3b6a4ff4a4306",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R899-K-fixed-seven-trace-public-request.pending.json",
-      "sha256": "3d7be4df34c910d5b57c3e77b43811c0970099b68da714cd3650a0760ac476ee",
+      "path": "topics/serre-uniformity/notes/R900-K-defined-degree272-public-request.json",
+      "sha256": "c2ad9b9d27bf731aedaa6938188c1c5b2d35f2299cdc304bcc5fcd1fae441079",
       "expected_previous_sha256": null
     },
     {
-      "path": ".github/workflows/serre-R899-K-fixed-seven-trace-RR.yml",
-      "sha256": "f77bd3337d84d92a1b724a36ddac08074a69840cc820f00330657fcba5632f18",
+      "path": ".github/workflows/serre-R900-K-defined-degree272.yml",
+      "sha256": "680d16d75b9e275c0b4a84cee5aa900ef3b745a78257b0d35eb641f705bddde0",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-K-trace-consumer-sources.md",
+      "sha256": "342ef1d06588194f5b78bbbf9a83c7f279decedecf53626fdd634507384af52e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "a56e1127f97de14577708325ff59dbbde3937a97ab407cc42b98503acfa5d181",
-      "expected_previous_sha256": "37683eb9788d9a8593f577e6901d830f76a9c75030793dc5a31242d937301ca5"
+      "sha256": "ce229a6ac4855a92a6d87b84bd0a7c49835c1c00471ba60a7dc6716d664bc7a4",
+      "expected_previous_sha256": "342ef1d06588194f5b78bbbf9a83c7f279decedecf53626fdd634507384af52e"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "b43e61bf8b316bda72247c5f07f8d9159647789e9651ba2039e12e703c2be558",
-      "expected_previous_sha256": "1e038db54eae92e5fe52924e2b460b0750446839d9cbcab7d76b79e60e3edba9"
+      "sha256": "0d4effdcf04f7056aee2166a94b0246982d386ebc10842bc8679f4c84bb1e3e7",
+      "expected_previous_sha256": "d3498e7046fbe1763c788f8cd5f813f1851894f6c30e10b710a6e291916d7696"
     }
   ],
   "dispatch_workflows": [

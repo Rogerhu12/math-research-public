@@ -1,0 +1,247 @@
+{
+  "schema": "source-bound-public-original-K-defined-degree272-RR-consumer-v1",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R900-original-K-defined-degree272-first-scope-pending",
+  "result": "R900-original-K-defined-degree272-representative",
+  "p": 41,
+  "producer_inputs_pending": true,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "core": "R900_original_K_defined_degree272_representative.py",
+  "core_sha256": "31d0911137f7521c994abb02c5c06684afe5ad025a126be195a99b0eb687e1af",
+  "wrapper": "R900_public_original_K_defined_degree272_representative.py",
+  "wrapper_sha256": "1ccf84b6d2dd09365c22801283832190d9c24a23285b642621ddd9ded3fe5db4",
+  "workflow": ".github/workflows/serre-R900-K-defined-degree272.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R900-original-K-defined-degree272-consumer-method.md",
+  "method_sha256": "b6db29aed8745d7beffd7b57ed7245e9e0b9faac274c41ce6af3b6a4ff4a4306",
+  "proofs": {
+    "R900": {
+      "path": "results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md",
+      "sha256": "af61b2f016d8280f6abcb23988e6d71aaeb3ffffc7575e3ff08d22ee805d1dcb"
+    },
+    "R899": {
+      "path": "results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md",
+      "sha256": "eff6a8abf489bedf2cda8549a027ebd250717b2ddedece420f2a9d729cebc044"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    }
+  },
+  "budget_minutes": 300,
+  "maximum_first_pencil_trials": 4,
+  "maximum_second_pencil_trials": 4,
+  "resume": null,
+  "rules_last_read_commit": "cc9cb4da3a9578684b40ec888ea9d3b5b8055cb0",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "source_artifacts": {
+    "R899": null,
+    "R894": null,
+    "R883": {
+      "result": "R883-original-t-first-order-frame",
+      "run_id": "43843430426",
+      "source_commit": "a41eaf283496222761525ba06efd1e3d61ab4f47",
+      "core_sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
+      "wrapper_sha256": "91799e07dbf3a5875734df8fb4fdb3e4e15e7427195647973e76ac3ce82da76b",
+      "configuration_sha256": "ea27184f1beb64978adfa1940cf0b01343461e978319b4531b283d5b80b62a99",
+      "manifest_sha256": "d2e9de1f1d969695f1d7b8b3ebbd933264d292e377113f622ed623a68076390f",
+      "manifest_bytes": 2783,
+      "certificate": {
+        "file": "p41-original-t-first-order-frame-certificate.json",
+        "bytes": 9033,
+        "sha256": "3ae22a7651cecd492c170c44a034bea71356e01bd4fdc880851b86742298daeb"
+      },
+      "artifact_id": 14214835037,
+      "artifact_name": "serre-global-R883-original-t-first-order-frame-43843430426-1",
+      "archive_bytes": 8018550,
+      "archive_sha256": "3041116aa53b458e37635b8b5fccab6a2b988f4a57a05d6e5ba086229f0392bc",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:51:15Z"
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "accepted_process_exit_codes": [
+        124
+      ]
+    },
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    }
+  },
+  "R827_transport": {
+    "producer": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "expected_conclusion": "success",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "wrapper_sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "certificate": {
+        "bytes": 7104,
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      }
+    },
+    "source_inventory": {
+      "bytes": 5704,
+      "file": "R885-original-source-inventory.json",
+      "sha256": "18ebb9b23926f08780155a19ec0c24bacaa28d75d4adf9179f4f9322e608a1c0"
+    },
+    "retained_inputs_receipt": {
+      "bytes": 1765,
+      "file": "R885-retained-inputs-receipt.json",
+      "sha256": "58f2043a78e1301e96d3666eea5a87be075c1ba83b8b150a249430d4d8d0bdad"
+    },
+    "package": {
+      "bytes": 13461744,
+      "file": "R885-retained-R827-inputs.tar.gz",
+      "sha256": "95e2c88502c73b285a37f26df0765abd8bb4830742c231ced6f64a066fafa26b"
+    }
+  },
+  "R894_from_R899_carrier": false,
+  "prepared_transports": {
+    "R890": [
+      {
+        "archive": {
+          "run_id": "43860838780",
+          "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+          "artifact_id": 14222928598,
+          "artifact_name": "serre-required-original-source-intake-43860838780-1",
+          "archive_bytes": 31320925,
+          "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+          "expected_conclusion": "success"
+        },
+        "package": {
+          "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+          "bytes": 30951546,
+          "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+        }
+      }
+    ]
+  },
+  "input_pins": {
+    "t_frame": {
+      "source_group": "R883",
+      "file": "R883-original-t-first-order-unit-and-frame-DAG.json.gz",
+      "bytes": 3850,
+      "sha256": "136dd22c3aaddb0b650a5513eefd6db70bfee8a088f0f0cd437a5b6927f6094a"
+    }
+  },
+  "cached_normal_V3_fibres": {
+    "0": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-0.json.gz",
+      "bytes": 442164,
+      "sha256": "ad6c22b19f4b462eb68bd24e0d47935d3d1640d6f8c766bcacbf86745e11c5de"
+    },
+    "1": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-1.json.gz",
+      "bytes": 568252,
+      "sha256": "9cbaecb63a5a051c15c19ac362fb7081feea90068c584577c65986e7777f6cd0"
+    },
+    "2": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-2.json.gz",
+      "bytes": 949175,
+      "sha256": "dddcf85768eea906a3f103356083a16ec26f83e4c3012197eea1ad59b7cfc70d"
+    },
+    "3": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-3.json.gz",
+      "bytes": 948756,
+      "sha256": "b316ed7699e0c6e16eea6a779f76b678f6fd66c9c18ac6e9d1da2694f09b181d"
+    },
+    "4": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-4.json.gz",
+      "bytes": 948657,
+      "sha256": "b8fde69ab3ef2ea7741be3430f5cd4fa7e0893199c557019b8e3866d6c89690e"
+    },
+    "5": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-5.json.gz",
+      "bytes": 948493,
+      "sha256": "fd761f63018d5e6d96c93487534a0c9fedb653d85ea75e259ce09aaf4d714293"
+    },
+    "6": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-6.json.gz",
+      "bytes": 948171,
+      "sha256": "61233d7d41399fedd90c927a783b2b93bc510296f58e88830fa5851bcb3c1fb7"
+    }
+  },
+  "source_selection": {
+    "future_R899": "actual complete certificate, complete_K_fixed_normal_basis, original_P0_leading_row, selected_evaluation_inverse, source_audit and all actual completed_normalized_space_fibres",
+    "future_R894": "the original marked_QN referenced by actual R899, with original producer metadata; direct Range or completed R899 input carrier",
+    "original_normal_fibres": "all seven original R890 whole272 normal/cyclic V3 arrays",
+    "original_W_and_Krylov": "same original R827 W and old nodes0..6, preserved source tags",
+    "whole_QN_global_tree_required": true,
+    "unfinished_source_pins_not_invented": true
+  },
+  "mathematical_scope": {
+    "input_R899_not_yet_claimed_complete": true,
+    "original_prime": 1000000753,
+    "original_branch": 0,
+    "first_required_rank": 1234,
+    "complete_first_residual_dimension": 146,
+    "second_required_rank": 962,
+    "complete_final_RR_dimension": 418,
+    "final_effective_degree": 272,
+    "all_seven_whole_fibres": true,
+    "no_QN_unit_requirement_at_the_seven_fibres": true,
+    "principal_direction": "T0=(DK-H)+div(QN*w0/v), already tau-normalized normal functions",
+    "original_rho_and_t_order": -8435,
+    "t_leading_uses_positive_c_power": 8435,
+    "characteristic_zero_arrays_expanded": false,
+    "old_flips_original_W_Kinverse_E3_and_jets_recomputed": false,
+    "Hecke_nonp_connection_period_or_height_computed": false
+  }
+}
