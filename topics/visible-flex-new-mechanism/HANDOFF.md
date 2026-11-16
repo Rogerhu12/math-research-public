@@ -50,4 +50,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 末m27在accepted52留下exact159 p（SHA17605ea24e9cefa4a73410913b3287c7b0f4b5303550a38f2da0f99850a0c644），无rho/norm、未修复/未试，不能称驻点或物理拒绝。covered checker误需legacy LP status，全部走旧fallback；不伪造成功字段。新12检查已过、旧11/9只读。原日志7416045B/SHAa4a20c9f481fc5d8f1fcce7f279c9c8361e5c84d2da7edd324bd9180b97024c0，完整checkpoint只stdout。
 
-下一独立验收这个已付未试p：0新solver、不重accepted52几何/旧trial，α1起，仅原14门/box及真η下降，不造缺失affine/J学习。继承终值双钟/31cone/116value，新剩542.054888607秒/42value（原44），不用cone32；先审合同/最小完整入口再唯一Actions。理论续R434原144响应joint wholeQ/current及R433 self cap/13同规范。完成门未付，继续open，不收尾。
+按[新验收合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)仅验收末已付未试p：0新solver、不重accepted52几何/旧trial，α1起，仅原14门/box及真η下降，不造缺失affine/J学习。继承终值双钟/31cone/116value，新剩542.054888607秒/42value（原44），不用cone32；合同已读，完整入口审后唯一Actions。理论续R434原144响应joint wholeQ/current及R433 self cap/13同规范。完成门未付，继续open，不收尾。

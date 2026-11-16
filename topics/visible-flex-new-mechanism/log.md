@@ -306,3 +306,8 @@ run43792959676/job133055320913，source c0e7336c28b8d1b1f83306e3a0781069f57c0f48
 本run实际公开pull02:34:35.890760→38.756708，从c0e7336c28b8d1b1f83306e3a0781069f57c0f48到a6ca911815e8965c37e1a99d41d7a0b15cf078f0；双README原blob/hash同、diff空、rc0，之后回钉源。私有02:34:41.339012→41.897552，前后d9c989360de427dc418a82695a10c95059675441，根同/题无/QUEUE唯一进行中。root02:46:28已读原收据，H记下次03:34:35前；API发布不冒pull。
 
 下一为末paid physical p的新独立实际验收，0solver、0旧trial重演；初始52两网引用原m26同物理身份，所有新增input/准备/geometry从最终双钟继承。缺J/affine不造学习与覆盖资格；保原MaxTime。理论接R434 wholeQ/current与完整self cap/同13规范。
+
+
+## 2026-11-16 02:59:00 UTC：两项真正新入口的完整执行前合同
+
+root全文读零solver实际验收设计16888B/7ad3bef3d9f297696d22fb7121951108ec9514980cb394c1304c66417bc4a2b8和144原响应联合设计14475B/72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623。前者保持原subspace.apply舍入、14门/box及严格下降1e−7（原目标例外同）、最多6未试fraction；初始已付m26数据复用，不花2value重x，source fetch前启动双clock，缺affine/J不造学习。后者root手推完整Green current导数与同锚左值，核2及/4尺度；回读R432(33)–(35)核21确为共同formal像而非actual点rank。一次144列complete-Q核与39坐标同系数，新18targets带全p-only残差和原列源重构；不跑旧forcing/root/profile/rank或旧检查。各完整源码/唯一request仍在审阅，不宣科学执行。

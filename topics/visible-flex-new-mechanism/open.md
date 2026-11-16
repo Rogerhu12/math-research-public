@@ -150,7 +150,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)关闭64LP/62value/356.129820261秒，缺失LP64向量不重演。[新锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)run43792959676/job133055320913：27模型/31cone/26真trial/25接受，accepted52细η.2660182947853381、κ57.999249547251196；14门双真/原盒真，但.26与主精度/reach仍未达。继承池4448/4543v13/12、B.00025/streak0、bank512/8support、learning62/61/0；新54value/657.945111393秒，累计116/1014.074931654秒，旧失败已计。
 
-末m27的MaxTime留下exact159未试p，rho/norm未存，原资格拒绝保持。下一只独立实际验收此新点：0solver、不重旧trial/accepted52两值，α1及必要未试二分，保同g/b0/参考/159→163、全14门/盒和真η下降；不造affine/J误差或covered学习。承继1200/32cone/96值与原1800/160交集，剩542.054888607新秒/42新值；未用cone32不是自动授权重跑。完整合同/源审后唯一Actions，完整向量/新geometry仅stdout，结果即记即推。
+末m27的MaxTime留下exact159未试p，rho/norm未存，原资格拒绝保持。按[新合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)只独立实际验收此新点：0solver、不重旧trial/accepted52两值，α1及必要未试二分，保同g/b0/参考/159→163、全14门/盒和真η下降；不造affine/J误差或covered学习。承继1200/32cone/96值与原1800/160交集，剩542.054888607新秒/42新值；未用cone32不是自动授权重跑。完整合同/源审后唯一Actions，完整向量/新geometry仅stdout，结果即记即推。
 
 covered-growth因旧LP字段未适配而全false；实测半径变化属于原fallback。后续若继续锥法须真实solver-neutral资格，不伪填HiGHS status。原单次10秒是配置，backend实测可超10，所有费用保留。原12新检查已过，旧11/9不重。
 

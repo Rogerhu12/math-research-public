@@ -474,3 +474,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 
 - **有限锥首实际：25新接受，末第31次MaxTime保真向量。** [完整原记录](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)（23477B/SHA65cf357809821976103129c39726103e74c3d4dc96b92bc9de0099acf1bffc34），run43792959676/job133055320913/source c0e7336c28b8d1b1f83306e3a0781069f57c0f48。27model/26trial/25接受到52，细η.2660182947853381/κ57.999249547251196；14门/原盒过但.26未达。31cone=30AlmostSolved+1MaxTime，新54value/657.945111393秒、累计116/1014.074931654秒；0新HiGHS/SOC。m27exact159完整、无rho/norm、未修复/未trial，非驻点；covered资格全false走旧fallback，不冒新规则成功。下一零solver独立验证该已付未试方向，继承终值全账/原门。
+
+
+- **两项新入口的范围冻结，尚未执行。** [末MaxTime向量的零求解器实际验收](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)（16888B/SHA7ad3bef3d9f297696d22fb7121951108ec9514980cb394c1304c66417bc4a2b8）只试源52的未试分数，继承双钟/31cone/116值，不恢复缺aux/J或重accepted52两值。[原144响应wholeQ/current联合观察](notes/complete-response-self-current-design-20261116.md)（14475B/SHA72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623）一次求完整self核与39current系数像，检18含u目标、保21共同p-only；原锚/三suffix/原列证书不拆。均未宣结果；源码全审后各唯一Actions，旧研究不重。
