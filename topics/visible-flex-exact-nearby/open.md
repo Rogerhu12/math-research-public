@@ -31,13 +31,7 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 截至1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的完整本节及H活动链逐字保[全实试探/源/腰端检查点](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)，递归保物理行/graph/插值及原档。原球、域、mean、失败/lost、恢复和每项未付义务不减；成功receipt的false flags不改，旧成功禁重。
 
-| 已成同对象环节 | 当前范围与必须保留的条件 |
-|---|---|
-| WPR/RRF/WPM 真反射 | KH=Ra−2hΠ及a=2H(0)保；target PFixRa与Xfr=S*D+Hnat不同，Ti/To不保Xfr。只有odd腰mean冗余，evenmean ODE/source/ν/cap/amp与所有ports全留。 |
-| WRA 完整同列Ei | 仅同δ*/p0/fullU/真实Xfr负窗；CG/finite/two-I/rank/state各一次。该列真root低input零，不删独立lowhead/source/第二reference，不外推fullcircle/roughbulk。 |
-| WIT/WIR 同W | 同G=IZ正配对逆和两窗插值；forward另界，whole strong(CD+LN)/2为符号。真hatP=WS P97 S^-1 W^-1、192/96补及WΔ1⊗Π全保，leading/error/所有行同右改。 |
-| WBN/WBP 双边坐标 | 旧Nperp与新B不同target；sourceA/B为G-skew真onto两窗poly。保vi comm、有序twoI、(h−1)ρi、W改动及真A^-1hatP A；只有同operator/window whole才可min。 |
-| WCS/WFI/WGB graph与finite边 | 原CYA高model一导loss≤2KCY，低96仅reference；真96列graph/dual有界、completeE紧后index−96。u=Mbarx给Id+K和96式VQGbar u=0；真Hphys才用差列(Hphys−MbarCQ)VQGbar。全部(q,z,κ)/rhs/ν反馈和unknown infinite mean/head/rest保，finite逆未付。 |
+上述已成反射/同列/双边坐标/graph的逐项原说明，另逐字保[最新完整检查点](notes/2026-11-16-completed-positive-coefficient-and-global-input-checkpoint.md)（9fccddef同H/open）；每项域/单位/mean与未付physical96/ν/无限head约束不减。
 
 [WPL实际leading](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)052bd8ed：完整反射给$c_o=-R_bc_i,b=a+\Omega$；真metric偶性及C2/近腰bump零给$\mathbf S(0)=0$。二阶$\mathbf Z(0)$含$\mathbf S_r$保。实际归一化primitive行为
 $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，

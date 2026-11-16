@@ -328,3 +328,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 06:05:41 UTC — WSP全矩阵非对称Schur/Parseval新配方
 
 完整校验ROW/COLUMN区别、4l导数/256、L128头尾及全两sign/mean、CX与Jwords/Kχ/receiver原序；新whole positive只读PCRA原界，数值0。依根规4仅把PCRA四处inline分隔符改为美元格式（f2b1e603），其actual/数学与成功锁不变；两READMEbf0fa1fd5026bfceade4372d27ca03ea9f2a1f8c仍同blob。
+
+## 2026-11-16 06:08:01 UTC — 完整positive/coefficient与全局输入检查点
+
+9fccddef下H9875B/open完整原文逐字另存40500B/90d977a3，原Git/blob/SHA及递归历史、每项未付门和成功锁全保；仅缩已成索引，H/open保持限内以续新WSP/WGS/WEJ/WCF。数学0、旧重跑0，两READMEd08cf773521372be2497976dfe20767507fedcda不变。
