@@ -3,80 +3,58 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：588624572adf172bababec622a9e9a1c9f76f830；2026-11-16 17:38:13 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
-- 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
-- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
-- 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
+- 最近已读规则提交：7c3561932134ab33090090d1ea5ef46f6edf37c7；2026-11-16 17:39:53 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环。不改他人历史，不存/回显令牌。
+- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。每次实际pull核两README、仅读变更并记提交，至少每小时。下次最迟17:50 UTC。
+- 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；log每轮≤5行，不写根LOG。
 - 库存34353361B/2546文件，无超限，3旧真实输入块；规则15来源见旧档。最近只读CI run43914883095/job133466239198；本地最近pull重试仍无环境，数学仅公开CI。
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-global-rr-lattice.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、916–917已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
+[最新完整H](notes/2026-11-16-frontier-before-global-rr-success.md)逐字保存本次压缩前全部精确条件、来源/run/hash与更早归档链。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、916–917已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者；deep续原WT真实联合像/唯一稳定方向，theta续四原低配对及完整p²边界，literature续原全局/ordinary和实际wild几何。当前R913属literature、R915属theta待成稿；完整结论即推，子题完接open。
 
-## 当前第一门：原映射、真RR与完整shadow
+## 第一门：原映射、完整RR与原shadow
 
-原Z全角色/Euler/period/端点不变，R858/859全整shadow与固定ell检测保最新完整H；固定ell不能跨到无穷p/ordinary。
+原Z的R804/806/811/814全部角色/Euler/period/端点/R831定向保；7993只检测canonical。R858/859整shadow与固定ell检测不跨无穷p/ordinary。原u、λ、vnew、整返回17及全部Artin组合保持。
 
-原F已由R909完整char0认证；原P尚无PASS。原u/λ/vnew/整数返回17和完整证书保；source沿完整H与各run：
-- 旧任务完整source/run/job/取消证书沿最新完整H及各原执行注；R889/R892旧P/F仍运行，无PASS。
+- 原F已由[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)完整char0认证：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed，ℓ1000003/N512；全1429行/QQ/原短支及0..6120原恒等式通过。实际F17、原微分/∞→O成立，R904附A给dF≥1080。完整hash5193c929…4831f；同进程消费自身PARI基。
+- 原P无PASS：R899P256 run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452；R906小素数512→1024 run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9。均保三嵌入/全部1226行/QQ/0..4284全char0门。旧N128仅3827bits不足恢复；不是不存在证明。
+- R889/R892旧双P/F还在运行；所有job/source见最新完整H。旧F-R905在QQ/短支后exit137而高基未完，被R909完整证书接续，不跨Sage/PARI坐标。
 
-- R899首N128三嵌入全行过但3827bits恢复不足；P256续轮run43901392214/job133418654415/source7ef59c0d运行，原全证书保，无PASS。
+R882原18源/36cusps/两端点/DS204不变。当前函数域RR未PASS：
+- 306 run43850251992及eta48 run43850252040于16:35取消；分别停可分gcd/U恢复、未到正规化。完整实测/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。
+- fricke24 run43860032290/job133274126644，tate24 run43865460680/job133292732291，tate19 run43866568746/job133296518979仍运行。
+- [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)保原模型，仅改已定位gcd：完整可分特化、线性子结式唯一U与两Phi复核；首run43912835484大表达式回转编译失败。修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行；仍保q4500/ξ170、两Atkin/全部四27+27+33+33/205行/at^m返回，无PASS。
 
-- R906同原P小素数512→1024续接run43903661921/job133426625444/source92c23e42运行，原全行/char0门保持，无PASS。
+[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)独立全局RR格已PASS：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce，ℓ29、120×205原完整QQ基，固定子式赋值0、整变换/全约化秩/同S除法全部过，用时2.549s。结果hash5a1d6494…eb663b、RRjets765f854d…2b0fb。原L(DS)完整全局基已付；**尚无degree48基坐标/闭点求值，不能冒R910四块接口PASS**。新整饱和算法严格终止，不是任意formal串。
 
+R880/883仍保全18×9、双轴、四除子/真A,C/全部返回；Norm含ell²点run43870209568已通过。consumer的F已付，仍需原P和完整函数域/闭点接口；无consumer请求/输出。可用2256(r+1)的已付成本，不能未经条件降度。
 
-- [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)已PASS：run43906594646/job133436977753/source135b50ff，ℓ1000003/N512；完整1429行、QQ及0..6120原恒等式全部过，实际F17/原微分/基点成立，dF≥1080。完整result hash5193c929…4831f；消费者用自身PARI基，未存系数。
+## 原端点的全局非零与ordinary门
 
-R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保，下列五RR未获PASS：
-- 306 run43850251992/job133240631228及eta48 run43850252040/job133240628667于16:35取消；分别卡可分性gcd/U恢复，未到正规化/RR。完整来源/hash见[实际卡点](notes/2026-11-16-original-rr-stopped-before-normalization.md)。
-- fricke24 run43860032290/job133274126644。
-- tate24 run43865460680/job133292732291。
-- tate19 run43866568746/job133296518979。
-degree24属37/全Atkin属19的完整RR和at^m回DS、原U/两Atkin/所有边界不变。直接Newton/Padé参数q8000/t330、q4500/ξ170见R882D/E，无RR PASS。
-R910已证完整可分特化/线性子结式唯一U恢复；新同tate19 request保全部四RR块与205行，首run43912835484在子结式回转编译失败；修复run43913500850/job133461459569/source9cba81c5运行，无RR PASS。源码/参数/R910§7保。
+R885/897保原finite/wild范数、统一格、全q/q⁴/4/Artin/旧副本与spDn=Ep,n cn（整群环unit）；整族除T恰所有tame底类零。原full-ray pull/单侧trace多h使γ分母无界，仅排该操作。
+R891同原anti-Kummer/全交域/17惯性及双点cup已付，c1非零⇒Selbal=E c1；usual core0，未付c1/ordinary或无穷p。
+R893在c1非零前提给同Heegner本原D=UZ°、Uunit及ccan=H Dfun D、Ccan=H Dfun²；阶s/2s。原ordinary/canonical底非零等价s0，s>0仍开，derived底不可复用未除T strict核。
+R900原Aq=−(q+1)²/q、根号奇偶/完整Möbius保；奇全新块compact BK零，单q可除q+1，奇总层只min估值。偶新块乘积整除仍开。惰性主理想Frob1，不能借旧长剩余次数。
+R901原端点/period/自然Kirillov格/CM比较及双norm核饱和全保：N12唯一除(σ1−1)(σ2−1)，scalar格阶不增；old/new O/(h)与全部尺度不删。
+[R908附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)保原loc_all N12=u1(σ2−1)a12、全部坐标与精确p阶。固定D独立p/n/q使所有prime-to-p tame raw在新增惰性位Dloc=0，故Da12fin=0及真实wild增广Da12sp=0；p∤D时确实零。完整R、Igusa/Drinfeld/任意p常数及(q−1)u(q+1)/q已付；非平凡wild、原全局/ordinary与s0仍开。新增位模p H0非零，不能据strict基域秩用Nakayama删全新类。
 
-[R917](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：原X0(867)全尖点线束deg204的204m+1个jet给整饱和像；任一已认证QQ模形式基经严格终止的逐ℓ饱和，准确恢复全部M2m/ℓ及原L(mDS)。固定子式赋值逐步下降，无高度猜测；原ℓ29/205项producer已请求，尚无回执；完整q格不冒degree48坐标/闭点/现有RR前端PASS。
+## 第二门：四原中央与全两位输入
 
-R880/883全18×9、双轴、四除子/真A,C/dF成本均保完整H；Norm含ell²点run43870209568已通过。consumer的F已付，仍需原P与RR PASS及全部依赖/source/hash；无请求/输出，PARI不可跨基消费。
+四S34/T72/U136/V66及CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
+R863/H22、R876/879和R884A–I完整低配对保旧H；Ĉp=(p+1)cint、DR3/Γ16/Fermat不删，U三纤维run43870426107不给中央零。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/sigma初值、Hurwitz顶值/cpFp法向和第六块低卷积齐。原P6P_(m−6)保α/五modp窗、消Z补极并给C³η[2]=−α^(1/p³)rω。共同L^p=V^pL，A加权质量H再Cartier零；四真实带权伴随全部保，不能用共同质量迫α非零。
+[R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)原[p]完整𝒯^p²=𝒯(pv−v^p²)S/Sc给全2p²−p−9窗p⁵误差；规范根除p²后保p³。原除点modp⁵恢复LT modp⁴和根modp²，全部V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)及2p−3位输入齐。**中央零⇒全部边界零仍未证**，不能新增伙伴零。
+R700固定D/全嵌入界给原非零trace vpB≤1+O(1/logp)；仍须同源中央零迫R699两位全行，不能只付modp或前五块。
 
-## 原端点的真实下降与非零门
+## 第三门：同P/R/S、实际有限类与forcing
 
-R885/897保原finite/wild范数、统一格、全部q/q⁴/4/Artin/旧副本及spDn=Ep,n cn，Ep,n整群环unit；整族除T恰所有tame底类零。附B原full-ray pull/单侧trace额外h使γ集分母无界，仅排该操作。完整规范见最新H和R897。
-R891同原anti-Kummer/全交域/17惯性及双点cup已付，κq(σ)=−c1(Frq)给c1≠0⇒Selbal=E c1；usual core0，未付c1/ordinary loc或无穷p。
-R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfun D、Ccan=H Dfun²，阶s/2s。原ordinary loc/canonical底非零等价s0；s>0仍开，derived底不可复用未除T strict核。
-[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)原惰性Aq=−(q+1)²/q、真根号奇偶及全部Möbius保。奇全新块compact BK零，单q返回可除(q+1)；奇总层只min估值，偶新块乘积整除仍开。惰性Frob主理想1，不能借旧长剩余次数。
-
-[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)全实际端点/局部period/自然Kirillov格/CM比较及双norm核饱和保完整H；N12唯一除(σ1−1)(σ2−1)，scalar格阶不增，old/new O/(h)与全部返回尺度不删。
-
-[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)保loc_all N12=u1(σ2−1)a12与全坐标/精确p阶。附A已证固定D独立p/n/q使每个prime-to-p tame原raw在新惰性位D·loc=0，故Da12fin=0及真实wild增广Da12sp=0；p∤D时确实零。完整R/Igusa/Drinfeld/常数及(q−1)u(q+1)/q已付；非平凡wild、原全局非零/ordinary及s0仍开。
-
-## 第二门：四原中央与同一低配对
-
-四原S34/T72/U136/V66及全部CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
-R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完整H。Ĉp=(p+1)cint、DR3/Γ16/Fermat项不删；U三纤维run43870426107成功不赋中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/sigma初值与§16–20完整保。原P6P_(m−6)保α/五modp窗并消Z补极，C³η[2]=−α^(1/p³)rω；原Hurwitz顶值/cpFp法向、第六块低卷积/κ5不删。共同算子L^p=V^pL，A加权质量H再Cartier零；原四带权伴随全保，未付四α非零。
-
-[R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
-
-## 第三门：同P/R/S与全实际有限类
-
-完整P134/十九角/charge40/10980/39carry/WD与TM/TJ保最新完整H。全p³才付同R的J/p²；ER首−11、E²全短段/E³同ξ、strict f0成本3不删。
-oR保全部finite/H¹，J3交V1=V4；j0 H¹0、j1/2≤3/14，A4不是整O_H−。零纤维Y²(Y−1)与ρ−一行重合，β1全联合值保。
-R872同R零类仅在14s≤3BD²+8D−26−12j可能；47/8窗迫oR非零而不排p³。K2零类在d<κ+s+2返V2+J3含t²，整[t]R由同o类固定。
-R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reader均保，未加M零或付o(K2)。
-R902/903的端点真单射与全部窗口/原帽见最新完整H；同源V2和两端秩不能直接相加。
-
-
-[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)原后继TG=EG−aF³唯一、两native尾保；六维Qf/3b+7测试齐。L>h时K∞及0..3b共同测试核零；§8真GRes的m4/m5全迹及同源反馈保非稳定左边。未认整K稳定。
-
-[R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)五/六长全重复根能量与真实3C成本齐；仅L>h时直接排三/四项后继链。同F/余因子unit的当前quartic强制L≤h，不适用该直接门；能量本身无此短窗要求。
-
-[R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
-
-[R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
-
-## 其余原门与同步
-
-R834/836/837全部预算与R840同Kcorr/Hcorr高前缀、R842指定WT[b0]保完整H。真实未闭窗2κ<T≤3κ；V0,V1,V2∈VT及第四短行不付E稳定/同E³G高尾。EG=FA只在A|C0时返旧排块。
-R895/896仅排同P/R/S的τ1 quartic低松弛p³来源；全精确条件见最新完整H/open。逐p最小D密度为p11mod12中12/47、全素数3/47，不改固定D旗标或全K1。O4/O6/O7及主目标仍开。
+原P134/十九角/charge40/10980/39carry/全WD/TM/TJ保；全p³才付同R的J/p²。ER首−11、E²全短段/E³同ξ、strict f0成本3不删。
+R872/888/890全部oR（含H¹）/合法因子提升不变/全TF-adj与Cech reader齐；47/8只迫oR非零，未排p³。K2零类在d<κ+s+2返V2+J3含t²，整[t]R由同o固定。退化Y²(Y−1)与ρ−重合一行；不得把A4换成整O_H−。
+R902/903的端点单射保原全部窗口/纯charge帽；同源V2和两端秩不能直接相加。
+[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)真实TG=EG−aF³唯一，两native尾/六维Qf/全原反馈保。§8的m4/m5是实Jacobian迹，非稳定Λ(Qf(T)G)左边不能删。
+[R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)五/六真长行给13(T−vG)≤27κ+312b、16(T−vG)≤27κ+384b，全重复/19角/3C成本。直接短链门需L>h，与同F且余因子unit的当前quartic L≤h互斥；能量界本身不需L>h。
+[R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)在T−h≤L<T（含L≤h），先Qf(T)合成入全零纤维才令T=E。上述五/六反门给K∞截止8/9步，9dimK≤8nT+d∞或10dimK≤9nT+d∞，d∞≤6；不判指定forcing。
+[R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)仅在f=λY²(Y−1)、1≤ordF(t,0)≤2，六真实系数[Y^0..5]F³至多一个恒零，故K∞≤1。唯一Bn+c(t)Yn以完整19角Pn·k[t]≤Mn及同T前缀充要判定；εF0/1代入R914，原Λ缩到一条实际GRes仍未判非零。
+R834/836/837预算、R840同Kcorr/Hcorr高前缀与R842指定WT[b0]继续。硬窗2κ<T≤3κ；已付子格不能代整WD或自动付第三长。R895/896仅排τ1 quartic低松弛来源，密度p11mod12中12/47、全素数3/47，不改固定D旗标。O4/O6/O7及主目标仍开。

@@ -1,6 +1,6 @@
 # R917 — 原全局 RR 格的有限 q-jet 饱和与完整模 p 基
 
-日期：2026-11-16。**状态：下列原整格等式、严格终止的饱和算法和完整有限域 RR 基构造已证明。尚未取得新算法的公开运行回执；原函数域坐标、闭点求值和 shadow 消费仍须完成。**
+日期：2026-11-16。**状态：下列原整格等式、严格终止的饱和算法和完整有限域 RR 基构造已证明。原ℓ=29的完整全局格已通过公开运行（§8）；原函数域坐标、闭点求值和 shadow 消费仍须完成。**
 
 本篇直接使用 R892 已固定的完整有理模形式空间。有限 q 串仅作这个已知全局空间的忠实坐标；通过整格饱和后，它给出 R882 同一个全局 RR 空间的全部约化截面。不能把一组未经全局构造器认证的形式串代入下文。
 
@@ -162,9 +162,42 @@ $$
 
 ## 7. 实现与依据
 
-公开 producer `scripts/produce-r917-original-global-rr-q-lattice.py` 只消费 R892 的同一完整 PARI 构造器，记录实际全部矩阵检查的结果及 SHA-256，不写系数输出文件。参数为 `--prime 29 --q-precision 205`，请求及独立 workflow 已提交。数学执行仍仅在本公开仓库 Actions；尚无本条新运行结果。
+公开 producer `scripts/produce-r917-original-global-rr-q-lattice.py` 只消费 R892 的同一完整 PARI 构造器，记录实际全部矩阵检查的结果及 SHA-256，不写系数输出文件。参数为 `--prime 29 --q-precision 205`，请求及独立 workflow 已提交。数学执行仍仅在本公开仓库 Actions；实际完整结果见§8。
 
 - [R882 §6、附录B](R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原好模型、全部 cusp、$D_S$ 与同 $S$ 的真实 RR 身份。
 - [R892](R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)：完整有理空间、实际乘积基认证与同一对象的扩精度规则。
 - The Stacks Project, [Degrees on curves, §33.44](https://stacks.math.columbia.edu/tag/0AYQ)：截面、零除子与次数；本篇的有限 jet 饱和及终止论证已逐步给出。
 - SageMath 官方 [矩阵接口](https://doc.sagemath.org/html/en/reference/matrices/sage/matrix/matrix2.html)：实现中使用的左核和基矩阵约定。执行仍固定原 Sage 10.6 镜像，软件接口不替代(7)或(13)的证明。
+
+## 8. 原 ℓ=29 的实际完整回执
+
+**已证明（同一完整有理构造器与公开精确矩阵证书）。**
+源提交 4519983a157b9d4ac2049b47cd8cb01c8bf478ce，
+[run43919854829](https://github.com/Rogerhu12/math-research-public/actions/runs/43919854829)、
+job133483895189，2026-11-16 17:35:33 UTC 输出完整成功结果。
+参数为 --prime 29 --q-precision 205，Sage 10.6、PARI 2.17.1，
+固定 seed 20261116 与原 pinned image。数学部分用时 2.549216691 秒。
+
+同一 PARI 完整120维空间给全部120×205个有理 jet。
+逐行整化后的固定120阶子式的29进赋值已经为0，
+所以本次不需要任何非平凡饱和迭代。
+完整有理变换、全部分母为29单位、模29全秩120均实际通过。
+再除以同一个常数一的原 S，全部205行读数仍秩120。
+结合§2–5，这准确给原全局 L(D_S) 的完整120维基，
+包括全36 cusp 的极限制。
+
+本次只记录来源、参数、结论和哈希，不保存可重算矩阵：
+- 完整结果 SHA-256：5a1d6494928e8f8d85c89bfa5035c3c57f3f3baae6728307d20250ddc9eb663b。
+- 原完整 RR jets：765f854dc28c6811f37ee5420aa03195076d1efaf9afda3c239e252eee62b0fb。
+- 原 QQ 输入和饱和后 QQ 行相同：98123e9a36a421b3075582c4b983fe93c1a1cf157c6a0b727ef0a6ff2b1456ae。
+- 完整约化模形式行：a26fddbf12e700af0bb4d2ceb67adb50a49ae926b704363bda766b97c1ed6e20。
+- 原有理基变换：ca0308f3797086a80dcc0102fc059a085518788ca97fa5cc3f0617ac284beae6。
+- 原 S 的完整205项：fe2aa6ed93e81fac1bc2c26b7057680386705c77b63f208ee4c4bc5092a48fdb。
+- producer：241fa6848b7ac54413a8be1ac6e8f8d058648a741f2fd92841535666235f8f94。
+- 原 PARI helper：83b74f32b54025ad3f194a94318312a6710bc493929c3461fc8371abc1209414。
+
+这是一份完整的全局空间及整格成功回执；本次没有计算 degree48
+函数域坐标、T/U/V 闭点读取、两个端点的全除子或 Frobenius shadow。
+现有 R910 的四角色函数域前端不因此被标记成功。
+同进程使用必须保本 producer 自己的原 PARI 对象、完整有理变换和 S；
+不能将这些行的序号移到另一个 Sage/PARI 基。
