@@ -12,14 +12,14 @@ The original sources are partitioned as 170, 918, 2295 and 2805, totaling 6188. 
 
 ## Frozen artifacts
 
-- [Main consumer](2026-11-15-r150-infinity-complete-prime127-qualification-789f.py): blob de2a51da91747e59fea0ecb58a5ac375f0db83da; 37459 bytes; SHA256 5b77b53126830cb376a52b7199680998aa070d1bb7d9ad00d517607cd218d104.
+- [Main consumer](2026-11-15-r150-infinity-complete-prime127-qualification-789f.py): blob 8a7b03650185d01a3800cf37d99e2058a4f8aa9f; 38730 bytes; SHA256 a7fdfb046c166ab5f70391db1b965232e9f891ab2a186f4541722058473c1730.
 - [Complete high worker](2026-11-15-r150-infinity-complete-prime127-high-native-789f.cpp): blob a161c4d415e73779f6478df1e774a2d392544a03; 6245 bytes; SHA256 450784102b43b178f93913167ca74e36ba8f420a8d0003f283bfeeecf4fd8727.
 - [Seven-plane header](2026-11-15-r150-original-f127-bitplane-789f.hpp): blob 796c0d4c790b3f2294bc203f057e78c0fb16d4ed; SHA256 03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3.
-- [Complete input manifest and executable step](2026-11-15-r150-infinity-prime127-qualification-inputs-789f.json): blob cc31f591e74486c8a74d5320a417989902da9d8c; SHA256 7525923ef999b7c5236977c6e1a68c705688f2185550f4432142fa0ce6e41428.
+- [Complete input manifest and executable step](2026-11-15-r150-infinity-prime127-qualification-inputs-789f.json): blob 65d048462670726bf392f5034e88d2c523560c56; SHA256 10e73d77be46b1027866a4b0ffeacffa88116f6f64da1ff1bed6a6d096c4de66.
 
 The manifest contains the exact CLI and all eleven auxiliary source entries: the actions helper, native source, header, original Q13 receipt and seven paid parent receipts. These small files are explicitly copied to the script directory. No sparse-checkout or preexisting script-directory copy is assumed. The Q13 receipt is in the r150-local-projection-session-789f directory, has 52012 bytes and SHA256 2057846f5adb75ed84f20a144f4cb2da436f9b1db5674612ac376f9b4b503248.
 
-Use the old run's work root. The initial limits are 600 seconds and 4096 MiB, with outer limit 660 seconds. The output is the infinity-complete-prime127-qualification-receipt.json file under the new infinity-complete-prime127-qualification work subdirectory. All native inputs, particulars and verification ledgers remain temporary.
+Use the old run's work root. The initial limits are 600 seconds and 4096 MiB, with outer limit 660 seconds. The output is the infinity-complete-prime127-qualification-receipt.json file under the new infinity-complete-prime127-qualification-v2 work subdirectory. All native inputs, particulars and verification ledgers remain temporary.
 
 Local exec was unavailable. The native worker and the eleventh-page logic were independently statically reviewed by normal_annihilator. The Python received a lexical delimiter check; no local AST, compilation or mathematical execution is claimed.
 
@@ -111,3 +111,12 @@ The qualification flag remains false until all gates pass. A budget stop exits 7
 ## 6. Downstream scope
 
 A successful result supplies the original natural-infinity good-reduction input for a separate complete affine prime-127 computation. No affine length, affine gcd or removal of the remaining target multiplier is prefilled here. Such conclusions require that independent computation and its full original source frame.
+
+
+## 7. Historical creator schema correction
+
+The first actual launch stopped after 9.181149115 seconds with a KeyError while reading the seventh prepared phase. Its raw receipt SHA256 is 84150e9e8ef999bda105f390646574956abd0d00210c825d11b9176933939b06. It had verified the original first-six prefix and all 1422290 coefficients already read, but had not run the complete high gate. It did not report a complete qualification.
+
+The seventh and eighth creators use twoMaps, with explicit sixthNormalTwo/Three and, at the eighth stage, seventhNormalTwo/Three and incomingSeventhNormalTwo/Three. Only the ninth and tenth creators use representativeMaps and the generic high dictionaries. The corrected reader names each historical key and retains every associated high coefficient. All original phase hashes are unchanged.
+
+The corrected invocation uses a new output directory and binding and recomputes the nine-second prefix. It does not relabel any prior verification ledger. The native worker is unchanged.

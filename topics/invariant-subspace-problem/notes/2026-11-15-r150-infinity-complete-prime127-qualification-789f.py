@@ -220,6 +220,7 @@ class Original:
         return ledger["productCoordinates"]
 
 def lowseries(maps,high=None):
+    require(not high or set(high).issubset(set(range(len(maps)))),"No high coefficient omitted by its order")
     L=[]
     for k,M in enumerate(maps):
         require(M.nrows()==155,"All original pure/one-normal coordinates")
@@ -428,9 +429,27 @@ def main():
             M=readM(d["M"],key+" complete low")
             require(sub(M,range(1088),range(587))==C,"Same full original constant block at "+key)
             imaps=[readM(x,key+" incoming") for x in d["incomingMaps"]]
-            rmaps=[readM(x,key+" representative") for x in d["twoMaps" if n==6 else "representativeMaps"]]
-            ih=high_decode(d.get("incomingHigh",{}),key+" incoming high")
-            rh=high_decode(d.get("representativeHigh",{}),key+" representative high")
+            map_key="twoMaps" if n<=8 else "representativeMaps"
+            rmaps=[readM(x,key+" representative") for x in d[map_key]]
+            require(len(imaps)==n+1 and len(rmaps)==n+1,"Every prepared coefficient is retained")
+            # The seventh/eighth creators predate the generic dictionary schema.
+            # Read each actual historical key, including its nonzero high parts.
+            if n==6:
+                ih={};rh={}
+            elif n==7:
+                ih={}
+                rh={6:{2:readM(d["sixthNormalTwo"],key+" representative order6 normal2"),
+                       3:readM(d["sixthNormalThree"],key+" representative order6 normal3")}}
+            elif n==8:
+                ih={7:{2:readM(d["incomingSeventhNormalTwo"],key+" incoming order7 normal2"),
+                       3:readM(d["incomingSeventhNormalThree"],key+" incoming order7 normal3")}}
+                rh={6:{2:readM(d["sixthNormalTwo"],key+" representative order6 normal2"),
+                       3:readM(d["sixthNormalThree"],key+" representative order6 normal3")},
+                    7:{2:readM(d["seventhNormalTwo"],key+" representative order7 normal2"),
+                       3:readM(d["seventhNormalThree"],key+" representative order7 normal3")}}
+            else:
+                ih=high_decode(d["incomingHigh"],key+" incoming high")
+                rh=high_decode(d["representativeHigh"],key+" representative high")
             incoming=lowseries(imaps,ih);reps=lowseries(rmaps,rh)
             require(zero(head(incoming)),"Every lower incoming map has zero original leading head")
             O.chain(key+"-all-incoming",incoming,n-1);O.chain(key+"-all-representatives",reps,n-1)
