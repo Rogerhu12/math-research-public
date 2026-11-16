@@ -32,11 +32,13 @@
 
 R409–438完整radial/B/两mean/帽/cuff、同C live-query/四Loewner、全部AA/CC/AC/self/反射/两RP1/原四门/整像held/全D均待真实全场支付；固定盒不随划分自动变窄，缺leaf不能全D。R437在真实radial/shared后冻结首次A/B（W=.01/H/全四marker/材料Phi/registration/归一化/phase）；[R452](notes/2026-11-16-actual202-ten450-first-closed-parameter-block-interface.md)为最终205的真实56cb/227e/205deadline明确接原首次五角色和独立held，原policy2198/fe932b50与work3356/8a03c854不变。A/B保存不等于共轭执行。
 
-R441/R448提供N/steps/两角及真实radial_mesh五因子，父全词/knots与准确有理插点一次RN64只作新初猜；新450全RHS/H/J/FD/fullDN/final/audit及同钟保持，容量/无机器新点只partial。R442全有限M须重付显式$v_*\le1/2,\varepsilon_M\le1/64$、新deep/全Mfar/全部$4M+2$与$(3M+2)\times M$响应，零高模仅初猜。[R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)已接动态M全部五几何/独立held，但原分支尚不认205/R456父；所有实际精化仍欠。
+R441/R448提供N/steps/两角及真实radial_mesh五因子，父全词/knots与准确有理插点一次RN64只作新初猜；新450全RHS/H/J/FD/fullDN/final/audit及同钟保持，容量/无机器新点只partial。R442全有限M须重付显式$v_*\le1/2,\varepsilon_M\le1/64$、新deep/全Mfar/全部$4M+2$与$(3M+2)\times M$响应，零高模仅初猜。[R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)已接动态M全部五几何/独立held，但原R451分支尚不认205/R456父，R457独立来源见下；所有实际精化仍欠。
 
-R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前helper默认未执行，跨$j$ $C^2$一致收敛是更强未付责任，不另加为README完成门。R459将读固定同$g$的真实全域相对metric误差及实际nested $t$查询；同一固定$\eta$反复pass不能证明误差下降，上界变小与实际sup严格下降必须区分，重叠只记未分辨，不加拒收门。R457当前独立205/M来源、R458/request207同job执行链尚在源码准备；只有真实新场/实际调用才计支付。
+R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前helper默认未执行，跨$j$ $C^2$一致收敛是更强未付责任，不另加为README完成门。R459将读固定同$g$的真实全域相对metric误差及实际nested $t$查询；同一固定$\eta$反复pass不能证明误差下降，上界变小与实际sup严格下降必须区分，重叠只记未分辨，不加拒收门。R457独立205/M来源已刊；R458/request207同job执行链尚在源码准备；只有真实新场/实际调用才计支付。
 
 [R456](results/R456-same-far-complete450-refinement-and-explicit-origin-composition.md)/[完整接口](notes/2026-11-16-current-C-same-far-complete450-refinement-interface.md)九独立源已全差异及正文核后发布：同job原complete112 far的完整C/root/候选误差/行矩阵及实际$\mu$词保持，除原far点外新grid全fresh，sampler5f14be90/driver9d76552d/owner1a1df513真接R448五因子与新450全H/J/FD/fullDN/final/audit。sample→owned configure共一个采样allowance，所有child裁同18900+2700原钟；后继沿真实original_config/result追到原far，不拿新采样冒原生产者。明确注册193/203/最终205三来源；post4770c16a/held4f1e8a9d绑定R452实际first procedure/A及存在时的完整B，缺B只记公共材料未付，不加几何门。单90KB/quiet/全部未付保持；无实际父/因子/run/精化接受，M来源和公共材料/误差实际执行仍待后继。
+
+**已证明（限来源组合及所列条件命题）**：[R457](results/R457-actual202-complete-M-source-and-first-material-registration.md)/[完整接口](notes/2026-11-16-actual202-complete-M-source-and-material-interface.md)六独立源已全diff/正文核后发布。owner23a3b218明确真205的56cb/227e/ee367及原deadline，也真认R456 1a1d/9d765/bf7d与b778/5f14/43ab父，并实际读原far/config/C/source全部来源。原395da M driver/18399 writer及全部数学源不改；其原callee已能读真bf7d，保R456配置未声明字段和父新mesh/角/steps，故不另复制driver。新M仍全deep/全Mfar/双mean/全$4M+2$/H/J/FD/fullDN/final/audit重算。post a177cd7a/held99634dcc真接R452 first112 A/B与全部构造词；首target按原112身份读，当前M准确目标另完整比较。material059d0df3只新增R437/R452首源，准确逆/六jet正文不变，默认未调用。单原钟/原门/90KB/quiet保持；没有实际M/父/运行/几何或公共材料查询接受。
 
 ## 4. 同一g闭合与真正九冻结450
 
