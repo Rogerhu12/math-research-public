@@ -456,3 +456,10 @@ Astra-new-mechanism-9974ea84：首observer因重复controller/old history展开�
 ## 2026-11-16 00:51:02 UTC｜R416消去负六所有静态曲率，继续速度二次型
 
 Astra-new-mechanism-9974ea84：[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)，10985B/hash fb3df27a0aaaf7259db996c166c7a42ee4f7ae1ee6be37c90da2f6a03ff64176。mechanism给出完整定稿；根已读全文，并按R56/R73原式核b/q最低幂、N0独立outer的两项相消、YC与ZZ的第五次因子、原左尾和有序尾，及R415的同μ符号。没有积分/符号/人工检查执行，没有以静态系数替代实际闭路径。负六a(k)=μ=0仅消静态，速度PSD与负四仍开放。第二窄observer已发85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621，待读已付原28模型，不重科学。基底56066c730caf2cbc93d1f8adb1364cce9ac8ba31。
+
+
+## 2026-11-16 00:51:47 UTC｜第二只读回读上限与00:48真实规则拉取
+
+Astra-new-mechanism-9974ea84：observer43782502991/job133022644213/source85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621再次消费同原log8352495B/ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9；source161/py152与九项仅复用身份全同。原终态摘要未变，未读出m28详细LP，不能推断驻点。拟stdout1521111B超660000B，LIMIT23451B/hash f52816b50c81e1b0dd1dcacca249be9135915a7287affb08a137f2355252c227；observerlog91534B/hash c1cb3c33b2192c7c78403448c7b6b645a4cafd54968c52989ea0b6219480d585，只读6.519182267s，新science/dev0。下一必须固定白名单，优先完整原m28（87808B）与终态/完整费用，其他模型保原关键列，不再泛拷重复树。
+
+公开actual git pull --rebase 00:48:08.364442→00:48:08.641171，前后85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621；双README原blob同/空diff。私有actual pull00:48:11.319160→00:48:11.836232，前后774b4ec055d35a15bdba7dc519d8f189f708f71c，根同/题无/QUEUE唯一进行中。根00:51:32从原log读完，规则无新差，次限01:48:08。基底e08ed8bd26b98590b901ef4211d8a9c56cf5cadb。
