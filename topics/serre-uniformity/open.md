@@ -99,3 +99,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R880原D/cusp有界输入已证明**：[完整方法](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)。旧R845十乘积与1111选择只新269 RHS；123原jets给146，同五纤维新962秩给D*完整418；20cusp+252旧jets另给DC完整418。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，Qf=(a*/v)^3/(uχ/τ²)^4及原ρ首项保全。新核未算，原t帧/五Lj128/144/height不预填；旧χ418与R877 A/B直接用。
+
+
+**R881原整theta lift与原cuspidal向量已证明**：[完整证明](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)，SHA256 6dbe407b02f62f2b64f803ab82182e877609235ae83f267913a52711bda36481。原有限theta的唯一整torus lift保六级标记，opposite tensor消去Weil扭曲，真Schrödinger模型给原Phi_r/e0、Weyl负号和det二次扭曲；原CM投影与Legendre条件未改。generic比较不等于cuspidal整格/原sigma系数泛函或q-normal；后者继续开放，未断言同h三单位或height。R880六源实际运输见[登记](notes/R880-original-pencil-jet-cusp-source-intake-complete.md)，后继只做新数学。
