@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R604 已证明（直接来源桥与完整旧表示逆）：** [证明](results/R604-direct-six-plan-source-bridge-and-exact-ancestry-inverse.md)及[完整接口](notes/2026-11-16-direct-R583-source-bridge-and-complete-ancestry-interface.md)给同HERE/六实参唯一调用原R583.prepare_sources，完整binding/原error/partial保，不以内部整stdout90K阻父传递；原最终两必要90000/70不改。仅明确R593→R589及旧R584当前scope解原R588，全部旧reports/marker地址/键序同body保，R600完整共享后精确逆，整body严格更短才选；无fit、速度或244未知子因修复宣称。R605252真实471来源/owner12000/19200接线进行，原数学/统计全保，R609 exact唯一；root接真实prefix锚与正分母的R514/R601消费缺口。
+
 **容量维护：两21旧域manifest，数学责任不变。** [完整来源/扫描边界/恢复说明](notes/2026-11-16-two-twenty-one-domain-manifest-retention.md)：固定570970对两575317B候选独立审计，14组449行具体引用和真实producer/原artifact reader逐项解释；只在最终真实pull后的完整新增引用、身份、容量与恰两删除合同通过后普通移出，warm/status/数组/全部siblings保。86739/B9def原必要单次恢复，原大正文及扫描输出不另存。R597249已main9e13243d、唯一POST200/run43914437629/compute133464707666，实际R598 geometry唯一，未返不造accepted450。
 
 **R597 已证明（完整来源与条件调用；request249实际R598待返）：** [完整证明](results/R597-current-saved-RHS-and-accurate-input-complete-caller.md)和[完整CLI/来源/必要接口](notes/2026-11-16-request249-actual-saved-RHS-and-accurate-input-complete-chain-interface.md)保原241全部642来源，真实704=324公开+380生成/15层；R599只修准确factory十词与launcher实际coast recipe两输入边界，R596同实际R575/同次R553记录及原退休接全normal/compare/recovery。finish在原Budget/interval内、资源停后仅未完整metadata；全原BVP/mesh/M/闭面/held/reach/relative metric/全t查询/必要/quiet保持，18900+2700和90000/70不改。R580/R601不在249，完整非零450/误差下降/条件常数都待实际作业；geometry后续R606251付真实R580/R601同对象一次finish，R598/R608分别唯一读者。

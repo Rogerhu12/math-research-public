@@ -139,3 +139,5 @@
 - [R597：实际 saved-RHS 缺陷与准确输入边界的完整当前调用链](results/R597-current-saved-RHS-and-accurate-input-complete-caller.md)（已证明：原642→真实704来源/15层，R599两输入边界与R596同次R553/R575/原退休、normal/compare/recovery全接；原门/钟/90000/70保持，actual249/R598数值待返）。
 
 - [两份二十一查询历史域manifest的当前读取关系与固定恢复](notes/2026-11-16-two-twenty-one-domain-manifest-retention.md)（容量维护：独立570970全scope审计，真实consumer仍保；最终pull新增引用/容量通过后仅两个575317B历史副本普通移出。附R597249正式发布/唯一派发实际身份，无新科学接受）。
+
+- [R604：原六实参直接来源桥与明确祖先关系的精确逆](results/R604-direct-six-plan-source-bridge-and-exact-ancestry-inverse.md)（已证明：原R583唯一直接prepare/全binding与error保、明确两旧scope报告/markers/键序精确逆并接R600，原最终90000/70不变；不解释未返244子因，实际caller待R605252）。

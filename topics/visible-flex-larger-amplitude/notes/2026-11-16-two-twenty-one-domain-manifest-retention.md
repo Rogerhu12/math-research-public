@@ -237,3 +237,18 @@ git show 570970ec37b734179216dbc688018bbe2252bb49:topics/visible-flex-larger-amp
 R597八件已普通推到main 9e13243d17d5fe736352a9a40b88d75f79b8d744，source commit fcb03198afa577efa9699924b9ac9ca517b179d9，publisher run43914267784/job133464085447。首次push遇NFF后立即实际pull--rebase，规则行冲突只按当前README同步记录解决；实际读过提交e03b9579422962889a7b004ab918ae1ac5e183e1，根README21bd547f56590b7f2dd279d0297efb289a9b2783与题README bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，17:04:20.4906507Z普通push成功。没有force或改写已推历史。
 
 唯一workflow_dispatch于17:04:27.5089427Z返回200，workflow id420380918，实际run43914437629，官方head为9e13243d17d5fe736352a9a40b88d75f79b8d744、compute job133464707666、事件workflow_dispatch。首查前1–6步骤成功，step7临时容量中；这不等于704来源或科学阶段已经完成。结果R598由geometry唯一终态读取，未知派发不自动重试。本记录只登记已发生的正式发布与官方run身份，不增加第二次派发。
+
+## 11. 实际最终核对与普通删除回执
+
+本次实际publisher为run43915008719/job133466671424，行政head bd683bce5b22f8c6f007950a36cd6c999e08cd50，source commit d7bf743371f5a6342e4c3605678609380c7ed910，最终completed/success。17:07:37真实pull读61e488e7f13f52b373dd6f5242434ba30924296f；首次push非快进后立即17:08:36真实pull--rebase，读8c4da60cf03fafcf1ae7468c689bb5ca36adf1d3。两个README在两次pull均未变，实际read commit已写HANDOFF；17:08:40.3509067Z普通推到main c691a3b698e041f6e26b7908fe1c7aad58718497。
+
+两次真正的完整新增变化核对分别为：
+
+| 轮 | 完整必要body bytes / SHA-256 | 具名精确逆后原完整行政对象 bytes / SHA-256 | 全部变化 | 当前源完整扫描 | 历史完整扫描 | 已有其它路径删除 |
+|---:|---|---|---:|---:|---:|---:|
+| 1 | 56597 / 95ed269c4fe7da9f2454efc26d15ccc0ed828fcb17b381a4adb5d8d098ff9ea6 | 78195 / 7293a2b596496b1068f663fda7ee02e92c3a4710b8bb24626025df20e2533a3c | 117 | 43 | 53 | 21 |
+| 2 | 57031 / 458b95b8612442bd4b78cd60fedfdd60fa1bd82cd56851c0ed7c180f4b261319 | 78916 / 97bc3e121f9b3b41a62754310b5698bc7ab87c191ad36d4b5bacac770d17ca50 | 118 | 44 | 53 | 21 |
+
+root已对两份实际必要体按其完整字节/SHA读取，并逐九具名族还原原顺序对象，原完整body identity逐字节相等。两轮current_source_matches、reviewed_generic_source_matches、unresolved_current_source_matches、unscanned_changes和errors均空，allowed=true；没有为通过而加泛源豁免。变化中的21个删除属于扫描基线以后其它既有提交，完整清单已在原报告中；不冒成本次新删21个。
+
+本次实际publication delta只有HANDOFF、log、open、results、本说明新增和§1两个D，精确7路径与声明集合相等。实际两D正是两个固定blob410eea80…/af4498dd…，各575317B/完整SHA均再核相等；其它全部文件禁止删除的合同通过。最终topic198531380B，较本次前199647216B实际净减1115836B，和独立原f7容量guard一致。行政workflow未进main，无force或历史改写。原完整必要体/日志/地址流不另存Git、Release或artifact；这里只保完整来源、参数、执行身份和本次维护结论。
