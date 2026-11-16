@@ -1,0 +1,69 @@
+{
+  "format": "r150-original-h25-two-part-minimal-recovery-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "historicalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+  "smallInputs": [
+    {
+      "key": "product",
+      "name": "original-product.json",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/continued__projector-free-original__projector-free-original-original-product.json",
+      "bytes": 815,
+      "sha256": "25203923b41f758f7e7ada1c0d13e9d23adde710bbe5d3594f64a8780309582e",
+      "gitBlob": "a4372d142544176516e6b575c30764b5468e93df"
+    },
+    {
+      "key": "recipe",
+      "name": "original.recipe",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/continued__inputs__projector-free-nine-original.recipe",
+      "bytes": 1468,
+      "sha256": "ffe0677a0d2cd14b1cae55fb8e8eb4b5074454e6a99b0def430b4b1fff3ae52a",
+      "gitBlob": "3786af73d8cd5afca3f17dd3d47606c56b7ddc62"
+    },
+    {
+      "key": "continuation",
+      "name": "continuation-receipt.json",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/projector-free-three-stage-continuation-receipt.json",
+      "bytes": 11009,
+      "sha256": "55e7c11e136df8bacfb78db6ed50a575faa1c7f91a7c721d89322ef599935dde",
+      "gitBlob": "040063c8bfd16cf491406ec47440170de76e6057"
+    },
+    {
+      "key": "preservation",
+      "name": "root-preservation-manifest.json",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/root-preservation-manifest.json",
+      "bytes": 27436,
+      "sha256": "5d87cc8a4fa623a122cafe3ee8053f47c068680fc1c72e3920a123b1d3097c7f",
+      "gitBlob": "ce0563fa14c4a5951eed14a012987e31890986fe"
+    },
+    {
+      "key": "model",
+      "name": "original-integer-h25-mod29791.txt",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc",
+      "gitBlob": "c240b309164a0dacc01bcd8bbdb73d347cb1e3f1"
+    }
+  ],
+  "sourceParts": [
+    {
+      "name": "h25-source.gz.part001",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/certificates/continued__projector-free-original__projector-free-original-primitive-source-mod29791.bin.gz.part001",
+      "bytes": 4500000,
+      "gitBlob": "c754b6cf49c2b3414dad643f8252a3c3900513ec",
+      "sha256": "36143404afbc54107dc193c2b83233eb98089539fca760c4fdac6d71fba94778"
+    },
+    {
+      "name": "h25-source.gz.part002",
+      "historicalPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/certificates/continued__projector-free-original__projector-free-original-primitive-source-mod29791.bin.gz.part002",
+      "bytes": 274246,
+      "gitBlob": "93b54d889ea401a63437088e4c309c2f135c7aa0",
+      "sha256": "c0c460c87ac4b06d04533981bb09b2804e861a8e503bafb3b0de8cb5a98df569"
+    }
+  ],
+  "decodedSource": {
+    "name": "original-h25-source-mod29791.bin",
+    "bytes": 4989406,
+    "sha256": "593643d82b259995194b0d89c9f46c8f042cd8d0c66bdfff0a00227689810cdd"
+  },
+  "storageScope": "Restore only these existing historical files into temporary execution storage. No arrays are committed or uploaded."
+}
