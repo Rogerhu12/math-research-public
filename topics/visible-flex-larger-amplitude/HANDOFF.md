@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 04:41:45 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cfd63e66a3d6090f86fa906b46dec8db808b04a6。
+规则同步记录：2026-11-16 04:42:57 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 808a0af935622d739270d4aab4b8090556fe8d2e。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -24,6 +24,7 @@
 |206/R455|43797755759 /e8e4be9f5cd3885399453b8945ea750b1a365ce4|exact；compute133070353121，04:27前6成功，7原八组科学运行|
 |207/R460|43801267782 /1e05442404d3867fc09589a523e594202efde7c0|exact；03:58:34Z/attempt1，compute133081849462，04:27前12成功，13连续E cover运行|
 |208/R467|43804793905 /9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5|exact；04:33:13Z，compute133092971995，04:36前9成功，10原完整112科学运行|
+|209/R469|43805615033 /cfd63e66a3d6090f86fa906b46dec8db808b04a6|geometry；04:41:34Z/attempt1，compute133095582437，04:42前6成功，7容量metadata运行|
 
 运行中不取大日志。唯一owner取终态必要日志，root不重复；197/200已发表不重取。新207内部205子合同不冒原205 run。运行标签只证执行状态，不补原数学门。
 
@@ -48,14 +49,14 @@ R454/20347abf与206/e8e4be9f真98原父重生完整39八组，原105+3=108pins�
 R465/f454d367证明19378/6f9200ea保实际RRᵀ及准确b、完整225矩×224方向预收缩；名义模型/一般缺陷导数/浮点残差分清，无逐词/速度/误差界。R470/958e9f99证明19507/6f0eae3d支付逐调用零shape/root/角行+零更新时split一阶flux消去，完整226×224/两mean保；RK另需入射块结构。有限中间量/负零安全实现待付，195计数不补条件。
 
 [R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)/[208接口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)已刊4d647c24，13源/recipe/两文；准确b→RN→全225×224/原fallback，零更新/双mean/root/noJ/末门保。208/9b05bfc5 request435e90b6/workflow101a84f5，原140pins/18000秒，真实运行见表。
-[R468](results/R468-same-job-incremental-mode-joint-refinement-and-display-composition.md)/[209接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)本次刊三源0dc290/96b969/acdea6、proof4f2b/interfacec691：真205→R456112→R464增M128，每场几何/held/新evidence/display。245已刊+15现场视图=260，单原18900+2700/90K/quiet；display仍保末900，误差降至原容差不加无限精化门。209两入口本次推：request36220/aaf74021、workflow96476/1c53b3c2；实际source/run待官方绑定。
+[R468](results/R468-same-job-incremental-mode-joint-refinement-and-display-composition.md)/[209接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)本次刊三源0dc290/96b969/acdea6、proof4f2b/interfacec691：真205→R456112→R464增M128，每场几何/held/新evidence/display。245已刊+15现场视图=260，单原18900+2700/90K/quiet；display仍保末900，误差降至原容差不加无限精化门。209/cfd63e66已刊：request36220/aaf74021、workflow96476/1c53b3c2；官方run见表。
 
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
 - exact：唯一206/207/208终态；R46613源/recipe/两文已刊4d647c24，208/9b05bfc5真实run已绑定。续R471/request210透明views组合，待amplitude最终窄源；不改208，原140pins/参数/18000/全门。
-- geometry：唯一203与待启209/R469终态；R468三源/两文已刊8e897f99，209两入口本次推，R469待官方run。并行仅metadata调查明确历史可再生raw及依赖，不自行删除。
+- geometry：唯一203/209终态；R468已刊8e897f99、209已刊cfd63e66，真实R469 run已绑定。并行仅metadata调查明确历史可再生raw及依赖，不自行删除。
 - amplitude：唯一204/205终态；R464本次刊。独立R471零flux最窄源码/证明只省被证安全的角方向循环；保原root/noJ、226×224/双mean、dense linear/RK/最终装配/末门，不碰208/209。未来request210/实际R472暂保留，未启动。
-- root：208已绑定300847f2；R468三源与两文、209两入口全部完整差异已读。R468已刊8e897f99，本次推209入口后立即绑定真实run；每pull核双README。
+- root：208已绑定300847f2；R468三源与两文、209两入口全部完整差异已读。R468已刊8e897f99、209已刊cfd63e66且真实run绑定；每pull核双README。
 
-最新官方topic tree dfd45860420f4195615573af1c13e30f45d50785（208/9b05bfc5）9224blobs/198353626B、9598entries未截断；余量1646374B，后继用透明源码视图且守200MB，不存raw。
+最新官方topic tree6110ed1e148be26d517c5cb99b42ebe90f3a3dab（209/cfd63e66）9230blobs/198551390B、9604entries未截断；余量1448610B，后继用透明源码视图，旧raw待依赖核，不存新raw。
