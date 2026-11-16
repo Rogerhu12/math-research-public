@@ -29,8 +29,8 @@
 ## 活跃执行、临时缓存与立即恢复
 
 - 旧run43756208221已结束，56步回执全推，旧tmp不再视活。新run43772109844真正重建三域weak/Q7且每phase全SHA相同；三critical最终谱均成功。E8原exit1确为最终回执超过90000B，旧失败保留；只读恢复raw9456·15349fa5/binding9e283e5d，原数学binding60419855及全部phase不变。
-- 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，当前列新增7步：三critical完成，余四广义Bockstein各300秒/4GiB正在消费。重新启动须按控制归档重建父缓存。
-- [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；E8-1全1834原Z第一系数像已实际为0，raw12201·66006800/outer19465·c40fc443/binding787000d2，15.503秒。仅I1为零，高层与Q不推出；其余四待实际。global197/root2/127 NF/GB/state/target25/primary及三critical原缓存仍临时。
+- 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，当前列新增7步：三critical及五广义Bockstein均已完成；七新增步全部exit0。重新启动须按控制归档重建父缓存。
+- [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；[E8-1完整I1零证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)核全4367运输/1834原Z，raw12201·66006800，15.503秒。其余四亦实际第一像0（25.088/24.892/15.174/21.903秒），全原p²进位已核；仅该零计算不排高层。结合独立Δ298的总系数结构另审。global197/root2/127全缓存及三critical均仍临时。
 - runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论全审后实际push，非快进立即rebase重推。
 
 ## 原边界：同一个w与完整返回继续
