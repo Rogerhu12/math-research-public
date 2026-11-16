@@ -1,0 +1,173 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43911869940",
+  "stepId": "original-low20-recover-three-inverse-prefix120",
+  "executionSourceCommit": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+  "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+  "argvTemplate": [
+    "--outer-seconds",
+    "180",
+    "--heartbeat-seconds",
+    "10",
+    "--stdout",
+    "{work}/original-low20-recover-three-inverse-prefix120.math.log",
+    "--heartbeats",
+    "{work}/original-low20-recover-three-inverse-prefix120.heartbeats.jsonl",
+    "--identity",
+    "{work}/original-low20-recover-three-inverse-prefix120.observed.json",
+    "--",
+    "python",
+    "{scripts}/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-789f.py",
+    "--exact-source",
+    "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--paid-model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--paid-model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--restored-out",
+    "{work}/original-low-commutator-twenty-exact-constants-v2",
+    "--out",
+    "{work}/original-low20-three-inverse-prefix-recovery",
+    "--seconds",
+    "120",
+    "--memory-mib",
+    "768"
+  ],
+  "pinnedSupportSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-789f.py",
+      "sha256": "b451d296c705bd9c95de7e35bffc6396a006bcb4d3d968f9b986ee4f11aeb071"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+    }
+  ],
+  "preexistingReceipt": null,
+  "receiptUnchangedFromBeforeStep": false,
+  "observerIdentity": {
+    "path": "original-low20-recover-three-inverse-prefix120.observed.json",
+    "bytes": 2502,
+    "sha256": "72277659aaa7f91b7782273c4b072d288b1ce30e53c600a47ee73dbddb2a8d92"
+  },
+  "observerExecution": {
+    "childPid": 2762,
+    "childReturnCode": 0,
+    "command": [
+      "python",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-789f.py",
+      "--exact-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "--model-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "--helper",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "--paid-model-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--paid-model-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-ten-parameter-module127-v2",
+      "--restored-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-low-commutator-twenty-exact-constants-v2",
+      "--out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-low20-three-inverse-prefix-recovery",
+      "--seconds",
+      "120",
+      "--memory-mib",
+      "768"
+    ],
+    "cwd": "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940",
+    "elapsedSeconds": 8.503995261,
+    "finishedAtUTC": "2026-11-16T16:50:56.014210+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 2,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 590,
+      "path": "original-low20-recover-three-inverse-prefix120.heartbeats.jsonl",
+      "sha256": "fc55908f619f3e3812934a3b76f2d9b1b6487ddd633252e3be23ea047322ae28"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 180.0,
+    "sampledPeakVmRSSKiB": 540,
+    "shellEquivalentExitCode": 0,
+    "source": {
+      "bytes": 15715,
+      "path": "2026-11-16-r150-original-low20-three-inverse-prefix-recovery-789f.py",
+      "sha256": "b451d296c705bd9c95de7e35bffc6396a006bcb4d3d968f9b986ee4f11aeb071"
+    },
+    "startedAtUTC": "2026-11-16T16:50:47.510034+00:00",
+    "status": "completed",
+    "stdout": {
+      "bytes": 11061,
+      "path": "original-low20-recover-three-inverse-prefix120.math.log",
+      "sha256": "67562985c79488c4236af42378e1217b082bc8f98a220e509f9d4cf78102f771"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 94144
+  },
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 8.630292232999999,
+  "fullTemporaryReceiptBytes": 9181,
+  "fullTemporaryReceiptSHA256": "381bbb483aa2209dddf47563ebc2de84bc945566e2ccf273cfce41ddee2f136f",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 16:50:47 UTC",
+      "beforeReadCommit": "5821df224531bd58dc58e51bae987fbf68eb9b56",
+      "originMainAfterPull": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 16:50:56 UTC",
+      "beforeReadCommit": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+      "originMainAfterPull": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "9f6486e44f5ef533461876217ad89ea135c5d965d72bf0e1ecbeb9760ae10494",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+  "summaryExcludesRecomputableArraysOnly": false
+}
