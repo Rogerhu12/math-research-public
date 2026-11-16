@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 R465/466完整self商维7/5，XH=H*+J4、XY=J4−J6；同Jaff满闭锥iff h∈span(y)。R468在同库/共同窗口下等价给有限actual C1截面，真高度脉冲/原R70前缀/WW^R、固定有限ε、所有桥与prototype×n基准、两次商校正和最终根全保。R467固定τ和真实incoming后只付指定保护芽，未付其它全s。
 
-R470原85[完整self观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)保失败精确15.69076311099991秒；补响应仍旧3维、y≠0，XH是原Ln2单侧积分。R471五门Δν=R5βν−Rνβ5（ν1,2,3,4,6）全0 iff比例，唯一c=1152β5/R5；八A_j是同cap真积分，真Af迫5h>3s²。R475四列minor D=4s(19s⁴−34hs²−h²)<0，iff E(z±)=0及Δ6/3/4=0；允许正v″密度族已有限付Δ6=0。R477真normal/四门局部开放、R481精确平端Euler~−3P7κ¹⁰U⁴（含P7端零）给每个允许cap任一尾窗五真compact控制满秩；可有限径向下降，无非零内部局部极小。**全局0/统一边界控制未付**。R479多cap必须各过五门且共用c、A7/s、A0/(h³s²)，原partial逐包向量不可正权平均。
+R470原85[完整self观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)保失败精确15.69076311099991秒；补响应仍旧3维、y≠0，XH是原Ln2单侧积分。R471五门Δν=R5βν−Rνβ5（ν1,2,3,4,6）全0 iff比例，唯一c=1152β5/R5；八A_j是同cap真积分，真Af迫5h>3s²。R475四列minor D=4s(19s⁴−34hs²−h²)<0，iff E(z±)=0及Δ6/3/4=0；允许正v″密度族已有限付Δ6=0。R477真normal/四门局部开放、R481精确平端Euler~−3P7κ¹⁰U⁴（含P7端零）给每个允许cap任一尾窗五真compact控制满秩；可有限径向下降，无非零内部局部极小。[R483](results/R483-complete-cap-compactification-and-global-end-shape-bounds.md)原Aj真远尾统一O(H⁵T^(−j−2))、凸v紧化保远左常数C及曲率测度；全类H↓3/5趋原非零critical，H≥10¹²时ReE≥H⁴/10，故零只能在3/5+ε*≤h/s²<10¹²。真零极限还须统一C³正性窗/五实际控制可逆才能有限提升。**闭包含0/实际全零未付**。R479多cap必须各过五门且共用c、A7/s、A0/(h³s²)，原partial逐包向量不可正权平均。
 
 R473/474给非零cap及从起点完整新库；R478付临界power完整非零和真实正近似。新[冻结ψ3严格观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)完整ImE∈[1.7333041007e−16,3.5283382088e−16]>0（精确界见note）、真tail≤1.6606845819e−34，故该冻结库h∉span(y)。R466只在同Jaff/canonical正时长/同端口/M0下给actual障碍；不排新cap/新机制，当前真五门全零继续。
 
