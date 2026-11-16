@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R97F：原97首失败与已保存前缀](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)（`6ab486cf993451e3d2de854cfda8f28be447ce43e8cce7b73faeff58e9607dc2`）：原43786583355/1的14门、40 mixed选择及完整root-domain逐字锁定；radial序列化失败未存，后续未执行，实际e/g比较0。全部三小件/旧身份/辅助失败/两真实pull/SCI及两preGit恢复见原证。仅这些精确已存量只读接续未存radial及后段，成功不重；未获stable/incoming/finite/非线性背景。
+
 - [R133 supplement: conditional original97 faithfulness and uniform natural-window inverses](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md) — RNI `d771cf43`: conditional on an actual uniform R97 strict gap, the original stable kernel/cokernel and FC completion vanish; exact finite smoothing formulas give separate natural-window bounds, with physical means/head/rest ports and continuity qualifications retained.
 
 - [R133 supplement: complete original-cutoff97 scalar recipe](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md) — R97 `543ebc38`: exact collected third logarithmic and derivative-potential differences, complete same-root scalar budget with all means/J/quotient terms retained; one new public scalar consumer remains to be evaluated.

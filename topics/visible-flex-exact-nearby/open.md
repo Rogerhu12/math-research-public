@@ -52,7 +52,7 @@ FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Pois
 
 [RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：普通高jet/全mean与η3/完整mixed4×5/左∂J普通L2。aux整体fail保，仅1/10000、1/2000成功；4501B与30595B只精确history临时恢复。物理λ/rootV取smallcase，β取large terminal，9/2非λ。完整原球/域/所有恢复身份保proof；无旧重算/fullincoming/finite授予。
 
-[R97原97完整标量配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38已证δ3五组和ΔRD九组精确先收项，h0/a*径向关联先区间再范数；全Srr/k1v²/mean/三导h/两参考/低1/4及正均值秩保。只同real |δ|≤1e−8、fixedη0/root；各旧disk/square不扩域。首43786583355/1 child1/14门已存40mixed/rootdomain；radial非有限未存、后续未执行，无e/g，非strict失败。只读精确prefix接未存后续，禁重旧成功；incoming/finite/负窗数值逆/真背景未付。
+[R97原97标量配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38先收δ3五组/ΔRD九组，h0/a*先关联区间；全Srr/k1v²/mean/h三导/两参考/低1/4/正均值秩保。仅real |δ|≤1e−8/fixedη0/root，不扩旧disk/square。[R97F首失败原证](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)6ab486cf锁43786583355/1 child1/14门、40mixed/rootdomain；radial未存，后段未执行，实际e/g=0。仅精确prefix只读续未存后段，禁重旧成功；incoming/finite/负窗数值逆/真背景未付。
 
 [RBT原根带宽与真实tail Schur](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c只对同explicit有限族原root：E2带宽384、R0带宽576，完整正meanrank输入≤384/输出≤192；J/L不假band。Jt>576时只在J/L之前以4(Jt−576)付IR0、ΠBV P_t精确0，得独立conditional L2 tail门。真正97..Jt−1双sign有限Schur含完整cross/J/meanrank必须另证；原97费用/新consumer不改。负自然窗仅全kernel0后SE定性转授，不复制L2常数；两physicalmeans/原head/独立ports/fullincoming/finite仍保，无新pass。
 

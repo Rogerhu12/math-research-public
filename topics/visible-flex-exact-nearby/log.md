@@ -382,3 +382,9 @@ fresh main f5b1a2ce5e7e2a94069b9c53461864dc3cd6cfcc两README同原blob。原唯�
 实际1新child、return1、14门全true，stage=complete_new_root_domain；40 mixed whole选择与完整root-domain新界已经保存，绝非0新数学。real_radial_intervals后encoded抛ArithmeticError(nonfinite diagnostic)，radial对象未保存，drift/quotient/correlated/operator/strict尚未执行，无e/g结果，不是充分严格门失败。原SCI counts为启动时置入的schema计划，不能把其中new_original_cutoff_comparisons=1解作实际已执行；实际完成性只由stage/门/已存字段确定。
 
 HANDOFF已精确限定接续：先定位修复，再从上述原SCI/hash只读恢复已保存输入、mixed和domain；禁止重新调用select_complete_mixed/scalar_domain、禁止重算旧root/fold/mean/Airy/producer。仅未保存的radial新量可按本记录重做，其后未执行部分继续；不存在跨其他失败源的通用resume授权。原18inputs/2history/2AST均实际过，全部aux原整体失败、两failedcase和root/terminal域保。原真实pull01:30:14.467200及01:30:19.239612→a24908ab，两README均空diff；full preGit33922/b67a26ef和execution preGit13009/d465565c保原回执。root未下载大job log/旧gzip、未执行数学；细节proof与修复仍待，原成功prefix冻结。
+
+### 2026-11-16 01:40:52 UTC — R97F首失败完整原证与精确只读接续边界
+
+fresh main 1abe47786bd30a2c5f58363ce283e783d797d2c0，两README blob不变。独读16f78df32cd66f6f0dde1f187a9eef18e1984e72 /21042B /6ab486cf993451e3d2de854cfda8f28be447ce43e8cce7b73faeff58e9607dc2全部原证，逐字比对全部64个mixed/domain球无遗漏，SCI canonical+LF30812/95aa4c8d和copied13521/e3a718d3精确复原；另读原job steps前8成功、第9失败、cleanup成功。原33922/b67a26ef及13009/d465565c preGit、三小件各hash、两native资格/aux整体失败等全保。COUNTS是计划schema，实际e/g=0，不能冒充分门false。
+
+已成mixed40与domain禁止再调用原选择函数；接续只读95aa4c8d和a8075eac原执行链，向外解码保存球，限未存radial和从未执行后段，仍不授任何实际stable逆。root独读python-flint0.9.0 arb.pyx、build_variables及FLINT v3.6.0 pow.c/arf.h，确认零中点有半径区间可走通用pow/log路径的代码机制；原失败日志未记录具体key，故不把源码定位冒作运行中间值观察。窄修复/恢复新包另审。01:40:11真实CLI git pull --rebase origin main再次因无executor失败，下一≤02:40:11，API核不冒真pull。
