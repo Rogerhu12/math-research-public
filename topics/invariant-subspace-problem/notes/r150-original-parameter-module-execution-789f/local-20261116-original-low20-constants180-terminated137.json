@@ -1,0 +1,55 @@
+{
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "diagnosticAfterTermination": {
+    "cgroupMemoryEventsAvailable": false,
+    "memAvailableKiB": 1219688,
+    "swapTotalKiB": 0
+  },
+  "execution": {
+    "elapsedSeconds": null,
+    "elapsedUnknownReason": "the process terminated before Python finally emitted its receipt",
+    "environment": "shared local managed executor",
+    "login": false,
+    "memoryMiB": 1024,
+    "observedProcessExitCode": 137,
+    "outerTimeoutSeconds": 240,
+    "reportedShellStatus": "Killed",
+    "requestedSeconds": 180,
+    "requestedThrough": "constants",
+    "shell": "bash",
+    "unifiedExecSessionId": 16280,
+    "workdir": "/tmp/r150-normal-789f-20261116-1040"
+  },
+  "executionId": "local-20261116-original-low20-constants180-terminated137",
+  "format": "r150-original-exact-low20-local-execution-identity-v1",
+  "inputParameters": {
+    "bytes": 4915,
+    "path": "2026-11-16-r150-original-low-commutator-twenty-exact-constants-inputs-789f.json",
+    "sha256": "a7741fc86337e9e00a9f169096ff3ff65ebe82910f1a709dfe2de1d543b3d2d2"
+  },
+  "lastObservedEvent": {
+    "elapsedSeconds": 1.1135593490034807,
+    "peakRssKiB": 75140,
+    "phase": "original-physical-model-rebuilt"
+  },
+  "outcome": {
+    "exactTwentySystemSolved": false,
+    "finalRawReceiptExists": false,
+    "manifestExists": false,
+    "mathematicalNegativeClaimed": false,
+    "oomCauseProven": false,
+    "registeredWholePhases": 0,
+    "status": "system-terminated"
+  },
+  "retention": "Original stdout and empty original output directory retained. No old file or mathematical guard relaxed. A new version must have independent source/format/output identity.",
+  "source": {
+    "bytes": 30312,
+    "path": "2026-11-16-r150-original-low-commutator-twenty-exact-constants-789f.py",
+    "sha256": "5d312e6b5255cb74e0f5a05753fd1f951b6a24f753d119ace2f52627696ae8cb"
+  },
+  "stdout": {
+    "bytes": 99,
+    "path": "original-low20-constants180.log",
+    "sha256": "bc403e71d38c5cdea94b9dcc9999db6bec9d5cc44c4f7ea06ba3655dc5f4185d"
+  }
+}

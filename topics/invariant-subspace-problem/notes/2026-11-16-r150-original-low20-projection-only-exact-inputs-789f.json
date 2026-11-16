@@ -1,0 +1,170 @@
+{
+  "arguments": [
+    "--exact-helper",
+    "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "--parent-out",
+    "{work}/original-low-commutator-twenty-exact-constants-v2",
+    "--out",
+    "{work}/original-low20-projection-only-exact"
+  ],
+  "author": "Astra-ISP-789f / normal_annihilator with /root; AI-assisted GPT-6 Astra Pro",
+  "continuation": "Same independent source/binding; all complete referenced stored/logical hashes rechecked. No empty retry. Parent original constants remains incomplete.",
+  "dataPolicy": "Only sources, parameters, proof and execution SHA identities in Git. All arrays/candidates/raw/observer data remain temporary.",
+  "exactHelper": {
+    "bytes": 33539,
+    "gitBlob": "541c14b36925e3cc94018edd8a17a6a765041f5d",
+    "path": "notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+  },
+  "format": "r150-original-low20-projection-only-exact-inputs-v1",
+  "newClaimsExcluded": [
+    "physical model reconstruction",
+    "new C or CZ products",
+    "new 55-coordinate products",
+    "new twelve-parameter products",
+    "high commutator deletion",
+    "Bell unit membership"
+  ],
+  "observer": {
+    "bytes": 5855,
+    "gitBlob": "f8aea7924d8becc10e50303a1c9b36f34d718014",
+    "path": "notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+    "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+  },
+  "optionalCandidateOnlyScope": "A completed-unverified-candidate exit0 is only a whole coordinate payload, not a mathematical positive result. Final verification is mandatory.",
+  "parameters": {
+    "coefficientRoot": 100,
+    "exactEProductCount": 1000,
+    "faithfulRationalProductCoordinates": 3000,
+    "faithfulRationalRows": 60,
+    "keptOrdinaryQuadraticPaths": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "kernelProjectionOriginalSourceColumns": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "literalAlphaIndexEntries": 165,
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "originalProjectedColumns": 50,
+    "originalProjectedRows": 20,
+    "prime": 127,
+    "selectedIdentityCoordinates": 400,
+    "selectedOriginalLowSeedIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12,
+      13,
+      14,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "parent": {
+    "binding": "672c57bb68079e9a49cff09e4a7fdadd7b89dc017927913ee0d35261a08d2522",
+    "bothOriginalEProducts": 242,
+    "determinant127": 44,
+    "dimension": 11,
+    "executionIdentityBlob": "28f8fd36e7d970efa921a58d72e89e3cce83a4fd",
+    "executionIdentityBytes": 9215,
+    "executionIdentityPath": "notes/r150-original-parameter-module-execution-789f/local-20261116-original-low20-v2-constants180-terminated137.json",
+    "executionIdentitySha256": "5f3325e89d9578f344802ad369a297f318fc5b36b2821a8cadfb25218aa3c700",
+    "faithfulRationalCoordinates": 726,
+    "inputSha256": "028c02fb11bb2acc1717b0c7d221edd91a0e1d6ab2fee34c4fe133d7207e89d5",
+    "label": "same original eleven quadratic sources",
+    "manifest": {
+      "bytes": 3418,
+      "path": "exact-low20-manifest.json",
+      "sha256": "c7b010a2c16e2896782eaaad74f977d00e640af6c8142b623474a015b948bf9b"
+    },
+    "originalConstantsStageCompleted": false,
+    "status": "system-terminated-after-three-verified-inverses",
+    "verifiedInverse": {
+      "bytes": 1473718,
+      "logicalBytes": 2975996,
+      "logicalSha256": "31bf451e26193eed026feba6bf00a71a9394a78ecce0a7571aea661380b76c05",
+      "path": "original-inverse-11-abb2c7a819cd.json.gz",
+      "sha256": "ec9d6e2758ae835f027fd0c3d8da26945814cb3599949057f96ac542b78300e6"
+    },
+    "verifiedInversePhase": "original-inverse-11-abb2c7a819cd"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "requiresSingular": false
+  },
+  "source": {
+    "bytes": 21178,
+    "gitBlob": "d20db6c713d362d56e8e59ab0c8bcdf846764728",
+    "path": "notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+    "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+  },
+  "sourceProof": "results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md",
+  "stages": [
+    {
+      "memoryMiB": 512,
+      "outerTimeoutSeconds": 120,
+      "seconds": 60,
+      "through": "projected"
+    },
+    {
+      "memoryMiB": 1024,
+      "outerTimeoutSeconds": 360,
+      "seconds": 300,
+      "through": "final"
+    }
+  ],
+  "status": "AST-only frozen; no arithmetic execution of this independent consumer",
+  "streaming": "JSON iterencode writes to GzipFile(filename=\"\",mtime=0), hashes logical chunks, fsyncs and registers only whole files. Final proof references the same candidate descriptor instead of duplicating its coordinates."
+}

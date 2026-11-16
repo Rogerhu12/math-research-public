@@ -1,0 +1,227 @@
+{
+  "author": "Astra-ISP-789f / normal_annihilator with /root; AI-assisted GPT-6 Astra Pro",
+  "binding": "672c57bb68079e9a49cff09e4a7fdadd7b89dc017927913ee0d35261a08d2522",
+  "executionId": "local-20261116-original-low20-v2-constants180-terminated137",
+  "format": "r150-original-exact-low20-local-execution-identity-v2",
+  "inputParameters": {
+    "bytes": 5740,
+    "path": "2026-11-16-r150-original-low-commutator-twenty-exact-constants-inputs-v2-789f.json",
+    "sha256": "e2551050b80de2c44dbae73410b1e077d67442c5dc1279fe0a75f9768c41be24"
+  },
+  "lastObservedEvent": {
+    "elapsedSeconds": 21.983058697005617,
+    "exactECoefficients": 225,
+    "peakRssKiB": 82824,
+    "phase": "original-all-fifteen-quadratic-source-identities"
+  },
+  "manifest": {
+    "bytes": 3418,
+    "path": "exact-low20-manifest.json",
+    "sha256": "c7b010a2c16e2896782eaaad74f977d00e640af6c8142b623474a015b948bf9b"
+  },
+  "observerExecution": {
+    "childPid": 4,
+    "childReturnCode": -9,
+    "command": [
+      "venv/bin/python",
+      "2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "--model-source",
+      "2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "--helper",
+      "2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "--paid-model-source",
+      "2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--paid-model-out",
+      "original-ten-parameter-module127-v2",
+      "--out",
+      "original-low-commutator-twenty-exact-constants-v2",
+      "--through",
+      "constants",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "1024"
+    ],
+    "cwd": "/tmp/r150-normal-789f-20261116-1040",
+    "elapsedSeconds": 25.513854554010322,
+    "finishedAtUTC": "2026-11-16T16:14:51.355109+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 4,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 1216,
+      "path": "original-low20-v2-constants180-heartbeats.jsonl",
+      "sha256": "b469b0217e05435c7d42faa70eeb986f7f0a8f3e3ac1f76a6dc878c2b62187df"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 240.0,
+    "sampledPeakVmRSSKiB": 75932,
+    "shellEquivalentExitCode": 137,
+    "source": {
+      "bytes": 33539,
+      "path": "2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+    },
+    "startedAtUTC": "2026-11-16T16:14:25.840692+00:00",
+    "status": "child-nonzero",
+    "stdout": {
+      "bytes": 1860,
+      "path": "original-low20-v2-constants180.log",
+      "sha256": "93f4135bd7f35827acd22a820e2bfea61856255dfe84c820452c7c7c3d028692"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 153892
+  },
+  "observerIdentity": {
+    "bytes": 1741,
+    "path": "original-low20-v2-constants180-observed.json",
+    "sha256": "d7430ce7e5e533771bc0c4cd0575a0fc82be15e2c13afc3db4ddc0eb242532e8"
+  },
+  "observerSource": {
+    "bytes": 5855,
+    "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+    "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+  },
+  "observerStdout": {
+    "bytes": 2958,
+    "path": "original-low20-v2-constants180-observer.log",
+    "sha256": "5dc1312e4d5675367e4b4bf5f324921cb6d9619263b0e62c6999d66588ed4bea"
+  },
+  "outcome": {
+    "allSixCompleteStoredAndLogicalSHARechecked": true,
+    "completeInverseEProductCount": 364,
+    "completeInverseFaithfulRationalCoordinateCount": 1092,
+    "completeVerifiedInverses": 3,
+    "exactTwentySystemSolved": false,
+    "finalPythonRawReceiptExists": false,
+    "mathematicalNegativeClaimed": false,
+    "newFullCubicProductsClaimed": false,
+    "oomCauseProven": false,
+    "originalConstantsStageComplete": false,
+    "outerDeadlineHit": false,
+    "status": "system-terminated-after-three-verified-inverses",
+    "unverifiedCandidateFiles": 3
+  },
+  "registeredWholePhaseDescriptors": [
+    {
+      "bothOriginalEInverseProductsVerified": true,
+      "candidateOnly": false,
+      "descriptor": {
+        "bytes": 449054,
+        "logicalBytes": 903340,
+        "logicalSha256": "cd56ffd2b657f39b3a4d23fe87fd131c12c6a65dbca7f3534d20db6c3aeea619",
+        "path": "original-inverse-05-76593af361b4.json.gz",
+        "sha256": "e538b1965de75be034810e89f3beaba2e8ae22d96abf9c642a48ffcde70f1029"
+      },
+      "determinant127": 44,
+      "dimension": 5,
+      "faithfulRationalCoordinateCount": 150,
+      "inputSha256": "d0da82b1c7d8190cc6dadfa38a7c7bec2d53e9c8f32ddc8a4626b2f01a8de5ca",
+      "label": "same original five-square block",
+      "originalEProductCount": 50,
+      "phase": "original-inverse-05-76593af361b4"
+    },
+    {
+      "bothOriginalEInverseProductsVerified": false,
+      "candidateOnly": true,
+      "descriptor": {
+        "bytes": 448917,
+        "logicalBytes": 903163,
+        "logicalSha256": "c8ab25e1b3e98c959d412f05ed57bc85f0da451256ad6d6006713689c2b965f1",
+        "path": "original-inverse-05-76593af361b4-candidate.json.gz",
+        "sha256": "1cd3730016e52468b15f21836f476ddfea37475dc4867b799d1703f97487ed07"
+      },
+      "determinant127": 44,
+      "dimension": 5,
+      "faithfulRationalCoordinateCount": 0,
+      "inputSha256": "d0da82b1c7d8190cc6dadfa38a7c7bec2d53e9c8f32ddc8a4626b2f01a8de5ca",
+      "label": "same original five-square block",
+      "originalEProductCount": 0,
+      "phase": "original-inverse-05-76593af361b4-candidate"
+    },
+    {
+      "bothOriginalEInverseProductsVerified": true,
+      "candidateOnly": false,
+      "descriptor": {
+        "bytes": 81221,
+        "logicalBytes": 186144,
+        "logicalSha256": "e3ba7aa0ab6c8d3ad3c5e114839f6f266dfbb58effb6dd214d45e1aaa72d5cdc",
+        "path": "original-inverse-06-75b6be84bce4.json.gz",
+        "sha256": "8686bcc92319a8b1e0f0f4334062ef7692594cc696b0ef6fae674e4a76adb944"
+      },
+      "determinant127": 54,
+      "dimension": 6,
+      "faithfulRationalCoordinateCount": 216,
+      "inputSha256": "40ec1d886018771e2f3db9377eb247a50ff07478c3cd6c9eabab1e423953208c",
+      "label": "same original six Bell columns",
+      "originalEProductCount": 72,
+      "phase": "original-inverse-06-75b6be84bce4"
+    },
+    {
+      "bothOriginalEInverseProductsVerified": false,
+      "candidateOnly": true,
+      "descriptor": {
+        "bytes": 81082,
+        "logicalBytes": 185967,
+        "logicalSha256": "3909f378c9c6c12c5f89cd8e1e17412f23a71675bf42728eb40a7fb155c9be75",
+        "path": "original-inverse-06-75b6be84bce4-candidate.json.gz",
+        "sha256": "8b4c79e68f6c1691ac1f600e2ade9ad6d8149bfefb3d78ff0d6a76d98fe058fb"
+      },
+      "determinant127": 54,
+      "dimension": 6,
+      "faithfulRationalCoordinateCount": 0,
+      "inputSha256": "40ec1d886018771e2f3db9377eb247a50ff07478c3cd6c9eabab1e423953208c",
+      "label": "same original six Bell columns",
+      "originalEProductCount": 0,
+      "phase": "original-inverse-06-75b6be84bce4-candidate"
+    },
+    {
+      "bothOriginalEInverseProductsVerified": true,
+      "candidateOnly": false,
+      "descriptor": {
+        "bytes": 1473718,
+        "logicalBytes": 2975996,
+        "logicalSha256": "31bf451e26193eed026feba6bf00a71a9394a78ecce0a7571aea661380b76c05",
+        "path": "original-inverse-11-abb2c7a819cd.json.gz",
+        "sha256": "ec9d6e2758ae835f027fd0c3d8da26945814cb3599949057f96ac542b78300e6"
+      },
+      "determinant127": 44,
+      "dimension": 11,
+      "faithfulRationalCoordinateCount": 726,
+      "inputSha256": "028c02fb11bb2acc1717b0c7d221edd91a0e1d6ab2fee34c4fe133d7207e89d5",
+      "label": "same original eleven quadratic sources",
+      "originalEProductCount": 242,
+      "phase": "original-inverse-11-abb2c7a819cd"
+    },
+    {
+      "bothOriginalEInverseProductsVerified": false,
+      "candidateOnly": true,
+      "descriptor": {
+        "bytes": 1473579,
+        "logicalBytes": 2975818,
+        "logicalSha256": "4906c6aca9ddf8b6f5cf96e87fefabeae0c9cc027db477cea4cf060dc7d0dbaa",
+        "path": "original-inverse-11-abb2c7a819cd-candidate.json.gz",
+        "sha256": "e255565835b771d523afbb91421a3eebe6c9fc4fdde6268ca6aeff3093dbb7cc"
+      },
+      "determinant127": 44,
+      "dimension": 11,
+      "faithfulRationalCoordinateCount": 0,
+      "inputSha256": "028c02fb11bb2acc1717b0c7d221edd91a0e1d6ab2fee34c4fe133d7207e89d5",
+      "label": "same original eleven quadratic sources",
+      "originalEProductCount": 0,
+      "phase": "original-inverse-11-abb2c7a819cd-candidate"
+    }
+  ],
+  "retention": "All original files retained without modification; no arrays or raw are committed. A later consumer may read only separately verified pinned inverse phases, never claim the incomplete constants stage.",
+  "source": {
+    "bytes": 33539,
+    "path": "2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+  },
+  "unifiedExecSessionId": 95524
+}

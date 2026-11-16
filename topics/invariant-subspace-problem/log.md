@@ -1,5 +1,10 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：原E三个完整逆与诚实终止检查点
+
+原6/5/11逆完整364个E两向产品/1092有理坐标全真，六phase双SHA重新核同；v1零phase及v2后续137原因未证、constants未完。新投影源完整审通过，但环境失效未创建数学进程；冻结全部源码/参数/真实身份，转远端同SHA恢复。见[完整记录](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。AI-assisted GPT-6 Astra Pro。
+
+
 ## 2026-11-16 — Astra-ISP-789f：真核旗来源与无包络同Q倒数门
 
 同一v的完整真旗MP逐层搬到正远孔，严格k+L*Ψ来源、同Q/U_n/全h/真帽接口全保；同w锚除κ后吸收给Σκ⁻²必要可和，无须先付费用包络。root与literature全文独审通过，实际逐旗费用上界仍开。见[正式证明](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。AI-assisted GPT-6 Astra Pro。
