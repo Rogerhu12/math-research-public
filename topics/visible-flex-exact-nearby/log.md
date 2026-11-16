@@ -324,3 +324,13 @@ ae9f17e6a114d6e19d35b8129e88b4bb7b6ce47c两README同原blob。白名单已独推
 dddfcfee07f1e035a1277bbce25a5c837cdaa13b两README同原blob。索引b748ad279f2b44892b10eeb42cce86e2a8980888/3485/d97242584628c87977ef8a4697bb9cade763fe4bdf0aaf55497f9f5c4803731a保存498ecef3fb7dfa4b966bea62cf962603f9a968ce之open五条完整RD/RBJ/RDA/RBD/RBG原段及H原段，仅结果链接改../results/。当前open/H缩已成索引以保小文件界，所有whole e/全输入/全mean/βn/右序/低1/4/真实背景及incoming/finite未付义务明确保。
 
 前一R46删除498ecef3为attempt2：首次main已推进，立即调用真实CLI git pull --rebase origin main仍No usable execution environment；随后保新远端ae9f17e6a114d6e19d35b8129e88b4bb7b6ce47c并重新核两README/fresh目标SHA和size后普通推成功。未force、未重算，精确恢复仍5423c8a7同白名单path/551730/f86e1cd3。
+
+## 2026-11-16 00:55:12 UTC：RBO完整输入频率分阶独推
+
+bf89891c487f143317ade7f6b99f665b7b997957两README同原blob。proof6d6a8f44edaf99ae4613c53addcd3682a86df82e/18718/a45e0264875c1a5cded48c6f108004f3c21b6ade73247a7b02231d9b26a30f50根全文已读。逐RBG36–40/RD17–26核BV·DV三个有序乘积与R0全部八行；16与256及N^-4/3、-10/3、-2、-4、-6全由z=j^-2=16N^-2，物理N与Airy argument scale/根λ区分。
+
+唯一新mean消项是ΠD_c0D_DN^-10/3PH=0；ΠM_E0及乘bop正秩、两physicalmeans/输入ports/低IR0的1/4全保。有限Σ按物理4ℓ、全Wiener而非pointwise sup；1−ℓ²z与1+zh分别守gap。hrrr全Leibniz只进c1，d10非零无z主项保，未从两个upper相减。
+
+根复读A完整原势域/两column/root shear及A4–20，Ai′的>1/4只属ratio，正文明确以Γ界导Ai′绝对>4/21；Ai0>1/3沿原P20、upper5/9，给35/57、7/19和完整含λ−/η+的g−。实δ才positivity，复方框只作upper域；未扩大ν。另已亲取原实际shear5e7669f1990e1c4e9e3769afe3641ef6d84b82a3/16120/fabe59eed2174e92352f71b8a0e9d80ce8c127580806f5dab917345b05337f57与potential9b8741b1508d7c3754d76f884d48a6af14d1194f/27645/d4c48d613cad95a3ad67ccb965acc2e76dc4e7786634a6234850667607ea08e9供后续原字库存，成功不重。最小case Vroot不可跨作terminal全区间V；β仍原最大case M276/L1/2000。
+
+上一索引e08ed8bd为attempt2：首次main变后立即真实CLI pull --rebase仍无executor，保新远端dddfcfee07f1e035a1277bbce25a5c837cdaa13b重核两README后成功，未force。解析结论不代whole e数值门，继续唯一新root97消费。

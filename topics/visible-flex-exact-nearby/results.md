@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RBO：真正根部误差的精确输入频率分阶](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)：z=16N^-2给完整E2及八行R0，hrrr仅N^-10/3而无z曲率不删；正meanrank保，仅纯对角子项ΠD_c0PH精确0。全J低中间频仍1/4；完整Wiener pairing、原非零βn和有理主对角下界保，无新数值/stablepass/incoming/finite声明。
+
 - [R133/R46容量白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)：唯一551730B已成派生报告968ee851/f86e1cd3的原producer、完整成功下游及严格checker证据齐，恢复5423c8a7同path。仅先登记白名单，fresh SHA/size守门后另普通删除；不删canonical/失败/native，不重成功。
 
 - [R133/RBG：真正根b系数及其导数的共同径向抵消](results/R133-supplement-exact-genuine-root-b-jets-with-common-radial-cancellation.md)：以真实四阶fold差及完整邻域forcing消公共K4/η3/Mrr，精确得b1V=E0+Δ0、Db1V=E1+A0Δ0+Δ1/3。有限频率hrrr和无z曲率项完整保留；BV/H按原右序整件替RD，不重复CalB，正meanrank保未投影界。无新数值或stable/incoming/finite逆声明。

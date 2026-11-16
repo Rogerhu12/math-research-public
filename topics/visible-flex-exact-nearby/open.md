@@ -46,6 +46,8 @@ FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Pois
 
 [已成根jet与算子完整索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD34eec24f/RBJa19878f7/RDA8d2570c7/RBD5d7c045f/RBG157795fd五原段。真实邻域递推给Da0/Da1/b1/Db1；genuine BV/H整件替，不二加CalB，公共K4/η3/Mrr先消，有限频率hrrr和无z曲率仍保。正meanrank用未投影e_amp、非零βn两profile、输入右序、全J/低中间频1/4及全δ/全角域不变。必须付完整输入/乘子/潜势数值并验证whole e<g−才可原kernel0与SE自然负窗onto；尚无stablepass/腰incoming/finite/非线性。
 
+[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264把Δ0=z c0、Δ1=d10+z c1精确分开，z=j^-2=16N^-2；BV/H/DV全乘积使hrrr仅在N^-10/3，无z曲率留h0。完整八行R0和正ΠM_E0秩保，仅纯输入对角ΠD_c0PH=0；IR0仍r0/4。Wiener完整finite pairing/物理4ℓ及1+zh另gap保。真βn保，Ai有理A*=35/57、D*=7/19，g−=17/19(1/3+4λ−/(21η+))仅real族；原全ν/δ输入、whole e严格门/同自然负窗、incoming/finite仍未付。
+
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
