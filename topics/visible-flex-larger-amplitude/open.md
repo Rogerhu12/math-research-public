@@ -37,33 +37,15 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
-**R601同一实际prefix的world C1缺陷完整组件已刊**：[完整证明](results/R601-actual-analytic-projection-and-saved-RHS-world-C1-defect.md)、[真实对象/原finish接口](notes/2026-11-16-actual-analytic-saved-RHS-world-C1-interface.md)。R580全带/全部tail与alias导数，加真实world frame连接D0；R596全系数η乘完整角权，给同Q/同准确scalar的r与r_phi。只能同R575/R553对象、原完整cover/ledger/退休全一致；不填外常数，不重算角网/DFT/field，原stop后元数据恢复不重试。接已有R514的|τ|≤|r_phi|/(Aρ)，实际Aρ/锚/全径向和闭面各片仍未付；不重证R519、不加新接受门。新源码未执行，后继真实caller必须明示接管两件原finish而非重复调用。
+本次整理前§1.3的全部逐字内容及完整既有链接保留于[c12ef290固定open](https://github.com/Rogerhu12/math-research-public/blob/c12ef2907fc74fb9dab7f98545117df3ebfc4dd5/topics/visible-flex-larger-amplitude/open.md)，同头[完整HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/c12ef2907fc74fb9dab7f98545117df3ebfc4dd5/topics/visible-flex-larger-amplitude/HANDOFF.md)保所有run/源/责任，继续其f370/ca3ad/27bc固定旧链。没有撤销任何失败、未返、未访、资源或几何责任；原§1.1/1.2及§2–6全字保留。
 
-**R585实际244完整终态已刊**：[来源联合guard停止、487638超限和科学未起](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)。真实R584第409行合取未成立、外prepare2；子R583退出码/两CPP实际前缀/哪个子条件假均未返，不假定70或某异常。原454source前缀已过，当前十view全未起，env残留是父248；source487638/fa361f56未返→1663/d26b12f6 honest70同字，science reader ENOENT，全数值未起，raw未删/quiet未推。R604按已读真实契约处理工程断口，R600只改同对象具名元数据关系；都不借新运行补写本次未知。
+当前关键后继：[R568实际238](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)已真实全采样，但bare-float准确串与旧recipe名两入口错、453/450未起；[R599](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)只修这两来源边界，R597249负责全实际caller。R596全N准确finite残差已刊；[R601](results/R601-actual-analytic-projection-and-saved-RHS-world-C1-defect.md)同实际R580/R596给完整world C1条件组合，actual Aρ/锚/径向路径仍未付，真实后继必须接管原finish一次。
 
-**R599准确来源边界完整组件已刊**：[整数RN-even十词与真实coast配方证明](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)、[完整接口](notes/2026-11-16-accurate-ten-word-and-actual-coast-recipe-interface.md)。只将已绑定准确工厂十参数串按准确有理语义形成原80B比较右侧，原H/state/RHS/J不改；正负零/非法/非有限/溢出明确。closed从实际launcher.recipe.file严格同namespace原coast路径读，再原全bytes/SHA/schema/clock/accepted/quiet条件；不建假旧文件。R597249负责完整实际caller及来源级联，本库未执行不冒已经修好运行，不改238/241/247。R596+599均不添加原科学接受门。
+[R566实际237](results/R566-actual237-source-and-science-readback-overflow.md)、[R574实际240](results/R574-actual240-source-and-science-readback-overflow.md)原准备true与双必要超限分开，内部未返不借旧值；[R585实际244](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)只是联合来源guard失败、子项未知/十view未起/科学未起，487638整必要70，R604不猜子首错。227已终态由amplitude完整R539归责，现有235/245/242/248/246/241/247与queued243各由HANDOFF唯一读者继续，不重派发或读running日志。
 
-**R574实际240已完整刊**：[原准备完成、双必要超限及未返内部科学](results/R574-actual240-source-and-science-readback-overflow.md)。447绑定和原准备true，外science/rules/exit各1、stop/signal null、quiettrue；source350903/4478a5eb与science221520/64da8ede均未返，原1846/eeff2a1d与1163/9c3983b8 honest70并两job同字，raw未删。transport.source_preparation_complete=false不覆盖实际preparetrue；祖先同目录286365/372dfd68是同240job而非实际237。内部数值/门/具体终因未知。R600继续原完整必要对象的具名来源表示，90K/70/全部unknown/error/stats不减；正在运行246/248只按自己的真实结果归责。
+**R600六层完整来源关系组件已刊**：[完整可逆证明](results/R600-complete-six-layer-R583-source-relations-and-exact-inverse.md)、[实际两scope接口](notes/2026-11-16-complete-six-layer-R583-source-relations-interface.md)。只新增R583六具名族/actual_R572边/真实owner包装，原R58819120/6f7c完整不改；24依赖原序、loop合同、kernel/compiler、未知/error和全部RootStats/full last保。已有marker父scope原样；仅整个同一必要正文含全表/全逆后严格更小才选，90K70不变，不保证244的487638适配。R604负责真正caller和明确旧scope逆，不从未返hash恢复数据。
 
-**R568实际238已完整刊**：[全 far/采样、准确有理串与真实 recipe 路径两入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。本次C/准确域/all112far/112联合行/13850物理点完整，gzip stored20359322057/decoded95028212980全核，startupfree86797705216；真实BVP因bare-float不能解析准确有理串在453/450两phase前失败，closed独立找旧recipe basename失败。全部后继几何/精化未起；generation91528/4d9dc1bc超90K70缺marker且cleanup未调用/rawfalse。R599按准确生产者语义和actual launcher receipt修两处，再R597249；不重写238/241/247、不取消逐词/源身份核、不当数学拒。
-
-**R566实际237已完整刊**：[原准备成功、双必要超限及未返科学](results/R566-actual237-source-and-science-readback-overflow.md)。432源绑定/sourceprepare true/0，原输入prepare true；外exit/rules/science1/null stop/null signal/quiet=true。全source286365/f5c4a3a6、science164993/63f1f5ba均未返，分别1837/910e9708与1154/d8f1897e honest70且compute/report同字。sourcefallback.false与真实prepare.true分属不同分支；raw removed=false。内部终因/owner/full模型/FD/fullDN都未知，不借旧run归因或造父。R600继续明确六层来源关系，244已正式46dff606/run43908088860，R585 exact唯一。
-
-本次精简前本节全部原词、参数、失败/未返/未访、source/run/资源/清理和待付责任逐字保[f370f6f0固定open](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/open.md)、[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/HANDOFF.md)及ca3ad325/27bc全旧链；原results/接口不删，§4–6原字保。
-
-**R584/request244完整入口本次独立刊**：[完整证明](results/R584-request244-loop-rounding-observation-complete-original-full112-entry.md)、[全部CLI](notes/2026-11-16-request244-loop-rounding-observation-original-full112-interface.md)。已刊R594454源逐值保→469=366+103；十实际caller和R583两include，原六plan source-only、直接一次R583 installer/24额外编译依赖。原63/78/91用途、M112/338×112/完整576/224/双mean、19200总钟/owner12000与后继全部cap、FD/fullDN/final fresh audit均保。唯一POST后官方tuple再绑，R585 exact唯一，不借任何旧run科学结果或242三参数初猜；原90000/70/quiet与完整失败责任保持。
-
-R583已7c16a9e8：[完整循环模式条件证明](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。四内循环各一次实际thread mode，条件为该loop内模式及观察值不变；八类RN128乘积/17计数/full last/原累加序同。非nearest/未知仍原fallback；布局失败先fallback；不承诺flags/速度/资源前沿。R561准确dyadic平均本体无fegetround，本文本次明确这句话，全部源码身份不改。
-
-R596已b68c76fd：[真实保存RHS与全有限DFT](results/R596-actual-saved-RHS-and-complete-finite-DFT-defect.md)、[完整接口](notes/2026-11-16-actual-saved-RHS-and-complete-finite-DFT-defect-interface.md)。全部Y/DY/U/DU及四物理源closure/同次capture分开；全N×(3M+2)含双mean、整cell Q/C_lit及真实R521 sample-fill/transfer完整。准确reference总差不单称FFT舍入；cp.directory来源修复是新源事实，原全角正域与全N正域分责。同R575/同ledger合成仍待实际执行。geometry继续R597249/R598真实owned/reader/cleanup/原Budget内接线，先处理238已观察的有理串解析和旧recipe basename错误，不改正在跑241/247。
-
-R568实际238由geometry完整成文：采样及原C工厂全域已返成功；BVP在原float(有理串)入口ValueError，design453/frozen450未开始；closed在旧recipe文件路径缺失而postsolve/held未开始。source必要91528>90K/70，不能据SHA补内部源码字段；完整各scope、全部计数/环境/资源/quiet/清理待其全稿，不以failure标签判数学不可能。R566实际237由amplitude完整成文：432来源准备成功，source286365B及science164993B分别超90K/70，具体内部科学原因未返、quiet=true而removed=false，不能沿225/224补数值。
-
-现有真实入口继续：R576/241同次R553→R575全角投影，R581/243另显式R580解析带1/256与24项、原Budget内全局sum及单绑定可逆必要；R591/247修239来源reader；R586/245保完整生成来源的具名逆与两workerfar。R589/246原8catalogues/全部RootStats完整必要，R593/R594248原同总钟owner12000，R578242实际98三参数只初猜、fresh全DN。各完整正式源/CLI及POST/run绑定仍在原results/notes；running只metadata，每终态job指定一次，任何源生成或子步骤成功不替最终门。
-
-两22/23仅旧manifest已普通f370f6f0移出：[完整审计、consumer与恢复回执](notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md)。原独立审计77014/1b8e8bd7全文恢复；最新138变化、26patterns无新匹配/未扫/错误，guard64670/79ee4146完整逆93733/5a4d31d3、真实仅两删除。全部warm/status/arrays/gzip/source/真实artifact入口保，原完整恢复点7af9。前两26/28、两25、两24记录保；不据此批量删其他raw。
-
-固定问题实际精化、连续闭面与所有README量仍未完成。当前无非零112/338/450接受场、无新γ/全闭metric或比例证书。每模型fresh W/J，不跨权比较merit；所有原未返/未访/资源partial及精确存在缺口继续保。子件/批次/时长不是停点。
+当前数值推进继续R602在实际717ac原integrationGrid下仅接既有R523完整A*T组织，再R603真实caller；当前全224路径本来已共享root/primal/Cholesky，不能冒新修复或性能证据。根按完整来源审计预备两21旧manifest容量，不先删现用输入/数组/producer；R600/R601/R599组件完成不是停点，也不使任一新field被接受。
 
 ## 2. 准确十族候选与完整453→450
 

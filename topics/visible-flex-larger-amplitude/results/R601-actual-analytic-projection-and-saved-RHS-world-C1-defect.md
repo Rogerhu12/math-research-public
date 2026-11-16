@@ -20,27 +20,27 @@
 
 实际 layout 是
 
-\[
+$
 Q=(r_0,\ldots,r_M,t_1,\ldots,t_M,z_0,\ldots,z_M),
 \qquad n=3M+2.
-\]
+$
 
 令 E(phi) 是实角下从柱坐标旋转分量到 Cartesian 的正交框架，令 S_M 表示含 E 的完整系数合成。原旋转分量分别为
 
-\[
+$
 R=r_0+\sum_{j=1}^M r_j\cos(2j\phi),\quad
 T=\sum_{j=1}^M t_j\sin(2j\phi),\quad
 Z=z_0+\sum_{j=1}^M z_j\cos(2j\phi).
-\]
+$
 
 于是 X=S_M Q=E(R,T,Z)。原两 mean 均在状态中，t mean 仅由已声明的奇对称为零，不是读回时删去的行。
 
 准确目标沿这一数值坐标为
 
-\[
+$
 g=\mu^2 ds^2+A(s)^2\rho(\phi)^2d\phi^2,\qquad
 \nu=A_s.
-\]
+$
 
 在实际 prefix 来源里，mu=Ltrue/Lnumeric，nu=mu*a_true,s；不能把 numeric profile 的 ap 换成它。R596 与 R580 通过**同一个实际 R575 对象**使用同一组 A,nu,mu；这既不是两个有相同文件名的对象，也不是两个后来用 SHA 配对的不同场。
 
@@ -48,9 +48,9 @@ g=\mu^2 ds^2+A(s)^2\rho(\phi)^2d\phi^2,\qquad
 
 令 F_N(s,Q) 为 R596 全 N 点、全部保留行的准确有限 DFT 参考；Pi_{M,N} v 是它在旋转分量中的完整重构。N 为原偶数且 N>=4M+4，保留 signed frequency 集合为 {-2M,-2M+2,...,2M}，没有保留 Nyquist。有限参考满足
 
-\[
+$
 S_M F_N=E\,\Pi_{M,N}v.
-\]
+$
 
 这是两件已刊组件绑定的同一数学参考，不是原 floating FFT 执行的逐字复制。
 
@@ -60,49 +60,49 @@ R580 已完整付出一个全原 prefix 共用的带宽 h>0 与复三向量范�
 
 写
 
-\[
+$
 v(\phi)=\sum_{j\in\mathbb Z}\widehat v_{2j}e^{2ij\phi}.
-\]
+$
 
 由同一闭带的 Cauchy 移线，或先在 h'<h 移线再取极限，
 
-\[
+$
 \|\widehat v_{2j}\|\le C e^{-2|j|h}.
-\]
+$
 
 这是复三向量的 Euclidean/Hermitian 范数，不能再乘一个未经需要的3。带宽正保证一阶加权级数也绝对一致收敛，所以可以逐项微分。
 
 令 r0=e^{-2h}。完整被截尾的旋转导数满足
 
-\[
+$
 T_1^{\rm exact}
 =4C\sum_{j=M+1}^{\infty}j r_0^j.
-\]
+$
 
 两边 signed frequencies 给系数2，角微分给频率2j，合为4。由完整几何级数逐项微分，准确有
 
-\[
+$
 \sum_{j=M+1}^{\infty}j r^j
 =r^{M+1}\left(\frac{M+1}{1-r}+\frac{r}{(1-r)^2}\right).
-\]
+$
 
 因此，只要 r0<=r<1，
 
-\[
+$
 \boxed{\quad
 T_1=4C r^{M+1}
 \left(\frac{M+1}{1-r}+\frac{r}{(1-r)^2}\right)
 \quad}
 \tag{601.1}
-\]
+$
 
 是整个无限导数尾的上界。每个级数项对 r 非减，故把 r0 换为 r 只增大上界；没有舍弃未算尾。
 
 原 R580 的同一个准确有理数为
 
-\[
+$
 r=\left[\sum_{k=0}^{L}\frac{(2h)^k}{k!}\right]^{-1},\qquad L\ge1.
-\]
+$
 
 完整正项和小于等于 exp(2h) 且严格大于1，所以 r0<=r<1。R601 直接消费原 R580 已形成的 r、1-r 和 r^{M+1} 的完整外包，不重算该 Taylor 和，不引入一个不同的 r 或猜测一个常数。
 
@@ -110,7 +110,7 @@ r=\left[\sum_{k=0}^{L}\frac{(2h)^k}{k!}\right]^{-1},\qquad L\ge1.
 
 令 A_alias 是 R580 已完整包含全部保留 signed bins、每个非零整数 alias 的旋转重构范数和上界。原组件给
 
-\[
+$
 A_{\rm alias}
 \le\min\left(
 \frac{2C r^{N/2-M} S_{2M+1}(r)}
@@ -118,7 +118,7 @@ A_{\rm alias}
 \frac{2C r^{M+1}}{1-r}
 \right),
 \quad S_n(r)=\sum_{j=0}^{n-1}r^j,
-\]
+$
 
 实际返回的是经过原向外舍入的 alias_upper_used。此处直接用那个真实返回值，不重新比较未返表达式或从小数显示截断。
 
@@ -126,33 +126,33 @@ A_{\rm alias}
 
 设 w_rot=v-Pi_{M,N}v。若 D0 是 R580 的真实完整 C0 投影差，则
 
-\[
+$
 \|w_{\rm rot}\|\le D_0,\qquad
 \|\partial_\phi w_{\rm rot}\|\le T_1+2M A_{\rm alias}.
 \tag{601.2}
-\]
+$
 
 Cartesian world 差为 w=E w_rot。对实角，
 
-\[
+$
 E'=EJ,\qquad J(a,b,c)=(-b,a,0),\qquad \|J\|_{\rm op}=1.
-\]
+$
 
 因此
 
-\[
+$
 w_\phi=E(w_{{\rm rot},\phi}+Jw_{\rm rot})
-\]
+$
 
 并得到
 
-\[
+$
 \boxed{\quad
 \|w_\phi\|
 \le D_1:=T_1+2M A_{\rm alias}+D_0.
 \quad}
 \tag{601.3}
-\]
+$
 
 E 只在**实角**被用为正交框架。没有把复 E 当成 unitary，也没有把旋转分量的复带上界偷换成另一个复 Cartesian 范数。
 
@@ -162,22 +162,22 @@ E 只在**实角**被用为正交框架。没有把复 E 当成 unitary，也没
 
 设实际完整系数残差为
 
-\[
+$
 e=Q'-F_N(s,Q),\qquad
 \|e\|_\infty\le\eta_Q.
-\]
+$
 
 这个 eta_Q 是 R596 对全部原终叶、整个径向闭单元和全部物理行付出的真实上界；不能用原 RMS、一个节点残差或某个旧 run 的 max 替代。
 
 已有 R596 完整 C0 合成常数是
 
-\[
+$
 C_{0,M}=\sqrt{2(M+1)^2+M^2}.
-\]
+$
 
 world 角导数在旋转框架中准确为
 
-\[
+$
 \begin{aligned}
 (\partial_\phi S_M e)_r
 &=-\sum_{j=1}^{M}(2j e_{r,j}+e_{t,j})\sin(2j\phi),\\
@@ -187,17 +187,17 @@ world 角导数在旋转框架中准确为
 &=-\sum_{j=1}^{M}2j e_{z,j}\sin(2j\phi).
 \end{aligned}
 \tag{601.4}
-\]
+$
 
 用完整三角权逐分量外包，三条权分别是
 
-\[
+$
 M(M+2),\qquad (M+1)^2,\qquad M(M+1).
-\]
+$
 
 第二条多出的1来自真实径向 mean。垂直 mean 仍保留在完整状态和 C0 中，只是它的 phi 导数准确为零。因此
 
-\[
+$
 \boxed{\quad
 \|\partial_\phi S_Me\|
 \le C_{1,M}\eta_Q,\qquad
@@ -205,7 +205,7 @@ C_{1,M}=
 \sqrt{[M(M+2)]^2+[(M+1)^2]^2+[M(M+1)]^2}.
 \quad}
 \tag{601.5}
-\]
+$
 
 该系数范数是一个合法的保守上界，不声称达到精确算子范数。原所有3M+2行和两mean都保留；没有换成只控制一个 height block 的常数。
 
@@ -213,26 +213,26 @@ C_{1,M}=
 
 在同一坐标和同一准确目标下，定义
 
-\[
+$
 r=X_s-V_+(X).
-\]
+$
 
 实际有限重构给恒等式
 
-\[
+$
 r=S_M[Q'-F_N(s,Q)]+\{S_MF_N(s,Q)-V_+(X)\}.
-\]
+$
 
 对 s 不依赖的原合成框架逐 phi 微分，并应用601.3、601.5，可得
 
-\[
+$
 \boxed{
 \begin{aligned}
 \|r\|&\le C_{0,M}\eta_Q+D_0=:E_0,\\
 \|r_\phi\|&\le C_{1,M}\eta_Q+D_1=:E_1.
 \end{aligned}}
 \tag{601.6}
-\]
+$
 
 源码的第一项直接沿用 R596 实际已返回的 global_reconstructed_finite_ODE_residual_upper；它可能包含原平方根外包，因此不把它降回理想实数常数的未舍入值。C1 则通过实际已绑定 R521 的有理平方根上端点形成。
 
@@ -242,19 +242,19 @@ R596 的 eta_Q 是当前准确 Q 对同一准确有限参考的完整差额。�
 
 R514 的同一目标、同一合法分支给
 
-\[
+$
 \tau=\partial_s\frac{|X_\phi|}{A\rho}
 =\frac{X_\phi\cdot r_\phi}{A\rho|X_\phi|},
 \qquad
 |\tau|\le\frac{|r_\phi|}{A\rho}.
-\]
+$
 
 故若实际整块已经另付 A>=A_->0、rho>=rho_->0，
 
-\[
+$
 |\tau|\le\frac{E_1}{A_-\rho_-}.
 \tag{601.7}
-\]
+$
 
 这直接复用 R514(514.8)。再有真实 BC/cuff 锚和完整径向路径积分，便沿原514.9–514.11控制角长与相对 Gram。**本组件不接受调用者填写的 A_-、rho_-、锚或路径常数，也没有实际形成它们。** 因此当前返回不能称为已经取得闭面 metric floor，不能把原1e-6、1e-11或2e-9阈值直接代入601.7。
 
@@ -266,9 +266,9 @@ R519 已经用同次六 jet直接形成局部 h、tau、两个 V_sigma 和条件
 
 若 phi=Theta(q)，Theta_q=kappa>0，且 Theta 与径向坐标无关，则已经建立的 world 缺陷满足
 
-\[
+$
 (r\circ\Theta)_q=\kappa(r_\phi\circ\Theta).
-\]
+$
 
 因此只能用实际全域 kappa 上界转换 E1；q=phi/(2*pi) 时因子准确是2*pi，不能漏掉。目标密度也同时变换为 rho*Theta_q；在601.7的比值中可以按实际同一点关系消去该正因子，而不能把不同盒端点任意配对成一个新更窄界。
 
@@ -282,11 +282,11 @@ R519 已经用同次六 jet直接形成局部 h、tau、两个 V_sigma 和条件
 
 源码形成
 
-\[
+$
 4C\,p_{\rm hi}
 \left(\frac{M+1}{g_{\rm lo}}+
 \frac{r_{\rm hi}}{g_{\rm lo}^2}\right),
-\]
+$
 
 其每个输入方向都给601.1的上界。全为非负项，避免用 (M+1)-M*r 的差消去再不当地混用相关端点。之后每次 relative_dyadic_bounds 只取上端点。alias导数、world连接项、系数C1、最终E0/E1均包含这些实际向外舍入；没有将尾项截断或把小正数underflow为零。
 
