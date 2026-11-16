@@ -471,3 +471,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R432：原十八维第三核中c0恰五维，全部实际内部点有完整共同响应表。** [证明](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)（21613B/SHA1766e95d66b9f665b2454e840cb3f5dc4c0b1e6be5cf7ea2591e26c7591dd826）。原abc/右锚及逐权必要核完整；32个非盲标签的Hd/He保self/suffix，C准确为七jet多项式×三suffix矩的21共同生成函数，非实际秩。R431每个真实根的六项数据及幅宽中心输运付全表；非六根，不宣一般actual target属像。继续更大R0与13同规范。
 
 - **R433：全ordered自然缺陷可与wholeE/原finiteA实际同付，跨包current余积分消失。** [完整增强与原式](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)（24119B/SHAea811ae5ab01c21f917ca0590522ad29501a0f6e57f88f6d1fbd97b5468afe34）。O杀全R；关键完整local/0列让六权正字符排除及同一有限C1词提升，保两次商基准/window/H* λ1，不授全self自然0。pU″=K′+4C，六规范cubic密度独立，O0 iff六ODE；Af处K为七低jet项，形式13方向中原c0已付七，剩六×三suffix最多18系数待真实像。self/全内部/13行仍欠。
+
+
+- **有限锥首实际：25新接受，末第31次MaxTime保真向量。** [完整原记录](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)（23477B/SHA65cf357809821976103129c39726103e74c3d4dc96b92bc9de0099acf1bffc34），run43792959676/job133055320913/source c0e7336c28b8d1b1f83306e3a0781069f57c0f48。27model/26trial/25接受到52，细η.2660182947853381/κ57.999249547251196；14门/原盒过但.26未达。31cone=30AlmostSolved+1MaxTime，新54value/657.945111393秒、累计116/1014.074931654秒；0新HiGHS/SOC。m27exact159完整、无rho/norm、未修复/未trial，非驻点；covered资格全false走旧fallback，不冒新规则成功。下一零solver独立验证该已付未试方向，继承终值全账/原门。

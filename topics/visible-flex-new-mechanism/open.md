@@ -12,9 +12,9 @@
 
 原103/154/159与[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)保同163族/159坐标、H/盒/步长及失败费用；[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)保14门/reference/池/cut来源。全部旧η是metric辅助量，不是δhold；旧LP用尽和恢复漂移不据此宣驻点。当前最新direct与末槽入口见本文件后段，旧实例不重跑。
 
-### O2 当前实际末态与唯一新接口
+### O2 最新实际
 
-[guard首实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)与[已关闭冷恢复](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保原6接受/10LP及205秒冷失败全部费用；不重开。后继direct及末槽原64LP已完成，最新真实状态、新锥合同及全账见后段。原14门、固定g与主精度/reach义务不变。
+原64已关闭，新锥首实际及全账见后段；原14门、固定g与主精度/reach义务不变。
 
 ### 仍须支付
 
@@ -146,11 +146,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 原64-LP已用尽：新锥接口继承实际末态
+### 原64封存；新锥首实际已完成，继续已付未试方向
 
-[原direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)的27接受保其完整28行；[末槽最终实际](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)已实际启动64并拒绝新trial。累计64LP=63primary+1SOC、62value、356.129820261科学秒，所有输入失败计入；最后14门通过而目标改善−2.391806995405421e−6。接受27的η.26610226672562226/κ57.99972678574561不变；当前池4439/4533v8/6、B.000125、learning36/35/0和新gamma必须继承。原64任务关闭，不重演缺失step或加LP65。
+[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)关闭64LP/62value/356.129820261秒，缺失LP64向量不重演。[新锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)run43792959676/job133055320913：27模型/31cone/26真trial/25接受，accepted52细η.2660182947853381、κ57.999249547251196；14门双真/原盒真，但.26与主精度/reach仍未达。继承池4448/4543v13/12、B.00025/streak0、bank512/8support、learning62/61/0；新54value/657.945111393秒，累计116/1014.074931654秒，旧失败已计。
 
-新candidate record=null，两个硬编码保存true已判为报告错误；原stdout仅指纹。下一[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)保161变量/原linear与盒/完整oracle/真两网接受，直接在solver返回时捕获exact159；[恢复合同](notes/finite-cone-restoration-budget-and-acceptance-contract-20261116.md)已定1200新科学秒/32conic/0legacy/96value/单次10秒/每model4，原cfg与全局1800/160并守；[完整入口](notes/finite-cone-complete-entry-source-review-20261116.md)6新源已全文读，旧168绑定/98args相同；本次request触发唯一新公开Actions，先12新接口检查再科学32锥/96值/1200秒，结果另读。实际保存旗由原record存在/长度推出，计费/输出异常保原账。未把新算法预算或改善预先宣成已付。旧11/9只读，不重测。
+末m27的MaxTime留下exact159未试p，rho/norm未存，原资格拒绝保持。下一只独立实际验收此新点：0solver、不重旧trial/accepted52两值，α1及必要未试二分，保同g/b0/参考/159→163、全14门/盒和真η下降；不造affine/J误差或covered学习。承继1200/32cone/96值与原1800/160交集，剩542.054888607新秒/42新值；未用cone32不是自动授权重跑。完整合同/源审后唯一Actions，完整向量/新geometry仅stdout，结果即记即推。
+
+covered-growth因旧LP字段未适配而全false；实测半径变化属于原fallback。后续若继续锥法须真实solver-neutral资格，不伪填HiGHS status。原单次10秒是配置，backend实测可超10，所有费用保留。原12新检查已过，旧11/9不重。
 
 ### R399新的第二period内部通道已实际付至四点
 
