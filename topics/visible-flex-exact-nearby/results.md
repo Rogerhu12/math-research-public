@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WJRA（已证明，首次实际）**：[真实相对Jacobian、正相位比与相对ω完整界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)：43873739440/1全15门4图56新、43原/7scope，old0/lost0；真实J先除与真cut lower，Rω14约2.078e91。保普通dr/cut/所有方向；未宣称finite逆或非线性解。
+
 - **WJR：真实Jacobian相对导数与正相位比的完整解析新界。** [完整证明](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919。先在准确高导flow ODE除真实正J，线性项严格消；得到768^bΣk!S(b,k)(F1−1)^k。以原cut真正正lower与全Bell/Leibniz控制两pσ及x，再用完整cut+普通dr正表示得到Rω候选。已成WBF83冻结；两完整actual/43原记录、4图56新尚未算，无数值改进/finite逆/全族结论。
 
 - **WBFA：83项新sharp Bernstein完整流界实际成功。** [完整结论与端口](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a；公开run43870348355/1，全16门5图83新、33copy/12scope，SCI df5ea6fff610d70ad98fbebc9dd004d24388ce86/59417B/SHA87621adee76080dbbc14abdd7f8e5dce5d3e2742ba299fc941d13ff40f4410c0。ordinary flow/phase2..15及完整Rω1..14已成，14阶约1.496e94；原F1/P1/K1与WDG80只读，old0/lost0。全两mean/真实96/finite/高门/非线性matching尚待。
