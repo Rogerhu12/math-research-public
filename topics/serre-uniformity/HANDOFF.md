@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：2a43e90a791bb87e2ecea83efe7cc7c1b0786b76**（2026-11-16T14:26:54.945848+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[有限平坦CM比较前H](handoff-archive-2026-11-16-before-finite-flat-CM-gluing.md)，内接三系数主部前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：dafd0969d1b07a3750ebcf87fd16f55b2ab3323b**（2026-11-16T14:29:41.762723+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[正规化子CM限制前H](handoff-archive-2026-11-16-before-normalizer-CM-gluing.md)，内接有限平坦比较前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -46,9 +46,9 @@ R890/R880/R885/R893及上述源全部完整pins、旧W/K/正常/jets与不可改
 
 **[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** 同962像两权146/418→128/400、原256前缀+真144补；只补272最高列和旧19行jet。唯一Φ=QZ/qχ正乘、原P0正c^(254−m)，正常数组无extra τ。五件全文读已发布pending：corebc3e9a53/wrapper97b91720/methodff3acf13；R901真源null，完整272单位/下降/P1仍未成。
 
-**[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)** 纸证已成：同D418截真146，146+126整纤维单位/同度给完整丛格，迹对偶670基/全544主部秩543，保D/H交点与不同理想；真主函数特殊支及低权格fallback明确。五Dj/X/DN七源经原QN校正、Gal7与真cY平均直接给原I_Z连接，不等R900/126树。ordinary_local写实际消费者；exact_height做R907真672/九Norm/wholeArtin/dual7，两端实值仍缺。
+**[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)**：同D418→146，真272纤维单位/同度给两图格，迹对偶670/全544主部秩543；特殊真h支和fallback保全。五Dj/X/DN经QN校正、Gal7与真cY平均给原I_Z，不等R900/126树。ordinary_local正写实际消费者。
 
-**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者正在写，同原I_Z及canonical边界不改。
+**[R909三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)**：完整V3/(τU_D)544商与留数完美配对，把全主部移到不交H_a；同F0逆0/1/2阶给矩阵，目标用完整O_D/O_H两个272 Artin迹。低权除法及一个真V1乘法/完整幂基可复用七源；不剥nilpotent/分歧或重Γ。实际新连接旗标仍false。exact_height已冻R907真672/九Norm消费者待root读，两端数值仍缺。
 
 五Lj128/144、原YP/FM128/634/508rank507、c/a(P1)、活跃eη、d/N/nonp、Poincaré/splitting/高度仍缺；I_Z不代real-descent Rcal I_Z³。R870原16 ni/1959位d*及含7-primary挠判有效，仅合法好约化niPiξj非零判活跃。
 
@@ -60,7 +60,9 @@ R859–R898 原BT、全G/Drinfeld、cusp整格、CM单位/KS、theta整lift/Φ/e
 
 **[R906原整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6源的σ=τ^(e/2)固定完整dual graph/period lattice；原正CM残余两指数皆奇，σ−1在实际M=qTpJ上有整逆。原q不换optimal且不除p，严格得qTpJ=qB TpB，逐h原index不变。root已核EP/Emerton/Mazur原文及R390；e=p²−1时小分歧cotangent定理不可用，Hodge饱和/CM第一normal项仍缺。sigma_uniform继续R908实际finite-flat gluing。
 
-**[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
+**[R908有限平坦CM](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)**：保原a_h，完整BT给e_hq_B=[p^a_h]f_h；实际kernel闭包商D_h有原δ的Fp²作用。Raynaud尺度及σ点态平凡给(0,r偶)，真Cartier对偶Lie单射与两原惯性核给r∈{0,p−1,ρ_h}。r0的good-model原content=ea_h，非零支≥ea_h+pr；未冒指定盘normal。root已核Raynaud/EP原文。
+
+**[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
 
 ## 关闭边界，全部继承
 

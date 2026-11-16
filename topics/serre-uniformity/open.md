@@ -169,3 +169,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
+
+
+**[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
