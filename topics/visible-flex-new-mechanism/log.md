@@ -165,3 +165,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:24 UTC：R531同一规范的真实负p1入口
 
 [R531](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)保同母原20、三q0、真前缀/全部memory与一次χ，严格面积+两脉冲单IFT达p1<0；真实平滑控制过渡后可局部恒负。root发现并修直接σ0的二阶jet断点，独立纸审通过；O(τ²)仅约化(S,m)，整pulse总p1仍正，M0/长保持未付。0理论科学执行。另free36原输出已读到环成功、全bodyη6.979414564941248/κ69803.90363577171失败、0actual；72.22285305100002秒闭、祖2974.589423877/147，详细闭账继续整理。
+
+## 2026-11-16 14:30 UTC：R532同一全反馈族的真实四偶开像
+
+[R532](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)完成三个固定Gram的三角真实jet配置、四奇端联合IFT及四偶完整Taylor/Schur消元；四偶半端det=v²L⁷/(11520H⁵)+O(L⁹)，总端倍数16。root和独立纸审通过，t₁负区、参数间规范变化及全部闭合义务明确；没有新科学执行或M0声明。当前58及2974.589423877秒/147值不变。

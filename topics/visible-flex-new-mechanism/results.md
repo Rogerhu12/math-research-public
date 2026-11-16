@@ -80,3 +80,5 @@
 
 
 - [R531 三零母库中的实际负p1子段与同一固定规范](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)：**已证明**保原20/三q0的同母，三Gram状态斜率、完整memory短窗面积与真两脉冲IFT给原p1<0；平滑σ过渡后真实保持一段常负密度，入history不重置。总pulse p1仍正，长负累计/全八矩/13/pose尚未付；补全非零q固定零叶任意入口的排除。
+
+- [R532 双边全反馈族的中心jets与真实四偶开像](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)：**已证明**一次三Gram配真实中心jets并共同清四奇端，原四偶半端映射det=v²L⁷/(11520H⁵)+O(L⁹)>0。小L t₁严格负，零不在开像；参数间最终χ会变，不授固定规范拼接、M0或其余端口。
