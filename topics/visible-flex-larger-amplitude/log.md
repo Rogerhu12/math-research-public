@@ -279,3 +279,8 @@
 ## 2026-11-16 04:44 UTC /root — R471零角通量完整条件实现
 
 **已证明（限实际资格与固定现场的局部词结论）；无新科学运行。** [R471](results/R471-zero-nonlinear-split-flux-finite-trace-fast-path.md)/[接口](notes/2026-11-16-zero-nonlinear-split-flux-finite-trace-interface.md)四件经完整源码/差异及证明全文核后刊：helper7111B/e6ce9308、variation12597B/d4f2f32b、proof15466B/3d1a57be、interface11811B/bf631c43。先原root/noJ与完整finiteRootDirection，实际空tape/零形状与根/原稀疏dL逐词、每角原AD factor及全部方向中间量有限才留原+0 dFlux；保原括号/leading+0/末linear+dFlux，unused q/bm不添条件。false走原完整角loop，资源或其他throw不捕获；原226×224/双mean/统计/稠密linear/RK/全部末门保持。只条件性省角形成的O(NM²)，资格O(M²)+O(NM)，不冒整体逐词、计时、适用率或195删失现场；210真实来源接线与R472实际结果待付，208/209冻结不改。
+
+
+## 2026-11-16 04:47 UTC /root — R473零系数乘加条件证明
+
+**已证明（限实际有限输入和原binary64 RN运算条件）；尚无实现或运行。** [R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)14166B/93d57da3全文核对原195 a7a90668与R466 c29b0120的相同linear正文。所有实际A及被用T前$K\times K$词有限时，只跳实际`z===0`的j项，保原先乘后加/非零j序/正零初值及完整$(K+2)\times K$输出：有限累计不会变负零，最终有限词相同；溢出后保正负Inf/NaN分类和首次非有限j，不冒NaN payload/raw SHA。T含Inf/NaN时零乘积是反例，须原完整fallback而非新增拒收；无需入射T分块或两mean输入为零，完整两mean输出仍保。原linear自身无finite检查或throw，只能条件性陈述原下游相同谓词的bad mask。独立实现/真实来源、资源时刻、计时、整体逐词和原最终数学接受均未付，不改R471/208/210。
