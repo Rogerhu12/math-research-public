@@ -40,25 +40,15 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 共同α/R2、free36及prefix102提交时的完整原记录逐字保于[历史](open-archive-joint-free36-and-prefix102-launch-20261116.md)；其中旧“下一/待运行”仅表示当时状态，各原范围现已闭。全部旧失败/成本/适用边界仍有效。
 
-### 全后缀34控制已闭；其后51范围亦已在下节闭账
+### whole34与full51原范围均已闭
 
-[完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb。唯一SLSQP9/false/120iter/142值/120J，原返回K18.45692174062725、h63.87343696103953；原准确172盒在58/61失败，准确范数epigraph也失败。0qualified/预测/actual/接受，仍58，不修剪/重启/晋升callback。
-
-新184.71003744799998秒，总3231.8129525510003秒/147原full值；另明计142新两网后缀物理点、120J、1920导数block、12,063,298,236临时写bytes。余额415.289962552关闭。生产者大trace收据存在，但job API与原run ZIP当前只提供3条尾记录367277B；MODEL/初末J/大trace/完整OptimizeResult等正文缺失，不得当免费后继输入。已读BODY_SOLUTION保raw36、q168/172、失败门及初始摘要，COMPLETE/FINAL_CLOCK付最终账。
-
-下一是新的53变量问题：原u54…80与v129…152全部51个字面系数释放（包括旧R0的17方向），加K/h；同g/b0/原准确盒，唯一true58初点，完整21径向/双全角网。新900总秒/360solver秒/240iter/480新物理点及960不同backend上限，完整body/原14actual仍只在原返回合格后一次。该51原设计现已执行，以下全51闭账为当前结论；其输出只保存有界紧凑轨迹和实际返回向量，大J只绑定身份/成本，不承诺未来免费复用。不重旧36维范围或恢复缺失科学输出。
-
-### 全51新范围已闭；继续真实高度/全body控制
-
-[完整闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)记录run43910342020/research133450221925/source077d1dbb9c184cf4c6edf3e4c20014880d810283。原solver360秒限，实际local362.24296968，未返OptimizeResult/候选，0预测/actual，仍58。末完成value180：K17.03922875676163、细κ17.039315013999914、η.2660088845229819，metric/PSD/当前K曲率门false；另last_backend53字段是不同binding，不能移配或推广。
-
-新410.626657796秒，祖总3642.4396103470003/147原值；180q/179J/2864blocks，0磁盘/峰RSS1315268KiB，余额489.373342204关闭。全部9记录取得，MODEl/J等大科学数组从设计上只有bindings而不作未来free输入。新的真实问题是原168中51之外的高度/全body控制与完整172 affine null-height图；先按原源码确认实际非零作用和全链，再做一个新范围。原g/b0/14门/盒/norm保，不借prefix102支撑外零jets扩大名义维数，不重启本次钟停scope。
+[逐字背景](open-archive-whole34-and-full51-closed-20261116.md)保两次原返回/钟停、准确盒/norm失败或无返回、全部已付成本及缺失科学正文边界。whole34为9/false、58/61盒及norm失败；full51为360秒钟停、无OptimizeResult，末完成metric/PSD不合格。两范围均0预测/actual，仍58；祖总3642.4396103470003秒/147值。旧模型/J/trace缺失或只有bindings不作新免费输入，不重开旧scope。
 
 ### full62：实际高度与完整body的新范围已接线
 
 [设计](notes/true58-full62-whole-suffix-design-20261116.md)与[模型合同](notes/true58-full62-whole-suffix-model-contract-20261116.md)固定原51加q157、158及body9共62真实控制；q153…156后缀零列排除，另外106独立坐标固定。64后端变量、63非零物理行，原row162保−3/8、−5/16耦合；先独立一次RN，再原准确physical172图。474线性与145152非线性行，hmax明确只作该新范围限制，原所有门和同g/b0保。
 
-一次1800总秒/1200solver秒/320iter/640新q/1280backend，唯一true58初点。382源request85793B/a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2，祖3642.4396103470003秒/147值；尚无执行结论。只有原成功返回并全后缀/准确盒/norm合格，才一次canonical全body预测及至多1原actualpair。原raw64/OptimizeResult全保，大数组仅bindings/当前q RAM；旧full51与whole34数组不借用，不重跑旧scope。
+一次1800总秒/1200solver秒/320iter/640新q/1280backend，唯一true58初点。382源request85793B/a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2，祖3642.4396103470003秒/147值；公开run43916013327/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43进行中，尚无执行结论。只有原成功返回并全后缀/准确盒/norm合格，才一次canonical全body预测及至多1原actualpair。原raw64/OptimizeResult全保，大数组仅bindings/当前q RAM；旧full51与whole34数组不借用，不重跑旧scope。
 
 ## O4：完整真实第四成本与新首阶机制
 
@@ -100,6 +90,12 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 对先固定r>0，总p2准确减至r倍且净p1负/中心t1正；在准确p2=0处，中心t1仍正，但p1领先相消、余项O(log⁴R/(δR^(5/2)))号未定，p0明确δP0=z∞/R^(5/2)+o>0。对数等待负t1、全部有限高度/速度和旧词成本全计。没有三p同零/全M0；下一同χ改变真实u/高度分布处理联合余量，不能把高处负p2当独立原子。
 
+### R552：同一固定规范的三个准确p零与正的原t1
+
+[R552](results/R552-three-exact-p-moments-with-one-gauge-and-a-positive-t1-remainder.md)已完整支付同R521母、从真零history的一次χ路径，准确P0=P1=P2=0且总原T1>0。起点同次大ωc给D*=2B21−B12<0；M=(1+logR)^6，真实低尾Hlow=√(Mξ)、时长Mℓ/(δR^1.5)，完整静态−Z/8、−Rop/(8h²)和有序第三使W∞真实改变，再沿同反馈升到hj=𝔟M/R。唯一真实P2零事件上的两端图有C¹极限与可逆Jac，ℓ0=2𝔟z∞/3、ξ0=g0𝔟/(9c)，同χIFT付两个准确零；T1全部成本后的归一余量𝔟z∞/6>0。原/中心T1在P2=0处一致。
+
+继续同一全系统的另外五矩，T1只是正而未零；末scalar/germ、frame/位置、第三第四period与原13规范全部未返。原有序A/T、左尾、所有桥/等待/γ²成本都保留，不能把本三p零块当已返回端口重复拼接，也不能接33母轨道。R550已付的是其共同前缀，本新后继不删旧词费用或替旧末态续账。
+
 ### R533：完整速度不定式与全八矩历史的正则图
 
 [完整证明](results/R533-complete-velocity-quadratic-form-and-all-history-regular-ruling-coordinates.md)从R520同类型母起点保原20/共同cap/固定I，新增13真实高阶目标有原33维有限正根。十四principal仅一关系、删B₁后恢复其完整O(1)余值；正幅O(Λ)与先Λ后有限频率给未指定三导能量O(Λ)。完整速度H与m/固定χ无关，H₁₁=O1/H₁₂=−Λc+O1/H₂₂=OΛ使任意预选合法scalar紧盒严格不定，ξ_tar仅代数目标编码、不是负x支撑。
@@ -137,6 +133,12 @@ R542现已严格支付该完整快速族的t1总负与恢复时长必要门；�
 [R551](results/R551-real-negative-delta-entry-on-the-same-thirty-three-mother-and-fixed-gauge.md)保完整lγ主项和p列余项：在真实X>0/W*>0入态，原N+脉冲使实际m近有限大τN+，完整δ中心/τ为负，而投影缺口半径/τ=O(Λ^-1/2)。先大有限Λ再τ/B，沿通过实际原速度的同一Fγ≠0根平滑接到δ=−cτ；完整(S,m/τ)系统给统一正的u=τs长度，dc真实增加cu0，三个p费用Oτ^-1、k>2/净Π负保。
 
 W*>0在原33目标的辅助hc=0极限上保持正核/minor后，选单个小正hc及R540原弧早期停止点实际到达；原域h>0/y>0不强加R521另一母的强窗口。这个从起点子族不等于此前任意冻结dc≈−2末态，也不保证R546单矩零继续不变。预脉冲/切换/全T均保，t1速度负费用Oτ没有省；只付非零局部返回，尚未穿整个O(L⁹)层或恢复t1。下一沿同一实际history继续控制投影裕量/合法域/总费用，不能无条件重复局部管。
+
+### R553：同一33母的整个真实返回层已付，继续慢恢复
+
+[R553](results/R553-complete-real-return-to-the-centered-zero-layer-with-one-fixed-gauge.md)从R551同起点子族取hc=ε^(5/2)，以完整F₂的移位误差/同一正则根和有限真实矩刷新，实际从k>2返回准确dc=0，再继续到dc>0、k<−cε³；净Π仍负，h_out=hc+Oε³、η_out=O√ε。原history每次继承，参考场只经有限shadow实际化；准确dc端由真实严格事件取得，未把局部速度图冒完备流。三p新费可压，原t1速度负费/全T仍保，总t1仍负。
+
+下一接口是这个实际k<0/dc>0端的同χ慢控制、总p2与正t1恢复；新p2正密度不授正总p2，更不授全八矩或可加零端口块。另一R521母的R550/R552不能跨接，本母原20/cap/13前提仍须整条路径保持。
 
 ### R542：整个短快族的第二总矩障碍与恢复时长
 
@@ -203,8 +205,3 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 
 当时逐条原文保于[归档](notes/open-archive-actual58-through-reflected-R1-launch-20261116.md)；旧任务已闭账，现时58、费用和仍待主门见前文。原记录中的“正在运行”不作当前状态。
 
-### R553：同一33母的整个真实返回层已付，继续慢恢复
-
-[R553](results/R553-complete-real-return-to-the-centered-zero-layer-with-one-fixed-gauge.md)从R551同起点子族取hc=ε^(5/2)，以完整F₂的移位误差/同一正则根和有限真实矩刷新，实际从k>2返回准确dc=0，再继续到dc>0、k<−cε³；净Π仍负，h_out=hc+Oε³、η_out=O√ε。原history每次继承，参考场只经有限shadow实际化；准确dc端由真实严格事件取得，未把局部速度图冒完备流。三p新费可压，原t1速度负费/全T仍保，总t1仍负。
-
-下一接口是这个实际k<0/dc>0端的同χ慢控制、总p2与正t1恢复；新p2正密度不授正总p2，更不授全八矩或可加零端口块。另一R521母的R550/R552不能跨接，本母原20/cap/13前提仍须整条路径保持。

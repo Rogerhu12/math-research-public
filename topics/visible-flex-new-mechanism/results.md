@@ -141,4 +141,6 @@
 
 - [R553 同一固定规范的完整实际返回层与k换号](results/R553-complete-real-return-to-the-centered-zero-layer-with-one-fixed-gauge.md)：**已证明**同33母从k>2通过完整源移位/同支根/有限真实history刷新准确到dc=0，并继续到dc>0/k<0，保净Π负。hc=ε^(5/2)排高度退化，所有原t1负费/T保；新p2正密度不授总矩，慢恢复/全M0/末germ/pose/period仍待。
 
-- [真正58完整高度/body的62控制新范围](notes/true58-full62-whole-suffix-design-20261116.md)：**源码已接线，待公开Actions实际观察**。真实62+K/h、145626×64，原172耦合/一次独立RN/全部门保；382源，1800总秒/1200solver秒一次scope，祖3642.4396103470003/147，仍58。它新增11实际方向，不延长旧full51。
+- [真正58完整高度/body的62控制新范围](notes/true58-full62-whole-suffix-design-20261116.md)：**公开run43916013327进行中，待实际观察**。真实62+K/h、145626×64，原172耦合/一次独立RN/全部门保；382源，1800总秒/1200solver秒一次scope，祖3642.4396103470003/147，仍58。它新增11实际方向，不延长旧full51。
+
+- [R552 同一固定规范的三个准确p零与正原t1](results/R552-three-exact-p-moments-with-one-gauge-and-a-positive-t1-remainder.md)：**已证明**同R521母/一次χ/真零history，通过真实低尾、完整有序第三与真水平上升，在实际P2零事件上用两参数C¹端图/IFT准确付P0=P1=P2=0。总原T1严格正含全部成本；余五矩/末germ/pose/第三第四period/13仍未闭，不授M0或跨母拼接。

@@ -299,3 +299,9 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 [设计](notes/true58-full62-whole-suffix-design-20261116.md)/[合同](notes/true58-full62-whole-suffix-model-contract-20261116.md)已接线：原51外两个旧尾高度及完整body9，共62控制/64变量/63物理非零行；先独立RN再exact affine172，row162耦合保，hmax仅显式scope限制。一次1800总/1200solver秒、320iter、640q/1280backend，唯一true58、原盒/g/b0/14门全保。旧370源不改，新12身份共382源，request85793B/a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2；祖3642.4396103470003秒/147。
 
 修改题外仅新增.github/workflows/visible-true58-full62-whole-suffix.yml，用于此一次公开研究与只读完成日志报告；无artifact/cache/Release上传。新core/solver按模型与后端职责拆为85003/27662B，所有源/MD<100000B，0本地科学/导入/编译/开发执行；根8小UTF8 API非force发布不冒pull。research/report先真pull双仓及逐次核README，回执再入H；科学前移除MR_TOKEN。仍58，未宣称运行成功；结论后立即闭账并继续主题。
+
+## 2026-11-16 17:16 UTC：R552同一实际词准确三p归零并保原t1正
+
+[R552](results/R552-three-exact-p-moments-with-one-gauge-and-a-positive-t1-remainder.md)完整原式纸证。同一R521母/同χ/真零history，真实低驻留完整t1静态列与有序第三改变水平W∞，按真末值上升、唯一原P2零事件，两个真实控制的C¹端映射/IFT准确给P0=P1=P2=0。原T1全成本归一余量𝔟z∞/6>0，含全部低尾负费、对数等待、过渡及速度平方；原/中心矩识别保。root全文已读，0科学执行，立即推送；另五矩/末germ/pose/period/13继续，未全M0。
+
+full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/research133470222034（17:13:02创建），元数据显示原研究步骤进行中，尚未读运行中科学日志。H记run，待完成后读真实pull和最终科学账。open的whole34/full51两节逐字归档，旧成本与边界不撤。
