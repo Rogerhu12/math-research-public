@@ -166,3 +166,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 同修正返回注§5/6已将未知因子门化成原总预算：零类必要14s≤3BD²+8D−26−12j；严格反门在p/D²>141/28的原渐近窗成立，确覆盖47/8。因此该临界不能用V1+J3把同R归零；j0须见真实finite非零，继续其全kerβ1像，不以此排完整p³。
+
+
+- 原finite-test附A已付两共轭点完整selector：在实际O0=Zp[μ18]，17惯性整双投影、Sah与Nakayama使模p独立两组的联合像为全p^n矩阵；已用p环类层及原Euler单位条件同时保。扩大系数只保真实det非零；usual core0，下一门是真paired finite–singular关系，未套MR core1。

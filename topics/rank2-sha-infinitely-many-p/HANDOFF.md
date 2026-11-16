@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：715a877c999d0fce2ecd66539ee2a2b3780da26f；2026-11-16 13:51:25 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：25c98ff4198cfc10552ddcd0dc9307110a6be8de；2026-11-16 13:54:24 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -34,7 +34,7 @@ R880原18×9/独立双轴/全部Artin及R883完整00/01/11/12除子、common-zer
 
 R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接四RR未执行。相对F_(r²) Norm终幂全scalar回归run43870209568/job133309066101成功含dell真ell²点，hash见原执行注，不扩可选测试。
 
-consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature核允许辅助集，R886已付原共用τ=(η,ψ,barψ)=(-1,-ω,-ω²)，三extraEuler在O[G]/Λ[G]真unit及保n1归一；原秩一HS/HO与8.4元齐，[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)已付原全split四因子、显式divisor-sum保原n1/统一分母/真balanced，并接R886受限最高系统；新[全部有限检测](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)以p/p′线性不交逐值保任意有限cohom批、共轭/对偶及既用p环类层，并以17惯性/Sah证inflation核0；真unit子集不满足默认dot⊃，须核split证明只用此接口。底非零/ordinary loc仍开，尚不应用Selmer结论。
+consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature核允许辅助集，R886已付原共用τ=(η,ψ,barψ)=(-1,-ω,-ω²)，三extraEuler在O[G]/Λ[G]真unit及保n1归一；原秩一HS/HO与8.4元齐，[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)已付原全split四因子、显式divisor-sum保原n1/统一分母/真balanced，并接R886受限最高系统；新[全部有限检测](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)以p/p′线性不交逐值保任意有限cohom批、共轭/对偶及既用p环类层，并以17惯性/Sah证inflation核0；真unit子集不满足默认dot⊃，附A以17惯性μ3双投影/全η系数/Sah+Nakayama付任意独立类的两点全p^n矩阵；扩系数只认真实非零det。通常core0，不套MR core1；续真正split有限—奇异关系。底非零/ordinary loc仍开，尚不应用Selmer结论。
 
 ## 当前第二门：四原B与同一低配对
 

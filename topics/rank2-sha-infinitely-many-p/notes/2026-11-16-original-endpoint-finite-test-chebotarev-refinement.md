@@ -252,3 +252,125 @@ cocycle 恒等式和 Chebotarev。未执行数学程序，未扫描目标素数�
 每个已用原 p 环类层及每个有限批 cohomology 测试，
 R886 的三个额外 Euler 单位条件均可与全部原读数同步实现；
 原 n=1 端点类和全十七角色完全不变。
+
+
+## 附录 A. 原十七惯性给出的两个素点全读数
+
+本附录加强 §§2–5：对原最高角色，不仅可以保持一组已经能出现的读数，还能明确描述有限批独立类在两个共轭素点上的联合像。全程固定原 $\ell,p,\eta,\rho_\ell$，不更换原端点。
+
+### A.1 最小系数环与两个整投影
+
+记
+$$
+\mathcal O_0=\mathbf Z_p[\mu_{18}],\qquad k_0=\mathcal O_0/p,\qquad
+T_0=\mathcal O_0(\rho_\ell),\quad A_n=T_0/p^n.
+\tag{A1}
+$$
+根单位和表示都取原指定 p-adic 嵌入。$p\equiv1\pmod6$，故 $\omega\in\mathbf Z_p$，$\mathcal O_0/\mathbf Z_p$ 不分歧，次数为一或三。两条 CM Tate 角色取值于 $\mathbf Z_p^\times$，所以 (A1) 是原表示的实际定义环。上同调类若已另扩系数，须按 A.5 处理；不能凭扩大系数使有限 Galois 像凭空成为更大的向量空间。
+
+令 $T_0^c$ 为同一底模上角色 $\rho_\ell^c$ 的作用，系数保持固定。原共轭自对偶身份给
+$$
+\rho_\ell^c=\mathbf N\rho_\ell^{-1}.
+\tag{A2}
+$$
+因此正文 $\Omega_n$ 同时平凡化 $A_n,A_n^c$。
+
+原十七惯性的 $\eta$ 像是全部 $\mu_{18}$，两条 CM Tate 角色在那里都为一。可取一个惯性元 $a$，使 $\eta(a)=\omega$。因为三个 $e_\ell=5,17,11$ 都模三等于二，
+$$
+\rho_\ell(a)=\omega^2,\qquad \rho_\ell^c(a)=\omega.
+\tag{A3}
+$$
+故在 $A_n^d\oplus(A_n^c)^e$ 上，
+$$
+e_+=\frac{a-\omega}{\omega^2-\omega},\qquad
+e_-=\frac{a-\omega^2}{\omega-\omega^2}
+\tag{A4}
+$$
+是两个整投影。这里分母在 $\mathbf Z_p$ 中为单位。再取十七惯性元 $b$ 使 $\eta(b)$ 为本原十八次根。三个 $e_\ell$ 都与十八互素，因而
+$$
+\mathbf Z_p[\rho_\ell(b)]=
+\mathbf Z_p[\rho_\ell^c(b)]=\mathcal O_0.
+\tag{A5}
+$$
+(A4) 分开两个符号，(A5) 给各自的完整系数环作用；这两步不能以“单个矩阵可逆”替代。
+
+### A.2 联合像定理
+
+**定理。** 取
+$$
+c_1,\ldots,c_d\in H^1(K,A_n),\qquad
+d_1,\ldots,d_e\in H^1(K,A_n^c).
+$$
+假设两组各自的模 p 像分别在 $H^1(K,A_1)$ 与 $H^1(K,A_1^c)$ 中 $k_0$-线性无关。则限制到 $G_{\Omega_n}$ 后的联合同态
+$$
+g\longmapsto(c_1(g),\ldots,c_d(g),d_1(g),\ldots,d_e(g))
+\tag{A6}
+$$
+的像准确为
+$$
+(\mathcal O_0/p^n)^d\oplus(\mathcal O_0/p^n)^e.
+\tag{A7}
+$$
+读数使用固定的两条秩一基。若只考虑一组及其复共轭，可取 $d_i=c_i^c$，其中
+$c_i^c(g)=c_i(cgc^{-1})$，外部复共轭 $c^2=1$ 不作用于系数。
+
+**证明。** 记像为 $I$。它是有限加法 p 群，故为 $\mathbf Z_p$ 子模。正文 (12) 证明它在 $G_K$ 的表示作用下稳定。于是 (A4) 给
+$$
+I=I_+\oplus I_-,
+$$
+(A5) 再证明两个因子各为 $\mathcal O_0/p^n$ 子模。
+
+先看 $I_+$ 的模 p 像。若它是 $k_0^d$ 的真子空间，存在一个非零 $k_0$ 线性行杀掉它。相应的原 $c_i\bmod p$ 的线性组合在 $G_{\Omega_n}$ 上为零。由于 $\operatorname{Gal}(\Omega_n/K)$ 阿贝尔，并仍含正文 (15) 的十七惯性标量 $-1$，Sah 的同一证明给
+$$
+H^1(\operatorname{Gal}(\Omega_n/K),A_1)=0.
+$$
+因此该线性组合在 $H^1(K,A_1)$ 中为零，矛盾。故 $I_+$ 模 p 满射；Nakayama 引理给 $I_+=(\mathcal O_0/p^n)^d$。负号因子同理，得 (A7)。这里用的是整个 $\Omega_n$ 上的 Sah 注入，不曾把限制到 $\Omega_1$ 的像误当成限制到 $\Omega_n$ 的像。证毕。
+
+### A.3 在原单位辅助集合内实现矩阵
+
+将 (A6) 的全部核及其复共轭加入正文 §3 的测试域 $M$。定理说明，在 $\operatorname{Gal}(M/\Omega_n)$ 中可以选择任意指定的 (A7) 读数。正文 §2 的纤维积则允许**保持同一个 $M$-元**，同时要求其在 $F=H_\eta K(E_0[p])$ 上为 $\delta$。
+
+因此，在避开任意给定有限素数集后，可选无穷多个带方向的分裂 $q$，满足正文 $\mathcal P_n\subset\mathcal L_1$ 的全部条件，并实现这些指定读数。选择 $M$ 中的一个素点使其 Frobenius 为已选元，再以固定复共轭选择另一个素点，给准确的两点标识。若只记录未加这种标识的素点，读数只在共同可逆换基下确定；秩和行列式非零不受影响。
+
+特别，对模 p 线性无关的两类 $c_1,c_2$，可令
+$$
+\begin{pmatrix}
+\operatorname{loc}_{\mathfrak q}c_1&
+\operatorname{loc}_{\mathfrak q}c_2\\
+\operatorname{loc}_{\bar{\mathfrak q}}c_1&
+\operatorname{loc}_{\bar{\mathfrak q}}c_2
+\end{pmatrix}
+=
+\begin{pmatrix}1&0\\0&1\end{pmatrix}
+\pmod{p^n},
+\tag{A8}
+$$
+其中第二行按上述共轭标识读取。所有类在这些素点都未分歧，且 $\rho_\ell(\operatorname{Fr})=1\bmod p^n$，故有限局部群的标准 Frobenius 读数确为 $\mathcal O_0/p^n$。同时保有
+$q\equiv1\bmod p^n$、原三个额外 Euler 群环单位、两个原 CM 符号以及原十七角色。
+
+### A.4 已用环类层与逐步选择
+
+上述定理也适用于原有限 Galois p 扩张 $B/K$ 上的类，条件是 $B$ 在十七处不分歧；原 tame 环类层和已用有限反循环层均满足。将 $\Omega_n$ 换成 $B\Omega_n$。十七惯性仍完整包含在 $G_B$，(A3)–(A5) 及 Sah 注入都不变。
+
+先为 $G_B$ 上的两组类构造联合测试域，再加入全部 $K$-共轭和复共轭。得到的 $M/K$ 为 Galois，且 $M/\Omega_n$ 为 p 扩张。原联合测试域是其中的商，故任意 (A7) 读数可先在该商实现，再提升到固定 $B\Omega_n$ 的 $M$-元。正文的纤维积仍可附加 $\delta$。如此选得的 $q$ 还在整个已用 $B$ 中分裂；本段没有把一般非一剩余次数的任意读数也声称为自由变量。
+
+每次选择只需加入此前实际用到的有限类、有限层和有限排除集，再重复上述过程。因此，所有要求在两个共轭素点检测若干独立有限类、指定一个类为零而另一个为单位、或使某个有限局部化矩阵满秩的调用，均可在原 $\mathcal L_1$ 内完成。存在依赖关系的测试必须保持其依赖关系；不能指定与它矛盾的读数。
+
+### A.5 扩大系数时的准确版本
+
+(A7) 是在实际最小环 $\mathcal O_0$ 上的陈述。若把系数扩大为有限扩张 $\mathcal O'$，一个有限 Galois 加法像不自动是 $\mathcal O'$ 子模，所以不无条件声称任意 $\mathcal O'/p^n$ 矩阵都能由 Frobenius 实现。
+
+所需的秩与非零行列式结论仍有无损版本。在残余系数域 $k'$ 上取两类 $c_1,c_2$ 线性无关。Sah 注入表明它们的正号联合像的 $k'$-线性包为 $(k')^2$；同一组的负号像由复共轭给出。两个符号仍由 (A4) 独立分开。因此可分别选正号、负号像中的两条 $k'$-线性无关向量，再在同一个群元上同时实现它们。所得两点矩阵的行列式在 $k'$ 中非零，并仍能附加原 $\delta$ 条件。这足够支付两类的同时独立检测，却没有把其具体矩阵强行归为 (A8) 的单位阵。
+
+对于有限多个更一般的测试，先按其实际定义环及真实联合像工作，再使用正文的逐值引理；不作无根据的系数饱和。
+
+### A.6 接下来仍需证明的关系
+
+本附录支付的是原 split 下降的**选素数接口**，没有制造 Euler 类的有限—奇异关系。原 balanced 条件在 $\mathfrak p$ 全、$\bar{\mathfrak p}$ 零，且共轭自对偶；通常 Mazur–Rubin 的 core-rank-one 定理不能因此直接调用。
+
+这一点也可从已发表 Lei–Loeffler–Zerbes 的
+[Euler systems for modular forms over imaginary quadratic fields](https://antoniolei.com/wp-content/uploads/2014/11/cmeuler.pdf)
+Appendix B.2.4（印 pp.39–40）的 core-rank 公式核对：
+本题秩一 $V$ 的复处贡献为一，两 p 位的局部群总维数为二，原 full/zero 条件维数为一，两处 $H^0(V^\vee(1))$ 均零，故通常 core rank 为零。
+必须使用或证明真正的 split、共轭自对偶下降；上述全矩阵检测恰为这种证明提供一个现已完整付清的调用接口。
+它本身不宣布原 Selmer 秩、原底类非零或普通局部化单射。
