@@ -136,3 +136,5 @@
 - [R549 三p联合矩门与真实水平修复障碍](results/R549-three-p-moment-balance-and-real-horizontal-repair-obstructions.md)：**已证明**完整正负曲率质量的准确三矩条件、R548全前缀σ²及固定低负尾不可能；恒u/恒真高度/高度能量和同时t1返回的原时间成本保。formal锥/端时长不授实际可达或Jacobian，尚未三p/全M0。
 
 - [R550 同一规范的正水平支与真实总p2零](results/R550-positive-horizontal-branch-and-exact-p2-zero-with-one-fixed-gauge.md)：**已证明**原t1次阶历史驱动真实k转正、正j/升高和第二coast唯一总p2零，中心总t1仍正；固定正r另保p1负。准确p2零处p1余项号未定、p0严格正，全部真实费用保，未三p/全M0。
+
+- [R551 同一33母固定规范的真实负δ入段](results/R551-real-negative-delta-entry-on-the-same-thirty-three-mother-and-fixed-gauge.md)：**已证明**从实际W*>0正X端，经原矩脉冲/完整conic中心/同根切换达到非零dc返回，保净Π负/k>2；小正hc从起点子族付W号，不能推广任意旧末态。全T和Oτ负t1成本保，整层/慢恢复/全矩仍待。
