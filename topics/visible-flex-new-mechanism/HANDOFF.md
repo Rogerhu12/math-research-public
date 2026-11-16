@@ -38,6 +38,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)核原raw八矩：同R520的末常态germ还须完整bc(δA,Ac)=qc(δA)=0，真实第三W保。若εh=hmax√L‖hs‖₂/hmin²<1，同长度八矩等于LMc强迫全程常态；完整M0必须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。仅scalar返回未排，不借局部IFT充有限幅桥。
 
+R520(13)解释已补T_y″完整C²余项4ypr−2y²r²−2p²；原βc已含它，αc/principal和既有结论不变。该修文无科学执行。
+
 ## 5. 不同母库的范围与新的完整history反馈
 
 原R469–509、R512/515/517和全部成本保[索引](results.md)。R507只有scalar端值；R508/509只给secant局部端口。R512字面同形母一次固定规范的完整方程在常态bulk有正t²障碍；R515任何合法secant上p1二次系数Q≥15∫b²/32；R517在同一特殊库中证明光滑周期模板第二次K0 iff M0，合法实解析整圆一周期K0可延拓迫M0。这些不排一般有限幅值/可变母，也未构造周期轨道；不能移植其YC全消前提给R520/521。

@@ -785,3 +785,7 @@ R521以真实有限正交复制保全部第三history，原kss行经完整IBP在
 
 ## 2026-11-16 13:21 UTC：R524固定规范返回与真实八矩障碍
 [R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)付常态germ的两完整二次门、小高度速度盒内相同八矩传递刚性及M0的换号/高度速度/严格ω振幅必要界；原R73坐标与R482真实第三势已逐式核对，不排一般有限幅路径。private实际pull至f30bd4b570719904bebe98f2bc5e5e605f67da7b，README无变、QUEUE唯一进行中；下一继续同库非局部连接，无新科学执行。
+
+
+## 2026-11-16 13:24 UTC：R520完整导数呈示更正
+R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc的C²余项，αc及22行principal、固定规范结论不变。按原T_y定义纸面两次求导核对；没有新科学执行，当前58及2882.412483226秒/147值不变。
