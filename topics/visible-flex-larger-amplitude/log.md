@@ -65,3 +65,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:29 UTC /root — R537实际226完整来源与科学正文超限
 
 [R537实际226](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)完整可见结论独立刊；source56393/6123全361源，whole109972/7416超90K仅1079/33a0诚实70/false，具体科学/错误未返。独立return1/rules1/science1、resource_stop/external null/owned quiet true、removed false，report success只运输；root两终态各一次，无raw存Git/借225推值/科学父。H更新226终态与237/238实际compute，open/索引同步§4–6原字。
+
+## 2026-11-16 14:32 UTC /root — R572五原合成乘积同RN128词与完整接口
+
+[R572](results/R572-exact-root-synthesis-products-and-original-sum-order.md)四件57061B独立完整刊；五原合成逐调用未变R564核保RN128词与原+=/左式/table/构词/方向，资格外原乘法，公共数值前缀归纳不冒fenv/资源/速度同。5×17/full last、7/3 literal、20deps、原scope一次安装→原main实际g++/全门/caps/CLI partial70完整，无数值实验。R537已f2a641a6，R573/240下一独立刊并单POST；H/open/索引同步§4–6保。

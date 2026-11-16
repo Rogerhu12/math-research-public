@@ -63,3 +63,5 @@
 - [R575 — 完整cylindrical投影tail与无限alias缺陷](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)：三件59453B；同次R553/R521完整非仿射二阶、全部signed bins/两mean/无限alias、原全DFS正域才global；phase pullback与FFT形成边界明确，组件不冒R576完整注册。
 
 - [R537 — actual226完整源返回与科学必要正文超限](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)：source56393完整/361源，whole109972未返/1079诚实70，独立code1/1/1/quiet=true与removed=false，全部科学未返责任保；不借225推值/原因/速度，无新父。
+
+- [R572 — 五处原root合成乘积同RN128字与原sum顺序](results/R572-exact-root-synthesis-products-and-original-sum-order.md)：四件57061B；未变R564核/原表达式与回退、全部sum/方向/构词保，5×17/full last、20依赖/一次原scope安装/完整失败CLI；无速度或实际接受，R573完整入口另刊。
