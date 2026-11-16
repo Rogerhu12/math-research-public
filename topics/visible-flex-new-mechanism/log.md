@@ -482,3 +482,7 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ### 2026-11-16 08:32:45 UTC — R486 完整三导平方与状态开域障碍
 
 [R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)把原R296点态三项相消推广到任意真实水平路径，保真正初端A/T/速度常数；完整principal为−Σa_i²d_i∫(Q/h)L_i²(u_i‴)²，余表有限quartic C²但不可冒全可控。原全W与完整两表给H_PP,2−H_SP,1=−(5/2)Σd_i²∫(u_i″)⁴，在π/2等于−10∫g″⁴<0。因此固定同规范的完整无加速度F不能在13状态开域全零；不排实际ODE的低维允许路径。常scalar真M_c=bvᵀ、rank1/M_c²0且physical权b/(4h)，须在该关联族判完整平方及入口两系数；算子复合不由矩阵平方0删除。54高阶/108完整生成上界非实际秩。0新执行/旧重算，主完成未付。
+
+### 2026-11-16 08:33:00 UTC — R487 真log曲率提升与固定全端germ的五门下降
+
+[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)把R481任一紧δU=φ准确提升为gφ=((2/3)p^(−1/3)φ′)″/ρ，原同锚恢复给δU=φ、端数据一阶0。三真normal核1/−t/K且K″=3√v/2>0，五+三可逆block通过有限IFT保整个右germ/左germ和正ρ，准确实现F→(1−ε)F；一般normal的端势与全部归一敏感度保留。当前15预选正bump并未获这个满秩收据；盒内精确非零驻点必有模型外允许下降，边界或浮点optimality不作该断言。无统一步长/有限全局零结论。0执行/旧重算，下一可消费首次真实cap的新适配方向，主几何未完成。
