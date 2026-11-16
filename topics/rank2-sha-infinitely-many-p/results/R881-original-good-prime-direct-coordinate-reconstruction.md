@@ -293,3 +293,33 @@ r29/ℓ5与r41/ℓ7的选择仍按 R880 及原固定系数的实际整组合决�
 它按上述原三角顺序执行，逐项检查整性和绝对精度，只返回调用者原局部域
 中的系数，约化的几何剩余域嵌入仍由消费者固定。
 本节未执行该 helper；实际调用和运行哈希随原 consumer 记录。
+
+
+## 执行附录：r=29 的原形式输入及完整绝对精度
+
+2026-11-16 10:39:44 UTC，公开 [run 43850679589](https://github.com/Rogerhu12/math-research-public/actions/runs/43850679589)、job 133242082519 成功。源码提交 de42a2c8c4850202a184b1b88e42a92c981db1ef，Sage 10.6；实际执行约 26.50 秒。完整参数保 [原 request](../ci/original-shadow-local-input-request.json)。首次 run 43850106573 在 Qq 接收 Python int 时失败；本次只把该输入显式转为 Sage ZZ 后重跑。
+
+这次确实从原 CM 系数与原 E17 的 anlist 生成全部输入，并分别执行 P 到 1226、F 到 1428。以下是该完整执行的数学结论：
+
+- P 的三个固定未分歧嵌入全部通过；分母损失实算 44，使用已证保守界 45，从 64 位输入保证至少 19 位绝对精度。
+- F 分母损失实算 51，使用已证保守界 52，保证至少 12 位绝对精度。
+- 取 ω²+ω+1=0，a³=17 的原剩余根按程序顺序为 12、12ω、17+17ω；原 Artin σ 的实际标号为 (2,0,1)，与把后两嵌入互换的常数 Frobenius 分开。
+- P 的实嵌入和 F 的原剩余系数都在 F29；另外两个 P 展开的常数 Frobenius 共轭逐系数通过。没有在不同嵌入间任意另选根。
+
+只存 source、参数、run 和下列摘要 hash；全系数行只存在任务进程内，可由 producer 重算。整体 RANK2_SHADOW_LOCAL_RESULT 的 SHA256 为：
+
+`eeb45e36cad8a34e3382350f065fe1ca2ca4d51dd52182368dec1a9142136643`
+
+分项 hash：
+
+| 对象 | SHA256 |
+|---|---|
+| 原精确 CM 输入 | `610d87bb2b46c57a58d85eb3048bbb3111f59791db37ea09b187988658db1304` |
+| 原归一 fP | `5b864e5d37f8fa6687a1bee1e910ef99a64130cc930bb1a92d93f00bb1b14b71` |
+| P 第 0 嵌入 QY | `9b8e6b4c34e76d60d34c935cca48b36a4626620cb0a55f640f2dfab6f5306c7c` |
+| P 第 1 嵌入 QY | `f3c3e6f1143d0474539cf2608eb797127a9b5df063c0531135e53b56fd35d867` |
+| P 第 2 嵌入 QY | `69ad78aac21814a21a5a2866b656202f97f6f5ec11ae1298e6fb61495ed8df6c` |
+| 原 F 的 q³y | `3e7827ebb66b3db3de7d2d99c8ac04a75879b0c4d2ec37a1988035f721a87bd6` |
+| 原 F 的 vF | `2266155be55955bf158c5318cdb52fcb77b89cbdf8f8344de8ea186848985382` |
+
+**范围仍是 formal_input_and_precision_certified。** 这不是任一原特征零映射的成功证书，也没有执行非零 shadow。将这些形式行解释为同原模曲线上的约化地图，仍要先有两张原特征零全恒等式 PASS，并用真正的 R882 RR 基及本正文的完整低核界恢复。

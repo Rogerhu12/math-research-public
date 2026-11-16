@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：de42a2c8c4850202a184b1b88e42a92c981db1ef；2026-11-16 10:39:38 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:29:26 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
+- 最近已读规则提交：ad0a07d44c8fc264cb6ed97201fb4468f2bbb33a；2026-11-16 10:41:15 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:41:15 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -22,7 +22,7 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 
 R862–R875全部原h/τ/ell、2048κ尺度、17整返回、完整Φ17/三H、全Hecke整格与旧degree排除保完整前检；不由q整或整数准度数认Hom。
 
-**原实际候选P**：R874全q理想I∞=uOE，u=(915+1097θ+2962eps2)/55569、λu=(68+7a−13a²)/3。目标vnew=(−34−17a+11a²)/3，小最小模型119−18a²，OF=Zβ、归一系数模β⁻¹OF仅二处负值。R875精确Gram给全格最小376、q<664仅±u；这些仍非Hom。原k4/6坐标run43835679463/job133191600105与原F run43839815472/job133205402538继续，尚未认证。R867返回保17/51全尺度，求交采用R880三真Artin共轭、双轴九项与原pair；两认证后每g映射degree376，三循环让F仅进最后闭点trace。R881原好素数RR/64位及实际低核消费helper均已写；低核只接两真PASS和原RR基，全部germ界保；原r29局部输入producer已交（P到1226/F到1428、3真嵌入/τ标号、64位），首次run43850106573止于Qq参数类型，改Sage ZZ后重跑；只认证formal精度，仍须两char0 PASS。原shadow未执行。R880附A付同CM符号的整九项检测：先eω/全χ，r29几何F841而角色F5^6；无挠H1返回同原有理类，勿预乘人为旧D的5抹掉信号。original_shadow_coefficient_tools.py已写完整18×9×2向量/CM投影消费，只接真闭点迹及两成功证书，尚未执行。附B以原R的ω/ω²等变消整个次数交叉项，差图degree2256(r+1)：r29除子67680、x极135360，逐σ/a/b保全部重数。
+**原实际候选P**：R874全q理想I∞=uOE，u=(915+1097θ+2962eps2)/55569、λu=(68+7a−13a²)/3。目标vnew=(−34−17a+11a²)/3，小最小模型119−18a²，OF=Zβ、归一系数模β⁻¹OF仅二处负值。R875精确Gram给全格最小376、q<664仅±u；这些仍非Hom。原k4/6坐标run43835679463/job133191600105与原F run43839815472/job133205402538继续，尚未认证。R867返回保17/51全尺度，求交采用R880三真Artin共轭、双轴九项与原pair；两认证后每g映射degree376，三循环让F仅进最后闭点trace。R881原好素数RR/64位及实际低核消费helper均已写；低核只接两真PASS和原RR基，全部germ界保；原r29局部输入producer已交（P到1226/F到1428、3真嵌入/τ标号、64位），修Qq参数后run43850679589/job133242082519成功：P实际loss44/保证19位，F实际51/保证12位，原τ标号(2,0,1)；仅formal精度，仍须两char0 PASS。原shadow未执行。R880附A付同CM符号的整九项检测：先eω/全χ，r29几何F841而角色F5^6；无挠H1返回同原有理类，勿预乘人为旧D的5抹掉信号。original_shadow_coefficient_tools.py已写完整18×9×2向量/CM投影消费，只接真闭点迹及两成功证书，尚未执行。附B以原R的ω/ω²等变消整个次数交叉项，差图degree2256(r+1)：r29除子67680、x极135360，逐σ/a/b保全部重数。
 
 
 R882付原X10404=Norm(B867×_{T3}E_src)的18覆盖：E_src:y²=x³+1，A=(x³+4)/x²，T=A³−27；B0=(5x³+8−y(x³−8))/x⁴、B2=(x³−2)/x固定q0/q2。全17方块一次gcd保三坐标、全部0/−27/∞分支及正规化。认证后F用ε=−Ty′/A⁶、RF³=(vF²−17D)/(D(T+27))；P用RP³=Y(Y+vnew)/(T+27)²，根∞1且完整dnew/Artin尺度保。r29真实RR前端已交公开producer（原Φ17→degree306→正规化/全部36 cusp→D204→真120维RR/205项），旧run43845849732/job133225696920在resultant系数字典解包失败；已改.items()重跑。附A原eta商t=η1η867/(η3η289)、t12=T/V给degree48底；全cusp表及最低权(24,−1)在(1,1)为零唯一选原48因子，T/U/V与D204全保。独立eta48旧run43847625807同处失败并一同修复重跑；不假坐标或shadow非零。
@@ -45,4 +45,4 @@ R861/R865原a*=−34C_H对齐、完整gflat及参考恢复3H[w4]BW3保，L1=q2/3
 R834/836单位块、R837三长/两长和自然47/12的q1/2缺口保；旧47/8须真第三长，HN为9κ−3χ−12b。R840同Kcorr/Hcorr两高前缀、第三3η/第四短行、末同cF³仍未全付；disc²读所有分支。R842 WT上[b0]=−BD−Pr未知，全部negative/moving/十九角/同P保。
 [原全CM文献门](notes/2026-11-16-original-cm-diagonal-euler-system-big-image-scope.md)已核：ACR四维big image和Castella–Do非CM秩一应用均不适用原输入；类构造不否定，原AJ仍须实付。
 O4/O6/O7、R364/R561/R654/R712及全部旧open未闭；有限p、复秩1、局部unit、条件height或别cycle不完成；AST/strict/fine不替通常全Selmer。
-10:34:48实际CI pull成功，run43850106584/job133240146686/headdc63f110，两README差异空且blob一致；下一11:20前。原P/F尚未认证；RR两初run修dict.items后已重跑43850251992/43850252040，local输入Qq参数修ZZ后重跑43850679589。
+10:34:48实际CI pull成功，run43850106584/job133240146686/headdc63f110，两README差异空且blob一致；下一11:20前。原P/F尚未认证；RR两初run修dict.items后已重跑43850251992/43850252040，local输入43850679589已成功，真实约化地图仍须两char0 PASS。

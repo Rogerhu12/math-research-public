@@ -140,3 +140,6 @@
 
 
 - [R872真正因子层尾像](notes/2026-11-16-r872-tail-adjustments-in-cubic-and-square-factor-lattices.md)：同原WD/K1下，F³剩因子含t²，非F⁴必d−3κ≥h−7；F²层四原行/六次帽再迫剩因子含t²，非F³必d−2κ≥min(2h−11,h+ell)+4。两严格反门下K1∩V2=V4，实际W2从s+1起，三尾全0。严格f0成本为3，全部非F²余来源和同R/S仍开，未假门对所有候选成立。
+
+
+- [R881执行附录](results/R881-original-good-prime-direct-coordinate-reconstruction.md)：原r29形式输入run43850679589已成功，三个P到1226实loss44/保证19位、F到1428实loss51/保证12位；原τ标号(2,0,1)、实支/F_r和另外两支常数Frob全核。仅存源码/参数/run/hash，尚非两char0地图证书或shadow非零。
