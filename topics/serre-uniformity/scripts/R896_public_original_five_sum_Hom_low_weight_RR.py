@@ -469,7 +469,11 @@ def source_review(item,retained,sources,inputs):
             if name.endswith(".json.gz"):
                 value=read(folder/name)
                 assert value["complete"] is True and value["configuration"]==tag
-                assert value["result"]==source["result"]
+                if group=="R827":
+                    assert "result" not in value
+                    assert value["configuration"]["result"]==source["result"]
+                else:
+                    assert value["result"]==source["result"]
     def stage(row):
         group=row["source_group"];assert sources[group]["files"][row["file"]]==plain(row)
         value=read(bound(Path(retained)/group,row))
