@@ -3,11 +3,11 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** b08202d27c7ad6ea6b647ba3899114854c895fc2（2026-11-16 01:59:09 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** ad0278b29f83c035d83f44a262a1e375137c3450（2026-11-16 02:07:05 UTC，Actions run43790182300实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43790182300-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 完整前态保[H](notes/2026-11-16-handoff-before-complete-high-kernel-789f.md)/[open](notes/2026-11-16-open-before-complete-high-kernel-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 完整前态保[H](notes/2026-11-16-handoff-before-complete-number-field-seven-789f.md)/[open](notes/2026-11-16-open-before-complete-number-field-seven-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：原模块、精确已付结论与仍缺的特征零成员性
 
@@ -22,15 +22,15 @@
 - **[∞127/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** 全3959098单位、原高低与11阶给full66/sub55/max11；同Q∞66给原单位首项minor、C127有限及Δ首一127整/保次数。失败schema保留，新v2成功。
 - **[Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)：** 全121给barΩ=Ψ60²；原Q13全部2015式/6069系数/双211 minors同230，J127=0。因此C127/127全299、degΔ+Σt127=299；新增系数方向见下。
 - **[九目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)；九单cyclic23且最小式均mon(h*)，h*/h0九列全零。全部原7245/7475/2691乘回真；仅field成员，不升Q或p²，父NF/GB/state不重。
-- **rank-one及critical仍开：** μb_r^16有17原来源/degree_m≤26；μ1才关rank-one，非rank-one/ess(T3)≥4仍开。[critical135/270完整切片](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域high均2且相等，fullleading13/gain0、局部仍6…8/6…8/4…5。[真normal3/300坐标](results/R150-appendix-complete-pure-cubic-normal-critical-high-slice.md)三域实算仍gain0：17×12 rank10/high2，λ=0且仍旧空间。[完整H6018×4266](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)实际三域模秩4259，Q核维仅夹2…7；其余方向须真Q恢复后再进170×101全低块。
+- **rank-one及critical：** μb_r^16有17原来源/degree_m≤26；μ1、非rank-one/ess(T3)≥4仍开。135/270/300切片无增的完整证据保前态；[真Q完整高核](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)三域153×60实rank53，七独立原列各43316乘回，高6018全零；配已付残域rank4259，完整Q高核恰7。162支持包含原切片缺失的一normal高补偿；完整首连接须S170×101＋7返回＋全部低阶jet，局部长仍6…8/6…8/4…5。
 
 - **[root63真实127系数扭](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 新live13实际7.212422285秒（含compile2.82884831），全1834 globalZ中925读数非零；node26969742/原3463、反传6188支持4324、4367原p²乘回读40。至少1个指数1方向占满simple s+64，barΔ|χ299/(s+64)、Δ≤298/齐次≤364、μ≤20。raw12445·2a7dd4da/bindingc62fcba9；不认925维或Q成员。
 
 ## 活跃执行、临时缓存与立即恢复
 
-- **旧live run43756208221** 始20:06:58 UTC/350分钟，约01:57到期；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221，request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json。历史52步全成并归档request；活跃3任务是真Q153×60/各300秒2GiB，完成7列才夹全H核；接170×108完整连接。原field7支撑162已真核。Q/∞/Ω/core、各critical父缓存仍临时；新候选须真Q全乘回，过期只按小源码重建，禁上传大数组。
-- **新live run43772109844** 始22:57:13 UTC/350分钟；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。16步：前14全成；15 reader领先方向错误/无phase；16 v2仅修为最小component，独立out/binding重排300秒4GiB，完整primary10维覆盖待实际。保global197、root2全210 recipe、原127完整NF/GB/state/target25/primary缓存。原4367运输/全1834Z检测待付；25图只作Q相对模块参考。
-- 两runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
+- **旧live run43756208221已success结束**：55数学步小回执全推，三域真Q核7实际39.423/50.272/276.666秒。旧tmp及Q/∞/Ω/core缓存不再视为活；接完整首连接须从小源码最小重算weak135三父→同Q7三域，逐旧manifest/phase SHA核对。禁止上传可重算大数组。原request及52步历史归档保前态。
+- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。16步：前14成功/15 reader失败/16 v2成功9.149秒，E8-1两泛函覆盖完整10维，12252原GB jet与120作用核真；4367运输/全1834Z未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
+- 活跃runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
 ## 原边界：同一个w与完整返回继续

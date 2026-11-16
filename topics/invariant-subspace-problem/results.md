@@ -476,3 +476,5 @@
 - **R150残域完整7高核已恢复（2026-11-16）：** [同完整原H的§7](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)逆代全部4259已付主元，三域free-I7及42126原乘回真；核只在162坐标n²/cn²/dn²和d²n/d³n/cd²n，normal≥3全零，一normal投影rank5。真Q核仍2…7，未把field列直接升Q；下一真Q153×60与完整低连接。
 
 - **R150真实162支撑的完备小化（2026-11-16）：** [原高源级153×60定理](results/R150-appendix-complete162-critical-high-slice-and-sixty-variable-reduction.md)在实际Lz=q/Lv=0/rank[v,z]=2门下，把全部162支持列准确参数化为T0的45、u的9及两份Sym²(v,z)各3；普通对角/全部6018来源均保，7独立真列才夹全高核。
+
+- **R150三数域完整高核恰七（2026-11-16）：** [完整特征零证明](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)将162支持严格化成153×60，三域实rank53；七原列各43316乘回真，高6018行全零，配规定残域rank4259得完整Q高核7。实际39.423/50.272/276.666秒，normal≥3全零，低170×7返回全部保留。它覆盖早先Q维2…7的状态；尚未增加参数长度，完整首连接继续。
