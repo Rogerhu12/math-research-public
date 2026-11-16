@@ -159,3 +159,5 @@
 - **R560**：[actual235 完整采样及准确参数/闭面配方绑定停止](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)：545源、全112传播/13850点完成，C2609工作分辨率责任保；BVP与closed工程边界停、全部必要≤90K完整、真实quiet后清raw。
 
 - **R615 / request253**：[同engine归一化六moment的完整owner12000入口与接口](results/R615-same-engine-normalized-moment-complete-owner12000-entry.md)：原466全保、480当前来源、真实单套R611表与原完整AT，原全数学/clock/必要门保持；实际终态预留R614。
+
+- **R606 / request251**：[实际同对象解析投影与保存RHS C1完整调用](results/R606-actual-same-object-analytic-saved-RHS-C1-complete-caller.md)，[完整来源/CLI接口](notes/2026-11-16-request251-analytic-saved-RHS-C1-complete-chain-interface.md)：769来源/17层、候选至driver/field真实级联、同R580/R601唯一finish，原完整两必要与全部数学/资源/清理门保；终态预留R608。

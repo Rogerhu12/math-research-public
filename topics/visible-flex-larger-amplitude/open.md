@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R606/request251（完整九件，本次独立刊后唯一派发）**：[组成证明](results/R606-actual-same-object-analytic-saved-RHS-C1-complete-caller.md)、[完整CLI与scope接口](notes/2026-11-16-request251-analytic-saved-RHS-C1-complete-chain-interface.md)。769=331public+438generated/17层，旧704对全保，新51候选/driver/pipeline/field真实来源级联加7same-C消费者，owner三个实际计数全修。真实R580.inspect/retire消费同R553返回与原split，R601唯一finish消费同R580/R596；原R575独立诊断保，原metric全域/闭面/时钟/精化门不变。两份generation/composition完整原选scope各作具名同体逆、包含全部报告的whole严格小才用，全部未知/错误/未访和90K/70/quiet保。R608仅未来实际run支付；R610锚/Gram未塞入该已完整入口。旧716草稿全部作废，以本九件532302/topic439030为准。
+
 **R615/request253（独立完整入口，本次刊后唯一派发）**：[完整证明和CLI](results/R615-same-engine-normalized-moment-complete-owner12000-entry.md)，七件topic135879B，全部480=370public+110generated，原250全部466对保。真实新flow/factory仅一套R611表，原root-momentum路径仍受原capacity loader；当前完整J、原R602/R523 AT、226×224/两mean/RK顺序和原当前H/R532/四components/FD/fullDN/freshaudit不变。完整8+14统计、safe-integer范围、已保存/未保存位置、双必要whole90000/70及原cleanup保；parent250 actual未消费为数值父，12000/19200原合同保。R614只在未来实际终态给run/head/job/值；本条无提速、fit或接受预填。
 
 **R560（实际235，本次独立刊）**：[完整结论](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)。545全源/九层248生成完成，C全自然粗界有效但2609数值工作分辨率片段未付；完整十参数域、112深尾/有限far联合代表、13850点和16128出现均完。BVP1.799s在准确有理串float转词报错，453/450未起；closed旧recipe名缺失，而真实coast配方存在；原15refinement/8sameC角色完整未起责任保。generation86540/composition86886/rules87369/BVP82642/refinement66187/sameC50648等原独立必要全部完整，原quiescence重核后17:27:40.076Z实清raw。R599已修两源码边界，此次不重派旧235；大logconnector整读偏差如实入文/H，后续只Actions一次+完整scope小回读，原科学事实不变。

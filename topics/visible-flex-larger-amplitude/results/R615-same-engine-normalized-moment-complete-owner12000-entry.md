@@ -410,3 +410,12 @@ cleanup 只在第9.3节条件成立时调用同runner的 `cleanup`，传同一 `
 
 已经支付的是：R611同engine原除法词命题的真实完整caller、具体source/loader/HERE/clock接口、完整observer与原必要选择的实际接线。仍需实际253支付 source生成、全原inputs恢复、当前owner真实返回、全model/components/FD/fullDN/末audit、实际资源前沿、两份90K正文及quiet清理。哪一项未开始、失败、超限或中断均按实际证据保原范围，不能由本稿完整、某表qualification=true或统计量大推出接受，也不能由某个声明false直接补成数值失败。
 
+
+
+## 12. 实际独立发布与单次派发回执
+
+本节仅补正式发布/派发的实际行政事实，未填科学结果。完整七件source/proof按本稿身份以source commit3997774b988d7f6ed0a5fc3267c526ac4e083bc7进入唯一发布流程；行政run43922546475/job133493336177。实际17:51:12推送非快进后，立即真实pull/rebase，读main45b7e91f3d7dfdcf667999634dd23e669d71acf5；根/课题README仍分别为21bd547f56590b7f2dd279d0297efb289a9b2783和bff8aea253a9e6a7a4fac28d810ac454c5499fec。
+
+17:51:16.0899952Z普通push成功，main为4d572940046abc277049507545cbfbaf5785bc60；该时题内总量199224738字节。随后同一次发布流程对workflow420425819只发一个官方POST，17:51:22.9807024Z回200，实际run43922725201。官方再核head仍为4d572940046abc277049507545cbfbaf5785bc60、event=workflow_dispatch、attempt=1，compute job133493981603。
+
+17:51:45的官方metadata显示前1–5步完成、第6步安装原runtime；没有读取running log，没有实际source准备/科学返回预填。后续R614由同一指定读者在真实终态取原必要scope；本段不把发布成功或已启动当数学接受。
