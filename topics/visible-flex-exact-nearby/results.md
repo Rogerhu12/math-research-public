@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RDA：原完整forcing下首Airy幅度的精确根导数](results/R133-supplement-exact-root-first-Airy-amplitude-derivative.md)：Da1=−iε[6dφφ/5+D(ell/η)/2−(ell/η)dφ/2]，由原径向项、完整mean与zero-trace transport直接推出；genuine修正首导为0，两sign完整乘子无额外2。低jet输入的正预算是未来consumer合同，实际球、完整RD门、incoming和finite逆仍未付。
+
 - [R133/RBJ：精确leading二阶根jet与首Airy b根值](results/R133-supplement-exact-leading-second-root-jet-and-first-Airy-b-value.md)：同真实解析折叠的三阶展开给D²a0完整mean/drift，原H^-1HD保径向项并证明b1两sign相同。明确Db1所需完整邻域DFb与D³a0未付，genuine potential与完整RD余项原序保留；无新数值、稳定门或incoming结论。
 
 - [NPKA：周期核消费者实际双窗与完整sign系数](results/R133-supplement-actual-normalizer-periodic-kernel-refinement.md)：43778474673/1/18门成功；同逆两whole选K0≈3.19764e38、K−≈2.43651e44，四affine有序完整候选已付；全部CE/incoming/finite仍未付。

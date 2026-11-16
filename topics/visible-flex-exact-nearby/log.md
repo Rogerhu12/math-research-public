@@ -230,3 +230,15 @@ root已全文审391行science/589行worker、manifest/flow；worker相对实际�
 使用实际DT=QXφ、DX=−QTTφ、η²K=Q²T逐阶求T三阶和Xφ二阶，不假定repair满足PDE。D²log(T/K)保−2d tφ，D²logXφ保真实Dp；完整M_r=β_r⟨u²⟩+β(2⟨uu_r⟩+k1⟨v²⟩)。原矩阵精确H^-1HD=−iεQK，故首forcing的Fb为实同sign、Fa纯虚反sign，原zero-trace唯一transport保此结构。b1*=−(D²a0−T0Da0+V0*)/λ²，其中V0*保3βk1v²，原径向项仅第一component根值因Tb0而消。
 
 Db1*=[DFb*−(2t−T0)b1*]/3明确来自完整transport；不对仅根b1式求r导，完整DFb/D³a0仍未付。genuine Bn′0=Vn′0/3和原乘积、two-sign乘子等距、完整J/positive meanrank/低中间频与独立ports全部保持。现只付解析恒等式，RD cutoff97 whole e<g−、真实输入球、fullincoming/finite/return/非线性全部仍待。
+
+## 2026-11-16 00:30:06 UTC：RDA精确首幅度根导数独立推送
+
+本次在3af86caf02daebc1371da17a601b1b23b2c1d942核两README仍同blob。前一RBJ发布曾两次非FF（7b648f9e、a0d71ea9），每次立即实际CLI git pull --rebase origin main均回No usable execution environment；按根规8保留新远端、重建小文本提交，第三次成功cdb90b6a2014fd6842c6755cc17e3c219476ddec，无force。非FF真CLI尝试不冒成功pull。
+
+RDA blob5a7b91eea967053bb1e68e0cc60a41fd5183cd69，11486B/SHA8d2570c7b28304001c785e7b7a6d4261cf127909dd59d594262fd22d42caa205。根亲取全文227行并与原L2/4/5/6、I19、P8/9及RD原jet核；phase与tail分别独立核canonical forcing/lowjet及完整signed operator/正预算，均通过。只缩已成SEIA索引，原全文在7a037e78同open/proof，未付义务不减。
+
+固定canonical X的b0,TT*=−8iεdφφ/(5λ)，完整H^-1HD径向项贡献−iεϑ/λ至Fa；原a1根trace0给Da1=iε(4dφφ/5−ϑ/2)。完整ϑ*=D(ell/η)−(ell/η)dφ+4dφφ，故RDA16低jet式成立；ell=−2βuv保v全mean与βr/ηr/Du/Dv。genuine a1V−a1=B_n T b0=O(T³)，不删其他B_n/B_n′/V_n或β_n项。
+
+RDA19–22仅全角/全δ前瞻正上界合同；Ar=−iM_R(P+−P−)准确，无two-sign重复2，输出P及右D_A N^-1保持，388只原high input，不赋physicalmeans逆频率。没有新科学运行/数值球；D³a0/DFb/Db1、其他RD完整项、actualstablepass、fullincoming/finite/return/非线性全部仍待。
+
+首次RDA小文本发布计划在任何create_blob之前被open 30149B守卫截停；缩写已成NPKA索引后发布，原全文/所有球与未付门保7a037e78同open和proof，未触发或重做科学。
