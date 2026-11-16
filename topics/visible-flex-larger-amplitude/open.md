@@ -68,7 +68,9 @@ R437/433/434/438/452的首闭场须真实同C全field/cut/两帽/atlas/shared、
 
 容量整理已按根15普通删除[actual63两生成清单](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15的1441937B与[actual62两生成清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)/77fae38c的1352194B；仅指定生成文件，原输入/91、98等真父/参数/源码/历史保，不作科学进展。
 
-**R487：完整coast范围实际组合进三级增量精化；无新科学结果。** [证明](results/R487-complete-coast-three-level-incremental-refinement-composition.md)17544B/ed9bedf0、[216总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)27739B/b741632d与六执行/源计划本次刊。以真实214为祖先保251公开+15原R464 view，增9公开、R483五view与13新view得260+33；派生205的195项为真实角色表，不冒完整动态闭包。新coast源真接首场、R456和R464 union的metric/post/reader/held及统一evidence；同72c定义/C族/十词/compiler/全部原求解与门、三层depth2、五factor2后M128/四factor1、全部t与display/预算保。只改准确目标包围，不改factory初点域、不保证盒收紧或误差下降；缺B不加精化门。实际checkout按15→5→13生成，准备读写同source-preparation216；唯一18900+2700钟、全部scope与quiet才清。chain超90K仍70，composition超限沿原ValueError/1分列。request994c/wf bcb8另步立即发布，R488由exact唯一读终态。
+**R487：完整coast范围实际组合进三级增量精化；无新科学结果。** [证明](results/R487-complete-coast-three-level-incremental-refinement-composition.md)17544B/ed9bedf0、[216总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)27739B/b741632d与六执行/源计划本次刊。以真实214为祖先保251公开+15原R464 view，增9公开、R483五view与13新view得260+33；派生205的195项为真实角色表，不冒完整动态闭包。新coast源真接首场、R456和R464 union的metric/post/reader/held及统一evidence；同72c定义/C族/十词/compiler/全部原求解与门、三层depth2、五factor2后M128/四factor1、全部t与display/预算保。只改准确目标包围，不改factory初点域、不保证盒收紧或误差下降；缺B不加精化门。实际checkout按15→5→13生成，准备读写同source-preparation216；唯一18900+2700钟、全部scope与quiet才清。chain超90K仍70，composition超限沿原ValueError/1分列。R487八件已29971f03，request994c/wf bcb8本次发布，R488由exact唯一读终态。
+
+**request216独立入口。** [总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)及R487八件已29971f033bd105d19703c262bbff6df41414188f；request57819B/994c1f2e与workflow97966B/bcb85d73本次刊。基于原214，实际260公开+33生成、三层depth2/同C/原全部门和唯一钟保持，仅后置coast范围及真实来源组合改变；R488由exact唯一终态读取。官方run/source随后绑定，不预填科学、读回、清理或README成功。
 
 ## 4. 同一g闭合与真正九冻结450
 
