@@ -269,3 +269,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 16:44 UTC：R548同规范真实历史转向和负p2开放入口
 
 [R548](results/R548-real-history-turn-and-negative-p2-access-with-one-fixed-gram.md)完整纸证同冻结R521 profiles的有限大ωc从起点子族；Q0(Y)/Q2(Y)准确负号、同χ原高尾的Riccati状态/完整第三使Γ0实际转正，后以同反馈有限下降到原k>0/p2负开段。全词净p1负/中心t1正仍保，非恒高度法向Oδ平衡项与原γ²成本明确；不能以负密度区间冒净p2清零。root已全文读取，0科学执行；继续真实负累计/联合返回。R547已发布3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17；open中R534/535/537/538完整旧条目逐字同层归档，未撤条件。
+
+## 2026-11-16 16:46 UTC：README三来源的现时边界
+
+固定df1e7c4e80f802a638de20ea8b75f4464597835a读三HANDOFF，完整页字节/哈希及当前状态记[来源note](notes/public-source-topics-current-state-20261116.md)。基础held>.0527832不变、幅度仅开放前缀、精确WCTR门仍false及WEX/WJK仅原上界/恒等式；均无可移植.3D全门解。只读发表文字与元数据，未读运行中科学日志/未重算；API不冒pull。本题仍58，full51公开run进行中，R548已b4ae77296f9df20a70bd5a0aa6b467b536e8c420发布。

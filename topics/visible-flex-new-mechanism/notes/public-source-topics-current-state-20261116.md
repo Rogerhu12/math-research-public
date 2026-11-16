@@ -37,3 +37,17 @@
 - WSMFA（blobfea426eab9100d98e1d60c75b3210ac83864deac）与W4MA（blob4eb45252247c895b670fa66518778e3dd4bbfc8e）完整观察仍保finite/high/非线性未闭。W4MA仅与其WRPA输入比较，不能说取代或优于独立WSMF52。
 
 **本次仍无可直接移植、共同支付本题.3D握持与全时全域metric/reach/嵌入全部门的候选。** 各来源的已成组件、未执行/未返回与计算账均保原作用域；不借组件成功完成本题。本题实际点仍58，自由36环成功但完整body失败已按72.22285305100002秒/0值闭账，祖2974.589423877秒/147值。唯一新prefix102 run43891282963/source30136a383796ea3a255c00e10e482c358b4e822b仍待实际终态；R535已单独发布同规范负增量证明，但未M0。以上14:01段落为当时原始状态，现时以本节和HANDOFF为准。
+
+## 2026-11-16 16:46 UTC：读取当前来源声明及完整使用边界
+
+固定提交 **df1e7c4e80f802a638de20ea8b75f4464597835a** 下读取 README 指定的三个完整 HANDOFF。这里只核对已发表文字/字节身份，没有读取来源运行中的科学输出，没有执行或重算其证书；GET 不冒 git pull。
+
+| 固定来源 | 该页字节 / SHA256 | 当前完整边界 |
+|---|---|---|
+| [基础来源](https://github.com/Rogerhu12/math-research-public/blob/df1e7c4e80f802a638de20ea8b75f4464597835a/topics/visible-flexible-closed-surface/HANDOFF.md) | 9028 / 64c1846bd3d11c138f5773471d8a4a55fb88a5752b1a6ea9a72ebc885cee56e8 | R114 基础 held/D>.0527832 和 reach/D>.0312033 不变；强目标仍明确未完成。该页保早期失联/未发布检查点，不作为新的接受或本题 .3D 证书。 |
+| [幅度来源](https://github.com/Rogerhu12/math-research-public/blob/df1e7c4e80f802a638de20ea8b75f4464597835a/topics/visible-flex-larger-amplitude/HANDOFF.md) | 8455 / 0bceee31bb8c5caa78aa987aa6314950154dbb2cc163e8214af0338401509c6a | 16:42 真规则同步不等于科学通过。仍只有 M96/N1024/scalar=.99 开放前缀接受，完整非零112/338/450无；R599 为真实参数解释/入口接线，R597/249 尚未派发，全部同B/闭帽/全时reach/held/.2D门未齐。各运行状态及双必要失败不重解释。 |
+| [精确附近来源](https://github.com/Rogerhu12/math-research-public/blob/df1e7c4e80f802a638de20ea8b75f4464597835a/topics/visible-flex-exact-nearby/HANDOFF.md) | 9665 / de5f76c3139057b8930f1e500f985d0c1f8719da41640a569db716eff1448c64 | WCTR 完整充分门约11976.30849仍 false/finite0，不推奇异；WEX 整候选上界约3.790258283e255不是metric误差或小门。WJK 的同Gf联合Green核 body 抵消保五collar项，只是已证恒等式，新上界0且不用于actual residual；finite/head/mean/ν/Θ/高门/同对象matching仍未齐。 |
+
+上述新组件均没有产生可以直接移植到本题、同时支付整像 δhold≥.3D 和全时全域 metric/reach/嵌入的完整族。未从来源“job成功”“完整恒等式”“整候选上界改善”推出本题主门；来源自己的成本与未返回边界保原页。
+
+本题现时仍是真实点58；whole34已经按[完整闭账](true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)记录失败和缺失输出边界，总3231.8129525510003秒/147原值。新全51研究run43910342020/source077d1dbb9c184cf4c6edf3e4c20014880d810283运行中，尚无新科学观察。R547/R548分别完成同规范长时成本门及真实负p2入口，仍未全M0或主完成。

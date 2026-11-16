@@ -128,3 +128,5 @@
 - [R547 同一规范的联合矩成本与真实返回层](results/R547-complete-joint-matrix-cost-and-the-real-return-layer-after-large-curvature.md)：**已证明**任意时长的k≥0/负dc区不能以O(L⁷)负Π预算补L⁻²原t1；必须改k号或真返O(L⁹)dc层，完整反向控制费用、ζ联合slab和常高度尖锐放松保。全history/γ²/原与中心t1区分，未付慢入口或全M0。
 
 - [R548 同一固定Gram的真实高尾历史转向与负p2入口](results/R548-real-history-turn-and-negative-p2-access-with-one-fixed-gram.md)：**已证明**从起点有限大ωc子族中，真实完整A/T使Γ0变正，同反馈下降确到k>0和负p2开段；全词仍净p1负/中心t1正，全部非恒高度/速度成本保。此前总p2正额未清，末端/全矩/period/13未闭。
+
+- [16:46 三公开来源状态复核](notes/public-source-topics-current-state-20261116.md)：固定df1e7c4e80f802a638de20ea8b75f4464597835a读取完整HANDOFF，无新科学执行；仍无已共同满足本题.3D与全时全域门的来源族，WJK恒等式/各新上界不冒实际闭合。

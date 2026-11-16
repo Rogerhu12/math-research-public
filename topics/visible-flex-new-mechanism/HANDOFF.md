@@ -10,7 +10,7 @@ private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf
 
 16:26–27public pull rc0但磁盘满/upstream未整合，**不算成功pull**。仅清本仓126个孤立GC临时副本2016603782B，保正式对象/研究文件。16:31起执行环境不可用；按根8以小UTF8源码/MD接口expected-head非force发布，**API不冒原生pull/rebase**。新Actions科学前真pull双仓核规则、回执补H；本地恢复立即pull。有变只读diff即执行；故障全账见log。
 
-API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull。旧CI/缺失回执边界见各notes。三来源核对与所读SHA见[来源状态](notes/public-source-topics-current-state-20261116.md)。
+API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull。旧CI/缺失回执边界见各notes。三来源16:46读df1e7c4e80f802a638de20ea8b75f4464597835a仍无可移植全门解，详见[来源状态](notes/public-source-topics-current-state-20261116.md)。
 
 科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本/元数据/已有输出。PAT仅CLI/env，未给API。根12无额外开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。
 
