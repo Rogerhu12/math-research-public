@@ -290,3 +290,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 **R880六共轭D*实际消费者激活**：[执行方法](notes/R880-original-six-conjugate-Dstar-RR-execution-method.md)。core5421c814/wrapper9c2fac9d，230必要原件，六分支/300min；复用完整五组旧tar与R827-only修复tar，AB14小件直接Range。原五节点正阶K/逆jets是新部分，旧K0/逆/S5/point jets不重；全部原选行列/自由坐标/v/trial1及真实σ次序不变。仅实际新原minor为单位并全行回代才认证六个418，实际结果待跑。
+
+
+**R815原准确有理M_g已完成**：[认证](results/R815-certified-original-exact-Wronskian-multiplier.md)。696prime/20809bit后，原首列逐系数和z0..6全272×272准确整数交换子通过；次数≤6加cyclic唯一性识别真M_g，两图各17块保尺度/τ³σ³区别。原整体BudgetStop不抹已成g，Γ由同核43853995004继续；未冒连接/极理想/height。六D*源码已main73dc6707，首dispatch字段类型已定位并随本push修正。
