@@ -228,3 +228,9 @@
 - 五d实际s坐标0、有理坐标非零，原t阶1372/364/462/1414/3318；实际六M=s·Q×给κ符号++---，不展开κ或取立方根。final775a07af/config06d8d96e/manifestb90422a5，35源carrier0eb19163。
 - 根11Range/593816B读33小件，未下载整159MB ZIP或本地数学；global亦已success、R849正读实际DAG，原Poincare纤维接缝推进，height/A.1/allp未成。
 - 本push规则：本地真实pull至9d3304e5a81d64e891c350aacdf5e1978e1ec2ec（2026-11-16T02:19:52.692765+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:24 Asia/Taipei — serre-public-astra-20261115
+- R849实际完成原全局函数/五极理想/η输入DAG：run43790410670/source39119159，5.019478116s/2stage/523node/43已证非零义务，完整2709源。
+- F1234/W34/C12/S5和R845八char0叶保原全局y、GP三minor及真实Galois，I_ZR=R_jI_Z³正乘；finalb50df2df/DAG529822ba/manifestcdc06c91/config87a0e26e，不称标准坐标/η零/height。
+- 原carrier395MB/6a0a5d8c，根只读11小件1.168MB/11Range；R848已推d691f1a5。R824旧run已BudgetStop于501完整位，正取其真实current并同核继续，未到主目标完成标准。
+- 本push规则：本地真实pull至d9c1d4f7c45db40da36b52ad771b9e9aa0bcb3fb（2026-11-16T02:24:40.201964+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
