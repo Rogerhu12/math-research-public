@@ -2,71 +2,45 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0818-R872-consumer-and-new-workflow-dispatch-retry",
-  "commit_message": "serre: activate original point jets and fixed Picard spaces",
-  "rules_last_read_commit": "8a392d65166b97475d7b0ed4a67ff5cfac924608",
+  "request_id": "20261116-0821-R875-original-CM-constant-Cartier-comparison",
+  "commit_message": "serre: identify the original tame CM constant with the first Cartier factor",
+  "rules_last_read_commit": "cb2cb7a5614a2c3786562e280a61e7b491e6f054",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "75d710cc9f17c6bdcec0f68fde8345d1638809e060941599a92867c4e4bb0b35",
+  "expected_previous_request_sha256": "af52d95e6d922fe9891a1782ed476f2edc9e7dbca01eed8afde0adb270304f29",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R872_original_point_jets_and_fixed_Picard_space.py",
-      "sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "path": "topics/serre-uniformity/results/R875-original-tame-CM-constant-and-first-Cartier-factor.md",
+      "sha256": "2ba59332a91001d794748f23e26b26c440660023254758fb8fc64790f9843b60",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R872_public_original_point_jets_and_fixed_Picard_space.py",
-      "sha256": "2b3d0763196eb48714cb336ff0f504a6e1718e86bca08ef597ddb22602533ce5",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-original-CM-constant.md",
+      "sha256": "011e6cb4dee245f81c527fa28767f4ba39adaa3085e021999af52049c5a6817b",
       "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R872-original-point-jets-and-fixed-Picard-space-method.md",
-      "sha256": "984ea56558a6b0bc8abc95542149aefe6fac4dfb44eab2b1189322c124d1b344",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R872-point-jets-fixed-Picard-public-request.json",
-      "sha256": "87494fc25e3b535a30ba8e60d8bbb92015cd511583af725d5d0afa00d5d3248f",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R872-original-point-jets-fixed-Picard.yml",
-      "sha256": "5ab5b8ba820525590ea8d3d1b2bd5a19670ea4addc020d0f213706fd083cf8f0",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R872-original-point-jets-and-fixed-Picard-space-activation.md",
-      "sha256": "2b31702adaf845daf4551ac5869817b7f274b6eafb3d70c009eb116cd73964c2",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
-      "sha256": "7b7ae3e1c9309117d10fdd82accaa2ecfe29c0bd632bac3c6d16e59a4489198a",
-      "expected_previous_sha256": "860a0da7463e4e496a26b46992e171ba280101959b91c7869e5e7b52f42e073c"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "4393555824734d993c4ca4f02bebbab376430aa4fb5ed11e8b73afb0638d6029",
-      "expected_previous_sha256": "e5ee1c88ed130b477c9660ace97c9cdddc0205df50853fd6b85e8d63b9011476"
+      "sha256": "8cfc5f5e444b9ab409bd470fa053c13fc52fe8ad03060272a2cadc23e4866cba",
+      "expected_previous_sha256": "011e6cb4dee245f81c527fa28767f4ba39adaa3085e021999af52049c5a6817b"
+    },
+    {
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "d0ea9585bd06af1dcf0e9d024638b2d001de248e93b1321c408493dea88e2a6c",
+      "expected_previous_sha256": "6ec24c01eb7796221381c091dc19cbbd95f123b9b2e46dbc7eb1cfe85a598a12"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "df48e4734ebb8a303d3ba6583ac50fe440aa2c52fecd52ca78021b9bcdabcf53",
+      "expected_previous_sha256": "248393259ae248b000ee50b476419a5248e9362a86587c828537ee7771c87ba9"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "90878fc7ebba38b05d0bea97d782cf6db52610d12a8c13997063f983eb3897e0",
-      "expected_previous_sha256": "a472f48bfc40ac2a129b1a09c576238e788b5887418248a8987a55291365c7fc"
+      "sha256": "447adbcfdbdb17aef601be75b3ea623b40b7a84e3f1c5f79fc7f983ea6c95737",
+      "expected_previous_sha256": "ca142284e656dadb2f910bfd5f642f4e2eaaecdb34b8c56317d0961821c4353b"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R873-original-cyclic-seven-correspondence.yml",
-      "request_path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-public-request.json",
-      "request_sha256": "846d985088c8d40e6d349c3dba744e8d8fb829b03bb38d499d5a1fc5a8686bf0"
-    },
-    {
-      "workflow": "serre-R872-original-point-jets-fixed-Picard.yml",
-      "request_path": "topics/serre-uniformity/notes/R872-point-jets-fixed-Picard-public-request.json",
-      "request_sha256": "87494fc25e3b535a30ba8e60d8bbb92015cd511583af725d5d0afa00d5d3248f"
-    }
-  ]
+  "dispatch_workflows": []
 }

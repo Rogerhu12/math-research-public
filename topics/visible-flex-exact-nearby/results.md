@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WHR：完整正侧径向 head 的精确 Fredholm 约化](results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md)：真实 193 维角向 fiber 上的径向 L²函数自块为 Id−紧算子，指标零；未知核/余核全部转入兼容行与全交叉项。端点采用有界 Volterra 行，补列取 H¹；新径向投影尾门与完整有限因子均已解析给出。未判定 mH=0，未扩至负侧或未合格粗输入，true96/Θ/ν/两mean/finite/背景仍待；没有新数值执行。
+
 - 43827705714/1 的完整失败回执已保存：23 个完整节点、27 门，第24图已有39条新记录；后因只含相位导数的对象被误索零阶值而停止。全部已算记录均保全，原失败状态保持；[精确续算合同](notes/2026-11-16-R133-WEJ-preserved-prefix-continuation-contract.json)仅允许剩余13+8+9=30条新记录，禁止重复23个完整图及39条前缀。whole新界仍未完成。
 
 - [WEJ 后继公开运行合同](notes/2026-11-16-R133-WEJ-posterior-current-inputs.json)与纯运维 worker 已封闭并提交一次触发：39 个完整当前输入、9 个 AST、26 个自然图，0 历史恢复/旧重算。实际输入 1378390B；所有成功与唯一失败前缀分支均有完整预算、原字保存及重复执行锁。等待实际回执后逐件核验，不以准备完成冒作数学成功。
