@@ -384,3 +384,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R529 — 当前128末解与完整64模型、重新锚定和原末门
 
 **已证明的完整当前模型分责与条件末门保持；无新科学运行。** [R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476B/f930：固定真实H/owner/replay/snapshot/packet/clock，对实际X128全577×224由b233一次整数RN64；真实DN各engine/profiles/原cusp全576×226×224，保before-port全行、after-port224²与两mean，不拿投影残差覆盖原128norm。所有有限64字准确嵌入128，原全far/cut QR可在明确新系数模型上定义；旧c218 fixed64禁止/false声明与R501全128stage绑定须真实另接，非旁路。a090 base338/13scalar和原独立audit在固定X/packet下不依G，完整338mixed J仍随新G变化；原endpoint入口先readG，不能冒noJ独立入口。重新anchor的L(H)=D(H)使原候选H重求值、末BC1e−11/physical RMS1e−6/final fresh J+audit仍真实支付；源核材料角/SeparatedBoundary同H路径。原FD仅affine一致性，纸例D(s)=s²说明不证DD；原所有FD门仍保，不增全解析门。不保证矩阵误差、轨迹、速度或资源前沿；原19200/所有caps/90K/quiet保。真正owner→post拆分、Node真实DN调度、stage/lift/consumer/assembly新source仍未实现成完整入口，R532及root继续，不追改221/225。
+
+
+## R509 — 实际221当前H的一次完整128接受与owner资源停止
+
+**实际221完整读回、一次原128接受与owner内层资源partial。** [R509](results/R509-actual221-current-H-one-accepted-and-owner-resource-partial.md)22299B/da19原字刊；run43835161762/source8b352、compute133189859163/report133251098161，exact两终志各唯一一次，71252/efd2756e必要逐字同、complete=true。原63/78/91恢复与336源齐，实际call1 H全J/R273和两包真返；128初norm14074125.721549422871053526172072936→iter0 α1全576/129248行原接受到.00119384019932733053462024588807814309。iter1 α1只133stage/30016行、443地址133..575显式预算错，norm null/未接受而非数学拒；末current.complete属前次接受状态，原2e−9 false。owner5999.327/6000 cap、独立replay未完，全部post stage/boundary/endpoint/audit及protocol/FD/fullDN未起，global余11852/outer resource_stop null口径分清，不把此停止冒后置stage性能。原PID/startticks等真quiet，10:56:30.9007389Z removed=true；全state仅身份，无可续父。原全部门/资源记录保，不预测放宽cap或225一定收敛；R532/R534后置模型与先行owner成本分别继续。H/open旧详记录固定a7b历史、§4–6逐字保。
