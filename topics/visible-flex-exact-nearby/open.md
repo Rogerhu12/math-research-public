@@ -46,7 +46,7 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。原real/root whole e由R97R严格通过；其他参数/角域不外推，fullincoming/finite/非线性待。
 
-[RNI自然窗逆](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43已由R97A支付同real/root97的kernel/coker0和FC空补列。[RNE显式负窗公式](results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md)030e434e给四e_q、L comm矩阵、同向J有限式与Broot=1+e/μ，m2/m4推出−7/6、−5/2两个完整逆界；保八正kernel/IR0原1/4/meanrank，数值待新consumer。M仅strong；selected全δ资格、两physicalmeans/低head/径向head/其他finitecross/全incoming仍待。
+[RNI](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43的同real/root97 kernel/coker0与FC空补列已由R97A付。[RNE负窗公式](results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md)030e434e给四weighted e_q、同向J/Broot与m2/m4两完整逆，保IR0原1/4/meanrank。唯一新包fc7b4cee/6b13a6d1/e311c511：9current/3AST/0history、16门/35字段/276槽；四原对象/23球只读，actual待。M仅strong；selected全δ/双physicalmeans/低与径向head/rest/finitecross/fullincoming仍待。
 
 [RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；原real/root whole e已R97R付；负窗数值及incoming/finite待。
 

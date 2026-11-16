@@ -448,3 +448,11 @@ fresh main 453e27fd7eee0e418f81c521f9c4674bcb446222双README不变。原R97R SCI
 ## 2026-11-16 02:19:14 UTC — RNS 两窗加权范数措辞纠正
 
 tail复核指出RNS§5末“weighted norm realization are identical”口径过宽。根将唯一一句改为同一矩阵和同一完整rhs在两窗使用各自继承的weighted norm；紧随的各自headweight句与全部矩阵/逆公式原字不动。新正文db0cce2048897eaecd8bf6e734f40e3b6e78c080 /24616B /74c6df5d816d9b80bfdb4c2e646237ad65f18e047788e5bec10739d1d3f64d9b，原cc08f8a7/ef2cdf03保72d34d76历史。H/open/results更新新身份，无新数学计算，原实际receipt不变。a4901c30dbc2ec4fc33bf7a4841dce8c983a7905两README blob不变。
+
+## 2026-11-16 02:27:31 UTC — RNE 唯一公开执行包
+
+单次自然push部署RNE新有限正标量：source781b36bcc14ed4c5deba6f5ae864ad629739f965 /51884B /fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5；worker1b05b17abc39465faa374847b1e1b5fc24e5158e /76355B /6b13a6d13c7efb6fa3c0e7563235f7db4320532d8724d9a76910299b78a9c245。final manifest98b1543d7b30021448ce5d2406c92938f9526783 /17063B /e311c5119accc5ba90585e49a3bb24bbe672eb601977ebc29720e24979a9128b仅在55ffffe7/5c8c5ed0原版加完整budget身份，数学/9输入不变。flow eb980c1537fa1a1b5c18a04212f2162663c0e683 /4966B /13c1b8abe82a47a5c5e52c5e118166731392fc6ec447d49555ff2d82d913bb70；专属并发、不cancel、Python3.12.14/flint0.9.0/320bit。9current共312070B、3AST/6math/0history；只读R97R完整SCI/exec/source/manifest及RNI/RNE合同，三lowerη−/g−/μ，其余upper，旧e/g/图/producer均0重算。
+
+根全文SCI/worker/helper/RNE/manifest；newton复核math+reader/main，phase核接口，tail独立shape+size。16新门/35完整字段/15actual_progress、276新scalar、四原对象7935/01cac119、23原records2261/08b04bfb、accepted3535/df661705全部对应，geometry26powers/4sqrt。budget20ec64e6d01325cbf7877a39fec8a34eab71ad89 /19047B /15b718bfcca465b871323407facf3c1a41328ae6cbf83916e8462cf81d7fc6b1：完整SCI静态模型67373/458f6d49根独立hash全同，压力preGit83801<90000、report6653<8000，三结果caps142000<150000reserve。14安全helpers原字，真pull/两READMEdiff/live规则/所有pins/容量fresh守门；新SCI逐图atomic、完整stdout及preGit先于size，已成child不重。connector两次递归metadata读取Transport closed，仅容量metadata未得，不是数学失败；实际fresh容量由公开worker在child前核，禁止假定旧容量。
+
+当前仅部署，尚无actual新逆值/成功声明；R97A旧成功锁定。RNS正文已修两窗各自weighted norm为74c6df5d，phase§4–5正式核齐。H/open保全selected全δ/两physicalmeans/head/rest/fullincoming/finite/真背景；每结论独推。4af72dc1cc28c5eb6485ac8f829b544630db3b31两README blob未变；API读取不冒真pull，根下一定时CLI仍≤02:40:11。

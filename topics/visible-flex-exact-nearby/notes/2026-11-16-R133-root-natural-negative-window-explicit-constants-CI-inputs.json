@@ -1,0 +1,331 @@
+{
+  "kind": "root_natural_negative_window_explicit_constants_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants.py",
+  "source_sha256": "fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5",
+  "contract_git_blob": "d6cb8f723584a5f893a01324033d059995d1ee79",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md",
+  "original_worker_basis": {
+    "original_saved_prefix_worker_git_blob": "a53479fd01bf761a34c20f2e3b819b92a9b3615e",
+    "original_saved_prefix_worker_sha256": "add2b325a391e66a001df0a4f6547a545460188132e51025fbce378935461f04",
+    "root_owns_worker_and_workflow": true,
+    "new_target": "new explicit finite positive formulas for two natural negative-window inverse constants; all original root97 graphs and the old strict comparison are read only"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "historical_inputs": [],
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py",
+    "rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md",
+    "rni_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md",
+    "saved_science": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/actual-scientific-conclusion.json",
+    "saved_execution": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/execution.json",
+    "saved_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+    "saved_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json"
+  },
+  "current_text_input_roles": [
+    "source",
+    "worker",
+    "rules",
+    "contract",
+    "rni_contract",
+    "saved_science",
+    "saved_execution",
+    "saved_source",
+    "saved_manifest"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/execution.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants.py": "fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py": "6b13a6d13c7efb6fa3c0e7563235f7db4320532d8724d9a76910299b78a9c245",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md": "030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md": "d771cf43faa0d5351851168f9f1567e21f8b7e0be27480b6bd67880a4eb69a81",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/actual-scientific-conclusion.json": "0c27195fad92a0be1296e533594fae8df46f4f70a6af359e762374141ac770ea",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/execution.json": "a83f20c1b541173c871aee990b6797d9b76ecd9f1c831cbfac719900c18e379f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534",
+    "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json": "5d993fefa9cbd2935812d051c4a83a0ff0d4e607d2836ea69d7a93423beb633e"
+  },
+  "mathematical_input_sha256": {
+    "contract": "030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120",
+    "rni_contract": "d771cf43faa0d5351851168f9f1567e21f8b7e0be27480b6bd67880a4eb69a81",
+    "saved_science": "0c27195fad92a0be1296e533594fae8df46f4f70a6af359e762374141ac770ea",
+    "saved_execution": "a83f20c1b541173c871aee990b6797d9b76ecd9f1c831cbfac719900c18e379f",
+    "saved_source": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534",
+    "saved_manifest": "5d993fefa9cbd2935812d051c4a83a0ff0d4e607d2836ea69d7a93423beb633e"
+  },
+  "expected_actual_gate_count": 16,
+  "expected_immutable_AST_files": 3,
+  "expected_current_input_count": 9,
+  "expected_input_count": 9,
+  "complete_input_bytes": 312070,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "expected_actual_gate_count": 16,
+    "original_R97R_run": "43789221154/1",
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_intrinsic_parameter": "-7789843107295549/4611686018427387904",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "physical_root_piece": 2549,
+    "physical_period": "pi/2",
+    "normalized_angular_measure": true,
+    "physical_frequency": "n=4|j|",
+    "input_cutoff_abs_j": 97,
+    "physical_minimum_frequency": 388,
+    "natural_negative_windows": [
+      "-7/6",
+      "-5/2"
+    ],
+    "ordered_gain_windows": [
+      "-5/2",
+      "-11/6",
+      "-7/6",
+      "-1/2"
+    ],
+    "stable_error_gain": "2/3",
+    "R0_complete_kernel_bandwidths": [
+      192,
+      384,
+      576,
+      192,
+      384,
+      384,
+      0,
+      576
+    ],
+    "weighted_R0_output_cutoffs": [
+      1,
+      97
+    ],
+    "complete_primitive_one_gain": "sqrt(17)/4",
+    "physical_independent_means": 2,
+    "expected_current_inputs": 9,
+    "expected_total_inputs": 9,
+    "expected_Python_AST_files": 3,
+    "expected_historical_inputs": 0,
+    "saved_complete_objects": 4,
+    "saved_scalar_records": 23,
+    "old_target_calls_allowed": 0,
+    "old_source_imports_allowed": 0,
+    "old_strict_comparisons_reevaluated": 0,
+    "full_complex_parameter_square_claimed": false,
+    "uniform_selected_chart_family_claimed": false,
+    "complete_incoming_or_finite_Schur_inverse_claimed": false
+  },
+  "scope": {
+    "scientific_target": "explicit uniform natural negative-window inverse constants for the actual original root97 stable operator",
+    "same_real_delta_family_and_fixed_intrinsic_eta0": true,
+    "original_reflection_and_two_carrier_signs_retained": true,
+    "physical_fourier_factor_four_and_normalized_measure_retained": true,
+    "complete_positive_R0_mean_rank_retained": true,
+    "independent_physical_mean_coordinates": 2,
+    "full_low_intermediate_primitive_one_quarter_retained": true,
+    "L_and_J_not_assigned_new_finite_bandwidth": true,
+    "original_J1_is_left_angular_derivative": true,
+    "J_negative_windows_use_same_direction_finite_bootstrap": true,
+    "input_frequency_diagonals_kept_in_original_order": true,
+    "old_scalar_upper_bounds_used_only_with_exact_positive_kernel_qualification": true,
+    "saved_positive_strict_margin_read_only": true,
+    "old_R97_graphs_and_comparison_not_recomputed": true,
+    "same_distributional_inverse_in_both_natural_windows": true,
+    "true_Riccati_frame_used_only_through_uniform_bounds_and_strong_realization": true,
+    "Riccati_operator_norm_continuity_claimed": false,
+    "uniform_selected_chart_family_claimed": false,
+    "physical_bulk_Poisson_extension_claimed": false,
+    "complete_incoming_inverse_claimed": false,
+    "finite_Schur_inverse_claimed": false,
+    "nonlinear_background_or_final_surface_claimed": false,
+    "original_low_complement_radial_head_sources_and_all_other_finite_ports_retained": true
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants.py",
+      "git_blob": "781b36bcc14ed4c5deba6f5ae864ad629739f965",
+      "bytes": 51884,
+      "sha256": "fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py",
+      "git_blob": "1b05b17abc39465faa374847b1e1b5fc24e5158e",
+      "bytes": 76355,
+      "sha256": "6b13a6d13c7efb6fa3c0e7563235f7db4320532d8724d9a76910299b78a9c245"
+    },
+    {
+      "role": "rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md",
+      "git_blob": "d6cb8f723584a5f893a01324033d059995d1ee79",
+      "bytes": 17890,
+      "sha256": "030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120"
+    },
+    {
+      "role": "rni_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md",
+      "git_blob": "ce0a46c75360850479333534cf096fd61f412168",
+      "bytes": 19405,
+      "sha256": "d771cf43faa0d5351851168f9f1567e21f8b7e0be27480b6bd67880a4eb69a81"
+    },
+    {
+      "role": "saved_science",
+      "path": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/actual-scientific-conclusion.json",
+      "git_blob": "577956f3a919360969ac86457c40c40ca752245a",
+      "bytes": 56630,
+      "sha256": "0c27195fad92a0be1296e533594fae8df46f4f70a6af359e762374141ac770ea"
+    },
+    {
+      "role": "saved_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_saved_prefix_recovery_ci/run-43789221154-1/execution.json",
+      "git_blob": "493f952207c654744cb807f46bebc7ea00ea0e8f",
+      "bytes": 11832,
+      "sha256": "a83f20c1b541173c871aee990b6797d9b76ecd9f1c831cbfac719900c18e379f"
+    },
+    {
+      "role": "saved_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+      "git_blob": "ce991a307b62f2382127ffa10c9ca92b69a82696",
+      "bytes": 61957,
+      "sha256": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534"
+    },
+    {
+      "role": "saved_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json",
+      "git_blob": "bc6d467c1e9f119d29b117f6985b2efea0074daa",
+      "bytes": 13656,
+      "sha256": "5d993fefa9cbd2935812d051c4a83a0ff0d4e607d2836ea69d7a93423beb633e"
+    }
+  ],
+  "saved_complete_result_admission": {
+    "old_run": "43789221154/1",
+    "complete_scientific_bytes": 56630,
+    "complete_scientific_sha256": "0c27195fad92a0be1296e533594fae8df46f4f70a6af359e762374141ac770ea",
+    "complete_execution_sha256": "a83f20c1b541173c871aee990b6797d9b76ecd9f1c831cbfac719900c18e379f",
+    "original_gate_count": 9,
+    "original_field_count": 35,
+    "original_strict_result": true,
+    "original_strict_comparison_reevaluated": false,
+    "original_sources_imported": false,
+    "inherited_current_receipts": 9,
+    "inherited_AST_receipts": 3,
+    "complete_original_objects": 4,
+    "complete_scalar_records": 23,
+    "complete_original_objects_canonical_sha256": "01cac119904ff63260d1f7d7c3370e49f276b4c88aba2903ce2acae88b7c3313",
+    "complete_scalar_records_canonical_sha256": "08b04bfb460b3a5c18b85092715d122a65586b1b258a4d1d64ce6928d7f971ed",
+    "accepted_old_inputs_canonical_sha256": "df661705c26de22aeae2d032d8bc8d270c853a37b0ca2b449cd807083305affb",
+    "typed_lower_records": [
+      "eta_minus",
+      "g_minus",
+      "margin_lower"
+    ],
+    "all_other_saved_bounds_read_at_upper_endpoint": true,
+    "negative_window_numerics_are_new_not_inherited_from_old_L2": true
+  },
+  "static_schema_review": {
+    "old_and_new_scientific_math_executed_during_review": false,
+    "complete_fields": 35,
+    "complete_actual_gates": 16,
+    "actual_progress_fields": 15,
+    "new_graph_scalar_slots": 276,
+    "new_graph_scalar_slot_counts": [
+      33,
+      14,
+      22,
+      144,
+      16,
+      28,
+      19
+    ],
+    "all_seven_graphs_preserved_in_complete_science": true,
+    "independent_root_and_peer_math_reviews_received": true,
+    "structural_static_model_uses_128_byte_synthetic_ball_records": true,
+    "planned_shape": {
+      "saved_actual_receipts": 1,
+      "saved_complete_objects": 4,
+      "saved_scalar_records": 23,
+      "new_L_commutator_bounds": 4,
+      "new_complete_J_L2_candidates": 2,
+      "new_J_gain_windows": 4,
+      "new_weighted_R0_routes": 8,
+      "new_weighted_R0_positive_terms": 64,
+      "new_amplitude_gain_windows": 4,
+      "new_amplitude_gain_positive_terms": 8,
+      "new_stable_gain_windows": 4,
+      "new_stable_gain_positive_terms": 12,
+      "new_natural_inverse_windows": 2,
+      "new_finite_inverse_polynomial_terms": 8,
+      "new_complete_whole_choices": 1,
+      "new_geometric_rational_powers": 26,
+      "new_fixed_square_roots": 4,
+      "retained_physical_means": 2
+    }
+  },
+  "static_publication_budget_review": {
+    "scientific_math_executed": false,
+    "exact_original_objects_and_scalar_records_retained": true,
+    "synthetic_new_scalar_bytes": 128,
+    "modeled_complete_science_bytes": 67373,
+    "modeled_stressed_prepublication_bytes": 83801,
+    "modeled_report_bytes": 6653,
+    "limits": {
+      "complete_science_bytes": 75000,
+      "complete_report_bytes": 8000,
+      "complete_prepublication_science_report_payload_bytes": 90000,
+      "complete_execution_bytes": 59000,
+      "pre_science_topic_reserve_bytes": 150000,
+      "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+      "new_artifacts": 0,
+      "new_Releases": 0
+    },
+    "exact_budget_receipt": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-natural-negative-window-static-output-budget.json",
+      "git_blob": "20ec64e6d01325cbf7877a39fec8a34eab71ad89",
+      "bytes": 19047,
+      "sha256": "15b718bfcca465b871323407facf3c1a41328ae6cbf83916e8462cf81d7fc6b1"
+    },
+    "complete_science_model_sha256": "458f6d49fd1170558a83cb26f293ae617cfbd4c244a6a32b1f046a5c3cce9657",
+    "complete_stressed_prepublication_model_sha256": "1f44d0318e751c6d93df5b1892a728605dacb7deffd9e8dd78463ef849f43eb1",
+    "complete_report_model_sha256": "9577b7261beb0c595a070967120e05de0ed74fee12131d2ee235f3ad4c0c26c0",
+    "model_source_and_worker_unchanged": true
+  }
+}

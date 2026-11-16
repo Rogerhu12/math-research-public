@@ -1,0 +1,91 @@
+name: visible-exact explicit natural negative-window inverse constants
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-root-natural-negative-window-explicit-constants.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-root-natural-negative-window-explicit-constants
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  RNE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-natural-negative-window-explicit-constants-CI-inputs.json
+  RNE_MANIFEST_SHA: e311c5119accc5ba90585e49a3bb24bbe672eb601977ebc29720e24979a9128b
+  RNE_PIPELINE_SHA: fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5
+  RNE_WORKER_SHA: 6b13a6d13c7efb6fa3c0e7563235f7db4320532d8724d9a76910299b78a9c245
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  root-natural-negative-window-explicit-constants:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-natural-negative-window-explicit-constants-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['RNE_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py --mode hydrate
+          --manifest "$RNE_MANIFEST" --manifest-sha "$RNE_MANIFEST_SHA"
+          --pipeline-sha "$RNE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['RNE_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read the complete saved root97 result and evaluate only new natural-window constants
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_natural_negative_window_explicit_constants_public_worker.py --mode run
+          --manifest "$RNE_MANIFEST" --manifest-sha "$RNE_MANIFEST_SHA"
+          --pipeline-sha "$RNE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-root-natural-negative-window-explicit-constants-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-root-natural-negative-window-explicit-constants-output"
+      # Root rule15: nine current text inputs, three AST files, zero historical restores.
+      # Original source is parsed only; saved root97 graphs and strict comparison are never recomputed.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.
