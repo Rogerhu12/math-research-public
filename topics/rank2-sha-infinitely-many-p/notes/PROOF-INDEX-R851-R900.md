@@ -261,3 +261,6 @@
 
 
 - [R883附录F](../results/R883-original-relative-six-shadow-and-complete-boundary.md)：同一整循环shadow允许Abq2输出(Aaq0−φF)，CM使degree交叉项为零，完整求交degree=2256+r*dF；dF从原yF真实极除子读而非先假Manin1。仅dF<2256时采用，否则原2256(r+1)；同相对6局部公式改输出red(a0*xAbq2/c0,yAbq2)，全部闭点/高重/分歧/∞、[6]迹及四除子两点判据保。consumer已实现动态选择，尚未执行。
+
+
+- [R882附录C](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原w3 eta乘数完整相消给t→1/t，L=J/t6不变；s=t+1/t给全Atkin商k(s,L)，degree24、属19、9cusps。w3的17层与w289的3层不可约性及全部尖点证明二者无固定点，仅w867的24分歧保。u²=s²−4为无分歧二次、v²=L²−2916含12底branch；真实Au/Av除子给27+27+33+33完整RR，乘原St/S回同DS，未实现或运行新前端。
