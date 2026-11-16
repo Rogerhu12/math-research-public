@@ -264,3 +264,6 @@
 
 
 - [R882附录C](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原w3 eta乘数完整相消给t→1/t，L=J/t6不变；s=t+1/t给全Atkin商k(s,L)，degree24、属19、9cusps。w3的17层与w289的3层不可约性及全部尖点证明二者无固定点，仅w867的24分歧保。u²=s²−4为无分歧二次、v²=L²−2916含12底branch；真实Au/Av除子给27+27+33+33完整RR，乘原St/S回同DS，未实现或运行新前端。
+
+
+- [R872原函数的真实值像与三倍水平消失](2026-11-16-r872-primitive-value-image-and-cubic-horizontal-vanishing.md)：J3∩V1=V4给原值像单射；LW=F³A的全局商整性与实际40+xDx/D+40−xDx框，使完整I³=(x,f0)³由同有限逐列单位逆保持。限制到C得到两strict水平三倍Cartier消失，保固定角/奇点/闭点；(J3∩K1)/V4仅嵌入BD−TP−3D−−3D+截面空间，非零须T+3z−+3e+≤BD·C。没有环境满像或整个non-F²消失声称，同R/S其余行仍开。
