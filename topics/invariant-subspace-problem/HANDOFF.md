@@ -26,8 +26,8 @@
 
 - 旧run43756208221已结束；所有来源/失败和56步pins保旧归档。新live run43772109844始22:57:13 UTC，350分钟约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。127全部NF/GB/state、global197、root2 recipe与三域缓存仍临时。E8旧exit1确为最终回执大小门；只读恢复保持原数学binding及phase。
 - request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；旧30步全文notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json，当前7步已全部exit0，done仍保旧祖先。新启动须按归档重建父缓存；同绑定续接用新ID/requires只指exit0祖先。
-- 五广义factor全4367运输/1834Z均I1=0，E8-1正式已发，其余四联合稿待补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
-- **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，133万原零乘回；正式相对25生成定理正写。仅执行manifest留repo，计算数据只临时/日志。
+- 五广义factor全4367运输/1834Z均I1=0，[五处联合正式](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7已补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
+- **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，1342796原零乘回；正式相对25生成定理正写。仅执行manifest留repo，计算数据只临时/日志。
 - 新任务仅存源码/参数/run/输出SHA，勿新存可重算计算输出。根每结论真push，非快进立即rebase重推；runner每30分钟及每步实际pull核两README。31下一p7两正探针保完整incoming商，零只受限结论；四族窄历史恢复约168MB档/26MB成员，非整旧链。
 
 ## 原边界：同一个w与完整返回继续
