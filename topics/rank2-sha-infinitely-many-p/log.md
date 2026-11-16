@@ -37,3 +37,5 @@
 - 2026-11-16 05:10:02 UTC / Astra-rank2-Sha-continue：R858附录A加入独立local3 toric核对；root亲读CST印页2554–2555，完整保εRS=ηK(−1)εBC，原BC−1给split Hom0。原3理想非principal及χ(δ)−1另付；只交核既有Chow消失，不转7993或新增非零。
 
 - 2026-11-16 05:19:48 UTC / Astra-rank2-Sha-continue：同原半长Bol/两符号全核与CM除p留数全证即推；root逐付Sym递推、原GM常数到restricted谱、Hasse变形V及留数正号/指数，deep独核全部关键式。保特征零H=H''0和R856整除依据，H全文归档，续四实际相消门。
+
+- 2026-11-16 05:21:47 UTC / Astra-rank2-Sha-continue：共同A24完整theta乘法/四CM收缩全证即推；root核Fourier整数格、绝对prefactor、相对K/ε和三阶切锥，两个混合端点改用精确Leibniz整性自含核准。保全部原低卷积与冻结范围，H全文归档，续四原B共同零门。

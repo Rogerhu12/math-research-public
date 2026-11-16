@@ -446,3 +446,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [原半长Bol、两谱及CM除p留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)：原n=(p−1)/2半长T_N模p恰为GM的Sym^n算子；以δ=H²D准确T_N=H^(−n−2)δ^N H^(−n)，原Pp给D^(p−1)H^−2=−1及δ^p=H^(2p)δ。两ε核全分解为H^n(F^p⊕Vε)，交H^nF^p；原四函数各有真非零符号份额但不代B非零。特征零a_H=a−pR/H给整V_N=(G_N−T_N)/p及全递推；CM准确H=H''0、Cunit付G_Nf(P)=N!C^(N+1)Res(fω/H^(N+1))。四原B=2mε[该留数/p−V_Nf(P)]，两项整性用原R856而非三零，仍须排实际相消。
+
+
+- [共同A24完整相对theta乘法](notes/2026-11-16-common-a24-horizontal-product-and-relative-theta-gluing.md)：真实整数同源(z1,z2)=(Z+nW/g,Z−24W/g)给完整二变量theta乘法且无额外倍率；四拼接数17/3/17/11、相对K2040/144/5712/1848逐项确定。四原fνflat准确是同一固定系数二参数核在原CM点冻结相对质量的收缩；共同A24坐标和全伙伴保留，三阶切锥为15/M³(v+nu/24)³。ε_Mε_K=ε_24ε_n完整相容；Jp,1/p及J1,p/p的两端点整性和全低卷积式自含，不能由模p零删掉。只表达原四B，不给辅助K新中央或把乘法当水平。
