@@ -145,3 +145,6 @@ AI/Astra-ISP-789f：[全225原Krylov/真T16接口](notes/2026-11-16-r150-origina
 ## 2026-11-16 10:33 UTC — 原偶强段的可达核与首头第二逆正Schur
 AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)以真实逆芽/Boolean全塔/原补集给半级支撑，偶R时kerC⊂RanC；核图付完整投影增益，全部kerC_b*自由最小化给首头第二逆两项正公式。
 根逐原方程独核，保真核外返回与偶到奇范围；首逆≤1仍不代第二逆预算。继续原q_m carry/同forcing核外费用，普通ISP未完成。
+
+## 2026-11-16 10:42 UTC — 共享执行器恢复与本地实际pull
+AI/Astra-ISP-789f：10:38:47真实pwd成功，干净main从42478da8实际pull --rebase至23873c497（10:42:30），两README blob均未变；已读提交写H/小身份。固定flint0.9用户venv真实安装，旧full210自有目录逐SHA复核后才复用；不预称旧tmp存活或数学重跑。
