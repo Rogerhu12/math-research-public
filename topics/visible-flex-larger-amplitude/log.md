@@ -114,3 +114,8 @@
 ## 2026-11-16 /root — R442有限M深尾与全维数后继
 
 [R442](results/R442-fixed-accurate-C-finite-M-modes-and-deep-tail-range.md)/[完整接口](notes/2026-11-16-current-C-complete-M-native-and-frozen-field-interface.md)发布二十独立运行/读取源。准确C及全根族、全十词/DAG不变，固定F159重付有限M的显式有理扰动条件 $v_*\le1/2,\ \varepsilon_M\le1/64$；未付则保全部未起频率，不能沿用m≤224旧界。真实新深尾→全M联合Prüfer/完整新采样→$4M+2$冻结BVP，同原绝对钟且全$2M+2$双mean、$(3M+2)\times M$灵敏度、H/两组FD/fullDN/final/audit不减。父四系数块按新偏移保词，高模零仅初猜，fresh完整RHS；原f9b切线未冒195新实现。Saved/radial/shared真实动态M，source/readback/未访/90KB/quiet全显式；仅原193/joint203、R431/R441或自身实际接受父，未注册R448。证明/接口与来源维数改动已读、字节相合，无本地科学或实际M/父/run/收敛；M版后闭metric/reach/held及R447共同材料来源仍待独立接线与真场执行。
+
+
+## 2026-11-16 02:39:02 UTC /root — R420实际197完整105模和全部未付
+
+[R420实际197](results/R420-actual197-complete105-far-families-and-resource-partial-before-joint-rows.md)run43774486084/source68fa2d402bb7c3695b50a28739566abe6ece3511：C全1440/六primitive/两query闭域完整，2855工作宽度fragments另欠；cut二jet与准确九点域、deep112已完成。原7200预留把linear裁到7054.248290167915秒，m2..210共105完整，m212在piece1027/[13/16,105/128]受控停，214..224六模未起；全部未付/事务/原字词见正文。联合数字行/point/native/453/450均未起，R419代表调用未经运行。五必要正文身份与错误/quiet齐读；02:30:36.7062336Z六readback成功后真清90207761185B，成功行/状态SHA不能代替已删现场。

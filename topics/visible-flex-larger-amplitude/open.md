@@ -35,7 +35,8 @@ R390/183的128接受、R395/185的8接受、R401/189的69接受、R410/194的61�
 R286/R312/R318保原binary浅160/六primitive原点、全cut闭逆像、自然Rout、mode2准确深根族及112偶频；Robin/height隔零DN/means/无限频R15分责。R285/293/297/304/306/324/327/339/347/358和132/136/139/144所有参数/错误/未访仍在原结果，不因合法coarse界另设宽度门。
 R375/177、R379/177、R382/179的m2下屏障未正、栈/余111未起不冒极点/拒绝。R380全实角/圈数/正幅度/二幂换帧/取向及完整T逆范数保；R385/181在row18/piece4/d32包围失付不是实际零。R391/184旧失败不得回填。
 [R396/187](results/R396-actual187-complete112-Pruefer-far-and-numeric-row-representation-failure.md)全112 far/单位行族已齐，但独立中点转64同时零，mode/中心未知，不断underflow或真零；native/453未起，必要后raw已清。
-[R419/197](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)同可逆T联合形成、准确正max缩放后转64；原positive核不变，表示cap4096共享point预算，完整族误差保且不加小量门，不保证名义行为共同C成员。93pins/driver56/native30、真180/fresh C/factory/deep112与原18900+2700/7200及完整453保持，exact唯一R420/run43774486084。
+[R419/197](notes/2026-11-15-request197-joint-nominal-Pruefer-row-and-complete453-interface.md)同可逆T联合形成、准确正max缩放后转64；原positive核不变，表示cap4096共享point预算，完整族误差保且不加小量门，不保证名义行为共同C成员。93pins/driver56/native30、真180/fresh C/factory/deep112与原18900+2700/7200及完整453保持，实际终态见下R420。
+[R420实际197](results/R420-actual197-complete105-far-families-and-resource-partial-before-joint-rows.md)run43774486084/source68fa2d402bb7c3695b50a28739566abe6ece3511：C全1440/六primitive/两query闭域完整，2855工作宽度fragments另欠；cut二jet与准确九点域、deep112已完成。原7200预留把linear裁到7054.248290167915秒，m2..210共105完整，m212在piece1027/[13/16,105/128]受控停，214..224六模未起；全部未付/事务/原字词见正文。联合数字行/point/native/453/450均未起，R419代表调用未经运行。五必要正文身份与错误/quiet齐读；02:30:36.7062336Z六readback成功后真清90207761185B，成功行/状态SHA不能代替已删现场。
 [R408/193](results/R408-actual193-continuous-ten-finite-far-budget-and-unstarted-full453-frozen450.md)C闭域全而2879宽度欠项，十域/deep112过，far只有m2..206共103完成，m208原预算停止/210..224未起；启动预留7200使linear7049.298秒。native/453/450均未起，34419B必要完整、88.85GB原raw真清；只身份不冒读正文，不能SHA续用。新203真实重生全部112。
 
 ### 3B. 原十族与当前完整453→450
