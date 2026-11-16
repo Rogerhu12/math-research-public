@@ -188,7 +188,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WPSA实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372：6图60新/22门成，e+3dt约635240.55充分门false/finite0，不推出奇异；全mean/7port/两rhs/full96/原对象保proof与SCI17a70a8a。old0/lost0，禁重算。
 
-[WVC](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6全同算子候选已证，五源/manifest229198f5已封；41current/19history/16AST，56新或49新+7copy及2条件槽尚未算。连续源全残差/两mean/7port及actual A/B/C/R/κ3保原proof；仅待首次Actions，旧WPS false不改。
+[WVC](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6全同算子候选已证，五源/manifest229198f5已封；41current/19history/16AST，56新或49新+7copy及2条件槽原目标未算。连续源全残差/两mean/7port及actual A/B/C/R/κ3保原proof；首次Actions已独立触发，actual待核，旧WPS false不改。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
