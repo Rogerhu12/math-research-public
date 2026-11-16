@@ -1,0 +1,931 @@
+{
+  "schema": "R584-loop-rounding-observation-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_live128_loop_rounding_observation_source_views.py",
+    "bytes": 37130,
+    "sha256": "5057de1e663103be71df6ab6e611079aae3cd33ed1820fd5ea1e41d2280b4e91"
+  },
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-extended-owner-budget-composition-request.json",
+      "bytes": 8964,
+      "sha256": "002265d96fc7dedaa4500708b8a028f3ccb660eef55c21528325555e3b9e2cc8"
+    },
+    "request_number": 248,
+    "outer_schema": "public-live128-extended-owner-budget-composition-request-v1",
+    "current_schema": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+    "namespace": "visible-live128-extended-owner-budget248",
+    "source_generator": {
+      "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+      "bytes": 26239,
+      "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+    },
+    "source_plan": {
+      "file": "notes/r593-live128-extended-owner-budget-complete-source-plan.json",
+      "bytes": 10168,
+      "sha256": "4d7cee7c4d51c5415a5e22a10f3e21b6f00ab045a84260a484299b7426417229"
+    },
+    "preparation_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1",
+    "necessary_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1-necessary-v1",
+    "source_preparation_directory": "request248-source-preparation",
+    "current_request_basename": "current-request248.json",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true,
+    "published_parent_commit": "b38a46a6d0f34f250cff6d13c64ffafa65931ef8"
+  },
+  "inherited_resource_strategy": {
+    "schema": "R593-one-owner-cap-with-original-total-clock-v1",
+    "JSON_pointer": "/live_call_resources/owner/owner_seconds_cap",
+    "original_value_seconds": 6000,
+    "current_value_seconds": 12000,
+    "source_reason": "The current owner subtracts the original1200-second replay reserve from its local owner allowance after the common deadline clip; the old6000 cap limits nonlinear solve plus compilation to at most4800 seconds even when the original job still has time.",
+    "original_total_science_seconds": 19200,
+    "original_readback_cleanup_reserve_seconds": 120,
+    "original_workflow_job_minutes": 350,
+    "original_science_step_minutes": 320,
+    "unchanged_caps": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "original_one_absolute_clock_is_not_restarted": true,
+    "replay1200_is_inside_owner_allowance": true,
+    "stage8000_is_a_later_phase_not_an_earlier_owner_minimum": true,
+    "all_roles_clip_same_remaining_clock": true,
+    "requested_audit_has_original_independent_allowance_priority": true,
+    "no_guaranteed_completion_or_faster_execution_claim": true,
+    "no_change_to_prior_state_selection_or_numerical_gate": true
+  },
+  "unchanged_live_call_resources": {
+    "factor_seconds_cap": 19200,
+    "owner": {
+      "owner_seconds_cap": 12000,
+      "replay_reserve_seconds": 1200,
+      "threads": 4,
+      "stage_seconds_cap": 8000,
+      "boundary_seconds_cap": 600,
+      "endpoint_seconds_cap": 600,
+      "audit_seconds_cap": 1800
+    }
+  },
+  "additional_public_sources": [
+    {
+      "file": "root_20261116_loop_rounding_observation.hpp",
+      "bytes": 4657,
+      "sha256": "0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c"
+    },
+    {
+      "file": "root_20261116_loop_rounding_observation.py",
+      "bytes": 22648,
+      "sha256": "0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e"
+    }
+  ],
+  "root_loop_source_plan": {
+    "file": "notes/R583-loop-rounding-observation-complete-source-plan.json",
+    "bytes": 24218,
+    "sha256": "9e1ac431926c76e0e77858695e2d1772e07eb58dcaba1211f2c9eca7328af0f1"
+  },
+  "root_loop_header": {
+    "file": "root_20261116_loop_rounding_observation.hpp",
+    "bytes": 4657,
+    "sha256": "0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c"
+  },
+  "root_loop_adapter": {
+    "file": "root_20261116_loop_rounding_observation.py",
+    "bytes": 22648,
+    "sha256": "0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e"
+  },
+  "root_loop_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_loop_rounding_observation_primal128.cpp",
+        "bytes": 28149,
+        "sha256": "dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_loop_rounding_observation_trace128.cpp",
+        "bytes": 36388,
+        "sha256": "37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0"
+      }
+    }
+  ],
+  "root_loop_numeric_contract": {
+    "complete_inner_loops": [
+      {
+        "function": "root_evaluate",
+        "loop": "j=0..M-1",
+        "mode_variable": "r583_synthesis_rounding",
+        "product_paths": [
+          "fixed_fallback_P",
+          "fixed_fallback_Pt",
+          "L",
+          "evaluation_u_words",
+          "evaluation_u_fallback"
+        ]
+      },
+      {
+        "function": "root_evaluate",
+        "loop": "i=0..J-1",
+        "mode_variable": "r583_residual_rounding",
+        "product_paths": [
+          "root_residual"
+        ]
+      },
+      {
+        "function": "root_matrix",
+        "loop": "k=0..2M",
+        "mode_variable": "r583_gram_rounding",
+        "product_paths": [
+          "root_gram"
+        ]
+      },
+      {
+        "function": "rhs",
+        "loop": "j=0..M-1",
+        "mode_variable": "r583_flux_rounding",
+        "product_paths": [
+          "primal_flux"
+        ]
+      }
+    ],
+    "qualification": "Every original actual left/factor word, layout/finite/normal/53-bit factor/result-range/signed-zero qualification remains per product. Only the FE_TONEAREST comparison consumes one actual loop-entry thread-mode observation.",
+    "caller_condition": "The actual thread rounding mode and the result of its mode observation stay constant from the loop-entry observation through the complete inner loop. The complete frozen loop bodies and their called arithmetic helpers contain no mode setter or callback; unsupported external/asynchronous mode mutations are outside this equivalence statement.",
+    "mode_nearest_required_as_new_acceptance_gate": false,
+    "non_nearest_or_unknown_observation": "Original rounding-fallback Q product at every actual product site; all original layout and later product qualifications remain in original order.",
+    "original_five_R572_and_three_R564_product_values_preserved_under_caller_condition": true,
+    "original_seventeen_counters_and_full_last_per_eight_paths_retained": true,
+    "original_headers_and_statistics_printers_retained": true,
+    "original_left_expressions_factor_words_all_sum_orders_and_time_check_sites_unchanged": true,
+    "original_R535_fixed_U_words_and_R550_accepted_evaluation_reuse_unchanged": true,
+    "original_R561_second_product_selection_unchanged": true,
+    "original_trace_directional_arithmetic_body_unchanged": true,
+    "original_root_stops_trials_domain_guards_native_replay_FD_fullDN_and_final_audit_unchanged": true,
+    "original_compiler_flags_resource_caps_and_mathematical_thresholds_unchanged": true,
+    "no_rounding_mode_set_no_cross_loop_cache_no_new_table_or_H_cache": true,
+    "no_scientific_success_or_performance_or_resource_frontier_claim": true,
+    "floating_exception_flag_equivalence_not_claimed": true
+  },
+  "root_ancestor_plans": {
+    "synthesis": {
+      "file": "notes/R572-exact-root-synthesis-products-complete-source-plan.json",
+      "bytes": 14796,
+      "sha256": "25e8a39b5c8beaaa0b8b049d79f0e5d278622aa4f62e156fcd50cfceb50f1a64"
+    },
+    "product": {
+      "file": "notes/R564-exact-lifted-factor-product-complete-source-plan.json",
+      "bytes": 13514,
+      "sha256": "cd4c90cbfc9e48acdd06a692885121627355df477955104981713d248cafca4a"
+    },
+    "average": {
+      "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+      "bytes": 13708,
+      "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+    },
+    "reuse": {
+      "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+      "bytes": 12303,
+      "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+    },
+    "word": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    }
+  },
+  "relation_helper": {
+    "file": "root_20261116_complete_named_source_and_root_statistics_relations.py",
+    "bytes": 19120,
+    "sha256": "6f7cb8049e8b77b26964deb675e5868d6b374ac2e07c49b6517c8e51d7db0dad"
+  },
+  "counts": {
+    "parent_complete_sources": 454,
+    "parent_public_sources": 363,
+    "parent_generated_sources": 91,
+    "new_public_sources": 3,
+    "new_generated_root_includes": 2,
+    "new_generated_caller_views": 10,
+    "new_generated_sources": 12,
+    "complete_sources": 469,
+    "public_sources": 366,
+    "generated_sources": 103
+  },
+  "roles": {
+    "owner": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+      "bytes": 27053,
+      "sha256": "502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988"
+    },
+    "system": {
+      "file": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+      "bytes": 29067,
+      "sha256": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120"
+    },
+    "qr": {
+      "file": "exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py",
+      "bytes": 21853,
+      "sha256": "d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c"
+    },
+    "pipeline": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_call_pipeline.py",
+      "bytes": 43271,
+      "sha256": "b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533"
+    },
+    "call": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+      "bytes": 45451,
+      "sha256": "2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5"
+    },
+    "worker": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_worker.mjs",
+      "bytes": 8322,
+      "sha256": "19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51"
+    },
+    "client": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+      "bytes": 41888,
+      "sha256": "1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6"
+    },
+    "fulldn": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_original_full_dn.py",
+      "bytes": 48155,
+      "sha256": "2dfe9885b91c0db9a41099065a6c336eb589c310fc2e0d25d28e6ca11d3e43e5"
+    },
+    "runner": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_owned_run.py",
+      "bytes": 39343,
+      "sha256": "35072e528edb63d1d7c2b28f1e87e11539680cb07734dfae58196bc4a605f1e1"
+    },
+    "reader": {
+      "file": "root_20261116_live128_loop_rounding_observed_necessary.py",
+      "bytes": 66607,
+      "sha256": "e3d2869e86374d5ee3b01272f757bf8e5a74c7e71f90ed88cbabc369d556323a"
+    }
+  },
+  "schemas": {
+    "owner": "R584-current-H-loop-rounding-observed-owner128-before-projected-model-v1",
+    "pipeline": "R584-current-H-loop-rounding-observed-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R584-current-H-loop-rounding-observed-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R584-current-H-loop-rounding-observed-live128-projected-model-client-policy-v1",
+    "fulldn": "R584-live128-loop-rounding-observed-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "runner": "R584-live128-loop-rounding-observed-original-full112-owned-procedure-v1",
+    "reader": "R584-live128-loop-rounding-observed-original-full112-necessary-v1",
+    "request": "public-live128-loop-rounding-observed-original-full112-FD-fullDN-request-v1",
+    "outer": "public-live128-loop-rounding-observation-composition-request-v1",
+    "namespace": "visible-live128-loop-rounding-observation244",
+    "source": "R584-loop-rounding-observation-complete-source-preparation-v1",
+    "plan": "R584-loop-rounding-observation-complete-source-plan-v1",
+    "meta": "request244-source-preparation"
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+        "bytes": 26666,
+        "sha256": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+        "bytes": 27053,
+        "sha256": "502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988"
+      },
+      "patches": [
+        {
+          "id": "current-description",
+          "before": "R573 exact root synthesis products and inherited dyadic averages before the same-DN model.",
+          "after": "R584 actual loop-rounding-observed root products before the same-DN model.",
+          "count": 1
+        },
+        {
+          "id": "current-owner-schema",
+          "before": "R573-current-H-root-synthesis-product-owner128-before-projected-model-v1",
+          "after": "R584-current-H-loop-rounding-observed-owner128-before-projected-model-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-R583-preparation-and-one-installer",
+          "before": "def install_exact_root_synthesis_products(owner_scope, record, runner):\n    preparation_directory = runner/\"request240-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n            \"Actual source-preparation directory is not a symlink\")\n    preparation_file = preparation_directory/\"source-views.json\"\n    preparation_receipt = identity(preparation_file)\n    checked(preparation_receipt, runner)\n    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R573-root-synthesis-product-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 240\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R572/R564/R561/R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n            and any(row.get(\"role\") == \"owner\" and row.get(\"actual\") == identity(__file__)\n                    for row in preparation.get(\"generated\", [])),\n            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R572_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R572 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R572\"/\"source-binding.json\",\n            \"The independent actual R572 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n    require(binding == child.get(\"source_result\"),\n            \"The complete source binding agrees with the actual preparation receipt\")\n    record[\"root_finite_word_cache_source_preparation\"] = preparation_receipt\n    record[\"root_finite_word_cache_source_binding\"] = dict(\n        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_exact_root_synthesis_products.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 20999\n            and file_sha(adapter_file) == \"cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf\",\n            \"The exact published R572 compiler adapter; R564/R561/R550/R535 are source-only ancestry\")\n    module_spec = importlib.util.spec_from_file_location(\"_R573_actual_root_synthesis_product_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n    sys.modules[module_spec.name] = adapter\n    module_spec.loader.exec_module(adapter)\n    record[\"root_finite_word_cache_compiler_installation\"] = adapter.install_owner_compiler(\n        owner_scope, binding)\n    return record[\"root_finite_word_cache_compiler_installation\"]\n\n",
+          "after": "def install_complete_loop_rounding_observation(owner_scope, record, runner):\n    preparation_directory = runner/\"request244-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n            \"Actual source-preparation directory is not a symlink\")\n    preparation_file = preparation_directory/\"source-views.json\"\n    preparation_receipt = identity(preparation_file)\n    checked(preparation_receipt, runner)\n    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R584-loop-rounding-observation-complete-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 244\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R583/R572/R564/R561/R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n            and any(row.get(\"role\") == \"owner\" and row.get(\"actual\") == identity(__file__)\n                    for row in preparation.get(\"generated\", [])),\n            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R583_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R583 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R583\"/\"source-binding.json\",\n            \"The independent actual R583 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n    require(binding == child.get(\"source_result\"),\n            \"The complete source binding agrees with the actual preparation receipt\")\n    record[\"root_finite_word_cache_source_preparation\"] = preparation_receipt\n    record[\"root_finite_word_cache_source_binding\"] = dict(\n        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_loop_rounding_observation.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 22648\n            and file_sha(adapter_file) == \"0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e\",\n            \"The exact published R583 compiler adapter; R572/R564/R561/R550/R535 are source-only ancestry\")\n    module_spec = importlib.util.spec_from_file_location(\"_R584_actual_loop_rounding_observation_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n    sys.modules[module_spec.name] = adapter\n    module_spec.loader.exec_module(adapter)\n    record[\"root_finite_word_cache_compiler_installation\"] = adapter.install_owner_compiler(\n        owner_scope, binding)\n    return record[\"root_finite_word_cache_compiler_installation\"]\n\n",
+          "count": 1
+        },
+        {
+          "id": "call-the-actual-new-installer",
+          "before": "        install_exact_root_synthesis_products(owner_scope, record, runner)",
+          "after": "        install_complete_loop_rounding_observation(owner_scope, record, runner)",
+          "count": 1
+        },
+        {
+          "id": "current-program-contract",
+          "before": "        one_direct_R572_installation_without_prior_R564_R561_R550_or_R535_hook=True,",
+          "after": "        root_primal_uses_declared_R583_loop_rounding_observation_source=True,\n        one_direct_R583_installation_without_prior_R572_R564_R561_R550_or_R535_hook=True,\n        four_actual_inner_loop_mode_observations_not_per_product_queries=True,\n        numerical_equivalence_requires_constant_actual_thread_mode_within_each_loop=True,\n        no_rounding_mode_set_or_cross_loop_mode_cache=True,\n        original_complete_eight_product_paths_seventeen_counters_and_full_last_retained=True,",
+          "count": 1
+        },
+        {
+          "id": "current-owner-event",
+          "before": "R573_synthesis_product_current_owner_before_projected_model_return",
+          "after": "R584_loop_rounding_current_owner_before_projected_model_return",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+        "bytes": 29077,
+        "sha256": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14"
+      },
+      "output": {
+        "file": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+        "bytes": 29067,
+        "sha256": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120"
+      },
+      "patches": [
+        {
+          "id": "actual-launcher",
+          "before": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+          "count": 1
+        },
+        {
+          "id": "actual-hook",
+          "before": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py",
+        "bytes": 21858,
+        "sha256": "ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f"
+      },
+      "output": {
+        "file": "exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py",
+        "bytes": 21853,
+        "sha256": "d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c"
+      },
+      "patches": [
+        {
+          "id": "actual-system",
+          "before": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+          "after": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "actual-system-identity",
+          "before": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14",
+          "after": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_call_pipeline.py",
+        "bytes": 43286,
+        "sha256": "1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_call_pipeline.py",
+        "bytes": 43271,
+        "sha256": "b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533"
+      },
+      "patches": [
+        {
+          "id": "current-description",
+          "before": "R573 root-synthesis-product owner and projected64 model under one original19200s clock.",
+          "after": "R584 loop-rounding-observed owner and projected64 model under one original19200s clock.",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-name",
+          "before": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-SHA",
+          "before": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17",
+          "after": "502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988",
+          "count": 1
+        },
+        {
+          "id": "actual-system-name",
+          "before": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+          "after": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "actual-system-SHA",
+          "before": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14",
+          "after": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-name",
+          "before": "exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py",
+          "after": "exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-SHA",
+          "before": "ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f",
+          "after": "d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-schema",
+          "before": "R573-current-H-root-synthesis-product-owner128-before-projected-model-v1",
+          "after": "R584-current-H-loop-rounding-observed-owner128-before-projected-model-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-schema",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-call-pipeline-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline_input-schema",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-input-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-call-pipeline-input-v1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+        "bytes": 45476,
+        "sha256": "cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+        "bytes": 45451,
+        "sha256": "2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5"
+      },
+      "patches": [
+        {
+          "id": "actual-source-owner",
+          "before": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+          "count": 1
+        },
+        {
+          "id": "actual-source-client",
+          "before": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+          "count": 2
+        },
+        {
+          "id": "actual-source-call",
+          "before": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-source-worker",
+          "before": "geometry_20261116_live128_synthesis_product_projected_worker.mjs",
+          "after": "geometry_20261116_live128_loop_rounding_observed_worker.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-schema-owner",
+          "before": "R573-current-H-root-synthesis-product-owner128-before-projected-model-v1",
+          "after": "R584-current-H-loop-rounding-observed-owner128-before-projected-model-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-pipeline_input",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-input-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-call-pipeline-input-v1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_worker.mjs",
+        "bytes": 8327,
+        "sha256": "ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_worker.mjs",
+        "bytes": 8322,
+        "sha256": "19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51"
+      },
+      "patches": [
+        {
+          "id": "current-source-description",
+          "before": "// R573 declared root-synthesis-product owner128 values with the unchanged complete R534 model.",
+          "after": "// R584 declared loop-rounding-observed owner128 values with the unchanged complete R534 model.",
+          "count": 1
+        },
+        {
+          "id": "actual-call",
+          "before": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+        "bytes": 40476,
+        "sha256": "3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+        "bytes": 41888,
+        "sha256": "1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6"
+      },
+      "patches": [
+        {
+          "id": "actual-client-policy",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-1",
+          "before": "        source_file=\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\",\n",
+          "after": "        source_file=\"exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py\",\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-2",
+          "before": "        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"],\n",
+          "after": "        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py\"],\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-3",
+          "before": "        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_system.py\"],\n",
+          "after": "        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_loop_rounding_observed_current576_system.py\"],\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-4",
+          "before": "        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_current_call.mjs\"],\n",
+          "after": "        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_loop_rounding_observed_current_call.mjs\"],\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-5",
+          "before": "        pipeline=dict(source_file=\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\",\n",
+          "after": "        pipeline=dict(source_file=\"geometry_20261116_live128_loop_rounding_observed_call_pipeline.py\",\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-6",
+          "before": "            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\"]),\n",
+          "after": "            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_loop_rounding_observed_call_pipeline.py\"]),\n",
+          "count": 1
+        },
+        {
+          "id": "actual-operational-tuple-line-7",
+          "before": "                   str(HERE/\"geometry_20261116_live128_synthesis_product_projected_worker.mjs\"), str(self.config)]\n",
+          "after": "                   str(HERE/\"geometry_20261116_live128_loop_rounding_observed_worker.mjs\"), str(self.config)]\n",
+          "count": 1
+        },
+        {
+          "id": "retain-all-ancestor-pins-and-add-current-tuple",
+          "before": "\ndef sha(path):",
+          "after": "\n# R584 retains every ancestral pin and binds all actual new callers/includes.\nLIVE_SOURCE_PINS.update({\n    \"geometry_20261116_live128_loop_rounding_observed_same_call_owner.py\": \"502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988\",\n    \"exact_20261116_live128_loop_rounding_observed_current576_system.py\": \"bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120\",\n    \"exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py\": \"d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c\",\n    \"geometry_20261116_live128_loop_rounding_observed_call_pipeline.py\": \"b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533\",\n    \"geometry_20261116_live128_loop_rounding_observed_current_call.mjs\": \"2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5\",\n    \"geometry_20261116_live128_loop_rounding_observed_worker.mjs\": \"19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51\",\n    \"root_20261116_loop_rounding_observation.hpp\": \"0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c\",\n    \"root_20261116_loop_rounding_observation.py\": \"0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e\",\n    \"root_20261116_loop_rounding_observation_primal128.cpp\": \"dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76\",\n    \"root_20261116_loop_rounding_observation_trace128.cpp\": \"37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0\"\n})\n\ndef sha(path):",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+        "bytes": 46439,
+        "sha256": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_original_full_dn.py",
+        "bytes": 48155,
+        "sha256": "2dfe9885b91c0db9a41099065a6c336eb589c310fc2e0d25d28e6ca11d3e43e5"
+      },
+      "patches": [
+        {
+          "id": "actual-description",
+          "before": "R573 actual63 prefix to synthesis-product-owner128/current64 model, original FD/fullDN.",
+          "after": "R584 actual63 prefix to loop-rounding-observed owner128/current64 model, original FD/fullDN.",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-schema",
+          "before": "R573-live128-root-synthesis-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+          "after": "R584-live128-loop-rounding-observed-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-client",
+          "before": "CLIENT_NAME = \"geometry_20261116_live128_synthesis_product_projected_tail_client.py\"",
+          "after": "CLIENT_NAME = \"geometry_20261116_live128_loop_rounding_observed_tail_client.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-identity",
+          "before": "    CLIENT_NAME: \"3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f\",",
+          "after": "    CLIENT_NAME: \"1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6\",",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-policy",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "all-current-and-ancestral-source-pins",
+          "before": "\ndef sha(path):",
+          "after": "\n# R584 actual source tuple; the full ancestral inventories above remain.\nSOURCE_PINS.update({\n    \"geometry_20261116_live128_loop_rounding_observed_same_call_owner.py\": \"502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988\",\n    \"exact_20261116_live128_loop_rounding_observed_current576_system.py\": \"bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120\",\n    \"exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py\": \"d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c\",\n    \"geometry_20261116_live128_loop_rounding_observed_call_pipeline.py\": \"b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533\",\n    \"geometry_20261116_live128_loop_rounding_observed_current_call.mjs\": \"2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5\",\n    \"geometry_20261116_live128_loop_rounding_observed_worker.mjs\": \"19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51\",\n    \"root_20261116_loop_rounding_observation.hpp\": \"0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c\",\n    \"root_20261116_loop_rounding_observation.py\": \"0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e\",\n    \"root_20261116_loop_rounding_observation_primal128.cpp\": \"dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76\",\n    \"root_20261116_loop_rounding_observation_trace128.cpp\": \"37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0\",\n    \"geometry_20261116_live128_synthesis_product_projected_tail_client.py\": \"3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f\",\n    \"geometry_20261116_live128_loop_rounding_observed_tail_client.py\": \"1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6\"\n})\n\ndef sha(path):",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-event",
+          "before": "R573_live128_synthesis_product_projected_model_original_full_DN_orchestration_return",
+          "after": "R584_live128_loop_rounding_projected_model_original_full_DN_orchestration_return",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+        "bytes": 39341,
+        "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_loop_rounding_observed_owned_run.py",
+        "bytes": 39343,
+        "sha256": "35072e528edb63d1d7c2b28f1e87e11539680cb07734dfae58196bc4a605f1e1"
+      },
+      "patches": [
+        {
+          "id": "actual-entry-name",
+          "before": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_original_full_dn.py",
+          "count": 1
+        },
+        {
+          "id": "actual-entry-SHA",
+          "before": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63",
+          "after": "2dfe9885b91c0db9a41099065a6c336eb589c310fc2e0d25d28e6ca11d3e43e5",
+          "count": 1
+        },
+        {
+          "id": "actual-policy-schema",
+          "before": "R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1",
+          "after": "R584-current-H-loop-rounding-observed-live128-projected-model-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-R584-live128-loop-rounding-observed-original-full112-owned-procedure-v1",
+          "before": "R593-live128-extended-owner-budget-original-full112-owned-procedure-v1",
+          "after": "R584-live128-loop-rounding-observed-original-full112-owned-procedure-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-public-live128-loop-rounding-observed-original-full112-FD-fullDN-request-v1",
+          "before": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-loop-rounding-observed-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-visible-live128-loop-rounding-observation244",
+          "before": "visible-live128-extended-owner-budget248",
+          "after": "visible-live128-loop-rounding-observation244",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-R584-live128-loop-rounding-observed-original-full112-necessary-v1",
+          "before": "R593-live128-extended-owner-budget-original-full112-necessary-v1",
+          "after": "R584-live128-loop-rounding-observed-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-loader-label",
+          "before": "_R593_",
+          "after": "_R584_",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-1",
+          "before": "\"\"\"Request248: explicit12000-second owner cap under the original19200-second clock.\n",
+          "after": "\"\"\"Request244: explicit12000-second owner cap under the original19200-second clock.\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-117",
+          "before": "            \"Only this exact request248 namespace is owned\")\n",
+          "after": "            \"Only this exact request244 namespace is owned\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-126",
+          "before": "            and request[\"request_number\"]==248 and request[\"repository\"]==REPO,\n",
+          "after": "            and request[\"request_number\"]==244 and request[\"repository\"]==REPO,\n",
+          "count": 2
+        },
+        {
+          "id": "actual-current-request-line-127",
+          "before": "            \"The actual complete request248 bytes and schema\")\n",
+          "after": "            \"The actual complete request244 bytes and schema\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-168",
+          "before": "    require(not base.exists(),\"Use a fresh actual request248 namespace\")\n",
+          "after": "    require(not base.exists(),\"Use a fresh actual request244 namespace\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-174",
+          "before": "            \"The actual independent request248 with frozen221 as source ancestry\")\n",
+          "after": "            \"The actual independent request244 with frozen221 as source ancestry\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-282",
+          "before": "        print(json.dumps(dict(event=\"request248_preparation_return\",complete=report[\"complete\"],\n",
+          "after": "        print(json.dumps(dict(event=\"request244_preparation_return\",complete=report[\"complete\"],\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-670",
+          "before": "        print(json.dumps(dict(event=\"request248_actual_science_return\",actual_exit_code=code,\n",
+          "after": "        print(json.dumps(dict(event=\"request244_actual_science_return\",actual_exit_code=code,\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-690",
+          "before": "        print(json.dumps(dict(event=\"request248_cleanup\",removed=False,\n",
+          "after": "        print(json.dumps(dict(event=\"request244_cleanup\",removed=False,\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-701",
+          "before": "    record=dict(event=\"request248_cleanup\",removed=True,namespace=str(base),\n",
+          "after": "    record=dict(event=\"request244_cleanup\",removed=True,namespace=str(base),\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-724",
+          "before": "        print(json.dumps(dict(event=\"request248_quiet\",quiescent=result[\"quiescent\"],\n",
+          "after": "        print(json.dumps(dict(event=\"request244_quiet\",quiescent=result[\"quiescent\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+        "bytes": 65727,
+        "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+      },
+      "output": {
+        "file": "root_20261116_live128_loop_rounding_observed_necessary.py",
+        "bytes": 66607,
+        "sha256": "e3d2869e86374d5ee3b01272f757bf8e5a74c7e71f90ed88cbabc369d556323a"
+      },
+      "patches": [
+        {
+          "id": "actual-identity-R584-live128-loop-rounding-observed-original-full112-necessary-v1",
+          "before": "R593-live128-extended-owner-budget-original-full112-necessary-v1",
+          "after": "R584-live128-loop-rounding-observed-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-public-live128-loop-rounding-observed-original-full112-FD-fullDN-request-v1",
+          "before": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-loop-rounding-observed-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "actual-identity-visible-live128-loop-rounding-observation244",
+          "before": "visible-live128-extended-owner-budget248",
+          "after": "visible-live128-loop-rounding-observation244",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-name",
+          "before": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+          "after": "geometry_20261116_live128_loop_rounding_observed_owned_run.py",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-SHA",
+          "before": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c",
+          "after": "35072e528edb63d1d7c2b28f1e87e11539680cb07734dfae58196bc4a605f1e1",
+          "count": 1
+        },
+        {
+          "id": "actual-loader-label",
+          "before": "_R593_necessary_runtime",
+          "after": "_R584_necessary_runtime",
+          "count": 1
+        },
+        {
+          "id": "actual-science-frame",
+          "before": "REQUEST248_EXTENDED_OWNER_BUDGET_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "after": "REQUEST244_LOOP_ROUNDING_OBSERVATION_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-1",
+          "before": "\"\"\"Request248 readback after the original scoped owned-process quiescence.\n",
+          "after": "\"\"\"Request244 readback after the original scoped owned-process quiescence.\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-906",
+          "before": "    require(sha(request_path)==args.request_sha256,\"Actual request248 SHA; frozen221 is source ancestry\")\n",
+          "after": "    require(sha(request_path)==args.request_sha256,\"Actual request244 SHA; frozen221 is source ancestry\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-908",
+          "before": "    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==248,\"Actual independent request248\")\n",
+          "after": "    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==244,\"Actual independent request244\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-912",
+          "before": "            \"Only the one request248 namespace\")\n",
+          "after": "            \"Only the one request244 namespace\")\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-918",
+          "before": "    answer=dict(schema=SCHEMA,request_number=248,source=receipt(__file__),\n",
+          "after": "    answer=dict(schema=SCHEMA,request_number=244,source=receipt(__file__),\n",
+          "count": 1
+        },
+        {
+          "id": "actual-current-request-line-1005",
+          "before": "        answer=dict(schema=SCHEMA,request_number=248,\n",
+          "after": "        answer=dict(schema=SCHEMA,request_number=244,\n",
+          "count": 2
+        },
+        {
+          "id": "complete-new-owner-source-contract",
+          "before": "            \"one_direct_R572_installation_without_prior_R564_R561_R550_or_R535_hook\",",
+          "after": "            \"one_direct_R572_installation_without_prior_R564_R561_R550_or_R535_hook\",\n            \"root_primal_uses_declared_R583_loop_rounding_observation_source\",\n            \"one_direct_R583_installation_without_prior_R572_R564_R561_R550_or_R535_hook\",\n            \"four_actual_inner_loop_mode_observations_not_per_product_queries\",\n            \"numerical_equivalence_requires_constant_actual_thread_mode_within_each_loop\",\n            \"no_rounding_mode_set_or_cross_loop_mode_cache\",\n            \"original_complete_eight_product_paths_seventeen_counters_and_full_last_retained\",",
+          "count": 1
+        },
+        {
+          "id": "actual-new-declaration-and-ancestor-resource-policy",
+          "before": "        R593_resource_strategy=request.get(\"R593_resource_strategy\"),",
+          "after": "        R593_resource_strategy=request.get(\"R593_resource_strategy\"),\n        R584_loop_rounding_observation=request.get(\"R584_loop_rounding_observation\"),",
+          "count": 1
+        },
+        {
+          "id": "honest-complete-new-binding-scope",
+          "before": "            absent_or_null_R572_member_not_fabricated=True,",
+          "after": "            absent_or_null_R572_member_not_fabricated=True,\n            R583_compiler_and_full_loop_mode_source_contract_retained_when_returned=True,\n            unknown_R583_source_binding_members_remain_literal_under_original_R588_relation=True,\n            loop_mode_observation_does_not_create_new_product_statistics_or_acceptance_gate=True,",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_scope": {
+    "actual_same_computations_and_GITHUB_WORKSPACE_required": true,
+    "original_public_requests_and_sources_not_overwritten": true,
+    "actual_parent_full248_request_read_from_its_same_job_complete_source_record": true,
+    "all_parent454_source_pins_retained": true,
+    "all_original248_scientific_inputs_resources_warm_choices_and_acceptance_gates_unchanged": true,
+    "only_current_R583_installation_and_explicit_source_metadata_changed": true,
+    "old_R572_R564_R561_R550_R535_adapters_source_only_before_one_actual_R583_installation": true,
+    "R583_source_preparation_is_not_compilation_or_scientific_acceptance": true,
+    "complete_unknown_R583_binding_and_numeric_contract_retained_in_both_necessary_scopes": true,
+    "necessary_each_single90000_byte_body_and_actual_overflow70_without_split_or_truncation": true,
+    "no_scientific_execution_performed_by_this_source_plan": true,
+    "generated_views_not_committed_to_main_or_uploaded_as_scientific_artifacts": true
+  }
+}

@@ -37,37 +37,21 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
-**两22/23旧manifest狭窄整理（固定审计和完整作者说明已成）**：[全部用途与固定恢复](notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md)。新独立审计固定7af9，原77014B正文已完整恢复，31429 source/12306历史/77gzip EOF、18组93行真实readers与B model关联全部解释；未扫12327和泛地址未返边界保。仅两静态manifest共1228897B列为本次删除，真实artifact readers与全部warm/status/arrays/source保。最新真pull之后26patterns全delta、全候选SHA与仅两删除合同/容量逐项实际付；任何unknown/超90K/70均不push，结果由实际回执补记。
+本次精简前本节全部原词、参数、失败/未返/未访、source/run/资源/清理和待付责任逐字保[f370f6f0固定open](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/open.md)、[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/HANDOFF.md)及ca3ad325/27bc全旧链；原results/接口不删，§4–6原字保。
 
-**R596（已证明的同场条件库；完整源码/证明/接口已刊）**：[实际保存RHS与完整有限DFT缺陷](results/R596-actual-saved-RHS-and-complete-finite-DFT-defect.md)。实际physical DY/augmented DU不混；全N参考/所有3M+2含双mean、全cell Q与原C_lit包围，直接残差和原R521真实sample/fill/transfer完整。准确reference差含scalar/chart/形成总差，不单称FFT舍入。真实cp.directory捕获修复有完整原字绑定；全N P与全角cover分别付。R597249继续真实owned/reader/cleanup接线，未有数值/accepted450/完整metric floor。
+**R584/request244完整入口本次独立刊**：[完整证明](results/R584-request244-loop-rounding-observation-complete-original-full112-entry.md)、[全部CLI](notes/2026-11-16-request244-loop-rounding-observation-original-full112-interface.md)。已刊R594454源逐值保→469=366+103；十实际caller和R583两include，原六plan source-only、直接一次R583 installer/24额外编译依赖。原63/78/91用途、M112/338×112/完整576/224/双mean、19200总钟/owner12000与后继全部cap、FD/fullDN/final fresh audit均保。唯一POST后官方tuple再绑，R585 exact唯一，不借任何旧run科学结果或242三参数初猜；原90000/70/quiet与完整失败责任保持。
 
-**R583（已证明、完整源码及CLI已刊）**：[完整循环模式观察](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。原R564核完整两变换，四完整inner loops各读实际线程mode一次；在各loop内mode/观察值恒定条件下八类RN128产品、17计数/full last和原累加顺序同。无外部异步mode保证、浮点flags/时间/资源frontier保证；非nearest/未知仍原fallback。六plan完整source-only链、直接一次R583安装、24额外依赖、原全门/资源保。R584244接真实R59412000caller，不提前填run/数值。R596完整后立即刊；retention5原body已恢复，最新delta守卫未付前不删。
+R583已7c16a9e8：[完整循环模式条件证明](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。四内循环各一次实际thread mode，条件为该loop内模式及观察值不变；八类RN128乘积/17计数/full last/原累加序同。非nearest/未知仍原fallback；布局失败先fallback；不承诺flags/速度/资源前沿。R561准确dyadic平均本体无fegetround，本文本次明确这句话，全部源码身份不改。
 
-**[R594/request248完整真实资源入口](notes/2026-11-16-request248-native-owner12000-original-full112-interface.md)本次独立刊**：[R593](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)已ca3ad325，原R589451全保→454/363public91generated、沿原63/78/91输入，唯一owner6000→12000；同19200/replay1200和后继所有cap/数学/初猜门保。真实current request全SHA贯穿所有CLI，reader保真实actual_resource_allocation，不填actual12000；单派248、R595 exact唯一。R581/243已[正式beb6/run43903254017](notes/2026-11-16-request243-official-run-binding.md)，16:04排队/jobs空、R582 amplitude唯一。
+R596已b68c76fd：[真实保存RHS与全有限DFT](results/R596-actual-saved-RHS-and-complete-finite-DFT-defect.md)、[完整接口](notes/2026-11-16-actual-saved-RHS-and-complete-finite-DFT-defect-interface.md)。全部Y/DY/U/DU及四物理源closure/同次capture分开；全N×(3M+2)含双mean、整cell Q/C_lit及真实R521 sample-fill/transfer完整。准确reference总差不单称FFT舍入；cp.directory来源修复是新源事实，原全角正域与全N正域分责。同R575/同ledger合成仍待实际执行。geometry继续R597249/R598真实owned/reader/cleanup/原Budget内接线，先处理238已观察的有理串解析和旧recipe basename错误，不改正在跑241/247。
 
-更新前全部原词、参数、失败/未返/未访、source/run/资源/清理及完整责任保[ca3ad325固定open](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/open.md)和[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/HANDOFF.md)及完整旧链。仅折叠本节已有历史，原results/接口不删；§4–6逐字不动，已删raw不由SHA造父。
+R568实际238由geometry完整成文：采样及原C工厂全域已返成功；BVP在原float(有理串)入口ValueError，design453/frozen450未开始；closed在旧recipe文件路径缺失而postsolve/held未开始。source必要91528>90K/70，不能据SHA补内部源码字段；完整各scope、全部计数/环境/资源/quiet/清理待其全稿，不以failure标签判数学不可能。R566实际237由amplitude完整成文：432来源准备成功，source286365B及science164993B分别超90K/70，具体内部科学原因未返、quiet=true而removed=false，不能沿225/224补数值。
 
-**[R581/request243实际同次解析带入口](results/R581-same-return-analytic-angle-projection-executable-composition.md)六件本次独立刊**：正式R576全部642来源保→653=322+331/14层、26runtime；R580绑定同一真实R575/R553对象，消费同cell已返全tube，h0=1/256/terms24，其余M/N/精度原值。原refine/退栈/全覆盖和metric/BVP门不改；全局尾项在原Budget/信号try内，资源stop后仅metadata。完整必要仅同测量R575 binding全相等时具名可逆共享，原90K/70不变，不承诺fit/界值；正式刊后单派、R582 amplitude唯一。
+现有真实入口继续：R576/241同次R553→R575全角投影，R581/243另显式R580解析带1/256与24项、原Budget内全局sum及单绑定可逆必要；R591/247修239来源reader；R586/245保完整生成来源的具名逆与两workerfar。R589/246原8catalogues/全部RootStats完整必要，R593/R594248原同总钟owner12000，R578242实际98三参数只初猜、fresh全DN。各完整正式源/CLI及POST/run绑定仍在原results/notes；running只metadata，每终态job指定一次，任何源生成或子步骤成功不替最终门。
 
-**正在运行的连续几何链**：[R576/241](results/R576-same-return-full-angle-projection-and-complete-current-caller.md)已[正式7af9/run43901322004](notes/2026-11-16-request241-official-run-binding.md)，642/13层/25runtime，R575同次与原DFS完整覆盖、R586生成必要全逆；[R591/247](results/R591-actual-captured-reader-and-complete-source-chain-repair.md)已[正式3ca6/run43899155015](notes/2026-11-16-request247-official-run-binding.md)，修真实captured239四键集合，原R57056科学输出不改，627/12层。二者R577/R592 geometry唯一。238/R568仍全sampling、235/R560仍step19完整physical/far；245/R587原626/13层真实schema已修、step15全E，exact唯一。源准备不是全场接受。
+两22/23仅旧manifest已普通f370f6f0移出：[完整审计、consumer与恢复回执](notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md)。原独立审计77014/1b8e8bd7全文恢复；最新138变化、26patterns无新匹配/未扫/错误，guard64670/79ee4146完整逆93733/5a4d31d3、真实仅两删除。全部warm/status/arrays/gzip/source/真实artifact入口保，原完整恢复点7af9。前两26/28、两25、两24记录保；不据此批量删其他raw。
 
-**当前native完整科学链**：[R578/242](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)已[正式c3e91/run43900562629](notes/2026-11-16-request242-official-run-binding.md)，原98全453只三参新guess、全部RHS/H重算、FD/fullDN同新file，457来源；15:59前1–10过、11科学，R579 exact唯一。[R589/246](results/R589-complete-current-source-and-root-statistics-necessary-entry.md)原451/八RootStats完整关系已f70/run43897098674，11科学、R590 root唯一；227/R539、237/R566、240/R574由amplitude各守原科学钟。不得借任一未返数值补别的run。
-
-**[R593独立资源策略](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)已ca3ad325**：原last/predictor成功后已复用，不冒每H重启91；只owner6000→12000，仍同19200/replay1200和后继stage8000/边界端点600/audit1800/readback120。全余量足时局部solve上界4800→10800，所有数学/初猜不改，原451→454；沿原63输入、不混242，R594248完整入口后续，R595 exact唯一。不能由局部预算推全链足够或225未返残差。
-
-| 已刊实际终态 | 原完整责任与界限 |
-|---|---|
-| R525/224 | 零H328.594秒/残差0真实收敛；正高1/64原trial0接受后18000资源partial，末接受仍0。107463正文未返/1505诚实70；quiet true、removed false，无父。 |
-| R528/225 | 首全576试步接受至.0011938402006127619347；次534/576、42未访，原6000资源partial，次norm未知，native tol/完整replay/后继未付。 |
-| R541/228 | 八新模型与freshFD/24trial完整87376返回；八warm改善后原批限止，末RMS.007104815144455722，native/fullDN未起，不跨权重相减merit。 |
-| R537/226、R552/232、R555/233、R563/236 | 226 source完整但science109972未返；另三两完整必要均超90K，内部native/FD/fullDN未知。各实际外code/quiet与未清范围保原results，不冒数学拒。 |
-| R558/234、R571/239 | 234旧sampler schema科学前止、generation107643未返；239严格旧reader名不等、8894初始化完整但deadline null/十一层未起。后继修复不补旧run结果。 |
-
-**连续误差与真caller仍要逐项付**：[R553](results/R553-actual-prefix-coefficient-tubes-and-Frenet-majorants.md)给当前675全joint正tube；[R569](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)区分准确Q/C*与真实同次PPoly四幂和全augmented列、物理ρ归一化。R575全signed bins/两mean/无限alias及R580复带/完整指数尾均是准确参考条件界，实际FFT/RHS形成、literal cubic residual、全域relative metric、两帽/边界/全t嵌入reach/整像held/D/反射E仍须真付。geometry R596正在真实irfft/rfft、DY/DU不同controls与cp.directory/capture定位上接形成差；节点差不得升格全cell，单角P正不得冒全部N点正域。
-
-root R583/R584244R585继续四原完整内循环一次mode观察与全fallback/原统计/编译接口；exact接R594完整248；geometry预留R597249R598真后继。各完整结论立即独立推，子题后接下一项，资源/批限/阶段报告均非本题停止点。
-
-原26/28、两25及两24普通清单整理各有固定完整恢复/实际全引用/最终delta notes，现用warm/status/数组/兄弟都保；两24已8d1cfb2、完整88874可逆141568、138变化/未扫未知错误0。新22/23审计43901415619固定7af9官方success但工具未返回正文，正守护恢复同一原frame；没有完整正文和consumer解释前不删。所有root8/15旧偏差记录保，不再raw Git存储。
+固定问题实际精化、连续闭面与所有README量仍未完成。当前无非零112/338/450接受场、无新γ/全闭metric或比例证书。每模型fresh W/J，不跨权比较merit；所有原未返/未访/资源partial及精确存在缺口继续保。子件/批次/时长不是停点。
 
 ## 2. 准确十族候选与完整453→450
 
