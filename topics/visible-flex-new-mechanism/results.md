@@ -452,3 +452,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R518 固定宽度完整period成本与实际有限C1截面](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)：**已证明**原Jtr的满闭锥、真实导数满像、保基准开球和有限正配平/整数复制实际截面；原窗口合法化保共同母与全部桥成本，按同库接口接两period/13规范。R513排的额外伸缩partial不再作目标；未付同一完整实现字逐点ruling，不与R512同形母混用。
 
 - [R519 固定圈反射支与均值相容径向lift](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)：**已证明**保整圈E/F的两支分类、解析退化与切支边界、零均值门、完整Tu/Tv有限lift及原对称/径向接口；原角列成员时可直接形成共同幅度区间，原γ有条件补mean须保真实位置/二jet/盒。没有给当前58成员或可行实际值；近似投影须用完整R516模型。
+
+- [R521 有限正交副本与完整第三历史下非退化加速度控制](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)：**已证明**完整基本块双collar、正节点同0…10矩和含反射16元平均，保全部YC/history使ruling为sin²θ一式；在h,z,e均正紧域kss原积分系数严格正，给固定规范下真实有限ODE反馈。未给周期/M/T/frame/位置/period返回，不继承旧母库截面。

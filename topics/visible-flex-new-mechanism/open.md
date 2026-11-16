@@ -54,6 +54,12 @@ $
 
 下一未付的是R518这个同一实际控制字的**全路径逐点ruling**及全局几何。R518使用R459的内区可变母库，R512/517是字面同形母库，不能把两库局部收据拼成同圆；已有常态collar/高度脉冲成本可控也不说明K0。继续寻找保完整history的一致非恒实现子类，或者从起点重付全部母/复制接口；同g有限嵌入族、reach与可见幅度仍独立未付。
 
+### R521新的有限正复制与完整history反馈
+
+[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)从起点选择4包三矩、8副本全cubic基本块，再用16个正交旋转/反射及每组11个互异正节点的共同0…10矩，令完整第四ruling准确只剩sin²θ一条。整base双collar保证跨base加法，内部真尾与全部第三history保留。在预定h>0、x+ω>0、e=h(x+ω)−k>0紧域，原kss系数有严格正积分及统一正下界；以固定w=χ=0显式解kss，hss是真实自由控制，原m和完整有限第三状态同步演化。
+
+下一必须构造该真实反馈系统的非恒连接/完整返回轨道：scalar、M、frame、位置、第三目标和整个第四period须同一次满足，不能重置历史或借无ruling的R70桥。其新母库不继承R459/R518的十九/二十、cap或13规范；若联合必须从同一新初选重付相容性。局部ODE存在及全紧域非退化尚不授周期、更高阶收敛或主几何完成。
+
 ### 已付接口与旧排除的完整来源
 
 旧强圆、R333 wholeE、R389/R460 真range、R443–R462 原49模块和同一规范的详细原式，逐字保于[原接口记录](notes/open-O4-paid-interfaces-before-fixed-width-actual-section-20261116.md)。R304/306的同Gaussian芽rank-one排除、R387的一层障碍及其它窄族排除继续有效；不据此排一般C²构造。

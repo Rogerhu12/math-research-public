@@ -44,6 +44,8 @@ R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ及原费用
 
 [R517](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)付固定Δ的八维尾忠实性；周期scalar在0/L/2L的完整K二差为−2sin²θ E(Φ_MΔ)>0系数的负值。已付一次K0的光滑周期模板，第二次也K0 iff M0；若scalar本来是合法实解析整圆，一周期K0由解析延拓自动迫M0。未构造这种轨道，也未授frame/位置/T/V/两个period/13规范返回；R507端值返回不能冒全周期germ。
 
+[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)新from-start库以4包三矩/8副本完整cubic及16元O(2)正复制的共同0…10矩，将完整含第三history的ruling准确化为sin²θ一式。在预定h,z,e=hz−k均正紧域，kss系数=(16/(3072h⁵))Σ正权∫eF⁴/Q²严格正；固定w=χ=0可显式解kss，hss为自由控制，保真实m/T有限ODE。未给周期/M/frame/位置/T/period；不继承R518另一母库。
+
 ## 6. O2后继及当前工作顺序
 
 R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。当前ring未存完整17个Π三向量，下一必要kernel须新付；未给可行新态，不重原R2 LP。
