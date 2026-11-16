@@ -255,3 +255,6 @@
 
 
 - [R872原charge40 cubic原函数格](2026-11-16-r872-native-cubic-euler-primitive-and-tail-nullspace.md)：p>D+40下L=E+40在同WD逐列单位可逆；J3=L⁻¹(WD∩F³)由原零角迫剩因子t²，W1/W2/W3分别从3h+2/2h+2/h+2起，三尾Π全0。其首核仅保同W0前缀T，另两完整carry带0，三带门恰加深同值到s。J3∩V2=V4，未证明新非F²首核存在；Π准确降K1/(J3∩K1)，同R/S其余行保。
+
+
+- [R882附录B](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：同eta在w867下不变，J=T+729/V给原degree24商，w²=J²−2916t12及w∞首1准确回原B。两真CM序类数6/18付24分歧、商属37/18cusps。换同权St=Dlogt/24后完整Dt=π*Dplus+Ram，RR两符号54+66=120，并以St/S返回旧原DS。原576 reciprocal resultant准确降288后选原24因子；全边界/分支/两CM符号保，未执行或赋映射PASS。

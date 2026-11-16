@@ -586,3 +586,264 @@ $$
 它没有报告一次尚未执行的 factorization 或 RR 运行为成功，
 也没有断言任一 shadow 非零。第一版 degree306 公开运行不因本附录而
 被默认为错误；两者正规化的是同一条原曲线和同一除子。
+
+## 附录 B：原 eta 的 Fricke 商、degree24 底与完整 RR 分解
+
+本节继续使用附录A的同一个
+$$
+B=X_0(867),\qquad
+T=T_3(Q),\quad U=T_3(Q^{17}),\quad V=T_3(Q^{289}),\quad
+t=\frac{\eta(z)\eta(867z)}{\eta(3z)\eta(289z)},\quad Q=e^{2\pi iz}.
+$$
+原 \(U\) 始终表示中间17端点。下面新的商坐标记作 \(J\)，不覆盖这个 \(U\)。
+本节的 Fricke 对合 \(W=w_{867}\) 作用在底曲线 \(B\)；
+它与R883交换两个2端点的源对合不是同一个算子。
+以下给完整符号证明，没有执行新的因子分解或RR计算。
+
+### B.1 同一个 eta 商在 Fricke 下不变
+
+由 \(\eta(-1/z)=\sqrt{-iz}\eta(z)\)，在 \(z\mapsto-1/(867z)\) 下四个 eta 因子两两交换。
+平方根倍率在分子、分母均为同一个 \(\sqrt{867}(-iz)\)，故
+$$
+\boxed{
+W(t)=t,\quad W(T)=\frac{3^6}{V},\quad
+W(V)=\frac{3^6}{T},\quad W(U)=\frac{3^6}{U}.
+}
+\tag{B1}
+$$
+取正虚轴可先逐项固定平方根和eta的正实值，然后由解析延拓得到全恒等式；
+这里没有留下一个未定的十二阶单位。
+又原 \(t^{12}=T/V\)，所以令
+$$
+a=3^6t^{12},\qquad
+J=T+\frac aT=T+\frac{3^6}{V},\qquad
+w=T-\frac aT
+$$
+便有
+$$
+\boxed{
+W(J)=J,\quad W(w)=-w,\quad
+w^2=J^2-4a,\quad T=\frac{J+w}{2},\quad V=\frac{T}{t^{12}}.
+}
+\tag{B2}
+$$
+原中间 \(U\) 仍用正文的两个17多项式的一次gcd恢复；没有另选端点。
+
+附录A已付 \(k(B)=k(t,T)\)、\([k(B):k(t)]=48\)。
+在原无穷分支，
+$$
+t=Q^{24}(1+O(Q)),\quad T=Q^{-1}(1+O(Q)),\quad
+3^6/V=3^6Q^{289}(1+O(Q)),
+$$
+所以 \(W(T)\ne T\)。由(B2)，\(T\) 在 \(k(t,J)\) 上满足真正的二次方程
+$$
+T^2-JT+a=0.
+$$
+因此固定域和次数准确为
+$$
+\boxed{
+k(B)^W=k(t,J)=k(B^+),\quad B^+=X_0(867)/\langle W\rangle,\qquad
+[k(B^+):k(t)]=24.
+}
+\tag{B3}
+$$
+这保留了整个原 \(B\) 作为二次扩张；没有把所需映射强行下降到 \(B^+\)。
+返回原分支时须取
+$$
+\boxed{w=Q^{-1}(1+O(Q)),\quad T=(J+w)/2,}
+\tag{B4}
+$$
+不是任选一个平方根。
+
+### B.2 二十四个分歧点、属三十七和十八个 cusp
+
+给出本数值的直接计数，避免将非极大序的类数误作同一个二次域类数。
+Fricke作用及商的标准定义可参见
+[Maier, *Algebraic hypergeometric transformations of modular origin*, §2, (2.2)](https://www.ams.org/journals/tran/2007-359-08/S0002-9947-07-04128-1/S0002-9947-07-04128-1.pdf)。
+这里的固定点数用下述原 \(N=867\) 的整环计算支付。
+
+一个非cusp Fricke固定点给一个循环 \(N\) 同源的自对偶类。
+在上半平面表示中，\(\gamma w_N\) 的迹是 \(N\) 的整数倍；
+其固定点在上半平面使该矩阵椭圆，故迹的绝对值小于 \(2\sqrt N\)。
+因 \(N>4\)，该迹必为零。相应CM自同源 \(\alpha\) 满足
+$$
+\alpha^2=-867,\qquad \alpha=17\sqrt{-3}.
+$$
+于是其端环是包含 \(\mathbf Z[\alpha]\) 的
+\(K=\mathbf Q(\sqrt{-3})\) 的序。写
+\(\mathcal O_K=\mathbf Z[\omega]\)、\(\sqrt{-3}=1+2\omega\)，
+则 \(\mathbf Z[\alpha]\) 的导子为34。
+可能的端序导子是 \(1,2,17,34\)。
+
+导子1或2时，\(\sqrt{-3}\) 已在端环，故
+\(\alpha\in17\operatorname{End}(E)\)，其核包含全部 \(E[17]\)，不是循环。
+导子17或34时，\(\alpha/17=\sqrt{-3}\) 不在该端环，故核不含 \(E[17]\)；
+因 \(\deg\alpha=3\cdot17^2\)，这正好保证核循环。
+这两类序的单位只有 \(\{\pm1\}\)，两个符号的 \(\alpha\) 给同一个核。
+每个相应的真理想类给一个固定点，反向也按上述自同源恢复，故点数为这两个序的类数之和。
+
+\(\mathcal O_K\) 为欧氏环、类数一。其非极大序的类群由
+$$
+(\mathcal O_K/f\mathcal O_K)^\times/
+\bigl((\mathbf Z/f\mathbf Z)^\times\mathcal O_K^\times\bigr)
+$$
+准确给出。
+17在 \(K\) 惰性，故 \(f=17\) 时分子阶288，两个分母子群的阶为16和6、交为阶2，
+所以类数为 \(288/48=6\)。
+2亦惰性，\(f=34\) 时CRT给分子阶 \(3\cdot288=864\)，分母仍为阶48，
+所以类数为18。于是
+$$
+\boxed{\deg\operatorname{Ram}(B/B^+)=6+18=24.}
+\tag{B5}
+$$
+这是几何点总数／闭点次数和，不把它们都认成 \(\mathbf F_r\) 或 \(\mathbf F_{r^2}\) 有理点。
+
+原 \(B\) 的属85已在正文支付。由Riemann–Hurwitz，
+$$
+168=2(2g(B^+)-2)+24,\qquad
+\boxed{g(B^+)=37.}
+\tag{B6}
+$$
+Fricke将cusp分母 \(d\) 交换为 \(867/d\)。
+867不是平方数，故36个原cusp无一个固定，组成18对。
+记两层的约化cusp除子为 \(\mathcal C_B,\mathcal C_+\)，则
+$$
+\boxed{\deg\mathcal C_+=18,\qquad \pi^*\mathcal C_+=\mathcal C_B.}
+\tag{B7}
+$$
+原 \(t\) 的两个零cusp \(c_1,\infty\) 互换，两个极cusp \(c_3,c_{289}\) 互换；
+故在 \(B^+\) 上 \(t\) 恰有一个24阶零cusp和一个24阶极cusp。
+这些都保原绝对eta，不增加新分支。
+
+在所用 \(r=29,41\) 上，模曲线及cusp在良约化内，且2可逆。
+非平凡对合的固定点局部切向作用为 \(-1\)，故固定概形在这些良约化上保完整24次；
+(B5)–(B7)相应保持。没有以仿射判别式的裸零点数替代正规化的分歧除子。
+
+### B.3 一个真正 Fricke 不变的 weight2 分母
+
+原分母 \(S=-D_Q\log T\) 的除子不必在 \(W\) 下不变。
+不能直接把旧 \(D_S\) 的RR空间按(B2)强行拆开。
+改用明确的同权模形式
+$$
+S_t=\frac1{24}D_Q\log t,\qquad S_t(\infty)=1,
+$$
+并定义真正的几何除子
+$$
+D_t=\operatorname{div}_B(dt/t)+\mathcal C_B,\qquad
+D_+=\operatorname{div}_{B^+}(dt/t)+\mathcal C_+.
+$$
+因 \(t\) 是模单位，两个对数微分仅在cusp有至多简单极；
+\(dt/t\ne0\)，在原无穷cusp的留数24为所用特征的单位。
+因此两除子均有效，且
+$$
+\boxed{
+\deg D_t=204,\quad \deg D_+=90,\quad
+D_t=\pi^*D_++\operatorname{Ram}(B/B^+).
+}
+\tag{B8}
+$$
+最后一式是完整可分微分拉回公式及(B7)，所以包括全部ramification和cusp。
+在原无穷cusp \(D_t\) 的系数为零。
+
+与旧RR输入的转换有一个固定的真实乘子：
+$$
+\boxed{
+a_t=\frac{S_t}{S}=-\frac{T}{24t\,dT/dt},\qquad
+L(mD_t)\ \xrightarrow{\ f\mapsto a_t^m f\ }\ L(mD_S).
+}
+\tag{B9}
+$$
+这里 \(dT/dt\) 是同一原函数域的导数，非零由原T的cusp阶保证。
+确实 \(\operatorname{div}(a_t)=D_t-D_S\)，故
+\(\operatorname{div}(a_t^mf)+mD_S=\operatorname{div}(f)+mD_t\)。
+这同时保全部有限极与原 \(\infty\) 的首项；
+(B9)方向不能倒写。所有原M2乘积、低核、17端点及Artin尺度均可在转换后原样读取。
+
+### B.4 属三十七上的两个真 RR 空间
+
+令
+$$
+\delta_J=J^2-4a\in k(B^+)^\times,\qquad
+\operatorname{div}(\delta_J)=2A+\mathcal B,
+$$
+其中每个赋值按 \(2a_Q+b_Q\)、\(b_Q\in\{0,1\}\) 唯一拆分。
+\(\mathcal B\) 是二次扩张 \(w^2=\delta_J\) 的约化分歧底除子，允许原有极点给奇赋值；
+\(\deg\mathcal B=24\)、\(\deg A=-12\)。
+这里必须在正规化上求完整除子，不先将判别式多项式的有限平方因子略去。
+
+对任意整数 \(m\ge1\)，有准确的原函数直和
+$$
+\boxed{
+\begin{aligned}
+L_B(mD_t)
+={}&L_{B^+}\!\left(mD_++\left\lfloor\frac m2\right\rfloor\mathcal B\right)\\
+&\ \oplus\
+w\,L_{B^+}\!\left(mD_++A+
+        \left\lfloor\frac{m+1}{2}\right\rfloor\mathcal B\right).
+\end{aligned}}
+\tag{B10}
+$$
+证明只需逐闭点检查。对非分歧点，\(w\) 的阶为 \(a_Q\)；
+对分歧点，其上唯一点满足
+\(\operatorname{ord}(w)=2a_Q+1\)、\(\operatorname{ord}(\pi^*f)=2\operatorname{ord}_Q f\)。
+允许 \(m\operatorname{Ram}\) 的极时，不变项恰能有
+\(\lfloor m/2\rfloor\) 倍 \(\mathcal B\) 的底极；
+反变项 \(w f\) 恰要求
+\(\operatorname{ord}_Q f\ge-a_Q-\lfloor(m+1)/2\rfloor\)。
+再加同一个 \(mD_+\) 即得(B10)。
+因2为单位，不变／反变投影保该完整 \(W\)-稳定极除子，二者不会靠互相取消极点扩充空间。
+
+(B10)两除子的次数分别为 \(102m\) 和 \(102m-12\)，奇偶只交换其归属。
+二者对 \(m\ge1\) 都大于 \(2g(B^+)-2=72\)，所以Riemann–Roch给维数
+$$
+\boxed{\{102m-36,\ 102m-48\},\qquad
+\dim L_B(mD_t)=204m-84.}
+\tag{B11}
+$$
+特别原weight2基可由
+$$
+\boxed{54\ \text{个不变基函数}+66\ \text{个反变基函数}=120}
+\tag{B12}
+$$
+完整构成。不是只选一个Fricke符号；原两种符号及全部M2都在(B10)内。
+之后按(B9)返回原 \(D_S\) 即为原坐标消费者所需的同一空间。
+
+### B.5 原 resultant 可先降为 degree288 再选原 degree24 因子
+
+附录A从原非回退17关系得到的 \(R_t(X)\) 在去掉content和纯 \(X\) 因子后，
+在 \(k(t)\) 上归一为首一degree576。
+其十二个几何eta副本分别由(B1)保留，且每个degree48副本的根被
+\(X\mapsto a/X\) 两两配对。
+因此完整首一多项式准确满足
+$$
+\boxed{X^{576}R_t(a/X)=a^{288}R_t(X).}
+\tag{B13}
+$$
+定义
+$$
+C_0(J)=2,\quad C_1(J)=J,\quad
+C_n(J)=JC_{n-1}(J)-aC_{n-2}(J).
+$$
+由递推 \(C_n(X+a/X)=X^n+a^nX^{-n}\)。
+若 \(R_t(X)=\sum_{i=0}^{576}r_iX^i\)，则(B13)的系数关系给
+$$
+\boxed{
+X^{-288}R_t(X)=Q_t(X+a/X),\qquad
+Q_t(J)=r_{288}+\sum_{n=1}^{288}r_{288+n}C_n(J).
+}
+\tag{B14}
+$$
+这是原whole resultant的恒等式，不是截短其系数。
+(B3)表明所需原商的因子degree24。
+它仍由同一个绝对分支
+$$
+t=Q^{24}(1+O(Q)),\qquad J=Q^{-1}(1+O(Q))
+$$
+即最低权 \(\operatorname{wt}(t)=24,\operatorname{wt}(J)=-1\)、
+首项 \((1,1)\) 选定；原eta的其余相位继续保在其它因子中。
+回原域再用(B4)，故没有因二次商丢掉原无穷分支。
+
+这给原RR前端一个精确degree24加二次返回的实现路径；
+当前已有degree306和eta48运行不因本符号结论被认作成功或失败。
+实际执行仍须付原因子、正规化、全部除子及(B9)转换的完整输入，
+本节没有给任何一张未认证映射补上PASS，也没有预报原shadow的非零。
