@@ -153,3 +153,7 @@ R593三件54101B独立刊：查清原每H成功last/predictor已复用，唯一o
 ## 2026-11-16 16:02 UTC /root — R581/request243同次解析角带完整真实入口
 
 R581六件379862B独立刊：原R576642全保→653/14层/26runtime，同R575/R553返回接R580 h0=1/256/24，原refine/退休/完整cover与全部门不改；global在原Budget/信号try、资源stop后只metadata，完整必要同测量binding严格相等可逆共享、90K70不变。单派243、R582 amplitude唯一；R593已ca3ad325，open仅§1.3折叠到该固定全原词、§4–6原字，22/23audit未得正文不删。
+
+## 2026-11-16 16:05 UTC /root — R594/request248原完整链的owner12000资源入口
+
+R594新request8964/接口20437/workflow25123独立刊，已刊R593三件保；454完整源/原63输入，唯一owner6000→12000同19200/replay及后继cap和原全部门不动，actual分配未返不由请求填，单派248、R595 exact唯一。补243正式beb6/run43903254017单POST200与NFF真pull读fbe0fda8双README未变、16:04队列未知compute；H/open/index同步§4–6原字，22/23恢复只读未删。

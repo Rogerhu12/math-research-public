@@ -35,15 +35,16 @@
 | 247/R592 | 43899155015 /3ca6bddf9912c27f36a1a4a978bd65b8502063a4 /133410760515 | geometry；15:47前1–14成功、15全E cover |
 | 242/R579 | 43900562629 /c3e91b762a6536a9820cf87e4dd1a9e898d88d62 /133415703033 | exact；15:59前1–10成功、11原科学 |
 | 241/R577 | 43901322004 /7af9e725e58983a740d3cb53c66b73166914e247 /133418415682 | geometry；15:53前1–6成功/7容量记录 |
-| 243/R582 | 本次R581完整普通刊后唯一POST；正式tuple随后绑定 | amplitude唯一；无预填科学接受 |
+| 243/R582 | 43903254017 /beb6e2e462ca66ec0c600b2331352f5e06a72903 /compute待官方 | amplitude；16:04 queued/jobs空 |
+| 248/R595 | 本次R594完整普通刊后唯一POST；实际tuple随后绑定 | exact唯一；原19200内owner12000 |
 
 只看running metadata；每个终态job指定读者一次，root不复子日志。官方notes保各唯一POST200/run/head；未知派发不重试。228实际头只有H规则行不同，其source/.github/双README同。
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[ca3ad325固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[beb6e2e4固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/beb6e2e462ca66ec0c600b2331352f5e06a72903/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/beb6e2e462ca66ec0c600b2331352f5e06a72903/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-R581/request243完整六件379862B/topic287039B本次独立刊：R576正式7af9最后三身份源642逐值全保→653=322public+331generated/14层、26runtime。R580绑定真实R575/R553同对象/同次cell返回，显式h0=1/256、Taylor24，全部M/N/精度取原真实对象，原refine及退休全覆盖不改；B2不可用不压R580。global summary置原Budget/信号try内，真实ResourceStop后仅metadata、全计数/未访/错误/所有原必要保。唯一same-measurement完整R575 binding完全相等可逆共享计入原90K，未知fit/正带/metric不预填。R582未来amplitude唯一。R593已ca3ad325，唯一owner6000→12000同19200与原全门，R594248入口接续。
+R594/request248完整真实入口本次独立刊：R593三件已ca3ad325，新增request8964B/全CLI20437B及workflow25123B，题新增29401B。原R589451完整源/原63-78-91输入全保→454，仅owner6000→12000，所有原初猜/算术/19200及replay和后继cap/全部科学门保；current request真实临时全SHA贯穿prepare/run/reader/cleanup，actual allocation未返不据request填值。R595未来exact唯一。R581/243已正式beb6e2e4，唯一POST200/run43903254017，16:04 queued/jobs空、compute未知，R582 amplitude唯一，官方note本次刊。
 
 ## 完整待发表来源
 
@@ -53,8 +54,8 @@ R581/request243完整六件379862B/topic287039B本次独立刊：R576正式7af9�
 
 ## 当前执行与紧接责任
 
-R581普通push后唯一243派发，R582 amplitude唯一终态，随后绑定真实tuple；R594/248完整请求/接口完成即独立刊派，R595 exact唯一，不借242/246未返值。root R583四完整loops当前mode与原核/plan文本已成，真实adapter/完整证明继续；geometry R596真实DY/DU不同controls有限DFT形成差和cp.directory/capture真路径，全cell正域/参考投影另付，R597249R598预留。当前原227/237/240 amplitude、235/245/242 exact、238/247/241 geometry、246 root按原钟，running只metadata。22/23独立audit43901415619官方success但两次logs -32603与GET400均无正文；amplitude正写严格同原run/head/job/完整frame只读Actions恢复，未返前不删。
+R594普通push后唯一248派发，立即核真实run/head/job；R595 exact唯一终态，不借旧225未返或242初猜。R583 header/原核/四loops/plan文本已成，root继续真实adapter和全证明；R584/request244由exact接已完成248的12000基线和R583新源，R585 exact唯一，不混242。geometry继续R596真实DY/DU各controls完整DFT、真capture路径和全cell正域，R597249R598真后继；原241/247不改。现运行227/237/240/243 amplitude、235/245/242/未来248 exact、238/247/241 geometry、246 root各原责任继续。22/23审计官方success但工具无正文，独立恢复admin head66cda18c只读同原日志/同完整frame一次，由amplitude唯一终态，未得完整body与consumer解释不删。
 
-本次仅把open§1.3已付长历史折叠到固定ca3ad325全原词，结果/接口/全部旧失败与未返仍完整；§4–6逐字保。根8/15旧偏差记录保，不复制raw/证书/Actions输出到Git/Release/artifact；大候选manifest只Actions内读。原26/28、两25、两24普通保留整理有全部固定恢复/实际引用及最后delta，当前warm/status/数组保。容量用f7实际基数+全部changed blob size≤200MB、不全树-l；每真pull核双README/记commit，NFF立刻真实pull--rebase再普通push至成功。
+open§1.3旧全原词固定ca3ad325链，§4–6原字保；结果/接口/所有已刊失败未返不减。原26/28、两25、两24清单普通整理有固定完整恢复、真实全引用和最终delta，现用输入/warm/status/数组不动。容量按f7实际基数+全部changed blob size≤200MB、不全树-l；每真pull核双README/记commit，NFF立刻真pull--rebase再普通push至成功。根8/15旧偏差如实保，不复制raw/证书/Actions输出到Git/Release/artifact，不由SHA造父。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。

@@ -1,0 +1,211 @@
+{
+  "schema": "public-live128-extended-owner-budget-composition-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 248,
+  "operation": "one-explicit-native-owner-cap-increase-with-original-full112-inputs-mathematics-and-total-clock",
+  "namespace": "visible-live128-extended-owner-budget248",
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-named-necessary-original-full112-FD-fullDN-request.json",
+      "bytes": 98952,
+      "sha256": "5c48bf2add2def97a6f1d86dc85d6159822e035ce50d61ca42e2179dc3a924b0"
+    },
+    "request_number": 246,
+    "request_schema": "public-live128-named-necessary-original-full112-FD-fullDN-request-v1",
+    "source_generator": {
+      "file": "root_20261116_live128_named_necessary_source_views.py",
+      "bytes": 26794,
+      "sha256": "80e74595d24b0aa8d1de2a95ec77cfe0d37e25288d36f277718c66149edbed0a"
+    },
+    "source_plan": {
+      "file": "notes/r589-live128-named-necessary-complete-source-plan.json",
+      "bytes": 20112,
+      "sha256": "e615b290d30f00867cb106906548491b84b7a02e7ba3f260a96cc261b9e352a9"
+    },
+    "preparation_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1",
+    "necessary_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1-necessary-v1",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true
+  },
+  "source_generator": {
+    "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+    "bytes": 26239,
+    "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+  },
+  "source_plan": {
+    "file": "notes/r593-live128-extended-owner-budget-complete-source-plan.json",
+    "bytes": 10168,
+    "sha256": "4d7cee7c4d51c5415a5e22a10f3e21b6f00ab045a84260a484299b7426417229"
+  },
+  "resource_strategy": {
+    "schema": "R593-one-owner-cap-with-original-total-clock-v1",
+    "JSON_pointer": "/live_call_resources/owner/owner_seconds_cap",
+    "original_value_seconds": 6000,
+    "current_value_seconds": 12000,
+    "source_reason": "The current owner subtracts the original1200-second replay reserve from its local owner allowance after the common deadline clip; the old6000 cap limits nonlinear solve plus compilation to at most4800 seconds even when the original job still has time.",
+    "original_total_science_seconds": 19200,
+    "original_readback_cleanup_reserve_seconds": 120,
+    "original_workflow_job_minutes": 350,
+    "original_science_step_minutes": 320,
+    "unchanged_caps": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "original_one_absolute_clock_is_not_restarted": true,
+    "replay1200_is_inside_owner_allowance": true,
+    "stage8000_is_a_later_phase_not_an_earlier_owner_minimum": true,
+    "all_roles_clip_same_remaining_clock": true,
+    "requested_audit_has_original_independent_allowance_priority": true,
+    "no_guaranteed_completion_or_faster_execution_claim": true,
+    "no_change_to_prior_state_selection_or_numerical_gate": true
+  },
+  "counts": {
+    "parent_complete_sources": 451,
+    "parent_public_sources": 362,
+    "parent_generated_sources": 89,
+    "new_public_sources": 1,
+    "new_generated_views": 2,
+    "complete_sources": 454,
+    "public_sources": 363,
+    "generated_sources": 91
+  },
+  "roles": {
+    "runner": {
+      "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+      "bytes": 39341,
+      "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+    },
+    "reader": {
+      "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+      "bytes": 65727,
+      "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+    }
+  },
+  "original_runtime_contract": {
+    "actual_parent_complete_request": {
+      "file": "computations/public-live128-named-necessary-original-full112-FD-fullDN-request.json",
+      "bytes": 98952,
+      "sha256": "5c48bf2add2def97a6f1d86dc85d6159822e035ce50d61ca42e2179dc3a924b0"
+    },
+    "fields_inherited_with_identical_JSON_types_and_values": [
+      "lanes",
+      "reviewed_README_blobs",
+      "original_inputs",
+      "actual63",
+      "actual91_artifact",
+      "runtime",
+      "resources",
+      "original_scientific_contract",
+      "arithmetic",
+      "retention",
+      "scientific_entry"
+    ],
+    "one_explicit_resource_change_JSON_pointer": "/live_call_resources/owner/owner_seconds_cap",
+    "original_live_call_resources": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "owner_seconds_cap": 6000,
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "all_other_live_call_resources_inherited_with_identical_JSON_types_and_values": true,
+    "JSON_pointers_are_to_the_bound_whole_parent_request": true,
+    "all_original_sources_read_and_bound_before_current_views": true,
+    "actual63_and_original78_sources_retained": true,
+    "actual91_remains_only_first_tail_guess": true,
+    "already_existing_last_and_tangent_amplitude_boundary_choices_retained": true,
+    "one_original19200_second_science_clock": true,
+    "original320_minute_science_and350_minute_job": true,
+    "all_original_native_FD_fullDN_and_final_audit_gates_unchanged": true,
+    "no_new_input_parameter_guess_or_material_target": true
+  },
+  "source_scope": {
+    "original451_retained": true,
+    "additional_public": [
+      {
+        "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+        "bytes": 26239,
+        "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+      }
+    ],
+    "generated_views": [
+      {
+        "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+        "bytes": 39341,
+        "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+      },
+      {
+        "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+        "bytes": 65727,
+        "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+      }
+    ],
+    "actual_current_request_generated_in_temporary_source_metadata": true,
+    "source_only_preparation_creates_no_scientific_clock": true,
+    "private_scientific_source_directory_not_created": true,
+    "actual_same_computations_and_GITHUB_WORKSPACE_used": true,
+    "all_old_currentH_native_model_compiler_and_fullDN_scientific_sources_unchanged": true
+  },
+  "necessary_scope": {
+    "original_R589_source_only_scope_consumed_complete": true,
+    "original_R588_RootStats_relation_and_inverse_retained": true,
+    "source_and_science_each_one_original90000_byte_body": true,
+    "current_resource_strategy_and_full_actual_owner_allocation_added": true,
+    "original_actual_model_window_post_component_allocations_stops_errors_and_unreturned_scopes_retained": true,
+    "whole_body_overflow_returns70_without_truncation": true,
+    "no_preclaimed_transport_size_or_scientific_success": true
+  },
+  "publication": {
+    "workflow_dispatch_enabled": true,
+    "root_sole_ref_and_dispatch_owner": true,
+    "only_one_authorized_dispatch_after_actual_publication": true,
+    "source_or_parent_run_label_never_substituted_for_actual_run": true,
+    "generated_views_not_committed_to_main_or_uploaded_as_scientific_artifacts": true
+  },
+  "results": {
+    "conditional_mechanism": "R493",
+    "original_implementation": "R501",
+    "scoped_lifecycle": "R508",
+    "physical_cache": "R515",
+    "source_ancestor": "R518",
+    "paired_dot": "R522",
+    "implementation_interface": "R594",
+    "actual_reserved": "R595",
+    "actual_run_not_started_at_source_preparation": true,
+    "frozen225_implementation": "R527",
+    "conditional_current_model_theory": "R529",
+    "original_current_projection_and_stage_libraries": "R532",
+    "complete_implementation": "R593",
+    "original_same_DN_model_implementation": "R534",
+    "root_local_finite_word_cache": "R535",
+    "root_statistics_source_donor": "R536",
+    "original229_entry": "R542",
+    "original229_actual_result": "R543",
+    "original231_entry": "R548",
+    "original231_source": "R547",
+    "accepted_complete_root_evaluation_reuse": "R550",
+    "original232_entry": "R551",
+    "exact_normal_dyadic_angular_average": "R561",
+    "original236_entry": "R562",
+    "exact_lifted_factor_product": "R564",
+    "original237_entry": "R565",
+    "exact_root_synthesis_products": "R572",
+    "resource_strategy": "R593",
+    "complete_current_entry": "R594",
+    "current248_run_not_started_at_source_preparation": true,
+    "original_R573_complete_implementation": "R573"
+  }
+}
