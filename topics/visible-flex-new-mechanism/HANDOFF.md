@@ -47,13 +47,13 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 完整来源见results/open；actual正锥、其它s段同规范、高阶收敛及全主几何门未付。
 
-## 4. 数值最新实际与全账
+## 4. 数值当前点与已付模型
 
-旧冷epoch/HiGHS64/cone32封存，旧96/160/1200/1800不改名重开。[p32首线](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)run43804573954/sourceab1ba331…的1cache/62query/1actual pair真实接受53，η细.26601514422985384，降3.1505554842770067e−6；κ57.9992694544513，target.26仍false。physical9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e；池4448/4549 v13/14、bank512、learning62/61/0、B.00025/streak0/0被动保留。旧52cache不可冒53模型。
+旧HiGHS64/cone32、p32首线及true53 Hildreth观察均封存。p32唯一实际pair接受53，η细.26601514422985384、κ57.9992694544513，target.26未达；physical9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e。池4448/4549 v13/14、bank512、learning62/61/0、B.00025/streak0/0保持；旧52cache不冒53模型。
 
-[true53首次实际](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)唯一run43811870681/research133115100791/report133116787814/source42f95905deec3024dfee7a687bdc806d38c79baf已完整消费。三组新dev通过；2必要geometry、2hard-J、2firstjet，1投影/1prox/184sweep/724792坐标、23全网分离/5新gradient。全部23修复gain负，最后−5.887796501991287e−7；原master3950行metric超1.588778857197029e−6，原始可行未得。搜索配额结束并预留末1slot，不是600秒/1M耗尽；0scalar/query/actual pair，仍53且η不变，不宣驻点/不可行。旧solver/legacy-J0，原guard/全部gap/163盒保全。
+[true53首次实际](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)唯一run43811870681/research133115100791/report133116787814/source42f95905deec3024dfee7a687bdc806d38c79baf：1prox/184sweep/724792坐标/23全网分离/5新gradient，全部修复gain负，末−5.887796501991287e−7；原mastermetric超1.588778857197029e−6。搜索配额结束/1最终槽未用，非600秒或1M耗尽；0scalar/actual，仍53，不宣驻点/不可行。
 
-权威FINAL_CLOCK新188.188974004s、祖先合计 **1594.440227096s/128值**（只新增2必要模型value），含新dev段.010381925999993769s；research UTC305s另列。完整MODEL27365833B/926681688d09311883c64dfa1dc40599a62d1904d7f6dbcaf478893fe14bd539仅原stdout，含hardJ/soft/5新gradient；真实最终dual/161迭代在PROJECTION_RESULT。MODEL绑定e095e93d1455302af6904e703e762adad05d9cdef7220761c468e3ea0efca9a1，objective c98db48657cfe706675db5873439cf7b8d731c663784d81f0fbe0b45f0b14807。rawlog35105831B/fa7edaf1419325ce31e6926de44f8c9ebbddf1ea554d140fafef61aecbc9ceb9，report全部来源与软体积超标如实保note，不分块/编码/重算。
+新科学188.188974004秒、祖先 **1594.440227096秒/128值**（新增2必要模型value）。完整原MODEL含5743soft/2937hard/5新gradient、163盒、原guard，27365833B/926681688d09311883c64dfa1dc40599a62d1904d7f6dbcaf478893fe14bd539，仅原stdout；binding e095e93d1455302af6904e703e762adad05d9cdef7220761c468e3ea0efca9a1。真实最终dual/161迭代与全部来源/费用保note。下一新有限主问题复用这些数组，既有构建/开发不重跑。
 
 ## 5. 当前工作
 

@@ -568,3 +568,8 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 - root全文读23368B/SHA5e6cfce5684cc403ab6622489888c8604aa974822a06f70cbe1510cf480066e6，核两次第一同构、R456 t6/t5必要性及C20原partial分部符号；7/5不冒像秩，自然x6前像不冒完整lift。
 - 原seq707固定current lift/原R126两头已列；最小新目标须两response+两normal四self，X_H universal n2端项保留，仅真实q母上零。−8用完整Lf差/Af边项覆盖，−6/−4仍欠，0新执行。
 - H/open同步并缩短R463已付背景，立即继续四新self与新有限主问题；actual成本/其它段/全主目标未完。
+
+
+## 2026-11-16 06:22:30 UTC — 中心路径容差上界同步扩展原外盒
+- 设计§5补齐严格/原tol两域区别：b+tol时也使用各±单位bound放宽后的外盒；若不能从原行恢复就不给该界，不能沿用严格盒。更新设计10433B/SHA5f4c6e8eeec1cc4c82bb87febd1b13475ad18dc613f2187fb89d13f9b409461a。
+- 新core源码同修该处，原单位残差和finite/全网/actual层级不改；仅源码/纸证，未执行。H压缩旧数值来源，全部原payload/hash仍在actual note，继续首次新有限求解与四self。
