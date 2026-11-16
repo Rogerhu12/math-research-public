@@ -50,6 +50,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [WPR实际双port与腰行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)707b8269由物理h1奇/h2偶及有序TJ推出f−=(R−2Π)f+；KH=UHinv(R−2Π)UH保−2(UHinv1)Π。真实腰primitive为κeᵀTJ P diag(UH)(Icom,Ocom)，raw另∂、mean行单列；端点反射图不冒positive graph/onto。非零principal mean给±n差4nΔn→−2i〈c〉，故旧Ti/To及isolated Cayley不保同Xfr；completeA应用需其完整strong，完整实际square/incoming/finite仍待。
 
+[RRF真反射刚性与目标](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)803302f2：从真实root ODE与原exact irrational $\Omega$得$J_0=R_a,J_1=R_{a+\Omega}$，$a=2\mathcal H(0)$不擅置零；$K_H=R_a-2h\Pi$，nonmean严格等距但fullmean列保。真正物理waist目标坐标为$P\operatorname{Fix}R_a$；输入仍原$P_{97}^{\mathcal S}(\mathrm{Id}-Z^{\mathcal S}R_{a+\Omega})/2$像，不能换普通Fourier cutoff或同一反射空间。selected结论仅同$\delta_*$；不授range/onto/finite inverse。
+
 
 
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [RRF：真实反射刚性与物理腰部目标](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)（cdb4b957f6976c7b72e974fcccc8f2a15afbee74，15266B，SHA256 803302f2924da51022e2aa16a36c928ee0789fde93277f5ea9fd9c2ae2a3630f）。真PF root rays及原W exact irrational rotation使selected J0=Ra、J1=Ra+Ω；原lift相位a保留，nonmean paired reflection为所有固定Sobolev窗的严格等距。完整KH仍Ra−2hΠ，两个存储mean槽及原独立matching行保留。目标P FixRa与NIF phase/transported-cut input Xfr准确区分，fullauxmean rank写齐；不授actual onto/physical square inverse。0新数、0旧重算。
+
 - 2026-11-16 — [WRA：完整反射入射误差及真实腰行差](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)（ffe98b2256041bdc4a49d85146ddc48afb301e2c，26647B，SHA256 40fb2167aa27c9f9e07bfcaea89c6f5d20059cc724eb7ba4930e02b16dd27889）。唯一selected δ*、p=0、fullU、Xfr两符号的完整Ei^fr按同一SWA整界已付，六标签逐map核清；不扩为fullcircle/source。实际腰行使左TJ/UH费用邻接取消，QR/B各contractive，新E∂W保全部AW/PC/ST4/fullsource/3070jump/cut/waistFT；真实paired leading的域/值域与有用整row界仍待。固定ν线性坐标与ν依赖chart的dν分别保。0新算，旧球/旧false flags不改。
 
 - [WPR：实际反射双端口与精确腰部匹配行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)（707b8269e454cab738fe70d84097087a0cf5c74026916a2f8bdc151435eca9cb）：从raw物理反射、完整primitive+两mean和有序TJ严格推出f−=(R−2Π)f+及selected KH完整meanrank；给raw h1、其primitive与mean的真正腰行，输出原even-mean0空间，端点反射图不授positive graph/onto。非零〈c〉经精确IC双rank/±n检验排除Ti/To和isolated Cayley在Xfr上的同空间限制逆；旧fullcircle逆保，完整A另须全strong前提。未授完整边界square/Schur/ν/非线性。

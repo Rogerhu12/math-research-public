@@ -110,3 +110,9 @@ Root全读白名单，独立取九小primary全文核bytes/SHA；原strict/scale
 root全文独审26647B/40fb2167aa27c9f9e07bfcaea89c6f5d20059cc724eb7ba4930e02b16dd27889，Newton原稿70c0aad3，两peer tail回SW/CG/PC-IN/AW/FC/NIF核1–5、phase核21–31/完整backward Duhamel。只加固定线性ν坐标与RNS dν一句。Ei^fr完整性的全部state/系数/两个IC rank/finite/two-I/waist projection各一次；domain只δ*/p0/fullU/Xfr，旧SWA原球/SCI fullEi=false不改。新真实row BQR(YA−YW,J)保完整source、3070impulse、cut、waistFT及AW PC+ST4，旧Cstar仅安全coarse upper；不授Ti在Xfr自保、ordinaryFourierχ或physical onto。
 
 open原直接先Ti^-1再χ指令按实际域窄修为paired leading及true row gate；所有独立head/mean/source/exterior/amplitude/ν保留。上一索引提交86756fa3曾nonFF，已立即真CLI pull --rebase，仍无executor，fresh main/两README复核并保远端第二次成功，禁force。此结论独推，read 36c646d1ce6ab635765903ab018236efed9676a0；无科学重算。
+
+## 2026-11-16 03:34:58 UTC — RRF 真实反射及选定腰部目标
+
+root完整读f9cbf697 15148B及最终cdb4b957 15266B（SHA256 803302f2924da51022e2aa16a36c928ee0789fde93277f5ea9fd9c2ae2a3630f）两处mean语境窄修差异。Newton回N/PF/W真root初值、exact Ω/irrationality、unsigned density/lift整数消法核2–4；tail核5–6 full KH/meanrank、target双向与phase-transported projector/fullauxmean。root独核J0J1次序、RaUR=Ra+Ω、bounded iterate消整数与a=2H(0)，不设a=0。仅selected δ*角结论，raw ray反射为原real family。
+
+该物理target是P FixRa，未证明实际range等于target，亦未把Z^S或transportedP97换掉。旧数/receipt不改。独推，read bd4f5d30d4814127291a7ab02e980fadfc8d4218两README未变。
