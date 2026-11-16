@@ -159,3 +159,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R478：临界power及真实正近似的完整非零已付
 
 [证明](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)给u=4y^(5/2)/15的唯一原八次primitive，真左端常数0；若任一二矩复根余量零则A³|R，准确系数迫非零C=0，矛盾。原L−P_end形式给C²连续，不假设第三导一致收敛；明确v''=c0ρδ+εb>0、平左端、末Af简单根的实际光滑cap在有限小δ/ε上非零。临界模型Af≡0本身不允许，近似会改变末三矩，均如实区分。继续冻结ψ3的具体积分与真正例外cap；不由非零例子排所有cap或替代主几何门。
+
+
+### R477：正则单门及四门局部可控已付，真正全零仍欠
+
+[证明](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)在R475两号族前加有限长、有限微小共同正尾，用三个真曲率密度方向准确恢复v′/v/U累计；严格凸K″=3√v/2给统一可逆，原Af根整germ与全部jets不动。新平端Π(ℓ)>0给完整Euler非零及紧normal。固定端jets后，五门Euler最高u''''系数在任意内窗/任意小原jet邻域张满；固定5位置、任意近jets、C³小而u''''有限大脉冲取得完整minor，再以远处normal准确保持Δ6=0，四个剩门有真实局部开放像。未证明全零在像内；R479继续同cap全局可达/真正零构造，不由rank偷换主缺口。新cap选定后才从起点重建q4/F★/20/M3库，沿族不保旧冻结值。
