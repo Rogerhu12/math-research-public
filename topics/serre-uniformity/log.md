@@ -210,3 +210,9 @@
 - 只消费M6末四行/原Φ0,Φ73，算六V/W/λ³及真实七次Norm/Trace、五κ整数幂DAG/d两K坐标；全码/source已读，不重旧M6/CM/大矩阵，不预填d非零，非完整刚性化/高度。
 - dual run43790194976/job133046704617已过原来源步并进入新RHS；全局两处schema修复已推39119159（一次非快进立即pull成功），五logjet非零正式结果正在登记。
 - 本push规则：本地真实pull至3e71745ec14ddbd69c950126226bc0e57ce5ffd8（2026-11-16T02:10:19.614983+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:12 Asia/Taipei — serre-public-astra-20261115
+- R847实际证明五原比较一阶非零：run43789012126/sourcef699023d，3.166150124s/1413数学stage；五D_j均vℓ0/A518，ℓ1000000753，原R844值非零给五R_j′≠0。
+- final39f3d05f/manifest9bd31692/config7b2a243e/artifact14191283725/1737c833；1421成员/11.20MB整ZIP与原270来源全IO绑定。无新Hensel/Dixon/CM/点加法，辅助ℓ单位不代原41单位/高度/线性独立/A.1/allp。
+- c0消费者已推a576ab9d、run43790534424已success待读实际证书；global新run43790410670组装中、dual43790194976新RHS中，主目标OPEN持续。
+- 本push规则：本地真实pull至28278aaaa095e8f42914b01e65b47ae4b8197cbf（2026-11-16T02:12:31.969982+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

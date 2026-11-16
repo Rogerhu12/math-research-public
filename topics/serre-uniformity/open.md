@@ -130,3 +130,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原全局第二次启动修复**：[原字段与chart](notes/R839-global-polar-original-field-and-chart-schema-fix.md)。2709源已全通过，core544241ac仅按真实源把完整M+维数断言14改280及初始chart历史flag true改false；关系系数L14、原20坐标、R840完整关系证明和DAG不变。wrapper39bef619不变重新触发；该失败没有新数学stage。
 
 **原c0首项消费者已公开激活**：[方法](notes/R803-original-c0-Hodge-jets-and-comparison-leading-coefficients-method.md)6a277f79，core4f8a4193/wrappera7b91ecd，35原源指纹d689a039。原六M6末四行与Φ0/Φ73消费既证d29ef204公式；只产六V/六W/λ³、真七次Norm/Trace及五κ准确整数幂DAG和d的1,s两坐标，除法乘回，不展开巨大κ幂或取立方根。预算300min/完整原阶段可续接；实际数值尚待run，不能预填d非零或完整刚性化/height。
+
+**R847原五比较一阶非零已实际证明**：[结果](results/R847-certified-original-five-comparison-logarithmic-jets-nonzero.md)run43789012126/job133043052846/sourcef699023d；3.166150124秒/1413数学stage，五D_j均vℓ0/A518（ℓ1000000753），结合R844原值非零证五R_j′≠0。final39f3d05f/manifest9bd31692/config7b2a243e/artifact14191283725/1737c833；1421成员/整ZIP纯IO，270源carrier2.08MB/a7ccfe9b。无新Hensel/Dixon/点加法，不代原41单位/线性独立/height/A.1/all-p。
