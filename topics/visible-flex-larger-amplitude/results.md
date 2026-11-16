@@ -102,3 +102,7 @@
 ## 固定f93行政保留与231官方绑定
 
 [完整引用审计和九件恢复索引](notes/2026-11-16-fixed-f93-historical-administrative-retention.md)19644/1832：run43865360393/job133292401375完整32,263/087a，固定f93全55367跟踪文件、88模式/30文件/47行完整返回；九旧行政inventory/receipt/配套archive-manifest共1223890B只内部引用。root另核f93→05ae全97文件新增范围，21缺patch全文补齐、36候选token无新引用且九当前blob/bytes未变，普通移出main、固定f93完整恢复，四producer/十一研究log/全部科学输入/41/54保。首次audit因缺rg未扫描，第二次真实git-grep回退，不作新数学结论。[231官方绑定](notes/2026-11-16-request231-official-run-binding.md)证单POST200/run43865772589/head同05ae、compute133293818912已step11，geometry唯一R549，未读running日志。
+
+## R545 — request230真实来源与完整同C执行入口
+
+**完整来源组合与条件接口已证明，实际R546另付。** [R545](results/R545-request230-complete-current-source-and-same-C-chain.md)/[接口](notes/2026-11-16-request230-current-source-complete-chain-interface.md)七件341400B/topic254482B：composer60360/8366、entry32822/12cb、plan85503/b35d、outer35731/f96c、wf86918/3cae、proof17208/460e、interface22858/d79f。原217473全保→293public+242gen=535，前六179+历史8+当前49+metadata6真形成，修正argv/ENTRY保guard；三层场/完整精化/8sameC/9原scope/owner/cleanup真接。当前inner从原2d1完整元数据生成、由实际receipt/env绑定，不预填SHA或混旧f6/2d1/derived205；original216 provenance漏键补原实descriptor，源map三列表与R544完整composition关系保全部语义、whole严格小才用、不保证90K。原18900+2700/360min/32GiB/所有科学门/quiet保持；workflow仅main精确request路径push及手动入口，本次GITHUB_TOKEN push后单官方POST，R546 exact唯一。九行政记录已3b607e1d普通移出，固定恢复及科学输入均保。

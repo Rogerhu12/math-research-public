@@ -1,0 +1,515 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "request230-complete-metadata-caller-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Six independent metadata source views from complete frozen220 and217 public sources. Scientific functions, budgets and all numerical predicates remain original; current source/request identities and exact necessary composition relation are explicit.",
+  "generator": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "root_20261116_request230_sampling_refinement_composition.py",
+      "bytes": 60360,
+      "sha256": "8366daf6f6773526385a4530c844d0a6d51ed3fd7229f84c1c8c26bdbeb88c19"
+    },
+    {
+      "file": "root_20261116_request230_actual_source_entry.py",
+      "bytes": 32822,
+      "sha256": "12cb094f0b91039efd54eaf56426da4e0ba5ec6d046eeb2b9a3f69768a7f1cb4"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request220-zero-linear-gzip-owned-nested-role-v1": "request230-zero-linear-gzip-owned-nested-role-v1",
+    "public-current-C-coast-base-zero-linear-gzip-incremental-M-refinement-and-displays-request-v1": "public-current-C-bound230-coast-base-source-closure-request-v1",
+    "request220-zero-linear-gzip-complete-refinement-evidence-displays-v1": "request230-zero-linear-gzip-complete-refinement-evidence-displays-v1",
+    "request220-zero-linear-gzip-refinement-one-necessary-readback-v1": "request230-zero-linear-gzip-refinement-one-necessary-readback-v1",
+    "request220-refinement-necessary-readback-complete-v1": "request230-refinement-necessary-readback-complete-v1",
+    "request217-frozen220-and-same-C-source-composition-v1": "request230-actual-source-and-same-C-registration-composition-v1",
+    "public-current-C-same-semantic-head-refinement217-request-v1": "public-current-C-same-semantic-head-bound230-request-v1",
+    "request217-actual-same-C-source-generation-v1": "request230-actual-same-C-source-registration-v1",
+    "request217-same-C-head-refinement-and-complete-field-consumers-v1": "request230-same-C-head-refinement-and-complete-field-consumers-v1",
+    "request217-complete-same-C-consumer-necessary-readback-v1": "request230-complete-same-C-consumer-necessary-readback-v1",
+    "request217-complete-same-C-consumer-readback-marker-v1": "request230-complete-same-C-consumer-readback-marker-v1"
+  },
+  "view_count": 6,
+  "literal_patches": {
+    "p0001": {
+      "before": "root_20261116_request220_sampling_refinement_composition.py",
+      "after": "root_20261116_request230_sampling_refinement_composition.py"
+    },
+    "p0002": {
+      "before": "f3e8ce8ebdfdd7df7f2ccd78da7c203f185de3f9c17403e0fb489e2f5cf18fca",
+      "after": "8366daf6f6773526385a4530c844d0a6d51ed3fd7229f84c1c8c26bdbeb88c19"
+    },
+    "p0003": {
+      "before": "public-current-C-coast-base-zero-linear-gzip-incremental-M-refinement-and-displays-request-v1",
+      "after": "public-current-C-bound230-coast-base-source-closure-request-v1"
+    },
+    "p0004": {
+      "before": "request220",
+      "after": "request230"
+    },
+    "p0005": {
+      "before": "Request220",
+      "after": "Request230"
+    },
+    "p0006": {
+      "before": "    composition=load(Path(__file__).resolve().parent/COMPOSER,COMPOSER_SHA,\n        \"_request230_complete_generation_plan\")\n    specs=composition.generation_specs(request)\n    require(len(specs)==6,\"Keep all original218 generations and the explicit R503 source layer\")\n    expected={}\n    for item,count in zip(specs,(15,5,13,49,51,46)):\n        rows=item[\"expected_generated_sources\"]\n        require(len(rows)==count and not set(rows).intersection(expected),\n            \"Keep every complete generated source with a distinct basename\")\n        expected.update(rows)\n    require(len(expected)==179,\"Keep all original133 and new46 source identities\")\n    for name,item in expected.items():\n        require(Path(name).name==name and item.get(\"file\")==name\n            and type(item.get(\"bytes\")) is int and 0<item[\"bytes\"]<100000\n",
+      "after": "    composition=load(Path(__file__).resolve().parent/COMPOSER,COMPOSER_SHA,\n        \"_request230_complete_generation_plan\")\n    specs=composition.generation_specs(request)\n    require(len(specs)==8,\"Keep original six generations plus actual R544 and six-metadata layers\")\n    expected={}\n    for item,count in zip(specs,(15,5,13,49,51,46,57,6)):\n        rows=item[\"expected_generated_sources\"]\n        require(len(rows)==count and not set(rows).intersection(expected),\n            \"Keep every complete generated source with a distinct basename\")\n        expected.update(rows)\n    require(len(expected)==242,\"Keep original179, historical8, current49 and actual six metadata source identities\")\n    for name,item in expected.items():\n        require(Path(name).name==name and item.get(\"file\")==name\n            and type(item.get(\"bytes\")) is int and 0<item[\"bytes\"]<100000\n"
+    },
+    "p0007": {
+      "before": "\ndef bind_request(path, expected, base, comp, *, require_generated=True):\n    request,rid=read(path,expected)\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==220,\n        \"Use the independent request230 outer contract\")\n    sub=request[\"original205_subcontract\"]\n    require(sub[\"sha256\"]==SUBREQUEST_SHA and sub[\"bytes\"]==97406,\n",
+      "after": "\ndef bind_request(path, expected, base, comp, *, require_generated=True):\n    request,rid=read(path,expected)\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==230,\n        \"Use the independent request230 outer contract\")\n    sub=request[\"original205_subcontract\"]\n    require(sub[\"sha256\"]==SUBREQUEST_SHA and sub[\"bytes\"]==97406,\n"
+    },
+    "p0008": {
+      "before": "        require(Path(name).name==name,\"Source closure names are basenames\")\n        actual[name]=receipt(comp/name)\n        require(actual[name][\"sha256\"]==digest,\"Complete published source closure differs: \"+name)\n    for spec in [generation]+request[\"coast_source_generation\"]+request[\"native_source_generation\"]:\n        for label in (\"generator\",\"plan\"):\n            if label in spec:\n                descriptor=spec[label]\n",
+      "after": "        require(Path(name).name==name,\"Source closure names are basenames\")\n        actual[name]=receipt(comp/name)\n        require(actual[name][\"sha256\"]==digest,\"Complete published source closure differs: \"+name)\n    for spec in ([generation]+request[\"coast_source_generation\"]+request[\"native_source_generation\"]\n            +request[\"binding_source_generations\"]):\n        for label in (\"generator\",\"plan\"):\n            if label in spec:\n                descriptor=spec[label]\n"
+    },
+    "p0009": {
+      "before": "    \"\"\"Bind already-materialized exact sources; keep the original Actions syntax pass.\"\"\"\n    base,comp=locations(args.base,args.computations)\n    request,rid=read(args.request,args.request_sha256)\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==220,\n        \"Use the explicit220 preparation contract\")\n    local=base/\"refinement220-request.json\"\n    require(not local.exists(),\"Prepare this exact outer request only once\")\n    raw=Path(args.request).read_bytes()\n",
+      "after": "    \"\"\"Bind already-materialized exact sources; keep the original Actions syntax pass.\"\"\"\n    base,comp=locations(args.base,args.computations)\n    request,rid=read(args.request,args.request_sha256)\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==230,\n        \"Use the explicit230 preparation contract\")\n    local=base/\"refinement220-request.json\"\n    require(not local.exists(),\"Prepare this exact outer request only once\")\n    raw=Path(args.request).read_bytes()\n"
+    },
+    "p0010": {
+      "before": "geometry_20261116_request220_owned_roles.py",
+      "after": "geometry_20261116_request230_owned_roles.py"
+    },
+    "p0011": {
+      "before": "4afc01350bbaa239556f3b3edab6260b727e772df3b04351e357b0831149efc3",
+      "after": "cca79077948bd22cf4ede943b45682ae1bf981fc780211d2b68abe45c71955f4"
+    },
+    "p0012": {
+      "before": "b3ce2f2ae7b018236d5a20e1d3177d1cfc337dc698e2939539a560e474bba08f",
+      "after": "d8dc4e9158610d72246b5865c0f9970e66ba6a9777b01b8e1e53b176c674f277"
+    },
+    "p0013": {
+      "before": "4c53c7008ea5744fecbf5e35f5c9a037ecd587395d26aff963b9d2d77d0e55f7",
+      "after": "b39b8a1d94aa0a9ad6e0b4bb44306b0c9481d06ae4e2d0eaee877eb51e9001fd"
+    },
+    "p0014": {
+      "before": "        self.report = dict(schema=SCHEMA, source=H.receipt(__file__), repository=H.REPO,\n            run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n            procedure_returned=False, actual_process=H.proc(os.getpid()),\n            original205_namespace=str(self.base), declared_outer_request_number=220,\n            stages=[dict(name=n, started=False, status=\"unvisited\") for n in NAMES],\n            levels=[], measurement_results=[], error=None, external_interruption=None,\n            actual_global_clock_restarted=False, actual_all_owned_processes_quiet=True,\n",
+      "after": "        self.report = dict(schema=SCHEMA, source=H.receipt(__file__), repository=H.REPO,\n            run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n            procedure_returned=False, actual_process=H.proc(os.getpid()),\n            original205_namespace=str(self.base), declared_outer_request_number=230,\n            stages=[dict(name=n, started=False, status=\"unvisited\") for n in NAMES],\n            levels=[], measurement_results=[], error=None, external_interruption=None,\n            actual_global_clock_restarted=False, actual_all_owned_processes_quiet=True,\n"
+    },
+    "p0015": {
+      "before": "REQUEST220",
+      "after": "REQUEST230"
+    },
+    "p0016": {
+      "before": "    return {key:value[key] for key in keys if key in value}\n\n\ndef solve_view(full):\n    launch=values(full.get(\"original_launch_selected\",{}))\n    result=dict(original_launch=full.get(\"original_launch_identity\"),\n",
+      "after": "    return {key:value[key] for key in keys if key in value}\n\n\ndef complete_source_identity_table(value):\n    \"\"\"Losslessly display this one named map, never arbitrary scientific JSON.\n\n    Each row retains the original map insertion position. The map key and its\n    file member are equal by the actual source-identity producer; one file word\n    therefore reconstructs both. Other shapes remain the complete original map.\n    No inverse replay is an acceptance or source-generation gate.\n    \"\"\"\n    if not isinstance(value,dict) or not value:\n        return value\n    order=None;rows=[]\n    for name,item in value.items():\n        if (not isinstance(name,str) or Path(name).name!=name\n            or not isinstance(item,dict) or set(item)!={\"file\",\"bytes\",\"sha256\"}\n            or item.get(\"file\")!=name or type(item.get(\"bytes\")) is not int\n            or item[\"bytes\"]<=0 or not isinstance(item.get(\"sha256\"),str)\n            or len(item[\"sha256\"])!=64\n            or any(c not in \"0123456789abcdef\" for c in item[\"sha256\"])):\n            return value\n        keys=list(item)\n        if order is None:order=keys\n        if keys!=order:return value\n        rows.append([name,item[\"bytes\"],item[\"sha256\"]])\n    candidate=dict(schema=\"request230-complete-generated-source-identity-table-v1\",\n        columns=[\"file\",\"bytes\",\"sha256\"],rows=rows,original_row_keys=order,\n        map_key_is_exact_same_file_word=True,original_map_order_is_row_order=True)\n    def size(item):\n        return len((json.dumps(item,ensure_ascii=False,sort_keys=True,\n            separators=(\",\",\":\"),allow_nan=False)+\"\\n\").encode(\"utf-8\"))\n    return candidate if size(candidate)<size(value) else value\n\n\ndef solve_view(full):\n    launch=values(full.get(\"original_launch_selected\",{}))\n    result=dict(original_launch=full.get(\"original_launch_identity\"),\n"
+    },
+    "p0017": {
+      "before": "\n    def composition(self):\n        H=self.H\n        full,cid=H.read(self.base/\"request230-composition.json\");H.current(full)\n        marker,mid=H.read(self.base/\"request230-composition-readback-complete.json\");H.current(marker)\n        H.require(marker.get(\"schema\")==\"request230-original218-coast-base-zero-linear-gzip-refinement-composition-v1-readback-complete\"\n            and marker.get(\"complete\") is True and H.same(marker.get(\"necessary_summary\"),cid)\n            and H.same(marker.get(\"derived_dispatch\"),self.sid)\n            and H.same(marker.get(\"outer_request\"),self.rid),\n            \"The actual complete composition readback does not bind this outer and derived dispatch\")\n        self.value[\"source_composition\"]=dict(original=cid,complete_marker=mid,\n            original205_baseline=full[\"original205_request\"],original209_baseline=full[\"original209_request\"],\n            original216_baseline=full[\"original216_request\"],\n            original212_baseline=full[\"original212_request\"],actual_derived_dispatch=full[\"derived_dispatch\"],\n            actual_inverse_work_depth_at_all_three_levels=2,\n            full_composition_body_emitted_once_in_its_separate_compute_metadata_scope=True,\n            actual_noJ_and_storage_sources_explicit_original_all_gates_unchanged=True,\n            complete_coast_range_calls_use_new_explicit_metric_and_evidence_sources=True)\n\n",
+      "after": "\n    def composition(self):\n        H=self.H\n        full,cid=H.read(self.base/\"request220-composition.json\");H.current(full)\n        marker,mid=H.read(self.base/\"request220-composition-readback-complete.json\");H.current(marker)\n        _,necessary_id=H.read(self.base/\"request230-composition-necessary-summary.json\")\n        H.require(marker.get(\"schema\")==\"request230-current-C-actual-source-composition-v1-readback-complete\"\n            and marker.get(\"complete\") is True and H.same(marker.get(\"necessary_summary\"),necessary_id)\n            and H.same(marker.get(\"original_complete_record\"),cid)\n            and H.same(marker.get(\"derived_dispatch\"),self.sid)\n            and H.same(marker.get(\"outer_request\"),self.rid),\n            \"The actual complete composition readback does not bind this outer and derived dispatch\")\n        self.value[\"source_composition\"]=dict(original=cid,necessary_summary=necessary_id,complete_marker=mid,\n            original205_baseline=full[\"original205_request\"],original209_baseline=full[\"original209_request\"],\n            original216_baseline=full[\"original216_request\"],\n            original212_baseline=full[\"original212_request\"],actual_derived_dispatch=full[\"derived_dispatch\"],\n            actual_inverse_work_depth_at_all_three_levels=2,\n            complete_composition_or_explicit_lossless_relation_emitted_once_in_its_compute_scope=True,\n            actual_noJ_and_storage_sources_explicit_original_all_gates_unchanged=True,\n            complete_coast_range_calls_use_new_explicit_metric_and_evidence_sources=True)\n\n"
+    },
+    "p0018": {
+      "before": "                    self.value[\"actual_source_preparation\"][\"values\"].pop(\"generated_source_identities\")\n                    self.value[\"actual_source_preparation\"][\"generated_source_identities_reference\"]=(\n                        \"actual_source_view_scope.actual_source_identities\")\n            H.bind_request(self.args.request,self.args.request_sha256,self.base,self.comp)\n        except BaseException as error:\n            self.issue(\"actual-source-generation\",error)\n",
+      "after": "                    self.value[\"actual_source_preparation\"][\"values\"].pop(\"generated_source_identities\")\n                    self.value[\"actual_source_preparation\"][\"generated_source_identities_reference\"]=(\n                        \"actual_source_view_scope.actual_source_identities\")\n            self.value[\"actual_source_view_scope\"][\"actual_source_identities\"] = complete_source_identity_table(made)\n            H.bind_request(self.args.request,self.args.request_sha256,self.base,self.comp)\n        except BaseException as error:\n            self.issue(\"actual-source-generation\",error)\n"
+    },
+    "p0019": {
+      "before": "            \"FAR_READBACK_OUTCOME\",\"BVP_READBACK_OUTCOME\",\"RULES_READBACK_OUTCOME\",\n            \"CLOSED_READBACK_OUTCOME\",\"REFINEMENT_READBACK_OUTCOME\",\"COMPOSITION_READBACK_OUTCOME\")}\n        H.require(all(x==\"success\" for x in outcomes.values()),\"Actual readback steps did not all return success: \"+json.dumps(outcomes,sort_keys=True))\n        composition,cid=H.read(base/\"request230-composition.json\");H.current(composition)\n        cm,cmid=H.read(base/\"request230-composition-readback-complete.json\");H.current(cm)\n        _,actual_dispatch=H.read(base/\"dispatch-request.json\")\n        _,actual_outer=H.read(args.request,args.request_sha256)\n        H.require(cm.get(\"schema\")==\"request230-original218-coast-base-zero-linear-gzip-refinement-composition-v1-readback-complete\"\n            and cm.get(\"complete\") is True and H.same(cm.get(\"necessary_summary\"),cid)\n            and H.same(cm.get(\"derived_dispatch\"),actual_dispatch)\n            and H.same(composition.get(\"derived_dispatch\"),actual_dispatch)\n            and H.same(cm.get(\"outer_request\"),actual_outer),\n",
+      "after": "            \"FAR_READBACK_OUTCOME\",\"BVP_READBACK_OUTCOME\",\"RULES_READBACK_OUTCOME\",\n            \"CLOSED_READBACK_OUTCOME\",\"REFINEMENT_READBACK_OUTCOME\",\"COMPOSITION_READBACK_OUTCOME\")}\n        H.require(all(x==\"success\" for x in outcomes.values()),\"Actual readback steps did not all return success: \"+json.dumps(outcomes,sort_keys=True))\n        composition,cid=H.read(base/\"request220-composition.json\");H.current(composition)\n        cm,cmid=H.read(base/\"request220-composition-readback-complete.json\");H.current(cm)\n        _,necessary_id=H.read(base/\"request230-composition-necessary-summary.json\")\n        _,actual_dispatch=H.read(base/\"dispatch-request.json\")\n        _,actual_outer=H.read(args.request,args.request_sha256)\n        H.require(cm.get(\"schema\")==\"request230-current-C-actual-source-composition-v1-readback-complete\"\n            and cm.get(\"complete\") is True and H.same(cm.get(\"necessary_summary\"),necessary_id)\n            and H.same(cm.get(\"original_complete_record\"),cid)\n            and H.same(cm.get(\"derived_dispatch\"),actual_dispatch)\n            and H.same(composition.get(\"derived_dispatch\"),actual_dispatch)\n            and H.same(cm.get(\"outer_request\"),actual_outer),\n"
+    },
+    "p0020": {
+      "before": "        H.require(rules[\"complete\"] is True and rules[\"quiescent\"] is True,\"Original rules scope not quiet\")\n        closed,cid=H.read(base/\"closed-postsolve-readback-complete.json\");H.current(closed)\n        _,cs=H.read(base/\"closed-postsolve-readback\"/\"summary.json\")\n        H.require(closed[\"schema\"]==\"request230-zero-linear-coast-closed-postsolve-readback-complete-v1\"\n            and closed[\"complete\"] is True and closed[\"quiescent\"] is True\n            and H.same(closed[\"necessary_summary\"],cs),\"Original first closed readback not complete\")\n        construction,cid=H.read(base/\"construction-readback-complete.json\");H.current(construction)\n",
+      "after": "        H.require(rules[\"complete\"] is True and rules[\"quiescent\"] is True,\"Original rules scope not quiet\")\n        closed,cid=H.read(base/\"closed-postsolve-readback-complete.json\");H.current(closed)\n        _,cs=H.read(base/\"closed-postsolve-readback\"/\"summary.json\")\n        H.require(closed[\"schema\"]==\"request230-bound-coast-closed-postsolve-readback-complete-v1\"\n            and closed[\"complete\"] is True and closed[\"quiescent\"] is True\n            and H.same(closed[\"necessary_summary\"],cs),\"Original first closed readback not complete\")\n        construction,cid=H.read(base/\"construction-readback-complete.json\");H.current(construction)\n"
+    },
+    "p0021": {
+      "before": "root_20261116_request217_same_C_composition.py",
+      "after": "root_20261116_request230_same_C_composition.py"
+    },
+    "p0022": {
+      "before": "public-current-C-same-semantic-head-refinement217-request-v1",
+      "after": "public-current-C-same-semantic-head-bound230-request-v1"
+    },
+    "p0023": {
+      "before": "request217",
+      "after": "request230"
+    },
+    "p0024": {
+      "before": "REQUEST217",
+      "after": "REQUEST230"
+    },
+    "p0025": {
+      "before": "Request217",
+      "after": "Request230"
+    },
+    "p0026": {
+      "before": "#!/usr/bin/env python3\n\"\"\"Request230: byte-bound220 composition and explicit same-C source generation.\n\nThis standard-library component never calculates a scientific value. It\nretains the complete frozen220 ancestor, the explicit222 repaired contract,\nand every actual upstream source.\nOnly new source names are written, using complete baselines, ordered literal\ncounts and intermediate/final bytes/SHA. The original namespace clock is\nread, never created or reset. Cleanup delegates to the original reader only\nafter the additional necessary/quiet marker has actually been bound.\n\"\"\"\nfrom __future__ import annotations\n\n",
+      "after": "#!/usr/bin/env python3\n\"\"\"Request230: real current source registration and unchanged same-C slots.\n\nR544 creates the eight current source files as part of the full source graph.\nThis component registers those actual receipts, binds the current derived\ninner contract, and preserves the original complete metadata preflight and\nall added readback/quiet/cleanup conditions. It does not repeat generation or\nimport scientific modules. Author: OpenAI / ChatGPT exact_refinement agent\n(AI), 2026-11-16.\n\"\"\"\nfrom __future__ import annotations\n\n"
+    },
+    "p0027": {
+      "before": "HERE = Path(__file__).resolve().parent\nENTRY = \"root_20261116_request230_same_C_composition.py\"\nREQUEST_SCHEMA = \"public-current-C-same-semantic-head-bound230-request-v1\"\nSCHEMA = \"request230-frozen220-and-same-C-source-composition-v1\"\nPLAN_SCHEMA = \"request230-same-C-actual220-source-plan-v1\"\nGEN_SCHEMA = \"request230-actual-same-C-source-generation-v1\"\nROLES = (\"head\", \"leaf\", \"bridge\", \"tail\", \"metric0\", \"metric1\", \"metric2\", \"evidence\")\nLIMIT = 90000\nSOURCE_LIMIT = 100000\n",
+      "after": "HERE = Path(__file__).resolve().parent\nENTRY = \"root_20261116_request230_same_C_composition.py\"\nREQUEST_SCHEMA = \"public-current-C-same-semantic-head-bound230-request-v1\"\nSCHEMA = \"request230-actual-source-and-same-C-registration-composition-v1\"\nPLAN_SCHEMA = \"R496-current-C-zero-linear-three-level-source-view-plan-v1\"\nGEN_SCHEMA = \"request230-actual-same-C-source-registration-v1\"\nROLES = (\"head\", \"leaf\", \"bridge\", \"tail\", \"metric0\", \"metric1\", \"metric2\", \"evidence\")\nLIMIT = 90000\nSOURCE_LIMIT = 100000\n"
+    },
+    "p0028": {
+      "before": "    workspace = Path(os.environ[\"GITHUB_WORKSPACE\"]).resolve(strict=True)\n    temporary = Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    comp = Path(args.computations).resolve(strict=True)\n    require(comp == HERE and comp.is_relative_to(workspace)\n        and Path(__file__).name == ENTRY, \"Keep the actual public same-directory import graph\")\n    request, rid = read(args.request, args.request_sha256)\n    require(request.get(\"schema\") == REQUEST_SCHEMA and request.get(\"request_number\") == 217,\n        \"Use the separate request230 experiment\")\n    require(same(receipt(__file__), request[\"roles\"][\"composer\"]),\n        \"The actual metadata composition source differs\")\n    upstream = request[\"upstream\"]\n    base = Path(args.base).resolve(strict=True)\n    require(base == temporary/upstream[\"namespace\"] and base != temporary,\n        \"Reuse only the actual original220 namespace; never start another clock\")\n    parent_path = relative_file(workspace, upstream[\"request\"])\n    parent, pid = read(parent_path, upstream[\"request\"])\n    repair = upstream[\"repair\"]\n    repair_request_path = relative_file(workspace, repair[\"request\"])\n    repair_request, repair_request_id = read(repair_request_path, repair[\"request\"])\n    require(repair_request.get(\"schema\") == repair[\"request_schema\"]\n        and repair_request.get(\"request_number\") == 222\n        and repair_request[\"entry\"] == repair[\"entry\"]\n        and repair_request[\"frozen220_request\"] == upstream[\"frozen220_request\"]\n        and repair_request[\"derived220_request\"] == upstream[\"request\"],\n        \"Bind the genuine explicit222 source classification repair\")\n    require(same(receipt(comp/repair[\"entry\"][\"file\"]), repair[\"entry\"]),\n        \"The actual unchanged repair entry source differs\")\n    preparation, preparation_id = read(base/repair[\"receipt\"])\n    current(preparation)\n    require(preparation.get(\"schema\") == repair[\"schema\"]\n        and preparation.get(\"completed\") is True\n        and same(preparation.get(\"source\"), repair[\"entry\"])\n        and same(preparation.get(\"actual_entry_request\"), repair_request_id)\n        and same(preparation.get(\"actual_derived_request\"), pid)\n        and Path(preparation[\"actual_derived_request\"][\"file\"]).resolve() == parent_path\n        and workspace == temporary/repair[\"working_view\"]\n        and Path(preparation[\"actual_working_view\"]).resolve() == workspace,\n        \"Use the actual derived metadata workspace and its complete preparation\")\n    primary = Path(preparation[\"primary_checkout\"]).resolve(strict=True)\n    require(primary == Path(os.environ[\"REQUEST222_PRIMARY_WORKSPACE\"]).resolve(strict=True)\n        and not primary.is_relative_to(temporary) and not temporary.is_relative_to(primary),\n        \"Retain the original public checkout separately from its metadata view\")\n    original_parent, original_parent_id = read(\n        base/repair[\"frozen_request_copy\"], upstream[\"frozen220_request\"])\n    original_path = relative_file(primary, upstream[\"frozen220_request\"])\n    require(same(receipt(original_path), original_parent_id)\n        and same(preparation.get(\"original_frozen_request\"), original_parent_id)\n        and Path(preparation[\"original_frozen_request\"][\"file\"]).resolve() == original_path,\n        \"Never mistake the modified working-view path for the frozen220 ancestor\")\n    for key in (\"roles\", \"native_registration\", \"execution\", \"refinement_work\"):\n        require(parent[key] == original_parent[key],\n            \"The repair must retain the original scientific and resource contract: \"+key)\n    require(same(receipt(comp/repair_request[\"repaired_source_plan\"][\"file\"]),\n        repair_request[\"repaired_source_plan\"])\n        and same(receipt(temporary/repair[\"environment_script\"]),\n            preparation[\"actual_environment_script\"]),\n        \"Bind the actual repaired source plan and working-view environment bytes\")\n    require(parent.get(\"schema\") == upstream[\"request_schema\"]\n        and parent.get(\"request_number\") == upstream[\"request_number\"] == 220\n        and parent[\"complete_source_count\"] == 458\n        and parent[\"published_source_count\"] == 279\n        and parent[\"generated_source_count\"] == 179,\n        \"Retain all frozen220 sources and the explicit repaired-plan source\")\n    workflow = relative_file(workspace, upstream[\"workflow\"])\n    require(parent[\"roles\"][\"owner\"] == upstream[\"owner\"],\n        \"The unchanged complete original owned utility differs\")\n    actual = parent[\"native_registration\"][\"current_roles\"]\n    for key, role in ((\"driver\", \"first_driver\"), (\"launcher\", \"first_launcher\")):\n        require(upstream[\"actual_origin\"][key] == actual[role],\n            \"Register the actual220 source tuple, not an older source label\")\n    require(parent[\"execution\"][\"original_namespace\"] == upstream[\"namespace\"]\n        and parent[\"execution\"][\"original_deadline_schema\"] == upstream[\"deadline_schema\"]\n        and parent[\"execution\"][\"science_seconds_from_original_namespace\"] == 18900\n        and parent[\"execution\"][\"original_readback_reserve_seconds\"] == 2700,\n        \"The upstream resource and clock contract is unchanged\")\n    plan_path = relative_file(workspace, request[\"source_generation\"][\"plan\"])\n    plan, plan_id = read(plan_path, request[\"source_generation\"][\"plan\"])\n    require(plan.get(\"schema\") == PLAN_SCHEMA and plan.get(\"repository\") == REPOSITORY\n        and same(plan.get(\"upstream_request\"), pid)\n        and plan[\"upstream_request\"][\"file\"] == upstream[\"request\"][\"file\"],\n        \"The new source plan is explicitly attached to the genuine repaired220 contract\")\n    require([v.get(\"role\") for v in plan[\"views\"]] == list(ROLES),\n        \"Keep the complete declared head/leaf/tail/three-field/evidence source sequence\")\n    require(plan[\"generator\"] == request[\"roles\"][\"composer\"],\n        \"The full explicit source generator differs\")\n    extras = request[\"additional_public_sources\"]\n    actual_public = {}\n    for name, descriptor in extras.items():\n        require(name == basename(descriptor[\"file\"]), \"Actual public source basenames differ\")\n        path = comp/name; raw = path.read_bytes(); check_source(raw, descriptor)\n        actual_public[name] = receipt(path)\n    require(set(request[\"roles\"]) == {\"composer\", \"runner\", \"reader\", *ROLES},\n        \"Keep all independent lifecycle and actual scientific role names\")\n    outputs = {row[\"stages\"][-1][\"output\"][\"file\"]:row[\"stages\"][-1][\"output\"]\n        for row in plan[\"views\"]}\n    require(outputs == request[\"source_generation\"][\"generated_sources\"]\n        and set(outputs).isdisjoint(extras)\n        and len(outputs) == 8 and len(extras) == 7,\n        \"The complete eight generated and seven additional public sources differ\")\n    for row in plan[\"views\"]:\n        require(request[\"roles\"][row[\"role\"]] == row[\"stages\"][-1][\"output\"],\n            \"An actual source role does not match its final generated bytes\")\n    expected = dict(extras, **outputs)\n    require(request[\"runtime_sources\"] == expected and len(expected) == 15,\n        \"Keep all15 additional actual source identities without replacing an ancestor\")\n    startup, startup_id = read(base/\"job-science-deadline.json\"); current(startup)\n    require(startup.get(\"schema\") == upstream[\"deadline_schema\"]\n        and startup.get(\"science_seconds_from_namespace\") == 18900\n        and startup.get(\"readback_reserve_seconds\") == 2700\n        and type(startup.get(\"namespace_created_unix_seconds\")) in (int, float),\n        \"Bind the existing actual original namespace clock\")\n    require(same(preparation.get(\"actual_job_deadline\"), startup_id)\n        and startup[\"namespace_created_unix_seconds\"] == preparation[\"namespace_created_unix_seconds\"],\n        \"The clock must precede the repair source copy and remain unchanged\")\n    metadata = dict(schema=SCHEMA, repository=REPOSITORY, source=receipt(__file__),\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid, complete_upstream_request=pid,\n        frozen220_ancestor=original_parent_id, original_checkout_request=receipt(original_path),\n        actual_repair_request=repair_request_id, actual_repair_preparation=preparation_id,\n        original_checkout=str(primary), actual_metadata_working_view=str(workspace),\n        complete_upstream_workflow=receipt(workflow), source_plan=plan_id,\n        actual_existing_namespace_clock=startup_id,\n        original_clock_values=startup, actual_source_commit=os.environ[\"GITHUB_SHA\"],\n        old220_run_or_raw_reused=False, frozen220_checkout_bytes_unchanged=True,\n        derived220_request_is_explicit_repair_not_relabelled_frozen_bytes=True,\n        original220_acceptance_and_scientific_calls_unchanged=True,\n        additional_public_sources=actual_public,\n        generated_source_count=8, generated_sources_not_assumed_preexisting=True,\n        complete_declared_runtime_source_count=473,\n        original457_plus_one_repaired_plan_plus_additional15_without_replacement=True,\n        repair_entry_separately_bound_metadata_orchestrator_not_a_generated_scientific_view=True,\n        no_source_imported_for_a_mathematical_evaluation=True)\n    return request, rid, parent, pid, plan, comp, base, metadata\n\n\ndef bind(args):\n    *_, base, metadata = binding(args)\n    out = base/\"same-C217-composition\"\n    require(not out.exists(), \"Retain any earlier actual independent binding\")\n    out.mkdir()\n    write(out/\"binding.json\", metadata)\n",
+      "after": "    workspace = Path(os.environ[\"GITHUB_WORKSPACE\"]).resolve(strict=True)\n    temporary = Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    comp = Path(args.computations).resolve(strict=True)\n    require(comp == HERE and comp.is_relative_to(workspace) and Path(__file__).name == ENTRY,\n        \"Keep the real current same-directory import graph\")\n    request, rid = read(args.request,args.request_sha256)\n    require(request.get(\"schema\") == REQUEST_SCHEMA and request.get(\"request_number\") == 230\n        and request.get(\"repository\") == REPOSITORY,\n        \"Use the explicit independent230 complete caller\")\n    require(same(receipt(__file__),request[\"roles\"][\"composer\"]),\n        \"The actual same-C metadata caller source differs\")\n    upstream, block = request[\"upstream\"],request[\"source_binding\"]\n    base = Path(args.base).resolve(strict=True)\n    require(base == temporary/upstream[\"namespace\"] and base != temporary,\n        \"Use the one actual original205-contract namespace\")\n    require(upstream[\"request\"] == block[\"current_inner_contract\"],\n        \"Use the same explicit on-job request identity contract throughout this caller\")\n    repair = upstream[\"repair\"]\n    require(repair[\"entry\"] == request[\"entry\"]\n        and same(receipt(comp/repair[\"entry\"][\"file\"]),repair[\"entry\"]),\n        \"Bind the real new entry source\")\n    preparation,preparation_id = read(base/repair[\"receipt\"]);current(preparation)\n    actual_parent = preparation[\"actual_derived_request\"]\n    parent_descriptor = dict(upstream[\"request\"],bytes=actual_parent[\"bytes\"],\n        sha256=actual_parent[\"sha256\"])\n    parent_path = relative_file(workspace,parent_descriptor)\n    parent,pid = read(parent_path,actual_parent)\n    require(preparation.get(\"current_inner_formation_contract\") == block[\"current_inner_contract\"]\n        and parent.get(\"schema\") == upstream[\"request_schema\"]\n        and parent.get(\"request_number\") == upstream[\"request_number\"] == 230\n        and all(parent[key] == upstream[\"request\"][key] for key in\n            (\"published_source_count\",\"generated_source_count\",\"complete_source_count\")),\n        \"Bind the complete actual generated230 request, not an uncomputed or ancestor digest\")\n    require(preparation.get(\"schema\") == repair[\"schema\"]\n        and preparation.get(\"completed\") is True\n        and same(preparation.get(\"source\"),repair[\"entry\"])\n        and same(preparation.get(\"actual_entry_request\"),rid)\n        and same(preparation.get(\"actual_derived_request\"),pid)\n        and Path(preparation[\"actual_derived_request\"][\"file\"]).resolve() == parent_path\n        and workspace == temporary/repair[\"working_view\"]\n        and Path(preparation[\"actual_working_view\"]).resolve() == workspace,\n        \"Use the actual current source workspace and its complete preparation\")\n    primary = Path(preparation[\"primary_checkout\"]).resolve(strict=True)\n    require(primary == Path(os.environ[\"REQUEST230_PRIMARY_WORKSPACE\"]).resolve(strict=True)\n        and not primary.is_relative_to(temporary) and not temporary.is_relative_to(primary),\n        \"Keep the real unchanged primary checkout distinct from its working copy\")\n    original_parent,original_parent_id = read(\n        base/repair[\"frozen_request_copy\"],upstream[\"frozen220_request\"])\n    original_path = relative_file(primary,upstream[\"frozen220_request\"])\n    require(same(receipt(original_path),original_parent_id)\n        and same(preparation.get(\"original_frozen_request\"),original_parent_id),\n        \"Do not relabel the frozen220 ancestor as a current source contract\")\n    repaired,repaired_id = read(base/repair[\"repaired222_copy\"],block[\"repaired222_request\"])\n    require(same(preparation.get(\"repaired222_source_contract\"),repaired_id)\n        and parent[\"execution\"] == repaired[\"execution\"]\n        and parent[\"refinement_work\"] == repaired[\"refinement_work\"],\n        \"Keep all original scientific work and absolute resource fields\")\n    ancestor217_path = relative_file(primary,request[\"frozen217_request\"])\n    ancestor217,ancestor217_id = read(ancestor217_path,request[\"frozen217_request\"])\n    require(request[\"same_C_work\"] == ancestor217[\"same_C_work\"],\n        \"Keep every original same-C head/query/measurement work choice\")\n    require(parent[\"roles\"][\"owner\"] == upstream[\"owner\"]\n        and parent[\"roles\"][\"runner\"] == upstream[\"runner\"]\n        and parent[\"roles\"][\"reader\"] == upstream[\"reader\"]\n        and parent[\"composition_contract\"][\"entry\"] == upstream[\"composer\"],\n        \"Use the actual complete current metadata callers\")\n    actual = parent[\"native_registration\"][\"current_roles\"]\n    for key,role in ((\"driver\",\"first_driver\"),(\"launcher\",\"first_launcher\")):\n        require(upstream[\"actual_origin\"][key] == actual[role],\n            \"Register the genuine current first native source tuple\")\n    require(parent[\"execution\"][\"original_namespace\"] == upstream[\"namespace\"]\n        and parent[\"execution\"][\"original_deadline_schema\"] == upstream[\"deadline_schema\"]\n        and parent[\"execution\"][\"science_seconds_from_original_namespace\"] == 18900\n        and parent[\"execution\"][\"original_readback_reserve_seconds\"] == 2700,\n        \"Do not restart or extend the original clock\")\n    plan_path = relative_file(workspace,request[\"source_generation\"][\"plan\"])\n    plan,plan_id = read(plan_path,request[\"source_generation\"][\"plan\"])\n    require(plan.get(\"schema\") == PLAN_SCHEMA\n        and plan.get(\"logical_schema\") ==\n            \"R544-current-C-actual-owner-and-orchestrator-source-binding-repairs-v1\"\n        and plan.get(\"repository\") == REPOSITORY and plan.get(\"view_count\") == 49,\n        \"Bind the entire current source graph, including all eight same-C outputs\")\n    outputs = {}\n    for role in ROLES:\n        matches = [row for row in plan[\"views\"] if row[\"role\"] == \"217_\"+role]\n        require(len(matches) == 1, \"The exact same-C role must occur once: \"+role)\n        expected = matches[0][\"output\"]\n        actual_role = request[\"roles\"][role]\n        require({key:actual_role[key] for key in (\"file\",\"bytes\",\"sha256\")} == expected,\n            \"The same-C source role must use its actual R544 output\")\n        old_role = ancestor217[\"roles\"][role]\n        for key in (\"schema\",\"frame\"):\n            if key in old_role:\n                require(actual_role.get(key) ==\n                    plan[\"semantic_schema_rebindings\"].get(old_role[key],old_role[key]),\n                    \"Every independent same-C schema/frame is explicitly rebound\")\n        outputs[expected[\"file\"]] = actual_role\n    require(outputs == request[\"source_generation\"][\"generated_sources\"],\n        \"Keep the complete eight actual same-C outputs\")\n    extras = request[\"additional_runtime_sources\"]\n    require(len(extras) == 7 and set(extras).isdisjoint(outputs)\n        and set(request[\"roles\"]) == {\"composer\",\"runner\",\"reader\",*ROLES},\n        \"Keep the original four public helpers and three current metadata callers\")\n    actual_extras = {}\n    for name,item in extras.items():\n        require(name == basename(item[\"file\"]), \"Use real direct source basenames\")\n        raw = (comp/name).read_bytes();check_source(raw,item)\n        actual_extras[name] = receipt(comp/name)\n    expected = dict(extras,**outputs)\n    require(request[\"runtime_sources\"] == expected and len(expected) == 15,\n        \"The complete independent runtime source set differs\")\n    startup,startup_id = read(base/\"job-science-deadline.json\");current(startup)\n    require(startup.get(\"schema\") == upstream[\"deadline_schema\"]\n        and startup.get(\"science_seconds_from_namespace\") == 18900\n        and startup.get(\"readback_reserve_seconds\") == 2700\n        and type(startup.get(\"namespace_created_unix_seconds\")) in (int,float)\n        and same(preparation.get(\"actual_job_deadline\"),startup_id)\n        and startup[\"namespace_created_unix_seconds\"] == preparation[\"namespace_created_unix_seconds\"],\n        \"All preparation and science share the original actual deadline\")\n    workflow = relative_file(workspace,upstream[\"workflow\"])\n    metadata = dict(schema=SCHEMA,repository=REPOSITORY,source=receipt(__file__),\n        run_id=os.environ[\"GITHUB_RUN_ID\"],source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid,complete_upstream_request=pid,\n        frozen220_ancestor=original_parent_id,repaired222_source_ancestor=repaired_id,\n        original217_source_ancestor=ancestor217_id,\n        original_checkout_request=receipt(original_path),\n        actual_entry_request=rid,actual_source_preparation=preparation_id,\n        original_checkout=str(primary),actual_metadata_working_view=str(workspace),\n        complete_upstream_workflow=receipt(workflow),source_plan=plan_id,\n        actual_existing_namespace_clock=startup_id,original_clock_values=startup,\n        actual_source_commit=os.environ[\"GITHUB_SHA\"],old_run_or_raw_reused=False,\n        frozen220_checkout_bytes_unchanged=True,\n        derived_current_contract_has_its_own_complete_bytes_and_SHA=True,\n        original_acceptance_and_scientific_calls_unchanged=True,\n        additional_runtime_sources=actual_extras,\n        generated_source_count=8,actual_prior_generator=request[\"source_generation\"][\"materialization\"],\n        current_same_C_sources_were_formed_by_R544_not_this_registration=True,\n        complete_declared_runtime_source_count=parent[\"complete_source_count\"],\n        no_source_imported_for_a_mathematical_evaluation=True)\n    return request,rid,parent,pid,plan,comp,base,metadata\n\n\ndef bind(args):\n    *_, base, metadata = binding(args)\n    out = base/\"same-C230-composition\"\n    require(not out.exists(), \"Retain any earlier actual independent binding\")\n    out.mkdir()\n    write(out/\"binding.json\", metadata)\n"
+    },
+    "p0029": {
+      "before": "\n\ndef prepare(args):\n    request, rid, parent, pid, plan, comp, base, metadata = binding(args)\n    directory = base/\"same-C217-source-views\"\n    require(not directory.exists(), \"Never overwrite an actual independent source-generation receipt\")\n    directory.mkdir()\n    state = dict(schema=GEN_SCHEMA, repository=REPOSITORY, source=receipt(__file__),\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid, upstream_request=pid, complete_binding=metadata,\n        actual_computations=str(comp), original_source_baselines=[], prepared_outputs=[],\n        actual_runtime_sources={}, completed=False, current_view=None,\n        unconfirmed_roles=list(ROLES), source_syntax_in_Actions_only=False,\n        original_sources_overwritten=False, scientific_computation_started=False, error=None)\n    path = directory/\"result.json\"\n    write(path, state)\n    code = 2\n    try:\n        H = load(comp/request[\"upstream\"][\"owner\"][\"file\"],\n            request[\"upstream\"][\"owner\"][\"sha256\"], \"_request230_complete220_source_binding\")\n        upstream_path = Path(os.environ[\"GITHUB_WORKSPACE\"])/request[\"upstream\"][\"request\"][\"file\"]\n        original_parent, original_parent_id, dispatch, dispatch_id, originals = H.bind_request(\n            upstream_path, pid[\"sha256\"], base, comp)\n        require(same(original_parent_id, pid) and canonical(original_parent) == canonical(parent),\n            \"The genuine original full source binding returned another request\")\n        require(len(originals) == 458, \"The actual repaired complete source set differs\")\n        state[\"actual_unchanged_dispatch\"] = dispatch_id\n        state[\"repaired458_complete_binding_passed\"] = True\n        extras = request[\"additional_public_sources\"]\n        require(not set(extras).intersection(originals),\n            \"Independent source additions may not overwrite an original source slot\")\n        all_names = [basename(v[\"stages\"][-1][\"output\"][\"file\"]) for v in plan[\"views\"]]\n        require(len(all_names) == len(set(all_names)) and not set(all_names).intersection(originals)\n            and not set(all_names).intersection(extras)\n            and all(not (comp/name).exists() for name in all_names),\n            \"All eight output names must be fresh before any write\")\n        prepared = []\n        for view in plan[\"views\"]:\n            role = view[\"role\"]; baseline = view[\"baseline\"]\n            raw = (comp/basename(baseline[\"file\"])).read_bytes(); check_source(raw, baseline)\n            state[\"current_view\"] = dict(role=role, phase=\"complete-baseline-and-literal-stages\")\n            state[\"original_source_baselines\"].append(dict(role=role, actual=receipt(comp/baseline[\"file\"])))\n            text = raw.decode(\"utf-8\"); stage_ids = []\n            for number, stage in enumerate(view[\"stages\"]):\n                for patch in stage[\"replacements\"]:\n                    before, after, count = patch[\"before\"], patch[\"after\"], patch[\"count\"]\n                    require(isinstance(before, str) and before and isinstance(after, str)\n                        and type(count) is int and count > 0,\n                        \"Every exact literal replacement is explicit\")\n                    require(text.count(before) == count,\n                        \"Complete literal source count differs at \"+role+\"/\"+str(number))\n                    text = text.replace(before, after)\n                output = text.encode(\"utf-8\"); check_source(output, stage[\"output\"])\n                stage_ids.append(dict(label=stage[\"label\"], output=stage[\"output\"],\n                    exact_replacement_count=len(stage[\"replacements\"])))\n            candidate = text.encode(\"utf-8\"); target = view[\"stages\"][-1][\"output\"]\n            prepared.append((view, candidate))\n            state[\"prepared_outputs\"].append(dict(role=role, final_output=target,\n                intermediate_complete_source_identities=stage_ids))\n            write(path, state, replace=True)\n        # This is source syntax only, executed in Actions after all exact\n        # baselines/replacements are bound. No imported science or fixture.\n        import ast\n        for view, raw in prepared:\n            name = view[\"stages\"][-1][\"output\"][\"file\"]\n            compile(ast.parse(raw.decode(\"utf-8\"), filename=name), name, \"exec\")\n        for role in (\"runner\", \"reader\", \"composer\"):\n            name = request[\"roles\"][role][\"file\"]\n            raw = (comp/name).read_bytes()\n            compile(ast.parse(raw.decode(\"utf-8\"), filename=name), name, \"exec\")\n        state[\"source_syntax_in_Actions_only\"] = True\n        for view, raw in prepared:\n            role = view[\"role\"]; descriptor = view[\"stages\"][-1][\"output\"]\n            target = comp/descriptor[\"file\"]\n            state[\"current_view\"] = dict(role=role, phase=\"exclusive-new-source-write\")\n            write(path, state, replace=True)\n            with target.open(\"xb\") as stream:\n                stream.write(raw); stream.flush(); os.fsync(stream.fileno())\n            actual = receipt(target); require(same(actual, descriptor), \"A generated source changed\")\n            state[\"actual_runtime_sources\"][descriptor[\"file\"]] = actual\n            state[\"unconfirmed_roles\"].remove(role)\n            write(path, state, replace=True)\n        for name, descriptor in extras.items():\n            actual = receipt(comp/name); require(same(actual, descriptor), \"An additional source changed\")\n            state[\"actual_runtime_sources\"][name] = actual\n        require(set(state[\"actual_runtime_sources\"]) == set(request[\"runtime_sources\"]),\n            \"Every declared new runtime source must actually be present\")\n        state.update(completed=True, current_view=None)\n        code = 0\n    except BaseException as error:\n        state[\"error\"] = dict(type=type(error).__name__, message=str(error), traceback=traceback.format_exc())\n    write(path, state, replace=True)\n    print(json.dumps(dict(event=\"request230_same_C_source_generation_returned\",\n        actual_result=receipt(path), actual_exit_code=code,\n        completed=state[\"completed\"], unconfirmed_roles=state[\"unconfirmed_roles\"],\n        current_view=state[\"current_view\"], original_sources_overwritten=False,\n        scientific_computation_started=False), separators=(\",\", \":\")), flush=True)\n    return code\n\n\ndef readback(args):\n    request, rid, parent, pid, plan, comp, base, metadata = binding(args)\n    out = base/\"same-C217-composition-readback\"\n    require(not out.exists(), \"Keep any earlier composition necessary record\")\n    out.mkdir()\n    source_path = base/request[\"source_generation\"][\"receipt\"]\n",
+      "after": "\n\ndef prepare(args):\n    request,rid,parent,pid,plan,comp,base,metadata = binding(args)\n    directory = base/\"same-C230-source-views\"\n    require(not directory.exists(), \"Never overwrite a prior actual same-C source registration\")\n    directory.mkdir()\n    state = dict(schema=GEN_SCHEMA,repository=REPOSITORY,source=receipt(__file__),\n        run_id=os.environ[\"GITHUB_RUN_ID\"],source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid,upstream_request=pid,complete_binding=metadata,\n        actual_computations=str(comp),prepared_outputs=[],actual_runtime_sources={},\n        completed=False,current_view=None,unconfirmed_roles=list(ROLES),\n        source_syntax_in_Actions_only=False,source_generation_repeated=False,\n        source_creation_was_actual_prior_R544_generation=True,\n        original_sources_overwritten=False,scientific_computation_started=False,error=None)\n    path = directory/\"result.json\";write(path,state);code=2\n    try:\n        H = load(comp/request[\"upstream\"][\"owner\"][\"file\"],\n            request[\"upstream\"][\"owner\"][\"sha256\"],\"_request230_complete_current_source_binding\")\n        upstream_path = Path(os.environ[\"GITHUB_WORKSPACE\"])/request[\"upstream\"][\"request\"][\"file\"]\n        actual_parent,actual_parent_id,dispatch,dispatch_id,originals = H.bind_request(\n            upstream_path,pid[\"sha256\"],base,comp)\n        require(same(actual_parent_id,pid) and canonical(actual_parent)==canonical(parent)\n            and len(originals)==parent[\"complete_source_count\"],\n            \"Bind the complete real current source universe before scientific use\")\n        state[\"actual_complete_dispatch\"] = dispatch_id\n        prior,prior_id = read(base/request[\"source_generation\"][\"materialization\"][\"receipt\"])\n        current(prior)\n        expected_generator = request[\"source_generation\"][\"materialization\"][\"generator\"]\n        require(prior.get(\"schema\") == request[\"source_generation\"][\"materialization\"][\"schema\"]\n            and prior.get(\"completed\") is True and same(prior.get(\"source\"),expected_generator),\n            \"The actual R544 source construction did not complete\")\n        available = {Path(row[\"actual_source\"][\"file\"]).name:row[\"actual_source\"]\n            for row in prior[\"outputs\"]}\n        prepared,prepared_id = read(base/\"source-preparation220\"/\"result.json\");current(prepared)\n        require(prepared.get(\"completed\") is True\n            and prepared.get(\"source_syntax_preflight_complete\") is True\n            and same(prepared.get(\"source\"),request[\"upstream\"][\"owner\"]),\n            \"Retain the actual complete original source syntax preparation\")\n        state.update(actual_source_generation=prior_id,actual_original_source_preparation=prepared_id,\n            source_syntax_in_Actions_only=True)\n        for role in ROLES:\n            item = request[\"roles\"][role];name=item[\"file\"]\n            state[\"current_view\"] = dict(role=role,phase=\"register_actual_full_source\")\n            require(name in available and name in originals\n                and same(available[name],item) and same(originals[name],item),\n                \"A current same-C output is missing from its genuine materialization\")\n            actual = receipt(comp/name);require(same(actual,item),\"A current source changed\")\n            state[\"prepared_outputs\"].append(dict(role=role,actual_source=actual,\n                actual_creation_receipt=prior_id,created_by_this_registration=False))\n            state[\"actual_runtime_sources\"][name]=actual\n            state[\"unconfirmed_roles\"].remove(role);write(path,state,replace=True)\n        for name,item in request[\"additional_runtime_sources\"].items():\n            actual = receipt(comp/name)\n            require(name in originals and same(actual,item) and same(originals[name],item),\n                \"Every additional runtime source belongs to the real full current closure\")\n            state[\"actual_runtime_sources\"][name]=actual\n        require(set(state[\"actual_runtime_sources\"])==set(request[\"runtime_sources\"]),\n            \"All fifteen independent runtime sources must be truly present\")\n        state.update(completed=True,current_view=None);code=0\n    except BaseException as error:\n        state[\"error\"]=dict(type=type(error).__name__,message=str(error),traceback=traceback.format_exc())\n    write(path,state,replace=True)\n    print(json.dumps(dict(event=\"request230_actual_same_C_source_registration_returned\",\n        actual_result=receipt(path),actual_exit_code=code,completed=state[\"completed\"],\n        unconfirmed_roles=state[\"unconfirmed_roles\"],current_view=state[\"current_view\"],\n        source_generation_repeated=False,scientific_computation_started=False),\n        separators=(\",\",\":\")),flush=True)\n    return code\n\n\ndef readback(args):\n    request, rid, parent, pid, plan, comp, base, metadata = binding(args)\n    out = base/\"same-C230-composition-readback\"\n    require(not out.exists(), \"Keep any earlier composition necessary record\")\n    out.mkdir()\n    source_path = base/request[\"source_generation\"][\"receipt\"]\n"
+    },
+    "p0030": {
+      "before": "    for step in (\"new_composition_outcome\", \"new_readback_outcome\"):\n        require(getattr(args, step) == \"success\", \"Every added necessary scope must actually succeed\")\n    for directory, schema in (\n        (\"same-C217-composition-readback\", SCHEMA+\"-readback-marker\"),\n        (\"same-C217-readback\", expected[\"necessary_marker_schema\"])):\n        marker, mid = read(base/directory/\"readback-complete.json\"); current(marker)\n        require(marker.get(\"schema\") == schema and marker.get(\"complete\") is True,\n            \"The added actual necessary marker is absent or incomplete\")\n        if directory == \"same-C217-readback\":\n            require(marker.get(\"quiescent\") is True, \"The actual new scientific scopes are not quiet\")\n        summary, sid = read(base/directory/\"summary.json\")\n        require(same(marker.get(\"necessary_summary\"), sid), \"Actual necessary summary identity differs\")\n    H = load(comp/request[\"upstream\"][\"owner\"][\"file\"],\n        request[\"upstream\"][\"owner\"][\"sha256\"], \"_request230_cleanup_original_owned_utility\")\n    for directory in [base/\"same-C-refinement217\"/\"ownership\",\n            base/\"same-C217-readback\"/\"ownership\"]+[\n            base/(\"same-C217-\"+phase+\"-run-owner\") for phase in (\"first\", \"successors\")]:\n        if directory.exists():\n            observation = H.observe_records(base, directory, terminate=False)\n            require(observation[\"all_actual_owned_processes_quiet\"],\n",
+      "after": "    for step in (\"new_composition_outcome\", \"new_readback_outcome\"):\n        require(getattr(args, step) == \"success\", \"Every added necessary scope must actually succeed\")\n    for directory, schema in (\n        (\"same-C230-composition-readback\", SCHEMA+\"-readback-marker\"),\n        (\"same-C230-readback\", expected[\"necessary_marker_schema\"])):\n        marker, mid = read(base/directory/\"readback-complete.json\"); current(marker)\n        require(marker.get(\"schema\") == schema and marker.get(\"complete\") is True,\n            \"The added actual necessary marker is absent or incomplete\")\n        if directory == \"same-C230-readback\":\n            require(marker.get(\"quiescent\") is True, \"The actual new scientific scopes are not quiet\")\n        summary, sid = read(base/directory/\"summary.json\")\n        require(same(marker.get(\"necessary_summary\"), sid), \"Actual necessary summary identity differs\")\n    H = load(comp/request[\"upstream\"][\"owner\"][\"file\"],\n        request[\"upstream\"][\"owner\"][\"sha256\"], \"_request230_cleanup_original_owned_utility\")\n    for directory in [base/\"same-C-refinement230\"/\"ownership\",\n            base/\"same-C230-readback\"/\"ownership\"]+[\n            base/(\"same-C230-\"+phase+\"-run-owner\") for phase in (\"first\", \"successors\")]:\n        if directory.exists():\n            observation = H.observe_records(base, directory, terminate=False)\n            require(observation[\"all_actual_owned_processes_quiet\"],\n"
+    },
+    "p0031": {
+      "before": "    require(original_arguments and original_arguments[0] == \"cleanup\",\n        \"Call the original cleanup operation with all original outcome arguments\")\n    repair = request[\"upstream\"][\"repair\"]\n    expected_old = repair[\"request\"]\n    for flag, value in ((\"--request-sha256\", expected_old[\"sha256\"]),\n            (\"--base\", str(base)), (\"--computations\", str(comp))):\n        require(original_arguments.count(flag) == 1\n",
+      "after": "    require(original_arguments and original_arguments[0] == \"cleanup\",\n        \"Call the original cleanup operation with all original outcome arguments\")\n    repair = request[\"upstream\"][\"repair\"]\n    expected_old = rid\n    for flag, value in ((\"--request-sha256\", expected_old[\"sha256\"]),\n            (\"--base\", str(base)), (\"--computations\", str(comp))):\n        require(original_arguments.count(flag) == 1\n"
+    },
+    "p0032": {
+      "before": "    require(same(receipt(old_request), expected_old), \"The original complete cleanup contract differs\")\n    source = repair[\"entry\"]\n    reader = load(comp/source[\"file\"], source[\"sha256\"], \"_request230_repair_cleanup\")\n    # The unmodified repair entry first enforces its real source-scope marker,\n    # then execs the original220 reader with every original necessary result,\n    # outcome, ownership observation and selected deletion condition intact.\n    return reader.main(original_arguments)\n\n\n\ndef preflight(args):\n    request, rid, parent, pid, plan, comp, base, metadata = binding(args)\n    workspace = Path(os.environ[\"GITHUB_WORKSPACE\"]).resolve(strict=True)\n    descriptor = request[\"upstream\"][\"original_binding_block\"]\n    original_path = relative_file(workspace, descriptor[\"source_workflow\"])\n    text = original_path.read_text(encoding=\"utf-8\")\n    tag = descriptor[\"heredoc\"]\n    begin = \"          python - <<'\"+tag+\"'\\n\"\n    end = \"          \"+tag+\"\\n\"\n    require(text.count(begin) == 1 and text.count(end) == 1,\n        \"The exact original metadata block is not uniquely located\")\n    body = text.split(begin, 1)[1].split(end, 1)[0]\n    require(all(not line or line.startswith(\"          \") for line in body.splitlines()),\n        \"The original exact metadata indentation differs\")\n    body = \"\\n\".join(line[10:] if line else \"\" for line in body.splitlines())+\"\\n\"\n    require(same(dict(bytes=len(body.encode()), sha256=digest(body.encode())), descriptor),\n        \"The entire original metadata source block differs\")\n    old = \"workflow=repo/\"+repr(request[\"upstream\"][\"workflow\"][\"file\"])\n    new = \"workflow=repo/\"+repr(request[\"workflow\"])\n    require(body.count(old) == 1,\n        \"Only the explicit repaired metadata workflow pathname may be adapted\")\n    adapted = body.replace(old, new)\n    actual_workflow = workspace/request[\"workflow\"]\n    require(actual_workflow.is_file() and actual_workflow.stat().st_size < SOURCE_LIMIT,\n        \"Keep the complete actual request230 workflow below the ordinary file limit\")\n    record = dict(schema=SCHEMA+\"-actual-original-metadata-block\",\n        repository=REPOSITORY, run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid, original_workflow=receipt(original_path),\n        original_complete_block=descriptor,\n        exact_literal_adaptation=dict(before=old, after=new, count=1),\n        actual_executed_block=dict(bytes=len(adapted.encode()), sha256=digest(adapted.encode())),\n        actual_workflow=receipt(actual_workflow),\n        scientific_source_or_acceptance_changed=False,\n        source_AST_and_workflow_syntax_execute_only_in_Actions=True)\n    write(base/\"same-C217-composition\"/\"actual-upstream-preflight.json\", record)\n    # This is the original byte-bound metadata/AST/recipe binding block with\n    # the one declared workflow pathname replacement. It starts no science.\n    exec(compile(adapted, str(actual_workflow)+\":\"+tag+\"-from-explicit222-repair\", \"exec\"),\n        {\"__name__\":\"__main__\", \"__file__\":str(actual_workflow)})\n    print(json.dumps(dict(event=\"request230_original_complete_metadata_block_returned\",\n        actual_record=receipt(base/\"same-C217-composition\"/\"actual-upstream-preflight.json\"),\n        original_clock_not_restarted=True), separators=(\",\", \":\")), flush=True)\n    return 0\n\ndef main(argv=None):\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"operation\", choices=(\"bind\", \"prepare\", \"preflight\", \"readback\", \"cleanup\"))\n",
+      "after": "    require(same(receipt(old_request), expected_old), \"The original complete cleanup contract differs\")\n    source = repair[\"entry\"]\n    reader = load(comp/source[\"file\"], source[\"sha256\"], \"_request230_repair_cleanup\")\n    # The actual new entry enforces its source-scope marker, then invokes the\n    # current reader with every original necessary outcome and quiet condition.\n    # Its compact composition identity is separate from the original full file.\n    return reader.main(original_arguments)\n\n\n\ndef preflight(args):\n    request,rid,parent,pid,plan,comp,base,metadata = binding(args)\n    workspace = Path(os.environ[\"GITHUB_WORKSPACE\"]).resolve(strict=True)\n    descriptor = request[\"upstream\"][\"original_binding_block\"]\n    original_path = relative_file(workspace,descriptor[\"source_workflow\"])\n    text = original_path.read_text(encoding=\"utf-8\")\n    tag=descriptor[\"heredoc\"];begin=\"          python - <<'\"+tag+\"'\\n\";end=\"          \"+tag+\"\\n\"\n    require(text.count(begin)==1 and text.count(end)==1,\n        \"The complete original metadata block must occur exactly once\")\n    body=text.split(begin,1)[1].split(end,1)[0]\n    require(all(not line or line.startswith(\"          \") for line in body.splitlines()),\n        \"Retain the complete original metadata indentation\")\n    body=\"\\n\".join(line[10:] if line else \"\" for line in body.splitlines())+\"\\n\"\n    require(same(dict(bytes=len(body.encode()),sha256=digest(body.encode())),descriptor),\n        \"Bind the entire original metadata source block\")\n    changes = [\n        (repr(\"2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2\"),\n            \"CURRENT_INNER_SHA\",2),\n        (\"root_20261116_request220_sampling_refinement_composition.py\",\n            request[\"upstream\"][\"composer\"][\"file\"],1),\n        (\"==outer['complete_source_count']==458\",\n            \"==outer['complete_source_count']==CURRENT_SOURCE_COUNT\",1),\n        (\"workflow=repo/\"+repr(descriptor[\"original_checked_workflow\"]),\n            \"workflow=repo/\"+repr(request[\"workflow\"]),1)]\n    adapted=body\n    for before,after,count in changes:\n        require(adapted.count(before)==count,\n            \"A declared complete metadata source adaptation differs\")\n        adapted=adapted.replace(before,after)\n    actual_workflow=workspace/request[\"workflow\"]\n    require(actual_workflow.is_file() and actual_workflow.stat().st_size<SOURCE_LIMIT,\n        \"Keep the complete actual current workflow below the original source-file limit\")\n    record=dict(schema=SCHEMA+\"-actual-original-metadata-block\",repository=REPOSITORY,\n        run_id=os.environ[\"GITHUB_RUN_ID\"],source_commit=os.environ[\"GITHUB_SHA\"],\n        outer_request=rid,original_workflow=receipt(original_path),\n        original_complete_block=descriptor,\n        exact_literal_adaptations=[dict(before=a,after=b,count=c) for a,b,c in changes],\n        actual_executed_block=dict(bytes=len(adapted.encode()),sha256=digest(adapted.encode())),\n        actual_bound_globals=dict(CURRENT_INNER_SHA=pid[\"sha256\"],\n            CURRENT_SOURCE_COUNT=parent[\"complete_source_count\"]),\n        actual_workflow=receipt(actual_workflow),scientific_source_or_acceptance_changed=False,\n        source_AST_and_workflow_syntax_execute_only_in_Actions=True)\n    write(base/\"same-C230-composition\"/\"actual-upstream-preflight.json\",record)\n    # The full original metadata/recipe/source syntax block keeps its numerical\n    # assertions; only actual source identity and the current workflow are rebound.\n    exec(compile(adapted,str(actual_workflow)+\":\"+tag+\"-from-frozen222\",\"exec\"),\n        {\"__name__\":\"__main__\",\"__file__\":str(actual_workflow),\n         \"CURRENT_INNER_SHA\":pid[\"sha256\"],\"CURRENT_SOURCE_COUNT\":parent[\"complete_source_count\"]})\n    print(json.dumps(dict(event=\"request230_complete_original_metadata_block_returned\",\n        actual_record=receipt(base/\"same-C230-composition\"/\"actual-upstream-preflight.json\"),\n        original_clock_not_restarted=True),separators=(\",\",\":\")),flush=True)\n    return 0\n\n\ndef main(argv=None):\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"operation\", choices=(\"bind\", \"prepare\", \"preflight\", \"readback\", \"cleanup\"))\n"
+    },
+    "p0033": {
+      "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"request230-same-C-head-refinement-and-complete-field-consumers-v1\"\nREQUEST_SCHEMA = \"public-current-C-same-semantic-head-bound230-request-v1\"\nOUT_NAME = \"same-C-refinement217\"\nSTAGES = (\"head_recompute\", \"level0_metric\", \"level0_measure\",\n    \"level1_metric\", \"level1_measure\", \"level2_metric\", \"level2_measure\", \"compare\")\nFAMILIES = (\"original112\", \"resolution112\", \"incrementalM\")\n",
+      "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"request230-same-C-head-refinement-and-complete-field-consumers-v1\"\nREQUEST_SCHEMA = \"public-current-C-same-semantic-head-bound230-request-v1\"\nOUT_NAME = \"same-C-refinement230\"\nSTAGES = (\"head_recompute\", \"level0_metric\", \"level0_measure\",\n    \"level1_metric\", \"level1_measure\", \"level2_metric\", \"level2_measure\", \"compare\")\nFAMILIES = (\"original112\", \"resolution112\", \"incrementalM\")\n"
+    },
+    "p0034": {
+      "before": "        self.args = args\n        self.request, self.request_id = read(args.request, args.request_sha256)\n        r = self.request\n        require(r.get(\"schema\") == REQUEST_SCHEMA and r.get(\"request_number\") == 217,\n            \"Use the explicit independent request230 contract\")\n        self.comp = Path(args.computations).resolve(strict=True)\n        require(self.comp == HERE, \"Keep the actual same-directory source/import graph\")\n",
+      "after": "        self.args = args\n        self.request, self.request_id = read(args.request, args.request_sha256)\n        r = self.request\n        require(r.get(\"schema\") == REQUEST_SCHEMA and r.get(\"request_number\") == 230,\n            \"Use the explicit independent request230 contract\")\n        self.comp = Path(args.computations).resolve(strict=True)\n        require(self.comp == HERE, \"Keep the actual same-directory source/import graph\")\n"
+    },
+    "p0035": {
+      "before": "            \"The actual independent orchestrator differs from the bound contract\")\n        self.H = load_source(self.comp, self.upstream[\"owner\"], \"_request230_original_owned_utility\")\n        upstream_path = self.workspace/self.upstream[\"request\"][\"file\"]\n        self.parent, self.parent_id = read(upstream_path, self.upstream[\"request\"])\n        require(self.parent.get(\"schema\") == self.upstream[\"request_schema\"]\n            and self.parent.get(\"request_number\") == self.upstream[\"request_number\"],\n            \"The original frozen experiment is a distinct complete subcontract\")\n        self.original = None\n        if complete_sources:\n            parent, pid, original, dispatch_id, sources = self.H.bind_request(\n",
+      "after": "            \"The actual independent orchestrator differs from the bound contract\")\n        self.H = load_source(self.comp, self.upstream[\"owner\"], \"_request230_original_owned_utility\")\n        upstream_path = self.workspace/self.upstream[\"request\"][\"file\"]\n        composition = load_source(self.comp,r[\"roles\"][\"composer\"],\n            \"_request230_current_inner_receipt_binding\")\n        current_request,current_id,parent,pid,plan,comp,base,metadata = composition.binding(args)\n        require(same(current_id,self.request_id) and canonical(current_request)==canonical(r)\n            and comp==self.comp and base==self.base,\n            \"The actual metadata caller bound a different outer request or source workspace\")\n        self.parent,self.parent_id = parent,pid\n        self.actual_inner_source_preparation = metadata[\"actual_source_preparation\"]\n        self.original = None\n        if complete_sources:\n            parent, pid, original, dispatch_id, sources = self.H.bind_request(\n"
+    },
+    "p0036": {
+      "before": "        require(hashlib.sha1(b\"blob \"+str(len(raw)).encode()+b\"\\0\"+raw).hexdigest() == blob,\n            \"Keep the actual reviewed original public rules\")\n        runner.BASELINES[name] = dict(blob=blob, text=raw.decode())\n    owner_dir = B.base/(\"same-C217-\"+args.phase+\"-rule-owner\")\n    owner_dir.mkdir(exist_ok=False)\n    write(owner_dir/\"parent-launch.json\", dict(schema=SCHEMA+\"-rules-parent\", repository=REPO,\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n",
+      "after": "        require(hashlib.sha1(b\"blob \"+str(len(raw)).encode()+b\"\\0\"+raw).hexdigest() == blob,\n            \"Keep the actual reviewed original public rules\")\n        runner.BASELINES[name] = dict(blob=blob, text=raw.decode())\n    owner_dir = B.base/(\"same-C230-\"+args.phase+\"-rule-owner\")\n    owner_dir.mkdir(exist_ok=False)\n    write(owner_dir/\"parent-launch.json\", dict(schema=SCHEMA+\"-rules-parent\", repository=REPO,\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n"
+    },
+    "p0037": {
+      "before": "        \"--request\", str(args.request), \"--request-sha256\", args.request_sha256,\n        \"--base\", str(B.base), \"--computations\", str(B.comp),\n        \"--source-topic\", args.source_topic, \"--proof-directory\", args.proof_directory]\n    sys.argv = [str(path), \"--out\", str(B.base/(\"same-C217-\"+args.phase+\"-rules\")),\n        \"--command\", *command]\n    code = 2; error = None\n    try:\n",
+      "after": "        \"--request\", str(args.request), \"--request-sha256\", args.request_sha256,\n        \"--base\", str(B.base), \"--computations\", str(B.comp),\n        \"--source-topic\", args.source_topic, \"--proof-directory\", args.proof_directory]\n    sys.argv = [str(path), \"--out\", str(B.base/(\"same-C230-\"+args.phase+\"-rules\")),\n        \"--command\", *command]\n    code = 2; error = None\n    try:\n"
+    },
+    "p0038": {
+      "before": "    own = B.H.proc(os.getpid())\n    require(own is not None and own[\"pid\"] == own[\"pgid\"] == own[\"sid\"],\n        \"The unchanged rules runner must create this actual exclusive scientific session\")\n    directory = B.base/(\"same-C217-\"+args.phase+\"-run-owner\")\n    directory.mkdir(exist_ok=False)\n    record = dict(schema=B.H.SCHEMA, repository=REPO,\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        source=receipt(B.comp/B.upstream[\"owner\"][\"file\"]), role=\"same-C217-\"+args.phase+\"-run\",\n        boot_id=Path(\"/proc/sys/kernel/random/boot_id\").read_text().strip(),\n        leader=own, observed_processes=[own],\n        observed_groups=[dict(pgid=own[\"pgid\"], sid=own[\"sid\"])],\n",
+      "after": "    own = B.H.proc(os.getpid())\n    require(own is not None and own[\"pid\"] == own[\"pgid\"] == own[\"sid\"],\n        \"The unchanged rules runner must create this actual exclusive scientific session\")\n    directory = B.base/(\"same-C230-\"+args.phase+\"-run-owner\")\n    directory.mkdir(exist_ok=False)\n    record = dict(schema=B.H.SCHEMA, repository=REPO,\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        source=receipt(B.comp/B.upstream[\"owner\"][\"file\"]), role=\"same-C230-\"+args.phase+\"-run\",\n        boot_id=Path(\"/proc/sys/kernel/random/boot_id\").read_text().strip(),\n        leader=own, observed_processes=[own],\n        observed_groups=[dict(pgid=own[\"pgid\"], sid=own[\"sid\"])],\n"
+    },
+    "p0039": {
+      "before": "#!/usr/bin/env python3\n\"\"\"Request230 metadata-only complete necessary readback and cleanup predicate.\n\nOriginal head/evidence readers select their original required scope. Full\nmetric necessary objects are emitted independently, never combined into a\n",
+      "after": "#!/usr/bin/env python3\n\"\"\"Request217 metadata-only complete necessary readback and cleanup predicate.\n\nOriginal head/evidence readers select their original required scope. Full\nmetric necessary objects are emitted independently, never combined into a\n"
+    },
+    "p0040": {
+      "before": "        self.B = self.Runner.Binding(args, complete_sources=False)\n        self.H, self.base = self.B.H, self.B.base\n        self.directory = self.base/self.Runner.OUT_NAME\n        self.out = self.base/\"same-C217-readback\"\n        require(not self.out.exists(), \"Retain any preceding actual necessary readback\")\n        self.out.mkdir(); (self.out/\"ownership\").mkdir()\n        self.value = dict(schema=SCHEMA, repository=REPO, source=receipt(__file__),\n",
+      "after": "        self.B = self.Runner.Binding(args, complete_sources=False)\n        self.H, self.base = self.B.H, self.B.base\n        self.directory = self.base/self.Runner.OUT_NAME\n        self.out = self.base/\"same-C230-readback\"\n        require(not self.out.exists(), \"Retain any preceding actual necessary readback\")\n        self.out.mkdir(); (self.out/\"ownership\").mkdir()\n        self.value = dict(schema=SCHEMA, repository=REPO, source=receipt(__file__),\n"
+    },
+    "p0041": {
+      "before": "                new_actual_scientific_output_not_inferred=True)\n        quiet = True\n        for phase in (\"first\", \"successors\"):\n            run_dir = self.base/(\"same-C217-\"+phase+\"-run-owner\")\n            rules_dir = self.base/(\"same-C217-\"+phase+\"-rule-owner\")\n            for directory in (run_dir,):\n                # Even an absent receipt directory does not establish quiet:\n                # the original observer still checks live namespace processes.\n",
+      "after": "                new_actual_scientific_output_not_inferred=True)\n        quiet = True\n        for phase in (\"first\", \"successors\"):\n            run_dir = self.base/(\"same-C230-\"+phase+\"-run-owner\")\n            rules_dir = self.base/(\"same-C230-\"+phase+\"-rule-owner\")\n            for directory in (run_dir,):\n                # Even an absent receipt directory does not establish quiet:\n                # the original observer still checks live namespace processes.\n"
+    },
+    "p0042": {
+      "before": "                    self.value[\"original_logs\"].append(row)\n                    self.check()\n        for phase in (\"first\", \"successors\"):\n            directory = self.base/(\"same-C217-\"+phase+\"-rules\")\n            if not directory.is_dir():\n                self.value[\"rule_resources\"].append(dict(phase=phase, available=False,\n                    original_slot_outcome=getattr(self.args, phase+\"_outcome\")))\n",
+      "after": "                    self.value[\"original_logs\"].append(row)\n                    self.check()\n        for phase in (\"first\", \"successors\"):\n            directory = self.base/(\"same-C230-\"+phase+\"-rules\")\n            if not directory.is_dir():\n                self.value[\"rule_resources\"].append(dict(phase=phase, available=False,\n                    original_slot_outcome=getattr(self.args, phase+\"_outcome\")))\n"
+    }
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_request220_owned_roles.py",
+        "bytes": 25670,
+        "sha256": "4afc01350bbaa239556f3b3edab6260b727e772df3b04351e357b0831149efc3"
+      },
+      "output": {
+        "file": "geometry_20261116_request230_owned_roles.py",
+        "bytes": 25734,
+        "sha256": "cca79077948bd22cf4ede943b45682ae1bf981fc780211d2b68abe45c71955f4"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 6
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_request220_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "7dbc1dc3a52a812eef742e892601a539bd8908cf62179e0c68527f6a0b5af55b"
+      },
+      "output": {
+        "file": "geometry_20261116_request230_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "4eaf68ca42d5f744c683afa1c26616b24da3425a60048c1f5a3ee943f5ded203"
+      },
+      "applications": [
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 8
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_request220_refinement_necessary.py",
+        "bytes": 42493,
+        "sha256": "e887a1ced3906a4975d34815c12900a2b817318c02e9354db2e23883b7309a1c"
+      },
+      "output": {
+        "file": "root_20261116_request230_refinement_necessary.py",
+        "bytes": 44534,
+        "sha256": "1cb8c6c540ef5c4e4b0db9c610aaf07d0675ab632de4fdc342ca19ab46826085"
+      },
+      "applications": [
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 19
+        },
+        {
+          "patch": "p0015",
+          "count": 2
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_composer",
+      "baseline": {
+        "file": "root_20261116_request217_same_C_composition.py",
+        "bytes": 30178,
+        "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f"
+      },
+      "output": {
+        "file": "root_20261116_request230_same_C_composition.py",
+        "bytes": 29444,
+        "sha256": "306e1f561b52af0451fc1fdd5f0533ba2e22004867829766c2d8262fbcd6593d"
+      },
+      "applications": [
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 13
+        },
+        {
+          "patch": "p0024",
+          "count": 2
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_runner",
+      "baseline": {
+        "file": "geometry_20261116_request217_same_C_refinement.py",
+        "bytes": 45394,
+        "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7"
+      },
+      "output": {
+        "file": "geometry_20261116_request230_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "5302b22d8b445f5daa98898283e2e313d76f69df45c90058070f2b6779821bf8"
+      },
+      "applications": [
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 7
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_reader",
+      "baseline": {
+        "file": "root_20261116_request217_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e"
+      },
+      "output": {
+        "file": "root_20261116_request230_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "6dec7feacaa08bc077fa0d45be88d4e0106bb3cab3ac84fdf0e3f0f24433892e"
+      },
+      "applications": [
+        {
+          "patch": "p0023",
+          "count": 6
+        },
+        {
+          "patch": "p0024",
+          "count": 2
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
