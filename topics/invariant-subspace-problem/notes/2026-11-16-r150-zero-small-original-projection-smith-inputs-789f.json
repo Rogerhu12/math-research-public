@@ -1,0 +1,147 @@
+{
+  "format": "r150-zero-small-original-projection-smith-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "topicRoot": "topics/invariant-subspace-problem",
+  "driver": {
+    "sourcePath": "notes/2026-11-16-r150-zero-small-original-projection-smith-789f.py",
+    "blob": "487654333f35b330e6ad5d78d5c76a2cf663383f",
+    "sha256": "81eb7dd4ed337b2e84f4fd618139c98b72f01b7a9523fa4612db9f2a9b45df87",
+    "bytes": 22610
+  },
+  "inputs": [
+    {
+      "argument": "schur_helper",
+      "originalPath": "notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+      "sourcePath": "notes/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+      "blob": "74d4c918faf3d5b791493a94bd7df3000395805b",
+      "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79",
+      "bytes": 37379,
+      "executionPath": "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py"
+    },
+    {
+      "argument": "generator",
+      "originalPath": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "sourcePath": "notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+      "bytes": 15328,
+      "executionPath": "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py"
+    },
+    {
+      "argument": "jet_actions",
+      "originalPath": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "sourcePath": "notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "blob": "d244c869a1a3745c1a239c9abf2518e9e8e9c052",
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+      "bytes": 10050,
+      "executionPath": "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py"
+    },
+    {
+      "argument": "zero_full_proof",
+      "originalPath": "results/R150-appendix-zero-complete-positive-smith-spectrum-length66-and-sharp-cubic-target-factor.md",
+      "sourcePath": "notes/2026-11-16-r150-zero-full-smith-paid-proof-source-789f.md",
+      "blob": "85ba32f3524205433604a3854f02b6291898fce4",
+      "sha256": "3cad75a461aba1da02f41510d41f3d684a18ab64fd0d9deead0bab3ab3f39f80",
+      "bytes": 11871,
+      "executionPath": "{scripts}/2026-11-16-r150-zero-full-smith-paid-proof-source-789f.md"
+    },
+    {
+      "argument": "generic_image_proof",
+      "originalPath": "results/R150-appendix-original-generic-image-bridge-exact-cubic-zero-cost-and-thirteen-free-heads.md",
+      "sourcePath": "notes/2026-11-16-r150-zero-generic-image-paid-proof-source-789f.md",
+      "blob": "3d0226cf3f4860617d70407194005faa1b4c2346",
+      "sha256": "53fd48dbeb2dd2f16e8d0c3efee9c595fb9ae826528b86bea18de0048a8febbd",
+      "bytes": 11857,
+      "executionPath": "{scripts}/2026-11-16-r150-zero-generic-image-paid-proof-source-789f.md"
+    }
+  ],
+  "historicalInputs": [],
+  "argv": [
+    "python",
+    "{scripts}/2026-11-16-r150-zero-small-original-projection-smith-789f.py",
+    "--schur-helper",
+    "{scripts}/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--zero-full-proof",
+    "{scripts}/2026-11-16-r150-zero-full-smith-paid-proof-source-789f.md",
+    "--generic-image-proof",
+    "{scripts}/2026-11-16-r150-zero-generic-image-paid-proof-source-789f.md",
+    "--degree",
+    "11",
+    "--out",
+    "{work}/zero-small-original-projection-smith",
+    "--remaining-seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "mathSeconds": 180,
+  "memoryMiB": 2048,
+  "outerSeconds": 240,
+  "stepId": "zero-small-original-projection-smith",
+  "receipt": "{work}/zero-small-original-projection-smith/zero-small-original-projection-smith-receipt.json",
+  "paidMathematicalPremises": {
+    "fullOriginalGenericRank": 4354,
+    "originalProjectionGenericRank": 142,
+    "fullOriginalGenericFreeRank": 13,
+    "zeroFullPositiveIndices": [
+      1,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "zeroFullLength": 66,
+    "zeroFullMaximumPositiveExponent": 11,
+    "sourceOutputTransport": "Original finite zero parameter s, nonreversed K, whole binomial transformations, constant nonzero original17 row scales over Q"
+  },
+  "notAssumed": [
+    "zero projection length61",
+    "zero projection equals infinity",
+    "full high-normal source surjectivity",
+    "joint nine target spans relative quotient"
+  ],
+  "checkpoint": {
+    "directory": "{work}/zero-small-original-projection-smith/temporary",
+    "manifest": "small-projection-checkpoints.json",
+    "format": "r150-zero-small-original-projection-temporary-v1",
+    "bindingIncludes": [
+      "all five full byte/SHA input pins",
+      "new driver SHA",
+      "zero chart",
+      "Taylor degree",
+      "paid exact original scope"
+    ],
+    "bindingExcludes": [
+      "budget",
+      "temporary absolute paths"
+    ],
+    "resume": "Same source, degree, five input byte pins and out; use a new Actions stepId after exit75",
+    "largeArtifactsTemporaryOnly": true
+  },
+  "expectedCompletionGates": [
+    "all17 whole zero-chart pure polynomials match actual physical coefficients",
+    "actual retained eq8/s^2 denominator constant2400",
+    "all864 eliminated rows only regular multiples of actual54 retained rows",
+    "all918 one-normal and all5100 high-normal original rows checked",
+    "actual constant projection rank128",
+    "fourteen positive Smith directions actually exit",
+    "all27 active/free constant heads independent",
+    "all original6188 chain products and exit ranks checked",
+    "all13 remaining finite jets checked through order11"
+  ],
+  "arithmeticResultsNotYetExecuted": true
+}

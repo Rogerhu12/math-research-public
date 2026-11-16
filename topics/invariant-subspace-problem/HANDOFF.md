@@ -29,6 +29,8 @@
 - [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；[E8-1完整I1零证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)核全4367运输/1834原Z，raw12201·66006800，15.503秒。其余四亦实际第一像0（25.088/24.892/15.174/21.903秒），全原p²进位已核；仅该零计算不排高层。结合独立Δ298已证唯一127系数因子仅s=63、指数1。global197/root2/127全缓存及三critical均仍临时。
 - runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论写成后实际push，非快进立即rebase重推。
 
+- **新原零点P独立任务：** workflow invariant-subspace-r150-zero-projection-manifest-session.yml；源码81eb7dd4/输入06555ccb，完整224×155/N11/180秒/2GiB，只用原K零图及全6188。独立短job以便即读结果；执行清单仅脚本/参数/run/输出SHA，计算输出留临时/日志，未预填61或joint25。
+
 ## 原边界：同一个w与完整返回继续
 
 普通 $M=\ker T,N=\overline{BM},W=M\ominus N$，N=M未证。始终保同w/uQ、future、负前缀、两端全部partial、真正交旗及MP自然域；Green $P_E(DD^*)^{-1}P_E$ 不换压缩逆。
