@@ -3,15 +3,15 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：dfa01b9b280bd8a1a5b5f3e9f2f80f424a165fe9；2026-11-16 07:26:12 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：a8be95d8afbc9dad24e5ea509335dc03b85918db；2026-11-16 07:37:03 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存31,877,320B/2341文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
+- 库存31,986,181B/2353文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-original-hom-matrix.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–865已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-modular-coordinate-reconstruction.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–866已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 原Z与已付Hom输入：当前第一实际门
@@ -28,20 +28,21 @@ S(ΠΦX)=Alb H_*(G−φF)^*O，同原所有Artin/闭点迹。实际非零点仍�
 C_h:y²=x³+h6，φ_h微分h，Λ(a)=ψ0(a)h/h^σa；完整补Λ((2))=−2。α=−1+2ω、ℓ=αh/h^σα、c=−1−19ω，b³=c、K(b)=Kζ9与L不交。u=(1,τ²ℓ,c/ℓ)，G_j=1+u1/b_j+u2/b_j²；GL原projector=3Id。
 实际准Hom A_i的矩阵Mij=h b_j^iG_j/3，det=−δch³∏G_j/9非零；第一q系数为hL，实际K-Hom上单射。清固定整数n后有X0(2601)→E0，n并入原D，绝不预设Manin1或模r单位。
 完整q和包含2处(-2)^v。原每个非零实际(F,a q0,b q2)在cusp阶(1,1,4)，τ极6、source三商后极2；非全局degree2，非虚拟循环非零。
+- [R866](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原C_v:Y²+vY=X³精确剥2尺度，Ξ_i*ω_v=H_i且原A_i=2^11κΞ_i，整数n保留。T=η³/η9³的Φ17给18×17原非回溯tower；genus271使完整椭圆方程/基点后541微分项严格认原Hom。1513d+1重建界与有限对角枚举保证终止，不预设n1。原β含2的有限理想公式与三H输入齐；坐标和非零shadow仍待计算。
+
+- 正在运行原模函数输入producer：scripts/produce-original-modular-function-input.py，公开生成T9的Φ17及三H的完整541项；只记hash，不预报成功或认形式germ为映射。
+
 **下一步**：在同原函数域重建这些真实Hom的全局坐标，再算同原R859交点；保所有分母/角色。或从同原cycle证明非零，不以canonical替换。
 
 - [R864](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：公开Actions精确求得原h九次式及t=h³，缩放v=t/2^32满足v³+367395v²+147v+1/17=0，明确同K(∛17)坐标。定向[−1+2ω]有理映射给原τ和ℓ的完整三次基表，严格在分点商环核等式及Normℓ=−1−19ω；全部Hom输入固定，仍待原全局坐标/非零shadow。producer/run43822409558/hash齐，不保存重算输出。
 
 ## 四原B：当前第二实际门
 
-原S34/T72/U136/V66、charge17/36/68/33、R853全极/CM13/p²p³保持。E−11 rank≥2由R816/820付；原通常全Selmer桥要求同一无限p集合至少一完整J′非零。自由theta源不替原四行。
-R855/B=j_(p+1)/p仅在整ker ε良定；R856对whole偶degree含odd给D_z^pA=H D_zA+mCzA，Rcal=(L²H+g2H/12)/p整。CM横向二阶110bc_p单位不逼B。
-[半Bol/留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)保原GM常数1、两ε及真实V_N，Bν=2mεν[CM留数/p−V_Nfν(P)]；相消未排。固定水平格保同CM四f及全部jet。
-[共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7，四Aν=C24Jν，Ej=−b^jσ24x^(8−3j)y，c*=(1,−4/7,16/7)。四B零 iff BS零且M_pc*=0。M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))来自固定核(1−t)^−1/2/Hcal²；U二挠按同完整tensor/lift运输，非同函数三点评价。
-[R860](results/R860-original-common-odd-cross-and-balanced-partners.md)：整Dscr仅在whole格；Witt交叉热commutator的Rcal项准确相消。第一balanced伙伴在二挠读kν(−1)^jΞν，行(1,−1,1)c*=27/7；完整余项σ(2z)²Lνj/4，L首组合5(n−12)/(12M)z²。所有Ξ/L高jet保，不添伙伴中央零。下一步原完整Cp链及指定四B共同相容性。
-- [R863](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Witt交叉多项式扣cD^p后准确含D·N²，完整Q的奇N项不能删除；四原源中cD^p确被whole质量零消掉。原三差逐项等于所有真实法向伙伴V_r的指定低jet和，r2完整保Ξ/σ(2z)²L，r3有含连接的显示多项式及σ(2z)Ltilde。法向Frobenius递推完整保前缀，首尾单位和伙伴非零不替四原B共同非零。
-
-同S/V O30−χ60P(X0或729X0)、U−S2/64六零/1890bz12及BU−BS/16等全部旧同源接口保在前检。
+原S34/T72/U136/V66、charge17/36/68/33、R853全极/CM13/p²p³保持。R816/820付E−11 rank≥2。只有原通常全Selmer桥的同一无限p完整J′非零才够；自由theta源不替四行。
+R855 B=j_(p+1)/p仅在整ker ε良定；R856 whole偶degree含odd给D_z^pA=H D_zA+mCzA、Rcal整，横向二阶110bc_p不逼B。[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)保两ε、真V_N及留数/p相消。
+[共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Aν=C24Jν、Ej=−b^jσ24x^(8−3j)y，c*=(1,−4/7,16/7)。四B零 iff BS零且M_pc*=0；三连续系数来自(1−t)^−1/2/Hcal²固定核。U二挠仍同完整tensor/lift；非同函数三点评价。
+R860原交叉热Rcal相消，第一balanced伙伴完整Ξν+σ(2z)²L/4、二挠行(1,−1,1)c*=27/7保；不添伙伴中央零。
+[R863](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：Cp−cD^p=D·N²Q/(2mnM)，完整奇N项不删；原质量零杀cD^p。三差精确读所有真实法向伙伴V_r，r2保Ξ/L，r3保完整连接及σ2 Ltilde；p递推不免费付前缀。theta继续同核指定四B。全部旧同S/V/U接口留前检。
 
 ## R828实际一标量与同P/R/S：当前第三实际门
 
@@ -52,7 +53,7 @@ M=c*U0w13J保P134/总charge40、39carry、10980、十九角/全WD；TM=s−r−1
 [R861](results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：真实C_H及a*=−34C_H整对齐，原b=1，g/AΦ/a/Rcal同步后M不变。Λ0M/p确读D_(m,p,79)、D_(m,p,p+80)、D_(m,p,2p+81)和仅40/41/42阶乘低项，m=34Q；末系数−1/(a*³81!)单位不代指定组合非零。deep续第二/第三页。
 - [R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
 
-- 已触发07:30实际CI pull；等待真实回执，最迟07:35要求不变。
+- 07:26:25实际CI pull成功；run43823860359/job133152919965，两README差异空且blob一致；下一08:10前。
 
 
 ## 其余原门不撤销

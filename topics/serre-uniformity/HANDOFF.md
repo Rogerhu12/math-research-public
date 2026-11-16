@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e5d6498d6b176bb4fc71faa9f5ca6956e690e541**（2026-11-16T07:27:20.527035+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。原工作区/workspace/scratch/09e43497d694/math-research-public于07:19失联；当前由公开Actions实际pull/rebase恢复发布，仍partial/sparse main。完整前态及全部来源/已闭边界逐字保于[Hecke整数正式登记前H](handoff-archive-2026-11-16-before-certified-Hecke-integers.md)（9632B/3637f312），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：007f073ea0dc22fd8675998495d5eee6a4aed98f**（2026-11-16T07:34:07.309747+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。原工作区/workspace/scratch/09e43497d694/math-research-public于07:19失联；当前由公开Actions实际pull/rebase恢复发布，仍partial/sparse main。完整前态及全部来源/已闭边界逐字保于[Hecke整数正式登记前H](handoff-archive-2026-11-16-before-certified-Hecke-integers.md)（9632B/3637f312），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -14,7 +14,7 @@
 |---|---|---|---|
 |R787原函数545后|43809321438 / 133107261923已结束|834098cabed1b51be700d9f0ce87086ff44363fb|取真实新断点续，artifact14204698566/1c044998|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|原数学步，300min/core80516ff9/wrapperab725da0|
-|R824从501位|43792912432 / 133055178711|33f5c3288305cdfc8ed1adb5e1e4fee3ed940870|27权5+244权6，300min/core1ece3cf4/wrapperc5907739|
+|R824从501位|43792912432 / 133055178711已结束|33f5c3288305cdfc8ed1adb5e1e4fee3ed940870|真BudgetStop/1，artifact14205663835/fd1084f9，取真实新断点续|
 |R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|原数学步，N_B56/目标7/300min仅控制|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|继承370及371残差，300min/coreffe5dcff/wrapper1552e403|
 
@@ -35,7 +35,7 @@ R787545/原696/501的完整字节、SHA、真实续接与限制见本H归档和c
 
 **R870实际挠整数与80输入已闭**：[正式结果](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)c2436b74；run43822039811/job133147178823/sourceeb46ca01，0.579488830s/20stage，N0=m7(8)=χ7(8)>0、16ni和1959位共同d*已成。finalbe29c872/configf4d082f1/整数89cc393e/d*3ca6b9d4/80计划fe07d2ff。artifact14205027300/723ec402（至Nov17 07:12）整ZIP/30件已核，42原件最小carrier6a9d22de。原ξ_j∈JY(Q)，含7-primary的挠消去/T7−8判据保5b44808d。16块已分离，但η支持/eη/主函数/nonp未算；合法好约化处niPiξj真非零可判Eiηj非零，模零仍未定。
 
-**真正YP缺口**：FM a5d65aa4/YP bdbb6cc5仍需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N与完整nonp。R873构造原循环7的真实8次源靶函数域及norm；R330/R596原Y各块L1=0已闭，不重开rank-zero。原I_Z而非三倍real-descent、c0/h及c0/c1方向全保，未消去Y/period。
+**真正YP缺口**：FM a5d65aa4/YP bdbb6cc5仍需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N与完整nonp。R873[循环7完整证明](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)e6401ca8已给真实8次源靶函数域及norm：原8H+4E/2058截面、110阶注入、17rhs与8补列；7根分支和∞原尺度、tame椭圆4E及−3下降保全。真实dual-isogeny交换源靶、j²=[7]在G内为1，故原R870 norm方向与c0c1一致。消费者补原四M2尾196..763、完整新inverse和模Picard源；R330/R596原Y各块L1=0已闭，不重开rank-zero。原I_Z而非三倍real-descent、c0/h及c0/c1方向全保，未消去Y/period。
 
 **R862已成**：正式5eca1ff8，d_A=1596092727686814808731、6次Norm/12全核/23node，completion-only43813805093；E_Aφ*=0不代YP eη/d/N/nonp。
 

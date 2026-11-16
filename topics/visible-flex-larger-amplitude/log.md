@@ -469,3 +469,18 @@
 ## 2026-11-16 07:26:00 UTC /root — R493当前H响应投影与原fullDN合同
 
 [R493](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)27709/115e78be明确每真实H独立完整evaluate/R273→128 owner/replay/四组件，577×224节点/576×226输出/338×112混合J和两mean贡献全保；显式调用覆盖旧correction hook遗漏，不沿旧378覆盖J。13scalar须实际128 raw/hex再整数ties-to-even一次64投影，保负零/subnormal/overflow及owner与TailClient各自原严格容差；qstr/64均值重组不冒该合同。原FD/fullDN/RMS/BC/final fresh J+audit/cut/material门保，91尾初猜不是完整prefix父，新live源/入口与实际结果继续，不能套216钟或添加全解析门。
+
+
+## 2026-11-16 07:29:00 UTC /root — R497完整闭片缓存与原工作计数
+
+[R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)五件helper10239/cf517、gen6299/0d785、plan3050/ddefa、proof12955/f101、接口8801/75ad已成；固定原head/panel/F/B/精确闭片与精度上下文，只复用完整成功五球/全部分支，显式subclass不改旧全局，原sample完整闭覆盖/每点hull/误差/异常pending继承。hit仍原attempt/range，miss原call一次，1M停止未解；LRU默认4096不冒字节或提速保证，原计算返回与新调用完成分列。五唯一literal产生70299/ae9dde main只Actions物化，真实全SHA来源，新request/driver/必要reader未接；原科学门/钟不减，未执行不补成功。
+
+
+## 2026-11-16 07:31:00 UTC /root — R495同C新叶接完整场与度量
+
+[R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件bridge12303/06656、gen9410/39b2、plan55758/1875、proof15191/f4a0、接口21890/9f67已按失联前原SHA恢复；四真实场族先原完整loader，再R489全原件/R492准确交叶，新target/L和七cut系数真供原六jet/五Loewner/第六opnorm-evidence，原CP/definition/节点/B/材料/十词保。完整coast/闭根/两帽/实际t/比较及唯一钟/frontier/90K全继承；tail E(r)/R426和材料t点field仍原有效包围不冒收紧。六完整源只Actions生成，R464 baseline先真实形成；无新run/接受/误差下降，不添BVP门。
+
+
+## 2026-11-16 07:36:00 UTC /root — R478实际212浅逆完整与启动磁盘停止
+
+[R478](results/R478-request212-complete-shallow-physical-sampling-and-BVP-startup-storage-stop.md)32019/8aee6da0，run43810550597/source9a9dbfa8、两终态日志各唯一；depth2保原32bits/1M/全候选，13850unique/16128field/65102work、15123coarse/两unpaid实空，112far和四原数组/候选config/配方/deadline齐，work_resolution及共同准确C实现仍false。原launcher实际free11761553408<34359738368先于科学返回124，两BVP/native全未起，非timeout/数学拒；95GB far账与原真实consumer后继R498，不降门。rules94138/1731dc1b超90K正文未返、同shell composition读取没起；六已返scope不冒八齐，八role quiet后cleanup真skip、无上传。当前域未决与coast中心诊断保、不添前门，R499接必要元数据，214/216不预判。

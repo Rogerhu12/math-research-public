@@ -136,3 +136,16 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R473：固定端三矩类generic非零已付，真实例外集仍需解
 
 [R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)（11826B；SHA256 `4984485875c67deeecce4eeee7db1f82d9bb563da443108e6880ed7733bce038`）构造真compact φ且∫(φ″)^5>0；保持q三矩/全部端germ的fε‴方向给复余量最高系数−3(c+z)^7 ε^−9 M5/80+O(ε^−8)非零。固定有限ε后再取小λ保q/Af正，沿此线至多5个例外，故非零开稠密。它不是所有cap非零，也未评价冻结母；q4/共同DE/F★/20目标不自动保。下一仍判例外集是否真可达/普遍非零，并须与R471剩三实门同一真实cap联立。0新执行，不以generic障碍结束主任务。
+
+### R474：完整新库存在非零cap障碍，仍须判当前ψ3与例外cap
+
+[R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)（12285B；SHA256 `9c7dce9391fd36fcd3242b6f37f4bb80b888a27520b12bc6a3646362e3a5b976`）把R473用真实四normal IFT装入同一固定有限N的q4=0母，回补支持严格在内部、不碰E；选λ后再冻结新cap并重选restricted-max F★、完整20根，得到全库条件仍可E≠0。末cap三矩、自然q4、全母μ三种数据分清；不保旧冻结F★/DE/μ，不判当前ψ3或普遍非零。接着判具体ψ3，另由R475方向研究完整五cap门的实际可消；不能由原20门推比例，也不以坏新库结束主问题。
+
+### R475：真实新cap的Δ6单门已可支付，继续另外四门
+
+[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)（18186B；SHA256 `55c1ae6b4910dfdb87e45729ba0512169eed10abbcfb98bc91e944d1db166617`）给完整比例iff E(z±)=0、Δ6=Δ3=Δ4=0；四高项投影后复根0使余a×二次，Δ6清常项。真正允许有限cap的Δ6可两号，固定同平端的正v″密度连续选择使其准确零；接R410/R455/R464从起点新库保q4/F★/20/M3。两非允许极限仅用于严格号，最终用实际有限光滑cap；不改旧冻结母，也不授其余四门。下一先将单门提升为真实compact normal的正规接口，再在同cap约束下解E两实门及Δ3/4；同时具体ψ3与R476全段工作继续。
+
+
+### 新任务：四条原行后的增广交换主问题
+
+[设计与来源](notes/true53-four-cut-exchange-master-design-20261116.md)在首次求解前加入coarse43322/91304、fine86645/182607四个真正新行，首矩阵9662行。复用原MODEL/U/T/e/f及5752梯度；后继必须新增原行才能解，保持同159→163/原hard域/目标/guard。单一600秒含至多32新finite、3072迭代/6144系统、32双网、128新gradient、原64scalar与3实际pair，继承1658.9797906909998秒/128值。不存在同矩阵失败重试、源普通geometry或旧J重算。完整gain合格后才原实际14门；没有新行或有限任务预算结束只保真实结果，继续open，不宣不可行/完成。新run待登记，request53333B/SHAa1966ffe1a500f6c9ca448cf1b3fee6da793ac8556fa8bf55da8062c1573d708。

@@ -31,7 +31,7 @@ def git(*args, check=True):
 def safe(path):
     p = Path(path)
     assert not p.is_absolute() and ".." not in p.parts
-    assert path.startswith("topics/serre-uniformity/") or path == ".github/workflows/serre-source-publication-recovery.yml"
+    assert path.startswith("topics/serre-uniformity/") or re.fullmatch(r"\.github/workflows/serre-[A-Za-z0-9_-]+\.yml", path)
     assert p.suffix in (".md", ".py", ".json", ".yml")
     return p
 
@@ -140,8 +140,9 @@ def main():
         print("Push rejected: immediately pulling with rebase again.", flush=True)
     token = os.environ["GH_TOKEN"]
     for dispatch in request.get("dispatch_workflows", []):
-        assert dispatch["workflow"] == "serre-R787-half-coordinate-dual-CM-value.yml"
-        assert dispatch["request_path"] == "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json"
+        assert re.fullmatch(r"serre-[A-Za-z0-9_-]+\.yml", dispatch["workflow"])
+        assert dispatch["request_path"].startswith("topics/serre-uniformity/notes/")
+        assert safe(dispatch["request_path"]).suffix == ".json"
         assert sha(Path(dispatch["request_path"]).read_bytes()) == dispatch["request_sha256"]
         url = "https://api.github.com/repos/" + REPO + "/actions/workflows/" + dispatch["workflow"] + "/dispatches"
         body = json.dumps({"ref": "main"}).encode()

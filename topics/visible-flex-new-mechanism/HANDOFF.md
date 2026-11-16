@@ -18,33 +18,25 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 ## 3. 理论当前接口与剩余义务
 
-完整原式/文献/原run索引保results；以下只留接手关键，所有signed结论均不免费授actual逆元。
+完整原式/文献/来源见[results](results.md)。原R406正字符λ+=L+∫(h′/h)²>0排actual全Λ0；只采用有限真母查询Jaff。所有实际词保wholeE、两次商校正、桥/三阶prototype×n/Klein全部基准，signed结果不授actual逆元。
 
-早期原式/文献/完整历史见[results](results.md)。R406正字符λ+=L+∫(h′/h)²>0，actual全Λ0不成立，故保有限真母查询Jaff。R455/R407/R459从同一次初选固定最终母、实际宽度/外cap/M3≠0、原20目标与全三矩输运；后添母/历史不冒旧库。R434 Q59/current32、R454/457全current及−3x5/128、R456 suffix高两行均已付，不能冒actual逆元。R429/433/463始终保wholeE、两次商校正、桥2VA及全部prototype×n/Klein基准。
+共同库从起点固定真宽度/外cap/母/右锚。R455/R464保q4=0、共同F★/DE、M3≠0和(V19,dP)=(0,η≠0)。R460付simple-p无留数与固定解析cap的germ；真range仍保Af partial、平台/总量/两germ/gap/右锚。原13规范由R464在同完整成本的两period/最高P2已付时成立，不可独立拼接。
 
-[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)：Qaff,0/NQaff,1≅S(W0)/S(K0)，原成本维7/5。same seq707清current的XH=H*+J4、XY=J4−J6为两完整self目标，五响应核含三已付列和两补响应。增强−8已付。
+R465/R466：完整Qaff,0/NQaff,1≅S(W0)/S(K0)，成本维7/5；XH=H*+J4、XY=J4−J6。真换锚保尾/Γ，增强−6/−4字符已排；**同Jaff满闭锥iff h∈span(y)**。四self run43819806568/job133140037524/sourcefe9569f7…的85原记录已付，累计15.690763111秒含失败，0旧rank/自检；[原观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)。
 
-[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)：原R56换锚保真实仿射尾/Γ；wholeQ只清P2″，再由total/三尾current得同权mirror graph。−6三真列覆盖Pol2；−4七已付列+K4覆盖Pol4、−16cN³H*/45先清d=cx，故两增强负权字符排除。**同Jaff满闭锥iff h∈span(y)**；原双参数actual还需**h=y=0**。四self必须保联合关系，不是两个MEMBER布尔。
+[R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：h∈span(y)也iff同完整Jaff有限actual C1截面；真高度脉冲+独立R70前缀+整WW^R付余头，固定有限ε，全基准正整数配平/两次商校正/最终根保。R467另有KP杀Jaff、dτKP=−η/τ≠0；固定τ/保护芽incoming X*时Klein目标−(Jbase,d~base+d_fX*)/4，再原包装/13规范。只付指定芽，不授其它s段。
 
-R460给simple-p无留数；真实Lf range须保Af/platform/totals/两germ/gap/右锚。R464在同完整成本已有两period/最高P2零时，以原20目标/M3≠0/相位seed/平台因子/末三port盲矩给同一个13规范。
+R470已证两新响应完整self仍三维，XY余x5<0故y≠0；XH十二词保原Ln2真左截断积分。R471给同一真实cap八A_j/六β的五门Δν=R5βν−Rνβ5=0（ν1,2,3,4,6）iff联合比例，唯一c=1152β5/R5；任一非零minor给λ+下降。真cap 5h>3s²、A_j交替号及A0/A7界都保。四局部列共二次因子a；H在复根的真实E=3/8∫B²C²dC不可由q>0直接判正。
 
-[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)：KP=B_PH杀wholeJaff，真range延拓dτ(KP)=−η/τ≠0；给条件actual(Jaff,d~)截面。固定τ、保护芽incoming X*、全部基准后Klein目标−(Jbase,d~base+d_fX*)/4，再原11+7清最高e及接R464。J截面条件现由R468替换；只付所选端芽，其余s段须同一wθ。
+[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)：四高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根0后余a×实二次。完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0。允许cap中Δ6真可两号；用v=p^(2/3)正曲率密度、共同真平端与简单解析根连续选有限cap使Δ6=0，再从头接R410/R455/R464同q4/F★/20/M3新库。只付一门，不搬给旧冻结母；剩E两实门及Δ3/4。
 
-[R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：同共同窗口，h∈span(y) iff完整Jaff actual有限C1。余头y≠0时，真collar高度脉冲/独立R70前缀/整WW^R给非零导数，ε固定有限；全基准正整数配平、两次商校正及响应根保留。它只替R467的J截面接口，其余前提不变。
+R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。文学线正解原ψ3的具体积分；机制线解真实例外cap及剩余四门。
 
-[四self首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)：run43819806568/job133140037524/source fe9569f7…成功，85原记录；四current0，两补响应/XY局部，XH保12真实左n2积分字。同180秒累计15.690763111含失败；0旧Q/member/rank/dev重跑。R470已消费三维像，联合关系继续。
+[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台列须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix，全周期M0不付相对门。
 
-[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)：两补响应完整self仍三维，XY余x5<0故y≠0；XH保真实Ln2截断积分。
+[R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)：Reach3(A)=Tend−A²/2+W，真桥可同时付相容A/T前缀。任意同常端G有B使P=GB整A=T0，P^qG同向保护芽共整个incoming，条件接R468/R467并保全部新增V。内部K=K0+B(a)−E(a,a)+2E(φ,b)，重复号保完整二次系数；整复位只使副本相同。λ+(VP)=∫k²>0与∫kh(ω−ωc)=∫k²迫新ω段，全s同一13核仍欠，R476继续第三prototype重复系数。
 
-[R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)：同真cap的八A_j经六β给五Δν=R5βν−Rνβ5=0 iff h∈span(y)，唯一c=1152β5/R5；非零minor给显式λ+分离行。真cap满足5h>3s²、交替A_j号及A0/A7界；四局部列同二次因子，第一头在复根的完整有序正测度积分仍未判零。R473继续，不授五式可解或障碍。
-
-[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个端芽锁定第三三矩，全段变化=𝒫*Bθη；gap全s盲，仅母/平台列在同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix；R472接真实A/T同步。
-
-[R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)：完整Reach3(A)=Tend−A²/2+W，真实R70/W桥可同时付相容A/T前缀。任意同常端G有B使A_B=−A_G、T_B=−T_G−A_G²，P=GB整A=T0；P^qG同向保护芽共真incoming，条件接R468/R467并保全部新增V。内部ruling=K0+B(a)−E(a,a)+2E(φ,b)，重复号保完整二次系数；整复位只使副本相同不使其零。λ+(VP)=∫k²>0，∫kh(ω−ωc)=∫k²迫新ω段；全s同一13核问题仍欠。
-
-[R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)：固定端三矩/两端germ的正cap类，内部真扰动fε使复余量为非零五次λ多项式，最高项−3(c+z)^7 ε^−9∫(φ″)^5/80；先定有限ε再缩λ保q/Af正，非零开稠密。未判冻结cap或例外集空，未免费保q4/共同DE/F★/20根。继续绝对非零/可消与五门。
-
-actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
+actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
 ## 4. 数值当前点与已付模型
 
@@ -58,4 +50,6 @@ actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [完整正方向观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)：run43821568604/research133145590135/report133148800350/source323f36fe…成功。唯一实际舍入p SHA62b27d05…的完整最大.2663281546680455、含μ修复gain−.00031326043820264013，未合格；0scalar/actual，仍点53。新增原行coarse43322/91304、fine86645/182607完整gradient已付。1input/1pair JVP/4gradient，50.40678669899998秒；祖先累计 **1658.9797906909998秒/128普通值**。原CACHE30232607B/0c1826ad…保必要U/T/de/df，binding75e07691…，完整clock和记录SHA见note。立即接增加这四行的真正新finite/fullgrid问题，复用输入，旧任务/方向不重跑；合格才原guard/scalar/14门。大数组只原stdout。
 
-理论R471已付五真实cap门；R473已付generic非零，继续真实例外集；R471后续解其余实门；R472已付真实M/T同步，仍解同一w全段；数值新4-cut exchange task继续。主完成门未付，不以任一任务预算/阶段停下。
+[新四cut交换任务](notes/true53-four-cut-exchange-master-design-20261116.md)已发布并由request触发公开Actions，run待登记。首次原9658+4=9662行，之后只在新增原行后解新矩阵；11模块/240源码绑定，request53333B/a1966ffe…。同一600秒覆盖所有imports/input/最多32新finite与双网/128新gradient/64scalar/3实际pair、失败和输出；祖先1658.9797906909998秒/128值不重置。只读复用旧MODEL、U/T与5752梯度；0源ordinary/旧J/旧finite/旧方向重算。首次完整合格才原guard/14门，最多接受54。数学仅原stdout；任何有限任务终止后继续下一子题。
+
+理论R475已付新cap单门；R477继续其余四门与正规化，文学线解冻结ψ3，R476解同一w全段。主完成门未付，不以任一任务预算/阶段停下。

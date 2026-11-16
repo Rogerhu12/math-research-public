@@ -1,51 +1,50 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0733-R870-certified-rebase-identity",
   "source_branch": "serre-public-recovery-20261116",
-  "base_commit": "49f8e8cabc576b601ce405c9bc50c1230ded1a7e",
-  "rules_last_read_commit": "e5d6498d6b176bb4fc71faa9f5ca6956e690e541",
+  "request_id": "20261116-0746-R873-original-cyclic-seven-proof",
+  "commit_message": "serre: prove original cyclic-seven norm correspondence and preserve its frames",
+  "rules_last_read_commit": "007f073ea0dc22fd8675998495d5eee6a4aed98f",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "006b91f90cc1f13d761c068c888d80dc988ef34ff70bf7983a88efbb92568c33",
-  "commit_message": "serre: certify original Y torsion integers and finite Picard support inputs",
+  "expected_previous_request_sha256": "64a3b2003a8a8bc7132a0c90a2e9002429a85e4e827f84aaa99e4f23d0f3e4d6",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-Hecke-integers.md",
-      "sha256": "3637f312fac31b2bdde618b8ded4938838080ddb89dbfdd8dfd4689b2d6f04fc",
-      "expected_previous_sha256": null
+      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
+      "sha256": "860a0da7463e4e496a26b46992e171ba280101959b91c7869e5e7b52f42e073c",
+      "expected_previous_sha256": "61dbf54162681abe34a36daacd9a0c25bd2c6849e5a01b3ce0d283f19b776dba"
     },
     {
-      "path": "topics/serre-uniformity/results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md",
-      "sha256": "c2436b7443c13ef1f66870f7a14b8eb7b8cd6836eda15b0e6c6b7e5fc8e38c35",
+      "path": ".github/workflows/serre-source-publication-recovery.yml",
+      "sha256": "55fce7b0a4f4a95788b06e577f081e02f3f4869d841907f655a262130b9c76b9",
+      "expected_previous_sha256": "46d83df4638e8be2a906ae8e5ed930728e60c8dd00ee232d12e7eed721cada72"
+    },
+    {
+      "path": "topics/serre-uniformity/results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "61986b19e49ea82ea8761317669143f0285bd8a8c029ec8223fd73b3a71a67e1",
-      "expected_previous_sha256": "3637f312fac31b2bdde618b8ded4938838080ddb89dbfdd8dfd4689b2d6f04fc"
+      "sha256": "1a8c99700a883adbead5613b899e02c15a41b23e3a4e9b01275ae0d7ad9f708d",
+      "expected_previous_sha256": "e0b818dc056f8208d5231a14587a348f3bb5f9b6997bf3f6e83016bba57ddc0e"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "0a203e8ec118bba98c84fefbba90f6e724e17b1b35d6b430b473911bc150576c",
-      "expected_previous_sha256": "30d42a801bd511765b8bc4d8701c78b8087e1f905560c86cd8e2f6421a4ae884"
+      "sha256": "c6bb0e255af6ae8d641d76f595468ab549b3c26544de6cf0b058a0b2c9cb22fb",
+      "expected_previous_sha256": "0a203e8ec118bba98c84fefbba90f6e724e17b1b35d6b430b473911bc150576c"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "8ed1ba1171202a147d970a08fedfcdbf09ab962e4f91e6cabc455f8a2e55b637",
-      "expected_previous_sha256": "995d7384e859dcc026a54bb65b566fa413774a49e4e6b1f51b8bea802a1b2763"
+      "sha256": "a3ac0abf04e32ee31eb0b11b1735c6f506332032a2d009ce35a59f740650fcf5",
+      "expected_previous_sha256": "8ed1ba1171202a147d970a08fedfcdbf09ab962e4f91e6cabc455f8a2e55b637"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "f12f8de22511e27f741bb9d9d80e5c50e7915244c4630d6496ecbe2211b93317",
-      "expected_previous_sha256": "31467d2e2f8599b455548ea0039a10c43299e71e30c69ed14fc564e640fc2556"
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
-      "sha256": "61dbf54162681abe34a36daacd9a0c25bd2c6849e5a01b3ce0d283f19b776dba",
-      "expected_previous_sha256": "f17ab11b3659dbaec04bbbc9b45e7c11c86e6f05aae54dab6be24518990e1aeb"
+      "sha256": "9ff96c2e8b93fedfbe5d64e6a579e9a15ab18701578f9f440cc4208830059054",
+      "expected_previous_sha256": "74480e597f8e352036ec36638ccf46e145d870be0274b6f3fded08f8b525fc17"
     }
   ],
   "dispatch_workflows": []

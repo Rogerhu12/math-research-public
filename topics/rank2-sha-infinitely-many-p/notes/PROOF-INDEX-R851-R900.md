@@ -110,3 +110,5 @@
 - [R864](../results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：公开Actions精确求得原h九次式及t=h³，缩放v=t/2^32满足v³+367395v²+147v+1/17=0，明确同K(∛17)坐标。定向[−1+2ω]有理映射给原τ和ℓ的完整三次基表，严格在分点商环核等式及Normℓ=−1−19ω；全部Hom输入固定，仍待原全局坐标/非零shadow。producer/run43822409558/hash齐，不保存重算输出。
 
 - [R865](../results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
+
+- [R866](../results/R866-original-modular-function-certificate-and-level-nine-model.md)：原C_v:Y²+vY=X³精确剥2尺度，Ξ_i*ω_v=H_i且原A_i=2^11κΞ_i，整数n保留。T=η³/η9³的Φ17给18×17原非回溯tower；genus271使完整椭圆方程/基点后541微分项严格认原Hom。1513d+1重建界与有限对角枚举保证终止，不预设n1。原β含2的有限理想公式与三H输入齐；坐标和非零shadow仍待计算。

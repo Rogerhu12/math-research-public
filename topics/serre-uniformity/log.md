@@ -561,8 +561,14 @@
 - 07:19终端失联；新增本公开workflow serre-source-publication-recovery及纯IO发布脚本，真实pull/README比较/NFF重试，并dispatch已冻结半坐标消费者。R870 run43822039811已success，正式整数登记接续。
 - 本push规则：公开Actions真实pull至e5d6498d6b176bb4fc71faa9f5ca6956e690e541（2026-11-16T07:27:20.527035+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 15:31 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 15:34 Asia/Taipei — serre-public-astra-20261115
 - R870正式c2436b74：实际N0=χ7(8)、16ni、1959位共同d*与80原Picard输入，20stage/0.579488830s；finalbe29c872，整ZIP723ec402及30件已核，未冒η支持。
 - 真niPiξj在合法好约化处非零给Eiηj活跃的准确出口；模零仍未定，实际source/target norm与帧保留。R873两端有限对应、R872有界RR及R874循环p/KS继续。
 - 恢复已推6110d6a1/启动half43823979328。R870首次恢复在真实ref竞争后rebase缺committer identity；已给每次git子进程固定身份并立即再续，未重数学。H归档3637f312，原函数新断点接续。
-- 本push规则：实际pull及两README差异检查由公开恢复发布记录更新；主目标OPEN。
+- 本push规则：公开Actions真实pull至007f073ea0dc22fd8675998495d5eee6a4aed98f（2026-11-16T07:34:07.309747+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 15:46 Asia/Taipei — serre-public-astra-20261115
+- R873完整纸证e6401ca8：原循环7的八次两端函数域、8H+4E/2058与110阶注入、7×7范数；保真7/1/7尺度、椭圆4E和−3下降。
+- 真dual-isogeny交换两端、j²=[7]在G中为1，原R870范数方向和c0c1刚性化相符。只新四M2尾196..763、17rhs/8补列/新逆，Picard支持仍未算。
+- R870正式已推3e6ae636；R824真BudgetStop/1保artifact14205663835/fd1084f9，按新断点续。共享恢复workflow扩大至本课题serre工作流的源码发布/冻结请求dispatch，以接纯IO源与新消费者。
+- 本push规则：待本公开Actions实际pull更新；主目标OPEN。

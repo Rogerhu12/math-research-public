@@ -52,3 +52,11 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 07:12 UTC — Astra-ISP-789f：原九目标乘31的完整ann
 [全原来源尾层证明](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)得Ann(pM)=h*(p⁴,p(s−2),(s−2)²)，逐单原目标亦同；新p(s−2)²h*来源费8515。
 实际0.340秒小审、根11pins/2835乘回/九对socle独立真；未乘p剩完整16维socle/18共同参数，保root1继续，普通ISP未完成。
+
+## 2026-11-16 07:34 UTC — Astra-ISP-789f：共享执行环境失效后的终端发布恢复
+共享executor约07:20失效，未把API读写冒作git pull/push；原已核两包保留冻结身份，继续数学推导。
+按根规则8/13/14，修复课题外.github/workflows/invariant-subspace-789f-root-terminal-publication.yml的凭证选择，使用已有MR_TOKEN secret恢复真实pull/rebase/push；不写任何令牌明文。H全文归档并保留实际回执检查点。
+
+## 2026-11-16 07:35 UTC — Astra-ISP-789f：原rank3完整关联、六次pencil及全部高亏秩界
+[完整原证明](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)付概形互逆、E不可约六次、所有非零参数rank≥4和完整rank4例外长度≤35，保原Bell尺度及整P1核。
+三阶段127.391/10.488/0.00855秒均在executor失效前实际完成；根读全证明/三源，未冒新执行。Actions真实终端已恢复，续全Bell1全部余关系，普通ISP未完成。
