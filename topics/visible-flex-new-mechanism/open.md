@@ -177,3 +177,9 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [完整设计](notes/true57-full168-nonlinear-metric-curvature-design-20261116.md)从真实57重建必要2ordinary/2selected J，20旧tag只继承ID、导数重新付；h≤1/128/all168/原172盒和14门保。新600秒、8finite/8scan、52新metric行、固定7尺度完整非线性metric/曲率预测、最多3actualpair。接受后先学习再导出paid selected二jets；partial不可冒cache。源/请求/workflow已提交触发唯一公开Actions，尚无结果，旧账2644.800406968秒/143值闭合不续。
 
 
+## 2026-11-16 11:42 UTC：cap5唯一LP限额返回、无候选闭账
+
+[原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)run43859053666实际20525变量/31809行/672136nnz，HiGHS180秒限/status1/nit270738/xNone，0exact judge。权威总183.90384485000004秒，0overrun；完整14语义记录/0parseerrors。没有证书、没有有限不可行性或全类结论；本唯一LP账户闭，不重启同instance或续余额。接真实同图Re/Im耦合解析分离/共同零；57全168新run43859882465正在执行，主门未付。
+
+
+
