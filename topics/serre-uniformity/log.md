@@ -445,3 +445,8 @@
 - R917实际43904492746成功173stage/3.290035528s，两端h0/273项/原discrim6，一次真index1扩大给discrim4和271项；完整8³/双向Laurent逆及2+3+3幂零保全。
 - 原det=−ρ^−1，t首项P0 645187085/P1 354813668；FINALcf539a58/manifestd8bac1cf/art14244312360。只两端order及其帧完成，目标272/五理想/NmΦ/height仍false，R923续接。
 - 本push规则：公开Actions真实pull至8dbd975a2040a9426e6858745c99c86c484d3221（2026-11-16T16:17:38.850749+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:26 Asia/Taipei — serre-public-astra-20261115
+- R921完整纸证：原整Hodge/Igusa联合商与真实节点d6/12迫首微分层k_++p−1；原q另保ea_h，α_h非零而β_h未知，c1用真实分支参数y。
+- 两种primitive单位次数均<p，原vp(a−1)≥4盘得到明确Strassmann根数界；未推首map层/候选Abel零像或height。R815真实Γ586/17520bit保存，v24纯IO真pull0f5d0bce/16:16:19UTC两README无diff已读。
+- 本push规则：公开Actions真实pull至7a16d9a034b2b5c9caf0912bb0f9baa0d7412091（2026-11-16T16:26:50.098805+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
