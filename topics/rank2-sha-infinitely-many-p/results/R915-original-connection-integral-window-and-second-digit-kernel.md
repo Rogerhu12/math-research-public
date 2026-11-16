@@ -282,3 +282,183 @@ R912 所恢复的也是同一个 $u(v),T_{\rm g}$ 与四原 $\mathcal B_m$。因
 - [R912](R912-original-p-division-and-complete-two-digit-boundary-input.md)：同一个 $[p]$ 除点输入、全部两位行与原四来源规范。
 
 本篇全部为原形式级数和有限系数恒等的手证；没有数学执行、目标素数扫描或新增可重算数据文件。
+
+
+## 附录 A. 原 \([p]\) 输入给出的有限连接递推
+
+本附录继续使用正文(1)–(3)的同一个原 $a(W)$，以及 R912 的 $\psi_p,\Phi_p,V,V_c,S,S_c$。它没有另选连接的高系数，也没有把 R912 的旧截断自动延长。为读取正文(4)的整个窗口，以下明确改取
+$$
+L_{\rm conn}=2q-2=d(2e).
+\tag{A1}
+$$
+这里 $L_{\rm conn}$ 是原 $v$ 次数，不是 $W$ 次数。
+
+### A.1 完整原倍点恒等式及其微分
+
+置
+$$
+X=WH(W)^d,\qquad
+\mathscr E(W)=E_c(X)H(W)
+=\frac{\sigma(z(u(v)))\widetilde T(v)}v,
+$$
+$$
+F(W)=W(p-W^e)^d=W(W^e-p)^d.
+\tag{A2}
+$$
+最后两个表达式相同，因为 $d=p+1$ 为偶数；它们都是原 $[p]v=pv-v^q$ 在 $W=v^d$ 上的实际作用。仍有
+$$
+a(W)=(\log\mathscr E(W))'.
+$$
+
+R912 的原除点等式是
+$$
+\vartheta(P(v))=\vartheta(v)^qS(v),\qquad
+\vartheta(v)=\frac{\sigma(z(u(v)))}{u(v)},\qquad
+P(v)=pv-v^q.
+$$
+完整 $\mu_d$ 平均与 $P$ 代入交换，且
+$$
+\mathcal N_d\vartheta=\frac{\mathscr E}{V_c}.
+$$
+因此准确得到
+$$
+\boxed{
+\mathscr E(F(W))
+=\mathscr E(W)^q\,\mathscr C_{\rm div}(W),\qquad
+\mathscr C_{\rm div}
+=S_c(W)\frac{V_c(F(W))}{V_c(W)^q}.
+}
+\tag{A3}
+$$
+所有 $V_c$ 因子均在式中；常数一根及全部除点首项沿用 R912。即使 $\mathscr E$ 本身不整，(A3)仍是原特征零正式恒等式，而 $\mathscr C_{\rm div}$ 是确定的整单位。
+
+记
+$$
+\kappa_j=[W^j](\log\mathscr C_{\rm div})'.
+$$
+对(A3)作原 $W$ 微分，得
+$$
+\boxed{q\,a(W)=F'(W)a(F(W))-(\log\mathscr C_{\rm div}(W))'.}
+\tag{A4}
+$$
+此处没有把导数移入一个模 $p$ 根，也没有以任意 Hasse lift 替换正文的实际 $c=a_0$。
+
+### A.2 严格两窗内的准确三角式
+
+对任意 $r\ge0$，
+$$
+F'(W)F(W)^r
+=\frac1{r+1}\frac d{dW}
+\left\{W^{r+1}(p-W^e)^{d(r+1)}\right\}.
+\tag{A5}
+$$
+读取 $W^j$ 时只有 $j=r+ke$ 的项可能出现。在 $0\le j<2e$ 中，$k$ 只能为零或一。$k=0$ 的系数是 $p^{d(j+1)}$；$k=1$ 时 $r=j-e$，系数准确为
+$$
+-d(j+1)p^{d(j-e+1)-1}.
+$$
+这也直接由多项式微分证明，不要求 $r+1$ 在 $\mathcal O$ 中可逆。
+
+故整个窗口具有准确的特征零递推
+$$
+\boxed{
+\bigl(q-p^{d(j+1)}\bigr)a_j
+=-\kappa_j
+-\mathbf1_{j\ge e}\,
+d(j+1)p^{d(j-e+1)-1}a_{j-e},
+\quad 0\le j<2e.
+}
+\tag{A6}
+$$
+当 $j=0$ 时，$a_0=c$ 是原赋值 $-1$ 的系数。每个对角因子都满足
+$$
+q-p^{d(j+1)}=p^2\left(1-p^{d(j+1)-2}\right)
+\in p^2\mathcal O^\times.
+\tag{A7}
+$$
+因此(A6)由同一个原整单位 $\mathscr C_{\rm div}$ 逐项决定全部 $a_j$，包括 $c$。它不是四个来源各自的一组自由高参数。
+
+还可把原中央坐标因子单独保留而不丢弃。令
+$$
+g=(\log V_c)',\qquad \widetilde a=a-g,\qquad
+s_c=(\log S_c)'.
+$$
+(A4)等价于
+$$
+q\,\widetilde a=F'\widetilde a(F)-s_c.
+\tag{A8}
+$$
+正文已证 $\widetilde a_0\in p^{-1}\mathcal O^\times$，以及
+$\widetilde a_j\in\mathcal O$ 对 $1\le j<2e$ 成立。
+
+对(A8)的复合项除以 $q$ 后逐项估值。$k=0,j=0$ 给至少
+$d-3=p-2$；所有 $j\ge1$ 的 $k=0$ 项更高。$k=1$ 中最低者是 $j=e,r=0$，其系数包含
+$j+1=e+1=p$，所以估值至少为
+$$
+1+(d-1)-2-1=d-3=p-2.
+$$
+$r\ge1$ 时同样更高。由此得到共同的准确有限同余
+$$
+\boxed{
+a(W)\equiv(\log V_c(W))'
+-\frac1{p^2}(\log S_c(W))'
+\pmod{p^{p-2},\,W^{2e}}.
+}
+\tag{A9}
+$$
+(A9)的常数系数在 $p^{-1}\mathcal O$ 中比较，其余系数在 $\mathcal O$ 中比较。作为原整输入的实际推论，
+$$
+[W^j](\log S_c)'\in p^2\mathcal O
+\quad(1\le j<2e),
+\qquad
+[W^0](\log S_c)'\in p\mathcal O^\times.
+\tag{A10}
+$$
+这些整除是(A8)及原连接整性共同给出的结论；没有预设一个任意整单位都满足它们。
+
+### A.3 新截断下的同原五位输入
+
+要读取(A6)或(A9)到 $j=2e-1=2p-3$，须知道原 $S_c,V_c$ 至 $W^{2e}$，亦即至 $v^{L_{\rm conn}}$。这确实比 R912 使用的
+$L=2q-p-9$ 长，故必须重付端点。
+
+R912 的两个精度论证在这个新端点仍成立：
+
+1. 若 $U\in1+v^6\mathcal O[[v^6]]$，则
+$$
+U(pv-v^q)-1\in p^5
+\left(\mathcal O[[v]]/(v^{L_{\rm conn}+1})\right).
+\tag{A11}
+$$
+逐原单项式展开时，取至少两个 $-v^q$ 因子的项次数至少为 $2q+4>L_{\rm conn}$；取零个或一个的系数分别含 $p^6$ 或 $p^5$。因此没有新增低精度项。
+
+2. 为求 $V(v)$ 至 $v^{L_{\rm conn}}$，只需严格坐标及其逆至次数
+$L_{\rm conn}+1=2q-1<2q$。原共轭递推每次只除
+$p\mathcal O^\times$。若此前系数的不确定项为 $p^4E(u)$，其中 $E$ 无常数、一次项，则
+$$
+E([-p]u)\equiv E(u^q)\equiv0\pmod{p,u^{2q}}.
+$$
+另一侧线性项含 $p^5$，$q$ 次幂差含 $p^6$，所以原
+$\psi_p,\Phi_p\bmod p^5$ 仍逐阶唯一确定 $V\bmod p^4$ 到这个新端点。
+
+平方根、形式反演、完整 $\mu_d$ 乘法平均及其常数一 $d$ 次根都只除单位。因此同一组原整数倍除点多项式数据给
+$$
+\psi_p,\Phi_p\bmod p^5
+\ \Longrightarrow\
+S_c,V_c\bmod(p^4,W^{2e+1}).
+$$
+对整单位取其对数导数，可用 $U'/U$ 直接计算，无额外分母损失；已知单位至 $W^{2e}$，正好确定其导数至 $W^{2e-1}$。在(A9)中除以 $p^2$ 后，得到
+$$
+\boxed{
+\psi_p,\Phi_p\bmod p^5
+\ \Longrightarrow\
+a_j\bmod p^2,\quad 0\le j\le2p-3,
+\qquad L_{\rm conn}=2q-2.
+}
+\tag{A12}
+$$
+也可直接用(A6)归纳：$\kappa_j$ 已知模 $p^4$，每个准确对角因子只损两位，低指标的移位项具有上述更高估值。常数 $c$ 的模 $p^2$ 在其真实 $p^{-1}\mathcal O$ 中理解，不另改 lift。
+
+### A.4 与四个实际中央的接口
+
+(A12)和 R912(22)使用同一个 $V,V_c,S_c$ 及同一个原 sigma 初值。故正文(6)、(26)中所有落在上述窗的连接修正，已经有与原四个 $\mathcal B_m$ 兼容的有限除点输入。没有把 $a$ 的数据独立于四来源另作选择。
+
+本附录没有从(A6)推出四个 $j_m$ 的新零，也没有使 R708 的完整低前缀自动消失。其确切新增范围是：原连接的实际两窗系数由同一个 $[p]$ 数据精确递推，且五位除点输入足够支付它们的第二位。更高中央商、原边界的完整卷积及全部 $V_c$ 项继续保留。

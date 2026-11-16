@@ -63,3 +63,5 @@
 - [R920 附A](../results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)同固定P的两完整p³解有β1(ΔR)=0；若ΔR真在j(H3)，四块等价才给ΔR∈j(K′)。固定一解且S在全原源格自由时，该R陪集内可延p³的类准确为R+j(K′)；S受限时只保必要式，未判p⁴。
 
 - [R921](../results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
+
+- [R915 附A](../results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原完整E(F)=E^q S_c V_c(F)/V_c^q付两窗精确三角递推；a≡(logVc)′−p⁻²(logSc)′ modp^(p−2)，j=e的额外p因子保。明确新L_conn=2p²−2并重付严格<2p²的LT端点，同ψp/Φp modp⁵给全部a_j modp²，含原c的实际lift；不延改R912旧L或增加四中央零。
