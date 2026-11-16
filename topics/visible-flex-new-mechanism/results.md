@@ -288,3 +288,6 @@
 
 
 - **R443实际：完整self像38维、K链增广49维。** [完整结果与证明](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)（24231B/SHA8e191ac0039d77bae18f79d45f3fa811550268b4ee8ad96ec61f3c29d9694a04），唯一run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac。已付53关系全部完整Af local五次、无p分母/高jet/非local；fresh53及2adapter全过。self38/系数核15，K11 union49，11旧非K全member，新增27formal；全38基/15核/11成员原来源齐备。science1.2916408s/entry3.150114956s/RSS45356KiB，0旧研究/实际根。旧16/六blind仅旧22范围，继续49真实镜/全根与actual共同period。
+
+
+- **p32新first-jet标量方法设计完成，尚未执行。** [设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)（16178B/SHAa4e8af9bd9140470f43bb4fc026799339449789dd4a3c83c21b6682622f93b88）沿原first-jet与单方向公式，保原metric/reference/null/两次加法，避免无关position冷前缀；实际trial仍原完整门。1cache/2grid/1scalar/≤64queries/≤3trialpairs，独立600秒总science包含≤30秒dev，祖先及旧32/64/96/160封存保全。完整plainJSON cache在原stdout，后置只读report抽小结果不做数学；无payload提交。新源在做，未预报下降/通过。

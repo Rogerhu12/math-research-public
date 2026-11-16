@@ -140,16 +140,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-### R406完整自然正字符障碍已付：只转有限实际条件
+### R406自然正字符障碍已付，只转有限实际条件
 
-[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
-
+[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)原n2完整非零/n6=n4零，自然权零增强商恰1且λ+经全N下降；canonical正时长M0闭frame有λ+=L+∫(h′/h)²>0，不能建actual全Λall0背景。当前R411–429母消有限真实读出，H*作signed核见证；不能把universal障碍转成该固定圆因子化。全部原计算/开发/费用保原稿，不重。
 
 ### 原64/32封存；新完整线包络问题
 
 [末cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)完整保161与模型绑定，原linear/box/included cone全过，但fine87417首次完整分离使rho=.0060297012571054465、gain负。5761→5762只是有限锥tags，未第二次求解、未实际池学习；0trial、0接受，不能归实际曲率门失败。bank512四分支观察更新、8supp/62学习events/61commits/pending0与原52全向量不变。两末钟以COMPLETE为准，不用较早ledger/CP少计报告费；新2恢复值、无独立末audit、原6/12/11/9检查不重。
 
-两个solver额度均永久用尽；科学时间/values余额不授权cone33。新任务若用已付p32考察α∈[0,1]，先证明全metric谱分支凸及全active右导条件，核必要完整e0/f0/de/df输入。原四attainer不能代表全184320点；可研究不需位置的first-jet诊断以免无用cold prefix。任何新增标量优化/完整oracle都明记次数、身份、限额与全部科学时间，真实试点仍原完整几何/14门/精确盒，不改固定g、.26中间目标或主README门。
+两个solver额度均永久用尽；不借旧余额续cone33。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)只直接组装原T/U和一个p32方向的δT/δU，保参考/null两次加法和完整Πθ；不计算无关X/center/fixed primitive，不伪造旧ordinary绑定。一次完整cache先发原stdout，1scalar/≤64全网query；如有模型下降，≤3未试点由原geometry/14门/163盒验收，必要冷前缀全收费。独立600秒总science从输入前起且含≤30秒新dev；祖先1324.805525247/旧32与64及96/160全部保。原四attainer/端点只做唯一新adapter核对（端点计query），不重旧开发。约20MB纯文本cache用同workflow后置只读report job抽小摘要，原payload不编码分块、不入Git/artifact。源尚未执行。
 
 ### R399–R405已付有限对应点，不外推全根
 

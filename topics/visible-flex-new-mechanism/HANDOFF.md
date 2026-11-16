@@ -48,8 +48,8 @@ R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f�
 
 权威COMPLETE末钟：新195.33557086899998s/2必要恢复值；锥968.6757049859999s/62值，原1324.8055252469999s/124值=62+62。1200/1800秒交集余231.32429501400009s，96/160值尚余，但**32/32cone及64HiGHS均封存**。backend自报10.225351891s/完整call11.260506271s全部收费；冷reference prefix101.695936018s、两geometry129.486163084s属本attempt，不混旧组件。189绑定/170Python与原182/98args全闭，6/12/11/9旧检查只复用，0新开发/tinycone。完整原stdout/指纹在actual笔记，payload不外存。
 
-[p32线包络](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)已纸证完整Φ凸，正向有严格模型下降iff全部精确active在0的最大导数<0；全步失败不排中段。原4attainer只给下界，缺全184320点系数。新first-jet独立方法设计中，标量优化/oracle全部另记且祖先费用不归零；不续cone33/旧64。模型不授加强guard缩放可行或实际14门，真实trial仍原完整geometry。
+[p32线包络](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)已纸证完整Φ凸，正向有严格模型下降iff全部精确active在0的最大导数<0；全步失败不排中段。原4attainer只给下界，缺全184320点系数。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)已发：1完整cache/2grid/1scalar/≤64query/≤3真实trialpairs；新600秒总science含≤30秒dev，原1324.805525247祖先全部保。新源准备中，不续cone33/旧64。模型不授加强guard缩放可行或实际14门，真实trial仍原完整geometry。
 
 ## 5. 当前工作
 
-R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；接R446局部性与R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet标量线包络设计与唯一公开执行。继续open，不以阶段/预算/时长结束。
+R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；接R446局部性与R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
