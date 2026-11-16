@@ -59,6 +59,9 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
 - 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run43895102858/job133396398465已运行，source1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f，尚无PASS。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
 
+
+- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；run待取，无PASS。
+
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
 ### 真 RR 与完整消费者

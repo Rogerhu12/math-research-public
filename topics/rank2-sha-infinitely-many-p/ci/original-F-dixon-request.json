@@ -1,0 +1,16 @@
+{
+  "request_id": "rank2-original-F-dixon-20261116T1537",
+  "arguments": [
+    "--weights",
+    "4",
+    "--reconstruction-prime",
+    "1000000007",
+    "--digits",
+    "256",
+    "--dixon-stride",
+    "16",
+    "--product-prime",
+    "1000037"
+  ],
+  "reason": "Use the exact original Sage M2 basis and R889 Newton germ; replace repeated CRT matrices by the proven fixed-prime Dixon lift. Keep every original finite row, rational short check, full weight-60 Sturm certificate and original normalization. No coefficient data file."
+}
