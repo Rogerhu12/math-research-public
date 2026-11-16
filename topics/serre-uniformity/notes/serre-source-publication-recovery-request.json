@@ -2,71 +2,51 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-seven-full-principal-parts-consumer-activation",
-  "commit_message": "serre: activate seven original trace-dual connection constructions",
-  "rules_last_read_commit": "b273e01130e3223d4e3cf6c059b4333fa45c55e4",
+  "request_id": "20261116-certified-original-thirty-strict-conjugates-and-five-Z-activation",
+  "commit_message": "serre: certify thirty strict original Galois RR spaces and activate five-Z tree",
+  "rules_last_read_commit": "61edabed6817cc9444726ebd15e1e52ae3505d78",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "14c4e56ec0539aaf0345b96a0a3838de325330c2445c01724d90090cc3bd81a7",
+  "expected_previous_request_sha256": "3449b70dba619bd856a16e9e1c96d927d8051e4e3c62c14153f78bd4a3fb5b8c",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-R905-execution.md",
-      "sha256": "8fffe01e7cb0dc0bfdf5a3b123553793fe84383628ab87d2c7b7e017e42f8654",
+      "path": "topics/serre-uniformity/results/R902-certified-original-thirty-strict-conjugate-RR-and-marked-principals.md",
+      "sha256": "a5c2d3bc906adbfbaf2e0de4185fae1748579b91ebabe7a8a2441ea7d84f714d",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-thirty-conjugates.md",
+      "sha256": "bf97c127e09f0ab7598d71693634c238b7a37278ddf8f0af4b395a41e483e6cd",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "4824eeee381da024d1015f0a0d2cbf3d809f236027a3d9357f5aee2aba6b2552",
-      "expected_previous_sha256": "8fffe01e7cb0dc0bfdf5a3b123553793fe84383628ab87d2c7b7e017e42f8654"
+      "sha256": "b75af7b1d676df80df74e41609aad8561ad77af79dc68e05e665377f791b972d",
+      "expected_previous_sha256": "bf97c127e09f0ab7598d71693634c238b7a37278ddf8f0af4b395a41e483e6cd"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "a751646047fc4ab5ae32145a378eca73e2ccb25faf509718ab253cf4c867b24d",
-      "expected_previous_sha256": "4505df40e70866786a32d9d60209120a317abb7f72b2190d8423bc8cabe57beb"
+      "sha256": "9d20290c336633633948304b91ab755a0db426ccb94066aa0b018ef7d730b41a",
+      "expected_previous_sha256": "a751646047fc4ab5ae32145a378eca73e2ccb25faf509718ab253cf4c867b24d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "95c89cdf9b1cc6eea4a767b2c65f531a22e838bb70d52820de320e287bcee207",
-      "expected_previous_sha256": "dc7874eab2f5e68005a304e01b3371ff73f84defb3ec51bbe1118886567377c6"
+      "sha256": "35905cb20e6f61a81ae85536b83c91ec54d71cbd5eedec42fcd3d817aa814301",
+      "expected_previous_sha256": "7ccd636358f97b0e7bf13cca271e0750979aca136238ad46059d77e1ffe2795a"
     },
     {
-      "path": "topics/serre-uniformity/notes/R905-trace-dual-connections-public-request.json",
-      "sha256": "0dd579bca823dcbaa05f810e43b9e981c245b048a596514efd62f3964ba6516e",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R905_original_trace_dual_connections.py",
-      "sha256": "d0810c2938bfd6abe1c371bb0d3f1c2b6514fa38c381431c4af84cc9af72a92c",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R905_trace_dual_linear_algebra.py",
-      "sha256": "ced5b652ee7124ec45f222c50b8b47a51ba000f0307fc81534f07f59e3f3d2f5",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R905_public_original_trace_dual_connections.py",
-      "sha256": "ff7ff5f14be18cfe7287fa7615f578f0539e0f2a8a262574371ba52789e236f8",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R905-original-trace-dual-connection-consumer-method.md",
-      "sha256": "a2600cfbc893679ebe9a309f5c4a97da8ef074142a98e5ab1a14fa4d512da52d",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R905-trace-dual-connections.yml",
-      "sha256": "7d3087a5fcd6625f941170bd7ecb9535f1c3c094297405cfec1bdd9571a5fb3c",
+      "path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json",
+      "sha256": "0e0917c60397d87f647047dc9ebbb19677bad3ec6752dc03750e6eaa48f4c700",
       "expected_previous_sha256": null
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R905-trace-dual-connections.yml",
-      "request_path": "topics/serre-uniformity/notes/R905-trace-dual-connections-public-request.json",
-      "request_sha256": "0dd579bca823dcbaa05f810e43b9e981c245b048a596514efd62f3964ba6516e"
+      "workflow": "serre-R901-five-Z-shared-flips.yml",
+      "request_path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json",
+      "request_sha256": "0e0917c60397d87f647047dc9ebbb19677bad3ec6752dc03750e6eaa48f4c700"
     }
   ]
 }

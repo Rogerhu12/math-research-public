@@ -1,0 +1,1084 @@
+{
+  "schema": "R901-fixed-original-five-Z-public-source-contract-v1",
+  "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R901_original_five_Z_shared_bounded_flips.py",
+  "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+  "wrapper": "R901_public_original_five_Z_shared_bounded_flips.py",
+  "wrapper_sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+  "workflow": ".github/workflows/serre-R901-five-Z-shared-flips.yml",
+  "legacy_core": "R890_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+  "compact_core": "R894_original_seven_conjugate_pole_trace.py",
+  "compact_core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+  "legacy_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R901-original-five-Z-shared-flip-execution-method.md",
+  "method_sha256": "d5a5c611fef2a5c9dc465fd5b9baac85505828d9bd7f3fbd62ad0f52f0620124",
+  "fixed_plan": "notes/R901-original-five-Z-shared-flip-source-plan.pending.json",
+  "fixed_plan_sha256": "7d5300ec14bf83119768d6f41d44e940e5e073348d765538f154f51ddf69431a",
+  "proofs": {
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R890_method": {
+      "path": "notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R896": {
+      "path": "results/R896-original-two-denominator-low-weight-residual-RR-kernels.md",
+      "sha256": "ca0d8891a04683f712c1fe347f1da3e707854aa889163c7c3207ec8656b70341"
+    },
+    "R900": {
+      "path": "results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md",
+      "sha256": "af61b2f016d8280f6abcb23988e6d71aaeb3ffffc7575e3ff08d22ee805d1dcb"
+    },
+    "R901": {
+      "path": "results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md",
+      "sha256": "83a18d8a4236567bbd3b0f76920f37de1ded1085b33bf4275507c039922125f2"
+    }
+  },
+  "source_artifacts": {
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    },
+    "R896": {
+      "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
+      "run_id": "43872960726",
+      "source_commit": "259e2448c7c51131fecc231ee55f7d457397dde8",
+      "core_sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
+      "artifact_id": 14228364447,
+      "artifact_name": "serre-global-R896-five-sum-Hom-low-weight-RR-43872960726-1",
+      "archive_bytes": 525499323,
+      "archive_sha256": "09709b33882b32bab65b1ff855e7cd246561cac8ba344251bcab26e3067634bd",
+      "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "558ad67f7b05662d7692060dcd7ea0742329c3fc85271a4be1e2b4155b2e9129",
+      "configuration_sha256": "0f52c636cacceaef9db290f15a492b05db188228680ae84997bb89d2d06d8782",
+      "manifest_bytes": 91794,
+      "certificate": {
+        "file": "p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json",
+        "bytes": 15429,
+        "sha256": "66218771f4b0f8d7822282839ca94bcb34049fc3d867248ae4eddf6348fdb24c"
+      }
+    },
+    "R900": {
+      "result": "R900-original-K-defined-degree272-representative",
+      "run_id": "43889194318",
+      "source_commit": "1418d76e5a9e5dd0666fecdc224bbb620c1c6b4d",
+      "core_sha256": "31d0911137f7521c994abb02c5c06684afe5ad025a126be195a99b0eb687e1af",
+      "wrapper_sha256": "1ccf84b6d2dd09365c22801283832190d9c24a23285b642621ddd9ded3fe5db4",
+      "configuration_sha256": "045fe8572967fe28af433016735c6391f4537533d3c0d8c24bacf5603465bce0",
+      "manifest_sha256": "3791c7ee0c24fd9d358cf4c6b532244e96cece3f30ac9708255ea8dfc83ac9e0",
+      "manifest_bytes": 12042,
+      "manifest_file_count": 76,
+      "certificate": {
+        "file": "p41-original-K-defined-degree272-representative-certificate.json",
+        "bytes": 13725,
+        "sha256": "5d235ab51eb9fdd8776e66781dc86b09f3a59b406f6731ebd5d77d4744dd7683"
+      },
+      "artifact_id": 14236126620,
+      "artifact_name": "serre-global-R900-K-defined-degree272-43889194318-1",
+      "archive_bytes": 70095408,
+      "archive_sha256": "bcbffdd5f301447507d77f1c3d908e060bfd8d488baedf61dff6d3f9c0b3698c",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T14:47:25Z"
+    },
+    "R902": {
+      "result": "R902-original-six-Galois-five-sum-Hom-low-weight-RR",
+      "run_id": "43881907151",
+      "source_commit": "ec6b6cf11c8109b3e63d065dd0bb0d5403a986ba",
+      "core_sha256": "b0f5510e3279d77462f6e15634d754f3e99f21db3510b2ce7afabd74aa564ee1",
+      "wrapper_sha256": "db561206e2a964db520de684975545f03b87017406aad1bcd9c02f7d204d3726",
+      "manifest_sha256": "e25509003ab832bea450184f28fd48f8902928e97eb42124313d9a13f0491b47",
+      "manifest_bytes": 1126798,
+      "certificate": {
+        "bytes": 38775,
+        "file": "p41-original-six-Galois-five-sum-Hom-low-weight-RR-certificate.json",
+        "sha256": "d21d3401424011421bf261bf4d7136a8c9ee1e62b701398b405eaa075aa4087b"
+      },
+      "artifact_id": 14236746289,
+      "artifact_name": "serre-global-R902-six-Galois-low-weight-RR-43881907151-1",
+      "archive_bytes": 3319293375,
+      "archive_sha256": "9912331b24d557cb70a0ffac6ff74d33f9a06b07e8ea1dcccb26d434080abec7",
+      "artifact_expires_at": "2026-11-17T14:53:13Z",
+      "expected_conclusion": "success",
+      "configuration_sha256": "309480a79d18c8c7ae565debef2ba85cab70023c15c37990ad8f7bbffcb8b846"
+    }
+  },
+  "prepared_transport": {
+    "R890": {
+      "archive": {
+        "run_id": "43860838780",
+        "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+        "artifact_id": 14222928598,
+        "artifact_name": "serre-required-original-source-intake-43860838780-1",
+        "archive_bytes": 31320925,
+        "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T11:48:03Z"
+      },
+      "package": {
+        "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 30951546,
+        "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+      }
+    },
+    "R896": null,
+    "R900": null,
+    "R902": {
+      "archive": {
+        "run_id": "43892014668",
+        "source_commit": "4aee98dafd2fb81ffc320ce2d589273b2bf824a6",
+        "artifact_id": 14236519042,
+        "artifact_name": "serre-required-original-source-intake-43892014668-1",
+        "archive_bytes": 1938097,
+        "archive_sha256": "17252bfef702725c90367697b1368e0db10efd770b0c9742d2224a2b83fb27dd",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T15:02:36Z"
+      },
+      "package": {
+        "file": "R902-thirty-strict-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 1563082,
+        "sha256": "b8b0e537132fb0915b23374065f41c128daf0251e14158e300249434301a8c1d"
+      }
+    }
+  },
+  "R890_original_carrier": {
+    "source_inventory": {
+      "bytes": 26817,
+      "file": "R890-original-source-inventory.json",
+      "sha256": "f96cf226055895758f48e1d48d8b4a87c1a7bad68951b29d6df7d0ecd41100da"
+    },
+    "retained_inputs_receipt": {
+      "file": "R890-retained-inputs-receipt.json",
+      "bytes": 3976,
+      "sha256": "95086c49ca01a156dd14f077b65fcda0d49fb4d6fb90245da81433f0ebfffda1"
+    },
+    "package": {
+      "bytes": 21816968,
+      "file": "R890-retained-original-inputs.tar.gz",
+      "sha256": "16446595a648183151560d6060350c8b692e727fb4a3acbd719e68a87b2562d3"
+    },
+    "selected_original_member_count": 56
+  },
+  "future_input_slots": {
+    "R900": {
+      "complete": {
+        "source_group": "R900",
+        "file": "R900-complete-K-defined-DK-418-certificate.json.gz",
+        "bytes": 6169,
+        "sha256": "152a225b14d91acaf88c67f695a2981c1e6aa10519b5484b5c1a5d7236d7ad9c"
+      },
+      "space": {
+        "source_group": "R900",
+        "file": "R900-second-pencil-trial-000001-complete-K-fixed-normal418-space.json.gz",
+        "bytes": 588416,
+        "sha256": "2489facf81b48ceaedb775279e59af60f4eb7b26ae6833277e865b6c7af69a0f"
+      },
+      "principal": {
+        "source_group": "R900",
+        "file": "R900-original-K-defined-DK-and-marked-principal-QK.json.gz",
+        "bytes": 5891,
+        "sha256": "c04fa64203155e11700d3da654799069894a18ba093291adf04eef8feb63e2a2"
+      }
+    },
+    "R896_original_orbits": [
+      {
+        "j": 1,
+        "original_Hom_word": "1+T^1",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6671,
+              "file": "R896-j1-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "86c051f4d7a1af96e90f4dbe5a2ebbbc9dc2be8617822587c728692fbb5ac2f2",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 590190,
+              "file": "R896-j1-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "b2609005ce42de2b4b66bf804565b10d9123c66f5bc2e085f4c7254f6c9bf2c2",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7336,
+              "file": "R896-j1-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "fb69ccce5d2a4eb4b09bf0ff79d7d3cad69cc45ab1ee710df45e77fb0e40b1b2",
+              "source_group": "R896"
+            }
+          },
+          {
+            "sigma_power": 1,
+            "original_branch": 6,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-01-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13659,
+              "sha256": "2a03d4de2b7954d615353a8aa69d8db8983581953f8ce9676d4c9fe490a0e808"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-01-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597122,
+              "sha256": "db6412eec0a0074c634016483494eb0016f4121eebd848bbd7f27e5462704475"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14294,
+              "sha256": "5d9a216d1eb295f85c70fe45b4433575a07703fa5646ec50ad39d99c7fbdce9b"
+            }
+          },
+          {
+            "sigma_power": 2,
+            "original_branch": 1,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-02-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13663,
+              "sha256": "aa1894dd846fd1083741bcdc7ec4135a144b56c6373c86e7a6d15bdf4ad4f154"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-02-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597135,
+              "sha256": "8ad2d25222a7d883e3bb6db449d44af1e53099fd5b12bb7cbc0c6f3afe9371ac"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14299,
+              "sha256": "0a32c38a101a715954c1b7d4ba20768ab362bde2b3e4782418ea0f9eb46d8443"
+            }
+          },
+          {
+            "sigma_power": 3,
+            "original_branch": 2,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-03-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13643,
+              "sha256": "efb42b26d1bb3b7e0d7483672dee9923ea08755361d9c77ae8ab832e48fa1772"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-03-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597029,
+              "sha256": "3fa65cdef61b85a783940c89b91a379069e09396e3a5ea7b1605e5913590df83"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14289,
+              "sha256": "0944483a8fd99e9e7f09af5b12a07b41edd90ad108b4a144f664a60096d3fb2b"
+            }
+          },
+          {
+            "sigma_power": 4,
+            "original_branch": 4,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-04-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13644,
+              "sha256": "8b0cd7d80860cfe89dc84a0a08a332a3494d00759da4315607cf9f3e35b3a40f"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-04-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596966,
+              "sha256": "3855943a2429da64c2082d8c6e252bfee2ecbe51e77b6d75c8ebb9f96129a7cf"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14291,
+              "sha256": "0ca963fceec43239ec4b3f6b3ac5bb4b27e741ade2b548bf5931b1c4edb1edfd"
+            }
+          },
+          {
+            "sigma_power": 5,
+            "original_branch": 3,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-05-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13654,
+              "sha256": "e66a0a1c107d0dbdd0aab8d39b8bfb1456d6d4b99c0bc4aaf8000e38dfefd6b5"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-05-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596896,
+              "sha256": "0314f0df96a7fd4eb72c639e5a9a19614a0489378126fb82911aeb30f307fa20"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "d61bff56e80edb1503dfac1d7d8585e525053893a5e224b82c63c72a2444aa8a"
+            }
+          },
+          {
+            "sigma_power": 6,
+            "original_branch": 5,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-06-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13643,
+              "sha256": "3280d1e49254318d9a27b26b8c2bfb28d536bdb1dbfbc90bff5f8260e10dc1c4"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-06-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596865,
+              "sha256": "3d8eb656b8301a9ee81f5fc4d98712026a66a50628ddf21b07cce0652be4ce97"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j1-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14294,
+              "sha256": "356b748c73a8cec02ee91e8ab97e26811ab17d73d4d99a4ad0cf405a0941145e"
+            }
+          }
+        ]
+      },
+      {
+        "j": 2,
+        "original_Hom_word": "1+T^2",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6647,
+              "file": "R896-j2-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "41d62ab6086e2d12fb6af7bce86f9aaad81a925128979c9ddda31ece476b7caf",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589663,
+              "file": "R896-j2-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "993f41214df6ed5a649e6e5136941417552f7e2d3958faa339f9d23086a1bb6e",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7330,
+              "file": "R896-j2-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "36df5c3f5fff2042c67b7f84110e36422a3d4f5148ec1e8626f0870de65189f7",
+              "source_group": "R896"
+            }
+          },
+          {
+            "sigma_power": 1,
+            "original_branch": 6,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-01-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13658,
+              "sha256": "16212c1cbea1de32088fd1d85fd8e64241df1226ea12d32b0a441f681f43d0c8"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-01-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596863,
+              "sha256": "849bfa2c8fca3abf41cd0cfc370624b43e42b8f9e65fd16004292b793ff0af1e"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14291,
+              "sha256": "679e5bd4d03e8a6a4883aee5be90f876682af56ea6d38e5322f2c15de8b3b7d5"
+            }
+          },
+          {
+            "sigma_power": 2,
+            "original_branch": 1,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-02-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13652,
+              "sha256": "ddd3e5069339b5d806b047e5e6877873ed0c77e319ff1c60f3030c33cd822ee4"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-02-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596993,
+              "sha256": "b963f41caea9be11e1bb71f7c7915f41b63b6d098ae6b5bdd690926a4c453ea7"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14284,
+              "sha256": "ae3aa9d9e9bf49ba64602152256d80bc8f297df99013ad6a0fdcea41e091ecbe"
+            }
+          },
+          {
+            "sigma_power": 3,
+            "original_branch": 2,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-03-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13658,
+              "sha256": "81b29c9128e20ebb7c0775a2f3fa80a05212976452a37f307cafdcab7248e244"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-03-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596811,
+              "sha256": "d99e1076627cc4ba6f49b481742417f805fc1092af11859e4efb3130268992cc"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14287,
+              "sha256": "ecd262e13de78964b3f4a0c6c09ca66eadbae5fdd5e486852d7c5d35b0b0ec31"
+            }
+          },
+          {
+            "sigma_power": 4,
+            "original_branch": 4,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-04-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13661,
+              "sha256": "69af81a58afd86c045ae7da5cab11ba54f2690bfc51035ff269176124f3cb63d"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-04-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597063,
+              "sha256": "72f0ac52b750ddeec259ad5f75169f2430e3f521c9aeeefcb6c337cbb58fa5bc"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "be46ce88de9003dbd07c931edfa4513cd414ee7ce299eb397fc22e9e4dd277cc"
+            }
+          },
+          {
+            "sigma_power": 5,
+            "original_branch": 3,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-05-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13655,
+              "sha256": "be2c19db4ab225650620a7d0910223e23183cfe932bac174a57fcbe61705c6ef"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-05-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597196,
+              "sha256": "96d6d9f83c0a40b72b4cb615515df9cf33f4f1df4b93b3d9c45421277165a5e6"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14281,
+              "sha256": "9cd0ff1b3239f7a0d75513c661395f68148ca3a3e849de7a9c74cf9dac7bc968"
+            }
+          },
+          {
+            "sigma_power": 6,
+            "original_branch": 5,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-06-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13663,
+              "sha256": "b610c6dded9e0e6a21cf503b3183fc6bbe5c4614178124f902dfbfc7487659c6"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-06-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596904,
+              "sha256": "cad5097668bddbedea46ebf1b311d2d84daa4283bae95eeb0876bf09b0f4c578"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j2-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14302,
+              "sha256": "d0a1d8b8bf264ff382605982904f6d177287fbb80b25d2fbc7e0136ca0f84a48"
+            }
+          }
+        ]
+      },
+      {
+        "j": 3,
+        "original_Hom_word": "1+T^3",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6632,
+              "file": "R896-j3-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "e08cca3ab6c30c647ffdc69bb8e916c72b94b97e44001125c55ff6bb2d3ce30f",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589767,
+              "file": "R896-j3-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "feebd0bd413075fc74c6cecd362ca120e6d148ebea2f20cd71afa0225b115aa6",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7318,
+              "file": "R896-j3-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "38631f4072d97f77365bdd7c2ed1dd818fd1ef453ac01a69f6342ddb4e250720",
+              "source_group": "R896"
+            }
+          },
+          {
+            "sigma_power": 1,
+            "original_branch": 6,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-01-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13652,
+              "sha256": "94cb67d49461f6243845c9a505b5a521972662d5b0c2c117df5bde2d3eb14166"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-01-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597044,
+              "sha256": "a6e58b4637e6ffa87b7e2d9f25a86f41201f6d19a93143d7ba67f584290c8fba"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "f05e8ae115ed9de1d000b0c986f9d93b02cb53c764e5d091fed8cd9ac62e6838"
+            }
+          },
+          {
+            "sigma_power": 2,
+            "original_branch": 1,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-02-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13650,
+              "sha256": "32dfd44c0d8c90ddf1ab6d0c6c3de9cd8d156ef6b02d57857fd02b459858eb4d"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-02-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596404,
+              "sha256": "d3bdf33c562722c9fd3200772b2e7ce63ceb85c88619b263ecc24f56856e1a54"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14285,
+              "sha256": "310e22484d3e74cb70951f7de7ca97d659801292fdb74a9b586d07d5488b8170"
+            }
+          },
+          {
+            "sigma_power": 3,
+            "original_branch": 2,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-03-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13657,
+              "sha256": "70a895aa5ad06dcdd693145500ab124bcff0697589f53c3b214d0747a54af822"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-03-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597072,
+              "sha256": "5cbfc59075c7f8f458d9076c77c976b411b56f5888970a7b71b3f11776dcc1bc"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14298,
+              "sha256": "b98e326e33fd9cd114f2accf472fd9bfc24df12c87a433154a21319413b7032a"
+            }
+          },
+          {
+            "sigma_power": 4,
+            "original_branch": 4,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-04-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13650,
+              "sha256": "9d926ce8677dde9e1d7448afb86ce2e5983db2711a5dc1ead9059aac6bc1c1f0"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-04-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596762,
+              "sha256": "cdea69fec278fa140d9ced218c090d06ff5bb6821559734be702aba80e20860c"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14288,
+              "sha256": "bed55b25bcc997cbd1d49dc93b2a5a7e3242c16e1a96f164d47b8d95265a6c60"
+            }
+          },
+          {
+            "sigma_power": 5,
+            "original_branch": 3,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-05-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13645,
+              "sha256": "a18b061003445e4af9b81e1095286cbbdaa793ee0a314a5367469e92bd864615"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-05-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597116,
+              "sha256": "680b89e72cc57709000de3a989dfde49f379e9a8cdfd47c925dfe40f9faf6fbc"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14282,
+              "sha256": "238794f5c9564975913d8d69bca91b97592a3c7897651a0232378aa2585fe20b"
+            }
+          },
+          {
+            "sigma_power": 6,
+            "original_branch": 5,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-06-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13645,
+              "sha256": "845c90775ebc36f808eaeb4e48ecd8447c50d6529c9820d2ecf99f8d1fc5b688"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-06-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597016,
+              "sha256": "1d1983f8f2caef26a0681d4cfba805e2482bc9be05e74a417efd26d76ec98315"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j3-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "dcec58d0c240d6ea6ced4c30cfae583a4bd338d67e65882c3ed4be8e2ab2c1e6"
+            }
+          }
+        ]
+      },
+      {
+        "j": 4,
+        "original_Hom_word": "1+T^4",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6664,
+              "file": "R896-j4-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "96f6b100ede5880bcefdbeec080269fc1e01ff314693d3efeb5c509d08271393",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589801,
+              "file": "R896-j4-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "b64019b921d88d07fa35bfd9d195573aa343e2d5cbc98010f1027b4909a7c0d5",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7341,
+              "file": "R896-j4-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "2485696058fe3b758e55c01a84d5504b1eebcc7b2a90f732b2a732066705145c",
+              "source_group": "R896"
+            }
+          },
+          {
+            "sigma_power": 1,
+            "original_branch": 6,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-01-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13646,
+              "sha256": "aea9b1530b4617981ca663508b10c5f1374f858de21df4131d252d499f28b455"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-01-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596887,
+              "sha256": "806fec583b18718c17387f6eca829ddfa4fc1d3934293983ba0623ed0920868c"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14279,
+              "sha256": "8c7ea053f276bec0802ae3a0dd345031f4c02342b4f277b6b1a861c7477f261c"
+            }
+          },
+          {
+            "sigma_power": 2,
+            "original_branch": 1,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-02-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13637,
+              "sha256": "8263fc1c5df56133222bed1dfc57f99b97263ab4d51bd9ac80ee1927c4f5c10f"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-02-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596639,
+              "sha256": "c27bed7aedf7b5a7053e029e6c5b8b525962ed262bca0bf86f03c0b0f64c60cf"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14288,
+              "sha256": "271a0dd844c2eb6870a93ac47a3454a4475c8f2d1e891280e83e8943b30669e8"
+            }
+          },
+          {
+            "sigma_power": 3,
+            "original_branch": 2,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-03-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13642,
+              "sha256": "e5f6687cd2d13a08d99fcd2bf99bb9b76e907020a2831ff3692607f7e7dedfa7"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-03-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597126,
+              "sha256": "a1fc8b2919ca78097a139d1b7882fcec2bde2213f3799973980709ecf4635c9d"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14298,
+              "sha256": "7b59bdcc901956eaf55bb4d78993879328807bf886f2f1e105ff606530403b5a"
+            }
+          },
+          {
+            "sigma_power": 4,
+            "original_branch": 4,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-04-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13640,
+              "sha256": "6ca86bd82051948ff136da5e0f7468a1f0578e5f67e498e478220cae3c55ccbd"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-04-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596639,
+              "sha256": "c5d6053336a579ebc5aa523644d69b0cfed6b024fa152aa938861aee746ca7f0"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14282,
+              "sha256": "6ed45bdc0a8d8dd06b14025f37067a04b4dff516c4098c7b29c4b8bd879c6573"
+            }
+          },
+          {
+            "sigma_power": 5,
+            "original_branch": 3,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-05-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13651,
+              "sha256": "7cf6ec45b022fcf3afc62192069e6ff3f11deb9614af5a7934d6abe283331093"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-05-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596966,
+              "sha256": "2d53ff383d76762588c3553d859e739653bd3e8ec26b02e08424a41ce567633d"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14283,
+              "sha256": "3dfa57246001f8ca607d1e09f338680d172f935846f6432ea8d75233169d1918"
+            }
+          },
+          {
+            "sigma_power": 6,
+            "original_branch": 5,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-06-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13642,
+              "sha256": "dd61666cff602adcf4c9cdd1afb8f24f1d59f18e7950136acc346c59906f9cfd"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-06-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596923,
+              "sha256": "a9acefe4ac197b793e7175392bf85c6381b07074d6e06251a810beca52fa196e"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j4-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "f6eb49cf970e2749de2a783bb318d49e91af211a7d8711c21193b8c72d973210"
+            }
+          }
+        ]
+      },
+      {
+        "j": 5,
+        "original_Hom_word": "1+T^5",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6665,
+              "file": "R896-j5-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "7abcdd1593f95e0375b6814560f382e8627d839947d7c616889f3199b3f08345",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589995,
+              "file": "R896-j5-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "e35804c8d07ca8df771aee35710ba19cbbc87f00b7c069c4f318eb01edc4a46e",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7344,
+              "file": "R896-j5-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "b8d979169aa5c593a170f0ccf36658626541d5e7059ce9b39040db9e9912570b",
+              "source_group": "R896"
+            }
+          },
+          {
+            "sigma_power": 1,
+            "original_branch": 6,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-01-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13660,
+              "sha256": "88350e0af30e5ea3fcd34f91ddf5e8c60ef9ef3bddf138e7e247a6f9832f6fda"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-01-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597049,
+              "sha256": "9b75a69f45b9cdc2f41511d041b8b22cf94d468a4dec56139cc0344ef843dd6a"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14302,
+              "sha256": "553848d38cc29214d59b028bbf3081d1ccd801e05af59cd2cd18c69aeb9debd7"
+            }
+          },
+          {
+            "sigma_power": 2,
+            "original_branch": 1,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-02-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13649,
+              "sha256": "f17fa1ec8febfb08c774b8e6e8042ee7754738348a9307e8dad4ce118f8695e2"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-02-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596996,
+              "sha256": "0d320c924a9449597c57a58d865c61e472eb3e3afd5245f6cd15eb2fbc550a16"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14291,
+              "sha256": "49d3d30d8e8c25805ef2ef0ae5c2bee26cbb8c71592099dcfcd9158fd57f8697"
+            }
+          },
+          {
+            "sigma_power": 3,
+            "original_branch": 2,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-03-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13641,
+              "sha256": "a84a88836da46d72e3d4e34b91dca614483eda7a1c78d01743f3859888b493c1"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-03-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596827,
+              "sha256": "7ef729fee4f2a70ae3defde2f470b14e421e84fa07782e1bb2110c35b75f2075"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14300,
+              "sha256": "67e53b3611772dad4fc09595efbf7b63d860005a517a51af5f5604706d153b8c"
+            }
+          },
+          {
+            "sigma_power": 4,
+            "original_branch": 4,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-04-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13652,
+              "sha256": "02423b52d9920f7c4d19b400e236f2477c1de159d5a908135cca75219d45ef2c"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-04-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597087,
+              "sha256": "03ab65906f3527d1c670b3da24ffc02a7a59a9ca1e990c59648c1086f6cf9bc3"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14293,
+              "sha256": "da51dc30a7620ee903703add6d8856923102eeeb55e4cddc2c5fefed97fe6058"
+            }
+          },
+          {
+            "sigma_power": 5,
+            "original_branch": 3,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-05-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13648,
+              "sha256": "1c19dd409af132590beb7b87b46923d2d7340cf24ec5753a6c2618d9412266a0"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-05-Dstd-complete-normal418-space.json.gz",
+              "bytes": 596945,
+              "sha256": "7fc162f79c936295eecb6828f52e3221733c6747f67db900ae944dd3a6b76e20"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14300,
+              "sha256": "f496721acc2e9d007f6eb0e5798c3db9bdf7ea3fcc21a9ba1e7a7c8f3fc99f70"
+            }
+          },
+          {
+            "sigma_power": 6,
+            "original_branch": 5,
+            "complete": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-06-complete-low-weight-RR-certificate.json.gz",
+              "bytes": 13654,
+              "sha256": "06c53e5132887964ecd2b1746b660b2ce7e6f54c750e9024b18026d5753f061b"
+            },
+            "space": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-06-Dstd-complete-normal418-space.json.gz",
+              "bytes": 597050,
+              "sha256": "c41fa60351affbaf50b7c04b85a1e481029d98fc3371e0ed9f8ad2b6b83aeae8"
+            },
+            "principal": {
+              "source_group": "R902",
+              "file": "R902-j5-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "bytes": 14306,
+              "sha256": "e806d4d4fbd1c2a8426d40ac7197376d28970aed9e88787d5f20e7665ebcf8e0"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "budget_minutes": 300,
+  "maximum_product_anchors": 418,
+  "maximum_pencil_trials": 4,
+  "maximum_new_flips": 126,
+  "minimum_free_disk_bytes": 805306368,
+  "resume": null,
+  "rules_last_read_commit": "61edabed6817cc9444726ebd15e1e52ae3505d78",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "source_selection": {
+    "original_source_groups": [
+      "R827",
+      "R872",
+      "R883",
+      "R890",
+      "R896",
+      "R900",
+      "R902"
+    ],
+    "original_R890_carrier": "hash all 56 original files, retain the three needed old groups without nesting the source package again",
+    "original_chi_flips": "D2/E complete certificates, complete normal418 spaces, unscaled q anchors and unchanged accumulated principal functions",
+    "original_fibres": "seven actual R890 normal/cyclic V3 arrays plus fourteen old H/E space fibre arrays; only Range for absent original bytes",
+    "R896": "all five complete_direction_certificates with complete_normal418_space, marked_principal_Q and local original unscaled function-definition leaves",
+    "R902": "all thirty complete_direction_conjugate_certificates[j][k], plus original_sigma0_direction_certificates agreeing with R896 and explicit strict original selection contract",
+    "R900": "actual complete_K_defined_degree272_certificate and marked_original_principal_QK, full principal DAG and local unscaled function-definition leaves",
+    "all_future_producer_and_stage_pins_must_be_actual": true,
+    "old_stage_tags_or_source_commit_relabelled": false
+  },
+  "mathematical_scope": {
+    "fixed_handwritten_new_flips": 126,
+    "already_completed_reused_flips": 2,
+    "actual_new_flips_completed": 0,
+    "original_I_Z_not_real_descent_cube": true,
+    "new_terminal_divisors_not_claimed_K_defined": true,
+    "all_later_K_evaluation_denominators_require_actual_whole_Artin_units": true,
+    "original_rho_orders": [
+      -686,
+      -182,
+      -231,
+      -707,
+      -1659
+    ],
+    "positive_t_scaling_powers": [
+      686,
+      182,
+      231,
+      707,
+      1659
+    ],
+    "Hecke_norm_RR128_144_connection_or_height_requested": false
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "old_W_Krylov_jets_spaces_and_R890_D2_E_recomputed": false,
+  "completed_work_compacted_only_after_complete_live_witness_closure": true
+}
