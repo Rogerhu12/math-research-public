@@ -1,0 +1,1235 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-nine-target-cyclic60",
+  "executionSourceCommit": "da7e108aa03a1ae1af892f57e62c76ca76eee74c",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+  "scriptSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+  "argvTemplate": [
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--hstar",
+    "{scripts}/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+    "--out",
+    "{work}/original127-nine-target-cyclic-module",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "timeoutSeconds": 120,
+  "exitCode": 0,
+  "wallSeconds": 1.8676743910000368,
+  "fullTemporaryReceiptBytes": 20892,
+  "fullTemporaryReceiptSHA256": "60229e78fc6cc18fb873d17fc974f9a4c9a20b0eca6ca060901891da6bfce7c0",
+  "result": {
+    "binding": "b7f66706c4bf97135fa9da39218ab16c6a1d61316e6cdec1b57fc7f54ab97825",
+    "elapsedSeconds": 1.783252747000006,
+    "format": "r150-original127-nine-target-cyclic-module-and-hstar-v1",
+    "outcome": "complete-original-nine-target-cyclic-modules-and-hstar-action",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "all24IntegerHStarCoefficientsVerified": true,
+      "allHStarTargetModuleAnnihilatorIdentitiesVerified": true,
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "characteristicZeroMembershipInferred": false,
+      "coefficient31TorsionBoundsTransferred": false,
+      "completedTemporaryPhases": {
+        "hstar-complete-module": {
+          "bytes": 867,
+          "file": "hstar-complete-module.json.gz",
+          "payloadSHA256": "f757e7de3669e4278b7280415535044ed7ce120508bb0cb52ab210b3aa2bbc01",
+          "sha256": "aba84cc294e9ffaa40534dc7ddbfa71dcb7ea76859bd27e53aecf30b7722fd68",
+          "temporaryOnly": true
+        },
+        "hstar-exact-original-action": {
+          "bytes": 914,
+          "file": "hstar-exact-original-action.json.gz",
+          "payloadSHA256": "2ee56b7257c3698763b39cbfd7f728ae2268691e66e12e5be20e604e5ae7882c",
+          "sha256": "e3e6da27eb7eed67a2d4c6c1f75d8556442c4eb41a3a6383b0e409bd4d0f5d9b",
+          "temporaryOnly": true
+        },
+        "hstar-target-10": {
+          "bytes": 406,
+          "file": "hstar-target-10.json.gz",
+          "payloadSHA256": "88345ffefc56ffbd3624bc67de045808775a61b9aa4feb8c98bb014078afc65f",
+          "sha256": "b5ffc390d61f3a760c9a64cabd26ad8baf9bcdc521ce8e5acd847e760c5b35a0",
+          "temporaryOnly": true
+        },
+        "hstar-target-2": {
+          "bytes": 408,
+          "file": "hstar-target-2.json.gz",
+          "payloadSHA256": "669fe5738e8d00c3c52294061f28ff32c87daea43120dc75adf9c0cf1304d75f",
+          "sha256": "88acb4de7d0729954752a4178415bc50e2fd9b68a173b127cf715af9d00bff7e",
+          "temporaryOnly": true
+        },
+        "hstar-target-3": {
+          "bytes": 408,
+          "file": "hstar-target-3.json.gz",
+          "payloadSHA256": "3b8eded6d8f5f70165589856a30932f855be49785526154753b3ac6175e6c6ab",
+          "sha256": "abaee33e7c4fe7212ad5c7049b5e4961efd7b547120659ff427269191207c0a7",
+          "temporaryOnly": true
+        },
+        "hstar-target-4": {
+          "bytes": 408,
+          "file": "hstar-target-4.json.gz",
+          "payloadSHA256": "38222318df79a873bd93113b6d907e7e280e9ca5d71c246093695ce22f42d02c",
+          "sha256": "66a94892dd6a8014a5bbd2b6cfe11749ec15fe88e5a27f87744f70a008710aab",
+          "temporaryOnly": true
+        },
+        "hstar-target-5": {
+          "bytes": 408,
+          "file": "hstar-target-5.json.gz",
+          "payloadSHA256": "0fe7198103d35cbaf6b9ec9d2a3686fa675dc5cfaa9760274fe6df787a10c86c",
+          "sha256": "2fa6481212780732589f87b2a1658394f254ca8d2e0e0020d4207cdd519b6282",
+          "temporaryOnly": true
+        },
+        "hstar-target-6": {
+          "bytes": 408,
+          "file": "hstar-target-6.json.gz",
+          "payloadSHA256": "0bace5accb7b5e5d71bd0b6c2a0b6e1d11e3222d040c7eb039810aab90dc1655",
+          "sha256": "28ae3d73a3e5fa53165b63b7563c77c052bf8caba04ebc8334cb9bf9f00c53b5",
+          "temporaryOnly": true
+        },
+        "hstar-target-7": {
+          "bytes": 408,
+          "file": "hstar-target-7.json.gz",
+          "payloadSHA256": "14f0fdbee764012aa8493540400e10d786ec099cc29de651c6336c4680be665a",
+          "sha256": "25d7eeb95bfa670f9a33ba8e4dc9f829f76a63dde9325425d4087c6df93bd33b",
+          "temporaryOnly": true
+        },
+        "hstar-target-8": {
+          "bytes": 408,
+          "file": "hstar-target-8.json.gz",
+          "payloadSHA256": "04ffc5fd40fe55c510659075af6c4e6030481f2e1e10aff7807b2d54740d039a",
+          "sha256": "57758f971de9b01e4e2f689a06845f52d265cd6f3df7822a15d10eaa4231c607",
+          "temporaryOnly": true
+        },
+        "hstar-target-9": {
+          "bytes": 408,
+          "file": "hstar-target-9.json.gz",
+          "payloadSHA256": "a81c762fb4204b0005ad32547aa751151220d797b6a0d3e1a810fdd63ce75835",
+          "sha256": "9d52254c189ac9a1d0ff4ab09ff676b9efdb6a35d4994f0ccd05fc3546c1a486",
+          "temporaryOnly": true
+        },
+        "hstar-target-krylov": {
+          "bytes": 7502,
+          "file": "hstar-target-krylov.json.gz",
+          "payloadSHA256": "2fc714dfdc407f09fef9bc82a26ea9962989795b5bc7c762099c27f3ae0ee9bc",
+          "sha256": "964f2cb30c02585845a30e93738fc3af14a7ebac5b1cecfcf6aa1c1a0f7f7d3e",
+          "temporaryOnly": true
+        },
+        "original-complete-module": {
+          "bytes": 2608,
+          "file": "original-complete-module.json.gz",
+          "payloadSHA256": "ddc7a134368f14fe0db0abef6f96d687ed97e8ece311802f219e2cc7338733fa",
+          "sha256": "fa79c61662447f4d4aa92d3dfb161715f342157eeb8588d6973fe5d1f00795c7",
+          "temporaryOnly": true
+        },
+        "original-target-10": {
+          "bytes": 576,
+          "file": "original-target-10.json.gz",
+          "payloadSHA256": "87bbe8112279bf92791ab38e2aad87a6759194eb1feea6b27e87635b4d016a0b",
+          "sha256": "ea93b91fb45d23c5a2958b3950e238cc10e48d984133c2f29a0208cd73941a59",
+          "temporaryOnly": true
+        },
+        "original-target-2": {
+          "bytes": 578,
+          "file": "original-target-2.json.gz",
+          "payloadSHA256": "7dac35dcbe8a9e9e757c6537596b9133838e5b85f15fb7f25bacdb4fa92f57ae",
+          "sha256": "79721d5396f8eb82980ad0eed476b23b3b3c53ce42feddb24ef82d7c11f3a6a5",
+          "temporaryOnly": true
+        },
+        "original-target-3": {
+          "bytes": 575,
+          "file": "original-target-3.json.gz",
+          "payloadSHA256": "046aec9a13122b025769ad14f5b6c5e299aa4c30a079e37df50c779ee6dd0427",
+          "sha256": "4000de07763ce27f13fb73422d79c95806e4300b52cc2d2b96acfa48988b3f01",
+          "temporaryOnly": true
+        },
+        "original-target-4": {
+          "bytes": 577,
+          "file": "original-target-4.json.gz",
+          "payloadSHA256": "d2cafe68e1f09b294ff63f4c3fcaed4ea63cd31ade56db36c42b1a5f43dbb13c",
+          "sha256": "e6b6440406abbcdec473fffce9e3942866bded7746dc13c90a49d1920d186e24",
+          "temporaryOnly": true
+        },
+        "original-target-5": {
+          "bytes": 575,
+          "file": "original-target-5.json.gz",
+          "payloadSHA256": "a3fcd07bb59cfbf67c61ade08b79ef7daa9b1baa4612d5a8e4d6198a4dfaad34",
+          "sha256": "e7ef6ddd0b78de13b179294c426ee216df83edb57823513b806a9c9b1930de87",
+          "temporaryOnly": true
+        },
+        "original-target-6": {
+          "bytes": 575,
+          "file": "original-target-6.json.gz",
+          "payloadSHA256": "e20dab91e2352b68f33188216419245825ae2a93d498112b0c1b6d07e8999f08",
+          "sha256": "10e17a219344097029b62559ba017a7cae9e6d5e727c9623a3c93afd268f8a58",
+          "temporaryOnly": true
+        },
+        "original-target-7": {
+          "bytes": 575,
+          "file": "original-target-7.json.gz",
+          "payloadSHA256": "c2a10b955eec64aaeb3e7fca96e49aa4cbc56ac250806b01bd7f9ebef91bf302",
+          "sha256": "6f2ca2aadf2b3c868b2921e2fe81f25e9c84ccd4a95b678300156149560ca4b6",
+          "temporaryOnly": true
+        },
+        "original-target-8": {
+          "bytes": 576,
+          "file": "original-target-8.json.gz",
+          "payloadSHA256": "8867d1e78fe8734941806c722aed699505411619db85d3d45c53b3bec7868d02",
+          "sha256": "6e1569d697cbbd81e1fd0d80a700daaef5347bd6c7a3ca05ff916ab574cabeb5",
+          "temporaryOnly": true
+        },
+        "original-target-9": {
+          "bytes": 575,
+          "file": "original-target-9.json.gz",
+          "payloadSHA256": "b25a5764f917f1457b0a3cfa793192748382ce48c2c4e6d3f6319cebc316fade",
+          "sha256": "c363052aecb6ba3b70ea573dd353545490a0e151c29532cfda8125baaa6fa2af",
+          "temporaryOnly": true
+        },
+        "original-target-krylov": {
+          "bytes": 75993,
+          "file": "original-target-krylov.json.gz",
+          "payloadSHA256": "f8cee2896c3104a1f66bc2116bf81cfdad3efe123f8c197b782a26d8a30c7868",
+          "sha256": "3cae2c2dcd880a8806f84a1a8204cd9ba0d7ae6c7277325eae353ba4970dcd54",
+          "temporaryOnly": true
+        }
+      },
+      "finiteFieldScopeOnly": true,
+      "gradedBasisRecomputed": false,
+      "hStarAction": {
+        "all24IntegerCoefficientsVerified": true,
+        "allOriginal299RestrictedActionProductsVerified": true,
+        "hStarAnnihilatorFormulaUsedOnlyWithFullTargetModule": true,
+        "hStarCoefficientResidues": [
+          0,
+          0,
+          0,
+          6,
+          70,
+          34,
+          27,
+          22,
+          115,
+          122,
+          124,
+          26,
+          108,
+          25,
+          57,
+          75,
+          22,
+          36,
+          65,
+          56,
+          109,
+          47,
+          94,
+          77
+        ],
+        "hStarDegree": 23,
+        "hStarImageRank": 0,
+        "hStarKillsAllNineOriginalTargets": true,
+        "hStarTargetZeroFlags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "hZeroCommonMinimalPolynomialFromVerifiedOriginalModule": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "hZeroImageRank": 0,
+        "hZeroKillsAllNineOriginalTargets": true,
+        "hZeroTargetZeroFlags": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "predictedHStarCommonMinimalPolynomial": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "restrictedActionProductCoordinates": 2691,
+        "targetLabels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "hStarIndividualTargets": [
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 2,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 3,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 4,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 5,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 6,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 7,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 8,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 9,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 0,
+          "firstDependencyPower": 0,
+          "label": 10,
+          "minimalPolynomial": {
+            "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+            "coefficients": [
+              1
+            ],
+            "degree": 0,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        }
+      ],
+      "hStarIntegerDegree": 23,
+      "hStarLeading127Unit": true,
+      "hStarTargetModule": {
+        "allBasisColumnsArePowersOfDeclaredOriginalGenerators": true,
+        "allOriginalGeneratorCoordinateProductsVerified": true,
+        "allOriginalModuleInvarianceProductsVerified": true,
+        "basisColumnCount": 0,
+        "characteristicDividesPaidWholeCharacteristic": true,
+        "characteristicPolynomial": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "commonMinimalPolynomial": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "completeByMutualContainment": true,
+        "completeInvariantModuleContainingAllNineGenerators": true,
+        "dimension": 0,
+        "generatorProductCoordinates": 2691,
+        "jointMinpolyEqualsNineFirstRelationsLCM": true,
+        "moduleInvarianceProductCoordinates": 0
+      },
+      "identity": {
+        "algorithm": "original-target-power-bases-first-dependencies-and-verified-joint-actions-v1",
+        "hStarParameters": {
+          "bytes": 1286,
+          "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31"
+        },
+        "krylovPowerRangeInclusive": [
+          0,
+          299
+        ],
+        "originalTargetLabels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "paidFiles": {
+          "original127-whole-torsion-pipeline-receipt.json": {
+            "bytes": 9819,
+            "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+          },
+          "torsion-whole-state.bin": {
+            "bytes": 1414575,
+            "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+          },
+          "whole-torsion-characteristic.json": {
+            "bytes": 2560,
+            "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+          }
+        },
+        "prime": 127,
+        "wholeBinding": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211",
+        "wholeOriginalGBBinding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "wrapperSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3"
+      },
+      "memoryMiB": 1024,
+      "normalFormsRecomputed": false,
+      "originalIndividualTargets": [
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 2,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 3,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 4,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 5,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 6,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 7,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 8,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 9,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        },
+        {
+          "allOriginal299RelationCoordinatesVerified": true,
+          "cyclicDimension": 23,
+          "firstDependencyPower": 23,
+          "label": 10,
+          "minimalPolynomial": {
+            "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+            "coefficients": [
+              0,
+              0,
+              0,
+              71,
+              24,
+              106,
+              2,
+              91,
+              112,
+              89,
+              28,
+              96,
+              8,
+              63,
+              103,
+              62,
+              91,
+              45,
+              113,
+              70,
+              41,
+              27,
+              54,
+              1
+            ],
+            "degree": 23,
+            "factorProductVerified": true
+          },
+          "minimalityCertifiedByIndependentPrecedingPowers": true
+        }
+      ],
+      "originalStateAudit": {
+        "actionSHA256": "e20f48af183a36dde7db407720467167dde00675c4a8d4dda68aeb2f3de55155",
+        "allNineBoundedAndTorsion": true,
+        "allOriginalTargetCoordinateProductsVerified": true,
+        "completeSourceAndFreeDirectionsInheritedFromPaidWholeState": true,
+        "observationRank": 506,
+        "originalTargetCoordinateProductCount": 7245,
+        "originalTargetCoordinatesSHA256": "3d3e83fe6c67fa15ed153b678ce4598cc32eed53ed1b937070770b0430149706",
+        "originalTargetLabels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "prime": 127,
+        "torsionDimension": 299,
+        "wholeStateDimension": 805
+      },
+      "originalTargetModule": {
+        "allBasisColumnsArePowersOfDeclaredOriginalGenerators": true,
+        "allOriginalGeneratorCoordinateProductsVerified": true,
+        "allOriginalModuleInvarianceProductsVerified": true,
+        "basisColumnCount": 25,
+        "characteristicDividesPaidWholeCharacteristic": true,
+        "characteristicPolynomial": {
+          "coefficientSHA256": "df6e4c5b3dc009a534a79b050bf2e3b4f5f3fcd531af7f4ca0e5da5e3c5e9e52",
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            71,
+            24,
+            106,
+            2,
+            91,
+            112,
+            89,
+            28,
+            96,
+            8,
+            63,
+            103,
+            62,
+            91,
+            45,
+            113,
+            70,
+            41,
+            27,
+            54,
+            1
+          ],
+          "degree": 25,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": [
+            {
+              "coefficients": [
+                0,
+                1
+              ],
+              "degree": 1,
+              "multiplicity": 5
+            },
+            {
+              "coefficients": [
+                43,
+                1,
+                1
+              ],
+              "degree": 2,
+              "multiplicity": 1
+            },
+            {
+              "coefficients": [
+                46,
+                91,
+                1
+              ],
+              "degree": 2,
+              "multiplicity": 1
+            },
+            {
+              "coefficients": [
+                122,
+                122,
+                27,
+                1
+              ],
+              "degree": 3,
+              "multiplicity": 2
+            },
+            {
+              "coefficients": [
+                100,
+                108,
+                122,
+                1
+              ],
+              "degree": 3,
+              "multiplicity": 2
+            },
+            {
+              "coefficients": [
+                35,
+                7,
+                54,
+                45,
+                1
+              ],
+              "degree": 4,
+              "multiplicity": 1
+            }
+          ]
+        },
+        "commonMinimalPolynomial": {
+          "coefficientSHA256": "66ea4e92131420bc859d770e9e1765f0fe310ef92889d05d39572a13469305ba",
+          "coefficients": [
+            0,
+            0,
+            0,
+            71,
+            24,
+            106,
+            2,
+            91,
+            112,
+            89,
+            28,
+            96,
+            8,
+            63,
+            103,
+            62,
+            91,
+            45,
+            113,
+            70,
+            41,
+            27,
+            54,
+            1
+          ],
+          "degree": 23,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": [
+            {
+              "coefficients": [
+                0,
+                1
+              ],
+              "degree": 1,
+              "multiplicity": 3
+            },
+            {
+              "coefficients": [
+                43,
+                1,
+                1
+              ],
+              "degree": 2,
+              "multiplicity": 1
+            },
+            {
+              "coefficients": [
+                46,
+                91,
+                1
+              ],
+              "degree": 2,
+              "multiplicity": 1
+            },
+            {
+              "coefficients": [
+                122,
+                122,
+                27,
+                1
+              ],
+              "degree": 3,
+              "multiplicity": 2
+            },
+            {
+              "coefficients": [
+                100,
+                108,
+                122,
+                1
+              ],
+              "degree": 3,
+              "multiplicity": 2
+            },
+            {
+              "coefficients": [
+                35,
+                7,
+                54,
+                45,
+                1
+              ],
+              "degree": 4,
+              "multiplicity": 1
+            }
+          ]
+        },
+        "completeByMutualContainment": true,
+        "completeInvariantModuleContainingAllNineGenerators": true,
+        "dimension": 25,
+        "generatorProductCoordinates": 2691,
+        "jointMinpolyEqualsNineFirstRelationsLCM": true,
+        "moduleInvarianceProductCoordinates": 7475
+      },
+      "prime": 127,
+      "pythonFlintVersion": "0.9.0",
+      "scope": "complete joint original-nine-target module inside paid whole F127 torsion",
+      "seconds": 60.0,
+      "temporaryManifest": {
+        "bytes": 5903,
+        "file": "target-cyclic-manifest.json",
+        "sha256": "e8607db2bc965ebc8630f5d3ba33b91059e7cd998cd90903c6bf139f4eaa3c41",
+        "temporaryOnly": true
+      },
+      "wholeTorsionRecomputed": false
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.442728136000369,
+        "phase": "original-target-krylov",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.4783767879998777,
+        "phase": "original-target-2",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.5129767569997057,
+        "phase": "original-target-3",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.547289472000557,
+        "phase": "original-target-4",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.581748718000199,
+        "phase": "original-target-5",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.6162756160001663,
+        "phase": "original-target-6",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.6508389600003284,
+        "phase": "original-target-7",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.685209713000404,
+        "phase": "original-target-8",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.7196297800001048,
+        "phase": "original-target-9",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.7551248300005682,
+        "phase": "original-target-10",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.8906293730005928,
+        "phase": "original-complete-module",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 0.91461790700032,
+        "phase": "hstar-exact-original-action",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.2980325950002225,
+        "phase": "hstar-target-krylov",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.3313682839998364,
+        "phase": "hstar-target-2",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.3633694890004335,
+        "phase": "hstar-target-3",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.3954218999997465,
+        "phase": "hstar-target-4",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.4277193819998502,
+        "phase": "hstar-target-5",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.4598234120003326,
+        "phase": "hstar-target-6",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.4922453720000703,
+        "phase": "hstar-target-7",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.5990502360000391,
+        "phase": "hstar-target-8",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.631317322000541,
+        "phase": "hstar-target-9",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.6634995599997637,
+        "phase": "hstar-target-10",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 1.7828055110003334,
+        "phase": "hstar-complete-module",
+        "reusedCompletedPhase": false
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 00:32:37 UTC",
+      "beforeReadCommit": "9454bb36117efc8190311566f173bf8c6a02fbd2",
+      "originMainAfterPull": "da7e108aa03a1ae1af892f57e62c76ca76eee74c",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 00:32:40 UTC",
+      "beforeReadCommit": "da7e108aa03a1ae1af892f57e62c76ca76eee74c",
+      "originMainAfterPull": "ba69b9b28be421ced147cc6aeb0da3371b95f4a9",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 30,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 10291,
+    "logicalJsonSHA256": "08a5cba995f4102c52fc57077dc27d3b0e5ab3b80ef2d1fbbed6ebae202cfed8",
+    "itemCount": 30
+  },
+  "lastRulesReadCommit": "ba69b9b28be421ced147cc6aeb0da3371b95f4a9",
+  "summaryExcludesRecomputableArraysOnly": false
+}
