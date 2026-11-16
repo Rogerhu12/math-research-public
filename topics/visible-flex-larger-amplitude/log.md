@@ -266,3 +266,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:14:00 UTC /root — R544真实source与完整关系
 
 [R544](results/R544-current-C-actual-source-bindings-and-lossless-composition-relations.md)/[接口](notes/2026-11-16-current-C-actual-source-binding-and-composition-relations-interface.md)五件136350B完整；两真实argv/ENTRY断口修复且guard保，41+8views/95literal，展开源仅Actions；source新增具名三列/全literal/其余对象有完整逆，whole含header严格小才用，90K不变不保证fit，原完整/necessary身份分列。R545/230实际caller继续，全部原门/钟/quiet保。H/open以3034固定历史压缩而§4–6逐字保，R511日志改真实12:13。
+
+
+## 2026-11-16 12:16:00 UTC /root — R547真实缓存owner与完整模型
+
+[R547](results/R547-root-cached-owner128-and-same-DN-complete-model-composition.md)三件105526B完整；真同scope R535 compiler＋R534 deferred hook，原128 main/replay/tol权威先行，完整同DN投影/lift/原全部末门后续，三数学consumer原字保；348public+39gen=387，十新caller/四真实source tuple及RootStats/replay/compile八完整具名表保全部旧model/guard字段。原19200/allcaps/90K70/quiet不减，不预报速度/接受；R548/231/R549实际入口继续，226/229数值不迁。
