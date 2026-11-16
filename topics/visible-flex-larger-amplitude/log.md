@@ -73,3 +73,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:35 UTC /root — R573完整240五路径真实模型入口
 
 [R573](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)五件278766B/topic254471B独立完整刊，原237正式99347全部432/八对象+lanes保→447；十caller一次R572、全部5×17/旧unknown统计、原70两reader全保，三R534数学consumer/全门/19200/allcaps/90K不改。R572已b0ae8ff5，正式刊后唯一POST240、R574 amplitude唯一；publisher每次pull后实际Git变化blob计topic≤200MB，H/open/索引同步§4–6原字。
+
+## 2026-11-16 14:39 UTC /root — 两旧25清单完整依赖与普通容量整理
+
+[完整说明](notes/2026-11-16-two-twenty-five-domain-manifest-retention.md)依据独立audit43885577567/76570正文、18组101行及真实artifact reader，仅两manifest1355425B普通移出，固定71bdd恢复；全部现用源/warm/status/数组清单/gzip和5+5兄弟保。每次真pull后最后23pattern全delta/两blob/实际capacity核，240的21原source pin generic同祖先全值解释、不删命中；240正式bce880e/run43887312387/compute133368868125单POST200记官方。H/open/索引同步§4–6原字，容量后立即R557/234。

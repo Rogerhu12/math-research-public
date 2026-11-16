@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[两旧25清单普通整理](notes/2026-11-16-two-twenty-five-domain-manifest-retention.md)**：本次仅两manifest1355425B移出，固定71bdd同字恢复，实际新audit76570完整/18组101行/真实artifact reader读取路径及全部当前warm/status/数组清单/源/gzip/5+5兄弟保。最后每次真pull全delta完整扫/两blob复核，240仅21个与祖先逐值同的source pin generic命中明确解释，非新增候选读取者；不拿未扫/历史聚合冒全部无引用。240已bce880e/run43887312387/compute133368868125唯一POST200，官方绑定本次保；容量后立即完整R557/234刊发。
+
 **[R573/request240](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)五件完整独立刊**：已刊R572真十caller/一次安装，447=360public+87gen、原237全部432与八对象+lanes不变；五×17/full last及全部旧/unknown统计、原overflow70/false和两reader完整保。原三R534数学consumer/全部128/replay/FD/fullDN/final fresh audit与19200/allcaps/90K不改；原历史来源说明准确JSON pointer不是删数值字段，无速度/fit/接受承诺。正式刊后唯一POST，R574 amplitude唯一；R557/234完整616源待容量整理即独立刊。
 
 **[R572](results/R572-exact-root-synthesis-products-and-original-sum-order.md)四件57061B本次独立刊**：五处原root合成逐调用未变R564核/资格外原乘法，左式/实际表词/+=/R535构词/方向与三个旧R564平均点保；共同完整数值前缀同RN128词，不声明fenv/速度/资源前沿同。5×17/full last、7/3 literal、20deps、一次原scope安装→真实g++与所有原门/caps/两reader责任保；无实际数值接受。R573/240完整447源真实入口下一独立刊并单派发，R574另付。
