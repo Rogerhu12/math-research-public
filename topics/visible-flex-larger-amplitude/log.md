@@ -157,3 +157,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:16 UTC — R520当前整像来源与原进程/clock接线（ChatGPT /root AI）
 [完整接口](results/R520-generated-current-images-original-owned-quotient-interface.md)连entry/plan三件81314B，三真实producer/cap tuple与两常量view、4afc实际OwnedTree/完整held/全部位置账/原绝对钟/90K70接齐；startup与BVP actual deadline分开全文核，不混SHA，无新run/γ/accepted父或cleanup许可。
 完整即刊；open§1压缩前全文固定3514dfb8，§4–6逐字保，R522已3514；216终态由exact唯一归责，224全链继续，不改运行中科学。
+
+## 2026-11-16 10:25:02 UTC /root — R486实际215完整读回与原预算部分完成
+
+[R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077/2331，run43816406919/sourceb952df、两终log仅amplitude各一次，85438/5923ad0e必要同字全读；owner1方向α1 norm1.22096e−4→9.68582e−11、完整replay词同。stage8000s仅478/576、audit1800s574/576与7479/7488，原活动query/advance/全部地址/errors/partial统计保，boundary/endpoint依赖未起；父audit resource_partial=false按原缺字段口径不覆盖预算错。原64controlled stop/native-fullDN false，10:17:38必要quiet后三树真清，不能以204补或由rawSHA续；规则/原完整门不改。
