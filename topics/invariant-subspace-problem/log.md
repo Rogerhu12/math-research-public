@@ -889,3 +889,8 @@ F±真Q1非自由正延各30940原乘回全真，谱(3,5)；E8只读重验259896
 逐孔顶方程保全部primitive/强位，A_m^(R+J+1)a0=0；原完整方阵det=W_K/d0^K给µ_K^-1≤e^(100K⁴)。
 整个真核投影得K⁴=o(logm)非真空低forcing趋0，明确R>0的总孔包含只单向；不据此排原M或N=M。
 原N/Y规范和范数逐源核，完整证明/H/open/results真推；继续同w完整中间Schur。每pull核两README。
+
+## 2026-11-16 02:50 UTC — 原九全局来源与无乘子rank-one Bell16
+原Σ0外T=0、μ1，九h*tj有原degree≤3来源，费用8386/8391/171；已有D31来源统一8515，未定分母指数。
+原四fiber CRT＋差立方给br^16∈I与源moment度26，明确只归一rank-one；全J/nonrankone及ordinary仍开。
+全文证明与H/open当前旧状态合并归档，未列问题仍保。每pull核规，真实终端push后继续零P/系数31。

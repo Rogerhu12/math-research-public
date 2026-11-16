@@ -492,3 +492,5 @@
 - **R150九原平方的精确critical指数及完整投影谱（2026-11-16）：** [完整长度/非零dual证明](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)先由原低jet注入给δP≥6/4，配full8/5得lengthT≤2/1；实际逐九t·square或square配对非零迫等号。故每目标critical指数恰(2,2,1)、各自生成T；随后反推完整P谱(3,3)/(3,3)/(2,2)，无未付P/S等价。E8只col9可非零的原支撑与9行9非零数联合核实。
 
 - **R271完整物理终端真核门（2026-11-16）：** [N/Y全强位与全远尾证明](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)由逐孔真核顶方程得C^(J+1)a0=0、A_m^(R+J+1)a0=0；真实头T_K全输出行列式给µ_K^-1≤e^(100K⁴)。同低forcing的整个真核投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²（g⊥vac），固定或K⁴=o(logm)趋0。原总孔cut只一向包含，不由此排原M或付全Schur/carry。
+
+- **R150原Δ298、九无额外乘子来源及归一rank-one Bell16（2026-11-16）：** [完整来源/成本/范围定理](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)给Σ0外相对模块零、九h*tj原degree_m≤3有理来源，三费8386/8391/171（共同8391）；已有D31精确/同模源统一8515，未定31分母。原CRT与差立方给br^16∈I，十七源moment次数≤26；只归一rank-one及B_r∈√(J+C1)，全J/非rank-one/普通ISP未闭。
