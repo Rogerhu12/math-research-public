@@ -1,0 +1,133 @@
+name: Serre original p41 four-response solver
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R854-original-p41-four-responses
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json
+      - name: Pull main and compare both rule files with the read commit
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R854-p41-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          name='topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+name]))
+          subprocess.run(['git','checkout','-B','r854-p41-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          actual={key:hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                  for key,path in [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          changed=actual!=request['readme_sha256']
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':request['readme_sha256'],'rules_changed':changed}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('R854_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if changed:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('Read the changed README files before new arithmetic.')
+          PY
+      - name: Preserve the actual pull receipt for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R854-p41-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R854-p41-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  compute:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R854_original_p41_response_solver.py
+            /topics/serre-uniformity/scripts/R854_p41_DVR_linear_algebra.py
+            /topics/serre-uniformity/scripts/R854_public_original_p41_response_solver.py
+            /topics/serre-uniformity/scripts/R787_original_power5_relation_solver.py
+            /topics/serre-uniformity/scripts/R850_public_original_rigidified_fibres.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R854-original-41-cleared-row-saturation-and-four-responses.md
+            /topics/serre-uniformity/notes/R854-original-41-geometric-row-scaling.md
+            /topics/serre-uniformity/notes/2026-11-16-original-41-single-Z-consumer-source-contract.md
+            /topics/serre-uniformity/notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md
+            /topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json
+            /.github/workflows/serre-R854-original-p41-response-solver.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the pinned arithmetic library
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Parse sources without importing mathematical code
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          base=Path('topics/serre-uniformity/scripts')
+          names=('R854_original_p41_response_solver.py','R854_p41_DVR_linear_algebra.py',
+                 'R854_public_original_p41_response_solver.py','R787_original_power5_relation_solver.py',
+                 'R850_public_original_rigidified_fibres.py','R824_public_original_global_polar_generators.py')
+          for name in names:
+              path=base/name
+              ast.parse(path.read_text(),filename=str(path))
+              print('AST_OK',name)
+          PY
+      - name: Solve the original p41 system with its actual inverse bound
+        run: |
+          python topics/serre-uniformity/scripts/R854_public_original_p41_response_solver.py compute \
+            --out "$RUNNER_TEMP/R854-p41-responses/output"
+      - name: Verify completed stages and original source identities
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R854_public_original_p41_response_solver.py verify \
+            --out "$RUNNER_TEMP/R854-p41-responses/output"
+      - name: Preserve completed precision, row operations and required original sources
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R854-original-p41-four-responses-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R854-p41-responses/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

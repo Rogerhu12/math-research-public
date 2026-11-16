@@ -135,3 +135,8 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 
 **R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。纯IO已得R820544列/554件、R8057、R8378；core继续写。
+
+
+**R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；本次push触发run。
+
+**避免重登旧实下降/盘界**：R750 已给全部h/全部jet的共同实相位与signed conjugates；R742 已给unramified firstjet/depth7，R744 已给某低firstjet分量在闭depth4的非center根数≤3。R857新内容仅R855具体同h高unit对开盘v(a−1)>3的最小unit与根数；不称首次根数或改进旧界，后继直接引用三旧记录。

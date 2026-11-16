@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：1fa4ac858f7da0028527af01be8e4a8650c278f1**（2026-11-16T04:24:26.107099+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[固定支撑理想前完整H](handoff-archive-2026-11-16-before-fixed-branch-ideals.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：8e897f9932b0266605ac1b21a62ab53ee0d67489**（2026-11-16T04:40:17.270909+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原41首次激活前完整H](handoff-archive-2026-11-16-before-p41-activation.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,7 +31,7 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 **R852已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/sourced0023643；五C原14坐标/Q秩5，839节点保733，无新逆/点加法；D原DAG。artifact14196442913/01ae4657、9件载体44d40476保270叶。非41值/Y/height。
 
-其余正在实施：ordinary_local R854真实41四响应核，exact_height R856完整Cusp+P0理想块与有限RR；R853三共轭已正式完成；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
+其余正在实施：R854首跑已提交待触发，R856完整Cusp+P0理想包已写成待合入；ordinary/exact共同接R858原41单Z。R853三共轭已成；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
 
 ## 真正全p缺口与已闭边界
 
@@ -49,10 +49,12 @@ UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与�
 **R855统一原高jet单位**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02；p>104190883允许类，m=eM−3a−3、a0/2；原同本原h两Cartier指数k_p与5/17，R851及固定f0/f2单位，六步Legendre固定三非零分子迫一N_h单位。原完整norm/全尾给v_pM_mh=−m。m随p，不给固定m2/首高度系数。
 
 
-**R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。
+**R854原41首次激活**：[执行记录](notes/R854-original-p41-response-solver-activation.md)与request已提交，待本次push取得run。core1feb579a/helperfa545b18/wrapperf6b97a7d；N_B56/目标7/300min只是控制，同2420/free1186/全2560原行。整化92cb6ec5与全行方法ab970169给逐行左逆界，完整残差及两种分母扣回后才认四响应；可续原行变换/Dixon位/完整残差向量，退役工作矩阵保SHA。保1645原叶+20元数据，首公开跑核原395MB载体2709成员。实际精度/B0是否unit/A.1/Z/height未成。
 
 
-**R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。
+
+**R857同h高unit的开深盘根数**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444接R855，J=(m+1)/3，第J系数v=1，最小unit阶r≤J；V=z_f³/p³后v(a−1)>3内恰r根含center/重数。共同相位/全jet实下降早已R750；R742有unramified firstjet/depth7、R744有某低firstjet分量闭depth4非center≤3，直接复用，不称首次根数或优于旧界。保c_h真实赋值、全尾和原coarse运输；正秩点未必Abel零，未得height排除。
+
 
 
 **R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。纯IO已得R820544列/554件、R8057、R8378；core继续写。
