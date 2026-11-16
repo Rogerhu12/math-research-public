@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：d5e0bb575688ee63b9656e18ea3256c12d9b8c39**（2026-11-16T14:01:59.774416+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[整Tate像前H](handoff-archive-2026-11-16-before-integral-Tate-image.md)，内接N112续算前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：98b615b66cc5363977939df0439b8532f471b0db**（2026-11-16T14:03:59.759747+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[整Tate像前H](handoff-archive-2026-11-16-before-integral-Tate-image.md)，内接N112续算前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -14,11 +14,11 @@
 |---|---|---|
 |R787 primal594后|43846878233 / 133229330888|fe3da6c7，同core93d3d72b/wrapper42157e0d，10:13/300min|
 |R824原27+244从693后|43877576209 / 133334539270|7e0e27d9，同core1ece3cf4/wrapperc5907739，693原current761b228c/liftf8972f29|
-|R854原41 N112续|旧43832705685 / 133181715849|新resume已受理source20984736；旧BudgetStop124/1041stage，四球未成|
+|R854原41 N112续|43880489423 / 133344905148|source20984736，已入compute；旧BudgetStop124/1041stage直接续，四球未成|
 |R787半dual541后|43869450077 / 133306600874|393efa24，同coreffe5dcff/wrapper1552e403，542正残差直接读|
 |R815准确Γ|43853995004 / 133253466821|c1b3bfb1，core80516ff9/wrapperab725da0，准确g直接复用|
 |R899 K固定418|43879192431 / 尚无job|source34001929，排队，已受理不再重复派发|
-|R902严格六σ|43879863247 / 133342701870|sourcee7156baa，来源读取KeyError result；数学核未执行，修真实旧schema后续|
+|R902严格六σ|旧43879863247 / 133342701870|首run仅schema即退；coreb0f5510e/wrapperdb561206修原R809读取后重新派发|
 
 全部同核续不重旧位/行；原断点完整pins和source文件沿前态链。[N112断点](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)保完整算子112、末profile63输入49/rank7；manifest3ea125ba/art14229723159/9e1f26d2至Nov17 13:38，cfg22776712不变继续112。非最终逆界，R858两个input仍null。原S_m/full2560/free1186、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ保全。
 
@@ -47,7 +47,7 @@ R894末DN完整418、degree272避P0，QN=Qorbit FN正乘，ρ/t阶−8435、首�
 
 **R900** 已发布pending五件且root全读，core31d09111/wrapper1ccf84b6/methodb6db29ae。待R899真418及P0单位后填R899/R894源：S0/S1取消QN，真1234→146再962→418，得K定义D_K272和QK=QN·w0/v，原ρ阶−8435/t正c^8435；正常数组无extra τ。
 
-**[R902方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)** 六件已发布并尝试30对。初始空间同原I/J/F准确共轭，仅物化B0/B1两rhs；残余/146/418完整，全原行乘回，原v/w和投影行不改，仅δA6新算。首run来源读取即退出，manifest282B/5b0fc124/art14232680090/33ca3e27，core无执行；ordinary_local按真实旧schema修core Source.stage及wrapper读取，非改数学。
+**[R902方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)** 六件已发布并尝试30对。初始空间同原I/J/F准确共轭，仅物化B0/B1两rhs；残余/146/418完整，全原行乘回，原v/w和投影行不改，仅δA6新算。首run来源读取即退出，manifest282B/5b0fc124/art14232680090/33ca3e27，core无执行；[精确修复](notes/R902-R809-historical-source-schema-repair.md)已核：R809/R827只在configuration含result，其余仍严格顶层检查；coreb0f5510e/wrapperdb561206，无数学改动，原30对续发。
 
 **[R901共享126树](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)** paper83a18d8a已发布。12χ+24T+五(6+11+1)，旧D2/E累计F直接读；QZj=Fj(NQj)^qj QK^−pj正乘I_Z，ρ阶−686/−182/−231/−707/−1659、t正c幂。末D仅L，Z负支撑不限P0，七重datum不省。完整core/wrapper/plan五件已冻结，root已读core+method，继续wrapper/plan后发布pending；R900/R902仍null，实际新flip0。
 

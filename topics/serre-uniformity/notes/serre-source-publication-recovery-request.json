@@ -2,40 +2,56 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-integral-CM-Tate-image-through-abelian-part",
-  "commit_message": "serre: prove the original integral CM Tate image comes from Raynaud abelian part",
-  "rules_last_read_commit": "96d59f17bf974dd0b6d845ecae8d3c6bedf7dc44",
+  "request_id": "20261116-R902-exact-R809-historical-source-schema",
+  "commit_message": "serre: bind R902 to the exact R809 historical stage schema",
+  "rules_last_read_commit": "d5e0bb575688ee63b9656e18ea3256c12d9b8c39",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "d2c56a99394ef70e8960ae4b2f44a98883c477b46997fdfb6193fd009120a45a",
+  "expected_previous_request_sha256": "0e32fe6f0513835d67735117cbd9a224ec02986f0b0e0521281d83fef9831fcf",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R906-original-period-lattice-and-integral-CM-Tate-image.md",
-      "sha256": "eb1a1e0d4be64bab8222987a9dbdc6e564acafff3aa8f1940dd32ffe8a496cb5",
+      "path": "topics/serre-uniformity/scripts/R902_original_six_Galois_low_weight_RR.py",
+      "sha256": "b0f5510e3279d77462f6e15634d754f3e99f21db3510b2ce7afabd74aa564ee1",
+      "expected_previous_sha256": "cfe2dd5bf3c9d3637cecda855522935492fbb168da5617c47bb7e560e98bf47a"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R902_public_original_six_Galois_low_weight_RR.py",
+      "sha256": "db561206e2a964db520de684975545f03b87017406aad1bcd9c02f7d204d3726",
+      "expected_previous_sha256": "5e3f48e5d2267c5286cefeaf7c150b19d49ec7202a7270b51aee28e14f637096"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R902-R809-historical-source-schema-repair.md",
+      "sha256": "49b19b38848cee7136710ca56a18fefaf4154d2cdd80eb8ce727bd62697bf507",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-integral-Tate-image.md",
-      "sha256": "1e82bf4771e93856e8458b6fe6d39f951375bbd6d276733221ea3b1d10a280b5",
-      "expected_previous_sha256": null
+      "path": "topics/serre-uniformity/notes/R902-six-Galois-low-weight-RR-public-request.json",
+      "sha256": "e20285ca0b66bc47f671c21c85e351b7a642314a1a9687d6e305f9d43036ec83",
+      "expected_previous_sha256": "2f2d91f2e271123b88bfd0908f5a2f11ea9dc68af534178acc27dfa5adf20340"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "6bad7eb970cb73ed99e8e0e6da76d686dface132cefa3254cdc1d55e707fe198",
-      "expected_previous_sha256": "1e82bf4771e93856e8458b6fe6d39f951375bbd6d276733221ea3b1d10a280b5"
+      "sha256": "bf59fe0cd756664820db15ce6f4f1462dd6022a97c3ab7296e3fb6ab18236721",
+      "expected_previous_sha256": "5c302be0b4bdaadc7fb20b2628c8f018c4ae4863c99690f29b5333f67dc8c4cb"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "74096662302d144003b2b38df946e51750e19869e4944d7118a71a678d63761f",
-      "expected_previous_sha256": "b885ebb5687d2e39bad53767f6162a9ce8f798c5bc9da30034aaeaf1709eb92a"
+      "sha256": "348a8b9fc2a1f9781f0dff0ebd7fbd1d9d1b9fc5044930e1772e7fa6c50a3437",
+      "expected_previous_sha256": "74096662302d144003b2b38df946e51750e19869e4944d7118a71a678d63761f"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "23f2e86796a813e5a885c66ac630b7ad5d33d986a8e2356ebe78adb2f58980ee",
-      "expected_previous_sha256": "d36324291145c761aed918e6399b8f5a501aacf8115bc57f9b6648a340c9408c"
+      "sha256": "09a7e12e5226dbf9850dbda074329a482cefea3c449178c238d63ee8b8205edb",
+      "expected_previous_sha256": "a9779a7abcdfad48b6b9d8051967c146dd609c81217d31904e326c84f669c0c6"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R902-six-Galois-low-weight-RR.yml",
+      "request_path": "topics/serre-uniformity/notes/R902-six-Galois-low-weight-RR-public-request.json",
+      "request_sha256": "e20285ca0b66bc47f671c21c85e351b7a642314a1a9687d6e305f9d43036ec83"
+    }
+  ]
 }
