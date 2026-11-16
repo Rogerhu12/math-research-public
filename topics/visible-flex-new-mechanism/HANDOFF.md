@@ -20,15 +20,15 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 ## 3. 当前理论接口与剩余义务
 
-原式/严格范围/历史费用见[results](results.md)，活动任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff。R455/464同真宽/母/右锚付q4/F★/共同20根/非零最高响应；R460 simple-p自动留数及不变解析端芽已付，真range仍保Af partial/平台/整包量/双germ/gap/右锚。原13规范/最高period尚未付。
+完整原式/范围在[results](results.md)，活动任务在[open](open.md)；R495以前详细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)，压缩不撤任何端germ、原成本、whole-period或同规范义务。
 
-**真新cap。** R471完整五门Δ1/2/3/4/6全0 iff完整self比例；R475全12L/8Aj四列minor。R481/487的真compact五控制/logρ lift及3normal有限IFT只给局部下降，未授全局零。R483全尾紧化保远左C，潜在零H有限；R485排critical/uniform全部C，R489排单曲率集中且保两个分离质量窗，未授点态正窗/统一逆。R491完整E=½∫Z³(4U−3Z)dr及ImZ<0不推出E非零；两原子五多项式含全部C/跳变，未判解。R493三原子a1/a2/b1/b2+C完整12L/8Aj及5×5解析J含移动端点/H导；严格内部正则真零可C¹平滑+有限长尾/两矩修正+有限IFT给真光滑cap，但36起点无零，账户已闭。新母仍需q4/F★/20根/原13规范，R479多帽共同c、A7/s、A0/(h³s²)。冻结ψ3完整ImE>0只排该母；R466只限同Jaff/canonical正时长/同端口/M0。
+**真实cap。** R455/464付同真宽/母/右锚的q4/F★/20根与最高响应；R460保simple-p留数和解析端芽，完整Af partial/平台/gap/双germ仍不可删。R471五门Δ1/2/3/4/6全0 iff原完整self比例；R475全12L/8Aj。R481/487真五控制/logρ与有限IFT只付局部下降。R483紧化保远左C≥0，R485排critical/uniform全部C，R489排单曲率集中并保两个分离质量窗；未给统一逆。R491完整E/两原子五多项式不靠相位猜非零；R493三原子5参/解析J的严格正则真零可有限平滑恢复，但36起点无候选、账户闭。冻结ψ3仅排该母；R466仅限同Jaff/canonical正时长/同端口/M0。任何新母仍要从起点安装原库及R479共同c、A7/s、A0/(h³s²)。
 
-**完整真实路径。** R469/472保A/T、双芽、全部第四V及一般w；R476的18维Z只在所述真接口盲。R480扩F≤924生成付全W外三矩，重复A0原型K无漂移，但单份内部K、A≠0桥/全V仍欠。R482原13状态/2共用输入给完整K=F+Chh″+Ckk″，真实Mraw/水平ODE及第三初端常数全保；常scalar另有完整平方门。R484两相位minor非零则保护芽锁定有理延拓，离开须全相位rank降（候选h判别≤12次），实际minor/退化支未判。R486全principal平方及完整两H差=−10∫g″⁴排13状态开域F恒0，不排真实低维路径；54/108生成不是秩，M_c²0不删算子复合。R488真L≡0强分支为k0/ω常/h=Hsec；所有真实入值的二三阶场对v仿射，完整K=(a+bv+cv²)/h。中心全profile清理付b0；单patchGram两even可付，但旧芽锁χ后须同period/13核三条兼容行。t1′=−(1+v²)/8<0排该分支自身M0返回/常collar接合；[R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)对当前even母完整period核（母/平台/gap）证sec奇行β=原P−4/P−3/P−2/HB0四行组合，因此同13核β0，odd残值已锁；实际含中心段须真source商+两中心真实前缀条件0（≤4相位系数），未证残值非零。两个even与真实桥共同像继续。
+R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；严格7A5A7−3A6²>0保正Af/C余项。首原子消失先并Ceff，再全C²/C/1有限差输运五门，新高项受Ceff单侧约束。
 
-[R494](results/R494-complete-secant-pairing-and-real-two-center-source-incompatibility.md)完整sec pairing=−v∫c(u′−yu″)u‴/(4h)，所有原尾保。任意紧输入β不依H、对ω仿射；同ω双真中心odd差=β((A2−A1)D)，同w/source/第三incoming消。P真前缀保有序尾后，∂ωβ(PD)=Σd²∫r⁴/4，π/2严格正。R70原桥A2−A1=tP给除至多一ω外的双中心不相容，非全路径障碍。
+**[R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)新全类门：** A=ReZ、b²=2H−1，原图给A/R≥(b²−1)/2及完整单调相位；精确IBP得ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]dr。因此H≥2时ImE≤−8b³(b²−1)/15015<0，任何实际五门零须 **3/5<H<2**；弱原子/远尾C均保。平方余量另给原比例λ必要区间；有形式八系数通过这些有限门，不当实际cap或剩余区间无解。接真正新四原子/7参及全图问题，不重开旧36。
 
-[R495](results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md)以R=p−(t+1)r给固定r∈[0,1]凹图，准确保C≥0、U/H、Af/simple根、全部8Aj/E及原子跳变。严格7A5A7−3A6²=a7²[3VarX+19E(s²)/3+28E(W/r)/3]>0。首段消失先并Ceff，再全C²/C/1三行有限差输运全部五门；新高项受Ceff单侧约束，不当任意控制。尚未由该正余量分离五门零，继续全局问题。
+**完整真实路径。** R469/472保A/T、双芽、所有W/V和一般w；R480全W外三矩只付重复A0无漂移。R482给原13状态/2输入完整K=F+Chh″+Ckk″，第三入值/真实Mraw不删；R484离开保护芽要实际rank退化，R486排开状态域F恒0而非所有路径。R488真sec支(k0,ω常,h=Hsec)的全K=(a+bv+cv²)/h，t1′<0排自身M0返回/常collar接合；R492 even母period核odd β锁在原13行中。R494任意紧输入β不依H/对ω仿射，双真中心odd差只读β((A2−A1)D)；R70桥tP除至多一ω有严格残值，不能由同w/后置复位消，但非全路径障碍。单段even、真实桥全s与全部成本须同一规范解；高阶收敛与主几何仍欠。
 
 ## 4. 当前真正接受点55与闭合任务
 

@@ -364,3 +364,8 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 09:41:41 UTC — 新9已付coarse原输入同600秒续接源码发布
 
 [最小续接设计](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)：只修geometry的a[:,None]，以新resume_input一次读原失败partial MODEL恢复完整粗网；该分支不begin/charge、不ordinary，fine仍唯一剩余necessary。scope原LIMITS不动，从原75.06856296999999秒/started1起算全部当前imports/input/科学/输出；bootstrap同样保旧账。主入口只接这两个接口，完整field/selected/model/solver/line/actual及原14门/172盒不变。12源码+绑定原3记录/原请求/原final账随本提交；canonical request变化触发同公开workflow后继。0本地科学/开发；原失败永久保留，旧135值下界不丢，课题继续。
+
+
+### 2026-11-16 09:47:15 UTC — R496 完整复cap相位与H≥2严格排除
+
+[R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)已证明完整Z相位单调及A/R≥(b²−1)/2；保所有原端项/C≥0的一次IBP给ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]。H≥2即b²≥3，故ImE≤−8b³(b²−1)/15015<0，全部真实五门零/原弱零极限必须3/5<H<2，强于原大H界；不是只凭扇形猜号。另将严格平方余量接原λ区间并付A6与A7真实端界；一个准确形式八系数通过所列有限门，说明未解3/5<H<2不能被该有限代数条件宣无解。0新执行；继续真正新四原子全量模型/全图构造及主几何。
