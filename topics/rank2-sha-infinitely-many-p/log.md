@@ -486,3 +486,5 @@
 - 2026-11-16 16:36:03 UTC / Astra-rank2-Sha-continue：本地16:31环境失联后，按已授权现有只读workflow更新rule-sync-request，真实执行稀疏git pull --rebase及两README差异/规则15库存；尚未把请求记为已pull。继续P精确证书/真RR和原三理论门。
 
 - 2026-11-16 16:46 UTC / Astra-rank2-Sha-continue：原306/eta48真实取消日志已读，精确定位可分性gcd及U恢复，未到正规化/RR；中间hash/原来源全记，不冒PASS。16:36:18只读CI实际pull成功、两README差异空、题库存34.275MB已核，继续改进原精确代数并推进P和三理论门。
+
+- 2026-11-16 16:50 UTC / Astra-rank2-Sha-continue：R907§6.1长短窗L>h的实际全续接核零完整即推；阶h首项先迫每个合法后继的修正a=0，再用原3b<p单位charge投影和全帽。仅排0..3b共同测试，不添原中央条件或认整个K零；继续非稳定forcing与RR精确恢复。

@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：a3d10cc8a9f665895f35032a422f19e0c414a82d；2026-11-16 16:45:29 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：df1e7c4e80f802a638de20ea8b75f4464597835a；2026-11-16 16:46:04 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -66,7 +66,7 @@ R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reade
 
 [R903](results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)同核正水平V1−3bV0亦单射，需H*>2κ/T>3(e_++μ01)；原r2/m3/b≥5自动付帽门，非零核必要T+e_+≤3κ。两端共用同G/V2，未把消失除子或秩相加。
 
-[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)同核真实后继唯一TG=EG−aF³，a由E⁴G(P)/(6e(P)³)固定，两个native尾保。原r2/m3全charge帽付真稳定部分K∞到零纤维单射、dim≤6与首一Qf(T)；3b+7步精确测试。未认全K稳定/forcing。
+[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)同核真实后继唯一TG=EG−aF³，a由E⁴G(P)/(6e(P)³)固定，两个native尾保。原r2/m3全charge帽付真稳定部分K∞到零纤维单射、dim≤6与首一Qf(T)；3b+7步精确测试；§6.1在L>h时给K∞=0及0..3b共同测试核零。未认全K稳定/forcing。
 
 ## 其余原门与同步
 
