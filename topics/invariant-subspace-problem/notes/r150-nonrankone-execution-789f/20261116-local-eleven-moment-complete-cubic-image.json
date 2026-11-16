@@ -1,0 +1,51 @@
+{
+  "format": "r150-local-execution-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-eleven-moment-quadratics-complete-cubic-image-789f.py",
+    "blob": "4fadfb182adbe117c3fcda39ba1eaa62e1e598bb",
+    "bytes": 11012,
+    "sha256": "396dacccfbe839d8964b4760b4955d3168c9823988570c4e35dbfc67d4683816"
+  },
+  "parameters": {
+    "argv": [
+      "--low-out",
+      "{work}/original-twelve-gradient-low-normal-forms",
+      "--out",
+      "{work}/original-eleven-quadratic-leading-image",
+      "--seconds",
+      "120",
+      "--memory-mib",
+      "1024"
+    ],
+    "seconds": 120,
+    "memoryMiB": 1024,
+    "pythonFlint": "0.9.0"
+  },
+  "completedUtc": "2026-11-16T05:27:37.028634+00:00",
+  "execution": {
+    "startChunk": "1b7814",
+    "sessionId": 12685,
+    "completionChunk": "778c22",
+    "exitCode": 0,
+    "elapsedSeconds": 2.4527091679992736,
+    "maxResidentKiB": 137508,
+    "binding": "41ee91c353da2b8a33bbb631d46bc48e11709dcf42e131ebf4d417c7a3e98b63"
+  },
+  "outputs": {
+    "receipt": {
+      "path": "original-eleven-quadratic-leading-image-receipt.json",
+      "bytes": 2014,
+      "sha256": "c4603bc4700a4e6226b2edcf4e90d5cfc0e0c4e3875568022db40cf88d34f019"
+    },
+    "model": {
+      "bytes": 1653920,
+      "logicalBytes": 3341015,
+      "logicalSha256": "da5839f34930081d56df84d9d803daf2b226ac98de8364135463f6f94b6db1d2",
+      "path": "complete-original-eleven-quadratic-leading-model.json.gz",
+      "sha256": "005484500176a294a3a14788843f1ad50031f2e2bce3e599c512e45ac5dacbb6"
+    }
+  },
+  "persistence": "No computed matrix or raw receipt is committed."
+}
