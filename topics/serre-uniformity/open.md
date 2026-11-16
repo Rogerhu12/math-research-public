@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保于[固定理想结果前open](notes/2026-11-16-open-before-fixed-ideal-result.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+最新完整前态逐字保于[单Z消费者登记前open](notes/2026-11-16-open-before-single-Z-consumer.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
 
 **直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
 
@@ -57,11 +57,11 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R787最新545断点**：[接续记录](notes/R787-545-digit-checkpoint-and-same-core-continuation.md)run43795851660/source9eeabe9c真BudgetStop；lift76988028B/2aa94259，manifest66c3fdb0/1262与545条history/compaction一致，artifact14198754717/a188db0f至Nov17 05:05:48。只改resume，120min/core93d3/wrapper42157冻结，从546继续；小件IO不冒称大lift已重哈希，后继Actions全核恢复。无关系/A.1成功或新q排除。
 
-**R787展开坐标**：[失联恢复](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)中，旧run43766834509仅证runner与服务器失联、无新数学产物；恢复原518来源，只将预算改120min，core/wrapper不变；新[518全格](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)已闭：run43766834526，1742秒，全56格detU1/56新D全m1非零，旧拒复用0；不推518不足或原关系不存在。final25631ecf/artifact14183618203至Nov16 22:31UTC。旧430/42/56/98与Ω结论保全，不重复；准确展开函数仍未得。
+**R787旧已闭边界**：[518全格](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)56格detU1/56D全m1非零，旧430/42/56/98与Ω、失联恢复均继承；不是关系不存在。完整source/pins逐字在本次归档，不重旧格。
 
 **R815最新696断点**：[接续记录](notes/R815-696-prime-checkpoint-and-same-core-continuation.md)run43777837244/source7cddfd0d真实结束，退出124、无core receipt；g/component0最后1000014397/20809bits，current919902566B/506e675a与696step9195c6b2/manifest8c03d9bc一致。artifact14198893567/c403e270至Nov17 05:07，resume更新此源；300min/core80516ff9/wrapperab725da0及原模式冻结。只读小件/manifest，不称大current已本地重哈希；后继公开全核续接，Mg/Γ未成。
 
-**R815算子**：[582完整素数断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)旧run43748439850自然BudgetStop；g/component0、最后1000011869、17401bits、current769309011B/67e7fe98，step5a585884与manifest460daad8一致。artifact14186797329/e07f91b7至Nov16 23:48:02；53输入109MB/051571e1不变。本次只resume续582，request9155a3ef；原targets/prime/mode及core/wrapper冻结。Mg/Γ未成；[三列及49拒](notes/R815-three-known-columns-ended-and-denominator-boundary.md)、[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)均已闭，不重跑。
+**R815旧已闭边界**：582以前完整来源及[三列49拒](notes/R815-three-known-columns-ended-and-denominator-boundary.md)、[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)直接继承，全部pins在归档；不得重跑旧扫描或把小probe当完整Mg/Γ。
 
 **R824**：[501完整断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)run43762208712/sourcea75fdaa7真实BudgetStop；currentcd8dcb11/history01f47338/lifta2f5c38c、manifestd2d54554、artifact14192476595/7f1c8d82。仅换resume从502，原27权5+244权6继续，1186归R787；129/142/280Q、κ/246一次、r28不补143..155。完整准确生成后才1778minor/1206。
 
@@ -143,3 +143,5 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 **R860原函数域/微分下降（已证明）**：[余子式定理](notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md)8c9ea5ae。原W上A=TI−W、D=adj(A)00、N=adj(A)0,72（删行72/列0）；D首一T271保证D(z,w)非零，β72=N/D，总次数271/272。原cY按barF(z−2N/D,w)；实际normal右端可用同D和有边框行列式，不先Krylov全逆。原D0与c交换且cτ=τ，故δ/ν=82τdq/q下降，FM23真实比值1。D可能在点消失，仍按原正规两图membership；实际余子式展开、RR核及period未成。W34真实缓存已取，三共轭/W不重算。
 
 **R861原逆different的逐标签Néron校准（已证明）**：[结果](results/R861-original-CM-Neron-Fourier-basis-and-normal-parameters.md)3461121b。保原r0/α及b/16，准确惯性投影v首项非零且u=r/v是原L单位；f_h=u v^(1−h), h=6a+1是完整逆different基，β_h=v^-hΣ_iξ^-ihω27,i准确对应p-unit Fourier基。primitive筛后canonical Néron basechange指数为(p−1)h；X_h^can=v^-h c*Y_h是整Néron参数，原G_h在w∈pR0等于同一q拉回（已列unram单位/同标签变换）。这具体化原normal余项来源，未给M_h值、首系数单位或原q拉回饱和，须继续原源映射。
+
+**R858单Z消费者已冻结、待真实响应**：[执行接口](notes/R858-frozen-single-Z-consumer-and-pending-response-source.md)。core85fd249b/helper767b01cb/wrapperfb77d8fb/workflowe9591fa4保原839DAG/四响应切口/17常量/五C，七步加法链＋全tail＋完整σ与Trace14/2给Z/五椭圆行。pending 5288ae54仍source/input=null，未触发；R854真实完成球到达后才启用，不能用辅助素数lift或精度目标代值。Y/原Hecke/nonp/完整height仍开。

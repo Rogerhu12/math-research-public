@@ -1,0 +1,348 @@
+{
+  "ball_helper": "R858_original_p41_ball_arithmetic.py",
+  "ball_helper_sha256": "767b01cba9bfa966d1a545b72abe51fe0b9edc407638db5947ec5dba28637fa3",
+  "budget_minutes": 300,
+  "core": "R858_original_p41_single_Z_consumer.py",
+  "core_sha256": "85fd249b705005e1ad81712350990414915eb78f3d4622571bc2361183b7521e",
+  "exact_leaf_B_precision": 256,
+  "inputs": {
+    "R852_certificate": {
+      "bytes": 7615,
+      "file": "p41-original-one-Z-coefficients-certificate.json",
+      "sha256": "e9acbfa243d1fb3e5dca1b053f1e344d680edf5fd6e623ebe05cd74a0232ce40",
+      "source_group": "R852"
+    },
+    "coefficient_program": {
+      "bytes": 102873,
+      "file": "R852-one-Z-coefficient-program.json.gz",
+      "sha256": "bf0a518c81b61a8a0cf2dca9a73cf07397a9fd2c737a40e73b4c0f7d6935e3b6",
+      "source_group": "R852"
+    },
+    "exact_C_coordinates": {
+      "bytes": 17253,
+      "file": "R852-one-Z-five-exact-C-coordinates.json.gz",
+      "sha256": "621199e5ac259d7a8993e3dfedf540bb37635a997a742cff4436562872d0570e",
+      "source_group": "R852"
+    },
+    "four_response_balls": null,
+    "galois": {
+      "bytes": 15617,
+      "file": "R791-original-Hom-Galois-matrices.json.gz",
+      "sha256": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183",
+      "source_group": "R791"
+    },
+    "implicit_CM": {
+      "bytes": 72708,
+      "file": "R787-implicit-CM-exact-source-bound-implicit-expression.json.gz",
+      "sha256": "21cc66ed9a40a856edea495080ef2e375aefea6c6f17d6c26741b85e2f174342",
+      "source_group": "CM"
+    },
+    "response_certificate": null,
+    "tangents": {
+      "bytes": 20760,
+      "file": "R791-original-twelve-CM-tangents.json.gz",
+      "sha256": "32be372f46560ce7cfc0af40666cdc32b39170bfc7b6ec32b92ea747a0629e7e",
+      "source_group": "R791"
+    }
+  },
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "maximum_series_terms": 10000,
+  "observed_pending_response_run": {
+    "published_artifact_known": false,
+    "run_id": "43805506433",
+    "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3"
+  },
+  "p": 41,
+  "pending_reason": "The original R854 run is still running; no future artifact, complete response stage or producer identity is fabricated.",
+  "producer_inputs_pending": true,
+  "proofs": {
+    "41S": {
+      "path": "notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md",
+      "sha256": "133d64af94c4dba1262ce240e3ac23db5d1c24158f922cf3ba6419fa855af1eb"
+    },
+    "SP": {
+      "path": "notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md",
+      "sha256": "a06a80ea0d857520a9dbbd1bd18f75cce147403b812a9752e0760703ed1e16f9"
+    },
+    "ZA": {
+      "path": "notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md",
+      "sha256": "268fa3fbb9647d7f6f3f781534d9425e09c45ad7945e9aea9a9abd2082834d97"
+    },
+    "consumer": {
+      "path": "notes/2026-11-16-original-41-single-Z-consumer-source-contract.md",
+      "sha256": "569aa684267e4c4ae76581ce6ad6c6b4fd2ad62b45869ed87809a4c22151eeee"
+    },
+    "method": {
+      "path": "notes/R858-original-p41-single-Z-from-chain-and-tail.md",
+      "sha256": "39bca8a312c32b81f0813100dcbdbe4ff4a11f9cb66abbab6a9af98c1a66bbf7"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R858-original-p41-single-Z-and-elliptic-rows",
+  "resume": null,
+  "rules_last_read_commit": "9762653a88d7c1eac1b02573ba23da4604adffe6",
+  "series_block_size": 16,
+  "session": "serre-public-astra-20261115",
+  "source_IO_parent": "R852_public_original_one_Z_coefficients.py",
+  "source_IO_parent_sha256": "873097d8462f1f20d8cb05adb2e5b3261bbea44a1a58de12a05e9286970dee3c",
+  "source_transport_helper": "R850_public_original_rigidified_fibres.py",
+  "source_transport_helper_sha256": "ff318ca06e5bf2a385c866df2abb0ea102d6606eb2af2a818a0493f075b123cf",
+  "sources": {
+    "CM": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 96435463,
+      "archive_sha256": "0ae63e2c65f2f45ac759bc948ea57203b36e1645899ebe409c38f0d879c39d94",
+      "artifact_id": 14185198226,
+      "artifact_name": "serre-global-R787-implicit-CM-value-43773420733-1",
+      "certificate": {
+        "bytes": 5768,
+        "file": "p41-original-implicit-CM-value-certificate.json",
+        "sha256": "5de210b5ebb2a8a7fefcc8799888a68353c9c2ac10725fafa239d2bd1082d20c"
+      },
+      "configuration_sha256": "2a3bd8cee0b9db0e645ecd94b2db8651d046ac67ea5134e31ead7e77f9ff7829",
+      "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+      "expected_conclusion": "success",
+      "files": {
+        "R787-implicit-CM-denominator-unit-witness.json.gz": {
+          "bytes": 2465,
+          "file": "R787-implicit-CM-denominator-unit-witness.json.gz",
+          "sha256": "758f53d27bbf30041f07d94e96a64c53976e39170c1f2afc0a306435eaa1c05d"
+        },
+        "R787-implicit-CM-exact-source-bound-implicit-expression.json.gz": {
+          "bytes": 72708,
+          "file": "R787-implicit-CM-exact-source-bound-implicit-expression.json.gz",
+          "sha256": "21cc66ed9a40a856edea495080ef2e375aefea6c6f17d6c26741b85e2f174342"
+        },
+        "R787-implicit-CM-source-audit.json.gz": {
+          "bytes": 4443,
+          "file": "R787-implicit-CM-source-audit.json.gz",
+          "sha256": "35ec98ffc33ae6f18c378d222946ec85e1c9e841cdb7d38e4a9abbfa801b3d31"
+        },
+        "core-receipt.json": {
+          "bytes": 474,
+          "file": "core-receipt.json",
+          "sha256": "d73832811e4817afbaddb6919db3b062362485aaf7d8a3d50c6f38ac34403cb7"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 37636,
+          "file": "full-outputs-manifest.json",
+          "sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642"
+        },
+        "p41-original-implicit-CM-value-certificate.json": {
+          "bytes": 5768,
+          "file": "p41-original-implicit-CM-value-certificate.json",
+          "sha256": "5de210b5ebb2a8a7fefcc8799888a68353c9c2ac10725fafa239d2bd1082d20c"
+        },
+        "public-actions-input.json": {
+          "bytes": 37427,
+          "file": "public-actions-input.json",
+          "sha256": "6e25d100701272eaad69719a50c9c0a65c27ee2b6d656669fb30afdc505ab780"
+        },
+        "run-receipt.json": {
+          "bytes": 458,
+          "file": "run-receipt.json",
+          "sha256": "398e2ca7ac82fc0bdb47cce6362589ce350c7426140d15261ef4e8de9ba90648"
+        }
+      },
+      "manifest_bytes": 37636,
+      "manifest_file_count": 254,
+      "manifest_sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R787-original-implicit-CM-value",
+      "run_id": "43773420733",
+      "selected_file_count": 8,
+      "selected_files_sha256": "8aa20a1e2c215c4d7cc0fa07dd4a5ef1a572e8802ecbfde60a06ff671082d4f7",
+      "source_commit": "c3bcfc0dbbcd3a045349ec4500886100851a0d84",
+      "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4"
+    },
+    "R791": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 49237,
+      "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+      "artifact_id": 14149997458,
+      "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+      "certificate": {
+        "bytes": 2298,
+        "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+      },
+      "configuration_sha256": "eb3d071456820745d7f87ba639c8955b225714f1f2729053cbd03ebb7edfb174",
+      "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+      "expected_conclusion": "success",
+      "files": {
+        "R791-original-Hom-Galois-matrices.json.gz": {
+          "bytes": 15617,
+          "file": "R791-original-Hom-Galois-matrices.json.gz",
+          "sha256": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183"
+        },
+        "R791-original-real-descent-and-eta-basis-inputs.json.gz": {
+          "bytes": 5573,
+          "file": "R791-original-real-descent-and-eta-basis-inputs.json.gz",
+          "sha256": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+        },
+        "R791-original-twelve-CM-tangents.json.gz": {
+          "bytes": 20760,
+          "file": "R791-original-twelve-CM-tangents.json.gz",
+          "sha256": "32be372f46560ce7cfc0af40666cdc32b39170bfc7b6ec32b92ea747a0629e7e"
+        },
+        "core-receipt.json": {
+          "bytes": 651,
+          "file": "core-receipt.json",
+          "sha256": "7250031176cf62eabbcf3227fda6d5f246cd1ecfb333a2722f007008a81d57d7"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 1814,
+          "file": "full-outputs-manifest.json",
+          "sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc"
+        },
+        "p41-original-Hom-Galois-and-eta-input-certificate.json": {
+          "bytes": 2298,
+          "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+          "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+        },
+        "public-actions-input.json": {
+          "bytes": 3829,
+          "file": "public-actions-input.json",
+          "sha256": "cb32359976e9c2509431c91f24d967e91745892d20b6aab1d4a355238c7d3701"
+        },
+        "retained-inputs-receipt.json": {
+          "bytes": 2942,
+          "file": "retained-inputs-receipt.json",
+          "sha256": "c3042fd67a3b0d346eb171e06e5a9743121d61c2c0664d9f18a4bee34cce7123"
+        },
+        "run-receipt.json": {
+          "bytes": 304,
+          "file": "run-receipt.json",
+          "sha256": "12baf0939ac19584a0117efc2677e44165a14c027c9e3eb4331f099d8d664909"
+        }
+      },
+      "manifest_bytes": 1814,
+      "manifest_file_count": 9,
+      "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+      "original_readme_sha256": {
+        "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R791-original-Hom-Galois-and-eta-inputs",
+      "run_id": "43686308194",
+      "selected_file_count": 9,
+      "selected_files_sha256": "d0d6e791dd51ef62c33fa91dc3e370aeaac467bab597a74fde26ce8eafb5b1f4",
+      "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "wrapper_sha256": "15568f21c367938830700b6178222a54b5ba0977e5de876d982db3b6cb5effe7"
+    },
+    "R852": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 2743138,
+      "archive_sha256": "01ae4657b56387080bc44b9f10b841e0c29499ffce02e2046b1a3794c26cd45d",
+      "artifact_id": 14196442913,
+      "artifact_name": "serre-global-R852-original-one-Z-coefficients-43801628875-1",
+      "certificate": {
+        "bytes": 7615,
+        "file": "p41-original-one-Z-coefficients-certificate.json",
+        "sha256": "e9acbfa243d1fb3e5dca1b053f1e344d680edf5fd6e623ebe05cd74a0232ce40"
+      },
+      "configuration_sha256": "f15d53fdcc6f22ae197a3fcc9110c5729bbae2220beca0f6d8844c4121d68e1a",
+      "core_sha256": "2fc8df00b14e14f275a40250ee48bb4a6d076ace1a4ff4017ff421233e9e42cb",
+      "expected_conclusion": "success",
+      "files": {
+        "R852-one-Z-coefficient-program.json.gz": {
+          "bytes": 102873,
+          "file": "R852-one-Z-coefficient-program.json.gz",
+          "sha256": "bf0a518c81b61a8a0cf2dca9a73cf07397a9fd2c737a40e73b4c0f7d6935e3b6"
+        },
+        "R852-one-Z-five-exact-C-coordinates.json.gz": {
+          "bytes": 17253,
+          "file": "R852-one-Z-five-exact-C-coordinates.json.gz",
+          "sha256": "621199e5ac259d7a8993e3dfedf540bb37635a997a742cff4436562872d0570e"
+        },
+        "R852-one-Z-original-source-inventory.json": {
+          "bytes": 2285,
+          "file": "R852-one-Z-original-source-inventory.json",
+          "sha256": "cfb8d3db04f077cb5fa20cabf7c544298262991a152ee1ee9695e304e388bd07"
+        },
+        "R852-one-Z-retained-inputs-receipt.json": {
+          "bytes": 2556,
+          "file": "R852-one-Z-retained-inputs-receipt.json",
+          "sha256": "b9ac59a972c75aea8c9cb41351ca72f917ed3743fbea6edf2fd1d2da244c6e98"
+        },
+        "R852-one-Z-retained-original-inputs.tar.gz": {
+          "bytes": 2529608,
+          "file": "R852-one-Z-retained-original-inputs.tar.gz",
+          "sha256": "44d40476878e6de8a2121e81b2ab6f68e57d3b4c19857119095f7477e978f8b4"
+        },
+        "R852-one-Z-source-audit.json.gz": {
+          "bytes": 3362,
+          "file": "R852-one-Z-source-audit.json.gz",
+          "sha256": "3249fb11d2f27b3f4f69d8cee270ef4ca8458aa36022a95313975beb6e34ced4"
+        },
+        "R852-one-Z-stage-manifest.json.gz": {
+          "bytes": 3199,
+          "file": "R852-one-Z-stage-manifest.json.gz",
+          "sha256": "ea2102869e32944af500d4efd769b1ac7d0e811ec243dd1f1d743b1ced580699"
+        },
+        "core-receipt.json": {
+          "bytes": 6189,
+          "file": "core-receipt.json",
+          "sha256": "473862ad143047290a5f3e989fbc328a8d381f9d856acbe811e1cc5350f1a40a"
+        },
+        "full-outputs-manifest-reference.json": {
+          "bytes": 231,
+          "file": "full-outputs-manifest-reference.json",
+          "sha256": "79506c2eac37d0a40fe8f99fa5ed1fa3beb66b756499fe8ae70a80a5c1da6502"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 1918,
+          "file": "full-outputs-manifest.json",
+          "sha256": "dde01718b0bbe90f052a166cb8b8072345b3e9a4e156ec2a9be5bbf72447f301"
+        },
+        "p41-original-one-Z-coefficients-certificate.json": {
+          "bytes": 7615,
+          "file": "p41-original-one-Z-coefficients-certificate.json",
+          "sha256": "e9acbfa243d1fb3e5dca1b053f1e344d680edf5fd6e623ebe05cd74a0232ce40"
+        },
+        "public-actions-input.json": {
+          "bytes": 63421,
+          "file": "public-actions-input.json",
+          "sha256": "5b80af283dca0e377a96390a84b47ed4aa161f8f343a1ac44d30a53eab1d220a"
+        },
+        "run-receipt.json": {
+          "bytes": 540,
+          "file": "run-receipt.json",
+          "sha256": "5c85d287f48cec8fca073c565f450b26bb9ad159c65565a02768fd894d9ebf8b"
+        }
+      },
+      "manifest_bytes": 1918,
+      "manifest_file_count": 11,
+      "manifest_sha256": "dde01718b0bbe90f052a166cb8b8072345b3e9a4e156ec2a9be5bbf72447f301",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R852-original-one-Z-coefficients-and-constant-DAG",
+      "run_id": "43801628875",
+      "selected_file_count": 13,
+      "selected_files_sha256": "39cf28306d50e38626351d2435f1d878e8e3ff59fc85b0f31f30e0bcac8f1cc5",
+      "source_commit": "d0023643ba47099947b6753010d8e7c8120a214c",
+      "wrapper_sha256": "873097d8462f1f20d8cb05adb2e5b3261bbea44a1a58de12a05e9286970dee3c"
+    },
+    "R854": null
+  },
+  "target_Z_B_precision": 7,
+  "target_elliptic_row_B_precision": 7,
+  "workflow": ".github/workflows/serre-R858-original-p41-single-Z.yml",
+  "wrapper": "R858_public_original_p41_single_Z.py",
+  "wrapper_sha256": "fb77d8fb452a5efbc2cc8e9b7af8a090813ebd9c9e8fb416ee62ea09be88c8ab"
+}

@@ -1,0 +1,134 @@
+name: Serre original p41 single Z and elliptic rows
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R858-original-p41-single-Z-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R858-original-p41-single-Z
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R858-original-p41-single-Z-public-request.json
+      - name: Pull main and compare both rule files with the read commit
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R858-p41-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          name='topics/serre-uniformity/notes/R858-original-p41-single-Z-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+name]))
+          assert request['producer_inputs_pending'] is False
+          assert request['sources']['R854'] is not None
+          subprocess.run(['git','checkout','-B','r858-p41-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          actual={key:hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                  for key,path in [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          changed=actual!=request['readme_sha256']
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':request['readme_sha256'],'rules_changed':changed}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('R858_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if changed:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('Read the changed README files before new arithmetic.')
+          PY
+      - name: Preserve the actual pull receipt for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R858-p41-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R858-p41-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  compute:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R858_original_p41_single_Z_consumer.py
+            /topics/serre-uniformity/scripts/R858_original_p41_ball_arithmetic.py
+            /topics/serre-uniformity/scripts/R858_public_original_p41_single_Z.py
+            /topics/serre-uniformity/scripts/R852_public_original_one_Z_coefficients.py
+            /topics/serre-uniformity/scripts/R850_public_original_rigidified_fibres.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R858-original-p41-single-Z-from-chain-and-tail.md
+            /topics/serre-uniformity/notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md
+            /topics/serre-uniformity/notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md
+            /topics/serre-uniformity/notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md
+            /topics/serre-uniformity/notes/2026-11-16-original-41-single-Z-consumer-source-contract.md
+            /topics/serre-uniformity/notes/R858-original-p41-single-Z-public-request.json
+            /.github/workflows/serre-R858-original-p41-single-Z.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse source files without importing mathematical modules
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          base=Path('topics/serre-uniformity/scripts')
+          names=('R858_original_p41_single_Z_consumer.py','R858_original_p41_ball_arithmetic.py',
+                 'R858_public_original_p41_single_Z.py','R852_public_original_one_Z_coefficients.py',
+                 'R850_public_original_rigidified_fibres.py','R824_public_original_global_polar_generators.py')
+          for name in names:
+              path=base/name
+              ast.parse(path.read_text(),filename=str(path))
+              print('AST_OK',name)
+          PY
+      - name: Consume the actual original p41 responses and compute the single Z
+        run: |
+          python topics/serre-uniformity/scripts/R858_public_original_p41_single_Z.py compute \
+            --out "$RUNNER_TEMP/R858-p41-single-Z/output"
+      - name: Verify all completed stages and original source bytes
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R858_public_original_p41_single_Z.py verify \
+            --out "$RUNNER_TEMP/R858-p41-single-Z/output"
+      - name: Preserve the actual precision and completed source-bound stages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R858-original-p41-single-Z-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R858-p41-single-Z/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

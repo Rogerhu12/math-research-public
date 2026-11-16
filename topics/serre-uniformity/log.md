@@ -428,3 +428,9 @@
 - 11次Range/808536B读四小件与完整manifest；大current/ZIP只引原身份。请求只改resume为artifact14198893567/c403e270，300min/core80516ff9/wrapperab725da0/framework849bca27及原目标/模式冻结，全部旧阶段续载，不重1–696/49拒/九维调度。
 - R787545接续已推834098ca，真实新run正查询；R858封装/原源核读取完整，后续登记pending，R854仍在原41数学步。
 - 本push规则：本地真实pull至9762653a88d7c1eac1b02573ba23da4604adffe6（2026-11-16T05:21:35.448841+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:25 Asia/Taipei — serre-public-astra-20261115
+- R858完整单Z消费者登记：core85fd249b/helper767b01cb/wrapperfb77d8fb/workflowe9591fa4，原七步链/全tail/负赋值球/完整σ/Trace14/2及cχ保留；R85213/CM8/R7919及原9+270叶已纯IO核，未运行本地数学。
+- pending request 5288ae54保真实R854 source与两input=null，无未来artifact/假球，不触发。后继只消费真实响应及全残差/逆界闭包，保完成stage/精度；Y/Hecke/nonp/height仍未成。
+- R787新run43809321438/job133107261923已在原数学步；R815新run43809724947/source8adc90df已实际触发。H/open逐字归档后压缩重复旧断点，全部边界仍保留。
+- 本push规则：本地真实pull至505428b6dea898190f7afb07a3ae9a9183621829（2026-11-16T05:25:15.979714+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
