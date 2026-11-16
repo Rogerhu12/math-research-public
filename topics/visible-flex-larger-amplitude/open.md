@@ -44,6 +44,8 @@ R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前
 
 **已证明（限准确场条件下的同图像、点包围与显示投影命题）**：[R461](results/R461-current-accurate-closed-multitime-display-and-projection-scope.md)/[接口](notes/2026-11-16-current-accurate-multitime-display-interface.md)及独立source41002B/f3211ba9已全读发布。三个真实112/细化112/M族都调用当前准确cut的完整675解释器及同源固定帽；不调用旧A.numeric冒新cut。默认物理角显示同一完整图像，固定首q模式另需真实R457 A/B；入口反射来自实际normalize_inlet，帽保全marker并不旋转。每个PLY顶点保xyz与三个向外binary64半径，实际摘要分别保点包围宽度、最终投影和合计误差最大值及地址；不外推三角面内、BVP误差、全t或嵌入。默认0、1/2、1和8/8/4/32只是可改显示工作量；每件压缩前后严格小于5000000B，同原钟/单90KB/70，原未访与中断统计尚未建立范围均保。源不启动子程、不清理、不上传raw；只发布源/配方/run/SHA。当前无实际网格或显示运行，不改或延后207首版，不预付任何README完成项。
 
+**已证明（限所列完整来源与包含条件）**：[R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)/[接口](notes/2026-11-16-incremental-M-complete-far-union-interface.md)给出独立union52848B/5da13c5f、worker18663B/b536850a、client23746B/d9db5098。固定同准确C/全根族、同物理far和真实正μ词时，单模态物理方程与取向行不依赖所保留其它模式数；故旧完整112族、全部候选误差和两系数字可保留，新模式仍真调用原point_column/N.form。旧Π系数移至新M偏移列，全M外包包含每个共同C真实向量，却不证明任意数值代表共同实现。旧112 data先按原binding完整读取，新M deep另完整付；新增模式保真实全局索引与旧far/μ，全部其它grid/native/J/全4M+2仍fresh。三源及两完整差异已读，原M数学核不改；单90KB/原绝对钟/未访与原账/无cleanup保持。当前没有实际新M行或时间收益，driver/checkpoint/owned caller注册仍待R463及后继；207首版继续全M重算，不受本刊影响。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
