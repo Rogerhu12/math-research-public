@@ -1,0 +1,490 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-generalized-E8-one-source-bockstein300",
+  "executionSourceCommit": "e70f5b5406d0a2648190a81122a6de5e8afcdaf0",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-complete-generalized-source-bockstein-789f.py",
+  "scriptSHA256": "ef64345c95bdb156843ce346c269ed6fc84ef6d94746848118ab201f1aba2261",
+  "argvTemplate": [
+    "--model-out",
+    "{work}/original127-model-all6188",
+    "--normal-forms-out",
+    "{work}/original127-normal-forms-all6188",
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--profile-out",
+    "{work}/original127-critical-primary-profiles",
+    "--detectors-out",
+    "{work}/original127-generalized-critical-detectors-v2",
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--sources-root",
+    "{scripts}",
+    "--factor",
+    "E8-1",
+    "--detector-receipt-bytes",
+    "5461",
+    "--detector-receipt-sha256",
+    "ca99e3cba1d61dacdd64928fc1b20869e684edf943868117aa9344a8fd2617e7",
+    "--out",
+    "{work}/original127-generalized-source-bockstein-E8-1",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096",
+    "--compile-seconds",
+    "30",
+    "--through",
+    "final"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 15.596754708001754,
+  "fullTemporaryReceiptBytes": 12201,
+  "fullTemporaryReceiptSHA256": "660068006e30746d8787530cb9a1651435b26489dce72802e0922f91a51912b4",
+  "result": {
+    "binding": "787000d206c7b80e6874745b4306f6728c1d24c808dfa36c662a879415b91593",
+    "elapsedSeconds": 15.502927346999058,
+    "format": "r150-original127-complete-generalized-source-bockstein-v1",
+    "outcome": "complete-first-coefficient-image-zero-on-selected-primary",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "all1834OriginalZeroSourcesCovered": true,
+      "allFirstCoefficientImageDirectionsHaveOriginalVerifiedGenerators": true,
+      "allLargeArraysTemporaryOnly": true,
+      "allOriginal6188IntegerScalarProductsDivisible": true,
+      "allOriginalCoefficientChecks": {
+        "all4433PrimitiveToPaidModelCoefficientChecks": true,
+        "all6188OriginalSourceIdentitiesVerified": true,
+        "primitiveDecodedBytes": 158741,
+        "primitiveDecodedSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+      },
+      "allOriginalRestrictionProductsReverified": true,
+      "allSelectedPositiveGeneratorsOriginal4367Verified": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "characteristicZeroTargetMembershipInferred": false,
+      "coefficientModulus": 16129,
+      "compileReused": false,
+      "compileSeconds": 5.432326404001287,
+      "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "completeFirstCoefficientImage": {
+        "all1834OriginalDetectorCoordinateProductsVerified": true,
+        "all1834SourcesInCompleteImageVerified": true,
+        "allOriginalImageParameterProductsVerified": true,
+        "completeFirstCoefficientImageDimension": 0,
+        "completeImageActionProductCoordinates": 0,
+        "higherCoefficientTorsionExcluded": false,
+        "imageCharacteristic": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "imageMinimalPolynomial": {
+          "coefficientSHA256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a",
+          "coefficients": [
+            1
+          ],
+          "degree": 0,
+          "factorProductVerified": true,
+          "factorizationUnit": 1,
+          "factors": []
+        },
+        "nonzeroZeroEndpointsNotDimension": 0,
+        "onlyFirstCoefficientImage": true,
+        "originalDetectorCoordinateProducts": 22008,
+        "originalGlobalZeroSources": 1834,
+        "originalPrimaryDimension": 10,
+        "selectedActualOriginalSourceCount": 0,
+        "selectedCoverageRanks": [],
+        "selectedOriginalSourceCyclicSpansComplete": true,
+        "selectedPrimaryCharacteristicVerified": true
+      },
+      "completeFirstImageDimension": 0,
+      "completeOriginalZScan": {
+        "GBReductions": 69407428,
+        "GBSwaps": 11591,
+        "all1834OriginalPolynomialZeroSourcesCovered": true,
+        "allSourceRoutesVerified": true,
+        "integerDividedCoefficientRecurrences": 832889136,
+        "noPointKernelSubstituted": true,
+        "nonzeroZeroEndpointsNotDimension": 0,
+        "originalGlobalZeroSources": 1834,
+        "processedOriginalSources": 2855
+      },
+      "completedTemporaryPhases": {
+        "complete-first-coefficient-primary-image": {
+          "bytes": 1146,
+          "file": "complete-first-coefficient-primary-image.json.gz",
+          "payloadSHA256": "97427a8d58d6d5bda4779e5ae5a06d5511bbbfc9af69d4b80a89e3493024268b",
+          "sha256": "32cc797a64babcabfb7c79b50b34fd4315d3b1a5e0bd434e112e747872335d37",
+          "temporaryOnly": true
+        },
+        "native-build": {
+          "bytes": 355,
+          "file": "native-build.json.gz",
+          "payloadSHA256": "82dafc0e8b01c27d056dc87f6772f31c34abf29b0d8b9025f0d06bc38ccb4068",
+          "sha256": "49e19c43176384e9b3911e5311aaf996ab493d1c5caced50c2d21f459633f3b0",
+          "temporaryOnly": true
+        },
+        "original-generalized-inputs": {
+          "bytes": 996,
+          "file": "original-generalized-inputs.json.gz",
+          "payloadSHA256": "543d087383ba42cbfcc006e82288939ce76c265b9dc2a4e579816646b372c621",
+          "sha256": "a9e79e421d0943ee1d4199f1729bb6bb3da23a27c3aba640ca58c09e57e4e412",
+          "temporaryOnly": true
+        },
+        "whole-original-NF-source-values": {
+          "bytes": 502,
+          "file": "whole-original-NF-source-values.json.gz",
+          "payloadSHA256": "7b771d9e25d5da90d3c92bc1d099a12acc2ec284747f7653b0e483707a46072a",
+          "sha256": "dc75769105ae245e2f357265425fb99587813b1ed0c7a7298b55d4ea3cba7a93",
+          "temporaryOnly": true
+        },
+        "whole-original-functional-transport": {
+          "bytes": 463,
+          "file": "whole-original-functional-transport.json.gz",
+          "payloadSHA256": "448fe4482c38776d7e72c141cea2a1fd099859b9dc167fe893e372b66d607466",
+          "sha256": "82f680ee9b3e3544302d35754c41e8a1ba4a4cacd211bf3f39e1b7307473dacb",
+          "temporaryOnly": true
+        },
+        "whole-original-integer-source-leaves": {
+          "bytes": 494,
+          "file": "whole-original-integer-source-leaves.json.gz",
+          "payloadSHA256": "dd0d640d5d34d514fa564dfdc6cbab30c698796865e632e9619a4e646be47338",
+          "sha256": "bd7b52ec188fdaae06b69cdb353d9c0f9789d8501c485810f6acf0ee6bfcf100",
+          "temporaryOnly": true
+        },
+        "whole-original1834-global-Z-values": {
+          "bytes": 777,
+          "file": "whole-original1834-global-Z-values.json.gz",
+          "payloadSHA256": "3321b4daa45978cd12ca86c0b41afd01c99fc9ceefaf2f3bff46e751b4a2e575",
+          "sha256": "571752de10ad504c99ce98c7066b821759e4828e72219347a5f339341eba3d2c",
+          "temporaryOnly": true
+        }
+      },
+      "detectorCount": 2,
+      "extensionDegree": 2,
+      "factorCoefficients": [
+        43,
+        1,
+        1
+      ],
+      "factorLabel": "E8-1",
+      "firstCoefficientImageComputed": true,
+      "gradedBasisRecomputed": false,
+      "higherCoefficientTorsionExcluded": false,
+      "identity": {
+        "algorithm": "all-original-source-unramified-jet-carry-complete-primary-image-v1",
+        "allOriginalInputPins": {
+          "gb": {
+            "gb-basis.bin": [
+              43787388,
+              "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d"
+            ],
+            "gb-operations.bin": [
+              763659470,
+              "7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8"
+            ],
+            "original127-graded-module-pipeline-receipt.json": [
+              5289,
+              "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2"
+            ]
+          },
+          "model": {
+            "original127-normal-form-input.txt": [
+              140346,
+              "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3"
+            ]
+          },
+          "nf": {
+            "nf-backward.bin": [
+              3145942,
+              "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc"
+            ],
+            "nf-component-dictionary.bin": [
+              8348,
+              "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312"
+            ],
+            "nf-forward.bin": [
+              2434477,
+              "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0"
+            ],
+            "nf-prebasis.bin": [
+              34229300,
+              "c08fb8308bd96fb926e7ae3176e627766b7c6930a2af92afafff318be812f926"
+            ],
+            "nf-reduction.bin": [
+              118454308,
+              "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1"
+            ],
+            "original127-normal-form-pipeline-receipt.json": [
+              4468,
+              "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe"
+            ]
+          },
+          "whole": {
+            "original127-whole-torsion-pipeline-receipt.json": [
+              9819,
+              "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+            ],
+            "torsion-whole-state.bin": [
+              1414575,
+              "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+            ],
+            "whole-torsion-characteristic.json": [
+              2560,
+              "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+            ]
+          }
+        },
+        "coefficientModulus": 16129,
+        "detectorCount": 2,
+        "extensionDegree": 2,
+        "factorCoefficients": [
+          43,
+          1,
+          1
+        ],
+        "factorLabel": "E8-1",
+        "immutableCommonPhase": {
+          "bytes": 482684,
+          "file": "original-degree-zero-unit-quotient.json.gz",
+          "payloadSHA256": "ba8a8802a68aaf517a0eb0e13b998b79b831c0e94d4c7bc8a222a673c4692e03",
+          "sha256": "183a89e1a073fd4e77674e5af104132a69d3cb8878c57f30137fb21f20a6d9fd",
+          "temporaryOnly": true
+        },
+        "immutableDetectorPhase": {
+          "bytes": 8719,
+          "file": "E8-1-complete-original-component-detectors.json.gz",
+          "payloadSHA256": "16ef89f558b80e2ac47636de269c839768e17b79badc933e8bedc22e115ac91a",
+          "sha256": "92e1408685efeccf8a656bf51f0a293eef4bcfd1e85ced62a697ed662be85caf",
+          "temporaryOnly": true
+        },
+        "jetOrder": 3,
+        "matrixReaderSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+        "nativeSHA256": "61e2c2dbbbb0c07e4c936f29ab17bb74b18e453aacea7e3ff207e627f8dbdc55",
+        "originalPrimaryPhase": {
+          "bytes": 3418,
+          "file": "primary-E8-1.json.gz",
+          "payloadSHA256": "b4405ed53fa654cc6fcbb66c5791a8237e3f2943b98ce64d729f389e7f77bc75",
+          "sha256": "5cc86b6777d4ca9fc07ae11607542f2831ebd998e7a5fa4cb51e0bfe260d7728",
+          "temporaryOnly": true
+        },
+        "parentBinding": "45dfea7c2c8ac12c7f3e5bd0ecd0e4e29937c11f767625e2ab36e9cd2ec6c35e",
+        "parentReceiptBytes": 5461,
+        "parentReceiptSHA256": "ca99e3cba1d61dacdd64928fc1b20869e684edf943868117aa9344a8fd2617e7",
+        "prime": 127,
+        "primitiveDecoded": [
+          158741,
+          "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+        ],
+        "scalarNativeSHA256": "6a932e17fbeb7c81f335281c88bd1dfe0003a09371d454ea23f1861c86823bfc",
+        "scalarReaderSHA256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f",
+        "wrapperSHA256": "ef64345c95bdb156843ce346c269ed6fc84ef6d94746848118ab201f1aba2261"
+      },
+      "jetOrder": 3,
+      "memoryMiB": 4096,
+      "nativeCheckpoint": {
+        "activeState": {
+          "bytes": 77817,
+          "file": "scan/generalized-checkpoint-1.bin",
+          "sha256": "d363c9df88aee97f1b3a1beb284fff07b4d1203fe973c56ab1737273c3e23774",
+          "temporaryOnly": true
+        },
+        "allDataTemporaryOnly": true,
+        "generation": 1,
+        "selector": {
+          "bytes": 92,
+          "file": "scan/generalized-active.bin",
+          "sha256": "1879adcf6a98cd79227a269756ebc3813b787fe903cfee08ed9b3939c7dc97d2",
+          "temporaryOnly": true
+        }
+      },
+      "nativeStatistics": {
+        "leaves": {
+          "all6188OriginalScalarColumnsDivisible": true,
+          "binding": "787000d206c7b80e6874745b4306f6728c1d24c808dfa36c662a879415b91593",
+          "elapsedSeconds": 0.012521,
+          "format": "r150-original127-generalized-source-bockstein-native-v1",
+          "nonzeroDividedCoefficients": 24985,
+          "originalDivisibleCoefficientCount": 74256,
+          "originalPolynomialTermProducts": 1372644,
+          "phase": "original-integer-generalized-source-leaves",
+          "status": "completed"
+        },
+        "nf": {
+          "all6188OriginalSourcesExactlyOnce": true,
+          "backwardOperations": 1041956,
+          "binding": "787000d206c7b80e6874745b4306f6728c1d24c808dfa36c662a879415b91593",
+          "elapsedSeconds": 1.96761,
+          "format": "r150-original127-generalized-source-bockstein-native-v1",
+          "forwardOperations": 801468,
+          "integerDividedCoefficientRecurrences": 377397324,
+          "normalOperations": 29606398,
+          "phase": "complete-original-generalized-NF-values",
+          "status": "completed"
+        },
+        "scan": {
+          "GBReductions": 69407428,
+          "GBSwaps": 11591,
+          "all1834OriginalPolynomialZeroSourcesCovered": true,
+          "allSourceRoutesVerified": true,
+          "binding": "787000d206c7b80e6874745b4306f6728c1d24c808dfa36c662a879415b91593",
+          "coefficientsPerDetector": 6,
+          "detectorCount": 2,
+          "elapsedSeconds": 6.42785,
+          "format": "r150-original127-generalized-source-bockstein-native-v1",
+          "generation": 1,
+          "integerDividedCoefficientRecurrences": 832889136,
+          "noPointKernelSubstituted": true,
+          "nonzeroZeroEndpointsNotDimension": 0,
+          "onlyCurrentAndActualPivotsStored": true,
+          "originalGlobalZeroSources": 1834,
+          "phase": "complete-original-generalized-Z-scan",
+          "processedOriginalSources": 2855,
+          "resumed": false,
+          "status": "completed"
+        },
+        "transport": {
+          "all4367OriginalOutputsRetained": true,
+          "binding": "787000d206c7b80e6874745b4306f6728c1d24c808dfa36c662a879415b91593",
+          "elapsedSeconds": 0.627407,
+          "format": "r150-original127-generalized-source-bockstein-native-v1",
+          "originalPrebasisJetProducts": 39996,
+          "phase": "whole-original-output-generalized-transport",
+          "sameDegreeUnitProducts": 6865903,
+          "status": "completed"
+        }
+      },
+      "normalFormsRecomputed": false,
+      "original4367TransportComplete": true,
+      "originalNFSourceCoverage": {
+        "all6188OriginalSourcesExactlyOnce": true,
+        "backwardOperations": 1041956,
+        "forwardOperations": 801468,
+        "normalOperations": 29606398
+      },
+      "originalPrebasisJetProducts": 39996,
+      "originalScalarProductCoordinates": 74256,
+      "parentManifestMayAppendOtherFactors": true,
+      "pointKernelUsedAsGlobalSource": false,
+      "primaryDimension": 10,
+      "prime": 127,
+      "seconds": 300.0,
+      "selectedOriginalGlobalSourceLabels": [],
+      "selectedParentDescriptorsVerified": true,
+      "temporaryManifest": {
+        "bytes": 5686,
+        "file": "generalized-bockstein-manifest.json",
+        "sha256": "9d48c724e4ef093cc21cd5cf20097d5686610a287e5e0ad44556dbb06d8a52d8",
+        "temporaryOnly": true
+      },
+      "through": "final",
+      "verifiedPositiveOriginalGenerators": [],
+      "verifiedPositiveSourceCount": 0,
+      "wholeTorsionRecomputed": false
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.6602041869991808,
+        "phase": "original-generalized-inputs",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 6.095174400999895,
+        "phase": "native-build",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 0.6679980209992209,
+        "phase": "transport"
+      },
+      {
+        "elapsedSeconds": 6.814699607999501,
+        "phase": "whole-original-functional-transport",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 0.018179310000050464,
+        "phase": "leaves"
+      },
+      {
+        "elapsedSeconds": 6.966930705999403,
+        "phase": "whole-original-integer-source-leaves",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 2.020415242999661,
+        "phase": "nf"
+      },
+      {
+        "elapsedSeconds": 8.98973418300011,
+        "phase": "whole-original-NF-source-values",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 6.4766816979990836,
+        "phase": "scan"
+      },
+      {
+        "elapsedSeconds": 15.469360876000792,
+        "phase": "whole-original1834-global-Z-values",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 15.499797682999997,
+        "phase": "complete-first-coefficient-primary-image",
+        "reusedCompletedPhase": false
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:24:52 UTC",
+      "beforeReadCommit": "76e7aa2b46d97b1d2516d2843b8a1515887fe21b",
+      "originMainAfterPull": "e70f5b5406d0a2648190a81122a6de5e8afcdaf0",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:25:08 UTC",
+      "beforeReadCommit": "e70f5b5406d0a2648190a81122a6de5e8afcdaf0",
+      "originMainAfterPull": "e70f5b5406d0a2648190a81122a6de5e8afcdaf0",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 69,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 23668,
+    "logicalJsonSHA256": "5cd07f137c18b8d0d04c9af826e9811197201d1d481165dab26322b367180b7e",
+    "itemCount": 69
+  },
+  "lastRulesReadCommit": "e70f5b5406d0a2648190a81122a6de5e8afcdaf0",
+  "summaryExcludesRecomputableArraysOnly": false
+}
