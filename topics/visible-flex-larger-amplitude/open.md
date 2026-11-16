@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R525：actual224完整可见终态](results/R525-actual224-input-support-zero-height-and-positive-resource-partial.md)独立刊**：zero H原收敛/残差0、完整328.594023019秒；正高1/64一次真实iteration0方向/原trial0 step1内部接受到5181.565456345417，仍未高度接受，随后原18000资源停止，last_converged_s=0。whole107463必要未返、仅1505/70/false，14统计及完整地址未知；原quiet true却缺marker/removed false，无父。不能把外层rejected字词压过内层资源原因，亦不据零H推整链提速。R578/242已[正式单POST绑定](notes/2026-11-16-request242-official-run-binding.md)至c3e91b76/run43900562629/133415703033，R579 exact唯一；R576完整接续刊派。
+
 **[R578/request242完整新初猜入口](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)/[全CLI](notes/2026-11-16-request242-original98-three-scalar-current-H-fullDN-interface.md)本次独立刊**：真实98全453初猜仅三控制值使用R541新guess，完整原ZIP/成员/producer ledger绑定，全部节点RHS/H重新付；FD prepared与fullDN --warm同一新gzip，三参仍active/p′=0、不额外BC。原R589451全保→457/365public92generated、原19200含初始化/所有分cap和科学门/90K不改，R579 exact唯一。R591/247已[官方单POST绑定](notes/2026-11-16-request247-official-run-binding.md)到3ca6bddf/run43899155015/133410760515，1–14成功、15全E，R592 geometry唯一。
 
 本节更新前全部原词、参数、失败/未返/未访、source/run与全部责任原字保[8d1cfb2固定open](https://github.com/Rogerhu12/math-research-public/blob/8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46/topics/visible-flex-larger-amplitude/open.md)及[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46/topics/visible-flex-larger-amplitude/HANDOFF.md)。只折叠本§1.3已有完整历史，§4–6逐字不动，原结论/接口不删，已删raw不造父。
