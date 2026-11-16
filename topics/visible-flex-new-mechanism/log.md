@@ -341,3 +341,8 @@ Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_epoch.py（
 ## 2026-11-16 00:00:14 UTC｜完整direct-reference新任务入口已装，待唯一首次请求
 
 Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_transfer.py（9302B/hash3a4b55941493314eeb193ef51996f1eb73b94239d8ba28b6eb95668b3758ae38）、scripts/frame_metric_direct_reference_audit.py（27701B/hash7bc6910328ce6d6b82fafd0693030416a4736c0e6473a4cd08520e5c9d868ccd）、scripts/frame_metric_direct_reference_recovery.py（50761B/hash51dd34203601893976324bbd99d3abe8e7299a36bab3e3c6e8017218e4aabfe3）；workflow4292B/hashd3bc80e47107656794c057c46d8b28cbe3000e0b610800be1fbf9d41d08c6f6f。根全文读transfer/audit及outer全部差异；v3初始本次两网14门保留，audit v2从原summary/oracle真实键提取，不借祖先收据宣本次通过。新9人工仅audit一次执行；科学钟在必要原log读取前起，全部prepare/冷值/J/LP同1800s，原已耗epoch账单另列。当前只安装，随后独立161绑定request启动首次执行；无新研究执行或旧研究重跑。基底c919838e6cfd2f99f7ca294ac277b7ed26b65e04。
+
+
+## 2026-11-16 00:00:31 UTC｜首次请求独立direct-reference科学任务
+
+Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.json，39202B/hashd79df5161f06f326047c1839107afa62b6f4bd5e48ecc5e36e4599bb9f69cccf，161绑定=152Python+8workflow+祖先人类note。入口安装08b2c3897b18ded4a427af76066e81985f01e0bf，本request唯一触发；先actual pull双repo/核差，新9人工只一次，再新科学1800s/64LP/160值，包含必要读取/24prepare/两网冷ordinary及后续同cache J/模型/实步。旧120s epoch已关闭，241.314s/LP10/values15及init/首失败全保祖先账；非旧m7续算，未知旧步不重建。首次真实子调用成本与门待run，不预报速度或完成。基底7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7。

@@ -48,4 +48,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)及[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接6新Python与独立workflow：原metric/height/fixed center直取，删未用四角jets/被覆盖积分；完整当前jets/J/null映射同原，新ordinary身份。438法向保序迁freshcontext，4support另附，8学习events保祖先；新科学1800s/64LP/160值含输入/prepare/冷值，同进程续J/模型/实步。首两网各14门与timing保本次收据，祖先账不算新计数。3组9新人工/实际尚未执行，随后单独request唯一启动。理论继续有限actual ordered总量/全部内部像/原允许w及13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open，每小时actual pull。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)及[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接6新Python与独立workflow：原metric/height/fixed center直取，删未用四角jets/被覆盖积分；完整当前jets/J/null映射同原，新ordinary身份。438法向保序迁freshcontext，4support另附，8学习events保祖先；新科学1800s/64LP/160值含输入/prepare/冷值，同进程续J/模型/实步。首两网各14门与timing保本次收据，祖先账不算新计数。首次request已发，3组9新人工后接独立新科学任务；结果待原log，不预称加速/通过。理论继续有限actual ordered总量/全部内部像/原允许w及13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open，每小时actual pull。
