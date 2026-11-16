@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：64cf4d7b8bf805bd2fb45566ad93a3377218d313；2026-11-16 18:11:05 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：70830433adf465ef21960e4d2d96d065812776b7；2026-11-16 18:13:11 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即推；非快进立即实际pull --rebase并以新head非强推循环。令牌不存/回显。
 - 根/题README blob：21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。实际pull后仅读两README差异并记head；至少每小时，下一最迟18:25 UTC。
 - 数学执行仅公开Actions；重算输出不入库/Release、不分块，只保源/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。
@@ -19,7 +19,7 @@
 - **F已完整认证**：[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753；ℓ1000003/N512，全1429行/QQ/原支/0..6120通过。原F17/微分/∞→O，dF≥1080；完整source/hash见该节。
 - **P未PASS**：R899P256 run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452；R906小素数512→1024 run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9。全三嵌入/1226行/QQ/0..4284门保持；原u、λ、vnew、整返回17不变。旧N128只高度不足，不是不存在。
 - R889/R892旧双P/F及R905失败全部job/source见完整归档；不可跨Sage/PARI基。
-- 旧306、eta48、fricke24已停，实际均未到正规化；全部阶段/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。tate24 run43865460680/job133292732291、tate19 run43866568746/job133296518979仍待最终日志。
+- 旧306、eta48、fricke24、tate24已停，实际均未到正规化；全部阶段/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。tate24 run43865460680在18:10 exit137：34.754s完整24方程已付、最后仍U。tate19 run43866568746/job133296518979待日志。
 - R910修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行。完整可分特化/线性关系及两原Phi，q4500/ξ170/两Atkin/全四27+27+33+33/205行保；首run回转编译失败，无PASS。
 - [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)逐系数真除、一次停止、原全部末端门保持；run43922594376/job133493496664/source45b7e91f3d7dfdcf667999634dd23e669d71acf5运行。§6新geometry-first路径先做不依赖U的真实正规化/四RR，后仍须U及两Phi/两Atkin才返回完整context；run43924337986/job133499674320/source1d6aacce8f37443bebf0965e16a80edaa86ae524已执行。旧路径继续，不猜未返回日志。
 - **全局q格已PASS**：[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)，run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；ℓ29/120×205完整QQ基、单位固定子式/整变换/全约化秩/同S均过，2.549s。result5a1d6494…eb663b、RRjets765f854d…2b0fb。全部L(DS)已付，**degree48坐标/闭点/现有四块接口仍未付**。

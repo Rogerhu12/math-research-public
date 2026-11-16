@@ -88,3 +88,32 @@ job133274126644，于2026-11-16 17:33:26 UTC 以 exit137 结束。
 它进一步确认 R910 改写原 U function-field gcd 的目标；
 正在运行的 R910 保原关系与所有末端门。
 R917 已独立付原全局 q 格，仍未补此 degree48 坐标接口。
+
+
+## 补记：原 tate24 的完整方程已快速恢复，末步仍未完成 U
+
+[run43865460680](https://github.com/Rogerhu12/math-research-public/actions/runs/43865460680)、
+job133292732291，source a82ba1e06935fbb0f199d4dc846bae876a13afc0，
+于2026-11-16 18:10:38 UTC以exit137结束。
+该workflow原有 timeout --kill-after=45s 21000；不据137单独判断内存耗尽或数学失败。
+
+实际请求为 --prime 29 --model tate24 --rr-powers 1 --q-precision 205，
+producer scripts/produce-original-shadow-rr-tate24.py；
+同一固定Sage10.6镜像，模型内部完整q8000、trace330。
+原24次方程在34.753662秒已由全部24条Tate迹和全局分子/分母帽恢复，
+并完成7975项Laurent复核、初始点和可分性门。其方程hash为
+
+e8b3440a593a36fe119189e58476a031514ec024b27c264e73c2adbbb7ddd33d
+
+它与上面原fricke24所选同一方程的hash一致。完整输入的hash：
+原J单位 df259e84e06e5e398b6b915ab754b692da11d479c7f1791d13df1bfef76f574b；
+q_of_u 32e4ce757009e11a9f42e36b99da34f1f27cf62ec2635686af93800d2be14234；
+u_of_q 2500651e546994198af77ec64c91870d15abc83ad6669495c3c5c13666e0b9a2。
+24个系数的逐项hash在该run日志中完整保留，不另存重算输出。
+
+最后数学阶段为12:44:35 UTC、1467.242919秒的
+“tate24: exact original U recovery in simple eta48 field”。
+之后直到终止，没有U完成、正规化、两RR块或205行的回执；
+最后阶段所报RSS626612KiB不是终止前峰值。
+本run仅支付已打印的原方程认证，不提供完整RR或shadow。
+R910/R919与geometry-first原完整门保持；tate19尚须取其真实最终日志。
