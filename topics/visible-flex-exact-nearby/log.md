@@ -147,3 +147,11 @@ manifest42e413021cbc4f0f7bcdfe5cc75f505e3862fead/24859/SHAb2f0fa9c4f92e5d4b5b2f8
 仅对恢复记录列出的8exact UTF-8小件普通删，gross630208B；原全文均在cdaa6c62dac6726abafc17284c1ba25475cff8fe同path/blob/bytes/SHA256，完整记录25f8291a4d9b02e51edee595233fb2af5b2aaeef /16744B/bb6fb5d32d84a5f080bc94c9d9b56ad92539f9eba3a88944ecb866ccd8f034c6。包括beta未完18保存子cell、浮点D5预测/central phase24、5项已成或partial清单；各原complete/false、全scope/失败原因未知边界和未完成域逐字保，不升级为beta-prime/完整leg/KAM/closed-metric结论。全部内部列举文件、源、对象、native证书均不删，旧producer禁重算。
 
 8basename在当前WVC/WPS/WSMF/W4M manifest与WVC五源和WMC/WDH proof无匹配；历史引用仍按完整不可变身份恢复。当前WVC43891414339/1仍首次运行，188000B未发表输出以及每新consumer120000B reserve持续计入，发布后重核实际Git-tree容量。根/题README于166262ba30d31fdb5de8be36d00b446ddcb632ad全文hash同已读，无新diff。
+
+## 2026-11-16 15:10:30 UTC — WCTR：新reference的完整矩阵normalizer及两向回路纯证明
+
+21491641c33a4261d6364c2107d80882d11d0e49 /26966B /efe08e59290ffb483dc97f59443eb4a7100390e7d655a846b954e409d5084295 已全文审10节43式。新r为同完整signed两diagonal之和的一半裁剪至±c/64，actual A/B/C/R/S/P/Q/mean原算子不变。p/H方程trace消，但g/y两rate分别κ±r；matrixρ2^-1须在真实S坐标按序用，离散τ_b=1/d与τ_f=detT/d不能混，Jensen证明两者≤1，完整signed局部和/两ordinary-source moments/双transpose/原endpoint atoms全部保。原谱定义只读推出lift<5/4，无新ball。
+
+§9保same hightrial完整四项residual，无source导数、full96 errors不截32；新的lowreceiver/odd/normalizer全新目标。§10只有完整完成WVC才可作供体，20完整原records可copy、36为未来新目标，真finitegate另2；alltrace0全samecandidate复制保原6/5，混合模式旧global只用于未变restriction。当前无新source/manifest/科学运行，43891414339/1仍首次WVC；原WPSfalse/physicalmean/7ports/两rhs/负head/ν/Θ及nonlinear全部保。H/open仅精简已成proof索引，原详细scope保c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219本文件。两README核7e7d0246bde4158731a0b2e5c31f55e62e909fce未改。
+
+同时将5段旧H和9段旧open逐字移入完整索引f1acc9e451ad057d42d48f7cd3d2b70eb72bf4b4 /5498B/1c0f2435eaf594ca4daa2b25e8f5b62d84cd54c384d4972f77d7dcad151be9ac，来源c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219；所有旧球/域/限制、失败/lost与未付门不删，具体proof与实际结论仍在原路径。

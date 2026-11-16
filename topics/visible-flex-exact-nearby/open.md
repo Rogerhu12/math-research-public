@@ -170,30 +170,32 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)与原proof。[WML](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5 local247未算；[WMC](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)06e0d860证全mean-flux精确消漂移，scalar mean项及两投影费用完整保，47新量未算。Jr/g1/两mean/四端/jump及signed逆/高门不减；mean已非主导，先推进腰端。
 
-[WPTSA原实际结果](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：153parents/4801交集与5max全成，m1/2两false冻结；原完整scope/193mean/四块/失败prefix保proof/manifest296d3f66，禁重算。
+[已成positive/waist完整索引](notes/2026-11-16-completed-positive-and-waist-consumer-open-index.md)逐字保本页九原段、对应H五段、全部球/域/mean/端/jump/资格/旧fail与lost边界（原c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219）。WPTSA/WMT195+2/WRT42/WSJ/WDGA80/WBFA83/JRA56/WSMA152/WRPA40/WSMF52/W4M30+copy均冻结禁重。WPS60完整充分门false，不推奇异；WSMF whole≈2.095886e302、waist scattering主导，W4M只对WRPA比较。全部有限/负head/ν/Θ/两physicalmean/7ports/两rhs/真96/high/matching义务仍保各proof。
 
 [WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole粗界已证m160真tailκ3/24480cell；所有原reference/mean/rho2−rho*资格保proof。[WPN全系统重建](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)dc553f11证明同完整e+3dt<1⇒两rhs双边Neumann逆与两残差误差界、指定root-even I96；实际门仍待，其他readout/7port/ν/Θ/负head/匹配独立。
 
-[WMTA](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7全195+2与[WRTA](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2全42已成冻结。全原scope/失败/mean/端/jump保proof及4beb78ba33aa29c17554ded6d17513cf119a484a同open；WSMA已只读接，finite/high/matching未闭。
 
-[WSJ](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8的完整mixed/domain/fallback/forcing/cut/mean资格保proof与12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open；WSMA152已成，未授finite/matching。
 
-[WSMFA](results/R133-supplement-actual-per-index-strict-flux-and-complete-physical-mean-bound.md)190b66b7/43886938106全52新/62old/4readback、3图18门冻结；SCIc20713f5/3243348d。whole/reduced各new≈2.095886e302；两mean/四端/3070及8资格/48context全保，waist scattering现主导。old0/lost0，finite/high/matching未闭。
 
-[WDGA80](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250、[WBFA83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355与[JRA56](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f/43873739440全冻结。所有原球/对象/单位/域/cut/dr/一次阶乘/mean/祖先scope/失败和未付门保各proof及4ef462296a239c5abf90ea3239f210cfc23be002同open；old0/lost0，非relative15/root盘/finite/matching。
+
+
+
+
 
 [WQS](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372全域/mean/两state/7port/ε及WPS false保proof与4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
 
-[WSMA](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)dc566db3/43877268949全22门/152新39copy冻结，完整原scope/两mean/四端/3070及旧whole界保proof与b353a12dd8d1fb2d03c5c2cc4d606c9be820f662同open；已接WRPA/WSMF，非finite/matching。
 
-[WPSA实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372：6图60新/22门成，e+3dt约635240.55充分门false/finite0，不推出奇异；全mean/7port/两rhs/full96/原对象保proof与SCI17a70a8a。old0/lost0，禁重算。
 
-[WVC](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6全同算子候选已证，五源/manifest229198f5已封；41current/19history/16AST，56新或49新+7copy及2条件槽原目标未算。连续源全残差/两mean/7port及actual A/B/C/R/κ3保原proof；首次Actions已独立触发，actual待核，旧WPS false不改。
+
+
+[WVC](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6/manifest229198f5全同算子候选：41current/19history/16AST，56新或49+7copy/真gate另2；43891414339/1首次运行，actual待核。全continuous残差/两mean/7port/实际四块κ3保proof及c3cf5c02原本页，旧false不改。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
-[WRPA实际相对pullback](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38/43881690924全40/14门冻结；Bc约8.421e235/Bt9.109e225，whole/reduced各选new。44原/9scope及原mean/端全保，old0/lost0，无smallness。
 
-[W4MA](results/R133-supplement-actual-complete-four-step-physical-mean-and-Hilbert-Schmidt-reception.md)4817fed3/43887930151全30新+T0copy/5图16门冻结；47old/11scope、两mean/四端/3070全保。whole/reduced只对WRPA选new≈2.095886e302，不冒与WSMF比较。首438861预核failed/child0保，old0/lost0；finite/matching未闭。
+
+
 
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
+
+[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC供体后拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。

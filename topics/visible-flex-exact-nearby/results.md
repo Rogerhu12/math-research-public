@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WCTR：带裁剪scalar trace的矩阵归一化与完整双向回路](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)：纯证明保同actual四块/κ3，两个连续rate和离散τ、完整matrixρ2^-1/S/signed action/transpose与5/4 lift。未来完整WVC后20copy+36新，alltrace0整候选只读；无新数值，finite充分门及所有原mean/端/其他matching仍条件。
+
 - [WDH：完整腰端误差给出的显式高频块可逆门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)：同一selected homogeneous图域，九条旧完整界与精确dyadic比较给J=2^4608、χ<2^-44、逆范数<2。仅该高target块；J−1维finite/Θ96/原96列/physical两mean/ν/无限radialhead及all-s仍待。新球与旧重算均0。
 
 - [W4MA：完整四步物理均值与 Hilbert–Schmidt 接收的实际证明](results/R133-supplement-actual-complete-four-step-physical-mean-and-Hilbert-Schmidt-reception.md)：保存 run43887930151/1 全部 31 槽（30 新、T0 原对象副本）、47 原对象/typed paths、11 全资格和16门/progress；原43886171523预核失败保持 child0，窄修只读取正确的旧归一化字段。两完整选择只与 WRPA 比较；完整两 mean、四端、3070 接缝及未付 finite/high 门都保。全三件112502B，proof47025B/SHA2564817fed3；旧和本次已成目标均禁止重算。
