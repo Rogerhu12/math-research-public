@@ -1,0 +1,252 @@
+{
+  "format": "r150-critical-paid-high-kernel-recovery-interface-v1",
+  "date": "2026-11-16",
+  "author": "Astra-ISP-789f / literature_audit",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py",
+    "blob": "234498af4ea14b6e0a94f2a2b69b53744665b055",
+    "bytes": 15536,
+    "sha256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71"
+  },
+  "native": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+    "blob": "9399ccf461e22fa12b48578b28afef64ffe7f118",
+    "bytes": 6885,
+    "sha256": "d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f"
+  },
+  "auxiliarySources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+      "blob": "d93a33690bd9829e7fcc96626a107e161f6a7820",
+      "bytes": 28063,
+      "sha256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9"
+    },
+    {
+      "name": "jet_actions",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    }
+  ],
+  "parentPins": {
+    "plus": {
+      "field": "plus",
+      "bytes": 34539,
+      "sha256": "893ba678754194bbbc2aa5156039ad4db8dfa8d83a78f5d339ce109c066f47d3",
+      "blob": "4d4988863bff007121897eb27f8a689ba24bffa5",
+      "binding": "c3cda40e1e99f191eb5c34a29036525c5fbaa29952cad5b7d82bcfc7b56e316a",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "manifest": {
+        "bytes": 1561,
+        "file": "checkpoints/manifest.json",
+        "sha256": "0db405992db5638e819e62b1e7aa6505fcbbab17260b4201bd07a62f587bbad0"
+      }
+    },
+    "minus": {
+      "field": "minus",
+      "bytes": 35007,
+      "sha256": "faf2a2bcc5ee9451f46868e677d4af7eedc65944a1b097d6ee65cf1207616e74",
+      "blob": "df08d831de2751c659198f4966c535eff070f573",
+      "binding": "65e7bd29f1e6ee6c35b932cd7f01d63e6fcbc0eb595e56e9d300bc5a9e0a92f1",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "manifest": {
+        "bytes": 1562,
+        "file": "checkpoints/manifest.json",
+        "sha256": "b58a134e244e85f0eef5a66d34fa11414d3cddae585a3d0a5ae7f4b73f9d77af"
+      }
+    },
+    "e8": {
+      "field": "e8",
+      "bytes": 42686,
+      "sha256": "f5d8b9ddbe858deb2b04f16281feed88a47dab11f06946dca0eed7538f2e4eda",
+      "blob": "b4d0dd92b112c477f99217050f710b6646136ac6",
+      "binding": "1124ef03b855859da33751856495eb768ae100b5ddbeabe0515dea49adfbbefd",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "manifest": {
+        "bytes": 1563,
+        "file": "checkpoints/manifest.json",
+        "sha256": "57296d33553aec729fd897a6b53f728aac5315dce9797a1844b0bcc7758d4f38"
+      }
+    }
+  },
+  "newMathematicalExecution": false,
+  "staticReview": "Native full source independently read by normal_annihilator; no local compile or execution claimed.",
+  "mathematics": {
+    "inputShape": [
+      6018,
+      4266
+    ],
+    "paidRank": 4259,
+    "fieldKernelColumns": 7,
+    "allOriginalProductCoordinates": 42126,
+    "noNewGaussianElimination": true,
+    "parentReadOnly": true,
+    "freeI7Normalization": true,
+    "noNumberFieldKernelLifted": true,
+    "numberFieldKernelBoundsRemain": [
+      2,
+      7
+    ],
+    "nextStep": "Use actual residue support to design true number-field kernel columns; multiply every candidate by the complete original6018-row matrix before any number-field conclusion."
+  },
+  "resources": {
+    "secondsPerField": 60,
+    "memoryMiB": 1024,
+    "outerSeconds": 90
+  },
+  "binary": {
+    "magic": "R15CKR01",
+    "header": "4 little-u32(p,6018,4266,7),64ASCII child binding,64ASCII parent binding",
+    "body": "7 little-u16 free high columns then4266x7 row-major uint8",
+    "completeBytes": 30028,
+    "output": "complete-high-free-kernel.bin",
+    "temporaryOnly": true
+  },
+  "tasks": [
+    {
+      "id": "critical-plus-paid-high-kernel-recovery",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py",
+      "scriptSHA256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+          "sha256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+          "sha256": "d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-plus-complete-high-residue-rank.json",
+          "sha256": "893ba678754194bbbc2aa5156039ad4db8dfa8d83a78f5d339ce109c066f47d3"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+        "--field",
+        "plus",
+        "--parent-out",
+        "{work}/critical-plus-complete-high-residue-rank",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-plus-complete-high-residue-rank.json",
+        "--out",
+        "{work}/critical-plus-paid-high-kernel-recovery",
+        "--remaining-seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 90,
+      "receiptPath": "{work}/critical-plus-paid-high-kernel-recovery/critical-paid-high-kernel-recovery-receipt.json",
+      "requires": [
+        "critical-plus-complete-high-residue-rank"
+      ]
+    },
+    {
+      "id": "critical-minus-paid-high-kernel-recovery",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py",
+      "scriptSHA256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+          "sha256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+          "sha256": "d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-minus-complete-high-residue-rank.json",
+          "sha256": "faf2a2bcc5ee9451f46868e677d4af7eedc65944a1b097d6ee65cf1207616e74"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+        "--field",
+        "minus",
+        "--parent-out",
+        "{work}/critical-minus-complete-high-residue-rank",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-minus-complete-high-residue-rank.json",
+        "--out",
+        "{work}/critical-minus-paid-high-kernel-recovery",
+        "--remaining-seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 90,
+      "receiptPath": "{work}/critical-minus-paid-high-kernel-recovery/critical-paid-high-kernel-recovery-receipt.json",
+      "requires": [
+        "critical-minus-complete-high-residue-rank"
+      ]
+    },
+    {
+      "id": "critical-e8-paid-high-kernel-recovery",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py",
+      "scriptSHA256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+          "sha256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+          "sha256": "d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-e8-complete-high-residue-rank.json",
+          "sha256": "f5d8b9ddbe858deb2b04f16281feed88a47dab11f06946dca0eed7538f2e4eda"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+        "--field",
+        "e8",
+        "--parent-out",
+        "{work}/critical-e8-complete-high-residue-rank",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-e8-complete-high-residue-rank.json",
+        "--out",
+        "{work}/critical-e8-paid-high-kernel-recovery",
+        "--remaining-seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 90,
+      "receiptPath": "{work}/critical-e8-paid-high-kernel-recovery/critical-paid-high-kernel-recovery-receipt.json",
+      "requires": [
+        "critical-e8-complete-high-residue-rank"
+      ]
+    }
+  ]
+}
