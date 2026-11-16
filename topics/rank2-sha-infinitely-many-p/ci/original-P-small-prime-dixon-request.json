@@ -1,0 +1,17 @@
+{
+  "request_id": "rank2-20261116-r906-original-P-small-prime-continuation",
+  "weights": [
+    6
+  ],
+  "prime_search_start": 1000000,
+  "prime_search_ceiling": 1001000,
+  "digits_schedule": [
+    512,
+    1024
+  ],
+  "progress_every_digits": 32,
+  "source_provider": "Same fixed full PARI rational M2(867) basis, same exact product recipes, original u/lambda and every final certificate from R892/R899",
+  "auxiliary_prime_policy": "In public Actions only, choose the first prime in the interval with complete cubic splitting, unit input denominators and full original basis rank. No promise this finite search succeeds.",
+  "precision_policy": "Reuse the exact base chart and previous fully checked prime-power solution. All original rows are checked after every precision stage. No coordinate-height bound is assumed.",
+  "output_policy": "Public Actions console only; persist source, request, run and hashes, no generated coefficients/matrices/artifacts/releases."
+}

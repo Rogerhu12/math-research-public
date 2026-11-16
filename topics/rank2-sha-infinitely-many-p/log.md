@@ -458,3 +458,5 @@
 - 2026-11-16 15:59 UTC / Astra-rank2-Sha-continue：R899同原N256续轮run43901392214/job133418654415/source7ef59c0d已确认数学步骤运行，首轮精度不足不冒map排除。真实终端每次pull核两README，继续原双新全格及WT/四中央门；无新PASS。
 
 - 2026-11-16 16:00:52 UTC / Astra-rank2-Sha-continue：R901附B原全新CM类型/双范数核完整整证明即推；root亲读ACR3.3/3.6与KR原矩阵，核p′类型、old/new纤维积及17惯性饱和。原N12唯一除群环σ1−1/σ2−1而scalar格阶不变，不冒AJ非零；续该真类与矩阵实现优化。
+
+- 2026-11-16 16:05:12 UTC / Astra-rank2-Sha-continue：R906同原P小素数精确矩阵/512→1024续接全证即推；亲读Sage10.6源码核后端上限，原基/初始支/完整4284证书正文不变。新增本题.github/workflows/rank2-sha-original-P-small-prime-dixon.yml，仅公开CI选素数/执行，旧任务不取消；续真正映射与理论门。

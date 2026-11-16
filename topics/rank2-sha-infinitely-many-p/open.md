@@ -60,6 +60,8 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常完成：三嵌入秩904/free863，全部1226行modℓ¹²⁸为零，三根恢复过，但3827bits仍不足有理重建，未到char0证书。同ℓ1000000033/N256/k6续轮run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452已运行，原全部条件保持；只有最终原证书通过才认map。
 
 
+- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。
+
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy路径失败；修复source6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4的新run43899744213/job133412821010已进入数学步骤，无PASS。
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。

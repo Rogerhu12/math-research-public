@@ -13,3 +13,5 @@
 - [R902](../results/R902-original-four-block-kernel-and-first-normal-injectivity.md)：原四块核的V1整限制为零分支，通过全局EG=FA真单射到H⁰(N²(−H*P))，H*=min(T,h+ell_eff)；H*>2κ使第一法向值在该完整核单射。原ell_eff≥T−h给实际W_T/Z−二步链，同指定目标/同V1至多一原G；保严格长度、全角帽/charge/F0及其它WD列，未认像满或Euler稳定。
 
 - [R901 附B](../results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：原全新CM商整比较：ACR完整ν_n、p′ Borel矩阵单位及真full-q/T运输给V_A=L_A⊗S_A；原两范数核整饱和等于H¹(I1I2⊗T)，唯一返回A_i=O[Gi]/N_i，N12=(σ1−1)(σ2−1)Naug且scalar p格阶不变。old/new余核O/(h)、邻点dual余核(O/(q+1))^(q−1)及原共同目标次数保，不冒原AJ非零或标量乘积整除。
+
+- [R906](../results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。
