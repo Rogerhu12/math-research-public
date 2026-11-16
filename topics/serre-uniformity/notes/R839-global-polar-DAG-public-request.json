@@ -1,0 +1,216 @@
+{
+  "budget_minutes": 300,
+  "core": "R839_original_global_polar_DAG.py",
+  "core_sha256": "995a1298defa007a3f0447a91761a0fc1ad4bfe0ff6efc5a0ac99c76c77db59a",
+  "expanded_sources_sha256": "a2839071469186a9563e507632267c3c6f9fb1ef34e2407203596d3bcb1670ab",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R839-original-global-polar-expression-consumer-method.md",
+  "method_sha256": "aeea87f4f9723774581a5290feb543bee6ae15ab1abe78307cf7583f01f5aefc",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proof": "notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md",
+  "proof_sha256": "520bfbd521cadfeff2b519c864217a56258a991a07039ee33e923db7e9be4e0a",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R839-original-global-addition-polar-ideal-DAGs",
+  "resume": null,
+  "rules_last_read_commit": "b98dc82a1bb379d08cad84f06b62a931ae79df62",
+  "selected_original_file_count": 2709,
+  "sources": {
+    "R781": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_sha256": "b5dc71fa2f675c75ca0b6999192ec1de6ffed7486b9506bfb529c37823f286dd",
+      "artifact_id": 14148041703,
+      "artifact_name": "serre-global-R781-original-p41-inverse-free-Laurent-prefix-43679703344-1",
+      "certificate_name": "p41-original-inverse-free-Laurent-prefix-certificate.json",
+      "configuration_sha256": "be83f6a8dca3a989ed6ac796ed6d99d528c3bc8df5762c4b62b9be1eed1e2a67",
+      "core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+      "expected_conclusion": "success",
+      "manifest_bytes": 49754,
+      "manifest_file_count": 151,
+      "manifest_sha256": "ce0554fab03fda8d124e9e0ee338335bca6f7b39ee8499550bbec36358a1a7fd",
+      "result": "R781-original-p41-inverse-free-Laurent-prefix",
+      "run_id": "43679703344",
+      "selected_file_count": 134,
+      "selected_files_sha256": "942fb2b0f9332f2211e1eb1568cc5acc58b5ec3f1e28e437cc0540a9bbc22ac4",
+      "source_carrier": {
+        "bytes": 123713383,
+        "file": "R787-retained-producer-inputs.tar.gz",
+        "sha256": "2f4371c94e36372b2eeb9291d75479ccbe2432abe741dc9ecbebab78e9046e92"
+      },
+      "source_commit": "f0292795817a534937d35904e2e11275631e878d",
+      "transport": "from_verified_R787_original_carrier"
+    },
+    "R786": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 111049026,
+      "archive_sha256": "52caf389aeeebd7e3d21006fc235b03fd350afe4f5e2065120a1ad86c98d71c3",
+      "artifact_id": 14148389754,
+      "artifact_name": "serre-global-R786-exact-original-power5-short-basis-43682100611-1",
+      "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+      "configuration_sha256": "fb62a25c326ece7550813849457e39479d17eec2d7fd31741e7e65e84feb9061",
+      "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+      "expected_conclusion": "success",
+      "manifest_bytes": 1085673,
+      "manifest_file_count": 3740,
+      "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+      "result": "R786-exact-original-power5-short-basis",
+      "run_id": "43682100611",
+      "selected_file_count": 6,
+      "selected_files_sha256": "49f405c24bbc29ca8b1808bd255e447ddf041ad1d1fd2d00ef1f093b46bd1520",
+      "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+      "wrapper_sha256": "7fbfe97b21ff9f58de4f1d2891b9f4a8cec4712e1b1c6d26d6d1ab9c336b81ec"
+    },
+    "R787": {
+      "accepted_process_exit_codes": [
+        1
+      ],
+      "archive_bytes": 5148711108,
+      "archive_sha256": "32652fdbb99ef41340bffb4ba1c9d1a56479de346c999f723023db2e1427645f",
+      "artifact_id": 14159006977,
+      "artifact_name": "serre-global-R787-original-power5-function-relation-43683912711-1",
+      "certificate_name": null,
+      "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+      "configuration_stage": "R787-real-power5-row-0000.json.gz",
+      "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+      "expected_conclusion": "failure",
+      "manifest_bytes": 440819,
+      "manifest_file_count": 1517,
+      "manifest_sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c",
+      "result": "R787-original-power5-function-relation",
+      "run_id": "43683912711",
+      "selected_file_count": 1241,
+      "selected_files_sha256": "2876a23cd3453543a093cc7da0fd60a5a5b4304520f56938b0ff7d9fcdaf502a",
+      "source_commit": "eab5e58bbf951c48ccf13a109bbdf0b0289a6f23",
+      "wrapper_sha256": "1a8924c2f2fbf0cf09699f9a9026ed0f326415b90aadec8e41f018a618e2e025"
+    },
+    "R791": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 49237,
+      "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+      "artifact_id": 14149997458,
+      "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+      "certificate": {
+        "bytes": 2298,
+        "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+      },
+      "certificate_name": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+      "configuration_sha256": "eb3d071456820745d7f87ba639c8955b225714f1f2729053cbd03ebb7edfb174",
+      "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+      "expected_conclusion": "success",
+      "manifest_bytes": 1814,
+      "manifest_file_count": 9,
+      "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+      "original_readme_sha256": {
+        "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R791-original-Hom-Galois-and-eta-inputs",
+      "run_id": "43686308194",
+      "selected_file_count": 7,
+      "selected_files_sha256": "31f2340f364fe1d1e559357b941c3672a8c246e2a53618cd08c864600fd290b5",
+      "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+      "wrapper_sha256": "15568f21c367938830700b6178222a54b5ba0977e5de876d982db3b6cb5effe7"
+    },
+    "R806": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 203879878,
+      "archive_sha256": "2f894721e5c657e6f33f304646e55bc3e4ad41fab8bb98495cc7b40db3e26759",
+      "artifact_id": 14161637987,
+      "artifact_name": "serre-global-R806-original-primitive-multiplication-43707290840-1",
+      "certificate_name": "p41-original-primitive-multiplication-certificate.json",
+      "configuration_sha256": "45e05dc171cbc2879e4d6df4e076778d0e2662ca3169617de339e385d2f7ff25",
+      "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+      "expected_conclusion": "success",
+      "manifest_bytes": 3988631,
+      "manifest_file_count": 10603,
+      "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+      "result": "R806-original-primitive-multiplication",
+      "run_id": "43707290840",
+      "selected_file_count": 45,
+      "selected_files_sha256": "ec8bbabbb8145fb982546f8e6e472ba97fdce709d7560a4c6c818f068eee7b60",
+      "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b",
+      "wrapper_sha256": "b199f04098d2f0b99810f55d93e43af40e58195f393626ea2b1ce03a930b2a8e"
+    },
+    "R809": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 545778174,
+      "archive_sha256": "1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550",
+      "artifact_id": 14168728276,
+      "artifact_name": "serre-global-R809-original-S5-normal-coordinates-43712427063-1",
+      "certificate_name": "p41-original-S5-normal-coordinate-certificate.json",
+      "configuration_sha256": "c5b3f5f1a527be473b5869e16315e258322d2a4d401905364f05b62ffacd52a4",
+      "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+      "expected_conclusion": "success",
+      "manifest_bytes": 4044440,
+      "manifest_file_count": 11305,
+      "manifest_sha256": "84908131c5a232d7accf5919a999c0bfbae4b2b632dcfc03c1e634494ef27b4e",
+      "result": "R809-original-S5-normal-coordinates",
+      "run_id": "43712427063",
+      "selected_file_count": 1260,
+      "selected_files_sha256": "ba34850eaff318afb02836a01c5aadbcf3b11f33aaf40331c61cf86f5e8752e8",
+      "source_commit": "91fbd81eb539c07f11e21116e71def91fdab5254",
+      "wrapper_sha256": "3616aac1b7d5dc373f0599c7ca023ef300f647fa204cd874a9655ca55b9607ea"
+    },
+    "R840": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 96435463,
+      "archive_sha256": "0ae63e2c65f2f45ac759bc948ea57203b36e1645899ebe409c38f0d879c39d94",
+      "artifact_id": 14185198226,
+      "artifact_name": "serre-global-R787-implicit-CM-value-43773420733-1",
+      "certificate_name": "p41-original-implicit-CM-value-certificate.json",
+      "configuration_sha256": "2a3bd8cee0b9db0e645ecd94b2db8651d046ac67ea5134e31ead7e77f9ff7829",
+      "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+      "expected_conclusion": "success",
+      "manifest_bytes": 37636,
+      "manifest_file_count": 254,
+      "manifest_sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642",
+      "result": "R787-original-implicit-CM-value",
+      "run_id": "43773420733",
+      "selected_file_count": 8,
+      "selected_files_sha256": "b985f942be78d737f6af8a30f8f5e41424bea8d0fb8d045dabb057e5e1141e59",
+      "source_commit": "c3bcfc0dbbcd3a045349ec4500886100851a0d84",
+      "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4"
+    },
+    "R845": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 110888459,
+      "archive_sha256": "34f85e3c564929e04eceb0f326353a77acc7010ecaee1df315704a75e315f8c0",
+      "artifact_id": 14188093176,
+      "artifact_name": "serre-global-R839-original-D-pencil-and-eight-generator-pole-ideal-43780953543-1",
+      "certificate_name": "p41-original-D-pencil-and-pole-ideal-certificate.json",
+      "configuration_sha256": "d6d7e284ab025a51d5ac0ef13eb99a7cca0205ffde6fcc3f5b2dc35bc48a2bf2",
+      "core_sha256": "601b0b5aeb89d3d37ef6f74151f03a15f92cc5724fbb8574cc6c87f533158b4b",
+      "expected_conclusion": "success",
+      "manifest_bytes": 9206,
+      "manifest_file_count": 53,
+      "manifest_sha256": "8bef49bfa53a00f1bdce31c947e030d92ff5abbae15d0115587f9cf869486099",
+      "result": "R839-original-D-pencil-and-eight-generator-pole-ideal",
+      "run_id": "43780953543",
+      "selected_file_count": 8,
+      "selected_files_sha256": "b787f1e5c673b5279b6161589fa36f75ef8a0a10f800e7c9223d6c408934f85e",
+      "source_commit": "a43b6afad1ffdbcb0357eda63b7683df3c5d2c93",
+      "wrapper_sha256": "8be3fb61034da689bbc4bbe8e30f2c69f062c561f034b10a078dc69553fd9e95"
+    }
+  },
+  "workflow": ".github/workflows/serre-R839-original-global-polar-DAG.yml",
+  "wrapper": "R839_global_polar_DAG_public.py",
+  "wrapper_sha256": "5f963b478d2fecb0ec2320fc969fea80c635fb19b584eb56cdb5b829ce981237"
+}

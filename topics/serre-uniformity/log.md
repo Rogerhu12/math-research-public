@@ -162,3 +162,9 @@
 - 只排原普通Taylor全部非结构零minor均unit；指定受限minor和same-h仍未定，不能用换Hurwitz/展开点/Dixon的Hankel公式代原矩阵。中央二标签继续原两乘积单位。
 - 新dual实际run43785814509/job133033100469/source9e4b0021，prepare1481原源SHA全部通过，首次core exit1；正在读取原artifact日志并修复，未接受或拒绝q。c0六Hodge的原四行来源正在纯IO取。
 - 本push规则：本地真实pull至b98dc82a1bb379d08cad84f06b62a931ae79df62（2026-11-16T01:30:39.246170+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:34 Asia/Taipei — serre-public-astra-20261115
+- 激活原全局五加法极理想DAG：core995a1298/wrapper5f963b47/requesta07fca34，八组2709真实源、expanded fp a2839071；完整F1234/W34/C12/S51234及原R845/R791接口，旧数学不重。
+- root已读完整执行源码、源闭包与workflow；仅增直接入口公开Actions约束并改正确artifact名，数学公式不变。原y单位解/可分导数、五组三minor、η负号、真Norm/三同源正乘全保；标准Jacobian/刚性化/高度未成。
+- c0真实R80319件159105635B/fp6e625137与R8379件73623B/fpf48bb378已纯IO取，原四补行使六Hodge值/一阶只依末四坐标；纸面来源尺度继续连接。H先逐字归档，原双转置首次失败正在读取实际traceback修复。
+- 本push规则：本地真实pull至5f7aae7e059f72225b1d67d9eb41f4d555841825（2026-11-16T01:34:58.319708+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
