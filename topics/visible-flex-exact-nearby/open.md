@@ -31,19 +31,14 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 截至1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的完整本节及H活动链逐字保[全实试探/源/腰端检查点](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)，递归保物理行/graph/插值及原档。原球、域、mean、失败/lost、恢复和每项未付义务不减；成功receipt的false flags不改，旧成功禁重。
 
+WAD/WTS、JI/WUA/WUR/WUC/WES/WUB及WPC/PCRA本节逐项完整原说明亦逐字保[WGS与WZR后检查点](notes/2026-11-16-completed-global-jets-and-waist-reconstruction-checkpoint.md)（045ac035同open）；所有域/单位/均值/资格、3070跳点、ordinary费用和未付门不变，既成成功禁重。
+
 上述已成反射/同列/双边坐标/graph的逐项原说明，另逐字保[最新完整检查点](notes/2026-11-16-completed-positive-coefficient-and-global-input-checkpoint.md)（9fccddef同H/open）；每项域/单位/mean与未付physical96/ν/无限head约束不减。
 
 [WPL实际leading](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)052bd8ed：完整反射给$c_o=-R_bc_i,b=a+\Omega$；真metric偶性及C2/近腰bump零给$\mathbf S(0)=0$。二阶$\mathbf Z(0)$含$\mathbf S_r$保。实际归一化primitive行为
 $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 完整余项为$Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 物理first mean为$\nu_i=\Pi c_i$；式45直接state row与三项余式不双计，不只在error侧消共同Ni。same-operator可用新预算仍待。
-
-[WAD/WADA完整第一行](results/R133-supplement-actual-complete-physical-waist-first-row-bound.md)2737f96d：唯一43803459418/1、16门/9新球/old0锁。[完整science](notes/physical_waist_first_row_receiver_ci/run-43803459418-1/actual-scientific-conclusion.json)77d17dad/29708同natural-root→raw moving primitive整界$[4.74879859988486936681168611504295450063760366646214592528987914033956321e83\pm1.36e11]$，选index1；14旧record/9scope、PC/ST4/cut/三源/3070jumps/waistFT与两preGit全保。完整adjoint不等于signed cancellation；不授小门或WPL不同归一化的新数。
-
-[WTS过渡替换](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原qstar不含Js；旧PC upper非lower。新trial须保root/cut/ordinary源/全jump/waist且same stable/head/rest/outer；critical ρ~n^-2/3、χ′无免费gain。
-[WGT真高块](results/R133-supplement-sharp-graph-high-block-tests-and-complete-source-thresholds.md)231ff8b1：同wholeE在任$1<\sigma\le4/3$够graph紧性；$P_J(M_\nu-\bar M)=0$只去high费，原low/Theta保。真门$2K_{CYA}C_{E,\sigma}K_{P,\sigma}\Lambda_J^{-(\sigma-1)}<1$。完整received列须p>σ+1/2，真block须p>σ；所有n7/6/twoI/ordinarydr/PC/root/waist/mean/坐标先付。
-
-JI/WUA/WUR/WUC/WES/WUB完整六项说明、全部原球/域/mean/失败/lost及恢复逐字保[Schur与端点完整检查点](notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md)（38135c98同open），各原proof继续约束。JI只原real[0,rc]与同parity角逆，$D_J\ge(79/128)e^{-7/4}>0$，不转域或搬旧费用；WUA/WUR保全N6、ordinary两row、3070真jump/内mean反馈与root项；WUC列法只$1<\sigma<7/6$，WUB完整inputbands才恢复$4/3$，保全PW/receiver/mean与ordinarydr；WES保全原FA两row/两phaseSchur、两mean/端rank及四腰端，$n_g$一次。各链为0新球的完整解析recipe；whole新预算须同signedtuple，原PC/root/cut/oldtarget/leading/Ni及独立physicalmean/amp均保。
 
 [WUE完整同物理行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)e191f96a：$E_\partial^{fr}=D_{alg}+L_\partial(R_++R_F+T_{neg}+E_{end})N_i$，同旧WPL leading、$1<\sigma\le4/3$。全trial替换精确望远镜接WES端差，旧ST4不另重复；原PC两received及CG一次仍全额，完整mean/two-I/原Js保。Ni用同ambient有界延拓插值，4/3直接原A−；WUC列法仍仅1<σ<7/6独立替代。所有旧五球逐字锁，未算whole新数/高门，未授finite/ν/背景/总验收。
 
@@ -52,10 +47,6 @@ JI/WUA/WUR/WUC/WES/WUB完整六项说明、全部原球/域/mean/失败/lost及�
 [WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
 
 [WCF精确系数有限因子](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)452ee9e4：同Dalg保完整FJ、两primitive ranks、原−(h−1)ρi及新+(h−1)ell2；仅其余两twoI组成D∞，直接正费无Ph，不减wholeupper。安全2431/实际反射可1119只是aux维数；与WFR接同WGB high/finite全部cross、Θ/真96列/ν/无限head，实际entries及passinggate仍待。
-
-[WPC完整新cut](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c与[WCE同Dalg](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b的完整预执行说明保05b386115aa5ba1d63caf008ee8890977b6f288b同open。原trial/χ/两row/mean/TF after-right/twoI/同Js与selected范围全保。
-
-[PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)f2b1e603：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
 
 [WSPA实际新界](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)4b5104c2：43816689251/1已16门/4图成功；same Rplus整选3.0660269163…e28，D∞新2.3328477893…e9与ell2非whole Calg。完整PCRA55533B/49slots及全mean/finite保，old0，禁重；全局门仍待。
 

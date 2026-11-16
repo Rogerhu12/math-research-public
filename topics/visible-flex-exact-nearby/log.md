@@ -404,3 +404,7 @@ main 07daec485cb0323646c9ba94cf491b4e5e015308 两README未变。新白名单6c4e
 ## 2026-11-16 07:18:05 UTC — s10 单报告 freshguard 普通删除
 
 main 6d782189915abf54e60a9fb4afcf7ef95bfa7d48 两README未变；6d782189915abf54e60a9fb4afcf7ef95bfa7d48已先推精确白名单。fresh非递归树再次核唯一path/blob8d066c24c8748229c2a417d63348d22ba1965d52/633521B后普通删除；restore d5cf6ec08d71b6b7a7240f051198c9800f5d8c06原path及SHA完整保白名单。所有canonical15shards、原报告/数学失败/exit137与源仍保。Newton补核其完整WNR/WGS interface/main/Tail support/WEJ/WUA六文本对此basename均0；限定当前文本，不冒全仓库依赖结论。无旧数重跑、无新增数学执行。
+
+## 2026-11-16 07:20:06 UTC — WGS/WZR 完整原页逐字保存并缩短活动索引
+
+main 8617e13f488c64795b96b0b569a7b8f03733f0bb 两README未变。045ac035同H9883B/open29530B逐字保存为新检查点40014B /SHA2d0f2f0dc90117647f01d06c72978f6b25cf6e980510937d0106fee53e29c9ed；原results97384B /blob e9981a6fde074673cd89be669b7c425fb4f6be2b /SHA df19487183e8ea13906782f8baba3f2babbf70caf93cbe7c0c3582157372e8ac直接同blob另存。仅压缩已闭说明及活动索引，未付physical96/Θ/ν/均值/无限radialhead/highgate/finite/全背景/core与原失败/lost和成功禁重义务完整保留。0数学执行。
