@@ -338,3 +338,9 @@
 - 原normal线性转换逐项还原；16节点函数域DAG保原W34全部spec和cyclic witness，三K(z)solve明确deferred，不称完整272作用或RR/period已算。core5b65e7cc/wrapper5bb1bf50/methodbd82f308；本地AST/169逐SHA IO，无新数学。
 - R852公开run43801628875已success，正在取实际certificate与全部小输出，尚未用日志替代正式结果。R786原artifact经API仍有效至05:41:45Z，R853立即取必要原叶；H逐字归档保全部旧状态。
 - 本push规则：本地真实pull至b33160624049313b2bda9d66d3da25dab03410cb（2026-11-16T04:05:03.127627+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:08 Asia/Taipei — serre-public-astra-20261115
+- R852真正完成：run43801628875/job133083063775/sourced0023643，0.035879553秒/3stage/839node；五C原十四坐标准确展开，首五坐标行的5minor非零给Q秩5，未推成高度非零。
+- 五D仍原secant×h_g准确DAG；旧733节点全保，新inverse/点加法0。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；单Z数值、41四响应/Y/height/A.1仍false。
+- 原artifact14196442913整2.74MB ZIP真实重哈希01ae4657，全部11产物/来源字段已纯IO；9原件2.53MB carrier44d40476保存270原叶。R853 run43801910753也已success，立即读其真实产物；R855新高块稿正核原全尾范围。
+- 本push规则：本地真实pull至03bc2ba013aff1b24db686afa3561357130c2db8（2026-11-16T04:08:48.385066+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

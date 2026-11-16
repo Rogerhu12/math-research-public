@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b33160624049313b2bda9d66d3da25dab03410cb**（2026-11-16T04:05:03.127627+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[三V1运行前完整H](handoff-archive-2026-11-16-before-three-V1-run.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：03bc2ba013aff1b24db686afa3561357130c2db8**（2026-11-16T04:08:48.385066+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[三V1运行前完整H](handoff-archive-2026-11-16-before-three-V1-run.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -29,7 +29,7 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 **原帧与sigma规范**：[RF](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99保I_Z、P0/P1真帧、v_R=κ/R·v³、ν=3^(11δ)mratio与完整Corr/theta二挠。原Q三次纤维/实际C_h/nonp/splitting均保。[SP](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea固定μ3补〈xω〉、u²(1−u)=bξ⁶、w/H/F、ψ₂=−2y与SP25–28全尾；41须原U.1或已接受A.1。
 
-**R852实际新消费者已提交待运行**：[契约](notes/R852-original-one-Z-coefficients-consumer-method.md)e4a4e983，core2fc8df00/wrapper873097d8；仅R847九件/原270叶，733节点不改、旧斜率/ρ逆复用。ZA C_j=3[(2−p/q)+T^j+T^-j]a以原12×12 Hom和十二切向直接展开十四坐标；T^-j=T^(21−j)保ζ²。新五C有理秩/子式待Actions；D_j=3c_jh_g准确DAG，不求四响应/41 Z/Y或height。
+**R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
 其余正在实施：ordinary_local R854真实41四响应核，exact_height R853三条真实cτ/cσ/cw0（原560行/146选行）及有限RR；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
 
@@ -55,4 +55,4 @@ UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与�
 
 **R854算法**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：原2560×2420完整cleared算子同free1186，真实20×20尺度246³κ^(m+1)/rhs−C_free。行饱和全minor理想下降；实际unit行/逐行T给左逆界，整化尺度减回；F41²逆＋单rhs π-Dixon＋全129×20×14残差才认球。无新41数值。
 
-**R853三条原V1共轭已提交待运行**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
+**R853三条原V1共轭run43801910753已success、正式产物待读**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。

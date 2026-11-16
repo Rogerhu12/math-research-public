@@ -132,6 +132,6 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R854原41全行饱和算法已证**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：同2420未知/free1186，读原R/K/F/Z构造2560×2420完整cleared算子，正rhs=−C_free；各m块乘246³κ^(m+1)真实可逆，不挪用同号选行。DVR依赖行消去后除B使全minor理想严格下降；实际单位行＋逐行T下界给左逆范数，整化尺度须减回。只F41²求逆、单rhs π-Dixon、原全129×20×14残差后才认四响应。core在写，未运行41新算术。
 
-**R852实际新消费者已提交待运行**：[契约](notes/R852-original-one-Z-coefficients-consumer-method.md)e4a4e983，core2fc8df00/wrapper873097d8；仅R847九件/原270叶，733节点不改、旧斜率/ρ逆复用。ZA C_j=3[(2−p/q)+T^j+T^-j]a以原12×12 Hom和十二切向直接展开十四坐标；T^-j=T^(21−j)保ζ²。新五C有理秩/子式待Actions；D_j=3c_jh_g准确DAG，不求四响应/41 Z/Y或height。
+**R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
 **R853三条原V1共轭已提交待运行**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
