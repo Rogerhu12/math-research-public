@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：e8c1b91c834b89f9209709814f815e5105c12a99；2026-11-16 09:57:29 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:55:47 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
+- 最近已读规则提交：fd99323915fcd0e61c3790641b7624af9fd01219；2026-11-16 10:00:57 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:55:47 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -31,7 +31,7 @@ R882付原X10404=Norm(B867×_{T3}E_src)的18覆盖：E_src:y²=x³+1，A=(x³+4)
 原S34/T72/U136/V66、charge17/36/68/33、CM13、全Euler/p²p³保。R816/820付E−11 rank≥2，通常全Selmer桥仍缺同一无穷p完整J′非零。
 R855/R856 whole除p、全参数Frobenius及[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p、A24全theta核保前检。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Ej=−b^jσ24x^(8−3j)y、c*=(1,−4/7,16/7)。四B零 iff BS0且M_pc*0；三相邻系数来自四不同真实伙伴，U二挠仍同全tensor/lift。S/V的X0/729X0真实低卷积、[3]完整W3及S/U六零不省略。
-R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。附A付H22的10362整CM词返回及同热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，接全L2D5(V)−D7(V)/132。附B以209(D7V−9D7S)+3528T消原degree4高行及显式q3；只按BS0换O_C为真低卷积，D6C30/热new/全cross仍保，theta续相容性。
+R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。附A付H22的10362整CM词返回及同热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，接全L2D5(V)−D7(V)/132。附B以209(D7V−9D7S)+3528T消原degree4高行及显式q3；只按BS0换O_C为真低卷积，D6C30/热new/全cross仍保，附C付Tδ(C30热)=(2δ/7)σ10x²y；其D4旧行准确降到同B4、原质量1Theta及全低Y/Z，new首11z3/21保，theta续相容性。
 
 
 ## 当前第三门：低松弛同P/R/S的真正后两页
@@ -39,7 +39,7 @@ R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S
 原M=c*U0w13J保P134/总charge40/39carry/10980/十九角/全WD，TM=s−r−13与TJ=s−r不混。
 [R828四位](notes/2026-11-16-r828-actual-one-scalar-four-digit-and-same-correction-pages.md)、[三carry](notes/2026-11-16-r828-three-native-carry-recursions-and-last-block-tails.md)、[左行/Newton](notes/2026-11-16-r828-native-zero-angle-reader-and-central-newton-value.md)保hΘ=H w^(s−4)B全高尾、M四位、同P/R/S及Y1/p、Y2/p。首提升迫W0/W1 modws零及W2+H w^(s−4)BW3 modws零；新增D2/D3只读W3八/十二尾及末quartic，仍联立normal；ell=s−14保[w]W4。
 Λ0M(X)/p=Σ_(d1..3)p^(d−1)a^-d[w^ds]Wtilde_(r^(d))(X)，r=(Q−40)(Q−41)(Q−42)，无1/d!。四中央零给Hc=h0−C/D、H−Hc∈p³，真实必要式N(P)+pN(R)+p²N(S)=0 modp³；其它三中央残差不删。
-R861/R865实际a*=−34C_H对齐保持M，H/h0有限乘积与三谐和位给Rcal；真实g^flat含hΘ，quartic k13首像旧unit、k>13此行恒零，参考g0须恢复3H[w4]BW3。R865附A全证 L1=q2/3−3q3/4+1/3 modp；不假其非零。
+R861/R865的原a*=−34C_H对齐、H/h0有限乘积和三谐和位保前检；真实g^flat含hΘ，参考g0须恢复3H[w4]BW3。L1=q2/3−3q3/4+1/3已证，不假非零。
 R868原σ_t=min(ord P_n−A_n)控制t^-τ返回；τ=k−13≤σ_t且ell≤s−h时首像unit，故Λ0不下降第二页左行，R/S调标量同时改全余类。最小r=b0=3,c0≤2时σ_t0，仍开。
 [R871](results/R871-original-sigma-thirteen-unit-and-low-hurwitz-readers.md)：真实V_S^-13单位保w13/39carry，BΦ=Φ/S13全whole并保P134/十九角；完整ΛS给D1/Dp+2/D2p+3、J0和绝对γ。模p行差仅39低带，整高尾不能删；k>13首位仍零。deep续低松弛同P/R/S与四原中央，不再新增gauge等价或免费伙伴。
 

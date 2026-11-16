@@ -116,3 +116,6 @@
 
 
 - [R879附录B](results/R879-original-v66-heat-and-degree22-trace-defect.md)：同C30与原σ(2az)/(2a)的全D7 Leibniz保三个高端、原Cp与binomial模p²及八阶分母cross。D7V−D7S消D6C30，D7V−9D7S消degree4高行；209倍后一差加3528倍原热trace缺陷再精确消显式q_p(3)。仅在原BS0下用O_C=真实低卷积，剩D6C30/new热余项/所有cross及H22两个不同读者均保，不赋新中央零。
+
+
+- [R879附录C](results/R879-original-v66-heat-and-degree22-trace-defect.md)：原C30热trace保J对y的真横向作用，两三点迹−135/−27合成(2δ/7)σ10x²y；原D4接L2D4(C30)−D6C30/60及同q3缺陷。degree10旧行经实际B4U6、δ拉回和Theta/F2的完整Wronskian准确降为−36D2B4+24D1Theta−116cp−72cpq3+24Z+Y。全部低cross及new首11z3/21保，不给质量1Theta或任何热伴随免费中央零。
