@@ -25,3 +25,8 @@
 ## 2026-11-16 07:57:00 UTC /root — R498完整账本无损存储与真实消费者
 
 [R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)/[接口](notes/2026-11-16-complete-far-ledger-gzip-storage-and-consumer-interface.md)四件helper15744/d07d、plan16786/eb49、proof19411/96a3、接口16863/0155齐；samefar/union真实全读旧95GB账，首native不用不许可早删。逐原canonical行完整gzip member在commit前写完，双stored/decoded身份/全行/span/事务/原异常与预算保；原32GiB不变、无压缩率/空间足够/新接受承诺。218续完整真实来源级联，展开源/临时raw不入Git，不新增科学门。
+
+
+## 2026-11-16 08:07:00 UTC /root — R500同C完整头部与tail闭查询
+
+[R500](results/R500-same-C-recomputed-head-and-complete-tail-query-enclosures.md)/[接口](notes/2026-11-16-same-C-refined-head-tail-query-interface.md)三件API29687/2ab6、proof14699/a902、接口12496/82a5；先原target全绑定再真用R489新source累计半径，唯一原R426与原budget/绝对钟，完整闭覆盖/合法交/旧粗界fallback/全根族与未访保。只0阶E，不冒cut二jet外推、全tail导数、误差下降或新接受；R504继续外层实际注册，不改运行入口/加门。H以0d825bb8保存全历史并更新真实当前分工/新初点与容量。
