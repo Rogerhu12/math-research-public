@@ -1,0 +1,71 @@
+{
+  "format": "r150-original127-complete-critical-primary-profiles-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "prime": 127,
+  "parentRun": "43772109844",
+  "wholeTorsionDimension": 299,
+  "sourceFiles": [
+    {
+      "path": "notes/2026-11-16-r150-original127-complete-critical-primary-profiles-789f.py",
+      "gitBlob": "d4425caa6811c11aced3da9d3d3661b0ca09b7dc",
+      "bytes": 13133,
+      "sha256": "5b9b656473766069ff34df2e25f5f56cadda452cc504dd13094360d09abf3dea"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+      "gitBlob": "b4e735dc12e8dee8b483728b895677dcfff23a09",
+      "bytes": 20947,
+      "sha256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+      "gitBlob": "bb66e2938a2625aa67059cea7f35a4816b64f4bc",
+      "bytes": 1286,
+      "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31"
+    }
+  ],
+  "actualInputs": [
+    {
+      "path": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json",
+      "bytes": 9819,
+      "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/torsion-whole-state.bin",
+      "bytes": 1414575,
+      "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/whole-torsion-characteristic.json",
+      "bytes": 2560,
+      "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+    }
+  ],
+  "argv": [
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--hstar",
+    "{scripts}/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-critical-primary-profiles",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "completedDependencies": [
+    "original127-complete-whole-torsion60"
+  ],
+  "outerSeconds": 90,
+  "normalFormsRecomputed": false,
+  "gradedBasisRecomputed": false,
+  "wholeTorsionRecomputed": false,
+  "coefficientBocksteinComputed": false,
+  "characteristicZeroConclusionInferred": false,
+  "allLargeDataTemporaryOnly": true,
+  "localExecutionOrASTClaimed": false,
+  "acceptance": "For each of all five original critical irreducible factors: full characteristic-multiplicity kernel saturation, canonical original299 free identity, all primary-kernel and action products, exact primary characteristic and minimal polynomial, and direct sum of all five complete primary bases."
+}

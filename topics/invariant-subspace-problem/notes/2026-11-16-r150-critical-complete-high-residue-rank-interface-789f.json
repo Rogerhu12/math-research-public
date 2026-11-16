@@ -1,0 +1,359 @@
+{
+  "format": "r150-critical-complete-high-residue-rank-interface-v1",
+  "date": "2026-11-16",
+  "author": "Astra-ISP-789f / literature_audit",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+    "blob": "d93a33690bd9829e7fcc96626a107e161f6a7820",
+    "bytes": 28063,
+    "sha256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9"
+  },
+  "native": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp",
+    "blob": "ed31e94edeec937bb909e61e0c39e2567c09a0f7",
+    "bytes": 9177,
+    "sha256": "bada5f20f24efd06ba9ca9a5f2bda16f1d935d42f89d32be08166a184a609fa7"
+  },
+  "auxiliarySources": [
+    {
+      "name": "generator",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "blob": "fc2e61ef9e32c8c14dc682969dd7e5bc9015767e",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "name": "jet_actions",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "name": "low_generator",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+      "blob": "4e773f402a6c3a5d4bb9cd0d37bf1026b742dc28",
+      "bytes": 21507,
+      "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+    },
+    {
+      "name": "field_helper",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+      "blob": "1284314ed2b1a8597bdfa38b855d8b14132fe0ec",
+      "bytes": 25609,
+      "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+    },
+    {
+      "name": "weak_driver",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+      "bytes": 33886,
+      "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b",
+      "blob": "3c845a51708e164eab21175c70e423f77b5dc379"
+    }
+  ],
+  "parentPins": {
+    "plus": {
+      "receiptBytes": 29268,
+      "receiptSHA256": "30043fb3e263f861166f439c198af93bc10a69a8c5940acad42fe0429c3d86e6",
+      "binding": "fc1dd340764a2c3f419f2f8fa2cb13581585be8af1a680871ddac1d7fa157593",
+      "rawBytes": 14425,
+      "rawSHA256": "c7b70b2ec6155d0d9e3e4dc706ba5c39b3cd6433383458551f695c162600557e",
+      "manifest": {
+        "bytes": 10739,
+        "file": "checkpoints/manifest.json",
+        "sha256": "3a6c668298211eb5831ab35876f59ce88be6f164f50077a7dbb2e8f402aa8e98"
+      }
+    },
+    "minus": {
+      "receiptBytes": 29275,
+      "receiptSHA256": "708cc521471fd10e493be27c206420ca34ef89db71a52791e3e0b5e21eb1954f",
+      "binding": "108c040d0df21708a57e1bdc8ba64d796ad894d066476efa56871abd2ffa976d",
+      "rawBytes": 14429,
+      "rawSHA256": "79ef5a020dcdbf1a113eed0940208f5bad7449a6b4467f6c886429c708776885",
+      "manifest": {
+        "bytes": 10740,
+        "file": "checkpoints/manifest.json",
+        "sha256": "529a47b394c74f08558ef775f9a477c88d8a966ad536e06f85a10268dd6e8098"
+      }
+    },
+    "e8": {
+      "receiptBytes": 29037,
+      "receiptSHA256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211",
+      "binding": "6b2bd281d07a3796c302c5ca8a09d00f22433fb9501c62ff0df682733d8ce7f5",
+      "rawBytes": 14267,
+      "rawSHA256": "dc8f194bbc11634cf60b3b40968ff3123d2cd60f61a87a752e7925e8744c90f7",
+      "manifest": {
+        "bytes": 10411,
+        "file": "checkpoints/manifest.json",
+        "sha256": "555f91cb50825c78aec5bafc8289bc277fd9f8a30e76a775f7aaa33bf49fdcf3"
+      }
+    }
+  },
+  "newMathematicalExecution": false,
+  "mathematics": {
+    "originalSourceCount": 6188,
+    "originalTargetCount": 4367,
+    "completeHighShape": [
+      6018,
+      4266
+    ],
+    "sourceSectors": [
+      918,
+      2295,
+      2805
+    ],
+    "targetSectors": [
+      54,
+      450,
+      990,
+      1485,
+      1287
+    ],
+    "lowComplementShape": [
+      170,
+      101
+    ],
+    "lowComplement": "All20 pure targets and all81 one-normal targets whose d exponent is0 or1.",
+    "highComplement": "All54 one-normal targets with d exponent>=2 plus all4212 normal-degree>=2 targets.",
+    "originalCrossBlock": "The6018 high-source by101 low-target block is identically zero and explicitly checked.",
+    "numberFieldUpper": "The two actual parent quadratic columns, embedded into4266 coordinates, are independent and vanish on all6018 high rows, so rank<=4264.",
+    "residueLower": "One complete original high matrix, rational whole-row primitive scaling on its canonical number-field polynomial representatives, evaluated at the prescribed simple residue root.",
+    "fixedResidues": {
+      "plus": {
+        "prime": 19,
+        "s": 5
+      },
+      "minus": {
+        "prime": 17,
+        "s": 4
+      },
+      "e8": {
+        "prime": 17,
+        "s": 5
+      }
+    },
+    "residueSources": [
+      "results/R150-appendix-rank-one-Pplus-means-complete-critical-classification.md",
+      "results/R150-appendix-rank-one-Pminus-means-complete-critical-classification.md",
+      "results/R150-appendix-rank-one-E8-means-complete-critical-classification.md"
+    ],
+    "conclusion": "Only if the actual field rank is4264 does the complete number-field high kernel equal the two paid columns. Otherwise retain the actual rank interval.",
+    "noParameterJetGoodReductionClaim": true,
+    "noFiniteFieldKernelLifted": true,
+    "whole6188CandidateProductComparisonRequired": true,
+    "complete6018HighProductCheckRequired": true,
+    "fullCriticalConnectionStillRequiresActualCompleteLowEquation": true
+  },
+  "resources": {
+    "secondsPerField": 180,
+    "memoryMiB": 2048,
+    "outerSeconds": 210
+  },
+  "checkpoints": {
+    "immutable": true,
+    "childBindingIncludesParent": true,
+    "budgetExitCode": 75,
+    "temporaryOnly": true,
+    "preserveAllFieldRowsAndPivots": true
+  },
+  "tasks": [
+    {
+      "id": "critical-plus-complete-high-residue-rank",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+          "sha256": "30043fb3e263f861166f439c198af93bc10a69a8c5940acad42fe0429c3d86e6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp",
+          "sha256": "bada5f20f24efd06ba9ca9a5f2bda16f1d935d42f89d32be08166a184a609fa7"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "plus",
+        "--parent-out",
+        "{work}/critical-plus-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-plus-complete-high-residue-rank",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp"
+      ],
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/critical-plus-complete-high-residue-rank/critical-complete-high-residue-rank-receipt.json",
+      "requires": [
+        "critical-plus-weak-quadratic-positive-jets"
+      ]
+    },
+    {
+      "id": "critical-minus-complete-high-residue-rank",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-minus-weak-quadratic-positive-jets.json",
+          "sha256": "708cc521471fd10e493be27c206420ca34ef89db71a52791e3e0b5e21eb1954f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp",
+          "sha256": "bada5f20f24efd06ba9ca9a5f2bda16f1d935d42f89d32be08166a184a609fa7"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "minus",
+        "--parent-out",
+        "{work}/critical-minus-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-minus-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-minus-complete-high-residue-rank",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp"
+      ],
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/critical-minus-complete-high-residue-rank/critical-complete-high-residue-rank-receipt.json",
+      "requires": [
+        "critical-minus-weak-quadratic-positive-jets"
+      ]
+    },
+    {
+      "id": "critical-e8-complete-high-residue-rank",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+      "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+          "sha256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp",
+          "sha256": "bada5f20f24efd06ba9ca9a5f2bda16f1d935d42f89d32be08166a184a609fa7"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "e8",
+        "--parent-out",
+        "{work}/critical-e8-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-e8-complete-high-residue-rank",
+        "--remaining-seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-native-789f.cpp"
+      ],
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/critical-e8-complete-high-residue-rank/critical-complete-high-residue-rank-receipt.json",
+      "requires": [
+        "critical-e8-weak-quadratic-positive-jets"
+      ]
+    }
+  ]
+}
