@@ -14,9 +14,9 @@
 
 ### O2 最新实际
 
-[四cut交换的唯一首实际](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)接受54，physical c0214406cebe6f39eda0b11fa2db5fecb883d9323c696005447427b39410f253。η粗.2660119435311364/细.26601238103375724，严格降2.76319609660014e−6；κ细57.99930616102216，原两网14门全真，但.26目标与主reach/连续门仍未过。池4453/4549、v14/14，五新coarse行及全部controller状态保原checkpoint。
+[notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)接受55：physical39e71805432d8e1814032200b8cb70973e95475b4ec02696233a7bb37e57746e，η粗.2660117457770361/细.2660117461153504，降6.34918406849927e−7；κ细57.99944919079858略升，原两网14门/准确163盒过，.26及主reach/连续门未过。池4453/4549、v14/14无新增，完整controller/guard保原checkpoint。
 
-第5个真正新行集9672行给完整gain5.432252160344885e−6，5LP/164迭代/328系统/5双网/10新梯度，62scalar后1actualpair接受；同task含两次输入失败218.31438091800004秒，祖先1877.294171609秒/130值。点54真实U/T/e/f缓存已输出；未导出二jet/curvature/Jac需必要新构建，不把原53模型冒54。下一原约束模型及方向必须在新点构建，全部旧solver/方向已闭；完整来源见note。η是metric辅助量，不是δhold。
+该54新模型任务2必要ordinary/2selected-J/2firstjet、18外J标签刷新；2新矩阵9676/9679、68iter/136系统、2双网/3新cut，62scalar选α1、首actualpair接受55。原新196.268239511秒4值，祖先2073.56241112秒134值已闭。54完整MODEL和55真实U/T/e/f cache均在原stdout，二者不能混称55模型。接新完整body自由基及真正非线性下降；参数扩展给新身份，保同g/b0/永久reference/当前55best，不重跑已闭有限/方向。
 
 ### 仍须支付
 
@@ -129,6 +129,6 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 
 1. **真正新 cap。** [R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)/[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)给真五控制满秩、logρ lift和三个normal的有限IFT，只付局部下降。R483全尾紧化保远左C，R485排critical/uniform全部C，R489排单曲率原子集中并保两个分离质量窗；不授统一点态正窗/逆。冻结ψ3完整E一次严格Im>0任务已闭。[十五参数真正观察](notes/cap-five-positive-curvature-bounded-observation-20261116.md)同120预算已闭：114.27892698800002秒/166started/164complete/2fail，无新prefix或旧checks；best96→同参165/166，完整Δ/R5∞.17708499746487424，未零且未驻定。不要重开旧六起点。R491完整相位/跳变与两原子五多项式已付，尚未判有解/无解；正推进三原子+远左C五实参的新原积分候选及有限合法恢复。任何新母仍须原q4/F★/20根安装与多帽共同c、A7/s、A0/(h³s²)，不能移植旧母收据。
 2. **同一全路径规范。** [R482](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)给原真实13状态2输入及完整K=F+Chh″+Ckk″，保第三入值/全部W/V。R484若加速度minor非零则有理保护芽锁定解析延拓，离开要实际rank退化；尚未判minor值或退化支。R486排完整F在状态开域恒零，但不排实际低维路径；原principal与C²余表仍保。R488实际k0/ω常/h=Hsec的完整ruling是(a+bv+cv²)/h；中心整profile清理给b0，单patchGram付两even。但已有保护芽锁χ时必须在原period/13核中解三个明确线性兼容行，不能逐patch重选。该分支t1′<0，不能自身M0返回或保方程接常collar。继续真实连接段全s ruling、完整初历史与新增行共同像，不能只报告单patch可控。
-3. **原 O2。** 点54及全部旧source/费用见本文件前部。公开run43832870561/research133182173190正在构建54自己的完整原约束模型，source23b37e90cbc1ac33ca6ff8ac1f91fa7a95c903db；一次新600秒含两必要ordinary、两selected-J/两firstjet、19标签刷新，32严格新行集/64scalar/至多3actualpair。原53任务闭合，所有已付输出需保留消费。尚未收到结果，不宣55或模型失败。随后接真正新完整body自由度及metric/曲率/非局部reach/连续支持，不把η.26或κ58当README门。
+3. **原 O2。** 真新54模型已按[notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)接受55，完整paid模型/原值/费用见前部；下一九个完整body新列与其实际非线性门推进，不能把η.26或κ58当README门。54已付MODEL不冒55 J，参数变化另有完整身份和必要成本。
 
 当前公开/私有实际pull与README已读commit在HANDOFF；每个结论立即推送，NFF实际rebase后续推，所有新研究只在本公开Actions。主完成门没有支付，继续上述工作。
