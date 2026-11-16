@@ -148,3 +148,5 @@
 - [真正58 full62成功后端的严格metric失败](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)：**完整原观察**。SLSQP0/true、54iter/70值/52J、K16.393442622950822；准确盒/norm及曲率/PSD/area通过，但fine η高于严格预算，0预测/actual仍58。新115.53521002299999秒，总3757.97482037/147；十记录完整、0disk、余额关闭，继续完整168联合问题。
 
 - [R554 同一33母的双真实保持与准确p1/p2联调](results/R554-two-real-holds-and-exact-joint-p1-p2-control-with-one-fixed-gauge.md)：**已证明**含全部桥/前缀/真实m,T的两时长IFT，给总p2=0/Π<0及同族另一p1=p2=0词；纳入R553完整快后继后，真负k端亦可保前者。原t1仍负、p0及余矩未清，不授既定末态改史、全M0或慢恢复。
+
+- [R556 同一固定规范的两次真实低尾与准确四矩零](results/R556-four-exact-matrix-moments-by-two-real-low-coasts-with-one-gauge.md)：**已证明**继承完整有序history的两低尾/两高回程及三参数C¹端IFT，原P0=P1=P2=T1准确同零。第二W与矩权重区分，所有费用保；同点r1^y仍严格负，余四矩/末germ/pose/period/13尚欠，不授M0。
