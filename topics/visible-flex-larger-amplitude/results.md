@@ -143,3 +143,5 @@
 - [R604：原六实参直接来源桥与明确祖先关系的精确逆](results/R604-direct-six-plan-source-bridge-and-exact-ancestry-inverse.md)（已证明：原R583唯一直接prepare/全binding与error保、明确两旧scope报告/markers/键序精确逆并接R600，原最终90000/70不变；不解释未返244子因，实际caller待R605252）。
 
 - [R603](results/R603-current-DN-input-support-complete-owner12000-entry.md)：真实248全454来源保留的466来源当前DN输入支撑接线、原owner12000/19200及完整数学门，含全部CLI/必要/quiet；完整实际请求250，数值与R607待唯一公开运行。
+
+- [R605](results/R605-request252-direct-six-plan-source-and-complete-necessary-entry.md)：真实原248454保为471来源的六计划直接桥、原完整binding guard与整正文旧逆/六代关系、完整request252 owner12000/full112及全部原门；R609待唯一实际运行。
