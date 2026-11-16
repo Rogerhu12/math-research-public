@@ -520,3 +520,7 @@ proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完�
 ### 2026-11-16 09:15:11 UTC｜WHV 首次运行停在运维提交，完整旧输入只读核验已成
 
 公开run43837109596/1（event e060e8095fe1dddca7909ef951b485b943c7cd08、job133196378841）仍记failure。完整小job log全读并锁hash；两次成功真pull的全部README diff均空，最后09:09:20.048130。readonly 7门全部真，15current/13history/6AST、原4650+4650rows/3594interfaces/原进度4608及9旧literal全保。marker621B仅打印；push被拒后立即真pull --rebase，但缺committer identity，随后未完成rebase使最终pull也失败。唯一科学Popen在marker推送成功之后，因此本次science0/new0/old重算0/lost0，无新科学前缀可恢复。完整证据 notes/2026-11-16-R133-WHV-pre-science-failed-attempt-evidence.json（e6b6f079…/6946B）先推；仅允许修Git identity与对应运维pins，再执行全部尚未计算的原WHV目标，不重旧数学。只读README核ce020bd644650e3bbf4255904529585c5b6553f9；未达总验收，继续。
+
+### 2026-11-16 09:16:05 UTC｜WHV 仅修复所有 Git 调用的 bot identity，执行原未计算目标
+
+失败完整证据e6b6f079已于8dfc6d8c先推。共享worker只在git包装argv增加同一bot name/email两个-c：9d196773/25559B/SHA a51725c25881464971d5598ba3f639e9dad049068cd8516d6b7954ccccb00cda；逆替换全文等原worker，根及Newton/Phase窄核通过。两科学源e82c5180/7cb5c84b不变，15current/13history/6AST/14门与24/25目标仍原完整合同。manifest791e8f2e仅更新worker身份并链接science0故障证据，workflow f4ef2a3347007a543ca75e7d47042577ff36bed832349128174934155cedce18 随本提交自然触发。新子进程仍须先持久marker、fresh容量全预算+120KB并读两README；原成功禁止重算，无有限逆宣称。当前容量199752748B，仅运维文件替换减容；后续实际结果另核另推。README只读核3e8801fb9ad174ce12c208f7fbfabbbc1b5fb7c5；继续。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 09:15:11 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 09:16:05 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 08:54:12按小时真CLI仍无executor，下一本地尝试≤09:54:12。最新CI成功真pull为43837109596/1于11-16 09:09:20.048130→e060e8095fe1dddca7909ef951b485b943c7cd08；两README完整diff空/版本同已读，e6b6f079保两全回执；随后非FF真rebase因identity失败，不冒成功。下一真pull≤10:09:20；ref读取不冒真pull。
-最近只读README核：ce020bd644650e3bbf4255904529585c5b6553f9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：3e8801fb9ad174ce12c208f7fbfabbbc1b5fb7c5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -39,7 +39,7 @@ s10派生633521B报告：白名单6c4ecc4a先推6d782189，freshguard仅删8d066
 
 linear-s3 505865B已仅删e81bf7dd，白名单a191e135/先推83bac7b8；原五tube全fail与restore a8be95d8原path/full身份均保1162cb41前档和原白名单，禁重算。
 
-WHR289935c3保正radialhead Fredholm index0、未知mH/全cokernel/H¹补列/trace-safe端点及cross。WHVe993f068完整proof/inventory80f9f606保F0=(Id−V0A)F、右端/逆伴随/endpoint及全finite block；193仅angular fiber，9小text/13历史parts/native1f3e5fa6、4650rows/3594interfaces/原进度4608全锁。43837109596/1在marker push非FF后真rebase缺bot identity而失败；readonly7门全过，marker未推、science0/new0/lost0，e6b6f079完整故障证据先存。仅修运维identity及pins后可算全部仍未算24/25目标（3wholemax+typed组合、N=cap4096）；两科学源e82c5180/7cb5c84b不改，旧成功禁重。finite逆/negative head/rough域/96/Θ/ν/两mean均未授。
+WHR289935c3保正radialhead Fredholm index0、未知mH/全cokernel/H¹补列/trace-safe端点及cross；193仅angular fiber。WHVe993f068 proof/inventory80f9f606保F0=(Id−V0A)F、全右端/逆伴随/endpoint/finite block及原4650rows/3594interfaces/进度4608。43837109596/1在marker push非FF后真rebase缺bot identity失败；readonly7门过，marker未推、science0/new0/lost0，完整证据e6b6f079先推8dfc6d8c。仅运维修复a51725c2/manifest791e8f2e已自然触发全部尚未计算24/25目标（3wholemax+typed组合、N=cap4096）；两科学源e82c5180/7cb5c84b不改，15current/13history/6AST/14门完整，旧成功禁重。finite逆/negative head/rough域/96/Θ/ν/两mean未授。
 
 WEJA8f1b7094：43827705714/1仍failure/27门，23整图1609=1600新+9copy、另39partial全保，old0/lost0；全30科学件/13563Bpartial/两preGit独核、stdout仅receipt。全部pins/域/失败/合同4ca7c1d4见原proof及WECA后档；Phi仅旧(0,2)*2!，禁补0或重已成值。
 

@@ -55,7 +55,9 @@ def main():
     root=Path(args.repo).resolve()
     os.chdir(root)
     def git(*argv,check_return=True,binary=False):
-        p=subprocess.run(["git",*argv],cwd=root,capture_output=True,text=not binary)
+        p=subprocess.run(["git","-c","user.name=github-actions[bot]",
+            "-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
+            *argv],cwd=root,capture_output=True,text=not binary)
         if check_return and p.returncode:
             error=p.stderr.decode("utf-8","replace") if binary else p.stderr
             raise RuntimeError("git "+" ".join(argv)+" failed: "+error)
