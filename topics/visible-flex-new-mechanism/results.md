@@ -106,3 +106,5 @@
 - [R539 同一正交库与一次Gram的真实净负总矩](results/R539-one-fixed-gram-and-a-real-negative-total-matrix-entry-in-the-orthogonal-library.md)：**已证明**从起点选有限ν2，完整高度loader/端点IFT把真实四阶缺额送到负中心；有序常高尾的有界二次漂移使总p1<0，同一尾可准确停到单矩零。t1仍负，其余七矩和全部返回门未闭，不授同母M0或跨母拼接。
 
 - [R540 同一正null支真实到达k>2并保净负累计](results/R540-same-positive-null-branch-and-real-large-curvature-with-negative-total-matrix-density.md)：**已证明**同R533/R536母/χ的真实下降段准确接X>0，有限合法null参考弧与保完整m的有限光滑大速度脉冲给实际k>2且总p1仍负。其它五矩的速度平方成本及完整T全保，未M0/末端/pose/period。
+
+- [真正58全后缀共同R1/R2 minimax新范围](notes/true58-R1-R2-whole-suffix-design-20261116.md)：**源码与参数已接线，尚无执行结论**。同原R0/172盒，34+K/h同时约束21径向/两全角网，359源；600总秒/180solver秒/240个backend输入，唯一true58初点。合格原返回后至多1原全body预测/1actualpair，仍58，祖3047.102915103秒147值。

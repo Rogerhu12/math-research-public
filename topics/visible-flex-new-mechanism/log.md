@@ -217,3 +217,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 15:43 UTC：R540同一正支的大幅真实到达
 
 [R540](results/R540-same-positive-null-branch-and-real-large-curvature-with-negative-total-matrix-density.md)完整纸证同R533/R536母/χ下的合法盒选择、短高度下降实际X>0接入、同支null有限弧及保真m的有限平台/光滑过渡。追加时长可短且三p无速度平方，故真实k>2时保总p1<0；其它矩和第三成本可能大，全部返回门仍待。root全文纸核，无新科学执行；后继直接研究同一实际输入的t1/其余矩。R539已推cd4ba1f560bd49d63f43d0c382efae0294473b45，15:41:16实际pull双README空diff；当前58/3047.102915103秒147值未变。
+
+## 2026-11-16 15:46 UTC：真正58全后缀R1/R2共同问题提交
+
+[设计](notes/true58-R1-R2-whole-suffix-design-20261116.md)与[合同](notes/true58-R1-R2-whole-suffix-model-contract-20261116.md)接request 77451B/e460bef2af9ca39e855d34b874c1062fbd42ffffbd3110e951206a0190a33b68及359源，原348hash不变。完整21径向/两全角网metric+PSD、原34控制+K/h与唯一true58初点；原支持固定行复用、不同K真实重组、独立几何/导数/J缓存及partial去重均按源码接线。600总秒/180solver秒/120iter/240不同backend36输入，原返回合格才全body及actual14；无本地导入/编译/测试/科学执行。R540已推0d2b733df79555ba3dd62dbe0805e5742ab35fed，最新15:44:19实际pull双README空diff；当前58和祖3047.102915103秒147值未变，运行回来立即闭账续主open。
