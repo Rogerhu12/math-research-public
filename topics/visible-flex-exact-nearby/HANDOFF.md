@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 17:05:20 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 17:09:03 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 规则、读点与完整前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只证明、文字、JSON/AST/hash/元数据。root管main/H/open/results/log，代理只交小blob。每结论独推，禁force；非FF立即实际git pull --rebase后保远端循环。PAT仅用户原话所给临时CLI/env，不写文件/输出/connector。根规12不新增审批门；根规15不存新数组/data/证书/artifact/Release，旧成功禁止重算。每新consumer预/立即启动计全publication+并行pending+120000B≤200MB；实际完成/失败仅按全部实际输出≤200MB保存，不另虚设postreserve。
 原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。16:28:30 UTC真pull --rebase→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README无diff，下一真pull≤17:28:30。磁盘满仅移本会话workspace/cache至独立/tmp并保原路径symlink，写入/Git核曾通过；16:31环境再次unavailable，后各publication前及ref失败后真CLI pull均明确No usable execution environment。根规8暂仅UTF8<100KB集成；ref读取不冒真pull。环境恢复即回CLI。
-最近只读README核：9e13243d17d5fe736352a9a40b88d75f79b8d744；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
+最近只读README核：07b1a084fdd54fb0faae4ecc68e9606ea4d1b5b2；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
 [截至W2C collar模块刊出的完整旧H](https://github.com/Rogerhu12/math-research-public/blob/9dfc7348e31a4467d392000fa83ba69f19e514be/topics/visible-flex-exact-nearby/HANDOFF.md)9797B/Git0bc65097c8dc614166e4f1d152228ae1b62a748b/SHA f323ccb5f1d763ce62a36bd366881b3762f42bb4546f93139b0b92cac22f8a9c，保全部递归前页、旧球/域/单位/mean/失败lost/每次cleanup精确恢复和未付门。本页只更新索引，未删数学义务。open原完整条件继续有效；H≤10000B/open≤30000B/每MD<100000B。
 
 ## 同一对象与总验收
@@ -25,7 +25,7 @@ W2H72bef388/W2C09ada380/WJK5b9a257a是当前新路线，始终固定原WVC的实
 [W2CI](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)389e6c6a/45161/8258111d已封原WVC29整球4653B/f1ec45f0、原19历史资格与两新增native恢复。新增native为原germ7851B/397f9b42和rootbudget30595B/10ff6db8，均ae319f7544b3c94b5dbcb5290557ed04b66641eb。native仅未来公共CI完整验；zero_packet不是实际collar。
 [collar math合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)02a6522b/21336/62d86a42与source fb065375/35870/891702f1已推9dfc7348：完整piece2549 cubic+65signed offsets/13 intrinsic/193误差、原实际η两optical records、三wordΔ/完整mean/转置adjoint/body域。224漂移896、center288/full416保；Decimal只诊断，原端点字符串不变。纯式/字段核已成，未运行科学或AST。
 完整consumer尚未可launch：7新roles为science、readonly_admission、readonly_core、collar_math、kernel_math、assembly_math、reference_math，另worker。原15定义AST+新7=22科学admission AST，另worker1=23，最终按实际完整roles派生；21恢复=原完整19 wrapper原字+新增2，不改旧scope/count。50无条件新目标、充分门真另2尚未算。原T等同算子整球copy，旧EHigh不可移；现无本会话在跑scientific child。
-[完整只读接口](notes/2026-11-16-R133-collar-Volterra-dual-readonly-interface.json)b391731d/82276/d32a76db已成；core29b918e4/67340/8a881067、supplement84aa5c46/77854/0e27b03f。原43+44整field/29copy4653B/原13771B receipt不改；新增47/81完整native字段、21恢复、11值CLI、7module/15原定义AST与实际current数从完整表派生。纯字段/源码核成，native/AST/科学仅公共CI尚未运行。Tail signed kernel f739f276/35750/92d2028c与assembly78f933dc/48509/c92ed3d5、Newton reference d38e283f/22165/7d6bb7f9及合同c9caa335/9730/6d3d1316仍待完整bundle；通用矩阵rank累计成本待精确压缩，未声称可运行。root接owner/manifest/worker及全失败prefix，不等用户。
+[完整只读接口](notes/2026-11-16-R133-collar-Volterra-dual-readonly-interface.json)b391731d/82276/d32a76db已成；core29b918e4/67340/8a881067、supplement84aa5c46/77854/0e27b03f。原43+44整field/29copy4653B/原13771B receipt不改；新增47/81完整native字段、21恢复、11值CLI、7module/15原定义AST与实际current数从完整表派生。纯字段/源码核成，native/AST/科学仅公共CI尚未运行。Tail signed kernel f739f276/35750/92d2028c与assembly78f933dc/48509/c92ed3d5仍待完整bundle；[固定WVC signed reference合同](notes/2026-11-16-R133-W2C-signed-reference-interface.md)c9caa335/9730/6d3d1316与source d38e283f/22165/7d6bb7f9已推：两完整参考链、wholebox p/H/K/g/有序decay、全部193atoms及真完整adjoint已纯式审完，连续Gf无ρ2分母，原有限Qf配对费不改；通用矩阵rank累计成本待精确压缩，未声称可运行。root接owner/manifest/worker及全失败prefix，不等用户。
 
 ## 腰与全部未付接口
 

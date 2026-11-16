@@ -335,3 +335,11 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 11值CLI及preflight-only完整合同已写。所有native字节的解压/完整资格/AST实际执行留公开Actions；本次仅源码、JSON词法与字节身份核，未import reader、flint或任何旧producer，0新科学/0重算。owner及joint核压缩继续；通用rank累加的成本尚未闭，50(+2)仍未开始。本次前总量198067273B，按完整新增文本精确加算，结果不冒最终闭曲面族。
 2026-11-16 17:05:20 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 9e13243d17d5fe736352a9a40b88d75f79b8d744的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+
+## 2026-11-16 W2C 固定原参考的完整 signed Green 接口
+
+刊 source `d38e283fac50c6db733a5e557491765327ba51b5` / 22165 B / `7d6bb7f9605bf55a5ee783b5ce5983c3287dfb2edd3fca197f2de5b8f675130b` 与完整接口 `c9caa33529ff66413247801bf6beb411841054d2` / 9730 B / `6d3d131630c079899f8c5e4e41a2cf1dcab43d96008ccc1eb645b06366c5180c`。只固定原WVC6fd1cc链及b19d7e对角链；完整true-root radial domain、p/H/K/g定向递推、全盒有序decay、零rate、mean与193观察atoms和完整伴随finite columns均已独立源码/纯式审查。连续Green核不除ρ2；旧有限Qf的ρ2、原q/endpoint/tail/6/5配对资格分别保留。此函数材料化新候选内部signed函数，不重旧norm producer，也未运行AST/科学。
+
+与全collar/Δ/actualη及joint centre接口兼容；通用rank-add展开的资源风险已定位，Newton/Tail继续按modal/有限band压缩且保持同(r,s)完整signed合成后取绝对值。50(+2)尚未launch；本结论不是逆的小门。
+2026-11-16 17:09:03 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 07b1a084fdd54fb0faae4ecc68e9606ea4d1b5b2的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
