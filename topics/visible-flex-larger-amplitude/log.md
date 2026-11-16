@@ -700,3 +700,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-15 23:53 UTC /root — R404实际191终态
 
 [R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)14026B/ffef210f全文、原事件35708B/2ac9cf36与9631worker联核：run43766271165/source7891ee25，八model+八fresh FD全exit0，八next-parent=true联证原progress/配对/FD门通过；24trial逐批4/3/4/3/3/2/2/3。整链210886B/10146b72及恢复215693B/3726f228均超90KB、transport70，详细α/merit/拒绝地址/FD数值/末场未输，不凭SHA补造。原quiet=true，无规则/墙钟停；逐批大raw实际退休，最终未读小件与pair因读回失败保到runner销毁。最小必要选择修复保全部trial/失败/FD/未访和90KB，不升门或拆包，之后须真98新轨迹；不冒native/fullDN。 本条并将R415日志时标校准为其实际提交时间23:51:58 UTC。
+
+
+## 2026-11-16 00:01:24 UTC /root — R421实际198终态
+
+[R421实际198](results/R421-actual198-complete-ten-71-accepted-and-resource-partial.md)原compute/report唯一读取，同77081B/eff30360必要全文核：71原接受/181α，W.607252712409→.0516490181483，8完整块+第9块七接受。716primal全返、534normalJ尝试533返/535trial/462临时更新/150投影；全模型777primal、606forward尝试605返，末dir71/.5/update1响应未返，不补拒。全部128方向/181alpha/原界/失败/未访已读，72..127/blocks9..15未启动；初60FD齐，末60/Arb453/native未起。2400原SIGTERM/child75，Jet.add栈不当性能计时；23:55:57必要/错误/quiet后确清raw。真实末十词双路径同554B/1732ad59，仅供201新初猜，原固定S/半径1/方法/门/预算保，继续open。

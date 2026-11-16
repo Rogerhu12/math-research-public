@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R404前检查点](notes/2026-11-15-open-checkpoint-before-R404.md)，内链回197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R421前检查点](notes/2026-11-16-open-checkpoint-before-R421.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -54,13 +54,11 @@
 
 [189完整入口](notes/2026-11-15-request189-persistent-ten-full3-normal-continuation-interface.md)119+13pins/49闭包、同owner16×8、原全3normal及全部120FD/Arb/453/终门；仅八方向budget词续块，固定S/半径1/2400总钟不重置，unit/全20拒/异常不重启。单90KB完整地址/原必要标量/错误/未访与quiet清理保，实际已由R401收束。
 
-[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)31778B/bca00da6全文核，run43762371885/source59895129303；唯一原两job同87897B/8549fc6e必要完整。真实69原Armijo接受/158α/632primal/474完整normalJ全返、405临时更新，W4.346867247171→1.792004819715；前30α1/2，随后偶数1/4/奇数1/2，全部接受均normal2/trial0。原2400秒SIGTERM恰在status编码，producer2400.158791314/child75/partial，未测分项不归因序列化占时。direction69启动无α、70..127/blocks9..15未访；final与final投影缺，只有初始60FD，末FD/Arb/453未起，nativefalse。最后十词/current owner与direction68实际接受记录逐词同，固定S保actual157；可作194新初猜而非completed/native checkpoint。必要/错误/quiet后确清，原全来源/错误/未访保正文，后继仍付全部原终门。
+[R401实际189](results/R401-actual189-complete-ten-69-accepted-and-resource-partial.md)69接受/158α，W4.346867→1.792005；[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)61接受/153α，W1.792005→.607253。两次原初60FD齐/末60与Arb453未起，2400partial且raw已清；参数/完整地址/错误/未访/所有原输入和预算保各正文及[R421前检查点](notes/2026-11-16-open-checkpoint-before-R421.md)，不以编码栈推性能瓶颈。
 
-[194完整入口](notes/2026-11-15-request194-actual189-returned-owner-full3-continuation-interface.md)120+15pins/50闭包、原完整方法/预算/终门保持；唯一真实结果如下。
+[198完整入口](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)原120+15 pins逐值保→121+17/闭包51；真实194双路径554B/9732bd60十词只作fresh初猜，两核心续算函数未改。固定actual157 S/半径1、16×8/20α/3×20法向、2400全钟与全120FD/Arb453末门保持。
 
-[R410实际194](results/R410-actual194-complete-ten-61-accepted-and-resource-partial.md)run43767916582/sourceefdafe38、两job同73364B/7abe9728：61接受/153α，W1.792004819715→.607252712409；偶数方向α.5、奇数.25，全部normal2/trial0/beta1。609primal/457normalJ全返、395临时更新/145投影提案，完整模型670primal/519forward/5190列。7完整块+block7五接受，方向61仅α1的primal/J返、normal trial未成；62..127及blocks8..15未访。2400秒SIGTERM/child75/partial，编码栈不证明耗时瓶颈；initial60FD齐，末两description/剩60FD/Arb/453未起，nativefalse。末十词双路径同554B/9732bd60，只可198新初猜；全部raw真清，保原全门/固定S/半径1，R421待真结果。
-
-[198完整入口](notes/2026-11-15-request198-actual194-returned-owner-full3-continuation-interface.md)七件全文/完整diff核后发布：实际194双路径返回的554B/9732bd60十词逐字作为fresh初猜，父61接受/partial和initial60FD齐、末60/Arb/453未起明确；不继承J/FD/接受状态。旧120+15 pins逐值保→121+17，消费闭包50→51；两段核心续算函数逐字同，原固定actual157 S/半径1、16×8方向/20α/3×20法向、2400总钟及全部120FD/Arb/453消费者不改。单90KB保所有原地址/计数/错误/未访，原静止与完整读回后清理保；无新科学门或本地执行，root唯一R421待真实结果。 官方run43773780174于23:15:06Z创建，source4b6eea36a8bd7f4aa1b7f2ce09779d3ef13e3040、compute132995301108已完成121+17 pins/四输入和原78源恢复，进入step8原2400秒science；root唯一R421终态，不读取运行中日志或预填科学接受。
+[R421实际198](results/R421-actual198-complete-ten-71-accepted-and-resource-partial.md)run43773780174/source4b6eea36，两job同77081B/eff30360必要全文已读：71原接受/181α，W.607252712409→.0516490181483；8完整块+block8七接受。0..50偶数.25/1..51奇数.5，52..59均.5，60..70均.25；法向53/57/58 update0、54/59 update1，其余update2，全部trial0/beta1。716primal全返、534normalJ尝试533返、535trial/462临时更新/150投影提案；全模型777primal/606forward尝试605返，原6060列计数不冒末响应已付。dir71的α1完整拒、.5 update1十列响应被原SIGTERM打断；2..19α/72..127方向/blocks9..15未访，109alpha三次normal后未过、1partial，不混拒绝。初60FD齐且无失败，末两description/60FD/Arb453/native未起。producer2400.01838/child75，原Jet.add栈非分项计时；单90KB必要/错误/quiet后23:55:57真清raw。真实末十词双路径同554B/1732ad59，root准备201只作新初猜，保原全部责任，无本地科学重算或已毁末父恢复。
 
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 
