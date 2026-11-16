@@ -105,6 +105,19 @@ def replace_only_unstarted_run(dispatch, token):
               "status": run["status"], "job_count": jobs["total_count"],
               "reason": "Original request has started or is already complete; no duplicate dispatch."}), flush=True)
         return False
+    if dispatch.get("requeue_unstarted_same_concurrency") is True:
+        workflow = Path(".github/workflows") / dispatch["workflow"]
+        workflow_bytes = workflow.read_bytes()
+        assert sha(workflow_bytes) == dispatch["expected_workflow_sha256"]
+        group = dispatch["expected_concurrency_group"]
+        assert re.fullmatch(r"serre-[A-Za-z0-9_-]+-\$\{\{ github\.ref \}\}", group)
+        exact = "concurrency:\n  group: " + group + "\n  cancel-in-progress: false\n"
+        assert exact in workflow_bytes.decode()
+        print("UNSTARTED_SAME_CONCURRENCY_REQUEUE=" + json.dumps({"run_id": run_id,
+              "head_sha": expected, "job_count": 0, "workflow": dispatch["workflow"],
+              "concurrency_group": group,
+              "reason": "Previously observed standard and force cancellation conflicts; requeue the same source under the unchanged single-running concurrency group."}), flush=True)
+        return True
     req = urllib.request.Request(base + "/cancel", data=b"", method="POST", headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=60) as response:
