@@ -356,3 +356,9 @@
 - 三normal表达式准确为1、z−2β72、w；实际cYw=w可省两个Krylovsolve，原16node完整生成元作用保W34来源引用。未执行三个K(z)解，未把R805/W34规格当本次已取字节。
 - finalc1e16216/坐标4b397fcb/DAG8b0cc65b/manifestf5e82a8c；一日artifact14197275258整3.37MB ZIP807c974b及13产物已纯IO，169源carrier3.237MB/e17c356b。未重旧Fourier/反射秩/CM；原RR/period/height仍续。
 - 本push规则：本地真实pull至6b70d45b39c8c45bc7793a062a23aa5a428416db（2026-11-16T04:17:56.209149+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:20 Asia/Taipei — serre-public-astra-20261115
+- R854实施补节92cb6ec5证明几何整化：真实R/K原有理尺度给安全a，c=max(0,a−3)，两整序列的同卷积恰将m块乘41^(am+c)，mu=246³41^(c−a)为整数。
+- 同一2420/free1186/全部2560行及右端不改；行饱和账本初值I只针对明确M0=S M，完整残差逐行减回S_m后以实际weighted界恢复坐标精度，不把人工整化当原精度。
+- root通读完整补节及22KB helper首稿；无新41数学，本次只发布推导，a/c及单位minor不预填。driver继续跨精度继承与一日断点，旧ab970169方法保留。
+- 本push规则：本地真实pull至6433bd5fe4cf2b56925ace506699621f9453b93f（2026-11-16T04:20:04.495713+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

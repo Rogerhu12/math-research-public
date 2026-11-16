@@ -126,3 +126,6 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 
 **R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。
+
+
+**R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。

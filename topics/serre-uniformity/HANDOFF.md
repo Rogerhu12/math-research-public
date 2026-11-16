@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：6b70d45b39c8c45bc7793a062a23aa5a428416db**（2026-11-16T04:17:56.209149+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[高阶Abel单位前完整H](handoff-archive-2026-11-16-before-higher-Abel-unit.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：6433bd5fe4cf2b56925ace506699621f9453b93f**（2026-11-16T04:20:04.495713+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[高阶Abel单位前完整H](handoff-archive-2026-11-16-before-higher-Abel-unit.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -47,3 +47,6 @@ UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与�
 **后继源接口不重做**：完整证明/pins在上方H归档及open。41S133d64af：L41(e7/f2)、[42]深盘/原尺度，全尾已证；YPbdbb6cc5：128/634 RR、原c/a(P1)、真e/N/Hecke L及nonp行；FMa5d65aa4：两图完整生成矩阵/实际minor给有限余模核，不先HNF；ZA268fa3fb：ψα=αx、T7=ζ²、7tr(CZ+D)与Y/ℓ/nonp完整公式；41C569aa684绑定同2420/四响应/17常量/733源。R854ab970169完整2560×2420清行与DVR饱和停止/逐行左逆界已证，实际41四响应/Z仍缺。原三次CM b738750b保真导子6p/周期p尺度，同h固定m2仍未闭。
 
 **R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。
+
+
+**R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。

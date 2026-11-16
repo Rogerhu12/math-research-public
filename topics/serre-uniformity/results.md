@@ -148,3 +148,6 @@
 
 
 - **R853三条原V1共轭实际已成**：[结果](results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md)f9635345，run43801910753/job133083952887/source813f9b81；0.281772742s/3stage，560×3全乘回及二次作用一致。实际cτ=τ、cσ=e1−e73、cw0=w0，故cYz=z−2β72、cYw=w，原6724保。finalc1e16216/坐标4b397fcb/DAG8b0cc65b/manifestf5e82a8c；artifact14197275258/807c974b，169原件3.237MB carriere17c356b，整ZIP/13产物纯IO已核。W34/R805仅规格不代已取原件；三个Krylovsolve未执行，实际仅剩β72需幂基转换；RR/period/height未成。
+
+
+- **R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。
