@@ -149,3 +149,7 @@ request241正式7af9e725/run43901322004/133418415682单POST200绑定刊；publis
 ## 2026-11-16 16:00 UTC /root — R593同一总钟内owner窗口与既有初猜复用
 
 R593三件54101B独立刊：查清原每H成功last/predictor已复用，唯一owner6000→12000，同19200/replay1200及stage8000/边界端点600/audit1800/readback120保，原数学/初猜不改；全余量足时4800→10800局部solve上界，不预言残差或整链完成。原451→454只两metadata view/真实allocation全选，R594248完整入口接续；R581六件完整下一刊，H/open/index同步§4–6原字。
+
+## 2026-11-16 16:02 UTC /root — R581/request243同次解析角带完整真实入口
+
+R581六件379862B独立刊：原R576642全保→653/14层/26runtime，同R575/R553返回接R580 h0=1/256/24，原refine/退休/完整cover与全部门不改；global在原Budget/信号try、资源stop后只metadata，完整必要同测量binding严格相等可逆共享、90K70不变。单派243、R582 amplitude唯一；R593已ca3ad325，open仅§1.3折叠到该固定全原词、§4–6原字，22/23audit未得正文不删。
