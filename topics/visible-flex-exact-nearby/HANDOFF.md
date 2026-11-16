@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 08:53:50 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 08:53:57 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 08:43:38非FF真CLI仍无executor，下一本地尝试≤09:00。最新CI真pull为43834351809/1于11-16 08:49:28.524525→508e61a9f7398ed537f4164cb1a9d9ce0dcf84e2；两README完整diff空/版本同已读，actual dcb54e37全回执。下一真pull≤09:49:28；ref读取不冒真pull。
-最近只读README核：91b223c584fdde875a67faa417b3456412f9992e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：a317d25918bc55288d2e8f49925730a3f63fba07；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -51,6 +51,6 @@ integrated-source209005B已仅删868cb8ab，白名单ea97f78d/先推bed3fdd6；�
 
 旧repack154047B已仅删f8724691，白名单33846e38/先推9d0caee7，完整restore d5f61af9与SHA d676f7ae在该白名单；小verified与全部数学文件保，0数学。
 
-r010派生156450B：metadata43834351809/1成功、receipt dcb54e37/5847；原finished/complete/101rows/certified false全保，0科学/0重算。白名单240d6918已先推，原c216e006/SHA c86ce74f恢复7504ff96同path；endpoint/原失败/producer不删，freshguard删除待。
+r010派生156450B：metadata43834351809/1成功、receipt dcb54e37/5847；原finished/complete/101rows/certified false全保，0科学/0重算。白名单240d6918先推a317d259，原c216e006/SHA c86ce74f恢复7504ff96同path；endpoint/原失败/producer不删，freshguard后仅该report已删。
 
 WMR550866c0（results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md）：共同正weight ratio精确消aJ，strict/local gaps79/128与3/4分证，metricβ≥0仅实际negative域；两均值不混，Aabs/backward负部和两patch Z/Zr、g1完整仿射重组/所有B-T-jump/四端/whole-reduced候选保。0新数/旧26图冻结；正封13旧图+2index、7新图42record（仅2新exp）合同，ν/mean/head/finite/背景仍待。

@@ -500,3 +500,7 @@ proof550866c0/31643，root全文及全部38式读核，Tail§2–5与Newton§6�
 ## 2026-11-16 08:53:50 UTC — 单r010旧浮点诊断实际身份与原scope完成记录
 
 纯metadata43834351809/1成功，event/science508e61a9，job133187151205五步骤全成；实际小receipt dcb54e37/5847已全文核hash。原c216e006/156450/SHA c86ce74fcf7f3ba1be41e0f270c3092cdb194a783fbde57726cf2c51de1f7e81，restore7504ff96同path；原complete true/status finished/exception null、101rows/0..0.1/1024×2048、certified false/三whole false与所有limitations均复制保。原producer全11127B证--state与--out分写，report非endpoint/candidate定义；端点原SHA06f7ddaf仍外置，当前树是否存在未冒称。58当前全text+WHV9新spec无命中，旧数学不重。白名单240d6918先推，实际删除另freshguard。真实pull08:49:28，91b223c584fdde875a67faa417b3456412f9992e双README同已读。
+
+## 2026-11-16 08:53:57 UTC — r010派生report单文件普通删除
+
+白名单240d6918先推a317d25918bc55288d2e8f49925730a3f63fba07，fresh元数据path/c216e006/156450B三项guard通过后仅删该report；完整恢复7504ff96122762833150a2d3190d35b83c298a08同path/原SHA c86ce74f。全部原diagnostic成功/有限采样scope在5847B实际metadata，原endpoint定义/源/原失败不在删除集合；0数学/0重复。a317d25918bc55288d2e8f49925730a3f63fba07两README版本同已读。
