@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R421前检查点](notes/2026-11-16-open-checkpoint-before-R421.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R425前检查点](notes/2026-11-16-open-checkpoint-before-R425.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -94,7 +94,9 @@
 
 [R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)/[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)/3ea1ef9f枚举同场所有piece/反射/self的完整AA/CC/AC及两闭RP1；全一jet并集给共同q跨缝路径，不借metric，帽负A/重叠/全部marker保。原R279/四球OR/R282逐叶membership/R24仅同帽图保持；全正则/曲率/全部pair和Kτ≤1才先嵌入后全相位reach。D为完整标记F0，原τ≥.03D上界另核；不重选常数/免整rank。全部DFS当前/兄弟/未访与单90KB保，没有actual450或数值K/τ/D及实际覆盖。R425继续整像held、固定H/全D与含反射δE；准确场/数值影子/原BVP与全metric仍各付。
 
-[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d完整源与独立文本核已付：真同job43f217 frozen450父、同十词/准确C/DAG/finite compiler/公共u；完整父mesh+准确midpoint→RN64+所有literal knots形成新初猜，父450字只在seed/preflight保，全部450 RHS新算。原preflight/currentH/338×112J/FD/8×17 fullDN/final/audit与writer全保，新worker不借父anchor。maxnodes放不下或机器无新点显式partial，不截点/不称收敛；末state/mesh以原solver输出为准。仅mesh入口，M/N/native配置不改，尚无实际parent/recipe/run、外层clock/单90KB reader/cleanup；全部精化/闭面几何仍未付。
+[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d：同job真43f217 frozen450、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+全部knots只作新seed/preflight，450 RHS/H/338×112J/FD/8×17/fullDN/final/audit/writer全新。机器无新点/容量不足显式partial，最终state/mesh以真solver输出为准；外层clock/90KB/清理/实际parent/配方/run未接，M/N/native不变。
+
+[R425](results/R425-current-C-whole-image-held-and-reflection-rigidity-inputs.md)/[接口](notes/2026-11-15-current-C-whole-image-held-and-rigidity-interface.md)/c87b3a9b完整源已核：同R416准确场/R417完整两帽/R413 cuff，整闭F0位置覆盖与全D给held下界；R254完整前缀及全tail/collar/patch非平面责任、四真实marker和R238含反射刚性保持，仍须实际嵌入，actual_delta_E=false。fresh输出严格RUNNER_TEMP并保护输入；成功尾组仅完整索引ranges/实际分布/原件身份，全部失败尝试/当前组/未访保；单90KB超限仍70，完整临时账不改。无实际450、见证/阈值、全held或δE证书，不冒C²/metric/reach。
 
 ## 4. 同一g闭合与真正九冻结450
 
