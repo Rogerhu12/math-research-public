@@ -18,7 +18,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin列轴上T/Ts/Tss和Xt/Xst有限不变，但Xs/Xss含全角Π不能删除；f0/e非0时度量盲须8条真实U·∂s(aΠδT)=0。圆背景给显式非零δe，另4组合可保所有轴一阶I/位置/径向jets而动两轴类κθ；仅该背景，不冒55秩。曲率须保实际I、normal变分与完整Π记忆。
+[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin轴响应与完整Π记忆，不能删Xs/Xss；圆背景显式δe和4个metric盲/κ响应组合仅属该背景，不冒56秩；曲率保实际I/normal/全Π。
 
 [R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)原H含±I5，物理M含±I168；加rho目标/h上界得170有限A的det±1子式，任何正slack/dual的精确Newton正规矩阵正定，未授条件数/可行/收敛。两辅助变量可精确凸分段线性消元。56κ峰s=.78在body内，高度P8及P8′非零，排共同固定区解释，未证dκ或可行下降；原全Π/14门仍保。
 
@@ -42,16 +42,16 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 [原56完整结论](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)：run43842056373/research133212892062/report133219956044/source86852956f10ec609ba423990a40327284f081c44。一新11变量模型33迭代/66系统、一次全网分离无新行、62scalar后α1的一actualpair接受56。η粗 **.2660099234147515**、细 **.2660099232963724**，相对55降 **.000001822700598896887**；κ细57.9994439861529。两网原14门/准确172盒全真，.26target/主reach未付，微负cap高度仅原容差内。
 
-56 physical **11c07425846f224c2d05997068b6442fa28a65383b5af5dce3eb2789da0593dd**；ind168 **aa7d8f3fb4d1bfea7aa4a05fef3b23babefbc344c5ea78f7b321b141a2d5181b**；coordinate c69967fb9b864f3e95da411610b74d5477c58891352895b493aee6e482d960de；field81e6881cd1f36d87a865cd9cc8c51ee8480d2ac8278241d97fb19666486eba8d；objective812add123c552afc4e7d7cce1c2cd19f9bbbb3e445fc179e73615cafbd122b4f。旧159固定55、新9非零；两池4453/4549、v14/14无新增。原159 bank/controller只保来源，不能当168规范。
+56 physical **11c07425846f224c2d05997068b6442fa28a65383b5af5dce3eb2789da0593dd**；ind168 **aa7d8f3fb4d1bfea7aa4a05fef3b23babefbc344c5ea78f7b321b141a2d5181b**；coordinate c69967fb9b864f3e95da411610b74d5477c58891352895b493aee6e482d960de；field81e6881cd1f36d87a865cd9cc8c51ee8480d2ac8278241d97fb19666486eba8d；objective812add123c552afc4e7d7cce1c2cd19f9bbbb3e445fc179e73615cafbd122b4f。旧159固定55、新9非零；原接受池4453/4549、v14/14。后续未接受试点补粗soft104448，当前学习池4454/4549、v15/14。原159 bank/controller只保来源，不能当168规范。
 
 同任务首失败75.06856296999999秒/1已付coarse，续接恢复不重算；最后总 **160.00398343599997秒/4完整值**、祖先 **2233.566394556秒/138值**，无overrun。任务因接受56闭合，不重开余额。旧55源及其原159状态保[前页](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)。
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 10:18:03 UTC）
+## 5. 正在接续（2026-11-16 10:39:47 UTC）
 
-[四原子完整搜索](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，best原G∞.0014851172678647607、H.6104871150176137，无候选；账户闭，不重开余额，不推全局无解。三原子旧36亦闭。理论继续完整凹图 .6<H<H* 的Re/Im联立条件与完整13状态周期桥。
+[全168真实失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)：run43847611444/research133231619868/report133236104610/sourcea9da16278c336ec5d6ce3be88502263d04429324。2ordinary+2selectedJ付全部9002行/168列；3finite均收敛126迭代252系统，3次全网分离补8原梯度，最后一阶净gain.00003478988793597303。62scalar选α.05665608433177267，实际粗η.2660499199695634、κ58.007888653387816>58，18曲率违例均已选；新soft104448触发方向停止，fine未求、0接受，仍56。原大域账户188.38691980800002秒/3新值闭合，无overrun；累计祖账**2421.953314364秒/141值**，未用余额不重开。
 
-**[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)run43847611444/research133231619868运行中。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。source a9da16278c336ec5d6ce3be88502263d04429324；workflow visible-true56-joint168.yml；尚无新科学返回。
+已付INPUT3为21504677B/058becbdcdc8746328f702cd0f92e04d622bc387b8c206cc98489beba602691e，含3132×168硬J/5870×168软g；MODEL含另8完整梯度。56 CACHE2的两网e/f与本次基准SHA相同，U/T可复用。下一新模型保持全部参数/门，改真实域h=4||Mδ||∞≤1/128，补新104448的metric-only168梯度，**不重ordinary/原J**；尚未启动。所有新费用另记且保全祖账。
 
-唯一INPUT保存当前J/g，所有payload仅stdout；full first-order、affine-observable标量与actual14门/172盒分开。主完成未付，继续open。
+[四原子完整观察](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，无候选；三/四原子任务均闭。理论接.6<H<H*完整Re/Im联合条件与真实13状态whole-period桥。主完成未付，继续open。
