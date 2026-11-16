@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-parameter-positive-job-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-whole-W31-source-cost-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -18,19 +18,19 @@
 ## R150原rank-one精确系数接续
 
 - 沿原17梯度/6188来源/4367输出与degree23的h*；全Q相对25/来源费8391及rank-one Bell8只按原范围用，完整原来源和范围见归档。
-- [D31九原目标ann/精确分母](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)与[共同B长24/dR8](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)均闭；$\operatorname{Ann}B=(p^5,p^2(s-2),(s-2)^2)$，$\operatorname{Ann}M=h_*\operatorname{Ann}B$。完整D型/真实呈示/逐原来源及费用≤8515均保正文和归档。
+- 原九平方ann、共同B长24/dR8及其全部原来源已闭，完整证明/实际失败修复保刚归档H；下列全W31定理统一其范围。
 
 - **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** 自由像 $(R/s)^2\oplus R/h$ 饱和25，原t2可取末项；S型 $(1,2^7,4,5,5,6)$ 长35。M的D型 $D^{25}\oplus S$、dD37/dR8，R型 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$；真27×53呈示及恰31阶非裂扩张全付，$S/B=(1^5,2^3)$。双根/全源/失败修复/根独立HNF-SNF见正文和归档。
 
 - **[全W在127处完整整结构已闭](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)：** 原6188×155投影在63点rank142、真142子式det97、80444核乘回全0。完整U127=M127⊕R127/(127,s+64)，D型D127^25⊕D127/127、dD26/dR3；AnnU=h*(127,s+64)，h*qW入像恰q(63)=0 mod127，系数指数恰1。原0.884秒/根另0.510秒从primitive以二次型重建全部6188行及FLINT秩独核，无新展开来源费。全W31的新范围接下项。
 
-- **[全W31=原九平方M已完全闭合](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)：** 原155×224小呈示四轮完整31饱和，field长度22,22,19,18,17保baseline17/J1；Tp型(2,2,2,3,4)长13=H2，故余K=0。原U31=M31，AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*及h0全W精确系数指数5/2。全部D型/八生成/非裂扩张继承上列M定理，不新宣4212展开来源费。原57.531秒/独立42.987秒全原来源、colon和Toeplitz通过，root全源/双raw/十payload10,477,600坐标独读。此有限模块已闭，转其余open。
+- **[全W31=原九平方M已完全闭合](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)：** 原155×224小呈示四轮完整31饱和，field长度22,22,19,18,17保baseline17/J1；Tp型(2,2,2,3,4)长13=H2，故余K=0。原U31=M31，AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*及h0全W精确系数指数5/2。全部D型/八生成/非裂扩张继承M。[全4212基目标整来源费](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)现为 $\max\{8515,124+\deg q\}$，三ann生成元均8515；旧原leading-unit除法/Δ298/目标τ≤123+degq完整核，未展开数组或给高度。原57.531秒/独立42.987秒全原来源、colon和Toeplitz通过，root全源/双raw/十payload10,477,600坐标独读。此有限模块已闭，转其余open。
 
 ## R150完整非rank-one及Bell1
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[十行116原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭：** 权6/8秩56/1106、全部1160坐标/18源及root51,834,662产品独核。**[50列实际正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)已冻待job回执：** 本地prepare11.621秒/exit0，315888向量项及65853源项全保、50原18及17梯度运输真。三步Actions模型180s/压缩180s/候选600s；仅exit75＋新完整candidate/验证前缀可续1200/1800。先真module自测，e0需U=I与全10/18/17乘回；无新GB/e0/E结果，稳定闭包继续。
+- **[十行116原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭：** 权6/8秩56/1106、全部1160坐标/18源及root51,834,662产品独核。**[50列实际正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)实际run43876083196模型0/压缩1，未到Singular，正核失败原回执：** 本地prepare11.621秒/exit0，315888向量项及65853源项全保、50原18及17梯度运输真。三步Actions模型180s/压缩180s/候选600s；仅exit75＋新完整candidate/验证前缀可续1200/1800。先真module自测，e0需U=I与全10/18/17乘回；无新GB/e0/E结果，稳定闭包继续。
 
 
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
