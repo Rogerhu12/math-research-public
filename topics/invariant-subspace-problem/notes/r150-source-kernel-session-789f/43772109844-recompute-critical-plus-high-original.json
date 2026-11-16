@@ -1,0 +1,237 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "recompute-critical-plus-high-original",
+  "executionSourceCommit": "e425a37b9b5b0fea6cb3255780426136b67c8033",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-recompute-and-audit-789f.py",
+  "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+  "argvTemplate": [
+    "--stage",
+    "high",
+    "--field",
+    "plus",
+    "--generator-source",
+    "{scripts}/2026-11-16-r150-critical-complete-high-number-field-seven-789f.py",
+    "--generated-out",
+    "{work}/critical-plus-complete-high-number-field-seven",
+    "--runtime-receipt",
+    "{work}/critical-plus-complete-high-number-field-seven/critical-complete-high-number-field-seven-receipt.json",
+    "--paid-outer",
+    "{scripts}/43756208221-critical-plus-complete-high-number-field-seven.json",
+    "--out",
+    "{work}/critical-plus-high-recomputed-identity",
+    "--generator-timeout",
+    "330",
+    "--memory-mib",
+    "2048",
+    "--generator-arguments",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--weak-driver",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--field",
+    "plus",
+    "--parent-out",
+    "{work}/critical-plus-weak-quadratic-positive-jets",
+    "--parent-receipt",
+    "{scripts}/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+    "--high-rank-receipt",
+    "{scripts}/43756208221-critical-plus-complete-high-residue-rank.json",
+    "--out",
+    "{work}/critical-plus-complete-high-number-field-seven",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 39.89146175499991,
+  "fullTemporaryReceiptBytes": 5413,
+  "fullTemporaryReceiptSHA256": "b5c6e4afd3ee833e630f198affa59a972a38d8508c6ceeb1094e610a8eca2c40",
+  "result": {
+    "binding": "c56d4cee7e86ae073746bf3ffd2d34a2ef1927f206e67a74b24eeaf2c0ee8aee",
+    "elapsedSeconds": 39.79485368499991,
+    "format": "r150-critical-frozen-generator-recompute-and-audit-v1",
+    "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+    "status": "completed",
+    "parameters": {
+      "actualGeneratorExitCode": 0,
+      "actualGeneratorInvoked": true,
+      "allFullPhaseFilesAndPayloadsVerified": true,
+      "allOriginalRuntimeMathematicalGatesPassed": true,
+      "canonicalCacheExistedBeforeInvocation": false,
+      "currentRunId": "43772109844",
+      "exactOriginalManifestMatched": true,
+      "field": "plus",
+      "generatorLog": {
+        "bytes": 362,
+        "file": "frozen-generator.log",
+        "sha256": "0d7bbc09d9281ae28e5810706550b4f731fcec5c5fe323ff8fb9f00db7741720"
+      },
+      "identity": {
+        "currentRunId": "43772109844",
+        "generatorArguments": [
+          "--generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "--jet-actions",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "--low-generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "--field-helper",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "--weak-driver",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "--field",
+          "plus",
+          "--parent-out",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/critical-plus-weak-quadratic-positive-jets",
+          "--parent-receipt",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+          "--high-rank-receipt",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/43756208221-critical-plus-complete-high-residue-rank.json",
+          "--out",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/critical-plus-complete-high-number-field-seven",
+          "--remaining-seconds",
+          "300",
+          "--memory-mib",
+          "2048"
+        ],
+        "generatorSourceSHA256": "de723d530fe0f2b3ab7876b76c8fc605a5156702309482f02a38c7b582a54753",
+        "manifest": {
+          "bytes": 3482,
+          "file": "checkpoints/manifest.json",
+          "sha256": "da2dc0adfb911c71d0190ff516e52d654cd5505f804fd583ca76141e20c9e3a4"
+        },
+        "newRuntimeReceipt": {
+          "bytes": 4536,
+          "file": "critical-complete-high-number-field-seven-receipt.json",
+          "sha256": "dd32cf6379c28f0ba7813c6129f7ed26c54b2a46851f220c9955386024edc43f"
+        },
+        "oldOuter": {
+          "binding": "49f79a0f8c89b261868e3835ef01f0b173734e68ff8be96cbc1ca38896abf0ea",
+          "bytes": 12261,
+          "manifest": {
+            "bytes": 3482,
+            "file": "checkpoints/manifest.json",
+            "sha256": "da2dc0adfb911c71d0190ff516e52d654cd5505f804fd583ca76141e20c9e3a4"
+          },
+          "sha256": "34504275623760b13b74ab4746926f5dc89d0bbf8a786b45c3a373adde1b69b7"
+        }
+      },
+      "largeArraysUploadedOrCommitted": false,
+      "mathematicsExecutedOnlyByTheFrozenGenerator": true,
+      "newMathematicalAlgorithm": false,
+      "newRuntimeIsNotAnAssertionThatOldTemporaryFilesSurvived": true,
+      "paidAncestryReadOnly": true,
+      "phaseCount": 9,
+      "phases": [
+        {
+          "bytes": 3697988,
+          "payloadSHA256": "7e191dca671051d905938eb8a0bd97fdd4743d5d33a79ceaa71101dbed2772d1",
+          "sha256": "e5f56d6b15214d86b5cd25f969f72b8cda49c080aae343b7332c6fd1d71b9c8b",
+          "stage": "actual-153-by60-high-system-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 219460,
+          "payloadSHA256": "c0258189dcd5161c32f8d60950b137cfe64e6f82dd85418532c8b12ac2810adf",
+          "sha256": "0afbee8138bca54df7d11b072aa851ac624058db89694001381691f4d226883e",
+          "stage": "actual-153-by60-high-system-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 1176441,
+          "payloadSHA256": "38e549f99a36bcc6f5e508cb92a5d80d21cd04d07f29207ff4fa98faf14617b5",
+          "sha256": "1c5a9d55aadd9a6f7d14d35407132d03156b0760e01bf436c922320ff4f2ab11",
+          "stage": "actual-153-by60-high-system-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 11192,
+          "payloadSHA256": "e8b5227a0cbb5d05cc1cd70c5d04e4de45ed5061852ce1eb7deabf184673405c",
+          "sha256": "dbaead6c6f82dd8797a2458b14079fb7165ffe35935c6680ade9bbad3e283a3a",
+          "stage": "all-original-high-column-independence-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 12023,
+          "payloadSHA256": "bdac48746ae186a4895994585b5a9921db4f383444ca930817207d93164e219c",
+          "sha256": "425975cfab81b18810d0c0e51509fe02f48b02f14275a3e03c1981b54cd61a19",
+          "stage": "all-original-high-column-independence-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 1395396,
+          "payloadSHA256": "34ec7951447bd39da6860228b219530df6b310dc9404aafc07cbe890c39daa6f",
+          "sha256": "fcc49c7ee2c5b2c04674c9495577706fb0669fad429eeb9161d988c18cdf268e",
+          "stage": "complete-original-number-field-high-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 450,
+          "payloadSHA256": "c88b3d960fdd53a8fdf363b1d8d066e0b0a3dc60b7a0af10c669ad13eb508d73",
+          "sha256": "6cda9e96ee371ee4222360613db29831b8c36c7398d2d98cd853207c863a4f70",
+          "stage": "independent-v-and-z-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 612,
+          "payloadSHA256": "e89da602903f04895ad463bb01aef55b8b66f8b21cdc9ecd57cdc68089379e64",
+          "sha256": "b7368d7958ffddb8570aa600d79498d0eaa230cdffcdf48fde1cfabc6ef04f53",
+          "stage": "independent-v-and-z-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 14712,
+          "payloadSHA256": "26aee4bfe0289063de71727f51260fdda122f11f13a9d8bc393f46ed3cd004de",
+          "sha256": "f692cb6f21241a9946d83c8a46848669cf065d46387da6d920ccc9af5960dd61",
+          "stage": "original-eight-normal-unit-unit-lu",
+          "verified": true
+        }
+      ],
+      "stage": "high",
+      "theOriginalMathematicalBindingDoesNotDependOnJobOrOutputDirectory": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:16:12 UTC",
+      "beforeReadCommit": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+      "originMainAfterPull": "e425a37b9b5b0fea6cb3255780426136b67c8033",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:16:52 UTC",
+      "beforeReadCommit": "e425a37b9b5b0fea6cb3255780426136b67c8033",
+      "originMainAfterPull": "0e06d735aa9b083b88db09fad54fa437fe3d0286",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 53,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 18180,
+    "logicalJsonSHA256": "c5482ee91bcb4be15f1f69894f30b5d81f38ba4c18c715e15285c96a631c75e9",
+    "itemCount": 53
+  },
+  "lastRulesReadCommit": "0e06d735aa9b083b88db09fad54fa437fe3d0286",
+  "summaryExcludesRecomputableArraysOnly": false
+}
