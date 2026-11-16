@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R903-complete-R927-complete-core-and-R787-half638-ended-metadata",
+  "request_id": "20261116-R927-complete-parent-reuse-actual-source-and-reference-frames",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "45b7e91f3d7dfdcf667999634dd23e669d71acf5",
+  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,52 +12,52 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R903-five-Iz-two-weight-complete",
+      "label": "R927-complete-parent-reuse-actual",
       "source": {
-        "run_id": "43921416613",
-        "source_commit": "280f1840a717c80665133b0ddab8a55a02af7d4e",
-        "artifact_id": 14254777999,
-        "artifact_name": "serre-R903-five-Iz-two-weight-RR-43921416613-1",
-        "archive_bytes": 329127789,
-        "archive_sha256": "95534023e7392f2f9cbb03158d2201e3982c3e0c7db51df0aedf3e77bf2b3d00",
-        "artifact_expires_at": "2026-11-17T17:48:18Z",
+        "run_id": "43923552968",
+        "source_commit": "4b005ba1dae2a84b6ac3a663befca95c59725e4b",
+        "artifact_id": 14253699467,
+        "artifact_name": "serre-R927-reference-endpoint-norm-frames-43923552968-1",
+        "archive_bytes": 8702573,
+        "archive_sha256": "bf9aada6f88027572125a98de1600c4bec60cb047b7418556f0f81cab1460f73",
+        "artifact_expires_at": "2026-11-17T17:56:48Z",
         "expected_conclusion": "success",
-        "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
-        "wrapper_sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0"
-      },
-      "mode": "ended"
-    },
-    {
-      "label": "R927-original-reference-complete-core",
-      "source": {
-        "run_id": "43922183082",
-        "source_commit": "e56cbda0e08ce47ff7a3d5bcd7e4837720bd833a",
-        "artifact_id": 14253893174,
-        "artifact_name": "serre-R927-reference-endpoint-norm-frames-43922183082-1",
-        "archive_bytes": 8652140,
-        "archive_sha256": "b88467f38488f0a2c65ed7049a6833572ebd1f1a5270e4341c93c99892bbff90",
-        "artifact_expires_at": "2026-11-17T17:48:47Z",
-        "expected_conclusion": "failure",
         "core_sha256": "4d0be4a7ced92ca57dad14863fe7433903e2b0c82df1e47e7c1520dfc10aaa28",
-        "wrapper_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829"
+        "wrapper_sha256": "3fa04f1d3ed8b72ec5d763110834ad20bab6c14323f3eed3807d692a6770168d"
       },
-      "mode": "ended"
-    },
-    {
-      "label": "R787-half638-actual-ended",
-      "source": {
-        "run_id": "43869450077",
-        "source_commit": "393efa24ed552d52922f22a50a96607dbadde804",
-        "artifact_id": 14253788112,
-        "artifact_name": "serre-global-R787-half-coordinate-dual-CM-value-43869450077-1",
-        "archive_bytes": 415484632,
-        "archive_sha256": "12a3d37de005c00c4ce24e4769304d15ccdcb4249f38fd743a87f045615caa56",
-        "artifact_expires_at": "2026-11-17T17:47:39Z",
-        "expected_conclusion": "failure",
-        "core_sha256": "ffe5dcff0c17b81923741c2b56806cc4907cb812cfdee4499ed2650ea92abe54",
-        "wrapper_sha256": "1552e403d9206d21a7cd7de43c1e7f4975957513e332a316c448fccbb84c46f4"
+      "mode": "named_original_members",
+      "names": [
+        "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz",
+        "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz",
+        "R927-reference-same-global-reference-integer-frame.json.gz",
+        "R927-reference-complete-reference-two-endpoint-t-frame-comparison.json.gz",
+        "R927-reused-parent-full-outputs-manifest.json",
+        "R927-reused-parent-core-receipt.json"
+      ],
+      "known_file_pins": {
+        "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz": {
+          "bytes": 8689,
+          "sha256": "a76ce6d46544c37119ba270404067027ee693d451e5365605d99c1184dd99084"
+        },
+        "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz": {
+          "bytes": 8694,
+          "sha256": "f2f095db623c9cc306cdc478467e53e2826e7883211d4f8d9a32c61fd3259792"
+        },
+        "R927-reference-same-global-reference-integer-frame.json.gz": {
+          "bytes": 6724,
+          "sha256": "91f5d0d3b28b37b37adb442959851448018f3d68315bcd60374b157496c97e47"
+        },
+        "R927-reference-complete-reference-two-endpoint-t-frame-comparison.json.gz": {
+          "bytes": 6942,
+          "sha256": "7d948e03c8fdfdd357e02ad838cb41b0732bebabcc91730e22aa21e869e0b4c9"
+        }
       },
-      "mode": "ended"
+      "print_json_summary_files": [
+        "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz",
+        "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz",
+        "R927-reference-same-global-reference-integer-frame.json.gz",
+        "R927-reference-complete-reference-two-endpoint-t-frame-comparison.json.gz"
+      ]
     }
   ]
 }
