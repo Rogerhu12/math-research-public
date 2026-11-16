@@ -6,8 +6,8 @@
 - **最近成功实际 pull 与已读规则提交：** d5e37c59b7c93488772d4319e41d9a55a4429bde（2026-11-16 12:52:03 UTC，Actions run43870417711实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43870417711-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
-- 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-actual-ten-parameter-seeds-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-two-hole-finite-pool-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -18,7 +18,7 @@
 ## R150原rank-one精确系数接续
 
 - 沿原17梯度/6188来源/4367输出与degree23的h*；全Q相对25/来源费8391及rank-one Bell8只按原范围用，完整原来源和范围见归档。
-- [D31九原目标ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)与[共同B结构](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)均闭：$p=31,x=s-2,B=h_*M$；Ann共同及逐$B$为$(p^5,p^2x,x^2)$，Ann$M=h_*I$。精确分母$\max(0,5-v_pf(2),2-v_pf'(2))$，$x^2h_*$真D源≤8515且额外monic次数最小2。B的D型$(1^6,2,3,4,4,5)$、长24、dD11/dR8；单Rb型$(5,2)$。完整原18×22呈示、carry/双raw/独核及所有次级作用见正文和归档。
+- [D31九原目标ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)与[共同B结构](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)均闭：$p=31,x=s-2,B=h_*M$；Ann共同及逐$B$为$(p^5,p^2x,x^2)$，Ann$M=h_*\operatorname{Ann}B$。精确分母$\max(0,5-v_pf(2),2-v_pf'(2))$，$x^2h_*$真D源≤8515且额外monic次数最小2。B的D型$(1^6,2,3,4,4,5)$、长24、dD11/dR8；单Rb型$(5,2)$。完整原18×22呈示、carry/双raw/独核及所有次级作用见正文和归档。
 
 - **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** [整自由像](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)为 $(R/s)^2\oplus R/h$，原t2可选末项；[全部扭子](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)的D型 $(1,2^7,4,5,5,6)$、长35。全M的D型 $D^{25}\oplus S$、dD37/dR8，R型 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$；真27×53呈示保K/X/c，末扩张类恰31阶非裂。$S/B=(1^5,2^3)$。原双根/全源/失败/只读修复及根独立HNF/SNF全身份见正文/归档；此M分类已闭。
 
@@ -48,5 +48,5 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 
 - **[全部高度一次真MP已闭](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保完整层 $12\,512^j(x+j+1)^{3/2}$ 右逆，取 $c_*=2\cdot512^2,s\in[c_*S,2c_*S]$；同源阻尼逐层付 $\|D^\dagger(C+D)f_s\|^2\le(1+47616c_*)\epsilon_s$，无中段截断/top。全高度同W预算使该一次修正及 $z_1-P_xw$、残余 $-Cq_1$ 平方可和。仅f_s保原同PV/PK，z1保准确收缩误差；后续CD†循环、最终真空约束/完整修复仍开。根全文及旧全层常数已核。
 
-- **[跨头真核与完整首行已闭](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)：** 原carry≤18κ、fresh6d池有限修复≤e^(−9d4)，真核截断误差可和；原τ14偶R/母窗与真帽cut均合法。任意same-w完整首行平方和<16||w||²；实际W另由真KQ正交/β Bessel直接付预算。该primitive费不付核外r/q，完整门见正文。
+- **[跨头真核/完整首行](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)与[完整二孔截尾/第三旗增益](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)已闭：** 原carry≤18κ/fresh6d池修复≤e^(−9d4)适用于任有限物理真核。全K2截尾平方误差≤ε_f+2S_y/S_x，不含头逆范数；τ14使Σ(q2,m−q0,m)<∞，支付P_U3 C*r的完整Schur总能。任same-w首行<16||w||²，actual W另有预算。qflat高旗补/完整返回仍开，全部cut及原源保留。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
