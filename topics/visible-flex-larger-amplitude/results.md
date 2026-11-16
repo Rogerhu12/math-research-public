@@ -122,3 +122,7 @@
 ## R546 — actual230来源生成中止及完整已返范围
 
 **启发式/数值证据：完整官方实际记录与冻结源码控制流归责，没有新数学成功。** [R546](results/R546-actual230-source-materialization-stop-and-complete-returned-scope.md)23282/0ee9，run43867442383/head9f2b，compute133299541234/report133300630069 failure，两日志exact各唯一。入口actual inner100869/0561、derived205147145/5be5、唯一原钟形成；535仅合同，generation index6/R544非零，前六child0由真实顺序推出但各receipt未全返，内部异常/前沿不猜。12处缺dispatch、三个未生成reader与cleanup入口缺失，C/far/453/450/closed/同C/精化整个后缀未起。仅body485/4b36、4478/7ec4（无末LF）、8665/d2c9三个实际scope，不能合成全部来源/科学complete；composition110653只是原件非必要测长。旧owner空登记quiet不冒新全链quiet，清理未能装载exit2、未执行删除，不冒skip，无接受父。R559/235独立修真实冻结源与早期完整失败读回；230已跑源不改。
+
+## R551 — request232同root复用、诚实模型契约与完整原末门入口
+
+**已证明完整来源和条件接口，实际R552另付。** [R551完整证明与CLI](results/R551-request232-accepted-root-reuse-and-honest-projected-model-complete-entry.md)35933/453e，连gen37196/c501、plan77676/06ac、request91119/1e1b、workflow23242/1ab7共265166B/topic241924B。原387/39和九原输入/科学/资源对象逐值保→351public+51gen=402；实际R547 source-only后R550 prepare、原scope一次直接装R550并保原defer、原128权威/tol/replay/同DN完整模型/lift/FD/fullDN/末audit及19200/allcaps不变。真实新键guard不造旧全128true；完整RootStats/两路13计数/full last、原八表及所有原错误/未访保。原R547 source70时现场读取核完整overflow并保旧70/fallback.false，新层两具名来源表有完整逆/全bytes/SHA/键行序，未知shape literal，原90K超70不保证fit。仅显式dispatch，单正式派发另记官方head/run，amplitude唯一R552，不改已有运行或迁旧已删父。
