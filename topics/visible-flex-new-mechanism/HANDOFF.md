@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读；最新actual双pull为run43817336585/job133132261671。公开06:31:53.446100→06:31:54.156116 UTC，从de1c7d5a2dfa7b82d63c8e98f460eea269dbdeca到已读 **ed935a62fc7b1f5b266ce3de05723a4d021bd7b5**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:31:53 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
+根/题README已全文读；最新actual双pull为run43817737164/job133133535871。公开06:35:20.669106→06:35:21.220448 UTC，before=after已读 **bdd66f8469a9d09b1600329d32074e4612d48e18**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:35:20 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
 
-私有同run06:31:56.513823→06:31:57.127870，before=after **832093cccbd36dbbe437eed703bf85a19e7dc339**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。完整pull元数据保positive-primal note，私有内容不发表。
+私有同run06:35:24.149406→06:35:24.810492，before=after **0bce963fc67dbe510b2fb916dae7d69797b83c0e**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。完整pull元数据保four-self UTF8失败note，私有内容不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:25再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -43,7 +43,9 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 [R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原末low/high及8/12真中心读χ5/χ6，杀全R而H*的d5≠0，故当前全partial的vertical响应覆盖确失败。仅平移主微分到NQ，真桥2VA仍O(1)，不能冒缺minor；补13近1H有限闭包后Q0仍非零，旧D可逆失效。新完整actual引理：同一增强满锥+DQ+NQ=Q（iff Q0⊂NQ1）可经真(H,c)放大、两次商/全部prototype/Klein基准给有限C1截面。自然x6 lift不足；完整lift及新增正字符仍欠，R465正缩至两个权零镜对成员。
 
 
-[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)原全角色权0的t6/t5两系数迫formal current全零，真cap/12中心给kerJaff∩U0=ker(S|W0)；旧R196 N像仅C6、d5非零，故Qaff,0/NQaff,1自然同构S(W0)/S(K0)，成本维数7/5而非self秩。双参数门准确iff经同一seq707 current纠正的X_H=H*+J4、X_Y=J4−J6均落五核像；四个新self（两补response+两目标）正准备。C20完整self/pure/左尾已给；增强−8由原TR与Kseed的Lf差在全Af点零而全部覆盖，−6/−4满锥仍欠。
+[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)：完整Jaff权0余商≅S(W0)/S(K0)，原成本维7/5；same seq707清current后的XH=H*+J4、XY=J4−J6是两完整self目标。增强−8已付；四self仅求两补响应与两目标。
+
+[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整R56换锚保真实仿射尾/Γ，wholeQ只清P2″，再用自然total/完整current得同权mirror graph。−6三真列覆盖Pol2；−4已付七行+K4覆盖Pol4，并以−16cN³H*/45先清d=cx，故两增强负权字符排除。同Jaff满闭锥 **iff h∈span(y)**；原双参数actual仍需 **h=y=0**，不能只读两个MEMBER布尔。四self执行前置UTF8清单少1字节、0science，已定位只修metadata续未开始任务。
 
 
 完整来源见results/open；actual正锥、其它s段同规范、高阶收敛及全主几何门未付。
@@ -60,4 +62,4 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 [新finite正方向](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行通过，修复gain **7.0414711481267545e−6**；方向SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。原失败5.828010012+本进程8.304766884=新任务14.132776896秒；祖先累计 **1608.573003992秒/128值**。0新geometry/J/JVP/scalar/actual。立刻恢复必要U/T作确切新方向完整双网分离，原e/f复用；不重finite LP/旧J/ordinary几何。通过才接原guard/round/actual。
 
-[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。唯一源码/请求已提交待首次run；同180秒包含输入/失败/全部大输出，末FINAL_CLOCK权威、0旧rank/dev。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。
+[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。首次run43817737164前置bytes失败0science，.005253693秒已记；只修50184→50185，续行待消费；同180秒包含输入/失败/全部大输出，末FINAL_CLOCK权威、0旧rank/dev。R464全13规范已条件付；R466负权已闭；R467接有条件actual最高d。全主目标未完，继续open。

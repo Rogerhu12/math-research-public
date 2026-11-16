@@ -388,3 +388,7 @@
 
 
 - **权零四完整self/current首次源码与入口已提交。** [设计](notes/weight-zero-complete-self-four-column-design-20261116.md)、[请求](computations/request-weight-zero-complete-self-currents.json)（20871B/SHAe328bb129fe0f5d2a996bafa68e3f816cc3dba8f3d034d5d4fb70368e2551f83）；源码65100B/7f992c389661d731cbb873e42c7ddab84f37ad3a521b8128cfcfb338a9bdb412，只复用七Qpivot/seq707并求四新完整self，保X_H左n2。180秒共享输入/符号/失败/全部输出，末clock权威；0旧rank/dev/固定母测试。待首次实际输出后续联合h/y关系。
+
+
+- **R466已证明：完整换锚mirror与增强−6/−4排字符，满闭锥iff h∈span(y)。** [完整证明](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)保R56左右锚/真实Γ/P2与total/ordered，再由同权Pol2/Pol4与N³H* lift付完整Jaff负权。旧双参数actual仍须h=y=0，未预报四self成员。
+- **四self首次入口UTF8清单失败，0科学。** [记录](notes/weight-zero-four-self-utf8-manifest-failure-20261116.md)：run43817737164/job133133535871，仅R329源长度50184→50185；原SHA通过，0source-read/根恢复/新self，entry.005253693秒；修请求续同一180秒任务，双pull/空README差异已读。

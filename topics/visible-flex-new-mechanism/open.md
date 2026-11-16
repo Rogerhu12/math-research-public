@@ -202,12 +202,11 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 [R464](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)在同一次R455初选中增加开条件M3=∫r³≠0：穿零窗D(M3,M5)rank2、周期四正常修正O(N^-1)、F★/20根C2小均保；不改旧冻结母。对同一最终成本已有两真紧period和最高P2零，选统一degree11逆且保−1/(2τ)/incoming/gap，原11+7包装使全九行残差含sin²并无odd项。前三行六真母列、后六平台真表及(D/sin,C+D)给全相位光滑右逆，几何只排1−κ⁴−4ε=0；最后R461付三合法矩不动port。故不再留九行rank/seed Smith未知。仍欠actual全成本增强/最高d自由度、其它s段同规范、高阶与最终几何；signedV#可接全部13不等actual。
 
-### R465：只剩两个完整镜对self成员与增强−6/−4
+### R465–R466：同一权零self的联合关系与actual条件
 
-[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)以原t6/t5系数付F零⇒权0完整current零，以同cap真路径/12中心/degree8付kerJaff∩U0=kerS|W0。原R196 N像只有C6且d5非零，W0→原二维头核恰五维K0；故Qaff,0/NQaff,1≅S(W0)/S(K0)。W0维7/K0维5不冒self秩，必须同判经固定seq707 current补偿的X_H=H*+J4与X_Y=J4−J6。两头R126展开和C20完整self/pure/真左尾已给，后者未补偿不能冒X_Y。
+[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)已给Qaff,0/NQaff,1≅S(W0)/S(K0)，原W0/K0成本维7/5。[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整换锚mirror保P2/total/ordered，−6以真三列Pol2、−4以已付七列+K4 Pol4及N³H* lift付两增强负权字符。现在同Jaff满闭锥准确iff h∈span(y)；既有双参数actual引理仍需h=y=0。四self保同current纠正后两补响应/两目标的共同完整镜对，不能仅两个MEMBER，也不能把残词判固定母非成员。若满锥但余商非零，续一般actual参数控制。
 
-最小新科学为两缺失response的完整self加两normal目标完整self及必要唯一current RHS，原七Qpivot/seq707/三已付self复用；原差全镜对成员，不重旧13核/Qrank7/currentrank/19像。−8已由完整TR=−r4/6−LfP/3及Kseed匹配，真实Af边项全零，故Jaff(U−8)=Jaff(R−8)。−6/−4新增partial与同一满锥/实际prototype仍欠；即使两成员失败也不宣actual一般不可能。
 
 ### 权零四列真正新观察已定范围
 
-[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码/唯一入口已提交，首次输出待消费，未运行。
+[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码/唯一入口首次前置UTF8字节数失败（0science），只修metadata后续，未运行。
