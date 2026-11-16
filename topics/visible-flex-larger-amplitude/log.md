@@ -185,3 +185,7 @@ R568完整作者结论写成即独立刊，根仅修两文件名Markdown闭引�
 ## 2026-11-16 16:39 UTC /root — R574 actual240双必要超限及完整未知范围
 
 R574完整24562B/1d6e8ac2写成即独立刊：240两终态唯一整读，447源及原输入准备true，science外1/1/1/nullstop/nullsignal/quiettrue，source350903与science221520超90000原70、两返1846/1163同字，raw未删；未返内部原因/J/FD/fullDN均未知，不借旧run解释。244实际source失败由exact R585完整归责后修真实绑定；R599/249及R601持续，无新科学门。
+
+## 2026-11-16 16:42 UTC /root — R599准确十词与actual coast recipe边界
+
+R599三件30966B完整即独立刊：准确工厂十词用整数最近偶数解释，全部正规/次正规/边界/符号/非法/overflow条件有证明；只报告侧80B，不改原H/state/RHS/J。closed用真实launcher coast receipt路径后原read全字节核，不造旧名；R597249继续实际所有来源级联，原门/原钟不变，无本地执行/测试。R574已75d97dae，R585/R600/R602/R601与科学run持续。
