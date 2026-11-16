@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R609（实际252，本次独立刊）**：见[完整结论](results/R609-actual252-source-bridge-guard-and-complete-necessary-overflow.md)。run43917735686/af893010的两终态各唯一读；原248454来源已逐值核过的控制流前缀与当前471未完成明确分开。R604桥同步返回后八项回执合取失败，具体子项/内层exit/异常未知；新十caller未入，当前reader缺失，输入恢复/原科学均未启动。完整source487426/f41a1094未返、同1626/8017fc1b描述70，raw removed=false且quiet未证。后继只按真实源和实际producer建立完整可逆必要关系，不猜487426内部、不改252冻结件、不重派已知坏链；原全部数学/资源/90000门继续。
+
 本节截至R598的全部原词、来源、数值/未返/资源/规则/清理责任逐字保存在[4cc33b31固定open](https://github.com/Rogerhu12/math-research-public/blob/4cc33b31b86027dd2e5b4cd18efcadf4d2acf9d5/topics/visible-flex-larger-amplitude/open.md)及[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/4cc33b31b86027dd2e5b4cd18efcadf4d2acf9d5/topics/visible-flex-larger-amplitude/HANDOFF.md)，包含原c12ef290/f370f6f0/ca3ad/27bc固定旧链；所有独立results/notes原文保。这里只缩短重复执行索引，§1.1/§1.2及§2–6原字未改，不撤销任何原全维、两mean、全场、90K/70、ownership或实际失败/未返责任。R598249已4cc33b31真实刊：15层已生、两来源guard止、BVP/field未起、115399/111177必要未返、缺marker不清。R605252已af893010真刊并唯一run43917735686，官方source阶段终态，R609 exact唯一待实读；R603250 run43916489518已进入原科学，243同样仍运行。
 
 **R611 完整三件本次独立发表。** 原205b实际同engine的两张私有cos/sin表构造后，仅在实际N有限正整数且两表全有限时，原地逐元素执行原/N一次；后续六moment取同一binary64词，全部n/k/乘加/226×224方向/双mean/Cholesky保持。资格false前两表原字不改、继续原即时除法，不能把a*b/N任意改括号；八统计/full last/unknown全保，准确计数须JS Number安全整数范围，超界不补整数。源9963/54a76c39；完整证明/接口已按根4美元公式和计数范围明确，源算法不改。未接旧250、不冒实际提速/接受；amplitude继续独立253入口R615/实际R614，以真250全466为父，真实新flow/factory一次构造，不把源码恢复前还不存在的旧script当已读。root R610同一R601实际入口锚与全prefix Gram组件、geometry/ exact修251全来源与两完整必要继续。
