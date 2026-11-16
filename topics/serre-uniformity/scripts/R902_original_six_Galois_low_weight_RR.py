@@ -234,11 +234,12 @@ class Source:
         assert self.files[row["file"]]==plain(row)
         value=self.raw(row["file"])
         assert value["complete"] is True and value["configuration"]==self.tag
-        if self.label=="R827":
-            assert "result" not in value
+        if self.label in ("R827","R809"):
+            # Frozen producers store the result inside their exact configuration.
+            assert "result" not in value,(self.label,row["file"],"historical_stage_schema")
             assert value["configuration"]["result"]==self.item["result"]
         else:
-            assert value["result"]==self.item["result"]
+            assert value.get("result")==self.item["result"],(self.label,row["file"],"stage_result")
         return value
     def ref(self,row):
         assert self.files[row["file"]]==plain(row)

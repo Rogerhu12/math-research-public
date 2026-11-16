@@ -147,7 +147,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **R894七trace实际已成**：[正式结果](results/R894-certified-original-seven-pole-trace-and-marked-descent.md)，16新+2旧完整flip，DN418与QN原ρ/t阶−8435/首项305966999/397080916全部完成。末D与基仍仅L，七重下降datum保留。R899现绑定真实run43864869152/cfg3f670986/manifest6494c3b1启动，实际K固定418/首unit值待算；R900和R901未来源继续null。
 
 
-**R902严格六共轭消费者已激活**：[方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)逐字绑定R893/R896真实完成源，30对只物化初始B0/B1两个原rhs；完整空间由同I/J/F准确共轭定义。后继残余、146与418仍全核/全原行认证，原投影行、v列、w整数及ρ/t尺度不改；仅缺δA6新算。原30对实际结果待公开Actions，非单位不换图后冒称原共轭。
+**R902严格六共轭消费者已激活**：[方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)逐字绑定R893/R896真实完成源，30对只物化初始B0/B1两个原rhs；完整空间由同I/J/F准确共轭定义。后继残余、146与418仍全核/全原行认证，原投影行、v列、w整数及ρ/t尺度不改；仅缺δA6新算。首run43879863247未入数学核即因原R809无顶层result退出；[两处历史schema修复](notes/R902-R809-historical-source-schema-repair.md)保全SHA/tag后重发，coreb0f5510e/wrapperdb561206。原30对实际结果仍待公开Actions，非单位不换图后冒称原共轭。
 
 
 **R854 N112实际预算断点**：[来源及同核续算](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)。完整算子112与1041stage已保存，末完整profile63记录输入49/rank7，尚非最终单位逆界；false FINAL无四球。新resume只换实际run43832705685/art14229723159，保持同core/config/112，不重旧位，R858仍null。

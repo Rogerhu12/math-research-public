@@ -604,10 +604,12 @@ def source_review(item,retained,sources,inputs):
                 continue
             data=read(bound(folder,row))
             assert data["complete"] is True and data["configuration"]==tag,(group,name)
-            if group=="R827":
-                assert "result" not in data and data["configuration"]["result"]==source["result"]
+            if group in ("R827","R809"):
+                # Both immutable producers place result only in configuration.
+                assert "result" not in data,(group,name,"historical_stage_schema")
+                assert data["configuration"]["result"]==source["result"]
             else:
-                assert data["result"]==source["result"]
+                assert data.get("result")==source["result"],(group,name,"stage_result")
     def stage(ref):
         group=ref["source_group"];row=plain(ref)
         assert sources[group]["files"][row["file"]]==row
