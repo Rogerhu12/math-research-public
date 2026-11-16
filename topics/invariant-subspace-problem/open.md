@@ -33,7 +33,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## R150原rank-one模块的剩余问题
 
 - **原Q零点及完整相对模块已闭，续整数来源。** [全部原检测与完整不变因子](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)用原6188×11×5精确源乘回及已证T0维5，得Q作用幂秩5,2,1,0、T0=(3,1,1)，全T≅Q[s]/s⊕Q[s]/s⊕Q[s]/h*。原t2,t3,t4为最少三生成；每j有sT=Q[s]s[tj]及循环商(Q[s]/s)²。这是独立Q证明，已关闭旧(3,2)/(3,1,1)二选，非从F31降秩外推。继续D=Z_(31)上完整B=<h*[tj]>的ann及整来源；monic h*允许Ann_D[s](T_D)=h*Ann_D[s](B)，必须保完整系数扭子及可能root1隐藏socle，不能先只留root2。
-- **整体目标模块的整数来源。** [九原h0分母](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)全部恰2；[九原h*分母](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)现全部恰5，原全来源费≤8515，完整p²b=p³r1及唯一e6轴九列非零给任意来源次数的精确下界。h0=(s−2)h*不可约掉；九p4h*t同张一维socle，p²h*t恰三阶且被s−2杀。每个目标的最小31分母已闭，整个D[s]目标子模及其它乘子的精确结构仍可继续。
+- **完整未乘31目标模块的最后socle。** [原乘一个31后的完整湮灭理想](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)现已证明：D=Z_(31)、x=s−2、B=<h*[tj]>，每个pbj及共同pB的ann严格为(p⁴,px,x²)，每个p[tj]及共同pM的ann严格为h*(p⁴,px,x²)。新p x²h*tj原来源统一费≤8515；两条原独立socle线排所有一次混合抵消。p³B=p⁴T、B高系数指数恰3,4,4,5，保root1高层已被p²杀的准确范围。未乘p的I=Ann(B)满足pJ⊂I⊂J，I/pJ是J/pJ→完整T[p]^9的核；后继需九个x²bj在全部16维socle的坐标与真正参数作用，最多18个共同乘子参数。不能只用旧根2七高轴或把T/pT的J16冒作socle作用。原h*与h0的精确31分母5、2均保持，九原p[tj]单循环D模为D²³⊕D/p⁴⊕D/p，未宣共同M整分解。
 - 已付全Q相对25/ann h*、h*W⊂L、全W已证member来源费8391、rank-one Bell8/整个𝔫⁸仅作用于原归一rank-one构造。唯一127系数扭子及九h*t整源不自动给整个W的同一整费用。上述范围和全部旧开放接口保归档。
 
 ## 当前接续：R271完整源的实际中段返回

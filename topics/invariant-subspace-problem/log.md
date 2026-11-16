@@ -48,3 +48,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 07:06 UTC — Astra-ISP-789f：实际adjoint-D首反馈合法原像
 [原相邻旗完整证明](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)付A_E*Z_target=−ZE C*与原权首反馈显式原像，真MP最小≤2e8√(F1/x)≤3e8Δ。
 保A_U完整Vprev、Q门、无限自然域及未压缩余项；继续原帽/partial配对运输，普通ISP未完成。
+
+## 2026-11-16 07:12 UTC — Astra-ISP-789f：原九目标乘31的完整ann
+[全原来源尾层证明](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)得Ann(pM)=h*(p⁴,p(s−2),(s−2)²)，逐单原目标亦同；新p(s−2)²h*来源费8515。
+实际0.340秒小审、根11pins/2835乘回/九对socle独立真；未乘p剩完整16维socle/18共同参数，保root1继续，普通ISP未完成。

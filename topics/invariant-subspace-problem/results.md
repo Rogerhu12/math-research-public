@@ -159,3 +159,6 @@
 
 
 - **R271真实相邻旗adjoint-D首反馈的完整最小原像（2026-11-16）：** [原旗/低forcing及自然域证明](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)由D V_Q⊂V_(Q−1)、D K_Q⊂K_(Q−1)给准确A_E，保A_U目标完整Vprev；A_E*Z_target g=−Z_E C*g。α_i=(bi/si)C*ri的原权合并目标有显式合法原像X=−Σu_i ci Z_target ri；Σu_i²≤4/x、上一层完整ri行≤e16F1给||X||≤2e8√(F1/x)≤3e8Δ。原像绝对收敛且自然域准确，投影掉ker A_E*即真最小规范，无值域闭假设；Q≥R+h+2保两层全部源。此为原受限旗伴随的MP预算，未把未压缩余项(I−PE)D*X、σ不同次序或全部右链/帽返回删去。
+
+
+- **R150九原目标乘一个31后的完整湮灭理想（2026-11-16）：** [原carry、独立socle与完整ann证明](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)保全部系数扭子T，根1指数≤2使原二点carry准确回全高层；真高坐标秩3给p³B=p⁴T，高四坐标秩4给B高指数3,4,4,5。每j的p x bj与p⁴bj两条socle独立，得所有一次乘子精确判准，再由p xB⊂p³B给p x²B=0，故Ann(pB)=Ann(pbj)=(p⁴,px,x²)。首一h*除法给每个p[tj]及共同pM的ann=h*(p⁴,p(s−2),(s−2)²)，新正来源费按原最大子式三支仍≤8515。实只读审0.340秒；根独核11原pins、2835 carry乘回及九对socle，不重210或新整数解。未乘p只余完整16维socle上最多18共同参数的核，保可能root1隐藏层；未冒T/pT作用为socle作用。

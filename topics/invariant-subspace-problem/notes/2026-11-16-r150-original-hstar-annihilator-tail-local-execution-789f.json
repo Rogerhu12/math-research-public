@@ -1,0 +1,115 @@
+{
+  "format": "r150-original-hstar-annihilator-tail-local-execution-v1",
+  "status": "completed",
+  "executionId": "local-original-hstar-annihilator-tail-audit-20261116T0655Z",
+  "operator": "Astra-ISP-789f / literature_audit with GPT-6 Astra Pro",
+  "dateUTC": "2026-11-16",
+  "resultWrittenUTC": "2026-11-16T06:55:28.490535Z",
+  "exitCode": 0,
+  "elapsedSeconds": 0.33959543299715733,
+  "peakResidentKiB": 52564,
+  "binding": "e0c921f51077e07288410fc7c2bdc63adb0a3b27127f4f18cdc61fd1ac6af4f1",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-hstar-annihilator-tail-audit-789f.py",
+    "blob": "56e6aeb681427044340e6ff2109ebc12f806055f",
+    "bytes": 9020,
+    "sha256": "daaf20b42f05718f5ffbcc570963e00fe46eed2f10216291c4f44f514ef7d1ab"
+  },
+  "helper": {
+    "path": "notes/2026-11-14-r150-torsion-characteristic-789f.py",
+    "bytes": 5002,
+    "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+  },
+  "runtime": {
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "pythonVersion": "3.12.14",
+    "pythonFlintVersion": "0.9.0",
+    "workingDirectory": "/tmp/literature_root2_789f",
+    "environment": {
+      "PYTHONPATH": "/tmp/literature_root2_789f/python-deps"
+    },
+    "arguments": [
+      "-u",
+      "scripts/2026-11-16-r150-original-hstar-annihilator-tail-audit-789f.py",
+      "--work",
+      "work",
+      "--reader",
+      "scripts/2026-11-14-r150-torsion-characteristic-789f.py",
+      "--out",
+      "work/original-hstar-annihilator-tail-audit/result.json"
+    ]
+  },
+  "inputsRoot": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work",
+  "inputIdentities": {
+    "C1": {
+      "bytes": 515,
+      "path": "original-hstar-first-carry/hstar-first-carry-in-true16-coordinates.json",
+      "sha256": "2aeda22a10ca9a7f13b82649f48fe9fd6913c2346c1d848db8b0a5dca2528c3d"
+    },
+    "D1": {
+      "bytes": 6889,
+      "path": "original-hstar-first-carry/stages/hstar-first-carry-complete315/complete315-class.json",
+      "sha256": "ed45b987a205d025d2128ff9df119a279a4f6622bf649f42732d449859ae45c2"
+    },
+    "D5": {
+      "bytes": 138587,
+      "path": "root2-fourth-complete210-p7/stages/L5-all208-paid-class-check/exact-class.json",
+      "sha256": "d00f76626a0a5d80ce9a826315562170d9d32bbc5a44ba6f00197a4bf7006705"
+    },
+    "carryReceipt": {
+      "bytes": 16583,
+      "path": "original-hstar-first-carry/original-hstar-first-carry-receipt.json",
+      "sha256": "86aa0442ee2b24373fbc23b27495b0546f640c679e05c3c4727a5953fab605ea"
+    },
+    "carryResult": {
+      "bytes": 1741,
+      "path": "original-hstar-first-carry/complete-hstar-first-carry-result.json",
+      "sha256": "3b3ef60c19b77594fda9f931d4831f140a7e326df34cb4977d83f7c357c5adbb"
+    },
+    "parentReceipt": {
+      "bytes": 42372,
+      "path": "root2-fourth-complete210-p7/root2-fourth-complete210-receipt.json",
+      "sha256": "dd867cfbbefcce2d7a846016807b1da6f56c73fd82ea9a364036348467bdc5b9"
+    },
+    "parentResult": {
+      "bytes": 141288,
+      "path": "root2-fourth-complete210-p7/complete210-exact-result.json",
+      "sha256": "30d9c04e68e337e2ac5019e527e97e211104b1e9276ff7caf24619a804fde8b9"
+    },
+    "recipe": {
+      "bytes": 33227,
+      "path": "root2-fourth-complete210-preparation/complete210-fourth-source-recipes.json.gz",
+      "sha256": "4c40ce9af0ad97eb38bf6e754e8f08ab106fa30028ab829fb1657c2a8dc607a2"
+    },
+    "socleReceipt": {
+      "bytes": 23423,
+      "path": "original-h0-seven-socle/original-h0-seven-socle-receipt.json",
+      "sha256": "6533b887811d674adfcfbb0fd09b440710db40df7eb341326af75739b0564e5f"
+    },
+    "socleResult": {
+      "bytes": 1028,
+      "path": "original-h0-seven-socle/complete-seven-socle-result.json",
+      "sha256": "ebd9b1bb82ca732e2a0acb6ebf5aed8046eeed9d0cbeab82eac803ee63967f82"
+    },
+    "state": {
+      "bytes": 1470456,
+      "path": "global197-original-inputs/state.bin",
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    }
+  },
+  "ancestors": {
+    "complete210Binding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+    "originalHstarCarryBinding": "4044954d51c3d23ced04aa55ae8355c6877c2153f92984807c6454572e85e4cd",
+    "originalH0SocleBinding": "dce92fb5bbd50efc3cf5bd39a5b7fbf27dec7f88e4c3e0b9308cfff47b042b98"
+  },
+  "outputIdentity": {
+    "temporaryPath": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original-hstar-annihilator-tail-audit/result.json",
+    "bytes": 3225,
+    "sha256": "71959c05e881c578dfb01578cb995d2f7a422c16aed7e41ab66afc3cfa395a9d"
+  },
+  "storagePolicy": {
+    "recordsSourceParametersExecutionAndHashesOnly": true,
+    "mathematicalOutputAndArraysRemainTemporary": true,
+    "noOriginalIntegerSourceSolveRepeated": true
+  }
+}
