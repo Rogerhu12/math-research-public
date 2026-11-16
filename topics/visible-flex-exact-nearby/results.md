@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WVCA完整实际证明](results/R133-supplement-actual-continuous-centre-tracefree-candidate-and-false-finite-gate.md)：逐字保43891414339/1全56新记录、5modal前缀及witness、16完整JSON对象与旧60/6prefix全资格。根逐对象与表项核同完整SCI；43SCI/44exec/25progress、4真pull链齐。有限充分门false/finite0与全部物理义务保，不重算。
+
 - [WVC首次完整实际结果](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json)与[执行记录](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json)：56新、96模态、23结构门完整成，e+3dt约11066.29746，充分门仍false/finite0；不推奇异。全输入/原mean/端/两rhs/fullscope、旧WPS60/6prefix保，old0/lost0，成功目标冻结。
 
 - [WEX：真实腰端完整通量与两类原函数余项](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)：精确四block分解保持原B0/B1与同P，C1/C2固定乘子、完整profile和两terminal给同N^-2接收。原Cs/WT/两physicalmean/四端及whole/reduced原域保；31新目标未算，8原小件/62对象完整只读，不减旧upper。

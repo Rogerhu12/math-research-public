@@ -188,7 +188,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 
 
-[WVC实际56](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)43891414339/1全56新+5prefix/96changed/23门成，SCI746ec1e1/85fd5bc6、execc8cd8e8b/5e560887；e+3dt≈11066.29746充分门false/finite0、不推奇异。原WPS60/6prefix及全两mean/7ports/两rhs/四块κ3真96保，old0/lost0，禁重；后继WCTR或全接收新目标。
+[WVCA全实际](results/R133-supplement-actual-continuous-centre-tracefree-candidate-and-false-finite-gate.md)17df3c0c43891414339/1全56新+5prefix/96changed/23门成，SCI746ec1e1/85fd5bc6、execc8cd8e8b/5e560887；e+3dt≈11066.29746充分门false/finite0、不推奇异。原WPS60/6prefix及全两mean/7ports/两rhs/四块κ3真96保，old0/lost0，禁重；后继WCTR或全接收新目标。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 

@@ -177,3 +177,9 @@ child715.048316152s、math704.212067529s。四真pull完整diff空、chain eb778
 root规15普通清理仅3exact报告，gross200661B；note440923e14f0541f75ddcf647260e8c2bf7ecfe75 /16129B/676c5908e0c85e27bc9e6c15fd9e9b079a5a585ad3ba906c0fedba90b3321283保存完整path/blob/bytes/SHA、原selected对象/两个分别domain、constant-split全mean/cross/finite未付，以及R109原full_cap_gap_paid=false/历史slice来源/62旧check和unpaid条件。全部原球、62column及7physicalcutoffs等完整内容可从1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f原path复得；旧producer不重算，不把旧历史V8算术记录当当前执行授权。源/证书/原数据/内列7inputs不删。
 
 当前四运行manifest与WEX八原JSON无这3basename；这不否认旧文引用，今后须按完整immutable恢复。清理前exact topic 199210856B，当前WVC所有116980B已成结果保，未发表188K预留已解除；WEX31/WCTR后继仍各计全输出与120K、并计并行pending。根两README核1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f未变。
+
+## 2026-11-16 15:24:32 UTC — WVCA全部实际数学结果、原scope与无lost边界全文
+
+完整proof c15a5dbb52de3d378e2dfa6103bd8e7634cd59e2 /73279B/SHA256 17df3c0cb777103f1d850c04fd2ffda70a78ff17a4d618ba86bde87ef7dc03f6 独推。根自然读全11节，并将16完整JSON code blocks逐一与实际对应全对象比同、6图56table rows和5prefix原球逐项原字核同；3actual/manifest/五sources完整pins齐，SCI/exec整对象canonical bytes/SHA亦完全相同。原26copy=15根对象+10旧reference+1旧HL，不把字典15keys冒26；所有旧WPS60/6prefix和7完整archive原scope仍保。
+
+本次43 SCI字段、44 exec字段（4pull无optional readme_retention），不能冒旧WPS45exec；完整56/96changed/23gate、finitefalse≈11066.29746、inverse/physicalcolumns0、old0、未中断lost0不变。连续源的四项完整残差不微分BHL，source中心与全96-family区别、两rhs/7ports/两mean/finite/head/ν/Θ/matching及旧κ3原范围齐。43,989,705B stdout仅原receipt身份，不取/分割其body。后继WCTR20copy+36新与WEX31各只做新目标。两README核2a4fd4348701c76f5b05be950986ba748f3f3d7f完整hash未变。
