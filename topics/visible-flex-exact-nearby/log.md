@@ -336,3 +336,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 06:11:29 UTC — 单一phase24 nonlinear诊断窄白名单
 
 完成7339B note/997B manifest/10215B producer原件核，fresh9fcc树绑定414823B派生report与独立8855B线性输入；有限样本成功与非Newton/非连续PDE限制全保，原NPZ已旧315bf6e删并核46f127精确restore。先推白名单再fresh guard普通删；大body/数值均0，两READMEbf891657c5718946fad1372d6bbd6b1d9b69f9c0不变。
+
+## 2026-11-16 06:11:43 UTC — phase24 nonlinear单报告按已推白名单清理
+
+080b9157白名单先推，随后fresh main/path guard核d6d72745/414823B，只普通删该派生JSON；完整恢复9fccddef、原note/manifest/linear报告/source与NPZ旧恢复链全保。新数学0/旧重跑0，两README080b91575ef8132122a82403ff35f5306950a48a不变，继续未闭源/端点/有限门。
