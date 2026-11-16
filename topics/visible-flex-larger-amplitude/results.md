@@ -105,3 +105,5 @@
 - [request241正式绑定](notes/2026-11-16-request241-official-run-binding.md)：普通7af9e725、NFF即时真rebase后单POST200/run43901322004/133418415682；实际R577由geometry唯一另付。
 
 - [R593：同一全局时钟、真实owner局部窗口与既有跨H初猜](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)：三件54101B，唯一6000→12000资源变化；同19200/1200replay/原全部后继cap与科学门保，454来源与真实分配必要字段；无新数值接受。
+
+- [R581：同次解析角带、完整指数尾与真实request243](results/R581-same-return-analytic-angle-projection-executable-composition.md)：六件379862B/topic287039B，原642保→653/14层；同一R553/R575返回及原退休、原Budget内全局summary、完整必要具名单关系；原门/90K70保持，实际R582另付。

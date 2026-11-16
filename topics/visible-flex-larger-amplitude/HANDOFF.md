@@ -35,25 +35,26 @@
 | 247/R592 | 43899155015 /3ca6bddf9912c27f36a1a4a978bd65b8502063a4 /133410760515 | geometry；15:47前1–14成功、15全E cover |
 | 242/R579 | 43900562629 /c3e91b762a6536a9820cf87e4dd1a9e898d88d62 /133415703033 | exact；15:59前1–10成功、11原科学 |
 | 241/R577 | 43901322004 /7af9e725e58983a740d3cb53c66b73166914e247 /133418415682 | geometry；15:53前1–6成功/7容量记录 |
+| 243/R582 | 本次R581完整普通刊后唯一POST；正式tuple随后绑定 | amplitude唯一；无预填科学接受 |
 
 只看running metadata；每个终态job指定读者一次，root不复子日志。官方notes保各唯一POST200/run/head；未知派发不重试。228实际头只有H规则行不同，其source/.github/双README同。
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[3e405f4d固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/3e405f4dde5352812bb7a8633a702478c7b1eb11/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/3e405f4dde5352812bb7a8633a702478c7b1eb11/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[ca3ad325固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-R593完整三件54101B本次独立刊：原worker已在每次H成功后复用完整last与可选predictor，不把既有机制冒新修。唯一资源地址owner_seconds_cap由6000→12000，仍同19200全局钟；原replay1200、后继stage8000/boundary与endpoint600/audit1800/readback120、全原科学源码/初猜/门保。原owner扣replay后4800窗口在全余量足时变10800；后继8000是之后另行裁剪，非owner更早截断。当前真实actual allocation全保、只source metadata两view，原R589451→454=363public+91generated；不保证全链够时/未知225后续norm。R594/request248完整入口另刊，R595 exact唯一未来。
+R581/request243完整六件379862B/topic287039B本次独立刊：R576正式7af9最后三身份源642逐值全保→653=322public+331generated/14层、26runtime。R580绑定真实R575/R553同对象/同次cell返回，显式h0=1/256、Taylor24，全部M/N/精度取原真实对象，原refine及退休全覆盖不改；B2不可用不压R580。global summary置原Budget/信号try内，真实ResourceStop后仅metadata、全计数/未访/错误/所有原必要保。唯一same-measurement完整R575 binding完全相等可逆共享计入原90K，未知fit/正带/metric不预填。R582未来amplitude唯一。R593已ca3ad325，唯一owner6000→12000同19200与原全门，R594248入口接续。
 
 ## 完整待发表来源
 
 下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
 
-- R581/request243完整六件379862B/topic287039B，最终manifest629d454c7e4410ae901c68b44e9abf0375cf7d62（5180/283996d4）；原R576642全保→653=322+331/14层，同次R575/R580显式h0=1/256/terms24、原Budget内finish、全部必要/90K70保。R593后独立即刊/单派，R582 amplitude唯一。
+
 
 ## 当前执行与紧接责任
 
-紧接已完整R581/request243六件独立刊/单派R582 amplitude唯一，再接R594/request248完整请求/CLI；不等242/246结果。R583原核/四loops/header/plan文本已成，实际adapter/完整证明继续；R596真实RHS形成与cp.directory/capture路径接点继续。独立22/23 audit43901415619固定7af9由amplitude终态唯一读，未有完整consumer解释前不删。真实科学227/237/240 amplitude、235/245/242 exact、238/247/241 geometry、246 root按原钟及各唯一readers继续。原全目标仍未完成。
+R581普通push后唯一243派发，R582 amplitude唯一终态，随后绑定真实tuple；R594/248完整请求/接口完成即独立刊派，R595 exact唯一，不借242/246未返值。root R583四完整loops当前mode与原核/plan文本已成，真实adapter/完整证明继续；geometry R596真实DY/DU不同controls有限DFT形成差和cp.directory/capture真路径，全cell正域/参考投影另付，R597249R598预留。当前原227/237/240 amplitude、235/245/242 exact、238/247/241 geometry、246 root按原钟，running只metadata。22/23独立audit43901415619官方success但两次logs -32603与GET400均无正文；amplitude正写严格同原run/head/job/完整frame只读Actions恢复，未返前不删。
 
-容量逐笔按f7真实基数加全部变化Git blob size≤200MB；两26/28、两25及两24旧manifest已分别f7d56b2/80840b54/8d1cfb2普通移出，固定完整恢复/全部来源及实际guard见三retention notes。两24最终88874必要可精确逆141568，138完整变化/未知未扫错误0；全部现用warm/status/数组保。根8旧大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。每次真pull核双README/读commit入H，NFF立即真实pull--rebase再普通push循环，不用force。
+本次仅把open§1.3已付长历史折叠到固定ca3ad325全原词，结果/接口/全部旧失败与未返仍完整；§4–6逐字保。根8/15旧偏差记录保，不复制raw/证书/Actions输出到Git/Release/artifact；大候选manifest只Actions内读。原26/28、两25、两24普通保留整理有全部固定恢复/实际引用及最后delta，当前warm/status/数组保。容量用f7实际基数+全部changed blob size≤200MB、不全树-l；每真pull核双README/记commit，NFF立刻真实pull--rebase再普通push至成功。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
