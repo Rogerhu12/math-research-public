@@ -258,3 +258,8 @@
 ## R437 — 首次真实闭构造、材料定义与联合来源
 
 [R437](results/R437-first-current-closed-construction-and-material-definition-freeze.md)/[接口](notes/2026-11-16-current-ten450-first-closed-parameters-and-joint-postsolve-interface.md)：d7d01460/0f03ad49/f6176dba/28b48f0c在真实radial后选首次H、W=.01/全四marker并保存A，shared后保存完整core/Phi/registration/normalization/phase的B与原首prefix四cardinal见证。明确193/R431/新203 tuple，原五阶段/OwnedChild/18900+2700/全参数与90KB不改；held与metric/reach独立。reuse真读A/B且逐词构造相同，材料差异只诊断，共同角拉回尚未执行。全实际定义/raw同job暂存至全部必要+quiet；无当前H/450/比例或几何成功。
+
+
+## R408 — 实际193的有限头预算停止与未启动453／450
+
+[R408实际193](results/R408-actual193-continuous-ten-finite-far-budget-and-unstarted-full453-frozen450.md)：run43769481114/source51fb1430，五份compute/report必要逐字同；原C闭域完整而2879宽度欠项、十族域和deep112完成。finite-far仅m2..206共103模式完成，m208原declared-phase-wall-budget-reached，210..224八模未起；7049.298秒linear是启动时预留7200后的实际裁剪，不冒双零错误。native_ready=false，453/450均未起；34419B/6a7d632b必要全文及原pending/资源/错误/quiet已读，01:36:08真清owned树。88.85GB仅完整身份及必要scope，不能续用已删raw；下一完整joint入口须诚实重分配时间并重生全部112。
