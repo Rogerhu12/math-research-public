@@ -55,3 +55,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R150原F31零点目标完整分拆(3,1,1)（2026-11-16）：** [完整99 Krylov证明](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)复用原315状态、九目标及真实J，KΞ=原targets/AK=KJ/CK=0和505自由观测全真。原minpoly=s¹¹q、q0=25，q(J)九列生成完整零点子模，维5/作用幂秩5,2,1,0，完整双包含及315乘回真；实际0.725秒/raw1983·5138d5c8。只F31分拆，Q的(3,2)/(3,1,1)仍两种，不能由field rank2升Q上界；续原h*系数分母及零点原来源判别。
 
 - **R271正commutator因子与完整新源的整段占据行（2026-11-16）：** [完整自然域证明](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)给K=I+T*T−TT*为核外creation平方、0≤K≤hI；完整2×2逆只用(I+uK)⁻¹，其增益准确分成新位占据与正Schur余项。一个共同t支付[x,2x)全部实际新源的两项和≤Vsharp≤Δ_Q²，真实投影步差平方和亦≤Vsharp；固定物理压缩给Σ||E_yF_{y+1,t}||²≤Δ_Q²，原u及全部合法Q保持。可同参留两阶矩（30000常数），Vsharp→0；这是不同合法代表的完整行，未换成Σ||E_yu||²，真实返回继续。
+
+- **R150原h*完整31坐标与全局上界（2026-11-16）：** [全部原坐标证明](results/R150-appendix-original-hstar-targets-complete31-coordinates-and-exponents-two-to-five.md)以真U16解原315×9目标，rank4且在U7，第8…16坐标全零。由完整最高六阶及T∩31C=31T，九个目标最小31分母指数均在[2,5]；初始低轴不排高阶系数进位。原整数carry的精确下界随后独立记录，不约掉h0=(s−2)h*的s−2。

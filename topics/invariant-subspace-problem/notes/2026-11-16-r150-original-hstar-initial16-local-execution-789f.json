@@ -1,0 +1,54 @@
+{
+  "format": "r150-original-hstar-initial16-local-execution-identity-v1",
+  "author": "ChatGPT (AI), literature_audit",
+  "date": "2026-11-16",
+  "execution": {
+    "id": "local-original-hstar-initial16-20261116T050729Z",
+    "environment": "local-original-repository-mathematics",
+    "status": "completed",
+    "exitCode": 0,
+    "elapsedSeconds": 1.6097746249943157
+  },
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-complete-coefficient-coordinates-789f.py",
+    "blob": "54794377cfdf622f4c2837ff82997e225036c588",
+    "bytes": 9018,
+    "sha256": "4060a8d6de5a7c0bb040b175702b4901db1550fc56196c6884fa3ff47aa6dc08"
+  },
+  "parameters": {
+    "prime": 31,
+    "seconds": 60,
+    "memoryMiB": 1024,
+    "originalTargetLabels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "parentBinding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+    "initialTargetPolynomial": "s^3 Fplus^2 Fminus^2 E8"
+  },
+  "binding": "40bf2d4585096148bf886e73c4ba90e3f1130ec5e964cd87df79d0eb46550188",
+  "outputs": [
+    {
+      "name": "original-hstar-coefficient-coordinates-receipt.json",
+      "bytes": 2363,
+      "sha256": "15da4ad5c180dca49b6f2f9ada1b855ac9f379cc086fc256a41ab8d8ece4d9c8"
+    },
+    {
+      "name": "original-hstar-complete-coordinates.json",
+      "bytes": 7416,
+      "sha256": "75b856273b66296b6cf232741bf27ace3c8df47bbefe8782d608f6bf759ac343"
+    }
+  ],
+  "storage": {
+    "mathematicalArrays": "temporary-only",
+    "outputJSONCommitted": false,
+    "newUploadedArtifact": false
+  }
+}
