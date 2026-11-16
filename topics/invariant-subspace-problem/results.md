@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[四规范q完整权8非成员、四维商独立与增广秩1316](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)**：原规范化全32+168/八poly门；qb²四余非零且系数全0，根独构70696坐标及1312原unit坐标零。det8的q系数块与原unit det4给模G8独立，增广17674×1390恰1316，无新消元；不扩到高来源、全理想或E。
 - **[原数域至多两轮稳定与完整10×970参数呈示](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)**：不依赖field压缩，原116种子全comm及原E二次/35三次来源给Cl_N(L0)=L2。1070字面列只删十个原E恒零comm及其像成≤970，全部列有原18来源公式；coker严格为完整原Bell临界商。未新增展开数组或单位恒等。
 - **[原有限域稳定闭包至多两轮与完整10×210参数呈示](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)**：对完整自由十轴先证原11二次算子像⊂P1，再由35三次来源与三类重排误差证P2稳定；Cl_N(P0)=P2。原106首轮加四quad路径×26原低种子共104列，完整呈示原Bell商。源公式全18、不倒参数；新数组未生产，不称单位/最小轮数2/E。
 - **[原δ14的七个完整有限空间负及Bell来源权≤8排除](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)**：完整权7/8的bδ与六yi bδ均非成员；113798原输入产品/全主元余零及根独立普通FLINT复核。最低权递推给δ在首轮梯度模加Bell的来源≤8表示不存在；不排高来源、完整稳定闭包、原理想或E成员性。

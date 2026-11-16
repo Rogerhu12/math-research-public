@@ -1,0 +1,164 @@
+{
+  "execution": {
+    "argv": [
+      "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-789f.py",
+      "--model-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--compression-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "--weight7-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "--weight8-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "--pencil-source",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-mean-rank-three-exact-pencil-789f.py",
+      "--rank-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+      "--header",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "--native-source",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+      "--model-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+      "--compression-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+      "--weight7-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-mean-first-frontier127",
+      "--weight8-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-complete-weight8-frontier127",
+      "--out",
+      "/tmp/literature_bell_rank4_789f/original-canonical-mean-quadrics-bounded-rhs127",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "2048"
+    ],
+    "endUTC": "2026-11-16T15:00:17.252508+00:00",
+    "exitCode": 0,
+    "format": "r150-local-source-run-identity-v1",
+    "log": {
+      "bytes": 6844,
+      "path": "original-canonical-mean-quadrics-bounded-rhs127-180.log",
+      "sha256": "a85ba670238ec92d6e15aa45388f3d57522a305ef676b0d4aef59886556768ce"
+    },
+    "source": {
+      "bytes": 28292,
+      "path": "2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-789f.py",
+      "sha256": "c3723cdf2b8f6e6f6e3ba0aab45c3d2b2fbb056aedec634df2ccefeded8babe5"
+    },
+    "startUTC": "2026-11-16T15:00:07.701210+00:00",
+    "status": "completed-process",
+    "wallSeconds": 9.551047689994448
+  },
+  "format": "r150-original-canonical-mean-quadrics-bounded-rhs127-local-execution-v1",
+  "inputs": {
+    "bytes": 7027,
+    "gitBlob": "69cfc42d4c8f246005d9f0e66760d562d3450ddf",
+    "path": "2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-inputs-789f.json",
+    "sha256": "4e83b893a0208f9f1e5c858a7cc789969ec596a90d45757bcc2c2946585deb0a"
+  },
+  "interface": {
+    "bytes": 6989,
+    "gitBlob": "de9b01114d831824bc1dc4cf34cd4d07f7c45927",
+    "path": "2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-interface-789f.md",
+    "sha256": "987595ddf9c7b73cad895bf38f9f8631b6d9ad8b6e25fa4f9b0ec1cf58f20b6a"
+  },
+  "mathematicalBinding": "2e4625501c73ba21bcc5c701212dade8fdc7a9fce19875a9d5a37dc2094a2d79",
+  "nativeSource": {
+    "bytes": 5825,
+    "gitBlob": "97c6316a82e7e1a570496db044074417bcc88034",
+    "path": "2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+    "sha256": "9707a53c28f7c3082fec631675aea3974b2f637cdd5c5333bfeee46dac5d05a1"
+  },
+  "newParentEliminationPerformed": false,
+  "outputs": {
+    "canonicalQuadrics": {
+      "bytes": 1452,
+      "logicalBytes": 4607,
+      "logicalSha256": "35602bb394e7f72251c0459d82acb31a4a29fd21e519049d62be2eb27ab80c7f",
+      "path": "complete-original-canonical-mean-quadrics.json.gz",
+      "sha256": "ae88e0dcfbe9056630d864c8792e56f822a0a1f31e46c83ecce86d77620a2976"
+    },
+    "completeManifest": {
+      "bytes": 8827,
+      "path": "canonical-mean-quadrics-bounded-rhs-manifest.json",
+      "sha256": "632c946395b42bf69304492da220c67c0b074beaa4470f57352016d1e66af608"
+    },
+    "completeNativeResults": {
+      "8": {
+        "input": {
+          "bytes": 70856,
+          "path": "literal-original-rhs-input.bin",
+          "sha256": "9f458bf47e2ea7a8ac5a312eccf45e9639d53641899b76929565bca2e334c9f4"
+        },
+        "log": {
+          "bytes": 584,
+          "path": "native.log",
+          "sha256": "c1d5a714c16068f14652ca9ff98e709466f9f5fbfe4688280ec01ff1f30c426f"
+        },
+        "receipt": {
+          "bytes": 583,
+          "path": "complete-original-rhs-native-receipt.json",
+          "sha256": "a40e6a2d8049639fadb60ff44f67b0517bf4250240e9b1083194ddf33dd6e646"
+        },
+        "result": {
+          "bytes": 76416,
+          "path": "complete-original-rhs-result.bin",
+          "sha256": "220708014b8b32121cc9fd1a5e111fa6b77375942757311bdad0c4eba9047584"
+        }
+      }
+    },
+    "rawReceipt": {
+      "bytes": 6588,
+      "path": "canonical-mean-quadrics-bounded-rhs-receipt.json",
+      "sha256": "1688af057845a567db2a9fa57f3ad6fc7efd129e1634ad1f8b546eae14a0c143"
+    }
+  },
+  "parameters": {
+    "coefficientRoot": 100,
+    "memoryMiB": 2048,
+    "outerSeconds": 240,
+    "prime": 127,
+    "seconds": 180,
+    "selectedOriginalSymmetricEntries": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "parentStatesReadOnly": true,
+  "pencilSource": {
+    "bytes": 10909,
+    "gitBlob": "1608cd3261aa69693632d255baebe6160a2c49cd",
+    "path": "2026-11-16-r150-original-mean-rank-three-exact-pencil-789f.py",
+    "sha256": "0c65c893bd73f190a5c0f92bf33e4bcdf6e734a530578ddca93a8a6d46a272ff"
+  },
+  "resourceUsage": {
+    "childIncludesCompiler": true,
+    "childPeakRssKiB": 195488,
+    "parentPeakRssKiB": 108084
+  },
+  "source": {
+    "bytes": 28292,
+    "gitBlob": "26fa7047caaf189d83aa6281d485cf9945d01ae7",
+    "path": "2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-789f.py",
+    "sha256": "c3723cdf2b8f6e6f6e3ba0aab45c3d2b2fbb056aedec634df2ccefeded8babe5"
+  },
+  "sourceElapsedSeconds": 9.349584655006765,
+  "status": "completed",
+  "storage": "All arrays and full mathematical outputs remain temporary; only sources, parameters, run identity and SHA are stored."
+}

@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**[四规范q的权8负与完整增广秩1316已闭](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)。** 四qb²原余式均非零、来源系数全0；根从原T/U/V独构全部70696目标坐标，并核1312原unit坐标全0。规范四q系数det8给四维目标空间与完整G8交0，故增广17674×1390秩1316。该首轮模的q来源≤8排除；更高来源和完整理想仍须推进，不重复旧权8。
+
 **[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
 
 **[原有限域临界参数模的稳定闭包至多两轮完成](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。** 原二次算子全自由十轴→第一轮、原三次降次和三类词序误差→第二轮，严格给Cl_N(P0)=P2；无需假第一轮已稳定。原36种子完整首轮106列加24权9/80权10，形成整个原Bell临界商的10×210呈示。新增104列有完整18源递推公式，尚未另生成新数组；继续实际逐列生成与目标成员性。未证明商零、最小停止轮数或特征零单位。

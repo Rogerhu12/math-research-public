@@ -1,0 +1,183 @@
+{
+  "completionGate": "all32 U/V inverse, all168 forward/backward pencil coordinates, eight quadratic identities, all70696 original scalar products; zero only full10/full18/full17 source and exact individual Bell gluing",
+  "executionAtFreeze": {
+    "newMathematicalRunPerformed": false,
+    "pythonASTPassed": true,
+    "readOnlyNativeIdenticalToPaidSource": true
+  },
+  "format": "r150-original-canonical-mean-quadrics-bounded-rhs127-input-manifest-v1",
+  "largeArraysKeptTemporary": true,
+  "localReadOnlyParentRoot": "/tmp/r150-normal-789f-20261116-1040",
+  "normalization": {
+    "ordinaryMonomialsNoHalfFactor": true,
+    "qDefinition": "q_j=y^T(sum_i T_i*(U^-1)_ij)y",
+    "selectedOriginalSymmetricEntries": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "parents": {
+    "7": {
+      "binding": "9502b11bf94390e8833cdc236a1ad85746d9823f9f4fe1e62de60f1932434bfd",
+      "checkpoint": {
+        "bytes": 2212820,
+        "sha256": "c5553497e614338fc5a811ad5bce78571d1d835e32f269435f756e822e2e35df"
+      },
+      "columns": 312,
+      "dictionary": {
+        "bytes": 245111,
+        "sha256": "3463ec53d58d0d49d5f3298b3364d411e2a1a98beca49f63561df5aaf73c45da"
+      },
+      "first": 282,
+      "format": "r150-original-mean-first-source-frontier127-v1",
+      "input": {
+        "bytes": 2419340,
+        "sha256": "23430d41a72391d2f7cd36efc2e7517cdd05187601ec654fec51d62c9224294d"
+      },
+      "nativeBinding": "b144b9f481c845fb095968d2d89d071522fba0d4260dfed941ca57881ac49345",
+      "rank": 312,
+      "result": {
+        "bytes": 2612,
+        "sha256": "3996c60c05f2fadb339c7d4f9d411c0e75fb82ed103d875077fa93f207d7d020"
+      },
+      "rows": 7754,
+      "sourceSHA256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e",
+      "stem": "original-mean-frontier"
+    },
+    "8": {
+      "binding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069",
+      "checkpoint": {
+        "bytes": 22008128,
+        "sha256": "e561e3652a0dd2583c8c6b2206c34f5e1c8b0ab4d77275a35b25f16db5ae581e"
+      },
+      "columns": 1386,
+      "dictionary": {
+        "bytes": 586948,
+        "sha256": "4164b25bfaa7504c12cb40d20fa3f9d22887d71b75bae943121808a4fc686ab0"
+      },
+      "first": 1286,
+      "format": "r150-original-complete-weight8-source-frontier127-v1",
+      "input": {
+        "bytes": 24496256,
+        "sha256": "b9c8085459685cdf728e9ba8cbc005daccfc80a0d8047ddccddb008e4002249a"
+      },
+      "nativeBinding": "721ca4b226e01fe685efc7753fbf24aa335e82f7863b82118024b829c18b5d6d",
+      "rank": 1312,
+      "result": {
+        "bytes": 113472,
+        "sha256": "c866eab92a0aa9a5c451b96135647a6391b9f6dc242b5ae9fa03aa9da54eb36d"
+      },
+      "rows": 17674,
+      "sourceSHA256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936",
+      "stem": "complete-weight8-frontier"
+    }
+  },
+  "scope": "Only source, exact parent identity, parameters and hash pins. No mathematical arrays.",
+  "sources": [
+    {
+      "bytes": 28292,
+      "gitBlobSHA": "26fa7047caaf189d83aa6281d485cf9945d01ae7",
+      "path": "notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-789f.py",
+      "sha256": "c3723cdf2b8f6e6f6e3ba0aab45c3d2b2fbb056aedec634df2ccefeded8babe5"
+    },
+    {
+      "bytes": 5825,
+      "gitBlobSHA": "97c6316a82e7e1a570496db044074417bcc88034",
+      "path": "notes/2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+      "sha256": "9707a53c28f7c3082fec631675aea3974b2f637cdd5c5333bfeee46dac5d05a1"
+    },
+    {
+      "bytes": 9682,
+      "gitBlobSHA": "fb7f7eb7ace4230080eb470594e6aca601ac5f24",
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+      "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+    },
+    {
+      "bytes": 4691,
+      "gitBlobSHA": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "path": "notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    },
+    {
+      "bytes": 23879,
+      "gitBlobSHA": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "bytes": 20434,
+      "gitBlobSHA": "025821b76d7b9a982a52d0ecc205065097ecd66b",
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    },
+    {
+      "bytes": 18470,
+      "gitBlobSHA": "049028bbcfa486e8335d589c203d7cf682c4d7ac",
+      "path": "notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+    },
+    {
+      "bytes": 22828,
+      "gitBlobSHA": "4e8f554b0979ec9c05d0c8c2dfdb024151de3b6b",
+      "path": "notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+    },
+    {
+      "bytes": 10909,
+      "gitBlobSHA": "1608cd3261aa69693632d255baebe6160a2c49cd",
+      "path": "notes/2026-11-16-r150-original-mean-rank-three-exact-pencil-789f.py",
+      "sha256": "0c65c893bd73f190a5c0f92bf33e4bcdf6e734a530578ddca93a8a6d46a272ff"
+    }
+  ],
+  "suggestedCLI": {
+    "argv": [
+      "--model-source",
+      "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--compression-source",
+      "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "--weight7-source",
+      "{scripts}/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "--weight8-source",
+      "{scripts}/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "--pencil-source",
+      "{scripts}/2026-11-16-r150-original-mean-rank-three-exact-pencil-789f.py",
+      "--rank-source",
+      "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+      "--header",
+      "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "--native-source",
+      "{scripts}/2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+      "--model-out",
+      "{parent}/original-ten-parameter-module127-v2",
+      "--compression-out",
+      "{parent}/original-parameter-seed-compression127",
+      "--weight7-out",
+      "{parent}/original-mean-first-frontier127",
+      "--weight8-out",
+      "{parent}/original-complete-weight8-frontier127",
+      "--out",
+      "{work}/original-canonical-mean-quadrics-bounded-rhs127",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "2048"
+    ],
+    "outerSeconds": 240,
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "script": "{scripts}/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-789f.py"
+  }
+}

@@ -293,3 +293,6 @@ AI/Astra-ISP-789f：原二次operator全十轴→P1，原35三次恒等及三类
 
 ## 2026-11-16 15:01 UTC — 原E两轮上界与完整970列参数呈示
 AI/Astra-ISP-789f：独立用原E未压缩116、全部comm列和原11/35单位证明Cl_N(L0)=L2；不借field20/14换源。十词×106＋10为1070，删除原E十个字面零comm及其像得≤970。根/lit全量词与源核；未新展开数组，不称最小轮数2/单位。[正式证明](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。
+
+## 2026-11-16 15:12 UTC — 四规范q的权8负与增广秩1316
+AI/Astra-ISP-789f：实9.350秒核原32+168/八poly及70696产品，四qb²余非零、coeff全0。根另2.008秒从原T独构全目标，1312原unit坐标全零；q系数det8与原unit det4给四维商独立/增广1316，无新消元。仅该来源≤8边界，不升E/全理想。[证明](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)。
