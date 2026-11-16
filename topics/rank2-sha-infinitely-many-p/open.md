@@ -181,3 +181,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - [R888](results/R888-original-factor-lift-invariance-of-the-actual-finite-class.md)已付同一模p来源的所有合法R491整提升不变完整o(R)与首t多项式；ξ必须随因子提升同源变化。继续由真实forcing确定该类的约束与全K2实际像，不能重选提升把它归零。
+
+
+- R886附A补真γ类辅助素数：原全split tame限制到L1∪Uγ仍同底且所有extra因子unit，l分裂K[nq]时两个角的最高unit norm返回齐。下一步单独付q在K[l]的anti-Kummer分解群、同时选择及两点有限—奇异关系；狭义L1的selector不替γ调用。

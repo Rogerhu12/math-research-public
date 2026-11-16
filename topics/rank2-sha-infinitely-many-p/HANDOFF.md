@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ec6b6cf11c8109b3e63d065dd0bb0d5403a986ba；2026-11-16 14:04:45 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：9d33799f1ef08f16829ef35b2e9ce3c403f5b8d8；2026-11-16 14:05:27 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -36,7 +36,7 @@ R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接�
 
 consumer默认eta48/global/tate，可选四RR/local；host核真实双map PASS的job/run/head/source/hash/whole末端与依赖齐。stdin无网，无请求、无shadow输出，禁止假PASS。
 R885原有界D满足sp0D=Ep AJ(Z02)，原q/q⁴、4、Artin/旧副本保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³与C5=−216真unit。同Coleman有限余核给Dfun(0)=Ep原ordinary loc；只保CcanD=Dfunccan，不约增广零或搬7993。
-R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。literature续真正split有限—奇异/γ辅助调用。原底非零、ordinary loc及允许下降尚开。
+R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。R886附A已付γ=τ17的四值全−1、P0(1)≡2/Q(1)≡8；U=L1∪Uγ同格/n1不变，若l分裂此前层则两角真unit norm返回。literature续anti-Kummer选l与真正双点finite–singular。原底非零、ordinary loc及允许下降尚开。
 
 ## 当前第二门：四原B与同一低配对
 

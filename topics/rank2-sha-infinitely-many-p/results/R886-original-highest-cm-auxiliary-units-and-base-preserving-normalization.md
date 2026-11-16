@@ -299,3 +299,71 @@ $$
 它满足最高角色自己的线性 Euler 范数关系，最低层和原有限角色都不变。
 本段不需要先证明与 DR wild 提升的兼容。
 允许该辅助集合的 Selmer 定理假设、原底类非零及普通局部读数仍是后续实际门。
+
+
+## 附录 A. 同时保留检测素数与 rigidity 素数的原单位系统
+
+本附录处理一个与 §3 不同、不能漏掉的素数调用。Rubin 的 finite-system $\gamma$-rigidity 论证还使用 Frobenius 在表示上接近 $\gamma$、而非接近一的辅助素数。本文直接在原已付有限 tame 系统中保留这些素数，不把它们假装属于狭义 $\mathcal L_1$。
+
+令 $\gamma=\tau_{17}$ 为原十七惯性元，准确满足
+$$
+\eta(\gamma)=-1,\qquad
+\psi_0(\gamma)=\bar\psi_0(\gamma)=1,\qquad
+\mathbf N(\gamma)=1.
+\tag{A1}
+$$
+由正文 (1)–(2) 的所有有限指数均为奇数，三个原输入同时给
+$$
+(\chi_{jk,0},\chi_{jk,1},\chi_{jk,2},\chi_{jk,3})(\gamma)
+=(-1,-1,-1,-1).
+\tag{A2}
+$$
+这里保留最高因子；特别它在此类辅助素数上也是单位因子。
+
+令 $\mathcal U_\gamma$ 是避开 $6\cdot17p$、在 $K$ 中分裂，且一个指定素点的 Frobenius 在
+$H_\eta K(E_0[p])$ 上等于 $\gamma$ 的像的素数集合。Chebotarev 给其正密度。置
+$$
+\mathcal U=\mathcal L_1\cup\mathcal U_\gamma.
+\tag{A3}
+$$
+对于 $l\in\mathcal U_\gamma$，有 $l\equiv1\bmod p$。按正文 (9) 的同一 Frobenius 与对偶规范，
+$$
+P_{0,\mathfrak l}(1)\equiv2,\qquad
+Q_{jk,\mathfrak l}(1)\equiv2^3\pmod{\mathfrak m}.
+\tag{A4}
+$$
+所以 $P_0(1)$ 与 $Q(1)$ 都在 $\mathcal O^\times$ 中。反转全部 Frobenius 方向不改变 (A4)，因为 $-1$ 的逆仍为 $-1$。
+
+正文 §4 的 CRT 分解、兼容 $\sigma_l$ 选择及群环局部性对任何这些良好分裂素数都成立。因此，对全部由 $\mathcal U$ 中素数构成的平方自由 $n$，有
+$$
+Q_{jk,\mathfrak l}(\sigma_l|_{G_n})\in\mathcal O[G_n]^\times
+\quad(l\in\mathcal U).
+\tag{A5}
+$$
+若另外已付相容 wild 系统，同样在 $\Lambda[G_n]$ 为单位；这里不预付该 wild 比较。
+
+现在从 §9 引用的**原全 split 有限 tame 系统**取这些层，照正文 (13) 定义
+$$
+c^{\rm end}_{n,\ell}
+=\left(\prod_{l\mid n}Q_{jk,\mathfrak l}(\sigma_l|_{G_n})\right)^{-1}
+z_{n,\ell}.
+\tag{A6}
+$$
+(A5) 证明这仍在同一个一次固定的原格上，满足最高角色的线性 Euler 范数式；没有随 $n$ 增长的分母。空乘积仍为一，故
+$$
+c^{\rm end}_{1,\ell}=z^{\rm end}_{\ell,p}.
+\tag{A7}
+$$
+原 balanced 局部条件、全部旧副本与 Artin 系数也都按 §6 的同一群环子模论证保留。
+
+若某一 $\gamma$ 类素数 $l$ 还在此前的 $K[nq]$ 中分裂，则其在 $G_{nq}$ 上的真实 Frobenius 为一，(A6) 的最高范数算子变成标量
+$$
+P_{0,\mathfrak l}(1)\in\mathcal O^\times.
+\tag{A8}
+$$
+于是，原 $c^{\rm end}_{n,\ell}$ 和 $c^{\rm end}_{nq,\ell}$ 分别是
+$P_{0,\mathfrak l}(1)^{-1}c^{\rm end}_{nl,\ell}$ 与
+$P_{0,\mathfrak l}(1)^{-1}c^{\rm end}_{nql,\ell}$ 的真实 corestriction。
+这准确支付 rigidity 论证需要的单位范数返回，且两个角使用同一个标量。它尚不独自支付“$q$ 在 $K[l]$ 有足够大的分解群”或其与全部 Kummer 条件的同时选择；这些需要下一步单独证明。
+
+原文定位：[Rubin 1999 作者讲义](https://swc-math.github.io/aws/1999/99RubinES.pdf)，Chapter IX §1，印 pp.134–135（PDF pp.143–144），其 $\gamma$ 替代论证明确另选这样的辅助 $l$；相应正式书为 *Euler Systems* §9.1。正文已有的 finite-test selector 负责接近恒等的检测素数，(A1)–(A8) 则补上了不同的 rigidity 素数和完整原系统范围。没有据此跳过 paired finite–singular 论证或宣布 Selmer 秩结论。
