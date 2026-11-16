@@ -147,3 +147,5 @@
 - [R605](results/R605-request252-direct-six-plan-source-and-complete-necessary-entry.md)：真实原248454保为471来源的六计划直接桥、原完整binding guard与整正文旧逆/六代关系、完整request252 owner12000/full112及全部原门；R609待唯一实际运行。
 
 - [R598](results/R598-actual249-source-binding-stops-and-complete-necessary-boundaries.md)：actual249十五层生成后owner13层及candidate来源guard停止，科学/BVP/capture未起；两必要115399/111177超90K、完整body未返，闭面scope/规则quiet/原cleanup逐项归责，无新场。
+
+- [R611](results/R611-same-engine-six-moment-original-normalization-reuse.md)：同一实际engine六moment私有表原/N逐词一次保存、完整原累加/J/双mean和fallback保持；完整源/八统计/部分范围接口，计数safe-integer限制明确，未作速度或数值接受断言。
