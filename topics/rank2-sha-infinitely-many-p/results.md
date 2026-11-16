@@ -449,3 +449,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [共同A24完整相对theta乘法](notes/2026-11-16-common-a24-horizontal-product-and-relative-theta-gluing.md)：真实整数同源(z1,z2)=(Z+nW/g,Z−24W/g)给完整二变量theta乘法且无额外倍率；四拼接数17/3/17/11、相对K2040/144/5712/1848逐项确定。四原fνflat准确是同一固定系数二参数核在原CM点冻结相对质量的收缩；共同A24坐标和全伙伴保留，三阶切锥为15/M³(v+nu/24)³。ε_Mε_K=ε_24ε_n完整相容；Jp,1/p及J1,p/p的两端点整性和全低卷积式自含，不能由模p零删掉。只表达原四B，不给辅助K新中央或把乘法当水平。
+
+
+- [原全族临界值的判别式平方](notes/2026-11-16-r840-complete-primitive-critical-value-discriminant.md)：原同一Euler原函数族Q→∫F²Q mod(F,底常数)在升幂基的det准确为2^b disc(F)²/(3b−1)!；五阶根碰撞及最高根极限自含支付全部常数。故一般可分的DVR族总余核长恰2v(disc)，真实X^m−τ模型各指数2。非首一为该式/f_b^(2b−2)，仿射转框和所有非单位边界另保。回原J时同L/Y消最高F_Y项须保实际−aF0³/3零charge；相对k(t)商不用于物理前缀。未判同Kcorr/Hcorr受限像、WT或forcing。
