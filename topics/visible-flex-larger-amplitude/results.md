@@ -145,3 +145,5 @@
 - [R603](results/R603-current-DN-input-support-complete-owner12000-entry.md)：真实248全454来源保留的466来源当前DN输入支撑接线、原owner12000/19200及完整数学门，含全部CLI/必要/quiet；完整实际请求250，数值与R607待唯一公开运行。
 
 - [R605](results/R605-request252-direct-six-plan-source-and-complete-necessary-entry.md)：真实原248454保为471来源的六计划直接桥、原完整binding guard与整正文旧逆/六代关系、完整request252 owner12000/full112及全部原门；R609待唯一实际运行。
+
+- [R598](results/R598-actual249-source-binding-stops-and-complete-necessary-boundaries.md)：actual249十五层生成后owner13层及candidate来源guard停止，科学/BVP/capture未起；两必要115399/111177超90K、完整body未返，闭面scope/规则quiet/原cleanup逐项归责，无新场。
