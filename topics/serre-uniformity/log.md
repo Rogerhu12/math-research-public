@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:11 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:14 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -55,3 +55,9 @@
 - final4d9a6ec5/manifestce1d0e39/configd65bf573，artifact14186558953/4683b467，1.37MB全部ZIP/12成员已纯IO核。仍缺原A0−qB0准确零证；原坐标接受/旧R792 success/eta-height全false，不重本七条件。
 - R842已推79ea34ff；修正其更正proof链接到实际f0044713文件，不改数学。非挠run43778335282实际日志给m999960637/v(t)=1/A518，正在读原witness后正式登记。
 - 本push规则：本地真实pull至ec32746479497d3659cd6f1873bd90e3aba541ad（2026-11-16T00:11:27.126410+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:14（Asia/Taipei）— R843原CM点非挠与Hom值分离
+- run43778335282/sourcea7d3c0f6实0.854057531秒/59stage：原branch0真实518点，m999960637消约化；44步后t赋值1/A518、x−2/A515、y−3/A514，原Qell形式群无挠证P非挠。非RR候选、非射影Z猜测。
+- 原β∈A(Q)与R728全部EndQ为域给Q-simple，稠密循环群证明任何非零原L-Hom值非挠；同靶原整数Hom字正负准确判点加法分支，不选抽象A前像。A.1/展开/eta-height仍false。
+- finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f，完整1.90MB/69成员已纯IO；185源carrierdd6bb50b。一日续传不重数学。R815新run43777837244/job133008081839实际计算中，582断点/core/模式不变。
+- 本push规则：本地真实pull至759fd79e5f0fd0aa395f6c53c8065f0aa2eafe0a（2026-11-16T00:14:13.867754+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

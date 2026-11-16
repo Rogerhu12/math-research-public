@@ -113,3 +113,6 @@
 
 
 - **R842（实际准确单位解完成）**：[原两图短RR与D完整295基](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)。run43776927742/sourceccc94341，35.966809456秒/101stage；20新σ列续4..9给81移位，旧435商增量秩20，实际T11秩2451/det483777893；完整T5秩415/det628817039，原两锚830×690核秩395/det422341556。295个原自由坐标规范单位解基及全830乘回已成，保两图/原scale，未展开大有理坐标。final51dff9f0/manifest5bb824d2，artifact14186901203/9a4b0b02；2919源保115.52MB carrier。单τ2431与更正边界不撤回，旧导数/矩阵/S5逆不重，eta-height仍缺。
+
+
+- **R843（原p41点非挠实际已证）**：[真实CM点非挠及Hom值分离](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)。run43778335282/sourcea7d3c0f6，0.854057531秒/59stage；沿旧518真实商/h0及原branch0，Hasse-BSGS m999960637消原约化点，44个有精度仿射步给v(t)=1/A518，x−2/A515、y−3/A514，Qell好约化形式群无挠证原P非挠。原Q点β与Q-simple再给全部非零L-Hom值非挠、正负加法分支由准确Hom字判定。finale4f926d3/manifest2ed1269a，artifact14187431986/9adbba8f；旧CM/Dixon/RR不重，A.1/expanded/eta-height仍未成。
