@@ -519,3 +519,8 @@
 ## R455 — 实际206八组执行与必要表超限
 
 **实际206：八组原model/freshFD与父交接完成，单份必要表仍超90KB。** [R455](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)15167B/25442c58全文核后刊；run43797755759/sourcee8e4be9f，compute133070353121。16子程exit0、8个next_actual_parent_pair_retained=true结合原eligible/身份/FD控制流，支付8次optimization progress及fresh FD门，原success/coupled acceptance仍false。实际trial计数4/3/4/3/3/2/2/3，共24，非旧200的20条。whole-chain119344B/6204fe90、recovery119694B/984f24f8均含末LF，在BEGIN前真实70，完整必要帧0；逐trial值/失败query与角地址/FD误差/末三词未返，不从SHA恢复或猜字段体积。原owner quiet后cleanup实际skip（步骤success非删除），8大batch先已退，末pair/必要记录随runner销毁不可续接。原八组39/17α/108pins/10500秒与全门不变；后继仅从原98再生并查必要语义重复，保单90K/超70、不分包编码、不删必要字段，不预定轨迹或长度。
+
+
+## R477 — 完整物理点失败范围的必要读回修补
+
+**R477：必要失败地址保全；无新科学执行。** [两reader接口](notes/2026-11-16-complete-physical-point-sampling-scope-readback-interface.md)10057B/6ddabf6b与完整diff已读，base55606B/47d7ec77、outer30114B/6e40dc63独立刊。原point_index/radius_word/role/错误类型与全文/全部pending闭片段/retained叶span/未返回布尔直接保，不经small裁剪；outer真正加载新base，旧pins保为祖先。原mode/native/FD/两阶段与90KB/超70/marker/quiet不改，不保证新摘要装下。205/207/209首链同漏；R456与209 R462/R464整行路径不漏，207旧M_API另有未修同型问题。212另付真实新reader/schema/marker接线；不回填203已删字段，不改冻结入口或新设科学门。

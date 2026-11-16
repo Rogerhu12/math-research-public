@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:10:55 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7c6f747b8817395aac43773dca923bd5562a6a57。
+规则同步记录：2026-11-16 05:15:53 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bbefc2ed46ddbbfaf94d7f22d8c9881dee06340f。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -37,7 +37,7 @@ R440/88f38904实际203已刊31298/aabe16f3：C全域/全112far及nominal行完�
 
 R472/8206abdf已刊11929/3558c333，run43807229341/sourceb418c6e6，必要16973/e299e3cb两job同字；actual154声明绑定不证明完整导入。真实quiet/removed=true，未到科学，不作数学拒绝。210接口仅文字补正，原科学冻结字节不改。
 
-R455本次刊15167/25442c58：206八model/freshFD/真父交接，24trial仅计数；119344/119694B主/recovery皆70，必要正文0，owner quiet后cleanup真skip，末pair不可续。需R479/213从原98重生和必要语义去重，不拿SHA补表。
+R455/e66b7885已刊15167/25442c58：206八model/freshFD/真父交接，24trial仅计数；119344/119694B主/recovery皆70，必要正文0，owner quiet后cleanup真skip，末pair不可续。需R479/213从原98重生和必要语义去重，不拿SHA补表。
 
 ## 已刊主线与完整接口
 
@@ -53,9 +53,9 @@ R473/f7b46ef6给A/被用T有限时原正零累加跳零j的条件，有限词同
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
-- exact：唯一207/208终态；R455/206本次刊、R472/210已刊。先交212两小reader必要point/stack补丁给geometry；后R479/213/实际R480必要语义去重。210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7已刊b418c6e6，run43807229341已绑。143已刊+11实际view=154，原参数/18000/全门保持。
+- exact：唯一207/208终态；R455/206本次刊、R472/210已刊。R477两reader本次刊，交212已冻结；继续R479/213/实际R480必要语义去重。210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7已刊b418c6e6，run43807229341已绑。143已刊+11实际view=154，原参数/18000/全门保持。
 - geometry：唯一209终态；R440本次刊。R476/request212接最小depth24→2工作参数及完整必要point/stack字段；value_bits32只work目标、候选全保、fresh far/原末门不变，不保预算必足。205/207/209均仍原24/32/1M，不能预填各run结果。
 - amplitude：唯一204/205终态；R474四件root全文读后本次刊；独立211/R475接线草案保原210143真实public和11由208重生旧view身份，新R474flow/helper及新factory/九计数实际接入，不改冻结210。
-- root：本次刊R455，继续211真实完整imports与212采样/必要字段；R472/8206abdf已补正210接口。actual62旧两生成清单仅已读request来源，尚未删除，可依63记录重做调查。actual63已普通清理b696cc15；每pull核双README。
+- root：本次刊R477两reader/接口（47d7ec77/6e40dc63/6ddabf6b），后核211最终delta及212派生合同/完整workflow。R455/e66b7885已刊，R472/8206abdf已补正210接口。actual62旧两生成清单仅已读request来源，尚未删除，可依63记录重做调查。actual63已普通清理b696cc15；每pull核双README。
 
-210入口b418c6e6官方topic tree0a1b950e968fb58cace9745254ab775dc7f3a2b8：9239blobs/197348719B、9612entries，truncated=false。actual63两生成清单1441937B已普通删除，重做/全SHA见清理记录；不存新raw。
+R455/e66b7885官方topic treecdcd5be3018052eb59ce3c14e79b3ecdcd4b8a32：9246blobs/197455370B、9619entries，truncated=false。actual63两生成清单已删；actual62两候选仅已核字节/原request，尚未删除。不存新raw。
