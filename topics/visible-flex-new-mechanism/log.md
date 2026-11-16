@@ -490,3 +490,7 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ### 2026-11-16 08:38:20 UTC — 接受54的新原约束模型与新行交换首入口
 
 [设计](notes/true54-fresh-original-model-exchange-design-20261116.md)保同g/b0/159→163/reference/guard/14门。在真正54只付必要hard-model两普通值、两selected-J和两firstjet上下文；原CACHE2缺positions/curvature/二jet，仅读为来源、不混基线。19旧标签在54刷新/与新池J去重；全部原硬/软行动态完整装入，最多32严格新矩阵/32双网分离/147新行、3072iter/6144系统。末方向原legal-line1/64，再最多3actualpair/6值；任何新接受才是55。新600秒从imports前含输入/失败/输出；祖先1877.294171609秒/130值原样带入，53全部task已闭不回开。源码文本未本地执行/编译/测试；public Actions唯一首跑，0旧checks/开发。原stdout112MiB/只读report128MiB读取上界，payload不进Git。仍欠主完成门，继续open。
+
+### 2026-11-16 08:41:04 UTC — 结果索引按根规矩分卷
+
+主results.md到91019B，已将R389–R419及同期数值的原条目完整移入[results-index-R389-R419-and-numerics-20261116.md](results-index-R389-R419-and-numerics-20261116.md)，全部相对链接保持同层；主索引继续列后续和新结果。无数学结论或费用删改、无科学执行，防止单件MD超过100KB；主课题继续。
