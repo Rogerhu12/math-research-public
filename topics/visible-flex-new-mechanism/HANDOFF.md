@@ -48,6 +48,6 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 [四原子完整搜索](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，best原G∞.0014851172678647607、H.6104871150176137，无候选；账户闭，不重开余额，不推全局无解。三原子旧36亦闭。理论继续完整凹图 .6<H<2 的Re/Im联立条件与完整13状态周期桥。
 
-**[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)已发布、待Actions结果。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。源码与request-true56-joint168.json在本提交；待记录run/source。
+**[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)run43847611444/research133231619868运行中。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。source a9da16278c336ec5d6ce3be88502263d04429324；workflow visible-true56-joint168.yml；尚无新科学返回。
 
 56原CACHE2无完整二jets，必要ordinary计新task。读56原log并另只读55 COMPLETE取得永久参考构造，不执行旧科学。成功唯一INPUT保存当前J/g，MODEL不重复大阵；所有payload仅stdout。有限变量明确delta168/rho/h共170；完整first-order与affine-observable标量预测分开，实际14门和172盒最后验收。主完成门未付，继续open。
