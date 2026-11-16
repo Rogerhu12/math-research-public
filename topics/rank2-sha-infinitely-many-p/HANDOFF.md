@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：baa2a6aad7505f09a1b8327a4e4c806990401ae8；2026-11-16 02:23:53 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
+- 最近已读规则提交：067aee2bc7fdf59f3411ec7bf206a59825cdb9da；2026-11-16 02:31:50 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,19 +11,17 @@
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r850.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–850已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R850光滑中央商/精确循环运输已付；literature续R851 Schoen真实模纤维积对应，root核具体原曲线与canonical比较；下一独立编号R852由root协调。
+[压缩前完整H](notes/2026-11-16-frontier-before-r851.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R851-R900.md（前卷沿链）、open.md。
+R1–363、365–560、562–653、655–711、713–851已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R851原Schoen映射/全部尺度已付；literature与root续非Dirichlet good-pair的实际canonical比较；下一独立编号R852由root协调。
 实际CI pull 02:16:33/run43791155440/job133049634328成功，head 0e06d735，两README差异空。回执ci/rule-pull-20261116T021633.json，下一03:00前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
 
 ## 原端点、CM来源与实际曲线
 
-R804/806/811/814原指定z=(1/30)prK twν(eηu∞)，全7/13 good pair、三角色/34δ、Euler/period均保；I_j,-2≠0 iff指定loc/AJ/z≠0。R817有限unit、R818复秩1不付无穷p。R829同q0零；R830原q/q⁴局部向量已付。R831矩阵仅Z02=Z、Z20=−Z，X0系数6^-2、X1的12^-2及1632/816不改、不增端点。R832真Chow/mixed rank0与R841原R纯最高λ均见原证，不能当canonical比较。
-R839 Πtop全CH²平移不变，杀超椭圆/真阿贝尔平移内曲线；原Z=ΣcΠΦ*X=½ΣcΠCerΦ保全实际Hom/次数。属三det≠1的Kimura幂等论证排Picard来源，不假高CH实现忠实。R841 whole g-packet平均/双线性/swap/W4给全部对称polarization Φ=(F,a q0,a q2)，S矩阵L=[[-1,0,0],[0,-1,-1],[0,0,1]]保q4微分4倍、det1。
-[R846](results/R846-original-full-hom-and-genus-four-exclusion.md)以实际reciprocal交叉Hom/完整K3来源排全部原g4；R843–845条件几何保真但原分支不实现，全部κ/次数/域见原证及归档。[R847](results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)付optimal E_f无Q-torsion、W4常值零及真实sign⊕std的S3；与R交换、在D/R仍忠实，完整轨道排g5/6，原generating项g≥7。
-[R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)付原X/(C3×S3)=X0(867)、z→6z degree18。三T2邻点和0给显式目标商w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]，原Ω=dv∧du∧dn/(6w)、像degree及proper push18。Π仍在A原位，奇异商projection/canonical未免费支付。
-[R849](results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)付完整θ(η^kψ0)、k0..17及全部old：R=ω²块准确ε⊕1^6，R=1块零。属七只余(0,5,2;9,0)：JD∼E0³×T²，T signature(1,1)且非E0²；或(2,3,2;3,0)：V0=std,V2=1⊕ε、JD∼E0⁵×E²且E非E0。后者D/c属三étale、D/S3为j0椭圆，与D/R/S3分清；sign核唯一level36 d17。未证剩余存在/原AJ非零，未把非E0幂误称非CM。
-
-[R850](results/R850-original-smooth-cubic-quotient-and-exact-top-cycle-transport.md)付27个原Q固定点吹起后光滑中央商Z；q finite-flat degree3、q*ΩZ=b*ΩA。Π=π3avgR、ΠZ=q*b*Πb*q*/3及α/β为真实Chow互逆；同一原Φ提升/下降至X0(3468)，αzΦ=3ΠZφZ*X̄，AJ无额外尺度。原所有Artin/6/12/1632/816保；未认Chow rank1或canonical，续R851真实Schoen对应。
+R804/806/811/814原z=(1/30)prK twν(eηu∞)、固定7/13 good pair、三λ/34δ及全Euler/period保持；I_j,-2≠0 iff指定loc/AJ/z≠0。R817有限unit、R818复秩1不付无穷p。R831原唯一Z02=Z/Z20=−Z、X0的6^-2、X1的12^-2与1632/816不变。
+[R839](results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)的Π在全CH²平移不变，杀超椭圆/真阿贝尔平移像；原Z=ΣcΠΦ*X=½ΣcΠCerΦ保全实际Hom与次数，属三det≠1/Picard来源已排。[R841](results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)付原R纯最高λ及全Hom平均/对称polarization Φ=(F,aq0,aq2)，S/W真实sign⊕std无常值，q4微分4倍保。
+[R846](results/R846-original-full-hom-and-genus-four-exclusion.md)完整Hom/真实reciprocal排原g4；R843–845条件几何保真但原g4不实现。[R847](results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)准确C3×S3及完整分支轨道排g5/6，generating项g≥7。[R849](results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)完整θ(η^kψ0)、k0..17/全部old给R=ω²块ε⊕1^6、R=1块零。g7仅余sig(0,5,2;9,0)、JD∼E0³×T²、T signature(1,1)非E0²；或(2,3,2;3,0)、JD∼E0⁵×E²、E非E0；后者D/c属三étale、D/S3为j0，sign唯一level36 d17。两个不同商及非E0核不可删，未证剩余存在。
+[R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)付原X/(C3×S3)=X0(867)、z6z degree18，显式目标商/原Ω的1/6和proper push18全见原证。[R850](results/R850-original-smooth-cubic-quotient-and-exact-top-cycle-transport.md)付27个原Q点吹起后的光滑中央商Z、q degree3与q*ΩZ=b*ΩA。原Π=π3avgR、ΠZ=q*b*Πb*q*/3及α/β真Chow互逆，原Φ下降X0(3468)，αzΦ=3ΠZφZ*X̄，异常差已由投影付。
+[R851](results/R851-original-schoen-map-and-horizontal-cycle-transport.md)付同一Schoen函数域逆、E0³→W0(9) degree9、Z余degree3；全有理映射保17 Artin，准确F0*ΩW=−18ΩA。proper graph保Π_T/异常和source3；原每个有效曲线τ首项1/(2z1z2z3)，∞极阶≥6、下降≥2，所以主像水平。未将其字面认CM纤维，也未排Chow等价；原R814非Dirichlet good-pair的实际循环/period比较仍开。同H³或Chow动机同构不赋Chow rank1、AJ单射或跨p非零。
 
 ## 原完整 critical Hecke
 

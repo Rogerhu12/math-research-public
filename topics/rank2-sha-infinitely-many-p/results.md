@@ -8,7 +8,7 @@
 
 - [截至R803的本次压缩前完整索引](notes/2026-11-15-results-index-before-r804.md)：逐字保全部既有条目、范围、更正和旧归档入口。
 - [R551–R600](notes/PROOF-INDEX-R551-R600.md)、[R601–R650](notes/PROOF-INDEX-R601-R650.md)、[R651–R700](notes/PROOF-INDEX-R651-R700.md)、[R701–R750](notes/PROOF-INDEX-R701-R750.md)：沿各卷链查更早证明。
-- [R751–R800](notes/PROOF-INDEX-R751-R800.md)、[R801–R850](notes/PROOF-INDEX-R801-R850.md)：当前接续；未登记编号仍未付。
+- [R751–R800](notes/PROOF-INDEX-R751-R800.md)、[R801–R850](notes/PROOF-INDEX-R801-R850.md)、[R851–R900](notes/PROOF-INDEX-R851-R900.md)：当前接续；未登记编号仍未付。
 
 ## R751起的当前结论
 
@@ -371,3 +371,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R842 负纤维的全局同源mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)：由已付d_Q精确构造R_Q=[Y^(d_Q−1)qtilde(1−Dx)²S]_<d_Q、N_Q=Y^(ℓ−d_Q)f_QR_Q，degY N_Q≤b−1。原Θ_Q=c_s tQ^rWQ·G N_Q dY/((t−tQ)Ft)的整有限纤维残数恰负行，完整有序留数/dualizing消同fiber其它有限点，所有moving点合并底分母degree≤2。真实正水平帽3b+1、十九角和底∞T^(3−2u_F)及交图/两链全部付；Dhat=D_R−Θ_-把负行准确并入同G无穷边界。W_T上V1∈V_T迫原ResP(V1ω1/e²)=0，故[b0]=G_F，但r≤11原尾仍保、r2读十项。未称Θ/G为Q_T截面，未付全局限制像或指定总类非零。
+
+
+- [R851](results/R851-original-schoen-map-and-horizontal-cycle-transport.md)：原Schoen式在同一τ=x/y+y+1/x坐标中给N=ker(μ3³→μ3)完整不变域及有理逆，故E0³→W0(9)精确degree9、R850 Z→W0(9)余degree3。原Q下降显式保全部17 Artin角色；完整Jacobian det与residue约定付F0*ΩW=−18ΩA，不添未定period。proper graph/Π_T与source3完整运输原有限cycle，保所有异常项和原6/12/1632/816。每个有效原曲线在∞的τ首项1/(2z1z2z3)，极阶m_f+m_g+4m_h≥6，下降后≥2，故主像水平；只排literal CM竖直相认，不排Chow等价，也未付R814指定canonical或跨p非零。

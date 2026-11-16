@@ -156,7 +156,7 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 ### R849：原完整CM池及属七剩余核
 
 [R849](results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)：完整几何E0池恰为θ(η^kψ0)、k=0..17，全部primitive levels/old copies保留；原R=ω²块准确ε⊕1^6，sign仅level36的17-old、六trivial为level2601的2-old，无standard。以真实核的单一CM type强制这一限制，属七六候选四种排除，仅余(0,5,2;9,0)的JD∼E0³×T²、T signature(1,1)且非E0²，以及(2,3,2;3,0)的JD∼E0⁵×E²、E非E0。后者D/c为属三étale商、D/S3为j0椭圆，严格区分D/R/S3；两种只为必要结构，不声称存在、canonical或原AJ非零。
-**继续：** 从同一个原模曲线和有限Hom组合追踪实际最高cycle；非E0幂核及两个不同的商不得删去。优先把R848目标的中央三阶商光滑化，并支付到模椭圆曲面纤维积的真实对应，保原17角色和R814指定类。
+**继续：** 从同一个原模曲线和有限Hom组合追踪实际最高cycle；非E0幂核及两个不同的商不得删去。R850/R851现已支付光滑中央商及真实模纤维积映射；继续原17角色和R814指定类的实际比较。
 
 
 [R842 负水平的准确Jacobian纤维商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)：原A_Q=k_Q[x]/x^ℓ中，u=min(ℓ,ord F_t)、v=min(ℓ,ord qtilde)给实际商A_Q/ann(F_t qtilde)长d_Q=max(0,ℓ−u−v)。全部分支trace准确ord S=u+1−ℓ（u<ℓ），否则S∈x；真行最高系数−c_s tQ^rWQ s0(ℓ−u)²q_v为单位，行恒零当且仅当原乘积F_t qtilde在A_Q为零。degH2时qtilde单位，二重根长度≤b−1；未加前缀H3到全商满射保全部剩余域迹，但W_T实际像和总[b0]仍开。
@@ -166,8 +166,14 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 ### R850：已付光滑中央商与原循环精确运输
 
 [R850](results/R850-original-smooth-cubic-quotient-and-exact-top-cycle-transport.md)：原E0³的对角μ3固定点恰27个Q点，吹起后取商q得固定光滑刚性CY三fold Z，q有限平坦degree3且q*ΩZ=b*ΩA精确归一。原Π=π3·(1+R+R²)/3为真正Chow等式；ΠZ=q*b*Πb*q*/3、α=q*b*Π、β=Πb*q*/3严格互逆，未假高CH实现忠实。原每条Φ唯一提升后由X0(10404)→X0(3468)下降，αΠΦ*X=3ΠZφZ*X̄，投影支付严格变换差；AJ运输无额外未知倍率。全Artin、6^-2/12^-2/1632/816保持，未付R814 canonical比较或原非零。
-**继续：** 直接把(25)的实际曲线送入Schoen的模椭圆曲面纤维积，核其对应次数/Ω/原17 Artin角色及R814的canonical循环；同H³不等于同Chow类。
+**继续：** R851现已支付(25)的Schoen运输、次数/Ω/原Artin；继续R814的指定canonical循环比较，同H³不等于同Chow类。
 
 
 [R842 负纤维的全局同源mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)：由已付d_Q精确构造R_Q=[Y^(d_Q−1)qtilde(1−Dx)²S]_<d_Q、N_Q=Y^(ℓ−d_Q)f_QR_Q，degY N_Q≤b−1。原Θ_Q=c_s tQ^rWQ·G N_Q dY/((t−tQ)Ft)的整有限纤维残数恰负行，完整有序留数/dualizing消同fiber其它有限点，所有moving点合并底分母degree≤2。真实正水平帽3b+1、十九角和底∞T^(3−2u_F)及交图/两链全部付；Dhat=D_R−Θ_-把负行准确并入同G无穷边界。W_T上V1∈V_T迫原ResP(V1ω1/e²)=0，故[b0]=G_F，但r≤11原尾仍保、r2读十项。未称Θ/G为Q_T截面，未付全局限制像或指定总类非零。
 **继续：** 在同一个W_T/更小真三长核上联立这些正水平、固定角、底∞与P余项；全局亚纯表示不是允许的Q'_T延拓。
+
+
+### R851：原Schoen图形已付，指定canonical比较仍开
+
+[R851](results/R851-original-schoen-map-and-horizontal-cycle-transport.md)：原Schoen式在同一τ=x/y+y+1/x坐标中给N=ker(μ3³→μ3)完整不变域及有理逆，故E0³→W0(9)精确degree9、R850 Z→W0(9)余degree3。原Q下降显式保全部17 Artin角色；完整Jacobian det与residue约定付F0*ΩW=−18ΩA，不添未定period。proper graph/Π_T与source3完整运输原有限cycle，保所有异常项和原6/12/1632/816。每个有效原曲线在∞的τ首项1/(2z1z2z3)，极阶m_f+m_g+4m_h≥6，下降后≥2，故主像水平；只排literal CM竖直相认，不排Chow等价，也未付R814指定canonical或跨p非零。
+**继续：** 保(29)完整原水平类及R814的非Dirichlet auxiliary角色，求真实cycle或regulator恒等式；不能用字面CM纤维、有限域Griffiths结论或同H³代替。

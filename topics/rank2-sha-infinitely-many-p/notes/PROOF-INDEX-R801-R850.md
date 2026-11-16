@@ -248,3 +248,6 @@
 
 
 [R842 负纤维的全局同源mask](2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)：由已付d_Q精确构造R_Q=[Y^(d_Q−1)qtilde(1−Dx)²S]_<d_Q、N_Q=Y^(ℓ−d_Q)f_QR_Q，degY N_Q≤b−1。原Θ_Q=c_s tQ^rWQ·G N_Q dY/((t−tQ)Ft)的整有限纤维残数恰负行，完整有序留数/dualizing消同fiber其它有限点，所有moving点合并底分母degree≤2。真实正水平帽3b+1、十九角和底∞T^(3−2u_F)及交图/两链全部付；Dhat=D_R−Θ_-把负行准确并入同G无穷边界。W_T上V1∈V_T迫原ResP(V1ω1/e²)=0，故[b0]=G_F，但r≤11原尾仍保、r2读十项。未称Θ/G为Q_T截面，未付全局限制像或指定总类非零。
+
+
+后续独立编号见 [R851–R900](PROOF-INDEX-R851-R900.md)；本卷各条未付条件仍保留。
