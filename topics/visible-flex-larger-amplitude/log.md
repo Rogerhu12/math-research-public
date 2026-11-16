@@ -294,3 +294,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:41:54 UTC /root — R550完整accepted求值复用及真实owner编译接点
 
 [R550](results/R550-same-root-accepted-complete-evaluation-reuse.md)四件62390B完整刊；同root原accepted全finite RootEval下一iterate一次消费，初始/全部trial/方向/门原字保，两路13实际计数/full last及原RootStats齐。完整source-only R535祖先→R550两view→原scope直接安装5781/4a0a→原main真实g++，原CPP/main/replay/19200/allcaps保；不先装R535、不冒编译成功/速度/fit。R551/request232继续真接及诚实字段修复，R543已402b发布，当前未完成不收尾。
+
+## 2026-11-16 12:48:12 UTC /root — R549完整实际231结论
+
+[R549](results/R549-actual231-declared-model-contract-and-source-readback-overflow.md)30740/5e79完整；387源准备385109/c78b真complete，必要102413/df6e→70只返1368/b358，科学45129/a1a5完整。本run withJ后旧字段KeyError，owner/compiler/cache/replay/model/FD/fullDN未起，非tol或性能结论；两日志唯一、原错误/未访全保，quiet真而removed=false，无父。新source后继实读旧overflow全文再具名逆；bb4a官方199081118B与逐文件估计一致，H/open/索引同步。
