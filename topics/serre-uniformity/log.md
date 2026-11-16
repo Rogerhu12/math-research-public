@@ -239,4 +239,9 @@
 ### 2026-11-16 20:54 Asia/Taipei — serre-public-astra-20261115
 - R899五件冻结：完整Artin的QN正乘/真418归一/原P0行与未乘QN正常值；R894真完成source仍null，pending不启动数学。
 - 半dual541后新run43869450077已入算；R896修复请求仅queued且0 jobs，发布器严格确认取消后仍0 jobs才重发，已启动则跳过，避免重复算术。
-- 本push规则：公开Actions真实pull并比两README；已读9d0951f1a32e8d93b804d2e574bac68fa85cfc9f，两SHA6979d793/35f82f3d无diff；raw仅必要一日artifact，主目标OPEN。
+- 本push规则：公开Actions真实pull至cc9cb4da3a9578684b40ec888ea9d3b5b8055cb0（2026-11-16T12:54:20.861136+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:01 Asia/Taipei — serre-public-astra-20261115
+- R900五件消费者逐段读完并冻结：原QN全局DAG、七整纤维1234→146/962→418与t正c^8435保全；R899/R894仍null，未预填实际秩或源。
+- R899五件已主线发布；R896 queued/0jobs且标准cancel409，仅在同请求仍未启动时试官方force-cancel，真实取消且0jobs才重发。完整前H逐字归档。
+- 本push规则：公开Actions真实pull后由发布器记录两README和实际提交；主目标OPEN。

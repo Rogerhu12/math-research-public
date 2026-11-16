@@ -112,9 +112,26 @@ def replace_only_unstarted_run(dispatch, token):
     except urllib.error.HTTPError as error:
         if error.code != 409:
             raise
-        print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
-              "reason": "Run state changed before cancellation; no duplicate dispatch."}), flush=True)
-        return False
+        run = get(base)
+        jobs = get(base + "/jobs?per_page=100")
+        if run["head_sha"] != expected or run["path"] != ".github/workflows/" + dispatch["workflow"] or run["event"] != "workflow_dispatch" or run["status"] != "queued" or jobs["total_count"] != 0:
+            print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
+                  "status": run["status"], "job_count": jobs["total_count"],
+                  "reason": "Run state changed after standard cancellation conflict; no duplicate dispatch."}), flush=True)
+            return False
+        print("UNSTARTED_STANDARD_CANCEL_CONFLICT=" + json.dumps({"run_id": run_id,
+              "head_sha": expected, "job_count": 0,
+              "reason": "Same original request remains queued with zero jobs; try documented force-cancel."}), flush=True)
+        force_req = urllib.request.Request(base + "/force-cancel", data=b"", method="POST", headers=headers)
+        try:
+            with urllib.request.urlopen(force_req, timeout=60) as response:
+                assert response.status == 202
+        except urllib.error.HTTPError as force_error:
+            if force_error.code != 409:
+                raise
+            print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
+                  "reason": "Both standard and force cancellation returned conflict; original remains unstarted, no duplicate dispatch."}), flush=True)
+            return False
     for attempt in range(13):
         run = get(base)
         if run["status"] == "completed":
