@@ -1787,3 +1787,312 @@ $$
 
 全文(E1)–(E21)为固定 whole 截面、完整四纤维 Newton 及
 原首除 $p$ 乘积律的手证；没有新增数值执行。
+
+
+## 附录 F. 两个原配对的完整双投影与 T 的同源旧项相消
+
+本附录继续使用附录 E 的绝对 trace、原奇偶半特征及全部四纤维。
+记 $N=N_{36}$，所有未标模 $p$ 的式均为特征零来源恒等式。
+下文所谓“同时 new”准确指同一截面的完整二挠 trace 与范数三
+trace 都为零；不包含对其 $\mathfrak B$ 读数的任何零断言。
+
+### F.1. 同一个 N 平方的完整二挠迹
+
+原 $N^2$ 在输入原点至少十二阶、在三个非零二挠点至少八阶消失。
+故 whole degree18、型零的目标只能为
+$\sigma^{18}(c_0+c_1X)$。
+目标 $x=0$ 的全部四个逆像被原 $X(X-8b)$ 因子杀掉，
+所以 $c_0=0$。
+
+还须核 $c_1$。在目标非零二挠点 $a^3=-b$，
+四个逆像的 $u=X/b$ 是
+$$
+u^2+20u-8=0
+\tag{F1}
+$$
+的两个根，每个恰出现两次。
+这是完整四次纤维
+$(x^2-2ax-2a^2)^2=0$ 的 $X$ 值；
+四点的规范 sigma 乘子仍由(C2)保留。
+原实际商为
+$$
+\frac{N^2}{\sigma(2z)^{18}}
+=\frac{X^2(X-8b)^2(X+4b)^2}
+       {49\cdot2^{14}(X+b)^5}.
+\tag{F2}
+$$
+在(F1)上，$(u-8)(u+4)=-24(u+1)$。
+置 $v=(u+1)^{-1}$，两个 $v$ 满足
+$27v^2-18v-1=0$，因而
+$$
+\sum v=\frac23,\qquad
+\sum v^2=\frac{14}{27},\qquad
+\sum v^3=\frac{10}{27}.
+$$
+(F2)除去固定非零倍率后的两根和是
+$$
+\sum\frac{u^2}{(u+1)^3}
+=\sum(v-2v^2+v^3)=0.
+$$
+计入每根的重数二仍为零。
+目标 $\sigma^{18}X$ 在该二挠点不为零，故
+$$
+\boxed{\mathrm T_{2,18}(N^2)=0.}
+\tag{F3}
+$$
+这里使用的是原完整迹的剩余系数计算，
+没有由 $N$ 的 new 性推任意乘积的 new 性。
+
+### F.2. 同一平方的完整范数三旧部分
+
+保持正文(5)–(6)的目标 $(a,c)$ 与三次纤维
+$x^3+3ax^2+4b=0$。原 $N$ 的真实商可写成
+$$
+\frac{N/\sigma^{36}}{(\delta x)^{12}}
+=\frac{4\delta}{567}\,ac\,\frac{y^3}{x^4}.
+$$
+平方以后，
+$$
+\frac{N^2/\sigma^{72}}{(\delta x)^{24}}
+=-\frac{16a^2c^2}{49\cdot3^7}
+\left(x+\frac{3b}{x^2}+\frac{3b^2}{x^5}+\frac{b^3}{x^8}\right).
+\tag{F4}
+$$
+正文(17)已经支付所需的全部正、负幂迹：
+$$
+\begin{aligned}
+\operatorname{Tr}x&=-3a,&
+\operatorname{Tr}x^{-2}&=-\frac{3a}{2b},\\
+\operatorname{Tr}x^{-5}&=\frac{15a}{16b^2},&
+\operatorname{Tr}x^{-8}&=\frac{81a^4}{128b^4}-\frac{3a}{8b^3}.
+\end{aligned}
+$$
+因此(F4)括号的完整迹恰为
+$81a(a^3-8b)/(128b)$。
+利用 $c^2=a^3+b$，在目标原坐标得到
+$$
+\boxed{
+\mathrm T_{\delta,24}(N^2)=-\frac{R_{24}}{10584b},
+\qquad R_{24}=\sigma^{24}X(X+b)(X-8b).
+}
+\tag{F5}
+$$
+特别定义
+$$
+Z_{72}^{\circ}:=N^2+\frac{[\delta]^*R_{24}}{31752b}.
+\tag{F6}
+$$
+由于 trace-pull 的准确倍率为三，(F5)给范数三 trace 零；
+(E13)–(E14)、(F3)给二挠 trace 零。
+所以(F6)是同一平方的完整同时 new 部分。
+
+### F.3. 原 P72 的参考项准确相消
+
+由(E16)的定义及(F5)，
+$$
+\mathrm T_{\delta,24}\mathcal P_{72}
+=-\frac{R_{24}}{42b}.
+$$
+将(E16)整个施以 $\mathrm T_{\delta,24}$，
+使用正文(11)的原 $\mathrm T_{\delta,24}T=0$，
+以及 $\mathrm T_{\delta,24}[\delta]^*R_{24}=3R_{24}$，
+两项旧来源精确相消，得到
+$$
+\mathrm T_{\delta,24}\bigl(N[2]^*D_9\bigr)=0.
+\tag{F7}
+$$
+又由 $D_9=[\delta]^*R_3+12bC_9$，
+完整投影公式和 $N$ 的范数三 trace 零给
+$$
+\mathrm T_{\delta,24}\bigl(N[2]^*C_9\bigr)=0.
+$$
+另一方面，(E17)、(F3)直接给
+$$
+\mathrm T_{2,18}\bigl(N[\delta]^*K_{12}\bigr)=0.
+$$
+结合(E18)，得到原(D18)中两个指定乘积的完整结论：
+$$
+\boxed{
+N[2]^*C_9\quad\text{与}\quad N[\delta]^*K_{12}
+\quad\text{分别同时 new。}
+}
+\tag{F8}
+$$
+从而其原组合 $NJ_{36}$ 也同时 new。
+这一步没有对低配对假设投影自伴性。
+
+现在令
+$$
+\begin{aligned}
+\mathcal P_{72}^{\circ}
+&:=\mathcal P_{72}+\frac{[\delta]^*R_{24}}{126b}\\
+&=N[\delta]^*K_{12}+252Z_{72}^{\circ}.
+\end{aligned}
+\tag{F9}
+$$
+它的两个完整迹均为零。
+代回原(E16)，得到真实旧项已经相消的身份
+$$
+\boxed{T=-N[2]^*D_9-2b\mathcal P_{72}^{\circ}.}
+\tag{F10}
+$$
+右端两项都是指定的同时 new 来源。
+质量 $-1$ 的 $D_9$ 和原 $[2]$ 拉回全部保留；
+不能把第一项改成两个质量零因子的配对。
+
+### F.4. 第二原配对 NA 的完整二挠像
+
+记实际 whole degree18 来源
+$$
+H_{18}:=\sigma^{18}X(X+4b).
+\tag{F11}
+$$
+下面完整计算 $N[\delta]^*\sigma^{12}$，而不从环境维数赋值。
+它在输入原点至少十八阶、非零二挠点至少四阶消失，
+所以其 degree18、型零 trace 可写成
+$\sigma^{18}(c_2X^2+c_1X+c_0)$。
+目标 $x=0$ 的四个逆像仍被 $X(X-8b)$ 杀掉，故 $c_0=0$。
+
+其原有理商是
+$$
+\frac{N[\delta]^*\sigma^{12}}{\sigma(2z)^{18}}
+=\frac{2916}{7\cdot2^{18}}\,
+ \frac{X^5(X-8b)(X+4b)}{(X+b)^7}.
+\tag{F12}
+$$
+置 $f=X+b$，分子在 $f=0$ 的两首项准确为
+$$
+X^5(X-8b)(X+4b)=27b^7-129b^6f+O(f^2).
+$$
+使用(E6)–(E8)的同一完整逆根 Newton 迹，
+$a^6$ 系数只来自 $f^{-7},f^{-6}$。
+因此(F12)的完整最高系数为
+$$
+\frac{2916}{7\cdot2^{18}}
+\left(\frac{64}{729b^4}\right)^2
+\left(27b^7\,7\frac4{3b}-129b^6\cdot3\right)
+=-\frac5{3024b^2}.
+\tag{F13}
+$$
+没有其他正幂贡献：此处分子与分母同为七次，正幂商只是常数。
+
+再在目标 $a^3=-b$ 读取(F12)。
+沿(F1)，除去其固定倍率后的商为
+$-24v(1-v)^5$，每个根仍出现两次。
+同一二次递推进一步给
+$$
+\sum v^4=\frac{194}{729},\qquad
+\sum v^5=\frac{418}{2187},\qquad
+\sum v^6=\frac{2702}{19683},
+$$
+所以
+$$
+\sum v(1-v)^5=-\frac{1280}{19683}.
+$$
+计入全部四纤维及(F12)倍率，除去共同目标 $\sigma^{18}$ 后的迹值是 $5/1008$。
+结合(F13)与 $c_0=0$，准确确定
+$$
+\boxed{
+\mathrm T_{2,18}\bigl(N[\delta]^*\sigma^{12}\bigr)
+=-\frac5{3024b^2}H_{18}.
+}
+\tag{F14}
+$$
+(F8)与 $K_{12}=9b\sigma^{12}-5A_{12}$ 随即给
+$$
+\mathrm T_{2,18}\bigl(N[\delta]^*A_{12}\bigr)
+=-\frac{H_{18}}{336b}.
+$$
+最后用原 $A=N-[\delta]^*A_{12}/63$ 和(F3)，得到
+$$
+\boxed{
+\mathrm T_{2,18}(NA)=\frac{H_{18}}{21168b},\qquad
+\mathrm T_{\delta,24}(NA)=-\frac{R_{24}}{10584b}.
+}
+\tag{F15}
+$$
+第二式仍用同一个 $N$ 的完整投影公式。
+
+这里两个旧部分没有交叉再生：
+$$
+\mathrm T_{\delta,6}H_{18}=0,\qquad
+\mathrm T_{2,6}R_{24}=0.
+\tag{F16}
+$$
+后式为(E13)；前式的真实商为
+$-(1+4b/x^3)/27$，
+而原三次纤维上 $\operatorname{Tr}x^{-3}=-3/(4b)$，
+故全迹准确为零。
+因此
+$$
+\boxed{
+Q_{72}^{\circ}:=
+NA-\frac{[2]^*H_{18}}{84672b}
++\frac{[\delta]^*R_{24}}{31752b}
+}
+\tag{F17}
+$$
+是第二原配对的指定同时 new 部分。
+所有显示分母仅含固定坏素因子；特别 $b$ 仍为原单位，
+无需增加目标素数的数值检查。
+
+### F.5. 两实际配对及原 U 余项的准确读数范围
+
+原 $Q_{1,p},Q_{2,p}$ 是附录 B 的同一完整
+$1/[r(r-1)]$ 配对。
+其两个因子均质量零，故它们等于对应乘积的首除 $p$ 行。
+(F8)、(F15)–(F17)准确给
+$$
+\begin{aligned}
+Q_{1,p}
+&=2\mathfrak B\bigl(N[2]^*C_9\bigr)
+  +\mathfrak B\bigl(N[\delta]^*K_{12}\bigr),\\
+Q_{2,p}
+&=\mathfrak B(Q_{72}^{\circ})
+  +\frac{\mathfrak B(H_{18})}{21168b}
+  -\frac{\mathfrak B(R_{24})}{10584b}
+\pmod p.
+\end{aligned}
+\tag{F18}
+$$
+第一行的两个来源均同时 new；第二行的两个实际低 degree
+旧读者已完整显示，没有赋值或删除。
+
+(F10)的质量 $-1$ 端项给
+$$
+\boxed{
+2b\,\mathfrak B(\mathcal P_{72}^{\circ})
+=\mathfrak B(N)-\mathfrak B(T)
+-\mathscr X_p(N,[2]^*D_9)
+\pmod p.
+}
+\tag{F19}
+$$
+它与(E20)完全相容，因为
+$\mathfrak B(\mathcal P_{72}^{\circ})
+=\mathfrak B(\mathcal P_{72})+\mathfrak B(R_{24})/(42b)$。
+原 $T$ 中被消掉的是同一 $[\delta]^*R_{24}$ 来源；
+没有因此删除 $\mathfrak B(A_{12})$、$\mathfrak B(H_{18})$
+或任一 new 读者。
+
+原 U 的剩余行仍是(D17)的同一个
+$\mathcal U_{144}^{\mathrm{new}}$：
+$$
+9828\bigl(
+\mathfrak B(U)+\mathscr X_p(U,\Theta^4)
+-\mathfrak B(\mathcal U_{144}^{\mathrm{new}})\bigr)
+=3\mathfrak B(K_{12})-\mathfrak B(J_{36}).
+\tag{F20}
+$$
+特别(F8)并不使(F20)右边为零，也不把
+$\mathfrak B(J_{36})$ 变成 $\mathfrak B(NJ_{36})$。
+在原四个必要中央零下，可删除的仍只有原
+$\mathfrak B(S),\mathfrak B(T),\mathfrak B(U),\mathfrak B(V)$；
+(F18)–(F20)的全部显示伙伴与余项保留。
+本附录所付的新内容是两个原配对的完整双投影及
+(F10)的同源旧项相消，不是第五条中央条件。
+
+约化前始终保 $2^{p+1}$、$\delta^{p+1}$ 及原固定整提升；
+(F18)–(F20)只在原首位使用它们的剩余值四、三。
+全文为完整纤维、Newton 递推和原投影公式的手证，
+没有新数学数值执行。

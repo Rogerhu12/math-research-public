@@ -306,3 +306,6 @@
 
 
 - [R872原零纤维三层及实际低行](2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)：原零角迫v0(F)=−3，DVR上J3到有限三次代数模t3的像恰t²V，V为L⁻¹(F0³)、L⁻¹(YF0³)两真列；全WD三原列支付到Q0=(A/t³)/(t²V)满射。非退化gcd(F0,YF0′)=1时V秩2、Q0指数(2,2,3)。全K1的实际物理支零后，余两支仅落4−dimV+rank ev1≤3行，β2必须保G1 quo(w1)修正；不冒全K1满像或三尾Π，退化矩阵/其它finite/H¹和同R/S全保。
+
+
+- [R884附录F](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：全四纤维及三纤维给T2(N²)=0、Tδ(N²)=−R24/(10584b)，故D18两个实际乘积均同时new；P72°=P72+[δ]*R24/(126b)使原T=−N[2]*D9−2bP72°准确消旧。第二原配对NA全迹为H18/(21168b)与−R24/(10584b)，H18=σ18X(X+4b)真δ-new；两低度old和指定同时new余项完整付清。原Q1/Q2、Unew144以及全部首B/cross保，约化前2^(p+1)/δ^(p+1)缺陷不丢，不新增中央零。

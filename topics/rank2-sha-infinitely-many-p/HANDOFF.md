@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：e0912323b16a9af38d932a12be47dec523fedf42；2026-11-16 12:36:20 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
+- 最近已读规则提交：ea93399d9fe698d63fa7f7b42aff0906c40c11cc；2026-11-16 12:38:34 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -41,9 +41,9 @@ R883全相对6算法保div差+两pole、四完整00/01/11/12除子及W/Frob回�
 
 原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2；仍须同一无穷p原J′非零。共同C24指定c*=(1,−4/7,16/7)的实际三行保，不能将伙伴分别赋中央零。
 
-R863同H22两个整低配对、R876谱及R879全部热/trace/高端/q3/CM词保[完整H](notes/2026-11-16-frontier-before-two-division-trace.md)与原证明。R884正文把原T热返回接D5Ghat=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+全余配对；BT0不赋热左行零，参考rank0不赋BDref0。附A的VΘ−T/Θ²=8bK46H′22保真实非恒定权和两个cross，J34/S的Dlog仅付同P2 Cartier返回。附B设A=SΘ、N36=A−old，L36−J36=252A及3VΘ³−2T=A(D36+1008bN36)使两原差准确减Q(N36,J36)、Q(N36,A)；第二是同S自配对，三个质量一cross/未加权H22/U均未消。
+R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
 
-附C/D原U四纤维run43862249339已精确成功，H36=4σ36(X+b)³A2/(2457b)真增rank3→4；其全因式给J36−2[2]*C9=[δ]*K12，C9=σC8保奇半特征。原C120同2-new且T2(C120A8)=−[2]*C8/(9828b)，C8正是原C24的δ-old伙伴。完整Leibniz付B(C9)=O8−P8，原U/S两行合法消同O8：2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS；所有new/低卷积和p²倍率缺陷保，不新赋零。附E完整四纤维Newton付原N/T/R24真2-new；P72=N([δ]*K12+252N)也真2-new。原S/T精确消同B(A12)：2bB(P72)=BS−BT+X(S,Θ)−X(N,[2]*D9)−X(A12,B12)/21；D9质量−1，所有new/低cross仍保。
+附C–E原U完整Fraction迹run43862249339付H36=4σ36(X+b)³A2/(2457b)，真增rank3→4，J−2[2]*C9=[δ]*K12。原S/U合法消同O8，原S/T合法消同B(A12)，全new/低cross及p²倍率缺陷保。附F原N²的2迹0、δ迹−R24/(10584b)，N[2]*C9与N[δ]*K12都同时new；P72°=P72+[δ]*R24/(126b)给T=−N[2]*D9−2bP72°。原第二配对NA的2迹H18/(21168b)、δ迹−R24/(10584b)，H18真δ-new；Q1/Q2全双投影已付，原Unew144/所有B与cross仍未消。所有准确系数见R884附D–F，theta续实际新余项约束。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
