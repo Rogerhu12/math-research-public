@@ -1,0 +1,24 @@
+{
+  "request_id": "rank2-20261116-r889-original-maps-newton",
+  "utc": "2026-11-16 14:15:57 UTC",
+  "algorithm": "R889 exact Newton germs with full defining residuals",
+  "P": {
+    "producer": "produce-r889-original-rational-hecke-map-newton.py",
+    "original_request": "ci/original-rational-hecke-map-request.json"
+  },
+  "F": {
+    "producer": "produce-r889-original-first-factor-map-newton.py",
+    "arguments": [
+      "--weights",
+      "2,4",
+      "--max-primes",
+      "96",
+      "--prime-start",
+      "1000000000",
+      "--product-prime",
+      "1000037"
+    ]
+  },
+  "original_exact_certificates_preserved": true,
+  "no_recomputable_output_files": true
+}

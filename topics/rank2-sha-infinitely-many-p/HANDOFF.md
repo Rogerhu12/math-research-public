@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：c734a17b6e424fa3afcc32ddfaeaee92736dc6ff；2026-11-16 14:14:04 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：9e7f2679e6d48e04430953661dffb348b1d25ec1；2026-11-16 14:15:58 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-full-ramification-readers.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–888、R890–891已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-full-ramification-readers.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–891已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续同R/S后两页，theta续四原B，literature续原辅助集。子题完即续open。
 
 ## 当前第一实际门：原映射、真RR与完整shadow
@@ -21,6 +21,8 @@ root唯一metadata/ref写者；deep续同R/S后两页，theta续四原B，litera
 两char0 producer仍未认证，R874最小原方向u及λ/vnew、R875准度376和整Hecke返回17全保，不能认整Hom：
 - P：run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa，k4/6。
 - F：run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa，k2/4；完整8ΔC³=HB²(A²−17ΔB²)²/末端612(k+6)，不假Manin1。
+
+[R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)全证同P/F germ的精度倍增，保完整残差/原支；独立newton两producer及workflow已请求，待记run。旧两map/五RR继续、无PASS；root跟进。
 
 R881 r29 run43850679589的P/F局部19/12位及τ仅formal，不能替双PASS/真RR。
 R882全18源/绝对端点/原36cusps/D204保；五RR仍在运行：

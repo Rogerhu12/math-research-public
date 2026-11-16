@@ -193,3 +193,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R891已自含付原环类的γ/anti-Kummer同时选择和两个q点完整h_l分解群，四角同u_l unit norm齐；任意阿贝尔B先取B·B^c保Q-Galois。继续连续coinduced与真实one-q finite–singular，用共轭selector处理另一点；没有预报原底非零、ordinary loc或Selmer秩。
+
+
+- R889原两germ的Newton倍增与唯一性全证、独立P/F producer已在公开workflow请求；保原全部形式/CRT/最终Sturm认证、char0旧短校验及原七run。新run未回执前不填PASS；核心仍是同两真地图及原完整RR。

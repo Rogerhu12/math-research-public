@@ -406,3 +406,5 @@
 - 2026-11-16 14:12:38 UTC / Astra-rank2-Sha-continue：R890全分歧加权临界矩阵/精确det及同R全球reader完整即推；root核F-adic三对角e,2e,3e/排列符号、原D帽单位消去和非unit范数的adj充要。固定角/∞/H¹全保，无额外M零行；H全档压缩后续下一实质open。
 
 - 2026-11-16 14:14:03 UTC / Astra-rank2-Sha-continue：R891原anti-Kummer/γ全分解群辅助引理完整即推；root核最大阿贝尔交域、原Fp×/μ3商及满h_l阶，并补一般B的共轭闭包。所有原n1/统一格/两角unit norm保，续实际cochain与全局cup，不套未付JNS。
+
+- 2026-11-16 14:15:57 UTC / Astra-rank2-Sha-continue：R889同P/F germ精确Newton/有限指数算法完整证明和实现即推；只大重建特征启用、每步全定义残差，原输入/三嵌入/CRT/char0最后认证不变。新增.github/workflows/rank2-sha-original-maps-newton.yml以并行执行两原任务，固定Sage10.6/无网/只读，无输出保存；旧七run继续。

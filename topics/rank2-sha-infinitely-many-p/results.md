@@ -281,3 +281,6 @@
 
 
 - [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)：原anti-Kummer αq=πq/barπq的±1赋值给Cp扩张，半直积交换子为全Cp，故与原阿贝尔域交恰cyclo。Chebotarev可同时保γ的全部角色/任意p深度/此前环类层分裂；αq非p幂准确迫q及barq在完整新p环类群的Frob阶=h_l。四角原norm均用同u_l≡2，未把有限交换性冒cochain交换；一侧finite–singular及Selmer结论继续。
+
+
+- [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)：原P的(3Q∂+1)e=fr、r²=1−4tQe³与原F的(2Q∂−1)U=f0X²、X³=U²−17Q经准确2×2 Newton消元，均返cQ∂+a、a0=1的完整有限窗逆；只除1..N及3j+1/6j+1，逐次倍增全残差核。大重建特征下与原递推唯一相同，char0短校验及全P/F Sturm认证不变。两个独立producer公开运行，原七任务不取消，无假PASS。
