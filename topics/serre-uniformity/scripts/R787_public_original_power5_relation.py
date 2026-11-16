@@ -276,19 +276,31 @@ def streamed_original_outputs(spec, directory):
         assert set(infos) == set(entries)|{"full-outputs-manifest.json", REFERENCE}
         run = read_member_json(archive, infos["run-receipt.json"])
         initial = read_member_json(archive, infos["public-actions-input.json"])
-        receipt = read_member_json(archive, infos["core-receipt.json"])
-        assert run["result"] == initial["result"] == receipt["result"] == RESULT
+        receipt = (read_member_json(archive, infos["core-receipt.json"])
+                   if "core-receipt.json" in infos else None)
+        assert run["result"] == initial["result"] == RESULT
         assert run["source_commit"] == initial["source_commit"] == spec["source_commit"]
         assert str(run["workflow_run_id"]) == str(spec["run_id"])
         assert initial["source_repository"] == "Rogerhu12/math-research-public"
-        assert run["core_receipt_sha256"] == entries["core-receipt.json"]["sha256"]
-        assert receipt["source_sha256"] == initial["core_sha256"] == spec["core_sha256"]
-        if spec.get("expected_conclusion") == "failure":
-            assert run["complete"] is False and receipt["complete"] is False
+        assert initial["core_sha256"] == spec["core_sha256"]
+        if receipt is not None:
+            assert receipt["result"] == RESULT
+            assert run["core_receipt_sha256"] == entries["core-receipt.json"]["sha256"]
+            assert receipt["source_sha256"] == initial["core_sha256"]
+            if spec.get("expected_conclusion") == "failure":
+                assert run["complete"] is False and receipt["complete"] is False
+        else:
+            # The wrapper can finish its manifest after its outer timeout kills
+            # the core before the core writes a receipt.  This is not success.
+            assert spec.get("expected_conclusion") == "failure"
+            assert run["complete"] is False and run["process_exit_code"] == 124
+            assert run["core_receipt_sha256"] is None
         success_inventory = False
         if FINAL in infos:
             final = read_member_json(archive, infos[FINAL])
             success_inventory = final.get("complete") is True
+        if receipt is None:
+            assert success_inventory is False
         latest = {}
         for name, row in entries.items():
             match = DIXON.fullmatch(name)
@@ -340,6 +352,8 @@ def streamed_original_outputs(spec, directory):
         "original_manifest_file_count": verified_files, "original_manifest_total_bytes": verified_bytes,
         "zip_regular_member_count": len(infos),
         "all_manifest_members_streamed_and_size_sha256_verified": True,
+        "source_core_receipt_present": receipt is not None,
+        "source_missing_core_receipt_is_failed_outer_timeout": receipt is None,
         "certificate_inventory_present_and_preserved": success_inventory,
         "archive_removed_only_after_complete_hash_review": True}
 

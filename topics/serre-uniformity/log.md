@@ -385,3 +385,8 @@
 - R916完整纸证单独登记：实际有限平坦商C=B/H及ψπ=[p]给整模余切注入，原dy0精确ann迫原微分content严格π^(ea_h+pr)，补齐原上半下界的等号。
 - 原BT因子、单位c0及D=kerψ逐式证明，Moonen原商定理已读；R913 k_+层现非零，原a_h/指定normal/CM配对/J32/height仍保留。H/open前态逐字归档，不重旧结论。
 - 本push规则：公开Actions真实pull至795295ce36e139df60be65c1c5c71ed683b98a95（2026-11-16T15:29:01.149991+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:31 Asia/Taipei — serre-public-astra-20261115
+- R787原670完整断点由公开v23实读：manifest1261项/最新lift8c9052ec，真实外层exit124且core receipt缺失；旧76 lift仅压成保全身份的history。
+- 唯一IO分支严格限failure/124/null/无trueFINAL，wrapperdff10f45差异已全文读；原数学核93d3d72b、1372源/14支/300min不变，实际请求直接原artifact续670并dispatch一次。
+- 本push规则：公开Actions真实pull至dc85bc9751fcf568d5c3fd30391004e4279ab413（2026-11-16T15:31:29.244621+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

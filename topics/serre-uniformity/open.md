@@ -172,3 +172,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R916原商的精确Hodge content](results/R916-original-finite-flat-quotient-and-exact-Hodge-content.md)** 已证：实际H_h⊂B[p]的商C及ψπ=[p]给原D_h=kerψ和整模ω_D↪ω_B/p，原BT因子/单位c0将ω_h送到dy0；其精确ann π^(e−pr)迫content(f_h*ω_h)=π^pr。原q的content严格π^(ea_h+pr)，上半r=2h−p−1；R913的完整标记k_+ Igusa向量现非零。此注入在残域可变零，未借Hodge饱和或小分歧假设。原a_h未去，指定normal系数、CM companion的准确标量、λ_h在指定向量上非零及same-h三因子/J32仍未成。
 
 R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1)(0)，指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12；R916仅控制good-model整微分，尚未把它接到这个指定同h原向量或height格。
+
+**R787真670同核续已准备并激活**：[实际断点与唯一IO修复](notes/R787-original-power5-670-outer-timeout-continuation.md)。原run43846878233外层exit124、无core receipt/null coreSHA，真实manifestf756e254/1261项与完整670 lift8c9052ec已核，76旧lift身份留history。wrapperdff10f45只在失败124且无trueFINAL时容许缺receipt，所有manifest/配置/完整模关系保留；数学core93d3d72b与300min/1372源/14支不变，直接原artifact续，不重旧位或造负结论。
