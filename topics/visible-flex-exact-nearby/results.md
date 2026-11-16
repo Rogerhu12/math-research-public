@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WPT：精确cell主部逆和完整高反馈对偶radial tail](results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md)：skew primitive×对称D逆范数≤1，完整A−D与全K对偶给新的h²充分门；所有mean/端点/交叉保留，新数值门和signed有限逆未计算。
+
 - [WOB：完整外端193行与指定root96的signed逆证书](results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md)：真实mean/affine/七port与37原record齐备，Jc↔193+m方阵，A_c Fredholm index0及全四块严格左残差准则；尚无新数/finite逆。
 
 - **WMRA：完整正权均值细化实际成功，42新量冻结。** [实际结论](results/R133-supplement-actual-positive-weight-physical-mean-and-whole-error-refinement.md)b2df8a12；43840219992/1全18门/7图42record/2exp、old0。69旧球/669图非球leaf/原失败与成功状态完整；whole/reduced同算子各选新上界约2.1163e465，未授高门、signed finite逆或最终族。
