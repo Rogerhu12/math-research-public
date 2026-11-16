@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：冻结两四阶原E结构解并追加真实执行
+
+同原20系统分解为两原4×4单位，保400块槽、64双向E逆产品、终门1000E/3000Q/400selected；[完整接口](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)及全部源全文审/SHA核同，独立180/768/outer240，不续旧Q60。high95实际exit0，数学秩仍待完整job日志。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：原E恢复成功、Q60受控终止与独立95小门
 
 run43911869940前三步全0并逐字恢复六逆/原清单；Q60 outer360真实143、旧receipt排除，没有已确认新候选。冻结并全文审[原95四次核独立门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)，同job仅依赖已成功父；另改两4×4结构解，不空续旧Q60。AI-assisted GPT-6 Astra Pro。

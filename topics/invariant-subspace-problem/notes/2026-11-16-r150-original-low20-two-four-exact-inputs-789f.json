@@ -1,0 +1,177 @@
+{
+  "format": "r150-original-low20-two-four-exact-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator, with /root; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+    "bytes": 19739,
+    "sha256": "94033eafe24b5e5882c44ccb13be4021dafcb00d3cfea558915f8f236799164d",
+    "blob": "b7a6c2059aa535b1f1e3f7efe38bc375011f3875"
+  },
+  "helperSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "bytes": 21178,
+      "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f",
+      "blob": "d20db6c713d362d56e8e59ab0c8bcdf846764728"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "bytes": 33539,
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da",
+      "blob": "541c14b36925e3cc94018edd8a17a6a765041f5d"
+    }
+  ],
+  "observer": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+    "bytes": 5855,
+    "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+    "blob": "f8aea7924d8becc10e50303a1c9b36f34d718014"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "python-flint": "0.9.0"
+  },
+  "arithmeticPrime": 127,
+  "coefficientRoot": 100,
+  "matchedCubic": [
+    52565262336,
+    6080833024,
+    -43931504,
+    3725
+  ],
+  "parent": {
+    "out": "{work}/original-low-commutator-twenty-exact-constants-v2",
+    "binding": "672c57bb68079e9a49cff09e4a7fdadd7b89dc017927913ee0d35261a08d2522",
+    "manifest": {
+      "path": "exact-low20-manifest.json",
+      "bytes": 3418,
+      "sha256": "c7b010a2c16e2896782eaaad74f977d00e640af6c8142b623474a015b948bf9b"
+    },
+    "sixOriginalPhysicalAndLogicalSHAMustMatch": true,
+    "originalConstantsCompleted": false
+  },
+  "previousExecution": {
+    "runId": 43911869940,
+    "stepId": "original-low20-projection-only-final300",
+    "exitCode": 143,
+    "mathematicalRawReceiptProduced": false,
+    "observerTermination": true,
+    "terminationReason": "explicit outer wall-time deadline",
+    "childReturnCode": -15,
+    "elapsedSeconds": 360.50608866700003,
+    "stdout": {
+      "bytes": 382,
+      "sha256": "f7c001468ae7c2bd8891ec2fdc1c21b4be2fdcf20aea0b781aff6cee765c94f4"
+    },
+    "temporaryCandidateExistenceNotAssumed": true,
+    "oldOutNotModified": true
+  },
+  "newAlgorithm": {
+    "A0Shape": [
+      4,
+      5
+    ],
+    "MShape": [
+      4,
+      4
+    ],
+    "BShape": [
+      4,
+      4
+    ],
+    "faithfulRationalSolveSizes": [
+      12,
+      12
+    ],
+    "originalRZShape": [
+      20,
+      50
+    ],
+    "wholeOriginalBlockProducts": 400,
+    "smallInverseBothEProducts": 64,
+    "smallInverseBothRationalProducts": 192,
+    "A0RightInverseProducts": 16,
+    "A0KernelProducts": 4,
+    "finalEProducts": 1000,
+    "finalRationalCoordinates": 3000,
+    "selectedIdentityProducts": 400,
+    "independentOutput": "{work}/original-low20-two-four-exact",
+    "oldRational60SolveRepeated": false,
+    "nonFieldCoefficientLift": true,
+    "newPhysicalModelOrCOrCZ": false
+  },
+  "step": {
+    "id": "original-low20-two-four-exact-final180",
+    "requires": [
+      "original-low20-recover-three-inverse-prefix120"
+    ],
+    "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+    "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+    "sources": [
+      {
+        "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+        "sha256": "94033eafe24b5e5882c44ccb13be4021dafcb00d3cfea558915f8f236799164d"
+      },
+      {
+        "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+        "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+      },
+      {
+        "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+        "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+      }
+    ],
+    "argv": [
+      "--outer-seconds",
+      "240",
+      "--heartbeat-seconds",
+      "10",
+      "--stdout",
+      "{work}/original-low20-two-four-exact-final180.math.log",
+      "--heartbeats",
+      "{work}/original-low20-two-four-exact-final180.heartbeats.jsonl",
+      "--identity",
+      "{work}/original-low20-two-four-exact-final180.observed.json",
+      "--",
+      "python",
+      "{scripts}/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+      "--projection-helper",
+      "{scripts}/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "--exact-helper",
+      "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "--parent-out",
+      "{work}/original-low-commutator-twenty-exact-constants-v2",
+      "--out",
+      "{work}/original-low20-two-four-exact",
+      "--through",
+      "final",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "768"
+    ],
+    "timeoutSeconds": 300,
+    "receiptPath": "{work}/original-low20-two-four-exact/exact-low20-two-four-receipt.json",
+    "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+    "mathematicalScriptSHA256": "94033eafe24b5e5882c44ccb13be4021dafcb00d3cfea558915f8f236799164d",
+    "mathematicalScope": "Two original 4x4 E unit inverses, exact structured solution of the same20x50 original projections, and all1000E/3000Q/400selected original products; no repeated rational60 solve and no new C/CZ.",
+    "evidencePhaseKey": "complete-exact-original-low20-products"
+  },
+  "continuation": {
+    "automaticRetries": 0,
+    "onlyWholeSameBindingPhases": true,
+    "candidateNotSuccess": true,
+    "anyFurtherAttemptNeedsActuallyNewWholePrefix": true,
+    "observerUnchanged": true
+  },
+  "executionStatus": {
+    "sourceFrozenStaticOnly": true,
+    "newLocalAST": false,
+    "newMathematicalExecution": false
+  },
+  "storage": {
+    "temporaryOnlyMathematicalData": true,
+    "mathematicalArraysCommitted": false,
+    "mathematicalArraysUploaded": false
+  }
+}
