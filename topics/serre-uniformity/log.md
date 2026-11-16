@@ -254,4 +254,9 @@
 ### 2026-11-16 21:08 Asia/Taipei — serre-public-astra-20261115
 - R896修复请求持续零job排队，标准与force取消均409；恢复器核同原请求/0jobs/冻结workflow与单运行并发组后重排同一计算，保留旧记录并观察实际启动。
 - 数学core23281231/wrapper558ad67f、原输入40af1453均不变，无已成R896数学阶段；R894/R824及其余长算继续，未按排队或预算判数学否定。
-- 本push规则：公开Actions真实pull后由发布器记录两README和实际提交；主目标OPEN。
+- 本push规则：公开Actions真实pull至b4ff63479aea312f4a8e3fc45e139781327002c9（2026-11-16T13:08:34.084355+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:26 Asia/Taipei — serre-public-astra-20261115
+- R903完整纸证：正Φ=QZ/qχ、同962像截146/418，再原18行得128/400与真正144补列；保未缩放P0/t帧、两图完整272证书及七重下降，实际五组矩阵未执行。
+- R896先完成run43872960726已SUCCESS；旧零job队列随后亦完成，如实登记并只消费先成源。R824真BudgetStop/exit1，v19仅取两者必要原证书和实际断点；H原态逐字归档。
+- 本push规则：等待本仓库公开Actions真实pull并比两README，主目标OPEN。

@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-half-coordinate-dual-541-ended-original-checkpoint",
+  "request_id": "20261116-original-low-weight-five-complete-and-global-polar-ended",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "c51c4b74716466c19389f456642b8e77951ab63d",
+  "rules_last_read_commit": "b4ff63479aea312f4a8e3fc45e139781327002c9",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,25 +12,76 @@
   "reader_sha256": "a06db07f4c658fbd88dbe9c6d5353c8e5a5b6b0306645c65d14de3fa8199584a",
   "sources": [
     {
-      "label": "R787-half-dual-541-ended",
+      "label": "R896-five-complete",
       "source": {
-        "result": "R787-original-cleared-dual-CM-value-acceptance",
-        "run_id": "43823979328",
-        "source_commit": "6110d6a16d2e66becae71454ad2d4e796b7a5c00",
-        "core_sha256": "ffe5dcff0c17b81923741c2b56806cc4907cb812cfdee4499ed2650ea92abe54",
-        "artifact_id": 14226237212,
-        "artifact_name": "serre-global-R787-half-coordinate-dual-CM-value-43823979328-1",
-        "archive_bytes": 408220668,
-        "archive_sha256": "263ebd784207dae07506abbba30988768a98620d4bc324ed7b4e3f4228f53719",
+        "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
+        "run_id": "43872960726",
+        "source_commit": "259e2448c7c51131fecc231ee55f7d457397dde8",
+        "core_sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
+        "artifact_id": 14228364447,
+        "artifact_name": "serre-global-R896-five-sum-Hom-low-weight-RR-43872960726-1",
+        "archive_bytes": 525499323,
+        "archive_sha256": "09709b33882b32bab65b1ff855e7cd246561cac8ba344251bcab26e3067634bd",
+        "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
+        "expected_conclusion": "success"
+      },
+      "mode": "named_original_members",
+      "names": [
+        "R896-j1-complete-low-weight-RR-certificate.json.gz",
+        "R896-j2-complete-low-weight-RR-certificate.json.gz",
+        "R896-j3-complete-low-weight-RR-certificate.json.gz",
+        "R896-j4-complete-low-weight-RR-certificate.json.gz",
+        "R896-j5-complete-low-weight-RR-certificate.json.gz"
+      ],
+      "known_file_pins": [
+        {
+          "bytes": 6671,
+          "file": "R896-j1-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "86c051f4d7a1af96e90f4dbe5a2ebbbc9dc2be8617822587c728692fbb5ac2f2"
+        },
+        {
+          "bytes": 6647,
+          "file": "R896-j2-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "41d62ab6086e2d12fb6af7bce86f9aaad81a925128979c9ddda31ece476b7caf"
+        },
+        {
+          "bytes": 6632,
+          "file": "R896-j3-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "e08cca3ab6c30c647ffdc69bb8e916c72b94b97e44001125c55ff6bb2d3ce30f"
+        },
+        {
+          "bytes": 6664,
+          "file": "R896-j4-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "96f6b100ede5880bcefdbeec080269fc1e01ff314693d3efeb5c509d08271393"
+        },
+        {
+          "bytes": 6665,
+          "file": "R896-j5-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "7abcdd1593f95e0375b6814560f382e8627d839947d7c616889f3199b3f08345"
+        }
+      ],
+      "print_json_files": [
+        "R896-j1-complete-low-weight-RR-certificate.json.gz",
+        "R896-j2-complete-low-weight-RR-certificate.json.gz",
+        "R896-j3-complete-low-weight-RR-certificate.json.gz",
+        "R896-j4-complete-low-weight-RR-certificate.json.gz",
+        "R896-j5-complete-low-weight-RR-certificate.json.gz"
+      ]
+    },
+    {
+      "label": "R824-global-polar-ended",
+      "source": {
+        "result": "R824-original-global-polar-generators",
+        "run_id": "43828509061",
+        "source_commit": "9829a0385c61e9262c6038a365bc3de1c26015d2",
+        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+        "artifact_id": 14228777115,
+        "artifact_name": "serre-global-R824-original-global-polar-generators-43828509061-1",
+        "archive_bytes": 1406291457,
+        "archive_sha256": "bc0ea420a7b66e40a50559aedfd2e57adcfde3d86d9de8dd921ed1c975d5fd0d",
         "expected_conclusion": "failure"
       },
-      "mode": "ended",
-      "print_json_files": [
-        "R787-cleared-dual-current-index.json.gz"
-      ],
-      "print_json_summary_files": [
-        "R787-cleared-dual-checkpoint-history.json.gz"
-      ]
+      "mode": "ended"
     }
   ]
 }
