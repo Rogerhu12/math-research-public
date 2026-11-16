@@ -230,3 +230,6 @@
 
 
 [R842 正水平的完整有限 trace 与原单位项](2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：§11以同一个原f=UP及J=x^(3b+c)qG，给移动Y∞全部分支/奇点/conductor的准确算子(39)。一条Pτ/Px trace、一条整数Newton卷积，以及不可删的2Tr(L Uτ/U)全保；L经过原J modP²而非任意选择normal值。有限截断准确取modx^J、J=N*+3+2ord Res(P,Px)，以逆矩阵扰动付双份损阶及同resultant阶稳定，跨p保原W全部Frobenius系数。没有赋W_T像或总行非零，仍连同固定边界及B_F/P代表补偿。
+
+
+- [R848](../results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)：原q1的Γ(2)共轭给完整S3 Galois覆盖，续原三阶R商得X/(C3×S3)=X0(867)、z→6z、degree18。原同一a的三个T2邻点像和0，形成直线；目标全部函数域商明确为w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]，u=m³/v=mX/w=uYδ。最高微分准确降为dv∧du∧dn/(6w)；原曲线像degree保持、proper商push保18。原Π、全Artin系数、6^-2/12^-2/1632/816均保，没有免费搬到奇异商projection或识别R814 canonical类。
