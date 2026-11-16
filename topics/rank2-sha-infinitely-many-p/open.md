@@ -155,3 +155,8 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 [R828原三条carry与最后块尾](notes/2026-11-16-r828-three-native-carry-recursions-and-last-block-tails.md)：原同一M的三条十三行带有完整K_{j,d}卷积，保H/B全部高尾。首提升迫W0=W1=0 modw^s及W2+H w^(s−4)BW3=0 modw^s；故同P的新增D2/D3准确只读最后W3八/十二尾和末quartic。第二/第三轮carry在同P/R/S上逐次整除，固定R/S的前4/8长尾为已付native值；其余最后块尾仍与同源normal联立。Y1/p、Y2/p不删，三条带不代全矩阵余类非零或可解。
 
 继续原实际P与同R/S的指定页；下一左行必须真杀完整原像，且不能为r′X或新charge来源冒加中央零。
+
+
+[R828原零角左行与实际中央Newton](notes/2026-11-16-r828-native-zero-angle-reader-and-central-newton-value.md)：原常数charge40/41/42给r(Q)三次moment左行Λ0，真杀原modp像；对任意同格X，Λ0M(X)/p准确读Σ_(d1..3)p^(d−1)a^-d[w^(ds)]Wtilde_(r^(d))(X)，无额外1/d!，完整高卷积保。四原中央若零，C=η0F(h0)∈p、D=η0F′(h0)unit，Hc=h0−C/D满足H−Hc∈p³，所以同M模p4已由这次真实Newton值恢复。指定三位必要式为N_Hc(P)+pN_Hc(R)+p²N_Hc(S)=0模p3；其它三中央残差、native商、同R/S和全末carry不删。r′X无额外中央授权，尚未判指定值非零。
+
+现在直接判同源指定N_Hc或原其它左行；不将r′X、r″X、r‴X当新中央零。
