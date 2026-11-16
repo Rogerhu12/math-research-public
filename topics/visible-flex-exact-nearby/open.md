@@ -189,4 +189,4 @@ WOBSA37量冻结及WMF完整恒等式的原段逐字保[完整outer与归一mean
 
 [WPTV值域尾](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)dda500b8/[WPTVR五whole maxima](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)62adc53e、[原输入](notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json)f7dd2ed0：同GH的frozen B0+全signed差，collar/body两source及真正T*给预锁m1,2整δ。外Q_iV0无右Q/ramp、193mean/全部finite Schur不减，false不自动扩网。24current+19history/原4650行3594接口保；43854566735/1过预检、collar parent0全存，parent1 centre解析失败，0整max。原SCI b8812b6b只读继承collar/chain；只续body1..152与未始两m，旧marker不绕过。完整失败/恢复边界保H/log。仅成功tail门可授同tail逆，0finite逆。
 
-[WMT strict flux](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)51eb08d0：七图195新/source19624752/manifest8870b8be已锁，待CI；8terminal、root/local/两mean/3070jump全保，WMR42只读，0新数/逆。
+[WMT strict flux](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)51eb08d0：七图195新/source19624752/manifest8870b8be已锁，CI已启；8terminal、root/local/两mean/3070jump全保，WMR42只读，0新数/逆。
