@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WMR：正权物理均值传播及完整同算子误差重组](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)：精确概率权商式消去共同aJ，strict/local点态gap独立成立；真实negative区间β≥0给反向系数负部界，绝对系数另用于z′。两patch mean、完整kr仿射source、全部非mean B/T、true jumps、旧三端与新mean端、whole/reduced正表达一并保留，无旧upper相减。此为解析合同0新数，不授high/finite/最终族。
+
 - [WHV：精确零Volterra预处理与完整正侧径向尾合同](results/R133-supplement-zero-Volterra-preconditioning-and-readonly-positive-head-mesh-contract.md)：证明F0=(Id−V0A)F，保全部初值、普通源、jump、真实端点和余核逆伴随；2ℓ/π与hmax(A∞+CK)/π不评估旧传播指数。完整typed旧positive source列与B_HL/B_LH壳因子给新3wholemax及新网格目标，193N只输出有限因子，所有cross/finite inverse/原96/Θ/ν/两mean及negative head保留。0新数；9小文本/13历史parts恢复合同已明确，原4650行不重算。
 
 - [WECA：实际完整腰误差、四端点和精确有限因子后的完整界](results/R133-supplement-actual-complete-global-genuine-waist-error-and-all-endpoints.md)：公开43831678361/1成功，9门/3整图只补13+8+9=30新量；此前39条部分记录和6条原输入复制逐字保持，全26图1684槽锁。全部7件、58完整输入收据、所有shape/binding、admission原字及report/exec两preGit完整独核。same whole与reduced界均约4.3424e341224436，保全部原finite/mean/parameter/cross；它是完整保守上界，不是实际误差下界，不授high小量门、finite逆或最终族。
