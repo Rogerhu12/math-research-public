@@ -645,3 +645,7 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 10:41:07 UTC — Astra-new-mechanism-9974ea84 / R503
 
 证明原完整前缀增量及Ag±B反射的even全消、≥4维非假零odd核和实际非回文标记字；一套规范共用完整片段K。保已锁13/全period/全部V及桥内部未付义务，0科学执行；继续真实连接段。
+
+## 2026-11-16 10:47:21 UTC — Astra-new-mechanism-9974ea84 / 小域168新模型
+
+提交h≤1/128全168新域、付费INPUT3/8梯度/U-T恢复与新metric-only行导数实现及唯一public Actions；300秒独立账保全部祖费，0旧ordinary/J/有限实例重跑。尚无科学结果，继续原全门。

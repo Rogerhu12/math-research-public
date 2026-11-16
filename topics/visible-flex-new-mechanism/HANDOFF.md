@@ -50,10 +50,12 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 10:39:47 UTC）
+## 5. 正在接续（2026-11-16 10:47:21 UTC）
 
-[全168真实失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)：run43847611444/research133231619868/report133236104610/sourcea9da16278c336ec5d6ce3be88502263d04429324。2ordinary+2selectedJ付全部9002行/168列；3finite均收敛126迭代252系统，3次全网分离补8原梯度，最后一阶净gain.00003478988793597303。62scalar选α.05665608433177267，实际粗η.2660499199695634、κ58.007888653387816>58，18曲率违例均已选；新soft104448触发方向停止，fine未求、0接受，仍56。原大域账户188.38691980800002秒/3新值闭合，无overrun；累计祖账**2421.953314364秒/141值**，未用余额不重开。
+[全168大域失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：3finite收敛/3scan/8新梯度/62scalar后实际粗κ58.007888653387816>58且metric变差；18违例均已选，新soft104448停止方向，fine未求、仍56。188.38691980800002秒/3新值任务闭；累计祖账**2421.953314364秒/141值**。
 
-已付INPUT3为21504677B/058becbdcdc8746328f702cd0f92e04d622bc387b8c206cc98489beba602691e，含3132×168硬J/5870×168软g；MODEL含另8完整梯度。56 CACHE2的两网e/f与本次基准SHA相同，U/T可复用。下一新模型保持全部参数/门，改真实域h=4||Mδ||∞≤1/128，补新104448的metric-only168梯度，**不重ordinary/原J**；尚未启动。所有新费用另记且保全祖账。
+**[新小物理域168任务](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)代码与request已提交，等待唯一public Actions运行。** h=4||Mδ||∞≤1/128，全部168可动、172盒/原14门保；复用完整9002行J/g与8付费梯度、56同点U/T，仅补新104448与后继新tag的metric-only168导数。0ordinary输入/0旧J重建；新300秒含全部输入/失败/输出，8scan/32新metric行/8严格增行master/64scalar/3actualpair6值。旧余额不重开，主完成未付。
 
-[四原子完整观察](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，无候选；三/四原子任务均闭。理论接.6<H<H*完整Re/Im联合条件与真实13状态whole-period桥。主完成未付，继续open。
+request-true56-small168.json 64925B/41bbad4ca582631f8725ffeb03982bf46dba5ad159a384b27e8d7a4ea537344f；workflow visible-true56-small168.yml。唯一新INPUT只引用旧21MB导数并保存新梯度/绑定；原56缓存、旧INPUT3/MODEL身份详见设计和大域结论，payload仅stdout。科学返回前不声称下降或接受。
+
+理论接.6<H<H*完整同图Re/Im、R503已付反射片段之间的真实桥内部K/全period/13规范；三/四原子已闭任务不重复。继续open。
