@@ -1,4 +1,4 @@
-# WPTV/VR new finite cross-block bounds only; never imports an old producer.
+# WPTV remaining body only: original collar and all old targets are read verbatim.
 from fractions import Fraction
 from bisect import bisect_right
 from math import isqrt
@@ -21,20 +21,39 @@ def saved(record):
     return upper(arb(record))
 
 def whole(record):
+    # Original base.interval semantics for complete 3/5-field native records.
+    # A saved new {ball} record keeps its original interpretation unchanged.
+    if isinstance(record,dict) and "lower" in record and "upper" in record:
+        lo=arb(record["lower"]).lower();hi=arb(record["upper"]).upper()
+        require(lo.is_finite() and hi.is_finite() and lo<=hi,
+                "finite ordered original endpoint enclosure")
+        return lo.union(hi)
     return arb(record["ball"] if isinstance(record,dict) else record)
 
 def interval(lo,hi):
     require(lo<=hi,"ordered exact interval")
     return exact((lo+hi)/2)+exact((hi-lo)/2)*arb(0,1)
 
-def signed_display_centre(record):
-    # A reference only. Never claims this centre is the metric's value at r.
-    text=record["ball"] if isinstance(record,dict) else record
-    if text.startswith("["):
-        text=text[1:].split(" +/- ",1)[0]
-    require(re.fullmatch(r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?",text)
-            is not None,"original finite display centre")
-    return Fraction(text)
+def select_reference_intrinsic(intrinsic):
+    # Every selected number is an arbitrary exact reference, not a point value.
+    # The complete actual-minus-reference interval is charged in every body row.
+    centres={name:signed_display_centre(intrinsic[name],name+"/ball")
+             for name in ("beta","K","gamma","Cref")}
+    selected=dict(centres);choices={"beta":"ball_centre"}
+    signs={"K":1,"gamma":1,"Cref":-1}
+    fallback={"K":Fraction(1,64),"gamma":Fraction(1),"Cref":Fraction(-1)}
+    for name,sign in signs.items():
+        actual=whole(intrinsic[name])
+        require((actual.lower()>0 if sign>0 else actual.upper()<0),
+                "original actual signed intrinsic enclosure: "+name)
+        low=signed_display_centre(intrinsic[name]["lower"],name+"/lower")
+        high=signed_display_centre(intrinsic[name]["upper"],name+"/upper")
+        candidates=(("ball_centre",centres[name]),("endpoint_display_midpoint",(low+high)/2),
+                    ("lower_display_centre",low),("upper_display_centre",high),
+                    ("fixed_signed_reference",fallback[name]))
+        label,value=next((label,value) for label,value in candidates if sign*value>0)
+        selected[name]=value;choices[name]=label
+    return selected,centres,choices
 
 def poly_zero(m):
     return {j:arb(0) for j in range(-m,m+1)}
@@ -171,7 +190,7 @@ def exact_reference(cubic,rows,midpoint):
     row_index=next(i for i,row in enumerate(rows)
                    if Fraction(row["interval"][0])<=midpoint<Fraction(row["interval"][1]))
     intrinsic=rows[row_index]["original_intrinsic_enclosure"]
-    ref={name:signed_display_centre(intrinsic[name]) for name in ("beta","K","gamma","Cref")}
+    ref,display_centres,selection=select_reference_intrinsic(intrinsic)
     require(ref["K"]>0 and ref["Cref"]<0 and ref["gamma"]>0,"positive reference selection")
     scale=1<<20
     q=Fraction(max(scale//8,isqrt((ref["K"].numerator*scale*scale)//ref["K"].denominator)),scale)
@@ -188,7 +207,12 @@ def exact_reference(cubic,rows,midpoint):
         ui[j]=-physical[j-1]/2;ui[-j]=physical[j-1]/2
         vr[j]=vr[-j]=physical[32+j]/2
     definition={"midpoint":str(midpoint),"original_row":row_index,"original_piece":piece,
-                "intrinsic_centres":{k:str(v) for k,v in ref.items()},"q":str(q),"eta":str(eta),
+                "intrinsic_centres":{k:str(v) for k,v in ref.items()},
+                "intrinsic_display_centres":{k:str(v) for k,v in display_centres.items()},
+                "intrinsic_reference_selection":selection,
+                "intrinsic_selected_values_are_reference_only":True,
+                "complete_actual_minus_reference_difference_retained":True,
+                "q":str(q),"eta":str(eta),
                 "u_imag_laurent":[str(ui[j]) for j in range(-32,33)],
                 "v_real_laurent":[str(vr[j]) for j in range(-32,33)],
                 "repair_reference_is_zero":True,"actual_repair_enclosure_retained":True}
@@ -281,7 +305,7 @@ def parent_mesh(literals):
     return result
 
 
-KIND="complete_frozen_cross_block_value_tail_v1"
+KIND="complete_frozen_cross_block_remaining_body_tail_v1"
 ORDERED_TARGETS=["complete_frozen_cell_coefficient_maxima",
  "complete_uniform_refinement_one","complete_uniform_refinement_two",
  "complete_predeclared_mesh_selection","conditional_same_tail_resolvent"]
@@ -293,15 +317,16 @@ SCOPE={"same_positive_given_head_realization":True,"selected_member_scope_retain
  "reference_is_not_a_certified_actual_point_value":True,
  "only_centre_reference_mean_column_has_exact_zero_high_image":True,
  "new_array_artifacts":False,"old_targets_recomputed":0}
-MAX_SCIENTIFIC_BYTES=40000
+MAX_SCIENTIFIC_BYTES=50000
 
 def main():
-    global arb, require
+    global arb, require, signed_display_centre
     import argparse, copy, importlib.metadata, os, platform, sys, time
     from pathlib import Path
     from fourfold_codazzi_frozen_cross_block_readonly import (
-        admit,canonical,data,digest,require,PARAMETERS,PROBLEM_ID,CHECKS)
-    parser=argparse.ArgumentParser(description="Only new whole WPTV/VR targets.")
+        admit,canonical,data,digest,require,PARAMETERS,PROBLEM_ID,CHECKS,
+        signed_display_centre,CONTINUATION_CONTRACT)
+    parser=argparse.ArgumentParser(description="Only unfinished WPTV body and whole targets.")
     for option in ("repo","manifest","manifest-sha","out","native","native-receipts",
                    "candidate-index","centre-repair"):
         parser.add_argument("--"+option,required=True)
@@ -322,36 +347,22 @@ def main():
     require(manifest["retained_scope"]==SCOPE,"fixed retained physical scope")
     started=time.monotonic()
     whv=admitted["WHV"]
-    document={"kind":KIND,"problem_id":PROBLEM_ID,"complete":False,"stage":"admitted",
-     "failure":None,"current_target":None,"completed_targets":[],
-     "parameters":PARAMETERS,"manifest_sha256":args.manifest_sha,
-     "actual_checkout_commit":os.environ["ACTUAL_CHECKOUT_COMMIT"],
-     "scientific_modules":admitted["scientific_modules"],
-     "inventory_sha256":manifest["inventory"]["sha256"],
-     "mathematical_contract_sha256":manifest["mathematical_contract"]["sha256"],
-     "refinement_contract_sha256":manifest["refinement_contract"]["sha256"],
-     "original_input_sha256":{s["role"]:s["sha256"] for s in manifest["core_current_files"]},
-     "copied_original_records":{"original_nine":copy.deepcopy(admitted["literals"]),
-        "WHV_readonly_records":{key:copy.deepcopy(whv["new_records"][key])
-                               for key in ("A_c","A_c_weight","pi")},
-        "WHV_previous_strict_mesh_gate":whv["strict_mesh_gate"],
-        "WHV_previous_required_N_diagnostic":copy.deepcopy(whv["required_N_diagnostic"]),
-        "WHV_previous_actual_progress":copy.deepcopy(whv["actual_progress"])},
-     "copied_original_scope":copy.deepcopy(admitted["old_scope"]),
-     "copied_complete_candidate_metadata":copy.deepcopy(admitted["candidate_metadata"]),
-     "copied_complete_repair_definition":copy.deepcopy(admitted["repair_definition"]),
-     "original_admission":admitted["admission"],"retained_scope":SCOPE,"runtime":{},
-     "gates":copy.deepcopy(admitted["admission"]["checks"]),
-     "actual_progress":{"scientific_targets_started":0,"scientific_targets_completed":0,
-        "completed_parent_cells":0,"completed_body_intersections":0,
-        "new_whole_maxima_completed":0,"new_scalar_records_completed":0,
-        "new_strict_comparisons_completed":0,"conditional_resolvents_completed":0,
-        "old_targets_recomputed":0,"original_repairs_regenerated":0,
-        "finite_matrix_allocations":0,"new_array_artifacts":0},
-     "mesh_summary":None,"current_parent":None,"last_completed_parent":None,
-     "reference_chain":{"count":0,"sha256":hashlib.sha256(b"").hexdigest()},
-     "complete_coefficient_maxima":{},
-     "whole_candidates":{},"selected_mesh":None,"conditional_inverse":None}
+    prior=admitted["prior_failed_science"]
+    document=copy.deepcopy(prior)
+    document.update({"kind":KIND,"problem_id":PROBLEM_ID,"complete":False,
+        "stage":"admitted_remaining_body_only","failure":None,
+        "manifest_sha256":args.manifest_sha,
+        "actual_checkout_commit":os.environ["ACTUAL_CHECKOUT_COMMIT"],
+        "scientific_modules":admitted["scientific_modules"],
+        "original_admission":admitted["admission"],"runtime":{},
+        "continuation":copy.deepcopy(admitted["continuation_admission"])})
+    document["continuation"].update({"new_parent_cells_completed":0,
+        "completed_collar_cells_recomputed":0,
+        "original_whole_target_continued_without_restarting":True})
+    require(document["current_target"]==ORDERED_TARGETS[0]
+            and document["actual_progress"]["scientific_targets_started"]==1
+            and document["actual_progress"]["completed_parent_cells"]==1,
+            "the incomplete first whole target continues after its saved collar")
     def publish():
         raw=canonical(document)
         tmp=output.with_name(output.name+".tmp")
@@ -403,7 +414,7 @@ def main():
         pi_lower=whole(pi_record).lower()
         require(pi_lower>0,"original positive pi lower")
         lambda_inverse=saved(whv["new_records"]["A_c_weight"])
-        document["mesh_summary"]={"rule":"root collar plus eight subcells of each original-rminus doubling band",
+        mesh_summary={"rule":"root collar plus eight subcells of each original-rminus doubling band",
             "parent_cells":len(mesh),"parent_cap":161,
             "declared_refinements":[1,2],"refined_counts":[len(mesh),2*len(mesh)],
             "refined_cap":322,"root":admitted["literals"]["rstar_interval"],
@@ -413,15 +424,20 @@ def main():
             "all_full_delta_mean_and_low_columns_retained":True,
             "original_closed_rows":4650,"original_interfaces":3594,
             "homogeneous_raw_transmission_is_identity":True}
-        gate("predeclared_small_mesh_and_all_original_domains_admitted",
-             len(mesh)<=161 and 2*len(mesh)<=322)
-        start_target(ORDERED_TARGETS[0])
+        require(mesh_summary==document["mesh_summary"] and len(mesh)==153
+                and all(cell["kind"]=="body" for cell in mesh[1:]),
+                "unchanged complete original mesh; only body suffix remains")
+        gate("original_collar_prefix_locked_and_remaining_body_only_admitted",
+             document["reference_chain"]==CONTINUATION_CONTRACT["prior_reference_chain"])
         names=("A","E_b","U_b","L","B")
-        running={name:arb(0) for name in names}
-        witnesses={name:None for name in names}
+        running={name:saved(document["complete_coefficient_maxima"][name]) for name in names}
+        witnesses={name:copy.deepcopy(document["complete_coefficient_maxima"][name]["witness"])
+                   for name in names}
         roots=admitted["literals"];rows=admitted["rows"];kernels=admitted["kernels"]
         cursor=0;covered_rows=set()
-        for parent_index,cell in enumerate(mesh):
+        for parent_index in range(CONTINUATION_CONTRACT["first_unfinished_parent"],len(mesh)):
+            cell=mesh[parent_index]
+            require(parent_index>=1 and cell["kind"]=="body","no completed collar recomputation")
             left=cell["left"];right=cell["right"]
             descriptor={"parent_index":parent_index,"kind":cell["kind"],
                         "left":str(left),"right":str(right),
@@ -433,53 +449,44 @@ def main():
             candidate=dict(running);candidate_witness=copy.deepcopy(witnesses)
             tau=upper(exact(cell["length_upper"])/pi_lower)
             intersections=0
-            if cell["kind"]=="collar":
-                values={"A":upper(tau*exact(roots["G_c"])),
-                        "L":upper(tau*1153*exact(roots["L_c_raw"]))}
-                reference_hash=hashlib.sha256(b"root:S=Id,D=0,B0=0").hexdigest()
+            reference=exact_reference(admitted["cubic"],rows,(left+right)/2)
+            reference_hash=reference["reference_hash"]
+            document["current_parent"].update({"reference_sha256":reference_hash,
+                "reference_identity":reference["reference_identity"],"state":"reference_complete"})
+            publish()
+            covered=left
+            while cursor<len(rows) and Fraction(rows[cursor]["interval"][1])<=left:
+                cursor+=1
+            row_index=cursor
+            while row_index<len(rows) and Fraction(rows[row_index]["interval"][0])<right:
+                row=rows[row_index]
+                lo=max(left,Fraction(row["interval"][0]))
+                hi=min(right,Fraction(row["interval"][1]))
+                require(lo==covered and lo<hi,"all original closed row intersections")
+                bounds=complete_row_bounds(admitted["cubic"],admitted["repair_suprema"],
+                    row,kernels[row_index],lo,hi,reference,lambda_inverse)
+                values={"A":upper(tau*bounds["e"]),"E_b":bounds["EB"],
+                        "U_b":upper(tau*bounds["CA"]),"L":upper(tau*bounds["LH"]),
+                        "B":upper(tau*tau*bounds["CB"])}
                 for name,value in values.items():
+                    value=upper(value)
                     if value>candidate[name]:
                         candidate[name]=value
-                        candidate_witness[name]={**descriptor,"original_row":None,
-                                                "reference_sha256":reference_hash}
-            else:
-                reference=exact_reference(admitted["cubic"],rows,(left+right)/2)
-                reference_hash=reference["reference_hash"]
-                document["current_parent"].update({"reference_sha256":reference_hash,
-                    "reference_identity":reference["reference_identity"],"state":"reference_complete"})
-                publish()
-                covered=left
-                while cursor<len(rows) and Fraction(rows[cursor]["interval"][1])<=left:
-                    cursor+=1
-                row_index=cursor
-                while row_index<len(rows) and Fraction(rows[row_index]["interval"][0])<right:
-                    row=rows[row_index]
-                    lo=max(left,Fraction(row["interval"][0]))
-                    hi=min(right,Fraction(row["interval"][1]))
-                    require(lo==covered and lo<hi,"all original closed row intersections")
-                    bounds=complete_row_bounds(admitted["cubic"],admitted["repair_suprema"],
-                        row,kernels[row_index],lo,hi,reference,lambda_inverse)
-                    values={"A":upper(tau*bounds["e"]),"E_b":bounds["EB"],
-                            "U_b":upper(tau*bounds["CA"]),"L":upper(tau*bounds["LH"]),
-                            "B":upper(tau*tau*bounds["CB"])}
-                    for name,value in values.items():
-                        value=upper(value)
-                        if value>candidate[name]:
-                            candidate[name]=value
-                            candidate_witness[name]={**descriptor,"original_row":row_index,
-                             "original_piece":row["original_candidate_piece"],
-                             "intersection":[str(lo),str(hi)],"reference_sha256":reference_hash}
-                    covered=hi;intersections+=1;covered_rows.add(row_index)
-                    if covered==right:break
-                    row_index+=1
-                require(covered==right and intersections>0,"whole parent cell covered")
-                cursor=row_index
+                        candidate_witness[name]={**descriptor,"original_row":row_index,
+                         "original_piece":row["original_candidate_piece"],
+                         "intersection":[str(lo),str(hi)],"reference_sha256":reference_hash}
+                covered=hi;intersections+=1;covered_rows.add(row_index)
+                if covered==right:break
+                row_index+=1
+            require(covered==right and intersections>0,"whole parent cell covered")
+            cursor=row_index
             for name in names:
                 document["complete_coefficient_maxima"][name]={
                     **ball_record(candidate[name]),"witness":candidate_witness[name]}
             chain=bytes.fromhex(document["reference_chain"]["sha256"])+bytes.fromhex(reference_hash)
             document["reference_chain"]={"count":parent_index+1,"sha256":hashlib.sha256(chain).hexdigest()}
             document["actual_progress"]["completed_parent_cells"]=parent_index+1
+            document["continuation"]["new_parent_cells_completed"]=parent_index
             document["actual_progress"]["completed_body_intersections"]+=intersections
             document["last_completed_parent"]={**descriptor,"reference_sha256":reference_hash,
                                              "body_intersections":intersections}
@@ -547,7 +554,9 @@ def main():
              and document["actual_progress"]["new_strict_comparisons_completed"]==2
              and document["actual_progress"]["new_whole_maxima_completed"]==5
              and document["actual_progress"]["finite_matrix_allocations"]==0
-             and document["actual_progress"]["old_targets_recomputed"]==0)
+             and document["actual_progress"]["old_targets_recomputed"]==0
+             and document["continuation"]["new_parent_cells_completed"]==152
+             and document["continuation"]["completed_collar_cells_recomputed"]==0)
         document["complete"]=True;document["stage"]="complete"
         document["runtime"]["wall_seconds"]=time.monotonic()-started
         publish()

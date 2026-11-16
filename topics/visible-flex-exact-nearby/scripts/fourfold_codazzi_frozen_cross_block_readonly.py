@@ -8,8 +8,8 @@ from pathlib import Path
 
 TOPIC="topics/visible-flex-exact-nearby/"
 REPOSITORY="Rogerhu12/math-research-public"
-MANIFEST_KIND="complete_frozen_cross_block_positive_head_current_inputs_v1"
-PROBLEM_ID="WPTV_frozen_cross_block_value_tail_v1"
+MANIFEST_KIND="complete_frozen_cross_block_remaining_body_current_inputs_v1"
+PROBLEM_ID="WPTV_remaining_body_after_43854566735_v1"
 PARAMETERS={"bits":320,"parent_band_subcells":8,"maximum_doubling_bands":20,
  "maximum_parent_cells":161,"uniform_refinements":[1,2],"maximum_refined_cells":322,
  "reference_q_floor":"1/8","reference_q_binary_places":20,
@@ -54,6 +54,9 @@ INFLATED_GROUP_KEYS={
  "complete_delta_bounds":COMPLETE_COEFFICIENT_KEYS,
  "complete_delta_fees":DELTA_FEE_KEYS}
 
+CONTINUATION_CONTRACT={"kind":"complete_WPTV_preserved_collar_remaining_body_contract_v1","prior_files":[{"role":"prior_science","path":"topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43854566735-1/actual-scientific-conclusion.json","git_blob_sha":"e5721a0ecea7c3131401a8caa94839ad10e2e315","bytes":15309,"sha256":"b8812b6b940b17532c7643555d3393da71c2190606082862ccf651fbff762274"},{"role":"prior_execution","path":"topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43854566735-1/execution.json","git_blob_sha":"fe4c3e274701d9237736809e7dd12b801ce8c79c","bytes":31256,"sha256":"e7246476bc02fe196ec10186783bcda8892621ec1c105d4b99dc612647cd3eca"},{"role":"prior_manifest","git_blob_sha":"c1228b9d5984a0a2d11de37b6dcd6e6eebbb5801","bytes":45380,"sha256":"9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4","path":"topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-current-inputs.json"}],"prior_problem_id":"WPTV_frozen_cross_block_value_tail_v1","prior_run_id":"43854566735","prior_run_attempt":"1","first_unfinished_parent":1,"completed_parent_prefix":1,"total_parent_cells":153,"remaining_body_parents":152,"prior_reference_chain":{"count":1,"sha256":"947c13032e6e6dc6496e42d2a78b0178b41dbc4372069a321f3f501a07547df7"},"no_completed_collar_or_old_target_may_be_recomputed":True,"original_failure_and_complete_file_bindings_preserved":True,"raw_three_or_five_field_records_use_original_lower_upper_hull":True,"single_ball_new_records_read_unchanged":True,"finite_display_parser":"ASCII decimal/scientific; bare, [exact], [mid +/- radius], [+/- radius]; no condensed or nonfinite forms","reference_sign_fallback":"ball centre; then endpoint display midpoint/lower/upper; then K=1/64, gamma=1, Cref=-1; all are reference choices only","future_scientific_restart_requires_another_explicit_remaining_contract":True}
+PRIOR_FIELD_SHA256={"actual_checkout_commit":"fdc15495ffe3a6360d65ccdb763ce230bce61d77b68b3491bca3963427b6a52d","actual_progress":"5f3a4ab60fbbab8092c6421d4801158d062c65cddb9d2e519b64ce9ef9086dbd","complete":"2ed27c1421e6928dbe13dbfdb5c59e1045b30341fe7ebe05700006bc5ac572c0","complete_coefficient_maxima":"45cf27f9814727904fd612b9e1aef313312ec58fa151db5939ecb24757ab3e41","completed_targets":"37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570","conditional_inverse":"38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed","copied_complete_candidate_metadata":"aa864b2f189497b01dff719f3c16634620fc2f75d22236f81c42236f12abb356","copied_complete_repair_definition":"440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47","copied_original_records":"02a86f96d35494fdc13f56bc47cc48415214620c0b28cdccb90a96c170f8fefe","copied_original_scope":"0ecf9b7ebedbd61e1d0309af891d0308ba4615210ae5799a8f225a2284221bab","current_parent":"b3e03ed2d9fb09686e35a6530a75744ef941305f99921ba990ef17dc5ae36cc9","current_target":"386dc13da35428d40b384c448c7f1e0383db637792dce68156f9c491f4fa4878","failure":"b18ba44ff286cd01c4b4a59275f272792197e471ca8610fb634a4da6644c4235","gates":"67deab527dafde52afb72513d259a1d4ac4d2ae7b484dcfe160b386dc59c38ec","inventory_sha256":"81c5386e0443b68673fc69629ee2bf70bab8ed03f9ffd59e02066dedd3f1a712","kind":"473073c84220a9569476d773d3697480d526f70bad88aad29f53601c47d51ee1","last_completed_parent":"caa3bc544996365707a839516f0b9ced54f9536e39134a0ea1c93e77ab612502","manifest_sha256":"1538ce775da1b41097d5a6d81f1b50511d50e2ba79fb6c828d1667a51086145c","mathematical_contract_sha256":"3ec6876153a1b82335aee6ead929ebed298121f83794112d8aab655f5c2e2e49","mesh_summary":"a9ef25981dc073a987c57ac481159526f1c9b72a5806b4a32d2f109281fcd151","original_admission":"f86cc18bcd8253d036eac1fe0d32fe335d71d43894ac6f13866e0553637ff171","original_input_sha256":"00919519f014f74e5e20c4fd2bce48f728aadd69f9acb6a8963f089901780e4e","parameters":"e4981a971565d1e966911ccf39517016c02b1f58024d0e5672d7968c3e092f76","problem_id":"a35ddfd0763fc5f6c950743b37896f7ce1d0d39550f8d186adf4ca1893a0ced6","reference_chain":"8ccf775bfc5d65b7126fefce0d169d3fda31194f41f195bc5610f6357431f8f0","refinement_contract_sha256":"38a7732363163936341cc668136b1bf54c54357e014b41708e91cc3604fd525c","retained_scope":"691e6c77226f980254b31fb5a9a665c8b73df17a52096260551f15a467aa040e","runtime":"01b71a1aeec3c2dacf477658455943bda38d6732a4e920db9ef397aad94e90a4","scientific_modules":"0d499644f80b8db1a127ddadf895bf160268dc3c418550160f2e2d908ace5d7f","selected_mesh":"38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed","stage":"5246726b2af7bd324c1cc845d12c06cc5b3d778a2ce2d85323b65a29a45bd2b0","whole_candidates":"ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"}
+
 def require(ok,message):
  if not ok: raise ValueError(message)
 
@@ -80,6 +83,37 @@ def at(value,path):
  for key in path: value=value[key]
  return value
 
+DECIMAL_TOKEN=r"[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
+
+def finite_display_tokens(text,context):
+ require(isinstance(text,str) and text.isascii() and 0<len(text)<=128,
+         context+": bounded ASCII original ball text")
+ value=text.strip();bracketed=value.startswith("[")
+ if bracketed:
+  require(value.endswith("]"),context+": complete outer ball brackets")
+  value=value[1:-1].strip()
+ else:
+  require("[" not in value and "]" not in value,
+          context+": no partial ball brackets")
+ if "+/-" in value:
+  require(bracketed and value.count("+/-")==1,context+": one bracketed radius")
+  left,radius=value.split("+/-")
+  centre=left.strip() or "0";radius=radius.strip()
+  require(re.fullmatch(DECIMAL_TOKEN,radius) is not None,
+          context+": finite decimal radius token")
+  require(Decimal(radius).is_finite() and Decimal(radius)>=0,
+          context+": finite nonnegative printed radius")
+  form="mid_radius" if left.strip() else "zero_centred_radius"
+ else:
+  centre=value;radius=None;form="bracket_exact" if bracketed else "bare_exact"
+ require(re.fullmatch(DECIMAL_TOKEN,centre) is not None,
+         context+": finite decimal centre token in "+repr(text))
+ return centre,radius,form
+
+def signed_display_centre(value,context="original finite reference display"):
+ text=value["ball"] if isinstance(value,dict) else value
+ return Fraction(finite_display_tokens(text,context)[0])
+
 def record(value,context="original record"):
  require(isinstance(value,dict) and set(value)=={"ball","lower","upper"},
          context+": exact three-field record required")
@@ -95,6 +129,8 @@ def intrinsic_record(value,context):
          {"ball","lower","upper","mid_float","radius_upper_float"},
          context+": exact five-field intrinsic record required")
  record({key:value[key] for key in ("ball","lower","upper")},context)
+ for key in ("ball","lower","upper"):
+  finite_display_tokens(value[key],context+"/"+key)
  for key in ("mid_float","radius_upper_float"):
   number=value[key]
   require(type(number) is int or
@@ -494,8 +530,149 @@ def admit(repo,manifest_path,manifest_sha,native_path,receipts_path,candidate_pa
   "candidate_shape":[4,6144,65],"candidate_nodes":6145,"repair_suprema_count":65,
   "current_file_count":len(specs),"historical_input_count":19,
   "restoration_receipts_bytes":len(receipt_raw),"restoration_receipts_sha256":digest(receipt_raw)}
- return {"manifest":manifest,"inventory":inventory,"native":native,"rows":inflated,
+ admitted={"manifest":manifest,"inventory":inventory,"native":native,"rows":inflated,
   "kernels":orders[0]["complete_rows"],"cubic":cubic,"repair_suprema":list(map(Fraction,suprema)),
   "literals":literals,"WHV":whv,"old_scope":old_scope,"candidate_metadata":meta,
   "repair_definition":definition,"admission":summary,"current_receipts":specs,
   "scientific_modules":modules}
+ admitted["continuation_admission"]=admit_preserved_prefix(admitted,texts,by_role,receipts)
+ admitted["prior_failed_science"]=data(texts["prior_science"])
+ return admitted
+
+def admit_preserved_prefix(admitted,texts,by_role,receipt):
+ manifest=admitted["manifest"]
+ require(manifest.get("continuation_contract")==CONTINUATION_CONTRACT
+         and manifest["expected_current_input_count"]==27,
+         "exact declared remaining-body input contract")
+ for spec in CONTINUATION_CONTRACT["prior_files"]:
+  require(by_role.get(spec["role"])==spec,"entire original failed-file identity")
+ prior=data(texts["prior_science"]);execution=data(texts["prior_execution"])
+ old_manifest=data(texts["prior_manifest"])
+ require(set(prior)==set(PRIOR_FIELD_SHA256)
+         and digest(canonical(prior))==by_role["prior_science"]["sha256"]
+         and {key:digest(canonical(value)) for key,value in prior.items()}==PRIOR_FIELD_SHA256,
+         "all32 original scientific fields retained verbatim")
+ require(old_manifest["kind"]=="complete_frozen_cross_block_positive_head_current_inputs_v1"
+         and old_manifest["problem_id"]==CONTINUATION_CONTRACT["prior_problem_id"]
+         and old_manifest["parameters"]==PARAMETERS
+         and old_manifest["core_current_files"]==manifest["core_current_files"]
+         and old_manifest["historical_inputs"]==manifest["historical_inputs"]
+         and len(old_manifest["files"])==24,
+         "original complete manifest and same full scientific inputs")
+ for key in ("inventory","mathematical_contract","refinement_contract"):
+  require(old_manifest[key]==manifest[key],"unchanged complete primary "+key)
+ require(prior["kind"]=="complete_frozen_cross_block_value_tail_v1"
+         and prior["problem_id"]==old_manifest["problem_id"]
+         and prior["parameters"]==PARAMETERS
+         and prior["manifest_sha256"]==by_role["prior_manifest"]["sha256"]
+         and prior["scientific_modules"]==old_manifest["scientific_modules"]
+         and prior["retained_scope"]==manifest["retained_scope"]
+         and prior["original_input_sha256"]==
+            {s["role"]:s["sha256"] for s in manifest["core_current_files"]},
+         "all original parameter/source/scope/binding qualifications")
+ require(prior["complete"] is False and prior["stage"]=="failed_saved_complete_prefix"
+         and prior["completed_targets"]==[]
+         and prior["current_target"]=="complete_frozen_cell_coefficient_maxima"
+         and prior["whole_candidates"]=={} and prior["selected_mesh"] is None
+         and prior["conditional_inverse"] is None,
+         "only the original incomplete whole-maxima target may continue")
+ require(execution["kind"]=="small_frozen_public_scientific_execution_v1"
+         and execution["repository"]==REPOSITORY
+         and execution["run_id"]==CONTINUATION_CONTRACT["prior_run_id"]
+         and execution["run_attempt"]==CONTINUATION_CONTRACT["prior_run_attempt"]
+         and execution["manifest_sha256"]==prior["manifest_sha256"]
+         and execution["problem_id"]==prior["problem_id"]
+         and execution["scientific_started"] is True
+         and execution["scientific_children"]==1
+         and execution["actual_child_returncode"]==1
+         and execution["readonly_diagnostic_only"] is False
+         and execution["scientific_complete"] is False
+         and execution["original_scientific_complete_flag"] is False
+         and execution["completed_old_targets_recomputed"]==0,
+         "complete original failed execution and unique scientific boundary")
+ require(execution["current_input_receipts"]==old_manifest["files"]
+         and execution["actual_scientific_checkout"]==prior["actual_checkout_commit"]
+         and execution["original_scientific_failure"]==prior["failure"]
+         and execution["historical_restoration"]==receipt
+         and execution["scientific_files"]==[
+          {key:by_role["prior_science"][key] for key in ("path","bytes","sha256")}],
+         "original current/native/scientific receipts all match")
+ expected_ast=[{key:s[key] for key in ("role","path","sha256")}
+               for s in old_manifest["files"] if s["path"].endswith(".py")]
+ require(execution["AST_receipts"]==expected_ast and len(expected_ast)==10,
+         "all original10 AST receipts, not an old import")
+ preflight=execution["readonly_preflight"]
+ require(preflight["returncode"]==0 and preflight["stderr_bytes"]==0
+         and preflight["complete_output"]==
+          {"complete":True,"preflight_only":True,"admission":prior["original_admission"]}
+         and preflight["stdout_bytes"]==len(canonical(preflight["complete_output"]))
+         and preflight["stdout_sha256"]==digest(canonical(preflight["complete_output"])),
+         "entire old successful readonly preflight")
+ check_old=dict(prior["original_admission"]);check_new=dict(admitted["admission"])
+ require(check_old.pop("current_file_count")==24 and check_new.pop("current_file_count")==27
+         and check_old==check_new,"same complete native and candidate qualifications")
+ require(prior["gates"]==[{"name":name,"passed":True} for name in CHECKS]+
+         [{"name":"predeclared_small_mesh_and_all_original_domains_admitted","passed":True}],
+         "all eleven original completed gates")
+ progress=prior["actual_progress"]
+ require(progress["completed_parent_cells"]==1 and progress["completed_body_intersections"]==0
+         and progress["scientific_targets_started"]==1 and progress["scientific_targets_completed"]==0
+         and all(progress[key]==0 for key in (
+          "new_whole_maxima_completed","new_scalar_records_completed",
+          "new_strict_comparisons_completed","conditional_resolvents_completed",
+          "old_targets_recomputed","original_repairs_regenerated",
+          "finite_matrix_allocations","new_array_artifacts")),
+         "exact original completed collar and no completed body/scalar target")
+ require(prior["reference_chain"]==CONTINUATION_CONTRACT["prior_reference_chain"]
+         and prior["last_completed_parent"]["parent_index"]==0
+         and prior["last_completed_parent"]["kind"]=="collar"
+         and prior["last_completed_parent"]["body_intersections"]==0
+         and prior["current_parent"]["parent_index"]==1
+         and prior["current_parent"]["kind"]=="body"
+         and prior["current_parent"]["state"]=="started"
+         and set(prior["current_parent"])==
+          {"kind","left","length_upper","parent_index","right","state"},
+         "no saved body reference may be discarded or repeated")
+ require(prior["mesh_summary"]["parent_cells"]==153
+         and prior["mesh_summary"]["refined_counts"]==[153,306]
+         and set(prior["complete_coefficient_maxima"])=={"A","E_b","U_b","L","B"},
+         "same mesh and five complete original running maxima")
+ root_reference=digest(b"root:S=Id,D=0,B0=0")
+ require(prior["last_completed_parent"]["reference_sha256"]==root_reference
+         and prior["reference_chain"]["sha256"]==
+          digest(bytes.fromhex(digest(b""))+bytes.fromhex(root_reference)),
+         "complete original collar reference chain without recomputing its bounds")
+ for name,value in prior["complete_coefficient_maxima"].items():
+  require(set(value)=={"ball","witness"} and isinstance(value["ball"],str),
+          "entire original maximum record "+name)
+  finite_display_tokens(value["ball"],"preserved maximum/"+name)
+  require((value["witness"] is None and name in ("E_b","U_b","B") and value["ball"]=="0")
+          or (name in ("A","L") and value["witness"]["parent_index"]==0
+              and value["witness"]["reference_sha256"]==root_reference),
+          "unaltered original witness "+name)
+ old=prior["copied_original_records"];whv=admitted["WHV"]
+ require(old["original_nine"]==admitted["literals"]
+         and old["WHV_readonly_records"]==
+          {key:whv["new_records"][key] for key in ("A_c","A_c_weight","pi")}
+         and old["WHV_previous_strict_mesh_gate"]==whv["strict_mesh_gate"]
+         and old["WHV_previous_required_N_diagnostic"]==whv["required_N_diagnostic"]
+         and old["WHV_previous_actual_progress"]==whv["actual_progress"]
+         and prior["copied_original_scope"]==admitted["old_scope"]
+         and prior["copied_complete_candidate_metadata"]==admitted["candidate_metadata"]
+         and prior["copied_complete_repair_definition"]==admitted["repair_definition"],
+         "all copied original metadata/records exactly inherited")
+ return {"kind":"complete_WPTV_preserved_collar_admission_v1",
+   "prior_files":CONTINUATION_CONTRACT["prior_files"],
+   "prior_full_json_sha256":by_role["prior_science"]["sha256"],
+   "all_original_field_sha256":PRIOR_FIELD_SHA256,
+   "prior_failure":prior["failure"],"prior_runtime":prior["runtime"],
+   "preserved_reference_chain":prior["reference_chain"],
+   "preserved_maxima":prior["complete_coefficient_maxima"],
+   "preserved_actual_progress":prior["actual_progress"],
+   "preserved_last_completed_parent":prior["last_completed_parent"],
+   "preserved_interrupted_parent":prior["current_parent"],
+   "first_unfinished_parent":1,"remaining_body_parents":152,
+   "all32_original_fields_and_complete_execution_read":True,
+   "all_old_sources_and_scopes_kept_at_original_file_identities":True,
+   "completed_collar_recomputation_forbidden":True,
+   "single_ball_new_records_are_read_verbatim":True}
