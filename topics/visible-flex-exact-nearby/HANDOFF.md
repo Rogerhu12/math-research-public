@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 00:58:44 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 01:07:55 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 00:46:05定时CLI仍无executor，下一≤01:46:05。最新CI真pull为SW11-16 00:37:23.853674→5423c8a7fd3869430df0d188ffe406f1d567d7f8，两次两README空diff；ref读取不冒真pull。
-最近只读README核：9f414643b4ef33e384b415492b53f6bc5ade6fc8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0204b4f3ef56164524eb02c24be9a4479e50e122；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -20,7 +20,7 @@ candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位
 
 SNA4214de05原43751213826/1/21成功锁；完整双支四导/真H/μ及pins/SCI/18a3、7edf失败/lost保新scope索引与原proof。仅限定314×4重建，旧losthash未冒核，成功不重。
 SC3/SCA3302361e原43754452928/1 child0/20、12steps锁；完整7908/32组/3×97+mean，known≈3.8444e−13、wholeaffine≈1.61721e−7，未知body主导。全部原球/pins/SCI/preGit/失败lost见SCA及c9f72b1a同H，成功不重、大log不取。
-CEBA26dcc2f8原43780532148/1 child0/22、12steps成功锁；11pins/4AST/41旧球6整对象、12rows/24Jp/两whole全核。两域选1/16，full≈1.368216022e−7/tail≈1.363011621e−7；SCI52340/96de85be、preGit61461/3c98e979。非线性body仍主导，原y/左10d/mean/outer全保；trace/core/incoming/finite未付，旧成功禁重。
+CEBA26dcc2f8原43780532148/1/22成功锁；12rows/24Jp两域选1/16，full≈1.368216022e−7/tail≈1.363011621e−7，未知body仍主导。全部pins/原球/SCI/preGit保proof及9baeef17同H；原y/左10d/mean/outer全保，trace/core/incoming/finite待，旧成功禁重。
 
 ## 当前已付链与下一实际计算
 
@@ -33,9 +33,10 @@ BF e8e29c49真实square T+E+LV、χ=K0 CE ΛJ^-4/3及增广Schur保PUVP/两mean�
 BTb5c2f844全已证细节保7a037e78同H/proof：head dual=E97*S^-1 joint无√193，scalarΠ≠physicalmeans；Q97双消、右Z97 unitary、rootFF≤1215/固定FT/mean/cross finite。radialhead及r积分仍可无限；actualcolumns/square/独立ports/无限费/finiteinverse未付，旧SJ/CG/WE全保。RBT8a20d39c仅root E2/R0带宽384/576，Jt>576时I前4(Jt−576)及真97..Jt−1 Schur保；97门仍原费用，无新pass。
 
 根jet原式保notes/2026-11-16-completed-root-jet-and-operator-interface-index.md；RBG157795fd/RBOa45e0264保z=16N^-2、hrrr仅N^-10/3、无z曲率/全meanrank/真βn/J低1/4。RI01afb86c已核10inputs/7sources，K4/η3/4×5混导/两J/λ/V/β可原字复用；aux整体fail仅两case成功。同域whole e新数值待，不授kernel0/incoming/finite。
+R97543ebc38完成δ3/ΔRD精确收项及完整原97标量配方，全式与输入域独核；同realδ1e−8/fixedη0，2原native临时恢复，保持全mean/J/1/4/真β与h3。source/worker静审中，尚未数值；whole门/原kernel0/incoming/finite待。
 PSB e6c777a7/PTB0ee90c65的完整mean同号各Hs逆、r<κ、有序resolvent及fixed低cW/L2K下线性high norm tame，原式全保414c3a34587250a26ccc482cb86769b0ce0cf970同H/proof。仅fixedcircle scalar；真背景高导/坐标/fulloperator tame及fullincoming仍未付。
 UT/UTA d23b71f8原43776528869/1/22锁，fullT三source/3070jump/两端全付后SF≈2.772751688e92、paid≈1.63981109e99；全回执见proof/新scope索引。CG一次/两mean/WT同逆/六retained保，Ei/incoming/finite/return未付。
-SWA803afd6a原43781399696/1 child0/24、12steps成功锁；同SW72bb6b3c单一W/全DW/Q/T1F2/两mean/3070jump/双端已付，wholepaid≈4.17526394e90低于原UTA≈1.63981109e99。SCI27687/f16a1dc6、preGit37109/95680a63，11pins/4AST/30球6对象全核；CG一次，仅整paid选择。六retained/fullEi/incoming/finite/return未付，大upper非下界，成功禁重。
+SWA803afd6a原43781399696/1/24成功锁；完整W/DW/Q含T1F2/两mean/3070jump/双端，wholepaid≈4.17526394e90、CG一次。全部pins/球/SCI/preGit保proof及9baeef17同H；只整paid选择。六retained/fullEi/incoming/finite/return待，大upper非下界，旧成功禁重。
 
 NWA b7fc4876原43775614821/1/20锁，完整原norm/log/optional false/71字段与scope保NWA及a537ecd1同H；8整对象和13原球由NPKA原字继承，旧成功禁重。
 

@@ -46,9 +46,11 @@ FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Pois
 
 [已成根jet与算子完整索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD34eec24f/RBJa19878f7/RDA8d2570c7/RBD5d7c045f/RBG157795fd五原段。真实邻域递推给Da0/Da1/b1/Db1；genuine BV/H整件替，不二加CalB，公共K4/η3/Mrr先消，有限频率hrrr和无z曲率仍保。正meanrank用未投影e_amp、非零βn两profile、输入右序、全J/低中间频1/4及全δ/全角域不变。必须付完整输入/乘子/潜势数值并验证whole e<g−才可原kernel0与SE自然负窗onto；尚无stablepass/腰incoming/finite/非线性。
 
-[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264把Δ0=z c0、Δ1=d10+z c1精确分开，z=j^-2=16N^-2；BV/H/DV全乘积使hrrr仅在N^-10/3，无z曲率留h0。完整八行R0和正ΠM_E0秩保，仅纯输入对角ΠD_c0PH=0；IR0仍r0/4。Wiener完整finite pairing/物理4ℓ及1+zh另gap保。真βn保，Ai有理A*=35/57、D*=7/19，g−=17/19(1/3+4λ−/(21η+))仅real族；原全ν/δ输入、whole e严格门/同自然负窗、incoming/finite仍未付。
+[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；whole e严格门、同自然负窗及incoming/finite仍待。
 
-[RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：high-v2原普通K/beta/gamma/s0..9；aux整体child1保，仅1/10000与1/2000成功；全η/mean径0..3，4501B原mixed4×5与30595B原sharpJ可精确history临时恢复。完整∂J由原factor并含ordinaryL2，9/2非物理λ；λ/Vroot用smallcase，原β用largecase terminal，均不重算。新相关组合/完整rational/whole e及同realδ1e−8域待，native/shard大件不聊天取，完整incoming/finite保。
+[RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：普通高jet/全mean与η3/完整mixed4×5/左∂J普通L2。aux整体fail保，仅1/10000、1/2000成功；4501B与30595B只精确history临时恢复。物理λ/rootV取smallcase，β取large terminal，9/2非λ。完整原球/域/所有恢复身份保proof；无旧重算/fullincoming/finite授予。
+
+[R97原97完整标量配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38已证δ3五组和ΔRD九组精确先收项，h0/a*径向关联先区间再范数；全Srr/k1v²/mean/三导h/两参考/低1/4及正均值秩保。只同real |δ|≤1e−8、fixedη0/root；各旧disk/square不扩域。新consumer用旧两native和完整原字小回执求原N*=388 whole e，未运行、未获stablepass；strict失败仍完整scalar结果且非kernel证据，不重成功。incoming/finite/自然负窗数值逆/真背景仍未付。
 
 [RBT原根带宽与真实tail Schur](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c只对同explicit有限族原root：E2带宽384、R0带宽576，完整正meanrank输入≤384/输出≤192；J/L不假band。Jt>576时只在J/L之前以4(Jt−576)付IR0、ΠBV P_t精确0，得独立conditional L2 tail门。真正97..Jt−1双sign有限Schur含完整cross/J/meanrank必须另证；原97费用/新consumer不改。负自然窗仅全kernel0后SE定性转授，不复制L2常数；两physicalmeans/原head/独立ports/fullincoming/finite仍保，无新pass。
 

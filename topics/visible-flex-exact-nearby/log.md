@@ -354,3 +354,9 @@ potential最小case root λ=κ*与V可复用，整pieceflagfalse保；β仍原�
 逐RBG完整递推：d/p/ell/bop192，Dp与E0/BV384，D²p/ΔC3/ΔRD/E1/H576，Da1≤384；positive meanrank输入≤384/输出≤192故整项band576保。root X=φ，未插入后续composition。真正输入Jt>576使IR0Pt输出标签≥Jt−576，费用只在J/L之前；不假J、L乘积或stable trace为band。tail的ΠBV Pt真0只该输入尾部，原97及两physicalmean不删。
 
 全RBT20 Schur保原97..Jt−1两个sign、真实J/高逆/cross，只有tail strict门与finite nonsingular皆证后才全root逆；SE固定自然窗为定性扩展，未搬L2 numeric。当前唯一root97消费保持不动，本篇无新数值或inverse。另RI6–7 tail独立核现齐：两原J factor/ordinaryL2、potential smallroot vs genuine large terminal/β完整域均通过。
+
+### 2026-11-16 01:07:55 UTC — R97完整原截止97标量配方（解析结论，未运行数值）
+
+fresh main 0204b4f3ef56164524eb02c24be9a4479e50e122 的根/本题README同原blob；只读核不冒真pull。独立发布R97 `cc0d98891f52a8c6ec1c718c57d7be143db0134c` /20143B /SHA256 `543ebc3899931db63bda92c31ce20d8f21013daac906e00eaf761a28ff582f74`。root全文首稿+全部修订差异，phase核原RBG分组/newton独核、root手核ΔRD九组系数；tail核输入域/旧θ同h/λ与terminalβ/均值/J导数侧。δ3五组和ΔRD九组为精确代数合式，先收径向scalar再区间/范数，完整k1v²/mean/D²p/ZD/ZDD/WAC、三阶h与无z曲率保。
+
+同real |δ|≤1e−8/fixedη0真根；旧disk和square各保自身域，只取共同real子族。新SCI设计只读两历史原gzip和旧小回执，不执行旧producer/根/mean/airy/potential。原97、N*=388、完整正meanrank、全J和IR0原1/4不改。whole严格门尚未数值；完整上界失败不证kernel，也不以此授权重算。source/manifest/worker仍静态复核，未启动新Actions。SWA/CEBA H与RBO/RI open仅索引压缩，原逐字段保9baeef17e8cba347889646959eaf272287eee549同H/open及原proof；所有未付义务不减。
