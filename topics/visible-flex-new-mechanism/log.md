@@ -359,3 +359,7 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 [原观察](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)读完整research/report：原错误非零断言与准确H两固定158/159矛盾，0值/J/solver/actual，新26.784710984000014秒，总3784.759531354/147，原余额1773.215289016用于必要实现续接。7record全/报告无缺失，失败和counts不抹；只修原接线不作几何结论。
 
 原双仓真pull最近public17:54:30.132624→47942fb212bcc2f424fdf546437cd38b08c2d7e1，private17:54:33.752780→2dc8b0fa60bc03f989904678ee3468b9ca6c9bf2；双README空diff、私队唯一进行中，下一≤18:54:30/33。H已更新，full62两段完整open历史逐字归档；无重算或在途科学读取，结论立即推送。
+
+## 2026-11-16 UTC：R563第三真实低尾与完整正R0边界
+
+[R563](results/R563-third-real-low-coast-and-a-six-zero-family-with-free-end-parameters.md)原式纸证已全文读取，第三真实A/T与W∞、实际高目标/事件/长快C¹和同χ端IFT均保；得到六零的三外参数实际族。原r0静态表付完整正首项，叠加正闭振子cross，明确本族不能仅靠正时长/节点清R0。0科学执行；结论立即推，继续真正负R0作用。R552/556/557原open条目逐字归档，未撤任何条件/成本。
