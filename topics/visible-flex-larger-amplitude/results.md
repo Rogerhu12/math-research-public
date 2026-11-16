@@ -57,3 +57,5 @@
 - [R567 — request238实际当前prefix管与完整场链](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)：七件314058B；原235全部545保→557、实际sameC evidence真675/R553管、原normal evidence/metric/DFS/闭场/资源门全保；两必要reader完整诊断不代接受，实际R568另付。
 
 - [R556 — 同C完整112far两worker及原序账](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)：四件99450B；同一ω/完整两mode、原25M/绝对钟、精确arb传输/ctx、全部原账重定位/两级commit/同PGID/真实reap；未作运行或速度结论，完整入口R557另付。
+
+- [R569 — 同次literal cubic与准确quintic完整缺陷](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)：最终三件74959B；全部实际PPoly/augmented字、辅助C*分解和全Bernstein E0/E1/joint段条件Gram，物理角A²ρ²且rho_lower真675，旧f349未刊；真实完整caller R570另付。

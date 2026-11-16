@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R569最终](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)三件74959B本次独立刊**：同次真实sol.sol.c四幂×所有interval×全部augmented列，Q−C_lit完整含辅助C*与literal差，E0/E1全Bernstein和joint段正域条件Gram齐。物理角A²ρ²/rho_lower真实675，P本身不另乘ρ；未刊f349旧版本被最终45975取代。旧节点/raw没有literalPPoly不能重造；源组件未注册新run/reader/quiet，R570/239真实三driver捕获另付，FFT形成及投影缺陷另付。
+
 **[R556](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)四件99450B本次独立刊**：完整112far两mode同一ω∈Ω、原25M原子总额度/绝对钟，全部arb mid/rad dyadic与ctx、原序全账/地址重定位/prepared SHA/两级commit保。完整durable提交后退休spool、同PGID/真实handle/reap/失败不续wave，unknown quiet不冒真。无新运行或速度；完整真实235消费者注册另R557/234/R558。238已a4c45/run43885002914唯一POST200，官方绑定本次保。
 
 **[R567/request238](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)/[接口](notes/2026-11-16-request238-current-prefix-tube-complete-chain-interface.md)本次七件独立完整刊**：557=302public+255gen、原235的545源全保；同次实际sameC evidence真用675全quintic/真实μν的R553管，normal prior evidence和全部原metric/DFS/闭场消费者不改。全新诊断及负域/未付进两必要reader，原18900+2700/90K70保持；正式刊后唯一POST，R568 geometry唯一。237已99347c61、唯一run43884807627，[正式绑定](notes/2026-11-16-request237-official-run-binding.md)不等于科学接受。
