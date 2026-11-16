@@ -127,3 +127,8 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 [完整来源定理](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)由原首一三次商的自由三分量给t^K↔b^floor(K/3)，ρ_r无除法取全部17源、最小Bell1来源权=3q0；原完整388/391门在同127/d100亦真排K≤8。
 根推导、normal全文独审，明确单列18原乘回足正证而负完备仍保全部门；无新positive或数值运行。共同B真选源已178.678秒成功、消费者继续，普通ISP未完成。
 
+
+## 2026-11-16 09:59 UTC — Astra-ISP-789f：共同原B完整结构与最少八生成元
+[完整定理](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)实run43841516263给D型(1^6,2,3,4,4,5)、长24/dD11/dR8，xB(1,1,1,2)，完整18×22 D呈示和原x作用；原M→B使后继dR(M)仅8或9。
+根全文审/两原raw与binding、96阶段/17类/9坐标全核，附只读审计源码；源费用仍按原8515存在界。Bell旧job已取全日志，只有5–7完整，8及conditional候选dump未完/E未跑；如实转direct9单目标来源，普通ISP未完成。
+
