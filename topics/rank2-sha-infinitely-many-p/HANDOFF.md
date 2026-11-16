@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：78e4b6dc3a2be7b2e2e663fdbf659e60de35400b；2026-11-15 23:58:26 UTC核两README无变。实际CI pull 2026-11-15 23:51:29 UTC/9cf90ef5b006ff756939b6d883f8edc2365af57a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:35 UTC再实际pull。
+- 最近已读规则提交：6ced1e85df9bba9dff574bd15815f59b380a4a2b；2026-11-16 00:02:48 UTC核两README无变。实际CI pull 2026-11-15 23:51:29 UTC/9cf90ef5b006ff756939b6d883f8edc2365af57a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,9 +11,9 @@
 
 ## 完整归档与当前分工
 
-[本次压缩前全文](notes/2026-11-15-frontier-before-r838-family.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–838已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比较；deep续R836受限值/原镜轴指定迹；theta做四实际bΘ全卷积；literature查diagonal→generalized-Heegner及critical比较。R838已付，其后编号由root协调。结论成即分别推。
+[本次压缩前全文](notes/2026-11-16-frontier-before-r839.md)、[完整open](notes/2026-11-15-open-before-r826.md)沿链保全部旧公式、十九角/ray、run/hash、撤回及未付门。压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–839已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者，续R839实际Ceresa同态/canonical比较；deep续R840原2Z像/同scalar尾；theta查固定theta覆盖与第五Cartier伙伴；literature续R838临界主极项/原λ比较。R839已付，deep续R840；其后编号由root协调。结论成即分别推。
 实际pull23:51:29/run43777047575/job133005590314，两README blob不变、差异空；回执ci/rule-pull-20261115T235129.json，下一00:35前。R818/820/830成功run/source/args/hash见各证，不复跑；R830初版18/288误用已修。
 
 ## 唯一端点、原 CM 类与跨 p
@@ -21,7 +21,7 @@ root唯一metadata/ref写者，继续唯一端点类/CM几何与原canonical比�
 R804/806/811/814只付同原λ的指定z/loc/AJ/I_j,-2非零等价；固定7/13 good pair、全Euler/period/基比见完整归档。R817仅7993三unit及固定cycle独立；R818仅复秩1，其他p/原三I线性和及全Sha7993仍开。R826最高λ在第四槽，Besser两项/U=pφ⁻¹/1+barπ/π²及LLZ germ保。
 R829同q0全Chow零；R830相异q4*修复的2/3/17 test vectors、4/12尺度已付，R831全old矩阵[[0,0,Z],[0,0,0],[−Z,0,0]]只留唯一端点；X0/1次数6/12、遗忘1632/816和W4负号保。原AJ/global非零与R814比例仍开。
 R831同三维old空间不增加独立算术条件。
-R832真Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，R757全轨道/BFH/KL/CM自扭付混合K点rank0，故Z=prλZ、三ordinary槽零；仅h1用全忠实。λ Chow维数/Z非零/R814比例未付。[椭圆平移消失](notes/2026-11-15-cm-top-projector-kills-elliptic-translates.md)已付，root续高亏格实际对应。
+R832真Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，全轨道/BFH/KL/CM自扭付混合K点rank0，故Z纯λ、三ordinary槽零；仅h1用全忠实。[R839](results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)付Πtop在全部CH²上的平移不变、所有超椭圆像及真阿贝尔子簇平移像零。固定Artin扩域后，原Z实际为Σc_rΠΦr*[X]=½Σc_rΠCer(Φr)，Φr=(af,ag∘q0,ah∘q2)来自真实Jacobian同态有限展开；无新6倍率，全X1尺度保。原同态坐标/非零/R814比例仍开。
 R835固定λ与type(1,0)的ψa，导子c+c^c=OK迫γa=λ/(Nψa/ψa^c)根数−1：原2/3/17比角色恒1，新增split反射/全局−1齐付。故同最高λ三低权张量复秩≥2，不能保原simple zero/三mixed rank0；不排其他critical路。
 [高度范围](notes/2026-11-15-repaired-diagonal-global-comparison-scope.md)保YZZ Δv=Θv+2Ev的σ尖点投影，Eisenstein性未付；λ⊗λ∨角色相消不杀坏位误差，新ASW范围未覆原平方导子。Marannino非CM门、CG2导子互素门均保。[BB范围](notes/2026-11-15-benois-buyukboduk-cm-pr-citation-scope.md)原(2,−1)不由所引BDP12证明，刊本未得，不断言错误。
 

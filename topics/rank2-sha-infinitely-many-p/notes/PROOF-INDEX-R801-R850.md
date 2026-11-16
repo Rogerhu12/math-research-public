@@ -161,3 +161,6 @@
 
 
 [R838 实际变权临界主极项](../results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录B用Coleman finite-slope完整Hecke像/稠密经典权排幂零，Hsu变权tangent给R=E[[τ]]、τ=Tℓ*、x=uτ^e；faithful a1 duality使权二纤维恰为原完整块。实际Hida输入的normalized eigencomponent为Cν=bν/w′，相对残数精确保bν(0)=u(0)dν，故lim eτ^(e−1)Cν=dν。原AJ是同非零period/Euler倍的最高主极项；非noble原点未套noble特殊值定理，也未认第一分支普通或主极项非零。
+
+
+- [R839](../results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)：对原E0³的最高CM投影，Fourier逐余维给全部CH²平移差的degree-three项F⁻¹(ℓ_aβ)，β为对称NS；中心Norm1的ζ6保β，Φ6与最高−1特征迫其零。故Πtop对全部一维循环平移不变，杀任意属超椭圆像及真阿贝尔子簇平移内曲线。原R831端点在固定Artin扩域/真实h1同构下准确为Σc_rΠΦr*[X]=½Σc_rΠCer(Φr)，保q0/q2、Jacobian同态的有限展开及原6/12/1632/816运输。非零项须生成E0³且正规化非超椭圆属≥3；未付该原类非零、Jacobian具体坐标或R814比例。
