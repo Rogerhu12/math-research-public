@@ -164,3 +164,7 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 2026-11-16 08:32:08 UTC — cap五门真实首步失败，原预算内继续
 
 [原结果](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：run43831664308/job133178210211/source03bfffd1…，prefix63回调完成；首零参数cap第14RHS溢出，尚无完整五门/J。FINAL0.5630522320000182秒，started2/complete1/fail1；原日志106370B/0e78611c…保全。不称有限或全局失败；只修首步并读回已付prefix，原同120秒/400started中carry失败。双actualpull空diff，公开已读0620f8d6…、私有ef9137d6…，QUEUE唯一进行中。新54模型与R486/487同步继续，主门未付。
+
+### 2026-11-16 08:32:45 UTC — R486 完整三导平方与状态开域障碍
+
+[R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)把原R296点态三项相消推广到任意真实水平路径，保真正初端A/T/速度常数；完整principal为−Σa_i²d_i∫(Q/h)L_i²(u_i‴)²，余表有限quartic C²但不可冒全可控。原全W与完整两表给H_PP,2−H_SP,1=−(5/2)Σd_i²∫(u_i″)⁴，在π/2等于−10∫g″⁴<0。因此固定同规范的完整无加速度F不能在13状态开域全零；不排实际ODE的低维允许路径。常scalar真M_c=bvᵀ、rank1/M_c²0且physical权b/(4h)，须在该关联族判完整平方及入口两系数；算子复合不由矩阵平方0删除。54高阶/108完整生成上界非实际秩。0新执行/旧重算，主完成未付。
