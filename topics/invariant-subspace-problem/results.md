@@ -132,3 +132,7 @@
 
 
 - **R150十六完整原三次边界来源及精确全参数回填身份（2026-11-16）：** [原35常单位与全部16右端证明](results/R150-appendix-complete-original-sixteen-cubic-border-source-certificates.md)保所有35三次输出及原五du/前两NFdw各乘全部u；真Q105×105 Dixon给16完整来源，首次163.633秒solve并保存后180秒预算停75。独立24.703秒续验按行/列整数清分母，全部1680有理乘回（560原E）准确真；根独核16完整压缩/逻辑SHA及全560的原系数有限域复核。列公分母最大72436bits但全为固定E常数。二次原单位与16恒等给全部lower精确SLP和u次数≤1的原source，未称已展开参数数组、自由10、交换闭包或Bell根式。
+
+
+
+- **R271一位完整Schur双恢复反馈与全远尾原权投影返回（2026-11-16）：** [完整原source证明](results/R271-appendix-one-bit-restored-adjoint-feedback-and-weighted-projection-return.md)保σ_i=(bi/si)HiCa1i和α_i=(bi/si)C*Hi a1i的不同次序，以√ui Ti/Ti*同时白化；x≥2/h≤2x时Mx≤4，原V/K/U的两条反馈行各≤4Vg。新头首源Hi a0−g=−α的投影整行已付。完整低forcing门Q≥R+h+1使三个实际投影的creation行≤4Vg；结合真creation源合成，任意|ci|≤1的全尾Σbi ci[PEEi*i0σ_i−Ei*ZEσ_i]≤11√S√Vg（V/K可7），且保Q+1输出与无限自然合成域。仍只指定Schur来源，未认作全部原MP返回。
