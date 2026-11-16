@@ -320,3 +320,8 @@
 - R909完整纸证单独登记：原544测试商与留数完美配对，把全主部移到不交纤维；同272逆只需0/1/2系数，分歧与D/H交点均保。
 - 目标用两个完整272 Artin迹；同F0逆作低权除法，单个新V1乘法/完整幂基给全部迹。仅公式与有限执行契约，未冒实际连接或canonical高度；H前态逐字归档。
 - 本push规则：公开Actions真实pull至2a43e90a791bb87e2ecea83efe7cc7c1b0786b76（2026-11-16T14:26:54.945848+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:29 Asia/Taipei — serre-public-astra-20261115
+- R908原有限平坦比较独立登记：保a_h的原q经完整BT归一化，实际kernel闭包商带原δ的Fp²作用；Raynaud两尺度及σ点态平凡给r偶。
+- 真Cartier对偶Lie单射与两种原惯性核给r∈{0,p−1,ρ_h}；good-model原微分content在r0恰ea_h，其他≥ea_h+pr。未换optimal/未去原指数，不冒指定盘normal或height；原文全文核读，H前态归档。
+- 本push规则：公开Actions真实pull至dafd0969d1b07a3750ebcf87fd16f55b2ab3323b（2026-11-16T14:29:41.762723+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

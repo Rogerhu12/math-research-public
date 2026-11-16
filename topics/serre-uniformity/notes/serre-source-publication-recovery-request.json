@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-full-principal-parts-three-coefficients-and-Artin-traces",
-  "commit_message": "serre: prove full principal parts from three coefficients and complete Artin traces",
-  "rules_last_read_commit": "5e5f4fecd9e8154c3f9d1cb8ddc029fc4e45a83f",
+  "request_id": "20261116-original-finite-flat-CM-quotient-and-two-gluing-scales",
+  "commit_message": "serre: classify the original finite-flat CM quotient gluing scales",
+  "rules_last_read_commit": "2a43e90a791bb87e2ecea83efe7cc7c1b0786b76",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "e6cb10019280875595d153d3bebb6cbf30db7661d6ff258cb75aab38c4203cc9",
+  "expected_previous_request_sha256": "fd882e48c2ef59237cfad0d434ad685912abb2cae05d265ccc9efe1e87eaa2e5",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md",
-      "sha256": "60f74fbd4fd23e64c86df615ee661b874ed8ae900a2c146c26aa74ece28e9391",
+      "path": "topics/serre-uniformity/results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md",
+      "sha256": "e1ae329aa9d718a5e352472da8cc779bbb403023bc940303f212ee465d879889",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-three-coefficient-principal-parts.md",
-      "sha256": "b3a3f61247b71675670826fc8f485e75927a878d460e86355798d1c4de4dc6db",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-finite-flat-CM-gluing.md",
+      "sha256": "0e87b8518b5ad7f866940c2feb7a4f94c817fd79161656399fa41aad75f4819b",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "61ecf4ce13d2546570e853305d95e18154f9fd6f4caa6148c6534686ee803e56",
-      "expected_previous_sha256": "b3a3f61247b71675670826fc8f485e75927a878d460e86355798d1c4de4dc6db"
+      "sha256": "72322ea4a6188ed560d86c595d850b97140cd32e16f156f752353d733f0ca329",
+      "expected_previous_sha256": "0e87b8518b5ad7f866940c2feb7a4f94c817fd79161656399fa41aad75f4819b"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "561082c451f3443dcb33bff9ddadc752db0cc38aa7c2afec3a171e5399f20e6b",
-      "expected_previous_sha256": "51a66f29e0af4d2989962f454c97a899e624c5f59992118219b6f1388bc7aa5b"
+      "sha256": "2491619cf5dcbf400031805e996dd930934fbc2edef4534693d5c884b7867494",
+      "expected_previous_sha256": "561082c451f3443dcb33bff9ddadc752db0cc38aa7c2afec3a171e5399f20e6b"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "accb83fa1e2c24fe61500089c7dd9359471399a733963483c96169a2a7050481",
-      "expected_previous_sha256": "1255c4cd733551f955c0e5ad4ca559911df4c990f3f23b4a592dfd8074f5cf62"
+      "sha256": "34415cf8b7df10430f80f6f67432eecde06f8a4a6aeff9dd4aabbdc77e61289a",
+      "expected_previous_sha256": "e202d6b02afba392452bfed92a11052d33cee014a0955dfd9d15587266facf19"
     }
   ],
   "dispatch_workflows": []

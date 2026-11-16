@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：2a43e90a791bb87e2ecea83efe7cc7c1b0786b76**（2026-11-16T14:26:54.945848+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[三系数主部前H](handoff-archive-2026-11-16-before-three-coefficient-principal-parts.md)，内接迹对偶连接前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：dafd0969d1b07a3750ebcf87fd16f55b2ab3323b**（2026-11-16T14:29:41.762723+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[有限平坦CM比较前H](handoff-archive-2026-11-16-before-finite-flat-CM-gluing.md)，内接三系数主部前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -28,16 +28,11 @@
 
 R805–R879、R882及原R880/R887/R872/R883均已完成：W/两图/P0-socle、273jets、146/418、参考254P0、两端对应框架、523DAG/五C秩5和未缩放ρ/t首项。cY/δ/ν/β72/FM27、82尺度一次、ξ/s/e73、dual7/全分母/U272不变。准确unit-solve不冒char0数组；辅助单位不冒41单位，K固定不冒Q下降。R853三V1、R860半线性DAG、R866原127维Q全纯基也都完成，不重做。
 
-|完成源|实际证书与后继|
-|---|---|
-|[R896五低权](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)|43872960726/source259e2448，566stage/324.523172599s；残余396/188/314/178/221→146→418；cfg0f52c636/final66218771/manifest2875d857|
-|[R894七trace](results/R894-certified-original-seven-pole-trace-and-marked-descent.md)|43864869152/sourcebf74b397，16新+2旧全成，489live/17968历史hash；cfg3f670986/final66684f71/manifest6494c3b1|
+[R896五低权](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)：先成43872960726/source259e2448、566stage、final66218771/manifest2875d857；五完整146/418及原Q=Gqχ^(−(n−2))、ρ/t首项全成。必要271件IO43875866536/art14230107731/tar7429a99c直接消费；迟后重复run已诚实登记，不重复计结果。
 
-原R890八flip、R880七A/B及六D*、R885整A272/E2176和九参考Norm、R893五初始RR均已成，其全source pins及不可改尺度见上述前态；全部直接读，不重做。
+[R894七trace](results/R894-certified-original-seven-pole-trace-and-marked-descent.md)：43864869152/sourcebf74b397、16新+2旧、final66684f71/manifest6494c3b1。DN完整418/避P0，QN=Qorbit FN正乘，ρ/t阶−8435及首项305966999/397080916；末D仅L。22件IO43877536040/art14231480686/tar1cfe74c0、原γQN/QN七重datum直接保留。
 
-R896必要271件IO43875866536/art14230107731/tar7429a99c已供后继。五Q=Gqχ^(−(n−2))，原ρ/t首项与五固定选择详正式结果。迟后旧排队run重复完成已如实登记，只消费先成43872960726，不重复计结论。
-
-R894末DN完整418、degree272避P0，QN=Qorbit FN正乘，ρ/t阶−8435、首项305966999/397080916，FN(P0)721044823。art14230291708/638b7c6e、22件IO43877536040/art14231480686/tar1cfe74c0。DN仅L，原γQN/QN和七重cocycle保留。
+R890/R880/R885/R893及上述源全部完整pins、旧W/K/正常/jets与不可改尺度见前态链；不重做已成空间或旧全局插值。
 
 ## 当前原Y消费者与下一数学接口
 
@@ -45,11 +40,11 @@ R894末DN完整418、degree272避P0，QN=Qorbit FN正乘，ρ/t阶−8435、首�
 
 **R900** 已发布pending五件且root全读，core31d09111/wrapper1ccf84b6/methodb6db29ae。待R899真418及P0单位后填R899/R894源：S0/S1取消QN，真1234→146再962→418，得K定义D_K272和QK=QN·w0/v，原ρ阶−8435/t正c^8435；正常数组无extra τ。
 
-**[R902方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)** 六件已发布，修复后run43881907151实际入compute。初始空间同原I/J/F准确共轭，仅物化B0/B1两rhs；残余/146/418完整，全原行乘回，原v/w和投影行不改，仅δA6新算。首run来源读取即退出，manifest282B/5b0fc124/art14232680090/33ca3e27，core无执行；[精确修复](notes/R902-R809-historical-source-schema-repair.md)已核：R809/R827只在configuration含result，其余仍严格顶层检查；coreb0f5510e/wrapperdb561206，无数学改动，原30对续发。
+**[R902方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)** 30严格共轭：同原I/J/F仅初始B0/B1两rhs；完整残余/146/418、原投影/v/w及ρ/t保全，仅δA6新。首run43879863247源schema即退未入核，精确R809/R827配置内result修复已单独登记；coreb0f5510e/wrapperdb561206，真run43881907151已compute。
 
-**[R901共享126树](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)** paper83a18d8a已发布。12χ+24T+五(6+11+1)，旧D2/E累计F直接读；QZj=Fj(NQj)^qj QK^−pj正乘I_Z，ρ阶−686/−182/−231/−707/−1659、t正c幂。末D仅L，Z负支撑不限P0，七重datum不省。六件全文读并发布pending：core2cacb66f/wrapperc2aad47b/methodd5a5c611/plan7d5300ec。计划永久保零计数；仅执行request待R900/R902真源，实际新flip0。
+**[R901共享126树](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)** 12χ+24T+五18、原D2/E累计F及35主函数不改，QZj=Fj(NQj)^qj QK^−pj正乘I_Z；t正c幂/末D仅L/七重datum保全。六件全文读已发布pending，core2cacb66f/wrapperc2aad47b/methodd5a5c611/plan7d5300ec。固定计划永久零计数；实际request仅待R900/R902真源，实际新flip0。
 
-**[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** paper9fcf3c2c已发布。共享962乘积像→两组544核146/418→原18行128/400→真实144补；唯一Φ=QZ/qχ正乘，原P0=(Lρ a18/uχ272)c^(254−m)。corebc3e9a53/wrapper97b91720/methodff3acf13五件全文读并发布pending，R901真源仍null；实际全272纤维/下降/P1未做。原正常数组不再除τ。
+**[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** 同962像两权146/418→128/400、原256前缀+真144补；只补272最高列和旧19行jet。唯一Φ=QZ/qχ正乘、原P0正c^(254−m)，正常数组无extra τ。五件全文读已发布pending：corebc3e9a53/wrapper97b91720/methodff3acf13；R901真源null，完整272单位/下降/P1仍未成。
 
 **[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)** 纸证已成：同D418截真146，146+126整纤维单位/同度给完整丛格，迹对偶670基/全544主部秩543，保D/H交点与不同理想；真主函数特殊支及低权格fallback明确。五Dj/X/DN七源经原QN校正、Gal7与真cY平均直接给原I_Z连接，不等R900/126树。ordinary_local写实际消费者；exact_height做R907真672/九Norm/wholeArtin/dual7，两端实值仍缺。
 
@@ -64,6 +59,8 @@ R859–R898 原BT、全G/Drinfeld、cusp整格、CM单位/KS、theta整lift/Φ/e
 **[R904原Wronskian](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)**：Q^r六列r≥5在K^p独立，ordinary Wr非零/36挠点同权≤p；r5 div=pE[6]和原常数，r≥6真实六行消失序列/w≡5mod6已证。不冒互补primitive/Legendre指定jet非零。
 
 **[R906原整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6源的σ=τ^(e/2)固定完整dual graph/period lattice；原正CM残余两指数皆奇，σ−1在实际M=qTpJ上有整逆。原q不换optimal且不除p，严格得qTpJ=qB TpB，逐h原index不变。root已核EP/Emerton/Mazur原文及R390；e=p²−1时小分歧cotangent定理不可用，Hodge饱和/CM第一normal项仍缺。sigma_uniform继续R908实际finite-flat gluing。
+
+**[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
 
 ## 关闭边界，全部继承
 

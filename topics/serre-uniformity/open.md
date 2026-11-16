@@ -166,3 +166,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者正在写，同原I_Z及canonical边界不改。
+
+
+**[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
