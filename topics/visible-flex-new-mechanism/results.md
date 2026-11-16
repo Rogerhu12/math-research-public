@@ -426,3 +426,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R510 原三样条同圈精确度量中性与轴主曲率仿射控制](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)：**已证明**原完整样条延拓在指定整圈保持X/一jets/I并准确线性改变Xss，轴径支仿射/角支不变，前六样条对末片峰邻域全二jets为零；当前57耦合、盒幅度及全body下降未付。
+
+
+- [R511 完整环曲率区间与共同17系数](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)：**已证明**不变列的准确最优下界、全部非退化/退化PSD区间及原物理域，前后列范数为max但中部非线性保；下界失败须改变值/一阶jet，当前实际可行性及全body/连续reach未付。
