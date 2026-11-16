@@ -64,6 +64,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 **当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
+[WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。

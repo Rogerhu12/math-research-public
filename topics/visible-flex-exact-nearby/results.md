@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WFR / 2026-11-16** — [精确根有限因子与缩减高块门](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)，66557b3eb76c002dedbb7189a197a5a066ec0201 /16083B /SHA256 cb72cb37e284e8e4b4c834896b1437ee6400d78a9f8fe5321e75e4b4dac0fcde。同WUE RF=−Rrt PFhG真实有限trace分解，原WBP左右顺序/完整均值保；安全386实维，exact mean0/parity可用384/192。整root因子以辅助z=Vu留WGB边界，高门仅用其余完整E°；高输出/全部cross/Θ96/真实physical列与ν/mean/infinitehead不删。0新数值，无passingcut或finite逆。
+
 - **WUE / 2026-11-16** — [全genuine试探的完整物理腰行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)，SHA256 e191f96acc39ab802adb93ace2d1e57691b017629ed762ddd39624d3bcb61ce1。主范围1<σ≤4/3，同old WPL leading/真实Xfr，完整误差=Dalg+L∂(R++RF+Tneg+Eend)Ni；精确trial替换把旧ST4望远镜入WES，不减upper。原PC两received、CG一次、fullmean/twoI、Ni同ambient插值和4/3原A−全保；WUB全负源强窗已付，WUC列法仍只弱窗独立替代。原五完整球逐字锁，新数学运行0；whole新数/可用高门/finite/ν/背景与总验收未授。
 
 - **WUB：完整dyadic Airy负源恢复原strong窗。** [完整证明](results/R133-supplement-complete-dyadic-Airy-source-blocks-and-original-strong-window.md)，Git blob5c8fd0d44b3ed47fedcc311dfa0cc4242afbd005 /30443B /SHA256 ef141ab072deb0154008db74f19dbb5183a5e8f8db5acae8a55d2fa1487e0619。exact Liouville/Jost方程q=t^−2[5/36+(4/9)s²Vext]、完整Volterra和有限Ck递推付五导；原S_n/β以纯input矩阵保，near exactODE与far两真phase给uniform角C4。全输出weightedSchur含所有low/mean，实际同parity J两负窗（非stable-trace逆、非旧J0替费）给rootcollar ordinaryL²dr与全部truejump block p5/3、strict IJ block p2。N6全部terminal和physicalmean单独整项HS为更快阶；只有正交inputbands求和，故完整Tneg:H−4/3_nat,97→原density+两mean闭，亦有0≤σ<5/3的此源窗。原PW cPW/CO/CR/C1不移，jump不乘length，root端独立，positive/root/WES/wholeleading/Ni全留。Phase正式§1–5、Tail§6–10通过；final仅数学delimiter及显写Wronskian−2i。全部新常数未数值求值，无scientific运行/旧重算，未授可用高cut、finite逆或core。

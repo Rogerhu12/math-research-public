@@ -286,3 +286,9 @@ flow 348e0a2ca536da5238dd28f832e4442421450298 /6139B /ef057896ee240d434240a50762
 ## 2026-11-16 05:28:24 UTC — 修正非数学规则同步的容量检查
 
 独立rules run43809999338/1在git步骤持续，源码复核发现git ls-tree -l在partial clone为读blob size可能懒取正文；立刻改为origin/main本课题tree的GitHub metadata递归只读size，不取数据。只改共享workflow同path，cancel-in-progress=true以替换这个无科学运行的旧同步job；没有旧数学/新数学/lost数值，尚不冒真pull成功。v2 ab5bc2dd82ca3e3fd08546be5cc7b64a1fb0a0f2 /6768B /574c4cd7ae2af07da700c270d8aef0184598865a528861f44545a57951850f71，README核9b9a1ffde84dfab732a121f1fd20a0d4dda875ce两blob同。
+
+## 2026-11-16 05:31:43 UTC — WFR根有限因子与真实规则pull回读
+
+WFR 66557b3eb76c002dedbb7189a197a5a066ec0201 /16083B /cb72cb37e284e8e4b4c834896b1437ee6400d78a9f8fe5321e75e4b4dac0fcde 完整解析证明独推。Root读WGT全文、WBP全文、WGB exact finite/metric §§5–7、PC原§1–3/6–9与WUE完整式；同RF真实root有限trace安全386、exact可降384/192；完整左右坐标后z=Vu留真实border，高门用E°且不减upper。96physical缺列/Θ约束、root高输出、全cross/mean/ν/infinitehead全保。
+
+非数学rules v2 run43810459653/1五steps全success，实际pull05:28:49.221106–.862787从79f360886466ae24e8d39c014fa6f4ab048e870e到a543f65c6a8a0f6c3758c8da1fc8cf014afb9e45；对8adc90df两README空diff，SHA e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855。完整936B receipt7b11320e/61500fd2已读，科学0；旧rules43809999338被新同组job替换，无lost数学。05:28发布非FF后本地真CLI尝试仍无executor，API新head重建第二次推成；本次c872a2fdf0a735bbcdfa7fe5a63b1f352883c825两README仍原blob。下一真实pull≤06:28:49，H已写实际读点；仅压缩已成且在全实前档逐字保存的U链，不减未付义务。
