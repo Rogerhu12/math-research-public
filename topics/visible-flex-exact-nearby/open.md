@@ -56,10 +56,11 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 | [WUR伴随及接收](results/R133-supplement-mean-completed-scalar-flux-adjoint-and-first-row-reception.md)948ad192 | 全3块adjoint/weakflux、z+ell_f f真root项、原parity有限IJ两gain。strict相关raw(g1,0)原SP同q权消，整接收O0m11(ordinary∫||Ig1||+Σ||Ij1||)，无额外Jstar，内mean反馈保。 |
 | [WUC原root窗口](results/R133-supplement-root-window-interpolation-and-complete-negative-source-reception.md)6ced5a93 | 原PW c=r+−1/200，实际J的L2/I两界→全频H−2/3插值→trueL²dr，完整collar源/全部truejump列p5/3，strict p2。原SP20门CO/CR/C1单位/两mean保；只准1<σ<7/6逐列窗，不授4/3或端点。 |
 | [WES同旧腰端](results/R133-supplement-selected-free-waist-exact-scattering-and-complete-endpoint-comparison.md)8aa7eb5d | 原lift/WX ψ′证selected全腰T<−L。S−N∞=S(Droot+J∞)保β/整B尾且potential一阶消；fullFA两row/两phaseSchur付baseL2和p2差，ng一次/Js two-I/N4 physicalmean端rank全保。四项同oldY_WJ端差strong4/3闭。 |
+| [WUB完整频带负源](results/R133-supplement-complete-dyadic-Airy-source-blocks-and-original-strong-window.md)ef141ab0 | exact Jost有限五导和全输出weightedSchur（含low/mean），真实angular J:H−5/3→H−2/3与IJ:H−2→L2给collar/truejump block p5/3、strict p2。原N6终端/mean全留且更快；只正交inputbands求和恢复同完整Tneg:H−4/3→Y0。原PW cut/全receivers/两mean/ordinarydr保，无输出正交或新数值假定。 |
 
 新链均为同selected实际对象的完整解析recipe，0新球/旧math0；原PC/root有限差、cut、oldtarget/leading/Ni与独立physicalmean/amp均保。完整whole新预算须组同一signedtuple，不能把单源阶当wholeE。
 
-**当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一负源block或positive新trial只能按全式改界，不重旧成功。
+**当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
 ### 2b. 已付系数、坐标与原强界
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WUB：完整dyadic Airy负源恢复原strong窗。** [完整证明](results/R133-supplement-complete-dyadic-Airy-source-blocks-and-original-strong-window.md)，Git blob5c8fd0d44b3ed47fedcc311dfa0cc4242afbd005 /30443B /SHA256 ef141ab072deb0154008db74f19dbb5183a5e8f8db5acae8a55d2fa1487e0619。exact Liouville/Jost方程q=t^−2[5/36+(4/9)s²Vext]、完整Volterra和有限Ck递推付五导；原S_n/β以纯input矩阵保，near exactODE与far两真phase给uniform角C4。全输出weightedSchur含所有low/mean，实际同parity J两负窗（非stable-trace逆、非旧J0替费）给rootcollar ordinaryL²dr与全部truejump block p5/3、strict IJ block p2。N6全部terminal和physicalmean单独整项HS为更快阶；只有正交inputbands求和，故完整Tneg:H−4/3_nat,97→原density+两mean闭，亦有0≤σ<5/3的此源窗。原PW cPW/CO/CR/C1不移，jump不乘length，root端独立，positive/root/WES/wholeleading/Ni全留。Phase正式§1–5、Tail§6–10通过；final仅数学delimiter及显写Wronskian−2i。全部新常数未数值求值，无scientific运行/旧重算，未授可用高cut、finite逆或core。
+
 - **全实genuine源/腰端检查点。** [逐字归档](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)保存1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的open2a完整8805B与H活动链3608B，两段各有原SHA256。仅缩已成索引，为下一whole结论留页容量；所有原球/域/mean/旧失败/lost/恢复和未付义务不减，全部成功禁重。
 
 - **WES：同旧target的完整genuine腰端强差。** [完整证明](results/R133-supplement-selected-free-waist-exact-scattering-and-complete-endpoint-comparison.md)，Git blob02ca30d6e063e9bdfd158d8401361db74e92ce77 /31293B /SHA256 8aa7eb5d210ed73b3e3e2b3c166432292725a603c23dda4d4d9c0a8292d72b00。原selected真lift和WX ψ′完整lower直接给全腰T<−L；完整genuine=F S_n，精确散射S−N∞=S(Droot+J∞)保非零β/root2×2矩阵和B″整负尾。潜势幅与N∞一阶在真phase上准确相消；余cB²/w1/全部IN二三阶仍在。finiteFA完整两row、旧I/J六mean/终端、Bi原实余项与两phase fulloutput Schur给base L2及p2差；原ng一次、Js双投影two-I、N4 fullphysicalmean endpoint rank在同四项exact腰差中，故H−4/3→完整density+两mean闭。原positive/root有限差、原leading及右Ni全保，不重复β或把raw/density相减。root全文+FA全文与官方DLMF9.7.11–12/iii复核；Newton§3–5、Tail§2/7–9通过。新组合未数值求值，wholeE及实际finite/core仍待。
