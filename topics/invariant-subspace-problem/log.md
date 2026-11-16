@@ -852,3 +852,7 @@ E8-1 v2实际9.148795829秒，435×448原常单位商、88完整jet核及两泛�
 ## 2026-11-16 02:13:49 UTC — 五critical完整广义检测族全部实际完成
 同原v2补齐四factor：F±覆盖15→24、E8-2为6→10、E8-3为12→20；每个两泛函，全五联合分离88维。全部110268原GB jet及2160作用产品真，790完整jet核保702自由方向。
 保存完整证明及五actual回执/phase SHA，common manifest4794·6fc66baa；没有新Q或系数tors结论。继续原4367运输与1834全参数Z，实际pull核两README后push。
+
+## 2026-11-16 02:15:23 UTC — 三域完整首连接经新会话实际重建接续
+冻结recompute wrapper bc177531/11252B，六原生成器均真实调用并逐原manifest、全部压缩/解压payload SHA与verified状态核；同数学binding不含job/out，旧临时数组不假存活。
+新live21…29按plus/minus/e8各weak→Q7→首连接，先收首域结果；E8高核600秒，其余300，2GiB。首连接全170低方程/7高返回/11退出及原6188各阶，未预填rank；实际pull核两README后push。
