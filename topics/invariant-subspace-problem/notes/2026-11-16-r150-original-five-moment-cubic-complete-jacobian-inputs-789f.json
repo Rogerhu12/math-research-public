@@ -1,0 +1,54 @@
+{
+  "format": "r150-original-five-moment-cubic-jacobian-gate-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-five-moment-cubic-complete-jacobian-gate-789f.py",
+    "blobSha": "a923dce5f28f17eb2d12d26306ead7ff410b3615",
+    "bytes": 9133,
+    "sha256": "ed98a483008a74a081d4b2a75101b5a47fb56d861de23e063fe2686a71e68ae5"
+  },
+  "parent": {
+    "sourcePath": "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+    "sourceBlob": "ecd579aa974ae04e14da017542402d36c0cc6cee",
+    "sourceSha256": "b1775794093cd0fdd8afdfbe4b53c129bb4cf9672c7f5b4e5a63d71c8a5c258e",
+    "temporaryModel": {
+      "bytes": 1777288,
+      "logicalBytes": 4241152,
+      "logicalSha256": "5a10a784f9d9ee9455f97bdd8a077ff32f1d75eefba392e5c58e5cd6f5de5ee3",
+      "path": "complete-original-hyperbolic-coordinate-model.json.gz",
+      "sha256": "46537ffbe520ff47df2f18448541a3d2608578ca067a0c865b43e8c44ab55fdc"
+    }
+  },
+  "parameters": {
+    "seconds": 60,
+    "memoryMiB": 1024,
+    "prime": 127,
+    "sourceFieldDimension": 3,
+    "sourceFieldShape": [
+      210,
+      350
+    ],
+    "rationalRepresentationShape": [
+      630,
+      1050
+    ]
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-five-moment-cubic-complete-jacobian-gate-789f.py",
+    "--model",
+    "{work}/matched-bell-hyperbolic-actual-v2/complete-original-hyperbolic-coordinate-model.json.gz",
+    "--out",
+    "{work}/five-moment-jacobian-actual",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "storageScope": "Only sources, parameters, execution identities and output hashes; no new computational arrays."
+}
