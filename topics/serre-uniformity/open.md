@@ -1,23 +1,8 @@
 # 未解决的问题
 
-最新完整前态逐字保于[七极trace前open](notes/2026-11-16-open-before-seven-pole-trace.md)（27384B/ebef5905dab7d1fec152f1857b341020c9f9d8298c5de32073b5bc5c8f200e68）；全部旧公式、完整pins和已关闭支路继续生效。实际运行以HANDOFF为准。
-
-**直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
-
+最新完整前态逐字保存于[精确Hodge前open](notes/2026-11-16-open-before-exact-Hodge-content.md)。全部旧公式、完整来源、原标记及关闭边界继续生效；已成来源直接消费。实际运行以HANDOFF为准。
 
 **R575现行更正。** 实际六层的正CM角色为Ψθκ4，根号−1、中心值零；R348把相反扭向Ψθκ4^-1识别为实际商的论断撤回。后文及历史归档中的该出现性、实际秩零与有理点零像应用均以[R575](results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md)为准。固定家族的L值与局部代数计算仅按各自假设保留。
-
-**R896已证、待原算术**：[两B低权残余核](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)直接消费R893完整初始B空间，不扩大其首scope。五个[B0V3,B1V3]矩阵列数1380，真目标秩984/1192/1066/1202/1159；全部原N满足N>n+3，故无需V2n。第二投影给396/188/314/178/221维完整残余空间，padding 250/42/168/32/75条件得146，再真962两锚得418。B0原P0标记、v第k阶、τ^(3−n)及qχ负幂不能删；原m0=1、t首项正乘c^(e−m0)，不预填任何模秩。以后同一j的Galois必须保同unit-solve索引和整数组合。
-
-**R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。
-
-**[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。
-
-**[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。
-
-**R890原Ef有界代表与固定t首项实际已成**：[认证](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)，八个完整962/146/418与原未缩放q/F全成。Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902、阶−1205；t正乘c^1205。56旧源/9228stage、run43853462674；R894复用D2/E而只新16节点，R896按共同节点复用7正常评价，不推其他六Ef或五Lj/height。
-
-**R898完整原Cartan与整period源已证**：[完整证明](results/R898-original-full-Cartan-and-integral-primitive-period-source.md)保单factor三相位及det nonsquare coset，真整Π0与实际商Gauss源给36维整同构J_h。原Tζ和split一起搬运，真实chirp不可删；原Gram单位分母证明β整且β̄=P_(h−1)(1/s)/P_(h−1)(0)，Z_h=βJ_h的指定J32正是原same-h Legendre·fi·gj乘积及显式单位。指定primitive jet非零与原模曲线/height格桥仍缺；H含k系数用代数GL2(k)恒等式，Frobenius-Hermitian/det半周期全部保留。
 
 ## O1：主要目标（OPEN）
 
@@ -57,17 +42,17 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 |任务|实际run / compute job|当前边界|
 |---|---|---|
-|R787 primal594后|43846878233 / 133229330888|原core93d3d72b/wrapper42157e0d；只接真实594位，不重旧518全56格|
+|R787 primal670后|43846878233 / 133229330888|实际exit124/无core receipt，真670完整lift保留；同core93d3d72b续，仅补严格运输分支|
 |R824原27+244从693后|43877576209 / 133334539270|同core/wrapper，从693原current/lift恢复；free1187|
 |R815原准确导子|43853995004 / 133253466821|g已准确认证，Γ继续；不独立重构Mh|
-|R854原41响应N112续|原43832705685 / 133181715849|BudgetStop124/1041stage，同核N112恢复；四球未成|
+|R854原41响应N112续|43880489423 / 133344905148|旧BudgetStop124/1041stage同核恢复正在计算；四球未成|
 |R787半坐标dual541后|43869450077 / 133306600874|原370→541实际已成，542正残差复用；A.1/准确dual仍未决|
 |R890原Ef八flip（已成）|43853462674 / 133251774019|正式结果已登记；R894复用D2/E，R896复用共同正常节点|
 |R880六共轭D*（已成）|43857317518 / 133264906689|六个新418及原ρ首项已登记；R893/R894直接消费|
 
 全部持续同核原子续接；运行结束只从真实完整manifest、current、core停止原因判断下一请求。预算退出不作数学否定，已完成目标和块直接复用。
 
-R787完整来源见[594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)；R824见[596断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)。原A.1的target000a9bbc/Jb384a331/1481原源、HP.2及完整Theta/Delta边界见[半坐标续接](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)，七个小L条件不代A0−qB0。
+R787最新670真实源由IO43895402826确认，先前完整来源见[594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)；R824见[596断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)。原A.1的target000a9bbc/Jb384a331/1481原源、HP.2及完整Theta/Delta边界见[半坐标续接](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)，七个小L条件不代A0−qB0。
 
 R854只升工作精度，保旧532stage/低位；详[实际N56退出与N112续接](notes/R854-actual-N56-precision-stop-and-N112-continuation.md)。R858两input仍null，不启动；2420/free1186/full2560、S_m及DVR逐行左逆、两分母、ZP=(Z42−β42)/42正号、t/u双条件、全部H_n/tail和Trace14/2/cχ保全。目标7不表示112已足够。
 
@@ -183,3 +168,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R913原Igusa Cartier泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)** 已证：上半实际αp子群给非零λ_h∈(W_+/C W_−)∨，其原χ_−层对应k_−=2p+2−2h；π^−pr f_h*ω的χ_+层则对应k_+=2h−p+1，约化可能零。原两个tame level9 CM与Θ的全Fourier关系、level6的ζ²/1/6及Hecke标度ℓ^(h−1)/ℓ^(p−h)逐项固定，完整Norm惯性和det−1校正保留。Gross/Oda/Cais/EP原式已读；同特征系数不推出指定CM向量配对非零，不假设Hecke半单、重数一或格饱和。原a_h、normal首项、36/J32同h桥和height仍缺。
 
 **[R915原八次Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)** 已证：完整Euler系数泛函在任意Artin底环满足Tr(h)=λ_p(p′h)，原微分迹为−a8^−1[U7](A_t∂zP mod p)dz；保持w的真曲线导数、先微分后约化。原17块/PU逆/272靶值复用，新增只九P系数导数；λ的全模延伸不消除a8、靶PU或χT的真实分母。范数参考行列式、dual7/diamond/−3、κν和两端帧保留。仅全局准确DAG已证，新有限数值、原活跃Picard支持/rigidification/非p/height未成。
+
+**[R916原商的精确Hodge content](results/R916-original-finite-flat-quotient-and-exact-Hodge-content.md)** 已证：实际H_h⊂B[p]的商C及ψπ=[p]给原D_h=kerψ和整模ω_D↪ω_B/p，原BT因子/单位c0将ω_h送到dy0；其精确ann π^(e−pr)迫content(f_h*ω_h)=π^pr。原q的content严格π^(ea_h+pr)，上半r=2h−p−1；R913的完整标记k_+ Igusa向量现非零。此注入在残域可变零，未借Hodge饱和或小分歧假设。原a_h未去，指定normal系数、CM companion的准确标量、λ_h在指定向量上非零及same-h三因子/J32仍未成。
+
+R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1)(0)，指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12；R916仅控制good-model整微分，尚未把它接到这个指定同h原向量或height格。
