@@ -86,3 +86,5 @@
 - [真正58自由R1/R2环成功与完整曲面失败](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)：**实际观察完成**，SLSQP0/true、11完整评价，原盒和环谱通过，κ环约16.39344；唯一全bodyη6.979414564941248/κ69803.90363577171失败，0actual，仍58。新72.22285305100002秒/0值，累计2974.589423877秒/147值；完整L17/H125已存，预测大数组未存。继续固定环的原102中部修复，不重开旧范围。
 
 - [R534 真零历史负矩密度入口与同规范延续](results/R534-real-zero-history-entry-into-negative-matrix-density-and-fixed-gauge-continuation.md)：**已证明**同R521原库的一次奇异Gram完整缩放给真负p₁入口，负极小δ¹⁰而prefix累计正δ⁷；原K/ρ″两行可逆及平滑cutoff给同χ准确恒负局部支。完整A/T未删或重置，切换后保全八矩；长负累计/M0/末端及全部period未付。
+
+- [R533 完整速度不定式与全history正则ruling坐标](results/R533-complete-velocity-quadratic-form-and-all-history-regular-ruling-coordinates.md)：**已证明**同原母类型/固定I的20+13目标准确正根，保完整C²余项及三导O(Λ)界；全scalar紧盒H严格不定且与全部m/χ无关，真F=2XY−Δ给全m正则速度图。可在同一新母重作R531接入；原m及第三/pose成本保，不授完备流、任意m可达或M0。
