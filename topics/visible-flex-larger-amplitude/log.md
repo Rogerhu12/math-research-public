@@ -169,3 +169,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:31:10 UTC /root — R488实际216完整远端后BVP启动空间停止
 
 [R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748/8f85，run43819978588/source634c4；两终log各唯一，八必要/六report同字，C/factory未付及原coast反证完整保。112far/joint与13850/16128齐，free12456181760<34359738368导致child未起、453/450及15后继全未始；rules98410>90K70未返、cleanup_skipped，无可续raw。222/217已有R498/R499不另造存储入口。H压缩全文留59cb历史；本提交实际补R526§526.18的$$显示定界（21774/a02c），上次文本替换未生效，证明不变。
+
+## 2026-11-16 10:35:15 UTC /root — R475实际211正高度完整当前J及一步接受
+
+[R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967/bdf2，run43810051801/source7e62，两终log各唯一、81156/5994同字全读；零H284.145s收敛，首1/64 current576 J/129248行R273齐，trial0 α1真接受196395.0911309943→5181.565456345417。iteration1 stage105/cell1/segment4原方向资源止，18000/TERM124；正response/末338J/audit/FD-fullDN未付，完整原统计/梯度/null/未访/quiet保，10:25:27真清。原prepared SHA漏录仅查已缓存body补足，‘私有源码’澄清为隔离临时源码，全部实际源仍公开；224按原输入重建不借删父。
