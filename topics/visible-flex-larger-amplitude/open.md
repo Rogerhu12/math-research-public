@@ -42,6 +42,8 @@ R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前
 
 **已证明（限明确条件与源码实现）**：[R459](results/R459-fixed-closed-target-relative-error-and-refinement-evidence.md)/[完整接口](notes/2026-11-16-fixed-target-whole-metric-refinement-evidence-interface.md)及独立source62091B/494fea70已全读后发布。对同一首材料目标，以二维广义特征值的准确相对算子范数和向外有理平方根包围完整闭域误差，帽在同完整图定义下为零；准确共同相位同余与整角双射把基相位完整覆盖转至全$t$，不假设非轴对称帽或目标旋转不变。全部根/父界/未访/失败保留，另真实执行声明的nested t查询；只有完整域已界才给全域upper。相邻上界改善、严格真实sup下降、重叠未分辨分别报告，严格界分离只是充分证据，不新增接受门。原RMS/BC/native/FD/audit原样保，但没有误差转移定理时不冒metricfloor；原单90KB/70、同绝对钟/外层owned child保持，本源无cleanup。当前没有真实场误差、精化数值或标准5完成结论，后继207接实际调用。
 
+**已证明（限准确场条件下的同图像、点包围与显示投影命题）**：[R461](results/R461-current-accurate-closed-multitime-display-and-projection-scope.md)/[接口](notes/2026-11-16-current-accurate-multitime-display-interface.md)及独立source41002B/f3211ba9已全读发布。三个真实112/细化112/M族都调用当前准确cut的完整675解释器及同源固定帽；不调用旧A.numeric冒新cut。默认物理角显示同一完整图像，固定首q模式另需真实R457 A/B；入口反射来自实际normalize_inlet，帽保全marker并不旋转。每个PLY顶点保xyz与三个向外binary64半径，实际摘要分别保点包围宽度、最终投影和合计误差最大值及地址；不外推三角面内、BVP误差、全t或嵌入。默认0、1/2、1和8/8/4/32只是可改显示工作量；每件压缩前后严格小于5000000B，同原钟/单90KB/70，原未访与中断统计尚未建立范围均保。源不启动子程、不清理、不上传raw；只发布源/配方/run/SHA。当前无实际网格或显示运行，不改或延后207首版，不预付任何README完成项。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
