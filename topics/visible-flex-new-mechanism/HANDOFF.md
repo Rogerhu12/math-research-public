@@ -8,7 +8,7 @@
 
 私有同两job实际pull分别已读 **3e53058255f12241b79f3de052c81cb753af56d0** 与 **71de2e18df5515e9c9aa5590ff593be8ffa850fd**（最后09:11:26.239161→09:11:26.568886）。私有根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。每次pull详时/来源见[本次note](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)及原notes；私有正文不发表。
 
-新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
+三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -42,6 +42,6 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55完整新9fiber首次执行](notes/true55-complete-new-nine-fiber-design-20261116.md)已发布源/参数/工作流，公开run43840452377/source09f498cac5d2fad47a35f007b68fe66218420d98正在运行。独立168/物理172，旧159固定55；两网必要ordinary/硬J9/完整metric9同一新600秒。16新行集/全网一阶分离、64新行、64scalar、3actualpairs；先原11维有限问题，再完整φ(e0+αde,f0+αdf)，最后原14实际门+准确172盒，须比55新降≥1e−7。原spectral池学习与Schur实际门保持各自语义。55旧账2073.56241112秒/134值不重开，旧159J/开发0；新9失败只限该纤维。全部缓存仅原stdout，FINAL_CLOCK含大输出与真实overrun，report只读唯一原job。
+[55完整新9fiber首次执行](notes/true55-complete-new-nine-fiber-design-20261116.md)已发布源/参数/工作流，run43840452377/research133207481935正在运行，源09f498cac5d2fad47a35f007b68fe66218420d98。独立168/物理172，旧159固定55；两网必要ordinary/硬J9/完整metric9同一新600秒。16新行集/全网一阶分离、64新行、64scalar、3actualpairs；先原11维有限问题，再完整φ(e0+αde,f0+αdf)，最后原14实际门+准确172盒，须比55新降≥1e−7。原spectral池学习与Schur实际门保持各自语义。55旧账2073.56241112秒/134值不重开，旧159J/开发0；新9失败只限该纤维。全部缓存仅原stdout，FINAL_CLOCK含大输出与真实overrun，report只读唯一原job。
 
 旧cap15/冻结ψ3及三原子有限任务均闭；来源/费用见各原notes，不重开余额。主完成门未付，继续open。
