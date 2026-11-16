@@ -361,3 +361,8 @@ Astra-new-mechanism-9974ea84：[R409](results/R409-eight-terminal-packet-fluxes-
 ## 2026-11-16 00:06:14 UTC｜direct-reference首九项通过，字段错误如实登记
 
 Astra-new-mechanism-9974ea84：[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)，6174B/hash91b107ac73ca4e22a4cbcc91c203565bc02d6289922fbb2908d657012b4925e8。root消费完整185504B原log/hash1890cc27b6f6ca3ff28cf2d821c73e9c4e78b8912822452cd6ec17c52a61b0cf，9check分组/逐位等价/受控失败计时全读；真实新objective未构造，0后继科学调用。13.756976061s不丢，后继同科学clock累计且9仅复用。公开00:01:00 actualpull ad3b1046…/私有00:01:03 44a25d2…均空规则差，QUEUE进行中；00:05:03已读、H下次01:01:00。无重跑；基底886423b4edb5140102069e025ac714cbb49f7c55。
+
+
+## 2026-11-16 00:09:50 UTC｜修复primitive order来源并接已付九项复用与同任务时钟
+
+Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_audit.py（41328B/hash8008a7f92024bd745107784647fd1502a78ab3c5978dba3221abbebc66fc4eee）；workflow（4316B/hash24c9dba46d1213ef385d6b6916edf8c5f6e2aab46021700a904b7b7695f8fd25）。根全文读修复diff并回原Bounded/fixed primitive及原audit实参来源；唯一生产调用变化是读取原物理对象的order并核同fixed order，无default/cfg/几何/门变更。新增只读首失败log/161manifest/152源及3×3真verdict，151Python不变，developer_check调用彻底删。13.756976061000046s在必要读取前继承同1800钟；process/import/dev另列不双计，旧241s仍祖先账。无研究或开发重跑；先安装后单独请求。基底88b6ea9b626b80d8339daf5f90b3624fd998ccfb。

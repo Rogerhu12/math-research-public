@@ -159,7 +159,7 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### 直接reference九项已付，修入口字段后进入首次真实求值
 
-[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)记录run43777844163的9新人工全部通过、配置缺primitive_order在objective构造前停止；新adapter研究value/J/model/LP/接受均未进入。本次science13.756976061000046s及全部准备费归同1800限额，后继必须读取完整通过收据复用9项、不重跑；核原成功入口的primitive order来源，只修元数据接线。原64LP/160值、同g/14门、438+4/freshcontext/祖先γ全保。真实速度、首模型绑定和新下降仍未知，原205s不能全归已删冗余。旧closed epoch费用另列，根15不存payload。
+[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)记录run43777844163的9新人工全部通过、配置缺primitive_order在objective构造前停止；新adapter研究value/J/model/LP/接受均未进入。本次science13.756976061000046s及全部准备费归同1800限额，后继必须读取完整通过收据复用9项、不重跑；原成功入口primitive order已从同Bounded对象/fixed_primitive核定，audit修复与完整9收据复用已安装，待唯一修复request。原64LP/160值、同g/14门、438+4/freshcontext/祖先γ全保。真实速度、首模型绑定和新下降仍未知，原205s不能全归已删冗余。旧closed epoch费用另列，根15不存payload。
 
 
 ### R399新的第二period内部通道已实际付至四点
