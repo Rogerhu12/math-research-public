@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4169d6a2aaa03b467feb9924050fdca3a566f0ff**（2026-11-16T15:52:20.323556+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[端点小核前H](handoff-archive-2026-11-16-before-endpoint-order-contract.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：4e4b63ade989caa96748cd114385c9ea32e85f26**（2026-11-16T15:54:48.286006+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[端点小核前H](handoff-archive-2026-11-16-before-endpoint-order-contract.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -51,7 +51,9 @@ R859–R898原BT/Drinfeld/cusp/CM/KS/theta整lift及两旗36源已证。原J_h�
 
 **[R913两CM伴随与泛函](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)**：实际λ_h∈(W_+/C W_−)∨非零对应k_−=2p+2−2h；L_h=π^−pr f_h*ω在χ_+层对应k_+=2h−p+1。两level9 tame伴随/Θ全Fourier、ζ²/1/6/level6与原Hecke标度保留。δ^D自然几何对偶坐标/Lie同ζ²，区别半线性descent逆号的措辞已更正；不推λ_h(Vk−†)≠0、残余单性或指定normal。Gross/Oda/Cais/EP与Moonen原文已核。
 
-**[R918原权四向量](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)**：全部允许p≡11mod12、h=(p+3)/2 primitive/r2，实际L̄_h=c_hΦ4(V4†)，c_h≠0。全H6整S4秩一/基变、Cais满射、完整Norm/单Igusa及det−1/ζ²/1/6保留；原fine Igusa SS准确阶2p−5、cusp首项c_h非零。a_h/c_h未知，不认作coarse c1 normal，不推另一λ_h(Vp−1†)或同h Legendre/J32/height。R920另一类权10纸稿正独立核；sigma_uniform继续真正good-layer到指定normal桥。
+**[R918原权四向量](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)**：全部允许p≡11mod12、h=(p+3)/2 primitive/r2，实际L̄_h=c_hΦ4(V4†)，c_h≠0。全H6整S4秩一/基变、Cais满射、完整Norm/单Igusa及det−1/ζ²/1/6保留；原fine Igusa SS准确阶2p−5、cusp首项c_h非零。a_h/c_h未知，不认作coarse c1 normal，不推另一λ_h(Vp−1†)或同h Legendre/J32/height。另一类现由R920补齐。
+
+**[R920原权十实际向量](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)**：全部允许p≡5mod12，h=(p+9)/2 primitive/r8，实际L̄_h=c_hΦ10(V10†)，c_h≠0。原全δ支路整基B1=V4†E6、B2=V4†η12，T5的q²行(−4032s,8)强制原CM线B1+504sB2；保τ′=6τ、跨δ与真Hecke零运输、两Igusa/C4及完整非平方Norm。原标记V10†/E4=−20E6·V4†/E4单位，fine SS准确阶2p−11。a_h/c_h与另一λ_h、原同h Legendre/J32/normal/height桥仍保；R921继续。
 
 ## 关闭边界，沿全部归档
 

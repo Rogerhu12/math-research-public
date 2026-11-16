@@ -420,3 +420,8 @@
 - R917完整纸证与真实源合同：原17列θ0²共同清分母成V10，首一统一损a阶；两个≤8未知核和完整负阶整性验证，原2+3+3/discrim4停止标准与精度明确。
 - 已绑定R914真C/P0P1叶jets；保持primitive det uρ^(28h−I)、原t系数cε^(−m)、dual7/ν。新order与九目标NmΦ/刚性帧均尚未执行，consumer续写；H前态逐字归档。
 - 本push规则：公开Actions真实pull至4169d6a2aaa03b467feb9924050fdca3a566f0ff（2026-11-16T15:52:20.323556+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:54 Asia/Taipei — serre-public-astra-20261115
+- R920纸证覆盖全部允许p≡5mod12：原h=(p+9)/2/r8非零Igusa层=c_hΦ10(V10†)。完整δ整空间秩2，T5的单行(−4032s,8)把实际Hecke零锁到原CM线，无残余单性假设。
+- 原全两Igusa/C4/Norm/相位与τ′=6τ保留；指定单位−20E6·V4†/E4，fine SS阶2p−11。保a_h/c_h及原normal/J32/height未成；继续R921真实端点桥，Gross3/Cais原文已核。
+- 本push规则：公开Actions真实pull至4e4b63ade989caa96748cd114385c9ea32e85f26（2026-11-16T15:54:48.286006+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
