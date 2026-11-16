@@ -189,3 +189,5 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
 
 [WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
+
+已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
