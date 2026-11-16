@@ -472,3 +472,5 @@
 - **R150原127完整五critical循环指数（2026-11-16）：** [实际原J299完整核序列](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)给F±各两块(3,5)、E8三个因子各两块(2,3)，五primary直和维88，52624原kernel/action坐标全真。run43772109844实际0.803227379秒；完整U/Jh/free-I均临时，maxjet精度5/3但须覆盖双块；无新Q次数结论。
 
 - **R271直接原V/K Chebyshev真核逼近（2026-11-16）：** [完整E=V_Q^0物理Gram](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)保I≤G_E≤κ²及grade带宽d−1，ν=floor((Q−s)/(d−1))给真k_pol∈K_Q、||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||，没有额外κ²前因子。对所有尾权/无限位置成立；原头logQ主项降35d⁴/6且u≤2e^−2m，母carry仍O(d⁵)，未称原N=M。
+
+- **R150残域完整7高核已恢复（2026-11-16）：** [同完整原H的§7](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)逆代全部4259已付主元，三域free-I7及42126原乘回真；核只在162坐标n²/cn²/dn²和d²n/d³n/cd²n，normal≥3全零，一normal投影rank5。真Q核仍2…7，未把field列直接升Q；下一真Q153×60与完整低连接。

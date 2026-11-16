@@ -1,0 +1,97 @@
+{
+  "format": "r150-original127-complete-generalized-critical-detectors-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "prime": 127,
+  "factorLabel": "E8-1",
+  "parentRun": "43772109844",
+  "sourceFiles": [
+    {
+      "path": "notes/2026-11-16-r150-original127-complete-generalized-critical-detectors-789f.py",
+      "gitBlob": "d10eedffe7c26521e4d7e4a21cb6b2ecc40602d2",
+      "bytes": 23978,
+      "sha256": "e671f2b18e4b5840ddc8a60c9cffe9f127a52d1e0707fefa77fcda148153b271"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+      "gitBlob": "b4e735dc12e8dee8b483728b895677dcfff23a09",
+      "bytes": 20947,
+      "sha256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3"
+    }
+  ],
+  "actualInputs": [
+    {
+      "path": "{work}/original127-complete-graded-module/gb-basis.bin",
+      "bytes": 43787388,
+      "sha256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/original127-graded-module-pipeline-receipt.json",
+      "bytes": 5289,
+      "sha256": "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json",
+      "bytes": 9819,
+      "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/torsion-whole-state.bin",
+      "bytes": 1414575,
+      "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/whole-torsion-characteristic.json",
+      "bytes": 2560,
+      "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+    },
+    {
+      "path": "{work}/original127-critical-primary-profiles/original127-critical-primary-receipt.json",
+      "bytes": 7885,
+      "sha256": "5685d638b0cd509481fa482571435c6310b39c85873082fc1421b1a0a63c695f"
+    },
+    {
+      "path": "{work}/original127-critical-primary-profiles/critical-primary-manifest.json",
+      "bytes": 1379,
+      "sha256": "1a5901c7b7621dbfcc4b73bf3ee032872948e0a988291b6c7a3ac1d8017cd654"
+    },
+    {
+      "path": "{work}/original127-critical-primary-profiles/primary-E8-1.json.gz",
+      "bytes": 3418,
+      "sha256": "5cc86b6777d4ca9fc07ae11607542f2831ebd998e7a5fa4cb51e0bfe260d7728",
+      "payloadSHA256": "b4405ed53fa654cc6fcbb66c5791a8237e3f2943b98ce64d729f389e7f77bc75"
+    }
+  ],
+  "argv": [
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--profile-out",
+    "{work}/original127-critical-primary-profiles",
+    "--sources-root",
+    "{scripts}",
+    "--factor",
+    "E8-1",
+    "--out",
+    "{work}/original127-generalized-critical-detectors",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096"
+  ],
+  "completedDependencies": [
+    "original127-complete-graded-module-gb900",
+    "original127-complete-whole-torsion60",
+    "original127-complete-critical-primary-profile60"
+  ],
+  "outerSeconds": 360,
+  "actualPrimaryDimension": 10,
+  "actualMaximumParameterExponent": 3,
+  "actualCyclicBlockCount": 2,
+  "coefficientBocksteinComputed": false,
+  "original4367TransportComplete": false,
+  "allLargeDataTemporaryOnly": true,
+  "localExecutionOrASTClaimed": false,
+  "acceptance": "Actual degree-zero original GB unit graph; all positive polynomial rows retained; complete truncated kernel dimension; all original GB coefficient products; full10 primary restriction and parameter intertwining. No coefficient scan or Q conclusion."
+}

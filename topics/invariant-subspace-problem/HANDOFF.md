@@ -28,8 +28,8 @@
 
 ## 活跃执行、临时缓存与立即恢复
 
-- **旧live run43756208221** 始20:06:58 UTC/350分钟，约01:57到期；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221，request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json。52步：前49完成，47…49完整H三域模rank4259/Q核仅2…7；50…52仅读原主元逆代7核、42126原乘回及支撑谱，60秒/1GiB，未回。Q/∞/Ω/core、各critical父缓存仍临时；新候选须真Q全乘回，过期只按小源码重建，禁上传大数组。
-- **新live run43772109844** 始22:57:13 UTC/350分钟；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。14步均成：13 root63正证；14完整critical双循环谱0.803227379秒。保global197、root2全210 recipe、原127完整NF/GB/state/target25/primary缓存。接全双块广义127检测，先E8二次因子/max3；25图只作Q相对模块参考。
+- **旧live run43756208221** 始20:06:58 UTC/350分钟，约01:57到期；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221，request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json。52步全成：47…49完整H模rank4259/Q核2…7；50…52原7核/42126乘回真，仅162支撑；现真Q153×60恢复，随后170×108完整连接。Q/∞/Ω/core、各critical父缓存仍临时；新候选须真Q全乘回，过期只按小源码重建，禁上传大数组。
+- **新live run43772109844** 始22:57:13 UTC/350分钟；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。15步：前14全成；15原E8-1全GB广义detectors已排300秒/4GiB，完整primary10维覆盖须实际通过，尚未scan。保global197、root2全210 recipe、原127完整NF/GB/state/target25/primary缓存。原4367运输/全1834Z检测待付；25图只作Q相对模块参考。
 - 两runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 

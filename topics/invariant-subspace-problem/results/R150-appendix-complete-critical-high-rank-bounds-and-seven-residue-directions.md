@@ -150,3 +150,49 @@ The prior 135-, 270- and 300-coordinate calculations still prove only their decl
 A complete connection calculation must cover the actual full $\ker H$ and the original $170\times101$ low block. The retained residue pivots can guide the construction of number-field high columns, but every proposed column must satisfy every original number-field high equation before it is counted. The number-field rank can be declared exactly 4259 only after seven independent such columns have been verified.
 
 The complete original critical first connection, exact characteristic-zero critical lengths, the residual global multiplier and original nine-target membership remain open.
+
+## 7. Completed recovery of every residue direction and its exact support
+
+The subsequent tasks recover the seven-dimensional residue kernel from the already paid 4259 normalized pivots. They do not repeat Gaussian elimination. Each recovered matrix has seven original free coordinates forming $I_7$, and all $6018\times7=42126$ original products are zero.
+
+The free high coordinates, numbered from zero in the complete 4266-column dictionary, are
+$$
+96,97,98,143,186,187,188,
+$$
+corresponding respectively to
+$$
+n_9^2,\ n_9n_{10},\ n_{10}^2,\ d n_{10}^2,\
+c n_9^2,\ c n_9n_{10},\ c n_{10}^2.
+$$
+Here $n_j=z_j$ for the original labels $2\le j\le10$.
+
+In all three residue fields, the entire recovered kernel is supported on only the following 162 high coordinates:
+
+| Original coordinate block | Coordinate count | Actual projection rank |
+|---|---:|---:|
+| $d^2n$ | 9 | 5 |
+| $d^3n$ | 9 | 2 |
+| $cd^2n$ | 9 | 2 |
+| $n^2$ | 45 | 7 |
+| $dn^2$ | 45 | 3 |
+| $cn^2$ | 45 | 3 |
+
+Every normal-degree-three, four and five coordinate is zero. Every total-degree-five coordinate is zero. The projection to all one-normal high coordinates has rank five, and the projection to normal-degree-two coordinates has rank seven. Consequently the part of this residue kernel with no one-normal coordinates has dimension two. These are exact residue-kernel statements; the number-field kernel bounds in (4.1) are unchanged.
+
+The first three canonical kernel columns have maximal total degree three; the last four have maximal total degree four. The small receipts retain every tangent block's projection rank, support counts, complete coefficient hashes and original free labels.
+
+| Field | Program seconds | Raw receipt bytes | Raw receipt SHA256 |
+|---|---:|---:|---|
+| plus | 1.7038839439992444 | 14587 | 131cd563742cc22988454e6dfc6da2818a21953c3cbddd291bea2573f01c3b66 |
+| minus | 1.6544265640004596 | 14586 | c1a6fba22ac304925c1b05be4f5e0e86e84379e2031d31e991202c59d51bddc6 |
+| e8 | 1.6034277120015759 | 14586 | fed4f2804dcd1b359333551c4a86d69c0c09b276f45332b40e4b5a44a1991a9e |
+
+All tasks ran in session 43756208221 with names critical-plus-paid-high-kernel-recovery, critical-minus-paid-high-kernel-recovery and critical-e8-paid-high-kernel-recovery. The [plus](../notes/r150-source-kernel-session-789f/43756208221-critical-plus-paid-high-kernel-recovery.json), [minus](../notes/r150-source-kernel-session-789f/43756208221-critical-minus-paid-high-kernel-recovery.json) and [E8](../notes/r150-source-kernel-session-789f/43756208221-critical-e8-paid-high-kernel-recovery.json) actual receipts all report exit zero.
+
+- plus: binding 30d9cbb34d5f3cdb51a94aa9aefedd965c27a3fc1e8185f5ec6e6cd7b4165f4b; published outer 37908 bytes / 0948cbce429dba2b3c1954c064d1519dcf49d779ad245f9ea3562495026ba213; complete temporary kernel 30028 bytes / 79423eb9140be1bde520e7fdc2362e96756a5e0bbdf0351c180dab27b6d9e09f.
+- minus: binding 75aa580af0e2a38939de4060baeceeb3a339d1ad4a6139add7c71a9a5feb399f; published outer 37912 bytes / 30f3d9109c4dd4baf9db9889f5738d59e2488cc2659166a629e8a0836db25f03; complete temporary kernel 30028 bytes / f648ac527aecc3bcb568e0596d4867302351ad15929ca089f3b4eb8ee7d33a59.
+- e8: binding 642df9a45d49f2e960dfb62dc1f602300a7c09dd1efc9465df10cabb11655b0f; published outer 37897 bytes / 39860335ed68179468e555891123ac9d98d475e3e9bc46c1acb070f750599c8c; complete temporary kernel 30028 bytes / bb5d373234d23992c39b521da9b8b29be5a36549357b14ad2f9539e493f2d4a4.
+
+The complete consumer is [2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py](../notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py), 15536 bytes / 80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71. Its [native inverse substitution](../notes/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp) is 6885 bytes / d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f. The [interface](../notes/2026-11-16-r150-critical-paid-high-kernel-recovery-interface-789f.json) freezes all parent bytes, bindings and CLI parameters.
+
+This support information makes a small true number-field reconstruction possible. It does not itself prove that seven number-field columns exist, or that every number-field kernel lies in the same coordinate support. Any next number-field construction still requires complete original high-row products.
