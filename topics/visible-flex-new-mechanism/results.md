@@ -367,3 +367,6 @@
 
 
 - **R464：非零三次母矩与全九行同周期光滑规范。** [同起点M3、统一真逆、平台表与seed因子](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)（25138B/SHA797d49a0960e6db78b446a9cbcefa1e96abe5008d7dee468fa9ab1c15445be6c）。保q四式/F★/20根/唯一cap，11+7包装清全九行odd；三低行及六平台有显式光滑右逆，R461最后合法化。条件为同一完整成本的真range/最高P2已付；不授actual或其它段。0新执行。
+
+
+- **R465：增强零权商恰为7/5镜对self商，两头成员及−8已付。** [自然同构、两头原式与最低偶权增强](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)（23368B/SHA5e6cfce5684cc403ab6622489888c8604aa974822a06f70cbe1510cf480066e6）。Qaff,0/NQaff,1≅S(W0)/S(K0)，7/5是成本维数，双参数门iff两个固定完整目标同属五核镜像；C20原self/pure/左尾保留。−8全partial响应覆盖已证，−6/−4仍欠。0新执行/旧rank。

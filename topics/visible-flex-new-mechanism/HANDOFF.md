@@ -27,7 +27,8 @@ R434原144的Q59/核85、current32/核53已付。R454 wholeQ0迫TrF_R=8DΣ及F_R
 R457全U自然d=draw−TrFhat/8杀全R、真H^-5协变、像Pol≤6，原M0/端乘子Γ保留；H*+J4/J6∈U0∩ker(J⁺,d)、λ1，仅signed。R443原53完整self局部像38/核15、K11合49；R446全Q给局部≤3阶，原无p分母保留。R448同宽r*≠0镜对完整像19/核30及一个共同右逆；R452 r*=0像9/核40。非全R分类，Af盲非成本零。
 
 
-R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核。[R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)消费R201/R316完整13pure核/Qrank7得R_E,0维6；39current权0仅A1²/A2¹一关系，真Π0满像给rank1/核K0恰5。旧49权0仅K8/V51/V52且同镜像rank3，全H匹配iff目标在权0像；尚余两完整cost，self像/目标成员未知，不重旧消元或授actual。
+R456同宽全角色只检D5/D6；R458两实际宽各三末low/≥8copy才另检D4。R459从起点共同w0，全current真H^-1协变及13近1H有号Π0得权0全C0的V0；self≤8/共同最高项、真实μ cap路径及R448同一W得全角色signed V#、λ1。W可混权，非全H或actual。R462完整R_E,0维6/currentrank1⇒五维K0；旧49权0仅K8/V51/V52且镜像rank3，其余两成本self未知。
+
 
 R437最高P2θ=κell_f/24杀kerLf；R460由H′=pG″付所有simple-p无留数/同C光滑匹配，不增核。一般range仍保Af/平台/totals/两germ，再gap调∫k′与原右锚灭affine差；R455 canonical E/totals0下恰每包两Af×d,e四门，R459 signed已可接真特解，actual实现未付。incoming XD/p点真逆值与gap平台变化都进规范rhs。
 
@@ -39,6 +40,9 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 
 [R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原末low/high及8/12真中心读χ5/χ6，杀全R而H*的d5≠0，故当前全partial的vertical响应覆盖确失败。仅平移主微分到NQ，真桥2VA仍O(1)，不能冒缺minor；补13近1H有限闭包后Q0仍非零，旧D可逆失效。新完整actual引理：同一增强满锥+DQ+NQ=Q（iff Q0⊂NQ1）可经真(H,c)放大、两次商/全部prototype/Klein基准给有限C1截面。自然x6 lift不足；完整lift及新增正字符仍欠，R465正缩至两个权零镜对成员。
+
+
+[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)原全角色权0的t6/t5两系数迫formal current全零，真cap/12中心给kerJaff∩U0=ker(S|W0)；旧R196 N像仅C6、d5非零，故Qaff,0/NQaff,1自然同构S(W0)/S(K0)，成本维数7/5而非self秩。双参数门准确iff经同一seq707 current纠正的X_H=H*+J4、X_Y=J4−J6均落五核像；四个新self（两补response+两目标）正准备。C20完整self/pure/左尾已给；增强−8由原TR与Kseed的Lf差在全Af点零而全部覆盖，−6/−4满锥仍欠。
 
 
 完整来源见results/open；actual正锥、其它s段同规范、高阶收敛及全主几何门未付。
@@ -53,4 +57,4 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 ## 5. 当前工作
 
-true53观察已完；[新有限主问题设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)复用原5743soft/2937hard+5新梯度，rγ正坐标与primal/dual Newton，保全部原盒/guard。仅一次新有限LP、至多96迭代/192系统/240秒，0旧solver/J/JVP/值；未执行，正有限gain还欠完整分离。R464续九行/M3；R462/R465续两self目标成员及增强锥。全主门仍欠，继续open。
+true53观察已完；[新有限主问题设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)复用原5743soft/2937hard+5新梯度，rγ正坐标与primal/dual Newton，保全部原盒/guard。仅一次新有限LP、至多96迭代/192系统/240秒，0旧solver/J/JVP/值；未执行，正有限gain还欠完整分离。R464九行/M3已付；R465续两self成员和−6/−4增强锥。全主门仍欠，继续open。

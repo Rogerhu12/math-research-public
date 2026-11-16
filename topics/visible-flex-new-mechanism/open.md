@@ -189,13 +189,10 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；实际词产生的新基准与δX*必须同时进入全部门。下一支付固定z的原九行兼容或其明确障碍，并做实际增强/其它s段，不能把两个截面相加。
 
-### R463：增强全partial的实际商与双参数控制
+### R463：实际双参数控制的完整条件
 
-[R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)从原最后low/high真实n0及8/12中心、完整γ7归一得χ5/χ6=d5/d6；杀全响应，而H*∈kerJ0有d5−3/128，故当前F(kerJ0)不等F(R∩kerJ0)，不能再用vertical cover宣actual增强。只保平移时N幂零，放大主导只能到NQ；未触商Q/NQ有非零d6，真桥2VA是O(1)且导数未授满射，不能删或当放大minor。
+[R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原χ5/χ6否定全partial的vertical响应覆盖；平移仅到NQ，桥2VA仅O(1)。13近1H与13小c给最小有限仿射闭包，Q0非零使旧D单独不可逆。新actual引理须同一满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，保真(H,c)放大/两次商/prototype×n/Klein基准；R465现给准确两头self门，负权满锥仍另付。
 
-最小仿射行闭包span{FN^jΠσ}可用13近1H配13小c，有限同窗口查询，非无限物理宽度。Q0确有d5非零，所以补闭包后旧D单独可逆仍失败。新actual引理仅需同一增强满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，真实(H,c)导数αDq/αNq给满minor；原两次完整商校正/prototype×n/Klein基准/C1收缩原样保留。
-
-下一准确线性门U0⊂R0+(kerJaff∩U0)+NU1；自然多项式x6→x5只是投影，须同一完整成本付新增F。R465续原一维N像及两头缩减，R462五维K0两成本self是具体入口。另须同一增强锥的所有正字符排除，旧负权核结论不自动保新增行。没有宣actual不可能/已完成。
 
 ### true53全已付有限主问题的新中心路径
 
@@ -204,3 +201,9 @@ R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；�
 ### R464：原九行与seed已由同一真period核支付
 
 [R464](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)在同一次R455初选中增加开条件M3=∫r³≠0：穿零窗D(M3,M5)rank2、周期四正常修正O(N^-1)、F★/20根C2小均保；不改旧冻结母。对同一最终成本已有两真紧period和最高P2零，选统一degree11逆且保−1/(2τ)/incoming/gap，原11+7包装使全九行残差含sin²并无odd项。前三行六真母列、后六平台真表及(D/sin,C+D)给全相位光滑右逆，几何只排1−κ⁴−4ε=0；最后R461付三合法矩不动port。故不再留九行rank/seed Smith未知。仍欠actual全成本增强/最高d自由度、其它s段同规范、高阶与最终几何；signedV#可接全部13不等actual。
+
+### R465：只剩两个完整镜对self成员与增强−6/−4
+
+[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)以原t6/t5系数付F零⇒权0完整current零，以同cap真路径/12中心/degree8付kerJaff∩U0=kerS|W0。原R196 N像只有C6且d5非零，W0→原二维头核恰五维K0；故Qaff,0/NQaff,1≅S(W0)/S(K0)。W0维7/K0维5不冒self秩，必须同判经固定seq707 current补偿的X_H=H*+J4与X_Y=J4−J6。两头R126展开和C20完整self/pure/真左尾已给，后者未补偿不能冒X_Y。
+
+最小新科学为两缺失response的完整self加两normal目标完整self及必要唯一current RHS，原七Qpivot/seq707/三已付self复用；原差全镜对成员，不重旧13核/Qrank7/currentrank/19像。−8已由完整TR=−r4/6−LfP/3及Kseed匹配，真实Af边项全零，故Jaff(U−8)=Jaff(R−8)。−6/−4新增partial与同一满锥/实际prototype仍欠；即使两成员失败也不宣actual一般不可能。
