@@ -241,3 +241,9 @@ WPTVS证明da32e8e0/16633B/SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05
 ## 2026-11-16 11:36:43 UTC — 单独启动WPTVS remaining-body公开CI
 
 源/manifest已先推da09f8fcc335ae3c27a1fde4eaa28c550fbded20。本次仅加独立 `.github/workflows/visible-exact-frozen-cross-block-remaining-body.yml`，固定manifest296d3f66与原worker4342/a3c1、公开本仓Ubuntu/Python3.12.14/flint0.9.0；原workflow和旧marker保。新problem只允许读原collar后续body1..152、固定m1,2与conditional inverse，无finite矩阵。fresh tree da09f8fcc335ae3c27a1fde4eaa28c550fbded20 实际199294965B，加138000完整publication、120000 reserve及本小journal低于200MB；worker预执行/立即science前再次真pull、核两README及容量。本次只是启动记录，不预断科学结果；任何失败先保存完整prefix再声明下一未完边界。README核da09f8fcc335ae3c27a1fde4eaa28c550fbded20同已读。
+
+## 2026-11-16 11:38:07 UTC — WDS全四块双侧残差与真finite Schur
+
+保存proof5e93ca37c37d82787ea870aad977712f41b2d4ea/32943B/SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。完整证明给D=B*Qf*−R*Y、T=C−RZ与E的真signed配对，恒等I−QfM=E+D*R^-1T；须同Hilbert权e+κdt<1才证真实square逆。双rhs公式与z重建完整闭合，不把无符号上界当signed矩阵。dual原弱Green含identity/Volterra/head/mean/端点/jump及H−1、H−2/3的真实对偶Riesz，全部七port旧receivers仅只读。centre32+65repair+full96差、真outer H−5/6、97root补+96outer、193mean/ν/coker全部保。
+
+WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝试实现，精确pivot/action/transpose/norm及完整残差仍未算；root不能由旧WHVA false或未完WPTV授逆。WPTVS43859287399/1目前运行中。完整清理旧H段只压成fe7649afa86974eba204533434e24b7cae903307同H及原白名单索引，全部原scope/恢复/失败/lost仍保，未增审批或重跑门。本次纯证明新结论，0新数/0旧重算。89be4f87df9a733f53519b58bafdad2844083c99两README同已读。

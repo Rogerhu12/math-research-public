@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WDS：真实有限Schur的双侧残差证书** — [完整定理与有限实现合同](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)，SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。对真tail R及primal/dual trial有 $I-Q_fM=E+D^*R^{-1}T$，完整误差门 $e+\kappa dt<1$ 才证真实Schur逆；两rhs与重建均保，97root补/96outer/193mean/所有七port弱Green和全部δ不减。只是完整解析证书及有理trial实现边界，当前无通过tail门或数值finite逆。
+
 - **WPTVS：保留领口完成前缀的body续算与完整输入语义** — [完整证明与合同](results/R133-supplement-retained-collar-continuation-and-complete-ball-input-contract.md)，SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05341eadbd29495b。原43854566735失败后的5 running maxima/witness/chain全部只读继承；修复完整有限Arb文本与原lower/upper interval语义，所有actual-reference差和完整96费用保。27current/19history/10AST、预锁body1..152与m1,2，manifest296d3f66；本次无新数学执行，不授tail或finite逆。
 
 - **WMTA — strict-flux 首次实际完成**：[完整实际结果审计](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)，SHA256 b4b5f5f78127a243f38d0192057018911d306a33f2ed7982341f7705589acd90。43856579962/1成功18门/7图195新+2旧copy，完整SCI90421B/c6680025，131原record/33scope全同、old0/lost0。CFs新约1.167180848e289，whole/reduced各实际选择new但仍约2.116312512e465；所有原非mean/两mean/四端/3070jump/真root与未付finite逆保，后续转完整nonmean界。已成195目标冻结。

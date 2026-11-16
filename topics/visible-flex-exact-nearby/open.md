@@ -183,7 +183,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 [GMR局部mean/γ](results/R133-supplement-completed-local-mean-gamma-bridge-and-exact-reuse.md)f03b79bc：原438277首node3497B/00e1566b已成4copy+8新，禁重算；只原实[rc,r+]、|m|下界，row790/对称盘不扩。完整旧open段保WMTA7。
 
-完整WHS/WOB/WPT已成原段逐字保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md；上述原域/七port/两mean/全部coker和finite交叉/严格充分门/未付signed逆及系数导数义务不变。
+完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。当前tail门及signed有限逆仍待。
 
 WOBSA37量冻结及WMF完整恒等式的原段逐字保[完整outer与归一mean scope](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。原球/域/两物理mean/全部terminal与g1/Jr、WHVA false及未知G/Btarget/high右因子/signed逆义务不变。
 
