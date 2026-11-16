@@ -342,3 +342,6 @@
 
 
 - [R885](../results/R885-original-endpoint-bounded-anticyclotomic-lift-and-unit-specialization.md)：原q/q⁴端点及4倍率、全η/Artin/旧副本由DR全对角类和ACR(6.4)的真实Λ同构给有界反循环D；sp0D=Ep AJ(Z02)，原根逐项给Ep且用E0六挠证明unit，C5=−216整CM分支unit。原最高+++=λ/N进入同Coleman，同一有限余核消额外T因子；Dfun(0)准确检测原ordinary loc，仅保CcanD=Dfunccan，不约增广零或搬7993。
+
+
+- [R872三次零纤维退化与负行去重](2026-11-16-r872-degenerate-zero-fiber-and-negative-row-overlap.md)：原三次F0仅要求物理根1简单；若不同非零根数r≥2，两primitive列相关将迫degreeW≥9+r>10，故真实秩2而低商≤3行。唯一F0=Y²(Y−1)秩1/四行时，β1常数准确等[t]ρ−，同ρ−联合仍仅新增三行；β2的G1全保，ρ−不冒降到V1+J3商，未得K1满像。
