@@ -82,3 +82,7 @@
 ## Request213 — 官方运行绑定
 
 [213完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)实际source `fe0a0d737440bcad59d5af9cb9d08b24131204f4`，公开Actions [run43812359001](https://github.com/Rogerhu12/math-research-public/actions/runs/43812359001)于2026-11-16T05:46:04Z/attempt1启动；compute133116630470在05:47官方metadata前1–7成功，第8原complete39 model/freshFD八批科学运行，必要读回/rules/清理待起。R480由exact唯一后续与终态读取；此处步骤状态不补实际批数、语义变换生效范围、90KB容量或接受。入口官方topic tree `9790fd062fdbe2713ce0bbebe32d081b3e1aede6` 为9265blobs/196672604B、9637entries，truncated=false。
+
+## R481 — 固定十点与完整coast包围
+
+**R481：准确恒等式与完整区间包含的条件证明；无新数值。** [R481](results/R481-fixed-ten-semantic-domain-and-complete-coast-polynomial-enclosures.md)22205B/7e1402a1全文及72c真实函数核后刊：十系数是固定dyadic，同C三cut语义叶的相关集合仅被直积盒外包。coast准确三jet为 $a=A-\kappa\ell t+\ell^2P(t)$、$a_s=-\kappa+\ell P'(t)$、$a_{ss}=P''(t)$；xi真实支撑在前transition且端点二jet零。给定正宽度盒的速度全矩形条件等价于两端宽度的四个完整七次多项式正性；半径保双次数(2,8)全部27 Bernstein系数，不能只取角点。原重复宽度依赖可准确消去，但同C输入信息宽度与公共u/全部候选片/真实当前十点责任保留；已有R352/165方法不冒新发明。未归因205未决主因、不保证原预算可过、不加factory域前门、不把native或一次metric通过补C²/reach/精化。新实现与真实执行另付。

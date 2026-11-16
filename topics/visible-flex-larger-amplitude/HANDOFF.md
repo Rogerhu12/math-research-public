@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:52:51 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 de7849e5d39c7555cc531f0a9ff55f8632b22970。
+规则同步记录：2026-11-16 05:54:47 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f3ab66c28f2a62d62321b8a583e8db3c3030ccad。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -31,7 +31,7 @@
 
 ## 恢复检查点与重要终态
 
-本次压缩前全部H在提交77fae38c42e6247b70abbce1f1c81dd26a4b5ff5的同路径（其中保原f7b46ef6及更早检查点）；其中完整保留旧H/open/log/results检查点、所有原参数、失败/未返/未访与来源。当前open§4–6逐字保持；现用接口/完整证明由results索引追溯。
+本次压缩前全部H在提交04bc6f9df5decea57f39c3afdbd89b6ae3513b97的同路径（其中保原f7b46ef6及更早检查点）；其中完整保留旧H/open/log/results检查点、所有原参数、失败/未返/未访与来源。当前open§4–6逐字保持；现用接口/完整证明由results索引追溯。
 [R412实际195](results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md)：零H5063.5455秒norm0；正1/64总18000钟停stage368/rawCell5/rawSegment7，J/residual/trial未返，R273/FD/fullDN/final/audit未起。原224已批、primal未重跑；quiet真清，不是数学拒或接受父；完整词/地址与来源见正文及3f08ce43b88afe0a8bab96a5ab06316c06d8b01b旧H。
 R432实际200真8交接/20eligible trial但必要超90K真70，末carrier失，206从真98重做；R420实际197105far完整、m212资源partial，其余及native未起，quiet后清。R439实际202第三binary64 unit未过只初猜；R424实际199类型歧义/audit560/576，204仅原typefix。
 
@@ -41,7 +41,7 @@ R472/8206abdf已刊11929/3558c333，run43807229341/sourceb418c6e6，必要16973/
 
 R455/e66b7885已刊15167/25442c58：206八model/freshFD/真父交接，24trial仅计数；119344/119694B主/recovery皆70，必要正文0，owner quiet后cleanup真skip，末pair不可续。需R479/213从原98重生和必要语义去重，不拿SHA补表。
 
-R453本次刊30168/9316e125：205新202准确十族controls-on域10594终端未决/16未访，原flag只记录不添BVP门；全部112 far/joint行完整，物理点1M work停3点/0field，原native-ready false挡binding，两个BVP/闭面未起。五正文两job同字、七必要/quiet真清，report保compute failure非传输缺。待返点/stack旧selector仍漏且已清，不补造。R481/amplitude续查准确族区间责任，不改212或加门。
+R453本次刊30168/9316e125：205新202准确十族controls-on域10594终端未决/16未访，原flag只记录不添BVP门；全部112 far/joint行完整，物理点1M work停3点/0field，原native-ready false挡binding，两个BVP/闭面未起。五正文两job同字、七必要/quiet真清，report保compute failure非传输缺。待返点/stack旧selector仍漏且已清，不补造。R481本次22205/7e1402a1刊：固定十点/C语义外包、coast完整三jet、速度宽度端点等价、半径27 Bernstein系数；不保证域通过，不改212/加门。
 
 ## 已刊主线与完整接口
 
@@ -56,7 +56,7 @@ R454/20347abf与206/e8e4be9f保真98父、39八组/108pins/全17α/原钟，实�
 临时源在/workspace/visible-larger-working；丢失依已刊完整接口/父源重做，不靠已删raw或SHA造证。此前此节全文在77fae38c42e6247b70abbce1f1c81dd26a4b5ff5同路径，所有原失败/未返/未访保持。
 - exact：唯一207/R460、208/R467及未来213/R480终态。R479三核心已a9ff7bec；213五最终件全读，plan5cd405f3/recipef2176b25/interface748dfc98已f7ba484f；requestbb4005b4/workflowc0543ec8已fe0a0d73，run43812359001本次官方绑定。110public+2现场源、原108祖先/39八批/17α/原钟/真98父/FD/quiet不变；不保证90KB。206/210终态已刊不重取。
 - geometry：唯一209/R469和212/R478终态。R476/helper00831470、212入口9a9dbfa8、run43810550597已绑；只inverse工作depth24→2与R477完整point/stack，全部候选/原门保，不保证预算/误差。205/207/209原冻结入口不改。仅据已有源码整理闭面各真实证据责任，不加门。
-- amplitude：唯一204/R446及211/R475终态。211前四件4f326cd1、入口7e62fb22、run43810051801已绑；168来源/真实c216依赖/R474九计数与全112原门保。R453实际205已3f08ce43，日志不重取；续查R481准确族coast区间表达式及原验收责任，纸面等价不冒未决原因或必过。
-- root：逐结论立即推，213三件f7ba484f/入口fe0a0d73及本次官方绑定已刊，继续open；R481完整纸证审读中，geometry准备214/R482同job精化组合但未执行；actual62两生成清单已77fae38c普通删1352194B，仅4d61/ef5e，其余/父/源/历史保；63已b696cc15。结果索引完整旧字在results-index-through-request212.md，open§4–6逐字保持。每pull核双README。
+- amplitude：唯一211/R475终态；204两终态日志已读一次，R44621458/96d5775c已交待root审刊，不重取。R481原稿9666fc7c全文核，本次只删§6标题“最窄”得7e1402a1；正文不动。
+- root：逐结论立即推，213三件f7ba484f/入口fe0a0d73及本次官方绑定已刊，继续open；R481本次刊，geometry准备214/R482同job精化组合（R484实际预留）但未执行；exact先设计R483准确coast局部实现/真实绑定，不动旧72c身份；actual62两生成清单已77fae38c普通删1352194B，仅4d61/ef5e，其余/父/源/历史保；63已b696cc15。结果索引完整旧字在results-index-through-request212.md，open§4–6逐字保持。每pull核双README。
 
 213入口fe0a0d73官方topic tree9790fd062fdbe2713ce0bbebe32d081b3e1aede6：9265blobs/196672604B、9637entries，truncated=false；62/63清理均已计入。不存新raw。
