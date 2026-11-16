@@ -159,3 +159,6 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 
 
 [R840全负水平标号](notes/2026-11-16-r840-global-zero-charge-label-on-full-negative-horizontal.md)：原全负水平上的规范β_-(a)=[V_a,0]∈H2^0/(F0H1^0)与全部lift无关；同交元素准确G0=F0²C0−F0V_a,0，故[G0/F0]=−β_-(a)，a0时G0必含F0²。固定(a,B)只剩同cF0³，须与第三/四行同c。完整O的A0零charge恒零，目标可限ker resZ_-，其z_-恒零行是来源冗余；全双根/∞/固定角保留，非新物理左障碍。 继续剩余真实单/双尾与原同K/H高前缀联立，不能逐点自由选G0。
+
+
+- [R857](results/R857-original-full-three-scholl-and-generic-cm-cycle-criterion.md)：实际三同源φ:Eτ→E′τ全full3已付；完整648项ε3给Θ=ε3CΓ，ΘᵗΘ=81Π、ΘΘᵗ=81ε3，后式用degree81来源的有限维性及零实现幂等元。原AJ仍−Ω3/18，全部Artin/来源倍率保。原泛纤维反对称闭点迹Tη=0 iff同Scholl类有有限CM纤维graph代表；cusp两ruling与非CM光滑项由真投影消。未证Tη零，也未认作R814指定K/order34/orbit。 继续原完整trace的实际Hecke/τ作用；full3的3-local CM order与vector必须实付，不能裸移level9 Heegner假设。
