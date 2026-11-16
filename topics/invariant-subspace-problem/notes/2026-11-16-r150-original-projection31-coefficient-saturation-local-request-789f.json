@@ -1,0 +1,57 @@
+{
+  "arguments": {
+    "core": "/tmp/literature_whole_w31_789f/source/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "gap-audit": "/tmp/literature_whole_w31_789f/whole-w31-remaining-torsion-quotient-audit.json",
+    "generator": "/tmp/literature_whole_w31_789f/source/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "memory-mib": 2048,
+    "out": "/tmp/literature_whole_w31_789f/coefficient-saturation-actual",
+    "primitive": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original127-inputs/original-primitive-integer-equations.json.gz",
+    "projection-receipt": "/tmp/literature_whole_w31_789f/actual-root2/original-projection-field31-local-smith-receipt.json",
+    "schur": "/tmp/literature_whole_w31_789f/source/2026-11-15-r150-infinity-small-original-projection-smith-789f.py",
+    "seconds": 600
+  },
+  "format": "r150-original-projection31-coefficient-saturation-local-request-v1",
+  "inputIdentities": {
+    "core": {
+      "bytes": 34432,
+      "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+    },
+    "gap-audit": {
+      "bytes": 2013,
+      "sha256": "1ac4cfed2d998f11b9c382f814287d46f5a02e4be64e7b2db856839482a2b8f9"
+    },
+    "generator": {
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    "primitive": {
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+    },
+    "projection-receipt": {
+      "bytes": 7828,
+      "sha256": "9acb3368250f9efeeed1b358036f3ee6620846ba48fb176f6b2011a94c00e2a4"
+    },
+    "schur": {
+      "bytes": 37379,
+      "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+    }
+  },
+  "interface": {
+    "bytes": 9206,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-complete-coefficient-saturation-interface-789f.md",
+    "sha256": "829a35fa4d11386be4c7fa53b23fc5e6d1f3b674dc440fc36e9daaed8ef4ded8"
+  },
+  "mathematicalArraysTemporaryOnly": true,
+  "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "pythonFlintVersion": "0.9.0",
+  "resume": "same source, inputs and output binding; budget may change up to1800s; verified immutable phases only",
+  "sharedRepositoryNotModified": true,
+  "source": {
+    "blob": "e771dd03b21e04a645bc204a2e64302de72048de",
+    "bytes": 36017,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-complete-coefficient-saturation-789f.py",
+    "sha256": "6cfc2b933992b96d012599f493389bc370cb4989d865e765b7b94a542ad13338"
+  },
+  "status": "frozen-request-not-result"
+}

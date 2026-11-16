@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-fifty-parameter-seeds-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-whole-W31-equals-M-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -24,7 +24,7 @@
 
 - **[全W在127处完整整结构已闭](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)：** 原6188×155投影在63点rank142、真142子式det97、80444核乘回全0。完整U127=M127⊕R127/(127,s+64)，D型D127^25⊕D127/127、dD26/dR3；AnnU=h*(127,s+64)，h*qW入像恰q(63)=0 mod127，系数指数恰1。原0.884秒/根另0.510秒从primitive以二次型重建全部6188行及FLINT秩独核，无新展开来源费。全W31的新范围接下项。
 
-- **[全W31根1已闭/根2剩差≤8](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)：** 原P完整field局部谱为根1(1,1,2,2)/长6、根2(1^8,2²,3²,4)/长22，保原314=298+16及J1。全Ubar=Mbar仅给U/M⊂pH；真H1=(1,1)、H2=(2,2,2,3,4)，故U1=M1，余差嵌(1,1,1,2,3)、长≤8且31³U⊂M。原两实跑/全6188乘回及root独立二次型block-jet秩/directSNF8.253秒全真。下一以原P的C_P=C/U做四轮系数饱和，未判U=M。
+- **[全W31=原九平方M已完全闭合](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)：** 原155×224小呈示四轮完整31饱和，field长度22,22,19,18,17保baseline17/J1；Tp型(2,2,2,3,4)长13=H2，故余K=0。原U31=M31，AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*及h0全W精确系数指数5/2。全部D型/八生成/非裂扩张继承上列M定理，不新宣4212展开来源费。原57.531秒/独立42.987秒全原来源、colon和Toeplitz通过，root全源/双raw/十payload10,477,600坐标独读。此有限模块已闭，转其余open。
 
 ## R150完整非rank-one及Bell1
 
