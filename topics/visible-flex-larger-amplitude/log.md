@@ -53,3 +53,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:23 UTC /root — R556完整112far双worker与原序账
 
 [R556](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)四件99450B独立完整刊；两mode同ω全112far、原25M/绝对钟、准确arb字/ctx和全部原账重定位/prepared SHA/两级commit保，失败不续wave、同PGID/未知quiet不冒真。无新run/速度，R557真实235全闭包另付；238唯一POST200/a4c45/run43885002914正式绑定本次刊，H/open/索引同步，§4–6原字。
+
+## 2026-11-16 14:24 UTC /root — R569同次真实cubic与准确quintic完整缺陷
+
+[R569最终](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)三件74959B独立完整刊；真实同次PPoly全幂/区间/augmented列与准确675quintic，完整C*分解/Bernstein差/joint正域与物理角A²ρ²，P不另乘ρ。旧f349从未main刊，旧节点/SHA不能造literalPPoly，R570真实三driver/FFT形成/投影另付；无新run/门，H/open/索引同步，原§4–6保。
