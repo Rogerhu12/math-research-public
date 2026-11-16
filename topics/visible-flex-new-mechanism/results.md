@@ -150,3 +150,5 @@
 - [R554 同一33母的双真实保持与准确p1/p2联调](results/R554-two-real-holds-and-exact-joint-p1-p2-control-with-one-fixed-gauge.md)：**已证明**含全部桥/前缀/真实m,T的两时长IFT，给总p2=0/Π<0及同族另一p1=p2=0词；纳入R553完整快后继后，真负k端亦可保前者。原t1仍负、p0及余矩未清，不授既定末态改史、全M0或慢恢复。
 
 - [R556 同一固定规范的两次真实低尾与准确四矩零](results/R556-four-exact-matrix-moments-by-two-real-low-coasts-with-one-gauge.md)：**已证明**继承完整有序history的两低尾/两高回程及三参数C¹端IFT，原P0=P1=P2=T1准确同零。第二W与矩权重区分，所有费用保；同点r1^y仍严格负，余四矩/末germ/pose/period/13尚欠，不授M0。
+
+- [R555 三p返回后的余五矩Gram能量与真实历史面积](results/R555-five-remaining-moments-gram-energy-and-real-history-area-interfaces.md)：**已证明**完整原M2的三槽矩阵身份、严格正定/端点能量门，以及r1/r0含incoming的有序面积式。正高度r1项同步付负t1，恒真高度限定障碍不排一般路径；原/中心变换与实际Schur端接口保，不预授修复或满秩。
