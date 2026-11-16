@@ -279,3 +279,6 @@
 
 
 - **R444：原八hook响应的最高规范作用与第二period盲行。** [完整证明](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)（15336B/SHA281e1952e734cc9a083688e20e5f7b7f779238db797ad6a32794ea945683b87f）从完整响应得2Lf(XD)，保whole三矩紧性/全部真尾、J⁺/内部C及真像。最高变化−d/τ、+e/τ（P2再乘κ/24）；当前12复制原四次差分权与degree≤10、真实二次Y跨尾消，准确证e_f(E8)=0及incoming-e项0。d八真实值未判；仅此支路同时可调iff be=0且τbd∈d_f(E8)。R326原三合法矩已保，余9端口行/其它s段/actual全基准未付，不宣全R盲或rank1。无新执行。
+
+
+- **已付p32的新线包络：完整凸性与严格下降判据。** [纸证及输入边界](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)（10231B/SHA4a3bfa4168496af94ac61a2472d7d69e0674b3bdb5ac6c9f56b0c2f3cf29b761）：原epsilon正谱分支沿线凸，完整368640分支max凸，存在α>0严格下降 iff α0全部精确active的最大导数<0；全步坏不排内部谷。浮点active非精确证书，原4attainer仅下界；需要完整线系数。全步通过加强guard不授任意缩放，真实14门/盒另验。新标量方法另记solver/oracle/恢复费并保原1200/1800、32/64封存，未执行。

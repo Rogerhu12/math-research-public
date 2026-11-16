@@ -14,7 +14,7 @@
 
 ### O2 最新实际
 
-[cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)唯一model28/cone32 AlmostSolved、原有限门全过；full-grid fine87417抬rho使gain−.000011406471767227977，0物理trial。原accepted52/η.2660182947853381/κ57.999249547251196与实际池4448/4544v13/13不变。32cone与64HiGHS均封存；新195.335570869秒/2恢复值，锥累计968.675704986/原1324.805525247秒、62/124值。完整161及当前bank保在原stdout。下一纸证已付p32完整线包络；不把单点失败说成整段失败或驻点，任何新标量方法另计调用和恢复费用。
+[cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)唯一model28/cone32 AlmostSolved、原有限门全过；full-grid fine87417抬rho使gain−.000011406471767227977，0物理trial。原accepted52/η.2660182947853381/κ57.999249547251196与实际池4448/4544v13/13不变。32cone与64HiGHS均封存；新195.335570869秒/2恢复值，锥累计968.675704986/原1324.805525247秒、62/124值。完整161及当前bank保在原stdout。[新纸证](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)已给完整Φ凸与全部精确active最大右导<0 iff正向有严格模型下降。新first-jet方法仍须完整系数/独立标量及oracle账；不把四attainer或浮点active当严格整线判定，所有真实门另付。
 
 ### 仍须支付
 
@@ -40,9 +40,7 @@ R308真弱入口只需单hook AfW0，允许Af=0曲开段内W≠0；紧光滑双h
 
 ### 已付有限原式可复用，不能把低阶保持当自动零
 
-R259/263的72全角面积与81有序状态是准确接口，不是rank；R277–281付同F解析有限N圆的面积/能量/三矩/third，R293/294付整个二层history，R299完整self C²与真Γ补偿清角向Ξ，R300/305完整主空间free42/even40及两个明确零层We商坐标均已付。R304说明其外尚有严格非零C²基线，现不再沿被排类继续增加观察或重跑旧principal计算。
-
-原R281解析端、R288 canonical一次指数层已付的结论保其精确逐包比例输入范围；改为重叠/不同首阶轨道后，必须重新检查这些尾/端结论的假设，不能直接继承“局域”或“自动零”。
+R259/263的72面积/81有序状态是准确接口非rank；R277–281同母面积/三矩/third、R293/294二层history、R299完整self/Γ与R300/305完整商保原证。R304原Gaussian余基线后由R387/388阻断，不再重跑principal。R281端类/R288指数层只保原逐包比例输入；新重叠/其它轨道须另核真实尾/端条件。
 
 ### 全成本、实际pure控制与结构几何
 
@@ -72,7 +70,7 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 [R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)现已从完整原CA m2/BN2、−Ψ、两P/B history与有序真尾推得 ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)。完整加速度及速度势逐state准确抵消，余ρ消全部真实primitive而无丢左尾；全局部C²多项式式保全部五速度槽。纯δ式回R370，h1d0混合γδ³=∫(7x²−1)r⁵/160−∫xvr⁴/16，偶母平移的二次项证明比R384 X/M多一真正函数方向。它是整个Q4的读出，尚非整个U/同g joint；Q2/静态等不能因该式被免费局部化。
 
-R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
+R384/385已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)付两个固定真实Λ的实际joint：原严格正核/四次幅、真实桥/倒行、完整基准、单一有限C1截面保留，非wholeE/同g/13规范。[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)再付响应P_LE⊕R²，原型清零成本×n、后置校正完整F保；非wholeE0。旧fixed两Λ核不自动仿射稳定，不能套字符排除；现继续J⁺/内部门的同actual基准。
 
 ### R327/R330/R437/R442/R444：最高规范兼容与原八响应盲行
 
