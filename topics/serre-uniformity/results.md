@@ -281,3 +281,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R880七原Galois正常输入实际认证**：[正式结果](results/R880-certified-original-seven-Galois-normal-inputs.md)。run43849775574/source4a459acc，37stage/4.386065837s/80源；真σ支次序(0,6,1,2,4,3,5)，六新A/B、完整1380×12乘回且全非零。保原free1186/82尺度和准确unit-solve定义，不重原branch0/F69/S5逆；小IO43853961723绑定60项manifestc7deae05及七输入24b236ef。实际六D*/五Lj、char0展开/height仍缺。SHA256 4965dda3bf48e32d63b57cd7011c98659be82d391c4d8eb8554435c1e1299526。
+
+
+**R893原五真实和同态初始RR完整证明**：[原证明](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)。原g_j=(1+T^j)f同权98分子分母、OO/二挠全DVR与真极除子保全；完整272维纤维、Q全Artin单位、块Vandermonde及全行Schur给n=(12,8,8,13,14)/N=(23,15,15,25,27)初始空间和原未缩放P0框架。主函数保τ^(3−n)，初始节点数不冒更高乘积注入；实际新核/五Lj128/144与height仍未算。

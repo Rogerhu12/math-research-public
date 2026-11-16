@@ -159,3 +159,35 @@ main ea13/bca655de全部30712B与数学params/5max/m1,2/完整193mean/四Schur�
 先推窄修 package 98924967bf87b1fa30f8dd367f932511235355a8，再独立提交同一 workflow；此前 43851901811/1 与只读诊断 43852589080/1 均 scientific_children_started=0、全部五 target 未始、completed=[]、无 consumed marker、lostmath=0，失败边界已先 685b8a08 / 9ed93794 完整登记。新 workflow d8b2d94a73cbfb3c13c6693d2ca77402f93b90a6 / 2929B / SHA256 c526464fa567773efbd4bd42e6e619a9f9b0b6ed0ddf3a9f9251a295a12258fa 只固定 manifest 9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4 和已审 worker a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c；readonly_diagnostic_only=false。科学 source bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1 及全部五量、m=1/2、域、mean、193与96、全失败保存、0旧重算和0finite矩阵均原样。
 
 启动前 fresh Git-tree f932e75b993a1ce7df209af3cde438d598719414 topic=199543841B，完整输出预算128000B+reserve120000B+本次文档裕量7000B≤200000000B；worker 在真正 child 前再核同预算，所有实际pull逐次核两README并保回执。本提交只授权尚未执行的既定数学，不提前声称预检/尾门通过。README核 f932e75b993a1ce7df209af3cde438d598719414；后续按实际小完整输出判定。
+
+### 2026-11-16 11:07:02 UTC — GMR：原局部 mean/γ 桥已成，只读复用并纠正 stale open
+
+独立结论 bb72e319a7143c098ac0b4747928552da55b6384 /12615B /SHA256 f03b79bc5577a4f6e8bd5fe333916b7b5abad7f93250ac008a5e8ccaa0faa7e2。root亲读完整小proof、原3497B节点679a1d15、14,247B合同40d7a4f7和原support d4f887d6完整取回后的 full_input_mean_gamma_bridge；两完整index原字核身份，4copy逐对象等于已存FA2/WGS c，附录12records原字等于actual，8名称/顺序/公式逐核，parent十二输入/五module map全等，续算input prior_node_mean_gamma_bridge=00e1566b0a0641f5f92e04c6b5fe20b108f4e314be181afa39e17614d748ba48。Tail/Phase独立复核同结论。
+
+43827705714原failure停node24，第一node桥complete=true/failure=null/eight events；绝不把run改写success，也不把该桥误作未算。43831678361只补free map suffix/四端/whole，桥原SHA不变。mean_local_lower仅|m|下界；实际root r_*不替r_+，实域[rc,r+]∩原germ、普通V[1][0]、原cut row790与半径/strip资格全保。无对称盘或额外scope。本次没有调用数学/Arb或旧producer，0新数，禁止再launch旧八量。
+
+为保持H≤10KB，前H 9960B/SHA256 6f79d7844f6177a3c13cc78a2f106de83c4261cb1e7b0d99c8fb7f2ebdfa9693 原字保存至 topics/visible-flex-exact-nearby/notes/2026-11-16-corrected-tail-and-completed-mean-reuse-checkpoint.md（源afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2）；仅已成索引压缩，全部原球/域/失败/lost/恢复/未付义务递归保。两README核 65b6be688c1c758bdf5f160a6f8db4fea4f48d65。WPTV43854566735/1仍待actual；后续继续尚未成的新局部forcing与严格flux/真实finite逆。
+
+### 2026-11-16 11:08:31 UTC — WPTV 43854566735/1 首次数学失败：collar 完整前缀保存，限定后续 body
+
+workflow afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2；实际科学 checkout 1e9d0191b5167facc9fda1e3c94e2662f6da2b54，11:05:47.107194 开始，11:05:54.057502 child退出1；一子进程、old_targets_recomputed=0、0finite矩阵/0新数组。三完整实际小文件原字已在 notes/frozen_cross_block_value_tail_ci/run-43854566735-1/：actual-scientific-conclusion.json Git e5721a0ecea7c3131401a8caa94839ad10e2e315 /15309B /SHA256 b8812b6b940b17532c7643555d3393da71c2190606082862ccf651fbff762274；execution.json fe4c3e274701d9237736809e7dd12b801ce8c79c /31256B /e7246476bc02fe196ec10186783bcda8892621ec1c105d4b99dc612647cd3eca；report.md 0b8d1af01811265ded251bdf7fb55ad86846e136 /427B。root完整取回各≤100KB文本；101852B stdout仅原execution记录bytes/SHA，未取大log。
+
+前两attempt仅readonly child0；本次原intrinsic五字段已修，24current、10AST、19history原字恢复、全部4650/3594原covers通过；1580B preflight SHA f03bcda032ed6923a24717c7705c9a440c1558d45f1ea1bf06c2402fce703003 全同预锁模型，13771B restoration receipt SHA4705f2c3a093724ed7e21bfee9ed30d481105e1aec8446da55a14fb0a764d7ac不变。科学11门通过，153 parent mesh已构造，仅parent0 root collar完成，5 running-record完整保存（A/L非零，Eb/Ub/B零初始）及其witness、last_completed_parent、count1 chain SHA947c13032e6e6dc6496e42d2a78b0178b41dbc4372069a321f3f501a07547df7。parent1 body [1192029371497/5000000000000,1192034996497/5000000000000] 仅state=started，在exact_reference的signed_display_centre抛ValueError 'original finite display centre'，body_intersections=0，无body reference_identity已存。
+
+完整first target仍current，completed_targets=[]、new_whole_maxima=0/new_scalar_records_completed=0（这两计数定义为整目标，不抹除已保存的collar内部prefix）。原problem consumed marker90ceb485fa6d22db66a6ee6f1cb0b1615c025886/621B保持。已完成collar不得重复；续跑须静态验证原失败全SCI、复制完整原球/witness/chain/counters，从body parent1继续到152，且只接未始m=1/2、mesh selection与有条件resolvent。parent1参考构造里未保存的内部步骤仅限该未完成单元重做；不能声称整body已算，也不授权其它已成数学。任何已完成prefix/target未丢失，全部未付193mean/完整Schur/true96/first-r/非线性scope仍在。
+
+4次真实pull结束11:05:20.193542→ed3ed6bf、11:05:42.072960→0f031889、11:05:45.261115及11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README实际diff及显式review差异全空，完整回执在exec。H更新下一真pull≤12:05:54；本次只读README核 9abcc371fa7c838b959e0672d8a4498847436168。先推此精确失败/续算边界，才允许新suffix package。
+
+### 2026-11-16 11:16:06 UTC — 先推唯一 Hnodes258 旧浮点派生诊断清理白名单
+
+已review白名单 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb，路径 topics/visible-flex-exact-nearby/notes/2026-11-16-R133-completed-exact-affine-258-ray-diagnostic-cleanup-whitelist.json。唯一target topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json /Git2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B /SHA256 7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；仅δ2同对象已成258-ray完整浮点diagnostic，不是dyadic H/精确object/root/native dense定义、任何旧失败或原证明。原SHA由N、F0、F1及实际下游DR同字锁，root与Tail均未读取target正文，不伪称新hash。元数据确认current 572535065716880da2d43ac8fd120585dc880c2a 和restore9abcc371fa7c838b959e0672d8a4498847436168同path/Git/size/mode。
+
+root全读九个原小primary（N/F0/S0/P/D/DR/J及已读同字F1/N3），完整producer18177B把native traces另存、只full-loop后写complete；下游D/DR确实使用该258-grid，保真实历史依赖，F0/F1不改。后续如需须从9abcc371同path临时恢复核Git/bytes/完整SHA，禁止重跑ray/Newton或旧producer。所有独立definitions/native/小失败报告不动。
+
+Tail完整24current/19history边界及Phase/Newton各已持文本scope保白；root补核最终WMT manifest8870b8be/9输入、原WPTV manifest9b52fa3c、已失败SCI/exec完整小文本、GMR及H/open/WDS已持文本，exact basename均0。尚未冻结的WPTV suffix不冒已审；其新consumer仍须完整入口核验。只此一path，先本白再fresh guard普通删除，0数学/0旧重算。毛释放72503B，扣本白净46205B，journal另计。两README核 572535065716880da2d43ac8fd120585dc880c2a。
+
+### 2026-11-16 11:16:28 UTC — Hnodes258 白名单先推后唯一 fresh-guard 普通删除
+
+白名单提交 4ba6fe05816fe903c647952061dc308d0a63afc5 已先成功，final白 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb。本提交每次重建均读取fresh main Git-tree，严格要求唯一 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json 为100644 blob 2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B 后普通删除；不force，不改其它目标/definitions/native/旧失败/原frozen dependency。0新数学/0旧重算/0target body访问。
+
+完整恢复提交9abcc371fa7c838b959e0672d8a4498847436168同path/Git/72503B/SHA7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；旧Newton258与F0/F1依赖保留，需用先恢复，不再生成。净释放46205B为扣白后、未扣journal；最终topic容量将fresh实核供WMT完整预算。两README核 4ba6fe05816fe903c647952061dc308d0a63afc5。

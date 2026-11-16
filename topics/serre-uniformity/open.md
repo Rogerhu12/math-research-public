@@ -151,3 +151,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R880七原σ正常输入实际完成**：[认证](results/R880-certified-original-seven-Galois-normal-inputs.md)。37stage/4.386065837s、全部1380×12回代、真σ支次序(0,6,1,2,4,3,5)，old branch0/S5逆/F69不重。六D*的新原图单位与全418仍须实际认证，五原g_j/RR继续；原char0展开及height未成。
+
+
+**R893原五真实和同态初始RR完整证明**：[原证明](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)。原g_j=(1+T^j)f同权98分子分母、OO/二挠全DVR与真极除子保全；完整272维纤维、Q全Artin单位、块Vandermonde及全行Schur给n=(12,8,8,13,14)/N=(23,15,15,25,27)初始空间和原未缩放P0框架。主函数保τ^(3−n)，初始节点数不冒更高乘积注入；实际新核/五Lj128/144与height仍未算。

@@ -538,3 +538,362 @@ $$
 原三个有序角色对仍为 $(0,1),(1,2),(2,0)$，CM 符号和系数域照旧。
 (C8) 不删原 Artin 条件，只用已证明的源自同构和归一配对消除重复的实际求交。
 每个所计算的除子仍须按本正文处理全部闭点、边界和高交重。
+
+
+## 附录 D：所选常数域反射与四个实际除子
+
+本节继续假定原两份坐标证书成功，使用 R880 的同一个 \(h,\theta_{17},P,\mathcal A_0,\mathcal A_1,\mathcal A_2\)。它减少重复求交；不把有限域的反射施到角色系数上，也不截短任何闭点迹。
+
+### D.1 必须区分复共轭和本位的常数反射
+
+令 \(c_\infty\) 为原实嵌入所定的全局复共轭。原 \(h\) 取实值，R869 已付 \(P\) 在实嵌入的 \(F=\mathbf Q(\sqrt[3]{17})\) 上下降，所以
+$$
+ c_\infty(\kappa P)=\kappa P,\qquad
+ c_\infty\sigma c_\infty=\sigma^{-1}.
+ \tag{D1}
+$$
+这里 \(\sigma\) 是 R880(C1) 的真实九阶元。
+全局实数 \(\theta_{17}\) 被 \(c_\infty\) 固定；不能据此给本位 \(F\) 的反射号。
+
+在本题所选 \(r=29,41\) 的几何嵌入中，取 \(a_0^3=17\) 的唯一
+\(\mathbf F_r\) 根，以及 \(h_0^3=2^{32}v(a_0)\) 的唯一
+\(\mathbf F_r\) 根。两个立方根唯一是因为 \(\gcd(3,r-1)=1\)。
+这正是已固定实原模型的一种好位约化，不另改原余循环。
+由二次互反律，
+$$
+ (17/29)=-1,\qquad (17/41)=-1.
+$$
+而 \(a_0^3=17\) 给 \((a_0/r)=(17/r)\)，故
+$$
+ \theta_{17}^{\,r}=-\theta_{17}.
+ \tag{D2}
+$$
+因此本位常数反射 \(\jmath:z\mapsto z^r\) 在原 \(H_{34}\) 的约化上对应
+\(c_\infty\epsilon\)，而不是 \(c_\infty\)；\(\epsilon\) 固定 \(H_9\) 并改变
+\(\theta_{17}\) 的符号。它在 \(H_9\) 上仍给(D1)的反射。
+
+把常数反射施于实际映射的全部系数，保持源参数不动，以横线记之。
+原第一因子的规范和(D2)于是给
+$$
+ \overline F=-F.
+ \tag{D3}
+$$
+对三条后因子，记
+$$
+ i^*=(-i)\bmod3,\qquad u_0=0,\quad u_1=u_2=-1,
+ \qquad -i=3u_i+i^*.
+$$
+由(D1)及 \(\mathcal A_{i+3}=[\omega]\mathcal A_i\)，
+$$
+ \boxed{
+ \overline{\mathcal A}_i=[\omega]^{u_i}\mathcal A_{i^*}.
+ }
+ \tag{D4}
+$$
+即
+$$
+ \overline{\mathcal A}_0=\mathcal A_0,\quad
+ \overline{\mathcal A}_1=[\omega^2]\mathcal A_2,\quad
+ \overline{\mathcal A}_2=[\omega^2]\mathcal A_1.
+ \tag{D5}
+$$
+所有目标的 \(h/2048\)、\(\lambda(u)\) 尺度均在这些实际映射内。
+(D4)不是只把三条未定首项的形式互换。实现可在真实相对六次函数域中，对常数作 \(z\mapsto z^r\)、固定 \(t_\eta,y_s\)，逐条核对(D3)–(D5)。
+
+### D.2 先完成全部闭点迹，再用反射
+
+仍写
+$$
+ p_{ab}=[6]\operatorname{Alb}\overline F_*
+       (\overline{\mathcal A}_bq_2-\varphi_r\overline{\mathcal A}_aq_0)^*[O],
+ \qquad 0\le a,b<3,
+$$
+这里的原几何约化横线在以下不再重复；(D3)中的横线则专指常数反射。
+全部 \(p_{ab}\) 均在 \(E_0[\ell](\mathbf F_{r^2})\)。
+
+对完整闭点零循环施 \(\jmath\)，其交重和剩余次数逐一保持，
+且与剩余域迹相容。输出点上的动作就是实际
+\(\varphi_r:(x,y)\mapsto(x^r,y^r)\)。
+这里使用的是常数域的半线性共轭，不是把不可分的绝对 Frobenius 拉回除子后漏掉其重数。
+
+在共轭后的求交映射中用(D4)，得到相对 CM 相位
+$$
+ j=2u_a-u_b\pmod3,
+$$
+因为 \(\varphi_r[\omega]^{u_a}=[\omega]^{2u_a}\varphi_r\)。
+原源 \(R\) 的完整等式 \(R^*D_j=D_{j+1}\) 及
+\(F_*R^{j*}=[\omega]^{-j}F_*\)，再连同(D3)，给
+$$
+ \boxed{
+ \varphi_r(p_{ab})
+   =-[\omega]^{-2u_a+u_b}p_{a^*b^*}
+   =-[\omega]^{u_a+u_b}p_{a^*b^*}.
+ }
+ \tag{D6}
+$$
+两指数模3相同，所以(D6)也与附录C的 \(p_{ab}=p_{ba}\) 相容。
+
+这一步的每个 \(p_{ab}\) 都先由正文(19)／附录A(A2)完成其全部
+\(k_Q,d_Q\) 求和。没有把 \(d_Q\) 换成模 \(\ell\) 的类，也没有把
+\(P_Q\) 先当作 \(\ell\) 挠点。
+
+### D.3 四个求交、两个真实固定线检查
+
+把(D6)与 \(p_{ab}=p_{ba}\) 展开：
+$$
+ \boxed{
+ \begin{aligned}
+ p_{02}&=-[\omega]\varphi_r(p_{01}),\\
+ p_{22}&=-[\omega^2]\varphi_r(p_{11}),\\
+ \varphi_r(p_{00})&=-p_{00},\\
+ \varphi_r(p_{12})&=-[\omega]p_{12}.
+ \end{aligned}}
+ \tag{D7}
+$$
+因此只需实际分解
+$$
+ \boxed{(a,b)=(0,0),(0,1),(1,1),(1,2)}
+ \tag{D8}
+$$
+这四个完整有效除子，便得到全部九个有序点。
+每个所计算除子的次数仍准确为 \(2256(r+1)\)，全部边界按正文处理；
+另外五项由(C7)、(D7)运输，并非给它们赋零。
+(D7)末两式可作为真实输出点的两项相容检查。
+
+如果用固定 \(E_0[\ell]\) 基，令 \(M\) 为原 \([\omega]\) 的矩阵，
+\(C\) 为实际 \(\varphi_r\) 的矩阵，则
+$$
+ C M=M^2C,\qquad C^2=(-r)I=I\quad\text{于 }\mathbf F_\ell.
+ \tag{D9}
+$$
+最后的等号只用于已经得到的 \(\ell\) 挠点，来自 \(r+1=6\ell\)。
+它从不用于提前缩短附录A的整数 \((1-(-r)^{d_Q})/\ell\)。
+实现由同一目标曲线的实际两个基点逐个计算 \(M,C\)，并核(D9)；
+不以角色系数域上的 Frobenius 代替 \(C\)。
+
+最后将按(D7)填全的九个点送入 R880(C10)，或完整填回十八项
+Artin 消费器。系数 \(\zeta_j,\chi_{jk}\) 始终固定，
+\(e_\omega\) 的使用顺序也保持。这里没有增加一个中央零假设，
+没有改变原 \(Z_{\rm orig}\)，也没有预报这四个实际除子的输出是否非零。
+
+## 附录 E：三个原角色读数与两个实际挠点障碍
+
+本节在附录D的同一四个完整除子输出上，进一步消去检测阶段的冗余。
+不再增加求交，不改变原三角色或原九阶Artin元；所有点仍先完成正文及附录A的全部闭点迹。
+两原特征零证书及真实约化映射依旧是使用这些点的前提。
+
+### E.1 系数域的三次扩张与几何 CM 分开
+
+记
+$$
+(r,\ell)=(29,5)\ \text{或}\ (41,7),\qquad
+V_\ell=E_0[\ell](\mathbf F_{r^2}),
+$$
+并令几何算子
+$$
+\rho=[\omega]\big|_{V_\ell},\qquad
+\Phi=\varphi_r\big|_{V_\ell}.
+$$
+附录D已付
+$$
+\rho^2+\rho+1=0,\qquad
+\Phi\rho=\rho^2\Phi,\qquad \Phi^2=1.
+\tag{E1}
+$$
+最后一个等式只作用在已经完成迹的实际 \(\ell\) 挠点上。
+
+沿用R880的同一个系数CM符号，取
+$$
+k_\ell=
+\begin{cases}
+\mathbf F_{25},&\ell=5,\\
+\mathbf F_7,&\ell=7,
+\end{cases}
+\qquad
+\omega_\ell^2+\omega_\ell+1=0,\quad \omega_\ell\ne1,
+$$
+$$
+e_\omega=\frac{\rho-\omega_\ell^2}{\omega_\ell-\omega_\ell^2},
+\qquad
+e_{\omega^2}=1-e_\omega.
+\tag{E2}
+$$
+这些是在 \(V_\ell\otimes_{\mathbf F_\ell}k_\ell\) 上的两个互补投影；
+\(\rho\) 是实际点的CM算子，\(\omega_\ell\) 是系数，二者不提前混同。
+
+取原 \(\zeta\) 满足
+$$
+\zeta^3=\omega_\ell^2,\qquad
+\zeta_j=\omega_\ell^j\zeta\quad(j=0,1,2).
+$$
+它是九阶根。因为 \(|k_\ell|=25\) 或 \(7\)，两者均为 \(7\bmod9\)，
+而 \(9\nmid |k_\ell|-1\)，其最小多项式正是
+$$
+X^3-\omega_\ell^2.
+$$
+确实，若此三次多项式有 \(k_\ell\) 根，该根便有阶9，矛盾；
+三次多项式没有根即不可约。因此
+$$
+[k_\ell(\zeta):k_\ell]=3,\qquad
+1,\zeta,\zeta^2\ \text{在 }k_\ell\text{ 上线性无关}.
+\tag{E3}
+$$
+这准确给原角色域 \(\mathbf F_{5^6}\) 或 \(\mathbf F_{7^3}\)，
+没有把几何域 \(\mathbf F_{r^2}\) 认作角色域。
+
+### E.2 同一个完整九项和的三个系数
+
+令
+$$
+z_{ab}=e_\omega p_{ab}\in e_\omega(V_\ell\otimes k_\ell).
+$$
+由附录C，\(z_{ab}=z_{ba}\)。R880(C10)的归一原读数准确为
+$$
+\mathscr R_{jk}
+=\frac19\sum_{a,b=0}^2\zeta_j^a\zeta_k^b z_{ab},
+\qquad (j,k)=(0,1),(1,2),(2,0).
+\tag{E4}
+$$
+这里 \(p_{ab}\) 已包含实际的6倍；完整十八项Artin和、\(1/162\)及两轴独立投影
+已经由R880支付为(E4)，不再另乘或除一个6。
+
+对 \(j\ne k\)，令 \(m=-j-k\bmod3\)，即剩余的第三指标。
+定义三个同一CM线上的系数
+$$
+A=z_{00}-\omega_\ell^2z_{12},\qquad
+B=-z_{01}+\omega_\ell^2z_{22},\qquad
+C=z_{11}-z_{02}.
+\tag{E5}
+$$
+则直接展开整个九项和得到
+$$
+\boxed{
+9\mathscr R_{jk}
+=A+\zeta\omega_\ell^m B+\zeta^2\omega_\ell^{2m}C.
+}
+\tag{E6}
+$$
+
+完整系数核对如下。因 \(j,k,m\) 两两不同，
+$$
+\omega_\ell^j+\omega_\ell^k=-\omega_\ell^m,\qquad
+\omega_\ell^{2j}+\omega_\ell^{2k}=-\omega_\ell^{2m},
+$$
+$$
+\omega_\ell^{j+k}=\omega_\ell^{2m},\qquad
+\omega_\ell^{j+2k}+\omega_\ell^{2j+k}=-1.
+$$
+按 \(a+b=0,1,2,3,4\) 分组，前三级分别给
+\(z_{00}\)、\(-\zeta\omega_\ell^m z_{01}\)、
+\(\zeta^2\omega_\ell^{2m}(z_{11}-z_{02})\)。
+第四级为 \(-\zeta^3z_{12}=-\omega_\ell^2z_{12}\)；
+第五级为
+\(\zeta^4\omega_\ell^{2j+2k}z_{22}
+=\zeta\omega_\ell^{m+2}z_{22}\)。
+合并恰为(E6)，包括三个对角项。
+
+由(E3)，对任意一个原指定pair，
+$$
+\boxed{
+\mathscr R_{jk}=0
+\ \Longleftrightarrow\ A=B=C=0
+\ \Longleftrightarrow\
+\mathscr R_{01}=\mathscr R_{12}=\mathscr R_{20}=0.
+}
+\tag{E7}
+$$
+所以三个实际读数要么全部为零，要么全部非零。
+这里用的是三次系数扩张的线性无关性，不是先将三个原角色合并。
+等价地，固定 \(k_\ell\) 并令 \(\zeta\mapsto\omega_\ell\zeta\) 的系数自同构循环(E6)的三式。
+这个系数自同构与几何 \(\Phi\) 是两种不同作用。
+
+### E.3 两个真正的点，而非两个任取标量
+
+现在只用附录D实际计算的四个点，定义
+$$
+\boxed{
+\mathcal A=p_{00}-\rho^2p_{12},\qquad
+\mathcal C=p_{11}+\rho\Phi(p_{01}).
+}
+\tag{E8}
+$$
+它们均为同一 \(E_0[\ell](\mathbf F_{r^2})\) 中的实际点。
+
+为核完整三系数，暂记
+$$
+\mathcal B=-p_{01}+\rho^2p_{22}.
+$$
+由(D7)，
+$$
+p_{02}=-\rho\Phi(p_{01}),\quad
+p_{22}=-\rho^2\Phi(p_{11}),\quad
+\Phi(p_{00})=-p_{00},\quad
+\Phi(p_{12})=-\rho p_{12}.
+$$
+结合(E1)，逐项得到
+$$
+\boxed{
+\Phi(\mathcal A)=-\mathcal A,\qquad
+\mathcal B=-\rho\Phi(\mathcal C),\qquad
+A=e_\omega\mathcal A,\ B=e_\omega\mathcal B,\ C=e_\omega\mathcal C.
+}
+\tag{E9}
+$$
+第二式准确使用
+\((\rho\Phi)^2=1\)：
+\[
+-\rho\Phi\bigl(p_{11}+\rho\Phi p_{01}\bigr)
+=-\rho\Phi p_{11}-p_{01}.
+\]
+第一式使用 \(\Phi\rho^2=\rho\Phi\)，所以
+\[
+\Phi(p_{00}-\rho^2p_{12})
+=-p_{00}+\rho^2p_{12}.
+\]
+所有运算都在已经完成原闭点迹的 \(\ell\) 挠点上。
+
+(E1)还给
+$$
+e_\omega\Phi=\Phi e_{\omega^2},\qquad
+e_{\omega^2}\Phi=\Phi e_\omega.
+\tag{E10}
+$$
+若 \(e_\omega\mathcal A=0\)，由 \(\Phi\mathcal A=-\mathcal A\) 及(E10)，
+$$
+e_{\omega^2}\mathcal A=-\Phi e_\omega\mathcal A=0,
+$$
+所以 \(\mathcal A=0\)。反向显然。
+若 \(e_\omega\mathcal C=0\) 且 \(e_\omega\mathcal B=0\)，(E9)–(E10)给
+$$
+0=e_\omega\mathcal B
+=-\omega_\ell\Phi e_{\omega^2}\mathcal C,
+$$
+而 \(\omega_\ell\Phi\) 可逆，故 \(e_{\omega^2}\mathcal C=0\)，即 \(\mathcal C=0\)。
+反向同样成立。这个证明也覆盖 \(\ell=7\) 的CM分裂情形；
+没有误称一个单独的 \(e_\omega\) 在全部实际点上单射。
+
+因此，完整原角色和的消失准确等价于两个实际点关系：
+$$
+\boxed{
+\mathscr R_{jk}=0\ \text{对某个原pair}
+\ \Longleftrightarrow\
+\mathcal A=0\ \text{且}\ \mathcal C=0.
+}
+\tag{E11}
+$$
+非零的等价形式为
+$$
+\boxed{
+\mathcal A\ne0\ \text{或}\ \mathcal C\ne0
+\ \Longleftrightarrow\
+\mathscr R_{01},\mathscr R_{12},\mathscr R_{20}\ \text{全部非零}.
+}
+\tag{E12}
+$$
+所以在实际四除子求交完成后，只需检查(E8)的两个真实挠点便可判定原读数非零。
+完整十八项和与九项式仍可用同一实际基独立核对；(E11)没有替换其来源。
+
+本节没有报告 \(\mathcal A\) 或 \(\mathcal C\) 已经算出。
+若其一由同原公开执行证为非零，才可沿R859/R880的整shadow和无挠返回得到原有理类的非零。
+固定 \(\ell\) 的这一步不单独证明主目标所需的无穷不同系数素数，
+也不跳过后续通常全Selmer桥。

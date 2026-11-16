@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 11:04:57 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 11:16:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 11:01:31非FF真CLI仍无executor，下一本地尝试≤12:01:31。最新CI真pull为43852589080/1于11-16 10:52:26.787961→596f967f0e86430bd4398ff833de6e303d7a761a；两README完整diff空/同已读，diag保2次全回执。下一真pull≤11:52:26；ref读取不冒真pull。
-最近只读README核：f932e75b993a1ce7df209af3cde438d598719414；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 11:01:31非FF真CLI仍无executor，下一本地尝试≤12:01:31。最新CI真pull为43854566735/1于11-16 11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README完整diff空/同已读，exec保4次全回执。下一真pull≤12:05:54；ref读取不冒真pull。
+最近只读README核：4ba6fe05816fe903c647952061dc308d0a63afc5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -31,23 +31,23 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 
 ## 完整已成检查点与当前任务
 
-本节压缩前完整H9784B逐字保[完整outer与structured tail检查点](notes/2026-11-16-completed-outer-rows-and-structured-tail-checkpoint.md)，原提交8079292b6f2d147ee6c532a038bd7fb6d7f1c254；它递归绑定此前9485B physical-mean/head-mesh完整H与原log93894B。全部原球/域/单位/失败/lost/恢复/未付义务仍有效；所有已成科学冻结。以下仅索引。
+本节本次压缩前完整H9960B逐字保[修正尾与均值复用检查点](notes/2026-11-16-corrected-tail-and-completed-mean-reuse-checkpoint.md)6f79d7844f6177a3c13cc78a2f106de83c4261cb1e7b0d99c8fb7f2ebdfa9693，原afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2；递归8079292b/14f861f1等原档、全部原球/域/单位/失败/lost/恢复/未付义务继续有效，所有已成科学冻结。
 
-WEJA8f1b7094原failure1600新+9copy/39partial全保/lost0；WECAc06787e9/43831678361成功1684量冻结，58current及恢复4ca7c1d4全保原H/proof。Phi仅旧(0,2)*2!；whole upper不授逆/族。
+WEJA8f1b7094原failure1600新+9copy/39partial全保/lost0；WECAc06787e9/43831678361成功1684冻结，58current/恢复4ca7c1d4保原档。GMRf03b79bc核局部mean/γ桥早于node24失败已成：43827705714/1首node679a1d15/3497B/00e1566b，4copy+8新全保；只原实[rc,r+]，m下界是|m|，禁再算/扩row790或对称盘。Phi仅旧(0,2)*2!；whole上界不授逆/族。
 
 WHR289935c3：193只是angular fiber，真radialhead index0及未知mH/全coker/真实端点保。WHVA9274e696/43838214094成功14门24目标，eps35.51628在N=cap4096充分门false，requiredN145475超cap，0finite逆；全部4650/3594原行冻结。首次43837109596仅Git identity失败/new0，e6b6f079全记。
 
-WMRA b2df8a12/43840219992成功18门7图42新/2exp，old0/lost0；全原球/输入/pins/四pull与两mean/四端/B-T-jump/Calg/RF/顺序保proof及14f861f1。whole/reduced upper约2.1163e465，42量冻结，不授逆/高门/背景/族。
+WMRA b2df8a12/43840219992成功18门7图42新/2exp、old0/lost0；whole/reduced约2.1163e465冻结。全原球/两mean/四端/B-T-jump/Calg/RF/顺序/四pull保proof及完整检查点，不授逆/高门/背景/族。
 
-W9602f93880：真outer193+WHR mH的T:(289+mH)→(193+mH)，kernel96+ℓ注入真positive齐次解；至少96列存在，未知ℓ/兼容保。指定root even96仍须193+mH signed逆。PW mixedroot→两mean→WPL半行→B^-1真waist列成立，无数值basis/Gram/Θ；消head后的high反馈须完整新付。
+W9602f93880：真outer T:(289+mH)→(193+mH)，kernel96+ℓ注入真positive齐次解；至少96列存在，未知ℓ/coker保。指定root even96仍须signed193+mH逆；PW→两mean→WPL→B^-1顺序/消head后完整high费保proof与检查点，无数值basis/Gram/Θ。
 
-WHS3e274258：原PC whole两候选扩真97..288壳，同完整RH原C+给rough Fs C与outer H−5/6；SE同distribution逆。V/G/Pa compact、未知Gnorm/全coker/ℓ与PW/WPL/WGB顺序保。WOB f13024a7：实际pR、outer193含真mean/完整affine/七port；指定root96等价193+m signed方阵。A_c为identity+compact/index0，完整ff/ft/tf/tt及C0Q的||I−QA_c||<1才授逆。旧finite193对象不同且signed矩阵未存，不能转用。
+WHS3e274258/WOBf13024a7：真97..288壳/rough Fs C、outer H−5/6、全coker/ℓ/SE同逆保；未知Gnorm/Btarget。实际pR/outer193全mean/affine/七port与指定96的真square保。A_c=identity+compact/index0，须完整ff/ft/tf/tt及||I−QA_c||<1才授逆，旧finite193对象/未存signed矩阵不可转用；全部scope/顺序保proof及检查点。
 
-WPT22fb6fac/WPTVdda500b8/WPTVR62adc53e：对称D给R_D^-1≤1，root D0=0/S0=I；完整A−D/mean/S/seams/外Q_iV0无右Q/ramp不减。frozen B0全signed差与原GH两source给5whole maxima A/Eb/Ub/L/B；真正T*及两source整δm详WPTVR，同parent包络一次。原first-r门仍独立，完整193mean/97..480复合及signed193N+193全Schur待。新包主bca655de/reader d084a228/workera3c1c6ea/manifest9b52fa3c：24current+19history/10AST，原4650/3594全保；预锁m1,2，只11或12新record/17门/4或5target。43851901811/43852589080皆preflight child0，全部目标未启动/lostmath0；19恢复/24current/10AST保。1395B stderr113c6f93原字取回：intrinsic原5字段误按3，已typed窄修；独立workflow启动尚未算五目标，0finite逆。全部式/restore及scope保proof、inventoryf7dd2ed0和14f861f1。
+WPT22fb6fac/WPTVdda500b8/WPTVR62adc53e全公式/域/193mean/affine/seam/外Q_iV0/ramp/Schur保proof、inventoryf7dd2ed0及检查点。包bca655de/d084a228/a3c1c6ea/9b52fa3c：24current/10AST/19恢复；前两readonly child0。43854566735/1首science过11门，parent0 collar全prefix已存，parent1 body参考centre解析失败、0body交集/0整max，SCI e5721a0e/15309/b8812b6b、exec fe4c3e27/31256/e7246476、report427；child1/old0/0finite矩阵。原marker保，不重算collar；只准恢复原球/chain/count后续parent1..152及未始m1,2/selection/conditional。parent1未保存参考内部量仅该单元可续算，未失已完成目标。尾门/true96/finite逆未成，false不扩网。
 
-WOBSA c2eff7d8/43844596176成功18门6图37新/1exp1pow7sqrt，old0/lost0，三件76722B；42旧/73scope/112旧gate/四pull全保proof及14f861f1。outer high约.00846292含mean；37量冻结、0matrix/0inverse，未知G/Btarget/high右因子与WHVA false保。
+WOBSA c2eff7d8/43844596176成功18门6图37新/1exp1pow7sqrt、old0/lost0；三件76722B/42旧/73scope/112旧gate/四pull冻结，outer high含mean。0matrix/0inverse，未知G/Btarget/high右因子/WHVA false保完整检查点。
 
-WMF14900631：同J/primitive的归一正权与完整Fmean恒等式已证；内部mean常数/drift保。全physical z/root/两waist mean/Jr/g1与径向IBP的er/端点/jump义务不减，0新数/逆；完整原式保proof及14f861f1检查点。
+WMF14900631同J/primitive归一正权与完整Fmean恒等已证，0新数/逆；完整physical z/root/两waist mean/Jr/g1/内部drift和径向IBP的er/端点/jump保proof及完整检查点。
 
 WMT51eb08d0：同genuine trial的完整strict transport/全Vext给径向→角flux，归一p的L1 jets与三完整幅值经5次mean递推、全8terminal保n^-23/6；不需w1,r，local仍原CF。真初值r_*不移r_+，全部3070jump/四端/两mean保。WMR42与旧exp只读；拟独立flux整支，再whole/reduced各与同原整支比较。5oldactual输入合同继续，尚无新数/改善/finite逆。
 
@@ -61,4 +61,4 @@ WMT51eb08d0：同genuine trial的完整strict transport/全Vext给径向→角fl
 
 继续open：正侧signed finite inverse/true96 normalization与rough全fee、strict完整mean强迫新界→负head/ν/两mean/Θ/高门→背景/非线性matching→同对象几何。每结论独推；未达总标准不停、不等用户。
 
-D5旧float派生probe单件白536dd2a1先推，target3420a025/117565B，restore2184a463同path；原F2 archive_required保。已先71ce988e白后freshguard普通删，完整取证/访问异常保白。
+D5 probe3420a025/117565B先71ce988e白536dd2a1后删，restore2184a463/F2 archive_required及访问异常保白。Hnodes258旧float2f8bb230/72503B白a2e03bcb先4ba6fe05后freshguard普通删，restore9abcc371同path；真实Newton258依赖须原字恢复，禁止重算。

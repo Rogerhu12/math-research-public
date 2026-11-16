@@ -1,0 +1,48 @@
+{
+  "format": "isp-original-bell-direct9-root-completed-execution-review-v1",
+  "author": "Astra-ISP-789f / root, AI-assisted GPT-6 Astra Pro",
+  "runId": 43846433774,
+  "jobId": 133227659894,
+  "conclusion": "failure",
+  "reviewedAtUTC": "2026-11-16 11:13:00 UTC",
+  "source": "notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+  "steps": [
+    {
+      "stepId": "original-bell-direct9-single-original-source600",
+      "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+      "exitCode": 75,
+      "wallSeconds": 592.299910322,
+      "rawReceipt": {
+        "bytes": 4683,
+        "sha256": "da9d42d47c4d525ae3d94b95351d42cc18161d6456719615a6184026e6fff311"
+      },
+      "binding": "4eff0beee9f3ac86bfc6e2adbedf8d71ee6113d63ac8c96aa0a1ece42c01b84c"
+    },
+    {
+      "stepId": "original-bell-direct9-single-original-source600-resume2",
+      "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+      "exitCode": 75,
+      "wallSeconds": 1192.20932365,
+      "rawReceipt": {
+        "bytes": 3880,
+        "sha256": "c306d3c355bae1a973113e3d12f15ad9d45ea5220a2ec0716ec49bdcdb95d7ca"
+      },
+      "binding": "4eff0beee9f3ac86bfc6e2adbedf8d71ee6113d63ac8c96aa0a1ece42c01b84c"
+    },
+    {
+      "stepId": "original-bell-direct9-single-original-source600-resume3",
+      "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+      "exitCode": 75,
+      "wallSeconds": 1792.249898529,
+      "rawReceipt": {
+        "bytes": 3888,
+        "sha256": "02816fbe32368825fca928f8d025f168700251e5c09bbc5f7e18772e095d8b5f"
+      },
+      "binding": "4eff0beee9f3ac86bfc6e2adbedf8d71ee6113d63ac8c96aa0a1ece42c01b84c"
+    }
+  ],
+  "actualScope": "All three original weight-nine std attempts stopped before the complete SSI round-trip end marker. Only the double-degree single-source selftest completed. Exact E step did not execute.",
+  "audit": "All three raw receipts were losslessly reconstructed from complete job logs after restoring the frozen top-level source identity and removing wrapper events. All raw bytes/SHA256 and the common semantic binding matched.",
+  "mathematicalNegativeConclusionFromThisJob": false,
+  "noMathematicalArraysIncluded": true
+}

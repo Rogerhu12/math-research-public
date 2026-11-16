@@ -152,3 +152,12 @@
 
 
 - [R884](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原T72=(K30/3δ)δ*A14，完整三纤维付traceT=0而同第一次热trace为G24=−σ24x(7X³−18bX²−120b²X−32b³)/28。加∇C24/20后精确消E0高端，Ebar=(51E1+222E2)/770；指定D5回(20708b/407)B(S)+(136b/55)B(Dref)+(2592b/7)Lp(C0)+完整严格<p余配对。全部q24高端/原Cp提升/二挠分母和原两H22读者保，不由B(T)0赋左行零。
+
+
+- [R883附录D](results/R883-original-relative-six-shadow-and-complete-boundary.md)：所选r29/41常数反射为c∞ε而非c∞，实h0/a0与θ^r=−θ给原A0固定、A1↔ω²A2和F变负。完整闭点迹后φp_ab=−[ω]^(u_a+u_b)p_a*b*；配原W对称，只需00/01/11/12四完整除子，02/22由真实Frob填回。全次数/高重/闭点d不缩短、角色不被Frob作用，仍未报告原shadow非零。
+
+
+- [R883附录E](results/R883-original-relative-six-shadow-and-complete-boundary.md)：在原F25/F7上ζ³=ω²不可约，完整对称九项原角色读数为(A+ζω^m B+ζ²ω^(2m)C)/9。三pair单个零等价全零；真实Frob关系进一步给A点=p00−ω²p12、C点=p11+ωφp01，全部原读数非零 iff其中一点非零。φ反交换付ell7分裂的另一CM线，不误称单投影全单射；仍待实际四除子计算，未付无穷系数p。
+
+
+- [R884附录A](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原VΘ−T/Θ²=8bK46H′22为whole degree68身份，原B(V)−B(T)准确留下同K46严格<p配对与两个完整cross。K46=σ2³J34且∇Θ17 A34=J34，带权原H22行不能冒未加权Lp(C0)；A34有限极消去/二挠点−797分子保。J34/S=Dlog(−y/x²)/8付同P2^34的原weighted Cartier返回，输出仍由两个cross决定而未赋零。

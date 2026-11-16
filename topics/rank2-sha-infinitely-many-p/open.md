@@ -65,9 +65,9 @@ R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V�
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
-R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。
+R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。
 
-original_shadow_relative_six_tools.py已写完整288次模型/正规化/真端点/全六除子/迹/实际E[ell]基/18×9与九项读数，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none，未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
+original_shadow_relative_six_tools.py现按附D/E仅算四完整除子；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none，未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
 ## 第二实际门：四原B与同一低配对
 
@@ -77,7 +77,7 @@ original_shadow_relative_six_tools.py已写完整288次模型/正规化/真端�
 
 R879附A–E付原V/C30热trace、H22整CM词、高端/q3消元、degree10旧行与同D2B4/D1Theta及全Y/Z；原m2的固定degree24水平框仍保依p高算子/modp²。共同b1原D1Theta接g_flat的s行，不是Hp/h1或K1末三尾。所有new余项仍保。
 
-R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。theta继续同原两读者及真实左行运输，未提交的进一步C24new/H12式待完整证明。
+R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。theta续实际乘子/原配对。
 
 ## 第三实际门：原低松弛同P/R/S后两页
 
