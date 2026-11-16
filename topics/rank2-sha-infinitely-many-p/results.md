@@ -254,3 +254,6 @@
 
 
 - [R872三次零纤维退化与负行去重](notes/2026-11-16-r872-degenerate-zero-fiber-and-negative-row-overlap.md)：原三次F0仅要求物理根1简单；若不同非零根数r≥2，两primitive列相关将迫degreeW≥9+r>10，故真实秩2而低商≤3行。唯一F0=Y²(Y−1)秩1/四行时，β1常数准确等[t]ρ−，同ρ−联合仍仅新增三行；β2的G1全保，ρ−不冒降到V1+J3商，未得K1满像。
+
+
+- [R884附录I](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同原Q48/W48再施完整δ迹准确为−P16/(26208b)，P16=σ16x²(X²−28bX−56b²)质量1且真2-new；全八系数/三根Newton与奇R3的Σx/F′=0逐项支付。原D16(P16)=−16DR3/3+完整严格低L16，不引入新高参考；未补偿jet单位来自质量而非原U中央矛盾。

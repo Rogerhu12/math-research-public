@@ -2659,3 +2659,198 @@ $\mathfrak B(Q_{48})$ 及补偿后的高读者，
 全部(H1)–(H14)为已公开(G4a)全系数、
 固定 sigma 倍点身份及原整首行的手推；
 没有新数值运行或目标素数扫描。
+
+
+## 附录 I. 同一 U 的第二次 norm-three 返回及原高参考行
+
+本附录只对(G2)、(G7)中已经固定的 $Q_{48},W_{48}$ 再施一次完整原 $\delta$ trace。
+不改变原 $U$，不把 trace 后的非零质量来源赋予中央零。
+
+### I.1. 全三纤维的准确小返回
+
+记
+$$
+P_{16}:=\sigma^{16}x^2(X^2-28bX-56b^2).
+\tag{I1}
+$$
+它是原 whole degree16、型零、中心值一的确定截面。准确有
+$$
+\boxed{
+T_{\delta,16}Q_{48}
+=T_{\delta,16}W_{48}
+=-\frac{P_{16}}{26208b}.
+}
+\tag{I2}
+$$
+
+下面给出包含所有低端的手证。令 $a$ 是目标 $x$ 坐标，三个原逆像的 $x_i$ 满足
+$$
+F_a(x_i)=x_i^3+3ax_i^2+4b=0.
+$$
+对 $r_i=x_i^{-1}$，置 $A=3a/(4b)$、$B=1/(4b)$；
+其方程是 $r^3+Ar+B=0$。由 Newton 恒等式，
+$$
+\begin{array}{c|l}
+k&\sum r_i^k\\ \hline
+16&2A^8-48A^5B^2+40A^2B^4\\
+13&13A^5B-26A^2B^3\\
+10&-2A^5+15A^2B^2\\
+7&-7A^2B\\
+4&2A^2\\
+1&0
+\end{array}
+\qquad
+\begin{aligned}
+\sum x_i^2&=9a^2,\\
+\sum x_i^5&=-243a^5-180ba^2 .
+\end{aligned}
+\tag{I3}
+$$
+完整原 trace 是
+$$
+T_{\delta,16}Q_{48}
+=\frac{\sigma^{16}}{\delta^{16}}
+       \sum_{i=1}^3\frac{q_b(x_i^3)}{x_i^{16}},
+\qquad \delta^{16}=6561.
+\tag{I4}
+$$
+将(G4a)的全部八个非零系数逐项代入(I3)，得到
+$$
+\frac1{6561}\sum_i
+ \frac{6552q_b(x_i^3)}{x_i^{16}}
+=-\frac{a^8}{4b}+7a^5+14ba^2.
+\tag{I5}
+$$
+这同时支付最高项、两个低项及其绝对倍率，(I2)对 $Q_{48}$ 的式子随即成立。
+
+对(G7)中另一项，原 $R_3=\sigma^3y$ 满足
+$$
+T_{\delta,1}R_3=0.
+\tag{I6}
+$$
+这不依赖一个未付的奇 degree 推断。事实上，原 $y$ 返回式给
+$$
+\frac{y_i}{\delta x_i}
+=-3y\,\frac{x_i^2}{x_i^3-8b}
+=-3y\,\frac{x_i}{F_a'(x_i)}.
+$$
+而三次首一多项式的 Lagrange 系数恒等式是
+$\sum_i x_i/F_a'(x_i)=0$。
+故原完整三纤维之和准确为零。
+由附录 E 已付的相互素原 cover 交换及其全部 sigma 倍率，
+$$
+T_{\delta,16}([4]^*R_3)=[4]^*(T_{\delta,1}R_3)=0.
+$$
+再用(G7)，即得(I2)对 $W_{48}$ 的式子。
+上述泛点计算的两边都是完整全纯截面，故延到全部纤维，包括重根和出现分母的点。
+
+由(G9)的 $T_{2,12}W_{48}=0$ 与同一完整 cover 交换，还得到
+$$
+\boxed{T_{2,4}P_{16}=0.}
+\tag{I7}
+$$
+(I7)是这一指定来源的真 $2$-new 身份，不是任意 degree16 来源的性质。
+
+### I.2. 质量与原 D1 必须同时返回
+
+(I1)的质量为一，所以 R856 的原 whole 行准确给
+$$
+j_{p+1}(P_{16})\equiv16c_p\pmod p.
+$$
+特别(I2)右端的未补偿 jet 为
+$$
+\boxed{
+j_{p+1}(T_{\delta,16}Q_{48})
+=j_{p+1}(T_{\delta,16}W_{48})
+\equiv-\frac{c_p}{1638b}\ne0\pmod p.
+}
+\tag{I8}
+$$
+它不能除以 $p$ 后被命名为中心零 $\mathfrak B$。
+其合法整行使用同一个特征零 lift
+$\widehat c_p=(p+1)c_p^{\mathrm{int}}$：
+$$
+\mathcal D_{16,p,1}(P_{16})
+=\frac{j_{p+1}(P_{16})-16\widehat c_p}{p}.
+\tag{I9}
+$$
+对(I2)也必须完整运输这项质量减项。
+
+这枚小返回并没有引入新的独立高参考。继续用(H3)的
+$v=\sigma^6,\ u=-R_3$，(I1)准确写成
+$$
+\boxed{
+P_{16}=\Theta^8-28b\,v\Theta^5-56b^2v^2\Theta^2.
+}
+\tag{I10}
+$$
+定义仅包含严格低于 $p$ 的实际配对
+$$
+\Gamma^\Theta_{a,p}
+:=\sum_{i=1}^{a-1}\mathscr X_p(\Theta^i,\Theta),
+\qquad a\ge2.
+\tag{I11}
+$$
+所有这里出现的来源都是固定 whole 截面。
+质量一乘积的原整 Leibniz 式给
+$$
+\mathcal D_{16,p,1}(\Theta^8)
+=8\mathcal D_{2,p,1}(\Theta)+\Gamma^\Theta_{8,p}
+\pmod p.
+\tag{I12}
+$$
+而同一原关系 $u^2=\Theta^3+bv$ 给
+$$
+3\mathcal D_{2,p,1}(\Theta)
+=-2D_{R_3,p}+\mathscr X_p(u,u)
+-\Gamma^\Theta_{3,p}-b\mathfrak B(v)
+\pmod p.
+\tag{I13}
+$$
+这里 $u$ 的实际奇 degree 整性已在(G12)、(H12)由原偶 degree 拉回及完整乘法支付；
+(I13)没有偷换质量一的线性基准。
+
+把(H5)与 $\mathfrak B(v^2)=\mathcal Q_p(v,v)$ 代入(I10)–(I13)，得到
+$$
+\boxed{
+\mathcal D_{16,p,1}(P_{16})
+=-\frac{16}{3}D_{R_3,p}+\mathcal L_{16,p}\pmod p,
+}
+\tag{I14}
+$$
+其中完整低项为
+$$
+\begin{aligned}
+\mathcal L_{16,p}={}&
+\Gamma^\Theta_{8,p}
++\frac83\bigl(\mathscr X_p(u,u)-\Gamma^\Theta_{3,p}\bigr)\\
+&+\frac{138}{5}b\,\mathscr X_p(v,\Theta^6)
+ -28b\,\mathscr X_p(v,\Theta^5)\\
+&-56b^2\bigl(\mathcal Q_p(v,v)
+                +\mathscr X_p(v^2,\Theta^2)\bigr).
+\end{aligned}
+\tag{I15}
+$$
+所以完整同源返回的首行是
+$$
+\boxed{
+\mathcal D_{16,p,1}(T_{\delta,16}W_{48})
+=\frac{16D_{R_3,p}/3-\mathcal L_{16,p}}{26208b}
+\pmod p.
+}
+\tag{I16}
+$$
+这保留的 $D_{R_3,p}$ 正是(G12)–(G14)、(H12)–(H14)中的同一原参考行；
+其余每项都是那些原实际来源的严格低窗口，没有额外高标量。
+所有固定分母在原 $p>211$ 和原坏集外为单位。
+
+### I.3. 对原中央条件的准确范围
+
+(I8)的单位来自 trace 后已经改变的质量，不是一个新的原 $U$ 中央条件。
+特别，不能由 $\mathfrak B(U)=0$ 宣称(I9)或(I16)为零。
+(I14)–(I16)确实把原第二次 $\delta$ 返回缩到同一个已保留的
+$D_{R_3,p}$ 和完整低配对，但目前没有消掉(G18)中的
+$\mathfrak B(U^{new}_{144})$ 或其它实际同时 new 余项。
+
+本附录使用(G4a)已经公开的全多项式、原绝对 trace 和手算 Newton 恒等式；
+没有新数学执行、目标素数扫描，亦没有把纯 trace 核当作原除 $p$ 读者的核。
