@@ -297,3 +297,6 @@
 
 
 - [R882附录E](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原属19商的L极为145P∞加8个简单cusps，s唯一极阶24，故首一24系数的num≤153/den≤8。ξ=1/s后按h_m=floor145m/24缩放，Newton每项只加ξ的0/1次，不损失170项；4500原Q单位/反演覆盖所需最高ν4079。全部系数由161严格界唯一重建，P_t=t144F_(t+t^-1)(Z/t6)准确回原48域，27+27+33+33和Au/Av/branch全保，未预设执行成功。
+
+
+- [R884附录E](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原N36、T72和R24的完整二挠trace为零；T的全逆根Newton中a6正负幂贡献±1/64精确相消，未借环境一维性赋值。原同源乘积P72=N([δ]*K12+252N)亦真2-new，N[2]*C9和N[δ]*K12各保其准确核。原S/T完整首行合法消同B(A12)，2bB(P72)=BS−BT+X(S,Θ)−X(N,[2]*D9)−X(A12,B12)/21；D9质量−1/奇半特征及全部new、低cross均保，不添加第五条中央零。

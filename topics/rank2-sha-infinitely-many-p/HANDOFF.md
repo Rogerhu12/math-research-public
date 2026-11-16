@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：86aadf6dc1fbeb986ff6d91f2b8ab3ab88250f56；2026-11-16 12:22:35 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:06:08 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
+- 最近已读规则提交：9df28491e85231c3932b49a8e4c12da68aa21fdf；2026-11-16 12:25:12 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:06:08 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -43,7 +43,7 @@ R883全相对6算法保div差+两pole、四完整00/01/11/12除子及W/Frob回�
 
 R863同H22两个整低配对、R876谱及R879全部热/trace/高端/q3/CM词保[完整H](notes/2026-11-16-frontier-before-two-division-trace.md)与原证明。R884正文把原T热返回接D5Ghat=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+全余配对；BT0不赋热左行零，参考rank0不赋BDref0。附A的VΘ−T/Θ²=8bK46H′22保真实非恒定权和两个cross，J34/S的Dlog仅付同P2 Cartier返回。附B设A=SΘ、N36=A−old，L36−J36=252A及3VΘ³−2T=A(D36+1008bN36)使两原差准确减Q(N36,J36)、Q(N36,A)；第二是同S自配对，三个质量一cross/未加权H22/U均未消。
 
-附C/D原U四纤维run43862249339已精确成功，H36=4σ36(X+b)³A2/(2457b)真增rank3→4；其全因式给J36−2[2]*C9=[δ]*K12，C9=σC8保奇半特征。原C120同2-new且T2(C120A8)=−[2]*C8/(9828b)，C8正是原C24的δ-old伙伴。完整Leibniz付B(C9)=O8−P8，原U/S两行合法消同O8：2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS；所有new/低卷积和p²倍率缺陷保，不新赋零。theta续原N36的2/δ核与实际cross。
+附C/D原U四纤维run43862249339已精确成功，H36=4σ36(X+b)³A2/(2457b)真增rank3→4；其全因式给J36−2[2]*C9=[δ]*K12，C9=σC8保奇半特征。原C120同2-new且T2(C120A8)=−[2]*C8/(9828b)，C8正是原C24的δ-old伙伴。完整Leibniz付B(C9)=O8−P8，原U/S两行合法消同O8：2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS；所有new/低卷积和p²倍率缺陷保，不新赋零。附E完整四纤维Newton付原N/T/R24真2-new；P72=N([δ]*K12+252N)也真2-new。原S/T精确消同B(A12)：2bB(P72)=BS−BT+X(S,Θ)−X(N,[2]*D9)−X(A12,B12)/21；D9质量−1，所有new/低cross仍保。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
