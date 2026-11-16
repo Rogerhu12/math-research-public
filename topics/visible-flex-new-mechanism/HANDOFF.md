@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621，2026-11-16 00:48:08.641171 UTC，observer43782502991/job133022644213；00:51:32读双README空diff。下次最迟2026-11-16 01:48:08。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：bf89891c487f143317ade7f6b99f665b7b997957，2026-11-16 00:54:54.251593 UTC，observer43783131728/job133024669538；01:01:38读双README空diff。下次最迟2026-11-16 01:54:53。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：774b4ec055d35a15bdba7dc519d8f189f708f71c，00:48:11.836232 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。原科学00:29两pull细节待读，当前规则未变。
+私有actual pull：0cec35dcb8df7d19dc67ceb045ed7cfb471a7af1，00:54:58.211034 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。原科学00:29两pull亦已读，双规则同。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（00:38复核exec-server仍缺失），依根8小UTF8发布；API非pull。
 
@@ -14,13 +14,13 @@
 
 闭连通材料面，各时刻C²嵌入，t∈[0,1]在C²拓扑连续，**同一固定g**；固定材料H有内点、diam F0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，同g/参数/时间精化下降。完整网格每件<5MB，如实报严格存在差距，δE可0；基本门后继续.5D或严格存在。当前全门未付。
 
-core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；同b0/159→163，永久enriched reference c0不换selected。η≈.26627是metric epigraph，**非δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3、H径≥22/101；连续支持欠。τreach.061须κ≤1000/61≈16.39344及非局部门，现κ≈58。旧失败/漂移保持，不重跑。
+core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；同b0/159→163，永久enriched reference c0不换selected。η≈.26610227是metric epigraph，**非δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3、H径≥22/101；连续支持欠。τreach.061须κ≤1000/61≈16.39344及非局部门，现κ≈58。旧失败/漂移保持，不重跑。
 
 ## 3. 数值已付状态与新接口
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0，原146源核同；新4过/旧14复用，首失败及费用全保。6普通α1接受、两网14门true；7model/10primary/SOC0，η .26623355613853394，κC/F57.99651016191997/57.99982504159888。m7gap2.4768679406952238e−5，无返回/无trial，非驻点。
 
-当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd；池4432/4525版本1/2，B.00025双0；γ17.022353404161095/18.064283125328743，8events/7commits/pending0。γ只下个primary group8 target=max(old,1e−7+γB²)，原SOC/门不改。
+祖先guard physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd；池4432/4525版本1/2，B.00025双0；γ17.022353404161095/18.064283125328743，8events/7commits/pending0。γ只下个primary group8 target=max(old,1e−7+γB²)，原SOC/门不改。
 
 [同m7冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：43773136836/source403a2fcf…；16人工仅复用，唯一粗value205.448292651s耗尽旧120门，active累计241.314203844/values15/LP10，init293.542781793，process224.820478542/RSS548340KiB；新J/model/LP/SOC/接受0，旧最佳仅祖先收据。此epoch关闭，不能重开LP11或加时重付冷恢复，全部失败费保原note。
 
@@ -38,7 +38,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)/[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)：4半径16包/8正第五权及16个4minor、正解析逼近/IFT先造全部n2四平移系数0。四个支持远离局部jet的normal给同流形真restricted max-F及19minor，r+4有限纠正和原19 C1集中根，同一最终有限母族保n2全affine0、共同F/外区，全部p/Af仅有限简单零（不称一对）。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
 
-[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。R416完整外槽N0最低h^-4全k抵消；self/pure/有序两尾同乘(1+k²)^5，故−6静态Λ全profile/allk0，正字符a(k)≡0、μ=0，仅余三速度函数PSD。−4全k静态与三速度仍欠；原N0/N2、水平先微分后置ω0及真尾不删，Γ仅在所取幂已核空。
+[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)/[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。完整self/pure/有序尾给−6全k静态a≡0、μ0，仅余速度PSD；−4静态自然恰S³(A+k²B)，a(k)=a1 k²S³/8，仅未知W4=[h^-4k8]F0，a1未排。原N0/N2、Γ所需幂、真实水平微分及左尾不删；旧pure坐标不能代full mixed。
 
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)：共同A只含actual self与ordered3+2的affine轨道，辅助self不加；A(U0)=0。删自然≤−4为真不变商，逐权排正字符，原两次商校正/全部基准给wholeE+高自然商同一有限C1截面。物理实施明确须库/矩基/右锚/完整有限controls共享合法窗口，从起点一次坐标识别后冻结，不授旧seed。新F★=(F_rat,D,E5)同流形付19及共同D/E；全低自然/整包period仍欠。
 
@@ -50,4 +50,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba已完成。observer首读原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9，161/152源闭包同、9仅复用、28MODEL。已读最终η .26610226672562226（降低.00013128941291168372）、κ57.99972678574561、两网原硬门/exactbox true、.26目标false；stage affine-spectral-finite-model-stalled，非驻点声明。两只读selector2439337/1521111B均超660KB仅LIMIT；第三固定白名单请求已发，优先完整m28/终态钟及余模型最小表，未重科学。两失败science28.690336299已含在同1800s任务，最终累计钟待读；旧241s祖先单列。[两失败note](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保范围。理论R414共同合法窗口下高商已付，续R416的−6三速度、−4四低函数及全period。主完成门欠，持续open/actualpull。
+第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。第三只读660096B已保完整m28及全部最小模型/终态/费用；次级细节明示partial，完整人读note正成稿。续真正cut/预算分配机制，原64不重置；理论续W4与两权速度PSD、全period。全部主门仍欠，持续open/actualpull。

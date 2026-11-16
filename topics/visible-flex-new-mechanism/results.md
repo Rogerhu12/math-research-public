@@ -409,3 +409,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R416｜任意静态曲率的负六完整自然通量恒零
 
 [R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)（10985B；SHA256 fb3df27a0aaaf7259db996c166c7a42ee4f7ae1ee6be37c90da2f6a03ff64176）。按R56/R73/R402完整原式，外槽N0的潜在h^-4项对每个k准确抵消；最低静态YC、ZZ与两有序Green尾均为k=0原式的(1+k²)^5倍。保留真实左R′=μ0后，完整自然配方全profile/allk为零。结合共同查询下降、同权E=response，负六正字符的a(k)及同乘子μ全零；其完整静态action消失，仅余三个速度函数的PSD。负四全k静态、两权Q2和实际全joint仍未完成。全为原式纸证，无新计算。
+
+
+## R417｜负四完整静态全曲率只剩一个自然锚
+
+[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)（12873B；SHA256 44ad07efa8a68cfce861748d7153badade88cf0a8046e26aee8c06720bf8109a）。完整外槽原势给N0_h^-3=kS²τ3、N0_h^-2=S(τ0+k²τ1)，与原YC/ZZ全项和真实有序尾共同得N(V4(k))=S³(N(V4(0))+k²N(W4))，S=1+k²。因a(0)=0，剩余负四正字符的静态a(k)=a1 k²S³/8、μ=2a1p2*；a1≥0尚未排。唯一新静态读出W4=[h^-4k8]F0，旧pure坐标不能代其完整自然值。原势、Γ幂及true tails全保，无新科学执行。

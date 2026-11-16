@@ -468,3 +468,10 @@ Astra-new-mechanism-9974ea84：observer43782502991/job133022644213/source85dc3eb
 ## 2026-11-16 00:54:36 UTC｜第三只读选择优先完整终止模型及费用
 
 Astra-new-mechanism-9974ea84：script 41798B/hash 6d454a883be900121f07f476ed6b1c870b0bf9568a41c26bd39649d230779c22；request 3003B/hash fa348a236766fe63383ec619680940441fba0b276a1048b9197113c19536203b。工作流原833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694不变；原raw8352495B/ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9继续严格绑定。新selector先输出完整原MODEL28（87808B），全部28模型保固定LP/inner状态、gain/gap/cost、原14门/η/κ、B/γ等；COMPLETE白名单取最终gate、完整clock、checkpoint身份与迁移。若仍超660000B按明示partial优先级去次级重复元数据，始终保完整terminal、全部最小模型表及费用，不再LIMIT-only。所有省略保源record指纹与scope，不伪称全细节已读。根已阅读源码差异及全部新增complete/fallback分支；绑定、actualpull和一次原log下载段不变，未在本地执行selector或科学/人工检查。仅此只读请求，原科学与九检查不重。基底31fdf533db28290a98f0b6c08d84fc75472fc5ad。
+
+
+## 2026-11-16 01:02:02 UTC｜R417完整静态两项缩减及第三observer真实规则已读
+
+Astra-new-mechanism-9974ea84：[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)，12873B/hash 44ad07efa8a68cfce861748d7153badade88cf0a8046e26aee8c06720bf8109a。根全文读，并手核原ZZ协变平方(23)与其h^-4全部交叉项(25)、N0两阶势的G项及响应结构；仅补“响应提出公共2后的1/8”澄清正式pure归一化，不改公式结论。未执行积分/符号/人工检查。负四仍需唯一W4实际natural值。
+
+第三只读observer43783131728/job133024669538原log660096B/hash8193f42fafab7c0915377ddff1979438cf3080af696c5b6f7f18a3985e8e1340，8.00807062s，priority partial确实保完整m28/全部28最小表/末态费用，次级重复元数据未输出；不是science重跑。公开actual rebase00:54:53.975613→00:54:54.251593，前后bf89891c487f143317ade7f6b99f665b7b997957，双README空diff。私有00:54:56.925505→00:54:58.211034，d662054fedf7dd39d0163d63f4ec78541055a819→0cec35dcb8df7d19dc67ceb045ed7cfb471a7af1，root同/topic无/QUEUE进行中。原科学public00:29:02.474925→00:29:05.021925，a0d71ea9…→cdb90b6a2014fd6842c6755cc17e3c219476ddec；private00:29:07.372033→00:29:08.176405，前后c0c9529bd4681191261676e0abeace5ea4aab1be，规则均同。根01:01:38读全部规则原记录，次限01:54:53。HANDOFF据完整m28/clock同步，完整人读note接续。基底94e4d5ece6cdb0b0d10bad40a2df625ef086a5fe。

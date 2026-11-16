@@ -186,9 +186,9 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
 
 
-### R413–R416：负六完整静态全消，继续真正速度二次型及负四
+### R413–R417：负六静态全消，负四只余一个静态自然函数
 
-[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从起点共同D/E且D−E>0，使共同Q4仅−2头；ordered3+2局部五次全0。两负权同权E=R消完整A/H/Q4 action。[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)八参考态与完整左尾/有序尾给两权a(0)=0、μ=2a(1)p2*、μm2=0。[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)进一步保完整外槽N0，全k最低h^-4抵消；Y6、Z6及两有序尾统一乘(1+k²)^5，Λ([h^-6]F0)对全部真实profiles/全部k恒0。因此−6正字符a(k)≡0、a(1)=μ=0，仅剩原三速度系数的2×2 PSD。−4全k静态及三速度尚未消。所取Γ幂已核空，但原N0/N2、真水平微分/右锚及左尾必须保留，不把旧pure列当完整mixed根。继续同一actual联合门、全period与13同一个k。
+共同D/E且D−E>0使Q4仅−2头，ordered3+2局部全0，两个负权字符杀完整A/H/Q4。R415两锚给a(0)=0、μ=2a(1)p2*、μm2=0；R416原self/pure/有序尾使负六全部k静态a=μ=0。[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)保完整N0外槽及YC/ZZ全表，将负四自然压成S³(A+k²B)，故a(k)=a1 k²S³/8，唯一未知为W4=[h^-4k8]F0的完整自然值，a1仍未排。后续原静态M−2/已付pure响应只读复用，最多新增该Ω，不重pure/rank；两权三速度PSD仍保原N0/N2/Γ/水平微分和全部真尾。继续实际joint、全period和13同一个k。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
