@@ -170,3 +170,8 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 [R860](results/R860-original-common-odd-cross-and-balanced-partners.md)：原Dscr_m=(D_z^p−HD_z−mCz)/p仅在whole格整；完整热commutator与Witt交叉乘法给三差M的真实横向项，R_p项严格相消。原K(Ej,Jν)全多项式在二挠读kν(−1)^jΞν，边界行(1,−1,1)c*=27/7非零；余项准确σ(2z)²Lνj/4，L为固定whole degreeM−8/type2，原组合首5(n−12)/(12M)z²。保全部Ξ/L及其高jet，不把边界或R_p单位当原四B forcing。
 
 续原M_pc*和BS的共同相容性；横向消元须同时带上固定Ξ及L，不把已知伴随高jet非零换成原中央非零。
+
+
+[R861](results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：R856真实C_H=(p+1)binom(3s−1,2s−1)b^s给pcσ≡−C_H，故Gaussian可整重标为a*=−34C_H；原矩阵固定b=1，g/AΦ/a/Rcal同步后M逐列不变且H_p/hΘ/B保留。完整Λ0(a*)M/p准确读取同whole degree34Q列的D_(p,79)、D_(p,p+80)、D_(p,2p+81)，另保仅charge40/41/42的阶乘商低项；三系数末项−1/(a*³81!)unit。所有c*U0/P134、真实首Hasse项、同P/R/S和g2 J_(p−1)热项保留，不添中央零或判非零。
+
+续同一实际高前缀/normal/中央约束下的指定三D组合；不因a*规范、末单位系数或全格Frobenius关系而省掉真正除p商。
