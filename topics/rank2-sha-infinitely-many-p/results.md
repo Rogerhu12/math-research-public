@@ -212,3 +212,6 @@
 
 
 - [R872原有限纤维商与三次分歧块](notes/2026-11-16-r872-native-finite-fiber-quotient-and-cubic-ramification.md)：全部十九角Gauss residual分裂束准确给Vj与原W；V1∩J3=V4使W/(V1+J3)为真实有限底层，准确全局商仍含ker[H¹V4→H¹V1⊕H¹V3]。原D=4b且F4来源非零时该H¹自动0。非固定整个纤维含奇点/水平的长度为3length(F,EF)；光滑非水平实际Smith为(t³)^(m−1)，水平为(t³)^m，非臆想e³ Smith。真全局分解与原K1三长前缀准确相容，因此实际有限值/连接类均消失才可将Π返真F线性层，不冒满像或删同R/S。
+
+
+- [R872原零纤维三层及实际低行](notes/2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)：原零角迫v0(F)=−3，DVR上J3到有限三次代数模t3的像恰t²V，V为L⁻¹(F0³)、L⁻¹(YF0³)两真列；全WD三原列支付到Q0=(A/t³)/(t²V)满射。非退化gcd(F0,YF0′)=1时V秩2、Q0指数(2,2,3)。全K1的实际物理支零后，余两支仅落4−dimV+rank ev1≤3行，β2必须保G1 quo(w1)修正；不冒全K1满像或三尾Π，退化矩阵/其它finite/H¹和同R/S全保。

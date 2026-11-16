@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：cf83d456d8a828b405190f73bb28e0f871e8ecc0；2026-11-16 12:29:08 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
+- 最近已读规则提交：e0912323b16a9af38d932a12be47dec523fedf42；2026-11-16 12:36:20 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -51,7 +51,7 @@ R863同H22两个整低配对、R876谱及R879全部热/trace/高端/q3/CM词保[
 
 R868 t^-τ只在τ≤σt成立；最小r=b0=3,c0≤2的σt0仍开。R871原S^-13三读者D1/Dp+2/D2p+3保整高尾。R872 τ1/2/3实际第三carry−6ab0γF含第二折回+12a，同X须Bτ+6aγFQc0；第二页baseline₂+a²b0γF/3=0。调整口为原K1的W2末三尾联合像，非三个自由轴。
 
-同预算Pfact与完整p³才得J/p²；原R两近支、E³ξ、V2/V3严格门和全部因子帽见完整H。原charge40单位门下J3=(E+40)⁻¹V3的Π全0，首核只需同W0前缀T，三完整carry加深到s；J3∩V1=V4，其值有两strict水平三倍Cartier消失。负水平BD·H−=4且A另含t²，z−≥1迫整个J3零charge0；同商仍有ρ−∈t k[t]≤4，非自由边界。新[有限纤维商](notes/2026-11-16-r872-native-finite-fiber-quotient-and-cubic-ramification.md)付W/(V1+J3)真实finite层及H¹核，全部Gauss分裂帽给准确总长；非固定整纤维长度3length(F,EF)，光滑非水平Smith为(t³)^(m−1)、水平为(t³)^m。D=4b且有原F4来源时H¹0；真全局分解与同K1三长前缀相容，Π可返真F线性层，但K1的有限值/连接类及该层Π仍待付，全部R/S继续。
+同预算Pfact与完整p³才得J/p²；原R两近支、E³ξ、V2/V3严格门和全部因子帽见完整H。原charge40单位门下J3=(E+40)⁻¹V3的Π全0，首核只需同W0前缀T，三完整carry加深到s；J3∩V1=V4，其值有两strict水平三倍Cartier消失。负水平BD·H−=4且A另含t²，z−≥1迫整个J3零charge0；同商仍有ρ−∈t k[t]≤4，非自由边界。新finite纤维注付W/(V1+J3)真实有限层/H¹核、全Gauss总长及非固定纤维3length(F,EF)；D=4b原F4来源使H¹0，真分解与K1前缀相容。[零纤维注](notes/2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)再给Q0=(A/t³)/(t²V)，V真两列；非退化Smith(2,2,3)，全K1只读其它两支的≤3行，β2含真实G1。全WD到Q0满射不冒K1满射，未将这组行认Π；其它finite/H¹、真F线性Π和全R/S仍保。
 
 ## 其它原门与同步
 
