@@ -81,3 +81,6 @@
 
 
 - [原CM惯性shadow检测完备性](2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：固定ℓ>3并保原Q下降两共轭CM线，CM主单位给中心非平凡scalar，直接Sah计算及不可约性迫非零AJ在N=kerρ∩G_H上张成V。取复共轭ι和同核h，g=ιh满足ρg²1、实际c(g²)=(1+ρi)c(h)非零；对(ρ,c)模ℓ^n的真实联合扩张用Chebotarev，得惯性r的原shadow ℓ阶无界，且每个固定阶门有正密度r。与R859合得AJℓ非零 iff某惯性shadow非零 iff影子ℓ阶无界；换格/清分母成本固定。ℓ始终固定，不给原AJ非零或无穷系数素数。
+
+
+- [原四行的共同C24奇源与三维配对](2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：原C24=−σ24 x²yQ2/7、四J10/48/112/42全whole，原Aν=C24Jν。type5完整奇格基Ej=−b^jσ24 x^(8−3j)y，指定c*=(1,−4/7,16/7)。三差M_p保所有<p低jet并消共同O24；四B同时零 iff BS=0且M_pc*=0。固定水平奇递推、完整原t卷积均已付；R=(1−t)^−1/2/H²给M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))，指定行是原h7/7的准确组合。U二挠条件按24+112同tensor运输，C^-1Π136C的全部极、Jold与1890bz7均保；三维不代M满秩或指定核非零。

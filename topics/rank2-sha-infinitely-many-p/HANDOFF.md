@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：0e78e97fa380327094b85bd3413b1653ad60ef4c；2026-11-16 06:13:11 UTC核两README无变。实际CI pull 2026-11-16 06:06:50 UTC/d08cf773521372be2497976dfe20767507fedcda（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:06:39 UTC仍无环境。最迟2026-11-16 06:55 UTC再实际pull。
+- 最近已读规则提交：7771c23337471e05ec20848b0c6fb4b8d03bd664；2026-11-16 06:19:40 UTC核两README无变。实际CI pull 2026-11-16 06:06:50 UTC/d08cf773521372be2497976dfe20767507fedcda（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:06:39 UTC仍无环境。最迟2026-11-16 06:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,7 +13,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-integral-shadow-inverse.md)、[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链逐字保全部旧公式、来源、条件与未闭门；压缩仅重整入口，不撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-common-odd24.md)、[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链逐字保全部旧公式、来源、条件与未闭门；压缩仅重整入口，不撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–859已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep转R828实际一标量p³/p⁴与同R/S高尾；theta续四源共同奇格和真实三差矩阵；literature续Zorig的实际Hom/有限域交点与canonical对应。
 
@@ -25,9 +25,9 @@ R852原degree9真Chow逆、R857 full3/648项ε3与ΘᵗΘ=81Π/ΘΘᵗ=81ε3全�
 [R858](results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：full3三阶deck平均全Chow0；CM fibre定义于K H3c(F)，原χ全部垂直项0。原res单射，Zorigχ0 iff同步双点迹Tτχ0，尚未判其值。附A/B保实际3边34/102、3/1/9、εRS=ηK(−1)εBC；原两CM/Artin线确是λ，单线root−；full toric λ×λ♯root+且至少二阶中心零，不改原单线。
 [R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：r惯性在H34剩余域F_(r²)，φ²=−r、反交换CM；D_r=Γφ−E×O−r O×E在Π最高块收缩整diag(a,−b)、det r。5/11 Frobenius−1/5、−1/11排所有ℓ>3全局H1 torsion。真实原shadow某ℓ部分非零即可证Zorig及其generic迹非零。
 原点公式3S=ΣcρΣ_k[ω^k]Σ_{G=[ω^k]φF}mult·Tr H，χ全部conjugate在同一所选素理想逐项约化，不冒剩余域群。**尚缺原Jacobian Hom函数域坐标和一次非零点。**
-R859附A给实际整Chow逆：Sym²E的P¹丛及Poincaré双线性只倒置2付几何Sym²h1=L；再CM拆分及φ²−r给真实同构。I_r(P)=Π(D_r×(P−O))，交数(−2r,r,r)，SI=IS=−r（后者在Π上）。故ΠCH²(E³/F_(r²))[1/6r,ω]≅E(F_(r²))[1/6r,ω]，r+1杀整个最高群。反向用有限特征φ，不制造char0原来源。
+R859附A：Sym²E/P¹丛与Poincaré双线性付整Chow逆（倒置6r）；I_r(P)=Π(D_r×(P−O))，SI=−r、IS=−rΠ，整个最高Chow≅E(F_(r²))，r+1杀。反向φ仅在有限特征。
 
-[原CM惯性shadow检测完备性](notes/2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：固定ℓ>3并保原Q下降两共轭CM线，CM主单位给中心非平凡scalar，直接Sah计算及不可约性迫非零AJ在N=kerρ∩G_H上张成V。取复共轭ι和同核h，g=ιh满足ρg²1、实际c(g²)=(1+ρi)c(h)非零；对(ρ,c)模ℓ^n的真实联合扩张用Chebotarev，得惯性r的原shadow ℓ阶无界，且每个固定阶门有正密度r。与R859合得AJℓ非零 iff某惯性shadow非零 iff影子ℓ阶无界；换格/清分母成本固定。ℓ始终固定，不给原AJ非零或无穷系数素数。
+[原CM惯性shadow完备性](notes/2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：保原Q下降双CM线，主单位scalar、Sah与同核cocycle/复共轭平方给联合Chebotarev检测；固定ℓ>3的原AJ非零 iff某惯性shadow ℓ部分非零 iff其ℓ阶无界。固定阶门各有正密度r，换格成本固定。尚未证原AJ非零，固定ℓ不代主目标无穷p。
 
 ## 四原来源、水平格与真正除p
 
@@ -42,6 +42,8 @@ Bν=2mεν[N!C^(N+1)Res(fν ω/H^(N+1))/p−V_Nfν(P)]。
 [共同A24完整乘法](notes/2026-11-16-common-a24-horizontal-product-and-relative-theta-gluing.md)保17/3/17/11标签、K2040/144/5712/1848与固定CM相对收缩；切锥15/M³(v+nu/24)³、ε_Mε_K=ε24εn。两个混合Jp,1/p/J1,p/p保全，辅助K不添中央。
 [同奇来源与倍点补偿](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：C30五输入给S=C30σ2/2、V=C30σ6/6；固定奇g恰双零/D²=1/30。两B=O30−χ60 P_p(X0或729X0)，X0=(2/15)³，全卷积保。U−S2/64同degree136恰六零，准确/b归一、首1890bz12；B差BU−BS/16。四f仅Qbar线性独立。整体[3]另有W3=3⁵C30/C30(3z)=1+7072bz6+…，degree−240；g270=g/81、B(S3/729)=BS/81不冒原V。
 同角色germ全部Gaussian整Γ_h、真实cover与独立源仍沿前检；局部因子中央零不代primitive非零或免费预算。
+
+[原四行的共同C24奇源与三维配对](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：原C24=−σ24 x²yQ2/7、四J10/48/112/42全whole，原Aν=C24Jν。type5完整奇格基Ej=−b^jσ24 x^(8−3j)y，指定c*=(1,−4/7,16/7)。三差M_p保所有<p低jet并消共同O24；四B同时零 iff BS=0且M_pc*=0。固定水平奇递推、完整原t卷积均已付；R=(1−t)^−1/2/H²给M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))，指定行是原h7/7的准确组合。U二挠条件按24+112同tensor运输，C^-1Π136C的全部极、Jold与1890bz7均保；三维不代M满秩或指定核非零。
 
 ## 原同R高前缀与实际指定页
 
