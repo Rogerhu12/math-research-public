@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 07:25:06 UTC root委托本公开仓库Actions run43823694642真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 96c246029a8b1ee40fa19586b0e9661f3c529985。
+规则同步记录：2026-11-16 07:27:25 UTC root委托本公开仓库Actions run43823972839真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6110d6a16d2e66becae71454ad2d4e796b7a5c00。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -32,7 +32,7 @@
 
 ## 恢复检查点与已刊范围
 
-当前todo压缩前全文保在[f863b71c时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95/topics/visible-flex-larger-amplitude/HANDOFF.md)。本段更早恢复记录与主线源身份逐字保在[abeed0e0时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/abeed0e09fc341a90c56ddd5f51f96e373f7f4fd/topics/visible-flex-larger-amplitude/HANDOFF.md)，其内919803/af74/0e78/fedcc/04bc/77fae/3f08及更早链继续有效。所有参数、原词、失败/未返/未访、预算、来源与清理责任保留，结果全文及旧索引见[results](results.md)。
+R469恢复与此前全部todo逐字保在[dfa01b9b时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/dfa01b9b280bd8a1a5b5f3e9f2f80f424a165fe9/topics/visible-flex-larger-amplitude/HANDOFF.md)。当前todo压缩前全文保在[f863b71c时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95/topics/visible-flex-larger-amplitude/HANDOFF.md)。本段更早恢复记录与主线源身份逐字保在[abeed0e0时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/abeed0e09fc341a90c56ddd5f51f96e373f7f4fd/topics/visible-flex-larger-amplitude/HANDOFF.md)，其内919803/af74/0e78/fedcc/04bc/77fae/3f08及更早链继续有效。所有参数、原词、失败/未返/未访、预算、来源与清理责任保留，结果全文及旧索引见[results](results.md)。
 
 R440/203与R453/205的C/全112 far已齐，1M inverse work仅3point/0field、BVP未起；旧selector漏失且raw已清不能补。205域未决不判非法、不添前门。R477新reader保完整point/stack，212只depth24→2。R472/210在native前缺依赖，211真同HERE闭包已补；原六词/λ=.001/18000与全部原门保。R455/206八model/freshFD与24trial仅计数，90K正文未返末pair已失；213从原98再生且只去固定必要语义重复。
 
@@ -45,7 +45,7 @@ R456–464真同C/full112→五factor2→全M union/15现场views，R459固定g�
 2026-11-16 07:19执行环境失联，R469本地54798ff4尚未推；root保完整文本重建，委托本公开仓库Actions逐结论真实部分克隆/pull/rebase/双README核对/推送，实际run及规则行随成功更新。未推R493/R497全文保在会话，R495/R496/live128草稿按完整正文与已刊源恢复为detached source blobs；不把路径或SHA冒已恢复全文。临时源原在/workspace/visible-larger-working；遗失依已刊原源/完整接口重做，不靠已删raw。root唯一Git/ref，每结论立即推、每pull核双README。源文/完整证明写成即登记，不等额外审查或重跑。
 - geometry：唯一212/R478、214/R484终态。209两终态已读，R46926460/f56166e5本次刊：C/far112齐，depth24/1M停3point/0field，旧point/stack漏失、raw真清，后15roles全未起。R489同C全1440/six重算已919803，R492原R400/R416叶消费已fbe97a；原CP/definition/全部节点/B/材料不变，tail E(r)与外层/派生族未接。R495桥继续，已发现真实binding字段需显式传原别名；217/R490仍未建，不添BVP门。
 - amplitude：唯一211/R475、215/R486终态；215实际b952df81/43816406919，原204四科学/94pins全字复用加R485 reader得95，原钟/全门/90K/quiet保。R49132598/890ecf40已abeed0e0：混合338J为原合同，内层只取前M但全payload保；live128正常response与原FD/fullDN仍待真接，不添全解析门。R494三件已f863b71c：caller12857/eafb4117、proof18109/62c241e2、接口20961/60848e64。205/214/216三层原fae2/fb951→f9b captured-product仅linear接原R474，非R466/R471 trace；新/原runtime身份分列，九计数跨cache。R496继续真实三worker/client/config/driver/union CP来源，218基于正式216；原门/钟不变。
-- exact：唯一207/R460、208/R467、213/R480、216/R488终态。R483五源已3559，R487八件已29971；216入口634c4c85/run43819978588、绑定289f89c3，260公开+33生成、15→5→13、原三层depth2/全部门/唯一钟保。06:59前13成功、14原C运行。R493逐H live128条件纸证27709/115e78be已写待root即时刊，原公开evaluate可调用；继续真实投影/13scalar输出/响应组装及新worker，不重标旧probe或假H父。
-- root：R482六件0e78e97f、214入口29df28d3及实际绑定已刊；R485已915f148b、215入口b952df81及实际绑定已刊；R483五件已3559e04e、固定C说明已e99341ea，R489已919803fd，R491已abeed0e0，R492已fbe97a2b，R487已29971f03；216入口634c4c85及官方运行绑定已刊，R494已f863b71c，续R495真实叶消费/R493 live128/R496三层native与open下项。root R497的显式已完成box缓存helper/source计划已写草稿，未刊/未执行，hit仍原attempt，不解除1M停止；完成证明后即刊。实际partial/失败/接受分责，未启动不补拒；不停在阶段报告或等待用户。
+- exact：唯一207/R460、208/R467、213/R480、216/R488终态。R483五源已3559，R487八件已29971；216入口634c4c85/run43819978588、绑定289f89c3，260公开+33生成、15→5→13、原三层depth2/全部门/唯一钟保。07:25官方仍14原C运行。R493逐H live128合同27709/115e78be本次刊；完整原7ba父是actual63 prefix＋accepted96/原port，91仅尾初猜，原320min/350minjob分列不套216。投影/标量wrapper/4literal计划已detached blob恢复草稿，真实组装/worker继续；不重标旧probe或假H父。
+- root：R469实际209已dfa01b9b，经公开恢复run43823694642真实pull/rebase/双README核/推送；未调用科学。R493本次单独刊；R497五件全文已成待下一条推。R495三源码detached blob已按原完整SHA恢复，两文稿继续；R496 generator/reader原字恢复、49view计划待完整重建。全部原身份/失败/未返/预算保历史链接，不拿SHA冒正文；按open持续至原标准，不停阶段报告。
 
 216入口634c4c85官方topic treeaf260cad5417a640d9e8dfd8b2c5c2fb589f6f13：9300blobs/197715378B、9672entries，truncated=false。62两生成清单已77fae38c普通删1352194B（仅4d61/ef5e），63已b696cc15；原父/源/历史保，不存新raw。
