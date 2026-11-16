@@ -897,3 +897,246 @@ $$
 将这些式子与(B14)联立时，仍须控制同一个原热余项、
 同一参数导数以及全部低 cross；
 不能只由其中 $c_p$ 的单位系数断定四条原首行不相容。
+
+
+## 附录 D. 余项所需的原 degree2 小格及固定代数水平框
+
+本附录只具体化(C17)–(C18)已经出现的 $F_2=\sigma^2$、
+$\Theta=x\sigma^2$ 两条原来源及其参数导数。
+它不把 $\Theta$ 的质量一改成中央零，也不把本节的固定水平框
+误当作原 $P_{2,M}$ 的固定替代。
+
+### D.1 k=1 的完整热余项
+
+R855 的原连接在 whole degree2 基上准确为
+$$
+\mathcal H_2(F_2)=-\Theta/2,\qquad
+\mathcal H_2(\Theta)=-5g_2F_2/24.
+\tag{D1}
+$$
+第二式由
+$\mathcal Lx=2x^2-g_2/3$、$D_z^2x=6x^2-g_2/2$
+直接代入原 $\mathcal H_2$ 得到。
+
+记参数导子为 $L=L_2$，避免与物理 $D_z$ 混淆。
+R856(39)在本小格的 $k=1$ 热递推可以完整写为
+$$
+\boxed{
+\mathcal D_{2,p,3}
+=4\nabla\mathcal D_{2,p,1}
++8\mathcal R_pJ_0-\frac{g_2}{3}(p+1)J_{p-1},
+}
+\tag{D2}
+$$
+其中 $\mathcal R_p=(L^2H+g_2H/12)/p$，
+$H,C_p=LH$ 仍是原特征零多项式。
+证明将
+$J_{p+3}=4\nabla J_{p+1}-g_2p(p+1)J_{p-1}/3$
+与
+$J_{p+1}=HJ_2+2C_pJ_0+p\mathcal D_{2,p,1}$
+代入；使用
+$\nabla J_2=J_4/4+g_2J_0/6$、
+$\nabla J_0=J_2/4$ 和
+$LC_p=-g_2H/12+p\mathcal R_p$，
+全部原低项正好合成(D2)。
+
+因此在原 CM 点，
+$$
+\boxed{
+\mathcal D_{2,p,3}(F_2)
+=4L\bigl(\mathcal D_{2,p,1}(F_2)\bigr)
++2\mathcal D_{2,p,1}(\Theta).
+}
+\tag{D3}
+$$
+所有参数导数在特化前形成。结合(C17)，得到
+$$
+\boxed{
+D_2^B
+=2L\bigl(\mathcal D_{2,p,1}(F_2)\bigr)
++2\mathcal D_{2,p,1}(\Theta)-c_p+\mathcal Z_p
+\quad\bmod p.
+}
+\tag{D4}
+$$
+不能从 $\mathcal D_{2,p,1}(F_2)|_{\rm CM}=0$ 删除它的参数导数。
+
+### D.2 先于 p 固定的代数曲线
+
+令
+$$
+\Delta=g_2^3-27g_3^2\ne0
+$$
+为同一参数导子下的常数。一次性在特征零系数域内选
+$\mathfrak f$ 满足 $\mathfrak f^4=16\Delta$；
+这与任何目标 $p$ 无关。
+取固定仿射曲线
+$$
+\mathcal C_{\mathfrak f}:\quad
+F(u,v):=uv(u^4-v^4)=\mathfrak f.
+\tag{D5}
+$$
+定义两个准确不变量
+$$
+\begin{aligned}
+I_8&=u^8+14u^4v^4+v^8,\\
+I_{12}&=u^{12}-33u^8v^4-33u^4v^8+v^{12}.
+\end{aligned}
+$$
+直接多项式展开给
+$$
+I_8^3-I_{12}^2=108F^4.
+\tag{D6}
+$$
+所以
+$$
+g_2=I_8/12,\qquad g_3=I_{12}/216
+\tag{D7}
+$$
+准确映到原固定判别式参数曲线。
+这里的全部常数由(D6)固定，不留一个未定复周期倍率。
+
+曲线的投射闭包是
+$uv(u^4-v^4)=\mathfrak f w^6$。
+在 $\mathfrak f$ 和 $6$ 可逆时它光滑：
+有限处由 $w$ 偏导数判断；$w=0$ 时二元六次式
+$uv(u^4-v^4)$ 的六个根均简单。
+故这是先于 $p$ 固定的光滑平面六次曲线，亏格十。
+(D7)为有限态射。为见其函数域次数，
+一般点令 $z=(u/v)^4$；它满足
+$$
+(I_8)^3 z(z-1)^4
+=\mathfrak f^4(z^2+14z+1)^3.
+$$
+这是六次方程。再用
+$$
+(u/v)^2=
+\frac{\mathfrak f^2(z^3-33z^2-33z+1)}
+     {I_{12}(z-1)^2}
+$$
+及
+$$
+v^2=\frac{I_8(u/v)(z-1)}
+          {\mathfrak f(z^2+14z+1)}
+$$
+一般依次各取两个平方根，得到次数 $24$。
+同一次数也可直接由完整极除子读取：六个无穷远点上 $I_8$ 均非零（在 $u=0,v=0,u^4=v^4$ 三类分别为 $v^8,u^8,16v^8$），故 $g_2$ 各有八阶极点、总次数48；目标参数椭圆曲线上的 $g_2$ 次数为2，因而原覆盖次数准确为24。
+这些一般点公式只用于确定次数；CM 点在曲线本身上读取，
+不把公式中的暂时分母当作必须在 CM 点求值的坐标。
+
+### D.3 原完整连接的显式水平基
+
+(D5)上的实际参数导子是
+$$
+\boxed{
+Lu=\frac{u(u^4-5v^4)}{24},\qquad
+Lv=\frac{v(v^4-5u^4)}{24}.
+}
+\tag{D8}
+$$
+它满足 $LF=0$。逐项求导还给
+$$
+LI_8=I_{12}/3,\qquad LI_{12}=I_8^2/2,
+$$
+所以(D7)准确满足 $Lg_2=6g_3$、$Lg_3=g_2^2/3$。
+再算一次(D8)，得到
+$$
+L^2u=5g_2u/48,\qquad L^2v=5g_2v/48.
+\tag{D9}
+$$
+于是同一个原 whole degree2 格的两个截面
+$$
+\boxed{
+h_u=\sigma^2(2Lu+ux),\qquad
+h_v=\sigma^2(2Lv+vx)
+}
+\tag{D10}
+$$
+由(D1)、(D9)准确水平。
+它们在 $(F_2,\Theta)$ 中的系数矩阵行列式为
+$$
+2(vLu-uLv)=F/2=\mathfrak f/2,
+\tag{D11}
+$$
+在原好素数域内为单位。
+因此(D10)是完整基，不是仅一个参数微分方程的两条形式解。
+
+确切地，
+$$
+\boxed{
+F_2=\frac2{\mathfrak f}(v h_u-u h_v),\qquad
+\Theta=\frac4{\mathfrak f}(Lu\,h_v-Lv\,h_u).
+}
+\tag{D12}
+$$
+选任一覆盖点 $P$ 位于原 CM 点之上，并将(D12)的系数冻结在 $P$，
+就得到原两个物理纤维的水平延拓。
+其质量函数分别为
+$$
+f_{F_2}^{\flat}
+=\frac2{\mathfrak f}\bigl(v(P)u-u(P)v\bigr),
+\qquad
+f_\Theta^\flat
+=\frac4{\mathfrak f}\bigl((Lu)(P)v-(Lv)(P)u\bigr).
+\tag{D13}
+$$
+这用完整原截面相等固定了绝对尺度。
+不需要猜一个 theta 常数或重选准周期相位；
+换覆盖点或水平基时，(D12)仍恢复同一个原 $F_2,\Theta$。
+
+### D.4 原除 p 读者在这两个固定函数上的准确表示
+
+仍令 $N=(p+1)/2$。采用已付原水平标量算子
+$$
+T_0=1,\quad T_1=L,\qquad
+T_{r+1}=LT_r-\frac{r(2r-1)}{24}g_2T_{r-1}.
+\tag{D14}
+$$
+R855 的完整热递推给
+$j_{2r}(h_u)=4^rT_ru$，同样适用于 $h_v$。
+因此定义
+$$
+\boxed{
+K_{u,p}=
+\frac{4^NT_Nu-4H\,Lu-2C_pu}{p},
+\qquad
+K_{v,p}=
+\frac{4^NT_Nv-4H\,Lv-2C_pv}{p}.
+}
+\tag{D15}
+$$
+它们就是实际 $\mathcal D_{2,p,1}(h_u)$ 和
+$\mathcal D_{2,p,1}(h_v)$。
+其整性直接由原 R856 whole 行及(D10)的整基给出；
+不是从一个模 $p$ 的抽象水平解任意选除法。
+
+(D12)遂将两个所需原行准确化为
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{2,p,1}(F_2)
+&=\frac2{\mathfrak f}(vK_{u,p}-uK_{v,p}),\\
+\mathcal D_{2,p,1}(\Theta)
+&=\frac4{\mathfrak f}(Lu\,K_{v,p}-Lv\,K_{u,p}).
+\end{aligned}
+}
+\tag{D16}
+$$
+这些式子在完整参数覆盖上成立，再在原 $P$ 特化。
+特别相容的参数导数为
+$$
+L\mathcal D_{2,p,1}(F_2)
+=\frac2{\mathfrak f}(vLK_{u,p}-uLK_{v,p})
+-\frac12\mathcal D_{2,p,1}(\Theta).
+\tag{D17}
+$$
+所以(C18)、(D4)中全部小格余项已具有两条先于 $p$
+固定的函数 $u,v$ 和准确的(D15)读者，
+连同指定系数导数；没有偷偷改变 $F_2$ 的参数延拓。
+
+这里固定的是曲线、水平基和物理来源。
+(D15)中的 $N,H,C_p$ 与原除 $p$ 高算子仍依赖于 $p$，
+并且必须保留其原模 $p^2$ 数据。
+本附录未把它称作一条固定 holomorphic Hasse–Witt 行，
+没有删去(C18)的低 cross，更没有由覆盖有限或基行列式为单位
+推出 $K_{u,p},K_{v,p}$ 的指定组合非零。
