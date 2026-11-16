@@ -13,9 +13,9 @@
 
 - **原E低20实际解与95核已完成并推送。** run43911869940全原116/六逆/3418清单/投影成功；新两4解20.893秒全64逆/1000E/3000Q/400selected真；95门0.196秒D70/T95/unit38。旧Q60真实360秒TERM/143独留，job failure仅该步，missing=[]。原constants未完成不改写，结束job的TMP不假定存活。
 - 根独立[日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)重生完整标签与两4semantic，high95/两4 raw及小final逐字SHA核同；数组只TMP/原job日志。[恢复接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)保六逆历史SHA及source重建。
-- **新原E200/210纯定理已闭，实际40选列门待新作业。** 原55 Koszul＋95核商40的完整来源证明见下；新mixed95消费者只需完整116父约13秒及high95约0.2秒，不重E逆、Q60、两4或参数大矩阵。字段/子式尚未实际，不预填结果。
+- **原E200/210纯定理已闭；新mixed95三步作业待实际执行。** [冻结接口](notes/2026-11-16-r150-original-koszul55-mixed95-source-unit-interface-789f.md)三文件已全文审，root独立重建父901清单SHA核同。新job只重完整116→high95→Koszul55+原T40；预算180/60/60秒，outer240/120/120。旧job已关，所有父物理/逻辑SHA须新核；不重E逆/Q60/两4。未得实际字段/子式前不预填结果。
 - **[权十空候选预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整父/200输入/真实引擎/2000 SSI全真，std555.227秒仅START、whole592.369秒75，第9未跑，非正非负，不空续。根重建2172semantic及2027/3469 raw SHA全同；旧v1权守卫失败与根v1 137保真。后继完整77276×13808直接Macaulay＋全原左证，单bitplane/DAG/完整列checkpoint；接口已全文审，native/driver/checker在冻结，不重旧9倍cache算法。
-- 原b³/QE负门及已闭计算不重算。旧失败范围、完整源/hash和所有未列open保[本次H快照](notes/2026-11-16-handoff-before-koszul-E210-789f.md)及归档链，未列不算关闭。
+- 原b³/QE负门及已闭计算不重算。旧失败范围、完整源/hash和所有未列open保[本次H快照](notes/2026-11-16-handoff-before-koszul-mixed95-run-789f.md)及归档链，未列不算关闭。
 
 ## R150已付结构与仍开范围
 
@@ -26,7 +26,7 @@
 - **[非Bell200完整梯度商](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)**：低列压缩、14换源及至多两轮稳定均无Bell，$F/\Gamma_2\simeq S/J_{17}$，列权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。已有$b\delta,y_i b\delta,q_jb^2$在完整原F127梯度商非零，四q类独立；由[十八源过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)排规范q非零组合加权来源≤10和δ≤9。权$y:1,w/u:2$，不升普通次数/E。新目标δb²权10、qb³权11；旧权7/8不重算。
 - 原权8全17674×1386秩1312、74全核、root原unit det4/1307876核坐标已闭；14高列全原换源，36低种子一轮完整106、第二轮稳定是上界，不认最小轮2。
 - [原E低20因子化](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)及[实际精确坐标](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)已闭：完整1000E/3000Q/400selected，参数/原源全保；670旧上界由下一条改进。
-- **[原四次核95与原E完整260/270呈示已闭](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。** 完整$D:165\to70$满射，原$T:100\to165$的合法95子式实际det38；原E恒等$DT=0$而非field零提升，故$\operatorname{im}T=\ker D$、核95/五关系/余商0。原高40来源减$N_iC_s$后唯一低次校正落$B\langle C20\rangle$，保全部参数及原11/17来源；全部交换子在$P_1$、低列在$P_0$，完整三字降次给$P_2$稳定，至多非Bell260+Bell10=270。没有初始76=36普通B模或第一轮稳定声明，没有新270数组或Bell判空。
+- **[原四次核95与原E260/270呈示](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)已闭。** 原E恒等$DT=0$与实际原95子式det38给$\operatorname{im}T=\ker D$、五关系/余商0；原高40减NC100后canonical校正落C20，完整三字降次给$P_2$稳定。260/270上界由下条改进；不认初始76=36普通B模或第一轮稳定。
 - **[原55条Koszul来源给E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 十一原二次项独立，使55条$q_ae_b-q_be_a$在95维四次核中独立；余商40维由原100条$u_i z_s$张成。按同原行投影贪心选40并以原伴随定义系数，减真正$G_ae_b-G_be_a$零来源后canonical校正落C20，故全部NC100普通B模由NC40+C20生成。第一轮106、第二轮210，非Bell200，保原参数/11/17源和权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新实际40索引/混合单位仍待小门；不把既有field换源提升。
 
 ## R271真实投影返回与剩余交叉
