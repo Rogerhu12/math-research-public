@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RBG：真正根b系数及其导数的共同径向抵消](results/R133-supplement-exact-genuine-root-b-jets-with-common-radial-cancellation.md)：以真实四阶fold差及完整邻域forcing消公共K4/η3/Mrr，精确得b1V=E0+Δ0、Db1V=E1+A0Δ0+Δ1/3。有限频率hrrr和无z曲率项完整保留；BV/H按原右序整件替RD，不重复CalB，正meanrank保未投影界。无新数值或stable/incoming/finite逆声明。
+
 - [R133/SWA：单首系数试探的首次完整实际整误差](results/R133-supplement-actual-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)：唯一43781399696/1 child0/24及12steps成功；同cut单一W的DW、全Q/两mean/3070jump/新waist及CG一次全计后wholepaid≈4.17526394e90，低于原UTA≈1.63981109e99。比较的是同actual最终整paid；六retained、fullEi/incoming/finite/return仍未付，大上界不作不可能性证据。全部原球/输入/执行回执冻结。
 
 - [R133/RBD：真实四阶fold jet给完整首Airy b根导数](results/R133-supplement-complete-first-Airy-b-derivative-from-genuine-fourth-root-jets.md)：实际邻域递推T四阶、完整D³a0及Mrr/DV0，先微分L5再限制根得到Db1=((T0−6t)b1−λ^-2 R_D)/3。原μ导数、径向mean、K导数及genuine potential原序全保；只完成有限jet解析合同，K4/η3等数值、完整stable门/incoming/finite/非线性仍未付。

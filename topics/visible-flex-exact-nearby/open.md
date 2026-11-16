@@ -52,6 +52,8 @@ FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Pois
 
 [RBD完整首b导数](results/R133-supplement-complete-first-Airy-b-derivative-from-genuine-fourth-root-jets.md)5d7c045f由原DT/Q/μ邻域递推真T四阶与D³a0，保Mrr全mean及完整DV0先求导后取根；Dμ/μ=4t、第一forcing的KTφ项按真实阶数消，ϑ在邻域/第二forcing/余项保。Db1=[(T0−6t)b1−λ^-2 R_D]/3，genuine λVn′/3+Vn A0仍原序。仅有限真实jet合同，K4/η3/u,v径2/d径2角3及实际全δ/全角正gap需付；没有新数值或stable/incoming/finite逆。
 
+[RBG真正根b配对](results/R133-supplement-exact-genuine-root-b-jets-with-common-radial-cancellation.md)157795fd先在真四阶fold差中消公共K4/η3/Mrr，得完整b1V=E0+Δ0、Db1V=E1+A0Δ0+Δ1/3。Δ1保−16k1(2ηα+zα²)及真实hrrr，z=j^-2=16n^-2，禁止把无z曲率也缩小。BV/H整件替RD之b+CalB/DB bracket，不二加CalB；正meanrank取未投影e_amp，非零βn两profile/输入右序及J/低中间频保。只解析，真实同域输入/全乘子数值/whole e<g−/incoming/finite仍未付。
+
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。

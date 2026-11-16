@@ -296,3 +296,13 @@ SCI3dbcf931b1b98fb7a7822ef5c1ed7df10135b894/27687/f16a1dc6177ef8a76d34e859fa37a5
 11current共380738B inventory a0acae47a985f58953701d9dd3fc22cefc8d278035f95b90b006b946664f30ab、4AST830b89bcf3f8a175f2aa5fb24448590fda95f27eede92702bede764bf47d2df3根重构；5原完整SCI canonical、30球6整对象逐字段相符，report22处20种球皆原字。两真pull00:37:17.826468/23.853674同5423c8a...两README空diff，容量本次base199720280→199769493，仅该次观测。
 
 最终wholepaid原球[4.17526393925635587082509229197535750043920189633651565840974725893589454e+90 +/- 4.83e+18]，原UTA完整候选[1.63981108967766385583945473118479398136316605743308334534799116191801665e+99 +/- 5.33e+26]原样保。四sign-wave读同整界无额外系数；3070jump/完整Q之T1F2/全mean及双端均保，CG whole一次。六独立retained/fullEi/incoming/finite/return/非线性均仍false；成功冻结，继续根stable及open余项。
+
+## 2026-11-16 00:47:00 UTC：RBG精确真正根jet与完整RD替换独推
+
+a4f1a21b4131dea37b48f933ee30494c7378024d两README同原blob；root定时真CLI于11-16 00:46:05前刚调用git pull --rebase origin main，仍明确No usable execution environment，未成功pull；下一定时≤01:46:05。只读API ref不冒pull，继续根规8小UTF8例外，最新实际CI pull仍SW00:37:23.853674。
+
+最终proof6fcf438b00220d8823f86dd619aaf32659b597c8/22284/SHA157795fdc7fc415156229f5c0b9674b18f92cce1e8cef8ce8df65a271775f268根全文已读；新增§8也由newton逐回RD17–19独核。根亲取F原a1baaae718a0787712e1b76b8ddfa60a391196a1/14116/052a0b23535c42523bc25734ed6366fd01a765c6a309b8ca88731b3ffdd707d8、C原5fe6c61c14db1bcc560f5361eceb13e59cae1a8c/15993/8d4119cbd42577fc1ab498350f4a8fd77b2923f7e207db4c4519f7a345225392完整文本，复读G24–33、RBD25–31、RD16–26原序；无计算新数值。
+
+RBG7/11由共同fold差递推先消e3/c4，RBG14消Mrr；delta2与F18完整619/140项一致。G26先求D再取根给完整Z_D/Z_DD、−k1W_AC，D与P不交换。normalized forcing derivative保−A0b1，37p/10来源4δt+δA，得E1。G32先微分给Δ1之无z曲率−16k1(2ηα+zα²)和hrrr/全quotient；仅Δ0有整体z。z=j^-2=16n^-2，另n^-1/3根权不是同参数。
+
+BV=M_E0+DΔ0，HV=M_(E1−bopE0)+M_aDΔ0+DΔ1/3在RD中整件替b+CalB及原DB bracket，禁止再加同potential。全mean/未投影e_amp/正Πrank、非零βn两profile、原输入对角右序/J/低中间频均保持。现成高root/aux成功记录的新库存待根逐原件核，尚不以找到记录当数值门已付。whole e、incoming/finite/nonlinear/总完成仍未达，继续。
