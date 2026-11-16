@@ -168,3 +168,9 @@
 - root已读完整执行源码、源闭包与workflow；仅增直接入口公开Actions约束并改正确artifact名，数学公式不变。原y单位解/可分导数、五组三minor、η负号、真Norm/三同源正乘全保；标准Jacobian/刚性化/高度未成。
 - c0真实R80319件159105635B/fp6e625137与R8379件73623B/fpf48bb378已纯IO取，原四补行使六Hodge值/一阶只依末四坐标；纸面来源尺度继续连接。H先逐字归档，原双转置首次失败正在读取实际traceback修复。
 - 本push规则：本地真实pull至5f7aae7e059f72225b1d67d9eb41f4d555841825（2026-11-16T01:34:58.319708+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:40 Asia/Taipei — serre-public-astra-20261115
+- 原dual首run43785814509/source9e4b0021实际0.929534秒，原κ4311位int读取触Python默认4300；prepare1481源通过，无configuration/newdigit/math stage，不是RR或原q否定。
+- 仅core main公开guard后加sys.set_int_max_str_digits(0)，core969201b9/request82de2d03、wrapper611e8ad8及数学全不改，resume null重新触发。root读实际5小件manifestb7c6b519、源码唯一行diff/AST；无本地数学。
+- 全局首run43787110788/sourcec0387d67在纯IO断言失败且未入core，正在定位fresh-fetch与真实缓存闭包差异；c0源已取，原六形式首项纸证继续。
+- 本push规则：本地真实pull至82d94287c6c9705c79ec5d48c6a9181b5b1ccacb（2026-11-16T01:40:23.336727+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

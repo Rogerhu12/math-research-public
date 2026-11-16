@@ -1068,6 +1068,7 @@ class Job:
 def main():
     if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get("GITHUB_REPOSITORY") != "Rogerhu12/math-research-public":
         raise SystemExit("New arithmetic runs only in the public repository Actions.")
+    sys.set_int_max_str_digits(0)
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--proof", type=Path, required=True)

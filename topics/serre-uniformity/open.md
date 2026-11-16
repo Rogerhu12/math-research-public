@@ -137,3 +137,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原普通Taylor全子式捷径已排**：[短边界](notes/2026-11-16-sigma-original-Toeplitz-minor-boundary.md)e3ba7a28直接用已成R698原41数组及R770的g=−Vf/2。rows{0,1}/cols{3,4}的四项全unit但det697=17·41；不证明真正primitive/Legendre掩码所需的指定minor为零，不改变同h单位问题，无新素数或数学计算。
 
 **全局原五极理想表达式已启动**：[方法](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4，core995a1298/wrapper5f963b47/requesta07fca34；八来源实际2709件，完整原F/W/C/S5、R845准确八生成元外叶与R791真σ。仅按既证U.1作八个所需单位解、全局可分导数、原三minor及真Norm的有限组合DAG；不重旧Dixon/大逆/前缀，不宣称标准Jacobian代表、η零、c0刚性化或高度。具体run见HANDOFF。
+
+**原清转置启动修复**：[实际错误](notes/R787-cleared-dual-first-start-integer-reader-fix.md)run43785814509在原κ4311位整数读取触Python4300位上限；1481输入通过但无新数学stage。仅main加入sys.set_int_max_str_digits(0)，core969201b9、wrapper611e8ad8不改，resume null重新触发；不是RR/原q拒绝。全局consumer首run43787110788则在纯IO断言失败、core尚未运行，按真实来源诊断继续。
