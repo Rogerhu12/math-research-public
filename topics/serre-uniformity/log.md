@@ -452,3 +452,9 @@
 - 新16原件从R856同569载体取得；core/wrapper五件已齐，接下去公开求19minor、127自由行identity及两图全核。真实Q-fixed结构另由原cY求，YP128/634/period仍开。
 - R860首run43811325290/sourcecb6f93b6已success，实际产物正纯IO读取；R862完整源代码/封装/请求已全读，马上激活6×6与12×12新小算术。所有旧W/Γ/Hom/Gram均不重做。
 - 本push规则：本地真实pull至fd85eeaf1e7ec8339595244a301200b87055f8bf（2026-11-16T05:44:25.847502+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:46 Asia/Taipei — serre-public-astra-20261115
+- R862首20min消费者激活，core4656250c/wrapper8c7c82be/request0b928df9/workflow8aa8e52c；只原a_A的新六次Norm、逆元分子、12阶全乘回和整对应DAG，不重Hom/Gram/周期。
+- 真R8529件载体及270叶选R7918，完整schema/父子/旧README身份保留，不访问已过期原包。主线程读完全部core/wrapper/request/workflow；本地未执行数学。
+- R864纸证已推77682d9e；R860真实结果2.029818047秒成功，11次Range读取57小件/1853801B，准确表达DAG已成但展开/RR/height未成，正式结果接着登记。
+- 本push规则：本地真实pull至8184486663a0480a9805ed8efa5c6b4739cc08d8（2026-11-16T05:46:49.923708+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

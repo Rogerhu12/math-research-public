@@ -1,0 +1,190 @@
+{
+  "budget_minutes": 20,
+  "carrier_source": {
+    "accepted_process_exit_codes": [
+      0
+    ],
+    "archive_bytes": 2743138,
+    "archive_sha256": "01ae4657b56387080bc44b9f10b841e0c29499ffce02e2046b1a3794c26cd45d",
+    "artifact_id": 14196442913,
+    "artifact_name": "serre-global-R852-original-one-Z-coefficients-43801628875-1",
+    "certificate": {
+      "bytes": 7615,
+      "file": "p41-original-one-Z-coefficients-certificate.json",
+      "sha256": "e9acbfa243d1fb3e5dca1b053f1e344d680edf5fd6e623ebe05cd74a0232ce40"
+    },
+    "configuration_sha256": "f15d53fdcc6f22ae197a3fcc9110c5729bbae2220beca0f6d8844c4121d68e1a",
+    "core_sha256": "2fc8df00b14e14f275a40250ee48bb4a6d076ace1a4ff4017ff421233e9e42cb",
+    "expected_conclusion": "success",
+    "files": {
+      "R852-one-Z-original-source-inventory.json": {
+        "bytes": 2285,
+        "file": "R852-one-Z-original-source-inventory.json",
+        "sha256": "cfb8d3db04f077cb5fa20cabf7c544298262991a152ee1ee9695e304e388bd07"
+      },
+      "R852-one-Z-retained-inputs-receipt.json": {
+        "bytes": 2556,
+        "file": "R852-one-Z-retained-inputs-receipt.json",
+        "sha256": "b9ac59a972c75aea8c9cb41351ca72f917ed3743fbea6edf2fd1d2da244c6e98"
+      },
+      "R852-one-Z-retained-original-inputs.tar.gz": {
+        "bytes": 2529608,
+        "file": "R852-one-Z-retained-original-inputs.tar.gz",
+        "sha256": "44d40476878e6de8a2121e81b2ab6f68e57d3b4c19857119095f7477e978f8b4"
+      },
+      "core-receipt.json": {
+        "bytes": 6189,
+        "file": "core-receipt.json",
+        "sha256": "473862ad143047290a5f3e989fbc328a8d381f9d856acbe811e1cc5350f1a40a"
+      },
+      "full-outputs-manifest-reference.json": {
+        "bytes": 231,
+        "file": "full-outputs-manifest-reference.json",
+        "sha256": "79506c2eac37d0a40fe8f99fa5ed1fa3beb66b756499fe8ae70a80a5c1da6502"
+      },
+      "full-outputs-manifest.json": {
+        "bytes": 1918,
+        "file": "full-outputs-manifest.json",
+        "sha256": "dde01718b0bbe90f052a166cb8b8072345b3e9a4e156ec2a9be5bbf72447f301"
+      },
+      "p41-original-one-Z-coefficients-certificate.json": {
+        "bytes": 7615,
+        "file": "p41-original-one-Z-coefficients-certificate.json",
+        "sha256": "e9acbfa243d1fb3e5dca1b053f1e344d680edf5fd6e623ebe05cd74a0232ce40"
+      },
+      "public-actions-input.json": {
+        "bytes": 63421,
+        "file": "public-actions-input.json",
+        "sha256": "5b80af283dca0e377a96390a84b47ed4aa161f8f343a1ac44d30a53eab1d220a"
+      },
+      "run-receipt.json": {
+        "bytes": 540,
+        "file": "run-receipt.json",
+        "sha256": "5c85d287f48cec8fca073c565f450b26bb9ad159c65565a02768fd894d9ebf8b"
+      }
+    },
+    "manifest_bytes": 1918,
+    "manifest_file_count": 11,
+    "manifest_sha256": "dde01718b0bbe90f052a166cb8b8072345b3e9a4e156ec2a9be5bbf72447f301",
+    "original_readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "result": "R852-original-one-Z-coefficients-and-constant-DAG",
+    "run_id": "43801628875",
+    "selected_file_count": 9,
+    "selected_files_sha256": "8e9feed42688e75e451faa58be584f685e84fb202b85ccc163ce75c1ce8d11d2",
+    "source_commit": "d0023643ba47099947b6753010d8e7c8120a214c",
+    "wrapper_sha256": "873097d8462f1f20d8cb05adb2e5b3261bbea44a1a58de12a05e9286970dee3c"
+  },
+  "core": "R862_original_Rosati_projector.py",
+  "core_sha256": "4656250c7fcd86c9e6d36a4c94925979b27cc4ab54e0cb1299e6972319598a86",
+  "inputs": {
+    "galois": {
+      "bytes": 15617,
+      "file": "R791-original-Hom-Galois-matrices.json.gz",
+      "sha256": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183"
+    },
+    "polarization": {
+      "bytes": 5573,
+      "file": "R791-original-real-descent-and-eta-basis-inputs.json.gz",
+      "sha256": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+    }
+  },
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proof": {
+    "path": "results/R862-original-Rosati-projector-from-certified-Hom-correspondences.md",
+    "sha256": "afa1e0d08d0a0bd65374fee1996f0d644588840dee35fec7d766cc2f4e5707d0"
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R862-original-Rosati-projector-and-integral-correspondences",
+  "resume": null,
+  "rules_last_read_commit": "77682d9e2408a3a0a6096f4a7a74d112fe6a9fe9",
+  "session": "serre-public-astra-20261115",
+  "source": {
+    "accepted_process_exit_codes": [
+      0
+    ],
+    "archive_bytes": 49237,
+    "archive_sha256": "6fb047d54956de475299467740b77a94e40755403b45f5a29036925243efc882",
+    "artifact_id": 14149997458,
+    "artifact_name": "serre-global-R791-original-Hom-Galois-and-eta-inputs-43686308194-1",
+    "certificate": {
+      "bytes": 2298,
+      "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+      "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+    },
+    "configuration_sha256": "eb3d071456820745d7f87ba639c8955b225714f1f2729053cbd03ebb7edfb174",
+    "core_sha256": "11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d",
+    "expected_conclusion": "success",
+    "files": {
+      "R791-original-Hom-Galois-matrices.json.gz": {
+        "bytes": 15617,
+        "file": "R791-original-Hom-Galois-matrices.json.gz",
+        "sha256": "f3793ddc7680b718a4448d45587661182986a3558db346ad0a2c9031c8952183"
+      },
+      "R791-original-real-descent-and-eta-basis-inputs.json.gz": {
+        "bytes": 5573,
+        "file": "R791-original-real-descent-and-eta-basis-inputs.json.gz",
+        "sha256": "24a894163f136a4e8c71b117e373f8fafb66a6e0c94b4efe3f141f78bb39b968"
+      },
+      "core-receipt.json": {
+        "bytes": 651,
+        "file": "core-receipt.json",
+        "sha256": "7250031176cf62eabbcf3227fda6d5f246cd1ecfb333a2722f007008a81d57d7"
+      },
+      "full-outputs-manifest.json": {
+        "bytes": 1814,
+        "file": "full-outputs-manifest.json",
+        "sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc"
+      },
+      "p41-original-Hom-Galois-and-eta-input-certificate.json": {
+        "bytes": 2298,
+        "file": "p41-original-Hom-Galois-and-eta-input-certificate.json",
+        "sha256": "94429377ebd63ff8bdcb9fd1d9468fc2e28e981db2b10b8c494d15c05e073d46"
+      },
+      "public-actions-input.json": {
+        "bytes": 3829,
+        "file": "public-actions-input.json",
+        "sha256": "cb32359976e9c2509431c91f24d967e91745892d20b6aab1d4a355238c7d3701"
+      },
+      "retained-inputs-receipt.json": {
+        "bytes": 2942,
+        "file": "retained-inputs-receipt.json",
+        "sha256": "c3042fd67a3b0d346eb171e06e5a9743121d61c2c0664d9f18a4bee34cce7123"
+      },
+      "run-receipt.json": {
+        "bytes": 304,
+        "file": "run-receipt.json",
+        "sha256": "12baf0939ac19584a0117efc2677e44165a14c027c9e3eb4331f099d8d664909"
+      }
+    },
+    "manifest_bytes": 1814,
+    "manifest_file_count": 9,
+    "manifest_sha256": "4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc",
+    "original_readme_sha256": {
+      "root": "c6db597c32b022d46d861463e32ad7160545e088610916339bd47e1acae74970",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "result": "R791-original-Hom-Galois-and-eta-inputs",
+    "run_id": "43686308194",
+    "selected_file_count": 8,
+    "selected_files_sha256": "f77e57af0f515b7131036d6d66673d8b83a4ff07108a96d59155efcf8d1e4646",
+    "source_commit": "f945ef5d5aee4d8222dc791e39a0709b661cebbc",
+    "wrapper_sha256": "15568f21c367938830700b6178222a54b5ba0977e5de876d982db3b6cb5effe7"
+  },
+  "source_IO": "R858_public_original_p41_single_Z.py",
+  "source_IO_sha256": "fb77d8fb452a5efbc2cc8e9b7af8a090813ebd9c9e8fb416ee62ea09be88c8ab",
+  "transport_dependencies": {
+    "R824_public_original_global_polar_generators.py": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "R850_public_original_rigidified_fibres.py": "ff318ca06e5bf2a385c866df2abb0ea102d6606eb2af2a818a0493f075b123cf",
+    "R852_public_original_one_Z_coefficients.py": "873097d8462f1f20d8cb05adb2e5b3261bbea44a1a58de12a05e9286970dee3c"
+  },
+  "workflow": ".github/workflows/serre-R862-original-Rosati-projector.yml",
+  "wrapper": "R862_public_original_Rosati_projector.py",
+  "wrapper_sha256": "8c7c82be5e208dd5c7e82e3f07b8d3d4d1936504dbc249409a866bea38b2b7b9"
+}
