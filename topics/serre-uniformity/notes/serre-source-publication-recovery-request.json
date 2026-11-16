@@ -2,39 +2,46 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R921-original-first-Drinfeld-normal",
-  "commit_message": "serre: prove original first Drinfeld normal differential and deep-disc bound",
-  "rules_last_read_commit": "8dbd975a2040a9426e6858745c99c86c484d3221",
+  "request_id": "20261116-R815-Gamma586-same-core-continuation",
+  "commit_message": "serre: continue original Gamma from the actual 586-prime checkpoint",
+  "rules_last_read_commit": "7a16d9a034b2b5c9caf0912bb0f9baa0d7412091",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "803693d2719704f0b098ef904edc38a41a090ce644b90c923701c7098fbc61b6",
+  "expected_previous_request_sha256": "35f8cd1e29a295bd16f91e9d3734132c6b7138c3fd3bca7a6d2b22af35370420",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md",
-      "sha256": "63d62b3d5e3c55f8f09b778a7b57b0ce45a10a05600e1345e5fa5e63fcaaadfd",
+      "path": "topics/serre-uniformity/notes/2026-11-16-R815-Gamma-586-same-core-continuation.md",
+      "sha256": "a01a6b765fa2340a8039a9a048aff4716609e9421200c556b8101f1a67b3a946",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-first-Drinfeld-normal.md",
-      "sha256": "e30421f66cfa07d1fb2b1eeca4d59bee9efce7a4cff4f730bdcf796debcc817d",
+      "path": "topics/serre-uniformity/notes/R815-public-original-normal-derivation-operators-request.json",
+      "sha256": "a469e68524102674a63823920d0e6dccffe7dd9b333aa2577f9550301b8395d8",
+      "expected_previous_sha256": "90221570e10c7b25f02848442a7a5511affcdf5a49974fd27f4e2141698e01f3"
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-Gamma586-continuation.md",
+      "sha256": "dc271395d0ee78098d845807b272711fb939db59e5f65a4d66b264f08bad6be9",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "cd191ffc409507ae3d9d1055421f961485484f82baff0708d0c54a0bf578f073",
-      "expected_previous_sha256": "e30421f66cfa07d1fb2b1eeca4d59bee9efce7a4cff4f730bdcf796debcc817d"
-    },
-    {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "adc007d30fce0b6a7ab622154599aef43ecb1ba32868527ed106f51b3d3c5efc",
-      "expected_previous_sha256": "fc455b60a3325c45830e993728907aac90e0e4281bcdd2642676555de8fea3d6"
+      "sha256": "b0eb2194f46dcd95cea91f596ee6222e0496ce665f5625c3e920b2ca639488d9",
+      "expected_previous_sha256": "dc271395d0ee78098d845807b272711fb939db59e5f65a4d66b264f08bad6be9"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "4767b06229e769f1fed9a0f89b6daee7b544db609c482763066c49df40e46b36",
-      "expected_previous_sha256": "45dd6c4dece63e9241ce50773b20721555e179b94cf2ae8139ecd8766e57d47a"
+      "sha256": "e02daa86deae499b448edf83bbf237184c7b956fd781e4bac22138385456b235",
+      "expected_previous_sha256": "49f998042eab5b8a2e917b1ca78e17d60d14525aa5e7c1bea9e15955df6855bc"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-p41-original-normal-derivation-operators.yml",
+      "request_path": "topics/serre-uniformity/notes/R815-public-original-normal-derivation-operators-request.json",
+      "request_sha256": "a469e68524102674a63823920d0e6dccffe7dd9b333aa2577f9550301b8395d8"
     }
   ]
 }

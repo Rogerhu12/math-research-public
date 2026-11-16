@@ -450,3 +450,8 @@
 - R921完整纸证：原整Hodge/Igusa联合商与真实节点d6/12迫首微分层k_++p−1；原q另保ea_h，α_h非零而β_h未知，c1用真实分支参数y。
 - 两种primitive单位次数均<p，原vp(a−1)≥4盘得到明确Strassmann根数界；未推首map层/候选Abel零像或height。R815真实Γ586/17520bit保存，v24纯IO真pull0f5d0bce/16:16:19UTC两README无diff已读。
 - 本push规则：公开Actions真实pull至7a16d9a034b2b5c9caf0912bb0f9baa0d7412091（2026-11-16T16:26:50.098805+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:29 Asia/Taipei — serre-public-astra-20261115
+- R815真实BudgetStop/current586/17520bit已读；原4.85GB artifact14246345143/7076manifest直接同核续，已成g696/272/17块不重，原53输入全保。
+- 仅更新job.resume，core80516ff9/wrapperab725da0/framework849bca27冻结；v24的1297小原成员与manifest/reference纯IO核SHA，metadata不冒580MB current。H逐字归档并压缩，Γ/height仍OPEN。
+- 本push规则：公开Actions真实pull至46dff6066560f2153b998085403aa2b24b7bab3c（2026-11-16T16:29:41.745395+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
