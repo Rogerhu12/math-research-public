@@ -585,3 +585,5 @@
 - 2026-11-16 01:31:56 UTC / Astra-rank2-Sha-continue：R846全原g4排除成稿即推；root全核、theta独核reciprocal/κ、deep独核完整Hom/new来源均通过，无额外计算门。H全文归档并把g4关闭为原来源，保R843–845条件定理；继续原S/W作用、更高亏格以及指定[b0]真实限制，主目标仍开。
 
 - 2026-11-16 01:43:40 UTC / Astra-rank2-Sha-continue：R847原S3及g≥7成稿即推；亲核optimal quotient常值、源commutator/cube、全部分支表和轨道，保原同一F/a与全部次数。H全文归档；root续原q1/完整degree18 Hecke商，literature续全CM pool，边界续真正W_T限制，主目标仍开。
+
+- 2026-11-16 01:44:10 UTC / Astra-rank2-Sha-continue：在01:50前触发下一次实际git pull --rebase及两README差异/规则15盘点；公开只读CI与本地失效进程入口严格分开，API head不冒充pull。研究继续已核负水平fiber trace、正水平全算子和R848原模曲线商。
