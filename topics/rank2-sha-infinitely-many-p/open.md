@@ -78,7 +78,7 @@ R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 sourc
 
 R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。五个实际任务尚无RR PASS：
 
-- 306 run43850251992/job133240631228 与 eta48 run43850252040/job133240628667，source acf294c6e07c20618f2acc9dfab863c34e8c8cb9。
+- 306 run43850251992/job133240631228 与 eta48 run43850252040/job133240628667，source acf294c6e07c20618f2acc9dfab863c34e8c8cb9，均于16:35 UTC取消；前者停在次数306可分性gcd，后者已选原次数48因子但停在原U的函数域gcd，均未到正规化/RR。详见[完整实际卡点及中间hash](notes/2026-11-16-original-rr-stopped-before-normalization.md)。
 - fricke24 run43860032290/job133274126644，source be4e0074e90508b3f7bd6e2ce3ee083165049288。
 - tate24 run43865460680/job133292732291，source a82ba1e06935fbb0f199d4dc846bae876a13afc0。
 - tate19 run43866568746/job133296518979，source59c56c693debc1d98b2a99495211ddb5277a40d8。

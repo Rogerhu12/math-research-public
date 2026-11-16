@@ -3,11 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：5e34e6cc29ee15fc74e8a018d335f2acd09b0aa1；2026-11-16 16:36:06 UTC通过API核两README blob无变。末次实际终端pull 2026-11-16 16:30:01 UTC/84a31a9bdcaa14f6fca2007966d0d7a9aa0486fb；环境于16:31断开，最近实际pull重试2026-11-16 16:31:58 UTC无可用环境。最迟2026-11-16 16:50 UTC再实际pull；当前只用小文本API非强推。
+- 最近已读规则提交：a3d10cc8a9f665895f35032a422f19e0c414a82d；2026-11-16 16:45:29 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存33,806,663B/2504文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。/workspace满；16:31执行环境断开，actual pull重试无环境；依根8只以小文本API非强推；已请求16:36只读CI实际pull。数学仍仅公开CI。
+- 库存34275086B/2540文件，无超限，3旧真实输入块；规则15来源见旧档。16:31本地失联；16:36:18只读CI实际pull成功（run43909317247/job133446561662），两README差异空；数学仍仅公开CI。
 
 ## 完整检查点与分工
 
@@ -19,8 +19,7 @@ root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低�
 原Z的R804/806/811/814全部角色/Euler/period/端点/R831定向不变。7993只检测canonical。R858三垂直χ零/generic单射、R859整shadow与5/11无挠H1已付；固定ell原AJ非零等价某惯性shadow非零/阶无界，不能跨到无穷系数p或ordinary loc。
 
 原F已由R909完整char0认证；原P尚无PASS。原u/λ/vnew/整数返回17、完整方程/末端不变；全部源码提交沿上方完整H（各run也保source）：
-- P run43835679463/job133191600105已于14:59取消；[R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)付k4满列秩排除/条件函数次数≥324。k6只53素数/1585位/rank904，无PASS；基298秒已成。
-- F run43839815472/job133205402538于15:27取消；R904付k2矩阵1021×852满列秩/权8/2比值排除，条件权6极除子≥180/dF≥1080（附A用k4原秩）。k4仅84素数/2512bits/rank1116，无PASS；原全证书保。
+- 旧P/F取消日志保完整H及R898/R904：P排权4比值/条件函数次数≥324；F排权8/2比值，附A付权6极除子≥180/dF≥1080。旧多素数均无PASS。
 - R889同原Newton已证，run43883945027的P/F仍运行；R892同完整PARI基已证，run43888054599的P/F仍运行。各job/source见最新完整H，无PASS。
 
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；同ℓ1000000033/N256/k6续轮run43901392214/job133418654415运行，source7ef59c0d。
@@ -32,7 +31,7 @@ root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低�
 - [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)已PASS：run43906594646/job133436977753/source135b50ff，ℓ1000003/N512；完整1429行、QQ及0..6120原恒等式全部过，实际F17/原微分/基点成立，dF≥1080。完整result hash5193c929…4831f；消费者用自身PARI基，未存系数。
 
 R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保，下列五RR未获PASS：
-- 306 run43850251992/job133240631228；eta48 run43850252040/job133240628667；共同来源见完整H。
+- 306 run43850251992/job133240631228及eta48 run43850252040/job133240628667于16:35取消；分别卡可分性gcd/U恢复，未到正规化/RR。完整来源/hash见[实际卡点](notes/2026-11-16-original-rr-stopped-before-normalization.md)。
 - fricke24 run43860032290/job133274126644。
 - tate24 run43865460680/job133292732291。
 - tate19 run43866568746/job133296518979。
