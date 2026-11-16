@@ -15,12 +15,12 @@ from __future__ import annotations
 
 import copy
 from fractions import Fraction
+from types import SimpleNamespace
 import time
 
 import numpy as np
 
 from frame_entry_body_subspace import array_digest
-from frame_entry_tail_height_blocks import EntryTailHeight159Subspace
 from frame_height_null_coordinates import digest
 from frame_collar_bvp import mul
 from frame_complete_affine_metric_oracle import direction_frame_jets
@@ -541,9 +541,16 @@ class AugmentedFirstJets(_PaidImplementation):
         # rows in active_J.  Exterior metric pool rows are instead classified
         # as outside-soft-aggregated; their physical derivative is identically
         # zero by support, not by a small or missing numerical J.
-        # Reuse the actual exact-support subspace and original grid.classify.
-        subspace = EntryTailHeight159Subspace(
-            self.field.coordinates.layout, self.field.coordinates)
+        # RationalRowGrid.classify reads only .left and .right.  The original
+        # EntryTailHeight159Subspace requires these same exact basis endpoints;
+        # coordinates.layout is a different schema, not its published descriptor.
+        # Reuse the already-bound basis metadata, without rebuilding a subspace.
+        subspace = SimpleNamespace(
+            left=self.field.coordinates.basis.left_exact,
+            right=self.field.coordinates.basis.right_exact)
+        require(subspace.left == Fraction(9,250)
+                and subspace.right == Fraction(423,500),
+                "the original exact common tangent/height support changed")
         required_from_pools = set()
         variable_pool_order = []
         invariant_pool_rows = {}
@@ -579,7 +586,7 @@ class AugmentedFirstJets(_PaidImplementation):
             "additional_MODEL_order_sha256":digest(extra_keys),
             "new_paid_attainer_order":copy.deepcopy(four_keys),
             "original_pool_metric_classification":{
-                "classifier":"RationalRowGrid.classify with EntryTailHeight159Subspace",
+                "classifier":"RationalRowGrid.classify with original exact support metadata",
                 "variable_open_interval_exact":[str(subspace.left),str(subspace.right)],
                 "variable_metric_rows":len(variable_pool_order),
                 "variable_metric_order_matches_paid_selected_table":True,
