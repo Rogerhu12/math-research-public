@@ -206,3 +206,6 @@
 
 
 [R842 实际边界与水平厚化条件](2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：指定[b0]准确写为−BF(qt^rG_V)+同G_V的P补偿；完整D_R与Ξ_R代表差、两个水平全jet、十九角真实Ft/Ftt及无穷uF+4V/减1均付。一般q=Yqtilde时Y0横截边界为c_s t^rW Ft/FY·qtilde·V0，旧FH因子倍的消去不能外推；Y∞保N*+m与N*两段。全conductor/ramification及同ω补零保，横截厚化为Y0:w1∈(e),w0∈(e²)，Y∞:w1∈(e),w0+3bw1∈(e²)。未由局部单位判全行非零，指定耦合与真三长限制仍开。
+
+
+- [R844](../results/R844-original-genus-four-cm-order-seventeen-and-two-neighbors.md)：原最低g4项的全Hom在Hη=H34定义；τ对F/整个g-packet的−1/ω使实际D/r/s/映射下降K3=K(∛17)，保cubic twist d。真实Prym End无quadratic特征迫√B∈K3，两j0 twist比的17惯性阶6给v17(j±)=|n|/6非整数；CM主定理及域degree≤6唯一迫两个整数order17、K(μ)=H17=K(17^1/6)、A²−4B∈17K3×²。三个实际二邻点才是order34/j域H34，原三同源为唯一horizontal3。全原系数/次数保；未认原q/q4对应、canonical或非零g4存在。

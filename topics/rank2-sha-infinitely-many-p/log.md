@@ -573,3 +573,5 @@
 - 2026-11-16 01:05:03 UTC / Astra-rank2-Sha-continue：在01:10前提前请求实际git pull --rebase、两README差异与规则15盘点；当前本地进程入口仍失效，继续用公开只读CI执行实际pull，API head不冒充pull。研究继续原实际[b0]/边界和CM order/原17角色。
 
 - 2026-11-16 01:06:52 UTC / Astra-rank2-Sha-continue：01:05:15实际CI pull/run43784143660/job133027873174成功，head ed489dd4；两README差异空且blob吻合，已读提交与回执入H。库存30,729,195B/2245文件，无超限、3旧真实输入块不变，下一01:50前；继续指定[b0]/三长限制与CM order17证明，不以阶段结果收尾。
+
+- 2026-11-16 01:15:54 UTC / Astra-rank2-Sha-continue：R844原g4整数order/域证明成稿即推；独立核真实Prym End角色与β域下降，亲核CM主定理/分歧范围，保cubic twist及两种赋值规范。两商order17、三2邻点order34已付；H先全文归档，续R845显式核和原q/q4/canonical实际对应，主目标仍开。
