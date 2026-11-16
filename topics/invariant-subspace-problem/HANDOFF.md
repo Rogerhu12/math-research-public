@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-whole-W31-equals-M-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-complete-low-flag-schur-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -20,7 +20,7 @@
 - 沿原17梯度/6188来源/4367输出与degree23的h*；全Q相对25/来源费8391及rank-one Bell8只按原范围用，完整原来源和范围见归档。
 - [D31九原目标ann/精确分母](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)与[共同B长24/dR8](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)均闭；$\operatorname{Ann}B=(p^5,p^2(s-2),(s-2)^2)$，$\operatorname{Ann}M=h_*\operatorname{Ann}B$。完整D型/真实呈示/逐原来源及费用≤8515均保正文和归档。
 
-- **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** [整自由像](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)为 $(R/s)^2\oplus R/h$，原t2可选末项；[全部扭子](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)的D型 $(1,2^7,4,5,5,6)$、长35。全M的D型 $D^{25}\oplus S$、dD37/dR8，R型 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$；真27×53呈示保K/X/c，末扩张类恰31阶非裂。$S/B=(1^5,2^3)$。原双根/全源/失败/只读修复及根独立HNF/SNF全身份见正文/归档；此M分类已闭。
+- **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** 自由像 $(R/s)^2\oplus R/h$ 饱和25，原t2可取末项；S型 $(1,2^7,4,5,5,6)$ 长35。M的D型 $D^{25}\oplus S$、dD37/dR8，R型 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$；真27×53呈示及恰31阶非裂扩张全付，$S/B=(1^5,2^3)$。双根/全源/失败修复/根独立HNF-SNF见正文和归档。
 
 - **[全W在127处完整整结构已闭](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)：** 原6188×155投影在63点rank142、真142子式det97、80444核乘回全0。完整U127=M127⊕R127/(127,s+64)，D型D127^25⊕D127/127、dD26/dR3；AnnU=h*(127,s+64)，h*qW入像恰q(63)=0 mod127，系数指数恰1。原0.884秒/根另0.510秒从primitive以二次型重建全部6188行及FLINT秩独核，无新展开来源费。全W31的新范围接下项。
 
@@ -30,7 +30,7 @@
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[九行稳定闭包定理](results/R150-appendix-original-nine-generator-parameter-module-and-certified-stable-closure.md)、[十行116原种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[50原列同模压缩](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)均闭：** B9/L原商同构和逐Ni原18递推已付，无固定轮界。实place(127,100)保十二参数，5Ni/Si/116源全乘回；权6/8完整3188×86、17674×1132秩56/1106，保20/14交换子＋6mean＋10Bell，原1160坐标/原18来源全真。实47.609秒；root纯字典51,834,662单项式产品独核全部1160及116payload/3phase双SHA。尚未得稳定闭包/e0/E源；接50列实际候选。v1失败、完整模型和范围见正文/归档。
+- **[十行116原种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[50原列同模压缩](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭：** 十二参数/5Ni/Si/全部116原18源保真；权6/8全矩阵秩56/1106，保6mean+20+14comm+10Bell。原1160坐标/删除源与root纯字典51,834,662产品独核。实47.609秒；最小Ni稳定闭包同构已证但尚未求得e0/E源，接50列实际module候选。
 
 
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
@@ -48,5 +48,5 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 
 - **[全部高度一次真MP已闭](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保完整层 $12\,512^j(x+j+1)^{3/2}$ 右逆，取 $c_*=2\cdot512^2,s\in[c_*S,2c_*S]$；同源阻尼逐层付 $\|D^\dagger(C+D)f_s\|^2\le(1+47616c_*)\epsilon_s$，无中段截断/top。全高度同W预算使该一次修正及 $z_1-P_xw$、残余 $-Cq_1$ 平方可和。仅f_s保原同PV/PK，z1保准确收缩误差；后续CD†循环、最终真空约束/完整修复仍开。根全文及旧全层常数已核。
 
-- **[跨头真核/完整首行](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)与[完整二孔截尾/第三旗增益](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)已闭：** 原carry≤18κ/fresh6d池修复≤e^(−9d4)适用于任有限物理真核。全K2截尾平方误差≤ε_f+2S_y/S_x，不含头逆范数；τ14使Σ(q2,m−q0,m)<∞，支付P_U3 C*r的完整Schur总能。任same-w首行<16||w||²，actual W另有预算。qflat高旗补/完整返回仍开，全部cut及原源保留。
+- **[整个低旗标返回源与完整Schur总能已闭](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)：** 原首头返回源 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，以完整canonical Fock保全部birth/零源及同F，F2最小lift和混合块精确；$\ell=2d-2$ 的真Schur满足 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。有限池 $y=(m+1)^4dx$ 的误差²≤ε_f+ℓt，原carry/fresh6d正交修复给 $q_{0,m+1}\ge q_{\ell,m}-E_m$、$E_m\le3/d^2$，故整个返回源Schur总能<2。boson版<4且 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；不能删正则项或跳过外部高旗Schur。原same-w/全部h段/真Q母窗保留；$q_\flat=(C^{*2})^\dagger\mathfrak h$ 未随源低旗而自动低旗，完整γflat与N=M仍开。根全文/全Fock父证/所有cut及新d因子独审，无新数值。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。

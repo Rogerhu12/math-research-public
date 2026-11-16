@@ -2,7 +2,7 @@
 
 **全W31生成与ann已完全闭合。** [原四轮系数饱和和完整证明](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)给长度22,22,19,18,17，真实Tp长13=H2，故全U31=M31。原AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*W/h0W最小31指数5/2；D型、八R生成及非裂扩张均继承已付M。原57.531秒/独立42.987秒、完整colon/源/Toeplitz和root十payload全核；此前至多8长差已严格为0，不再列作待算。仍未展开全4212来源或取得新的统一参数费，普通ISP/Bell全理想及其余open继续。
 
-**完整二孔第三旗的跨头费用已付。** [有限池与同一首头完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)在相同F3上保全部primitive/零源，真实K2截尾误差²≤ε_f+2t，无强头逆损失；一般有限核的原carry/fresh6d修复保全部支撑。τ14切点使Σ(q2−q0)<∞，因此第三旗真实Schur能量可和。此仅支付qflat在K∩RanC²的通道，高旗补、完整受限逆及返回费继续；不据此宣N=M。
+**完整低旗标上的整个返回源 Schur 能量已付。** [同一原首头、全零源及跨头完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)给 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，取ℓ=2d−2后，准确增益为 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。完整canonical Fock保全部birth/物理最小源，F2及混合块仍精确；有限池 $y=(m+1)^4dx$ 支付ε_f+ℓt，fresh6d正交修复使Σ(qℓ−q0)<2，从而支付整个返回源而非仅第三旗分量。bosonic Schur总能<4，但 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；去正则项、外部高旗Schur及原 $\sigma_2^2\|(C^{*2})^\dagger\mathfrak h\|^2$ 完整费仍须另证。源在低旗不保证MP逆像在低旗；不据此宣N=M。原τ14、全h/matched/cut不变。
 
 **原十行116种子已严格压到50原列。** [全原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[完整同B子模证明](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)保十二y/w参数、全部原18来源。权6/8全矩阵秩56/1106，50原列=6mean+20权6comm+14权8comm+10Bell；全部1160坐标/删除列原18乘回，root纯字典另核51,834,662产品。稳定闭包及单位仍开；下一十二参数module候选找e0，阳性需实际lift50系数和全原18乘回，再回E；预算终止/无候选不判非单位。
 
