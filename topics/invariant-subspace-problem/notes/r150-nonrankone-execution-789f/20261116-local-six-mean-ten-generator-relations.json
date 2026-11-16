@@ -1,0 +1,113 @@
+{
+  "format": "r150-local-execution-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-six-mean-relations-in-ten-generators-789f.py",
+    "blob": "2f5614fad567b3268459d0067088cca66cdfc0d1",
+    "bytes": 13864,
+    "sha256": "bc73895e4c08f77461c0ae1be3495ee82f8866275492662a5c4382baa773b7fd"
+  },
+  "parameters": {
+    "argv": [
+      "--low-out",
+      "{work}/original-twelve-gradient-low-normal-forms",
+      "--leading-out",
+      "{work}/original-eleven-quadratic-leading-image",
+      "--nf-generator",
+      "{scripts}/2026-11-16-r150-original-complete-twelve-gradient-low-normal-forms-v2-789f.py",
+      "--out",
+      "{work}/original-six-mean-ten-generator",
+      "--seconds",
+      "600",
+      "--memory-mib",
+      "4096"
+    ],
+    "seconds": 600,
+    "memoryMiB": 4096,
+    "pythonFlint": "0.9.0"
+  },
+  "completedUtc": "2026-11-16T05:38:32.051701+00:00",
+  "execution": {
+    "startChunk": "ef574f",
+    "sessionId": 5978,
+    "completionChunk": "b9f1a3",
+    "exitCode": 0,
+    "elapsedSeconds": 150.14140405000217,
+    "maxResidentKiB": 346208,
+    "binding": "2c120983a234d63f52e19d0f81a8f486b3d5dad5ca010f1ad74ebe9c7045e7f0"
+  },
+  "outputs": {
+    "receipt": {
+      "path": "original-six-mean-ten-generator-receipt.json",
+      "bytes": 4239,
+      "sha256": "f9dfaf8761b70a756515898b796dbdcad78267ad0d5a487712af35d301ec5d34"
+    },
+    "model": {
+      "bytes": 1395,
+      "logicalBytes": 2812,
+      "logicalSha256": "9961cbd32e7dc693bdfb1ab5819ca419372d6e297ca5af23149ae480d6dac4a1",
+      "path": "complete-original-six-mean-ten-generator-model.json.gz",
+      "sha256": "bd300391aff8f1f95860cbf614feb6a53f8a16c2d855b5fdf1df178d7337f061"
+    },
+    "constantUnit": {
+      "bytes": 1206504,
+      "logicalBytes": 2430510,
+      "logicalSha256": "c2ac4ae0302eaa939ab65df0c4eba4b7eb4f6a80200657686b45f54e0f1a5cb9",
+      "path": "complete-original-six-mixed-quadratic-inverse.json.gz",
+      "sha256": "f8f00584cfcf62326384131b49a0e7b863a1ce47dae931948537e3854ea55b6b"
+    },
+    "quadraticTensor": {
+      "bytes": 2208219,
+      "logicalBytes": 4478284,
+      "logicalSha256": "7c37ad0846331a5ad9bf96d7c0086e2c65d65fe8831081dc34c778365592197d",
+      "path": "complete-original-four-mean-quadratic-matrices.json.gz",
+      "sha256": "1928d85c9cb6a40cbbf038e39d65bd0b72dffe900d0da6c600070966444acc12"
+    },
+    "completeSixRows": [
+      {
+        "bytes": 22003681,
+        "logicalBytes": 45436469,
+        "logicalSha256": "ce61e68bda74a1229258561bba64549ff317140a93640ae150f0e03b92abf986",
+        "path": "complete-original-ten-coordinate-mean-01.json.gz",
+        "sha256": "97800b44cf0fb7cf3555a0b075f75c199e6b82354f6c3f0b6cab7941acfa9154"
+      },
+      {
+        "bytes": 21966301,
+        "logicalBytes": 45437649,
+        "logicalSha256": "7d116e60e6096576310d25630c462edbf8776c8c06b2c3b8432b8206641c4686",
+        "path": "complete-original-ten-coordinate-mean-02.json.gz",
+        "sha256": "c9670a1ac4fd14ac9a2d97db2f67b146fc05d5e51c5264b2a9c04edc62e34af6"
+      },
+      {
+        "bytes": 22050262,
+        "logicalBytes": 45441036,
+        "logicalSha256": "366171531f8ae404c47484e1ae4c07b7761bfec863707af633ff63d7cf6e1996",
+        "path": "complete-original-ten-coordinate-mean-03.json.gz",
+        "sha256": "1b61c906980c02ad85a19b61dda63d499aa7341185c5edb5e8f39f8541d1dade"
+      },
+      {
+        "bytes": 21869718,
+        "logicalBytes": 45437321,
+        "logicalSha256": "786208783672ea7393707a5b551ffb1f7fac7db3357f0de4fd961b88f7bd9be0",
+        "path": "complete-original-ten-coordinate-mean-04.json.gz",
+        "sha256": "b87186de2b8e52faf9e4070511ea9a92394413e48219307cbca36d9afa439103"
+      },
+      {
+        "bytes": 22057831,
+        "logicalBytes": 45442707,
+        "logicalSha256": "43affb8ba73dcc54ae39c8c96148638c35194f6604a0abbacf152c42671ad94d",
+        "path": "complete-original-ten-coordinate-mean-05.json.gz",
+        "sha256": "5c9c5b67745b854c073ec1f1269d5090c9de719bb760df930b8624cd2fe83fc0"
+      },
+      {
+        "bytes": 22118796,
+        "logicalBytes": 45439106,
+        "logicalSha256": "1e6e3fa575ccaafa4b74bbf9fdfb39114f91ed7d8202658aa391aba9fa3e6fe2",
+        "path": "complete-original-ten-coordinate-mean-06.json.gz",
+        "sha256": "f95b2914b55a7f8ea86d9e2749d0f2928376dca711a36b01976785aeb45cfd84"
+      }
+    ]
+  },
+  "persistence": "No computed coefficient arrays or raw receipt are committed."
+}

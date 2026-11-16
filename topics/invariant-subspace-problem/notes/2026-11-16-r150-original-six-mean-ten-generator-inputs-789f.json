@@ -1,0 +1,51 @@
+{
+  "format": "r150-original-six-mean-ten-generator-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-six-mean-relations-in-ten-generators-789f.py",
+    "blob": "2f5614fad567b3268459d0067088cca66cdfc0d1",
+    "bytes": 13864,
+    "sha256": "bc73895e4c08f77461c0ae1be3495ee82f8866275492662a5c4382baa773b7fd"
+  },
+  "arithmeticHelper": {
+    "path": "notes/2026-11-16-r150-original-complete-twelve-gradient-low-normal-forms-v2-789f.py",
+    "blob": "eadc4a38cf435ab600fbc1082a4ee9e542cc2294",
+    "bytes": 19286,
+    "sha256": "23f99635b7abe21ff9bd621175fd2d9d82ffd6146690cac7c7b893f443382117"
+  },
+  "parents": [
+    {
+      "name": "completeNF",
+      "file": "complete-original-twelve-gradient-low-normal-forms.json.gz",
+      "bytes": 1921,
+      "sha256": "ca4c3d98675ab404cb2b8e05c8ddacd32c02d936f751cf05fe572eb57d510e48",
+      "logicalSha256": "d58cf0f99c7d2fee7087ca76297d30e70dd4b8ba830ab7b42709b7ab8c6ccc52",
+      "binding": "8fb21996da88d9abaa7d8a0c96208129603808d7c5c1e03b9acf6caa1dca6545",
+      "requires": "all twelve complete rows selected by this exact index"
+    },
+    {
+      "name": "completeLeading",
+      "file": "complete-original-eleven-quadratic-leading-model.json.gz",
+      "bytes": 1653920,
+      "sha256": "005484500176a294a3a14788843f1ad50031f2e2bce3e599c512e45ac5dacbb6",
+      "logicalSha256": "da5839f34930081d56df84d9d803daf2b226ac98de8364135463f6f94b6db1d2",
+      "binding": "41ee91c353da2b8a33bbb631d46bc48e11709dcf42e131ebf4d417c7a3e98b63"
+    }
+  ],
+  "argv": [
+    "--low-out",
+    "{work}/original-twelve-gradient-low-normal-forms",
+    "--leading-out",
+    "{work}/original-eleven-quadratic-leading-image",
+    "--nf-generator",
+    "{scripts}/2026-11-16-r150-original-complete-twelve-gradient-low-normal-forms-v2-789f.py",
+    "--out",
+    "{work}/original-six-mean-ten-generator",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "persistence": "Only sources, parameters and execution identity/output hashes are committed."
+}

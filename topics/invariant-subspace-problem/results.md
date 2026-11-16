@@ -116,3 +116,5 @@
 - **R150全参数原十二梯度完整低正规形（2026-11-16）：** [完整原source证明](results/R150-appendix-complete-original-twelve-gradient-low-normal-forms-over-all-parameters.md)在已付squarefree32基中构全12×16参数矩阵及12×5校正，准确G−NF=λF全12原多项式恒等；真原5×5平方系数双逆50项、225原top、25 Hessian、5独立trace、289完整Jacobian全真。146.204秒/exit0/raw6274·afc272f8，全部15输出压缩/逻辑SHA根独立核。只除固定E常数，原17梯度两次多项式可逆运输；剩关系仍须乘法闭包/归一理想，v1序列化137保失败。
 
 - **R150完整原11H梯度商全参数十生成（2026-11-16）：** [原全部二次/三次来源证明](results/R150-appendix-original-eleven-moment-ideal-has-ten-parameter-module-generators.md)实核六W的6×10常数二次块rank6和全部11×5来源到35三次的满行秩，合法127/d100两原unit det1/32；根独立按原E系数重建55列和det。1、五u、u1u4/u2u3/u2u4/u3u4生成全E[y,w]商及任意basechange，原source u-degree≤max(D−2,0)。2.453秒/raw2014·c4603bc4；固定top Hilbert(1,5,4)，变形只10生成，参数关系和六y梯度继续。
+
+- **R150六均值梯度完整6×10与全Bell基九生成（2026-11-16）：** [完整原source证明](results/R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md)以原六mixed常数unit的exactE逆降次，96全坐标/30合成source/72逆坐标实真；Gy−Ghat=νF+μGw保ν=λy−μλw。四Ti逐E对称且各可逆，左乘wᵀT1⁻¹给未归一Bell·u1u4恒等，故整个B=1基上全critical商由其余九项生成。150.141秒/raw4239·f9dfaf87，根独核9完整输出/四det；不称free/非零，未假四Ti y全独立。
