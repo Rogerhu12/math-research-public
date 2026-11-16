@@ -57,3 +57,5 @@
 - [R915](../results/R915-original-connection-integral-window-and-second-digit-kernel.md)原ζ在严格2p²窗的全部p分母经Lucas/同LT微分相消，实际a_j整(1≤j≤2p−3)。全i中央核ε_m,i∈1+p²O，准确模p³修正binom(i+2,2)a1/(mc²)，同a1=2[z^(2d)]log(σ/z)；原全尾/regular补项/四来源及R708真O(p²)窗保，未推中央零到边界零。
 
 - [R913](../results/R913-original-wild-inert-specialization-and-augmentation-stability.md)同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每p且不随n/q/b。原diamond表/完整det/half-norm/sf/整CM-Shapiro全保，不作p角色平均；先回原局部T/(q+1)才取零。全部Möbius新项同杀，若实际同格可除T则局部零保持；不推s0/global/ordinary，未付c_p=0或跨p统一尺度。
+
+- [R920](../results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，固定P首修正差仍K1、不能自动换K′。
