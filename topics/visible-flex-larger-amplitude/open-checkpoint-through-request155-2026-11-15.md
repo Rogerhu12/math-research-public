@@ -4,7 +4,7 @@
 
 [133 R308](results/R308-actual133-persistent128-shooting-tolerance-and-identical-fresh-replay.md)/[140 R321](results/R321-actual140-complete128-descent-and-final-component-compile-stop.md)已付原全128 shooting容差与独立逐word replay；140 stage/audit编译return1，112/338缺前置，非预算/数学拒。原stderr已清，共用e609 shim明确临时::quoted修复。[152](notes/2026-11-15-request152-qualified-JSON-complete-final128-interface.md)0bee3ef1/run43722101766重做全576×224/112/338/独立audit，55pins/19200s/原退出门保，完整stage/column/错误先读后清。
 
-当前来源/run/规则/恢复见[HANDOFF](HANDOFF.md)，完整历史及原值由[至142检查点](notes/open-checkpoint-through-request142-2026-11-15.md)接更早正文。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
+当前来源/run/规则/恢复见[HANDOFF](HANDOFF.md)，完整历史及原值由[至142检查点](https://github.com/Rogerhu12/math-research-public/blob/2e85e46cf5771a4764d1ac15a25da806e3e1f36d/topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request142-2026-11-15.md)接更早正文。所有科学只在本公开库Actions；root只源/证明/原输出读取/JSON/语法/hash/Git。每结论立即推、每push前且至少每小时真实pull核双README，仅读差异并照做；NFF立即rebase重推。根15只保源/参数/run/SHA/紧凑结论，raw仅临时；不加fixture/审批/六九jet机器门。
 
 目标仍为README完整闭C²族/同g/嵌入/reach/整像held/全域metric/固定参数精化，达最低比例后继续加强；不在阶段、时长或单批预算处结束。
 

@@ -321,3 +321,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R517 — 原完整像账到全E(3)有理内核
 
 **来源明确的执行接口已完成；仅R516条件正确性，尚未运行。** [完整接口](results/R517-rational-full-E3-kernel-and-current-image-binding.md)21846/177cbc96与独立源码39936/0c69c61c，严格只原c87b R425/0ff1帽完整字节tuple。真result/input/position/witness及位置账stored/decoded/ordinal/所有terminal全读，active转1/4周、cap保持形成两端全像；显式合法帽参数用原完整有理图求真成员e=0，支持负振幅/重叠/正确side。4四元数图×2正交分量、完整平移立方体、两向每见证对所有target最小值、全闭DFS/球范数/所有partial游标保持；全部八根付齐才报γ及γ/Dupper。API只调用既有budget callback并保clock provenance，不自证owner/deadline、无新launcher/request/generated-M接线；单90K/70、不写cleanup marker/不删raw。原未完成position与帽参数后缀全返，23a4草稿已由0c69替代；不承诺固定C盒/预算/有限帽点会成功，无实际数值或新门。
+
+## R518 — 原live128完整链的径向缓存来源组合
+
+**已证明（完整来源/条件控制流），未编译或运行科学。** [全文](results/R518-live128-radial-cache-complete-source-composition.md)15739/8f8819d6、[接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)18002/f4eae67d及generator17055/c694、plan48391/4f20，共99187B。实际R515组件0a7f经原R501/R508的owner/assembly/system/QR/pipeline/call/worker/client/fullDN/runner/reader全链，336原pin＋3public＋12generated=351、71明确literal，全部展开仅Actions。原请求在真实computations，derived合同实际全文SHA单独绑定，221仅内部祖先号；system真实snapshot/各callee完整身份逐级匹配，旧pin不删。必要reader正向取R515编译binding并与原lifecycle实际返回行对照，先准备的CPP/receipt不冒执行或成功。原19200/原全部输入/112×224/576/338×112/双mean/FD/fullDN/quiet/90K70完整保，唯一新增数值变化仍R515每call有限径向词共享条件。无新request、实际速度、完整H/J或接受，不改正在运行221，不添独审/benchmark门。

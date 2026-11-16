@@ -2,7 +2,7 @@
 
 **未完成。** 持续至[课题README](README.md)全部标准，随后加强比例；时长、批次、阶段报告及子题完成均非终点。固定同一$g$、连通闭$C^2$嵌入、全$t$强$C^2$连续；固定有内点$H$且$\operatorname{diam}H\ge .2D$、整像$\delta_{\rm hold}\ge .2D$、含反射$\delta_E>0$、全$t$ reach$\ge .03D$、全域相对metric算子$\le10^{-6}$，$D$取完整闭$F_0$。固定目标/参数/时间区间后，实际mesh/频率/$t$加密的等距误差继续下降至机器或原solver容差，多个网格及严格存在缺口均须交付。
 
-压缩前全文逐字存[R456前检查点](notes/2026-11-16-open-checkpoint-before-R456.md)，包括全部203/197/R437/R443及更早检查点内链；所有原参数、失败/未返/未访、run/source、资源和清理记录继续有效。§4–6逐字不动；现状、唯一终态读者及规则同步见[HANDOFF](HANDOFF.md)。只在公开仓库自身Actions科学计算；本地限文本/纸证/原字面/JSON/字节元数据。每结论立即推，每真实pull核双README；不重存raw、不拆编码、不凭已删SHA造父、不增fixture/独审/科学前门。
+压缩前全文逐字存[R456前检查点](notes/2026-11-16-open-checkpoint-before-R456.md)，95份更早重复副本见[固定Git历史索引](notes/2026-11-16-historical-checkpoints-index.md)，包括全部203/197/R437/R443及更早检查点内链；所有原参数、失败/未返/未访、run/source、资源和清理记录继续有效。§4–6逐字不动；现状、唯一终态读者及规则同步见[HANDOFF](HANDOFF.md)。只在公开仓库自身Actions科学计算；本地限文本/纸证/原字面/JSON/字节元数据。每结论立即推，每真实pull核双README；不重存raw、不拆编码、不凭已删SHA造父、不增fixture/独审/科学前门。
 
 ## 1. 完整非零112场与原末门
 
@@ -29,6 +29,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 [R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)五件58602B完整刊：原4b0569 physical_jets同次调用的dp与角n无关，只复用原式已形成finite Q词，非有限仍原式；全部角/累加/Csolve/338×112/576audit/负零与四scalar导出保。新adapter先真形成R493源再include1/cut3/audit1接新callee，两个展开view只Actions生成；原R501 owner/pipeline仍旧固定tuple，未来真实整链须登记新组件/收据，不能冒当前run已用。未测速度、不改原门/预算，也不把C-based诊断当准确隐式导数。
 
 [R467实际208](results/R467-actual208-contracted-trace-resource-partial-and-complete-readback.md)25544/c870已返：run43804793905/source9b05、compute133092971995 failure/report133209057444 success，两终志各唯一，53307/d5b5单必要完整且同字。零H5774.44365s收敛/residual0、无J/audit；首1/64H12195.31508s在finite-trace-direction-resource-budget停于stage366/cell5/segment8，0当前R273系统/方向、0trial、完整FD/fullDN/末audit未入。45434 root/45433 localJ/28278收缩/6334272方向仅原累计局部范围，非全576当前J或端到端速度。内层resource=true与原18000钟/外层budget_exhausted=false/无external_signal分列；实际单90K已完整、marker/owner与父静止后removed=true，原raw已删，无可续非零父。不追加同源重跑/缩门，211原新源单独等实际结果。
+
+[R518](results/R518-live128-radial-cache-complete-source-composition.md)/[完整接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)四件99187B已成：generator c694/plan4f20接R515真实组件→owner/assembly/system/QR/pipeline/call/worker/client/fullDN/R508 runner/reader，336祖先pin＋3public＋12generated=351，71明确literal，不存展开源。原221请求实际computations/HERE；新派生合同用实际完整SHA，221仅内部祖先号，无新实验或当前221变更。原19200/64GiB启动/全部112×224/576/338×112/双mean/FD/fullDN/quiet/单90K70保；必要reader实读R515 binding与真正返回compiler process，准备receipt不冒执行。没有编译、速度、当前H或接受结果；后续只按原实际需要接执行，不添fixture/科学门。
 
 ## 2. 准确十族候选与完整453→450
 

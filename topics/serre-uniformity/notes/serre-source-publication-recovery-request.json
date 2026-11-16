@@ -2,66 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0950-R883-original-t-frame-consumer",
-  "commit_message": "serre: activate the original marked t first order frame from completed section jets",
-  "rules_last_read_commit": "265dcdb8ab11021bec36779437282f8c93d5907d",
+  "request_id": "20261116-1000-R880-actual-bounded-input-certification",
+  "commit_message": "serre: certify actual original D and common cusp bounded RR inputs",
+  "rules_last_read_commit": "13d359a0d8ab164b418f468b429aec12cad3d3ae",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "77e23333852abac026a446df9710cbfe829e5da00ea7b1f8394fe4add6f604fd",
+  "expected_previous_request_sha256": "4cd7d109be78e6f3815774545bec985c2ca2a47d5bc42418170b89c9e2311720",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R883_original_t_first_order_frame.py",
-      "sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R883_public_original_t_first_order_frame.py",
-      "sha256": "91799e07dbf3a5875734df8fb4fdb3e4e15e7427195647973e76ac3ce82da76b",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-method.md",
-      "sha256": "a3775894517263ec34dd4b949e985b7db3536e81cec10cb8d9f5d7f8b2b4e8b1",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-public-request.json",
-      "sha256": "9927874c31f7b76b3aa5d48f0bb99a8028e76d4a0d4c1164abda8bab838e7079",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R883-original-t-first-order-frame.yml",
-      "sha256": "f87e5f35a33b5c58910d09bda7a33e4a49cdb02c624cc20fedde776b69af8780",
+      "path": "topics/serre-uniformity/results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md",
+      "sha256": "7d5d4a52d88e9651f78c05ed0625f7c22ae4dbef4895ea4e8fb5e2993753681e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "2ae4e55ae5659a3c4d68f2a50a7609b7c4900b0a336a64fdabd1d36e90e7c711",
-      "expected_previous_sha256": "9888c01f3b0f21b529a5587e2a03c412339515508b77fc077c863e83836b8a01"
+      "sha256": "61aa3d2d913c2ada1ac2636c8ea4be56f239c12d7abdd5fec28d6d483cf82c88",
+      "expected_previous_sha256": "92a6bc1bd1c0acbd287951a4aff0ecce064a74278c23bf7323a3a835607bc437"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "8cf3ea63f772a4c1c84ccd9207d0d62d4bf5dd19139466d649d1e64ed474ed4e",
-      "expected_previous_sha256": "22c88ea7c23739c33dcf29d2a6f2ed24e4b17cc8122c5b25b323cc2c1c5fc51a"
+      "sha256": "eb88d66cca3a4160e0e3c7e56aad07e82d922c647e9c6d2727d2cc0f562da695",
+      "expected_previous_sha256": "8cf3ea63f772a4c1c84ccd9207d0d62d4bf5dd19139466d649d1e64ed474ed4e"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "eb7fbc87c0e83f3d6f1dd5e42007c1cbe4bde86dd5d3de70610f47f49ba77f77",
-      "expected_previous_sha256": "d3485e2d0bdd1caf3f77080baa79222b6292c0105cbfa001555031595865f8d0"
+      "sha256": "8801f7211f0d45a4da94178654ef856c3bd3b071d6594929ede31adf02011585",
+      "expected_previous_sha256": "eb7fbc87c0e83f3d6f1dd5e42007c1cbe4bde86dd5d3de70610f47f49ba77f77"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "a0ffdf94c69c95fb2d2efd046a33f2b8ea92d05e0e863bdbb30ae848b76f2398",
-      "expected_previous_sha256": "554d46162fc942b6674eb26012daee4373405c1f404065122f3563220218c85a"
+      "sha256": "479fa262d3b6d640ec0366387b17e88619327aa5f41c03d995b5eea53b68e731",
+      "expected_previous_sha256": "8c14372db71329e72e978140e6d40e5c3372809b6c2bba4036f9b378a5c70d8a"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R883-original-t-first-order-frame.yml",
-      "request_path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-public-request.json",
-      "request_sha256": "9927874c31f7b76b3aa5d48f0bb99a8028e76d4a0d4c1164abda8bab838e7079"
-    }
-  ]
+  "dispatch_workflows": []
 }
