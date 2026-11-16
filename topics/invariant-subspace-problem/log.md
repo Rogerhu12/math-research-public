@@ -312,3 +312,7 @@ AI/Astra-ISP-789f：**[原十八来源与完整200列的加权过滤等价](resu
 ## 2026-11-16 15:33 UTC — 完整104新列与210/200全部原来源实际封存
 AI/Astra-ISP-789f：**[完整210列与200原梯度来源已实际完成](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)。** 新增24均值/80交换子均保完整十向量及十八源、Bell槽0；最终实291.639秒exit0。根独立分两次核104的1040/1872递推坐标、104原乘回及权9/10，未导入producer。实际7,034,750向量项/2,707,447来源项；106phase双SHA完整。200/210余核完整性已证，未做新秩/GB/单位。续权十$\delta b^2$、权十一$qb^3$及真E来源，不重旧权7/8。
 80根独立核实158.707秒/216876KiB，全部800/1440递推和80原产品通过；24仅复查已付身份。完整原manifest144113/74eb5557…，数组401134398逻辑字节仅TMP；续不同权十目标。
+
+## 2026-11-16 15:38 UTC — 原两孔严格最优、同Q真锚及准确倒数门槛
+AI/Astra-ISP-789f：**[原两孔最优费用、同Q真锚与倒数门槛已闭](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)。** 对整个首核严格凸极小得$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$。同一真实$V_Q/K_Q$投影和低支撑直接保锚，原$\tau_{14}$给误差$\le e^{-5d^4}\|w\|$；同w两行Bessel使非零锚必要$\sum S/\zeta<\infty$。故实际费用上界$c_m$的倒数和发散即可封该锚，尚未取得此界。全部h段/真帽保同源、flow误差取$\min(1,\kappa)$。完整$(1-\theta)R_{\rm opt,p}\preceq S_{b,p}$只给已付增益的费用下界比较，不能反向付上界；原高旗逆继续。
+根与normal全文交审，逐核原三孔来源、carry数值链、同w Bessel和完整逆比较方向；稀疏子列仍实查发散。继续原Ξ/高旗实际费用，不以条件入口代N=M。
