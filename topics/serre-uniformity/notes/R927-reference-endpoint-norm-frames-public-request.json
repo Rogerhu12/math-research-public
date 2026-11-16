@@ -8,7 +8,7 @@
   "helper": "R917_endpoint_order_arithmetic.py",
   "helper_sha256": "c728c8e06cef3dfbe4d33f3a988cbbc1c3012909d67b4684d941effdec67033d",
   "wrapper": "R927_public_original_reference_norm_frames.py",
-  "wrapper_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829",
+  "wrapper_sha256": "3fa04f1d3ed8b72ec5d763110834ad20bab6c14323f3eed3807d692a6770168d",
   "io_helper": "R824_public_original_global_polar_generators.py",
   "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
   "method": "notes/R927-original-reference-endpoint-norm-frames-method.md",
@@ -44,9 +44,43 @@
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "85b4f0dca5ee12913449be16d832e4240de47c03",
+  "rules_last_read_commit": "91a1d130cfda35eb001eb0a237c0a2ead37db809",
   "budget_minutes": 300,
-  "resume": null,
+  "resume": {
+    "result": "R927-original-two-endpoint-reference-ideal-and-norm-frames",
+    "run_id": "43922183082",
+    "source_commit": "e56cbda0e08ce47ff7a3d5bcd7e4837720bd833a",
+    "artifact_id": 14253893174,
+    "artifact_name": "serre-R927-reference-endpoint-norm-frames-43922183082-1",
+    "archive_bytes": 8652140,
+    "archive_sha256": "b88467f38488f0a2c65ed7049a6833572ebd1f1a5270e4341c93c99892bbff90",
+    "artifact_expires_at": "2026-11-17T17:48:47Z",
+    "expected_conclusion": "failure",
+    "core_sha256": "4d0be4a7ced92ca57dad14863fe7433903e2b0c82df1e47e7c1520dfc10aaa28",
+    "wrapper_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829",
+    "manifest_bytes": 5393,
+    "manifest_file_count": 30,
+    "manifest_sha256": "acdd1a7868850a0dd55d4976e42dc5bdc6747cd0e31b28056d430adaf20b22c5",
+    "configuration_sha256": "5e299ce6d65bd4a66244bcfada88bdefb9fe4d36e8b9673f381d01dd038ce3bf",
+    "accepted_process_exit_codes": [
+      0
+    ],
+    "certificate": {
+      "file": "p41-original-two-endpoint-reference-norm-frames-certificate.json",
+      "bytes": 21177,
+      "sha256": "09de0ae883cece35b26e645f6f5071c75b4de219f7d28024de286a5192524073"
+    },
+    "core_receipt": {
+      "file": "core-receipt.json",
+      "bytes": 733,
+      "sha256": "05a10f654e54c761472ad3cb31be5175d9ee0280472b78ee933e03ddb5564258"
+    },
+    "reference": {
+      "file": "full-outputs-manifest-reference.json",
+      "bytes": 240,
+      "sha256": "3bf89f36269a224c1b922c9f992c9037811bbe91f056c893e542c4e2a9d16234"
+    }
+  },
   "source_artifacts": {
     "R923": {
       "result": "R923-original-two-endpoint-target-normal-coordinates",
