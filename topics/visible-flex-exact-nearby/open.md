@@ -176,7 +176,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WMTA原严格flux](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7的195+2与全mean/jump/端点冻结。[WRTA完整实际终端重分解](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2：43862924830全18门/7图42新，75copy/10scope，SCI2ab3e929/90315/fa85503b。strict C3约1.13089e321、negative1.78069e333，whole/reduced7.44656e339各选同算子新候选，旧2.116e465原字保。全10word/C4、同J/P_even0、两mean/四端/3070jump/真实root/receiver顺序及p3/2→独立S1/6保WRT/WRTA。全42冻结；true finite、高门和matching未闭。
 
-[WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：冻结t0的双索引隔开径/角；同strict real r≤3/total≤14，旧Phi1..15与u/s补absolute T/X/phase edge15；WDG relativeω只到14。完整H^-1四entry、μ正因子、G/w0第三径向、全forcing和w1两分支/非零cut/genuine项均保；每slot新/恒等/旧safe fallback明确，原root local与所有mean/端点/jump不减。新数尚未执行，consumer须同时重组profile费，不授真实finite或matching。
+[WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：同strict frozen t0双索引/r≤3/total≤14与absolute edge15、同函数fallback及H^-1/μ/G/w0第三径向、forcing/free/genuine/非零cut全保原proof；root local不改。原完整域/shape/mean/端/jump资格并保b53a9a327209dcadd464d3d5c3cbd241b6bb2e2d同open。WSMA首次152已成，不授finite/matching。
 
 [WDG实际全相对角界WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de：43865837250/1全16门、五图80新/35copy/7scope冻结；SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999，old0/lost0。完整正cut+普通dr及同d变分资格见WDG212385b5；source282efceb/manifest a88caba5。ordinary Rω1..14接WSJ只除一次b!，高阶仍大，未授whole小界/relative15/root盘/mean/finite逆；原local及所有receiver义务不减。
 
@@ -184,7 +184,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355全成，SCI df5ea6ff/87621ade。Rω14约1.496e94仍非smallness；WSM接同域新包，F1/P1/K1及WDG80只读，全独立义务保。
 
-[WCPR完整cut/profile](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2全义务保。WSM152包eb8cb83b读取WBF83/WJR56，三图32+89+31/39copy，22门和全失败prefix已备，待首次CI；原mean/四端/3070jump/finite/matching不减。
+[WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
 
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff全mean/7port/两rhs保。首次包ed9aede8/aabc28e1，36current/19history，24480cell×96、完整60/62新记录；GD保全L2源及full96误差。e+3dt<1待公开CI，未授finite逆。
 

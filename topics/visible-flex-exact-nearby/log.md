@@ -364,3 +364,7 @@ fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pu
 ## 2026-11-16 13:44:53 UTC — 启动WPS完整有限候选
 
 两README于9374e61150db974448d99dcfdfad96949769cd7b同已读。package a5318f0424eaa0a39a5de2c224b55830352c0b0a已先main；独立 .github/workflows/visible-exact-complete-paired-finite-residual.yml a4c99137c6e6d0fcd942837dc76e2300d9d8479b/2949/20610c4393f72fb6ea339947b321f34387e0ccdc7390f4f4aa4b0e97d6e8361a 自然push触发。固定manifest ed9aede8/aabc28e1、worker85d72/afbbae87，Python3.12.14与python-flint0.9.0。worker每1800秒实际pull/两README全diff；13native+5原cubic+1repair只immutable历史原字临时恢复，禁止旧计算；preflight及完整容量后锁consumed marker只启动一新child，18000秒。上一容量保守总数更正为199972177 B（仍<200MB），非科学计算变更。实际run结果待后续，false充分门也保存完整60record候选，成功逆才62；不得把数据或阶段结果算作最终题解。
+
+## 2026-11-16 13:46:10 UTC — WSMA完整实际证明登记
+
+两README于2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e同已读。完整proof d686817cb87067788b658ace16218f7ada1d68cc/36418/dc566db379d0ad9bcc01e4f4f1ecc6395c907c0944281169e9761cc42cfce31c 已证明43877268949/1的3完整图32+89+31新/39原copy、全22门与相同whole/reduced算子新上界；152冻结，old0/lost0。root读全3图/index/exec核45组，Tail52组/Phase完整receiver21组纯JSON均过；不加审批。whole/reduced保存中心1.90736423682251400641766771203225487061996663267347748430927102916501134125e323，半径3.56e248/3.57e248，各独立选new，原均值e319仍主导，全部3070jump/四端/root/mean/Calg-vs-Dinfty及完整有限账保。科学4件78909B/全部6件101143B，原大stdout只hash。继续新mean路线与WRP40，WPS43878765372/1运行中；无finite逆/全频/非线性/最终验收声明。

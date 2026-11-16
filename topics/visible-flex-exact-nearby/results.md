@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 WSMA**：[实际完整混合profile、N6与同一waist上界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)。43877268949/1全152新39copy/22门；whole/reduced各选新约1.90736e323，原mean/四端/3070jump/finite完整保留。未授smallness/finite逆/最终族。
+
 - **WRP（已证明）**：[相对相位拉回与完整receiver细化](results/R133-supplement-relative-phase-pullbacks-and-complete-receiver-refinement.md)：在同一归一化角测度上先微分真实密度伴随，以旧完整K0及3×3全矩阵给负二/负5/3预算，保全部15profile权、mean及所有低输出。后继只读成功WSM profile/N6做40新，不重算152；不预断新数值或finite门。
 
 - **WJRA（已证明，首次实际）**：[真实相对Jacobian、正相位比与相对ω完整界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)：43873739440/1全15门4图56新、43原/7scope，old0/lost0；真实J先除与真cut lower，Rω14约2.078e91。保普通dr/cut/所有方向；未宣称finite逆或非线性解。

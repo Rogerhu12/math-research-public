@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 13:44:53 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 13:46:10 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 13:44:51非FF真CLI仍无executor，下一本地尝试≤14:44:51。最新CI真pull为43877268949/1于11-16 13:36:16.081258→61a4fcd6fe3a7ac91657eda464567a1193e9a2f4；两README完整diff空/同已读，exec保4次全回执。下一真pull≤14:36:16；ref读取不冒真pull。
-最近只读README核：9374e61150db974448d99dcfdfad96949769cd7b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -66,7 +66,7 @@ WQSbea91372无除τ双向核/真权Schur/64模χG0χB0全L2head已证；全四�
 
 WBFA b2a2b05a/43870348355全83冻结；SCIdf5ea6ff/59417/87621ade，33copy/12scope、old0/lost0。flow/phase≤15、relativeω≤14；全源/manifest/mean与限制见WBFA，Rω14约1.496e94非smallness。
 
-WCPR642e6fd2全cut/profile义务保。WSM43877268949/1全22门/3图152新39copy成功冻结，index7caabc2c/30834/3cb8fa2a、execb63ab5aa/21759/5b2ee674；whole/reduced约1.90736e323各选new，old0/lost0。源84c2b166/manifestb9add676；mean e319现主导，仍无finite/小量/匹配。
+WCPR642e6fd2全cut/profile义务保。WSMAdc566db3/43877268949/1全22门/3图152新39copy成功冻结，index7caabc2c/30834/3cb8fa2a、execb63ab5aa/21759/5b2ee674；whole/reduced约1.90736e323各选new，old0/lost0。源84c2b166/manifestb9add676；mean e319现主导，仍无finite/小量/匹配。
 
 WPSffd000ff全paired义务保原proof。首次包ed9aede8/48445/aabc28e1：36current/19history，5源151016B、worker85d72；24480细cell×96、完整60/62record/22门/7port/两rhs。183KB+120KB预留，child18000秒；已提交公开CI检e+3dt<1，未授finite逆。
 
