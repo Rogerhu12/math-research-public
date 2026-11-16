@@ -1,0 +1,52 @@
+{
+  "format": "isp-local-source-parameters-execution-sha256-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "execution": "local-20261116-original-compressed-parameter-positive127-prepare180",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-compressed-parameter-module-positive127-789f.py",
+    "blob": "f9ccc9952b718265aeec08780ad7ca22661dcb1a",
+    "bytes": 31539,
+    "sha256": "4741ca5f21a087f7c8a5248f1a8fb2559b60635ff60552643061c407dfcb3626"
+  },
+  "argvTemplate": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--compression-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--compression-out",
+    "{work}/original-parameter-seed-compression127",
+    "--out",
+    "{work}/original-compressed-parameter-positive127",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "1024",
+    "--through",
+    "prepare"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 11.621044522995362,
+  "python": "3.12.14",
+  "pythonFlint": "0.9.0",
+  "rawReceipt": {
+    "bytes": 31018,
+    "sha256": "a58bf7957a14e7c83889d4f930bce5a50215600224dc27898f1aa590cdc68113"
+  },
+  "manifest": {
+    "bytes": 15772,
+    "sha256": "7a2f360af4f2562d269ce5e241b9384ed51b9cf1f20a9d27ff489bb38f323db3"
+  },
+  "log": {
+    "bytes": 31224,
+    "sha256": "1ed569a4693cdfc993f096855959791869b7345ee2c4fa63902d8b9fab345892"
+  },
+  "outputIdentity": {
+    "bytes": 5080340,
+    "sha256": "54fe7a3d100b2f28bca8cb5d2effd8fd170eac1f9ddb55afe5c05cf728e9a801"
+  },
+  "computationalOutputPersisted": false,
+  "temporaryDataOnly": true,
+  "singularExecuted": false
+}

@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** b5b82eb90a803fd206502501fe8ef8f2171ba248（2026-11-16 13:24:45 UTC，Actions run43875475507实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43875475507-1.json。
+- **最近成功实际 pull 与已读规则提交：** d053e3db6a838fa38b568457271270f5a3004c83（2026-11-16 13:28:21 UTC，Actions run43876047362实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43876047362-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-complete-low-flag-schur-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-parameter-positive-job-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -30,7 +30,7 @@
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[十行116原种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[50原列同模压缩](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭：** 十二参数/5Ni/Si/全部116原18源保真；权6/8全矩阵秩56/1106，保6mean+20+14comm+10Bell。原1160坐标/删除源与root纯字典51,834,662产品独核。实47.609秒；最小Ni稳定闭包同构已证但尚未求得e0/E源，接50列实际module候选。
+- **[十行116原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭：** 权6/8秩56/1106、全部1160坐标/18源及root51,834,662产品独核。**[50列实际正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)已冻待job回执：** 本地prepare11.621秒/exit0，315888向量项及65853源项全保、50原18及17梯度运输真。三步Actions模型180s/压缩180s/候选600s；仅exit75＋新完整candidate/验证前缀可续1200/1800。先真module自测，e0需U=I与全10/18/17乘回；无新GB/e0/E结果，稳定闭包继续。
 
 
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
