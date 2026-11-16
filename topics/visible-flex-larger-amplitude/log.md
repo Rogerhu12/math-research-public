@@ -298,3 +298,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:48:12 UTC /root — R549完整实际231结论
 
 [R549](results/R549-actual231-declared-model-contract-and-source-readback-overflow.md)30740/5e79完整；387源准备385109/c78b真complete，必要102413/df6e→70只返1368/b358，科学45129/a1a5完整。本run withJ后旧字段KeyError，owner/compiler/cache/replay/model/FD/fullDN未起，非tol或性能结论；两日志唯一、原错误/未访全保，quiet真而removed=false，无父。新source后继实读旧overflow全文再具名逆；bb4a官方199081118B与逐文件估计一致，H/open/索引同步。
+
+## 2026-11-16 12:49:08 UTC /root — R546完整实际230来源停止边界
+
+[R546](results/R546-actual230-source-materialization-stop-and-complete-returned-scope.md)23282/0ee9完整；index6/R544非零，前六child0由实控制流付，内部异常/前沿未返不猜，535仅合同、整个科学后缀未起。485/4478/8665三真body分责，12缺dispatch/3缺reader，cleanup入口缺文件exit2未执行、不冒skip/删除；composition110653非necessary测长，两终日志唯一，无父。R559/235续来源和早期全文读回，R549已99b87，H/open同步。

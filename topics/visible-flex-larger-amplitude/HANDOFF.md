@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 12:48:27 UTC root委托本公开仓库Actions run43869884186真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4e0bd4df22b75798ef44dad5a1ab583a7d9dcde9。
+规则同步记录：2026-11-16 12:49:22 UTC root委托本公开仓库Actions run43870021779真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4f13b7262d39281204ce0fdf7cff237cdc3d747d。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -23,9 +23,8 @@
 | 226/R537 | 43863878883 /f93b079e400c336f12751728ba388d6a9e769779 /133287356711 | root；前1–10success/11科学，单POST200 |
 | 227/R539 | 43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805 | amplitude；12:37 step12科学 |
 | 228/R541 | 43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /133283168757 | exact；12:29 step8科学 |
-| 230/R546 | 43867442383 /9f2b9a45d39c22ea979b5a1c4870d26d13de7d5a /133299541234 | exact；compute/report133300630069失败，唯一两日志已读，R546完整即刊 |
 
-各run只看running元数据，running科学日志0；每终态job由指定读者一次读取，root不复子agent已读日志。官方绑定notes均刊；228相对发布只H规则行异，其source/.github/双README同，其他按各官方head。230单POST200真实run43867442383/head同9f2b，R546 exact唯一；未知dispatch不盲重试。
+各活动run只看元数据，running科学日志0；终态job指定读者一次，root不复子agent日志。官方notes均刊；228实际头相对发布只H规则行不同，其source/.github/双README同，其余各按官方head。229/230/231已各独立结论，未知dispatch不盲重试。
 
 229/[R543](results/R543-actual229-current-request-field-mismatch-before-owner.md)已402b完整刊：run43863347779/head4a0f，372source76567/206d与science40325/7125齐。fresh withJ/norm14074125.72142333后system旧complete128-final键缺失，新caller真value+explicit64-model；owner/replay/model/FD/fullDN未起，非6000/tol拒。真quiet且removed，无父；两终日志geometry各唯一，全部错误与未访见原文。
 
@@ -35,7 +34,7 @@
 
 本次压缩前全文逐字保[bb4a0398 HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/bb4a03981babcf956e408930538941d54b2c547a/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/bb4a03981babcf956e408930538941d54b2c547a/topics/visible-flex-larger-amplitude/open.md)及9f2b/3b607/05ae/3034/f93/e05/924ea/90624更早链，全部参数/来源/失败/未返/未访/资源/清理/未付保；results/notes全文不减。07:19前未推R469原54798ff4及R493/R497已恢复，其他须公开Actions真重做，已删SHA不造父。
 
-222/R511已3034：新十点域1028/1637且未决/未访0，112far/joint/13850点/四数组/gzip双身份齐；BVPchild1.379754821s实起旧argv对新driver guard，closed另ENTRY错，composition超90K无body/准确失败长，15后继未起，quiet而cleanup skip，无父。217/R490已3b986：同源b3ce/b754/387/9c7a、独立时间/正文，15+8未起、skip，无父；不可混两个实际。221/R509：128首步α1全576接受14074125.721549→.001193840199327，次步只133stage预算，tol2e−9/replay未过、post/FD/fullDN未起，真清无父。223/R513：八39/freshFD交接，但113011/113361超90K无数值末父，skip无父。215/R486另一H stage478/audit574预算；211/R475正首步接受后下一方向预算。完整词/身份/未返全保各正文。
+222/R511已3034：新十点域1028/1637、112far/joint/13850点/gzip双身份全齐，BVP旧argv source guard，closed另ENTRY，composition超90K、15后继未起，quiet但skip无父。217/R490另run同源错与独立正文，15+8未起，skip无父。221/R509首128步接受后133stage/6000预算，tol/replay未过、post未起，真清无父。223/R513八39/freshFD交接但whole113011/113361超90K，末父未返、skip；215/R486另一H stage478/audit574预算；211/R475首正步接受后下一方向预算。全部原词/身份/未返详完整各文，不混run或恢复已删父。
 
 ## 已刊来源与立即下一项
 
@@ -49,7 +48,9 @@
 | 228 | R533/R540120源、原R512全必要语义具名逆，whole含header严格更小才用；原八39/全freshFD/10500/175/195min/90K70/quiet保，不保证fit。R541待实际。 |
 | 230 | R54449view/95literal修真argv/ENTRY且guard保，完整source新增关系及两identity分责；R545本次真535源/全部消费者与9scope/同C/owned链，见下。 |
 
-R545七件341400B/topic254482已9f2b：原473→535=293public+242gen，8层源/新argv/ENTRY/三场/8sameC/9scope/cleanup；current-inner实receipt/env取SHA，original216漏键补实值，具名关系完整逆且strict-smaller，原18900+2700/32GiB/90K/科学/quiet保。完整身份/CLI见R545及固定bb4a，230官方note已刊，实际R546另独刊。
+R545七件341400B/topic254482已9f2b，完整入口原473→535合同、8层source/三场/8sameC/9scope/cleanup及当前inner真实SHA；original216补实值、具名逆/strict-smaller，原18900+2700/32GiB/90K/全部门保。完整身份与CLI见原文/固定bb4a。
+
+**230/[R546](results/R546-actual230-source-materialization-stop-and-complete-returned-scope.md)本次23282/0ee9完整刊**：run43867442383/head9f2b，compute133299541234/report133300630069均failure，exact两终日志各唯一。入口真形成，535仅合同；generation index6/R544非零，前六exit0由实顺序控制流付，内部子异常/完整前沿未返不猜。12缺dispatch＋3未生成reader，全部科学后缀未起。三个实际body485/4b36、4478/7ec4（无末LF）、8665/d2c9各范围清；composition110653是原文件非necessary测长。清理入口缺文件exit2，未执行quiet/删除，不冒skip或全局quiet，无父。R559/235改冻结源码已定位的module.HERE缺属性，另真补早期source失败全文/关闭接口；不反填230子异常。
 
 R550四件62390B已bb4a：[完整证明接口](results/R550-same-root-accepted-complete-evaluation-reuse.md)26142/ca1e，header7311/8610、adapter16634/66c2、plan12303/14b5。仅同root原accepted全finite RootEval下一iterate一次消费，全部trial/方向/门/实际计数保；原scope直接安装5781/4a0a，R535只source祖先。整个RootStats/两路13计数/full last与准备/安装/真实compile分责，原CPP/main/replay/caps保，无速度/fit承诺。amplitude R551/232/R552；geometry R554/233/R555先诚实guard与完整source，R553 metric随后；exact R559/235/R560先230真实源断口，R556→R557/234/R558全far暂存；root R561准确normal dyadic平均/原fallback，后R562/236/R563。每完整结论即刊。
 
