@@ -144,4 +144,10 @@
 ### 2026-11-16 19:17 Asia/Taipei — serre-public-astra-20261115
 - R893完整证明单独登记：原五g_j的同权98分子分母、真DVR极除子和全部272纤维Q单位，块Vandermonde/全行Schur给五初始RR；真σ次序、ρ/θ/82一次和τ^(3−n)保留。
 - 旧0..7节点直接复用，只新必要节点/核；初始N不作V2n通用注入，五Lj/完整帧/height仍缺。R885整Artin实际正式认证续核，六D*消费者接已成源。
+- 本push规则：公开Actions真实pull至49fefaeb875a3a790c9d175212d409a2fe21e7e1（2026-11-16T11:17:56.065217+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:22 Asia/Taipei — serre-public-astra-20261115
+- R885实际整Artin认证单独登记：519.34968726s/323stage，首z=0整272×8及全部272目标方程、原v0与单charpoly九Norm通过；全部因子/幂零、dual7和原两帧保留。
+- 小IO只回读所需成员，不冒整145MB重哈希；旧W/K/273节点/17列/参考系统不重。全局Norm展开/Picard支持/五Lj/height未成，六D*消费者继续接源。
 - 本push规则：待本公开Actions真实pull并核两README，主目标OPEN。
