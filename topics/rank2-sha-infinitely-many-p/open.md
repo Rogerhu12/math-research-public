@@ -173,3 +173,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R879附录A](results/R879-original-v66-heat-and-degree22-trace-defect.md)：同实际四维CM词给10362H22=(−983808+191849U+54621V+150360UV)G22。原δ拉回的指定D行完整保ε=(δ^(p+1)−3)/p；同V热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，并接全参数L2D66,5(V)−D66,7(V)/132。trace零余项和原两个配对均保，不赋任何新增中央零。
+
+
+- [R872同修正§2.1](notes/2026-11-16-r872-factored-corrector-last-row-and-residual-branches.md)：原同M/p³和ell≤h−1准确给E²R|C≡(28/a)w^(h+1)Cu³e mod w^(h+ell)，native ξ在整个已付短段相消；E³R|C仍保−24w³Cξe³−(36/a)wCu²e² mod w^ell。原C1/F²高项按真实块界排出，未延长至第三块全部s行，也未付完整K1尾像。
