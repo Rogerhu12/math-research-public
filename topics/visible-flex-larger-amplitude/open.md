@@ -64,6 +64,9 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [218官方绑定](notes/2026-11-16-request218-official-run-binding.md)：入口已44f5f282，首次即时dispatch404无科学run；行政43830418320先核workflow419881031 active和无重复run，再一次POST200得到实际43830433500/attempt1，实际source0f101b697beb04db9bf6c225a488755e191f3a54、compute133174205129（08:20:32Z）。准确head上的request95251/8945和workflow92730/1c32真核同正式字节。08:21仅前1–6成功/7容量，生成与科学不预填；R507/amplitude唯一终态，无running日志。
 
+
+[R504](results/R504-recomputed-C-query-complete-metric-and-evidence-consumers.md)/[接口](notes/2026-11-16-same-C-recomputed-tail-metric-consumers-interface.md)已完成六个实际外层source view：1fixed＋5live（evidence原已有live），原四场族先全载CP/definition/节点/B/材料/十词，准确cut/全部六jet与四Loewner/DFS/全t共轭比较原样，再真用R500重算同C的0阶E查询。fixed只合原完整闭查询与新完整query，根切片改变则全计划根重算；五live沿原开始时刻/11参数/唯一R426，evidence保原remaining不重开钟。只新求值包围，不将工作参数/source结果SHA混入固定g签名；测量保完整新旧query/source/error/unvisited，series仅实际测量/完整对象身份而不补超90K未读正文。gen9454/3c282629＋plan38102/34436dfc完整生成六新名，全原来源先核、后独占写；展开不入Git，无fixture/新门。当前只明确登记R495四原族和R489 actual202205钟，未有217实际request/run/metric结果；下一217/R490须完整真实field/来源tuple/原clock接线，新218/220链另显式注册，不能由名称继承。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
