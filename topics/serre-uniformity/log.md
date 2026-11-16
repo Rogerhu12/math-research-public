@@ -375,3 +375,8 @@
 - R913完整纸证单独登记：实际αp给非零Cartier商泛函，其k_−层与缩放原微分的k_+层分清；两CM的Θ关系及原level6/Hecke全部标度固定。
 - Gross/Oda/Cais/EP原式已读；未把同谱当指定CM配对非零，原a_h/normal/J32/height仍缺。R787真实exit124检查点正纯IO读取，R905二次actual complete正独立读七证书，H逐字归档。
 - 本push规则：公开Actions真实pull至a80dd072b1da7659cdfe2d1c686cab7f7928caeb（2026-11-16T15:22:48.170807+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:25 Asia/Taipei — serre-public-astra-20261115
+- R915完整纸证单独登记：任意Artin底环的Euler系数泛函给原八次微分迹，含分歧/幂零；真函数域导数、先微分后约化和九新系数接口固定。
+- 范数双行列式/dual7/diamond/−3与原κν两端帧保留，不把无p′逆的公式冒作所有分母可逆或新Hecke数值。R787真670断点及无core receipt已由原IO确认，正严格同核续；H前态归档。
+- 本push规则：公开Actions真实pull至71b2eb5b59e437fe9d2f201bf51301c6edc62740（2026-11-16T15:25:42.917833+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

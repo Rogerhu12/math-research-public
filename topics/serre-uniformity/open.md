@@ -181,3 +181,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R912原八维端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)** 已证：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0，不能用R853三列替代；原2+3+3秩8正规order的discrim阶4，trace-radical/idealizer有限核不拆因子。两截面8×16格给九纤维坐标，完整帧仍为Nm(q*Φ)detUj/detU0并保原t首项/dual7。两端共同λ在0..16，旧z0不代端点；实际新146矩阵/端点值仍false，exact_height正写必要小叶。
 
 **[R913原Igusa Cartier泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)** 已证：上半实际αp子群给非零λ_h∈(W_+/C W_−)∨，其原χ_−层对应k_−=2p+2−2h；π^−pr f_h*ω的χ_+层则对应k_+=2h−p+1，约化可能零。原两个tame level9 CM与Θ的全Fourier关系、level6的ζ²/1/6及Hecke标度ℓ^(h−1)/ℓ^(p−h)逐项固定，完整Norm惯性和det−1校正保留。Gross/Oda/Cais/EP原式已读；同特征系数不推出指定CM向量配对非零，不假设Hecke半单、重数一或格饱和。原a_h、normal首项、36/J32同h桥和height仍缺。
+
+**[R915原八次Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)** 已证：完整Euler系数泛函在任意Artin底环满足Tr(h)=λ_p(p′h)，原微分迹为−a8^−1[U7](A_t∂zP mod p)dz；保持w的真曲线导数、先微分后约化。原17块/PU逆/272靶值复用，新增只九P系数导数；λ的全模延伸不消除a8、靶PU或χT的真实分母。范数参考行列式、dual7/diamond/−3、κν和两端帧保留。仅全局准确DAG已证，新有限数值、原活跃Picard支持/rigidification/非p/height未成。
