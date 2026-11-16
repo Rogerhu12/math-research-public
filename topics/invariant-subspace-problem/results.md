@@ -480,3 +480,5 @@
 - **R150三数域完整高核恰七（2026-11-16）：** [完整特征零证明](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)将162支持严格化成153×60，三域实rank53；七原列各43316乘回真，高6018行全零，配规定残域rank4259得完整Q高核7。实际39.423/50.272/276.666秒，normal≥3全零，低170×7返回全部保留。它覆盖早先Q维2…7的状态；尚未增加参数长度，完整首连接继续。
 
 - **R150原127首个完整广义检测族（2026-11-16）：** [E8-1两泛函完整证明](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)保全部1021 GB行，586真常单位后435×448；正规表示870×896 rank866、完整12×90残余rank2，88核含78自由jet＋10主分量。两泛函限制rank6→10，12252原GB jet及120参数作用乘回真；实际9.149秒。尚未4367运输或系数Bockstein，继续同源其余四factor。
+
+- **R150五critical主分量的全部广义检测（2026-11-16）：** [完整88维分离证明](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)同v2真实完成五factor，每个两泛函；覆盖24/24/10/10/20，完整jet核219/219/88/88/176保702自由jet。110268原GB jet零式及2160参数作用乘回真；余四实际15.365/15.384/7.252/18.686秒。尚未原4367运输或系数进位；全族现可检测第一系数像。
