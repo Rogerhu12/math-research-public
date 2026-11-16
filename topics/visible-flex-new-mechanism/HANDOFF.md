@@ -4,11 +4,11 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。四原子run43845218578/report133223910029于10:03:34.618258→10:03:38.122121 UTC真实public pull，已读 **0e259e94af3666e2b110b60392dde7990d57c1a9**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**11:03:38 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。全168run43847611444/report133236104610于10:27:12.374618→10:27:12.945970 UTC真实public pull，已读 **8ba72343a6f60a30a37947a6768ece150f13be30**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**11:27:12 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-同report私有10:03:42.742401→10:03:44.026377已读 **2d9aabe77e779601aebe2d8a3ac60b19dc6fda20**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。原research两次pull见[本条](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)。私有正文不发表。
+同report私有10:27:14.853179→10:27:15.320961已读 **2033fc18ea85fc2b8b1df753375edf89c3ea0e34**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。research先于10:18:37/10:18:39实际拉两仓；私有正文不发表。
 
-三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
+三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端10:32在新workspace提示后再试pwd，exec-server仍无可用进程（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -16,7 +16,7 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266009923是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
-[R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付全抽象闭面固定g的|Kg|<2381/11<217<(1000/61)²；原六弓帽/椭圆柱K0，R=.274是材料盘半径。Gaussian必要乘积界未排reach，不授外曲率/存在。完整新增P5四u/P8四v及零总高度P8′一列，旧159嵌入168，新9物理函数商独立；全T三导/位置二jet/J公式与左C4/右平坦保原接口，尚待新模型。
+[R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
 [R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin列轴上T/Ts/Tss和Xt/Xst有限不变，但Xs/Xss含全角Π不能删除；f0/e非0时度量盲须8条真实U·∂s(aΠδT)=0。圆背景给显式非零δe，另4组合可保所有轴一阶I/位置/径向jets而动两轴类κθ；仅该背景，不冒55秩。曲率须保实际I、normal变分与完整Π记忆。
 
@@ -31,6 +31,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3A6²>0、首原子消失先并Ceff再完整输运。R496用真实端项给A/R≥(y−1)/2、相位单调与H≥2排除，但左d可正无界。
 
 **[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)更强全图门：** R/Rc≥1且递减，Rc=(r−r³)/2；反向Chebyshev给N0≤13D0/4及正部界c*=1/4+89/(216√3)。d≥0区r/R≤3，d<0区才d²≤1，因此N≤(13/4+c*/y)D−(1/4+c*/y)Dd，保严格余项。令P*(y)=39y³+(12c*−114)y²+(23−40c*)y+12c*，在[8/3,∞)唯一根y*∈(19/7,49/18)；H*=(1+y*)/2∈(13/7,67/36)。完整ImE在H≥H*严格负（等号也由Dd项付），故五门真零仅可 **3/5<H<H***。同稿给完整ReE式，尚未证该剩余区间联立无零；C、线性图段与所有端项保。
+
+[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定真图R时y=B+2C、A=A0+C(1−r)、U=U0+C；I=ImE/√y为完整三次、I3<0。以p≥r³/右切线/原A界分三段证明当前H≥1时I″<0（低端未判），虚部至多两根；Re为完整四次首项C4/5。没有推共同零不存在，五门其余三实条件仍欠。
 
 **真实路径。** R469/472保A/T、双芽、所有W/V与一般w；R480外三矩仅付重复A0无漂移。R482原13状态/2输入完整K=F+Chh″+Ckk″及Mraw保；R484离保护芽须实际rank退化，R486只排开状态域F恒0。R488单真secant的t1′<0排自身M0返回/常collar；R492 even period核odd β锁原13行。R494任意紧输入β不依H且对ω仿射，双真中心odd差β((A2−A1)D)；R70真桥除至多一ω有残值，不能同w/后置复位消，但非全路径障碍。接非even完整period及新构造，主几何仍欠。
 

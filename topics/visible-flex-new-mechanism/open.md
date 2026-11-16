@@ -177,3 +177,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:28:31 UTC：R501精确满列秩与非固定曲率峰
 
 [R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)由原H的±I5子块构造M的±I168及完整有限A的det±1子式；正slack/dual下Newton正规矩阵精确正定，浮点病态/可行域/有限未收敛仍须读原记录，不添gauge约束。rho/h可准确消为凸分段线性目标，但不能省全网分离。56κ峰s=.78严格在新body内，完整高度位置/径向一jet非零，排共同固定区解释；未证实际dκ非零或满足原硬域的下降。正在运行的joint168不据纸证预报成功，主reach/同g全时门继续欠。
+
+## 2026-11-16 10:33:35 UTC：R502固定凹图offset的完整多项式与严格高端凹性
+
+[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)保真实C作用，I(C)=ImE/√(B+2C)为完整三次且I3<0；利用原Af p≥r³、R≤1−r与A≥(y−1)R/2证明当前H≥1区间I″<0，最多两根，B≥1时覆盖全部C≥0。Re完整四次首项C4/5仍须同C联立，不由凹性/正首项推无解；H<1低端未判。接真实同图共同零/非对称whole-path。全168原任务已返回，root继续登记真实失败门和新小物理域输入复用；主完成未付。

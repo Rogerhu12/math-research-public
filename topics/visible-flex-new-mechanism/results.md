@@ -407,3 +407,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R500 异平移正割中心的真实前缀差商](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)：**已证明**三真中心的共同规范/完整source消去和R70可实现非零值；N−2相对odd门可独立配平，完整whole-path与主几何未付。
 
 - [R501 当前168族的精确满列秩与非固定曲率峰](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)：**已证明**完整170有限A有det±1子式，正权Newton正规矩阵精确正定；两辅助变量可消，56κ峰不是共同固定区，未授条件数/可行下降/主reach。
+
+- [R502 完整offset多项式与高端严格凹性](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)：**已证明**固定凹图的ImE/√y为真三次、当前H≥1时严格凹且至多两根；完整Re四次与C4/5首项保，未判共同零或低端凹性。
