@@ -174,10 +174,10 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
 旧2Newton/jet/七报告1589068B普通删，完整恢复保ebf4bade858deb2bcf03f638291a167c5e5b206b同H/open和原名单。[九报告恢复表](notes/2026-11-15-nine-additional-old-floating-report-deletion-whitelist.json)68f83dd4先推1b09dba7：9件504341B已freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/native/候选/失败/proof/activepins保，旧成功禁重。[两旧derived interval数组恢复表](notes/2026-11-15-two-old-materialized-interval-array-deletion-whitelist.json)da74b983先推bce4d622，773501B已freshguard普通删，restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path。两原membership/root certificate和原checkpoint身份全保。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-16 01:40:11定时CLI仍无executor，下次≤02:40:11；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-16 02:37:33定时CLI仍无executor，下次≤03:37:33；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
 
-R46容量单文件白名单见[完整证据](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab：仅notes/2026-11-13-R46-complete-density-transport-bootstrap.json，551730B/blob968ee851/SHAf86e1cd3，恢复5423c8a7fd3869430df0d188ffe406f1d567d7f8同path。白名单ece1fcde已先推，本次fresh SHA/size守门普通删；原proof/source/成功小结/全部未付scope保，未来原consumer须先restore而非重算。
+R46 density551730B、energy425182B已依[原density白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab、[原energy白名单](notes/2026-11-16-R133-R46-unshifted-energy-report-cleanup-whitelist.md)b330b0a0先推再freshguard普通删。恢复5423c8a7、5d70e503各同path，完整身份/全部未付scope和失败保各清单及70aa7ef1同本页；0重算、禁重复删。
 
-R46 energy单425182B已依[窄白名单](notes/2026-11-16-R133-R46-unshifted-energy-report-cleanup-whitelist.md)b330b0a0/先推77c2feb5后fresh guard普通删；原blob2724486e/完整SHA ebe435c4，恢复5d70e50322249c20a62291c0a15237f8036fed01同path。五小primary/失败与scope全保，0旧重算，禁重复删。
+R46 scaled429437B的[窄白名单](notes/2026-11-16-R133-R46-scaled-strong-operator-report-cleanup-whitelist.md)64094f6c已先推、尚未删，下一freshguard仅4bbca401同path。恢复4af72dc1cc28c5eb6485ac8f829b544630db3b31，完整SHA/7primary/两级成功链保清单；未来须原字restore，不重算。

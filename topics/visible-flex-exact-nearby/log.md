@@ -466,3 +466,9 @@ tail复核指出RNS§5末“weighted norm realization are identical”口径过�
 根独立原byte复原早report6031及science预Git63577/b936052fc7461ec10b0f79756650cd7fc4ca7f1800f1afde7e05f87066bd316e；lexical process预Git9367/aa178a3ef1ee93f3229572b67f1bf4a810e9cff2560c79b26df101c0e9761864。两truepull02:28:05.980414、02:28:10.867205均58e9eaf4，两README空diff。容量fresh199811477→199886615，仅三文件75138B，无大body/artifact/native保留。旧R97图/严格比较/其他成功目标0重算。
 
 仅同real |δ|≤1e−8/fixedη0/root的自然稳定逆数值付清；selected全δ chart、physicalmeans/head/rest、完整square/strong/incoming/finite/ν及真实非线性仍待。继续RNEA完整actualproof和newton共同坐标范围审，不等用户。22a454e3a4705fef552a1938beef655a8bd1ac53两README blob未变，API不冒真pull。
+
+## 2026-11-16 02:38:40 UTC — R46 scaled 单报告完整清理白名单先推
+
+独立白名单4bda8fec2fea7bb601210bf9aa7e4502d4c03439 /14575B /64094f6ceee6dcc224ebf872c039394fec091424e41b54aef6ca8b089c529992，仅候选notes/2026-11-13-R46-215-cell-scaled-strong-operator.json，blob4bbca401d970a2f6844670f7f395916b28cf2ac2 /429437B /原SHA5f30d6f64a3a1b398dc3e9be7b17e0ea9e5f8117ef97ea50654cc2980e87dc02；恢复4af72dc1cc28c5eb6485ac8f829b544630db3b31同path。root与tail完整hash七小primary，读原proof成功/完整scope、producer、checker和准确scaled→density→scattering两级成功链；4下游门原true。大body未取，原SHA来自原proof，不冒独立重hash。现行RNE/R97R等指定完整pins无basename，旧density历史直接依赖仍保，未来恢复原字。仅改白名单表2角色为Producer of the retained small conclusion，非数学变更。
+
+先推此证据，尚未删；下一须fresh当前元数据精确guard才普通删单文件。H/open压缩仅已成cleanup索引，原全部restore/source/失败和scope保完整白名单。02:37:33实际CLI git pull --rebase origin main因No usable execution environment失败，下一≤03:37:33；只读核82f2744f1346ed2cfe8caeff0f62917dc180c5b0两README blob未变，ref读取不冒真pull。RNE旧成功锁定，继续RNEA实际证明和NIF共同图合同。
