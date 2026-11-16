@@ -1,0 +1,91 @@
+name: visible-exact exact saved-prefix recovery of root97
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-root-stable-cutoff97-saved-prefix-recovery.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-root-stable-cutoff97-saved-prefix-recovery
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  R97R_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json
+  R97R_MANIFEST_SHA: 5d993fefa9cbd2935812d051c4a83a0ff0d4e607d2836ea69d7a93423beb633e
+  R97R_PIPELINE_SHA: 799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534
+  R97R_WORKER_SHA: add2b325a391e66a001df0a4f6547a545460188132e51025fbce378935461f04
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  root-stable-cutoff97-saved-prefix-recovery:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-saved-prefix-recovery-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['R97R_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py --mode hydrate
+          --manifest "$R97R_MANIFEST" --manifest-sha "$R97R_MANIFEST_SHA"
+          --pipeline-sha "$R97R_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['R97R_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read the exact saved prefix and continue only the missing original97 stages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py --mode run
+          --manifest "$R97R_MANIFEST" --manifest-sha "$R97R_MANIFEST_SHA"
+          --pipeline-sha "$R97R_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-root-stable-cutoff97-saved-prefix-recovery-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-root-stable-cutoff97-saved-prefix-recovery-output"
+      # Root rule15: nine current text inputs, three AST files, zero historical restores.
+      # Original source is parsed only; exact saved mixed/domain conclusions are never recomputed.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.

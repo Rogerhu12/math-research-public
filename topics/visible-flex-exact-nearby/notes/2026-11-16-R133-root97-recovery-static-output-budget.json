@@ -1,0 +1,549 @@
+{
+  "kind": "root97_recovery_complete_static_serialization_budget_v1",
+  "is_scientific_conclusion": false,
+  "scientific_execution": false,
+  "scientific_targets_evaluated": 0,
+  "interval_or_transcendental_arithmetic_calls": 0,
+  "old_source_execution_or_import": false,
+  "purpose": "Static UTF-8 JSON byte-budget model only. No ball below is a computed mathematical value; each new ball slot is represented by a 128-byte explicit non-ball placeholder.",
+  "source": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+    "git_blob": "ce991a307b62f2382127ffa10c9ca92b69a82696",
+    "bytes": 61957,
+    "sha256": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534"
+  },
+  "original_source": {
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_scalar_gate.py",
+    "git_blob": "6f7037839126056ff25dec619150f76b0edcb3a7",
+    "bytes": 58950,
+    "sha256": "d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06"
+  },
+  "schema": {
+    "git_blob": "f1e2cad9c9a575db80b83304312f170cc3ee0b0b",
+    "bytes": 8633,
+    "sha256": "3d7a09e6770f9025b11f0d6d48f7cfbdb12d80f79547830ce38082da92eeefaf"
+  },
+  "fixed_evidence": {
+    "git_blob": "5ebcc6630dffe2c8bfbe6245614d814a114b9d01",
+    "bytes": 7558,
+    "sha256": "afcb10745b896c6f17b2283177d2a62a4bbae9cbf8e5b56284602739bb9ef8c7",
+    "canonical_sorted_compact_plus_LF": {
+      "bytes": 6457,
+      "sha256": "be0f6546f2e3493b9650cb53800429364b4a1614de805c5f9ebebe4cd37eb32c"
+    },
+    "original_math_roles": 15,
+    "original_gate_rows": 14,
+    "inherited_native_receipts": 2
+  },
+  "original_saved_science": {
+    "git_blob": "98bc2b2c916ae3f1e3e4c19f3309fed20b64cfad",
+    "bytes": 30812,
+    "sha256": "95aa4c8d15a1b28e432c987735fa69f75463d8227905935ea151ec0258362e11"
+  },
+  "new_manifest": {
+    "git_blob": "e3bbb4dbd0996699cf70c0e3809931b6939ad49d",
+    "bytes": 12894,
+    "sha256": "e4c4ae14309703341523dacb70796db83b76de60b625a7a30675d05548102ccc"
+  },
+  "serialization": "json.dumps(sort_keys=True,separators=(',',':'),ensure_ascii=False,allow_nan=False) plus one LF; ASCII placeholder contents are 128 UTF-8 bytes plus two JSON quote bytes each",
+  "model_construction": {
+    "success_fields": [
+      "kind",
+      "complete",
+      "proved",
+      "actual_returncode",
+      "failure",
+      "stage",
+      "source_sha256",
+      "input_manifest_sha256",
+      "public_repository",
+      "run_id",
+      "run_attempt",
+      "workflow_event_commit",
+      "actual_scientific_checkout_commit",
+      "runtime",
+      "arithmetic_bits",
+      "parameters",
+      "input_sha256",
+      "verified_original_inputs",
+      "accepted_old_inputs",
+      "copied_old_inputs",
+      "copied_old_inputs_sha256",
+      "complete_mixed_norm_conclusion",
+      "complete_root_domain_conclusion",
+      "complete_real_radial_interval_conclusion",
+      "complete_root_drift_conclusion",
+      "complete_rational_quotient_conclusion",
+      "complete_correlated_coefficient_conclusion",
+      "complete_ordered_operator_conclusion",
+      "original_cutoff97_sufficient_gate_passed",
+      "retained_scope",
+      "counts",
+      "gates",
+      "actual_mathematical_wall_seconds",
+      "preserved_prefix_evidence",
+      "actual_progress"
+    ],
+    "field_count": 35,
+    "new_gates": 9,
+    "gate_names": [
+      "complete saved original97 prefix, original source, manifest and execution identity",
+      "complete real moments and neighborhood radial derivatives retain all mean terms",
+      "complete mixed drift derivatives and every D squared p term are finite",
+      "complete rational quotient retains both gaps and all third ordinary derivatives",
+      "complete collected correlations preserve all nine derivative groups and the true mean",
+      "all ordered operator terms and genuine positive diagonal bounds are complete",
+      "the optional strict comparison has its exact narrow ordinary L2 scope",
+      "all original input bytes remain unchanged with zero old target calls",
+      "complete scalar schema retains every conclusion whether the sufficient test passes or fails"
+    ],
+    "parameters_counts_scope_and_success_progress": "Full exact objects from the pinned schema; no abbreviation in the modeled document.",
+    "preserved_prefix_evidence": "Full exact 5ebcc663 evidence object, canonical 6457 B, not its previous shorter revision.",
+    "new_ball_placeholder": "STATIC_SERIALIZATION_PLACEHOLDER_NOT_A_BALL_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "new_ball_occurrences": 219,
+    "run_id": "99999999999999999999",
+    "run_attempt": "9999999999",
+    "workflow_event_commit": "0000000000000000000000000000000000000000",
+    "actual_scientific_checkout_commit": "0000000000000000000000000000000000000000",
+    "wall_seconds_metadata_literal": 9999999999.999998,
+    "strict_result": "false used for the complete optional comparison and corresponding booleans, without any claim about the future actual result.",
+    "six_math_roles": [
+      "r97_contract",
+      "recovery_contract",
+      "original_source",
+      "original_manifest",
+      "saved_prefix",
+      "saved_execution"
+    ],
+    "verified_input_objects": "All six full bytes/SHA objects from source PIN_SPECS; input_sha256 includes the manifest in addition to the six mathematical roles.",
+    "no_graph_removed": true,
+    "no_old_ball_strings_changed": true
+  },
+  "preserved_old_objects": [
+    {
+      "field": "accepted_old_inputs",
+      "bytes": 3240,
+      "sha256": "fd08e85b78ebaba6a1ca7ddeb1e66d35590fa262f928d909bda908312ff6a9d4"
+    },
+    {
+      "field": "copied_old_inputs",
+      "bytes": 13521,
+      "sha256": "e3a718d39ac2cca555ce22ba6f2bb0a34b1daec6d548e2659ff471aa626e6e54"
+    },
+    {
+      "field": "copied_old_inputs_sha256",
+      "bytes": 67,
+      "sha256": "b87f95a0809ec44e72cae7a17726d7728cd0113d207d9bdc95a308bb4019d52f"
+    },
+    {
+      "field": "complete_mixed_norm_conclusion",
+      "bytes": 4515,
+      "sha256": "cbf0af029a0fca9d54f2f700a9638f95a234a65b1b017dc5e0bec985434c5861"
+    },
+    {
+      "field": "complete_root_domain_conclusion",
+      "bytes": 1524,
+      "sha256": "37ef7b72ecce7d1e562f66c12a81bf7e5d5c3bc1a6376c2da064d2c85eecc1cd"
+    }
+  ],
+  "new_complete_graphs": [
+    {
+      "field": "complete_real_radial_interval_conclusion",
+      "new_ball_occurrences": 28,
+      "top_level_members": 28,
+      "canonical_standalone_bytes": 3840,
+      "complete_shape": {
+        "m_u": "new_ball_content_128_UTF8_bytes",
+        "m_v": "new_ball_content_128_UTF8_bytes",
+        "m_ur": "new_ball_content_128_UTF8_bytes",
+        "eta_actual": "new_ball_content_128_UTF8_bytes",
+        "eta_r": "new_ball_content_128_UTF8_bytes",
+        "eta_rr": "new_ball_content_128_UTF8_bytes",
+        "e1": "new_ball_content_128_UTF8_bytes",
+        "e2": "new_ball_content_128_UTF8_bytes",
+        "M": "new_ball_content_128_UTF8_bytes",
+        "Mr": "new_ball_content_128_UTF8_bytes",
+        "Bm": "new_ball_content_128_UTF8_bytes",
+        "Em": "new_ball_content_128_UTF8_bytes",
+        "Bmr": "new_ball_content_128_UTF8_bytes",
+        "Emr": "new_ball_content_128_UTF8_bytes",
+        "ac": "new_ball_content_128_UTF8_bytes",
+        "acp": "new_ball_content_128_UTF8_bytes",
+        "trad": "new_ball_content_128_UTF8_bytes",
+        "tradp": "new_ball_content_128_UTF8_bytes",
+        "qrad": "new_ball_content_128_UTF8_bytes",
+        "qradp": "new_ball_content_128_UTF8_bytes",
+        "Vm": "new_ball_content_128_UTF8_bytes",
+        "c2": "new_ball_content_128_UTF8_bytes",
+        "c3": "new_ball_content_128_UTF8_bytes",
+        "L": "new_ball_content_128_UTF8_bytes",
+        "bt": "new_ball_content_128_UTF8_bytes",
+        "bs": "new_ball_content_128_UTF8_bytes",
+        "bA": "new_ball_content_128_UTF8_bytes",
+        "bC": "new_ball_content_128_UTF8_bytes"
+      }
+    },
+    {
+      "field": "complete_root_drift_conclusion",
+      "new_ball_occurrences": 29,
+      "top_level_members": 6,
+      "canonical_standalone_bytes": 4079,
+      "complete_shape": {
+        "complete_projected_S_Sr_Srr": {
+          "new_ball_array_length": 3
+        },
+        "complete_Sphi_Sphiphi_Srphi": {
+          "new_ball_array_length": 3
+        },
+        "complete_bound_candidates": {
+          "d": {
+            "new_ball_array_length": 3
+          },
+          "p": {
+            "new_ball_array_length": 3
+          },
+          "pphi": {
+            "new_ball_array_length": 3
+          }
+        },
+        "selected_candidate": {
+          "d": 2,
+          "p": 2,
+          "pphi": 2
+        },
+        "complete_derivative_bounds": {
+          "d": "new_ball_content_128_UTF8_bytes",
+          "p": "new_ball_content_128_UTF8_bytes",
+          "pphi": "new_ball_content_128_UTF8_bytes",
+          "pphiphi": "new_ball_content_128_UTF8_bytes",
+          "dr": "new_ball_content_128_UTF8_bytes",
+          "pr": "new_ball_content_128_UTF8_bytes",
+          "prphi": "new_ball_content_128_UTF8_bytes",
+          "prr": "new_ball_content_128_UTF8_bytes",
+          "Dp": "new_ball_content_128_UTF8_bytes",
+          "D2p": "new_ball_content_128_UTF8_bytes"
+        },
+        "D2p_four_complete_terms": {
+          "new_ball_array_length": 4
+        }
+      }
+    },
+    {
+      "field": "complete_rational_quotient_conclusion",
+      "new_ball_occurrences": 72,
+      "top_level_members": 18,
+      "canonical_standalone_bytes": 9947,
+      "complete_shape": {
+        "primitive_gap_exact": "193/9409",
+        "z_interval": [
+          "0",
+          "1/9409"
+        ],
+        "theta_gap_original": "new_ball_content_128_UTF8_bytes",
+        "U_radial_0_2": {
+          "new_ball_array_length": 3
+        },
+        "W_radial_0_1": {
+          "new_ball_array_length": 2
+        },
+        "alpha_radial_0_3": {
+          "new_ball_array_length": 4
+        },
+        "alpha_Leibniz_terms": [
+          {
+            "new_ball_array_length": 1
+          },
+          {
+            "new_ball_array_length": 3
+          },
+          {
+            "new_ball_array_length": 6
+          },
+          {
+            "new_ball_array_length": 10
+          }
+        ],
+        "alpha_at_z_zero": "new_ball_content_128_UTF8_bytes",
+        "alpha_frequency_quotient": "new_ball_content_128_UTF8_bytes",
+        "reciprocal_eta_ordinary_0_3": {
+          "new_ball_array_length": 4
+        },
+        "h_ordinary_0_3": {
+          "new_ball_array_length": 4
+        },
+        "Q1_ordinary_0_2": {
+          "new_ball_array_length": 3
+        },
+        "Q1_complete_positive_groups": [
+          {
+            "new_ball_array_length": 2
+          },
+          {
+            "new_ball_array_length": 5
+          },
+          {
+            "new_ball_array_length": 8
+          }
+        ],
+        "qDelta_three_groups": {
+          "new_ball_array_length": 3
+        },
+        "qDelta": "new_ball_content_128_UTF8_bytes",
+        "C1_seven_groups_before_lambda_inverse_square": {
+          "new_ball_array_length": 7
+        },
+        "complete_rational_bounds": {
+          "C0": "new_ball_content_128_UTF8_bytes",
+          "C1": "new_ball_content_128_UTF8_bytes",
+          "d10": "new_ball_content_128_UTF8_bytes"
+        },
+        "third_radial_derivative_only_in_C1_right_input_power": "-10/3"
+      }
+    },
+    {
+      "field": "complete_correlated_coefficient_conclusion",
+      "new_ball_occurrences": 56,
+      "top_level_members": 21,
+      "canonical_standalone_bytes": 7953,
+      "complete_shape": {
+        "radial_signed_collected_coefficients": {
+          "P1": "new_ball_content_128_UTF8_bytes",
+          "P2": "new_ball_content_128_UTF8_bytes",
+          "PD": "new_ball_content_128_UTF8_bytes",
+          "E0_coefficient": "new_ball_content_128_UTF8_bytes",
+          "KH": "new_ball_content_128_UTF8_bytes",
+          "astar_scalar": "new_ball_content_128_UTF8_bytes"
+        },
+        "delta3_five_complete_terms": {
+          "new_ball_array_length": 5
+        },
+        "delta3": "new_ball_content_128_UTF8_bytes",
+        "ZD": "new_ball_content_128_UTF8_bytes",
+        "ZDD": "new_ball_content_128_UTF8_bytes",
+        "ZDD_two_complete_terms": {
+          "new_ball_array_length": 2
+        },
+        "WAC_two_complete_terms": {
+          "new_ball_array_length": 2
+        },
+        "DeltaRD_nine_complete_terms": {
+          "new_ball_array_length": 9
+        },
+        "DeltaRD": "new_ball_content_128_UTF8_bytes",
+        "E0_four_terms_before_lambda_inverse_square": {
+          "new_ball_array_length": 4
+        },
+        "H0_four_complete_terms": {
+          "new_ball_array_length": 4
+        },
+        "bop_complete_candidates": {
+          "new_ball_array_length": 2
+        },
+        "bop_selected_candidate": 1,
+        "ell": "new_ball_content_128_UTF8_bytes",
+        "ell_r": "new_ball_content_128_UTF8_bytes",
+        "ell_phi": "new_ball_content_128_UTF8_bytes",
+        "D_ell_over_eta_three_terms": {
+          "new_ball_array_length": 3
+        },
+        "signed_first_amplitude_three_terms": {
+          "new_ball_array_length": 3
+        },
+        "complete_bounds": {
+          "E": "new_ball_content_128_UTF8_bytes",
+          "H": "new_ball_content_128_UTF8_bytes",
+          "A": "new_ball_content_128_UTF8_bytes",
+          "A1": "new_ball_content_128_UTF8_bytes",
+          "b": "new_ball_content_128_UTF8_bytes",
+          "V": "new_ball_content_128_UTF8_bytes",
+          "C0": "new_ball_content_128_UTF8_bytes",
+          "C1": "new_ball_content_128_UTF8_bytes",
+          "d10": "new_ball_content_128_UTF8_bytes"
+        },
+        "two_frequency_signs_share_one_multiplier": true,
+        "nonzero_constant_d10_kept_without_z": true
+      }
+    },
+    {
+      "field": "complete_ordered_operator_conclusion",
+      "new_ball_occurrences": 34,
+      "top_level_members": 29,
+      "canonical_standalone_bytes": 5411,
+      "complete_shape": {
+        "cutoff_abs_j": 97,
+        "physical_minimum_frequency": 388,
+        "original_shear_uniform_upper": "new_ball_content_128_UTF8_bytes",
+        "Ai_A_upper": "new_ball_content_128_UTF8_bytes",
+        "Ai_D_upper": "new_ball_content_128_UTF8_bytes",
+        "genuine_diagonal_lower": "new_ball_content_128_UTF8_bytes",
+        "right_input_powers": {
+          "-1/3": "new_ball_content_128_UTF8_bytes",
+          "-2/3": "new_ball_content_128_UTF8_bytes",
+          "-1": "new_ball_content_128_UTF8_bytes",
+          "-4/3": "new_ball_content_128_UTF8_bytes",
+          "-2": "new_ball_content_128_UTF8_bytes",
+          "-10/3": "new_ball_content_128_UTF8_bytes",
+          "-4": "new_ball_content_128_UTF8_bytes",
+          "-6": "new_ball_content_128_UTF8_bytes"
+        },
+        "amplitude_two_terms": {
+          "new_ball_array_length": 2
+        },
+        "complete_unprojected_amplitude_upper": "new_ball_content_128_UTF8_bytes",
+        "E2_upper": "new_ball_content_128_UTF8_bytes",
+        "R0_eight_complete_terms": {
+          "new_ball_array_length": 8
+        },
+        "R0_upper": "new_ball_content_128_UTF8_bytes",
+        "complete_positive_mean_rank": "new_ball_content_128_UTF8_bytes",
+        "complete_IR0_upper": "new_ball_content_128_UTF8_bytes",
+        "high_leading_primitive_upper": "new_ball_content_128_UTF8_bytes",
+        "same_original_J1_L0_product": "new_ball_content_128_UTF8_bytes",
+        "inverse_error_two_groups": {
+          "new_ball_array_length": 2
+        },
+        "complete_inverse_error_upper": "new_ball_content_128_UTF8_bytes",
+        "complete_stable_error_upper": "new_ball_content_128_UTF8_bytes",
+        "strict_margin": "new_ball_content_128_UTF8_bytes",
+        "strict_comparison_uses_retained_75_digit_ball_endpoints": true,
+        "original_cutoff97_sufficient_gate_passed": false,
+        "root_stable_injectivity_certified": false,
+        "same_window_onto_only_with_original_SE_identity": false,
+        "negative_window_numerical_inverse_claimed": false,
+        "complete_incoming_inverse_claimed": false,
+        "finite_Schur_inverse_claimed": false,
+        "physical_independent_means_retained": true,
+        "full_IR0_norm_is_not_high_cut": true
+      }
+    }
+  ],
+  "source_output_shape_checks": [
+    {
+      "field": "complete_real_radial_interval_conclusion",
+      "function": "real_radial_intervals",
+      "source_output_top_keys": 28,
+      "all_top_keys_exact": true,
+      "unchanged_from_first_source": true
+    },
+    {
+      "field": "complete_root_drift_conclusion",
+      "function": "complete_root_drift",
+      "source_output_top_keys": 6,
+      "all_top_keys_exact": true,
+      "unchanged_from_first_source": true
+    },
+    {
+      "field": "complete_rational_quotient_conclusion",
+      "function": "complete_rational_quotient",
+      "source_output_top_keys": 18,
+      "all_top_keys_exact": true,
+      "unchanged_from_first_source": true
+    },
+    {
+      "field": "complete_correlated_coefficient_conclusion",
+      "function": "complete_correlated_coefficients",
+      "source_output_top_keys": 21,
+      "all_top_keys_exact": true,
+      "unchanged_from_first_source": true
+    },
+    {
+      "field": "complete_ordered_operator_conclusion",
+      "function": "complete_profile_and_error",
+      "source_output_top_keys": 29,
+      "all_top_keys_exact": true,
+      "unchanged_from_first_source": true
+    }
+  ],
+  "complete_model": {
+    "science": {
+      "bytes": 67259,
+      "sha256": "bba90a80a1c3e55bd6781ca230e92227860816a6fbbd70747002a9643a39a697",
+      "limit_bytes": 75000,
+      "headroom_bytes": 7741,
+      "under_limit": true
+    },
+    "prepublication": {
+      "bytes": 83687,
+      "sha256": "adbecbc54cbcf6f2bd4b90ef4ca1caeeb2e4a2698cd07c6913ca6803c2261637",
+      "limit_bytes": 90000,
+      "headroom_bytes": 6313,
+      "under_limit": true,
+      "payload_keys": [
+        "marker",
+        "source_sha256",
+        "manifest_sha256",
+        "run_id",
+        "run_attempt",
+        "actual_returncode",
+        "scientific_result",
+        "report_text"
+      ],
+      "scientific_result_embedded_as_object": true,
+      "marker_ASCII_bytes": 128,
+      "raw_report_bytes": 8000,
+      "report_JSON_content_bytes": 16000,
+      "report_model": "Eight thousand backslashes, so every byte requires two bytes inside a JSON string; bounds printable Markdown with only ordinary LF/CR/TAB controls. Final actual renderer remains separately reviewed."
+    }
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "three_git_result_files_hard_limit_sum_bytes": 142000,
+  "reserve_bytes": 150000,
+  "reserve_scope": "75000 science + 59000 execution + 8000 report = 142000; this is the output-cap arithmetic, not a claim about future repository capacity. The worker must still perform its fresh capacity gate.",
+  "diagnostic_stress_model": {
+    "scientific_execution": false,
+    "purpose": "Additional source-shape stress check, separate from the complete-science model.",
+    "finite_new_ball_content_bytes": 128,
+    "nonfinite_raw_representation_placeholder_bytes": 128,
+    "failure_message_placeholder_bytes": 256,
+    "nonfinite_fields_are_explicit_labels_not_balls": true,
+    "only_one_attempted_graph_is_stored_as_diagnostic": true,
+    "prior_completed_graphs_remain": true,
+    "models": [
+      {
+        "stage": "complete_new_radial_intervals",
+        "nonfinite_occurrences": 28,
+        "bytes": 44466,
+        "sha256": "cf5bb3ebaffffbc2477e94831159dae3a0cf7045a6870e32fbe98cc65e55304b"
+      },
+      {
+        "stage": "complete_new_root_drift",
+        "nonfinite_occurrences": 29,
+        "bytes": 49827,
+        "sha256": "f32373cb3fa55c819edb23e3efef68c8fb1bc90b275d256b2675aabd606899ba"
+      },
+      {
+        "stage": "complete_new_rational_quotient",
+        "nonfinite_occurrences": 72,
+        "bytes": 69628,
+        "sha256": "0ac734e8b805270d7a14a8fe854cab4be233ff6966139cccbf947c2616e19deb"
+      },
+      {
+        "stage": "complete_new_correlated_coefficients",
+        "nonfinite_occurrences": 56,
+        "bytes": 74760,
+        "sha256": "da480119c567bb973bbeb9cb793b5d749eb2751db8bd5f48e38b6b0e578df47c"
+      },
+      {
+        "stage": "complete_new_cutoff97_comparison",
+        "nonfinite_occurrences": 34,
+        "bytes": 74583,
+        "sha256": "666645112e9727fcb68ad3c9c6fc4025e403fab412dd3b148df8f46d2dc38c71"
+      }
+    ],
+    "prepublication_note": "These optional artificial nonfinite graphs are not a prediction of FLINT output. The complete prepublication 83687-byte model above does not claim a separate 90000-byte bound for every arbitrary diagnostic string. Atomic science and complete stdout must precede all actual format guards."
+  },
+  "limits_of_model": [
+    "128 bytes per new ball content is a declared static formatting assumption, not a numerical enclosure or an a priori bound on exponent length.",
+    "No candidate e/g value, gate verdict, radial coefficient, or mathematical norm was evaluated.",
+    "The runtime must preserve actual complete/partial bytes before applying size guards; this static model does not authorize dropping any graph or repeating saved mathematics."
+  ]
+}

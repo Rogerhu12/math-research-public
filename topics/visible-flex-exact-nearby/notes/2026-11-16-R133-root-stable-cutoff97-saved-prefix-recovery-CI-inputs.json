@@ -1,0 +1,245 @@
+{
+  "kind": "complete_root_stable_cutoff97_saved_prefix_recovery_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+  "source_sha256": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534",
+  "contract_git_blob": "4f4a4adec13ff9eb1d0a2ad4a5ccabadf3efa00e",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-root97-saved-prefix-recovery.md",
+  "original_worker_basis": {
+    "original_cutoff97_worker_git_blob": "b345e944c7ae46e15f2ba70d69c3b9b7c8d56649",
+    "original_cutoff97_worker_sha256": "22124d85263cff85877bd7a1bee388ad0a42af86a0ac49e3a1370502acccff88",
+    "root_owns_worker_and_workflow": true,
+    "continuation_only": "new unsaved radial and subsequent stages; exact saved mixed/domain prefix is read only"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "historical_inputs": [],
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py",
+    "rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "r97_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-root-cutoff97-scalar-recipe.md",
+    "recovery_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-root97-saved-prefix-recovery.md",
+    "original_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_scalar_gate.py",
+    "original_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json",
+    "saved_prefix": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/actual-scientific-conclusion.json",
+    "saved_execution": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/execution.json"
+  },
+  "current_text_input_roles": [
+    "source",
+    "worker",
+    "rules",
+    "r97_contract",
+    "recovery_contract",
+    "original_source",
+    "original_manifest",
+    "saved_prefix",
+    "saved_execution"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-root-cutoff97-scalar-recipe.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-root97-saved-prefix-recovery.md",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_scalar_gate.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/execution.json"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py": "add2b325a391e66a001df0a4f6547a545460188132e51025fbce378935461f04",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-root-cutoff97-scalar-recipe.md": "543ebc3899931db63bda92c31ce20d8f21013daac906e00eaf761a28ff582f74",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-exact-root97-saved-prefix-recovery.md": "fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_scalar_gate.py": "d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06",
+    "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json": "acc09858d35934db5743daf892b6edf370d3bb0185a662b2e96db01f1f68bcce",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/actual-scientific-conclusion.json": "95aa4c8d15a1b28e432c987735fa69f75463d8227905935ea151ec0258362e11",
+    "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/execution.json": "a8075eac021a0e1f49390efcd5b04f8526bd69a5c206ff6d365a0243e76f6146"
+  },
+  "mathematical_input_sha256": {
+    "r97_contract": "543ebc3899931db63bda92c31ce20d8f21013daac906e00eaf761a28ff582f74",
+    "recovery_contract": "fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9",
+    "original_source": "d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06",
+    "original_manifest": "acc09858d35934db5743daf892b6edf370d3bb0185a662b2e96db01f1f68bcce",
+    "saved_prefix": "95aa4c8d15a1b28e432c987735fa69f75463d8227905935ea151ec0258362e11",
+    "saved_execution": "a8075eac021a0e1f49390efcd5b04f8526bd69a5c206ff6d365a0243e76f6146"
+  },
+  "expected_actual_gate_count": 9,
+  "expected_immutable_AST_files": 3,
+  "expected_current_input_count": 9,
+  "expected_input_count": 9,
+  "complete_input_bytes": 291466,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "expected_actual_gate_count": 9,
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_intrinsic_parameter": "-7789843107295549/4611686018427387904",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "physical_root_piece": 2549,
+    "physical_period": "pi/2",
+    "normalized_angular_measure": true,
+    "input_cutoff_abs_j": 97,
+    "physical_minimum_frequency": 388,
+    "physical_frequency": "n=4|j|",
+    "exact_real_z_interval": [
+      "0",
+      "1/9409"
+    ],
+    "frequency_relation": "z=j^-2=16*n^-2",
+    "retained_physical_means": 2,
+    "old_target_calls_allowed": 0,
+    "old_source_imports_allowed": 0,
+    "expected_current_inputs": 9,
+    "expected_total_inputs": 9,
+    "expected_Python_AST_files": 3,
+    "expected_historical_gzip_inputs": 0,
+    "strict_failure_is_complete_scalar_result": true,
+    "full_complex_square_claimed": false,
+    "full_incoming_or_finite_Schur_inverse_claimed": false
+  },
+  "scope": {
+    "scientific_target": "one complete ordinary-L2 original-cutoff97 root stable scalar comparison",
+    "exact_real_parameter_family_only": true,
+    "fixed_eta0_and_same_root_piece": true,
+    "full_complex_square_result_claimed": false,
+    "full_mean_of_v_and_every_radial_mean_retained": true,
+    "independent_physical_mean_coordinates": 2,
+    "original_reflection_and_nonmean_inverse_domains_retained": true,
+    "complete_two_reference_columns_and_two_carrier_signs_retained": true,
+    "root_potential_small_case_does_not_replace_terminal_shear_case": true,
+    "lambda_is_physical_root_kappa_not_frequency_Airy_scale": true,
+    "positive_mean_rank_is_kept": true,
+    "only_proved_diagonal_mean_subterm_vanishes": true,
+    "full_IR0_uses_original_one_quarter": true,
+    "input_diagonals_not_commuted_through_multipliers_or_J": true,
+    "original_J1_is_complete_left_angular_derivative": true,
+    "old_negative_Sobolev_norms_not_inferred_from_L2": true,
+    "true_nonzero_beta_n_retained": true,
+    "actual_PDE_solution_claimed": false,
+    "full_incoming_inverse_claimed": false,
+    "finite_Schur_inverse_claimed": false,
+    "nonlinear_background_or_final_surface_claimed": false,
+    "next_cutoff_or_scientific_rerun_triggered": false
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery.py",
+      "git_blob": "ce991a307b62f2382127ffa10c9ca92b69a82696",
+      "bytes": 61957,
+      "sha256": "799b7faa1d2a72374b591561fefeb446099f3d27fe47b2d6ddbd4ae21b6d2534"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_saved_prefix_recovery_public_worker.py",
+      "git_blob": "a53479fd01bf761a34c20f2e3b819b92a9b3615e",
+      "bytes": 67316,
+      "sha256": "add2b325a391e66a001df0a4f6547a545460188132e51025fbce378935461f04"
+    },
+    {
+      "role": "rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "r97_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-root-cutoff97-scalar-recipe.md",
+      "git_blob": "cc0d98891f52a8c6ec1c718c57d7be143db0134c",
+      "bytes": 20143,
+      "sha256": "543ebc3899931db63bda92c31ce20d8f21013daac906e00eaf761a28ff582f74"
+    },
+    {
+      "role": "recovery_contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-root97-saved-prefix-recovery.md",
+      "git_blob": "4f4a4adec13ff9eb1d0a2ad4a5ccabadf3efa00e",
+      "bytes": 14338,
+      "sha256": "fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9"
+    },
+    {
+      "role": "original_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_scalar_gate.py",
+      "git_blob": "6f7037839126056ff25dec619150f76b0edcb3a7",
+      "bytes": 58950,
+      "sha256": "d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06"
+    },
+    {
+      "role": "original_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json",
+      "git_blob": "e0e74f7281acf11989075cb2e341822230926cad",
+      "bytes": 19895,
+      "sha256": "acc09858d35934db5743daf892b6edf370d3bb0185a662b2e96db01f1f68bcce"
+    },
+    {
+      "role": "saved_prefix",
+      "path": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/actual-scientific-conclusion.json",
+      "git_blob": "98bc2b2c916ae3f1e3e4c19f3309fed20b64cfad",
+      "bytes": 30812,
+      "sha256": "95aa4c8d15a1b28e432c987735fa69f75463d8227905935ea151ec0258362e11"
+    },
+    {
+      "role": "saved_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/root_stable_cutoff97_scalar_gate_ci/run-43786583355-1/execution.json",
+      "git_blob": "457225f983433eb478f64a76da9cc6712c3add36",
+      "bytes": 15594,
+      "sha256": "a8075eac021a0e1f49390efcd5b04f8526bd69a5c206ff6d365a0243e76f6146"
+    }
+  ],
+  "saved_prefix_admission": {
+    "original_run_id": "43786583355",
+    "original_run_attempt": "1",
+    "original_passed_gate_count": 14,
+    "original_actual_completed_cutoff97_comparisons": 0,
+    "expected_preserved_prefix_evidence_canonical_sha256": "be0f6546f2e3493b9650cb53800429364b4a1614de805c5f9ebebe4cd37eb32c",
+    "inherited_original_input_receipt_count": 18,
+    "inherited_original_input_receipts_canonical_sha256": "58741eb0f9365eb99e9760a07ef457f209bf94e8cfa88c9b56120dbdacd73cc5",
+    "current_original_gzip_restores": 0,
+    "saved_mixed_and_root_domain_recomputed": 0
+  },
+  "static_schema_review": {
+    "source_complete_fields": 35,
+    "new_gate_count": 9,
+    "planned_final_comparisons": 1,
+    "actual_comparison_counter": "actual_progress.completed_original_cutoff97_comparisons",
+    "failed_new_stage_diagnostic_is_failure_only": true,
+    "scientific_evaluation_performed": false
+  },
+  "static_publication_budget_review": {
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root97-recovery-static-output-budget.json",
+    "git_blob": "b6d431f1d63f428b3b16199d3b06bc6233ea88e2",
+    "bytes": 21541,
+    "sha256": "30899200a13e0ed3e075d3bed82e9e1a24953ebd0c6bf217fac6eb3d9f3bd194",
+    "complete_science_static_model_bytes": 67259,
+    "prepublication_static_model_bytes": 83687,
+    "report_conservative_format_bound_bytes": 7782,
+    "new_ball_content_bytes_assumed": 128,
+    "model_is_not_a_scientific_conclusion": true,
+    "original_model_manifest_sha256": "e4c4ae14309703341523dacb70796db83b76de60b625a7a30675d05548102ccc",
+    "adding_this_metadata_changes_only_fixed_length_manifest_hash_strings_in_the_model": true
+  }
+}
