@@ -86,3 +86,7 @@
 ## R481 — 固定十点与完整coast包围
 
 **R481：准确恒等式与完整区间包含的条件证明；无新数值。** [R481](results/R481-fixed-ten-semantic-domain-and-complete-coast-polynomial-enclosures.md)22205B/7e1402a1全文及72c真实函数核后刊：十系数是固定dyadic，同C三cut语义叶的相关集合仅被直积盒外包。coast准确三jet为 $a=A-\kappa\ell t+\ell^2P(t)$、$a_s=-\kappa+\ell P'(t)$、$a_{ss}=P''(t)$；xi真实支撑在前transition且端点二jet零。给定正宽度盒的速度全矩形条件等价于两端宽度的四个完整七次多项式正性；半径保双次数(2,8)全部27 Bernstein系数，不能只取角点。原重复宽度依赖可准确消去，但同C输入信息宽度与公共u/全部候选片/真实当前十点责任保留；已有R352/165方法不冒新发明。未归因205未决主因、不保证原预算可过、不加factory域前门、不把native或一次metric通过补C²/reach/精化。新实现与真实执行另付。
+
+## R446 — 实际204完整四程序与必要读回超限
+
+**实际204：128 owner原容差及四后续程序完成；必要详细读回超90KB，非native/fullDN接受。** [R446](results/R446-actual204-complete-four-components-and-necessary-readback-overflow.md)21458B/96d5775c全文核后刊，run43789310271/source189579b5、compute133043887128/report133114084407。一个方向/一次trial/一次接受，576阶段/129248原行全返，norm128原词9.68582474751023176032080482454992093e-11，fresh replay完整残差与全部226输出逐词同。真实bridge及绑定源码付576×224 stage maps、112边界、混合338×112 endpoint、原C-based physical audit四程序完整；旧owner内部未起的三false与postowner四true分层。完成谓词不付实数chart非奇异、全部338解析J、准确径向导数、native/fullDN或连续闭面门，后两接受明确false。必要111829B/08cf8251超90000，实际仅795B/f74e73f7错误正文两job同字/退出70；backend计数、详细readback极值/失败地址与逐trial未返范围不凭SHA补。原总钟/guard未超，最后matching_processes=[]但完整quiet证据未返，cleanup步骤success实际skip、无上传，不承诺末场可恢复。后继从原91独立重生并改必要表示，保持全部原科学/阈值/预算，R485/215另付。

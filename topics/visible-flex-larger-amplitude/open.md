@@ -28,6 +28,8 @@
 
 [R479](results/R479-complete39-fixed-semantic-context-readback.md)689517df/31a25a19/b988三核心已a9ff7bec，保相邻上下文/全原行序、同trial完整角色行相等与row positions、实际地址逐值同、连续eligible真pair；全部数值/错误/失败样本/FD/null/负零/未返保持，不重算坐标或任意编码。[213接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)17393B/748dfc98、plan5cd405f3/recipef2176b25已f7ba484f，入口bb4005b4/c0543ec8已fe0a0d73，实际run43812359001/sourcefe0a0d73/compute133116630470，R480/exact唯一终态。原108祖先、110public+2实际同目录view、真98父/39八批/17α/10500/1200/600/90/30/4096/原门保。生成失败保真实错误/partial，不启动缺失helper/假清理；正常必要/rules/own quiet才清。原完整必要对象形成后才去重复，不保证单90KB能装下；不重构206失去的末pair或原数值。
 
+**实际204：128 owner原容差及四后续程序完成；必要详细读回超90KB，非native/fullDN接受。** [R446](results/R446-actual204-complete-four-components-and-necessary-readback-overflow.md)21458B/96d5775c全文核后刊，run43789310271/source189579b5、compute133043887128/report133114084407。一个方向/一次trial/一次接受，576阶段/129248原行全返，norm128原词9.68582474751023176032080482454992093e-11，fresh replay完整残差与全部226输出逐词同。真实bridge及绑定源码付576×224 stage maps、112边界、混合338×112 endpoint、原C-based physical audit四程序完整；旧owner内部未起的三false与postowner四true分层。完成谓词不付实数chart非奇异、全部338解析J、准确径向导数、native/fullDN或连续闭面门，后两接受明确false。必要111829B/08cf8251超90000，实际仅795B/f74e73f7错误正文两job同字/退出70；backend计数、详细readback极值/失败地址与逐trial未返范围不凭SHA补。原总钟/guard未超，最后matching_processes=[]但完整quiet证据未返，cleanup步骤success实际skip、无上传，不承诺末场可恢复。后继从原91独立重生并改必要表示，保持全部原科学/阈值/预算，R485/215另付。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
