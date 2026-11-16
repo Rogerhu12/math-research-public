@@ -276,3 +276,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:20:12 UTC /root — R548实际231完整入口
 
 [R548](results/R548-request231-cached-owner-and-same-DN-model-complete-entry.md)三件144327B/topic121313B完整；request95286/f70f、wf23014/f1d3、证明全接口26027/fd1b，原229372源与八原对象不变→387源。真R547 prepare/128缓存compiler+defer/同DN全576/lift/全部原末门，原19200/allcaps/两90K/quiet保持；缺必要/运输错清complete，report第二体always、cleanup重查quiet。仅workflow_dispatch，发布后单POST另绑实际R549/geometry；不借226/229数值。
+
+
+## 2026-11-16 12:24:43 UTC /root — 九件历史行政证据移出main与231绑定
+
+[索引](notes/2026-11-16-fixed-f93-historical-administrative-retention.md)19644/1832，固定f93审计43865360393/133292401375完整32263/087a；55367文件/88模式/47行，九件1223890B仅内部引用。root核到05ae全97文件新增/21缺patch全文与九身份，无新36-token引用；本次普通提交移出九件并固定f93恢复，科学/41/54/四producer/十一log全保，不重做95H/open。231已43865772589/head05ae/compute133293818912 step11，geometry唯一R549，官方note同刊。
