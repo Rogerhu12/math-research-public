@@ -7,16 +7,16 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-joint-m-integral-free-lattice-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-bell-cube-negative-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
 - 已全成：四参数run43830684123/job133175032397、原pencil run43836278134/job133193599424；正式结论/身份见下及归档。根全日志/原raw/binding独核；数学数据只tmp/日志，不冒旧tmp存活。
 - **旧Bell作业43832009393已结束：** 双degree自测/权5–7完整；权8来源核但pair未完，conditional900在候选dump终标前75，E未跑。根四raw已无损独核；旧tmp不冒存活，详归档。
 
-- **Bell direct9在算：** [原单目标/E队列](notes/2026-11-16-r150-original-bell-target-only-interface-789f.md)实run43846433774，首600实592.300秒/75，1200/1800仅真75续。纯tt候选须原18乘回/SSI＋FLINT及严格E三分量；没有新positive或完整权9负证。
+- **旧Bell direct9已结束：** run43846433774/job133227659894三次std均75，实592.300/1192.209/1792.250秒，均无SSI终标，E未跑；只有双degree/单源自测全过。根三个原raw/同binding无损独核。新模7原子式独立关闭权9正源路线，不重跑该队列。
 
-- **[模7原Bell立方资格已闭](results/R150-appendix-original-bell-cube-prime-seven-admission-and-complete-weight-nine-dictionaries.md)：** 本地13.410秒/exit0，全部134399原Q系数7整，三次系数式mod7不可约；全部三Q立方/49368输出/16442来源字典真核。根raw/binding及16.999MB模型双SHA独核。下一真实原增广行秩到16047才排b³，未算新秩。
+- **[原Bell立方严格负及完整权9来源核已闭](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)：** 全49368×(16442+3)输入7,023,209产品真核；本地94.895秒/exit0，在16372原行得到16047原子式det7=6，其中原source16046＋c0一列。Q/E来源秩恰16046，396 Koszul恰全Q核；原b³非成员、全部K≤11纯参数源排除，最小Bell1来源权≥12（若存在）。根全源/6416 raw/binding/304.5MB输入/99.17MB状态及16047完整pivot独核。增广全秩只称≥16047；续b4/原9×56来源，未关Bell1判空。
 
 ## R150原rank-one精确系数接续
 
@@ -25,7 +25,7 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
-- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 原225列/真T16商给饱和自由25，R模恰R/s⊕R/s⊕R/h；s在T上可逆使前两项真分裂，余E为R/h与S=M∩T的扩张。full210本地3.923秒与远端run43849025211选源307.279秒＋消费2.168秒独立全成；全部共同数学字段SHA一致。域像34/最少6生成，根1交像0、根2交像9，仍8≤dR(M)≤9。续高carry/完整S，root1保自有G/V；cap50在244.275秒因旧检查点4.5MB格式守卫安全停，保前4阶段；审有界新接口，p12原乘回未算。
+- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 原225列/真T16商给饱和自由25，R模恰R/s⊕R/s⊕R/h；s在T上可逆使前两项真分裂，余E为R/h与S=M∩T的扩张。full210本地3.923秒与远端run43849025211选源307.279秒＋消费2.168秒独立全成；全部共同数学字段SHA一致。域像34/最少6生成，根1交像0、根2交像9，仍8≤dR(M)≤9。续高carry/完整S，root1保自有G/V；cap50旧4.5MB格式守卫安全停保身份，新有界50源已实际越过该点；p12原乘回未算。
 
 ## R150完整非rank-one及Bell1
 
@@ -35,9 +35,9 @@
 - **[原六次面恰35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)：** 同原E/D自由35、trace剩余det95使Z étale；全19源(q,I4M)七次792×1848单位双逆1254528门排rank5奇点。rank4局部Schur=unit(ac−b²)，六次面几何整正规、X平滑极小解消，恰35条两两不交(−2)核线，不称E有理。实run43836278134/2.981秒，根raw/binding/来源全核。
 - **[原对偶正规化及全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)：** 四q无基点，2v充足⇒finite，char0微分恢复μ给Gauss有理逆，X是degree80对偶的正规化；每核线映完整conic。同七次原source乘w的multinomial给b7，再保(b−1)源得四q＋十五δ单位覆盖；真各g_i^Ni原17源后才按N=1+Σ(Ni−1)粘合。局部来源尚未取得，原Bell1余理想仍开。
 
-- **[原自然幂与纯参数幂精确对应](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** A[t]/(J,b−t³)=C⊕Ct⊕Ct²，故t^K∈I当且仅当b^floor(K/3)∈J；ρ_r逐原来源无除法提取，最小Bell1来源权恰3q0。已付F127全M/T秩388/391使d100下(1,100,94)平方非零，E/三个嵌入亦已付，故全部K≤8无纯参数源。下一可从权9找正证；一列18原恒等及独立仿射乘回即足，负完备仍需所有门。没有新positive或特征零升格。
+- **[原自然幂与纯参数幂精确对应](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** A[t]/(J,b−t³)=C⊕Ct⊕Ct²，故t^K∈I当且仅当b^floor(K/3)∈J；ρ_r逐原来源无除法提取，最小Bell1来源权恰3q0。已付F127全M/T秩388/391使d100下(1,100,94)平方非零，E/三个嵌入亦已付，原K≤8下界现由新立方负证加强至K≤11；下一从权12/原商表示继续。完整18恒等足正证，有限域正证仍需特征零原乘回。
 
-- **[原权九秩上界已付](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)：** 原388列独立⇒72列独立⇒396条Koszul独立；完整49368×16442矩阵Q/E秩≤16046。未来完整mod127增广秩>16046才排b³及K≤11，新秩未算；std无纯列不作负。
+- [原权九396关系](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)的Q/E秩≤16046现与真模7原来源16046下界相合，给精确秩及全权9来源核；F7的指定Koszul向量独立性未另宣称。
 
 ## R271真实投影返回与剩余交叉
 
