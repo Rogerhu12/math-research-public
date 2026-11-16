@@ -285,3 +285,6 @@
 
 
 - [原U·A8完整四纤维执行](2026-11-16-original-u-a8-complete-trace-execution.md)：run43862249339/source9dbad443f488c8cbba484ed58e7430b70e93abdf完整Fraction成功，全正负Newton和给H36=4σ36(X+b)³A2/(2457b)，同批核原U trace0与A8绝对−Θ/3。实际A/N/J六行rank3、增广rank4，三个确定系数后余量仅X4为243/2912；完整源/hash可复现，原U的new与cross及中央门不删。
+
+
+- [原Tate全迹独立实现核验](2026-11-16-original-tate-trace-complete-scalar-comparison.md)：公开run43862778281/source84fd72748e36a2cbfd42201c623d0b86eb780303成功；两个r的全部底ell挠点、辅助异常、d2以及dell的独立ell²点均与完整scalar全迹相等，并另核dell底基迹零。实际基配对矩阵/全部记录hash保，原底群逐点全枚举修PARI变量冲突。只验证R883G实现，尚未计算原四个影子除子。
