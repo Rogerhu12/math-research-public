@@ -59,3 +59,6 @@
 
 
 - [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。
+
+
+- [R875](results/R875-original-exact-eisenstein-degree-gram.md)：原实周期格的指数3/负号和完整Hecke正则化将L(β²,2)/面积化成原17挠点有限E2和；h/T0与定向α压成三次trace。公开run43835263367在21.106秒给exact Q、q(1)=1389480/17，I∞基Gram=[[376,−40,−88],[−40,664,−416],[−88,−416,880]]。纯AM–GM/8整除/mod3证全I∞最小准度数恰376，非窗口最优；整个极化Gram整是实际Hom必要条件，仍未认候选已整。
