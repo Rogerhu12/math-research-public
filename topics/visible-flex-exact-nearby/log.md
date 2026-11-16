@@ -162,3 +162,9 @@ root全文独核28,366B/0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546
 root完整独核18,114B/19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce5849015a7e并独立展开两式；Newton正式核3–5，Tail正式核1–2/6。新的target B不是old N或N⊥；G-skew的真实onto与rough窗先构造再bootstrap使两边都不需指数界。TiA−BTν的两种完整写法是同一算子，函数级Fα+Fw=Fvi不靠扣减upper；Qa只消aux常数，真(h−1)ρi/fullE∂仍在。A/W/B全部侧序与finitecut如原，两个new whole候选同坐标方可选择，不与WBN不同left-normalized量混比。
 
 无新球、无旧成功重做；仅坐标存在及完整符号strong预算成立，不授实际matching inverse或最终family。本条独推，read b03902ab42c3efc9734e92be20b52d8244a8abaf两README未变。
+
+## 2026-11-16 04:06:13 UTC — 腰部已成链逐字归档；R46叶报告删除前保全
+
+735fb73f后H中WRA/WAD/WIT/WCS/WPL/WBN/WBP连续完整原段逐字存2,792B/4f988f233ca40873dae7cc4f25fb42c9c35d3153cfe7d7f6e62ee5f6d4f13683，active H仅缩索引，open2所有未付门及原proof不动。另独立发布R46 leaf0060 integer-energy v2单文件白名单7,898B/9f671a70e658e02d4653830208b282397ad6752557eecefb10325c0a68b8b68e；root完整读小proof16,376B与producer13,939B，固定44f19c4f metadata精确匹配ad627bc4/296883，整SHA由原proof明确给出。原成功仅leaf0060/fullcircle/realηbox/ordinarysource，whole strict/turning/return/cutoff全未解保留。
+
+296883B正文未fetch、0科学/0旧重算。NIF与WAD完整active输入列表该basename均0。此步只先推白名单，不删文件；后续freshcurrentguard吻合才普通删。read f03a35a79fc57520ed3c7edbd333104664ad24f3两README未变。
