@@ -1,15 +1,15 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0750-original-sources-rules-syntax-fixed",
+  "request_id": "20261116-0755-remaining-R800-R827-original-source-intake",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "52ea8f96e8bee2817a76f7a0368b8bea6e536585",
+  "rules_last_read_commit": "de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
-  "reader_sha256": "bc07f13ff87f92dd1460ed753a5bded7c8cb78029ec05176f2ce2652886f0ce4",
+  "reader_sha256": "b3659ad0a546c18f72b5446b63712a41666824738cba9eb5cfeb9887b1981971",
   "sources": [
     {
       "label": "R800",
@@ -26,36 +26,6 @@
       }
     },
     {
-      "label": "R799",
-      "mode": "R799",
-      "source": {
-        "run_id": "43695571499",
-        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
-        "artifact_id": 14153724209,
-        "artifact_name": "serre-global-R799-original-power7-power8-short-bases-43695571499-1",
-        "archive_bytes": 453521743,
-        "archive_sha256": "b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477",
-        "expected_conclusion": "success",
-        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933"
-      },
-      "index_sha256": "bc202037fb41aaa3138432c387ed8a69ae3f324cc6fc87c0fc5f50894155d2fd"
-    },
-    {
-      "label": "R801",
-      "mode": "R801",
-      "source": {
-        "run_id": "43701282817",
-        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
-        "artifact_id": 14156204348,
-        "artifact_name": "serre-global-R801-original-power6-to8-long-tails-43701282817-1",
-        "archive_bytes": 1049535812,
-        "archive_sha256": "dad8f653dd672099a873618992f32425902298250b1f62a46d8436983a6ef792",
-        "expected_conclusion": "success",
-        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f"
-      },
-      "index_sha256": "a71961611cc951408aa10bb68bdb48fc62c6c2499f81af56e7197b880a7fe75a"
-    },
-    {
       "label": "R827",
       "mode": "R827",
       "source": {
@@ -65,7 +35,7 @@
         "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
         "archive_bytes": 3646481834,
         "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
-        "expected_conclusion": "success"
+        "expected_conclusion": "failure"
       },
       "files": [
         {
@@ -104,33 +74,6 @@
           "sha256": "cb7aa5ca1095d801ae69153ee49c5cbbfce03202da3e1de77454fa869bdb30ec"
         }
       ]
-    },
-    {
-      "label": "R787",
-      "mode": "ended",
-      "source": {
-        "run_id": "43809321438",
-        "source_commit": "834098cabed1b51be700d9f0ce87086ff44363fb",
-        "artifact_id": 14204698566,
-        "artifact_name": "serre-global-R787-original-power5-function-relation-43809321438-1",
-        "archive_bytes": 458546401,
-        "archive_sha256": "1c044998efa94381a6f9c837b8143965dd4916d120fff4a5e296540139da77f6",
-        "expected_conclusion": "failure",
-        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04"
-      }
-    },
-    {
-      "label": "R824",
-      "mode": "ended",
-      "source": {
-        "run_id": "43792912432",
-        "source_commit": "33f5c3288305cdfc8ed1adb5e1e4fee3ed940870",
-        "artifact_id": 14205663835,
-        "artifact_name": "serre-global-R824-original-global-polar-generators-43792912432-1",
-        "archive_bytes": 1391989692,
-        "archive_sha256": "fd1084f9742b715efa7a305ce724ffc6900ba45c64d5437d9baf1ad550a3aab6",
-        "expected_conclusion": "failure"
-      }
     }
   ]
 }

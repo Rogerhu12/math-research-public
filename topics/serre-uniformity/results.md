@@ -210,3 +210,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R873 原循环7的两端函数域与范数构造已证明**：[完整证明](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)，SHA256 e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f。原8H+4E/2058截面及110阶注入给八次P和靶w=K/P′；原双同源交换保R870范数方向、c0c1与−3下降。17rhs/8补列和四M2新尾只规定真实消费者，未冒实际η支持。
 
 - **R874 原循环p商尺度与Kodaira–Spencer首项已证明**：[完整证明](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)，SHA256 6ca20e6c92b83c3ed9149b2d4b19f7c77c0855c8529c6b6b05650f88046c4d43。真ab=p、t′首层、a²/p KS、未分歧lift的原Abel与微分单位，以及全p+1首层相消/一旗标类型阻碍；原q-normal/同h M2/高度仍未闭。
+
+- **R872 原P0 jets与有界两权RR有限核已证明**：[完整方法](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)，SHA256 bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2。真rank271给平面局部正规与旧逆转置jets；完整272×418→146、原五Krylov点及Schur给固定χ的418空间。六极方向完整采样界11/23/15/15/25/27，最后18行128核和144补列；准确unit-solve与模值严格区分。新数值核、原t帧与period尚未计算。

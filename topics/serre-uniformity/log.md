@@ -582,3 +582,9 @@
 ### 2026-11-16 15:49 Asia/Taipei — serre-public-astra-20261115
 - 修共享serre-source-artifact-intake的嵌入Python括号：首run43826291004在rules即SyntaxError、未读原源/未算数学；workflow3c046c28/request68134dab立即续同六源，原reader/tag不改。
 - 本push规则：公开Actions真实pull至de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5（2026-11-16T07:49:02.259792+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 15:55 Asia/Taipei — serre-public-astra-20261115
+- R872纸证bd6ee11a：原P0同一271逆转置jets、273系数、272×418核及固定χ的418空间；首scope只五旧Krylov点，六原极方向≤27完整纤维，最终128/144仍待实际求值。
+- 纯IO实际读R787最新570位d97acf14/manifest20d5e10f、R824最新596位071c3390/manifest27a030ff；两原核不变续接，不重545/501以前。R799/R801两2050最小包已在artifact14206388855保全。
+- readerb3659ad0兼容R800旧无reference，R827按真实failure读已成W/五节点；request5b069f7a仅续这两源。H/open原文归档并压缩，旧全部边界保留；共享IO用途不变。
+- 本push规则：公开Actions真实pull至9bff804799c7dbf06685eeb3a03578cf8f200eb6（2026-11-16T07:55:32.238667+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

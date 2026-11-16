@@ -2,34 +2,59 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0750-source-intake-rules-syntax-repair",
-  "commit_message": "serre: repair the public source intake rules script and resume required IO",
-  "rules_last_read_commit": "1099f319ec76e3bd33761c5b997f553f89e9f603",
+  "request_id": "20261116-0756-R872-bounded-RR-proof-and-remaining-source-intake",
+  "commit_message": "serre: prove bounded original-point RR kernels and resume only missing source transfers",
+  "rules_last_read_commit": "de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "205cdf61357fd977b5e4ae865d2a34b54404b5e20239419e243a373f879c6a83",
+  "expected_previous_request_sha256": "4941ec961e865256790b21373fea9d3b777a2b7562e5933189761ef309c87ba5",
   "files": [
     {
-      "path": ".github/workflows/serre-source-artifact-intake.yml",
-      "sha256": "3c046c2899fa1f96ec6349cf8150aae9cfb68aa99f2763f3f6f293b2011a185b",
-      "expected_previous_sha256": "5f5e23187a11c98dbd55ff408e7e40ec065d396eddf66d35927aa6ccff9a6695"
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-bounded-RR-and-original-source-intake.md",
+      "sha256": "a8e0f68c77543fae89f75ed4988fac37a6071c6648a8fa21a7b6127066113943",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md",
+      "sha256": "2f51db1cc890ed9d159d80db7ff347f4e4c3dffa90fabaa7c387acfca8bb66bb",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/serre_public_artifact_source_intake.py",
+      "sha256": "b3659ad0a546c18f72b5446b63712a41666824738cba9eb5cfeb9887b1981971",
+      "expected_previous_sha256": "bc07f13ff87f92dd1460ed753a5bded7c8cb78029ec05176f2ce2652886f0ce4"
     },
     {
       "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "sha256": "68134dab95275b0231f23d83313ea17ed686a528f92715e6fc672a9dc3f2ed14",
-      "expected_previous_sha256": "db160e8a3dcf93d78cae91020031bea44acfcfcbc513ac858db9ee07d0c564a9"
+      "sha256": "5b069f7abca40c8db301f72be311abc78862be3891126c863b7dbee629659e70",
+      "expected_previous_sha256": "68134dab95275b0231f23d83313ea17ed686a528f92715e6fc672a9dc3f2ed14"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "0311810253ce2946172a439ad15a0e954366adf6381cf1cf611cb3dcba87a8e9",
-      "expected_previous_sha256": "8c6e9e494d91d0cc33f8f4f7188c269a52a68cc78c4609fed02f9c9d0d5de761"
+      "sha256": "c70750c01bae39b7dc6ea4fc3db47f565afa67cd4ef91ade55cacf71f92ca609",
+      "expected_previous_sha256": "a8e0f68c77543fae89f75ed4988fac37a6071c6648a8fa21a7b6127066113943"
+    },
+    {
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "6b0bc71e904d35e3688e8de4e1bf311a579c1c8849b48b34be2d2a150bfcd7df",
+      "expected_previous_sha256": "2f51db1cc890ed9d159d80db7ff347f4e4c3dffa90fabaa7c387acfca8bb66bb"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "248393259ae248b000ee50b476419a5248e9362a86587c828537ee7771c87ba9",
+      "expected_previous_sha256": "d9ff71bbe2cc332463c69e86cc667f236a81945ac475bcb98c70d2386b16462d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "251fc80bbe25995bc18a370157ce82a39f016fd2c01caa1b10b5c147dd91146f",
-      "expected_previous_sha256": "51068051aaa5f0eadc889b3f2a41e517f577fedb57da709d96221555f46df020"
+      "sha256": "3b4b0bf2b2fdb5381b8d108ffa0a2b51093e53472bdce12f5cd0e9977e783b63",
+      "expected_previous_sha256": "af8b8478715f5c0ffce809b39ff6a8490bae55ad661c9c4f701d44b10f9d0b01"
     }
   ],
   "dispatch_workflows": []
