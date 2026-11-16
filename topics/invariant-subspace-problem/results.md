@@ -515,3 +515,7 @@
 ## R271：任意放大方差的完整逆Gram极限与同原测试的阻尼相干代表（2026-11-16）
 
 [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许s_m/S_m无界但s_m≥S_m→0，在共同Fock闭域以固定物理测试伴随收敛和原逆Gram下界证明强极限P_M；任意新增强前缀R_m及完整强头截断1≤J_m<h_m也成立。Q≥R+J时物理f_(s,J)保全部原V/K/u，精确层范数κ_jr^jE_j给指数矩≤q、||f−a||²≤rε且ε→0，故f→P_Mg。全塔残量恰[1−r+W/s]Cf、截断top单列保留，头幂预算使用同ε。未删强头孔尾、未以小残量推真核距离，原D†/source-return/carry仍开。
+
+## R150：外除子127完整约化、自由商缺陷零与299维系数载体（2026-11-16）
+
+[完整证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)由实际121/61系数核确认barΩ=Ψ60²；原Q13的2015式/6069系数和全部211 minors在Q/127独立给small230/full1150，8primary差全0，故J127=0。完整C127/127即field全torsion299，严格degΔ+Σt127=299；新增s+64不能扣作J。余乘子仍barμ|F+²F−²E8(s+64)、deg≤21。root另核全部300χ系数、121平方和231H3系数，B21完整升幂SHA7fe313c97a1d001e2848d1f3df5d475b3d71b9c10860e93855fc3961014ae400。未搬31的tors下界，未识别Q μ或未乘μ的九目标来源。

@@ -21,7 +21,7 @@
 
 - **[正常商6012](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)/[显式投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** z_j=1、Mz=f²q给ℓ与imMᵀ=kerℓ；原E/V和三Σ-Bezout给VR=I、P=I−RV，T=coker[B6012,H_M P]不倒Ω。新R/P及完整W尾尚未数值构造。
 
-- **root2还余二维：** 精确J2=1把旧u+v+w=3更新为u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2。完整B第四页至多2；若actual=2才迫f2=16、m6=2、更高0。当前未报第四页，不把有理长度与高p指数互换。
+- **root2余二维：** u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2；全第四像≤2，actual=2才f2=16/m6=2/更高0。真p7及第四像未付，不混有理长度与p指数。
 
 
 - **[rank-one Bell16](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** μ b_r^16有原17来源/degree_m≤26；μ1才闭rank-one。全gradR3的非rank-one/ess(T3)≥4仍开，不倒μ/h*作算子逆。
@@ -30,7 +30,7 @@
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。已付父缓存SHA全核；所有回执在notes/r150-source-kernel-session-789f/。
 
-- **Ω两素数实核：** 31完整121系数保barμ|B21；127现全121/300系数确认barΩ=Ψ60²，0.002748026秒/raw5501·a5d6feb9。J127独立全211式给Q/field同230、χJ=1，1.056657023秒/raw9610·d4c07d28；s+64不能扣作J，299不降298。正式稿续。
+- **[Ω127/J0精确载体](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)：** barΩ=Ψ60²全121系数、Q/field Q13同230且J127=0；C127/127全299，degΔ+Σt127=299。barμ|F+²F−²E8(s+64)仍≤21；s+64不是J，不搬31的15方向。raw5501·a5d6feb9/9610·d4c07d28，根全300/231系数交叉真。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197真源给χ=(s−1)²(s−2)^5、t2=5。I3须197纠偏源/7图关系+b8/pb9及真p4；root2全210 recipe已核33227·aa7e3bfc，真p7/第四像未付。实际run/SHA保前态。
 - **[F127全torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** 全6188/2855基/rank4354/free13；state805/观测506稳定57/CK与AK=KJ真，raw9819·2c1054b2、state1414575·948d6e78。χ=s66(s−2)12(s+6)12F+8F−8E8⁵(s+64)barΩ。新live step12源码d520b190排60秒/1GiB，仅用paid299求九完整循环子模/最小式/h*实际作用，不重NF/GB/state，不推Q成员。
