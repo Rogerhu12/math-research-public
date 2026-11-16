@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:15 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:20 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -67,3 +67,9 @@
 - 原Ey=ℬ+3D与R837两锚给八个V11生成元和两图完整Cartier理想；原三同源EyR=3Ey+div(y²−b)给分式理想(y²−b)^−1 I_Ey³。保实际标量/刚性化，不把类相同当函数常数1；五加法极除子/eta-height仍缺。
 - R843已推4ca3456b；H接近10KB先逐字归档再压缩R787/R840/R841已成说明，完整入口保留。继续新1111消费者，旧Krylov/S5逆/Fourier不重，尚无1111结果。
 - 本push规则：本地真实pull至a9f3537462c2aed30d09e7e60b408e5f16c237e7（2026-11-16T00:15:34.282712+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:19（Asia/Taipei）— 原Hom字决定五个准确加法点
+- 新接口39880a1f复用R791/R804/R841原公式；R843同点非挠使原整数Hom字准确决定O/相等/相反，非零字y与x均非零，五个1±T^j保证原加法分母非零。不把任意代数表达式零判扩大为全局能力。
+- 首scope严格是原R791的五个g_j=(1+T^j)f，保T7=[ζ²]、rho反向点作用、所有准确单位解叶的完整σ运输；原比较函数值用七σ乘积，若改同靶T积须保Nb/b7及总幂−b_j−a_j。
+- 不用旧RR候选，不重非挠/CM/原Hom字或常数；点值及原比较函数值不代五极除子、c0刚性化、eta或height。D铅笔源IO已启动仅读原690行和五节点，数学继续公开Actions。
+- 本push规则：本地真实pull至8581b007d3a1b4b8d310f2bd8047676e66ff619a（2026-11-16T00:20:10.036547+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
