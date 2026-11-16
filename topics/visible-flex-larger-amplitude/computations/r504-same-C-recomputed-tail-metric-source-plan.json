@@ -1,0 +1,572 @@
+{
+  "schema": "R504-same-C-recomputed-tail-metric-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_same_C_recomputed_tail_metric_source_views.py",
+    "bytes": 9454,
+    "sha256": "3c282629dbad2c9b77c8245f84a801570b143a8ebe4619a8c4033b3664cc6789"
+  },
+  "helpers": [
+    {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    {
+      "file": "geometry_20261116_complete_coast_bernstein_enclosures.py",
+      "bytes": 18291,
+      "sha256": "3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae"
+    },
+    {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    {
+      "file": "geometry_20261116_same_C_recomputed_fixed_query_consumer.py",
+      "bytes": 7655,
+      "sha256": "0cda42f08ae866c9c002fd396240399a9e2193378f44cd8939e26e7af45e6b4c"
+    },
+    {
+      "file": "geometry_20261115_current_C_ten_live_query_complete_metric.py",
+      "bytes": 55040,
+      "sha256": "77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892"
+    },
+    {
+      "file": "geometry_20261115_same_job_C_live_query_provider.py",
+      "bytes": 31603,
+      "sha256": "07fc4e41a6318c43a6e03313356df4df7538ccd5ea110406434b2e420c09bcd9"
+    }
+  ],
+  "views": [
+    {
+      "role": "fixed_original112",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_original112_fixed_metric.py",
+        "bytes": 52120,
+        "sha256": "c8729d2e07cb398c80c02d7aab6f5f7efb78d9607542fd17979720671552e110"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_original112_fixed_metric.py",
+        "bytes": 52454,
+        "sha256": "09c1bc45da87a299985368a4f6f3193a2b1cd48cbd42f4605b33e99319512a9b",
+        "schema": "R504-same-C-recomputed-original112-fixed-query-complete-metric-v1",
+        "frame": "R504_FIXED_ORIGINAL112_RECOMPUTED_C_METRIC"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 same-C refined-leaf complete metric: fixed_original112.\n\nThe original original112 loader, complete accepted checkpoint, exact target DAG,\nfield nodes, material map, cap attachment and all original strict predicates\nremain bound. R492 independently rereads the real same-job R489 result and\nintersects only valid enclosures of the same semantic C leaves. The complete\nR483 coast expression is evaluated from these leaves without module mutation.\nEvery closed root, reflection, cut patch, cap and original four Loewner tests\nis retained. The original fixed/live tail E(r) provider remains unchanged.\n\nThere is no BVP/native acceptance change, new run, root selection, deleted raw\npayload, arbitrary-box realization or promised improvement/termination. All\nscientific work belongs only to the named public Actions and original clock.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-C fixed-query closed metric.\n\nThe full original field, refined-leaf/coast expressions and complete closed\nfour-Loewner/DFS traversal are unchanged. The actual R489 recomputed query\nmembers now provide a second enclosure of the same tail E(r); complete\nold bounds survive and the closed intervals are combined without a live\noracle or new query budget. No original field/CP/definition is relabelled.\nOnly the named public Actions executes arithmetic.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-C-refined-original112-fixed-query-complete-metric-v1\"",
+          "after": "SCHEMA = \"R504-same-C-recomputed-original112-fixed-query-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_recomputed_fixed_query_consumer.py\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {",
+          "after": "SOURCE_PINS = {\n    TAIL_QUERY_NAME: \"0cda42f08ae866c9c002fd396240399a9e2193378f44cd8939e26e7af45e6b4c\",",
+          "count": 1
+        },
+        {
+          "before": "        Bridge = loaded[BRIDGE_NAME]",
+          "after": "        TailQuery = loaded[TAIL_QUERY_NAME]\n        Bridge = loaded[BRIDGE_NAME]",
+          "count": 1
+        },
+        {
+          "before": "        tail = ActualCompleteCTarget(C, current_bundle, args.continuous_e_result,\n                                     args.continuous_e_result_sha256)",
+          "after": "        tail = TailQuery.bind_loaded_fixed_same_C_tail_queries(current_bundle,\n            args=args, output=args.out, metric_started=started,\n            budget_check=lambda: Bridge.check_local_budget(started, declared_budget_seconds))",
+          "count": 1
+        },
+        {
+          "before": "            actual_complete_C_result=tail.receipts,",
+          "after": "            actual_complete_C_result=tail.receipts,\n            actual_same_C_recomputed_query_binding=tail.binding_receipt,",
+          "count": 1
+        },
+        {
+          "before": "        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "after": "        refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; same_actual_C_target records the R504 tail binding\",\n        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n            \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            whole_query_bound_not_cut_box_extrapolation=True,",
+          "after": "            whole_query_bound_not_cut_box_extrapolation=True,\n            actual_R489_recomputed_query_members_consumed=True,\n            original_factory_C_bytes_and_field_identity_not_relabelled=True,",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_FIXED_ORIGINAL112_REFINED_C_METRIC",
+          "after": "BEGIN_R504_FIXED_ORIGINAL112_RECOMPUTED_C_METRIC",
+          "count": 1
+        },
+        {
+          "before": "END_R495_FIXED_ORIGINAL112_REFINED_C_METRIC",
+          "after": "END_R504_FIXED_ORIGINAL112_RECOMPUTED_C_METRIC",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": false,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    },
+    {
+      "role": "live_original112",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_original112_live_metric.py",
+        "bytes": 57022,
+        "sha256": "927ed104fa2d94a45531d42f5b5ab1927760e1ea832c4a038980968083c3c8ed"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_original112_live_metric.py",
+        "bytes": 57288,
+        "sha256": "7d47d97fcc1bdbedb5900c7b0eaf6f33713ad40713313173c8b96313d5beed10",
+        "schema": "R504-same-C-recomputed-original112-live-query-complete-metric-v1",
+        "frame": "R504_LIVE_ORIGINAL112_RECOMPUTED_C_METRIC"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 same-C refined-leaf complete metric: live_original112.\n\nThe original original112 loader, complete accepted checkpoint, exact target DAG,\nfield nodes, material map, cap attachment and all original strict predicates\nremain bound. R492 independently rereads the real same-job R489 result and\nintersects only valid enclosures of the same semantic C leaves. The complete\nR483 coast expression is evaluated from these leaves without module mutation.\nEvery closed root, reflection, cut patch, cap and original four Loewner tests\nis retained. The original fixed/live tail E(r) provider remains unchanged.\n\nThere is no BVP/native acceptance change, new run, root selection, deleted raw\npayload, arbitrary-box realization or promised improvement/termination. All\nscientific work belongs only to the named public Actions and original clock.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-C live-query complete metric.\n\nKeep the full R495 accurate field/target/coast and original four-Loewner closed\nDFS. The ONE original query provider now reads the real R489 recomputed source\npanels/cumulative radii through the explicit R500 same-semantic-C bridge.\nComplete old coarse bounds remain usable. No original field, CP, material,\nsource global, mathematical gate or original deadline is changed.\nAll scientific evaluation executes only in the named public Actions.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-C-refined-original112-live-query-complete-metric-v1\"",
+          "after": "SCHEMA = \"R504-same-C-recomputed-original112-live-query-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_refined_head_tail_queries.py\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {",
+          "after": "SOURCE_PINS = {\n    TAIL_QUERY_NAME: \"2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580\",",
+          "count": 1
+        },
+        {
+          "before": "        Bridge = loaded[BRIDGE_NAME]",
+          "after": "        TailQuery = loaded[TAIL_QUERY_NAME]\n        Bridge = loaded[BRIDGE_NAME]",
+          "count": 1
+        },
+        {
+          "before": "        fixed_tail = ActualCompleteCTarget(C, current_bundle, args.continuous_e_result,\n                                           args.continuous_e_result_sha256)\n        tail = Live.LiveQueryTarget(C, fixed_tail, args, args.out, started)",
+          "after": "        tail = TailQuery.bind_loaded_same_C_tail_queries(current_bundle,\n            args=args, output=args.out, metric_started=started,\n            budget_check=lambda: Bridge.check_local_budget(started, declared_budget_seconds))",
+          "count": 1
+        },
+        {
+          "before": "            all_original_head_six_integral_sums_not_reexecuted=True,",
+          "after": "            full_head_six_integral_sums_not_reexecuted_inside_this_query_call=True,\n            actual_R489_recomputed_head_is_the_live_source=True,",
+          "count": 1
+        },
+        {
+          "before": "        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "after": "        refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; same_actual_C_target records the R504 tail binding\",\n        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n            \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            whole_query_bound_not_cut_box_extrapolation=True,",
+          "after": "            whole_query_bound_not_cut_box_extrapolation=True,\n            actual_R489_recomputed_query_members_consumed=True,\n            original_factory_C_bytes_and_field_identity_not_relabelled=True,",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_LIVE_ORIGINAL112_REFINED_C_METRIC",
+          "after": "BEGIN_R504_LIVE_ORIGINAL112_RECOMPUTED_C_METRIC",
+          "count": 1
+        },
+        {
+          "before": "END_R495_LIVE_ORIGINAL112_REFINED_C_METRIC",
+          "after": "END_R504_LIVE_ORIGINAL112_RECOMPUTED_C_METRIC",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": true,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    },
+    {
+      "role": "live_resolution112",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_resolution112_live_metric.py",
+        "bytes": 57053,
+        "sha256": "596bbacba0002351684960c21c0e2351e2c2e506482b9204cb9633fa29beaad1"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_resolution112_live_metric.py",
+        "bytes": 57315,
+        "sha256": "0bea4d3d69de45ff319f9e8e7e672cd83aaa89e77836c81b9c97a36cf8be5c89",
+        "schema": "R504-same-C-recomputed-resolution112-live-query-complete-metric-v1",
+        "frame": "R504_LIVE_RESOLUTION112_RECOMPUTED_C_METRIC"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 same-C refined-leaf complete metric: live_resolution112.\n\nThe original resolution112 loader, complete accepted checkpoint, exact target DAG,\nfield nodes, material map, cap attachment and all original strict predicates\nremain bound. R492 independently rereads the real same-job R489 result and\nintersects only valid enclosures of the same semantic C leaves. The complete\nR483 coast expression is evaluated from these leaves without module mutation.\nEvery closed root, reflection, cut patch, cap and original four Loewner tests\nis retained. The original fixed/live tail E(r) provider remains unchanged.\n\nThere is no BVP/native acceptance change, new run, root selection, deleted raw\npayload, arbitrary-box realization or promised improvement/termination. All\nscientific work belongs only to the named public Actions and original clock.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-C live-query complete metric.\n\nKeep the full R495 accurate field/target/coast and original four-Loewner closed\nDFS. The ONE original query provider now reads the real R489 recomputed source\npanels/cumulative radii through the explicit R500 same-semantic-C bridge.\nComplete old coarse bounds remain usable. No original field, CP, material,\nsource global, mathematical gate or original deadline is changed.\nAll scientific evaluation executes only in the named public Actions.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-C-refined-resolution112-live-query-complete-metric-v1\"",
+          "after": "SCHEMA = \"R504-same-C-recomputed-resolution112-live-query-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_refined_head_tail_queries.py\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {",
+          "after": "SOURCE_PINS = {\n    TAIL_QUERY_NAME: \"2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580\",",
+          "count": 1
+        },
+        {
+          "before": "        Bridge = loaded[BRIDGE_NAME]",
+          "after": "        TailQuery = loaded[TAIL_QUERY_NAME]\n        Bridge = loaded[BRIDGE_NAME]",
+          "count": 1
+        },
+        {
+          "before": "        fixed_tail = ActualCompleteCTarget(C, current_bundle, args.continuous_e_result,\n                                           args.continuous_e_result_sha256)\n        tail = Live.LiveQueryTarget(C, fixed_tail, args, args.out, started)",
+          "after": "        tail = TailQuery.bind_loaded_same_C_tail_queries(current_bundle,\n            args=args, output=args.out, metric_started=started,\n            budget_check=lambda: Bridge.check_local_budget(started, declared_budget_seconds))",
+          "count": 1
+        },
+        {
+          "before": "            all_original_head_six_integral_sums_not_reexecuted=True,",
+          "after": "            full_head_six_integral_sums_not_reexecuted_inside_this_query_call=True,\n            actual_R489_recomputed_head_is_the_live_source=True,",
+          "count": 1
+        },
+        {
+          "before": "        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "after": "        refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; same_actual_C_target records the R504 tail binding\",\n        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n            \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            whole_query_bound_not_cut_box_extrapolation=True,",
+          "after": "            whole_query_bound_not_cut_box_extrapolation=True,\n            actual_R489_recomputed_query_members_consumed=True,\n            original_factory_C_bytes_and_field_identity_not_relabelled=True,",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_LIVE_RESOLUTION112_REFINED_C_METRIC",
+          "after": "BEGIN_R504_LIVE_RESOLUTION112_RECOMPUTED_C_METRIC",
+          "count": 1
+        },
+        {
+          "before": "END_R495_LIVE_RESOLUTION112_REFINED_C_METRIC",
+          "after": "END_R504_LIVE_RESOLUTION112_RECOMPUTED_C_METRIC",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": true,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    },
+    {
+      "role": "live_completeM",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_complete_M_live_metric.py",
+        "bytes": 57000,
+        "sha256": "b434a1032466ed2c40fc34cda7c8144008a068f654a5136989b102980681118f"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_complete_M_live_metric.py",
+        "bytes": 57270,
+        "sha256": "f2fff4a5c72c61b147e007e301eef71d8c4c617355b75d12a5e705fc334e77fc",
+        "schema": "R504-same-C-recomputed-complete-M-live-query-complete-metric-v1",
+        "frame": "R504_LIVE_COMPLETEM_RECOMPUTED_C_METRIC"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 same-C refined-leaf complete metric: live_completeM.\n\nThe original completeM loader, complete accepted checkpoint, exact target DAG,\nfield nodes, material map, cap attachment and all original strict predicates\nremain bound. R492 independently rereads the real same-job R489 result and\nintersects only valid enclosures of the same semantic C leaves. The complete\nR483 coast expression is evaluated from these leaves without module mutation.\nEvery closed root, reflection, cut patch, cap and original four Loewner tests\nis retained. The original fixed/live tail E(r) provider remains unchanged.\n\nThere is no BVP/native acceptance change, new run, root selection, deleted raw\npayload, arbitrary-box realization or promised improvement/termination. All\nscientific work belongs only to the named public Actions and original clock.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-C live-query complete metric.\n\nKeep the full R495 accurate field/target/coast and original four-Loewner closed\nDFS. The ONE original query provider now reads the real R489 recomputed source\npanels/cumulative radii through the explicit R500 same-semantic-C bridge.\nComplete old coarse bounds remain usable. No original field, CP, material,\nsource global, mathematical gate or original deadline is changed.\nAll scientific evaluation executes only in the named public Actions.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-C-refined-complete-M-live-query-complete-metric-v1\"",
+          "after": "SCHEMA = \"R504-same-C-recomputed-complete-M-live-query-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_refined_head_tail_queries.py\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {",
+          "after": "SOURCE_PINS = {\n    TAIL_QUERY_NAME: \"2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580\",",
+          "count": 1
+        },
+        {
+          "before": "        Bridge = loaded[BRIDGE_NAME]",
+          "after": "        TailQuery = loaded[TAIL_QUERY_NAME]\n        Bridge = loaded[BRIDGE_NAME]",
+          "count": 1
+        },
+        {
+          "before": "        fixed_tail = ActualCompleteCTarget(C, current_bundle, args.continuous_e_result,\n                                           args.continuous_e_result_sha256)\n        tail = Live.LiveQueryTarget(C, fixed_tail, args, args.out, started)",
+          "after": "        tail = TailQuery.bind_loaded_same_C_tail_queries(current_bundle,\n            args=args, output=args.out, metric_started=started,\n            budget_check=lambda: Bridge.check_local_budget(started, declared_budget_seconds))",
+          "count": 1
+        },
+        {
+          "before": "            all_original_head_six_integral_sums_not_reexecuted=True,",
+          "after": "            full_head_six_integral_sums_not_reexecuted_inside_this_query_call=True,\n            actual_R489_recomputed_head_is_the_live_source=True,",
+          "count": 1
+        },
+        {
+          "before": "        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "after": "        refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; same_actual_C_target records the R504 tail binding\",\n        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n            \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            whole_query_bound_not_cut_box_extrapolation=True,",
+          "after": "            whole_query_bound_not_cut_box_extrapolation=True,\n            actual_R489_recomputed_query_members_consumed=True,\n            original_factory_C_bytes_and_field_identity_not_relabelled=True,",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_LIVE_COMPLETEM_REFINED_C_METRIC",
+          "after": "BEGIN_R504_LIVE_COMPLETEM_RECOMPUTED_C_METRIC",
+          "count": 1
+        },
+        {
+          "before": "END_R495_LIVE_COMPLETEM_REFINED_C_METRIC",
+          "after": "END_R504_LIVE_COMPLETEM_RECOMPUTED_C_METRIC",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": true,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    },
+    {
+      "role": "live_incrementalM",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_incremental_M_live_metric.py",
+        "bytes": 57066,
+        "sha256": "9933f4c76c33a8459ae3af11505682bcc0063a6ae2e6bd96b8296da6b0baf260"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_incremental_M_live_metric.py",
+        "bytes": 57330,
+        "sha256": "f9645484c3809bf08759ede6c49781336288e9313553f03f00ff3f1884a57d2d",
+        "schema": "R504-same-C-recomputed-incremental-M-live-query-complete-metric-v1",
+        "frame": "R504_LIVE_INCREMENTALM_RECOMPUTED_C_METRIC"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 same-C refined-leaf complete metric: live_incrementalM.\n\nThe original incrementalM loader, complete accepted checkpoint, exact target DAG,\nfield nodes, material map, cap attachment and all original strict predicates\nremain bound. R492 independently rereads the real same-job R489 result and\nintersects only valid enclosures of the same semantic C leaves. The complete\nR483 coast expression is evaluated from these leaves without module mutation.\nEvery closed root, reflection, cut patch, cap and original four Loewner tests\nis retained. The original fixed/live tail E(r) provider remains unchanged.\n\nThere is no BVP/native acceptance change, new run, root selection, deleted raw\npayload, arbitrary-box realization or promised improvement/termination. All\nscientific work belongs only to the named public Actions and original clock.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-C live-query complete metric.\n\nKeep the full R495 accurate field/target/coast and original four-Loewner closed\nDFS. The ONE original query provider now reads the real R489 recomputed source\npanels/cumulative radii through the explicit R500 same-semantic-C bridge.\nComplete old coarse bounds remain usable. No original field, CP, material,\nsource global, mathematical gate or original deadline is changed.\nAll scientific evaluation executes only in the named public Actions.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-C-refined-incremental-M-live-query-complete-metric-v1\"",
+          "after": "SCHEMA = \"R504-same-C-recomputed-incremental-M-live-query-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_refined_head_tail_queries.py\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {",
+          "after": "SOURCE_PINS = {\n    TAIL_QUERY_NAME: \"2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580\",",
+          "count": 1
+        },
+        {
+          "before": "        Bridge = loaded[BRIDGE_NAME]",
+          "after": "        TailQuery = loaded[TAIL_QUERY_NAME]\n        Bridge = loaded[BRIDGE_NAME]",
+          "count": 1
+        },
+        {
+          "before": "        fixed_tail = ActualCompleteCTarget(C, current_bundle, args.continuous_e_result,\n                                           args.continuous_e_result_sha256)\n        tail = Live.LiveQueryTarget(C, fixed_tail, args, args.out, started)",
+          "after": "        tail = TailQuery.bind_loaded_same_C_tail_queries(current_bundle,\n            args=args, output=args.out, metric_started=started,\n            budget_check=lambda: Bridge.check_local_budget(started, declared_budget_seconds))",
+          "count": 1
+        },
+        {
+          "before": "            all_original_head_six_integral_sums_not_reexecuted=True,",
+          "after": "            full_head_six_integral_sums_not_reexecuted_inside_this_query_call=True,\n            actual_R489_recomputed_head_is_the_live_source=True,",
+          "count": 1
+        },
+        {
+          "before": "        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "after": "        refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; same_actual_C_target records the R504 tail binding\",\n        refined_semantic_C_evaluation=None if refined_bundle is None else Bridge.compact(refined_bundle),",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n            \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            whole_query_bound_not_cut_box_extrapolation=True,",
+          "after": "            whole_query_bound_not_cut_box_extrapolation=True,\n            actual_R489_recomputed_query_members_consumed=True,\n            original_factory_C_bytes_and_field_identity_not_relabelled=True,",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_LIVE_INCREMENTALM_REFINED_C_METRIC",
+          "after": "BEGIN_R504_LIVE_INCREMENTALM_RECOMPUTED_C_METRIC",
+          "count": 1
+        },
+        {
+          "before": "END_R495_LIVE_INCREMENTALM_REFINED_C_METRIC",
+          "after": "END_R504_LIVE_INCREMENTALM_RECOMPUTED_C_METRIC",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": true,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    },
+    {
+      "role": "evidence",
+      "baseline": {
+        "file": "geometry_20261116_refined_C_fixed_target_metric_evidence.py",
+        "bytes": 64481,
+        "sha256": "ec52160b75526cf645fbca71858169c35d249941757d5483440020ac3ba8278d"
+      },
+      "output": {
+        "file": "geometry_20261116_recomputed_C_fixed_target_metric_evidence.py",
+        "bytes": 65229,
+        "sha256": "18a96d962da2fc3010e0b52144030a72e506bb6860fed7a953d94ac65b8e4a32",
+        "schema": "R504-same-accurate-closed-target-recomputed-C-metric-evidence-v1",
+        "frame": "R504_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R495 actual same-target metric evidence using real R489 refined C leaves.\n\nThe full R459/R464 closed-domain operator norm, ancestor-bound coverage,\nall-time common-material proof, actual nested t queries and honest interval\ncomparison remain unchanged. Each original complete field loader runs first.\nThe independent R492 bridge then encloses the same exact target and accurate\ncut function from the actual old/new C intersection; R483 evaluates the full\ncoast expression on these new leaves. No original object/global is modified.\n\nMaterial point queries retain the registered original valid field enclosures.\nTheir exact function is the same; this source does not claim those t-point\nboxes or the original tail E(r) live-query provider were newly refined. Every\ncalculation uses the original absolute clock, full field, ten parameters and\noriginal acceptance responsibility. Only public Actions execute arithmetic.\n\"\"\"",
+          "after": "\"\"\"R504 actual same-target metric evidence with recomputed-C tail queries.\n\nKeep the full R495/R459 operator-norm, complete-domain coverage, common-material\nphase transfer, real nested t witnesses and interval comparison. The actual\nR489 query members and retained recomputed source panels now enter the ONE\noriginal live query path through R500. Original factory C identities remain\nseparate, all fields and target parameters stay fixed, and no extra clock,\nacceptance gate, evidence threshold or source-global mutation is introduced.\nOnly public Actions executes arithmetic; no actual bound or success is preset.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R495-same-accurate-closed-target-refined-C-metric-evidence-v1\"",
+          "after": "SCHEMA = \"R504-same-accurate-closed-target-recomputed-C-metric-evidence-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "after": "TAIL_QUERY_NAME = \"geometry_20261116_same_C_refined_head_tail_queries.py\"\nTAIL_QUERY_SHA = \"2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580\"\nBRIDGE_NAME = \"geometry_20261116_same_C_refined_metric_family_bridge.py\"",
+          "count": 1
+        },
+        {
+          "before": "        Bridge, self.sources[BRIDGE_NAME] = load_source(data[\"computations\"], BRIDGE_NAME, BRIDGE_SHA)",
+          "after": "        TailQuery, self.sources[TAIL_QUERY_NAME] = load_source(data[\"computations\"], TAIL_QUERY_NAME, TAIL_QUERY_SHA)\n        Bridge, self.sources[BRIDGE_NAME] = load_source(data[\"computations\"], BRIDGE_NAME, BRIDGE_SHA)",
+          "count": 1
+        },
+        {
+          "before": "        fixed = metric.ActualCompleteCTarget(loaded[\"C_NAME\"], self.current,\n            args.continuous_e_result, args.continuous_e_result_sha256)\n",
+          "after": "",
+          "count": 1
+        },
+        {
+          "before": "        self.tail = Live.LiveQueryTarget(loaded[\"C_NAME\"], fixed, args, self.out, live_started)",
+          "after": "        self.tail = TailQuery.bind_loaded_same_C_tail_queries(self.current,\n            args=args, output=self.out, metric_started=live_started, budget_check=self.budget.check)",
+          "count": 1
+        },
+        {
+          "before": "            refined_semantic_C_evaluation=None if self.refined is None else self.Bridge.compact(self.refined),",
+          "after": "            same_semantic_tail_queries=None if self.tail is None else self.tail.necessary(),\n            refined_semantic_C_evaluation_scope=\"Original R495 leaf-only receipt; the R504 tail source is recorded separately\",\n            refined_semantic_C_evaluation=None if self.refined is None else self.Bridge.compact(self.refined),",
+          "count": 1
+        },
+        {
+          "before": "        \"refined_semantic_C_evaluation\", \"complete_coast_range\",",
+          "after": "        \"refined_semantic_C_evaluation\", \"complete_coast_range\",\n        \"same_semantic_tail_queries\", \"refined_semantic_C_evaluation_scope\",",
+          "count": 1
+        },
+        {
+          "before": "            refined_semantic_C_evaluation=row[\"refined_semantic_C_evaluation\"],",
+          "after": "            same_semantic_tail_queries_reference=dict(\n                actual_measurement_result=identities[index],\n                object_present=row[\"same_semantic_tail_queries\"] is not None,\n                complete_object_identity=(None if row[\"same_semantic_tail_queries\"] is None\n                    else identity(row[\"same_semantic_tail_queries\"])),\n                full_query_scope_in_that_measurement_necessary_not_repeated_here=True),\n            refined_semantic_C_evaluation_scope=row[\"refined_semantic_C_evaluation_scope\"],\n            refined_semantic_C_evaluation=row[\"refined_semantic_C_evaluation\"],",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R495_REFINED_C_FIXED_TARGET_EVIDENCE",
+          "after": "BEGIN_R504_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+          "count": 1
+        },
+        {
+          "before": "END_R495_REFINED_C_FIXED_TARGET_EVIDENCE",
+          "after": "END_R504_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+          "count": 1
+        }
+      ],
+      "scope": {
+        "current_R495_field_target_coast_and_original_DFS_or_norm_math_unchanged": true,
+        "source_globals_never_mutated": true,
+        "original_factory_C_identity_retained": true,
+        "actual_R489_complete_query_members_used": true,
+        "original_live_oracle_preserved": true,
+        "new_live_oracle_created_for_fixed_role": false,
+        "no_new_native_FD_fullDN_or_accepted_gate": true
+      }
+    }
+  ],
+  "scope": {
+    "requires_real_prior_R495_generation": true,
+    "all_original_transitive_sources_retained": true,
+    "original_sources_never_modified": true,
+    "generated_views_only_in_actual_computations": true,
+    "one_fixed_query_only_and_five_original_live_roles": true,
+    "old_new_all_root_closed_query_bounds_not_midpoints": true,
+    "one_original_metric_or_measurement_clock": true,
+    "old_first_material_signature_not_changed_to_new_C_work_binding": true,
+    "complete_necessary_new_query_scope_preserved": true,
+    "no_request_or_actual_accepted_parent_created": true,
+    "no_scientific_execution_AST_compile_or_fixture_here": true
+  }
+}

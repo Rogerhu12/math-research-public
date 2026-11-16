@@ -45,3 +45,7 @@
 ## 2026-11-16 08:21:00 UTC /root — Request218官方启动
 
 [218官方绑定](notes/2026-11-16-request218-official-run-binding.md)：入口已44f5f282，首次即时dispatch404无科学run；行政43830418320先核workflow419881031 active和无重复run，再一次POST200得到实际43830433500/attempt1，实际source0f101b697beb04db9bf6c225a488755e191f3a54、compute133174205129（08:20:32Z）。准确head上的request95251/8945和workflow92730/1c32真核同正式字节。08:21仅前1–6成功/7容量，生成与科学不预填；R507/amplitude唯一终态，无running日志。
+
+## 2026-11-16 08:28:00 UTC /root — R504完整同C查询的六消费者
+
+[R504](results/R504-recomputed-C-query-complete-metric-and-evidence-consumers.md)/[接口](notes/2026-11-16-same-C-recomputed-tail-metric-consumers-interface.md)五件7655/0cda、9454/3c28、38102/3443、11796/0c14、16222/541f完整；1fixed＋5live全先付原field/CP/材料/准确cut/六jet后真接R500，原四Loewner/DFS/全t/完整pieces与时钟保。仅0阶E新包围，固定g签名不混来源工作结果，全部未付/未读保；六展开源只Actions生成，217实际入口继续，新218/220需真实tuple。无新request/metric接受或试跑门；218两job已终态，amplitude唯一读R507，原因不猜。
