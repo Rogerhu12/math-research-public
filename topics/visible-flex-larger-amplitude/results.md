@@ -227,3 +227,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R498 — 完整far账本消费者与从第一行起的无损临时存储
 
 **表示等价与实际依赖命题已证明；新科学与压缩率未运行。** [R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)19411/96a3df1e、[接口](notes/2026-11-16-complete-far-ledger-gzip-storage-and-consumer-interface.md)16863/0155e076、helper15744/d07d1844与四view plan16786/eb4925e3完整登记。实际212 prepared账95028212980B/1604049行，首native数值不读其正文，但5f14 samefar/5da13 union真实完整核原字节/行数/SHA与mode span，故不能先删或只留hash。新writer用原canonical每完整行一个gzip member，完整写/flush后才返回原prepared→tube→commit流程；无明文镜像或全账缓存，所有解码字节/行序/span/错误/候选/事务原样，失败member真实前缀与原异常保。descriptor明确物理stored与完整decoded双身份，后继仍先全读stored再逐原行解码核验，两遍原budget检查；旧明文、原选择、mode/mu/QPi/source与必要完整scope保。四接点只改首prepared、union新增prepared及其实际读者的存储/身份；原32GiB门/唯一钟/全部native/FD/fullDN/final/audit不减。plan输出是级联前预览，218仍须完整实际来源接线，不能用预览SHA假充；没有空间足够/同墙钟/接受或同g完成保证，不把临时科学账提交Git/artifact或删早。
+
+
+## R500 — 同一C重算完整头部进入tail闭查询
+
+**条件来源/包含证明及完整独立API已成，尚无实际精化或接受。** [R500](results/R500-same-C-recomputed-head-and-complete-tail-query-enclosures.md)14699/a90255dc、[接口](notes/2026-11-16-same-C-refined-head-tail-query-interface.md)12496/82a51807、API29687/2ab6b97f三件登记。原R495只改变cut语义叶，旧ActualCompleteCTarget/R426仍读旧source累计半径；新API先原完整target加载再绑定实际R492/R495四族bundle、R489新四query成员及全部同语义条件，唯一原LiveQueryTarget真读新完整source-piece-index/1440panel/累计半径，不由三cut叶外推tail。全根族同物理闭域的两合法包围可交，完整旧/新子query并覆盖才hull，所有端点/来源/未访/原错误保；缺新界保旧完整粗界，空交报告不一致，work_resolution不变新门。正式query只有0阶E，API明确只提供它；cut二jet、全场六jet/光滑性仍各自原依据。原budget对象/metric起点/job绝对钟转发、不新增进程或硬杀声称，必要原scope与90K/quiet保。外层实际六view/selector接线尚由R504推进，不修改冻结214/216/218，未启动217/R490、未付actual error decrease或README。
