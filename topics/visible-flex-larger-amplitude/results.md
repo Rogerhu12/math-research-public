@@ -60,3 +60,8 @@
 ## R479 — 全部必要值的固定语义上下文与行序
 
 **R479：固定必要语义的表示保全；无新科学执行或容量保证。** [证明](results/R479-complete39-fixed-semantic-context-readback.md)16363B/31a25a19、formatter20813B/689517df与source generator8157B/b9887b25完整核后刊。只合并相邻且canonical逐字相同的原上下文；同实际trial的candidate子记录须完整角色行相等且保原表row positions，实际interval/fraction/typed-query地址与少量明确元数据须逐值同才共用，真pair须连续批/eligible/整receipt同。全部原trial数值、失败样本/地址、错误、FD收缩、null/负零/未返保，原整表行序可恢复；不算坐标、不取大raw、不做任意JSON编码。各候选只在减少表示字节时采用，最终来源元数据仍可能令未知正文超90KB，原单份90KB/70不变。213仅在真实公开computations生成两个新basename，原206依赖库不迁移/不覆写；原108祖先和全39八批/17α/原钟/真父/FD/quiet保持。完整213接线与R480实际另付，不恢复206删失正文或末pair。
+
+
+## R453 — 实际205准确域未付与点逆像工作停止
+
+**实际205：新准确十族域未付，完整112 far/数字行返回，物理点工作额度停。** [R453](results/R453-actual205-new-ten-domain-partial-complete112-and-point-work-stop.md)30168B/9316e125全文核后刊；run43796116341/sourcee17aef55，compute133065195355/report133108834041。新202十词只作新准确族：base域complete而controls-on域301.290538秒、24405processed、10594终端未决（piece416/depth32）及16未访，全返回地址保；原源码只记录domain=false，不把它加成BVP门，也不判非法。全部112 deep/far/实际joint nominal行完成；linear2044754 work/4705.123925秒，sampling1M/1M、272.198895秒，只3点/0field，明确WorkStop计数停而非总钟/磁盘/数学拒绝。geometry.completed/native_ready均false使原binding返回2，453/450、H/J/FD/fullDN/闭面全部未起。旧selector漏待返点/完整stack，raw已清不能凭SHA补；与factory已完整返回的未决地址分开。五主正文两job逐字同，七必要完整/owner quiet后05:22:49.7536288Z真清；report原exit2保compute failure，不是传输故障。212只改物理inverse depth24→2，factory300s/65536/depth32/双pass与全部原域/末门不变，实际结果另付。

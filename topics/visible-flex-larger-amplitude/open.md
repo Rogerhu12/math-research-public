@@ -50,6 +50,8 @@
 
 [R476/212完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)实际source `9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060`，公开Actions [run43810550597](https://github.com/Rogerhu12/math-research-public/actions/runs/43810550597)于2026-11-16T05:29:19Z/attempt1启动；compute133111042532在05:30官方metadata前1–6成功，第7容量记录运行，后科学/必要读回尚待。R478由geometry唯一终态读取；执行状态不补采样、全域证明、453/450或README完成。入口时官方topic tree `ffc703240f3467e875aff8228f5ba7a05aa558fb` 为9257blobs/197827293B、9630entries，truncated=false。
 
+**实际205：新准确十族域未付，完整112 far/数字行返回，物理点工作额度停。** [R453](results/R453-actual205-new-ten-domain-partial-complete112-and-point-work-stop.md)30168B/9316e125全文核后刊；run43796116341/sourcee17aef55，compute133065195355/report133108834041。新202十词只作新准确族：base域complete而controls-on域301.290538秒、24405processed、10594终端未决（piece416/depth32）及16未访，全返回地址保；原源码只记录domain=false，不把它加成BVP门，也不判非法。全部112 deep/far/实际joint nominal行完成；linear2044754 work/4705.123925秒，sampling1M/1M、272.198895秒，只3点/0field，明确WorkStop计数停而非总钟/磁盘/数学拒绝。geometry.completed/native_ready均false使原binding返回2，453/450、H/J/FD/fullDN/闭面全部未起。旧selector漏待返点/完整stack，raw已清不能凭SHA补；与factory已完整返回的未决地址分开。五主正文两job逐字同，七必要完整/owner quiet后05:22:49.7536288Z真清；report原exit2保compute failure，不是传输故障。212只改物理inverse depth24→2，factory300s/65536/depth32/双pass与全部原域/末门不变，实际结果另付。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节全部原文逐字保在[212入口时open](https://github.com/Rogerhu12/math-research-public/blob/9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060/topics/visible-flex-larger-amplitude/open.md)，含原资源/参数/失败/未返/未访和所有更早检查点；当前只去重复，§4–6逐字不变。所有真实接受父及精化证据仍未付，不能从来源接线或同η重复pass补齐。
