@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** b664d3471e4bfdd0001887699c637f1e68448abc（2026-11-16 14:52:24 UTC，Actions run43890319215实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43890319215-1.json。
+- **最近成功实际 pull 与已读规则提交：** 62353730862c1defd1379abcacc3099357d09e70（2026-11-16 14:58:40 UTC，Actions run43891449485实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43891449485-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
@@ -27,9 +27,9 @@
 
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。14旧D换源已闭见下；δ七RHS已核全非零见下，不重消元。
 
-- **[36原种子的同一稳定闭包及完整首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)：** 原74×14核投影满14，19404组合坐标及14个完整10/18换源全真。普通P=P′仍106换106，向量只少72项；Cl_N(L36)=Cl_N(L50)=原116闭包，L36全部第一轮恰P，保完整原临界商。根全16阶段双SHA/语义绑定及两个包含核；未付P稳定/E/单位。继续90个指定二次均值像的原交换子降重及完整第二轮界，不启动大矩阵。
+- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。根/lit全量词审，无循环、无参数逆；不称最小轮数2/单位/E。104来源公式已证但新数组未生产；先冻逐phase全10/18消费者。
 
-- **[δ14七目标完整有限空间负](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)：** 只读权7/8完成状态，bδ及六yi bδ余式全非零；实7.560秒/exit0，113798原坐标产品全真，根另13.503秒普通FLINT全乘回/主元余零核。严格排首轮梯度模的δ来源权≤8；不排高来源/更大闭包/完整理想，未提升E。此前[稀疏600边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)保run43883188532/560 SSI、候选仅START/75及null→null无空续；Schur失败/输入源见其链接。继续原稳定闭包二轮停止的完整源证明及四规范q目标，未先填结论。
+- **[δ14七目标完整有限空间负](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)：** 只读权7/8完成状态，bδ及六yi bδ余式全非零；实7.560秒/exit0，113798原坐标产品全真，根另13.503秒普通FLINT全乘回/主元余零核。严格排首轮梯度模的δ来源权≤8；不排高来源/更大闭包/完整理想，未提升E。此前[稀疏600边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)保run43883188532/560 SSI、候选仅START/75及null→null无空续；Schur失败/输入源见其链接。二轮闭合已证见上；四规范q目标仍须真变换/完整原乘回。
 
 - **[单Bell首一约简无规模收益](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)：** 实18.599秒核500除法/50原18和完整四Bell门；原50项315888→315892，同删四Bell后315860→315864，无新零列/来源权下降。仅fmpz统计转int修复且保首失败log，无raw照实记；不据此新增同一δ14候选。
 
