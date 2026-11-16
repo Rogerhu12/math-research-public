@@ -559,3 +559,9 @@ HH4 run43787923095/job133039635185原stdout126843B已取。公开actualpull01:43
 ## 2026-11-16 01:48:20 UTC：R423全曲率负四kk的四个原势输入
 
 8226B人类稿/SHAee846e377c8a7b8606f4c2f420141d16eb961773a09ce71a7ca64b771e66b2f3全文读毕即推。root逐项手核原nγ九来源的h⁻²幂、b1真抵消、∂h原函数负号及m2的(-3,-1)/(-2,-2)唯一幂配对，保独立outer/原右锚和左尾。只结算该完整系数身份，不扩成整个kk自然局部或零；τ2/τ2b未经成员证明不得删。下一R426继续k0完整自然锚，另R425整理已付hh两Ω；无新程序/求积/秩执行。
+
+## 2026-11-16 01:50:29 UTC：R425两完整hh观察与全k/PSD手推结论
+
+人类稿17162B/SHA7b2b1b7f9c3901c828abf96be6ae98532385a2b1c91805b844c0cd617c250463全文读并即推。根已完整读原run43787923095/job133039635185 stdout126843B/SHAed0bc1b6349f63dcb1e7f083e0ae2b041d2d690819117a62f57b3a208b96c3a4，以及COMPLETE_REPORT+LF40566B/b6f59dbe859c1c84fd71df07b18bd0d9fafdd3d862e1ce2bf97f1c26a91a24fb；38源逐项同请求，4raw/7typed根、8新收缩、9旧响应及全部target_plan/原支撑/真尾已读。两观察完整local，V0四密度七Euler非零、W完整空，原remaining…resolved=false保持。根手核五步紧IBP得−3F/16、Euler=(3/4)(p−xr)²((p−xr)u⁽⁴⁾−3x(u‴)²)，再核Q4 NH共同比例/wholeE补偿/PSD的推理顺序；不需要新增M25来处理本hh。
+
+两个真实pull已在R424及H记录；后续更晚数值pull为当前H最新SHA。原payload不入Git；只人类密度证明与指纹。下一仍付负四kk与实际全period，不把此正字符子结论当主完成。

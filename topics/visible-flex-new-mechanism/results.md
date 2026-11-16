@@ -445,3 +445,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **末槽第二实际停在请求schema，LP64仍未启动。** [原记录](notes/terminal-paid-slot-second-request-schema-stop-20261116.md)：run43787979008/job133039809172，旧11/9只复用、10.0原值已通过；旧field helper缺source.coordinate_definition_sha256。value/J/model/LP新0，仍63/58；本次science10.578692648、累计271.058278962，process11.951187913/RSS295396。完整适配字段后继续，不跳身份或重付旧检查。
 
 - **R423：全k负四kk的原静态势输入完整固定。** [证明](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)给[N0]h⁻¹=k(τ2+k²τ2b)的独立outer六maps及九来源表，进而准确保留S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16。没有把k0单锚乘S充作全k，也不假新τ属于W；完整kk自然值、正字符与actual joint仍欠。
+
+- **R425：完整负四hh全k闭式与正字符交叉消失。** [实际与证明](results/R425-complete-hh-minus4-natural-identity-and-PSD-cross-cancellation.md)消费run43787923095/job133039635185：V0完整四密度=−3F_Q4/16且Euler非零，W整个left/local/Euler空；R422遂给hh=−3S²F_Q4/16。原共同D/E商经Q4 NH比例、同权响应补E才得λhh=0，PSD消λhk；kk仍欠。38源/8新self收缩/9旧响应、science2.254986277、RSS234208KiB，旧研究执行0。

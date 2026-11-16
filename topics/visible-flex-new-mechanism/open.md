@@ -182,7 +182,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
 
-[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD。[R422](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)已将完整hh自然压为S²(ΛV0+k²ΛW)，V0=[h^-6k0]Qhh、W=[h^-6k6]Qhh。两个未知natural须独立支付，不能拿静态W4零替代；[两Ω请求](notes/hh-minus4-natural-flux-design-20261116.md)已发：38源，直接读原v2/N0/N2槽与paidpure坐标，只新增必要的完整self装配和两Ω，原CA/N2在natural层消掉不授权在raw层删后沿旧pure。kk仍继续完整原式；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
+[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)已付全k kk负六并排共同商非零−6正字符。R422两项结构现由[R425](results/R425-complete-hh-minus4-natural-identity-and-PSD-cross-cancellation.md)的完整两Ω闭合：ΛV0=−3F_Q4/16（universal非零）、ΛW=0，全k hh=−3S²F_Q4/16且ordered3+2全0；原共同D/E商Q4头及同权响应补wholeE后λhh=0，再PSD消λhk。只剩负四kk，不能将未知四势/primitive或单锚外推为零；R423给其新势输入，R426/R427分别继续k0完整值与全k有限结构。actual joint、全部内部flux/period及13同一k仍欠。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
