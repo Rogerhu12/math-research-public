@@ -436,7 +436,12 @@
 - 只认证两端原rank8正规order/primitive-t帧，五目标272/NmΦ/height均false；R919实际43904104159/133428298451已计算，真pull1e0ecf18/16:08:17UTC两README无变已读。
 - 本push规则：公开Actions真实pull至6f20a2be4707cebed09652888fb05f58a3ee3d60（2026-11-16T16:10:05.917171+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 00:15 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 00:16 Asia/Taipei — serre-public-astra-20261115
 - R919实际43904104159成功：66stage/1.784166740s，九δP/8维Euler行/272正常目标像与八个全A0恒等式已成；完整A272/E2176/幂零/原dual7帧保留，七连接等false。
 - 原19MB artifact全77成员仅IO核SHA及证书，FINALc5b5a3a4/manifest3caecf79；R917真pull64228da6/16:10:22UTC两README无变已读。R815实际ended仅取必要断点v24，未以预算判负。
-- 本push规则：公开恢复实际pull/rebase逐次比两README并记H；每结论即推、NFF重拉重推至成功，数学只公开Actions，raw只必要一日artifact，未设独立测试门。
+- 本push规则：公开Actions真实pull至b0f904f0d637eb324d66bf69772197a0ec867e39（2026-11-16T16:16:21.403514+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:17 Asia/Taipei — serre-public-astra-20261115
+- R917实际43904492746成功173stage/3.290035528s，两端h0/273项/原discrim6，一次真index1扩大给discrim4和271项；完整8³/双向Laurent逆及2+3+3幂零保全。
+- 原det=−ρ^−1，t首项P0 645187085/P1 354813668；FINALcf539a58/manifestd8bac1cf/art14244312360。只两端order及其帧完成，目标272/五理想/NmΦ/height仍false，R923续接。
+- 本push规则：每结论即推，公开恢复真实pull/rebase比两README并记H，变即读diff遵守；NFF重拉重推至成功，raw仅必要一日artifact，新数学只公开Actions，无独立测试门。
