@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 10:26:08 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 10:26:41 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 09:57:51非FF真CLI仍无executor，下一本地尝试≤10:57:51。最新CI成功真pull为43844596176/1于11-16 09:59:00.277204→c29e44320c35421eaef4940139c7e2c90ab038bd；两README完整diff空/同已读，execb9022fe0保4次全回执。下一真pull≤10:59:00；ref读取不冒真pull。
-最近只读README核：d6ff01610b1b62afd1a86e2adb22443b85b21911；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 10:26:37非FF真CLI仍无executor，下一本地尝试≤11:26:37。最新CI成功真pull为43844596176/1于11-16 09:59:00.277204→c29e44320c35421eaef4940139c7e2c90ab038bd；两README完整diff空/同已读，execb9022fe0保4次全回执。下一真pull≤10:59:00；ref读取不冒真pull。
+最近只读README核：1207c506de0e637c02ee39e0a9cbdfa1ec0fd40f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -53,7 +53,7 @@ WMF14900631：同J/primitive的pJ=aJ/DJ满足Π(pJ wJ)=1、ΠpJ≤δ^-1；两内
 
 本节压缩前完整H9626B逐字保[值域尾与已成清理检查点](notes/2026-11-16-value-tail-and-completed-cleanup-checkpoint.md)14f861f1，原a2467421。全部旧清理的path/blob/完整SHA/bytes/restore/原scope、旧fail/lost与各先推白名单继续绑定，禁重复删除/重旧；canonical/native/source/定义/旧失败全保。最近两cap first-span先97f57084/白4d2cce13后cf6bae05普通删，仅233457B；scaled历史seed依赖及samepath原字恢复保。
 
-两exact-bump-Z派生row1289/1524白f3f28db3先推，待fresh guard普通删；仅d1457500/170680B、36be220e/170716B，restorea2467421同path。原pilot10门/14行和下游7721全mean/native复用保，0新科学；不动任何native或失败。
+两exact-bump-Z派生row1289/1524白f3f28db3先5b163a28后fresh guard普通删；仅d1457500/170680B、36be220e/170716B，restorea2467421同path。原pilot10门/14行和下游7721全mean/native复用保，0新科学；不动任何native或失败。
 
 容量继续fresh Git-tree实核。每新consumer预/立即启动均须完整publication预算+120KB≤200MB；已成/失败原字保存按实际≤200MB。旧输入仅immutable完整字节临时恢复核身份，禁重跑producer。source/manifest冻结后单独workflow；consumed marker锁同目标，失败先记全prefix/实际未保存或未算边界才续。
 
