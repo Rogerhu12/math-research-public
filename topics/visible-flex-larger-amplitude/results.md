@@ -77,3 +77,5 @@
 - [R552：actual232真实来源完成与双完整必要超限](results/R552-actual232-root-reuse-and-two-incomplete-necessary-readbacks.md)：402源/prepare完成，实际science/rules/outer1；169036与144265正文未返、quiet true、removed false，全部未知及同job原70/false保，无父。
 
 - [R570：request239同次真实cubic、准确quintic与当前完整调用链](results/R570-actual-same-call-cubic-current-field-and-complete-source-chain.md)：618源/十一层/56view，三真实driver和三phase完整reader，原接受/clock/90K不变；实际R571另付。
+
+- [R555：actual233来源真实完成与双必要超限边界](results/R555-actual233-science-return-and-two-necessary-overflow-boundaries.md)：397/原prepare成功；153703与122410正文未返，外1/1/1、quiet true、removed false，无数值父；239官方绑定另note。
