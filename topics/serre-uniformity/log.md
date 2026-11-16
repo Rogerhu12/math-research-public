@@ -567,8 +567,14 @@
 - 恢复已推6110d6a1/启动half43823979328。R870首次恢复在真实ref竞争后rebase缺committer identity；已给每次git子进程固定身份并立即再续，未重数学。H归档3637f312，原函数新断点接续。
 - 本push规则：公开Actions真实pull至007f073ea0dc22fd8675998495d5eee6a4aed98f（2026-11-16T07:34:07.309747+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 15:46 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 15:41 Asia/Taipei — serre-public-astra-20261115
 - R873完整纸证e6401ca8：原循环7的八次两端函数域、8H+4E/2058与110阶注入、7×7范数；保真7/1/7尺度、椭圆4E和−3下降。
 - 真dual-isogeny交换两端、j²=[7]在G中为1，原R870范数方向和c0c1刚性化相符。只新四M2尾196..763、17rhs/8补列/新逆，Picard支持仍未算。
 - R870正式已推3e6ae636；R824真BudgetStop/1保artifact14205663835/fd1084f9，按新断点续。共享恢复workflow扩大至本课题serre工作流的源码发布/冻结请求dispatch，以接纯IO源与新消费者。
+- 本push规则：公开Actions真实pull至52ea8f96e8bee2817a76f7a0368b8bea6e536585（2026-11-16T07:41:26.501924+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 15:49 Asia/Taipei — serre-public-astra-20261115
+- R874完整纸证6ca20e6c：真cyclic-p两端ab=p、t′首层与a²/p KS；原未分歧tame环lift减自身CM常数，单支Abel/微分首项单位，全p+1首层相消和一旗标类型阻碍保真。
+- 未声称任意ramified lift独立，未把tame单位等同原q-normal/M2；R706边界与两旗标来源缺口保留。R873正式已推866bd8ca，RR/真实范数消费者继续。
+- 新共享workflow serre-source-artifact-intake及纯IO readerbc07f13f/requestdb160e8a只续载六份仍必要原来源，含即将过期R799/R800最小行与R801 q109尾；全部只留单日artifact，不入raw Git或重算数学。
 - 本push规则：待本公开Actions实际pull更新；主目标OPEN。

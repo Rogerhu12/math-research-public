@@ -150,3 +150,5 @@ R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代�
 **R870真实整数已闭**：[正式结果](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)c2436b74，run43822039811/sourceeb46ca01/20stage；N0=m7(8)=χ7(8)、16个ni与1959位共同d*及80原Picard输入全成，finalbe29c872、最小42源carrier6a9d22de。合法好约化处[ni]Piξj的真非零可严格判原Eiηj活跃，模零仍未定。R873继续完整循环7范数，未把计划当支持、d*当YP所选d或删nonp。半坐标dual已从370真实启动run43823979328/source6110d6a1，不重371正残差。
 
 **R873原循环7对应已证**：[短截面范数构造](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)e6401ca8给真实8H+4E的2058空间、110阶完整注入、P与K及两端函数域。七共轭用7×7范数、∞原7/1/7尺度；新增17rhs/8补列和一块新逆，旧R799的2050minor不冒2058逆。真正dual-isogeny交换两端并保原刚性化，R870 Nm_target(source*)方向不混。消费者只补四条原M2尾196..763；实际对应系数、Picard支持与nonp仍待公开执行。R824 run43792912432真BudgetStop/1已保artifact14205663835/fd1084f9，读实际新断点续。
+
+**R874原循环p与KS桥已证**：[完整证明](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)6ca20e6c保真正两端微分尺度ab=p、商t′首层及a²/p KS运输。tame函数仅取原未分歧环lift、减自身CM常数，得到单支Abel/微分单位首项；全p+1无权和两层严格消去，一旗标1⊕St不含原p−1型，故原q-normal与真实两旗标来源仍待补。R706限制不撤回。新纯IO intake保R799/R800/R801当前必要行、R827 W/五旧节点及R787/R824已终止小断点，避免过期后重算；不把读取当新数学。

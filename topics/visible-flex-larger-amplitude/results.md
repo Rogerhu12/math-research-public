@@ -196,3 +196,10 @@
 
 compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/sampler-BVP/closed metadata均完整返回；原规则必要94138B/1731dc1b超90000→70且正文未返，同shell后续212 composition必要调用没执行。原owner八role/16receipt实际quiet不补缺失读回；cleanup程序真打印skipped，raw仅留runner销毁，无上传，不冒主动删或八scope齐。R499继续原必要元数据与独立读回，冻结214/216各自真实结果另付。
 
+
+## R460 — 实际207全112远场后点采样工作停止
+
+**实际：全112 far与joint nominal完成，点采样partial，后继未起。** [R460](results/R460-actual207-complete112-far-and-point-sampling-resource-partial.md)19190B/fc266857，run43801267782/source1e054424、compute133081849462/report133153849841均failure，两日志各唯一取。原C1440/six及两个完整闭query齐，whole工作2887片＋1积分片未决不冒漏域；当前十点1810pass/8598terminal/16stack、不添BVP门。完整112 far/unit/joint名义行实际返回，linear2044754/25M work、7628.961588603999s；physical sampling1M/1M、486.5222847770001s停3unique/0field，非far失败、磁盘、墙钟或native拒。原数值代表仍未共同准确C实现。
+
+原1987/80c2 selector漏第一点半径/role/完整pending与已留范围，null/current_state及SHA不能恢复。两个BVP、first closed/held与新增12mesh/M128/t/compare角色全未起，没有accepted450或可续末场。五primary与新增必要帧两job逐字同，全部八必要范围成功、单90KB内且无运输错误；07:28:46.8446582Z原事件明确quiet再核后真正删除namespace，未上传raw。R478的独立depth2采样完成不倒填本次。原全部闭面、固定g误差精化及机器/solver转移仍未付。
+

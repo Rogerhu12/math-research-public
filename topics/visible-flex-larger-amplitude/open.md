@@ -50,6 +50,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 **R478实际212：浅逆采样完整，BVP尚未启动，资源/必要运输各有缺口。** [全文](results/R478-request212-complete-shallow-physical-sampling-and-BVP-startup-storage-stop.md)32019B/8aee6da0，run43810550597/source9a9dbfa8、compute133111042532/report133152030600，两日志各唯一。仅depth24→2/原32bits与1M不变：C1440/six、112far/joint代表齐，13850unique point/16128field occurrences/65102attempt、15123coarse、两unpaid实为空，四原数组及candidate/config/recipe/deadline完整；work_resolution与共同准确C实现仍false。BVP原launcher free11761553408<34359738368返回124、scientific_process_not_started=true，两phase与native目录均不存在；非timeout/数学拒。far-accepted-panels95028212980B/1604049行，全20文件95962633407B仅各原读取范围，不冒逐值审计。当前十点域12937terminal/15stack，原coast中心refuted诊断独立保、不加前门。rules94138B/1731dc1b超90K→70正文未返，后同shell composition读取未执行；最后cleanup真skip非删除。R498须沿真实consumer/完整临时表示解原磁盘门，R499修必要metadata及独立读回；不改冻结214/216或预填其结果。
 
+[R460实际207](results/R460-actual207-complete112-far-and-point-sampling-resource-partial.md)19190/fc266857，run43801267782/source1e054424，两终态日志各唯一读。C1440/six/两个合法闭query齐，whole work2887片及1积分未决非漏域；当前十点1810pass/8598terminal/16stack不冒域反证。全112far/unit/joint名义行齐，linear7628.961588603999s/2044754work；随后点1M/486.5222847770001s停3unique/0field，非far/磁盘/时间/native拒。旧reader未回point半径/role/pending，raw真清不从SHA补；BVP/first closed/held以及新增12mesh/M/t/compare角色全未起。八必要各<90K、两job六主body同，07:28:46.8446582Z真实quiet再核后namespace删除；无可续accepted父。新212浅逆实绩独立见R478，不倒填207。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。

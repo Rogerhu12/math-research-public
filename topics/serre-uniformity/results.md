@@ -208,3 +208,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R870 原Y实际挠点整数与Picard支持输入**：[完整结果](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)。run43822039811/sourceeb46ca01，20stage；N0=χ7(8)、16ni及共同d*/80原输入全成，合法好约化非零给正向支持出口；实际η支持/主函数/nonp仍未算。
 
 - **R873 原循环7的两端函数域与范数构造已证明**：[完整证明](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)，SHA256 e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f。原8H+4E/2058截面及110阶注入给八次P和靶w=K/P′；原双同源交换保R870范数方向、c0c1与−3下降。17rhs/8补列和四M2新尾只规定真实消费者，未冒实际η支持。
+
+- **R874 原循环p商尺度与Kodaira–Spencer首项已证明**：[完整证明](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)，SHA256 6ca20e6c92b83c3ed9149b2d4b19f7c77c0855c8529c6b6b05650f88046c4d43。真ab=p、t′首层、a²/p KS、未分歧lift的原Abel与微分单位，以及全p+1首层相消/一旗标类型阻碍；原q-normal/同h M2/高度仍未闭。

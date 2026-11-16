@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。最新实际双pull在正方向run43821568604/report133148800350；公开07:16:10.728410→07:16:11.300266 UTC，从源323f36fe…到已读 **d5cf6ec08d71b6b7a7240f051198c9800f5d8c06**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **08:16:10 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
+根/题README已全文读。最新实际双pull在增广run43825241350/report133157836734；公开07:39:53.853702→07:39:54.559423 UTC，源5189a1a7…到已读 **1d56b38c2ae32d4817c976cc75728207541ec2d7**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **08:39:53 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
 
-私有同report07:16:13.147748→07:16:13.478714，before=after **d3d1ace30e939c512b59486f2b69d34eb02f8e8a**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前07:07研究前实际pull同样空diff，完整元数据保[本次观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)，私有正文不发表。
+私有同report07:39:57.125976→07:39:57.581385，before=after **c4039f3d122a2dc5d7739ea2d37d287dc0fff953**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前研究前07:38实际双pull同样空diff；完整来源保[首输入失败记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)，私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -30,7 +30,7 @@ R470已证两新响应完整self仍三维，XY余x5<0故y≠0；XH十二词保�
 
 [R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)：四高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根0后余a×实二次。完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0。允许cap中Δ6真可两号；用v=p^(2/3)正曲率密度、共同真平端与简单解析根连续选有限cap使Δ6=0，再从头接R410/R455/R464同q4/F★/20/M3新库。只付一门，不搬给旧冻结母；剩E两实门及Δ3/4。
 
-R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。文学线正解原ψ3的具体积分；机制线解真实例外cap及剩余四门。
+R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。[R478](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)以完整八次primitive/三重因子反证付临界power复余量非零；C²分部连续性及实际正曲率密度近似给真光滑非零cap，不判冻结ψ3。文学线继续其具体积分；机制线解真实例外cap及剩余四门。
 
 [R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台列须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix，全周期M0不付相对门。
 
@@ -50,6 +50,6 @@ actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [完整正方向观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)：run43821568604/research133145590135/report133148800350/source323f36fe…成功。唯一实际舍入p SHA62b27d05…的完整最大.2663281546680455、含μ修复gain−.00031326043820264013，未合格；0scalar/actual，仍点53。新增原行coarse43322/91304、fine86645/182607完整gradient已付。1input/1pair JVP/4gradient，50.40678669899998秒；祖先累计 **1658.9797906909998秒/128普通值**。原CACHE30232607B/0c1826ad…保必要U/T/de/df，binding75e07691…，完整clock和记录SHA见note。立即接增加这四行的真正新finite/fullgrid问题，复用输入，旧任务/方向不重跑；合格才原guard/scalar/14门。大数组只原stdout。
 
-[新四cut交换任务](notes/true53-four-cut-exchange-master-design-20261116.md)已发布并由request触发公开Actions，run待登记。首次原9658+4=9662行，之后只在新增原行后解新矩阵；11模块/240源码绑定，request53333B/a1966ffe…。同一600秒覆盖所有imports/input/最多32新finite与双网/128新gradient/64scalar/3实际pair、失败和输出；祖先1658.9797906909998秒/128值不重置。只读复用旧MODEL、U/T与5752梯度；0源ordinary/旧J/旧finite/旧方向重算。首次完整合格才原guard/14门，最多接受54。数学仅原stdout；任何有限任务终止后继续下一子题。
+[新四cut交换任务](notes/true53-four-cut-exchange-master-design-20261116.md)run43825241350/research133157415075/source5189a1a7…首输入失败，[原记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。9662行已装配、两网缺失context已恢复，但pool IDs⊆已付gradient断言失败；0finite/JVP/新gradient/scalar/actual，仍点53。36.79963991600005秒含全部输入/失败/输出，祖先累计 **1695.779430607秒/128值**。context只保hash未交付数组，明确允许一次有账修复恢复；同600秒需携带旧36.7996秒，全部其余配额不重置。正修pool/实际选行语义，0旧finite/J/源ordinary重算，修后继续；大数组只原stdout。
 
 理论R475已付新cap单门；R477继续其余四门与正规化，文学线解冻结ψ3，R476解同一w全段。主完成门未付，不以任一任务预算/阶段停下。
