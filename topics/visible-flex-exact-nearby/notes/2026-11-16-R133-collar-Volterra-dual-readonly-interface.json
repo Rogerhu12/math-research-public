@@ -1,0 +1,1745 @@
+{
+  "CLI": {
+    "callable": "admit(repo,manifest_path,manifest_sha,native_path,receipts_path,candidate_path,repair_path,root_germ_path,root_budget_path,core)",
+    "injected_core": "new fully pinned readonly_core module only; its __file__ must equal the manifest path",
+    "no_flint_before_and_after_admission": true,
+    "public_environment": {
+      "GITHUB_ACTIONS": "true",
+      "GITHUB_REPOSITORY": "Rogerhu12/math-research-public"
+    },
+    "pure_core_callable": "core.admit_original_closure(manifest,texts,by_role,native_path,original_WVC_restoration,candidate_path,repair_path,ORIGINAL_DEFINITION_ROLES)",
+    "switch_options": [
+      "--preflight-only"
+    ],
+    "value_options": [
+      "--repo",
+      "--manifest",
+      "--manifest-sha",
+      "--out",
+      "--native",
+      "--native-receipts",
+      "--candidate-index",
+      "--centre-repair",
+      "--bits",
+      "--root-germ",
+      "--root-budget"
+    ]
+  },
+  "collar_math_module": {
+    "bytes": 35870,
+    "git_blob_sha": "fb0653753ca76aae27b9560ea8f5c98f9bdd66b1",
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_true_collar_signed_packet_math.py",
+    "role": "collar_math",
+    "sha256": "891702f18c86d6541621841d9519caa7d3d203b15c8d498ac09f81285cf486a9"
+  },
+  "complete87_field_static_check": {
+    "failures": [],
+    "fields": 87
+  },
+  "complete_WVC_provider": {
+    "all87_field_identities_independently_reconstructed": true,
+    "conditional_finite_inverse": null,
+    "execution": {
+      "bytes": 37911,
+      "git_blob_sha": "c8cd8e8bb863c500a1e26c009e0af76cd7cb8941",
+      "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json",
+      "role": "WVC_execution",
+      "sha256": "5e560887d2deee497cb9da5b7549af1070db36cf69a7b11077ef4a0bb4f0feb5"
+    },
+    "execution_fields": 44,
+    "full_original_field_identity_tables_are_in_source": true,
+    "manifest": {
+      "bytes": 60844,
+      "git_blob_sha": "1ea008a1df3116aedd66be67b11b1d8ec62af2d5",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-continuous-centre-tracefree-current-inputs.json",
+      "role": "WVC_manifest",
+      "sha256": "229198f56efdf10ea8de6fef50804aa3832ca5ff2127101685c8d7117c9afbfb"
+    },
+    "no_WCTR_reference_substitution": true,
+    "original_finite_gate_passed": false,
+    "original_gates": 23,
+    "original_immutable_context_paths": [
+      "complete_current_file_receipts",
+      "complete_restoration_receipts",
+      "copied_original_scope",
+      "copied_complete_candidate_metadata",
+      "copied_complete_repair_definition",
+      "prior_completed_candidate",
+      "retained_completed_five_maxima",
+      "retained_original_false_candidates",
+      "reference_chain",
+      "reference_selection",
+      "reference_mode_prefix",
+      "finite_gate",
+      "conditional_finite_inverse",
+      "complete_support_contract"
+    ],
+    "original_modal_prefix_records": 5,
+    "original_records": 56,
+    "same_operator_records": {
+      "complete_object_identity": {
+        "bytes": 4653,
+        "sha256": "f1ec45f0f3ddb6ded2856ccc24b04528743aacfbfbfb62a04bb0c39a075ef55b"
+      },
+      "copy_restriction": "q/e_rho/whole outer observations/whole tail T are copied solely because D_f,G_f,S,actual operators and source/endpoint coordinates remain identical; old trial-relative E_H is excluded from the new error",
+      "count": 29,
+      "previous_false_gate": {
+        "actual_tail_gate_is_published_analytic_m160": true,
+        "actual_tail_inverse_upper": 3,
+        "comparison": "saved complete E0 upper + 3 D upper T upper < 1",
+        "complete_defect_record": {
+          "ball": "[11066.2974592482170277255953739045070721096905053507529455902664127679013367 +/- 3.72e-71]"
+        },
+        "finite_false_gate_does_not_prove_singularity": true,
+        "passed": false
+      },
+      "records": [
+        {
+          "json_path": [
+            "copied_original_records",
+            "A_c"
+          ],
+          "name": "A_c",
+          "record": {
+            "ball": "[0.216176788979021022547123318815010633904539663839870444207842182068403381225 +/- 1.43e-76]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "C_b"
+          ],
+          "name": "C_b",
+          "record": {
+            "ball": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]",
+            "lower": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]",
+            "upper": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]"
+          },
+          "usage": "unchanged whole body-source GH receiver"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "C_c"
+          ],
+          "name": "C_c",
+          "record": {
+            "ball": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]",
+            "lower": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]",
+            "upper": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]"
+          },
+          "usage": "unchanged whole collar-source GH receiver"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "E_minus"
+          ],
+          "name": "E_minus",
+          "record": {
+            "ball": "[5.94160018366257742661582890287045114982937168544495011198565e-5 +/- 4.03e-65]",
+            "lower": "[5.94160018366257742661582890287045114982937168544495011198565e-5 +/- 4.03e-65]",
+            "upper": "[5.94160018366257742661582890287045114982937168544495011198565e-5 +/- 4.03e-65]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "G_c"
+          ],
+          "name": "G_c",
+          "record": "62286/125",
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "L_c_raw"
+          ],
+          "name": "L_c_raw",
+          "record": "58/5",
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "P_b_raw"
+          ],
+          "name": "P_b_raw",
+          "record": {
+            "ball": "[0.00230158835209555496325236476227310039199272102107215008177573464882078520759 +/- 2.64e-78]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "Y_b"
+          ],
+          "name": "Y_b",
+          "record": {
+            "ball": "[0.608734661261768448195914731776755868299816356832885661258800 +/- 3.88e-61]",
+            "lower": "[0.608734661261768448195914731776755868299816356832885661258800 +/- 3.88e-61]",
+            "upper": "[0.608734661261768448195914731776755868299816356832885661258800 +/- 3.88e-61]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "Y_b_outer"
+          ],
+          "name": "Y_b_outer",
+          "record": {
+            "ball": "[0.00365769892351436839526506567363676924340713180672188755030293063817866017188 +/- 2.60e-78]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "Y_c"
+          ],
+          "name": "Y_c",
+          "record": {
+            "ball": "[0.0434328598621432921156685860637129684053125066160929027915269 +/- 3.53e-62]",
+            "lower": "[0.0434328598621432921156685860637129684053125066160929027915269 +/- 3.53e-62]",
+            "upper": "[0.0434328598621432921156685860637129684053125066160929027915269 +/- 3.53e-62]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "lambda_388_minus_two_thirds"
+          ],
+          "name": "lambda_388_minus_two_thirds",
+          "record": {
+            "ball": "[0.0187979816503496541345324625056530986003947533773800386267688853972524679326 +/- 2.11e-77]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "mu_minus"
+          ],
+          "name": "mu_minus",
+          "record": {
+            "ball": "[4.55188348365545288401339859218169180923420577078725734379278e-5 +/- 5.80e-66]",
+            "lower": "[4.55188348365545288401339859218169180923420577078725734379278e-5 +/- 5.80e-66]",
+            "upper": "[4.55188348365545288401339859218169180923420577078725734379278e-5 +/- 5.80e-66]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "pi"
+          ],
+          "name": "pi",
+          "record": {
+            "ball": "[3.14159265358979323846264338327950288419716939937510582097494459230781640629 +/- 3.80e-75]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "reciprocal_sqrt_two"
+          ],
+          "name": "reciprocal_sqrt_two",
+          "record": {
+            "ball": "[0.707106781186547524400844362104849039284835937688474036588339868995366239231 +/- 5.51e-77]"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "copied_original_records",
+            "shell_1153"
+          ],
+          "name": "shell_1153",
+          "record": {
+            "ball": "1153.00000000000000000000000000000000000000000000000000000000",
+            "lower": "1153.00000000000000000000000000000000000000000000000000000000",
+            "upper": "1153.00000000000000000000000000000000000000000000000000000000"
+          },
+          "usage": "unchanged original bound or exact literal, retained only as old data"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_column_ratio_upper"
+          ],
+          "name": "complete_reference_column_ratio_upper",
+          "record": {
+            "ball": "[486.977787330046975779938579173898226975715059820565744570512752085037899685 +/- 4.05e-74]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_inverse_norm_upper"
+          ],
+          "name": "complete_reference_inverse_norm_upper",
+          "record": {
+            "ball": "[62.3281048377116916655938249683034422495567100592360841533356423062112836991 +/- 4.02e-74]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_odd_endpoint_receiver_upper"
+          ],
+          "name": "complete_reference_odd_endpoint_receiver_upper",
+          "record": {
+            "ball": "[3.34625387731591861546706016238280989332390627104321715047979296125274161447 +/- 4.23e-76]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_rho_column_ratio_upper"
+          ],
+          "name": "complete_reference_rho_column_ratio_upper",
+          "record": {
+            "ball": "[0.0713749337698706653624746053090438438896560641647760088065323021548184460405 +/- 4.31e-77]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_rho_defect_upper"
+          ],
+          "name": "complete_reference_rho_defect_upper",
+          "record": {
+            "ball": "[0.0711946036559288564790863698434927839130869973587190328050667489299067566782 +/- 4.35e-77]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_rho_row_ratio_upper"
+          ],
+          "name": "complete_reference_rho_row_ratio_upper",
+          "record": {
+            "ball": "[0.0710147291494149874157036606555120675967491554835356328950020414139439208189 +/- 9.09e-78]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_reference_receivers",
+            "new_records",
+            "complete_reference_row_ratio_upper"
+          ],
+          "name": "complete_reference_row_ratio_upper",
+          "record": {
+            "ball": "[7.97735082324787653632842938963664503390313827020071126989179345185464931844 +/- 4.19e-75]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_endpoint_correction",
+            "new_records",
+            "complete_head_endpoint_correction_upper"
+          ],
+          "name": "complete_head_endpoint_correction_upper",
+          "record": {
+            "ball": "[0.000898996775412377993232854275249539632940103195403833955748149059282808158504 +/- 2.09e-79]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_endpoint_correction",
+            "new_records",
+            "complete_high_trace_endpoint_receiver_upper"
+          ],
+          "name": "complete_high_trace_endpoint_receiver_upper",
+          "record": {
+            "ball": "[0.000261823726562487010478010319833875786038649291188519700776916266569302394863 +/- 3.96e-79]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_endpoint_correction",
+            "new_records",
+            "complete_outer_endpoint_correction_upper"
+          ],
+          "name": "complete_outer_endpoint_correction_upper",
+          "record": {
+            "ball": "[0.125747301798272233219573267583044529335929905531082437039142463223871210165 +/- 5.04e-77]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_actual_paired_receivers",
+            "new_records",
+            "complete_outer_paired_error_upper"
+          ],
+          "name": "complete_outer_paired_error_upper",
+          "record": {
+            "ball": "[0.668009748861650317898773152728180909126911898428967160008977637390833724807 +/- 3.49e-76]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_local_signed_remainder",
+            "new_records",
+            "complete_actual_head_tail_source_upper"
+          ],
+          "name": "complete_actual_head_tail_source_upper",
+          "record": {
+            "ball": "[3.24818732838835550234675266749946546717458680583500353718187641050641280117 +/- 1.28e-76]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_local_signed_remainder",
+            "new_records",
+            "complete_actual_outer_tail_source_upper"
+          ],
+          "name": "complete_actual_outer_tail_source_upper",
+          "record": {
+            "ball": "[0.00329752633694818512370570455349851541559429799954859134020538212927846469305 +/- 1.72e-78]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        },
+        {
+          "json_path": [
+            "complete_new_graphs",
+            "complete_actual_E_D_T",
+            "new_records",
+            "complete_actual_T_upper"
+          ],
+          "name": "complete_actual_T_upper",
+          "record": {
+            "ball": "[3.89782618890527307744859418436114009245075923674406965971624310945473808375 +/- 4.66e-75]"
+          },
+          "usage": "literal complete same-operator bound; no recomputation or differentiation"
+        }
+      ]
+    },
+    "science_fields": 43,
+    "scientific": {
+      "bytes": 78627,
+      "git_blob_sha": "746ec1e16befe8914c64521ad087c1f1dd23ab73",
+      "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json",
+      "role": "WVC_actual",
+      "sha256": "85fd5bc63c7cb558ef04ff9699f1f9be81dbd7e7b9638a2e0922818dc559cb88"
+    },
+    "source_and_parameters_scope_admission_full_cross_comparison": true
+  },
+  "complete_native_schema": {
+    "angular_arrays": {
+      "count": 6,
+      "length_each": 5,
+      "paths": [
+        "direction_angular_norms_u",
+        "direction_angular_norms_v",
+        "background_repair_angular_norms_u",
+        "background_repair_angular_norms_v",
+        "full_family_U_angular_norms",
+        "full_family_V_angular_norms"
+      ]
+    },
+    "collar_process_gates": [
+      "the actual completed original germ and full193 direction identities agree",
+      "the full real family and true complete positive collar stay in one original root piece",
+      "all full-family angular norms and true optical speed are uniformly bounded",
+      "the same intrinsic positive curvature and optical slope satisfy the root hypotheses",
+      "the complete local reaction and full drift meet the declared family bounds",
+      "both complete primitive rows and the genuine mean rank remain paid",
+      "any allowed positive extension and terminal scalar has the same two-row root reference bound",
+      "the true band192 frequency ratio and smallest primitive index are paid",
+      "the entire unbounded high kernel closes with the new full-family constants",
+      "both high ordinary-source and independent incoming-port state contracts close",
+      "the full incoming and outgoing high raw traces close",
+      "the complete193 head and every output through288 satisfy both crossing contracts",
+      "the actual all-radial low Cauchy propagator retains its mean and all columns",
+      "the new complete head-high return is below1over500000",
+      "the complete ordinary source-to-state bound is below1over12000",
+      "the complete full port-to-state bound is below1over100",
+      "both endpoint complete ordinary-source trace bounds are below1over36",
+      "both endpoint complete input-port trace bounds are below9over2",
+      "orders0through4 keep the same full high inverse with band192 commutators"
+    ],
+    "complete_real_domain": {
+      "Hilbert_normalization": "mean basis1; nonmean real sine/cosine basis sqrt(2); normalized matrix entries use the full actual parity basis, not a385-complex extension",
+      "actual_intrinsic_parameter": "eta_0",
+      "background_modes": 32,
+      "c_body": "1192029371497/5000000000000",
+      "candidate_part_index": 1,
+      "candidate_part_interval_range": [
+        1346,
+        2692
+      ],
+      "candidate_piece": 2549,
+      "candidate_piece_local_index": 1203,
+      "coefficient_normalization": "candidate state stores physical sine(4j phi) amplitudes j=1..32 followed by true even mean and physical cosine(4j phi) amplitudes j=1..32; old physical offsets use exactly that same65-coordinate order",
+      "complete_candidate_radial_nodes": 6145,
+      "complete_candidate_shape": [
+        4,
+        6144,
+        65
+      ],
+      "cutoff": "psi=1 on [r_star,c_body]; complement of cubic3t^2-2t^3 over[c_body,c_body+1/16]; zero thereafter; complete psi_prime transition retained",
+      "direction_modes": 96,
+      "direction_radius": "1/100000000",
+      "exact_root_interval": [
+        "1191984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "maximum_collar_length": "9/1000000",
+      "moving_angle": "phi",
+      "original_inner_radial_radius": "1/200000",
+      "original_moving_Wiener_strip": "1/1024",
+      "original_outer_radial_radius": "1/100000",
+      "physical_frequency_factor": 4,
+      "physical_pullback_not_truncated_to_finite_theta_Fourier": true,
+      "radial_source": "ordinary dr L2, without differentiation of arbitrary head input",
+      "radius_use": "value enclosures on the full outer rectangle cover [r_star,c_body]; inner-half-radius derivative bounds are not moved onto this larger collar",
+      "raw_transmission": "identity across all genuine same-moving-coordinate seams; independent affine/interface sources remain separate",
+      "selected_family": "the same actual real R31 member is included by the original root-budget gate; no new PDE-solution transfer or parameter enlargement",
+      "true_root": "r_star, never replaced by an interval endpoint",
+      "whole_original_intrinsic_parameter_family_claimed": false
+    },
+    "complex_keys": [
+      "real",
+      "imag",
+      "modulus_upper"
+    ],
+    "diagnostic_float_parser": "Decimal, finite and retained; never converted to float or used as a mathematical endpoint",
+    "exact_record5_keys": [
+      "ball",
+      "lower",
+      "upper",
+      "mid_float",
+      "radius_upper_float"
+    ],
+    "germ_fields": [
+      "actual_candidate_piece",
+      "actual_fixed_nu",
+      "actual_fold_constructed",
+      "actual_nonlinear_solution_proved",
+      "all_finite_candidate_modes_retained",
+      "angle_inverse",
+      "bits",
+      "bounds",
+      "candidate_sha256",
+      "compact_bump_identically_zero_on_entire_actual_germ",
+      "complete",
+      "complete_energy_product_fees",
+      "complete_primitive_tail",
+      "complex_intrinsic_coefficients",
+      "complex_radial_radius",
+      "complex_radial_rectangle",
+      "dependencies",
+      "domain_contains_disks_about_every_true_parameter_root",
+      "exact_amplitude",
+      "exact_candidate_metadata",
+      "exact_candidate_piece_interval",
+      "exact_center_parameter",
+      "exact_parameter_half_width",
+      "failure",
+      "finite_energy_is_bilinear_zero_convolution_without_conjugation",
+      "full_feedback_inverse_proved",
+      "gates",
+      "inputs",
+      "kind",
+      "moving_U_derivative_Astrip",
+      "moving_mean_v",
+      "moving_mean_v_radial",
+      "moving_nonlocal_linearization_replaced_by_local_multiplication",
+      "moving_phi_strip",
+      "moving_v_derivative_Astrip",
+      "object_sha256",
+      "original_scalar_germ",
+      "physical_U_derivative_sup",
+      "physical_candidate_is_analytic_inverse_angle_pullback_not_finite_physical_Fourier",
+      "physical_jacobi_at_approximate_centre_does_not_assume_zero_residual",
+      "physical_theta_strip",
+      "physical_v_derivative_sup",
+      "proved",
+      "root_interval",
+      "seconds",
+      "source_sha256",
+      "whole_affine_parameter_interval"
+    ],
+    "germ_gates": [
+      "complete new moving candidate and all SHA-bound radial shards loaded",
+      "one actual scalar germ and one actual new PPoly piece contain the complex product",
+      "whole original affine parameter and complete primitive tail retained",
+      "actual moving mean and v are nonzero on the complete complex product",
+      "true theta_phi close to one on the entire complex moving strip",
+      "full complex-r vertical displacement paid before inverse angle construction",
+      "global periodic inverse of the true physical angle is a strict Banach contraction",
+      "all physical angular derivatives through four use the full rational chain rule",
+      "intrinsic simple root and actual physical characteristic amplitude have positive real part",
+      "complete original local physical Jacobi matrix retained including both means"
+    ],
+    "native_bodies_read_in_chat": false,
+    "no_original_mean_or_eta_recomputed": true,
+    "offsets": {
+      "count": 65,
+      "exact_equality": "root_budget.exact_background_root_offsets == repair.special_piece_offsets['2549'].physical_offset",
+      "no_second_alpha": true
+    },
+    "original_piece": 2549,
+    "physical_source_measure": "ordinary dr",
+    "record_bound_strings": "complete original ball/lower/upper, finite original grammar; child numeric API uses directed endpoint hull",
+    "response_raw_and_repaired_arrays": {
+      "all_record5_leaves_checked": true,
+      "count_each": 193
+    },
+    "root_budget_fields": [
+      "K_abs_upper",
+      "L_derivative_commutator_bounds",
+      "Neumann_factor",
+      "Sobolev_norm",
+      "actual_R31_selected_parameter_included",
+      "actual_independent_even_mean_preserved",
+      "actual_intrinsic_parameter",
+      "actual_nonlinear_PDE_branch_or_response_proved_here",
+      "actual_nonlocal_operator_retained",
+      "actual_scientific_checkout_commit",
+      "all_projected_radial_and_drift_commutators_paid",
+      "angular_zero_mode_removed_only_in_A_inverse",
+      "background_definition_sha256",
+      "background_repair_angular_norms_u",
+      "background_repair_angular_norms_v",
+      "beta_abs_upper",
+      "candidate_sha256",
+      "complete",
+      "complete_even_mean_retained",
+      "complete_independent_mean_row",
+      "complete_lower_operators",
+      "direction_angular_norms_u",
+      "direction_angular_norms_v",
+      "eta_inverse_abs_upper",
+      "exact_background_root_offsets",
+      "exact_candidate_and_response_piece",
+      "exact_complex_parameter_radius",
+      "exact_inner_radial_radius",
+      "exact_intrinsic_parameter",
+      "exact_moving_Wiener_strip",
+      "exact_outer_radial_radius",
+      "exact_piece_interval",
+      "exact_radial_rectangle",
+      "exact_root_interval",
+      "explicit_direction_definition_sha256",
+      "failure",
+      "fractional_one_gain_Sobolev_bounds",
+      "full_D0_inverse_commutator_same_space_inner_disk",
+      "full_complex_mean_abs_lower",
+      "full_complex_mean_abs_upper",
+      "full_family_U_angular_norms",
+      "full_family_V_angular_norms",
+      "full_frequency_inverse_not_a_finite_section",
+      "gamma_abs_lower",
+      "gamma_abs_upper",
+      "gates",
+      "inputs",
+      "integer_derivative_recursion",
+      "integer_one_gain_Sobolev_bounds",
+      "inverse_drift_commutator_same_space",
+      "inverse_followed_by_angular_derivative",
+      "inverse_radial_derivative_integer_one_gain_inner_disk",
+      "inverse_radial_derivative_same_space_inner_disk",
+      "inverse_same_space",
+      "kind",
+      "moving_d_Astrip",
+      "moving_d_phi_Astrip",
+      "moving_d_phiphi_Astrip",
+      "no_actual_PDE_background_transfer_inferred",
+      "no_full_phase_transport_or_response_recomputed",
+      "only_original_response_shard005_is_consumed",
+      "ordinary_source_retained_in_divergence_form",
+      "original_response_local_piece",
+      "original_response_shard_range",
+      "other_response_shards_rebuilt_or_revalidated_here",
+      "positive_high_input_graph_or_full_inverse_proved_here",
+      "proved",
+      "public_repository",
+      "public_run_attempt",
+      "public_run_id",
+      "radial_derivative_requires_inner_half_disk",
+      "response_raw_complete_coefficient_upper",
+      "response_repaired_complete_coefficient_upper",
+      "root_two_row_matching_proved_here",
+      "runtime",
+      "same_space_norms",
+      "seconds",
+      "source_sha256",
+      "strong_return_remainder_or_complete_beta_proved_here",
+      "whole_original_intrinsic_parameter_family_claimed",
+      "workflow_event_commit"
+    ],
+    "root_budget_gates": [
+      "the original complete complex germ and candidate identity are retained",
+      "the exact continuous background and complete direction identities match",
+      "all193 physical response states and the true mean are in the original shard",
+      "one original lossless shard has its exact declared range and byte hash",
+      "the original response polynomial contains every root component",
+      "the whole complex root disk lies on the same exact scalar and response piece",
+      "the compact metric and intrinsic root are exactly independent of nu here",
+      "the actual selected R31 parameter is in the declared explicit-family disk",
+      "the actual root background offsets and all193 direction repair fees remain",
+      "full repaired explicit-family angular bounds through four are finite",
+      "the complete complex mean and gamma stay nonzero on the whole family disk",
+      "the complete angular Neumann factor is strictly below3over20",
+      "all inverse Sobolev windows and complete mean source fees are finite"
+    ],
+    "root_is_true_not_endpoint": true,
+    "signed_intrinsic_names": [
+      "a",
+      "a1",
+      "a2",
+      "a3",
+      "E",
+      "E1",
+      "E2",
+      "rotational_gap",
+      "K",
+      "K1",
+      "gamma",
+      "beta",
+      "s"
+    ],
+    "source_only_native_payload_field_extraction": true
+  },
+  "core_review": {
+    "admit_paired_inputs_byte_identical": true,
+    "complete_bytes_read": 67340,
+    "mechanical_diff_blocks": 8,
+    "original_body_flags_reverified_at_source": "f4dd9ad8b324e39fed478183b88095c949d5c09a",
+    "result": "passed",
+    "reviewer": "newton_source",
+    "scientific_functions_executed": 0,
+    "unchanged_helpers_and_class": 15
+  },
+  "kind": "W2C_complete_pure_readonly_admission_interface_v1",
+  "legacy_admission_comparison_rule": "Every original scientific/execution field is verified against its full immutable canonical identity. Fresh core native/cubic facts are compared; old36/41 current counts and old5/10 AST counts remain original metadata, not rewritten to equal the new counts.",
+  "manifest_contract": {
+    "additional_current_files_rule": "Only explicit whole five-key specs in the same pinned manifest; all are read. No extra file is imported outside the seven declared modules.",
+    "complete_original_AST_roles_in_order": [
+      "negative_one_source",
+      "collar_source",
+      "body_source",
+      "complete_coefficient_definition",
+      "continuous_repair_definition",
+      "repaired_value_inflation_definition",
+      "lossless_shard_format",
+      "completed_reference_definition",
+      "WIC_module",
+      "WQS_module",
+      "moving_germ_definition",
+      "root_scalarization_definition",
+      "complex_germ_record_definition",
+      "metric_record_definition",
+      "beta_record_definition"
+    ],
+    "current_count_rule": "len(files) == expected_current_input_count; every complete five-key spec is read and SHA/Git checked. Current roles/paths are unique. No guessed total is embedded.",
+    "current_minimum_with_seven_new_modules_worker_rules": 57,
+    "execution_AST_count": 23,
+    "fully_fixed_original_current_spec_count": 48,
+    "fully_fixed_original_current_specs": [
+      {
+        "bytes": 41797,
+        "git_blob_sha": "3abd0f6b7291e0f9318dc035a58a4b6e8dfb851c",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+        "role": "negative_one_summary",
+        "sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef"
+      },
+      {
+        "bytes": 16380,
+        "git_blob_sha": "4dc9280cb3761b36af71f795fbafcb8749af4663",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+        "role": "negative_one_process",
+        "sha256": "f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1"
+      },
+      {
+        "bytes": 22029,
+        "git_blob_sha": "327f24e3c4a2864d8ba401f0d574f112a4a90d26",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+        "role": "negative_one_source",
+        "sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509"
+      },
+      {
+        "bytes": 11340,
+        "git_blob_sha": "d10f4681c84ab579b8121b16e6246604a608a715",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+        "role": "collar_process",
+        "sha256": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae"
+      },
+      {
+        "bytes": 15041,
+        "git_blob_sha": "602a8a3df10c4319446909a56d532ba88b0a6367",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_budget.py",
+        "role": "collar_source",
+        "sha256": "8d3ab188d47a1aa81cbc304350655f2172333b435fdf0e09482b245f957917bf"
+      },
+      {
+        "bytes": 11040,
+        "git_blob_sha": "eb294ed3b3a1cef61a3a6a1ecf7e469a7842167c",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+        "role": "body_process",
+        "sha256": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395"
+      },
+      {
+        "bytes": 21555,
+        "git_blob_sha": "ffea3e8fa1690c3c9492857728057d9d6e17bf64",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+        "role": "body_summary",
+        "sha256": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
+      },
+      {
+        "bytes": 19660,
+        "git_blob_sha": "f4dd9ad8b324e39fed478183b88095c949d5c09a",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py",
+        "role": "body_source",
+        "sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117"
+      },
+      {
+        "bytes": 6002,
+        "git_blob_sha": "aabe1eb46cb52e41c8191960a2a998b437ca47e7",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts.json",
+        "role": "body_parts_manifest",
+        "sha256": "7b1967565a0ff0a4d9855734a3f0a0621c8049160099e066d8f34ecb35cdd3a3"
+      },
+      {
+        "bytes": 12011,
+        "git_blob_sha": "ebe7ae42c2482ce9b20e7af1d41e02f89b920010",
+        "path": "topics/visible-flex-exact-nearby/notes/zero_volterra_positive_head_ci/run-43838214094-1/actual-scientific-conclusion.json",
+        "role": "WHV_actual",
+        "sha256": "ff5d6e5231e6be66107217d670133b18727dd5b24b81e7566fa884973b29df72"
+      },
+      {
+        "bytes": 23789,
+        "git_blob_sha": "18428ac8d144863cf831a10eb8af17e51d3c2ddc",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-zero-Volterra-positive-head-readonly-input-inventory.json",
+        "role": "WHV_readonly_inventory",
+        "sha256": "80f9f606f14f8cea41f3a4f18a5d6b9c7d59274ea8016199b1cc086cf58b59ce"
+      },
+      {
+        "bytes": 22954,
+        "git_blob_sha": "b37c59bc05a2131b27014f37c1a6555d6f7e2c58",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md",
+        "role": "WPT_contract",
+        "sha256": "22fb6fac312540818390bea1bb3a3ed2c750f515ad91bbbb1b0790fcdfe1fd6e"
+      },
+      {
+        "bytes": 6750,
+        "git_blob_sha": "2257c4327fcafcad3ed50f0362fb089e9cfd56d2",
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "role": "candidate_index",
+        "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
+      },
+      {
+        "bytes": 21756,
+        "git_blob_sha": "45ce0d7171ad35aa3175ea03fdac22f5158fa855",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+        "role": "complete_coefficient_definition",
+        "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c"
+      },
+      {
+        "bytes": 9076,
+        "git_blob_sha": "67d7de2adf36c916123f7c9cf7a5db09af3c7b58",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+        "role": "continuous_repair_definition",
+        "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b"
+      },
+      {
+        "bytes": 21932,
+        "git_blob_sha": "538ca4f6c9f25f669daf2ce1a175fd0bfbacb40a",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py",
+        "role": "repaired_value_inflation_definition",
+        "sha256": "8c4c734d3bf23e44aff5c8ad15ac248da52b79d05de3b4512cda42cb3cafa64d"
+      },
+      {
+        "bytes": 4187,
+        "git_blob_sha": "81a21dba0077137601382781b6b3298bdd7d5ade",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+        "role": "lossless_shard_format",
+        "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e"
+      },
+      {
+        "bytes": 38086,
+        "git_blob_sha": "18ec6014b06315aaf24cf9068e6fa31e05e6025a",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json",
+        "role": "inventory",
+        "sha256": "f7dd2ed019b30c076aa70ad1536601813095ef59bb504049d976eb0cd93b1547"
+      },
+      {
+        "bytes": 21178,
+        "git_blob_sha": "ddccd14e855ba95048fe92cbd21edfb82ebd8e6f",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md",
+        "role": "proof_WPTV",
+        "sha256": "dda500b8f5e2d02a39fbef4efcc5c2ad10dac93eef194f6e8d5b9b5a816cd0e9"
+      },
+      {
+        "bytes": 11659,
+        "git_blob_sha": "49cb657d9aefd809857aeac0229124738978a05d",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md",
+        "role": "proof_WPTVR",
+        "sha256": "62adc53eedc1ea339e02f6e2a8fa654e38c92fe04784343557e23c84ddd696c2"
+      },
+      {
+        "bytes": 24767,
+        "git_blob_sha": "c79f9de99b0f6e398c97f840e82a7e653b5e6626",
+        "path": "topics/visible-flex-exact-nearby/notes/frozen_cross_block_remaining_body_ci/run-43859287399-1/actual-scientific-conclusion.json",
+        "role": "WPTVS_actual",
+        "sha256": "bdd8857cf98d3497600b349b05fc81b8aab7441cd7020b6a5f337b6067f774ef"
+      },
+      {
+        "bytes": 60416,
+        "git_blob_sha": "b21c6d0717bccd6827eff4792bb12b8b1cd40d05",
+        "path": "topics/visible-flex-exact-nearby/notes/outer_rows_and_rough_positive_observations_ci/run-43844596176-1/actual-scientific-conclusion.json",
+        "role": "WOBSA_actual",
+        "sha256": "ba8e647cc4572333407b8979f98315e94dbab53ff2ff0086fe1d1dcdb0f17b79"
+      },
+      {
+        "bytes": 29026,
+        "git_blob_sha": "019b1136ebe81e44e98399dff5fb895aafb4362e",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md",
+        "role": "proof_WIC",
+        "sha256": "527fc35e48f8bb8807e2dc7e7a4b8726e381d35183f31bf8977b252dbb66e59f"
+      },
+      {
+        "bytes": 43851,
+        "git_blob_sha": "e830f7df4643fe77b941478dbde06ebf9378ebef",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md",
+        "role": "proof_WPS",
+        "sha256": "ffd000ff15f705ffaaf3c33dddcd0c09c997c0c92d5110bab5be5ea9c114fa72"
+      },
+      {
+        "bytes": 25336,
+        "git_blob_sha": "ff2d61db92e89cc9397c6131675bbcd6294a025c",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md",
+        "role": "proof_WQS",
+        "sha256": "bea9137248b445405c7ae483fdc56c4875cc515820632b1d34fdee8b6bfc6fee"
+      },
+      {
+        "bytes": 41683,
+        "git_blob_sha": "8a55c94d8decc25f33876665119b327eb1d1fd29",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md",
+        "role": "proof_WOB",
+        "sha256": "f13024a72e09d9b388fc51eac39d675b656d4d75ee72cdafe449a1c325e92979"
+      },
+      {
+        "bytes": 11013,
+        "git_blob_sha": "b181bb80373c870769e2c35b28e764ab7be76e44",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_weighted_impedance_circuit_math.py",
+        "role": "WIC_module",
+        "sha256": "c5de896f603424c0fed3892287031d38d775843e55580f52f4759fe1daba4de3"
+      },
+      {
+        "bytes": 10070,
+        "git_blob_sha": "d39ae08753f04a5b59c90231d605f8443b8cb9eb",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_bidirectional_impedance_generators_math.py",
+        "role": "WQS_module",
+        "sha256": "878c4aec5ed14f4d5e5f3d24ecd23476373a5e26c7b1dd4119b2198e9b73bb02"
+      },
+      {
+        "bytes": 31266,
+        "git_blob_sha": "ff79fe62e6a948b2536d2594e995047eb65fd820",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_value_tail.py",
+        "role": "completed_reference_definition",
+        "sha256": "159d8fdc153cadf844e1d28f2e0271ae12e55c38d560d7330ee28f164bf21d3c"
+      },
+      {
+        "bytes": 65347,
+        "git_blob_sha": "17a70a8a6304f387d271378f31964e075ddb9594",
+        "path": "topics/visible-flex-exact-nearby/notes/complete_paired_finite_residual_ci/run-43878765372-1/actual-scientific-conclusion.json",
+        "role": "WPS_actual",
+        "sha256": "0c2467867a6eade717a1df17936729f5e6978ee49fc2cf611e183424a51e2123"
+      },
+      {
+        "bytes": 35857,
+        "git_blob_sha": "21bf7ec0d72950132e3b0c09f940069588640302",
+        "path": "topics/visible-flex-exact-nearby/notes/complete_paired_finite_residual_ci/run-43878765372-1/execution.json",
+        "role": "WPS_execution",
+        "sha256": "01d18a4461d4aef6bff42484f195a95a5889a9e4d9ebbe2da4428a5898255c71"
+      },
+      {
+        "bytes": 48445,
+        "git_blob_sha": "ed9aede898fcb79523a188ecee54a00763593019",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-complete-paired-finite-residual-current-inputs.json",
+        "role": "WPS_manifest",
+        "sha256": "aabc28e194b27377d26f24ec7fff03708c0ff903841881233429ab0e36b76981"
+      },
+      {
+        "bytes": 50464,
+        "git_blob_sha": "6bcd4484f596e39f94cb6adc870dec3b937ad984",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md",
+        "role": "proof_WPSA",
+        "sha256": "470d2547de70dea45468103bc3518e6ed5bcc757c348543896df4edda65a2f92"
+      },
+      {
+        "bytes": 29128,
+        "git_blob_sha": "e377cb2e0578fc66ba8a7bc32e339fadcb0a242c",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md",
+        "role": "proof_WVC",
+        "sha256": "fade78e696506af0ef2c1e304e824ff7415c63df53b31f0ed299d8ff548845a8"
+      },
+      {
+        "bytes": 78627,
+        "git_blob_sha": "746ec1e16befe8914c64521ad087c1f1dd23ab73",
+        "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json",
+        "role": "WVC_actual",
+        "sha256": "85fd5bc63c7cb558ef04ff9699f1f9be81dbd7e7b9638a2e0922818dc559cb88"
+      },
+      {
+        "bytes": 37911,
+        "git_blob_sha": "c8cd8e8bb863c500a1e26c009e0af76cd7cb8941",
+        "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json",
+        "role": "WVC_execution",
+        "sha256": "5e560887d2deee497cb9da5b7549af1070db36cf69a7b11077ef4a0bb4f0feb5"
+      },
+      {
+        "bytes": 60844,
+        "git_blob_sha": "1ea008a1df3116aedd66be67b11b1d8ec62af2d5",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-continuous-centre-tracefree-current-inputs.json",
+        "role": "WVC_manifest",
+        "sha256": "229198f56efdf10ea8de6fef50804aa3832ca5ff2127101685c8d7117c9afbfb"
+      },
+      {
+        "bytes": 6381,
+        "git_blob_sha": "e70b6361315e55e658f8541879481249cfcbeada",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta96-root-collar-CI-inputs.json",
+        "role": "collar_original_manifest",
+        "sha256": "38d76e08d2d92b2d2395ec13c5c61817ace7da6bd6a1856061156a2b377bc76f"
+      },
+      {
+        "bytes": 4942,
+        "git_blob_sha": "a4de300fe8338875cb7f8062efaee60da7dc4864",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-current-root-scalarization-CI-inputs.json",
+        "role": "root_scalarization_manifest",
+        "sha256": "b1e47bdc43fdb5f9742ee8feb087f5a66dd72457439405abecb1816012b1c746"
+      },
+      {
+        "bytes": 4120,
+        "git_blob_sha": "37437b0475d8d361d3b10c4384ef486eb5be040f",
+        "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/process.json",
+        "role": "root_scalarization_process",
+        "sha256": "9f1d18061f1b406f028916adc33484b4deea826a8e4175fd28b0fdb5b690342d"
+      },
+      {
+        "bytes": 13009,
+        "git_blob_sha": "f4ee58e89ab792def1c442ab6028e51d7452465e",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+        "role": "moving_germ_definition",
+        "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491"
+      },
+      {
+        "bytes": 19473,
+        "git_blob_sha": "049d7d184f25fd1e5e2b3025a1f6be7083291dd9",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py",
+        "role": "root_scalarization_definition",
+        "sha256": "4a3ee217b21cabda6ae3dea052f27ff82f03b4218294145dc2f812891688e03e"
+      },
+      {
+        "bytes": 11227,
+        "git_blob_sha": "a674befc55e1a2af8cc848565da6986f5e3d4295",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_turning_complex_germ.py",
+        "role": "complex_germ_record_definition",
+        "sha256": "ebdfc4f6f281892757505023f17874501966ba20b987b8738337b4818a5d8d45"
+      },
+      {
+        "bytes": 13046,
+        "git_blob_sha": "cc1c1e0b271e69e7415712c5bb82678c94c3e5f8",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py",
+        "role": "metric_record_definition",
+        "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de"
+      },
+      {
+        "bytes": 30343,
+        "git_blob_sha": "6a0713f931680adfd04e87949087189aa1d75e02",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py",
+        "role": "beta_record_definition",
+        "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f"
+      },
+      {
+        "bytes": 25536,
+        "git_blob_sha": "41e309e49a41984fb624afbca21684f7e91c7c79",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md",
+        "role": "proof_W2C",
+        "sha256": "09ada380c17b64f26d0f88f49734d52361b794ce10b6617b16d58f6de053ae01"
+      },
+      {
+        "bytes": 14025,
+        "git_blob_sha": "72c3c33c11dc4c1904db4a3dac48dff44f040716",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md",
+        "role": "proof_WJK",
+        "sha256": "5b9a257a25b22b84423240242846f1fb4687573f9292773591cff01e7401c5ba"
+      },
+      {
+        "bytes": 45161,
+        "git_blob_sha": "389e6c6ade2a7f8943ebd9466e3c3b1003a4d720",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json",
+        "role": "W2C_input_inventory",
+        "sha256": "8258111dd24b18593aea2f90aabdc89a0ba08b6f8fc7947f3aac63ecc5426db7"
+      }
+    ],
+    "historical_inputs": [
+      {
+        "bytes": 1950382,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "29713df4531c214b0beb8a5dd2c0d4d979fe0cf5",
+        "index": 0,
+        "offset": 0,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part000.bin.gz",
+        "role": "original_positive_native_part_000",
+        "sha256": "29ffdceeff0c76ab958e84fd74506bafb07a60e2f178ddb880f50dbe25189b1c",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "7fed6abf740c51d6cad803d734a12dfa1ffad16e8e1b8d0ee1ec7c644f21644e"
+      },
+      {
+        "bytes": 1942995,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "4101dbabd5e12148f0ace33a94ab196cc0f54a84",
+        "index": 1,
+        "offset": 2000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part001.bin.gz",
+        "role": "original_positive_native_part_001",
+        "sha256": "04a4b04ccbe536783dddd37dd833fdf5623dab720b64a15432f3761d5b4b92dc",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "a7c6f631ffe919646be272ae4b47368f0ad03a2690ecf1887b5969f452dd820a"
+      },
+      {
+        "bytes": 1957508,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "f36fd4d2e7f726f1ec85de274d42eba951bb80f5",
+        "index": 2,
+        "offset": 4000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part002.bin.gz",
+        "role": "original_positive_native_part_002",
+        "sha256": "45a7970b370f0db0c3f1e6bd398a3dda61e5b31a594843b30550ac1e7e4be41d",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "8682a419fcc1ce8e60a80b5ef4e1459d6703f14d4126f9f326522f11d021588e"
+      },
+      {
+        "bytes": 1947192,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "af0c21edcb2c1b8afd12d8912776761af98d6c97",
+        "index": 3,
+        "offset": 6000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part003.bin.gz",
+        "role": "original_positive_native_part_003",
+        "sha256": "65f2753cd0a59d903f29520c3cad919d0b07658e90efab1bb27a1fbdb6fdc258",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "30125ee16d054b94801f16390b146c55ab11bff5c1d0399411775d346da3807f"
+      },
+      {
+        "bytes": 1958541,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "7ff35ffda99968c18a88ece1ac508c02d1bde8f7",
+        "index": 4,
+        "offset": 8000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part004.bin.gz",
+        "role": "original_positive_native_part_004",
+        "sha256": "289daa745077005479ee1d5e2a025de70f7f9f6603ea55da085b5a03991d770e",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "ad6a1f7ee7246a05ebf12e6f0f4a9de32718596384d4de3e2d59257ce0d8e8c9"
+      },
+      {
+        "bytes": 1965294,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "9438fbad8a7341b04ba83a2fce83af92ebab2811",
+        "index": 5,
+        "offset": 10000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part005.bin.gz",
+        "role": "original_positive_native_part_005",
+        "sha256": "737f041a4d3e85506ba180d188ec940958b6f0397694f4265b373c69f8e6b9bc",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "3f8557a19e436d568f8a865d6e50c81e8a503da6b506c5ef224d8495dd1b595e"
+      },
+      {
+        "bytes": 1973101,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "d1849d9d7036f4c7eb8208b74d0c11d263f6f4f4",
+        "index": 6,
+        "offset": 12000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part006.bin.gz",
+        "role": "original_positive_native_part_006",
+        "sha256": "dc746368d68fa83b0a73d2a201f1657951eea22badda2ed834629df09c6cf3e6",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "08369d01142932fa08d03481d615b7fae3a0afc5747da94d73d6b1b9e2e66d3f"
+      },
+      {
+        "bytes": 1966242,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "2b2d0bd7348056ad39ba38f38461bcefba9b4f67",
+        "index": 7,
+        "offset": 14000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part007.bin.gz",
+        "role": "original_positive_native_part_007",
+        "sha256": "68d3d37ed07b5da7c2152a1ba1276cc8b478e2f63186985229e02145b077ca66",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "902852b0176e85cead1ba5cbd25b9545b175cd0ca6f4e32292d8c2c997a9f7c1"
+      },
+      {
+        "bytes": 1904549,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "581826fdfd500573948c5a880e4862f7824d3059",
+        "index": 8,
+        "offset": 16000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part008.bin.gz",
+        "role": "original_positive_native_part_008",
+        "sha256": "49e156dac95cb7d83c9b550e127fe6c9f5908132fae6cc366144ab6c08898006",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "e6a4a6fee10f6151711deccc7b5f2c8b50459aefc64572f5f143ee1f9520db3e"
+      },
+      {
+        "bytes": 1916409,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "ff6671fd2058a5dd986999f3371e3ab9be775246",
+        "index": 9,
+        "offset": 18000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part009.bin.gz",
+        "role": "original_positive_native_part_009",
+        "sha256": "167ef3b72d2ffde736aa8f80d7291595a85e55195cac71cad3369b89d32762ea",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "0305608356742ef6e0719d35c57f4090d3e9f919dfc9aac6093f7d412719af7f"
+      },
+      {
+        "bytes": 1905000,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "54384fa7d28f5cabfbfcb6713f68be6c8bbf0f37",
+        "index": 10,
+        "offset": 20000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part010.bin.gz",
+        "role": "original_positive_native_part_010",
+        "sha256": "3f01244217179906a6d72ad79b5bfb47a2590fd08089d44c05cbd920307a67f7",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "03a6099aa1c94ef48c5afe3fa9bf5f2a31a391c20b9a536700c5255e4e66e552"
+      },
+      {
+        "bytes": 1917716,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "b6b9beb2d1dc04414d876d3d8f54fe4c0d2b5dd4",
+        "index": 11,
+        "offset": 22000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part011.bin.gz",
+        "role": "original_positive_native_part_011",
+        "sha256": "6ab32449559227533336ac0bbeb542db81ff77e2825b484d5f71da2d06094f2a",
+        "uncompressed_chunk_bytes": 2000000,
+        "uncompressed_chunk_sha256": "0d173d9c85d91c8fe9f17e47d156eb2586b9df04d3ff2461e0c051da7c861829"
+      },
+      {
+        "bytes": 1447672,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "git_blob_sha": "f729e93ca369c775c3b558672361e9e04c1f7807",
+        "index": 12,
+        "offset": 24000000,
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part012.bin.gz",
+        "role": "original_positive_native_part_012",
+        "sha256": "4a8f09d4ea4ff3c62352a059f69f37017089b00da8cc853dd8b13c227a679819",
+        "uncompressed_chunk_bytes": 1507783,
+        "uncompressed_chunk_sha256": "0a12b0cccc436d3a6bd8fbbc48c13037788fb9a4bda359e417a1ae73e688faed"
+      },
+      {
+        "bytes": 2738500,
+        "commit": "46f127c7153f5393dcd2a00f42d4c1d3662c294d",
+        "first_interval": 0,
+        "git_blob_sha": "634c08e6d18ed7d16308881b378cc5a9420be3a4",
+        "last_interval_exclusive": 1346,
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part000.npz.gz",
+        "role": "original_candidate_part_000",
+        "sha256": "5dae124eef0b3004bfea08334c2f2546ade3edc5cb926c665591e42b842babc4"
+      },
+      {
+        "bytes": 2738003,
+        "commit": "46f127c7153f5393dcd2a00f42d4c1d3662c294d",
+        "first_interval": 1346,
+        "git_blob_sha": "ed630e376a1e91b19e34ac8be8080161a15f6200",
+        "last_interval_exclusive": 2692,
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part001.npz.gz",
+        "role": "original_candidate_part_001",
+        "sha256": "3aeb38bf0577207cafcad3a59e43ed5a04a4c9cf9a703c4c3c4088c963a09106"
+      },
+      {
+        "bytes": 2738686,
+        "commit": "46f127c7153f5393dcd2a00f42d4c1d3662c294d",
+        "first_interval": 2692,
+        "git_blob_sha": "5cc4d26fb15282ec922057eead9d6728e2a2b0cc",
+        "last_interval_exclusive": 4038,
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part002.npz.gz",
+        "role": "original_candidate_part_002",
+        "sha256": "a317c6f491295d8e46aa5d4b3da84c1f26bd16d5fb65260f3d3459e1f9c6210e"
+      },
+      {
+        "bytes": 2732843,
+        "commit": "46f127c7153f5393dcd2a00f42d4c1d3662c294d",
+        "first_interval": 4038,
+        "git_blob_sha": "7a4ce33c8adf353574c34085e2cd8713245f59d3",
+        "last_interval_exclusive": 5384,
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part003.npz.gz",
+        "role": "original_candidate_part_003",
+        "sha256": "7b67e5a4b11ae45476d1507e842ae23919ca44e4ed2d64bc81bdea78e0b4007c"
+      },
+      {
+        "bytes": 1532492,
+        "commit": "46f127c7153f5393dcd2a00f42d4c1d3662c294d",
+        "first_interval": 5384,
+        "git_blob_sha": "7c9414280441e5831fa4507fab8707043511c57a",
+        "last_interval_exclusive": 6144,
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part004.npz.gz",
+        "role": "original_candidate_part_004",
+        "sha256": "314a6846ef2b5a257ddf20068332d105a7707b5aef27026f30477a47984eec4c"
+      },
+      {
+        "bytes": 14226,
+        "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+        "decode": "check original compressed bytes, SHA256 and Git blob; gzip decode once as JSON only in authorized own Actions",
+        "git_blob_sha": "f5dc1d8e7f40cc6a97ca80de26455b12000c163a",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "role": "original_continuous_centre_repair",
+        "sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc"
+      },
+      {
+        "bytes": 7851,
+        "commit": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+        "git_blob_sha": "2b90cfe80a6381badc29f02f7dcb3dce2584851d",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+        "role": "original_signed_intrinsic_root_germ",
+        "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+      },
+      {
+        "bytes": 30595,
+        "commit": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+        "git_blob_sha": "1b1c6f11478c800ef76e1519c266e80b9d08916c",
+        "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+        "role": "original_complete_root_budget_and_saved_exact_offsets",
+        "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f"
+      }
+    ],
+    "kind": "complete_collar_Volterra_dual_current_inputs_v1",
+    "mirrors": {
+      "collar_contract": {
+        "bytes": 25536,
+        "git_blob_sha": "41e309e49a41984fb624afbca21684f7e91c7c79",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md",
+        "role": "proof_W2C",
+        "sha256": "09ada380c17b64f26d0f88f49734d52361b794ce10b6617b16d58f6de053ae01"
+      },
+      "collar_input_inventory": {
+        "bytes": 45161,
+        "git_blob_sha": "389e6c6ade2a7f8943ebd9466e3c3b1003a4d720",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json",
+        "role": "W2C_input_inventory",
+        "sha256": "8258111dd24b18593aea2f90aabdc89a0ba08b6f8fc7947f3aac63ecc5426db7"
+      },
+      "completed_tracefree_execution_input": {
+        "bytes": 37911,
+        "git_blob_sha": "c8cd8e8bb863c500a1e26c009e0af76cd7cb8941",
+        "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json",
+        "role": "WVC_execution",
+        "sha256": "5e560887d2deee497cb9da5b7549af1070db36cf69a7b11077ef4a0bb4f0feb5"
+      },
+      "completed_tracefree_manifest_input": {
+        "bytes": 60844,
+        "git_blob_sha": "1ea008a1df3116aedd66be67b11b1d8ec62af2d5",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-continuous-centre-tracefree-current-inputs.json",
+        "role": "WVC_manifest",
+        "sha256": "229198f56efdf10ea8de6fef50804aa3832ca5ff2127101685c8d7117c9afbfb"
+      },
+      "completed_tracefree_scientific_input": {
+        "bytes": 78627,
+        "git_blob_sha": "746ec1e16befe8914c64521ad087c1f1dd23ab73",
+        "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json",
+        "role": "WVC_actual",
+        "sha256": "85fd5bc63c7cb558ef04ff9699f1f9be81dbd7e7b9638a2e0922818dc559cb88"
+      },
+      "core_current_files": [
+        {
+          "bytes": 41797,
+          "git_blob_sha": "3abd0f6b7291e0f9318dc035a58a4b6e8dfb851c",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+          "role": "negative_one_summary",
+          "sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef"
+        },
+        {
+          "bytes": 16380,
+          "git_blob_sha": "4dc9280cb3761b36af71f795fbafcb8749af4663",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+          "role": "negative_one_process",
+          "sha256": "f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1"
+        },
+        {
+          "bytes": 22029,
+          "git_blob_sha": "327f24e3c4a2864d8ba401f0d574f112a4a90d26",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+          "role": "negative_one_source",
+          "sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509"
+        },
+        {
+          "bytes": 11340,
+          "git_blob_sha": "d10f4681c84ab579b8121b16e6246604a608a715",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+          "role": "collar_process",
+          "sha256": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae"
+        },
+        {
+          "bytes": 15041,
+          "git_blob_sha": "602a8a3df10c4319446909a56d532ba88b0a6367",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_budget.py",
+          "role": "collar_source",
+          "sha256": "8d3ab188d47a1aa81cbc304350655f2172333b435fdf0e09482b245f957917bf"
+        },
+        {
+          "bytes": 11040,
+          "git_blob_sha": "eb294ed3b3a1cef61a3a6a1ecf7e469a7842167c",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+          "role": "body_process",
+          "sha256": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395"
+        },
+        {
+          "bytes": 21555,
+          "git_blob_sha": "ffea3e8fa1690c3c9492857728057d9d6e17bf64",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+          "role": "body_summary",
+          "sha256": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
+        },
+        {
+          "bytes": 19660,
+          "git_blob_sha": "f4dd9ad8b324e39fed478183b88095c949d5c09a",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py",
+          "role": "body_source",
+          "sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117"
+        },
+        {
+          "bytes": 6002,
+          "git_blob_sha": "aabe1eb46cb52e41c8191960a2a998b437ca47e7",
+          "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts.json",
+          "role": "body_parts_manifest",
+          "sha256": "7b1967565a0ff0a4d9855734a3f0a0621c8049160099e066d8f34ecb35cdd3a3"
+        },
+        {
+          "bytes": 12011,
+          "git_blob_sha": "ebe7ae42c2482ce9b20e7af1d41e02f89b920010",
+          "path": "topics/visible-flex-exact-nearby/notes/zero_volterra_positive_head_ci/run-43838214094-1/actual-scientific-conclusion.json",
+          "role": "WHV_actual",
+          "sha256": "ff5d6e5231e6be66107217d670133b18727dd5b24b81e7566fa884973b29df72"
+        },
+        {
+          "bytes": 23789,
+          "git_blob_sha": "18428ac8d144863cf831a10eb8af17e51d3c2ddc",
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-zero-Volterra-positive-head-readonly-input-inventory.json",
+          "role": "WHV_readonly_inventory",
+          "sha256": "80f9f606f14f8cea41f3a4f18a5d6b9c7d59274ea8016199b1cc086cf58b59ce"
+        },
+        {
+          "bytes": 22954,
+          "git_blob_sha": "b37c59bc05a2131b27014f37c1a6555d6f7e2c58",
+          "path": "topics/visible-flex-exact-nearby/results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md",
+          "role": "WPT_contract",
+          "sha256": "22fb6fac312540818390bea1bb3a3ed2c750f515ad91bbbb1b0790fcdfe1fd6e"
+        },
+        {
+          "bytes": 6750,
+          "git_blob_sha": "2257c4327fcafcad3ed50f0362fb089e9cfd56d2",
+          "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+          "role": "candidate_index",
+          "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
+        },
+        {
+          "bytes": 21756,
+          "git_blob_sha": "45ce0d7171ad35aa3175ea03fdac22f5158fa855",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+          "role": "complete_coefficient_definition",
+          "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c"
+        },
+        {
+          "bytes": 9076,
+          "git_blob_sha": "67d7de2adf36c916123f7c9cf7a5db09af3c7b58",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+          "role": "continuous_repair_definition",
+          "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b"
+        },
+        {
+          "bytes": 21932,
+          "git_blob_sha": "538ca4f6c9f25f669daf2ce1a175fd0bfbacb40a",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py",
+          "role": "repaired_value_inflation_definition",
+          "sha256": "8c4c734d3bf23e44aff5c8ad15ac248da52b79d05de3b4512cda42cb3cafa64d"
+        },
+        {
+          "bytes": 4187,
+          "git_blob_sha": "81a21dba0077137601382781b6b3298bdd7d5ade",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+          "role": "lossless_shard_format",
+          "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e"
+        }
+      ],
+      "inventory": {
+        "bytes": 38086,
+        "git_blob_sha": "18ec6014b06315aaf24cf9068e6fa31e05e6025a",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json",
+        "role": "inventory",
+        "sha256": "f7dd2ed019b30c076aa70ad1536601813095ef59bb504049d976eb0cd93b1547"
+      },
+      "joint_kernel_contract": {
+        "bytes": 14025,
+        "git_blob_sha": "72c3c33c11dc4c1904db4a3dac48dff44f040716",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md",
+        "role": "proof_WJK",
+        "sha256": "5b9a257a25b22b84423240242846f1fb4687573f9292773591cff01e7401c5ba"
+      },
+      "mathematical_contract": {
+        "bytes": 21178,
+        "git_blob_sha": "ddccd14e855ba95048fe92cbd21edfb82ebd8e6f",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md",
+        "role": "proof_WPTV",
+        "sha256": "dda500b8f5e2d02a39fbef4efcc5c2ad10dac93eef194f6e8d5b9b5a816cd0e9"
+      },
+      "refinement_contract": {
+        "bytes": 11659,
+        "git_blob_sha": "49cb657d9aefd809857aeac0229124738978a05d",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md",
+        "role": "proof_WPTVR",
+        "sha256": "62adc53eedc1ea339e02f6e2a8fa654e38c92fe04784343557e23c84ddd696c2"
+      }
+    },
+    "parameter_rule": "The owner locks its complete PARAMETERS. The reader checks this complete mathematical guard subset with typed canonical JSON; any additional fields remain bound by the exact whole manifest SHA.",
+    "problem_id": "W2C_complete_collar_Volterra_dual_candidate_v1",
+    "required_parameter_guards": {
+      "actual_delta_degree": 96,
+      "actual_tail_inverse_bound": 3,
+      "bits": 320,
+      "collar_piece": 2549,
+      "complete_family_residual_last_index": 416,
+      "complete_new_scalar_targets": 50,
+      "conditional_inverse_targets": 2,
+      "cutoff_width": "1/16",
+      "decimal_record_digits": 75,
+      "first_high_index": 97,
+      "fixed_completed_provider": "WVC_43891414339_1",
+      "head_dimension": 193,
+      "high_trial_last_index": 224,
+      "new_array_artifacts": false,
+      "old_collar_eta_reused": true,
+      "old_targets_recomputed": 0,
+      "original_complete_same_operator_records": 29,
+      "parent_band_subcells": 8,
+      "parent_cells": 153,
+      "physical_high_minimum": 388,
+      "real_direction_radius": "1/100000000",
+      "reference_centre_degree": 32,
+      "reference_high_last_index": 160,
+      "refined_cells": 24480,
+      "repaired_centre_residual_last_index": 288,
+      "same_actual_spaces_and_projections": true,
+      "true_root_is_not_an_enclosure_endpoint": true,
+      "uniform_refinement": 160
+    },
+    "required_scientific_module_roles_in_order": [
+      "science",
+      "readonly_admission",
+      "readonly_core",
+      "collar_math",
+      "kernel_math",
+      "assembly_math",
+      "reference_math"
+    ],
+    "source_AST_count": 22,
+    "worker_AST_count": 1
+  },
+  "original_core_source": {
+    "bytes": 67420,
+    "git_blob_sha": "3720b34531e0258fe44f22879687627740f81784",
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_continuous_centre_tracefree_readonly.py",
+    "role": "original_WVC_readonly_definition",
+    "sha256": "c84bd805d685bb65eb10e75eb95a7efdbe2f5eb9527c0fafd1b534d54372f0f2"
+  },
+  "repository": "Rogerhu12/math-research-public",
+  "restoration_receipt": {
+    "additional_historical_inputs": [
+      {
+        "bytes": 7851,
+        "commit": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+        "compressed_sha256_verified": true,
+        "git_blob_sha": "2b90cfe80a6381badc29f02f7dcb3dce2584851d",
+        "git_tree_blob_and_size_verified": true,
+        "identical_original_bytes_materialized": true,
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+        "role": "original_signed_intrinsic_root_germ",
+        "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+      },
+      {
+        "bytes": 30595,
+        "commit": "ae319f7544b3c94b5dbcb5290557ed04b66641eb",
+        "compressed_sha256_verified": true,
+        "git_blob_sha": "1b1c6f11478c800ef76e1519c266e80b9d08916c",
+        "git_tree_blob_and_size_verified": true,
+        "identical_original_bytes_materialized": true,
+        "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+        "role": "original_complete_root_budget_and_saved_exact_offsets",
+        "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f"
+      }
+    ],
+    "exact_keys": [
+      "kind",
+      "original_WVC_restoration",
+      "additional_historical_inputs",
+      "historical_input_count",
+      "old_producers_executed",
+      "original_repairs_regenerated",
+      "new_artifacts",
+      "new_arrays_published"
+    ],
+    "historical_input_count": 21,
+    "kind": "complete_W2C_readonly_restoration_v1",
+    "native_read_rule": "Before gzip parsing, actual complete raw compressed bytes/length/SHA256/Git blob and gzip header are checked again by the scientific readonly child.",
+    "new_arrays_published": 0,
+    "new_artifacts": 0,
+    "old_producers_executed": 0,
+    "original_WVC_restoration": {
+      "canonical_bytes": 13771,
+      "entire_object_must_remain_unchanged": true,
+      "json_path": [
+        "complete_restoration_receipts"
+      ],
+      "sha256": "4705f2c3a093724ed7e21bfee9ed30d481105e1aec8446da55a14fb0a764d7ac",
+      "source": {
+        "bytes": 78627,
+        "git_blob_sha": "746ec1e16befe8914c64521ad087c1f1dd23ab73",
+        "path": "topics/visible-flex-exact-nearby/notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json",
+        "role": "WVC_actual",
+        "sha256": "85fd5bc63c7cb558ef04ff9699f1f9be81dbd7e7b9638a2e0922818dc559cb88"
+      }
+    },
+    "original_repairs_regenerated": 0,
+    "whole_map_rule": "original_WVC_restoration.historical_inputs (19) followed by additional_historical_inputs (2) equals the manifest historical_inputs in order, with complete original verification flags."
+  },
+  "returned_private_admitted_fields": {
+    "additional": [
+      "repair",
+      "collar_process",
+      "original_WVC_restoration_receipt",
+      "W2CI",
+      "completed_tracefree_inputs",
+      "germ",
+      "rb",
+      "original_optical_records",
+      "collar_original_contexts",
+      "collar_native_identities",
+      "collar_native_shape_summary",
+      "original_closure_admission",
+      "original_completed_WVC_admission",
+      "complete_restoration_receipts",
+      "complete_restored_input_map",
+      "same_operator_records",
+      "current_manifest_sha256",
+      "collar_inputs_verified"
+    ],
+    "all_native_private_objects_are_complete_original_JSON": true,
+    "compact_context_reference_count": 15,
+    "context_reference_rule": "Each context binds source role/path/bytes/SHA256/Git plus complete original json_path/canonical bytes/SHA256, never a clipped projection.",
+    "existing": [
+      "manifest",
+      "inventory",
+      "native",
+      "rows",
+      "kernels",
+      "cubic",
+      "repair_suprema",
+      "literals",
+      "WHV",
+      "old_scope",
+      "candidate_metadata",
+      "repair_definition",
+      "admission",
+      "current_receipts",
+      "scientific_modules",
+      "paired_inputs",
+      "completed_paired_inputs"
+    ],
+    "flag_rule": "collar_inputs_verified=True is assigned only after all original bytes, complete schemas, domains, original scope and provider checks succeed and flint is still absent.",
+    "no_evaluated_Arb_or_new_record_in_admission": true,
+    "original_optical_records_count": 2,
+    "same_operator_records_count": 29
+  },
+  "scientific_target_ownership": "This reader emits no new mathematical target. All50 (+2 conditional) W2C targets, complete durable prefixes and exact loss accounting belong to the separately pinned new owner/assembly.",
+  "snapshot_checks": {
+    "admissionExact": true,
+    "allContexts": true,
+    "allCopyLiteral": true,
+    "copy29": true,
+    "copy4653": true,
+    "copyHash": true,
+    "exec44": true,
+    "field43": true,
+    "germ47": true,
+    "nativeNoBodyFetched": true,
+    "noNul": true,
+    "oldHistory19": true,
+    "oldReceipt13771": true,
+    "oldReceiptHash": true,
+    "parametersExact": true,
+    "rb81": true,
+    "restore21": true,
+    "scienceNotExecuted": true,
+    "scopeExact": true,
+    "sourceActual": true
+  },
+  "source_modules": [
+    {
+      "bytes": 67340,
+      "git_blob_sha": "29b918e40d7061f52899ae6007a9ebb2be513f19",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_readonly_core.py",
+      "role": "readonly_core",
+      "sha256": "8a881067884ab122f657c2af305601e4fe3bb5f3ad34e20fd77a1f3047c01b60"
+    },
+    {
+      "bytes": 77854,
+      "git_blob_sha": "84aa5c46ac9548ebdcffbaa8f8d0e87560e8fd0a",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_readonly.py",
+      "role": "readonly_admission",
+      "sha256": "0e27b03f201bbe118a598e2c693ded5ac698524659d51e4e30b203e97fd88408"
+    }
+  ],
+  "status": "complete static source; no reader/science/native execution in this session; owner/current manifest final pins remain a separate package",
+  "unchanged_false_scopes_and_ports": [
+    "original WVC finite sufficient gate false",
+    "actual GH is the original infinite-high response",
+    "same193 head and independent mean",
+    "same96 root-even and96 outer coordinates",
+    "actual affine seam and all seven ports",
+    "same WVC q/rho/full reference operators",
+    "no nonlinear PDE or root matching upgrade"
+  ]
+}

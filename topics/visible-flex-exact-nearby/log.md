@@ -327,3 +327,11 @@ selected环境新挂载后原会话目录不存在；显式/bin/bash、login=fal
 2026-11-16 16:57:37 UTC visible-exact-astra-0df9：按根规15普通删除旧43307149760/block0_20的21个已成JSON派生叶1319999B；完整restore9dfc7348e31a4467d392000fa83ba69f19e514be。21件全Git/bytes/SHA、27共有identity及exact interval与原manifest原字核同，manifest/execution/worker.log/原失败span0002_root保持；完整逐字恢复索引18636B/f4403a51adfacdbdbf58b3ee40b34be7410dd063/e5734185f9812164029b62fa4000845731a95238d68dc707ae8bcd8aa2b879f3。不运行旧producer/不读二进制/不扩大m4局部参数族scope，不授完整DN/Schur。
 H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348不可变公开链接保全部前页和未付义务；新7模块/21恢复/50(+2)仍未科学运行，继续reference/5图/reader/owner。旧目标0/lost0；每启动仍需fresh容量并全publication+120KB。
 2026-11-16 16:57:40 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 672bd1c2f280fe6683d8f51295b899f192ac5e9f的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+
+## 2026-11-16 W2C 完整只读输入边界
+
+两新只读源及完整接口已静态核完并独立刊出：core `29b918e40d7061f52899ae6007a9ebb2be513f19` / 67340 B / `8a881067884ab122f657c2af305601e4fe3bb5f3ad34e20fd77a1f3047c01b60`，supplement `84aa5c46ac9548ebdcffbaa8f8d0e87560e8fd0a` / 77854 B / `0e27b03f201bbe118a598e2c693ded5ac698524659d51e4e30b203e97fd88408`，接口 `b391731d680234ebd2ca2722f862b03f1ce1ac28` / 82276 B / `d32a76db041ad0efe5d3cea509af35e12e2f90819bdacde75d8306fa5e339654`。原WVC43科学+44执行field全部canonical身份、29同算子整球4653B、原19恢复13771B完整壳均原字；新增两native47/81完整字段/原域/false资格由原producer静态导出。新21壳明确包原19，实际current/15原定义+7新模块AST计数与旧统计分开。
+
+11值CLI及preflight-only完整合同已写。所有native字节的解压/完整资格/AST实际执行留公开Actions；本次仅源码、JSON词法与字节身份核，未import reader、flint或任何旧producer，0新科学/0重算。owner及joint核压缩继续；通用rank累加的成本尚未闭，50(+2)仍未开始。本次前总量198067273B，按完整新增文本精确加算，结果不冒最终闭曲面族。
+2026-11-16 17:05:20 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 9e13243d17d5fe736352a9a40b88d75f79b8d744的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
