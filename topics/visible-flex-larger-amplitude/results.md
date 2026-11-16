@@ -119,3 +119,5 @@
 - **R584/request244（已证明的完整真实入口）**：[R583循环观察接原full112](results/R584-request244-loop-rounding-observation-complete-original-full112-entry.md)，[全部CLI/469源/必要与清理合同](notes/2026-11-16-request244-loop-rounding-observation-original-full112-interface.md)。原R59412000/19200与输入/全科学门保持，六层source-only且R583只装一次；真实R585由本次run支付。
 
 - **R566（已证明的实际237返回范围）**：[432源准备完成、双必要超限及未知内部科学结论](results/R566-actual237-source-and-science-readback-overflow.md)。两终态唯一读取；286365/164993原全体未返，原70/准备true与transport.false区别/quiet保raw完整；无新的科学父。
+
+- **R568（已证明的实际238返回范围）**：[全采样、gzip完整读取及有理词/closed recipe真实入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。全112far/联合行、13850点完整；真正BVP已启动但两phase未起，后继未付；91528 generation正文未返、原70、quiet与未清理分别保，不能据工程错误推断数学拒。

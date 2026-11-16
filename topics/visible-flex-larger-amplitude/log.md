@@ -177,3 +177,7 @@ R596三件104903B完成即独立刊：真实CP/capture/all RHS字、四原物理
 ## 2026-11-16 16:30 UTC /root — R566 actual237双必要超限的完整已返范围
 
 R566完整结论23459B写成即独立刊：实际237两job唯一整读，432源准备成功与双必要286365/164993超90K诚实70分开，两个descriptor同字，外1/1/1与nullstop/nullsignal/quiettrue保，内部终因未知且raw未删，非数学拒。另绑244唯一POST200/run43908088860/head46dff606/job133442289891，R585 exact唯一；无running日志读取。
+
+## 2026-11-16 16:37 UTC /root — R568 actual238全采样与两真实入口错误
+
+R568完整作者结论写成即独立刊，根仅修两文件名Markdown闭引号（原36449/60ae→36447/699e65），所有数学/实际源身份不变；238两终态唯一整读，真实全采样/95GBdecoded gzip与bare-float/旧recipe两入口错及91528超90K未返逐项区分，原453/450及所有闭面/精化未起、raw未删、无新父。R599→249继续；root R601/246、exact R600及五run、amplitude R574与227/243继续。
