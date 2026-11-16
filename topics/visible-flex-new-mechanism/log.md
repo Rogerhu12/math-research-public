@@ -160,3 +160,8 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:17 UTC：真正58自由R1/R2新范围提交
 
 [新设计](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)request75313B/498633426b4bc0928e9397379235ad390dade8b54be2febe87457a74e6cecc6f绑定337源：自由34物理控制+K/h，原58零起；两网各新142列Pi、一次SLSQP180秒/200iter/600完整评价，总600秒。准确K下界内包、原盒/完整G谱/一次舍入、原wholebody/actual14及所有raw/partial保存经root与独立纸审；原326源hash未变。尚未读取运行结果，58/2902.366570826秒147值不变，无本地科学或开发检查。
+
+
+## 2026-11-16 14:24 UTC：R531同一规范的真实负p1入口
+
+[R531](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)保同母原20、三q0、真前缀/全部memory与一次χ，严格面积+两脉冲单IFT达p1<0；真实平滑控制过渡后可局部恒负。root发现并修直接σ0的二阶jet断点，独立纸审通过；O(τ²)仅约化(S,m)，整pulse总p1仍正，M0/长保持未付。0理论科学执行。另free36原输出已读到环成功、全bodyη6.979414564941248/κ69803.90363577171失败、0actual；72.22285305100002秒闭、祖2974.589423877/147，详细闭账继续整理。

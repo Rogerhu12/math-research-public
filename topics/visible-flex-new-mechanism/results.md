@@ -77,3 +77,6 @@
 
 
 - [真正58自由R1/R2与曲率minimax新任务](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)：**已提交，待实际观察**。34物理R0零面控制与K/h共同优化，原盒/实际G谱三门；每网新142列Pi付完整L17/H125，已付字段不重算。337源，一次600总秒/180solver秒/600完整评价，合格候选才完整预测和原actualpair；未授59或主门。
+
+
+- [R531 三零母库中的实际负p1子段与同一固定规范](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)：**已证明**保原20/三q0的同母，三Gram状态斜率、完整memory短窗面积与真两脉冲IFT给原p1<0；平滑σ过渡后真实保持一段常负密度，入history不重置。总pulse p1仍正，长负累计/全八矩/13/pose尚未付；补全非零q固定零叶任意入口的排除。

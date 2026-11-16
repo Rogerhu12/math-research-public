@@ -96,6 +96,12 @@ $
 
 完整入口常数f(t_c)、真实换坐标p1与t1、非单调时钟/停顿及原端势已逐项保留；对R527用实际C1估计过积分，不把小法向q重新设零。原大幅K0仍成立，但同一参考弧附近每个充分大有限T0都不是M0返回。继续同母三q全零的完整历史控制，或真正跨曲面/其它历史方向；不把此具体分支阻断外推为主问题无解。
 
+### R531三零母上的真实负p1与平滑保持
+
+[R531](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)从起点保同R520型原20目标，三完整q全零且ℓk>0；一次第三Gram同时设三真实状态斜率。原真前缀与全部八矩反馈给短窗严格面积，两个真实height控制和一个准确末端IFT达到k=h_cδ、原p1=−h_c²δ²/2<0。该负子段入m/T全保；整个pulse总p1仍正二阶，不能称M0。
+
+后继σ=p1′只换原控制坐标：旧γ0真延续→平滑cutoffσ_old→右open恒0，完整jets/固定χ/真实history均保，实际常负量为过渡后的P_hold而非旧P_*。O(τ²)只授约化(S,m)状态差，不授完整T同阶。现在继续在该真末态上付足够长的负累计、其余七矩及germs/pose/13/period；没有任意长保持或全闭解。固定非零q零叶任意入口的单号排除也已补全。
+
 ### R521新的有限正复制与完整history反馈
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)从起点选择4包三矩、8副本全cubic基本块，再用16个正交旋转/反射及每组11个互异正节点的共同0…10矩，令完整第四ruling准确只剩sin²θ一条。整base双collar保证跨base加法，内部真尾与全部第三history保留。在预定h>0、x+ω>0、e=h(x+ω)−k>0紧域，原kss系数有严格正积分及统一正下界；以固定w=χ=0显式解kss，hss是真实自由控制，原m和完整有限第三状态同步演化。

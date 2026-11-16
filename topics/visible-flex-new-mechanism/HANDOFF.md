@@ -24,13 +24,11 @@ private于14:08:50.558190→14:09:12.326653实际pull读 **e7f3575ad7152555fab20
 
 58 physical **94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54**；ind168 **e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf**。原55仅永久constructor。58本任务185.978494641秒/4值已闭；CACHE2只按原身份复用U/T/e/f及selected二jets/metric，不称全grid二jets或58 J。
 
-[旧ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：32.28273412599998秒/0值，唯一原盒LP status2/nit0/x与dual None；原不变列未排目标。已闭，不重解，不授准确不可行。
+[旧ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)32.28273412599998秒/0值，唯一LP2/nit0无原/对偶；[反射R1](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)19.350847490999968秒/0值，BVLS成功/首3/8新LP2无候选。均闭、0actual、不授准确不可行；原MODEL保scalar/frame/Z17/PiZ17/V17及射线Lx/Hxx，后者不冒全张量。
 
-[反射R1](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)：run43873254906/research133319615177，19.350847490999968秒/0值；共同BVLS成功，七α中六个过环门，首3/8新R2 LP status2/nit0/raw18与dual None。0预测/actual，R1-only κ≈79.9617。完整MODEL含V17和射线Lx/Hxx等实际导出字段，单射线H不能冒全张量；旧LS/LP均闭。
+[联合19闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)19.9540876秒/0值，SLSQP8/false、nit16/46完整评价；谱门仍负，0候选/预测/actual，累计2902.366570826秒/147值，余额关闭。
 
-[最新联合19闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)：run43880150928/research133343574077/report133344023593/source25c98ff4198cfc10552ddcd0dc9307110a6be8de。一次SLSQP status8/false，nit16/nfev46/njev12，原rawα=.2934209846189501/h=63.99998934237297；末缩放违约.2445904937714127，谱两门仍负。46完整新解析评价；无舍入候选/预测/actual，仍58，不授整射线准确不可行。
-
-本新 **19.9540876秒/0值**，相关累计 **2902.366570826秒/147值**；余额关闭、0overrun。MODEL/SOLVE_TRACE/NONLINEAR_RESULT/FINAL在原stdout，report10记录0parse且语义读完整，大数组只选读元数据。新paid半径a=.3399084551031785来自58 CACHE2原metric；0旧frame/Π/J/ordinary/BVLS/LP重放。所有先前失败和source成本保各原note，不用后续证书追改旧状态。
+**最新自由36实际** run43884276617/research133358065602/report133359165070/source7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c。SLSQP0/true、nit11/11完整评价，K16.393442622950822，原盒及环未平方门真；唯一wholebody预测η6.979414564941248、κ69803.90363577171失败，0actual，仍58。新 **72.22285305100002秒/0值**，相关累计 **2974.589423877秒/147值**，余额关闭/0overrun。新两批142列Pi及完整L17/H125已存MODEL，预测大数组未存不冒可恢复；完整闭账note正在整理，下一真实加入body耦合，旧ring问题不重开。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -43,6 +41,8 @@ private于14:08:50.558190→14:09:12.326653实际pull读 **e7f3575ad7152555fab20
 - **R527**同R520型初选保原20全部值，30目标付统一紧弧ℓk>0/ℓtan<0；不统一缩放冒Gc1。长真实前缀及保B′=Mraw的有限ODE给大幅全K0，只越|k|1和较弱2/hmax；末m=T0Mc+B及germ/13/pose/period未闭。
 - **R529**对穿k0常态的固定非零三q零面，原水平叶非恒p1严格正，退化线叶k0/t1严格负，正时往返不能M0。R527实际总p1=δ+O(1/T0)>0且前缀该项0，所以该族本身不闭；继续三q全0或真实跨曲面，B′仍保。
 
+- **R531**同R520型初选保原20/三q全0/ℓk>0，一次χ三Gram设完整状态斜率；真前缀/八矩反馈/两height脉冲/标量IFT给原p1<0。平滑σ切换后能保持正长度负密度，真入T不重置；总pulse p1仍正二阶，未授长负累计/M0/13或pose。
+
 **R521是另一母库**：4包三矩/8副本cubic、16元O(2)正复制共同0…10矩，含完整第三history的ruling为sin²θ；h,z,e正紧域内kss原系数严格正，固定w/χ、hss自由，真实m/T同步ODE。它不继承R459/518/520共同cap、原20或13。R523非恒反射短段靠一次通常非零w/χ，Atot=2AL、Ttot=−Atot²/2而AL≠0；frame/位置/奇germs/第四未付，第四加倍。
 
 **R526**只对真实M0/K0块、w0/固定χ与匹配反射germs：继承T_P后PP^R末M/T零，第四2V_P；pose闭须GD=DG、v∥N。另同germs/G=D/T_P(φ;D)0时P²(P^R)²闭pose/M/T，第四4V_P；hook逐函数盲只给充分目标，实际M0块未构造。**R528**在同R521整个共同窗口的Möbius分母1−k(h(x+ω)−k)无零时，常态时间二次系数严格为−Λc sin²θ，独立入A/T及固定w/χ；正长度K0常态不可能。覆盖合法k≤0，不排非恒偶germs、穿极点或R520另一母。
@@ -53,8 +53,8 @@ R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周
 
 ## 5. 已在继续的真实下一问题
 
-**O2**[自由R1/R2新范围](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)提交待原观察：337源，34物理R0零面坐标+K/h，min K+1e−6h，原58零增量/K58/h0起；原172盒/完整G谱三门保。读5个已闭stdout，a/a_s及frame/Z17/PiZ17/V17按原字段；新L17/H125由每网142列Pi另付。一次SLSQP180秒/200iter/600完整评价，总600秒；至多1全body预测/原actualpair。准确K下界内包binary64，raw36/decoded36/partial原样存；norm容差不冒准确epigraph。未授59/主门，不重旧19、LS、LP/frame/旧Π/J。需要R0则另付完整新几何。
+**O2**自由36原环优化已成功，但上述wholebody两门失败，完整原候选未被接受。新L17/H125只按原MODEL读；下一把真实body metric/曲率耦合纳入新问题，必要时释放R0并另付对应field/Π/J。不得只重解旧ring、换初点或增预算；真正候选仍须原body预测/14门/准确盒，有限网不授连续主门。
 
-**O4**在同一个可变母/固定规范中继续三q全零的真实历史反馈，或真实有限幅M0配平；另一R521库继续非恒偶germs/全m,T控制。R530双边全K已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
+**O4**R531已到真实负p1并付平滑局部保持，继续同χ足够负累计和八矩配平；另一R521库继续非恒偶germs/全m,T控制。R530双边全K已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
 
 每一子问题结束接open下一项；不因阶段、运行余额、时长或条件定理停主课题。最新费用/来源/规则随真实进展更新。
