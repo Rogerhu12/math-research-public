@@ -100,3 +100,5 @@
 - [R537 同一规范下预选有限高度路径的完整全段延续](results/R537-prescribed-finite-height-paths-with-one-gauge-and-complete-history-energy-bounds.md)：**已证明**真慢j和完整第三势重写后，顺次历史界与正快振子的修改能量给同χδ整段K0及d=Oδ²/d′=Oδ。先固定有限路径/紧族后δ；高度末germ准确，其余端口未返，p1仅Oδ⁴、t1总负，不授M0或δ依赖无限高度/时长。
 
 - [R536 同一33母的完整快高度回路与真实净负总矩](results/R536-real-negative-total-matrix-density-from-a-complete-fast-height-loop.md)：**已证明**一次χ、真前缀及完整八矩/第三下，有限高度闭回路和同规范平滑恒负保持使总p1^{ωc}<0；同一保持段内准确停止可清单个p1。其它七矩、末germ、pose、T/V及period未闭，不授可加零端口块。
+
+- [R538 完整四阶矩单路径泛函与真实强准备](results/R538-complete-fourth-order-matrix-functional-for-prescribed-height-paths.md)：**已证明**同χ、真固定d开放入段及预给有限C⁴高度下，d/δ²与j/δ²强收敛，真实总p1/δ⁴趋于∫(2D_h²−h²J_hD_h)。D_h保完整A/T，常高度尾负中心已明确；尚未由本稿实现负例，其余七矩与返回门仍待。

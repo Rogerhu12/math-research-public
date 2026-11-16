@@ -62,6 +62,12 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 [R537](results/R537-prescribed-finite-height-paths-with-one-gauge-and-complete-history-energy-bounds.md)接R535同一真实入端；先选有限T、合法高度路径及紧参数族，后选小δ。j=η/h+d/h²与完整T̃=T−Pacc+𝒜γυ把第三快加速度准确移出，真A′/T̃′顺次给任意预选有限T的界，再以含实际历史f的修改能量关闭最大区间，d=Oδ²、d′=Oδ、kη=Oδ²。整段原K0、同χδ、完整第三/pose/第四继续；高度末germ准确，其余末门不重设。原p1仅Oδ⁴未定号，t1总严格负，故近k0跟踪不授M0。下一求同实际高度与A/T联动的四阶符号或更大k轨道；δ依赖大高度/时长须另付常数，不能由有限路径定理预支。
 
+### R538：真实预给高度路径的完整四阶单泛函
+
+[R538](results/R538-complete-fourth-order-matrix-functional-for-prescribed-height-paths.md)以同R537真开放固定d入段和先固定C⁴高度界，证明含完整慢history的强迫二阶导数有界；实际准备e(0)/e′(0)=Oδ⁷及修正振子能量给d=δ²Dδ+Oδ³、d′=Oδ²。完整canonical A_h/T_h决定D_h，j/δ²→J_h=−2∫D_hh′/h³，故含全部正前缀的真实总p1=δ⁴∫(2D_h²−h²J_hD_h)+oδ⁴。没有把任意D当控制或作未付相位平均。
+
+常高度尾J恒定，密度准确为2(D−h²J/4)²−h⁴J²/8；应在同一规范与完整有序history内真正把D靠近此中心。C⁴及先固定有限路径后δ的选择次序必须保；t1仍总负，四阶p1判据不清其余矩/末germ/pose/period。下一直接构造原系统可实现的负泛函或有限幅离k0路径。
+
 ### R533：完整速度不定式与全八矩历史的正则图
 
 [完整证明](results/R533-complete-velocity-quadratic-form-and-all-history-regular-ruling-coordinates.md)从R520同类型母起点保原20/共同cap/固定I，新增13真实高阶目标有原33维有限正根。十四principal仅一关系、删B₁后恢复其完整O(1)余值；正幅O(Λ)与先Λ后有限频率给未指定三导能量O(Λ)。完整速度H与m/固定χ无关，H₁₁=O1/H₁₂=−Λc+O1/H₂₂=OΛ使任意预选合法scalar紧盒严格不定，ξ_tar仅代数目标编码、不是负x支撑。
