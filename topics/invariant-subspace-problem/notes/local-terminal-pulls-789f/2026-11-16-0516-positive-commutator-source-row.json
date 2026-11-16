@@ -1,0 +1,29 @@
+{
+  "format": "isp-local-actual-pull-publication-v1",
+  "preparedCommit": "d7a1e34a1ac39ec936bbdcfe56344f7132e22c02",
+  "pulls": [
+    {
+      "beforeCommit": "b222cd25ef15e7c48fcdbef5817402868c43005c",
+      "remoteCommit": "b55bcacd75fee92cdb9fa902d51b9f73d185253b",
+      "utc": "2026-11-16 05:15:26 UTC",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true
+    },
+    {
+      "beforeCommit": "b55bcacd75fee92cdb9fa902d51b9f73d185253b",
+      "remoteCommit": "9240d7f22eec0ad8d45dda23b68f218f364ae316",
+      "utc": "2026-11-16 05:15:36 UTC",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true
+    }
+  ],
+  "credentialWrittenToFile": false
+}

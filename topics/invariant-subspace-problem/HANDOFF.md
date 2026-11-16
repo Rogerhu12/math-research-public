@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a9db00672fd00163cb38cc3c853c16077ff1a3bf（2026-11-16 05:12:46 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0513-original31-zero-target-module.json。
+- **最近成功实际 pull 与已读规则提交：** 9240d7f22eec0ad8d45dda23b68f218f364ae316（2026-11-16 05:15:36 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0516-positive-commutator-source-row.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -36,4 +36,5 @@ M=kerT，N=closure BM，N=M仍开。保同w/u、负前缀/未来、全部partial
 - [公共塔指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)：任意复公共相容塔至x，max{M_floor(x/48),M_x}≥¼e^(x/12800)，x≥64；保全部primitive/自由首列。排固定多项式公共塔预算，不给actual源坏能量或W反例。
 - [同源log方差](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)：q̇=ΣjE_j；固定倍数窗给一阶矩→0，[Sx,xSx]给≤Δ_Q²/logx，同一次选参适用全部合法Q。不可删canonical M_j/y_j中的1/y_j。
 - **[一位完整Schur与联合高度矩](results/R271-appendix-one-bit-hardcore-complete-source-schur-and-joint-height-moments.md)：** 两mode保全部横向源，准确2×2 Gram/Schur及真实投影损失c_j(p)E_j≤q0−q1≤(A_j(p)−1)E_j逐j求和；原逐位损失准确累计到kerL_m，不换M。y∈[x,2x)、辅助t∈[Sx,2Sx]一次选源，Σ[j+j(j−1)/x]E_j≤30000 Vx≤30000Δ_Q²，Vx→0，原Q≥6d母窗合法。t非物理尾；后续源重新最小化的漂移/完整中段返回继续，未付全核修复。
+- **[正因子与完整新源整行](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)：** K=I+T*T−TT*为真核外creation平方，0≤K≤hI，完整新位inverse只用(I+uK)⁻¹。一个共同t给[x,2x)实际新源占据＋正余项和≤Vsharp≤Δ_Q²，物理行Σ||E_yF_{y+1,t}||²及source步差平方和同付，Vsharp→0；可同参兼两阶矩。未把合法代表行换固定u行；boundary_core续同一C分别硬化全部far位的并行完整Schur与真source合同/creation返回。
 - 普通封口仍需原same-w合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；当前无此完整界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链及其它全部open继续。

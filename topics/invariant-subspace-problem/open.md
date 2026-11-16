@@ -38,7 +38,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 当前接续：R271完整源的实际中段返回
 
-1. **累计完整Schur，保实际重新最小化。** [一位完整Schur](results/R271-appendix-one-bit-hardcore-complete-source-schur-and-joint-height-moments.md)保全部横向零源，给真2×2 Gram/完整Schur与双侧碰撞损失；原逐位真损失准确累计到kerL_m，不能将其改成原M。下一处理完整正因子、同源漂移及实际中段返回；后续来源重新最小化，不能用首个a的能量替换所有后继a。
+1. **累计完整Schur，保实际重新最小化。** [一位完整Schur](results/R271-appendix-one-bit-hardcore-complete-source-schur-and-joint-height-moments.md)保全部横向零源，给真2×2 Gram/完整Schur与双侧碰撞损失；原逐位真损失准确累计到kerL_m，不能将其改成原M。[正因子与整段完整来源行](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)现已付；下一处理同一C并行硬化far位的完整Schur、真source合同与实际返回，不能把Σ||E_yF_{y+1,t}||²直接换成Σ||E_yu||²；后续来源重新最小化，不能用首个a的能量替换所有后继a。
 2. **将已付实际矩预算接到合法修复。** 同一稿在y∈[x,2x)、辅助t∈[Sx,2Sx]一次选源，给Σ[j+j(j−1)/x]E_j≤30000Vx≤30000Δ_Q²且Vx→0；x=m+d、Q≥6d仍在原母窗。辅助t不是物理尾，二阶矩不能直接支付公共塔指数系数。[同源log方差](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)另给一阶矩/Δ_Q²/logx，选择须先于全部Q。
 3. **保真实中段与所有自由。** [真C幂高段](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)已将j≥J*=ceil(x+2√x(logx)^(1/4))的完整canonical修复付到e^(−x²logx)||a||²；真正未付在j<J*。任意复公共塔至x都有[中段指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)，max{M_floor(x/48),M_x}≥¼e^(x/12800)，保自由首列/全部primitive。必须使用实际源特殊能量或完整源依赖lift，不再追已被排除的公共固定多项式系数预算。
 4. **原同u与母窗口不能丢。** 真强前缀Gram比较、一次/二次MP、creation来源Gram、Green/帽返回、全部partial与真实intersection旗均按原范围用。z2仍留Cq2；完整物理终端K⁴=o(logm)不倒用到R>0；Chebyshev真核logQ=35d⁴/6+O(d³)仍超原26d³母窗。所有常数与自然域保归档，低forcing不等于低输出。
@@ -53,3 +53,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R150实际无平方32基及原常数降次映射（2026-11-16）：** [完整原块证明](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)保预先固定的全部u^ε、ε∈{0,1}⁵；degree2…6原完整输出15/35/70/126/210及全部来源在合法(127,d=100)实选原unit，det44/58/5/60/1，132652左右逆坐标真。每原E块以adj(U)/det(U)给固定常数精确降次，未称展开巨逆；同32基对全部参数及B=1有效。剩12梯度u次数≤2，NF只落16低次基，先付原source的12×16参数式；行的线性span不代完整ideal。实际0.376秒/raw1534·6ada56d4。
 
 - **R150原F31零点目标完整分拆(3,1,1)（2026-11-16）：** [完整99 Krylov证明](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)复用原315状态、九目标及真实J，KΞ=原targets/AK=KJ/CK=0和505自由观测全真。原minpoly=s¹¹q、q0=25，q(J)九列生成完整零点子模，维5/作用幂秩5,2,1,0，完整双包含及315乘回真；实际0.725秒/raw1983·5138d5c8。只F31分拆，Q的(3,2)/(3,1,1)仍两种，不能由field rank2升Q上界；续原h*系数分母及零点原来源判别。
+
+- **R271正commutator因子与完整新源的整段占据行（2026-11-16）：** [完整自然域证明](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)给K=I+T*T−TT*为核外creation平方、0≤K≤hI；完整2×2逆只用(I+uK)⁻¹，其增益准确分成新位占据与正Schur余项。一个共同t支付[x,2x)全部实际新源的两项和≤Vsharp≤Δ_Q²，真实投影步差平方和亦≤Vsharp；固定物理压缩给Σ||E_yF_{y+1,t}||²≤Δ_Q²，原u及全部合法Q保持。可同参留两阶矩（30000常数），Vsharp→0；这是不同合法代表的完整行，未换成Σ||E_yu||²，真实返回继续。
