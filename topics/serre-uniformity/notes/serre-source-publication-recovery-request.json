@@ -2,76 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1215-full-original-Cartan-integral-period-source",
-  "commit_message": "serre: prove original integral full-Cartan period source; activate trace consumer",
-  "rules_last_read_commit": "0d28f23a8c6bd5da2b1fab2e04fc96457230bd06",
+  "request_id": "20261116-1223-certified-five-original-complete-initial-RR",
+  "commit_message": "serre: certify all five original sum-Hom complete initial RR spaces",
+  "rules_last_read_commit": "89085c72b92590139eca41c510f81f9deee8437e",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "857a31e3da705c5fad6c37d5c5d5de32cd00028aa19bf050e112967c9fe8a1b1",
+  "expected_previous_request_sha256": "0b147930f7cedec7eb0a209e97a6be1a81ac2354091fa6c6e88c6b0c32f1d189",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R898-original-full-Cartan-and-integral-primitive-period-source.md",
-      "sha256": "73c481c11143935ed5c9949194eaad04af7590bc74b88073b73a2ad1f33aeedd",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-full-Cartan-and-trace-execution.md",
-      "sha256": "c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3",
+      "path": "topics/serre-uniformity/results/R893-certified-original-five-sum-Hom-complete-initial-RR.md",
+      "sha256": "bd5f004efd6e7f12cdb9ccae1717c3862e17e066d309310205397bd0f2442d5e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "fcf26039eeeaeb42d02278c131715b88bbb413a48cbf6af1d68487c961dcbc35",
-      "expected_previous_sha256": "c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3"
+      "sha256": "79832db5d4c91dfac67687293fa5d2587607a7d1acd7ce4cc4005f3e4efc2819",
+      "expected_previous_sha256": "963a1564ee111fce09dd9d115aa2708e7bd604ac326e026485f3a0801a038304"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "36e0e6d34eff150be0fefddc037ea07586eabcebf00398a2d8bb9b23df2ba0f6",
-      "expected_previous_sha256": "cf4843323690ae37732eadd59c4bd603441652ba79b19e369da9769b16eb7c20"
+      "sha256": "cf11f74b93aa506de10e4f091f5aa86f7353d178d5ad8b720e32fe99a4ee5ce7",
+      "expected_previous_sha256": "36e0e6d34eff150be0fefddc037ea07586eabcebf00398a2d8bb9b23df2ba0f6"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "e83c3ebc72798a5b23dceb5c0a35d44eed48fb5be6382a2ea3a8e166c9561c33",
-      "expected_previous_sha256": "40916df0bdf63e4cb1625fda0294ff17b1ddd071b3b410720ea1d6d9fa06881e"
+      "sha256": "a9a6f90e46b3e1ef18975f0db55f8decdec73a1f56e2e48a8cafe83731f0567a",
+      "expected_previous_sha256": "e83c3ebc72798a5b23dceb5c0a35d44eed48fb5be6382a2ea3a8e166c9561c33"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "7a557feb4688a71ac704896c9daff6e2414f5f3270a7a41520d9e05b3d9370d0",
-      "expected_previous_sha256": "c630056ac86575c4db81bb01b88df98ba762b0f29948ce5d5db8c2a602eda34a"
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R894_original_seven_conjugate_pole_trace.py",
-      "sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R894_public_original_seven_conjugate_pole_trace.py",
-      "sha256": "bcf319795c1f9e08211fd471d6b367375ed6d660d96755d26207490090b11836",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R894-original-seven-conjugate-trace-execution-method.md",
-      "sha256": "e4166318b5b5e315e52eb18052ea11d7a0bfc689a54096e04b9dc79477d273ac",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R894-seven-conjugate-pole-trace-public-request.json",
-      "sha256": "215e85ed461dbb4406df683383e42f7ed00519625ecb6a2725647fd9e828dd31",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R894-seven-conjugate-pole-trace.yml",
-      "sha256": "4b6f3cef66fb35830048839956626f5745465f979b5bfec297f02a9a4b599e18",
-      "expected_previous_sha256": null
+      "sha256": "cea5dd891f001ba5029d25c972881de7cf714da0c03e135f2857aa4948d23f2d",
+      "expected_previous_sha256": "cda8ab546f0b028ef6d27fbe294a497f8419fa2340f7db136707d32b142b19d1"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R894-seven-conjugate-pole-trace.yml",
-      "request_path": "topics/serre-uniformity/notes/R894-seven-conjugate-pole-trace-public-request.json",
-      "request_sha256": "215e85ed461dbb4406df683383e42f7ed00519625ecb6a2725647fd9e828dd31"
-    }
-  ]
+  "dispatch_workflows": []
 }

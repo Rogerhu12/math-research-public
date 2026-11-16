@@ -209,4 +209,9 @@
 ### 2026-11-16 20:15 Asia/Taipei — serre-public-astra-20261115
 - R898完整证明单独登记：full Cartan/det三相位、真整Π0/J_h及原chirp一起保留；原Gram单位给β整，Z_h的指定jet准确为原同h Legendre·fi·gj，非零及height格桥未证。
 - 激活R894十六新flip，复用R890两节点/56原源；R893已真success，必要IO v17递归只取后继原A/B/纤维值/节点，不重旧算术。H逐字归档并压缩。
+- 本push规则：公开Actions真实pull至89085c72b92590139eca41c510f81f9deee8437e（2026-11-16T12:15:01.190991+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 20:23 Asia/Taipei — serre-public-astra-20261115
+- R893五原初始RR实际结论单独登记：412.672739265s/632stage/131源，完整168/376/250/386/343空间、五原unit minor、全部Schur与A−yB整纤维关系均成；不冒特征零数组重构。
+- 必要IO v17真读392件/完整A/B与原纤维值，0..7旧K复用、8..26新K保真；R896消费者接这些已成源，R894已真run43864869152入十六flip。
 - 本push规则：等待公开Actions真实pull/rebase并核两README；主目标OPEN。

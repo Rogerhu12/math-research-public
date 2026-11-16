@@ -11,7 +11,7 @@
 
 **R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。
 
-**R893初始RR实际运行成功，详细认证在读**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。实际run43861874528/632stage/131源已success，全部五初始RR为true；正在以必要小IO取原五A/B、全纤维值与真实节点，完整细项读后单独登记。
+**[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。
 
 **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。
 

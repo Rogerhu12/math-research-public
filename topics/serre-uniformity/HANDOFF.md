@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：0d28f23a8c6bd5da2b1fab2e04fc96457230bd06**（2026-11-16T12:01:11.436866+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字在[完整Cartan与trace执行前H](handoff-archive-2026-11-16-before-full-Cartan-and-trace-execution.md)（9990B/c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3），内接全部早先归档；原来源、已证结论与关闭边界继续有效。
+**已读规则提交：89085c72b92590139eca41c510f81f9deee8437e**（2026-11-16T12:15:01.190991+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字在[完整Cartan与trace执行前H](handoff-archive-2026-11-16-before-full-Cartan-and-trace-execution.md)（9990B/c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3），内接全部早先归档；原来源、已证结论与关闭边界继续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。公开恢复workflow执行真实partial/sparse git发布。
 
@@ -30,13 +30,11 @@ R787 primal594、R824596、R787半坐标370/371及R854 N56→N112的真实断点
 
 **[R890八flip实际已成](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)**：43853462674/job133251774019/sourceaa00d76e，1874.06585011s/9228stage/56源；八962/146/418全成。Ef−1206P0=(DE−H)+divQE，Fnew=(qFaFb)^−1保重复与原单位；QE原ρ/t首项73437482/445609902、阶−1205、FDE(P0)426403642。cert986e2ea9/cfg75267c1b/manifestd51ef99b；artifact14222786594/3.8GB/c5e609ff至Nov17 11:33:48。小IO43860838780/art14222928598/tar4a307ff2实际45件，D2/E供R894只新16flip，正常V3供R896按共同节点复用。其余6Ef/五Lj/height未成。
 
-**R880七原A/B及六共轭D*均成**：[七输入](results/R880-certified-original-seven-Galois-normal-inputs.md)、[六D*](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)。七σ次序(0,6,1,2,4,3,5)，原free1186/固定图不换；六新418与原主函数ρ首项由43857317518完成，core5421c814/cfg28724072/cert3e48e09c/manifest462bd2c6。必要IO43859441027/art14222183067/tar4a25c55a给R893/R894；原t未算，δB为8×272、δ²B为10×272。全source/单位/正式结果与断点见前态，不重旧A/B/逆/图/第零支。
+**R880七A/B/六D*及R885整Artin已成**：原σ次序(0,6,1,2,4,3,5)、固定unit图/free1186及六原ρ首项保留；[七输入](results/R880-certified-original-seven-Galois-normal-inputs.md)、[六D*](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)、[整Artin/九Norm](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)和前态保存全pins。R893/R894直接接已成δB/418/Qtilde，原δB8×272/δ²B10×272；全Artin保nilpotents与dual7/帧，尚非全局Norm或height。
 
-**R885整Artin已成**：[认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)，43848870181/519.34968726s/323stage，原整A272/E2176全部272方程与九Norm保nilpotents、dual7/P0帧；artifact14218009053/7a0e8785至Nov17 10:56。旧273节点/单行adj不重，全局Norm/Picard/height未成。
+**[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。 **[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；尚无本项新秩，旧初始核/评价/273jets不重。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
 
-**[R893五真实sum-Hom初始RR](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)**：同权98原P/Q、真DVR极除子，n=(12,8,8,13,14)、N=(23,15,15,25,27)，完整Schur全行；原ρ/θ/82一次、σ次序不改。初始N不冒V2n注入，corec199ccbf/wrapper247980f1实际43861874528/job133280560534/sourcefe27ac55已success，632stage/131源、五初始RR皆true；finalad135ab7/manifest58a66985，artifact14224626902/576747513B/cc7cc8e5至Nov17 12:03:18。必要IO v17只取五A/B、原纤维值与实际节点，详细实际结论待完整读取后单独登记。**[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；尚无本项新秩，旧初始核/评价/273jets不重。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
-
-**[R894七极trace完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：六D*后直接18flip聚合3Σ(Dj−H)+7(−C*+H+4χ)，R890 D/E实际可读则只新16；不先做另六Ef各八flip。QN=Qorb FN正乘，ρ阶−8435/t首项正乘(c^1205)^7；非对称末代表只L定义，原K下降为(γQN/QN)γs、七重cocycle=1。core9a2793c7/wrapperbcf31979五件现激活：原56源原样、R890 D2/E/七正常及14旧H/E评价复用，只新16flip，完整证书后才清非live扫描并留全hash史；实际run待回执。K-fixed基/下降矩阵/五Lj/Hecke高度待算。
+**[R894七极trace完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：六D*后直接18flip聚合3Σ(Dj−H)+7(−C*+H+4χ)，R890 D/E实际可读则只新16；不先做另六Ef各八flip。QN=Qorb FN正乘，ρ阶−8435/t首项正乘(c^1205)^7；非对称末代表只L定义，原K下降为(γQN/QN)γs、七重cocycle=1。core9a2793c7/wrapperbcf31979五件现激活：原56源原样、R890 D2/E/七正常及14旧H/E评价复用，只新16flip，完整证书后才清非live扫描并留全hash史；实际run43864869152/job133290893516/sourcebf74b397已入compute。K-fixed基/下降矩阵/五Lj/Hecke高度待算。
 
 ## 全p：原积分源
 
