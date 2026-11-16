@@ -181,3 +181,6 @@ R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)�
 
 
 **[R918原中央Igusa向量](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)**：全部允许p≡11mod12取h=(p+3)/2，primitive/r=2；R916实际非零L̄_h=c_hΦ4(V4†)，c_h≠0。全H6整S4秩一与基变、Cais满射/无SS极点、完整Norm及det−1/ζ²/1/6均已证明；指定fine Igusa SS点准确阶2p−5、cusp首项c_h非零。保原a_h和未知c_h，不把fine参数认作coarse c1 normal，不推另一λ_h(Vp−1†)或同h Legendre/J32/height。另一同余类固定权10由R920接续。
+
+
+**[R917原两端八阶正规order契约](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)**：真实R914全146叶/273项已接；17列共同θ0²清分母为V10，保原P/a8与K/PU；Θ=ρ^hU首一仅损a阶。trace-radical及idealizer两个≤8未知核，四块0/1项、最低−2项整性/每步精度均明确；准确discrim4方可停，保全2+3+3幂零与det uρ^(28h−I)、原cε^(−m)。纸证/来源合同已成，consumer在写，新order/靶272/九NmΦ帧均未执行。

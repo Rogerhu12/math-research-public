@@ -2,34 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R914-certified-full-original-involution-and-P1",
-  "commit_message": "serre: certify full original V1 involution and marked P1 jets",
-  "rules_last_read_commit": "c2c61d1a20caa5ef28a1c45d83fe058f999d8aef",
+  "request_id": "20261116-R917-original-endpoint-orders-contract",
+  "commit_message": "serre: prove original endpoint order construction with actual P1 sources",
+  "rules_last_read_commit": "834b106ae49d19d52d2bf8e51313039e2162f974",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "0f48a315abc3bd744ed138ba8ca85e196e3206debf393332e3b2c6cd3cccef9d",
+  "expected_previous_request_sha256": "4db3d86bc72cc3d9b8f199f5de8679cfe6be70dff779dc48ffaae7802cc098f4",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R914-certified-original-full-V1-involution-and-P1-jets.md",
-      "sha256": "d8f7bbf8e6dd5aefcb31f3f01c46a69b4aa4085276990f6fa8e037d040e8c6b9",
+      "path": "topics/serre-uniformity/results/R917-original-two-endpoint-normal-orders-and-source-contract.md",
+      "sha256": "c3466fae4079d55d992a5470be4b90de127ee5aa64bf05948e8cf00bb709bf55",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-endpoint-order-contract.md",
+      "sha256": "cd54bf4285eaffabdae14255e084a71f37ad70609b1fd761187fa80b03a52b48",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "f770c64bb2a6974e5889dd962bee5b5f786749684f42df17a6a6458f92d3db16",
-      "expected_previous_sha256": "c630936cb219df7542236ca7a4912b8c930de66c9c41f94993388145741a41ab"
+      "sha256": "6e6ed3be379d6617b47d27c3371c2bac184d9c35b83bff8098fd08eeab8d315e",
+      "expected_previous_sha256": "cd54bf4285eaffabdae14255e084a71f37ad70609b1fd761187fa80b03a52b48"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "b4509a63a776996e0820bcfcdc864459b65d0410bca0542500ecc57750a9c0de",
-      "expected_previous_sha256": "458ebef775ea1bbbebe0521e5b6ee747a9b5c4054312853d6920606bb44e1f2e"
+      "sha256": "c30654dacd09a02fd461769574fb23c265cfb58f70b7b4c08fa73d19cc40fe1c",
+      "expected_previous_sha256": "b4509a63a776996e0820bcfcdc864459b65d0410bca0542500ecc57750a9c0de"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "ce5151c7b5d275090af71a7e040c3419f51664f05384c38a8d16486b8d1ee843",
-      "expected_previous_sha256": "d870112b000b6cdd2cc2c2b24d937d27bcba64b6b160fdee113c6b89654b31ee"
+      "sha256": "7a01a86952993e4048463476a459c4587382dae0dd0e6222a15109e1237ead70",
+      "expected_previous_sha256": "528cca730bb9f090fbc083b80aa0f0dabea7ad3b2685e115766a557cf6a2c832"
     }
   ]
 }
