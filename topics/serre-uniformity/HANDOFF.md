@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：96ac667134c6f6cd2563f251f1dfd8c3c11a1b95**（2026-11-16T03:20:31.295115+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R850消费者前完整H](handoff-archive-2026-11-16-before-R850-consumer.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：95b7ef7c73bce0d52bf698313d3caedaff5d9ebc**（2026-11-16T03:29:08.577626+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[CM companion前完整H](handoff-archive-2026-11-16-before-CM-companion.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -19,33 +19,23 @@
 
 R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)保真实518来源，不猜OOM/BudgetStop。原518全格56detU1/56D非零已闭，不重。R815[582断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)与旧49拒/九维调度直接继承。R824[501断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)artifact14192476595/7f1c8d82，lift70788183B/a2f5c38c、原612745716B载体71b16a02；只27权5+244权6，1186归R787，129/142/280Q/r28不变，下一位502。准确展开关系/Mg/Γ未成。
 
-## 原准确接口与禁止重算项
+## 原准确接口与正在推进的后继
 
-全部已成结果的完整source/run/SHA、数值/载体及历史边界以正式结果和逐字归档为准，旧数学不重跑。
+全部source/run/SHA与历史限制逐字保上方完整归档及正式results；旧数学不重跑。原R835/R837/R838理想、R842双图2451/415/395、R845八V11/full1380、R840四响应与R841/R843/R844/R846点/非挠/733jet全部已成。原表达式不代展开、A.1、η或height；R847仅辅助ℓ的五比较jet非零，不代41单位。
 
-**原几何**：R835 I4=C/D/K1、R837 146P0/U397/两锚、R838 I2=C20+D/P0∉D/I3最小3已成。R842两图2451/415/395及D295、R845 n1秩1111/minor633901576/D两生成元/Ey八V11/full1380直接复用；I_EyR=(y²−b)I_Ey³正乘，模kernel不代Q。
+**R849全局已成**：[结果](results/R849-certified-original-global-function-and-five-polar-ideal-DAGs.md)run43790410670/source39119159，523node/43义务/2709源，artifact14192171293/6a52068e，395MB原完整载体6a0a5d8c。原五极理想/负号η/真Norm正乘已成，不代规范Jacobian/height。**R848 c0已成**：[结果](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)run43790534424/sourcea576ab9d，六M/Trace、五κ/d；artifact14191923906/1aa8c65d，原帧完整保留。
 
-**原CM与一阶**：R840四响应14坐标518位/B0unit，R841原β/下降50node，R843同点非挠/Q-simple分离，R844五g/七σ/R(P1)529node，R846六Hom/五jet733node全部已成。正式来源见results.md/归档；原表达式不代展开、A.1、η/height。R847五logjet在辅助ℓ实际nonzero，不代41单位或高度。
+**R850原五纤维/截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f；0.397869762s/2stage/330node/11义务。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173，artifact14194427829/b466d4c1至Nov17 03:13UTC；40源398.65MB载体a4c38c0e保旧395MB全局和270点输入。只消费，不重旧点算术；原C_h/period/height/A.1/allp未成。
 
-## 正在推进的原后继
+**短CM A.1与真实dual**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)不代A0−qB0=0。[清转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec/第二run修复后bad97414/5388274继承真实PAIRING J/Jinverse（4629B/b384a331）及1481源，正κ/原Θ负Z/82^10/Δ不变。新dual自1位，严格RR/full35840和d(A0−qB0)=−Δ才判A.1。
 
-**R849全局DAG已成**：[结果](results/R849-certified-original-global-function-and-five-polar-ideal-DAGs.md)run43790410670/source39119159，523node/43义务/2709源；finalb50df2df/DAG529822ba、artifact14192171293/6a52068e。原全局y/五两图极理想/η负号及I_ZR=R_jI_Z³已成，不代规范Jacobian/η零/height。
+**半坐标定理与后继契约**：[HP](notes/R787-original-antilinear-dual-half-coordinate-reconstruction.md)281de249：A.1真才有唯一原选行λ与cχ_m=(−1)^(m−1)χ_m，35840→17920Q；已认证current禁用半非零可严格拒q。n+1七原支、正残差先÷ℓ^n、补±s后全核；RR失败不拒q，Θ后仍核Δ。[来源契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2，新coreffe5dcff/wrapper1552e403，pending completed_dual_source=null，未触发。等当前full dual真实结束后继承全部旧target/J/current及next residual/correction/witness，不用primal518，不重旧J/CM/位数。
 
-**R848 c0首项已成**：[结果](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)run43790534424/sourcea576ab9d，24stage；六M/Trace及五κ/d准确，d有理非零、κ符号++---。final775a07af/manifestb90422a5、artifact14191923906/1aa8c65d；原完整纤维见RF，height未成。
+**原完整纤维**：[RF](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99保I_Z/P1帧1/P0帧t^(−7δ)，正乘R给v_R=κ/R(P1)·v³；ν=3^(11δ)m_f^p/m_g^q，截面νu³v_R与N_h^(3q)由完整Corr运输。theta二挠/Picard反因子、实际C_h、原Q三次纤维、splitting/nonp同保，不能删Y/ℓ。
 
-**短CM候选A.1**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)不代A0−qB0=0。[清转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec/[契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a保原正κ/J/14支逆/1481源。[第二run修复](notes/R787-cleared-dual-second-start-eZ-label-and-pairing-reuse.md)后bad97414/5388274继承J/Jinverse4629B/b384a331和原tag，不重算。新dual自1位；严格RR/full35840和d(A0−qB0)=−Δ才判A.1。
+**原CM sigma**：[SP](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea：原μ3补〈xω〉，u²(1−u)=bξ⁶，w=(3u−2)^−1，H=bξ⁴(9u+4)/(u²(3u−2))；line-log=logξ+∫w∫H，ψ₂=−2y。SP25–28保全尾/n/trace损失；原Y/ℓ/nonp/旧split差保。518只辅助ℓ，真实41需完整U.1或已接受A.1。
 
-**原对偶半坐标定理已证**：[HP.1–3](notes/R787-original-antilinear-dual-half-coordinate-reconstruction.md)281de249：A.1真才有原选行唯一λ、cχ_m=(−1)^(m−1)χ_m，35840→17920Q。已认证current禁用半非零可拒q；n+1七旧支、正残差先除ℓ^n、补±s后完整乘回。RR失败不拒q，准确Θ后仍核原Δ。仅从真实结束full-dual current继承，不用primal518、不重J/CM/位数。
-
-**半坐标执行契约已保存，待真实来源**：[来源契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2；新coreffe5dcff/wrapper1552e403，父bad97414不改。只从完整dual真实结束current继承旧target/J/全部1481源及已成next residual/correction/witness；n+1七支求解、完整35840核。三终点严格区分完整Θ/Δ与两类奇偶拒证。pending的completed_dual_source=null，不预填精度，不触发/取消当前run；根已通读五件及原依赖，无本地数学。
-
-**原完整刚性化纤维/截面已构造**：[RF原文](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99：原I_Z/P1帧1/P0帧t^(−7δ)给v；正乘R给v_R=κ/R(P1)·v³，只动第二槽。ν=3^(11δ)m_f^p/m_g^q，截面νu³v_R与N_h^(3q)由完整Corr运输，theta二挠/Picard反因子同保。原λ=(χ(νκ/R)+½τJ(z³)+3τY(v))/(3q)，实际C_h/全部Q纤维/splitting/nonp保留。R850只消费原三源实现DAG；periods/高度不相消未成。
-
-**R850原五纤维/完整截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f，0.397869762s/2stage/330node/11非零依据。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173；artifact14194427829/b466d4c1，40源398.65MB载体a4c38c0e。保原270点来源与395MB全局载体、ν/κ/R/完整Corr/Q三次纤维，帧−d/2与−3d/2准确；C_h具名、period/height/A.1/allp未成。
-
-**原CM对称period已有小输入公式**：[SP原文](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea：原μ3补〈xω〉，u²(1−u)=bξ⁶，w=(3u−2)^−1，H=bξ⁴(9u+4)/(u²(3u−2))；line-log=logξ+∫w∫H，ψ₂=−2y及cubical正乘定号。SP25–28保全尾/n/trace损失；RF对称项=3(qA_g−pA_f)，原Y/ℓ/nonp及split差不删。518仅辅助ℓ，真实41输入仍须完整U.1或已接受A.1。
-
-**来源与期限**：原R809六C/full1380/S51234、R806W34、R781R0..142、R813/g,h、R820/C、R801/803/805/807复用；必要全局来源随R849 carrier保留。R791原tangent、R837 R786/146CM均在后继载体。旧R825若用须272×816全544/full1206；R835 K395已改K1。原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结。
+原Y有限连接/Hecke校准、真实41固定倍率与root三同源/七基点Z收缩正在补成原来源证明；不预称新数值。必要旧R809/F1234/W34/C12/S5、R781/R813/R820及R791/R837等均随原后继载体继承；旧到期artifact不授权重算。原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结。
 
 ## 真正全p缺口与已闭边界
 
@@ -62,3 +52,5 @@ ordinary原p43/776bitq已Gaussian5排，不是反例；Shapiro/θ-lift同Σ、�
 **全允许p的两个交换本原标签窗口已证明**：[原标签](notes/2026-11-16-sigma-two-swapped-primitive-labels-at-thirds.md)543d03f8：p18k5取(k−1,2k)，p18k11取(k,2k)及交换；两h=6i+7与完整p+1互素、和p+3。Legendre反射给P_d/P_(d−2)，三项递推迫两范数不全零，涵盖11mod12。只反射Legendre，不反射f/g；仍缺同一可见h的f_i g_j单位，旧中央/R739边界保留。
 
 **原Toeplitz边界**：[旧41零子式](notes/2026-11-16-sigma-original-Toeplitz-minor-boundary.md)e3ba7a28：原Y=−V/2给rows{0,1}/cols{3,4}的det697=17·41。只排全部可用子式均unit，不排指定minor/same-h；无新算术。
+
+**同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。

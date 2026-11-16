@@ -115,3 +115,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原CM对称period已有小输入公式**：[原sigma/全尾](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea。原μ3唯一补空间〈xω〉；u=ξ²x满足u²(1−u)=bξ⁶、w=(3u−2)^−1，H=bξ⁴(9u+4)/(u²(3u−2))，F=∫w∫H。原line-log=logξ+F，ψ₂=−2y，原点帧/cubical正乘严格定号；[n]P深盘给值及Z=Dωlogσ的一次period，SP25–28给完整尾及n/trace损失。RF对称项=3(q A_g−p A_f)，原Y/ℓ/nonp与旧split差不删。现518球仅辅助ℓ；真实41需完整U.1或已接受A.1及合法嵌入，尚无新数值。
 
 **R850原五纤维/完整截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f，0.397869762s/2stage/330node/11非零依据。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173；artifact14194427829/b466d4c1，40源398.65MB载体a4c38c0e。保原270点来源与395MB全局载体、ν/κ/R/完整Corr/Q三次纤维，帧−d/2与−3d/2准确；C_h具名、period/height/A.1/allp未成。
+
+**同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。

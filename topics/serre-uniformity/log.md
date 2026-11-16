@@ -278,3 +278,9 @@
 - R850实际成功：run43796696213/job133067102293/source57b2899f，0.397869762s/2stage，330新表达式节点/11原非零依据，五指定纤维及完整c0归一截面全部true，原帧−d/2、−3d/2准确。
 - final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173/artifact14194427829/b466d4c1；40源398.65MB载体a4c38c0e续留395MB原全局与270点来源。11Range/96291B读回小输出，不声称本地重哈希整ZIP。
 - 原C_h、Q下降、完整Corr/theta二挠及nonp/splitting保留；canonical periods/height/A.1/allp均false。旧两stage不重跑，继续Y连接及原Z加法七基点收缩。
+
+### 2026-11-16 11:29 Asia/Taipei — serre-public-astra-20261115
+- 原两个三分本原标签的四条CM companion q展开同余已证，ψ+=C_(2p^e)、ψ−=C_(4p^e)及精确(6p)/108p²导子保留；原χ6/θ方向与p处三次角色不换。
+- 原局部Gauss均p、完整6p与Ω_D尺度−e/3逐项保；Kezuka–Li原PDF(2.1)/Thm1.1/Cor1.2及Rosu原符号已核，ψ+秩1不误称原Jacobian因子。central/Cartier整比较及same-h三单位仍缺。
+- H先逐字归档再压已成前置，继续原Y连接、真实41 sigma和七基点一阶收缩；新数学未在本地运行。
+- 本push规则：本地真实pull至95b7ef7c73bce0d52bf698313d3caedaff5d9ebc（2026-11-16T03:29:08.577626+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
