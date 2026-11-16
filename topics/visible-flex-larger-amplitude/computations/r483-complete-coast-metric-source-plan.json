@@ -1,0 +1,572 @@
+{
+  "schema": "R483-complete-coast-metric-source-view-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "algorithm_source": {
+    "file": "geometry_20261116_complete_coast_bernstein_enclosures.py",
+    "bytes": 18291,
+    "sha256": "3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae"
+  },
+  "helper": {
+    "file": "geometry_20261116_complete_coast_bernstein_enclosures.py",
+    "bytes": 18291,
+    "sha256": "3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae"
+  },
+  "generator": {
+    "file": "root_20261116_complete_coast_metric_source_views.py",
+    "bytes": 8742,
+    "sha256": "d149d85103fd555908239f71f963b575a8197a210584d0b043b5d9415c106ae1"
+  },
+  "mathematical_source": {
+    "file": "R481-fixed-ten-semantic-domain-and-complete-coast-polynomial-enclosures.md",
+    "bytes": 22205,
+    "sha256": "7e1402a14835ead50bfa1fe3157746d0ef0d3323f8047a06577678dbc2d16585",
+    "commit": "36d5ab6dfba0ff82b1a6ad2667ac541c9d20f2d7"
+  },
+  "scope": {
+    "original_factory_definition_compiler_and_field_unchanged": true,
+    "original_factory_initial_domain_certificate_not_replaced": true,
+    "original112_resolution112_completeM_families_retained": true,
+    "R464_incremental_M_union_registered": false,
+    "original_math_predicates_work_parameters_and_clocks_unchanged": true,
+    "direct_context_generator_does_not_replace_original_full_source_closure": true,
+    "generated_views_are_new_source_not_scientific_arrays_or_fixtures": true,
+    "scientific_execution_only_in_named_public_Actions": true
+  },
+  "views": [
+    {
+      "key": "fixed",
+      "baseline": {
+        "file": "geometry_20261115_current_C_ten_complete_relative_metric.py",
+        "bytes": 49975,
+        "sha256": "28b7245a134d3556085bc1884cd2edf6b0cdaf4976c58e3dc6d5327ce19a7590"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_coast_fixed_query_complete_metric.py",
+        "bytes": 51403,
+        "sha256": "53a1e04bd1c28fc9e0430fbc2ced9d7e91870b2b610af9b29d8fd4a590aebd90",
+        "schema": "R483-current-C-fixed-query-coast-Bernstein-complete-metric-v1",
+        "frame": "R483_CURRENT_C_FIXED_QUERY_COAST_METRIC_SUMMARY"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated consumer: the original field/definition/compiler stay fixed.\n# Only an explicit local prefix-range argument uses the complete coast formula.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R418-current-C-accurate-ten-complete-closed-relative-metric-v1\"",
+          "after": "SCHEMA = \"R483-current-C-fixed-query-coast-Bernstein-complete-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {\n",
+          "after": "COAST_NAME = \"geometry_20261116_complete_coast_bernstein_enclosures.py\"\nVIEW_BASELINE_NAME = \"geometry_20261115_current_C_ten_complete_relative_metric.py\"\nSOURCE_PINS = {\n    COAST_NAME: \"3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae\",\n    VIEW_BASELINE_NAME: \"28b7245a134d3556085bc1884cd2edf6b0cdaf4976c58e3dc6d5327ce19a7590\",\n",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "        for name in SOURCE_PINS:\n            loaded[name], source_rows[name] = load(args.computations, name)\n",
+          "after": "        for name in SOURCE_PINS:\n            if name == VIEW_BASELINE_NAME:\n                source_rows[name] = receipt(Path(args.computations)/name)\n                if source_rows[name][\"sha256\"] != SOURCE_PINS[name]:\n                    raise ValueError(\"The declared metric algorithm baseline differs\")\n                continue\n            loaded[name], source_rows[name] = load(args.computations, name)\n",
+          "count": 1
+        },
+        {
+          "before": "result = Prefix.inspect(M, Kernel, field, current.target, spec, eta)",
+          "after": "result = Prefix.inspect(M, Kernel, field, prefix_range, spec, eta)",
+          "count": 1
+        },
+        {
+          "before": "current_bundle = tail = cap_record = plan = journal = None",
+          "after": "current_bundle = tail = cap_record = plan = journal = prefix_range = None",
+          "count": 1
+        },
+        {
+          "before": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n",
+          "after": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n        prefix_range = loaded[COAST_NAME].CoastTargetRange(current_bundle.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "after": "        members[\"prefix_range_implementation\"] = write(large / \"same-target-coast-range-binding.json\",\n            prefix_range.describe(), args.out)\n        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "count": 1
+        },
+        {
+          "before": "            source=receipt(__file__), direct_source_closure=source_rows,\n",
+          "after": "            source=receipt(__file__), direct_source_closure=source_rows,\n            actual_prefix_range_implementation=members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta)",
+          "after": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta, prefix_range)",
+          "count": 1
+        },
+        {
+          "before": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n",
+          "after": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n        actual_prefix_range_work=None if prefix_range is None else prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",\n            \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R418_CURRENT_C_COMPLETE_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"BEGIN_R483_CURRENT_C_FIXED_QUERY_COAST_METRIC_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R418_CURRENT_C_COMPLETE_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"END_R483_CURRENT_C_FIXED_QUERY_COAST_METRIC_SUMMARY\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "original",
+      "baseline": {
+        "file": "geometry_20261115_current_C_ten_live_query_complete_metric.py",
+        "bytes": 55040,
+        "sha256": "77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_coast_live_query_complete_metric.py",
+        "bytes": 56226,
+        "sha256": "fb6f05cc505727401e165d2a65f6c5071b3b253f281f6ee84ef4b52b60aab535",
+        "schema": "R483-current-C-original112-coast-Bernstein-live-metric-v1",
+        "frame": "R483_CURRENT_C_ORIGINAL112_COAST_LIVE_METRIC_SUMMARY"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated consumer: the original field/definition/compiler stay fixed.\n# Only an explicit local prefix-range argument uses the complete coast formula.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R426-current-C-accurate-ten-complete-closed-relative-metric-live-queries-v1\"",
+          "after": "SCHEMA = \"R483-current-C-original112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {\n",
+          "after": "COAST_NAME = \"geometry_20261116_complete_coast_bernstein_enclosures.py\"\nVIEW_BASELINE_NAME = \"geometry_20261115_current_C_ten_live_query_complete_metric.py\"\nSOURCE_PINS = {\n    COAST_NAME: \"3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae\",\n    VIEW_BASELINE_NAME: \"77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892\",\n",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta)",
+          "after": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range)",
+          "count": 2
+        },
+        {
+          "before": "            if name == BASE_METRIC_NAME:",
+          "after": "            if name in (BASE_METRIC_NAME, VIEW_BASELINE_NAME):",
+          "count": 1
+        },
+        {
+          "before": "raise ValueError(\"The published R418 algorithm baseline differs\")",
+          "after": "raise ValueError(\"The declared metric algorithm baseline differs\")",
+          "count": 1
+        },
+        {
+          "before": "result = Prefix.inspect(M, Kernel, field, current.target, spec, eta)",
+          "after": "result = Prefix.inspect(M, Kernel, field, prefix_range, spec, eta)",
+          "count": 1
+        },
+        {
+          "before": "current_bundle = tail = cap_record = plan = journal = None",
+          "after": "current_bundle = tail = cap_record = plan = journal = prefix_range = None",
+          "count": 1
+        },
+        {
+          "before": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n",
+          "after": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n        prefix_range = loaded[COAST_NAME].CoastTargetRange(current_bundle.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "after": "        members[\"prefix_range_implementation\"] = write(large / \"same-target-coast-range-binding.json\",\n            prefix_range.describe(), args.out)\n        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "count": 1
+        },
+        {
+          "before": "            source=receipt(__file__), direct_source_closure=source_rows,\n",
+          "after": "            source=receipt(__file__), direct_source_closure=source_rows,\n            actual_prefix_range_implementation=members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta)",
+          "after": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta, prefix_range)",
+          "count": 1
+        },
+        {
+          "before": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n",
+          "after": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n        actual_prefix_range_work=None if prefix_range is None else prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",\n            \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R426_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"BEGIN_R483_CURRENT_C_ORIGINAL112_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R426_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"END_R483_CURRENT_C_ORIGINAL112_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "resolution",
+      "baseline": {
+        "file": "geometry_20261116_current_C_resolution_live_query_complete_metric.py",
+        "bytes": 55053,
+        "sha256": "fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_resolution_coast_live_query_complete_metric.py",
+        "bytes": 56258,
+        "sha256": "37db784cada1a426eaf0aa59f04d10c1da0c3bdad4e1102c5e9712b1d1dfa61b",
+        "schema": "R483-current-C-resolution112-coast-Bernstein-live-metric-v1",
+        "frame": "R483_CURRENT_C_RESOLUTION112_COAST_LIVE_METRIC_SUMMARY"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated consumer: the original field/definition/compiler stay fixed.\n# Only an explicit local prefix-range argument uses the complete coast formula.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R441-current-C-resolution450-complete-relative-metric-live-queries-v1\"",
+          "after": "SCHEMA = \"R483-current-C-resolution112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {\n",
+          "after": "COAST_NAME = \"geometry_20261116_complete_coast_bernstein_enclosures.py\"\nVIEW_BASELINE_NAME = \"geometry_20261116_current_C_resolution_live_query_complete_metric.py\"\nSOURCE_PINS = {\n    COAST_NAME: \"3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae\",\n    VIEW_BASELINE_NAME: \"fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b\",\n",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta)",
+          "after": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range)",
+          "count": 2
+        },
+        {
+          "before": "            if name == BASE_METRIC_NAME:",
+          "after": "            if name in (BASE_METRIC_NAME, VIEW_BASELINE_NAME):",
+          "count": 1
+        },
+        {
+          "before": "raise ValueError(\"The published R418 algorithm baseline differs\")",
+          "after": "raise ValueError(\"The declared metric algorithm baseline differs\")",
+          "count": 1
+        },
+        {
+          "before": "result = Prefix.inspect(M, Kernel, field, current.target, spec, eta)",
+          "after": "result = Prefix.inspect(M, Kernel, field, prefix_range, spec, eta)",
+          "count": 1
+        },
+        {
+          "before": "current_bundle = tail = cap_record = plan = journal = None",
+          "after": "current_bundle = tail = cap_record = plan = journal = prefix_range = None",
+          "count": 1
+        },
+        {
+          "before": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n",
+          "after": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n        prefix_range = loaded[COAST_NAME].CoastTargetRange(current_bundle.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "after": "        members[\"prefix_range_implementation\"] = write(large / \"same-target-coast-range-binding.json\",\n            prefix_range.describe(), args.out)\n        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "count": 1
+        },
+        {
+          "before": "            source=receipt(__file__), direct_source_closure=source_rows,\n",
+          "after": "            source=receipt(__file__), direct_source_closure=source_rows,\n            actual_prefix_range_implementation=members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta)",
+          "after": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta, prefix_range)",
+          "count": 1
+        },
+        {
+          "before": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n",
+          "after": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n        actual_prefix_range_work=None if prefix_range is None else prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",\n            \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R426_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"BEGIN_R483_CURRENT_C_RESOLUTION112_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R426_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"END_R483_CURRENT_C_RESOLUTION112_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "modes",
+      "baseline": {
+        "file": "geometry_20261116_current_C_M_live_query_complete_metric.py",
+        "bytes": 55048,
+        "sha256": "fc35c6408aacbf2131a89fbac37ca4ae98c1665d9fbdc4ba78a50a43ca7f3a47"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_M_coast_live_query_complete_metric.py",
+        "bytes": 56210,
+        "sha256": "44f5b66d59b35d35ff5e59da1496820fc23afb7b5c0430f2d4b2d6a31d54b25b",
+        "schema": "R483-current-C-completeM-coast-Bernstein-live-metric-v1",
+        "frame": "R483_CURRENT_C_COMPLETE_M_COAST_LIVE_METRIC_SUMMARY"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated consumer: the original field/definition/compiler stay fixed.\n# Only an explicit local prefix-range argument uses the complete coast formula.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R451-current-C-complete-M-relative-metric-live-queries-v1\"",
+          "after": "SCHEMA = \"R483-current-C-completeM-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {\n",
+          "after": "COAST_NAME = \"geometry_20261116_complete_coast_bernstein_enclosures.py\"\nVIEW_BASELINE_NAME = \"geometry_20261116_current_C_M_live_query_complete_metric.py\"\nSOURCE_PINS = {\n    COAST_NAME: \"3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae\",\n    VIEW_BASELINE_NAME: \"fc35c6408aacbf2131a89fbac37ca4ae98c1665d9fbdc4ba78a50a43ca7f3a47\",\n",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta)",
+          "after": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range)",
+          "count": 2
+        },
+        {
+          "before": "            if name == BASE_METRIC_NAME:",
+          "after": "            if name in (BASE_METRIC_NAME, VIEW_BASELINE_NAME):",
+          "count": 1
+        },
+        {
+          "before": "raise ValueError(\"The published R418 algorithm baseline differs\")",
+          "after": "raise ValueError(\"The declared metric algorithm baseline differs\")",
+          "count": 1
+        },
+        {
+          "before": "result = Prefix.inspect(M, Kernel, field, current.target, spec, eta)",
+          "after": "result = Prefix.inspect(M, Kernel, field, prefix_range, spec, eta)",
+          "count": 1
+        },
+        {
+          "before": "current_bundle = tail = cap_record = plan = journal = None",
+          "after": "current_bundle = tail = cap_record = plan = journal = prefix_range = None",
+          "count": 1
+        },
+        {
+          "before": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n",
+          "after": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n        prefix_range = loaded[COAST_NAME].CoastTargetRange(current_bundle.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "after": "        members[\"prefix_range_implementation\"] = write(large / \"same-target-coast-range-binding.json\",\n            prefix_range.describe(), args.out)\n        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "count": 1
+        },
+        {
+          "before": "            source=receipt(__file__), direct_source_closure=source_rows,\n",
+          "after": "            source=receipt(__file__), direct_source_closure=source_rows,\n            actual_prefix_range_implementation=members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta)",
+          "after": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta, prefix_range)",
+          "count": 1
+        },
+        {
+          "before": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n",
+          "after": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n        actual_prefix_range_work=None if prefix_range is None else prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",\n            \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R451_COMPLETE_M_METRIC_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"BEGIN_R483_CURRENT_C_COMPLETE_M_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R451_COMPLETE_M_METRIC_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"END_R483_CURRENT_C_COMPLETE_M_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "evidence",
+      "baseline": {
+        "file": "geometry_20261116_fixed_target_complete_metric_evidence.py",
+        "bytes": 62091,
+        "sha256": "494fea70b97404af2be8ef0f3d685fadc2f59c6a30ea3af771de98a56b868b05"
+      },
+      "output": {
+        "file": "geometry_20261116_coast_fixed_target_complete_metric_evidence.py",
+        "bytes": 62889,
+        "sha256": "1d11359f03cd88b028c22201cef68a401fd9589a59718e813ac3cdc4c63461ab",
+        "schema": "R483-fixed-target-coast-Bernstein-complete-metric-evidence-v1",
+        "frame": "R483_COAST_FIXED_TARGET_METRIC_EVIDENCE"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated evidence consumer: same accepted field and fixed target;\n# only the explicit prefix target-range object uses complete coast Bernstein.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R459-same-accurate-closed-target-complete-relative-metric-evidence-v1\"",
+          "after": "SCHEMA = \"R483-fixed-target-coast-Bernstein-complete-metric-evidence-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261115_current_C_ten_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892\",",
+          "after": "sha256=\"fb6f05cc505727401e165d2a65f6c5071b3b253f281f6ee84ef4b52b60aab535\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R426-current-C-accurate-ten-complete-closed-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-original112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261116_current_C_resolution_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_resolution_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b\",",
+          "after": "sha256=\"37db784cada1a426eaf0aa59f04d10c1da0c3bdad4e1102c5e9712b1d1dfa61b\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R441-current-C-resolution450-complete-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-resolution112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261116_current_C_M_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_M_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"fc35c6408aacbf2131a89fbac37ca4ae98c1665d9fbdc4ba78a50a43ca7f3a47\",",
+          "after": "sha256=\"44f5b66d59b35d35ff5e59da1496820fc23afb7b5c0430f2d4b2d6a31d54b25b\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R451-current-C-complete-M-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-completeM-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "        self.Metric = self.M = self.Kernel = self.current = self.tail = self.common = None\n",
+          "after": "        self.Metric = self.M = self.Kernel = self.current = self.tail = self.common = None\n        self.prefix_range = None\n",
+          "count": 1
+        },
+        {
+          "before": "        for key in (\"CUT_NAME\", \"PREFIX_NAME\", \"KERNEL_NAME\", \"C_NAME\", \"CUFF_NAME\", \"CAP_NAME\", \"LIVE_NAME\"):",
+          "after": "        for key in (\"CUT_NAME\", \"PREFIX_NAME\", \"KERNEL_NAME\", \"C_NAME\", \"CUFF_NAME\", \"CAP_NAME\", \"LIVE_NAME\", \"COAST_NAME\"):",
+          "count": 1
+        },
+        {
+          "before": "        self.current = loaded[\"CUT_NAME\"].load_accurate_cut_field(args)\n",
+          "after": "        self.current = loaded[\"CUT_NAME\"].load_accurate_cut_field(args)\n        self.prefix_range = loaded[\"COAST_NAME\"].CoastTargetRange(self.current.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        cfg = cp.native_configuration\n        self.tolerances = dict(",
+          "after": "        self.members[\"prefix_range_implementation\"] = write(\n            self.large/\"same-target-coast-range-binding.json\", self.prefix_range.describe())\n        cfg = cp.native_configuration\n        self.tolerances = dict(",
+          "count": 1
+        },
+        {
+          "before": "            actual_input=self.input_id, direct_sources=copy.deepcopy(self.sources),\n",
+          "after": "            actual_input=self.input_id, direct_sources=copy.deepcopy(self.sources),\n            actual_prefix_range_implementation=self.members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "jets, radial_metric, target_record = self.current.target.closed_range(*radial)",
+          "after": "jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)",
+          "count": 1
+        },
+        {
+          "before": "            actual_input=self.input_id, phase=self.phase,\n",
+          "after": "            actual_input=self.input_id, phase=self.phase,\n            actual_prefix_range_work=None if self.prefix_range is None else self.prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "        \"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",",
+          "after": "        \"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\", \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R459_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "after": "\"BEGIN_R483_COAST_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R459_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "after": "\"END_R483_COAST_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

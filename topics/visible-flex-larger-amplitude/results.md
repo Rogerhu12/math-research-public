@@ -114,3 +114,7 @@
 ## Request215 — 官方运行与来源绑定
 
 [R485/215完整接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)实际入口 `b952df814c98ef5927a4f5013364d2eed6002d74`，公开Actions [run43816406919](https://github.com/Rogerhu12/math-research-public/actions/runs/43816406919)于2026-11-16T06:23:20Z/attempt1启动；compute133129348123首次官方metadata前1–11成功，第12恢复原78源运行，原完整科学14与必要读回15尚待。R486由amplitude唯一终态读取，未取running日志；当前状态不补新数值、完整摘要、native/fullDN或README完成。入口官方topic tree `6df144a6952c33e7b3efc8e6fd1cdeae70316537`：9278blobs/197116135B、9650entries，truncated=false。
+
+## R483 — 同一完整准确目标的coast Bernstein范围
+
+**R483：同一准确目标的完整coast范围实现与条件包含证明；尚无新数值。** [证明](results/R483-complete-coast-Bernstein-ranges-in-current-metric-consumers.md)15453B/d16119fd、[接口](notes/2026-11-16-complete-coast-metric-range-adapter-interface.md)21663B/71e68882及helper18291/3730c62b、generator8742/d149d851、plan31012/7e71fe0c本次刊。保原72c定义/全部十词/同C语义叶/field/compiler，独立range对象真传原Prefix.inspect和R459目标调用；全片/闭端点/公共坐标与原径向metric保。coast准确三jet用半径27、速度16、二阶7个完整Bernstein系数；前两支撑端点在原72c为准确常数，结构不合仍原完整求值，未删除xi或别的项。五生成源有新名/schema/SHA，只覆盖原fixed-query及original112/resolution112/completeM/evidence；R464 union未注册，由216另接。原阈值、四Loewner/全域/时间/预算/必要范围保，不替代factory初点域，不保证盒更窄或预算/误差通过，不把新范围补成native/reach/held。五展开源仅未来Actions生成，原递归依赖仍必保；无新fixture、科学门或本地执行。
