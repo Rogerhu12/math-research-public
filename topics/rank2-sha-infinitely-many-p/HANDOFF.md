@@ -3,18 +3,17 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：7856e5c02a2b0d797d5007f8cc23c442b72c806a；2026-11-16 04:18:51 UTC核两README无变。实际CI pull 2026-11-16 04:09:31 UTC/609202907ac565b17e66f64be5d365369fb25a2f（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:12:04 UTC仍无环境。最迟2026-11-16 05:00 UTC再实际pull。
+- 最近已读规则提交：d25651365f1d7939ba00a5f15fa3e9d7754cb580；2026-11-16 04:25:10 UTC核两README无变。实际CI pull 2026-11-16 04:09:31 UTC/609202907ac565b17e66f64be5d365369fb25a2f（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:12:04 UTC仍无环境。最迟2026-11-16 05:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
 - 库存31,381,459B/2300文件，无超限、3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。本地进程入口仍缺失，CI实际pull与API读head分清。
 
 
-- 04:09:31实际pull成功；run43802344499/job133085291151，回执ci/rule-pull-20261116T040931.json；两README差异空，下一05:00前。
 
 ## 完整检查点与分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-nonhorizontal-joint.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-global-zero-charge.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–856已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者。deep续I+J实际联合交/真W_T（保ann_Z(f2)）；theta续四指定Rν的R855除p行共同约束；literature续R854真三fold Heegner到原端点的cycle对应。R852原Chow逆、R853同源Cartier、R854真CM收缩、R855全热连接均已成稿。
 
@@ -33,13 +32,13 @@ R848–851付原光滑商及Schoen degree9图形；原τ∞水平只排literal�
 R838完整critical Artin格/最高dν及变权e=2s_p、偶u/b和Cbar=2τC保归档；全Euler/period、指定主项与canonical未付，不假e2/noble/ordinary第一支。
 S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全Selmer保。R816/820付E−11 rank≥2；R824同G0给r+2h≥s+1，R828同K1/C1的χ2原像未付，q_p(3)不预赋单位。
 [固定torsion原注](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)保原M/P2,M/CM13全frame及p²/p³全极。p幂+exact联合式与无权C³固定帽已付，但旧Δf可保C²/C³而改首行，不保四指定Rν。固定K(X)^pV范围已排，不能代R853的p依赖输入。
-[R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原η=Z^(−p−2)P2^nRνω的全部极已付；C³降固定P¹极帽L=9/18/34/17，ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH，C⁴η=−α^(1/p⁴)(x²/y)ω。原共同η̄公式保同J_p/Θ_p/四fν；J_p=A_m/(1−t)^(3s−1)来自指定R636，A_m简单根避0/1。只读原首行，四α同时零仍开；M=1不冒CM13 frame。接续真实共同Θ_p约束。
+[R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原加权η全极/C³固定帽L=9/18/34/17及C⁴η=−α^(1/p⁴)(x²/y)ω已付；唯一ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH。四原η̄仍同J_p/Θ_p/四fν；指定A_m简单根与M=1范围保前检。只读原首行，四α同时零仍开，续真实共同Θ_p约束。
 
 [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
 
 R855§§9–11：四原源同A24的六sigma式/28和H10/H48/H112/H42全付；四B化同A24反对角配对，热张量balanced二阶项仍保。续真实伙伴不相容。[R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)已付全偶格D^pA=Ha DA+m(L2Ha)zA；用单位平移/addition比较付σ²/Θ，未除σ。四实际j0=j2=0使j_(p+1)/p在双变量整环中整，权p−5；原CM四B非零仍开。§§7–8全除p行D_k的非齐次热递推已付；原Hasse缺陷R_p整，L2²R_p|CM=110bc_p单位，仍须接同四D1，不冻结参数或丢g2项。
 
-[同角色整germ](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：紧角色投影后完整Schwartz闭包=ΣaκF(κz)，Normκ1；普通/惰性完整JΦ=QΦJ，零质量仅读Σaκ·j。inert保b=κ^(p+1)=1+pq与exp(aqX)，原Γh=(hs−1)!gh有全h整三角运输/整逆；不把h!gh自行认整。附录A付r+1真独立及最小cover ℓ^r；真实整行R_h=p^(h−1)(hs−1)!A_h才可读差分p^r，非中央无增益。差分j′无条件零来自局部因子，未增primitive中央/免费carrier。附录B给γ=3+ω的同degree49m两代数独立差分，两个j′全好p自动零；共同Gaussian49α和ρ0=a0^(p+1)/49全保。
+[同角色整germ及附录A/B](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：完整Schwartz闭包=ΣaκF(κz)、全JΦ=QΦJ及inert整Γ_h运输已付；r+1个真独立的最小coverℓ^r、原整R_h差分和同degree49m两代数独立源全保。两个中央导数全好p自动零来自局部因子，不能代primitive单位/免费carrier；原norm-one与共同Gaussian/ρ0尺度见完整前检。
 
 ## 同R、三真长窗和指定总类
 
@@ -52,6 +51,8 @@ R840付E²H3→2Z像ker resZ_-、余核z_-≤2；兼容V0/V1定2Z，H*>κ使V2�
 R813/822原γ/6单位及γ/6+G_F+B_F=0保全部边界。R842真框d∨H=Hf2−e(DH+(c−a)H)、固定2Z补零、全Serre左端及同ν/ω0/ω1仍须完整；第一层满射后指定[b0]∈cokerL_T≅W_T∨未知。
 R842所有完整边界、负全trace/Jacobian商、moving转置及全局mask见[完整前检](notes/2026-11-16-frontier-before-common-factor.md)与open：十九角/奇点、t1严格门、h7仅有限Y、正侧2Uτ/U及J modP²、全部跨p W项、真实V_T/W_T像和同P补偿均保。mask不已知属Q_T。
 [准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)保K_F=2Ft EFt/e²−Ft²f2/e³，原P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eqv0)，r2每vi十项、r≥12零。W_T上[b0]=−B_D−P_r，ω1的P项零；J长窗的P零不移给M，短sqrt不替全局W。
+
+[全负水平规范标号](notes/2026-11-16-r840-global-zero-charge-label-on-full-negative-horizontal.md)：β_-(a)=[V_a0]与lift无关，同G0=F0²C0−F0V_a0；a0时G0含F0²，固定(a,B)仅同cF0³。O的z_-负水平值行恒零，保完整双根/∞/固定角；余尾/同K/H前缀未付。
 
 ## 其它未闭门
 

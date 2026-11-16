@@ -36,3 +36,6 @@
 - [R840非水平厚块](2026-11-16-r840-nonhorizontal-confluent-joint-operator-and-two-tails.md)：原moving非水平F_t-unit图中e=x^(m−1)v，完整ann_Z(f2)=(x)/(x^(m−1))。实际O低m−3行的三角对角−YQ²(j−1)(j+m−1)全unit，唯一核τ/e；最后两行保原B/提升尾，m2保单行。真正J有W_C=a0+a1τ+a2τ²/2+O(x^(2m+1))，Z像只有常数；交中a=W_t(Q)τ/e。保所有奇点/固定角、同K/H高前缀、3η和原carry，未付残余尾联立或forcing。
 
 - [R856除p缺陷](../results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：§§7–8显式付R_p=(L2²Ha+g2Ha/12)/p整及三个原系数a_j的闭式；ss处R_p/g2²=55c_p/(576b)、L2²R_p=110bc_p为单位。统一D_{m,p,k}=(J_(p+k)−Ha J_(k+1)−mk(L2Ha)J_(k−1))/p全部整，精确非齐次热递推保R_p及两个g2项；原B准确是D1在CM的值。不能先冻结参数、把初行自由化或由已知110单位替四指定B非零。
+
+
+[R840全负水平标号](2026-11-16-r840-global-zero-charge-label-on-full-negative-horizontal.md)：原全负水平上的规范β_-(a)=[V_a,0]∈H2^0/(F0H1^0)与全部lift无关；同交元素准确G0=F0²C0−F0V_a,0，故[G0/F0]=−β_-(a)，a0时G0必含F0²。固定(a,B)只剩同cF0³，须与第三/四行同c。完整O的A0零charge恒零，目标可限ker resZ_-，其z_-恒零行是来源冗余；全双根/∞/固定角保留，非新物理左障碍。
