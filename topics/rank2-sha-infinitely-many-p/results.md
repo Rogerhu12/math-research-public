@@ -416,3 +416,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R840 真水平联合块](notes/2026-11-16-r840-actual-horizontal-joint-operator-and-zero-charge-control.md)：原moving smooth f_t-unit水平图中，O(a)=−f_t^-1(3w+εD){f_t(3w+εD+εm+εDlogv)a}，完整厚值不删ann(f2)。正侧全对角unit，负侧秩m−1、唯一核τ/e。真正J在正侧W_C∈e²，负侧W_C=G0(t(x))+O(x^(2m+1))；交中a=G0′(tQ)τ/e来自同一个带d因子的最多七维G0格。m≤b不冒m≤2；奇点/固定角与同K/H前缀、第三行仍保。
+
+
+- [R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：用整单位平移S_T及S_-T、原addition返回Θ−x(T)σ²，保除幂环不能约σ。全偶V_m准确D^pA=Ha DA+m(L2Ha)zA，故全部j_(p+k)=Ha j_(k+1)+mk(L2Ha)j_(k−1) modp。原ss点给全block j_(rp+k)=(mcp)^r(k)_r j_(k−r)及n≥p²为0。四原输入j0=j2=0使j_(p+1)/p在整个双变量整环成立，规范齐次商权p−5；其CM值仍是原未知B，不代四值不同时零。

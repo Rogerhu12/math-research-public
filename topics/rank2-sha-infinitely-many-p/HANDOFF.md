@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：09797cf1cc007f019c450c80350f96d1e929443c；2026-11-16 04:05:48 UTC核两README无变。实际CI pull 2026-11-16 03:31:32 UTC/b16923509deae4d293a0ffe4c9c0e71b89081976（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:49:42 UTC仍无环境。最迟2026-11-16 04:15 UTC再实际pull。
+- 最近已读规则提交：4cd3bfc115f812278e54df96ced1b103b270275a；2026-11-16 04:08:56 UTC核两README无变。实际CI pull 2026-11-16 03:31:32 UTC/b16923509deae4d293a0ffe4c9c0e71b89081976（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:08:55 UTC仍无环境。最迟2026-11-16 04:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -12,7 +12,7 @@
 ## 完整检查点与分工
 
 [压缩前完整H](notes/2026-11-16-frontier-before-common-factor.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
-R1–363、365–560、562–653、655–711、713–855已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
+R1–363、365–560、562–653、655–711、713–856已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者。deep续I+J实际联合交/真W_T（保ann_Z(f2)）；theta续四指定Rν的R855除p行共同约束；literature续R854真三fold Heegner到原端点的cycle对应。R852原Chow逆、R853同源Cartier、R854真CM收缩、R855全热连接均已成稿。
 
 ## 原循环与canonical主门
@@ -34,7 +34,7 @@ S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全S
 
 [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
 
-R855§§9–11：四原源同A24的六sigma式/28和H10/H48/H112/H42全付；四B化同A24反对角配对，热张量balanced二阶项仍保。续真实伙伴不相容。root另在证全V_m的D^p Hurwitz合同（R856，未登记）。
+R855§§9–11：四原源同A24的六sigma式/28和H10/H48/H112/H42全付；四B化同A24反对角配对，热张量balanced二阶项仍保。续真实伙伴不相容。[R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)已付全偶格D^pA=Ha DA+m(L2Ha)zA；用单位平移/addition比较付σ²/Θ，未除σ。四实际j0=j2=0使j_(p+1)/p在双变量整环中整，权p−5；原CM四B非零仍开，全block modp不恢复除p商。
 
 [同角色整germ](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：紧角色投影后完整Schwartz闭包=ΣaκF(κz)，Normκ1；普通/惰性完整JΦ=QΦJ，零质量仅读Σaκ·j。inert保b=κ^(p+1)=1+pq与exp(aqX)，原Γh=(hs−1)!gh有全h整三角运输/整逆；不把h!gh自行认整。附录A付r+1真独立及最小cover ℓ^r；真实整行R_h=p^(h−1)(hs−1)!A_h才可读差分p^r，非中央无增益。差分j′无条件零来自局部因子，未增primitive中央/免费carrier。附录B给γ=3+ω的同degree49m两代数独立差分，两个j′全好p自动零；共同Gaussian49α和ρ0=a0^(p+1)/49全保。
 
