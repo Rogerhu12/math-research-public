@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WPTSA：完整五maxima与两次否定充分尾门** — [实际证明与全部原ball](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)，SHA4f880dcef63c33c0233c01ee9fc86e5f4e070a7aa72746debb829547411daf04。43859287399/1全18门/4whole/11新成功，原collar未重算，body152全成；完整δ1≈8453.72、δ2≈2121.93均false，selection/inverse均null。原5max及两候选冻结；无finite矩阵/旧目标重算，不证真实奇异，后续新解析须完整保持原域/mean/四块/两rhs。
+
 - **WML：原local归一L1与完整六步mean强迫** — [完整证明](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)，SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。真实local区间/根条件下21归一核、4完整初amplitude、6次mean操作/10terminal、两窗传播与全部原物理边界给247新scalar的解析合同；全radial项/两mean/四端/jump保，不在root除T。0新算术，247尚未执行；WMTA显示非mean主导，故保留定理而暂缓该数值部署。
 
 - **WDS：真实有限Schur的双侧残差证书** — [完整定理与有限实现合同](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)，SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。对真tail R及primal/dual trial有 $I-Q_fM=E+D^*R^{-1}T$，完整误差门 $e+\kappa dt<1$ 才证真实Schur逆；两rhs与重建均保，97root补/96outer/193mean/所有七port弱Green和全部δ不减。只是完整解析证书及有理trial实现边界，当前无通过tail门或数值finite逆。

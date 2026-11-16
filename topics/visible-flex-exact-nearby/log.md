@@ -253,3 +253,9 @@ WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝�
 保存04827463ed6c8f81bcd54f278c004bcae668f7d5/31888B/SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。原实[rc,r*]和z_ph(r*)=0下p=aJ/DJ、w≥3/4给L1核，完整e/ek角0..6共21，Mr与4真实radial强迫amplitudes35；N6保7×4至2×9全部169记录/10terminal；8mean+6negative+2endpoint+6whole共22，总247为新未算目标。全mean/原Jr/g1/3070jump/四端/完整H/ν/coker/96及whole/reduced均不变，严格flux公式不延到root且无1/T局部除法。
 
 原已完成local γ桥、local mean_N6、WMR42/2exp及WMT195均只读禁止重算。root及代理已闭完整形式和原typed source使用；角6使用完整physical_coefficients_local，不拿旧c4×5替代。WMT真实结果已显示主项是nonmean strict/collar，故本次只保存已证定理，247不启动；下一新数值优先完整retained-profile重分解，不能假称WML改善已算。open原WHR/WHV/W96长重复摘要压到既有9f69ecd3完整逐字档索引，全部未付义务保。本次新算术0；89f20ce86430eb65199268e1e8d6add6619f0ee5两README同已读。
+
+## 2026-11-16 11:49:55 UTC — WPTSA实际续算完成，两预定尾门false
+
+公开43859287399/1，actualcheckout08f120e3，source159d8fdc/reader858a2368/worker a3c1c6ea/manifest296d3f66；SCI c79f9de9/24767B/bdd8857cf98d3497600b349b05fc81b8aab7441cd7020b6a5f337b6067f774ef，exec48542d9c/31409B/263e6e51aeeb7705b80870af1a6ea5a9936e3efc470a88581696cdd3ece0d3fb，report429B/8e978982。全56605B；大stdout11161346B/e7ab209c仅hash，未读/分块回传。
+原collar5球/witness/chain/count及32fields/44execution全继承；只新152body，153parent/4801交集、18完整门/4targets/11scalar、old0/lost0/finite0。完整五max和m1/m2所有值保WPTSA4de4f5fc/12906B/SHA4f880dce；δ1=8453.721881…、δ2=2121.930735…均false，selected/inverse=null。此是完整科学成功，不是未算；禁止重算或自动扩网，也不证奇异。
+root仅schema/hash核全33fields/18gates、27current/10AST/19history、原全部scope/repair/候选及1580B preflight；无新数值。最后真实pull11:42:53.716692→5b5dd03b，两README diff全空；四回执完整保。下一实算需新解析和资源合同，并继续真实signed有限逆/96/mean/ν/高门。c929c8cf3fad0306b798fe8f02171312e8afa77a读取点入H。
