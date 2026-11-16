@@ -2,66 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R926-certified-seven-numerators-R928-target-differential",
-  "commit_message": "serre: certify seven bounded numerators and execute whole target differential transport",
-  "rules_last_read_commit": "665dd92b8703fa7118d90fbee0eba7f07e2d60ee",
+  "request_id": "20261116-R927-original-endpoint-pencil-content-and-norm-frames",
+  "commit_message": "serre: prove endpoint pencil content and complete original norm frames",
+  "rules_last_read_commit": "82f469f04fe4696d38a17940e63b1daf2d311472",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "28737805d062b7f616286ec3b892eb56dc0f845ac20c3513676c0ff2a960d01f",
+  "expected_previous_request_sha256": "f9f764db03225bbf8b28179c0b5536c73ba755bd81cfae864a858890863254c2",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R926-certified-original-seven-bounded-connection-polynomial-numerators.md",
-      "sha256": "bff0e32e59405ec750be471af6ac51302ff558ed7a3a13162893f21d7639249b",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R928_original_whole_Artin_target_differential_transport.py",
-      "sha256": "f899af1a65b2243c47a738bedc6eff3954502b4e3867ab59ae56d80cca045337",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R928_public_original_whole_Artin_target_differential_transport.py",
-      "sha256": "83d6c51ac1b34e432ac768341363eb090ea7cb24829c03236d05ff7d1abf4fd7",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R928-original-whole-Artin-target-differential-transport-method.md",
-      "sha256": "1a0a9cf2b4ffd5d9edc20cb17e6eea59959d2fcbe4785b76621b6581687ceaa4",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R928-whole-Artin-target-differential-transport.yml",
-      "sha256": "26bb2e7edbd9fed04a1e6a1c5daf2929a52ae5a07e98d545053c4515aeca2585",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R928-whole-Artin-target-differential-transport-public-request.json",
-      "sha256": "a3b3492c581f80c43451282a6a26b64097076a7f88820d974ab370999581d992",
+      "path": "topics/serre-uniformity/results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md",
+      "sha256": "100f4630e695316cc692989e1c8e05866bb0a3cddde19741ada0148fc19c3ea4",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "554913f2e38e1ccd9a4ba4916bc4c1a401d2775692c90198622259eef404afb3",
-      "expected_previous_sha256": "541319f0227b9ff183bf96f163cc40a735b59a28d6c4e58e4b367e89d9e497a2"
+      "sha256": "2565bbda7b1f02a962b7a51456b8ddc4189a45010b1a320d29845916cd4082f6",
+      "expected_previous_sha256": "69e2f11442537b0f121b1b2caf12204807d234974ee7c7a4914b01ea930e3cbc"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "618dbda7ce1fdfa038887ee5a3b6d726b2e24bff10e397ad2aada7e14b96e99e",
-      "expected_previous_sha256": "35c3cab2f1307150537bfa6e759c497a580406c6e965801dafcd0b11d1b65270"
+      "sha256": "a6a6e4271f058290c44019804a4f8aff27e803b016c92b37517554965f246bb9",
+      "expected_previous_sha256": "618dbda7ce1fdfa038887ee5a3b6d726b2e24bff10e397ad2aada7e14b96e99e"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "7fabad30d7d4942e733a061a6d799df733539868a3bed887df2708ef5dac901f",
-      "expected_previous_sha256": "f41df02b9cf012718dbd5ce8d23b8d5828968e6e12bc3ea0518b35edf25c99e5"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R928-whole-Artin-target-differential-transport.yml",
-      "request_path": "topics/serre-uniformity/notes/R928-whole-Artin-target-differential-transport-public-request.json",
-      "request_sha256": "a3b3492c581f80c43451282a6a26b64097076a7f88820d974ab370999581d992"
+      "sha256": "fc1185fb90ff1be545094bddb3f376b78d5905d77770643ba598dfd4bada2bf9",
+      "expected_previous_sha256": "bf9e657b7f353889a9d6147b1542b5dcea10c9d15e169d75739d88f8c7aac1c8"
     }
   ]
 }

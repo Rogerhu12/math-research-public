@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不以阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：868f2f6b5ba55affa26cc5f9d42186a565ea0a43**（2026-11-16T17:13:18.884727+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-certified-trace-dual-and-endpoint-targets.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
+**已读规则提交：82f469f04fe4696d38a17940e63b1daf2d311472**（2026-11-16T17:25:18.639879+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-certified-trace-dual-and-endpoint-targets.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端失联，恢复workflow实际partial/sparse pull发布。
 
@@ -47,7 +47,7 @@ R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536
 
 [R922完整连接公式](results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md)保真V=K/P_U及完整商法则。[R926实际七分子](results/R926-certified-original-seven-bounded-connection-polynomial-numerators.md)：43916091665/665dd92b，288stage/5.079957719s，全七d/y/277×272系数Fᵗy=dc通过；FINALe60d5ebb/manifest9f1be869/art14251085383，33原件/原543 gauge不变。R928五件全文读并激活，coref899af1a/wrapper83d6c51a；仅新8δK、完整商法则与真目标g,h/J，93原件直接复用，ℓ_t须全E单位，J不加单位门。R930七连接求值随后消费真结果，σ/cY叶不省。
 
-R912保九纤维Nm(q*Φ)detUj/detU0、原t/dual7和两端共用λ0..16；R927继续五目标局部格和Nm帧，不能预填R903/R907。五Lj128/144、YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary只在合法好约化niPiξj非零时判支持。
+[R927完整端点理想/范数帧](results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md)已证：八次det(Ma+T Mb)的content即全理想指数，λ0..16给两端共用生成元和全16列双向证书；NmΦ仅沿真实叶首项累积。参考分出完整target-P0块，Nm(qρ0)阶m≤8，九项足够；补块(f−ηg)/(u+ηb)只除单位，保原254极阶/U272/Nm参考及t帧。首消费者只等R923，五R903/R907仍null。五Lj128/144、YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary只在合法好约化niPiξj非零时判支持。
 
 ## 全p原标号
 
