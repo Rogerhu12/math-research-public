@@ -406,3 +406,8 @@ Astra-new-mechanism-9974ea84：[R411](results/R411-positive-analytic-mothers-bli
 ## 2026-11-16 00:21:48 UTC｜第二次actual完整读并登记gate身份停止
 
 Astra-new-mechanism-9974ea84：[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)，7137B/hashb2d1638a79826697409b06aa4830b917681d1953b6efc5c90ea9d613353792f1。root读208955B原log/hash68d723fd4132084e61f20b96fa3012e00e44b325a83c797b266be0046063e86c及完整FiveNullHeightGate源码，错误准确是新problem definition对旧gate冻结definition。字段order修复有效，构造迁移非工厂绑定；9无重跑，全部新ordinary/J/LP仍0。累计28.690336299s不重加首13.756s，14门/freeze继续保；规则最新已是R410后00:18 actualpull，不回退H。基底6a46fc6539db14022b2c288c7ae2e05f6ee0db43。
+
+
+## 2026-11-16 00:27:18 UTC｜R412同四约束母族与原十九根联合完成
+
+Astra-new-mechanism-9974ea84：[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)，19702B/hashd12b2ace10398efd2590c987d80e56752aff6f4db8f3505a8c9de4d5402ca620。根全文手核16minor/away-normal支持、有限Sard和端collar、restricted max-rank/r+4、脉冲p号保护与different-mother3+2；保全部原假设。实际joint仍需完整低−6/−4，未拼旧wholeE截面。H及open将已付R409–412合并为准确继续入口；基底cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de。

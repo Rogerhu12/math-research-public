@@ -180,11 +180,10 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 [R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)对任意原允许光滑wθ（可跨gap、含高谐波）保全部平端，逐包total与所有Af点累计flux严格不变，平台二次同而左affine两常数可变。canonical ω_i/ordered A_i只作为实际两组组合受保护；不能给固定圆w的辅助universal查询独立改值。固定双线性W另给π/Q/Λall核和λ+延拓，未付固定圆评价核。原incoming、第三合法性、13行同一个k及相位核不删；下一把λ+写成真实有限包不变量，或处理该读出失效的精确例外。
 
 
-### R409八个实际末包已给正字符：下一只付第五矩零例外
+### R409–R412：末包正字符例外与十九根已在同母族实现，继续共同actual
 
-[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)证明全自然平移次数≤7（完整最低两权消去、正权1/3为常数），最高系数=−3λ+M5/80。原八复制组的同形同宽末包保真实全库R/T三矩suffix0，16个原d/e总量准确Lagrange读λ+>0；依R408，任意允许w不能改变它。故该实际M5≠0范围的全period目标不可达，不再沿其增加内部flux列。新初选可以保M5非零及原19根，说明局部门不充分；旧未知母只得M5=0必要，未称已评价。[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)已在新母阶段以两坡/凹cap和准确五次标量造正则M5零母，再于同流形付restricted max-F/19minor、r+1有限纠正和原完整19根，仍一对Af/共同外区。旧冻结纤维不改；下一处理全部低次自然translation系数及真实joint，M5=0单独不授period。
+[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)给全自然translation degree≤7，最高−3λ+M5/80；八同形同宽实际末包suffix全0，16个d/e总量读λ+>0且任意允许w不改。M5≠0范围的全period不可达，旧未知母仅得M5=0必要。[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)在新初选同点保M5=0/19真根/一对Af；这一对结论不转给新四约束母。
 
+[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)先付正解析母全部n2四平移系数0；[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)现在加强16个可避局部点的4minor，在同一四约束流形取真restricted max-F及19jet minors，以r+4校正及原有限N根同付19、共同F/外区。p和Af的所有内部零均有限简单，数量不限定一对。所有最终不同母的ordered3+2对完整n2因local五次恰0；H*在同一个实际圆的wholeE及所有packet totals核中而λ1。故原正字符不能通过此有限真实评价因子化；这只给signed核见证，不授实际负路径、全period或同g有限族。
 
-### R411完整零权自然仿射盲母已构造，下一同点接十九根及负权实际锥
-
-[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)用4半径16包/8正第五幅权的有限4minor，随后ψ3乘正偶多项式的C1逼近与IFT，给一个正解析母的完整n2四平移系数全0；正缩放亦0。已付H*在ker(E,A_u)且λ1，故该母全affine自然查询加wholeE不能读λ；只是signed见证。J零权商已消，actual闭锥还剩−6/−4完整增强正字符，不由旧E等像消去。此母未同付原19或一对Af；下一在其正则4约束流形上用R410方法保F_rat/19与真实有限退化，另解两个负权实际门，不拼不同母形。
+下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。

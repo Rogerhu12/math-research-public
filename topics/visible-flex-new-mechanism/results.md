@@ -384,3 +384,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## direct-reference第二次：严格门身份发现未完成的adapter绑定
 
 [direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)（7137B；SHA256 b2d1638a79826697409b06aa4830b917681d1953b6efc5c90ea9d613353792f1）。run43778983026/job133011642024，9只读复用通过/order8正确/新objective与438+祖先γ迁移成功；原gate仍冻结旧ordinary，首次求值前assert_context拒绝，新adapter geometry_started0，值/J/model/LP/接受0。累计science28.690336299000023s/本次增量14.933360238/进程16.883830579，全部费用保留。下一按原from_original创建新数值gate并核同物理约束，不删freeze；无速度/优化结果，主题继续。
+
+
+## R412｜同一四自然约束流形上的共同母与十九精确目标
+
+[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)（19702B；SHA256 d12b2ace10398efd2590c987d80e56752aff6f4db8f3505a8c9de4d5402ca620）。R411加强全部16个4minor，八不交normal组使每个局部jet有四个远离修正方向；有限参数transversality先使全部p/Af零有限简单，再在四约束解析流形取真restricted max-F和19自由jet minor。r+4块三角IFT配原正核/C1集中给一个有限N精确根，所有最终母同F、同外区且全n2正仿射轨道零。完整n2局部五次使不同母ordered3+2严格零，H*在同一实际circle全部totals与wholeE核中而λ1。此为signed非因子化，非实际负控制；不声称一对Af、全period或同g有限族。
