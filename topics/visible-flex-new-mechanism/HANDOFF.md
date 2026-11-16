@@ -10,7 +10,7 @@ private于14:48:24.811392→14:48:44.222552实际pull读 **3679fb6c825fcd6811126
 
 free36两job的public/private实际pull、README空diff和QUEUE唯一进行中完整回执见[闭账](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)；最晚report14:20:14。私有正文不发表。
 
-三公开来源14:01–14:03复核ec067fabbc723f7c1a45c05212d4a0353381f55c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
+三公开来源14:58–15:00复核ab9fda47b85a427061a3a01639d78507169fedf6，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
 
 ## 2. 主门与当前固定几何
 

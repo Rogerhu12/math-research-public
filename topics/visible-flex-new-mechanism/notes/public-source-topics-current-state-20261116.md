@@ -18,3 +18,22 @@
 这次核对仍未发现可以直接移植、已共同支付本题δhold≥.3D及全时reach≥.03D的完整候选。本题继续自己的同一对象全路径构造。原定义不变：δhold和δE针对无标签整像Hausdorff，材料滑动不计；δE容许反射对齐，比例均以完整D归一。
 
 本题最新实际仍为[58](true57-nonlinear168-original-two-grid-accepted58-20261116.md)。其后的原盒ring17、反射R1首3/8纤维与[共同α/R2](true58-joint-alpha-R2-status8-no-candidate-20261116.md)均已真实闭账，无新接受。后者SLSQP8/false保原谱违约及全部后端返回，新增19.9540876秒/0值，相关累计2902.366570826秒/147完整值；它不授整射线准确不可行。下一自由R1/R2模型源码正在准备，尚未科学执行，不把来源的组件账或旧运行状态混入本题。
+
+## 2026-11-16 14:58–15:00 UTC：固定来源差异与完整门边界
+
+这次固定读取 **ab9fda47b85a427061a3a01639d78507169fedf6**，对照上次ec067fabbc723f7c1a45c05212d4a0353381f55c。proof_review只读目录及新增正文，root独立回读三个HANDOFF；根/本题README仍为21bd547f56590b7f2dd279d0297efb289a9b2783/d0432faff569c8e9af7ed4809847e12880976c11。未读运行中的科学日志、未执行或重算来源证书，GET不冒actual pull。
+
+| 固定来源 | HANDOFF / open blob | 新状态与本题使用边界 |
+|---|---|---|
+| [基础来源](https://github.com/Rogerhu12/math-research-public/blob/ab9fda47b85a427061a3a01639d78507169fedf6/topics/visible-flexible-closed-surface/HANDOFF.md) | 6f072b64133ebacb8b784209fa7ce3aef1cb0c7e / c2b484286b7273543ea2fd2e2d547fe451f86eb6 | README、H/open/results索引及整个results tree 965e99e64bec607b58b4033ed3178f589c0df179与前次相同。R114的held/D>.0527832未升级；强目标仍未完成。 |
+| [幅度来源](https://github.com/Rogerhu12/math-research-public/blob/ab9fda47b85a427061a3a01639d78507169fedf6/topics/visible-flex-larger-amplitude/HANDOFF.md) | 13833876bca8ac9648c9f5e379635b610258b8ff / d9bea28fe225610d264eabb515d0307edc86c9f3 | 新条件原算术、尾/alias与比较界没有产生完整闭面；仍只有M96/N1024/scalar=.99开放前缀接受，完整非零112/338/450无，自己的.2D及全部全时几何门尚未付。 |
+| [精确附近来源](https://github.com/Rogerhu12/math-research-public/blob/ab9fda47b85a427061a3a01639d78507169fedf6/topics/visible-flex-exact-nearby/HANDOFF.md) | 6f7884dacd40cd2c74fcc3d3335fd21fd7136c23 / c5ef74c2f0930d8c6af55fd2f0d93784fb138e50 | WSMF52、W4M新完整上界约2.095886e302，是算子上界而非metric误差或smallness。signed finite inverse、true96 normalization、finite/high、背景及matching仍未闭；条件held>.05075888242D不支付本题.3D。 |
+
+新增原文的严格范围另记，均未移作本题已付门：
+
+- 幅度[R569](https://github.com/Rogerhu12/math-research-public/blob/ab9fda47b85a427061a3a01639d78507169fedf6/topics/visible-flex-larger-amplitude/results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)，blobd24ee73c86c8597f88094b44674509dd3de4e038，给同次literal cubic、准确cubic/quintic的条件完整差界及prefix比较；尚无实际capture或完整reach/held证书。
+- 幅度[R575](https://github.com/Rogerhu12/math-research-public/blob/ab9fda47b85a427061a3a01639d78507169fedf6/topics/visible-flex-larger-amplitude/results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)，blobc6a46d397c821d43d8c20bb299f4e65b5aab2577，保全角正域、非仿射链式及真实相位，给条件Fourier尾/全部DFT alias界；实际形成差、帽/tail/collar/cut及全域覆盖仍各自未付，没有实际误差下降结论。
+- 精确附近WVC（blobe377cb2e0578fc66ba8a7bc32e339fadcb0a242c）与WMC（bloba4f8894315b71d51068680063555294d1f04dae7）只是完整原算子的候选/恒等式及尚未执行的新配方；没有授予finite inverse或新几何族。
+- WSMFA（blobfea426eab9100d98e1d60c75b3210ac83864deac）与W4MA（blob4eb45252247c895b670fa66518778e3dd4bbfc8e）完整观察仍保finite/high/非线性未闭。W4MA仅与其WRPA输入比较，不能说取代或优于独立WSMF52。
+
+**本次仍无可直接移植、共同支付本题.3D握持与全时全域metric/reach/嵌入全部门的候选。** 各来源的已成组件、未执行/未返回与计算账均保原作用域；不借组件成功完成本题。本题实际点仍58，自由36环成功但完整body失败已按72.22285305100002秒/0值闭账，祖2974.589423877秒/147值。唯一新prefix102 run43891282963/source30136a383796ea3a255c00e10e482c358b4e822b仍待实际终态；R535已单独发布同规范负增量证明，但未M0。以上14:01段落为当时原始状态，现时以本节和HANDOFF为准。
