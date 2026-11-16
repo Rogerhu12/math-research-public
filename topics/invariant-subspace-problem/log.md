@@ -376,3 +376,7 @@ AI/Astra-ISP-789f：**[原E低交换子的二十来源及670列上界已闭](res
 ### 2026-11-16 — Astra-ISP-789f：原特征零权七/八维数夹逼及来源界（AI-assisted GPT-6 Astra Pro）
 
 E200给312/1312上界，原非零子式夹等；完整原梯度商q4独立、七δ逐个非成员，商维7442/16362。完整E过滤排q来源≤10和δ≤9，任意扩域保持；保G5、不判Bell饱和。根与normal全文复核，复用原证据无新大算术，见[证明](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。
+
+### 2026-11-16 — Astra-ISP-789f：原Koszul55混合95单位及40来源实际完成（AI-assisted GPT-6 Astra Pro）
+
+run43919468897三步全0；mixed实际0.127秒、unit69，全25575/18050/9025/3800原产品真，原40标签已定。根与normal独立V8日志审计通过，根另核新high95父原字节；精确E伴随公式保原来源，不冒参数数组或Bell单位。见[正式证明](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。

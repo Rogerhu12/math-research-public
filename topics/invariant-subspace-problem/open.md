@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
+
 **[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
 
 新问题仍为δb²权10、qb³权11；已完成的权七/八无需再消元。
@@ -10,9 +12,9 @@
 
 **[原四次核95与原E完整260/270呈示已闭](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。** 完整$D:165\to70$满射，原$T:100\to165$的合法95子式实际det38；原E恒等$DT=0$而非field零提升，故$\operatorname{im}T=\ker D$、核95/五关系/余商0。原高40来源减$N_iC_s$后唯一低次校正落$B\langle C20\rangle$，保全部参数及原11/17来源；全部交换子在$P_1$、低列在$P_0$，完整三字降次给$P_2$稳定，至多非Bell260+Bell10=270。没有初始76=36普通B模或第一轮稳定声明，没有新270数组或Bell判空。
 
-**[原55条Koszul来源给E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 十一原二次项独立，使55条$q_ae_b-q_be_a$在95维四次核中独立；余商40维由原100条$u_i z_s$张成。按同原行投影贪心选40并以原伴随定义系数，减真正$G_ae_b-G_be_a$零来源后canonical校正落C20，故全部NC100普通B模由NC40+C20生成。第一轮106、第二轮210，非Bell200，保原参数/11/17源和权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新实际40索引/混合单位仍待小门；不把既有field换源提升。
+**[原55条Koszul来源给E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 十一原二次项独立，使55条$q_ae_b-q_be_a$在95维四次核中独立；余商40维由原100条$u_i z_s$张成。按同原行投影贪心选40并以原伴随定义系数，减真正$G_ae_b-G_be_a$零来源后canonical校正落C20，故全部NC100普通B模由NC40+C20生成。第一轮106、第二轮210，非Bell200，保原参数/11/17源和权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新40索引和混合单位现已实际支付，见本页最新结果；仍不把field系数提升。
 
-下一只物化原40标签/混合95单位及全部原常数乘回；完整权十直接矩阵工作继续。
+原40标签/混合95单位及全部原常数乘回已闭；继续完整权十直接矩阵、原degree5来源与R271完整费用。
 
 **[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。下一完整77276×13808直接消元与原左证接口已全文审，独立native/driver待冻结。
 
