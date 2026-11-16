@@ -1,0 +1,144 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R556-current-C-two-worker-complete112-sampler-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "One actual caller view replaces only the original serial full112 far-mode loop by the explicit two-worker helper. The original per-mode point_column, all root-family inputs, complete inverse leaves, unit-row formulas, physical sampling, original momentum_rows and numerical acceptance gates remain in this same generated source. It does not register the complete downstream request by itself.",
+  "frozen_literal_engine": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "actual_sampler_baseline": {
+    "file": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+    "bytes": 71361,
+    "sha256": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6"
+  },
+  "required_public_sources": [
+    {
+      "file": "geometry_20261116_current_C_two_worker_far_propagation.py",
+      "bytes": 50793,
+      "sha256": "563022ef9b22ef547ebb800d0689ef4530345f5a728216f47b2239cb1c3eb5c8"
+    }
+  ],
+  "view_count": 1,
+  "literal_patches": {
+    "p0001": {
+      "before": "\"\"\"Actual same-C radial samples and oriented Pruefer finite-far rows.",
+      "after": "\"\"\"Actual same-C radial samples and two-worker complete Pruefer far rows."
+    },
+    "p0002": {
+      "before": "SCHEMA=\"current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1\"",
+      "after": "SCHEMA=\"R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1\""
+    },
+    "p0003": {
+      "before": "def require_actions():",
+      "after": "\nR556_PARALLEL_NAME = \"geometry_20261116_current_C_two_worker_far_propagation.py\"\nR556_PARALLEL_SHA = \"563022ef9b22ef547ebb800d0689ef4530345f5a728216f47b2239cb1c3eb5c8\"\nR556_ORIGINAL_SERIAL_SOURCE_SHA = \"21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6\"\n_R556_PARALLEL = None\n\ndef r556_parallel_helper():\n    global _R556_PARALLEL\n    if _R556_PARALLEL is None:\n        path=Path(__file__).resolve().with_name(R556_PARALLEL_NAME)\n        raw=path.read_bytes()\n        if hashlib.sha256(raw).hexdigest()!=R556_PARALLEL_SHA:\n            raise ValueError(\"Use the complete two-worker mode source\")\n        spec=importlib.util.spec_from_file_location(\"_R556_original_mode_parallelism\",path)\n        module=importlib.util.module_from_spec(spec);sys.modules[spec.name]=module\n        spec.loader.exec_module(module)\n        _R556_PARALLEL=(module,dict(file=R556_PARALLEL_NAME,bytes=len(raw),\n            sha256=R556_PARALLEL_SHA))\n    return _R556_PARALLEL[0],dict(_R556_PARALLEL[1])\n\ndef require_actions():"
+    },
+    "p0004": {
+      "before": "    sampling_paused_for_linear=False\n",
+      "after": "    sampling_paused_for_linear=False;parallel_record=None\n"
+    },
+    "p0005": {
+      "before": "        ledger_storage, ledger_storage_source = r498_storage_helper()\n",
+      "after": "        ledger_storage, ledger_storage_source = r498_storage_helper()\n        parallel,parallel_source=r556_parallel_helper()\n        report[\"actual_two_worker_source\"]=parallel_source\n        report[\"original_serial_sampler_source_sha256\"]=R556_ORIGINAL_SERIAL_SOURCE_SHA\n"
+    },
+    "p0006": {
+      "before": "            original_scientific_schema_and_canonical_rows_unchanged=True,\n",
+      "after": "            original_mathematical_fields_preserved_with_explicit_mode_ledger_relocation=True,\n            every_actual_canonical_row_stored_without_truncation=True,\n"
+    },
+    "p0007": {
+      "before": "            journals[name] = (ledger_storage.GzipJSONLJournal(\n                large/(name+\".jsonl.gz\"), args.out,\n                canonicalizer=B.canonical, compression_level=1)",
+      "after": "            journals[name] = (parallel.output_journal(ledger_storage,\n                large/(name+\".jsonl.gz\"),args.out,canonicalizer=B.canonical)"
+    },
+    "p0008": {
+      "before": "            for far in data[\"far_rows\"]:\n                linear.check()\n                row=point_column(far,data,required,by_panel,geom,args,linear,\n                    journals[\"far-accepted-panels\"],journals[\"far-complete-tubes\"],\n                    journals[\"far-panel-commits\"],journals[\"far-inverse-leaf-coverage\"],unpaid,r_far,mu_far)\n                rows.append(row)\n                journals[\"far-all-mode-rows\"].add({k:v for k,v in row.items() if k!=\"full_interval_objects\"})\n                print(json.dumps(dict(event=\"current_C_nondividing_far_mode\",\n                    physical_frequency=far[\"physical_frequency\"],complete=row[\"complete\"],\n                    error=row[\"error\"],accepted_panels=row[\"accepted_panels\"],\n                    elapsed_seconds=time.monotonic()-linear.started)),flush=True)\n                if not row[\"complete_required_far_propagation\"]:break\n",
+      "after": "            parallel_record={}\n            report[\"actual_mode_parallelism\"]=parallel_record\n            parallel.run_modes(sys.modules[__name__],data=data,required=required,\n                by_panel=by_panel,head=head,geometry=geom,args=args,budget=linear,\n                journals=journals,rows=rows,record=parallel_record,r_far=r_far,mu=mu_far)\n"
+    },
+    "p0009": {
+      "before": "                    remaining_modes=list(F.MODES[len(rows):]),all_required_modes=list(F.MODES),",
+      "after": "                    remaining_modes=(list(F.MODES[len(rows):]) if parallel_record is None else\n                        parallel_record.get(\"actual_not_started_modes\",list(F.MODES))),\n                    actual_started_but_not_globally_committed_modes=([] if parallel_record is None else\n                        parallel_record.get(\"actual_started_but_not_globally_committed_modes\",[])),\n                    all_required_modes=list(F.MODES),"
+    },
+    "p0010": {
+      "before": "                unstarted_far_modes=list(F.MODES[len(rows):]),complete_native_field_occurrences_done=point_index,",
+      "after": "                unstarted_far_modes=(list(F.MODES[len(rows):]) if parallel_record is None else\n                    parallel_record.get(\"actual_not_started_modes\",list(F.MODES))),\n                actual_parallel_mode_scope_in_report=parallel_record is not None,\n                complete_native_field_occurrences_done=point_index,"
+    },
+    "p0011": {
+      "before": "            actual_not_started_far_modes=list(range(2*(len(rows)+1),225,2)),",
+      "after": "            actual_not_started_far_modes=(list(range(2*(len(rows)+1),225,2)) if parallel_record is None else\n                parallel_record.get(\"actual_not_started_modes\",list(F.MODES))),\n            actual_far_mode_row_scope=\"globally committed original-order returned mode rows\",\n            actual_far_worker_started_modes=[] if parallel_record is None else parallel_record.get(\"actual_started_modes\",[]),\n            actual_far_worker_entry_modes=[] if parallel_record is None else parallel_record.get(\"actual_worker_scientific_entry_modes\",[]),\n            actual_started_uncommitted_far_modes=[] if parallel_record is None else parallel_record.get(\"actual_started_but_not_globally_committed_modes\",[]),"
+    }
+  },
+  "views": [
+    {
+      "role": "complete112_two_worker_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+        "bytes": 71361,
+        "sha256": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_two_worker_joint_gzip_radial_sampling.py",
+        "bytes": 73294,
+        "sha256": "c90137cdb2da1159338838a68c04156dc24046d306798c1cada8da85df624f69"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "integration_boundary": {
+    "baseline_must_be_actually_generated_by_original_R498_chain": true,
+    "actual_computations_HERE_must_equal_original_runtime_directory": true,
+    "new_public_helper_sha_bound_by_actual_generated_sampler": true,
+    "original_shared_work_limit_and_phase_clock_not_renewed": true,
+    "new_worker_count": 2,
+    "new_sampler_schema": "R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1",
+    "original_geometry_bundle_schema": "current-C-native-radial-geometry-bundle-v1",
+    "original_mathematical_mode_functions_unchanged": true,
+    "all_current_downstream_source_and_schema_registrations_still_required": true,
+    "no_existing_request_or_running_source_modified": true,
+    "no_scientific_execution_or_speed_claimed": true
+  }
+}

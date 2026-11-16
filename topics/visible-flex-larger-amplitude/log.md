@@ -49,3 +49,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:22 UTC /root — R567当前prefix管完整238入口
 
 [R567](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)/[接口](notes/2026-11-16-request238-current-prefix-tube-complete-chain-interface.md)七件314058B/topic222553B独立刊；原235的545源全保→557/十层，真sameC evidence接R553实际675管，原normal evidence/metric/DFS/全部场链与18900+2700/90K不变。正域不足只记诊断未付、两reader完整保，正式刊后唯一POST238，R568 geometry唯一；237已99347c61/run43884807627单POST200且官方绑定本次记，H/open/索引同步§4–6原字。
+
+## 2026-11-16 14:23 UTC /root — R556完整112far双worker与原序账
+
+[R556](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)四件99450B独立完整刊；两mode同ω全112far、原25M/绝对钟、准确arb字/ctx和全部原账重定位/prepared SHA/两级commit保，失败不续wave、同PGID/未知quiet不冒真。无新run/速度，R557真实235全闭包另付；238唯一POST200/a4c45/run43885002914正式绑定本次刊，H/open/索引同步，§4–6原字。
