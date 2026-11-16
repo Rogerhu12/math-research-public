@@ -1,0 +1,145 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "critical-e8-complete-first-exit",
+  "executionSourceCommit": "baa2a6aad7505f09a1b8327a4e4c806990401ae8",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-first-exit-789f.py",
+  "scriptSHA256": "4938d26273a72b16185af28c185ea304771a4c91cea0054b1a538de1ef0993ad",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--weak-driver",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--cubic-helper",
+    "{scripts}/2026-11-16-r150-critical-weak-cubic-positive-jets-789f.py",
+    "--high-driver",
+    "{scripts}/2026-11-16-r150-critical-complete-high-number-field-seven-789f.py",
+    "--field",
+    "e8",
+    "--parent-out",
+    "{work}/critical-e8-weak-quadratic-positive-jets",
+    "--parent-receipt",
+    "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+    "--high-out",
+    "{work}/critical-e8-complete-high-number-field-seven",
+    "--high-receipt",
+    "{scripts}/43756208221-critical-e8-complete-high-number-field-seven.json",
+    "--high-receipt-sha",
+    "ce2556100ea766678d9f8a84f6113a0f9c8fcb74221bb4b9e14a53f44cf125c2",
+    "--high-receipt-bytes",
+    "12248",
+    "--out",
+    "{work}/critical-e8-complete-first-exit",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 330,
+  "exitCode": 1,
+  "wallSeconds": 28.724298353999984,
+  "fullTemporaryReceiptBytes": 2227,
+  "fullTemporaryReceiptSHA256": "814c21d483a354e5398bba1935418c78cf5b0239113689c82963d100523357f0",
+  "result": {
+    "binding": "60419855f26164ad652d38a00de0f467bc69722e9a558020611cc7ecc7b6e2d2",
+    "elapsedSeconds": 27.200034863999463,
+    "format": "r150-critical-complete-first-critical-exit-v1",
+    "scriptSHA256": "4938d26273a72b16185af28c185ea304771a4c91cea0054b1a538de1ef0993ad",
+    "status": "started",
+    "parameters": {
+      "all1870OriginalExitSpanningCoordinatesVerified": true,
+      "allParentsReadOnly": true,
+      "checkpointManifest": {
+        "bytes": 5769,
+        "file": "checkpoints/manifest.json",
+        "sha256": "e1c1dc7fac528cce31bbed18e409f4e7763a4ad0bc8296f28c1167eb9e80cfee"
+      },
+      "completeExitSpanningMapSHA256": "ff2b4131818a6df711a323250fff74f7a1567b859520347b35ca4f8250e94d76",
+      "connectionRankNotPrespecified": true,
+      "currentPhase": {
+        "name": "constant-profile",
+        "step": 14
+      },
+      "field": "e8",
+      "helperSHA256": {
+        "field_helper": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jet_actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "low_generator": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+      },
+      "highParent": {
+        "binding": "89b91030231d050f82cf672b48a8847744fad4c1bc90e2d306bfe84f8eacbcec",
+        "bytes": 12248,
+        "checkpoint": {
+          "bytes": 9265973,
+          "file": "complete-original-number-field-high-kernel-937074a3a6ea29a14b2d9fb8df037819efbc0434956486f4e0781be3a378f3e0.json.gz",
+          "payloadSHA256": "937074a3a6ea29a14b2d9fb8df037819efbc0434956486f4e0781be3a378f3e0",
+          "sha256": "b78cbb15a35aae4253495b4af0baa00f0b3d515508cb1d21a73b159489c31d31",
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "manifest": {
+          "bytes": 3484,
+          "file": "checkpoints/manifest.json",
+          "sha256": "9333e2b88ec31fa65e3f323c993eb9ad0bd1d66a3bd752b1bb065b991f4d0008"
+        },
+        "sha256": "ce2556100ea766678d9f8a84f6113a0f9c8fcb74221bb4b9e14a53f44cf125c2"
+      },
+      "largeDataTemporaryOnly": true,
+      "memoryMiB": 2048,
+      "parent": {
+        "binding": "6b2bd281d07a3796c302c5ca8a09d00f22433fb9501c62ff0df682733d8ce7f5",
+        "manifest": {
+          "bytes": 10411,
+          "file": "checkpoints/manifest.json",
+          "sha256": "555f91cb50825c78aec5bafc8289bc277fd9f8a30e76a775f7aaa33bf49fdcf3"
+        },
+        "rawBytes": 14267,
+        "rawSHA256": "dc8f194bbc11634cf60b3b40968ff3123d2cd60f61a87a752e7925e8744c90f7",
+        "receiptBytes": 29037,
+        "receiptSHA256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+      },
+      "remainingSeconds": 300.0
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:23:40 UTC",
+      "beforeReadCommit": "2268ca3c926a04cb4b496bd8f020b93b4d4c2233",
+      "originMainAfterPull": "baa2a6aad7505f09a1b8327a4e4c806990401ae8",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:24:09 UTC",
+      "beforeReadCommit": "baa2a6aad7505f09a1b8327a4e4c806990401ae8",
+      "originMainAfterPull": "76e7aa2b46d97b1d2516d2843b8a1515887fe21b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 67,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 22982,
+    "logicalJsonSHA256": "e3a78ef1ff0b87f6ffb393e4e3a135c9877e2fb6bbfb604f93928f3dda315ad2",
+    "itemCount": 67
+  },
+  "lastRulesReadCommit": "76e7aa2b46d97b1d2516d2843b8a1515887fe21b",
+  "summaryExcludesRecomputableArraysOnly": false
+}
