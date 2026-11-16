@@ -54,7 +54,13 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [完整闭账](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)：原SLSQP0/true、54iter/70值/52J，K16.393442622950822、h26.075975493509613；准确盒/norm与两网曲率/PSD/area都真，细η.26600531463999494仍高于严格budget.26600531463999305，故qualified false、0预测/actual，仍58。新115.53521002299999秒/70q/52J/1248blocks，累计3757.97482037秒/147原full值；余额1684.464789977闭。10原记录完整，小raw64/168/172正文存在，大J/几何仅bindings；末J属于value69，不是返回value70。0磁盘，全部原失败与账保。
 
-下一同时开放106个前缀/其它方向与62个后缀方向，在原完整168场内共同处理全body约束和全后缀，内部明确严格metric余量而不放松原接受门。不是延长/重启该scope，不把极小metric超额改判true。新全body值、所需J和全域当前几何尚未支付，须在新公开范围计费；原失败向量只能作明确未接受数据，不授59、连续reach或全题完成。
+### joint168：完整168控制的共同body/suffix正式新问题
+
+[设计](notes/true58-joint168-body-suffix-design-20261116.md)与[模型合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)已写成并随request正式发布，尚无科学观察。唯一true58初点z168=0/K58/h0；独立RN后原exact-null physical172，全部172真实norm行/692线性行保。原4454/4549池v15/14的9003行含全部11组，加全部21后缀两角网145152行，共154847×170。主体hard58、后缀共享K；内部metric额外准确1e−8只供求解，返回全域unsmoothedη严格比较原budget，不更改原14门。
+
+一次1800科学秒/1200solver秒/240iter/480不同q/960不同backend170；新基准frame/Π、完整height/body准备、共享全域几何与当前解析J全付。只有literal已付firstjets/selected二jets/metric与q_R scalar绑定，未存旧大数组不造；当前RAM、淘汰真重算计费。所有组件计数/秒数和逐value/J身份/成本差分保，组件细事件只末32明确标范围，失败与全部原OptimizeResult/raw170不删。
+
+request 91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96，保382旧hash再加13源，共395；8py/workflow/设计/合同与父full62request/闭账绑定。祖3757.97482037秒/147值；原后端成功+selected/全后缀/全域eta/准确172盒norm必要门真才一次canonical全body预测，再至多1原actualpair。无新接受前仍58，不复开full62、借失败raw当初点或追认极小旧超额。公开job先真pull双仓读差异，完成后读取原stdout闭账；新scope预算不是主题停止点。
 
 ## O4：完整真实第四成本与新首阶机制
 

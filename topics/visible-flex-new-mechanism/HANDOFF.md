@@ -52,9 +52,9 @@ R549准确三p=p2(u²+h⁻²,2u,1)，正负质量须匹配均值和二阶矩；�
 
 **O2**旧ring/反射/joint/free36/prefix102/whole34/full51均闭、0actual；原失败/缺失正文/完整费用见各notes，不重跑。最新full62如下。
 
-**full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43。原SLSQP0/true、54iter/70值/52J，K16.393442622950822/h26.075975493509613；准确172盒/norm、两网曲率/PSD/area真，但细η.26600531463999494>原budget.26600531463999305，严格metric false，0预测/actual仍58。新115.53521002299999秒/70q/52J/1248blocks，总**3757.97482037/147**，余额1684.464789977闭。10原记录完整、raw64/168/172真返回保；末J在value69，不移配返回value70；大数组仅bindings、0磁盘。
+**full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43。SLSQP0/true但fineη.26600531463999494>budget.26600531463999305，0预测/actual仍58。原完整返回/准确盒/norm/两网其它门及缺失数组边界全保；新115.53521002299999秒，总**3757.97482037/147**，余额闭，末J属value69不移配返回70。
 
-下一**完整168联合前后缀**：同原场/盒/14门，付全body约束与62后缀共同修复并明确内部严格余量。原62 scope不续跑；原失败raw可作标明未接受数据，不能追认59或借缺失J免费。当前正做新源级问题，尚未执行。
+**joint168正式新scope已发布，等待原run定位/终态**：[设计](notes/true58-joint168-body-suffix-design-20261116.md)/[合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)。唯一true58、168控制+K/h共170，完整172准确图/692线性；全部9003原selected11行与145152后缀行联合，共154847×170。内部1e−8余量仅solver行，终门原budget/14不变。1800总秒/1200solver/240iter/480q/960backend，1session无restart；全部新共享几何/J计费，当前RAM/0科学数组盘。request91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96，395源，raw170全部真返回保；原成功且同点全域η/selected/后缀/准确门合格才≤1canonical预测及≤1actualpair。0本地科学/预检；旧失败向量不作初点，主门未授。
 
 **O4**分别继续33母的同χ慢t1/其余矩，以及R521母R557的同χ余三矩。全部端germ、M/T/V、pose、period与原13规范须由同一实际路径支付；不跨母、不逐段换χ。
 

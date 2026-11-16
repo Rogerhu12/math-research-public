@@ -339,3 +339,9 @@ full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/rese
 ## 2026-11-16 17:51 UTC：R560同χ短快高度反馈及完整有号面积费用
 
 [R560](results/R560-same-gauge-short-fast-height-feedback-and-complete-signed-area-cost.md)完整原式纸证，同支原F/τ²和全部m方程真付h_s=κBk/两端γ0；正面积Θτ⁻³、Φ净降Θτ⁻¹及准备负费保。原两hold实际C¹/IFT可保持末p2零/Π负，入B正与h增加不混零入版本；只排该短快类。root全文已读，0科学执行，立即推并接R561实际长程返回；H完整旧条件保固定链接。
+
+## 2026-11-16 17:53 UTC：正式发布完整168联合body/suffix新科学问题
+
+[设计](notes/true58-joint168-body-suffix-design-20261116.md)/[合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)：170后端、168原控制、完整172/692线性、9003原selected11+145152suffix，共154847行；内部准确1e−8严格余量不改原终门。唯一true58，1800/1200秒、240iter、480q/960backend，一次solver，祖3757.97482037/147。8py与原接口仅源码文字接线，0执行/编译/测试；来源91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96共395hash。
+
+workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外仅因本题获授权的公开Actions研究与其完成后stdlb只读报告所需；push本request唯一触发。两job均先真pull双仓核差异，私有凭据进入科学前清除。所有新几何/J/输入/失败/输出计费，大数组只RAM/实际bindings不作未来免费输入；全原raw170与真实失败保。旧full62失败不改判，待原run定位/终态，不宣59或主门。
