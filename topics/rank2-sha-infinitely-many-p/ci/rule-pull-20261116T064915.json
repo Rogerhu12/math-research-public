@@ -1,0 +1,48 @@
+{
+  "receipt": {
+    "kind": "rank2_actual_ci_git_pull",
+    "actual_git_pull_success": true,
+    "utc": "2026-11-16 06:49:15 UTC",
+    "head": "3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d",
+    "last_rules_read": "ae2e0a767532aa6137cfdf984b9bb51da98a0bc8",
+    "request_id": "rank2-20261116T0650-rule-pull",
+    "readme_blobs": {
+      "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+      "topics/rank2-sha-infinitely-many-p/README.md": "965ab236bbd6753acb812b45fcc36ae9b6f83b3c"
+    },
+    "rules_changed": false,
+    "scope": "read-only sparse CI checkout; local workspace remains separate",
+    "run_id": 43819386041,
+    "job_id": 133138705719
+  },
+  "inventory": {
+    "kind": "rank2_rule15_inventory",
+    "head": "3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d",
+    "tree": "4e85305fb1181a81047f84c4af054e9d799f9ced",
+    "blob_count": 2341,
+    "total_bytes": 31877320,
+    "limit_bytes": 200000000,
+    "over_5mb_count": 0,
+    "part_count": 3,
+    "over_5mb": [],
+    "parts": [
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part1.json.gz",
+        "bytes": 168504,
+        "sha": "06f09ff4eda50214dd39f1d88837152dc49cb01f"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part2.json.gz",
+        "bytes": 1243805,
+        "sha": "22d9a8ffd7287d542f5e4786940dd9193dc0e499"
+      },
+      {
+        "path": "scripts/check-jzero-weighted-conductor-integral-part3.json.gz",
+        "bytes": 4431413,
+        "sha": "a911a1fdddbdfe5758a79e3969a409c7121f2e27"
+      }
+    ],
+    "lists_complete": true
+  },
+  "next_actual_pull_due": "2026-11-16 07:35 UTC"
+}
