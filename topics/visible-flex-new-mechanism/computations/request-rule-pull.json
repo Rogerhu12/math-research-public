@@ -1,7 +1,7 @@
 {
-  "request": "visible-new-mechanism-ref-race-actual-rebase-20261115-2316",
+  "request": "visible-new-mechanism-ref-race-actual-rebase-20261116-0010",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Immediately perform actual git pull --rebase after the rejected conclusion ref update; review only changed README text in both repositories and verify QUEUE ongoing; no research rerun.",
+  "goal": "Actual public/private git pull --rebase immediately after the rejected direct-reference repair request; review README differences before reapplying that same request.",
   "expected_readme_blobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
@@ -19,10 +19,10 @@
   "old_work_replay": false,
   "payload_publication": false,
   "completion_claim": false,
-  "triggering_ref_race": {
-    "parent": "b77807061ada16be6b9dc3e07c0fae438a227557",
-    "unconfirmed_commit": "68fcf4067138ed54e751844bf59984cde2402697",
-    "advanced_head": "1c20f2633e7e48a1819c818d92628f155ea8511b",
-    "at": "2026-11-15 23:15:52 UTC"
+  "rejected_publication": {
+    "parent": "339093f5b0645ab62ffe9d819e0f227c89026442",
+    "unpublished_commit": "b7e9c387de8bb209a4c929711794c5ef1c3bb1e3",
+    "observed_advanced_head": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+    "rejected_at": "2026-11-16 00:10:03 UTC"
   }
 }

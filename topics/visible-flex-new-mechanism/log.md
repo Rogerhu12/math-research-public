@@ -366,3 +366,8 @@ Astra-new-mechanism-9974ea84：[direct首次九项与入口停止](notes/direct-
 ## 2026-11-16 00:09:50 UTC｜修复primitive order来源并接已付九项复用与同任务时钟
 
 Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_audit.py（41328B/hash8008a7f92024bd745107784647fd1502a78ab3c5978dba3221abbebc66fc4eee）；workflow（4316B/hash24c9dba46d1213ef385d6b6916edf8c5f6e2aab46021700a904b7b7695f8fd25）。根全文读修复diff并回原Bounded/fixed primitive及原audit实参来源；唯一生产调用变化是读取原物理对象的order并核同fixed order，无default/cfg/几何/门变更。新增只读首失败log/161manifest/152源及3×3真verdict，151Python不变，developer_check调用彻底删。13.756976061000046s在必要读取前继承同1800钟；process/import/dev另列不双计，旧241s仍祖先账。无研究或开发重跑；先安装后单独请求。基底88b6ea9b626b80d8339daf5f90b3624fd998ccfb。
+
+
+## 2026-11-16 00:10:55 UTC｜direct修复请求遇并发ref，立即请求真实rebase
+
+Astra-new-mechanism-9974ea84：expected 339093f5b0645ab62ffe9d819e0f227c89026442 上创建待发b7e9c387de8bb209a4c929711794c5ef1c3bb1e3，update_ref返回服务错误后实际main已到d7f324a0c7dbbeeb96f70af965f719c1fc739db4；未确认发表，不重试旧lease、不force。立即借既有纯规则lane实际git pull --rebase双repo并核双README，随后重建同一修复request；本请求不执行研究/开发。基底04640c17c3d30e460772df177652cfb64b216e15。
