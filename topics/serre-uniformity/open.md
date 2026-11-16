@@ -11,11 +11,15 @@
 
 **R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。
 
-**R893初始RR执行已激活**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。所有新数学仅公开Actions，真实run/阶段据回执登记；未预判任何核成功。
+**R893初始RR实际运行成功，详细认证在读**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。实际run43861874528/632stage/131源已success，全部五初始RR为true；正在以必要小IO取原五A/B、全纤维值与真实节点，完整细项读后单独登记。
 
 **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。
 
 **R890原Ef有界代表与固定t首项实际已成**：[认证](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)，八个完整962/146/418与原未缩放q/F全成。Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902、阶−1205；t正乘c^1205。56旧源/9228stage、run43853462674；R894复用D2/E而只新16节点，R896按共同节点复用7正常评价，不推其他六Ef或五Lj/height。
+
+**R898完整原Cartan与整period源已证**：[完整证明](results/R898-original-full-Cartan-and-integral-primitive-period-source.md)保单factor三相位及det nonsquare coset，真整Π0与实际商Gauss源给36维整同构J_h。原Tζ和split一起搬运，真实chirp不可删；原Gram单位分母证明β整且β̄=P_(h−1)(1/s)/P_(h−1)(0)，Z_h=βJ_h的指定J32正是原same-h Legendre·fi·gj乘积及显式单位。指定primitive jet非零与原模曲线/height格桥仍缺；H含k系数用代数GL2(k)恒等式，Frobenius-Hermitian/det半周期全部保留。
+
+**R894执行已激活**：[方法](notes/R894-original-seven-conjugate-trace-execution-method.md)冻结core9a2793c7/wrapperbcf31979，真实R890与六D小intake及56原源绑定；复用D2/E/七正常与14旧H/E纤维，只新16flip。完整见证闭包保留，闭合后扫描中间文件只留hash史；尚无新实际flip/下降矩阵或K-fixed基。
 
 ## O1：主要目标（OPEN）
 
@@ -60,8 +64,8 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 |R815原准确导子|43853995004 / 133253466821|g已准确认证，Γ继续；不独立重构Mh|
 |R854原41响应N112|43832705685 / 133181715849|原N56真NeedPrecision/depth55两端rank0；仍待真单位逆界和四响应球|
 |R787半坐标dual|43823979328 / 133153392094|370/371后七支17920RR及全35840乘回；不以RR失败拒q|
-|R890原Ef八flip|43853462674 / 133251774019|三旧418/七完整纤维直接复用，实际新962/146/418及原首项待成|
-|R880六共轭D*|43857317518 / 133264906689|230已成原件/真实σ次序/固定原图；六个新418及首项待成|
+|R890原Ef八flip（已成）|43853462674 / 133251774019|正式结果已登记；R894复用D2/E，R896复用共同正常节点|
+|R880六共轭D*（已成）|43857317518 / 133264906689|六个新418及原ρ首项已登记；R893/R894直接消费|
 
 全部持续同核原子续接；运行结束只从真实完整manifest、current、core停止原因判断下一请求。预算退出不作数学否定，已完成目标和块直接复用。
 

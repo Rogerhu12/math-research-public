@@ -103,6 +103,7 @@ def read_source(row, work, output):
                     or (n.endswith("-certificate.json") and fs[n]["bytes"] < 2000000)
                     or ("stage-manifest" in n and fs[n]["bytes"] < 20000000)}
         names = set(metadata)
+        auto_full, auto_summary = [], []
         mode = row["mode"]
         if mode == "ended":
             names.update(n for n in fs if fs[n]["bytes"] <= 5000000 and
@@ -118,6 +119,47 @@ def read_source(row, work, output):
                 names.add(name)
             for wanted in row.get("known_file_pins", []):
                 assert fs[wanted["file"]] == wanted
+        elif mode == "R893_complete_required":
+            final_name="p41-original-five-sum-Hom-complete-initial-RR-certificate.json"
+            assert fs[final_name]==row["certificate"]
+            fetch(metadata)
+            final=m.read(out/final_name)
+            assert final["complete"] is True and final["all_five_complete_initial_RR_spaces_certified"] is True
+            assert final["completed_directions"]==[1,2,3,4,5]
+            def take_refs(refs):
+                selected=set()
+                for ref in refs:
+                    assert ref.get("source_group") is None
+                    pin=m.plain(ref)
+                    assert fs[pin["file"]]==pin
+                    selected.add(pin["file"])
+                fresh=selected-names
+                fetch(fresh)
+                names.update(selected)
+                return [m.read(out/ref["file"]) for ref in refs]
+            cert_refs=[final["complete_initial_RR_certificates"][str(j)] for j in range(1,6)]
+            certs=take_refs(cert_refs)
+            take_refs([final["source_audit"]])
+            auto_full.append(final["source_audit"]["file"])
+            for j,(ref,cert) in enumerate(zip(cert_refs,certs),1):
+                assert cert["j"]==j and cert["complete_initial_RR_space_certified"] is True
+                auto_full.append(ref["file"])
+                selected,A,B,minor=take_refs([cert["source_complete_fibres"],cert["complete_A_kernel"],
+                    cert["complete_B_kernel"],cert["source_original_unit_minor"]])
+                auto_full.append(cert["source_complete_fibres"]["file"])
+                auto_summary.extend(cert[k]["file"] for k in
+                    ("complete_A_kernel","complete_B_kernel","source_original_unit_minor"))
+                take_refs(A["source_complete_yB_fibre_values"])
+                take_refs(cert["all_original_fibre_relation_certificates"])
+                singles=take_refs(selected["full_fibre_sources"])
+                assert [single["z0"] for single in singles]==selected["nodes"]
+                node_refs=[single["source_complete_fibre"] for single in singles]
+                nodes=take_refs(node_refs)
+                for node_ref,node in zip(node_refs,nodes):
+                    assert node["usable"] is True
+                    if "source_new_Krylov_matrix" in node:
+                        take_refs([node["source_new_Krylov_matrix"]])
+                    auto_summary.append(node_ref["file"])
         elif mode == "R800":
             names.add("R800-retained-producer-inputs.tar.gz")
             names.update(n for n in fs if "index" in n and fs[n]["bytes"] < 2000000)
@@ -168,10 +210,11 @@ def read_source(row, work, output):
         if item.get("core_sha256"):
             assert ini["core_sha256"] == item["core_sha256"]
         special = {}
-        for n in row.get("print_json_files", []):
+        for n in sorted(set(row.get("print_json_files", [])+auto_full)):
             assert n in names
-            special[n] = m.read(out/n)
-        for n in row.get("print_json_summary_files", []):
+            v=m.read(out/n)
+            special[n] = {k:x for k,x in v.items() if k != "configuration"} if isinstance(v,dict) else v
+        for n in sorted(set(row.get("print_json_summary_files", [])+auto_summary)):
             assert n in names
             value = m.read(out/n)
             assert isinstance(value, dict)
