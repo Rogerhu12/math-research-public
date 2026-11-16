@@ -1,0 +1,87 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43926933406",
+  "stepId": "original-weight10-full-macaulay600-resume2",
+  "executionSourceCommit": "0f8650077a211c94bd3f7d02e44a9bfaa10b5af0",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-full-macaulay127-789f.py",
+  "scriptSHA256": "fcfdc0a05b35952a27ac05f84fe1752e6cb157d5ec387741c0bce9b470eb3aa1",
+  "argvTemplate": [
+    "--native-source",
+    "{scripts}/2026-11-16-r150-original-weight10-full-macaulay127-789f.cpp",
+    "--checker-source",
+    "{scripts}/2026-11-16-r150-original-weight10-full-ordinary-verifier127-789f.cpp",
+    "--controls-driver",
+    "{scripts}/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+    "--bitplane-header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--prepared-source",
+    "{scripts}/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--chart-source",
+    "{scripts}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+    "--producer-source",
+    "{scripts}/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+    "--vector-helper",
+    "{scripts}/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+    "--prepared-out",
+    "{work}/original-delta-weight10-homogeneous127-runtime",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--mean-out",
+    "{work}/original-mean-first-frontier127",
+    "--weight8-out",
+    "{work}/original-complete-weight8-frontier127",
+    "--producer-out",
+    "{work}/original-two-round-complete210-sources127-v2",
+    "--controls-out",
+    "{work}/weight10-macaulay-controls127",
+    "--out",
+    "{work}/original-weight10-full-macaulay127",
+    "--through",
+    "final",
+    "--seconds",
+    "900",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 960,
+  "exitCode": 0,
+  "wallSeconds": 613.557476602,
+  "fullTemporaryReceiptBytes": 7111,
+  "fullTemporaryReceiptSHA256": "18d153d4004127805dbdb80aad8c50008025be7d31fc85a25c7c51360ecee54e",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 18:32:55 UTC",
+      "beforeReadCommit": "ba09b5002fdb874434e1e4cefb234c2f85179a5a",
+      "originMainAfterPull": "0f8650077a211c94bd3f7d02e44a9bfaa10b5af0",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 18:43:09 UTC",
+      "beforeReadCommit": "0f8650077a211c94bd3f7d02e44a9bfaa10b5af0",
+      "originMainAfterPull": "4d75dba499bc8f74ce8a417fa1474dbe0894b621",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 24,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 8233,
+    "logicalJsonSHA256": "eb6d16ddb3374387ff1a859c08846f57d6e8ef6c86c364f3dc2111b440b56c02",
+    "itemCount": 24
+  },
+  "lastRulesReadCommit": "4d75dba499bc8f74ce8a417fa1474dbe0894b621",
+  "summaryExcludesRecomputableArraysOnly": false
+}
