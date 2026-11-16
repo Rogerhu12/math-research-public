@@ -1,0 +1,120 @@
+{
+  "kind": "normalizer_periodic_kernel_refinement_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_sha256": "67d54e08d0c72583f198285ef555bb5dc55b2984d4708f9d65044c925a6c3a08",
+  "scientific_source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_normalizer_periodic_kernel_refinement.py",
+  "scientific_source_sha256": "67d54e08d0c72583f198285ef555bb5dc55b2984d4708f9d65044c925a6c3a08",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-normalizer-inverse-from-periodic-weighted-kernel.md",
+  "contract_sha256": "1ab985bcc97d40c63ab7ea0163746256cf9edc3d79233d990ca0189fa39b57b9",
+  "input_read_commit": "7e2c8dd022f730aad49bbe283834da515afc3951",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "mathematical_parameters": {
+    "arithmetic_bits": 320,
+    "original_NW_run": "43775614821/1",
+    "physical_frequency_factor": 4,
+    "physical_period": "pi/2",
+    "continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "continuous_response_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+    "selected_parameter_absolute_upper": "0.00000000009368259853002",
+    "selected_common_input_order": "S = U_H_inverse U_X_minus = U_(X_minus o H_inverse)",
+    "only_same_selected_actual_parameter": true,
+    "independent_physical_mean_coordinates": 2,
+    "actual_normalizer": "N=Id+M_w I",
+    "exact_primitive": "p=I w; mean(w)=mean(p)=0",
+    "complete_windows": [
+      "L2",
+      "H^(-4/3)"
+    ],
+    "adjoint_intermediate_window": "H^(1/3)",
+    "kernel_length": "pi/2 ordinary Lebesgue, normalized L2",
+    "kernel_bracket_absolute_upper": 1,
+    "expected_actual_gate_count": 18,
+    "current_input_count": 7,
+    "saved_scalar_records": 13,
+    "old_successful_scientific_calls_allowed": 0,
+    "new_exponential_evaluations_allowed": false,
+    "new_logarithm_evaluations_allowed": false,
+    "complete_C_E_supplied": false,
+    "complete_physical_incoming_or_finite_inverse_or_return_claimed": false
+  },
+  "expected_actual_gate_count": 18,
+  "input_paths": {
+    "new_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_normalizer_periodic_kernel_refinement.py",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-normalizer-inverse-from-periodic-weighted-kernel.md",
+    "NW_execution": "topics/visible-flex-exact-nearby/notes/cohomological_normalizer_windows_sign_ci/run-43775614821-1/execution.json",
+    "NW_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cohomological_normalizer_windows_sign.py",
+    "NW_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md",
+    "CN_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md",
+    "PIB_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md"
+  },
+  "current_text_input_roles": [
+    "new_source",
+    "contract",
+    "NW_execution",
+    "NW_source",
+    "NW_contract",
+    "CN_contract",
+    "PIB_contract"
+  ],
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "all_inputs_are_current_small_texts": true,
+  "old_scientific_source_files_are_identity_evidence_not_imported": true,
+  "old_NW_or_PIB_budgets_recomputed": false,
+  "new_exponential_or_logarithm_evaluation_allowed": false,
+  "new_reproducible_data_persistence_or_artifact_upload_allowed": false,
+  "output_scope": {
+    "same_complete_normalizer_not_individual_principal_factor": true,
+    "two_weighted_means_and_two_physical_means_retained": true,
+    "ordinary_Lebesgue_length_pi_over_two": true,
+    "one_new_saved_exponential_square": true,
+    "no_new_exponential_or_logarithm": true,
+    "two_complete_norm_windows_with_whole_choices": true,
+    "complete_global_second_sign_commutator_retained": true,
+    "four_conditional_affine_coefficients_as_one_complete_candidate": true,
+    "complete_C_E_supplied": false,
+    "physical_incoming_inverse_or_finite_Schur_or_full_return": false
+  },
+  "file_count": 7,
+  "total_pinned_input_bytes": 160477,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/cohomological_normalizer_windows_sign_ci/run-43775614821-1/execution.json",
+      "bytes": 35204,
+      "sha256": "1e327e83dafb5d09ec98acc6ba887ae28962a7f242be7e82692a864c2f93cb0b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-cohomological-normalizer-windows-and-global-sign-correction.md",
+      "bytes": 19754,
+      "sha256": "1469fdd05417284743e7857aabe0324ee67ccb1b7dbaa003461364d8c9447938"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-normalizer-inverse-from-periodic-weighted-kernel.md",
+      "bytes": 11251,
+      "sha256": "1ab985bcc97d40c63ab7ea0163746256cf9edc3d79233d990ca0189fa39b57b9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-principal-inverse-adjoint-bootstrap-from-L2.md",
+      "bytes": 11316,
+      "sha256": "2d74b71c0584cb5ec1af849b6fb5756e48da58bf313d72be62d582d557d23acb"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-full-circle-subprincipal-normalizer-and-strong-remainder-budget.md",
+      "bytes": 15615,
+      "sha256": "427387a2f3836d95b5f79546f0c6d41e8d6307abbb76611073d2801364fda9db"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cohomological_normalizer_windows_sign.py",
+      "bytes": 36682,
+      "sha256": "c8352847b0bd8df141c4aeb97d4dab372b807d7d18546d2b93659f95011cd75f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_normalizer_periodic_kernel_refinement.py",
+      "bytes": 30655,
+      "sha256": "67d54e08d0c72583f198285ef555bb5dc55b2984d4708f9d65044c925a6c3a08"
+    }
+  ]
+}
