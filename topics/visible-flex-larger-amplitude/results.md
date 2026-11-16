@@ -114,3 +114,7 @@
 ## R550 — 同root已接受完整求值的一次复用与真实compiler接口
 
 **已证明完整有限程序条件保持及实际来源/接口；新科学结果未付。** [R550完整证明与接口](results/R550-same-root-accepted-complete-evaluation-reuse.md)26142/ca1e连header7311/8610、adapter16634/66c2、plan12303/14b5共四件62390B。原accepted完整RootEval仅同root下一iterate消费一次，全summary/residual/十词angular finite及形状资格失败只回原求值；初始和全部trial、原方向/taped solve/shadow checks、root30×20/owner32×10和全部门保。primal25794/40e8、trace35565/8224按6/5完整literal及逆仅Actions生成，原compiler3860/be01→5781/4a0a四literal，真原scope一次直接安装，R535只作为完整source祖先。原persistentCPP22364/7789及main/solve/replay、原g++/300s/PGID/19200/allcaps保；准备/安装/真实g++成功范围分列。两路径13实际计数/full last、原RootStats和R535完整统计保，不伪造省去工作，不声称资源前沿/速度/fit相同。R551/request232/R552另实际真接并修R543诚实新字段；现有运行不改，非完整112/338/450完成。
+
+## R549 — actual231当前契约遗漏、来源必要超限与实际保留
+
+**已证明本次真实终态、已返必要与源码控制流；未付数值接受。** [R549](results/R549-actual231-declared-model-contract-and-source-readback-overflow.md)30740/5e79，run43865772589/head05ae，compute133293818912 failure/report133300575212 success，两日志geometry各唯一。387源实际准备385109/c78b complete=true/exit0；source必要102413/df6e超90K，只返1368/b358/70，而科学45129/a1a5完整。原fresh withJ/norm14074125.72142333返回后system本run旧字段KeyError，QR.196153913s、owner/compiler/cache/replay/model/FD/fullDN全未起，不推缓存收益或tol失败。全原错误/未访/29missing/八空catalogue/资源与两正文身份保；三registry quiet真，但cleanup实际removed=false，原source范围不完整，留raw至runner销毁，无accepted父。新层须实读完整旧overflow并核identity，保旧70与false，再具名完整逆返回，不抬限或从SHA补未返。
