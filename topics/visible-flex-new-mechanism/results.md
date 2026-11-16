@@ -440,3 +440,5 @@
 - [R478：临界幂完整复余量非零与真实光滑正近似](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)（已证明）：唯一八次原primitive保真左常数；若复根零则A³整除，四系数严格矛盾。完整L−P端项给C²连续，再由v''正密度/简单Af根得到有限光滑允许cap非零；未判冻结ψ3及五门可消。
 
 - [R477：真实cap单门正常方向与剩余四门的局部开放像](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)（已证明）：长微小正尾加三累计准确匹配保原根整germ，得Δ6正则根；任意内部开窗/任意小jet邻域的多项式论证、五个分离高阶脉冲和真normal纠正给同Δ6=0纤维内四门submersion。只有实际中心附近开放，未证明0可达或完整共同关系。
+
+- [R476：完整第三核在不交rank-one圆上逐函数不可见](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)（已证明）：R261完整同锚局部核及三右零常数给Z在P³上全函数0。真实A0/T∈Z块保持整个incoming a,b，任意重复内部ruling相同；R80可实现真实有限Z分配。完整第四V/一般a规范项和单份K0、A≠0子桥保留；全W剩余门仅经ΔW18因子化。

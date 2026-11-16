@@ -169,3 +169,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### 四cut输入分类修复：同一个600秒账户继续
 
 [准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run43826338594/research133160965959/source de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5正在执行。闭合或失败后继续真实下一子题，所有几何完成门保持。
+
+
+### R476：Z块完整重复漂移已消，单份内部方程仍欠
+
+[完整证明](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)对真不交rank-one平面P，任意τ∈Z=kerΔ都有τ(P;P,P)=0作为全区间函数；局部A_vv=0、齐次二次与三右零常数均保，不仅三个外矩。于是实际A_B=0/T_B∈Z块对任意真实incoming a,b原样传递，任意重复的每个内部位置K_j=K0；可以原R80真分配有限Z目标并令总T=τH。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P；不能删基准或把整个块结论下放给A≠0子桥。全W仅因子化ΔW18，旧库quartic门未免费支付。R480继续完整有限观测增强；所有路径仍同一13核、一个最终规范。

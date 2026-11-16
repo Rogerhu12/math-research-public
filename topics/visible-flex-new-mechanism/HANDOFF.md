@@ -34,7 +34,9 @@ R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有
 
 [R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台列须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix，全周期M0不付相对门。
 
-[R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)：Reach3(A)=Tend−A²/2+W，真桥可同时付相容A/T前缀。任意同常端G有B使P=GB整A=T0，P^qG同向保护芽共整个incoming，条件接R468/R467并保全部新增V。内部K=K0+B(a)−E(a,a)+2E(φ,b)，重复号保完整二次系数；整复位只使副本相同。λ+(VP)=∫k²>0与∫kh(ω−ωc)=∫k²迫新ω段，全s同一13核仍欠，R476继续第三prototype重复系数。
+R472给Reach3(A)=Tend−A²/2+W，真实返回桥付相容A/T；P=GB整A=T0使同向芽incoming一致。内部K=K0+B(a)−E(a,a)+2E(φ,b)必须全保；λ+(VP)>0与八矩迫返回桥经过新ω，全s同13核未付。
+
+[R476](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)由R261同右锚局部算子 A_vv=0 与三右零常数，证完整18维Z在不交rank-one平面P三槽上逐函数0。真A0/T∈Z块对任意incoming a,b均原样传递，所有重复副本内部K相同；原R80可真分配这些Z块。完整第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P不能删。单份K0及A≠0子桥仍欠；全W仅经ΔW18因子化，R480继续从起点增强有限观测。
 
 actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
@@ -52,4 +54,4 @@ actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [原分类修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)已推request触发唯一续run43826338594/research133160965959/source de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5，正在执行。原classify证明support外metric导数0，5743可变行逐序/全部installed hash仍硬匹配；四cuts/原全网约束不删。首失败clock与事件读原log继承，同600秒elapsed=已付36.79963991600005+当前全部工作；保原restore debit1，因未导出context而另明列修复恢复1。全部finite/JVP/gradient/scalar/actual配额不重置；0旧finite/J/源ordinary重算。5源码/241绑定，request54701B/23a9bc66…；合格才原guard/14门，全部payload只原stdout。
 
-理论R477已付正则单门与四门局部开放，R479继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476解同一w全s重复，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。
+理论R477已付正则单门与四门局部开放，R479继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476已付Z块全s重复无漂移，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。
