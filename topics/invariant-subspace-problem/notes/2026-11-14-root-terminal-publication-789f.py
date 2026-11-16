@@ -33,7 +33,7 @@ def main():
     environment.update(GIT_CONFIG_COUNT="2",
       GIT_CONFIG_KEY_0="http.https://github.com/.extraheader",
       GIT_CONFIG_VALUE_0="AUTHORIZATION: basic "+auth,
-      GIT_CONFIG_KEY_1="credential.helper",GIT_CONFIG_VALUE_1="")
+      GIT_CONFIG_KEY_1="credential.helper",GIT_CONFIG_VALUE_1="",GIT_EDITOR="true")
     state={"format":"isp-root-real-terminal-publication-v1","status":"preparing",
       "runId":run,"runAttempt":attempt,"sourceCommit":source,
       "branch":os.environ["GITHUB_REF_NAME"],"message":request["message"],
@@ -108,8 +108,33 @@ def main():
                 print("ISP_RULE_DIFF_BEGIN\n"+diff+"\nISP_RULE_DIFF_END",flush=True)
                 raise RuntimeError("Root must read and apply this actual README difference")
             if code:
-                state["status"]="stopped-pull-rebase-error";save()
-                raise RuntimeError("Actual pull/rebase failed; prepared branch remains preserved")
+                conflicts=git("diff","--name-only","--diff-filter=U")[1].splitlines()
+                if conflicts==[ROOT+"HANDOFF.md"]:
+                    # The concurrent calculation worker changes only the rule-read marker.
+                    # Retain the automatic merge of every other line; never choose a whole side.
+                    handoff_conflict=Path(ROOT+"HANDOFF.md")
+                    merged=handoff_conflict.read_text()
+                    marker=re.compile(r"^- \*\*最近成功实际 pull 与已读规则提交：\*\*[^\n]*(?:\n|$)",re.M)
+                    conflict=re.compile(r"^<<<<<<< [^\n]*\n(.*?)^=======\n(.*?)^>>>>>>> [^\n]*(?:\n|$)",re.M|re.S)
+                    def keep_merged_rules_marker(match):
+                        left,right=match.group(1),match.group(2)
+                        if len(marker.findall(left))!=1 or len(marker.findall(right))!=1 or marker.sub("",left)!=marker.sub("",right):
+                            raise ValueError("HANDOFF conflict includes content beyond the rule-read marker")
+                        return left
+                    merged,count=conflict.subn(keep_merged_rules_marker,merged)
+                    if count:
+                        handoff_conflict.write_text(merged)
+                        git("add","--",ROOT+"HANDOFF.md")
+                        receipt["pullInitialExitCode"]=code
+                        code,stdout,stderr=git("rebase","--continue",check=False)
+                        receipt["rebaseContinuationExitCode"]=code
+                        receipt["actualPullRebaseSucceeded"]=code==0
+                        receipt["onlyRuleReadMarkerConflictResolved"]=code==0
+                        save()
+                        print("ISP_PULL_RECEIPT_AFTER_MARKER_REBASE "+json.dumps(receipt),flush=True)
+                if code:
+                    state["status"]="stopped-pull-rebase-error";save()
+                    raise RuntimeError("Actual pull/rebase failed; prepared branch remains preserved")
             receipt_path=ROOT+"notes/root-terminal-pulls-789f/"+run+"-"+attempt+".json"
             Path(receipt_path).parent.mkdir(parents=True,exist_ok=True)
             Path(receipt_path).write_text(json.dumps({"sourceCommit":source,"pulls":state["pulls"]},indent=2)+"\n")

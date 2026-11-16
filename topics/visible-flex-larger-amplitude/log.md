@@ -35,3 +35,8 @@
 ## 2026-11-16 08:13:00 UTC /root — R503显式coast-base新初点
 
 [R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)/[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)四件gen6663/0c19、plan18919/2f61、proof10972/fe5a、接口6859/d33a；原202全投影后仅p3/theta3/eta3显式+0、七词保，准确coast回原仿射基底（原正端值/κ条件），新点/metric不继承旧接受。原p3仍active、全部453→真450/门/钟/32GiB保，三preview仅源文、未来220须沿218真实级联；不预填数值RHS/新接受、不改原运行或增gate。H旧详细已刊范围保0d825bb8全文。
+
+
+## 2026-11-16 08:17:00 UTC /root — Request218完整来源与科学入口
+
+[218接口](notes/2026-11-16-request218-zero-linear-gzip-complete-chain-interface.md)34152/78fa及七源/plan/request/workflow齐，272+133=405、15→5→13→49→51，三native/全gzip消费者/真实规则owner与独立composition always；launcher schema真实修配而旧R496不改。原全部科学/453→450→mesh→M128/九必要/quiet/90K/18900+2700/32GiB保持，无新科学前门或接受预测；Git推后官方workflow_dispatch，R507/amplitude唯一终态，实际run/head另记。R503新点归220，当前218不改参数；open§3旧全文保ad086cf8，§4–6逐字不动。

@@ -612,7 +612,7 @@
 - R873源码真实推6d5ab806，后续dispatch404无数学；恢复发布只对404/422拒绝作有限重试，记录实际错误体。冻结数学源码不改，随本push再启R873并启R872；R824真实job133167910211回填。
 - 本push规则：公开Actions真实pull至cb2cb7a5614a2c3786562e280a61e7b491e6f054（2026-11-16T08:17:38.717871+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 16:21 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 16:19 Asia/Taipei — serre-public-astra-20261115
 - R875纸证闭合原tame CM常数与首Cartier因子：B²R(P†)²=ζ²α²C_p；原六级/共轭/局部投影1/2/周期及Hasse B全部固定，不断言C_p非零，不删C_(p−3)或R706。
 - R872真实run43830071469/job133173089548已在数学步；R873首dispatch404后已接受run43830067416、queued。源码均main a07453ec，H归档完整保旧态并更新真实边界。
-- 本push规则：公开恢复worker真实pull并记录SHA，README6979d793/35f82f3d；本条纯纸证/原文来源检查，无本地数学，§15无raw进Git；主目标OPEN。
+- 本push规则：公开Actions真实pull至0efd294396688cb5c0905b1d7a299cb4d5ad77ba（2026-11-16T08:19:50.301843+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

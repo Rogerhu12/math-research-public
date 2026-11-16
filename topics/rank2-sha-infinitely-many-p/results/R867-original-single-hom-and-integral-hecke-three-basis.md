@@ -809,3 +809,286 @@ $$
 数学证书；实际坐标仍必须通过(B18)。若不计算范数权，也可按有限窗口
 枚举整数 $(a,b)$，每次复用相同的全局模形式基与原三条输入。
 任何有限窗口失败都不排除窗口外或更高权的原映射。
+
+
+
+## 附录 C：实际有理3同源、较小准 Hom 与同一低权证书
+
+本附录给一个不同于附录 B 单位操作的候选。它保留原
+$\Xi_0$、$H_0$、$v$ 及全部 Hecke/Artin 归一化，却先把目标换为明确的
+3-isogenous 曲线。较小准 Hom 的整数性尚未证明；不能因此预报低权
+重建成功，也不能将它与(B21)的整性等价混同。
+
+### C.1 两条明确的3同源及微分
+
+记
+$$
+E=C_v:\quad Y^2+vY=X^3,\qquad
+E':\quad Y'^2+vY'=X'^3-7v^2,
+$$
+$$
+\omega=\frac{dX}{2Y+v},\qquad
+\omega'=\frac{dX'}{2Y'+v}.
+\tag{C1}
+$$
+
+两曲线和下列全部映射都定义在原 $F=\mathbf Q(v)$ 上。令
+$$
+\boxed{
+\varphi:E\longrightarrow E',\qquad
+X'=X+\frac{v^2}{X^2},\quad
+Y'=Y-\frac{v^2(2Y+v)}{X^3}.
+}
+\tag{C2}
+$$
+
+把(C2)代入(C1)即得目标方程。它把
+$O,(0,0),(0,-v)$ 送到 $O$，且这些点构成原有理三阶子群。
+此外，$X'$ 作为 $X$ 的有理函数次数为3；与两曲线的二次 $X$ 映射比较，
+说明 $\deg\varphi=3$。原点处延拓后它是真椭圆同源。
+
+微分的两个共同因子准确为
+$$
+dX'=\left(1-\frac{2v^2}{X^3}\right)dX,\qquad
+2Y'+v=(2Y+v)\left(1-\frac{2v^2}{X^3}\right).
+$$
+故
+$$
+\boxed{\varphi^*\omega'=\omega.}
+\tag{C3}
+$$
+
+对偶同源的完整坐标是
+$$
+\boxed{
+\widehat\varphi:E'\longrightarrow E,\qquad
+X=\frac{X'^3-27v^2}{9X'^2},\quad
+Y=\frac{Y'-13v}{27}
+  +\frac{v^2(2Y'+v)}{X'^3}.
+}
+\tag{C4}
+$$
+
+可以把两边先平移为
+$\widetilde Y=Y+v/2$、$\widetilde Y'=Y'+v/2$：
+(C2)是从 $\widetilde Y^2=X^3+v^2/4$ 到
+$\widetilde Y'^2=X'^3-27v^2/4$ 的规范3同源；
+对后者再作同一个规范公式，随后按 $X/9,\widetilde Y/27$ 缩放，
+恰得(C4)。因而(C4)的次数也是3。直接微分还给
+$$
+dX=\frac19\left(1+\frac{54v^2}{X'^3}\right)dX',
+$$
+$$
+2Y+v=\frac1{27}(2Y'+v)
+          \left(1+\frac{54v^2}{X'^3}\right),
+$$
+于是
+$$
+\boxed{
+\widehat\varphi^*\omega=3\omega',\qquad
+\widehat\varphi\varphi=[3]_E,\qquad
+\varphi\widehat\varphi=[3]_{E'}.
+}
+\tag{C5}
+$$
+
+最后两式也可由原点归一和特征零的 Hom 微分注入推出。
+这里所有 $3,9,27$ 和正号都由同一套坐标固定。
+
+### C.2 较小准 Hom 与真实整数性的两种可能
+
+在原 $J_0(2601)$ 上定义
+$$
+\boxed{
+\Psi=\frac13\,\varphi\Xi_0
+\in\operatorname{Hom}_F^0(J_0(2601),E').
+}
+\tag{C6}
+$$
+
+这是准同态群中的有理倍数，不是宣称目标点已可作唯一的全球三除。
+由(C3)、(C5)，
+$$
+\Psi^*\omega'=\frac13 H_0(q)\frac{dq}{q},
+\qquad
+\widehat\varphi\Psi=\Xi_0.
+\tag{C7}
+$$
+
+将曲线映射次数按平方齐次延拓到非零准 Hom，准确有
+$$
+\boxed{\deg\Psi=\frac13\deg\Xi_0.}
+\tag{C8}
+$$
+
+设 $n_0,n_\Psi$ 分别是使 $n_0\Xi_0,n_\Psi\Psi$ 为真整 Hom 的最小正整数。
+它们存在，因为两个对象已经是实际 Hom 空间中的准同态。
+(C5)–(C7)给
+$$
+\boxed{n_0\mid n_\Psi\mid3n_0.}
+\tag{C9}
+$$
+
+确切地，$n\Psi$ 整会经(C4)推出 $n\Xi_0$ 整；
+而 $n\Xi_0$ 整只自动推出 $3n\Psi=\varphi(n\Xi_0)$ 整。
+所以 $n_\Psi=n_0$ 或 $3n_0$。
+第一种情况有真正三倍次数节省；第二种情况下最小整候选的次数反而是
+原最小整映射的三倍。当前没有排除任何一种。
+
+这个分叉正是它与整单位操作的区别。若再前复合(B3)的任意单位，
+$\Psi U_1^aU_2^b$ 与 $\Psi$ 的清分母集合相同，但它们与 $\Xi_0$
+之间仍只有(C9)，不自动有(B21)那样的等价。
+
+### C.3 不生成新 CM 前缀的准确 germ
+
+给定待测整数 $n\ge1$，令
+$$
+\lambda=n/3.
+$$
+
+先在原 $E$ 上使用 R870 的同一形式对数递推，只把其有理输入 $n$
+换成 $\lambda$：
+$$
+u=\lambda qE(Q),\qquad Q=q^3,\qquad
+E+3QE'=f(Q)\sqrt{1-4\lambda^3vQE^3},
+$$
+$$
+T(Q)=-\frac{1+\sqrt{1-4\lambda^3vQE^3}}
+               {2\lambda^3QE^3}.
+\tag{C10}
+$$
+
+这里 $H_0=qf(Q)$ 仍是未经改动的原来源。
+这个 $T$ 只是形式上 $(n/3)\Xi_0$ 的 $Y$ 坐标，不假设该准 Hom 整。
+
+再施(C2)。由于原 $X^3=T(T+v)$，目标 germ 可只用一个有理函数得到：
+$$
+\boxed{
+Y'_{\rm form}
+=T-\frac{v^2(2T+v)}{T(T+v)}.
+}
+\tag{C11}
+$$
+
+这样既不需重新计算 CM 理想和，也不需为 $E'$ 编写新的形式群反演。
+(C2)在原点的微分为1，故(C11)的实际微分是
+$\lambda H_0\,dq/q$，正是 $n\Psi$。特别
+$$
+Y'_{\rm form}
+=-\lambda^{-3}Q^{-1}
+-\frac{v+3\lambda^{-3}}2+O(Q).
+\tag{C12}
+$$
+
+(C11)相对于 $T$ 的修正从 $Q^1$ 开始，不改变这两个首项。
+
+### C.4 同一个 $M_k(867)$ 基上的完整认证式
+
+仍取 R870 的同一全局模形式基，写
+$$
+Y'=A/B,\qquad A,B\in M_k(\Gamma_0(867)),\quad B\ne0,
+$$
+$$
+C_{A,B}=(D_QA)B-A(D_QB),\qquad D_Q=Q\,d/dQ.
+$$
+
+先按(C11)作同样的低线性重建，再必须严格检查
+$$
+\boxed{
+C_{A,B}^{\,3}
+=\left(\frac n3\right)^3
+ H_0(q)^3
+ \bigl(A^2+vAB+7v^2B^2\bigr)^2B^2.
+}
+\tag{C13}
+$$
+
+两边的权仍是 $6k+6$。检查至
+$Q^{612(k+1)}$（包含末端）即为全局恒等式证书。
+低重建长度 $204k+1$、允许共同 cusp 零、高维核唯一比值以及同一基
+扩精度的要求完全保持。
+
+若(C13)与(C12)的主项成立，准确恢复
+$$
+\boxed{
+X'=\frac n3 H_0(q)
+   \frac{Y'^2+vY'+7v^2}{D_QY'}.
+}
+\tag{C14}
+$$
+
+证明与 R870 相同，但须保新常数：
+(C13)给 $X'^3=Y'^2+vY'+7v^2$ 和
+$X'^2=D_QY'/(\lambda H_0)$；
+由 $D_q=3D_Q$ 得
+$dX'/(2Y'+v)=\lambda H_0\,dq/q$。
+原点的主项确保 $\infty\mapsto O$，Hom 微分注入遂认出这个真态射
+恰为原 $n\Psi$。
+
+最后把(C14)、$Y'$ 代入(C4)，便得到
+$$
+\boxed{
+\widehat\varphi\circ(n\Psi)=n\Xi_0
+}
+\tag{C15}
+$$
+的真实有理坐标。其微分为 $nH_0\,dq/q$，首部为
+$X\sim n^{-2}q^{-2}$、$Y\sim-n^{-3}Q^{-1}$。
+这里不再乘一个额外3；该3已在(C5)与$\lambda=n/3$中抵消。
+
+因此一个成功的(C13)证书足以回到附录 A 的共同 $3n$、
+原 $\kappa$、$2^{11}$ 和全 Artin 组合。该证书尚未执行成功；
+它是保原目标的一个可执行备选，不是已找到的新坐标或非零 shadow。
+
+对附录 B 的来源 $H_{a,b}$，把(C10)中的首尺度改为
+$(n/3)c_{a,b}$，并在(C13)–(C14)中完整替换 $H_0$ 为 $H_{a,b}$ 即可。
+首系数依旧不能除去。
+
+### C.5 Petersson 选单位时的指数与面积规范
+
+这一步只给候选选择的准确归一，不以数值范数认证一个全球 Hom。
+在原 $C=X_0(2601)$ 上，
+$$
+\mu_C=[\operatorname{SL}_2(\mathbf Z):\Gamma_0(2601)]
+=3672.
+$$
+
+设原三个首项1的新形式为 $F_j$，且
+$H_0=\sum_j(G_j/3)F_j$，沿 R862 的同一复嵌入。
+令
+$$
+N_j=\frac1{\mu_C}
+ \int_{\Gamma_0(2601)\backslash\mathfrak H}
+ |F_j(z)|^2\,dx\,dy,\qquad
+\mathcal A_v=\int_{C_v(\mathbf C)}
+ i\omega_v\wedge\overline{\omega_v}.
+$$
+
+因 $dq/q=2\pi i\,dz$，(B22)的正权准确为
+$$
+\boxed{
+a_j=\frac{8\pi^2\mu_C}{\mathcal A_v}
+       \left|\frac{G_j}{3}\right|^2N_j.
+}
+\tag{C16}
+$$
+
+不能把原源指数3672换成三阶商的1224，也不能把
+$\mathcal A_v$ 换成未经 $\kappa^*\omega_0=(h/2^{11})\omega_v$
+缩放的 $E_0$ 面积。若用同一正向周期基 $\Omega_1,\Omega_2$，
+$\mathcal A_v=2\operatorname{Im}(\overline{\Omega_1}\Omega_2)$。
+
+不过(B23)只用三个权的比，因此选择平衡单位时可以只用
+$|G_j|^2N_j$，不计算共同面积。其结果只是整数指数候选；
+是否真整、能否在给定权表示，仍由(B18)或(C13)完整决定。
+
+PARI 官方 `mfpetersson(mfsymbol(...))` 明确采用上述
+$1/\mu_C$ 归一，并在系数域次数大于1时返回全部复嵌入的矩阵。
+三个不同 Hecke 本征线的非对角项数学上为零；数值实施仍必须将返回
+嵌入按原 $b_j,G_j$ 和 $\varepsilon_{1,j},\varepsilon_{2,j}$
+配对，不能只按矩阵出现次序猜原 Artin 标号。
+参考：
+<https://pari.math.u-bordeaux.fr/dochtml/html/Modular_forms.html#mfpetersson>。
+
+本附录没有执行新的数学数值检查。当前公开低权重建可继续原计划；
+备用同源与单位选择不要求取消或改动正在运行的原候选。

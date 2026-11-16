@@ -1,0 +1,36 @@
+name: ISP R150 complete original hstar four-parameter annihilator
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: isp-hstar-four-parameter-temporary-789f
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      GH_TOKEN: ${{ secrets.MR_TOKEN }}
+      GOMAXPROCS: "2"
+      GOMEMLIMIT: "256MiB"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/HANDOFF.md
+            /topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json
+          persist-credentials: false
+      - name: Install exact arithmetic
+        run: python -m pip install --quiet python-flint==0.9.0
+      - name: Restore pinned sources and complete all four socle axes in one temporary job
+        run: python topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f.py

@@ -1,20 +1,35 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "6511fd23fd5348a4652ea4e48083be6d2355ac4b",
-  "createdUtc": "2026-11-16 07:54:00 UTC",
-  "message": "ISP: prove the original corank-two pencil algebra has an exact free basis of thirty-five monomials",
+  "parentCommit": "114e432d64c370608f4a849743425b91088c964d",
+  "createdUtc": "2026-11-16T08:15:00Z",
+  "message": "ISP: prepare exact same-basis four-parameter annihilator session",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-exact-rank-four-length35-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-true16-selected-source-rebuild-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-selected-true16-parent-reader-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-manifest-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-socle-integer-p7-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-first-carry-selected-parent-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-selected-parent-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-socle-selected-parent-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-complete-four-scalar-kernel-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json",
+    ".github/workflows/invariant-subspace-r150-hstar-four-parameter-session.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-complete-manifest-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-four-parameter-session-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-hstar-four-parameter-session.yml"
+  ]
 }

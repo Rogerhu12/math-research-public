@@ -452,3 +452,7 @@
 - [原冻结ψ3完整复帽积分严格非零：唯一公开区间观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)：ImE完整界严格正，含有理Af根/复参数/可变上限/解析平端tail；25叶84jet、0旧重算、0失败，新0.3593075210000052秒。该冻结库h不在span(y)，只在R466同Jaff/canonical正时长/同端口/M0范围形成actual障碍；新cap全局五门及主几何继续。
 
 - [R482：完整第三历史逐点消去与真实13状态2输入ruling系统](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)（已证明）：T=Pend−A²/2+W保内部Pacc/初端势，R480仅消outer W；单份K保八维A/平方/一般wχ并对h″k″仿射，完整系数与原Mraw水平ODE已给。反馈只在真实固定秩相容域/切向条件下成路径；常scalar段必须过规范不改的平方门。未给受约束闭原型，新加速度self未免费入旧F。
+
+- [四cut增广交换首实际接受54](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)：5个严格新行集/164迭代/328系统、5完整双网/10新梯度后方向合格；62scalar与唯一实际pair使η细.26601238103375724、降2.76319609660014e−6，原两网14门全真，κ细57.99930616102216。原53任务含失败218.31438091800004秒/祖先1877.294171609秒130值；点54实际U/T/e/f缓存已付，新的Jac/硬模型须真新建。未达.26中间及主完成门。
+
+- [R483：完整cap五门紧化与全类端形状两端排除](results/R483-complete-cap-compactification-and-global-end-shape-bounds.md)（已证明）：完整12项给全部Aj统一远尾，凸v紧化保常数C/曲率测度；H↓3/5全类趋critical非零，H≥10¹²全类ReE≥H⁴/10。零目标只能在严格有限端比区间；共同严格窗与五控制可逆时可有限恢复已找到的零极限，未证零在闭包中。

@@ -1,0 +1,385 @@
+{
+  "format": "r150-original-hstar-four-parameter-complete-execution-inputs-v1",
+  "date": "2026-11-16",
+  "status": "frozen-source-not-executed",
+  "author": "ChatGPT (AI), GPT-6 Astra Pro, literature_audit",
+  "purpose": "Complete the common and all nine individual original integral annihilator ideals from the four actual socle axes in one fresh true-source basis.",
+  "rulesReadAtCommit": "5525cf33cafa698fa261efe33bcc9c9d636eac73",
+  "sourceFiles": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-true16-selected-source-rebuild-789f.py",
+      "blob": "42f67d8716ab1da05afc3b0fa265a00654bb1c89",
+      "bytes": 36918,
+      "sha256": "381713af3c7d44ed496b0486650cf44e472ec3e21a00907b4da0722d4532cafb"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-selected-true16-parent-reader-789f.py",
+      "blob": "bd56f336c14ce25964241fd0f72daed823b823ab",
+      "bytes": 7512,
+      "sha256": "1c7152a767eac8d72f650c14c36416216537586c369ba4c45b26003ea9dec2d9"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-789f.py",
+      "blob": "0f2e31b12493c9e47000696ac0a3a4744a826f51",
+      "bytes": 8085,
+      "sha256": "0849ca587fd394a2f205dce8ebb872461dc8e742f3fac3bd8afa4351f8616b68"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-manifest-789f.json",
+      "blob": "ed41ecb0e4e4a63b30cb3f9622c7e0b90fa46714",
+      "bytes": 3572,
+      "sha256": "74efb5e79decd8b28bc7c395b54f1e0d06389b0b1feb31f9567d0c5227346d51"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-socle-integer-p7-789f.cpp",
+      "blob": "a6f2a177608b890d622eb12f93df5c55d0f96348",
+      "bytes": 22146,
+      "sha256": "5061a086713f71c19ef8418e2a700f193d274d886f40e5b37cd07af04ebde345"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-first-carry-selected-parent-789f.py",
+      "blob": "893296ae4b141f24f057f950268a892b67dec52a",
+      "bytes": 24796,
+      "sha256": "efcf00bdc110d5e2b08758c7d05ec037a0f25c3311add1226d7029637013c59e"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-selected-parent-789f.py",
+      "blob": "34fe70e0412f6689fd609905d6d3468bd2259f9f",
+      "bytes": 26123,
+      "sha256": "904a0f2b6b26ef243192cd0ed9c104217dc1af8647c0e2e9e531151c40f648e6"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-four-parameter-socle-selected-parent-789f.py",
+      "blob": "a1d4fe5e472ea61d7e0cf00b57d7ba86ff50486d",
+      "bytes": 30469,
+      "sha256": "34f6295245fb1e3af2655d98385c60fcf899d0e798b9a74bb024f0bd804eb3f3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-complete-four-scalar-kernel-789f.py",
+      "blob": "52a8b772769f034dca88cb218f55007f510c23cc",
+      "bytes": 13275,
+      "sha256": "f2607b2df00e44fd0a77da4fc01a72cc72a359b1751b2007e8852d6ae1db4758"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f.py",
+      "blob": "c29935b83498d6ce4bbe96d58953096ab17bb775",
+      "bytes": 15426,
+      "sha256": "764181a5c0ab2065cb540faafdccf14df8452afa4f072d3fe0318a7e440d6302"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json",
+      "blob": "04828081dbb48b53e38779b271b07dc5eeb754f3",
+      "bytes": 30536,
+      "sha256": "db4394168d47fd5325c5cf8d6f167de8718e78b79900146a6dfd89929333f71b"
+    },
+    {
+      "path": ".github/workflows/invariant-subspace-r150-hstar-four-parameter-session.yml",
+      "blob": "00970b9feb07dfbcf4443e95311e2d110231984b",
+      "bytes": 1338,
+      "sha256": "ff719654fdd7344d1d5bff0cfc10b73da3274553af995a17f4b31c635f972f7e"
+    }
+  ],
+  "existingPinnedSourceDependencies": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+      "sha256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+      "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "sha256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-p7-extra-input-recovery-789f.py",
+      "sha256": "ffbc4a5c706c6983f820e75f94a98fce789d373f4297dbb7ab8134988fc4a47d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+      "sha256": "16e4bc219a2c77433aec58aae78b574155405537a4efed66be196de2f01a9cf7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-common-789f.hpp",
+      "sha256": "beb0168cbbecbbc961482066961eb5bc36b241e311ee847f4a4d36a6851b7655"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-vq-789f.cpp",
+      "sha256": "c0d233014dd71816f956021bd669ca3b9254768cc3186b920be2133cd27c19ae"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-original-transport-789f.cpp",
+      "sha256": "00a1b72e02b09f20bac3115dc81ff77c4ce7c51efc52a987c8507bdd8159af48"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-normal-789f.cpp",
+      "sha256": "9d070b6030538fa7c5b412b7ee00c819c7db68fa5c1f6ca2a9e9aeb00bd8dda0"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-unit-solve-789f.py",
+      "sha256": "f4e5934b387d5800060b0aef77e41e627680e771eadb1dad890090a58de5f7f7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-integer-p7-jets-789f.cpp",
+      "sha256": "7623e3297d2cda154f1afdaddb4dc8cf00be29c98d6b131c6f2564827a4c6cd5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-original-model-p7-789f.py",
+      "sha256": "00deeeca38867d24043a6f842996e1e84116cfab03b36eb144ccff1928f5bf92"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp",
+      "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+      "sha256": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+      "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-first-carry-integer-p7-789f.cpp",
+      "sha256": "ed2f42b3df51efa8fe0855c2a174caad2036f18c68f66bbf36c8b8b0456dbe55"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-integer-p7-789f.cpp",
+      "sha256": "f9c6c9f7576cfaa9d3c6bd46a0fdcee4dc414f2248ee4334700a1963a50dfd99"
+    }
+  ],
+  "workflow": {
+    "path": ".github/workflows/invariant-subspace-r150-hstar-four-parameter-session.yml",
+    "timeoutMinutes": 180,
+    "token": "existing repository secret MR_TOKEN, environment only",
+    "mathStageSeconds": 1800,
+    "mathStageMemoryMiB": 4096,
+    "maximumSameBindingAttemptsPerMathStage": 3,
+    "finiteKernelSeconds": 60,
+    "finiteKernelMemoryMiB": 512
+  },
+  "originalInputs": {
+    "originalFourteen": {
+      "id": "restore-original197-minimal-historical-inputs",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+      "scriptSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+          "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+        }
+      ],
+      "argv": [
+        "--manifest",
+        "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/global197-original-inputs",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/global197-original-inputs/original-input-recovery-receipt.json",
+      "budgetResumeAttempts": 2
+    },
+    "sixSmall": {
+      "id": "restore-six-small-paid-inputs",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "scriptSHA256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/root2-fourth-small-inputs"
+      ],
+      "timeoutSeconds": 600,
+      "receiptPath": "{work}/root2-fourth-small-inputs/root2-fourth-small-inputs-restore-receipt.json"
+    },
+    "fourTrueFamiliesExactPrimitiveAndJetMap": {
+      "id": "restore-four-true-families-and-exact-map",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-p7-extra-input-recovery-789f.py",
+      "scriptSHA256": "ffbc4a5c706c6983f820e75f94a98fce789d373f4297dbb7ab8134988fc4a47d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+          "sha256": "16e4bc219a2c77433aec58aae78b574155405537a4efed66be196de2f01a9cf7"
+        }
+      ],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--manifest",
+        "{scripts}/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+        "--work",
+        "{work}",
+        "--seconds",
+        "600"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeAttempts": 2,
+      "receiptPath": "{work}/root2-fourth-p7-extra-input-recovery-receipt.json"
+    },
+    "historicalH25": {
+      "id": "restore-original-h25-global-source",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-789f.py",
+      "scriptSHA256": "0849ca587fd394a2f205dce8ebb872461dc8e742f3fac3bd8afa4351f8616b68",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h25-minimal-recovery-manifest-789f.json",
+          "sha256": "74efb5e79decd8b28bc7c395b54f1e0d06389b0b1feb31f9567d0c5227346d51"
+        }
+      ],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/h25-original-inputs",
+        "--seconds",
+        "180"
+      ],
+      "timeoutSeconds": 210,
+      "budgetResumeAttempts": 2,
+      "receiptPath": "{work}/h25-original-inputs/original-h25-minimal-recovery-receipt.json"
+    },
+    "sixSmallFileNames": [
+      "second-prepared-receipt.json",
+      "second-prepared-system.bin.gz",
+      "second-complete-receipt.json",
+      "second-complete-system.bin.gz",
+      "third-complete-receipt.json",
+      "third-complete-system.bin.gz"
+    ],
+    "trueSourceFiles": [
+      "kernels.bin",
+      "fourK2.bin",
+      "selectedK2.bin",
+      "newOriginal.bin"
+    ],
+    "currentK4Required": false,
+    "historicalH25SmallFiles": [
+      "original-product.json",
+      "original.recipe",
+      "continuation-receipt.json",
+      "original-integer-h25-mod29791.txt",
+      "root-preservation-manifest.json"
+    ],
+    "h25SourceRaw": {
+      "bytes": 4989406,
+      "sha256": "593643d82b259995194b0d89c9f46c8f042cd8d0c66bdfff0a00227689810cdd"
+    },
+    "h25HistoricalCommit": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalBinaryDataTransport": "Actions git show or exact selected archive members into temporary storage only. No binary API transfer or new artifacts."
+  },
+  "selectedSourceDependencyClosure": {
+    "L3OriginalIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "L4OriginalIndices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "L5OriginalIndices": [
+      10,
+      11,
+      12
+    ],
+    "L6OriginalIndices": [
+      12
+    ],
+    "sourceCounts": [
+      8,
+      7,
+      3,
+      1
+    ],
+    "coefficientModulus": 27512614111,
+    "precisionChain": [
+      25,
+      20,
+      15,
+      10,
+      5
+    ],
+    "full210Recomputation": false,
+    "sourceRecipePayloadSHA256": "d4d486d0d1c6a33e091da3e99d58cb604d7b2ef828a84a20ba23edf76d19a63c"
+  },
+  "highPBasisPolicy": "All four axes are recomputed using exactly one fresh parent source pack. Equality of the residue U16 matrix is not used by itself to identify high-p socle coordinates.",
+  "finalScope": {
+    "coefficientPrime": 31,
+    "parameter": "x=s-2",
+    "targetLabels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "axisOrder": [
+      "p^4*b",
+      "p*x*b",
+      "x^2*b",
+      "x^3*b"
+    ],
+    "completeMatrixShape": [
+      63,
+      4
+    ],
+    "individualMatrixShape": [
+      7,
+      4
+    ],
+    "unknownKernelDimension": "not computed",
+    "sourceCostBoundFromPaidTheorem": 8515
+  },
+  "currentValidation": {
+    "staticSourceReview": true,
+    "pythonSyntaxCheckExecuted": false,
+    "nativeCompilationExecuted": false,
+    "mathematicalExecutionExecuted": false,
+    "sourceSyntaxCheckInActionsBeforeExecution": true
+  },
+  "persistence": {
+    "mathematicalArrays": "same-job temporary storage only",
+    "mathematicalResults": "temporary receipt and completed job log only",
+    "repository": "sources, parameters, run identities and SHA256 only",
+    "releaseAssets": false,
+    "newDataArtifacts": false
+  }
+}
