@@ -98,7 +98,7 @@ R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Lo
 
 [R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/70a5709d保同job真43f217/十词/C/DAG/公共u的完整父mesh+准确midpoint→RN64+knots初猜及全部450新求解；容量/无新点是partial，最终state/mesh以solver为准，M/N/native不改。原完整接口与当前未付逐字保R431前检查点；原钟和必要读回由下述R431接。
 
-[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)原193两阶段accepted450/十词/43f217/同C及原钟、五原阶段与独立reach保；[R426](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)07fc4e41/77be1d98保原f12f六primitive/1440片/深根族/闭逆像，现场新界∩原粗界、原四Loewner、准确径向缓存/总钟/事务异常撤销与精度恢复。完整参数、原当前/未访、90KB/quiet及清理条件逐字保R434前检查点与各结果；累计半径/深族/前缀宽仍在，无实际450或metric。
+R429原五阶段与R426现场完整闭查询的全部来源、11查询资源、事务/原钟/失败/当前/未访、90KB/quiet/清理合同逐字保[R434前检查点](notes/2026-11-16-open-checkpoint-before-R434.md)与对应完整结果；下述R434/R433/R436只是明确来源组合，没有实际几何接受。
 
 
 [R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d将R426现场原f12f完整查询接原五阶段，13pins/11显式查询资源/同C/原钟/事务与独立reach保；[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd只接明确R429/R434来源，三前件真实完成后用原R425，metric/reach不当held前门。全部原输入/失败/当前/未访/90KB/quiet/清理边界逐字保R431前检查点与各结果；无实际新450/配方/查询/比例/δE。
@@ -109,6 +109,9 @@ R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Lo
 
 
 [R435](results/R435-complete-root-pair-blocks-and-closed-separation-cover.md)/[完整接口](notes/2026-11-16-current-C-complete-block-reach-interface.md)/e3fcd9eb保冻结R422完整AA/CC/AC/self/反射/两帽；三角三分/矩形二分是准确不交索引划分，rank极值不冒连续段。真实完整根包围联合球仅以原distance≥2τ退整块，AA共同转/CC固定/AC全圆；未决直到单rank真继承原run/evaluate/phase_test/四门/两RP1/R282。原曲率/全D/Kτ及三个显式工作资源保持，全部block/当前原叶栈/union frames保；历史未付叶仅原ledger地址/身份，不冒逐行回传。单90KB超限70/raw不删，无actual450/常数/run/reach或速度承诺，R438接实际编排。
+
+
+[R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)/43565f7c+a565bc88+ad492e57显式接原193或真R431/70a/43f新450，核同origin/直接父/实际checkpoint/全十词/C-DAG/原deadline，13旧pins逐值保→15；原writer/SavedPrefix/径向/atlas/shared已动态支持新driver和mesh，数学源不改。五阶段及独立held都从新场重做，原参数/门/剩余钟/owner/90KB保，旧几何不转贴。全闭同g另须冻结首次W/帽高/完整marker/材料运输/尾帽及源码解释，当前入口不自动跨postsolve比较；R437付首次冻结。单90KB超限70/raw不删，没有新actual450/参数/run或几何接受；R438再明确接块reach。
 
 ## 4. 同一g闭合与真正九冻结450
 
