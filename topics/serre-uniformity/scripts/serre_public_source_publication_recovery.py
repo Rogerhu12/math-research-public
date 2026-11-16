@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish reviewed source text with actual Git pulls when the shared terminal is unavailable."""
+"""Publish reviewed source text through the authorized public repository Actions."""
 import datetime as dt
 import hashlib
 import json
@@ -69,7 +69,7 @@ def update_record(head, stamp):
     assert header is not None
     for i in range(len(lines)-1, header, -1):
         if lines[i].startswith("- 本push规则："):
-            lines[i] = "- 本push规则：公开Actions真实pull至" + head + "（" + stamp + "），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。"
+            lines[i] = "- 本push规则：公开Actions真实pull至" + head + "（" + stamp + "），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。"
             break
     else:
         raise AssertionError("missing final rules entry")
@@ -80,6 +80,57 @@ def commit(message, amend=False):
     args = ["-c", "user.name="+SESSION, "-c", "user.email=research-agent@users.noreply.github.com", "commit"]
     args += ["--amend", "--no-edit"] if amend else ["-m", message]
     git(*args)
+
+
+def replace_only_unstarted_run(dispatch, token):
+    run_id = dispatch.get("replace_unstarted_run_id")
+    if run_id is None:
+        return True
+    assert isinstance(run_id, int) and run_id > 0
+    expected = dispatch["replace_expected_head_sha"]
+    assert re.fullmatch(r"[0-9a-f]{40}", expected)
+    base = "https://api.github.com/repos/" + REPO + "/actions/runs/" + str(run_id)
+    headers = {"Authorization": "Bearer "+token, "Accept": "application/vnd.github+json",
+               "X-GitHub-Api-Version": "2022-11-28"}
+    def get(url):
+        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as response:
+            return json.load(response)
+    run = get(base)
+    assert run["head_sha"] == expected
+    assert run["path"] == ".github/workflows/" + dispatch["workflow"]
+    assert run["event"] == "workflow_dispatch"
+    jobs = get(base + "/jobs?per_page=100")
+    if run["status"] != "queued" or jobs["total_count"] != 0:
+        print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
+              "status": run["status"], "job_count": jobs["total_count"],
+              "reason": "Original request has started or is already complete; no duplicate dispatch."}), flush=True)
+        return False
+    req = urllib.request.Request(base + "/cancel", data=b"", method="POST", headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=60) as response:
+            assert response.status == 202
+    except urllib.error.HTTPError as error:
+        if error.code != 409:
+            raise
+        print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
+              "reason": "Run state changed before cancellation; no duplicate dispatch."}), flush=True)
+        return False
+    for attempt in range(13):
+        run = get(base)
+        if run["status"] == "completed":
+            break
+        if attempt < 12:
+            time.sleep(5)
+    jobs = get(base + "/jobs?per_page=100")
+    if run["status"] != "completed" or run["conclusion"] != "cancelled" or jobs["total_count"] != 0:
+        print("UNSTARTED_REPLACEMENT_SKIPPED=" + json.dumps({"run_id": run_id,
+              "status": run["status"], "conclusion": run["conclusion"],
+              "job_count": jobs["total_count"],
+              "reason": "Cancellation did not certify zero started jobs; no duplicate dispatch."}), flush=True)
+        return False
+    print("UNSTARTED_RUN_CANCELLED=" + json.dumps({"run_id": run_id, "head_sha": expected,
+          "job_count": 0, "no_mathematical_job_started": True}), flush=True)
+    return True
 
 def main():
     assert os.environ.get("GITHUB_ACTIONS") == "true"
@@ -146,6 +197,8 @@ def main():
         assert dispatch["request_path"].startswith("topics/serre-uniformity/notes/")
         assert safe(dispatch["request_path"]).suffix == ".json"
         assert sha(Path(dispatch["request_path"]).read_bytes()) == dispatch["request_sha256"]
+        if not replace_only_unstarted_run(dispatch, token):
+            continue
         url = "https://api.github.com/repos/" + REPO + "/actions/workflows/" + dispatch["workflow"] + "/dispatches"
         body = json.dumps({"ref": "main"}).encode()
         req = urllib.request.Request(url, data=body, method="POST", headers={"Authorization": "Bearer "+token, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"})

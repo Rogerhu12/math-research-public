@@ -1,0 +1,175 @@
+{
+  "result": "R899-original-K-fixed-seven-trace-RR-basis",
+  "p": 41,
+  "producer_inputs_pending": true,
+  "session": "serre-public-astra-20261115",
+  "core": "R899_original_K_fixed_seven_trace_RR_basis.py",
+  "core_sha256": "9901767869180e7ff6c20ab56a693024adeef7d77aeb5b1105af0476a36e0248",
+  "wrapper": "R899_public_original_K_fixed_seven_trace_RR_basis.py",
+  "wrapper_sha256": "2a887562b40272bdb6ba477342f9bbe2190cbd9364b6ff1ce7e3f676ceaeb794",
+  "workflow": ".github/workflows/serre-R899-K-fixed-seven-trace-RR.yml",
+  "artin_helper": "R885_whole_Artin_algebra.py",
+  "artin_helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R899-original-K-fixed-trace-RR-execution-method.md",
+  "method_sha256": "255ca6620b43b60971a4ee8c521ce8e817d5609f270c466a3c74a3f922ee0884",
+  "proofs": {
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R890_method": {
+      "path": "notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R899": {
+      "path": "results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md",
+      "sha256": "eff6a8abf489bedf2cda8549a027ebd250717b2ddedece420f2a9d729cebc044"
+    }
+  },
+  "source_artifacts": {
+    "R894": null,
+    "R845": {
+      "result": "R839-original-D-pencil-and-eight-generator-pole-ideal",
+      "run_id": "43780953543",
+      "source_commit": "a43b6afad1ffdbcb0357eda63b7683df3c5d2c93",
+      "core_sha256": "601b0b5aeb89d3d37ef6f74151f03a15f92cc5724fbb8574cc6c87f533158b4b",
+      "wrapper_sha256": "8be3fb61034da689bbc4bbe8e30f2c69f062c561f034b10a078dc69553fd9e95",
+      "manifest_sha256": "8bef49bfa53a00f1bdce31c947e030d92ff5abbae15d0115587f9cf869486099",
+      "manifest_bytes": 9206,
+      "manifest_file_count": 53,
+      "certificate": {
+        "file": "p41-original-D-pencil-and-pole-ideal-certificate.json",
+        "bytes": 322708,
+        "sha256": "1e71a62ce53d64791ed672591d52d792307e3931dbe0eeea78bed42cee266692"
+      },
+      "artifact_id": 14188093176,
+      "artifact_name": "serre-global-R839-original-D-pencil-and-eight-generator-pole-ideal-43780953543-1",
+      "archive_bytes": 110888459,
+      "archive_sha256": "34f85e3c564929e04eceb0f326353a77acc7010ecaee1df315704a75e315f8c0",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T00:33:43Z"
+    },
+    "R885": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "wrapper_sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "certificate": {
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "bytes": 7104,
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      },
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:47:33Z"
+    },
+    "R880": {
+      "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+      "run_id": "43840391925",
+      "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+      "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+      "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+      "manifest_bytes": 8526,
+      "manifest_file_count": 50,
+      "certificate": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "artifact_id": 14212028755,
+      "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+      "archive_bytes": 105609871,
+      "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:31:44Z"
+    },
+    "R887": {
+      "result": "R887-original-common-cusp-flip-and-bounded-RR-space",
+      "run_id": "43844745726",
+      "source_commit": "85049ecab0b62dd5e7a3983841844ddee52b3da4",
+      "core_sha256": "d469ef046e8575eaed34e5670275f80554edf8cdae723ef3fb029b979e07508c",
+      "wrapper_sha256": "78a00876c4ecc7309df237de6457068745c65e5b6e65e226db0ce1d362f0cf7e",
+      "configuration_sha256": "d325dc06b7328796467d98cce13cde4c52d90aed4fc697fc2d80a422e7d63b6a",
+      "manifest_sha256": "05d289d0727952a451f421385cc37b1e54933cd6d2a5038caeafbcac02d5c1d2",
+      "manifest_bytes": 6525,
+      "manifest_file_count": 38,
+      "certificate": {
+        "file": "p41-original-common-cusp-flip-and-bounded-RR-certificate.json",
+        "bytes": 9250,
+        "sha256": "c5fa30c7eea59b69de723ea82fd41a05e9536120c49d2b144d4fef831cb1b8bf"
+      },
+      "artifact_id": 14214842060,
+      "artifact_name": "serre-R887-common-cusp-flip-43844745726-1",
+      "archive_bytes": 81369157,
+      "archive_sha256": "1f44a5cadfad375521263f9d2241a7bbf000786f4852a81f48777a0e3526824b",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:00:20Z"
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:19:10Z"
+    }
+  },
+  "budget_minutes": 300,
+  "resume": null,
+  "rules_last_read_commit": "9d0951f1a32e8d93b804d2e574bac68fa85cfc9f",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "pending_reason": "R894 sixteen new flips are running; exact completed producer identity, manifest, and certificate are not yet bound.",
+  "source_parent_carrier": "R894-retained-original-inputs.tar.gz",
+  "original_marked_QN_retained_without_retagging": true,
+  "only_actual_whole_Artin_denominator_units_required": true,
+  "original_QN_itself_required_unit": false,
+  "actual_418_minor_required": true,
+  "original_zero_a_fibres0through4_reused": true,
+  "zero_a_missing_nodes5and6_only_if_needed_interpolated_with_original_weight_bound": true,
+  "old_flips_charpoly_Krylov_V3_evaluations_or_t_jets_recomputed": false,
+  "Q_fixed_basis_K_defined272_representative_Hecke_norm_connection_or_height_requested": false
+}
