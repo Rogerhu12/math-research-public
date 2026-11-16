@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ece4e4b5138d0174ad4f577ec8f4e82cca588d45；2026-11-16 17:34:40 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：588624572adf172bababec622a9e9a1c9f76f830；2026-11-16 17:38:13 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-global-rr-lattice.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、917已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-global-rr-lattice.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、916–917已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -45,7 +45,7 @@ R880/883全18×9、双轴、四除子/真A,C/dF成本均保完整H；Norm含ell�
 R885/897保原finite/wild范数、统一格、全部q/q⁴/4/Artin/旧副本及spDn=Ep,n cn，Ep,n整群环unit；整族除T恰所有tame底类零。附B原full-ray pull/单侧trace额外h使γ集分母无界，仅排该操作。完整规范见最新H和R897。
 R891同原anti-Kummer/全交域/17惯性及双点cup已付，κq(σ)=−c1(Frq)给c1≠0⇒Selbal=E c1；usual core0，未付c1/ordinary loc或无穷p。
 R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfun D、Ccan=H Dfun²，阶s/2s。原ordinary loc/canonical底非零等价s0；s>0仍开，derived底不可复用未除T strict核。
-[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：原惰性Aℓ=−(ℓ+1)²/ℓ、真Gauss/坏位给root=(−1)^(1+#新惰性)，compact BK零杀奇数全新块。单ℓDℓ=Aℓ/hℓ resD1可除−(ℓ+1)，全split底/整Möbius/有限Ep保。奇数层只min估值整除；偶数N12未付scalar乘积整除。惰性Frob主理想恒1，旧γ长剩余次数不可套。
+[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)原惰性Aq=−(q+1)²/q、真根号奇偶及全部Möbius保。奇全新块compact BK零，单q返回可除(q+1)；奇总层只min估值，偶新块乘积整除仍开。惰性Frob主理想1，不能借旧长剩余次数。
 
 [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)全实际端点/局部period/自然Kirillov格/CM比较及双norm核饱和保完整H；N12唯一除(σ1−1)(σ2−1)，scalar格阶不增，old/new O/(h)与全部返回尺度不删。
 
@@ -65,16 +65,18 @@ R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完
 oR保全部finite/H¹，J3交V1=V4；j0 H¹0、j1/2≤3/14，A4不是整O_H−。零纤维Y²(Y−1)与ρ−一行重合，β1全联合值保。
 R872同R零类仅在14s≤3BD²+8D−26−12j可能；47/8窗迫oR非零而不排p³。K2零类在d<κ+s+2返V2+J3含t²，整[t]R由同o类固定。
 R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reader均保，未加M零或付o(K2)。
-R902/903原V0、V1及正水平真单射保全部T−h>κ、全pure-charge帽/固定角/F0条件；同一V2和共同来源不许相加独立秩，完整式见最新H与原文。
+R902/903的端点真单射与全部窗口/原帽见最新完整H；同源V2和两端秩不能直接相加。
 
 
 [R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)原后继TG=EG−aF³唯一、两native尾保；六维Qf/3b+7测试齐。L>h时K∞及0..3b共同测试核零；§8真GRes的m4/m5全迹及同源反馈保非稳定左边。未认整K稳定。
 
-[R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
+[R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)五/六长全重复根能量与真实3C成本齐；仅L>h时直接排三/四项后继链。同F/余因子unit的当前quartic强制L≤h，不适用该直接门；能量本身无此短窗要求。
 
 [R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
+
+[R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
 
 ## 其余原门与同步
 
 R834/836/837全部预算与R840同Kcorr/Hcorr高前缀、R842指定WT[b0]保完整H。真实未闭窗2κ<T≤3κ；V0,V1,V2∈VT及第四短行不付E稳定/同E³G高尾。EG=FA只在A|C0时返旧排块。
-R895同P/R/S不假oR0，得N_D−2s≥D+16+2j；≤D+15+2j仅排τ1 quartic p³，δ可负/三长另加s。R896逐p最小D低松弛集密度p11mod12中12/47、全素数3/47；只排该来源，不改固定D旗标或全K1。O4/O6/O7与通常全Sha主目标仍开。
+R895/896仅排同P/R/S的τ1 quartic低松弛p³来源；全精确条件见最新完整H/open。逐p最小D密度为p11mod12中12/47、全素数3/47，不改固定D旗标或全K1。O4/O6/O7及主目标仍开。
