@@ -322,3 +322,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 13:11 UTC /root — R562实际236完整准确二次平均入口
 
 [R562](results/R562-request236-exact-dyadic-average-and-complete-projected-model-entry.md)五件258310B/topic234851B；原402/51/九对象保→417，十caller真接R561一次安装、R550/R535 source-only、原defer/全部末门/caps保，完整RootStats及三路径十计数齐。R551来源body/同次overflow实读核，内层70/false和全部错误/未访保、90K不抬；仅dispatch单POST，R563唯一。R561已a1d06，容量按文本仍≤200MB；235须先普通容量整理，H/open同步§4–6原字。
+
+## 2026-11-16 13:13:37 UTC /root — request236唯一正式派发绑定
+
+[236官方](notes/2026-11-16-request236-official-run-binding.md)：main e6d389d/唯一POST200/run43873389241/compute133320084785，前1–10success/11科学，R563 amplitude唯一且running日志0。双README真pull未变读0b8bb24c已记；两旧domain manifest1456843B固定e6引用审计继续，不删当前科学源/数组。H压缩前全文固定e6、open§4–6原字，R564纸证继续。
