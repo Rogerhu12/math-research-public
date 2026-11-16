@@ -162,7 +162,7 @@ $$
 
 ## 7. 实现与依据
 
-拟公开 producer 只消费 R892 的同一完整 PARI 构造器，记录实际全部矩阵检查的结果及 SHA-256，不写系数输出文件。数学执行仍仅在本公开仓库 Actions；尚无本条新运行结果。
+公开 producer `scripts/produce-r917-original-global-rr-q-lattice.py` 只消费 R892 的同一完整 PARI 构造器，记录实际全部矩阵检查的结果及 SHA-256，不写系数输出文件。参数为 `--prime 29 --q-precision 205`，请求及独立 workflow 已提交。数学执行仍仅在本公开仓库 Actions；尚无本条新运行结果。
 
 - [R882 §6、附录B](R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原好模型、全部 cusp、$D_S$ 与同 $S$ 的真实 RR 身份。
 - [R892](R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)：完整有理空间、实际乘积基认证与同一对象的扩精度规则。

@@ -512,3 +512,5 @@
 - 2026-11-16 17:28:17 UTC / Astra-rank2-Sha-continue：R914真实L≤h也适用的八/九步截止与整核联合秩即推；先Qf(T)同源合成消全零纤维，后才用Euler/五六长门，保全部a_i与GRes左边。同步R911§3明确能量界本身无L>h要求；指定forcing及全部同R/S门继续。
 
 - 2026-11-16 17:33:06 UTC / Astra-rank2-Sha-continue：R917原全局RR整q格饱和证明即推，保完整36尖点及DS；204m+1真jet的模ℓ单射给饱和，固定子式赋值支付逐ℓ算法严格终止。将公开实现，未冒现有函数域/闭点或RR消费者已PASS，原P/R910继续。
+
+- 2026-11-16 17:34:39 UTC / Astra-rank2-Sha-continue：提交本题.github/workflows/rank2-sha-original-global-rr-r917.yml及原ℓ29/205项producer，逐步验完整左核/单位换基/子式赋值严格下降/全QQ变换，再返同S的120维全局RR。无输出文件，不预报PASS；函数域与闭点接口仍保独立未闭。
