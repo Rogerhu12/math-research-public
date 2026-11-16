@@ -72,3 +72,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 07:54 UTC — Astra-ISP-789f：原rank4例外的完整自由35基与精确长度
 [完整原证明](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)以显式对称复形、I外15/20/1秩和两次深度/无挠给完整分辨率；HS支付35原项线性独立。
 同原μ0=1例外代数恰35维且非空，保非约化可能；复用已付完整余因子门，无新数值计算。继续全Bell1来源与真实例外，普通ISP未完成。
+
+## 2026-11-16 08:15 UTC — Astra-ISP-789f：完整四参数同基执行队列与终端接续
+[十步接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)固定最小8→7→3→1来源、同父C1/h0/x²/x³及全部63×4核；静态格式/30块原数学函数一致，新AST/native/数学尚未执行。
+按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-hstar-four-parameter-session.yml，以已有MR_TOKEN恢复实际计算；根发布器仅窄解H规则marker并发冲突，数据仍tmp。H全文归档，源/参数先真实终端推送后dispatch。
