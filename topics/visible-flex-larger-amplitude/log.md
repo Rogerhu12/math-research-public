@@ -164,3 +164,8 @@
 ## 2026-11-16 03:08:29 UTC /root — R451全M后继几何与材料定义
 
 [R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)/[完整接口](notes/2026-11-16-complete-M-postsolve-geometry-and-material-interface.md)与12独立源已完整差异/正文核后发布：真R442全$4M+2$接受才重做全$3M+2$ Hermite/M材料、radial/atlas/shared/live metric/全部pair reach及独立held；原六jet/四Loewner/全部AA CC AC/帽/marker/O(3)数学保持。radial实际设M容量，不继承112；原源/全数组/全两mean/同18900+2700钟/90KB/quiet保持。首全112材料图与当前全M可由准确$R_\alpha K_M(x,I_M(\Theta_0(q)-\alpha))$共轭；只去明确M/schema/数值spec身份，其余准确target逐字段相等，全export另由R442原源核。新API默认未调用，跨M一致误差仍欠；无实际M/父/求解/几何成功，原R448父/205分支未登记，后续R457独立接205。
+
+
+## 2026-11-16 03:21 UTC /root — R454原必要字段单份表述
+
+[R454](results/R454-complete39-necessary-scalar-tables-and-single-readback.md)与独立helper9840e9ae/worker59276c9e/recipe23535486已完整源码差异及原producer类型文本核后发布：原必要20条trial范围/全部失败地址/FD失败收缩/观察器错误/真实末参数均保，明确标量表只去重复字段名；四种共用须选定对象canonical字节完全相等，保整数/浮点及正负零，缺项null不代表零或通过。原105 pins逐项保、加旧worker与新helper为107，独立worker总108；真98原父/39数学/八组全部预算/所有门/单份90KB与超限70不变。原200正文已消失且未据SHA恢复；未假定新摘要必装得下，无本地科学/fixture，独立206实际R455尚未启动。
