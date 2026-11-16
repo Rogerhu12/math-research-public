@@ -44,3 +44,8 @@
 ## R535 — 原128 root局部有限字词与真实编译接点
 
 **已证明固定有限程序的字词保持及真实compiler API；新源未执行。** [R535](results/R535-original128-local-finite-root-words-and-real-compiler-hook.md)/[接口](notes/2026-11-16-native-root-finite-words-owner-compiler-interface.md)五件56753B：header7102/6706、adapter10892/1c99、plan10232/f3b7、proof17788/5643、interface10739/c98d。仅一个实际root内momentum/pt/全P/Pt和一次evaluation内U系数，完整原Q表达式、j序、全部角点/列/mean及nonfinite原fallback保持；原root/RHS/RK/native选择逐词条件证明，保±0/subnormal，无跨状态cache或速度/资源前沿保证。18真实计数/完整last加入实际owner serializer；原reader仍须R536完整选入。真实HERE生成primal25230/3e1c与trace34950/2e12，原persistent_CPP7789/main/solve/replay与6000/19200/全部caps和门不改；真实compile_owner保原g++/observer/PGID，旧whole-frozen旗诚实false，编译实际回执区别准备/安装。R536/226完整入口继续，未注册/dispatch或迁已清父。本次H/索引完整旧文固定90624，open§4–6逐字保。
+
+
+## R540 — Request228原八组完整39与可逆必要语义接线
+
+**完整真实接线已付，无预填数值/容量结果。** [R540](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件169296B/topic147317B：114public＋6生成=120，原actual223的116逐值保；四历史view仅身份、当前helper75760/bb02与worker29708/ea2d在真computations执行。原assemble_chain实际import R533→原f793→具名可逆关系，normal/recovery同publish；f793无输入schema gate，旧223-contexts只是格式，真实request/run/source为228，两合法格式都保。原八39/model/各新warm完整freshFD、98原父/所有门/10500/175min/195min/90K70/owner/quiet不改。超限只增真实10根/25角色大小；新cleanup一行将实际comp放sys.path，原223此支未达不冒旧实发错误。新增.github/workflows/visible-larger-public-thirty-nine-semantic-relation-batches.yml为本题完整入口；根README不改。正式发布后一次官方dispatch，实际head/run待回执，R541 exact唯一终态，无unknownbody fit保证或旧删父复用。
