@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R556](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)四件99450B本次独立刊**：完整112far两mode同一ω∈Ω、原25M原子总额度/绝对钟，全部arb mid/rad dyadic与ctx、原序全账/地址重定位/prepared SHA/两级commit保。完整durable提交后退休spool、同PGID/真实handle/reap/失败不续wave，unknown quiet不冒真。无新运行或速度；完整真实235消费者注册另R557/234/R558。238已a4c45/run43885002914唯一POST200，官方绑定本次保。
+
 **[R567/request238](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)/[接口](notes/2026-11-16-request238-current-prefix-tube-complete-chain-interface.md)本次七件独立完整刊**：557=302public+255gen、原235的545源全保；同次实际sameC evidence真用675全quintic/真实μν的R553管，normal prior evidence和全部原metric/DFS/闭场消费者不改。全新诊断及负域/未付进两必要reader，原18900+2700/90K70保持；正式刊后唯一POST，R568 geometry唯一。237已99347c61、唯一run43884807627，[正式绑定](notes/2026-11-16-request237-official-run-binding.md)不等于科学接受。
 
 **[R565/request237](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)本次五件独立完整刊**：已刊R564真十caller/一次直接安装，432=357public+75gen、原417与八对象+lanes逐值保，三个R534原消费者/全128与末门/原钟/caps不变。完整3×17/full last和旧RootStats、同次旧overflow正文/70/false与两必要reader全保；正式刊后唯一POST，R566 amplitude唯一。此为完整入口，不是已观察编译/速度/接受结果；R564实际第一乘法快捷不执行Q指令但RN字同的边界不得继承旧R561字面指令声称。

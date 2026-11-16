@@ -55,3 +55,5 @@
 - [R565 — request237准确首乘积与完整原模型入口](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)：五件266169B；432完整源、原417/八对象+lanes及原三数学consumer保，十caller直接已刊R564，完整normal/recovery统计/70边界与原末门/钟不改；正式刊后仅一次237派发，实际R566另付。
 
 - [R567 — request238实际当前prefix管与完整场链](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)：七件314058B；原235全部545保→557、实际sameC evidence真675/R553管、原normal evidence/metric/DFS/闭场/资源门全保；两必要reader完整诊断不代接受，实际R568另付。
+
+- [R556 — 同C完整112far两worker及原序账](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)：四件99450B；同一ω/完整两mode、原25M/绝对钟、精确arb传输/ctx、全部原账重定位/两级commit/同PGID/真实reap；未作运行或速度结论，完整入口R557另付。

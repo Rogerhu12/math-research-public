@@ -30,25 +30,24 @@
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[99347c61固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/99347c619e66946b758f6f731ce0a4f76d41fa9e/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/99347c619e66946b758f6f731ce0a4f76d41fa9e/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[a4c45fc7固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/a4c45fc70851164436ed2be48c531a54fbbec11b/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/a4c45fc70851164436ed2be48c531a54fbbec11b/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-**R567/request238七件314058B（题内222553B）本次独立完整刊**：[证明](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)/[完整接口](notes/2026-11-16-request238-current-prefix-tube-complete-chain-interface.md)。原235全部545源保→557=302public+255gen，十生成层；当前sameC evidence真接R553实际675全quintic prefix方法/μ/ν/joint正域常数，正常prior evidence及原head/leaf/bridge/tail/三个Loewner消费者不改。原metric/DFS/BVP门不读诊断，normal/recovery完整新诊断和未付/来源保；全部C/CP/十词/18900+2700/32GiB/90K70保。R553及R559已刊；正式刊后唯一POST238，R568 geometry唯一。
+**R556四件99450B本次独立完整刊**：[证明](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[实际接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)。两mode均对同一ω∈Ω计算完整112far，不变原数学因子与原顺序账；原25M共享原子admission/同绝对钟、准确arb dyadic+flint上下文、所有系数/prepared/step/tube/commit地址重定位、prepared canonical SHA重算而数学factor SHA不变。完整fsync与mode commit后才退休spool，失败不发下一wave；同原PGID且实际子handle/reap、不把未知quiet写真。组件无新运行/无速度承诺，R557/request234/R558另真接235全闭包。
 
-**237已99347c61正式刊并唯一POST200**：[官方绑定](notes/2026-11-16-request237-official-run-binding.md)run43884807627、head同99347，R566 amplitude唯一核compute/终态。原432来源/原门/时钟与R564首RN字证明、3×17统计边界全保，派发不代科学接受。235/R560、其余原活动持续；R541/R553/R564等完整原文及所有未付见固定历史。
+**237及238均已正式刊且唯一POST200**：[237](notes/2026-11-16-request237-official-run-binding.md)main99347/run43884807627/compute133359953110，amplitude唯一R566；[238](notes/2026-11-16-request238-official-run-binding.md)maina4c45/run43885002914，geometry核compute并唯一R568。两完整源入口与原门/钟/必要读回边界均保，不把派发当接受。235/R560 exact及原活动持续。
 
 ## 完整待发表来源
 
 下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
 
-- R556：4件99450B，manifest e077ba3f188ca5892bd437241c70c2f661aacdf3（2322/67e7b48e）；同一ω∈Ω的完整112far两worker、同25M/绝对钟、准确arb dyadic传输/ctx、原序全部账/重定位/prepared SHA/两级commit/同PGID/未访保，无速度声明。组件不冒全下游，R557/request234/R558另真接235。
 - R569最终：3件74959B，manifest45975e8bced5333ae976238b85d56e4ed42aed99（3812/70b9772e），取代未刊f349旧组；同次真实PPoly/675全quintic差/joint段正域与条件Gram界，gφφ=A²ρ²、rho_lower真675原界、P式ρ不另乘；旧raw不能造PPoly，R570/request239/R571全caller未付。
+- R575三件59453B，manifest bd48c8feb15cf6de15a70af3d619b364a1c49d42（3306/a127e42d）；真实同次R553/R521 cylindrical二阶完整chain rule→全部tail/无限alias与两mean；原DFS全覆盖才global、phase pullback不冒投影交换，FFT形成另付；完整组件不冒R576/request241/R577实际caller。
+- R573/request240/R574五件278766B/topic254471B，manifest63ec2d51feb859667ecdcae02866b61cb35b4972（2422/d9363257）；真实237已99347头，447=360public+87gen全原432/八对象+lanes保，十caller真实R572五合成、5×17/full last/原70两reader，先刊R572再本入口唯一POST；amplitude唯一R574。
 
 ## 当前执行与紧接责任
 
-exact续R557/request234/R558真实235全112far闭包接R556，545原pins保；geometry续R570/request239/R571真实同次PPoly三driver及R575完整cylindrical投影tail/alias，条件诊断均不加原门。R569最终45975三件74959B仍立即独立刊，A²ρ²归一化与rho_lower真实675绑定、旧f349未刊。
+exact正在R557真实235→全部112far消费者→必要/quiet完整注册，原545保；原输出与R556同数学不冒独立rootω。geometry继续R570/request239/R571三driver实际同次PPoly捕获与R575完整tail/alias组件已齐；R569仅最终45975组。root补完R572五合成完整证明即刊，再刊已完整R573/240（原237真实99347、447源）；amplitude已接两旧25-domain manifest实际依赖容量审计，未证先不删。
 
-root R572五原合成路径完整源header2380/a715、adapter20999/cdc7、plan14796/25e8，7/3 literal、20deps、5×17/full last，正文收口；amplitude R573/request240/R574真447源caller已有正式237头，待R572完整证明。无本地科学执行/AST/编译/fixture。
-
-容量逐笔≤200MB；两旧manifest普通整理已f7d56b2、1456843B移出/固定e6恢复，所有当前输入和完整实际guard/错误/原依赖责任见[完整恢复note](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)。根8两大manifest误读、根15的6fa/72ed原necessary误建detached Git对象继续如实记录且停止复制，非交付/科学父；当前只作者源/证明交接。
+容量逐笔≤200MB；两旧manifest已f7d56b2普通移出、固定e6/d195同字恢复，完整引用/实际guard/失败边界见[恢复note](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)。根8旧两大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。新容量审计由amplitude另在公开Actions执行，未查明依赖不动现用数据。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
