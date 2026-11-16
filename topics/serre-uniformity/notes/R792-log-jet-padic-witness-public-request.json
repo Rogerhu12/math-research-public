@@ -1,0 +1,59 @@
+{
+  "job": {
+    "ball_core": "R792_original_CM_point_padic_nontorsion.py",
+    "ball_core_sha256": "dd3f06a2ed34d31d4d9cc7000eeb5ca763b3fa26b238b418de3e2a47e8dca9c0",
+    "budget_minutes": 30,
+    "core": "R792_original_comparison_log_jet_padic_witness.py",
+    "core_sha256": "a3d04929db13d1c73414807f0a7c73b18c0e0e4e749d2349e3a44fdafc160335",
+    "dag_core": "R792_original_CM_response_beta_DAG.py",
+    "dag_core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "method": "notes/R792-original-comparison-log-jet-padic-witness-method.md",
+    "method_sha256": "d55f377e2bb3532bfe6d5b18ecfdc26f74f1c6451507fefea5f3ea0b6a09fbf2",
+    "p": 41,
+    "parent_source": {
+      "archive_bytes": 2170291,
+      "archive_sha256": "16d214a10e91297df9874bbd892862990fe570f809dff6312c9a4cb9866663ce",
+      "artifact_id": 14189930390,
+      "artifact_name": "serre-global-R792-Hom-comparison-log-jets-43783814426-1",
+      "certificate": {
+        "bytes": 7716,
+        "file": "p41-original-Hom-comparison-log-jets-certificate.json",
+        "sha256": "b35690551630afced22b426b92f58e5e5747c9d7667c66fb02413d750609054c"
+      },
+      "configuration_sha256": "0b9025c1cb3816fd62b8a0de7a62118dcceef2343f9712b5cff6d9edfc1324cb",
+      "core_sha256": "417f2df7365fcb3ea2e9ce5403404b9c0d0859fc43359b52bb775468452328c2",
+      "expected_conclusion": "success",
+      "input_bundle": {
+        "bytes": 1935655,
+        "file": "R792-Hom-log-jets-retained-inputs.tar.gz",
+        "sha256": "2d36482535bc2ac2b0b31b688ffac81c96a828ba8610d63de9a51085a5c08448"
+      },
+      "manifest_bytes": 1520,
+      "manifest_file_count": 10,
+      "manifest_sha256": "07f58e44141e614c69142b1645a54550dfef38b63e4fc8c69c429d3eaa79fbdc",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R792-original-Hom-comparison-log-jets",
+      "run_id": "43783814426",
+      "selected_file_count": 9,
+      "selected_files_sha256": "7687fad45359ce3e0f8001b790615afef43fce8a505ef553a1d6560f55e80293",
+      "source_commit": "94e4d5ece6cdb0b0d10bad40a2df625ef086a5fe",
+      "wrapper_sha256": "f79f4aa340a7e8050d19c746c4a02bb495081710f54566454bc8332ad2a3778b"
+    },
+    "producer_inputs_pending": false,
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "result": "R792-original-comparison-log-jet-padic-witness",
+    "resume": null,
+    "workflow": ".github/workflows/serre-R792-log-jet-padic-witness.yml",
+    "wrapper": "R792_public_original_comparison_log_jet_padic_witness.py",
+    "wrapper_sha256": "ea579ada26e837b01250d670be7620f114066967e2ef62dd783aa8cd48dda187"
+  },
+  "rules_last_read_commit": "5f4e41117b9da76cc50d45b6416093bb1b9eaf1f"
+}

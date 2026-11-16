@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保于[dual启动前open](notes/2026-11-16-open-before-dual-launch.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+最新完整前态逐字保于[一阶见证前open](notes/2026-11-16-open-before-first-jet-witness.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
 
 **直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
 
@@ -61,18 +61,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R824**：[365完整断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)仅27权5+244权6继续，1186归R787；原129/142/280Q、κ/246一次、r28不补143..155。完整准确生成后才1778minor/1206。
 
-**R835原约化D已成**：[四阶结果](results/R835-certified-original-order4-termination-and-reduced-D.md)run43767561191，原I4=C、D约化/K1；完整det/两图/proper源不重算。旧Hermite取消403，不续接。artifact14183161538至Nov16 22:10UTC；source27.5MB/eb908748与原233.6MB/1e3fc4db均在该包，后者保旧S5/原输入，不能把小包当完整upstream。
-
-**R837真实两锚已成**：[正式结果](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)run43770995901/job132986722252/sourcefa17c77f，14.224秒；原P0的146值/完整397维U已准确取得。原u=U0+U1(22项)、v=ΣUj(418项)，真2760×1380之1213minor665846025 mod1000000009给共同零恰C20+P0；trial0rank900只有限记录。141完成stage/1413旧源全SHA，final83234905/manifestfe2aee5e；artifact14184475817/ea610ed2至Nov16 22:45:47，最小carrier29497132B/c17f51a9。旧CM/前缀不重算；D坐标/eta/height未得。
-
-**R838完整I2与最小三阶已成**：[正式结果](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)run43771598002/sourcef5fa479f，17.344589635秒；新det2408/2429全节点与旧d0(1320)的gcd395，原σ∞只用层0/1。proper长度夹逼给J2=I2、E2=C20+D、ε0/P0∉D；接R836逐点公式得I3=C且最小阶恰3，不再开q3计算。finald9674a45/manifest6b8d5c01，artifact14184482549/6f063bc0至Nov16 22:52:19。D短RR坐标/eta/height未得。
-
-**R842原两图短RR与D完整基已成**：[正式结果](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)run43776927742/job133005301364/sourceccc94341，35.966809456秒/101stage；实际T11秩2451/det483777893、T5秩415/det628817039、D秩395/det422341556，原H0(3H−D)295准确单位解基及全830乘回已成。final51dff9f0/manifest5bb824d2/config7597a9d5；artifact14186901203/9a4b0b02至Nov16 23:52:18，2919原源carrier115.52MB/a1f8b947。原D基ec71c061、D矩阵42e09dcc、S5矩阵1c1647ea已纯IO取。首τ2431不足/源修正e9269c0e保留；仅续20σ列4..9和81移位、旧矩阵/0..3/S5逆不重。准确展开坐标/eta/height仍false；后继真实D极理想。
-
-**R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
-
-**R841原点及指定下降点表达式已成**：[正式结果](results/R841-certified-original-CM-point-and-descent-DAG.md)run43774984563/job132999220068/sourcecbcaa616，0.037801001秒，4stage/50node/174旧源。准确β_C=(3h0Q/N,A0/B0)、原f_R点均true，B0/Q/N非零有来源/几何证明；原v/κ及Galois全保。final52b80ce2/manifestde6b334f/config58164ca8，artifact14185648917/f848bab0至Nov16 23:28:50，最小carrier1.21MB/1cc858ba。全部1.32MB ZIP纯IO重哈希；旧CM/Hom/Norm不重。展开坐标/旧R792展开入口/抽象A前像/eta/height均false，后继点加法仍需具体准确零判。
-
+**已成原几何与CM接口直接复用**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)约化D/I4；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)146 P0值/U397/两锚；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)I2/P0∉D/I3最小阶；[R842](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)两图2451/415/395和D295准确单位基；[R840](results/R840-certified-original-implicit-CM-value-and-first-jet.md)原四CM响应518位/有限原y表达式；[R841](results/R841-certified-original-CM-point-and-descent-DAG.md)原β/实下降50node。完整旧source/run/SHA、全部尺度/真实坐标/原carrier及边界逐字保于上方归档并见正式结果。旧CM/Dixon/前缀/导数理想及单位核不重，未把表达式完成当展开/原A前像/η或高度完成。
 
 **短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
@@ -143,3 +132,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原c0首项已证明、数值待公开消费**：[完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204从R838 P0∉D及原K[T]简单模推出全部非零原Hom在c0不分歧。原t=a³下，六V=U/E6值/一阶仅用末四M6坐标与Φ0/Φ73；原λ³=108W(0)，五R_j准确阶14(p−q)，κ_j=N(108W_f)^(2p)/N(108W_g)^(2q)及d_j=−(qTr(W_g′/W_g)−pTr(V0′/V0))/2。全常数/真σ/正三同源/负理想类号保留；只是指定主函数比较的原纤维标量和首单位项，未完成标准Jacobian/规范theta二挠/Poincaré刚性化/height。旧M6/CM/大矩阵不重算，实际六值/范数/迹在本公开Actions继续。
 
 **原全局来源读取修复**：[实际R791旧ZIP差异](notes/R839-global-polar-old-R791-ZIP-contract-fix.md)首run43787110788未入core；前七源全过，原R791仅9输出+manifest、无reference。wrapper39bef619只对固定原身份严格适配并补traceback，最后一组实际IO通过；core995a1298/2709来源全不变，重新触发，未预填全局结果。
+
+**五原比较一阶非零的有限检验已启动**：[方法](notes/R792-original-comparison-log-jet-padic-witness-method.md)d55f377e，corea3d04929/wrapperea579ada/request69e1ae86。沿R846原733节点/五logjet根，复用R843原branch0已成518位根与f球、R840四完整14坐标响应及R791真σ；270原来源/载体a7ccfe9b已纯IO核。只对新节点上下文求绝对精度球，零球或分母不明仅未定，非零球才证明该D_j及原R_j′非零；不重Hensel/CM/Dixon/既成数学，不声称高度/A.1/全p。实际run随后记HANDOFF。
