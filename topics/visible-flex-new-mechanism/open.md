@@ -72,7 +72,7 @@ R383原有限表保留，但R387/388完整正余量已阻断原Gaussian同芽连
 
 在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
 
-### R345/R435–R443：完整49 self模块，继续全部真实根像
+### R345/R435–R448：完整49 self模块与准确19/30真实接口
 
 R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal C核与R441非零c的Wronskian/ur⁴给旧22formal，同固定镜16/六blind。旧六列余商仍只属于该22子模块，不能称增广模块的完整核。所有原K/J尾及实际prototype/J⁺基准保其原稿。
 
@@ -80,7 +80,11 @@ R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal 
 
 [R446](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)已纸证whole-Q universal的不交2+2迫三密度各有真局部νj；四次M=homotopy/4保双端，h′=−cu使全部u4消，3剩Jj系数恰原current的4倍。因此联合核必Af局部Laurent，R443无p分母是额外实际；不能用少数suffix零代formal核。
 
-下一把49完整函数对同一实际母的全部根评价，保真wi/ξi/幅权/suffix及共同h=u*/r*、s=p*/r*，不能把自由jet秩当固定母满秩。先同一成本付全部C，再清self余量，signed评价与actual J⁺/两次商/桥/Klein/原型×n联合仍分清；真实period特解、gap/平台值及13同规范继续。R446纸证局部性、R448固定镜限制只消费本次原记录，不重53 self/union秩或旧检查。
+[R448](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)只消费原三列V31/V44/V51的唯一x5/x6/x7最高项；同r*≠0、s≠0的真实镜对准确像(P,T P+Q)、degP≤10/degQ≤7，恰19维且无generic h条件。旧五MEMBER改用新V_i原lift，K完整左逆及L0…L7递推保所有低阶/常数，原11左+8右第五幅/位置矩阵真可逆。
+
+49选定独立lift空间的镜对核恰30，Π0 C=C−K[f−]−Σ[x^j](f+−Tf−)L_j给全部原source生成。先同一成本付全部C、用真实normalized η/(ρ⁵r*⁵)清19核心；其余所有根signed可付 iff剩η落Π0原49列在每个真实jet的像。不同母/宽度或r0点保原多项式读出，不沿用旧六blind全盲。64输入的45镜核中另15只是全Af输出盲，不宣完整成本零。
+
+下一R451追H*的真实全根目标是否落此像、全copy多项式次数与任何明确余量，不以再列形式rank替代实际目标。actual J⁺/其它C仍须同一增强等像、原型×n/两次商/桥/Klein全部基准与共同合法窗口；真实period特解、gap/平台值及13同规范继续。未授全R_p0=144+K，原Θ71(kerΠ71)来源仍开放；不重53 self/union或旧检查。
 
 ### 完整period与同一w joint仍须真正求解
 

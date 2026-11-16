@@ -18,7 +18,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 ## 3. 理论已付接口与剩余义务
 
-R105/109/130保完整history、同锚端势；真倒行第四同号，signed非实际逆元，R156仅α∈πZ。R333相容whole pure/self维10实际C1截面，非全权等像；旧H及7–13秩按R378/381/382撤回更正。R388只排原Gaussian同芽连续C²首阶轨道，不排高阶才动、其它芽或一般C²面。
+R105/109/130保同锚全history，真倒行第四同号、signed非实际逆元；R333仅相容pure/self10维actual C1，旧H/7–13秩已撤回。R388仅排原Gaussian同芽C²首阶轨道，不排高阶才动/其它芽/一般C²面。
 
 R344/R352的全R自然λ零不能外推actual。R406 canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，故actual全Λ0背景不可建。R409末包16d/e读M5λ+，当前母须M5零；R408允许w不能改totals、Af partial或平台G″。
 
@@ -30,7 +30,9 @@ R411/412/R431从起点同选四自然约束、F_rat/19真目标/全部Af根/共�
 
 [R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)保M0/周期两种端项：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]。D0 iff三次矩型被n0n2−n1²整除；真实路径值/actual原型基准仍未付。
 
-R435/R440/R441旧有限self模块22formal、同镜16/六blind；真实K左常数与r0例外保原稿。先同成本付全C，再16核心后的全部其它根落六blind像才可signed清，这是旧22模块范围。[R443实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)唯一run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac已完成：53新完整self全部local无分母/无高jet，fresh53+adapter2全过；新self38/核15，K11合49，11旧非K全member，新增27formal。249原记录/全部source完整；0旧rank/检查、0实际根。**旧16/六blind不可当新49的完整评价像**，下一新49同镜/全根评价；实际联合控制未付。
+[R443完整实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac：53新完整self全部五次local无分母/高jet，fresh53+adapter2全过；self38/核15，K11合49，旧11 current全MEMBER，新增27formal；249原记录，0旧rank/实际根。MEMBER不等完整成本相等。
+
+[R448](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)在同一物理镜对r*≠0、s≠0上，准确像(P,T P+Q)、P∈Pol10/Q∈Pol7，恰19维，无generic h例外。给K11+L8全部原lift/完整左逆，真实11左+8右幅权Vandermonde可逆；49选定lift空间余核30，明确Π0原49列生成。先同成本付全部C，清19核心后全其它根signed iff剩η在这30的真实jets像；旧16/六blind不再完整。64输入的另15 Af盲关系不是完整成本零；actual全部根/period仍须同一原型基准与共同窗口。
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
@@ -56,4 +58,4 @@ R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核
 
 ## 5. 当前工作
 
-R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；R446局部性已发；接R448新49镜对/全根评价。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443实际、R446局部性及R448准确19/30接口已发；接R451真实H*全根目标与同一actual增强。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
