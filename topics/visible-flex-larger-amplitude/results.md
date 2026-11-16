@@ -407,3 +407,8 @@
 ## 2026-11-16 — Request207同作业联合精化完整入口
 
 [207完整入口](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)已全文/完整原205差异读后发布：request21956B/c798f376、workflow98422B/37f426a2、接口21153B/cf233c72，三源与条件证明R458已刊61744a58。原20597406B/06ae子合同和95760B/726d工作流明确保留，新job执行其全部原科学块，154pins不替换、新增75共229；原六小时/18900+2700钟不改。原全部必要读回后、清理前接真正R456五factor2→M128四factor1、各场五几何/独立held/R459测量t4、8、16及单份比较；原七必要再加新单90KB/70及所有真实owner静止，才清同一临时现场。无fixture或新增接受门，R461显示/R462联合far不接首版。新请求路径push触发公开仓库自己的Actions；实际R460/source/run待官方绑定、exact唯一终态。目前没有新accepted450/M或误差数值，不以入口完成冒README完成。
+
+
+## 2026-11-16 — Request207官方运行绑定
+
+**执行状态，非数值接受**：[207公开run](https://github.com/Rogerhu12/math-research-public/actions/runs/43801267782)已由提交1e05442404d3867fc09589a523e594202efde7c0于2026-11-16T03:58:34Z真实push触发，attempt1、compute133081849462；官方metadata见前12步骤成功，第13连续E cover正在运行。exact唯一负责R460终态必要日志，root不重复读取；新job所执行205子合同不冒原205 run，尚无精化或误差结果。
