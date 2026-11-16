@@ -204,3 +204,5 @@
 - **R150原Bell三次幂严格非成员与全部权九来源核（2026-11-16，已证明）：** [完整真原子式与特征零提升](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)实际构造49368×(16442+3)全部输入、7,023,209系数产品；在16372原行取得16047阶原子式det7=6，仅16046原source列＋c0。原Q/E来源秩恰16046，故396条独立Koszul关系构成全部权9源核；c0非成员使所有匹配共轭原b³非成员，从而t^K全部K≤11无原源，最小Bell1单位来源权≥12（若有）。全增广只称≥16047，不把此有限幂负证当Bell1判空。实际94.895秒/native72.316秒，根全源、raw/binding、完整输入/状态及16047原pivot独核；全部数学数组只临时。
 
 - **R271首头真一孔核消去、物理两孔正Schur与同完整来源（2026-11-16，已证明）：** [完整物理两孔定理](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)以原偶强头K⊥Z保全部一孔dark/coherent真核，得F1=(I−PK≤1)f1；真实低伴随像ζ(z)=zω1+A zω2最小化给F2=q♯ω2−λω1 z♯及准确费γ2²=σ2²<q,(I+λAA*)⁻¹q>，其中λ=σ2²/S。两个代表原物理正交且在原PV−PK、完整matched源及真帽运输上相同，给最优调和费用；两孔整行交叉σ2(y)/σ2(x)及所有h段Bessel保同w/同源误差。γ2移动上界仍开，未据条件费用律宣N=M。纯证明，根全文独审，无新数值运行。
+
+- **R150 原t2指定循环自由项（2026-11-16）：** [完整整自由格§7](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)的全225列实际只读核验给原t2前23自由列单位，因而可取U=R·t2的自由像≅R/h，实际M≅(R/s)²⊕E、E=S+Rt2；不抹系数扭子或未定扩张。其余原九模31秩逐实报告，4/10为22。
