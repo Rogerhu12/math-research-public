@@ -305,3 +305,9 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 [R552](results/R552-three-exact-p-moments-with-one-gauge-and-a-positive-t1-remainder.md)完整原式纸证。同一R521母/同χ/真零history，真实低驻留完整t1静态列与有序第三改变水平W∞，按真末值上升、唯一原P2零事件，两个真实控制的C¹端映射/IFT准确给P0=P1=P2=0。原T1全成本归一余量𝔟z∞/6>0，含全部低尾负费、对数等待、过渡及速度平方；原/中心矩识别保。root全文已读，0科学执行，立即推送；另五矩/末germ/pose/period/13继续，未全M0。
 
 full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/research133470222034（17:13:02创建），元数据显示原研究步骤进行中，尚未读运行中科学日志。H记run，待完成后读真实pull和最终科学账。open的whole34/full51两节逐字归档，旧成本与边界不撤。
+
+## 2026-11-16 17:22 UTC：full62原0/true返回及严格metric失败完整闭账
+
+[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/research133470222034。原54iter/70值/52J，K达16.393442622950822且准确盒/norm真；fine η.26600531463999494>原.26600531463999305，严格门false，0完整body预测/原actual，仍58。新115.53521002299999秒，总3757.97482037/147；70q/1248导数块、余额1684.464789977关闭、0磁盘。十原记录及完整返回取得，最后J属于value69而返回筛值70，禁止移配。report语义完整、source/run/current receipt全match，不能以report成功代替接受。
+
+四次实际pull均规则空diff，最新report public17:16:04读25265e7eaca1b00a879311032a8520546516416c、private17:16:08读5f99e48d3c18028b006b07e3394a9f586f753c2a，QUEUE唯一进行中；H已更新，下一≤18:16。下一研究完整168的前缀与后缀共同修复，并保内部严格余量与原门；不重开full62或用callback补接受。

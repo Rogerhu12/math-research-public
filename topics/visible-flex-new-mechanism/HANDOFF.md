@@ -6,7 +6,7 @@
 
 根/题README已全文读，两仓已blob:none sparse部分克隆。本地最后已确认public16:19:30→16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352；private16:24:57→16:25:17读9c5ec050ed672180245cf65312af93bef2ab937f。后续本地故障不冒成功。
 
-最新**公开Actions实际Git pull**：report public16:49:48.273342→16:49:49.083526读 **c12ef2907fc74fb9dab7f98545117df3ebfc4dd5**；private16:49:51.692753→16:49:52.324681读 **6d351da624ebbf3205221dcbf3787c3bf17d299a**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**17:49:49/17:49:52 UTC**；四次CI回执见[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)。私有正文不发表。
+最新**公开Actions实际Git pull**：report public17:16:03.475263→17:16:04.536661读 **25265e7eaca1b00a879311032a8520546516416c**；private17:16:07.517829→17:16:08.318992读 **5f99e48d3c18028b006b07e3394a9f586f753c2a**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**18:16:04/18:16:08 UTC**；最新四次CI回执见[full62闭账](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)。私有正文不发表。
 
 16:26–27public pull rc0但磁盘满/upstream未整合，**不算成功pull**。仅清本仓126个孤立GC临时副本2016603782B，保正式对象/研究文件。16:31起执行环境不可用；按根8以小UTF8源码/MD接口expected-head非force发布，**API不冒原生pull/rebase**。新Actions科学前真pull双仓核规则、回执补H；本地恢复立即pull。有变只读diff即执行；故障全账见log。
 
@@ -48,7 +48,9 @@ R549准确三p=p2(u²+h⁻²,2u,1)，正负质量须匹配均值和二阶矩；�
 
 **O2**[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)无OptimizeResult/返回向量，0预测/actual仍58；末完成η/PSD/当前K曲率失败，last backend异点不移配。新410.626657796秒/180q/179J/2864blocks，祖总**3642.4396103470003/147**；余额闭、九记录完整、0磁盘，大数组bindings不授free，whole34缺失正文亦不恢复。
 
-**full62新范围已接线**：[设计](notes/true58-full62-whole-suffix-design-20261116.md)/[合同](notes/true58-full62-whole-suffix-model-contract-20261116.md)。原51+q157/158及body9共62真实控制，64变量/63物理非零行/474线性+145152非线性；q153…156零列固定。先RN独立168再原exact物理172，row162耦合保；原hmax仅本范围限制，不称新全盒充分。唯一true58，1800总/1200solver秒、320iter、640q/1280backend，最多1预测/1actualpair。run43916013327/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43公开运行中；request85793B/382源，待原观察，不重开旧scope。
+**full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43。原SLSQP0/true、54iter/70值/52J，K16.393442622950822/h26.075975493509613；准确172盒/norm、两网曲率/PSD/area真，但细η.26600531463999494>原budget.26600531463999305，严格metric false，0预测/actual仍58。新115.53521002299999秒/70q/52J/1248blocks，总**3757.97482037/147**，余额1684.464789977闭。10原记录完整、raw64/168/172真返回保；末J在value69，不移配返回value70；大数组仅bindings、0磁盘。
+
+下一**完整168联合前后缀**：同原场/盒/14门，付全body约束与62后缀共同修复并明确内部严格余量。原62 scope不续跑；原失败raw可作标明未接受数据，不能追认59或借缺失J免费。当前正做新源级问题，尚未执行。
 
 **O4**同R533母R536、同R521母R539各已付一次χ的净负总p1及单矩准确零，R540另已付33母同支k>2，R542已付快族t1总负/真实驻留时长门，继续各自同χ慢轨道、其余七矩和全部返回门。R537/538只授先固定有限高度/时长后δ，近k0的t1仍负；R530/532四偶局部开像尚无真零。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付，不能混母或逐段换χ。
 
