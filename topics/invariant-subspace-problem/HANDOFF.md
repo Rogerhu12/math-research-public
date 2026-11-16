@@ -28,8 +28,8 @@
 
 ## 活跃执行、临时缓存与立即恢复
 
-- **旧live run43756208221** 始20:06:58 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json；46步；35∞127/36Ω127/37J127成功，38…40 critical gain0；41…43 tangent2均gain0，44…46 pure cubic均exit0/gain0；完整父子缓存保留。原Q/6…10高低/原core1394807/Ω完整cert39MB仍临时；新critical入口复用，不重core/det。
-- **新live run43772109844** 始22:57:13 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；13步均成；13原root63正证使Δ≤298；保global197、root2全210 recipe、original127-normal-forms-all6188、original127-complete-graded-module、original127-whole-torsion及original127-nine-target-cyclic-module。25作用小phase2608·fa79c616，h*动作914·e3e6da27，零像867·aba84cc2；只临时。
+- **旧live run43756208221** 始20:06:58 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json；49步；35∞127/36Ω127/37J127及38…46三轮critical完成。47…49完整H6018×4266已排180秒/2GiB，每域原2核作Q上界、指定17/19原模秩作下界；rank4264才关全高核，实际未回。完整父子缓存保留。原Q/6…10高低/原core1394807/Ω完整cert39MB仍临时；新critical入口复用，不重core/det。
+- **新live run43772109844** 始22:57:13 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；14步；前13均成、root63正证使Δ≤298；14只读J299完整五critical主分量已排60秒/512MiB，实算每个幂核/循环指数和完整原基，不预填系数像；保global197、root2全210 recipe、original127-normal-forms-all6188、original127-complete-graded-module、original127-whole-torsion及original127-nine-target-cyclic-module。25作用小phase2608·fa79c616，h*动作914·e3e6da27，零像867·aba84cc2；只临时。
 - 两runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
