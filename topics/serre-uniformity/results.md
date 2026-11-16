@@ -315,3 +315,8 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R894执行已激活**：[方法](notes/R894-original-seven-conjugate-trace-execution-method.md)冻结core9a2793c7/wrapperbcf31979，真实R890与六D小intake及56原源绑定；复用D2/E/七正常与14旧H/E纤维，只新16flip。完整见证闭包保留，闭合后扫描中间文件只留hash史；尚无新实际flip/下降矩阵或K-fixed基。
 
 - **[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。 SHA256 bd5f004efd6e7f12cdb9ccae1717c3862e17e066d309310205397bd0f2442d5e。
+
+
+### R899 原七极trace的K固定完整RR基
+
+[R899](results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md)证明：V_K=H0(2H−T0)维418，原K完整纤维坐标实际可逆子矩阵A给QN·w·A^−1，凭坐标唯一性逐列K固定。旧下降矩阵A^−1γA为准确DAG，新固定矩阵I418无需六次重放；完整Artin评价与原P0/t首项边界保留。实际子式尚待公开Actions，不预填R894/R899成功，不冒D_N在K或Q定义。
