@@ -392,3 +392,7 @@
 
 - **R466已证明：完整换锚mirror与增强−6/−4排字符，满闭锥iff h∈span(y)。** [完整证明](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)保R56左右锚/真实Γ/P2与total/ordered，再由同权Pol2/Pol4与N³H* lift付完整Jaff负权。旧双参数actual仍须h=y=0，未预报四self成员。
 - **四self首次入口UTF8清单失败，0科学。** [记录](notes/weight-zero-four-self-utf8-manifest-failure-20261116.md)：run43817737164/job133133535871，仅R329源长度50184→50185；原SHA通过，0source-read/根恢复/新self，entry.005253693秒；修请求续同一180秒任务，双pull/空README差异已读。
+
+
+- **R467已证明条件实际联合定理：全Jaff核内P-hook支付最高d，再接同一13规范。** [完整条件定理](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)保真range有限U延拓、−η/τ、n·prototype/两次J校正、固定incoming与Klein4倍；同一最终成本再清e并接R464。两self/同增强满锥前提尚未代付，其它s段仍欠。
+- **四self已付两Q-RHS后恢复容器失败，续未付self。** [原始记录](notes/weight-zero-four-self-paid-Q-RHS-and-restore-container-failure-20261116.md)：run43818340099/job133135408458，10记录完整，5.033211667秒保同180秒；0新self，不重已付Q逆，修source_hashes容器续行。

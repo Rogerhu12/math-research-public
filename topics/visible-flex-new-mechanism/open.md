@@ -181,9 +181,9 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 全正H匹配准确iff同宽目标落完整权0像，旧49的19维混权右逆不能移植。仍余恰两完整cost，self可能增0/1/2维，当前V0成员未付。R316原日志保存13pure列/全T,Euler但未印六核代表；下一只取真正新需的current/self contraction及原差重构，不重旧pure/wholeQ秩/检查。actual锥/固定词基准与九行仍另付。
 
-### R461–R464：同一真period下的完整规范已付
+### R461–R467：同一真period/最高值/13规范条件实际衔接
 
-[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)原完整Bhook全13盲，R280三矩及三真实circle bases给kerLf/全port盲的合法三矩右逆。R464现已在同起点M3非零库上，用统一真逆/原差分/真实平台付剩余九行及seed；先前九行Smith接口不再是当前未知秩。前提仍是同一最终成本的两真period及最高P2，原gap/incoming/实际prototype全保，继续actual增强与其它s段。
+R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十port。[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)证明KP=B_PH整个Jaff核且d~KP=−η/τ≠0；真range最高泛函以U截面合法延拓，用原两次J校正/n·prototype/固定τ/保护芽X*/Klein4倍，实际同时清Jaff与最高d，再由包装清最高e、接同一13规范。仅条件于同一加强库的两个self成员/满锥，未宣已过。其它s段必须把同一wθ代入完整ruling，允许齐次域仅kerLf∩合法矩∩原十port；不能逐段另选规范。
 
 
 ### R463：实际双参数控制的完整条件
@@ -207,6 +207,6 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 [R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)已给Qaff,0/NQaff,1≅S(W0)/S(K0)，原W0/K0成本维7/5。[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整换锚mirror保P2/total/ordered，−6以真三列Pol2、−4以已付七列+K4 Pol4及N³H* lift付两增强负权字符。现在同Jaff满闭锥准确iff h∈span(y)；既有双参数actual引理仍需h=y=0。四self保同current纠正后两补响应/两目标的共同完整镜对，不能仅两个MEMBER，也不能把残词判固定母非成员。若满锥但余商非零，续一般actual参数控制。
 
 
-### 权零四列真正新观察已定范围
+### 权零四列：已付Q-RHS，修恢复容器续未付self
 
-[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码/唯一入口首次前置UTF8字节数失败（0science），唯一50184→50185修复已提交，续首次科学，未运行。
+[本次失败](notes/weight-zero-four-self-paid-Q-RHS-and-restore-container-failure-20261116.md)：run43818340099/job133135408458，4旧log/2新Q-RHS/seq707/3旧self已输出10记录；restore receipt缺source_hashes，static/response恢复与新self0。科学5.033211667秒扣同180秒，前次UTF8入口.005253693另保。下一直接读这10记录复用已付系数，只读必要原operator，修容器后续3静态/8响应和4新self。保XH原左n2、所有非local/高jet/p分母残词；共同母上h∈S0+span(y)判满锥，h,y∈S0才直接付旧双参数。
