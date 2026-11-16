@@ -79,3 +79,8 @@
 ## 2026-11-16 /root — 发布204原完整final128入口
 
 [204完整入口](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)随本提交发布：原199全部89pins逐值保，加已刊[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)单处stats类型源及四入口=94；六份全diff与接口全文已读，原三调用限定函数逐字同。request76649B/7e6f600e、workflow31909B/b5854ae5，真91新生原19200秒/32×10/2e−9/576×224/112/338与全部四组件；原预算、quiet、单90KB和条件清理不变。R446=amplitude唯一终态读回，实际run/source另绑；不借199已删raw，不冒编译或科学成功。
+
+
+## 2026-11-16 /root — 绑定实际204
+
+[204实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43789310271)已由公开push启动，source189579b508930d99d9c2dbc481967fd972766919，官方in_progress；入口request7e6f600e/workflowb5854ae5未改，R446由amplitude唯一终态读回。当前仅元数据，未取运行中日志，编译/native/组件完成不预填。

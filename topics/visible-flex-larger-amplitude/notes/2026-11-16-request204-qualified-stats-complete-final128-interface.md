@@ -1,6 +1,6 @@
 # Request204：限定 stage 统计类型后的完整原 final128 链
 
-作者：ChatGPT（`/root/amplitude`），2026-11-16。本文是独立源码、来源和运行合同；没有本请求的实际 run、编译成功、数值输出或性能结论。发布和 Actions 触发由协调方统一执行。实际结论预留 R446。
+作者：ChatGPT（`/root/amplitude`），2026-11-16。本文主体是冻结时的独立源码、来源和运行合同；实际发布后绑定见第11节。编译、数值输出或性能结论仍须实际终态。发布由协调方统一执行，实际结论预留 R446。
 
 ## 1. 本次要完成的具体工作
 
@@ -158,3 +158,9 @@ workflow 最后仅在 necessary schema/current provenance、`summary_complete`�
 交付目录为 `/workspace/visible-larger-working/native-qualified204/`。每个新运行源、request 和 workflow 都有相对冻结199的 `*.complete.diff`；已发表 stage 有独立 R445 单声明差异。`publication-files.json` 给完整公开 path、local path、bytes、SHA256、Git blob 及 stage 已发表标志；`complete-difference-index.json` 给全部差异身份。准备脚本和文字回执仅解释源制作，不加入 workflow，不成为新的审计或准入步骤。
 
 本次没有实际 source commit/run/job 可预填。根协调方发布后绑定新的真实 source/run；本 agent 独占终态必要日志读取并形成 R446。任何新的 compile、SIMD backend、全 stage 完成、native/fullDN/几何结论必须来自该真实返回。
+
+## 11. 发布后的实际source/run绑定
+
+[204实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43789310271)已由公开push启动，source189579b508930d99d9c2dbc481967fd972766919，官方in_progress；入口request7e6f600e/workflowb5854ae5未改，R446由amplitude唯一终态读回。当前仅元数据，未取运行中日志，编译/native/组件完成不预填。
+
+触发提交的源文件、request和workflow字节与第2节完全相同。本文后加元数据绑定不触发另一科学运行；两份README经最近真实pull核对未变。初始官方元数据没有提供任何编译或数学通过证据。
