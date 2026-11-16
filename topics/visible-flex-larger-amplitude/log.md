@@ -57,3 +57,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:24 UTC /root — R569同次真实cubic与准确quintic完整缺陷
 
 [R569最终](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)三件74959B独立完整刊；真实同次PPoly全幂/区间/augmented列与准确675quintic，完整C*分解/Bernstein差/joint正域与物理角A²ρ²，P不另乘ρ。旧f349从未main刊，旧节点/SHA不能造literalPPoly，R570真实三driver/FFT形成/投影另付；无新run/门，H/open/索引同步，原§4–6保。
+
+## 2026-11-16 14:25 UTC /root — R575完整cylindrical投影尾项和无限混叠
+
+[R575](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)/[接口](notes/2026-11-16-same-evaluation-full-angle-projection-defect-interface.md)三件59453B独立完整刊；真实同次R553/R521全非仿射二阶付原π周期/全部signed bins/两mean的完整tail+无限alias界，原DFS全正全覆盖才global，phase只pullback原defect，FFT形成另付。无新科学门/实际caller/运行，R576注册另付；R569已9e93，226sciencewhole109972超90K诚实70/source完整，root唯一日志已读将R537单刊，H/open同步§4–6保。

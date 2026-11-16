@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 14:26:03 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c766feaa9bad3cdfca84f68b1dfca3543579a9e3。
+规则同步记录：2026-11-16 14:26:14 UTC root委托本公开仓库Actions run43885671474真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 a9e503ad3666b017ab91f2a3021822dfa49c58f1。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -30,22 +30,21 @@
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[418bd32a固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/418bd32a9529d5e0dcea83321b6063bcc4d8e1e9/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/418bd32a9529d5e0dcea83321b6063bcc4d8e1e9/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[9e93bc47固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9e93bc470f29bcae3acf2d0d97433beb2fcc5c45/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/9e93bc470f29bcae3acf2d0d97433beb2fcc5c45/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-**R569最终三件74959B本次独立完整刊**：[证明](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)。真实同次sol.sol.c全四幂/所有区间/全部augmented列，原Y/DY与真实675全quintic构造绑定；辅助C*仅用于分解，准确Q−C_lit=(Q−C*)+(C*−C_lit)，全部Bernstein E0/E1与joint段正域/条件Gram界齐。物理角gφφ=A²ρ²、rho_lower取实际675原全界，R553/R521的P不再手乘ρ；旧f349错误组从未正式刊，最终manifest45975为唯一正文。原旧输出不含PPoly，绝不由节点/SHA造同次曲线；只capture活返回对象，原solver异常传播/clock不变，未付FFT形成/投影与全闭责任不冒已付。
+**R575三件59453B本次独立完整刊**：[证明](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)/[接口](notes/2026-11-16-same-evaluation-full-angle-projection-defect-interface.md)。实际φ=2πarange(N)/N、m=2arange(M+1)、π周期/三cylindrical分量/原parity与两mean、偶N≥4M+4；全signed bins与无限alias保，界B2/(2M)+min{4(2M+1)B2/(N−2M)²,B2/(2M)}。B2真R521 second(xφ)+first(xφφ)完整非仿射chain rule，来自同次实际R553所有原角cell的joint正管；原DFS全部退休且所有管正才给global，部分/未访不冒global。phase用真实defect的pullback，不冒固定grid/parity投影任意相移交换；FFT/table/scalar/RHS形成另付。无新caller/CLI/owned/reader/cleanup或实验，R576/request241/R577完整注册另付。
 
-R556已418bd32a四件完整刊，R557/234全caller另付；237/run43884807627/compute133359953110和238/run43885002914/compute133360657998分别amplitude/geometry唯一终态，两个正式head见官方notes。235前1–14成功、15原连续E在算（exact14:22:56 metadata）；root226两job已终态，根读者正一次读必要正文，尚无新科学接受结论。
+R569已9e93bc47最终74959B完整刊，真实same-call cubic全列/675quintic/条件Gram A²ρ²保；R556已418bd32a同一ω完整两worker另待真实234。237与238各唯一POST与正式头/compute已见官方notes及固定H；235/所有原运行持续。226实际两job终态：science原whole109972/74163314超90K，仅1079/33a0f490诚实70、内容未返；source56393/6123bc79完整，原return1、resource_stop/external null、owned quiet true、cleanup removed false。root唯一两job已读，R537完整边界另立即刊，不借225推226数值。
 
 ## 完整待发表来源
 
 下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
 
-- R575三件59453B，manifest bd48c8feb15cf6de15a70af3d619b364a1c49d42（3306/a127e42d）；真实同次R553/R521 cylindrical二阶完整chain rule→全部tail/无限alias与两mean；原DFS全覆盖才global、phase pullback不冒投影交换，FFT形成另付；完整组件不冒R576/request241/R577实际caller。
 - R573/request240/R574五件278766B/topic254471B，manifest63ec2d51feb859667ecdcae02866b61cb35b4972（2422/d9363257）；真实237已99347头，447=360public+87gen全原432/八对象+lanes保，十caller真实R572五合成、5×17/full last/原70两reader，先刊R572再本入口唯一POST；amplitude唯一R574。
 
 ## 当前执行与紧接责任
 
-geometry真接R570/request239/R571三实际driver b754/7ecb/d184的原run_phase/hooks.solve，同次PPoly活对象捕获、CP writer和全部门原字；R575完整投影tail/alias三件59453B下一独立刊，R576/request241/R577后继另真接，不把组件当完整注册。exact继续R557/234全部far消费者和必要/quiet真实闭包。root继续R572五路径证明、随后已完整R573/240；amplitude同两旧25-domain清单的公开Actions容量审计继续，旧现用依赖未查不删除。
+root先封R537实际226完整可见边界和R572五合成纸证，逐条独立刊；R573/240五件已齐、原237正式99347、447源和全部原责任保，R572前件刊后唯一派发。exact封R557/234真实235全部far消费者与必要/quiet；geometry续R570/239三实际driver同次PPoly捕获，R575后继R576单独真接。两旧25-domain行政audit已唯一branch head4acea9562d1b83fa16218ad3c86b30de360b288f、fixedscan71bdd520ca5427e2b619020d94560f6534f5fcfc，amplitude唯一read，尚无删除决定。
 
 容量逐笔≤200MB；两旧manifest已f7d56b2普通移出、固定e6/d195同字恢复，完整引用/实际guard/失败边界见[恢复note](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)。根8旧两大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。新容量审计由amplitude另在公开Actions执行，未查明依赖不动现用数据。
 
