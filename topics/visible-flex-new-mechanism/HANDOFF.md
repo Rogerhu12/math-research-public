@@ -10,15 +10,17 @@ private于11:43:33.839986→11:44:00.887215实际pull读 **191d228fcf6c487a515ad
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
 
+58两job真实pull：public **625cf6caa2a5d38a010fcd38407a0129bcef21e1**（11:41:21）、**3d2751614c906e87418fdc8ba66f3b42eb9cf606**（11:54:18）；private **a8ec0e31b9ee75e7ad5cd179c2e9e4eb8cde0885**、**9474f11d4e9debb4130a8d49d2d010d1fe0f70e1**（11:54:23）。双README空diff/QUEUE唯一进行中，原收据见58笔记。
+
 ## 2. 主完成门与冻结几何
 
 闭连通材料面；每个Ft为C²嵌入，t∈[0,1]在C²拓扑连续，**同一固定g**；固定材料H有内点且diamF0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6且同g/参数/时间精化下降。完整网格每件<5MB，严格存在差距如实报。基本门后继续.5D或严格存在。当前全部门未付。
 
-core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266007069是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
+core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266005415是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)：原末三样条全区延拓给整圈metric中性方向，S仅A→A+ℓ·ξ；不变列最优下界√(B²+C²)，全部退化情形及共同17线性区间已付。前6原列不改末片环、物理norm为两组max，但中段非线性交互/全body/原盒/连续reach仍欠；不从两principal排序猜分支。后继ring17源稿未执行，需绑定实际57/58、计入新frame/Π/曲率/一次solver。
+[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)：原末三样条全区延拓给整圈metric中性方向，S仅A→A+ℓ·ξ；不变列最优下界√(B²+C²)，全部退化情形及共同17线性区间已付。前6原列不改末片环、物理norm为两组max，但中段非线性交互/全body/原盒/连续reach仍欠；不从两principal排序猜分支。后继ring17源稿未执行，已实际接受58，需绑定该点、计入新frame/Π/曲率/一次solver。
 
 ## 3. 当前理论接口与未付全词
 
@@ -36,20 +38,22 @@ R503–507同一母/w/χ的所有history/尾/端germ义务保原证；R507仅h/k
 
 [R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)在R508同一实际族以四normal IFT复位k/ω/p0^y/p2，并准确给p1^y=η>0；非零点五端submersion。完整Volterra式使C=L hmax||h′/h²||∞≤1/2时p1≥¼∫k²；全M0迫C≥1，不能叠同类短片冒复位。其余五矩/height/frame/位置/全3/4均保真实成本，继续离开短盒的同规范连接。
 
-## 4. 当前真正接受点57与已闭任务
+## 4. 当前真正接受点58与闭合科学账
 
-[原57结论](notes/true56-small168-seven-exchanges-original-two-grid-accepted57-20261116.md)：run43853917860/research133253195868/report133259469147/sourceae7e1f6246a48476713081e7b2affc7aa2c1c980。h≤1/128/all168模型复用56输入，7finite/293iter586系统、7全网、13新metric梯度、62scalar，α=.7596062421780062的一actualpair接受57；无新学习行。
+[原58结论](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/report133280067378/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。真正57必要2ordinary/2selected J重新付，20旧tag仅ID；2finite/82iter164系统、2全网、23新梯度、固定7非线性metric+curv预测，α=1/4第一actualpair接受58，无新学习行。
 
-η粗 **.2660070683102267**、细 **.2660070686486975**，最大下降 **.000002854766053994595**；κ细 **57.99982125481755**。两网原14门/准确172盒全真，池4454/4549、v15/14；帽高微负仅原容差内。主门/.26未付。原56和全部旧账保[前点](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)及57结论。
+η粗 **.26600541430262403**、细 **.26600541463999305**，实际下降 **.0000016540087044436547**；κ细 **57.9997782607127**。两网原14门/准确172盒全真，池4454/4549、v15/14；帽高微负仅原容差内。metric峰仍.4725/θ0，细κ峰.78/θ4.818744981678094为非轴，不凭principal排序叫径/角支。主门/.26未付。
 
-57 physical **64196d074f443a611e1c60b04ccd33ed73a9b36d1801c3914b8042147d948dde**，168/坐标/field/objective完整身份见原57结论；固定g/b0及永久reference未变。
+58 physical **94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54**，ind168 **e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf**；坐标/field/g/b0/永久reference未变，新objective **bbdc448df8f7be0d9f1b506aa7a538c56bc335b69f682bf1cdd6d8ec4978f49d**。全部源/门/网格/172坐标身份见原58笔记。
 
-同300账保首失败23.005758439000005秒，最终 **222.847092604秒/2actual值**，闭祖账合计 **2644.800406968秒/143值**，0overrun；随接受57闭合，不重开余额。必要ordinary/selected-J重建0；coarse冷106.591秒、fine18.331秒已计。report因6MiB投影incomplete/exit1，100记录0parseerror，实际门/FINAL_CLOCK完整，数组/部分历史只留身份。
+本新600账 **185.978494641秒/4full值**（2necessary+2actual）、0overrun；与旧2644.800406968秒/143值合 **2830.778901609秒/147值**，接受58即闭余额不跨点续。原57等所有失败/旧账保[57笔记](notes/true56-small168-seven-exchanges-original-two-grid-accepted57-20261116.md)。7候选各完整新metric/curv/frame/Π/height费用保原行，nested不重复相加。
 
-CACHE2 29866451B/d92a1112ee337ef84fef673cc46c326404a67ca3ed7e40e68efff9d0c3316b0e，binding9053e45420d192c3965a82cff58f3db7946584dcb9c1771101399e394e0245f6，含57 U/T/e/f/grid/168，无X二jets/J。56所有J/模型不可跨点。原raw66570126B/d73905a51631f39a233b3dcfbb3b1a3101b196eb9e766574fcaf5d4cb8f9ea71，完整记录身份见57结论。
+接受后先学习再导出paid selected二jets，粗细complete/errors空、firstjet cache complete，0再ordinary/J。CACHE2 **33375405B/9bfdb6d35b131d5b4b1514f0e0902c7f38aa735cabc3288502356b1ba03ffbdf**，binding **28969794748d9b02fee16b90c775d9b41abba4facdfae0781d95f61e5b9040a1**：完整U/T/e/f/grid/168，加原pool selected X六二jets/T/metric jets；不是全grid二jets或58 J，不伪填未知点。原raw86358161B/346de3d6027e21e3b3d9dc020b0890c14d65e6dc588c2178ee63eff9f12fca3e。
 
-## 5. 正在接续（2026-11-16 11:51 UTC）
+原COMPLETE5606777B/e20a2149a50ea86becc177724235b6991d597d541c583fad85df3d1d3a739604，FINAL199299B/6a8e4724000f16429ed6c72607a92611647159207a18ce8e6a218b97269113de。report因8MiB投影incomplete/exit1，46记录0parseerrors，实际/FINAL完整、大数组只留身份；不称全日志无损。永久constructor仍原55COMPLETE，仅构造来源，不当58点。
 
-[真正57全168非线性任务](notes/true57-full168-nonlinear-metric-curvature-design-20261116.md) run **43859882465**/research **133273598120**/source **0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881** 正在运行；request63362B/543ca3ccccac55e918e3f4c2dd5a08ff3ff853cebbe873367346ae0a175b6c44。新600秒，必要2ordinary/2selected-J，20旧tag仅ID重新付梯度，8finite/8scan/52新行，固定7实际坐标非线性metric+curvature尺度、最多3actualpair；h≤1/128/all168/原172盒/14门，接受目标58。预测另立浮点身份，原affine凸性不沿用；2jets需b_s/a_ss/fullΠ，所有新工作收费。接受先学习再导出paid selected二jets，partial不可冒完整cache；尚无实际结论，禁止在跑中插入ring17或追加调用。
+## 5. 正在接续（2026-11-16 11:58 UTC）
+
+R510/R511后继纯ring17源稿按真实58绑定，目标1000/61，先恢复完整两网峰圈S，再付共同17的fullΠ系数。原172盒内min h不强加旧1/128为门，只对照所需幅度；最多一次新18变量LP、全部新frame/Π/curvature/solver另账。准确嵌入与最终binary64舍入分开，后者必须完整非线性predictor和原14门；该任务尚未执行。若固定列排目标就转R0/R1改变真实值/一阶jet，不能重解R2或动已闭57预算。
 
 O4接.6<H<H*真实同图五门耦合；R508/509付参考出口和五端正基准开像，继续实际离短盒、全八矩/几何/period/13联调。R507负t1与R509单侧成本不删。三/四原子和唯一LP不重跑；主完成未付，不停止。
