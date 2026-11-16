@@ -503,3 +503,6 @@
 
 
 - **R271向下方差薄窗与同actual来源（2026-11-16）：** [完整原证明](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)在Se^(−c/m)≤s≤S及固定c下，0≤X−Y≤(L−1)(X−X²)+τI；真正H(s²/S)保原物理Gram，完整F_s保持PV/PK/u，距u平方≤(L²−L+1)Δ²+Lτ||g||²。L=e2c、τ=2e^(−770m4/256)，固定标量S_(m+k)合法；物理D_m不移动、qcut≥d−1/完整Schur/carry未省。
+
+
+- **R150五critical原完整第一系数像全部零（2026-11-16）：** [统一来源证明§§6–7](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)逐factor全4367运输/6188整数leaves/1834原零源，完整RU=V各55020/55020/22008/22008/44016均给0；五完整primary维88。高层排除另用独立Δ298及root63唯一系数定理，不以零首像代替；无正源分支被冒称执行。

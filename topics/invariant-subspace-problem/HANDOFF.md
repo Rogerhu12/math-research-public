@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 02ac2783b758f252ee9452e8731468f532272700（2026-11-16 03:06:38 UTC，Actions run43796135600实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43796135600-1.json。
+- **最近成功实际 pull 与已读规则提交：** 7a1a30ef879197237e063dae5380b047ba4de957（2026-11-16 03:09:54 UTC，Actions run43796471271实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43796471271-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -26,8 +26,8 @@
 
 - 旧run43756208221已结束；所有来源/失败和56步pins保旧归档。新live run43772109844始22:57:13 UTC，350分钟约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。127全部NF/GB/state、global197、root2 recipe与三域缓存仍临时。E8旧exit1确为最终回执大小门；只读恢复保持原数学binding及phase。
 - request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；旧30步全文notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json，当前7步已全部exit0，done仍保旧祖先。新启动须按归档重建父缓存；同绑定续接用新ID/requires只指exit0祖先。
-- 五广义factor全4367运输/1834Z均I1=0，E8-1正式已发，其余四联合稿待补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
-- **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，133万原零乘回；正式相对25生成定理正写。仅执行manifest留repo，计算数据只临时/日志。
+- 五广义factor全4367运输/1834Z均I1=0，[五处联合正式](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7已补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
+- **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，1342796原零乘回；正式相对25生成定理正写。仅执行manifest留repo，计算数据只临时/日志。
 - 新任务仅存源码/参数/run/输出SHA，勿新存可重算计算输出。根每结论真push，非快进立即rebase重推；runner每30分钟及每步实际pull核两README。31下一p7两正探针保完整incoming商，零只受限结论；四族窄历史恢复约168MB档/26MB成员，非整旧链。
 
 ## 原边界：同一个w与完整返回继续

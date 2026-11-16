@@ -111,7 +111,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **完整相对模块。** Σ0外T=W/(L∩W)已零；2与−6两点T=0，critical每处T循环且九目标各自生成。原s=0全224×155投影长度仍需真计算；∞小P61不搬。九joint的Q维数不能从field25复制；原R/P/全W尾及6012来源表达继续。
 - **来源费用与31分母。** 原D*8769/31 leading unit，monΔ298给商8471；已有同模或精确D31解可降费max(8515,τ+1)。固定e任意高精度才exact；新Q成员给某有限分母，不指定e。旧e0任意度mod961负证、九差源p阶5均保原范围。
 - **31完整系数页。** C31/pC=field315除J31=s−2，dim314；全I2=U7、χ=(s−1)²(s−2)^5，指数2恰5个。root2首五(1,4,2,4,2)、全210 recipe已付；[精确分布现已证](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：16个系数循环因子、χ=(s−1)²(s−2)^14，全t1…t5=(2,5,2,4,2)，仅余root2一个E≥6；u=v=w=1。全B第四增量m6∈{0,1}，累计I4维数8+m6。完整第四新页必须保真p7/六carry/全部原源覆盖，旧globalI3全部接口仍保。
-- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，五critical广义消费I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；joint25仍待原零点P。
+- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，[五critical完整广义消费](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7正式闭合I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；joint25仍待原零点P。
 - **永久证据与临时缓存。** 所有旧small-source/run/SHA保全。旧run43756208221结束，需原代码重建；新run43772109844仍有127全NF/GB/state、global197、root2 recipe与三域新原缓存。大型数组不上传；当前源参数以HANDOFF为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
