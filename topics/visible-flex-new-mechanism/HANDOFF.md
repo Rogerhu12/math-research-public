@@ -22,7 +22,7 @@ R105/109/130完整history/同锚端势保留；真倒行第四同号，signed非
 
 R344/R352完整有序pure尾给Λ|全R=0；R406原run43775998866的n2完整自然类非零，N权零像恰1、kerNall⊂kerλ+。canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，T=τH同，故actual全Λall0背景不可建。有限固定圆另付具体读出，不能把R的自然零扩到实际路径。R408允许w不改totals、Af累计flux或平台G″；R409末八包16d/e在M5≠0时读λ+，故当前母必须M5零。
 
-R411/412/R431同次初选保四自然约束q/D,E、F_rat、十九真目标、全部Af根与共同外cap/jets。中心四normal/真max-F/有号集中按实际U′保Af负，非C3-small；有限N不生新根。内C∞、外端解析，非旧冻结数值纤维。R405/407同μ连通路径固定完整self″cap，self不能只用六jets代替。
+R411/412/R431从起点同选四自然约束、F_rat/19真目标/全部Af根/共同外cap；原U′集中非C3-small且有限N不增根，内C∞外端解析。R405/407同μ路径保完整self″cap，不能只留六jets。
 
 R415–R429低权静态/hh/kk与共同D/E偶M5零母的B斜率、M25消、同权补E/N像排六字符已闭，保原稿/费用不重跑。R428/429共同合法窗口给J=(E,A)同一有限C1真词。
 
@@ -34,9 +34,11 @@ R432原Z18内cτ0恰5维，32非盲标签不是rank；三个真实suffix共享�
 
 [R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)七式恰D_F=c_F(x;(1,x,x²))，144像=kerD；七代表含全部p-only。实际全部根同成本signed补偿iff[D_F]=0于Pol≤6/D(kerEval)，formal D非零不授实际障碍。[R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)保原M0/周期两种端项，D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]；只需真实第二history。D0 iff该三次矩型被n0n2−n1²整除，当前路径未付；actual原型/J基准仍保。
 
-R435完整self保真左常数，K0=−8r⁵/45，r0首K5=1024p⁵；R440闭c0 universal C核，8 P/S+3Ξ、加K21formal，同镜11左+5右actual16。完整K4/原J尾/基准均保。[R441](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)用J0/2与H1/6的P/(R−S)Wronskian杀whole尾；再扣BRτ1/3同时杀primitive与全部Af ordered行。具体U*准确给ur⁴、E/J⁺/C全零；formal22、同镜仍16，新增第六blind r⁴(u−h*r)。先同一V共同付C，16核心后所有其它根iff落六条完整blind成本评价像；r0全盲，仅本模块限制。J⁺实际追加及全基准仍需joint前提，signed余像不冒actual全根。[R443入口](notes/joint-kernel-complete-self-entry-review-20261116.md)已发唯一request：读R434已付53关系，2新adapter+1完整self；11源闭包核同，0旧rank/0旧检查。仅全local闭合才判新像，待唯一原stdout。
+R435完整self真左常数给K0=−8r⁵/45、r0首K5=1024p⁵；R440完整c0 universal C核为8 P/S+3Ξ（τ0八列Af盲），K合21formal/同镜actual16。[R441](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)用P/(R−S)及J0/2、H1/6的Wronskian保两端；扣BRτ1/3再减原P列，完整U*给ur⁴且E/J⁺/C0，formal22/同镜仍16。第六blind r⁴(u−h*r)；同一V先付全C，16核心后其它根iff六完整blind成本评价像，r0全盲；只是本模块signed判据，J⁺实际/全部基准仍保。[R443入口](notes/joint-kernel-complete-self-entry-review-20261116.md)已发唯一request：原53关系的新self，2adapter/0旧rank检查，11源闭包同，待原stdout。
 
-[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)给P2θ(k)=κI2(Yff,k)/24、杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k时ell(k)=−ΣFP∫F JG/(Af p²)。原简单p根双极系数−F(c)JG(c)/(2r(c)^4)、无单极；原exp平端支付Fk′/p→0，别的端/多重根不外推。F=−Θ4−x4aAf/6不授D/P2等价。两个真实period目标的P_f值须0，核不能调；incoming同一X准确加ell(XΔ)/减ell(Xfg)。余12行全相位光滑/seed/降秩整除和原平台仍欠。
+[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)：P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。[R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)：a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k的ell=−ΣFP∫F JG/(Af p²)。原简单p根精确双极扣除/无单极、原exp端/简单Af付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价。两真实period的最高值都须0，核不可调。
+
+[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)由完整原式得B_XH(f²,φ)=2Lf(XD)，实际XD因whole三矩真紧；8响应在E/J⁺/全partial/C核，范围改变是真Lf像。δP_f(Gd)=−d_f(X)/τ、δP_f(Ge)=e_f(X)/τ；P2另乘κ/24。当前12副本真四次权εγ⁴=(−1)^jC(11,j)、真实quadratic Y尾交项零、平移次数≤10，使e_f(E8)=0及incoming-e项0。d八真值未判；仅此支路最高两行可付iff be=0且τbd∈d_f(E8)，不称全R盲。R326原八复制还保3合法矩，余9端口行及其它s段/同seed相位、actual原型×n基准仍欠。
 
 R388只排原Gaussian/M0/TκH、κ≠0的同芽连续C²首阶轨道，不排高阶才动/其他芽/一般C²面。完整第四、全部根period/同规范、其它几何段ruling、高阶收敛和同g有限族都未付。
 

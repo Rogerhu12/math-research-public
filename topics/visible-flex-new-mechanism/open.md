@@ -54,12 +54,7 @@ R105/109/130原有限U保完整history，非零M的N²/N³项不能删。R84真�
 
 ### 全self已付接口，继续完整mixed与真实共同控制
 
-R292/295的真实平台/self条件、R297九矩单位、R298能量、R303全平移次数≤9、R307/309最高两系数、R310非even新J及R313十五维模块均保原证，不再作孤立增rank。固定even母的全平移不能忠实分离全部profile函数；完整有限控制仍须保全部原型与真实基准。
-
-[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)已给whole-pure核完整self结构：有序三矩九维非局部项+局部quartic三jet密度；Euler全六jet字面系数与九矩是忠实坐标，原左右尾全保。[R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)给真权移σ→σ−2，齐次成员须同权响应支付，跨权不能挽救。
-
-[R316](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)的原完整H*已付π/self全0而λ+=1，13原列/14目标/37忠实行的实际结果及明确old编号组合保原稿；不能由同profile self0推mixed0或实际负路径。之后R333已进一步给全部pure/self实际截面，见下；当前真正欠的是同一成本的全部内部period与同w joint，有限自然见R429，不重算旧成员、rank7或forcing。
-
+R292/295平台/self、R297九矩、R298能量、R303全平移≤9、R307/309最高系数、R310新J及R313十五维保原证；固定even母平移不忠实分离所有profile函数，不能孤立增rank。[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)的whole-pure核完整self含九矩非local与local quartic三jet，Euler六jet/九矩忠实，原尾保。R322真权移σ→σ−2，跨权不补同权缺口。R316完整H*全π/self0而λ+=1已付，不授mixed0/实际负路径；R333进一步给全pure/self实际截面。旧成员/rank7/forcing不重，继续同成本内部period/同w联合。
 
 ### R333已付全pure/self实际控制；继续同一成本的内部period与规范
 
@@ -79,13 +74,15 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
 
-### R327/R330/R437/R442：最高规范真零行与目标的有限部分
+### R327/R330/R437/R442/R444：最高规范兼容与原八响应盲行
 
 [R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)从完整FY2≡0/真二次左尾得到P2θ(k)=κI2(Yff,k)/24，θ独立并杀整个kerLf；13rank≤12、底十行≤9仅上界。齐次规范不能调两特解类的最高行。
 
 [R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)在R431实际有限简单p/Af根、原正解析prefactor×ψ3端类上，令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，则F′=−pW″。真正G=Lf k的JG,i=∫左端^x pG″保原锚，ell_f(k)=P_f(G)=−ΣFP∫F JG/(Af p²)。简单p根只有双极q_c=−F(c)JG(c)/(2r(c)^4)，准确扣2q_c/ε，无单极；Af点须真JG0/光滑除法，原exp端支付Fk′/p→0。多重零或其它端类需另付；对尚未证明在像的G，FP存在不授period/range。
 
 两真实目标先完整入像，再须P_f(Gd^c)=P_f(Ge^c)=0；同一incoming X准确加ell(XΔ)、减ell(Xfg)，非免费参数。F=−Θ4−x4aAf/6给Af点的局部连接，未证D与最高规范等价。余12行仍须同一k、全圆光滑相位/seed、Smith零行与降秩整除，全部gap/平台代价保留。
+
+[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)从完整B_XH原三项化为2Lf(XD)，whole三矩使XD/XΔ/Xfg真紧。8原响应属于kerJ⁺且全Af partial/C0，变化为真Lf像，不能使初始不入像目标免费入像。最高像泛函变化为−d_f(X)/τ、+e_f(X)/τ，实际P2再乘κ/24。当前实际12复制用四次εγ⁴=11差分权；Y真二次尾与紧Xfg的I2跨项准确消，平移次数≤10，故e_f(E8)=0及incoming-e项0。八列支路可同时付最高两值 iff be=0且τbd∈d_f(E8)，d八真值仍未判，不宣rank1或全R盲。原八复制已保3合法矩，余9端口行/其它s段仍须同k联立；signed响应与actual原型×n、桥及J⁺基准不混。下一R445查真实d像/八列之外。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 

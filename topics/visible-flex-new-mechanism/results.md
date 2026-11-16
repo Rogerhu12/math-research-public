@@ -276,3 +276,6 @@
 
 
 - **R443唯一完整self入口已发。** [设计](notes/joint-kernel-complete-self-design-20261116.md)与[根审读](notes/joint-kernel-complete-self-entry-review-20261116.md)（3992B/SHA3ba611d67ac70e22b78d1f3812234052a579f86e02a10dfa9280f863e5183272）：只消费R434已付53原关系，完整2K真锚Green+self fresh、只外Af替换；2新adapter/0旧rank与检查。全local闭合才新53/K11 union及11旧列成员，无实际profile/root。唯一request11809B/SHAf3523f5ee89d820150e52e22c54afd25d5d7deb79fa8adc0d5cbefc7496f4532和十一源码闭包核同；先真双pull/规则后执行，等待原stdout，不预报成功。
+
+
+- **R444：原八hook响应的最高规范作用与第二period盲行。** [完整证明](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)（15336B/SHA281e1952e734cc9a083688e20e5f7b7f779238db797ad6a32794ea945683b87f）从完整响应得2Lf(XD)，保whole三矩紧性/全部真尾、J⁺/内部C及真像。最高变化−d/τ、+e/τ（P2再乘κ/24）；当前12复制原四次差分权与degree≤10、真实二次Y跨尾消，准确证e_f(E8)=0及incoming-e项0。d八真实值未判；仅此支路同时可调iff be=0且τbd∈d_f(E8)。R326原三合法矩已保，余9端口行/其它s段/actual全基准未付，不宣全R盲或rank1。无新执行。
