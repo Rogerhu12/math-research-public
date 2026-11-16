@@ -1,20 +1,26 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "6aa07f67ec84b2389f0a10a83d5c532eef600dc8",
-  "createdUtc": "2026-11-16 12:54:31 UTC",
-  "message": "ISP R271: complete two-hole finite-pool truncation and cross-head third-flag gain",
+  "parentCommit": "980aaeefe786e36e442cbb889c1af3f9c24d7ee4",
+  "createdUtc": "2026-11-16 12:59:07 UTC",
+  "message": "ISP R150: complete original W31 projection and remaining coefficient gap of length at most eight",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-two-hole-finite-pool-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-open-before-two-hole-finite-pool-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection-field31-local-complete-smith-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-whole-w31-remaining-torsion-quotient-audit-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-whole-w31-projection-and-gap-local-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-whole-w31-independent-block-jet-audit-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-whole-w31-independent-block-jet-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-whole-W31-gap-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-open-before-whole-W31-gap-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/results.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-whole-w31-independent-block-jet-execution-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

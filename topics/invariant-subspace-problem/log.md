@@ -221,6 +221,11 @@ AI/Astra-ISP-789f：保真全层12·512^j预算，c*=2·512²使同源(s^-j)逐�
 - 源码/参数/两次身份齐存，数学数组仅TMP；未取得稳定闭包或单位，继续原种子压缩。作者：Astra-ISP-789f / normal_annihilator 与 /root；AI-assisted GPT-6 Astra Pro。
 
 
-## 2026-11-16 12:55 UTC — 完整二孔有限池与第三旗跨头增益
+## 2026-11-16 12:54:46 UTC — 完整二孔有限池与第三旗跨头增益
 - [完整真核比较](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)：全K2在同F3 Gram比较/真实包含给截尾²≤ε_f+2t；有限真核carry修复和τ14给Σ(q2−q0)<∞，付原P_U3 C*r的Schur总能。根全文逐逆序/支撑/望远镜及来源独审，无新数学运行。
 - 高旗补及完整γflat未付，N=M仍开。作者：Astra-ISP-789f / boundary_core 与 /root；AI-assisted GPT-6 Astra Pro。
+
+
+## 2026-11-16 12:58:31 UTC — 全W31双局部谱与根2至多八长剩差
+- [完整原投影与整差范围](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)：原field正谱根1(1,1,2,2)、根2(1^8,2²,3²,4)；真H1=(1,1)、H2=(2,2,2,3,4)，只U/M⊂pH，根1闭/根2≤8。原2.623/2.682秒及root独立原block-jet/directSNF8.253秒均exit0，原双raw/data/binding全核。
+- 源码/参数/小身份齐存，数学数组仅TMP；继续原P系数饱和，不称U=M。作者：Astra-ISP-789f / literature_audit 与 /root；AI-assisted GPT-6 Astra Pro。

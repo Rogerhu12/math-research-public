@@ -232,3 +232,6 @@
 
 
 - **R271 完整二远孔有限池截尾与跨头第三旗增益（2026-11-16）：** [同物理核完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)保全部零源及强头，无逆范数的误差平方≤ε_f+2t。原一般有限核carry/fresh池修复使Σ(q2,m−q0,m)<∞，准确支付第三旗Schur源P_U3 C*r。qflat其余高旗及完整返回仍未付。
+
+
+- **R150 完整全W31投影谱与八长剩差（2026-11-16）：** [完整两边载体与整差证明](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)保原6188两侧来源、field314+J1。完整P正谱1²2²/1⁸2²3²4分别长6/22，field像同M；饱和自由像使U/M⊂pH，H1=(1,1)、H2=(2,2,2,3,4)。于是U1=M1、余根2差长≤8/指数≤3。root独立二次型完整Taylor块秩及direct整数SNF全同；C_P=C/U与全部系数扭子H/(U/M)为下一小呈示入口，尚未判剩差为零。
