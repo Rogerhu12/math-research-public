@@ -356,3 +356,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)：原q1的Γ(2)共轭给完整S3 Galois覆盖，续原三阶R商得X/(C3×S3)=X0(867)、z→6z、degree18。原同一a的三个T2邻点像和0，形成直线；目标全部函数域商明确为w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]，u=m³/v=mX/w=uYδ。最高微分准确降为dv∧du∧dn/(6w)；原曲线像degree保持、proper商push保18。原Π、全Artin系数、6^-2/12^-2/1632/816均保，没有免费搬到奇异商projection或识别R814 canonical类。
+
+
+[R842 移动水平的完整分歧转置](notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)：在原未吹起moving水平且ft单位的真实局部块，d=(w+εDx)ι、w=0/3b。完整原配对密度给d∨ν=e_U g[w+ε(m−1)−εDx](ν/g)，g=ftv保全部单位连接。负侧rank m−1、唯一核准确读约化点值；正侧所有系数2b+1..3b为原单位，rank m。原同一ω0/ω1补零得到两行全厚化条件，m1回旧横截式。明确不涵盖固定十九角/奇点，未赋Q'_T/W_T的实际限制像或全[b0]非零。
