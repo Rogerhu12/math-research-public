@@ -474,3 +474,5 @@
 - **R271直接原V/K Chebyshev真核逼近（2026-11-16）：** [完整E=V_Q^0物理Gram](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)保I≤G_E≤κ²及grade带宽d−1，ν=floor((Q−s)/(d−1))给真k_pol∈K_Q、||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||，没有额外κ²前因子。对所有尾权/无限位置成立；原头logQ主项降35d⁴/6且u≤2e^−2m，母carry仍O(d⁵)，未称原N=M。
 
 - **R150残域完整7高核已恢复（2026-11-16）：** [同完整原H的§7](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)逆代全部4259已付主元，三域free-I7及42126原乘回真；核只在162坐标n²/cn²/dn²和d²n/d³n/cd²n，normal≥3全零，一normal投影rank5。真Q核仍2…7，未把field列直接升Q；下一真Q153×60与完整低连接。
+
+- **R150真实162支撑的完备小化（2026-11-16）：** [原高源级153×60定理](results/R150-appendix-complete162-critical-high-slice-and-sixty-variable-reduction.md)在实际Lz=q/Lv=0/rank[v,z]=2门下，把全部162支持列准确参数化为T0的45、u的9及两份Sym²(v,z)各3；普通对角/全部6018来源均保，7独立真列才夹全高核。
