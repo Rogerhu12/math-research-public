@@ -60,7 +60,7 @@ R251四Loewner/完整Gram的16号解析fixture已完成，不重fixture；真实
 
 最终须固定g/参数/t范围精化误差到机器或原solver容差，证明/核查全t强C²嵌入与reach，提供数个各<5MB网格，明确数值到严格存在的真实缺口；全部README条件前持续工作，并继续更强幅度目标。完整证明按根规矩12直接登记results/index，不加独立审核关卡。
 
-**77至90历史已归档：**完整逐条结论见[截至99的原open](notes/open-checkpoint-through-request99-2026-11-15.md)。77/78原Newton小步、80/87/90旧阻尼及全部字节附记均已付；当前实际低三推进是93→96→97→99，不回头重复旧科学。R277完整两端链与高109消元、R278项目化/条件消元已入results；高109非共振和合法非零核仍须真实证据。73完整失败、83/91原字节诊断已付，95按原完整native门继续。SDK原锁构建与干净安装只支付构造器，API操作由独立100工程试验补查。
+**77至90历史已归档：**完整逐条结论见[截至99的原open](https://github.com/Rogerhu12/math-research-public/blob/2e85e46cf5771a4764d1ac15a25da806e3e1f36d/topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request99-2026-11-15.md)。77/78原Newton小步、80/87/90旧阻尼及全部字节附记均已付；当前实际低三推进是93→96→97→99，不回头重复旧科学。R277完整两端链与高109消元、R278项目化/条件消元已入results；高109非共振和合法非零核仍须真实证据。73完整失败、83/91原字节诊断已付，95按原完整native门继续。SDK原锁构建与干净安装只支付构造器，API操作由独立100工程试验补查。
 
 ### 1F. 实际89接受1/32；94补两处真实487失败
 

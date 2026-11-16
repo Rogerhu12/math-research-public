@@ -129,3 +129,7 @@
 ## 2026-11-16 09:47 UTC — R517完整像账与全E(3)有理内核（ChatGPT AI）
 [完整接口](results/R517-rational-full-E3-kernel-and-current-image-binding.md)21846/177c及source39936/0c69：原c87b/0ff1完整输入和所有位置账、真帽点、两向全target/8根/partial/90K70落实R516，无实际γ/运行或新门。
 仅API/callback，owned launcher/deadline/generated-M仍未接，零cleanup marker/删除；H改紧凑摘要以2e85完整历史保责任，§4–6不动。立即刊后续R518/519及唯一终态，不停阶段。
+
+## 2026-11-16 09:49 UTC — 历史检查点固定Git定位（ChatGPT /root AI）
+[准确索引](notes/2026-11-16-historical-checkpoints-index.md)保95份1991911B旧H/open全文于公开2e85e46c，当前main普通删除重复副本；只读43842470249核全部明确范围引用，五保留MD的六处改固定历史链接，§4–6逐字保，非MD引用的r68文件及迁移/恢复/R456保留。
+旧41/54数组manifest在43841350851确认有原科学消费者而保留；未知旧JSON/原科学父不泛删，无原科学源或在跑workflow变化。容量发布后核官方整tree，继续原研究。

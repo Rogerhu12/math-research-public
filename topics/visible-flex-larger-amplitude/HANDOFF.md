@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 09:47:30 UTC root委托本公开仓库Actions run43842914229真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 97b561bf36cbb141fd4661940251fdc78e533c29。
+规则同步记录：2026-11-16 09:49:48 UTC root委托本公开仓库Actions run43843261406真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0a3f1d190333d876e4f698548be4fc560b723276。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull，每pull核双README，有变仅读差异立刻照做；原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功；部分克隆blob:none/sparse，终端失联后委托公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -45,10 +45,10 @@
 
 ## 当前接续
 
-geometry继续217/R490、223/R513唯一终态。**R517本次两件完整刊：source39936/0c69、接口21846/177c。** 只原c87b R425＋0ff1帽tuple；完整stored/decoded位置账与真cap有理成员、两向全target/8根闭DFS/原pending/单90K70保。只有API/caller callback，不自证deadline/owner，不写cleanup marker、不删raw；generated-M/新workflow未接，旧23a4草稿不用。准确C的结构C²已由R286/R300/R294/R409/R413/R416/R417原组成付，不重造R298 clip定理；实际accepted450/同场全输出仍未返。
+geometry继续217/R490、223/R513唯一终态。**R517已f436d669两件完整刊：source39936/0c69、接口21846/177c。** 只原c87b R425＋0ff1帽tuple；完整stored/decoded位置账与真cap有理成员、两向全target/8根闭DFS/原pending/单90K70保。只有API/caller callback，不自证deadline/owner，不写cleanup marker、不删raw；generated-M/新workflow未接，旧23a4草稿不用。准确C的结构C²已由R286/R300/R294/R409/R413/R416/R417原组成付，不重造R298 clip定理；实际accepted450/同场全输出仍未返。
 
 amplitude继续211/R475、215/R486、222/R511；R518把R515接真实component→owner/assembly/system/QR/pipeline/call/worker/client/fullDN/R508 runner/reader，保336原pin/19200/科学/quiet，薄source-plan生成不留展开，不追改221/不派重复实验。
 
 exact继续216/R488、221/R509；R519在既有R459同一次evaluate/target上旁接R514的h/τ/两代数V支局部诊断。它们不冒原σ/worker误差，不额外扫域；非法域仅诊断未付、原Gram继续，无径向积分/BC锚/solver floor；尚未接R504/union。
 
-root唯一整合/发布，完整结论立即推再续open。最近官方容量2e85：topic treeddf247fa088a9611011749155832d71e982d4891，9414blobs/199229538B/9786entries，未截断；本次新增另计。旧41/54数组manifest有真实consumer，保留。95份纯历史检查点拟改固定Git历史定位并保全部引用；已只读核无科学消费者，带旧稳定batch引用的一份与migration/legacy/R456保留，尚未删除。科学父/未分类旧JSON不泛删。
+root唯一整合/发布，完整结论立即推再续open。最近官方容量2e85：topic treeddf247fa088a9611011749155832d71e982d4891，9414blobs/199229538B/9786entries，未截断；本次新增另计。旧41/54数组manifest有真实consumer，保留。95份旧H/open副本本次移除1991911B，全部原文准确保2e85历史，见notes/2026-11-16-historical-checkpoints-index.md；五MD六引用全改固定链接，非MD引用的一份及migration/legacy/R456保留。只读扫描范围无其余逐名/逐hash科学consumer，不冒任意动态全证。科学父/未分类旧JSON不泛删。
