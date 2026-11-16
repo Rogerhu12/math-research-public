@@ -56,7 +56,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [大域失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：κ58.007888653387816>58，仍56；188.38691980800002秒/3值闭账，祖账2421.953314364秒/141值。
 
-**[小域168同账户续接](notes/true56-small168-literal-pool-order-same-account-continuation-20261116.md)已提交待Actions。** 首run43851980835在old sorted池接口退出，0新科学started，23.005758439000005秒保同300秒。新audit先读该原FINAL_CLOCK再装prior ledger；新transfer先原56池构造field/grid，后按当前4454/4549、v15/14字面次序安装，保原唯一性/范围/capacity，不删104448。
+**[小域168同账户续接](notes/true56-small168-literal-pool-order-same-account-continuation-20261116.md)run43853917860运行中，sourceae7e1f6246a48476713081e7b2affc7aa2c1c980。** 首run43851980835在old sorted池接口退出，0新科学started，23.005758439000005秒保同300秒。新audit先读该原FINAL_CLOCK再装prior ledger；新transfer先原56池构造field/grid，后按当前4454/4549、v15/14字面次序安装，保原唯一性/范围/capacity，不删104448。
 
 仍h≤1/128、全部168/原172盒/14门，复用9002行J/g＋8梯度＋56 U/T，仅补新原metric行；原8scan/32行/8master/64scalar/3pair6值不变。request-true56-small168-continue.json 66092B/b916203748980f07a60c2d911cbb1117ed5ce7f11d76f0ddffb7c7cb16e4d2cf；workflow visible-true56-small168-continue.yml。当前finite/actual尚0，R504新predictor未插入本任务。
 
