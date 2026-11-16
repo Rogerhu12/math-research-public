@@ -172,19 +172,10 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 执行规则与当前可恢复记录
 
-旧smoothing/uniformtail两NPZ按[白名单](notes/2026-11-15-two-old-smoothing-and-tail-snapshot-deletion-whitelist.json)fd57e301/cdfd4345已普通删721358B，恢复903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd同path。[OMA实际元数据](results/R133-supplement-actual-immutable-old-evolution-report-metadata.md)0f1ee6a6原43777745624/1/9steps成功，两r0235报告720495B原complete/finished与完整SHA已存12428/c1123617；certified/全域false仍保，科学0；[两报告独立白名单](notes/2026-11-16-R133-reviewed-old-evolution-report-deletion-whitelist.md)955eb058先推886423b4，720495B两原件已fresh SHA+size guard普通删，恢复b9c7cde9同path。source/endpoint/原失败/activepins保。
+本节压缩前完整原文及当时H逐字保[03:31检查点](notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md)，read commit b16923509deae4d293a0ffe4c9c0e71b89081976。所有已删件的精确path、Git/SHA256、size、restore commit、成功链/旧失败/原scope及白名单链接均在该表；归档不授重算。
+已完成普通删除：2Newton/jet/七报告1589068B、九报告504341B、两interval773501B、smoothing/uniformtail721358B、OMA两报告720495B、R46density551730B/energy425182B/scaled429437B/strict371382B；全部先推白名单后fresh SHA/size guard，禁重复删除。source/native/候选/失败/proof/activepins保；需旧输入须按原表immutable恢复并核原SHA。
 
-只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
+只在公开Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据，成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；每consumer实核topic≤200MB且预留120KB。
 
-全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
-旧2Newton/jet/七报告1589068B普通删，完整恢复保ebf4bade858deb2bcf03f638291a167c5e5b206b同H/open和原名单。[九报告恢复表](notes/2026-11-15-nine-additional-old-floating-report-deletion-whitelist.json)68f83dd4先推1b09dba7：9件504341B已freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/native/候选/失败/proof/activepins保，旧成功禁重。[两旧derived interval数组恢复表](notes/2026-11-15-two-old-materialized-interval-array-deletion-whitelist.json)da74b983先推bce4d622，773501B已freshguard普通删，restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path。两原membership/root certificate和原checkpoint身份全保。
-
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-16 02:37:33定时CLI仍无executor，下次≤03:37:33；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
-
+每结论独推；非FF立即真CLI pull --rebase，保远端循环成功，禁force。每小时实际pull尝试后核两README，只读diff即照新规记H。本机11-16 03:31:44 CLI仍无executor，下次≤04:31:44；该次只读核b16923509deae4d293a0ffe4c9c0e71b89081976两README未变，不冒真pull。根规8仅UTF8<100KB connector，runner真pull/README diff/容量/唯一child以各完整receipt为准。
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
-
-R46 density551730B、energy425182B已依[原density白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab、[原energy白名单](notes/2026-11-16-R133-R46-unshifted-energy-report-cleanup-whitelist.md)b330b0a0先推再freshguard普通删。恢复5423c8a7、5d70e503各同path，完整身份/全部未付scope和失败保各清单及70aa7ef1同本页；0重算、禁重复删。
-
-R46 scaled429437B的[窄白名单](notes/2026-11-16-R133-R46-scaled-strong-operator-report-cleanup-whitelist.md)64094f6c先推e6e90d83后freshguard仅4bbca401同path普通删。恢复4af72dc1cc28c5eb6485ac8f829b544630db3b31，完整SHA/7primary/两级成功链保清单；未来须原字restore，不重算。
-
-R46 strict371382B的[单项白名单](notes/2026-11-16-R133-R46-complete-strict-report-cleanup-whitelist.md)3b1a0c23已先推c7abb659后fresh SHA/size guard普通删；恢复57b2899f61cb23b73bc7b8532f3ee2ae78d28206同path。完整9小primary与原strict→windowed→two-base链保，0旧重算。

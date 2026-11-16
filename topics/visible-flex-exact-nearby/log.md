@@ -100,3 +100,7 @@ Root全读白名单，独立取九小primary全文核bytes/SHA；原strict/scale
 在先推白名单c7abb659675953bfe9b161c8558f3a13c19b421e之后，本提交以fresh main c7abb659675953bfe9b161c8558f3a13c19b421e逐层只读tree metadata重新核唯一path/blobs/size：notes/2026-11-13-R46-complete-actual-strict-operator.json /0aea0f3c9cc1e220d4abeab4185cc46f0af3f71a /371382B，严格相同才普通删。精确restore57b2899f61cb23b73bc7b8532f3ee2ae78d28206同path，SHA770fbb61134db79eb3ecb48710b5d65f72e1ff79b2eb3fc1015609a5da040b42及9小primary/原完成scope/失败/native排除见3b1a0c23白名单。
 
 两README仍同blob。只这一个旧derived预算report，不改任何native/canonical/source/proof/当前输入/旧失败；0大正文/0数学/0workflow/0重算。禁止重复删除；后续如需该历史输入仅原字恢复核身份，不重做旧成功。完成容量维护后继续真实物理腰行与完整误差；此清理不是研究完成。
+
+## 2026-11-16 03:33:16 UTC — 已成索引压缩与定时真实pull尝试
+
+实际CLI `git pull --rebase origin main` 于03:31:44返回 `No usable execution environment is available`；只读公开main b16923509deae4d293a0ffe4c9c0e71b89081976，根/题README仍21bd547f/7e2b93d6，空diff，非真pull成功。下一尝试≤04:31:44。把该头H及open8逐字存 `notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md` 后仅缩已成索引；全部旧球、域、恢复、失败与未付门不变，0数学/0重算。发布前再读头3b3360dc75cc7aede027a70414dc659428090523两README并保远端。
