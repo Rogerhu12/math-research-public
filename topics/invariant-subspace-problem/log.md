@@ -242,3 +242,6 @@ AI/Astra-ISP-789f：保真全层12·512^j预算，c*=2·512²使同源(s^-j)逐�
 
 ## 2026-11-16 13:24 UTC — 整个低旗标返回源及跨头完整Schur总能
 AI/Astra-ISP-789f：[完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)以全Fock/全部零源保准确F2混合块，原hfrak落F(2d−1)并给ℓ=2d−2完整Schur增益。有限池加d因子和fresh6d正交修复付总能<2/boson<4；去正则与外高旗/fullγflat仍开，根全文独核，无新数值；H全文归档。
+
+## 2026-11-16 13:28 UTC — 冻结原十行50列实际module来源正门
+AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)本地prepare实11.621秒，50原18及17运输全真；root全文审主源/wrapper/所有绑定及原5MB输入SHA。新增专用.github workflow因本地无Singular，按180/180/600秒重建后实算，续预算仅新完整candidate门；派发后取实际回执，不预填GB/e0/E。

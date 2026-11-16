@@ -4,7 +4,7 @@
 
 **完整低旗标上的整个返回源 Schur 能量已付。** [同一原首头、全零源及跨头完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)给 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，取ℓ=2d−2后，准确增益为 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。完整canonical Fock保全部birth/物理最小源，F2及混合块仍精确；有限池 $y=(m+1)^4dx$ 支付ε_f+ℓt，fresh6d正交修复使Σ(qℓ−q0)<2，从而支付整个返回源而非仅第三旗分量。bosonic Schur总能<4，但 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；去正则项、外部高旗Schur及原 $\sigma_2^2\|(C^{*2})^\dagger\mathfrak h\|^2$ 完整费仍须另证。源在低旗不保证MP逆像在低旗；不据此宣N=M。原τ14、全h/matched/cut不变。
 
-**原十行116种子已严格压到50原列。** [全原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[完整同B子模证明](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)保十二y/w参数、全部原18来源。权6/8全矩阵秩56/1106，50原列=6mean+20权6comm+14权8comm+10Bell；全部1160坐标/删除列原18乘回，root纯字典另核51,834,662产品。稳定闭包及单位仍开；下一十二参数module候选找e0，阳性需实际lift50系数和全原18乘回，再回E；预算终止/无候选不判非单位。
+**原十行116种子已压到50原列，实际正门待回执。** [全原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[同B子模压缩](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)保十二参数及全部原18源；全矩阵秩56/1106、1160坐标和root纯字典51,834,662产品均付。[实际程序及来源门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)本地prepare11.621秒，50原18乘回/17梯度运输全真；独立Actions重建模型/压缩后运行600秒module候选。只有exit75且完整candidate或验证前缀有新进展可续1200/1800；无候选、内存或文法失败不机械重跑。任何e0正证须实际lift的U=I、全部10坐标/18方程/17原梯度乘回，再另求E；非零候选余式不判稳定闭包非单位。
 
 
 **原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-whole-W31-gap-789f.md)；归档不等于关闭。**

@@ -1,0 +1,82 @@
+{
+  "format": "r150-original-compressed-parameter-module-positive127-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-compressed-parameter-module-positive127-789f.py",
+    "blob": "f9ccc9952b718265aeec08780ad7ca22661dcb1a",
+    "bytes": 31539,
+    "sha256": "4741ca5f21a087f7c8a5248f1a8fb2559b60635ff60552643061c407dfcb3626"
+  },
+  "model": {
+    "sourcePath": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "sourceBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+    "sourceBytes": 23879,
+    "sourceSHA256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
+    "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+    "mathematicalManifest": {
+      "bytes": 30466,
+      "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+    }
+  },
+  "compression": {
+    "sourcePath": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "sourceBlob": "025821b76d7b9a982a52d0ecc205065097ecd66b",
+    "sourceBytes": 20434,
+    "sourceSHA256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9",
+    "binding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+    "pureMathematicalPayload": {
+      "bytes": 620742,
+      "sha256": "a1d73ea1ce5809c87bdc34724c1eb4407d6a5c0ae78fbf16aa3650563aa089dd"
+    },
+    "actualManifest": "fresh honest complete manifest; timing-dependent descriptors are recorded, never rewritten"
+  },
+  "parameters": {
+    "prime": 127,
+    "coefficientRoot": 100,
+    "parameterCount": 12,
+    "moduleRows": 10,
+    "originalColumns": 50,
+    "degreeBound": 0,
+    "ringOrder": "(wp(1,1,1,1,1,1,2,2,2,2,2,2),C)",
+    "target": "e0",
+    "through": "final",
+    "seconds": 600,
+    "memoryMiB": 4096
+  },
+  "cli": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--compression-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--compression-out",
+    "{work}/original-parameter-seed-compression127",
+    "--out",
+    "{work}/original-compressed-parameter-positive127",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "final"
+  ],
+  "diagnostics": {
+    "allSPairCompletenessRequiredForPositive": false,
+    "nonzeroRemainderIsOnlyDiagnostic": true,
+    "characteristicZeroConclusion": false,
+    "stableClosureClaimed": false,
+    "rawArraysOrSSIInRepository": false
+  },
+  "officialPrimaryReference": {
+    "repository": "Singular/Singular",
+    "path": "doc/reference.doc",
+    "ref": "spielwiese",
+    "blob": "67a64ee0438e7349d9fe2a1d53bcc1ddc98ca7dd",
+    "sections": [
+      "slimgb",
+      "lift"
+    ],
+    "url": "https://github.com/Singular/Singular/blob/spielwiese/doc/reference.doc"
+  }
+}
