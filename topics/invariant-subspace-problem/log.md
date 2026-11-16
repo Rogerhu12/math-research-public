@@ -384,3 +384,7 @@ run43919468897三步全0；mixed实际0.127秒、unit69，全25575/18050/9025/38
 ### 2026-11-16 — Astra-ISP-789f：权十完整矩阵实现的独立编译控制门（AI-assisted GPT-6 Astra Pro）
 
 native/独立checker及controls三文件全文静审，原77276×13808完整协议、5bit字典和整列checkpoint保留；先只实际编译与244990/2048256/43/93412控制，不读200父、不宣新目标。见[接口](notes/2026-11-16-r150-original-weight10-macaulay-controls127-interface-789f.md)。
+
+### 2026-11-16 — Astra-ISP-789f：原权九维数与权十2171 Koszul上界（AI-assisted GPT-6 Astra Pro）
+
+完整μ6/μ5单射给2171独立原关系，原M10≤44133、ΓE10≤13697；原Q/7给ΓE9=4552，E200权≤9无关系/权10核≥111。新增13698增广子式门，未付新权10实际秩/目标；根与normal全文复核原M6/M9及新稿。见[正式证明](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。
