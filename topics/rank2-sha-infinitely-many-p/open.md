@@ -194,3 +194,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 [R918](results/R918-original-stable-direction-carry-unit-and-native-endpoint.md)真实三首十三带完整读取：δ=r+2h−s∈[−13,−1]时同q卷积行给单位·a(G)，完整β1在R916实际K∞单射。δ≥0三带零iff值深到J=T+13；若q(0,Y)=cY，native给(3n²−1)vG+9a(G)u0²e0·1δ0=0，δ0首值非零、δ>0再深1。完整U0/实际高轴/q导数/同R,S保，未排非稳定核。
 
 继续同一 K′=K∩ker(完整β1) 的真实后继链与指定 forcing，不以稳定部分单射替全核排除；δ≥0仍用同一个候选继续 native/其它行。
+
+- [R919 §6](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
