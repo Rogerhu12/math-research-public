@@ -173,3 +173,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 - [R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
 
 - [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
+
+- [R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
