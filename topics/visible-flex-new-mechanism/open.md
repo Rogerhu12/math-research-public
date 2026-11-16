@@ -179,3 +179,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### 原布局描述接线待修，全部已付时间继续
 
 [第二输入失败](notes/true53-four-cut-layout-descriptor-failure-20261116.md)：run43826338594/research133160965959已继承首clock，却把简化coordinates.layout传给要完整published descriptor的原子空间。仍0finite/JVP/新行/scalar/actual；同task91.37788493000002秒、累计1750.3576756209998/128值，restore1/repair1均保。只修真正生产descriptor接口，全部finite/全网/actual配额不重置，继续同600秒；若再次恢复未导出context则明确增加修复计数。最新actual双pull07:49空diff，下一08:49:48。
+
+
+### R479：当前多cap并非五余量正权平均
+
+[准确scope](results/R479-common-cost-coefficients-for-several-real-caps.md)从原两源/全部suffix给逐包(Hd,He)=a³(R,−T)S且(R,T)非同零；在wholeE/O_all0/current0、原全role复制与affine查询前提下，partial是向量，不能平均抵消。通用Af多项式使共同response self仍恰3；共同成本条件是每cap五Δ都0，且c、A7/s、A0/(h³s²)分别共值。正幅宽不改变这些比值。分别构造的库不自动共F★；保非零current、改变query/复制等新入口不在此排除范围。R481继续允许单cap的真实五门全零/全局目标，不能由R477开放像直接结束。

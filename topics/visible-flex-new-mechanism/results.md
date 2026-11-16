@@ -442,3 +442,5 @@
 - [R477：真实cap单门正常方向与剩余四门的局部开放像](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)（已证明）：长微小正尾加三累计准确匹配保原根整germ，得Δ6正则根；任意内部开窗/任意小jet邻域的多项式论证、五个分离高阶脉冲和真normal纠正给同Δ6=0纤维内四门submersion。只有实际中心附近开放，未证明0可达或完整共同关系。
 
 - [R476：完整第三核在不交rank-one圆上逐函数不可见](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)（已证明）：R261完整同锚局部核及三右零常数给Z在P³上全函数0。真实A0/T∈Z块保持整个incoming a,b，任意重复内部ruling相同；R80可实现真实有限Z分配。完整第四V/一般a规范项和单份K0、A≠0子桥保留；全W剩余门仅经ΔW18因子化。
+
+- [R479：当前完整partial目标下多cap必须共用成本系数](results/R479-common-cost-coefficients-for-several-real-caps.md)（已证明）：原wholeE/O/current与全role/affine前提下，每包partial=a³(R,−T)S而非总和；共同响应像仍恰3。共同成员iff每cap各过五门，并共用c、A7/s、A0/(h³s²)，正幅宽不改这些比值。未排放弃额外归约的新机制，未假分别库可共同冻结。

@@ -26,7 +26,7 @@ R465/466：完整成本商S(W0)/S(K0)维7/5，XH=H*+J4、XY=J4−J6；真换锚�
 
 R470原85记录（[来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)，含失败15.690763111秒）付两补响应完整self仍旧三维，XY余x5<0故y≠0；XH恰原Ln2真左积分。R471以真实八A_j/六β给五门Δν=R5βν−Rνβ5=0，ν1,2,3,4,6，iff联合比例，唯一c=1152β5/R5；任一非零minor给真实分离行。真Af给5h>3s²及A0/A7界；四局部列共a，复根余量E=3/8∫B²C²dC不能由q>0判正。
 
-R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477以长微小正尾/三累计准确匹配保根整germ，付DΔ6≠0真normal；分离五点C³小/第四阶有限大jet和远处normal纠正，给同Δ6=0内其余四门局部满射。**局部像开放不证明0可达**。
+R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477以长微小正尾/三累计准确匹配保根整germ，付DΔ6≠0真normal；分离五点C³小/第四阶有限大jet和远处normal纠正，给同Δ6=0内其余四门局部满射。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，R481继续真正全零。
 
 R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内部normal真IFT补q4，再重选F★/20根得新完整库E≠0。R478以完整八次primitive/三重因子反证付临界power E≠0；C²分部连续性与实际正密度近似给光滑非零cap。均不判全部cap或旧ψ3；文学线正准备冻结ψ3原积分的新严格区间观察，机制线继续全五门真零目标。
 
@@ -50,4 +50,4 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 [分类修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)续run43826338594/research133160965959/source de4d16fe…在新增subspace metadata构造失败：[布局描述记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)。coordinates.layout只是切片，原构造要完整published descriptor；正在改回原生产接口。0finite/JVP/新gradient/scalar/actual，点53不变。同task **91.37788493000002秒**含首失败和本次；祖先累计 **1750.3576756209998秒/128值**。保restore1/repair1及所有失败，仍同600秒；必要新增修复须明列，全部其它配额不重置。U/T/J/旧finite/旧方向不重算，payload仅原stdout。
 
-理论R477已付正则单门与四门局部开放，R479继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476已付Z块全s重复无漂移，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。
+理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476已付Z块全s重复无漂移，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。
