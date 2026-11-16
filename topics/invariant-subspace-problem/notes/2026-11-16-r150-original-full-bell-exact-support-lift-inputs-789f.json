@@ -1,0 +1,90 @@
+{
+  "format": "r150-original-full-bell-exact-support-lift-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "historicalInputs": [],
+  "sources": [
+    {
+      "role": "exact-E-consumer",
+      "path": "notes/2026-11-16-r150-original-full-bell-exact-support-lift-789f.py",
+      "blob": "6aa939b35d07aa9599635089152f5339cf49bff9",
+      "bytes": 26209,
+      "sha256": "c9ea32d71c00a874d79bef49fd6c3b27236e68d7afe70d94289746a9c5ceed25"
+    },
+    {
+      "role": "frozen-field-parent-and-IO-helper",
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "role": "unchanged-original-model-helper",
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "temporaryParent": {
+    "directory": "original-full-bell-homogeneous-source-prefix",
+    "requiredFiles": [
+      "manifest.json",
+      "complete-original-full-bell-saturation-model.json.gz"
+    ],
+    "positiveInput": "complete-original-affine-field-source-for-one.json.gz",
+    "noCandidateBehavior": "exit0 completed-prefix, with no characteristic-zero claim",
+    "validation": "whole frozen parent semantic binding; each selected compressed and logical SHA; original 18 polynomial source identity"
+  },
+  "runtime": {
+    "python": "Python3 with python-flint0.9.0",
+    "singular": "not called by this consumer",
+    "installPerformedByThisSource": false
+  },
+  "firstRun": {
+    "seconds": 600,
+    "memoryMiB": 4096,
+    "outerSeconds": 660,
+    "maxUnitRank": 512,
+    "maxSupport": 2048,
+    "maxProfileElements": 20000000
+  },
+  "sameJobOrder": [
+    "field parent through weighted degree9 with actual degree2->degree3 continuation selftest",
+    "exact consumer on the same temporary parent out",
+    "budget-only continuation may reuse the same complete profile, unit input, saved whole solution and passed original E components"
+  ],
+  "checkpoint": {
+    "outputDirectory": "original-full-bell-exact-support-lift",
+    "boundaries": [
+      "complete modular original-support profile",
+      "complete original E unit input",
+      "entire rational unit candidate before verification",
+      "each of three full original E polynomial product components"
+    ],
+    "budgetExcludedFromBinding": true,
+    "sourceChangesRequireNewOut": true,
+    "unitSolveMidpointCheckpoint": false,
+    "workerTimeoutRetainsCompleteCandidateIfAlreadySaved": true,
+    "fieldSectionFailureIsNotIdealNonmembership": true
+  },
+  "verification": {
+    "originalVariables": 17,
+    "originalGenerators": 18,
+    "coefficientFieldDegree": 3,
+    "fieldZeroOriginalMonomialRowsRetained": true,
+    "fieldUnitUsedOnlyForSelectingNonzeroEUnit": true,
+    "completeOriginalPolynomialIdentityRequired": true,
+    "noParameterDenominators": true,
+    "bellPowerSLPDerivedFromVerifiedIdentity": true,
+    "expandedBellPowerProductSeparatelyComputed": false
+  },
+  "validationAtFreeze": {
+    "pythonAST": false,
+    "compiledOrRun": false,
+    "reason": "shared execution environment is offline; initial Actions execution performs parsing and actual arithmetic"
+  },
+  "storage": {
+    "permanent": "source, parameters, proof, execution metadata and complete output SHAs only",
+    "mathematicalArrays": "temporary same-job workspace; no new repository or Release mathematical result arrays"
+  }
+}

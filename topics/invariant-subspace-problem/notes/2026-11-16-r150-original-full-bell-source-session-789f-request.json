@@ -1,0 +1,110 @@
+{
+  "format": "isp-complete-original-bell-source-manifest-only-session-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "2596c21030c29e59e9b9d28ccd84a6ef1816d89b",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "sessionScriptSHA256": "0b0406cd92f4db4d1b5e89663cd72d24016baa2d3f2e1710502e780cae1e823c",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 300,
+  "closeSessionWhenStepsComplete": false,
+  "sessionWorkMinutes": 80,
+  "workflowHardMinutes": 90,
+  "steps": [
+    {
+      "id": "complete-original-bell-field-prefix-through9",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "scriptSHA256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/original-full-bell-homogeneous-source-prefix",
+        "--singular",
+        "Singular",
+        "--through",
+        "field",
+        "--through-degree",
+        "9",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600,
+        1200,
+        1800
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-full-bell-homogeneous-source-prefix/original-full-bell-homogeneous-source-prefix-receipt.json",
+      "mathematicalScope": "all17 original variables, all18 original generators, actual degree2 absence and continued degree3 source selftest; completed original weighted-degree checkpoints only"
+    },
+    {
+      "id": "complete-original-bell-exact-E-support-lift600",
+      "requires": [
+        "complete-original-bell-field-prefix-through9"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-exact-support-lift-789f.py",
+      "scriptSHA256": "c9ea32d71c00a874d79bef49fd6c3b27236e68d7afe70d94289746a9c5ceed25",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        }
+      ],
+      "argv": [
+        "--field-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--field-out",
+        "{work}/original-full-bell-homogeneous-source-prefix",
+        "--out",
+        "{work}/original-full-bell-exact-support-lift",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--max-unit-rank",
+        "512",
+        "--max-support",
+        "2048",
+        "--max-profile-elements",
+        "20000000"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-full-bell-exact-support-lift/original-full-bell-exact-support-lift-receipt.json",
+      "mathematicalScope": "no candidate returns a truthful prefix; only all three full original E polynomial products permit a characteristic-zero source result"
+    }
+  ],
+  "sameJobPolicy": {
+    "fieldBudget75": "strictly increasing600,1200,1800 with the same source/out/binding and whole-degree reuse",
+    "otherFailure": "no automatic retry of syntax, input, memory or verification failure",
+    "exactFollowup": "new independent step id can reuse the same exact out inside this job if time remains",
+    "periodicRules": "actual pull and both README identities before every step and publication; also during a long running step before30minutes",
+    "sessionDeadline": "refuse to start an attempt unless its whole outer budget plus120seconds fits both80minutes from session start and88minutes from workflow start",
+    "idleWindowSeconds": 300
+  },
+  "largeDataPersistenceAllowed": false,
+  "computationalOutputsInRepositoryAllowed": false,
+  "mathematicalProgramStatus": "Prepared source only. The finite-field search and E lift have not been executed. No emptiness, rank, source degree or positive identity is prefilled."
+}
