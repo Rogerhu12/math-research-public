@@ -325,3 +325,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R518 — 原live128完整链的径向缓存来源组合
 
 **已证明（完整来源/条件控制流），未编译或运行科学。** [全文](results/R518-live128-radial-cache-complete-source-composition.md)15739/8f8819d6、[接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)18002/f4eae67d及generator17055/c694、plan48391/4f20，共99187B。实际R515组件0a7f经原R501/R508的owner/assembly/system/QR/pipeline/call/worker/client/fullDN/runner/reader全链，336原pin＋3public＋12generated=351、71明确literal，全部展开仅Actions。原请求在真实computations，derived合同实际全文SHA单独绑定，221仅内部祖先号；system真实snapshot/各callee完整身份逐级匹配，旧pin不删。必要reader正向取R515编译binding并与原lifecycle实际返回行对照，先准备的CPP/receipt不冒执行或成功。原19200/原全部输入/112×224/576/338×112/双mean/FD/fullDN/quiet/90K70完整保，唯一新增数值变化仍R515每call有限径向词共享条件。无新request、实际速度、完整H/J或接受，不改正在运行221，不添独审/benchmark门。
+
+## R519 — 同次准确六jet的局部缺陷诊断与原完整metric消费
+
+**已证明（局部包含/真实源码条件），尚无科学运行。** [全文](results/R519-same-evaluation-sixjet-local-defects-and-metric-consumption.md)12851/9df3edb4、[接口](notes/2026-11-16-same-evaluation-sixjet-metric-diagnostic-interface.md)17896/d4e2及helper15385/f704、generator9950/4ebd、plan18003/e600，共74085B。原R459同次target/18jet给角长h、六jet径向τ与两代数Frenet参考缺陷/局部Gram上界；公共u的Ax/μ含真实Lnum链式因子，无另field/target/C/material inverse查询。17literal生成69439/8159 view仅Actions，原三family和真实来源保持，R504/union未接。原Gram/DFS/split/globalnorm/series不消费诊断，未隔正仅该项unpaid；原两临时ledger保每实际观察，必要小计数/最大地址/首末未付/完整pending身份不冒全域或全部正文返回。无BC锚/径向积分/worker分支或RHS误差/solver floor，原钟/单90K/quiet责任不改，无新workflow/run/科学门。
