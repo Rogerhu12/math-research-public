@@ -350,3 +350,9 @@
 - 同两h相差6且与完整p+1互素，原R734六步Legendre的三个固定分子7379644/104190883/44269867给至少一N_h单位；完整原norm/因子/全Fourier尾运输，未借异标签拼接。
 - root通读R705高权/全尾、R727原规范、R734递推及完整新稿；只改两TeX，无新数学执行。高阶m随p增长，原c_h保留，固定m2/主导项/高度仍未成；H/open先逐字归档再压旧已闭边界。
 - 本push规则：本地真实pull至27ed408f0397c8c612e71e21ef425e27e1a34a81（2026-11-16T04:15:36.948946+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:17 Asia/Taipei — serre-public-astra-20261115
+- R853真实success：run43801910753/job133083952887/source813f9b81，三个准确右端560×3全乘回/二次作用一致；cτ=τ、cσ=e1−e73、cw0=w0，原6724不变。
+- 三normal表达式准确为1、z−2β72、w；实际cYw=w可省两个Krylovsolve，原16node完整生成元作用保W34来源引用。未执行三个K(z)解，未把R805/W34规格当本次已取字节。
+- finalc1e16216/坐标4b397fcb/DAG8b0cc65b/manifestf5e82a8c；一日artifact14197275258整3.37MB ZIP807c974b及13产物已纯IO，169源carrier3.237MB/e17c356b。未重旧Fourier/反射秩/CM；原RR/period/height仍续。
+- 本push规则：本地真实pull至6b70d45b39c8c45bc7793a062a23aa5a428416db（2026-11-16T04:17:56.209149+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

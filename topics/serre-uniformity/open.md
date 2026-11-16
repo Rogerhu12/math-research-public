@@ -114,7 +114,7 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 **R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
 
-**原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。
+**原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想；三共轭现见R853正式结果，128/634 RR仍待执行。
 
 **原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
 
@@ -122,7 +122,7 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 **R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
-**R853三条原V1共轭已提交待运行**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
+**R853三条原V1共轭实际已成**：[结果](results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md)f9635345，run43801910753/job133083952887/source813f9b81；0.281772742s/3stage，560×3全乘回及二次作用一致。实际cτ=τ、cσ=e1−e73、cw0=w0，故cYz=z−2β72、cYw=w，原6724保。finalc1e16216/坐标4b397fcb/DAG8b0cc65b/manifestf5e82a8c；artifact14197275258/807c974b，169原件3.237MB carriere17c356b，整ZIP/13产物纯IO已核。W34/R805仅规格不代已取原件；三个Krylovsolve未执行，实际仅剩β72需幂基转换；RR/period/height未成。
 
 
 **R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。
