@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 09:54:50 UTC root委托本公开仓库Actions run43844030599真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 2a188253f9d65c8966ad26c81f0270dd5d4a5487。
+规则同步记录：2026-11-16 09:55:40 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 15c425847cdb0bc6fd89ea81be7d4e10d3564ac0。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull，每pull核双README，有变仅读差异立刻照做；原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功；部分克隆blob:none/sparse，终端失联后委托公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
