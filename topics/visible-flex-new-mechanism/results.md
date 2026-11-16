@@ -420,3 +420,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R508 非零原二阶规范打开参考正割出口与双号矩阵端口](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)：**已证明**同一新母/B/w/χ保完整参考正割并使速度非退化，真实左germ离开、终k/ω复位且m_p2任意小双号；其余七矩/高度/frame/位置/全period仍保真实成本，不冒纯p2或主有限等距族。
+
+
+- [R509 五端实际半像与短桥矩阵复位的准确边界](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)：**已证明**同母/w/χ下终k/ω/p0^y/p2复位且p1^y任意小正值，非零点五端submersion；完整Volterra式给短盒单侧成本及M0必要C≥1，其余五矩/几何/全period未付。

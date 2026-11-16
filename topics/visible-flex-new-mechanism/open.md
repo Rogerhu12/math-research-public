@@ -182,4 +182,12 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)run43859053666实际20525变量/31809行/672136nnz，HiGHS180秒限/status1/nit270738/xNone，0exact judge。权威总183.90384485000004秒，0overrun；完整14语义记录/0parseerrors。没有证书、没有有限不可行性或全类结论；本唯一LP账户闭，不重启同instance或续余额。接真实同图Re/Im耦合解析分离/共同零；57全168新run43859882465正在执行，主门未付。
 
 
+## 2026-11-16 11:45 UTC：R509五端真实半像与准确短桥边界
+
+[R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)在同一R508母/w/χ与原history下，四真实权1/cos/sin/log独立；四normal IFT准确复位终k/ω/p0^y/p2，非零核方向经平方重参数实现p1^y=η>0，并在非零点给五端submersion。完整Volterra式给Δp1≥(1−C)/2∫k²，C=L hmax||h′/h²||∞；短盒C≤1/2严格单侧，全M0必须C≥1。保原x/y坐标关系、其余五矩/高度/frame/位置/全3/4，不称纯p1或全八矩控制。
+
+下一真实连接须离开该短盒或进入另一个已付状态域，仍用同母/w/χ在整段解K；不能靠同类短段叠加规避p1正成本及k0时t1负成本。私有已11:44实际pull/README空diff/QUEUE唯一进行中；当前57科学run继续。
+
+
+
 

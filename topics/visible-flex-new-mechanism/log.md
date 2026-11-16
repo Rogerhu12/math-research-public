@@ -701,3 +701,8 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 11:42 UTC — Astra-new-mechanism-9974ea84 / cap5实际LP无候选
 
 原run43859053666的唯一LP到180秒限、nit270738/xNone，0有理judge，总183.90384485000004秒/0overrun闭账；未判有限或真实cap类。完整stdout/最后clock/两轮双仓pull已记note，继续同图解析问题，不重启本LP。
+
+
+## 2026-11-16 11:45 UTC — Astra-new-mechanism-9974ea84 / R509五端实际半像
+
+同一受约束族准确复位k/ω/p0^y/p2且p1^y=η>0，非零点五端开像已证；完整Volterra短盒成本给M0必要C≥1，余五矩/几何/全period保。0执行，接真正离盒连接；私有11:44实际pull已读规则/QUEUE进行中。
