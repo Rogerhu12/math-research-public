@@ -410,3 +410,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [同覆盖两个独立差分](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：附录B取γ=3+ω、Normγ7，a_i=barγ²/7/γ²给同degree49m的A_i=F(a_i z)。B1=A1−A0、B2=A2−A0真代数独立；普通实际单位推前及inert共同Gaussian49α给J_Bi=(b^{iu}−1)ρ0^uJ_F，ρ0=a0^(p+1)/49。原质量零已使两个中央导数在所有好p无条件零；这来自局部因子，不能代原primitive单位/预算条件。
+
+
+[R855 原共同六sigma因子](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：§§9–11给四原源共同A24=σ24(X+1)(7X²−4X+16)/7，准确六sigma乘积/28；四全纯质量1伙伴degree10/48/112/42及倍点CM因子全保。四B=同B(A24)+同实际低Hurwitz反对角配对，三差行只改写全部原卷积。全热张量另有(nD1−mD2)²/[2mn(m+n)]项，不能省伙伴方向；未付四实际配对不相容。

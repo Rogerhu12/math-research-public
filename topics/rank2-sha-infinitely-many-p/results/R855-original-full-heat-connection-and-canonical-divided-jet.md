@@ -469,3 +469,259 @@ $$
   [R821 四个实际来源及全部 carry](R821-original-four-central-axes-and-complete-four-block-carries.md)、
   [R853 同源加权 Cartier 读数](R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)。
 - [固定 torsion、完整 CM frame 与初始资料](../notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)。
+
+
+## 9. 四个实际来源共有的 degree24 因子
+
+本节在原共同 $b=1$ 模型上给出准确乘法身份；回原 $b$ 的运输仍按第7节和 R821 的固定齐次规范进行。置
+$$
+X=x^3,\quad t=-X^{-1},\quad
+\mathfrak a=t(t-1)(7+4t+16t^2),\quad d=1+8t,
+$$
+$$
+\boxed{
+A_{24}=\frac{\Theta^{12}\mathfrak a}{7}
+=\frac{\sigma^{24}}7(X+1)(7X^2-4X+16).
+}
+\tag{42}
+$$
+它是原 whole degree24 截面，$A_{24}=z^6+\cdots$。定义以下四个完整伙伴：
+$$
+\begin{aligned}
+H_{10}&=\Theta^5d,\\
+H_{48}&=\Theta^{24}d(1-4t)(1-20t-8t^2)
+                         (1+96t+48t^2-64t^3),\\
+H_{112}&=\Theta^{56}H_{18}/13,\\
+H_{42}&=\Theta^{21}d^2(4t-1)(-1+228t-48t^2+64t^3).
+\end{aligned}
+\tag{43}
+$$
+这里 $H_{18}$ 是 [R812(2)](R812-original-same-charge-cancellation-and-complete-source-budget.md) 的完整四因子多项式，常数为13；没有截掉其高次项。直接由 R821(2)–(3)，
+$$
+\boxed{S=A_{24}H_{10},\quad T=A_{24}H_{48},\quad
+U=A_{24}H_{112},\quad V=A_{24}H_{42}.}
+\tag{44}
+$$
+四个伙伴的 degree 分别为下标，其中心值全部为一，且均为 $\mu_6$ 型零。它们确实全纯：把 $\Theta^rQ(t)$ 写成
+$\sigma^{2r}x^rQ(-x^{-3})$ 后，(43)中四个 $Q$ 的次数依次为
+$1,7,18,6$，故最低 $x$ 次数依次为 $2,3,2,3$，全非负。
+相应最高极阶等于其 theta degree，中心值一也可在 $t=0$ 直接读取。
+这证明的是同一个原来源的乘法分解，并未给 $A_{24}$ 或任一伙伴增加中央零条件。
+
+### 9.1 共同因子的完整六 sigma 规范
+
+取 $\omega^2+\omega+1=0$、$\gamma=3+\omega$，则
+$\gamma\bar\gamma=7$。在本篇原 equianharmonic sigma 规范中，
+$$
+\boxed{
+\frac{\sigma(\gamma z)\sigma(\bar\gamma z)}{\sigma(z)^{14}}
+=7x^6-4x^3+16.
+}
+\tag{45}
+$$
+为说明这包括绝对倍率，先用 CM sigma 的原准周期式。
+$\eta(\gamma\lambda)=\bar\gamma\eta(\lambda)$，所以两分子的指数因子之积恰为分母的指数因子。
+$\gamma,\bar\gamma$ 都在模2格上可逆；odd sigma 在三个非零二挠标签上的半特征均为负，两个相同负号相乘为正。因此该商的半特征也平凡。
+它是椭圆函数，唯一极点为 $O$、极阶12；又由
+$\sigma(\zeta z)=\zeta\sigma(z)$ 对 $\zeta\in\mu_6$ 得其型为零。
+故它在 $1,x^3,x^6$ 的三维空间中。
+
+最后使用原 Laurent 规范
+$$
+\log(\sigma/z)=\frac{z^6}{210}-\frac{z^{12}}{84084}+O(z^{18}),\qquad
+x=z^{-2}-\frac{z^4}{7}+\frac{z^{10}}{637}+O(z^{16}),
+$$
+以及
+$$
+\gamma^6+\bar\gamma^6=-286,\qquad
+\gamma^{12}+\bar\gamma^{12}=-153502.
+$$
+前三个 Laurent 系数依次确定(45)的 $7,-4,16$。所以没有留下一个未付的单位或 Gaussian 指数因子。
+
+再用准确倍点式 $\sigma(2z)=-2y\sigma^4$ 和 $y^2=X+1$，得到
+$$
+\boxed{
+A_{24}
+=\frac{\sigma(\gamma z)\sigma(\bar\gamma z)
+        \sigma(2z)^2\sigma(z)^2}{28}.
+}
+\tag{46}
+$$
+六条实际输入的范数为 $7,7,4,4,1,1$，和为24；原点首项为
+$\gamma\bar\gamma\cdot2^2/28=1$。式(46)保持了每个输入和全部半特征，未以裸范数代来源。
+
+### 9.2 三个伙伴的真实倍点／CM 因子
+
+令 $\delta=1+2\omega$，$\delta^2=-3$。由原倍点和 norm3 公式，
+$$
+\Theta(2z)=\Theta^4(1+8t),\qquad
+\Theta(\delta z)=\Theta^3(1-4t),
+$$
+$$
+\Theta(2\delta z)
+=\Theta^{12}(1-4t)(1-228t+48t^2-64t^3).
+\tag{47}
+$$
+例如 $x(\delta z)=-(X+4)/(3x^2)$ 给
+$t(\delta z)=-27t/(1-4t)^3$，再把倍点式代入便得第三式，包含全部三次多项式。
+因此 R821 的 $V/S=H_{32}$ 及(43)满足
+$$
+\boxed{
+H_{10}=\Theta(z)\Theta(2z),\qquad
+H_{32}=\Theta(2z)\Theta(2\delta z),\qquad
+H_{42}=H_{10}H_{32}.
+}
+\tag{48}
+$$
+另外，原三倍点 division polynomial 给
+$$
+\Theta(3z)=\Theta^9(1+96t+48t^2-64t^3),
+$$
+$$
+\Psi_{12}(z):=\frac{\sigma(4z)}{2\sigma(2z)}
+=\Theta^6(1-20t-8t^2).
+\tag{49}
+$$
+第二个商是完整全纯截面；右式直接支付其潜在分母处的消去和中心值一。
+由(47)–(49)，
+$$
+\boxed{
+H_{48}=\Theta(z)^2\Theta(2z)\Theta(\delta z)\Theta(3z)\Psi_{12}(z).
+}
+\tag{50}
+$$
+各因子的 degree 为 $4,8,6,18,12$，总和48。
+这些身份均在原 CM 纤维上使用完整 theta frame；本节没有把它们当作对任意 $g_2$ 横向变形仍可删去伙伴的乘法规则。
+
+## 10. 四条除 $p$ 行化为同一个真实反对角配对
+
+写 $d=p+1=6s$，对任何实际 whole theta 截面 $A$ 记
+$j_k(A)=D^kA(0)$；对中心严格为零者，记
+$\mathfrak B(A)=j_d(A)/p\bmod p$，与(31)完全同义。
+设 $A(0)=A'(0)=0$，$H(0)=1,H'(0)=0$，各自使用原整提升。
+Leibniz 公式准确给
+$$
+j_d(AH)=j_d(A)+
+\sum_{k=2}^{p-1}\binom{p+1}{k}j_k(A)j_{p+1-k}(H).
+$$
+对于 $2\le k\le p-1$，
+$$
+\frac1p\binom{p+1}{k}\equiv
+\frac{(-1)^k}{k(k-1)}\pmod p.
+$$
+故
+$$
+\boxed{
+\mathfrak B(AH)=\mathfrak B(A)+
+\sum_{k=2}^{p-1}\frac{(-1)^k}{k(k-1)}
+             j_k(A)j_{p+1-k}(H).
+}
+\tag{51}
+$$
+此式没有对中心值为一的 $H$ 定义一个不合法的 lift-independent 除 $p$ 行；
+它仅读 $H$ 的严格低于 $p$ 的整 Hurwitz jet。
+若两因子中心值均为零且仍保一阶 jet 零，右边的 $\mathfrak B(A)$ 项也为零，得到相应纯双线性式。
+
+对(42)–(44)，只有 $k=6r$ 项保留。令
+$$
+\mathcal Q_p(A,H)
+=\sum_{r=1}^{s-1}
+\frac{j_{6r}(A)j_{6(s-r)}(H)}{6r(6r-1)}\in k.
+\tag{52}
+$$
+四个实际方程准确成为
+$$
+\boxed{
+\begin{pmatrix}
+\mathfrak B_{34,p}(R_S)\\
+\mathfrak B_{72,p}(R_T)\\
+\mathfrak B_{136,p}(R_U)\\
+\mathfrak B_{66,p}(R_V)
+\end{pmatrix}
+=
+\mathfrak B_{24,p}(R_{24})\begin{pmatrix}1\\1\\1\\1\end{pmatrix}
++
+\begin{pmatrix}
+\mathcal Q_p(A_{24},H_{10})\\
+\mathcal Q_p(A_{24},H_{48})\\
+\mathcal Q_p(A_{24},H_{112})\\
+\mathcal Q_p(A_{24},H_{42})
+\end{pmatrix},
+}
+\tag{53}
+$$
+其中 $R_{24}=(X+1)(7X^2-4X+16)/7$，所有输入仍是原完整截面。
+因此四中央同时零所迫的首行条件，等价于(53)第一行零及
+$$
+\boxed{
+\mathcal Q_p(A_{24},H_{48}-H_{10})
+=\mathcal Q_p(A_{24},H_{112}-H_{10})
+=\mathcal Q_p(A_{24},H_{42}-H_{10})=0.
+}
+\tag{54}
+$$
+式(54)是在实际形式级数上取差，未将不同 degree 的差硬放进某一个未付的同线丛格。
+
+这个配对在所有 $s-1$ 个自由低 jet 组成的环境中反对角非退化：
+每个显示的 $6r(6r-1)$ 都是单位。但这一环境维数随 $p$ 增长；
+非退化本身不证明固定的四个伙伴在其指定行上不能同时相消。
+
+更具体地，令 $a_r=[z^{6r}]A_{24}$、
+$h_{q,r}=[z^{6r}]H_q$。所读低系数均整，且
+$$
+\mathcal Q_p(A_{24},H_q)
+=-\sum_{r=1}^{s-1}a_rh_{q,s-r}\pmod p,
+$$
+$$
+\alpha_q=a_s+\sum_{r=1}^{s-1}a_rh_{q,s-r}
+=-\mathfrak B(A_{24}H_q).
+\tag{55}
+$$
+这由
+$\binom{p+1}{k}k!(p+1-k)!/p=(p+1)!/p\equiv-1$
+直接得到。于是(53)保留的正是原全部低卷积；
+未把它误判成已经消去全部卷积的一个新相位等式。
+
+## 11. 热张量乘法中必须保留的伙伴方向
+
+对通用参数上的 $R\in\mathscr V_m,S\in\mathscr V_n$，从(12)逐项相减得
+$$
+\boxed{
+\mathcal H_{m+n}(RS)
+=(\mathcal H_mR)S+R(\mathcal H_nS)+\mathcal K_{m,n}(R,S),
+}
+$$
+$$
+\mathcal K_{m,n}(R,S)
+=\frac{n(D^2R)S}{2m(m+n)}
++\frac{mR(D^2S)}{2n(m+n)}
+-\frac{(DR)(DS)}{m+n}-\frac{xRS}{2}.
+\tag{56}
+$$
+这个额外项也有完全不含 $\zeta$ 的实际双输入表示：
+$$
+\boxed{
+\sigma^{m+n}\mathcal K_{m,n}(R,S)
+=
+\left.
+\frac{(nD_1-mD_2)^2
+\big(A_R(z_1)A_S(z_2)\big)}
+{2mn(m+n)}
+\right|_{z_1=z_2=z}.
+}
+\tag{57}
+$$
+证明把 $D A_R=\sigma^m(DR+m\zeta R)$ 和其二阶式代入。
+所有 $\zeta DR,\zeta DS,\zeta^2RS$ 项准确相消，
+剩余 $\zeta'RS/2=-xRS/2$，恰为(56)的最后一项。
+所以(57)是同一线束乘法的完整第二伙伴方向；它不是零，也不是可以删除的中心单位。
+
+对(44)可取 $m=24$、$n=10,48,112,42$。
+若要反复使用热连接，(56)–(57)及后续所有横向导数须一起保留；
+仅把 $\mathcal H_{m+n}$ 当作两因子热算子的和会改变(34)。
+在 $j=0$ 上，两个型零因子的(57)为型四，这也不能使其在后继双变量递推中消失。
+
+本附录新增的是原共同六 sigma 来源、四个完整真实伙伴、
+以及它们在原除 $p$ 行中的准确共同配对和热张量项。
+它没有证明(54)不相容，也没有将任一伙伴或平衡导数赋予新的算术中央零。
+所有原 $P_{2,M}$ Frobenius 初始资料、CM13 frame、Gaussian 权和高 carry 范围仍原样保留。

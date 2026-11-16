@@ -139,3 +139,6 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 
 
 [同覆盖独立差分](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：附录B取γ=3+ω、Normγ7，a_i=barγ²/7/γ²给同degree49m的A_i=F(a_i z)。B1=A1−A0、B2=A2−A0真代数独立；普通实际单位推前及inert共同Gaussian49α给J_Bi=(b^{iu}−1)ρ0^uJ_F，ρ0=a0^(p+1)/49。原质量零已使两个中央导数在所有好p无条件零；这来自局部因子，不能代原primitive单位/预算条件。 因此任何原中央零到全旗标改善的推理都须使用原完整primitive局部测试与真实成本，不能仅假代数独立加中央导数零。
+
+
+[R855共同A24与四伙伴](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：§§9–11给四原源共同A24=σ24(X+1)(7X²−4X+16)/7，准确六sigma乘积/28；四全纯质量1伙伴degree10/48/112/42及倍点CM因子全保。四B=同B(A24)+同实际低Hurwitz反对角配对，三差行只改写全部原卷积。全热张量另有(nD1−mD2)²/[2mn(m+n)]项，不能省伙伴方向；未付四实际配对不相容。 后继须检验原固定伙伴的实际配对，不能只用环境反对角非退化。
