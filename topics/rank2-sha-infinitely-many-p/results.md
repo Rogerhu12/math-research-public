@@ -239,3 +239,6 @@
 
 
 - [R872全局负水平与primitive首项截除](notes/2026-11-16-r872-global-negative-horizontal-and-primitive-leading-moment.md)：原z−≥1给整条[Y0]J=0，LJ=F³A遂迫[Y0]A=0；完整物理前缀再给a1·v1(F0)=0。v1≠0时整个J3∩K1的A/J均含t³，不能调整任何t1/t2来源列，τ1 native normal项真消。v1已化F0=(Y−1)(Y²+αY+β)的明确非零三次条件；实际退化F0=Y²(Y−1)给−6/(47·48·49·50)单位，局部50Y−46方向被全球零charge排除。第s值/其余β1与同R/S继续保留，未冒全K1结论。
+
+
+- [R872原quartic负水平全范围与双层消失](notes/2026-11-16-r872-quartic-negative-horizontal-range-and-double-vanishing.md)：原余乘子精确jH−与R0的t³给4z−≤1+6j，j0/1/2分别迫z−≤0/1/3。端点z3的两次真实限制次数2−3z−、8−3z−均负，故整个J3的A/J含Y²，再由t²帽≤1迫含t³，无需K1或v1非零。原零/一charge帽4/8准确下降商但不冒满射。5042在原p6s−1>211始终unit，若完整首Bockstein通过则W0须从≥s再加深到≥s+1；其余β1/Π与全同R/S仍未消。
