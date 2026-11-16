@@ -1,0 +1,61 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43906283833",
+  "stepId": "original-ten-parameter-model116-180",
+  "executionSourceCommit": "ac41e14c7f2b256d1afe9d80f3a5d172d8191f00",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+  "scriptSHA256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
+  "argvTemplate": [
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--through",
+    "seeds"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 13.443635846999996,
+  "fullTemporaryReceiptBytes": 30925,
+  "fullTemporaryReceiptSHA256": "2323caa64c8ceb267a40f528bd3198f557652ed78b2b76dd9a3a4b19185ce0bd",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 16:20:19 UTC",
+      "beforeReadCommit": "b8bc3b7585d015442b9d67b7ddfb68b1e846b536",
+      "originMainAfterPull": "ac41e14c7f2b256d1afe9d80f3a5d172d8191f00",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 16:20:33 UTC",
+      "beforeReadCommit": "ac41e14c7f2b256d1afe9d80f3a5d172d8191f00",
+      "originMainAfterPull": "ac41e14c7f2b256d1afe9d80f3a5d172d8191f00",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "092b9afa50276750e43eae317f549377bf17a88c683725d58e26e41cd4e0d3e8",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "ac41e14c7f2b256d1afe9d80f3a5d172d8191f00",
+  "summaryExcludesRecomputableArraysOnly": false
+}
