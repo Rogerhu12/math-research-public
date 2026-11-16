@@ -404,3 +404,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R414｜共同合法窗口下whole E与高自然商的实际有限截面
 
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)（20561B；SHA256 f469691f2cd37f6815a947fe11f40778697ceaa20eea26c698da7b2269675b72）。共同A仅取实际母self与ordered3+2的全affine轨道，辅助self不增加；全权零查询准确0。自然≤−4给真不变子模块，商的全部候选正字符逐权排除，零权响应商0，原两次商校正和最终有限复制保所有prototype/桥/后置成本，得真实联合像内同一C1截面。物理实施须整个库与控制有限包络共享合法窗口；from-start一次坐标识别后固定，不授任意预冻结几何。新F★同时保共同D/E、19根和有限简单退化；完整低自然与全period继续。
+
+
+## R416｜任意静态曲率的负六完整自然通量恒零
+
+[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)（10985B；SHA256 fb3df27a0aaaf7259db996c166c7a42ee4f7ae1ee6be37c90da2f6a03ff64176）。按R56/R73/R402完整原式，外槽N0的潜在h^-4项对每个k准确抵消；最低静态YC、ZZ与两有序Green尾均为k=0原式的(1+k²)^5倍。保留真实左R′=μ0后，完整自然配方全profile/allk为零。结合共同查询下降、同权E=response，负六正字符的a(k)及同乘子μ全零；其完整静态action消失，仅余三个速度函数的PSD。负四全k静态、两权Q2和实际全joint仍未完成。全为原式纸证，无新计算。

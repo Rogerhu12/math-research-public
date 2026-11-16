@@ -186,11 +186,11 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
 
 
-### R413/R415：共同Q4与双静态锚已消，继续四个完整低函数
+### R413–R416：负六完整静态全消，继续真正速度二次型及负四
 
-[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从R411起点保D−E>0；共同Q4的−4头维rank(d,e)−1，故从起点同D/E才得仅−2四链。所有不交ordered3+2对Q4局部五次为0；两负权同权E=R使完整A/H/Q4 action0。[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)再由八参考态得两锚μ，原kω0的V6保左R′J及两有序尾得Λ全u0；−4 V*原3F/32已在消掉的共同Q4像。于是两权a(0)=0，μ=2a(1)p2*、μm2=0。剩余准确为同字符a(k)≥0及三个速度函数的2×2 PSD，a(1)未排；四最低h系数的Γ幂已核空，原N0/N2、水平微分和真尾不能删。不把pure列当完整mixed根。R414另付共同高商，继续实际低层。
+[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从起点共同D/E且D−E>0，使共同Q4仅−2头；ordered3+2局部五次全0。两负权同权E=R消完整A/H/Q4 action。[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)八参考态与完整左尾/有序尾给两权a(0)=0、μ=2a(1)p2*、μm2=0。[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)进一步保完整外槽N0，全k最低h^-4抵消；Y6、Z6及两有序尾统一乘(1+k²)^5，Λ([h^-6]F0)对全部真实profiles/全部k恒0。因此−6正字符a(k)≡0、a(1)=μ=0，仅剩原三速度系数的2×2 PSD。−4全k静态及三速度尚未消。所取Γ幂已核空，但原N0/N2、真水平微分/右锚及左尾必须保留，不把旧pure列当完整mixed根。继续同一actual联合门、全period与13同一个k。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
 
-[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续R415四低函数。
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续R416的负六三速度及负四四低函数。

@@ -451,3 +451,8 @@ Astra-new-mechanism-9974ea84：observer43781737655/job133020248595/source613ad21
 ## 2026-11-16 00:47:54 UTC｜按已知原raw哈希收窄模型与费用读出
 
 Astra-new-mechanism-9974ea84：首observer因重复controller/old history展开超界，现仅改语义选择，run/main的绑定、actualpull、一次log读取与660KB cap逐字未改。新script 35502B/hashd2e3a74eff584118df471720fee0ddfacc8f4fdbfdcae33f0a6a9d44a3c9048b；request 2800B/hashd56f395b07ef0f13ac9e74bb5bdba24d24f1dfbe8551617905b75c5d873248e5，固定已读原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9；workflow仍833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694。保全部28 MODEL/每trial原14门、LP每inner实际status/success/gain/gap/限时/残差、allocation/B/γ/guard、首次两网timing和最终钟；仅重复controller/history与数组转原指纹。原m28停止分支必须由这些原值解释，不从名称推驻点。根读完整差异，无研究/人工/源重算；本push唯一只读请求。基底e2da1847c9865f3309e2c56fe0ea3b41883b0d98。
+
+
+## 2026-11-16 00:51:02 UTC｜R416消去负六所有静态曲率，继续速度二次型
+
+Astra-new-mechanism-9974ea84：[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)，10985B/hash fb3df27a0aaaf7259db996c166c7a42ee4f7ae1ee6be37c90da2f6a03ff64176。mechanism给出完整定稿；根已读全文，并按R56/R73原式核b/q最低幂、N0独立outer的两项相消、YC与ZZ的第五次因子、原左尾和有序尾，及R415的同μ符号。没有积分/符号/人工检查执行，没有以静态系数替代实际闭路径。负六a(k)=μ=0仅消静态，速度PSD与负四仍开放。第二窄observer已发85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621，待读已付原28模型，不重科学。基底56066c730caf2cbc93d1f8adb1364cce9ac8ba31。
