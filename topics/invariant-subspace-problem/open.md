@@ -108,10 +108,10 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 原A:6188→4367、W秩4212与全部degree≤3 source字典保持。[新原全局定理](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)给monΔ=monK178·Ω、degree298/齐次364、严格Σ0外μ=1。九h*tj∈im_Q[s]A，h*=s³F+²F−²E8 degree23；原有理来源三支8386/8391/171，统一8391。
 
 - **当前真正未闭的全局范围。** 归一rank-one图册已有br^16∈原17式理想，源moment次数≤26；全部rank≤1均值临界点已付B_r∈√(J+C1)。不得删cone理想，未付全J非rank-one/ess(T3)≥4、振幅全局清分母或实际Bell算子桥。
-- **完整相对模块。** Σ0外T=W/(L∩W)已零；±2两点T=0，critical每处T循环且九目标各自生成。原s=0全224×155投影长度仍需真计算；∞小P61不搬。九joint的Q维数不能从field25复制；原R/P/全W尾及6012来源表达继续。
+- **完整相对模块。** Σ0外T=W/(L∩W)已零；2与−6两点T=0，critical每处T循环且九目标各自生成。原s=0全224×155投影长度仍需真计算；∞小P61不搬。九joint的Q维数不能从field25复制；原R/P/全W尾及6012来源表达继续。
 - **来源费用与31分母。** 原D*8769/31 leading unit，monΔ298给商8471；已有同模或精确D31解可降费max(8515,τ+1)。固定e任意高精度才exact；新Q成员给某有限分母，不指定e。旧e0任意度mod961负证、九差源p阶5均保原范围。
 - **31完整系数页。** C31/pC=field315除J31=s−2，dim314；全I2=U7、χ=(s−1)²(s−2)^5，指数2恰5个。root2首五(1,4,2,4,2)、全210 recipe已付；新Δ298和已核Ω31=Q60²的精确分布后继在审。完整第四新页必须保真p7/六carry/全部原源覆盖，旧globalI3全部接口仍保。
-- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，五critical广义消费I1全零。结合Δ298的唯一系数因子及九D127源另审；只凭各零像不排高层。
+- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，五critical广义消费I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；joint25仍待原零点P。
 - **永久证据与临时缓存。** 所有旧small-source/run/SHA保全。旧run43756208221结束，需原代码重建；新run43772109844仍有127全NF/GB/state、global197、root2 recipe与三域新原缓存。大型数组不上传；当前源参数以HANDOFF为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
@@ -137,7 +137,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **[原127第一系数正证/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原globalZ与完整p²反传证明simple s+64系数扭，给Δ≤298；结合最新三域Q谱现等号。925不是独立方向数。其它系数页和原31分母仍须各自来源，不从这一条推得。
 
-- **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；Q或p127²来源未付，25图只作原relative T选元参考。
+- **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；原Q及精确D127[s]来源现由上述唯一系数因子定理补足；每个single的最小h*23已升Q，joint25不直接复制。
 
 - **同源完整一次MP现在已有移动头预算。** [完整平方相消/含top证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、s=(1+τ)S_x、J=ceil8log(x+1)/τ，严格||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ_g²，无头χ/无未知速率放大。R=0/x=m时J≪d_m、同原合法Q≥J且f→P_Mg；任何其它扩块/内cut仍保原R=d等门。z=f−D†(C+D)f仅给(C+D)z=−C D†(C+D)f，第二次源含D†ω_j、非旧coherent列。须继续支付它的完整MP/中间Schur及真实同w返回，不把一次小修复当真核距离。
 

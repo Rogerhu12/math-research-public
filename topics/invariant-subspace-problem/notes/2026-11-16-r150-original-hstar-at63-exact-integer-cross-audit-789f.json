@@ -1,0 +1,53 @@
+{
+  "format": "r150-original-hstar-at63-exact-integer-cross-audit-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "execution": "Exact JavaScript BigInt arithmetic in the tool runtime; no matrix or native source computation.",
+  "originalInput": {
+    "path": "notes/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+    "blob": "bb66e2938a2625aa67059cea7f35a4816b64f4bc",
+    "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31",
+    "bytes": 1286
+  },
+  "coefficientOrder": "ascending",
+  "all24PaidOriginalCoefficientsEqual": true,
+  "point": "63",
+  "prime": "127",
+  "exactIntegerEvaluations": {
+    "FPlus": "1153018",
+    "FMinus": "1841346",
+    "E8": "1446323583669324",
+    "hstar": "1630159488059100357895588625989620223385900352"
+  },
+  "fieldEvaluations": {
+    "FPlus": "112",
+    "FMinus": "100",
+    "E8": "77",
+    "hstar": "44"
+  },
+  "integerHornerEqualsFactoredEvaluation": true,
+  "degree": 23,
+  "leadingCoefficient": "3125",
+  "leadingModulo127": "77",
+  "leadingInverseModulo127": "33",
+  "monicHstarAt63Modulo127": "55",
+  "hstarUnitOnSimpleRoot63Primary": true,
+  "rootIndependentRecalculation": {
+    "inputSHA256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31",
+    "all24OriginalCoefficientsMatched": true,
+    "values": {
+      "FPlus": "1153018",
+      "FMinus": "1841346",
+      "E8": "1446323583669324",
+      "hstar": "1630159488059100357895588625989620223385900352"
+    },
+    "mod127": {
+      "FPlus": "112",
+      "FMinus": "100",
+      "E8": "77",
+      "hstar": "44"
+    },
+    "monicAt63": "55",
+    "independentRootVerified": true
+  },
+  "noRecomputedCoefficientArrayPersisted": true
+}
