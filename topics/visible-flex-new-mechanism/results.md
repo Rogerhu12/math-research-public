@@ -424,3 +424,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R418｜完整kk负六锚为原Q4自然函数
 
 [R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)（15118B；SHA256 8affce91bccdfb56df47f6b249973afc438d5934326563a2bbd1639b20daac4c）。先真实水平Y=∂k−∂d/2再置k=ω0，完整C_A m0/N2 Green相消、静态b链/−Yn、两ZZ history、加速度势和四有序尾给Λ([h^-6]Qhat_kk)=(5∫p r4−3∫x r5)/640=−3B_Q4/64。self尚余−μ0M3由真实尾+μ0M3准确消。R412/R414偶M5零共同母的全部实际affine查询均0，任意不交辅助的3+2亦0。该单锚非全k、非整个二速度PSD结论；无新执行。
+
+
+## R419｜负六hh全曲率自然零，正字符PSD只余kk
+
+[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)（10938B；SHA256 38cd2538d9d1eebe5e15bd73073bc78e5d8194129c63758004851a9cc7718060）。原hh h^-8最低表含两ZZ history、真正加速度−∂h、C_Aq0与原N2完整Green。以I=∫LtJ(tR′)、Z=∫tR′²、K=∫L³t²，消原N2后Y=S4(−9I−2K)/256、ZZ=S4(−9Z−4K)/512；原左恒等2I−Z=−μ0M3/3与两有序尾均−9S4n0M3/1536最终全消，所有k统一S4=(1+k²)^4。故完整hh自然全profile/allk0；R416的μ0结合PSD迫−6 hh/cross全k0，仅剩h^-6b0(k)ks²，b0≥0且由R418仅知b0(0)=0。全k kk及负四/actual joint仍欠；无新执行。

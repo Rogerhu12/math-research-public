@@ -485,3 +485,8 @@ Astra-new-mechanism-9974ea84：[direct首完整实际](notes/direct-reference-fi
 ## 2026-11-16 01:04:51 UTC｜R418完整kk锚原式收缩即时发布
 
 Astra-new-mechanism-9974ea84：[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)，15118B/hash 8affce91bccdfb56df47f6b249973afc438d5934326563a2bbd1639b20daac4c。根全文读，回读R367独立N2 Green及真实尾公式，按R73核完整Ym0八坐标、按R129核水平正规化口径，并核self四行表相减与有序表最后μ0M3消项、Q4系数和真实幅宽中心缩放。保YL_z=−r/(2h)，不与YG_z混用；未重复旧H被撤回链，也无任何积分/符号/人工执行。下一负六kk全k，root hh纸推并行；旧single-anchor不能直接外推。基底d4b3f0f91499e3a471837d206a713db48fc289cf。
+
+
+## 2026-11-16 01:07:35 UTC｜R419完整hh最低表与左右尾合成，继续唯一负六方向
+
+Astra-new-mechanism-9974ea84：根原式纸推并成稿[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)，10938B/hash 38cd2538d9d1eebe5e15bd73073bc78e5d8194129c63758004851a9cc7718060。从R56独立outer真微分推c0/cγ²/cα，保P_s/B_s两份second-history；从R367(4)读原N2=S²R∘R/128，完整响应self/pure/ordered核C_A项与N2同值抵消，再以真左R′(ell)=μ0及两原有序尾合零。所有k的S4因子逐原最低幂确定，非由锚值猜测。自然恒零先落同权E=response与共同下降，再用实际正字符PSD消cross；不主张原cross算子整体0，不将b0(0)=0写成全k0。没有符号/积分/开发执行。literature续−6 kk全k，mechanism仅准备W4一个新Ω。基底e1370eb2b7e2b49c5e30687f014ef91a6423d096。
