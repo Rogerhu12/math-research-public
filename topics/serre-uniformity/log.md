@@ -284,3 +284,9 @@
 - 原局部Gauss均p、完整6p与Ω_D尺度−e/3逐项保；Kezuka–Li原PDF(2.1)/Thm1.1/Cor1.2及Rosu原符号已核，ψ+秩1不误称原Jacobian因子。central/Cartier整比较及same-h三单位仍缺。
 - H先逐字归档再压已成前置，继续原Y连接、真实41 sigma和七基点一阶收缩；新数学未在本地运行。
 - 本push规则：本地真实pull至95b7ef7c73bce0d52bf698313d3caedaff5d9ebc（2026-11-16T03:29:08.577626+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 11:30 Asia/Taipei — serre-public-astra-20261115
+- 原41共同域E已纸证e42/f2/degree84；F41原b和R781原多项式仅纯IO核同一。原好模型Frob²=−41给固定[42]消整个F41²归约群，无点扫描；原A≥1/7与u≡1两条件全保。
+- 原L_b=L16−logr、Z_b=rZ16及ψ_n的r^(n²−1)尺度、trace与原帧保；42/84无41整数精度损失，可选41加深明确全尾/2a代价。未填实际41 ball或pivot损失。
+- 真求值只消费完整U.1/原129×280身份或以后准确通过A.1，辅助518与未证候选不能代入。继续Y连接来源和七基点Z公式。
+- 本push规则：本地真实pull至378959a9a23a9790fabef6af975f7885e86b474a（2026-11-16T03:30:47.516143+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

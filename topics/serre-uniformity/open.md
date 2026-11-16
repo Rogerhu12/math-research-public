@@ -117,3 +117,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **R850原五纤维/完整截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f，0.397869762s/2stage/330node/11非零依据。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173；artifact14194427829/b466d4c1，40源398.65MB载体a4c38c0e。保原270点来源与395MB全局载体、ν/κ/R/完整Corr/Q三次纤维，帧−d/2与−3d/2准确；C_h具名、period/height/A.1/allp未成。
 
 **同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。
+
+**原41 sigma输入已证**：[真实域与倍率42](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af：原b的Eisenstein七次域与s未分歧二次给L41(e7/f2)，r^6=b/16给E(e42/f2/84次)。E27的Frob²=−41使[42]把全部原点/七共轭送形式群，原A≥1/7及u≡1同时成立。L_b=L16−log r、Z_b=rZ16、ψ_n缩放和原帧保留；42/84为41单位，optional41^a全尾与2a损失准确。未求41四响应/点值/period，必须原U.1或已接受A.1，不用辅助518。
