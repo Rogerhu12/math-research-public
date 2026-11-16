@@ -38,9 +38,11 @@ R460给simple-p无留数；真实Lf range须保Af/platform/totals/两germ/gap/�
 
 [R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)：同真cap的八A_j经六β给五Δν=R5βν−Rνβ5=0 iff h∈span(y)，唯一c=1152β5/R5；非零minor给显式λ+分离行。真cap满足5h>3s²、交替A_j号及A0/A7界；四局部列同二次因子，第一头在复根的完整有序正测度积分仍未判零。R473继续，不授五式可解或障碍。
 
-[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽唯一锁定第三三矩；保完整平方后全段变化=𝒫*Bθη。当前圆全gap对全s盲，只余母/平台2n列，原13核内须解全函数式；平台local=−d_i w′·μ_i/2。两个同坐标ω0真有理端芽满足24P2,b/κb−24P2,a/κa=sin²θ d_f(Xb−Xa)，故须真实Mraw相对prefix零；全成本最高标量只同移不付该差。R70仅已付二阶标记prefix层，T/V/桥内ruling仍继续。
+[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个端芽锁定第三三矩，全段变化=𝒫*Bθη；gap全s盲，仅母/平台列在同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix；R472接真实A/T同步。
 
 [R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)：完整Reach3(A)=Tend−A²/2+W，真实R70/W桥可同时付相容A/T前缀。任意同常端G有B使A_B=−A_G、T_B=−T_G−A_G²，P=GB整A=T0；P^qG同向保护芽共真incoming，条件接R468/R467并保全部新增V。内部ruling=K0+B(a)−E(a,a)+2E(φ,b)，重复号保完整二次系数；整复位只使副本相同不使其零。λ+(VP)=∫k²>0，∫kh(ω−ωc)=∫k²迫新ω段；全s同一13核问题仍欠。
+
+[R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)：固定端三矩/两端germ的正cap类，内部真扰动fε使复余量为非零五次λ多项式，最高项−3(c+z)^7 ε^−9∫(φ″)^5/80；先定有限ε再缩λ保q/Af正，非零开稠密。未判冻结cap或例外集空，未免费保q4/共同DE/F★/20根。继续绝对非零/可消与五门。
 
 actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
@@ -56,4 +58,4 @@ actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [完整正方向观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)：run43821568604/research133145590135/report133148800350/source323f36fe…成功。唯一实际舍入p SHA62b27d05…的完整最大.2663281546680455、含μ修复gain−.00031326043820264013，未合格；0scalar/actual，仍点53。新增原行coarse43322/91304、fine86645/182607完整gradient已付。1input/1pair JVP/4gradient，50.40678669899998秒；祖先累计 **1658.9797906909998秒/128普通值**。原CACHE30232607B/0c1826ad…保必要U/T/de/df，binding75e07691…，完整clock和记录SHA见note。立即接增加这四行的真正新finite/fullgrid问题，复用输入，旧任务/方向不重跑；合格才原guard/scalar/14门。大数组只原stdout。
 
-理论R471已付五真实cap门；R473解复根积分，R471后续解其余实门；R472已付真实M/T同步，仍解同一w全段；数值新4-cut exchange task继续。主完成门未付，不以任一任务预算/阶段停下。
+理论R471已付五真实cap门；R473已付generic非零，继续真实例外集；R471后续解其余实门；R472已付真实M/T同步，仍解同一w全段；数值新4-cut exchange task继续。主完成门未付，不以任一任务预算/阶段停下。
