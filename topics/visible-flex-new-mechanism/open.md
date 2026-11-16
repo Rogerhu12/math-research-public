@@ -14,7 +14,7 @@
 
 ### O2 最新实际
 
-原64已关闭，新锥首实际及全账见后段；原14门、固定g与主精度/reach义务不变。
+[末已付方向实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)三尺度原14门均真但η均上升，学fine159001后停止，仍accepted52/η.2660182947853381。最新双钟/122值与余cone32见后段；固定g、主精度/reach义务不变。
 
 ### 仍须支付
 
@@ -152,13 +152,13 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 原64封存；新锥首实际已完成，继续已付未试方向
+### 原64封存；已付方向验收完成，继续原唯一cone32
 
-[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)关闭64LP/62value/356.129820261秒，缺失LP64向量不重演。[新锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)run43792959676/job133055320913：27模型/31cone/26真trial/25接受，accepted52细η.2660182947853381、κ57.999249547251196；14门双真/原盒真，但.26与主精度/reach仍未达。继承池4448/4543v13/12、B.00025/streak0、bank512/8support、learning62/61/0；新54value/657.945111393秒，累计116/1014.074931654秒，旧失败已计。
+[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)关闭64LP/62value/356.129820261秒，LP64缺向量不重演。新锥原31次到accepted52、细η.2660182947853381/κ57.999249547251196，.26及主精度/reach未达，全部旧费用保原note。
 
-末m27的MaxTime留下exact159未试p，rho/norm未存，原资格拒绝保持。按[新合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)只独立实际验收此新点：0solver、不重旧trial/accepted52两值，α1及必要未试二分，保同g/b0/参考/159→163、全14门/盒和真η下降；不造affine/J误差或covered学习。承继1200/32cone/96值与原1800/160交集，剩542.054888607新秒/42新值；未用cone32不是自动授权重跑。完整合同/源审后唯一Actions，完整向量/新geometry仅stdout，结果即记即推。
+[已付MaxTime方向首实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)run43798128882/job133071559203：α1/1/2/1/4各两网14门/精确163盒真，但η分别增4.2831556435e−7/2.1552364576e−7/1.0810327866e−7，全拒。第三次新增fine soft159001，按原约停止固定方向；不续1/8等，不重m27。原common-height范数前两步超B，不追授旧模型资格。新6value/115.395022724s，0solver/J/JVP/factory，6新数组check全过、旧12/11/9只读。
 
-covered-growth因旧LP字段未适配而全false；实测半径变化属于原fallback。后续若继续锥法须真实solver-neutral资格，不伪填HiGHS status。原单次10秒是配置，backend实测可超10，所有费用保留。原12新检查已过，旧11/9不重。
+末仍52，池4448/4544v13/13；bank512/8support、learning62/61/0、B.00025/streak0/0被动保。新锥累计773.340134117s/60value、原1129.469954378s/122value=61+61；原1200/1800秒及96/160值交集余426.659865883s/36值，31/32锥余1。下一以新fine159001/current52重建必要base/J与两factory，只原cone32；不能重绑value-only d600…成原affine e101…，冷恢复/失败全计费，若先超钟则0新求解。新真实raw161须在status筛选前完整留stdout；原MaxTime31与closed64不变，具体新入口继续。
 
 ### R399新的第二period内部通道已实际付至四点
 
