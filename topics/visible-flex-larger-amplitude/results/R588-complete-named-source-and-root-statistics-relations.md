@@ -150,7 +150,7 @@ R573的RootWordMetadata已有八个明确catalogue：
 
 未来未知catalogue完整保为原值。每个原catalogue仍保其既有原索引序及R573引用语义；本件不重新编号原owner记录、evaluation、trial、stage或实际call。
 
-真实接线位置应在RootWordMetadata.describe内，对self.values这份完整选定catalogue作处理，然后继续原root_word_table外层列结构。原self.originals、原share资格、原evaluation选择及所有科学值不改。原outer inverse须先展开本件的具名子关系，再按R573原规则解释。这是真实接口责任，尚未由本组件自动安装。
+真实接线位置应在RootWordMetadata.describe内，对self.values这份完整选定catalogue作处理，然后继续原root_word_table外层列结构。原self.originals、原share资格、原evaluation选择及所有科学值不改。完整逆序分三步：先按原root_word_table的columns/original_record_indices重建八个catalogue的当前行；再在这些行上调用restore_relation展开本件具名子关系；最后按R573原引用语义解释各catalogue。不能在外层列尚未重建时把列名字符串误当完整引用字典。这是真实接口责任，尚未由本组件自动安装。
 
 ## 588.10　四个统计成员、全部path与full last
 
