@@ -120,3 +120,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R150非rank-one两原子完整纤维（2026-11-16）：** [完整原来源证明](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)在真y=e0+e5保全部6188源/4367正次数目标，原minor模127=55，故Q原理想恰(M)，每个m_j有乘子degree≤3的原17梯度来源。固定均值的所有M均覆盖；在有序两原子参数ab(1−st)D≠0上完整拉回理想为(M,Z)，D仅依参数，原第三矩/Bell均零。D=0、合流及Cat3未由本结论覆盖；本地48.971秒、全1309原运输及244990位面核真。
 
 - **R150原Cat3单位纤维与均值消去（2026-11-16）：** [完整原证明](results/R150-appendix-original-cat-rank-three-full-macaulay-rank4368-and-mean-elimination.md)在y†=(2,1,1,1,1,2)保6188源及含constant的4368目标，真实minor模127=61，故原I_y†=(1)。同选行伴随给0≠D(y)∈J∩Q[y]，原权计数42683−40040使degree恰2643，H乘子degree≤3。全部critical mean在D=0，D≠0的非空Cat3开集无纤维；不把异常超曲面等同Cat≤2，原W±及更高本质维数仍续。本地51.200秒，全原1326运输/244990位面核真。
+
+- **R271原连续尾全相容塔门槛（2026-11-16）：** [完整边际及同源平方证明](results/R271-appendix-continuous-compatible-vacuum-tower-marginals-and-linear-deep-return-barrier.md)保复/有符号ν、原无限尾及完整primitive；任意高度≥ceil(7x/4)真塔必有σ_j²||v_j||²≥1+x/32768，不能免费用全高度常数。首列真MP时整个j≥ceil(3x/2)有≥1+(18769/262144)x；完整同a的F_s−z正交平方给≥c*xΣ高层E_j。该门适用R=d/h=2d及原Q≥3d−1；未反实际a，后续须用真C幂或完整源能量支付。

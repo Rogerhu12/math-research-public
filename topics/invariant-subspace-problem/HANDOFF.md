@@ -3,11 +3,11 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 034b3f47de96b1f8af72ebfb7fed0f00b48f1a01（2026-11-16 04:14:46 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0414-cat3-mean-elimination.json。
+- **最近成功实际 pull 与已读规则提交：** 936da23ec6d45eb25def43bd19266352bd3b504d（2026-11-16 04:19:07 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0419-continuous-tower-barrier.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地CLI已恢复：/workspace/scratch/789f3e887d7c/math-research-public；显式workdir，旧cwd丢失是此前失败原因。Actions bot push403，已用授权CLI实际推9e015799；凭据不落文件，API source不算push。
-- 完整前态保[H](notes/2026-11-16-handoff-before-nonrankone-local-source-789f.md)/[open](notes/2026-11-16-open-before-actual-far-variance-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 完整前态保[H](notes/2026-11-16-handoff-before-continuous-tower-barrier-789f.md)/[open](notes/2026-11-16-open-before-actual-far-variance-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：完整有理横向商已封口，非rank-one与系数31继续
 
@@ -38,8 +38,10 @@
 - **[直接actual-u Chebyshev](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)：** 在完整E=V_Q^0上I≤G_E≤κ²、grade带宽d−1；ν=floor((Q−s)/(d−1))给真k_pol∈K_Q及||u_f||≤2ρ^ν/(1+ρ^(2ν))||PVf||。Q=s+(d−1)ceil(m expΨ_m)使u≤2e^−2m，logQ=35d⁴/6+O(d³)，无额外远池。旧兼容塔/真实头/全双幂来源保前态；母carry仍O(d⁵)、旧logQ≤26d³窗未扩，不代原N=M。
 - **[放大方差/同源阻尼](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)：** s_m≥S_m→0，任意R_m和1≤J_m<h_m，完整H_(C,J)(s)^−1强趋P_M；ε=q−||a||²→0。Q≥R+J时f=Σ(-C)^jaω_j/(s^j j!)保原V/K/u，远孔指数矩≤q、||f−a||²≤(S_x/s)ε。全塔残量=[1−r+W/s]Cf，截断top保留；强头a的孔尾不删。
 - **[实际强前缀远方差](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)：** C−A_x为原carry压缩，η≤e^−d⁴；全部J的完整Gram/inverse差≤14ηs⁻¹e^(49/s)。x+1≤d^(4/3)/8、s≥S_x时≤e^−d⁴/2，覆盖R=d/x=m+d/h=2d。原a/F强趋P_M，ε→0、同PV/PK/u及Q≥R+J保留；一次/二次真MP现在接回4d≤Q≤e26d³母窗。无ε速率、完整核修复/深返回/母carry仍开。
-- **原顺次MP：** [一次](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ，q1²≤O((1+||C||²)τ²)Δ²；[二次](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω=(D²)†ω−D†ΠkerD D(D²)†ω，τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ，q1/q2²≤O((1+||C||⁴)τ²)Δ²。全top/自然域保留，z2仍残Cq2；不是原真核。
-- **[完整物理终端门](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)：** 全强位/远primitive保留，C^(J+1)a0=0迫旧头≤K=R+J；真头方阵µ_K^-1≤e^(100K⁴)。对g⊥vac，整个K_(m,R,J)投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²，K⁴=o(logm)趋0。R>0仅嵌入总孔K，不能倒用上界，不排原M。
+- **原顺次MP：** [一次](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)与[二次](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)已付同源真MP残量及primitive回馈；全top/自然域保留，z2仍残Cq2。完整τ/J/平方费用保本次H归档，不代全核修复。
+- **[完整物理终端门](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)：** 全强位/远primitive保留，C^(J+1)a0=0迫旧头≤K=R+J；µ_K^-1≤e^(100K⁴)，完整投影在K⁴=o(logm)趋0。R>0仅嵌入总孔K，不能倒用上界；完整常数保本次H归档。
 - 剩余ordinary预算仍是同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；无此界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链、非rank-one及open全部旧接口继续，不列不算关闭。
 
 - **[向下方差薄窗](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)：** 同D/同u，Se^(−c/m)≤s≤S的完整inverse与物理H(s²/S)已付；固定比例下降、完整Schur/carry仍开。全常数/原式保本次H归档。
+
+- **[原连续尾全塔门](results/R271-appendix-continuous-compatible-vacuum-tower-marginals-and-linear-deep-return-barrier.md)：** 复/有符号相容塔高至7x/4必有coherent-relative≥1+x/32768；首列真MP时全j≥3x/2的完整修复≥c*xΣ高E_j。保同a/Q≥R+h−1/全部primitive；未反实际a，真C幂与中段加权量继续。
