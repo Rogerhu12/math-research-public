@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:32:11 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0a1c5fba64a09b1b873e8f6b7c3c9a60d1791d66。
+规则同步记录：2026-11-16 05:33:22 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3fa6c46c061d0ac51fc407865e73ed1b48e532a2。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -52,9 +52,9 @@ R454/20347abf与206/e8e4be9f保真98父、39八组/108pins/全17α/原钟，实�
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
-- exact：唯一207/208终态；R455/206本次刊、R472/210已刊。R477两reader本次刊，交212已冻结；继续R479/213/实际R480必要语义去重。210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7已刊b418c6e6，run43807229341已绑。143已刊+11实际view=154，原参数/18000/全门保持。
+- exact：唯一207/208终态；R479三件本次刊（formatter689517df/proof31a25a19/generatorb9887b25），固定必要语义相邻分块/实际地址与同trial相等子记录/真pair保全；原整表行序和全部值/错误保，不保证90KB。213完整接线/计划/参数及workflow待交全文，R480实际唯一owner仍exact；R455/206与R472/210已刊，不重取其日志。
 - geometry：唯一209及未来212/R478终态；R476接口/helper已刊00831470；入口9a9dbfa8已刊；run43810550597/source9a9dbfa8本次绑定。只depth24→2工作参数及已刊R477完整point/stack，32bits只work、候选全保/fresh far/原末门，不保预算足。205/207/209冻结原24/32/1M。
 - amplitude：唯一204/205及未来211/R475终态；211最终六件已完整核，先刊generator/plan/recipe/interface（846a5d0c/4d197084/1a949e87/ee2c4c32），真实168=147public+11历史view+10当前view，补原c216依赖并实际接R474；前四件4f326cd1、入口7e62fb22已刊；实际43810051801/source7e62fb22已绑。原210及全部数学门不改。
-- root：R477已刊8df750ba；211前四件4f326cd1且本次刊请求/workflow，已压缩open§1，旧全字在8df750ba同路径，§4–6逐字不变；211实际run已绑b8ad5c4f；R476/helper已刊00831470；212入口9a9dbfa8及run已绑；本次results旧索引原字归档、open§3去重复（旧全字9a9dbfa8同路径，§4–6不变），续审R453/R479与62清理。actual62两清单已核原字节/来源，geometry正读紧凑结论/现用依赖并起最小说明，尚未删；63已清b696cc15。每pull核双README。
+- root：R477已刊8df750ba；211前四件4f326cd1且本次刊请求/workflow，已压缩open§1，旧全字在8df750ba同路径，§4–6逐字不变；211实际run已绑b8ad5c4f；R476/helper已刊00831470；212入口9a9dbfa8及run已绑；本次results旧索引原字归档、open§3去重复（旧全字9a9dbfa8同路径，§4–6不变），R479三件本次刊；续审213完整接线、R453及62清理。actual62两清单已核原字节/来源，geometry正读紧凑结论/现用依赖并起最小说明，尚未删；63已清b696cc15。每pull核双README。
 
 212入口官方topic treeffc703240f3467e875aff8228f5ba7a05aa558fb：9257blobs/197827293B、9630entries，truncated=false。actual63两清单已删；actual62两候选只核字节/来源、geometry说明准备中，尚未删。不存新raw。

@@ -359,3 +359,8 @@
 ## 2026-11-16 05:31 UTC /root — Request212官方绑定与索引续接
 
 [R476/212完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)实际source `9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060`，公开Actions [run43810550597](https://github.com/Rogerhu12/math-research-public/actions/runs/43810550597)于2026-11-16T05:29:19Z/attempt1启动；compute133111042532在05:30官方metadata前1–6成功，第7容量记录运行，后科学/必要读回尚待。R478由geometry唯一终态读取；执行状态不补采样、全域证明、453/450或README完成。入口时官方topic tree `ffc703240f3467e875aff8228f5ba7a05aa558fb` 为9257blobs/197827293B、9630entries，truncated=false。 原results索引原字存同目录results-index-through-request212.md，open仅§3去重复并链原9a9dbfa8全文，§4–6逐字保持。
+
+
+## 2026-11-16 05:33 UTC /root — R479必要语义保全与明确行序
+
+**R479：固定必要语义的表示保全；无新科学执行或容量保证。** [证明](results/R479-complete39-fixed-semantic-context-readback.md)16363B/31a25a19、formatter20813B/689517df与source generator8157B/b9887b25完整核后刊。只合并相邻且canonical逐字相同的原上下文；同实际trial的candidate子记录须完整角色行相等且保原表row positions，实际interval/fraction/typed-query地址与少量明确元数据须逐值同才共用，真pair须连续批/eligible/整receipt同。全部原trial数值、失败样本/地址、错误、FD收缩、null/负零/未返保，原整表行序可恢复；不算坐标、不取大raw、不做任意JSON编码。各候选只在减少表示字节时采用，最终来源元数据仍可能令未知正文超90KB，原单份90KB/70不变。213仅在真实公开computations生成两个新basename，原206依赖库不迁移/不覆写；原108祖先和全39八批/17α/原钟/真父/FD/quiet保持。完整213接线与R480实际另付，不恢复206删失正文或末pair。

@@ -28,6 +28,8 @@
 
 [211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)实际source `7e62fb22bff15bfe53e1481b4e7ba21d2f905786`，公开Actions [run43810051801](https://github.com/Rogerhu12/math-research-public/actions/runs/43810051801)于2026-11-16T05:24:47Z/attempt1启动；compute133109494332在05:25官方metadata前1–10成功，第11步原完整H/J/R273/FD/fullDN科学运行，必要读回/清理待起。R475由amplitude唯一终态读取；只记录步骤状态，不预填依赖运行全完、正H/J、快路径计数或接受。官方topic tree `058473aa2d9a71beb120cfa6a57ab71415617274` 为9254blobs/197777411B、9627entries，truncated=false。
 
+**R479：固定必要语义的表示保全；无新科学执行或容量保证。** [证明](results/R479-complete39-fixed-semantic-context-readback.md)16363B/31a25a19、formatter20813B/689517df与source generator8157B/b9887b25完整核后刊。只合并相邻且canonical逐字相同的原上下文；同实际trial的candidate子记录须完整角色行相等且保原表row positions，实际interval/fraction/typed-query地址与少量明确元数据须逐值同才共用，真pair须连续批/eligible/整receipt同。全部原trial数值、失败样本/地址、错误、FD收缩、null/负零/未返保，原整表行序可恢复；不算坐标、不取大raw、不做任意JSON编码。各候选只在减少表示字节时采用，最终来源元数据仍可能令未知正文超90KB，原单份90KB/70不变。213仅在真实公开computations生成两个新basename，原206依赖库不迁移/不覆写；原108祖先和全39八批/17α/原钟/真父/FD/quiet保持。完整213接线与R480实际另付，不恢复206删失正文或末pair。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
