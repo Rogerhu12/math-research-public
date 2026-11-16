@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e2926e647f68910857d347e9333760c3699b7ea0**（2026-11-16T16:37:20.399801+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[连接求值前H](handoff-archive-2026-11-16-before-connection-target-evaluation.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17**（2026-11-16T16:43:58.860368+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[连接求值前H](handoff-archive-2026-11-16-before-connection-target-evaluation.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -12,14 +12,14 @@
 
 |任务|实际run / job|状态和原对象|
 |---|---|---|
-|R787 primal670后|43897255536 / 133404214755|真670/f756e254/8c9052ec，core93d3d72b不变；wrapperdff10f45仅缺receipt严格IO分支|
-|R824原27+244从693后|43877576209 / 133334539270|7e0e27d9，同core1ece3cf4/wrapperc5907739；原current761b228c/liftf8972f29|
+|R787 primal670后|重续待新run；旧43897255536失败|真670/f756e254/8c9052ec，core93d3d72b不变；wrapperdff10f45仅缺receipt严格IO分支|
+|R824原27+244从693后|重续待新run；旧43877576209关闭|7e0e27d9，同core1ece3cf4/wrapperc5907739；原current761b228c/liftf8972f29|
 |R854原41 N112续|43880489423 / 133344905148|20984736，同核从旧1041stage续，四球未成|
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
 |R815准确Γ586后|43908105148 / 133442347214|同core80516ff9/wrapperab725da0，requesta469e685直接原artifact14246345143；Γ586/17520bit，已成g696不重|
 |R901固定126树|43893483097 / 133390762003|dbfb172d，实际compute进行中，core2cacb66f/wrapperc2aad47b不变|
 
-全部core/wrapper/原输入/tail/Trace/尺度及逐次真pull沿前态。R787不以v23 metadata代lift；半dual542正残差/R854四球未成保留。[R815Γ586同核续](notes/2026-11-16-R815-Gamma-586-same-core-continuation.md)：requesta469e685/source84a31a9b，原Γ586/17520bit/currentd361a554/art14246345143/manifest42e141cb，g696已成不重；v24仅小元数据，完整53输入原样续。
+[R824/R787无新产物续算](notes/2026-11-16-R824-R787-ended-without-new-checkpoints.md)：R824真runner shutdown143、R787结束failure且无数学artifact；原693/670请求不变重新dispatch。全部core/wrapper/原输入/tail/Trace/尺度及逐次真pull沿前态。R787不以v23 metadata代lift；半dual542正残差/R854四球未成保留。[R815Γ586同核续](notes/2026-11-16-R815-Gamma-586-same-core-continuation.md)：requesta469e685/source84a31a9b，原Γ586/17520bit/currentd361a554/art14246345143/manifest42e141cb，g696已成不重；v24仅小元数据，完整53输入原样续。
 
 ## 原Y完成源与当前消费者
 

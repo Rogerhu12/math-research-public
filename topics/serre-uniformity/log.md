@@ -470,4 +470,9 @@
 - R924完整证明：实际整Hom除p/原节点延拓/I_D极限，严格排低层p次幂，首函数κx^(g−1)y；原β/α=5A/4或11A/10均单位，原指数a_h保留。
 - 原G_h系数content恰p^a_h，除后modp最高单位度m_h=(p−5)/6或(p−11)/6；原vp(a−1)≥3盘有≤m_h−1非中心零界。低项/同h J32/候选零像/height未成。
 - 更正先前H/open/log摘要漏括号：准确b0=k_+(p−1)，正式R921(921.25)一直正确且原稿不改；旧归档中相同摘要误写均受此更正。R924原中心/坐标与R859/861/376及Stacks0C5H已读。
-- 本push规则：公开Actions将真实pull并比两README，读过e2926e647f68910857d347e9333760c3699b7ea0；有变只读diff，NFF立即rebase重推；主目标OPEN。
+- 本push规则：公开Actions真实pull至3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17（2026-11-16T16:43:58.860368+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:53 Asia/Taipei — serre-public-astra-20261115
+- R824真job日志runner shutdown143且artifact空；R787旧run已failure、仅规则artifact，数学log404且无新current，不从步骤success冒认数学完成。
+- 两原请求073d0963/0ef37410逐字不改，从实际已存693/670同核心重续；不重已登记阶段/不改缺receipt例外，不将平台失败当数学否定。
+- 本push规则：公开Actions将真实pull并比两README，读过3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17；有变只读diff，NFF立即rebase重推；主目标OPEN。
