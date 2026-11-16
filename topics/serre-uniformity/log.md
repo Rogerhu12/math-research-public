@@ -234,3 +234,9 @@
 - F1234/W34/C12/S5和R845八char0叶保原全局y、GP三minor及真实Galois，I_ZR=R_jI_Z³正乘；finalb50df2df/DAG529822ba/manifestcdc06c91/config87a0e26e，不称标准坐标/η零/height。
 - 原carrier395MB/6a0a5d8c，根只读11小件1.168MB/11Range；R848已推d691f1a5。R824旧run已BudgetStop于501完整位，正取其真实current并同核继续，未到主目标完成标准。
 - 本push规则：本地真实pull至d9c1d4f7c45db40da36b52ad771b9e9aa0bcb3fb（2026-11-16T02:24:40.201964+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:33 Asia/Taipei — serre-public-astra-20261115
+- R824 run43762208712于02:14 UTC真实BudgetStop，原free1187到501完整位；current/history/manifest和原job身份已读，未重算数学。
+- 13Range/575116B；currentcd8dcb11、history01f47338、lifta2f5c38c、manifestd2d54554；原612MB必要输入71b16a02不变，artifact14192476595/7f1c8d82。
+- 请求只换resume，core1ece3cf4/wrapperc5907739、原八来源/129/142/280Q及free1186保留不变，从502继续；27+244准确生成元和主目标仍OPEN。
+- 本push规则：本地真实pull至50d25a093d20d5783881a201731074180ea02c23（2026-11-16T02:33:31.825895+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：d9c1d4f7c45db40da36b52ad771b9e9aa0bcb3fb**（2026-11-16T02:24:40.201964+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[配对继承前完整H](handoff-archive-2026-11-16-before-dual-pairing-reuse.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：50d25a093d20d5783881a201731074180ea02c23**（2026-11-16T02:33:31.825895+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[配对继承前完整H](handoff-archive-2026-11-16-before-dual-pairing-reuse.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -14,13 +14,13 @@
 |---|---|---|---|
 | R787从518位同核继续 | 43766834509 / 132973847087 | 0084d2e067710af828ae071e7850764791e41300 | core93d3d72b / wrapper42157e0d，compute中 |
 | R815原582-prime续接 | 43777837244 / 133008081839 | 7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7 | 已在原数学步继续；core80516ff9/wrapperab725da0及目标/模式冻结 |
-| R824原27+244 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | 已BudgetStop到501完整位，正读取断点准备同核续接 |
+| R824原27+244 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | 501完整位已回读，resume仅换真实新源，正推同核续算 |
 | 新R787清转置接受 | 43790194976 / 133046704617 | ad0278b29f83c035d83f44a262a1e375137c3450 | 原来源步已过，开始新RHS；corebad97414/wrapper5388274 |
 | c0六Hodge/五比较首项 | 43790534424 / 133047756159 | a576ab9d3b6d155027ec6f52cb689205ee5e9b98 | R848实际24stage已成 |
 | 五原一阶数值见证 | 43789012126 / 133043052846 | f699023d | 已成功，五原D_j估值0/A518；R847正式结果 |
 | R827旧Hermite | 43764014099 / 132964965600 | fd4cbaea820d79e115c300d766042582be14a091 | 已被R835数学替代；取消API403，待自行结束，不再续接 |
 
-R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，不重做，不误称精度不足或关系不存在。R815582-prime current769MB/67e7fe98与53输入109MB/051571e1见[断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)。R824只原27权5+244权6，1186归R787，原129/142/280Q与r28不补143..155。上表仅同核续接，准确展开关系/Mg/Γ仍未成。
+R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，不重做，不误称精度不足或关系不存在。R815582-prime current769MB/67e7fe98与53输入109MB/051571e1见[断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)。R824只原27权5+244权6，1186归R787，原129/142/280Q与r28不补143..155。上表仅同核续接，准确展开关系/Mg/Γ仍未成。R824新[501位断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：current5694B/cd8dcb11、history5743B/01f47338、lift70788183B/a2f5c38c；artifact14192476595/7f1c8d82，manifestd2d54554，原612745716B输入71b16a02不变。13Range/575116B纯IO，下一位502。
 
 ## 原准确接口与禁止重算项
 
