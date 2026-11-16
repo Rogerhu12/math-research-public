@@ -1,0 +1,265 @@
+{
+  "schema": "R903-original-five-Iz-two-weight-public-request-v1",
+  "result": "R903-original-five-Iz-two-weight-RR-and-marked-frame",
+  "p": 41,
+  "producer_inputs_pending": true,
+  "session": "serre-public-astra-20261115",
+  "core": "R903_original_five_Iz_two_weight_RR.py",
+  "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+  "wrapper": "R903_public_original_five_Iz_two_weight_RR.py",
+  "wrapper_sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0",
+  "workflow": ".github/workflows/serre-R903-five-Iz-two-weight-RR.yml",
+  "legacy_core": "R890_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+  "compact_core": "R894_original_seven_conjugate_pole_trace.py",
+  "compact_core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+  "legacy_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R903-original-five-Iz-two-weight-RR-execution-method.md",
+  "method_sha256": "ff3acf136005fdef355ed40d02ede89dd2078ce3a69b4d61b2510a0b000d9091",
+  "proofs": {
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R890_method": {
+      "path": "notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R901": {
+      "path": "results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md",
+      "sha256": "83a18d8a4236567bbd3b0f76920f37de1ded1085b33bf4275507c039922125f2"
+    },
+    "R903": {
+      "path": "results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md",
+      "sha256": "9fcf3c2cb08688bfe40fdaed91358bed5097a0e0442276e30d30eb63bfaab855"
+    }
+  },
+  "source_artifacts": {
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:19:10Z",
+      "configuration_sha256": "74f6b6fa625084ad550d46bfa4ca9426fd7641fe8b7b20095ec51b196e11e5ba",
+      "wrapper_sha256": "2b3d0763196eb48714cb336ff0f504a6e1718e86bca08ef597ddb22602533ce5"
+    },
+    "R880": {
+      "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+      "run_id": "43840391925",
+      "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+      "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+      "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+      "manifest_bytes": 8526,
+      "manifest_file_count": 50,
+      "certificate": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "artifact_id": 14212028755,
+      "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+      "archive_bytes": 105609871,
+      "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:31:44Z"
+    },
+    "R901": null
+  },
+  "prepared_transport": {
+    "R890": {
+      "archive": {
+        "run_id": "43860838780",
+        "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+        "artifact_id": 14222928598,
+        "artifact_name": "serre-required-original-source-intake-43860838780-1",
+        "archive_bytes": 31320925,
+        "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T11:48:03Z"
+      },
+      "package": {
+        "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 30951546,
+        "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+      }
+    },
+    "R872": null,
+    "R880": null,
+    "R901": null
+  },
+  "R890_original_carrier": {
+    "source_inventory": {
+      "bytes": 26817,
+      "file": "R890-original-source-inventory.json",
+      "sha256": "f96cf226055895758f48e1d48d8b4a87c1a7bad68951b29d6df7d0ecd41100da"
+    },
+    "retained_inputs_receipt": {
+      "file": "R890-retained-inputs-receipt.json",
+      "bytes": 3976,
+      "sha256": "95086c49ca01a156dd14f077b65fcda0d49fb4d6fb90245da81433f0ebfffda1"
+    },
+    "package": {
+      "bytes": 21816968,
+      "file": "R890-retained-original-inputs.tar.gz",
+      "sha256": "16446595a648183151560d6060350c8b692e727fb4a3acbd719e68a87b2562d3"
+    },
+    "selected_original_member_count": 56
+  },
+  "input_pins": {
+    "normal_V3_point_jets": {
+      "source_group": "R880",
+      "file": "R880-original-V3-252-point-jet-matrix.json.gz",
+      "bytes": 901788,
+      "sha256": "5f40695a800339604c7fba0fcf19e73c677dd54579170f50c46b054b9b903120"
+    },
+    "point_linear_functional": {
+      "source_group": "R872",
+      "file": "R872-point-linearization.json.gz",
+      "bytes": 1133054,
+      "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+    },
+    "t_frame": {
+      "source_group": "R883",
+      "file": "R883-original-t-first-order-unit-and-frame-DAG.json.gz",
+      "bytes": 3850,
+      "sha256": "136dd22c3aaddb0b650a5513eefd6db70bfee8a088f0f0cd437a5b6927f6094a"
+    },
+    "qchi_anchor": {
+      "source_group": "R872",
+      "file": "R872-anchor-u.json.gz",
+      "bytes": 7216,
+      "sha256": "f74b130ccff9f4c1cccc8098e49b9bb315487a4b8b41627e3ba6c488b726ef97"
+    },
+    "fixed_chi_divisor": {
+      "source_group": "R872",
+      "file": "R872-original-fixed-chi-divisor-and-section-source.json.gz",
+      "bytes": 5175,
+      "sha256": "d5563991714939e61cbab26c93fb07d1628e0307d5f1a7057243c1d11b0256e1"
+    }
+  },
+  "future_R901_source_contract": {
+    "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+    "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+    "certificate_file": "p41-original-five-Z-shared-bounded-flip-certificate.json",
+    "required_actual_complete": true,
+    "required_completed_directions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "final_reference_field": "original_direction_marked_principal_and_descent",
+    "normal_basis_reference_in_marked_stage": "source_complete_DZ_normal418",
+    "normal_basis_field": "normal_V3_basis_mod_prime",
+    "retained_provenance_names": [
+      "R901-original-source-inventory.json",
+      "R901-retained-inputs-receipt.json",
+      "R901-retained-original-inputs.tar.gz"
+    ],
+    "run_id": null,
+    "source_commit": null,
+    "artifact_id": null,
+    "manifest_sha256": null,
+    "configuration_sha256": null,
+    "actual_new_R903_direction_count": 0
+  },
+  "budget_minutes": 300,
+  "maximum_product_anchors": 418,
+  "maximum_split_fibres": 7,
+  "maximum_directions": 5,
+  "minimum_free_disk_bytes": 805306368,
+  "resume": null,
+  "rules_last_read_commit": "bbd9ce7a10d904eba921505d58659266ebdca548",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "mathematical_scope": {
+    "complete_product_image_per_direction": 962,
+    "membership_shapes": [
+      [
+        1884,
+        690
+      ],
+      [
+        1884,
+        962
+      ]
+    ],
+    "actual_new_unit_minors": null,
+    "complete_unpadded_dimensions": [
+      146,
+      418
+    ],
+    "eighteen_jet_kernel_dimensions": [
+      128,
+      400
+    ],
+    "original_weight1_prefix": 256,
+    "original_complement": 144,
+    "complete_two_chart_fibre_rank": 272,
+    "global_multiplier": "positive QZ/qchi",
+    "old_jet_rows_consumed": [
+      0,
+      18
+    ],
+    "old_W_Krylov_V3_fibres_R901_flips_recomputed": false,
+    "actual_new_mathematics_executed": false,
+    "actual_original_P1_value_K_Q_fixed_basis_Hecke_connection_period_nonp_height_computed": false
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "closed_product_work_compacted_only_after_complete_direction_and_live_witness_closure": true
+}

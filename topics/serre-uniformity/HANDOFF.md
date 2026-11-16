@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：bbd9ce7a10d904eba921505d58659266ebdca548**（2026-11-16T14:07:40.177038+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[迹对偶连接前H](handoff-archive-2026-11-16-before-trace-dual-connections.md)，内接整Tate像前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：5e5f4fecd9e8154c3f9d1cb8ddc029fc4e45a83f**（2026-11-16T14:10:53.229692+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[迹对偶连接前H](handoff-archive-2026-11-16-before-trace-dual-connections.md)，内接整Tate像前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -51,7 +51,7 @@ R894末DN完整418、degree272避P0，QN=Qorbit FN正乘，ρ/t阶−8435、首�
 
 **[R901共享126树](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)** paper83a18d8a已发布。12χ+24T+五(6+11+1)，旧D2/E累计F直接读；QZj=Fj(NQj)^qj QK^−pj正乘I_Z，ρ阶−686/−182/−231/−707/−1659、t正c幂。末D仅L，Z负支撑不限P0，七重datum不省。六件全文读并发布pending：core2cacb66f/wrapperc2aad47b/methodd5a5c611/plan7d5300ec。计划永久保零计数；仅执行request待R900/R902真源，实际新flip0。
 
-**[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** paper9fcf3c2c已发布。共享962乘积像→两组544核146/418→原18行128/400→真实144补；唯一Φ=QZ/qχ正乘，原P0=(Lρ a18/uχ272)c^(254−m)。corebc3e9a53/wrapper97b91720/methodff3acf13五件已冻结待root读，未来R901=null；实际全272纤维/下降/P1未做。原正常数组不再除τ。
+**[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** paper9fcf3c2c已发布。共享962乘积像→两组544核146/418→原18行128/400→真实144补；唯一Φ=QZ/qχ正乘，原P0=(Lρ a18/uχ272)c^(254−m)。corebc3e9a53/wrapper97b91720/methodff3acf13五件全文读并发布pending，R901真源仍null；实际全272纤维/下降/P1未做。原正常数组不再除τ。
 
 **[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)** 纸证已成：同D418截真146，146+126整纤维单位/同度给完整丛格，迹对偶670基/全544主部秩543，保D/H交点与不同理想；真主函数特殊支及低权格fallback明确。五Dj/X/DN七源经原QN校正、Gal7与真cY平均直接给原I_Z连接，不等R900/126树。ordinary_local写实际消费者；exact_height做R907真672/九Norm/wholeArtin/dual7，两端实值仍缺。
 

@@ -160,3 +160,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。pending request的R900/R902保持null，真实R896五源已填；计划文件零完成计数是不可变定义，不作运行证书。收到真源只填实际执行request，不重写原计划或重复旧flip。
+
+
+**R903五件执行源已冻结发布**：[方法](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)，同一962像复用于两权完整核，V4只补272个最高列和旧19行jet的线性延伸。原256列保顺序、真144补、完整272纤维/同度及P0正c幂逐项保全；R901源仍null。原完整主函数carrier保来源，但P1值、Q固定坐标、九Norm及高度均未完成。

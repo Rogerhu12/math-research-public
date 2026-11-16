@@ -2,59 +2,54 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-freeze-original-five-Z-shared-flip-execution-source",
-  "commit_message": "serre: freeze the original five-Z shared-flip consumer pending actual producer sources",
-  "rules_last_read_commit": "fbfccc056bf0680827b008fe6a83705fdc96b528",
+  "request_id": "20261116-freeze-original-five-Iz-two-weight-execution-source",
+  "commit_message": "serre: freeze the original five-Iz two-weight RR consumer pending its true source",
+  "rules_last_read_commit": "bbd9ce7a10d904eba921505d58659266ebdca548",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "3967382b801e8f5d7a11b290188181b865e7e14f922ca3736f549eb3242c6cd2",
+  "expected_previous_request_sha256": "b2a0af13035759f7d06550de427f8ee52bb1212f9f0b0710a01360f0f86457ee",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R901_original_five_Z_shared_bounded_flips.py",
-      "sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+      "path": "topics/serre-uniformity/scripts/R903_original_five_Iz_two_weight_RR.py",
+      "sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R901_public_original_five_Z_shared_bounded_flips.py",
-      "sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+      "path": "topics/serre-uniformity/scripts/R903_public_original_five_Iz_two_weight_RR.py",
+      "sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R901-original-five-Z-shared-flip-execution-method.md",
-      "sha256": "d5a5c611fef2a5c9dc465fd5b9baac85505828d9bd7f3fbd62ad0f52f0620124",
+      "path": "topics/serre-uniformity/notes/R903-original-five-Iz-two-weight-RR-execution-method.md",
+      "sha256": "ff3acf136005fdef355ed40d02ede89dd2078ce3a69b4d61b2510a0b000d9091",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R901-original-five-Z-shared-flip-source-plan.pending.json",
-      "sha256": "7d5300ec14bf83119768d6f41d44e940e5e073348d765538f154f51ddf69431a",
+      "path": ".github/workflows/serre-R903-five-Iz-two-weight-RR.yml",
+      "sha256": "36275e3a2bb204a194a646ca09e7e5fd7a1bf16d43fb57b2f1c76e45523b2d2d",
       "expected_previous_sha256": null
     },
     {
-      "path": ".github/workflows/serre-R901-five-Z-shared-flips.yml",
-      "sha256": "5bc1b375dd8e0a48605acc7798136bf9b0cca9df3832ababe05cbfa766030168",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.pending.json",
-      "sha256": "8b5731a514a6b3f5648f03111e10f54cb1497bd04658b653ccc00bd95cebb845",
+      "path": "topics/serre-uniformity/notes/R903-five-Iz-two-weight-RR-public-request.pending.json",
+      "sha256": "ed326ee264a588131de183d487dc80ddd1fc44b92744f80f9c40551eef46ee02",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "17fc95f23718e6b72af7a6abbf7d6b4ac8c0330d7280e006a233c3b8870351fc",
-      "expected_previous_sha256": "923d4d321ce8ef8bff90fd47f40a3a274236ea3575b557354692954d4bd7126b"
+      "sha256": "3cc595173d84cca4bbf4e2f6b2616b89bafbbf45c54609e6bd0d35d341402c64",
+      "expected_previous_sha256": "4ea9065f2129e214d2947a72697023e7e6c427eb92d10696cd6d813ce5cf3bbc"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "f6cc0846ce3bb9e56b6e6088513aabd1315b88ace848d190f247a2a59571bd3c",
-      "expected_previous_sha256": "0ae0c259dffa16983af1408acfbe6c4c7106c04a191e83e53db1ffb0561fc861"
+      "sha256": "51a66f29e0af4d2989962f454c97a899e624c5f59992118219b6f1388bc7aa5b",
+      "expected_previous_sha256": "f6cc0846ce3bb9e56b6e6088513aabd1315b88ace848d190f247a2a59571bd3c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "c17573a5d973b504293801cfc724ec2a7da5fcd5535fa31f4560c19723fc8e9c",
-      "expected_previous_sha256": "63ae38a222290931da216a9d764437141f2464f5e9497c76c61441b5eb297d96"
+      "sha256": "96121455aa1d154f78ac950e02dd3ee9c7bddedd5111dafe4b446ddfe5b4b147",
+      "expected_previous_sha256": "4e50549828ff7115f20395f0217ae8c99caa1fbf3dc061a1dbc37b10cb64c770"
     }
   ],
   "dispatch_workflows": []
