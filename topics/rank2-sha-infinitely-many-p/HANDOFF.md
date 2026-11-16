@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：23873c4978fdba1d7f097685ff0de513fa59b4f4；2026-11-16 10:43:22 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:41:15 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
+- 最近已读规则提交：3ba1fd5a2579aff2c71490e874c4f1f73773be79；2026-11-16 10:45:31 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:41:15 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -30,7 +30,7 @@ R880用三原Artin共轭及两轴9项/全18χ求交，两P认证后degree376；�
 
 R882原18源E_src与T=((X+1)(X−8)²)/X²、固定B0/B2端点、全17方块和ε/两完美三次根保正文。附A原eta商t=η1η867/(η3η289)、t12=T/V给degree48底，最低权(24,−1)原绝对支，T/U/V/all36 cusps/D204不变。两真实RR初run在resultant字典解包失败，改.items()后重跑：306 run43850251992/job133240631228、eta48 run43850252040/job133240628667；未报RR成功。
 
-[R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)付完整原X/R相对6闭点算法：q_*D=div(yA−yB)+两pole，有效且deg2256(r+1)。分歧点F像δ三挠，6倍消；非分歧共同O/三挠交重m的三点和0，余k=e−3m在唯一剩余度1 lift，输出为red(a0 f0/c0,yF)，全高重/∞/闭点迹保。原两Hecke gcd恢复端点和t绝对支；f0=((v_s+4)/v_s)RF/θ17²。consumer正在实现，仍须两char0 PASS和真RR，不认已有shadow。
+[R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)付完整原X/R相对6闭点算法：q_*D=div(yA−yB)+两pole，有效且deg2256(r+1)。分歧点F像δ三挠，6倍消；非分歧共同O/三挠交重m的三点和0，余k=e−3m在唯一剩余度1 lift，输出为red(a0 f0/c0,yF)，全高重/∞/闭点迹保。原两Hecke gcd恢复端点和t绝对支；f0=((v_s+4)/v_s)RF/θ17²。附A完整闭点迹6Tr(P)=[(1−(−r)^d)/ell]P直接落真E[ell](F_r²)，d不可先模ell；consumer正在实现，仍须两char0 PASS/真RR。
 
 ## 当前第二门：四原B的实际同源关系
 

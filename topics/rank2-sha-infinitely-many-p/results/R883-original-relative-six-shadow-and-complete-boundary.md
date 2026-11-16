@@ -275,3 +275,61 @@ $$
 不存在从未完成的特征零候选或一个模 $r$ ODE 解直接宣称映射的步骤。
 本篇也不由任何有限闭点数目、形式恒等式或原循环所在动机的维数预告非零。
 同一实际 Artin 组合非零时，才按 R880 附A和 R859 的整比较、全局无挠性返回原 $Z_{\rm orig}$ 的 Abel–Jacobi 非零。
+
+
+## 附录 A：每个闭点完整迹的直接标量读法
+
+这里的剩余域次数不能省去，但不需要逐次计算 d 个坐标 Frobenius。令
+
+$$
+ k=\mathbf F_{r^2},\qquad \ell=(r+1)/6\in\{5,7\},\qquad
+ d=[\kappa(Q):k],\qquad P\in E_0(\kappa(Q)).
+$$
+
+[R859](R859-original-supersingular-shadow-and-integral-aj-detection.md) 使用的原算术 Frobenius 满足
+$\varphi_r^2=[-r]$，是整个 $E_{0,\bar k}$ 上的端同态恒等式。因此
+
+$$
+\operatorname{Tr}_{\kappa(Q)/k}P
+ =\sum_{j=0}^{d-1}\varphi_{r^2}^{\,j}P
+ =\left[\frac{1-(-r)^d}{r+1}\right]P,
+$$
+以及
+
+$$
+\boxed{
+ [6]\operatorname{Tr}_{\kappa(Q)/k}P
+ =\left[\frac{1-(-r)^d}{\ell}\right]P.
+}
+\tag{A1}
+$$
+
+商是准确整数，可以为负。由 $P\in E_0(\mathbf F_{r^{2d}})$，
+
+$$
+[1-(-r)^d]P=O.
+$$
+
+所以 (A1) 的输出被 $\ell$ 消去；同时其 $r^2$-Frobenius 为
+$[-r]$，在 $E_0[\ell]$ 上等于恒等，故输出确实在 $E_0[\ell](k)$。
+这同时给实际实现两条应核条件：$\ell S=O$ 及 $S$ 的坐标在固定 $k$ 中。
+它们不代替完整除子或原标签的检查。
+
+正文 (19) 因而精确成为
+
+$$
+[6]S_r(Z_{ab}^{\sigma})
+ =\sum_{\substack{Q\in\operatorname{Supp}E\\
+                  3\mid\nu_Q(v_s),\,k_Q>0}}
+ \left[k_Q\,\frac{1-(-r)^{d_Q}}{\ell}\right]P_Q.
+\tag{A2}
+$$
+
+(A2) 先在每个实际 $\kappa(Q)$ 的椭圆曲线上乘准确整数，再将得到的固定域点读回同一 $E_0(k)$ 基。它包含全部 $d_Q$ 和 $k_Q$，不是把原 $P_Q$ 预先认作 $\ell$ 挠点，也不能先把 $d_Q$ 改成模 $\ell$ 的剩余类。
+
+例如 $d=\ell$ 时，因 $v_\ell(r+1)=1$，整数
+$1-(-r)^\ell$ 的 $\ell$ 赋值为 2。取在 $k_\ell$ 中的一个准确 $\ell^2$ 阶点，
+(A1) 的输出有准确 $\ell$ 阶，而以 $d\bmod\ell=0$ 替代完整迹会错误地抹去它。
+这些点确实存在，因为
+$E_0(k_d)=E_0[\,|1-(-r)^d|\,]$，后者为与特征互素的全挠点核。
+此例只是证明保留完整闭点次数的必要性，没有声称它已经出现在本课题的实际交点列表中。
