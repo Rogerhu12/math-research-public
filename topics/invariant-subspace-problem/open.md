@@ -4,7 +4,7 @@
 
 **完整二孔第三旗的跨头费用已付。** [有限池与同一首头完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)在相同F3上保全部primitive/零源，真实K2截尾误差²≤ε_f+2t，无强头逆损失；一般有限核的原carry/fresh6d修复保全部支撑。τ14切点使Σ(q2−q0)<∞，因此第三旗真实Schur能量可和。此仅支付qflat在K∩RanC²的通道，高旗补、完整受限逆及返回费继续；不据此宣N=M。
 
-**原十行参数种子现已实付。** [完整有限域原来源](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)在(127,100)保全部十二y/w参数，实际重建5个10×10乘法/18×10来源、6mean、100comm和10Bell，116条逐原18乘回；全部118阶段双SHA/binding/root独读通过。v1实现错误和原失败身份保留，v2仅局部变量改名、新binding/新目录完整22.198秒。已有完整种子不等于Ni稳定闭包；下一做精确加权列压缩且每删列保原来源，再在十二参数上寻e0，阳性须回E全原18乘回；无候选不作负证。
+**原十行116种子已严格压到50原列。** [全原模型](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)及[完整同B子模证明](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)保十二y/w参数、全部原18来源。权6/8全矩阵秩56/1106，50原列=6mean+20权6comm+14权8comm+10Bell；全部1160坐标/删除列原18乘回，root纯字典另核51,834,662产品。稳定闭包及单位仍开；下一十二参数module候选找e0，阳性需实际lift50系数和全原18乘回，再回E；预算终止/无候选不判非单位。
 
 
 **原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-whole-W31-gap-789f.md)；归档不等于关闭。**

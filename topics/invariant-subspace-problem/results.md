@@ -235,3 +235,6 @@
 
 
 - **R150 完整全W31投影谱与八长剩差（2026-11-16）：** [完整两边载体与整差证明](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)保原6188两侧来源、field314+J1。完整P正谱1²2²/1⁸2²3²4分别长6/22，field像同M；饱和自由像使U/M⊂pH，H1=(1,1)、H2=(2,2,2,3,4)。于是U1=M1、余根2差长≤8/指数≤3。root独立二次型完整Taylor块秩及direct整数SNF全同；C_P=C/U与全部系数扭子H/(U/M)为下一小呈示入口，尚未判剩差为零。
+
+
+- **R150 原参数116种子与50字面原列同模（2026-11-16）：** [完整分次/原来源证明](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)实际权6 3188×86秩56、权8 17674×1132秩1106，保6mean+20+14comm+10Bell。逐原1160坐标及所有删除列原十八乘回，使两列表在完整F127[y,w]生成同模；root另以纯字典51,834,662产品复核，不依producer/FLINT/native。最小Ni稳定闭包相同但未计算，未获e0或E单位源。

@@ -1,0 +1,36 @@
+{
+  "format": "r150-root-independent-parameter-compression-sparse-execution-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-isolated",
+  "source": {
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-compression-independent-sparse-audit-789f.py",
+    "blob": "0a231f536b3416669ef4dfb3051b832927290a7d",
+    "bytes": 6949,
+    "sha256": "adac991b0eda0f6ddd2c6ba0e0fbdfb8ae2f1dd723f5344815ee7441932fa20d"
+  },
+  "argumentVector": [
+    "--parent",
+    "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+    "--compression",
+    "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+    "--out",
+    "/tmp/isp-root-seed-compression-sparse-audit.json"
+  ],
+  "parameters": {
+    "coordinateCount": 1160,
+    "memoryMiB": 768,
+    "prime": 127,
+    "seconds": 90
+  },
+  "status": "completed",
+  "exitCode": 0,
+  "elapsedSeconds": 16.267015384000842,
+  "peakRssKiB": 98600,
+  "binding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+  "rawReceipt": {
+    "bytes": 1355,
+    "sha256": "17768ca9fff9a07b8d374ef79b00e527f0f57bf4e65c4108d5941b9bc78eee79"
+  },
+  "method": "independent-canonical-sparse-dictionaries-and-no-carry-base16-monomial-encoding",
+  "mathematicalArraysTemporaryOnly": true
+}
