@@ -179,3 +179,6 @@
 
 
 [R839 属三自同构行列式与 Picard 来源](../results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)：§9–10对任意属三C→E0³证明det(v*|H0Ω)≠1即最高Chow像零。满像时q:J(C)→E0³为同源，完整q_*共轭次数相消，中心CM使Π与有限作用交换；零实现的平均幂等经Kimura有限维严格为零，并用原平移不变性付任意基点。于是所有Picard y³=f4的实际曲线像均被杀，未把一般高余维实现当忠实；其已知Ceresa椭圆点公式读取混合Hodge型，不能供应原最高λ非零。
+
+
+[固定有限代数来源池及p次幂加exact的范围](2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§17–18以先固定的代数参数、不同Laurent首阶和非零增广minor，证明原Ahat、真f=Z^-2Ahat及P2均不属任意固定有限池K(X)^p V（充分大p、固定有限坏集外、不加exact）。特征零σ^mR与σ^mR/z²的非代数性分别用Dζ=−x和Dz=1的有限域迹付清。但可变p幂与exact联合确有完整fνω=hν^p dlogx+dvν，hν=xCν/(2y)，原未知αν=(−2[z]hν)^p及p²极帽仍保；未作错误的联合排除，也未推出原四α不同时零。
