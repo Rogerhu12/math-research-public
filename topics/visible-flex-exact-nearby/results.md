@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WRTA：完整终端重分解42项实际成功**。公开run43862924830/1全18门、7图42新量完成，75原record/10原scope逐字保，旧重算0/lost0。严格完整C3约1.13089e321；负源完整界1.78069e333，原whole与reduced各得到7.44656e339并真选new，旧2.11631e465完整候选保。全十字有序残差、原C4、同even0/J、两mean/四端/3070jump与新S1/6均支付；不授signed有限逆或最终matching。见[完整42球和执行证据](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2。
+
 - **WSJ：严格区分径向/角向的完整混合jet与fold逆**。冻结$t_0$的逐$(p,q)$系数闭合乘法/有理幂与phase/gap三角递推，纯角行不再引用径向组最大；完整$H^{-1}$四entry和$\mu^{-1}$正因子、$G,w_0$第三径向/完整强迫及自由/genuine第一transport均保。旧phase1..15补absolute edge15；新的relative$\omega$输入只到14且未实算，各slot保同域旧safe fallback。见[完整证明](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8。无新科学执行，不授physical有限逆或最终族。
 
 - **WIC：继承细分的真实尾逆与带权阻抗 circuit**。由完成WPTVS的8个原whole粗有理界，严格证明m160时δ<80553/128000<2/3，真实R160双侧逆可取κ=3；原m1/m2两false和五max冻结。24480个cell的4724833维参考有限方阵分解为96个正pivot阻抗块与一个physical mean块，完整Riesz/transpose/whole norm与principal rho2−rho*均保；actual有限仍须signed e+3dt<1和完整7port/两rhs。见[完整证明](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e及无入口module c5de896f。0新科学执行，无dense数组。

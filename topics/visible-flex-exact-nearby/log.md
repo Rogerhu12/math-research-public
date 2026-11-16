@@ -284,3 +284,5 @@ fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publicat
 2026-11-16 12:06:52 UTC WIC独立推：全文核019b1136/29026/527fc35e与无入口b181bb80/11013/c5de896f；8原whole→m160真tail κ3，旧5max/两false不改。reference正pivot/真实权/transpose/ρ2误差和WDS全残差义务明确；0数学执行/0新矩阵。CI43862924830已成功，四真pull/README完整diff空，最新12:02:27.498937→55858bef，H已更新；实际WRT42完整核读中。只读核README parent e8867d1951d6faa31a2cd9e69e6b9df2fb1c0c68不变。
 
 2026-11-16 12:11:21 UTC WSJ全文数学核24ccac8b并仅规范$定界，正式10c6e422/31568/217cdff8；全部12节/输入表/逐slot fallback完整。r≤3与angle分开，H/μ/G/w0/fullforcing/w1和edge15闭；relativeω14仍待WDG新数，不重算旧WGS。为H/open长度把原全文移notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md，原完整scope/未付门不减。README 2d39761097111c25ce26c4d8385b7da93d844dd2未变，继续新strict/profile与actual signed finite。
+
+2026-11-16 12:13:09 UTC WRTA独推：SCI2ab3e929/90315/fa85503b、exec6510c229/17176/165fefb1、report446完整读取；原32fields/18gates/16progress、7图42ball和75copy/10scope、11current/2AST全部核。两同算子whole/reduced新7.44656e339均选new，旧候选不删；无旧重算/new exp/数组，42target已冻。完整证明c2a6f0ee/22493/48d1bea2；README d0d923853c15915cf727485bdabf6a9aed023dc5不变，继续WSJ/WDG和actual有限残差。
