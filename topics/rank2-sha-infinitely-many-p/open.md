@@ -143,3 +143,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R872首修正平方排除](notes/2026-11-16-r872-first-carry-corrector-square-exclusion.md)：最小τ1/r3/F0 degree3的原同M/p²强迫R0=0、R1=(Y−1)³A，deg A≤3且A(1)为指定frame单位。因此同R在k(t)[Y]中亦不能含F²；若F|R只余一参数最低项。全K1改变不改该单位，但仍未排其它R或判末尾像。
+
+
+- [R876](results/R876-original-h22-complete-cm-source.md)：原H22在whole degree22/type4上的完整CM7/13均按全有限纤维和S34绝对锚读取；H22为N7循环向量，最小式Φ12，整个四维空间上N13=−N7³、N7⁶=−I、N13²=−I。四共同谱分量全非零，无μ6共同线；保全部2/3/11身份门与原两个低配对，不添V66或中央零。公开run43836767572/完整hash齐。
