@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WMTA — strict-flux 首次实际完成**：[完整实际结果审计](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)，SHA256 b4b5f5f78127a243f38d0192057018911d306a33f2ed7982341f7705589acd90。43856579962/1成功18门/7图195新+2旧copy，完整SCI90421B/c6680025，131原record/33scope全同、old0/lost0。CFs新约1.167180848e289，whole/reduced各实际选择new但仍约2.116312512e465；所有原非mean/两mean/四端/3070jump/真root与未付finite逆保，后续转完整nonmean界。已成195目标冻结。
+
 - **GMR — 已成局部 mean/γ 桥精确复用**：[完整证明与12原records](results/R133-supplement-completed-local-mean-gamma-bridge-and-exact-reuse.md)，SHA256 f03b79bc5577a4f6e8bd5fe333916b7b5abad7f93250ac008a5e8ccaa0faa7e2。原43827705714/1首节点679a1d15/3497B/00e1566b已经4copy+8新全成；node24失败不撤销前缀，43831678361按同SHA只读复用。只同germ实[rc,r+]，|m|下界与原row790切点资格保，无对称盘外推。本次0新科学；open过期“8数均待”已纠正，禁重复运行。
 
 - WPTV诊断43852589080/1（强制readonly-only）完整恢复首失败1395B stderr，SHA113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74精确同原；[execution](notes/frozen_cross_block_value_tail_ci/run-43852589080-1/execution.json) 0f1adff816076873acdfcd40b634f7dbb070bc281dd87eeae211844f57dba7e4 /28491B，report427B。两次child0/new0/old0，全部目标未开始。入口把intrinsic原5字段球记录误按3字段验证；公式/数字未改。
