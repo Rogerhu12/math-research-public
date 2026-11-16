@@ -257,7 +257,7 @@
 - 新原CM sigma/period稿a06a80ea：μ3补空间唯一〈xω〉，由原u²(1−u)=bξ⁶给整u/w/H及F=∫w∫H；cubical原ψ₂=−2y严格给line-log=logξ+F。
 - 正整数倍率保ψ_n/其导数，得六点value/first-period与完整尾SP25–28；RF对称项降至原六椭圆点七共轭，完整Q三次帧、Y/ℓ/nonp及split差保全，无新数值或高度非零断言。
 - 根读R699.27a/R634/R724及Balakrishnan–Besser §4原文，ordinary特例不用于本证明。辅助ℓ518不可作41精度；R787旧primal run02:49真实failure且尚无数学artifact，正在取runner诊断；新dual不动。
-- 本push规则：本地真实pull至f6e5eca6268d682df1bb6a3aa5fae54e74ef355d（2026-11-16T03:11:45.056942+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至96ac667134c6f6cd2563f251f1dfd8c3c11a1b95（2026-11-16T03:20:31.295115+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ### 2026-11-16 11:03 Asia/Taipei — serre-public-astra-20261115
 - R787 run43766834509在02:49:29UTC实际failure；check注记runner失联，数学步in_progress/上传pending，logs404且仅rules artifact，不能当BudgetStop或虚构新位。真实原因未细分。
@@ -273,3 +273,8 @@
 - 激活R850原五刚性化纤维与完整截面消费者：coread8a8237/wrapperff318ca0/method9fd821a4/requestbf0259b8，三真源共40件及POINTS270旧件，预算30min；原395MB必要全局载体不展开续传。
 - 新数学仅RF两stage准确表达式和−d/2、−3d/2帧系数；真实c0帧/ν/κ/R/三次Q纤维/完整Picard和theta二挠同保，原C_h不伪填、period/height/A.1/allp不预称。将positive_nu键精确命名为“乘ν”以免误读为实正号。
 - 根通读五件及真实schema，C0.sources与GLOBAL.source_identities分开；本地仅IO/AST、无新数学。H先逐字归档后缩已成来源，半坐标后继仍pending，原Y连接与41输入继续。
+
+### 2026-11-16 11:20 Asia/Taipei — serre-public-astra-20261115
+- R850实际成功：run43796696213/job133067102293/source57b2899f，0.397869762s/2stage，330新表达式节点/11原非零依据，五指定纤维及完整c0归一截面全部true，原帧−d/2、−3d/2准确。
+- final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173/artifact14194427829/b466d4c1；40源398.65MB载体a4c38c0e续留395MB原全局与270点来源。11Range/96291B读回小输出，不声称本地重哈希整ZIP。
+- 原C_h、Q下降、完整Corr/theta二挠及nonp/splitting保留；canonical periods/height/A.1/allp均false。旧两stage不重跑，继续Y连接及原Z加法七基点收缩。

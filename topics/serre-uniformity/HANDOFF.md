@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f6e5eca6268d682df1bb6a3aa5fae54e74ef355d**（2026-11-16T03:11:45.056942+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R850消费者前完整H](handoff-archive-2026-11-16-before-R850-consumer.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：96ac667134c6f6cd2563f251f1dfd8c3c11a1b95**（2026-11-16T03:20:31.295115+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R850消费者前完整H](handoff-archive-2026-11-16-before-R850-consumer.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -41,7 +41,7 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 **原完整刚性化纤维/截面已构造**：[RF原文](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99：原I_Z/P1帧1/P0帧t^(−7δ)给v；正乘R给v_R=κ/R(P1)·v³，只动第二槽。ν=3^(11δ)m_f^p/m_g^q，截面νu³v_R与N_h^(3q)由完整Corr运输，theta二挠/Picard反因子同保。原λ=(χ(νκ/R)+½τJ(z³)+3τY(v))/(3q)，实际C_h/全部Q纤维/splitting/nonp保留。R850只消费原三源实现DAG；periods/高度不相消未成。
 
-**R850原纤维消费者已激活**：[执行契约](notes/R850-original-rigidified-fibres-consumer-method.md)9fd821a4；coread8a8237/wrapperff318ca0/requestbf0259b8，预算30min。本push触发，待读实际run。三真源GLOBAL12/C019/POINTS9共40件；395MB旧全局载体原字节续留，POINTS270旧件已IO核。仅两stage组装RF准确图及−d/2、−3d/2帧项，不重旧Norm/CM/点加法；原C_h具名、period/height/A.1/allp仍false。
+**R850原五纤维/完整截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f，0.397869762s/2stage/330node/11非零依据。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173；artifact14194427829/b466d4c1，40源398.65MB载体a4c38c0e。保原270点来源与395MB全局载体、ν/κ/R/完整Corr/Q三次纤维，帧−d/2与−3d/2准确；C_h具名、period/height/A.1/allp未成。
 
 **原CM对称period已有小输入公式**：[SP原文](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea：原μ3补〈xω〉，u²(1−u)=bξ⁶，w=(3u−2)^−1，H=bξ⁴(9u+4)/(u²(3u−2))；line-log=logξ+∫w∫H，ψ₂=−2y及cubical正乘定号。SP25–28保全尾/n/trace损失；RF对称项=3(qA_g−pA_f)，原Y/ℓ/nonp及split差不删。518仅辅助ℓ，真实41输入仍须完整U.1或已接受A.1。
 
