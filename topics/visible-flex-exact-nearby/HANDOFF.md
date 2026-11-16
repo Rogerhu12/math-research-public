@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 00:36:40 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 00:37:43 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 23:50:00定时CLI仍无executor，下一≤11-16 00:50。最新CI真pull为NPK11-16 00:07:48.835350→12ae0a1e822b953ce3a2b96287ee3c0af0243992，两README空diff；ref读取不冒真pull。
-最近只读README核：7d697902df3de37ef3ce8c460f6adaca7c762258；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 23:50:00定时CLI仍无executor，下一≤11-16 00:50。最新CI真pull为CEB11-16 00:28:42.676355→a0d71ea94446f0fcf64d1f69e4dbadd5910204ba，三次两README空diff；ref读取不冒真pull。
+最近只读README核：ed56a07c9370a0108126a9dea84745e7c1d4e562；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -20,7 +20,7 @@ candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位
 
 SNA4214de05原43751213826/1/21成功锁；完整双支四导/真H/μ及pins/SCI/18a3、7edf失败/lost保新scope索引与原proof。仅限定314×4重建，旧losthash未冒核，成功不重。
 SC3/SCA3302361e原43754452928/1 child0/20、12steps锁；完整7908/32组/3×97+mean，known≈3.8444e−13、wholeaffine≈1.61721e−7，未知body主导。全部原球/pins/SCI/preGit/失败lost见SCA及c9f72b1a同H，成功不重、大log不取。
-CEBff118cc7同whole帽J2/J4及D√J2+13Q√J4已证，完整左/右/mean/known/outer同weight后whole选。11pins/4AST/22门新包已部署待唯一Actions：SCI21506f21、workera93adea6、manifestc76151ac；全部新量纯JSON列名表无损，旧41球6对象原字。旧成功0重算；trace/core/incoming/finite仍未付。
+CEBA26dcc2f8原43780532148/1 child0/22、12steps成功锁；11pins/4AST/41旧球6整对象、12rows/24Jp/两whole全核。两域选1/16，full≈1.368216022e−7/tail≈1.363011621e−7；SCI52340/96de85be、preGit61461/3c98e979。非线性body仍主导，原y/左10d/mean/outer全保；trace/core/incoming/finite未付，旧成功禁重。
 
 ## 当前已付链与下一实际计算
 

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/CEBA：全帽p2/p4包络的首次完整实际接收界](results/R133-supplement-actual-whole-cap-weight-envelope-receivers.md)：唯一43780532148/1 child0/22及12steps成功，12个完整weight/domain行、24积分和两whole比较；两域选1/16，full≈1.368216022e−7、tail≈1.363011621e−7，均保原SC3整行。全mean/原y/左10d/known/outer与γ条件保持，非线性body仍主导；真实trace/core/incoming/finite/return未授，成功冻结。
+
 - [R133/SW：单一完整根首系数试探与同对象有序腰误差](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)：W=A(1+M_C I)Lc在原cut准确等Bc；C含F*及mean，完整DW/Q含T1F2、两mean/全部3070jump/双端原序保留。SW29a确认最终paid对象不因试探函数改变，CGwhole只经已识别正加数支配复用；仅提出current-only新标量组合，未授新数字或incoming/finite/return。
 
 - [R133/RDA：原完整forcing下首Airy幅度的精确根导数](results/R133-supplement-exact-root-first-Airy-amplitude-derivative.md)：Da1=−iε[6dφφ/5+D(ell/η)/2−(ell/η)dφ/2]，由原径向项、完整mean与zero-trace transport直接推出；genuine修正首导为0，两sign完整乘子无额外2。低jet输入的正预算是未来consumer合同，实际球、完整RD门、incoming和finite逆仍未付。
