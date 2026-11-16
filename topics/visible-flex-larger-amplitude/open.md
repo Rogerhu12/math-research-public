@@ -70,7 +70,7 @@ R437/433/434/438与R452保首次同C闭构造的真实全场、原cut/两帽/atl
 
 [207/R458](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)真205→R456五factor2→旧R457 M128四factor1，154+75=229pins；[209/R468](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)改R464增M128，245public+15view。三级新几何/held/evidence，209另3/5/9帧display；首目标固定，末900测量保留，原18900+2700/全部门/单90KB超70/必要读取quiet后清理。实际run/source及唯一owner见HANDOFF，不冒细化接受或误差下降。
 
-按根15，[actual63两清单清理](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15只普通删除可再生的manifest/intent共1441937B，原来源/参数/真实父输入/紧凑结论和Git历史保持；现用源及91/98等父不动。actual62两旧生成清单1352194B仅已核字节/来源并续查现用依赖，尚未删除；不将容量整理当科学进展。
+按根15，[actual63两清单清理](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15只普通删除可再生的manifest/intent共1441937B，原来源/参数/真实父输入/紧凑结论和Git历史保持；现用源及91/98等父不动。[actual62两清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)本次按原来源/现用依赖核后普通删1352194B，仅两明确生成清单，原父/输入/参数/其余四件/历史保持；不将容量整理当科学进展。
 
 ## 4. 同一g闭合与真正九冻结450
 

@@ -65,3 +65,8 @@
 ## R453 — 实际205准确域未付与点逆像工作停止
 
 **实际205：新准确十族域未付，完整112 far/数字行返回，物理点工作额度停。** [R453](results/R453-actual205-new-ten-domain-partial-complete112-and-point-work-stop.md)30168B/9316e125全文核后刊；run43796116341/sourcee17aef55，compute133065195355/report133108834041。新202十词只作新准确族：base域complete而controls-on域301.290538秒、24405processed、10594终端未决（piece416/depth32）及16未访，全返回地址保；原源码只记录domain=false，不把它加成BVP门，也不判非法。全部112 deep/far/实际joint nominal行完成；linear2044754 work/4705.123925秒，sampling1M/1M、272.198895秒，只3点/0field，明确WorkStop计数停而非总钟/磁盘/数学拒绝。geometry.completed/native_ready均false使原binding返回2，453/450、H/J/FD/fullDN/闭面全部未起。旧selector漏待返点/完整stack，raw已清不能凭SHA补；与factory已完整返回的未决地址分开。五主正文两job逐字同，七必要完整/owner quiet后05:22:49.7536288Z真清；report原exit2保compute failure，不是传输故障。212只改物理inverse depth24→2，factory300s/65536/depth32/双pass与全部原域/末门不变，实际结果另付。
+
+
+## 2026-11-16 — actual62两生成清单的普通清理
+
+按根README第15条，[actual62两生成清单清理说明](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)经全文及原紧凑结论/来源核后刊，保真实run43642866864/sourcecc813fa7、原60父、原request/完整参数与producer。仅普通删除当前树domain-operator/manifest.json（493850B/4f68195d）及optimization-intent.json（858344B/17101fd3），共1352194B；暂存前再次核实际index blobs。现204/207/208/209/211/212实际恢复链不消费二者，其余四文件、全部原输入/历史warm与status/紧凑结论及Git历史保留。旧字节仍可从9a9dbfa8历史路径取回，不保证新科学运行逐词同，不重取artifact或科学日志，不改在跑入口或数学状态。最新真实容量另用官方topic tree核。
