@@ -3,11 +3,11 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 8e99851b3bf26ed7b5bed008b7a7ab16d3a9b601（2026-11-16 03:36:42 UTC，临时研究session run43798780106实际pull --rebase，两README无差异；详见notes/r150-root2-p7-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 1f38e4e8c6b1b909afa29d046e5dc85a62c77c90（2026-11-16 03:57:39 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0350-p7-two-probes.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 完整前态保[H](notes/2026-11-16-handoff-before-actual-far-variance-789f.md)/[open](notes/2026-11-16-open-before-actual-far-variance-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 完整前态保[H](notes/2026-11-16-handoff-before-original31-two-zero-probes-789f.md)/[open](notes/2026-11-16-open-before-actual-far-variance-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：完整有理横向商已封口，非rank-one与系数31继续
 
@@ -24,7 +24,7 @@
 
 - 旧run43756208221已结束。live43772109844始22:57:13、约04:47结束，临时全127/三域/global197缓存；request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json，全部37步已执行，旧30步定义保notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json。新数学另起仅manifest任务；旧E8 exit1及全部失败原史保留。重启须按冻结源码/pins重建，不能假旧临时数据存活。
 - **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，1342796原零乘回；完整相对25生成定理已付。仅执行manifest留repo，计算数据只临时/日志。
-- **31独立p7已排：** workflow=invariant-subspace-r150-root2-p7-manifest-session.yml；request=notes/2026-11-16-r150-root2-p7-manifest-session-789f-request.json。原14＋六small＋四真族/primitive/jet-map仅临时恢复；25→20→15→10→5，全原6188/4367与完整incoming15，最后两源任一正才E6。数学1800秒/4GiB、同绑定75自动续至3次；零只两源，失败照原回执修复。仅脚本/参数/run/输出SHA入库，结果读完成job日志；每步/30分钟pull核两README。
+- **[31两探针实际新增像零](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：** run43798780106/job133073660023，219.281秒，raw26380·1ac76082；25→20→15→10→5及30stage全成，356730原G坐标、全部104/315/505检查真。最后两源商rank0/合并15，E仍≥6，不启用E6七socle。原job已结束；下一完整210须同源重建父219秒，再补190/192/206/208列及窄currentK4，不存数组；源码/manifest在notes/2026-11-16-r150-root2-fourth-positive-two-p7-*。
 
 - **非rank-one原17梯度已排：** 独立workflow=invariant-subspace-r150-nonrankone-manifest-session.yml，源码notes/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py。真y=e0+e5、固定H0后6y/11H求导；exact17×11线性rank及完整T3地图，rank11才给detC局部来源，低rank不先称失败原课题。180秒/512MiB，无历史大输入，结果仅临时与完成日志。
 

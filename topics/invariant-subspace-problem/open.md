@@ -113,6 +113,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **实际强前缀远方差已付。** [完整Gram比较与同源极限](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)给C−A_x=原carry压缩、η≤e^−d⁴，全J差≤14ηs⁻¹e^(49/s)。x+1≤d^(4/3)/8、s≥S_x时≤e^−d⁴/2；R=d,h=2d原母参数成立。于是原a_m/F_m在真正远方差S_(m+d)强趋P_M，同PV/PK/u、全Q≥R+J保留，一次/二次MP可在4d≤Q≤e26d³接回。剩余仍是全深返回/实际a_m中间Schur及完整核修复、同源两费；ε无免费移动速率，未证N=M。
 
-**31原p7两探针已排。** 独立短会话逐原14输入、六small、四真来源和jet-map恢复；全部25→20→15→10→5整数进位/4367乘回与完整incoming15商，读取第208/209原recipe。任一新增rank1才E=6及旧p²h0提升；两零继续全210，不能写完整负证。1800秒/4GiB，预算75同绑定自动续接，只有临时计算数据与run/SHA执行记录。
+**31原p7两探针实际只给新增像零。** [完整实际范围](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：run43798780106，219.281秒，全30stage/356730原G坐标；最后两源在完整incoming15商rank0、原合并rank15。有效25→20→15→10→5，八次完整整数乘回/可除性以及104/315/505检查真；不是全210负证，E仍≥6。下一补全210全部原配方含field零式整数carry；新job窄恢复currentK4并重建父，E6七socle接口暂不启用。
 
 **非rank-one原入口实际排算。** 在真两原子均值y=e0+e5、H0=(e0²+e5²)/2处，H0固定而求全部6y/11H梯度；独立原N/Γ全1326系数核、T3完整56×11地图和真17×11线性rank。满rank11才构F_selected=C(M)M及detC局部化来源，未预称rank或全非rank-one闭合。独立180秒/512MiB小任务，源码2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py；无大矩阵或旧rank-one输入。

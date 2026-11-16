@@ -517,3 +517,5 @@
 - **R150整个横向理想的八次幂原来源（2026-11-16）：** [全混合源证明](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)从四fiber全部4212像包含提取45个quadratic CRT身份，得𝔫²⊂I+(q0)，再合h*𝔫²⊂I/q0³=h*Rq得𝔫⁸⊂I。任意四二次normal因子的望远镜公式给源moment18/9/12/15，无r平方跨度假设、无𝔫⁶或全J声明。
 
 - **R271实际强前缀的全高度Gram比较与远方差同源极限（2026-11-16）：** [完整原证明](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)由C−A_x=ι_x*(L_m−T)ι_x与原η≤e^−d⁴，得任意J甚至无穷塔的Gram/inverse差≤14ηs⁻¹e^(49/s)。在x+1≤d^(4/3)/8、s≥S_x上≤e^−d⁴/2，覆盖原R=d/h=2d；全部中间源a_m及原相干F_m强趋P_M，同PV/PK/u和Q≥R+J不变。原一次/二次完整MP接回4d≤Q≤e26d³母窗，未删除深返回或推出N=M。
+
+- **R150原31最后两第四页探针新增像零（2026-11-16）：** [准确范围及实际记录](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)在完整315坐标/incoming15商中给rank0、合并rank15。原p7整数F3提升[31,1]保留，25→20→15→10→5、30stage与356730全G坐标实际完成；耗时219.281秒。两列零不决定唯一E≥6，完整210继续，未启用E6条件分母结论。

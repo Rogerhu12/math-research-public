@@ -135,6 +135,7 @@ def main():
                 or ("cannot lock ref" in text and " is at " in text and " expected " in text)
                 or ("[remote rejected]" in text and "failed to update ref" in text)):
                 continue
+            print("ISP_PUSH_FAILURE "+json.dumps({"exitCode":code,"stdout":stdout[-3000:],"stderr":stderr[-5000:]}),flush=True)
             raise RuntimeError("Non-rejection push failure; actual prepared changes retained")
         for workflow in request.get("dispatchWorkflows",[]):
             if not re.fullmatch(r"invariant-subspace[-a-z0-9]+\.yml",workflow):
