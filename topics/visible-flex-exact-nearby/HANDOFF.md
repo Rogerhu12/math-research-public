@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 07:59:15 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 08:00:15 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 07:54非FF真CLI及07:16定时尝试均未执行Git，下一本地尝试≤08:54。最新CI真pull为43826099623/1于11-16 07:46:04.469750→fb33e5e95e502f4c028c3201cd582376a6c22785；rules-only一次真git pull --rebase，两README空diff且独立核blob相同；回执3cc88def/936B。下一真pull≤08:46:04；ref读取不冒真pull。
-最近只读README核：0d825bb808b2ec68c26c38fca439db7efbbc3150；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ee42af2ea28a71061063f1147c832600ee537cd4；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -52,4 +52,4 @@ linear-s3派生505865B报告：白名单a191e135先推83bac7b8，freshguard后�
 
 07:54非FF保远端循环后db510a9c已推成；近真pull仍为07:46公开rules-only，未运行科学。
 
-WEJ新后继39 current/9AST/12old/0history已冻结并提交一次公开Actions触发，结果待核：manifest1f226965/38256（notes/2026-11-16-R133-WEJ-posterior-current-inputs.json）、worker f9256031/96322、flow630f7035/5080；五math模块/所有原件全SHA在manifest。26图/32门/1684槽（1669新+15原copy），12原JSON/212门/280字段/19对象/15整结论均核；输出合同38b2d414/50656全图/三partial原字重构。static success847592B/max900840B；sup/A0、完整finite/两mean/ν/head/背景义务保留。旧成功/已算前缀禁重；不要因运维失败重启科学，须先读实际所有图/原输入/index/execution并更新此处。
+WEJ唯一新run43827705714/1（event90632039）运行中，39current/9AST/12old/0history；结果待核：manifest1f226965/38256（notes/2026-11-16-R133-WEJ-posterior-current-inputs.json）、worker f9256031/96322、flow630f7035/5080；五math模块/所有原件全SHA在manifest。26图/32门/1684槽（1669新+15原copy），12原JSON/212门/280字段/19对象/15整结论均核；输出合同38b2d414/50656全图/三partial原字重构。static success847592B/max900840B；sup/A0、完整finite/两mean/ν/head/背景义务保留。旧成功/已算前缀禁重；不要因运维失败重启科学，须先读实际所有图/原输入/index/execution并更新此处。

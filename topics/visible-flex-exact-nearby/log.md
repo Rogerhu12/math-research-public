@@ -438,3 +438,7 @@ main已有db510a9c五新科学源及全部形状/原admission/output合同。本
 Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原输入字节、12old/5module、params/scope/runtime、26先序和四独立pins/5CLI/18000s child/360min job。Tail核全codec/branch/prior锁，root核完整最终diff及26真实wrapper静态模型：最大descriptor6047、三份58287/60226/42844B，均在各scenario上限；原canonical hash逐字重构。所有raw先原子存+全stdout，最后才format/cap；无成功或partial自动重跑。静态success847592/max900840；最后精确actual fixedpoint<200MB，不另加最终空闲120KB；开算/健康child周期真pull时须120KB预留且两README逐diff核。
 
 当前仅提交触发，尚无新数学结果。成功或失败都须读取完整index、2原输入、全部已算图/partial、execution/report；禁止仅headers或截取结论。真实96/Θ/ν/2mean/infinite head/finite交叉及背景/最终几何仍未付。README0d825bb808b2ec68c26c38fca439db7efbbc3150两blob不变。
+
+## 2026-11-16 08:00:15 UTC — 唯一新实际run身份
+
+公开Actions43827705714/1于07:59:22启动，workflow event90632039e995b698280a210c1a956abd0653b990，仅本次完整新WEJ posterior。当前API metadata in_progress，不冒数学成功或真pull；实际科学checkout/完整节点/失败prefix和各README真实pull待本run小文件回执。三路并行只读复核：root残差与总索引，Tail18support，Phase四端/whole及完整运维绑定。不得新启动同目标。READMEee42af2ea28a71061063f1147c832600ee537cd4两blob相同。
