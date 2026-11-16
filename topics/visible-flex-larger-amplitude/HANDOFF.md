@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 02:42:51 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c5577584a5a914a420755d613b803455ec374300。
+规则同步记录：2026-11-16 02:43:50 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 efeb9469fa6a03addc2e10b85fd69b5edaec6380。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。所有科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布，代理交文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 
@@ -47,7 +47,8 @@ R437首次真实radial/shared后冻结A/B及H/W=.01/全marker/材料图/phase/�
 [R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)/[R447](results/R447-accurate-common-material-phase-and-strong-C2-continuity.md)/[接口](notes/2026-11-16-accurate-common-material-phase-consumer-interface.md)准确公共拉回/相位与可选六jet；正材料图+全空间C²/接缝给全t强C²连续，12高jet仅更强可选。无实际调用/跨j统一C²误差，材料记录不冒共轭。
 
 未推文本目录均在/workspace/visible-larger-working，丢失依原来源/上述接口重做；不可拿临时manifest冒已发布或运行：
-geometry续current-C-reused-far-R450：只同job同M/C/root完整far父、保持原mu/误差对象，新grid/native/J/接受fresh，须新版本显式注册R448。
+[R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。
+geometry优先续R452实际202205首次闭面四source（runner/policy/reader/held），root续总体helper/owner；R448同far新注册暂后、责任不撤。
 exact续current-C-modes-postsolve-R451：真实M闭面/metric/reach/独立held和公共材料来源注册。
 [R449](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)/[接口](notes/2026-11-16-actual202-accurate-ten-candidate-source-interface.md)两独立源7b601a09/6bb4910b与参数c980e9d4已读发布。原202十个50位词仅初猜，在Actions显式投影再以相同dyadic定义72c新准确点；旧三support皆prefix、新support1/2为transition/coast，原Gauss/长度/域/接受不转移。命题给零2jet与coast中心速度−κ+2LCθ3，中心读数只诊断、不选参数或加门。原完整453七shape固定/三active→fresh450、PhaseLease/全部H/J/FD/native/final/audit保持。bind必填采样预留并在recipe hash前记录原7200/实际值，完整BVP7200与绝对钟不改；无实际投影/C/新域/112/453/450/run，205须新tuple和完整下游。
 amplitude续205 pipeline/owned component launcher/phase reader，root另管总体owner。

@@ -313,3 +313,8 @@
 ## R449 — 202十词的新准确C候选与完整双问题来源
 
 [R449](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)/[接口](notes/2026-11-16-actual202-accurate-ten-candidate-source-interface.md)两独立源7b601a09/6bb4910b与参数c980e9d4已读发布。原202十个50位词仅初猜，在Actions显式投影再以相同dyadic定义72c新准确点；旧三support皆prefix、新support1/2为transition/coast，原Gauss/长度/域/接受不转移。命题给零2jet与coast中心速度−κ+2LCθ3，中心读数只诊断、不选参数或加门。原完整453七shape固定/三active→fresh450、PhaseLease/全部H/J/FD/native/final/audit保持。bind必填采样预留并在recipe hash前记录原7200/实际值，完整BVP7200与绝对钟不改；无实际投影/C/新域/112/453/450/run，205须新tuple和完整下游。
+
+
+## R450 — 同C完整far复用与真实新网格来源
+
+[R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。

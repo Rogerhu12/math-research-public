@@ -61,6 +61,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [R442](results/R442-fixed-accurate-C-finite-M-modes-and-deep-tail-range.md)/[完整接口](notes/2026-11-16-current-C-complete-M-native-and-frozen-field-interface.md)发布二十独立运行/读取源。准确C及全根族、全十词/DAG不变，固定F159重付有限M的显式有理扰动条件 $v_*\le1/2,\ \varepsilon_M\le1/64$；未付则保全部未起频率，不能沿用m≤224旧界。真实新深尾→全M联合Prüfer/完整新采样→$4M+2$冻结BVP，同原绝对钟且全$2M+2$双mean、$(3M+2)\times M$灵敏度、H/两组FD/fullDN/final/audit不减。父四系数块按新偏移保词，高模零仅初猜，fresh完整RHS；原f9b切线未冒195新实现。Saved/radial/shared真实动态M，source/readback/未访/90KB/quiet全显式；仅原193/joint203、R431/R441或自身实际接受父，未注册R448。证明/接口与来源维数改动已读、字节相合，无本地科学或实际M/父/run/收敛；M版后闭metric/reach/held及R447共同材料来源仍待独立接线与真场执行。
 
+[R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
