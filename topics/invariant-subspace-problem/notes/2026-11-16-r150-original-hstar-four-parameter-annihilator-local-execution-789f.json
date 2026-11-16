@@ -1,0 +1,116 @@
+{
+  "format": "r150-original-hstar-four-parameter-annihilator-local-execution-v1",
+  "executionId": "local-original-hstar-four-parameter-annihilator-audit-20261116",
+  "status": "completed",
+  "exitCode": 0,
+  "dateUTC": "2026-11-16",
+  "elapsedSeconds": 0.331693134001398,
+  "peakResidentKiB": 52296,
+  "binding": "246142572ba7e4af1df38b2f6e2f0bbb79db35250c4b7d1541464ae554a5249c",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-hstar-four-parameter-annihilator-audit-789f.py",
+    "blob": "87e4228c1e99f87b05ecdd3455d96533f0b8b8ba",
+    "bytes": 8007,
+    "sha256": "2524e0f8d0e6d34ca542377d8392551054d1db088bc3801ff19570df15e3ed40"
+  },
+  "helpers": [
+    {
+      "path": "notes/2026-11-16-r150-original-hstar-annihilator-tail-audit-789f.py",
+      "bytes": 9020,
+      "sha256": "daaf20b42f05718f5ffbcc570963e00fe46eed2f10216291c4f44f514ef7d1ab"
+    },
+    {
+      "path": "notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "bytes": 5002,
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    }
+  ],
+  "parentAudit": {
+    "binding": "e0c921f51077e07288410fc7c2bdc63adb0a3b27127f4f18cdc61fd1ac6af4f1",
+    "temporaryPath": "original-hstar-annihilator-tail-audit/result.json",
+    "bytes": 3225,
+    "sha256": "71959c05e881c578dfb01578cb995d2f7a422c16aed7e41ab66afc3cfa395a9d"
+  },
+  "completeOriginalInputs": {
+    "state": {
+      "bytes": 1470456,
+      "path": "global197-original-inputs/state.bin",
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    },
+    "recipe": {
+      "bytes": 33227,
+      "path": "root2-fourth-complete210-preparation/complete210-fourth-source-recipes.json.gz",
+      "sha256": "4c40ce9af0ad97eb38bf6e754e8f08ab106fa30028ab829fb1657c2a8dc607a2"
+    },
+    "D5": {
+      "bytes": 138587,
+      "path": "root2-fourth-complete210-p7/stages/L5-all208-paid-class-check/exact-class.json",
+      "sha256": "d00f76626a0a5d80ce9a826315562170d9d32bbc5a44ba6f00197a4bf7006705"
+    },
+    "parentResult": {
+      "bytes": 141288,
+      "path": "root2-fourth-complete210-p7/complete210-exact-result.json",
+      "sha256": "30d9c04e68e337e2ac5019e527e97e211104b1e9276ff7caf24619a804fde8b9"
+    }
+  },
+  "priorH25Inputs": [
+    {
+      "temporaryName": "original-product.json",
+      "bytes": 815,
+      "sha256": "25203923b41f758f7e7ada1c0d13e9d23adde710bbe5d3594f64a8780309582e",
+      "repositoryPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/continued__projector-free-original__projector-free-original-original-product.json"
+    },
+    {
+      "temporaryName": "original.recipe",
+      "bytes": 1468,
+      "sha256": "ffe0677a0d2cd14b1cae55fb8e8eb4b5074454e6a99b0def430b4b1fff3ae52a",
+      "repositoryPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/continued__inputs__projector-free-nine-original.recipe"
+    },
+    {
+      "temporaryName": "continuation-receipt.json",
+      "bytes": 11009,
+      "sha256": "55e7c11e136df8bacfb78db6ed50a575faa1c7f91a7c721d89322ef599935dde",
+      "repositoryPath": "topics/invariant-subspace-problem/notes/r150-projector-free-original17-mod29791-789f/continuation-results/projector-free-three-stage-continuation-receipt.json"
+    },
+    {
+      "temporaryName": "original-integer-h25-mod29791.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc",
+      "repositoryPath": "topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt"
+    }
+  ],
+  "runtime": {
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "pythonVersion": "3.12.14",
+    "pythonFlintVersion": "0.9.0",
+    "workingDirectory": "/tmp/literature_root2_789f",
+    "environment": {
+      "PYTHONPATH": "/tmp/literature_root2_789f/python-deps"
+    },
+    "arguments": [
+      "-u",
+      "scripts/2026-11-16-r150-original-hstar-four-parameter-annihilator-audit-789f.py",
+      "--work",
+      "work",
+      "--tail-source",
+      "scripts/2026-11-16-r150-original-hstar-annihilator-tail-audit-789f.py",
+      "--reader",
+      "scripts/2026-11-14-r150-torsion-characteristic-789f.py",
+      "--prior-h25",
+      "work/h25-ann-prior-inputs",
+      "--out",
+      "work/original-hstar-four-parameter-annihilator-audit/result.json"
+    ]
+  },
+  "outputIdentity": {
+    "temporaryPath": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original-hstar-four-parameter-annihilator-audit/result.json",
+    "bytes": 3083,
+    "sha256": "a295946aa1da9a28f09ad45697ca2b6a4e74f772e41683b1c56e073ed15e16c7"
+  },
+  "recordingNote": "The audit completed and returned exitCode 0 before the shared execution environment became unavailable. This identity was frozen afterwards from the already observed execution and byte hashes. No later source solve is claimed.",
+  "storagePolicy": {
+    "sourceParametersExecutionAndHashesOnly": true,
+    "mathematicalArraysAndOutputRemainTemporary": true,
+    "newOriginalSourceSolveOrIntegerProductExecuted": false
+  }
+}

@@ -8,18 +8,18 @@
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境或已有Actions secret，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 2026-11-16约07:20共享executor失效（transport disconnected/environment_offline）；旧tmp目前不可读，未伪称新执行。最后本地实际push=42478da8ffbe5865cf63c24938e8eb0395c0c3c8。按根规则8/13，小文本经GitHub准备，实际pull/rebase/push转已有workflow；bot先前403，现用已有secrets.MR_TOKEN（无明文）。恢复run43824697306已实际pull/rebase并push007f073e成功；后续逐条仍按真实run和pull回执，API准备不算pull/push。
-- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-complete-rank-three-pencil-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
+- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-hstar-four-scalar-test-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
 
 ## R150原rank-one：精确系数结果与接续
 
 - 原17梯度/6188→4367；全Q相对T维25、ann=h*=s³F+²F−²E8，九目标生成，h*W⊂L；全W已证member源费8391。rank-one Bell8/𝔫⁸只原归一rank-one/source moment≤18；唯一127扭子D/127/root63、九h*t有D127整源，不外推全W整费用。全部旧局部/无穷/源度链接保归档。
 - 原完整31谱C=D^298⊕tors，指数1²/2⁵/3²/4⁴/5²/6、长50；root1为1/2，root2为(1,4,2,4,2,1)。全210/30stage/1104.606秒；真315基秩16唯一e6=index12/30013，binding712f9b42，完整证明/执行链接保最新H归档。
 
-- **[原乘一个31后的完整ann](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)：** p=31、x=s−2、B=<h*tj>、M=<tj>。每j及全B有Ann(pB)=Ann(pbj)=(p4,px,x²)，故Ann(pM)=Ann(p[tj])=h*(p4,px,x²)。原h*分母5/h0分母2保；两条逐九独立socle线给精确一次判准。真carry/Nakayama得p³B=p⁴T、B高指数3,4,4,5；新p x²h*t来源费8515。实小审0.340秒/bindinge0c921f5；根11pins/2835乘回/逐九两socle独立全核。未乘p的ann只余完整T[p]16维（含root1）坐标，J/pJ最多18共同参数；lit续复用旧carry恢复x²bj与真socle作用，不冒T/pT的J16。
+- **[原乘一个31后的完整ann](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)：** p=31、x=s−2、B=<h*tj>、M=<tj>。每j及全B有Ann(pB)=Ann(pbj)=(p4,px,x²)，故Ann(pM)=Ann(p[tj])=h*(p4,px,x²)。原h*分母5/h0分母2保；两条逐九独立socle线给精确一次判准。真carry/Nakayama得p³B=p⁴T、B高指数3,4,4,5；新p x²h*t来源费8515。实小审0.340秒/bindinge0c921f5；根11pins/2835乘回/逐九两socle独立全核。未乘p后继已由原H0证书进一步压到四参数，见下条；不冒T/pT的J16为完整socle作用。
 - [原Q完整相对模块已闭](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)：五检测340340原源乘回给T0=(3,1,1)、全不变因子(s,s,h*)；原t2,t3,t4最少三生成，每j的sT循环且商(Q[s]/s)²。stream50.590秒/独立审11.051秒，根15逻辑矩阵/27动作全核；bindingf50f0594、前两137保留。整系数问题不从此有理分解推出。
 - 原源/log路径/tmp/literature_root2_789f、work=/workspace/scratch/789f3e887d7c/literature_root2_789f_work。旧父root2-fourth-complete210-p7及h0/hstar carry已付；executor恢复前不冒称tmp存活，不重210。已推源码/执行JSON用于恢复。
 
-- **待逐条推送（失效前已实际完成）：** x⁴原未乘p的ann/四参数完整检验，formal f4c4b2f9c6f4dcb0cb25db5fe5f4719d2d9bfcf2，source87e4228c1e99f87b05ecdd3455d96533f0b8b8ba，execution95672637d6ea47deeadc4ca23902f90e4bc11933；实0.331693秒/exit0/binding24614257。旧H0=x²h*真modp³来源使root1消失、x²B落七高socle，两个真块零与p³B=p⁴T给x⁴B=0。最后63×4共同kernel尚未算；旧cost87来源只从git历史取tmp，勿回填数据。
+- **[原未乘p的x⁴来源与完整四参数接口](results/R150-appendix-original-hstar-fourth-parameter-annihilator-and-complete-four-scalar-test.md)：** 原H0=x²h*的全17模p³证书使B_root1=0、x²B⊂p³T∩T[p]（真七维）；同指数4块为零与p³B=p⁴T/xp²B=0给x⁴B=0，原无p分母来源费8515。I在K=(p5,p²x,px²,x4)与J之间，I/K严格等于四轴(p4,px,x²,x³)到七socle×九目标的63×4共同核；前两独立，后两九组真读数未跑。实0.331693秒/binding24614257，根证明/源/身份已读。lit恢复最小8→7→3→1来源列及旧cost87 H0，不重全210；原历史数据只tmp。
 
 ## R150完整非rank-one：有限参数商
 
