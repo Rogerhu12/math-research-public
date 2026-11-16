@@ -1,0 +1,83 @@
+{
+  "format": "r150-original-matched-bell-local-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "executionKind": "actual-local-exec",
+  "githubActionsRunId": null,
+  "completedUTC": "2026-11-16T04:34:19.248237+00:00",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "blobSha": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+    "bytes": 16964,
+    "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "weightSix": true,
+    "prime": 127,
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "allOriginalMeanVariablesFree": true,
+    "allOriginalHankelVariablesFree": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/matched-bell-parameter-actual-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--weight-six"
+  ],
+  "toolIdentity": {
+    "startChunk": "eaa515",
+    "sessionId": 97938,
+    "finishChunk": "495c73"
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 4.414020731004712,
+  "binding": "ba1bdf0ccf6937579f2b38b51b0d19e8cfad0cfb2b25e152c3a62befbde87b9c",
+  "outputs": {
+    "receipt": {
+      "path": "original-matched-bell-full-parameter-receipt.json",
+      "bytes": 2789,
+      "sha256": "c37ab21681d4cb77a272aee345bbd36174cc0adea217c33a9c9ec100ce495ef2"
+    },
+    "model": {
+      "bytes": 504873,
+      "logicalBytes": 1850453,
+      "logicalSha256": "adab3268447f90c430c9d219fc988ddc8e54cb5f8697dd05fe6599a61166908d",
+      "path": "complete-original-matched-bell-parameter-model.json.gz",
+      "sha256": "7fe125c8cc6019c5e7c756cac3fb9265b9fcf817b1d2acea3f7580c2c5b024dc"
+    }
+  },
+  "coordinateIdentities": {
+    "sourceDictionarySha256": "b6b6ab7b9a39cdd59e5891a20c2b71bc372010bbe168f4bd41143e38c6506e28",
+    "outputDictionarySha256": "3adc598e09fffaeb80865b1c08c2f55a14e512b142dbb712c5f75ab7d947eedc",
+    "fieldSourceMatrixSha256": "431e2eef6bb7f34096e8630735138a87fa9f32596f816b43818c59e813fb1f73",
+    "fieldTargetsSha256": "011fe6453fa806949452c3008dd910609fcc0c1f877cc8e7a948c41f2d99f315"
+  },
+  "priorFailedAttempt": {
+    "sourceBlob": "f5c3d2d944c5592308611990e93516cde4b7932e",
+    "sourceSha256": "9cfb67569c7b8b4db38847035ceb4a559faa741fb0c15c6594136a373b74e56c",
+    "exitCode": 1,
+    "elapsedSeconds": 0.42121751199738355,
+    "receiptBytes": 582,
+    "receiptSha256": "a2ef0671171365ead0cf394e89bffde34021edca85b8275d68193d42f132756c",
+    "errorType": "TypeError",
+    "errorMessage": "Object of type fmpz is not JSON serializable",
+    "correction": "Exact FLINT exponent integers are converted to Python int only while serializing the complete model; a new source format, path, binding and output directory were used."
+  },
+  "storageScope": "Sources, parameters, execution identity and hashes only; no mathematical output arrays or cache payloads are committed."
+}

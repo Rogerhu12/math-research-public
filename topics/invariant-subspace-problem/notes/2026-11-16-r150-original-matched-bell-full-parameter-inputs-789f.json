@@ -1,0 +1,51 @@
+{
+  "format": "r150-original-matched-bell-full-parameter-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "blobSha": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+    "bytes": 16964,
+    "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "weightSix": true,
+    "prime": 127,
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "allOriginalMeanVariablesFree": true,
+    "allOriginalHankelVariablesFree": true
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/matched-bell-parameter-actual-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--weight-six"
+  ],
+  "historicalInputs": [],
+  "preservation": {
+    "onlySourcesParametersExecutionIdentityAndOutputHashesInRepository": true,
+    "noFullModelOrMatricesCommitted": true
+  },
+  "proofScope": {
+    "fieldRankNeverUsedAsPositiveRationalMembership": true,
+    "allWeightedSixSourcesRetained": true,
+    "allWeightedSixOutputRowsRetained": true,
+    "everyMatchedEmbeddingHandledByCharacteristicZeroFieldBaseChange": true
+  }
+}

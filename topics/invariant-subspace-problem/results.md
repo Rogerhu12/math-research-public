@@ -90,3 +90,5 @@
 - **R150原W±兼容三次与Cat3真临界正支（2026-11-16）：** [完整原参数与数域证明](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)保全部H/V物理交空间及十个T3系数；rankA3、Cat3开集的原兼容性恰为不同三次R±=0。两Q三次数域点原33梯度/36H/216V与Cat3/ess3全部实核，故全Cat minor根式目标过强；两点及该支仍属已付Bell零范围。后续逐匹配B_r非零饱和、essT3≥4，不以三个Bell乘积替代至少一者非零。参数1.148秒/点0.409秒，完整source与执行SHA保留。
 
 - **R271原连续塔的真实中段指数障碍（2026-11-16）：** [完整复边际证明](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)对原b_i=(i+1)^−2及任意相容至x的复真空塔，给max{σ_k²||v_k||²,σ_x²||v_x||²}≥¼e^(x/12800)，k=floor(x/48)、x≥64。所有primitive与自由首列均保；两层都低于已付高段J*。条件化pair负相关经hole cylinder给真Chernoff，均匀删除与复TV给指数障碍；故公共塔固定多项式预算不可行。未给实际a能量下界，未反actual-u/W；后继保全部头源/零源的完整Schur。
+
+- **R150完整原Bell平方非成员与六图（2026-11-16）：** [全参数证明](results/R150-appendix-complete-matched-bell-coefficient-charts-and-natural-square-nonmembership.md)保六mean及十一H，全部17原梯度与512 J3逆、加权Euler真；Bell对H的11×6系数rank6，原行2/1/0/3/4/5给覆盖所有B_r≠0的六图。完整加权6的3520×388来源模127满列rank388，加入自然平方三个有理分量rank391，列数上界使其严格升Q并给每匹配嵌入B_r²∉J；正权齐次投影排任意高来源绕过。实际4.414秒、raw2789·c37ab216，完整三次数域/来源保持。仅排幂2，未排√J或更高幂；剩essT3≥4，全局双线性Bell坐标继续。
