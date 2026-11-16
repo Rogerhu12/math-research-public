@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：aac7107299507d3dc6de93a1f88cf53c6ae6594c**（2026-11-16T01:08:13.567848+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R846前完整H](handoff-archive-2026-11-16-before-R846-certified.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：c027fe382df6c12592152dc0ce8917fbde15c49e**（2026-11-16T01:14:17.190711+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R846前完整H](handoff-archive-2026-11-16-before-R846-certified.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -39,6 +39,8 @@ R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，�
 
 **全局五加法极理想**：[GP.7/15](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5已证原反对角三射影minor、曲线DVR立方与φ平坦下降，覆盖O/O、二挠、分歧重数；原global y的U.1已登记。原W/χ可分微分与C_j/C0给同一函数，η负理想类号和三同源正乘R_j保留。
 纯IO已补全原R806全W34组（45源112.45MB/fp ec8bbabb）、R809六C12组（26源132.56MB/fp c69cdd88）、R7871234 real行/原chart（1242源175.52MB/fp83472aab，复用697件）与R781载体，actual摘要在/dev/shm/serre-original-global-pole-DAG-draft/source-IO。agent exact_height在独占目录装配原全局函数/五理想DAG；690行、五fiber或CM值不能代全局叶，未称η零/规范代表/高度。
+
+[全局表达式执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4冻结八组真源；原κ000、完整F1234/W34/C12与S51234、按需2420/S5/Krylov单位解、一次全局导数和五组三minor/真Norm。R845八生成元是原完整单位解数学叶，保全部refs，不拿模kernel当Q系数；只产准确组合DAG，未物化理想格/标准Jacobian代表/刚性化/高度。
 
 **短CM候选A.1**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)全过仍不代A0−qB0=0。[无逆清转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec与[源契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a已证：Frobenius整数J/正κ幂，128×20及140补集成Θ2560方阵；复用旧14支A/Schur/inverse_clear，新RHS从1位起，严格RR及准确全乘回才由d(A0−qB0)=−Δ接受。旧518不是新dual精度，无速度/高度保证。ordinary_local在独占稿取真实14支202.5MB/原F1234，不重旧逆/大current，无dual接受结果。
 

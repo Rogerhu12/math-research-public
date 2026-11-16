@@ -132,3 +132,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原全局三射影子式极理想公式已证**：[GP.7/15与源契约](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5：I_E(P+Q)=I_EP³I_EQ³((xP−xQ)³,(yP+yQ)³,(xP yQ+xQ yP)³)。原始平面坐标的反对角概形理想、DVR立方与φ平坦下降保O/O、二挠及分歧全部重数；无需R804支撑饱和。原global y直接用已成U.1，原W/χ可分微分与C_j/C0给五原同比函数；η负理想类号及三同源正乘R_j均保留。三份纯IO已补全原1234 real行、R806全W34组与R809六C12组，正装配全局DAG；690行/五fiber/CM点值不能代全局叶；未称η类零/规范代表/高度。
 
 **全p中央二标签窗口已证**：[原二标签](notes/2026-11-16-sigma-two-central-primitive-Legendre-labels.md)9560403b：p=12k+5≥41，h−=(p−3)/2、h+=(p+9)/2均自动primitive；原R734六步递推在d=(p−5)/2给U5=27x/8，若P_d(x)=0则P_(d+6)(x)=(12x/7)P_(d−1)(x)≠0。故两个原Legendre范数不全零，未证明同h的f_(k−1)g_k或f_k g_(k−1)与之同时单位；仅充分窗口，未替代全部标签或p11mod12。
+
+[全局表达式执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4冻结八组真源；原κ000、完整F1234/W34/C12与S51234、按需2420/S5/Krylov单位解、一次全局导数和五组三minor/真Norm。R845八生成元是原完整单位解数学叶，保全部refs，不拿模kernel当Q系数；只产准确组合DAG，未物化理想格/标准Jacobian代表/刚性化/高度。
