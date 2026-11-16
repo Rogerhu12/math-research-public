@@ -330,3 +330,112 @@ sigma–椭圆函数域，并对原 $\overline{\mathbf Q}(\sigma,x,y)$ 代数。
 - [R812](../results/R812-original-same-charge-cancellation-and-complete-source-budget.md)：原倍点完整运输、固定来源格与主预算的区别。
 
 本篇不包含改变目标 $p$ 处 Schwartz、改变全局 Hecke 角色、未作 (2) 的原物理平移、任意正多项式乘子，或无限伸缩极限。那些操作若要传播原中央，仍须给各自的实际完整来源和整 germ。
+
+
+## 附录 A. 单辅助处的真实张成、最小覆盖与中央差分
+
+固定一个 split 辅助素数 $\ell$，$(\alpha)=\mathfrak l$，
+$\kappa=\alpha/\bar\alpha$，且 $r\ge0$ 是与目标 $p$ 无关的整数。
+记 $\tau_\kappa F(z)=F(\kappa z)$。下列结论均使用正文同一实际来源，不改变角色。
+
+### A.1 真线性独立
+
+对非零的原正 degree theta 截面 $F$，
+$$
+F,\ \tau_\kappa F,\ \ldots,\ \tau_\kappa^rF
+\quad\text{在 }\overline{\mathbf Q}\text{ 上线性独立}.
+\tag{A1}
+$$
+正 degree theta 的非平凡准周期含一个非恒定的指数因子，所以非零 $F$ 不可能是多项式：若为多项式，$F(z+\Omega)/F(z)$ 为有理函数，与那个指数因子矛盾。因此 $F=\sum_n f_nz^n$ 有无穷多个非零 $f_n$。
+
+若 $\sum_{k=0}^r c_kF(\kappa^kz)=0$，则多项式
+$P(T)=\sum_{k=0}^r c_kT^k$ 在每个 $f_n\ne0$ 的 $\kappa^n$ 上为零。
+由于 $v_{\mathfrak l}(\kappa)=1$，$\kappa$ 不是单位根，这些点互不相同。
+故 $P=0$，证明 (A1)。只出现在 $6\mid n$ 上不影响此论证。
+正文球的非零常数 $C_\ell^k$ 也不影响独立性。
+
+### A.2 单一 CM isogeny 覆盖的最小次数
+
+若用一个 $z=\beta w$ 的整 CM isogeny 覆盖，同时把 (A1) 的全部观察写成原椭圆曲线的整自同态拉回，必须有
+$$
+\beta\in\mathcal O_K\setminus\{0\},\qquad
+\beta\kappa^k\in\mathcal O_K\quad(0\le k\le r).
+$$
+两处分歧无关的普通赋值给
+$$
+v_{\mathfrak l}(\beta)\ge0,\qquad
+v_{\bar{\mathfrak l}}(\beta)\ge r.
+$$
+因此
+$$
+\boxed{\operatorname{N}\beta\ge\ell^r.}
+\tag{A2}
+$$
+取 $\beta=\bar\alpha^r$ 达到下界。原 degree $m$ 的拉回线丛 degree 因而至少为
+$$
+\boxed{m\ell^r.}
+\tag{A3}
+$$
+若采用正文的共同二倍 cover 消 flat 半特征，其次数另乘 $4$。
+(A2) 是这种单一整 CM isogeny cover 类中的精确最小值，不声称排除其它尚未构造的代数返回或特定来源因子抵消。
+
+### A.3 差分准确乘子；不删除原裸系数分母
+
+在惰性处 $d=p+1$，置 $b=\kappa^d=1+pq_\kappa$。对所有 $h\ge1$，
+$$
+\boxed{
+[z^{hd}](\tau_\kappa-1)^rF
+=(b^h-1)^r[z^{hd}]F.
+}
+\tag{A4}
+$$
+实际乘数满足
+$$
+(b^h-1)^r\in p^r\mathcal O,\qquad
+\boxed{\frac{(b^h-1)^r}{p^r}\equiv(hq_\kappa)^r\pmod p.}
+\tag{A5}
+$$
+(A5) 是乘数的整性。它不声称高 $h$ 的原裸 $[z^{hd}]F$ 已整。
+
+可直接给一套由正文已付原格导出的整行。令
+$A_h=[z^{hd}]F$、$\Gamma_j=(js-1)!g_j\in\mathcal O$，则
+$F_0=e^{\alpha X}G_0$、$g_0=0$ 准确给
+$$
+\begin{aligned}
+\mathcal R_h(F)
+&:=p^{h-1}(hs-1)!\,A_h\\
+&=\sum_{j=1}^h p^{j-1}a^{h-j}
+ \frac{(hs-1)!}{(js-1)!(h-j)!}\,\Gamma_j\in\mathcal O .
+\end{aligned}
+\tag{A6}
+$$
+括号整性正是正文(22a)已证的连续积整除。于是 (A4)–(A5) 在这套真实整行上给
+$$
+\boxed{
+p^{-r}\mathcal R_h((\tau_\kappa-1)^rF)
+\equiv(hq_\kappa)^r\mathcal R_h(F)\pmod p.
+}
+\tag{A7}
+$$
+也可在任何其它已付整归一的同一行上使用 (A5)。
+当 $h=1$ 时，$(s-1)!$ 是单位且 $A_1=g_1$ 整，故原首零质量行可直接约化。
+没有给 $q_\kappa$ 赋单位，也没有把 $p^{-r}(\tau_\kappa-1)^rF$ 当作固定的全局整来源。
+
+对于非中央指标 $6n$，准确乘数是
+$(\kappa^{6n}-1)^r$；它一般不含 $p^r$。因此 (A7) 只支付这些指定中央行，
+不能变成整个 jet 前缀的统一增益。
+
+最后，整个 inert germ 仍为
+$$
+J_{(\tau_\kappa-1)^rF,p}(u)
+=(b^u-1)^rJ_{F,p}(u).
+\tag{A8}
+$$
+普通处将 $b^u$ 换成正文的
+$\langle\kappa\rangle^{d_pu}$。原中央双零会给此差分来源更高零阶；
+这是同一个原 germ 的精确乘法，未增加独立中央。
+更直接地，$J_{F,p}(0)=0$ 已使每个 $r\ge1$ 的差分来源满足
+$J'_{(\tau_\kappa-1)^rF,p}(0)=0$，并不需要先假设 $J'_{F,p}(0)=0$。
+这是实际新增局部因子的零；其乘数在中央为零，不能反向套用原 primitive 局部单位条件。
+若研究其全旗标，必须同时保留 (A1) 的 $r+1$ 真列、(A2)–(A3) 的覆盖、
+(A6) 的原分母以及全部非中央行，不能只计 (A5)。

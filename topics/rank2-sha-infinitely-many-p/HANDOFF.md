@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：5fde8188b595498cf3ecf73374c718925bc31cfd；2026-11-16 03:49:42 UTC核两README无变。实际CI pull 2026-11-16 03:31:32 UTC/b16923509deae4d293a0ffe4c9c0e71b89081976（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:49:42 UTC仍无环境。最迟2026-11-16 04:15 UTC再实际pull。
+- 最近已读规则提交：8dfe5272b6d4f4fb752c8962689b22a95c61f78a；2026-11-16 03:50:38 UTC核两README无变。实际CI pull 2026-11-16 03:31:32 UTC/b16923509deae4d293a0ffe4c9c0e71b89081976（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:49:42 UTC仍无环境。最迟2026-11-16 04:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -35,7 +35,7 @@ S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全S
 
 [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
 
-[同角色整germ](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：紧角色投影后完整Schwartz闭包=ΣaκF(κz)，Normκ1；普通/惰性完整JΦ=QΦJ，零质量仅读Σaκ·j。inert保b=κ^(p+1)=1+pq与exp(aqX)，原Γh=(hs−1)!gh有全h整三角运输/整逆；不把h!gh自行认整。固定覆盖不添第五独立中央或免费carrier，续真实全旗标/四原来源。
+[同角色整germ](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：紧角色投影后完整Schwartz闭包=ΣaκF(κz)，Normκ1；普通/惰性完整JΦ=QΦJ，零质量仅读Σaκ·j。inert保b=κ^(p+1)=1+pq与exp(aqX)，原Γh=(hs−1)!gh有全h整三角运输/整逆；不把h!gh自行认整。附录A付r+1真独立及最小cover ℓ^r；真实整行R_h=p^(h−1)(hs−1)!A_h才可读差分p^r，非中央无增益。差分j′无条件零来自局部因子，未增primitive中央/免费carrier。
 
 ## 同R、三真长窗和指定总类
 

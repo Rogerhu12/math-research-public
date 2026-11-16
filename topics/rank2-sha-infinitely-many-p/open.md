@@ -130,3 +130,6 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 - [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
 
 续四固定Rν在完整双变量模p²递推中的共同相容性；原横向c_p单位不单独迫指定B非零，不能把新算子当第五中央或扩大原列格。
+
+
+同角色闭包的真实覆盖/整差分已见[2026-11-16-original-same-character-schwartz-and-central-germ.md](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)附录A：同note附录A：r+1个F(κ^kz)真线性独立，单整CM共同cover最小Normβ=ℓ^r、degree=mℓ^r；中央差分乘数含p^r，但全非中央jet无此增益。原整行R_h=p^(h−1)(hs−1)![z^{h(p+1)}]F逐式付清，除p^r后只读(hqκ)^rR_h，qκ未预赋单位。零质量已使r≥1差分的中央导数无条件零，是局部因子零，不增原primitive中央。 继续原四primitive来源，不能把局部因子零当新算术中央失败。
