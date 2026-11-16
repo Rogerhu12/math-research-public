@@ -154,7 +154,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **R906原整Tate像已证**：[完整证明](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)。原fine Cartan/level6源在σ=τ^(e/2)下的period lattice固定；原正CM实际残余指数皆奇，σ−1在实际q(TpJ)整可逆。由原Raynaud整序列得qTpJ=qB TpB，逐h及原清分母p-index全部保留，未换optimal商。高分歧e=p²−1不满足Mazur–Raynaud小分歧cotangent条件，故Hodge饱和/原CM normal-content与指定第五jet仍待实际finite-flat比较。
 
 
-**R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。[执行六件](notes/R905-original-trace-dual-connection-consumer-method.md)已全文读并按六实际source激活：cored0810c29/helperced5b652/wrapperff7ff5f1，完整544×670/真rank543尚待计算；原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
+**R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。[执行六件](notes/R905-original-trace-dual-connection-consumer-method.md)已全文读并按六实际source激活：cored0810c29/helperced5b652/wrapperff7ff5f1，完整544×670/真rank543尚待计算；首run43892405424运输artifact名校验失败且未入核，已[仅改实物名](notes/R905-first-run-source-transport-correction.md)重派，全部数学文件原样；原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
 
 
 **R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。实际request已一次填R900/R902及35个原终证/418/主函数来源并激活；R902必要小件carrier仅运输原字节，其余原空间直接Range取。计划SHA7d5300ec和零完成计数作为不可变定义保留，未改写原计划或重复旧flip。
