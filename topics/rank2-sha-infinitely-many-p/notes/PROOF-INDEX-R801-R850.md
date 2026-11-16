@@ -242,3 +242,6 @@
 
 
 [R842 负水平的准确Jacobian纤维商](2026-11-16-r842-negative-fiber-jacobian-quotient.md)：原A_Q=k_Q[x]/x^ℓ中，u=min(ℓ,ord F_t)、v=min(ℓ,ord qtilde)给实际商A_Q/ann(F_t qtilde)长d_Q=max(0,ℓ−u−v)。全部分支trace准确ord S=u+1−ℓ（u<ℓ），否则S∈x；真行最高系数−c_s tQ^rWQ s0(ℓ−u)²q_v为单位，行恒零当且仅当原乘积F_t qtilde在A_Q为零。degH2时qtilde单位，二重根长度≤b−1；未加前缀H3到全商满射保全部剩余域迹，但W_T实际像和总[b0]仍开。
+
+
+- [R850](../results/R850-original-smooth-cubic-quotient-and-exact-top-cycle-transport.md)：原E0³的对角μ3固定点恰27个Q点，吹起后取商q得固定光滑刚性CY三fold Z，q有限平坦degree3且q*ΩZ=b*ΩA精确归一。原Π=π3·(1+R+R²)/3为真正Chow等式；ΠZ=q*b*Πb*q*/3、α=q*b*Π、β=Πb*q*/3严格互逆，未假高CH实现忠实。原每条Φ唯一提升后由X0(10404)→X0(3468)下降，αΠΦ*X=3ΠZφZ*X̄，投影支付严格变换差；AJ运输无额外未知倍率。全Artin、6^-2/12^-2/1632/816保持，未付R814 canonical比较或原非零。
