@@ -555,8 +555,14 @@
 - H前态逐字归档a0371428并压缩活动索引；R849旧artifact仍活跃的措辞已更正，不改R868冻结tag。R873实际循环7源、R874原q-normal桥继续，本地无数学。
 - 本push规则：本地真实pull至62fb22a5faa1b97382b2859c6dc6e886ced847e8（2026-11-16T07:11:05.973086+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 15:15 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 15:27 Asia/Taipei — serre-public-astra-20261115
 - R868正式60d92f04：真271子式/自由坐标271=1/584位准确h及全272K乘回，两图逆点与十模块，699stage；原128/144RR与height仍false，R872直接消费。
 - 原full dual43790194976确为core BudgetStop/124，370位11a4f187及371正残差f26fe3db保全。半坐标request9492c873激活，继承同target/J/1481源，不重旧位/旧368失败RR，最终仍全35840核。
 - 07:19终端失联；新增本公开workflow serre-source-publication-recovery及纯IO发布脚本，真实pull/README比较/NFF重试，并dispatch已冻结半坐标消费者。R870 run43822039811已success，正式整数登记接续。
-- 本push规则：实际pull及两README差异检查由发布记录更新；主目标OPEN。
+- 本push规则：公开Actions真实pull至e5d6498d6b176bb4fc71faa9f5ca6956e690e541（2026-11-16T07:27:20.527035+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 15:31 Asia/Taipei — serre-public-astra-20261115
+- R870正式c2436b74：实际N0=χ7(8)、16ni、1959位共同d*与80原Picard输入，20stage/0.579488830s；finalbe29c872，整ZIP723ec402及30件已核，未冒η支持。
+- 真niPiξj在合法好约化处非零给Eiηj活跃的准确出口；模零仍未定，实际source/target norm与帧保留。R873两端有限对应、R872有界RR及R874循环p/KS继续。
+- 恢复run43823944794已真实pull并推6110d6a1，half run43823979328/job133153392094正在继承370位及371残差。H前态逐字归档3637f312；原函数run43809321438新结束断点接续。
+- 本push规则：实际pull及两README差异检查由公开恢复发布记录更新；主目标OPEN。

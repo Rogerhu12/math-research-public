@@ -424,3 +424,7 @@
 ## R472｜二三阶真实前缀复位与必须保留的桥内 ruling
 
 [R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)（29452B；SHA256 `34ae8e05134c9439101fe8917de7d28a6f608d4f08547f3ec60936f839dca476`）。完整第三可达类扩到任意A：Tend−A²/2+W；修正类Θ=T+A²/2给所有相容前缀门，R70+完整W实际控制可同时归一A/T。任意同常端模板G有真实B使GB整A=T0，有限P^qG保护芽共享整个真实incoming；条件R468/R467统一支付全新增V、全period及这些相同同向芽。原内部ruling与重复号二次式完整保平方/第三history；整复位不付块内零。λ+(VP)=∫k²=L+∫(h′/h)²>0、真倒行同号，八矩迫∫kh(ω−ωc)=∫k²，故返回桥必经新非恒ω段；不能删成中性连接。全段仍同一13核/原平台累计，无新自由规范。全文纸证0执行，根读原式，不宣主完成。
+
+## R473｜固定端三矩的真实 cap 复余量开稠密非零
+
+[R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)（11826B；SHA256 `4984485875c67deeecce4eeee7db1f82d9bb563da443108e6880ed7733bce038`）。真实紧支f保持末端三矩和两端germ；用偶阶梯mollify后二次积分造∫(φ″)^5>0。完整原式给E_z(fε‴)=−3(c+z)^7 ε^−9 M5/80+O(ε^−8)，固定有限ε后小λ保持q/Af正。余量沿λ是真非零五次多项式，非零相对开稠密、沿线至多5例外；没有把复被积函数判正。未断言冻结cap非零或例外集空，未授原q4/共同DE/F★/20目标兼容。全文纸证0执行；根读构造/选参次序，继续真实例外集及完整五门。

@@ -459,3 +459,13 @@
 ## 2026-11-16 06:57 UTC /root — R494当前C原product变分省零调用
 
 **R494：当前C原product变分的真实省零调用；无新科学执行。** [证明](results/R494-current-C-captured-product-zero-eliding-linear-source.md)18109B/62c241e2、[接口](notes/2026-11-16-current-C-captured-product-zero-eliding-linear-interface.md)20961B/60848e64与caller12857B/eafb4117本次刊。205/214/216三层实际fae2/fb951→f9b→205b captured-product，原已批量Fourier矩/一次分解全列回代；R466/R471不同trace对象不直接迁入。新caller仅真实linear调用原eb487 helper：有限输入省零、否则原全loop，原root/RHS/product/RK/cusp/双mean/全部维数与门保。新runtime receipt分别记新工厂与原已加载f9b，跨两槽cache所有engine累计九计数和当前未返范围，不冒全J、整run同词或速度。三层worker/client/config/driver及union CP硬pin尚未接，R496/request218继续真实来源组合；当前源码不修复205此前inverse工作停止、不添资格/全解析门。 open中R487/216重复链289f89c3全文，§4–6逐字保。
+
+
+## 2026-11-16 07:08 UTC /root — R469实际209终态与全部未起后缀
+
+**R469实际209：完整C/112 far已返，首点采样工作停止，后15角色未起。** [完整记录](results/R469-request209-complete-far-physical-point-resource-stop-and-unstarted-refinement.md)26460B/f56166e5，run43805615033/sourcecfd63e66，compute133095582437/report133141870659均终态failure，两日志各唯一读取。C1440/six/完整闭query与cut三盒、deep112/finitefar112/joint nominal112齐；固定十词域10669终端未决/13未访，不添BVP门。原depth24/32bits/1M下实际linear2044754units/4677.433387661s，point1M/270.6135328909995s仅3unique point、499929coarse叶（总499931）、0field，真实WorkStop工作上限，非时间/磁盘或数学拒。旧19878/80c2 selector漏8项point/stack，未返回半径/role/完整pending不借别run补。两个BVP、first closed/held及后15精化/测量/display角色全未起；245+15生成成功不冒数学成功。8必要scope全返，各<90K，两job6正文相同；step29重新quiet后真实raw_removed，无上传，已删缺失不恢复。212/214/216原浅逆实验继续，不预言接受。 H当前todo与open§2旧重复链f863b71c全文；open§4–6逐字保。
+
+
+## 2026-11-16 07:26:00 UTC /root — R493当前H响应投影与原fullDN合同
+
+[R493](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)27709/115e78be明确每真实H独立完整evaluate/R273→128 owner/replay/四组件，577×224节点/576×226输出/338×112混合J和两mean贡献全保；显式调用覆盖旧correction hook遗漏，不沿旧378覆盖J。13scalar须实际128 raw/hex再整数ties-to-even一次64投影，保负零/subnormal/overflow及owner与TailClient各自原严格容差；qstr/64均值重组不冒该合同。原FD/fullDN/RMS/BC/final fresh J+audit/cut/material门保，91尾初猜不是完整prefix父，新live源/入口与实际结果继续，不能套216钟或添加全解析门。

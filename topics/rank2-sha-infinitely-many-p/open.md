@@ -175,3 +175,17 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 [R861](results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：R856真实C_H=(p+1)binom(3s−1,2s−1)b^s给pcσ≡−C_H，故Gaussian可整重标为a*=−34C_H；原矩阵固定b=1，g/AΦ/a/Rcal同步后M逐列不变且H_p/hΘ/B保留。完整Λ0(a*)M/p准确读取同whole degree34Q列的D_(p,79)、D_(p,p+80)、D_(p,2p+81)，另保仅charge40/41/42的阶乘商低项；三系数末项−1/(a*³81!)unit。所有c*U0/P134、真实首Hasse项、同P/R/S和g2 J_(p−1)热项保留，不添中央零或判非零。
 
 续同一实际高前缀/normal/中央约束下的指定三D组合；不因a*规范、末单位系数或全格Frobenius关系而省掉真正除p商。
+
+- [R862](results/R862-original-seventeen-torsion-product-and-complete-cubic-hom-matrix.md)：原E0[17]满C288及完整η角色给指定16项乘积h，K(h)=H9、h³生成K(∛17)、范数−2^96/17；固定扭曲与真实Λ(含2处)付GL原projector=3Id、三条准Hom矩阵和实际首系数hL。清整数分母后原(F,a q0,b q2) cusp阶准确(1,1,4)，Schoen极6/三商后2；未算原非零shadow或认canonical。
+
+续同一原有限Hom的完整函数域坐标和R859原交点。准同态整数分母、原Artin线性组合与全部闭点重数必须保留；首系数非零或局部极阶不替原总循环/AJ非零。
+
+- [R863](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Witt交叉多项式扣cD^p后准确含D·N²，完整Q的奇N项不能删除；四原源中cD^p确被whole质量零消掉。原三差逐项等于所有真实法向伙伴V_r的指定低jet和，r2完整保Ξ/σ(2z)²L，r3有含连接的显示多项式及σ(2z)Ltilde。法向Frobenius递推完整保前缀，首尾单位和伙伴非零不替四原B共同非零。
+
+续(17)的同一全法向链；其奇项与所有高端都保留，任何异方向theta等距重指标必须先回原四来源。
+
+- [R864](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：公开Actions精确求得原h九次式及t=h³，缩放v=t/2^32满足v³+367395v²+147v+1/17=0，明确同K(∛17)坐标。定向[−1+2ω]有理映射给原τ和ℓ的完整三次基表，严格在分点商环核等式及Normℓ=−1−19ω；全部Hom输入固定，仍待原全局坐标/非零shadow。producer/run43822409558/hash齐，不保存重算输出。
+
+- [R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
+
+原实际quartic k>13的首位此行恒零，继续同P/R/S的第二和第三native页，不把参考g0漏项或首行零当全余类结论。

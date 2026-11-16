@@ -1,68 +1,47 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0726-R868-half370",
+  "request_id": "20261116-0731-R870-certified",
   "source_branch": "serre-public-recovery-20261116",
-  "base_commit": "dc525957e24819ddf88dd5f6c9284bc4479bfd88",
-  "rules_last_read_commit": "dc525957e24819ddf88dd5f6c9284bc4479bfd88",
+  "base_commit": "49f8e8cabc576b601ce405c9bc50c1230ded1a7e",
+  "rules_last_read_commit": "e5d6498d6b176bb4fc71faa9f5ca6956e690e541",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": null,
-  "commit_message": "serre: certify original P0 and recover half-dual continuation through Actions",
+  "expected_previous_request_sha256": "006b91f90cc1f13d761c068c888d80dc988ef34ff70bf7983a88efbb92568c33",
+  "commit_message": "serre: certify original Y torsion integers and finite Picard support inputs",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md",
-      "sha256": "60d92f045cc864fb8b0ac52645b89760a079b7ddfc7bd1e2de5c23abd1500c54",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-Hecke-integers.md",
+      "sha256": "3637f312fac31b2bdde618b8ded4938838080ddb89dbfdd8dfd4689b2d6f04fc",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R787-full-dual-370-ended-and-half-coordinate-activation.md",
-      "sha256": "8cd6eb5a9d8e51d6fb6ac27b25572722a6b0dc8afd331dfa83ec373e29545a43",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
-      "sha256": "9492c873fb11d5043c9479a662b7a25208f26d84f40bdb8e481b5e808c3c426b",
+      "path": "topics/serre-uniformity/results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md",
+      "sha256": "c2436b7443c13ef1f66870f7a14b8eb7b8cd6836eda15b0e6c6b7e5fc8e38c35",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "8debf361ffcdfc66bba88d0d6aaf417f660160e8ec7a5bc416f916e3941490ce",
-      "expected_previous_sha256": "581ed672cae39894bcefed4a0232752842e3401308bf649be55b6e00a7fe1c1c"
+      "sha256": "61986b19e49ea82ea8761317669143f0285bd8a8c029ec8223fd73b3a71a67e1",
+      "expected_previous_sha256": "3637f312fac31b2bdde618b8ded4938838080ddb89dbfdd8dfd4689b2d6f04fc"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "30d42a801bd511765b8bc4d8701c78b8087e1f905560c86cd8e2f6421a4ae884",
-      "expected_previous_sha256": "8de963fe516394c4b645ab7369f96bfbe7fdce435f873f8a7b1d3b8653fb3c65"
+      "sha256": "0a203e8ec118bba98c84fefbba90f6e724e17b1b35d6b430b473911bc150576c",
+      "expected_previous_sha256": "30d42a801bd511765b8bc4d8701c78b8087e1f905560c86cd8e2f6421a4ae884"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "995d7384e859dcc026a54bb65b566fa413774a49e4e6b1f51b8bea802a1b2763",
-      "expected_previous_sha256": "f0aea31342059a3eb6f1c026cd5dc63ef5f124e3c597b10ee407a0350308168e"
+      "sha256": "8ed1ba1171202a147d970a08fedfcdbf09ab962e4f91e6cabc455f8a2e55b637",
+      "expected_previous_sha256": "995d7384e859dcc026a54bb65b566fa413774a49e4e6b1f51b8bea802a1b2763"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "db62312399cb3c376035bf113f01617a5c57637dc69692bf2794716ac65ead0f",
-      "expected_previous_sha256": "a58331676804cb124279f687e6c19de62142a8431f1b98f1fdd7465d4d7b116a"
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
-      "sha256": "f17ab11b3659dbaec04bbbc9b45e7c11c86e6f05aae54dab6be24518990e1aeb",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-source-publication-recovery.yml",
-      "sha256": "46d83df4638e8be2a906ae8e5ed930728e60c8dd00ee232d12e7eed721cada72",
-      "expected_previous_sha256": null
+      "sha256": "46d123f48f3015f29ce044fc64bfe4626ad5228349d4e847ce15d094d0557747",
+      "expected_previous_sha256": "31467d2e2f8599b455548ea0039a10c43299e71e30c69ed14fc564e640fc2556"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R787-half-coordinate-dual-CM-value.yml",
-      "request_path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
-      "request_sha256": "9492c873fb11d5043c9479a662b7a25208f26d84f40bdb8e481b5e808c3c426b"
-    }
-  ]
+  "dispatch_workflows": []
 }
