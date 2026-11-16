@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不以阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7fb1882050e3470f7ddfa0d61faed5e1d9735f1a**（2026-11-16T18:08:36.333933+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
+**已读规则提交：b77de2c73aa4565ab4f3c09f1884b455b6b3d4f5**（2026-11-16T18:12:53.476611+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端失联，恢复workflow实际partial/sparse pull发布。
 
@@ -38,7 +38,7 @@ R914原146反射/273 P1jets已成，ρ1=ι*ρ0/c1=−c0/原t帧保留。R917两�
 
 R919九δP/全八维微分迹/272正常像、R922共享R的4系数/全RG=Mg/127²零块、R926七d/y与277×272全式、R928新8δK/商法则/目标g,h与两2176维J式均实际完成；原run/SHA/全来源逐字在本次前H。V=K/P_U，δ先于约化，ℓ_t全E单位且J不求逆。[R930实际认证](results/R930-certified-original-seven-whole-Artin-target-connections-and-differential-traces.md)：43921420577/280f1840，277stage/10.262631072s；七d(U)全E单位、t0，七2176值及三种272迹全通过。FINAL13793936/288manifest1261b9cf/art14254752421，85旧件直接复用；αDN仍须−dlogQN后Gal7，σ/cY/五Picard/height未成。
 
-R927完整[原纸证](results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md)保八次Norm content=μ/两端同λ0..16/全16列双向证书/NmΦ真实叶首项，参考全target-P0块和补块保幂零/254极阶/U272/两t/dual7。原43922183082/e56cbda0核心19stage已成；修IO后43923552968/4b005ba1真success，只复用原19stage/FINAL09de0ae8/core05a10f65，core_reexecuted=false。新art14253699467/ZIPbf9aada6；两端λ0=1，原辅助素点P0块2+6/Normρ序−508，P1块0+8/序0；正式证书整理，五目标未成。
+[R927参考实际认证](results/R927-certified-original-reference-two-endpoint-norm-frames.md)：原43922183082/e56cbda0核心19stage；修IO后43923552968/4b005ba1真success，仅复用原FINAL09de0ae8/core05a10f65，core_reexecuted=false。两端同λ0=1、原辅助素点块2+6/0+8，Normρ阶−508/0、LC155035654/728442038，原t首项466867763/728442038、比315436983。全8维/九坐标/64反向式/254极阶/U272/两t/dual7保真；新35manifest08edf041/art14253699467，v29b必要IO已读。模content不冒char0新阶；五目标从R907真实铅笔继续，参考19stage不重。
 
 五Lj128/144已成；YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary仅合法好约化niPiξj非零时判支持。
 
