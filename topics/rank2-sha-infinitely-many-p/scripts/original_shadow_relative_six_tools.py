@@ -7,8 +7,8 @@ No candidate local ODE solution is treated as a map.  No basis, divisor, or
 recomputable point table is written to the repository or to a release.
 
 The source is the normalization of degree 288 over k(t_eta), equivalently the
-original relative degree-six Y=X_0(3468)->X_0(867).  All nine original pairs are retained via six full divisors and the proved
-whole W symmetry.  All cusps, common intersections, and residue degrees remain.
+original relative degree-six Y=X_0(3468)->X_0(867).  All nine original pairs are retained via four full divisors and the proved
+whole W and constant-reflection identities.  All cusps, common intersections, and residue degrees remain.
 """
 import os
 if (os.environ.get("GITHUB_ACTIONS") != "true" or
@@ -265,6 +265,7 @@ def fixed_artin_constants(maps):
     assert len(theta_roots)==2
     theta=sorted(theta_roots,key=lambda z:tuple(ff_coordinates(z)))[0]
     assert theta**6==k(17)
+    assert theta**r==-theta
     alpha=-1+2*omega
     def ell(v):
         return ((21905009-23122022*omega)
@@ -348,6 +349,24 @@ def build_actual_maps_on_six(rr,maps):
         progress("actual pair coordinates on six", artin_index=constrow["artin_index"],
                  q0_y_sha256=function_fingerprint(y0),
                  q2_y_sha256=function_fingerprint(y2))
+    # R883(D): this is constant conjugation, not absolute Frobenius pullback.
+    k=maps["constants"]
+    r=int(maps["prime"])
+    constant_frob=k.hom([k.gen()**r])
+    conjugate=L.hom([ys,L(L.base_field().gen())],base_morphism=constant_frob)
+    assert conjugate(ys)==ys and conjugate(six["eta"])==six["eta"]
+    assert conjugate(f0)==f0 and conjugate(yF)==-yF
+    for i in range(3):
+        star=(-i)%3
+        u=0 if i==0 else -1
+        phase=maps["omega"]**u
+        for tag in ("x0","x2"):
+            assert conjugate(rows[i][tag])==phase*rows[star][tag]
+        for tag in ("y0","y2"):
+            assert conjugate(rows[i][tag])==rows[star][tag]
+    progress("actual constant-reflection identities checked",
+             F_sign=-1,reflection="c_infinity times epsilon",
+             A_images=["A0","omega^2*A2","omega^2*A1"])
     six.update(prime=int(maps["prime"]),constants=maps["constants"],
                omega=maps["omega"],F_x_over_xs=f0,F_y=yF,
                A=rows,artin_constants=const,
@@ -383,10 +402,19 @@ def verified_torsion_basis(k,omega,r):
     col0,col1=table[cm(P)],table[cm(Q)]
     M=matrix(GF(ell),[[col0[0],col1[0]],[col0[1],col1[1]]])
     assert M**2+M+identity_matrix(GF(ell),2)==0
+    def frobenius(R):
+        return E(0) if R.is_zero() else E([R[0]**r,R[1]**r])
+    fcol0,fcol1=table[frobenius(P)],table[frobenius(Q)]
+    C=matrix(GF(ell),[[fcol0[0],fcol1[0]],[fcol0[1],fcol1[1]]])
+    assert C**2==(-r)*identity_matrix(GF(ell),2)
+    assert C*M==M**2*C
+    assert C.trace()==0 and C.det()==GF(ell)(r)
     progress("verified target torsion basis", ell=ell,
              E_order=len(points), first=point_coordinates(P),second=point_coordinates(Q),
-             actual_CM_matrix=[[int(z) for z in row] for row in M.rows()])
-    return dict(curve=E,ell=ell,basis=(P,Q),coordinates=table,CM_matrix=M)
+             actual_CM_matrix=[[int(z) for z in row] for row in M.rows()],
+             actual_r_Frobenius_matrix=[[int(z) for z in row] for row in C.rows()])
+    return dict(curve=E,ell=ell,basis=(P,Q),coordinates=table,CM_matrix=M,
+                Frobenius_matrix=C,cm=cm,frobenius=frobenius)
 
 def prime_vector(z,fp,dimension):
     v=[fp(c) for c in z.polynomial().list()]
@@ -640,27 +668,48 @@ def consume_original_relative_six(rr,maps):
     geometry=prepare_normalized_geometry(six)
     points=[[None]*3 for _ in range(3)]
     summaries=[]
-    # R883(C): the COMPLETE [6] traces satisfy p_ab=p_ba.
-    # This uses the true W map, phi^dagger=-phi, and the 3-torsion axes.
-    # It is not a symmetry assumption about unprojected affine point lists.
-    aliases={}
-    for a in range(3):
-        for b in range(a,3):
-            P,summary=complete_pair_shadow(six,geometry,torsion,a,b)
-            points[a][b]=points[b][a]=P
-            summaries.append(summary)
-            aliases["%s,%s"%(a,b)]=[a,b]
-            aliases["%s,%s"%(b,a)]=[a,b]
+    # R883(C,D): whole [6] traces are symmetric, and the actual constant
+    # reflection determines the other two unordered pairs.  No local trace
+    # degree is reduced here: every computed point already is the full trace.
+    computed_pairs=((0,0),(0,1),(1,1),(1,2))
+    for a,b in computed_pairs:
+        P,summary=complete_pair_shadow(six,geometry,torsion,a,b)
+        points[a][b]=points[b][a]=P
+        summaries.append(summary)
+    cm=torsion["cm"]
+    frob=torsion["frobenius"]
+    points[0][2]=points[2][0]=-cm(frob(points[0][1]))
+    points[2][2]=-cm(cm(frob(points[1][1])))
+    assert frob(points[0][0])==-points[0][0]
+    assert frob(points[1][2])==-cm(points[1][2])
+    assert all(torsion["ell"]*P==torsion["curve"](0)
+               for row in points for P in row)
     readout=read_full_artin(six,torsion,points)
+    # R883(E): an exact point test, independently checked against all original
+    # character readouts.  This uses only complete geometric ell-torsion points.
+    Atest=points[0][0]-cm(cm(points[1][2]))
+    Ctest=points[1][1]+cm(frob(points[0][1]))
+    assert frob(Atest)==-Atest
+    detector=not Atest.is_zero() or not Ctest.is_zero()
+    assert bool(readout["nonzero_original_pairs"])==detector
+    assert len(readout["nonzero_original_pairs"]) in (0,3)
+    point_test={"A":point_coordinates(Atest),"C":point_coordinates(Ctest),
+                "A_coordinates":list(torsion["coordinates"][Atest]),
+                "C_coordinates":list(torsion["coordinates"][Ctest]),
+                "equivalent_to_all_three_original_nonzero_readouts":True,
+                "detected_nonzero":detector}
     result={
         "kind":"rank2_same_original_relative_six_frobenius_shadow",
         "status":"complete_original_shadow",
         "prime":six["prime"],"ell":torsion["ell"],
         "original_source_level":10404,"relative_six_level":3468,"RR_base_level":867,
         "source_genus":1729,"relative_six_genus":559,
-        "degree_over_eta":288,"computed_complete_unordered_divisors":6,
+        "degree_over_eta":288,"computed_complete_divisors":[list(p) for p in computed_pairs],
         "all_nine_original_pairs_accounted":True,
-        "ordered_pair_aliases_via_proved_W_symmetry":aliases,
+        "remaining_pairs_via_proved_W_and_constant_reflection":True,
+        "actual_r_Frobenius_matrix":[[int(z) for z in row]
+                                    for row in torsion["Frobenius_matrix"].rows()],
+        "two_exact_point_detector":point_test,
         "all_cusps_and_residue_degrees_retained":True,
         "first_factor_x_correction":"(v_s+4)/v_s",
         "pair_summaries":summaries,
