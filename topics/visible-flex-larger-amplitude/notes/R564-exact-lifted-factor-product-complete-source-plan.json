@@ -1,0 +1,208 @@
+{
+  "schema": "R564-exact-lifted-factor-product-complete-source-plan-v1",
+  "scientific_execution_performed": false,
+  "source_root_policy": "Only the actual public repository Actions computations directory; complete source-only R561/R550/R535 ancestry; direct one-time installation in untouched original owner_scope",
+  "header": {
+    "file": "root_20261116_exact_lifted_factor_product.hpp",
+    "bytes": 10146,
+    "sha256": "bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1"
+  },
+  "ancestor_R561": {
+    "adapter": {
+      "file": "root_20261116_exact_dyadic_average.py",
+      "bytes": 18526,
+      "sha256": "9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082"
+    },
+    "source_plan": {
+      "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+      "bytes": 13708,
+      "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+    },
+    "header": {
+      "file": "root_20261116_exact_dyadic_average.hpp",
+      "bytes": 6760,
+      "sha256": "e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac"
+    },
+    "root_reuse_source_plan": {
+      "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+      "bytes": 12303,
+      "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+    },
+    "root_word_source_plan": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    },
+    "views": [
+      {
+        "role": "primal",
+        "generated": {
+          "file": "root_20261116_exact_dyadic_average_primal128.cpp",
+          "bytes": 26420,
+          "sha256": "0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f"
+        }
+      },
+      {
+        "role": "trace",
+        "generated": {
+          "file": "root_20261116_exact_dyadic_average_trace128.cpp",
+          "bytes": 35787,
+          "sha256": "07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5"
+        }
+      }
+    ]
+  },
+  "views": [
+    {
+      "role": "primal",
+      "base": {
+        "file": "root_20261116_exact_dyadic_average_primal128.cpp",
+        "bytes": 26420,
+        "sha256": "0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f"
+      },
+      "output": {
+        "file": "root_20261116_exact_lifted_factor_product_primal128.cpp",
+        "bytes": 26887,
+        "sha256": "5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_exact_dyadic_average.hpp\"\n",
+          "new": "#include \"root_20261116_exact_dyadic_average.hpp\"\n#include \"root_20261116_exact_lifted_factor_product.hpp\"\n",
+          "count": 1
+        },
+        {
+          "old": "struct RootStats {\n  R561AverageStats r561_average;",
+          "new": "struct RootStats {\n  R564ProductStats r564_product;\n  R561AverageStats r561_average;",
+          "count": 1
+        },
+        {
+          "old": "  void join(const RootStats &s) {\n    r561_average.join(s.r561_average);",
+          "new": "  void join(const RootStats &s) {\n    r564_product.join(s.r564_product);\n    r561_average.join(s.r561_average);",
+          "count": 1
+        },
+        {
+          "old": "      result.residual[i]+=r561_average_actual_product(quad*cs[i],average,\n        stats.r561_average.root_residual,n,i);",
+          "new": "      result.residual[i]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(quad,cs[i],stats.r564_product.root_residual,n,i),\n        average,stats.r561_average.root_residual,n,i);",
+          "count": 1
+        },
+        {
+          "old": "      bm[k]+=r561_average_actual_product(value*gc[k],average,\n        stats.r561_average.root_gram,n,k);",
+          "new": "      bm[k]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(value,gc[k],stats.r564_product.root_gram,n,k),\n        average,stats.r561_average.root_gram,n,k);",
+          "count": 1
+        },
+        {
+          "old": "      flux[j]+=r561_average_actual_product(f*sn[j],average,\n        stats.r561_average.primal_flux,n,j);",
+          "new": "      flux[j]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(f,sn[j],stats.r564_product.primal_flux,n,j),\n        average,stats.r561_average.primal_flux,n,j);",
+          "count": 1
+        },
+        {
+          "old": "  r561_print_average_stats(std::cout,s.r561_average);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "new": "  r561_print_average_stats(std::cout,s.r561_average);\n  std::cout<<\",\\\"exact_lifted_factor_product\\\":\";\n  r564_print_product_stats(std::cout,s.r564_product);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "trace",
+      "base": {
+        "file": "root_20261116_exact_dyadic_average_trace128.cpp",
+        "bytes": 35787,
+        "sha256": "07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5"
+      },
+      "output": {
+        "file": "root_20261116_exact_lifted_factor_product_trace128.cpp",
+        "bytes": 36019,
+        "sha256": "ed8c674215ffe1f94a65010d115447804d07812b7f5f70c387b080f56c140447"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_exact_dyadic_average_primal128.cpp\"",
+          "new": "#include \"root_20261116_exact_lifted_factor_product_primal128.cpp\"",
+          "count": 1
+        },
+        {
+          "old": "static constexpr const char *included_R561_primal_cpp_sha256 =\n    \"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\";",
+          "new": "static constexpr const char *included_R561_primal_ancestor_sha256 =\n    \"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\";\nstatic constexpr const char *included_R564_primal_cpp_sha256 =\n    \"5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798\";",
+          "count": 1
+        },
+        {
+          "old": "  o<<\",\\\"exact_dyadic_angular_average\\\":\";r561_print_average_stats(o,s.r561_average);o<<\"}\";",
+          "new": "  o<<\",\\\"exact_dyadic_angular_average\\\":\";r561_print_average_stats(o,s.r561_average);\n  o<<\",\\\"exact_lifted_factor_product\\\":\";r564_print_product_stats(o,s.r564_product);o<<\"}\";",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "compiler_function": {
+    "base": {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    "start": "def compile_owner(work, expected_cpp):\n",
+    "next_definition": "\ndef ",
+    "original": {
+      "bytes": 3860,
+      "sha256": "be019045058f4616f98b07e19c0d8d3901e979ce2b1ba7d4259c65fcae4ae46d"
+    },
+    "derived": {
+      "bytes": 6909,
+      "sha256": "7c332e958280eaf84d18dbf60ab545c2cb6fbbb1f5eb8b533528415e647e83dd"
+    },
+    "patches": [
+      {
+        "old": "def compile_owner(work, expected_cpp):\n",
+        "new": "def compile_owner(work, expected_cpp):\n    product_binding = _R564_SOURCE_BINDING\n    require(product_binding[\"schema\"] == \"R564-exact-lifted-factor-product-source-binding-v1\", \"Actual R564 source binding\")\n    require(Path(product_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R564 compiler source directory\")\n    average_ancestry = product_binding[\"actual_R561_source_binding\"]\n    reuse_ancestry = average_ancestry[\"actual_R550_source_binding\"]\n    word_ancestry = reuse_ancestry[\"actual_R535_source_binding\"]\n    dependencies = product_binding[\"actual_generated_sources\"] + product_binding[\"actual_headers\"]\n    dependencies += average_ancestry[\"actual_generated_sources\"] + reuse_ancestry[\"actual_generated_sources\"]\n    dependencies += word_ancestry[\"actual_generated_sources\"]\n    dependencies += [product_binding[\"actual_adapter\"], average_ancestry[\"actual_adapter\"], reuse_ancestry[\"actual_adapter\"], word_ancestry[\"actual_adapter\"]]\n    for desc in dependencies:\n        actual = HERE / desc[\"file\"]\n        require(actual.stat().st_size == desc[\"bytes\"] and file_sha(actual) == desc[\"sha256\"], \"Complete R564 compile dependency\")\n",
+        "count": 1
+      },
+      {
+        "old": "\"Complete frozen trace source\"",
+        "new": "\"Complete declared R564 trace view\"",
+        "count": 1
+      },
+      {
+        "old": "\"Unique frozen standalone trace main\"",
+        "new": "\"Unique declared R564 trace standalone main\"",
+        "count": 1
+      },
+      {
+        "old": "    record = dict(command=command, source=receipt(HERE/CPP), included_original_source=receipt(HERE/ORIGINAL_CPP),\n        frozen_R283_source=receipt(HERE/TRACE_CPP), generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=True, only_frozen_trace_standalone_main_excluded=True,\n",
+        "new": "    record = dict(command=command, source=receipt(HERE/CPP),\n        included_primal_source=receipt(HERE/ORIGINAL_CPP), included_trace_source_view=receipt(HERE/TRACE_CPP),\n        original_primal_ancestor=receipt(HERE/\"geometry_20261115_native_primal128.cpp\"),\n        original_R283_ancestor=receipt(HERE/\"geometry_20261115_native_trace_variation128.cpp\"),\n        R535_primal_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_primal128.cpp\"),\n        R535_trace_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_trace128.cpp\"),\n        R550_primal_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\"),\n        R550_trace_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\"),\n        R561_primal_ancestor=receipt(HERE/\"root_20261116_exact_dyadic_average_primal128.cpp\"),\n        R561_trace_ancestor=receipt(HERE/\"root_20261116_exact_dyadic_average_trace128.cpp\"),\n        generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=False, only_frozen_trace_standalone_main_excluded=False,\n        root_finite_word_cache_compilation_source_binding=dict(product_binding,\n            actual_compiler_command=command, actual_generated_include=receipt(include),\n            actual_compile_returncode=code, actual_executable=receipt(executable),\n            actual_compile_stdout=receipt(work/\"compile.stdout.log\"), actual_compile_stderr=receipt(work/\"compile.stderr.log\"),\n            compiler_completed=True, source_preparation_alone_is_not_compilation=True,\n            original_persistent_CPP_source_unchanged=True, original_evaluate_observer_and_all_stage_rows_unchanged=True,\n            actual_R535_R550_R561_R564_primal_and_trace_sources=True,\n            literal_first_Q_multiply_preserved_at_all_changed_sites=False,\n            original_first_product_RN128_values_reduction_order_and_root_choices_retained=True,\n            actual_first_product_uses_full_113_by53_integer_RN128_or_original_fallback=True,\n            original_directional_arithmetic_body_unchanged=True,\n            original_R561_second_product_selection_unchanged=True,\n            floating_exception_flag_equivalence_not_claimed=True),\n",
+        "count": 1
+      }
+    ]
+  },
+  "original_persistent_cpp": {
+    "file": "geometry_20261115_native_persistent128.cpp",
+    "bytes": 22364,
+    "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+  },
+  "numeric_contract": {
+    "actual_operands_not_ideal_trigonometric_values": true,
+    "original_table_source": "Original finite binary64 words lifted exactly to Q; actual factor word is checked on every call",
+    "changed_primal_sites": [
+      "root_evaluate residual first product quad*cs[i]",
+      "root_matrix Gram first product value*gc[k]",
+      "primal rhs flux first product f*sn[j]"
+    ],
+    "word_contract": "Native little-endian GCC IEEE binary128, 16-byte unsigned __int128, 113 significant bits and original exponent range; otherwise original Q multiply",
+    "rounding_contract": "Actual fegetround()==FE_TONEAREST for this product; otherwise original Q multiply; no rounding mode changed",
+    "factor_contract": "Both finite, then actual signed zero exactly; otherwise both normal and factor fraction low60 bits zero",
+    "normal_integer_product": "A113*B53 exactly as high*2^64+low using two unsigned128 limb products; normalize by 52 or 53 bits and round nearest-even by exact remainder",
+    "normal_result_contract": "Unrounded and rounded biased result exponent both 1..32766; all other range cases original Q multiplication",
+    "original_first_product_RN128_word_preserved": true,
+    "literal_original_first_Q_multiplication_always_performed": false,
+    "original_R561_second_product_selection_unchanged": true,
+    "trace_directional_arithmetic_body_unchanged": true,
+    "original_sum_order_all_terms_root_iterations_trials_and_acceptance_unchanged": true,
+    "no_new_table_state_geometry_or_H_cache": true,
+    "no_fixture_candidate_domain_or_error_gate": true,
+    "all_three_paths_complete_seventeen_actual_counters_and_last": true,
+    "all_original_stats_and_complete_ancestry_retained": true,
+    "original_compiler_flags_tolerances_budgets_FD_fullDN_final_audit_unchanged": true,
+    "floating_exception_flag_equivalence_not_claimed": true,
+    "resource_frontier_wall_time_and_speed_not_claimed": true
+  },
+  "actual_scientific_run_registered": false
+}
