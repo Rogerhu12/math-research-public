@@ -139,3 +139,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **全局原五极理想表达式已启动**：[方法](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4，core995a1298/wrapper5f963b47/requesta07fca34；八来源实际2709件，完整原F/W/C/S5、R845准确八生成元外叶与R791真σ。仅按既证U.1作八个所需单位解、全局可分导数、原三minor及真Norm的有限组合DAG；不重旧Dixon/大逆/前缀，不宣称标准Jacobian代表、η零、c0刚性化或高度。具体run见HANDOFF。
 
 **原清转置启动修复**：[实际错误](notes/R787-cleared-dual-first-start-integer-reader-fix.md)run43785814509在原κ4311位整数读取触Python4300位上限；1481输入通过但无新数学stage。仅main加入sys.set_int_max_str_digits(0)，core969201b9、wrapper611e8ad8不改，resume null重新触发；不是RR/原q拒绝。全局consumer首run43787110788则在纯IO断言失败、core尚未运行，按真实来源诊断继续。
+
+**原c0首项已证明、数值待公开消费**：[完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204从R838 P0∉D及原K[T]简单模推出全部非零原Hom在c0不分歧。原t=a³下，六V=U/E6值/一阶仅用末四M6坐标与Φ0/Φ73；原λ³=108W(0)，五R_j准确阶14(p−q)，κ_j=N(108W_f)^(2p)/N(108W_g)^(2q)及d_j=−(qTr(W_g′/W_g)−pTr(V0′/V0))/2。全常数/真σ/正三同源/负理想类号保留；只是指定主函数比较的原纤维标量和首单位项，未完成标准Jacobian/规范theta二挠/Poincaré刚性化/height。旧M6/CM/大矩阵不重算，实际六值/范数/迹在本公开Actions继续。

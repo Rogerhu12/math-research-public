@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：82d94287c6c9705c79ec5d48c6a9181b5b1ccacb**（2026-11-16T01:40:23.336727+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[全局启动前完整H](handoff-archive-2026-11-16-before-global-DAG-launch.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：77c2feb545ec2bec069c6af8aee9328bad012468**（2026-11-16T01:45:43.235363+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[c0首项前完整H](handoff-archive-2026-11-16-before-c0-leading-terms.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -22,26 +22,22 @@ R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，�
 
 ## 原准确接口与禁止重算项
 
-**几何/极理想**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)原I4=C、D约化/K1；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)原U397、两锚共同零ℬ=C20+P0及真实1213minor；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)I2/E2=C20+D、P0∉D、完整I3=C/最小阶3。旧导数/前缀/锚不重。全部source/pins见正式结果及归档。
+已成结果的完整source/run/SHA、数值、载体及边界以各正式结果和上方逐字归档为准，不重跑。
 
-**R842**：[两图D基](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)原T11/T5/D秩2451/415/395，295单位解基/full830已成；单τ2431不足与两图修正保留。artifact14186901203/2919源carrier a1f8b947，全部pins见结果/归档。
+**原几何**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)I4=C、D约化/K1；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)146个P0值/U397、两锚共同零C20+P0；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)I2/E2=C20+D、P0∉D、I3=C/最小阶3。旧导数/前缀/锚不重。
 
-**R840/R841**：[四原CM响应](results/R840-certified-original-implicit-CM-value-and-first-jet.md)与[原β点/下降DAG](results/R841-certified-original-CM-point-and-descent-DAG.md)已成，β_C=(3h0Q/N,A0/B0)、原50node；final5de210b5/52b80ce2。原v/κ/T7与全尺度保留，旧CM/Dixon/Hom不重；展开和抽象A前像未成。
+**原D/Ey**：[R842](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)两图秩2451/415/395、D295单位基及全830；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)原n1秩1111/minor633901576迫Z0，D两生成元、Ey八V11生成元及t³/t¹¹两图，690新RHS/full1380已成。I_EyR=(y²−b)I_Ey³正乘；模kernel不可代Q系数。
 
-**R843**：[同点非挠](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原branch0/518给m999960637、44步t赋值1/A518；形式群无挠及原β∈A(Q)/Q-simple给全部非零L-Hom值非挠。finale4f926d3/artifact14187431986，旧算术不重。
+**原CM/非挠**：[R840](results/R840-certified-original-implicit-CM-value-and-first-jet.md)原四响应/14坐标518位、B0全unit；[R841](results/R841-certified-original-CM-point-and-descent-DAG.md)原点/下降50node，β=(3h0Q/N,A0/B0)。[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)branch0的44步形式群t值1/A518及原Q-simple，所有非零Hom值非挠；旧CM/Dixon/群律见证不重，展开/抽象A前像未成。
 
-**R844**：[五Hom点/比较值](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原g_j=(1+T^j)f、下降/七σ/原R_j(c1)529node DAG已成，非R794另五点；所有分母凭原字/同点非挠，不删常数。final57a2e3ec/program97a8fb3f，源已随R846续留。
-
-**R845**：[D/Ey完整极理想](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)首n1秩1111/minor633901576迫Z0，原u/v给八V11 DAG/t³/t¹¹两图；690新RHS/full1380已成。final1e71a62c/DAG9cf17e78/artifact14188093176，1979源carrier c32273b6。I_EyR=(y²−b)I_Ey³正乘，旧逆号更正；旧逆/前缀不重。
-
-**R846**：[原一阶表达式](results/R846-certified-original-Hom-coordinate-and-comparison-first-jets.md)run43783814426/source94e4d5ec，733nodes含529逐字、六Hom坐标/五R_j一阶/真七σ；finalb3569055/program555e3c6c，artifact14189930390至Nov17 01:02:05，261源carrier2d364825。无新点加法；jet非零/A.1/展开/刚性化/height false。
+**原五字及一阶**：[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)五g_j=(1+T^j)f、下降/真七σ/原R_j(c1)529node；[R846](results/R846-certified-original-Hom-coordinate-and-comparison-first-jets.md)733nodes含529逐字、六Hom坐标一阶及五R_j一阶，无新点加法。finalb3569055/program555e3c6c/artifact14189930390，261源carrier2d364825至Nov17 01:02:05。分母用原字/非挠；jet非零/A.1/刚性化/height未成。
 
 ## 正在推进的原后继
 
 **全局五加法极理想已激活**：[GP.7/15](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5和[执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4保原反对角三minor/DVR立方/平坦下降全部重数、global y U.1、完整W/χ可分导数及C_j/C0；η负类号、真实七σ Norm、三同源正乘R_j。
 公开consumer core995a1298/wrapper5f963b47/requesta07fca34首run43787110788/job133037154308在纯IO断言失败，core未入；正在修复。实际2709原源全SHA/fp a2839071：R7871241/R781134/R7866/R80645/R8091260/R8408/R8458/R7917；F1234/W34/C12/S51234完整，非五fiber或690行替代。root读完整core/wrapper及源闭包，无本地算术。R845八生成元保准确单位解外叶及全部refs，绝不以模kernel代Q系数。仅准确组合DAG；物化理想格/标准Jacobian/原刚性化/eta零/高度仍未得，原sourcec0387d67。
 
-**c0后继**：沿R838 P0∉D及原R791简单Hom域，接原a³参数下六Hodge的值/一阶；真实R80319件159.1MB/R8379件纯IO完成，未执行新数学。
+**c0首项纸证已成**：[原不分歧/比较首项](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204。R838 P0∉D+原K[T]六次域核稳定⇒全部非零原Hom在c0不分歧；原t=a³下ord R_j=14(p_j−q_j)。六V_j=U_j/E6的值/一阶只需原M6末四坐标及原Φ0/Φ73；λ_h³=108W_h(0)，单位factor线性项0。真Norm给κ_j=M_f^(2p)/M_g^(2q)、真Trace给首单位项d_j；固定单项式帧比较纤维标量保原κ，非完整Poincaré刚性化/height。原R80319/R8379源纯IO已成，agent继续最小公开consumer，尚无新数值。
 
 **短CM候选A.1**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)全过仍不代A0−qB0=0。[无逆清转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec与[源契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a已证：Frobenius整数J/正κ幂，128×20及140补集成Θ2560方阵；复用旧14支A/Schur/inverse_clear，新RHS从1位起，严格RR及准确全乘回才由d(A0−qB0)=−Δ接受。旧518不是新dual精度，无速度/高度保证。**新dual已激活参数**：core969201b9/wrapper611e8ad8/request82de2d03，公开workflow serre-R787-cleared-dual-CM-value，300min、reconstruct每8位、首位尝试、无新增位数上限。真实1256 R787+134 R781+4 R786+87 CM共1481源及旧carrier1372成员已按最终wrapper纯IO核定；新RHS从1位，仅严格RR/full35840准确乘回后Δ接受或拒绝q，[首启动](notes/R787-cleared-dual-first-start-integer-reader-fix.md)触Python4300位读取上限，唯一增sys限制解除；无数学stage，重新触发，未接受/拒绝q。
 

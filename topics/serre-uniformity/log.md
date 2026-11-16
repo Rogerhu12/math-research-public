@@ -174,3 +174,9 @@
 - 仅core main公开guard后加sys.set_int_max_str_digits(0)，core969201b9/request82de2d03、wrapper611e8ad8及数学全不改，resume null重新触发。root读实际5小件manifestb7c6b519、源码唯一行diff/AST；无本地数学。
 - 全局首run43787110788/sourcec0387d67在纯IO断言失败且未入core，正在定位fresh-fetch与真实缓存闭包差异；c0源已取，原六形式首项纸证继续。
 - 本push规则：本地真实pull至82d94287c6c9705c79ec5d48c6a9181b5b1ccacb（2026-11-16T01:40:23.336727+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:45 Asia/Taipei — serre-public-astra-20261115
+- 新c0纸证d29ef204：R838 P0∉D与原K[T]六次域核稳定推出所有非零原Hom在c0不分歧；不把c1数值搬点，保原a/t=a³。
+- 原六V=U/E6值/一阶只需M6末四行和原Φ0/Φ73，R′(0)=−4、e′(0)=−1/(12s)；Ramanujan给(Da)³/E6=(1−t)²/[108(1−2t)]，故λ³=108W及首单位项准确常数。
+- 五原R_j阶14(p−q)，首项κ及d由真Norm/Trace给；指定帧比较纤维保全部常数，未称完整刚性化/height。H逐字归档压已成接口；dual读取单行修复已推1abe4778，全局fresh-fetch纯IO诊断中，主线继续。
+- 本push规则：本地真实pull至77c2feb545ec2bec069c6af8aee9328bad012468（2026-11-16T01:45:43.235363+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
