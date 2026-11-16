@@ -1,0 +1,101 @@
+{
+  "job": {
+    "budget_minutes": 30,
+    "core": "R792_original_Hom_word_point_DAG.py",
+    "core_sha256": "719c170ac00cf7b15db0d74b5a58998f2901ad838db33dc9d01fd29acd36805a",
+    "dag_core": "R792_original_CM_response_beta_DAG.py",
+    "dag_core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+    "dag_wrapper": "R792_public_original_CM_response_beta_DAG.py",
+    "dag_wrapper_sha256": "96045ab00c4b5f4a674031ddb7100b07af98ab5bd5b8560ab56665c0d8cdee66",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "p": 41,
+    "parent_source": {
+      "archive_bytes": 1903752,
+      "archive_sha256": "9adbba8f2826655af7ba37cd14c6c703f6acf81bc9990a9dab459de8cec5f2c3",
+      "artifact_id": 14187431986,
+      "artifact_name": "serre-global-R792-CM-point-padic-nontorsion-43778335282-1",
+      "core_sha256": "dd3f06a2ed34d31d4d9cc7000eeb5ca763b3fa26b238b418de3e2a47e8dca9c0",
+      "expected_conclusion": "success",
+      "result": "R792-original-CM-point-padic-nontorsion",
+      "run_id": "43778335282",
+      "source_commit": "a7d3c0f6d4b9c0d10dfd1ad1d07f14fbbd2c2d57",
+      "wrapper_sha256": "5b6bcaa89f690011cc47cfd77463dfd58e526044546d64e3b94203e03f16ef38",
+      "manifest_bytes": 9787,
+      "manifest_sha256": "2ed1269af1da10b1b4d18264a2297253eb7d24ecdd6cdb2dee7c4f9324aeb812",
+      "manifest_file_count": 67,
+      "configuration_sha256": "1baa36ebbe6074c172c27cd04e3db78fb1588a904b97731d0ba7410b103ef1d6",
+      "certificate": {
+        "bytes": 6446,
+        "file": "p41-original-CM-point-padic-nontorsion-certificate.json",
+        "sha256": "e4f926d374b5225c45036b363f4cc8a0e4918f54a711e2c3e824f803f3a8e506"
+      },
+      "input_bundle": {
+        "bytes": 1255616,
+        "file": "R792-CM-nontorsion-retained-inputs.tar.gz",
+        "sha256": "dd6bb50b4f931fefcf41648946f33f1090bf540e1d9724171d5de8d6a66b86a0"
+      },
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "selected_file_count": 66,
+      "selected_files_sha256": "aa30f76dedbddc23976f2c17ec08662a4fb872f25d21bd8226909e5023abb835"
+    },
+    "producer_inputs_pending": false,
+    "proofs": {
+      "R616": {
+        "path": "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+        "sha256": "3812067c107b9bc02feb299d86d2eca00e0e122b35d546ef794385fa0e63ece0"
+      },
+      "R728": {
+        "path": "results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md",
+        "sha256": "f8b68a367164e061b2385de908fe76c0710d13895f01f650d2569a7d5090f86a"
+      },
+      "R791": {
+        "path": "results/R791-certified-original-Hom-descent-and-eta-inputs.md",
+        "sha256": "821434c76711f725326a581a4b0e8c281d8d41cb0905333409545a68826c6dcf"
+      },
+      "R792": {
+        "path": "results/R792-original-beta-composition-and-Galois-cube-root.md",
+        "sha256": "75362e44da996c4c481b548816bfeb532f799bde47f63400bcc7791e0aa5f46b"
+      },
+      "interface": {
+        "path": "notes/R792-original-source-bound-CM-DAG-beta-interface.md",
+        "sha256": "ce50b9c2d4a20c812c811a38ae40fa470f41f958adee018449f5ad676a8bcda3"
+      },
+      "nontorsion": {
+        "path": "notes/R792-original-padic-CM-point-nontorsion-method.md",
+        "sha256": "b3b88cc94fc3d716bd39227794f3ec780265cd22bdb3082305070e007da0e0a7"
+      },
+      "unit_chart": {
+        "path": "notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md",
+        "sha256": "8d5b58a5f6e9748805af3c032de1bae955543b1855535b6c51f0ca9cd6947820"
+      },
+      "Hom_word_interface": {
+        "path": "notes/R792-original-Hom-word-point-DAG-after-nontorsion.md",
+        "sha256": "39880a1f21f33e49aad0117de3e15568b54f6c78ed3e0c6ccc1b1be235c2836e"
+      },
+      "R804": {
+        "path": "results/R804-original-selected-map-reuse-in-integral-cyclic-module.md",
+        "sha256": "98d3e253e0056a9c9dba563198149c5dd985e81e19aec1cacacd9bda4c1066e6"
+      },
+      "R843": {
+        "path": "results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md",
+        "sha256": "d393e37b2cf8b26c2d32d1ca5e2545d8a913a7258732ae4e6c36f7f07600e2eb"
+      }
+    },
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "result": "R792-original-Hom-word-point-DAG",
+    "resume": null,
+    "workflow": ".github/workflows/serre-R792-Hom-word-point-DAG.yml",
+    "wrapper": "R792_public_original_Hom_word_point_DAG.py",
+    "wrapper_sha256": "bb0cce85ff6e4f7df2dd9e4a153b21e6e1a14038ee35800ec9c91f7edecfda9a",
+    "nontorsion_wrapper": "R792_public_original_CM_point_padic_nontorsion.py",
+    "nontorsion_wrapper_sha256": "5b6bcaa89f690011cc47cfd77463dfd58e526044546d64e3b94203e03f16ef38"
+  },
+  "rules_last_read_commit": "aecb91ea0fb33f32e68021169c6999531332e0d9"
+}

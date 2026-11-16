@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：aecb91ea0fb33f32e68021169c6999531332e0d9**（2026-11-16T00:28:05.367828+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R843完成后H](handoff-archive-2026-11-16-after-R843-certified.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：07dafecef13e725aff7cc850dd4631029f0909b6**（2026-11-16T00:29:40.012214+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -17,9 +17,9 @@
 | R824从365完整位续算 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | core1ece3cf4 / wrapperc5907739，准确27+244 scope同核继续 |
 | R827旧Hermite | 43764014099 / 132964965600 | fd4cbaea820d79e115c300d766042582be14a091 | 已被R835数学替代；取消API403，待自行结束，不再续接 |
 
-**R787展开坐标**：[518全格真实结束](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)已闭；56格全detU1/56新D全m1非零，非518不足/非关系不存在。旧430/42/56/98与Ω/拒例保归档不重。原518同核续算仍上表，准确展开函数未得。
+**R787展开坐标**：[518全格真实结束](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)已闭；56格全detU1/56新D全m1非零，非精度不足/非关系不存在。旧格与拒例保归档不重。上表仅同核续算，准确展开函数未得。
 
-**R815算子**：[582完整素数断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)旧run43748439850自然BudgetStop；g/component0、最后1000011869、17401bits、current769309011B/67e7fe98，step5a585884与manifest460daad8一致。artifact14186797329/e07f91b7至Nov16 23:48:02；53输入109MB/051571e1不变。本次只resume续582，request9155a3ef；原targets/prime/mode及core/wrapper冻结。Mg/Γ未成；[三列及49拒](notes/R815-three-known-columns-ended-and-denominator-boundary.md)、[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)均已闭，不重跑。
+**R815算子**：[582完整素数断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)已真实保留，current769MB/67e7fe98，原53输入109MB/051571e1；上表仅resume续582，全部核/目标/模式冻结。Mg/Γ未成，49拒/三列/九维调度已闭，不重。全部原源/hash保本次归档。
 
 **R824**：[365完整断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)仅27权5+244权6继续，1186归R787；原129/142/280Q、κ/246一次、r28不补143..155。完整准确生成后才1778minor/1206。
 
@@ -34,6 +34,8 @@
 **短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
 **R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，待实际DAG产物。
+
+**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run待实际读取。
 
 **原D铅笔与八生成元方法已证**：[完整方法](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498：原Ey=ℬ+3D，W_D完整且deg(3H−D)=421全局生成；两截面a,b共同零D+Z时原V3²→V6秩1111−degZ。因此五旧纤维1360×1380的真1111minor足证I_D=(a,b)，无需评价注入。原u/v给八个V11乘法DAG，I_Ey=I_ℬ I_D³；实下降I_EyR=(y²−b)I_Ey³保原主函数。仅新690个旧τ²V3=V5 RHS/full1380与五纤维乘法；旧Krylov/S5逆/前缀复用，1111任务待真输出。五加法极除子/η未成。
 

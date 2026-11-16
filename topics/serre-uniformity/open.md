@@ -2,6 +2,8 @@
 
 **R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，待实际DAG产物。
 
+**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run待实际读取。
+
 # 未解决的问题
 
 **R575现行更正。** 实际六层的正CM角色为Ψθκ4，根号−1、中心值零；R348把相反扭向Ψθκ4^-1识别为实际商的论断撤回。后文及历史归档中的该出现性、实际秩零与有理点零像应用均以[R575](results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md)为准。固定家族的L值与局部代数计算仅按各自假设保留。

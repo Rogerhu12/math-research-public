@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:28 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:29 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -78,3 +78,9 @@
 - EP.17最小修正为I_EyR=(y²−b)I_Ey³：O(−div g)=gO；原y极点m处最小阶3m−2m=m，g零点n处为n。此前逆乘号错误，现完整证明ccf70498与H/open同步；1111秩/八生成元/R842计算结论不变。
 - 原R787的690已成real行纯IO与518 producer逐字相同；原R827五节点/单位网格/S5逆源已读，未重算节点或inverse，继续原五纤维消费者。
 - 本push规则：本地真实pull至aecb91ea0fb33f32e68021169c6999531332e0d9（2026-11-16T00:28:05.367828+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:32（Asia/Taipei）— 激活原五Hom字点消费者
+- core719c170a/wrapperbb0cce85/workflow0e33bba7，request3d36761a；root已逐读全核/封装/工作流，修正请求workflow字段为本消费者，真实251件旧源全IO身份已核。旧50node逐字导入，原非挠/CM/四响应不重。
+- 只新五次原g_j=(1+T^j)f加法与原七σ-Norm比较函数；全部分母用同点非挠和原Hom字证明，T7=[ζ²]/rho方向/常数不删。准确展开/A.1/五极除子/刚性化/eta-height仍false，等待实际产物。
+- H按10KB限先逐字归档再缩既成摘要；EP.17乘号更正已实际推2de18037，出现一次非快进后立即实际pull/rebase重推成功。
+- 本push规则：本地真实pull至07dafecef13e725aff7cc850dd4631029f0909b6（2026-11-16T00:29:40.012214+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
