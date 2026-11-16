@@ -74,6 +74,8 @@ R437/433/434/438与R452保首次同C闭构造的真实全场、原cut/两帽/atl
 
 按根15，[actual63两清单清理](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15只普通删除可再生的manifest/intent共1441937B，原来源/参数/真实父输入/紧凑结论和Git历史保持；现用源及91/98等父不动。[actual62两清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)本次按原来源/现用依赖核后普通删1352194B，仅两明确生成清单，原父/输入/参数/其余四件/历史保持；不将容量整理当科学进展。
 
+**R482：浅逆像与同job真实精化的来源/条件组合；尚无本次实际结果。** [证明](results/R482-shallow-inverse-and-same-job-incremental-refinement-composition.md)16368B/6ad857f4、[完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)21164B/396a2ca0和四调用源7ca36597/5b9e9039/39f1d36c/b4106f39本次刊。原205/209/212六合同逐字绑定；保原245公开与15生成源，新增四调用及两R477 reader，真实251+15=266。24→2工作深度实际传给首32b0、R456新grid与R462增模三层；全候选/field计划/32bits work-only/1M/原误差保，不保证预算或精度。唯一原18900+2700时钟，首full453→真冻结450父→五factor2→M128/继承新分辨率，全部原H/J/FD/fullDN/final/audit及新场闭面/held/固定g误差/t/display角色保持；任一必要父未返不以SHA补。新metadata派生字节不冒06ae，9必要scope加真quiet才清；源生成/读回失败保原范围，无新fixture或科学门。独立请求/workflow另次推，R484/geometry唯一未来终态。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

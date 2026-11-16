@@ -394,3 +394,7 @@
 ## 2026-11-16 05:55 UTC /root — R446实际204完整四程序与未返范围
 
 **实际204：128 owner原容差及四后续程序完成；必要详细读回超90KB，非native/fullDN接受。** [R446](results/R446-actual204-complete-four-components-and-necessary-readback-overflow.md)21458B/96d5775c全文核后刊，run43789310271/source189579b5、compute133043887128/report133114084407。一个方向/一次trial/一次接受，576阶段/129248原行全返，norm128原词9.68582474751023176032080482454992093e-11，fresh replay完整残差与全部226输出逐词同。真实bridge及绑定源码付576×224 stage maps、112边界、混合338×112 endpoint、原C-based physical audit四程序完整；旧owner内部未起的三false与postowner四true分层。完成谓词不付实数chart非奇异、全部338解析J、准确径向导数、native/fullDN或连续闭面门，后两接受明确false。必要111829B/08cf8251超90000，实际仅795B/f74e73f7错误正文两job同字/退出70；backend计数、详细readback极值/失败地址与逐trial未返范围不凭SHA补。原总钟/guard未超，最后matching_processes=[]但完整quiet证据未返，cleanup步骤success实际skip、无上传，不承诺末场可恢复。后继从原91独立重生并改必要表示，保持全部原科学/阈值/预算，R485/215另付。
+
+## 2026-11-16 06:06 UTC /root — R482同job浅逆像与完整精化来源
+
+**R482：浅逆像与同job真实精化的来源/条件组合；尚无本次实际结果。** [证明](results/R482-shallow-inverse-and-same-job-incremental-refinement-composition.md)16368B/6ad857f4、[完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)21164B/396a2ca0和四调用源7ca36597/5b9e9039/39f1d36c/b4106f39本次刊。原205/209/212六合同逐字绑定；保原245公开与15生成源，新增四调用及两R477 reader，真实251+15=266。24→2工作深度实际传给首32b0、R456新grid与R462增模三层；全候选/field计划/32bits work-only/1M/原误差保，不保证预算或精度。唯一原18900+2700时钟，首full453→真冻结450父→五factor2→M128/继承新分辨率，全部原H/J/FD/fullDN/final/audit及新场闭面/held/固定g误差/t/display角色保持；任一必要父未返不以SHA补。新metadata派生字节不冒06ae，9必要scope加真quiet才清；源生成/读回失败保原范围，无新fixture或科学门。独立请求/workflow另次推，R484/geometry唯一未来终态。
