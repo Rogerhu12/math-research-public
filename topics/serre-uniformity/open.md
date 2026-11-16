@@ -52,7 +52,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **R787展开坐标**：原518同核续算仍上表；新[518全格](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)已闭：run43766834526，1742秒，全56格detU1/56新D全m1非零，旧拒复用0；不推518不足或原关系不存在。final25631ecf/artifact14183618203至Nov16 22:31UTC。旧430/42/56/98与Ω结论保全，不重复；准确展开函数仍未得。
 
-**R815算子**：[三精确列](notes/R815-three-known-columns-ended-and-denominator-boundary.md)0/1/271、d01210238bits及49旧拒保留；[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)run43767171070一全9格/8新原(0,0,2)非零+1复旧拒已闭，非全Mg/非425不足。原current402379e2深续算继续；Mg/Γ未成，旧格/三列/同候选不重跑。
+**R815算子**：[582完整素数断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)旧run43748439850自然BudgetStop；g/component0、最后1000011869、17401bits、current769309011B/67e7fe98，step5a585884与manifest460daad8一致。artifact14186797329/e07f91b7至Nov16 23:48:02；53输入109MB/051571e1不变。本次只resume续582，request9155a3ef；原targets/prime/mode及core/wrapper冻结。Mg/Γ未成；[三列及49拒](notes/R815-three-known-columns-ended-and-denominator-boundary.md)、[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)均已闭，不重跑。
 
 **R824**：[365完整断点](notes/R824-365-digit-checkpoint-and-same-core-continuation.md)仅27权5+244权6继续，1186归R787；原129/142/280Q、κ/246一次、r28不补143..155。完整准确生成后才1778minor/1206。
 
