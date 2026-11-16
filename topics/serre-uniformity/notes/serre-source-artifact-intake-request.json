@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0829-R873-initial-assertion-and-R854-existing-ranks",
+  "request_id": "20261116-0848-R873-and-R877-completed-original-certificates",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "bed3fdd60cee8976a1554c97feb5a1663d5a2fa1",
+  "rules_last_read_commit": "fc6d692d2429e1e058c4c371e59b0f49ce201baf",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,43 +12,51 @@
   "reader_sha256": "d9960e9e9539740b9a4597bb5454b111782c5920f75a7d75b83ee786054dfa9b",
   "sources": [
     {
-      "label": "R873",
-      "mode": "ended",
-      "source": {
-        "run_id": "43830067416",
-        "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
-        "artifact_id": 14207709262,
-        "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43830067416-1",
-        "archive_bytes": 346405554,
-        "archive_sha256": "6ed2434eb79dfcafa157fda081490d6f3fb21a866513aab802ce52c6e3bb9f0f",
-        "expected_conclusion": "failure",
-        "manifest_sha256": "7c2f41d86e8d524fb99c400f5b3be35b2c829cf1a1a843fc671e07c7c55a9f8c",
-        "core_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd"
-      }
-    },
-    {
-      "label": "R854-profiles",
+      "label": "R873-certified",
       "mode": "named_original_members",
       "source": {
-        "run_id": "43805506433",
-        "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3",
-        "artifact_id": 14207739171,
-        "artifact_name": "serre-global-R854-original-p41-four-responses-43805506433-1",
-        "archive_bytes": 151091181,
-        "archive_sha256": "b0a8babc0eb1e2951e461cde1f47ddf37c1a07a87988ad8a453abf964ff3cf05",
-        "expected_conclusion": "failure",
-        "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f"
+        "run_id": "43832703159",
+        "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+        "artifact_id": 14209317175,
+        "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
+        "archive_bytes": 382153683,
+        "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
+        "expected_conclusion": "success",
+        "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+        "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c"
       },
       "names": [
-        "R854-p41-saturation-profile-000000.json.gz",
-        "R854-p41-saturation-profile-000055.json.gz",
-        "R854-p41-original-coefficient-scale.json.gz"
+        "R873-original-cyclic-seven-source-target-function-DAG.json.gz"
+      ],
+      "known_file_pins": [
+        {
+          "bytes": 11215,
+          "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+          "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+        },
+        {
+          "bytes": 32165,
+          "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+          "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
+        }
       ],
       "print_json_summary_files": [
-        "R854-p41-saturation-profile-000000.json.gz",
-        "R854-p41-saturation-profile-000055.json.gz",
-        "R854-p41-original-coefficient-scale.json.gz"
+        "R873-original-cyclic-seven-source-target-function-DAG.json.gz"
       ]
+    },
+    {
+      "label": "R877-certified",
+      "mode": "ended",
+      "source": {
+        "run_id": "43833857220",
+        "source_commit": "87f3bfe4c7873258c45a55ccf9ee6c41ff7cf6a4",
+        "artifact_id": 14209578116,
+        "artifact_name": "serre-R877-canonical-A-normal-input-43833857220-1",
+        "archive_bytes": 79882282,
+        "archive_sha256": "6f0e627c7d5c330c8a85647c1e333ecd036ce4531f1b8de0983b98c7fdbd7322",
+        "expected_conclusion": "success",
+        "core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a"
+      }
     }
   ]
 }

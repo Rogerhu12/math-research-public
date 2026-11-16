@@ -218,3 +218,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R872 原点jets与固定Picard空间实际完成**：[正式结果](results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md)。run43830071469/job133173089548/sourcea07453ec，299stage/13.596525042s；273jets、146核与rank962/418核完成，finalb2837667、artifact14207558653/b91d6fcc。char0为准确unit-solve源而非已重构系数；五Lj128/144/t帧/height仍开。
 
 - **R876 九个原域范数生成完整刚性化Hecke理想已证明**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)，SHA256 2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47。真无基点二截面给九个8次域范数的全曲线格，非étale/剩余次数保全；三完整纤维816×836/672minor、共同M0取消254P0、一次目标271右端及真dual7/原P0帧同构均明确。尚未算128截面/九理想/支持，模零保持未决。
+
+- **R878 原有限theta作用与两条原截面投影已证明**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)，SHA256 264b0daa84b18736e305596c9e1d1a588f87782d6cc2d163df4237a5ce60bb5f。fppf τ保原六级标记，相对非退化theta表示及kerD标定给真群律；6p维完整权过滤与原x/−xy两投影−B/B24非零。高sigma分母的原低jet积分性、实际cuspidal标签/原q-normal比较均未冒认。

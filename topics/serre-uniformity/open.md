@@ -90,3 +90,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R875原CM常数与首Cartier因子已证**：[完整2ba59332](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)。原τ†=1+ζ/χ6/平坦ω与六级相位给B²R(P†)²=ζ²α²C_p；先在char0证明bar J=−ζJ及J²=−ζ²2^kα²k!C_(k+1)，保P2=2/3、P3=1/(3√3)的split源投影1/2和准确周期，再在原Hasse帧B(P†)=B约化。只识别R(0)，不假定非零，不等同R871三次单位；原h1最小条件仍是R(P†)≠0且C_(p−3)≠0，R706反例及两旗/q-normal/height缺口保留。
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684及b/s/λ/ζ²一次、CRT6逆、246/82^10、c0c1、P0/P1/ν/theta二挠/完整Corr/nonp/splitting全部继承。ordinary43/776bit Gaussian5已排；Shapiroθ同Σ/C4杯积R779闭，不重。
+
+
+**R878原有限theta作用已证**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)。原E:y²=x³−1、ω、六级标记上，fppf τ与真实E[p]的norm1作用给规范真群律，kerD上固定1；H0(6pO)六条长度p的D链只含χ^0,χ^2,…,χ^p。原x/−xy的χ²/χ⁵投影经D^(p−1)/D^(p−4)分别为−B/B24，故真非零；扩大空间的原sigma低jet积分性、原标签与q-normal比较仍缺。
