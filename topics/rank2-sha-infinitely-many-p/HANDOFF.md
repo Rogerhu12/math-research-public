@@ -3,11 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：0e870924ed6004e4929ec37228280bc0f03c70a2；2026-11-16 17:42:34 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：b83dcf307af2d2e79318afcba78bd78c12781810；2026-11-16 17:45:44 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环。不改他人历史，不存/回显令牌。
-- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。每次实际pull核两README、仅读变更并记提交，至少每小时。下次最迟17:50 UTC。
+- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。每次实际pull核两README、仅读变更并记提交，至少每小时。下次最迟18:25 UTC。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；log每轮≤5行，不写根LOG。
-- 库存34353361B/2546文件，无超限，3旧真实输入块；规则15来源见旧档。最近只读CI run43914883095/job133466239198；本地最近pull重试仍无环境，数学仅公开CI。
+- 库存34493880B/2556文件，无超限，3旧真实输入块；规则15来源见旧档。最近只读CI run43921219767/job133488699864；本地最近pull重试仍无环境，数学仅公开CI。
 
 ## 完整检查点与分工
 
