@@ -1,0 +1,452 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "critical-e8-weak-cubic-positive-jets",
+  "executionSourceCommit": "13e260d7e925b57cf14ef6a83cf2c14b096f1ba6",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-cubic-positive-jets-789f.py",
+  "scriptSHA256": "634b258dec87cdba34d01a2be8f1ab61fce7f944b910b5c9438343b3b423a314",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--weak-driver",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--field",
+    "e8",
+    "--parent-out",
+    "{work}/critical-e8-weak-quadratic-positive-jets",
+    "--parent-receipt",
+    "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+    "--out",
+    "{work}/critical-e8-weak-cubic-positive-jets",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 330,
+  "exitCode": 0,
+  "wallSeconds": 3.571755551001843,
+  "fullTemporaryReceiptBytes": 5447,
+  "fullTemporaryReceiptSHA256": "47f5f0d8f78afd02180d32105f33b59af481c2c5cf741a8ed411d8f29306f387",
+  "result": {
+    "binding": "7a9ebc028a4634690aeb0c45fc9a949328706ac589a38339b31a55d86b4e9e95",
+    "elapsedSeconds": 3.4594687310018344,
+    "format": "r150-critical-weak-cubic-positive-jets-v1",
+    "scriptSHA256": "634b258dec87cdba34d01a2be8f1ab61fce7f944b910b5c9438343b3b423a314",
+    "status": "completed",
+    "parameters": {
+      "actualNaturalParameter": "t=s-alpha",
+      "additionalPositiveLengthLowerBound": 0,
+      "all6188OriginalJetProductsZero": true,
+      "allInheritedCanonicalProductsVerified": true,
+      "allParentTaylorCoefficientsMatched": true,
+      "candidateLeadingRank": 9,
+      "checkpointManifest": {
+        "bytes": 7757,
+        "file": "checkpoints/manifest.json",
+        "sha256": "1cfaadc5962f97fb5d6bc57c331d39dbb570d9010b7e5037679bcb38faddd0c1"
+      },
+      "combined": {
+        "allOriginalRowsVerified": true,
+        "inputShape": [
+          51,
+          49
+        ],
+        "kernelDimension": 20,
+        "kernelSHA256": "6a699e762550f591ad2ca198852a9db0880ffb7e1e7160bd8423eff78704de5b",
+        "originalInputSHA256": "ec5e38711357e33b9f1ed2284e46d8e8b9e1e6e0959fec5608ef56936b0df420",
+        "rank": 29,
+        "reusedUnitRank": 25,
+        "schurRank": 4,
+        "schurShape": [
+          26,
+          24
+        ]
+      },
+      "completeCochainCheckpoint": {
+        "bytes": 511264,
+        "file": "weak-cubic-full-original-jets-verified-b3049f8f31d0f09737f6eefc54c7a0d8e67c6f0cdd52adcdb48b9c1f6e13368d.json.gz",
+        "payloadSHA256": "b3049f8f31d0f09737f6eefc54c7a0d8e67c6f0cdd52adcdb48b9c1f6e13368d",
+        "sha256": "99e8f4c350924d1a3ec507feabe8ec5ff2bb6aa3ff2fc9200fd09c2d8707c411",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "completeHighSlice": {
+        "all6137OutsideRowsZero": true,
+        "allOldQuadraticColumnsIncluded": true,
+        "checkpoint": {
+          "bytes": 897437,
+          "file": "complete-weak-cubic-high-slice-b075e61200be0236b2a7d9ad1980e142f195e81e068c1be081d992ded8681bc2.json.gz",
+          "payloadSHA256": "b075e61200be0236b2a7d9ad1980e142f195e81e068c1be081d992ded8681bc2",
+          "sha256": "9687819f9ab929e1c1ef1c7780444c52bef6311d78852b060963fabd2e357120",
+          "temporaryOnly": true,
+          "verified": true
+        },
+        "cubicSHA256": "ae594502e24df10276a572b4ed1190f76b8765d282b13079dc0275b5569eb527",
+        "dimension": 2,
+        "lowReturnSHA256": "c3546584f5e4669438cab545e191e467dc64e7d891c9e7ebf5caba0317bbcfb5",
+        "ordinaryCubicValuesHaveNoExtraMultiplicityFactor": true,
+        "originalProductCoordinates": 12376,
+        "pencil": {
+          "allOriginalRowsVerified": true,
+          "allUnitRowsVerified": true,
+          "freeColumns": [
+            0,
+            10
+          ],
+          "independentColumns": [
+            11,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            9
+          ],
+          "independentRows": [
+            13,
+            9,
+            10,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "inputSHA256": "e86445e75f920c6b75213835c16a59be17ab0265e76480f892f7b6138492ad2b",
+          "kernelSHA256": "985b9162f0084f1979c905703cfd4bdee2c80dcd90242cda9893c8c37a25b305",
+          "rank": 10,
+          "shape": [
+            17,
+            12
+          ]
+        },
+        "quadraticSHA256": "f3bc27f13ea074a0c7c1156ca5d4d9226323917a4b30b97f88667ab03fcf884b",
+        "qvvSHA256": "7a4a9749c23394d38c3cb1b69d4be716230968246120e9f914282fa6122332e8"
+      },
+      "currentPhase": {
+        "name": "constant-profile",
+        "step": 13
+      },
+      "field": "e8",
+      "fieldArithmetic": {
+        "multiplications": 138378,
+        "verifiedInverses": 115
+      },
+      "fullLeadingRank": 13,
+      "fullOriginalLengthLowerBound": 4,
+      "helperSHA256": {
+        "field_helper": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jet_actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "low_generator": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+      },
+      "largeDataUploadedOrCommitted": false,
+      "lastJetOrder": 2,
+      "memoryMiB": 2048,
+      "minimalPolynomialAscending": [
+        9600,
+        -25472,
+        -3392,
+        15936,
+        -2888,
+        -936,
+        153,
+        50,
+        5
+      ],
+      "newCanonicalSeriesSolved": false,
+      "newMathematicalGainNotPrespecified": true,
+      "nineOriginalSquareReadouts": [
+        {
+          "nonzeroEntries": 0,
+          "order": 0,
+          "sha256": "ee9672f140cc1e0a74327868af8122efd8cc883988011cfed3eac59e1bf3bbe4",
+          "shape": [
+            9,
+            13
+          ]
+        },
+        {
+          "nonzeroEntries": 0,
+          "order": 1,
+          "sha256": "ee9672f140cc1e0a74327868af8122efd8cc883988011cfed3eac59e1bf3bbe4",
+          "shape": [
+            9,
+            13
+          ]
+        },
+        {
+          "nonzeroEntries": 0,
+          "order": 2,
+          "sha256": "ee9672f140cc1e0a74327868af8122efd8cc883988011cfed3eac59e1bf3bbe4",
+          "shape": [
+            9,
+            13
+          ]
+        }
+      ],
+      "noFullHigherConnectionLowerBoundClaimed": true,
+      "old25UnitSHA256": "a3dd9d22fd8be85edb1b96114a5e8095bcc5589514dee04cb744c0c846b843be",
+      "originalEquations": 17,
+      "originalJetProductCoordinates": 241332,
+      "originalProductSHA256": [
+        "d0c71b1c15d31c97fd4c9482eb87ed08aab02fba74ad781ff46990378fa8fc6c",
+        "d0c71b1c15d31c97fd4c9482eb87ed08aab02fba74ad781ff46990378fa8fc6c",
+        "d0c71b1c15d31c97fd4c9482eb87ed08aab02fba74ad781ff46990378fa8fc6c"
+      ],
+      "originalSources": 6188,
+      "originalTargets": 4367,
+      "paidFullLengthUpperBound": 5,
+      "parent": {
+        "binding": "6b2bd281d07a3796c302c5ca8a09d00f22433fb9501c62ff0df682733d8ce7f5",
+        "manifest": {
+          "bytes": 10411,
+          "file": "checkpoints/manifest.json",
+          "sha256": "555f91cb50825c78aec5bafc8289bc277fd9f8a30e76a775f7aaa33bf49fdcf3"
+        },
+        "rawBytes": 14267,
+        "rawSHA256": "dc8f194bbc11634cf60b3b40968ff3123d2cd60f61a87a752e7925e8744c90f7",
+        "receiptBytes": 29037,
+        "receiptSHA256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+      },
+      "parentReadOnly": true,
+      "quadraticPhysicalChecks": {
+        "all17PureAnd27LinearCrossChecksVerified": true,
+        "higherQuadraticTaylorCoefficientsNotFabricated": true,
+        "ordinaryMonomialPairs": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "originalJ2SHA256": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "originalJ3SHA256": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "quadraticConstantSHA256": "ead621b66c7aee877018db1f02485c2ecdff191598c5e852d8aebf57abda9226"
+      },
+      "remainingSeconds": 300.0,
+      "zeroGainOnlyForDeclaredSupportAndInheritedLowerJets": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:21:19 UTC",
+      "beforeReadCommit": "ffebf163f8d467d08fb319f7e1f5828868094ef9",
+      "originMainAfterPull": "13e260d7e925b57cf14ef6a83cf2c14b096f1ba6",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:21:23 UTC",
+      "beforeReadCommit": "13e260d7e925b57cf14ef6a83cf2c14b096f1ba6",
+      "originMainAfterPull": "13e260d7e925b57cf14ef6a83cf2c14b096f1ba6",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 109,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 37388,
+    "logicalJsonSHA256": "fcb4ea9224288d8977237baa89086541fdfdec4eaeff8118b1c0699eb4d3fb53",
+    "itemCount": 109
+  },
+  "lastRulesReadCommit": "13e260d7e925b57cf14ef6a83cf2c14b096f1ba6",
+  "summaryExcludesRecomputableArraysOnly": false
+}
