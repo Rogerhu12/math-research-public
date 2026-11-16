@@ -301,3 +301,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## Request223 — 真实39必要角色的完整原方法入口
 
 **完整来源实现；无新数值结论。** [223接口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与五执行/元数据文件已成，R512 formatter20883/f793已476f原字不动；新gen8310/1368、plan11271/6d70、recipe44258/3abc、outer26960/2d9d、workflow20571/c8ac正式dispatch。完整保旧213的112来源，当前112public＋4gen=116/recipe115；前两个祖先view仅生成保身份，当前helper75639/eabd与worker29678/f847接真实R512，其五表名/索引之外原数学/选择器/七操作/全部值、地址、错误/行序不变。原98重新恢复、最多8pair/39query/17档/全部freshFD、10500批间/175科学/195job/单90K70与owner清理保；无未知容量/提速/接受承诺，旧213未返末父不复用。R513/geometry唯一终态，实际run/head另核；新题内102736B、workflow20571B，无生成源/diff/raw归档。
+
+## R516 — 全E(3)有限覆盖与定量欧氏商距离
+
+**已证明（完整有限覆盖定理）；无实际数值或新科学门。** [全文](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)16623/3f6b5ea3：全像球/真实成员球→双向整面距离下界，四最大四元数坐标图×两个正交分量覆盖含反射全部O(3)，平移外界B=R0+R1+γ，六维闭盒下界L−ηR1−β；全叶支付才得δE≥γ及γ/Dupper。完整证明球误差/网密度/平方根/变换网收紧的条件有限终止，不保证既有C盒或预算。真实R425 active终端转1/4周、caps保持可复用两端覆盖；但原活动见证在反转时两向全对齐，必须补同场真实帽点才可能量出非全等，支撑圆心不冒峰顶。R20上界/R238定性路线仍有效，不把本路线添为完成门；R517/geometry接小内核，尚无accepted450或当前γ。

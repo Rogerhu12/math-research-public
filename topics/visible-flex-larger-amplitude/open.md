@@ -74,6 +74,8 @@ R459相对广义谱与准确材料共轭付全t；严格真误差下降、仅upp
 
 [217完整入口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)七件完整刊/正式dispatch：真实222/2d1c底座458＋7public＋8gen=473，原R489/R492/R495/R500/R504明确登记220新族，无展开源入Git。首shared后同原钟一次1440/six/cut重算与level0完整metric/measure；原220精化后按真实accepted level1/2在同一新C测量/比较，8stage各自原scope/独立90K保。原旧/new包围合法交/旧粗fallback、四Loewner/全闭域/材料共轭/全t责任保，同场upper改善不冒真实误差下降。新1800含cut120/close30、metric240/measure300/compare120与900计划都裁原18900+2700；原求解/held不依赖新consumer通过。217当前workflow路径检查明确、原2223120只祖先；清理217新marker/quiet→222repair→220九scope/quiet。R490/geometry唯一终态，尚无科学值或接受预填。
 
+[R516](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)完整证明有限全E(3)覆盖的定量δE下界：4四元数图×2正交分量、完整平移盒、双向成员点对整像球及盒内Lipschitz，全部叶付齐才报γ/Dupper；部分前沿不冒全群。R425完整active/cap终端可生成S0/S1包围，但原见证全在active，反向相位旋转使两向全对齐，须同场真实帽点；circle center≠峰顶，有限帽点仍不保证足够。R20上界/R238定性仍保，未有当前γ/accepted450/实际遍历；R517接小内核，不增原完成门。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
