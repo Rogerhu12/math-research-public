@@ -344,3 +344,9 @@
 - 五D仍原secant×h_g准确DAG；旧733节点全保，新inverse/点加法0。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；单Z数值、41四响应/Y/height/A.1仍false。
 - 原artifact14196442913整2.74MB ZIP真实重哈希01ae4657，全部11产物/来源字段已纯IO；9原件2.53MB carrier44d40476保存270原叶。R853 run43801910753也已success，立即读其真实产物；R855新高块稿正核原全尾范围。
 - 本push规则：本地真实pull至03bc2ba013aff1b24db686afa3561357130c2db8（2026-11-16T04:08:48.385066+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:15 Asia/Taipei — serre-public-astra-20261115
+- R855已证每个p>104190883、p2/5mod9存在原本原(m,h)使v_p(M_mh)=−m：m=eM−3a−3、a=0/2，原两Cartier指数为k_p与5/17，R851＋固定f0/f2给单位。
+- 同两h相差6且与完整p+1互素，原R734六步Legendre的三个固定分子7379644/104190883/44269867给至少一N_h单位；完整原norm/因子/全Fourier尾运输，未借异标签拼接。
+- root通读R705高权/全尾、R727原规范、R734递推及完整新稿；只改两TeX，无新数学执行。高阶m随p增长，原c_h保留，固定m2/主导项/高度仍未成；H/open先逐字归档再压旧已闭边界。
+- 本push规则：本地真实pull至27ed408f0397c8c612e71e21ef425e27e1a34a81（2026-11-16T04:15:36.948946+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

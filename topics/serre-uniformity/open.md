@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保于[半对偶与实际纤维前open](notes/2026-11-16-open-before-dual-half-and-rigidified-fibres.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+最新完整前态逐字保于[高阶Abel单位前open](notes/2026-11-16-open-before-higher-Abel-unit.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
 
 **直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
 
@@ -65,29 +65,17 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
-### 全p sigma：同一个真正可见标签的三个单位
+### 全p sigma：同一真正可见标签与高阶Abel
 
-真正目标为同一primitive/Legendre可见h的N_h与两个Cartier量同时为单位；不能拼R734/R741/R737不同标签。R739真实p41/h37否定筛内逐项单位反射；固定有限窗不外推。R697/698原平方根、R782/R784全wedge/筛保持左逆、R788跨p六核与Schur只给结构，不排有限域相消。C13单位不能消N+1高带；D/D6闭包恰L(pO)，固定维闭合捷径关闭。
+此前全量公式、来源、数值及关闭边界逐字保于[高阶Abel前open](notes/2026-11-16-open-before-higher-Abel-unit.md)；未撤回任何范围限制，不重算。固定m=2真正目标仍为同一primitive/Legendre可见h的N_h与两个Cartier量同时单位；不能拼R734/R741/R737异标签。R739原p41/h37反例、R697/698原平方根、R782/784全筛左逆、R788跨p六核等均保；有限全向量/单位矩不排指定模p相消。
 
-此前Hurwitz、Serre/Cartier、cosigma、原模参数heat、奇/偶/全六水平化、critical曲率障碍、五次lift及Legendre矩阵系数的完整公式与来源逐字保[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)。已证首p边界源与全向量非零、有限链单位矩、各覆盖零曲率；均不推出指定same-h三单位。原W上无漏出的水平对角作用仅常数，primitive×Legendre权不恒定；不可删除非水平交换子，不能重开已关闭的对角延伸/固定维闭合捷径。真正原配对仍待识别。
+已闭有限表示入口：R808原Gram商为Sym^(2r)det^(−r)，r=min(h−1,p−h)，同一e0/Frob-Hermitian/Tζ/Nh；R810原P_Texp(tE)P_T=P_r(1+2t²/3)P_T有全偶单位矩/Hankel，但P_T非水平，必须保[K,P_T]。原W无遗漏水平对角作用、固定D/D6闭包恰L(pO)、C13不消高带；全链非退化不证same-h单位。
 
-**R808/810已闭有限表示边界**：[R808原Gram商](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)准确为Sym^(2r)det^(−r)，r=min(h−1,p−h)，原e0/Frob-Hermitian/Tζ/Nh均运输；原sigma仍Kraw混合，同h配对未知，不重有限norm识别。[R810](results/R810-original-toric-unit-moments-and-curvature-chain-pairing.md)原P_Texp(tE)P_T=P_r(1+2t²/3)P_T给全偶单位矩与Hankel非退化；P_T不水平，必须保[K,P_T]，不能据全链非退化宣称指定sigma单位。完整此前推导保[本次归档](notes/2026-11-15-open-before-Kronecker-square.md)。
+惰性Gaussian真源c2855a43为F3/F7(level36)、G1/G5(level144)、nebχ12及原π2/1/d。R826的G1/G5两值零、六old指定和仍缺；R828原二部分等距/R831 Weil交换子不能再压old。R830真p导子weight6 level36p²/144p²不降到tame权6，不套固定tame BDP。R833/834的Serre/KS指定原P0配对保完整原标架，全球非零不定位P0。
 
-**惰性Gaussian原源固定分解（已证明接口）**：[四个CM形式与八oldform](notes/2026-11-15-sigma-inert-Gaussian-rayclass-source.md)。原mod6 harmonic7准确分解为F3/F7(level36)和G1/G5(level144)、nebχ12；模6单位相位/π2与1/d原函数常数全部保留，八源矩阵是Z[ζ8,1/2]整基。原p11mod12 Hecke多项式T²+p⁷与U_pJ=−p⁵V_pJ给逐系数整性；由原U及Q正则得八个缩放原CM值的合法评价，真实FG=(c²/32)Σκνeν,p。尚无指定组合非零；固定八运输已由R826准确完成，不用标准七次Eichler积分或Frobenius斜率代值，不新增素数窗。Schütt Thm1.4已独立核全文。SHA c2855a43758242ad1dd2f1ff2f4375ada8a4e9bd36e3e72574b2854ee62a7e30。
+原unitary交叉heat173077d4保∇=D−M−∂z∂t/6−3Xzt/2、曲率6B²zt及指定degree p+1源，同h投影非水平；FG一次横向零不删角点。KS288607b5/XF7a937bb1/PLcd831959/PC152a9cc6保原平方、Fermat/CM周期、C首p分母及非水平第二period。CRb85ab474的指定留数S=αR_p/1458、P1下降38d7d105及cusp78f5d9e5只给全局Carβ非零，不给指定P0或same-h。旧中央/三分窗口9560403b/543d03f8与Toeplitz边界e3ba7a28不可挪到R851新h。
 
-**原unitary交叉heat与同h投影**：[笔记](notes/2026-11-15-sigma-unitary-cross-heat-and-primitive-source.md)173077d4保实际H/J/C三同源、36theta/full72、原FG及全部两边/角点。∇=D−M−∂z∂t/6−3Xzt/2、P0曲率6B²zt；首p原整数差Legendre×primitive权W水平，指定度p+1源为6⁶B⁷Σ原同h项，其非零未知。μell仅共同jet、FG一次横向源零，不能以全向量单位代之；这不重开旧6I family对角延伸。p12k11中央h6k7虽primitive，辅助Legendre j2048/3不等原j0，三单位仍缺；R829 p47乘积21及R706 g_N零直接复用。详式和旧边界见[本次压缩前open](notes/2026-11-15-open-before-critical-Cartier-residues.md)。
-
-**R815八probe九维固定调度已关闭**：[真实结束与边界](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)run43767171070/source278d1920，18.795483531秒，一完整9格detU=1/九行九D，8新拒均原(0,0,2)精确非零，1复旧拒；baseline也复旧。finalf62a760d/manifestd19adcca、artifact14183811013/21cf154d；只有这九行耗尽，非全格线性组合/非Mg不存在/非425不足。原Mg/Γ仍未成，旧三列/格/49拒不重跑，原深CRT继续。
-
-**原平方、周期与指定留数**：[KS](notes/2026-11-15-sigma-Kronecker-weight-one-square-and-critical-convolution.md)288607b5保十八项S_(p−6)=−192Σf_i²g_j²/Q_h；[XF](notes/2026-11-15-sigma-original-X6-weight-one-and-logarithmic-square.md)7a937bb1保原Fermat、CM点、E=6ρx、Ωη相位及对数微分。[PL](notes/2026-11-15-sigma-original-Schwarz-frame-and-critical-Lagrange-source.md)cd831959给t=−2A/(3αC)、K=αCx/12及首p合法S=−[U^(p−1)]x²A⁵/(DC⁵)/4374；C首p分母U^(p+1)及逆Schwarz变换不容删去。[PC](notes/2026-11-15-sigma-original-PF-cusp-Cartier-and-period-correction.md)152a9cc6给κ=4/a_*²=−8c_r、rank1幂零p曲率和Wronskian1−κU^pJ，C非第二水平周期。
-[CR完整留数](notes/2026-11-15-sigma-critical-Cartier-residues-on-original-X6.md)b85ab474新证：原β=(A/C)^5α0全部极阶≤11<p；实际τ三挠平移的非平凡character排正则余项。β=x^pν(y)、Carβ=xΣres_a(ν)^(1/p)dy/(y−a)，原P0只取R_p=res_(y=2/α)ν，S=αR_p/1458。CR16将它严格化为[w^(2N−1)](2−w)/(1−w)·(a/c(w(2−w)/8))^5乘−1/96。仍缺这个指定留数非零及原两变量same-h primitive/Legendre平方筛；未筛非零不代筛后非零，其他留数非零不代指定值。
-
-
-**原P1下降与各类C根留数**：[P1下降与C根留数](notes/2026-11-15-sigma-critical-P1-descent-and-C-root-residues.md)38d7d105给原β直接下降P1_x、∞留数全零、Carβ=F(x³)dx；简单/双C根的4阶/9阶与cusp完整11阶留数式保原Z=1−κU^pJ。c_*非零时全局Carβ非零，但指定P0值/同h仍未知。
-
-
-**原cusp留数固定非零**：[cusp固定非零](notes/2026-11-15-sigma-critical-cusp-residue-nonzero.md)78f5d9e5保c_*=0的完整11阶极部：原L=72U·M，有限jet给resβ=(yc/3)(A(d)/λ)^5K，K∈Z[1/30]且纸证K≡11 mod13。故固定有限例外外全局Carβ非零；仍不定位P0或原同h三单位。
-
+R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一步通过可变高阶m将这一单位与固定C5/C17及同两标签Legendre六步法配合，见本页末结果。固定m2问题与原高度仍开放。R815八probe九维固定调度/49拒已关闭，只该九行耗尽，非全格耗尽或Mg不存在，深CRT继续。
 
 ### ordinary真实值与原全局对偶
 
@@ -135,3 +123,6 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
 **R853三条原V1共轭已提交待运行**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
+
+
+**R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。

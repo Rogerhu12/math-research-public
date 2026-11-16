@@ -146,3 +146,6 @@
 - **R853三条原V1共轭已提交待运行**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
 
 - **R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
+
+
+- **R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。

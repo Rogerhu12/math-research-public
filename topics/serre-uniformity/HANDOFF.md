@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：03bc2ba013aff1b24db686afa3561357130c2db8**（2026-11-16T04:08:48.385066+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[三V1运行前完整H](handoff-archive-2026-11-16-before-three-V1-run.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：27ed408f0397c8c612e71e21ef425e27e1a34a81**（2026-11-16T04:15:36.948946+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[高阶Abel单位前完整H](handoff-archive-2026-11-16-before-higher-Abel-unit.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,7 +31,7 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 **R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
-其余正在实施：ordinary_local R854真实41四响应核，exact_height R853三条真实cτ/cσ/cw0（原560行/146选行）及有限RR；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
+其余正在实施：ordinary_local R854真实41四响应核，exact_height R856完整Cusp+P0理想块与有限RR；R853已success待读全部产物；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
 
 ## 真正全p缺口与已闭边界
 
@@ -39,20 +39,11 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与非零torus商维≥g+1、μ3的qφ*=0均不删Y或给高度非零。原sigma须同primitive/Legendre可见h三单位；R739/R741/R737异标签不可拼，CR/HC/CN全局非零不代P0，同标签f仍缺。旧双标签Legendre窗口543d03f8不移到R851新h。R808/810/unitary交叉heat/R830真p导子等已闭。ordinary43/776bitq已Gaussian5排，Shapiro/θ同Σ及C4/T²杯积只复R779；共同c1不分歧不代height。全部具体旧pins见完整归档。
 
-**同标签三次CM companion**：[四同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b保原χ6/θ、导子6p/level108p²、完整Gauss6p及周期p尺度；ψ+=C_(2p^e)秩1、ψ−=C_(4p^e)秩0。坏p functional及同标签f/Legendre仍需实证。
-
-**原41 sigma输入**：[41S](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af保L41(e7/f2)、公共E(e42/f2/84次)；Frob²=−41使[42]送全部原点入形式群，原A≥1/7/u≡1。原帧、L/Z/ψ缩放与optional41^a尾/2a损失齐全；41四响应和实际Z未算，辅助518不用。
-
-**原Y连接**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5由128维RR移到254度T，保c/a(P1)；634微分/508主部/秩507给α0−dloga。原e须真f=de/挠N/刚性化；同一实际Hecke L和完整nonp纤维U给YP35。a/T/N/L/U均未算，inactive/torsion不删。
-
-**原单Z公式**：[ZA](notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md)268fa3fb证ψα=αx及RF相消；零阶仍留Mratio/原纤维。原ρ/σ/斜率与41唯一14坐标完成处给3(Bg−p/qBf)=7trχ,L(C_j Z+D_j)，T^7=ζ²/原尺度/规范trace全保。ZA32接同一Y/Hecke/nonp行；系数/41值/高度未算。
-
 **R851全充分大允许p的原g单位**：[R851](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257、p2/5mod9，e=1/2，k=(3−e)(p+1)/3，h=e(p+1)/3−3本原。真D=4p^e中心整数S非零，Rubin坏惰性p/Cassels偶赋值＋AFE |S|<p²迫单位；原CRT/周期/μ全尾给C_k与g_(k−2)/6单位。同h f/Legendre仍开，不能拼旧标签。
 
-**有限RR矩阵**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4由两完整生成矩阵/清分母/实际minor给有限余模核，免先HNF/闭点分解。三V1复用560×146；δE用R813 g/h(6724一次)和R820两272列Cν，无Γ/Mg。模kernel不代char0；128/634 RR未执行。
-
-**单Z消费**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定原2420/four-response/17常量/529→733。直接L41十四坐标球，真逆范数＋全残差；[42]/ψ₂=−2y/6n−1完整尾；ZA五C/D及7tr固定，原Y/ℓ/nonp不删。
-
-**R854算法**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：原2560×2420完整cleared算子同free1186，真实20×20尺度246³κ^(m+1)/rhs−C_free。行饱和全minor理想下降；实际unit行/逐行T给左逆界，整化尺度减回；F41²逆＋单rhs π-Dixon＋全129×20×14残差才认球。无新41数值。
-
 **R853三条原V1共轭run43801910753已success、正式产物待读**：[契约](notes/R853-original-three-V1-conjugates-method.md)bd82f308；core5b65e7cc/wrapper5bb1bf50，原R786152/R8069/R8378共169件最小闭包。旧560×146矩阵/选行上仅三rhs准确solve，全560×3乘回；原τ0/σ=e1+e73/w0=e2与6724保。三normal向量直接运输，cY(z/w)的16节点保原W34/cyclic引用；三个K(z)solve明确deferred，非272作用/新RR/period/height。
+
+
+**后继源接口不重做**：完整证明/pins在上方H归档及open。41S133d64af：L41(e7/f2)、[42]深盘/原尺度，全尾已证；YPbdbb6cc5：128/634 RR、原c/a(P1)、真e/N/Hecke L及nonp行；FMa5d65aa4：两图完整生成矩阵/实际minor给有限余模核，不先HNF；ZA268fa3fb：ψα=αx、T7=ζ²、7tr(CZ+D)与Y/ℓ/nonp完整公式；41C569aa684绑定同2420/四响应/17常量/733源。R854ab970169完整2560×2420清行与DVR饱和停止/逐行左逆界已证，实际41四响应/Z仍缺。原三次CM b738750b保真导子6p/周期p尺度，同h固定m2仍未闭。
+
+**R855原本原高阶Abel单位已证**：[结果](results/R855-original-primitive-higher-Abel-unit-from-cubic-Cartier.md)efde3e02：每个p>104190883、p2/5mod9，n=6M=p+1、e=1/2，a=0或2、m=eM−3a−3；取两方向中奇h使两个原Cartier指数恰k_p=2(3−e)M与6a+5。R851和原f0/f2给两单位，完整原norm/高权核与全Fourier尾保v_p(M_mh)=−m；同两个h相差6，R734精确U5在三种余类的固定非零分子迫至少一N_h单位。原h与p+1互素、同(m,h)三因子、全部阶乘/周期/相位均保。m随p增长，未给固定m2三单位、首项/整盘主导或高度；c_h保留，主目标OPEN。
