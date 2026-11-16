@@ -1,0 +1,170 @@
+{
+  "format": "isp-original-bell-fourth-even-manifest-session-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "7ba35e365e3314af5f96bcdf3cc34172141103d0",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "sessionScriptSHA256": "045f23e0ed6601c9bd65bb9fcc26fcce41393eddd98fc3ea5d07c6a7372f655e",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 300,
+  "closeSessionWhenStepsComplete": true,
+  "sessionWorkMinutes": 80,
+  "workflowHardMinutes": 90,
+  "steps": [
+    {
+      "id": "original-bell-fourth-complete-prime7-audit90",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+      "scriptSHA256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+          "sha256": "213c10f680c5325e62b5245b0796062b5024c1499e9d1d68346ad65868d120dd"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--producer",
+        "{scripts}/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+        "--model",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/prime7-audit",
+        "--seconds",
+        "90",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/prime7-audit/original-bell-cube-complete-prime7-coefficient-audit.json",
+      "mathematicalScope": "Reconstruct the exact original rational model and all17 gradients,3 cube coefficients; check every prime7 denominator and all three original field products. No rank or new membership conclusion."
+    },
+    {
+      "id": "original-bell-fourth-even-three-source600",
+      "requires": [
+        "original-bell-fourth-complete-prime7-audit90"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
+      "scriptSHA256": "a07425b29d36c685a7165436ae3acb51d633d159ccc7864294c21e9c92a580d2",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+          "sha256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e"
+        }
+      ],
+      "argv": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--audit-driver",
+        "{scripts}/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+        "--audit-receipt",
+        "{work}/prime7-audit/original-bell-cube-complete-prime7-coefficient-audit.json",
+        "--audit-out",
+        "{work}/prime7-audit",
+        "--out",
+        "{work}/original-bell-fourth-even",
+        "--singular",
+        "Singular",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600,
+        1200,
+        1800
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-bell-fourth-even/original-bell-fourth-even-extension-receipt.json",
+      "mathematicalScope": "All3 exact rational fourth targets and independentF7 products; actual slimgb2->3 SSI/lift selftest; equal-weight H=z^2 slimgb12 only as discovery; require all51 literal original sources, U3=I, full three extended and original-H products. No bounded-standard-basis completeness or negative claim."
+    },
+    {
+      "id": "original-bell-fourth-three-exact-Q-source600",
+      "requires": [
+        "original-bell-fourth-even-three-source600"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-three-q-exact-source-789f.py",
+      "scriptSHA256": "52eaf0382faa9ab6f6309b541f55ab290eae45a770f468f6dc31c3c309893172",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
+          "sha256": "a07425b29d36c685a7165436ae3acb51d633d159ccc7864294c21e9c92a580d2"
+        }
+      ],
+      "argv": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--producer",
+        "{scripts}/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--field-out",
+        "{work}/original-bell-fourth-even",
+        "--out",
+        "{work}/original-bell-fourth-exact",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--max-unit-rank",
+        "512",
+        "--max-support",
+        "3072",
+        "--profile-batch-rows",
+        "256"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-bell-fourth-exact/original-bell-fourth-exact-source-receipt.json",
+      "mathematicalScope": "Strict whole field-source binding; sparse original support and batched original rows select a true Q unit; all3r exact products and all three complete originalQ Bell4 products are mandatory. A failed selected section is not nonmembership."
+    }
+  ],
+  "sameJobPolicy": {
+    "genuineBudget75": "Only an actual75 resumes the same source/out/binding with increasing600/1200/1800 budgets; source syntax/input/memory/product failures are not retried automatically.",
+    "wholePhases": "Only complete target files, SSI roundtrips, source text prefixes, original products, and Q unit solutions are reused. An in-process unreturned basis is not a saved prefix.",
+    "deadline": "The immutable session wrapper checks that the full next outer budget plus120s fits the80minute work deadline and88minutes after workflowstart. Otherwise it starts no new mathematical task and records the actual incomplete status.",
+    "exactStage": "Exact Q runs only after a successful field stage, and explicitly returns a nonnegative prefix if no full three-source candidate exists.",
+    "dataLifetime": "All regenerable arrays remain within this one job. No temporary files from the prior direct9 job are assumed.",
+    "actualRules": "Real pull/read both README identities before steps/publication and before30minutes during long arithmetic.",
+    "repositoryPolicy": "Only source, parameters, run identity, output size and SHA256. No raw computational data, Release assets or split binary files."
+  },
+  "largeDataPersistenceAllowed": false,
+  "computationalOutputsInRepositoryAllowed": false,
+  "mathematicalProgramStatus": "Only the separate local complete fourth-target preparation has executed. New Singular/slimgb/lift and Q source tasks have no prefilled result."
+}

@@ -1,0 +1,100 @@
+{
+  "format": "isp-local-source-parameters-execution-sha256-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "execution": "local-20261116-original-bell-fourth-even-prepare",
+  "executorSessionId": 15804,
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
+  "scriptSHA256": "a07425b29d36c685a7165436ae3acb51d633d159ccc7864294c21e9c92a580d2",
+  "scriptBytes": 40008,
+  "argvTemplate": [
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--audit-driver",
+    "{scripts}/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+    "--audit-receipt",
+    "{work}/prime7-audit/original-bell-cube-complete-prime7-coefficient-audit.json",
+    "--audit-out",
+    "{work}/prime7-audit",
+    "--out",
+    "{work}/fourth-even-prepare",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "prepare"
+  ],
+  "actualLocalWorkRoot": "/tmp/r150-normal-789f-20261116-1040",
+  "exitCode": 0,
+  "elapsedSeconds": 99.27888742099458,
+  "receiptModifiedUtc": "2026-11-16T11:38:54.327114+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "pythonFlint": "0.9.0",
+  "binding": "99564113529d2a6ee2e6ef494ecfe162ba5c0fcc4810035173580fed4f78b899",
+  "outputs": [
+    {
+      "bytes": 5458,
+      "path": "original-bell-fourth-even-extension-receipt.json",
+      "sha256": "d6c4c13e6ec75d256fe21055a9751dbe4437dcf344993a9360fc85b6e80eedef"
+    },
+    {
+      "bytes": 3402,
+      "path": "manifest.json",
+      "sha256": "ef0f8bfca3f99b5ddf44401b5bb53d827f8b787cd51550481f9494d39620eb29"
+    },
+    {
+      "bytes": 15634167,
+      "logicalBytes": 50350408,
+      "logicalSha256": "1cae067bf289a6b6006203cb135131a145263cbb02919f758858dd804cc44d5f",
+      "path": "complete-original-even-extension-base-model.json.gz",
+      "sha256": "3e099179bbfb29a6ed92cbab3511d27b6df59d6a88923a6374101f6eef7e3bda"
+    },
+    {
+      "bytes": 57085952,
+      "logicalBytes": 173373738,
+      "logicalSha256": "9acd2c6662e94a25b7d3b8451c1c5d74cc1cad64bb6c3579eff6d9839bec222c",
+      "path": "original-rational-fourth-component-0.json.gz",
+      "sha256": "f5d08d2b42b5901f0823ce9996aff14c3f4908abf6762ded5b03f411a1bb0097"
+    },
+    {
+      "bytes": 1591829,
+      "logicalBytes": 12270855,
+      "logicalSha256": "8b8402ff040469647c51069ce1afb497d18970498941587091bccb2c3ffef0b1",
+      "path": "original-field7-fourth-component-0.json.gz",
+      "sha256": "635fd62a916d68e5b702e47c9fc7c3feeeac8e0417b6270f47908b611b57f3a8"
+    },
+    {
+      "bytes": 59665160,
+      "logicalBytes": 173529815,
+      "logicalSha256": "aa2effaa8d5a452cba837544767bb5b890e0768945c339052b2b23cc433d90f6",
+      "path": "original-rational-fourth-component-1.json.gz",
+      "sha256": "6a5b0ec4ec099d3191015acdbfb44e951624a2df972261905e7dcfcd2eac7b4b"
+    },
+    {
+      "bytes": 1592132,
+      "logicalBytes": 12269333,
+      "logicalSha256": "93de4d120db12838e5f544eadb78c27b86782eaefb2b66fe7890fb05b80af279",
+      "path": "original-field7-fourth-component-1.json.gz",
+      "sha256": "7dc90f15eda21774919df7c733491fbddadd7fd2a803cd385f801217133d65d5"
+    },
+    {
+      "bytes": 61315468,
+      "logicalBytes": 173619193,
+      "logicalSha256": "67a2ccab41ad6eabc2197841b3180343ed8cad71d583f98bfeb9a2baac990cda",
+      "path": "original-rational-fourth-component-2.json.gz",
+      "sha256": "790b0f5ff089994a87699578f56a14fc76ecce40634f42bb6dfd2fc72934a0de"
+    },
+    {
+      "bytes": 1588508,
+      "logicalBytes": 12241174,
+      "logicalSha256": "9edec431e5ad6e82acdd4da0021151acbb2f2a85f0eca815d7d1a0a5b93acf04",
+      "path": "original-field7-fourth-component-2.json.gz",
+      "sha256": "948d87ee91b2d5b9d5b18ba810d431732849ba756ad0e9bba11207422c37b76c"
+    }
+  ],
+  "computationalArraysPersisted": false,
+  "rawComputationalReceiptPersisted": false,
+  "note": "Only the preparation stage was executed. No Singular discovery, source extraction, or characteristic-zero membership is recorded by this execution."
+}
