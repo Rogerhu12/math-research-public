@@ -216,6 +216,11 @@
 [207完整入口](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)已全文/完整原205差异读后发布：request21956B/c798f376、workflow98422B/37f426a2、接口21153B/cf233c72，三源与条件证明R458已刊61744a58。原20597406B/06ae子合同和95760B/726d工作流明确保留，新job执行其全部原科学块，154pins不替换、新增75共229；原六小时/18900+2700钟不改。原全部必要读回后、清理前接真正R456五factor2→M128四factor1、各场五几何/独立held/R459测量t4、8、16及单份比较；原七必要再加新单90KB/70及所有真实owner静止，才清同一临时现场。无fixture或新增接受门，R461显示/R462联合far不接首版。新请求路径push触发公开仓库自己的Actions；实际R460/source/run待官方绑定、exact唯一终态。目前没有新accepted450/M或误差数值，不以入口完成冒README完成。 本次新增.github/workflows/visible-current-C-actual202-joint-refinement207.yml，用于本课题同作业联合精化计算。
 
 
-## 2026-11-16 04:06 UTC /root — Request207官方运行绑定
+## 2026-11-16 04:02 UTC /root — Request207官方运行绑定
 
 **执行状态，非数值接受**：[207公开run](https://github.com/Rogerhu12/math-research-public/actions/runs/43801267782)已由提交1e05442404d3867fc09589a523e594202efde7c0于2026-11-16T03:58:34Z真实push触发，attempt1、compute133081849462；官方metadata见前12步骤成功，第13连续E cover正在运行。exact唯一负责R460终态必要日志，root不重复读取；新job所执行205子合同不冒原205 run，尚无精化或误差结果。
+
+
+## 2026-11-16 04:03 UTC /root — R412实际195终态
+
+**数值证据；资源未完成，未构成正高度数学拒绝。** [R412](results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md)据actual195公开run43771125613/source4ad7fb771218585af1091c9d322c9d61b64a949c的两份唯一原日志与单必要正文41421B/e43d25f6给出完整执行范围。全部127pins、699节点、112模式/224方向/226态/双mean、原18000秒及全部门保持；有限RHS/RMS预检通过。零H请求5063.5455199240005秒返回norm0，无最终J/audit；正s=1/64请求12912.70058027秒在stage368/rawCell5/rawSegment7的有限root切向资源停止，未返完整current J/当前residual，无原iteration/trial、R273 correction为0，FD/fullDN/最终338×112 J及物理audit未起。局部45540个root返回/45539个完整local J是累计实际调用，不推全部576阶段或接受；requested_jacobian=false只省最终返回J，不省内部Newton withJ。巨大warm数值不证明唯一原因，没有逐函数计时；现有224列已批处理、fromCaptured未重跑primal，下一改写须保实际因子/回代缺陷及全责任，不冒浮点逐词等价。原18000秒受控退出124、必要完整/owner与rules parent静止，2026-11-16T03:47:13.6632365Z实际清理；无非零接受父，已删SHA不能续现场。新后继仅公开Actions，R465先纸证与源码切点，不盲加预算或减列/均值/门。
