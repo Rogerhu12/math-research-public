@@ -1,0 +1,67 @@
+{
+  "format": "r150-original-parameter-seed-compression-local-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-isolated-execution",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "blob": "025821b76d7b9a982a52d0ecc205065097ecd66b",
+    "bytes": 20434,
+    "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+  },
+  "inputs": {
+    "blob": "6e4b48832dfaa100c9596e2d70a266495d9a06ff",
+    "bytes": 3090,
+    "sha256": "2ae06a8127aedaa09261c3e1bc444ea8a2432d638202bd1c432a677e06317e26"
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 768,
+    "through": "final"
+  },
+  "interpreter": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "out": "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+  "status": "completed",
+  "exitCode": 0,
+  "elapsedSeconds": 47.609104284012574,
+  "includesNativeCompile": true,
+  "peakRssKiB": 90836,
+  "childPeakRssKiB": 162364,
+  "binding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+  "rawReceipt": {
+    "bytes": 4214,
+    "sha256": "9c4c1d20b331ccf19cf9f732c901b0cd2de6b02895c76405ed603a711db547fe"
+  },
+  "log": {
+    "bytes": 5300,
+    "sha256": "bf8b8c5cfa4d52a46e8f5a436e8df8009704109c4736f5500135940fd1a04cc0"
+  },
+  "manifest": {
+    "bytes": 4401,
+    "path": "complete-parameter-seed-compression-manifest.json",
+    "sha256": "aeff1ffda616285363d0a709b436b77ab0a8e24b5accec91dc187bc55feb9490"
+  },
+  "outputPhases": {
+    "complete-original-compressed-parameter-seeds": {
+      "bytes": 103844,
+      "logicalBytes": 634570,
+      "logicalSha256": "faefae59b46fcf136bf63c4c8fe37ac617d2334e1a8e41ae0495e8a135d8c13e",
+      "path": "complete-original-compressed-parameter-seeds.json.gz",
+      "sha256": "ecca472ef108b375cfa68fab606b77ba8323c6eed664df12ed96ee54cd0f44bc"
+    },
+    "complete-weight6-seed-compression": {
+      "bytes": 2952,
+      "logicalBytes": 23392,
+      "logicalSha256": "69b870b1ca76ad474239c39356bd52b0da350adb04f1bfee78c48a9b24fecad1",
+      "path": "complete-weight6-seed-compression.json.gz",
+      "sha256": "d246a6e29541d6f8adf230e34b5c2f14113fcaed1785ba727641e788e5c47cee"
+    },
+    "complete-weight8-seed-compression": {
+      "bytes": 94454,
+      "logicalBytes": 597681,
+      "logicalSha256": "b1226367cde3e308e4ae4f8722d13033f6edf6708c98c4019e98b436b0fcd25b",
+      "path": "complete-weight8-seed-compression.json.gz",
+      "sha256": "37cf58c92c5d94a74410b16686a771d9910effa8080021cdc75dcb2c0af154b4"
+    }
+  },
+  "temporaryMathematicalArraysCommitted": false
+}
