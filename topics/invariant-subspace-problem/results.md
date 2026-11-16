@@ -170,3 +170,5 @@
 - **R271相邻创建来源的完整右配对及真正帽运输（2026-11-16，已证明）：** [完整h段与原全核证明](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)对η⊥K_Q、支撑≤Q保<Rr,P_EYη>=<Ur,η_left>−<Jb r,Yη>，全配对≤||w||||η||。原相邻σ/α创建族满足此门，付3e8||w||Δ/x，外投影交换差付4e8||w||Δ/x；真E/逆伴随/帽E按原次序运输，裸端误差保留，帽费乘1+C0²。原主V⊥缺陷也被完整支付，剩同一PK_Qf的实际返回测试；不以小核投影或Bessel冒普通右费，N=M仍开。
 
 - **R150原高亏秩例外的完整自由35基及精确长度（2026-11-16，已证明）：** [同原对称矩阵的完整分辨率](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)给15→35→21→1，原余维≥3通过两次深度/无挠消去所有中间同调。完整HS=(1+3t+6t²+10t³+15t⁴)/(1−t)，将已付35原单项式生成严格升级为E[μ0]自由基；μ0=1的全部rank4例外代数恰35维且非空。纯代数证明复用原21系数unit，不称约化/35互异点，不关Bell1余关系或普通ISP。
+
+- **R150完整原mean秩三概形的整曲面与完整交几何（2026-11-16，已证明）：** [原六双线性方程及两投影](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)由原不可约六次pencil、rank≥4和长35例外严格给E上整的dim2 CI。保Rp Koszul的d4，得P5正合层分辨10→24→15→1、Hilbert多项式10n²−15n+11、degree20/截面算术亏格26；h(O)=(1,0,10)、ω=O(2,0)，交数u²6/uv15/v²20、K²24。整个scheme Z上是真P1核丛，不称35互异线、光滑/正规或几何整；全Bell余关系与普通ISP仍开放。纯证明复用三已付原父，不新跑矩阵。
