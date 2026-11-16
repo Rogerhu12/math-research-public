@@ -44,10 +44,10 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 10:00:04 UTC）
+## 5. 正在接续（2026-11-16 10:18:03 UTC）
 
-[三原子](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)36起点/2119值/4.541460807000007秒，best原G∞.0014877791991098396；[四原子](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)run43845218578/research133223574326/report133223910029/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8，64起点全返回/2071值0fail/最后 **6.541216640999892秒**，best原G∞ **.0014851172678647607**、H.6104871150176137（start46中间seq2925）。均无候选/无有理证书，账户随固定起点完成闭，不重开余额、不推全局无解；接完整凹图的联立符号条件。
+[四原子完整搜索](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，best原G∞.0014851172678647607、H.6104871150176137，无候选；账户闭，不重开余额，不推全局无解。三原子旧36亦闭。理论继续完整凹图 .6<H<2 的Re/Im联立条件与完整13状态周期桥。
 
-[全168当前导数设计](notes/complete-body168-current-state-selected-jacobian-design-20261116.md)复用当前u9/v8/Q1角核，新8列不增FFT，旧5+γ高度完整收缩；方向全网JVP不铺168张量。新9已完整接受56，下一步对非零新9的同一当前场求全168联合模型。旧基函数可复用，但T及所有混合链式导数、原scalar收缩须用当前56；不能把55旧159导数拼到新9。原四原子账户已闭。全168新task以真实56为中心，172准确物理盒和h=4||Mδ||∞≤1、原hard/soft/actual门均保；从当前完整场重新求必要导数，旧55任务不重开。
+**[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)已发布、待Actions结果。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。源码与request-true56-joint168.json在本提交；待记录run/source。
 
-主完成门未付，继续open。
+56原CACHE2无完整二jets，必要ordinary计新task。读56原log并另只读55 COMPLETE取得永久参考构造，不执行旧科学。成功唯一INPUT保存当前J/g，MODEL不重复大阵；所有payload仅stdout。有限变量明确delta168/rho/h共170；完整first-order与affine-observable标量预测分开，实际14门和172盒最后验收。主完成门未付，继续open。
