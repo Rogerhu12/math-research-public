@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：241f5299751dd5582457758e64652dd73d04f4c9**（2026-11-16T11:09:11.633681+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[高分布前H](handoff-archive-2026-11-16-before-full-theta-distributions.md)（9973B/ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e）；该归档连接全部早先状态，所有已证结论、原pins和限制仍有效。
+**已读规则提交：49fefaeb875a3a790c9d175212d409a2fe21e7e1**（2026-11-16T11:17:56.065217+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[高分布前H](handoff-archive-2026-11-16-before-full-theta-distributions.md)（9973B/ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e）；该归档连接全部早先状态，所有已证结论、原pins和限制仍有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。07:19终端失联后使用本公开恢复workflow真实partial/sparse git发布；10:54终端恢复，已备发布继续同流程。
 
@@ -45,7 +45,7 @@ R787 [594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)�
 
 **R885整Artin真实success**：43848870181/job133246024646/sourcea22acdb0，519.34968726s/323stage，原node0整A272/E2176/全272目标关系与九参考Norm全成，0失败纤维；cfg9e419bbb/certbb4866e7/fullmanifest334项8bbbe3d0。artifact14218009053/145477237B/7a0e8785至Nov17 10:56:08；小IO43853961723已读节点证书/index/Norm摘要，root单独正式认证。原273节点/单行adj与15件载体见[producer认证](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)，不重；全部nilpotent/剩余次数/因子与真单位保留，不冒Picard/height。
 
-ordinary_local写R893：原五g_j=(1+T^j)f的同权98分子分母与完整纤维RR，保持R849523DAG/ρ_j/原两分母、OO/二挠全部DVR；不换R794候选。n=(12,8,8,13,14)、N=(23,15,15,25,27)，旧0..7节点直接复用，只有新节点可新求K。原五Lj128/144、YP/FM128/634核与508主部rank507、c/a(P1)、eη/d/N/全nonp/高度仍缺；I_Z不代real-descent Lj³，c0/c1/R862边界保留。
+**[R893五真实和同态初始RR已证](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)**：原g_j=(1+T^j)f同权98分子分母及真DVR极除子，完整纤维Q单位/块Vandermonde与Schur全部行给初始RR；n=(12,8,8,13,14)、N=(23,15,15,25,27)，旧0..7节点直接复用。保原ρ_j/θ/82一次、真实σ次序及主函数τ^(3−n)，初始N不冒V2n注入；ordinary_local接新消费者。原五Lj128/144、YP/FM128/634核与508主部rank507、c/a(P1)、eη/d/N/全nonp/高度仍缺；I_Z不代real-descent Lj³，c0/c1/R862边界保留.
 
 ## 全p：原积分源
 
