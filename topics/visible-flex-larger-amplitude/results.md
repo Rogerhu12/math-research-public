@@ -64,3 +64,6 @@
 ## R538 — Request227完整576并行的实际full112入口
 
 **完整实际入口已成，实际结果留R539。** [R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)三件94103B/topic40357B：request19994/56c9、workflow53746/3305、证明接口20363/46ae；R531七件原字保。真新job先原224全部181恢复，再同HERE四helper/八view形成193，原224 request88551/6aa2、recipe21539/0c9完整祖先另列。实际runner15716/4c7e、reader50519/fb88、report/cleanup/来源receipt和当前workflow语法范围全部用真新source，不仅换外层标签。明确2×3072MiB线程old-generation，原main6144另保，不冒RSS；原M112/N2048/576/226×224/双mean/全部H/J/FD/fullDN/末audit、18000/330/350min/2700规则/90K70/owned quiet保持。source准备与科学一次钟分层，新源失败与超限保raw，旧已删父不续、未返不补。新增.github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml仅本题入口；发布后官方一次dispatch，实际run/head另记，amplitude唯一R539，不预填速度或接受。
+
+
+227已正式单POST200：run43860144962/attempt1、compute133274517805、实际head与发布完全同5b5dd03b0d69c8a059282b963b7192679fd43f67，11:43:09前1–3success/4 setup；详[官方绑定](notes/2026-11-16-request227-official-run-binding.md)。R539由amplitude唯一终态读取，root科学日志0；193准备/双worker/完整原门/必要/quiet/清理均无预填。R538日志时刻据实际发布回执改为11:42；不改变来源或科学合同。
