@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。最新三原子run43837374645的research133197253175在09:10:54→09:10:56及report133197546045在09:11:24.085628→09:11:24.356105 UTC均真实public pull，源7f341445…到已读 **45c5df467d193aebd8ad3c8b48ddcd54086fdb35**，rc0、双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **10:11:24 UTC**；变化只读diff立即执行/记SHA，NFF立即真实rebase续推，不force。
+根/题README已全文读。新9run43840452377的research133207481935（09:31:25→09:31:27）及report133208451697（09:33:19.668266→09:33:21.691505 UTC）真实public pull，依次已读34b5e45ecfd1d533e136c322f78f0d687d8c996c、**076cad7ab77d4056ab660e0e53967b7c3f4a6777**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**10:33:21 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-私有同两job实际pull分别已读 **3e53058255f12241b79f3de052c81cb753af56d0** 与 **71de2e18df5515e9c9aa5590ff593be8ffa850fd**（最后09:11:26.239161→09:11:26.568886）。私有根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。每次pull详时/来源见[本次note](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)及原notes；私有正文不发表。
+私有research/report分别已读88456e284d4284093abc93076c7141d21b004819、**a38683a549d1a505bbbc4c547c3565f2161788bc**（最后09:33:23.502949→09:33:23.987151）。根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中；[新9原记录](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)保两次实际pull身份。私有正文不发表。
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 原式/严格范围/历史费用见[results](results.md)，活动任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff。R455/464同真宽/母/右锚付q4/F★/共同20根/非零最高响应；R460 simple-p自动留数及不变解析端芽已付，真range仍保Af partial/平台/整包量/双germ/gap/右锚。原13规范/最高period尚未付。
 
-**真新cap。** R471五门Δ1/2/3/4/6全0 iff完整self比例；R475保全12L/8Aj四列真minor。R481/487真compact五控制经gφ=((2/3)p^−1/3φ′)″/ρ提升，再3normal有限IFT保完整端germ/正ρ并径向下降；不授当前15列满秩/统一步长/全局0。R483完整尾紧化保远左C与凸v曲率测度，零仅有限H区；R485完整critical/uniform全部C非零，R489以η=v(−3/2)=W1/3排单曲率集中薄层，必保两个分离质量窗，非点态正窗/统一逆。R491完整E=½∫Z³(4U−3Z)dr及ImZ<0不推出E非零；两原子α/β/C全部Aj有限幂差和五次跳变保留，五门等价五多项式，未判解。[R493](results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md)付三原子a1/a2/b1/b2+C的全12L/8Aj有限幂差(≤21次)、完整5×5解析J含移动端点/H敏感度；严格内部正则真零可经参数C¹正ρ平滑+有限长尾/两矩修正，一次有限IFT恢复真C∞五门零cap。尚无候选。三原子36起点已闭，未找到零；原完整观察在第5节。多帽还需R479共同c、A7/s、A0/(h³s²)，新cap须从起点新库。冻结ψ3完整ImE严格>0只排该冻结母，R466限同Jaff/canonical正时长/同端口/M0，不排所有cap。
+**真新cap。** R471完整五门Δ1/2/3/4/6全0 iff完整self比例；R475全12L/8Aj四列minor。R481/487的真compact五控制/logρ lift及3normal有限IFT只给局部下降，未授全局零。R483全尾紧化保远左C，潜在零H有限；R485排critical/uniform全部C，R489排单曲率集中且保两个分离质量窗，未授点态正窗/统一逆。R491完整E=½∫Z³(4U−3Z)dr及ImZ<0不推出E非零；两原子五多项式含全部C/跳变，未判解。R493三原子a1/a2/b1/b2+C完整12L/8Aj及5×5解析J含移动端点/H导；严格内部正则真零可C¹平滑+有限长尾/两矩修正+有限IFT给真光滑cap，但36起点无零，账户已闭。新母仍需q4/F★/20根/原13规范，R479多帽共同c、A7/s、A0/(h³s²)。冻结ψ3完整ImE>0只排该母；R466只限同Jaff/canonical正时长/同端口/M0。
 
 **完整真实路径。** R469/472保A/T、双芽、全部第四V及一般w；R476的18维Z只在所述真接口盲。R480扩F≤924生成付全W外三矩，重复A0原型K无漂移，但单份内部K、A≠0桥/全V仍欠。R482原13状态/2共用输入给完整K=F+Chh″+Ckk″，真实Mraw/水平ODE及第三初端常数全保；常scalar另有完整平方门。R484两相位minor非零则保护芽锁定有理延拓，离开须全相位rank降（候选h判别≤12次），实际minor/退化支未判。R486全principal平方及完整两H差=−10∫g″⁴排13状态开域F恒0，不排真实低维路径；54/108生成不是秩，M_c²0不删算子复合。R488真L≡0强分支为k0/ω常/h=Hsec；所有真实入值的二三阶场对v仿射，完整K=(a+bv+cv²)/h。中心全profile清理付b0；单patchGram两even可付，但旧芽锁χ后须同period/13核三条兼容行。t1′=−(1+v²)/8<0排该分支自身M0返回/常collar接合；[R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)对当前even母完整period核（母/平台/gap）证sec奇行β=原P−4/P−3/P−2/HB0四行组合，因此同13核β0，odd残值已锁；实际含中心段须真source商+两中心真实前缀条件0（≤4相位系数），未证残值非零。两个even与真实桥共同像继续。
 
@@ -38,10 +38,10 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 54 MODEL已闭，不能当55 J。真实55 CACHE2为29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f，binding697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6，只含已付U/T/e/f/grid/159，缺positions/curvature/二jets/J；完整身份见原55note。全部payload仅原stdout。
 
-## 5. 正在接续（2026-11-16 09:31:22 UTC）
+## 5. 正在接续（2026-11-16 09:36:43 UTC）
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55完整新9fiber首次执行](notes/true55-complete-new-nine-fiber-design-20261116.md)已发布源/参数/工作流，run43840452377/research133207481935正在运行，源09f498cac5d2fad47a35f007b68fe66218420d98。独立168/物理172，旧159固定55；两网必要ordinary/硬J9/完整metric9同一新600秒。16新行集/全网一阶分离、64新行、64scalar、3actualpairs；先原11维有限问题，再完整φ(e0+αde,f0+αdf)，最后原14实际门+准确172盒，须比55新降≥1e−7。原spectral池学习与Schur实际门保持各自语义。55旧账2073.56241112秒/134值不重开，旧159J/开发0；新9失败只限该纤维。全部缓存仅原stdout，FINAL_CLOCK含大输出与真实overrun，report只读唯一原job。
+[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw26447484B/9f94dfe7f54bc8f17badf3cc29fd74ccc01e110342492780d6f8a091b0ccfc34。正在最小shape修复并Actions读回已付粗网，继承同600钟/started1，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
 
 旧cap15/冻结ψ3及三原子有限任务均闭；来源/费用见各原notes，不重开余额。主完成门未付，继续open。

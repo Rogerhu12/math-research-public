@@ -161,3 +161,8 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ### 2026-11-16 09:30:55 UTC — 真正55固定159＋完整新九方向首次执行
 
 [完整设计](notes/true55-complete-new-nine-fiber-design-20261116.md)及11个新源码/绑定请求/工作流同提交。以真正55为基点、旧159固定，新9完整族168→172；必要两网ordinary、hardJ9及完整metric9后，原11变量主问题只加新原tag，完整一阶扫描合格后才做φ(e0+αde,f0+αdf)标量与原14实际门/准确172盒。单一起点600秒含imports/input/失败/大输出；16主问题/1536迭代/3072系统、64新行/64scalar/3actualpair，旧159J/旧接受回放/开发0。source55原134值/2073.56241112秒继承不重开。raw11/dual/slack/原残差先打印，已打印finite结果不重复，partial input与bootstrap超时照实保；stdout112MiB，唯一report原log只读160MiB/输出6MiB。当前尚无本次观察；接受门与主门不同，完成后立即接open下一问题。
+
+
+### 2026-11-16 09:36:43 UTC — 新9首输入径向广播失败，已付粗网保留并同600账续
+
+[原失败及续接](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/source09f498…，coarse ordinary已付后a shape(160,)→(160,384)包装失败；0导数/0有限求解/0实际，新接受0。原partialMODEL26079459B/9eb1bb5a…保全部付过coarse，final75.06856296999999秒/1necessary，祖先总2148.63097409秒/135值。最小[:,None]修复并只读原input继续同600账、原2necessary总上限；不重算粗网。report133208451697只读原日志成功，非科学成功。双job真实pull核README空diff，最新公开076cad7a…/私有a38683a5…、QUEUE唯一进行中，下一pull≤10:33:21；主门未付继续。

@@ -562,3 +562,8 @@ R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立�
 ### 2026-11-16 09:34:18 UTC — 公开来源三题当前HANDOFF复核
 
 [来源状态](notes/public-source-topics-current-state-20261116.md)在公开f92e13fa…读三个≤10KB HANDOFF并记blob：基础R114仍小幅、larger自己的.2目标未完、exact-nearby仍有matching/逆与背景缺口，没有直接付本题.3D全门的现成解。0科学执行，不读运行中日志；API不冒pull。新9 run43840452377/research133207481935继续。本题新增共享路径.github/workflows/visible-true55-nine-fiber.yml用于公开首新模型和唯一只读报告；未改别题研究源。
+
+
+### 2026-11-16 09:36:43 UTC — 新9首输入径向广播失败，已付粗网保留并同600账续
+
+[原失败及续接](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/source09f498…，coarse ordinary已付后a shape(160,)→(160,384)包装失败；0导数/0有限求解/0实际，新接受0。原partialMODEL26079459B/9eb1bb5a…保全部付过coarse，final75.06856296999999秒/1necessary，祖先总2148.63097409秒/135值。最小[:,None]修复并只读原input继续同600账、原2necessary总上限；不重算粗网。report133208451697只读原日志成功，非科学成功。双job真实pull核README空diff，最新公开076cad7a…/私有a38683a5…、QUEUE唯一进行中，下一pull≤10:33:21；主门未付继续。
