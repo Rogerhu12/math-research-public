@@ -1,9 +1,10 @@
-# R867 — 单条原 Hom 重建、整 Hecke 三基与固定 57 清分母
+# R867 — 单条原 Hom 重建、整 Hecke 三基与固定清分母
 
 日期：2026-11-16。
 
 **状态：下述整 Hecke 三基、同原 b-基的精确矩阵、固定57清分母、
-完整8/64邻点迹以及实际映射次数上界已证明。
+完整8/64邻点迹以及实际映射次数上界已证明。附录 A 加入原 $T_{13}$ 后，
+把共同清分母严格改进为 $3n$，并给同原 Hom 格上的整单位及其逆。
 仍须重建并认证一条原 $\Xi_0$；尚未证明它已为整数同态，
 也未计算一个非零原 shadow。**
 
@@ -308,3 +309,194 @@ $$
 
 本篇没有新增数值计算或扫描。所有等式由固定原角色、真实 Hecke
 correspondence、完整微分和显示的有限代数消元得到。
+
+
+## 附录 A：加入原 $T_{13}$ 后的整单位与共同 $3$ 清分母
+
+本附录不改前面仅用 $T_7$ 的57证书。它给出更强的实际整返回：一旦同一个 $P_0=n\Xi_0$ 已认证，所有 $3n\Xi_i$ 已为真整同态。所有新增操作仍在原 $J_0(2601)$ 与 $C_v$ 上定义。
+
+### A.1 原13系数的完整相位
+
+令
+$$
+\zeta=b/\alpha,\qquad \zeta^3=\omega^2,\qquad
+\vartheta=\zeta+\zeta^{-1}.
+\tag{A1}
+$$
+
+于是
+$$
+\vartheta^3-3\vartheta+1=0.
+\tag{A2}
+$$
+
+这里 $\zeta$ 是 R862 的同一个九次单位根，并未按复近似重新选根。
+
+为核13处相位，取 $\gamma=4+\omega$、$\mathrm N\gamma=13$。
+原 $\beta_{10}$ 在素于 $17\delta$ 的主理想上为
+$$
+\beta_{10}((a))
+=\epsilon_\delta(a)\,a\,
+ \operatorname{Teich}(a\bmod17)^{32}.
+\tag{A3}
+$$
+
+这是 R862 中二处 cubic 因子已经准确抵消后的完整公式；它在
+$(2)$ 上仍给 $-2$。以 $\alpha$ 为 $\mathbf F_{289}^{\times}$ 生成元，
+$\operatorname{Teich}(\alpha)^{32}=\zeta$。
+
+在 $\mathbf F_{289}$ 中置 $g_0=2+4\delta=6+8\omega$。
+逐次平方给
+$$
+\alpha^{16}=8+6\omega=g_0^5,\qquad
+\gamma^4=6+8\omega=g_0,\qquad g_0^{18}=1.
+\tag{A4}
+$$
+
+因此
+$$
+\gamma^{32}=g_0^8=(\alpha^{32})^8.
+$$
+
+又 $\epsilon_\delta(\gamma)=-1$，故(A3)的真实13值是
+$$
+\boxed{
+\beta_{10}((\gamma))=-\gamma\zeta^8=-\gamma\zeta^{-1}.
+}
+\tag{A5}
+$$
+
+其共轭理想值是 $-\bar\gamma\zeta$，没有省略首负号。
+
+令 $t=a_7$、$s=a_{13}$，则
+$$
+\boxed{
+t=2\vartheta^2-\vartheta-4,\qquad
+s=\vartheta^2-3\vartheta-2.
+}
+\tag{A6}
+$$
+
+证明直接代入
+$t=\alpha\zeta+\bar\alpha\zeta^{-1}$、
+$s=-\gamma\zeta^{-1}-\bar\gamma\zeta$，
+并使用 $\omega=\zeta^6$、(A2)。
+因此
+$$
+5\vartheta=t-2s,\qquad
+19\vartheta=28-3t-2t^2.
+$$
+
+两式用 $4\cdot5-19=1$ 合成
+$$
+\boxed{\vartheta=2t^2+7t-8s-28.}
+\tag{A7}
+$$
+
+(A5)–(A7)在原三个共轭新形式上同时成立，保持其原 Hecke/Artin 标号。
+
+### A.2 原 Jacobian 上的整数算子和真逆
+
+定义
+$$
+\boxed{
+\mathscr R=2T_7^2+7T_7-8T_{13}-[28]
+\in\operatorname{End}(J).
+}
+\tag{A8}
+$$
+
+它在原 packet 上恰为 $\iota(\vartheta)$。从(A2)有
+$$
+\vartheta^{-1}=3-\vartheta^2.
+\tag{A9}
+$$
+
+所以 $\mathscr R$ 与 $3-\mathscr R^2$ 都是原 $J$ 的整数 endomorphism，
+并在这个 packet 的实际 Hom 格上互逆。准确的意思是：对任意杀掉其它
+Hecke 因子的原整数同态 $P:J_L\to C_v$，
+$$
+P\circ\mathscr R\circ(3-\mathscr R^2)=P.
+\tag{A10}
+$$
+
+这由(A2)在 packet 上为零及 Hom 微分注入得到。没有宣称
+$\mathscr R$ 是整个 $J$ 的全局 automorphism，也没有把
+$\operatorname{End}^0(A)$ 的任意整数代数元自动放入原整数 endomorphism ring。
+
+因此，完整的正负整数幂都保持同一个原 Hom 格。该单位操作可用来选择
+同格中的实际映射；它本身不保证某一个选择有最小次数。
+
+### A.3 三条原基的共同分母只需3
+
+由 $\zeta^2-\vartheta\zeta+1=0$ 和 $\zeta^3=\omega^2$，
+准确得到
+$$
+\boxed{
+\delta\zeta=\vartheta^2-\omega^2\vartheta-2,\qquad
+\delta\zeta^2=-\omega^2\vartheta^2+\vartheta+2\omega^2.
+}
+\tag{A11}
+$$
+
+例如第一式也可直接写成
+$(\zeta+\zeta^{-1})^2-\omega^2(\zeta+\zeta^{-1})-2
+=\zeta^7-\zeta^4=(\omega-\omega^2)\zeta$。
+第二式由第一式乘 $\vartheta$、再减 $\delta$ 得到；故两个号均固定。
+
+现设原 $P_0=n\Xi_0$ 已经认证，记
+$$
+P_{\mathscr R}=P_0\circ\mathscr R,\qquad
+P_{\mathscr R^2}=P_0\circ\mathscr R^2.
+$$
+
+这些都是真整同态。因为 $b=\alpha\zeta$，(A11)给
+$$
+\boxed{
+[\delta](n\Xi_1)
+=[\alpha]\bigl(
+ P_{\mathscr R^2}-[\omega^2]P_{\mathscr R}-[2]P_0
+\bigr),
+}
+\tag{A12}
+$$
+$$
+\boxed{
+[\delta](n\Xi_2)
+=[\alpha^2]\bigl(
+ -[\omega^2]P_{\mathscr R^2}
+ +P_{\mathscr R}+[2\omega^2]P_0
+\bigr).
+}
+\tag{A13}
+$$
+
+右边只用原整数 Hecke 操作、目标的整 $\mathcal O_K$ 作用和群加法。
+再后复合 $[-\delta]$，利用 $-\delta^2=3$，得到
+$$
+\boxed{
+3n\Xi_i\in\operatorname{Hom}_L(J,C_v)
+\qquad(i=0,1,2).
+}
+\tag{A14}
+$$
+
+原 R862 基 $\mathcal A_i=2^{11}\kappa\Xi_i$ 同样满足
+$3n\mathcal A_i$ 为 $H_9$ 上真整同态。因而正文的57可在这些完整
+$T_7/T_{13}$ 操作下统一改进为3；未知的原 $n$ 仍保持，不声称该3为最优。
+
+### A.4 原有限来源和计算范围
+
+$T_{13}$ 是同 level2601 上完整14个13邻点的对应；所有复合按正规化、
+闭点迹和交重实现。没有把它换成选择一个13邻点，更没有将原
+$q_0,q_2$ 两端相认。(A8)若直接用于点值，其两次7步、一次7步、
+一次13步和恒等项都以显示整数系数保留。
+
+本附录不需要扩大已有三个 $H_i$ 的输入：在原三维 packet 中，
+(A6)–(A7)和正文(9)–(10)准确给各新算子的全部微分。
+它也不认一个形式 germ 为全球映射；(A12)–(A14)的前提仍是
+同一个 $n\Xi_0$ 已经获得完整坐标证书。
+
+本附录没有执行新的有限域扫描或计算。所用有限域等式(A4)是显示的
+固定原角色的逐次代数运算；全部结论由它、原13主理想公式和整 Hecke
+correspondence 自含推出。

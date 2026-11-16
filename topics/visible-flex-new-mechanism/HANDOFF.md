@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。最新实际双pull在run43826338594/report133161535924；公开07:49:48.185213→07:49:51.131875 UTC，源de4d16fe…到已读 **10d77b6a3a68921151bac2a08a1d7a09e4993d74**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **08:49:48 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
+根/题README已全文读。最新actual双pull在run43827984553/research133166230952：公开08:01:54.946053→08:01:55.380782 UTC，before=after已读 **5104179cb2ce1131f849ce0b2a224a021691d91c**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:01:54 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
 
-私有同report07:49:53.565877→07:49:54.191826，before=after **68dfd84d429c0abb0f4ef0e853c8f821522a7f74**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。此前本run研究前实际双pull同样空diff，完整出处见[本次失败](notes/true53-four-cut-layout-descriptor-failure-20261116.md)，私有正文不发表。
+私有同run08:01:57.690578→08:01:58.282958，before=after **d1f36084ccf101b5221045bf61ec36eaca405d39**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。原pull记录在该run stdout；私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -26,7 +26,7 @@ R465/466：完整成本商S(W0)/S(K0)维7/5，XH=H*+J4、XY=J4−J6；真换锚�
 
 R470原85记录（[来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)，含失败15.690763111秒）付两补响应完整self仍旧三维，XY余x5<0故y≠0；XH恰原Ln2真左积分。R471以真实八A_j/六β给五门Δν=R5βν−Rνβ5=0，ν1,2,3,4,6，iff联合比例，唯一c=1152β5/R5；任一非零minor给真实分离行。真Af给5h>3s²及A0/A7界；四局部列共a，复根余量E=3/8∫B²C²dC不能由q>0判正。
 
-R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477以长微小正尾/三累计准确匹配保根整germ，付DΔ6≠0真normal；分离五点C³小/第四阶有限大jet和远处normal纠正，给同Δ6=0内其余四门局部满射。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，R481继续真正全零。
+R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477以长微小正尾/三累计准确匹配保根整germ，付DΔ6≠0真normal；分离五点C³小/第四阶有限大jet和远处normal纠正，给同Δ6=0内其余四门局部满射。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，[R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)用原密度全部12项与多项式平移分级，付任意非零门组合Euler~−3P7κ¹⁰U⁴，含P7平端零阶；故每个允许cap任一解析尾窗五个真compact控制满秩。每个非零残差可有限径向下降，Δ6=0内四门处处submersion；无内部非零局部极小，尚欠全局0/统一边界控制。
 
 R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内部normal真IFT补q4，再重选F★/20根得新完整库E≠0。R478以完整八次primitive/三重因子反证付临界power E≠0；C²分部连续性与实际正密度近似给光滑非零cap。均不判全部cap或旧ψ3；文学线正准备冻结ψ3原积分的新严格区间观察，机制线继续全五门真零目标。
 
@@ -44,10 +44,8 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 ## 5. 当前工作
 
-[原finite正primal](notes/true53-all-paid-finite-master-positive-primal-20261116.md)run43817336585的9658行只给gain7.0414711481267545e−6；[完整方向](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)run43821568604实际舍入p62b27d05…给完整修复gain−.00031326043820264013，未合格、0scalar/actual。coarse43322/91304、fine86645/182607四新原梯度已付；U/T缓存30232607B/0c1826ad…，binding75e07691…，任务前祖先1658.9797906909998秒/128值。
+原9658行[finite正候选](notes/true53-all-paid-finite-master-positive-primal-20261116.md)被[run43821568604完整网格](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)排除，修复gain−.00031326043820264013、0actual。四新梯度coarse43322/91304、fine86645/182607及U/T缓存30232607B/0c1826ad…已付；后继任务前祖先1658.9797906909998秒/128值。
 
-[四cut增广设计](notes/true53-four-cut-exchange-master-design-20261116.md)首run43825241350/research133157415075在9662行装配后输入失败，[记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。0finite/JVP/新gradient/scalar/actual；36.79963991600005秒含全部失败/输出，累计 **1695.779430607秒/128值**，仍点53。
+[准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)唯一继续run43827509699/research133164733399/source513aa99d7c361bb67dbc1d04e32f3d563fe6b1b9正在执行。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
 
-[准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)已推request触发唯一继续run，run待登记。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
-
-理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。
+R481已付处处五门正规与有限径向下降，继续全局0；R478保临界power非零与实际近似，[冻结ψ3完整E区间任务](notes/frozen-psi3-complex-cap-interval-design-20261116.md)run43827984553/research133166230952/source5104179cb2ce1131f849ce0b2a224a021691d91c已完成，原结果正在记录；新240秒/256bit整数区间/六阶余项/真实平端tail，携原四self15.69076311099991秒，0旧85重算；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。

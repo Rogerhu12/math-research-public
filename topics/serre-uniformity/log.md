@@ -599,4 +599,10 @@
 - R824真实596 currente0aaa50a/history31993dac完整目标及lift071c3390一致，原core BudgetStop/1；只改resume requestba760988，300min原27权5+244权6/free1187从597续，1186仍归R787。
 - 两次公开纯IO只读小元数据，不把84MB lift/612MB carrier说成本地重哈希；同wrapperc5907739实际恢复全部必要原源。r28/129/142/280Q与旧边界保留。
 - R787570后已实际启动run43827877594/job133165978118/source38abf721并在原数学步；R873的原范数17rhs消费者五件已齐，R872 RR消费者继续接真源。
+- 本push规则：公开Actions真实pull至87130840762325c819f717a2f77d17ca5e72bc80（2026-11-16T08:05:36.935825+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:09 Asia/Taipei — serre-public-astra-20261115
+- R873消费者冻结激活：coreefe62506/wrapper03c2d227/method803b9351/request846d9850，只新原四M2尾196..763、八节点7阶范数、17rhs/八补列和真实2058逆；准确unit-solve与模值分字段，Picard支持仍false。
+- 真R799/R801/R800续载包直接消费；R807与R837实际API确认仍活跃，原前缀/矩阵不重算，Nm_target(source*)与c0c1/−3下降/82尺度全保。
+- 新共享workflow818ad444采用partial/sparse两job并真实pull，对上次已读提交作README diff；300min阶段断点同tag续。R824已实际启动43828509061/source9829a038，R787570后在原数学步。
 - 本push规则：待本公开Actions实际pull更新；主目标OPEN。

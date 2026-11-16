@@ -1,0 +1,289 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R873-original-cyclic-seven-correspondence",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "core": "R873_original_cyclic_seven_correspondence.py",
+    "core_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd",
+    "wrapper": "R873_public_original_cyclic_seven_correspondence.py",
+    "wrapper_sha256": "03c2d2275704e773117cc3e075c0b0868c43d763f0d50426f5637b722241820b",
+    "workflow": ".github/workflows/serre-R873-original-cyclic-seven-correspondence.yml",
+    "original_helper": "R786_exact_power5_short_basis.py",
+    "original_helper_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proofs": {
+      "R873": {
+        "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+        "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+      },
+      "R865": {
+        "path": "results/R865-original-Hecke-T7-from-certified-level82-Fourier-rows.md",
+        "sha256": "50bfc4bd4d0629e0ceda09eb15bf40add53333fe4dab87430a7b34697d74cc19"
+      },
+      "method": {
+        "path": "notes/R873-original-cyclic-seven-correspondence-consumer-method.md",
+        "sha256": "803b93515ccc61388e1564c5161a27f58f13a818bc7fe5544b3aef88ca2384e5"
+      }
+    },
+    "rules_last_read_commit": "87130840762325c819f717a2f77d17ca5e72bc80",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "budget_minutes": 300,
+    "original_source_pins": {
+      "R771": {
+        "result": "R771-p41-original-quotient-RR-bases",
+        "run_id": "43628998192",
+        "source_commit": "49abc04d7867c9f56911866494692c597cf642d7",
+        "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+        "manifest_sha256": "024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74",
+        "certificate_name": "p41-original-quotient-RR-basis-certificate.json",
+        "certificate_sha256": "9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f"
+      },
+      "R775": {
+        "result": "R775-p41-original-K-defined-RR-bases",
+        "run_id": "43679160495",
+        "source_commit": "032899cc3bcd937497a857df0c271261fc709ae5",
+        "core_sha256": "8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee",
+        "manifest_sha256": "c563b43979633152cf2dd58bc7127a0bd138edf3cccef6b51ba629b4851d6906",
+        "certificate_name": "p41-original-K-defined-RR-basis-certificate.json",
+        "certificate_sha256": "ce92a3aacd8a1c6f44bef82b6890bb00298d9b1ea1fc2b8caf1af1cce7c1d203"
+      },
+      "R786": {
+        "result": "R786-exact-original-power5-short-basis",
+        "run_id": "43682100611",
+        "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+        "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+        "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+        "certificate_name": "p41-exact-original-power5-short-basis-certificate.json",
+        "certificate_sha256": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+      },
+      "R799": {
+        "result": "R799-original-power7-power8-short-bases",
+        "run_id": "43695571499",
+        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+        "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933",
+        "manifest_bytes": 1595203,
+        "manifest_file_count": 5347,
+        "certificate_name": "p41-original-power7-power8-short-bases-certificate.json",
+        "certificate_sha256": "5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b"
+      },
+      "R800": {
+        "result": "R800-original-M2-tail-129-195",
+        "run_id": "43696070150",
+        "source_commit": "b53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c",
+        "core_sha256": "417dd598711af310717aaa971898e426d829a5209150bd5ce57f51dffb2e2a6a",
+        "manifest_sha256": "1a651f6e0a3d51c8cb18d3b5fad18fb4d480f69e7bedd6e9fb10c7f80dbaf053",
+        "manifest_bytes": 77560,
+        "manifest_file_count": 439,
+        "certificate_name": "p41-original-M2-tail-129-195-certificate.json",
+        "certificate_sha256": "3be34598ab86732a790e7e5aa463b9def210fb48e216b9a51171d122e20ce377"
+      },
+      "R801": {
+        "result": "R801-original-power6-to8-long-tails",
+        "run_id": "43701282817",
+        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
+        "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f",
+        "manifest_bytes": 8877946,
+        "manifest_file_count": 30781,
+        "certificate_name": "p41-original-power6-to8-long-tails-certificate.json",
+        "certificate_sha256": "1fbcd66fb639ac94942d6f82df5ca0c291fdf3cb7af3a13c7971a6b42992c64b"
+      },
+      "R807": {
+        "result": "R807-original-M6-pole-clearing",
+        "run_id": "43707939269",
+        "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+        "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+        "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+        "manifest_bytes": 350485,
+        "manifest_file_count": 1003,
+        "certificate_name": "p41-original-M6-pole-clearing-certificate.json",
+        "certificate_sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b"
+      }
+    },
+    "source_artifacts": {
+      "R799": {
+        "result": "R799-original-power7-power8-short-bases",
+        "run_id": "43695571499",
+        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+        "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933",
+        "manifest_bytes": 1595203,
+        "manifest_file_count": 5347,
+        "certificate_name": "p41-original-power7-power8-short-bases-certificate.json",
+        "certificate_sha256": "5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b",
+        "artifact_id": 14153724209,
+        "artifact_name": "serre-global-R799-original-power7-power8-short-bases-43695571499-1",
+        "archive_bytes": 453521743,
+        "archive_sha256": "b4a3f74d9139475af07c1a654e8a3febc38c5186a1bfded4e0e038742737a477",
+        "expected_conclusion": "success"
+      },
+      "R800": {
+        "result": "R800-original-M2-tail-129-195",
+        "run_id": "43696070150",
+        "source_commit": "b53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c",
+        "core_sha256": "417dd598711af310717aaa971898e426d829a5209150bd5ce57f51dffb2e2a6a",
+        "manifest_sha256": "1a651f6e0a3d51c8cb18d3b5fad18fb4d480f69e7bedd6e9fb10c7f80dbaf053",
+        "manifest_bytes": 77560,
+        "manifest_file_count": 439,
+        "certificate_name": "p41-original-M2-tail-129-195-certificate.json",
+        "certificate_sha256": "3be34598ab86732a790e7e5aa463b9def210fb48e216b9a51171d122e20ce377",
+        "artifact_id": 14153948656,
+        "artifact_name": "serre-global-R800-original-M2-tail-129-195-43696070150-1",
+        "archive_bytes": 16486501,
+        "archive_sha256": "78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e",
+        "expected_conclusion": "success"
+      },
+      "R801": {
+        "result": "R801-original-power6-to8-long-tails",
+        "run_id": "43701282817",
+        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
+        "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f",
+        "manifest_bytes": 8877946,
+        "manifest_file_count": 30781,
+        "certificate_name": "p41-original-power6-to8-long-tails-certificate.json",
+        "certificate_sha256": "1fbcd66fb639ac94942d6f82df5ca0c291fdf3cb7af3a13c7971a6b42992c64b",
+        "artifact_id": 14156204348,
+        "artifact_name": "serre-global-R801-original-power6-to8-long-tails-43701282817-1",
+        "archive_bytes": 1049535812,
+        "archive_sha256": "dad8f653dd672099a873618992f32425902298250b1f62a46d8436983a6ef792",
+        "expected_conclusion": "success"
+      },
+      "R807": {
+        "result": "R807-original-M6-pole-clearing",
+        "run_id": "43707939269",
+        "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+        "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+        "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+        "manifest_bytes": 350485,
+        "manifest_file_count": 1003,
+        "certificate_name": "p41-original-M6-pole-clearing-certificate.json",
+        "certificate_sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b",
+        "artifact_id": 14159481627,
+        "artifact_name": "serre-global-R807-original-M6-pole-clearing-43707939269-1",
+        "archive_bytes": 60771931,
+        "archive_sha256": "74c801509f554024d0246bf62227e38c30f4e84a14d4e0af8fa917350f875a56",
+        "expected_conclusion": "success"
+      },
+      "R837": {
+        "result": "R837-original-fixed-branch-pencil",
+        "run_id": "43770995901",
+        "source_commit": "fa17c77fe36fddd9df06677569984d1ea71a6b41",
+        "core_sha256": "5702b42ee014ab7552e61383e24b738fe5ed48955dfc207ad3d85cae08e8b924",
+        "manifest_sha256": "fe2aee5e584b5e6e8800d2ef30ff17ed76fdfb349d5f783880c1e08cf7a64e43",
+        "manifest_bytes": 26808,
+        "manifest_file_count": 151,
+        "certificate_name": "p41-original-fixed-branch-pencil-certificate.json",
+        "certificate_sha256": "83234905bd30dd774ec4fd4ed6bfaef46f7bcacc1ff8fe0f5b00e4119ca31eb1",
+        "artifact_id": 14184475817,
+        "artifact_name": "serre-global-R837-original-fixed-branch-pencil-43770995901-1",
+        "archive_bytes": 48599362,
+        "archive_sha256": "ea610ed2142ca7ad563d49803002aaccd6b81b0888173265e826caabc68d0864",
+        "expected_conclusion": "success"
+      }
+    },
+    "prepared_transport": {
+      "packages": {
+        "R799": {
+          "archive": {
+            "run_id": "43826442405",
+            "source_commit": "5a21f9d9de5686e80bd029bf39749e2900857515",
+            "artifact_id": 14206388855,
+            "artifact_name": "serre-required-original-source-intake-43826442405-1",
+            "archive_bytes": 331628037,
+            "archive_sha256": "42a3155fdb6119958350533b9bb7c1f8aee1019eb9a864419d59e0ad1e448440",
+            "expected_conclusion": "failure"
+          },
+          "package": {
+            "file": "R799-intake-selected-original-sources.tar.gz",
+            "bytes": 175356258,
+            "sha256": "df08e8336cdbe58038983924ab744fbec4b86c182838c81b668960118aea71c4"
+          }
+        },
+        "R801": {
+          "archive": {
+            "run_id": "43826442405",
+            "source_commit": "5a21f9d9de5686e80bd029bf39749e2900857515",
+            "artifact_id": 14206388855,
+            "artifact_name": "serre-required-original-source-intake-43826442405-1",
+            "archive_bytes": 331628037,
+            "archive_sha256": "42a3155fdb6119958350533b9bb7c1f8aee1019eb9a864419d59e0ad1e448440",
+            "expected_conclusion": "failure"
+          },
+          "package": {
+            "file": "R801-intake-selected-original-sources.tar.gz",
+            "bytes": 152592418,
+            "sha256": "e9595cc21e1e13e372c12d10844b32537ed596490fb522682793bbc1b22e9b37"
+          }
+        },
+        "R800": {
+          "archive": {
+            "run_id": "43827207676",
+            "source_commit": "ee98d42e073f14815dcb14a8b2f38dde3934f233",
+            "artifact_id": 14207385683,
+            "artifact_name": "serre-required-original-source-intake-43827207676-1",
+            "archive_bytes": 17431368,
+            "archive_sha256": "67ea41550432eb7430bf5128771908cf6e40d6cefb68e9463b1caa3a094f04c6",
+            "expected_conclusion": "success"
+          },
+          "package": {
+            "file": "R800-intake-selected-original-sources.tar.gz",
+            "bytes": 7217285,
+            "sha256": "113be338ac2753ff9226a881e988ad38973342e957e872cbebe9b0d3b9011a2c"
+          }
+        }
+      }
+    },
+    "carrier_specs": {
+      "R800": {
+        "file": "R800-retained-producer-inputs.tar.gz",
+        "bytes": 5519019,
+        "sha256": "ce80fc35eb51b0a8a7cff2574e5aea57e60a6ccdb48fd6cd49c4deb770640831"
+      },
+      "R837": {
+        "file": "R837-retained-original-inputs.tar.gz",
+        "bytes": 29497132,
+        "sha256": "c17f51a91c2bc2a93ac7184fa0876998d766218f99790e700daff945687cea6d"
+      }
+    },
+    "R837_inventory": {
+      "file": "R837-original-source-inventory.json",
+      "bytes": 246426,
+      "sha256": "eba630491f6306e7f95a322a05eaf71c0bd11bb7c80226919879a5bb879c053c"
+    },
+    "selection_pins": {
+      "V8_index": {
+        "file": "R799-original-power8-basis-index.json.gz",
+        "bytes": 140608,
+        "sha256": "bc202037fb41aaa3138432c387ed8a69ae3f324cc6fc87c0fc5f50894155d2fd"
+      },
+      "V8_frontier": {
+        "file": "R801-original-power8-frontier-0193.json.gz",
+        "bytes": 335382,
+        "sha256": "a71961611cc951408aa10bb68bdb48fc62c6c2499f81af56e7197b880a7fe75a"
+      },
+      "recipe_plan": {
+        "file": "R801-original-recipe-dependency-plan.json.gz",
+        "bytes": 1104557,
+        "sha256": "b9d98f46026da8049878d780ac6b597920d61f260224e307f04a5757ef0078ce"
+      },
+      "theta": {
+        "file": "R807-original-nonzero-pole-clearing-theta.json.gz",
+        "bytes": 2464,
+        "sha256": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970"
+      },
+      "E6_clearing": {
+        "file": "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+        "bytes": 690799,
+        "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
+      }
+    },
+    "resume": null
+  }
+}

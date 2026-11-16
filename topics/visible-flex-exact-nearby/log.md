@@ -442,3 +442,9 @@ Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原�
 ## 2026-11-16 08:00:15 UTC — 唯一新实际run身份
 
 公开Actions43827705714/1于07:59:22启动，workflow event90632039e995b698280a210c1a956abd0653b990，仅本次完整新WEJ posterior。当前API metadata in_progress，不冒数学成功或真pull；实际科学checkout/完整节点/失败prefix和各README真实pull待本run小文件回执。三路并行只读复核：root残差与总索引，Tail18support，Phase四端/whole及完整运维绑定。不得新启动同目标。READMEee42af2ea28a71061063f1147c832600ee537cd4两blob相同。
+
+## 2026-11-16 08:06:17 UTC — WEJ完整失败前缀锁与精确未算后缀
+
+43827705714/1（event/实际checkout90632039）child1、runtime Python3.12.14/flint0.9.0/320，3.522464804000002s；原run返回1，第24 complete_free_waist_Airy_and_Schur_map在普通二阶相位导数读取前，jet.need错误索(0,0)而停。不得填Phi0或重整个driver。原index6fe44d8c/13787、execution6f524e55/42939、report e8a66cbc/4052已全获取；两真pull07:59:58.346289和08:00:07.647478均90632039/两README空diff。SCI 23整图（1609槽=1600新+9原copy）保存，partial另39新。三自然原part143/5484/6033B与descriptor3265B，root独立重构原13563B/SHA6b63099c；39events与完整semantic prefix39按multiset原字相同，lost已算目标0。
+
+已先推精确continuation合同4ca7c1d4cc51c0af133482f08f795ddee9da7e445e2d68dbf351f2a883242bf3/25947B，含全部30科学文件receipt、原27门/参数/12old/5module/24locks及39path。新仅node24余13、node25 8、whole9=30新，最终whole6旧copy仍只读；23整图与39原球禁止再算或重格式化。旧whole运行保持failure，全finite/mean/ν/head/背景仍待。实际stdout16,851,606B/SHA9ec14975…仅按完整tee metadata记录，未取大正文；全部真实科学结论/失败prefix以完整小文件已保。Peer分别核18support、WNR/23/WZE；继续新remaining-only源，不等用户。README1a6f45879a8e4926f412f8e272d8405ecf97df8c版本同已读。
