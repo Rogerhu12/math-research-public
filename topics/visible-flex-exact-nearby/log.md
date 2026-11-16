@@ -212,3 +212,7 @@ root全文23,476B/7abf7f41独核real相位basis、graph闭性与dense core、真
 root全文11,769B/01e4a33b独核分母/逆的两方向及每个P，另亲读N.1–9原scalarization和SJsource physical_polynomial_derivatives245–325、原完整参数及两beta/eta球。Phase正式核2/4，Tail正式核1/3/5并fresh回SJ whole family/domain。u=Iuφ、Iv=I²vφ使用的是A0 primitive norm1/4，未误用L∞。full v及其mean都留，D非零为真实奇偶实现的充要条件；新正下界是解析式，没有指数执行/Arb新球/旧source调用。
 
 J解决的仅nonmean第二行；z physicalmean不是内部c=Π(uh1)，原N7和完整第一行保留。旧rootJ只真实共同域或端点由唯一性相等，无扩大定量domain。继续全real uniform U/完整mean completion及signed source，未宣称小误差/finiteinverse/非线性。本条独推，read cf43044aa565ebdbb26046b124df44689e0d2498两README未变。
+
+## 2026-11-16 04:31:24 UTC — 定时真实 pull 尝试与 README 核对
+
+2026-11-16 04:27:29 UTC 在原 checkout 发出实际 git pull --rebase origin main，执行器仍返回“No usable execution environment is available”。随后只读 main d540a5f17cc6c17d955009ce4055c9706a1303d6，两README仍为根21bd547f56590b7f2dd279d0297efb289a9b2783及题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，无差异可读；此API读取不冒称pull。最新成功真实pull仍为本库WAD运行04:20:32.298647到7d7ce88415ed4a23e73ee49abaa1d3c059379a37，两次实际README diff都空。下次本机真实尝试≤05:27:29 UTC，若恢复执行环境即继续原partial checkout。此次独推前再核 ab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2 两README不变。
