@@ -76,5 +76,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 
 [R921](results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md)真整Hodge/Igusa/节点给首微分层b0=k_+(p−1)，原q保ea_h。[R924](results/R924-original-completed-Hom-lift-and-marked-normal-function.md)由原qTpJ=qB TpB和实际End_Q(A)整完备化，构造真Hom近似/p除法，延拓原节点并在I_D=(π,U)中收敛；低层p次幂的极阶<p且中心为零，故首map层同为b0、首函数κ_h x^(g−1)y。β/α真为5A/4或11A/10且非零，原c1用y。原p^−a_h G_h整restricted、modp次数m_h=(p−5)/6或(p−11)/6且最高项单位，全部系数content恰p^a_h；vp(a−1)≥3原盘非中心零数≤m_h−1。开盘精确数是代数闭完备域按重数的最左单位下标，不是有理零数。a_h=0/单位低项/另一λ与同h Legendre fi gj/J32尚未判，不能换成成长次数的unit；原正秩候选未假定Abel零像，height仍OPEN。
 
+[R925低系数/同h喷流](results/R925-original-low-normal-coefficients-and-same-label-critical-jet.md)：完整calibrated log≡id modp；char0先消N_h得到全部j≤J的(q_j/q_J)²=[(3J)!/(3j)!·(81B⁶)^(j−J)Σ_j/f_*]²。故真J32≠0 iff 原P_(h−1)(1/s)·Q′_h(0)≠0；保a_h与v(c_cal)=a_h−1−v(N_h)/2，不选共同符号、不判低项非零。下一步原低项/Legendre约束继续。
+
 原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0/P1/ν/theta二挠/fullCorr/nonp/splitting继续生效。ordinary43/776bitGaussian5已排、R779 Shapiroθ同Σ/C4杯积已闭。
 
