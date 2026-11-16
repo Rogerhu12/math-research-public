@@ -329,3 +329,8 @@
 ## 2026-11-16 05:15 UTC /root — R477完整物理点必要失败范围
 
 **R477：必要失败地址保全；无新科学执行。** [两reader接口](notes/2026-11-16-complete-physical-point-sampling-scope-readback-interface.md)10057B/6ddabf6b与完整diff已读，base55606B/47d7ec77、outer30114B/6e40dc63独立刊。原point_index/radius_word/role/错误类型与全文/全部pending闭片段/retained叶span/未返回布尔直接保，不经small裁剪；outer真正加载新base，旧pins保为祖先。原mode/native/FD/两阶段与90KB/超70/marker/quiet不改，不保证新摘要装下。205/207/209首链同漏；R456与209 R462/R464整行路径不漏，207旧M_API另有未修同型问题。212另付真实新reader/schema/marker接线；不回填203已删字段，不改冻结入口或新设科学门。
+
+
+## 2026-11-16 05:23 UTC /root — Request211来源与完整参数合同
+
+**Request211来源合同已定；尚无本次科学运行。** [完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)六件全部身份及完整差异已核；本次先刊generator19034B/846a5d0c、plan81398B/4d197084、recipe18761B/1a949e87、interface25136B/ee2c4c32。保原210全部154身份，147真实public＋11历史view＋10当前view共168；原缺依赖6817B/c216d2a8按原字节和真实同目录补齐，历史11按原208base/49patch重生、不冒当前入口。当前10实际接已刊R474工厂/flow/helper及九计数，R471/R466及原六词/λ=.001/18000/全112、226双mean、224方向、R273/338×112/FD/fullDN/audit保持。有限输入false原完整loop，不加finite-output门；源计数不冒任意动态导入完备，不声称接受或速度。单90KB/超70/必要marker与真owner/rules-parent quiet后清理保留；request/workflow另次推，R475/amplitude唯一终态。
