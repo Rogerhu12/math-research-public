@@ -399,3 +399,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R415｜两负权双锚乘子与最低静态完整尾消
 
 [R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)（13277B；SHA256 2c83583bd1d2c3f75af02412f0060280d2b2e3961b0073b0d87811563c125948）。原R164八参考状态消元对−6/−4同样给μ=(0,2a0,2a1,0,0,0,0,8a0)。新V6=[h^-6]F0(h,0,0)原N0/Γ在此幂无项；self/pure差的真实左端−μ0M3/1536由两有序Green尾准确相消，ΛV6全profile零。联合−4原V*=3F/32与共同Q4头消，两权a0=0，μ仅2a1p2*、μm2=0。剩余四个完整最低h函数须同一λ逐k静态非负/速度PSD；原R73幂表证明Γ在这些系数无项，不删除N0/N2/水平正规化。a1及整个实际joint仍未完成，无科学执行。
+
+
+## R414｜共同合法窗口下whole E与高自然商的实际有限截面
+
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)（20561B；SHA256 f469691f2cd37f6815a947fe11f40778697ceaa20eea26c698da7b2269675b72）。共同A仅取实际母self与ordered3+2的全affine轨道，辅助self不增加；全权零查询准确0。自然≤−4给真不变子模块，商的全部候选正字符逐权排除，零权响应商0，原两次商校正和最终有限复制保所有prototype/桥/后置成本，得真实联合像内同一C1截面。物理实施须整个库与控制有限包络共享合法窗口；from-start一次坐标识别后固定，不授任意预冻结几何。新F★同时保共同D/E、19根和有限简单退化；完整低自然与全period继续。

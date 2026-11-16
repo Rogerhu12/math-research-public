@@ -69,11 +69,12 @@ R292/295的真实平台/self条件、R297九矩单位、R298能量、R303全平�
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
 
-### R383有限表保持；R387/R388阻断同芽全部连续首阶轨道
+### R383有限表仍有效；R387/R388已阻断原Gaussian同芽分支
 
-[R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)在原等背景模板一编码位置保全部真实8/12/镜像共享母，冻结半母三矩、九个实际self和及J/K；原ordered缺陷/有限Laurent并置/同母常秩IFT与完整权/Γ/Euler两列证明给真实Ω±模块。有限正伸缩H与四次幅H³精确补早期弱基线Ω，Ψ成本H−4留负储备。再原R379同17行/204真正列/一个有限N根，十个对称Gaussian乘积的全部三外矩、所有θ同点为零；18area/T/Ψ/三directed及完整第三均保。Ψ由固定弱核、强W0及Fnew保∫u″⁴逐fiber准确固定。
+[R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)保实际8/12/镜像母、半母三矩、九self和及J/K；同母常秩IFT与有限N/正核已清原17行、全部十个对称乘积三外矩，18area/T/Ψ/三directed及third同付。原冻结O与R376–380局部门结局保稿，不重做。
 
-这已支付R376/377/379/380曾记录的ZY0/WY1/YY0/ZZ2欠账；末Fstar冻结O的事实仍保，真正修复发生在更早实际模块。R387现已从完整原式证明另有严格正的一层j⁴余量：[R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)。其系数为正倍∫(f″²−φ″²)²，当前π/2严格正；合法gauge/传入history与其它真实Gaussian词不能抵消。原三矩/弱hook/WP面积/三directed/Ψ同时保持时，任意非退化圆也不能使完整一层零。R388保原两row不除P给严格正D4身份，并从原二/三/四恢复逐项证所有前提必要；任意同种子、连通C²连续真实首阶轨道均恒f，改非圆也不能绕过。下一改端芽/第三算子或其它机制，接有理芽R327实际同规范joint；不得同类增行/增频。大κ只条件于实际已安装芽，不扩旧安装范围；首阶恒定高阶才动族未排。其它端芽不得继承本芽wholeE/Morse/period。
+但[R387](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)完整一层给正倍∫(f″²−φ″²)²；在原三矩/弱hook/WP面积/三directed/Ψ同时保持下，合法gauge、incoming与其它真实同Gaussian词不能抵消。[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两row不除P，证明同种子连通C²首阶轨道恒f。下一不同端芽/第三结构或有理芽同规范，不同类增行/增频；高阶才动及一般C²机制未排，大κ仅条件于实际已装芽，不继承其它芽wholeE/Morse/period。
+
 
 ### 完整H读出已零；整个Q4自然读出已闭，继续实际joint
 
@@ -188,3 +189,8 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R413/R415：共同Q4与双静态锚已消，继续四个完整低函数
 
 [R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从R411起点保D−E>0；共同Q4的−4头维rank(d,e)−1，故从起点同D/E才得仅−2四链。所有不交ordered3+2对Q4局部五次为0；两负权同权E=R使完整A/H/Q4 action0。[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)再由八参考态得两锚μ，原kω0的V6保左R′J及两有序尾得Λ全u0；−4 V*原3F/32已在消掉的共同Q4像。于是两权a(0)=0，μ=2a(1)p2*、μm2=0。剩余准确为同字符a(k)≥0及三个速度函数的2×2 PSD，a(1)未排；四最低h系数的Γ幂已核空，原N0/N2、水平微分和真尾不能删。不把pure列当完整mixed根。R414另付共同高商，继续实际低层。
+
+
+### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
+
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续R415四低函数。

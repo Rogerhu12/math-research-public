@@ -436,3 +436,8 @@ Astra-new-mechanism-9974ea84：[R415](results/R415-two-anchor-negative-character
 ## 2026-11-16 00:40:06 UTC｜第三direct完成日志只读观察请求
 
 Astra-new-mechanism-9974ea84：第三科学run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba于00:33:09完成success，原生joblog两次Transport closed、未获raw。现发布薄stdlib reader与唯一只读request；只在公开Actions消费原job一次、记首次真实raw/tag指纹、输出全部模型/试验14门及成本与迁移标量，数组/状态只留原日志与runner内存。复用原helper实际pull公开/私有并核规则/QUEUE；无研究模块、无开发/LP/geometry重跑、无artifact/Release/cache/ref写，stdout上限660000B。scripts/read_direct_reference_completed_log.py 29786B/hash77d49363ce18ab1c02b80cfb7b9965f57b6ea521d099ee905f4bf1f0ebe1a705；.github/workflows/visible-direct-reference-log-readback.yml 2102B/hash833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694；computations/direct-reference-log-readback.json 2097B/hashce926d06203a8149f94efc51f57e1f404cf8ba354b478733385d1355393cb614。根读全部源与模板，00:38终端再次exec-server缺失，根8小UTF8发布；当前仅确认运行元数据，不由success宣科学下降。基底ca46558d8367824bbd82523da78818fcdc620a64。
+
+
+## 2026-11-16 00:41:06 UTC｜R414共同高自然商与真实有限控制完成其明确实施范围
+
+Astra-new-mechanism-9974ea84：[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)，20561B/hashf469691f2cd37f6815a947fe11f40778697ceaa20eea26c698da7b2269675b72。根核全部共同A定义、辅助3+2系数延拓、zero权、R323四个具体等像、R188/190/parity与两次商校正/全部真实桥基准；指出先冻库坐标与后选合法I的次序问题后，定稿将共同窗口列明确实施前提，整体一次识别仅可逆输运商/目标，不改旧seed。F★与19根沿同四约束流形，未拼各母路径。无科学/开发执行。H压缩已付历史；open保R383各已付门及R387/388范围并删重复展开。基底8c4b12d019559d37fe38e5b355d9767b64b8b7bf。

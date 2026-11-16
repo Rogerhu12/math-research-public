@@ -34,18 +34,20 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)：全自然平移degree≤7，七次=−3λ+M5/80。原八复制同形同宽末包suffix R/T全0，16真实d/e totals可Lagrange读λ+>0且w不变；M5非零时原点不可达。旧冻结母未测M5只得M5=0必要，不扩一般芽/非π0背景。
 
-[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)：v=−u′两坡+固定凹接ψ3尾，准确五次标量给有限正η的M5=0简单根。在该正则C²流形取真restricted max-F及19minor，以r+1列精确保M5/F、原C1集中付19真根；正单峰/一对Af/共同外区同点，全部copy保。只新母数据，旧纤维不改。
+[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)：新初选在正则M5=0流形付19真根/共同外区并保一对Af；两坡凹cap、restricted max-F及r+1纠正均付。该一对结论不转给后来的四约束母，也不修改旧纤维。
 
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)/[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)：4半径16包/8正第五权及16个4minor、正解析逼近/IFT先造全部n2四平移系数0。四个支持远离局部jet的normal给同流形真restricted max-F及19minor，r+4有限纠正和原19 C1集中根，同一最终有限母族保n2全affine0、共同F/外区，全部p/Af仅有限简单零（不称一对）。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
 
 [R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)：原八参考状态把两权μ限两静态锚；k=ω=0的V6完整self/pure与两Green尾相消，ΛV6全u0，−4的V*原3F/32由共同Q4头消。故两权a(0)=0、μ=2a(1)p2*、μm2=0；仅余同字符的a(k)≥0与三速度系数PSD，a(1)未排。最小原根为ω0的4个h最低系数，Γ在所取幂无项，N0/N2/水平先微分后置ω0仍须完整保。
 
-R403/405原19正核/真实F_rat/有号三导集中与p号保护可复用；R391逆germ在p中心不容residue抵消，每Af点须原同锚累计flux0。[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)/[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)：同μ内区真实连通路径固定self两cap S″，原M0/同端口闭frame/Q0，affine尾可动。跨包wholeE0只消primitive二导；actual右镜保ω_i/ordered A_i，7n固定自然查询可读总量；保真wi/suffix，68|W|生成非rank。全Λ核的Euler current不能免费用于actual。
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)：共同A只含actual self与ordered3+2的affine轨道，辅助self不加；A(U0)=0。删自然≤−4为真不变商，逐权排正字符，原两次商校正/全部基准给wholeE+高自然商同一有限C1截面。物理实施明确须库/矩基/右锚/完整有限controls共享合法窗口，从起点一次坐标识别后冻结，不授旧seed。新F★=(F_rat,D,E5)同流形付19及共同D/E；全低自然/整包period仍欠。
 
-R390/392/396的actual(P_LE,双固定Λ,≤11Hd)与R399/401的actual wholeE0+指定包4镜点为不同截面，不拼全joint。τ*在Af点partial=2p²(pw″−rw′)，负倒二包suffix非零、12copy C像ερ⁷Pol≤3；仅指定门已付。R394保全部germ/gap k值/incoming/平台代价的同13规范：deg4矩阵/deg6rhs Smith零行与圆上整除jets给smooth iff，≤52重数非rank；真正全period与同一k解仍欠。
+R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；全Λ核Euler current不能免费用于actual。
 
-R388的正D4身份只在同Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不得回被排同类增频。完整第四、高阶收敛和同g有限族从未由这些有限门授予。
+R390/392/396的actual响应E+双Λ+≤11Hd，与R399/401的wholeE0+指定四镜点是不同截面，不拼全joint。τ*在Af点partial=2p²(pw″−rw′)，负倒二包真suffix/12copy C像ερ⁷Pol≤3；仅指定门已付。R394保全部germ/gap/incoming/平台代价的同13规范，Smith零行及圆上整除jet给条件性smooth iff，≤52重数非rank；全period/同一k仍欠。
+
+R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不回同类增频；完整第四、高阶收敛和同g有限族仍欠。
 
 ## 5. 继续
 
-[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，只读observer源码/唯一请求已发，科学明细待读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；续R414共同高自然商及R415余下四低函数/PSD，主完成门欠，持续open/actualpull。
+[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，只读observer源码/唯一请求已发，科学明细待读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；R414高商仅共同合法窗口下已付，续R415余下四低函数/PSD，主完成门欠，持续open/actualpull。
