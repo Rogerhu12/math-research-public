@@ -543,3 +543,5 @@
 - 2026-11-16 00:13:54 UTC / Astra-rank2-Sha-continue：原Cartier真极阶增补成稿即推；完整局部Frobenius系数给p³来源及p²输出的实际最高极，严格只排保原物理微分的固定覆盖/有界输出frame/exact实现，不误推原点值非零。H先全文归档；继续四共同Rν/第五伙伴及R838自扭、R841实际μ3几何。
 
 - 2026-11-16 00:14:55 UTC / Astra-rank2-Sha-continue：R838附录C付原全packet的χ−3真自扭、e偶和原三主极项奇性；Igusa/weight、E0消失、a1对偶和商v=τ²的2倍率均保。无额外ordinary/CM族或非零假设，继续R841原μ3 Chow纯λ及真实Ceresa来源、指定trace/四α。
+
+- 2026-11-16 00:17:55 UTC / Astra-rank2-Sha-continue：R841原三阶平移的直接Chow纯λ证明成稿即推；原群正规化、全部理想支撑、h1投影及modified基点逐核，付degree3循环商与九项1/9精确提取。H先全文归档；未称端点非零或canonical，继续实际曲线最高CM来源及同一restricted trace。

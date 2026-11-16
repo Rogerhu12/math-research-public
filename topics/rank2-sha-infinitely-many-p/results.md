@@ -296,3 +296,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R838 原自扭与实际主极项奇性](results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录C在9整除原N/M的真实三阶平移上，逐付正规化/全p-Igusa层、q权归一；E0取3倍指标，唯一eigenline及Nakayama给完整packet E0=0，故χ−3扭为真对合。原τ=Tℓ*变−τ、权不变，迫e=2s_p且u偶；原两CM输入之积只含2模3项，a1双对偶保Cν奇、bν偶和eτ^(e−1)Cν=dν+O(τ²)。真实自扭商v=τ²的系数为2τCν，主读数倍率全保；不将第一分支认成CM/ordinary，也不推出dν非零或原canonical比例。
+
+
+- [R841](results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：原9|N,M的三阶R:z↦z+1/3正规化、K定义域及q0/q2全交换齐付；原CM理想级数完整支撑1模3，h1忠实性回真实Chow特征，modified diagonal及基点不变迫原Z直接纯最高λ，无需mixed rank0输入。实际degree3循环商X0(L)→X0(L/3)及九项1/9原角色提取保持全来源；push/pull特征分开，X0 old 6^-2和X1 1632/816/12^-2全保。未赋非零、未增加端点或canonical比较。
