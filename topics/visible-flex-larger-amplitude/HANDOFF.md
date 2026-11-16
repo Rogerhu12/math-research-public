@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 00:25:40 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 be2559e5da926fbbee8a33f1926965bdf412d289。
+规则同步记录：2026-11-16 00:25:54 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d471615c19307083b23ef82e2071c7b355c18d8d。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -35,7 +35,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [199接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)原84→89pins、R423三限定逆换全b16/reader两编号199；原19200四组件/算术/门/90KB/quiet保，amplitude R424。R403实际190 ADL阻/audit575/576、raw清；R406实际192/R415实际196各128/replay接受但stage/112/338=false，audit=true仅flag，内部原因/backend/覆盖未返；硬190 reader在build前阻、cleanup skip，旧raw不可恢复。[195接口](notes/2026-11-15-request195-original64-finite-trace-r273-complete112-interface.md)/R411原root/Cholesky/两回代/226×224/mean/338 FD/127pins/78源/18000全门保，不冒IEEE/分支稳定，exact R412。
 
-[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)真98另起39，八原progress/新FD通过、24trial；210886/215693B超90KB、transport70，详细α/merit/末场未输。quiet真、非规则停，末小件/pair保至runner销毁；R428/200正补原FD失败地址/observer错误，须真98重算。R361实际171为37→38后RIGHT459阻；R399实际188原全域及八接受FD保，无native/连续角。
+[R404实际191](results/R404-actual191-eight-real39-pairs-and-necessary-summary-overflow.md)真98另起39，八原progress/新FD通过、24trial；210886/215693B超90KB、transport70，详细α/merit/末场未输。quiet真、非规则停，末小件/pair保至runner销毁；R428已补原FD失败地址/observer错误；200须真98重算。R361实际171为37→38后RIGHT459阻；R399实际188原全域及八接受FD保，无native/连续角。
 
 [201接口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)只用R421实际198末十词双路径554B/1732ad59作新初猜，原121+17→122+19、实际51→52，2911f896原normal/continue正文同；固定S/半径1/16×8/20/3×20/120FD/160bit/depth14/453/2400全保，单90KB/quiet清理保。198为71接受/181α、W.6072527→.0516490、初60FD齐；dir71/.5/update1未返、余56方向/末60FD/Arb453未起，2400partial且raw清。201不继承未返J，root R430。
 
@@ -48,6 +48,8 @@ R418/28b7245a同场/DAG/原C四件/自然域/cut/四Loewner闭DFS；固定C盒�
 [R427接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d同job真43f217父、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+knots只作seed/preflight，450 RHS/H/338×112J/FD/fullDN/final/audit全新。容量/无新点显式partial，末state/mesh以solver为准；M/N/native不改，R431正接原钟/读回，无actualparent/recipe/run。
 
 [R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)/[完整接口](notes/2026-11-15-current-C-ten450-postsolve-complete-geometry-interface.md)/84d0450f+79296f4f：同job真193两阶段accepted450、全十词/43f217/C原件，原deadline bytes/SHA先同upstream再核namespace起点，五阶段R409径向→R413 atlas→共享场→R418 metric与独立R422 reach。各阶段只取原剩余钟，metric未过不阻reach；原owner/PID/start静止后读，全部stage/未起后缀/错误与资源保，单90KB超限70、raw不删。未来workflow清理须原193读回∧新读回∧全部quiet；原4件C及2件source保到消费者结束。尚无新request/recipe/run或actual450几何，不接R425/R426，不付新数学接受。
+
+[R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)abf42d92/68d53286/2b9c71c0修复实际191整链必要读回：共享原source/query与逐批必要字段去重复，保八批全部trial/选择门/域失败/RMS原返回/原observer异常、FD原contracts=False完整记录及方向/层数、真末pair/三参数/错误/未访。原五数学源、17项参数及四worker函数逐字保，104pins→106；全39/free461仿射/完整H与fresh FD不变。单90KB超限仍70，不删失败/不拆包，quiet后读取、必要持久后才退大raw。200须从真98另起，不继承191已毁末场；尚无新科学接受。
 
 ## 恢复与保存
 
