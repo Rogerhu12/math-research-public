@@ -34,7 +34,9 @@ R435/R440/R441旧有限self模块22formal、同镜16/六blind；真实K左常数
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
-[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核。δP_f(Gd)=−d(X)/τ、δP_f(Ge)=e(X)/τ，P2另乘κ/24。当前12副本真四次差分、quadratic Y跨尾消、平移≤10给e(E8)=0及incoming-e0；[R445](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)由已付ρ2与全Z4证d(Bε)=d(Y)=0，未知缩为P/R/S/L/U/V六真值；不宣非零。最高可付仍iff be=0且τbd∈d(E8)，仅此支路。R326保3合法矩，余9端口行/其它s段/相位seed及actual原型×n基准仍欠。
+R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核，δ最高像值=(−d/τ,e/τ)，P2另乘κ/24。当前12真实四次差分给e(E8)=0及incoming-e0；R445由全ρ2/Z4证d(Bε)=d(Y)=0。
+
+[R447](results/R447-twenty-common-profile-targets-and-a-nonzero-highest-P-gauge-direction.md)从起点同选四自然约束、整个F★与全部共同外Af根，准确解(V19,dP)=(0,η)，任意有限η。新2x4Cr主行模偶配对仍独立；20组原12交替列严格正核、restricted max-F/20minor同点、有号集中保所有外jets，固定盒后同一有限N真根。选η非零后8hook第一最高轴恰1、第二仍盲；不能授旧冻结圆非零或actual零基准路径。原3合法矩保持，余9端口行/其它s段/seed、两真range特解与原型×n共同基准仍欠。
 
 [R449](results/R449-eight-complete-hook-responses-and-a-137-dimensional-response-image.md)以原单峰bump平移族和完整左尾证明B(E8,H)真独立8，尽管R443其Af self全0；Q/current/self旗标59/32/38后尚有这8真方向，故144完整像≥137、完整系数核≤7。K11与整个144像交零，增广完整像≥148；不替49 Af像/actual秩。
 
@@ -54,4 +56,4 @@ R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f�
 
 ## 5. 当前工作
 
-R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；R446局部性已发；接R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；R446局部性已发；接R448新49镜对/全根评价。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。

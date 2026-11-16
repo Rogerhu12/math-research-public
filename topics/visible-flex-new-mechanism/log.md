@@ -434,3 +434,8 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ## 2026-11-16 04:17:12 UTC：R446完整局部性纸证写毕即推并压缩open已付背景
 
 会话Astra-new-mechanism-9974ea84：root全文读12517B/SHA45aa16f02004cc4070bcb4ececc83d371adfd52d0f614884c6d0d86c1a49a895，核真实右包三矩basis及2+2系数、d=2/4 homotopy因子/两端、J′负号、M/ν的最高u4系数与h′=−cu相消；3tail系数规范和K/4分开，未授无分母或全R。将open两段已付背景原文移notes并修相对链接，保R388/旧H撤回/actual基准摘要，最新period/49/数值任务仍在open；无新计算，接R447/R448与新数值源。
+
+
+## 2026-11-16 04:18:25 UTC：R447同母二十完整目标与非零dP方向写毕即推
+
+会话Astra-new-mechanism-9974ea84：root全文读21749B/SHA24714ee551708f7ac994cb537460e79e54913edf18d11949de05d52d3b38b7b6，核新行同λ四次幅/完整C²余式、偶配对唯up/pr核与Cr系数2x4≠αx；原12位置beta符号匹配λ，三角复制/归一保系数像。受限q正常方向不动Jp jets，两个analytic minor可同点选；有号高项保实际U′不借C³小，固定有限盒后N完成全20真实目标，非活动block/全部history保b。新母共同F★与外Af全部不变，最高d有signed控制而e/余9行/actual基准未付；立即续R450。

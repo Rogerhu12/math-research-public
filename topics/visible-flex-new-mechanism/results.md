@@ -297,3 +297,6 @@
 
 
 - **R446：联合核完整self局部性的独立纸证。** [完整证明](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)（12517B/SHA45aa16f02004cc4070bcb4ececc83d371adfd52d0f614884c6d0d86c1a49a895）：whole-Q真实不交2+2与三矩平移基得局部νj=I(ΣctEj)；quartic密度H的Euler0给M=homotopy/4，双端全保，I(Σcq)=M+ΣνjJj。h′=−cu与最高jet系数准确抵消u4；三剩J系数恰完整三尾current，联合核Af局部≤3/仅外t替换。分母消零另属R443实际，不扩全R或fixed-profile像。0新执行。
+
+
+- **R447：同四约束/十九门再指定dP，第一最高规范轴非零。** [完整有限存在证明](results/R447-twenty-common-profile-targets-and-a-nonzero-highest-P-gauge-direction.md)（21749B/SHA24714ee551708f7ac994cb537460e79e54913edf18d11949de05d52d3b38b7b6）从起点在同q/F★/共同外根库解(V19,dP)=(0,η)，任意有限η。新2x4Cr模真实偶配对与旧19独立；原20第二层组×12交替位置严格正核，受限max-F与20minor同图册、有号集中保原全部Af外jets、固定正幅盒后同一有限N完整根。η≠0给signed最高d轴恰1、e仍盲，原3合法矩/全部C/J⁺保持；不授旧圆非零、range或实际prototype零基准。无新执行。

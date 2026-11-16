@@ -60,6 +60,10 @@ R383原有限表保留，但R387/388完整正余量已阻断原Gaussian同芽连
 
 [R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)从完整B_XH原三项化为2Lf(XD)，whole三矩使XD/XΔ/Xfg真紧。8原响应属于kerJ⁺且全Af partial/C0，变化为真Lf像，不能使初始不入像目标免费入像。最高像泛函变化为−d_f(X)/τ、+e_f(X)/τ，实际P2再乘κ/24。当前实际12复制用四次εγ⁴=11差分权；Y真二次尾与紧Xfg的I2跨项准确消，平移次数≤10，故e_f(E8)=0及incoming-e项0。八列支路可同时付最高两值 iff be=0且τbd∈d_f(E8)，d八真值仍未判，不宣rank1或全R盲。原八复制已保3合法矩，余9端口行/其它s段仍须同k联立；signed响应与actual原型×n、桥及J⁺基准不混。[R445](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)已付完整ρ2=κI2(Yff,BεD)/24、Z4=−κ²I2(Yff,YD)/(144Hε)，故d(Bε)=d(Y)=0，剩P/R/S/L/U/V六真实值；不称非零或六自由参数。十二copy的d用正binomial平均，Pol≤10上可逆但冻结值可零。全部micro跨尾准确0给dP=Σai²Ri I2(Yui²,Pui²)，完整单包式为−2∫x4Cr t²+2∫(u−xp)²r²−∫x4r4/12。下一若用新principal，须同q/F★受限、真实copy/正核/有限频率19门一起付，不能改冻结圆取巧。
 
+[R447](results/R447-twenty-common-profile-targets-and-a-nonzero-highest-P-gauge-direction.md)现在从起点把dP加成第20目标，原2x4Cr主行对旧W/C二次空间模偶配对核span(up,pr)仍独立。原正布局至多20第二层组×12真实交替位置，各有严格正核；同四q图册内restricted max-F★和20minor同时取真最大/非零点，归一/全复制三角作用保秩。固定正幅盒后同一有限N准确给(V19,dP)=(0,η)，所有F★/共同D,E/外Af根和jets保持。η任意预定有限，选非零后最高d轴可由signed B_PH调任意值，e仍0；这是一套新初选共同库，不声称旧冻结圆已有此值。
+
+新响应保wholeJ⁺/所有partial/C/原3合法矩，但需先真period目标入像，余9端口行及其它s段/实际prototype基准还须同一构造支付。下一R450查真实最高e基准是否被原复制结构消掉，或寻找8hook外的真实e方向；不得只凭字面f³g丢逆算子和全部尾。
+
 ### R389：有理端口两period的真实整包通量与全部零端germ
 
 [R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在当前实际whole pure0、M0/TτH的不交值包圆，比较完整pure的3+1/2+2系数，整个mixed period恰为Σai²[diSi+Σj>i djUij]。self/有序交叉的真实左二次尾在别的compact outer总积分中准确消；同一自然读出给ωi=Λui(V)，ωij=[a³b²]Λ_(aui+buj)(V)，不假整个U局部，也无额外2。
