@@ -50,6 +50,8 @@ R805–R883原W/两图/146/418/273jets与原未缩放t、R860真cY、R866的127�
 
 [R914](results/R914-certified-original-full-V1-involution-and-P1-jets.md)完整146有理ι及P1的272×273 jets已认证，ρ1=ι*ρ0/c1=−c0、t1仅三项，原CM公共τ一次。[R917](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)原两端rank8正规order纸证/来源合同已成：θ0²共同清分母、首一仅损a阶，完整2+3+3与discrim4、四块idealizer/整性/精度损失及det uρ^(28h−I)均明定；六件执行已全文核读并激活，coref0e321a1/helperc728c8e0/wrapperf4a5e2a1，40原件闭包；[R917实际认证](results/R917-certified-original-two-endpoint-normal-orders-and-frames.md)已完成173stage/3.290035528s，两端h0/原discrim6/一次index1扩大/最终discrim4，可靠精度271，det=−ρ^−1及原t两首项已成。FINALcf539a58/manifestd8bac1cf/art14244312360；靶272/五目标格/九NmΦ均false，R923直接接真实order，未来R903/R907仍null。
 
+[R923](results/R923-original-target-normal-coordinates-in-certified-endpoint-orders.md)已闭真实端点正常函数整性与精度合同：原h0/无基点pencil保证目标τ图，旧primitive273项及旧discrim6、B逆先运输再整除给V=K/P_U的267项；原R885全局伴随行只作八维整求值，272个商共用一个分母，实测阶d0只损一次，输出精度267−d0。d0未算，旧273项是否足够未预填；完整272×8 W乘回、特纤维幂零、P0/P1参数和dual7不省。代码后继继续，目标函数端点坐标/五理想/九范数/height仍未成。
+
 [R919](notes/R919-original-whole-Artin-Hecke-differential-trace-method.md)五执行源已全文读、激活公开Actions：原δ=ν^−1d在减纤维前作用；只新九δP，再由−a8^−1[U7](hδP modp)得到完整8维Euler迹行及272目标正常基像。保A272/E2176所有幂零及真实θ/a8/χT分母、真dual7/diamond/−3/ν/Nm帧；73必要原件直接消费，不重旧逆/Γ。[R919实际认证](results/R919-certified-original-whole-Artin-Hecke-differential-trace.md)已完成66stage/1.784166740s，九δP/完整八维行/全部272正常基像与八个全A0恒等式均成；FINALc5b5a3a4/manifest3caecf79/art14245060474。不能把正常基迹行当作七连接或canonical投影已成。
 
 [R907](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)执行源已冻结，仍须R901/R903实际完成后整体填源。原128→真672、A272/E2176的一次A[T] Berkowitz/19584坐标CH和九正范数、NormΦ及两图colon/dual7保留；R899已成来源可填，a0仅在无旧全插值时补四原节点。原P0/P1数值及完整刚性化仍false。
