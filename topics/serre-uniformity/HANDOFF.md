@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：821f98de378edfbbf7f6c2b7eb71b0e0782f3e01**（2026-11-16T06:40:27.624975+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[原Y Hecke方法前H](handoff-archive-2026-11-16-before-original-Y-Hecke-method.md)（9929B/fb366b1a），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：5714990e247b409510d13b0e668467703df3836f**（2026-11-16T06:42:53.839871+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[P0/RR及真实Hecke谱前H](handoff-archive-2026-11-16-before-P0-RR-and-Hecke-spectrum.md)（9610B/21ed6fba），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -18,11 +18,7 @@
 |R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|原数学步，N_B56/目标7/300min仅控制|
 |R787 full dual|43790194976 / 133046704617|ad0278b29f83c035d83f44a262a1e375137c3450|清转置接受，300min/corebad97414/wrapper5388274|
 
-R787[545断点](notes/R787-545-digit-checkpoint-and-same-core-continuation.md)：真BudgetStop；lift76988028B/2aa94259，manifest1262/66c3fdb0，545-history4fc18ea3。artifact14198754717/a188db0f至Nov17 05:05。新从546；旧518全56格/失联/旧拒闭合，不重。
-
-R815[696断点](notes/R815-696-prime-checkpoint-and-same-core-continuation.md)：g/component0，1000014397/20809bits，current919902566B/506e675a，step9195c6b2/manifest5665/8c03d9bc；artifact14198893567/c403e270至Nov17 05:07。旧exit124/无core receipt，不造BudgetStop或Mg成功；同模式续697，旧49拒/九维调度闭合。
-
-R824[501断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artifact14192476595/7f1c8d82，lift70788183B/a2f5c38c，carrier612745716B/71b16a02。1186归R787；129/142/280Q/r28不延143–155。Mg/Γ仍缺。
+R787545位：旧run43795851660真BudgetStop，lift2aa94259/manifest66c3fdb0，artifact14198754717/a188db0f至Nov17 05:05；新从546，旧518全56格不重。R815696素数：g/component0，last1000014397/20809bits，current506e675a/step9195c6b2，artifact14198893567/c403e270；旧exit124无core receipt，不造BudgetStop，续697。R824501位：lifta2f5c38c/carrier71b16a02；1186归R787，129/142/280Q/r28不延143–155。所有完整字节/SHA、续接来源及限制见本H归档与各原checkpoint note，Mg/Γ仍缺。
 
 **A.1**：七小L条件不代A0−qB0=0。full dual保J4629B/b384a331、1481原源，全35840准确乘回才判。半坐标方法1f1ea6b2/coreffe5dcff/wrapper1552e403仍source=null，等full自然结束继承同target/J/current/下一residual-correction-witness；n+1七支/17920RR补±s后全核。禁取消full、混primal545、重J或旧位。RR失败不拒q；真禁用半块非零或fullΘ才转Δ/A.1。
 
@@ -39,7 +35,7 @@ R824[501断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)�
 
 **R865原T7纸证已成**：[真双陪集/短注入](results/R865-original-Hecke-T7-from-certified-level82-Fourier-rows.md)50bfc4bd。g7=T(1,2)、八个陪集；σ47(a7n)+7[7|n]σ7(a_n/7)，ξ41上首项σ6，原−3 twist交换且Rosati对称。13阶全部40坐标因20×13>252注入；旧q≤91已成，只消费R866同H/J/逆，新增12块A_nB及完整T7/谱。真实run43817070047/job133131532466/sourcea907063a已success，整ZIP/92件已核，final a48e185d；谱正式登记接续，不冒YP eη或完整等型。[R865已激活](notes/R865-original-Y-Hecke-T7-activation.md)：core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc/120min，175原件真闭包，run43817070047，artifact14203241087/b03edc4c至Nov17 06:29。ordinary续R870原η谱支持/7处真实挠界，先核ξ_j定义域。
 
-**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact续R868真实P0 fiber-socle：若W(z0)−w0I实际rank271则得单极生成元与I_P0^-254，准备新准确核；不假fiber étale或已得h。未消去Y/period。
+**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R868[真实P0单极元与254度RR方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)148d1e44已证：W(z0)−w0I的一个271合法mod素minor加全272K核给原h；容许分歧fiber，fτ=rτ/(z−z0)、σ准确运输/overlap、I_P0^-m=(1,f^m)，147th截面。原五Lj(254P0)推下固定O^128⊕O(−1)^144；实际128/144节仍缺。corecdac462c/method9c44c89c准备，仅一个真socle/Dixon与十目标模块，不重W/点/旧DAG。未消去Y/period。
 
 **R862整投影已闭**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8，d_A=1596092727686814808731、6次Norm/12全乘回/23node。四stage来自43812454495；completion-only43813805093/sourceaa45ec93 success，final41a58265，artifact14201721469/1e820ead至Nov17 06:00，17源carrier00db03fb。原4656250c tag/字节保，新dca646e3只finish；整ZIP/14件已核。E_Aφ*=0，不能代Y活跃eη/d/N/nonp。
 
