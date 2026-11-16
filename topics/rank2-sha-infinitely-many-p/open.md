@@ -160,3 +160,8 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 [R828原零角左行与实际中央Newton](notes/2026-11-16-r828-native-zero-angle-reader-and-central-newton-value.md)：原常数charge40/41/42给r(Q)三次moment左行Λ0，真杀原modp像；对任意同格X，Λ0M(X)/p准确读Σ_(d1..3)p^(d−1)a^-d[w^(ds)]Wtilde_(r^(d))(X)，无额外1/d!，完整高卷积保。四原中央若零，C=η0F(h0)∈p、D=η0F′(h0)unit，Hc=h0−C/D满足H−Hc∈p³，所以同M模p4已由这次真实Newton值恢复。指定三位必要式为N_Hc(P)+pN_Hc(R)+p²N_Hc(S)=0模p3；其它三中央残差、native商、同R/S和全末carry不删。r′X无额外中央授权，尚未判指定值非零。
 
 现在直接判同源指定N_Hc或原其它左行；不将r′X、r″X、r‴X当新中央零。
+
+
+[R859附B：原九阶商的完整Frobenius交积](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：图面稳定子恰阶3，其商完整正规化P¹×E；原a_i=(Y_i+1)/2、T=X1X2X3/4给a2=a1^r及Xsh=4T/[4a1(a1−1)]^((r+1)/3)。有限商q#保generic inertia，K=(1/3)Alb pr3*(Γφ·q#Y)只倒置3，保全部torsion/边界/交重。K(q_*ΠZ)=3S；原R-equivariant source下降X0(10404)→X0(3468)的3恰相消，S(ΠΦX)=K(barΦ barX)=Alb H_*(G−φF)^*O。Schoen逆与实际Hom Laurent germ/第三q4倍率全保；实际Hom坐标及非零点仍缺。
+
+下一输入仍为原实际Hom的完整a_i,T；不可拿任意同三次方程曲线、仅有限q前缀或r+1整除替代指定原点。

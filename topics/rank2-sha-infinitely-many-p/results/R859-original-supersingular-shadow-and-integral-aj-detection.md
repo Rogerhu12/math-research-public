@@ -794,3 +794,355 @@ $\varphi_r$，不能把它提升成特征零中的一个自由可选原来源。
 角色来计算。canonical7993 与原端点的区别、普通指定局部化
 的缺口、主 $\Sha$ 目标的未闭状态均保持。
 
+
+## 附录 B. 原九阶商上的完整 Frobenius 交积及 source 三次的消去
+
+本附录仍在正文同一个好惯性素数 $r$、同一个选定
+$\mathfrak r\mid r$ 上工作。置 $k=\mathbf F_{r^2}$，
+$\mathscr R=\mathbf Z[1/(6r),\omega]$；亦可再张量原系数整环。
+这里保留 $r+1$ 的所有素于 $6r$ 的 torsion，绝不先把
+Chow 群张量 $\mathbf Q$。原固定分母 $D$ 与全部
+$c_\rho,e_\chi$ 沿用正文。
+
+### B.1. 同 R851 的真实商及准确坐标
+
+令
+$$
+N=\{(\zeta_1,\zeta_2,\zeta_3)\in\mu_3^3:
+             \zeta_1\zeta_2\zeta_3=1\},\qquad
+q:A=E_0^3\longrightarrow B=A/N .
+\tag{B1}
+$$
+$B$ 是完整射影有限商，未用一个仿射方程替代其无穷边界。
+在原 $E_0:Y_i^2=X_i^3+1$ 的仿射区，严格采用 R851(15)：
+$$
+a_i=(Y_i+1)/2,\qquad b_i=a_i-1,\qquad
+T=X_1X_2X_3/4,\qquad T^3=\prod_i a_i(a_i-1).
+\tag{B2}
+$$
+这些是真正的 $N$-不变函数。特别 $T$ 含 $1/4$；
+它不是未归一的 $X_1X_2X_3$。
+R851 已给这个不变函数域到同一个 Schoen 模型的完整有理逆。
+本附录先直接在有限商 $B$ 上作交积，不借有理解消对应
+把 torsion 类变成只有有理系数才成立的等式。
+
+取原实际 Frobenius 图面
+$$
+\mathcal D_r=\Gamma_{\varphi_r}\times E_0
+ =\{(P,\varphi_rP,Q):P,Q\in E_0\}\subset A,
+\qquad \overline{\mathcal D}_r=q(\mathcal D_r).
+\tag{B3}
+$$
+因为 $\varphi_r[\zeta]=[\zeta^{-1}]\varphi_r$，其在 $N$ 中的
+集合稳定子准确为
+$$
+N_r=\{(\zeta,\zeta^{-1},1):\zeta\in\mu_3\},\qquad |N_r|=3.
+\tag{B4}
+$$
+这是泛型稳定子计算；没有把 $N$ 的全部九个元素认作同一图面
+的稳定子。$N_r$ 在 $\mathcal D_r\simeq E_0\times E_0$ 上
+只作用于第一份。因此
+$$
+\boxed{
+\mathcal D_r/N_r\simeq\mathbf P^1_{a_1}\times E_0
+ \xrightarrow{\;\nu_r\;}\overline{\mathcal D}_r
+\text{ 是完整正规化。}}
+\tag{B5}
+$$
+证明：$q|_{\mathcal D_r}$ 有限，其泛型纤维正是 $N_r$ 轨道；
+由此得到的商到像有限双有理。源为正规射影曲面，故它就是
+像的正规化。此论证包括 $a_1=0,1,\infty$，而不是仅在去掉
+分歧点后给出一个双有理图。正规化上第二投影
+$$
+h_r:\mathbf P^1\times E_0\longrightarrow E_0
+\tag{B6}
+$$
+是处处定义的态射。
+
+### B.2. 正规化的显式点读数及所有分支
+
+置 $m_r=(r+1)/3$。在 $a_1(a_1-1)\ne0$ 的区间，
+$\overline{\mathcal D}_r$ 的方程与 (B6) 准确为
+$$
+\boxed{
+a_2=a_1^r,\qquad
+X_{\rm sh}=\frac{4T}{[\,4a_1(a_1-1)\,]^{m_r}},
+\qquad Y_{\rm sh}=2a_3-1 .}
+\tag{B7}
+$$
+由 $T^3=[a_1(a_1-1)]^{r+1}a_3(a_3-1)$ 以及
+$4^r=4$，直接有
+$$
+X_{\rm sh}^3=4a_3(a_3-1)=Y_{\rm sh}^2-1.
+$$
+式(B7)不需要另选一个三次根或扩大原 Artin 域。
+在 $q^{-1}(\overline{\mathcal D}_r)$ 的第 $k$ 条图面
+$$
+G=[\omega^k]\varphi_rF
+$$
+上，(B7)恰读出 $[\omega^k]H_0$。
+这同时确定第三轴的方向和全部三个 CM 相位。
+
+作为 $E_0^2$ 上的完整有理函数除子，
+$$
+\boxed{
+\operatorname{div}(Y_2-Y_1^r)
+ =\sum_{k=0}^2\Gamma_{[\omega^k]\varphi_r}
+   -3(E_0\times O)-3r(O\times E_0).}
+\tag{B8}
+$$
+在每条图面的泛点其零重数为1；在第一、第二个无穷除子上
+极阶分别为 $3r,3$。等式由这些泛型赋值决定，所以图面相交
+于 $X_1=0$ 或原点处并不产生一个可删去的新除子，也不允许
+在那里只按不同点的个数计数。
+
+(B7)在 $a_1=0,1,\infty$ 可能呈 $0/0$。其含义始终是
+(B5)上的正规化态射，不是任意指定该分式的值。
+在这些边界上正规化到像还可能把第三轴的几个点合并；
+完整交积必须保留下面的 transfer 重数，不能把边界统统置零。
+
+### B.3. 含稳定子重数的有限商 transfer
+
+为避免对奇异 $B$ 误用平坦拉回，明确所用算子。
+对一个整闭子簇 $W\subset B$，取 $q^{-1}(W)_{\rm red}$ 的
+各不可约分量 $V$，记 $I_V$ 为 $N$ 在其几何泛点的稳定子。
+定义
+$$
+q^\#[W]=\sum_{V\mid W}|I_V|[V].
+\tag{B9}
+$$
+这是有限商的加权 transfer，通常不同于把 scheme inverse
+image 随意取约化。令 $D_V$ 为保持分量 $V$ 的分解群。
+因为 $r\nmid9$，
+$$
+[k(V):k(W)]=|D_V|/|I_V|,\qquad
+\#\{V\mid W\}=9/|D_V|.
+$$
+所以在 cycle 层面已准确有
+$$
+\boxed{q_*q^\#=9,\qquad q^\#q_*=\sum_{g\in N}g_*.}
+\tag{B10}
+$$
+
+(B9)尊重有理等价。可在相关子簇的正规化上逐个离散赋值核对：
+对下层函数 $f$，上层 $\operatorname{ord}(f)$ 等于分歧指数
+乘下层阶数；再乘泛型 $|I_V|$，恰成为上层素除子的稳定子阶
+乘其剩余域推前次数。将所有上层素除子相加，正是
+$q^\#\operatorname{div}(f)$。正规化到原子簇的推前与这个
+等式相容。反向用函数域 norm 得到同一个公式。
+因此(B9)在 Chow 群上定义，(B10)仍成立；
+这里只须倒转9，未倒转 $r+1$。
+
+这也可视为有限群版的 equivariant quotient 交积。
+所用稳定子权及其与 divisor boundary 的相容性，在
+Edidin–Graham, *Equivariant Intersection Theory*，
+arXiv:alg-geom/9603008v3，§3.1，printed pp.15–17，
+Propositions5–6 中有同一构造：
+<https://arxiv.org/pdf/alg-geom/9603008>。
+这里已对本篇阶9、tame、所有不分离度为1的有限商给出
+(B9)–(B10)的整系数核对；不以该文一般有理系数定理
+替代本篇需要保留的有限域 torsion。
+
+也可直接检查本处系数范围：取自由 $N$-空间 $N\times A$，
+以 $(g,x)\mapsto gx$ 映到 $A$，其商底映射为 $q:A\to B$。
+上、下两个有限映射的次数都是9；任何下层闭子簇的提升
+剩余域次数都整除9，故相应 cycle 推前在 $\mathbf Z[1/9]$
+上满射。由上述 proper pushforward 相容性，从自由有限平坦
+拉回的 boundary 相容性下降，即得(B9)的 boundary 相容性。
+因此这一下降只倒转3，不隐含对其它 torsion 素数的除法。
+
+对 $Y\in\operatorname{CH}_1(B)_{\mathscr R}$，定义完整交积读数
+$$
+\boxed{
+\mathcal K_r(Y)=\frac13\,
+ \operatorname{Alb}_{E_0}\operatorname{pr}_{3,*}
+ \bigl([\mathcal D_r]\cdot q^\#Y\bigr)
+ \in E_0(k)\otimes\mathscr R .}
+\tag{B11}
+$$
+交积在光滑三维簇 $A$ 上进行；$\mathcal D_r$ 是实际 Cartier
+除子。$\operatorname{Alb}$ 指从推出的零循环减去其 degree
+倍 $O$ 后取 $\operatorname{Pic}^0$。
+如果某条曲线落在图面内，使用其 pullback 线丛的第一 Chern
+类，不能把它当无限个零点。因而(B11)对所有 Chow 类定义。
+
+在自由且交积正常的开集，(B11)就是用(B7)将曲线与
+$a_2=a_1^r$ 的交点送入 $E_0$。全局的定义则是(B11)：
+它保留闭点 trace、分歧、非分离交重和全部边界。
+本篇不声称奇异粗商上的朴素交点计数与它相同。
+
+### B.4. 最高类的准确三倍及任意原三元映射
+
+$N$ 在两个最高 CM Chow 线上都恒等：
+三个特征的乘积为1。此处是正文(2)及附录A的真实 CM
+投影等式，故
+$$
+q^\#q_*\Pi Z=9\Pi Z .
+$$
+前两个 $\pi_1$ 杀掉 $\Gamma_{\varphi_r}$ 与 $D_r$ 之间的
+两个轴除子，第三个 $\pi_1$ 正是取 Albanese。因此
+$$
+\boxed{\mathcal K_r(q_*\Pi Z)=3\,S_r(\Pi Z).}
+\tag{B12}
+$$
+倍数为3，不是9；除以3来自正规化图面到其像的准确次数。
+
+更具体地，对正文任意实际
+$\Phi=(F,G,H_0):X\to A$，即使尚未先施 $\Pi$，也有
+$$
+\boxed{\mathcal K_r(q_*\Phi_*[X])
+       =\sum_{k=0}^2[\omega^k]B_k(\Phi)
+       =3\,S_r(\Pi\Phi_*[X]).}
+\tag{B13}
+$$
+证明：令 $g=(\zeta_1,\zeta_2,\zeta_3)\in N$。
+$g\Phi$ 落在 $\mathcal D_r$ 的条件是
+$$
+\zeta_2G=\zeta_1^{-1}\varphi_rF
+\quad\Longleftrightarrow\quad G=\zeta_3\varphi_rF,
+$$
+第三输出为 $\zeta_3H_0$。每个 $\zeta_3$ 对应恰三个 $g$。
+把它代入(B10)–(B11)，即得第一等式；
+第二等式是正文(27)。所有等式都是 divisor class 的等式，
+故也覆盖恒定差映射及边界。证毕。
+
+(B13)是针对这个读数的完整等式，不是说
+$q_*\Phi_*[X]=q_*\Pi\Phi_*[X]$。
+
+### B.5. 原 source 的三次下降与真实原点公式
+
+R841附录A已在**整个原权一对应**上作整数和平均：
+$$
+\varphi^\circ=\sum_{a=0}^2[\omega]^{-a}\varphi R_C^a,
+\qquad
+\Gamma_i=\frac13\sum_\alpha c_{i,\alpha}\varphi^\circ_{i,\alpha}.
+\tag{B14}
+$$
+所有平均仍是实际 Jacobian 同态，定义于同一个固定域；
+三个 $1/3$ 全留在原 $c_\rho$ 中。
+故正文(4)可采用同一原类的等变有限表达
+$$
+\Phi_\rho R_X=R\Phi_\rho,\qquad
+\overline X=X/\langle R_X\rangle=X_0(3468).
+\tag{B15}
+$$
+这没有更换原 $q_0,q_2$，也没有把不同的 Hom 向量混同。
+因为 $R\subset N$，有真正下降态射
+$\overline\Phi_\rho:\overline X\to B$，并且
+$$
+q_*\Phi_{\rho,*}[X]=3\,\overline\Phi_{\rho,*}[\overline X].
+\tag{B16}
+$$
+这里保留曲线到其像的所有额外有限次数；3仅是原 source
+商的次数。由(B13)–(B16)，得到所需准确式
+$$
+\boxed{
+S_r(\Pi\Phi_{\rho,*}[X])
+ =\mathcal K_r(\overline\Phi_{\rho,*}[\overline X]).
+}
+\tag{B17}
+$$
+因此原 source 的3与(B12)的交积3恰好相消。
+对清分母的全部原类，
+$$
+\boxed{
+S_r(\widetilde{\mathcal Z}_{\mathfrak r})
+ =D\sum_\rho c_\rho\,
+   \mathcal K_r(\overline\Phi_{\rho,*}[\overline X]).
+}
+\tag{B18}
+$$
+若 $e_\chi$ 尚未并入 $\rho$，右边仍须加上正文(30)中完整
+$18^{-1}\sum_\sigma\chi(\sigma)^{-1}$，并把每份
+$\overline\Phi_\rho^\sigma$ 在同一个 $\mathfrak r$ 上约化。
+(B1)、(B7)、(B9)均不新增17定义域；它们不使 point-factor
+投影变成系数的半线性共轭。
+
+同一等变性也把正文三个差映射简化为一个。
+由 $\varphi_r[\omega]=[\omega^2]\varphi_r$，
+$$
+d_k(R_Xx)=[\omega]\,d_{k+1}(x),\qquad
+\mathfrak d_{k+1}=R_X^*\mathfrak d_k,\qquad
+B_{k+1}=[\omega]^{-1}B_k.
+$$
+故准确有
+$$
+\boxed{
+S_r(\Pi\Phi_*[X])
+ =B_0(\Phi)
+ =\operatorname{Alb}\,H_{0,*}(G-\varphi_rF)^*(O).
+}
+\tag{B19}
+$$
+(B19)和(B17)是同一读数的两种实际算法；
+它们都保留图面的全部交重，而非只取仿射零集。
+也没有从这个简化推出 $B_0$ 为零或非零。
+
+### B.6. 接回原实际模函数，仍保未给出的输入
+
+(B15)使
+$$
+a_i\circ\Phi_\rho,\qquad T\circ\Phi_\rho
+  \in H(\overline X),\qquad \overline X=X_0(3468)
+\tag{B20}
+$$
+成为原模曲线上四个真实代数函数。
+它们沿(B2)定义，未任取一个满足相同三次方程的覆盖。
+给出这四个函数后，可用(B9)重建有限 Kummer lift，
+在光滑原 $A$ 上作(B11)的交积；也可直接正规化(B7)
+的对应并保其全部边界权。因此不需要先为任意 Schoen 解消
+猜测一个 torsion-level Chow 逆。
+
+在 R851 的目标仿射坐标记为 $(x,y,\xi,\upsilon)$
+（即该篇的 $(x,y,r,s)$），同一有理逆为
+$$
+\begin{aligned}
+a_1&=\frac{(\xi-x)y}{x(\upsilon-y)},&
+a_2&=\frac{(\xi-x)\upsilon}{\xi(\upsilon-y)},\\
+a_3&=\frac{x\xi(\upsilon-y)}{\xi-x},&
+T&=\frac{x\upsilon-\xi y}{\upsilon-y}.
+\end{aligned}
+\tag{B21}
+$$
+将(B21)代入(B7)，便得到同一模纤维积上明确的 Frobenius
+相交方程及点读数；不是只识别其最高 $H^3$。
+若经过 R851 的 proper graph 使用(B21)，不定点仍由(B9)–
+(B11)处理，不能把主像上的计算代替全部异常项。
+
+还可在原 cusp 处精确固定(B20)的形式展开。
+写实际代数映射的微分为
+$$
+F^*\omega_0=f_F(Q)\frac{dQ}{Q},\quad
+G^*\omega_0=g_a(Q)\frac{dQ}{Q},\quad
+H_0^*\omega_0=4h_b(Q^4)\frac{dQ}{Q},
+\qquad\omega_0=\frac{dX}{2Y}.
+\tag{B22}
+$$
+$f_F,g_a,h_b$ 是这些**实际 Hom** 的拉回形式，含全部
+代数归一；不能用名字相同的 normalized newform 擅自代替。
+取零常数积分 $z_F,z_G,z_H$，则
+$$
+z_F=\sum_{n\ge1}\frac{f_{F,n}}nQ^n,\quad
+z_G=\sum_{n\ge1}\frac{g_{a,n}}nQ^n,\quad
+z_H=\sum_{n\ge1}\frac{h_{b,n}}nQ^{4n}.
+\tag{B23}
+$$
+设 $X(z),Y(z)$ 是 $Y^2=X^3+1$ 的原形式参数展开，
+$dX/(2Y)=dz$、$X=z^{-2}+\cdots$、$Y=-z^{-3}+\cdots$。
+则(B20)的四个实际 Laurent 展开严格为
+$$
+a_i(Q)=\frac{Y(z_i(Q))+1}{2},\qquad
+T(Q)=\frac{X(z_F(Q))X(z_G(Q))X(z_H(Q))}{4}.
+\tag{B24}
+$$
+这些形式等式在特征零中确定原代数函数；它们不准许直接把
+含 $1/n$ 的全积分逐系数约化模 $r$，也不取消原 Hom 的
+period/整格归一。
+
+目前尚未列出(B20)的完整函数域表达或(B22)的实际 Hom 基与
+代数倍率。因此本附录没有声称已运行(B18)，没有拿有限
+$q$-展开或另选 CM 模函数代替这些原输入。
+新增的是同一原类的完整九阶商交积、其真实 source 三次消去，
+以及可以直接实现的原模函数接口。
+canonical7993 与本篇端点仍是不同来源；主目标与原
+$AJ_\ell$ 非零仍未由本附录完成。
