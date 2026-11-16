@@ -26,25 +26,21 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R504](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)付真实168线Tα/Uα全角差式、完整e″/f″与无1/ε放大的三阶余项；原qI±τK四PSD行二阶余项保面积/scale/直接门。U/T不足B0或b_s；非线性predictor另有浮点身份/舍入点，不承继旧affine凸性。0执行，未证56下降。
 
-## 3. 当前理论接口与剩余义务
+## 3. 当前理论接口与未付全词
 
-完整原式在[results](results.md)、活动任务在[open](open.md)。R495前细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)；压缩不撤同母、双germ、全库、原成本和whole-period义务。
+全部原式/条件见[results](results.md)与[open](open.md)，历史H在提交中保存；压缩不撤同母、双germ、全库、原成本、whole-period义务。
 
-**真实cap。** 原R471五门Δ1/2/3/4/6、R475完整12L/8Aj、Af/simple根/双germ/真宽/C尾保。R495完整凹图保U/H/E/跳变、首原子并Ceff输运；R489保分离质量窗。R493三原子36起点/R498四原子64起点均无零、账户闭，未排全类；局部IFT不授全局同点零。
+**真实cap。** R471五门Δ1/2/3/4/6、R475完整12L/8Aj、Af/simple根/双germ/真宽/C尾、R495完整凹图、R489质量窗均保。十五参数/三原子/四原子搜索均已闭且无零，不再重跑；有限失败不排全类。[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)保严格Dd余项，完整ImE在H≥H*严格负，H*∈(13/7,67/36)，真零只可能.6<H<H*。[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定图offset虚部真三次、当前H≥1严格凹至多两根；实部完整四次首项C4/5，尚未排共同零/低端凹性。
 
-[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)完整R/Rc比较与反向Chebyshev保严格Dd余项：N≤(13/4+c*/y)D−(1/4+c*/y)Dd，c*=1/4+89/(216√3)。原三次P*的根给H*∈(13/7,67/36)，H≥H*完整ImE<0，含C/线性段/端项；故真零只可.6<H<H*。完整Re同图联立仍欠；正斜率不能错用|d|≤1。
+[新的五门证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)直接保80H³Δ五密度、C尾、85个已证左端零势、q=r²/(3p)+Af/(6p)原余项和九真不等式。固定全H∈[3/5,67/36]/C参数Bernstein有限LP；唯一成功门是有理E_min>D_A+D_Q，所有负余系数按原积分界扣。0执行、未得证书，不续atom余额；源正在实现。
 
-[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定真图R时y=B+2C、A=A0+C(1−r)、U=U0+C；I=ImE/√y为完整三次、I3<0。以p≥r³/右切线/原A界分三段证明当前H≥1时I″<0（低端未判），虚部至多两根；Re为完整四次首项C4/5。没有推共同零不存在，五门其余三实条件仍欠。
+**真实路径。** R469/472保A/T/全部W/V；R482原13状态/2输入、完整K与Mraw、R484保护芽rank边界、R486仅开域障碍、R488 secant t1′<0、R492 period/13锁、R494真实桥odd残值均继续。R500异ω前缀差商只消相对门，不能删共同门/桥K；详原索引。
 
-**真实路径。** R469/472保A/T、双芽、所有W/V与一般w；R480外三矩仅付重复A0无漂移。R482原13状态/2输入完整K=F+Chh″+Ckk″及Mraw保；R484离保护芽须实际rank退化，R486只排开状态域F恒0。R488单真secant的t1′<0排自身M0返回/常collar；R492 even period核odd β锁原13行。R494任意紧输入β不依H且对ω仿射，双真中心odd差β((A2−A1)D)；R70真桥除至多一ω有残值，不能同w/后置复位消，但非全路径障碍。接非even完整period及新构造，主几何仍欠。
+[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)同w/反射中心完整even逐矩抵消，四相位β核≥4维；真实非回文标记片段共K。未锁Gram可一次清片段，已锁13仅保持；桥内/全period/V仍欠。
 
-[R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)付异ω三中心真实前缀差商；R70正长度桥保两半Mraw/共同窗口。N−2相对门可消，未付共同odd/even/桥K；不推全路径无解。
+[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)新字面同母库完整YC含history/尾消失、ZZ=sin²θ E；固定χ同付参考secant与h0>H、m=mg、γ0≠0正规入口。真实八矩ODE给非恒k局部全K0，有限常秩纤维保自身端germs/至四阶传递；参考secant固定state两速度一导全零，直接桥未付。不搬旧19/20母/13收据，不冒固定g有限等距族。
 
-[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)付同w/反射中心的非零真实前缀：完整even逐矩抵消，四相位β核≥4维；R70正时桥可排非回文标记字，片段共用K。未锁Gram可一次清片段，已锁13仅保持；桥内/全period/完整V未付。
-
-[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真实八矩受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
-
-[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同一R505库/w/χ下，两速度Gram全合法态SPD，完整椭圆允许正负h速度。零有向面积光滑8字及3角方向满秩IFT给任意充分短正时h/k/ω准确返回、k非恒、全段全相位K0；两端仅k_s=ω_s0，不同germs。原t1增量有严格负O(ε)项，frame/位置及全部3/4成本未返回；不冒M0/period或参考入口桥。
+[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同母/w/χ完整速度Gram SPD椭圆，光滑零area8字+三角normal的有限ε IFT给h/k/ω真实正时返回、k非恒、K全s全θ零。两端只k_s=ω_s0而germs不同；原t1有严格负O(ε)成本，frame/位置及全3/4传递未回，不能冒M0/全period或参考桥。接真实端点像与抵消。
 
 ## 4. 当前真正接受点57与已闭任务
 

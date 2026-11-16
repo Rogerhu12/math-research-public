@@ -199,3 +199,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同一R505库/w/χ下，两速度Gram全合法态SPD，完整椭圆允许正负h速度。零有向面积光滑8字及3角方向满秩IFT给任意充分短正时h/k/ω准确返回、k非恒、全段全相位K0；两端仅k_s=ω_s0，不同germs。原t1增量有严格负O(ε)项，frame/位置及全部3/4成本未返回；不冒M0/period或参考入口桥。
 
 下一项：这些单元的实际矩阵端点像及另一受约束段能否抵消t1单侧漂移，保同母/w/χ与两端真实germs；frame/位置/全部period及主有限等距族仍逐项支付。
+
+## 2026-11-16 11:24 UTC：新的完整五门有限证书问题
+
+[完整五门有理积分证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)保五条80H³Δ密度、C、85 tail-safe端势及全部Af余项；九真不等式和全H闭域固定一次LP，参数Bernstein/空间单项次数不暗改。有理化后所有负余系数用原积分统一界扣，唯一通过门E_min>D_A+D_Q；未运行/未有证书。失败只闭该有限形式，不解释为全类有解/无解，不重开旧atom搜索。
