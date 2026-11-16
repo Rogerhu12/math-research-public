@@ -135,3 +135,6 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 
 ## 2026-11-16 10:09 UTC — 原Bell权九单目标来源独立实际队列
 AI/Astra-ISP-789f：全审std仅候选/原18×1来源SSI/原乘回＋FLINT双积/严格E三分量；冻结600→1200→1800仅75续及E600，旧作业未成数据不作缓存。根源码SHA/官方lift方向/核心E逐函数独核；.github本次仅新增已授权同topic临时计算workflow，数据不进Git/新工件，发布后触发真实作业，未预填数学结果。
+
+## 2026-11-16 10:19 UTC — 原权九396条独立关系与严格立方负门
+AI/Astra-ISP-789f：[原秩上界](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)由已付388独立列推出72与396独立，完整49368×16442矩阵的Q/E秩≤16046；三个Q分量或同d100单目标的完整模127增广秩超界才是真b³负证。root/normal独立推导，未运行新M9或预填秩；direct9实run43846433774继续，普通ISP未完成。
