@@ -92,3 +92,15 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 08:50 UTC — Astra-ISP-789f：原九目标完整D31湮灭理想与分母律
 [正式证明](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)由同基十步实run43830684123付Ann(B)=Ann(bj)=(p5,p²x,x²)、原Ann=h*I及任f精确5/2导数判准；H25有真D源≤8515，单循环D类型(5,2)。
 根读完整日志/证明，独核六原raw及binding、14矩阵SHA、252组装/核乘回和86阶段；只读审计源码随稿。共同B不冒长7；该子问题关闭，继续共同B/M结构和其它open。
+
+## 2026-11-16 09:02 UTC — Astra-ISP-789f：原35例外trace与完整秩五奇点门
+[精确来源接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)保原E四Ti与D自由35基，拟核全部乘法/trace及完整19生成元Macaulay单位；当前只完成源码/原理审查，未声称运行正门。
+按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-original-pencil-trace-session.yml，沿已核实际终端执行与只临时数据框架，75才180→360→720；内存/验证错误不加预算，源先推再dispatch。
+
+## 2026-11-16 09:09 UTC — Astra-ISP-789f：matched完整返回中的native平均首反馈
+[原完整证明](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)以真核投影付Sf修正，真实第一远孔行付完整头Gram；同p_i平均ᾱ给全(H−B)交叉及真帽全cut均值趋零。
+根全稿与三父核验完成，保同w/完整h/左右零源、n≥h及帽内部窗；剩g0̄真空来源，不称N=M。原trace轻job实2.981秒两门全过、回执独核，另稿接续。
+
+## 2026-11-16 09:11 UTC — Astra-ISP-789f：同原六次面恰35几何普通双点
+[完整原证明](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)用实2.981秒的同原D自由35/trace95及全19源七次792×1848单位，排全部rank5奇点；局部Schur给35 A1节点、几何整正规及原X平滑极小解消。
+根全source/正式稿、3926字节raw和binding独核，修清模127导数记号；七次双逆1254528坐标实真，未虚填det数值。该奇点子题关闭，继续原Bell1完整余理想，普通ISP未完成。

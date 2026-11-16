@@ -59,3 +59,15 @@
 
 
 - [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。
+
+
+- [R875](results/R875-original-exact-eisenstein-degree-gram.md)：原实周期格的指数3/负号和完整Hecke正则化将L(β²,2)/面积化成原17挠点有限E2和；h/T0与定向α压成三次trace。公开run43835263367在21.106秒给exact Q、q(1)=1389480/17，I∞基Gram=[[376,−40,−88],[−40,664,−416],[−88,−416,880]]。纯AM–GM/8整除/mod3证全I∞最小准度数恰376，非窗口最优；整个极化Gram整是实际Hom必要条件，仍未认候选已整。
+
+
+- [R863附录A.4–A.5](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Z2−(455/2664)S准确等于∇Θ17 C0，固定whole C0从z7起，故消去全部Θ17高商与连接高端。C0=−σ(2z)^3 H22/21312给完整两个严格低于p的配对，binomial常数−1/10656付清；原q_F低连接项保留。未把H22认作V66/免费中央，也未判指定配对非零。
+
+
+- [R875附录A](results/R875-original-exact-eisenstein-degree-gram.md)：同I∞的精确整二次型完成平方证明q<664仅±u，q≤712仅±u、±uθ、±u(θ+eps2)，三者都是同真整unit轨道；k6帽612无其它候选。迹权w′=(376−56θ−72eps2)/3及codifferent式付整个Gram整性，仍不替实际Hom。
+
+
+- [R872首修正平方排除](notes/2026-11-16-r872-first-carry-corrector-square-exclusion.md)：最小τ1/r3/F0 degree3的原同M/p²强迫R0=0、R1=(Y−1)³A，deg A≤3且A(1)为指定frame单位。因此同R在k(t)[Y]中亦不能含F²；若F|R只余一参数最低项。全K1改变不改该单位，但仍未排其它R或判末尾像。

@@ -2,66 +2,45 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0903-R879-complete-and-R880-original-sources",
-  "commit_message": "serre: certify the original reference pencil and retain the exact bounded-divisor inputs",
-  "rules_last_read_commit": "969b3f439e706e539595424e18ddb573197475fa",
+  "request_id": "20261116-0914-R881-original-integral-theta-lift",
+  "commit_message": "serre: prove the original integral theta lift and finite cuspidal test-vector comparison",
+  "rules_last_read_commit": "81219ee982c2185ff0b1dac3480d9eef17276344",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "998c7737a8a15f331e90dfa3680e37de937e5606277501b7d9b59be0ce6cb6e8",
+  "expected_previous_request_sha256": "122df9ebdedafc8dc030cc8934ea543b594feb18e0cb83014be94416aa86a702",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R879-certified-original-reference-pole254-pencil.md",
-      "sha256": "8ff0887082447c3d57418e1122825fcea94e933cdc1fa630291eff9d23ca1d91",
+      "path": "topics/serre-uniformity/results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md",
+      "sha256": "6dbe407b02f62f2b64f803ab82182e877609235ae83f267913a52711bda36481",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R880_public_original_pencil_jet_cusp_source_intake.py",
-      "sha256": "15924bc6e7352d2c58b922bb85efbca6b324b3cf24632a5de46c51b03d9aefc3",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R880-pencil-jet-cusp-source-intake-request.json",
-      "sha256": "590f53c005359906dc1d1069cf56510528c7e8ae2f994bb9f0b4c50dbae96864",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R880-pencil-jet-cusp-source-intake.yml",
-      "sha256": "7d86e40ddd7f5664fc99dad10ba70c0cf830314d3923205b05c142ff6bf19a61",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-reference-success.md",
-      "sha256": "b3fcb9b8cf8b3363ea0758ad0c51a78da93f7840aef77d61c245dc51f8492b0f",
+      "path": "topics/serre-uniformity/notes/R880-original-pencil-jet-cusp-source-intake-complete.md",
+      "sha256": "d48ee89387d65e39bde2c0988c89897a973ac2521613364f2c4bce8dcfab859f",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "a992967d82263ef7da4c27ceba937dc0de40d6dae3d473724ba26adf3e6a2973",
-      "expected_previous_sha256": "b3fcb9b8cf8b3363ea0758ad0c51a78da93f7840aef77d61c245dc51f8492b0f"
+      "sha256": "3294c81d5bc1b97949f7263cba98843c3bd33915d80218da249a765659dc6732",
+      "expected_previous_sha256": "10b1634e2e2bae9d56c8a6d93704b4af825eda268b23cf481d17372eb9b91558"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "e5af065f4116419620ec1484cfbd7431b8fde9b97873504eba980c80721745e9",
-      "expected_previous_sha256": "a6e8d9c689bd5d6af02dfe3ca67ed2aa60316854870f6447cf9bb8adcdfdad5a"
+      "sha256": "61a194d343dc2a61e5f6cdcabf25f8fb114980fd4511390124c59134e2cf3a5c",
+      "expected_previous_sha256": "e5af065f4116419620ec1484cfbd7431b8fde9b97873504eba980c80721745e9"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "21e72d1efe88f63ec1898fb94bc87da932a943e37d7c932ee4645010c038a430",
-      "expected_previous_sha256": "5882952c06456a1b9c98e7eafe2c10a6b43837a76b18d1874d4ff260a43efbf9"
+      "sha256": "a94ecb31f0c0aec6f420d0bde88f5daac74535692ec5f174c89b291852e348f1",
+      "expected_previous_sha256": "21e72d1efe88f63ec1898fb94bc87da932a943e37d7c932ee4645010c038a430"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "1cab622db56ad3141ba357a0fe27eb87a358357e594c114f1384215b4223f835",
-      "expected_previous_sha256": "ff007657eb646ae13b26af42a74e711b5c7636883d15334c19d9dfbebdc2a1e7"
+      "sha256": "442945f82f4da2750e6115a4fe26740c0ff24754d30e2f2b1ce1e5e0ec6d0655",
+      "expected_previous_sha256": "602cab9fdf10d35ced862dd3eea547ec443a500dc810c473389d10c46e1b1667"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R880-pencil-jet-cusp-source-intake.yml",
-      "request_path": "topics/serre-uniformity/notes/R880-pencil-jet-cusp-source-intake-request.json",
-      "request_sha256": "590f53c005359906dc1d1069cf56510528c7e8ae2f994bb9f0b4c50dbae96864"
-    }
-  ]
+  "dispatch_workflows": []
 }

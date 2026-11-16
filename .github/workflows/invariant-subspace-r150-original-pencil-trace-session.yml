@@ -1,0 +1,44 @@
+name: ISP R150 original pencil trace and full singularity gates
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: isp-original-pencil-trace-temporary-789f
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ secrets.MR_TOKEN }}
+      GOMAXPROCS: "2"
+      GOMEMLIMIT: "256MiB"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Record the bounded workflow start
+        run: |
+          python - <<'PY'
+          import os,time
+          with open(os.environ["GITHUB_ENV"],"a") as stream:
+              stream.write("R150_PENCIL_JOB_STARTED_UTC="+str(time.time())+"\n")
+          PY
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/HANDOFF.md
+            /topics/invariant-subspace-problem/notes/2026-11-16-r150-original-pencil-trace-session-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-16-r150-original-pencil-trace-session-789f-request.json
+          persist-credentials: false
+      - name: Install pinned exact arithmetic
+        timeout-minutes: 5
+        run: python -m pip install --quiet python-flint==0.9.0
+      - name: Complete original35 algebra and all homogeneous singularity sources
+        run: python topics/invariant-subspace-problem/notes/2026-11-16-r150-original-pencil-trace-session-789f.py

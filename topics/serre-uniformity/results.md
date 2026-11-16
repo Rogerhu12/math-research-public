@@ -230,3 +230,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R880 复用原D铅笔与共同cusp构造有界输入已证明**：[完整证明/契约](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)，SHA256 5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e。旧1111子式给269完整残余核，123jets给146，新962秩给D*418，20+252条件给共同DC418；Ef的准确除子等式、Qf及ρ^-1457首项均保留。真实新核/五Lj128或144/t帧/height尚未计算，不混参考v0。
 
 - **R879 原参考254阶单极函数和铅笔实际完成**：[正式结果](results/R879-certified-original-reference-pole254-pencil.md)。run43835253379/job133190260738/source0f74fb43，4stage/1.298767032s，563×418/rank291与全563回代；原极除子恰254P0，参考(1,v0)无基点。finalbf7172a2/函数bfc553e5/artifact14210388032/4b1d3a03；t帧准确式保留，五Lj/九Norm/height仍待做。
+
+
+- **R881 原积分theta lift与原有限尖点测试向量已证明**：[完整证明](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)，SHA256 6dbe407b02f62f2b64f803ab82182e877609235ae83f267913a52711bda36481。相对theta表示与Hensel给唯一整torus作用，真实opposite tensor给原cuspidal模型、各Phi_r和e0、Weyl−1/p、det扩张与二次扭曲；原六级标记/CM投影和Legendre边界保全。sigma系数泛函、完整cuspidal积分源及原q-normal比较未成，不冒原三单位或height。

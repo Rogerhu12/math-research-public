@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WHV 的唯一新网格 consumer 已封包：15 current、13 immutable history、6 AST（2新科学+3旧仅解析+worker）、固定 N=cap4096。只恢复完整旧native并新取三个 whole maxima，之后完整typed组合及一次strict比较，false也是完整结果；唯一科学child前公开消费标记，每新目标完整原子保存。尚无新数值结论，所有4650旧行、3594接口及旧成功禁止重算。
+
 - [W96：真实低96齐次列的存在及完整正侧有限关系](results/R133-supplement-genuine-low96-Poisson-columns-and-exact-positive-boundary-completion.md)：实际outer193行与head余核组成(289+mH)列/(193+mH)行有限矩阵，其kernel96+ℓ单射重构为真实正侧解，证明至少96独立物理列存在；完整额外ℓ零模/兼容和inhom RHS不删。指定root even96坐标的方阵逆仍为独立门。PW完整mixedroot/两density means到WPL半行/左B^-1给actual waist列公式；未计算basis/Gram/finite逆，消head所增high feedback不能借用旧E。
 
 - [WMR：正权物理均值传播及完整同算子误差重组](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)：精确概率权商式消去共同aJ，strict/local点态gap独立成立；真实negative区间β≥0给反向系数负部界，绝对系数另用于z′。两patch mean、完整kr仿射source、全部非mean B/T、true jumps、旧三端与新mean端、whole/reduced正表达一并保留，无旧upper相减。此为解析合同0新数，不授high/finite/最终族。

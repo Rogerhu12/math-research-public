@@ -62,7 +62,7 @@ R866/R869公开producer已给原T9的Φ17（18×18，总degree34，291项）与�
 
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)给真正小入口D=X0(867)：h(Q)=H0(q)³∈S6，A,B∈M_k、C=(DQ A)B−A DQ B。完整C³=n³h A²(A+vB)²B²检验0..612(k+1)项，连同原germ和∞基点即严格认原nΞ0。k2的M维120、低截止409、最后截止1836，成功degree≤204；degree≤119保证有k2表示。任意非零低核给同一比值，允许共同cusp零。
 
-**原单位轨道与全packet界：** R866附A和R873排原整数单位/3同源k≤8。R874已求一般有理Hecke全q理想I∞=u*OE，Norm17/55569，全packetdegree>364.3945，故k2全排。u*=(915+1097θ+2962eps2)/55569有真实首项(68+7a−13a²)/3、严格准度数距376<10^-88，u*(106+59θ+185eps2)=17。下一以同原完整Hu做k4/6坐标证书；q整/度数区间不等于映射已整，不据376显示值取整。
+**原单位轨道与全packet界：** R866附A和R873排原整数单位/3同源k≤8。R874已求一般有理Hecke全q理想I∞=u*OE，Norm17/55569，全packetdegree>364.3945，故k2全排。u*=(915+1097θ+2962eps2)/55569有真实首项(68+7a−13a²)/3、R875原有限E2和所证精确准度数376及全I∞最小值376，u*(106+59θ+185eps2)=17。下一以同原完整Hu做k4/6坐标证书；q整/整数准度数不等于映射已整；全I∞ Gram虽整仍须实际坐标。
 
 [R867附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md)给真实整R=2T7²+7T7−8T13−28，其packet值r³−3r+1=0、逆3−R²；仅在原Hom格互逆，不认整个J可逆。原完整8/64/14邻点迹与闭点重数保留。原同nΞ0一旦认证，δζ两式给3nΞ_i全部真整，改进旧57；可用整unit换同格映射并以整逆返回，首微分系数不得免费归一。
 
@@ -134,3 +134,12 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。
+
+
+- [R863附录A.4–A.5](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Z2−(455/2664)S准确等于∇Θ17 C0，固定whole C0从z7起，故消去全部Θ17高商与连接高端。C0=−σ(2z)^3 H22/21312给完整两个严格低于p的配对，binomial常数−1/10656付清；原q_F低连接项保留。未把H22认作V66/免费中央，也未判指定配对非零。
+
+
+- [R875附录A](results/R875-original-exact-eisenstein-degree-gram.md)：同I∞的精确整二次型完成平方证明q<664仅±u，q≤712仅±u、±uθ、±u(θ+eps2)，三者都是同真整unit轨道；k6帽612无其它候选。迹权w′=(376−56θ−72eps2)/3及codifferent式付整个Gram整性，仍不替实际Hom。
+
+
+- [R872首修正平方排除](notes/2026-11-16-r872-first-carry-corrector-square-exclusion.md)：最小τ1/r3/F0 degree3的原同M/p²强迫R0=0、R1=(Y−1)³A，deg A≤3且A(1)为指定frame单位。因此同R在k(t)[Y]中亦不能含F²；若F|R只余一参数最低项。全K1改变不改该单位，但仍未排其它R或判末尾像。
