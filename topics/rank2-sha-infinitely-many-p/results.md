@@ -302,3 +302,5 @@
 - [R897](results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)：原同一CM商/普通对角塔与全部wild–tame norm已接通，保一侧ray到反对角的准确识别及统一格。各层sp D_n=E_{p,n}c_n，E_{p,n}为显式整群环unit；同底rank-one归一保。整个有界系统可除T当且仅当所有有限tame层c_n都零，单n1零只给trace零，不推出s0。
 
 - [R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)：原P公开run43835679463的k4矩阵818×648在1000000033、a=50539607满列秩；结合完整M4基与分母单位，严格排所有特征零权4比值，也排权2。若原Ynew延成X0(867)有理函数，RR迫次数≥324。k6只53素数/1585位后取消，未认证也未排除。
+
+- [R887 §16](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：固定m四输入的sigma/Bloch精确分解和递推齐；原平移连接的p曲率准确为−m cp Z(B)，原每根局部Smith一项一次。真实hB除子[−B]+(p−1)O−p[−C]、首项及对数常数全定，T_m,p以原sigma低卷积/截断指数精确读取；仍保p级极帽和D_B法向缺陷，不冒固定RR或α非零。
