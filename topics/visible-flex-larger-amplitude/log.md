@@ -314,3 +314,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 13:04 UTC /root — R528实际225完整结论独立发表
 
 [R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)28538/8ab4：同H原128首全576接受到.0011938402006127619347；次试534/576原6000预算partial、normnull，tol/replay/四post/FD/fullDN未付，无paired/cache速度结论。外6982.009654177未到19200，两完整必要两job同，原未访/错误全保、quiet且实际removed=true，无父。233单POST200/run43872121853/headcec9官方已绑，R555唯一；H/open同步、§4–6原字。
+
+## 2026-11-16 13:09 UTC /root — R561完整准确二次平均与真实编译接口
+
+[R561](results/R561-exact-normal-dyadic-average-and-original-first-products.md)四件68403B完整：原首乘积/累加次序保，仅normal准确dyadic缩放或带符号零走字词，其余原乘法；三primal点、dual原字、三路径十计数/full last与旧统计保。R550/R535 source-only→原scope一次R5616256/97e5→原main真实编译，原CPP/全部门/caps不减，无速度/fit/前沿承诺。R562/236待完整真接；H压缩全文固定58ffc，open§4–6原字，容量逐笔并审计旧输出清单。
