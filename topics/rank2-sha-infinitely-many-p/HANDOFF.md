@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：cb6f93b61fb58ec077ed38502479df33edd27404；2026-11-16 05:36:22 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:36:21 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
+- 最近已读规则提交：42f95905deec3024dfee7a687bdc806d38c79baf；2026-11-16 05:41:48 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:36:21 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,7 +13,7 @@
 
 ## 完整检查点与分工
 
-[本轮压缩前完整H](notes/2026-11-16-frontier-before-critical-value-discriminant.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保全部旧公式、条件、来源和未付门；没有撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[本轮压缩前完整H](notes/2026-11-16-frontier-before-critical-value-discriminant.md)、[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、条件、来源和未付门；没有撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–858已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep续同Kcorr/Hcorr与真WT，theta续四原来源的实际乘法/除p，literature续同Zorig的generic迹和canonical实际对应。
 
 ## 原循环、同Artin及canonical门
@@ -37,6 +37,8 @@ Bν=2mεν[N!C^(N+1)Res(fνflat ω/H^(N+1))/p−V_Nfνflat(P)]。
 留数/p整由原R856，不来自三零。四原相消未排。
 [共同A24完整乘法](notes/2026-11-16-common-a24-horizontal-product-and-relative-theta-gluing.md)：真实整数同源给17/3/17/11标签、相对K2040/144/5712/1848；四fνflat为同二参数核的固定CM相对收缩。切锥15/M³(v+nu/24)³，ε_Mε_K=ε24εn；两个混合Jp,1/p、J1,p/p全保并还原同BA及低卷积。辅助K不添新中央，常矩阵不冒参数Hecke。
 [同角色germ附录A/B](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)保全JΦ=QΦJ/Gaussian整Γ_h、coverℓ^r及同degree49m两独立源；其中央零来自局部因子，不代primitive非零或免费预算。
+
+[原共同奇来源与同度六零](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：原S/V共用C30=−σ30 x²y(X−8b)(7X²−4bX+16b²)/7：S=C30σ2z/2、V=C30σ6z/6，真实[3]换最后输入。固定奇水平g恰双零、D²g=1/30；whole j_p/p在CM为canonical O30。两原B准确O30−χ60 P_p(X0)、O30−χ60 P_p(729X0)，X0=(2/15)³，P_p保全低卷积；奇Bol只取真ε份额，原留数/p及R/H修正全保。U−S(2z)/64同degree136恰六零，原b归一为Θ68 a tK17/(91b)，首1890b z12；B差为BU−BS/16。四固定f在Qbar上独立，不代Frob常数独立或四B非零。
 
 ## 同R高前缀、全族临界值与指定forcing
 
