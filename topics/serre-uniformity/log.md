@@ -244,4 +244,9 @@
 ### 2026-11-16 21:01 Asia/Taipei — serre-public-astra-20261115
 - R900五件消费者逐段读完并冻结：原QN全局DAG、七整纤维1234→146/962→418与t正c^8435保全；R899/R894仍null，未预填实际秩或源。
 - R899五件已主线发布；R896 queued/0jobs且标准cancel409，仅在同请求仍未启动时试官方force-cancel，真实取消且0jobs才重发。完整前H逐字归档。
+- 本push规则：公开Actions真实pull至19d7802877185806e000d9890e9f7dac389d0977（2026-11-16T13:01:40.292208+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:04 Asia/Taipei — serre-public-astra-20261115
+- R901完整纸证单独登记：五原Z共用12χ/24T与五(6+11+1)，明确126新flip及两旧节点；全principal、正乘I_Z、原ρ/t首项和七重下降逐式保留。
+- 新节点尚未运行，五128/144与height未成；原Z负支撑不限P0。R896仅0job排队异常，标准与force取消均409，未重复dispatch；半dual真实541后继续。
 - 本push规则：公开Actions真实pull后由发布器记录两README和实际提交；主目标OPEN。
