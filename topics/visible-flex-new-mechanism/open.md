@@ -148,4 +148,4 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 
 ### 新任务：四条原行后的增广交换主问题
 
-[设计与来源](notes/true53-four-cut-exchange-master-design-20261116.md)在首次求解前加入coarse43322/91304、fine86645/182607四个真正新行，首矩阵9662行。复用原MODEL/U/T/e/f及5752梯度；后继必须新增原行才能解，保持同159→163/原hard域/目标/guard。单一600秒含至多32新finite、3072迭代/6144系统、32双网、128新gradient、原64scalar与3实际pair，继承1658.9797906909998秒/128值。不存在同矩阵失败重试、源普通geometry或旧J重算。完整gain合格后才原实际14门；没有新行或有限任务预算结束只保真实结果，继续open，不宣不可行/完成。新run待登记，request53333B/SHAa1966ffe1a500f6c9ca448cf1b3fee6da793ac8556fa8bf55da8062c1573d708。
+[设计与来源](notes/true53-four-cut-exchange-master-design-20261116.md)在首次求解前加入coarse43322/91304、fine86645/182607四个真正新行，首矩阵9662行。复用原MODEL/U/T/e/f及5752梯度；后继必须新增原行才能解，保持同159→163/原hard域/目标/guard。单一600秒含至多32新finite、3072迭代/6144系统、32双网、128新gradient、原64scalar与3实际pair，继承1658.9797906909998秒/128值。不存在同矩阵失败重试、源普通geometry或旧J重算。完整gain合格后才原实际14门；没有新行或有限任务预算结束只保真实结果，继续open，不宣不可行/完成。新run43825241350/research133157415075/source5189a1a78eac6215db75bf5c7d851a8913c6db0f正在执行，request53333B/SHAa1966ffe1a500f6c9ca448cf1b3fee6da793ac8556fa8bf55da8062c1573d708。
