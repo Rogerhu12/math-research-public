@@ -1,0 +1,400 @@
+# 研究日志：visible-flex-exact-nearby
+
+截至 b379ea09e5cb74f9087553ad8b23477d3fed2c3d 的93894B完整原日志逐字存 [前日志](notes/2026-11-16-log-through-positive-head-and-derived-report-cleanup.md)，SHA256 b02f85e942673a2c46b4dfc31e4059d2a20cb0923723df9ec966c8b9fe938e66；所有原结论、失败、读取点与恢复身份保持。以下继续追加UTC记录。
+
+### 2026-11-16 09:29:08 UTC｜WMR 完整正权均值细化包冻结，尚未执行科学
+
+新源96f8b9ba/62958B/SHAe8c3ca95、共用workerf966a6a0/25584B/SHA7abb8783（只增bits_parameter显式查找，WHV默认不变）、manifest c1ac2a00/17404B/SHAeccd4b23。19current总308005B、16math/2AST/0history、13旧整图+2原index、7新图42record/仅2新exp；其他old数学0。根从持有15完整原文独立重建69records8161B/53bb5d20、原scope20489B/9ef5639d、accepted4623B/38344c68，全部源常量/schema/42slots/两原failed-success状态逐项核。root全源及数学审、Newton/Tail先前formal与Phase最终manifest30项核均闭。
+
+256B新球纯形状模型完整SCI57861、最晚失败60343；运维failure模型42631保19current、全preflight7134、4全pull与4Kmessage/16Ktrace。硬cap SCI62000/exec59000/report8000/完整130000，pre/start另120000；不削69旧球/669原非球leaf或完整失败prefix。公开runner将先完整readonly preflight/marker，然后唯一sciencechild逐record原子存+回读+全stdout。现只封包，workflow下一独立提交自然触发；旧WHV24目标已冻结不得重。
+
+为保持H/log可读，原H9986B/05f9f3b3、原log93894B/b02f85e9逐字归档并明确前页，全部旧scope/原失败/恢复/未付义务不减。最新topic容量199600939B（包前）；README核2c80518fa947f46d487e672cf20a083ad00294c4，继续。
+
+### 2026-11-16 09:29:29 UTC｜WMR 冻结 workflow 一次自然触发
+
+包已先推2d4f1fa1；workflow5becfacc/2990B/SHA958a452efe98a3c748afbe2e833e611101baa6c3cce879d1b8ad907587e63986只由自身path提交触发，共用worker7abb8783、manifest eccd4b23与科学源e8c3ca95全锁。fresh topic 199692662B，完整130000B输出+120000B预留可纳；readonly/marker/立即启动前二次容量与README核仍由runner强制。原15已成science只读，唯一新增7图42记录/2exp，不重WHV或WECA。实际run与完整prefix另核后推结论；README只读核2d4f1fa1e5ff73b6632b3c3fdbc1b7f7fc96fdbc，继续。
+
+### 2026-11-16 09:36:17 UTC｜WMRA 实际18门/42量完成，完整whole/reduced新上界冻结
+
+公开43840219992/1，eventf7f77c5f、真实科学dfd6759e。SCI39a2d96a/51030B、exec0c181a20/19357B、report457B，共70844B；根全读并核完整32字段/18门/7图schema/42槽/16进度、全部19current五键/2AST/0history、69旧record/13图669非球叶/两原index failed-success状态及3copied hash。preflight7134B和4真pull hashchain独核；最新成功真pull09:30:07.754563两README diff空。完整stdout2803431B只引用receipt，未取大正文。
+
+两完整候选比较均选new_positive_weight：whole约2.116312512140667e465（完整球在proof/SCI），reduced独立保；旧4.3424e341224436仍保存。上界改善不代表充分高门或finite逆通过；全mean/Calg/RF/orderedreadout/旧B-T-jump/四端及原失败资格不减。42新record/2新exp从此冻结/old0/lost0。完整结论b2df8a12推送；正侧旧3段open原字归档9f69ecd3并保主动索引，未删未付义务。README只读核c09aaf9a6e1661efeacb34e4158f0322733bd2a9；继续WOB/结构signed inverse/完整源细化。
+
+## 2026-11-16 09:42:56 UTC — WOB full outer rows and signed root96 certificate
+
+Read both README identities at 5868c1aa02b87660dc1b24be5f1646938fe39f47; no changed text. Published complete proof 8a55c94d8decc25f33876665119b327eb1d1fd29 /41683 B /SHA256 f13024a72e09d9b388fc51eac39d675b656d4d75ee72cdafe449a1c325e92979. Root read the full prior draft, the sole final primary-source addition, and the complete positive-family P.1 primary; Phase formally read WOB2–4/6, all37 original records and that primary; Newton formally read WOB5/7–10 and whole domains. Every original mean/source/affine/cokernel/finite-tail obligation remains. No new scientific arithmetic, no signed matrix, no inverse gate granted. Exact previous HANDOFF archived at topics/visible-flex-exact-nearby/notes/2026-11-16-completed-physical-mean-and-head-mesh-checkpoint.md /60065910140edfeb49ac023bd5750f8c31c75714 /9485 B /SHA256 ea01ddf20abc49a11e9599a003264c72238583c77bdb81c1682f973d4e12af5e; compressed text retains the full archive as binding scope.
+
+## 2026-11-16 09:43:51 UTC — exact central reflected-source cleanup whitelist
+
+Both README identities unchanged at 28f05aae0e0220c4a97c923af2ba90d2a0cd3d97. First published topics/visible-flex-exact-nearby/notes/2026-11-16-R133-central-reflected-source-derived-report-cleanup-whitelist.json /a0bc9917106aadc7edaafbdbe9bd4137e0a102f8 /20294 B /SHA256 9c1d1cc76e2cc6a495f1da48e487bf91dece9b944502129c6c8f696d8cf20029. Tail read all7 small original evidence texts. Root read complete19080B proof and6760B producer, confirmed the report is derived rather than defining, and checked7 complete current WMR/WOB/WPT/WHS/WHV text files for exact target-path absence. The173761B target body and all binaries were not fetched. Immutable restore79da26b47506828352640cfd247b6783eac57a4d, exact blob ba9fe605c5f73f06cd30bb5b81b69a6bc5d430e1, SHA256 bcdf137770360988e2bfca50fa376151c1fde3161bcf4490964b29d836576b47. All source-space/mean/flux/success/failure qualifications preserved. This commit performs no deletion; next step must freshguard exactly that single path. No scientific arithmetic.
+
+## 2026-11-16 09:44:03 UTC — one exact derived reflected-source removal
+
+Whitelist 9c1d1cc76e2cc6a495f1da48e487bf91dece9b944502129c6c8f696d8cf20029 was first published at38a1fc9abcca1236d7d4ab4406f3b23adccc8a52. Fresh current-main Git-tree guard at 38a1fc9abcca1236d7d4ab4406f3b23adccc8a52 matched exactly topics/visible-flex-exact-nearby/notes/2026-11-13-actual-central-scattering-reflected-source.json /ba9fe605c5f73f06cd30bb5b81b69a6bc5d430e1 /173761B before this sole ordinary deletion. Target original SHA256 bcdf137770360988e2bfca50fa376151c1fde3161bcf4490964b29d836576b47 and complete immutable restoration at 79da26b47506828352640cfd247b6783eac57a4d remain in the whitelist. Latest frozen active scans retained; no other path deleted. Gross173761B, whitelist20294B, net153467B before small journal changes. All defining/native/source/small proof and actual conclusions preserved, old scientific targets0 rerun, new scientific arithmetic0. Both README identities unchanged.
+
+## 2026-11-16 09:46:51 UTC — WPT cell principal inverse and full dual radial tail
+
+Both README identities unchanged at a670a46893a88566c78d89de80dc3eaf094593b9. Full proof b37c59bc05a2131b27014f37c1a6555d6f7e2c58 /22954 B /SHA256 22fb6fac312540818390bea1bb3a3ed2c750f515ad91bbbb1b0790fcdfe1fd6e published after root's complete read, Tail's formal WPT2–5 review with original domain sources, and Phase's formal WPT6–10 review plus all earlier adjoint premises. Two precise wording fixes are included: the mesh test is sufficient only; zero physical-mean zeta is asserted only for a mean-preserving S. All principal-difference, adjoint source, seams, root degeneracy, S conditioning, true jumps, endpoint and finite Schur terms remain. New coefficient contractions and actual signed matrices remain uncomputed; no tail gate or finite inverse granted, old math0 rerun. The original WHVA false sufficient comparison and its exact saved epsilon remain unchanged.
+
+## 2026-11-16 09:56:18 UTC — fixed-label high Volterra exact cleanup whitelist
+
+Both README identities unchanged at 0448d23f24b782385f06522d18c100a1019737a5. Root read the complete20921B initial whitelist, full16416B original proof and full11733B producer; Tail read all6 small evidence files including the68396B successful downstream actual and exact original target SHA. Root added the complete frozen WOB source/manifest identity and thirteen full active-text checks, all exact target-path occurrences0; the final10-input WOB closure and empty history list are explicit. Published topics/visible-flex-exact-nearby/notes/2026-11-16-R133-fixed-label-high-Volterra-derived-report-cleanup-whitelist.json /84137d154da2604de40acf4a7ceec55fcd61c95e /26454 B /SHA256 5ae745f83bba8c418f6521151452f4f3c7a49ecef2397c504967057da7f9b015 before any deletion. Only823d4c6f15d3325782f88339081e8e29949a0dca /140654B is whitelisted, immutable restore265dcdb8ab11021bec36779437282f8c93d5907d; full original scope and future restoration retained. Large body not fetched; new scientific arithmetic0. H shortens only frozen WEJA/WECA/WHVA/WMRA status paragraphs already preserved in the full ea01ddf2 checkpoint and original proofs.
+
+## 2026-11-16 09:56:34 UTC — exact fixed-label high Volterra removal
+
+The full whitelist 84137d154da2604de40acf4a7ceec55fcd61c95e /SHA256 5ae745f83bba8c418f6521151452f4f3c7a49ecef2397c504967057da7f9b015 was published atd8a48d43bee3d443b38ef39ac231e3d5aa255ff4 first. Fresh main-tree guards at d8a48d43bee3d443b38ef39ac231e3d5aa255ff4 still matched exactly topics/visible-flex-exact-nearby/notes/2026-11-13-actual-fixed-label-high-density-Volterra.json /823d4c6f15d3325782f88339081e8e29949a0dca /140654B. This commit deletes that one ordinary derived report only; immutable restore265dcdb8ab11021bec36779437282f8c93d5907d and original SHA256 49bdf86b4803c057fb3b3c141bbeb6687da32092496dba77fb12f69343134ad4 remain explicit. Gross140654B, complete whitelist26454B, net114200B before small journal changes. No native/canonical/source/proof/old failure or other path removed; no old mathematics rerun and no new scientific arithmetic. Both README identities unchanged.
+
+## 2026-11-16 09:57:53 UTC — frozen WOB scalar consumer, no new science yet
+
+Both README identities unchanged at ebd37c6a49b3d7e10b17e2a3d9c75b59ed9b5276. New source 0c197aee49f6325e800adf3e4a7752d597ae08df /69812B /SHA256 a12df86cd736e03fc96f24b96c7e33d5167fb5fc34e503a4174ff1a7691d192c; final manifest 4958b39b7e0eb693b24e040e38180ce050d16653 /15515B /SHA256 390a39928b257267c744b890ebfd5e3889c037f613398c1e39499d53864fe5ff. Existing common worker f966a6a05b18794927c3674956fb617e7dbaa244 /25584B /7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18 is unchanged. Ten current390667B inputs, two source ASTs, zero historical/binary restores. Root independently reconstructed all42 original records8461B/03a080cc, all73-path qualifications31723B/3e8c134d and complete original admission5097B/0c0d6915; all112 original gates/schema/runtime/source identities and the whole controller were checked. Tail formally checked the complete reader, Newton the complete main/atomic prefix and both reviewed their mathematical sections. Phase's final manifest24 static checks passed. Six new graphs37 records, only1exp/1positive power/7sqrt; the old sqrt2 record is read to form sqrt2/2, no old target rerun. Models: SCI66508B, full late failure69038B, complete preflight6516B, operation failure39226B. Caps72000/59000/8000 and total139000, plus120000 reserve before/start. The86613B working interface is not duplicated on main. Exact three previous open paragraphs saved at topics/visible-flex-exact-nearby/notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md /4adec0a890f85724aa4d6a63d21240281cc5ef8f /1741B /50805f2d940fb524c73e867e93efbc21654b468900c82ca4661448dd9836031d; original scope remains binding. Workflow will be a separate single natural push trigger; this package executes no scientific target.
+
+## 2026-11-16 09:58:25 UTC — single WOBS natural workflow trigger
+
+Both README identities unchanged at 06f5010240bf3661a63e7b73dbe92970deaebe60. Published only the new workflow .github/workflows/visible-exact-outer-rows-and-rough-positive-observations.yml /44a64a66e091397834525a2f317359d2857dd554 /3019 B /SHA256 8ed7484b60ddc15cbdd48d9896d586720c049a29d7dceab34cc7c690a0f022a3 with immutable manifest 390a39928b257267c744b890ebfd5e3889c037f613398c1e39499d53864fe5ff and unchanged worker7abb8783. It runs only in the public repository, uses blob-none sparse checkout and Python3.12.14/flint0.9.0, then the complete readonly admission and unique consumed-marker guarded child. The source/manifest package was separately published at2165e6d72b1b0ebb5c0972832272d9a6fe8d73e3. Fresh complete topic metadata before trigger199685204B; allow6000B further journal allowance plus139000B full output and120000B reserve, total199950204B. No new scientific result is asserted by this trigger. Any failure must preserve actual prefix and be recorded before any new attempt.
+
+## 2026-11-16 10:05:31 UTC — WOBSA actual complete scalar outcome
+
+Both README identities unchanged at e6449c9b93ccd344df3a2badd21d9350ea968d00. Public run43844596176/1 succeeded from event793638e7992effda92428272ebc3cbc070cabe74; actual science and consumed marker checkoutc29e44320c35421eaef4940139c7e2c90ab038bd. Published full actual proof 9c15fd52d33ca8beb1598675e44f8c49d2fdcf5e /26577B /SHA256 c2eff7d8558c9e78225635e6925cf683bcdc30cba7eec9d0f869fc82e7d65edd with every one of37 exact saved records and original unit. SCI b21c6d0717bccd6827eff4792bb12b8b1cd40d05 /60416/ba8e647cc4572333407b8979f98315e94dbab53ff2ff0086fe1d1dcdb0f17b79; execution4010d981fea326115f7888d7afeb9598066e177c /15866/b9022fe012e2e0f5db8186dda91a5ec1f2eb3222eb7af4ea02a9dd5ec41fdb57; reportbee01b0964899b99a3b460621347779b34062246 /440/a60336b2f5650711aa3ac51cc2e9d754adf787d9d53e18e06410ac55a8b689c6. Root27 check groups and Tail's independent full audit agree:32fields/18gates/16progress/6graphs37, all42 original records8461/03a080cc,73-path scopes31723/3e8c134d and admission5097/0c0d6915. Exact preflight6516/7eb3cc5c independently reconstructed twice; four actual pulls full empty diffs and chain983f08a41b428fde9457bb016c8ff8debdb8f8bf34282441a34a035676ae6ef9, last09:59:00.277204. Unique child1/returncode0, timeoutfalse, old0/lost0/no matrix or inverse. Complete stdout3253438B/213cba88c1f9bc5f4826b047b7c9d6b62ea866d48a164d04aa2a3e0a78ef684f is receipt-only and was not fetched. All37 successful new targets frozen; no further rerun. Scope retains same selected member, all means/affine/rough/endpoint/right-factor distinctions and original WHVA false sufficient gate.
+
+## 2026-11-16 10:11:50 UTC — exact normalized-weight physical-mean identity
+
+Both README identities unchanged at eb3c37c6f80650e50d82e04ec279ddd329520a1a. Published WMF 2c4a1789195a1ea400ef7c547b319ea3f4f7329f /15111B /SHA256 14900631ba2d793977336fd5f7e8870e4313cbda50a8a8c3e02fa11b53054356. Root read the full proof and original JI scalar denominator identity; Newton and Tail independently checked the full internal means, original transpose and material-direction sign. The exact relations Pi(ve)=m(Pi pJ−1), I(v_phi e)=ve−m(pJ−1) retain the primitive's zero-mean constant and yield the complete new expression of the same Fmean. No radial background PDE, zero residual, radial integration by parts, new number or inverse was assumed. Any later radial integration must pay e_r, true endpoints and jumps; the independent physical z equation and g1/J_r remain. All42 WMR and all37 WOBSA targets stay frozen. Full pre-edit HANDOFF from8079292b6f2d147ee6c532a038bd7fb6d7f1c254 is archived byte-for-byte at topics/visible-flex-exact-nearby/notes/2026-11-16-completed-outer-rows-and-structured-tail-checkpoint.md (487f6e4f3a6533575185ec97bb29c81572db46b5 /9784B /7ae3b7473281ab636ab9d54f7d110217a95c339e809e668f05dbffbbfbe02968); compact H retains all recursive obligations. Strict full forcing estimate and the derivative-free positive head tail remain active, uncomputed.
+
+## 2026-11-16 10:14:40 UTC — two completed first-span report cleanup whitelist
+
+Both README identities unchanged at 8bedc316354637ef422da8af15388f78b1638163. First publish only the explicit two-path whitelist e263610d94ab8192c230a63172ebc006d74fd7b4 /30294B /SHA256 4d2cce1352c3f23e876de627c06c80a6444af673e99d9b5fa28444658432ff3c. Targets total233457B, net203163B before journal changes. Tail fully read eleven small primary objects; root fully read the original8192B conclusion,3265B ready manifest,16189B historical seed-consuming kernel and14015B actual completed block2_4 provenance, and freshly verified both current path/blob/size identities. Original results cover only one common span/four subdivisions/all10 columns with all primitive, alias, radial and directed fees; no whole-cap inverse inferred. The scaled result is an explicit old native seed: future access requires exact same-path restore at0e259e94af3666e2b110b60392dde7990d57c1a9 and full identity checks, never rerunning old success. Root also scanned ten full current active texts including final WPTV65f907 and inventory18ec6014, both basenames absent; this is a bounded active closure check. Every native/canonical/source/old failure remains protected. No oversized report or binary body fetched, no scientific run. Deletion is a separate subsequent guarded operation.
+
+## 2026-11-16 10:14:57 UTC — guarded two-report cleanup
+
+Both README identities unchanged at 3514dfb8333ec3d42cf62ba6165c0f799dd3bf6f. The separate prior whitelist97f57084af7698dd9b1fe5f0105af92e3b33a128 fixes exactly two completed derived reports. Fresh current-tree guards require unscaled2ec2f6344be73ab5bef31884a2987d3eaa5ee28f/116785B and scaledd614598b2ede8f9a8756a82350bef6aec12ac921/116672B; only those paths are removed by this ordinary non-force commit. Both complete originals are recoverable at0e259e94af3666e2b110b60392dde7990d57c1a9, identical paths and SHA256621fc6867dcd782dcc1108cf1b1ef0a13b88301d424ceaa9e91105901a5a38e1/ecd77319c528b063e7870870a0a015f7ef6227738958bfa6a125435f8f2cd4c9. Scaled historical seed dependence remains binding. No scientific result, source, native, canonical definition or earlier failure was recomputed or relabelled.
+
+## 2026-11-16 10:17:10 UTC — complete value-only positive-head tail certificate
+
+Both README identities unchanged at a16ca8e173d0ded3a7aac02868f8515709e915de. Published WPTV ddccd14e855ba95048fe92cbd21edfb82ebd8e6f /21178B /dda500b8f5e2d02a39fbef4efcc5c2ad10dac93eef194f6e8d5b9b5a816cd0e9 and full readonly input inventory 18ec6014b06315aaf24cf9068e6fa31e05e6025a /38086B /f7dd2ed019b30c076aa70ad1536601813095ef59bb504049d976eb0cd93b1547. Root read the complete proof and inventory, verified all17 current and19 immutable-history path/blob/size tuples atcf6bae05c8a8fd6d51ccc49b1e0a9d52b1615544, and read the complete original physical continuous-repair and lossless-cubic format sources. No binary content or old producer was read/executed. The exact C_iw+E_iw splitting gives a complete input-tail estimate using original collar/body Green source columns. The outer Q_iV0 has no right Q, preserving the true ramp; root B0=0/S=Id, full193 mean and every signed finite Schur block remain. The original two-factor primitive delta difference and centre-to-reference repair enclosure are both paid. Final one-word correction makes R_D a principal operator, whose inverse norm is at most1; no formula changed. No mesh, scientific target, successful gate or inverse has been evaluated. A subsequent consumer will freeze a small mesh/resource cap and finite whole maxima/gate targets, keep matrices and cell arrays temporary in own Actions, and publish only complete small conclusions under rule15. Exact two older open paragraphs archived at 219bc9ec8411f4e2a9b6669d6adb9ef6ef602554 /1300B /622d8420f7b39c4c108a9e33babd55b6a7293ad9d14af7b7c8297877b1c8d06d; all obligations remain binding.
+
+## 2026-11-16 10:26:08 UTC — two completed exact-bump-Z row-summary whitelist
+
+Both README identities unchanged at d6ff01610b1b62afd1a86e2adb22443b85b21911. First publish the complete exact two-path whitelist 7d2001a0e97db1560a62496c94fadf15b7504429 /36380B /f3f28db3fec7f4cf047b455691ceacd1ace1ebfca025e5a8276bae9f6b1c41ee before any deletion. Root read the original4994B success proof,16119B pure report projector,26043B original process,1503B ten-gate outcome and5765B complete downstream proof; all raw identities and the two exact process.native_files SHA/size entries match. Tail's independent eleven-small-primary audit remains explicit. The pilot succeeded on14 original rows including1289/1524; original80 fixed-eta calls were reused. The downstream7721 cover reads the completec37 native, not these derived reports, and keeps all mean/high/failed-publication distinctions. Root's eight current complete-text literal scans, including new typed worker06a23, find neither target basename; no unseen future closure is admitted. Both oversized reports are unread; no binary or scientific computation. Exact same-path restore is a2467421d341778650f22b356a22ef287c728b6f. Full pre-compaction H is archived byte-for-byte at 00e10d40db0eb11d7e5172c47e91ce33f86cc72d /9626B /14f861f18068721ff88dbc116211ee64b26986572b7ea919d4ac3560acfd3555; no obligations dropped. Planned deletion total341396B, whitelist net305016B before journal/archive changes.
+
+## 2026-11-16 10:26:41 UTC — guarded derived pilot-row cleanup
+
+Both README identities unchanged at 1207c506de0e637c02ee39e0a9cbdfa1ec0fd40f. Prior whitelist5b163a28d9df10b9d151f7a28de6a0935941c80e/f3f28db3 is already on main. Fresh exact current-tree guards require row1289 d145750017d03c8d9233b7cf37dd5732ebca552e/170680B and row1524 36be220e5e701bc168f07af65bf210ddc6664896/170716B. This ordinary non-force change deletes only those two derived readable summaries; original process,ten-gate success,all proofs/sources/native definitions and earlier failed publication remain untouched. Entire same-path objects restore froma2467421d341778650f22b356a22ef287c728b6f, with full SHA256d82f61139855d85522dd69781d3c26a6a8d2a4bc48b41b7406398c70a348e16c/200e28d3935785179fe75462bb41f16316c6988205a14283689f65c7ec73af2e. Native chunks already absent before this action are not part of it. No large body, binary, scientific evaluation or old-result regeneration.
+
+## 2026-11-16 10:29:00 UTC — five complete maxima and inherited refinement certificate
+
+Both README identities unchanged at 55b98d48e694fee459d730702cf11a258adad702. Published WPTVR 49cb657d9aefd809857aeac0229124738978a05d /11659B /62adc53eedc1ea339e02f6e2a8fa654e38c92fe04784343557e23c84ddd696c2. Root derived the full adjoint expression Q Ktilde* T* before bounding; theta=T*psi is never commuted with a coefficient. The local norm of theta supplies tau_i to the actual B_LH* input and a second tau_i in the complete B0*B_LH* term. Original collar/body source columns then give the five-maxima gate. Uniform refinement inherits the same S/D/B0 and all whole parent enclosures, changing Q/finite coordinates but not the transformed operator; the exact complete delta_m formula retains A/m, L/m, Ub/m and B/m^2. Newton and Phase's prior pure discussion identified this T* improvement; final proof contains no new science, guessed mesh count or inverse. Root collar S=Id,D=B0=0 reads old Gc/Ac; complete physical193 mean/ramp/true endpoints/jumps and every remaining finite/head/background obligation stay present. The future source must predeclare m choices, preserve full running maximum witnesses at completed-parent checkpoints, and keep cell/matrix arrays temporary under rule15.
+
+## 2026-11-16 10:32:34 UTC — strict complete transport flux and angular L1 forcing recipe
+
+Both README identities unchanged at 4a459acc8e430dbfe0ff232493c5ce1a9f493ced. Published WMT c8049ef93eca8f84f135ab4338d6485081fb8424 /31256B /51eb08d0b110b8a5b171538c3be023efb94df587fdab880ebddac518665f73ce. Root read all37 equations and independently checked the physical transport matrix, full extended forcing, ordered E12 K_T=E11 correction, flux transpose, normalized positive-weight L1 recurrence, whole primitive constants pi/8 and pi/4, complete e/e_kappa arrays and all five mean recursions through eight terminal degrees. The old strict_base role was checked directly against WMR19 as the complete |beta(1−Pi S)| bound. Root review corrected the draft's mistaken r_+ initial point: the true condition remains z_ph(r_*)=0 and r_+ is only a qualified length upper; the existing96-column existence result is retained while signed normalization remains unpaid. No mathematical formula otherwise changed. Tail independently checked the typed L1/amplitude/old-input/reassembly sections. A future fixed-shape flux branch will compute only new complete targets and compare full with old full, reduced with old reduced; all WMR42 and saved exponentials remain read-only. Original local forcing,3070 true jumps,four waist contributions,two means,genuine profile/root factors and all finite/head/background obligations remain. No new science, improvement claim, gate or inverse.
+
+## 2026-11-16 10:46:19 UTC — 冻结 WPTV 新值域尾 consumer；尚未运行
+
+以 2184a463342085b03bc450853f66f18d338e455e 重核两README，均与显式已读规矩同；17原小text和19原history身份闭合，24 current中7旧source只AST、2新科学module和1运维worker另AST。原13parts只逐字恢复为25507783B/SHA1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c；candidate ac1原5parts和6ee8b07f原physical repair在临时目录核全字节，0旧producer/0repair重造/0new arrays。
+
+主 ea13f35eca6968168093d05e1f23e6c6cdb535e4 /30712B/bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1；reader2ba6a06881c94c3d8000a0653a77001f7afaf2b0 /27463B/cdbf14ee685ad6580fd99267fb7914960d84d838b1a3896dc89c28fadc5cabfa；worker06a23e3d65cd32cc85506af8d780b790034421e6 /29035B/0699ff330b6a1abd0fe369a81679dd816bcd4a922e2c2a959c631ace53a78c36；manifest 4470a77b832b95ca6050912296eb1b45d8d6e84b4d65377d7a39e1c14a498423。Root及独立代理全审：物理4j、原两mean与actual raw Id、完整signed centre-reference/full96 delta、左右S、真正T*、641仅整operator带限后、CA/CB/e全项均保。旧WHVA strict_mesh_gate原来为完整dict；已在运行前修exact三键/epsilon原球/passed:false读取，未造成新科学失败。
+
+320bit；root collar+每rho-doubling band8subcells，最大161parent；只固定m1,2（≤322），不因false自扩。每完整parent原子保存5 running maxima及witness/ref chain，全4650/3594保；32顶层字段/17结构门/4或5complete targets，11或12新记录；完整3球候选后才strict比较，仅首pass才算同tail逆。未分配finite matrix，完整four-block Schur与两rhs/193mean/96 signed normalization/nu/Theta/背景与匹配仍待。
+
+静态预算不冒实际：19receipt模型13771B/SHA4705f2c3a093724ed7e21bfee9ed30d481105e1aec8446da55a14fb0a764d7ac；readonly preflight1580B/SHAf03bcda032ed6923a24717c7705c9a440c1558d45f1ea1bf06c2402fce703003。完整SCI pass23822/false22986、保守partial38925B，cap40000；完整失败execution模型52632B，cap80000；report8000，总128000+预留120000。reference identity≤8192门在新Arb reference bounds之前。科学child3300s/唯一consumed marker/全prefix失败保/非FF立即真pull循环不变。先冻结本包，下一独立workflow提交才启动；当前0新科学。
+
+## 2026-11-16 10:46:49 UTC — 单独提交 WPTV 一次性公开 Actions
+
+两README在 e219159a8309b014270217d7827c93b7cf228b7a fresh核仍同已读。源码/清单已先以e219159a8309b014270217d7827c93b7cf228b7a冻结；本次只接独立workflow .github/workflows/visible-exact-frozen-cross-block-value-tail.yml /2929B/SHAc1946707057e2f25ec5b238cccb3aeb1ae4449b73e36db9f92d02f0d849720a1，worker0699ff33和manifest4470a77b832b95ca6050912296eb1b45d8d6e84b4d65377d7a39e1c14a498423双完整pin。当前topic 199564512B，加完整128000B输出与120000Breserve及6000B记事缓冲≤200000000；runner必须再次实核。先真实partial checkout/pull与两README，再19原件临时恢复/完整readonly preflight/consumed marker/唯一3300s child。新run实际状态、科学结果和所有失败/未存边界待完整小文件回执；不把已提交当通过，旧数学不重算。
+
+## 2026-11-16 10:49:46 UTC — WPTV首次只读失败；全部数学目标未启动
+
+实际run43851901811/1，event ebda24f316e7652a7e25d6510af4cca22d54e2eb，worker/source/manifest仍冻结。24 current和10 AST的materialize完成；完整19恢复receipt canonical逐字等静态13771B/SHA4705f2c3，无旧producer/repair重造。readonly preflight return1、stdout0/e3b0c442、stderr1395B/SHA113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74；worker仅报 complete readonly preflight failed before science，具体stderr尚只在job原log，本会话不取未知大小log。
+
+scientific_started=false/scientific_children=0/actual_child_returncode=null；completed_target_names=[]/interrupted_target=null/scientific_files=[]。5whole maxima、m1/m2完整3球与比较、选网和条件resolvent全部未开始，没有新数学量遗失，不触及旧已成值。consumed marker未生成，未自动重跑。本次不是任何数学充分门false。
+
+已在公开main完整保execution Git68d313d9e3c406ea18deef910205e2f528dad52c /26981B/SHAeddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f与report Git4a9630696f9e5e964976760d1dbd64703c9fdeba /427B/SHAabb379f830717e69e0395f1283e34db887982ffd2e54736947b62f9be8cfcfd9，合计27408B。原2次真实pull在10:47:10.947790与10:47:29.119631，末8f68ac1675d3f896d1e53c187be59549466a2529，两README actual/review diff均空；当前 772eff635563f22107ad6e0b1eb9039c4ae94aa8再次核同。下一真pull≤11:47:29。
+
+后续仅先窄补运维worker把失败preflight完整UTF8 stdout/stderr写进execution，再重做只读入口以取回原1395B诊断；不取旧大log，不重任何旧数学，不授权重复已成target。入口错误定位并修正前不声称科学启动；新数学仍按原5目标/两固定网格合同。
+
+## 2026-11-16 10:51:23 UTC — 仅诊断的完整错误回收已冻结
+
+首次失败精确边界先685b8a0865235b70edf630122a8c28bb2c9ea799推，全部科学目标0开始/0完成/0lost。现仅把worker从06a23换4342e8a163b022407089c87d487eb4804221e4b2 /29560B/SHAa3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c：全文恰新增7行/525B、0原行替换删除。保存失败preflight完整UTF8 stdout/stderr；typed readonly_diagnostic_only=true即便preflight通过也在consumed marker前抛出禁止science的运维退出。Root及独立peer逐字核控制流，Popen/science_started不可能到达。
+
+清单 b222d44fd28cd00b1b6681f9967248f445adc355 /41530B/SHA73102dc7ac71cb7f951cf1ca7b5e0bfe24f8938bb81a58aace93a2d6aba62c8b仅操作worker/pin、诊断flag和前次完整failure绑定改变；主ea13/reader2ba6/17core/19history/所有数学params/公式原字。预算仍128000+120000reserve，当前topic199595203B加6000B运维差额内满足200MB。此步骤不重任何旧数学，也不重任何已完成新目标；只完整恢复原1395B/SHA113c6f93诊断。另行workflow触发后，数学继续保持未开始资格直到入口窄修完成。两README在5af07ed64877475bc05a488306246c9be22926bb核同。
+
+## 2026-11-16 10:51:35 UTC — 单独启动 WPTV readonly-only 诊断
+
+已先436057d071a6cea79a20919a87f482e5b199da6e冻结诊断worker/清单；本次workflow仅双pin变为a3c1c6ea/73102dc7，step名明确科学禁止，完整workflow SHA14900a8b0026f7beef46b10981ee8fec2e1e1af75e7948f20179268896ad6418。manifest readonly_diagnostic_only=true 在任何marker/科学Popen前严格停止；只读恢复可重复，已成数学0重算。完整原1395B stderr待新execution回收校验；不访问未知大小旧log。436057d071a6cea79a20919a87f482e5b199da6e两README核同，H继续保全部目标未开始。
+
+## 2026-11-16 10:53:55 UTC — 先推 D5 单件派生报告清理白名单，未删除
+
+白名单 97a42f32ea4b425655a5cf25cdf3e3ffe4b8323f /20008B/SHA536dd2a18af87c2bab3dbeb904dce1a4932e31a1985df90a0a7596cc5a8d3128，唯一允许删 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-forward-residual-probe.json，Git3420a02518d805ac901dbbc1fad002b8ceeee7f3 /117565B/SHA26fdfe744fbd28f9271888296e1b5c3c14d58e90422b640fe7238d8b8f4cff95。restore2184a463342085b03bc450853f66f18d338e455e同path immutable Git-tree实核，fresh596f967f当前也同，删除前还须freshguard。
+
+Root完整读6小primary P/N/F1/F2/D1/D2并核hash。原note明确完成δ2首43ray/141段的float sampling/Gauss探针；它不定义dense reference/correction/canonical对象，也不是ODE/KAM或严格残差证书。F1 files20与F2 archive_required11的同path/bytes/SHA逐字实核，原archive_required资格不抹：未来consume原manifest须先samepath临时恢复核三身份，禁重旧数学。D1/D2真loader读dense或Fourier/Bernstein原件，不读此派生报告；只作所读依赖范围判断，不冒全仓库无依赖。
+
+24current/19history active WPTV及5oldactual WMT范围已审；root新增diag manifest73102dc7/worker a3c1c6ea/H/open/WMT全文均0 exact-basename。容量预估净97557B（另扣记事）；只普通删该一件，不动native/输入/失败/其他probe。审阅代理有一次意在取metadata的GitHub contents请求被连接器返回117565B正文；已如实记录access_audit并停止该取法，未以其另算hash或重数学。Root未取target正文，身份只用小freeze与Git-tree。两README在7f30cb19d6a3dc1f76be2c8f30cb707985221dc7核同；本提交仅白名单，未删除。
+
+## 2026-11-16 10:54:37 UTC — D5单件已按先白后freshguard普通删除
+
+前一71ce988e4f7dcfcb8706d36eac48bc3469c6a92f只推白名单97a42f32ea4b425655a5cf25cdf3e3ffe4b8323f /20008B/SHA536dd2a18af87c2bab3dbeb904dce1a4932e31a1985df90a0a7596cc5a8d3128。现fresh 99a83bde6ec9654dfee36057afaf2dcdcc8a5c15 两README核同、并逐层完整Git-tree guard仍为Git3420a02518d805ac901dbbc1fad002b8ceeee7f3 /117565B后，普通删除唯一 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-forward-residual-probe.json。未force/改history或任何source/native/失败；原6小primary与两个freeze manifest保。future要用F1/F2须先从2184a463342085b03bc450853f66f18d338e455e同path恢复并核117565B/Git3420a025/SHA26fdfe744fbd28f9271888296e1b5c3c14d58e90422b640fe7238d8b8f4cff95，禁重算旧probe或downstream成功量。
+
+净报告减白名单97557B，另扣记事。所有原数仅float sample/Gauss diagnostic，未转成严格upper/ODE/KAM；δ3 tighter knot live attempt不是此已成δ2件。访问异常已如实保白access_audit，不重复请求大body。WPTV诊断及WMT真新算继续，未达到总验收标准。
+
+## 2026-11-16 10:57:24 UTC — 首次完整stderr已原字恢复；记录类型入口错误定位
+
+强制readonly_diagnostic_only=true 的实际43852589080/1没有marker、science_started=false/child0、completed=[]/interrupted=null/scientific_files=[]，old0/lostmath0。完整execution Gitcd8806141263c8cb143f6d73a62b56701e53f623 /28491B/SHA0f1adff816076873acdfcd40b634f7dbb070bc281dd87eeae211844f57dba7e4与report Git3f804166072ba9fccaad2883222c13cdac530a2c /427B/SHA8dd678ea771ee18231264c28476213b26d0ca1790d2d23729e1bca7d942db45d已保。complete_stderr_utf8精确1395B/SHA113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74，同438519首失败哈希；stdout空。没有读取未知大小job log。
+
+原trace定位readonly2ba6 line368四group遍历中的record exact3keys门。Root与peer回读小source：45ce原coeff的 intrinsic={a,beta,Ebar,R,K,gamma,Cref} 经 metric_defect.record（cc1c1e0b/13046）转beta_interval.ball_record（6a0713f931680adfd04e87949087189aa1d75e02 /30343B/SHAff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f），真exact5keys为ball/lower/upper/mid_float/radius_upper_float；后两仅显示metadata。其余三group为base.record真3keys。原先总括“全schema通过”在此不成立；此处审阅遗漏已撤回，不把未知数据强行归类或跳过。
+
+待窄修：intrinsic按精确7字段及内层5字段验证，3个球串仍原字，2个显示值仅有限类型/非负radius检查而不参与数学；其余group维持精确3字段。main whole()/signed_display_centre原有ball路径无需变；5whole maxima/m1,2/所有科学params仍完整未开始，可以在typed修正通过后仅首次执行。完整数学量没有遗失，没有重复授权任何已成目标。
+
+两真实pull 10:51:59.980132与10:52:26.787961，末596f967f0e86430bd4398ff833de6e303d7a761a，actual/review两README diff均空；下一真pull≤11:52:26。当前19ed49422e58c201c16af682b31fbf702abc8f05复核同规，HANDOFF持续更新。
+
+## 2026-11-16 11:01:32 UTC — exact5/3 原记录入口已窄修，数学主程序原字保留
+
+两次zero-science失败先9ed93794完整记录。新reader 10ec74b5e0f31255b58b45b440c91dd41a3325fb /29294B/SHAd084a228b8c7962468536476a56cef1c4efda4f82b2790adbd70467db20e9893，机械撤去新增组常量、intrinsic typed helper和逐组loop即全文还原2ba6/cdbf14ee。四group按原producer锁7/21/21/10 exact keys；intrinsic内层exact5 fields，三球串仍原字门，mid_float/radius_upper_float仅JSON int/Decimal finite且排bool/radius>=0，原对象完整返回。后三组仍exact3，异常含row/group/key上下文；不是跳过不认识数据。
+
+main ea13/bca655de全部30712B与数学params/5max/m1,2/完整193mean/四Schur块/2rhs全不改，old/new数学仍0重复。两helper cc1c1e0b/6a0713f9为已读原格式证据，未新增runtime旧producer import或额外input；24current/19history/10AST不变。独立reader peer正式通过，原1580B preflight与13771B恢复receipt模型同；SCI完整输出模型与40K/80K/8K总128K预算不变，worker已保whole failed preflight诊断。
+
+更新清单 c1228b9d5984a0a2d11de37b6dcd6e6eebbb5801 /45380B/SHA9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4，worker4342/a3c1c6ea，readonly_diagnostic_only=false。其operational_recovery完整绑定两次failed执行、1395B原stderr、两个先记commit与全部未开始五target；只有通过全readonly并发布consumed marker才允许首次新数学child。fresh topic199536436B加12000B编辑buffer+128000B全输出+120000Breserve≤200MB。748bd6eed5f6c69bfa7c4db3543306e92efbbd37两README核同，另行workflow提交启动；不声称尾门或finite逆已过。
+
+### 2026-11-16 11:04:57 UTC — WPTV 修正入口后首次实际数学 workflow
+
+先推窄修 package 98924967bf87b1fa30f8dd367f932511235355a8，再独立提交同一 workflow；此前 43851901811/1 与只读诊断 43852589080/1 均 scientific_children_started=0、全部五 target 未始、completed=[]、无 consumed marker、lostmath=0，失败边界已先 685b8a08 / 9ed93794 完整登记。新 workflow d8b2d94a73cbfb3c13c6693d2ca77402f93b90a6 / 2929B / SHA256 c526464fa567773efbd4bd42e6e619a9f9b0b6ed0ddf3a9f9251a295a12258fa 只固定 manifest 9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4 和已审 worker a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c；readonly_diagnostic_only=false。科学 source bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1 及全部五量、m=1/2、域、mean、193与96、全失败保存、0旧重算和0finite矩阵均原样。
+
+启动前 fresh Git-tree f932e75b993a1ce7df209af3cde438d598719414 topic=199543841B，完整输出预算128000B+reserve120000B+本次文档裕量7000B≤200000000B；worker 在真正 child 前再核同预算，所有实际pull逐次核两README并保回执。本提交只授权尚未执行的既定数学，不提前声称预检/尾门通过。README核 f932e75b993a1ce7df209af3cde438d598719414；后续按实际小完整输出判定。
+
+### 2026-11-16 11:07:02 UTC — GMR：原局部 mean/γ 桥已成，只读复用并纠正 stale open
+
+独立结论 bb72e319a7143c098ac0b4747928552da55b6384 /12615B /SHA256 f03b79bc5577a4f6e8bd5fe333916b7b5abad7f93250ac008a5e8ccaa0faa7e2。root亲读完整小proof、原3497B节点679a1d15、14,247B合同40d7a4f7和原support d4f887d6完整取回后的 full_input_mean_gamma_bridge；两完整index原字核身份，4copy逐对象等于已存FA2/WGS c，附录12records原字等于actual，8名称/顺序/公式逐核，parent十二输入/五module map全等，续算input prior_node_mean_gamma_bridge=00e1566b0a0641f5f92e04c6b5fe20b108f4e314be181afa39e17614d748ba48。Tail/Phase独立复核同结论。
+
+43827705714原failure停node24，第一node桥complete=true/failure=null/eight events；绝不把run改写success，也不把该桥误作未算。43831678361只补free map suffix/四端/whole，桥原SHA不变。mean_local_lower仅|m|下界；实际root r_*不替r_+，实域[rc,r+]∩原germ、普通V[1][0]、原cut row790与半径/strip资格全保。无对称盘或额外scope。本次没有调用数学/Arb或旧producer，0新数，禁止再launch旧八量。
+
+为保持H≤10KB，前H 9960B/SHA256 6f79d7844f6177a3c13cc78a2f106de83c4261cb1e7b0d99c8fb7f2ebdfa9693 原字保存至 topics/visible-flex-exact-nearby/notes/2026-11-16-corrected-tail-and-completed-mean-reuse-checkpoint.md（源afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2）；仅已成索引压缩，全部原球/域/失败/lost/恢复/未付义务递归保。两README核 65b6be688c1c758bdf5f160a6f8db4fea4f48d65。WPTV43854566735/1仍待actual；后续继续尚未成的新局部forcing与严格flux/真实finite逆。
+
+### 2026-11-16 11:08:31 UTC — WPTV 43854566735/1 首次数学失败：collar 完整前缀保存，限定后续 body
+
+workflow afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2；实际科学 checkout 1e9d0191b5167facc9fda1e3c94e2662f6da2b54，11:05:47.107194 开始，11:05:54.057502 child退出1；一子进程、old_targets_recomputed=0、0finite矩阵/0新数组。三完整实际小文件原字已在 notes/frozen_cross_block_value_tail_ci/run-43854566735-1/：actual-scientific-conclusion.json Git e5721a0ecea7c3131401a8caa94839ad10e2e315 /15309B /SHA256 b8812b6b940b17532c7643555d3393da71c2190606082862ccf651fbff762274；execution.json fe4c3e274701d9237736809e7dd12b801ce8c79c /31256B /e7246476bc02fe196ec10186783bcda8892621ec1c105d4b99dc612647cd3eca；report.md 0b8d1af01811265ded251bdf7fb55ad86846e136 /427B。root完整取回各≤100KB文本；101852B stdout仅原execution记录bytes/SHA，未取大log。
+
+前两attempt仅readonly child0；本次原intrinsic五字段已修，24current、10AST、19history原字恢复、全部4650/3594原covers通过；1580B preflight SHA f03bcda032ed6923a24717c7705c9a440c1558d45f1ea1bf06c2402fce703003 全同预锁模型，13771B restoration receipt SHA4705f2c3a093724ed7e21bfee9ed30d481105e1aec8446da55a14fb0a764d7ac不变。科学11门通过，153 parent mesh已构造，仅parent0 root collar完成，5 running-record完整保存（A/L非零，Eb/Ub/B零初始）及其witness、last_completed_parent、count1 chain SHA947c13032e6e6dc6496e42d2a78b0178b41dbc4372069a321f3f501a07547df7。parent1 body [1192029371497/5000000000000,1192034996497/5000000000000] 仅state=started，在exact_reference的signed_display_centre抛ValueError 'original finite display centre'，body_intersections=0，无body reference_identity已存。
+
+完整first target仍current，completed_targets=[]、new_whole_maxima=0/new_scalar_records_completed=0（这两计数定义为整目标，不抹除已保存的collar内部prefix）。原problem consumed marker90ceb485fa6d22db66a6ee6f1cb0b1615c025886/621B保持。已完成collar不得重复；续跑须静态验证原失败全SCI、复制完整原球/witness/chain/counters，从body parent1继续到152，且只接未始m=1/2、mesh selection与有条件resolvent。parent1参考构造里未保存的内部步骤仅限该未完成单元重做；不能声称整body已算，也不授权其它已成数学。任何已完成prefix/target未丢失，全部未付193mean/完整Schur/true96/first-r/非线性scope仍在。
+
+4次真实pull结束11:05:20.193542→ed3ed6bf、11:05:42.072960→0f031889、11:05:45.261115及11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README实际diff及显式review差异全空，完整回执在exec。H更新下一真pull≤12:05:54；本次只读README核 9abcc371fa7c838b959e0672d8a4498847436168。先推此精确失败/续算边界，才允许新suffix package。
+
+### 2026-11-16 11:16:06 UTC — 先推唯一 Hnodes258 旧浮点派生诊断清理白名单
+
+已review白名单 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb，路径 topics/visible-flex-exact-nearby/notes/2026-11-16-R133-completed-exact-affine-258-ray-diagnostic-cleanup-whitelist.json。唯一target topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json /Git2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B /SHA256 7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；仅δ2同对象已成258-ray完整浮点diagnostic，不是dyadic H/精确object/root/native dense定义、任何旧失败或原证明。原SHA由N、F0、F1及实际下游DR同字锁，root与Tail均未读取target正文，不伪称新hash。元数据确认current 572535065716880da2d43ac8fd120585dc880c2a 和restore9abcc371fa7c838b959e0672d8a4498847436168同path/Git/size/mode。
+
+root全读九个原小primary（N/F0/S0/P/D/DR/J及已读同字F1/N3），完整producer18177B把native traces另存、只full-loop后写complete；下游D/DR确实使用该258-grid，保真实历史依赖，F0/F1不改。后续如需须从9abcc371同path临时恢复核Git/bytes/完整SHA，禁止重跑ray/Newton或旧producer。所有独立definitions/native/小失败报告不动。
+
+Tail完整24current/19history边界及Phase/Newton各已持文本scope保白；root补核最终WMT manifest8870b8be/9输入、原WPTV manifest9b52fa3c、已失败SCI/exec完整小文本、GMR及H/open/WDS已持文本，exact basename均0。尚未冻结的WPTV suffix不冒已审；其新consumer仍须完整入口核验。只此一path，先本白再fresh guard普通删除，0数学/0旧重算。毛释放72503B，扣本白净46205B，journal另计。两README核 572535065716880da2d43ac8fd120585dc880c2a。
+
+### 2026-11-16 11:16:28 UTC — Hnodes258 白名单先推后唯一 fresh-guard 普通删除
+
+白名单提交 4ba6fe05816fe903c647952061dc308d0a63afc5 已先成功，final白 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb。本提交每次重建均读取fresh main Git-tree，严格要求唯一 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json 为100644 blob 2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B 后普通删除；不force，不改其它目标/definitions/native/旧失败/原frozen dependency。0新数学/0旧重算/0target body访问。
+
+完整恢复提交9abcc371fa7c838b959e0672d8a4498847436168同path/Git/72503B/SHA7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；旧Newton258与F0/F1依赖保留，需用先恢复，不再生成。净释放46205B为扣白后、未扣journal；最终topic容量将fresh实核供WMT完整预算。两README核 4ba6fe05816fe903c647952061dc308d0a63afc5。
+
+### 2026-11-16 11:17:58 UTC — WMT 七个完整新 strict-flux 图：root/两peer核完，先冻结 source/manifest
+
+科学source d9e5e8f6a80623b326fa8daf127ff9bf26356dac /93439B /SHA256 1962475219dd355520560ca9c01ca133423c03a15acdb1700b1e156e9055edb6，完整helper eaa723288488baa2adfae5e5b519cff192f6249c /13703B /c57fcab42013c956ed01af75b2dab0f96625302058bb36b62e10489d62a6e2a8 内嵌不另import。manifest 2512f52ca819c1ff75c3edfd68295a72b2f6bacb /19329B /8870b8bec287616d08eb5ff7639f544b247bc52845d98647f9cf58197b12cd64；worker固定已成f966a6a05b18794927c3674956fb617e7dbaa244/25584B/7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18。9current=5oldactual+WMTproof+science+worker+rules、2AST/0history；source与manifest先推，workflow另提交才可启动。
+
+root亲读全部函数/数学helper/控制器，33 JSON literal与final interface58177d404f4ff5702def19348c0d50934daf0f6f/83265/cbe2c832caa6ef7e9835d6300f82edc1d68215ae7b2e97ba00e4ac2698f4dbb8逐对象全等，最终interface较先稿只把原input peer标记改true。5原actual完整bytes/SHA/canonical原字、各全fieldset及admission投影均核；131 complete records15148B/a0fcd7b24cba3955336cf8b5b37de8ba83ecaadf0b7cc945bf78ef4699e3219d，33 whole qualifications36676B/8a6d0d5c0230cb4f13c10f61403012f60feb542c6fe5be8c8a2ebd67c1355ad8，完整accepted原object refs4900B/1f5e3a84340dd79f8c52ef8fc5dcadfd040dbab86137c03c85595bd3bec6f821全同。三lower只有q_lower/strict_eta_lower/t_cut_lower；原WGS group[5,6]与ordinary/(a!b!)、失败438277的已成节点和续算不同scope全保。
+
+新七图25/55/99/4/6/2/6槽，195新+2原copy，18门/32fields/16progress，0新exp/log/sqrt/fractional power。严格p归一L1 primitive用已证11/28，不用L2的1/4；全Vext、三幅值、五inverse level18/20/20/18/14及8terminal全保。真z_ph(r_*)=0、原local branch、3070jumps/四端/两mean、Calg/RF/顺序与全positive/negative scope不减，原WMR42及旧exp只读。仅最后same-whole与same-reduced各整支比较，0finite逆。
+
+纯文本静态预算：root完整science模型96900B、晚失败98438B，peer更大模型96949/98487均≤99000；6551B全preflight，root完整execution失败模型37870B≤59000（全9current、2AST、4全pull、全部preflight及4096/16384诊断），report≤8000，total166000+reserve120000。全部原球/qualifier和每个完整prefix实际保存，diagnostic仅按原明确flags限长。仅文字/hash/schema/byte核，无本机科学执行。
+
+Hnodes已先4ba6fe05816fe903c647952061dc308d0a63afc5白后49fefaeb875a3a790c9d175212d409a2fe21e7e1普通删除，恢复身份全保白a2e03bcb。启动预核fresh 49fefaeb875a3a790c9d175212d409a2fe21e7e1 topic=199577224B；加source+manifest112768B+完整166000+120000reserve+8000文档裕量=199983992≤200000000。worker真正child前再核；此前8个已在current的完整输入pin及旧marker不存在已核。README核 4d6bb02b07fb81a60aa63db9f2c4fe803291caa5。本提交仅包冻结，尚无新WMT数值。
+
+### 2026-11-16 11:18:21 UTC — WMT 独立 workflow 启动首次七图新量
+
+先推package846fc437877a12f152f2c8f8aaa7b9a48421ced8，现独立workflow d14d3a621102c5aedcce2791627ebefb1a91b0af /2902B /SHA256 60856152c248694265487e7f2452ca1126680a1ef2b03a308abc55050abf20ea。固定manifest8870b8bec287616d08eb5ff7639f544b247bc52845d98647f9cf58197b12cd64、worker7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18，只允许尚未计算的 same_selected_complete_physical_mean_strict_flux_97_v1 七图。原5actual/131record/33scope及所有已成WMR/WGS/WEJ均只读；新195+原copy2，0新exp，所有完整科学/失败prefix保单小文件。
+
+启动前fresh Git-tree ac838ab0197d2d76826df3af484b39658fdef5f4 topic=199692866B，加全output166000+reserve120000+本次文档裕量4000=199982866B≤200000000；worker readonly前及唯一child前再验。既有marker不存在已核；若实际preflight/数学失败先保存完整结果并登记精确prefix再续，绝不自动重跑。两README核 ac838ab0197d2d76826df3af484b39658fdef5f4，成功/false严格门以实际输出为准。
+
+### 2026-11-16 11:26:05 UTC — WMTA 首算成功：195新全存，非mean主导边界保留
+
+已成run43856579962/1；actual checkout79143c9bf37d78fedb8689ccda76c88a70056748，11:18:52.378616至11:18:53.251098，1child/exit0/complete/proved，0旧数学/0lost/0新exp/log/sqrt/fractional power/0binary restore。完整SCI edd66cdbe7a438569524ba2614d3822f61de5c81/90421B/c6680025917247e7bec958851d5ee85fc3c3750b059372a87ec568cd9d8acbd4；exec bf709243aab02a633e9ae2ab631335120aab7c26/15540/9d992cf3892413020705925d377186abb73e766c37e4a15c956d16f688cf60ab；report d9f0197279d58449bcac03c6f14c3def857b5796/443/b2a731b043763e9398fd10df460c4d22b1a1ffaae3491e837dff59277b98cf79，合106404B，各完整小文件已推。16536153B stdout只存原hash，未取日志。
+
+root/Phase分别全schema/hash核32fields/18gates/7targets/16progress；197完整graph slots=195新+2exactcopy，最长97B球串。131原record15148/a0fcd7b2、33完整scope36676/8a6d0d5c、4900accepted/1f5e3a84均从原5actual重建逐对象相等，仅文本非数学。九current/两AST和6551B preflight全模型相等，旧失败posterior prefix资格未改。完整实际说明 e376f9d210aa89abc695ede3206dfa5e94538431 /20149B /b4b5f5f78127a243f38d0192057018911d306a33f2ed7982341f7705589acd90，保全部key原球/两same-operator choices/7图及scope和旧open两段原字。
+
+新CFs原球中心约1.167180848e289，旧完整strict_CF约3.464298394e393；whole/reduced均实际严格选择new_strict_flux，仍约2.116312512e465。保留nonmean collar_B_union与strict_B_t的大项仍主导；不能据mean改善宣称inverse/高门/族。局部WML纯式可登记，但247新数暂缓部署，转原完整nonmean角向jet/残差需求的解析改进，所有旧目标只读。前消息local_CF阶的口头短报已由原64位整数串纠正：原local_CF约5.5776e63，未写成新的数值证书；本文附原球全字。
+
+4真pull末11:18:53.526076→79143c9bf37d78fedb8689ccda76c88a70056748，两README所有实际diff/显式review差异空，完整回执保exec；H下一真pull≤12:18:53。fresh topic 199801019B，本已成实际说明/日志按actual≤200MB保存；README核 af2f699b60a9605760e28de518a58ab76282f727。全部195完成目标禁止重复。
+
+## 2026-11-16 11:33:17 UTC — R127已成派生证书的单件清理记录
+
+根规12/15下先保完整白名单 `notes/2026-11-16-R133-completed-R127-waist-certificate-cleanup-whitelist.json`（Git37a109d9fe4fb7eb67354c253abc601eaffe6a41，31893B，SHA256 f96517ced3fba41ffbd470f6ff840a99eda3323340e1d38ecb25f6bf85929993）。唯一对象为R127成功报告644624B，Git1c0abbebb166c6b85a87cb52b4aeab8378567b4c、SHA0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb；40eeef92de9f7cb7868062a3697baa8d427f644f同path原字可恢复。
+
+Tail完整读8小primary；root完整读R127证明、R128实际17门报告及其精确同SHA消费者，并读清理范围/恢复/版本边界。R1278门成功、同64闭盒/全角/全辅助参数域及R128历史直接依赖保留。原成功validator/provider SHA与当前R129优化版不同，禁止以当前源重算替代。目标不是selected candidate或其定义；v1/v2失败和所有小证明/source/actual均保。已声明WPTV27current/19history及WMT9current与当前H/open输入闭包不含此目标；不冒称全repo无历史依赖。目标大body读0、新科学0。本次只登记；普通删除另推，所有原证据在Git历史保留。README在85655e10f5e3ba29599fbf149d60cb961e3c139f核同已读。
+
+## 2026-11-16 11:33:44 UTC — 执行R127单件普通清理
+
+白名单已先推503b76c7e02769ea8d2e5a12bf6f8e635e39ffdb。本次fresh guard仅删除 `notes/2026-11-13-Codazzi-continuation-r001-v3-native.json`（100644/blob，Git1c0abbebb166c6b85a87cb52b4aeab8378567b4c，644624B）。root用完整Git-tree元数据核current与restore40eeef92同path完全一致；未请求大body。全部小primary、v1/v2失败、candidate/定义与历史不变；R128历史consumer如再使用必须先还原完整旧字节核SHA0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb，禁重复原数值。新科学0。read parent 503b76c7e02769ea8d2e5a12bf6f8e635e39ffdb 两README无变；本次仅普通Git删除，不改写历史。
+
+## 2026-11-16 11:36:13 UTC — WPTVS只续原未完成body，完整原球语义
+
+原失败边界241f5299751dd5582457758e64652dd73d04f4c9已先推。原43854566735/1 collar0全部已成、body1未有完整reference/交集/整max；原marker及c1228b9d完整manifest不改。新source ff79fe62e6a948b2536d2594e995047eb65fd820/31266B/SHA159d8fdc153cadf844e1d28f2e0271ae12e55c38d560d7330ee28f164bf21d3c，reader3cd5ad5133f53a5da9f28b86fbb40621063678f4/44792B/SHA858a23686729f0d714dd623c9687830ca999b0a0f756d5c2d649dec07d41e4dc，worker4342/a3c1保持。新manifest a5f5c36cc5bdcd133c099e53921a3f6f2b681185/46338B/SHA296d3f664909f94c78b5029bc22ac2cfe53b603600aa2aef5c10f47c638fad8b，27完整current/19历史/10AST；3原failed文件额外pin，原32fields及44field execution全部验证。
+
+有限ASCII parser处理裸/精确括号/中点半径/零中心半径，原badtoken未保存，不声称知道哪类触发。原3/5字段以原producer lower/upper hull读；float显示字段不作为bounds或reference。actual K/gamma正和Cref负门仍须真实通过。reference签名仅任意精确选择，完整signed差和原full96/65repair/4650行/3594接口全部付。document从完整旧SCI复制，5原球/witness/chain/count只读，first target不重start；唯一loop body1..152，领口分支移除。允许重做仅原parent1未保存内部工作，已成目标lost0。
+
+WPTVS证明da32e8e0/16633B/SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05341eadbd29495b，仅把Markdown行内定界符按根规4正规化，数学不变。root完整核source/reader差、三旧文件资格和preflight1580B/8a3c8724。完整success/false/partial SCI模型30314/29478/45435B<50000；完整execution latefailure78870B、readonlyfailure74652B<80000；全publication138000+reserve120000。按fresh capacity199213302B加代码净16052/manifest46338/proof16633与journals有充分余量。源静态括号核通过，真实AST仅公开Actions；本次新数学0，下一单独workflow才启动。3b98677a43241a2c91e56c3c804cec7fa098fe0b两README核同已读。
+
+## 2026-11-16 11:36:43 UTC — 单独启动WPTVS remaining-body公开CI
+
+源/manifest已先推da09f8fcc335ae3c27a1fde4eaa28c550fbded20。本次仅加独立 `.github/workflows/visible-exact-frozen-cross-block-remaining-body.yml`，固定manifest296d3f66与原worker4342/a3c1、公开本仓Ubuntu/Python3.12.14/flint0.9.0；原workflow和旧marker保。新problem只允许读原collar后续body1..152、固定m1,2与conditional inverse，无finite矩阵。fresh tree da09f8fcc335ae3c27a1fde4eaa28c550fbded20 实际199294965B，加138000完整publication、120000 reserve及本小journal低于200MB；worker预执行/立即science前再次真pull、核两README及容量。本次只是启动记录，不预断科学结果；任何失败先保存完整prefix再声明下一未完边界。README核da09f8fcc335ae3c27a1fde4eaa28c550fbded20同已读。
+
+## 2026-11-16 11:38:07 UTC — WDS全四块双侧残差与真finite Schur
+
+保存proof5e93ca37c37d82787ea870aad977712f41b2d4ea/32943B/SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。完整证明给D=B*Qf*−R*Y、T=C−RZ与E的真signed配对，恒等I−QfM=E+D*R^-1T；须同Hilbert权e+κdt<1才证真实square逆。双rhs公式与z重建完整闭合，不把无符号上界当signed矩阵。dual原弱Green含identity/Volterra/head/mean/端点/jump及H−1、H−2/3的真实对偶Riesz，全部七port旧receivers仅只读。centre32+65repair+full96差、真outer H−5/6、97root补+96outer、193mean/ν/coker全部保。
+
+WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝试实现，精确pivot/action/transpose/norm及完整残差仍未算；root不能由旧WHVA false或未完WPTV授逆。WPTVS43859287399/1目前运行中。完整清理旧H段只压成fe7649afa86974eba204533434e24b7cae903307同H及原白名单索引，全部原scope/恢复/失败/lost仍保，未增审批或重跑门。本次纯证明新结论，0新数/0旧重算。89be4f87df9a733f53519b58bafdad2844083c99两README同已读。
+
+## 2026-11-16 11:38:53 UTC — WML完整local正权六步mean定理
+
+保存04827463ed6c8f81bcd54f278c004bcae668f7d5/31888B/SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。原实[rc,r*]和z_ph(r*)=0下p=aJ/DJ、w≥3/4给L1核，完整e/ek角0..6共21，Mr与4真实radial强迫amplitudes35；N6保7×4至2×9全部169记录/10terminal；8mean+6negative+2endpoint+6whole共22，总247为新未算目标。全mean/原Jr/g1/3070jump/四端/完整H/ν/coker/96及whole/reduced均不变，严格flux公式不延到root且无1/T局部除法。
+
+原已完成local γ桥、local mean_N6、WMR42/2exp及WMT195均只读禁止重算。root及代理已闭完整形式和原typed source使用；角6使用完整physical_coefficients_local，不拿旧c4×5替代。WMT真实结果已显示主项是nonmean strict/collar，故本次只保存已证定理，247不启动；下一新数值优先完整retained-profile重分解，不能假称WML改善已算。open原WHR/WHV/W96长重复摘要压到既有9f69ecd3完整逐字档索引，全部未付义务保。本次新算术0；89f20ce86430eb65199268e1e8d6add6619f0ee5两README同已读。
+
+## 2026-11-16 11:49:55 UTC — WPTSA实际续算完成，两预定尾门false
+
+公开43859287399/1，actualcheckout08f120e3，source159d8fdc/reader858a2368/worker a3c1c6ea/manifest296d3f66；SCI c79f9de9/24767B/bdd8857cf98d3497600b349b05fc81b8aab7441cd7020b6a5f337b6067f774ef，exec48542d9c/31409B/263e6e51aeeb7705b80870af1a6ea5a9936e3efc470a88581696cdd3ece0d3fb，report429B/8e978982。全56605B；大stdout11161346B/e7ab209c仅hash，未读/分块回传。
+原collar5球/witness/chain/count及32fields/44execution全继承；只新152body，153parent/4801交集、18完整门/4targets/11scalar、old0/lost0/finite0。完整五max和m1/m2所有值保WPTSA4de4f5fc/12906B/SHA4f880dce；δ1=8453.721881…、δ2=2121.930735…均false，selected/inverse=null。此是完整科学成功，不是未算；禁止重算或自动扩网，也不证奇异。
+root仅schema/hash核全33fields/18gates、27current/10AST/19history、原全部scope/repair/候选及1580B preflight；无新数值。最后真实pull11:42:53.716692→5b5dd03b，两README diff全空；四回执完整保。下一实算需新解析和资源合同，并继续真实signed有限逆/96/mean/ν/高门。c929c8cf3fad0306b798fe8f02171312e8afa77a读取点入H。
+
+## 2026-11-16 11:52:18 UTC — WRT整项重分解的完整新界
+
+证明9e7c6722efdf37679433f437875b74c3f1a263f8/26894B/SHA7730307f9c42bb87adc41baca7d0a79262946e5c19cd517449325523380bd38d已完整闭合。原full10-word N6恒等中保k1/2，整移k3..5连同旧C6至E3，先真反射/even0投影再同J；sqrt槽数和ordinary dr给p3/2，新S1/6保持原H−4/3，不重乘已含反射factor2。
+原strict C6≈4.388e323仍主导新终端，未删/减upper。完整4端/3070jump/两mean/当前WMT Mc/Mt/Cend与正/root/左receiver只读；whole/reduced各自完整组装后独立比较。7actual/75完整原record canonical9302B/4e7b739f…；7图2/8/7/8/7/4/6=42为新未算目标。root完整读全证，数学0重算；source正在实现，暂不宣称数值改善。1633167ea792ace4cc32331dbdc5ce3d8feb046e两README同已读。
+
+## 2026-11-16 11:56:50 UTC — 两fixed-tau已成派生probe普通清理
+
+仅删δ3原shared516 forward977dc3a0/50356B/4f0a0cfa…与backwardb6500295/50324B/1a807c09…，合100680B；完整恢复path/Git/SHA/bytes、命令来源/原非零defects/历史archive依赖保notes/2026-11-16-R133-completed-fixed-tau-probe-history-recovery.md（99b34b57fcd5291c6e0ca7a08b6ca7d8b8155841/2581B/c3a4db2cc2f4e0e07bd5465f15260e046d1c319f0e7cd2df03fe7288d8dcdc0a），restore49fefaeb同path。原F1133B/N7500B/source及全部定义/native/失败保，未来仅原字恢复禁重算。
+root完整读N/F并核fresh tree与WPTVS/WMT/WRT声明闭包，Tail此前已读producer；2目标body0，新科学0，不升为连续证书。按根12/15不额外部署独立白名单审批，普通删除不改历史。R129三旧report在当前tree均已缺席，未再次删除或替代。dbf00d16753f752c3e92565c0831c190dc5dd3d8两README同已读。
+
+## 2026-11-16 12:01:18 UTC — WRT42完整新consumer准备
+
+source983a1eeca9b4e1a5233a7501eaaf2ad3f5204ff9/73411B/SHAbc16863412e739a9a468f06c715282665e533f145ef025033addd7b15bd60724；manifest a56e211314d2c5ddbb67f7073ddc5bef4b537fe9/18333B/SHA38e8211d25ac3799ae61f33b5dec704ee382cf6a1a5fcdeca7f2e8ed6510b418。11current（7old+proof+science+原f966worker+rules）/2AST/0history；source固定7图42新、18门、32fields、3power/1sqrt，无旧exp/log/N6/mean/receiver重算。
+root完整核所有admission/helper/controller，重建75完整原record9302B/4e7b739f、10完整数学scope57334B/d0e94c5e及全部7 admission投影；57KB数学scope完整保，只把重复运维身份绑定为全file/path/bytes/SHA。静态whole success97063B、latefailure含96B current_target98595B<99k；execution39185<59k、preflight7510B；166000publication+120000reserve按worker两次前置容量门。diagnostic按JSON UTF8限256/1024并显式flag，完整数学prefix不裁。新数学0，workflow另推后才运行。
+本机11:58:46真CLI git pull --rebase仍无executor，已记H并继续根规8小文本；实际最新CI pull11:42:53两README无变，24d862dd85684fedd472414f6e9a77d896062a89只读核同已读。课题当前清理后199367007B，包加91444B与小journals有足够启动余量。
+
+## 2026-11-16 12:01:54 UTC — 启动WRT42本仓公开CI
+
+包已先推ec7d61e1b11f45751d54494997658845b5b5dc7c；新增专用workflow visible-exact-retained-profile-terminal-refinement.yml（89eeb5286e8bd75a08a5ba4f7ecf5cbc15448322/2941B/e29bac8c6d04abe2eaab4a6e523bdd5338c19816bfeabfd84c56b18c029e2aaa），固定原f966/7abb worker及manifest38e8211d、Python3.12.14/flint0.9.0。本次只7图42新量，原75record/全部57KBscope只读；不可重跑旧N6/WMT或把旧C6删去。
+fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publication166000+reserve120000及本journal≤200MB；worker预执行/立即science前再次真实pull核README/容量。旧whole/reduced与新完整候选分别比较，结果尚未产生。ec7d61e1b11f45751d54494997658845b5b5dc7c两README同已读；非FF已立即真CLI rebase尝试并保远端循环，前包第4次成功，无force。
+
+2026-11-16 12:06:52 UTC WIC独立推：全文核019b1136/29026/527fc35e与无入口b181bb80/11013/c5de896f；8原whole→m160真tail κ3，旧5max/两false不改。reference正pivot/真实权/transpose/ρ2误差和WDS全残差义务明确；0数学执行/0新矩阵。CI43862924830已成功，四真pull/README完整diff空，最新12:02:27.498937→55858bef，H已更新；实际WRT42完整核读中。只读核README parent e8867d1951d6faa31a2cd9e69e6b9df2fb1c0c68不变。
+
+2026-11-16 12:11:21 UTC WSJ全文数学核24ccac8b并仅规范$定界，正式10c6e422/31568/217cdff8；全部12节/输入表/逐slot fallback完整。r≤3与angle分开，H/μ/G/w0/fullforcing/w1和edge15闭；relativeω14仍待WDG新数，不重算旧WGS。为H/open长度把原全文移notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md，原完整scope/未付门不减。README 2d39761097111c25ce26c4d8385b7da93d844dd2未变，继续新strict/profile与actual signed finite。
+
+2026-11-16 12:13:09 UTC WRTA独推：SCI2ab3e929/90315/fa85503b、exec6510c229/17176/165fefb1、report446完整读取；原32fields/18gates/16progress、7图42ball和75copy/10scope、11current/2AST全部核。两同算子whole/reduced新7.44656e339均选new，旧候选不删；无旧重算/new exp/数组，42target已冻。完整证明c2a6f0ee/22493/48d1bea2；README d0d923853c15915cf727485bdabf6a9aed023dc5不变，继续WSJ/WDG和actual有限残差。
+
+2026-11-16 12:14:24 UTC WDG全文0e4bf6ce/27168/212385b5独推；根复读WX原真实positive products/同d变分，正cut+积分、全Bell/cut strip/35原record域及80新目标闭。新数未执行，现有437slot冻结；Rω止14，absolute edge15独立WSJ。两README 7b5e7a0f4a775d3326e636ceea83480b4a651707未变，继续consumer与有限残差，不加审批门。
+
+2026-11-16 12:15:39 UTC 按根15普通删R120已完成两九截面derived report共509943B；完整证据R1208509B/manifest5377B与两producer6195/21116B已读，Git/bytes/源SHA吻合，未读大body/未重算。restore93eb013259ae836de5de23e80873744493e10cef同path与原完整SHA保notes/2026-11-16-R133-completed-R120-nine-section-report-history-recovery.md；保原输入/连续首格/失败及全部域限制。README bf74b397404a0b3b99a035004cfaddcc40359046无变，继续WDG/WSM/有限逆。
+
+2026-11-16 12:21:06 UTC WDG新consumer source b970e48a/59148/282efceb、manifest fdb99814/13322/a88caba5独推，6current/2AST/0history。完整35/3858/37315、7scope/15638/3d35、accepted10763/59ca已从两个原完整WGS逐字重建；31fields/16gate/16progress/5图80函数与保存顺序全文读。完整结构预算success60884、late63730≤65000、exec43580≤59000、report8000，总132000+reserve120000；新consumer预容量199562997≤200000000。未科学执行，下一单独自然workflow；README 05ae500a2aa98784fe05f6b4b8b3fcf2424f9d59不变。
+
+2026-11-16 12:21:25 UTC 单独自然触发WDG workflow 96028fe1898e3c672c7de0aa1a7adc65fa839360/2926/7cb6ad272639603f19e510e8291e341cce9ed8a9eac5b2eded4af364b1c2ff36；唯一新child固定80scalar，原两WGS/35旧record/7scope仅读，consumed marker锁目标。立即前完整topic元数据199303693B，完整132000输出+120000reserve及日志额度仍≤200MB。README 78f72a16ef3dd40692333b579b8f2dfb59d860a7无变。按固定完整保存契约等待实际结果，禁自动重跑。
+
+2026-11-16 12:26:21 UTC WQS全文4dc25130/25330/d6893776及无入口module d39ae087/10070/878c4aec已读，三display定界规范后正式ff2d61db/25336/bea91372。真权双向rank1/transpose/weighted Schur和all-L2head高试探全残差闭；actual energy仍有完整drift/reaction/primitive/mean/outer未付符号，不另冒coercivity。WDG43865837250已成功80新，末真pull12:21:57.120866→0fed4b86，两README空diff，H已记；实际完整结论核读中。README 59c56c693debc1d98b2a99495211ddb5277a40d8未变。
+
+### 2026-11-16 12:30:22 UTC — WDGA：80项实际正漂移角界完整登记
+
+本次从259e7c5f510a00bf42eb5899935c5d05761d1a09核两README未变；公开run43865837250/1完成16门/5图80新，35原record/7完整scope、6current/2AST/0history，旧调用/重算/lost均0。主程序12:21:56.218598→12:21:56.775245，唯一child return0。SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999、report438，总68297B；stdout3940550B只核hash未取正文。root全文结构/80record/原身份/4pull全链共24组核通过，无本地科学计算。WDGA正文371a515a/19954/8f2134de保存同strict real全部14球与正cut/普通dr推论；最终Rω1..14已冻结，WSJ仅除一次b!。不授relative15、root复盘、whole smallness/finite逆/非线性。继续完整scaled mixed/profile和paired signed finite residual。
+
+2026-11-16 12:36:29 UTC WBF纯证明0c1a3593617a4134ea875697a268b7b6eea3bb3b/16027/2dd1cdc598fde3ca47ca1cf0d787fdc60b9ced5601654865cfc3736cdba6c323完成：Riesz exact derivative formula与absolute row sum给sharp real Bernstein；finite formal flow majorant完整积分到正Stirling多项式，无任何本地新数。新83目标精确定义：14flow+14phase+14bulk+27composition+14relative，33原scalar从WGS2完整件及WDG实际件只读；F1/P1/K1与旧80不重复。保持true cut/root/全部scope，下一完整WSM接typed新前驱。H/open仅压缩已逐字存1fe66a453当前检查点的旧WOBSA/WMF/WPL/WUE段，全部未付义务保。两README于15df2fc56c4ea759b9dad4c8633e405d4ab0e3f7未变。
+
+2026-11-16 12:38:26 UTC WCPR原3424ca69/23903/066a749a全文已读；以原完整profile source d4f887d6/73459/c42b14e1核near scalar保存后readback、Jost E/Ep和far四正项、全输出公式，预算分母是固定正point而非函数下界。两display定界规范后da15190045b2cb05cffdfd410ab91fc9e5673286/23905/642e6fd207af3c632ee616eadbfe9ed15797e2df5baf8f6aff050984ac84a1ad正式登记。原profile/Jost节点虽后续endpoint失败但各节点已成功，禁止重算；free cut/Gi/phase/7..12新Cauchy资格和真正genuine区别保。新whole/finite门未算。两README于18e400e79a6822dbbe2b895fb3c6f8ce954c6347未变。
+
+2026-11-16 12:44:15 UTC WPS原proof beb2b056/42926/bcaed66d与module2e1224e5/11553/388cb56b全文核：源moment/dr pair的符号、完整forward/transpose、mean源与source-only Schur齐；Jρ全Green保未投影源，实际四块化式15和完整式24不漏b/outer/mean/7ports。根补continuous/discrete K∈[0,1]纯代证明，规范式20display，最终e830f7df4643fe77b941478dbde06ebf9378ebef/43851/ffd000ff15f705ffaaf3c33dddcd0c09c997c0c92d5110bab5be5ea9c114fa72。原m160tail真、m1/2false均不变，actual finite strict gate仍未算；继续actual唯一候选consumer。H/open旧已成scope仅压缩为原proof/完整checkpoint索引，全部未付义务保。两README于e76480a7e2a2e7c75da2564b2ee81cbf8d9b5196未变。
+
+### 2026-11-16 12:50:56 UTC — WBF完整83项新consumer封包
+
+完整source2cf08c631a2ab45dca147ec480729393ef69ba68/78191B/SHA7534760ac0e6867425c773598438c7909a502b6d84e05cc5c7c430637eee2ac7全文核读；manifest03166ea9714818f997f27f5a80e4c55ceaecb7b8/19449B/SHAf3a9f5205bf8a91c1edf3e1fdb89787c0392bb047f07d7396f235e49300b27a3。同一原reference/strict0..c/physical Λ768；33旧record、12scope和3份完整原输入只读，原F1/P1/K1不新算。5自然图14+14+14+27+14=83，31fields/16gates/16progress；源39常量、原记录/scopes/accepted和完整静态模型58项一致核通过。全SCI成功73110B、晚失败75828B+128边界，exec压力失败48961B；SCI90000+exec59000+report8000=157000，另外预留120000、marker4000，256B球压力模型不是科学值。容量fresh 4b741f36cf369dad291ba3f4e8df35708e9a8d13为199530352B，连源/manifest/文档余量/全publication/reserve/marker投影199912992B≤200MB。0新科学在code-mode；公开Actions首次运行尚未启动。README核4b741f36cf369dad291ba3f4e8df35708e9a8d13不变；下一独推workflow触发一child，失败先保完整prefix，禁自动重跑。
+
+### 2026-11-16 12:51:19 UTC — WBF首次公开Actions单目标触发
+
+workflow c8b32f552c4e3999d888903c33512fba7b7a890c/2915B/SHA0a99cc533ecda74addabc1d2610e8ba507d3c456f3ca27b259a371f73f844ebd仅本workflow path自然push；固定worker7abb8783与manifestf3a9f5205bf8a91c1edf3e1fdb89787c0392bb047f07d7396f235e49300b27a3，公开仓库partial clone后真pull并核两README。一个新科学child、320bit/Python3.12.14/flint0.9.0，83新目标未曾运行；同problem consumed marker禁止旧目标重做。最新topic树f8a9228d678147cf7e9d8acc109702a4015e6a4a实际199629140B，完整157000出版+120000 reserve+4000marker+2500文档投影199912640B。启动前及科学child前worker再做fresh容量/README/原输入核；不声称已有新数值或smallness。README只读核f8a9228d678147cf7e9d8acc109702a4015e6a4a不变。
+
+### 2026-11-16 12:55:22 UTC — WBFA实际83项完整成功已冻结
+
+run43870348355/1一个child0，checkout6c7e71e0cd53bb15ebdfe024cc7f9574d27c0a84，SCI df5ea6fff610d70ad98fbebc9dd004d24388ce86/59417/SHA87621adee76080dbbc14abdd7f8e5dce5d3e2742ba299fc941d13ff40f4410c0；exec bd14fe2fe6ad17c91eb20a4b38f6caf9c093e5e6/25491/SHA057250199c0624f7b69972dd032a5df1f173e624fcb02036e701a973ee26034b，report445/6301c1a6。5图83new、33copy/12scope、全16门/16progress，old0/lost0；无新exp/log/sqrt/fractional/ODE/quad，完整stdout仅留5166539B/hash43c8244f，不取大log。root32组完整身份/schema/token/回执链核通过，预检checkout0465d714、真正science6c7e71e0正确区别。全proof 7ab659592d05a127c666247bbe9965e6ef6deb61/13930/b2a2b05ad21eacacb0b9c6bccdd5e07dfbb6bd1a961323c22f40de10da66adc5立即独推。四真pull末12:51:48.256116，两README空diff/同已读；下一真pull≤13:51:48，本地尝试仍≤13:01:17。fresh topic 42492b0c728e260b3b1de8be79b4ab962259ad3e 199715971B。普通相对14阶约1.496e94，仍不授全算子小量；WSM接完整新角包，finite e+3dt/mean/96/高门和matching继续。README核42492b0c728e260b3b1de8be79b4ab962259ad3e不变。
+
+### 2026-11-16 12:57:26 UTC — 三份已完成派生报告普通清理，精确历史恢复
+
+按根规15删除R61单点时间缺陷修正182918B、真实β′完整transfer107484B、R120已完成九截面metric138934B，合429336B。完整原说明/参数/成功证据与3producer全文核读；Git-tree确认原blob，SHA逐字取保留原完整清单，未取大正文、未重跑任何旧producer。恢复点bdbbd506ceb20141dcf56b7cbf843405507b64ae同path；恢复页c7d74574bea67752baf1a40bb5bad8e5ba3b9856/7947/SHA1efbb74b01be80664fb9c3211d5f6f16d45d5731fe85d3c0db97967e7819ef9e含完整身份、源、参数、原执行说明、scope及全部原失败/未付门。R61只是第419子段一个复标签；β′只原Δ5且失败叶未授；metric只是九径向点，全mean/真实尾/无wholecore不变。删除前再次guard原字身份，不改历史不force。README核4f91916290708d7b28be9538042450a159d3e6c9不变；继续WSM/WPS新消费者。
+
+### 2026-11-16 13:01:06 UTC — WJR完整真实相对Jacobian解析结论
+
+proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724f1e6d131eef8b03bc6875f9a50ff7de9ad5061c2f全文核读后独推。真实Yj=χ^(j)/J先消vφ线性项，正三角比较等于Wj/F；Stirling有限多项式因式F准确消，无数值reciprocal/exp/log。cut真m_c、cut2..15与已存flow1..14全Bell/Leibniz给同p±/x相对比，再原WBF Kcut只读与新bulk整max。两完整actual/43原/4×14=56首新目标未算，WBF83不重做。仅strict实域ordinary ratio≤14，不扩root/参数域，不替换absolute Phi，全mean/96/finite/matching不减。本地12:59:26按小时真CLI pull仍无executor；下一本地≤13:59:26，公开CI真pull仍12:51:48，下一≤13:51:48。README核294f2ad82638b2cb9d3c28a3ddf55d330765ce65不变；并行WSM原子prefix和WPS全残差实际消费者继续。
+
+2026-11-16 13:12:54 UTC visible-exact-astra-0df9：WJR首次56新封包，source9a08605e/68081/22f83801、manifestba7dadef/17518/9ab2e472；6current/2AST、两完整actual、43原/7scope，root全文公式/源与独立原字绑定通过。仅静态JSON模型success78225/failure81069、exec29942/53352，SCI90K+exec59K+report8K，启动前另120K/marker4K；数学0执行。已归档旧H/open索引压缩且原义务不减；fresh README aa09e53de9ea2c9ec34a76b2aa4c08ba96f6900e同已读。下一发公开仓库自身首次Actions并保任何完整prefix，继续真实finite。
+
+2026-11-16 13:13:27 UTC visible-exact-astra-0df9：新建本题 .github/workflows/visible-exact-relative-flow-Jacobian.yml，只启动WJR新56；common worker7abb8783、manifest9ab2e472锁定，marker拒任何旧完成/partial重跑。fresh Git元数据课题199418056B，全文157000+预留120000+marker4000及本次小文字足额；实际child前再核。每次真pull对两README全diff；此次只读核78fab6a4c1b2fb85ac44a71308cccaf3b6a48062未变。下一收实际原字，继续WSM152/真实WPS有限门。
+
+2026-11-16 13:19:14 UTC visible-exact-astra-0df9：WJRA首次43873739440/1全15门56新完成，SCI80499e42/69002/806fbeaa、exec942bb43d/29754/9fd8b536、report445B；root完整原字/43原/7scope/56球shape/全部回执29项吻合。科学checkout d6213be67651a3d110fc82e893b5766714c1e7ad，0.470125166s单child，stdout4354253B仅hash97a3dd82；old0/lost0。完整证明75265efa/15896/51fa2f5f登记；4次真pull全diff空，末13:13:57.180524，H更新期限。fresh READMEa45c1c981ed40aff8dd9dafde9d40bdce95c844c同已读；继续WSM首次接新原球和WPS真finite，旧56不可重跑。
+
+2026-11-16 13:20:03 UTC visible-exact-astra-0df9：按根规15普通删除已成V0/V1两正文两summary及physical-tail，共464459B，fresh五件Git/size guard；原完整域/units/mean/方向/旧失败和依赖保恢复页8989ec03/7702/52058497，每件Git/bytes/SHA与restore19d780齐。3大正文未取，SHA来自已读小manifest；两summary全读核SHA，3生产源及小proof原字已核，科学0/无重算。未锁身份high-boundary batch不删，辅助239529B manifest不冒全文读。fresh README8d34ba170cf89583d399ea73a0b407353d921741同已读；释放WSM首次/WPS候选空间并继续。
+
+2026-11-16 13:28:09 UTC visible-exact-astra-0df9：WRP9f55708c/16951/95be269f完整证明登记。root逐式核真实CΦ*密度两次角微分、ordinary inverse χ2..4、同L2的3×3全Schur与全Bessel双负窗、15profile权、原所有source/mean/jump/正root/四端项；精确40新后继只读成功WSM全N6/profile，0科学、旧K0/profile0不重。压缩已归档旧H/open索引以守字节上限、全部义务保；fresh README05b27ca31a08c1c2ff53a743303e9a03dafafb41同已读。继续首次WSM20input/152与WPS实际finite门。
+
+## 2026-11-16 13:35:09 UTC — WSM20 首次完整混合估计包
+
+只读两README于4e176e43c60c1761c3e7d5e052c3c5723e7adee1，均同已读。新manifest eb8cb83b52d5c022aa9f9006c9459794e48ca2c3 / 27318 B / b9add6767c3773d05cfcbe96b8cf2287c2229c012faa6f8a19cbebdbf243aed2；20 current精确次序，12旧actual417122 B、全部输入733495 B，0history。三新科学源 science3964d345、supportc19a56d9、finishingf8b38c6f，完整schemafa42654c与worker1b6737b1；主proof WSJ10c6e422/WCPRda151900已在main。绝对流/phase取WBF83，relative phase/omega取WJR56；同实际正base先除再作一次factorial归一，原全部径向递推及domain不变。
+
+三个自然完整结论32+89+31=152新、6+1+32=39原copy；34-field index、22 gates；每node启动先存0record完整骨架，后续每球全量原字保存并readback再接算。全完成/三partial/after-all/runtime/N6入口失败/>4pull的8完整静态模型已计，科学原字不截断，private工作表不发布，不自动重跑。完整interface0ddf14e6/52784/ca65ed1a、operation model5ac4caa3/87994/a3a6a291：最坏总198813 B；计划publication230000 B，index50000、sidecars40000/70000/45000、exec80000、report8000，另marker4000与预执行120000余量。fresh tree4e176e43实199097453 B，含新增258439 B源/schema/worker、manifest及6000 B文档保守预留后总预算199743210 B<200MB。runner启动前再真pull/两README完整diff/全预算复核。本包尚未做新数学；随后单独提交自然触发workflow。所有finite/负head/高门/nonlinear/matching及最终验收继续未付。
+
+## 2026-11-16 13:35:34 UTC — 启动 WSM152 首次公开 Actions
+
+两README于49b712e1da64da90dd42c67d8cd2073a301b97dc与已读一致。package49b712e1已先在main，随后独立workflow 1ea8da9cc227a55a517c9dc79d047a4a78d80850 / 2943 B / ff292eea4eca8a4f2cdf44b07344a84881c6b1cd9f805b9e2edc9dedc4e3145d，仅该workflow路径push自然触发。固定manifest eb8cb83b/b9add676、worker1b6737b1/cc8111c1；Python3.12.14/python-flint0.9.0。runner真pull/review/preflight/consumed marker/即时容量后只启一个新child，不重WBF83/WJR56/其他旧目标；成功或失败均保存三个自然完整prefix结论与全index/exec。此刻结果待实际run，未宣称数值门通过。
+
+## 2026-11-16 13:39:56 UTC — 四件已成运行回执普通清理
+
+两README于74982ed4c356539dd3eef8368179b1c5208292a2同已读。WPS36/19新包需要151016B源+31551B worker+48445B manifest、183000B完整pub与120000B余量；当前199487337B再加这些已越200MB，故普通删已完整读核且非WSM20/WPS36输入的WRT/WDG/WBF/WJR四exec共92566B。精确restore4e7249810f4b71922daf3cc88557cb30c21cd5e1，完整path/Git/SHA/bytes、原source/manifest/run/stdout身份/原scope与四次pull链均保notes/2026-11-16-completed-four-small-execution-receipts-restore-note.md，6971c631/10121/5f8fa468。既往科学结论及失败不改，禁止重算，未来仅历史原字临时恢复。
+
+WSM43877268949/1实际已全152新39copy/22门成，root完整3图/index/exec资格45组通过；末真pull13:36:16.081258→61a4fcd6，两README全diff空，链aba13310fe0658d62bf6dbd6011e12bc02f4e968789984b8ab29873c61fc7e59。科学actual3f35c86e、3.154379049秒，完整whole/reduced新约1.90736e323，mean仍e319主导；WSMA完整证明正在登记，此处不宣称smallness或最终完成。继续WPS首次完整有限候选与WRP后继40，不重任何旧目标。
+
+## 2026-11-16 13:44:15 UTC — WPS首次完整paired有限候选包
+
+两README于466876331d3da924155a9873538eddfd0a4deb85同已读。manifest ed9aede898fcb79523a188ecee54a00763593019/48445/aabc28e194b27377d26f24ec7fff03708c0ff903841881233429ab0e36b76981，36current/19immutable history(13native+5原cubic+1repair)、5new+10old-definition+worker=16AST；30已存current逐metadata与原pin同。science d715c5a9、readonly a7e0d015、kernel30335240、assemblyc0f8a543、referencecc48f2e6，worker85d72a06。reader严核WPTVS五对象archive与WHVA全原字；15原记录2627/b313df91、完整旧scope8502/94c59517、19恢复13771/4705f2c3均保，不运行旧producer/旧max/原m1/m2 false。
+
+153原parents/4650rows/3594interfaces/4801intersections→24480细cell×96的完整新reference receiver，paired E0/D/T保193mean、97root+96outer、7port/2rhs/full96真实家族误差与Λ388高费，完整60或62记录/40fields/22gates/20progress。true77829、late83173、exec late61853、preflight2064的完整静态模型已核；SCI90000/exec85000/report8000总183000，120000余量与4000marker，child18000秒，runner每1800秒真pull并读两README差异。全成功/失败原字保，false只说明本候选未给充分逆，禁止重跑。
+
+fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pub183000+reserve120000+marker4000+文档8000+WSMA证明20000保守计199972177 B<200MB；下个consumer须计并行未发布预算并再fresh核。package先main，随后独立workflow自然触发。本次仅源码/静态合同，未做新数学。13:41:51工具环境重置后真CLI pull仍无executor，结果/源码全在公开Git原字恢复；无已成科学丢失或重算。
+
+## 2026-11-16 13:44:53 UTC — 启动WPS完整有限候选
+
+两README于9374e61150db974448d99dcfdfad96949769cd7b同已读。package a5318f0424eaa0a39a5de2c224b55830352c0b0a已先main；独立 .github/workflows/visible-exact-complete-paired-finite-residual.yml a4c99137c6e6d0fcd942837dc76e2300d9d8479b/2949/20610c4393f72fb6ea339947b321f34387e0ccdc7390f4f4aa4b0e97d6e8361a 自然push触发。固定manifest ed9aede8/aabc28e1、worker85d72/afbbae87，Python3.12.14与python-flint0.9.0。worker每1800秒实际pull/两README全diff；13native+5原cubic+1repair只immutable历史原字临时恢复，禁止旧计算；preflight及完整容量后锁consumed marker只启动一新child，18000秒。上一容量保守总数更正为199972177 B（仍<200MB），非科学计算变更。实际run结果待后续，false充分门也保存完整60record候选，成功逆才62；不得把数据或阶段结果算作最终题解。
+
+## 2026-11-16 13:46:10 UTC — WSMA完整实际证明登记
+
+两README于2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e同已读。完整proof d686817cb87067788b658ace16218f7ada1d68cc/36418/dc566db379d0ad9bcc01e4f4f1ecc6395c907c0944281169e9761cc42cfce31c 已证明43877268949/1的3完整图32+89+31新/39原copy、全22门与相同whole/reduced算子新上界；152冻结，old0/lost0。root读全3图/index/exec核45组，Tail52组/Phase完整receiver21组纯JSON均过；不加审批。whole/reduced保存中心1.90736423682251400641766771203225487061996663267347748430927102916501134125e323，半径3.56e248/3.57e248，各独立选new，原均值e319仍主导，全部3070jump/四端/root/mean/Calg-vs-Dinfty及完整有限账保。科学4件78909B/全部6件101143B，原大stdout只hash。继续新mean路线与WRP40，WPS43878765372/1运行中；无finite逆/全频/非线性/最终验收声明。
+
+## 2026-11-16 13:50:31 UTC — 九块既成输入清单普通清理
+
+两README于0879afa3e3cf0ca4da77104e41ff3d57765e8293同已读。仅删notes/2026-11-12-missing-complete-input-archive-files.json.gz的当前327445B副本，Gitfe069a3e、原SHA9f7bb67ed6177bb4c6f57356ccb26e30a75fdaccbee9e85f01c761a531c61914、restoredae38ffc。完整415B原摘要与4203B原source全文核，原九块6794对象/241928707B是历史收集范围，并非当前容量；原摘要没有run号，不猜。完整恢复说明 4c2976e1a581fcdabaa64821f76e5c9f25ae9128/3537/2d9d68148f37788e8a17edc427a6e82bb0769daaaaff0bb6f89bdf319d04b475 保清单全intakes/原byte恢复/无科学重算与全部限制。未取gzip正文，不删除其引用的6794对象；WPS/WSM当前科学输入不变。释放预算继续WRP40、mean新界及WPS结果承接。
+
+## 2026-11-16 13:51:42 UTC — WPN完整条件重建定理
+
+两README于e7156baa787b071ee0e663ec1a038761376a3e7a同已读。proof3c4b712c05b5c9fd392be2d9b65bbd8e727bd2ac/17666/dc553f11d578e00b2c2dd0abc7e4f3c78c852a519e1f06073962706e4d8c749d：对原四块/两rhs，L A W=Id−N精确成立，正2×2误差矩阵M=[[e,d],[t,2/3]]与显式ω、Δ给同e+3dt<1的operator-norm Neumann逆；主tail R_D^-1≤1已付，同一y/z试探与7port不换。两完整残差给显式误差，指定rootc的原常值嵌入才有g_t=0，真正root-even trace恒等I96，无需该同一恒等的额外det门；别的readout、原mean/ν/Θ/negative/matching不消。root全文块乘/权/两rhs/trace纯证明核，无新科学；29display式与初稿原字同。WPS43878765372实际门仍待，当前定理不宣称计算成功或最终曲面族。
+
+## 2026-11-16：WPS 首次完整六图完成、有限充分门 false
+
+2026-11-16 14:00:06 UTC；README 只读核 1379b70d249e362bce236054a1d0e8e41882593a，两已读blob未变。公开 Actions 43878765372/1 成功，workflow b53a9a327209dcadd464d3d5c3cbd241b6bb2e2d，实际 scientific checkout 71178ca5fb2a4f11468e43b0c5695576db81f3aa。SCI `notes/complete_paired_finite_residual_ci/run-43878765372-1/actual-scientific-conclusion.json` Git 17a70a8a6304f387d271378f31964e075ddb9594 /65347B/SHA 0c2467867a6eade717a1df17936729f5e6978ee49fc2cf611e183424a51e2123；execution Git 21bf7ec0d72950132e3b0c09f940069588640302 /35857B/SHA 01d18a4461d4aef6bff42484f195a95a5889a9e4d9ebbe2da4428a5898255c71。两件全读静态核，未重算数学。
+
+22完整结构门全true，6完整graph共60新record；15原record和完整scope/修补/候选/19恢复/5旧max/旧false共7原对象的精确字节与SHA全同预先冻结。36 current/19 history/16 AST；96 modes、24480细cell、155比较cell、152新body parent、4650闭row、4801原交集、3594interface。6 reference running prefix及witness全保；当前target null、failure null、child0；old scientific/producer/target/reference bounds重算全0；新数组/artifact/Release全0。
+
+原字有向结果：E0 `[28680.8368697789582379994373016731536286181157671740473093864704000299575584 +/- 2.25e-71]`；D `[24913.8391741506784162773940771695634065403877433971563545535532338020419711 +/- 3.64e-71]`；T `[8.11543210723135064127804099087880245844050349472517180461518016204186176414 +/- 2.14e-75]`；完整 E0+3DT `[635240.547914680796472781079076433545601541945826525748909361777135277711169 +/- 4.62e-70]`。充分比较 false；complete/proved=true 只表示这些完整上界已证，不表示比较成立，也不证明实际算子奇异。conditional_finite_inverse=null、finite inverse0、physical columns0。WPN的有条件重建未激活；全部独立mean/ν/Θ/负head/high/背景/非线性匹配未减。
+
+已保存边界：全部6完整target、60新record、6运行prefix与所有原对象均在上述SCI，无中断target、无未保存已完成新量，lost0；本次候选禁止重跑。后继必须选新完整目标且只读这60项；不把oldfalse改成success。child 2026-11-16T13:45:42.878841+00:00 至 2026-11-16T13:54:26.381477+00:00，523.502585771s，科学墙时 515.022249253s。stdout仅保存原byte/SHA身份 35657021/d09bd32f795f25c3ca49789f7044ff9fee69407634bd79504937e7a20da54145，未取正文。6次真pull的两README实际diff与reviewdiff全空，execution保first/latest3和全chain 186cd249b04d58e6baff22834fffb52d198d6f815ff5a28f7cfbf8b20a06aa28，末次13:54:30.868767→9c46f3876ee7197963aca6f5e5cb17b772888e4f。首次科学前真实capacity 199640445B，完整预算183000+reserve120000满足上限；实际三输出101631B已保存。
+
+## 2026-11-16：WRP40 首次固定输入包
+
+2026-11-16 14:02:24 UTC；只读README核8d5cbfaeaf9f00900d8c9954529b5e680a3bd48d未变。提交9个完整current输入、2 AST、0history，5个原actual精确Git/blob/bytes/SHA均在当前main原字。manifest f31bb4186d0898be547fa28eb06ff6e9e6a7faa8/18830/d4a3bb1055a7027460a736a5fb04a7b034d50ab4f492a09029c98f1e982b70f6，source e4f1ea70197856466a756e982ccf6dffc8d0fc29/74480/40841675c92525e912e41d6c652667297e1de65162ba8f44956f5334f4defc6b，新专用worker c410f91faae59dac177b737faffe4dd11d3f2d46/26542/3770e29dbb2becd615227c1ceceaf7c9a34cf585a705deeed75465dc02594d8e。proof95be269f已成；本包尚未调用科学函数。
+
+根完整核：同一物理测度/全mean负二及负5/3/3×3比较与15权、完整whole/reduced各自比较；44原scalar及9完整scope/accepted与独立五原件精确一致。32最终字段、16progress、14gate、7+15+18=40新，旧科学/目标重算0。source仅更换新worker路径，旧f966 worker未改；新worker只增加先打印完整异常后保存JSON硬cap64/4096/16384及截断/log标记，完整科学prefix不截短。
+
+六完整纯序列化模型含实际原对象与256B合成新球，未执行数学；success89308、late scientific92110、完整preflight12874、execution success21943、late operational45400、marker675B。模型全immutable见manifest，不复制成运行输入。合计压力含2KBreport为139510B，完整预算science95000/exec59000/report2000/total156000/marker4000，另预留120000。fresh metadata 8d5cbfaeaf9f00900d8c9954529b5e680a3bd48d topic=199478816B；两source+manifest+8KB文档余量+marker+全publication+reserve=199886668B≤200000000。每child立即前worker再次全tree实核。child1800s，正式workflow另推后首次启动；consumed marker防旧目标再消费。未宣称smallness/finite/背景/非线性或总验收完成。
+
+## 2026-11-16：启动 WRP40 首次公开 Actions
+
+2026-11-16 14:02:37 UTC；README只读核19b42a38a921cad3abfb77e1433cb482789b8064未变。固定source/worker/manifest已19b42a38a921cad3abfb77e1433cb482789b8064独推。本次仅提交workflow 506b1cd7e68a48d63747438bb1a3af077e633e98/2979/b0e4ea3e47c17d15208c2609aa7e7016ae1376402369806b202d9352f1c28665，触发公开仓库自身唯一consumer；Python3.12.14、python-flint0.9.0，完整预核、9输入/2AST/0history、预算156KB+120KB及consumed marker按冻结包执行。40新尚无actual，不能复用本次标志重跑；若失败先保完整prefix并明确未保存/未算边界。

@@ -176,9 +176,11 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WMTA](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7的195+2全mean/jump/端点冻结。[WRTA](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2/43862924830全42新75copy/10scope冻结；SCI2ab3e929/fa85503b，oldwhole/reduced7.44656e339。全部原10word/C4/同J/mean/3070jump/四端/root/1/6gap与失败状态保proof及715a877c999d0fce2ecd66539ee2a2b3780da26f同open。WSMA已消费，不重旧目标；finite/高门/matching未闭。
 
-[WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：同strict frozen t0双索引/r≤3/total≤14与absolute edge15、同函数fallback及H^-1/μ/G/w0第三径向、forcing/free/genuine/非零cut全保原proof；root local不改。原完整域/shape/mean/端/jump资格并保b53a9a327209dcadd464d3d5c3cbd241b6bb2e2d同open。WSMA首次152已成，不授finite/matching。
+[WSJ](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8的完整mixed/domain/fallback/forcing/cut/mean资格保proof与12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open；WSMA152已成，未授finite/matching。
 
-[WDG实际全相对角界WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de：43865837250/1全16门、五图80新/35copy/7scope冻结；SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999，old0/lost0。完整正cut+普通dr及同d变分资格见WDG212385b5；source282efceb/manifest a88caba5。ordinary Rω1..14接WSJ只除一次b!，高阶仍大，未授whole小界/relative15/root盘/mean/finite逆；原local及所有receiver义务不减。
+[WSMF严格mean](results/R133-supplement-per-index-strict-flux-and-complete-physical-mean-bound.md)5845b880已证完整52正递推：total7/r2、κ0copy、18全flux/8terminal、两mean/四端/3070jump、whole/reduced各选全保。52尚未算；WML局部247仍独立待算。
+
+[WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250全80冻结；ordinaryω1..14接WSJ只除一次阶乘，old0/lost0。全cut/dr/资格、源与原限制保proof及12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open，未授relative15/root盘/finite逆。
 
 [WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。WPS首次完整比较false，真实finite逆仍待。
 
@@ -186,7 +188,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
 
-[WPS完整候选](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff/43878765372：6图60新/22门全成，SCI17a70a8a/0c246786。e+3dt约635240.55，充分门false、finite0，非奇异结论。36/19/16、96mode全保；原mean/7port/两rhs/full96误差及全部旧对象保proof和SCI。old0/lost0，禁重算。
+[WPS完整候选](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff/43878765372：6图60新/22门全成，SCI17a70a8a/0c246786。e+3dt约635240.55，充分门false、finite0，不推出奇异。36/19/16、96mode全保；原mean/7port/两rhs/full96误差及全部旧对象保proof和SCI。old0/lost0，禁重算。
 
 [WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
 
