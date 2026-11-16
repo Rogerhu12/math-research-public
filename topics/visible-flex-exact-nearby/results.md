@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **W4M完整四步均值接收**：[证明](results/R133-supplement-complete-four-step-mean-source-and-physical-Hilbert-Schmidt-reception.md)500adf38。读取已存第三逆层给全N4末项；n^-17/6对所有高输入列的HS求和可控，明确两patch/两mean/3070/四端/两完整operator，31新目标尚未计算。
+
 - **WRPA40完整实际相对pullback**：[证明及全部40新/44原记录](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38，43881690924/1全3图/14门。严格Bc约8.421e235、Bt约9.109e225；whole/reduced各选new，均值仍主导，无smallness或finite逆，old0/lost0。
 
 - **WSMF52严格物理均值完整新界**：[证明](results/R133-supplement-per-index-strict-flux-and-complete-physical-mean-bound.md)5845b880。以total7/r2导数包保全angular flux/N5八terminal、两物理均值/四端/3070jump及完整receiver；32+7+13新目标的正递推已证，κ0只读。52尚未计算，未授finite/小量/非线性结论。

@@ -174,7 +174,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole粗界已证m160真tailκ3/24480cell；所有原reference/mean/rho2−rho*资格保proof。[WPN全系统重建](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)dc553f11证明同完整e+3dt<1⇒两rhs双边Neumann逆与两残差误差界、指定root-even I96；实际门仍待，其他readout/7port/ν/Θ/负head/匹配独立。
 
-[WMTA](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7的195+2全mean/jump/端点冻结。[WRTA](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2/43862924830全42新75copy/10scope冻结；SCI2ab3e929/fa85503b，oldwhole/reduced7.44656e339。全部原10word/C4/同J/mean/3070jump/四端/root/1/6gap与失败状态保proof及715a877c999d0fce2ecd66539ee2a2b3780da26f同open。WSMA已消费，不重旧目标；finite/高门/matching未闭。
+[WMTA](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7全195+2与[WRTA](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2全42已成冻结。全原scope/失败/mean/端/jump保proof及4beb78ba33aa29c17554ded6d17513cf119a484a同open；WSMA已只读接，finite/high/matching未闭。
 
 [WSJ](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8的完整mixed/domain/fallback/forcing/cut/mean资格保proof与12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open；WSMA152已成，未授finite/matching。
 
@@ -195,3 +195,5 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
 [WRPA实际相对pullback](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38/43881690924全40/14门冻结；Bc约8.421e235/Bt9.109e225，whole/reduced各选new。44原/9scope及原mean/端全保，old0/lost0，无smallness。
+
+[W4M完整四步mean](results/R133-supplement-complete-four-step-mean-source-and-physical-Hilbert-Schmidt-reception.md)500adf38：n^-17/6全输入HS、两patch/两mean/3070及四端完整接收已证，WMTA/WRPA只读；31新尚未算。

@@ -35,3 +35,9 @@ WPS36、WRP9完整冻结manifest与WSMF完整proof当前输入说明，均无26�
 2026-11-16 14:11:23 UTC；README核1b5d55350189b12f4976cba948d0d13d20b6733b未变。完整WRPA e11669900368b5d959e9ad59bfcac701b68288e2/36854/b6c22c38f02075cb93f6cc5592d5fbc0abc79efba50e73915f1ce976e81df21c。根全文读数学和操作正文，3完整JSON对象与actual逐对象一致：whole/reduced实际selection、全部3图40新record与44原copy。9scope各自完整hash及原accepted全保，14门/16progress/9current/2AST/0history、4真pull全链、1child/lost0及原mean/端/有限限制均保。只把两处interval不等式写成saved ball的certified upper endpoint并明确定义，未取midpoint当upper，原球未动。
 
 完整source/manifest/workflow/actual原identity保proof；3输出104740B，preflight12874/bd51993a，3.88MBstdout只引已存metadata未取正文。WRP40已成锁定，WSMF52和W4M31可各以完整已成receiver作只读输入。
+
+## 2026-11-16：W4M 完整四步物理均值与全输入接收已证
+
+2026-11-16 14:12:25 UTC；README核63a1cb3b5c85fca6606e43502df60be03e695b81未变。完整proof 1fd6aacd03c683b7d862682bdfcad4966a8b9863/24193/500adf388bd745f894b8d096e6b2d4c5f55d9dabffcab4c805af2d1f18275d91。根整读24式，明确物理mean z_ph,n与inverse-frequency z_n不同；读取WMTA v3两angular行0/1×degree0..5，共12原球，另新c0、7完整terminal和CF4，绝不重旧N5。全真实四fold输入j≥97、每pair≤2方向，sum(4j)^-3给Bessel/768的完整HS，输出不假设正交；primitive L1先pointwise输入Cauchy再dr。新n^-17/6单位全程保持，local n^-23/6原量÷388。
+
+原root条件、完整Gs/As/Tk、两physicalmean、两个真实普通dr receiver、3070原jump、whole四waist端和whole/reduced独立各选全保。new mean collar用disjoint真实径向两段平方和，只1新sqrt。最初5old实例仍保；当前2完整oldactual=WMTA90421+成功WRPA82508，typed Bc/Bt/完整NT/11receivers/5finaltuple/两selected路径全精确，原failedancestry不改true。完整9+6+8+2+6=31新目标，未执行任何科学；source/interface继续封，不另加审批门。
