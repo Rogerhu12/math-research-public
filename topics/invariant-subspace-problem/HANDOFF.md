@@ -7,21 +7,22 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 2026-11-16约07:20共享executor失效，旧tmp不可读且未声称存活；最后本地push42478da8。按根规则8/13转现有Actions实际pull/rebase/push；已用已有MR_TOKEN修复bot403，run43824697306实际推007f073e，后续均真实发布。API准备不算pull/push。发布器仅对并发worker造成的H最后规则marker冲突作逐块窄合并，保全部其他研究文本；其他冲突仍报实错。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-integral-mean-surface-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-complete-integral-annihilator-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
-- **四参数run43830684123/job133175032397已全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。历史恢复23.358/6.077/7.880/2.820秒；选8→7→3→1父211.964，C1/h0/x²/x³为82.442/95.161/95.226/94.616，最终核0.064秒。根已亲读完整日志并独核6binding、14小矩阵SHA、252组装/252核乘回及86原阶段。最后完整ann另成正式稿逐结论推；不重210，所有数组仍tmp/日志。执行身份notes/r150-hstar-four-parameter-execution-789f/。
-- **原完整Bell1 run43832009393/job133179333013已启动：** [独立接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)，head cc9f29d0，checkout/pip0.9/Singular安装实成；数学结果待真实日志。全部17变量/18源，双degree自测后field权5至9，75才600→1200→1800续，同job E600秒/4GiB；只有原E三个完整分量为1才闭合，截面失败不否定同支撑其他来源。5分钟同job续接窗、80/90分钟范围，每28分钟实际pull，记录notes/r150-original-full-bell-source-execution-789f/。
+- **四参数run43830684123/job133175032397已全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。根已亲读完整日志并独核6binding、14小矩阵SHA、252组装/252核乘回及86原阶段。完整ann已独立证明，见下条正式稿；不重210，所有数组仍tmp/日志。执行身份notes/r150-hstar-four-parameter-execution-789f/。
+- **原完整Bell1 run43832009393/job133179333013已启动：** [独立接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)，head cc9f29d0，checkout/pip0.9/Singular安装实成；首600实际exit75/wall598.467，raw11655/SHA213ba7ff，同out升1200；阶段待完成日志，不把75作负结论。全部17变量/18源，双degree自测后field权5至9，75才600→1200→1800续，同job E600秒/4GiB；只有原E三个完整分量为1才闭合，截面失败不否定同支撑其他来源。5分钟同job续接窗、80/90分钟范围，每28分钟实际pull，记录notes/r150-original-full-bell-source-execution-789f/。
 - 原发布run43831972009曾非快进，立即pull/rebase，仅H规则marker冲突窄合并后实际推cc9f29d0且dispatch204；数学API的MR_TOKEN403已改为现有actions:write的github.token启动，Git仍已有MR_TOKEN。最新所有源码/参数/历史失败及SHA在刚归档H和log；从真实回执继续。
 
 ## R150原rank-one精确系数接续
 
-- 全原17梯度/6188→4367；Q相对T维25，ann=h*=s³F+²F−²E8；h*W⊂L、全W member源费8391。rank-one Bell8/𝔫⁸只原归一rank-one/source moment≤18；唯一127扭子D/127/root63及九h*t整源不外推整个W整费用。
-- [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)，全不变因子(s,s,h*)，原t2,t3,t4最少三生成，每j的sT循环且商(Q[s]/s)²；340340原源乘回、实50.590+11.051秒/bindingf50f0594。不据Q推出整数分解。
-- 原完整31谱C=D^298⊕tors，指数1²/2⁵/3²/4⁴/5²/6、长50；root1为1/2，root2=(1,4,2,4,2,1)。全210/30阶段已实1104.606秒/binding712f9b42，真16中唯一e6原index12/30013。旧source/tmp在失效环境，不冒存活；最小历史恢复复用已发表定理。
-- [乘一个31的完整ann](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)：p=31,x=s−2,B=<h*tj>,M=<tj>。每j及共同Ann(pB)=(p4,px,x²)，Ann(pM)=h*(p4,px,x²)；h*与h0分母5/2。两逐九独立socle线给精确判准；p³B=p⁴T，B高指数3,4,4,5，新px²h*t来源费8515。实0.340秒/bindinge0c921f5，根11pins/2835乘回及九对独立已核。
-- [未乘p的完整四参数理论](results/R150-appendix-original-hstar-fourth-parameter-annihilator-and-complete-four-scalar-test.md)：原H0=x²h*全17模p³来源排B_root1，x²B落真七socle；同指数4块零与xp⁴T=0给x⁴B=0、原无p来源费8515。K=(p5,p²x,px²,x4)⊂I=AnnB⊂J=(p4,px,x²)，I/K恰四轴(p4,px,x²,x³)至S⁹的63×4核；前两独立，后两本次已实际完成，完整ann将另稿独立发布。实0.331693秒/binding24614257；不把J16 modp动作当完整socle作用。所有单目标亦按同核求，AnnM=h*I。
+- 全原17梯度/6188来源/4367输出；h*=s³F+²F−²E8，degree23/lc3125为D31单位。全Q相对T维25/ann h*、h*W⊂L、全W member源费8391；rank-one Bell8/𝔫⁸只原归一rank-one/source moment≤18。唯一127扭子及九h*t整源不外推全W整费用。
+- [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)、全不变因子(s,s,h*)；原t2,t3,t4最少三生成，每j的sT循环且商(Q[s]/s)²。340340原源乘回、实50.590+11.051秒/bindingf50f0594，不据Q猜整数分解。
+- **[D31共同及逐九完整ann已闭](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)：** p=31,x=s−2,B=<h*tj>,M=<tj>。Ann(B)=Ann(bj)=I=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f的精确分母指数=max(0,5−v31(f(2)),2−v31(f′(2)))；h*/xh*/x²h*指数5/2/0，额外首一参数次数最小2。H25有真D[s]来源≤8515；任高次f成员源费≤max(8515,64+degf)，不声称其它素数分母已消。
+- 单Rbj≅_D D/p5⊕D/p²；原单R[tj]≅_D D23⊕D/p5⊕D/p²，未称R分裂。共同B只知是长7商环的忠实模，**不称B本身长7/循环**。Ann(p^aB)=(p^max(5−a,0),p^max(2−a,0)x,x²)，原p^aM再乘h*。
+- 原完整T指数(1,1,2,2,2,2,2,3,3,4,4,4,4,5,5,6)、长50，原free D298；旧全210已实1104.606秒/binding712f9b42。本次同父86阶段保真U16/J16/高p G/V、104/505/315门；final binding9a83cce4164d9e1a1f425caa86ef7157dc52a96f8a62cc73bf69205bb1263042，raw12803/SHA15e8dd42。根独核6raw、6binding、14矩阵SHA及252组装/252核乘回，不重210。
+- **下一具体项：** lit求共同B完整D31结构/最少生成元，再共同M。x²B=0给18个D生成列bj/xbj；复用p³B=p⁴T与已付B高指数3,4,4,5，低层须真实来源。旧job tmp不冒存活；新计算复用最小8→7→3→1历史/真基恢复。原127其它来源和全W整费用及归档open继续。
 
 ## R150完整非rank-one及Bell1
 
