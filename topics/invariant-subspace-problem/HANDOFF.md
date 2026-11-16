@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 892220a8f2f636f2b44e8a3986e613b529a92da2（2026-11-16 15:22:12 UTC，Actions run43895531134实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43895531134-1.json。
+- **最近成功实际 pull 与已读规则提交：** a30c2cd4ad30a7f0bc4bacaa9c1536783cebb01e（2026-11-16 15:26:17 UTC，Actions run43896290800实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43896290800-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
@@ -25,7 +25,7 @@
 
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386、前1286独立、100NiC留26；根原unit det4及1,307,876核坐标全零。来源≤8像3425→3451；完整201阶段/原10/18源见正文，δ/q复用已闭状态。
 
-- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；v1prepare原106/50border已过；mean因fmpz统计序列化exit1、新列0。独立v2仅修统计int，prepare实27.175秒exit0，全106来源/56首像/50border复核真；mean120实际运行中，完整源门不变。
+- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；[新增24均值来源实成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)：v1统计fmpz失败/新列0保留；独立v2prepare27.175秒、mean31.453秒exit0，根26.848秒独核全240/432递推与24原乘回。实际901884向量/278113来源项，同权9、Bell源0；80交换子final实际继续。
 
 - **[原E完整970列/至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)：** 原未压缩116的全comm与原E11/35恒等给Cl=L2；1070仅删十个字面零comm及其像→≤970，coker为原Bell临界商。全18源/固定常数逆，不用field20/14/210提升。表达式未展开、商零仍开。
 

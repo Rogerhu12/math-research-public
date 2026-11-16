@@ -1,10 +1,12 @@
 # 未解决的问题
 
+**[完整两轮呈示的24条新均值来源实际完成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)。** 独立v2保原106父来源，24新十坐标/十八来源全乘回；根未导入producer，独核240/432递推和全部24原多项式产品，同权9、Bell来源0。真实向量901884项/来源278113项；v1统计序列化失败与新列0如实保留。80条交换子像仍由独立final继续，不预填完整210实际生产。
+
 **[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
 
 **[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
 
-**[原有限域临界参数模的稳定闭包至多两轮完成](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。** 原二次算子全自由十轴→第一轮、原三次降次和三类词序误差→第二轮，严格给Cl_N(P0)=P2；无需假第一轮已稳定。原36种子完整首轮106列加24权9/80权10，形成整个原Bell临界商的10×210呈示。新增104列有完整18源递推公式，尚未另生成新数组；继续实际逐列生成与目标成员性。未证明商零、最小停止轮数或特征零单位。
+**[原有限域临界参数模的稳定闭包至多两轮完成](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。** 原二次算子全自由十轴→第一轮、原三次降次和三类词序误差→第二轮，严格给Cl_N(P0)=P2；无需假第一轮已稳定。原36种子完整首轮106列加24权9/80权10，形成整个原Bell临界商的10×210呈示。新增104列有完整18源递推公式，其中24均值像已实际完成；继续80交换子像与目标成员性。未证明商零、最小停止轮数或特征零单位。
 
 **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 
