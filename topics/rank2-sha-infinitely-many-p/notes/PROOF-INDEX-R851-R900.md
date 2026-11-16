@@ -252,3 +252,12 @@
 
 
 - [R884附录A](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原VΘ−T/Θ²=8bK46H′22为whole degree68身份，原B(V)−B(T)准确留下同K46严格<p配对与两个完整cross。K46=σ2³J34且∇Θ17 A34=J34，带权原H22行不能冒未加权Lp(C0)；A34有限极消去/二挠点−797分子保。J34/S=Dlog(−y/x²)/8付同P2^34的原weighted Cartier返回，输出仍由两个cross决定而未赋零。
+
+
+- [R872原charge40 cubic原函数格](2026-11-16-r872-native-cubic-euler-primitive-and-tail-nullspace.md)：p>D+40下L=E+40在同WD逐列单位可逆；J3=L⁻¹(WD∩F³)由原零角迫剩因子t²，W1/W2/W3分别从3h+2/2h+2/h+2起，三尾Π全0。其首核仅保同W0前缀T，另两完整carry带0，三带门恰加深同值到s。J3∩V2=V4，未证明新非F²首核存在；Π准确降K1/(J3∩K1)，同R/S其余行保。
+
+
+- [R882附录B](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：同eta在w867下不变，J=T+729/V给原degree24商，w²=J²−2916t12及w∞首1准确回原B。两真CM序类数6/18付24分歧、商属37/18cusps。换同权St=Dlogt/24后完整Dt=π*Dplus+Ram，RR两符号54+66=120，并以St/S返回旧原DS。原576 reciprocal resultant准确降288后选原24因子；全边界/分支/两CM符号保，未执行或赋映射PASS。
+
+
+- [R883附录F](../results/R883-original-relative-six-shadow-and-complete-boundary.md)：同一整循环shadow允许Abq2输出(Aaq0−φF)，CM使degree交叉项为零，完整求交degree=2256+r*dF；dF从原yF真实极除子读而非先假Manin1。仅dF<2256时采用，否则原2256(r+1)；同相对6局部公式改输出red(a0*xAbq2/c0,yAbq2)，全部闭点/高重/分歧/∞、[6]迹及四除子两点判据保。consumer已实现动态选择，尚未执行。

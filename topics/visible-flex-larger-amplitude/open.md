@@ -40,6 +40,8 @@
 
 **[R533](results/R533-complete39-lossless-necessary-semantic-relations.md)/[接口](notes/2026-11-16-complete39-lossless-necessary-semantic-relations-interface.md)完整三件65743B已付表示定理**：真实f793原compose之后，对两个RMS角色的同batch/trial/check全rows严格相等才共享；两index-set、17具名节点、五原file receipts、真实pair/query及具名bool/null/metadata常量列保全部值/类型/负零/presence/列表顺序/错误/未访。明确逆映射精确还原原R512已选对象；每项及最终whole body计入全部header/来源后严格更短才采用，否则原对象，不是通用JSON编码。单selected-index24行仅省1773B，不冒解决23K超限；未知113011/113361无实际减后数值，原90K/70不变。真实overflow分项仅大小，正常与recovery共用两真实接点；R540/228完整新source闭包/namespace/双合法格式及原八组门继续，尚未dispatch或复用旧父。
 
+**[R535](results/R535-original128-local-finite-root-words-and-real-compiler-hook.md)/[接口](notes/2026-11-16-native-root-finite-words-owner-compiler-interface.md)五件56753B本次完整刊**：同一个真实root的momentum/pt/P/Pt有限词及一次evaluation的U系数局部复用，保原表达式/j序/全角点/mean/非finite fallback，条件证明原完整root/RHS/RK/native字词与选择；不保证时间前沿、NaN payload或收益。新18计数/last真打印，原reader尚未选入；真实编译API在同owner_scope接新include，原CPP7789/main/replay/6000/19200不改，旧whole-frozen旗明确false。R536/226继续实际caller/source/reader闭包和原全门，不从R509已删state续父。
+
 ### 1.3 当前128权威解与完整64模型
 
 [R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476/f930已刊完整纸证：同次X128全577×224一次RN64、同实际DN全576×226×224/port/两mean形成明示近似模型；有限64字准确嵌入128。原128值/residual/replay/audit仍权威；重新anchor L(H)=D(H)保原最终真实BC1e−11/RMS1e−6/fresh J+audit责任。完整338mixed J可随新模型变，FD只检affine一致性，不证DD；不新增全解析门，无J误差/收敛/速度保证。c218旧fixed64禁止/false及R501旧全128stage绑定不能冒用。

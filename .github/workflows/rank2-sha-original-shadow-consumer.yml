@@ -1,0 +1,54 @@
+name: Rank2 original authenticated shadow consumer
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-shadow-consumer-request.json'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: rank2-original-shadow-consumer
+  cancel-in-progress: false
+jobs:
+  original-shadow-consumer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/rank2-sha-original-shadow-consumer.yml
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/ci/original-shadow-consumer-request.json
+            /topics/rank2-sha-infinitely-many-p/scripts/launch-original-shadow-consumer.py
+            /topics/rank2-sha-infinitely-many-p/scripts/read-original-shadow-pass-receipts.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_receipt_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-consumer.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-local-input.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_good_prime_germ_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_low_weight_cm_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-rr-eta48.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_coordinate_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_relative_six_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_coefficient_tools.py
+          persist-credentials: false
+      - name: Pull the pinned Sage 10.6 image
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb
+      - name: Authenticate both original PASS receipts and stream into offline Sage
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          set -euo pipefail
+          timeout --kill-after=45s 21000s python3 topics/rank2-sha-infinitely-many-p/scripts/launch-original-shadow-consumer.py

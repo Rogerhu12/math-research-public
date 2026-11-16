@@ -211,3 +211,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 11:20:46 UTC /root — R533完整必要语义关系三件立即发表
 
 **已证明必要对象精确还原与全正文不增；未执行新科学。** [R533](results/R533-complete39-lossless-necessary-semantic-relations.md)/[接口](notes/2026-11-16-complete39-lossless-necessary-semantic-relations-interface.md)三件65743B：module32027/385c、proof19750/07ba，接口13966仅11→10根成员文字勘误。真实f793 compose后仅两RMS同context完整rows严格相等、两index-set、17具名batch节点、五原文件回执、真实pair/query与闭名单常量列；所有既选科学值/失败/未访/类型/负零/缺键/null/行序精确逆还原。完整候选及最后whole body计入新source/header均严格更短才保，否则返回原对象，原90K/70不变。24行selected-index单项仅省1773B，不知旧113011/113361正文、无fit保证；真实overflow具名大小定位不代科学body。原helper真实最后compose及shared normal/recovery publish两接点齐，R540/228完整新来源/namespace另接，未注册/派发，不新增fixture/门或恢复已删父。
+
+
+## 2026-11-16 11:26:55 UTC /root — R535原128局部有限词与真实编译接点完整发表
+
+**已证明固定有限程序的字词保持及真实compiler API；新源未执行。** [R535](results/R535-original128-local-finite-root-words-and-real-compiler-hook.md)/[接口](notes/2026-11-16-native-root-finite-words-owner-compiler-interface.md)五件56753B：header7102/6706、adapter10892/1c99、plan10232/f3b7、proof17788/5643、interface10739/c98d。仅一个实际root内momentum/pt/全P/Pt和一次evaluation内U系数，完整原Q表达式、j序、全部角点/列/mean及nonfinite原fallback保持；原root/RHS/RK/native选择逐词条件证明，保±0/subnormal，无跨状态cache或速度/资源前沿保证。18真实计数/完整last加入实际owner serializer；原reader仍须R536完整选入。真实HERE生成primal25230/3e1c与trace34950/2e12，原persistent_CPP7789/main/solve/replay与6000/19200/全部caps和门不改；真实compile_owner保原g++/observer/PGID，旧whole-frozen旗诚实false，编译实际回执区别准备/安装。R536/226完整入口继续，未注册/dispatch或迁已清父。本次H/索引完整旧文固定90624，open§4–6逐字保。

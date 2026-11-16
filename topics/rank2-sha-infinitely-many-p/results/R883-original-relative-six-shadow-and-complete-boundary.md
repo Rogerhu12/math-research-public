@@ -897,3 +897,143 @@ $$
 若其一由同原公开执行证为非零，才可沿R859/R880的整shadow和无挠返回得到原有理类的非零。
 固定 \(\ell\) 的这一步不单独证明主目标所需的无穷不同系数素数，
 也不跳过后续通常全Selmer桥。
+
+## 附录 F：按真实第一映射次数选择同一循环的较小求交
+
+本附录仍只在两份原特征零映射证书成功后使用。不把未认证的
+第一映射次数、Manin 常数或数据库线索作为输入。
+所有点等式指正文已经固定的完整 $\ell$ 挠读数，
+即先完成整个闭点迹、再乘6，$\ell=5$ 或7。
+
+### F.1 缓存中已经可读的准确次数
+
+固定一个原有序对 $(a,b)$，写
+$$
+f=\overline F,\qquad
+g=\overline{\mathcal A}_a q_0,\qquad
+h=\overline{\mathcal A}_b q_2.
+\tag{F1}
+$$
+它们都是同一个 $X$ 到同一个 $E_0$ 的真映射，满足
+$$
+fR=[\omega]f,\qquad gR=[\omega]g,\qquad hR=[\omega]h.
+$$
+已有 $\deg g=\deg h=d=2256$。令 $d_f=\deg f$；
+本附录不预先给 $d_f$ 赋数值。
+
+正文实现已经缓存 $y_f\in k(Y)$ 的完整极除子。因为
+$[k(X):k(Y)]=3$，而 $y:E_0\to\mathbf P^1$ 的次数也恰为3，
+有
+$$
+\boxed{d_f=\deg\operatorname{pole}_Y(y_f).}
+\tag{F2}
+$$
+等式包含全部有限点与 cusp，并按实际闭点次数计算。
+它不要求另建 $X$ 的完整函数域、不用逐点数零点，
+也不增加一次新的除子分解。由已认证映射在原 cusp 的
+非零微分，$f$ 的约化非恒定，故 (F2) 是正整数。
+
+### F.2 两个完整次数的精确比较
+
+对任意满足同一三阶等变性的两个真映射 $a,b:X\to E_0$，
+令 $\varphi=\varphi_r$。定义度数的整数双线性极化
+$$
+B(a,b)=\deg(a+b)-\deg a-\deg b.
+$$
+由源自同构 $R$、目标 $[\omega]$ 的度数不变性，以及
+$\varphi[\omega]=[\omega^2]\varphi$，得
+$$
+B(a,\varphi b)=B([\omega]a,[\omega^2]\varphi b)
+             =B(a,[\omega]\varphi b).
+$$
+再迭代一次并用 $1+\omega+\omega^2=0$，得到
+$3B(a,\varphi b)=0$。因 $B$ 是整数，准确有 $B(a,\varphi b)=0$，
+从而
+$$
+\boxed{\deg(a-\varphi b)=\deg a+r\deg b.}
+\tag{F3}
+$$
+这里用的 Frobenius 是度数 $r$ 的真映射，不能替成常数域
+反射或度数 $r^2$ 的 Frobenius。
+
+R880(27)、(28) 已付原最高 Chow 块上三循环为 $+1$。
+在同一个原 CM 符号及整 $\ell$ 读数中，它给
+$$
+\boxed{
+p_{ab}
+=[6]\operatorname{Alb}f_*(h-\varphi g)^*[O]
+=[6]\operatorname{Alb}h_*(g-\varphi f)^*[O].
+}
+\tag{F4}
+$$
+同式在两个共轭 CM 符号上都成立，故为完整 $E_0[\ell]$ 的点等式。
+这是同一 $p_{ab}$ 的两种计算，不是额外的中央零或另一条循环。
+若在未投影的点式中先保留轴项，其差只属于原已付的
+$2,3$ 初级部分；乘6后的 $\ell$ 读数按 R859/R880 正确返回。
+尤其不能用有理化后挠点消失来证明 (F4)，这里使用的是
+这些原结果在 $\mathbf Z[1/6r]$ 上的对应恒等式。
+
+由 (F3)，(F4) 左、右两个 pullback 除子的完整次数分别是
+$$
+d(1+r),\qquad d+r d_f.
+\tag{F5}
+$$
+因此以下选择完全由已经计算的真实数据决定：
+$$
+\begin{cases}
+h_*(g-\varphi f)^*O,& d_f<2256,\\
+f_*(h-\varphi g)^*O,& d_f\ge2256.
+\end{cases}
+\tag{F6}
+$$
+第二行保持现有实现；第一行准确把求交次数减少
+$r(2256-d_f)$。它只保证除子的次数减少，不预言整个程序的运行时间。
+
+### F.3 较小呈示仍在原相对六次域内
+
+在 (F6) 第一行，写正文已构造的实际函数为
+$$
+x_g=x_s x_{a,0},\quad y_g=y_{a,0},\qquad
+x_h=x_s x_{b,2},\quad y_h=y_{b,2},\qquad
+x_f=x_s f_0,\quad y_f=y_F.
+$$
+则新的两个求交函数和输出函数准确为
+$$
+a_0^{\rm new}=x_{a,0},\qquad
+c_0^{\rm new}=v_s^{(r-2)/3}f_0^r,\qquad
+y_1^{\rm new}=y_{a,0},\quad y_2^{\rm new}=y_F^r,
+\qquad
+f_0^{\rm out}=x_{b,2},\quad y_{\rm out}=y_{b,2}.
+\tag{F7}
+$$
+所以不再开任何扩域，整个有效除子就是
+$$
+E^{\rm new}
+=\operatorname{div}_Y(y_{a,0}-y_F^r)
+ +\operatorname{pole}_Y(y_{a,0})
+ +r\operatorname{pole}_Y(y_F),
+\quad
+\deg E^{\rm new}=2256+r d_f.
+\tag{F8}
+$$
+源 $R$ 仍在两个求交因子上分别作用 $\omega,\omega^2$，
+在输出因子上作用 $\omega$。故正文(11)–(19)的全部证明
+适用于 (F7)，包括三次分歧点的真实三挠输出、
+共同 $O$ 或 $(0,\pm1)$ 交重、唯一额外提升及任意高相消。
+该唯一提升上的实际输出为
+$$
+\operatorname{red}_Q
+\left(
+  \frac{x_{a,0}x_{b,2}}{v_s^{(r-2)/3}f_0^r},
+  \ y_{b,2}
+\right);
+\tag{F9}
+$$
+输出极点按射影延拓取 $O$。每个闭点仍使用附录 A 的
+完整整数 $(1-(-r)^{d_Q})/\ell$，不截掉剩余域次数。
+
+最后，附录 C、D、E 的对称、反射与双点检测都是原完整
+$p_{ab}$ 的恒等式，不依赖 (F4) 采用哪一种呈示。
+因此仍只需要计算 $(0,0),(0,1),(1,1),(1,2)$ 四个完整除子，
+保留原18项 Artin、双轴 Fourier、CM 符号和全部归一；
+不会把 (F6) 的选择算成新的独立来源。

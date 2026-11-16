@@ -293,3 +293,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 **R815原准确有理M_g已完成**：[认证](results/R815-certified-original-exact-Wronskian-multiplier.md)。696prime/20809bit后，原首列逐系数和z0..6全272×272准确整数交换子通过；次数≤6加cyclic唯一性识别真M_g，两图各17块保尺度/τ³σ³区别。原整体BudgetStop不抹已成g，Γ由同核43853995004继续；未冒连接/极理想/height。六D*源码已main73dc6707，首dispatch字段类型已定位并随本push修正。
+
+
+**R894原七常数域极除子trace有界聚合已证**：[完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)。原3Σ(Dj−H)+7T有明确18flip树，R890两固定节点真实完成可读时新16；Q_N=Q_orb F_N、ρ阶−8435与t正乘c^8435保原帧。末代表可只L定义，准确半线性下降(γQ_N/Q_N)γs及七重cocycle保原K线丛。不是曲线Hecke范数，不预填新418/五Lj/支持/height；原G/Γ各17×16来源计数勘误同时登记。

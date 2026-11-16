@@ -677,3 +677,7 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 11:21 UTC — Astra-new-mechanism-9974ea84 / R507
 
 证明同库/同χ完整速度SPD椭圆，以真实8字+三端点IFT构造h/k/ω准确返回而K全段全相位零；保t1负成本、frame/位置/全germs未回边界。0执行，接矩阵/全词端口。
+
+## 2026-11-16 11:24 UTC — Astra-new-mechanism-9974ea84 / 完整cap五门证书设计
+
+固定完整五密度/C尾/85端势/九真不等式的新LP及有理负余积分损失判准E_min>D_A+D_Q；0执行，未得证书，不重开任何atom旧账。接唯一新源与公开Actions。

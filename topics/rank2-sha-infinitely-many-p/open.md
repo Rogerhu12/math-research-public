@@ -61,13 +61,13 @@ R881 r29原局部输入成功：run43850679589/job133242082519/source de42a2c8�
 R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V给原degree48底，最低权绝对选支、T/U/V/all36cusps/D204不变。RR两初run的resultant字典解包已修：
 - 306重跑43850251992/job133240631228；
 - eta48重跑43850252040/job133240628667；
-共同source acf294c6，尚未报RR成功。
+共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，literature正实现，尚未运行该替代前端。
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
-R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。
+R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。附F由同一整循环shadow改用Abq2输出(Aaq0−φF)；从真实pole(yF)读dF，dF<2256时完整次数为2256+r*dF，否则沿旧2256(r+1)。不假1296/Manin1，全边界/闭点/四除子和两点判据保。
 
-original_shadow_relative_six_tools.py现按附D/E仅算四完整除子；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none，未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
+original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按真dF选循环表示；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none；原请求触发workflow/host launcher已就绪，完整依赖及双进程状态保。尚无consumer请求、未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
 ## 第二实际门：四原B与同一低配对
 
@@ -85,7 +85,7 @@ R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X�
 
 R868 t^-τ只在τ≤σt成立；最小r=b0=3,c0≤2的σt0仍开。R871原S^-13三读者D1/Dp+2/D2p+3保整高尾。R872 τ1/2/3实际第三carry−6ab0γF含第二折回+12a，同X须Bτ+6aγFQc0；第二页baseline₂+a²b0γF/3=0。调整口为原K1的W2末三尾联合像，非三个自由轴。
 
-同预算Pfact且全M/p³才得J/p²；ER|C末项−11、E²整短段28/a、E³保ξ，F|R两近支(7±√−17)/6与严格f0成本见完整注。全R须d=BD·C≥s+2，尚不足主阶排除。真因子层非F⁴的K1∩V3须d−3κ≥h−7，非F³的K1∩V2须d−2κ≥min(2h−11,h+ell)+4；两严格反门下K1∩V2=V4且三尾全0。非F²余来源仍开。deep续完整联合像/同R/S，并与theta核实际whole两因子读者。
+同预算Pfact且全M/p³才得J/p²；ER|C末项−11、E²整短段28/a、E³保ξ，F|R两近支(7±√−17)/6与严格f0成本见完整注。全R须d=BD·C≥s+2，尚不足主阶排除。真因子层非F⁴的K1∩V3须d−3κ≥h−7，非F³的K1∩V2须d−2κ≥min(2h−11,h+ell)+4；两严格反门下K1∩V2=V4且三尾全0。非F²余来源仍开。原charge40单位门下J3=(E+40)⁻¹V3的Π全0，首核仅同W0前缀T；两carry带0、三带门加深W0到s，J3∩V2=V4但未证严格非F²首核。deep续K1/(J3∩K1)真联合像/同R/S。
 
 ## 第四实际门：同修正高前缀和指定WT类
 
