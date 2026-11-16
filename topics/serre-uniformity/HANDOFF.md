@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：bbd9ce7a10d904eba921505d58659266ebdca548**（2026-11-16T14:07:40.177038+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[迹对偶连接前H](handoff-archive-2026-11-16-before-trace-dual-connections.md)，内接整Tate像前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：5e5f4fecd9e8154c3f9d1cb8ddc029fc4e45a83f**（2026-11-16T14:10:53.229692+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[三系数主部前H](handoff-archive-2026-11-16-before-three-coefficient-principal-parts.md)，内接迹对偶连接前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -30,12 +30,10 @@ R805–R879、R882及原R880/R887/R872/R883均已完成：W/两图/P0-socle、27
 
 |完成源|实际证书与后继|
 |---|---|
-|[R890八flip](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)|43853462674/sourceaa00d76e，完整962/146/418；D2/E累计F不置1，七正常直接读；final986e2ea9/manifestd51ef99b|
-|[R880七A/B](results/R880-certified-original-seven-Galois-normal-inputs.md)与[六D*](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)|σ次序0,6,1,2,4,3,5和固定unit图/free1186；原δB8×272/δ²B10×272，未缩放ρ保全|
-|[R885整Artin](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)|真完整A272/E2176、全部目标272方程及M0九Norm；全部因子/幂零/dual7保留，非全局Norm/height|
-|[R893五初始RR](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)|43861874528/sourcefe27ac55，168/376/250/386/343；0..26K与完整原Schur图直接读，IO392件|
 |[R896五低权](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)|43872960726/source259e2448，566stage/324.523172599s；残余396/188/314/178/221→146→418；cfg0f52c636/final66218771/manifest2875d857|
 |[R894七trace](results/R894-certified-original-seven-pole-trace-and-marked-descent.md)|43864869152/sourcebf74b397，16新+2旧全成，489live/17968历史hash；cfg3f670986/final66684f71/manifest6494c3b1|
+
+原R890八flip、R880七A/B及六D*、R885整A272/E2176和九参考Norm、R893五初始RR均已成，其全source pins及不可改尺度见上述前态；全部直接读，不重做。
 
 R896必要271件IO43875866536/art14230107731/tar7429a99c已供后继。五Q=Gqχ^(−(n−2))，原ρ/t首项与五固定选择详正式结果。迟后旧排队run重复完成已如实登记，只消费先成43872960726，不重复计结论。
 
@@ -54,6 +52,8 @@ R894末DN完整418、degree272避P0，QN=Qorbit FN正乘，ρ/t阶−8435、首�
 **[R903两权](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)** paper9fcf3c2c已发布。共享962乘积像→两组544核146/418→原18行128/400→真实144补；唯一Φ=QZ/qχ正乘，原P0=(Lρ a18/uχ272)c^(254−m)。corebc3e9a53/wrapper97b91720/methodff3acf13五件全文读并发布pending，R901真源仍null；实际全272纤维/下降/P1未做。原正常数组不再除τ。
 
 **[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)** 纸证已成：同D418截真146，146+126整纤维单位/同度给完整丛格，迹对偶670基/全544主部秩543，保D/H交点与不同理想；真主函数特殊支及低权格fallback明确。五Dj/X/DN七源经原QN校正、Gal7与真cY平均直接给原I_Z连接，不等R900/126树。ordinary_local写实际消费者；exact_height做R907真672/九Norm/wholeArtin/dual7，两端实值仍缺。
+
+**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者正在写，同原I_Z及canonical边界不改。
 
 五Lj128/144、原YP/FM128/634/508rank507、c/a(P1)、活跃eη、d/N/nonp、Poincaré/splitting/高度仍缺；I_Z不代real-descent Rcal I_Z³。R870原16 ni/1959位d*及含7-primary挠判有效，仅合法好约化niPiξj非零判活跃。
 

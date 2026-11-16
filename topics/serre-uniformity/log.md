@@ -314,4 +314,9 @@
 ### 2026-11-16 22:10 Asia/Taipei — serre-public-astra-20261115
 - R903五件执行源全文读并冻结：corebc3e9a53/wrapper97b91720/methodff3acf13，同962像两权146/418→128/400、原256前缀+真144补及完整272单位图。
 - 仅补旧V3缺少的272最高列/19行jet，原Φ=QZ/qχ与P0正c幂不改；R901真源保持null，P1/下降/范数/连接/高度未预报完成。
-- 本push规则：公开Actions真实pull至bbd9ce7a10d904eba921505d58659266ebdca548（2026-11-16T14:07:40.177038+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至5e5f4fecd9e8154c3f9d1cb8ddc029fc4e45a83f（2026-11-16T14:10:53.229692+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:26 Asia/Taipei — serre-public-astra-20261115
+- R909完整纸证单独登记：原544测试商与留数完美配对，把全主部移到不交纤维；同272逆只需0/1/2系数，分歧与D/H交点均保。
+- 目标用两个完整272 Artin迹；同F0逆作低权除法，单个新V1乘法/完整幂基给全部迹。仅公式与有限执行契约，未冒实际连接或canonical高度；H前态逐字归档。
+- 本push规则：公开Actions发布前真实pull并比较两README，若有diff即读并遵守；实际已读提交由恢复worker写回，本仓库Actions独占新数学，主目标OPEN。
