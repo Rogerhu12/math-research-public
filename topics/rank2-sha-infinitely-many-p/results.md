@@ -167,3 +167,6 @@
 
 
 - [R882附录B](results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：同eta在w867下不变，J=T+729/V给原degree24商，w²=J²−2916t12及w∞首1准确回原B。两真CM序类数6/18付24分歧、商属37/18cusps。换同权St=Dlogt/24后完整Dt=π*Dplus+Ram，RR两符号54+66=120，并以St/S返回旧原DS。原576 reciprocal resultant准确降288后选原24因子；全边界/分支/两CM符号保，未执行或赋映射PASS。
+
+
+- [R883附录F](results/R883-original-relative-six-shadow-and-complete-boundary.md)：同一整循环shadow允许Abq2输出(Aaq0−φF)，CM使degree交叉项为零，完整求交degree=2256+r*dF；dF从原yF真实极除子读而非先假Manin1。仅dF<2256时采用，否则原2256(r+1)；同相对6局部公式改输出red(a0*xAbq2/c0,yAbq2)，全部闭点/高重/分歧/∞、[6]迹及四除子两点判据保。consumer已实现动态选择，尚未执行。

@@ -472,8 +472,14 @@ def prepare_normalized_geometry(six):
         progress("whole endpoint divisors cached",artin_index=j)
     fD=six["F_x_over_xs"].divisor()
     yFpoles=six["F_y"].divisor_of_poles()
+    first_degree=int(yFpoles.degree())
+    assert first_degree>0
+    progress("actual first map degree from the already cached full divisor",
+             first_map_degree=first_degree,
+             chosen_cyclic_presentation=("A_bq2 output" if first_degree<2256 else "F output"))
     return dict(T_divisor=TD,vs_divisor=vD,cusps=cusps,
-                endpoint_divisors=divisors,F_x_divisor=fD,F_y_poles=yFpoles)
+                endpoint_divisors=divisors,F_x_divisor=fD,F_y_poles=yFpoles,
+                first_map_degree=first_degree)
 
 def complete_pair_shadow(six,geometry,torsion,a,b):
     L=six["field"]
@@ -482,30 +488,56 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
     ell=torsion["ell"]
     E0=torsion["curve"]
     va=six["vs"]
-    xp=six["A"][a]["x0"]
-    yp=six["A"][a]["y0"]
-    Arow=six["A"][b]
-    a0=Arow["x2"]
+    first_degree=geometry["first_map_degree"]
+    # R883(F): choose between two integral, cyclically identical shadows.
+    # dF is read from the true cached divisor, never supplied by a table.
+    if first_degree<2256:
+        presentation="A_bq2 output: (A_aq0 - Frobenius F)"
+        xp=six["F_x_over_xs"]
+        yp=six["F_y"]
+        a0=six["A"][a]["x0"]
+        y1=six["A"][a]["y0"]
+        aD=geometry["endpoint_divisors"][a]["x0"]
+        input_xD=geometry["F_x_divisor"]
+        p1=geometry["endpoint_divisors"][a]["y0_poles"]
+        p2=r*geometry["F_y_poles"]
+        output_x=six["A"][b]["x2"]
+        output_y=six["A"][b]["y2"]
+        output_xD=geometry["endpoint_divisors"][b]["x2"]
+        output_y_poles=geometry["endpoint_divisors"][b]["y2_poles"]
+        expected=2256+r*first_degree
+    else:
+        presentation="F output: (A_bq2 - Frobenius A_aq0)"
+        xp=six["A"][a]["x0"]
+        yp=six["A"][a]["y0"]
+        a0=six["A"][b]["x2"]
+        y1=six["A"][b]["y2"]
+        aD=geometry["endpoint_divisors"][b]["x2"]
+        input_xD=geometry["endpoint_divisors"][a]["x0"]
+        p1=geometry["endpoint_divisors"][b]["y2_poles"]
+        p2=r*geometry["endpoint_divisors"][a]["y0_poles"]
+        output_x=six["F_x_over_xs"]
+        output_y=six["F_y"]
+        output_xD=geometry["F_x_divisor"]
+        output_y_poles=geometry["F_y_poles"]
+        expected=2256*(r+1)
     c0=va**((r-2)//3)*xp**r
-    y1=Arow["y2"]
     y2=yp**r
     g=y1-y2
     assert g!=0
-    progress("complete intersection divisor start",endpoint_pair=[a,b])
+    progress("complete intersection divisor start",endpoint_pair=[a,b],
+             cyclic_presentation=presentation,first_map_degree=first_degree,
+             expected_degree=expected)
     gD=g.divisor()
-    p1=geometry["endpoint_divisors"][b]["y2_poles"]
-    p2=r*geometry["endpoint_divisors"][a]["y0_poles"]
     E=gD+p1+p2
-    expected=2256*(r+1)
     assert E.is_effective() and E.degree()==expected
-    aD=geometry["endpoint_divisors"][b]["x2"]
-    cD=((r-2)//3)*geometry["vs_divisor"]+r*geometry["endpoint_divisors"][a]["x0"]
-    xout=a0*six["F_x_over_xs"]/c0
-    xoutD=aD+geometry["F_x_divisor"]-cD
+    cD=((r-2)//3)*geometry["vs_divisor"]+r*input_xD
+    xout=a0*output_x/c0
+    xoutD=aD+output_xD-cD
     total=E0(0)
     record_hash=hashlib.sha256()
     counts={"closed_places":0,"ramified_degree":0,"common_degree":0,
-            "extra_degree":0,"extra_closed_places":0,"extra_F_infinity_degree":0,
+            "extra_degree":0,"extra_closed_places":0,"extra_output_infinity_degree":0,
             "nonzero_scalar_trace_places":0,"maximum_residue_degree":0,
             "cuspidal_intersection_degree":0}
     support=E.list()
@@ -548,15 +580,15 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
             if extra:
                 assert ax==cx
                 counts["extra_closed_places"]+=1
-                if geometry["F_y_poles"].multiplicity(Q)>0:
-                    counts["extra_F_infinity_degree"]+=extra*d
+                if output_y_poles.multiplicity(Q)>0:
+                    counts["extra_output_infinity_degree"]+=extra*d
                     rec["output"]="O by the actual projective extension"
                 else:
                     assert xoutD.multiplicity(Q)>=0
                     kQ,from_kQ,to_kQ=Q.residue_field()
                     assert kQ.cardinality()==ZZ(r)**(2*d)
                     xx=to_kQ(xout)
-                    yy=to_kQ(six["F_y"])
+                    yy=to_kQ(output_y)
                     assert yy**2==xx**3+1
                     EQ=EllipticCurve(kQ,[0,0,0,0,1])
                     P=EQ([xx,yy])
@@ -589,6 +621,7 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
     assert ell*total==E0(0)
     coord=torsion["coordinates"][total]
     out=dict(endpoint_pair=[a,b],full_intersection_degree=expected,
+             first_map_degree=first_degree,cyclic_presentation=presentation,
              six_times_trace=point_coordinates(total),torsion_coordinates=list(coord),
              complete_closed_records_sha256=record_hash.hexdigest(),**counts)
     progress("original pair complete",**out)
