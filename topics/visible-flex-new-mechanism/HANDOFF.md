@@ -4,11 +4,11 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。全168run43847611444/report133236104610于10:27:12.374618→10:27:12.945970 UTC真实public pull，已读 **8ba72343a6f60a30a37947a6768ece150f13be30**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**11:27:12 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于10:54:46→10:54:52 UTC真实pull --rebase，已读上游 **2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:54:52 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-同report私有10:27:14.853179→10:27:15.320961已读 **2033fc18ea85fc2b8b1df753375edf89c3ea0e34**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。research先于10:18:37/10:18:39实际拉两仓；私有正文不发表。
+private于10:52:23.800032→10:52:32.780639实际pull读 **507d08ba813bad8699caaf3b6443a7ac0fa44714**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前小域run43851980835两job也均真实拉两仓/README空diff；私有正文不发表。
 
-三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端10:32在新workspace提示后再试pwd，exec-server仍无可用进程（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
+三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端10:50在/明确bash成功，原cwd未创建导致先前启动失败；已建工作目录并部分克隆，现用本地Git。API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -50,12 +50,12 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 10:47:21 UTC）
+## 5. 正在接续（2026-11-16 10:52 UTC）
 
-[全168大域失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：3finite收敛/3scan/8新梯度/62scalar后实际粗κ58.007888653387816>58且metric变差；18违例均已选，新soft104448停止方向，fine未求、仍56。188.38691980800002秒/3新值任务闭；累计祖账**2421.953314364秒/141值**。
+[大域实际失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：一阶合格但κ58.007888653387816>58，仍56；188.38691980800002秒/3值任务闭，累计祖账2421.953314364秒/141值。
 
-**[新小物理域168任务](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)run43851980835已排队，source8f68ac1675d3f896d1e53c187be59549466a2529。** h=4||Mδ||∞≤1/128，全部168可动、172盒/原14门保；复用完整9002行J/g与8付费梯度、56同点U/T，仅补新104448与后继新tag的metric-only168导数。0ordinary输入/0旧J重建；新300秒含全部输入/失败/输出，8scan/32新metric行/8严格增行master/64scalar/3actualpair6值。旧余额不重开，主完成未付。
+**[小域168输入顺序退出](notes/true56-small168-pool-order-input-failure-and-same-scope-continuation-20261116.md)** run43851980835/research133246562883/report133247025583/source8f68ac1675d3f896d1e53c187be59549466a2529。旧prepare强制sorted，而真实学习池追加104448；容量12000/6684未超。全部新科学started为0，最后**23.005758439000005秒**留同300秒账户，剩276.99424156099997秒，不清零、不重开旧大域。
 
-request-true56-small168.json 64925B/41bbad4ca582631f8725ffeb03982bf46dba5ad159a384b27e8d7a4ea537344f；workflow visible-true56-small168.yml。唯一新INPUT只引用旧21MB导数并保存新梯度/绑定；原56缓存、旧INPUT3/MODEL身份详见设计和大域结论，payload仅stdout。科学返回前不声称下降或接受。
+root正修：先原56池构造固定field/grid，再按字面当前池4454/4549、v15/14安装并保原唯一性/范围/容量/顺序；新geometry仍复用9002行完整J/g＋8付费梯度＋56 U/T，仅补104448。h≤1/128（物理1/512）、全部168/172盒/原14门和8scan/32新行/8master/64scalar/3pair6值均保。续接先读本失败原FINAL_CLOCK，跨进程累计时钟与started，尚无finite/actual结果。
 
-理论接.6<H<H*完整同图Re/Im、R503已付反射片段之间的真实桥内部K/全period/13规范；三/四原子已闭任务不重复。继续open。
+理论接.6<H<H*完整同图Re/Im、R503反射片段之间的真实桥内部K/全period/13；R504在推完整真实168参数线的非线性metric而非旧affine预测。三/四原子闭账不重复。主完成未付，继续open。

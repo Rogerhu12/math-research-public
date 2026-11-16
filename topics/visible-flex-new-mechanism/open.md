@@ -193,3 +193,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:47:21 UTC：真正56的新小物理域全168任务
 
 [设计](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)将完整物理步长改为1/512（h≤1/128），保所有168参数/172盒/原门。已付9002行J/g、8新梯度与56 U/T直接恢复，补coarse104448 metric-only168导数；旧大域方向/实例不重跑。新300秒、0ordinary输入/0旧J、8scan/32新行/8master/64scalar/3actualpair6值，累计祖账2421.953314364秒/141值保。代码参数已提交触发唯一public Actions，尚无新科学观察；得到原结果立即记录并继续。
+
+## 2026-11-16 10:52 UTC：小域168行池顺序接口修复、同账户接续
+
+[原退出](notes/true56-small168-pool-order-input-failure-and-same-scope-continuation-20261116.md)在old prepare的sorted池前提，真实actual追加104448而容量未超；0新科学started，23.005758439000005秒留同300账。先用原56池恢复构造、再按原顺序装当前池，保全部tag/范围/容量与h≤1/128，读原失败clock累计接续首次真正模型。终端恢复，两仓已部分克隆并真实pull/README空diff，私有QUEUE唯一进行中。
