@@ -165,3 +165,5 @@
 - [R616：实际 R583 导入语法错误、单字符修复及完整桥接接口](results/R616-actual-R583-import-error-and-literal-source-repair.md) — 新诊断实际SyntaxError；新源字面完整关系与六plan接口已证，原252未返不回填，原数学/资源/必要上限不改。
 
 - [R617：254 实际字面修复六计划与完整必要入口](results/R617-request254-literal-repaired-six-plan-source-and-complete-necessary-entry.md) — 471源完整条件闭包；源子程序原stdout/exit在guard前完整保存，原科学/资源/compile与双90K/70保持；实际R618另付。
+
+- [R579：actual242 新初猜准备、科学返回与两份必要超限](results/R579-actual242-initial-guess-preparation-and-two-necessary-overflows.md) — 457源及输入准备真完成，科学1/quiet、双70、removed=false；内部科学未返不冒未起，全部14原可见scope一次有界回读。
