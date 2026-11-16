@@ -162,3 +162,5 @@
 
 
 - **R150九原目标乘一个31后的完整湮灭理想（2026-11-16）：** [原carry、独立socle与完整ann证明](results/R150-appendix-original-nine-targets-one31-scaled-annihilator-and-hstar-tail.md)保全部系数扭子T，根1指数≤2使原二点carry准确回全高层；真高坐标秩3给p³B=p⁴T，高四坐标秩4给B高指数3,4,4,5。每j的p x bj与p⁴bj两条socle独立，得所有一次乘子精确判准，再由p xB⊂p³B给p x²B=0，故Ann(pB)=Ann(pbj)=(p⁴,px,x²)。首一h*除法给每个p[tj]及共同pM的ann=h*(p⁴,p(s−2),(s−2)²)，新正来源费按原最大子式三支仍≤8515。实只读审0.340秒；根独核11原pins、2835 carry乘回及九对socle，不重210或新整数解。未乘p只余完整16维socle上最多18共同参数的核，保可能root1隐藏层；未冒T/pT作用为socle作用。
+
+- **R150原rank3完整关联与不可约六次pencil（2026-11-16，已证明）：** [全部核与高亏秩界](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)保固定E双向参数运输、全部84真六次系数，原I3(M)=(y)³使六行关联概形恰为rank3退化；全225四minor给I4(T′)=(μ)^4，全21五cofactor把rank4例外放在单一仿射图且长度≤35。原127线完整Rabin与Gauss给E不可约，非绝对不可约；rank4处整P1核不删。三实际阶段127.391/10.488/0.00855秒均exit0，来源/参数/输出SHA齐全；全部Bell1余关系仍未判空。
