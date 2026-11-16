@@ -171,3 +171,8 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ### 2026-11-16 09:38:22 UTC — R495 正cap凹图完整表示与首段消失的单侧有限差
 
 [R495](results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md)已证明R=p−(t+1)r将真cap写成固定[0,1]凹图，原U、C≥0、H、Af正性/simple根、全部8Aj和E/原子跳变均准确保。原最高三累计量严格满足7A5A7−3A6²=a7²[3VarX+19E(s²)/3+28E(W/r)/3]>0，完整正Af/C余项保留。三原子首段消失与两原子先用同Ceff/同H比较，再得C²/C/1三行准确有限差，最高系数全正且新高项受Ceff单侧界；只在C=o(b1)可取单b1⁷首项。全部5门同步，不只E；没有宣无零/存在或重跑旧36。继续原正性与五门消元、真实路径和主几何；0科学执行。
+
+
+### 2026-11-16 09:41:41 UTC — 新9已付coarse原输入同600秒续接源码发布
+
+[最小续接设计](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)：只修geometry的a[:,None]，以新resume_input一次读原失败partial MODEL恢复完整粗网；该分支不begin/charge、不ordinary，fine仍唯一剩余necessary。scope原LIMITS不动，从原75.06856296999999秒/started1起算全部当前imports/input/科学/输出；bootstrap同样保旧账。主入口只接这两个接口，完整field/selected/model/solver/line/actual及原14门/172盒不变。12源码+绑定原3记录/原请求/原final账随本提交；canonical request变化触发同公开workflow后继。0本地科学/开发；原失败永久保留，旧135值下界不丢，课题继续。

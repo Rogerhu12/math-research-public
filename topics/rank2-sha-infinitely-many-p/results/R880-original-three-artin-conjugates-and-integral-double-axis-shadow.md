@@ -1,0 +1,384 @@
+# R880 — 原三条 Artin 共轭、同次数 Hom 基与双轴 shadow 的整变换
+
+日期：2026-11-16。
+
+**状态：完整准 Hom 等式、双轴九项循环恒等式及在 5、7 处的整可逆性已证明。原候选 \(P=\Xi _0u\) 的次数二次型值为376；只有原坐标 producer 通过完整恒等式认证后，下面三条准 Hom 才作为次数376的实际曲线映射用于求交。本篇不以 q 前缀或次数整数替代该认证。尚未算出原 \(Z_{\rm orig}\) 的一个非零 shadow。**
+
+本篇保持原 \(C=X_0(2601)\)、\(X=X_0(10404)\)、\(q_0,q_2\)、第一因子 \(F\)、两轴各自的新形式投影以及全部 Artin 系数。它把实际求交的三基由大次数的 Hecke 和映射改成同一 \(P\) 的三个共轭；没有更换原循环或引入 canonical 循环。
+
+## 1. 同一个原候选和九次 Artin 作用
+
+用 R862/R864/R874 的规范：
+$$
+K=\mathbf Q(\omega),\quad \delta=1+2\omega,\quad
+\alpha=-1+2\omega,\quad c=-1-19\omega=\alpha^3\omega^2,
+$$
+$$
+b^3=c,\quad \zeta=b/\alpha,\quad \zeta^3=\omega^2,\qquad
+b_j=\omega^j b,\quad \zeta_j=\omega^j\zeta\quad(0\leq j\leq2).
+\tag{1}
+$$
+全局系数嵌入和三个标签固定为
+$$
+(f_0,f_1,f_2)=(g_{10},g_{16},g_4).
+\tag{2}
+$$
+改换原始九次根时必须同时置换这些标签，不能只换一个有限域根。
+
+原十七挠点乘积 \(h\) 生成 \(H_9/K\)。记
+$$
+\widetilde\tau=\operatorname{Art}_{H_9/K}((\alpha)),\qquad
+\tau=\widetilde\tau|_L,\quad L=K(\sqrt[3]{17}),\qquad
+h^{\widetilde\tau}=\alpha h/\ell .
+\tag{3}
+$$
+R864 的完整余循环给
+$$
+\widetilde\tau^3(h)=\omega h,\qquad
+\operatorname{Norm}_{L/K}\ell=c.
+\tag{4}
+$$
+系数域中的 \(\zeta_j\) 不随此 Artin 动作移动。这一延拓存在：原
+\(H_9/K\) 在3处不分歧，而 \(K(\mu_9)/K\) 在3处全分歧，故两域交为 \(K\)。
+
+设
+$$
+G_j=1+\frac{\tau^2\ell}{b_j}+\frac{c}{\ell b_j^2}.
+\tag{5}
+$$
+由 \(b_j^3=c\) 及 \(\ell\,\tau\ell\,\tau^2\ell=c\)，逐项有
+$$
+\boxed{hG_j=h+\zeta_j h^{\widetilde\tau}
+                   +\zeta_j^2h^{\widetilde\tau^2}.}
+\tag{6}
+$$
+再用 (4) 和 \(\zeta_j^3=\omega^2\) 得
+$$
+\boxed{(hG_j)^{\widetilde\tau}=\zeta_j^{-1}hG_j.}
+\tag{7}
+$$
+这保留原有限角色，而不只是三个不同的特征值。
+
+令
+$$
+E=\mathbf Q(\vartheta),\quad \vartheta^3-3\vartheta+1=0,\quad
+\epsilon_2=\vartheta^2-2,
+$$
+$$
+u=\frac{915+1097\vartheta+2962\epsilon_2}{55569}.
+\tag{8}
+$$
+按原三条形式的系数嵌入记 \(u_j\) 为 \(u\) 的三个像。R874/R875 给
+$$
+P=\Xi_0\circ u\in\operatorname{Hom}^{0}(J_0(2601),C_v),
+\quad
+\operatorname{Norm}_{E/\mathbf Q}(u)=-17/55569,
+\quad q(P)=376.
+\tag{9}
+$$
+这里 \(q\) 是原极化的次数二次型；(9)自身不声称 \(P\) 已为整 Hom。
+
+固定
+$$
+C_v:Y^2+vY=X^3,\quad d=h/2048,\quad d^3=v/2,\qquad
+\kappa(X,Y)=(X/d^2,\,2Y/v+1).
+\tag{10}
+$$
+则 \(\kappa^*\omega_0=d\omega_v\)，原微分满足
+$$
+P^*\omega_v=H_u(q)\frac{dq}{q},\qquad
+H_u=\frac13\sum_{j=0}^2u_jG_j f_j.
+\tag{11}
+$$
+
+## 2. 三个同度共轭和完整矩阵
+
+定义三个准 Hom
+$$
+\boxed{\mathcal A_r=(\kappa\circ P)^{\widetilde\tau^r},
+\qquad r=0,1,2.}
+\tag{12}
+$$
+若 \(P\) 已经由原坐标证书认证为实际映射，则 (12) 是同一个
+\(C\to E_0\) 映射的三条 Artin 共轭，均把 \(\infty\) 送到 \(O\)，且
+$$
+\deg\mathcal A_0=\deg\mathcal A_1=\deg\mathcal A_2=376.
+\tag{13}
+$$
+这是域自同构和目标同构保持映射次数的结论；没有形成 Hecke 邻点的和映射。
+
+把 (7)、(10)、(11) 合起来，得到
+$$
+\boxed{
+\mathcal A_r^*\omega_0=
+\frac{h}{3\cdot2048}
+ \sum_{j=0}^2\zeta_j^{-r}u_jG_j f_j(q)\frac{dq}{q}.
+}
+\tag{14}
+$$
+因此相对于原有序 \((f_0,f_1,f_2)\)，完整矩阵是
+$$
+\boxed{
+V\operatorname{diag}\!\left(
+\frac{hu_0G_0}{3\cdot2048},
+\frac{hu_1G_1}{3\cdot2048},
+\frac{hu_2G_2}{3\cdot2048}\right),
+\quad V_{rj}=\zeta_j^{-r}.
+}
+\tag{15}
+$$
+特别没有剩余的 \(h/h^{\widetilde\tau^r}\) 行因子：
+该因子只出现在单独变换 \(P\) 的 Gauss 行时，随后被
+\(\kappa^{\widetilde\tau^r}\) 的真实尺度消掉。
+
+有限 Fourier 逆为
+$$
+\boxed{
+\mathcal B_j=\frac13\sum_{r=0}^2\zeta_j^r\mathcal A_r,\qquad
+\mathcal B_j^*\omega_0=
+\frac{hu_jG_j}{3\cdot2048}f_j(q)\frac{dq}{q}.
+}
+\tag{16}
+$$
+(16) 在 \(\operatorname{Hom}^{0}\otimes\overline{\mathbf Q}\) 中成立；
+证明只用
+\(\sum_{r=0}^2(\zeta_j/\zeta_k)^r=3[j=k]\)
+及特征零中同态的微分单射。
+
+它也是完整九次 Artin projector，而不是把一个九次角色改成三次角色。
+由 (4)、(14) 得
+\(\mathcal A_0^{\widetilde\tau^3}=[\omega]\mathcal A_0\)；故
+$$
+\frac19\sum_{s=0}^8\zeta_j^s\mathcal A_0^{\widetilde\tau^s}
+=\frac13\sum_{r=0}^2\zeta_j^r\mathcal A_r.
+\tag{17}
+$$
+这里 \(\zeta_j^3\omega=1\)，正好支付三重分组的中心相位。
+
+每个 \(\mathcal A_r\) 还满足原全 Hom 的
+\(\mathcal A_rR_C=[\omega]\mathcal A_r\)。
+因为 \(q_0R=R_Cq_0\)、\(q_2R=R_Cq_2\)，它们与原 \(F\)
+组成的曲线继续满足 R841/R859 的完整中央三阶等变性。
+
+## 3. 精确返回原 Hom，不放大实际求交映射
+
+R862 的旧三基记为 \(\mathcal A_i^{\rm old}\)，以免与 (12) 混淆：
+$$
+(\mathcal A_i^{\rm old})^*\omega_0
+=\frac h3\sum_{j=0}^2 b_j^iG_jf_j\frac{dq}{q}.
+$$
+所以整条等式是
+$$
+\boxed{
+\mathcal A_i^{\rm old}
+=2048\sum_{j=0}^2\frac{b_j^i}{u_j}\mathcal B_j
+=\frac{2048}{3}\sum_{r=0}^2
+ \left(\sum_{j=0}^2\frac{b_j^i\zeta_j^r}{u_j}\right)\mathcal A_r.
+}
+\tag{18}
+$$
+所有原 \(\Gamma_g,\Gamma_h\) 在旧三基中的固定系数直接乘 (18)；
+没有重新选择原准同态或省略其整数清分母。
+
+尤其对旧 \(i=0\) 的各单独新形式分量，
+$$
+\mathcal A_0^{\rm old}e_j=\frac{2048}{u_j}\mathcal B_j.
+\tag{19}
+$$
+因此求交时可以始终使用 (12) 的次数376映射，再在循环群中作有限线性组合。
+不必真的构造 \(17\Xi_0\)、\(51\Xi_i\) 或目标上的大倍点映射。
+(18) 中出现 \(b_j^i\) 时保留它；证明在7处的整性时则用 (16)/(19)
+的单独原形式，不通过可能带 \(\alpha^{-1}\) 的旧 \(b\)-基逆矩阵。
+
+## 4. 原双轴九项循环恒等式
+
+在原
+$$
+X=X_0(10404),\qquad q_0,q_2:X\longrightarrow C=X_0(2601)
+$$
+上，令
+$$
+Z_{rs}=\Pi_{\rm top}
+  (F,\mathcal A_rq_0,\mathcal A_sq_2)_*[X].
+\tag{20}
+$$
+基点项按 R831/R839 的原 modified diagonal 与 \(\pi_1^{\otimes3}\)
+处理。对固定同一 \(F\)，该循环在后两个 Hom 变量分别线性；
+这是 Chow 动机 \(h^1\) 的加法性质，不能先把曲线点当线性组合。
+由 (16) 遂得
+$$
+\boxed{
+Z_{jk}^{\rm eig}
+=\Pi_{\rm top}(F,\mathcal B_jq_0,\mathcal B_kq_2)_*[X]
+=\frac19\sum_{r,s=0}^2\zeta_j^r\zeta_k^s Z_{rs}.
+}
+\tag{21}
+$$
+例如用原旧 \(i=0\) 两线时，
+$$
+Z_{jk}^{\rm old}
+=\frac{2048^2}{u_ju_k}Z_{jk}^{\rm eig}.
+\tag{22}
+$$
+其它原 \(\Gamma\) 的系数逐项用 (18) 运输。
+
+原三个不同形式对仍是
+$$
+(g_{10},g_{16}),\qquad(g_{16},g_4),\qquad(g_4,g_{10}).
+\tag{23}
+$$
+不能只取总 \(\eta\) 投影替代两个轴的 (21)。例如
+\(\beta_{10}\beta_{16}=\beta_4^2\)；
+相应总角色也会收到另一个平方来源。(21) 同时保留两个准确 Hecke/Artin
+角色，正是排除这一混入的实际九项公式。
+
+若还需原 \(H_{34}/K\) 的 projector，保
+$$
+e_\chi=\frac1{18}\sum_{\sigma\in\operatorname{Gal}(H_{34}/K)}
+ \chi(\sigma)^{-1}\sigma
+\tag{24}
+$$
+及固定系数嵌入。它作用于循环或点因子，系数
+\(\zeta_j^r\zeta_k^s\) 不随这个投影动作一起共轭。
+将 (21) 代入 (24) 是有限的完整原 Artin 组合，不需要任何极限。
+
+## 5. 5、7 处为何都是真整可逆变换
+
+下述论证在每一个位于 \(\ell=5\) 或7之上的系数域素位成立。
+
+第一，原 \(E_0\) 在5、7好约化，17与残余特征互素。
+非零17挠点的约化仍为非零17挠点，故不落 \(O\)，也不落
+\(X=0\) 的阶3点。因此每个 \(X([u]P_{17})\) 均为当地单位，
+原16项乘积 \(h\) 及其全部共轭均为单位。式 (6) 立即给 \(G_j\) 整。
+
+第二，使用两边的真正整基，而非带范数7的 \(\alpha\)-基。令
+$$
+a^3=17,\quad t=(a^2-a+1)/3,\qquad
+\mathcal O_F=\mathbf Z[1,a,t],\quad
+\mathcal O_E=\mathbf Z[1,\vartheta,\vartheta^2-2].
+$$
+R874 的原线性函数 \(\lambda:E\to F\) 在这些基中的矩阵为
+$$
+\boxed{
+L_\lambda=
+\begin{pmatrix}
+1&-480&684\\
+0&220&-119\\
+0&-51&-225
+\end{pmatrix},
+\qquad \det L_\lambda=-55569.
+}
+\tag{25}
+$$
+两域判别式分别为 \(-867\)、81，而 \(55569\) 模5为4、模7为3。
+所以两边整基的全部嵌入矩阵以及 (25) 在这些位均可逆。
+
+具体地，若 \(e_i=(1,\vartheta,\vartheta^2-2)\)，则
+$$
+\lambda(e_i)=\frac13\sum_j G_j e_i^{(j)}.
+$$
+由 (7) 得其三条共轭行
+$$
+\bigl(\tau^r\lambda(e_i)\bigr)_{r,i}
+=
+\operatorname{diag}\!\left(\frac{h}{h^{\widetilde\tau^r}}\right)
+\,V\,\operatorname{diag}(G_j/3)\,
+\bigl(e_i^{(j)}\bigr)_{j,i}.
+\tag{26}
+$$
+左边由 (25) 与 \(F\) 的嵌入矩阵可逆；右边的首矩阵、\(V\)
+及末矩阵均为单位矩阵。故 \(\prod_jG_j\) 是单位。
+由于各 \(G_j\) 已由 (6) 证明整，遂每一个 \(G_j\) 都是单位。
+这里没有从一个任意可逆矩阵误推每个条目非零或为单位。
+
+第三，(8) 的分母在5、7是单位，且
+\(\operatorname{Norm}(u)=-17/55569\) 是单位，故三个 \(u_j\) 也各为单位。
+于是 (15)、(16)、(19) 均给原三个单独形式之间的整可逆变换。
+
+还保以下实际尺度：
+
+- \(d=h/2048\)、目标缩放 \(\lambda(u)\) 的范数34，以及
+  \(\theta_{17}\) 的六次扭曲尺度，在5、7均为单位；
+- 双轴 Fourier 的 \(1/9\)、中央三阶 projector 和 Artin 的 \(1/18\)
+  均为单位；
+- 原 \(X_0\) 两条 degeneracy 的次数6、旧空间返回 \(6^{-2}\)，以及
+  \(X_1\) 版本的12、1632、816，仅含2、3、17；
+- (21) 不引入 \(1,\,T_7,\,T_{13}\) 基的 index5，也不引入旧
+  \(b=\alpha\zeta\) 逆基中的范数7分母。
+
+若另外选用原 \(\Gamma\) 的人为整数倍，仍按 R859 保那一个整数；
+本篇只证明上面显示的原规范变换没有新增5或7成本。
+原第一因子 \(F\) 的规范及其是否为真 Manin1映射由 R878 的完整坐标
+证书独立认证，不由本篇假定。
+
+## 6. 同一原 shadow 的具体有限求和
+
+取一个固定好惰性素数 \(r\)，使原系数域可按 R859 在同一素位约化，
+记 \(\varphi_r\) 为 \(E_0\) 的真正 \(r\) 次 Frobenius。
+当原两份坐标证书均已通过，(20) 的每一项可直接读为
+$$
+\boxed{
+S_r(Z_{rs})=
+\operatorname{Alb}\,
+(\overline{\mathcal A}_sq_2)_*
+(\overline{\mathcal A}_rq_0-\varphi_r\overline F)^*[O].
+}
+\tag{27}
+$$
+这是 R859 在本篇原中央三阶等变映射上的完整公式。
+所有闭点、交点重数及 \(\infty\) 的边界都在 pullback 除子中；
+不只取仿射坐标等式的不同零点。
+再用 (21)、(24) 及原 \(\Gamma\) 系数即可得到原指定 Artin 分量，
+没有 canonical 来源替换。
+
+若为降低实际交点次数使用三循环 \((1\,2\,3)\)，它在
+\(\Pi_{\rm top}\) 上为 \(+1\)：两个奇 \(h^1\) 的交换各给负号，
+三循环为两次交换；同一等式在原 CM 可逆 Chow 线上成立。
+故也可用完全等价的
+$$
+S_r(Z_{rs})=
+\operatorname{Alb}\,\overline F_*
+(\overline{\mathcal A}_sq_2-
+       \varphi_r\overline{\mathcal A}_rq_0)^*[O].
+\tag{28}
+$$
+这把两条求交映射都限制在次数376的原 \(P\) 共轭，
+把 \(F\) 留到闭点 push/trace，未改变 source 或 Frobenius 方向。
+
+最小可读的两种候选是 \(r=29,\ell=5\) 与 \(r=41,\ell=7\)。
+因为
+$$
+E_0(\mathbf F_{r^2})=E_0[r+1],\qquad
+r+1=30\ \hbox{或}\ 42,
+$$
+乘6后分别读真实5或7挠部分。
+较小的惰性 \(r=5,11,23\) 的 \(r+1\) 只有2、3因子，
+不能在 R859 倒置6的范围提供这种检测。
+这里仅固定后续执行参数的可用范围，尚未声称任一 (27)/(28) 非零。
+
+## 7. 与实际 producer 的接口及结论范围
+
+输入必须是已严格认证的两份 sol：R878 的原 \(F\)，以及 R870/R874
+同一 \(u\) 的 \(P\)。先撤回 producer 为改善目标系数所作的真实
+\(X_{\rm new}=\lambda(u)^2X\)、\(Y_{\rm new}=\lambda(u)^3Y\)，
+再按 (10)、(12) 同时共轭全部目标和原系数。
+\(\widetilde\tau\) 的代数输入正是 R864 的 \(\ell\) 和
+\(h^{\widetilde\tau}=\alpha h/\ell\)，不能另挑一个相容范数根。
+
+这样只需三份同次数实际坐标、两个独立三项 Fourier 矩阵及九项闭点迹。
+若其中一个原 Artin 组合的 \(\ell\)-挠 shadow 被准确算成非零，
+R859 给的是同一 \(Z_{\rm orig}\) 的真实 \(\ell\)-adic Abel–Jacobi 非零。
+本篇没有执行该求交，没有声称坐标证书已经通过，
+也没有把原 R817 在7993的 canonical 检测移到这里。
+
+## 来源
+
+- R831：原 \(X_0/X_1\)、两条 degeneracy、完整 endpoint 与尺度。
+- R839/R841：完整 Hom 展开、Chow 双线性及中央三阶等变。
+- R859：原 Frobenius shadow、闭点迹、整比较与全部边界。
+- R862/R864：实际17挠点乘积、完整有限角色及定向 \(\widetilde\tau,\ell\)。
+- R874/R875：原候选 \(u\)、整 \(\lambda\) 矩阵、次数二次型及精确值376。
+- R867：原 Hecke 返回；本篇不需要实际形成其大次数映射。
+- R878：原第一因子的独立坐标认证门。
+
+本篇各式为符号推导；没有新增数学数值执行或重算数据。
