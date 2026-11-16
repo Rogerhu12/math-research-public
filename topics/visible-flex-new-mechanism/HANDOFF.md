@@ -38,7 +38,7 @@ R414/424原路线保从起点同库/矩基/右锚/全部有限controls的共同�
 
 R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；ordered前提现由R433实付，self原式仍保。
 
-R430–[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)：原Z18的c0恰5维，非全R0；32非盲标签有完整两通道表。全Af点C=2ai³pi³ΣnjQj，三个Q共享七多项式，21formal共同生成非实际根rank。每根u,p,r,J0,J1,J2按真宽/中心输运；n_i0使C普遍0。R434唯一新144原响应joint wholeQ/current拟求其余18含u系数；原型/J校正基准及同13规范保欠。
+R430–[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)：原Z18的c0恰5维，非全R0；32非盲标签有完整两通道表。全Af点C=2ai³pi³ΣnjQj，三个Q共享七多项式，21formal共同生成非实际根rank。每根u,p,r,J0,J1,J2按真宽/中心输运；n_i0使C普遍0。R434唯一新144原响应joint wholeQ/current已审源并随request启动，待原实际；原型/J校正基准及同13规范保欠。
 
 [R435](results/R435-complete-local-self-currents-and-joint-actual-internal-flux-control.md)完整self F_z=A_z³(4A_z²−10z²uA_z−20w⁴r²/3)/15，真左常数保；K0=−8r⁵/45，r0则K5=1024p⁵非零。每单点非盲；同形/同宽/同基点已有副本≤11或≤6可接同一actual J⁺，全K对整个C为0但保C的actual追加仍须joint前提。H*经该原矩阵修成λ1的新有限联合核。完整cell指含全部三矩闭编码的circle副本，非孤立α³差分包；全根self余商/同13仍欠。
 

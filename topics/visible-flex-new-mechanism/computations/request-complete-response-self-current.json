@@ -1,0 +1,204 @@
+{
+  "schema": "visible-flex-complete-response-self-current-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py",
+  "request": "visible-flex-complete-response-self-current-20261116",
+  "purpose": "One new exact joint whole-Q/current image on the original 144 B(E,Z) labels, with complete same-anchor Green currents and eighteen canonical u-parameter targets modulo the already proved p-only image. No old forcing, roots, pure/operator ranks, profile values or old development suites.",
+  "domain": {
+    "E_order": [
+      "P",
+      "R",
+      "S",
+      "L",
+      "U",
+      "V",
+      "T",
+      "Y"
+    ],
+    "Z_order": [
+      "H0",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "J0",
+      "J1",
+      "J2",
+      "chi30",
+      "chi32",
+      "chi34",
+      "chi37",
+      "chi40",
+      "chi100",
+      "chi104",
+      "chi109"
+    ],
+    "original_cost_labels": 144,
+    "true_tail_moments": 3,
+    "label_order": "Z_major_then_E",
+    "current_coordinate_order": [
+      "A0",
+      "A1",
+      "A2",
+      "B0",
+      "B1",
+      "C0",
+      "p3",
+      "p2r",
+      "xp2r",
+      "pr2",
+      "xpr2",
+      "x2pr2",
+      "S7"
+    ],
+    "formal_u_targets": 18,
+    "scope": "span_B_E_Z_intersect_complete_Q_kernel",
+    "development_checks": 2
+  },
+  "limits": {
+    "seconds": 180,
+    "memory_mib": 1024,
+    "nodes": 500000,
+    "atoms": 60000,
+    "terms": 80000,
+    "word_calls": 500000,
+    "cache_entries": 300000,
+    "rational_bits": 8192,
+    "monitored_rational_operations": 5000000,
+    "mathematical_stdout_bytes": 2500000,
+    "development_seconds": 20,
+    "stdout_final_reserve_bytes": 131072
+  },
+  "source_manifest": [
+    {
+      "path": ".github/workflows/visible-complete-response-self-current.yml",
+      "bytes": 4165,
+      "sha256": "0103c6047af1f6c142cde9246c6a23c84442e9c3ff8a15faeff013c3cc1c5a4d"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/notes/complete-response-self-current-design-20261116.md",
+      "bytes": 14475,
+      "sha256": "72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py",
+      "bytes": 21642,
+      "sha256": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py",
+      "bytes": 15738,
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py",
+      "bytes": 54281,
+      "sha256": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py",
+      "bytes": 10966,
+      "sha256": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py",
+      "bytes": 33718,
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py",
+      "bytes": 32310,
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py",
+      "bytes": 33169,
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py",
+      "bytes": 50679,
+      "sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+    }
+  ],
+  "source_sha256": {
+    ".github/workflows/visible-complete-response-self-current.yml": "0103c6047af1f6c142cde9246c6a23c84442e9c3ff8a15faeff013c3cc1c5a4d",
+    "topics/visible-flex-new-mechanism/notes/complete-response-self-current-design-20261116.md": "72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623",
+    "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9",
+    "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
+    "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
+    "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+  },
+  "mathematical_inputs": [
+    {
+      "result": "R258",
+      "scope": "complete right-three-constant local self-adjoint coefficient recurrence; no original-root recovery"
+    },
+    {
+      "result": "R261",
+      "scope": "eight published complete local a,d,c tables divided by 256"
+    },
+    {
+      "result": "R259",
+      "scope": "E8 complete diagonal functions and true three-moment quadratic tails"
+    },
+    {
+      "result": "R297/R314",
+      "scope": "complete Q identity and faithful T9 plus full Euler coordinates"
+    },
+    {
+      "result": "R432",
+      "blob": "8d43c00e514b80a533b58a45e724351691c01c52",
+      "scope": "common twenty-one p-only lift; not an actual-root rank"
+    },
+    {
+      "result": "R433",
+      "blob": "82ca6c62b88166a4fc0376a53727d68300c57afd",
+      "scope": "complete K/4 formal thirteen-current space and six canonical u representatives"
+    }
+  ],
+  "execution": {
+    "first_execution": "public GitHub Actions only",
+    "research_args": [
+      "--request",
+      "@REQUEST@",
+      "--out",
+      "@OUT@/complete-response-self-current.json"
+    ],
+    "one_new_joint_observation": true,
+    "new_development_checks": 2,
+    "old_development_suites_executed": false,
+    "old_forcing_compilations": 0,
+    "old_root_restorations": 0,
+    "old_operator_or_pure_rank_executions": 0,
+    "new_profile_or_Af_evaluations": 0,
+    "current_values_before_Af_reconstructed": true,
+    "all_three_true_suffix_moments_share_original_coefficients": true,
+    "nonlocal_or_higher_jet_residual_policy": "retain exact full expression and report unresolved_structural_interface; no truncation or false nonmember",
+    "actual_joint_claimed": false,
+    "full_response_kernel_image_claimed": false,
+    "failure_progress_policy": "Shared development/science phase receipts retain started/interrupted stages, completed units, actual time/RSS/rational/shared mapper counters and all already emitted exact records. No failed phase is replaced with artificial zero costs.",
+    "report_protocol": "Each exact mathematical record is emitted once as CURRENT_Q_RECORD and saved only in the runner temporary .records.jsonl; COMPLETE_CURRENT_Q_REPORT is the bounded final summary and record-fingerprint chain.",
+    "stdout_cap_policy": "Reserve 131072 of 2500000 mathematical stdout bytes for the final receipt. A completed record that does not fit is kept in the runner temporary record file, identified by bytes/hash in the final receipt, and stops all subsequent research as finite_stdout_budget_failure.",
+    "mapper_budget_scope": "Within each phase, both new and fresh mappers share the sum ceilings of 500000 actual primitive calls and 300000 live cache entries; individual inherited caps remain. Actual transient overshoot and peak sizes are retained.",
+    "reviewed_table_correction": "R261 chi109 d_bar x^4 coefficient is 192*u*j5-672*p*j4-128*r*t."
+  },
+  "publication_policy": "Only source, parameters, human proofs and metadata persist. The full new report and original source certificates remain in the original public Actions stdout and runner temporary output. No machine payload, artifact, Release, committed output or unattached output blob.",
+  "completion_claim": false,
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "rule_review_and_private_queue_status": "actual public/private pull and exact README differences before either new adapter check or new joint observation"
+}
