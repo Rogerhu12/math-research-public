@@ -183,3 +183,8 @@
 ## R434 — 原同job五阶段中的现场C闭查询
 
 [R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d把R426接原五阶段的metric角色，原11pins逐值保→13；同193原两阶段/十词/43f217/C四件及两payload/原deadline先核原件，原owner/静止/各阶段剩余钟不改。11项c-query参数须显式给定，现场provider真实状态/查询次数/事务/当前格与未访按原返回，未启动不冒零查询通过；metric未过仍独立尝试reach。单90KB超限70、raw不删，未来清理须原与新必要读回及全quiet。尚无实际request/配方/450/查询或全几何接受；R433接held，R431新mesh另需明确来源分支。
+
+
+## R433 — 真同场整像held与反射刚性的现场组合
+
+[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd仅接受R429/84d0450f或R434/88996287的明确source/schema/input三元分支；重读同193真450/全十词/C/原钟及径向、atlas、shared实际输出。三前件真实完成才调用原R425/c87b3a9b，metric/reach状态保留但不当held前门；全部W/H/marker/witness及八资源参数仍须显式给定，原剩余钟/OwnedChild/quiet不变。原R425全部必要结论、失败/当前/未访及绑定原件保单90KB，超限70/raw不删；不伪加原R425 run/source字段，wrapper用实际子程与文件receipt绑定。无实际参数/450/request/比例或δE接受，新mesh来源仍待R436。

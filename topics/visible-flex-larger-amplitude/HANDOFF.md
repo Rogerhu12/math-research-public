@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 00:46:05 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 a2c3894c4f67c6702bbbb00b603c2a5b2e259018。
+规则同步记录：2026-11-16 00:47:12 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 2302e0790d5d110f1d8a3cb163ec7699bc2c7512。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -44,7 +44,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 [193接口](notes/2026-11-15-request193-continuous-ten-full453-to-frozen450-live-interface.md)/R400真72c十族/180九词+正零ξ/98pins：453全门→同十词450新RHS/H/FD/338×112/final，共原7200钟；amplitude R408。193不运行R409，清raw后必须同job再生。R409/413全径向/两mean/FFT/Hermite/B/R249/原cuff/帽marker/同目标保、E不换B′；R416/28417b93为独立准确cut三jet$(kv_*,k^2b_*,k^3c_*)$，旧renderer不冒新field；R417/0ff1fa60两帽六jet/曲率/球/闭分割/真实Shared类/帽metric恒等。
 
-R418/28b7245a同场/DAG/原C四件/自然域/cut/四Loewner闭DFS；固定C盒不随细分收紧，现场查询源已发布但未实际执行、不保终止。R422/3ea1ef9f全AA/CC/AC/self/反射/两RP1、一jet/R279六jet；全正则/曲率/全pair及Kτ≤1后嵌入再reach，R282逐叶/R24同帽、不借metric。R425/c87b3a9b同准确场整闭F0/全D/held、完整prefix/tail非平面/四marker/R238反射刚性；须另付实际嵌入、delta_E=false，单90KB/全部失败当前未访保。实际K/τ/D/比例/metric/held/δE均未付，完整源/接口见[结果索引](results.md)。
+R418/28b7245a保同准确场/C四件/四Loewner，固定盒宽不随空间细分收紧；R422/3ea1ef9f完整AA/CC/AC/self/反射/两RP1、全一jet/六jet/曲率/全pair，嵌入与reach不借metric；R425/c87b3a9b保整像held/固定H/全D及R254/R238含反射刚性条件，delta_E=false。完整责任、失败/未访与原来源逐字见[R434前H](notes/2026-11-16-handoff-checkpoint-before-R434.md)及[结果索引](results.md)；K/τ/D/比例/metric/held/δE均未实际付。
 
 [R427接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d同job真43f217父、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+knots只作seed/preflight，450 RHS/H/338×112J/FD/fullDN/final/audit全新。容量/无新点显式partial，末state/mesh以solver为准；M/N/native不改，R431正接原钟/读回，无actualparent/recipe/run。
 
@@ -54,6 +54,9 @@ R418/28b7245a同场/DAG/原C四件/自然域/cut/四Loewner闭DFS；固定C盒�
 
 
 [R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d把R426接原五阶段的metric角色，原11pins逐值保→13；同193原两阶段/十词/43f217/C四件及两payload/原deadline先核原件，原owner/静止/各阶段剩余钟不改。11项c-query参数须显式给定，现场provider真实状态/查询次数/事务/当前格与未访按原返回，未启动不冒零查询通过；metric未过仍独立尝试reach。单90KB超限70、raw不删，未来清理须原与新必要读回及全quiet。尚无实际request/配方/450/查询或全几何接受；R433接held，R431新mesh另需明确来源分支。
+
+
+[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd仅接受R429/84d0450f或R434/88996287的明确source/schema/input三元分支；重读同193真450/全十词/C/原钟及径向、atlas、shared实际输出。三前件真实完成才调用原R425/c87b3a9b，metric/reach状态保留但不当held前门；全部W/H/marker/witness及八资源参数仍须显式给定，原剩余钟/OwnedChild/quiet不变。原R425全部必要结论、失败/当前/未访及绑定原件保单90KB，超限70/raw不删；不伪加原R425 run/source字段，wrapper用实际子程与文件receipt绑定。无实际参数/450/request/比例或δE接受，新mesh来源仍待R436。
 
 ## 恢复与保存
 

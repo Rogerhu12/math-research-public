@@ -94,18 +94,17 @@ R334完整八次/Bernstein及453 Hermite全RHS缺陷、158入口全部75776×17�
 
 [R409](results/R409-current-continuous-ten450-full-radial-shared-background-and-seam-construction.md)/[R413](results/R413-original-C-cuff-word-and-fixed-cap-target-atlas-binding.md)全节点/FFT/两mean/共享B/R249/原rCuff/marker/准确目标保；E不换B′。[R416](results/R416-current-C-cut-atlas-compatibility-and-accurate-geometric-patch.md)/28417b93独立准确cut场所需三jet$(kv_*,k^2b_*,k^3c_*)$，旧v,b无结构等式但不判实际不相容；七root/全角/675六jet保，旧renderer不可冒新场。[R417](results/R417-current-ten450-fixed-cap-six-jets-curvature-and-normal-balls.md)/0ff1fa60两帽全marker/六jet/Gram/曲率/球/闭分割与真实Shared类绑定，帽同图metric恒等。
 
-[R418](results/R418-current-C-complete-closed-relative-metric-source-interface.md)/28b7245a同R416/R400/R417及原C四件/binding/自然域/cut/原四Loewner闭DFS，保全112/反射/mean/材料混合项/当前格栈与未访。固定C盒不随空间分格收紧，跨run精化重绑未接，不保终止，work_resolution非门，无实际全metric。
-
-[R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)/[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)/3ea1ef9f枚举同场所有piece/反射/self的完整AA/CC/AC及两闭RP1；全一jet并集给共同q跨缝路径，不借metric，帽负A/重叠/全部marker保。原R279/四球OR/R282逐叶membership/R24仅同帽图保持；全正则/曲率/全部pair和Kτ≤1才先嵌入后全相位reach。D为完整标记F0，原τ≥.03D上界另核；不重选常数/免整rank。全部DFS当前/兄弟/未访与单90KB保，没有actual450或数值K/τ/D及实际覆盖。R425继续整像held、固定H/全D与含反射δE；准确场/数值影子/原BVP与全metric仍各付。
+R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Loewner保，固定盒宽不因空间细分收紧；R422/3ea1ef9f保完整AA/CC/AC/self/反射/两RP1、共同q全一jet/原六jet/全部marker/四球OR/R282逐叶/R24同帽，嵌入后reach及完整F0的D各付；R425/c87b3a9b保全F0/held/固定H/非平面/四marker/R238含反射刚性，actual_delta_E=false。所有原source、参数、全DFS/失败/当前/未访和90KB范围逐字保[R434前检查点](notes/2026-11-16-open-checkpoint-before-R434.md)及各完整结果；没有actual450、K/τ/D、metric/held/δE接受。
 
 [R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d：同job真43f217 frozen450、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+全部knots只作新seed/preflight，450 RHS/H/338×112J/FD/8×17/fullDN/final/audit/writer全新。机器无新点/容量不足显式partial，最终state/mesh以真solver输出为准；外层clock/90KB/清理/实际parent/配方/run未接，M/N/native不变。
-
-[R425](results/R425-current-C-whole-image-held-and-reflection-rigidity-inputs.md)/[接口](notes/2026-11-15-current-C-whole-image-held-and-rigidity-interface.md)/c87b3a9b完整源已核：同R416准确场/R417完整两帽/R413 cuff，整闭F0位置覆盖与全D给held下界；R254完整前缀及全tail/collar/patch非平面责任、四真实marker和R238含反射刚性保持，仍须实际嵌入，actual_delta_E=false。fresh输出严格RUNNER_TEMP并保护输入；成功尾组仅完整索引ranges/实际分布/原件身份，全部失败尝试/当前组/未访保；单90KB超限仍70，完整临时账不改。无实际450、见证/阈值、全held或δE证书，不冒C²/metric/reach。
 
 [R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)原193两阶段accepted450/十词/43f217/同C及原钟、五原阶段与独立reach保；[R426](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)07fc4e41/77be1d98保原f12f六primitive/1440片/深根族/闭逆像，现场新界∩原粗界、原四Loewner、准确径向缓存/总钟/事务异常撤销与精度恢复。完整参数、原当前/未访、90KB/quiet及清理条件逐字保R434前检查点与各结果；累计半径/深族/前缀宽仍在，无实际450或metric。
 
 
 [R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d把R426接原五阶段的metric角色，原11pins逐值保→13；同193原两阶段/十词/43f217/C四件及两payload/原deadline先核原件，原owner/静止/各阶段剩余钟不改。11项c-query参数须显式给定，现场provider真实状态/查询次数/事务/当前格与未访按原返回，未启动不冒零查询通过；metric未过仍独立尝试reach。单90KB超限70、raw不删，未来清理须原与新必要读回及全quiet。尚无实际request/配方/450/查询或全几何接受；R433接held，R431新mesh另需明确来源分支。
+
+
+[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd仅接受R429/84d0450f或R434/88996287的明确source/schema/input三元分支；重读同193真450/全十词/C/原钟及径向、atlas、shared实际输出。三前件真实完成才调用原R425/c87b3a9b，metric/reach状态保留但不当held前门；全部W/H/marker/witness及八资源参数仍须显式给定，原剩余钟/OwnedChild/quiet不变。原R425全部必要结论、失败/当前/未访及绑定原件保单90KB，超限70/raw不删；不伪加原R425 run/source字段，wrapper用实际子程与文件receipt绑定。无实际参数/450/request/比例或δE接受，新mesh来源仍待R436。
 
 ## 4. 同一g闭合与真正九冻结450
 
