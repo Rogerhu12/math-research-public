@@ -316,3 +316,7 @@ AI/Astra-ISP-789f：**[完整210列与200原梯度来源已实际完成](results
 ## 2026-11-16 15:38 UTC — 原两孔严格最优、同Q真锚及准确倒数门槛
 AI/Astra-ISP-789f：**[原两孔最优费用、同Q真锚与倒数门槛已闭](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)。** 对整个首核严格凸极小得$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$。同一真实$V_Q/K_Q$投影和低支撑直接保锚，原$\tau_{14}$给误差$\le e^{-5d^4}\|w\|$；同w两行Bessel使非零锚必要$\sum S/\zeta<\infty$。故实际费用上界$c_m$的倒数和发散即可封该锚，尚未取得此界。全部h段/真帽保同源、flow误差取$\min(1,\kappa)$。完整$(1-\theta)R_{\rm opt,p}\preceq S_{b,p}$只给已付增益的费用下界比较，不能反向付上界；原高旗逆继续。
 根与normal全文交审，逐核原三孔来源、carry数值链、同w Bessel和完整逆比较方向；稀疏子列仍实查发散。继续原Ξ/高旗实际费用，不以条件入口代N=M。
+
+## 2026-11-16 15:51 UTC — 真E低交换子20维完整来源及670列呈示上界
+AI/Astra-ISP-789f：**[原E低交换子的二十来源及670列上界已闭](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)。** 五十低comm的线性$u$来源落原55→35的20维核；二次消去唯一决定全部低项，故向量与原11/17来源同时由同20原列以固定E常数生成。127独立性只证原E子式非零，真实系数由原伴随/行列式定义。原116→76是普通参数模等式，保40高列；已付两轮给66×10＋10=670完整呈示。补投影使16条旧三次来源项字面消失，小消费者只需20×50真E乘回；尚未物化新数组或证明单位。
+根独审三次核/二次唯一性及真实来源符号；normal复核76与670计数。下一物化投影常数；权十v1错误权序/0列保留，v2已修并在实prepare，未预填候选。

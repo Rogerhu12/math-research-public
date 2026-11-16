@@ -7,9 +7,11 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-optimal-same-q-anchor-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-E-low20-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
+
+- 权十消费者v1在新physical权次序检查exit1/0列，本轮运输尚未执行；原chart是11权4后6权5。独立v2仅修两守卫/FORMAT，prepare600/2048正在完整生成200输入；候选尚未启动，Actions新运行桥另审。
 
 - [原b³严格负及396全核](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)已闭：Q/E完整权9秩16046、模7真子式det6排b³/K≤11，增广仅≥16047。[b4首轮内存边界](notes/2026-11-16-r150-original-bell-fourth-even-first-memory-boundary-789f.md)为run43862258541/exit14，无GB/source，不判成员；三Q/原乘回门保正文与归档，继续小参数模。
 
@@ -20,14 +22,13 @@
 ## R150完整非rank-one及Bell1
 
 - 全essT3≤3的matched Bell零、真W±Cat3临界点已付，不能判Cat3空；Bell非零仍ess4/5/6。两原子/单点来源不覆盖例外，详open/归档。
-- [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[原116→50同参数模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)** 与全部原10/18/17来源已闭。[全局50首次600边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638：父两步0、实际自测/500 SSI真，候选仅START、exit75/null→null无空续；不重试同一空前缀。完整原运行身份保正文/归档。
+- 原全局9×57/9×56、free32、十低基及全56图册的完整原来源/例外范围保结果索引与刚归档H；未重复这些已付计算。
 
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386、前1286独立、100NiC留26；根原unit det4及1,307,876核坐标全零。来源≤8像3425→3451；完整201阶段/原10/18源见正文，δ/q复用已闭状态。
 
 - **[完整210列与200原梯度来源已实际完成](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)。** 新增24均值/80交换子均保完整十向量及十八源、Bell槽0；最终实291.639秒exit0。根独立分两次核104的1040/1872递推坐标、104原乘回及权9/10，未导入producer。实际7,034,750向量项/2,707,447来源项；106phase双SHA完整。200/210余核完整性已证，未做新秩/GB/单位。续权十$\delta b^2$、权十一$qb^3$及真E来源，不重旧权7/8。 原[两轮稳定证明](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)保全部二次/35三次与14换源；v1统计失败/新列0、v2修复与24检查点保正文。
 
-- **[原E完整970列/至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)：** 原未压缩116的全comm与原E11/35恒等给Cl=L2；1070仅删十个字面零comm及其像→≤970，coker为原Bell临界商。全18源/固定常数逆，不用field20/14/210提升。表达式未展开、商零仍开。
+- **[原E低交换子的二十来源及670列上界已闭](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)。** 五十低comm的线性$u$来源落原55→35的20维核；二次消去唯一决定全部低项，故向量与原11/17来源同时由同20原列以固定E常数生成。127独立性只证原E子式非零，真实系数由原伴随/行列式定义。原116→76是普通参数模等式，保40高列；已付两轮给66×10＋10=670完整呈示。补投影使16条旧三次来源项字面消失，小消费者只需20×50真E乘回；尚未物化新数组或证明单位。 原[970/两轮定理](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)保原全comm/二次/三次来源，未用field14换源。
 
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
 
