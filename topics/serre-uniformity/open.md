@@ -107,3 +107,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **有限完整接触阶已有上界**：R832给G=(p−1)²/4、R=21G+4时R−1+binom(R,2)(6G−4)，可接原R716提取器；不先求Ore，不假定T_p非零。该界随p增长，未给原高度首项赋值或全p盘无根，已成较短窗口优先，不能为已闭接口重开巨大新计算。
 
 根独占main/共享索引；各代理只专属稿。新数学仅本公开Actions，一日artifact只携必要输入/断点；Git/Release/悬挂blob不放机器数据。每结论立即push、每push及至少每小时实际pull，两README有diff只读diff即遵守、HANDOFF记读取SHA；非快进立即pull --rebase再推至成功。主目标OPEN，子问题完即继续下一项，不在阶段报告停下。
+
+**原完整刚性化纤维/截面已构造**：[实际Poincaré与theta帧](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99。原I_Z、P1帧1/P0帧t^(−7δ)给v_j；正乘R给v_j^R=(κ_j/R_j(P1))v_j³，只动第二槽。ν_j=(3s)^(7δ)M_f^p/M_g^q=3^(11δ)m_f^p/m_g^q；原归一截面νu³v_R，与N_h^(3q)由完整Corr唯一运输，theta二挠及其Picard反因子同保。原地方λ=(χ(νκ/R)+½τ_J(z³)+3τ_Y(v))/(3q)，全部真实Q纤维/原C_h/splitting/非p项保留。指定periods与高度不相消未成。
