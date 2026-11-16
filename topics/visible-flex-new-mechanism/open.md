@@ -133,56 +133,11 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 
 当前公开/私有实际pull与README已读commit在HANDOFF；每个结论立即推送，NFF实际rebase后续推，所有新研究只在本公开Actions。主完成门没有支付，继续上述工作。
 
-### 2026-11-16 09:00:19 UTC — R493 真三曲率原子五参数与有限光滑恢复
+### R493 至 R497 的原记录
 
-[R493](results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md)固定a1<a2<1、b1<b2<1、C>0；以ξ=√v写三段p=ξ³/r=aξ/U=C_i+3ξ⁵/(5a)，全部12L/8Aj由≤21次有限幂差直接给，原五G含完整端势，5×5解析J保移动端点/实际H敏感度。严格内正则真零若存在，则三峰正ρ/远尾C/两矩纠正参数C¹趋近，一次有限IFT给有限尺度的真C∞、平左端/末simple-A、全五门零cap。未找到零、未调用科学。新预定36起点/5logistic-exp坐标、120秒含全部工作/5000值J、105秒搜索保首候选有向验证；不读回/重开旧15ρ族账户。任何浮点候选只在同原G的有理盒收缩(19)支付后称真零，随后还欠同母库安装/共同成本/完整路径及主几何。新源码正在写，公开首执行由root统一触发。
-
-### 2026-11-16 09:00:23 UTC — R490 固定g内在曲率界与真正九新body列
-
-[R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)用原五准确metric系数及样条凸包纸付全固定g |Kg|<2381/11<217<(1000/61)²，两反射连接同界、椭圆柱/原六弓平帽K0（R=.274为材料盘半径，不是球半径）。仅说明Gaussian乘积必要条件未阻reach，未构造低外曲率或等距实现。新增完整P_m(ξ)=ξ^m exp(−ξ/(1−ξ))：4个P5 sin2jθ u列、4个P8 v列、1个Δz=ell γP8/Δb=γP8′零总高度列，旧159零嵌168；末五次片与右平坦性严格证九物理函数商独立。全body/完整T三导、六个位置jet及curvature法向参数导齐备，左P5仅C4但二jet连续，核心/帽接口不改。新族必须新identity，不冒原163/159同任务或55J；拟消费54paid MODEL旧159列，必要二jet输入恢复及9新导数另明账，55保实际best。0科学执行，继续原metric/reach/全时间主门。
-
-### 2026-11-16 09:06:04 UTC — R492 原十三规范锁正割奇行，转真实source/前缀条件
-
-[R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)完整保R/T左尾、母三次pairing、真实平台项和2u′²：sec odd行在母上为ζ_i∫(u_i−y u_i′)u_i″²/4，在平台上为d_i μi0/4。当前each even母∫u′u″²0，故在整个period核上β恰为原P−4/P−3/P−2/HB0四行的显示组合ℓ；原period/同13核修正不能再改变odd residual。非even余项(e/(8t)−ω/4)Σλζ∫u′u″²明确保留，不外推全紧输入。含真实中心的段，odd条件准确是完整period-source商泛函(β−ℓ)(k)加两真实中心前缀差的β读出，≤4相位生成系数；尚未判这些实际系数零/非零，更未授新秩。两个even、完整连接段全s/全成本仍要同一个规范联合解决；0新执行。并行新9维55fiber已按完整family/原实际门实施源码，主课题继续。
-
-### 2026-11-16 09:10:25 UTC — 三曲率原子完整五门新模型启动
-
-[执行设计](notes/three-curvature-atom-cap5-new-model-design-20261116.md)与源/请求/工作流同提交。新五实参数、全12L/8Aj/五Delta及完整解析J，36固定起点，120秒含imports/input/output与5000完整值J，105秒停搜索；仅首原G∞≤1e−8候选可同账有理收缩。旧15族/ψ3/self/ODE/rank/开发0，日志/证书只在原Actions stdout。此处尚无数值结果；主任务仍进行，根同时装配55的完整新9fiber，纸面接真实source商与桥。
-
-### 2026-11-16 09:14:07 UTC — 三原子36起点完整观察闭合，继续新问题
-
-[原结果](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)：run43837374645/research133197253175/report133197546045/source7f341445…，36起点全返回、2119值J完成0失败，总4.541460807000007秒。原best G∞.0014877791991098396、H.6101807800524467，未触发真零候选/有理证书；许多末点在chart边界，不当全族极小或不存在证明。旧全部研究0，原stdout6863912B/59b01cff…；任务闭，不重开余额。双job实际public/privatepull均README空diff，最新已读公开45c5df46…/私有71de2e18…，QUEUE唯一进行中，下一≤10:11:24。继续55新9完整几何与五门/真实桥新问题，主完成门未付。
-
-### 2026-11-16 09:21:52 UTC — R494 任意外槽完整正割配对与真实双中心不相容见证
-
-[R494](results/R494-complete-secant-pairing-and-real-two-center-source-incompatibility.md)逐原R/T primitive证明T(c;u,u)−E(c,Asec(u,u))=−v∫c(u′−yu″)u‴/(4h)；h0/h4全消、h2原尾保。任意紧输入β不依H且对ω仿射，因此同ω、可异H的两真实中心odd差=β((A2−A1)D)，同w/整个period source/第三入值准确消去。P前缀的单包μ²与全部有序suffix先保后合(Σdμ)²/8=0；全W outer下∂ωβ(PD)=Σd²∫r⁴/4，π/2等∫g″⁴>0。原真实R70矩阵桥含两半段Mraw给A2−A1=tP，避最多一ω盲值时非零t产生两号、不能以同规范/后置成本复位抹去的真实残差。仅排这类双中心前缀，允许同中心矩阵、单段及一般其它路径继续；0新执行。数值仍推进55新9，cap接三原子边界/全五门真正新问题，主完成门未付。
+这段逐项日志原文迁至[归档](notes/open-R493-through-R497-20261116.md)。原三原子36起点已闭；新9同600账户报告已完成正在读取；当前四原子新模型及全部未付主门继续。
 
 
-### 2026-11-16 09:30:55 UTC — 真正55固定159＋完整新九方向首次执行
+### 2026-11-16 09:57:57 UTC — R498 四个非退化曲率原子的七参数完整五门
 
-[完整设计](notes/true55-complete-new-nine-fiber-design-20261116.md)及11个新源码/绑定请求/工作流同提交。以真正55为基点、旧159固定，新9完整族168→172；必要两网ordinary、hardJ9及完整metric9后，原11变量主问题只加新原tag，完整一阶扫描合格后才做φ(e0+αde,f0+αdf)标量与原14实际门/准确172盒。单一起点600秒含imports/input/失败/大输出；16主问题/1536迭代/3072系统、64新行/64scalar/3actualpair，旧159J/旧接受回放/开发0。source55原134值/2073.56241112秒继承不重开。raw11/dual/slack/原残差先打印，已打印finite结果不重复，partial input与bootstrap超时照实保；stdout112MiB，唯一report原log只读160MiB/输出6MiB。当前尚无本次观察；接受门与主门不同，完成后立即接open下一问题。
-
-
-### 2026-11-16 09:36:43 UTC — 新9首输入径向广播失败，已付粗网保留并同600账续
-
-[原失败及续接](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/source09f498…，coarse ordinary已付后a shape(160,)→(160,384)包装失败；0导数/0有限求解/0实际，新接受0。原partialMODEL26079459B/9eb1bb5a…保全部付过coarse，final75.06856296999999秒/1necessary，祖先总2148.63097409秒/135值。最小[:,None]修复并只读原input继续同600账、原2necessary总上限；不重算粗网。report133208451697只读原日志成功，非科学成功。双job真实pull核README空diff，最新公开076cad7a…/私有a38683a5…、QUEUE唯一进行中，下一pull≤10:33:21；主门未付继续。
-
-
-### 2026-11-16 09:38:22 UTC — R495 正cap凹图完整表示与首段消失的单侧有限差
-
-[R495](results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md)已证明R=p−(t+1)r将真cap写成固定[0,1]凹图，原U、C≥0、H、Af正性/simple根、全部8Aj和E/原子跳变均准确保。原最高三累计量严格满足7A5A7−3A6²=a7²[3VarX+19E(s²)/3+28E(W/r)/3]>0，完整正Af/C余项保留。三原子首段消失与两原子先用同Ceff/同H比较，再得C²/C/1三行准确有限差，最高系数全正且新高项受Ceff单侧界；只在C=o(b1)可取单b1⁷首项。全部5门同步，不只E；没有宣无零/存在或重跑旧36。继续原正性与五门消元、真实路径和主几何；0科学执行。
-
-
-### 2026-11-16 09:41:41 UTC — 新9已付coarse原输入同600秒续接源码发布
-
-[最小续接设计](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)：只修geometry的a[:,None]，以新resume_input一次读原失败partial MODEL恢复完整粗网；该分支不begin/charge、不ordinary，fine仍唯一剩余necessary。scope原LIMITS不动，从原75.06856296999999秒/started1起算全部当前imports/input/科学/输出；bootstrap同样保旧账。主入口只接这两个接口，完整field/selected/model/solver/line/actual及原14门/172盒不变。12源码+绑定原3记录/原请求/原final账随本提交；canonical request变化触发同公开workflow后继。0本地科学/开发；原失败永久保留，旧135值下界不丢，课题继续。
-
-
-### 2026-11-16 09:47:15 UTC — R496 完整复cap相位与H≥2严格排除
-
-[R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)已证明完整Z相位单调及A/R≥(b²−1)/2；保所有原端项/C≥0的一次IBP给ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]。H≥2即b²≥3，故ImE≤−8b³(b²−1)/15015<0，全部真实五门零/原弱零极限必须3/5<H<2，强于原大H界；不是只凭扇形猜号。另将严格平方余量接原λ区间并付A6与A7真实端界；一个准确形式八系数通过所列有限门，说明未解3/5<H<2不能被该有限代数条件宣无解。0新执行；继续真正新四原子全量模型/全图构造及主几何。
-
-
-### 2026-11-16 09:48:38 UTC — R497 完整角原函数与轴上度量曲率响应
-
-[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)已证明sin新列在轴仅保T/Ts/Tss、Xt/Xst有限不变，Xs/Xss的全角零均值Π不能删；f0/e非0时八列是否metric盲准确取8条U·∂s(aΠδT)投影。圆背景δeu=4j a_s(aP)_s(−1)^(jk)/(4j²−1)、δev=−b(aQ)_s(−1)^(jk)/j可非零。完整实际I/II/normal与主曲率变分保Π记忆；该背景另4组合可保全轴位置/径向二jet/度量一阶而独立动两轴类κθ。不是55真实峰/秩/下降或全圈等距证据；0执行，当前同账新9仍在公开Actions运行。
+[R498](results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md)给4个质量≥1/18、真实间距≥3/50的曲率原子及C≥0，7参完整原12L/8Aj/5G与物理5×7、chart全H导数。Jsh≤18/25与C=(7/5−Jsh)ζ严格保H≤2−17/25600；新64预定起点、每起80/总6000、统一180秒/150秒搜索，不读旧36结果。首近零仅候选；C>0选7中5、C0仅6shape中5，经同原有理收缩才给真根/秩，随后有限正ψ3尾/两矩修正/C1-IFT保所有5门。0执行，尚无新根；旧账户闭，主门欠。原新9续接report实际pull4376ccbb…双README空diff、私有4177ac45…QUEUE唯一进行中。
