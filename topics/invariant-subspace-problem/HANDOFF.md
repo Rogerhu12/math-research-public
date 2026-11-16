@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a4cadcb2c66b112a3fd98ecf2c2adc34d598cf4b（2026-11-16 15:35:09 UTC，Actions run43897899820实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43897899820-1.json。
+- **最近成功实际 pull 与已读规则提交：** 04c8703f301d6a17fd66794329919605326f0d20（2026-11-16 15:38:54 UTC，Actions run43898587389实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43898587389-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-actual-complete210-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-optimal-same-q-anchor-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -46,5 +46,5 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 - **[全高度一次真MP](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保真全层512^j，c*=2·512²及s∈[c*S,2c*S]给 ||D†(C+D)f_s||²≤(1+47616c*)ε_s。同W使修正q1、z1−P_xw及残余−Cq1平方可和；仅f_s保原PV/PK。后续CD†循环、最终真空约束和完整修复仍开，详正文/归档。
 
 - **[整个低旗标Schur总能已闭](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)：** hfrak=C*r∈F(2d−1)⊖F2，ℓ=2d−2的全Fock/全零源给qℓ−q1=〈hfrak,𝒮⁻¹hfrak〉。真有限池/carry/fresh6d使跨头总能<2、boson<4；𝒮_b=M2+I+T*(SI+JJ*)⁻¹T，不能删正则或高旗Schur。源低旗不保证qflat低旗，完整二孔费/N=M仍开；原τ14/全h/真Q门保正文。
-- **[同物理尾首核参数及完整二孔正铅笔](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)：** 任v∈K的f1−F(v)=真K1列+低L*列，F(v)=t_vω1+Jvω2保原PV−PK、所有h/cut及真帽。v_s=(I+sΓ)⁻¹e0在固定[S,λS]给新增一孔费总和<2(λ−1)²，同w配对绝对可和。完整Ξ=E*M_T⁻¹E，二孔费是原RanC正铅笔的−σ2²∂tQ(s,0)；未把有限增量当导数上界。根全文及normal交叉域/投影审计通过，继续Ξ与高旗实际费。
+- **[原两孔最优费用、同Q真锚与倒数门槛已闭](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)。** 对整个首核严格凸极小得$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$。同一真实$V_Q/K_Q$投影和低支撑直接保锚，原$\tau_{14}$给误差$\le e^{-5d^4}\|w\|$；同w两行Bessel使非零锚必要$\sum S/\zeta<\infty$。故实际费用上界$c_m$的倒数和发散即可封该锚，尚未取得此界。全部h段/真帽保同源、flow误差取$\min(1,\kappa)$。完整$(1-\theta)R_{\rm opt,p}\preceq S_{b,p}$只给已付增益的费用下界比较，不能反向付上界；原高旗逆继续。 原[任v完整物理来源与正铅笔](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)和标量窗费用保正文/归档。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。

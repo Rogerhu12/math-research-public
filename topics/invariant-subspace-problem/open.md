@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**[原两孔最优费用、同Q真锚与倒数门槛已闭](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)。** 对整个首核严格凸极小得$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$。同一真实$V_Q/K_Q$投影和低支撑直接保锚，原$\tau_{14}$给误差$\le e^{-5d^4}\|w\|$；同w两行Bessel使非零锚必要$\sum S/\zeta<\infty$。故实际费用上界$c_m$的倒数和发散即可封该锚，尚未取得此界。全部h段/真帽保同源、flow误差取$\min(1,\kappa)$。完整$(1-\theta)R_{\rm opt,p}\preceq S_{b,p}$只给已付增益的费用下界比较，不能反向付上界；原高旗逆继续。
+
 **[完整210列与200原梯度来源已实际完成](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)。** 新增24均值/80交换子均保完整十向量及十八源、Bell槽0；最终实291.639秒exit0。根独立分两次核104的1040/1872递推坐标、104原乘回及权9/10，未导入producer。实际7,034,750向量项/2,707,447来源项；106phase双SHA完整。200/210余核完整性已证，未做新秩/GB/单位。续权十$\delta b^2$、权十一$qb^3$及真E来源，不重旧权7/8。
 
 **[原十八来源与完整200列的加权过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)已闭。** 固定有序 $\pi(f)=f(N)e_0$ 保权且仅在商中可交换；完整齐次核给 $\Gamma\cap F_{\le K}=\sum B_{\le K-\nu_j}\gamma_j$，与同权原源回填双向无损。因此原十八方程中，非零规范 $q$ 组合没有加权来源权 $\le10$ 的表示，$\delta_{14}$ 没有 $\le9$ 的表示。权是 $y:1,w/u:2$，不改称普通次数或特征零界；更高来源仍开放。
@@ -8,13 +10,11 @@
 
 **[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
 
-**同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
-
 **[36原低权种子的稳定闭包与完整首轮已闭](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。** 十四旧高权列全部由原10/18来源换出，普通参数模仍106换106；Cl_N(L36)=Cl_N(L50)，L36完整首轮恰该106列模。最小停止轮数仍未确定；完整第二轮已证明稳定，继续实际完整来源和具体图目标。
 
 **原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；[完整权8前沿](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)实际17674×1386秩1312，保26个NiC、74全核，根原子式det4及全核独核。来源≤8维3425→3451；只在声明有界空间内独立。旧D换源与七δ RHS有限空间负已闭；全局50候选600秒未返完整candidate，不空续。[δ14稀疏10×56实际600秒边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)已核：run43883188532的全部原门/560 SSI完成，但candidate583.183秒仅START、整体exit75，完整前缀null→null即停，无source/remainder；其七个只读RHS现已完成，全部有限空间余式非零。单图更高δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
 
-完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-actual-complete210-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
+完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-optimal-same-q-anchor-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
 
 ## 主目标与完成标准
 
