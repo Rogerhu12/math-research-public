@@ -446,3 +446,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R513 完整两行cap分离与全五门障碍](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)：**已证明**H∈[3/5,2]的Δ4−β(H)Δ6严格正裕度，保同一正Af缺量、全部C尾/跳图和原完整积分；接R496排当前允许cap全五门共同零。关闭该路线的同类搜索，不据此宣一般几何无解；原正字符下降范围严格按同一商接线。
 
 - [R517 周期scalar完整ruling与自动真实八矩返回](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)：**已证明**固定Δ八维尾忠实性、0/L/2L完整二差及两次重复判据；真正合法实解析整圆上一周期K0自动M0。未授周期轨道存在或frame/位置/第三第四period返回，主目标继续。
+
+- [R516 共同R1四次域与原盒曲率分离](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)：**已证明**同17低阶坐标的完整二次jet、原盒投影、metric二次门与实际G四次列门；固定低阶后给剩余原盒曲率的support-function iff，含连续整圈有限子族范围。原ring缺失完整Π向量已明确，未授当前58可行新态或连续reach。

@@ -16,6 +16,12 @@
 
 [真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。后继[ring17原观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)支付32.28273412599998秒/0值、LP未返候选，累计2863.061635735秒/147值，当前仍58。
 
+### R516已付R1共同低阶域；下一须给真实新态
+
+[R516](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)在原x0=0的同17一阶径向坐标上，付U仿射、Xss完整二次、原172盒的准确投影与剩余R2区间。原metric门为共同二次条件，实际G下形算子不变列目标为显式四次条件，剩余原盒曲率 iff 所有非负行组合的support-function不等式；没有逐角独立选法向，也未把浮点LP状态升格为严格分离。连续圈身份为B²+C²=|nθ|²/(a²G)，另须连续系数与uniform非退化。
+
+当前58尚无可行非零x。下一先从真正R1几何方向形成共同低阶态，再在其真实R2剩余盒内构造；原ring成功stdout未保存完整17个Π三向量V，只存ell收缩与hash，因此所需缺失kernel必须列入未来新Actions成本。原二阶LP已闭，不为补输出重跑；新候选最终仍需全body预测、准确舍入后的实际168/172与原两网14门。
+
 ### 仍须支付
 
 1. 把完整连接的metric误差降至同g精化收敛；有限首jet修复和现有163维改进不证明完整非线性边值问题可解。R64的后续 $u_5/v_8/b_7$ 若启用须含完整body项、扣原参考并成套改变自由基。
