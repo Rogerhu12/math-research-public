@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WJK：完整联合中心 Green 核与 collar 交叉项](results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md)：在固定WVC参考上精确提出同一个完整Gf，保五个collar项和真J*上限R；主体两χ′路径只在联合核中准确抵消，原primal/dual残差不删项。两Green三角、实际角带、全mean/atoms/ports均保；此为纯恒等式，不给新数值界或有限逆。
+
 - [W2C 完整输入库存](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)：固定原 WVC 算子，锁定两份原 signed collar 输入的不可变恢复元组、原19历史资格、29条同算子完整原球；13组 intrinsic complex records、65 signed offsets 与193参数族误差系数的原producer字段来源已核。只读合同完整，native payload及50(+2)新目标仍未运行。
 
 - WCTR 首次实际运行43901776543/1完整完成：36新＋20原字复制、96模态、24结构门、六图五前缀；充分界11976.30849仍false，有限逆未据此成立，不推出奇异。原WPS60/WVC56和完整物理范围保留，旧0/lost0；完整小结果见 notes/clipped_scalar_trace_residual_ci/run-43901776543-1/，已冻结。

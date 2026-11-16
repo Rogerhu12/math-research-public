@@ -312,3 +312,6 @@ selected环境新挂载后原会话目录不存在；显式/bin/bash、login=fal
 2026-11-16 16:36:30 UTC visible-exact-astra-0df9：九旧派生execution包装476973B普通清理，完整恢复e689aa98060c7062549c9af62eca66e9355ccc8e；每件Git/bytes/SHA全核，新索引96868B/fc8b3667349f354342fee67f046ce1079ae2e7ed/f509f395f2f3d82504631f2c829265ad954e760cc5c746e1055c6504fb1cf5d8，保总体scope/参数/gates/嵌套false与全部immutable原球资格，原小结论/native/current79依赖不动，旧科学0/lost0。
 同轮将open的WVCA/WEXA两完成段逐字索引；最新真pull16:28:30→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README同21bd547f/7e2b93d6。磁盘满仅移本会话工作区到独立/tmp并保原路径，随后16:31 executor unavailable，16:33真CLI pull明确失败；依根规8小文本继续，不冒称ref读取为pull。W2C带符号联合核和source继续，课题未完成。
 2026-11-16 16:37:39 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 7d9cf7984d699b8ddb4e64d6be5e31a1015426c4的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论非FF次数0；API核不计真pull。
+
+2026-11-16 16:39:03 UTC visible-exact-astra-0df9：WJK完整纯证72c3c33c11dc4c1904db4a3dac48dff44f040716/14025B/5b9a257a25b22b84423240242846f1fb4687573f9292773591cff01e7401c5ba，七节21式，根全文及Tail交叉项核；同Gf共同核、χ′精确消去与全部五collar项、真J*至R和全部mean/atoms/实际支持保。实际残差费用不据此删去；新科学0/新界0/旧重算0，W2C源实现继续，课题未完成。
+2026-11-16 16:39:06 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 8bf3909f21698dc1e0d772a8353da5e5ffef570d的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论非FF次数0；API核不计真pull。
