@@ -110,3 +110,7 @@
 ## R543 — 实际229当前请求字段断口在owner之前
 
 **已证明本次终态、完整必要读回和真实来源控制流；未得到新科学接受。** [R543](results/R543-actual229-current-request-field-mismatch-before-owner.md)28715/ba9a，run43863347779/head4a0f，compute133285545704 failure/report133294150607 success，两日志geometry各唯一。372source76567/206d与science40325/7125完整且两job同体；call0001原fresh withJ返回、binary64 norm14074125.72142333，system旧complete128-final字段缺失而caller只写新value+explicit64-model契约。KeyError先于factor/owner，QRchild2非timeout；owner/replay/model/FD/fullDN全未起，原6000/tol与模型质量未试，外层FloatingPointError不作数值失败。全部原错误、实际partial、空账、quiet/真实removed作用域完整保；无接受父，不加虚假旧true。另[230官方绑定](notes/2026-11-16-request230-official-run-binding.md)确认单POST200/run43867442383/同9f2b/compute133299541234；R546 exact唯一，原科学结果待付。
+
+## R550 — 同root已接受完整求值的一次复用与真实compiler接口
+
+**已证明完整有限程序条件保持及实际来源/接口；新科学结果未付。** [R550完整证明与接口](results/R550-same-root-accepted-complete-evaluation-reuse.md)26142/ca1e连header7311/8610、adapter16634/66c2、plan12303/14b5共四件62390B。原accepted完整RootEval仅同root下一iterate消费一次，全summary/residual/十词angular finite及形状资格失败只回原求值；初始和全部trial、原方向/taped solve/shadow checks、root30×20/owner32×10和全部门保。primal25794/40e8、trace35565/8224按6/5完整literal及逆仅Actions生成，原compiler3860/be01→5781/4a0a四literal，真原scope一次直接安装，R535只作为完整source祖先。原persistentCPP22364/7789及main/solve/replay、原g++/300s/PGID/19200/allcaps保；准备/安装/真实g++成功范围分列。两路径13实际计数/full last、原RootStats和R535完整统计保，不伪造省去工作，不声称资源前沿/速度/fit相同。R551/request232/R552另实际真接并修R543诚实新字段；现有运行不改，非完整112/338/450完成。

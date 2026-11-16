@@ -50,7 +50,7 @@
 
 R545七件341400B/topic254482B已9f2b完整刊：原473保→293public+242gen=535、8层source、修正argv/ENTRY保guard、三场consumer/8sameC/9scope/cleanup。current-inner实际receipt/env取完整SHA，祖先与derived205分列；original216 provenance漏键补实值，源map三列表完整逆且strict-smaller才用，原18900+2700/32GiB/90K/全部科学/quiet保。完整身份与接口见R545/固定9f2b H；[230官方绑定](notes/2026-11-16-request230-official-run-binding.md)本次刊，实际R546不预填。
 
-root R550同root已接受完整有限RootEval下一迭代复用，header7311/8610、adapter16634/66c2、plan12303/14b5、两include/真实compiler已成，完整证明收口；原trial/方向/门与实际计数保。amplitude R551/request232/R552真直接装R550并修诚实新字段guard，geometry R554/request233/R555独立仅修guard/完整来源；R553 metric常数consumer随后。exact R556真112far独立mode/共享原work-clock/完整journal顺序研究，后R557/request234/R558，不增预算或接受子集。每完整结论即刊，已跑源不改。
+**R550本次四件62390B完整刊**：[证明/全接口](results/R550-same-root-accepted-complete-evaluation-reuse.md)26142/ca1e，header7311/8610、adapter16634/66c2、plan12303/14b5。仅同root原accepted全finite RootEval下一iterate一次消费，初始/全部trial/方向/RK/门保持；primal25794/40e8、trace35565/8224仅Actions生成。真原scope直接安装5781/4a0a compiler，R535仅source祖先不可先装；原CPP/g++/main/replay及19200/allcaps保。两路13计数/full last及整个RootStats保，准备/安装/实际g++分列，资源前沿/速度/fit不预报。amplitude R551/request232/R552真接且修诚实新字段；geometry R554/request233/R555独立guard；exact R556全112far共享原work-clock/有序完整账本，后R557/request234/R558。已跑源不改，每完整结论即刊。
 
 ## 连续几何、精化与容量
 

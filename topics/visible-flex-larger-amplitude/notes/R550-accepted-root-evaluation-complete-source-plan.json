@@ -1,0 +1,206 @@
+{
+  "schema": "R550-accepted-root-evaluation-complete-source-plan-v1",
+  "scientific_execution_performed": false,
+  "source_root_policy": "Only the actual public repository Actions computations directory; all complete source identities bound; old originals kept",
+  "header": {
+    "file": "root_20261116_accepted_root_evaluation_reuse.hpp",
+    "bytes": 7311,
+    "sha256": "8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26"
+  },
+  "ancestor_R535": {
+    "adapter": {
+      "file": "root_20261116_native_root_finite_words.py",
+      "bytes": 10892,
+      "sha256": "1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db"
+    },
+    "source_plan": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    },
+    "header": {
+      "file": "root_20261116_native_root_finite_words.hpp",
+      "bytes": 7102,
+      "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+    },
+    "original_views": [
+      {
+        "role": "primal",
+        "original": {
+          "file": "geometry_20261115_native_primal128.cpp",
+          "bytes": 23890,
+          "sha256": "1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d"
+        },
+        "generated": {
+          "file": "root_20261116_native_root_finite_words_primal128.cpp",
+          "bytes": 25230,
+          "sha256": "3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241"
+        }
+      },
+      {
+        "role": "trace",
+        "original": {
+          "file": "geometry_20261115_native_trace_variation128.cpp",
+          "bytes": 34622,
+          "sha256": "8c40b4c7ed214a16afd06cd0157bf861822cb217a72bd0117bbed7f2c954204d"
+        },
+        "generated": {
+          "file": "root_20261116_native_root_finite_words_trace128.cpp",
+          "bytes": 34950,
+          "sha256": "2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12"
+        }
+      }
+    ]
+  },
+  "views": [
+    {
+      "role": "primal",
+      "base": {
+        "file": "root_20261116_native_root_finite_words_primal128.cpp",
+        "bytes": 25230,
+        "sha256": "3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241"
+      },
+      "output": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_primal128.cpp",
+        "bytes": 25794,
+        "sha256": "40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_native_root_finite_words.hpp\"\n",
+          "new": "#include \"root_20261116_native_root_finite_words.hpp\"\n#include \"root_20261116_accepted_root_evaluation_reuse.hpp\"\n",
+          "count": 1
+        },
+        {
+          "old": "struct RootStats {\n  R535WordStats r535_words;",
+          "new": "struct RootStats {\n  R550RootReuseStats r550_reuse;\n  R535WordStats r535_words;",
+          "count": 1
+        },
+        {
+          "old": "  void join(const RootStats &s) {\n    r535_words.join(s.r535_words);",
+          "new": "  void join(const RootStats &s) {\n    r550_reuse.join(s.r550_reuse);\n    r535_words.join(s.r535_words);",
+          "count": 1
+        },
+        {
+          "old": "  bool original_seen=false;\n  for (int it=0;it<30;++it) {\n    auto ev=root_evaluate(p,e,target,state,g,stats,&fixed_words);",
+          "new": "  bool original_seen=false;\n  RootEval accepted_evaluation;bool accepted_evaluation_ready=false;\n  for (int it=0;it<30;++it) {\n    auto ev=r550_original_or_accepted(accepted_evaluation,accepted_evaluation_ready,\n      it,stats.r550_reuse.primal,[&](){\n        return root_evaluate(p,e,target,state,g,stats,&fixed_words);\n      });",
+          "count": 1
+        },
+        {
+          "old": "        if (value.err<ev.err || value.err<=policy.stop*scale) {\n          e=std::move(trial); accepted=true; break;",
+          "new": "        if (value.err<ev.err || value.err<=policy.stop*scale) {\n          r550_offer_accepted(accepted_evaluation,accepted_evaluation_ready,\n            value,p,it,stats.r550_reuse.primal);\n          e=std::move(trial); accepted=true; break;",
+          "count": 1
+        },
+        {
+          "old": "  r535_print_word_stats(std::cout,s.r535_words);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "new": "  r535_print_word_stats(std::cout,s.r535_words);\n  std::cout<<\",\\\"root_accepted_evaluation_reuse\\\":\";\n  r550_print_reuse_stats(std::cout,s.r550_reuse);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "trace",
+      "base": {
+        "file": "root_20261116_native_root_finite_words_trace128.cpp",
+        "bytes": 34950,
+        "sha256": "2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12"
+      },
+      "output": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_trace128.cpp",
+        "bytes": 35565,
+        "sha256": "822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_native_root_finite_words_primal128.cpp\"",
+          "new": "#include \"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\"",
+          "count": 1
+        },
+        {
+          "old": "static constexpr const char *included_R535_primal_cpp_sha256 =\n    \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\";",
+          "new": "static constexpr const char *included_R535_primal_ancestor_sha256 =\n    \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\";\nstatic constexpr const char *included_R550_primal_cpp_sha256 =\n    \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\";",
+          "count": 1
+        },
+        {
+          "old": "  try{\n    for(int it=0;it<30;++it){\n      auto ev=root_evaluate(p,e,target,state,g,stats);",
+          "new": "  RootEval accepted_evaluation;bool accepted_evaluation_ready=false;\n  try{\n    for(int it=0;it<30;++it){\n      auto ev=r550_original_or_accepted(accepted_evaluation,accepted_evaluation_ready,\n        it,stats.r550_reuse.trace_variation,[&](){\n          return root_evaluate(p,e,target,state,g,stats);\n        });",
+          "count": 1
+        },
+        {
+          "old": "          if(chosen){accepted_trial=std::move(trial);accepted=true;accepted_k=k;break;}",
+          "new": "          if(chosen){\n            r550_offer_accepted(accepted_evaluation,accepted_evaluation_ready,\n              value,p,it,stats.r550_reuse.trace_variation);\n            accepted_trial=std::move(trial);accepted=true;accepted_k=k;break;\n          }",
+          "count": 1
+        },
+        {
+          "old": "  o<<\",\\\"root_finite_word_cache\\\":\";r535_print_word_stats(o,s.r535_words);o<<\"}\";",
+          "new": "  o<<\",\\\"root_finite_word_cache\\\":\";r535_print_word_stats(o,s.r535_words);\n  o<<\",\\\"root_accepted_evaluation_reuse\\\":\";r550_print_reuse_stats(o,s.r550_reuse);o<<\"}\";",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "compiler_function": {
+    "base": {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    "start": "def compile_owner(work, expected_cpp):\n",
+    "next_definition": "\ndef ",
+    "original": {
+      "bytes": 3860,
+      "sha256": "be019045058f4616f98b07e19c0d8d3901e979ce2b1ba7d4259c65fcae4ae46d"
+    },
+    "derived": {
+      "bytes": 5781,
+      "sha256": "4a0aeb01397968d660181e109b8f7a44e9363712f8173640d50739c19cabdc45"
+    },
+    "patches": [
+      {
+        "old": "def compile_owner(work, expected_cpp):\n",
+        "new": "def compile_owner(work, expected_cpp):\n    cache_binding = _R550_SOURCE_BINDING\n    require(cache_binding[\"schema\"] == \"R550-accepted-root-evaluation-source-binding-v1\", \"Actual R550 source binding\")\n    require(Path(cache_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R550 compiler source directory\")\n    ancestry = cache_binding[\"actual_R535_source_binding\"]\n    dependencies = cache_binding[\"actual_generated_sources\"] + cache_binding[\"actual_headers\"] + ancestry[\"actual_generated_sources\"]\n    dependencies += [cache_binding[\"actual_adapter\"], ancestry[\"actual_adapter\"]]\n    for desc in dependencies:\n        actual = HERE / desc[\"file\"]\n        require(actual.stat().st_size == desc[\"bytes\"] and file_sha(actual) == desc[\"sha256\"], \"Complete R550 compile dependency\")\n",
+        "count": 1
+      },
+      {
+        "old": "\"Complete frozen trace source\"",
+        "new": "\"Complete declared R550 trace view\"",
+        "count": 1
+      },
+      {
+        "old": "\"Unique frozen standalone trace main\"",
+        "new": "\"Unique declared R550 trace standalone main\"",
+        "count": 1
+      },
+      {
+        "old": "    record = dict(command=command, source=receipt(HERE/CPP), included_original_source=receipt(HERE/ORIGINAL_CPP),\n        frozen_R283_source=receipt(HERE/TRACE_CPP), generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=True, only_frozen_trace_standalone_main_excluded=True,\n",
+        "new": "    record = dict(command=command, source=receipt(HERE/CPP),\n        included_primal_source=receipt(HERE/ORIGINAL_CPP), included_trace_source_view=receipt(HERE/TRACE_CPP),\n        original_primal_ancestor=receipt(HERE/\"geometry_20261115_native_primal128.cpp\"),\n        original_R283_ancestor=receipt(HERE/\"geometry_20261115_native_trace_variation128.cpp\"),\n        R535_primal_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_primal128.cpp\"),\n        R535_trace_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_trace128.cpp\"),\n        generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=False, only_frozen_trace_standalone_main_excluded=False,\n        root_finite_word_cache_compilation_source_binding=dict(cache_binding,\n            actual_compiler_command=command, actual_generated_include=receipt(include),\n            actual_compile_returncode=code, actual_executable=receipt(executable),\n            actual_compile_stdout=receipt(work/\"compile.stdout.log\"), actual_compile_stderr=receipt(work/\"compile.stderr.log\"),\n            compiler_completed=True, source_preparation_alone_is_not_compilation=True,\n            original_persistent_CPP_source_unchanged=True, original_evaluate_observer_and_all_stage_rows_unchanged=True,\n            actual_R535_finite_words_and_R550_accepted_evaluation_reuse_sources=True,\n            original_root_iteration_trials_and_numeric_acceptance_unchanged=True),\n",
+        "count": 1
+      }
+    ]
+  },
+  "original_persistent_cpp": {
+    "file": "geometry_20261115_native_persistent128.cpp",
+    "bytes": 22364,
+    "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+  },
+  "numeric_contract": {
+    "original_root_iteration_limit": 30,
+    "original_root_line_trial_limit": 20,
+    "original_owner_iteration_limit": 32,
+    "original_owner_line_trial_limit": 10,
+    "reuse_scope": "Only the complete actual accepted trial RootEval at the next iteration in the same root invocation",
+    "eligibility": "Complete original shape and every returned summary, residual, and all ten angular values finite; otherwise call the original evaluator",
+    "no_candidate_or_domain_or_residual_gate_added": true,
+    "no_cross_root_state_geometry_or_H_cache": true,
+    "no_new_evaluation_for_eligibility": true,
+    "original_numerical_expressions_and_directional_updates_unchanged": true,
+    "original_trial_evaluations_all_execute": true,
+    "original_F_direction_C_direction_taped_solve_and_shadow_checks_all_execute": true,
+    "original_root_statistics_count_actual_executed_calls_only": true,
+    "R535_counters_not_inflated_for_skipped_work": true,
+    "separate_actual_main_iteration_sites_and_reuse_counters": true,
+    "resource_frontier_allocation_and_fenv_sticky_flag_equivalence_not_claimed": true,
+    "all_original_tolerances_budgets_FD_fullDN_and_final_audit_unchanged": true
+  },
+  "actual_scientific_run_registered": false
+}
