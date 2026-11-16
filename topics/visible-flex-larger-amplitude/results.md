@@ -95,3 +95,5 @@
 - [两旧24-domain manifest完整引用、实际读者与固定恢复](notes/2026-11-16-two-twenty-four-domain-manifest-retention.md)：本次76213必要/31352当前与77gzip/17组94行全返，真实临时artifact I/O；仅两清单1301002B，最后全delta及容量守护，全部现用输入与兄弟保。
 
 - [R591：actual captured reader四项绑定修复与完整request247](results/R591-actual-captured-reader-and-complete-source-chain-repair.md)：原618及56科学view不改→627/12层，只修真实名称/新metadata；原资源/门/90K70保，R592另付。
+
+- [R578：actual98全453三控制新初猜与当前H完整fullDN入口](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)：七件147266B/topic122097B，原451全保→457；只三guess值/全部fresh RHS和H，FD/fullDN同新file与原全门/clock保持；实际242/R579另付。

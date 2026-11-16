@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R578/request242完整新初猜入口](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)/[全CLI](notes/2026-11-16-request242-original98-three-scalar-current-H-fullDN-interface.md)本次独立刊**：真实98全453初猜仅三控制值使用R541新guess，完整原ZIP/成员/producer ledger绑定，全部节点RHS/H重新付；FD prepared与fullDN --warm同一新gzip，三参仍active/p′=0、不额外BC。原R589451全保→457/365public92generated、原19200含初始化/所有分cap和科学门/90K不改，R579 exact唯一。R591/247已[官方单POST绑定](notes/2026-11-16-request247-official-run-binding.md)到3ca6bddf/run43899155015/133410760515，1–14成功、15全E，R592 geometry唯一。
+
 本节更新前全部原词、参数、失败/未返/未访、source/run与全部责任原字保[8d1cfb2固定open](https://github.com/Rogerhu12/math-research-public/blob/8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46/topics/visible-flex-larger-amplitude/open.md)及[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46/topics/visible-flex-larger-amplitude/HANDOFF.md)。只折叠本§1.3已有完整历史，§4–6逐字不动，原结论/接口不删，已删raw不造父。
 
 **[R591/request247实际captured reader与完整来源修复](results/R591-actual-captured-reader-and-complete-source-chain-repair.md)本次独立刊**：R571 actual239的严格四名集合中旧bound230常量换真实captured239；四键/完整SHA/全部原门不放宽，原618项和R57056个科学/诊断输出逐字保→627=310public+317generated/12层。只新2public Python＋plan及6metadata view，原single-worker/18900+2700/32GiB/90K70/所有ownership不变；真实R592由geometry唯一终态，未来值不预填。
@@ -47,7 +49,7 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 **真实旧终态继续是未完成责任**：R552/232、R555/233、R563/236的两完整必要均超90K，内层owner/native/FD/fullDN值未知，不能当数学拒绝或借225值；R558/234旧sampler schema科学前止，完整generation107643未返；R571/239初始化8894完整但deadline null/十一层与科学未起。每个实际完整source/run/门/外exit/quiet/raw状态原文在对应results，不把“同job读过原body”误作此处完整返完。
 
-**完整连续几何误差条件与真实caller仍要支付**：[R553](results/R553-actual-quintic-prefix-coefficient-tube-and-joint-root-domain.md)同R553实际全joint正tube；[R569](results/R569-actual-cubic-versus-quintic-same-field-defect.md)完整实际PPoly四幂/全augmented列，与Q−C*和Q−C_lit区分、真实ρ归一化；R570/239虽有完整真实capture调用链，actual239未通过初始化，不能填cubic。R575全signed-bin/两mean/infinite-tail/全部alias条件和R580完整复角解析带/指数tail-alias已刊，仍无FFT/trig/RHS形成和真实全域metric证书。geometry续R576/241实际同R553对象/原cell退休顺序接R575、amplitude续R581/243接R580；原DFS/clock/Loewner与BVP门不变，新增诊断不作接受门。
+**完整连续几何误差条件与真实caller仍要支付**：[R553](results/R553-actual-prefix-coefficient-tubes-and-Frenet-majorants.md)同R553实际全joint正tube；[R569](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)完整实际PPoly四幂/全augmented列，与Q−C*和Q−C_lit区分、真实ρ归一化；R570/239虽有完整真实capture调用链，actual239未通过初始化，不能填cubic。R575全signed-bin/两mean/infinite-tail/全部alias条件和R580完整复角解析带/指数tail-alias已刊，仍无FFT/trig/RHS形成和真实全域metric证书。geometry续R576/241实际同R553对象/原cell退休顺序接R575、amplitude续R581/243接R580；原DFS/clock/Loewner与BVP门不变，新增诊断不作接受门。
 
 root继续R583原四个完整内循环的rounding-mode观测优化条件与全fallback/全RootStats边界，R584/244/R585只预留。amplitude四native224/227/237/240按原钟继续，exact三输入/原模型线与geometry全场线各自唯一终态。子题完成立即推，再接下一项，不以资源cap/源修复/阶段报告结束课题。
 
