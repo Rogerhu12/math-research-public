@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：d56bf70aef20a96f9bed456f5de5b30a87035455；2026-11-16 17:25:02 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：c5fa3158432ab35eae7fcbde830d4af88674f361；2026-11-16 17:27:43 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-tame-shadow-vanishing.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–911已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-tame-shadow-vanishing.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -53,7 +53,9 @@ R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfu
 
 四原S34/T72/U136/V66及全部CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
 R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完整H。Ĉp=(p+1)cint、DR3/Γ16/Fermat项不删；U三纤维run43870426107成功不赋中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/原sigma初值保。§16固定m/Miller/p曲率；§17 P6P_(m−6)保四α/前五modp窗，消全Z补极，二挠<2p³加偶性给C³η[2]=−α^(1/p³)rω，首次C真读同Q6QbR的γ1。旧trace/exact准确作模型差，不授权p²/p³替换。§18全Hurwitz顶边∂pFm=−mcp(Fp+v)Fm，真实T由原a_(p−1)/非齐次cpFp固定逆链读；r卷积/法向保；§19第六块准确读同低卷积/κ5，公共c2(p)消去，§20同Fa共用算子/Cartier质量且此质量再Cartier为0；真实exact差给同F6²加四完整带权伴随；未付两位边界或四方向非零。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/sigma初值与§16–20完整保。原P6P_(m−6)保α/五modp窗并消Z补极，C³η[2]=−α^(1/p³)rω；原Hurwitz顶值/cpFp法向、第六块低卷积/κ5不删。共同算子L^p=V^pL，A加权质量H再Cartier零；原四带权伴随全保，未付四α非零。
+
+[R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
 
 ## 第三门：同P/R/S与全实际有限类
 

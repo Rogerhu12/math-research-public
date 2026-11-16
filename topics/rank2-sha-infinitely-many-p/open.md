@@ -31,7 +31,7 @@ R863/H22、R876/879、R884A–I 已付全部原 norm-three/norm-two trace、old/
 
 R887§18原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。
 
-R887§19首个第六Gaussian块准确由同f_<p的L3/L(n−3)与κ5的s行卷积给出；原Taylor及完整连接误差求和支付e_a,p，共同c2(p)严格消去。只付modp首乘法缺陷，未付R699两位边界。
+R887§19首个第六Gaussian块准确由同f_<p的L3/L(n−3)与κ5的s行卷积给出；原Taylor及完整连接误差求和支付e_a,p，共同c2(p)严格消去。此处只付modp首乘法缺陷；R912另以原[p]除点数据支付完整两位输入，中央零到边界零的蕴涵仍未证明。
 
 **下一实质门：** 同一Q6与四个指定Q_(m−6)Rν方向的实际双线性关系及最终两次Cartier联合非零。四个实际 Fν,p、同一 trace 与原 P2 幂−Pm 的联合关系继续保留。不能由 adj 可逆、simple Smith 退化或 trace 配对非退化推四个指定 α 非零；不再逐个扩大已付运输家族。
 
@@ -171,3 +171,5 @@ R887§20同原Fa的共同有限p算子满足L^p=V^pL；全部Fa的A加权Cartier
 R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(p−1)=−r^p严格相消。共同非零质量不传到最终中央；继续同Wν和全部带权伴随。
 
 - [R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
+
+- [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。

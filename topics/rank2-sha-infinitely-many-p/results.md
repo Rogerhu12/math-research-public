@@ -354,3 +354,5 @@
 - [R908 附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：原全群环CM Hom/整饱和与固定跨p尺度给同D loc_q rawD_nq=0；完整q+1 Igusa/Drinfeld、q−1覆盖、CM degree-zero消全部常数，准确总系数(q−1)u(q+1)/q。全部prime-to-p tame旧层/有限新集合的增广坐标被D杀掉，p∤D则零；wild仅真实增广已运输，不宣称全局类或ordinary loc零。
 
 - [R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
+
+- [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
