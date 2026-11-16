@@ -50,3 +50,7 @@
 ## 2026-11-16 01:25:30 UTC /root — R424实际199完整读回
 
 [R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)run43775312697/source51a38839，compute133000173495/report133030931599同69567B/ed04510c必要全文已读。128唯一α1达9.68582474751023176056740816374984163e−11，full残差/226 replay词同；stage.cpp:44未限定BatchStats实际编译歧义，3462B原错误全文保，stage科学未起，112/338依赖未起，非协议70。audit内部1800秒仅560/576、7305/7488查询、6771推进：560/561各query9后advance未返、562 query4后advance未返、563 query0读回未完、564..575未起；所有极值仅partial，fullD不是闭面D。必要/错误/quiet后01:14:49真清三树；不借已删raw，不称SIMD性能/native/fullDN接受。R445/204只补真实类型限定后重生原完整链。
+
+
+### 2026-11-16 R439 实际202原十控制停止与投影范围
+[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)：run43784544723/source1a757004，两job同65926B/ae541e15必要全文已读；3接受/4α，原W.00008469756→6.792856894e−20，Decimal三式/112右端原tol过。首末120FD齐，投影Arb1687叶/1244split/0未决及453圆参考域齐；binary64投影unit第三7.70654e−8未过1e−8，不能与Decimal混用。53.339689176秒非resourcepartial；125方向/15块未访，必要/错误/quiet后01:10:46真清三树。末十词553B/ba7d7fe3只供fresh初猜，finite Gauss及binary64表lift不冒准确C/native/非零闭面；全文保所有原计数/门/未访/来源。
