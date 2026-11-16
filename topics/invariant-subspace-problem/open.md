@@ -135,7 +135,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **原连续相干列的全层MP。** [随机池完整证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)构造同D的q与精确r，候选相对最低费≤Sx/Sx+k+1、残量≤e^(−Sx+k/zx)；用真全层12·512^k修复得k=o(x)完整D†渐近最优，同fcoh低j一次MP小量。任意r步误差恰外池少于r位概率。k≈x、C+D返回和全partial仍开；原A_m含多降阶，不以假grade令H^-1g截低层。
 
-- **同actual-u的精确核与moving模型窗口已付。** [兼容Bernoulli塔/完整W_L源短缩](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)保同事件N≥L的Dv_r=v_(r−1)及真正压缩Gram；[缩放真实头/Chebyshev完整能量](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)给logχ≤47d⁴/4、δ²≤min(1,4ϑ^(2ν))||f_L||²，ν=floor(L/(d−1))。x=ceil e^(12d⁴)、L=ceil e^(71d⁴/12)、Q≥x−m+L时全部原头forcing的u统一趋0，显式k_pol∈K_(m,L)并逼近同f_L。母提升实际保R0^(j+ℓ+1)及跨块2z−1，不能按一次Q²费；旧e^(26d³)合法窗未扩大。须针对该真候选支付原carry及同w完整D导数，模型结论不代T的N=M。
+- **同actual-u精确核的旧moving模型窗口。** [兼容塔及缩放完整证明](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)已付同事件Dv_r=v_(r−1)、全部强头forcing和完整W_L源Gram；参数、费用与原链接保前态。当前直接V/K估计见末段。全部母carry仍须R0^(j+ℓ+1)/跨2z−1，旧logQ≤26d³合法窗未扩；模型核不代原N=M。
 
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
@@ -149,6 +149,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **critical当前完整范围。** [135支撑](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)、[tangent2/270](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)、[pure normal3/300](results/R150-appendix-complete-pure-cubic-normal-critical-high-slice.md)三域均只得旧高核2/fullleading13/gain0；这些负结论限声明支撑。随后[完整真Q高核](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)三域153×60实rank53/核7，原43316乘回真；配原H6018×4266残域rank4259夹得完整Q高核恰7。全部高核仅162支撑，normal≥3零，含原切片缺失的d²n/cd²n/d³n。接全部170低方程、101低变量、7高返回和完整先前jet；参数首连接未算，Q仍6…8/6…8/4…5，全局278…298。
 
-**原127完整critical循环谱。** [五完整主分量](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)实际F±各(3,5)、E8三因子各(2,3)，维24/24/10/10/20总88，52624原kernel/action乘回。全广义系数检测须覆盖双块及1834 globalZ；max jet精度5/3、单max链不足全负。无新Q界。全部前态保[此次完整快照](notes/2026-11-16-open-before-complete-number-field-seven-789f.md)。
+**原127完整critical循环谱。** [五完整主分量](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)实际F±各(3,5)、E8三因子各(2,3)，维24/24/10/10/20总88，52624原kernel/action乘回。[E8-1完整广义检测族](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)实得两泛函覆盖6→10，12252原GB jet/120参数作用全真；435×448原quotient、88完整jet核保free13。其余四factor同源已排；4367运输和1834全参数Z仍待付，单max链不足全负。无新Q界。全部前态保[此次完整快照](notes/2026-11-16-open-before-complete-number-field-seven-789f.md)。
 
 **直接原V/K差的完整Gram窗口。** [actual-u定理](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)在完整G_E上以grade传播构造真k_pol∈K_Q，低尾孔s的同f满足||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||、ν=floor((Q−s)/(d−1))；无κ²前因子/无需远池，所有原头forcing与无限尾位置统一。真实头给logQ=35d⁴/6+O(d³)与u≤2e^−2m，但母carry全R0^(j+ℓ+1)仍O(d⁵)，原T/同w运输未闭；继续此候选的实际carry和完整forcing谱。

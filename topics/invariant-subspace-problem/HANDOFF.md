@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** ad0278b29f83c035d83f44a262a1e375137c3450（2026-11-16 02:07:05 UTC，Actions run43790182300实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43790182300-1.json。
+- **最近成功实际 pull 与已读规则提交：** 294418752b42fbd717d6014f213fbabf3c2cf0dc（2026-11-16 02:09:05 UTC，Actions run43790380517实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43790380517-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -28,8 +28,8 @@
 
 ## 活跃执行、临时缓存与立即恢复
 
-- **旧live run43756208221已success结束**：55数学步小回执全推，三域真Q核7实际39.423/50.272/276.666秒。旧tmp及Q/∞/Ω/core缓存不再视为活；接完整首连接须从小源码最小重算weak135三父→同Q7三域，逐旧manifest/phase SHA核对。禁止上传可重算大数组。原request及52步历史归档保前态。
-- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。16步：前14成功/15 reader失败/16 v2成功9.149秒，E8-1两泛函覆盖完整10维，12252原GB jet与120作用核真；4367运输/全1834Z未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
+- **旧live run43756208221已success结束**：56步（含失败/预算）小回执全推，三域真Q核7实际39.423/50.272/276.666秒。旧tmp及Q/∞/Ω/core缓存不再视为活；接完整首连接须从小源码最小重算weak135三父→同Q7三域，逐旧manifest/phase SHA核对。禁止上传可重算大数组。原request及52步历史归档保前态。
+- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。20步：前14成功/15 reader失败/16 v2成功9.149秒；[E8-1全检测族](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)两泛函覆盖10维，12252原GB jet/120作用真。17…20同v2续其余四factor/common phase；4367运输/1834Z未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
 - 活跃runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
