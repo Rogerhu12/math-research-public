@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：纯远孔代表与全高度联合倒数门
+
+完整Galerkin/全强头MP给各纯r代表；W/V差只乘范数≤1核投影，原物理核项准确最小。全高度同w Bessel及统一吸收给Σκ⁻²必要可和，原Q/全部h/帽门保留；实际费用仍开。root与literature全文独审父稿及[正式证明](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：权十完整输入后的空候选预算边界
 
 实际八阶段及全2000 SSI门核同；std555.227秒仅START，整体592.369秒/75，无第9验证、不空续。根独立执行全文已审V8源，2172字节semantic及2027/3469 raw双SHA全同，原数学正负仍开。见[正式边界](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。AI-assisted GPT-6 Astra Pro。

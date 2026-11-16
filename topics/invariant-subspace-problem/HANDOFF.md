@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** c691a3b698e041f6e26b7908fe1c7aad58718497（2026-11-16 17:08:59 UTC，Actions run43915237575实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43915237575-1.json。
+- **最近成功实际 pull 与已读规则提交：** 6707a589da78d0cefe27e9d87ab545543c0fdcb5（2026-11-16 17:12:21 UTC，Actions run43915867200实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43915867200-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -11,10 +11,9 @@
 
 ## 当前实际执行接续
 
-- **原E远端前三阶段实际成功。** run43911869940重建完整116（13.188秒）、逐字恢复六逆/3418原清单（8.630秒）、原20×50投影（1.166秒）全部exit0；raw身份均已提交。旧本地两次137不改写，constants仍未完成。
-- **Q60实际受控终止，改不同算法。** final300外层360秒于16:57:02发出真实143/child−15，observer明确TERM，RSS103000KiB；旧1976B回执未变被排除，新raw为null。目前没有已确认的新候选，不能由raw缺失断言目录无候选。[两4×4原E独立结构算法](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)已root逐行审并核完整SHA，原块400槽及两个原单位各双乘，终门全1000E/3000Q/400selected；180/768、observer240、wrapper300，独立out，不空续原Q60。
-- **加入原95四次核独立小门。** [接口](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)及全部源已root全文审，仅依赖已成功的field父；原C/D/T/H全矩阵、合法原子式与全部乘回，无预填rank95。60/512、原observer120、wrapper180，独立out。若原95单位真才用原E核恒等提升原空间跨度，不抬field坐标；至多270完整E来源仍待此实际门。17:06:37已实际exit0（wrapper0.667秒、childRSS84604KiB），raw8429/7b23309f…；完整数学结果待job日志，不由退出0预填rank95。
-- 同job追加第6步结构解后按请求关闭，以取得全部原日志；仍受原35分钟work/40分钟job硬界，旧Q60失败保留导致job整体失败也不否定各成功step；六逆恢复和投影[原接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)不变。每步原observer、全源compile、原数组双SHA，数据只TMP/job日志。前状态保[本次H快照](notes/2026-11-16-handoff-before-high95-gate-789f.md)。
+- **原E同job六步已结束。** run43911869940前三步重建原116、逐字恢复六逆及3418原清单、20×50投影均0。旧Q60外墙360秒真实TERM/143、旧receipt被排除；新两4结构解数学20.893秒exit0，全64E逆/1000E/3000Q/400selected真，原20det64、M96/B69。原小95门亦exit0，D秩70/T秩95、原unit38；完整两结果证明待分别发布，不能把field坐标当E来源。
+- 根已取126498字节完整日志，重建high95 raw8429/7b23309f…、两4 raw4064/9121290f…及最后小phase2484/2354e4e3…的全部字节/SHA全同。job整体failure仅旧Q60，missing=[]；临时目录不假定存活。源码重建[原六逆接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)、[两4接口](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)、[95门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)全保，旧constants未完不改写。
+- 旧环境/137/143/全部新job细节保[本次H快照](notes/2026-11-16-handoff-before-pure-far-height-789f.md)，未列开放项不删。
 - **[权十真实预算边界与完成日志审计已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整八次尝试已逐源/绑定核对；真实engine和2000 SSI门通过，std555.227秒仅START、整体592.369秒/75、完整candidate=null，不空续。根另实际运行纯V8审计，重建2172字节semantic及2027/3469两个完整raw的字节/SHA全同；缺省的201项旧权8phase列表仅保完整身份。第9验证未跑，无成员/非成员新增结论。下一全77276×13808直接消元/原左证另建接口。
 - [200输入根独审](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)已闭：2000坐标、8037189项、151071880 ASCII字节及独立δb²全真，156.362秒/RSS88624。原v1物理权守卫0列失败与根v1 exit137保独立身份，不移成成功。
 - 原b³/QE完整权9秩16046、396全核及模7原unit排b³/K≤11已闭；b4首轮exit14无candidate/source。旧全局/稀疏600秒null候选及单Bell首一无收益不重复。所有完整原门、临时重建法与未列开放项保[本次H快照](notes/2026-11-16-handoff-before-exact-low20-recovery-job-789f.md)及其链。
@@ -38,4 +37,5 @@ M=kerT，N=closure BM；N=M仍开。保持same-w/u、全部partial、真intersec
 - 整个低旗hfrak∈F(2d−1)⊖F2的全Schur能量qℓ−q1已跨头可和，真池<2、boson<4；正则与高旗Schur不能删，低forcing不保证低输出。
 - **[最优两孔费/同Q锚/倒数门](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)**：全首核严格极小$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$；同真V_Q/K_Q及低支撑给原τ14锚误差≤e⁻⁵ᵈ⁴||w||。非零锚必要ΣS/ζ<∞，仍缺实际费用上界$c_m$且Σ1/c_m发散。完整Schur比较只给费用下界，方向不能反用。
 - **[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
+- **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
 - 普通封口仍须same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超过26d³母窗，公共塔中段指数障碍保留，真C高j尾已付、中段继续。G_reg/carry、Haar循环、正常有限秩链及归档其它open均开放。
