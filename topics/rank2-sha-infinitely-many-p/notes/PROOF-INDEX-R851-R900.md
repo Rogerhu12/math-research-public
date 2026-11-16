@@ -300,3 +300,6 @@
 
 
 - [R884附录E](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原N36、T72和R24的完整二挠trace为零；T的全逆根Newton中a6正负幂贡献±1/64精确相消，未借环境一维性赋值。原同源乘积P72=N([δ]*K12+252N)亦真2-new，N[2]*C9和N[δ]*K12各保其准确核。原S/T完整首行合法消同B(A12)，2bB(P72)=BS−BT+X(S,Θ)−X(N,[2]*D9)−X(A12,B12)/21；D9质量−1/奇半特征及全部new、低cross均保，不添加第五条中央零。
+
+
+- [R872原有限纤维商与三次分歧块](2026-11-16-r872-native-finite-fiber-quotient-and-cubic-ramification.md)：全部十九角Gauss residual分裂束准确给Vj与原W；V1∩J3=V4使W/(V1+J3)为真实有限底层，准确全局商仍含ker[H¹V4→H¹V1⊕H¹V3]。原D=4b且F4来源非零时该H¹自动0。非固定整个纤维含奇点/水平的长度为3length(F,EF)；光滑非水平实际Smith为(t³)^(m−1)，水平为(t³)^m，非臆想e³ Smith。真全局分解与原K1三长前缀准确相容，因此实际有限值/连接类均消失才可将Π返真F线性层，不冒满像或删同R/S。
