@@ -288,3 +288,5 @@ fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publicat
 2026-11-16 12:13:09 UTC WRTA独推：SCI2ab3e929/90315/fa85503b、exec6510c229/17176/165fefb1、report446完整读取；原32fields/18gates/16progress、7图42ball和75copy/10scope、11current/2AST全部核。两同算子whole/reduced新7.44656e339均选new，旧候选不删；无旧重算/new exp/数组，42target已冻。完整证明c2a6f0ee/22493/48d1bea2；README d0d923853c15915cf727485bdabf6a9aed023dc5不变，继续WSJ/WDG和actual有限残差。
 
 2026-11-16 12:14:24 UTC WDG全文0e4bf6ce/27168/212385b5独推；根复读WX原真实positive products/同d变分，正cut+积分、全Bell/cut strip/35原record域及80新目标闭。新数未执行，现有437slot冻结；Rω止14，absolute edge15独立WSJ。两README 7b5e7a0f4a775d3326e636ceea83480b4a651707未变，继续consumer与有限残差，不加审批门。
+
+2026-11-16 12:15:39 UTC 按根15普通删R120已完成两九截面derived report共509943B；完整证据R1208509B/manifest5377B与两producer6195/21116B已读，Git/bytes/源SHA吻合，未读大body/未重算。restore93eb013259ae836de5de23e80873744493e10cef同path与原完整SHA保notes/2026-11-16-R133-completed-R120-nine-section-report-history-recovery.md；保原输入/连续首格/失败及全部域限制。README bf74b397404a0b3b99a035004cfaddcc40359046无变，继续WDG/WSM/有限逆。
