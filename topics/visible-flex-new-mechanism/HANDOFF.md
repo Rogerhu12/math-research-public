@@ -36,14 +36,14 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 55 physical **39e71805432d8e1814032200b8cb70973e95475b4ec02696233a7bb37e57746e**；independent159 **a66f9708cb878b5d700de8ca072017daa39ff3913f061315fe070f8b54bb7fc2**；objective **5407778b5d8290ee1ad257259e0bcfe378147e805a8fc90eb12b4db230d183d1**。两池4453/4549、v14/14本次无新增；bank512/B.00025/streak0/0、learning61/62/0原passive状态保checkpoint。帽高微负浮点在原容差，不称连续证书。
 
-原raw **81300477B/36bfb2269d5a85c52116066e521c9ffdce4f9c99dc35866a11d31e0830928ce2**；COMPLETE5388242B/a7819f1e…、FINAL95650B/61ac9c3d…。该54任务总 **196.268239511秒/4值**，含全部本进程imports/input/output；祖先总 **2073.56241112秒/134值**，旧全部backend/J/验收回放与独立开发0，无overrun，600任务随接受闭合不重开。
+原完整stdout身份见55note。该54任务总 **196.268239511秒/4值**，含全部本进程imports/input/output；祖先总 **2073.56241112秒/134值**，旧全部backend/J/验收回放与独立开发0，无overrun，600任务随接受闭合不重开。
 
 54 MODEL已闭，不能当55 J。真实55 CACHE2为29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f，binding697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6，只含已付U/T/e/f/grid/159，缺positions/curvature/二jets/J；完整身份见原55note。全部payload仅原stdout。
 
-## 5. 正在接续（2026-11-16 09:36:43 UTC）
+## 5. 正在接续（2026-11-16 09:41:41 UTC）
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw26447484B/9f94dfe7f54bc8f17badf3cc29fd74ccc01e110342492780d6f8a091b0ccfc34。正在最小shape修复并Actions读回已付粗网，继承同600钟/started1，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
+[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw/hash见原note。[最小续接](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)源/请求已发布，自动run待绑定；恢复已付coarse，不ordinary重算。原75.06856296999999秒/started1先载入同600钟，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
 
-旧cap15/冻结ψ3及三原子有限任务均闭；来源/费用见各原notes，不重开余额。主完成门未付，继续open。
+主完成门未付，继续open。

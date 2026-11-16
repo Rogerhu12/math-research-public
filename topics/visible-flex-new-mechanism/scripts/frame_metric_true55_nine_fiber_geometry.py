@@ -4,7 +4,9 @@
 Import-only.  No old159 derivative, old optimizer, trial, log loader or test is
 called here.  The caller owns one pre-input/pre-import NineFiberLedger.
 
-Two necessary ordinary values supply the complete current position two-jets.
+Two charged ordinary inputs supply the complete current position two-jets.
+The failed first entry already paid the coarse ordinary input; its pinned
+partial-MODEL arrays may be restored without another ordinary call or debit.
 Only variable hard pool rows enter the two selected J9 calls.  The two complete
 metric9 calls supply every metric derivative, including selected soft rows and
 later attainers.  A master scan means phi0 + grad(phi0).delta, not the nonlinear
@@ -109,6 +111,10 @@ def build_new_nine_geometry(prepared, ledger, capture=None, *, source_binding=No
     Required prepared keys:
       problem, initial159, gate, cfg, radial, theta, fine_theta, row_grids,
       order, coarse_pool, fine_pool, source_binding, replay.
+    Optional restored_new9_ordinary may contain only coarse={data,source_receipt}
+    from the pinned failed entry's complete ordinary input.  Transfer owns the
+    literal source/array hashes, and the shared ledger must inherit its started
+    ordinary debit.  This builder resumes at derived scalar rows, not geometry.
     gate.original_lower/original_upper are the true physical163 boxes.
     lower/upper159 pivot envelopes are never substituted for those boxes.
 
@@ -216,6 +222,19 @@ class NineFiberGeometry:
             require(self.pools[label].tolist() == cp[label+"_pool"],
                     "the source55 pool IDs/order must not be expanded or reinitialized")
         self.pool_versions = {label: int(cp[label+"_pool_version"]) for label in LABELS}
+        restored = prepared.get("restored_new9_ordinary", {})
+        require(isinstance(restored, dict) and set(restored).issubset({"coarse"}),
+                "only the actually paid failed-entry coarse ordinary may be restored")
+        self.inherited_ordinary_started = int(
+            getattr(ledger, "counts", {}).get("necessary_model_grid_values", 0))
+        if restored:
+            require(self.inherited_ordinary_started >= 1,
+                    "the shared scope must retain the original started ordinary debit")
+        self.ordinary_inputs_restored = 0
+        self.ordinary_inputs_newly_started = 0
+        self.ordinary_input_receipts = {}
+        capture["inherited_ordinary_started"] = self.inherited_ordinary_started
+        capture["restored_ordinary_input_grids"] = sorted(restored)
         self.grid_records, self.base = {}, {}
         self._selected_tags, self._gradient_records = set(), {}
         self._last_scan, self._last_direction_cache = None, None
@@ -248,15 +267,67 @@ class NineFiberGeometry:
                 "theta_array_sha256": array_digest(theta),
                 "fine_theta_is_source55_array": label == "fine"}
             raw_cache = capture["_arrays"][label] = {"hard_ids":hard_ids}
-            event = ledger.begin(
-                "necessary_model_grid_values", grid=label, source_accepted_index=55,
-                purpose="new-nine hard-model complete two-jet input",
-                physical_state_sha256=SOURCE_PHYSICAL_SHA,
-                old159_J_requested=False, fine_theta_regenerated=False)
+            restored_item = restored.get(label)
+            event = None
+            if restored_item is None:
+                event = ledger.begin(
+                    "necessary_model_grid_values", grid=label, source_accepted_index=55,
+                    purpose="new-nine hard-model complete two-jet input",
+                    physical_state_sha256=SOURCE_PHYSICAL_SHA,
+                    old159_J_requested=False, fine_theta_regenerated=False)
+                self.ordinary_inputs_newly_started += 1
             try:
-                ordinary = dict(self.field.geometry(
-                    self.center168, self.radial, theta, self.order,
-                    jacobian=False, full_two_jet_jacobian=False))
+                if restored_item is None:
+                    ordinary = dict(self.field.geometry(
+                        self.center168, self.radial, theta, self.order,
+                        jacobian=False, full_two_jet_jacobian=False))
+                    ordinary_receipt = {
+                        "kind": "new-necessary-ordinary55-for-nine-derivative-input",
+                        "grid": label, "source_accepted_index": SOURCE_INDEX,
+                        "physical_state_sha256": SOURCE_PHYSICAL_SHA,
+                        "source_binding": copy.deepcopy(self.source_binding),
+                        "ordinary_value_ledger_ordinal": event["ordinal"],
+                        "not_the_old55_UT_only_cache": True,
+                        "ordinary_geometry_called_in_this_build": True}
+                else:
+                    require(isinstance(restored_item, dict)
+                            and isinstance(restored_item.get("data"), dict)
+                            and isinstance(restored_item.get("source_receipt"), dict)
+                            and bool(restored_item["source_receipt"]),
+                            "literal restored data and its pinned original source receipt required")
+                    ordinary = dict(restored_item["data"])
+                    # These are shape/finiteness and exact-grid input contracts.
+                    # No ordinary value, consistency comparison with a second
+                    # geometry, or derivative is evaluated during restoration.
+                    for key in POSITION_KEYS:
+                        _finite(ordinary.get(key), (grid.nr, grid.nt, 3),
+                                "restored ordinary/"+key)
+                    for category, keys in (
+                            ("metric", ("a", "a_s", "a_ss")),
+                            ("height", ("b", "b_s", "b_ss"))):
+                        require(isinstance(ordinary.get(category), dict),
+                                "the complete restored "+category+" dictionary is required")
+                        for key in keys:
+                            _finite(ordinary[category].get(key), (grid.nr,),
+                                    "restored ordinary/"+category+"/"+key)
+                    _finite(ordinary.get("center"), (grid.nr,), "restored ordinary/center")
+                    require("radial" in ordinary and "theta" in ordinary,
+                            "the paid ordinary must contain both original grid arrays")
+                    ordinary_receipt = {
+                        "kind": "restored-paid-new9-coarse-ordinary-from-failed-entry",
+                        "grid": label, "source_accepted_index": SOURCE_INDEX,
+                        "physical_state_sha256": SOURCE_PHYSICAL_SHA,
+                        "source_binding": copy.deepcopy(self.source_binding),
+                        "original_failed_entry_source_receipt":
+                            copy.deepcopy(restored_item["source_receipt"]),
+                        "inherited_ordinary_started_count": self.inherited_ordinary_started,
+                        "ordinary_geometry_called_in_this_build": False,
+                        "ordinary_debit_repeated": False,
+                        "not_the_old55_UT_only_cache": True,
+                        "resume_at_first_uncompleted_derived_scalar_rows": True}
+                    self.ordinary_inputs_restored += 1
+                    raw_cache["restored_source_receipt"] = copy.deepcopy(
+                        restored_item["source_receipt"])
                 for key, value in (("radial", self.radial), ("theta", theta)):
                     if key in ordinary:
                         require(_same_bytes(_finite(ordinary[key]), value),
@@ -265,29 +336,39 @@ class NineFiberGeometry:
                 ordinary["state168"] = self.center168
                 ordinary["source_accepted_index"] = SOURCE_INDEX
                 raw_cache["ordinary"] = ordinary
+                self.ordinary_input_receipts[label] = copy.deepcopy(ordinary_receipt)
+                info.update(
+                    ordinary_input_receipt=copy.deepcopy(ordinary_receipt),
+                    ordinary_restored_without_geometry=restored_item is not None)
+                ledger.check("nine-geometry."+label+".before-derived-rows")
+                # A radial vector is a COLUMN against the complete angle grid.
+                # The old (Nr,) argument did not broadcast to (Nr,Ntheta).
                 derived = row_values(
-                    ordinary, np.asarray(ordinary["metric"]["a"]), self.side, self.cfg)
+                    ordinary, np.asarray(ordinary["metric"]["a"])[:, None],
+                    self.side, self.cfg)
                 ordinary["eta"] = np.asarray(derived["eta"])
                 raw_rows = _finite(derived["rows"], (11, grid.nr, grid.nt),
                                    "complete original scalar values").copy()
                 raw_cache["rows_with_original_hard_components"] = raw_rows
                 bound = self.field.bind_ordinary(
-                    self.center168, self.radial, theta, ordinary,
-                    {"kind": "new-necessary-ordinary55-for-nine-derivative-input",
-                     "grid": label, "source_accepted_index": SOURCE_INDEX,
-                     "physical_state_sha256": SOURCE_PHYSICAL_SHA,
-                     "source_binding": copy.deepcopy(self.source_binding),
-                     "ordinary_value_ledger_ordinal": event["ordinal"],
-                     "not_the_old55_UT_only_cache": True})
+                    self.center168, self.radial, theta, ordinary, ordinary_receipt)
                 raw_cache["bound"] = bound
                 info.update(ordinary_bound_sha256=bound["binding_sha256"],
                             true_eta_maximum=float(np.max(ordinary["eta"])),
                             ordinary_two_jets_retained=True)
-                ledger.end(event, ordinary_bound_sha256=bound["binding_sha256"],
-                           true_eta_maximum=info["true_eta_maximum"],
-                           point_count=grid.point_count, no_old159_J=True)
+                if event is not None:
+                    ledger.end(event, ordinary_bound_sha256=bound["binding_sha256"],
+                               true_eta_maximum=info["true_eta_maximum"],
+                               point_count=grid.point_count, no_old159_J=True)
+                elif callable(getattr(ledger, "note", None)):
+                    ledger.note(
+                        "nine-geometry.restored-paid-ordinary-input",
+                        grid=label, ordinary_bound_sha256=bound["binding_sha256"],
+                        inherited_ordinary_started=self.inherited_ordinary_started,
+                        ordinary_geometry_repeated=False, ordinary_debit_repeated=False)
             except Exception as error:
-                ledger.end(event, error)
+                if event is not None and event.get("status") == "started":
+                    ledger.end(event, error)
                 raise
             ledger.check("nine-geometry."+label+".after-ordinary")
 
@@ -514,7 +595,15 @@ class NineFiberGeometry:
             "complete_phi0": self.phi0,
             "fixed_outside_phi": float(fixed_outside_phi),
             "domain_receipt_sha256": digest(self.domain_receipt),
-            "ordinary_grid_values": 2, "selected_hard_J9_grid_builds": 2,
+            "ordinary_grid_values": 2,
+            "ordinary_grid_values_mean_two_once_charged_inputs": True,
+            "ordinary_grid_values_newly_started_in_this_build":
+                self.ordinary_inputs_newly_started,
+            "ordinary_grid_values_restored_without_reexecution":
+                self.ordinary_inputs_restored,
+            "inherited_ordinary_started_count": self.inherited_ordinary_started,
+            "ordinary_input_receipts": copy.deepcopy(self.ordinary_input_receipts),
+            "selected_hard_J9_grid_builds": 2,
             "complete_metric9_grid_builds": 2,
             "old159_J_and_selected_soft_J_builds": 0,
             "master_scan_is_baseline_linear_phi": True}
@@ -546,6 +635,10 @@ class NineFiberGeometry:
             "ordinary_cache_accessor": "grid_records[label]['ordinary']",
             "bound_cache_accessor": "grid_records[label]['bound']",
             "complete_metric9_accessor": "grid_records[label]['metric9']",
+            "ordinary_inputs_newly_started_in_this_build": self.ordinary_inputs_newly_started,
+            "ordinary_inputs_restored_without_reexecution": self.ordinary_inputs_restored,
+            "inherited_ordinary_started_count": self.inherited_ordinary_started,
+            "ordinary_input_receipts": copy.deepcopy(self.ordinary_input_receipts),
             "only_selected_hard_J9_and_complete_metric9_were_built": True,
             "actual_candidate_not_evaluated_by_this_helper": True}
 

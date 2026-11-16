@@ -21,6 +21,8 @@ COMPLETE="complete-true55-new9-fiber-original-actual-observation"
 MAX_MATH_STDOUT_BYTES=112*1024*1024
 SOURCE_SECONDS=2073.56241112
 SOURCE_VALUES=134
+PRIOR_NEW_SCOPE_SECONDS=75.06856296999999
+PRIOR_NEW_SCOPE_COUNTS={"actual_grid_values":0,"actual_trial_pairs":0,"finite_master_calls":0,"finite_master_iterations":0,"finite_master_newton_systems":0,"full_separations":0,"hard_J_grid_builds":0,"metric9_grid_builds":0,"necessary_model_grid_values":1,"new_metric_rows":0,"scalar_queries":0,"scalar_sessions":0}
 STDOUT_BYTES=0
 NEW_SOURCES=(
  "frame_complete_body_extension168.py",
@@ -30,6 +32,7 @@ NEW_SOURCES=(
  "frame_metric_true55_nine_fiber_geometry.py",
  "frame_metric_true55_nine_fiber_model.py",
  "frame_metric_true55_nine_fiber_transfer.py",
+ "frame_metric_true55_nine_fiber_resume_input.py",
  "frame_metric_true55_nine_fiber_actual.py",
  "frame_metric_true55_nine_fiber_line.py",
  "frame_metric_true55_nine_fiber_audit.py",
@@ -80,7 +83,7 @@ def implementation_hashes(request):
 def load_runtime():
     global np,scipy,digest,array_digest
     global read_source,prepare_source,build_new_nine_geometry
-    global NineFiberModel,exchange_nine_fiber,NineFiberActual,NineFiberLine
+    global NineFiberModel,exchange_nine_fiber,NineFiberActual,NineFiberLine,restore_paid_coarse
     import numpy as np
     import scipy
     from frame_height_null_coordinates import digest
@@ -88,6 +91,7 @@ def load_runtime():
     from frame_metric_true55_nine_fiber_transfer import read_source,prepare as prepare_source
     from frame_metric_true55_nine_fiber_geometry import build_new_nine_geometry
     from frame_metric_true55_nine_fiber_model import NineFiberModel,exchange_nine_fiber
+    from frame_metric_true55_nine_fiber_resume_input import restore_paid_coarse
     from frame_metric_true55_nine_fiber_actual import NineFiberActual
     from frame_metric_true55_nine_fiber_line import NineFiberLine
     require(sys.version.split()[0]=="3.12.14"
@@ -169,9 +173,13 @@ def partial_input_payload(capture,jets,prepared):
 
 def cost_snapshot(ledger):
     if ledger is None:
-        elapsed=time.monotonic()-PROCESS_STARTED
-        counts={}
+        current_elapsed=time.monotonic()-PROCESS_STARTED
+        elapsed=PRIOR_NEW_SCOPE_SECONDS+current_elapsed
+        counts=dict(PRIOR_NEW_SCOPE_COUNTS)
         result={"scientific_seconds":elapsed,"started_counts":counts,
+                "prior_same_task_scientific_seconds":PRIOR_NEW_SCOPE_SECONDS,
+                "current_process_scientific_seconds":current_elapsed,
+                "prior_scope_literal_receipt_not_yet_authenticated_in_this_process":True,
                 "limits":{"science_seconds":600},
                 "remaining_scientific_seconds":max(0.,600-elapsed),
                 "deadline_observed_exceeded":elapsed>=600,
@@ -213,6 +221,7 @@ def main():
     ledger=prepared=completed=jets=model=handle=scan=cache=line=actual=None
     scope_error_type=()
     source_capture={}
+    continuation_capture={}
     build_capture={}
     exchange_progress={}
     report={
@@ -244,7 +253,12 @@ def main():
         report["source_files_sha256"]=implementation_hashes(request)
         from frame_metric_true55_nine_fiber_scope import NineFiberLedger,NineFiberLimit,LIMITS,POLICY
         scope_error_type=(NineFiberLimit,)
-        ledger=NineFiberLedger(PROCESS_STARTED,ancestor_receipt=source_closed_receipt())
+        prior=request["continuation"]["prior_scope_receipt"]
+        require(prior["scientific_seconds"]==PRIOR_NEW_SCOPE_SECONDS
+            and prior["started_counts"]==PRIOR_NEW_SCOPE_COUNTS,
+            "the original failed-entry time and started counts precede all new input")
+        ledger=NineFiberLedger(PROCESS_STARTED,ancestor_receipt=source_closed_receipt(),
+            prior_scope_receipt=prior)
         params=request["parameters"]
         require(POLICY==POLICY_NAME and params["policy"]==POLICY
             and params["limits"]==LIMITS
@@ -285,6 +299,14 @@ def main():
             fixed_b0_definition_sha256=request["fixed_b0_definition_sha256"],
             full_value_sampling_definition=copy.deepcopy(prepared["grid"]),
             source_transfer=copy.deepcopy(prepared["replay"]["source_input_restoration"]))
+        tick=time.monotonic()
+        try:
+            restored,receipt=restore_paid_coarse(request,prepared,ledger,capture=continuation_capture)
+            prepared["restored_new9_ordinary"]=restored
+            report["continued_paid_input_receipt"]=receipt
+            emit("INPUT",{"kind":"continued-paid-coarse-ordinary","receipt":receipt})
+        finally:
+            report["timing_segments"]["continued_paid_coarse_input_seconds"]=time.monotonic()-tick
         tick=time.monotonic()
         try:
             jets=build_new_nine_geometry(prepared,ledger,capture=build_capture)
@@ -332,6 +354,7 @@ def main():
                          "budget_kind":getattr(error,"kind",None)}
     finally:
         report["source_input_progress"]=compact_capture(source_capture)
+        report["same_task_continuation_progress"]=compact_capture(continuation_capture)
         report["new_input_progress"]=compact_capture(build_capture)
         report["exchange_progress"]=exchange_progress
         if line is not None:
@@ -415,10 +438,10 @@ def main():
             exhausted=True
             report["status"]="new9-scope-exhausted-after-output"
             report["final_budget_message"]=str(error)
-    elif time.monotonic()-PROCESS_STARTED>=600:
+    elif PRIOR_NEW_SCOPE_SECONDS+time.monotonic()-PROCESS_STARTED>=600:
         exhausted=True
         report["status"]="new9-scope-exhausted-after-output"
-        report["final_budget_message"]="same 600-second scope exceeded before ledger construction"
+        report["final_budget_message"]="same 600-second scope including prior failed entry exceeded before ledger construction"
     emit("FINAL_CLOCK",{
         "schema":POLICY_NAME+"-final-clock","status_at_final_emit":report["status"],
         "earlier_COMPLETE_status":earlier,"scope_exhausted":exhausted,
