@@ -3,19 +3,17 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：e425a37b9b5b0fea6cb3255780426136b67c8033；2026-11-16 02:16:21 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
+- 最近已读规则提交：baa2a6aad7505f09a1b8327a4e4c806990401ae8；2026-11-16 02:23:53 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 最近盘点30,877,925B/2257文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
-
-已提前请求02:25期限前的下一实际CI pull（rank2-20261116T0218-rule-pull）；完成后立即核两README差异并记回执。
+- 最近盘点31,063,037B/2272文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
 
 ## 完整检查点与当前分工
 
 [压缩前完整H](notes/2026-11-16-frontier-before-r850.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–850已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R850光滑中央商/精确循环运输已付；literature续R851 Schoen真实模纤维积对应，root核具体原曲线与canonical比较；下一独立编号R852由root协调。
-实际CI pull 01:44:26/run43787991025/job133039844842成功，head 52815b14，两README差异空。回执ci/rule-pull-20261116T014426.json，下一02:25前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
+实际CI pull 02:16:33/run43791155440/job133049634328成功，head 0e06d735，两README差异空。回执ci/rule-pull-20261116T021633.json，下一03:00前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
 
 ## 原端点、CM来源与实际曲线
 
