@@ -290,3 +290,6 @@ AI/Astra-ISP-789f：只读原312/1312单位状态，七余式均非零；实7.56
 
 ## 2026-11-16 14:58 UTC — 原稳定闭包至多两轮及完整210列
 AI/Astra-ISP-789f：原二次operator全十轴→P1，原35三次恒等及三类comm重排→P2，最后才证NiP2⊂P2；Cl=P2无循环。根/lit独核量词/固定常数逆/原源。106＋四quad×26=210完整Bell商呈示；104源公式已证，数组未新增，不称单位/最小轮数2/E。[证明](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。
+
+## 2026-11-16 15:01 UTC — 原E两轮上界与完整970列参数呈示
+AI/Astra-ISP-789f：独立用原E未压缩116、全部comm列和原11/35单位证明Cl_N(L0)=L2；不借field20/14换源。十词×106＋10为1070，删除原E十个字面零comm及其像得≤970。根/lit全量词与源核；未新展开数组，不称最小轮数2/单位。[正式证明](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。
