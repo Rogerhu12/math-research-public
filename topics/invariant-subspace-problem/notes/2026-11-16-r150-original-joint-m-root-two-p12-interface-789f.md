@@ -129,3 +129,10 @@ New native: 22675 bytes, SHA256 `42be4d23378406896d6e4e8779b363fab8f877e62e4309e
 The CLI requires `--notes-root`, `--parent-out`, `--original-input-dir`, `--small-input-dir`, `--true-source-dir`, `--exact-gzip`, `--jet-map-dir`, `--recipe`, `--qualification-receipt`, and `--out`. Use the actual bounded50 parent, the same original inputs and recipe, `--seconds 1800 --memory-mib 6144 --through final`. Only source identity, input identity, stage completion and whole mathematical gates determine reusable checkpoints. A budget exit is 75 and may resume with the same binding.
 
 Sources and this interface may be published. Mathematical arrays, all raw receipts, all source jets and all Smith/action matrices remain temporary. No outcome for $S_2$ or the generator count is asserted before the complete actual result.
+
+
+## 7. Actual completion and preserved failed crosscheck
+
+The original 42-stage run completed all six digits and five original source corrections, then failed only when comparing the nine D-spanning b columns with the already proved R-generated B. The preserved failed receipt remains unchanged. The independent read-only completion rehashes all 133 original stage outputs and uses all eighteen b and x*b columns. It completed in 2.945797793 seconds. The corrected full driver is frozen for reconstruction but was not rerun for this completion.
+
+The [complete theorem](../results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md) now proves the root-two torsion has D-length 34 and that the original joint M has exactly eight polynomial generators. The root independently checked integer HNF lattice indices and both generator counts. The root-one hidden socle and the remaining extension are still separate tasks. See the [actual execution identity](2026-11-16-r150-original-joint-m-root-two-p12-local-completion-execution-789f.json).
