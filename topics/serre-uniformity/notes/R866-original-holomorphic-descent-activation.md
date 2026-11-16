@@ -20,3 +20,7 @@
 - 本地只完成源文件阅读、真实来源 IO、SHA/schema 和 AST；新数学全部交本公开仓库 Actions。主线程已读完整 core、wrapper、方法、请求与 workflow。
 
 成功后 R865 直接读取同一 H、实际选行 J 和准确 Q^-1，不再形成 H 或求逆。此任务不计算 YP 的 128/634 维亚纯 Riemann–Roch 空间、连接、活跃 eη、非 p 高度或完整高度。激活时不预填新矩阵或成功证书；run/job/实际结果随后按远端真实输出登记。
+
+## 首次运行的实际 YAML 修复
+
+首 run 43814823286、source 9a961bccfcf0f22457a0fa23e4e2d14fd79827b0 在 workflow 解析阶段失败，没有任何 job。实际 YAML 诊断定位到第101行未引用的 `--only-binary=:all:` 后接空格；它被解释为另一个映射冒号。只将这条 pip 命令的 `run` 改为块标量，固定 workflow 6881 B / 5fc6cc63ed45a9575c3ee10526c1c02baa34053cdcbff9e85c6b3e278fe45a47。新 request 48270 B / 510668d4c0d81bb23b5903a426ab45f696ae89be674b7d0e8aa556ce00d10211 只更新已读规则提交以重新触发。core、wrapper、方法、178原来源、60分钟预算和数学身份全部不变；不存在需要恢复或重算的新数学阶段。

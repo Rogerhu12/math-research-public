@@ -144,3 +144,5 @@ E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相�
 **R866原Q下降准确入口已证**：[方法](notes/R866-original-holomorphic-semilinear-action-and-Q-fixed-basis.md)0ecc3760。从真实R864原V1矩阵B与旧整数A构造H=AB，原146行内选新127阶Q，C=Q^-1S_JQ，必须全560×127 HC=SH/C²=I；P=Q^-1diag(1或1/s)给完整Q-fixed基且C·barP=P、S·bar(HP)=HP。c0固定ξ但共轭s，e_i已含82²不重缩放、原微分coeff=82H。真实矩阵/基还待R866运行；H/选行/逆供R865共享。R862已按[仅结尾修复](notes/R862-completed-stages-finalization-only.md)重新激活：原四stage/inventory字节/tag全继承，新执行coredca646e3/wrapperee9bcb64仅finish，不重Norm或12阶算术。
 
 **R866真实源消费者已激活**：[执行记录](notes/R866-original-holomorphic-descent-activation.md)，core2b8aa7c1/wrapper70749054/request8ae7299c/60min，178原件闭合。只新H/Q/准确逆/C/P并全560行乘回；R865共享同矩阵，原127核不重。实际run与数值待真实输出；R868接原Y亚纯RR。R862 completion-only真run43813805093已success，正式证书正读取。
+
+**R862真实算术与结尾全部闭合**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8。d_A=1596092727686814808731、6次Norm/原12阶全乘回/23node整对应已成；completion-only run43813805093成功，final41a58265、manifest14/85ebbce2，四旧stage和tag/字节未变。E_Aφ*=0，后继原Y活跃投影仍由R865及η实际投影处理，不重原Hom/Norm。R866首run43814823286实际jobs=[]：pip未引用冒号造成YAML错误；仅修块标量并更新request 510668d4再触发，数学未启动。

@@ -488,3 +488,9 @@
 - 原e_i已含82²，H不重缩放，微分coeff82H；保ξ固定而s共轭、e73一次负运输。H/J/Q^-1供R865共享；旧cusp核、原q尾、三共轭均不重。
 - R862仅收尾修复真run43813805093/job133121204720/sourceaa45ec93已success，正在实际读证书。exact续R868原Y实际RR；R867完整de Rham稿待主线程读取，尚未当q-normal单位。
 - 本push规则：本地真实pull至5f5874a28e98fdb612f005aad02bc40ece951f77（2026-11-16T06:08:59.081761+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 14:13 Asia/Taipei — serre-public-astra-20261115
+- R862正式结果5eca1ff8：实际d_A=1596092727686814808731、6次Norm/原12阶全乘回/23node整对应已成；whole-JX等式保原纸证，不从12行偷推。E_Aφ*=0，非Y活跃eη/d/N。
+- completion-only run43813805093/job133121204720/sourceaa45ec93 success，final41a58265、manifest14/85ebbce2；完整ZIP及14产物纯IO核，四旧stage/inventory/tag全原字节，0.002890824s仅收尾，不重原数学。
+- R866首run43814823286实际无job，定位YAML第101行pip冒号；只改run块标量，workflow5fc6cc63/request510668d4重新触发，core2b8aa7c1/wrapper70749054/178源均不变。R865真实双陪集/σ6,σ7方法已完整读，继续原T7。
+- 本push规则：本地真实pull至f6dd10290eeb483ba2a72d4c01925d3574aaad5c（2026-11-16T06:13:47.933226+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
