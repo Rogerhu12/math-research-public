@@ -1,0 +1,156 @@
+{
+  "schema": "R616-R583-literal-repair-complete-author-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "original_fixed_commit": "af8930100294bcf4d52430343e1e33932e2565f0",
+  "author": "ChatGPT /root (AI)",
+  "date": "2026-11-16",
+  "source_only_literal_plan_not_a_scientific_run": true,
+  "files": [
+    {
+      "role": "adapter",
+      "baseline": {
+        "file": "root_20261116_loop_rounding_observation.py",
+        "bytes": 22648,
+        "sha256": "0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e",
+        "blob": "02cd8b9ac843c46b869b1a53cd2b2bf082eae54a"
+      },
+      "output": {
+        "file": "root_20261116_loop_rounding_observation_source_literal.py",
+        "bytes": 22649,
+        "sha256": "8067ed32b24b98e5aeedeac8390d4c0356eef3a0676423fc14384a91c4533d4d",
+        "blob": "383bd167e151a6e0ced4baa675685f3d24d65928"
+      },
+      "patches": [
+        {
+          "old": "require(Path(name).name == name and name not in (\".\", \"..),",
+          "new": "require(Path(name).name == name and name not in (\".\", \"..\"),",
+          "count": 1
+        }
+      ],
+      "unchanged_original_complete_source_plan": {
+        "file": "notes/R583-loop-rounding-observation-complete-source-plan.json",
+        "bytes": 24218,
+        "sha256": "9e1ac431926c76e0e77858695e2d1772e07eb58dcaba1211f2c9eca7328af0f1"
+      },
+      "all_other_bytes_identical": true
+    },
+    {
+      "role": "bridge",
+      "baseline": {
+        "file": "root_20261116_R583_direct_source_bridge_and_complete_ancestry.py",
+        "bytes": 25170,
+        "sha256": "95ed33dfce8d335a7a1881c8d0ab5f5bce07345707d2bddf38f14a8f5b4599e5",
+        "blob": "9be157b4216cbb75e53260324bd28d86cb24ae61"
+      },
+      "output": {
+        "file": "root_20261116_R583_literal_source_bridge_and_complete_ancestry.py",
+        "bytes": 25399,
+        "sha256": "8c2d2cec95964170651d2db9ae435fbc21b4579976646203329245c9a3530cea",
+        "blob": "a27fd73bf62684c548e42fb9a614b69ac92ce55e"
+      },
+      "patches": [
+        {
+          "old": "\"\"\"R604: direct unchanged R583 preparation and explicit old-source relation scopes.",
+          "new": "\"\"\"R616: literal-repaired R583 preparation and explicit old-source relation scopes.",
+          "count": 1
+        },
+        {
+          "old": "The six original prepare_sources arguments, actual HERE and every source check\nremain in R583.",
+          "new": "The R583 adapter has exactly the missing closing quote repaired (R616).\nThe same six prepare_sources arguments, actual HERE and every source predicate\nremain in that explicitly named full source.",
+          "count": 1
+        },
+        {
+          "old": "BRIDGE_SCHEMA = \"R604-direct-original-R583-six-argument-source-bridge-v1\"",
+          "new": "BRIDGE_SCHEMA = \"R616-direct-literal-repaired-R583-six-argument-source-bridge-v1\"",
+          "count": 1
+        },
+        {
+          "old": "RELATION_SCHEMA = \"R604-explicit-R593-R589-complete-source-relations-v1\"",
+          "new": "RELATION_SCHEMA = \"R616-explicit-R593-R589-complete-source-relations-v1\"",
+          "count": 1
+        },
+        {
+          "old": "CURRENT_SCHEMAS = frozenset((",
+          "new": "CURRENT_SCHEMAS = frozenset((\n    \"R616-literal-repaired-R583-original248-complete-source-preparation-v1-necessary-v1\",",
+          "count": 1
+        },
+        {
+          "old": "ADAPTER = dict(file=\"root_20261116_loop_rounding_observation.py\", bytes=22648,\n    sha256=\"0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e\")",
+          "new": "ADAPTER = dict(file=\"root_20261116_loop_rounding_observation_source_literal.py\", bytes=22649,\n    sha256=\"8067ed32b24b98e5aeedeac8390d4c0356eef3a0676423fc14384a91c4533d4d\")",
+          "count": 1
+        },
+        {
+          "old": "The bridge and unchanged adapters use the actual checkout computations",
+          "new": "The bridge and declared adapters use the actual checkout computations",
+          "count": 1
+        },
+        {
+          "old": "name = \"_R604_\" + label",
+          "new": "name = \"_R616_\" + label",
+          "count": 1
+        },
+        {
+          "old": "The exact original R583 source-only producer and actual HERE",
+          "new": "The exact literal-repaired R583 source-only producer and actual HERE",
+          "count": 1
+        },
+        {
+          "old": "event=\"R604_original_source_bridge_return\"",
+          "new": "event=\"R616_literal_repaired_source_bridge_return\"",
+          "count": 1
+        },
+        {
+          "old": "event=\"R604_source_bridge_unreturned\"",
+          "new": "event=\"R616_source_bridge_unreturned\"",
+          "count": 1
+        },
+        {
+          "old": "\"Apply R604.restore_complete_source to the selected full source \"",
+          "new": "\"Apply R616.restore_complete_source to the selected full source \"",
+          "count": 1
+        },
+        {
+          "old": "\"Actual complete R604 relation\"",
+          "new": "\"Actual complete R616 relation\"",
+          "count": 1
+        }
+      ],
+      "whole_text_literal_inverse_returns_original": true
+    }
+  ],
+  "observed_source_only_diagnosis": {
+    "run": 43921640781,
+    "head": "ce45c6d5182e0aeefd4eb28ec6ab96d1dafa2e6b",
+    "job": 133490187970,
+    "workflow": ".github/workflows/visible-flex-actual252-source-causal-diagnosis.yml",
+    "workflow_bytes": 9170,
+    "workflow_sha256": "b640d125cf3526ad2f6b5cb1120fa1faec1a4e3ed9d984e85944ea695f06c611",
+    "complete_return": {
+      "bytes": 17868,
+      "sha256": "847960a37deed0f0d021bef098aa1b10cecbd0ea7b5b615a41b49ec80eb16889"
+    },
+    "scientific_computation_performed": false,
+    "old252_unknown_fields_not_replaced": true
+  },
+  "interface": {
+    "binding_schema": "R583-loop-rounding-observation-source-binding-v1",
+    "bridge_schema": "R616-direct-literal-repaired-R583-six-argument-source-bridge-v1",
+    "relation_schema": "R616-explicit-R593-R589-complete-source-relations-v1",
+    "new_current_source_schema": "R616-literal-repaired-R583-original248-complete-source-preparation-v1",
+    "original_six_plan_arguments_retained": true,
+    "original_CXX_outputs_and_headers_unchanged": true,
+    "source_function_error_scope_and_full_binding_preserved": true,
+    "final_original_source_and_science90000_and70_unchanged": true
+  },
+  "unexecuted": [
+    "new corrected adapter import and actual source preparation",
+    "new bridge CLI and all subsequent original source and scientific calls",
+    "actual current-H owner, complete J/FD/fullDN and final fresh audit"
+  ],
+  "unpublished_bridge_draft_superseded": {
+    "bytes": 25398,
+    "sha256": "f0f78ea839fc73c5c545390e9531a135a7c28126e16cca5fbd7af840aacc3e68",
+    "not_published_to_main_or_executed": true,
+    "reason": "Author replacement missed one closing quote in the inverse instruction string; final output and complete patch record include that quote."
+  }
+}
