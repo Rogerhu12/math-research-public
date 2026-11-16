@@ -162,7 +162,7 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 ### R845：二挠点及四同源结构已付，原对应仍缺
 
-[R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)在原条件g4项上明确给E+[2]、实际三个二同源、非回溯循环四同源及同原三同源交换方块；原域H17(E+[2])=H34。尚须原全层级/实际Hom来源比较，不能由这些核和j域认成q/q4或指定canonical cycle。R846续核完整Hom是否反而排除g4；在证明前不关闭此条件分支。全部原系数/次数保。
+[R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)在原条件g4项上明确给E+[2]、实际三个二同源、非回溯循环四同源及同原三同源交换方块；原域H17(E+[2])=H34。尚须原全层级/实际Hom来源比较，不能由这些核和j域认成q/q4或指定canonical cycle。R846已由完整Hom的矛盾排除本原g4分支；后续转g≥5实际曲线，条件几何保留。全部原系数/次数保。
 
 
 ### R842：已付的实际纤维消去及保留边界
@@ -173,3 +173,8 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 ### R842：负水平的实际有限行已付，全局像未付
 
 [R842 负水平的一层有限行与二次值商](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)：光滑Ft单位点的真实Z_Q=k[x]/x^m上D3恰为x∂x，原残数为c_s tQ^r[x^(m−1)]A(Dx+1)²(qtilde·V0)，最高jet系数单位且保全部q。FY单位的光滑二重水平切点全D_R残数零，节点不可沿用。原degH=2与完整H_-限制迫z_-=2/c=μd1；两非固定横截根合成原二次值商上的准确非零行(k1,k0−h1k1)，包含全部剩余域迹。未预付W_T对该有限商的像，也未删正水平、其它固定纤维/conductor或同P补偿；局部行非零不代原[b0]非零。
+
+
+### R846：原g4分支已排，续真正更高亏格来源
+
+- [R846](results/R846-original-full-hom-and-genus-four-exclusion.md)：原全部generating genus4项被排除。真实K3下降的属二商中reciprocal的非零Bg→Bh交叉Hom逐付完整κ角色与hyperelliptic符号，迫Bh∼K3E17且原R作用ω²。K3/K三个实际投影、Ei显式同构和K/Q反共轭δ涵盖整个Hom；三条Ei最小level10404均new/multiplicity one，原范数支撑1mod3使完整Hom只能有R特征ω，严格矛盾。于是原polarization的generating项g≥5，保全部原系数/次数；R843–845条件几何仍真但不能在此原g4来源实现。没有判原最高cycle零/非零或付canonical比较。
