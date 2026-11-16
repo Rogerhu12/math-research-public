@@ -44,6 +44,10 @@ def main():
     add_pinned_arguments(parser)
     parser.add_argument("--trace-method",choices=("tate","scalar","compare"),
                         default="tate")
+    parser.add_argument("--rr-model",choices=("eta48","fricke24","tate24","tate19"),
+                        default="eta48")
+    parser.add_argument("--divisor-method",choices=("global","local"),
+                        default="global")
     args=parser.parse_args()
     request=pinned_request(args)
     incoming=sys.stdin.buffer.read(2*1024*1024+1)
@@ -60,7 +64,8 @@ def main():
              envelope_sha256=envelope["envelope_sha256"],
              first_source=first["source"],first_run=first["run_id"],
              packet_source=packet["source"],packet_run=packet["run_id"],
-             trace_method=args.trace_method)
+             trace_method=args.trace_method,rr_model=args.rr_model,
+             divisor_method=args.divisor_method)
     # No mathematical reconstruction begins before BOTH true whole certificates.
     local_module=import_script("produce-original-shadow-local-input.py","original_shadow_local_input")
     progress("same original full-precision local input start",prime=args.prime)
@@ -69,14 +74,16 @@ def main():
     progress("same original full-precision local input complete",
              summary_sha256=digest(local_summary),
              sigma_a_index=[int(i) for i in local["sigma_a_index"]])
-    front=import_script("produce-original-shadow-rr-eta48.py","original_shadow_rr_eta48")
-    rr,rr_summary=front.build_frontend(args.prime,(1,),205,"eta48")
+    front_name="produce-original-shadow-rr-"+args.rr_model+".py"
+    front=import_script(front_name,"original_shadow_rr_"+args.rr_model)
+    rr,rr_summary=front.build_frontend(args.prime,(1,),205,args.rr_model)
     progress("same original RR frontend complete",summary_sha256=digest(rr_summary))
     from original_shadow_coordinate_tools import build_reduced_maps
     maps,maps_summary=build_reduced_maps(rr,local,first,packet)
     progress("same original reduced maps complete",summary_sha256=digest(maps_summary))
     from original_shadow_relative_six_tools import consume_original_relative_six
-    result=consume_original_relative_six(rr,maps,trace_method=args.trace_method)
+    result=consume_original_relative_six(
+        rr,maps,trace_method=args.trace_method,divisor_method=args.divisor_method)
     dependencies=[
         "launch-original-shadow-consumer.py",
         "read-original-shadow-pass-receipts.py",
@@ -86,14 +93,20 @@ def main():
         "check-r873-original-cm-petersson-degree.py",
         "original_low_weight_cm_tools.py",
         "produce-original-shadow-rr-eta48.py",
+        "produce-original-shadow-rr-fricke24.py",
+        "produce-original-shadow-rr-tate24.py",
+        "produce-original-shadow-rr-tate19.py",
         "original_shadow_coordinate_tools.py",
         "original_shadow_relative_six_tools.py",
+        "original_shadow_local_divisor_tools.py",
         "original_shadow_tate_trace_tools.py",
         "original_shadow_coefficient_tools.py",
     ]
     manifest={
         "kind":"rank2_original_shadow_consumer_public_execution",
-        "prime":args.prime,"parameters":dict(request,trace_method=args.trace_method),
+        "prime":args.prime,"parameters":dict(
+            request,trace_method=args.trace_method,rr_model=args.rr_model,
+            divisor_method=args.divisor_method),
         "source":os.environ.get("RANK2_SOURCE_SHA"),
         "run_id":os.environ.get("RANK2_RUN_ID",os.environ.get("GITHUB_RUN_ID")),
         "run_attempt":os.environ.get("RANK2_RUN_ATTEMPT"),

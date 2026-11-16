@@ -9,6 +9,8 @@ recomputable point table is written to the repository or to a release.
 The source is the normalization of degree 288 over k(t_eta), equivalently the
 original relative degree-six Y=X_0(3468)->X_0(867).  All nine original pairs are retained via four full divisors and the proved
 whole W and constant-reflection identities.  All cusps, common intersections, and residue degrees remain.
+The optional divisor_method is global (default) or local; local retains the same
+source through the complete original Kummer tower over the existing quotient.
 The explicit trace_method is tate (default), scalar, or compare; compare runs
 both exact readers at every contributing closed point in the SAME torsion basis.
 """
@@ -54,6 +56,8 @@ def function_fingerprint(f):
     return h.hexdigest()
 
 def place_fingerprint(Q):
+    if hasattr(Q,"fingerprint"):
+        return Q.fingerprint()
     h=hashlib.sha256()
     h.update(str(int(Q.degree())).encode())
     h.update(b":")
@@ -453,15 +457,29 @@ def read_fixed_field_point(S,kQ,omega_res,omega_k,k,Etgt,r,d):
         out.append(k(co[0])+k(co[1])*omega_k)
     return Etgt(out)
 
-def prepare_normalized_geometry(six):
+def prepare_normalized_geometry(six,rr=None,divisor_method="global"):
+    """Full original divisors: native normalization or the same-field local tower."""
+    assert divisor_method in ("global","local")
     L=six["field"]
-    progress("relative six normalization finite start",degree_over_eta=288)
-    L.maximal_order()
-    progress("relative six normalization finite complete")
-    L.maximal_order_infinite()
-    progress("relative six normalization infinite complete")
-    TD=six["T"].divisor()
-    vD=six["vs"].divisor()
+    engine=None
+    if divisor_method=="local":
+        assert rr is not None
+        from original_shadow_local_divisor_tools import OriginalLocalDivisorEngine
+        engine=OriginalLocalDivisorEngine(rr,six)
+        divisor=engine.divisor
+        poles=engine.poles
+        progress("same original local divisor backend selected",
+                 quotient=engine.kind,source_degree_over_eta=288)
+    else:
+        progress("relative six normalization finite start",degree_over_eta=288)
+        L.maximal_order()
+        progress("relative six normalization finite complete")
+        L.maximal_order_infinite()
+        progress("relative six normalization infinite complete")
+        divisor=lambda f:f.divisor()
+        poles=lambda f:f.divisor_of_poles()
+    TD=divisor(six["T"])
+    vD=divisor(six["vs"])
     cusps=set(TD.support())
     assert sum(int(Q.degree()) for Q in cusps)==108
     assert set(vD.support()).issubset(cusps)
@@ -476,14 +494,14 @@ def prepare_normalized_geometry(six):
     for j,row in enumerate(six["A"]):
         dd={}
         for tag in ("x0","x2"):
-            dd[tag]=row[tag].divisor()
+            dd[tag]=divisor(row[tag])
         for tag in ("y0","y2"):
-            dd[tag+"_poles"]=row[tag].divisor_of_poles()
+            dd[tag+"_poles"]=poles(row[tag])
             assert dd[tag+"_poles"].degree()==2256
         divisors.append(dd)
         progress("whole endpoint divisors cached",artin_index=j)
-    fD=six["F_x_over_xs"].divisor()
-    yFpoles=six["F_y"].divisor_of_poles()
+    fD=divisor(six["F_x_over_xs"])
+    yFpoles=poles(six["F_y"])
     first_degree=int(yFpoles.degree())
     assert first_degree>0
     progress("actual first map degree from the already cached full divisor",
@@ -491,7 +509,8 @@ def prepare_normalized_geometry(six):
              chosen_cyclic_presentation=("A_bq2 output" if first_degree<2256 else "F output"))
     return dict(T_divisor=TD,vs_divisor=vD,cusps=cusps,
                 endpoint_divisors=divisors,F_x_divisor=fD,F_y_poles=yFpoles,
-                first_map_degree=first_degree)
+                first_map_degree=first_degree,divisor_method=divisor_method,
+                function_divisor=divisor,local_divisor_engine=engine)
 
 def complete_pair_shadow(six,geometry,torsion,a,b,trace_method="tate",tate_reader=None):
     assert trace_method in ("tate","scalar","compare")
@@ -542,7 +561,7 @@ def complete_pair_shadow(six,geometry,torsion,a,b,trace_method="tate",tate_reade
     progress("complete intersection divisor start",endpoint_pair=[a,b],
              cyclic_presentation=presentation,first_map_degree=first_degree,
              expected_degree=expected)
-    gD=g.divisor()
+    gD=geometry["function_divisor"](g)
     E=gD+p1+p2
     assert E.is_effective() and E.degree()==expected
     cD=((r-2)//3)*geometry["vs_divisor"]+r*input_xD
@@ -727,8 +746,9 @@ def read_full_artin(six,torsion,points):
         "certificate_sources":result["certificate_sources"],
     }
 
-def consume_original_relative_six(rr,maps,trace_method="tate"):
-    """Main consumer; tate/scalar/compare all retain the same original data."""
+def consume_original_relative_six(rr,maps,trace_method="tate",divisor_method="global"):
+    """Main consumer; both divisor backends and all trace modes retain the same source."""
+    assert divisor_method in ("global","local")
     assert trace_method in ("tate","scalar","compare")
     six=build_actual_maps_on_six(rr,maps)
     torsion=verified_torsion_basis(six["constants"],six["omega"],six["prime"])
@@ -740,7 +760,7 @@ def consume_original_relative_six(rr,maps,trace_method="tate"):
                  trace_method=trace_method,**tate_reader.calibration)
     else:
         progress("original complete scalar trace selected",trace_method=trace_method)
-    geometry=prepare_normalized_geometry(six)
+    geometry=prepare_normalized_geometry(six,rr,divisor_method)
     points=[[None]*3 for _ in range(3)]
     summaries=[]
     # R883(C,D): whole [6] traces are symmetric, and the actual constant
@@ -779,6 +799,8 @@ def consume_original_relative_six(rr,maps,trace_method="tate"):
         "status":"complete_original_shadow",
         "prime":six["prime"],"ell":torsion["ell"],
         "trace_method":trace_method,
+        "divisor_method":divisor_method,
+        "RR_method":rr.get("rr_method",rr["model"]),
         "Tate_trace_reader":tate_reader.summary() if tate_reader is not None else None,
         "every_contributing_point_compared_in_same_basis":trace_method=="compare",
         "original_source_level":10404,"relative_six_level":3468,"RR_base_level":867,

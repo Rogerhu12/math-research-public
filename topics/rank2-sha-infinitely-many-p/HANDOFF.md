@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ea93399d9fe698d63fa7f7b42aff0906c40c11cc；2026-11-16 12:38:34 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
+- 最近已读规则提交：0bc32b7320965cdf64cb480ee0c2e156ace8ff0f；2026-11-16 12:43:56 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -33,9 +33,9 @@ R882原18源/绝对端点与eta degree48底已付；T/U/V/36cusps/D204全保。R
 
 R880原三Artin共轭/独立双轴/三χ与eω全保；整新shadow经5/11无挠H1返回原有理类。18×9和准确为eω后的(1/9)Σζj^aζk^b p_ab；χσ=ζ7/ζ4/ζ，r29点E[5]/几何F841/角色F5^6，实际6已含。未拆二维点前不将ω冒系数，全部相位见R880。
 
-R883全相对6算法保div差+两pole、四完整00/01/11/12除子及W/Frob回九pair；原18×9三pair同零由A=p00−ω²p12、C=p11+ωφp01两真点判定，ell7双线保。附F从真实pole(yF)读dF，仅dF<2256选循环2256+r*dF，否则2256(r+1)，无Manin1。附H同Y/B为z²=T、c³=(z−3δ)/(z+3δ)与y=δ(1+c)/(1−c)，属187/559；三层全étale但保剩余扩张、108cusps，负floor完整整闭包及地方后端checkpoint 28efb7bb49cae4e24b72300009e960995fb4960f保。附G全Tate迹含ell|d，consumer已集成tate/scalar/compare；固定r29/41全scalar对照run43862778281/job133283559262成功，含dell真ell²点及全底群显式枚举。无原consumer请求/影子输出，全部局部/闭点/配对来源见R883。
+R883全相对6算法保div差+两pole、四完整00/01/11/12除子及W/Frob回九pair；原18×9三pair同零由A=p00−ω²p12、C=p11+ωφp01两真点判定，ell7双线保。附F从真实pole(yF)读dF，仅dF<2256选循环2256+r*dF，否则2256(r+1)，无Manin1。附H同Y/B为z²=T、c³=(z−3δ)/(z+3δ)与y=δ(1+c)/(1−c)，属187/559；三层全étale但保剩余扩张、108cusps，负floor整闭包保；完整地方Kummer后端已接consumer可选local，真norm支撑/全Σef/赋值/次数/δ嵌入齐，未执行。附G全Tate迹含ell|d，consumer已集成tate/scalar/compare；固定r29/41全scalar对照run43862778281/job133283559262成功，含dell真ell²点及全底群显式枚举。无原consumer请求/影子输出，全部局部/闭点/配对来源见R883。
 
-原relative consumer保四完整除子/实际dF/288同域/全部边界与闭点迹、CM/Frob矩阵/两点及18×9读数。host/entry/workflow只接实际双PASS，核job/run/source/hash及whole末端；数学容器stdin只读无网、两进程状态同核。无consumer请求，未计算原影子；禁止假PASS。root跟进两map/RR，literature续原Y真地方后端。
+原relative consumer保四完整除子/实际dF/288同域/全部边界与闭点迹、CM/Frob矩阵/两点及18×9读数。host/entry/workflow只接实际双PASS，核job/run/source/hash及whole末端；数学容器stdin只读无网、两进程状态同核。无consumer请求，未计算原影子；禁止假PASS。root跟进两map/RR；consumer已支持四RR与global/local，manifest齐。literature续原相对Norm迹。
 
 ## 当前第二门：四原B与同一低配对
 
