@@ -44,15 +44,7 @@ BF e8e29c49保实际square B=T+E+LV、两mean/primitive/density及PUVP；仅完�
 SE22201747自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0；cutoff97可逆未授。仅完整actualAi incoming injective后C onto并同侧准确消，独立第二输入/正侧rest/两mean/roughbulk费保。
 FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Poisson补列覆盖同given-head整图，rest/affine保。common Csharp只实际incoming逆确成后消；m/basis/F列/H4/3 dual/norm/finiteSchur/fullincoming/参数uniform未付，原C核0未授、第二输入保。
 
-[RD精确根首导与完整stable门](results/R133-supplement-exact-leading-root-derivative-and-complete-stable-trace-gate.md)34eec24f已证根T二阶、Da0−b全mean式；真normalized Ai保非零β_n和原global Riccati行，g_n>17/57。R0含所有正meanrank/完整J和低中间频，e2/r0/J1/L0给同cutoff97的whole e门；须实际e<g−后才原kernel0并由SE同自然负窗onto。单列L2不冒full multiplier，完整乘子/潜势数值仍未付；不授actualpass/腰incoming/finite/非线性，FC另路保。
-
-[RDA首Airy幅度根导数](results/R133-supplement-exact-root-first-Airy-amplitude-derivative.md)8d2570c7由原完整L5与zero-trace transport给Da1=−iεR，R=6dφφ/5+D(ell/η)/2−(ell/η)dφ/2；保全部mean、径向项和原方向。genuine修正首导0，两sign合单isometry无额外2；同全角/全δ低jet输入给R_a后才付该乘子，原右D_A N^-1/388及所有其余RD项保持。无新数值、stablepass或incoming授予。
-
-[RBJ二阶根jet与首b值](results/R133-supplement-exact-leading-second-root-jet-and-first-Airy-b-value.md)a19878f7由真实折叠三阶得D²a0含完整mean及drift；H^-1HD=−iεQK保原径向项，b1同两sign而a1反号。b1根值精确，Db1须经完整邻域DFb/D³a0（RBD已补解析，数值待），禁止对仅根式作r微分。genuine Bn/Vn及全乘子/J/positive meanrank/低中间频/原RD门均保，无新数值或inverse授予。
-
-[RBD完整首b导数](results/R133-supplement-complete-first-Airy-b-derivative-from-genuine-fourth-root-jets.md)5d7c045f由原DT/Q/μ邻域递推真T四阶与D³a0，保Mrr全mean及完整DV0先求导后取根；Dμ/μ=4t、第一forcing的KTφ项按真实阶数消，ϑ在邻域/第二forcing/余项保。Db1=[(T0−6t)b1−λ^-2 R_D]/3，genuine λVn′/3+Vn A0仍原序。仅有限真实jet合同，K4/η3/u,v径2/d径2角3及实际全δ/全角正gap需付；没有新数值或stable/incoming/finite逆。
-
-[RBG真正根b配对](results/R133-supplement-exact-genuine-root-b-jets-with-common-radial-cancellation.md)157795fd先在真四阶fold差中消公共K4/η3/Mrr，得完整b1V=E0+Δ0、Db1V=E1+A0Δ0+Δ1/3。Δ1保−16k1(2ηα+zα²)及真实hrrr，z=j^-2=16n^-2，禁止把无z曲率也缩小。BV/H整件替RD之b+CalB/DB bracket，不二加CalB；正meanrank取未投影e_amp，非零βn两profile/输入右序及J/低中间频保。只解析，真实同域输入/全乘子数值/whole e<g−/incoming/finite仍未付。
+[已成根jet与算子完整索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD34eec24f/RBJa19878f7/RDA8d2570c7/RBD5d7c045f/RBG157795fd五原段。真实邻域递推给Da0/Da1/b1/Db1；genuine BV/H整件替，不二加CalB，公共K4/η3/Mrr先消，有限频率hrrr和无z曲率仍保。正meanrank用未投影e_amp、非零βn两profile、输入右序、全J/低中间频1/4及全δ/全角域不变。必须付完整输入/乘子/潜势数值并验证whole e<g−才可原kernel0与SE自然负窗onto；尚无stablepass/腰incoming/finite/非线性。
 
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 

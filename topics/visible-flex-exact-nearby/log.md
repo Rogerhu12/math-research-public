@@ -318,3 +318,9 @@ BV=M_E0+DΔ0，HV=M_(E1−bopE0)+M_aDΔ0+DΔ1/3在RD中整件替b+CalB及原DB b
 ae9f17e6a114d6e19d35b8129e88b4bb7b6ce47c两README同原blob。白名单已独推ece1fcde76a7813769d23495f0b7a63ff5a78285。当前树逐层元数据检查唯一topics/visible-flex-exact-nearby/notes/2026-11-13-R46-complete-density-transport-bootstrap.json仍blob968ee8513b504e4a9c72182bf825c68001dffa94/551730B后，仅该path普通删除；无force/历史重写/科学运行/大正文取回。
 
 精确恢复5423c8a7fd3869430df0d188ffe406f1d567d7f8同path，完整SHA f86e1cd3e2be7542b4f0e3e5c52b297a77b016b3744df64cbfa04446a559ade7。原proof/producer/downstream完整success/checker/原inputs/native/canonical与所有失败、未付scope均保。未来消费者如确需该旧报告，只作原字history restore核hash，禁重复已成target。减去的报告为551730B，新增小白名单及log另计，当前总容量由下一consumer自身fresh inventory检查。
+
+## 2026-11-16 00:51:11 UTC：已成根jet五段归小索引，未付义务不减
+
+dddfcfee07f1e035a1277bbce25a5c837cdaa13b两README同原blob。索引b748ad279f2b44892b10eeb42cce86e2a8980888/3485/d97242584628c87977ef8a4697bb9cade763fe4bdf0aaf55497f9f5c4803731a保存498ecef3fb7dfa4b966bea62cf962603f9a968ce之open五条完整RD/RBJ/RDA/RBD/RBG原段及H原段，仅结果链接改../results/。当前open/H缩已成索引以保小文件界，所有whole e/全输入/全mean/βn/右序/低1/4/真实背景及incoming/finite未付义务明确保。
+
+前一R46删除498ecef3为attempt2：首次main已推进，立即调用真实CLI git pull --rebase origin main仍No usable execution environment；随后保新远端ae9f17e6a114d6e19d35b8129e88b4bb7b6ce47c并重新核两README/fresh目标SHA和size后普通推成功。未force、未重算，精确恢复仍5423c8a7同白名单path/551730/f86e1cd3。
