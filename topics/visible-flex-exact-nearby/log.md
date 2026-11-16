@@ -504,3 +504,7 @@ proof550866c0/31643，root全文及全部38式读核，Tail§2–5与Newton§6�
 ## 2026-11-16 08:53:57 UTC — r010派生report单文件普通删除
 
 白名单240d6918先推a317d25918bc55288d2e8f49925730a3f63fba07，fresh元数据path/c216e006/156450B三项guard通过后仅删该report；完整恢复7504ff96122762833150a2d3190d35b83c298a08同path/原SHA c86ce74f。全部原diagnostic成功/有限采样scope在5847B实际metadata，原endpoint定义/源/原失败不在删除集合；0数学/0重复。a317d25918bc55288d2e8f49925730a3f63fba07两README版本同已读。
+
+## 2026-11-16 08:55:15 UTC — W96实际96维解空间、全inhom和精确物理waist列
+
+proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完整rhs、重构注入/96+ℓ维度；Phase正式fresh outer/PW/WPL指定域核通过。actual193端点行保96低odd+96实际chart+1evenmean，mH和ℓ与原root97 FC核不混。真96positive解存在为新解析结论，数值basis/配对/全finite inverse仍未授。PW真混合root→完整density/两mean→WPL半行→B^-1无wrong highrightfactor，head反馈整列/rough域不能借旧E。Tail继续PC真实97..288壳/C+延拓路线，Newton独写只读4650行的3新max gate。旧链完整状态在1162cb41后压缩H；08:54:12真本机pull仍无executor，下一本地≤09:54:12；CI最近08:49:28期限09:49:28。8b352f90b97f7c340a2fbebbb11c19080d9a5e08两README版本同已读。

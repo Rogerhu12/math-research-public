@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W96：真实低96齐次列的存在及完整正侧有限关系](results/R133-supplement-genuine-low96-Poisson-columns-and-exact-positive-boundary-completion.md)：实际outer193行与head余核组成(289+mH)列/(193+mH)行有限矩阵，其kernel96+ℓ单射重构为真实正侧解，证明至少96独立物理列存在；完整额外ℓ零模/兼容和inhom RHS不删。指定root even96坐标的方阵逆仍为独立门。PW完整mixedroot/两density means到WPL半行/左B^-1给actual waist列公式；未计算basis/Gram/finite逆，消head所增high feedback不能借用旧E。
+
 - [WMR：正权物理均值传播及完整同算子误差重组](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)：精确概率权商式消去共同aJ，strict/local点态gap独立成立；真实negative区间β≥0给反向系数负部界，绝对系数另用于z′。两patch mean、完整kr仿射source、全部非mean B/T、true jumps、旧三端与新mean端、whole/reduced正表达一并保留，无旧upper相减。此为解析合同0新数，不授high/finite/最终族。
 
 - [WHV：精确零Volterra预处理与完整正侧径向尾合同](results/R133-supplement-zero-Volterra-preconditioning-and-readonly-positive-head-mesh-contract.md)：证明F0=(Id−V0A)F，保全部初值、普通源、jump、真实端点和余核逆伴随；2ℓ/π与hmax(A∞+CK)/π不评估旧传播指数。完整typed旧positive source列与B_HL/B_LH壳因子给新3wholemax及新网格目标，193N只输出有限因子，所有cross/finite inverse/原96/Θ/ν/两mean及negative head保留。0新数；9小文本/13历史parts恢复合同已明确，原4650行不重算。

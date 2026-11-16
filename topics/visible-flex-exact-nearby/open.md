@@ -60,6 +60,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WHV零Volterra完整预处理](results/R133-supplement-zero-Volterra-preconditioning-and-readonly-positive-head-mesh-contract.md)e993f068：F0=(Id−V0A)F精确，源/初值/真jump全左乘，cokernel逆伴随与全endpoint直接项保；普通V0给2ℓ/π、1、√ℓ，完整尾ε=hmax(A∞+CK)/π及193N输出有限因子。旧同域C_c/C_b全正侧L²rH−1列只读，body三wholemax尚新目标，typed B_HL→H−2/3/真正97..288 shell1153全保。库存80f9f606/9text/13immutable parts，4650完整rows+3594interfaces不重算，原progress4608不改写。N=cap4096科学新包正写；无新数/实际finite矩阵/逆/roughbulk/负head。
 
+[W96真实低96列和完整正侧有限关系](results/R133-supplement-genuine-low96-Poisson-columns-and-exact-positive-boundary-completion.md)02f93880：同真实outer低96 odd+96 chart identities+1 even mean=193行，WHR完整mH余核给T:R^(289+mH)→R^(193+mH)。kernel96+ℓ重构单射至actual positive homogeneous解，至少96真实列存在；ℓ额外列/ℓcompatibility及全部inhom RHS保，不把a*任意给定或把存在当数值basis。指定root even96坐标另须真实193+mH方阵逆。混合root经原PW全density/两means、WPL半行/左B^-1给真正Hphys，无高输入rightfactor；所有Θ/finite/high/νcross保。消head后high列完整反馈需新界/rough域，旧WGB E不能照抄；数值pairings、finite逆及最终族仍待。
+
 [WMR正权physical mean与完整重组](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)550866c0：同aJw/DJ正概率测度精确约共同权，strictδ79/128与localδ3/4分域各证；原metric给实际negative区间β≥0，独立原Π与weighted mean、Aabs和backward负部界全保。新两patch Z/Zr及g1=JQf−z′k−zTk仿射组装保kr/非mean B/T/两jumps/三个旧端/orderedreadout，whole只对oldwhole/reduced只对oldreduced整选；未减旧upper。仅新公式0数；全physicalmean/ν/96/head/finite/背景仍待。
 
 ### 2b. 已付系数、坐标与原强界
