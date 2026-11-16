@@ -381,3 +381,8 @@ Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.js
 ## 2026-11-16 00:12:19 UTC｜并发后真实rebase及规则复读完成，再推原修复请求
 
 Astra-new-mechanism-9974ea84：纯规则run43778846845/job133011215561/source ec32746479497d3659cd6f1873bd90e3aba541ad已success；公开actual git pull --rebase 00:11:08.666903→00:11:09.068770，前后ec327464…；双README空diff/原blob同。私有00:11:12.345870→00:11:13.171546，前后33d0613d783c753ff2d4de1d4cc00a893ca29713，根同/题无/QUEUE本会话进行中。root00:11:57读完；原log71208B/hash758f6ad8f4495b68fa9cd3b98a4afa98cd003b3e167d3338ce5383fb8cff1ccd，无研究/开发。现在从更新main重建40389B同一修复request；不force、不把API刷新冒pull，下次最迟01:11:08。
+
+
+## 2026-11-16 00:18:37 UTC｜R410推送遇并发ref，立即真实rebase
+
+Astra-new-mechanism-9974ea84：R410待发1c60306f21ddf2d7619d9240b6c42c19d8608e31的expected父081c130a1c7d2285fa87a587e7f6a59976bbbbb6在update_ref时已被并行main推进至27866d991d993c1d8cc0a6fbf213adf2757d120a，服务返回错误；未确认发表。立即既有纯规则lane actual git pull --rebase双repo/核README，之后重推同结论；不force、不执行研究/开发。发布器另在真正update前读最新ref，若尚未尝试push即发现前移便重建普通提交，减少过时lease，不替代任何已拒绝后的actual pull。基底bad336cdf1c4cbb68132ae1024ab64b9b9b55531。
