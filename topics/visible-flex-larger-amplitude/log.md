@@ -712,6 +712,11 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 [R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d完整源与独立文本核已付：真同job43f217 frozen450父、同十词/准确C/DAG/finite compiler/公共u；完整父mesh+准确midpoint→RN64+所有literal knots形成新初猜，父450字只在seed/preflight保，全部450 RHS新算。原preflight/currentH/338×112J/FD/8×17 fullDN/final/audit与writer全保，新worker不借父anchor。maxnodes放不下或机器无新点显式partial，不截点/不称收敛；末state/mesh以原solver输出为准。仅mesh入口，M/N/native配置不改，尚无实际parent/recipe/run、外层clock/单90KB reader/cleanup；全部精化/闭面几何仍未付。
 
 
-## 2026-11-16 00:11 UTC /root — R425完整闭像与刚性输入
+## 2026-11-16 00:07:55 UTC /root — R425完整闭像与刚性输入
 
 [R425](results/R425-current-C-whole-image-held-and-reflection-rigidity-inputs.md)/[接口](notes/2026-11-15-current-C-whole-image-held-and-rigidity-interface.md)/c87b3a9b完整源已核：同R416准确场/R417完整两帽/R413 cuff，整闭F0位置覆盖与全D给held下界；R254完整前缀及全tail/collar/patch非平面责任、四真实marker和R238含反射刚性保持，仍须实际嵌入，actual_delta_E=false。fresh输出严格RUNNER_TEMP并保护输入；成功尾组仅完整索引ranges/实际分布/原件身份，全部失败尝试/当前组/未访保；单90KB超限仍70，完整临时账不改。无实际450、见证/阈值、全held或δE证书，不冒C²/metric/reach。
+
+
+## 2026-11-16 00:12:31 UTC /root — request201实际返回初值完整入口
+
+[201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，root唯一实际R430，尚无新run/接受。 本条并把R425日志时标校准为实际首次提交00:07:55 UTC。
