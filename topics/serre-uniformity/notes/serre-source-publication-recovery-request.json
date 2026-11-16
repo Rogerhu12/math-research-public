@@ -2,46 +2,41 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1238-strict-R827-schema-and-actual-half-dual-intake",
-  "commit_message": "serre: preserve original R827 stage schema and continue low-weight kernels",
-  "rules_last_read_commit": "c51c4b74716466c19389f456642b8e77951ab63d",
+  "request_id": "20261116-1245-original-half-dual-541-same-core-continuation",
+  "commit_message": "serre: continue original half-coordinate dual after actual digit 541",
+  "rules_last_read_commit": "7ffeb9edeff4e244f811584c5349211137610024",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "a2a71daca685c4dc20cdf6364d33652b88528213ee8a0492484945caa8b566ba",
+  "expected_previous_request_sha256": "9fd4b7a3eff47a2da227904dd1e0a82e87922ed8c70ac25d1e2e1022de7d2a97",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R896_original_five_sum_Hom_low_weight_RR.py",
-      "sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
-      "expected_previous_sha256": "cb1b669afb6dc6a7190c60835d54e8c838a064838181b2087c2409282c10b4e8"
+      "path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-541-checkpoint-and-same-core-continuation.md",
+      "sha256": "484fbf525bee6ba816eee86a00ac79956cd945f636a35937991c94e5b1f4f0d0",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R896_public_original_five_sum_Hom_low_weight_RR.py",
-      "sha256": "558ad67f7b05662d7692060dcd7ea0742329c3fc85271a4be1e2b4155b2e9129",
-      "expected_previous_sha256": "00e94e7f82e1d770f58dbbb584e09c66ad3d7d755cbbecb53dd9728d5661a023"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R896-five-sum-Hom-low-weight-RR-public-request.json",
-      "sha256": "40af1453329e50ec05e8f42f0ce27ebb773657732cc4c7290a1ca9a7a34d7fdb",
-      "expected_previous_sha256": "b5b90ae6299e0edab64ccedd02979e86fd7b43d44cd246e4f1325197e4920c09"
+      "path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
+      "sha256": "2800836c786c308dd51fa96a0a7a248eecf6f28f9d7e72d47017cc3039a1ed28",
+      "expected_previous_sha256": "9492c873fb11d5043c9479a662b7a25208f26d84f40bdb8e481b5e808c3c426b"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "68ba274740160f0d1b3db9d3e9fb3c6c646ff9c5a77a84d575548a8f7da3990e",
-      "expected_previous_sha256": "097fad6272209793a2c0c3a96230029f9dfbaec009a11bbbf341d643f93bb655"
+      "sha256": "485c516550266b3baa691dfd76cac3d4e4817684491d01b147ce435015730b59",
+      "expected_previous_sha256": "dec6df33bcf88d318f2d33492125d9ace0ba43b011074ffded33e29d6d717c35"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "95f3bce2e3dd3b41eaa93b3b4473f6439cc3e0a2524236ea8161ede819149d30",
-      "expected_previous_sha256": "85328df95b3757c872ff5e75d6de266fbb10d3098f4aacadfb99b59977f95bd8"
+      "sha256": "de3dd80de9387488d3d6f91099fb1246727c738a59cf3bbdbcd95a975428514b",
+      "expected_previous_sha256": "0b44f3289230cd9635f12872619e16df7701f8ccf2322aae601002d6b36335d1"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R896-five-sum-Hom-low-weight-RR.yml",
-      "request_path": "topics/serre-uniformity/notes/R896-five-sum-Hom-low-weight-RR-public-request.json",
-      "request_sha256": "40af1453329e50ec05e8f42f0ce27ebb773657732cc4c7290a1ca9a7a34d7fdb"
+      "workflow": "serre-R787-half-coordinate-dual-CM-value.yml",
+      "request_path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
+      "request_sha256": "2800836c786c308dd51fa96a0a7a248eecf6f28f9d7e72d47017cc3039a1ed28"
     }
   ]
 }

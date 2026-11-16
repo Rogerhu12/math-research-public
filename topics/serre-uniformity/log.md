@@ -230,3 +230,8 @@
 - R896首run未入数学core；实际旧W/K原字节确认R827结果仅在configuration，修两处严格schema，core23281231/wrapper558ad67f续原五任务，未改数学或重旧stage。
 - R787半坐标dual实际BudgetStop至541位、A.1仍未决；启动必要IO v18读原current/index/manifest，准备同core从真实断点续，不从370重算。
 - 本push规则：公开Actions真实pull至7ffeb9edeff4e244f811584c5349211137610024（2026-11-16T12:38:57.886883+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 20:45 Asia/Taipei — serre-public-astra-20261115
+- R787半坐标dual原370后真提交171位至541，完整原模恒等式保全，542正残差也已成；退出124/真实core receipt，A.1/准确dual/height均未决。
+- 原manifest b274f3b4与current e7b19461已读，发同coreffe5dcff/wrapper1552e403续接；1481原输入及三carrier原样，542已成残差/旧位/旧逆不重。
+- 本push规则：公开Actions真实pull至9d0951f1a32e8d93b804d2e574bac68fa85cfc9f（2026-11-16T12:45:22.358213+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

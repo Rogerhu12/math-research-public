@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7ffeb9edeff4e244f811584c5349211137610024**（2026-11-16T12:38:57.886883+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K有效trace代表前H](handoff-archive-2026-11-16-before-K-defined-trace-representative.md)，内接完整Cartan前H及全部旧归档，原来源/已成结论/关闭边界持续有效。
+**已读规则提交：9d0951f1a32e8d93b804d2e574bac68fa85cfc9f**（2026-11-16T12:45:22.358213+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K有效trace代表前H](handoff-archive-2026-11-16-before-K-defined-trace-representative.md)，内接完整Cartan前H及全部旧归档，原来源/已成结论/关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -15,10 +15,10 @@
 |R787 primal594后|43846878233 / 133229330888|fe3da6c7，core93d3d72b/wrapper42157e0d，10:13入算300min|
 |R824原27+244从596后|43828509061 / 133167910211|9829a038，core1ece3cf4/wrapperc5907739，08:05入算300min|
 |R854原41响应N112|43832705685 / 133181715849|2ee14751，08:37入算300min，目标7须真逆界/四球|
-|R787半坐标dual|43823979328 / 133153392094|6110d6a1，真BudgetStop至541位，12:31结束；必要IO v18取原断点待同核续|
+|R787半坐标dual|43823979328 / 133153392094|旧6110d6a1真BudgetStop541，542正残差已成；同coreffe5dcff/wrapper1552e403新请求续|
 |R815准确Γ|43853995004 / 133253466821|c1b3bfb1，core80516ff9/wrapperab725da0，11:01入算300min|
 
-全部先前真实断点/source pins见上链归档，同core续不重已成位/行。A.1仍须原35840 Theta/Delta，失败RR不拒q；R854 N112不预断足够，原S_m/full2560、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ不丢。R858源仍pending/null。
+全部先前真实断点/source pins见上链归档，同core续不重已成位/行。[半dual541](notes/R787-half-coordinate-dual-541-checkpoint-and-same-core-continuation.md)真manifest b274f3b4、current e7b19461、542正残差59b1a8d7；原artifact14226237212/263ebd78至Nov17 12:31，同tag368848b4、1481原输入/三carrier直接恢复，A.1未决。A.1仍须原35840 Theta/Delta，失败RR不拒q；R854 N112不预断足够，原S_m/full2560、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ不丢。R858源仍pending/null。
 
 [R815准确M_g已成](results/R815-certified-original-exact-Wronskian-multiplier.md)：旧run43809724947真BudgetStop/Γ未成，696prime/20809bit、全272交换子/两图17块已成，indexf27130f0；artifact14216992068/190f59de至Nov17 10:27。新run直接复用准确g，不独立重构Mh。
 
