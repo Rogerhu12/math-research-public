@@ -73,3 +73,7 @@
 ## 2026-11-16 08:49:00 UTC /root — R502实际219三工程失败及勘误
 
 [R502](results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)13503/4391677e，run43832887523/sourcef0c78734，两终志各唯一/必要2101同字；原ledger-ready SHA漏e成63字，第五输入guard拒，后78/91和全部科学/19200钟未起。quiet无归属证据的同uid权限错使未证静止；cleanup heredoc未解析，无删除/保留事件。R501接口改明示原正确64字并保f0历史、原219执行件不改；221仅三实际修复，真own不可读仍unknown，全14科学/门/钟保。220已正式run43833995131/source3ea0620a，由amplitude唯一终态。
+
+## 2026-11-16 08:55:00 UTC /root — R508与221原输入/限定归属后继
+
+[R508](results/R508-live128-scoped-ownership-and-original-input-repair.md)12168/a28c与[接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)14354/5c0f连四入口完成即刊/dispatch：38924/6f21、35283/6871、54884/0fa9、13301/8384。保原14科学字节/336pins/单19200钟/全门，仅三实际工程修；真own/可疑own不可读仍unknown，外部同uid权限错不冒所属，单90K与再次quiet清理保。R509/exact待实际身份；220/R506两终志已唯一读，第6层JSON源分类错误正文紧接单推，222薄修不改46科学tuple。
