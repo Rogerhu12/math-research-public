@@ -14,7 +14,7 @@
 - 已全成：四参数run43830684123/job133175032397、原pencil run43836278134/job133193599424；正式结论/身份见下及归档。根全日志/原raw/binding独核；数学数据只tmp/日志，不冒旧tmp存活。
 - **旧Bell作业43832009393已结束：** 双degree自测/权5–7完整；权8来源核但pair未完，conditional900在候选dump终标前75，E未跑。根四raw已无损独核；旧tmp不冒存活，详归档。
 
-- **Bell次数9新实际队列：** [单目标来源/严格E接口](notes/2026-11-16-r150-original-bell-target-only-interface-789f.md)已全审：std仅发现，真纯tt才求原18×1，SSI整存/回读、原完整积＋独立FLINT双积再E全三分量。实run43846433774/job133227659894在算；600→1200→1800仅75续、E600；4GiB/90min，全部步骤预冻结。正/负结论均未预填；无纯列仅发现记录，不称完整负。旧临时数组不沿用。
+- **Bell次数9新实际队列：** [单目标来源/严格E接口](notes/2026-11-16-r150-original-bell-target-only-interface-789f.md)已全审：std仅发现，真纯tt才求原18×1，SSI整存/回读、原完整积＋独立FLINT双积再E全三分量。实run43846433774/job133227659894在算，首600实592.300秒/75；600→1200→1800仅75续、E600；4GiB/90min，全部步骤预冻结。正/负结论均未预填；无纯列仅发现记录，不称完整负。旧临时数组不沿用。
 
 ## R150原rank-one精确系数接续
 
@@ -23,7 +23,7 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
-- **下一共同M：** 乘h*给M→B满射，故dR(M)仅8或9。lit先完整225原Krylov及根1/2自由影像资格，再各根真free列＋tors carry；h*在两根都非D单位，不能由B猜M全部tors。root1须自身local G/V。其它127/全W及归档open继续。
+- **共同M实际下一步：** [全225列资格队列](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)已全审：真T16商后的自由25饱和/两根primitive与交像Nakayama，另逐primary最少生成数；真域像需9才夹dR(M)=9，否则仍8或9。新job重建已付35项父、不重210，五步后取全日志；高p carry未算。
 
 ## R150完整非rank-one及Bell1
 
@@ -35,7 +35,7 @@
 
 - **[原自然幂与纯参数幂精确对应](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** A[t]/(J,b−t³)=C⊕Ct⊕Ct²，故t^K∈I当且仅当b^floor(K/3)∈J；ρ_r逐原来源无除法提取，最小Bell1来源权恰3q0。已付F127全M/T秩388/391使d100下(1,100,94)平方非零，E/三个嵌入亦已付，故全部K≤8无纯参数源。下一可从权9找正证；一列18原恒等及独立仿射乘回即足，负完备仍需所有门。没有新positive或特征零升格。
 
-- **[原权九严格秩上界已付](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)：** 原权6全部388列独立⇒权5的72列独立⇒396条明确Koszul关系独立。完整权9矩阵49368×16442的Q/E秩≤16046；将来完整mod127增广秩若>16046才排原b³，并继而排K≤11。三个Q系数或同d100原单列均可走此真门；新权9秩尚未算，不把std候选无列当负。
+- **[原权九秩上界已付](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)：** 原388列独立⇒72列独立⇒396条Koszul独立；完整49368×16442矩阵Q/E秩≤16046。未来完整mod127增广秩>16046才排b³及K≤11，新秩未算；std无纯列不作负。
 
 ## R271真实投影返回与剩余交叉
 
