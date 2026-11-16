@@ -175,7 +175,7 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 [R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)固定一个真实宽度，将完整13×三尾current代入(x,p/r)=(t∓b,±s)、u/r=h>0及真实n(t)=(n0,n1+tn0,n2+2tn1+t²n0)。两方向degree≤7；末low/high原角色n0=εB²(4√2+3/2)μhigh,0≠0，外部完整cell R/T三矩闭合、12真中心、γ7归一均保原成本。degree7差检D6，去其列后degree5和检−n0(h/6+2s²+10bs/3)D5；没有把n三分量自由化。
 
-同一显式二次c镜盲提升，在任意suffix及全部位置/role共用，给DkerEval=Pol≤4，故全R_E的实际formal商恰D5,D6，二者0 iff同一signed响应能清这一宽度全部C。不同宽度仍共用一个成本：κcap=ur/p²不变的c=1,x盲式只普遍付Pol≤3，已知Pol≤3⊂DkerEval_full⊂Pol≤4，可能另余D4；不授额外秩或移植各宽右逆。
+同一显式二次c镜盲提升，在任意suffix及全部位置/role共用，给DkerEval=Pol≤4，故全R_E的实际formal商恰D5,D6，二者0 iff同一signed响应能清这一宽度全部C。不同宽度仍共用一个成本：κcap=ur/p²不变的c=1,x盲式只普遍付Pol≤3，已知Pol≤3⊂DkerEval_full⊂Pol≤4，R458在两宽各有原3low/同high与8copy时已付精确额外D4；原冻结库不自动具两宽，仍不移植各宽右逆。
 
 该原canonical/Γ正规化已由R457支付：H*+J4或H*+J6同λ1/J⁺0且整个D0。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。
 
@@ -187,3 +187,10 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 正规F0的顶两式给dC2=−3x5/128、dC4=dC6=+3x5/128；正规加速度/H/Q4全d0，故旧C20=C4+c0C6+R中的c0=−1。实际正常F0值有非零六次项，真小平移使d(U)=Pol≤6（纸面函数商，不是positive实际rank）。同母四自然矩和ordered闭包给Hhat=H*+J4或+J6∈U0∩ker(J⁺,d)，λ+=1，universal Λ仍n2非零。
 
 下一同权0选择整个formal C的R_E右逆，保证补偿后仍可用R451平移≤8及R448同一个W清全部roles self。要证明该右逆可保真权0、全C0使全部suffix partial恒0、不同宽在共同评价内处理；之后才能把新partial核接原实际有限锥/基准。signed λ1不自动授positive cone，更不授全Lf range/p极性/平台/germ或同十三规范。0新执行。
+
+
+### R458：两宽第三余量的真实判别；原单宽不改
+
+[R458](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)先用末high前3个真实low：suffix同λμhigh，改变量后对3个不同δ的二次多项式恒零，严格恢复各n分量镜盲。保全部13列，两宽差再给14A0+(5+3κ)B1=0、A0+B1/2=0、−10A0/9−(κ+1/9)B1=0；若B1≠0同时迫κ=2/3及4/9，矛盾。因此两宽条件下DkerEval=Pol≤3，formal实际商恰D4/D5/D6，同一signed响应清全部C iff三项0。
+
+原7个p-only系数全保；三真实role×八已有中心×两宽给显式有限D4读出，不把n自由化。R280/324五块只平移/正幅，R455允许从起点全同宽，故不声称当前已冻结物理库满足两宽；若新partial查询从起点取共同正仿射开窗口，其两伸缩查询像才可应用，actual联合锥/窗口仍须另付。R457 Hhat整个D0可直接取formal全C补偿，不需先加两宽物理库。继续R459同权全C/self及p简单零真range。

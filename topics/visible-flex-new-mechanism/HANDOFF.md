@@ -36,7 +36,7 @@ R437最高P2θ=κell_f/24杀全kerLf；13rank≤12/底≤9仅上界。R442有限
 
 R450完整U的self/2+2位置≤11；同最终V/F/G的12真中心range经Vandermonde给紧逆≤11，ell六权使e≤17，原12仅余≤6。新初选外8四次幅g翻号宏copy以18差分清全e，覆盖完整actual基准但以最终真range为前提。全角F_rat平移系数与每宏R/T三矩保留，新C²余项进入b_new，由同20/有限N方程付；改母/成本不能借旧range收据。
 
-R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。R454已闭全R的C像，未分类完整self。[R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)把完整镜对放回真实末low/high suffix和12中心：n0≠0，γ7归一保真；同宽全部角色D(kerEval)=Pol≤4，formal商恰D5/D6。多宽仅知Pol≤3⊂DkerEval⊂Pol≤4，额外至多D4，不拼右逆。R457自然d和权零signed核已付，接同权全C/self与actual全根/两period/余9。高阶收敛、嵌入/reach与同g有限族均未付。
+R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。R454已闭全R的C像，未分类完整self。[R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)把完整镜对放回真实末low/high suffix和12中心：n0≠0，γ7归一保真；同宽全部角色D(kerEval)=Pol≤4，formal商恰D5/D6。R458若两真宽各含原3low/同high及8copy，则DkerEval=Pol≤3，精确另检D4；当前库可全同宽，不擅加两宽。R457自然d和权零signed核已付，接同权全C/self与actual全根/两period/余9。高阶收敛、嵌入/reach与同g有限族均未付。
 
 ## 4. 数值费用与最新实际末态
 

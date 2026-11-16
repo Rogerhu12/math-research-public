@@ -336,3 +336,6 @@
 
 
 - **R457：全U自然七余商与完整Γ正规化给权零λ正核。** [raw有序/whole主项、全M0端点乘子与完整证明](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)（20760B/SHA10cf8b733cbcfc486534b2cc6846d33d2675942be33c99b61be587d742b814ca）。新d=draw−TrFhat/8杀全R、真H^-5协变、像Pol≤6；先以真倒行去T，再用R130全端点群/同乘子与开路径分时长微幅，保Γm0/m2，正规四层d全0。dC2=−3x5/128、dC4=dC6=+3x5/128，C20类系数c0=−1；同母H*+J4/J6是J⁺/D0且λ1的signed权零成员。全C/self实际联合仍欠，0新执行/旧rank。
+
+
+- **R458：三真实同尾角色及两宽条件精确检出D4。** [完整十三列、实际suffix恢复与有限读出](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)（15727B/SHA4ac377a98375daac7504617ae168eb7c233b62c780c72813e2599b43304caa13）。三low同一个真实high suffix经degree7与三δ插值迫逐n镜盲；两个实际s²差在全部旧七列下无κ例外地杀B1，结合共同c=1,x提升给DkerEval=Pol≤3，商恰D4/5/6并有显式D4读出。两宽/每宽3role+8copy是前提，当前可全同宽，查询仿射闭包不冒物理库，0新执行/旧rank。
