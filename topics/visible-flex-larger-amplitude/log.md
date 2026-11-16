@@ -109,3 +109,8 @@
 ## 2026-11-16 /root — R448完整径向网格与真实未访账
 
 [R448](results/R448-fixed-target-radial-mesh-and-joint-resolution-refinement.md)/[完整接口](notes/2026-11-16-current-C-ten450-radial-and-joint-resolution-interface.md)发布六独立源：137d42cb driver/f3a2abf6 owner在R441四因子之外加入真实radial_mesh；保父全部字词/knots，以准确有理候选一次RN64插点，完整候选账和未访区间后缀保留。max_nodes不足或机器点不增加只报资源partial；真fresh全450 RHS/preflight与原H/J/FD/fullDN/final/audit不变，同18900+2700原绝对钟。复用bf7d writer及全部R441数学源，显式新后闭/held/必要读取来源，首次W/H/marker/cuff继续冻结。六全diff/证明/接口已读，joint第十四资源键明确，无本地科学/AST/compile；没有实际父/因子/run/收敛或M加密，R447准确材料consumer尚未调用。
+
+
+## 2026-11-16 /root — R442有限M深尾与全维数后继
+
+[R442](results/R442-fixed-accurate-C-finite-M-modes-and-deep-tail-range.md)/[完整接口](notes/2026-11-16-current-C-complete-M-native-and-frozen-field-interface.md)发布二十独立运行/读取源。准确C及全根族、全十词/DAG不变，固定F159重付有限M的显式有理扰动条件 $v_*\le1/2,\ \varepsilon_M\le1/64$；未付则保全部未起频率，不能沿用m≤224旧界。真实新深尾→全M联合Prüfer/完整新采样→$4M+2$冻结BVP，同原绝对钟且全$2M+2$双mean、$(3M+2)\times M$灵敏度、H/两组FD/fullDN/final/audit不减。父四系数块按新偏移保词，高模零仅初猜，fresh完整RHS；原f9b切线未冒195新实现。Saved/radial/shared真实动态M，source/readback/未访/90KB/quiet全显式；仅原193/joint203、R431/R441或自身实际接受父，未注册R448。证明/接口与来源维数改动已读、字节相合，无本地科学或实际M/父/run/收敛；M版后闭metric/reach/held及R447共同材料来源仍待独立接线与真场执行。

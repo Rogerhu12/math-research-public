@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 02:26:02 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f91629e1aedec399df35b103da03820952c623d3。
+规则同步记录：2026-11-16 02:30:26 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bbbfeeb8e8922c5408c986661c2c5eec6598ea05。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。所有科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布，代理交文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 
@@ -34,9 +34,9 @@
 
 [203总接口](notes/2026-11-16-request203-joint-ten450-and-first-closed-geometry-interface.md)/[helper接口](notes/2026-11-16-request203-first-current-C-closed-postsolve-orchestration-interface.md)保request84af713a/workflowc67f3bef、owner58302e11/helper4094224e及完整143pins；原19398逐值保，141已刊源实核。actual180+xi0→fresh准确C/cut/deep112/全112联合行→全H/J/FD/453→真正450→首次闭面/fullmetric/reach/独立held。sampling预留7200→3600，原BVP最大7200、18900+2700绝对钟/规则不改；七scope必要+quiet才清，三新正文compute/report只身份。源码/完整diff/参数已读，无实际450/几何接受。
 
-[R408实际193](results/R408-actual193-continuous-ten-finite-far-budget-and-unstarted-full453-frozen450.md)run43769481114/source51fb1430；C闭域完整而2879宽度欠项、十域/deep112完成；far m2..206共103完成，m208原预算停止，210..224八模未起。启动时预留7200将linear裁为7049.298秒，不冒双零错；native/453/450未起。34419B/6a7d632b必要全文/原pending/资源/错误/quiet已读，01:36:08真清88.85GB owned树；大raw仅身份，不可SHA恢复。
+[R408实际193](results/R408-actual193-continuous-ten-finite-far-budget-and-unstarted-full453-frozen450.md)run43769481114/source51fb1430；C闭域完整、2879宽度欠项，十域/deep112完成。far m2..206共103完成，m208预算停、210..224八模未起；旧预留7200裁linear为7049.298秒。native/453/450未起；34419B/6a7d632b必要/错误/quiet全读，01:36:08真清88.85GB owned树，SHA不能恢复raw。
 
-[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)3接受/4α后Decimal unit/112tol过、W6.792856894e−20；120FD/投影Arb1687叶/1244split/453圆参考齐，但binary64第三unit7.70654e−8未过1e−8。53秒非partial，无native；65926B必要全文/错误/quiet后清。末十词553B/ba7d7fe3仅另一准确C新族的fresh初猜，同顺序不等同原finiteGauss函数，50位点和64位exactdyadic须区分。原201/R430仍资源partial；203不使用202词。
+[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)3接受/4α；Decimal unit/112tol过、W6.792856894e−20，但binary64第三unit7.70654e−8未过1e−8。120FD/Arb1687叶1244split/453圆参考齐；53秒非partial、无native。65926B必要/错误/quiet后清；553B/ba7d7fe3末十词只可另一准确C的fresh初猜，50位点/64位dyadic与旧finiteGauss函数各分清。201/R430仍partial，203不用202词。
 
 [R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)128首α1/replay过，stage.cpp:44 BatchStats歧义编译失败、112/338未起；audit1800秒仅560/576、7305/7488query、6771advance，原全部partial地址见正文。69567B必要与3462B错误全文/quiet后真清；R397实际186另有24完整stage和576完整audit，不跨run拼接。R445只限定stats类型，204保原三调用函数、89+5=94pins与原19200/32×10/2e−9/全组件/90KB/quiet；完整六diff与接口已读，见[204接口](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)。
 
@@ -51,9 +51,9 @@
 
 203已派发并绑定，root已全文读并发布[R441](results/R441-fixed-target-angular-and-tail-step-refinement.md)/[接口](notes/2026-11-16-current-C-ten450-angular-step-and-angle-refinement-interface.md)18源最终diff/证明/接口（原manifest92a3061f，接口只澄清暂存清单）。bf7d writer/bf1f driver/2247 owner真N/tailsteps/两角与完整新450、所有几何/必要读取；第一W/H/全marker/cuff冻结、材料Phi非同词。没有真实因子/父/run或收敛，非mesh/M精化。
 geometry唯一203/R440终态；[R448](results/R448-fixed-target-radial-mesh-and-joint-resolution-refinement.md)/[接口](notes/2026-11-16-current-C-ten450-radial-and-joint-resolution-interface.md)六源及完整diff/证明/接口已读发布。137d42cb/f3a2abf6真radial_mesh第五因子保父词/knots、准确插点RN64、fresh450全部原门，容量/无新点只资源partial；bf7d/全部R441数学源复用，同原钟，无实际父/因子/run。续R450同job同M/C/root的完整far复用：固定原mu和误差对象，新grid真生、全部native/J/接受fresh。
-exact的R442完整M二十源/证明/接口已交manifest75aac03c，root正读；真实2M+2双mean、3M+2/4M+2/全native/深界和全部consumer，不拿M112界换标签。续R451接实际M完整metric/reach/held；唯一195/197/200终态。
+exact唯一195/197/200终态；[R442](results/R442-fixed-accurate-C-finite-M-modes-and-deep-tail-range.md)/[接口](notes/2026-11-16-current-C-complete-M-native-and-frozen-field-interface.md)20源已读发布：F159显式有限M适用条件、全根族/全Mfar、双mean/完整新4M+2及原全部门，同绝对钟；高模零仅四块嵌入初猜，fresh RHS。Saved/radial/shared动态M，无实际M/父/run。源父限原193/joint203、R431/R441/自身M，尚不接R448；续R451实际M完整metric/reach/held及公共材料来源注册。
 amplitude唯一204/R446终态；[R447](results/R447-accurate-common-material-phase-and-strong-C2-continuity.md)/[接口](notes/2026-11-16-accurate-common-material-phase-consumer-interface.md)已刊305eaf50准确公共相位/可选六jet。正材料图与全空间C²/接缝下全t强C²连续；12高jet只可选更强性质，无实际调用/跨j收敛。R449把202末十词投为新dyadic准确C模型并接fresh链；旧三个support皆prefix内部，准确新support1/2另在transition/coast，不能冒同一函数或旧接受。
 
 ## 恢复与保存
 
-未推源码依本文件/已刊接口重做，已删raw只可公开Actions再生。旧log[原文](log-checkpoint-before-R431.md)/旧results[原文](results-index-before-request195.md)及检查点链保全部来源。最近实际topic tree fd2995e408a9874eb5a91d4d864c130dcf3be94e（83c4b4cb）9045blob/192529510B、未截断；此后增量另计。每结论立即推、每pull核双README；继续open全部标准及严格存在缺口。
+未推源码依本文件/已刊接口重做，已删raw只可公开Actions再生。旧log[原文](log-checkpoint-before-R431.md)/旧results[原文](results-index-before-request195.md)及检查点链保全部来源。最近实际topic tree e9a9686050ce629512c8b88f14f19f467e08a305（4af72dc1）9083blob/193865752B、未截断；本R442新件751091B，索引增量另计。每结论立即推、每pull核双README；继续open全部标准及严格存在缺口。
