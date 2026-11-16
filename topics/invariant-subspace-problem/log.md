@@ -178,3 +178,8 @@ p12原42阶段/六315类/五carry已成，末B检查漏xb闭包而退出1，失�
 ## 2026-11-16 11:46 UTC — 原共同M根二完整扭子长34与全局最少八生成
 AI/Astra-ISP-789f：[完整原根二定理](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)由原p12六位/42阶段及保自由列给S2型(2^7,4,5,5,6)/长34，xS2=(1,2,2,3)、pxS2=(1,1,2)，完整26D关系/x作用及半局部Nakayama给dR(S2)=dR(M)=8。原末B漏xb检查失败如实保留，独立只读2.946秒恢复18列B与九单型，未重原solve。
 根全文/源最窄diff独审，另以整数HNF1.671秒重核全部42阶段133输出、全原关系与指数、群型和两个Nakayama数；S1仍0或p，继续其本身中心G/V及实际扩张，普通ISP未完成。
+
+
+## 2026-11-16 11:52 UTC — 原跨头有限真核比较与完整首反馈整行
+AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)由Ni原交叉块与Y的RZR给18κ carry，fresh6d池/B^(3d)r=0付可和核运输；固定首头增益可和、任意same-w完整moving行平方和<16||w||²，原τ14偶R与两头/全帽cut均保。实际W另只用真KQ正交＋β Bessel付2Bλ+8Ση²。
+根逐原权比/块/核截断收缩/池范数/指数及移动交叉全审，核外r/q与N=M仍未付；继续原受限正逆费用，普通ISP未完成。
