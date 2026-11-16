@@ -24,7 +24,7 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R512](results/R512-complete39-actual-producer-role-context-binding.md)定位213真实producer/formatter六处符号失接：五类表实际带original_/returned/records，RMS索引为original_check_index，旧lookup无别名而跳过。新formatter20883/f79328ed只接准确角色与新身份，原七种完整相等/行序/错误/值保全操作不变；不由未返115134B推实际节省量或必fit。223/R513由root接真实helper/worker/request/全部祖先来源，完整即执行；原98fresh、八批/FD/17档/全部预算和90K70/quiet不变，不冒native/fullDN接受，不盲重跑旧失接入口。
 
-[223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；正式run/head另记。
+[223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；[正式绑定](notes/2026-11-16-request223-official-run-binding.md)：run43839064900/source035d2866/compute133202897349，发布a8b至实际035d整topic与workflow同字。09:26前1–7success、8原八批39/FD运行，不预填结果。
 
 ## 2. 准确十族候选与完整453→450
 

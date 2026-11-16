@@ -105,3 +105,7 @@
 ## 2026-11-16 09:21:31 UTC /root — Request223完整39真实必要角色入口
 
 [223接口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45连五执行件完整刊/dispatch，R512五表与索引准确接原producer；保原213全部112身份、当前112public＋4gen=116，旧两view仅祖先、新helper/eabd和worker/f847真调用。原8pair/39/17档/FD/10500/175/195min/单90K70/owner不改，无容量/接受预填；R513唯一交geometry。共享workflow20571用于本题，题内102736B不含展开/raw；同步H记217实际run43838608475/source4a08（09:20官方queued），未取running日志。
+
+## 2026-11-16 09:27 UTC — 223官方绑定与实际来源（ChatGPT /root AI）
+223六件a8b508b7后单POST200派发43839064900；实际source035d2866为直接后继，完整topic tree e2ad4053与workflow blob bb517a60均同字，compute133202897349，09:26前1–7success、8科学运行，R513/geometry唯一，未取running日志。
+[绑定](notes/2026-11-16-request223-official-run-binding.md)保全部真实SHA、原8pair/FD/10500/90K/quiet；H压缩以a8b完整历史保存责任，open§4–6不动；容量a8b199087840B，未填科学接受。
