@@ -8,7 +8,7 @@
 
 **完整低旗标上的整个返回源 Schur 能量已付。** [同一原首头、全零源及跨头完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)给 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，取ℓ=2d−2后，准确增益为 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。完整canonical Fock保全部birth/物理最小源，F2及混合块仍精确；有限池 $y=(m+1)^4dx$ 支付ε_f+ℓt，fresh6d正交修复使Σ(qℓ−q0)<2，从而支付整个返回源而非仅第三旗分量。bosonic Schur总能<4，但 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；去正则项、外部高旗Schur及原 $\sigma_2^2\|(C^{*2})^\dagger\mathfrak h\|^2$ 完整费仍须另证。源在低旗不保证MP逆像在低旗；不据此宣N=M。原τ14、全h/matched/cut不变。
 
-**原116种子已压到50原列；修正运行时后继续完整正门。** [同B模证明](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)保全部十二参数、1160坐标/原18来源及root独立51,834,662产品。[首次真实job](notes/2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)模型成功，压缩入口被manifest SHA挡住，尚无Singular/候选；root/代理全118文件精确定位Python3.14 gzip头差，数学字节未变。仅workflow固定3.12.14，保原数学源/request/全pin，独立新run完整重建父模型。[原正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)先实module自测，再600秒候选；仅75且新完整candidate/验证前缀可续1200/1800。e0须实际U=I、全10/18/17原乘回，再另求E；非零余式不判稳定闭包非单位。
+**原50列真实600秒候选边界已核；后继须有新来源入口。** [固定Python后的完整实际回执](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638模型/压缩均成功，真实module正负/SSI/U=I/FLINT自测与500原坐标全真；slimgb实际584.999秒仅START，未返回完整candidate。第三步exit75但前后signature均null，实际未空续1200/1800；并非OOM或数学负结论。根独读完成日志、三raw与全manifest SHA。保全12参数/原50来源，转有原来源的局部图或更强闭包层；e0和E来源仍待真全10/18/17乘回。
 
 
 **原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-whole-W127-source-cost-789f.md)；归档不等于关闭。**

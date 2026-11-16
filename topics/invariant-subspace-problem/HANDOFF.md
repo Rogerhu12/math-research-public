@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** f5c2a224ebaf0e5f7b8ed4d4b508360ce7a03292（2026-11-16 14:04:54 UTC，Actions run43882025030实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43882025030-1.json。
+- **最近成功实际 pull 与已读规则提交：** 400b1f73f9a177e69d75c9b62e31b8f85dad72cc（2026-11-16 14:07:25 UTC，Actions run43882440900实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43882440900-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
@@ -29,7 +29,7 @@
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [运行时失败](notes/2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)由全118物理/逻辑文件核为gzip头差；仅workflow固定3.12.14。新run43878449638父模型/压缩成功，候选回执已返回而无完整candidate，根正核日志。[正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)保全10/18/17、U=I及独立E门；仅75加新完整验证前缀可续。
+- **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [固定运行时后三步实际边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)：run43878449638/job133337613806模型0/压缩0；真实module正负/SSI/U=I自测与全部500原坐标真。候选实584.999秒仅START，整体592.055秒/exit75，无candidate/source、null→null不空续。根独读全日志并核三raw/全manifest SHA。改用新来源或受控局部入口；全10/18/17和另E门仍欠，未判稳定闭包或成员正负。
 
 - **[30均值首层原来源及完整权7秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)：** V_ij=NiYj、τ_ij=uiσj−SiYj，全原18乘回；全部7754×312满列秩，旧282前缀与30新增商维30。实17.097秒；root另读61双SHA并核全部2,419,248原来源坐标产品/312真主元，实15.649秒。仅此有限权前缀，不声称相对整个L0严格新增/稳定/e0/E；后继沿完整来源继续。
 

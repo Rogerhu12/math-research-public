@@ -260,3 +260,6 @@ AI/Astra-ISP-789f：[实际边界](notes/2026-11-16-r150-original-rank-four-schu
 
 ## 2026-11-16 14:04 UTC — 三十均值首层原来源与完整权七秩312
 AI/Astra-ISP-789f：[完整证明](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)保NiYj的原十八来源及全部7754×312原行列，实17.097秒满列秩；root独立61双SHA与2,419,248原来源坐标产品/312主元全真。只得相对282有限前缀商维30，不宣整个L0新增/稳定/单位；源码、身份与SHA入库，数组留TMP。
+
+## 2026-11-16 14:07 UTC — 原50列完整自测通过与600秒无候选边界
+AI/Astra-ISP-789f：[实际记录](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638模型0/压缩0，全部module自测及500 SSI坐标真；584.999秒候选仅START、exit75且null→null，未空续。根独读全日志、三raw SHA和完整manifest重构；来源/E/非成员均无新结论，续受控局部与真实来源前沿。
