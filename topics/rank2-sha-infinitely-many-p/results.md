@@ -347,3 +347,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R847](results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)：原完整S/W二处作用准确给忠实C3×S3。先以optimal E_f及良好5/7点数6/13消每个实际F的W4 cusp常值，再核源矩阵关系/与R交换及目标sign⊕std；S3在D/R上仍忠实且分别保持两种monodromy。g5/6所有分支候选由P1唯一二点轨道与椭圆商A3非零三阶平移严格排除，合R846得每个原generating项g≥7。整个Hom/polarization、有限Artin系数/实际推前degree及X0/X1归一均保；没有cycle零或非零、canonical比较或跨p AJ结论。
+
+
+[R842 全部负水平的原纤维商与真实来源](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)：对n=ord_tF0为1/2的全部非固定点，含奇点/conductor，原D_Q=(t−tQ)为长ℓ≤b的Cartier交且D_Q⊂Z，D3准确降为Dx。全部分支残数只读qtilde(tQ,x)G(tQ,x) modxℓ，系数S=Tr(1/T_i′)；二次闭式a′(a²−4b)/(b′²−aa′b′+b(a′)²)及S∈x^(1−ℓ)均已付。全D_-长≤2b、H3→D_-真实满射由原RR/κ/χ保证，未将正规化支值自由化。V_T评价另需有限不等式，W_T及更小三长核仍未付；其它边界/同P补偿保留。

@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：e9902534a82602c5a30c07093e48923c5c38ce67；2026-11-16 01:44:16 UTC核两README无变。实际CI pull 2026-11-16 01:05:15 UTC/ed489dd492f33fa2db74c969dd54fdd407322d06（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:44:15 UTC仍无环境。最迟2026-11-16 01:50 UTC再实际pull。
+- 最近已读规则提交：1f70470317224c8af4b1d9fc8c5d2c0549b2547e；2026-11-16 01:45:12 UTC核两README无变。实际CI pull 2026-11-16 01:05:15 UTC/ed489dd492f33fa2db74c969dd54fdd407322d06（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:44:15 UTC仍无环境。最迟2026-11-16 01:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r847.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-r842-trace.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–847已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算更高亏格原2-normalizer/完整作用，root核证明/实际曲线canonical比较。R847已付g≥7；root写R848原S3/Hecke商，literature续R849完整CM pool，下一独立编号R850由root协调。
 实际CI pull 01:05:15/run43784143660/job133027873174成功，head ed489dd4，两README差异空。回执ci/rule-pull-20261116T010515.json，下一01:50前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
 
@@ -44,7 +44,7 @@ R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R83
 
 边界§9–10：同q t^rH3在3s>(3b+degYq+1)ord_1F_b时整t=1纤维残数消去；充分原门9s>(D+1)(M_D−r−deg_tQ)，未预付成立。原t^rF³q∈WD另迫h7纤维有限Y全消，保Y∞/四步链/移动正水平。均仅删B_D子块，B_F与P代表补偿逐字保留。
 
-[负水平有限行](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)：光滑Ftunit的Z_Q=k[x]/x^m上D3=Dx，指定残数=c_s tQ^r[x^(m−1)]A(Dx+1)²(qtilde·V0)，最高jet系数单位。光滑FYunit的二重水平切点全D_R残数零，奇点不外推。原degH2迫z_-=2及c=μd1；横截平方自由两根总边界是二次值商准确行(k1,k0−h1k1)。W_T的实际像未知，全部其它边界/同P补偿保。
+[负水平全纤维trace](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)：全部非固定负水平含奇点，原D_Q=(t−tQ)⊂Z、长ℓ≤b，D3降Dx。指定残数=−c_s tQ^rWQ CT_x[S_Q(Dx+1)²(qtilde G)(tQ,x)]，S_Q=Tr(1/T_i′)∈x^(1−ℓ)k[[x]]；二次S=a′(a²−4b)/(b′²−aa′b′+b(a′)²)，只读原D_Q值。总D_-≤2b且H3→D_-满射已付；V_T需额外T+degD_-<2κ+χ，W_T像仍未知。旧光滑/双切点/二次值行保[原注](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)，不删其它边界或P补偿。
 
 ## 其余未闭门
 
