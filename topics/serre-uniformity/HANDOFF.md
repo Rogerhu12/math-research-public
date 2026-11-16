@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：76ed6f2b086334cb157fdd2ed3e3e9021724bc8e**（2026-11-16T02:56:03.162841+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[半对偶与实际纤维前完整H](handoff-archive-2026-11-16-before-dual-half-and-rigidified-fibres.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：4de05e30dd85c74cb2d1a968937a184d7c5babbe**（2026-11-16T03:03:38.607863+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[半对偶与实际纤维前完整H](handoff-archive-2026-11-16-before-dual-half-and-rigidified-fibres.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -12,12 +12,12 @@
 
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
-| R787从518位同核继续 | 43766834509 / 132973847087 | 0084d2e067710af828ae071e7850764791e41300 | 02:49 UTC实际failure，仅rules artifact；正读runner诊断，不假定新位已成 |
+| R787从518位失联恢复 | 本次推送触发，待读真实run | 本次实际提交 | 同93d3核心/42157包装器；预算120min，resume不变 |
 | R815原582-prime续接 | 43777837244 / 133008081839 | 7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7 | 已在原数学步继续；core80516ff9/wrapperab725da0及目标/模式冻结 |
 | R824原27+244从501位继续 | 43792912432 / 133055178711 | 33f5c3288305cdfc8ed1adb5e1e4fee3ed940870 | 原数学步已在续接，core1ece3cf4/wrapperc5907739冻结 |
 | 新R787清转置接受 | 43790194976 / 133046704617 | ad0278b29f83c035d83f44a262a1e375137c3450 | 原来源步已过，开始新RHS；corebad97414/wrapper5388274 |
 
-R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，不重做，不误称精度不足或关系不存在。R815582-prime current769MB/67e7fe98与53输入109MB/051571e1见[断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)。R824只原27权5+244权6，1186归R787，原129/142/280Q与r28不补143..155。上表仅同核续接，准确展开关系/Mg/Γ仍未成。R824新[501位断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：current5694B/cd8dcb11、history5743B/01f47338、lift70788183B/a2f5c38c；artifact14192476595/7f1c8d82，manifestd2d54554，原612745716B输入71b16a02不变。13Range/575116B纯IO，下一位502。
+R787旧run43766834509已证runner失联，仅rules产物，无新位回执；[恢复记录](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)保真实518来源，不猜OOM或BudgetStop。R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，不重做，不误称精度不足或关系不存在。R815582-prime current769MB/67e7fe98与53输入109MB/051571e1见[断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)。R824只原27权5+244权6，1186归R787，原129/142/280Q与r28不补143..155。上表仅同核续接，准确展开关系/Mg/Γ仍未成。R824新[501位断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：current5694B/cd8dcb11、history5743B/01f47338、lift70788183B/a2f5c38c；artifact14192476595/7f1c8d82，manifestd2d54554，原612745716B输入71b16a02不变。13Range/575116B纯IO，下一位502。
 
 ## 原准确接口与禁止重算项
 
