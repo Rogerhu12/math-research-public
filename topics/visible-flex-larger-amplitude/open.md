@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R575](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)/[接口](notes/2026-11-16-same-evaluation-full-angle-projection-defect-interface.md)三件59453B本次独立刊**：原π周期三cylindrical向量/完整signed频率/两mean/全无限alias，原偶N≥4M+4下界B2/(2M)+min{4(2M+1)B2/(N−2M)²,B2/(2M)}；B2包含R521二阶方向与非仿射加速度项。真实R553同次全DFS/joint管全正才global，phase拉回已证defect，FFT形成另付；无新科学门/实际全caller/运行，R576/241/R577另付。226两job已终态、109972原必要超限未返，R537另记完整可见边界。
+
 **[R569最终](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)三件74959B本次独立刊**：同次真实sol.sol.c四幂×所有interval×全部augmented列，Q−C_lit完整含辅助C*与literal差，E0/E1全Bernstein和joint段正域条件Gram齐。物理角A²ρ²/rho_lower真实675，P本身不另乘ρ；未刊f349旧版本被最终45975取代。旧节点/raw没有literalPPoly不能重造；源组件未注册新run/reader/quiet，R570/239真实三driver捕获另付，FFT形成及投影缺陷另付。
 
 **[R556](results/R556-same-C-complete112-two-worker-propagation-and-ordered-ledgers.md)/[接口](notes/2026-11-16-current-C-two-worker-complete112-propagation-interface.md)四件99450B本次独立刊**：完整112far两mode同一ω∈Ω、原25M原子总额度/绝对钟，全部arb mid/rad dyadic与ctx、原序全账/地址重定位/prepared SHA/两级commit保。完整durable提交后退休spool、同PGID/真实handle/reap/失败不续wave，unknown quiet不冒真。无新运行或速度；完整真实235消费者注册另R557/234/R558。238已a4c45/run43885002914唯一POST200，官方绑定本次保。
