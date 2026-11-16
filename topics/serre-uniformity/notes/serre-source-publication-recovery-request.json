@@ -2,34 +2,46 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R930-certified-seven-whole-Artin-connections-and-traces",
-  "commit_message": "serre: certify all seven original whole-Artin connections and differential traces",
-  "rules_last_read_commit": "699106189c165644414cca1cb2d318b9d296a1a0",
+  "request_id": "20261116-R903-certified-five-RR-and-R907-original-j1-norms",
+  "commit_message": "serre: certify five original two-weight spaces and activate original nine norms",
+  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "c0cca2f7ca1a5f40317967a4a6a32f75840078507ef98c39d1855f4d62e046bf",
+  "expected_previous_request_sha256": "1deb1c78b4ce3a0db9a1850b825062a1beb88959373f0a18d54aab5014933e67",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R930-certified-original-seven-whole-Artin-target-connections-and-differential-traces.md",
-      "sha256": "1b85f8a6feffceff47cd6350aa2b1457a961df7402fb63ad9ec4b739cdac35c5",
+      "path": "topics/serre-uniformity/results/R903-certified-original-five-Iz-two-weight-RR-and-marked-frames.md",
+      "sha256": "02f17fa0ec1289aa556d07efe43b2f9628305d02db2be74f2e1727306160ae17",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.json",
+      "sha256": "351a805504f31dbcb2726044d8a9edeb26271322be82a6ab6debf564c11167f4",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "b91e8194a8c94378e373376422488d7fb1e198e4ea249778c5279a8e2ec1121e",
-      "expected_previous_sha256": "6f5c6e550a557b26f838dee2bb37035a78ad216800e598a940a6be38c5e6d382"
+      "sha256": "174215408008ce443bfc6822222aa53af7a30a475d085d1571feaadb2543cae3",
+      "expected_previous_sha256": "54c1c920e6935196550323454b21c9996cc1bd4f467b91b02e97deaa353ac786"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "35c742a4160b1c36fe1f6829696130d00b650a2851108a3c2f2e880eb6daaab1",
-      "expected_previous_sha256": "91649e34eb668037e4dfaeda909f5fa70f0985d4baaea01bd393d74c339bff3a"
+      "sha256": "edccf02e6d4ea7fc710a0eca85a86029350ff5f09a86f3f558c72a9a6f776193",
+      "expected_previous_sha256": "35c742a4160b1c36fe1f6829696130d00b650a2851108a3c2f2e880eb6daaab1"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "e2a7f257176d73b6c4118a6075be7abc59b4e6644bdcacbb9f0b235896c82234",
-      "expected_previous_sha256": "969f5be8e173ead7a82ae0d008d2e97b6e13bd17398fa61f1a43854c022eddf7"
+      "sha256": "feced2c481c7bebe726497746bb44f1f43c356e7b7a59ceca7cac6e8648c977b",
+      "expected_previous_sha256": "8ecaea0efbba336cc9965eab790004f49ac67eb929e4c06be3286cea7bc13a03"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R907-nine-Hecke-norms.yml",
+      "request_path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.json",
+      "request_sha256": "351a805504f31dbcb2726044d8a9edeb26271322be82a6ab6debf564c11167f4"
     }
   ]
 }

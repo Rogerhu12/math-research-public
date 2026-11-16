@@ -1,0 +1,186 @@
+{
+  "result": "R907-original-Iz-pencils-and-nine-Hecke-norm-generators",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R907_original_Iz_pencils_and_nine_Hecke_norms.py",
+  "core_sha256": "cf905290bf90c1af7247dcd8b6f96f403e8f965cdee628ee01178c036c139d45",
+  "helper": "R907_complete_pencil_norm_algebra.py",
+  "helper_sha256": "7e4a8d882b15b202fed6e440e09b00db03ec7d605103245dfbf912ecfdbd8d57",
+  "wrapper": "R907_public_original_nine_Hecke_norms.py",
+  "wrapper_sha256": "b8a5f94b5f4454d173eb4177f8c61917ba696eeffef1cb828b78b54f028f7e80",
+  "original_Artin_helper": "R885_whole_Artin_algebra.py",
+  "original_Artin_helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "stdlib_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "stdlib_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md",
+  "method_sha256": "44e3ef90145ad6cde13cefa9fa811100da0f6004efec2ef5edfc24393e4a8057",
+  "workflow": ".github/workflows/serre-R907-nine-Hecke-norms.yml",
+  "proofs": {
+    "R876": {
+      "path": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+      "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R879": {
+      "path": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R899": {
+      "path": "results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md",
+      "sha256": "eff6a8abf489bedf2cda8549a027ebd250717b2ddedece420f2a9d729cebc044"
+    },
+    "R900": {
+      "path": "results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md",
+      "sha256": "af61b2f016d8280f6abcb23988e6d71aaeb3ffffc7575e3ff08d22ee805d1dcb"
+    },
+    "R901": {
+      "path": "results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md",
+      "sha256": "83a18d8a4236567bbd3b0f76920f37de1ded1085b33bf4275507c039922125f2"
+    },
+    "R903": {
+      "path": "results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md",
+      "sha256": "9fcf3c2cb08688bfe40fdaed91358bed5097a0e0442276e30d30eb63bfaab855"
+    }
+  },
+  "source_artifacts": {
+    "R903": {
+      "run_id": "43921416613",
+      "source_commit": "280f1840a717c80665133b0ddab8a55a02af7d4e",
+      "artifact_id": 14254777999,
+      "artifact_name": "serre-R903-five-Iz-two-weight-RR-43921416613-1",
+      "archive_bytes": 329127789,
+      "archive_sha256": "95534023e7392f2f9cbb03158d2201e3982c3e0c7db51df0aedf3e77bf2b3d00",
+      "artifact_expires_at": "2026-11-17T17:48:18Z",
+      "expected_conclusion": "success",
+      "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+      "wrapper_sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0",
+      "result": "R903-original-five-Iz-two-weight-RR-and-marked-frame",
+      "configuration_sha256": "1dbdddfbaadd555c641f60e3d68a54283bd99e30a8844c992f3c2c2fd86f6934",
+      "manifest_sha256": "7f7913ce277c307f70f534fc225f5f03e648e87663fbdf15f03748288ff0454c",
+      "manifest_bytes": 21668,
+      "manifest_file_count": 148,
+      "certificate": {
+        "file": "p41-original-five-Iz-two-weight-RR-certificate.json",
+        "bytes": 21403,
+        "sha256": "99d7e2b6c87282d3f1173f3b6f1875caade4d1500c84093a38d316f0f4f32b72"
+      }
+    },
+    "R901": {
+      "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+      "run_id": "43893483097",
+      "source_commit": "dbfb172d6cce083541a34ff507627dc42ddf9859",
+      "artifact_id": 14251161202,
+      "artifact_name": "serre-R901-five-Z-shared-flips-43893483097-1",
+      "archive_bytes": 5906554358,
+      "archive_sha256": "64304b92b1c478767627acea94e3e332e9414c19b5bc812416ef8289bccce5b4",
+      "artifact_expires_at": "2026-11-17T17:20:01Z",
+      "expected_conclusion": "success",
+      "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+      "wrapper_sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+      "manifest_sha256": "e3e4eefd4a9b234bad8e8f837f115743c3bdbed5aa1cbafe9579f6f84da50538",
+      "configuration_sha256": "d2d5e37ccf73b5f0bc608357d61c215035dd7942e9641777696c97a5c657af90",
+      "manifest_bytes": 602364,
+      "manifest_file_count": 3987,
+      "certificate": {
+        "bytes": 81141,
+        "file": "p41-original-five-Z-shared-bounded-flip-certificate.json",
+        "sha256": "69da20e9500254d8b63e6d8b3d2369bcefe8f9d4a43e4efe7db1a226a95c12f1"
+      }
+    },
+    "R899": {
+      "result": "R899-original-K-fixed-seven-trace-RR-basis",
+      "run_id": "43879192431",
+      "source_commit": "34001929c3c44484a7beefe396352c22ed68c1b7",
+      "core_sha256": "9901767869180e7ff6c20ab56a693024adeef7d77aeb5b1105af0476a36e0248",
+      "wrapper_sha256": "2a887562b40272bdb6ba477342f9bbe2190cbd9364b6ff1ce7e3f676ceaeb794",
+      "configuration_sha256": "cd913c163caeec5655ef3a7f4ed6415dcad8034611d46105d89e2155a31efa71",
+      "manifest_sha256": "cb951c29e170592dc9f2ca3659290fa2f082a36185ac5377219de26a2e288eaf",
+      "manifest_bytes": 38889,
+      "manifest_file_count": 291,
+      "certificate": {
+        "file": "p41-original-K-fixed-seven-trace-RR-basis-certificate.json",
+        "bytes": 72971,
+        "sha256": "ff97cb88486f52fc3f5a621cb59d121fdb38c8f9fe0f2dc2faa2a3ddf298b43d"
+      },
+      "artifact_id": 14234003349,
+      "artifact_name": "serre-R899-K-fixed-seven-trace-RR-43879192431-1",
+      "archive_bytes": 45236413,
+      "archive_sha256": "907c1ef83ae70b5ccff655efb1690d9675b359df9ff757089bd50db5dcdfd1a6",
+      "artifact_expires_at": "2026-11-17T14:33:02Z",
+      "expected_conclusion": "success"
+    },
+    "ARTIN": {
+      "result": "R885-original-whole-Artin-reference-norms",
+      "run_id": "43848870181",
+      "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
+      "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "wrapper_sha256": "ed310d9c340cf09c98cb71c10c01948f101121d9d6c30329ccf78f6e3d0cebe5",
+      "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035",
+      "manifest_bytes": 53331,
+      "manifest_file_count": 334,
+      "configuration_sha256": "9e419bbb3c496d943187e4ca3a368c97247dc3c8531a8f8a09d403758a0b0df6",
+      "certificate": {
+        "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+        "bytes": 58002,
+        "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+      },
+      "artifact_id": 14218009053,
+      "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
+      "archive_bytes": 145477237,
+      "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:56:08Z"
+    }
+  },
+  "prepared_transport": {},
+  "requested_directions": [
+    1
+  ],
+  "maximum_pencil_trials": 4,
+  "maximum_fibre_triples": 35,
+  "budget_minutes": 300,
+  "minimum_free_disk_bytes": 536870912,
+  "resume": null,
+  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "actual_pencils_or_norms_completed_in_this_request": 0,
+  "endpoint_P0_P1_numeric_source": null,
+  "P0_endpoint_numeric_calibration_requested": false,
+  "P1_endpoint_numeric_calibration_requested": false,
+  "endpoint_transition_scalars_set_to_one": false,
+  "old_flips_Krylov_target_normal_rows_reference_norms_or_jets_recomputed": false,
+  "modular_zero_used_for_inactive_or_height": false,
+  "original_completed_producer_contract": {
+    "R903": {
+      "result": "R903-original-five-Iz-two-weight-RR-and-marked-frame",
+      "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+      "required": "actual five128 + marked Phi + R901 original input inventory/carrier; true completed source pinned above"
+    },
+    "R901": {
+      "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+      "required": "complete five QZ, full126 local u plus original35 Qj and QK leaves, exact originals retained; true completed source pinned above"
+    },
+    "R899": {
+      "result": "R899-original-K-fixed-seven-trace-RR-basis",
+      "required": "source-audit.inputs plus original QN leaf inventory/carrier and already completed a0 interpolation; true completed source pinned above"
+    }
+  }
+}

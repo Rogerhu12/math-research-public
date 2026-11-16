@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不以阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：699106189c165644414cca1cb2d318b9d296a1a0**（2026-11-16T17:56:10.672855+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-complete-reference-reuse-and-half638.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
+**已读规则提交：5c920c39966b5c7ac854564bf1a3841288d0133a**（2026-11-16T18:01:42.856609+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-complete-reference-reuse-and-half638.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端失联，恢复workflow实际partial/sparse pull发布。
 
@@ -15,10 +15,8 @@
 |R787 primal670后|43912581432 / 133458306139|source33d44d4d；原670/f756e254/8c9052ec；core93d3d72b/wrapperdff10f45|
 |R824原27+244从693后|43912577191 / 133458143804|source33d44d4d；原current761b228c/liftf8972f29；core1ece3cf4/wrapperc5907739|
 |R854原41 N224|43921950983/source0840161e|原43880489423/20984736，1174stage/1184manifest729e2e；core1feb579a/wrapperf6b97a7d|
-|R787半dual638后|本次从43869450077真124续接|393efa24；638/current8cec5c72，coreffe5dcff/wrapper1552e403|
+|R787半dual638后|43923558852已排队，源4b005ba1|393efa24；638/current8cec5c72，coreffe5dcff/wrapper1552e403|
 |R815准确Γ586后|43908105148 / 133442347214|84a31a9b；core80516ff9/wrapperab725da0，原Γ586/17520bit，g696已成不重|
-|R903五Iz双权|43921416613/133489524133已成|136stage/五128/400/144/两图272；真证与R907绑定中|
-|R930七连接目标迹|43921420577/133489560210已认证|277stage/七全E单位/七2176值及272迹；后继原QN校正|
 |R927两端参考Norm|43922183082核心19stage已成|本次修IO字段并只复用原完整FINAL/core，禁止重算|
 
 R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536 failure且无数学artifact，内部原因未臆测。两者原693/670请求不变续算，不能填新进度。R815 requesta469e685/原art14246345143/manifest42e141cb/currentd361a554，v24仅元数据，不代完整Γ；全部53原输入原样。完整tail/尺度/Trace/旧缺receipt严格分支沿前态。
@@ -33,7 +31,7 @@ R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536
 
 R805–R883原W/两图/146/418/273jets与参考254P0铅笔、R860真cY、R866的127全纯已成。R896五低权、R894 DN/QN、R899全K固定418、R900 DK272/QK、R902三十严格共轭已成；初始2rhs不代全基。R901真run43893483097/dbfb172d：126新+2旧翻转、3976stage/五418/QZ/t首项/准确下降datum；FINAL69da20e9/3987manifest e3e4eefd/art14251161202。QZj=Fj(NQj)^qj QK^−pj正乘，终末基未称K固定，下降矩阵/real立方未成。
 
-R903真源激活，corebc3e9a53/wrapper97b91720：同962像146/418→128/400、原256+144/旧19jets、Φ=QZ/qχ无extra τ；待两图实际。R907冻结corecf905290/helper7e4a8d88/wrapperb8a5f94b：128→672/A272/E2176/19584坐标CH9、正NormΦ/dual7；请求仍R901/R903=null，R899ready，待真R903填源。
+[R903实际认证](results/R903-certified-original-five-Iz-two-weight-RR-and-marked-frames.md)：43921416613/280f1840，136stage/五128、400、144、两图272和原P0帧全成；FINAL99d7e2b6/148manifest7f7913ce/art14254777999。Φ=QZ/qχ无extra τ，首项c^(254−m)保留；char0坐标未展开，K固定/P1/real立方未成。R907现按真R903/R901/R899/ARTIN激活j1，corecf905290/helper7e4a8d88/wrapperb8a5f94b不改；原128→672/A272/E2176/19584坐标CH9、九正范数/NormΦ/dual7，先成首方向再续其余。
 
 R905七原连接43893738459：全272/670/544秩543/全回代与同minor准确char0DAG成；FINAL24045a35/manifestb11afeda/art14238516346。原α_DN须先−dlogQN再Gal7，五组合保负χ一次/真cY/κν/极化/两帧，未得σ/cY数值。
 
@@ -43,7 +41,7 @@ R919九δP/全八维微分迹/272正常像、R922共享R的4系数/全RG=Mg/127�
 
 R927完整纸证已推：八次Norm铅笔content=全理想指数μ；λ0..16两端共用生成元/全16列双向证书；NmΦ沿真实叶首项累积。参考全target-P0块Nm(qρ0)阶m≤8/九项足够，补块(f−ηg)/(u+ηb)仅除单位，保254极阶/U272/Nm参考/t。参考真核心43922183082/e56cbda0已成19stage/0.444929961s，两端完整，FINAL09de0ae8/30manifestacdd1a78/art14253893174。仅wrapper误查future_target_sources（真common键five_target_sources）失败；修至3fa04f1d，完整成功源只IO复用原19stage/FINAL/core，明确core_reexecuted=false。core4d0be4a7/method74347cfb/tag5e299ce6不改，267只取9、全8维/空块/254/U272/两t/dual7保留，五目标null。
 
-五Lj128/144、YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary仅合法好约化niPiξj非零时判支持。
+五Lj128/144已成；YP/FM128/634/508rank507、P1 c/a、eη支持、d/N/nonp/Poincaré/splitting/height仍缺。I_Z不代real Rcal I_Z³；R870原16ni/1959bitd*及7-primary仅合法好约化niPiξj非零时判支持。
 
 ## 全p原标号
 
