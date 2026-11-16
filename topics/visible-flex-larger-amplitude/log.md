@@ -189,3 +189,7 @@ R574完整24562B/1d6e8ac2写成即独立刊：240两终态唯一整读，447源�
 ## 2026-11-16 16:42 UTC /root — R599准确十词与actual coast recipe边界
 
 R599三件30966B完整即独立刊：准确工厂十词用整数最近偶数解释，全部正规/次正规/边界/符号/非法/overflow条件有证明；只报告侧80B，不改原H/state/RHS/J。closed用真实launcher coast receipt路径后原read全字节核，不造旧名；R597249继续实际所有来源级联，原门/原钟不变，无本地执行/测试。R574已75d97dae，R585/R600/R602/R601与科学run持续。
+
+## 2026-11-16 16:45 UTC /root — R585 actual244来源联合guard停止与未返范围
+
+R585完整21212B/698d2fbf即独立刊：244两终态唯一全文读，实际R584联合source guard失败/外2与内部子条件未知分开；原454前缀和10当前未起由固定控制流支持，父248env不冒244请求。source487638原70/1663同字、scienceENOENT、全科学未起、removedfalse/quiet未推，R604/R600继续不猜未返值。R599已fbdae401、R597/R602/R601与现有runs持续。

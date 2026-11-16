@@ -37,15 +37,15 @@
 | 241/R577 | 43901322004 /7af9e725e58983a740d3cb53c66b73166914e247 /133418415682 | geometry；16:05前1–14成功/15全E cover |
 | 243/R582 | 43903254017 /beb6e2e462ca66ec0c600b2331352f5e06a72903 /compute待官方 | amplitude；16:04 queued/jobs空 |
 | 248/R595 | 43903713053 /b38a46a6d0f34f250cff6d13c64ffafa65931ef8 /133426820200 | exact；16:07前1–10成功/11原科学 |
-| 244/R585 | 43908088860 /46dff6066560f2153b998085403aa2b24b7bab3c /133442289891 +133442684519 | exact两终态已读；R585完整source绑定错误成文中，科学未起 |
+| 244/R585 | 43908088860 /46dff6066560f2153b998085403aa2b24b7bab3c /133442289891 +133442684519 | exact两终态已读；R585联合guard/必要超限本次刊，科学未起 |
 
 只看running metadata；每个终态job指定读者一次，root不复子日志。官方notes保各唯一POST200/run/head；未知派发不重试。228实际头只有H规则行不同，其source/.github/双README同。
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[75d97dae固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/75d97daeac33612e93f8d133518824c6eb0f93b4/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/75d97daeac33612e93f8d133518824c6eb0f93b4/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[fbdae401固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/fbdae401e89352102e80a3b79bb67d753af0eedc/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/fbdae401e89352102e80a3b79bb67d753af0eedc/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-R599完整三件30966B本次独立刊：小源8620/236c24d0只解释真实72c/3bc已绑定report的十准确参数，整数RN-even完整正规/次正规/边界/进位/overflow，保原float字/显式负零、全十词80B和原逐词条件；recipe侧H/state/RHS/J路径不改。actual_coast_recipe_path只取当前namespace实际launcher.recipe.file的coast-base原路径，再由原read核全bytes/SHA；不复制旧名/造receipt/降任何门。R568真实两个入口错据此修，R597249正在级联全部真实driver/launcher/closed/readers来源，当前库未执行、尚未派发。R574已75d97dae完整刊，双必要超限/内部未知分别保。
+R585实际244完整独立刊：run43908088860/head46dff606，compute133442289891/report133442684519各failure，exact两终态唯一整读。R584第409行实际R583 complete binding且未编译的联合guard失败，外prepare exit2/sourcephase、workflow1；不能判未返R583 child是2或70、哪子条件假或两CPP生成数。固定源码证原454前缀逐项绑定走过、当前10views loop未起；当前244完整request未成，env9f1c17a6是同job父248。source全487638/fa361f56未返→1663/d26b12f6 honest70两job同字，science reader实际ENOENT/无正文；原恢复/native/J/FD/fullDN/audit全未起，removed=false且quiet未推。R599已fbdae401正式刊，R597249继续真实源级联。
 
 ## 完整待发表来源
 
@@ -55,7 +55,7 @@ R599完整三件30966B本次独立刊：小源8620/236c24d0只解释真实72c/3b
 
 ## 当前执行与紧接责任
 
-geometry持续R597/request249/R598：把R596实际全N saved-RHS残差和R599两边界完整接入原真实caller/全部sourcepins，完整成文立即交根刊后正式唯一派发。exact R585实际244联合guard失败的完整已返范围即刊，修复不补未返child exit/正文；R600继续六层完整来源关系。amplitude R602只在实际717ac原integrationGrid下接既有R523完整A*T组织，全224已共享primal/root/Cholesky不冒新优化，R603后继caller。root R601全角world C1实际同对象消费者/证明继续，246及各责任run不因组件完成停止。
+exact继续R604修实际244来源契约（未返子错误不猜）及R600完整六层关系，源/证明写完独立即交根；235/245/242/248运行各自唯一读。geometry R597249约43–49万新作者bytes，保R596/R599实际所有新caller/source继承，241/247不改。amplitude R602当前717ac原schedule仅薄接完整A*T、R603 caller，全224旧primal/root/分解共享边界保。root R601 source及完整C1证明已写，接口封口即刊；246原科学继续，容量余约89万须按完整来源guard预备两21旧manifest保留审核，不先删。
 
 容量逐笔按f7真实基数加全部变化Git blob size≤200MB；两26/28、两25、两24及两22/23旧manifest已分别f7d56b2/80840b54/8d1cfb2/f370f6f0普通移出，固定完整恢复/全部来源及实际guard见四retention notes。两24最终88874必要可精确逆141568，138完整变化/未知未扫错误0；全部现用warm/status/数组保。根8旧大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。每次真pull核双README/读commit入H，NFF立即真实pull--rebase再普通push循环，不用force。
 
