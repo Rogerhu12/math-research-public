@@ -136,7 +136,46 @@
     },
     "reconstruct_every_digits": 8,
     "result": "R787-original-cleared-dual-CM-value-acceptance",
-    "resume": null,
+    "resume": {
+      "result": "R787-original-cleared-dual-CM-value-acceptance",
+      "run_id": "43823979328",
+      "source_commit": "6110d6a16d2e66becae71454ad2d4e796b7a5c00",
+      "core_sha256": "ffe5dcff0c17b81923741c2b56806cc4907cb812cfdee4499ed2650ea92abe54",
+      "artifact_id": 14226237212,
+      "artifact_name": "serre-global-R787-half-coordinate-dual-CM-value-43823979328-1",
+      "archive_bytes": 408220668,
+      "archive_sha256": "263ebd784207dae07506abbba30988768a98620d4bc324ed7b4e3f4228f53719",
+      "expected_conclusion": "failure",
+      "wrapper_sha256": "1552e403d9206d21a7cd7de43c1e7f4975957513e332a316c448fccbb84c46f4",
+      "manifest_bytes": 6025,
+      "manifest_sha256": "b274f3b40e8c98f265ebf458fb2cd92ae0daa3828c5714da0386328f091ca129",
+      "manifest_file_count": 39,
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "latest_complete_checkpoint": {
+        "bytes": 40953867,
+        "file": "R787-cleared-dual-current-00000541.json.gz",
+        "sha256": "e7b194614b11a85166e04fb2cfba8c3676d0197896436d73719ed7d492b653fa"
+      },
+      "resume_state": {
+        "file": "R787-cleared-dual-current-index.json.gz",
+        "bytes": 5983,
+        "sha256": "5d0e369244aea3100aca1286d39ffd45461cf665e0c9b4e88eefaabe165a3f72"
+      },
+      "actual_dual_digits": 541,
+      "completed_next_positive_residual_digit": 542,
+      "configuration_sha256": "368848b4dff60395891899f21eea3ff22f9ced1b1715c66c5e3cef50ed4d95a5",
+      "completed_next_positive_residual": {
+        "bytes": 141153,
+        "file": "R787-cleared-dual-step-00000542-positive-residual.json.gz",
+        "sha256": "59b1a8d7eec5636aad786bfac30ecc97f98f718cd57596798b1697909019f133"
+      }
+    },
     "sources": {
       "CM": {
         "archive_bytes": 96435463,
@@ -191,7 +230,7 @@
     "wrapper": "R787_half_coordinate_dual_CM_value_public.py",
     "wrapper_sha256": "1552e403d9206d21a7cd7de43c1e7f4975957513e332a316c448fccbb84c46f4"
   },
-  "rules_last_read_commit": "eb46ca019bfe2098799cd97a5b31dab27ad3c9a1",
+  "rules_last_read_commit": "7ffeb9edeff4e244f811584c5349211137610024",
   "schema": 1,
   "session": "serre-public-astra-20261115"
 }
