@@ -30,6 +30,6 @@ jobs:
           sparse-checkout: |
             /README.md
             /topics/serre-uniformity/
-            /.github/workflows/serre-source-publication-recovery.yml
+            /.github/workflows/serre-*.yml
       - name: Publish reviewed source with actual pulls and rule comparisons
         run: python topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py
