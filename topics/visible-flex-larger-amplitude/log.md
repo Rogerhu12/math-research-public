@@ -319,3 +319,8 @@
 ## 2026-11-16 05:08 UTC /root — R472实际210与来源主张补正
 
 **实际210：已声明154项生成/绑定完成，真实递归导入缺件，科学未起。** [R472](results/R472-actual210-private-import-closure-failure-before-native.md)11929B/3558c333及完整原错误1148B/21833cf5已读；run43807229341/sourceb418c6e6，compute133100660526 failure、report133100882919 success。私有full112 runtime导入physical_test_response，第29行需缺失的lifted_modes_response，1.0332460349999906秒返回1，预算未耗。native/H/初猜/currentJ/224方向/R273/FD/fullDN/最终结果未起或null，trial0，不是数学拒绝、R471资格false或性能测量。必要16973B/e299e3cb两job逐字同；真实自有组与rules-parent quiet后removed=true。同步补正[210接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)：143公开+11view仅是声明身份集合，并非完整递归导入证明。原科学文件冻结不改；211须补原依赖全字节/真实HERE，不靠未绑定目录旁路，不增fixture或门。
+
+
+## 2026-11-16 05:10 UTC /root — R455实际206原八组与必要超限
+
+**实际206：八组原model/freshFD与父交接完成，单份必要表仍超90KB。** [R455](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)15167B/25442c58全文核后刊；run43797755759/sourcee8e4be9f，compute133070353121。16子程exit0、8个next_actual_parent_pair_retained=true结合原eligible/身份/FD控制流，支付8次optimization progress及fresh FD门，原success/coupled acceptance仍false。实际trial计数4/3/4/3/3/2/2/3，共24，非旧200的20条。whole-chain119344B/6204fe90、recovery119694B/984f24f8均含末LF，在BEGIN前真实70，完整必要帧0；逐trial值/失败query与角地址/FD误差/末三词未返，不从SHA恢复或猜字段体积。原owner quiet后cleanup实际skip（步骤success非删除），8大batch先已退，末pair/必要记录随runner销毁不可续接。原八组39/17α/108pins/10500秒与全门不变；后继仅从原98再生并查必要语义重复，保单90K/超70、不分包编码、不删必要字段，不预定轨迹或长度。
