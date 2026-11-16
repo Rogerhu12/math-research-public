@@ -4,23 +4,23 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：d9b74f07f31b2b0c4baee550c78a4369869e422b**（2026-11-16T10:01:55.846234+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-arithmetic.md)（9961B/2f4442fd），内接全部旧归档；全部边界继续生效。
+**已读规则提交：77f899dc742db5f8520bde17b284118c66a03cd2**（2026-11-16T10:08:20.025742+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-arithmetic.md)（9961B/2f4442fd），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
 ## 活跃长任务与原断点
 
-R787 primal本轮已结束，正读最新完整断点并同核续接；其余四项仍活跃，不重复已完成算术。
+R787 primal真实594位后同核300min续算已激活，实际新run待dispatch登记；其余四项仍活跃，旧算术不重。
 
 |任务|run / job|source commit|续算边界|
 |---|---|---|---|
-|R787原函数570后|43827877594 / 133165978118|38abf72112113bcd39d41ad68dbb301518040e5f|已结束failure；artifact14214393616/26d1058c；纯IO读新断点，core93d3d72b不改|
+|R787原函数594后|旧43827877594 / 133165978118；新run待dispatch|38abf72112113bcd39d41ad68dbb301518040e5f|同core93d3d72b/wrapper42157e0d，budget300|
 |R824原27+244从596后|43828509061 / 133167910211|9829a0385c61e9262c6038a365bc3de1c26015d2|300min；core1ece3cf4/wrapperc5907739|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|300min；core80516ff9/wrapperab725da0|
 |R854原41响应N112|43832705685 / 133181715849|2ee14751d7b2cb4403931886b587ca6f64138c73|300min；目标7仍待真逆界/四球|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|300min；370及371正残差后七支|
 
-**原primal/CRT**：[R787](notes/R787-570-digit-checkpoint-and-same-core-continuation.md)lift d97acf14/carrier2f4371c9/artifact14204698566（Nov17 07:20）；[R824](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)lift071c3390/carrier71b16a02/artifact14205663835（07:36）。原27+244/free1187，1186归R787；518全56格和129/142/280Q/r28边界不重开，Mg/Γ未成。R815旧696/20809bits/295936coeffs保全。
+**原primal/CRT**：[R787594](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)真实BudgetStop/core exit1，lift83903190B/bb437fd0，manifest247c23d8/1262项、594history；artifact14214393616/26d1058c至Nov17 10:02。原输入carrier2f4371c9不改，300min同核继续。[R824596](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)lift071c3390/carrier71b16a02/artifact14205663835至07:36。原27+244/free1187不混1186；518全56格/129/142/280Q/r28不重，Mg/Γ未成，R815旧696/20809bits/295936系数保全。
 
 **A.1**：[真实370/371续接](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)保原BudgetStop124、target000a9bbc/Jb384a331/1481源。半核仅七支17920RR后全35840乘回；HP.2真反例或完整Theta/Delta才判，RR失败不拒q，七小L不代A0−qB0=0。
 

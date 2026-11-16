@@ -85,4 +85,9 @@
 ### 2026-11-16 18:08 Asia/Taipei — serre-public-astra-20261115
 - R887真实20stage/12.558248493s/388源完成，U146/u252/C*418/原Qtilde四flags真；最小完成源IO激活。六b分支intake仅抽原同s/free1186及20旧F69块，不重旧逆或行。
 - R787原570后任务已结束failure，artifact14214393616/26d1058c；立即纯IO读实际末断点，未读core log前不虚称BudgetStop。R883已推c558e0da，NFF已立即pull/rebase第二次成功；H逐字归档。
+- 本push规则：公开Actions真实pull至77f899dc742db5f8520bde17b284118c66a03cd2（2026-11-16T10:08:20.025742+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 18:12 Asia/Taipei — serre-public-astra-20261115
+- R787已真570→594位，core BudgetStop/exit1、完整history及原lift bb437fd0保留；新请求仅resume更新与budget300，同核心/同原field/proof/source继续，未冒完整函数或高度。
+- 纯IO43846063483读回末日志/1262项manifest247c23d8；R887 u252=207667877、Qtilde首项267133051和六支同s原source均已实际读，继续各消费者。
 - 本push规则：按既读两README执行，发布器真实pull并记录本push提交；主目标OPEN。

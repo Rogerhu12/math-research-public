@@ -213,3 +213,6 @@
 
 
 - [R880附录A](../results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：原九压三精确在选定K线性Hom/CM符号线上解释，显式eω保另一线共轭；同原两轴整循环仅倒置3/9/18/δ，shadow非零经R859无挠H1返回原有理类，不需先乘旧人为D含5部分。完整1/162 Artin点迹保同素位/全闭点；r29几何F841与角色F5^6、r41几何F1681与角色F7^3分开，6倍只取真实ℓ部分。两坐标成功前提和原pair不变。
+
+
+- [R879附录D](../results/R879-original-v66-heat-and-degree22-trace-defect.md)：原m2的k1完整热递推保Rp/Jp−1，D3F2=4L D1F2+2D1Theta。固定光滑六次曲线uv(u4−v4)=f精确degree24覆参数椭圆，显式Lu/Lv与I8/I12给完整水平基det=f/2；F2/Theta绝对冻结和两个Ku/Kv除p读者含全4^N、H、Cp及参数系数导数。固定来源不使p-dependent高算子变固定Hasse–Witt行，不添中央零。

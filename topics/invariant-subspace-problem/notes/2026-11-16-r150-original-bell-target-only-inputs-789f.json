@@ -1,0 +1,151 @@
+{
+  "format": "r150-original-bell-target-only-complete-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "status": "Source preparation only; no new mathematical execution has occurred.",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+      "blob": "6779dabe372e783f6a408998fa429cb29d743578",
+      "bytes": 26853,
+      "sha256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-bell-target-only-exact-support-lift-789f.py",
+      "blob": "6065fe9e4f1990590b82dc2808c8be8fe6e5d76d",
+      "bytes": 27449,
+      "sha256": "d9b25c79d5dad9c108fd7620b83de6e194644b0da40e7f184c37d8c27a10afd9"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-bell-target-only-session-789f.py",
+      "blob": "40960461bc11f6ae9bbb947b5d10a0e5e25f5c44",
+      "bytes": 17963,
+      "sha256": "31bec4304c9cc7f69a63d431048dfe145dc0c849944376ffd4ab40d7e5a3b876"
+    }
+  ],
+  "model": {
+    "coefficientFieldPolynomialAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "prime": 127,
+    "matchedPlace": 100,
+    "variables": [
+      "y0",
+      "y1",
+      "y2",
+      "y3",
+      "y4",
+      "y5",
+      "H0",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "tt"
+    ],
+    "weights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "sourceWeights": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3
+    ],
+    "sourceOrder": "Original dH0..dH10, dy0..dy5, matched Bell-minus-tt^3; all17 variables retained"
+  },
+  "runtime": {
+    "pythonFlint": "0.9.0",
+    "singular": "Installed system executable; record actual version and binary SHA; actual two-degree and SSI/single-lift tests required"
+  },
+  "officialSingularSource": {
+    "repository": "Singular/Singular",
+    "path": "doc/reference.doc",
+    "blob": "67a64ee0438e7349d9fe2a1d53bcc1ddc98ca7dd",
+    "verifiedInterfaces": [
+      "std(Original) with degree-bound candidate discovery",
+      "lift(Original,Target,Units,\"std\") returns Original*Source=Target*Units; polynomial-ring Units=I is verified",
+      "write(\"ssi:w file\",value) and read(\"ssi:r file\") with complete roundtrip",
+      "write(\":w file\",poly) with short=0; actual independent exact parser test"
+    ],
+    "degreeBoundPolicy": "Only std receives degree9. Before lift and every original product, degBound is explicitly zero. No unsupported bounded-lift completeness assumption."
+  },
+  "resource": {
+    "discoveryDegree": 9,
+    "initialFieldSeconds": 600,
+    "sameBindingBudgetResumes": [
+      1200,
+      1800
+    ],
+    "fieldMemoryMiB": 4096,
+    "exactSeconds": 600,
+    "exactMemoryMiB": 4096,
+    "exactMaximumSourceSlots": 2048,
+    "exactMaximumUnitRank": 512,
+    "exactMaximumProfileEntries": 20000000,
+    "jobHardMinutes": 90
+  },
+  "checkpoints": [
+    "complete original model",
+    "actual degree2 absence / continued degree3 / SSI and single-lift original identities",
+    "whole std G SSI after exact roundtrip; no original-source or bounded-pair completeness claim",
+    "whole18x1 original lift candidate SSI before original multiplication",
+    "whole original product and consecutive complete source text files",
+    "independent FLINT homogeneous and affine original products",
+    "exact E selected support/profile/unit solution/all3 complete original polynomial components"
+  ],
+  "negativePolicy": "No pure column, resource gate, budget, nonlifting selected section or engine candidate is not a mathematical negative conclusion.",
+  "positivePolicy": "Only full original18 source equality gives field1. Only all3 exact E components give characteristic-zero1 and the true Bell^3 original source SLP.",
+  "storage": "All mathematical arrays and SSI are temporary same-job data. Git retains only sources, parameters, proof and execution identity/outputSHA. Completed job logs include only small state descriptors/cursors and diagnostics; no presumed cross-job cache."
+}
