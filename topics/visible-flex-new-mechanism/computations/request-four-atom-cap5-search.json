@@ -1,0 +1,198 @@
+{
+  "schema": "four-curvature-atom-cap5-first-search-request-v1",
+  "entry_point": "scripts/literature_four_atom_cap5_search.py",
+  "scientific_scope": "new_four_separated_curvature_atoms_complete_five_gates",
+  "paper_reference": "R498",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "budget": {
+    "entry_seconds": 180,
+    "search_seconds": 150,
+    "complete_oracle_calls": 6000,
+    "stdout_soft_bytes": 33554432,
+    "rational_integer_bits": 1000000
+  },
+  "search": {
+    "starts": 64,
+    "per_start_max_nfev": 80,
+    "per_start_complete_value_and_J_calls": 80,
+    "candidate_unscaled_G_infinity": 1e-8,
+    "first_six_z_bounds": [
+      -4,
+      4
+    ],
+    "zeta_bounds": [
+      0,
+      0.9990234375
+    ],
+    "mass_simplex_floor": "1/12",
+    "mass_softmax_scale": "2/3",
+    "gap_simplex_floor": "1/5",
+    "gap_softmax_scale": "1/5",
+    "offset": "C=(7/5-Jshape)*zeta",
+    "seed_order": "mass_dominant_0_to_3,gap_dominant_0_to_3,zeta",
+    "mass_seed_weights": [
+      9,
+      1,
+      1,
+      1
+    ],
+    "gap_seed_weights": [
+      4,
+      1,
+      1,
+      1
+    ],
+    "seed_zetas": [
+      0,
+      0.015625,
+      0.25,
+      0.75
+    ],
+    "residual_scaling": "(1+H)**(nu/2-4) * (Delta_nu/R5)",
+    "ftol": 1e-12,
+    "xtol": 1e-12,
+    "gtol": 1e-10
+  },
+  "certificate": {
+    "decimal_precision": 80,
+    "decimal_newton_calls": 8,
+    "decimal_stop_G": "1e-55",
+    "center_dyadic_bits": 160,
+    "inverse_dyadic_bits": 128,
+    "box_radius_negative_binary_exponents": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "minor_selection": "largest_finite_float_logabsdet_then_exact_slice_certificate",
+    "positive_C_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "zero_C_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fixed_parameters": "exact_binary64_rationals_from_first_candidate",
+    "whole_box_domain": "mass>1/12,gap>1/5,H<2,and_original_C_branch",
+    "no_rounding_positive_C_to_zero": true
+  },
+  "source_manifest": [
+    {
+      "path": "scripts/literature_four_atom_cap5_search.py",
+      "bytes": 61649,
+      "sha256": "1e0a0a7125ebcd77afa23ad3a297c203886d54ffdda2ae8b12b67fb29c10c5c1"
+    },
+    {
+      "path": "results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md",
+      "bytes": 17416,
+      "sha256": "7e5261cb66f63837f8e85cc25f04be448f8c23fdbdc70224c4235bf4ee18ce25"
+    },
+    {
+      "path": "scripts/observe_four_atom_cap5_stdout.py",
+      "bytes": 16878,
+      "sha256": "238b720afa42bec8371d86543d357de7c911a5d58353b76c57a3a8e2b898b7d2"
+    },
+    {
+      "path": "scripts/read_original_actions_log.py",
+      "bytes": 50679,
+      "sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+    },
+    {
+      "path": "results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md",
+      "bytes": 14652,
+      "sha256": "da2d85b3e12defc9d33120a690d59285318a3e368e07c952b68aefeb706d7efc"
+    },
+    {
+      "path": "results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md",
+      "bytes": 15713,
+      "sha256": "48521ac33d597b290aec5c2aa515786766431a8be6cdf3e2c79ae34ae2828e63"
+    },
+    {
+      "path": "results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md",
+      "bytes": 16593,
+      "sha256": "8758bff8efe0e0844df0a39a07364045b45b60c4f8701e90d3777329153c1838"
+    },
+    {
+      "path": "results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md",
+      "bytes": 12911,
+      "sha256": "441f18f9bad5ccb1037d44680cf3f4fd2d85927c946c6deadcb385317868c34f"
+    }
+  ],
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "queue_session": "Astra-new-mechanism-9974ea84",
+  "previous_accounts": [
+    {
+      "family": "three-curvature-atoms",
+      "status": "closed",
+      "run": 43837374645,
+      "job": 133197253175,
+      "source": "7f341445206ecd4c2d1d1877dc37da237c7109cb",
+      "scientific_seconds": 4.541460807000007,
+      "complete_values": 2119,
+      "old_output_is_not_read": true
+    },
+    {
+      "family": "cap15",
+      "status": "closed",
+      "run": 43833666242,
+      "job": 133184846641,
+      "source": "39fc3f0e3ebdb88b0c69405df3d6319afa5bff09",
+      "scientific_seconds": 114.27892698800002,
+      "old_output_is_not_read": true
+    }
+  ],
+  "outputs": {
+    "records": "CAP4_RECORD",
+    "final_report": "CAP4_FINAL_REPORT",
+    "final_clock": "CAP4_FINAL_CLOCK after all large output",
+    "all_reproducible_outputs_remain_only_in_original_stdout": true,
+    "no_artifact_release_cache_or_git_upload": true
+  },
+  "paper_provenance": {
+    "R498": {
+      "commit": "06f5010240bf3661a63e7b73dbe92970deaebe60",
+      "blob": "3f35f67e7e5cc572b162f169459565a55e188812",
+      "bytes": 17416,
+      "sha256": "7e5261cb66f63837f8e85cc25f04be448f8c23fdbdc70224c4235bf4ee18ce25"
+    }
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_four_atom_cap5_search.py": "1e0a0a7125ebcd77afa23ad3a297c203886d54ffdda2ae8b12b67fb29c10c5c1",
+    "topics/visible-flex-new-mechanism/results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md": "7e5261cb66f63837f8e85cc25f04be448f8c23fdbdc70224c4235bf4ee18ce25",
+    "topics/visible-flex-new-mechanism/scripts/observe_four_atom_cap5_stdout.py": "238b720afa42bec8371d86543d357de7c911a5d58353b76c57a3a8e2b898b7d2",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    "topics/visible-flex-new-mechanism/results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md": "da2d85b3e12defc9d33120a690d59285318a3e368e07c952b68aefeb706d7efc",
+    "topics/visible-flex-new-mechanism/results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md": "48521ac33d597b290aec5c2aa515786766431a8be6cdf3e2c79ae34ae2828e63",
+    "topics/visible-flex-new-mechanism/results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md": "8758bff8efe0e0844df0a39a07364045b45b60c4f8701e90d3777329153c1838",
+    "topics/visible-flex-new-mechanism/results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md": "441f18f9bad5ccb1037d44680cf3f4fd2d85927c946c6deadcb385317868c34f",
+    ".github/workflows/visible-four-atom-cap5-search.yml": "78786999b47b0217adefc21c9fc5f5d23e5c10313991249de993ff5bdb596265"
+  }
+}

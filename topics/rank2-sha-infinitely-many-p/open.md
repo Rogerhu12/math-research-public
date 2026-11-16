@@ -185,3 +185,9 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R879附录B](results/R879-original-v66-heat-and-degree22-trace-defect.md)：同C30与原σ(2az)/(2a)的全D7 Leibniz保三个高端、原Cp与binomial模p²及八阶分母cross。D7V−D7S消D6C30，D7V−9D7S消degree4高行；209倍后一差加3528倍原热trace缺陷再精确消显式q_p(3)。仅在原BS0下用O_C=真实低卷积，剩D6C30/new热余项/所有cross及H22两个不同读者均保，不赋新中央零。
+
+
+- [R879附录C](results/R879-original-v66-heat-and-degree22-trace-defect.md)：原C30热trace保J对y的真横向作用，两三点迹−135/−27合成(2δ/7)σ10x²y；原D4接L2D4(C30)−D6C30/60及同q3缺陷。degree10旧行经实际B4U6、δ拉回和Theta/F2的完整Wronskian准确降为−36D2B4+24D1Theta−116cp−72cpq3+24Z+Y。全部低cross及new首11z3/21保，不给质量1Theta或任何热伴随免费中央零。
+
+
+- [R880附录A](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：原九压三精确在选定K线性Hom/CM符号线上解释，显式eω保另一线共轭；同原两轴整循环仅倒置3/9/18/δ，shadow非零经R859无挠H1返回原有理类，不需先乘旧人为D含5部分。完整1/162 Artin点迹保同素位/全闭点；r29几何F841与角色F5^6、r41几何F1681与角色F7^3分开，6倍只取真实ℓ部分。两坐标成功前提和原pair不变。

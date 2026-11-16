@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WOBSA：实际完整outer/source/rough/root费用](results/R133-supplement-actual-complete-outer-rows-and-rough-positive-observations.md)：43844596176/1成功18门，6图37新原球齐、42旧/73scope完整，old0/lost0；真实mean与全部affine/七port保，未知G/finite逆不赋值，37目标冻结。
+
 - [WPT：精确cell主部逆和完整高反馈对偶radial tail](results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md)：skew primitive×对称D逆范数≤1，完整A−D与全K对偶给新的h²充分门；所有mean/端点/交叉保留，新数值门和signed有限逆未计算。
 
 - [WOB：完整外端193行与指定root96的signed逆证书](results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md)：真实mean/affine/七port与37原record齐备，Jc↔193+m方阵，A_c Fredholm index0及全四块严格左残差准则；尚无新数/finite逆。

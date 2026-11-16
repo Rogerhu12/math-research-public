@@ -140,10 +140,10 @@ $$
 }
 \tag{16}
 $$
-(16) 在 \(\operatorname{Hom}^{0}\otimes\overline{\mathbf Q}\) 中成立；
+(16) 在选定 CM 符号的 \(\operatorname{Hom}^{0}\otimes_{K,\iota}\mathbb E\) 中成立（见附录A）；另一符号逐项共轭。
 证明只用
 \(\sum_{r=0}^2(\zeta_j/\zeta_k)^r=3[j=k]\)
-及特征零中同态的微分单射。
+及该原 CM 线性 Hom 模上的特征零微分单射。不能将单一全纯微分的忠实性扩到未拆 CM 符号的 \(\operatorname{Hom}^{0}\otimes_{\mathbf Q}\overline{\mathbf Q}\)。
 
 它也是完整九次 Artin projector，而不是把一个九次角色改成三次角色。
 由 (4)、(14) 得
@@ -382,3 +382,150 @@ R859 给的是同一 \(Z_{\rm orig}\) 的真实 \(\ell\)-adic Abel–Jacobi 非�
 - R878：原第一因子的独立坐标认证门。
 
 本篇各式为符号推导；没有新增数学数值执行或重算数据。
+
+
+## 附录 A. 直接整循环检测、CM 符号及旧分母的准确作用
+
+本附录仍以两份原特征零坐标证书成功为前提，固定原
+\(F,\mathcal A_0,\mathcal A_1,\mathcal A_2\)，不提前断言这些坐标已认证。
+它支付 \(r=29,\ell=5\) 的实际检测所用整表示；
+不要求先对该表示乘原有理对应的一切人为清分母整数。
+
+### A.1 先固定同一个 CM 符号
+
+正文(16)、(17)中的 \([\omega]\) 只有在选定的
+\(K\)-线性 Hom 模上才作为系数 \(\omega\) 使用。
+在完整有理系数对应中，应先保留准确的 CM 幂等元
+$$
+e_\omega=\frac{[\omega]-\omega^2}{\omega-\omega^2},
+\qquad
+e_{\omega^2}=\frac{[\omega]-\omega}{\omega^2-\omega}.
+\tag{A1}
+$$
+这里 \([\omega]\) 是实际 CM 对应，系数中的 \(\omega\) 使用已固定的嵌入；
+二者在施(A1)之前不能相认。分母的范数为3，故在所有 \(\ell>3\) 处为单位。
+
+在原最高块上可在任一因子施同一个 push 符号；
+两条最高线的三个 CM 符号各自相同。
+特别 R859 的 shadow 与第三因子的(A1)相容，准确为
+$$
+S_r\circ e_\omega^{(3)}=e_\omega\circ S_r.
+\tag{A2}
+$$
+三循环到正文(28)后，同一投影由输出 \(F\) 的实际 CM 作用读取。
+另一个符号必须将 \(\omega,\zeta_j\) 和全部原角色同时共轭。
+
+现在原 \(\mathcal A_0^{\widetilde\tau^3}=[\omega]\mathcal A_0\)
+及 \(\zeta_j^3\omega=1\) 才使完整九次 projector 化为三项。
+这是 \(\operatorname{Hom}^0\otimes_{K,\iota}\mathbb E\)
+或对应 CM 线上的恒等式；未拆符号的
+\(\operatorname{Hom}^0\otimes_{\mathbf Q}\overline{\mathbf Q}\)
+不能只用单一全纯微分判断为零。
+
+### A.2 与原两个单独 Hecke 因子相同的整代表
+
+取 \(\ell=5\) 或7以及系数完备整环 \(\mathcal O\)。
+对正文(23)的一个固定有序对 \((j,k)\)，令
+$$
+\mathcal C_{jk,\chi}
+=e_\omega^{(3)}e_\chi
+\frac19\sum_{r,s=0}^2\zeta_j^r\zeta_k^s
+\Pi_{\rm top}(F,\mathcal A_rq_0,\mathcal A_sq_2)_*[X].
+\tag{A3}
+$$
+若原来源已作 point-factor 投影，则不重复施 \(e_\chi\)。
+式(A3)是真实态射推前循环的有限组合。其全部显示分母只来自
+\(3,9,18,\omega-\omega^2\)，在 \(\mathcal O\) 中均可逆；
+所有根单位也整。椭圆 CK 投影用目标 \(O\)，不需要另引 cusp 的整数倍。
+
+(A3)的两个独立 Fourier 矩阵同时选定两个原新形式；
+它不是只取总 \(\eta\) 角色的循环。正文(14)中的每个
+\(hu_jG_j/(3\cdot2048)\) 非零，原第一因子也已由其证书固定。
+故(A3)有理化后正是 R831 对应端点类在原 CM 因子上的非零
+\(h^1\) 同构的像。具体旧第零基仍保正文(22)的
+\(2048^2/(u_ju_k)\)，其余旧基使用(18)；
+\(X_0/X_1\) 和 old-space 的 \(6,12,1632,816\) 仍按 R831 返回。
+
+若原归一还含非零代数标量或有理 \(h^1\) 对应，
+它们在有理系数中保留并使用其逆。
+这里没有令其数值为1，也没有把不同 cycle 认作相同；
+只使用已经证明的同一原因子上的同构。
+因此
+$$
+AJ_\ell(\mathcal C_{jk,\chi})\otimes\operatorname{Frac}\mathcal O\ne0
+\quad\Longrightarrow\quad
+AJ_\ell(Z_{jk,\chi}^{\rm orig})\ne0.
+\tag{A4}
+$$
+在该原单独 CM 线上，此非零性也随同构双向保持。
+
+### A.3 实际有限点式及无挠返回
+
+将(A3)在原同一素位约化。保所有 point-factor Artin 动作，
+直接由正文(28)得到
+$$
+\begin{aligned}
+\mathscr S_{jk,\chi}
+={}&\frac1{162}\,e_\omega
+\sum_{\sigma\in\operatorname{Gal}(H/K)}
+ \chi(\sigma)^{-1}
+\sum_{a,b=0}^2\zeta_j^a\zeta_k^b\\
+&\quad\cdot
+\operatorname{Alb}\,
+\overline F^{\,\sigma}_*
+\left(
+\overline{\mathcal A}_b^{\,\sigma}q_2
+-\varphi_r\overline{\mathcal A}_a^{\,\sigma}q_0
+\right)^*[O].
+\end{aligned}
+\tag{A5}
+$$
+在(A5)中，好素数为 \(r\)，内和的 \(a,b\) 是三条共轭的标签。
+每个 \(\sigma\) 项都在同一所选几何素位取约化；
+系数 \(\zeta_j,\chi(\sigma)\) 不跟着 point-factor 共轭。
+全部闭点重数、剩余域迹和分母零点的延拓仍属于(A5)。
+
+该式是 \(\mathcal O\)-整循环的真正 shadow。
+若(A5)非零，R859 的整比较先给
+\(AJ_\ell(\mathcal C_{jk,\chi})\ne0\) 于整全局 \(H^1(H,T_A)\)。
+R859(20)证明这个模无挠，故其有理化仍非零，继而由(A4)返回原类。
+
+这里也说明旧清分母的准确逻辑。若
+\(\mathcal Z^{\rm old}=c\,\mathcal C_{jk,\chi}\) 于有理系数中，
+其中 \(c\ne0\)，则有理 AJ 的非零性不要求 \(v_\ell(c)=0\)。
+预先计算 \([\ell]\mathscr S_{jk,\chi}\) 却可能把非零的有限
+\(\ell\)-挠点杀掉；因此它是更弱的检测，不能被当成必须的准备步骤。
+原旧 \(D\) 或某个人为整倍数含 \(\ell\)，不阻止直接使用(A3)的检测。
+这不是从一个有理非零有限域 Chow 类推结论；真正使用的是整 shadow
+和无挠的特征零全局 \(H^1\)。
+
+R814 的 \(1/30\) 出现在其 canonical 椭圆单位／regulator 比较，
+不是 R831 端点循环定义的一项任意新增乘子。
+本附录没有将两个来源相认，也不把该30机械乘入(A3)。
+
+### A.4 两种有限域必须分别实现
+
+(A3)所需最小角色系数域可取 \(\mathbf Q(\zeta_9)\)，
+因为 \(\zeta_j,\omega,\chi\) 都在此域；
+原 \(u_j\) 也在其全实子域，但(A3)甚至不需除 \(u_j\)。
+这个系数域与几何定义域 \(H\) 的作用始终分开。
+
+| 好素数与检测素数 | 几何点群 | 角色系数的剩余域 |
+|---|---|---|
+| \(r=29,\ell=5\) | \(E_0(\mathbf F_{29^2})=E_0[30]\) | \(\mathbf F_{5^6}\) |
+| \(r=41,\ell=7\) | \(E_0(\mathbf F_{41^2})=E_0[42]\) | \(\mathbf F_{7^3}\)，保所选 \(K\) 嵌入 |
+
+系数域结论由 \(\operatorname{ord}_9(5)=6\)、
+\(\operatorname{ord}_9(7)=3\) 及 \(\Phi_9(T)=T^6+T^3+1\) 得到；
+两处均不分歧。它们不是把九次根放进几何的
+\(\mathbf F_{r^2}\)。
+
+对各完整闭点迹先乘6，便只保留真正的5或7挠部分。
+在该 \(\ell\)-挠部分，6为单位，不改变是否为零。
+选定一个真实 \(E_0[\ell]\) 的 \(\mathbf F_\ell\) 基后，
+各点成为两个 \(\mathbf F_\ell\) 坐标，再将(A5)的系数运算在表中的
+角色剩余域进行。CM 矩阵 \([\omega]\) 和(A1)同样必须作用于这两个坐标；
+不能把几何 \(r\) 次 Frobenius 当作角色系数域的 Frobenius。
+
+这些式子给出可执行的同原类检测规范；本附录没有执行(A5)，
+也没有宣称两份原坐标已认证或主 Sha 目标已经完成。

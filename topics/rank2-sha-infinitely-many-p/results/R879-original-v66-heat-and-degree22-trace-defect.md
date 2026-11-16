@@ -637,3 +637,263 @@ R863(A22)的 $H_{22}$ 低配对须按(A5)整个运输；
 本附录没有把两种读者相认，也没有从所示单位常数推 forcing。
 所得是原两中央、原 V 热返回与全部伙伴之间的一条准确消元，
 后续必须在同一原来源上控制其余项。
+
+
+## 附录 C. 同一个 C30 热余项的 degree10 返回与原 Theta 行
+
+这里继续处理(B14)中同一个 $D_6^C$。
+所有热作用仍先在原双变量模型形成，再作 CM 特化。
+固定
+$$
+R_C=-x^2y(7X^2-4bX+16b^2)(X-8b)/7,\qquad
+C^{[1]}=\left.\sigma^{30}\mathcal H_{30}R_C\right|_{\rm CM}.
+\tag{C1}
+$$
+这就是原 $C_{30}$ 的规范延拓，不加入新的 $g_2$ 项。
+它是 whole degree30、型三截面，且
+$C^{[1]}=-z^3/3+\cdots$。
+
+### C.1 保 y 项的完整三点热迹
+
+仍用(6)的算子 $\mathscr J$，但现在必须保它对 $y$ 的作用：
+$$
+\mathscr Jx=\frac23(x^2-2b/x),\qquad
+\mathscr Jy=xy.
+\tag{C2}
+$$
+这些值来自完整 $\mathcal L$ 后的 CM 特化。
+不能将 $\mathscr J$ 冒充固定方程 $y^2=x^3+b$ 上的切向导子；
+其原 $g_2$ 横向作用仍在(C2)的推导内。
+
+令目标坐标仍为 $(a,c)$，并置
+$$
+B(x)=7x-4b x^{-2}+16b^2x^{-5},\qquad
+c=-\frac{y(X-8b)}{3\delta X}.
+$$
+R877 的同一实际商为
+$$
+r_C=\frac{R_C}{(\delta x)^{10}}=\frac{3\delta^{-9}}7cB(x),
+\qquad \operatorname{Tr}r_C=0.
+\tag{C3}
+$$
+共轭公式(5)对这个含 $y$ 的原表达式仍成立：
+其证明只展开 $D^2(x^{10}r)$ 和 $\mathcal L(x^{10}r)$，
+不要求 $r$ 仅依赖 $x$。
+因而 $D^2r_C$ 与 $ar_C$ 的完整迹为零，留下
+$$
+\mathrm T_{\delta,10}C^{[1]}
+=\frac{3\delta^{-9}}7\sigma^{10}c
+ \operatorname{Tr}\left(\mathscr JB+B\,\frac{\mathscr Jc}{c}\right).
+\tag{C4}
+$$
+
+由(C2)准确得到
+$$
+\mathscr JB=\frac{14}{3}x^2-\frac{4b}{x}
+-\frac{64b^2}{x^4}+\frac{320b^3}{3x^7},
+$$
+$$
+\frac{\mathscr Jc}{c}
+=x\,\frac{X^2+8bX-32b^2}{X(X-8b)}.
+\tag{C5}
+$$
+第二式的 $y$ 导数项不能删除。
+用原纤维 $x^3+3ax^2+4b=0$ 的完整 Newton 和，
+$$
+\operatorname{Tr}x^2=9a^2,\quad
+\operatorname{Tr}x^{-1}=0,\quad
+\operatorname{Tr}x^{-4}=\frac{9a^2}{8b^2},\quad
+\operatorname{Tr}x^{-7}=-\frac{63a^2}{64b^3},
+$$
+可得 $\operatorname{Tr}\mathscr JB=-135a^2$。
+另一个完整有理函数准确分解为
+$$
+B\,\frac{\mathscr Jc}{c}
+=7x^2+\frac{27b}{x}-\frac{24b^2}{x^4}
++\frac{64b^3}{x^7}+\frac{81b x^2}{X-8b}.
+\tag{C6}
+$$
+R877(15) 的同一三点迹给
+$\operatorname{Tr}(x^2/(X-8b))=0$；
+也可用 $X-8b=-3(ax^2+4b)$ 和
+$\operatorname{Tr}(1/(ax^2+4b))=3/(4b)$ 直接核。
+所以(C6)的迹为 $-27a^2$。
+
+合并两项并用 $\delta^9=81\delta$，得到
+$$
+\boxed{
+\mathrm T_{\delta,10}C^{[1]}
+=\frac{2\delta}{7}\,\sigma^{10}x^2y.
+}
+\tag{C7}
+$$
+这里的两项分别贡献 $-135$ 与 $-27$，不是对原零 trace
+作一个未经证明可交换的热导数。
+
+记
+$$
+B_{10}=\sigma^{10}x^2y.
+$$
+实际 canonical old 与其真实余项因此为
+$$
+\begin{aligned}
+C_{\rm old}^{[1]}
+&=\frac{2\delta}{21}[\delta]^*B_{10}
+=\frac67\sigma^{30}yX(X+4b)^2(X-8b),\\
+C_{\rm new}^{[1]}&=C^{[1]}-C_{\rm old}^{[1]},\qquad
+\mathrm T_{\delta,10}C_{\rm new}^{[1]}=0 .
+\end{aligned}
+\tag{C8}
+$$
+这使用准确的
+$[\delta]^*B_{10}=-3\delta\,\sigma^{30}yX(X+4b)^2(X-8b)$。
+$C_{\rm new}^{[1]}$ 的首项是 $11z^3/21$；
+本节没有因其 trace 为零而令它的任何除 $p$ 行为零。
+
+### C.2 同一个 D6C 的准确热行
+
+对(C8)用(A7)取 $m=10,k=4$。
+因为 $j_3(B_{10})=-6$，完整模 $p$ 式为
+$$
+\boxed{
+\mathcal D_{30,p,4}(C^{[1]})
+=
+\mathcal D_{30,p,4}(C_{\rm new}^{[1]})
++\frac{18}{7}\mathcal D_{10,p,4}(B_{10})
+-\frac{2160}{7}c_pq_p(3).
+}
+\tag{C9}
+$$
+所有系数仍由同一个 $\epsilon_{\delta,p}$ 取得：
+在代入(A8)之前，最后一项是
+$-1440c_p\epsilon_{\delta,p}/7$。
+
+另一方面，R856(41)在原 $R_C$ 上取 $m=30,k=4$；
+原 $j_1(R_C)=j_3(R_C)=0$，其余 $g_2$ 项最后特化为零。
+因此准确有
+$$
+\boxed{
+\mathcal D_{30,p,4}(C^{[1]})
+=
+\left.L_2\bigl(\mathcal D_{30,p,4}(R_C)\bigr)\right|_{\rm CM}
+-\frac1{60}D_6^C.
+}
+\tag{C10}
+$$
+这里依然是原参数多项式的完整导数，
+不是对其 CM 零值作导数。
+(C9)–(C10)可以直接接(B14)的同一个 $D_6^C$，
+且全过程保持同一个 $C_{30}$。
+
+### C.3 degree10 旧行只有原 sigma 伙伴和完整低 cross
+
+(C9)中的旧行还能在原来源内进一步展开。
+置
+$$
+F_2=\sigma^2,\qquad
+U_6=\frac{[\delta]^*F_2}{\delta^2}=x^2\sigma^6,\qquad
+B_{10}=-B_4U_6 .
+\tag{C11}
+$$
+各 degree 依次为 $2,6,10$；首项分别为
+$z^2,z^2,-z^3$。定义严格低于 $p$ 的完整和
+$$
+\mathcal Y_p=
+24\!\!
+\sum_{\substack{8\le r\le p-3\\r\equiv2\ (6)}}
+\frac{j_r(U_6)j_{p+4-r}(B_4)}
+ {r(r-1)(r-2)(r-3)(r-4)}.
+\tag{C12}
+$$
+则对乘积(C11)逐项保高端，得到
+$$
+\boxed{
+\mathcal D_{10,p,4}(B_{10})
+=-4\mathcal D_{6,p,3}(U_6)-12D_2^B-92c_p+\mathcal Y_p.
+}
+\tag{C13}
+$$
+为核其符号和常数，两个高端准确为
+$-(p+4)j_{p+3}(U_6)$ 与
+$-2\binom{p+4}{2}j_{p+2}(B_4)$。
+代入
+$j_{p+3}(U_6)=36\widehat c_p+p\mathcal D_{6,p,3}(U_6)$、
+$j_{p+2}(B_4)=8\widehat c_p+pD_2^B$，
+再扣除原 $-240\widehat c_p$ 主项，
+余常数就是 $-36-56=-92$。
+低端的
+$\binom{p+4}{r}/p=-24/(r)_5$
+又与(C11)的负号相消，正给(C12)。
+
+同一原 $\delta$ 拉回的精确式还给
+$$
+\mathcal D_{6,p,3}(U_6)
+=\delta^{p+1}\mathcal D_{2,p,3}(F_2)
++12\widehat c_p\epsilon_{\delta,p}
+\equiv3\mathcal D_{2,p,3}(F_2)+18c_pq_p(3)\pmod p.
+\tag{C14}
+$$
+没有把 $U_6$ 当作未变 degree 的裸坐标代换。
+
+### C.4 用原 Theta 的 Wronskian 保全部高端
+
+仍使用原 $\Theta=x\sigma^2$。
+准确 whole 来源身份是
+$$
+B_4=\frac12\bigl(\Theta DF_2-F_2D\Theta\bigr).
+\tag{C15}
+$$
+单独的导数可能含准周期项，但(C15)的完整 Wronskian
+正是原 $\sigma(2z)/2$，没有改动 theta frame。
+再定义全部严格低于 $p$ 的和
+$$
+\mathcal Z_p=
+-\!\!
+\sum_{\substack{6\le i\le p-5\\i\equiv0\ (6)}}
+\frac{(2i-3)j_i(\Theta)j_{p+3-i}(F_2)}
+ {i(i-1)(i-2)(i-3)}.
+\tag{C16}
+$$
+对(C15)的指定 $p+2$ jet，完整高端合成
+$$
+\frac12j_{p+3}(F_2)
++\frac{(p+2)(1-p)}2j_{p+1}(\Theta).
+$$
+低端则是
+$\tfrac12[\binom{p+2}{i}-\binom{p+2}{i-1}]$，
+其除 $p$ 值正给(C16)。于是
+$$
+\boxed{
+D_2^B
+=\frac12\mathcal D_{2,p,3}(F_2)
++\mathcal D_{2,p,1}(\Theta)-c_p+\mathcal Z_p.
+}
+\tag{C17}
+$$
+特别 $\mathcal D_{2,p,1}(\Theta)$ 使用的是
+$(j_{p+1}(\Theta)-2\widehat c_p)/p$；
+$\Theta$ 的质量是一，故它绝不是可任意赋零的中央首行。
+
+将(C14)、(C17)代入(C13)，得到(C9)旧行的完整表达
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{10,p,4}(B_{10})
+={}&-36D_2^B+24\mathcal D_{2,p,1}(\Theta)
+-116c_p-72c_pq_p(3)\\
+&+24\mathcal Z_p+\mathcal Y_p.
+\end{aligned}
+}
+\tag{C18}
+$$
+这样，原 $C_{30}$ 热 trace 的 degree10 部分只使用
+(B4)已保的同一个 $B_4$ 行、原 $\Theta$ 的指定残行
+和(C12)、(C16)两个完整低卷积；
+没有留下一个未说明来源的 degree10 数值。
+
+(C7)–(C18)全部保持原 sigma、canonical 三点投影和特征零 Hasse 提升。
+它们没有为 $C_{\rm new}^{[1]}$、$B_{10}$、$F_2$ 或 $\Theta$
+添加算术中央条件，也没有把 $\Theta$ 的真实 Frobenius 初始资料换成自由常数。
+将这些式子与(B14)联立时，仍须控制同一个原热余项、
+同一参数导数以及全部低 cross；
+不能只由其中 $c_p$ 的单位系数断定四条原首行不相容。
