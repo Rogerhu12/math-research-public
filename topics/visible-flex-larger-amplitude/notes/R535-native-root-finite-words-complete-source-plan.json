@@ -1,0 +1,164 @@
+{
+  "schema": "R535-native-root-finite-words-complete-source-plan-v1",
+  "scientific_execution_performed": false,
+  "source_root_policy": "actual-public-checkout-topic-computations",
+  "header": {
+    "file": "root_20261116_native_root_finite_words.hpp",
+    "bytes": 7102,
+    "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+  },
+  "views": [
+    {
+      "role": "primal",
+      "base": {
+        "file": "geometry_20261115_native_primal128.cpp",
+        "bytes": 23890,
+        "sha256": "1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d"
+      },
+      "output": {
+        "file": "root_20261116_native_root_finite_words_primal128.cpp",
+        "bytes": 25230,
+        "sha256": "3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241"
+      },
+      "patches": [
+        {
+          "old": "struct RootStats {\n",
+          "new": "#include \"root_20261116_native_root_finite_words.hpp\"\n\nstruct RootStats {\n  R535WordStats r535_words;\n",
+          "count": 1
+        },
+        {
+          "old": "  void join(const RootStats &s) {\n",
+          "new": "  void join(const RootStats &s) {\n    r535_words.join(s.r535_words);\n",
+          "count": 1
+        },
+        {
+          "old": "                             RootStats &stats) {\n  time_check(); ++stats.evaluations;\n",
+          "new": "                             RootStats &stats, R535FixedRootWords *fixed_words=nullptr) {\n  time_check(); ++stats.evaluations;\n  auto &word_stats=stats.r535_words;\n  word_stats.last_fixed_used=false;word_stats.last_u_used=false;\n  word_stats.mark(\"evaluation-start\");\n  if(fixed_words){\n    ++word_stats.fixed_requests;\n    r535_build_fixed_words(*fixed_words,p,Qstate,g,word_stats);\n  }else{++word_stats.fixed_evaluations_without_local_cache;}\n  const bool fixed_used=fixed_words&&fixed_words->qualified;\n  word_stats.last_fixed_used=fixed_used;\n  if(fixed_used)++word_stats.fixed_evaluations_used;\n  else if(fixed_words)++word_stats.fixed_evaluations_fallback;\n",
+          "count": 1
+        },
+        {
+          "old": "  for (int j=0;j<p.M;++j) {\n    momentum[j]=-p.frequency[j]*r3*Qstate[j]/(p.sq2*g.w);\n    pt[j+1]=p.frequency[j]*momentum[j];\n  }\n  RootEval result;",
+          "new": "  if(fixed_used){\n    momentum=fixed_words->momentum;pt=fixed_words->pt;\n  }else{\n    for (int j=0;j<p.M;++j) {\n      momentum[j]=-p.frequency[j]*r3*Qstate[j]/(p.sq2*g.w);\n      pt[j+1]=p.frequency[j]*momentum[j];\n    }\n  }\n  V u_words;\n  const bool u_used=r535_build_u_words(p,L,momentum,u_words,word_stats);\n  word_stats.last_u_used=u_used;\n  RootEval result;",
+          "count": 1
+        },
+        {
+          "old": "  for (int n=0;n<p.N;++n) {\n    if ((n&31)==0) time_check();\n    Q P=0,Pt=0,Lv=L[0],U=0;",
+          "new": "  for (int n=0;n<p.N;++n) {\n    word_stats.mark(\"original-angular-row\",-1,n);\n    if ((n&31)==0) time_check();\n    Q P=fixed_used?fixed_words->P[n]:0,Pt=fixed_used?fixed_words->Pt[n]:0,Lv=L[0],U=0;",
+          "count": 1
+        },
+        {
+          "old": "      P+=momentum[j]*sn[j]; Pt+=pt[j+1]*cs[j+1]; Lv+=L[j+1]*cs[j+1];\n      U+=(-m*L[j+1]+(m*m-1)*momentum[j])*sn[j];\n    }\n    const Q K=Lv-Pt,",
+          "new": "      if(!fixed_used){P+=momentum[j]*sn[j];Pt+=pt[j+1]*cs[j+1];}\n      Lv+=L[j+1]*cs[j+1];\n      if(u_used)U+=u_words[j]*sn[j];\n      else U+=(-m*L[j+1]+(m*m-1)*momentum[j])*sn[j];\n    }\n    if(u_used)++word_stats.u_angular_rows_used;else ++word_stats.u_angular_rows_fallback;\n    const Q K=Lv-Pt,",
+          "count": 1
+        },
+        {
+          "old": "  bool original_seen=false;\n  for (int it=0;it<30;++it) {\n    auto ev=root_evaluate(p,e,target,state,g,stats);",
+          "new": "  R535FixedRootWords fixed_words(p,state,g);\n  bool original_seen=false;\n  for (int it=0;it<30;++it) {\n    auto ev=root_evaluate(p,e,target,state,g,stats,&fixed_words);",
+          "count": 1
+        },
+        {
+          "old": "        auto value=root_evaluate(p,trial,target,state,g,stats);",
+          "new": "        auto value=root_evaluate(p,trial,target,state,g,stats,&fixed_words);",
+          "count": 1
+        },
+        {
+          "old": "   <<\",\\\"min_A_over_returned_RHS_roots\\\":\"<<quoted(qstr(s.returned_minA))<<\"},\\\"failed_stages\\\":[\";",
+          "new": "   <<\",\\\"min_A_over_returned_RHS_roots\\\":\"<<quoted(qstr(s.returned_minA))\n   <<\",\\\"root_finite_word_cache\\\":\";\n  r535_print_word_stats(std::cout,s.r535_words);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "trace",
+      "base": {
+        "file": "geometry_20261115_native_trace_variation128.cpp",
+        "bytes": 34622,
+        "sha256": "8c40b4c7ed214a16afd06cd0157bf861822cb217a72bd0117bbed7f2c954204d"
+      },
+      "output": {
+        "file": "root_20261116_native_root_finite_words_trace128.cpp",
+        "bytes": 34950,
+        "sha256": "2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12"
+      },
+      "patches": [
+        {
+          "old": "// The frozen113 primal source is included unchanged.  This program supplies\n",
+          "new": "// R535 uses an explicitly qualified primal source view with local finite-word\n// sharing; the original complete ancestry is retained in its source plan.\n// This program supplies\n",
+          "count": 1
+        },
+        {
+          "old": "#include \"geometry_20261115_native_primal128.cpp\"",
+          "new": "#include \"root_20261116_native_root_finite_words_primal128.cpp\"",
+          "count": 1
+        },
+        {
+          "old": "    \"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\";",
+          "new": "    \"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\";\nstatic constexpr const char *included_R535_primal_cpp_sha256 =\n    \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\";",
+          "count": 1
+        },
+        {
+          "old": "    <<\",\\\"min_A_over_returned_RHS_roots\\\":\"<<(s.returned_minA==FLT128_MAX?\"null\":quoted(qstr(s.returned_minA)))<<\"}\";",
+          "new": "    <<\",\\\"min_A_over_returned_RHS_roots\\\":\"<<(s.returned_minA==FLT128_MAX?\"null\":quoted(qstr(s.returned_minA)));\n  o<<\",\\\"root_finite_word_cache\\\":\";r535_print_word_stats(o,s.r535_words);o<<\"}\";",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "compiler_function": {
+    "base": {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    "start": "def compile_owner(work, expected_cpp):\n",
+    "next_definition": "\ndef ",
+    "original": {
+      "bytes": 3860,
+      "sha256": "be019045058f4616f98b07e19c0d8d3901e979ce2b1ba7d4259c65fcae4ae46d"
+    },
+    "derived": {
+      "bytes": 5206,
+      "sha256": "2d8754983d9e9f2fae9b1f5695840fd180d83fa996796818dc4462684c5dc55c"
+    },
+    "patches": [
+      {
+        "old": "def compile_owner(work, expected_cpp):\n",
+        "new": "def compile_owner(work, expected_cpp):\n    cache_binding = _R535_SOURCE_BINDING\n    require(cache_binding[\"schema\"] == \"R535-native-root-finite-words-source-binding-v1\", \"Actual R535 source binding\")\n    require(Path(cache_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R535 compiler source directory\")\n    for desc in cache_binding[\"actual_generated_sources\"] + [cache_binding[\"actual_header\"]]:\n        actual = HERE / desc[\"file\"]\n        require(actual.stat().st_size == desc[\"bytes\"] and file_sha(actual) == desc[\"sha256\"], \"Complete R535 compile dependency\")\n",
+        "count": 1
+      },
+      {
+        "old": "\"Complete frozen trace source\"",
+        "new": "\"Complete declared R535 trace view\"",
+        "count": 1
+      },
+      {
+        "old": "\"Unique frozen standalone trace main\"",
+        "new": "\"Unique declared R535 trace standalone main\"",
+        "count": 1
+      },
+      {
+        "old": "    record = dict(command=command, source=receipt(HERE/CPP), included_original_source=receipt(HERE/ORIGINAL_CPP),\n        frozen_R283_source=receipt(HERE/TRACE_CPP), generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=True, only_frozen_trace_standalone_main_excluded=True,\n",
+        "new": "    record = dict(command=command, source=receipt(HERE/CPP),\n        included_primal_source=receipt(HERE/ORIGINAL_CPP), included_trace_source_view=receipt(HERE/TRACE_CPP),\n        original_primal_ancestor=receipt(HERE/\"geometry_20261115_native_primal128.cpp\"),\n        original_R283_ancestor=receipt(HERE/\"geometry_20261115_native_trace_variation128.cpp\"),\n        generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=False, only_frozen_trace_standalone_main_excluded=False,\n        root_finite_word_cache_compilation_source_binding=dict(cache_binding,\n            actual_compiler_command=command, actual_generated_include=receipt(include),\n            actual_compile_returncode=code, actual_executable=receipt(executable),\n            actual_compile_stdout=receipt(work/\"compile.stdout.log\"), actual_compile_stderr=receipt(work/\"compile.stderr.log\"),\n            compiler_completed=True, source_preparation_alone_is_not_compilation=True,\n            original_persistent_CPP_source_unchanged=True, original_evaluate_observer_and_all_stage_rows_unchanged=True),\n",
+        "count": 1
+      }
+    ]
+  },
+  "original_persistent_cpp": {
+    "file": "geometry_20261115_native_persistent128.cpp",
+    "bytes": 22364,
+    "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+  },
+  "numeric_contract": {
+    "root_newton_iterations": 30,
+    "root_line_trials": 20,
+    "native_directions": 32,
+    "native_line_trials": 10,
+    "owner_cap_seconds": 6000,
+    "replay_reserve_seconds": 1200,
+    "job_clock_seconds": 19200,
+    "new_scientific_acceptance_gate": false,
+    "all_original_domain_and_nonlinear_gates_preserved": true,
+    "original_stage_endpoint_audit_sources_unchanged_by_this_adapter": true
+  },
+  "actual_scientific_run_registered": false
+}
