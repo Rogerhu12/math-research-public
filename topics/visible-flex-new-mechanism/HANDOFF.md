@@ -8,7 +8,7 @@
 
 私有同job08:30:17.979083→08:30:18.931957，before=after **ef9137d638db4223eb669caa01d95781f99f7a54**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。此前pull完整来源保原note；私有正文不发表。
 
-新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
+新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:45:21再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -38,6 +38,6 @@ R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说�
 
 ## 5. 正在接续（2026-11-16 08:29:38 UTC）
 
-root已发布[真正54新模型入口](notes/true54-fresh-original-model-exchange-design-20261116.md)，public首运行待结果：必要两普通值/两J/两firstjet，19标签在54刷新，全部硬/软行动态完整装入；32新行集/32双网/147新行，1/64scalar及3pair/6actual值，同新600秒（祖先1877.294171609秒/130值另带）。建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
+root已发布[真正54新模型入口](notes/true54-fresh-original-model-exchange-design-20261116.md)，public首运行43832870561/research133182173190在进行：必要两普通值/两J/两firstjet，19标签在54刷新，全部硬/软行动态完整装入；32新行集/32双网/147新行，1/64scalar及3pair/6actual值，同新600秒（祖先1877.294171609秒/130值另带）。建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
 
-新的[cap五门设计](notes/cap-five-positive-curvature-search-design-20261116.md)已冻：15个真实正ρ参数、6固定起点、完整左germ/十二L/八Aj/五Δ及解析敏感度，同120秒/400started积分含失败/输出。首执行[启动失败](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：prefix已付，首cap第14RHS overflow；总.5630522320000182秒/2started(1complete,1fail)，无任何完整五门值。已发布[唯一首步修复](notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md)：first_step1e−6，消费同一剩余120秒/400started，carry旧费/2started及prefix63回调，只读回prefix；等原续算结果。R481局部正规与真实全局0仍有距离；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。
+新的[cap五门设计](notes/cap-five-positive-curvature-search-design-20261116.md)已冻：15个真实正ρ参数、6固定起点、完整左germ/十二L/八Aj/五Δ及解析敏感度，同120秒/400started积分含失败/输出。首执行[启动失败](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：prefix已付，首cap第14RHS overflow；总.5630522320000182秒/2started(1complete,1fail)，无任何完整五门值。已发布[唯一首步修复](notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md)：first_step1e−6，消费同一剩余120秒/400started，carry旧费/2started及prefix63回调，只读回prefix；续算43833666242/research133184846641在进行，待原结果。R481局部正规与真实全局0仍有距离；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。
