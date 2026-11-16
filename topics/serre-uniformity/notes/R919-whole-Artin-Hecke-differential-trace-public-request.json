@@ -1,0 +1,861 @@
+{
+  "schema": "source-bound-public-Action-v1",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R919-completed-original-z0-Euler-differential-row",
+  "result": "R919-original-whole-Artin-Hecke-differential-trace",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "budget_minutes": 300,
+  "resume": null,
+  "core": "R919_original_whole_Artin_Hecke_differential_trace.py",
+  "core_sha256": "379083fd253ec82af43d185ddd6aed6f33ca6985d70e9864bab8f0a5ce1ef7ee",
+  "helper": "R885_whole_Artin_algebra.py",
+  "helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "wrapper": "R919_public_original_whole_Artin_Hecke_differential_trace.py",
+  "wrapper_sha256": "0c5b7cc64a0cb8c0d12c0a953f430291c6ae3fc921c1f4f3245ce66992484ad4",
+  "workflow": ".github/workflows/serre-R919-whole-Artin-Hecke-differential-trace.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R919-original-whole-Artin-Hecke-differential-trace-method.md",
+  "method_sha256": "2024a082f600a9296786575d59d5694082ac21a43569fe4d8a5caca96a6a6b60",
+  "proofs": {
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R882": {
+      "path": "results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
+      "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R915": {
+      "path": "results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md",
+      "sha256": "b8ea2f3b8b11b0923e9192122d40dbd46224a5e54e4047c534748e9fabf1dc92"
+    }
+  },
+  "sources": {
+    "R885": {
+      "result": "R885-original-whole-Artin-reference-norms",
+      "run_id": "43848870181",
+      "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
+      "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035",
+      "artifact_id": 14218009053,
+      "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
+      "archive_bytes": 145477237,
+      "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:56:08Z",
+      "certificate": {
+        "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+        "bytes": 58002,
+        "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+      },
+      "configuration_sha256": "9e419bbb3c496d943187e4ca3a368c97247dc3c8531a8f8a09d403758a0b0df6",
+      "files": {
+        "R885-Artin-node-00-complete-fibre-certificate.json.gz": {
+          "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz",
+          "bytes": 20627,
+          "sha256": "a504f127520d83704fd651634aa587e65cb2df71b349b7f1f8385ecc7726a9e0"
+        },
+        "R885-Artin-node-00-correspondence-algebra.json.gz": {
+          "file": "R885-Artin-node-00-correspondence-algebra.json.gz",
+          "bytes": 209840,
+          "sha256": "8ad29e2dad0f992f386dcf9a0708db78dc0fd8cec073b275fe28749c95b70443"
+        },
+        "R885-Artin-node-00-full-target-normal-equations.json.gz": {
+          "file": "R885-Artin-node-00-full-target-normal-equations.json.gz",
+          "bytes": 20318,
+          "sha256": "b27c6019d1bfa495640fac18f12a4e81f2cc3f6bbd0d558bceb66982d4f8e40f"
+        },
+        "R885-Artin-node-00-source-functions.json.gz": {
+          "file": "R885-Artin-node-00-source-functions.json.gz",
+          "bytes": 3079120,
+          "sha256": "d3f79bfb7e8119787014ecd80cb0bccd8f10caf9d93353dfe7cc85592c65361c"
+        },
+        "R885-Artin-node-00-target-normal-000-016.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-000-016.json.gz",
+          "bytes": 186091,
+          "sha256": "5364be66533e04119cefffa0751ab356c2fd7ff251f8f66bb2cc8adc070946f7"
+        },
+        "R885-Artin-node-00-target-normal-016-032.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-016-032.json.gz",
+          "bytes": 196938,
+          "sha256": "fe792aaaa0d1bb357d04950ce9c9e20d81999dfb52c293280f08db9c070076d3"
+        },
+        "R885-Artin-node-00-target-normal-032-048.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-032-048.json.gz",
+          "bytes": 197004,
+          "sha256": "ac4b9a98a35e3f2d86df553d4222efcd057019941ae38206493a7382fb48202d"
+        },
+        "R885-Artin-node-00-target-normal-048-064.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-048-064.json.gz",
+          "bytes": 196930,
+          "sha256": "3fa4ba3b4cad321b249229931a22e7d9ca6b48e6b57159f1d9a70d90db784e9b"
+        },
+        "R885-Artin-node-00-target-normal-064-080.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-064-080.json.gz",
+          "bytes": 197017,
+          "sha256": "ea0f44967050d9755d7fd86192ff89d28dafb6e6599fc335d1d5a1182d27bc28"
+        },
+        "R885-Artin-node-00-target-normal-080-096.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-080-096.json.gz",
+          "bytes": 197005,
+          "sha256": "9ebeaf6f9f51d45813543381ee2bb5b4f64c17cd9dd7eceb33f4f97c12b7fba6"
+        },
+        "R885-Artin-node-00-target-normal-096-112.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-096-112.json.gz",
+          "bytes": 197060,
+          "sha256": "cf1530de0a8477af516567602e4a836bccc6ef91675f21c45a877951b0e2aaa3"
+        },
+        "R885-Artin-node-00-target-normal-112-128.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-112-128.json.gz",
+          "bytes": 196951,
+          "sha256": "a388e675d838172d09e14c75aa9aeab665e234eddfb538c0cf87db7f010e7617"
+        },
+        "R885-Artin-node-00-target-normal-128-144.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-128-144.json.gz",
+          "bytes": 196947,
+          "sha256": "65b265d965ed935209260d6e5ae6e4e869d883dd41f38883488fd91ec0c16133"
+        },
+        "R885-Artin-node-00-target-normal-144-160.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-144-160.json.gz",
+          "bytes": 196858,
+          "sha256": "acd3521f1261e96ecd736870565ba1cf4c8dd407acbf39ad0c23739b95b00345"
+        },
+        "R885-Artin-node-00-target-normal-160-176.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-160-176.json.gz",
+          "bytes": 196833,
+          "sha256": "83251ed1b701db664dd12604c7f20ec9e22c0b02cc40d60619b822353a419e39"
+        },
+        "R885-Artin-node-00-target-normal-176-192.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-176-192.json.gz",
+          "bytes": 196864,
+          "sha256": "a9da83065c4ef35ddc591309d078c28ea290dfbc2c4a823b07e13a0e31262561"
+        },
+        "R885-Artin-node-00-target-normal-192-208.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-192-208.json.gz",
+          "bytes": 196793,
+          "sha256": "c7033a53c27f39a600078bbf93cd19753b6b3a9f05de9a4d81d23e9517f57ba7"
+        },
+        "R885-Artin-node-00-target-normal-208-224.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-208-224.json.gz",
+          "bytes": 197009,
+          "sha256": "58eaa8f3cb36dc16cffe85620726f390aa97a5a27a2e940fda329a4c28c8cdec"
+        },
+        "R885-Artin-node-00-target-normal-224-240.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-224-240.json.gz",
+          "bytes": 196931,
+          "sha256": "b2035968f72b32e6e50b1d70fa597535590c91860aa2c530ca918d034b30afbb"
+        },
+        "R885-Artin-node-00-target-normal-240-256.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-240-256.json.gz",
+          "bytes": 196763,
+          "sha256": "a51c4b7d05cff5f33993364e44c134f96b6b1b4261983424efc5509affc5d3bf"
+        },
+        "R885-Artin-node-00-target-normal-256-272.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-256-272.json.gz",
+          "bytes": 196908,
+          "sha256": "02a60f5ecf8b9f3bf5b5b11317c6058cd29a5b48e4f37b9a6846ae254c42effc"
+        },
+        "R885-Artin-node-00-target-normal-row-index.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-row-index.json.gz",
+          "bytes": 21134,
+          "sha256": "10d53f7c4daa54a2a6a6a3d25a1de04997db2f4214800104b9cc0c2a5511a3e3"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 56003,
+          "sha256": "7413c073772399c5b6127fb024e76a560739bfe34d8d242f77445241c3f0d7e3"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 53331,
+          "sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035"
+        },
+        "p41-original-whole-Artin-reference-norms-certificate.json": {
+          "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+          "bytes": 58002,
+          "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 12860,
+          "sha256": "cd09505b83e7c7649f6b339048d4dc71405320a7967261b92757a91caab2bc2d"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 691,
+          "sha256": "16cb7b9e16b7486e430f4962baccd9f781b9ce236594155978b3c7f83502a998"
+        }
+      },
+      "manifest_bytes": 53331,
+      "manifest_file_count": 334,
+      "stage_result_location": "top_level"
+    },
+    "R827": {
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "accepted_process_exit_codes": [
+        124
+      ],
+      "files": {
+        "R827-complete-short-operator-identities-and-sigma-transport.json.gz": {
+          "file": "R827-complete-short-operator-identities-and-sigma-transport.json.gz",
+          "bytes": 2479,
+          "sha256": "8aebc342bd263a00f306de6b2b6fc1775a7a246cf06622152e7d5c9edd5410a6"
+        },
+        "R827-original-W-g-h-reductions.json.gz": {
+          "file": "R827-original-W-g-h-reductions.json.gz",
+          "bytes": 763994,
+          "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "bytes": 4261,
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "R827-prime-1000000753-z-0-Krylov.json.gz": {
+          "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
+          "bytes": 1114714,
+          "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703"
+        },
+        "R827-target-Gamma-tau-polynomial-index.json.gz": {
+          "file": "R827-target-Gamma-tau-polynomial-index.json.gz",
+          "bytes": 3360,
+          "sha256": "275948210bff93db1f007e119955ba824c18cbf9f1451bb98569f4b99a751cc7"
+        },
+        "R827-target-Gamma-tau-rows-000.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-000.json.gz",
+          "bytes": 81197,
+          "sha256": "b613443ea5a5624a9ac3b9b49f4f718e5e538dcb32991a0c37ac840668e7fd5e"
+        },
+        "R827-target-Gamma-tau-rows-016.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-016.json.gz",
+          "bytes": 79857,
+          "sha256": "3aa2a6538a68bc93a04063604d660efb35c777517c828181c6d0deb585ec3f5f"
+        },
+        "R827-target-Gamma-tau-rows-032.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-032.json.gz",
+          "bytes": 79899,
+          "sha256": "c0b66186231eccb1e5e81d99fb353983511b09d40a139a51890c3b52aa37cc62"
+        },
+        "R827-target-Gamma-tau-rows-048.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-048.json.gz",
+          "bytes": 79767,
+          "sha256": "4181a3145f2e83f35021fb36f685b344522a3914639236789c49107220b8c3d7"
+        },
+        "R827-target-Gamma-tau-rows-064.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-064.json.gz",
+          "bytes": 79875,
+          "sha256": "9633996b7417a8597349207c3fe006baccd4d17ff81c92652d7fe743860c04d2"
+        },
+        "R827-target-Gamma-tau-rows-080.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-080.json.gz",
+          "bytes": 79799,
+          "sha256": "c82491b9d90ad6f91e54ff1c59b3ea5a8ca7e35094db187ac99e50604947da07"
+        },
+        "R827-target-Gamma-tau-rows-096.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-096.json.gz",
+          "bytes": 79774,
+          "sha256": "5f145bbf0bf2e448699f48a0c393afa8d0772cdf835a954d80880c33a2119239"
+        },
+        "R827-target-Gamma-tau-rows-112.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-112.json.gz",
+          "bytes": 79823,
+          "sha256": "4fe5ec1e5c08566a39264bc691a527b0bd6c5bf592654fe66118d761dabdc46b"
+        },
+        "R827-target-Gamma-tau-rows-128.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-128.json.gz",
+          "bytes": 79895,
+          "sha256": "d6bc7caf4a33e1321c6b534c983022a8f33c9ffebf5a97a063cb2881987640d9"
+        },
+        "R827-target-Gamma-tau-rows-144.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-144.json.gz",
+          "bytes": 59609,
+          "sha256": "888d3a3e55a2f3de2e88bac575a33177aa2abe97ab74fc2a61e2e1d369d36a6c"
+        },
+        "R827-target-Gamma-tau-rows-160.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-160.json.gz",
+          "bytes": 58136,
+          "sha256": "57a0ff0d7716bfcbacf9ab0016299bfe67dc7e8c14cd909c3b44a044c8e7cb27"
+        },
+        "R827-target-Gamma-tau-rows-176.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-176.json.gz",
+          "bytes": 58197,
+          "sha256": "7531f9d15a0598260fa53e89d7a48d0e030a24105f0663cf08fcb1ad1747c114"
+        },
+        "R827-target-Gamma-tau-rows-192.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-192.json.gz",
+          "bytes": 58257,
+          "sha256": "469a10e0f45c59de10c7b7d13fee0caf7d1c816b0e101017dfb2b9c7f127b0f6"
+        },
+        "R827-target-Gamma-tau-rows-208.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-208.json.gz",
+          "bytes": 58142,
+          "sha256": "8256880dad259ef34c377d56f60997bc3381f6472a54aafa1a02ae9565fff41a"
+        },
+        "R827-target-Gamma-tau-rows-224.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-224.json.gz",
+          "bytes": 58176,
+          "sha256": "725ad5933090d493236cb99418bc47ba4e281aaa5aeb306898ead1063b5129fc"
+        },
+        "R827-target-Gamma-tau-rows-240.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-240.json.gz",
+          "bytes": 58119,
+          "sha256": "b32b2f3a0249523ffffe63391a7b548e828b579bb24763f234083e066479cd32"
+        },
+        "R827-target-Gamma-tau-rows-256.json.gz": {
+          "file": "R827-target-Gamma-tau-rows-256.json.gz",
+          "bytes": 58181,
+          "sha256": "ac16d616b8d4e5860ce55c351e05e67e6d68578fdee7395495595abfb431b244"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 378,
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 19902271,
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 14624,
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 441,
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        }
+      },
+      "stage_result_location": "configuration"
+    },
+    "R882": {
+      "certificate": {
+        "bytes": 8198,
+        "file": "p41-original-cyclic-seven-common-place-coefficients-certificate.json",
+        "sha256": "717768f087fa709a4412f16b12accf6cd132ac917b082df43b26bbb60e21ad31"
+      },
+      "configuration_sha256": "873a34e40ed6b160732886296dfbc8afe36f6071439fca27e7c10cb5c7cc5b61",
+      "core_sha256": "901466ae4d34bf1b558132a3b7c57c1c0bf6f2a8f097bc2283cd562607ba2e0f",
+      "manifest_bytes": 13197,
+      "manifest_sha256": "262eccbc897addf8f4d9d4623352d48aa55bb5f83fa9375bc02aa0e53fcd864e",
+      "result": "R882-original-cyclic-seven-common-place-coefficients",
+      "run_id": "43839076365",
+      "source_commit": "cb2385cca1fd2c336c7da0e3070bde77129e8e17",
+      "artifact_id": 14211339984,
+      "artifact_name": "serre-global-R882-common-place-coefficients-43839076365-1",
+      "archive_bytes": 386598220,
+      "archive_sha256": "3adfa48450a7be0a336c557891c1e86f91ef2d563d1defd607ec02d0d86413ca",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:24:51Z",
+      "files": {
+        "R882-common-place-same-place-correspondence-coefficients.json.gz": {
+          "file": "R882-common-place-same-place-correspondence-coefficients.json.gz",
+          "bytes": 4961,
+          "sha256": "2c802016ad29e9f15d0c01f66d7217413878a2543a5b3f8a56e0ae5c979837fa"
+        },
+        "R882-common-place-seventeen-coordinates.json.gz": {
+          "file": "R882-common-place-seventeen-coordinates.json.gz",
+          "bytes": 173770,
+          "sha256": "5c79985f7f004633e8bae857c2d23c880739934555a9c85946871543387058ea"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 6371,
+          "sha256": "d33e1021fc92472772584c1f28f1f79d19d818e7e3fe711cb2e6e41596dbed8d"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 13197,
+          "sha256": "262eccbc897addf8f4d9d4623352d48aa55bb5f83fa9375bc02aa0e53fcd864e"
+        },
+        "p41-original-cyclic-seven-common-place-coefficients-certificate.json": {
+          "file": "p41-original-cyclic-seven-common-place-coefficients-certificate.json",
+          "bytes": 8198,
+          "sha256": "717768f087fa709a4412f16b12accf6cd132ac917b082df43b26bbb60e21ad31"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 5574,
+          "sha256": "c58af09820c0acbca5d6e35889e7ccc0ce708e67f58b796f447ebe096b735285"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 676,
+          "sha256": "8c6f440550ce2fd99b86ed0b6d158e9bdb51b2819a709263d7ec524c3d85fdb5"
+        }
+      },
+      "manifest_file_count": 87,
+      "stage_result_location": "top_level"
+    },
+    "R873": {
+      "certificate": {
+        "bytes": 11215,
+        "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+        "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+      },
+      "configuration_sha256": "cc0aa80daad20e534af3f126f3b99363926ffb615adc1925ce6c2992996b5cf0",
+      "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
+      "manifest_bytes": 55619,
+      "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43832703159",
+      "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+      "artifact_id": 14209317175,
+      "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
+      "archive_bytes": 382153683,
+      "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:42:36Z",
+      "files": {
+        "R873-original-cyclic-seven-source-target-function-DAG.json.gz": {
+          "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+          "bytes": 32165,
+          "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 9204,
+          "sha256": "21f01a84e243aa3dc77e563c3b7a0c0011e9d96e804175e0381a79a030681b95"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 55619,
+          "sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac"
+        },
+        "p41-original-cyclic-seven-correspondence-certificate.json": {
+          "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+          "bytes": 11215,
+          "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 13700,
+          "sha256": "f5d0d2436d128878ad8bf434bd4e55071290870c5380672357c24d4256b0fc97"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 762,
+          "sha256": "a0907d566ff27f2cb36a097596a51803683709598ef4a5eea75c119251084571"
+        }
+      },
+      "manifest_file_count": 380,
+      "stage_result_location": "top_level"
+    },
+    "R807": {
+      "certificate": {
+        "bytes": 12202,
+        "file": "p41-original-M6-pole-clearing-certificate.json",
+        "sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b"
+      },
+      "configuration_sha256": "4611f44e4483734c3dab79052f02631e08cd9b81bc35b3b274f5e2c6f8fc7c87",
+      "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+      "manifest_bytes": 350485,
+      "manifest_file_count": 1003,
+      "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+      "result": "R807-original-M6-pole-clearing",
+      "run_id": "43707939269",
+      "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+      "files": {
+        "R807-exact-V4-M6-index-692-from-kernel.json.gz": {
+          "file": "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+          "bytes": 690799,
+          "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
+        },
+        "R807-original-nonzero-pole-clearing-theta.json.gz": {
+          "file": "R807-original-nonzero-pole-clearing-theta.json.gz",
+          "bytes": 2464,
+          "sha256": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 472,
+          "sha256": "f704d0d4db1f741088c42d2f1844fd3b06e1212b3c003a7a8057002db7825dce"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 350485,
+          "sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5"
+        },
+        "p41-original-M6-pole-clearing-certificate.json": {
+          "file": "p41-original-M6-pole-clearing-certificate.json",
+          "bytes": 12202,
+          "sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 6431,
+          "sha256": "e53ed8fbb2cbd8d5c5a157933b9c7cc8e3b10ffdc4ca5ce1efab6c29ea7fd5c6"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 678,
+          "sha256": "e282351c8d0affc5fbb7ef9f0ce5251fcfd92234d402c287cd5441590f1b32ef"
+        }
+      },
+      "stage_result_location": "configuration"
+    }
+  },
+  "inputs": {
+    "fibre_certificate": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz",
+      "bytes": 20627,
+      "sha256": "a504f127520d83704fd651634aa587e65cb2df71b349b7f1f8385ecc7726a9e0"
+    },
+    "source_functions": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-source-functions.json.gz",
+      "bytes": 3079120,
+      "sha256": "d3f79bfb7e8119787014ecd80cb0bccd8f10caf9d93353dfe7cc85592c65361c"
+    },
+    "correspondence_algebra": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-correspondence-algebra.json.gz",
+      "bytes": 209840,
+      "sha256": "8ad29e2dad0f992f386dcf9a0708db78dc0fd8cec073b275fe28749c95b70443"
+    },
+    "target_normal_index": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-target-normal-row-index.json.gz",
+      "bytes": 21134,
+      "sha256": "10d53f7c4daa54a2a6a6a3d25a1de04997db2f4214800104b9cc0c2a5511a3e3"
+    },
+    "full_target_equations": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-full-target-normal-equations.json.gz",
+      "bytes": 20318,
+      "sha256": "b27c6019d1bfa495640fac18f12a4e81f2cc3f6bbd0d558bceb66982d4f8e40f"
+    },
+    "original_W": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz",
+      "bytes": 763994,
+      "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+    },
+    "original_place": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "bytes": 4261,
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    },
+    "original_Krylov": {
+      "source_group": "R827",
+      "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
+      "bytes": 1114714,
+      "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703"
+    },
+    "original_Gamma": {
+      "source_group": "R827",
+      "file": "R827-target-Gamma-tau-polynomial-index.json.gz",
+      "bytes": 3360,
+      "sha256": "275948210bff93db1f007e119955ba824c18cbf9f1451bb98569f4b99a751cc7"
+    },
+    "operator_identity": {
+      "source_group": "R827",
+      "file": "R827-complete-short-operator-identities-and-sigma-transport.json.gz",
+      "bytes": 2479,
+      "sha256": "8aebc342bd263a00f306de6b2b6fc1775a7a246cf06622152e7d5c9edd5410a6"
+    },
+    "seventeen_coordinates": {
+      "source_group": "R882",
+      "file": "R882-common-place-seventeen-coordinates.json.gz",
+      "bytes": 173770,
+      "sha256": "5c79985f7f004633e8bae857c2d23c880739934555a9c85946871543387058ea"
+    },
+    "same_place_interface": {
+      "source_group": "R882",
+      "file": "R882-common-place-same-place-correspondence-coefficients.json.gz",
+      "bytes": 4961,
+      "sha256": "2c802016ad29e9f15d0c01f66d7217413878a2543a5b3f8a56e0ae5c979837fa"
+    },
+    "correspondence_DAG": {
+      "source_group": "R873",
+      "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+      "bytes": 32165,
+      "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
+    },
+    "theta": {
+      "source_group": "R807",
+      "file": "R807-original-nonzero-pole-clearing-theta.json.gz",
+      "bytes": 2464,
+      "sha256": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970"
+    },
+    "E6_clearing": {
+      "source_group": "R807",
+      "file": "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+      "bytes": 690799,
+      "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
+    },
+    "Gamma_blocks": [
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-000.json.gz",
+        "bytes": 81197,
+        "sha256": "b613443ea5a5624a9ac3b9b49f4f718e5e538dcb32991a0c37ac840668e7fd5e"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-016.json.gz",
+        "bytes": 79857,
+        "sha256": "3aa2a6538a68bc93a04063604d660efb35c777517c828181c6d0deb585ec3f5f"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-032.json.gz",
+        "bytes": 79899,
+        "sha256": "c0b66186231eccb1e5e81d99fb353983511b09d40a139a51890c3b52aa37cc62"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-048.json.gz",
+        "bytes": 79767,
+        "sha256": "4181a3145f2e83f35021fb36f685b344522a3914639236789c49107220b8c3d7"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-064.json.gz",
+        "bytes": 79875,
+        "sha256": "9633996b7417a8597349207c3fe006baccd4d17ff81c92652d7fe743860c04d2"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-080.json.gz",
+        "bytes": 79799,
+        "sha256": "c82491b9d90ad6f91e54ff1c59b3ea5a8ca7e35094db187ac99e50604947da07"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-096.json.gz",
+        "bytes": 79774,
+        "sha256": "5f145bbf0bf2e448699f48a0c393afa8d0772cdf835a954d80880c33a2119239"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-112.json.gz",
+        "bytes": 79823,
+        "sha256": "4fe5ec1e5c08566a39264bc691a527b0bd6c5bf592654fe66118d761dabdc46b"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-128.json.gz",
+        "bytes": 79895,
+        "sha256": "d6bc7caf4a33e1321c6b534c983022a8f33c9ffebf5a97a063cb2881987640d9"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-144.json.gz",
+        "bytes": 59609,
+        "sha256": "888d3a3e55a2f3de2e88bac575a33177aa2abe97ab74fc2a61e2e1d369d36a6c"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-160.json.gz",
+        "bytes": 58136,
+        "sha256": "57a0ff0d7716bfcbacf9ab0016299bfe67dc7e8c14cd909c3b44a044c8e7cb27"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-176.json.gz",
+        "bytes": 58197,
+        "sha256": "7531f9d15a0598260fa53e89d7a48d0e030a24105f0663cf08fcb1ad1747c114"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-192.json.gz",
+        "bytes": 58257,
+        "sha256": "469a10e0f45c59de10c7b7d13fee0caf7d1c816b0e101017dfb2b9c7f127b0f6"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-208.json.gz",
+        "bytes": 58142,
+        "sha256": "8256880dad259ef34c377d56f60997bc3381f6472a54aafa1a02ae9565fff41a"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-224.json.gz",
+        "bytes": 58176,
+        "sha256": "725ad5933090d493236cb99418bc47ba4e281aaa5aeb306898ead1063b5129fc"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-240.json.gz",
+        "bytes": 58119,
+        "sha256": "b32b2f3a0249523ffffe63391a7b548e828b579bb24763f234083e066479cd32"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-Gamma-tau-rows-256.json.gz",
+        "bytes": 58181,
+        "sha256": "ac16d616b8d4e5860ce55c351e05e67e6d68578fdee7395495595abfb431b244"
+      }
+    ],
+    "target_normal_blocks": [
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-000-016.json.gz",
+        "bytes": 186091,
+        "sha256": "5364be66533e04119cefffa0751ab356c2fd7ff251f8f66bb2cc8adc070946f7"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-016-032.json.gz",
+        "bytes": 196938,
+        "sha256": "fe792aaaa0d1bb357d04950ce9c9e20d81999dfb52c293280f08db9c070076d3"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-032-048.json.gz",
+        "bytes": 197004,
+        "sha256": "ac4b9a98a35e3f2d86df553d4222efcd057019941ae38206493a7382fb48202d"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-048-064.json.gz",
+        "bytes": 196930,
+        "sha256": "3fa4ba3b4cad321b249229931a22e7d9ca6b48e6b57159f1d9a70d90db784e9b"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-064-080.json.gz",
+        "bytes": 197017,
+        "sha256": "ea0f44967050d9755d7fd86192ff89d28dafb6e6599fc335d1d5a1182d27bc28"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-080-096.json.gz",
+        "bytes": 197005,
+        "sha256": "9ebeaf6f9f51d45813543381ee2bb5b4f64c17cd9dd7eceb33f4f97c12b7fba6"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-096-112.json.gz",
+        "bytes": 197060,
+        "sha256": "cf1530de0a8477af516567602e4a836bccc6ef91675f21c45a877951b0e2aaa3"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-112-128.json.gz",
+        "bytes": 196951,
+        "sha256": "a388e675d838172d09e14c75aa9aeab665e234eddfb538c0cf87db7f010e7617"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-128-144.json.gz",
+        "bytes": 196947,
+        "sha256": "65b265d965ed935209260d6e5ae6e4e869d883dd41f38883488fd91ec0c16133"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-144-160.json.gz",
+        "bytes": 196858,
+        "sha256": "acd3521f1261e96ecd736870565ba1cf4c8dd407acbf39ad0c23739b95b00345"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-160-176.json.gz",
+        "bytes": 196833,
+        "sha256": "83251ed1b701db664dd12604c7f20ec9e22c0b02cc40d60619b822353a419e39"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-176-192.json.gz",
+        "bytes": 196864,
+        "sha256": "a9da83065c4ef35ddc591309d078c28ea290dfbc2c4a823b07e13a0e31262561"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-192-208.json.gz",
+        "bytes": 196793,
+        "sha256": "c7033a53c27f39a600078bbf93cd19753b6b3a9f05de9a4d81d23e9517f57ba7"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-208-224.json.gz",
+        "bytes": 197009,
+        "sha256": "58eaa8f3cb36dc16cffe85620726f390aa97a5a27a2e940fda329a4c28c8cdec"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-224-240.json.gz",
+        "bytes": 196931,
+        "sha256": "b2035968f72b32e6e50b1d70fa597535590c91860aa2c530ca918d034b30afbb"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-240-256.json.gz",
+        "bytes": 196763,
+        "sha256": "a51c4b7d05cff5f33993364e44c134f96b6b1b4261983424efc5509affc5d3bf"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-256-272.json.gz",
+        "bytes": 196908,
+        "sha256": "02a60f5ecf8b9f3bf5b5b11317c6058cd29a5b48e4f37b9a6846ae254c42effc"
+      }
+    ]
+  },
+  "prepared_transports": {
+    "R807": {
+      "archive": {
+        "run_id": "43838586512",
+        "source_commit": "bef0523f8613e59ce770a418cebd79108a125f82",
+        "artifact_id": 14211447977,
+        "artifact_name": "serre-required-original-source-intake-43838586512-1",
+        "archive_bytes": 7864509,
+        "archive_sha256": "8e563fbf502b4c674dccdac2ef3fe4ceaa4207ef3cd6964a89a425e0a70c48ff",
+        "expected_conclusion": "success"
+      },
+      "package": {
+        "file": "R807-t-frame-intake-selected-original-sources.tar.gz",
+        "bytes": 1796873,
+        "sha256": "9651935f5ec01ff23c66db88f81b2f8aab464a2ef74d416457c1e571905600fb"
+      }
+    },
+    "R827": {
+      "archive": {
+        "run_id": "43854607823",
+        "source_commit": "ed3ed6bf901aa66b3b8668d24b2173e608d82b72",
+        "artifact_id": 14221081225,
+        "artifact_name": "serre-R880-six-Dstar-source-intake-43854607823-1",
+        "archive_bytes": 12926425,
+        "archive_sha256": "a333e11c9c99617d6c8f66c0e61cd47ae36009f57afacb14fdada74c67043b99",
+        "expected_conclusion": "success"
+      },
+      "package": {
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "bytes": 12876078,
+        "sha256": "f89b94019e6a8e567444e5b6326d449c9d21ea1c2878e3f1efa5a18b2d3e9766"
+      }
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "4e4b63ade989caa96748cd114385c9ea32e85f26"
+}

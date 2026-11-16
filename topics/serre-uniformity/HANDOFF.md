@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：4169d6a2aaa03b467feb9924050fdca3a566f0ff**（2026-11-16T15:52:20.323556+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[端点小核前H](handoff-archive-2026-11-16-before-endpoint-order-contract.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：4e4b63ade989caa96748cd114385c9ea32e85f26**（2026-11-16T15:54:48.286006+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[微分迹前H](handoff-archive-2026-11-16-before-original-differential-trace.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -29,15 +29,15 @@ R805–R883原W/两图/146/418/273jets、参考254P0铅笔、未缩放t首项；
 
 [R903两权RR](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)：同962像146/418→128/400，原256前缀+真144补，只新272最高列和旧19jets；Φ=QZ/qχ，无extra τ。五件已全文读：corebc3e9a53/wrapper97b91720；请求仍pending，须R901结束真实源。P1/下降/height未成。
 
-**[R905七连接认证](results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md)**：43893738459/133391640404/f4589d2b，87stage/48.831s；七z0完整272格、670源/544全主部/真543及全回代，同原单位子式给特征零表达式，char0数组未展开。全部分歧/交点/幂零保留；QN先校正再Gal7、Qj负χ幂一次、真cY运输五I_Z；原P0/P1与κν/polarization不改。FINAL24045a35/manifestb11afeda/art14238516346全pin见结果；canonical Hecke/period/nonp/height未成。
+**[R905七连接认证](results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md)**：43893738459/f4589d2b，七原z0全272单位格/670/544/543与全回代已成，特征零只给同子式准确表达式。QN先校正再Gal7、负χ幂/真cY/κν和两帧保留。FINAL24045a35/manifestb11afeda/art14238516346；完整pins沿结果及归档。R922正接原连接目标求值，非canonical/height。
 
 [R907九范数](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90，原128→真672，A272/E2176一次A[T]范数/19584坐标CH；NormΦ正乘/dual7不删。R901/R903仍null；R899已成待填。a0无旧全插值时只补四原节点；两图colon、P0/P1数值仍false。
 
-**[R914反射/P1认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：43898224893/133407590978/1b397d40，26stage/0.658301383s；143新准确RHS、81760原方程/C²，全146有理C、272×273原P1 jets已成。ρ1=ι*ρ0不换z−zP1，c1=−c0=645187085，t1只三项；原CM公共τ仅取消一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505及469原成员见结果。rules真pullbf30a01f2e26a906cb62f2b2482ae629019de42b/15:36:57UTC，两README无diff已读。
+**[R914反射/P1认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：43898224893/1b397d40，143新准确RHS/81760原方程/C²已成；全146有理C及272×273 P1 jets。ρ1=ι*ρ0，c1=−c0=645187085，t1只三项，CM公共τ一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505，469原件及完整pins见结果；rank8/九Norm/刚性帧未成。真pullbf30a01f/15:36:57UTC两README无diff已读。
 
 **[R917原两端八阶正规order契约](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)**：真实R914全146叶/273项已接；17列共同θ0²清分母为V10，保原P/a8与K/PU；Θ=ρ^hU首一仅损a阶。trace-radical及idealizer两个≤8未知核，四块0/1项、最低−2项整性/每步精度均明确；准确discrim4方可停，保全2+3+3幂零与det uρ^(28h−I)、原cε^(−m)。纸证/来源合同已成，consumer在写，新order/靶272/九NmΦ帧均未执行。
 
-[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)的九纤维Nm(q*Φ)detUj/detU0、原t/dual7、两端共用λ∈0..16继续保留。[R915原Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)：完整Artin λp=[U7]，Trh=λp(p′h)，原迹−a8^−1[U7](A_t∂zP modp)dz。真导数先于减纤维，ν/dual7/Nm帧及全部分母不删；R919只新九δP和8维迹行，原17块/PU逆/272靶值直接消费，执行源在写。
+[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)的九纤维Nm(q*Φ)detUj/detU0、原t/dual7、两端共用λ∈0..16继续保留。[R915原Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)：完整Artin λp=[U7]，Trh=λp(p′h)，原迹−a8^−1[U7](A_t∂zP modp)dz。真导数先于减纤维，ν/dual7/Nm帧及全部分母不删；[R919执行](notes/R919-original-whole-Artin-Hecke-differential-trace-method.md)五件已全文读并激活：core379083fd/wrapper0c5b7cc6，只有九δP、8维Euler行及全部272目标像新算；原17块/PU逆/73必要原件直接消费。δ在约化前作用，θ、a8、χT真实分母与全部幂零保留；实际结果待公开run，R905目标连接仍待R922。
 
 五Lj128/144、YP/FM128/634/508rank507、P1的c/a、eη活跃支持、d/N/nonp/Poincaré/splitting/height仍缺；I_Z不代real Rcal I_Z³。R870原16 ni/1959位d*与7-primary挠判只在合法好约化niPiξj非零时判活跃。
 
