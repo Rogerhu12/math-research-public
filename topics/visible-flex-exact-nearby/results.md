@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [CEB：同一真实帽修正的二次、四次积分包络](results/R133-supplement-whole-cap-envelope-from-completed-radial-weights.md)：已成整帽径向权给完整点态包络，精确J2/J4闭式支付97维body，左/右/mean/known/outer一次保留后whole选；仅解析规则，新数值待。
+
 - [OMA：两份旧演化报告实际元数据](results/R133-supplement-actual-immutable-old-evolution-report-metadata.md)：唯一43777745624/1、9steps成功；两完整恢复SHA/原complete=true、未认证与全域false保留，纯metadata科学0，尚未删除。
 
 - **RD 精确根首导与完整stable trace条件门**：[证明](results/R133-supplement-exact-leading-root-derivative-and-complete-stable-trace-gate.md)（34eec24f）。直接由真fold/原transport得T二阶及Da0−b全mean公式；normalized genuine Ai保非零shear给g_n>17/57。完整R0与正meanrank、J/所有低中间频保齐，whole e<g−才授原97 cutoff核零/同自然窗逆；实际J1/L0/乘子新值及此门待，fullincoming仍未付。
