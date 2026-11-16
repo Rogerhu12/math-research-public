@@ -1,0 +1,140 @@
+{
+  "format": "r150-zero-relative-five-streamed-unit-inputs-v1",
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "repository": "Rogerhu12/math-research-public",
+  "sources": [
+    {
+      "role": "originalProducer",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-exact-dual-789f.py",
+      "gitBlob": "07ed46be59cd57c93e6042a083e1a6d504313c85",
+      "bytes": 18914,
+      "sha256": "45b01f0206d7c74832e91602e40854728a7e376df860f2f6ad17f35b61084e4b"
+    },
+    {
+      "role": "exactUnitUtilities",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-unit-continuation-789f.py",
+      "gitBlob": "c83c11fe17e2c045f8a3089a637b81b12268a5e5",
+      "bytes": 25143,
+      "sha256": "313b09b432591d78eacb5aae393083995630e74df9c69d61cdfba6f9d9456b87"
+    },
+    {
+      "role": "completedStreamedConstruction",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-streamed-unit-789f.py",
+      "gitBlob": "3b96b8685d7285881e034ecf440e0847faf12c46",
+      "bytes": 22361,
+      "sha256": "05be680daf5e0a0eeaa67c771af25e51153a7a87ff590b03a574b86e6e893d9d"
+    },
+    {
+      "role": "independentFinalAudit",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-exact-final-audit-789f.py",
+      "gitBlob": "9ef666c34aa7eb9b2166cd2af409486cbfe9f962",
+      "bytes": 7158,
+      "sha256": "ba6697f545618fa5512140b5bfaeec1159b79d579917949600872bd43a08e452"
+    },
+    {
+      "role": "reproductionStopWrapper",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-dual-prefix-reproduction-789f.py",
+      "gitBlob": "cbdb9e6fbcfba94396604b4c215b3af749510e81",
+      "bytes": 4516,
+      "sha256": "716ba429bd1d4e0938785ae934c755ae96bac0ff35604befdcb66be344583657"
+    }
+  ],
+  "originalInputs": [
+    {
+      "role": "originalPhysicalGenerator",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    {
+      "role": "originalComovingActions",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+      "bytes": 10050,
+      "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+    },
+    {
+      "role": "completedOriginalTenthOuter",
+      "path": "topics/invariant-subspace-problem/notes/r150-infinity-remote-session-789f/43702348535-zero-complete-tenth-full-incoming.json",
+      "bytes": 93089,
+      "sha256": "0cbedfd59ef136dfdaba038101e86ab04e3e474dfb9b7da4f10116b432a4828f"
+    }
+  ],
+  "parameters": {
+    "chart": "zero",
+    "precision": 11,
+    "originalSourceRows": 6188,
+    "originalOutputCoordinates": 4367,
+    "sourceMultiplierDegreeAtMost": 3,
+    "searchOutputCoordinates": 230,
+    "searchSupport": "All pure and one-normal outputs; all constant quadratic normals; c^a z_i z_j with 1<=a<=3 and 2<=i<=j<=5.",
+    "positiveSearchOnly": true,
+    "fieldSelectionPrime": 127,
+    "finalArithmetic": "exact Q; actual 88-row unit and five right-hand sides; all original products checked",
+    "priorZeroRelativeDimension": 5,
+    "priorZeroTargetAnnihilator": "s^3",
+    "sourceBindingsSensitiveToExactBytes": true
+  },
+  "parentPrefix": {
+    "binding": "9131c2f4dd530684bbc9f8f7c9005c1365de72cb170492bbdc1073f2c6a53a8a",
+    "manifestBytes": 7555,
+    "manifestSHA256": "215d279bd8a145983ca0d1507cf9fa8c4be4d68139622436008dffc331aaa7c4",
+    "phaseCount": 24,
+    "phaseNames": [
+      "constant-profile",
+      "finite-field-row-profile",
+      "unit-solution-00",
+      "unit-solution-01",
+      "unit-solution-02",
+      "unit-solution-03",
+      "unit-solution-04",
+      "unit-solution-05",
+      "unit-solution-06",
+      "unit-solution-07",
+      "unit-solution-08",
+      "unit-solution-09",
+      "unit-solution-10",
+      "full-schur-00",
+      "full-schur-01",
+      "full-schur-02",
+      "full-schur-03",
+      "full-schur-04",
+      "full-schur-05",
+      "full-schur-06",
+      "full-schur-07",
+      "full-schur-08",
+      "full-schur-09",
+      "full-schur-10"
+    ],
+    "temporaryRoot": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/zero-relative-five-exact-dual/checkpoints",
+    "arrayStorage": "temporary only",
+    "reproduction": "Run the pinned original producer through the prefix-stop wrapper; stop only after its verified finite-field-row-profile has been saved; accept only the exact pinned manifest and every full file/payload hash."
+  },
+  "acceptanceGates": [
+    "All original physical Taylor identities match the completed original tenth ancestor.",
+    "All 24 parent files, complete decompressed payloads, all rational entries and complete logical matrix hashes match.",
+    "Exact rational unit products and all selected original finite equations hold.",
+    "All 6188 original source rows vanish at all eleven coefficients for each of five duals.",
+    "All 27 original targets and all eighteen positive shifts are retained.",
+    "Pairing rank five is interpreted using the separately proved full zero-relative dimension five.",
+    "All original target-action products and higher shifted-target readouts are checked.",
+    "The final independent audit rebuilds the original coefficients and repeats all original products."
+  ],
+  "budgets": {
+    "prefixReproduction": {
+      "seconds": 600,
+      "memoryMiB": 4096
+    },
+    "streamedConstruction": {
+      "seconds": 600,
+      "memoryMiB": 2048
+    },
+    "independentFinalAudit": {
+      "noNewUnitSolve": true
+    }
+  },
+  "storage": {
+    "newMathematicalArraysOrOutputJSONInRepository": false,
+    "publishOnlySourceParametersExecutionIdentitiesAndHashes": true
+  }
+}

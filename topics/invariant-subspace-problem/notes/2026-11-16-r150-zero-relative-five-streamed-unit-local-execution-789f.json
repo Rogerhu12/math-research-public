@@ -1,0 +1,117 @@
+{
+  "format": "r150-local-execution-identity-v1",
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "status": "completed",
+  "runIdentity": "local-zero-relative-five-streamed-unit-20261116T062524Z",
+  "startedUTCObserved": "2026-11-16T06:25:24Z",
+  "completionObservedUTC": "2026-11-16T06:26:24Z",
+  "workingDirectory": "/tmp/literature_root2_789f",
+  "pythonExecutable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "pythonVersion": "3.12.14",
+  "environment": {
+    "PYTHONPATH": "/tmp/literature_root2_789f/python-deps"
+  },
+  "pythonFlintVersion": "0.9.0",
+  "source": {
+    "role": "completedStreamedConstruction",
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-streamed-unit-789f.py",
+    "gitBlob": "3b96b8685d7285881e034ecf440e0847faf12c46",
+    "bytes": 22361,
+    "sha256": "05be680daf5e0a0eeaa67c771af25e51153a7a87ff590b03a574b86e6e893d9d"
+  },
+  "argv": [
+    "--parent-source",
+    "/tmp/literature_root2_789f/scripts/2026-11-16-r150-zero-relative-five-exact-dual-789f.py",
+    "--parent-checkpoints",
+    "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/zero-relative-five-exact-dual/checkpoints",
+    "--unit-utilities",
+    "/tmp/literature_root2_789f/scripts/2026-11-16-r150-zero-relative-five-unit-continuation-789f.py",
+    "--generator",
+    "/tmp/literature_root2_789f/zero-first-generator-paid.py",
+    "--actions",
+    "/tmp/literature_root2_789f/zero-actions17-paid.py",
+    "--original-tenth-receipt",
+    "/tmp/literature_root2_789f/tenth-zero-paid-outer.json",
+    "--out",
+    "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/zero-relative-five-streamed-unit",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "2048"
+  ],
+  "semanticBinding": "f50f05947ab0a71758683fe1355b5c9f4b1cd471f321eea10374aba9c36891f0",
+  "exitCode": 0,
+  "mathematicalElapsedSeconds": 50.59026330099732,
+  "peakResidentKiB": 110984,
+  "temporaryOutputs": {
+    "rawReceipt": {
+      "path": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/zero-relative-five-streamed-unit/zero-relative-five-streamed-unit-receipt.json",
+      "bytes": 11305,
+      "sha256": "a3c4537b55021529b2e96cde3e04e56fda2218b5d8c04968bc81a38984e7f8ac"
+    },
+    "log": {
+      "path": "/tmp/literature_root2_789f/logs/zero-relative-five-streamed-unit-local.log",
+      "bytes": 12897,
+      "sha256": "608237317ce77071d7bf3bcf258adfc4fafefa83fb574faa5d88a43216f6284e"
+    },
+    "checkpointManifest": {
+      "bytes": 4329,
+      "sha256": "9bfb317570971b2bd45e7f0925a2d6657653ec2f2fe0b95d1b75d92269ec9758"
+    },
+    "completePhase": {
+      "bytes": 60748,
+      "sha256": "4b349f4c52ac606f240daa227c8df1447ee5ea10bab32e85000ffe1a6a3f2ed0",
+      "payloadBytes": 141292,
+      "payloadSHA256": "f94220940de710f536e53187a51a86b938cddc8cbe356c8e8ce20c71ec58430f"
+    }
+  },
+  "independentAudit": {
+    "source": {
+      "role": "independentFinalAudit",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-relative-five-exact-final-audit-789f.py",
+      "gitBlob": "9ef666c34aa7eb9b2166cd2af409486cbfe9f962",
+      "bytes": 7158,
+      "sha256": "ba6697f545618fa5512140b5bfaeec1159b79d579917949600872bd43a08e452"
+    },
+    "exitCode": 0,
+    "elapsedSeconds": 11.0510651959994,
+    "peakResidentKiB": 37436,
+    "temporaryReceipt": {
+      "path": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/zero-relative-five-streamed-unit/independent-final-audit.json",
+      "bytes": 926,
+      "sha256": "1ca5bcbc67dccd9243b3dc6f5e173697770e5532c55b2fc7628953174afbd0c1"
+    }
+  },
+  "ancestorAttempts": [
+    {
+      "role": "originalProducer",
+      "startedUTCObserved": "2026-11-16T06:01:11Z",
+      "exitCode": 137,
+      "finalMathematicalCompletionClaimed": false,
+      "savedVerifiedPrefixManifestSHA256": "215d279bd8a145983ca0d1507cf9fa8c4be4d68139622436008dffc331aaa7c4"
+    },
+    {
+      "role": "wholeJSONUnitContinuation",
+      "startedUTCObserved": "2026-11-16T06:14:40Z",
+      "exitCode": 137,
+      "finalMathematicalCompletionClaimed": false,
+      "parentManifestUnchanged": true
+    }
+  ],
+  "prefixVerifier": {
+    "source": {
+      "role": "reproductionStopWrapper",
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-zero-dual-prefix-reproduction-789f.py",
+      "gitBlob": "cbdb9e6fbcfba94396604b4c215b3af749510e81",
+      "bytes": 4516,
+      "sha256": "716ba429bd1d4e0938785ae934c755ae96bac0ff35604befdcb66be344583657"
+    },
+    "mode": "verify-existing-immutable-prefix",
+    "exitCode": 0,
+    "elapsedSeconds": 3.149136191001162,
+    "peakResidentKiB": 26948,
+    "newMathematicsExecuted": false
+  },
+  "formalResult": "topics/invariant-subspace-problem/results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md",
+  "newMathematicalArraysOrOutputJSONPublished": false
+}

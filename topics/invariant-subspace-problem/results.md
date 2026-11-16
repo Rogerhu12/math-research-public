@@ -144,3 +144,6 @@
 
 
 - **R150原完整临界商的10×57有限线性presentation（2026-11-16）：** [完整原source及双向同构证明](results/R150-appendix-complete-original-ten-generator-finite-critical-presentation.md)实际构五个10×10乘法代表、50原du/dw来源、100交换子来源、六完整mean及Bell；真流式v3实34.887秒/峰值141968KiB，105774精确共享节点，保全部34原文件与参数。实际输出68列，十一G列按原二次source恒等严格落在50border列模内，故取57原列给coker≅原B1全临界商，全部u≤1；九字面路径证明循环及双向同构，无自由性/固定稳定步数假设。根通读源码并独核34双SHA、978引用及两组336完整source评值；数学证明仍为原常数身份的通用精确代入，未称展开全部巨大参数系数或判空。前两资源137保留。
+
+
+- **R150完整有理目标模块、不变因子与最少原三生成（2026-11-16）：** [原Q完整检测及CRT证明](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)保原17梯度/6188→4367和全部27目标移位，以五个实际Q cochain在11阶逐原源乘回340340坐标全零，并用已证零点长5给完整对偶。全部18正移秩2、二阶秩1，故零点分拆(3,1,1)；结合已证非零循环主部得全T不变因子(s,s,h*)，原t2,t3,t4是最少三生成。每一原tj单独给sT=Q[s]s[tj]，商恰(Q[s]/s)²。实际stream50.590秒、独立全源audit11.051秒；根另核5源/13phase/15逻辑矩阵及全部27动作，九条单Krylov各3、前三联合5。两次137未标成功，原24父检查点只读复用；只发布源码、参数和身份/SHA。此闭合只在Q[s]，不替代31整数基/源或全非rank-one。

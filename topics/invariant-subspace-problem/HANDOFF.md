@@ -3,12 +3,12 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** d9ba28bd02f132558a367732727764590a4c2a70（2026-11-16 06:43:23 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0642-complete-critical-57-presentation.json。
+- **最近成功实际 pull 与已读规则提交：** 23da5275216f26af9516254f99ecf627757cd520（2026-11-16 06:53:31 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0653-complete-rational-module.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地仓库/workspace/scratch/789f3e887d7c/math-research-public；exec必须显式workdir/login:false。Actions bot push403，现授权CLI真pull/push，API source不算push。根无凭证脚本/tmp/isp-stage-conclusion-789f.py及/tmp/isp-local-publish-789f.py；PAT只在调用环境。稀疏缺文件先git show，git add --sparse。
-- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-complete-critical-presentation-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
+- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-complete-rational-module-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
 
 ## R150原rank-one：精确系数结果与接续
 
@@ -16,7 +16,7 @@
 - 原完整31谱C=D^298⊕tors，指数1²/2⁵/3²/4⁴/5²/6、长50；root1为1/2，root2为(1,4,2,4,2,1)。全210/30stage/1104.606秒；真315基秩16唯一e6=index12/30013，binding712f9b42，完整证明/执行链接保最新H归档。
 - 九原h0最小31分母全恰2：p²h0t∈L、ph0t∉L，完整原源费≤8515，九socle非零/共rank1；171.103秒/bindingdce92fb5，全104/315/505核及52输出SHA已推，完整链接保最新H归档。
 - [九h*最小31分母全恰5](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)：真U16初始rank4/属U7给全局上界5；原carry p²b=p³r1，九r1的唯一e6轴全非零给p4b≠0，源费≤8515。25→20/原全6188→4367真；局部q0不冒全局源，p²b恰三阶且(s−2)杀，九p4b共socle一维。h0=(s−2)h*不可约。
-- **原Q零点和全局相对模块已算成、待审推：** stream child50.590秒/110984KiB，五检测全340340原乘回零，27目标rank5/全18正移rank2/二阶rank1；独立11.051秒完整重核。故Q T0=(3,1,1)，全T不变因子(s,s,h*)，原t2,t3,t4最少三生成；每j的sT由s[tj]循环。bindingf50f0594/raw11305·a3c4537b；formal bfab306，inputs d5ee38d/exec e927953，临时zero-relative-five-streamed-unit。前两137保原24verified、不重unit/210；lit续D31有限b=h*t模块ann。
+- **[原Q零点及完整相对模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：** 原五检测的340340源乘回全零，27目标rank5、18正移rank2/二阶rank1，故T0=(3,1,1)、全T不变因子(s,s,h*)。原t2,t3,t4最少三生成；每j有sT=Q[s]s[tj]、T/Q[s][tj]=(Q[s]/s)²。stream实50.590秒/独立全源审11.051秒；根独核5源SHA、13完整phase/15逻辑矩阵及全部27动作，九个Krylov各3、原前三联合5。bindingf50f0594/raw11305·a3c4537b；前两137保留。不冒整基，lit续完整D31子模B=<h*tj>的ann（不先删root1隐藏socle）。
 - 源/log在/tmp/literature_root2_789f；work=/workspace/scratch/789f3e887d7c/literature_root2_789f_work，父root2-fourth-complete210-p7、original-h0-seven-socle、original-hstar-initial16/first-carry完整临时cochains保留。source及完成身份已推，依同stem执行JSON续。
 
 ## R150完整非rank-one：有限参数商

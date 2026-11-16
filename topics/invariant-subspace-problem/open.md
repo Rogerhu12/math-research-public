@@ -32,7 +32,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## R150原rank-one模块的剩余问题
 
-- **zero相对T0的完整分拆。** 原zero P长61/free13，九目标生成的相对T0长5且s³杀，候选(3,2)/(3,1,1)。需要完整sT的十八列{s t_j,s²t_j}，不能只九列。旧left-jet小回执若只存哈希不还原不存在的数据；[原完整F31目标子模](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)现实得(3,1,1)、作用幂秩5,2,1,0；99 Krylov与原315双包含已核。此rank下降不能升Q下降，原Q两种分拆仍保留，继续原来源/系数提升。
+- **原Q零点及完整相对模块已闭，续整数来源。** [全部原检测与完整不变因子](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)用原6188×11×5精确源乘回及已证T0维5，得Q作用幂秩5,2,1,0、T0=(3,1,1)，全T≅Q[s]/s⊕Q[s]/s⊕Q[s]/h*。原t2,t3,t4为最少三生成；每j有sT=Q[s]s[tj]及循环商(Q[s]/s)²。这是独立Q证明，已关闭旧(3,2)/(3,1,1)二选，非从F31降秩外推。继续D=Z_(31)上完整B=<h*[tj]>的ann及整来源；monic h*允许Ann_D[s](T_D)=h*Ann_D[s](B)，必须保完整系数扭子及可能root1隐藏socle，不能先只留root2。
 - **整体目标模块的整数来源。** [九原h0分母](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)全部恰2；[九原h*分母](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)现全部恰5，原全来源费≤8515，完整p²b=p³r1及唯一e6轴九列非零给任意来源次数的精确下界。h0=(s−2)h*不可约掉；九p4h*t同张一维socle，p²h*t恰三阶且被s−2杀。每个目标的最小31分母已闭，整个D[s]目标子模及其它乘子的精确结构仍可继续。
 - 已付全Q相对25/ann h*、h*W⊂L、全W已证member来源费8391、rank-one Bell8/整个𝔫⁸仅作用于原归一rank-one构造。唯一127系数扭子及九h*t整源不自动给整个W的同一整费用。上述范围和全部旧开放接口保归档。
 
@@ -52,7 +52,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **R150实际无平方32基及原常数降次映射（2026-11-16）：** [完整原块证明](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)保预先固定的全部u^ε、ε∈{0,1}⁵；degree2…6原完整输出15/35/70/126/210及全部来源在合法(127,d=100)实选原unit，det44/58/5/60/1，132652左右逆坐标真。每原E块以adj(U)/det(U)给固定常数精确降次，未称展开巨逆；同32基对全部参数及B=1有效。剩12梯度u次数≤2，NF只落16低次基，先付原source的12×16参数式；行的线性span不代完整ideal。实际0.376秒/raw1534·6ada56d4。
 
-- **R150原F31零点目标完整分拆(3,1,1)（2026-11-16）：** [完整99 Krylov证明](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)复用原315状态、九目标及真实J，KΞ=原targets/AK=KJ/CK=0和505自由观测全真。原minpoly=s¹¹q、q0=25，q(J)九列生成完整零点子模，维5/作用幂秩5,2,1,0，完整双包含及315乘回真；实际0.725秒/raw1983·5138d5c8。只F31分拆，Q的(3,2)/(3,1,1)仍两种，不能由field rank2升Q上界；续原h*系数分母及零点原来源判别。
+- **R150原F31零点目标完整分拆(3,1,1)（2026-11-16）：** [完整99 Krylov证明](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)复用原315状态、九目标及真实J，KΞ=原targets/AK=KJ/CK=0和505自由观测全真；原minpoly=s¹¹q、q0=25，q(J)九列生成维5、幂秩5,2,1,0的完整零点子模。此结论只属F31；Q分拆现已由独立原有理检测另行证明，见本页上方完整相对模块条目。
 
 - **R271正commutator因子与完整新源的整段占据行（2026-11-16）：** [完整自然域证明](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)给K=I+T*T−TT*为核外creation平方、0≤K≤hI；完整2×2逆只用(I+uK)⁻¹，其增益准确分成新位占据与正Schur余项。一个共同t支付[x,2x)全部实际新源的两项和≤Vsharp≤Δ_Q²，真实投影步差平方和亦≤Vsharp；固定物理压缩给Σ||E_yF_{y+1,t}||²≤Δ_Q²，原u及全部合法Q保持。可同参留两阶矩（30000常数），Vsharp→0；这是不同合法代表的完整行，未换成Σ||E_yu||²，真实返回继续。
 
