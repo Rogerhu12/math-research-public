@@ -390,3 +390,8 @@
 - R787原670完整断点由公开v23实读：manifest1261项/最新lift8c9052ec，真实外层exit124且core receipt缺失；旧76 lift仅压成保全身份的history。
 - 唯一IO分支严格限failure/124/null/无trueFINAL，wrapperdff10f45差异已全文读；原数学核93d3d72b、1372源/14支/300min不变，实际请求直接原artifact续670并dispatch一次。
 - 本push规则：公开Actions真实pull至dc85bc9751fcf568d5c3fd30391004e4279ab413（2026-11-16T15:31:29.244621+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:33 Asia/Taipei — serre-public-astra-20261115
+- R913 §2最小证明更正：几何自然对偶δ^D由Cartier配对得坐标与通常Lie同ζ²，Picard–Serre配到余切ζ层；明确区别于半线性惯性descent逆作用。
+- 原角色值/公式/两伴随结论不改；R916整模ann证明不依赖该旧措辞。R787真670续请求已推并受理，R914五件已全文读，正按原来源激活。
+- 本push规则：公开Actions真实pull至5b02d2b878ab91e1f5bad59316c246657ef209c4（2026-11-16T15:33:49.086437+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
