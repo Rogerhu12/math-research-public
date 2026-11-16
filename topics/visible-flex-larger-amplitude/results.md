@@ -61,3 +61,5 @@
 - [R569 — 同次literal cubic与准确quintic完整缺陷](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)：最终三件74959B；全部实际PPoly/augmented字、辅助C*分解和全Bernstein E0/E1/joint段条件Gram，物理角A²ρ²且rho_lower真675，旧f349未刊；真实完整caller R570另付。
 
 - [R575 — 完整cylindrical投影tail与无限alias缺陷](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)：三件59453B；同次R553/R521完整非仿射二阶、全部signed bins/两mean/无限alias、原全DFS正域才global；phase pullback与FFT形成边界明确，组件不冒R576完整注册。
+
+- [R537 — actual226完整源返回与科学必要正文超限](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)：source56393完整/361源，whole109972未返/1079诚实70，独立code1/1/1/quiet=true与removed=false，全部科学未返责任保；不借225推值/原因/速度，无新父。

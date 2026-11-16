@@ -61,3 +61,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:25 UTC /root — R575完整cylindrical投影尾项和无限混叠
 
 [R575](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)/[接口](notes/2026-11-16-same-evaluation-full-angle-projection-defect-interface.md)三件59453B独立完整刊；真实同次R553/R521全非仿射二阶付原π周期/全部signed bins/两mean的完整tail+无限alias界，原DFS全正全覆盖才global，phase只pullback原defect，FFT形成另付。无新科学门/实际caller/运行，R576注册另付；R569已9e93，226sciencewhole109972超90K诚实70/source完整，root唯一日志已读将R537单刊，H/open同步§4–6保。
+
+## 2026-11-16 14:29 UTC /root — R537实际226完整来源与科学正文超限
+
+[R537实际226](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)完整可见结论独立刊；source56393/6123全361源，whole109972/7416超90K仅1079/33a0诚实70/false，具体科学/错误未返。独立return1/rules1/science1、resource_stop/external null/owned quiet true、removed false，report success只运输；root两终态各一次，无raw存Git/借225推值/科学父。H更新226终态与237/238实际compute，open/索引同步§4–6原字。
