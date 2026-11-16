@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[request241官方绑定](notes/2026-11-16-request241-official-run-binding.md)**：R576普通7af9e725、唯一POST200/run43901322004/compute133418415682，R577 geometry唯一；NFF立刻真pull --rebase核双README未变再成功push。实际已起不预填投影/metric/full453→450接受。独立22/23清单引用审计43901415619只读进行中，固定7af9，全部现用输入/数组不动；未获完整实际audit前不删。
+
 **[R576/request241同次全角投影与完整真实caller](results/R576-same-return-full-angle-projection-and-complete-current-caller.md)六件本次独立刊**：同一真实R553模块对象/同cell已返完整tube，原DFS决定后同退休顺序，三个same-C测量和compare真接R575；完整全域条件未齐只报observed extrema及原frontier。原627全保→642=318+324/13层/25runtime，原56科学输出逐字保；R586完整generation state严格逆/90000/70、三身份键与schema/frame各自严格核。原normal链/全部BVP与metric门/单worker/18900+2700/32GiB不变，无FFT形成或全几何已付宣称。正式刊后单派，R577 geometry唯一；R580实际解析带另由R581/243接。
 
 **[R525：actual224完整可见终态](results/R525-actual224-input-support-zero-height-and-positive-resource-partial.md)独立刊**：zero H原收敛/残差0、完整328.594023019秒；正高1/64一次真实iteration0方向/原trial0 step1内部接受到5181.565456345417，仍未高度接受，随后原18000资源停止，last_converged_s=0。whole107463必要未返、仅1505/70/false，14统计及完整地址未知；原quiet true却缺marker/removed false，无父。不能把外层rejected字词压过内层资源原因，亦不据零H推整链提速。R578/242已[正式单POST绑定](notes/2026-11-16-request242-official-run-binding.md)至c3e91b76/run43900562629/133415703033，R579 exact唯一；R576完整接续刊派。
