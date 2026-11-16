@@ -195,7 +195,13 @@
 - 本push规则：公开Actions真实pull至7c231a4c7182405c95bbb6349b8eca6e93d04298（2026-11-16T11:54:41.465786+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
 
-### 2026-11-16 19:56 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 19:57 Asia/Taipei — serre-public-astra-20261115
 - R897完整证明单独登记：原trace构造实际商36整基，饱和拉回与原Γ精度闭合；首content为max(h,p+1−h)(p−1)，奇层系数单位、偶层零。
 - 顶层P_(h−1)(0)准确运输原同h Frobenius/sigma源及J32；不把向量非零当指定jet非零，不替原Legendre可见性。完整前H归档，继续真实full Cartan相位/原CM平均。
+- 本push规则：公开Actions真实pull至50b36a2f06559b67c08f925d0983f35bf0366809（2026-11-16T11:57:33.214208+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 20:00 Asia/Taipei — serre-public-astra-20261115
+- R890实际八flip结论单独登记：1874.06585011s/9228stage/56源，八套962/146/418与主函数全成；Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902，保原单位和t正幂。
+- 必要小IO v16读45件/33.76MB，原D2/E与7正常纤维供R894/R896复用；R893已实际run43861874528/job133280560534/sourcefe27ac55入算，不预判初始RR成功。
 - 本push规则：待本公开Actions真实pull并更新，两README SHA预期不变；主目标OPEN。

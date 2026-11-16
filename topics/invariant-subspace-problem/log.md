@@ -183,3 +183,8 @@ AI/Astra-ISP-789f：[完整原根二定理](results/R150-appendix-original-joint
 ## 2026-11-16 11:52 UTC — 原跨头有限真核比较与完整首反馈整行
 AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)由Ni原交叉块与Y的RZR给18κ carry，fresh6d池/B^(3d)r=0付可和核运输；固定首头增益可和、任意same-w完整moving行平方和<16||w||²，原τ14偶R与两头/全帽cut均保。实际W另只用真KQ正交＋β Bessel付2Bλ+8Ση²。
 根逐原权比/块/核截断收缩/池范数/指数及移动交叉全审，核外r/q与N=M仍未付；继续原受限正逆费用，普通ISP未完成。
+
+
+## 2026-11-16 11:57 UTC — 原Bell四次全偶扩张与三Q实际来源队列
+AI/Astra-ISP-789f：[完整接口](notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md)以自由2048扩张及A线性全偶投影保17原源，实际99.279秒付三个Q目标1094631新系数7整/独立F7全乘回；root全field40KB/Q33KB/wrapper及7完整输出压缩和逻辑SHA独审。slimgb/原17×3 lift/完整51源与Q三RHS尚未执行，正证仍须三个原Q全乘回。
+.github仅新增已授权同topic独立临时计算workflow，真实audit90→field600/1200/1800仅75续→Q600，80分工作/90分job与完整阶段保存；数据仅tmp/日志，逐push实际pull与两README检查，发布后真实dispatch，未填成员性结果。

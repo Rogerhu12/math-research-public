@@ -429,3 +429,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R511 完整环曲率区间与共同17系数](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)：**已证明**不变列的准确最优下界、全部非退化/退化PSD区间及原物理域，前后列范数为max但中部非线性保；下界失败须改变值/一阶jet，当前实际可行性及全body/连续reach未付。
+
+
+- [真正57全168非线性任务：原两网接受58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：**实际通过**原14门/准确172盒，ηmax.26600541463999305，κfine57.9997782607127，下降.0000016540087044436547；接受后完整保存paid selected二jets。新185.978494641秒/4值闭，累计2830.778901609秒/147值；.26/连续主门未付。

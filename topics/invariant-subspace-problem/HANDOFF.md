@@ -3,36 +3,34 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** bba2997180b9d3add786119a43db4fdcb527524a（2026-11-16 11:53:18 UTC，Actions run43861641247实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43861641247-1.json。
+- **最近成功实际 pull 与已读规则提交：** 08684dc750ee0a17c50fa3494279a38cf30a3bc9（2026-11-16 11:57:58 UTC，临时研究session run43862258541实际pull --rebase，两README无差异；详见notes/r150-original-bell-fourth-even-execution-789f/）。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-cross-head-complete-first-row-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-bell-fourth-original-source-session-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
-- 旧四参数/pencil全成；旧Bell43832009393仅5–7完整，8/conditional未成、E未跑；原raw/binding及范围全保刚归档H。
 
-- 旧direct9 run43846433774三次std均75、E未跑；根三个raw/binding独核，无SSI终标，不重算权9正证。
 
-- **[原Bell立方严格负及完整权9来源核已闭](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)：** 全49368×(16442+3)输入7,023,209产品真核；本地94.895秒/exit0，在16372原行得到16047原子式det7=6，其中原source16046＋c0一列。Q/E来源秩恰16046，396 Koszul恰全Q核；原b³非成员、全部K≤11纯参数源排除，最小Bell1来源权≥12（若存在）。根全源/6416 raw/binding/304.5MB输入/99.17MB状态及16047完整pivot独核。增广全秩只称≥16047；续b4/原9×56来源，未关Bell1判空。
+- **[原Bell立方严格负已闭](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)：** 完整M9的Q/E来源秩16046，396 Koszul恰全Q核；实际模7原16047子式det6（source16046＋c0）排b³及全部K≤11。全部原输入/状态/来源根已独核，完整身份见正文；只称增广≥16047，不判Bell1空。
+
+- **[原Bell四次全偶入口已备](notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md)：** H=z²自由2048扩张/全偶A线性投影保17原源；本地99.279秒全三个Q四次分量各364877项、1094631新系数7整及独立F7三乘回全过。root审完整field/Q3RHS/整行分批unit及wrapper，raw5458/binding99564113和7输出全部压缩/逻辑SHA独核；尚无来源。新实际session依次audit90、slimgb/SSI小例→三个原目标17×3 lift的600/1200/1800仅75续、Q600；完整51源/三Q原乘回才可判b4，不造49.7GB密集M12。发布后实际dispatch，run身份由下一检查补，不预填执行结果。
 
 ## R150原rank-one精确系数接续
 
 - 原17梯度/6188来源/4367输出与degree23的h*保持；全Q相对T维25/ann h*、h*W⊂L、全W源费8391。Bell8/𝔫⁸仅原归一rank-one构造。唯一127扭子/九目标整源不外推全W，完整公式见归档。
-- [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)、全不变因子(s,s,h*)，原t2,t3,t4最少三生成。
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
 - **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 全225原列/真T16给饱和自由25，恰R/s⊕R/s⊕R/h；原t2前23列单位，可指定末项为原t2自由像。s在T可逆使两简单项真分裂，余E=S+Rt2。full210本地与独立p9/35远端全部数学字段一致，完整来源/身份见正文；S1及余扩张续算。
 
-- **[共同M根二长34／原全局八生成已闭](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)：** S2=(D/p²)^7⊕D/p4⊕(D/p5)^2⊕D/p6，dD11；xS2=(1,2,2,3)/长8，pxS2=(1,1,2)/长4，dR(S2)=dR(M)=8。50项父750.971秒30阶段；p12原611.718秒42阶段全成，末B漏xb闭包失败原件保留。只读2.946秒核133输出、六位/完整26D关系及x作用、18列B/九单型全过；根独立整数HNF1.671秒再核全部133输出、指数/两个Nakayama数，未重原solve。完整binding/源SHA/失败与完成身份见正文。S1仍0或p，总S长34或35；root1必须自有中心G/V，下一核两digits及实际扩张，不把自由D分裂改成R分裂。
+- **[共同M根二长34／全局八生成已闭](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)：** S2=(2^7,4,5,5,6)/长34，xS2=(1,2,2,3)，pxS2=(1,1,2)，dR(S2)=dR(M)=8。真50项30阶段＋p12六位42阶段，末B漏xb失败独保，只读133输出/18列B及九单/全D关系与x作用核合；根另用整数HNF和全部133输出复核。完整来源/失败与完成身份见正文，未重原solve。root1自有中心G/V两位新运行已退出0，待独审后更新总S长34/35；余R/h扩张保持。
 
 ## R150完整非rank-one及Bell1
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- 原rank3关联概形X≅V(I4M)及六次pencil已付，所有非零μ下rank≥4；rank5保核点，rank4保整P1。原rank4代数自由35，X degree20、h(O)=(1,0,10)、ω=O(2,0)、u²6/uv15/v²20、K²24，原证明见归档。
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
 
 - **[原自然幂与纯参数幂精确对应](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** A[t]/(J,b−t³)=C⊕Ct⊕Ct²，故t^K∈I当且仅当b^floor(K/3)∈J；ρ_r逐原来源无除法提取，最小Bell1来源权恰3q0。已付F127全M/T秩388/391使d100下(1,100,94)平方非零，E/三个嵌入亦已付，原K≤8下界现由新立方负证加强至K≤11；下一从权12/原商表示继续。完整18恒等足正证，有限域正证仍需特征零原乘回。

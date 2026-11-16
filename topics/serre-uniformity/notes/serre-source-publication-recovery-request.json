@@ -2,44 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1156-original-quotient-basis-and-same-label-Gauss-source",
-  "commit_message": "serre: prove original quotient theta basis and same-label Gauss source",
-  "rules_last_read_commit": "7c231a4c7182405c95bbb6349b8eca6e93d04298",
+  "request_id": "20261116-1200-certified-original-Ef-eight-flip-and-marked-frame",
+  "commit_message": "serre: certify original Ef bounded representative and marked t leading term",
+  "rules_last_read_commit": "50b36a2f06559b67c08f925d0983f35bf0366809",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "754fd4bba4dad91d501a111c6092c60848295c4976dbf784282bfe12d7a4177f",
+  "expected_previous_request_sha256": "1ded447d711dd761ef2d6f5e5acb8a44f8ab14a8bd5a83dab0f18b9e37a001f9",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md",
-      "sha256": "9155d9043a3dc015ff6807d143d22f03a4d6e9d97b19da771686cd3e877660bf",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-quotient-Gauss-source.md",
-      "sha256": "45f5ca1f4c4b338f8f9dce1ab981658c879326cd12de8985622d38e21ed68701",
+      "path": "topics/serre-uniformity/results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md",
+      "sha256": "cbbc5192c1f950482619cced1a8ac26f22510f01c6f463016009c9ca1cb5d423",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "d2c3dd85f850a8290bb4a4994d18b82810aaef757a1ab63715d97bf2b6835a5c",
-      "expected_previous_sha256": "45f5ca1f4c4b338f8f9dce1ab981658c879326cd12de8985622d38e21ed68701"
+      "sha256": "5d475d010afce2847de3d56d7780579d0bacb5174068445ba0475e600757d209",
+      "expected_previous_sha256": "9218eaecde072f801239b1026a83a4e753a2d88e9ed89ea2076d4bbb458237c2"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "281337cb413f6cecd325a592d1d2bd2de3a3b4fdd564a0fbbd4256c362a454fa",
-      "expected_previous_sha256": "a1d3fbc721d89efcad6967b3b644f0ba241eb737731765c835412d96372be203"
+      "sha256": "cf4843323690ae37732eadd59c4bd603441652ba79b19e369da9769b16eb7c20",
+      "expected_previous_sha256": "281337cb413f6cecd325a592d1d2bd2de3a3b4fdd564a0fbbd4256c362a454fa"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "b90a8378f6e7c56cf8d52a64810c991ec603d520887a9f952d2dee3787c28ec4",
-      "expected_previous_sha256": "0c87f119fa7eea079374fccf566b7591065345ab03276a0ba1a000f54707c0b4"
+      "sha256": "40916df0bdf63e4cb1625fda0294ff17b1ddd071b3b410720ea1d6d9fa06881e",
+      "expected_previous_sha256": "b90a8378f6e7c56cf8d52a64810c991ec603d520887a9f952d2dee3787c28ec4"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "6622c4137a870994380f8eeb72ed333a50c383f964cb9737bb5c6b65c78a71c0",
-      "expected_previous_sha256": "27a46b933d23c778d8d90a36dbb01ac7b77ecb8202c9a4a711172853a1a78c4c"
+      "sha256": "ce736a92d61f1749f814c1f2f695613bd39fca586515df2e8359867f4ef746db",
+      "expected_previous_sha256": "6322f5c39977620169cea1df8b3863a96c5e88deee66608126a0d3c56b3ee40e"
     }
   ],
   "dispatch_workflows": []

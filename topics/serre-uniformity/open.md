@@ -15,6 +15,8 @@
 
 **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。
 
+**R890原Ef有界代表与固定t首项实际已成**：[认证](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)，八个完整962/146/418与原未缩放q/F全成。Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902、阶−1205；t正乘c^1205。56旧源/9228stage、run43853462674；R894复用D2/E而只新16节点，R896按共同节点复用7正常评价，不推其他六Ef或五Lj/height。
+
 ## O1：主要目标（OPEN）
 
 证明绝对常数C，使所有无CM的E/Q、所有p>C的模p表示满射；或构造p→∞的完整反例族。等价的主要剩余情形是完整非分裂Cartan正规化子，不再以已由Furio–Lombardo排除的指数3子群为主目标。单p、有限层、条件结果与导子下界均不满足完成标准。

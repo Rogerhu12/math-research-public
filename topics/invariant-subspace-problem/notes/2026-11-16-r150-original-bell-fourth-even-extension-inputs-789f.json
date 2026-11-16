@@ -1,0 +1,154 @@
+{
+  "format": "r150-original-bell-fourth-even-extension-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "topicRoot": "topics/invariant-subspace-problem/",
+  "observedRulesReadCommit": "7ba35e365e3314af5f96bcdf3cc34172141103d0",
+  "sources": [
+    {
+      "role": "evenExtensionField",
+      "path": "notes/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
+      "blob": "d48dfa5f28f6095241ef241efc589378c25d3c44",
+      "bytes": 40008,
+      "sha256": "a07425b29d36c685a7165436ae3acb51d633d159ccc7864294c21e9c92a580d2"
+    },
+    {
+      "role": "exactQThreeRHS",
+      "path": "notes/2026-11-16-r150-original-bell-fourth-three-q-exact-source-789f.py",
+      "blob": "8830b4c336f25eb86732cad5f72d2da3efc37bfd",
+      "bytes": 33613,
+      "sha256": "52eaf0382faa9ab6f6309b541f55ab290eae45a770f468f6dc31c3c309893172"
+    },
+    {
+      "role": "prime7Audit",
+      "path": "notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+      "blob": "859a1b723e3c4566d7c271d999832441e947bb8b",
+      "bytes": 8329,
+      "sha256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e"
+    },
+    {
+      "role": "rationalCubeProducer",
+      "path": "notes/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+      "blob": "77ab9bae3d7c94d54f9a8cc1d56c99a40623a098",
+      "bytes": 26381,
+      "sha256": "213c10f680c5325e62b5245b0796062b5024c1499e9d1d68346ad65868d120dd"
+    },
+    {
+      "role": "originalModel",
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "role": "physicalHelper",
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "mathematicalParameters": {
+    "prime": 7,
+    "originalVariables": 17,
+    "originalGradients": 17,
+    "coefficientBasis": [
+      "1",
+      "d",
+      "d^2"
+    ],
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "originalWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "originalSourceWeights": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "originalBellPower": 4,
+    "originalTargetWeight": 12,
+    "extension": "H_i=z_i^2 for all eleven original Hankel variables",
+    "finiteFreeExtensionRank": 2048,
+    "originalTargets": "all three rational coefficients of the original matched Bell fourth power",
+    "nativeCandidateRing": "F7[y0,...,y5,z0,...,z10], dp, all weights1",
+    "candidateAlgorithm": "slimgb with degBound12; no completeness or negative claim",
+    "sourceAlgorithm": "lift(Original,Targets,Units,\"slimgb\") with degBound0; require Units=I3",
+    "positiveFieldGate": "all seventeen-by-three literal source coefficients, three original extended products, and all three original H products after even homogeneous projection",
+    "positiveCharacteristicZeroGate": "actual original Q unit and three RHS followed by all three full original rational polynomial products"
+  },
+  "paidInputIdentity": {
+    "auditBinding": "4baed1013b72717e2773607c308a3f534b029c92f35592dcb6c5ff1025587339",
+    "auditModelLogicalSHA256": "df9fb9657926a52a4c3c1a895a0ba5aa34f2d5f537d747d7f07e00d42f81bdfa",
+    "howRecovered": "Execute the pinned audit from the three small pinned original sources. No historical mathematical arrays or remote assets."
+  },
+  "resourceParameters": {
+    "fieldAttemptSeconds": [
+      600,
+      1200,
+      1800
+    ],
+    "fieldMemoryMiB": 4096,
+    "exactSeconds": 600,
+    "exactMemoryMiB": 4096,
+    "maxCandidateUnionSupport": 3072,
+    "maxExactUnitOrder": 512,
+    "profileBatchOriginalRows": 256,
+    "candidateFailure": "A nonzero discovery remainder or a budget exit is diagnostic only.",
+    "exactSectionFailure": "Only the current selected source section failed; another section on the same support or a larger support may still lift."
+  },
+  "persistence": {
+    "temporaryOnly": [
+      "all rational targets",
+      "all field polynomials",
+      "all SSI data",
+      "all source matrices",
+      "all residual polynomials",
+      "all Q solutions"
+    ],
+    "repositoryAllowed": [
+      "source files",
+      "parameters",
+      "proofs",
+      "execution identifiers",
+      "output byte counts and SHA256"
+    ],
+    "mathematicalArraysInRepository": false,
+    "releaseAssets": false
+  }
+}
