@@ -30,7 +30,7 @@
 
 ## 完整历史与恢复
 
-压缩前全文保[2e85e46c时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/2e85e46cf5771a4764d1ac15a25da806e3e1f36d/topics/visible-flex-larger-amplitude/HANDOFF.md)，其c09a/02320/a8b/6643/368e6a6f/262990/2ae/e3ab/6c2935/0d825/894cd/717728/258da/dfa/f863/abeed内链逐字保全部更早参数/词/失败/来源/预算/清理。当前摘要不撤责任。完整结论见[results](results.md)，真实源/CLI见对应notes接口；open各节另保固定head历史，§4–6不改。
+压缩前全文保[bfe02a52时HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/bfe02a5249db7c01665fef163034d436d66ebdbd/topics/visible-flex-larger-amplitude/HANDOFF.md)，其c09a/02320/a8b/6643/368e6a6f/262990/2ae/e3ab/6c2935/0d825/894cd/717728/258da/dfa/f863/abeed内链逐字保全部更早参数/词/失败/来源/预算/清理。当前摘要不撤责任。完整结论见[results](results.md)，真实源/CLI见对应notes接口；open各节另保固定head历史，§4–6不改。
 
 07:19执行环境失联；未推R469原54798ff4及R493/R497已按原文恢复，R495/R496/live128按已刊源完成。丢失现场只依原生成源和真实输入重做，不能从已删raw的SHA造正文或accepted父。现每结论用公开Actions真部分克隆/pull/双README核/普通push。
 
@@ -41,14 +41,14 @@
 - **217七件4a08，完整接口34979/5c25。** runner3c56/readerc64e/composerea0b/plan68c2/requestdbb6/wfe361；真222/2d1c底座458＋7public＋8gen=473。首shared后同钟一次1440/six/cut及level0，原accepted level1/2在同一C测/比；新head384/abs128/rel112/value32/querydepth16，1800含cut120/close30、metric240/measure300/compare120与终测900裁原18900+2700。全场/材料/六jet/Loewner/全t和217→222→220九scope清理保；upper改善不冒真误差下降，217查自身workflow。
 - **221/R508六件8b352。** outer6f21/reader6871/request0fa9/wf8384/接口5c0f，336pin含原14科学源不变。只修219漏e/pid作用域/cleanup shell；真63prefix/96/port、91仅尾初猜、原19200/350–320min/全部128/FD/fullDN保，owned不可读/身份变仍unknown禁读删，单90K/再quiet保。
 - **223/R512来源修复已a8b，绑定2c80518f。** R512476f formatterf793仅五表名/索引；gen1368/plan6d70/recipe3abc/request2d9d/wfc8ac/接口11937/9d45。实际035d整topic e2ad4053与wf bb517a60同字；原116身份/115recipe，新helper75639/eabd与worker29678/f847只Actions生成。原98fresh/8pair/39query/17档/FD/10500及175/195min/90K70/owner保；213末父已失不续。geometry/R513唯一、root日志0。
-- **R514 c09a/26256/e2bf；R515 02320/五件58602B；R516 72fb/16623/3f6b。** R514当前F的Frenet缺陷/六jet角长输运到Gram，原BC全M权与重构/目标/两mean/B/patch差额分责，无实际floor。R515每physical查询只共享原已形成finite dp，非finite原式/负零/全角/Csolve/338×112/576audit和四scalar保；新组件0a7f/CPPc036仅Actions，旧owner未改，无提速实证。R516给4四元数图×2分量/平移紧盒/双向整像/盒误差的δE≥γ条件定理；原active见证反转全齐，须真帽点，R20/R238仍保，无实际γ。
+- **R514 c09a、R515 02320、R516 72fb。** 完整条件证明/源见对应正文：六jet残差→Gram无实际floor；physical每call有限径向词共享保Csolve/全角/负零/全338；全E(3)八图/整像双向/平移盒给条件γ，原active反转全齐须真帽点。R20/R238仍保，无当前γ/接受/提速。
 
 ## 当前接续
 
 geometry继续217/R490、223/R513唯一终态。**R517已f436d669两件完整刊：source39936/0c69、接口21846/177c。** 只原c87b R425＋0ff1帽tuple；完整stored/decoded位置账与真cap有理成员、两向全target/8根闭DFS/原pending/单90K70保。只有API/caller callback，不自证deadline/owner，不写cleanup marker、不删raw；generated-M/新workflow未接，旧23a4草稿不用；R520由geometry接真实当前生成来源和原owner/deadline，不另开实验。准确C的结构C²已由R286/R300/R294/R409/R413/R416/R417原组成付，不重造R298 clip定理；实际accepted450/同场全输出仍未返。
 
-amplitude继续211/R475、215/R486、222/R511；**R518本次四件99187B完整刊**：generator17055/c694、plan48391/4f20、proof15739/8f88、接口18002/f4ea；336旧pin全保＋3public＋12generated=351，71literal接R515→组件/owner/system/QR/pipeline/worker/client/fullDN/R508 runner/reader。原request实际在computations；真派生全文SHA另计，221仅内部祖先号。真读R515 compiler binding并区分准备/实际进程；原19200/全部原门/quiet/单90K70保，未编译运行/不改221/无新request。
+amplitude继续211/R475、215/R486、222/R511；**R518已bfe02a52四件99187B完整刊**：generator17055/c694、plan48391/4f20、proof15739/8f88、接口18002/f4ea；336旧pin全保＋3public＋12generated=351，71literal接R515→组件/owner/system/QR/pipeline/worker/client/fullDN/R508 runner/reader。原request实际在computations；真派生全文SHA另计，221仅内部祖先号。真读R515 compiler binding并区分准备/实际进程；原19200/全部原门/quiet/单90K70保，未编译运行/不改221/无新request。
 
-exact继续216/R488、221/R509；R519在既有R459同一次evaluate/target上旁接R514的h/τ/两代数V支局部诊断。它们不冒原σ/worker误差，不额外扫域；非法域仅诊断未付、原Gram继续，无径向积分/BC锚/solver floor；尚未接R504/union。
+exact继续216/R488、221/R509；**R519本次五件74085B完整刊**：helper15385/f704、gen9950/4ebd、plan18003/e600、proof12851/9df3、接口17896/d4e2。原R459三族同次18jet/target给h/τ/两代数V参考，真实公共u的Ax/μ含Lnum因子；一69439/8159view只Actions。原Gram/DFS/globalnorm/series不消费诊断，局部未隔正仅诊断未付；保完整ledger身份/原pending/单90K/原钟，无径向积分/BC锚/原σ/RHS/floor，R504/union尚未注册，无新run。
 
 root唯一整合/发布，完整结论立即推再续open。最近官方容量13d359a0：topic tree8567a2acf5a42f7152c1f637eee72045a6f4e8c7，9322blobs/197337061B/9694entries，未截断；本次新增另计。旧41/54数组manifest有真实consumer，保留。95份旧H/open副本已13d359a0移除1991911B，全部原文准确保2e85历史，见notes/2026-11-16-historical-checkpoints-index.md；五MD六引用全改固定链接，非MD引用的一份及migration/legacy/R456保留。只读扫描范围无其余逐名/逐hash科学consumer，不冒任意动态全证。科学父/未分类旧JSON不泛删。

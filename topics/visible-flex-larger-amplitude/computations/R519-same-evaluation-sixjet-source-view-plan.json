@@ -1,0 +1,126 @@
+{
+  "schema": "R519-same-evaluation-sixjet-source-view-plan-v1",
+  "source_policy": "Literal source text only. No import, AST, compile, science, fixture or raw payload generation.",
+  "baseline": {
+    "file": "geometry_20261116_fixed_target_complete_metric_evidence.py",
+    "bytes": 62091,
+    "sha256": "494fea70b97404af2be8ef0f3d685fadc2f59c6a30ea3af771de98a56b868b05",
+    "published_commit": "1f8213c7bd64ed064f959eca10c0ab5d4c973a0c"
+  },
+  "helper": {
+    "file": "geometry_20261116_same_evaluation_sixjet_defects.py",
+    "bytes": 15385,
+    "sha256": "f70474b3857b3decc0542ae50b5c32b107532cc739e529e818ec7264dfe1f2b4",
+    "schema": "R519-same-evaluation-sixjet-local-defect-v1"
+  },
+  "output": {
+    "name": "geometry_20261116_same_evaluation_sixjet_metric_evidence.py",
+    "bytes": 69439,
+    "sha256": "8159e9f2e2d28fb31d27c719b54581d1db32b14935edefefec5b1730eda14781",
+    "schema": "R519-same-evaluation-sixjet-complete-relative-metric-evidence-v1"
+  },
+  "edits": [
+    {
+      "id": "module_scope",
+      "occurrences": 1,
+      "old": "\"\"\"R459 actual fixed-target, whole-closed-domain metric refinement evidence.",
+      "new": "\"\"\"R519 same-call six-jet diagnostics in the original whole-metric consumer."
+    },
+    {
+      "id": "schema",
+      "occurrences": 1,
+      "old": "SCHEMA = \"R459-same-accurate-closed-target-complete-relative-metric-evidence-v1\"",
+      "new": "SCHEMA = \"R519-same-evaluation-sixjet-complete-relative-metric-evidence-v1\""
+    },
+    {
+      "id": "helper_identity",
+      "occurrences": 1,
+      "old": "SUMMARY_LIMIT = 90000\n",
+      "new": "SUMMARY_LIMIT = 90000\nDIAGNOSTIC_NAME = \"geometry_20261116_same_evaluation_sixjet_defects.py\"\nDIAGNOSTIC_SHA = \"f70474b3857b3decc0542ae50b5c32b107532cc739e529e818ec7264dfe1f2b4\"\nDIAGNOSTIC_SCHEMA = \"R519-same-evaluation-sixjet-local-defect-v1\"\n"
+    },
+    {
+      "id": "new_explicit_input_flag",
+      "occurrences": 1,
+      "old": "                \"c_queries\", \"time_grid\", \"out\"}",
+      "new": "                \"c_queries\", \"time_grid\", \"out\", \"sixjet_diagnostic_enabled\"}"
+    },
+    {
+      "id": "flag_type_and_current_schema_message",
+      "occurrences": 1,
+      "old": "            \"Use the exact independently declared R459 measurement input\")\n    require(isinstance(data[\"label\"], str)",
+      "new": "            \"Use the exact independently declared R519 measurement input\")\n    require(type(data[\"sixjet_diagnostic_enabled\"]) is bool,\n            \"Explicitly enable or disable the same-evaluation optional diagnostic\")\n    require(isinstance(data[\"label\"], str)"
+    },
+    {
+      "id": "collector_initial_state",
+      "occurrences": 1,
+      "old": "        self.closed_complete = False\n",
+      "new": "        self.closed_complete = False\n        self.Diagnostic = self.diagnostic = None\n"
+    },
+    {
+      "id": "same_computations_helper_binding",
+      "occurrences": 1,
+      "old": "        self.Metric = metric; self.sources[family[\"file\"]] = sid\n",
+      "new": "        self.Metric = metric; self.sources[family[\"file\"]] = sid\n        self.Diagnostic, did = load_source(data[\"computations\"], DIAGNOSTIC_NAME, DIAGNOSTIC_SHA)\n        require(self.Diagnostic.SCHEMA == DIAGNOSTIC_SCHEMA,\n                \"The optional same-evaluation diagnostic source schema differs\")\n        self.sources[DIAGNOSTIC_NAME] = did\n        self.diagnostic = self.Diagnostic.Collector(data[\"sixjet_diagnostic_enabled\"])\n"
+    },
+    {
+      "id": "same_target_context_and_optional_observer",
+      "occurrences": 1,
+      "old": "    def target(self, piece, radial, angular, *, common_q=False):\n        M, Kernel = self.M, self.Kernel\n        if common_q:\n            phi = self.common.first_angle.derivatives(M, M.interval(*angular), 1)[1]\n            local = M.bounds(phi)\n            known = M.bounds(self.common.first_angle.global_derivative_interval(M))\n            theta = max(local[0], known[0]), min(local[1], known[1])\n            require(0 < theta[0] <= theta[1], \"The actual first material derivative bounds disagree\")\n        else:\n            value, _ = Kernel.angle_density(self.current.field, M, angular)\n            theta = M.bounds(value)\n        if piece[\"kind\"] == \"prefix\":\n            jets, radial_metric, target_record = self.current.target.closed_range(*radial)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record)\n            g11 = radial_metric.lo, radial_metric.hi\n            if common_q:\n                scale = self.common.numeric_length\n                g11 = multiply(g11, (scale*scale, scale*scale))\n            g22 = multiply(square((jets[0].lo, jets[0].hi)), square(theta))\n            return (g11, g22), dict(kind=\"complete_accurate_ten_public_u\", target=target_record)\n        require(piece[\"kind\"] in (\"native\", \"collar\"), \"Do not omit an unknown accurate active piece\")\n        bound = self.tail.bounds(*radial)\n        if bound is None:\n            return None, dict(reason=\"same_C_whole_closed_radial_target_unpaid\", radial=encode(radial))\n        lo, hi, rows = bound\n        return ((lo, hi), multiply(square(radial), square(theta))), dict(\n            kind=\"same_complete_C_radial\", radial=encode(radial), actual_query_rows=rows,\n            geometric_Bprime_not_substituted=True)\n\n",
+      "new": "    def target(self, piece, radial, angular, *, common_q=False):\n        M, Kernel = self.M, self.Kernel\n        if common_q:\n            phi = self.common.first_angle.derivatives(M, M.interval(*angular), 1)[1]\n            local = M.bounds(phi)\n            known = M.bounds(self.common.first_angle.global_derivative_interval(M))\n            theta = max(local[0], known[0]), min(local[1], known[1])\n            require(0 < theta[0] <= theta[1], \"The actual first material derivative bounds disagree\")\n        else:\n            value, _ = Kernel.angle_density(self.current.field, M, angular)\n            theta = M.bounds(value)\n        if piece[\"kind\"] == \"prefix\":\n            jets, radial_metric, target_record = self.current.target.closed_range(*radial)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record)\n            g11 = radial_metric.lo, radial_metric.hi\n            if common_q:\n                scale = self.common.numeric_length\n                g11 = multiply(g11, (scale*scale, scale*scale))\n            g22 = multiply(square((jets[0].lo, jets[0].hi)), square(theta))\n            record = dict(kind=\"complete_accurate_ten_public_u\", target=target_record)\n            if self.data[\"sixjet_diagnostic_enabled\"]:\n                record[\"same_evaluation_sixjet_target\"] = dict(\n                    schema=self.Diagnostic.CONTEXT_SCHEMA,\n                    coordinate=\"prefix_public_u\" if common_q else \"prefix_numeric_s\",\n                    radius=encode((jets[0].lo, jets[0].hi)),\n                    accurate_radius_first_derivative=encode((jets[1].lo, jets[1].hi)),\n                    radius_derivative_rule=\"accurate_a_s_times_positive_sqrt_g11\",\n                    radial_metric=encode(g11), angular_density=encode(theta),\n                    angular_map_independent_of_radial_coordinate=True,\n                    all_original_target_pieces_and_semantic_C_members_retained=True)\n            return (g11, g22), record\n        require(piece[\"kind\"] in (\"native\", \"collar\"), \"Do not omit an unknown accurate active piece\")\n        bound = self.tail.bounds(*radial)\n        if bound is None:\n            return None, dict(reason=\"same_C_whole_closed_radial_target_unpaid\", radial=encode(radial))\n        lo, hi, rows = bound\n        record = dict(kind=\"same_complete_C_radial\", radial=encode(radial), actual_query_rows=rows,\n            geometric_Bprime_not_substituted=True)\n        if self.data[\"sixjet_diagnostic_enabled\"]:\n            record[\"same_evaluation_sixjet_target\"] = dict(\n                schema=self.Diagnostic.CONTEXT_SCHEMA, coordinate=\"radial_r\",\n                radius=encode(radial), radius_derivative_rule=\"radial_identity\",\n                radial_metric=encode((lo, hi)), angular_density=encode(theta),\n                angular_map_independent_of_radial_coordinate=True,\n                all_original_target_pieces_and_semantic_C_members_retained=True)\n        return ((lo, hi), multiply(square(radial), square(theta))), record\n\n    def sixjet_observe(self, address, jets, target_record, journal):\n        if not self.data[\"sixjet_diagnostic_enabled\"]:\n            return dict(enabled=False, observation_started=False,\n                original_direct_Gram_unchanged=True)\n        index = self.diagnostic.start(address)\n        if jets is None:\n            report = dict(schema=DIAGNOSTIC_SCHEMA, original_target_unavailable=True,\n                angular_ratio_available=False, radial_angular_defect_available=False,\n                algebraic_reference_velocities_available=False,\n                unpaid=[dict(scope=\"same_evaluation\", reason=\"original_target_did_not_return\",\n                    original_reason=target_record.get(\"reason\"))],\n                extra_field_or_C_query_count=0, original_direct_Gram_not_replaced=True)\n        else:\n            try:\n                bounds = [[self.M.bounds(component) for component in row] for row in jets]\n                report = self.Diagnostic.diagnose(bounds,\n                    target_record[\"same_evaluation_sixjet_target\"], self.data[\"work\"][\"sqrt_bits\"])\n            except (ArithmeticError, ValueError, KeyError, TypeError) as error:\n                report = dict(schema=DIAGNOSTIC_SCHEMA,\n                    angular_ratio_available=False, radial_angular_defect_available=False,\n                    algebraic_reference_velocities_available=False,\n                    diagnostic_error=dict(type=type(error).__name__, message=str(error)),\n                    unpaid=[dict(scope=\"same_evaluation\", reason=\"optional_diagnostic_did_not_return\")],\n                    original_direct_Gram_not_replaced=True, no_original_scientific_failure_inferred=True)\n        # The original signal handler only sets a flag. Complete this observation\n        # and its metadata before the next original budget check. A hard kill\n        # still belongs to the outer real owner; no marker is invented.\n        journal.append(dict(type=\"same_evaluation_sixjet_diagnostic\",\n            observation_index=index, address=copy.deepcopy(address), result=report,\n            observation_not_original_cover_or_phase_transaction_completion=True))\n        self.diagnostic.complete(index, address, report)\n        return dict(enabled=True, observation_started=True, observation_index=index,\n            angular_ratio_available=report.get(\"angular_ratio_available\", False),\n            radial_angular_defect_available=report.get(\"radial_angular_defect_available\", False),\n            algebraic_reference_velocities_available=report.get(\"algebraic_reference_velocities_available\", False),\n            unpaid_scope_count=len(report.get(\"unpaid\", [])),\n            diagnostic_error=copy.deepcopy(report.get(\"diagnostic_error\")),\n            full_local_record_in_same_original_ledger=True,\n            original_direct_Gram_unchanged=True)\n\n"
+    },
+    {
+      "id": "same_base_evaluation_only",
+      "occurrences": 1,
+      "old": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        if target is None:\n            return dict(available=False, target=target_record)\n        values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n        X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n        E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n        result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n        result[\"target\"] = target_record\n        result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        return result\n\n",
+      "new": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        address = dict(kind=\"existing_closed_base_cell_evaluation\", cell=copy.deepcopy(cell))\n        if target is None:\n            diagnostic = self.sixjet_observe(address, None, target_record, self.cells)\n            return dict(available=False, target=target_record, same_evaluation_sixjet_diagnostic=diagnostic)\n        values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n        X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n        E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n        result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n        result[\"target\"] = target_record\n        result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        if self.data[\"sixjet_diagnostic_enabled\"]:\n            jets = tuple(tuple(value.d[k] for value in values) for k in range(6))\n            result[\"same_evaluation_sixjet_diagnostic\"] = self.sixjet_observe(\n                address, jets, target_record, self.cells)\n        return result\n\n"
+    },
+    {
+      "id": "same_phase_sixjets",
+      "occurrences": 1,
+      "old": "                        result[\"actual_common_material_sixjet_query\"] = self.common.encode_active_cell(values)\n",
+      "new": "                        if self.data[\"sixjet_diagnostic_enabled\"]:\n                            jets = None if target is None else tuple(\n                                values[\"six_jets\"][name] for name in (\"value\", \"u\", \"q\", \"uu\", \"uq\", \"qq\"))\n                            result[\"same_evaluation_sixjet_diagnostic\"] = self.sixjet_observe(\n                                dict(kind=\"existing_common_material_t_query\", **address),\n                                jets, target_record, self.phases)\n                        result[\"actual_common_material_sixjet_query\"] = self.common.encode_active_cell(values)\n"
+    },
+    {
+      "id": "actual_flag_parameter",
+      "occurrences": 1,
+      "old": "                time_grid=copy.deepcopy(self.data[\"time_grid\"])),",
+      "new": "                time_grid=copy.deepcopy(self.data[\"time_grid\"]),\n                sixjet_diagnostic_enabled=self.data[\"sixjet_diagnostic_enabled\"]),"
+    },
+    {
+      "id": "finish_scope_before_result",
+      "occurrences": 1,
+      "old": "        fixed = None if self.binding is None else self.binding[\"fixed_closed_target_signature\"]\n        result = dict(",
+      "new": "        fixed = None if self.binding is None else self.binding[\"fixed_closed_target_signature\"]\n        diagnostics = (dict(enabled=self.data[\"sixjet_diagnostic_enabled\"],\n            binding_not_completed=True, no_local_observation_claimed=True)\n            if self.diagnostic is None else self.diagnostic.summary(\n                original_coverage=self.members.get(\"complete_coverage_and_pending\"),\n                ledger_receipts={key:self.members.get(key)\n                    for key in (\"complete_cell_ledger\", \"actual_phase_point_ledger\")}))\n        diagnostics.update(\n            original_field_or_Gram_failures_and_unvisited_cells_remain_in_original_coverage=True,\n            whole_domain_defect_transport_not_paid_by_local_counts=True,\n            integral_BC_anchor_patch_and_solver_stability_transfers_not_performed=True,\n            complete_cap_direct_metric_identity_kept_without_Frenet_diagnostic=True,\n            no_algebraic_reference_bound_used_for_original_Gram_or_split_decisions=True)\n        result = dict("
+    },
+    {
+      "id": "finish_new_field",
+      "occurrences": 1,
+      "old": "            original_tolerance_evidence=getattr(self, \"tolerances\", None),",
+      "new": "            original_tolerance_evidence=getattr(self, \"tolerances\", None),\n            same_evaluation_sixjet_diagnostics=diagnostics,"
+    },
+    {
+      "id": "necessary_new_field",
+      "occurrences": 1,
+      "old": "        \"global_relative_operator_error\", \"all_time_transfer\", \"actual_time_grid\", \"original_tolerance_evidence\",",
+      "new": "        \"global_relative_operator_error\", \"all_time_transfer\", \"actual_time_grid\", \"original_tolerance_evidence\",\n        \"same_evaluation_sixjet_diagnostics\","
+    },
+    {
+      "id": "series_reference_only",
+      "occurrences": 1,
+      "old": "            original_tolerance_evidence=row[\"original_tolerance_evidence\"],\n",
+      "new": "            original_tolerance_evidence=row[\"original_tolerance_evidence\"],\n            same_evaluation_sixjet_diagnostics_source=dict(actual_result=identities[index],\n                enabled=row[\"parameters\"][\"sixjet_diagnostic_enabled\"],\n                complete_pending_record=row[\"members\"].get(\"complete_coverage_and_pending\"),\n                local_diagnostics_not_used_in_series_comparison=True),\n"
+    },
+    {
+      "id": "begin_frame",
+      "occurrences": 1,
+      "old": "BEGIN_R459_FIXED_TARGET_METRIC_EVIDENCE",
+      "new": "BEGIN_R519_SAME_EVALUATION_SIXJET_METRIC_EVIDENCE"
+    },
+    {
+      "id": "end_frame",
+      "occurrences": 1,
+      "old": "END_R459_FIXED_TARGET_METRIC_EVIDENCE",
+      "new": "END_R519_SAME_EVALUATION_SIXJET_METRIC_EVIDENCE"
+    }
+  ]
+}
