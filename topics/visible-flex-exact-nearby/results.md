@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NIFC：固定反射输入与真稳定逆的连续性](results/R133-supplement-continuity-of-frozen-reflected-coordinate-and-stable-inverse-families.md)（0867f2800bdc2b6601e17a12beb4cbac3d01a3c48a358e1c4745765cbbbbf7e2）：原B族root固定、TF有限系数/正分母与resolvent使Ni±在固定Xfr/Hnat两窗opnorm连续；RNI7的normalized Shat± opnorm加原逐频Riccati连续前提与uniform bounds，给真Cs± strong/joint及compact-data uniform，并给固定有限列/行矩阵norm连续。完整mean/weights/两窗同逆不变；不授真M/C opnorm、C1、完整incoming或finite非零。
+
 - **NIF实际成功（禁止重跑）**：原公开run43795909913/1、job133064556560、child0/16门/12steps全部成功；完整SCI43294b0c保32字段/23新标量（7主+16中间）。四旧成功/16记录/4scope逐字一致，旧数学0重算。冻结正确反射输入Xfr=S*D+Hnat上的Ni±1及两个Cs逆界已实际付：Cinv0≈1.5936238065e13、Cinv−4/3≈2.2522836490e40；完整球见原SCI。仅该real参考族/两窗/原有序权，真实双port、完整incoming、有限Schur及非线性未授。
 
 - **NIF唯一公开CI包（数学尚未执行）**：已发布同real族固定反射域的7主常数/16中间量消费者；SCI d75ad8a2、worker5b5a9b75、manifest138fe8d9、flow63a9e468。8 current UTF8/2 AST/5 math，四原成功 TF/KL/WX/RNE 只读；原16 records与4scope逐字保留。完整静态预算30694B SCI/6036B report/37209B preGit，执行前fresh topic容量须再留150000B。实际run成功前不授任何新数值，且真实双port/fullincoming/finite义务不变。

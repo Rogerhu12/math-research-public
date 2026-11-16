@@ -56,3 +56,11 @@ Root以完整原文本核32字段、16全true门/15progress、精确scope/parame
 Root按完整renderer与真实早期状态静态逐字重建两preGit：SCI+earlyreport5644B合35933B/e17b7933a27d6c181a5e7989b5644dd208fa63727ad339ebe1f5971fc773f6eb；earlyexecution9154B/df921f849e71a288b1a69c047f0ac8a209bc2f60c817c8121a010fe89ce04d7d。child完整stdout29955B/801b3fabc44817a9d860c040d08ad3fe9388ed3a5a27a9522364bece4a0d0f37亦由原SCI+原marker逐字重建吻合。仅hash/文字/metadata核，无本地数学。
 
 真实CLI两pull03:04:50.781149、03:04:55.477901都到bc20ed50，两README空diff。fresh容量199747711B先留150000B后才启动，最终三文件合47294B使projected199795005B；0history/旧producer/exp/log/R97/RNE重算，0artifact/Release/新数组。此唯一成功立即冻结；继续独立NIFA实际证明、NIFC固定域连续性与实际腰部双port/range，不以阶段报告停。fullincoming/finite/ν/背景/最终曲面仍未付。
+
+## 2026-11-16 03:12:48 UTC — NIFC 固定物理反射输入的连续性已证
+
+两README在57b2899f61cb23b73bc7b8532f3ee2ae78d28206仍原blob。新纯解析note750fd33dc2f42019a5de1c5c4f19e20e58b2df4a /16995B /0867f2800bdc2b6601e17a12beb4cbac3d01a3c48a358e1c4745765cbbbbf7e2，21个公式。Root已读B1与RNI7/NIF完整原式，Tail独审全文并核final差异。
+
+当前B族root邻域intrinsic bump恒零，r*确固定。有限degree192的Fδ原系数连续，固定Fourier shifts在各Hs有有限norm，故TFδ opnorm连续；原two-window inverse与真正resolvent给TFδ^-1同样连续。完整KL aδ相关式保所有mean，用固定有限partition/原正分母/common integrable domination的普通dr积分连续，不借seam径导、不重积分或exp。固定L=S*D+和NIF精确Ni L=aδ^-1 TFδ^-1给Ni±的固定域opnorm连续。
+
+RNI7已付normalized Shat± opnorm连续；真M±只在原fixed-frequency Riccati连续依赖前提下由Fourier dominated convergence给strong。原有序weight/coordinate组合保真正Cs± strong与joint，并在compact数据集uniform；固定有限L/V压缩矩阵norm连续，无矩阵求值/非零断言。只有对角有界不足推continuity，前提未删；M/C opnorm、C1/未知selected KAM族、actualincoming/range/finite/trueν/背景/曲面全未授。仅整理已成NIF索引，完整数字与身份保原SCI及43ba87b3同H/log，未付义务不减。旧成功0重算/新scalar0，结论独推后继续实际双port/WE。

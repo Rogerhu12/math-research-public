@@ -48,7 +48,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [RNEA完整actual](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)257644a4锁43792291190/1/16门，Knat−7/6≈2.0519379388e10、−5/2≈4.2453353027e29。276槽/23原records/两preGit与RNI核0/FC空补列全保[原段索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)。M仅strong；selected全δ/双mean/低与径向head/rest/finitecross/fullincoming待，0旧重算。
 
-[NIF固定反射输入](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)8f378447：Xfr=S*D+Hnat、SE8窄修93266089；原43795909913/1 child0/16门/12steps成功锁。SCI43294b0c完整32字段/23新槽，4旧actual16records/4scope全保；KΛ+≈141.19334、Ni0≈58.45552/inv≈776.63812、Ni−4/3≈5.8208807e6/inv≈5.3052787e10；Cinv0≈1.5936238e13、−4/3≈2.2522836e40。0旧重算，两preGit已核，实际proof整理中。完整principal/Cayley的真实反射range/双port、mean/head/rest/fullincoming/finite/ν/nonlinear仍待，M仅strong。
+[NIF固定反射输入](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)8f378447：Xfr=S*D+Hnat/SE8窄修93266089；原43795909913/1 child0/16门/12steps锁，SCI43294b0c完整32字段/23新槽、4旧actual16records/4scope全保，两preGit已核，0旧重算。完整原球/pins/失败限制保SCI与43ba87b3同H/log。
+[NIFC连续性](results/R133-supplement-continuity-of-frozen-reflected-coordinate-and-stable-inverse-families.md)0867f280闭RNI7固定chart资格：Ni± opnorm连续；原逐频Riccati前提下真Cs± strong/joint、compact数据uniform/固定有限列矩阵连续。M/C opnorm、C1/selected族、真实双port/range/mean/head/rest/fullincoming/finite/ν/nonlinear仍未授。
 
 [RBO](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264完整八行/meanrank/真βn/全J低1/4及RNI/RNE已付界保新root索引和原proof。z=16N^-2、hrrr仅N^-10/3；仅real原域，fullincoming/finite待。
 

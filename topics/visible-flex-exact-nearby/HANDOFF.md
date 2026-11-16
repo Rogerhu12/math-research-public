@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 03:06:41 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 03:12:48 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 02:37:33定时CLI仍无executor，下一≤03:37:33。最新CI真pull为NIF 11-16 03:04:55.477901→bc20ed50d94fc4236f887d71696d353d3c945c3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：d5637ab22445227405d29fabb6fd2264e9eb06b1；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：57b2899f61cb23b73bc7b8532f3ee2ae78d28206；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -29,7 +29,8 @@ MS44038eae真正return=UR B− Z^S B+逆仅有条件，sign无限；仅TF与原s
 DZA50d9712b原43773671216/1/24锁；ToD/[To,Z]/EoZ^S、two-sign/独立meanrank及小正项全保。全球/回执与DZF第11 LF失败new/old/lost0见proof/新scope索引。六欠费/fullincoming/finite/return/背景未授，大upper非下界。
 BF e8e29c49/FC46ccc206/SE93266089原完整square T+E+LV、自然两窗及given-head图全保。RNS74c6df5d以R97A root核0仅撤FC m列，完整(q,z,κ)三块Schur/rhs保PUVP/两mean/head/rest；单scalarborder只可修corank≤1且须真双pairing。actual ν-dependent chart须含dν，Schur不变；物理Robinν与PD phase不同。全E/columns/finite/fullincoming/真ν列和非零门仍待。
 RNEA257644a4原43792291190/1 child0/16门锁：Knat−7/6≈2.0519379388e10、−5/2≈4.2453353027e29。完整原球/276槽/23旧records/两preGit保actualproof。0旧重算；M仅strong，selected全δ/双mean/head/rest/incoming/finite仍待。
-NIF原43795909913/1 child0/16门/12steps成功锁：SCI43294b0c完整32字段/23槽，Ni0≈58.4555、inverse≈776.6381；Ni−4/3≈5.82088e6、inverse≈5.30528e10；Cinv0≈1.5936238065e13、−4/3≈2.2522836490e40。Xfr=S*D+Hnat/SE8窄修93266089全保；4旧actual16records/两preGit/0旧重算已核，实际证明整理中。真实双port/range/fullincoming/finite未付，禁重跑。
+NIF原43795909913/1 child0/16门/12steps成功锁；SCI43294b0c完整32字段/23新槽与4旧actual16records/4scope，全部球/pins/两preGit保原三件与43ba87b3同H/log，0旧重算。Xfr=S*D+Hnat/SE8窄修93266089；actualproof整理中，真实双port/range/fullincoming/finite未付。
+NIFC0867f280闭RNI7固定chart连续性：Ni±算子范数连续；依原逐频Riccati连续前提，真Cs± strong/joint及compact-data uniform，固定有限列/行矩阵连续。M/C算子范数连续、C1/selected族/完整incoming/非线性未授。
 BTb5c2f844全已证细节保7a037e78同H/proof：head dual=E97*S^-1 joint无√193，scalarΠ≠physicalmeans；Q97双消、右Z97 unitary、rootFF≤1215/固定FT/mean/cross finite。radialhead及r积分仍可无限；actualcolumns/square/独立ports/无限费/finiteinverse未付，旧SJ/CG/WE全保。RBT8a20d39c原384/576带宽及Jt>576完整Schur条件保；R97R已直接过97，无需此fallback，global finite待。
 
 根jet原式保notes/2026-11-16-completed-root-jet-and-operator-interface-index.md；RBG157795fd/RBOa45e0264保z=16N^-2、hrrr仅N^-10/3、无z曲率/全meanrank/真βn/J低1/4。RI01afb86c已核10inputs/7sources，K4/η3/4×5混导/两J/λ/V/β可原字复用；aux整体fail仅两case成功。该real/root whole e已R97R付；fullincoming/finite待。
