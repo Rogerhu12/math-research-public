@@ -528,3 +528,7 @@ proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完�
 ### 2026-11-16 09:17:07 UTC｜先保存 R106 两份浮点派生报告的完整清理白名单
 
 白名单182605cd6e2290f98f9394dd08d9e209b5d341c259fe3517be0f296f98dc0022/32367B只列两精确path：1024-q10=9cac6d8a/54734B/SHA79178a72，512-q6=c239f741/42640B/SHA2dfc12ab；restore afbf59efb25396efb1286ab193857e3652643add同path原字。Newton完整读两report、producer23310B、原note8346B与独立严谨proof/actual，根全读白名单并fresh核WHV修订manifest/两源/inventory及WMR最终源/interface，两个basename均0命中。原complete_diagnostic=true、rigorous_phase_certificate=false，所有标量结论、35参考分件、完整原数组及进度恢复身份、遗漏误差/最终J∘Phi限制保；不制造严谨通过、不重旧science。gross97374B，计白名单净65007B，尚未删除；后续仅freshguard两blob/size成功后普通删。原producer/定义/native/候选/严格证书与失败均不在表。H压缩旧清理索引，原详细记录完整保3e947078同H及各原白名单。README核79455f05c842563d9f253459d5cfca790c899dfc；继续。
+
+### 2026-11-16 09:17:30 UTC｜R106 两份旧浮点派生报告完成限定普通删除
+
+白名单182605cd已先推eb6e53fb8f7d25c6772a8c71b67422c23a4b9b54；本提交fresh读取main树，精确核原9cac6d8a/54734B与c239f741/42640B后仅删除白名单两path，gross97374B。全部原标量/失败限定与完整原数组历史恢复身份按白名单，恢复只取afbf59ef原字，不重算。producer/原note/独立严谨proof和actual、canonical/native/定义/候选不变，WHV/WMR active输入无命中；0数学调用。两README核2583501bcbbbb9ddee55649036e1084dc4cde43e；继续未达验收任务。
