@@ -24,6 +24,8 @@
 
 **Request211来源合同已定；尚无本次科学运行。** [完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)六件全部身份及完整差异已核；本次先刊generator19034B/846a5d0c、plan81398B/4d197084、recipe18761B/1a949e87、interface25136B/ee2c4c32。保原210全部154身份，147真实public＋11历史view＋10当前view共168；原缺依赖6817B/c216d2a8按原字节和真实同目录补齐，历史11按原208base/49patch重生、不冒当前入口。当前10实际接已刊R474工厂/flow/helper及九计数，R471/R466及原六词/λ=.001/18000/全112、226双mean、224方向、R273/338×112/FD/fullDN/audit保持。有限输入false原完整loop，不加finite-output门；源计数不冒任意动态导入完备，不声称接受或速度。单90KB/超70/必要marker与真owner/rules-parent quiet后清理保留；request/workflow另次推，R475/amplitude唯一终态。
 
+[211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)前四件已刊 `4f326cd1e0079026ad26bdafcabcc8ebdaacb635`。本次独立刊request80994B/5985662c与workflow40779B/f4162017，真实新请求路径触发公开仓库自身Actions；完整168来源、原六词/λ=.001/18000秒/全部原门与90KB/70保持。实际run/source待官方绑定，R475由amplitude唯一终态读取；来源生成或导入失败与数学拒绝、资源partial分开，不预填快路径使用率、完整J或接受。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。

@@ -334,3 +334,8 @@
 ## 2026-11-16 05:23 UTC /root — Request211来源与完整参数合同
 
 **Request211来源合同已定；尚无本次科学运行。** [完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)六件全部身份及完整差异已核；本次先刊generator19034B/846a5d0c、plan81398B/4d197084、recipe18761B/1a949e87、interface25136B/ee2c4c32。保原210全部154身份，147真实public＋11历史view＋10当前view共168；原缺依赖6817B/c216d2a8按原字节和真实同目录补齐，历史11按原208base/49patch重生、不冒当前入口。当前10实际接已刊R474工厂/flow/helper及九计数，R471/R466及原六词/λ=.001/18000/全112、226双mean、224方向、R273/338×112/FD/fullDN/audit保持。有限输入false原完整loop，不加finite-output门；源计数不冒任意动态导入完备，不声称接受或速度。单90KB/超70/必要marker与真owner/rules-parent quiet后清理保留；request/workflow另次推，R475/amplitude唯一终态。
+
+
+## 2026-11-16 05:24 UTC /root — Request211完整公开入口
+
+[211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)前四件已刊 `4f326cd1e0079026ad26bdafcabcc8ebdaacb635`。本次独立刊request80994B/5985662c与workflow40779B/f4162017，真实新请求路径触发公开仓库自身Actions；完整168来源、原六词/λ=.001/18000秒/全部原门与90KB/70保持。实际run/source待官方绑定，R475由amplitude唯一终态读取；来源生成或导入失败与数学拒绝、资源partial分开，不预填快路径使用率、完整J或接受。
