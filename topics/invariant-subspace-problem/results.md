@@ -466,3 +466,5 @@
 - **任意放大方差。** [完整逆Gram与同源阻尼](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)给s_m≥S_m→0、任意强前缀和1≤J<h下的强极限P_M。原f及V/K/u相同，ε=q−||a||²、远孔指数矩和全部截断top保留；小残量不自动是原真核距离。
 - **一次与二次真MP。** [一次平方相消](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)在τ=(log(x+1)/x)^(1/3)给完整一次平方O((1+||C||²)τ²)Δ²。[二次primitive回馈](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²与(D²)†的准确差及两top，在τ=(log³(x+1)/x)^(1/5)付q1/q2平方O((1+||C||⁴)τ²)Δ²。z2仍残Cq2，完整深旗、帽返回、所有partial及母carry未闭。
 - **普通结论仍缺。** M=kerT、N=closureBM的N=M未证；须原same-w合并负部≤c_m Q||F_mu||²并Σ1/c_m发散，当前没有这个完整界。所有其它原open接口继续。
+
+- **R150完整critical高块界（2026-11-16）：** [原6018×4266全行全列](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)三域规定残点均实rank4259/null7；与两条真实Q核夹得4259≤rank_Q≤4264、2≤ker≤7。全部原缩放/乘回/有限域单位/DAG已核；未关全高核或完整首连接。run43756208221，三次9.010/8.925/13.248秒，完整低170×101待实际全高核。
