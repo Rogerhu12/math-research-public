@@ -509,3 +509,6 @@
 
 
 - **R150完整zero投影61及九目标生成全部relative25（2026-11-16）：** [原全部来源证明](results/R150-appendix-zero-projection61-and-complete-relative-nine-target-module25.md)独立原K/zero实际80.048秒，十四正指数(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、len61/T0长5，1342796原零products及86632首项全真。全局T维25、投影ΔP273；D127九目标模无系数tors，field image25与Q上界25夹得九目标生成全部T、χ=s²mon(h*)/ann=mon(h*)，故h*W⊂原degree3来源像。零T分拆未定，非rank-one/31指数继续。
+
+
+- **R150全部4212高normal目标费8391与归一Bell8（2026-11-16）：** [原成本/显式差立方证明](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)从h*W⊂L给任member费max(8391,108+τ)，共动W基τ(h*w)≤123故统一8391。以h*br²原degree3来源和旧全四fiber CRT得br8=Σ(RqE³Aν+br²KbDν)Fν，源moment两支18/15；无额外乘子，不假E∈W、不称br6或全J。
