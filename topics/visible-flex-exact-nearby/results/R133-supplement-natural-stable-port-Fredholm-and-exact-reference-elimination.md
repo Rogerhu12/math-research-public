@@ -237,12 +237,16 @@ $$
 The two frequency factors stay on their own sides. They are not commuted with a coefficient, projection or chart.
 
 For a declared common input space $\mathcal X_s$, let
-$N_i:\mathcal X_s\to\mathcal H_H^s$ be the actual bounded incoming-coordinate isomorphism. In MS it is the ordered
-$\Lambda_+^{-1}T_F^{-1}\mathcal S^{-1}$, with
-$\mathcal X_s=\mathcal S\mathcal H_H^s$ the actual transported high space.
-Here $\Lambda_+$ is the nonzero root scalar diagonal, not a Bessel weight.
-The physical mean extension and low complement stay separate.
-The established commutation of $T_F^{-1}$ with the original high projection justifies this restriction; a product of arbitrary compressions does not replace it.
+$N_i:\mathcal X_s\to\mathcal H_H^s$ be the actual bounded incoming-coordinate isomorphism. Distinguish the full signed carrier $P_{97}H^s$ from the natural reflected root domain $\mathcal H_H^s$ of SE1. The ordered MS formula is $\Lambda_+^{-1}T_F^{-1}\mathcal S^{-1}$ on the ambient carrier; its natural-root restriction has the domain
+$$
+ \mathcal X_s=N_i^{-1}\mathcal H_H^s
+ =\mathcal S T_F\Lambda_+\mathcal H_H^s
+ =\mathcal S D_+\mathcal H_H^s,\qquad
+ D_+=e^{-i\pi/4}\Pi_++e^{i\pi/4}\Pi_- .
+$$
+Here $\Lambda_+=aD_+$ with $a>0$ on the original nonmean high carrier. $D_+$ preserves real Fourier conjugacy and is an isometry, but generally does not preserve even reflection. Thus $\mathcal S\mathcal H_H^s$ alone is not the justified domain. At a selected member $\mathcal S$ is its actual MS chart; a full-family frozen realization is specified separately in [NIF](R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md).
+
+The actual moving reference has $u$ odd and $v$ even, so $F_*=\beta_*u_*v_*/\eta_*$ is odd. Reflection reverses both $M_{F_*}$ and $I$, hence $T_F$ and its same inverse preserve the natural reflected space. The complete degree192, double-high definition also gives $[T_F^{\pm1},D_+]=[T_F^{\pm1},P_{97}]=0$, proving the displayed range equality. The natural-reflection projector is $\mathcal S D_+Q_{\rm nat}D_+^{-1}\mathcal S^{-1}$, with $Q_{\rm nat}=P_{97}(1+\mathscr R)/2$ in the complexified even realization; it is distinct from the ambient $\mathcal S P_{97}\mathcal S^{-1}$. $\Lambda_+$ is a root scalar diagonal, not a Bessel weight. The physical mean extension, original Fourier low complement and every independent rest port remain separate; the opposite-reflection complement is not a finite head. No arbitrary compression product or enlarged old-circle inverse is used.
 
 Define
 $$

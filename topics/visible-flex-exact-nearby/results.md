@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NIF 全实参数族的固定反射输入坐标](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)（8f378447，2026-11-16）：固定Xfr=S*D+Hnat，Λ+,δ=aδD+的固定sign相位和TF真奇偶性给同一域上的Ni/同逆与两窗Cs自然逆；显式7主scalar待唯一公开计算。同步窄修[SE8具体域](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)93266089，原22201747保历史；fullsigned与natural反射投影分开，不把无限反射补空间当head。旧数值不变，完整principal restriction/incoming/finite仍待。
+
 - [RNEA 实际两自然负窗完整逆常数](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)（257644a4，2026-11-16）：唯一43792291190/1 child0/16门，原real |δ|≤1e−8、fixedη0/root97上K−7/6≈2.0519379388e10、K−5/2≈4.2453353027e29。完整7图276槽/23旧records/16门15progress/两preGit及source/worker/manifest/actual回执全保；0旧图/比较重算。M仅strong；selected全族/完整incoming/finite/ν/非线性仍待。
 
 - [RNS：实际根部faithfulness后的完整incoming参数Schur约化](results/R133-supplement-actual-root-faithfulness-and-complete-incoming-parameter-Schur-reduction.md)（`74c6df5d816d9b80bfdb4c2e646237ad65f18e047788e5bec10739d1d3f64d9b`）：本real/root仅撤FC空补列，真实given-head图和common右因子保持所有独立rest。完整BF高块消元给(q,z,κ)矩阵与全部rhs，无需先假regular Schur可逆；单scalarborder只能修corank≤1且须两真实pairing。actual ν-dependent chart含dν后metric Schur不变；physical Robinν与PD raw phase分别保，冻结ν/几何τ不支付任一非零门。无新数值，fullincoming/finite/真背景仍待。

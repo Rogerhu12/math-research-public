@@ -41,12 +41,14 @@ SNA4214de05原43751213826/1/21锁；双支四导/真H D/ε/√j/signed μ全保�
 
 SEIA87055721原43773319871/1/20及2signed锁；八真H导与独立μ一次，ci>0/co<0、同逆K0<1.034/K−<7.823只selected主因子。fullscalarmean/两physicalmeans/旧log保，fullincoming/finite/return/背景仍待。
 BF e8e29c49原square B=T+E+LV和完整strong χ=K0 CE ΛJ^-4/3<1后两窗高逆保。[RNS完整参数Schur](results/R133-supplement-actual-root-faithfulness-and-complete-incoming-parameter-Schur-reduction.md)74c6df5d仅撤实际FC零维补列，完整(q,z,κ)矩阵/rhs保PUVP/两physicalmeans/head/rest/trueν；不先要求regular Schur逆，单border只修corank≤1且须两真pairing。ν-dependent chart含dν后Schur精确不变；Robinν与PD phase不同。全sign/独立second-input/PW/径向head仍可无限，actualsquare/全E/columns/matrix/trueν及非零门未付。
-SE22201747自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0保；R97R/RNI已付本real/root97域同逆定性。共同因子只在全incoming逆确成后同侧消，独立第二输入/正侧rest/两mean/roughbulk费仍保。
+SE93266089自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0保；R97R/RNI已付本real/root97域同逆定性。共同因子只在全incoming逆确成后同侧消，独立第二输入/正侧rest/两mean/roughbulk费仍保。
 FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域由R97R/RNI得m/W/F_C=0，无需额外补列。common C只在实际incoming逆确成后消；physicalmeans/其他ports、完整columns/finiteSchur/fullincoming与真背景uniform待，第二输入保。
 
 [根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。原real/root whole e由R97R严格通过；其他参数/角域不外推，fullincoming/finite/非线性待。
 
 [RNEA完整actual](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)257644a4锁43792291190/1/16门，Knat−7/6≈2.0519379388e10、−5/2≈4.2453353027e29。276槽/23原records/两preGit与RNI核0/FC空补列全保[原段索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)。M仅strong；selected全δ/双mean/低与径向head/rest/finitecross/fullincoming待，0旧重算。
+
+[NIF固定反射输入](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)8f378447：Xfr=S*D+Hnat；Λ+,δ=aδD+固定两sign相位，TF的Fodd/I双反射使原自然域同构。SE8具体域已窄修93266089，原全signed投影与自然Qnat不可混同/opposite-reflection非finitehead。Ni与Cs两向权序全保，4actual/16原records给7个新主scalar合同，尚待Actions。旧全circle principal/Cayley逆限制到此域须另证range兼容；M仅strong、fullincoming/finite/ν/nonlinear待。
 
 [RBO](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264完整八行/meanrank/真βn/全J低1/4及RNI/RNE已付界保新root索引和原proof。z=16N^-2、hrrr仅N^-10/3；仅real原域，fullincoming/finite待。
 

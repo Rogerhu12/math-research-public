@@ -7,3 +7,11 @@
 完整上一日志ee5dad59c62b52a1d8d7129e0269a8840929d952 /89084B /ce26d1384687687b7b12bd45d260a619e9a9040bf662fd8828ae0e3fe83359c3逐字保notes/2026-11-16-log-through-explicit-negative-window-inverses.md；已成H/open原段9b1a68e3bba39ae4e97ef8cbbc2186f98047f023 /3942B /c270bf27d417be7de1fea74d28c86bb5ce923170856d07a3c0b1cc9b2eafe230保新root/input索引。只缩已成索引，原完整checkpoint4ce32b40同H/open/results/log、全旧失败/lost/restore和全部未付门保。RNEA/原R97R成功冻结，R46单删d8626d95恢复4af72dc1不重复。
 
 下一NIF发现并正在实质修正natural reflected域：原Λ+,δ=aδ D+有固定两sign相位，不自动保even-only；真实Fodd与I各反reflection故TF/同逆保自然域，固定输入应S*D+Hnat=(Niδ*)^-1Hnat。原MS全signed顺序/旧scalar与RNE自然逆不变；新合同须澄清SE8示例域，不把fullsigned J许可倒授反射问题。Newton/phase/tail已分别回原MS/SE/N真实u,h1奇及v,h2偶。此刻无NIF科学执行，七新scalar仍待合同冻结后唯一publicActions。根02:37:33真CLI无executor，下一≤03:37:33；6d4a895463a05940e799f62f3efa4783dedb4179两README blob不变。
+
+## 2026-11-16 02:49:05 UTC — NIF 全族固定反射坐标合同与SE8具体域纠正独推
+
+NIF d606faa1ffd30c34d3487985a57dbc62a18890bc /32942B /8f3784473b98f9b49449b7012e4c5c919670418246fa03a7f28441aaca28b640；SE窄修2f554e31e051a3e27295e514036d1289e9281f75 /21356B /93266089706d71dfa9ee6e5fd48be9cd796354a25b5801f0386d225e4fea2572，原SE eb7b1bb1ea1fdf713fcf172428f68ed20afafdb2 /20047B /2220174707046248cbdf9f9f8c47bc13bc233b0ab65f5ed598ddcbf964e93ad4永久保原history。SE仅§8连续两段换为准确反像域，其他段逐字相同；NIF原primary表明确旧SE before clarification，无hash循环。根全文原稿+全部修差，亲读MS1–4、SE1–10、B1–3、KL10/17–18、WX29–33和N.3真u/h1奇v/h2偶。Phase/Tail各独核fixedD相位、Fodd/I双反射与两自然窗权序。
+
+Λ+,δ=aδD+、aδ>0仅在原nonmean高carrier，D+=exp(−iπ/4)Π++exp(iπ/4)Π−；不对mean=1辅助延拓作全域scalar比。TF与reflection和D+分别有原奇偶/带宽证明，故Xsfr=(Niδ*)^-1Hnat=S*D+Hnat固定；natural Qnat与ambientP97不同，opposite-reflection补空间无限而非finitehead。δ*只是原MS ambient算子的正确physical限制；旧fullcircle principal/Cayley逆还须range兼容，NIF未授。四actual TF/KL/WX/RNE与16原records按完整路径独核；forwardΛ只用4upper/1ηlower，旧short绝对速率同时付两方向，不重算exp；两Ni/同逆与Cs逆保持原序，Γ97取精确150545/150544。
+
+WE旧源码/实际18532小SCI只存Aport与含BH0KW0的Astate，UT/SW继承，NW/NPK属另一个N；此定向审未发现同一独立Ni乘积，不以upper相除，7主scalar/23完整槽作为新目标。当前只有解析合同，尚无NIF科学执行；8current/2AST/5math与小输出预算正审，旧成功全锁。9ad691a3bf9f1ec2640542373b4949e9d9535edd两README blob不变，根02:37:33真CLI失败/下一≤03:37:33如实保。
