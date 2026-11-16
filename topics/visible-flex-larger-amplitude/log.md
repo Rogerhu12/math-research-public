@@ -40,3 +40,8 @@
 ## 2026-11-16 08:17:00 UTC /root — Request218完整来源与科学入口
 
 [218接口](notes/2026-11-16-request218-zero-linear-gzip-complete-chain-interface.md)34152/78fa及七源/plan/request/workflow齐，272+133=405、15→5→13→49→51，三native/全gzip消费者/真实规则owner与独立composition always；launcher schema真实修配而旧R496不改。原全部科学/453→450→mesh→M128/九必要/quiet/90K/18900+2700/32GiB保持，无新科学前门或接受预测；Git推后官方workflow_dispatch，R507/amplitude唯一终态，实际run/head另记。R503新点归220，当前218不改参数；open§3旧全文保ad086cf8，§4–6逐字不动。
+
+
+## 2026-11-16 08:21:00 UTC /root — Request218官方启动
+
+[218官方绑定](notes/2026-11-16-request218-official-run-binding.md)：入口已44f5f282，首次即时dispatch404无科学run；行政43830418320先核workflow419881031 active和无重复run，再一次POST200得到实际43830433500/attempt1，实际source0f101b697beb04db9bf6c225a488755e191f3a54、compute133174205129（08:20:32Z）。准确head上的request95251/8945和workflow92730/1c32真核同正式字节。08:21仅前1–6成功/7容量，生成与科学不预填；R507/amplitude唯一终态，无running日志。

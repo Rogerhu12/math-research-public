@@ -62,6 +62,8 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [218完整接口](notes/2026-11-16-request218-zero-linear-gzip-complete-chain-interface.md)34152/78fad96f及七件源/入口本次完整发布：正式216为基线，272public+133生成=405，15→5→13→49→51真实层次；R496三层captured-product caller、全零j资格/fallback/九计数，R498逐原行gzip与全部samefar/union读者，R499实际owner来源/原完整规则选择和独立composition always全接。新51层110literal/334应用含first launcher candidate.schema明确配真实R496，旧49不改，不归因旧run。原453→真450→五factor2→真父M128、同C/目标/材料/全域metric/held/reach/4/8/16t与3/5/9显示、全部FD/fullDN/末门/唯一18900+2700/32GiB保持。所有九必要scope与实际owner quiet才清，单90K超限诚实失败，无压缩比/提速/接受预测。workflow显式workflow_dispatch，根端实际Git推后以本公开仓库token官方启动，实际run/head另核；R507由amplitude唯一终态。R503新初点只属后继220，不偷偷改变218参数。
 
+[218官方绑定](notes/2026-11-16-request218-official-run-binding.md)：入口已44f5f282，首次即时dispatch404无科学run；行政43830418320先核workflow419881031 active和无重复run，再一次POST200得到实际43830433500/attempt1，实际source0f101b697beb04db9bf6c225a488755e191f3a54、compute133174205129（08:20:32Z）。准确head上的request95251/8945和workflow92730/1c32真核同正式字节。08:21仅前1–6成功/7容量，生成与科学不预填；R507/amplitude唯一终态，无running日志。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
