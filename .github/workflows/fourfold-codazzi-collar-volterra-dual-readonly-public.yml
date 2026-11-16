@@ -1,0 +1,45 @@
+name: R133 W2C complete native readonly diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-collar-volterra-dual-readonly-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r133-w2c-complete-native-readonly-v1
+  cancel-in-progress: false
+
+jobs:
+  complete-readonly-diagnostic:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout the complete frozen readonly entry and rule files
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-current-inputs.json
+      - name: Install the fixed Python runtime for readonly parsing
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Restore all originals and complete readonly admission without a scientific child
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_collar_volterra_dual_public_worker.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --manifest topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-current-inputs.json \
+            --manifest-sha 89dec3ab4d8208aa08ae17b9ec7abc347f317cfbc6a7ed2f8b81db11d2d2d9c5

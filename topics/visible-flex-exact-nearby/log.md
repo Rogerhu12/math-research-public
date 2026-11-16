@@ -370,3 +370,8 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 17:34:48五状态新API元数据中发现他题publication-recovery43919708577/1，完整9141B workflow d19f7cab/SHA700caa28已逐字读；不是只靠contents权限分类。其唯一cherry-pick源ac129137388e987a1d67c6a3004f8a7c56e65639完整五file差分均为visible-flex-larger-amplitude，后续stamp/冲突处理只改该题H；writes_topic=false限定本题。完整补证 `notes/2026-11-16-R133-W2C-active-workflow-scope-extension.json` 保此源与原五状态快照（queued total_count=1但实际返回list为空的时间竞争也原样保留，不据此虚称原子快照）；29精确source bindings和actual-run重读保在manifest，未来未知版本在science前拒绝。本次只有文字/JSON/hash/Git元数据，无任何数学执行或新数组。manifest完整publication预算210000B，加并行pending及120000预留；发布已成诊断按实际总量≤200MB保存，不虚增postreserve。
 2026-11-16 17:36:10 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 45f565262739a347d97098f9ee27484a73b892fe的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+### 2026-11-16 W2C 仅原生只读预检的独立公共Actions触发
+
+前置manifest及范围补证已推d93c36030cbc6a066f582abe9cd03bb4b0e01cec；manifest完整61304B、Git a622426980fc6aac264bc7485788ae026bda8694、SHA256 89dec3ab4d8208aa08ae17b9ec7abc347f317cfbc6a7ed2f8b81db11d2d2d9c5。本次仅新增 `.github/workflows/fourfold-codazzi-collar-volterra-dual-readonly-public.yml`，精确self-path push main、run_attempt=1、独立concurrency、Python3.12.14、partial/sparse checkout、credentials仅env。不安装flint，不授权科学分支；worker5e9b与manifest readonly=true在marker前正常返回，complete diagnostic与scientific complete分别保存。全输入文件/AST/原native结构与来源资格实际是否通过待此唯一run，不把源码静核记实际通过。五图50(+2)仍未执行，继续完成共同Gf下的整signed graph4 backend。
+2026-11-16 17:36:43 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main d93c36030cbc6a066f582abe9cd03bb4b0e01cec的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
