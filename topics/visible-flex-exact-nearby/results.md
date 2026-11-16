@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [PCRA：实际完整positive与反射系数界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)：唯一43812987299/1成功，22门/7graph/SCI e2cb2aac；同Rplus选1.0395639775…e30，同Dalg投影选2.1334995458…e10。完整原42+3/5scope与两candidate保，数学锁；whole负源/端点/高门/finite未闭。4e15a413。
+
 - [WUI：全局真试探完整输入闭包与有限导数图](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)：区分全部原小界和新全局jet/forcing/Jost/N6+4/负窗/J/mean/jump/四端；root4501B可核原恢复，旧数学不重算。2a77f1cd，尚无新whole数值或高逆门。
 
 - **WCE / 2026-11-16** — [由真实terminal及normalizer给同物理系数误差](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)，7519a36a72fe5775de8dcacb7812f48a42e73d3b /22798B /SHA256 3d77e17b15a2dd37c7c66d969d28c50edc5dcbaa7608d6686477ac322ebc0bcf。完整同Dalg、同leading；TF after-right两I/FJ、R_S两rank/P_h、physicalmean与WT完整A2俱留。全density保Π给真实源域投影后rank候选，另保全两rank候选；四已成小receipt的17bound/3资格足付新正图，0数学重算/新数待，不授incoming/finite/背景。

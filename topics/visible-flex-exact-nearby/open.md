@@ -66,9 +66,9 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
 
-[WPC原positive cutoff完整新界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c：保持原χ/trial/两row/mean/outer，用真实H−2/3输出的C²全Schur，profile矩权+5/2及fullstrip Cauchy，JL/JB原序给同cut/source和完整positive received。一个原PC execution提供全输入；新正组合待唯一Actions，原volume/FH/root及全部negative/腰端不改。
+[WPC完整新cut](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c与[WCE同Dalg](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b的完整预执行说明保05b386115aa5ba1d63caf008ee8890977b6f288b同open。原trial/χ/两row/mean/TF after-right/twoI/同Js与selected范围全保。
 
-[WCE同完整Dalg新界](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b：full-density S保真Xfr的Π0；TF后两I/FJ、完整R_S两rank、P_h实际投影和physicalmean全保。SEI真ci/BesselH2/已付CI_B，WX两窗/真ψlower与WT sameJs整RN给两完整新正组合；17原bound/3资格来自四完整旧小receipt，CG不再重复，科学执行待。
+[PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)4e15a413：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
 
 [WUI全局输入与有限DAG](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd：旧小receipt只读，strict真flow/原root商接全w1 forcing、C64 potential与非零Bext尾、N6后全C4/physicalmean/J负窗、3070接口和四endpoint。旧FA局部jet/SJ积分不冒全局；global新jet/whole预算尚未算，缺全fold仅按4501B原stage临时恢复。
 
