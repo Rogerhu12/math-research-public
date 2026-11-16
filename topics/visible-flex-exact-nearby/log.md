@@ -366,3 +366,11 @@ fresh main 0204b4f3ef56164524eb02c24be9a4479e50e122 的根/本题README同原blo
 fresh main 6b5176cf8a10c0fb570417dff459cd12556ef4b8 根/本题README同原blob，只读核不冒pull。发布 `ce0a46c75360850479333534cf096fd61f412168` /19405B /SHA256 `d771cf43faa0d5351851168f9f1567e21f8b7e0be27480b6bd67880a4eb69a81`。root全文亲读并亲回B1–3/原RD、SE；phase独核RNI3–4/7，newton独核5–7。仅以未来同realδ/fixedη0的R97完整实际μ=g−−e>0为前提，才原97 kernel/coker=0、FC空补列m/W/F_C=0；当前严格门尚未运行，本文不是actualpass。
 
 精确有限Bt=Σ(-A)^k+(-1)^m B0 A^m保持B0在A^m后，gain2/3自然−7/6,m2及−5/2,m4均入H1/6；完整J先由原左∂J与gain1同公式统一。各负窗常数需全部gain序列，不复制L2数字。原Dg^-1/M^-1与Cs右序保，独立两mean、低/径向head、其他finitecross/ports与真正incoming/Schur仍待。normalized族op-norm连续与真Riccati因子仅逐频连续前提下strong分开，selected坐标全δ资格不冒授。旧NWA/NPK H及五root-jet open段仅压索引，原逐字段保aac7107299507d3dc6de93a1f88cf53c6ae6594c同H/open及各原proof，不减任何未付义务；无新数值、无旧计算重做。
+
+### 2026-11-16 01:29:37 UTC — 部署唯一新R97原截止97完整标量消费者
+
+fresh main 6aec34b87a10759344debf4abbe21873706391c0两README原blob不变；仅只读核，不冒真pull。R97合同543ebc38及RNI条件d771cf43均已分别推送；本次只部署尚未执行过的新标量目标，尚无actual科学结果。source `6f7037839126056ff25dec619150f76b0edcb3a7` /58950B /`d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06`；worker `b345e944c7ae46e15f2ba70d69c3b9b7c8d56649` /68735B /`22124d85263cff85877bd7a1bee388ad0a42af86a0ac49e3a1370502acccff88`；manifest `e0e74f7281acf11989075cb2e341822230926cad` /19895B /`acc09858d35934db5743daf892b6edf370d3bb0185a662b2e96db01f1f68bcce`；flow `bcad1f8a37b1122955956a3448ab9d1626b83d3c` /4748B /`08f2fdab423efe66cb1ac6e7d2a07f73804216ccefce1afb21b1f1dd94aada09`。
+
+16 current小文本+2精确历史native，共18inputs/432366B、2AST、15数学pins；两旧gzip4501与30595只由runner临时恢复，先exact Git tree/blob/size/SHA，不进口/调用旧producer，不读其他旧native。13当前数学path已在aac7107299507d3dc6de93a1f88cf53c6ae6594c逐blob/UTF8size/SHA复核。root全文全部source/worker/manifest/flow与差异；phase数学/端点/完整33字段22门、tail输入域/旧失败/安全流程、newton整包接线均独核通过。最终worker对已核90591294仅收短render两段重复说明，其余代码原字。源码接入FA真实终态、ACTUAL_CHECKOUT_COMMIT40hex、24个root原ball投影元数据已在运行前修正；没有执行或丢失新数学。
+
+静态格式预算fb74cd34/1737B/728ee0500c562987e8f8738abdf62a09e833524ca8470768399582d9c7c22892仅synthetic字节模型，不是科学数值：完整SCI保全部新图/八R0/正meanrank/旧原球，模型71105B；75K SCI、90K preGit、8K report、59K execution，150K新计算前预留，最后真实tree另核200MB。完整SCI各阶段原子保存，stdout与完整preGit先于格式/Git门；strict false仍完整有效，不证kernel，不授权旧成功重做。Python3.12.14/flint0.9/320bit，公开本repo Actions唯一child，真实pull→README/live审→全pins/capacity；非FF立即pull--rebase保远端循环，完整SCI先复用；无新array/artifact/Release。

@@ -1,0 +1,91 @@
+name: visible-exact original cutoff97 root stable scalar gate
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-root-stable-cutoff97-scalar-gate.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-root-stable-cutoff97-scalar-gate
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  R97_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json
+  R97_MANIFEST_SHA: acc09858d35934db5743daf892b6edf370d3bb0185a662b2e96db01f1f68bcce
+  R97_PIPELINE_SHA: d8bb0de64f6755b0c35621d67cfa33a3c1d0b5975cc6476dc81b2d8abb866a06
+  R97_WORKER_SHA: 22124d85263cff85877bd7a1bee388ad0a42af86a0ac49e3a1370502acccff88
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  root-stable-cutoff97-scalar-gate:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-root-stable-cutoff97-scalar-gate-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['R97_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_public_worker.py --mode hydrate
+          --manifest "$R97_MANIFEST" --manifest-sha "$R97_MANIFEST_SHA"
+          --pipeline-sha "$R97_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['R97_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read the complete saved root inputs and evaluate the original cutoff97 scalar gate
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_stable_cutoff97_public_worker.py --mode run
+          --manifest "$R97_MANIFEST" --manifest-sha "$R97_MANIFEST_SHA"
+          --pipeline-sha "$R97_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-root-stable-cutoff97-scalar-gate-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-root-stable-cutoff97-scalar-gate-output"
+      # Root rule15: restore only two immutable original gzip blobs in runner temporary storage.
+      # Exact Git tree/blob, byte count and SHA256 are checked; no old producer is imported or called.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.
