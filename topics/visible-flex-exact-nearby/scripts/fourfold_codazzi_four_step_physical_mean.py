@@ -289,7 +289,6 @@ def read_only_admission(repo, manifest_file, manifest_sha):
                 and old["parameters"]["fixed_intrinsic_eta0"] == PARAMETERS["fixed_intrinsic_eta0"]
                 and old["parameters"]["strict_interval"] == PARAMETERS["strict_interval"]
                 and old["parameters"]["root_interval"] == PARAMETERS["root_interval"]
-                and old["parameters"]["physical_period"] == "pi/2"
                 and old["parameters"]["same_operator_domain"] == PARAMETERS["same_operator_domain"]
                 and old["parameters"]["original_PW_cut"] == PARAMETERS["original_PW_cut"]
                 and old["parameters"]["original_true_interfaces"] == 3070
@@ -309,8 +308,14 @@ def read_only_admission(repo, manifest_file, manifest_sha):
             and wm["actual_progress"]["new_graphs_completed"] == 7
             and wm["parameters"]["mean_source_decay"] == "n^(-23/6)"
             and wm["parameters"]["physical_frequency"] == "n=4|j|"
-            and wm["parameters"]["first_absolute_mode"] == 97,
+            and wm["parameters"]["first_absolute_mode"] == 97
+            and wm["parameters"]["angular_normalization"] ==
+                "ordinary pure angular derivative divided by j!",
             "complete WMTA original units and all old targets")
+    kernels = wm["complete_new_graphs"]["complete_normalized_weight_L1_kernels"]
+    require(kernels["normalized_circle_measure"] is True
+            and kernels["angular_derivatives_divided_by_factorial"] is True,
+            "complete original normalized-circle and angular units")
     inverse = wm["complete_new_graphs"]["complete_five_mean_recursions"]
     flux = wm["complete_new_graphs"]["complete_strict_flux_amplitudes"]
     require(inverse["all_five_recursions_and_terminal_retained"] is True
@@ -352,7 +357,8 @@ def read_only_admission(repo, manifest_file, manifest_sha):
             and wr["actual_progress"]["original_records_copied_in_graphs"] == 0
             and wr["actual_progress"]["new_graphs_completed"] == 3
             and wr["parameters"]["input_order"] == [-4,3]
-            and wr["parameters"]["physical_frequency"] == "4j",
+            and wr["parameters"]["physical_frequency"] == "4j"
+            and wr["parameters"]["physical_period"] == "pi/2",
             "complete current WRPA same-operator provider")
     for key in (
         "complete_retained_v1_plus_n_inverse_v2_is_read_only",

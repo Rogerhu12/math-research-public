@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 14:36:26 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 14:38:23 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:33:08非FF真CLI仍无executor，下一本地尝试≤15:33:08。最新CI真pull为43886938106/1于11-16 14:33:44.962342→6d7a983882a040c92caa5c20b3940270b4dae1c1；4次两README完整diff空/同已读，exec全保。下一真pull≤15:33:44；ref读取不冒真pull。
-最近只读README核：da40433f4580d9e726241d73047008801c6eaba3；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:38:20非FF真CLI仍无executor，下一本地尝试≤15:38:20。最新CI真pull为43886938106/1于11-16 14:33:44.962342→6d7a983882a040c92caa5c20b3940270b4dae1c1；4次两README完整diff空/同已读，exec全保。下一真pull≤15:33:44；ref读取不冒真pull。
+最近只读README核：e5552b6e926e0d0cabdfb57b605a620e9923cb14；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -48,7 +48,7 @@ WPS60是完整false，全部6图60record/6prefix全存，lost0。下一正侧需
 
 26旧派生清理清单共541225B普通删除；完整path/blob/bytes/SHA/原状态与恢复400b1f73f9a177e69d75c9b62e31b8f85dad72cc见notes/2026-11-16-derived-cleanup-metadata-history-recovery.md。不删其内列举的其他文件，不重旧数学。
 
-W4M73497dba纯证明已成：只读WMTA完整v3和WRPA完整receiver，N4全terminal n^-17/6、全输入HS=Bessel/768、local÷388、disjointdr平方和及两mean/3070/四端齐；9+6+8+2+6=31槽/30新+1原copy未执行，1sqrt无ODE/新exp，不重WMTA195/WRPA40/WSMF52。 源307536a8/manifest63e4a030已封；6current/2AST/0history，完整输出160K+120K，43886171523/1预核failed，child0/new0/lost0/marker无；30全未算，先修WMTA不存在的period字段断言，再按明确续算合同唯一启动。
+W4M73497dba纯证明已成：只读WMTA完整v3和WRPA完整receiver，N4全terminal n^-17/6、全输入HS=Bessel/768、local÷388、disjointdr平方和及两mean/3070/四端齐；9+6+8+2+6=31槽/30新+1原copy未执行，1sqrt无ODE/新exp，不重WMTA195/WRPA40/WSMF52。 窄修源2339cdff/manifestb2f0fa9c已封；6current/2AST/0history，完整输出160K+120K，43886171523/1预核failed，child0/new0/lost0/marker无；30全未算；typed period窄修全模型核毕，待独推workflow作首次sciencechild。
 
 WVCfade78e6完整新候选已证：variable repaired-centre χG0χB_HLc不微分source，exact signed全残差；tracefree clip保actual A/B/C/R/S/P/Q/κ3，p≥1/16、双rate≥c/32、正Padépivot、lift6/5。拟56新+2条件槽未执行；旧reference/q/ρ/outer腿不混用，WPS60保持false冻结。源码继续。
 

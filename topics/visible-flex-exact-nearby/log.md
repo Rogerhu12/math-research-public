@@ -107,3 +107,11 @@ WPS/WRP完整current manifests、WSMF proof/math/owner、W4M proof/science及WVC
 完整whole与reduced原球均 `[2.09588599684579466065657203562456497267457220507266945996882109390875270564e+302 +/- 3.63e+227]`，各自实际选new。CF原球 `[3.09344283749769861414062838407058580844528646431076375635688375014805759828e+140 +/- 3.57e+65]`；rawmean `[1.34960121027577702563539976364371544718771883202622730978565655016169411213e+171 +/- 1.15e+96]`；物理mean端 `[2.17812065540100464357243395782017337539492592126759664888346380888937835445e+142 +/- 4.81e+67]`。全waist `[5.01187017954552769069748468515715152167111434479234003335680065822526188326e+295 +/- 4.84e+220]`，原独立scattering主导。全两mean/四端/3070/positive/root/Theta/nu/finite独立费用仍保，无smallness/finite逆/最终族声明。
 
 单child14:33:43.418061→14:33:44.670295，wall1.2521789330000033s；完整preflight25109B/ebc9e7c48c3640f32a3fda551c526bd2eeb5443f92082675966c32e962b8fe6f。stdout12064738B/SHA2d08c698295b7aeacf990953a42b719124508cdcce6506522ae66e579a51b0f0只引身份未取正文。pre/immediate topic199347895/199348539B满足152K+120K。四次真pull全回执exec保留、两README diff全空，末次14:33:44.962342→6d7a9838。所有52目标冻结；接W4M明确未算30目标的窄修首次child，尾端/真实high/finite继续。
+
+## 2026-11-16：W4M 只读 schema 窄修与明确未算目标合同
+
+2026-11-16 14:38:23 UTC；README核e5552b6e926e0d0cabdfb57b605a620e9923cb14未变。先前零science失败边界已独推44aac64a。新入口ae0d0ca21cbc0fead75fb0c090555aa1e812e9fd/71040/SHA2339cdffcd6ee17bee92910cb38cd1780bbe64fb2f747b98d2edc3a0d865a9ab，只改只读typed断言：共同循环移除WMTA原本没有的period key，WRPA分支仍明核pi/2；WMTA明核原n=4|j|、97、ordinary derivative/j!原文和两个既有normalized-circle/factorial flags。禁止用.get默认值或补造原字段。根完整窄diff原字核，全部数学6543B/main/controller及40源常量未变；所有47原record/11scope/accepted原字hash不动。143个原字schema/flags/shape/crossbinding纯JSON检查全过，未执行科学。
+
+新版完整interface d4682acecf606a97afef13308a63670867958889/74397/7cb3b55a733df1ae7444fb9a28fa30b88eaac199d4aea359d3859cc26d44075d，六完整模型以唯一source身份替换及preflight/modelhash关联更新，根逐文件canonical fullSHA同新pins。success95135/late97989/pre13968/exec22229/opsfailure45741/marker657B，尺寸未增加；99K/59K/2K=160K仍足，科学prefix绝不截断。
+
+manifest42e413021cbc4f0f7bcdfe5cc75f505e3862fead/24859/SHAb2f0fa9c4f92e5d4b5b2f8a81af7e389840ab1dd71151b1ced5c3fe70f19fd8a完整写明前次child0/new0/lost0/无marker，许可仅全部尚未计算的30新+1copy；前次失败与原stderr身份不改。worker c410不变。fresh199448048B@6c446890，含源/manifest净增、H/log余量、160K+120K后投影199736361B。WSMF52已完整发表97179B且锁定，当前无live child。本提交先修source/manifest，workflow另单独触发首次sciencechild。
