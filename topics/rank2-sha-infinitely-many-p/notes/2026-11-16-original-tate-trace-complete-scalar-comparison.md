@@ -73,3 +73,33 @@ run43861552312/job133279604099，在进入配对之前同样失败：
 这消除了对PARI变量名的依赖，且成功运行核验的是此同一实现。
 生产 consumer 已提供 tate、scalar 和逐贡献闭点 compare 三种模式；
 真实双map PASS 门、全部几何交重、剩余次数、Artin读数和两点判据不变。
+
+
+## 相对范数实现的实际独立回执
+
+2026-11-16 12:51:21 UTC，源提交
+[4b741f36cf369dad291ba3f4e8df35708e9a8d13](https://github.com/Rogerhu12/math-research-public/commit/4b741f36cf369dad291ba3f4e8df35708e9a8d13) 的
+[run43870209568](https://github.com/Rogerhu12/math-research-public/actions/runs/43870209568)、
+job133309066101成功。此次唯一实际变更是R883(H18)–(H19)的终幂：
+默认完整相对范数到原 $\mathbf F_{r^2}$，没有用到素域的绝对范数。
+已有同一固定独立标量公式对照全部通过，包括两个底域的全部
+$\ell$ 挠点、两种辅助点例外、剩余次数2，以及次数 $\ell$ 时两独立
+$\ell^2$ 挠点的非零完整迹。
+
+同原基的两配对矩阵保持不变；实际日志明确记录
+final_exponent_method=norm、完整次数与原常数嵌入。
+运行数学部分1.858秒只作本次记录，不据与前次差异宣称加速或退化。
+校验已覆盖这项实现变化，不再扩展同类可选测试。
+
+结果摘要SHA256：
+06b0f7ef2bcc0d8327ec53cafc8a32e78212a09184f2a21d187022b694944509；
+全部逐点记录SHA256：
+54bd9756c1836e9b0c277af49ea97852b24ea2075464336c81f68bd6b60d7a29。
+新helper的SHA256：
+423f438c97b15f9f376aec766e6870c099fa291bac9dbabd22ee4c0078f0bfd2。
+checker与前次完全相同；本次relative helper哈希为
+4df7b6e4772eaa12197fffe0cef977c7ca56b28c7fa5476c17e7e4f074dc1f4d。
+只保来源、结论和哈希；可重算逐点输出留在公开日志。
+
+这份成功回执认证有限域迹读取的实现，未认证尚在运行的原两映射，
+也未计算原循环的任何非零影子或无穷系数素数。

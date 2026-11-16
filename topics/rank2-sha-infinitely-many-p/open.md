@@ -107,7 +107,7 @@ R834/836/837全单位块和真三长/两长预算保旧完整open；自然Bost47
 
 ### 原相对范数终幂
 
-R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)/ell准确等于N_(kQ/F_(r²))(h)^((r²−1)/ell)。新helper以绝对Frob参数2m/4m保全部d及原嵌入，禁默认到Fr范数；默认norm，保power/norm_compare。仅因这项实际实现变化重用已有固定r29/41独立scalar对照，尚未收到新回执；不替原两map/RR门。
+R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)/ell准确等于N_(kQ/F_(r²))(h)^((r²−1)/ell)。新helper以绝对Frob参数2m/4m保全部d及原嵌入，禁默认到Fr范数；默认norm，保power/norm_compare。仅因这项实际实现变化重用已有固定r29/41独立scalar对照，run43870209568/job133309066101已全通过，含dell真ell²点；来源/结果hash见Tate执行注，不替原两map/RR门。
 
 
 ### 原 U 的下一实际三纤维读取
