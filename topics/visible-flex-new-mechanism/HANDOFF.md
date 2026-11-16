@@ -4,13 +4,13 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:34:59→11:35:06 UTC真实pull --rebase，已读上游 **cea67a2cb91dbd2c6d19844237cb8eb83962da26**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:42:58→11:43:04 UTC真实pull --rebase，已读上游 **f0cdf857b25abc3b5fce703a48e38199222de646**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
 private于10:52:23.800032→10:52:32.780639实际pull读 **507d08ba813bad8699caaf3b6443a7ac0fa44714**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前小域run43851980835两job也均真实拉两仓/README空diff；私有正文不发表。
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
 
-本轮Actions已读public c1b3bfb1a0deae3c4b75da514ffcbb8530ae59d3（11:01:21）、c0d849e5cb1a68acdffe4e99f07a10718a423bc8（11:13:12）；private9b46438d90d3423b9019a3c70aad6ed94d761587、a60dc96d4d6aad3257b516e6cce494e27741976a（11:13:15），双README空diff/QUEUE唯一进行中，原收据见57结论。
+cap5两job已真实pull：public4e8575cdc0610ca185979938d88e2485201869d3（11:35:38）、55f9e1f52f3a2b126a8cb1aa082424467a2cc732（11:39:09）；privatec52bd670a315dae69326d355e326e4a088e55222、fcdd4b406abefbb3b3942b74dace7444017aa3ec（11:39:13）。双README空diff/QUEUE唯一进行中，原收据见cap5结果；57早前pull保原note。
 
 ## 2. 主完成门与冻结几何
 
@@ -30,7 +30,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 **真实cap。** R471五门Δ1/2/3/4/6、R475完整12L/8Aj、Af/simple根/双germ/真宽/C尾、R495完整凹图、R489质量窗均保。十五参数/三原子/四原子搜索均已闭且无零，不再重跑；有限失败不排全类。[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)保严格Dd余项，完整ImE在H≥H*严格负，H*∈(13/7,67/36)，真零只可能.6<H<H*。[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定图offset虚部真三次、当前H≥1严格凹至多两根；实部完整四次首项C4/5，尚未排共同零/低端凹性。
 
-[新的五门证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)直接保80H³Δ五密度、C尾、85个已证左端零势、q=r²/(3p)+Af/(6p)原余项和九真不等式。固定全H∈[3/5,67/36]/C参数Bernstein有限LP；唯一成功门是有理E_min>D_A+D_Q，所有负余系数按原积分界扣。已固定[唯一新入口](notes/complete-cap5-integral-certificate-single-new-scope-20261116.md)：600秒、一次LP≤180秒、后留180秒有理judge；即由请求push触发公开Actions，尚无结果。不续atom余额。
+[新的五门证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)直接保80H³Δ五密度、C尾、85个已证左端零势、q=r²/(3p)+Af/(6p)原余项和九真不等式。固定全H∈[3/5,67/36]/C参数Bernstein有限LP；唯一成功门是有理E_min>D_A+D_Q，所有负余系数按原积分界扣。已固定[唯一新入口](notes/complete-cap5-integral-certificate-single-new-scope-20261116.md)：600秒、一次LP≤180秒、后留180秒有理judge；[原结果](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)：run43859053666/source4e8575cdc0610ca185979938d88e2485201869d3，LP180秒限、nit270738/xNone；实际183.90384485000004秒/1LP/0judge，未得证书且未判有限不可行。账户闭，不续atom或LP余额。
 
 **真实路径。** R469/472保A/T/全部W/V；R482原13状态/2输入、完整K与Mraw、R484保护芽rank边界、R486仅开域障碍、R488 secant t1′<0、R492 period/13锁、R494真实桥odd残值均继续。R500异ω前缀差商只消相对门，不能删共同门/桥K；详原索引。
 
@@ -55,7 +55,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 CACHE2 29866451B/d92a1112ee337ef84fef673cc46c326404a67ca3ed7e40e68efff9d0c3316b0e，binding9053e45420d192c3965a82cff58f3db7946584dcb9c1771101399e394e0245f6，含57 U/T/e/f/grid/168，无X二jets/J。56所有J/模型不可跨点。原raw66570126B/d73905a51631f39a233b3dcfbb3b1a3101b196eb9e766574fcaf5d4cb8f9ea71，完整记录身份见57结论。
 
-## 5. 正在接续（2026-11-16 11:34 UTC）
+## 5. 正在接续（2026-11-16 11:42 UTC）
 
 57新模型需当前真实导数，必要二jets尚未保存，重建如实计费。[后继源码](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)有直接actual168非线性metric、paid selected二jets出口/全168 J适配，0执行。未来接受先学习pool再趁ordinary内存导出，不能倒填57或伪造未存hard点。非线性metric/曲率另立身份/预算，原14门保。
 

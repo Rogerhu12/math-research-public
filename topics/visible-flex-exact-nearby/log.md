@@ -229,3 +229,27 @@ Tail完整读8小primary；root完整读R127证明、R128实际17门报告及其
 ## 2026-11-16 11:33:44 UTC — 执行R127单件普通清理
 
 白名单已先推503b76c7e02769ea8d2e5a12bf6f8e635e39ffdb。本次fresh guard仅删除 `notes/2026-11-13-Codazzi-continuation-r001-v3-native.json`（100644/blob，Git1c0abbebb166c6b85a87cb52b4aeab8378567b4c，644624B）。root用完整Git-tree元数据核current与restore40eeef92同path完全一致；未请求大body。全部小primary、v1/v2失败、candidate/定义与历史不变；R128历史consumer如再使用必须先还原完整旧字节核SHA0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb，禁重复原数值。新科学0。read parent 503b76c7e02769ea8d2e5a12bf6f8e635e39ffdb 两README无变；本次仅普通Git删除，不改写历史。
+
+## 2026-11-16 11:36:13 UTC — WPTVS只续原未完成body，完整原球语义
+
+原失败边界241f5299751dd5582457758e64652dd73d04f4c9已先推。原43854566735/1 collar0全部已成、body1未有完整reference/交集/整max；原marker及c1228b9d完整manifest不改。新source ff79fe62e6a948b2536d2594e995047eb65fd820/31266B/SHA159d8fdc153cadf844e1d28f2e0271ae12e55c38d560d7330ee28f164bf21d3c，reader3cd5ad5133f53a5da9f28b86fbb40621063678f4/44792B/SHA858a23686729f0d714dd623c9687830ca999b0a0f756d5c2d649dec07d41e4dc，worker4342/a3c1保持。新manifest a5f5c36cc5bdcd133c099e53921a3f6f2b681185/46338B/SHA296d3f664909f94c78b5029bc22ac2cfe53b603600aa2aef5c10f47c638fad8b，27完整current/19历史/10AST；3原failed文件额外pin，原32fields及44field execution全部验证。
+
+有限ASCII parser处理裸/精确括号/中点半径/零中心半径，原badtoken未保存，不声称知道哪类触发。原3/5字段以原producer lower/upper hull读；float显示字段不作为bounds或reference。actual K/gamma正和Cref负门仍须真实通过。reference签名仅任意精确选择，完整signed差和原full96/65repair/4650行/3594接口全部付。document从完整旧SCI复制，5原球/witness/chain/count只读，first target不重start；唯一loop body1..152，领口分支移除。允许重做仅原parent1未保存内部工作，已成目标lost0。
+
+WPTVS证明da32e8e0/16633B/SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05341eadbd29495b，仅把Markdown行内定界符按根规4正规化，数学不变。root完整核source/reader差、三旧文件资格和preflight1580B/8a3c8724。完整success/false/partial SCI模型30314/29478/45435B<50000；完整execution latefailure78870B、readonlyfailure74652B<80000；全publication138000+reserve120000。按fresh capacity199213302B加代码净16052/manifest46338/proof16633与journals有充分余量。源静态括号核通过，真实AST仅公开Actions；本次新数学0，下一单独workflow才启动。3b98677a43241a2c91e56c3c804cec7fa098fe0b两README核同已读。
+
+## 2026-11-16 11:36:43 UTC — 单独启动WPTVS remaining-body公开CI
+
+源/manifest已先推da09f8fcc335ae3c27a1fde4eaa28c550fbded20。本次仅加独立 `.github/workflows/visible-exact-frozen-cross-block-remaining-body.yml`，固定manifest296d3f66与原worker4342/a3c1、公开本仓Ubuntu/Python3.12.14/flint0.9.0；原workflow和旧marker保。新problem只允许读原collar后续body1..152、固定m1,2与conditional inverse，无finite矩阵。fresh tree da09f8fcc335ae3c27a1fde4eaa28c550fbded20 实际199294965B，加138000完整publication、120000 reserve及本小journal低于200MB；worker预执行/立即science前再次真pull、核两README及容量。本次只是启动记录，不预断科学结果；任何失败先保存完整prefix再声明下一未完边界。README核da09f8fcc335ae3c27a1fde4eaa28c550fbded20同已读。
+
+## 2026-11-16 11:38:07 UTC — WDS全四块双侧残差与真finite Schur
+
+保存proof5e93ca37c37d82787ea870aad977712f41b2d4ea/32943B/SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。完整证明给D=B*Qf*−R*Y、T=C−RZ与E的真signed配对，恒等I−QfM=E+D*R^-1T；须同Hilbert权e+κdt<1才证真实square逆。双rhs公式与z重建完整闭合，不把无符号上界当signed矩阵。dual原弱Green含identity/Volterra/head/mean/端点/jump及H−1、H−2/3的真实对偶Riesz，全部七port旧receivers仅只读。centre32+65repair+full96差、真outer H−5/6、97root补+96outer、193mean/ν/coker全部保。
+
+WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝试实现，精确pivot/action/transpose/norm及完整残差仍未算；root不能由旧WHVA false或未完WPTV授逆。WPTVS43859287399/1目前运行中。完整清理旧H段只压成fe7649afa86974eba204533434e24b7cae903307同H及原白名单索引，全部原scope/恢复/失败/lost仍保，未增审批或重跑门。本次纯证明新结论，0新数/0旧重算。89be4f87df9a733f53519b58bafdad2844083c99两README同已读。
+
+## 2026-11-16 11:38:53 UTC — WML完整local正权六步mean定理
+
+保存04827463ed6c8f81bcd54f278c004bcae668f7d5/31888B/SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。原实[rc,r*]和z_ph(r*)=0下p=aJ/DJ、w≥3/4给L1核，完整e/ek角0..6共21，Mr与4真实radial强迫amplitudes35；N6保7×4至2×9全部169记录/10terminal；8mean+6negative+2endpoint+6whole共22，总247为新未算目标。全mean/原Jr/g1/3070jump/四端/完整H/ν/coker/96及whole/reduced均不变，严格flux公式不延到root且无1/T局部除法。
+
+原已完成local γ桥、local mean_N6、WMR42/2exp及WMT195均只读禁止重算。root及代理已闭完整形式和原typed source使用；角6使用完整physical_coefficients_local，不拿旧c4×5替代。WMT真实结果已显示主项是nonmean strict/collar，故本次只保存已证定理，247不启动；下一新数值优先完整retained-profile重分解，不能假称WML改善已算。open原WHR/WHV/W96长重复摘要压到既有9f69ecd3完整逐字档索引，全部未付义务保。本次新算术0；89f20ce86430eb65199268e1e8d6add6619f0ee5两README同已读。

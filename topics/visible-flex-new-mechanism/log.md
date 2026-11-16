@@ -691,3 +691,13 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 11:34 UTC — Astra-new-mechanism-9974ea84 / cap5唯一新证书入口
 
 固定全五门/C尾/85势/九不等式源及唯一600秒账户（LP≤180、后留180 judge），全部负有理余系数计积分损失；请求push触发公开Actions，无旧搜索/预检/改池。尚无科学观察，原stdout与末clock为准。
+
+
+## 2026-11-16 11:39 UTC — Astra-new-mechanism-9974ea84 / 真57全168非线性新任务
+
+提交新600秒当前57模型：必要2ordinary/2J，20旧tag仅ID重算，h≤1/128，固定7尺度全非线性metric/曲率筛选接原两网14门；接受后先learn再导出paid selected二jets。源/请求push触发唯一public Actions，旧账闭；open旧原文归档未撤条件。
+
+
+## 2026-11-16 11:42 UTC — Astra-new-mechanism-9974ea84 / cap5实际LP无候选
+
+原run43859053666的唯一LP到180秒限、nit270738/xNone，0有理judge，总183.90384485000004秒/0overrun闭账；未判有限或真实cap类。完整stdout/最后clock/两轮双仓pull已记note，继续同图解析问题，不重启本LP。

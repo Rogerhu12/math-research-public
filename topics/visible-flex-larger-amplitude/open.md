@@ -19,14 +19,15 @@
 |211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)|81156/5994全读；零H284.145s收敛，首1/64全576J/R273后α1真实接受196395.0911309943→5181.565456345417；下方向iteration1 stage105/cell1/segment4原18000预算止，正response/338/audit/FD-fullDN未付，10:25:27真清。|
 |223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)|run43839064900/source035d，16exit0＋8原eligible和f847控制流付8warm/freshFD交接，非native/coupled/fullDN。whole113011/fc09、recovery113361/1cc7超90K70无body；具体α/merit/FD值/末三词/末父7未返。八必要先存再退原大payload，quiet但cleanup skip；runner销毁后无可续末父。|
 
-204/R446虽四组件旗返但111829必要超限、不能补215；208/R467零H5774s而首1/64 stage366停、0R273/0trial，原清理与完整记录均保正文。206/R455及213/R480原八39交接亦不冒完整BVP。运行中仅如下四个，以唯一读者终态正文为准，root不重复取科学日志：
+204/R446虽四组件旗返但111829必要超限、不能补215；208/R467零H5774s而首1/64 stage366停、0R273/0trial，原清理与完整记录均保正文。206/R455及213/R480原八39交接亦不冒完整BVP。运行中如下五个，以唯一读者终态正文为准，root不重复取科学日志：
 
 |请求/结果|真实run / source / compute|唯一终态读者|
 |---|---|---|
 |224/R525|43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89 /133243448382|amplitude；11:00 step11全H/J/R273|
 |225/R528|43852521165 /5af07ed64877475bc05a488306246c9be22926bb /133248437738|exact；11:00 step11原科学|
 |222/R511|43837980277 /6643ea831419fb5adf1fd5d21fdbc918fe86c4cd /133199299786|amplitude；11:00 step18全physical/far|
-|217/R490|43838608475 /4a08bebb63482c34c3bb7460582772a966e25c51 /133207238555|geometry；11:01 step19全physical/far|
+|228/R541|43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /官方job待reader记录|exact；11:33官方queued，唯一POST200；217已终态R490|
+|227/R539|43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805|amplitude；单POST200，11:43 setup；[官方绑定](notes/2026-11-16-request227-official-run-binding.md)|
 
 ### 1.2 已接来源与实际瓶颈
 
@@ -44,6 +45,10 @@
 
 **[R540/228](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件本次完整刊**：114public+6生成=120保原223全部116，当前helper75760/bb02与worker29708/ea2d在真HERE实际接R533，原f793 compose无输入schema guard，旧223格式名与真实228 run/source分清。原八39/98原父/完整freshFD/全部门/10500/175/195min/90K70/owned quiet保持；normal/recovery同一新表示，overflow只具名大小，成功后cleanup补实际comp到sys.path且不改范围/规则。R541 exact唯一读者，单次官方dispatch完成后另绑实际run/head；当前没有新数值或fit保证，不以来源120推无限动态闭包。
 
+**已证明完整源码组成及有限原路径的条件字词保持；新源未执行。** [R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)/[接口](notes/2026-11-16-complete576-parallel-cellflow-source-interface.md)七件189535B：parent21284/9434、pool29074/ab6d、reader20373/da99、generator10495/b628、plan63026/4996、proof17455/b0a7、interface27828/d898。原224全部181来源保，四public＋八gen成193；实际same HERE完整runner/client/reader已接。主线程按原n/profile/k顺序取完整实际profile，worker每engine保持原n序、全226×224/双mean；主线程原port除法/累加/边界次序保。仅withJ并行，原noJ/endpoint/audit/十trial/R273门保；只声明固定实际源有限成功全路径，不冒任意callback/FIFO中断或资源前沿等价。全stage地址先记、完整partial/首原numeric error条件与每worker/主engine统计分责保；unknown/resource不补数学拒。线程old-generation总预算≤6144MiB另保main6144，不冒RSS；原单18000钟/90K70/quiet保持。实际R538/227将选2×3072并接原224准备后新193，尚未dispatch/预填收益，R539预留唯一amplitude。
+
+**完整实际入口已成，实际结果留R539。** [R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)三件94103B/topic40357B：request19994/56c9、workflow53746/3305、证明接口20363/46ae；R531七件原字保。真新job先原224全部181恢复，再同HERE四helper/八view形成193，原224 request88551/6aa2、recipe21539/0c9完整祖先另列。实际runner15716/4c7e、reader50519/fb88、report/cleanup/来源receipt和当前workflow语法范围全部用真新source，不仅换外层标签。明确2×3072MiB线程old-generation，原main6144另保，不冒RSS；原M112/N2048/576/226×224/双mean/全部H/J/FD/fullDN/末audit、18000/330/350min/2700规则/90K70/owned quiet保持。source准备与科学一次钟分层，新源失败与超限保raw，旧已删父不续、未返不补。新增.github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml仅本题入口；发布后官方一次dispatch，实际run/head另记，amplitude唯一R539，不预填速度或接受。
+
 ### 1.3 当前128权威解与完整64模型
 
 [R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476/f930已刊完整纸证：同次X128全577×224一次RN64、同实际DN全576×226×224/port/两mean形成明示近似模型；有限64字准确嵌入128。原128值/residual/replay/audit仍权威；重新anchor L(H)=D(H)保原最终真实BC1e−11/RMS1e−6/fresh J+audit责任。完整338mixed J可随新模型变，FD只检affine一致性，不证DD；不新增全解析门，无J误差/收敛/速度保证。c218旧fixed64禁止/false及R501旧全128stage绑定不能冒用。
@@ -51,6 +56,8 @@
 **[R532](results/R532-current-owner128-projection-and-complete64-stage-library.md)本次完整三件84417B**：Python25000/fab3绑定真实四source/七schema/run/call/H/全state/residual/stage和fresh replay，原b233一次投影全577×224；JS32316/2279在同DN原engine/profiles/steps调用完整576×226×224，保端口前/后224²/双mean、原输出/诊断和每stage完整ledger。只在全部实际输出齐后complete；当前partial保未付后缀和实际数组尾字，非finite不补0。实际原clock回调及同步cell owned hard-stop由调用者接，Python/Node钟epoch不能混同。原128state及所有非线性门不改，单90K超限70、raw全保/无cleanup权。
 
 R532只是两库：R534尚须真实owner-first handoff、同对象执行、全部J/双mean准确lift128、诚实new boundary/endpoint/audit/assembly与全source闭包/必要reader/原owned clock。原a090入口先readG，即使base不依G也不能冒现有noJ接口。R509未tol/replay时不具完整R532输入，后置设计不能假称解决先行停止。当前无新request/真实J/新accepted父。
+
+**228实际已单POST200**：run43858623707/attempt1、实际head99f4ee650e031448e9fcb33ead672e48a8babd3d为发布e5af直接子提交，仅HANDOFF规则一行改变，comp/.github/双README同字，详[官方绑定](notes/2026-11-16-request228-official-run-binding.md)；R541 exact唯一，无数值预填。
 
 ## 2. 准确十族候选与完整453→450
 
@@ -63,6 +70,8 @@ R532只是两库：R534尚须真实owner-first handoff、同对象执行、全�
 [R488实际216](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)全112far/joint、13850点/16128field完成，但free12456181760<34359738368，BVP/453/450及15后继未始；八必要齐而rules98410>90K未返/cleanup skip，无可续父。C/factory未付与coast中心严格反证各按原域保。当前222/217已真实另接R498首行gzip及所有stored/decoded消费者、R499全规则reader，不能倒填216或预保证空间。
 
 218/R507的union57beb裸dict语法错与220/R506政策JSON误入source-only名单均在科学前停止；完整source/pin/失败/未返/cleanup skip保各正文与固定旧open。当前222独立修复分类，原既有run不追改、不把源准备成功冒数值成功。首完整accepted453→同g真450仍未返，不能从已删原state、SHA或任何同C采样补接受父。
+
+**[R490实际217](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d本次完整刊**：source4a08/run43838608475，compute133207238555/report133265145172两终志各唯一。新R503准确十点factory requested域1028 passed/1637 processed且unresolved/unvisited0；全C有效包围仍有2609工作分辨率未达，非新数学门。全112far/joint/13850点/16128field/4数组齐；R498 stored20359322057与decoded95028212980/1604049行真核，末free86813122560，BVP实际已启动1.029s后native source guard而非旧空间门。closed另独立orchestrator guard；旧220 composition原件93236且necessary超90K无marker，refinement71079 body返但依赖不全。R499 rules85398与21755742完整，原15后继和新8roles全not-started，没有453/450。原quiet范围齐仍实际cleanup skipped，绿色step不冒删除，无下一job可用父。exact续R544真实launcher/owner/orchestrator来源和完整composition具名语义修复→R545/230/R546；原scientific/32GiB/钟/全门不减，不以source错误判无解。
 
 ## 3. 完整C/far、闭场与固定目标精化
 

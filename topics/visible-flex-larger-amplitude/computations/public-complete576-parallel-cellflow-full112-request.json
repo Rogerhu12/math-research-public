@@ -1,0 +1,405 @@
+{
+  "schema": "public-complete576-parallel-cellflow-full112-request-v1",
+  "request_number": 227,
+  "repository": "Rogerhu12/math-research-public",
+  "lanes": [
+    "parallelComplete576Original112"
+  ],
+  "source_only_ancestor_request_number": 224,
+  "namespace": "visible-original64-input-support-contracted-trace224",
+  "namespace_scope": "Immutable original224 child namespace recreated fresh inside this actual227 job; no old run payload is consumed.",
+  "original224": {
+    "published_source": "498c03a7753a6f6caf66b563b2319cd42a447aaf",
+    "actual_source": "23176ac678ea92882fa38ec6ddcc09e98742ac89",
+    "request": {
+      "file": "topics/visible-flex-larger-amplitude/computations/public-six-control-input-support-contracted-trace-r273-request.json",
+      "bytes": 88551,
+      "sha256": "6aa2f23f2e92f326ea2bf17b58f084c28580f5a44420c8cf47816597e9e5b980"
+    },
+    "workflow": {
+      "file": ".github/workflows/visible-larger-public-six-control-input-support-contracted-trace-r273.yml",
+      "bytes": 42646,
+      "sha256": "599f32c8a238dfd7bee7affacabcc1a3aeb51cb185619e509a477136e9320a41"
+    },
+    "generator": {
+      "file": "topics/visible-flex-larger-amplitude/computations/root_20261116_input_support_contracted_source_views.py",
+      "bytes": 23213,
+      "sha256": "7b83c7c69b155bb99d402f9d03e24dbb11bf0d57ab239c1d23c9839d2e583f1f"
+    },
+    "source_plan": {
+      "file": "topics/visible-flex-larger-amplitude/computations/request224-input-support-contracted-source-plan.json",
+      "bytes": 36611,
+      "sha256": "9a184000c0b8e81dc3d247e39b873a2c66cc7be4a42cfa01090df8ebf2fd7326"
+    },
+    "parameter_recipe": {
+      "file": "topics/visible-flex-larger-amplitude/computations/actual119-batch3-input-support-contracted-trace224-lambda0p001-recipe.json",
+      "bytes": 21539,
+      "sha256": "0c9fa04642835dd37f9da5aeb03a35abae4be4e75283c3e2203a73dcec6544ea",
+      "origin": {
+        "kind": "literal actual119 third batch terminal six parameters; not the eighth terminal point, a nonzero field or a native parent",
+        "run_id": "43693462669",
+        "source_commit": "6fffce1f36e876f3b08a1c73198a7fde259d94d6",
+        "selected_batch_one_based": 3,
+        "final_batch_of_origin_run_selected": false,
+        "original_status": {
+          "bytes": 1568824,
+          "file": "six-control-curved-status.json",
+          "sha256": "10c31f1da398f537f1c9dfb19a162bb6aadb30e7e57fddafffebf7a9a60c08e4"
+        },
+        "compact_summary": {
+          "bytes": 73546,
+          "sha256": "4ec08e23ea41bc3f443f04f613270163c9e8624d8b4172ab2a35f998b75acf5a"
+        },
+        "producer_file": "geometry_20261115_small_core_six_control_curved_recipe.py",
+        "producer_sha256": "e154afe28c588ce0c2ae936d4304b67ec84e2b46c96b03e48ce4113e2401a761",
+        "batch_driver_file": "geometry_20261115_six_control_temporary_batches.py",
+        "batch_driver_sha256": "b9db240d4ad1d1a12135e8a44db1a034b7bd6721d197ca8273aec9bed7eda4da",
+        "source_point_first_three_column_singular_values": [
+          193504546.48297158,
+          166241.91917386654,
+          23.479971346554226
+        ],
+        "source_point_complete_six_column_singular_values": [
+          194240478.14283228,
+          192125.2730766859,
+          30.014184216747374
+        ],
+        "seed_selection_is_a_floating_response_heuristic_not_rank_or_root_proof": true,
+        "low_three_threshold_passed": false,
+        "native_solution_claimed": false,
+        "lambda_is_an_explicit_new_experiment_parameter_not_a_saved_result": true
+      },
+      "motivation_from_actual120": {
+        "run_id": "43694844403",
+        "source_commit": "ace38440324f09471482826136584da38960c417",
+        "compute_job_id": "132752997196",
+        "report_job_id": "132753527828",
+        "compact_summary": {
+          "bytes": 19463,
+          "sha256": "4f2be484a9d33faf5b9072bbb0c22989d885351a28a229f504aed34d1f081b85"
+        },
+        "original_failure": "Error: momentum branch D/S/A rejected",
+        "lastIteration": null,
+        "native_trials_returned": 0,
+        "original_current_H_source": "new full112 preflight and true_height with the same literal six parameters and four original inputs",
+        "same_input_parameter_experiment": true,
+        "old_response_or_checkpoint_used_as_current_anchor": false,
+        "old_compact_H_reconstructed_as_new_target": false,
+        "scale_path_s_not_core_lambda_or_surface_phase": true
+      },
+      "motivation_from_actual124": {
+        "run_id": "43698138088",
+        "source_commit": "b1df8ec306e596256a317df925464af6acaa31c6",
+        "compute_job_id": "132763110680",
+        "report_job_id": "132807763676",
+        "compact_summary": {
+          "bytes": 40051,
+          "sha256": "455945a39c5ab2e9d56f6378b7cef8cbe055d562fadcc0800c93b7f9c2b5bd1b"
+        },
+        "observed_positive_mathematical_refusals": 13,
+        "observed_original_noJ_trials": 130,
+        "observed_all_positive_trials_same_guard": "momentum branch D/S/A rejected",
+        "observed_trial_location": {
+          "stage": 0,
+          "rawCell": 0,
+          "rawSegment": 8
+        },
+        "observed_completed_positive_base_withJ": 13,
+        "last_in_flight_call_not_a_mathematical_result": 15,
+        "original_warm_preserved_to_separate_correction_change": true,
+        "first_positive_height_scale": 0.015625,
+        "original_state_J_or_response_not_imported": true,
+        "new_H_and_all_current_arrays_formed_by_original_current_worker": true,
+        "old_H_words_or_failed_checkpoint_not_recovered_from_hash": true
+      },
+      "motivation_from_actual195": {
+        "source_commit": "4ad7fb771218585af1091c9d322c9d61b64a949c",
+        "run_id": "43771125613",
+        "compute_job_id": "132987043859",
+        "report_job_id": "133078432173",
+        "necessary_summary": {
+          "bytes": 41421,
+          "sha256": "e43d25f621c9e5542a442dc3d3ea42a454b4e2036036722b383e1fb844068229",
+          "hash_scope": "original compact ASCII JSON excluding separator LF"
+        },
+        "result": {
+          "file": "topics/visible-flex-larger-amplitude/results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md",
+          "bytes": 20290,
+          "sha256": "5d8d4eea2cb60bc02e24c61be8c66b2cc23503aebb82ef2fef83b0b452668955",
+          "published_commit": "b33160624049313b2bda9d66d3da25dab03410cb"
+        },
+        "observed_zero_H_request_returned": true,
+        "observed_first_positive_H_scale": 0.015625,
+        "observed_complete_positive_base_J": false,
+        "observed_native_positive_iterations": 0,
+        "observed_native_positive_trials": 0,
+        "observed_stop": "finite-trace-direction-resource-budget",
+        "observed_stop_location": {
+          "stage": 368,
+          "rawCell": 5,
+          "rawSegment": 7
+        },
+        "old_state_root_tape_J_or_response_imported": false,
+        "old_hashes_used_to_resume_deleted_state": false,
+        "original_zero_update_local_field_and_angular_cost_not_removed_by_this_change": true,
+        "new_floating_order_may_change_later_direction_and_trajectory": true,
+        "this_is_an_independent_numerical_implementation_not_a_confirmed_root_cause_or_speedup": true
+      }
+    },
+    "original_request_recipe_and_all181_source_bytes_unchanged": true
+  },
+  "r531": {
+    "generator": {
+      "file": "topics/visible-flex-larger-amplitude/computations/root_20261116_parallel_cellflow_source_views.py",
+      "bytes": 10495,
+      "sha256": "b628d09aa75b0f3942549a2f9f24b4fa5cd618766c82b76adb565a64254e9149"
+    },
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/computations/r531-complete576-parallel-cellflow-source-plan.json",
+      "bytes": 63026,
+      "sha256": "499616558f05865726aefa63c10842fa1a8a73172da557a18dbf7b8d574e61b7"
+    },
+    "proof": {
+      "file": "topics/visible-flex-larger-amplitude/results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md",
+      "bytes": 17455,
+      "sha256": "b0a7c748c44183de7921a0011fefe2713cbc3867425cdc87b8a87f9256b0dee9"
+    },
+    "interface": {
+      "file": "topics/visible-flex-larger-amplitude/notes/2026-11-16-complete576-parallel-cellflow-source-interface.md",
+      "bytes": 27828,
+      "sha256": "d898c9ad3c606646764ed7c5d39d907e2d858382afeebcbe6dbbde79c379316a"
+    },
+    "required_public_helpers": {
+      "geometry_20261116_complete576_parallel_cellflow.mjs": {
+        "bytes": 21284,
+        "sha256": "9434c8f003b19745446fbc798f12efc464719474bad3385553cff3368be225aa"
+      },
+      "geometry_20261116_complete576_cellflow_pool.mjs": {
+        "bytes": 29074,
+        "sha256": "ab6dff37f021cee82ace600ebc1e48ce32285f41a7a1f18b6f891aecff86369c"
+      },
+      "root_20261116_parallel_cellflow_necessary.py": {
+        "bytes": 20373,
+        "sha256": "da99e600bbfb4fd557890dae335c59135a00f2ad179b8050b9f5018cf0080c95"
+      },
+      "root_20261116_parallel_cellflow_source_views.py": {
+        "bytes": 10495,
+        "sha256": "b628d09aa75b0f3942549a2f9f24b4fa5cd618766c82b76adb565a64254e9149"
+      }
+    },
+    "generated_sources": {
+      "exact_20261116_parallel_input_support_contracted_trace_r273_current576_system.py": {
+        "bytes": 29888,
+        "sha256": "1b51c672277ab1e0919bb00392bfc2634e36e7e64caa58b43d62d6781ca3385a"
+      },
+      "exact_20261116_parallel_input_support_contracted_trace_r273_current576_chain_qr.py": {
+        "bytes": 22153,
+        "sha256": "9b20fab094c12c471f8c61a968a0dde0249ee1a1e71c30cdd2bb88a46bfc1b42"
+      },
+      "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client_hook.mjs": {
+        "bytes": 60059,
+        "sha256": "6911a4b3224dc5b726d435f3b44e4127c05e8d8a15f6cdaccaf8872c932234ba"
+      },
+      "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py": {
+        "bytes": 23870,
+        "sha256": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2"
+      },
+      "geometry_20261116_parallel_input_support_contracted_trace_r273_height_path.py": {
+        "bytes": 24104,
+        "sha256": "2c92d191b8cedecf235176209cc6eb7d432622d0f8f416bfe4572c1c12584a3b"
+      },
+      "geometry_20261116_six_control_parallel_input_support_contracted_trace_r273_full112.py": {
+        "bytes": 52339,
+        "sha256": "525be2072fee4f53122d5802ef57d8b00f24e7b08408a3ed0441fd1872686311"
+      },
+      "root_20261116_parallel_input_support_contracted_trace_r273_run.py": {
+        "bytes": 15716,
+        "sha256": "4c7e13df26c39ab881ac878429150b79e7536e55908d3ae69d097bba3c4afe19"
+      },
+      "root_20261116_six_control_parallel_input_support_contracted_trace_r273_scalar_readout.py": {
+        "bytes": 50519,
+        "sha256": "fb8899e0da24ff8b6b7d5e728b3906c5096f57e0e93c0e511bfc506ddd32ea96"
+      }
+    },
+    "actual_source_union": {
+      "original_count": 181,
+      "new_public_helper_count": 4,
+      "new_generated_view_count": 8,
+      "total_count": 193,
+      "source_counts_are_not_a_proof_of_arbitrary_dynamic_import_completeness": true,
+      "actual_source_topic_78_file_restore_retained_separately": true,
+      "all_new_views_share_actual_original_computations_HERE": true,
+      "original_source_files_not_overwritten": true
+    },
+    "schema": "R531-complete576-parallel-literal-source-plan-v1",
+    "receipt_schema": "R531-complete576-parallel-actual-source-views-v1",
+    "receipt_relative_directory": "parallel-source-views",
+    "original_source_generation_precedes_R531_generation": true,
+    "all_generated_files_share_original_actual_computations_HERE": true,
+    "original_public_source_files_not_overwritten": true,
+    "no_expanded_generated_source_files_published_to_Git": true
+  },
+  "actual_entry": {
+    "runner": {
+      "file": "root_20261116_parallel_input_support_contracted_trace_r273_run.py",
+      "bytes": 15716,
+      "sha256": "4c7e13df26c39ab881ac878429150b79e7536e55908d3ae69d097bba3c4afe19"
+    },
+    "full112": {
+      "file": "geometry_20261116_six_control_parallel_input_support_contracted_trace_r273_full112.py",
+      "bytes": 52339,
+      "sha256": "525be2072fee4f53122d5802ef57d8b00f24e7b08408a3ed0441fd1872686311"
+    },
+    "client": {
+      "file": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+      "bytes": 23870,
+      "sha256": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2"
+    },
+    "reader": {
+      "file": "root_20261116_six_control_parallel_input_support_contracted_trace_r273_scalar_readout.py",
+      "bytes": 50519,
+      "sha256": "fb8899e0da24ff8b6b7d5e728b3906c5096f57e0e93c0e511bfc506ddd32ea96"
+    },
+    "runner_schema": "R531-complete576-parallel-owned-process-wrapper-v1",
+    "full112_schema": "R531-six-control-parallel-cellflow-three-active-nonzero112-physical-DN-v1",
+    "original_recipe_implementation_fields_are_explicit_ancestral_provenance": true,
+    "actual_code_selected_by_current_source_pins_and_explicit_runner_argv": true,
+    "actual_request_env": "VISIBLE_R531_ACTUAL_REQUEST",
+    "source_plan_env": "VISIBLE_R531_SOURCE_PLAN_SHA256",
+    "source_receipt_env": "VISIBLE_R531_SOURCE_VIEW_RECEIPT"
+  },
+  "parallel_execution": {
+    "worker_count": 2,
+    "worker_heap_MiB": 3072,
+    "aggregate_worker_old_generation_ceiling_MiB": 6144,
+    "original_main_Node_heap_MiB": 6144,
+    "worker_count_env": "VISIBLE_R531_CELLFLOW_WORKERS",
+    "worker_heap_env": "VISIBLE_R531_CELLFLOW_WORKER_HEAP_MB",
+    "complete_actual_stages": 576,
+    "physical_modes": 112,
+    "shape_columns": 224,
+    "state_entries": 226,
+    "original_n_order_result_reduction": true,
+    "actual_profile_calls_in_original_full_order": true,
+    "original_noJ_and_internal_complete_tangent_requirements_retained": true,
+    "original_all338_by112_response_and_two_means_and_audit_retained": true,
+    "same_actual_H_state_target_scales_in_every_worker": true,
+    "no_old_field_J_checkpoint_or_response_reused": true,
+    "original_stdin_protocol_worker_not_imported_by_threads": true,
+    "original_engine_assignment_is_engine_index_mod_worker_count": true,
+    "worker_and_main_actual_counters_kept_separately": true,
+    "all_original_R523_fourteen_counters_last_observations_and_scope_retained": true,
+    "original_single_deadline_not_restarted_per_worker_call_height_or_iteration": true,
+    "original_five_literal_numeric_error_priority_only_after_lower_stages_complete": true,
+    "all_other_actual_errors_kept_as_original_or_unclassified_partial": true,
+    "extra_worker_resource_frontier_is_not_the_original_serial_frontier": true,
+    "aggregate_heap_ceiling_is_not_combined_RSS_or_ArrayBuffer_bound": true,
+    "speedup_memory_completion_acceptance_or_full_roundoff_bound_claimed": false
+  },
+  "execution": {
+    "jac_workers": 2,
+    "max_nodes": 1200,
+    "material_angles": 4096,
+    "physical_angles": 4096,
+    "node_heap": 6144,
+    "outer_iterations": 8,
+    "original_inner_trial_count": 17,
+    "original_native_max_iterations": 32,
+    "original_native_trial_count": 10,
+    "collocation_tolerance": 0.000001,
+    "boundary_tolerance": 1e-11,
+    "native_tolerance": 2e-9,
+    "boundary_FD_tolerance": 0.00005,
+    "scientific_wall_clock_seconds": 18000,
+    "science_step_timeout_minutes": 330,
+    "compute_job_timeout_minutes": 350,
+    "wall_clock_exhaustion_is_partial_not_a_new_nonlinear_rejection": true
+  },
+  "original_science": {
+    "inputs_via_frozen224": true,
+    "initial_recipe_words_unchanged": true,
+    "lambda_target": 0.001,
+    "active_parameter_indices": [
+      0,
+      1,
+      2
+    ],
+    "frozen_parameter_indices": [
+      3,
+      4,
+      5
+    ],
+    "all_original_height_R273_line_search_FD_fullDN_and_final_audit_gates_unchanged": true,
+    "no_fixture_benchmark_extra_probe_or_independent_scientific_gate": true
+  },
+  "necessary_readback": {
+    "entry": {
+      "file": "root_20261116_six_control_parallel_input_support_contracted_trace_r273_scalar_readout.py",
+      "bytes": 50519,
+      "sha256": "fb8899e0da24ff8b6b7d5e728b3906c5096f57e0e93c0e511bfc506ddd32ea96"
+    },
+    "schema": "R531-original64-parallel-complete576-necessary-readback-v1",
+    "marker_schema": "R531-owned-complete-parallel576-necessary-readback-v1",
+    "begin": "BEGIN_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+    "end": "END_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+    "single_body_limit_bytes": 90000,
+    "failure_exit": 70,
+    "all_actual_worker_engine_and_stage_statuses_error_and_partial_addresses_retained": true,
+    "missing_inflight_statistics_not_fabricated": true,
+    "original_source_count181_is_ancestral_full_actual_union193_is_separate": true,
+    "summary_capacity_not_guaranteed": true
+  },
+  "retention": {
+    "upload_artifact": false,
+    "upload_release": false,
+    "publish_raw_to_git": false,
+    "original_inputs_and_scientific_payload_RUNNER_TEMP_only": true,
+    "original_stdout_fields_and_output_hashes_only": true,
+    "compact_summary_limit_bytes": 90000,
+    "raw_factors_or_full_field_not_uploaded": true,
+    "cleanup_always_after_scalar_readout": false,
+    "per_correction_complete_fixed_binary_bytes": 704387088,
+    "fixed_binary_bytes_exclude_variable_JSON_integer_ledger_and_failed_temporaries": true,
+    "per_correction_raw_inventory_SHA_before_closed_removal": true,
+    "no_all_corrections_coexistence_claim": true,
+    "native_states_and_returned_delta_in_memory_not_deleted_or_replaced": true,
+    "entire_current_QR_child_stdout_and_stderr_temporary_only": true,
+    "bounded_actual_child_error_text_copied_into_correction_record": true,
+    "first_positive_refusal_limits_experiment_without_changing_native_trial_gate": true,
+    "cleanup_only_after_complete_necessary_scalar_readback_marker_and_fresh_owned_group_quiescence": true,
+    "owned_scientific_child_new_session_and_boot_PID_start_pgid_sid_recorded": true,
+    "always_readback_quiesces_only_verified_own_wrapper_and_child_group": true,
+    "unknown_ownership_or_unread_output_is_retained_until_runner_destruction": true,
+    "single_necessary_ASCII_summary_only": true,
+    "large_scientific_arrays_root_tapes_or_exact_witnesses_not_split_or_encoded_for_transport": true,
+    "original_trial_and_domain_failure_addresses_retained_within_single_limit": true,
+    "necessary_summary_overflow_is_transport70_not_new_native_rejection": true,
+    "original_full_error_streams_temporary_with_necessary_original_error_locations": true,
+    "recorded_factor_defect_and_contraction_matrices_temporary_only": true,
+    "actual_integer_contraction_counters_and_last_fallback_locations_returned": true,
+    "full_per_update_numeric_fallback_history_not_recorded": true,
+    "single_necessary_zero_flux_counters_and_last_original_positions": true,
+    "full_eligibility_direction_or_angular_tables_not_exported": true,
+    "source_views_are_same_job_temporary_code_not_large_scientific_data_encoding": true,
+    "complete_linear_A_T_or_output_arrays_not_exported": true,
+    "no_per_k_progress_or_finite_output_inferred_from_call_count": true,
+    "single_necessary_linear_fourteen_counters_scope_reasons_complete_last_positions": true,
+    "last_observation_null_absent_and_actual_partial_scope_retained": true
+  },
+  "workflow": ".github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml",
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "source_preparation_and_compilation": {
+    "only_public_Actions": true,
+    "existing_source_syntax_scope_extended_to_actual_sources": true,
+    "no_local_import_AST_compilation_science_or_fixtures": true
+  },
+  "status": {
+    "workflow_dispatched": false,
+    "actual_run_result_not_prefilled": true,
+    "status_is_predispatch_documentary_not_runtime_result": true
+  },
+  "file": "topics/visible-flex-larger-amplitude/computations/public-complete576-parallel-cellflow-full112-request.json"
+}

@@ -221,3 +221,23 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 11:31:23 UTC /root — R540请求228完整39语义必要入口及自身Actions
 
 **完整真实接线已付，无预填数值/容量结果。** [R540](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件169296B/topic147317B：114public＋6生成=120，原actual223的116逐值保；四历史view仅身份、当前helper75760/bb02与worker29708/ea2d在真computations执行。原assemble_chain实际import R533→原f793→具名可逆关系，normal/recovery同publish；f793无输入schema gate，旧223-contexts只是格式，真实request/run/source为228，两合法格式都保。原八39/model/各新warm完整freshFD、98原父/所有门/10500/175min/195min/90K70/owner/quiet不改。超限只增真实10根/25角色大小；新cleanup一行将实际comp放sys.path，原223此支未达不冒旧实发错误。新增.github/workflows/visible-larger-public-thirty-nine-semantic-relation-batches.yml为本题完整入口；根README不改。正式发布后一次官方dispatch，实际head/run待回执，R541 exact唯一终态，无unknownbody fit保证或旧删父复用。
+
+
+## 2026-11-16 11:35:09 UTC /root — R490完整实际217边界及228正式运行绑定
+
+**实际217全必要边界已完整成文。** [R490](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d，run43838608475/source4a08，compute133207238555/report133265145172两终志各唯一。R503本次新十dyadic域complete、requested1028 leaves/1637nodes/无未访；完整112far/joint、13850点/16128field、4全数组齐。R498 stored20359322057/623e与decoded95028212980/aba4、1604049行真核，末sampling free86813122560；不再旧空间停。BVP真启动1.029s后current-C native source guard，design453/frozen450未起；closed另独立orchestrator guard。旧220 composition原件93236/5c20而必要record超90K未返marker，refinement71079 body返但依赖不全；R499 rules85398完整，217必要55742完整且8roles全未起，原15后继也全未起。所有quiet范围分责；实际request220_cleanup_skipped，绿色step不冒删除，无接受父。R544继续真实argv/pin/完整composition语义修复，原全部门不减。另[228官方绑定](notes/2026-11-16-request228-official-run-binding.md)确认唯一dispatch/run43858623707、实际99f4为e5af直接子头，只HANDOFF规则一行不同，comp/.github/双README全同，R541 exact唯一。
+
+
+## 2026-11-16 11:41 UTC /root — R531完整并行源码、条件证明与真实调用接口
+
+**已证明完整源码组成及有限原路径的条件字词保持；新源未执行。** [R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)/[接口](notes/2026-11-16-complete576-parallel-cellflow-source-interface.md)七件189535B：parent21284/9434、pool29074/ab6d、reader20373/da99、generator10495/b628、plan63026/4996、proof17455/b0a7、interface27828/d898。原224全部181来源保，四public＋八gen成193；实际same HERE完整runner/client/reader已接。主线程按原n/profile/k顺序取完整实际profile，worker每engine保持原n序、全226×224/双mean；主线程原port除法/累加/边界次序保。仅withJ并行，原noJ/endpoint/audit/十trial/R273门保；只声明固定实际源有限成功全路径，不冒任意callback/FIFO中断或资源前沿等价。全stage地址先记、完整partial/首原numeric error条件与每worker/主engine统计分责保；unknown/resource不补数学拒。线程old-generation总预算≤6144MiB另保main6144，不冒RSS；原单18000钟/90K70/quiet保持。实际R538/227将选2×3072并接原224准备后新193，尚未dispatch/预填收益，R539预留唯一amplitude。
+
+
+## 2026-11-16 11:42 UTC /root — R538正式227全链入口与公开Actions
+
+**完整实际入口已成，实际结果留R539。** [R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)三件94103B/topic40357B：request19994/56c9、workflow53746/3305、证明接口20363/46ae；R531七件原字保。真新job先原224全部181恢复，再同HERE四helper/八view形成193，原224 request88551/6aa2、recipe21539/0c9完整祖先另列。实际runner15716/4c7e、reader50519/fb88、report/cleanup/来源receipt和当前workflow语法范围全部用真新source，不仅换外层标签。明确2×3072MiB线程old-generation，原main6144另保，不冒RSS；原M112/N2048/576/226×224/双mean/全部H/J/FD/fullDN/末audit、18000/330/350min/2700规则/90K70/owned quiet保持。source准备与科学一次钟分层，新源失败与超限保raw，旧已删父不续、未返不补。新增.github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml仅本题入口；发布后官方一次dispatch，实际run/head另记，amplitude唯一R539，不预填速度或接受。
+
+
+## 2026-11-16 11:43:09 UTC /root — 227官方实际run与发布同头
+
+227已正式单POST200：run43860144962/attempt1、compute133274517805、实际head与发布完全同5b5dd03b0d69c8a059282b963b7192679fd43f67，11:43:09前1–3success/4 setup；详[官方绑定](notes/2026-11-16-request227-official-run-binding.md)。R539由amplitude唯一终态读取，root科学日志0；193准备/双worker/完整原门/必要/quiet/清理均无预填。R538日志时刻据实际发布回执改为11:42；不改变来源或科学合同。

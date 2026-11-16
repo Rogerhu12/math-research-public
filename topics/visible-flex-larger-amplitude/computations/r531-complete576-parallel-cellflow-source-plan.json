@@ -1,0 +1,844 @@
+{
+  "schema": "R531-complete576-parallel-literal-source-plan-v1",
+  "generator": {
+    "file": "root_20261116_parallel_cellflow_source_views.py",
+    "bytes": 10495,
+    "sha256": "b628d09aa75b0f3942549a2f9f24b4fa5cd618766c82b76adb565a64254e9149"
+  },
+  "source_only": true,
+  "actual_run_dispatched": false,
+  "original224": {
+    "published_source_commit": "498c03a7753a6f6caf66b563b2319cd42a447aaf",
+    "actual_source_commit": "23176ac678ea92882fa38ec6ddcc09e98742ac89",
+    "request": {
+      "file": "public-six-control-input-support-contracted-trace-r273-request.json",
+      "bytes": 88551,
+      "sha256": "6aa2f23f2e92f326ea2bf17b58f084c28580f5a44420c8cf47816597e9e5b980"
+    },
+    "source_plan": {
+      "file": "request224-input-support-contracted-source-plan.json",
+      "bytes": 36611,
+      "sha256": "9a184000c0b8e81dc3d247e39b873a2c66cc7be4a42cfa01090df8ebf2fd7326"
+    },
+    "parameter_recipe": {
+      "file": "actual119-batch3-input-support-contracted-trace224-lambda0p001-recipe.json",
+      "bytes": 21539,
+      "sha256": "0c9fa04642835dd37f9da5aeb03a35abae4be4e75283c3e2203a73dcec6544ea"
+    },
+    "generator": {
+      "file": "root_20261116_input_support_contracted_source_views.py",
+      "bytes": 23213,
+      "sha256": "7b83c7c69b155bb99d402f9d03e24dbb11bf0d57ab239c1d23c9839d2e583f1f"
+    },
+    "original_source_count": 181,
+    "all_original_150_public_and31_generated_bytes_retained": true,
+    "old_generated_files_are_reconstructed_in_current_job_not_fetched_as_public_files": true,
+    "scientific_state_H_J_result_or_checkpoint_imported": false
+  },
+  "required_public_helpers": [
+    {
+      "file": "geometry_20261116_complete576_parallel_cellflow.mjs",
+      "bytes": 21284,
+      "sha256": "9434c8f003b19745446fbc798f12efc464719474bad3385553cff3368be225aa"
+    },
+    {
+      "file": "geometry_20261116_complete576_cellflow_pool.mjs",
+      "bytes": 29074,
+      "sha256": "ab6dff37f021cee82ace600ebc1e48ce32285f41a7a1f18b6f891aecff86369c"
+    },
+    {
+      "file": "root_20261116_parallel_cellflow_necessary.py",
+      "bytes": 20373,
+      "sha256": "da99e600bbfb4fd557890dae335c59135a00f2ad179b8050b9f5018cf0080c95"
+    },
+    {
+      "file": "root_20261116_parallel_cellflow_source_views.py",
+      "bytes": 10495,
+      "sha256": "b628d09aa75b0f3942549a2f9f24b4fa5cd618766c82b76adb565a64254e9149"
+    }
+  ],
+  "actual_source_union": {
+    "original_count": 181,
+    "new_public_helper_count": 4,
+    "new_generated_view_count": 8,
+    "total_count": 193,
+    "source_counts_are_not_a_proof_of_arbitrary_dynamic_import_completeness": true,
+    "actual_source_topic_78_file_restore_retained_separately": true,
+    "all_new_views_share_actual_original_computations_HERE": true,
+    "original_source_files_not_overwritten": true
+  },
+  "views": [
+    {
+      "id": "system",
+      "base": {
+        "file": "exact_20261116_input_support_contracted_trace_r273_current576_system.py",
+        "bytes": 29352,
+        "sha256": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-producer",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "label": "actual-hook",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client_hook.mjs",
+          "count": 1
+        },
+        {
+          "label": "actual-session",
+          "before": "input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "after": "parallel-input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "count": 1
+        },
+        {
+          "label": "explicit-current-binding-not-old-flag",
+          "before": "        B.same(core['exact_correction_call_roundtrip_verified'],True,'only declared correction call replacement')",
+          "after": "        B.same(core['schema'],'R531-complete-cell-dispatch-and-R273-core-instrumentation-v1','actual parallel source schema')\n        B.same(core['exact_complete_source_roundtrip_verified'],True,'declared complete source roundtrip')\n        B.same(core['internal_solve_source_identity']['exact_internal_source_roundtrip_verified'],True,'retained original solve with its R273 call')\n        B.same(core['evaluation_source_identity']['exact_evaluation_roundtrip_verified'],True,'exact two-change complete stage dispatch')\n        B.same(core['original_ten_trial_body_byte_identical'],True,'complete original ten-trial body')",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_system.py",
+        "bytes": 29888,
+        "sha256": "1b51c672277ab1e0919bb00392bfc2634e36e7e64caa58b43d62d6781ca3385a"
+      }
+    },
+    {
+      "id": "qr",
+      "base": {
+        "file": "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py",
+        "bytes": 22093,
+        "sha256": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-system",
+          "before": "exact_20261116_input_support_contracted_trace_r273_current576_system.py",
+          "after": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "label": "actual-system-pin",
+          "before": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70",
+          "after": "1b51c672277ab1e0919bb00392bfc2634e36e7e64caa58b43d62d6781ca3385a",
+          "count": 1
+        },
+        {
+          "label": "precise-description",
+          "before": "The parent retains the original fresh evaluate, ten trials, convergence,",
+          "after": "The parent evaluates all original cells through R531, then retains the original n-order reduction, ten trials, convergence,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_chain_qr.py",
+        "bytes": 22153,
+        "sha256": "9b20fab094c12c471f8c61a968a0dde0249ee1a1e71c30cdd2bb88a46bfc1b42"
+      }
+    },
+    {
+      "id": "hook",
+      "base": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs",
+        "bytes": 55119,
+        "sha256": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "explicit-dispatcher-import",
+          "before": "import {registerHooks} from 'node:module';",
+          "after": "import {registerHooks} from 'node:module';\nimport {loadParallelCellflowConstructor} from './geometry_20261116_complete576_parallel_cellflow.mjs';",
+          "count": 1
+        },
+        {
+          "label": "distinct-current-global-owner",
+          "before": "visible-flex.input-support-contracted-trace-r273-current576-client.v1",
+          "after": "visible-flex.parallel-input-support-contracted-trace-r273-current576-client.v1",
+          "count": 2
+        },
+        {
+          "label": "actual-new-spec-schema",
+          "before": "input-support-contracted-trace-r273-current576-tail-client-spec-v1",
+          "after": "parallel-input-support-contracted-trace-r273-current576-tail-client-spec-v1",
+          "count": 1
+        },
+        {
+          "label": "actual-new-session-schema",
+          "before": "input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "after": "parallel-input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "count": 1
+        },
+        {
+          "label": "actual-constructor-loaded",
+          "before": "if(spec.schema!==",
+          "after": "const makeParallelCellflow=await loadParallelCellflowConstructor();\nif(spec.schema!==",
+          "count": 1
+        },
+        {
+          "label": "actual-method-scope",
+          "before": "    core.exact_correction_call_roundtrip_verified!==true||core.original_ten_trial_body_byte_identical!==true)\n  throw Error('Only the declared original nonlinear correction call may be replaced');",
+          "after": "    core.exact_complete_source_roundtrip_verified!==true||core.original_ten_trial_body_byte_identical!==true||\n    core.evaluation_source_identity?.exact_evaluation_roundtrip_verified!==true)\n  throw Error('Only the declared correction and complete withJ stage dispatch source changes are permitted');",
+          "count": 1
+        },
+        {
+          "label": "actual-evaluate-identity",
+          "before": " equal(sha(actualEvaluate),evaluateSHA,'unchanged original actual public evaluate');",
+          "after": " const evaluation=core.evaluation_source_identity;\n equal(sha(evaluation.original_evaluate_source),evaluateSHA,'original actual evaluate ancestor');\n let recovered=evaluation.instrumented_evaluate_source;\n for(const change of [...evaluation.replacements].reverse()){\n  if(recovered.split(change.after).length!==2)throw Error('Actual parallel evaluate reverse anchor differs');\n  recovered=recovered.replace(change.after,change.before);\n }\n equal(recovered,evaluation.original_evaluate_source,'declared complete evaluate source reversal');\n equal(actualEvaluate,evaluation.instrumented_evaluate_source,'actual parallel evaluate function');",
+          "count": 1
+        },
+        {
+          "label": "evaluation-source-return",
+          "before": "  internal_solve_source_identity:inside,core_instrumentation_file:",
+          "after": "  internal_solve_source_identity:inside,evaluation_source_identity:evaluation,core_instrumentation_file:",
+          "count": 1
+        },
+        {
+          "label": "new-evaluate-scope",
+          "before": "internal_solve_is_not_public_wrapper_Function_toString:true,original_evaluate_has_no_new_observers:true",
+          "after": "internal_solve_is_not_public_wrapper_Function_toString:true,\n  withJ_complete_cell_dispatch_is_explicitly_changed:true,\n  original_residual_boundary_and_n_order_reduction_retained:true,\n  original_noJ_cellFlow_call_is_retained:true",
+          "count": 1
+        },
+        {
+          "label": "actual-statistics-scope",
+          "before": "  no_IEEE_roundmap_or_branch_neighbourhood_claim:true};\n}\nfunction finiteRootFailureView",
+          "after": "  no_IEEE_roundmap_or_branch_neighbourhood_claim:true,\n  main_engine_scope:'original noJ trials, initialization and endpoint/audit calls; worker withJ counts are separate',\n  parallel_cellflows:parallelController?parallelController.snapshot():null};\n}\nfunction finiteRootFailureView",
+          "count": 1
+        },
+        {
+          "label": "failure-source-scope",
+          "before": "  finite_trace_variation:error?.finiteTraceVariation??null,\n  original_root_trace:",
+          "after": "  finite_trace_variation:error?.finiteTraceVariation??null,\n  actual_parallel_cellflow_error:error?.parallelCellflow??null,\n  original_root_trace:",
+          "count": 1
+        },
+        {
+          "label": "actual-dispatch-function",
+          "before": "let installedDN=null,originalLive=null,activeRequest=null,lastCall=0;",
+          "after": "\nlet parallelController=null,parallelEngineOptions=null;\nfunction parallelCellFlows(args){\n const ctx=activeRequest;\n if(!ctx||!installedDN||args.cells!==installedDN.tail.cells)\n  throw Error('R531 dispatch uses the actual active original native cell objects');\n if(!parallelController){\n  const policy=spec.parallel_cellflows;\n  parallelController=makeParallelCellflow({\n   output:path.join(spec.output,'parallel-cellflows'),spec:{...spec,actual_spec_sha256:specSHA},\n   sourceFiles:policy.source_files,workerCount:policy.worker_count,workerHeapMb:policy.worker_heap_mb});\n }\n return parallelController.evaluate({...args,options:parallelEngineOptions,\n  context:{native_call:ctx.call,request_height_float64le_sha256:ctx.metadata.request_height_float64le_sha256,\n   original_request:ctx.metadata.request,\n   evaluation_sequence_is_not_an_invented_nonlinear_iteration:true,\n   fixed_original_state_and_target_are_bound_in_actual_input:true}});\n}\n\nlet installedDN=null,originalLive=null,activeRequest=null,lastCall=0;",
+          "count": 1
+        },
+        {
+          "label": "real-factory-options-and-owner",
+          "before": "  installedDN=dn;originalLive=before;\n  globalThis[Symbol.for(KEY)]={correction:currentCorrection,",
+          "after": "  installedDN=dn;originalLive=before;\n  parallelEngineOptions={modes:cfg.modes,spacing:cfg.spacing,quadrature:cfg.quadrature,\n   orientation:dn.tail.parameters.orientation,projectionFloor:dn.tail.parameters.projectionFloor,\n   cuspAwareFlow:cfg.cuspAwareFlow===true};\n  globalThis[Symbol.for(KEY)]={correction:currentCorrection,parallelCellFlows,",
+          "count": 1
+        },
+        {
+          "label": "owned-close-before-final-source-scope",
+          "before": "  process.once('exit',()=>{try{finishAll();}catch(error){process.stderr.write('R273 bridge retention failed: '+String(error)+'\\n');}});",
+          "after": "  process.once('exit',()=>{\n   try{if(parallelController)parallelController.close();}\n   catch(error){process.stderr.write('R531 pool close incomplete: '+String(error)+'\\n');}\n   try{finishAll();}catch(error){process.stderr.write('R273 bridge retention failed: '+String(error)+'\\n');}\n  });",
+          "count": 1
+        },
+        {
+          "label": "complete-explicit-runtime-source-program",
+          "before": "const correctionReplacement={before:'const cor=correction(ev,states,target);',\n after:'const cor=globalThis[Symbol.for(\"visible-flex.parallel-input-support-contracted-trace-r273-current576-client.v1\")].correction({ev,states,target,scales,it,M,K,depth});'};\nlet engineLoadCount=0;\nfunction transformEngine(loaded){\n if(engineLoadCount++!==0)throw Error('Only one original stored/recovery engine load is permitted');\n const source=typeof loaded.source==='string'?loaded.source:Buffer.from(loaded.source).toString('utf8');\n if(sha(source)!==engineSHA)throw Error('The original stored/recovery engine source changed');\n const anchor=\"const coreURL='data:text/javascript;base64,'+Buffer.from(redirect(core)).toString('base64');\";\n if(source.split(anchor).length!==2)throw Error('Unique original engine compile anchor required');\n const program=[\n  'const currentNativeOriginalCore=core;',\n  'if(sha256(originalCore)!=='+JSON.stringify(coreSHA)+')throw Error(\"Original native core changed\");',\n  'if(sha256(core)!=='+JSON.stringify(runtimeSHA)+')throw Error(\"Original runtime core changed\");',\n  'const currentNativeChange='+JSON.stringify(correctionReplacement)+';',\n  'if(core.split(currentNativeChange.before).length!==2)throw Error(\"Unique original nonlinear correction call required\");',\n  'function currentNativeSlice(text,start,stop){',\n  ' if(text.split(start).length!==2||text.split(stop).length!==2)throw Error(\"Unique original source boundaries required\");',\n  ' return text.slice(text.indexOf(start),text.indexOf(stop)).trim();',\n  '}',\n  'const currentNativeSolveStart=\" function solve(target,opts={}){\",currentNativeSolveEnd=\"\\\\n return {solve,initial,evaluate\";',\n  'const currentNativeEvalStart=\" function evaluate(states,target,withJac,scales){\",currentNativeEvalEnd=\"\\\\n function correction(\";',\n  'const currentNativeTrialStart=\"   for(let k=0;k<10;k++){\",currentNativeTrialEnd=\\'   if(!accepted)throw new Error(\"multiple-shooting line search failed at \"+ev.norm);\\';',\n  'const currentNativeOriginalSolve=currentNativeSlice(core,currentNativeSolveStart,currentNativeSolveEnd);',\n  'const currentNativeOriginalEvaluate=currentNativeSlice(core,currentNativeEvalStart,currentNativeEvalEnd);',\n  'if(sha256(currentNativeOriginalSolve)!=='+JSON.stringify(internalSolveSHA)+')throw Error(\"Original internal solve source changed\");',\n  'if(sha256(currentNativeOriginalEvaluate)!=='+JSON.stringify(evaluateSHA)+')throw Error(\"Original evaluate source changed\");',\n  'if(core.split(currentNativeTrialStart).length!==2||core.split(currentNativeTrialEnd).length!==2)throw Error(\"Unique original ten-trial source boundaries required\");',\n  'const currentNativeTrialText=core.slice(core.indexOf(currentNativeTrialStart),core.indexOf(currentNativeTrialEnd));',\n  'if(sha256(currentNativeTrialText)!=='+JSON.stringify(trialSHA)+')throw Error(\"Original ten-trial source changed\");',\n  'core=core.replace(currentNativeChange.before,currentNativeChange.after);',\n  'if(core.split(currentNativeChange.after).length!==2||core.replace(currentNativeChange.after,currentNativeChange.before)!==currentNativeOriginalCore)',\n  ' throw Error(\"Source change exceeds the one original nonlinear correction call\");',\n  'const currentNativeInstrumentedSolve=currentNativeSlice(core,currentNativeSolveStart,currentNativeSolveEnd);',\n  'const currentNativeUnchangedEvaluate=currentNativeSlice(core,currentNativeEvalStart,currentNativeEvalEnd);',\n  'const currentNativeUnchangedTrial=core.slice(core.indexOf(currentNativeTrialStart),core.indexOf(currentNativeTrialEnd));',\n  'if(currentNativeUnchangedEvaluate!==currentNativeOriginalEvaluate||currentNativeUnchangedTrial!==currentNativeTrialText)',\n  ' throw Error(\"Original evaluate or trial arithmetic changed\");',\n  'const currentNativeSolveIdentity={schema:\"input-support-contracted-trace-r273-current-native576-internal-solve-source-roundtrip-v1\",',\n  ' original_internal_solve_source:currentNativeOriginalSolve,original_internal_solve_source_sha256:sha256(currentNativeOriginalSolve),',\n  ' instrumented_internal_solve_source:currentNativeInstrumentedSolve,instrumented_internal_solve_source_sha256:sha256(currentNativeInstrumentedSolve),',\n  ' replacement:currentNativeChange,exact_internal_source_roundtrip_verified:true,',\n  ' source_scope:\"trimmed unique internal solve declaration in actual compiled runtime core\",',\n  ' distinct_from_public_split_wrapper_Function_toString:true,Function_toString_not_modified:true};',\n  'fs.writeFileSync('+JSON.stringify(path.join(spec.output,'core-instrumentation.json'))+',JSON.stringify({',\n  ' schema:\"input-support-contracted-trace-r273-current-native576-correction-only-core-instrumentation-v1\",spec_sha256:'+JSON.stringify(specSHA)+',',\n  ' source_sha256:'+JSON.stringify(spec.source_sha256)+',hook_sha256:'+JSON.stringify(fileSHA(selfPath))+',',\n  ' original_core_file_sha256:sha256(originalCore),original_runtime_core_sha256:sha256(currentNativeOriginalCore),',\n  ' instrumented_runtime_core_sha256:sha256(core),exact_correction_call_roundtrip_verified:true,',\n  ' internal_solve_source_identity:currentNativeSolveIdentity,original_evaluate_source_sha256:sha256(currentNativeOriginalEvaluate),',\n  ' actual_evaluate_source_sha256:sha256(currentNativeUnchangedEvaluate),original_evaluate_body_byte_identical:true,',\n  ' original_ten_trial_body_sha256:sha256(currentNativeTrialText),instrumented_ten_trial_body_sha256:sha256(currentNativeUnchangedTrial),',\n  ' original_ten_trial_body_byte_identical:true,original_withJ_evaluate_calls_retained:true,',\n  ' original_full_loop_and_tolerances_and_iteration_limit_retained:true,',\n  ' original_final_endpoint_sensitivity_and_J_and_audit_not_replaced:true,',\n  ' only_nonlinear_correction_call_replaced:true,no_cached_baseline:true,no_planned_one_step_stop:true,',\n  ' native_accepted:false,task_completed:false},null,2)+\"\\\\n\",{flag:\"wx\"});'\n ].join('\\n')+'\\n';\n const transformed=source.replace(anchor,program+anchor);\n if(transformed.replace(program,'')!==source)throw Error('Engine loader source insertion is not exactly reversible');\n writeJSON(spec.output,'engine-loader-instrumentation.json',{\n  schema:'input-support-contracted-trace-r273-current-native576-engine-loader-source-roundtrip-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),spec_sha256:specSHA,\n  original_engine_sha256:engineSHA,instrumented_engine_sha256:sha(transformed),inserted_program_sha256:sha(program),\n  exact_loader_insertion_roundtrip_verified:true,insertion_after_original_identity_checks:true,\n  original_disk_source_and_original_ready_manifest_retained:true});\n return {...loaded,source:transformed};\n}\n",
+          "after": "const correctionReplacement={before:'const cor=correction(ev,states,target);',\n after:'const cor=globalThis[Symbol.for(\"visible-flex.parallel-input-support-contracted-trace-r273-current576-client.v1\")].correction({ev,states,target,scales,it,M,K,depth});'};\nconst evaluationReplacements=[\n {before:'function evaluate(states,target,withJac,scales){\\n  const flows=[]',\n  after:'function evaluate(states,target,withJac,scales){\\n  const parallelFlows=withJac?globalThis[Symbol.for(\"visible-flex.parallel-input-support-contracted-trace-r273-current576-client.v1\")].parallelCellFlows({cells,states,target,scales,M,K,depth,steps}):null;\\n  const flows=[]'},\n {before:'try{f=cellFlow(n,states[n+1],withJac);}',\n  after:'try{f=withJac?parallelFlows[n]:cellFlow(n,states[n+1],withJac);}'}\n];\nlet engineLoadCount=0;\nfunction transformEngine(loaded){\n if(engineLoadCount++!==0)throw Error('Only one original stored/recovery engine load is permitted');\n const source=typeof loaded.source==='string'?loaded.source:Buffer.from(loaded.source).toString('utf8');\n if(sha(source)!==engineSHA)throw Error('The original stored/recovery engine source changed');\n const anchor=\"const coreURL='data:text/javascript;base64,'+Buffer.from(redirect(core)).toString('base64');\";\n if(source.split(anchor).length!==2)throw Error('Unique original engine compile anchor required');\n const program=[\n  'const currentNativeOriginalCore=core;',\n  'if(sha256(originalCore)!=='+JSON.stringify(coreSHA)+')throw Error(\"Original native core changed\");',\n  'if(sha256(core)!=='+JSON.stringify(runtimeSHA)+')throw Error(\"Original runtime core changed\");',\n  'const currentNativeChange='+JSON.stringify(correctionReplacement)+';',\n  'const currentNativeEvalChanges='+JSON.stringify(evaluationReplacements)+';',\n  'function currentNativeSlice(text,start,stop){',\n  ' if(text.split(start).length!==2||text.split(stop).length!==2)throw Error(\"Unique original source boundaries required\");',\n  ' return text.slice(text.indexOf(start),text.indexOf(stop)).trim();',\n  '}',\n  'const currentNativeSolveStart=\" function solve(target,opts={}){\",currentNativeSolveEnd=\"\\\\n return {solve,initial,evaluate\";',\n  'const currentNativeEvalStart=\" function evaluate(states,target,withJac,scales){\",currentNativeEvalEnd=\"\\\\n function correction(\";',\n  'const currentNativeTrialStart=\"   for(let k=0;k<10;k++){\",currentNativeTrialEnd=\\'   if(!accepted)throw new Error(\"multiple-shooting line search failed at \"+ev.norm);\\';',\n  'const currentNativeOriginalSolve=currentNativeSlice(core,currentNativeSolveStart,currentNativeSolveEnd);',\n  'const currentNativeOriginalEvaluate=currentNativeSlice(core,currentNativeEvalStart,currentNativeEvalEnd);',\n  'if(sha256(currentNativeOriginalSolve)!=='+JSON.stringify(internalSolveSHA)+')throw Error(\"Original internal solve source changed\");',\n  'if(sha256(currentNativeOriginalEvaluate)!=='+JSON.stringify(evaluateSHA)+')throw Error(\"Original evaluate source changed\");',\n  'if(core.split(currentNativeTrialStart).length!==2||core.split(currentNativeTrialEnd).length!==2)throw Error(\"Unique original ten-trial source boundaries required\");',\n  'const currentNativeTrialText=core.slice(core.indexOf(currentNativeTrialStart),core.indexOf(currentNativeTrialEnd));',\n  'if(sha256(currentNativeTrialText)!=='+JSON.stringify(trialSHA)+')throw Error(\"Original ten-trial source changed\");',\n  'for(const change of [currentNativeChange,...currentNativeEvalChanges]){',\n  ' if(core.split(change.before).length!==2)throw Error(\"Unique declared original runtime anchor required\");',\n  ' core=core.replace(change.before,change.after);',\n  '}',\n  'let currentNativeRecovered=core;',\n  'for(const change of [...currentNativeEvalChanges].reverse().concat([currentNativeChange])){',\n  ' if(currentNativeRecovered.split(change.after).length!==2)throw Error(\"Unique declared reverse runtime anchor required\");',\n  ' currentNativeRecovered=currentNativeRecovered.replace(change.after,change.before);',\n  '}',\n  'if(currentNativeRecovered!==currentNativeOriginalCore)throw Error(\"Runtime source exceeds the declared three changes\");',\n  'const currentNativeInstrumentedSolve=currentNativeSlice(core,currentNativeSolveStart,currentNativeSolveEnd);',\n  'const currentNativeInstrumentedEvaluate=currentNativeSlice(core,currentNativeEvalStart,currentNativeEvalEnd);',\n  'const currentNativeUnchangedTrial=core.slice(core.indexOf(currentNativeTrialStart),core.indexOf(currentNativeTrialEnd));',\n  'if(currentNativeUnchangedTrial!==currentNativeTrialText||',\n  ' currentNativeInstrumentedSolve.replace(currentNativeChange.after,currentNativeChange.before)!==currentNativeOriginalSolve)',\n  ' throw Error(\"Original nonlinear solve or ten-trial arithmetic changed beyond the R273 call\");',\n  'let currentNativeRecoveredEvaluate=currentNativeInstrumentedEvaluate;',\n  'for(const change of [...currentNativeEvalChanges].reverse())',\n  ' currentNativeRecoveredEvaluate=currentNativeRecoveredEvaluate.replace(change.after,change.before);',\n  'if(currentNativeRecoveredEvaluate!==currentNativeOriginalEvaluate)throw Error(\"Parallel evaluate source reversal differs\");',\n  'const currentNativeSolveIdentity={schema:\"R531-original-R273-internal-solve-source-roundtrip-v1\",',\n  ' original_internal_solve_source:currentNativeOriginalSolve,original_internal_solve_source_sha256:sha256(currentNativeOriginalSolve),',\n  ' instrumented_internal_solve_source:currentNativeInstrumentedSolve,instrumented_internal_solve_source_sha256:sha256(currentNativeInstrumentedSolve),',\n  ' replacement:currentNativeChange,exact_internal_source_roundtrip_verified:true,',\n  ' source_scope:\"trimmed unique internal solve declaration in actual compiled runtime core\",',\n  ' distinct_from_public_split_wrapper_Function_toString:true,Function_toString_not_modified:true};',\n  'const currentNativeEvaluateIdentity={schema:\"R531-complete-withJ-evaluate-source-roundtrip-v1\",',\n  ' original_evaluate_source:currentNativeOriginalEvaluate,original_evaluate_source_sha256:sha256(currentNativeOriginalEvaluate),',\n  ' instrumented_evaluate_source:currentNativeInstrumentedEvaluate,instrumented_evaluate_source_sha256:sha256(currentNativeInstrumentedEvaluate),',\n  ' replacements:currentNativeEvalChanges,exact_evaluation_roundtrip_verified:true,',\n  ' complete_stage_dispatch_before_original_n_reduction:true,original_noJ_cellFlow_call_retained:true,',\n  ' original_residual_boundary_norm_and_minima_n_order_retained:true,Function_toString_not_modified:true};',\n  'fs.writeFileSync('+JSON.stringify(path.join(spec.output,'core-instrumentation.json'))+',JSON.stringify({',\n  ' schema:\"R531-complete-cell-dispatch-and-R273-core-instrumentation-v1\",spec_sha256:'+JSON.stringify(specSHA)+',',\n  ' source_sha256:'+JSON.stringify(spec.source_sha256)+',hook_sha256:'+JSON.stringify(fileSHA(selfPath))+',',\n  ' original_core_file_sha256:sha256(originalCore),original_runtime_core_sha256:sha256(currentNativeOriginalCore),',\n  ' instrumented_runtime_core_sha256:sha256(core),exact_complete_source_roundtrip_verified:true,',\n  ' internal_solve_source_identity:currentNativeSolveIdentity,evaluation_source_identity:currentNativeEvaluateIdentity,',\n  ' original_ten_trial_body_sha256:sha256(currentNativeTrialText),instrumented_ten_trial_body_sha256:sha256(currentNativeUnchangedTrial),',\n  ' original_ten_trial_body_byte_identical:true,original_withJ_evaluate_calls_retained:true,',\n  ' original_full_loop_and_tolerances_and_iteration_limit_retained:true,',\n  ' original_final_endpoint_sensitivity_and_J_and_audit_not_replaced:true,',\n  ' exactly_two_evaluate_source_changes_plus_original_R273_call:true,',\n  ' different_resource_frontier_and_profile_read_timing_explicit:true,no_cached_baseline:true,no_planned_one_step_stop:true,',\n  ' native_accepted:false,task_completed:false},null,2)+\"\\\\n\",{flag:\"wx\"});'\n ].join('\\n')+'\\n';\n const transformed=source.replace(anchor,program+anchor);\n if(transformed.replace(program,'')!==source)throw Error('Engine loader source insertion is not exactly reversible');\n writeJSON(spec.output,'engine-loader-instrumentation.json',{\n  schema:'R531-current-native576-engine-loader-source-roundtrip-v1',source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),spec_sha256:specSHA,\n  original_engine_sha256:engineSHA,instrumented_engine_sha256:sha(transformed),inserted_program_sha256:sha(program),\n  exact_loader_insertion_roundtrip_verified:true,insertion_after_original_identity_checks:true,\n  original_disk_source_and_original_ready_manifest_retained:true,\n  actual_evaluate_source_is_new_and_not_the_old_evaluate_SHA:true});\n return {...loaded,source:transformed};\n}\n",
+          "count": 1
+        },
+        {
+          "label": "correct-snapshot-source-scope",
+          "before": "  original_evaluate_source_not_instrumented:true,",
+          "after": "  original_evaluate_source_not_instrumented:false,\n  actual_evaluate_source_is_the_declared_R531_complete_cell_dispatch:true,",
+          "count": 1
+        },
+        {
+          "label": "complete-H-source-without-duplicating112-values-per-evaluate",
+          "before": "   original_request:ctx.metadata.request,\n   evaluation_sequence_is_not_an_invented_nonlinear_iteration:true,",
+          "after": "   current_request_file:ctx.requestFile,\n   original_request_flags:{jacobian:ctx.metadata.request.jacobian,audit:ctx.metadata.request.audit},\n   complete_H_words_remain_in_that_original_request_and_original_height_byte_hash:true,\n   evaluation_sequence_is_not_an_invented_nonlinear_iteration:true,",
+          "count": 1
+        },
+        {
+          "label": "precise-top-source-scope",
+          "before": "// noJ-matched RK. Only the native nonlinear correction call is redirected\n// to R273; original evaluate, ten noJ trials, guards and final responsibilities remain.",
+          "after": "// noJ-matched RK. R531 dispatches complete withJ cellflows before the\n// original n-order evaluate reduction. R273, ten noJ trials, guards and\n// final responsibilities remain; resource order and statistics are explicit.",
+          "count": 1
+        },
+        {
+          "label": "bind-frozen-sources-before-loading-original-cusp",
+          "before": "const makeParallelCellflow=await loadParallelCellflowConstructor();\n",
+          "after": "",
+          "count": 1
+        },
+        {
+          "label": "load-cusp-after-source-binding",
+          "before": "// Native raw arrays are copied as bytes, not reformatted through JSON.",
+          "after": "const makeParallelCellflow=await loadParallelCellflowConstructor();\n// Native raw arrays are copied as bytes, not reformatted through JSON.",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client_hook.mjs",
+        "bytes": 60059,
+        "sha256": "6911a4b3224dc5b726d435f3b44e4127c05e8d8a15f6cdaccaf8872c932234ba"
+      }
+    },
+    {
+      "id": "client",
+      "base": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+        "bytes": 20997,
+        "sha256": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-hook",
+          "before": "HOOK_NAME = \"geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs\"",
+          "after": "HOOK_NAME = \"geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client_hook.mjs\"",
+          "count": 1
+        },
+        {
+          "label": "actual-spec",
+          "before": "input-support-contracted-trace-r273-current576-tail-client-spec-v1",
+          "after": "parallel-input-support-contracted-trace-r273-current576-tail-client-spec-v1",
+          "count": 1
+        },
+        {
+          "label": "actual-session",
+          "before": "input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "after": "parallel-input-support-contracted-trace-r273-unseeded-worker-session-v1",
+          "count": 1
+        },
+        {
+          "label": "two-executable-source-identities",
+          "before": "        QR_NAME: QR_SHA, ADAPTER_NAME: ADAPTER_SHA,",
+          "after": "        QR_NAME: QR_SHA, ADAPTER_NAME: ADAPTER_SHA,\n        \"geometry_20261116_complete576_parallel_cellflow.mjs\": \"df3e77433bdd6a103dcfd902998d95cac1e0c398db8176f028975f03d1d6d2f5\",\n        \"geometry_20261116_complete576_cellflow_pool.mjs\": \"54b8256c41639f9dd5b5c21dfa5240185755837fdb9f1f56d9b3e7a0eb640796\",",
+          "count": 1
+        },
+        {
+          "label": "complete-runtime-source-paths",
+          "before": "\nclass TailClient(original.TailClient):",
+          "after": "\ndef parallel_source_files(original_sources, source_topic, frozen, hook):\n    \"\"\"Actual same-job source paths, including every restored original file.\"\"\"\n    result = []\n    combined = dict(original_sources)\n    combined.update(frozen)\n    combined[HOOK_NAME] = sha(hook)\n    combined[Path(__file__).name] = sha(__file__)\n    prefix = \"topics/visible-flexible-closed-surface/\"\n    payload_keys = {\"input_config\", \"runtime_config\", \"frozen_ledger_ready\", \"frozen_stored_ready\"}\n    for name, expected in sorted(combined.items()):\n        if name in payload_keys:\n            continue\n        if name.startswith(prefix):\n            file = source_topic / name[len(prefix):]\n        elif Path(name).name == name:\n            file = HERE / name\n        else:\n            raise ValueError(\"Unmapped actual parallel source path: \" + name)\n        if not file.is_file() or sha(file) != expected:\n            raise ValueError(\"Changed actual complete parallel source: \" + name)\n        result.append(dict(file=str(file.resolve()), bytes=file.stat().st_size, sha256=expected))\n    return result\n\nclass TailClient(original.TailClient):",
+          "count": 1
+        },
+        {
+          "label": "explicit-resource-parameters",
+          "before": "        frozen = frozen_sources()\n",
+          "after": "        parallel_workers = int(os.environ[\"VISIBLE_R531_CELLFLOW_WORKERS\"])\n        parallel_heap = int(os.environ[\"VISIBLE_R531_CELLFLOW_WORKER_HEAP_MB\"])\n        if node_heap != 6144 or not 2 <= parallel_workers <= 4:\n            raise ValueError(\"R531 retains the original6144 main heap and explicit two-to-four cellflow workers\")\n        if not 256 <= parallel_heap or parallel_workers * parallel_heap > 6144:\n            raise ValueError(\"R531 explicit aggregate worker JS heap ceilings must not exceed6144MiB\")\n        frozen = frozen_sources()\n",
+          "count": 1
+        },
+        {
+          "label": "actual-policy-and-source-map",
+          "before": "                original_core_file_sha256=CORE_SHA,original_runtime_core_sha256=RUNTIME_SHA,\n",
+          "after": "                parallel_cellflows=dict(schema=\"R531-complete576-current-cellflow-worker-pool-v1\",\n                    worker_count=parallel_workers,worker_heap_mb=parallel_heap,\n                    original_node_heap_cap_mb=node_heap,\n                    source_files=parallel_source_files(original_sources,Path(source_root).resolve().parent.parent,frozen,hook),\n                    actual_profiles_captured_in_original_n_profile_RK_order=True,\n                    noJ_trials_and_original_endpoint_and_audit_unchanged=True,\n                    extra_worker_RSS_not_claimed_free=True,resource_frontier_is_new=True,\n                    no_scientific_acceptance_gate_added=True),\n                original_core_file_sha256=CORE_SHA,original_runtime_core_sha256=RUNTIME_SHA,\n",
+          "count": 1
+        },
+        {
+          "label": "source-specific-final-scope",
+          "before": "                        tangent_implementation=\"original64-noJ-primal-zero-flux-input-support-finite-root-variation-v1\",\n                        actual_error=",
+          "after": "                        tangent_implementation=\"original64-noJ-primal-zero-flux-input-support-finite-root-variation-v1\",\n                        parallel_cellflow_policy=(getattr(self,\"_r273_spec\",None) or {}).get(\"parallel_cellflows\"),\n                        parallel_raw_directory=\"parallel-cellflows\",\n                        parent_and_workers_counts_require_the_new_necessary_reader=True,\n                        actual_error=",
+          "count": 1
+        },
+        {
+          "label": "description",
+          "before": "\"\"\"Original persistent TailClient with current-request full-system R273 corrections.",
+          "after": "\"\"\"R531 original persistent TailClient with complete parallel withJ cellflows and R273 corrections.",
+          "count": 1
+        },
+        {
+          "label": "actual-QR-source",
+          "before": "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py",
+          "after": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "label": "actual-system-source",
+          "before": "exact_20261116_input_support_contracted_trace_r273_current576_system.py",
+          "after": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "label": "actual-QR-pin",
+          "before": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294",
+          "after": "9b20fab094c12c471f8c61a968a0dde0249ee1a1e71c30cdd2bb88a46bfc1b42",
+          "count": 1
+        },
+        {
+          "label": "actual-system-pin",
+          "before": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70",
+          "after": "1b51c672277ab1e0919bb00392bfc2634e36e7e64caa58b43d62d6781ca3385a",
+          "count": 1
+        },
+        {
+          "label": "final-parent-source-pin",
+          "before": "df3e77433bdd6a103dcfd902998d95cac1e0c398db8176f028975f03d1d6d2f5",
+          "after": "9434c8f003b19745446fbc798f12efc464719474bad3385553cff3368be225aa",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-pool-pin",
+          "before": "54b8256c41639f9dd5b5c21dfa5240185755837fdb9f1f56d9b3e7a0eb640796",
+          "after": "ab6dff37f021cee82ace600ebc1e48ce32285f41a7a1f18b6f891aecff86369c",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+        "bytes": 23870,
+        "sha256": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2"
+      }
+    },
+    {
+      "id": "height",
+      "base": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_height_path.py",
+        "bytes": 23988,
+        "sha256": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-client",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "label": "actual-client-pin",
+          "before": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1",
+          "after": "f89162f51e0793b8a64425a348a56599fce47d992510ff242d92f6538cf64dbf",
+          "count": 1
+        },
+        {
+          "label": "correct-source-scope",
+          "before": "        original_evaluate_and_ten_trial_bodies_retained=True,",
+          "after": "        original_evaluate_and_ten_trial_bodies_retained=False,\n        actual_R531_withJ_stage_dispatch_and_original_n_reduction=True,\n        original_ten_trial_body_retained=True,",
+          "count": 1
+        },
+        {
+          "label": "actual-schema",
+          "before": "SCHEMA = 'input-support-contracted-trace-r273-same-worker-complete112-height-path-v1'",
+          "after": "SCHEMA = 'R531-parallel-cellflow-same-worker-complete112-height-path-v1'",
+          "count": 1
+        },
+        {
+          "label": "final-client-source-pin",
+          "before": "f89162f51e0793b8a64425a348a56599fce47d992510ff242d92f6538cf64dbf",
+          "after": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-client-pin",
+          "before": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "after": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_parallel_input_support_contracted_trace_r273_height_path.py",
+        "bytes": 24104,
+        "sha256": "2c92d191b8cedecf235176209cc6eb7d432622d0f8f416bfe4572c1c12584a3b"
+      }
+    },
+    {
+      "id": "full112",
+      "base": {
+        "file": "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py",
+        "bytes": 50982,
+        "sha256": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-hook-file",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client_hook.mjs",
+          "count": 1
+        },
+        {
+          "label": "actual-hook-pin",
+          "before": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c",
+          "after": "f0adf9acf122a79a47a95aa2dd1c80c8cb073b687cb170be493eaa58c8cecca8",
+          "count": 1
+        },
+        {
+          "label": "actual-client-file",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+          "count": 5
+        },
+        {
+          "label": "actual-client-pin",
+          "before": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1",
+          "after": "f89162f51e0793b8a64425a348a56599fce47d992510ff242d92f6538cf64dbf",
+          "count": 1
+        },
+        {
+          "label": "actual-system-file",
+          "before": "exact_20261116_input_support_contracted_trace_r273_current576_system.py",
+          "after": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "label": "actual-system-pin",
+          "before": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70",
+          "after": "1b51c672277ab1e0919bb00392bfc2634e36e7e64caa58b43d62d6781ca3385a",
+          "count": 1
+        },
+        {
+          "label": "actual-qr-file",
+          "before": "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py",
+          "after": "exact_20261116_parallel_input_support_contracted_trace_r273_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "label": "actual-qr-pin",
+          "before": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294",
+          "after": "9b20fab094c12c471f8c61a968a0dde0249ee1a1e71c30cdd2bb88a46bfc1b42",
+          "count": 1
+        },
+        {
+          "label": "actual-height-file",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_height_path.py",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_height_path.py",
+          "count": 4
+        },
+        {
+          "label": "actual-height-pin",
+          "before": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee",
+          "after": "eb9d330b5ee468935cd1b8fb0a6cf93cc56c0a7143bd4457419c10d34ba21060",
+          "count": 1
+        },
+        {
+          "label": "actual-height-import",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_height_path",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_height_path",
+          "count": 2
+        },
+        {
+          "label": "complete-ancestral-and-new-source-closure",
+          "before": "PINS = {\n",
+          "after": "PINS = {\n    # Original224 sources remain separate ancestors, never relabelled.\n    \"geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs\": \"a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c\",\n    \"geometry_20261116_input_support_contracted_trace_r273_tail_client.py\": \"aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1\",\n    \"exact_20261116_input_support_contracted_trace_r273_current576_system.py\": \"465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70\",\n    \"exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py\": \"75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294\",\n    \"geometry_20261116_input_support_contracted_trace_r273_height_path.py\": \"e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee\",\n    \"geometry_20261116_complete576_parallel_cellflow.mjs\": \"df3e77433bdd6a103dcfd902998d95cac1e0c398db8176f028975f03d1d6d2f5\",\n    \"geometry_20261116_complete576_cellflow_pool.mjs\": \"54b8256c41639f9dd5b5c21dfa5240185755837fdb9f1f56d9b3e7a0eb640796\",\n",
+          "count": 1
+        },
+        {
+          "label": "actual-full-schema",
+          "before": "SCHEMA = 'six-control-input-support-contracted-trace-r273-height-path-three-active-nonzero112-physical-DN-v1'",
+          "after": "SCHEMA = 'R531-six-control-parallel-cellflow-three-active-nonzero112-physical-DN-v1'",
+          "count": 1
+        },
+        {
+          "label": "precise-mathematical-description",
+          "before": "The noJ primal, original cold/warm predictor algorithm, evaluate body, ten\nnoJ trials,",
+          "after": "The noJ primal, original cold/warm predictor algorithm, original n-order\nreduction after the explicit R531 complete-stage dispatch, ten noJ trials,",
+          "count": 1
+        },
+        {
+          "label": "actual-source-metadata",
+          "before": "            original_warm_predictor_and_ten_trial_and_final_gates_retained=True,",
+          "after": "            original_warm_predictor_and_ten_trial_and_final_gates_retained=True,\n            actual_parallel_complete576_withJ_source='R531',\n            different_resource_frontier_and_profile_read_timing_declared=True,",
+          "count": 1
+        },
+        {
+          "label": "final-parent-source-pin",
+          "before": "df3e77433bdd6a103dcfd902998d95cac1e0c398db8176f028975f03d1d6d2f5",
+          "after": "9434c8f003b19745446fbc798f12efc464719474bad3385553cff3368be225aa",
+          "count": 1
+        },
+        {
+          "label": "final-hook-source-pin",
+          "before": "f0adf9acf122a79a47a95aa2dd1c80c8cb073b687cb170be493eaa58c8cecca8",
+          "after": "6911a4b3224dc5b726d435f3b44e4127c05e8d8a15f6cdaccaf8872c932234ba",
+          "count": 1
+        },
+        {
+          "label": "final-client-source-pin",
+          "before": "f89162f51e0793b8a64425a348a56599fce47d992510ff242d92f6538cf64dbf",
+          "after": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "count": 1
+        },
+        {
+          "label": "final-height-source-pin",
+          "before": "eb9d330b5ee468935cd1b8fb0a6cf93cc56c0a7143bd4457419c10d34ba21060",
+          "after": "11999dfd782553e497303c7cf25d648b2c9e2c402bd2d6c2cb897fdb1021f17f",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-pool-pin",
+          "before": "54b8256c41639f9dd5b5c21dfa5240185755837fdb9f1f56d9b3e7a0eb640796",
+          "after": "ab6dff37f021cee82ace600ebc1e48ce32285f41a7a1f18b6f891aecff86369c",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-client-pin",
+          "before": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "after": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-height-pin",
+          "before": "11999dfd782553e497303c7cf25d648b2c9e2c402bd2d6c2cb897fdb1021f17f",
+          "after": "2c92d191b8cedecf235176209cc6eb7d432622d0f8f416bfe4572c1c12584a3b",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_six_control_parallel_input_support_contracted_trace_r273_full112.py",
+        "bytes": 52339,
+        "sha256": "525be2072fee4f53122d5802ef57d8b00f24e7b08408a3ed0441fd1872686311"
+      }
+    },
+    {
+      "id": "runner",
+      "base": {
+        "file": "root_20261116_six_control_input_support_contracted_trace_r273_run.py",
+        "bytes": 14990,
+        "sha256": "3ce47137edc42df9e97997d6819860deedea74909970dfcac9bdab1ce89fda2d"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-full112-entry",
+          "before": "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py",
+          "after": "geometry_20261116_six_control_parallel_input_support_contracted_trace_r273_full112.py",
+          "count": 1
+        },
+        {
+          "label": "actual-full112-pin",
+          "before": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d",
+          "after": "e3f0f370db4d0d7982a74482c9bfce671cffe75b0567f505319db5a659e2f8d9",
+          "count": 1
+        },
+        {
+          "label": "actual-client-entry",
+          "before": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+          "after": "geometry_20261116_parallel_input_support_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "label": "actual-client-pin",
+          "before": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1",
+          "after": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "count": 1
+        },
+        {
+          "label": "bind-independent-actual-source-layer",
+          "before": "from root_20261116_input_support_contracted_source_views import bound_source_view_receipt",
+          "after": "from root_20261116_input_support_contracted_source_views import bound_source_view_receipt\nfrom root_20261116_parallel_cellflow_source_views import bind_prepared_views",
+          "count": 1
+        },
+        {
+          "label": "actual-layer-before-scientific-child",
+          "before": "    source_view_binding = bound_source_view_receipt(comp, args.request, request)",
+          "after": "    source_view_binding = bound_source_view_receipt(comp, args.request, request)\n    parallel_source_binding = bind_prepared_views(comp,\n        os.environ['VISIBLE_R531_SOURCE_PLAN_SHA256'], Path(os.environ['VISIBLE_R531_SOURCE_VIEW_RECEIPT']))\n    actual_request = os.environ['VISIBLE_R531_ACTUAL_REQUEST']",
+          "count": 1
+        },
+        {
+          "label": "actual-wrapper-schema",
+          "before": "schema='six-control-input-support-contracted-trace-r273-full112-process-wrapper-v1'",
+          "after": "schema='R531-complete576-parallel-owned-process-wrapper-v1'",
+          "count": 1
+        },
+        {
+          "label": "actual-and-ancestor-source-context",
+          "before": "        actual_source_views=source_view_binding,",
+          "after": "        actual_source_views=source_view_binding, actual_parallel_source_views=parallel_source_binding,\n        actual_request=actual_request, immutable_source_request_ancestor=224,\n        parallel_worker_count=os.environ['VISIBLE_R531_CELLFLOW_WORKERS'],\n        parallel_worker_heap_mb=os.environ['VISIBLE_R531_CELLFLOW_WORKER_HEAP_MB'],\n        original_main_heap_and_R273_workers_unchanged=True,\n        parallel_resource_frontier_not_original_serial_frontier=True,",
+          "count": 1
+        },
+        {
+          "label": "actual-launch-event",
+          "before": "request224_height_path_full112_launch",
+          "after": "R531_parallel_height_path_full112_launch",
+          "count": 1
+        },
+        {
+          "label": "actual-return-event",
+          "before": "request224_height_path_full112_process_returned",
+          "after": "R531_parallel_height_path_full112_process_returned",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-client-pin",
+          "before": "3dc126497d169be4529b71249c834f5b290563ba72ec0481559f6027642e011c",
+          "after": "a8571e0c47c8f2e264c76ce3ee1554ca19cbcaa0366fbc6b7fdc2fe71e9856b2",
+          "count": 1
+        },
+        {
+          "label": "final-numeric-error-scope-full112-pin",
+          "before": "e3f0f370db4d0d7982a74482c9bfce671cffe75b0567f505319db5a659e2f8d9",
+          "after": "525be2072fee4f53122d5802ef57d8b00f24e7b08408a3ed0441fd1872686311",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_parallel_input_support_contracted_trace_r273_run.py",
+        "bytes": 15716,
+        "sha256": "4c7e13df26c39ab881ac878429150b79e7536e55908d3ae69d097bba3c4afe19"
+      }
+    },
+    {
+      "id": "readerview",
+      "base": {
+        "file": "root_20261116_six_control_input_support_contracted_trace_r273_scalar_readout.py",
+        "bytes": 49693,
+        "sha256": "e9be110da50ccdb71dc066bc246aea78564b793d9e82580280c3813abf93712f"
+      },
+      "base_location": "same-job-original224-generated-source",
+      "patches": [
+        {
+          "label": "actual-source-layers-and-reader",
+          "before": "from root_20261116_input_support_contracted_source_views import bound_source_view_receipt",
+          "after": "from root_20261116_input_support_contracted_source_views import bound_source_view_receipt\nfrom root_20261116_parallel_cellflow_source_views import bind_prepared_views\nfrom root_20261116_parallel_cellflow_necessary import add_parallel_cellflows",
+          "count": 1
+        },
+        {
+          "label": "actual-summary-schema",
+          "before": "SCHEMA=\"request224-original64-input-support-contracted-trace-r273-necessary-readback-v1\"",
+          "after": "SCHEMA=\"R531-original64-parallel-complete576-necessary-readback-v1\"",
+          "count": 1
+        },
+        {
+          "label": "actual-marker-schema",
+          "before": "MARKER=\"request224-owned-complete-necessary-readback-v1\"",
+          "after": "MARKER=\"R531-owned-complete-parallel576-necessary-readback-v1\"",
+          "count": 1
+        },
+        {
+          "label": "explicit-current-and-ancestor",
+          "before": "summary=dict(schema=SCHEMA,request=224,",
+          "after": "summary=dict(schema=SCHEMA,source_request_ancestor=224,\n        actual_request=os.environ.get('VISIBLE_R531_ACTUAL_REQUEST'),",
+          "count": 2
+        },
+        {
+          "label": "verify-actual-generated-layer",
+          "before": "        summary[\"actual_source_views\"]=bound_source_view_receipt(Path(__file__).resolve().parent,args.request,request)",
+          "after": "        summary[\"actual_source_views\"]=bound_source_view_receipt(Path(__file__).resolve().parent,args.request,request)\n        summary[\"actual_parallel_source_views\"]=bind_prepared_views(Path(__file__).resolve().parent,\n            os.environ[\"VISIBLE_R531_SOURCE_PLAN_SHA256\"],Path(os.environ[\"VISIBLE_R531_SOURCE_VIEW_RECEIPT\"]))",
+          "count": 1
+        },
+        {
+          "label": "same-original-quiet-and-one-frame-scope",
+          "before": "        r=Reader(root);summary[\"actual\"]=summarize(r,request,recipe)",
+          "after": "        r=Reader(root);summary[\"actual\"]=summarize(r,request,recipe)\n        add_parallel_cellflows(r,summary[\"actual\"],owned_quiet=before[\"quiescent\"])",
+          "count": 1
+        },
+        {
+          "label": "begin-frame",
+          "before": "BEGIN_REQUEST224_INPUT_SUPPORT_CONTRACTED_TRACE_R273_NECESSARY_SUMMARY",
+          "after": "BEGIN_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "label": "end-frame",
+          "before": "END_REQUEST224_INPUT_SUPPORT_CONTRACTED_TRACE_R273_NECESSARY_SUMMARY",
+          "after": "END_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "label": "actual-identity-event",
+          "before": "event=\"request224_necessary_summary_identity\"",
+          "after": "event=\"R531_parallel_necessary_summary_identity\"",
+          "count": 1
+        },
+        {
+          "label": "source-scope-doc",
+          "before": "\"\"\"One necessary request224 scalar readback, after confirmed owned-process quiet.",
+          "after": "\"\"\"R531 one necessary scalar readback of the explicit original224 child contract.\n\nThe actual future outer request is separately recorded. The original224 inputs\nand metadata-only source layer remain ancestors; the actual R531 generation\nreceipt and every new view are independently bound before reading.\nAfter confirmed owned-process quiet:",
+          "count": 1
+        },
+        {
+          "label": "actual-owner-command-for-unchanged-owned-quiet",
+          "before": "root_20261116_six_control_input_support_contracted_trace_r273_run.py",
+          "after": "root_20261116_parallel_input_support_contracted_trace_r273_run.py",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_six_control_parallel_input_support_contracted_trace_r273_scalar_readout.py",
+        "bytes": 50519,
+        "sha256": "fb8899e0da24ff8b6b7d5e728b3906c5096f57e0e93c0e511bfc506ddd32ea96"
+      }
+    }
+  ],
+  "numerical_scope": {
+    "physical_modes": 112,
+    "angular_quadrature": 2048,
+    "stages": 576,
+    "state_entries": 226,
+    "shape_columns": 224,
+    "original_all338_by112_response_and_full_audit_retained": true,
+    "original_noJ_trials_retained": true,
+    "original_RK_root_direction_and_two_mean_formulas_retained": true,
+    "original_n_reduction_retained": true,
+    "actual_profile_calls_in_original_complete_order": true,
+    "current_H_states_target_scales_bound_as_full_binary64_bytes": true,
+    "worker_count_env": "VISIBLE_R531_CELLFLOW_WORKERS",
+    "worker_count_allowed": [
+      2,
+      3,
+      4
+    ],
+    "worker_heap_env": "VISIBLE_R531_CELLFLOW_WORKER_HEAP_MB",
+    "worker_heap_each_minimum_MiB": 256,
+    "aggregate_worker_old_generation_ceiling_MiB": 6144,
+    "original_main_node_heap_MiB": 6144,
+    "combined_RSS_or_ArrayBuffer_memory_bound_not_claimed": true,
+    "actual_worker_parameter_values_not_chosen_by_this_source_plan": true,
+    "absolute_clock_env": "VISIBLE_HEIGHT_PATH_DEADLINE_MONOTONIC",
+    "original_scientific_wall_clock_seconds": 18000,
+    "original_r273_eta_cli_text": "1",
+    "original_r273_factor_workers_and_all_limits_not_changed": true,
+    "original_native_iterations": 32,
+    "original_native_noJ_trials": 10,
+    "original_native_tolerance": 2e-9,
+    "extra_scalar_or_branch_or_finiteness_gate": false,
+    "whole_run_error_timing_or_resource_frontier_identity_claimed": false,
+    "speedup_or_completion_or_native_acceptance_claimed": false
+  },
+  "transport_scope": {
+    "parent_full_result_order": "n=0,...,575",
+    "complete_typed_state_and_tangent_raw": "v8 temporary files only; no publication",
+    "worker_factory": "original capacity then actual R523 loader, real Fourier-root split factory",
+    "original_stdin_protocol_worker_imported_by_threads": false,
+    "persistent_same_original_group_coordinator": true,
+    "worker_statistics_and_main_statistics_separate": true,
+    "necessary_readback": {
+      "single_body_limit_bytes": 90000,
+      "original_failure_exit": 70,
+      "helper": {
+        "file": "root_20261116_parallel_cellflow_necessary.py",
+        "bytes": 20373,
+        "sha256": "da99e600bbfb4fd557890dae335c59135a00f2ad179b8050b9f5018cf0080c95"
+      },
+      "view": {
+        "file": "root_20261116_six_control_parallel_input_support_contracted_trace_r273_scalar_readout.py",
+        "bytes": 50519,
+        "sha256": "fb8899e0da24ff8b6b7d5e728b3906c5096f57e0e93c0e511bfc506ddd32ea96"
+      },
+      "summary_schema": "R531-original64-parallel-complete576-necessary-readback-v1",
+      "marker_schema": "R531-owned-complete-parallel576-necessary-readback-v1",
+      "begin": "BEGIN_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+      "end": "END_R531_PARALLEL_COMPLETE576_NECESSARY_SUMMARY",
+      "new_acceptance_gate": false,
+      "capacity_not_guaranteed": true
+    },
+    "original_error_priority_scope": "only the five literal bound original-root numeric guard messages, actual original flow phase, no resource/source marker and all smaller n complete; all other original errors remain explicitly unclassified partial"
+  },
+  "future_entry": {
+    "original224_request_and_recipe_are_explicit_immutable_child_ancestors": true,
+    "original_source_view_receipt_must_be_created_in_the_actual_new_job": true,
+    "prepare_new_layer_after_original224_source_generation_and_before_science": true,
+    "published_helpers_copied_with_full_SHA_into_actual_computations": true,
+    "actual_request_env": "VISIBLE_R531_ACTUAL_REQUEST",
+    "source_plan_env": "VISIBLE_R531_SOURCE_PLAN_SHA256",
+    "source_receipt_env": "VISIBLE_R531_SOURCE_VIEW_RECEIPT",
+    "new_driver_cli_is_original_full112_CLI_with_actual_new_basename": true,
+    "future_runner_report_cleanup_must_use_new_driver_reader_schema_and_marker": true,
+    "old224_runner_is_not_claimed_to_select_new_driver_automatically": true,
+    "no_new_request_workflow_or_dispatch_in_R531": true,
+    "new_owned_runner": {
+      "file": "root_20261116_parallel_input_support_contracted_trace_r273_run.py",
+      "bytes": 15716,
+      "sha256": "4c7e13df26c39ab881ac878429150b79e7536e55908d3ae69d097bba3c4afe19"
+    },
+    "owner_schema": "R531-complete576-parallel-owned-process-wrapper-v1",
+    "owner_actual_source_and_child_request_identity_separate": true,
+    "owned_clock_and_group_math_body_retained": true,
+    "actual_reader_quiet_binds_new_runner_basename": true
+  }
+}
