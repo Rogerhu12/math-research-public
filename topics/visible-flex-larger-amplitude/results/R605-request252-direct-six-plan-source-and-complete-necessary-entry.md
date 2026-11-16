@@ -156,3 +156,11 @@ workflow始终运行两个always读回，将实际exit、bytes/SHA、same run/so
 作者阶段只读源、形成literal变换、计算文本bytes/SHA并作条件证明，没有项目执行、import、AST、compile、科学求值、fixture或shadow对拍。原Actions语法检查保在真实workflow，不增加独立审计步骤。
 
 已证明的是来源桥、固定逆、整body严格选择、十角色真实闭包及原有限计算/预算/门的继承。来源准备是否成功、完整正文是否fit、当前H是否收敛、native/FD/fullDN是否通过、预算能否完成或全闭面metric是否达到机器/solver容差，均未由本文预付。随后R609按真实Actions逐项记录。
+
+## 13　实际发布与唯一运行身份（2026-11-16 17:22–17:25 UTC）
+
+本条完整六件的源commit为acd709310716666d7a5744c8c53692639c79098b。临时行政commit5559a3cfeb3fbb2456a51adfbfe0342c01c80029只承载实际终端partial/sparse clone、pull --rebase与普通push，行政workflow不进入main。发布run43917625617/job133475958236实际success：17:22:13读取decc385e74e938a24fcd2bf82c5d05334a65971d，17:22:35普通push非快进后立即真实pull --rebase，读14ae570141e5dd3891c5532b57526cd02c216079；双README仍分别21bd547f56590b7f2dd279d0297efb289a9b2783与bff8aea253a9e6a7a4fac28d810ac454c5499fec，读头写入HANDOFF。没有force。
+
+17:22:37.9270847Z普通推送成功main **af8930100294bcf4d52430343e1e33932e2565f0**，actual_topic_bytes=198873663。随后对workflow420398241只一次POST，17:22:44.9636716Z实际200，返回[run43917735686](https://github.com/Rogerhu12/math-research-public/actions/runs/43917735686)。官方再次核head相同、event=workflow_dispatch、attempt1、workflow路径与本文一致。
+
+17:25官方metadata显示compute133476367763及report133476653331均completed/failure；compute前1–6步success，第7步source preparation failure，8–11原绑定/容量/恢复/科学skipped，第12与13必要读回failure，14cleanup事件正常返回。report source帧步骤success、科学帧步骤failure。这些标签只定位到实际阶段，不推定原R583子函数的内部错误或raw已删。R609由exact_refinement作为唯一终态读者继续读取原完整必要并形成独立结论；root未读取这两个终态日志。本条源码身份、原guard、471来源合同与90000/70均未因发布成功而改为科学接受。

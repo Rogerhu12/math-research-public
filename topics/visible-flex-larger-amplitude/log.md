@@ -231,3 +231,8 @@ R6046707a589已真推、NFF立即pull--rebase记录8f02956c双README未变；250
 
 R605六件完整刊，原248454保成471=368public+103generated，R604原六参一次/完整binding guard与source旧逆、science六代目录整body严格选择；原12000/19200/全数学门/90K/70保。
 R603实际250已唯一POST200/run43916489518并补官方回执，纠正本轮log作者时间；249真终态由geometry写R598，251薄修真实入口断口后刊。
+
+## 2026-11-16 17:26 UTC /root — R598 实际249生成后来源停止与两份必要超限
+
+完整R598记actual249十五层生成后两来源guard、科学未起、generation115399/composition111177超90K、完整未知/原规则quiet/缺marker不清理，原logs/raw不入Git。
+补R605实际af893010普通推送/唯一252POST200及官方source阶段终态身份；R609 exact独立归责，未刊251修真实来源与两完整必要表示，R610/R611逐条接续。
