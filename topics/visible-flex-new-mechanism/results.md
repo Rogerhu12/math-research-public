@@ -447,3 +447,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R423：全k负四kk的原静态势输入完整固定。** [证明](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)给[N0]h⁻¹=k(τ2+k²τ2b)的独立outer六maps及九来源表，进而准确保留S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16。没有把k0单锚乘S充作全k，也不假新τ属于W；完整kk自然值、正字符与actual joint仍欠。
 
 - **R425：完整负四hh全k闭式与正字符交叉消失。** [实际与证明](results/R425-complete-hh-minus4-natural-identity-and-PSD-cross-cancellation.md)消费run43787923095/job133039635185：V0完整四密度=−3F_Q4/16且Euler非零，W整个left/local/Euler空；R422遂给hh=−3S²F_Q4/16。原共同D/E商经Q4 NH比例、同权响应补E才得λhh=0，PSD消λhk；kk仍欠。38源/8新self收缩/9旧响应、science2.254986277、RSS234208KiB，旧研究执行0。
+
+- **原末槽实际用到64，候选拒绝；输出向量缺项如实保留。** [完整原记录](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)（11097B/SHA5496c88900514cae59705b1c6c5b3739be9604dbb47cf5e4cecbafa8036e46b3）：run43789033043/job133043031523；4新值、1primary、0接受，累64LP/62value/356.129820261科学秒。gap1.262109103184958e−6未合但原inexact门给trial；真细η.26610465853261767较差，新粗soft行后回accepted27，无SOC额度。池v8/6、B.000125、learning36/35/0；新step record=null，两个硬编码true不构成保存证据，禁止重演64补向量。下一不同锥算法须独立预算保祖先账/原cfg/全原门。

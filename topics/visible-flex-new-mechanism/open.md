@@ -14,7 +14,7 @@
 
 ### O2 当前实际末态与唯一新接口
 
-[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)保run43767357527的6普通α1接受、两网14门及m7未合gap；[冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保run43773136836唯一粗value205.448292651s耗尽旧120门、LP10/value15/active241.314203844。该epoch关闭，不能重开旧LP11或加时重付冷恢复。[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)继承438+4/祖先学习，独立1800科学秒/64LP/160值含全部输入冷费；[第二次gate入口失败](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)及下方首完整实际记录全部累计费用。原14门、固定g与metric/reach要求不变；最新63LP/58value末态及末槽恢复见本文件末段。
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)保run43767357527的6普通α1接受、两网14门及m7未合gap；[冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保run43773136836唯一粗value205.448292651s耗尽旧120门、LP10/value15/active241.314203844。该epoch关闭，不能重开旧LP11或加时重付冷恢复。[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)继承438+4/祖先学习，独立1800科学秒/64LP/160值含全部输入冷费；[第二次gate入口失败](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)及下方首完整实际记录全部累计费用。原14门、固定g与metric/reach要求不变；最新64LP/62value末态及新锥入口见本文件后段。
 
 ### 仍须支付
 
@@ -146,10 +146,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### direct原28模型已读：只转真实新支持与最后一个未用slot
+### 原64-LP已用尽：新锥接口继承实际末态
 
-[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。[末槽完整接口](notes/terminal-paid-attainer-final-slot-design-20261116.md)run43786841449首实际已读：11新case全过，原10.0秒被新int断言误拒，恢复/J/value/LP全0；[首失败](notes/terminal-paid-slot-first-input-type-stop-20261116.md)累计science260.479586314、仍63LP/58values。[类型/费用修复请求](notes/terminal-paid-slot-type-fix-and-paid-eleven-reuse-20261116.md)已发，只修单LP finite numeric==10、原cfg10.0与hash不动；旧11/旧9仅复用、当前开发0，新费用继承；pending0/原binding/accepted27及原64/160/1800保留。[第二入口失败](notes/terminal-paid-slot-second-request-schema-stop-20261116.md)run43787979008已过10.0与11/9复用，但旧field helper缺source.coordinate_definition_sha256；新增value/J/model/LP全0，累计science271.058278962，完整核旧helper仅三字段后已发独立adapter与第二回执继承，三源变/旧11及9执行0，保63/58及原64上限。末slot实际消费后才考虑[有限完整范数锥](notes/finite-cone-affine-metric-design-20261116.md)：原单位下每行谱约束与4维Lorentz锥准确等价、包含其全部支持方向；完整两网oracle/原guard/真实14门保留，未选solver或开新运行，不能据此宣改善或换预算。
+[原direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)的27接受保其完整28行；[末槽最终实际](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)已实际启动64并拒绝新trial。累计64LP=63primary+1SOC、62value、356.129820261科学秒，所有输入失败计入；最后14门通过而目标改善−2.391806995405421e−6。接受27的η.26610226672562226/κ57.99972678574561不变；当前池4439/4533v8/6、B.000125、learning36/35/0和新gamma必须继承。原64任务关闭，不重演缺失step或加LP65。
 
+新candidate record=null，两个硬编码保存true已判为报告错误；原stdout仅指纹。下一[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)保161变量/原linear与盒/完整oracle/真两网接受，直接在solver返回时捕获exact159；先付显式预算及原状态恢复合同，再新接口必要检查与唯一科学执行。未把新算法预算或改善预先宣成已付。旧11/9只读，不重测。
 
 ### R399新的第二period内部通道已实际付至四点
 

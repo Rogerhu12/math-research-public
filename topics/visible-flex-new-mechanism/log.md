@@ -237,3 +237,9 @@ root已逐diff读transfer/resume/audit三源，原helper完整函数及source MO
 新reader只读第二失败原log并传递其已核11/9；历史COMPLETE的paid_first_attempt_receipt按原键核，当前命名paid_terminal_attempt。原source仍一次读取完整checkpoint，首失败不再另下；全部科学在首次读之前继承271.05827896200003，原257.595/首260.479仅历史，不重计。request42103B/SHAd95155a19b7eb0fd45ab72b410362676aa44904778e482f24bfc842c285384f4。当前仍63LP/58value，原64/160/1800/10不变；无新增fixture或开发执行。唯一公开运行续未付恢复/支持判重/最多LP64。
 
 主log已至92090B，按原100KB上限将20:32–23:51完整人类段归档52111B/SHAee62bae48e4ea32f86986834fa405110aa42bdd6ef97f93983a30e64aed4d2ca，只改相对链接；当前段及旧归档链均保。01:53前再次试exec_command仍因exec-server缺失不能建进程，继续根8小UTF8与公开实际pull路径，不把API刷新充作pull。
+
+## 2026-11-16 02:07:10 UTC：末槽最终实际及报告缺项全部入账
+
+人类note11097B/SHA5496c88900514cae59705b1c6c5b3739be9604dbb47cf5e4cecbafa8036e46b3写毕即推。root原stdout2957208B/a465b5f6b09de317c8b9b541953171968543e91f3de3ad52ae4bac9e6dc5f8c0及MODEL/COMPLETE、4trial/恢复、全门、账与18row-J已读；168/158源、request bytes/hash逐项相同，旧11/9复用当前0。LP64真启动，候选硬门真而实际gain负，接受27不变；池4439/4533v8/6/B.000125/learning36-35-0保新状态。新增85.071541299科学秒，总356.129820261，以最终COMPLETE总钟传递，非较早cp时间。exact159捕获走错evaluated路径，真实newrecord null，两个硬编码true反证，only指纹无法补向量；不重64。下一新锥先定合同与显式新账。
+
+公开actualpull01:55:28.774081→30.892365到9dc87d1b1bcfa060575d93d5e3370866db286af3，双README原hash/blob同、diff空；私有01:55:32.766502→33.476551，d77a9f45b59828b3187393c57dcebf993f5c1639同，根同/题无/QUEUE唯一进行中。root02:00已读，02:05再核，H更新下次02:55:28。旧原epoch不重开，主门未完成，继续理论与新接口。
