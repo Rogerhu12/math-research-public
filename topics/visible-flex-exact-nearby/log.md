@@ -153,3 +153,9 @@ Root完整读6小primary P/N/F1/F2/D1/D2并核hash。原note明确完成δ2首43
 main ea13/bca655de全部30712B与数学params/5max/m1,2/完整193mean/四Schur块/2rhs全不改，old/new数学仍0重复。两helper cc1c1e0b/6a0713f9为已读原格式证据，未新增runtime旧producer import或额外input；24current/19history/10AST不变。独立reader peer正式通过，原1580B preflight与13771B恢复receipt模型同；SCI完整输出模型与40K/80K/8K总128K预算不变，worker已保whole failed preflight诊断。
 
 更新清单 c1228b9d5984a0a2d11de37b6dcd6e6eebbb5801 /45380B/SHA9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4，worker4342/a3c1c6ea，readonly_diagnostic_only=false。其operational_recovery完整绑定两次failed执行、1395B原stderr、两个先记commit与全部未开始五target；只有通过全readonly并发布consumed marker才允许首次新数学child。fresh topic199536436B加12000B编辑buffer+128000B全输出+120000Breserve≤200MB。748bd6eed5f6c69bfa7c4db3543306e92efbbd37两README核同，另行workflow提交启动；不声称尾门或finite逆已过。
+
+### 2026-11-16 11:04:57 UTC — WPTV 修正入口后首次实际数学 workflow
+
+先推窄修 package 98924967bf87b1fa30f8dd367f932511235355a8，再独立提交同一 workflow；此前 43851901811/1 与只读诊断 43852589080/1 均 scientific_children_started=0、全部五 target 未始、completed=[]、无 consumed marker、lostmath=0，失败边界已先 685b8a08 / 9ed93794 完整登记。新 workflow d8b2d94a73cbfb3c13c6693d2ca77402f93b90a6 / 2929B / SHA256 c526464fa567773efbd4bd42e6e619a9f9b0b6ed0ddf3a9f9251a295a12258fa 只固定 manifest 9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4 和已审 worker a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c；readonly_diagnostic_only=false。科学 source bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1 及全部五量、m=1/2、域、mean、193与96、全失败保存、0旧重算和0finite矩阵均原样。
+
+启动前 fresh Git-tree f932e75b993a1ce7df209af3cde438d598719414 topic=199543841B，完整输出预算128000B+reserve120000B+本次文档裕量7000B≤200000000B；worker 在真正 child 前再核同预算，所有实际pull逐次核两README并保回执。本提交只授权尚未执行的既定数学，不提前声称预检/尾门通过。README核 f932e75b993a1ce7df209af3cde438d598719414；后续按实际小完整输出判定。
