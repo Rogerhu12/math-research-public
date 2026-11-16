@@ -38,9 +38,9 @@ R434原144的Q秩59/核85、三尾current像32/核53与7ann已付，全部suffix
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
-R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核，δ最高像值=(−d/τ,e/τ)，P2另乘κ/24。当前12真实四次差分给e(E8)=0及incoming-e0；R445由全ρ2/Z4证d(Bε)=d(Y)=0。
+R444八hook=2Lf(XD)，保J⁺/全部partial/C/3合法矩；原12四次差分使e(E8)=0，R445有d(Bε)=d(Y)=0。R447从起点同q4/F★/共同外根解(V19,dP)=(0,η)，η非零给signed最高d轴，非旧冻结母或actual零基准。
 
-[R447](results/R447-twenty-common-profile-targets-and-a-nonzero-highest-P-gauge-direction.md)从起点同q4/F★/全部共同外Af根准确给(V19,dP)=(0,η)，任意有限η；20组正核、受限minor、有号集中及有限N全付。η≠0时8hook最高d轴恰1、e仍盲，J⁺/partial/C/3合法矩保持；不授旧母或actual零基准。真range、余9行/其它s段及原型×n共同基准仍欠。
+[R450](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)完整U最低self权给原self/2+2位置≤11；真正12中心range用Vandermonde选一次紧逆，ell六权使e≤17，现12复制仅余≤6（7系数），不宣旧be零。从起点再8个四次幅g翻号宏副本，11+7差分杀全e，覆盖完整actual基准但仍须最终真range。新增copy同纳R447二十门：F_rat全平移系数保全角，全部新C²余项进入b_new，由同有限N真方程付；不是正主项替全式。新母/actual成本变化不可借旧12range收据，余9/其它s段仍欠。
 
 [R449](results/R449-eight-complete-hook-responses-and-a-137-dimensional-response-image.md)原8hook在完整成本上独立，虽Af self全0；59/32/38诊断旗标后尚有8真方向，故144完整像≥137/系数核≤7。K11与全部144交零，增广≥148；非49 Af像或actual秩。
 
@@ -60,4 +60,4 @@ R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核
 
 ## 5. 当前工作
 
-R443实际/R446局部性及R448的19/30、R452的r0九/四十接口已发；接R451真实H*全根目标与同一actual增强。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值新first-jet唯一request已发，等待原report并续实际；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443实际/R446局部性及R448的19/30、R452的r0九/四十接口已发；接R451真实H*全根目标与同一actual增强。R450新初选宏库在真range后清最高e，继续完整range、d/余9实际联合；R442真D与period/同规范不放下。数值新first-jet唯一request已发，等待原report并续实际；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。

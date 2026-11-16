@@ -309,3 +309,6 @@
 
 
 - **R452：r=0真镜对准确九维像及四十维余核。** [完整原K左逆、九行及投影](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)（9404B/SHA055cabe0c30b6d975c0ec7d4549d7ce0e52e92e021c04425c7c47881b57dfc99）。只读R443既有r0项；K0…4零/K5…10给Pol5左基，三原pivot镜差最高a·(13/128,5x/468,−67x²/92)，故a≠0时准确Pol5图+Pol2、9像/40核；真实6左+3右幅权Vandermonde、全原lift投影保齐。a=0另为6像，简单r0根必p非零。保其它C/全根/actual基准前提，无新计算。
+
+
+- **R450：真逆十七次界、当前七余及新八宏复制准确清最高e。** [完整真逆、七余与共同二十门证明](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)（25960B/SHA764d9539304aba4e201e09cf3eddfbf1e704168fc384b4e61a5d7eecb9517a9b）。Σ(U−9)=0给全self/2+2≤11；总range逐完整base等价、12真中心紧逆多项式≤11，ell的6次位置权给e≤17。当前12仅余≤6/七明确系数；从起点外加8四次幅g翻号以18阶差分准确消全e，覆盖最终actual基准但不付range。新宏copy同纳q4/F★/共同外根/20目标：全角平移观察闭包与新C²基准分层证明，b_new由有限N完整方程支付。旧母/成本的range收据不移植；d/余9/其它s段actual joint仍欠，0新执行。

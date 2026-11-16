@@ -50,19 +50,17 @@ R259–324原面积/有序history/完整self、R208–227实际pure与有限观�
 
 R383原有限表保留，但R387/388完整正余量已阻断原Gaussian同芽连续C²首阶轨道；不排高阶才动/其它芽/一般C²面。R378/381/382撤回旧H非零和7–13秩。R390两Λ、R392响应P_LE⊕R²实际控制保完整基准，未授wholeE/同g或全部规范。原证明/费用及详细边界见[已付背景](notes/open-paid-background-through-R443-20261116.md)和各结果，不重跑；当前继续J⁺/全部内部门。
 
-### R327/R330/R437/R442/R444：最高规范兼容与原八响应盲行
+### R437–R450：最高规范、真period逆与新宏库
 
-[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)从完整FY2≡0/真二次左尾得到P2θ(k)=κI2(Yff,k)/24，θ独立并杀整个kerLf；13rank≤12、底十行≤9仅上界。齐次规范不能调两特解类的最高行。
+R437给P2θ=κell_f/24，ell杀全kerLf；原13rank≤12/余底≤9仅上界，齐次规范不能改真特解类。R442保同锚/简单p根双极有限部分、全部Af除法和原exp端条件；有限部分存在不替range，D_path与P2也未证等价。完整来源见各结果。
 
-[R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)在R431实际有限简单p/Af根、原正解析prefactor×ψ3端类上，令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，则F′=−pW″。真正G=Lf k的JG,i=∫左端^x pG″保原锚，ell_f(k)=P_f(G)=−ΣFP∫F JG/(Af p²)。简单p根只有双极q_c=−F(c)JG(c)/(2r(c)^4)，准确扣2q_c/ε，无单极；Af点须真JG0/光滑除法，原exp端支付Fk′/p→0。多重零或其它端类需另付；对尚未证明在像的G，FP存在不授period/range。
+R444原8hook为2Lf(XD)，whole三矩给XD紧，保J⁺/全部partial/C及3合法矩；变最高值(−d/τ,e/τ)。原12四次g翻号对这些列及incoming给e=0；R445已付d(Bε)=d(Y)=0。R447从起点在同q4/F★/外Af根库解(V19,dP)=(0,η)，η任意有限且可非零；不称旧冻结母已有此值。其原20正核、restricted max-F、有限N全部是真完整方程，非只principal。
 
-两真实目标先完整入像，再须P_f(Gd^c)=P_f(Ge^c)=0；同一incoming X准确加ell(XΔ)、减ell(Xfg)，非免费参数。F=−Θ4−x4aAf/6给Af点的局部连接，未证D与最高规范等价。余12行仍须同一k、全圆光滑相位/seed、Smith零行与降秩整除，全部gap/平台代价保留。
+[R450](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)以完整Σ(U−9)=0和U权[-9,3]给整个self/2+2平移≤11，未把Σ(U−8)设零。原T三矩闭合准确消跨完整base第二源，Lf二导局部性+预留gap延拓给总range iff逐base真range。对同最终V/F/G的12真实不同中心入像，用一次有限Vandermonde选紧逆多项式≤11；ell的7完整权W0…W6再给e≤17。当前11差分仅留下≤6宏多项式，七余式完整且不判独立/零。
 
-[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)从完整B_XH原三项化为2Lf(XD)，whole三矩使XD/XΔ/Xfg真紧。8原响应属于kerJ⁺且全Af partial/C0，变化为真Lf像，不能使初始不入像目标免费入像。最高像泛函变化为−d_f(X)/τ、+e_f(X)/τ，实际P2再乘κ/24。当前实际12复制用四次εγ⁴=11差分权；Y真二次尾与紧Xfg的I2跨项准确消，平移次数≤10，故e_f(E8)=0及incoming-e项0。八列支路可同时付最高两值 iff be=0且τbd∈d_f(E8)，d八真值仍未判，不宣rank1或全R盲。原八复制已保3合法矩，余9端口行/其它s段仍须同k联立；signed响应与actual原型×n、桥及J⁺基准不混。[R445](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)已付完整ρ2=κI2(Yff,BεD)/24、Z4=−κ²I2(Yff,YD)/(144Hε)，故d(Bε)=d(Y)=0，剩P/R/S/L/U/V六真实值；不称非零或六自由参数。十二copy的d用正binomial平均，Pol≤10上可逆但冻结值可零。全部micro跨尾准确0给dP=Σai²Ri I2(Yui²,Pui²)，完整单包式为−2∫x4Cr t²+2∫(u−xp)²r²−∫x4r4/12。下一若用新principal，须同q/F★受限、真实copy/正核/有限频率19门一起付，不能改冻结圆取巧。
+新分支从起点纳原12外的8宏g翻号、幅Γ_k=binom(7,k)^(1/4)和全部合法间隙，11+7=18差分准确清完整最终V的最高e（仍以其真range为前提）。同一新20目标由正平移算子保持主行/正核；F_rat的完整0…10系数和逐宏R/T三矩保全角，所有新增低阶真基准只须为连续C²余式并进入b_new，有限N全方程付。不假全宏同B0，也不冻结每个新基准。
 
-[R447](results/R447-twenty-common-profile-targets-and-a-nonzero-highest-P-gauge-direction.md)现在从起点把dP加成第20目标，原2x4Cr主行对旧W/C二次空间模偶配对核span(up,pr)仍独立。原正布局至多20第二层组×12真实交替位置，各有严格正核；同四q图册内restricted max-F★和20minor同时取真最大/非零点，归一/全复制三角作用保秩。固定正幅盒后同一有限N准确给(V19,dP)=(0,η)，所有F★/共同D,E/外Af根和jets保持。η任意预定有限，选非零后最高d轴可由signed B_PH调任意值，e仍0；这是一套新初选共同库，不声称旧冻结圆已有此值。
-
-新响应保wholeJ⁺/所有partial/C/原3合法矩，但需先真period目标入像，余9端口行及其它s段/实际prototype基准还须同一构造支付。下一R450查真实最高e基准是否被原复制结构消掉，或寻找8hook外的真实e方向；不得只凭字面f³g丢逆算子和全部尾。
+下一必须对新最终母与actual成本付全部range/内部Af/禁止极点/平台端germ；改母或成本后旧12收据不能移植。真range之后e自动0，signed B_PH可调d而保原range/partial/C；把d和全部余9端口行、其它s段升为同一个actual增强仍须全原型×n/桥/Klein基准。继续完整joint，不把新复制当period存在证明。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 
