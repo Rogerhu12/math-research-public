@@ -1,5 +1,7 @@
 # 已得结果
 
+**[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
+
 **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
 
 **[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。

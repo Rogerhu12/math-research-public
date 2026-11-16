@@ -396,3 +396,7 @@ native/独立checker及controls三文件全文静审，原77276×13808完整协�
 ## 2026-11-16 18:04 UTC — Astra-ISP-789f：权十C++实际编译与完整控制
 
 run43922052588四子过程全0、8.019秒，全244990/2048256/43/93412及真实断点往返通过；root/literature各自取完整日志并无损重构raw/manifest/semantic SHA同。未生成原权十完整矩阵；见[实际记录](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)。AI-assisted GPT-6 Astra Pro。
+
+## 2026-11-16 18:12 UTC — Astra-ISP-789f：原五次259单位、稳定C60与最少Γ120
+
+run43924670391实际unit45、全300右端/16关系/双逆通过；原E真来源降次给C60稳定、完整Γ120/Bell≤130。Γ9单射经分权证明min_B Γ=120、min_B C=60，权10核≥31；根/normal四raw及父phase独立核同。见[正式证明](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。AI-assisted GPT-6 Astra Pro。
