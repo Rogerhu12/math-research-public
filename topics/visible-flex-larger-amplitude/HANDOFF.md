@@ -41,8 +41,8 @@
 - R527/225原356源，R522准确paired与R515三physical site真回执；R535五件已7ba35，同root有限词/18统计/完整last，实际fallback与原root/owner门保。R536六件已f93b，361源，真owner_scope安装后原main/replay，五物理source实际目录及完整RootStats/编译/三安装源八具名可逆表；request71828/6685、wf18755/0d23，原19200/6000/1200/8000/600/600/1800全门保，R534模型不混。226实际R537续。
 - R529/R532/R534已完整：原128 owner/tol/replay权威先行，真实defer旧post，同次全577×224 RN64→同DN全576×226×224/port/双mean→准确lift128→全boundary/338endpoint/独立audit/assembly/FD/fullDN。投影/flow/lift同8000窗口、真owned guard/ready/TERM→KILL/reap/quiet；有限近似模型不冒DD/收敛。R534五件225478已924ea；R542/229三件121837已4a0f，372源、request79743/934d、最终wf22634/cc34，原19200/allcaps，缺必要/运输失败清complete。R535未含；229/R543续。
 - R533三件已90624完整具名无损必要关系；R540/228已e5af、actual99f4，120源，原八39/全freshFD/10500/175/195min/90K70/quiet保，全部header计whole严格更小才采用，没保证fit；R541续。
-- **R544本次完整五件136350B发表**：relation8567/7bc3、generator16140/78ac、plan76039/1000、proof19451/d5f1、interface16153/2301。两真实argv/ENTRY断口修复且guard保，41核心+8sameC=49新view/95literal，展开1972880B只Actions；先原217八历史源。composition只具名source新增三列+完整literal/其余对象，根/行/键序/类型/±0/presence严格逆，whole含header严格更短才用，90K不变且不保证fit。原完整文件与必要body身份分责；exact继续R545/request230/R546实际完整接线，原9scope/同C/quiet不减。
-- geometry **R547三件完整105526B已交，root下一笔立即刊**：387源，真R535 owner缓存加R534 deferred模型，同scope诚实合并、10新caller，boundary/components/assembly原三件逐字保，八完整统计/来源表接同一reader。随后R548/request231/R549，原19200/allcaps/128权威/全部门不变。未来实际不借226/229数值。
+- **R544五件136350B已fe72bb3发表**：relation8567/7bc3、generator16140/78ac、plan76039/1000、proof19451/d5f1、interface16153/2301。两真实argv/ENTRY断口修复且guard保，41核心+8sameC=49新view/95literal，展开1972880B只Actions；先原217八历史源。composition只具名source新增三列+完整literal/其余对象，根/行/键序/类型/±0/presence严格逆，whole含header严格更短才用，90K不变且不保证fit。原完整文件与必要body身份分责；exact继续R545/request230/R546实际完整接线，原9scope/同C/quiet不减。
+- **R547本次三件完整105526B发表**：generator23546/57a2、plan54357/d166、完整证明接口27623/e06e，387源=348public+39gen。真R535 compiler与R534 defer同scope符号不互覆；原128 main/solve/replay先付、同DN全576模型随后，十新caller及四source tuple真接，boundary/components/assembly三件原字保，完整RootStats/replay/compile与八具名表并原全部模型/guard字段保。原19200/allcaps/128权威/全部门不变；geometry继续R548/request231/R549，request95286/工作流23014已成待完整文稿，尚未dispatch、不借226/229数值。
 
 ## 连续几何、精化和容量
 

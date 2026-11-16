@@ -90,3 +90,7 @@
 ## R544 — 实际来源两guard修复与完整composition具名关系
 
 **完整源码/条件实现已证明，实际230未运行。** [R544](results/R544-current-C-actual-source-bindings-and-lossless-composition-relations.md)/[接口](notes/2026-11-16-current-C-actual-source-binding-and-composition-relations-interface.md)五件136350B：relation8567/7bc3、generator16140/78ac、plan76039/1000、proof19451/d5f1、interface16153/2301。原actual217/222真实b3ce旧argv与9c7a ENTRY断口修复，来源guard保；41核心+8sameC、95literal，1972880B展开只Actions。具名source新增三列+全literal/其余对象保原键/行/顺序/类型/presence/±0，明确逆；whole含header严格更短才用，不保证90K内且不加限额。原完整composition与necessary身份分责、全部science/clock/quiet门保，exact继续R545/request230/R546实际caller。H/open以3034固定历史压缩，原open§4–6逐字保；R511日志时间更正为真实12:13，226状态不再使用提前的12:14观察标签。
+
+## R547 — 同scope原128有限字缓存与完整同DN模型组合
+
+**完整源码与条件实现已证明，实际231未运行。** [R547](results/R547-root-cached-owner128-and-same-DN-complete-model-composition.md)三件105526B：generator23546/57a2、plan54357/d166、证明及全CLI接口27623/e06e。原229全部372加R535两public/两gen、新gen/十caller=387，348public/39gen；真R534准备→原R535include→十新caller，全部identity/partial/未生后缀保。真owner_scope中R535编译安装与R534defer符号不互覆；原main/solve/replay及128tol/replay权威先行，全577×224一次RN64/同DN完整576×226×224/port/双mean/准确lift→原boundary/338endpoint/audit/assembly/FD/fullDN。三数学consumer原字保、四source tuple新实际，全部RootStats/replay/编译与八具名关系完整返回且原模型/guard保；原19200/allcaps/90K70/quiet不减，无速度、模型误差或fit预报。geometry续R548/request231/R549，226/229各自实际不借父。

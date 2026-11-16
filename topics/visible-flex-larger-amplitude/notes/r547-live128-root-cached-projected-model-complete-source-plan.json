@@ -1,0 +1,672 @@
+{
+  "schema": "R547-root-cached-current-owner-projected-model-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_baseline": {
+    "R534_published_commit": "924ea9315f76eeeda789d0bcff82e9f5d213edbd",
+    "R535_published_commit": "7ba35e365e3314af5f96bcdf3cc34172141103d0",
+    "R542_actual229_source": "4a0f185ba990b8c2ae2ff39ddd7dcc2d582b8a06",
+    "only_source_and_input_ancestry": true,
+    "actual229_scientific_result_reused": false
+  },
+  "generator": {
+    "file": "root_20261116_live128_cached_projected_source_views.py",
+    "bytes": 23546,
+    "sha256": "57a28670e2fe167c816f470052923ce130197eb4e182dbf3e959547e07846de3"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-projected-model-original-full112-FD-fullDN-request.json",
+      "bytes": 79743,
+      "sha256": "934dee4bfe60ebae9432f3ceccf439af7d535f50a17307833ba6ca9d545d5c14"
+    },
+    "generator": {
+      "file": "root_20261116_live128_projected_model_source_views.py",
+      "bytes": 18862,
+      "sha256": "990c14b8a11ee2443d880fdbf9aa819640ebe9dd2bd2a64217fb92bd1eed5eee"
+    },
+    "plan": {
+      "file": "notes/r534-live128-projected-model-complete-source-plan.json",
+      "bytes": 83541,
+      "sha256": "def126fd8ae7159fd1a4709aea0e33fe1a50222556329dbb68cea8188cd7a9a7"
+    },
+    "core_plan": {
+      "file": "notes/r534-live128-projected-model-core-source-plan.json",
+      "bytes": 72022,
+      "sha256": "826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648"
+    },
+    "source_metadata_directory": "request229-source-preparation",
+    "source_only_child": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "root_20261116_native_root_finite_words.hpp",
+      "bytes": 7102,
+      "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+    },
+    {
+      "file": "root_20261116_native_root_finite_words.py",
+      "bytes": 10892,
+      "sha256": "1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db"
+    }
+  ],
+  "root_word_plan": {
+    "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+    "bytes": 10232,
+    "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+  },
+  "root_word_header": {
+    "file": "root_20261116_native_root_finite_words.hpp",
+    "bytes": 7102,
+    "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+  },
+  "root_word_adapter": {
+    "file": "root_20261116_native_root_finite_words.py",
+    "bytes": 10892,
+    "sha256": "1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db"
+  },
+  "root_word_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_native_root_finite_words_primal128.cpp",
+        "bytes": 25230,
+        "sha256": "3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_native_root_finite_words_trace128.cpp",
+        "bytes": 34950,
+        "sha256": "2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12"
+      }
+    }
+  ],
+  "counts": {
+    "original229_public": 345,
+    "original229_generated": 27,
+    "additional_R535_public": 2,
+    "additional_R535_generated": 2,
+    "new_generator": 1,
+    "new_caller_views": 10,
+    "public": 348,
+    "generated": 39,
+    "complete": 387
+  },
+  "roles": {
+    "owner": "geometry_20261116_live128_cached_projected_same_call_owner.py",
+    "components": "geometry_20261116_live128_projected_model_final_components.py",
+    "boundary": "geometry_20261116_live128_projected_model_boundary128.cpp",
+    "assembly": "geometry_20261116_live128_projected_model_response_assembly.py",
+    "system": "exact_20261116_live128_cached_projected_current576_system.py",
+    "qr": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+    "pipeline": "geometry_20261116_live128_cached_projected_call_pipeline.py",
+    "call": "geometry_20261116_live128_cached_projected_current_call.mjs",
+    "worker": "geometry_20261116_live128_cached_projected_worker.mjs",
+    "client": "geometry_20261116_live128_cached_projected_tail_client.py",
+    "fulldn": "geometry_20261116_live128_cached_projected_original_full_dn.py",
+    "runner": "geometry_20261116_live128_cached_projected_owned_run.py",
+    "reader": "root_20261116_live128_cached_projected_necessary.py"
+  },
+  "unchanged_model_consumers": [
+    {
+      "role": "boundary",
+      "file": "geometry_20261116_live128_projected_model_boundary128.cpp",
+      "bytes": 12844,
+      "sha256": "0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9"
+    },
+    {
+      "role": "components",
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    {
+      "role": "assembly",
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  ],
+  "schemas": {
+    "owner": "R547-current-H-root-cached-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R547-current-H-root-cached-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R547-current-H-root-cached-live128-projected-model-client-policy-v1",
+    "runner": "R547-live128-root-cached-projected-model-original-full112-owned-procedure-v1",
+    "reader": "R547-live128-root-cached-projected-model-original-full112-necessary-v1",
+    "request": "public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R547-live128-root-cached-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-root-cached-projected-model231",
+    "window": "R534-current-owner-projected-model-stage-clock-v1",
+    "source": "R547-root-cached-current-owner-projected-model-source-preparation-v1",
+    "plan": "R547-root-cached-current-owner-projected-model-complete-source-plan-v1"
+  },
+  "original_runtime_contract": {
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "original_state_shape": [
+      577,
+      224
+    ],
+    "local_state_dimension": 226,
+    "mean_rows": 2,
+    "complete_stages": 576,
+    "complete_endpoint_shape": [
+      338,
+      112
+    ],
+    "future_request_number": 231,
+    "science_namespace": "visible-live128-root-cached-projected-model231",
+    "source_metadata_directory": "request231-source-preparation"
+  },
+  "textual_implementation_provenance": {
+    "donor": "R536-final-source-only-handoff",
+    "complete_plan": {
+      "bytes": 62193,
+      "sha256": "772e3da8b00d692672802b0e61f0e038b08b0014b03ad7e136f9cb312412ba69",
+      "blob": "ed057c1d795aa68b5102a21084907dabaf9c118b"
+    },
+    "owner": {
+      "file": "geometry_20261116_live128_root_words226_same_call_owner.py",
+      "bytes": 21969,
+      "sha256": "934e92b1d381e5c268346556327fb76147c20e73bb9b4b9ddb6ca91aad7ab3fb"
+    },
+    "reader": {
+      "file": "root_20261116_live128_root_words226_necessary.py",
+      "bytes": 52189,
+      "sha256": "e90e3abd2e40ebd469bcd8d4dd7f221848c9926c91b86c8e2ee29235b1be864a"
+    },
+    "source_only_literal_donor_not_an_extra_executed_owner_or_scientific_dependency": true,
+    "installed_compiler_is_original_published_R535_adapter": true,
+    "eight_named_tables_and_contexts_are_copied_with_current_R547_reference_keys": true,
+    "physical_source_binding_shared_at_existing_R534_current_model_field": true
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_same_call_owner.py",
+        "bytes": 22514,
+        "sha256": "9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_same_call_owner.py",
+        "bytes": 25621,
+        "sha256": "3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee"
+      },
+      "patches": [
+        {
+          "id": "owner-change-1",
+          "before": "One R534 current-H owner invocation on the original full112 job clock",
+          "after": "R547 finite-word cached owner before the same-DN complete projected model",
+          "count": 1
+        },
+        {
+          "id": "owner-change-2",
+          "before": " hashlib\nimport json\nimport os\nf",
+          "after": " hashlib\nimport importlib.util\nimport json\nimport os\nf",
+          "count": 1
+        },
+        {
+          "id": "owner-change-3",
+          "before": "34-current-H",
+          "after": "47-current-H-root-cached",
+          "count": 1
+        },
+        {
+          "id": "owner-change-4",
+          "before": "n changed\n\n\ndef pid_record():\n  ",
+          "after": "n changed\n\n\ndef install_root_finite_words(owner_scope, record, runner):\n    preparation_directory = runner/\"request231-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n            \"Actual source-preparation directory is not a symlink\")\n    preparation_file = preparation_directory/\"source-views.json\"\n    preparation_receipt = identity(preparation_file)\n    checked(preparation_receipt, runner)\n    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R547-root-cached-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 231\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n            and any(row.get(\"role\") == \"owner\" and row.get(\"actual\") == identity(__file__)\n                    for row in preparation.get(\"generated\", [])),\n            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R535_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R535 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R535\"/\"source-binding.json\",\n            \"The independent actual R535 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n    require(binding == child.get(\"source_result\"),\n            \"The complete source binding agrees with the actual preparation receipt\")\n    record[\"root_finite_word_cache_source_preparation\"] = preparation_receipt\n    record[\"root_finite_word_cache_source_binding\"] = dict(\n        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_native_root_finite_words.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 10892\n            and file_sha(adapter_file) == \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n            \"The exact published R535 compiler adapter\")\n    module_spec = importlib.util.spec_from_file_location(\"_R547_actual_root_word_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n    sys.modules[module_spec.name] = adapter\n    module_spec.loader.exec_module(adapter)\n    record[\"root_finite_word_cache_compiler_installation\"] = adapter.install_owner_compiler(\n        owner_scope, binding)\n    return record[\"root_finite_word_cache_compiler_installation\"]\n\n\ndef pid_record():\n  ",
+          "count": 1
+        },
+        {
+          "id": "owner-change-5",
+          "before": "mathematical_owner_loop_changed=Fals",
+          "after": "persistent_main_solve_replay_source_unchanged=True,\n        root_primal_uses_declared_R535_finite_word_source=True,\n        root_finite_word_cache_source_preparation=None,\n        root_finite_word_cache_source_binding=None,\n        root_finite_word_cache_compiler_installation=Non",
+          "count": 1
+        },
+        {
+          "id": "owner-change-6",
+          "before": "owner\")\n        # This is a new ",
+          "after": "owner\")\n        install_root_finite_words(owner_scope, record, runner)\n        # This is a new ",
+          "count": 1
+        },
+        {
+          "id": "owner-change-7",
+          "before": "s(dict(event=\"R534_current_owner_b",
+          "after": "s(dict(event=\"R547_cached_current_owner_b",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_projected_model_current576_system.py",
+        "bytes": 29007,
+        "sha256": "9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355"
+      },
+      "output": {
+        "file": "exact_20261116_live128_cached_projected_current576_system.py",
+        "bytes": 29009,
+        "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+      },
+      "patches": [
+        {
+          "id": "system-change-1",
+          "before": "projected_model_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_projected_model",
+          "after": "cached_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_cached_projected",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_projected_model_current576_chain_qr.py",
+        "bytes": 21846,
+        "sha256": "2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405"
+      },
+      "output": {
+        "file": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2"
+      },
+      "patches": [
+        {
+          "id": "qr-change-1",
+          "before": "projected_model_current576_system.py'\nSYSTEM_SHA='9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355",
+          "after": "cached_projected_current576_system.py'\nSYSTEM_SHA='9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_call_pipeline.py",
+        "bytes": 43162,
+        "sha256": "2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde"
+      },
+      "patches": [
+        {
+          "id": "pipeline-change-1",
+          "before": "34 current-owner",
+          "after": "47 root-cached owner and",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-2",
+          "before": "34-current-H-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R534-current-H-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_projected_model_same_call_owner.py\"\nOWNER_SHA = \"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_projected_model_current576_chain_qr.py\"\nQR_SHA = \"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\"\nSYSTEM = \"exact_20261116_live128_projected_model_current576_system.py\"\nSYSTEM_SHA = \"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355",
+          "after": "47-current-H-root-cached-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_cached_projected_same_call_owner.py\"\nOWNER_SHA = \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_cached_projected_current576_chain_qr.py\"\nQR_SHA = \"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\"\nSYSTEM = \"exact_20261116_live128_cached_projected_current576_system.py\"\nSYSTEM_SHA = \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-3",
+          "before": " dict(schema=\"R534-current-H-owner128-before",
+          "after": " dict(schema=\"R547-current-H-root-cached-owner128-before",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_current_call.mjs",
+        "bytes": 45370,
+        "sha256": "9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718"
+      },
+      "patches": [
+        {
+          "id": "call-change-1",
+          "before": "here,'geometry_20261116_live128_projected_model_tail_client.py'))||\n spec.sessi",
+          "after": "here,'geometry_20261116_live128_cached_projected_tail_client.py'))||\n spec.sessi",
+          "count": 1
+        },
+        {
+          "id": "call-change-2",
+          "before": "projected_model_same_call_owner.py',\n  client:'geometry_20261116_live128_projected_model_tail_client.py',\n  current_call:'geometry_20261116_live128_projected_model_current_call.mjs',\n  worker:'geometry_20261116_live128_projected_model_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n  const full=absoluteReceipt(path.join(here,name));\n  if(spec.frozen_sources[name]!==full.sha256)throw Error('Actual declared R534 source '+role);\n  return [role,{...full,file:name}];\n }));\n return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R534-current-H",
+          "after": "cached_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_cached_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_cached_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_cached_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n  const full=absoluteReceipt(path.join(here,name));\n  if(spec.frozen_sources[name]!==full.sha256)throw Error('Actual declared R534 source '+role);\n  return [role,{...full,file:name}];\n }));\n return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R547-current-H-root-cached",
+          "count": 1
+        },
+        {
+          "id": "call-change-3",
+          "before": "34-current-H",
+          "after": "47-current-H-root-cached",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_worker.mjs",
+        "bytes": 8306,
+        "sha256": "47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0"
+      },
+      "patches": [
+        {
+          "id": "worker-change-1",
+          "before": "34 owner128 values and current-projected64 model on the original finite geometry",
+          "after": "47 declared root-cached owner128 values with the unchanged complete R534 model",
+          "count": 1
+        },
+        {
+          "id": "worker-change-2",
+          "before": "projected_model",
+          "after": "cached_projected",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_tail_client.py",
+        "bytes": 33640,
+        "sha256": "5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_tail_client.py",
+        "bytes": 34939,
+        "sha256": "89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d"
+      },
+      "patches": [
+        {
+          "id": "client-change-1",
+          "before": "}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R534-current-H",
+          "after": ",\\\"geometry_20261116_live128_cached_projected_same_call_owner.py\\\":\\\"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\\\",\\\"exact_20261116_live128_cached_projected_current576_system.py\\\":\\\"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\\\",\\\"exact_20261116_live128_cached_projected_current576_chain_qr.py\\\":\\\"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\\\",\\\"geometry_20261116_live128_cached_projected_call_pipeline.py\\\":\\\"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\\\",\\\"geometry_20261116_live128_cached_projected_current_call.mjs\\\":\\\"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\\\",\\\"geometry_20261116_live128_cached_projected_worker.mjs\\\":\\\"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\"}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R547-current-H-root-cached",
+          "count": 1
+        },
+        {
+          "id": "client-change-2",
+          "before": "projected_model_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_projected_model_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_projected_model",
+          "after": "cached_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_cached_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_cached_projected",
+          "count": 1
+        },
+        {
+          "id": "client-change-3",
+          "before": "projected_model_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n        original_source_root=str(source_root), original_source_topic=str(source_topic),\n        original_source_sha256=client.sources, numerical_configuration=numbers,\n        session_origin=session_origin, initial_guess=live_receipt(seed),\n        job_deadline=live_receipt(clock), resources=policy[\"resources\"], bridge=bridge,\n        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_projected_model_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_projected_model",
+          "after": "cached_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n        original_source_root=str(source_root), original_source_topic=str(source_topic),\n        original_source_sha256=client.sources, numerical_configuration=numbers,\n        session_origin=session_origin, initial_guess=live_receipt(seed),\n        job_deadline=live_receipt(clock), resources=policy[\"resources\"], bridge=bridge,\n        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_cached_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_cached_projected",
+          "count": 1
+        },
+        {
+          "id": "client-change-4",
+          "before": "0261116_live128_projected_model_worker.mjs\"), s",
+          "after": "0261116_live128_cached_projected_worker.mjs\"), s",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_original_full_dn.py",
+        "bytes": 38909,
+        "sha256": "46329929f49011ba1aec4af7a4c03e67ce6a11faa46d9c040df4f5f12d76db92"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_original_full_dn.py",
+        "bytes": 40373,
+        "sha256": "a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338"
+      },
+      "patches": [
+        {
+          "id": "fulldn-change-1",
+          "before": "34 actual63 prefix to owner128 values",
+          "after": "47 actual63 prefix to cached-owner128",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-2",
+          "before": "34-live128-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_projected_model_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\nHISTORICAL_ZERO_SHA = \"e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51\"\nFIXED_BINARY_BYTES_PER_NATIVE_CORRECTION = 704385296\nSOURCE_PINS = {",
+          "after": "47-live128-root-cached-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_cached_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\nHISTORICAL_ZERO_SHA = \"e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51\"\nFIXED_BINARY_BYTES_PER_NATIVE_CORRECTION = 704385296\nSOURCE_PINS = {\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n    \"exact_20261116_live128_cached_projected_current576_system.py\": \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\",\n    \"exact_20261116_live128_cached_projected_current576_chain_qr.py\": \"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\",\n    \"geometry_20261116_live128_cached_projected_call_pipeline.py\": \"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\",\n    \"geometry_20261116_live128_cached_projected_current_call.mjs\": \"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\",\n    \"geometry_20261116_live128_cached_projected_worker.mjs\": \"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\",\n    \"root_20261116_native_root_finite_words.hpp\": \"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\",\n    \"root_20261116_native_root_finite_words.py\": \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n    \"root_20261116_native_root_finite_words_primal128.cpp\": \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\",\n    \"root_20261116_native_root_finite_words_trace128.cpp\": \"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\",",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-3",
+          "before": "CLIENT_NAME: \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af",
+          "after": "\"geometry_20261116_live128_projected_model_tail_client.py\": \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af\",\n    CLIENT_NAME: \"89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-4",
+          "before": "34-current-H",
+          "after": "47-current-H-root-cached",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-5",
+          "before": "34_live128",
+          "after": "47_live128_cached",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_projected_model_owned_run.py",
+        "bytes": 39295,
+        "sha256": "10880b3313c289484d4d96413af8a5b5dd561170752e87caba7081094b6b3c6c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_cached_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e"
+      },
+      "patches": [
+        {
+          "id": "runner-change-1",
+          "before": "hon3\n\"\"\"Request229: current-owner ",
+          "after": "hon3\n\"\"\"Request231: current-owner ",
+          "count": 1
+        },
+        {
+          "id": "runner-change-2",
+          "before": "34-live128-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-projected-model229\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\nRUN_KEYS = (\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\nPROCESS = \"geometry_20261116_live128_owned_process.py\"\nPROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_projected_model_original_full_dn.py\"\nENTRY_SHA = \"46329929f49011ba1aec4af7a4c03e67ce6a11faa46d9c040df4f5f12d76db92",
+          "after": "47-live128-root-cached-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-cached-projected-model231\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\nRUN_KEYS = (\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\nPROCESS = \"geometry_20261116_live128_owned_process.py\"\nPROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_cached_projected_original_full_dn.py\"\nENTRY_SHA = \"a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338",
+          "count": 1
+        },
+        {
+          "id": "runner-change-3",
+          "before": "le_location(\"_R534_\"+role,path)\n  ",
+          "after": "le_location(\"_R547_\"+role,path)\n  ",
+          "count": 1
+        },
+        {
+          "id": "runner-change-4",
+          "before": "s exact request229 namespace is ow",
+          "after": "s exact request231 namespace is ow",
+          "count": 1
+        },
+        {
+          "id": "runner-change-5",
+          "before": "29 and request[\"repository\"]==REPO,\n            \"The actual complete request229",
+          "after": "31 and request[\"repository\"]==REPO,\n            \"The actual complete request231",
+          "count": 1
+        },
+        {
+          "id": "runner-change-6",
+          "before": "29 namespace\")\n    base.mkdir(mode=0o700)\n    request_path=Path(request_path).resolve(strict=True)\n    request=read(request_path)\n    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==229 and request[\"repository\"]==REPO,\n            \"The actual independent request229",
+          "after": "31 namespace\")\n    base.mkdir(mode=0o700)\n    request_path=Path(request_path).resolve(strict=True)\n    request=read(request_path)\n    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==231 and request[\"repository\"]==REPO,\n            \"The actual independent request231",
+          "count": 1
+        },
+        {
+          "id": "runner-change-7",
+          "before": "(event=\"request229_preparation_ret",
+          "after": "(event=\"request231_preparation_ret",
+          "count": 1
+        },
+        {
+          "id": "runner-change-8",
+          "before": "34-current-H",
+          "after": "47-current-H-root-cached",
+          "count": 1
+        },
+        {
+          "id": "runner-change-9",
+          "before": "(event=\"request229_actual_science_",
+          "after": "(event=\"request231_actual_science_",
+          "count": 1
+        },
+        {
+          "id": "runner-change-10",
+          "before": "34-live128-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n            and summary.get(\"request\",{}).get(\"sha256\")==request_sha\n            and summary.get(\"run\")==run_identity(),\"Actual single complete necessary readback\")\n    observation=quiet(base)\n    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request229",
+          "after": "47-live128-root-cached-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n            and summary.get(\"request\",{}).get(\"sha256\")==request_sha\n            and summary.get(\"run\")==run_identity(),\"Actual single complete necessary readback\")\n    observation=quiet(base)\n    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request231",
+          "count": 1
+        },
+        {
+          "id": "runner-change-11",
+          "before": "(event=\"request229_cleanup\",remove",
+          "after": "(event=\"request231_cleanup\",remove",
+          "count": 1
+        },
+        {
+          "id": "runner-change-12",
+          "before": "(event=\"request229_quiet\",quiescen",
+          "after": "(event=\"request231_quiet\",quiescen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_projected_model_necessary.py",
+        "bytes": 49013,
+        "sha256": "57f88e68f607f2f22f746840b4b53d42c87ef46cd219efa42ab5a050f0f0d8ab"
+      },
+      "output": {
+        "file": "root_20261116_live128_cached_projected_necessary.py",
+        "bytes": 59700,
+        "sha256": "bc26bbbe138ba75e0af66ba8793825ae31eeea7fb0d908196f0465594c3f3c98"
+      },
+      "patches": [
+        {
+          "id": "reader-change-1",
+          "before": "hon3\n\"\"\"Request229 readback after ",
+          "after": "hon3\n\"\"\"Request231 readback after ",
+          "count": 1
+        },
+        {
+          "id": "reader-change-2",
+          "before": "34-live128-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-projected-model229\"\nRUNTIME=\"geometry_20261116_live128_projected_model_owned_run.py\"\nRUNTIME_SHA=\"10880b3313c289484d4d96413af8a5b5dd561170752e87caba7081094b6b3c6c\"\nMAX_BYTES=90000\nFRAME=\"REQUEST229",
+          "after": "47-live128-root-cached-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-cached-projected-model231\"\nRUNTIME=\"geometry_20261116_live128_cached_projected_owned_run.py\"\nRUNTIME_SHA=\"8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e\"\nMAX_BYTES=90000\nFRAME=\"REQUEST231_CACHED",
+          "count": 1
+        },
+        {
+          "id": "reader-change-3",
+          "before": "class Reader:\n    def __init__(self,base):\n        self.base=base;self.errors=[];self.files={}",
+          "after": "# R547 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n# solver, or changes an original acceptance decision.\nROOT_WORD_COUNTERS=(\n    \"fixed_requests\",\"fixed_builds_started\",\"fixed_builds_completed\",\n    \"fixed_qualified_builds\",\"fixed_nonfinite_mode_fallbacks\",\n    \"fixed_nonfinite_angular_fallbacks\",\"fixed_mode_pairs_formed\",\n    \"fixed_angular_pairs_formed\",\"fixed_evaluations_used\",\n    \"fixed_evaluations_fallback\",\"fixed_evaluations_without_local_cache\",\n    \"u_builds_started\",\"u_builds_completed\",\"u_qualified_builds\",\n    \"u_nonfinite_mode_fallbacks\",\"u_mode_words_formed\",\n    \"u_angular_rows_used\",\"u_angular_rows_fallback\")\nROOT_WORD_SOURCE_KEYS=(\n    \"root_finite_word_cache_source_preparation\",\n    \"root_finite_word_cache_source_binding\",\n    \"root_finite_word_cache_compiler_installation\")\n\n\ndef root_word_signature(value):\n    # Complete parsed-JSON value and type equality, not rounded numbers or\n    # numerical closeness. JSON distinguishes bool/int/float and negative zero.\n    # The original Reader.safe_selected remains responsible for nonfinite\n    # JSON scalar display; no IEEE NaN payload identity is claimed.\n    return json.dumps(value,sort_keys=True,ensure_ascii=True,\n                      separators=(\",\",\":\"),allow_nan=True)\n\n\ndef root_word_equal(left,right):\n    \"\"\"Exact selected JSON types/values; -0 stays distinct; NaN never shares.\"\"\"\n    if type(left) is not type(right):return False\n    if isinstance(left,float):\n        if math.isnan(left) or math.isnan(right):return False\n        return left==right and (left!=0 or math.copysign(1,left)==math.copysign(1,right))\n    if isinstance(left,dict):\n        return left.keys()==right.keys() and all(root_word_equal(left[k],right[k]) for k in left)\n    if isinstance(left,list):\n        return len(left)==len(right) and all(root_word_equal(a,b) for a,b in zip(left,right))\n    return left==right\n\n\ndef root_word_table(values):\n    \"\"\"Fixed named-record columns with an explicit inverse and original order.\"\"\"\n    groups=[];positions={}\n    for index,row in enumerate(values):\n        keys=tuple(row)\n        if keys not in positions:\n            positions[keys]=len(groups)\n            groups.append(dict(columns=list(keys),original_record_indices=[],rows=[]))\n        group=groups[positions[keys]]\n        group[\"original_record_indices\"].append(index);group[\"rows\"].append(row)\n    result=[]\n    for group in groups:\n        columns=[]\n        for name in group[\"columns\"]:\n            rows=[value[name] for value in group[\"rows\"]]\n            columns.append(dict(constant=rows[0]) if all(root_word_equal(v,rows[0]) for v in rows)\n                           else dict(original_values=rows))\n        result.append(dict(columns=group[\"columns\"],\n            original_record_indices=group[\"original_record_indices\"],column_values=columns))\n    return dict(record_count=len(values),groups=result)\n\n\nclass RootWordMetadata:\n    \"\"\"Only R535 RootStats, its exact cache object and named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R547_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R547_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R547_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R547_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R547_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R547_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R547_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R547_physical_source_input_binding_ref\",\n    }\n\n    def __init__(self):\n        self.values={name:[] for name in self.REF_KEYS}\n        self.originals={name:[] for name in self.REF_KEYS}\n        self.seen={name:{} for name in self.REF_KEYS}\n\n    def share(self,name,value,display=None):\n        # Absent fields are not passed here. Present null/scalar/list values\n        # remain literal, so missing and null never become one table entry.\n        if not isinstance(value,dict):return value\n        key=root_word_signature(value)\n        prior=self.seen[name].get(key)\n        if prior is not None and root_word_equal(self.originals[name][prior],value):\n            return {self.REF_KEYS[name]:prior}\n        index=len(self.values[name]);self.seen[name][key]=index\n        self.originals[name].append(value)\n        self.values[name].append(value if display is None else display)\n        return {self.REF_KEYS[name]:index}\n\n    def statistics(self,value):\n        if not isinstance(value,dict):return value\n        display=dict(value)\n        if \"root_finite_word_cache\" in value:\n            display[\"root_finite_word_cache\"]=self.share(\n                \"root_finite_word_cache\",value[\"root_finite_word_cache\"])\n        return self.share(\"root_statistics\",value,display)\n\n    def compilation(self,value):\n        if not isinstance(value,dict):return value\n        display=dict(value)\n        key=\"root_finite_word_cache_compilation_source_binding\"\n        if key in value:\n            display[key]=self.share(\"root_cache_compile_binding\",value[key])\n        return self.share(\"owner_compilation\",value,display)\n\n    def describe(self):\n        return dict(schema=\"R547-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n            reference_key_to_catalogue={key:name for name,key in self.REF_KEYS.items()},\n            complete_named_catalogues={name:root_word_table(values) for name,values in self.values.items()},\n            inverse=dict(\n                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R547_root_statistics_ref, then only its original root_finite_word_cache member when it carries R547_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R547_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R547_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n                no_recursive_arbitrary_tree_codec=True),\n            complete_original_RootStats_members_retained=True,\n            all_returned_cache_keys_not_only_declared18_retained=True,\n            original_last_present_and_full_last_retained=True,\n            missing_null_and_original_array_order_distinguished=True,\n            only_complete_equal_parsed_values_and_types_share_an_index=True,\n            dictionary_member_serialization_order_not_claimed_original=True,\n            no_compile_or_scientific_success_inferred_from_source_preparation=True,\n            no_speed_or_completion_inferred_from_counters=True,\n            no_new_original_gate_or_scientific_evaluation=True)\n\n\nclass Reader:\n    def __init__(self,base):\n        self.base=base;self.errors=[];self.files={}\n        self.root_word_metadata=RootWordMetadata()",
+          "count": 1
+        },
+        {
+          "id": "reader-change-4",
+          "before": "turn keep(value,(\"complete\",\"budget_exhausted\",\"stages_completed\",\"rows_completed\",\n            \"expected_rows\",\"norm\",\"below_original_tolerance\",\"mean_height_sum\",\n            \"evaluation_error\",\"worst_row\",\"failed_stages\"))",
+          "after": "sult=keep(value,(\"complete\",\"budget_exhausted\",\"stages_completed\",\"rows_completed\",\n            \"expected_rows\",\"norm\",\"below_original_tolerance\",\"mean_height_sum\",\n            \"evaluation_error\",\"worst_row\",\"failed_stages\"))\n        if \"root_statistics\" in value:\n            result[\"root_statistics\"]=self.root_word_metadata.statistics(value[\"root_statistics\"])\n        return result",
+          "count": 1
+        },
+        {
+          "id": "reader-change-5",
+          "before": "t\n\n    def owner(self,call):\n   ",
+          "after": "t\n\n    def owner_root_source_records(self,call):\n        path=call/\"owner-call-procedure.json\";label=call.name+\"/owner-call-procedure\"\n        value=self.get(path,label)\n        result=dict(actual_file=self.files[label],\n            preparation_or_installation_is_not_actual_compilation=True)\n        if not isinstance(value,dict):\n            result[\"original_value\"]=value\n            return result\n        result[\"actual_procedure\"]=keep(value,(\n            \"schema\",\"source\",\"input\",\"run\",\"call_number\",\"actual_owner_process\",\n            \"original_owner_source\",\"actual_independent_engineering_view\",\n            \"per_H_new_total_clock_started\",\"old_result_or_cached_J_installed\",\n            \"job_deadline\",\"actual_owner_returncode\",\"actual_wrapper_returncode\",\n            \"returned\",\"error\",\"traceback\",\"resource_partial\",\"elapsed_seconds\",\n            \"original_raw_cleanup_deferred\",\"actual_full_owner_summary\",\n            \"original_persistent_main_solve_replay_source_unchanged\",\n            \"root_primal_uses_declared_R535_finite_word_source\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n            \"actual_owner_argv\"))\n        for name in ROOT_WORD_SOURCE_KEYS:\n            if name in value:\n                result[\"actual_procedure\"][name]=self.root_word_metadata.share(name,value[name])\n        return result\n\n    def root_evaluation_records(self,records):\n        \"\"\"Every actual extra/replay evaluation which returns RootStats.\"\"\"\n        result=[]\n        for index,row in enumerate(records):\n            if not isinstance(row,dict):continue\n            if any(isinstance(row.get(key),dict) and \"root_statistics\" in row[key]\n                   for key in (\"evaluation\",\"current\",\"final\")):\n                result.append(dict(original_record_index=index,record=self.owner_record(row)))\n        return result\n\n    def owner(self,call):\n   ",
+          "count": 1
+        },
+        {
+          "id": "reader-change-6",
+          "before": "if obj is not None:",
+          "after": "out[\"root_finite_word_cache_source_records\"]=self.owner_root_source_records(call)\n        # Original selected rows stay in place. Extra raw-owner event kinds,\n        # including replay records in an incomplete-summary journal, are kept\n        # only when they actually carry the new complete RootStats member.\n        out[\"additional_root_evaluation_records\"]=[]\n        for original_index,row in enumerate(records):\n            if not isinstance(row,dict) or row.get(\"event\") in selected:continue\n            if any(isinstance(row.get(key),dict) and \"root_statistics\" in row[key]\n                   for key in (\"evaluation\",\"current\",\"final\")):\n                out[\"additional_root_evaluation_records\"].append(\n                    dict(original_record_index=original_index,record=self.owner_record(row)))\n        if obj is not None:\n            if \"compilation\" in obj:\n                out[\"compilation\"]=self.root_word_metadata.compilation(obj[\"compilation\"])",
+          "count": 1
+        },
+        {
+          "id": "reader-change-7",
+          "before": "\"))\n            post=obj.get(\"po",
+          "after": "\"))\n                if \"records\" in replay:\n                    if isinstance(replay[\"records\"],list):\n                        out[\"replay\"][\"actual_root_evaluation_records\"]=self.root_evaluation_records(replay[\"records\"])\n                    else:\n                        out[\"replay\"][\"original_records_member\"]=replay[\"records\"]\n            post=obj.get(\"po",
+          "count": 1
+        },
+        {
+          "id": "reader-change-8",
+          "before": "out[\"actual_physical_source_inputs\"]=self.get(call/\"physical-source-input-binding.json\",\n            call.name+\"/actual-physical-source-inputs\"",
+          "after": "physical=self.get(call/\"physical-source-input-binding.json\",\n            call.name+\"/actual-physical-source-inputs\")\n        out[\"actual_physical_source_inputs\"]=self.root_word_metadata.share(\n            \"physical_source_input_binding\",physical",
+          "count": 1
+        },
+        {
+          "id": "reader-change-9",
+          "before": "29 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==229,\"Actual independent request229\")\n    base=args.namespace.resolve(strict=True)\n    runner=Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request229 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R534_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n    runtime.bind(request_path,args.request_sha256,base)\n    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=229,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R534_source_composition=request.get(\"R534",
+          "after": "31 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==231,\"Actual independent request231\")\n    base=args.namespace.resolve(strict=True)\n    runner=Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request231 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R547_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n    runtime.bind(request_path,args.request_sha256,base)\n    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=231,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R547_source_composition=request.get(\"R547",
+          "count": 1
+        },
+        {
+          "id": "reader-change-10",
+          "before": "s()\n    answer[\"actual_file_rece",
+          "after": "s()\n    answer[\"R547_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_rece",
+          "count": 1
+        },
+        {
+          "id": "reader-change-11",
+          "before": "ion as error:\n        answer=dict(schema=SCHEMA,request_number=229,\n            run={key:os.environ.get(key) for key in RUN_KEYS},",
+          "after": "ion as error:\n        answer=dict(schema=SCHEMA,request_number=231,\n            run={key:os.environ.get(key) for key in RUN_KEYS},",
+          "count": 1
+        },
+        {
+          "id": "reader-change-12",
+          "before": "29",
+          "after": "31",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "all_original229_372_source_entries_retained": true,
+    "original_R535_header_adapter_and_two_include_sources_used_without_change": true,
+    "source_preparation_then_actual_compiler_installation_then_original_main": true,
+    "R534_deferred_post_owner_hook_preserved_in_same_actual_scope": true,
+    "no_old_post_stage_run_before_same_Node_model": true,
+    "same_job_call_H_snapshot_complete128_state_and_fresh_replay_bound": true,
+    "original128_values_remain_authoritative": true,
+    "once_complete_RN64_projection_and_same_DN576_model_retained": true,
+    "complete226_by224_before_port224_by224_after_port_and_two_mean_rows_retained": true,
+    "every_finite64_word_exactly_lifted_to128_original_signed_zero_retained": true,
+    "R534_boundary_components_assembly_reused_byte_identically": true,
+    "independent_R534_guard_original_registry_and_absolute_clock_retained": true,
+    "original_current_H_all112_FD_fullDN_fresh_audit_unchanged": true,
+    "R535_root_statistics_complete_at_actual_evaluation_replay_and_extra_events": true,
+    "actual_prepare_install_and_compile_receipts_are_distinct": true,
+    "eight_named_value_tables_preserve_presence_types_negative_zero_and_original_array_order": true,
+    "source_and_science_necessary_each_one90000_byte_limit_original_overflow70": true,
+    "all_raw_stays_until_original_scoped_quiet_and_complete_necessary_cleanup": true,
+    "no_performance_or_same_budget_frontier_or_scientific_success_claimed": true,
+    "no_new_scientific_gate_or_local_scientific_execution": true,
+    "new_request_workflow_dispatch_and_actual_result_not_created_in_R547": true
+  }
+}
