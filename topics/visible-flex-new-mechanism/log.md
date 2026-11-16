@@ -480,3 +480,8 @@ Astra-new-mechanism-9974ea84：[R417](results/R417-two-term-static-minus4-natura
 ## 2026-11-16 01:04:08 UTC｜direct完整人读实际已读并即时发布
 
 Astra-new-mechanism-9974ea84：[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)，24349B/hash 230e16584072a133f41db3f240e3caa65ee81bb9c9067c92e5a5d286ab8fde5d。根读取第三observer原log/hash、完整m28/allocation/guard、COMPLETE全部优先终态与费用；随后全文读此note，核27接受含m21唯一SOC、两网14flags、pool/bank/learning和三个不同科学采样钟，不把次级oracle/controller省略项补造。old205秒与new45.325/8.197秒上下文不同，不作受控加速因果声明。旧九开发仅复用，本note无新科学。下一授权研究内的最小新分支明确仅消费未用第64LP，要求paid新support、保原63/58/257.595及所有实际门，不假恢复未知旧候选或允许额外SOC。原64不会靠重命名重置。HANDOFF压缩已付祖先细节到原note，现态完整保留。基底df0518ce5876ddd08c8cd12813ac46e0b9b659bd。
+
+
+## 2026-11-16 01:04:51 UTC｜R418完整kk锚原式收缩即时发布
+
+Astra-new-mechanism-9974ea84：[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)，15118B/hash 8affce91bccdfb56df47f6b249973afc438d5934326563a2bbd1639b20daac4c。根全文读，回读R367独立N2 Green及真实尾公式，按R73核完整Ym0八坐标、按R129核水平正规化口径，并核self四行表相减与有序表最后μ0M3消项、Q4系数和真实幅宽中心缩放。保YL_z=−r/(2h)，不与YG_z混用；未重复旧H被撤回链，也无任何积分/符号/人工执行。下一负六kk全k，root hh纸推并行；旧single-anchor不能直接外推。基底d4b3f0f91499e3a471837d206a713db48fc289cf。

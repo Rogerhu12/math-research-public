@@ -419,3 +419,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## Direct-reference 首次完成实际｜27接受，末模型仅配额截断
 
 [direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)（24349B；SHA256 230e16584072a133f41db3f240e3caa65ee81bb9c9067c92e5a5d286ab8fde5d）。原run43780594182/job133016656592，第三只读43783131728保完整m28与全部最小表。26普通+1原SOC接受，η .26623355613853394→.26610226672562226；两网14门/原盒真、目标.26未达。实际63/64LP=62primary+1SOC、58values、科学累计257.595331213s（含两失败28.690336299），进程230.059030169s/RSS7259612KiB。m28仅grant1且无下一cut，LP成功但gap2.895900214553316e−5、修复gain负，无几何；余1SOC，非驻点或时间/64耗尽。原完整28行表、m21metric失败/SOC、原冷cache/J、512bank、池v7/6及learning均保人读note；真实小数不是连续reach证明。后续只改明确的新支持/未用slot规则，已付账不重置。
+
+
+## R418｜完整kk负六锚为原Q4自然函数
+
+[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)（15118B；SHA256 8affce91bccdfb56df47f6b249973afc438d5934326563a2bbd1639b20daac4c）。先真实水平Y=∂k−∂d/2再置k=ω0，完整C_A m0/N2 Green相消、静态b链/−Yn、两ZZ history、加速度势和四有序尾给Λ([h^-6]Qhat_kk)=(5∫p r4−3∫x r5)/640=−3B_Q4/64。self尚余−μ0M3由真实尾+μ0M3准确消。R412/R414偶M5零共同母的全部实际affine查询均0，任意不交辅助的3+2亦0。该单锚非全k、非整个二速度PSD结论；无新执行。

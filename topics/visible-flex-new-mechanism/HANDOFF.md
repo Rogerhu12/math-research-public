@@ -38,6 +38,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)/[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。完整self/pure/有序尾给−6全k静态a≡0、μ0，仅余速度PSD；−4静态自然恰S³(A+k²B)，a(k)=a1 k²S³/8，仅未知W4=[h^-4k8]F0，a1未排。原N0/N2、Γ所需幂、真实水平微分及左尾不删；旧pure坐标不能代full mixed。
 
+[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)：完整kk在k=ω0的h^-6自然=(5∫p r4−3∫x r5)/640=−3B_Q4/64，原N2/true history/水平加速度及两尾全保，故偶M5零共同母全affine与不交3+2均0；全k/另两速度尚欠。
+
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)：共同A只含actual self与ordered3+2的affine轨道，辅助self不加；A(U0)=0。删自然≤−4为真不变商，逐权排正字符，原两次商校正/全部基准给wholeE+高自然商同一有限C1截面。物理实施明确须库/矩基/右锚/完整有限controls共享合法窗口，从起点一次坐标识别后冻结，不授旧seed。新F★=(F_rat,D,E5)同流形付19及共同D/E；全低自然/整包period仍欠。
 
 R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；全Λ核Euler current不能免费用于actual。
