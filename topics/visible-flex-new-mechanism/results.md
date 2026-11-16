@@ -456,3 +456,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R521 有限正交副本与完整第三历史下非退化加速度控制](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)：**已证明**完整基本块双collar、正节点同0…10矩和含反射16元平均，保全部YC/history使ruling为sin²θ一式；在h,z,e均正紧域kss原积分系数严格正，给固定规范下真实有限ODE反馈。未给周期/M/T/frame/位置/period返回，不继承旧母库截面。
 
 - [R520 原可变母类的常态ruling与同规范非恒出口](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)：**已证明**完整pure self三项降阶、同点22行实际正根及一次第三Gram；在真实非零历史前缀内以∂ksF≠0得到平滑非恒局部路径，全YC/尾/八矩保。尚非返回桥，不授既有13规范、周期或主几何。
+
+- [R523 真实反射段、一次固定规范与完整第三端口](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)：**已证明**保完整chain的M偶/C奇与实际非恒反馈段；真实左端重锚的非交换项及合法固定w/χ使全场不变，准确Atot=2AL、Ttot=−Atot²/2。短段AL非零，frame/位置/奇germs及第四累计仍未付，后者反射加倍而非消失。

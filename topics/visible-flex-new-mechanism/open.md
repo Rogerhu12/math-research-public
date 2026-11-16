@@ -66,6 +66,12 @@ $
 
 下一必须构造该真实反馈系统的非恒连接/完整返回轨道：scalar、M、frame、位置、第三目标和整个第四period须同一次满足，不能重置历史或借无ruling的R70桥。其新母库不继承R459/R518的十九/二十、cap或13规范；若联合必须从同一新初选重付相容性。局部ODE存在及全紧域非退化尚不授周期、更高阶收敛或主几何完成。
 
+### R523真实反射段的一次规范和完整第三端口
+
+[R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)保同一R521正副本库和完整history，真正时间反射使S偶、速度/A奇、T偶。更窄合法紧域使Ch<0，明确选择中心hss令kss=1，给非恒k实际正长度段和同scalar两端。改回真实左端时，完整T须保−Â∘AL交叉项；一次固定w=−ALD、χ=2TL(φ;D)后q/b和完整场逐字相同，w三矩/第三ruling与χ双collar已付，整段全相位K0。
+
+实际Atot=2AL、Ttot=−2AL²，因此纠正第三全三槽严格零；若同一个半轨道将来达到AL0，整段第二/第三一并返回。当前足够短的实际AL非零，不是M0轨道。真正后继须同时付AL0、DF Gᵀ DF G=I、(I−DF)v=0、端奇jets及完整第四累计；后者反射为加倍。规范只能固定一次，不可拼不同L各自w/χ，也不借R517或R518另一母库。
+
 ### 已付接口与旧排除的完整来源
 
 旧强圆、R333 wholeE、R389/R460 真range、R443–R462 原49模块和同一规范的详细原式，逐字保于[原接口记录](notes/open-O4-paid-interfaces-before-fixed-width-actual-section-20261116.md)。R304/306的同Gaussian芽rank-one排除、R387的一层障碍及其它窄族排除继续有效；不据此排一般C²构造。
@@ -183,3 +189,7 @@ R1的Tss平方/交叉及normal变化、R0完整θ+u/c(v)/Π、前102与后51中�
 [完整设计](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)消费原58首jets和已闭ring17完整MODEL，新增完整V17与唯一射线Lx/Hxx；原J1盒BVLS后全七幅度均读，首个合格非零R1态才取得一个新R2 LP。原172盒/组合物理norm/实际G保；准确R1+R2统一加到58再舍入一次。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046、315源hash已绑定。
 
 独立600秒含全部输入/import/失败/输出，最多一次完整body预测及一对原actual14；历史固定metric provenance准确恢复，新取值仍收费，完整LS/LP和新向量仅存原stdout。当前未读到新run结果，58与累计2863.061635735秒147值暂不变。0射线/全幅度阻断均0LP，不重开已闭纯R2；子问题结束继续open。
+
+## 2026-11-16 13:11 UTC：新反射R1任务的实际运行身份
+
+run43873254906/research133319615177，source0b8bb24ce9d4a9acb3219c6fe01f35328aba4139已进入research步骤。当前只回读metadata，未读取运行中科学日志；没有新验收或科学终账。13:10:10→13:10:17实际NFF后pull读a1d06bbd211eaaac273102b3395a95416b2f006f，双README空diff，立即续推成功。

@@ -22,11 +22,11 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [实际58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。2necessary ordinary/2selected J重新付，2finite/7非线性尺度后α1/4第一actualpair接受58。η粗.26600541430262403、细.26600541463999305，下降.0000016540087044436547；κ细57.9997782607127。两网原14门/准确172盒真；4454/4549池v15/14保原顺序、无新行。metric峰.4725/θ0，细κ峰.78/θ4.818744981678094非轴，不凭principal排序猜分支。帽高微负仅原容差内；.26和主门未付。
 
-58 physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54，ind168 e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf。接受后先学习再从paid ordinary导出完整U/T/e/f及原pool selected二jets，0再ordinary/J；不是全grid二jets或58 J。CACHE2 33375405B/9bfdb6d35b131d5b4b1514f0e0902c7f38aa735cabc3288502356b1ba03ffbdf。永久constructor仅原55COMPLETE，不能当58状态。58本次185.978494641秒/4值闭，至该点2830.778901609秒/147值；所有旧失败/nested费用保原notes，余额不跨点。
+58 physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54、ind168 e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf。接受后学习并从paid ordinary导出U/T/e/f和原pool selected二jets；不是全grid二jets或58 J。原55仅永久constructor；58任务185.978494641秒/4值已闭，全部旧成本/原输出身份见上述note。
 
-[最后ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：run43865295208/research133292183126/report133292744189/source35438c143eda961a0fa8836d387d0e537fba43b2。完整两网不变列最大5.502593686251275/5.502593694661017未排K1000/61；原172盒5056行18变量唯一LP返回status2/Infeasible/nit0/raw18及dual全None。无候选/预测/actual，当前仍58；不是准确不可行或全51排除。
+[最后ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)run43865295208/research133292183126/report133292744189/source35438c143eda961a0fa8836d387d0e537fba43b2。两网不变列最大5.502593686251275/5.502593694661017未排1000/61；原盒5056行18变量LP status2/nit0/raw18和dual None，无候选/预测/actual。32.28273412599998秒/0值闭，最新累计 **2863.061635735秒/147值**；不是准确不可行或全51排除，不重解该R2实例。原MODEL全圈二jets/A/B/C/ell可读，完整V17/全grid二jets/J未存。
 
-新32.28273412599998秒/0值闭、0overrun；最新累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保全环A/B/C/ell、I/II/二jets，不含X/fullgrid二jets/J或完整17个Π三向量。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a；report9条0parseerror。所有新frame/Π/height含总钟；余额已闭，不重解R2。新reflected-R1请求已提交，运行身份待metadata回读；尚无新结果。
+**当前新科学run43873254906/research133319615177**，source **0b8bb24ce9d4a9acb3219c6fe01f35328aba4139**，13:11 metadata为research进行中。原盒反射R1请求已进入实际研究步骤，未读运行中科学日志；尚无新结论/59，成本待原FINAL_CLOCK闭账。
 
 ## 4. 已闭cap路线与原库真实路径
 
@@ -42,10 +42,12 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本全cubic，16元O(2)正复制共同0…10矩，完整含第三history的ruling准确为sin²θ一式。在预定h,z,e=hz−k均正紧域，原kss积分系数严格正；固定w=χ=0可解kss，hss为自由控制，真实m/T有限ODE全保。该库不继承R518/520的共同cap/20目标/13规范；尚无完整周期、M/T/frame/位置/period。
 
+[R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)在同一R521库构造真实非恒k反射段：S偶、速度/m奇、完整T偶。由真实左端重锚Â=A+AL、T̂=T−TL−Â∘AL，并一次固定w=−ALD、χ=2TL(φ;D)，完整字段与K0不变。两端scalar值同，Ttot=−Atot²/2全三槽成立；短段Atot≠0。末frame/位置、奇阶germ和第四累计另付，反射使第四累计加倍不消；不同半段不能各换规范再拼。
+
 ## 6. O2后继及当前工作顺序
 
 R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。当前ring未存完整17个Π三向量，下一必要kernel须新付；未给可行新态，不重原R2 LP。
 
-[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。[新请求](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)已提交：原J1盒内一次共同两网BVLS、固定7幅度和仅一个新非零态R2 LP；独立600秒/至多1完整预测1actualpair，0射线0LP。mean/残差/实际G/全body门保，准确R1+R2相加后一次舍入。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046；尚无运行结果，不记59。
+[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。[新请求](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)已提交：原J1盒内一次共同两网BVLS、固定7幅度和仅一个新非零态R2 LP；独立600秒/至多1完整预测1actualpair，0射线0LP。mean/残差/实际G/全body门保，准确R1+R2相加后一次舍入。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046；run/job见§3；尚无运行结果，不记59。
 
 继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。
