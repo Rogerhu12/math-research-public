@@ -456,7 +456,7 @@
 - **完整九目标field25。** [25维及最小h*](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)付全7245/7475/2691原乘回和双包含；九cyclic各23、joint25/χ=s²mon(h*)、h*/h0像均零。仅F127成员，未升Q或p²；25图不能当有理图。
 - **真正的127系数正证。** [原globalZ/完整p²乘回/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)核1834 Z，首node26969742/原3463反传6188支持4324，并新核4367原产品读40。I1占满simple s+64，barΔ|χ299/(s+64)、barμ|F+²F−²E8。925非零端点不是925维；raw12445/2a7dd4da、bindingc62fcba9。root全300/22系数独立乘回，χ'(63)=79。
 - **critical完整受限切片。** [135坐标](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)与[270坐标tangent2](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域实际高维均2且相等，leading13/gain0；全6188各阶乘回真，原局部仍6…8/6…8/4…5。只这些支撑配指定低jet无增，不排更高normal或完整连接。
-- **新增真normal3入口。** [300坐标完整高切片](results/R150-appendix-complete-pure-cubic-normal-critical-high-slice.md)逐原normal2源迫U=λv³，one-normal源给[L,Cv,Dv,qvv]，只需17×12核。旧25单位/11链复用，末26×≤26、全部6188每阶核；三域各300秒已入队，尚未预填增量。
+- **完整300坐标normal3实际。** [R150-appendix-complete-pure-cubic-normal-critical-high-slice.md](results/R150-appendix-complete-pure-cubic-normal-critical-high-slice.md)三域1.6565/1.8808/3.4595秒，17×12 rank10/null2，新高空间仍等旧高空间且λ=0。原51×49 rank29、Schur26×24 rank4、fullleading13/gain0，全6188逐阶原乘回真。只该完整支撑无增；转完整高块及首连接，不报Q目标成员。
 - **rank-one Bell边界。** [同原17来源的Bell16](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)已给μb_r^16、degree_m≤26。μ1才闭这条归一rank-one路线；全gradR3、非rank-one和ess(T3)≥4仍开，不把μ/h*当实际算子逆。
 
 ### R271：同一原测试、完整度量及未付全返回
