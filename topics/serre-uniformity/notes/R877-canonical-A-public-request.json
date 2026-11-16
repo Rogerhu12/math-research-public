@@ -1,0 +1,429 @@
+{
+  "all_new_mathematics_only_in_public_Actions": true,
+  "budget_minutes": 300,
+  "core": "R877_original_canonical_A_normal_input.py",
+  "core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
+  "input_selectors": {
+    "B_normal": {
+      "bytes": 131371,
+      "file": "R827-canonical-B-normal-vector.json.gz",
+      "sha256": "23f4ced8dc2d461d0c13e31443fd2bf9d15a731fa3834ae2df228063a9be8f33",
+      "source_group": "R827"
+    },
+    "S5_inverse": {
+      "file": "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz",
+      "source_group": "R827"
+    },
+    "S5_matrix": {
+      "bytes": 8341255,
+      "file": "R839-original-S5-fixed-place-matrix.json.gz",
+      "sha256": "1c1647ea17b1c8cc77e38ba589d1426efee6c165312b090c6823663d6cde1219",
+      "source_group": "R842"
+    },
+    "canonical_coefficients": {
+      "bytes": 21458,
+      "file": "R827-canonical-B-original-V5-expansion.json.gz",
+      "sha256": "0560f89f71f6a2b60bfeb2120d32390c60ab0a65b863fa0e01cad206ec89af93",
+      "source_group": "R827"
+    },
+    "global_DAG": {
+      "bytes": 202890,
+      "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+      "sha256": "529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79",
+      "source_group": "R849"
+    },
+    "original_chart": {
+      "bytes": 5829,
+      "file": "R787-prime-1000000753-chart.json.gz",
+      "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96",
+      "source_group": "R787"
+    },
+    "original_rational_blocks": {
+      "file": "R787-prime-1000000753-rational-blocks.json.gz",
+      "source_group": "R787"
+    },
+    "place_audit": {
+      "bytes": 4261,
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883",
+      "source_group": "R827"
+    }
+  },
+  "intake": {
+    "archive_bytes": 72467824,
+    "archive_sha256": "8f4b5cc9b7c7eaaafc0182449bc103b125f95da13f1847b679d2c1b3e0d363a3",
+    "artifact_id": 14209030975,
+    "artifact_name": "serre-R877-single-A-source-intake-43831246621-1",
+    "bundles": {
+      "R787": {
+        "bytes": 51499040,
+        "file": "R787-intake-selected-original-sources.tar.gz",
+        "sha256": "9ec69157e8d03bda90e3dcbf6820227ab8ce963cd92a233697130dbfcbc27aed"
+      },
+      "R827": {
+        "bytes": 11628766,
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "sha256": "f8cb9665d46d97e5a847219bd0bfeb865f5b54378c8855554ef5206d8a799324"
+      },
+      "R842": {
+        "bytes": 8678906,
+        "file": "R842-intake-selected-original-sources.tar.gz",
+        "sha256": "b9152b53664821468cbfb53fbb259e8e6de6623ca8086018810a5b28c8ef1eb1"
+      },
+      "R849": {
+        "bytes": 368737,
+        "file": "R849-intake-selected-original-sources.tar.gz",
+        "sha256": "6eeba209ab1994510b27eca6a5cfac743dee59f3cfdbfd4a341be7211ec4dd4e"
+      }
+    },
+    "expected_conclusion": "success",
+    "request_sha256": "092cec5965dd298bfd9645ec9f675d9c172dc39fa190bdbfe8ebe6b0619adc57",
+    "run_id": "43831246621",
+    "source_commit": "7789431ad560ae4ca102976fd75f1362940904d3",
+    "source_index": {
+      "bytes": 3709,
+      "file": "intake-source-index.json",
+      "sha256": "e81d2d28948b3ccbf7f3209f727a6f8851d73b5b3d5c0dfcf154242700d1ac5d"
+    }
+  },
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "mathematical_scope": "One source-bound modular A normal RHS, exact unit-solve definition, full1380 verification; old B/S5/inverse reused.",
+  "method": "notes/R877-original-canonical-A-single-normal-RHS-method.md",
+  "method_sha256": "8b2f5cc4360f43931492c54ccd8f175469148a956a8b9a4777b97821173afe27",
+  "old_source_arithmetic_repeated": false,
+  "original_five_Lj_RR128_or_144_requested": false,
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "GP": {
+      "path": "notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md",
+      "sha256": "520bfbd521cadfeff2b519c864217a56258a991a07039ee33e923db7e9be4e0a"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "request_id": "20261116-0846-R877-single-original-canonical-A-normal-RHS",
+  "result": "R877-original-canonical-A-normal-input",
+  "resume": null,
+  "rules_last_read_commit": "39cc6b4ebb82938774b21d2c3546d174a822514d",
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "sources": {
+    "R787": {
+      "accepted_checkpoint_exit_codes": [
+        1
+      ],
+      "archive_bytes": 5148711108,
+      "archive_sha256": "32652fdbb99ef41340bffb4ba1c9d1a56479de346c999f723023db2e1427645f",
+      "artifact_id": 14159006977,
+      "artifact_name": "serre-global-R787-original-power5-function-relation-43683912711-1",
+      "certificate": null,
+      "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+      "configuration_stage": {
+        "bytes": 5829,
+        "file": "R787-prime-1000000753-chart.json.gz",
+        "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+      },
+      "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+      "expected_conclusion": "failure",
+      "expected_selected_file_count": 1242,
+      "file_pins": {
+        "R787-prime-1000000753-chart.json.gz": {
+          "bytes": 5829,
+          "file": "R787-prime-1000000753-chart.json.gz",
+          "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+        },
+        "R787-prime-1000000753-selection.json.gz": {
+          "bytes": 5759,
+          "file": "R787-prime-1000000753-selection.json.gz",
+          "sha256": "a420d94a9a2f56fa449946bac6379f437e7e53120a651d7df95b5f9ef9b07adb"
+        },
+        "core-receipt.json": {
+          "bytes": 308,
+          "file": "core-receipt.json",
+          "sha256": "ec4673e2b51e4b3e47b2fbea4ac75c34c7923e90d47ab3f80110cf35f426e8f7"
+        },
+        "full-outputs-manifest-reference.json": {
+          "bytes": 369,
+          "file": "full-outputs-manifest-reference.json",
+          "sha256": "4cc8d1f7af551de1de9c28bac378796798dd7ad00ffb184bfdb4c32b8bdc21d7"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 440819,
+          "file": "full-outputs-manifest.json",
+          "sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c"
+        },
+        "public-actions-input.json": {
+          "bytes": 5895,
+          "file": "public-actions-input.json",
+          "sha256": "500ed43dc256e16fa068e9e02f33c1b80ad2f9d864ba761ed2cbad7465387a03"
+        },
+        "run-receipt.json": {
+          "bytes": 542,
+          "file": "run-receipt.json",
+          "sha256": "09bf889dccc65e6894ce7e86ced1f207f79fa258284307869658411e1c2e619d"
+        }
+      },
+      "manifest_bytes": 440819,
+      "manifest_file_count": 1517,
+      "manifest_sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c",
+      "result": "R787-original-power5-function-relation",
+      "run_id": "43683912711",
+      "selected_file_names": [],
+      "source_commit": "eab5e58bbf951c48ccf13a109bbdf0b0289a6f23",
+      "wrapper_sha256": "1a8924c2f2fbf0cf09699f9a9026ed0f326415b90aadec8e41f018a618e2e025"
+    },
+    "R827": {
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "certificate": null,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 4261,
+        "file": "R827-original-place-and-unit-source-audit.json.gz",
+        "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+      },
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "expected_conclusion": "failure",
+      "expected_selected_file_count": 9,
+      "file_pins": {
+        "R827-canonical-B-original-V5-expansion.json.gz": {
+          "bytes": 21458,
+          "file": "R827-canonical-B-original-V5-expansion.json.gz",
+          "sha256": "0560f89f71f6a2b60bfeb2120d32390c60ab0a65b863fa0e01cad206ec89af93"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "bytes": 4261,
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "core-receipt.json": {
+          "bytes": 378,
+          "file": "core-receipt.json",
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest-reference.json": {
+          "bytes": 390,
+          "file": "full-outputs-manifest-reference.json",
+          "sha256": "3cc7c0445ff18d7d6c451828cdf2ef93f0193a33d5b0a6351aa3621ec99dd262"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 19902271,
+          "file": "full-outputs-manifest.json",
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "public-actions-input.json": {
+          "bytes": 14624,
+          "file": "public-actions-input.json",
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "bytes": 441,
+          "file": "run-receipt.json",
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        }
+      },
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "selected_file_names": [
+        "R827-canonical-B-normal-vector.json.gz",
+        "R827-canonical-B-original-V5-expansion.json.gz",
+        "R827-original-place-and-unit-source-audit.json.gz",
+        "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d"
+    },
+    "R842": {
+      "archive_bytes": 192975030,
+      "archive_sha256": "9a4b0b02988784492bd958859096ee7307e1091ae8c5661eedd91e2fcfe77f50",
+      "artifact_id": 14186901203,
+      "artifact_name": "serre-global-R839-original-two-chart-short-RR-spaces-and-D-kernel-43776927742-1",
+      "certificate": {
+        "bytes": 507973,
+        "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+      },
+      "configuration_sha256": "7597a9d59b4f8fb08548891a298d76cbc745a72245b6e9cb35f973a25ee4fcc4",
+      "configuration_stage": null,
+      "core_sha256": "6fe0a0d3f37592b1ac3081a8347a205503de41cdd54e41a05529c837a7b3c73e",
+      "expected_conclusion": "success",
+      "expected_selected_file_count": 8,
+      "file_pins": {
+        "R839-original-S5-fixed-place-matrix.json.gz": {
+          "bytes": 8341255,
+          "file": "R839-original-S5-fixed-place-matrix.json.gz",
+          "sha256": "1c1647ea17b1c8cc77e38ba589d1426efee6c165312b090c6823663d6cde1219"
+        },
+        "R839-two-chart-stage-manifest.json.gz": {
+          "bytes": 166837,
+          "file": "R839-two-chart-stage-manifest.json.gz",
+          "sha256": "d3246312c9a3e65d99d84f864da5357846ea9f002cd7835c6d0e26b7250bc693"
+        },
+        "core-receipt.json": {
+          "bytes": 726,
+          "file": "core-receipt.json",
+          "sha256": "c9ed32d199f9bc744f7248c8840beef91cd99bf29c1e441442b32bfb223278a9"
+        },
+        "full-outputs-manifest-reference.json": {
+          "bytes": 236,
+          "file": "full-outputs-manifest-reference.json",
+          "sha256": "dcf721174617f2cb6d811e162a377c6b0cc0bf48e79de9b91bd93d40acc08069"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 18828,
+          "file": "full-outputs-manifest.json",
+          "sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba"
+        },
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json": {
+          "bytes": 507973,
+          "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+          "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+        },
+        "public-actions-input.json": {
+          "bytes": 4510,
+          "file": "public-actions-input.json",
+          "sha256": "3ce9053a15ce6ffab2d6195d3a7a0bf0a0eae097f3ccae68cb65dc83d8b61f16"
+        },
+        "run-receipt.json": {
+          "bytes": 461,
+          "file": "run-receipt.json",
+          "sha256": "88ac7c4f2b5887280dafac4181274a9c45a0188cafd853ed385c0476048d88ef"
+        }
+      },
+      "manifest_bytes": 18828,
+      "manifest_file_count": 111,
+      "manifest_sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba",
+      "result": "R839-original-two-chart-short-RR-spaces-and-D-kernel",
+      "run_id": "43776927742",
+      "selected_file_names": [
+        "R839-original-S5-fixed-place-matrix.json.gz",
+        "R839-two-chart-stage-manifest.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "source_commit": "ccc94341bcab2c33e4732fcb9d6bce517b6243f3",
+      "wrapper_sha256": "f27a4585deb43880e162b337a9c6b39528086ce864ea12e17c23192cbb260d2a"
+    },
+    "R849": {
+      "archive_bytes": 396226833,
+      "archive_sha256": "6a52068e04e91bc7b45b13de08a143ca2baef4a3bdfd1f8fac9bab1946d94083",
+      "artifact_id": 14192171293,
+      "artifact_name": "serre-global-R839-original-global-addition-polar-ideal-DAGs-43790410670-1",
+      "certificate": {
+        "bytes": 7447,
+        "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+      },
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "configuration_stage": null,
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "expected_conclusion": "success",
+      "expected_selected_file_count": 11,
+      "file_pins": {
+        "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz": {
+          "bytes": 202890,
+          "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+          "sha256": "529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79"
+        },
+        "R839-global-polar-original-source-inventory.json": {
+          "bytes": 449832,
+          "file": "R839-global-polar-original-source-inventory.json",
+          "sha256": "e9a986c45970f2d16ac2ee054e22ab4ce01de7b19f5d8eb224018d66d686a9d0"
+        },
+        "R839-global-polar-retained-inputs-receipt.json": {
+          "bytes": 14551,
+          "file": "R839-global-polar-retained-inputs-receipt.json",
+          "sha256": "619d08b32f4d5a041795300a3d58e0c266d59264a434a532947e6cd4bdc03751"
+        },
+        "R839-global-polar-source-audit.json.gz": {
+          "bytes": 5340,
+          "file": "R839-global-polar-source-audit.json.gz",
+          "sha256": "3df16cb4ec814bc3909c6aa2a3bd95226cb254048aa5ba7d1eb8995703264fef"
+        },
+        "R839-global-polar-stage-manifest.json.gz": {
+          "bytes": 2957,
+          "file": "R839-global-polar-stage-manifest.json.gz",
+          "sha256": "d3dd9464c79be9faf4249083d49d0399ac6c03cdbd13238606e07ba17adb351f"
+        },
+        "core-receipt.json": {
+          "bytes": 6600,
+          "file": "core-receipt.json",
+          "sha256": "b36e1ce4447c9d785dda5b0c0e47238e362d5f8dd1bb1330e91e2a96f8c9c132"
+        },
+        "full-outputs-manifest-reference.json": {
+          "bytes": 228,
+          "file": "full-outputs-manifest-reference.json",
+          "sha256": "82e4ca163df7e266181ff45036b99d6a71818bf4daf64555d3f7df03fa0bcbdb"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 2144,
+          "file": "full-outputs-manifest.json",
+          "sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd"
+        },
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json": {
+          "bytes": 7447,
+          "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+          "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+        },
+        "public-actions-input.json": {
+          "bytes": 10997,
+          "file": "public-actions-input.json",
+          "sha256": "53938ac9f7d05cbc7fed1d2d0d766e589bf6147387f03d20e88aff4bf3812f82"
+        },
+        "run-receipt.json": {
+          "bytes": 495,
+          "file": "run-receipt.json",
+          "sha256": "2815230bf89b9ef47112236b39f38a39675dcc74c4b15790da577f8593a5428f"
+        }
+      },
+      "manifest_bytes": 2144,
+      "manifest_file_count": 12,
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "run_id": "43790410670",
+      "selected_file_names": [
+        "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+        "R839-global-polar-original-source-inventory.json",
+        "R839-global-polar-retained-inputs-receipt.json",
+        "R839-global-polar-source-audit.json.gz",
+        "R839-global-polar-stage-manifest.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541"
+    }
+  },
+  "workflow": ".github/workflows/serre-R877-canonical-A-normal-input.yml",
+  "wrapper": "R877_public_original_canonical_A_normal_input.py",
+  "wrapper_sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221"
+}

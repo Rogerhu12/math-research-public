@@ -1,0 +1,131 @@
+name: Serre R877 original canonical A normal input
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R877-canonical-A-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R877-canonical-A-normal-input
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R877-canonical-A-public-request.json
+      - name: Pull main and compare both rule files with the read commit
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R877-canonical-A-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          path='topics/serre-uniformity/notes/R877-canonical-A-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
+          subprocess.run(['git','checkout','-B','r877-canonical-A-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          actual={key:hashlib.sha256(Path(name).read_bytes()).hexdigest()
+                  for key,name in [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          changed=actual!=request['readme_sha256']
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':request['readme_sha256'],'rules_changed':changed}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('R877_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if changed:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('Both README changes must be read before the new mathematics.')
+          PY
+      - name: Preserve the actual pull receipt for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R877-canonical-A-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R877-canonical-A-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  construct:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R877_original_canonical_A_normal_input.py
+            /topics/serre-uniformity/scripts/R877_public_original_canonical_A_normal_input.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md
+            /topics/serre-uniformity/notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md
+            /topics/serre-uniformity/notes/R877-original-canonical-A-single-normal-RHS-method.md
+            /topics/serre-uniformity/notes/R877-canonical-A-public-request.json
+            /.github/workflows/serre-R877-canonical-A-normal-input.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the pinned finite matrix library
+        run: |
+          python -m pip install --only-binary=:all: python-flint==0.9.0
+      - name: Parse source files without importing mathematical code
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          base=Path('topics/serre-uniformity/scripts')
+          for name in ('R877_original_canonical_A_normal_input.py',
+                       'R877_public_original_canonical_A_normal_input.py',
+                       'R824_public_original_global_polar_generators.py'):
+              p=base/name
+              ast.parse(p.read_text(),filename=str(p))
+              print('AST_OK',name)
+          PY
+      - name: Compute the single original A normal right hand side
+        run: |
+          python topics/serre-uniformity/scripts/R877_public_original_canonical_A_normal_input.py compute \
+            --request topics/serre-uniformity/notes/R877-canonical-A-public-request.json \
+            --output "$RUNNER_TEMP/R877-canonical-A/output"
+      - name: Preserve the four original carriers and every completed A stage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R877-canonical-A-normal-input-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R877-canonical-A/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
+      - name: Read exact source and all1380 certificate interfaces
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R877_public_original_canonical_A_normal_input.py verify \
+            --request topics/serre-uniformity/notes/R877-canonical-A-public-request.json \
+            --output "$RUNNER_TEMP/R877-canonical-A/output"
