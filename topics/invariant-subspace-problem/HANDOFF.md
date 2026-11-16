@@ -29,7 +29,7 @@
 ## 活跃执行、临时缓存与立即恢复
 
 - **旧live run43756208221已success结束**：56步（含失败/预算）小回执全推，三域真Q核7实际39.423/50.272/276.666秒。旧tmp及Q/∞/Ω/core缓存不再视为活；接完整首连接须从小源码最小重算weak135三父→同Q7三域，逐旧manifest/phase SHA核对。禁止上传可重算大数组。原request及52步历史归档保前态。
-- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。20步：前14成功/15 reader失败/16 v2成功9.149秒；[E8-1全检测族](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)两泛函覆盖10维，12252原GB jet/120作用真。17…20同v2续其余四factor/common phase；4367运输/1834Z未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
+- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。20步：仅15 reader失败，余成功；[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)每factor两泛函、联合分离全部88维，110268原GB jet/2160作用核真。完整790核含702自由jet；common binding45dfea7c/manifest4794·6fc66baa。4367运输/1834Z第一系数像仍未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
 - 活跃runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
