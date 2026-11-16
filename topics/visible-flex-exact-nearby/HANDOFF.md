@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 12:55:22 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 12:57:26 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43870348355/1于11-16 12:51:48.256116→6c7e71e0cd53bb15ebdfe024cc7f9574d27c0a84；两README完整diff空/同已读，exec保4次全回执。下一真pull≤13:51:48；ref读取不冒真pull。
-最近只读README核：42492b0c728e260b3b1de8be79b4ab962259ad3e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4f91916290708d7b28be9538042450a159d3e6c9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -52,7 +52,7 @@ WSJ217cdff8已证同strict real的frozen t0双索引jet，r≤3与angle分开；
 
 ## 恢复、容量和执行
 
-此前普通清理的完整path/blob/SHA/bytes/restore/原scope/失败/lost与历史consumer义务保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及递归各恢复页。全体只原字恢复禁重算；各次native排除不成永久保护。R120两已成九截面派生报告509943B恢复见notes/2026-11-16-R133-completed-R120-nine-section-report-history-recovery.md：restore93eb0132同path，75893162/258275/93671445、68a2a048/251668/96810b79；全九点/参数盒/mean/无wholecore原限不变。
+此前全部清理的path/blob/SHA/bytes/restore/原scope与失败/lost保[当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及递归恢复页。旧成功只原字恢复禁重算；native非永久豁免。R120两九截面509943B恢复见notes/2026-11-16-R133-completed-R120-nine-section-report-history-recovery.md。R61单点/β′完整collector/九截面metric共429336B恢复见notes/2026-11-16-R133-completed-R61-beta-metric-report-history-recovery.md，restorebdbbd506；原域/mean/失败与无wholecore限制全保。
 
 
 
