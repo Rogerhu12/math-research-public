@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 03:46:57 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 03:49:19 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 03:31:44定时CLI仍无executor，下一≤04:31:44。最新CI真pull为NIF 11-16 03:04:55.477901→bc20ed50d94fc4236f887d71696d353d3c945c3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：f10aa966943223d4d64ea74cbe42fe63e365c334；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：feae8d8ee402b7abe23b825555e76bd531ee9112；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -26,9 +26,10 @@ SNA43751213826/1/21、SCA43754452928/1/20、CEBA43780532148/1/22全部成功锁�
 SJA/KLA/TFA/CGA/WEA/PGA/PIBA原pins/球见open2–3。SEIA87055721仅fullcircle ci>0/co<0同逆K0<1.034/K−<7.823，不授Xfr限制逆；SJcut/CG/右ΛTF/S各一次。MS44038eae真return=UR B− Z^S B+逆且sign无限，DZA50d9712b完整D/ToD/comm/two-sign/meanrank锁，DZF new/old/lost0；不授全incoming/return。
 R97Ab2d4bb56、RNEA257644a4、NIFA1b2c3b70唯一43789221154/43792291190/43795909913各/1成功锁；219/276/23原槽/两preGit/旧失败保completed-actual-input-and-root-inverse索引。root97核0、两natural负窗逆、Xfr=S*D+Hnat与Ni±/Cs已闭；NIFC仅Ni opnorm、逐频前提下Cs strong/joint/compact-data，非M/C opnorm或C1/KAM族。
 WPR707b8269/RRF803302f2/WPM65cc1ede：真paired KH=Ra−2hΠ，a保；腰目标P FixRa与Xfr不同，Ti/To非Xfr endomorphism。反射两mean槽rank1只令odd腰平均自动零；evenmean ODE/source/ν/外cap/amp全保，boundary mean/amp local rank2不授PDE square；endpoint mean方向不授Poisson自由kernel。
-WRA40fb2167仅δ*/p0/fullU/Xfr−4/3→L2full闭完整Ei，旧SWA整paid复用；低输入零不删独立head/source。左TJ/UH邻接取消，真E∂W=BQR(YA−YW,J)保PC/ST4/fullsource/3070jumps/cut/waistFT；旧Cstar仅coarse upper，actualpaired leading/整row可用界待。
+WRA40fb2167仅δ*/p0/fullU/Xfr−4/3→L2full闭完整Ei，旧SWA整paid复用；低输入零不删独立head/source。左TJ/UH邻接取消，真E∂W=BQR(YA−YW,J)保PC/ST4/fullsource/3070jumps/cut/waistFT；旧Cstar仅coarse upper，actualpaired leading inverse与整row可用界待。
 WIT13c5972c：非mean G=|D|^-1配对中A=−ZJ=S^-dagger S^-1正，W=(Id−ZJ)/2真onto且G逆≤2；完整旧DZA Δ H−4/3→L2经先G解/两窗bootstrap得同逆K_W=1+CΔ/2（符号）。W J=ZW且comm Rb，真域为range hatP97∩Fix(−ZRb)，192/96 finite补全保非ordinaryP97；fullauxmean另有WΔ1⊗Π，actual leading/error同右W^-1。
 WCS4998ef82：同W/B/IC给νi=−μ*/2，正确model P_J Fix(−ZRb)→P_J FixRa 的q_n=½(1−iνi/k)(1+iλ_n)，原CYA ξ=i gap直接给inverse≤2K_CY（旧K=256，未求新球），loss1/graph domain非同阶逆。正确右gate=(2K_CY)C_JΛJ^-1/3<1、序(I+E G)M；physical完整E/variableci/transportedfinite仍待。
+WPL052bd8ed：完整root C−=−R*C+（有限F*奇），co=−Rbci、To=RbTiRb；真pair差保2hΠTi。原R77/germ/P同metric精确偶且C2、bump近腰零⇒βmetric(0)=qr(0)=S(0)=0；Z0含Sr未删。实际归一化腰row=QaTi+E∂，E∂三项=QaVwTi−(h−1)ρi+Qa(Id+Vw)PhEi，Xfr→PFixRa，故首均值确νi。全部two-I/mean/真实state与源/jumps保，C∂仅完整符号式待可用界。
 BF/FC/SE/RNS保完整(q,z,κ)Schur/PUVP及原mean/head/无限rest/真ν列和双pairing门；root核0仅撤FC补列，ν-chart保dν。BT joint head dual无√193、radialhead无限；RBT cutoff fallback无需重跑。根jet/RI原fullmean/8terms/K4η3及aux两case成功保root-jet索引。PSB/PTB仅fixedscalar all-s/tame，不授true背景。
 UT/UTA、SWA、NWA、NPKA原唯一成功/球/源/两窗/3070jumps/四affine依CE全保waist索引/proof；旧大upper非lower。完整physical square/finite/ordered return/背景及所有独立mean/source/参数仍待。
 

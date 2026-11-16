@@ -54,6 +54,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [WCS原gap在正确反射model的应用](results/R133-supplement-certified-Cayley-gap-on-the-reflected-waist-model.md)4998ef82：同W/B/IC的$\nu_i=-\mu_*/2$给$q_n=\tfrac12(1-i\nu_i/k)(1+i\lambda_n)$，原CYA $\xi=i$全gap使ordinary$P_J$反射model有一导loss逆$\le2K_{\rm CY}$，旧K=256只符号消费。onto在明确graph domain；完整E的正确右Neumann门为$(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$。不授actual projector/variableci/physical strong或finite门，任意自由ν仍可能有限共振。
 
+[WPL真实paired leading](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)052bd8ed：完整C反射给co=−Rbci；原exact metric偶性/实际C2/bump支持严格给S(0)=0，二阶Z0的Sr保。真归一化腰row=$Q_aT_i+\mathcal E_\partial$，三完整余项为$Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$；actual首均值确νi，仍须whole C∂、true有限补与full matching。式45同state直接row只计一次，不从旧source upper删项。
+
 
 
 

@@ -134,3 +134,9 @@ root全文独核21,308B/13c5972c82dd1af1ded73ccdfdd6b8ba69da3c3a84bb278aea602d3d
 root写12,818B/4998ef8208e3dc9e5474fe456bed53ebf4e7d987f7684d888f6705c9f1f55d0a；phase全文正式peer并独回W/B/current IC/CY/CYA：不把不同loss选择混同，B同参数fee适用于原W δ*；IC23与CYA μ convention完全同。正n归一reflection line已含双sign，realphase与ξ=i因子匹配，原7416 finite/native infinite成功不重跑。新inverse只符号2K_CY，不求新球。graph domain D_s保 forward order0与inverse loss1，target侧(E G)Neumann之ΛJ^-1/3来自真high H−1→H−4/3 embedding。
 
 只常mean model；WIT transported projector、非恒ci、真正physicalstrong及所有finite/mean/ν独立行未授。本条独推，read f10aa966943223d4d64ea74cbe42fe63e365c334两README未变。
+
+## 2026-11-16 03:49:19 UTC — WPL 完整物理腰leading行
+
+root全文独核31,021B/052bd8ed9550ffebd9cb56744f7d4e56a9b6de5405c363d438813f9a100c8e24，并亲取R77 ba843df6/9207/0a727623、germ c042452a/10948/bb9a14f2及P 1b73111e/11606/43ee65f2回exact parity、公共knot C4/C3/C2与bump(.05,.18)。phase正式全文范围核2–3/7–8并回PF/CT/metric；tail核4–6/9。ηw明确为−γmeanv，非intrinsicη0。没有以小bound推S0=0，也没有删Z0的Sr。
+
+全row QaTi+E∂三项及trueoutput PFixRa闭合，root/finite/mean/radial/source/secondref全保。新C∂仅符号完整positive majorant；state直接row45与三项40是两种同对象表示，不相加重复付。需要真正可用整row界及finite/ν/背景门。独推，read feae8d8ee402b7abe23b825555e76bd531ee9112两README未变，旧成功零重算。
