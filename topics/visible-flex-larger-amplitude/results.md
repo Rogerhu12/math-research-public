@@ -275,3 +275,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R506 — 实际220的政策JSON源码分类停止
 
 **实际220：第六层来源生成失败，R503新点尚未求值。** [全文](results/R506-actual220-policy-JSON-source-classification-stop.md)14881/0fde227a，run43833995131/source3ea0620a、compute133185959623/report133187249530各终志唯一且均failure。原R496 checked_source仅允许.py/.mjs，plan第6个required_public_sources却为政策JSON，后缀校验ValueError；前五生成调用已返回0是有原源码支持的前缀，4165B事务正文未返，当前46view循环未起，bootstrap此前单独生成/AST不混称无源码执行。正式dispatch/refinement未建，C485B仅未启动null帧同字，规则/closed/refinement/composition body均未返；cleanup真实skip，report固定概括不作存在证据。所有C/far/native/BVP/几何/精化未起；222只修JSON分类且仍外层完整字节核，四outer/46科学tuple/原门/原钟保，不改旧220、不由SHA恢复临时现场。
+
+## R484 — 实际214完整浅逆采样与原BVP磁盘启动停止
+
+**实际214：完整浅逆采样已返；原BVP启动磁盘门未满足，非试步拒绝。** [完整记录](results/R484-actual214-complete-shallow-sampling-and-startup-storage-limit.md)28274B/d960df3b，run43815427382/source29df28d3、compute133126277648/report133188443098均failure、两终志各唯一读取。全112far/nominal、13850unique/16128field/65102attempts/15123coarse完整，unpaid为空但32bit工作未达；完整C闭域/六primitive、cut二jet及当前准确十点来源均已读，factory1810/10394/15与coast中心反证独立。原BVP free11840286720<34359738368即停，child/native/453/450/fullDN/末audit未起；20文件95962633410B、far95028212980B/1604049行仅原完整hash/行数范围，不冒逐值审计。8必要scope已返，独立rules96257B/7563fae9超单90K→70正文未返；cleanup明确skip/raw仅至runner销毁。首闭面与15后继role全未起，无接受450父或误差下降序列；冻结214不追改，R498/R499及新点/新入口另有责任。当前H/open§2压缩前全文保368e6a6f历史，open§4–6逐字保。
