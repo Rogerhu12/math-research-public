@@ -151,3 +151,8 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### R485：两offset边均穿负实轴，需真正新的五门族
 
 [完整两个族](results/R485-two-complete-offset-cap-families-and-their-nonvanishing-complex-obstructions.md)保critical/uniform的全部C≥0原积分和端primitive。两族Im各只有一个零，分别在v∈(12/25,1/2)、(3/5,5/8)，那里Re严格负，所以全半轴均E非零。正v″远尾实际提供C，精确ψ3左germ及两矩正曲率拼接、末simple-A保持；每个紧C盒可取共同有限参数得真实非零族。不能从不同象限及大C正Re直接猜非零degree。下一真实ρ正15参数族须求同cap五门，不以这两个明确族排所有cap；全部原q4/F★/20安装和共同成本条件保留。
+
+
+### R484：有理芽正则延拓锁定，退化与真平方门继续
+
+[完整证明](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)保同一最终w/χ、真实前缀八矩及端点势；若两相位C加速度minor非零，真实13状态ODE唯一性锁定原抛物线解析延拓。固定κ/ω时h⁶C次数≤6，离开须全相位rank降，候选h在≤12次非零多项式有限根中；单个pair根不等于真降秩。未判本实际库minor，恒rank≤1/新F_acc退化库/奇点平坦光滑分支仍可研究；即使进常scalar段还需原平方、一次与常数三门。下一完整F主三导平方与C²余表/真约束路径，不把加速度行清零当任意路径可走。

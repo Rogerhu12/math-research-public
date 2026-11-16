@@ -32,6 +32,8 @@ R480从起点加入28交换子×3外矩×≤10平移系数（≤924生成，不�
 
 [R482](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)逐点保Pacc/初端势，T=Pend−A²/2+W；只用上述全W三外矩消ruling中第三历史，保真实八维A、平方及同w/χ。完整K=F(X;θ)+Ch h″+Ck k″，原系数−(4h⁴)⁻¹∫Fφ Qφ'''a_h/k；13状态=(h,k,ω,m8,h′,k′)，2输入须全θ共用，并服从原Mraw/水平ODE。只有固定秩相容域及切向性已付才反馈成真路径；未给所需闭返回原型。常scalar正长度段另须平方门−E(AcD,AcD)+2E(φ,Ac(φ;AcD))全θ0，规范/入值不能改变。新增加速度self的C²/平移≤7已证，但未授既存F已支付；全部V/端点/同13核继续。
 
+[R484](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)若有理保护芽两相位加速度minor真非零，同规范/前缀的全s解被真实ODE唯一性锁在原抛物线；离开须全相位rank降，候选h包含于≤12次非零多项式根。未判当前minor，rank≤1库/奇点C∞平坦分支未排；常段仍须完整三系数及平方门。
+
 同cap完整比例、实际全成本/全s同规范、高阶收敛与主几何完成门仍未付。
 
 ## 4. 当前真正接受点54与闭合任务
