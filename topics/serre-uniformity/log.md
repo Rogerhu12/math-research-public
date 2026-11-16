@@ -481,3 +481,8 @@
 - R922共享迹对偶执行五件全文读完并激活：仅新五G点、四旧全可分点的R及完整八系数RG=Mg；原Mg六系数/17块和全部K/χ直接消费，不重原算。
 - 真实R827/POLY与实际manifest展开进入数学tag，缺字段不预填；七连接分子/δK/目标单位和height尚未成。R824/R787真新run43912577191/43912581432已从693/670续，H逐字归档压缩。
 - 本push规则：公开Actions真实pull至82114b539ffef1631f36050030a51619c55119a5（2026-11-16T17:01:51.616205+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:06 Asia/Taipei — serre-public-astra-20261115
+- R925闭全部低normal系数与同h sigma乘积的精确平方比：完整formal log整尾≡id，char0先消原N_h，(81B⁶)及阶乘/相位不省；J32非零恰原Legendre与Q′同时非零。
+- 原比较标度v(c_cal)=a_h−1−v(N_h)/2，a_h和可能非unit范数保留；最高单位不冒低项单位/height。R922公开run43913992769已success，实际产物正接读，不预登记数值。
+- 本push规则：公开Actions真实pull至aeab769e3066a3984abea3274298f2dcf78d88a8（2026-11-16T17:06:21.781447+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
