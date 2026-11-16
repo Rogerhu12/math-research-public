@@ -108,3 +108,8 @@ R834/836/837全单位块和真三长/两长预算保旧完整open；自然Bost47
 ### 原相对范数终幂
 
 R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)/ell准确等于N_(kQ/F_(r²))(h)^((r²−1)/ell)。新helper以绝对Frob参数2m/4m保全部d及原嵌入，禁默认到Fr范数；默认norm，保power/norm_compare。仅因这项实际实现变化重用已有固定r29/41独立scalar对照，尚未收到新回执；不替原两map/RR门。
+
+
+### 原 U 的下一实际三纤维读取
+
+已发布 check-r884-original-u-theta4-norm-three-trace.py 及对应公开 workflow，无参数、原b=1齐次缩放恢复全b。输入原C5/C6全部因子，按(X+4)^3+27a³X²及其倒根的全部Newton矩读取Q48=Tδ(UΘ4)，并独立读T2Q48与T2TδUnew。只输出完整来源坐标/质量、来源和结果hash到运行日志，不扫目标p、不存数据文件。尚未读回执，不能预报结果；继续与四原B的同质量减项联立。

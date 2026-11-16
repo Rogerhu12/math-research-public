@@ -1,0 +1,37 @@
+name: Rank2 complete original U Theta4 norm-three trace
+"on":
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-u-theta4-delta-trace.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-theta4-norm-three-trace.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-u-theta4-delta-trace
+  cancel-in-progress: false
+jobs:
+  original-u-theta4-delta-trace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-theta4-norm-three-trace.py
+          persist-credentials: false
+      - name: Compute the complete original three-fibre trace and its exact second trace
+        shell: bash
+        run: |
+          set -euo pipefail
+          export RANK2_SOURCE_SHA="$GITHUB_SHA"
+          export RANK2_RUN_ID="$GITHUB_RUN_ID"
+          export RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          export RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout --kill-after=10s 300 python3 -u topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-theta4-norm-three-trace.py
