@@ -1,0 +1,238 @@
+{
+  "allThirtyActualStageExitCodesZero": true,
+  "binding": "dd2efa5bcf40dafb954b196992bd693264d2eb59a38542430fa235e5943a9056",
+  "bounded50": {
+    "decodedMaxBytes": 10326400,
+    "storedMaxBytes": 11000000
+  },
+  "driver": {
+    "blob": "8c01ac4b6e131fc5c329d0d3ee2d8093476d3f7d",
+    "bytes": 38621,
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-m-true16-source-rebuild-p9-bounded50-789f.py",
+    "sha256": "07cd9a2c6d09c9efc11be8aba50cbdd5bceba6f058f1fab986f6a1017a150d87"
+  },
+  "format": "r150-original-selected-source-bounded50-local-execution-v1",
+  "mathematicalArraysPublished": false,
+  "mathematicalSeconds": 750.9714591850061,
+  "originalInputSourcePins": {
+    "driver": {
+      "bytes": 38621,
+      "sha256": "07cd9a2c6d09c9efc11be8aba50cbdd5bceba6f058f1fab986f6a1017a150d87"
+    },
+    "format": "r150-joint-m-true16-selected-source-rebuild-p9-bounded50-v1",
+    "inputs": {
+      "backward": {
+        "bytes": 3052119,
+        "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+      },
+      "exactPrimitive": {
+        "bytes": 65159,
+        "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+      },
+      "forward": {
+        "bytes": 2378937,
+        "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+      },
+      "fourK2": {
+        "bytes": 2236198,
+        "sha256": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7"
+      },
+      "graph": {
+        "bytes": 101365853,
+        "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+      },
+      "integerModel": {
+        "bytes": 22824,
+        "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+      },
+      "jetMap": {
+        "bytes": 181038,
+        "sha256": "3f291285db5a6e97a5db977b3402dbdcc9f7b9e5fb8a48d31b0e219e89e71716"
+      },
+      "jetMapReceipt": {
+        "bytes": 34774,
+        "sha256": "5d3e09b26487355b32f20600764664def3dee0be34120e1c8202307eda5526df"
+      },
+      "kernels": {
+        "bytes": 2200126,
+        "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f"
+      },
+      "model": {
+        "bytes": 128145,
+        "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+      },
+      "newOriginal": {
+        "bytes": 17260416,
+        "sha256": "0258b6690b107a3cd45d9f6ace7ddb3003bb64ff1345ab0eab7ac4d650c49f34"
+      },
+      "normalTrace": {
+        "bytes": 101244784,
+        "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+      },
+      "oldK": {
+        "bytes": 48275717,
+        "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+      },
+      "oldQ": {
+        "bytes": 16649150,
+        "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+      },
+      "oldTrace": {
+        "bytes": 113614260,
+        "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+      },
+      "recipePayload": {
+        "bytes": 709918,
+        "sha256": "d4d486d0d1c6a33e091da3e99d58cb604d7b2ef828a84a20ba23edf76d19a63c"
+      },
+      "second-complete-receipt.json": {
+        "bytes": 22107,
+        "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+      },
+      "second-complete-system.bin.gz": {
+        "bytes": 72934,
+        "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+      },
+      "second-prepared-receipt.json": {
+        "bytes": 18840,
+        "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+      },
+      "second-prepared-system.bin.gz": {
+        "bytes": 42012,
+        "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+      },
+      "selectedK2": {
+        "bytes": 4700740,
+        "sha256": "5ab8223d69912ea5b102f71ad3439b3860594188386fce9b82f937944c90a554"
+      },
+      "state": {
+        "bytes": 1470456,
+        "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+      },
+      "third-complete-receipt.json": {
+        "bytes": 17757,
+        "sha256": "3bb98210ccf8a7941f2a9a71c0d8d1a5fc8c0e11891c26d0e76d8079fa413619"
+      },
+      "third-complete-system.bin.gz": {
+        "bytes": 70591,
+        "sha256": "786333a4baa562a15e38666a31207e3ce0179e03a0e9505da2d6a4cc5fbe7c2c"
+      }
+    },
+    "originalSelectedIndices": {
+      "L3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "L4": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "L5": [
+        10,
+        11,
+        12
+      ],
+      "L6": [
+        12
+      ]
+    },
+    "paidFull210Binding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+    "precisionChain": [
+      50,
+      45,
+      40,
+      35,
+      30
+    ],
+    "sources": {
+      "2026-11-14-r150-f31-bitplane-789f.hpp": {
+        "bytes": 3030,
+        "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+      },
+      "2026-11-14-r150-ninth-first-common-789f.hpp": {
+        "bytes": 11306,
+        "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531"
+      },
+      "2026-11-14-r150-ninth-first-matrices-789f.py": {
+        "bytes": 15194,
+        "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+      },
+      "2026-11-14-r150-torsion-characteristic-789f.py": {
+        "bytes": 5002,
+        "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+      },
+      "2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py": {
+        "bytes": 17857,
+        "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51"
+      },
+      "2026-11-16-r150-joint-m-bounded50-local-unit-solve-789f.py": {
+        "bytes": 23743,
+        "sha256": "c6909482dfba0a9fdd2d640d8031201d43fec231f9182f920fc5beb20cec4a57"
+      },
+      "2026-11-16-r150-joint-m-bounded50-unit-schur-789f.py": {
+        "bytes": 20951,
+        "sha256": "71295507dddb64dc7f60172910158d0d9043721597e397df0fb264dfd51fdcd9"
+      },
+      "2026-11-16-r150-joint-m-integer-p9-jets50-789f.cpp": {
+        "bytes": 18764,
+        "sha256": "e71c18ea5fa11d4ac11e2ca406257968d71c0b5868d57ab9e6318c3a3e2d0b01"
+      },
+      "2026-11-16-r150-joint-m-local-common50-789f.hpp": {
+        "bytes": 7762,
+        "sha256": "44c507b27ae03d98f343ccf4f567c19424e7ceba0ecaca8e4299dab97865c4ad"
+      },
+      "2026-11-16-r150-joint-m-local-normal50-789f.cpp": {
+        "bytes": 14856,
+        "sha256": "02e5df863ac73b309aeeb349de0249bd3cc654980236c326e1a9a77f8632fb8f"
+      },
+      "2026-11-16-r150-joint-m-local-original-transport50-789f.cpp": {
+        "bytes": 26084,
+        "sha256": "0ccb36cbdf82aed04215090e1f739218aeab0823d64ea5afc2b2e4fa7e095478"
+      },
+      "2026-11-16-r150-joint-m-local-vq50-789f.cpp": {
+        "bytes": 10051,
+        "sha256": "9cd4f58f29b3755363f944c5330c5ea8a1700d45a56ec0880f9c4d900e50bfa9"
+      },
+      "2026-11-16-r150-joint-m-original-model-p9-789f.py": {
+        "bytes": 4281,
+        "sha256": "1043eaacc50d0228f9bb2e8c00198a99ba4f405d1cad78453c2011455f4932f6"
+      }
+    }
+  },
+  "parentPack": {
+    "bytes": 9087,
+    "sha256": "5d21eabccf680adcba89f543bcf9b63ff86d2fea5fa12294b8e89a8c70fc85fb"
+  },
+  "precisionChain": [
+    50,
+    45,
+    40,
+    35,
+    30
+  ],
+  "preservedFailedAttempt": {
+    "binding": "796e3ca6801b1376363aa32853264796dc1fe5a744d26daf6292874c4f0c4219",
+    "mathematicalSeconds": 244.27472800499527,
+    "rawReceiptBytes": 15904,
+    "rawReceiptSHA256": "694b297c04b7244983ff4f9dfbfe4f004a5c4767bae845789410f88bfbadbad0",
+    "reason": "old helper stored checkpoint exceeded 4500000 bytes",
+    "status": "failed"
+  },
+  "rawReceipt": {
+    "bytes": 27441,
+    "sha256": "7dec547f7b14e4800af7002edf2baab6de197e80b77b414fcc8f69a253d6637a",
+    "temporaryPath": "/tmp/literature_joint_m_789f/selected-p9-bounded50/selected-true16-source-rebuild-receipt.json"
+  },
+  "status": "completed"
+}

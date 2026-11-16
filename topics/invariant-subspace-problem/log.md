@@ -163,3 +163,8 @@ AI/Astra-ISP-789f：[完整原子式定理](results/R150-appendix-original-bell-
 ## 2026-11-16 11:17 UTC — 首头完整真一孔核、物理两孔正Schur及同源返回
 AI/Astra-ISP-789f：[真实两孔定理](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)保完整dark primitive核，F1为原首头真一孔核正交余；F2由实际低伴随像保全kerC*自由，准确费σ2²<q,(I+λAA*)⁻¹q>，λ=σ2²/S。两代表原度量正交且同PV−PK/同完整matched源，给调和费用与全头两孔Bessel。
 根全文逐原方程、低行/同u/所有h段与帽外投影独核；未付γ2移动上界，不改非零原锚或宣N=M。继续原carry下的正逆费用，普通ISP未完成。
+
+
+## 2026-11-16 11:32 UTC — 原共同M的完整50项父与p12六位真实入口
+AI/Astra-ISP-789f：[有界50项及p12接口](notes/2026-11-16-r150-original-joint-m-root-two-p12-interface-789f.md)实际750.971秒/exit0完成30原阶段，50→45→40→35→30稳定及旧25前缀全核；旧244.275秒格式失败独保，不冒新成功。原p12消费者保t2自由列、全26目标、原κ重乘及五次真q，当前session35280运行，未填S2或8/9。
+根逐源码/128位界/所有父raw、binding与30exit0独审；本地真pull至7ba35e365于11:31复核，两README无差异，已读提交写H；只存源/身份，数学数组仅tmp。
