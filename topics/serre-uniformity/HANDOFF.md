@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：05916091fb431175a36c21bb304f3fda21418b1a**（2026-11-16T09:41:39.267089+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
+**已读规则提交：265dcdb8ab11021bec36779437282f8c93d5907d**（2026-11-16T09:45:52.184131+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -48,13 +48,13 @@ R864/866/865全纯核/真T7及R870 N0/16ni/d*已完成，完整pins见归档与�
 
 ## 有界截面、原参数及范数
 
-**R880**：[证明](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)5a833046及[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)529443f8。coreca46e8f9/wrapper3a888af1；真实43840391925/job133207448529/source3c1ddaf3，15.559026589s/28stage/新rank962，两418及Qf全成，正式细项待IO读回。复用六组944原件：intake43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04），index6a0e7d68；不重旧HNF/乘法/逆。首scope共同cusp418优先，旧1111→269→123条件146，新962→D*418；Qf=(a*/v)^3/(uχ/τ²)^4正乘、原ρ^-1457首项保留。已修点linearization实际字段chosen_local_parameter；未执行部分不称成功。
+**R880**：[证明](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)5a833046及[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)529443f8。coreca46e8f9/wrapper3a888af1；真实43840391925/job133207448529/source3c1ddaf3，15.559026589s/28stage/新rank962，两418及Qf全成，真实12阶段细项最小IO已激活，root取回正式登记。复用六组944原件：intake43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04），index6a0e7d68；不重旧HNF/乘法/逆。首scope共同cusp418优先，旧1111→269→123条件146，新962→D*418；Qf=(a*/v)^3/(uχ/τ²)^4正乘、原ρ^-1457首项保留。已修点linearization实际字段chosen_local_parameter；未执行部分不称成功。
 
 **R887纸证**：[共同cusp翻转与P0单位代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)1ebbc0bf。R880共同矩阵取V2的418列→完整146核，旧第252行选未缩放uC；再真实两锚rank962/完整关系恢复C*418，不偷换146。主因子正乘uC/τ²，原ρ阶−1457→−1205，t首项再乘c^1205。exact_height继续真实消费者，保其余12A/B右端。
 
 **R883**：根接原R872§9的t=a³=1/2+E6/(48sη12)，只新两原V4截面比值/首项，不重273jets。最小IO43838586512/job133201396638/sourcebef0523f，artifact14211447977/8e563fbf（Nov17 09:19），index1ca0af99；R807小tar1796873/9651935f、R8014184592/829a0c84、R8721755209/cd49a107。先消真共同θ/局部因子，82与有理尺度一次，t/rho不设1。
 
-[R876九范数证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)保非étale/剩余次数、共同M0取消、真dual7/P0框架。R882同处桥已闭，[R885纸证](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)1c67eca3已证明原273节点加权次数/单行adj/完整Artin单位与一次charpoly九范数；ordinary_local实现独立producer再消费；旧K/逆、原v0系统不重。exact_height接原其余六b分支12个A/B右端，F69旧20块直接用；原σ作用整个函数且须实际匹配根，不仅共轭常数。
+[R876九范数证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)保非étale/剩余次数、共同M0取消、真dual7/P0框架。R882同处桥已闭，[R885纸证](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)1c67eca3已证明原273节点加权次数/单行adj/完整Artin单位与一次charpoly九范数；R885核心dd4ef0d4/wrapper12790bfa已激活，273节点/完整单行按同tag续接，wholeArtin消费其真源；旧K/逆、原v0系统不重。exact_height接原其余六b分支12个A/B右端，F69旧20块直接用；原σ作用整个函数且须实际匹配根，不仅共轭常数。
 
 **高度仍缺**：原五Lj128/144、YP bdbb6cc5/FM a5d65aa4的128/634核、508主部rank507、c/a(P1)、活跃eη/d/N与全nonp。I_Z不等于real-descent Lj³，c0/h、c0/c1不变；R862 d_A/E_Aφ*=0不代YP。原Y各块L1=0无秩零捷径；UE仍dY+2period，End⁰G=F、torus商≥g+1、μ3 qφ*=0不删Y。
 

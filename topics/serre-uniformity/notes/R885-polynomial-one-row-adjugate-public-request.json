@@ -1,0 +1,72 @@
+{
+  "result": "R885-original-polynomial-one-row-adjugate",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R885_original_one_row_adjugate.py",
+  "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+  "wrapper": "R885_public_original_one_row_adjugate.py",
+  "wrapper_sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+  "workflow": ".github/workflows/serre-R885-polynomial-one-row-adjugate.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R885-original-one-row-adjugate-method.md",
+  "method_sha256": "8f9714e573a9f4c4da02447f8a8c7b35665e04aaf179d3cea68d0db9f2b6c188",
+  "proofs": {
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    }
+  },
+  "source_artifact": {
+    "result": "R827-original-global-modular-derivative-termination",
+    "run_id": "43734420663",
+    "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+    "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+    "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+    "manifest_bytes": 19902271,
+    "manifest_file_count": 72997,
+    "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+    "configuration_stage": {
+      "bytes": 763994,
+      "file": "R827-original-W-g-h-reductions.json.gz",
+      "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+    },
+    "artifact_id": 14180474398,
+    "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+    "archive_bytes": 3646481834,
+    "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+    "expected_conclusion": "failure",
+    "artifact_expires_at": "2026-11-16T21:16:01Z"
+  },
+  "input_names": {
+    "W_reduction": "R827-original-W-g-h-reductions.json.gz",
+    "place_audit": "R827-original-place-and-unit-source-audit.json.gz",
+    "cyclic_grid": "R827-eight-original-unit-cyclic-nodes.json.gz"
+  },
+  "input_pins": {
+    "W_reduction": {
+      "bytes": 763994,
+      "file": "R827-original-W-g-h-reductions.json.gz",
+      "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+    },
+    "place_audit": {
+      "bytes": 4261,
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    }
+  },
+  "budget_minutes": 300,
+  "resume": null,
+  "rules_last_read_commit": "05916091fb431175a36c21bb304f3fda21418b1a",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "new_scope": "original273_characteristic_nodes_and_complete_single_left_adjugate_row",
+  "old_W_and_Krylov_inverses_recomputed": false,
+  "original_large_R827_carrier_or_Hermite_history_requested": false,
+  "target_Artin_normal_coordinates_or_nine_norms_requested": false,
+  "original_Picard_support_nonp_calibration_or_height_requested": false
+}
