@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：4dd7b9b8cc4d0aa26e4f117ef9e39a895d459bc6；2026-11-16 09:22:25 UTC核两README无变。实际CI pull 2026-11-16 09:20:08 UTC/151445bdea41b825e21645ff7d80ff091c6bccaa（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:19:56 UTC仍无环境。最迟2026-11-16 10:05 UTC再实际pull。
+- 最近已读规则提交：e9bc8c0dcab1b2e736e74360ad6b77fb60f9dd78；2026-11-16 09:26:43 UTC核两README无变。实际CI pull 2026-11-16 09:20:08 UTC/151445bdea41b825e21645ff7d80ff091c6bccaa（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:19:56 UTC仍无环境。最迟2026-11-16 10:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-original-norm-three.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–877已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-first-factor-certificate.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–878已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原Hom与原shadow
@@ -22,8 +22,7 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 
 R862/R864固定原17挠点h、H9/L、全Λ((2))−2、τ/ℓ/c及原三Hom；cusp(1,1,4)/Schoen极6不代非零。v=−122465−47628a−314892a²/17，a³17；R866附A已付实际rΞ0必v17(r)≥1。R864附A的整单位e=18−7a给v_sm=7−18a²/17，保n和degree，不能当降度；完整尺度见前检与原文。
 
-R866/R869原Cv:Y²+vY=X³，Ξ_i*ωv=Hi，Ai=2^11κΞi；H0/Ξ0真下降F=Q(∛17)。公开run43822409558固定全cocycle；run43825112263给T9/Φ17（18×18/总34/291项）及三H541项（各98非零/含2）；脚本/参数/hash齐，不保存重算输出。
-[R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：D=X0(867)，h=H0³∈S6。A,B∈M_k，C=(DQ A)B−A DQ B，C³=n³hA²(A+vB)²B²检查0..612(k+1)并保原germ/∞即认nΞ0。k2维120/低409/末1836；成功degree≤204，真degree≤119保证k2解。低核任意非零元同一比值，可有共同cusp零。
+R866/R869原Cv:Y²+vY=X³、Ξ_i*ωv=Hi、Ai=2048κΞi保；H0/Ξ0下降Q(∛17)。run43825112263已给全Φ17及三H541项/2项。R870在D867的M_k比值须完整核C³=n³H³A²(A+vB)²B²至612(k+1)，保原germ/∞；degree≤102k，≤102k−85保证表示，可有共同cusp零。
 旧(1,2)/(2,2)完整模低核均满秩、k4取消无结果；R873原CM范数run43832670630已付全整数unit degree>23194880、3同源>7731626，排k≤8全部旧轨道。R874转一般有理Hecke整格，所有旧范数/尺度详原文与前检。
 
 [R867附A/B/C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：整R=2T7²+7T7−8T13−28与R²−2给两真unit、完整乘法表和整packet逆；全8/64/14邻点/Artin保。首系数不得免费归一，unit保持同n可积集合；认证后3n三基真整（旧57改进）。3同源备选Ψ=φΞ0/3成功经dual直接回nΞ0，但仅n0|nΨ|3n0，尚未付整性/度数改善。
@@ -52,4 +51,4 @@ R868原σ_t=min(ord P_n−A_n)控制t^-τ返回；τ=k−13≤σ_t且ell≤s−h
 
 R834/836单位块、R837三长/两长和自然47/12的q1/2缺口保；旧47/8须真第三长，HN为9κ−3χ−12b。R840同Kcorr/Hcorr两高前缀、第三3η/第四短行、末同cF³仍未全付；disc²读所有分支。R842 WT上[b0]=−BD−Pr未知，全部negative/moving/十九角/同P保。
 O4/O6/O7、R364/R561/R654/R712及全部旧open未闭；有限p、复秩1、局部unit、条件height或别cycle不完成；AST/strict/fine不替通常全Selmer。
-09:20:08实际CI pull成功，run43838789957/job133201973178/head151445bdea，两README差异空且blob一致；下一10:05前。坐标run43835679463/job133191600105继续，尚未认证；原第一F映射正以同D上的η12-sign证书构造，不能由g包替代。
+09:20:08实际CI pull成功，run43838789957/job133201973178/head151445bdea，两README差异空且blob一致；下一10:05前。坐标run43835679463/job133191600105继续，尚未认证；R878原第一F已付同B867的η12-sign/真实w4零平移：8ΔC³=H B²(A²−17ΔB²)²，全末端612(k+6)。独立producer已启k2/4（同M2乘积基），不预设Manin1；实际两映射和shadow仍未认证。

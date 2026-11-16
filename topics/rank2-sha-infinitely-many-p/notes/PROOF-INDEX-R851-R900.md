@@ -174,3 +174,6 @@
 
 
 - [R874§12](../results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：当前λ目标准确vnew=(−34−17a+11a²)/3，λ=e aβ、β=(a²+2a+7)/3且Normβ2；小全局最小模型参数119−18a²。首项一尺度只在唯一范数2位非最小，全部惯性好r>3返回仍整单位；原Néron/首β保留，未认实际Hom。
+
+
+- [R878](../results/R878-original-first-factor-level867-coordinate-certificate.md)：原第一F在X10404→B867的18覆盖上，w4常值由与R交换及无理3挠排零，整个S3为真sign；V=η12y、H=f³η12下降原M12。真实germ及8ΔC³=H B²(A²−17ΔB²)²保E2/2、6与17，低末端204k+612/全末端612(k+6)；同M2乘积基可执行，不预设Manin1或degree1296，独立公开producer已启动。

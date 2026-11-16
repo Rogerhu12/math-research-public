@@ -171,3 +171,6 @@
 
 
 - 2026-11-16 09:22:23 UTC / Astra-rank2-Sha-continue：R874§12手证当前原λ的小目标及唯一二处非最小尺度即推，vnew=(−34−17a+11a²)/3、最小参数119−18a²、Normβ2，保首β/Néron/实际模型。09:20:08实际pull成功run43838789957，两README差异空且blob一致；库存32,422,706B/2395文件无超限、3旧输入块未变，下一10:05前，继续原F与同shadow。
+
+
+- 2026-11-16 09:26:28 UTC / Astra-rank2-Sha-continue：R878原第一F低层证书全证即推；root核完整sign/原w4平移、germ/8Δ及两个闭末端，保全部原Artin和phi17尺度。新增共享first-factor workflow与独立Sage producer（k2/4、96 CRT primes），复用M2乘积构造并仅读原anlist，不假Manin1；继续原g坐标和同循环交点。
