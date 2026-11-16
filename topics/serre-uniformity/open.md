@@ -125,3 +125,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R886（完整证明）**：[原两旗theta下降与原split收缩](results/R886-original-two-flag-theta-descent-and-split-contraction.md)。原正product极化、第二conjugation反辛号与原τ给有限平坦L/L′、真实(type6,6)商及36维U_L；π*s↔s⊗1固定乘法空间，Gauss常数精确−p，Γ_h(s)=−p·s⊗原Phi0h。真实整反向C_h=−p(p²−1)ell_h，C_h=C_hP2h，C_hΓ_h=p²(p²−1)，原CM平均给C_hA_hΓ_h=p²N_h，保Legendre因子和det扭曲。原S_FG收缩已具体定义；未证除p整、critical Taylor比较/第五lift或q-normal单位，R884障碍保留。
+
+
+**R883消费者已激活，实际结果待跑**：[原t首项方法](notes/R883-original-t-first-order-frame-method.md)。R807两原V4与theta沿R801同原recipe、R872既成前三jet求值；真分母单位后完整三系数乘回和原c单位，准确t(P0)=0不从模零反推，原82/θ相消一次。c的准确unit-solve表达式与模像分别保存，原帧指数正乘，所有五Lj/非p/height仍缺。

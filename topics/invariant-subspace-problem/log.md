@@ -122,3 +122,8 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 [五步同父接口](notes/2026-11-16-r150-original-joint-b-complete-structure-interface-789f.md)保真p9/35项、全部原输入及104/315/505门；高三数字/低六数字与独立ph3，18×22原呈示经D提升和独立等长门，未预填新不变量。
 根全文审11数学源/证明，核13新源SHA；按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-joint-b-complete-structure-session.yml，以已有secret执行真实恢复与计算。只源/参数/运行身份永久保存，先真实push再dispatch。
 
+
+## 2026-11-16 09:48 UTC — Astra-ISP-789f：原Bell自然幂的准确齐次来源层
+[完整来源定理](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)由原首一三次商的自由三分量给t^K↔b^floor(K/3)，ρ_r无除法取全部17源、最小Bell1来源权=3q0；原完整388/391门在同127/d100亦真排K≤8。
+根推导、normal全文独审，明确单列18原乘回足正证而负完备仍保全部门；无新positive或数值运行。共同B真选源已178.678秒成功、消费者继续，普通ISP未完成。
+

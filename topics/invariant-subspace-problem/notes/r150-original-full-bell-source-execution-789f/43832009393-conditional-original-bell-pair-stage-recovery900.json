@@ -1,0 +1,61 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43832009393",
+  "stepId": "conditional-original-bell-pair-stage-recovery900",
+  "executionSourceCommit": "076cad7ab77d4056ab660e0e53967b7c3f4a6777",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-conditional-pair-recovery-789f.py",
+  "scriptSHA256": "d7a89c29e2f5fe5fbdcad29f9bac0c4c26f7249f4f6347193c18167c19a57a7d",
+  "argvTemplate": [
+    "--parent-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--parent-out",
+    "{work}/original-full-bell-homogeneous-source-prefix",
+    "--out",
+    "{work}/original-bell-conditional-pair-recovery",
+    "--singular",
+    "Singular",
+    "--seconds",
+    "900",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 960,
+  "exitCode": 75,
+  "wallSeconds": 892.7477923430001,
+  "fullTemporaryReceiptBytes": 1885,
+  "fullTemporaryReceiptSHA256": "b49bf07efc1a04bcc6675fb8603f917019c30ea71e0df430bc14226d9298cf05",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 09:33:20 UTC",
+      "beforeReadCommit": "34b5e45ecfd1d533e136c322f78f0d687d8c996c",
+      "originMainAfterPull": "076cad7ab77d4056ab660e0e53967b7c3f4a6777",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 09:48:14 UTC",
+      "beforeReadCommit": "076cad7ab77d4056ab660e0e53967b7c3f4a6777",
+      "originMainAfterPull": "9f7d137bb742704e057ac75538bb05eb49a9ccc2",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 11,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 3774,
+    "logicalJsonSHA256": "ae530392aa2608bf8d4a4424b7c5d7846a5b14456bb5af507ef6450c0b1f7d98",
+    "itemCount": 11
+  },
+  "lastRulesReadCommit": "9f7d137bb742704e057ac75538bb05eb49a9ccc2",
+  "summaryExcludesRecomputableArraysOnly": false
+}

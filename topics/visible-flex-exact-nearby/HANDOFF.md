@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 09:44:03 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 09:46:51 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 09:42:55非FF真CLI仍无executor，下一本地尝试≤10:42:55。最新CI成功真pull为43840219992/1于11-16 09:30:07.754563→dfd6759e8b8b6e1d4b596391a0b56b908d7e3eb6；两README完整diff空/同已读，exec0c181a20保4次全回执。下一真pull≤10:30:07；ref读取不冒真pull。
-最近只读README核：38a1fc9abcca1236d7d4ab4406f3b23adccc8a52；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：a670a46893a88566c78d89de80dc3eaf094593b9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -44,6 +44,8 @@ W9602f93880：真正侧outer193+WHR mH给T:(289+mH)→(193+mH)，kernel96+ℓ注
 WHS3e274258：原PC whole两候选扩真97..288壳，完整C+接negative-one得Fs C:Xfr−4/3→L²rE193；χ(R)=0/bodyYsup给outer H−5/6。SE同distribution逆与旧ell²图一致。V/G/Pa反馈compact，未知Gnorm/全coker/ℓ保；PW mixedroot两mean/WPL强腰与WGB左右序保。zeroV0全初值/源/jump/endpoint有限式闭，WHVA充分门false不授其逆。
 
 WOB f13024a7（results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md）：实际pR主源/outer193真mean和affine、37原record/七port完整；WSP同完整RH原C+直接读。指定root96的Jc等价193+m signed方阵；另A_c为identity+compact/index0，完整ff/ft/tf/tt残差的||I−QA_c||<1才授逆，C0Q/未知G/coker/ℓ均保。旧finite193对象不同且signed矩阵未存，不能转用。root全文+两peer正式核，0新科学；新fee/structured Q/真实signed inverse待。
+
+WPT22fb6fac：cell均值零primitive skew与固定对称D给精确R_D^-1≤1，不收h||D||；真root用D0=0/S0=I，不假设K正gap。原A−D全drift/reaction/ordered primitive/mean保。真实GH双窗对偶给全K输入尾，完整门δcell=max(h_i e_i/π)+hmax² C_K*1/π²<1才授tail逆；S条件/全部seams，真97..480复合/全部finite交叉及trace-safe端点保。完整signed193N+193 Schur仍待；e_i与三新复合/first-r定义闭包均未算。root全文+Tail2–5/Phase6–10正式核，0新科学。
 
 ## 恢复、容量和执行
 

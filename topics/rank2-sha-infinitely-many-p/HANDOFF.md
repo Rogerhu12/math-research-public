@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：14ef03b4271db2907ad1bcd8c896462ec01f1d53；2026-11-16 09:41:01 UTC核两README无变。实际CI pull 2026-11-16 09:20:08 UTC/151445bdea41b825e21645ff7d80ff091c6bccaa（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:19:56 UTC仍无环境。最迟2026-11-16 10:05 UTC再实际pull。
+- 最近已读规则提交：f436d669b7e1638a68fae7004603f9ea9a3ea34c；2026-11-16 09:47:43 UTC核两README无变。实际CI pull 2026-11-16 09:20:08 UTC/151445bdea41b825e21645ff7d80ff091c6bccaa（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:19:56 UTC仍无环境。最迟2026-11-16 10:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-three-artin-conjugates.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–880已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-three-artin-conjugates.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–881已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原Hom与原shadow
@@ -25,15 +25,15 @@ R862/R864固定原17挠点h、H9/L、全Λ((2))−2、τ/ℓ/c及原三Hom；cus
 R866/R869原Cv:Y²+vY=X³、Ξ_i*ωv=Hi、Ai=2048κΞi保；H0/Ξ0下降Q(∛17)。run43825112263已给全Φ17及三H541项/2项。R870在D867的M_k比值须完整核C³=n³H³A²(A+vB)²B²至612(k+1)，保原germ/∞；degree≤102k，≤102k−85保证表示，可有共同cusp零。
 旧(1,2)/(2,2)完整模低核均满秩、k4取消无结果；R873原CM范数run43832670630已付全整数unit degree>23194880、3同源>7731626，排k≤8全部旧轨道。R874转一般有理Hecke整格，所有旧范数/尺度详原文与前检。
 
-[R867附A/B/C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：整R=2T7²+7T7−8T13−28与R²−2给两真unit、完整乘法表和整packet逆；全8/64/14邻点/Artin保。首系数不得免费归一，unit保持同n可积集合；认证后3n三基真整（旧57改进）。3同源备选Ψ=φΞ0/3成功经dual直接回nΞ0，但仅n0|nΨ|3n0，尚未付整性/度数改善。
-**R874实际候选**：原全q必要格I∞=u*OE，u*=(915+1097θ+2962eps2)/55569，NormI17/55569；λθ=−497+237a−17a²、λeps2=609−44a−75a²。λu*=(68+7a−13a²)/3，当前目标vnew=(−34−17a+11a²)/3、小最小模型119−18a²，OF=Zβ且归一q系数模β⁻¹OF，唯一二处分母保；u*(106+59θ+185eps2)=17。run43834068620/job133186195650在4.013秒PASS：全packetdegree>364.3945排k2；R875原有限E2和已证q(u*)=376，且全I∞最小准度数恰376；Gram8整除/mod3与AM界给全格证明，q<664仅±u*；仍未认Hom。原k4/6坐标run43835679463用M2乘积/三嵌入CRT+全恒等式，尚未认证。R867附D保17返回与全51三基，但实际求交改R880的(κP)^τr三真共轭（认证后各degree376），双轴9项Fourier保原不同form pair/2048/u_j及全Artin，5/7新换基整可逆。三循环使交点只用两g图，F在最后trace；其余原D正审查，首拟r29/ℓ5，不能预认非零。
+R867附A/B/C保同packet真整单位、完整T7/13邻点、共同3清分母和3同源dual返回；unit不改可积n，Ψ仅n0|nΨ|3n0，全原尺度详前检。
+**R874实际候选**：原全q必要格I∞=u*OE，u*=(915+1097θ+2962eps2)/55569，NormI17/55569；λθ=−497+237a−17a²、λeps2=609−44a−75a²。λu*=(68+7a−13a²)/3，当前目标vnew=(−34−17a+11a²)/3、小最小模型119−18a²，OF=Zβ且归一q系数模β⁻¹OF，唯一二处分母保；u*(106+59θ+185eps2)=17。run43834068620/job133186195650在4.013秒PASS：全packetdegree>364.3945排k2；R875原有限E2和已证q(u*)=376，且全I∞最小准度数恰376；Gram8整除/mod3与AM界给全格证明，q<664仅±u*；仍未认Hom。原k4/6坐标run43835679463用M2乘积/三嵌入CRT+全恒等式，尚未认证。R867附D保17返回与全51三基，但实际求交改R880的(κP)^τr三真共轭（认证后各degree376），双轴9项Fourier保原不同form pair/2048/u_j及全Artin，5/7新换基整可逆。三循环使交点只用两g图，F在最后trace；其余原D正审查，首拟r29/ℓ5。R881付认证后的直接约化：E3真实RR除子204，g/F低germ用64位r进输入（29损≤45/52），同低核严格认原映射；helper已写未运行，不能先认坐标或shadow。
 
 ## 当前第二门：四原B的实际同源关系
 
 原S34/T72/U136/V66、charge17/36/68/33、CM13、全Euler/p²p³保。R816/820付E−11 rank≥2，通常全Selmer桥仍缺同一无穷p完整J′非零。
 R855/R856 whole整除p与全参数Frobenius、[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p相消、共同A24的固定相对theta核全部保。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Ej=−b^jσ24x^(8−3j)y、c*=(1,−4/7,16/7)。四B零 iff BS0且M_pc*0；三相邻系数来自四不同真实伙伴，U二挠仍同全tensor/lift。S/V的X0/729X0真实低卷积、[3]完整W3及S/U六零不省略。
-R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。theta续同D行完整缺陷/实际forcing。
+R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。附A付H22的10362整CM词返回及同热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，接全L2D5(V)−D7(V)/132。原new余项与两完整配对均保，theta续实际相容性。
 
 
 ## 当前第三门：低松弛同P/R/S的真正后两页

@@ -2,76 +2,66 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0945-R885-producer-and-R880-complete-intake",
-  "commit_message": "serre: activate the original one row adjugate producer and consume completed bounded inputs",
-  "rules_last_read_commit": "05916091fb431175a36c21bb304f3fda21418b1a",
+  "request_id": "20261116-0950-R883-original-t-frame-consumer",
+  "commit_message": "serre: activate the original marked t first order frame from completed section jets",
+  "rules_last_read_commit": "265dcdb8ab11021bec36779437282f8c93d5907d",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "88f188ac230962f172cd996dfafd61eceb817f5626d4d8e87883994738a2b26e",
+  "expected_previous_request_sha256": "77e23333852abac026a446df9710cbfe829e5da00ea7b1f8394fe4add6f604fd",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R885_original_one_row_adjugate.py",
-      "sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "path": "topics/serre-uniformity/scripts/R883_original_t_first_order_frame.py",
+      "sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R885_public_original_one_row_adjugate.py",
-      "sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+      "path": "topics/serre-uniformity/scripts/R883_public_original_t_first_order_frame.py",
+      "sha256": "91799e07dbf3a5875734df8fb4fdb3e4e15e7427195647973e76ac3ce82da76b",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R885-original-one-row-adjugate-method.md",
-      "sha256": "8f9714e573a9f4c4da02447f8a8c7b35665e04aaf179d3cea68d0db9f2b6c188",
+      "path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-method.md",
+      "sha256": "a3775894517263ec34dd4b949e985b7db3536e81cec10cb8d9f5d7f8b2b4e8b1",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R885-polynomial-one-row-adjugate-public-request.json",
-      "sha256": "07ce6cdfe8e86202e58046785a7cd3d646b65d2d64ea19165bd4d069562b7c7e",
+      "path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-public-request.json",
+      "sha256": "9927874c31f7b76b3aa5d48f0bb99a8028e76d4a0d4c1164abda8bab838e7079",
       "expected_previous_sha256": null
     },
     {
-      "path": ".github/workflows/serre-R885-polynomial-one-row-adjugate.yml",
-      "sha256": "bd066e0f1bad6fbad87ee9551bfba3424cdc4a3f7dd4b514191159f8b5b47401",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R880_public_completed_bounded_inputs_IO.py",
-      "sha256": "2456d48c229d6580119183869e5336501d85dec4eab472f9d87d23045165a696",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R880-completed-bounded-inputs-IO-request.json",
-      "sha256": "b61a98fb91d3dacc917519c13bbb5ca12dc4482c29f74da226ddf549958336f4",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R880-completed-bounded-inputs-IO.yml",
-      "sha256": "bdb448cab468004b166f966566bb3f5f38854d43d6fb889fc37397c3635e4d27",
+      "path": ".github/workflows/serre-R883-original-t-first-order-frame.yml",
+      "sha256": "f87e5f35a33b5c58910d09bda7a33e4a49cdb02c624cc20fedde776b69af8780",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "ff2342634c5273f3bef06c2c6bcda6aa9c378545150dbbac2b1836f6388eca1c",
-      "expected_previous_sha256": "072d02e006a47b82f94a4c7d88def74a1e0277803bb43e3f5103f50674dc8455"
+      "sha256": "2ae4e55ae5659a3c4d68f2a50a7609b7c4900b0a336a64fdabd1d36e90e7c711",
+      "expected_previous_sha256": "9888c01f3b0f21b529a5587e2a03c412339515508b77fc077c863e83836b8a01"
+    },
+    {
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "8cf3ea63f772a4c1c84ccd9207d0d62d4bf5dd19139466d649d1e64ed474ed4e",
+      "expected_previous_sha256": "22c88ea7c23739c33dcf29d2a6f2ed24e4b17cc8122c5b25b323cc2c1c5fc51a"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "eb7fbc87c0e83f3d6f1dd5e42007c1cbe4bde86dd5d3de70610f47f49ba77f77",
+      "expected_previous_sha256": "d3485e2d0bdd1caf3f77080baa79222b6292c0105cbfa001555031595865f8d0"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "5059b1c786031cd098ceb6ec2383147015deb40d9bca0b0b68a0f5223f5da771",
-      "expected_previous_sha256": "cacc3a8c96c56f9b1baec7bae63e02b609122c2b9085164a1be9ef3eae84b3c9"
+      "sha256": "a0ffdf94c69c95fb2d2efd046a33f2b8ea92d05e0e863bdbb30ae848b76f2398",
+      "expected_previous_sha256": "554d46162fc942b6674eb26012daee4373405c1f404065122f3563220218c85a"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R885-polynomial-one-row-adjugate.yml",
-      "request_path": "topics/serre-uniformity/notes/R885-polynomial-one-row-adjugate-public-request.json",
-      "request_sha256": "07ce6cdfe8e86202e58046785a7cd3d646b65d2d64ea19165bd4d069562b7c7e"
-    },
-    {
-      "workflow": "serre-R880-completed-bounded-inputs-IO.yml",
-      "request_path": "topics/serre-uniformity/notes/R880-completed-bounded-inputs-IO-request.json",
-      "request_sha256": "b61a98fb91d3dacc917519c13bbb5ca12dc4482c29f74da226ddf549958336f4"
+      "workflow": "serre-R883-original-t-first-order-frame.yml",
+      "request_path": "topics/serre-uniformity/notes/R883-original-t-first-order-frame-public-request.json",
+      "request_sha256": "9927874c31f7b76b3aa5d48f0bb99a8028e76d4a0d4c1164abda8bab838e7079"
     }
   ]
 }
