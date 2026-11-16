@@ -123,3 +123,10 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 ### 同角色闭包已付，独立中央仍须原来源
 
 [同角色整germ](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md) 原紧角色投影后，nonsplit本征一线及split径向球的有限函数展开，连同有理norm-one环面的线性theta不变性，准确给FΦ=ΣaκF(κz)，全部相位/half-character保留。普通单位Mellin与惰性全Gaussian–Newton分别给JΦ=QΦJ；inert bκ=κ^(p+1)=1+pqκ，完整exp(aqκX)修正不可删。零质量中央仅读Σaκ·j，首行与除p后仍单行；全部原w-Hurwitz Γh=(hs−1)!gh由显示整三角矩阵/整逆运输。固定isogeny覆盖不添代数独立坐标，也未付原carrier/全旗标预算。 **继续：** 仅在该实际有限覆盖及全部原成本内检查可用行；原四个不同算术来源和R855的指定Bockstein是当前非零对象，不再把同角色伸缩数计为独立中央数。
+
+
+## R855：同一原首行的全热连接
+
+- [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
+
+续四固定Rν在完整双变量模p²递推中的共同相容性；原横向c_p单位不单独迫指定B非零，不能把新算子当第五中央或扩大原列格。

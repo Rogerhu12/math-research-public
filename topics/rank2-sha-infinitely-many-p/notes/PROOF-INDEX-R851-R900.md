@@ -18,3 +18,5 @@
 - [原三Euler值束](2026-11-16-original-euler-three-jet-bundle-and-hn-source-cost.md)：原κ≥3、χ>1、p>101下，全H3在奇C点也分离曲面完整长度6二阶jet；正规化上的未饱和三Euler值像束泛秩3，全部固定水平/十九角的det缺陷≤3χ+12b，故deg E_act≥9κ−3χ−12b。κ>χ+4b时，任何承全原来源且同generic三值的rank3束不可能degree6κ或HNmax≤2κ。保完整线性化框与奇点各支；只排未付来源成本的正常分次捷径，不代原三长核/WT或forcing。
 
 - [同角色完整germ](2026-11-16-original-same-character-schwartz-and-central-germ.md)：原紧角色投影后，nonsplit本征一线及split径向球的有限函数展开，连同有理norm-one环面的线性theta不变性，准确给FΦ=ΣaκF(κz)，全部相位/half-character保留。普通单位Mellin与惰性全Gaussian–Newton分别给JΦ=QΦJ；inert bκ=κ^(p+1)=1+pqκ，完整exp(aqκX)修正不可删。零质量中央仅读Σaκ·j，首行与除p后仍单行；全部原w-Hurwitz Γh=(hs−1)!gh由显示整三角矩阵/整逆运输。固定isogeny覆盖不添代数独立坐标，也未付原carrier/全旗标预算。
+
+- [R855](../results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
