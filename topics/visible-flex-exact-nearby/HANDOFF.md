@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 13:46:10 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 13:50:31 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 13:44:51非FF真CLI仍无executor，下一本地尝试≤14:44:51。最新CI真pull为43877268949/1于11-16 13:36:16.081258→61a4fcd6fe3a7ac91657eda464567a1193e9a2f4；两README完整diff空/同已读，exec保4次全回执。下一真pull≤14:36:16；ref读取不冒真pull。
-最近只读README核：2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：0879afa3e3cf0ca4da77104e41ff3d57765e8293；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -44,11 +44,11 @@ WIC527fc35e由8原whole粗有理界证明m160的真tail δ<80553/128000<2/3、κ
 
 WOBSA37/WMF全部实际/mean/primitive/两端/失败与未付scope保当前完整检查点及原proof，0finite不变。
 
-WMLa67961a5原local归一L1/4forcing/6步/10terminal已证，无1/T根除；247未算，因非mean主导暂缓；全Jr/g1/端点/jump保原proof。
+WMLa67961a5全local归一/mean六步/10terminal已证；247未算。WSMA后strict mean主导，先新算strict界；无1/T根除，全Jr/g1/端/jump保原proof。
 
 WMTA195+2全mean/jump/端点冻结。WRTA48d1bea2/43862924830/1全18门7图42新、75copy/10scope，SCI2ab3e929/90315/fa85503b；strict C3约1.13089e321、negative1.78069e333、whole/reduced7.44656e339真选new，旧2.116e465全保。完整exec/源/参数/两mean/四端/3070jump/true root/同J与未付门保WRTA/WRT；old0/lost0，无finite逆/高门。
 
-WSJ217cdff8同strict frozen t0双索引r≤3已证；完整H^-1/μ/G/w0第三径向/forcing/free/genuine保原proof，同函数slot旧safe fallback；root local不改。0新数/无physical逆。
+WSJ217cdff8全mixed/domain/mean资格保原proof，WSMA152已消费；同函数fallback/root local不改，未授physical逆。
 
 ## 恢复、容量和执行
 
@@ -77,3 +77,5 @@ Wiener V0/V1四报告与physical-tail共464459B普通清理；完整原scope/依
 WRP95be269f密度伴随先微分→旧K0乘完整3×3范数、全负二/负5/3与15profile权已证。后继读成功WSM全N6/profile仅算40新；原mean/跳/端/whole-reduced保，40未执行。
 
 WRT/WDG/WBF/WJR四已成exec92566B普通清理，restore4e724981及完整身份见notes/2026-11-16-completed-four-small-execution-receipts-restore-note.md（6971c631/10121/5f8fa468）；SCI仍保，禁重算。
+
+9块清单327445B恢复见notes/2026-11-16-completed-input-inventory-restore.md（dae38ffc/9f7bb67e）；禁重算。

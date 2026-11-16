@@ -368,3 +368,7 @@ fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pu
 ## 2026-11-16 13:46:10 UTC — WSMA完整实际证明登记
 
 两README于2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e同已读。完整proof d686817cb87067788b658ace16218f7ada1d68cc/36418/dc566db379d0ad9bcc01e4f4f1ecc6395c907c0944281169e9761cc42cfce31c 已证明43877268949/1的3完整图32+89+31新/39原copy、全22门与相同whole/reduced算子新上界；152冻结，old0/lost0。root读全3图/index/exec核45组，Tail52组/Phase完整receiver21组纯JSON均过；不加审批。whole/reduced保存中心1.90736423682251400641766771203225487061996663267347748430927102916501134125e323，半径3.56e248/3.57e248，各独立选new，原均值e319仍主导，全部3070jump/四端/root/mean/Calg-vs-Dinfty及完整有限账保。科学4件78909B/全部6件101143B，原大stdout只hash。继续新mean路线与WRP40，WPS43878765372/1运行中；无finite逆/全频/非线性/最终验收声明。
+
+## 2026-11-16 13:50:31 UTC — 九块既成输入清单普通清理
+
+两README于0879afa3e3cf0ca4da77104e41ff3d57765e8293同已读。仅删notes/2026-11-12-missing-complete-input-archive-files.json.gz的当前327445B副本，Gitfe069a3e、原SHA9f7bb67ed6177bb4c6f57356ccb26e30a75fdaccbee9e85f01c761a531c61914、restoredae38ffc。完整415B原摘要与4203B原source全文核，原九块6794对象/241928707B是历史收集范围，并非当前容量；原摘要没有run号，不猜。完整恢复说明 4c2976e1a581fcdabaa64821f76e5c9f25ae9128/3537/2d9d68148f37788e8a17edc427a6e82bb0769daaaaff0bb6f89bdf319d04b475 保清单全intakes/原byte恢复/无科学重算与全部限制。未取gzip正文，不删除其引用的6794对象；WPS/WSM当前科学输入不变。释放预算继续WRP40、mean新界及WPS结果承接。
