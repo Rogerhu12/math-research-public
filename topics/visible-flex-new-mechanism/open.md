@@ -188,3 +188,8 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
 
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负四完整二速度。
+
+
+### R424：从起点增加共同母矩的条件工具
+
+[R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给完整局部二阶五次、成本权−4自然函数六项穷尽；q1/D/E5/M25矩阵det−1/16，固定共同D/E/M25后，全部实际ρ、w、ξ及共同affine读出与Q4的NH一列成固定比例。有序3+2因完整locality为0；先证自然像比例，再用同权响应补wholeE，负四平移头遂杀此函数。从起点F★=(F_rat,D,E5,M25)的受限最大秩/4+r纠正仍同点保19有限真根。只对已经证明完整局部C²的函数应用，不冒未知kk的primitive/矩积/左尾零；仍须完成原完整kk自然式。
