@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：52ea8f96e8bee2817a76f7a0368b8bea6e536585**（2026-11-16T07:41:26.501924+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。原工作区/workspace/scratch/09e43497d694/math-research-public于07:19失联；当前由公开Actions实际pull/rebase恢复发布，仍partial/sparse main。完整前态及全部来源/已闭边界逐字保于[Hecke整数正式登记前H](handoff-archive-2026-11-16-before-certified-Hecke-integers.md)（9632B/3637f312），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：1099f319ec76e3bd33761c5b997f553f89e9f603**（2026-11-16T07:47:45.924494+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。原工作区/workspace/scratch/09e43497d694/math-research-public于07:19失联；当前由公开Actions实际pull/rebase恢复发布，仍partial/sparse main。完整前态及全部来源/已闭边界逐字保于[Hecke整数正式登记前H](handoff-archive-2026-11-16-before-certified-Hecke-integers.md)（9632B/3637f312），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -49,6 +49,8 @@ R859b8218a4b/R8613461121b的原BT/稳定格、prime-to-p同源、r0/α/r6、真�
 
 R863fbac90d2原全G非split格/全首π相位、R8678610e41d实际Drinfeld de Rham与Cartan-Cartier单位、R8694fb8d4bb全部cusp最大raw Hodge格/首Θ层均已证。原T固定线不增饱和，raw ℒ/π split而de Rham非split；不等同q-normal。完整公式/原c/左右作用/惯性补偿/μk/tame帧全部见归档及三正式证明。
 
-R871[原tame Abel三次首项](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)977d8f92：12cusps Θ²注入、真H6†不变，R=W/A指定CM正则，R−R(0)=U/(48E6²)T³+O(T4)单位，保T=−48t/E6=−864与R(0)。原cyclic-p/π层/KS/q-normal仍缺；R706 p137147原h1 M2非最小，不能把tame单位冒原M2，R874续真正循环p比较。
+R871[原tame Abel三次首项](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)977d8f92：12cusps Θ²注入、真H6†不变，R=W/A指定CM正则，R−R(0)=U/(48E6²)T³+O(T4)单位，保T=−48t/E6=−864与R(0)。R874[原循环p商与KS](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)6ca20e6c已证a/varpi^(p−1)=−ℓ^(p−1)、t′/varpi^(p−1)=−6ℓ^(p−1)/B和真a²/p KS运输；原未分歧tame环的lift减自身CM常数，Abel首ρℓ^(3p−3)、微分3ρℓ^(4p−4)皆单位。全p+1无权和首两层消去，一旗标1⊕St不含原p−1扩张；原q-normal/两旗标来源仍缺。R706 p137147原h1 M2非最小继续，未把tame单位冒原M2。
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684全公式/pins由归档继承；b/s/λ/ζ²一次、CRT6逆、246/82^10/c0c1/I_Z/P0P1/ν/theta二挠/完整Corr/nonp/splitting全保。ordinary43/776bitq已Gaussian5排，Shapiro/θ同Σ/C4杯积R779闭路不重开。主目标仍OPEN。
+
+**必要源纯IO续载**：新公开serre-source-artifact-intake按requestdb160e8a只读R799的2050原V8、R800的82E1+四M2尾和原carrier、R801同2050的q109尾、R827 W/原0..4节点，以及刚结束R787/R824的真实小断点；不执行数学、不重旧行/节点。每来源原manifest/SHA与单日最小tar闭包保持，后继R872/R873直接消费。readerbc07f13f/workflow5f5e2318；运行号由实际启动回填。
