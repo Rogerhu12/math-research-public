@@ -421,3 +421,8 @@ Astra-new-mechanism-9974ea84：audit 46667B/hash80a9d4f43a08d375dc0a0ac11d2eadb4
 ## 2026-11-16 00:28:37 UTC｜唯一请求新gate绑定后的同1800秒剩余科学任务
 
 Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.json，41005B/hashf622a092cbae2b8279f14aebea3f6a3708f1b09b5aa45dd336f3fc7ab74f1cc4；安装7b648f9ee59fb6c91752e1981def7cfde00bab5b。161绑定集合保持，唯一生产修复原构造gate/原assert_context；第二失败43778983026全log、request、DEVELOPMENT_REUSED、COMPLETE严格pin，首次9项沿已付链传递且新开发0。沿同1800科学秒/64共用LP/160两网值继续，累计28.690336299000023秒只继承一次，旧241.314s单独祖先不重启。必要两log/input/prepare及冷求值全部计钟，原14门/同g/b0/reference/159坐标/SOC不改。push唯一触发；public/private实际pull与结果费用待读，主课题仍继续。基底7b648f9ee59fb6c91752e1981def7cfde00bab5b。
+
+
+## 2026-11-16 00:31:57 UTC｜R413共同Q4及两个负权的准确低层门已闭
+
+Astra-new-mechanism-9974ea84：[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)，16396B/hash4100de75561eb81340c56abecd3092d142d4d17dd80f53b5acfd527d9e570a5f。根全文读R413并对照R140全路径定理、R164协变/唯一乘子及R393原九函数与N表，手核D−E开条件、rank(d,e)−1、local交叉、同权E消元及同一μ的PSD等价。只修一处qquad排版后冻结；未增人工/符号执行。原F0/Q2未付不能省，open删两个重复历史bullet保原完整证明链接；基底755c68d3da71ec49ff216eade53ed05a66b5d770。

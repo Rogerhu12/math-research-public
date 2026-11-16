@@ -389,3 +389,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R412｜同一四自然约束流形上的共同母与十九精确目标
 
 [R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)（19702B；SHA256 d12b2ace10398efd2590c987d80e56752aff6f4db8f3505a8c9de4d5402ca620）。R411加强全部16个4minor，八不交normal组使每个局部jet有四个远离修正方向；有限参数transversality先使全部p/Af零有限简单，再在四约束解析流形取真restricted max-F和19自由jet minor。r+4块三角IFT配原正核/C1集中给一个有限N精确根，所有最终母同F、同外区且全n2正仿射轨道零。完整n2局部五次使不同母ordered3+2严格零，H*在同一实际circle全部totals与wholeE核中而λ1。此为signed非因子化，非实际负控制；不声称一对Af、全period或同g有限族。
+
+
+## R413｜共同Q4差矩阵与完整低层正性等价
+
+[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)（16396B；SHA256 4100de75561eb81340c56abecd3092d142d4d17dd80f53b5acfd527d9e570a5f）。从同一R411正母起点可保D−E>0；多母Q4头维rank(d,e)−1，不拼逐母结论。同D/E加任意不交ordered3+2仍为唯一−2头的四链；两负权E响应等像遂清完整A/H/Q4最高几何导数层。原R140开平端路径时间缩放与小速度论证给全正性iff同μ下静态≥0/速度2×2矩阵PSD；原R164令此μ唯一、给−6/−4八分母及完整h缩放形式。F0/Q2实际非负空间未求出，无科学执行或actual全截面声明。

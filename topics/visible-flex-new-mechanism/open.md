@@ -132,10 +132,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
-- **R384已付/继续边界**：纯δ4完整系数族的自然像恰二维及其有限正锥已证，全部H自然像0。固定u的标量两号可由中心穿越获得，但必须另付快脉冲矩阵、真倒行、固定端口桥、Klein及全部基准；不直接升级实际二维或固定g。
-
-- **R383有限表保持，R387/R388阻断同芽全部连续首阶轨道**：[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)的P R4−B*R0为严格正倍D4，不除P且保全合法gauge；同种子连通C²首阶轨道恒f。下一不同端芽/第三结构，不把非圆当已逃逸；首阶恒定高阶才动及主题一般C²机制不在此结论内。
-
 - **R390→R392响应E与两Λ实际joint已付，继续完整商**：[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)同一有限字可任意指定F=P_LE和两个固定自然Λ，−6/−4/0完整pure/self同付；wholeE其余商qE含原型×n成本仍欠。真kerE的X/M两类只付线性完整乘积J(U)，λ+不经固定J下降；下一实际联合商C⊕R²，须保fixed读出核的仿射问题及全部桥基准。
 
 
@@ -187,3 +183,8 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)先付正解析母全部n2四平移系数0；[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)现在加强16个可避局部点的4minor，在同一四约束流形取真restricted max-F及19jet minors，以r+4校正及原有限N根同付19、共同F/外区。p和Af的所有内部零均有限简单，数量不限定一对。所有最终不同母的ordered3+2对完整n2因local五次恰0；H*在同一个实际圆的wholeE及所有packet totals核中而λ1。故原正字符不能通过此有限真实评价因子化；这只给signed核见证，不授实际负路径、全period或同g有限族。
 
 下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
+
+
+### R413共同Q4已付，唯一剩余为完整低层的同乘子正性
+
+[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从R411起点保D−E>0；共同Q4的−4头准确为rank(d,e)−1，逐母正差不够。从起点同D/E才得仅−2的四链；所有不交ordered3+2对Q4局部五次为零。结合负两权E=R，−6/−4字符杀完整A/H/Q4；原R140全路径正性遂iff同一唯一μ下静态标量≥0且速度二次矩阵逐态PSD，μ由原cocycle/8非零分母固定。继续F0/三个Q2含N0/N2/Γ/真尾，不把旧pure列当已存mixed根或宣布实际全joint。R414另付真正共同高商，R415接低层。
