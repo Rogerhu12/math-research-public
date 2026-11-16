@@ -1,0 +1,363 @@
+{
+  "schema": "R578-actual98-three-scalar-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_actual98_three_scalar_live128_source_views.py",
+    "bytes": 25191,
+    "sha256": "f6575d9b113224d839c1d49acd8e12b748622e2372159aacbcb1f2ba0cbd7790"
+  },
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-named-necessary-original-full112-FD-fullDN-request.json",
+      "bytes": 98952,
+      "sha256": "5c48bf2add2def97a6f1d86dc85d6159822e035ce50d61ca42e2179dc3a924b0"
+    },
+    "request_number": 246,
+    "request_schema": "public-live128-named-necessary-original-full112-FD-fullDN-request-v1",
+    "source_generator": {
+      "file": "root_20261116_live128_named_necessary_source_views.py",
+      "bytes": 26794,
+      "sha256": "80e74595d24b0aa8d1de2a95ec77cfe0d37e25288d36f277718c66149edbed0a"
+    },
+    "source_plan": {
+      "file": "notes/r589-live128-named-necessary-complete-source-plan.json",
+      "bytes": 20112,
+      "sha256": "e615b290d30f00867cb106906548491b84b7a02e7ba3f260a96cc261b9e352a9"
+    },
+    "preparation_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1",
+    "necessary_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1-necessary-v1",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_actual98_three_scalar_initial_guess.py",
+      "bytes": 19843,
+      "sha256": "71047ad5513594449011ab708da76fff51acd29577d373032bef6086ecce1ef9"
+    },
+    {
+      "file": "root_20261115_read_existing98_scalar_summary.py",
+      "bytes": 28252,
+      "sha256": "e2e8ec32c30bbc9ff0e77709524ff09f100f0ff5f4decd23c43b6445562b7484"
+    }
+  ],
+  "counts": {
+    "parent_complete_sources": 451,
+    "parent_public_sources": 362,
+    "parent_generated_sources": 89,
+    "new_public_sources": 3,
+    "new_generated_views": 3,
+    "complete_sources": 457,
+    "public_sources": 365,
+    "generated_sources": 92
+  },
+  "roles": {
+    "fulldn": {
+      "file": "geometry_20261116_actual98_three_scalar_live128_original_full_dn.py",
+      "bytes": 47779,
+      "sha256": "bd509a2c157948525f9665ade0fc0332eb2a5f5b20c2afa5193de2b1afcc3335"
+    },
+    "runner": {
+      "file": "geometry_20261116_actual98_three_scalar_live128_owned_run.py",
+      "bytes": 40009,
+      "sha256": "34a6e4da2c00319ad50008148f3db7d6b559cdba4b39e86a4d1153a98da3e958"
+    },
+    "reader": {
+      "file": "root_20261116_actual98_three_scalar_live128_necessary.py",
+      "bytes": 68491,
+      "sha256": "68be73bde230ce09c0c02efbf5080ece8a2233d62da3e1b7b86445dca7fb80a0"
+    }
+  },
+  "views": [
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+        "bytes": 46439,
+        "sha256": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63"
+      },
+      "patches": [
+        {
+          "id": "new-entry-scope",
+          "before": "\"\"\"R573 actual63 prefix to synthesis-product-owner128/current64 model, original FD/fullDN.\n\nThe original actual63 complete prefix warm remains unaccepted. Actual91's\nfailed native state is only the independently declared first tail guess.\nThere is no completed61 bootstrap, no old accepted native cache, and no\ncontinuous-C substitution. Every uncached current H uses new original64\ncapture/R273 and its complete same-call128 owner/components/explicit RN64.\nAll original7ba prefix/FD/fullDN mathematical functions and gates remain.\n\"\"\"",
+          "after": "\"\"\"R578: actual98 prefix and three returned scalar parameters as a fresh guess.\n\nThe complete original98 warm/status are unaccepted source inputs. Copy the\n338 physical and112 core guess columns, put the three explicit parameter\nvalues in every control row, reevaluate the unchanged full augmented RHS,\nand form current112 H. The new saved guess, its fresh FD and original fullDN\nshare one actual file identity. No old228 field, RHS, H, J, response or cache\nis imported. Actual91 remains only the declared initial tail guess.\nThe current R573 owner128/value and explicit64-model mathematics, full\nnative gates, original FD and fullDN including final audit are unchanged.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "id": "new-source-schema",
+          "before": "SCHEMA = \"R573-live128-root-synthesis-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "after": "SCHEMA = \"R578-actual98-three-scalar-initial-guess-current-H-original-fullDN-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-scalar-formula-import",
+          "before": "from geometry_20261114_lifted_modes_profile import LiftedModesPrefixProfile, field_spec",
+          "after": "from geometry_20261114_lifted_modes_profile import LiftedModesPrefixProfile, field_spec, scalar_spec\nimport geometry_20261116_actual98_three_scalar_initial_guess as initial_guess",
+          "count": 1
+        },
+        {
+          "id": "helper-real-source-binding",
+          "before": "SOURCE_PINS = {\n",
+          "after": "SOURCE_PINS = {\n    \"geometry_20261116_actual98_three_scalar_initial_guess.py\": \"71047ad5513594449011ab708da76fff51acd29577d373032bef6086ecce1ef9\",\n",
+          "count": 1
+        },
+        {
+          "id": "old-H-not-current",
+          "before": "    height = vector(original.true_height(boundary, states[-1]), (M,), \"actual unquantized current native H\")",
+          "after": "    # This original input is only a guess. Current H is formed only after\n    # all three new parameter rows and the fresh full RHS have been installed.\n    height = None",
+          "count": 1
+        },
+        {
+          "id": "FD-current-initial-file",
+          "before": "accepted_sha256=sha(args.accepted), prepared_sha256=sha(args.warm),",
+          "after": "accepted_sha256=sha(args.accepted), prepared_sha256=sha(context[\"actual_solver_warm_path\"]),\n        original_prefix_warm_sha256=sha(args.warm),\n        current_seeded_initial_guess=receipt(context[\"actual_solver_warm_path\"]),\n        actual_scalar_initialization=receipt(output.parent / \"parameter-initialization\" / \"initialization.json\"),",
+          "count": 1
+        },
+        {
+          "id": "original-fullDN-actual-warm",
+          "before": "    options = dict(accepted=args.accepted, port=args.port, warm=args.warm,",
+          "after": "    options = dict(accepted=args.accepted, port=args.port, warm=context[\"actual_solver_warm_path\"],",
+          "count": 1
+        },
+        {
+          "id": "actual-seed-file-cli",
+          "before": "                 \"live128-policy\", \"out\", \"work\"):",
+          "after": "                 \"live128-policy\", \"initial-scalar-seed\", \"out\", \"work\"):",
+          "count": 1
+        },
+        {
+          "id": "actual-seed-sha-cli",
+          "before": "    for name in (\"warm-sha256\", \"warm-status-sha256\", \"live128-policy-sha256\"):",
+          "after": "    for name in (\"warm-sha256\", \"warm-status-sha256\", \"live128-policy-sha256\",\n                 \"initial-scalar-seed-sha256\"):",
+          "count": 1
+        },
+        {
+          "id": "fresh-initialization-before-any-native",
+          "before": "        context = build_context(args)\n        inputs = {name: receipt(getattr(args, name)) for name in\n            (\"accepted\", \"warm\", \"warm_status\", \"port\", \"tail_config\", \"live128_policy\")}",
+          "after": "        context = build_context(args)\n        state[\"phase\"] = \"new-three-scalar-initial-guess-and-original-RHS\"\n        write(output / \"orchestration-status.json\", state)\n        context = initial_guess.rebuild_initial_guess(args, context,\n            output / \"parameter-initialization\", original.read, write,\n            array_identity, scalar_spec, original.true_height)\n        inputs = {name: receipt(getattr(args, name)) for name in\n            (\"accepted\", \"warm\", \"warm_status\", \"port\", \"tail_config\",\n             \"live128_policy\", \"initial_scalar_seed\")}\n        inputs[\"actual_solver_warm\"] = receipt(context[\"actual_solver_warm_path\"])\n        state[\"actual_scalar_initialization\"] = receipt(\n            output / \"parameter-initialization\" / \"initialization.json\")",
+          "count": 1
+        },
+        {
+          "id": "current-source-final-event",
+          "before": "event=\"R573_live128_synthesis_product_projected_model_original_full_DN_orchestration_return\"",
+          "after": "event=\"R578_actual98_three_scalar_current_H_original_full_DN_orchestration_return\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_actual98_three_scalar_live128_original_full_dn.py",
+        "bytes": 47779,
+        "sha256": "bd509a2c157948525f9665ade0fc0332eb2a5f5b20c2afa5193de2b1afcc3335"
+      }
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_named_necessary_owned_run.py",
+        "bytes": 39330,
+        "sha256": "457a1ca8f575f2192664b0e5583b0bb3672d3b4dce4c6d56ec0e17844dc6b3a6"
+      },
+      "patches": [
+        {
+          "id": "entry-role",
+          "before": "ENTRY = \"geometry_20261116_live128_synthesis_product_projected_original_full_dn.py\"\nENTRY_SHA = \"721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63\"",
+          "after": "ENTRY = \"geometry_20261116_actual98_three_scalar_live128_original_full_dn.py\"\nENTRY_SHA = \"bd509a2c157948525f9665ade0fc0332eb2a5f5b20c2afa5193de2b1afcc3335\"\nPREFIX_INITIALIZER = \"geometry_20261116_actual98_three_scalar_initial_guess.py\"\nPREFIX_INITIALIZER_SHA = \"71047ad5513594449011ab708da76fff51acd29577d373032bef6086ecce1ef9\"",
+          "count": 1
+        },
+        {
+          "id": "runner-schema",
+          "before": "SCHEMA = \"R589-live128-named-necessary-original-full112-owned-procedure-v1\"",
+          "after": "SCHEMA = \"R578-actual98-three-scalar-original-full112-owned-procedure-v1\"",
+          "count": 1
+        },
+        {
+          "id": "request-schema",
+          "before": "REQUEST_SCHEMA = \"public-live128-named-necessary-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA = \"public-actual98-three-scalar-initial-guess-live128-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "namespace",
+          "before": "NAMESPACE = \"visible-live128-named-necessary246\"",
+          "after": "NAMESPACE = \"visible-actual98-three-scalar-live128-fullDN242\"",
+          "count": 1
+        },
+        {
+          "id": "namespaced-metadata-events",
+          "before": "request246",
+          "after": "request242",
+          "count": 9
+        },
+        {
+          "id": "request-number",
+          "before": "request[\"request_number\"]==246",
+          "after": "request[\"request_number\"]==242",
+          "count": 2
+        },
+        {
+          "id": "reader-schema",
+          "before": "summary.get(\"schema\")==\"R589-live128-named-necessary-original-full112-necessary-v1\"",
+          "after": "summary.get(\"schema\")==\"R578-actual98-three-scalar-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "module-tag",
+          "before": "\"_R589_\"+role",
+          "after": "\"_R578_\"+role",
+          "count": 1
+        },
+        {
+          "id": "doc",
+          "before": "\"\"\"Request246: current-owner projected64 linear model with original128 values and full-DN gates.\n\nOnly this public Actions job may restore inputs or execute the unchanged\noriginal full-DN consumer. There is one 19200-second scientific clock.\nEvery numerical file stays in the one temporary namespace until complete\nnecessary readback and independently observed process quiescence.\n\"\"\"",
+          "after": "\"\"\"Request242: original98 prefix and three scalar parameters as a new guess.\n\nThe current R573 native mathematics and original complete fullDN/FD gates\nare retained. Original63 inputs remain source ancestry, not a substituted\nprefix. Actual98 whole-archive byte transport supplies the original pair;\nonly the three explicitly returned parameters initialize a new field.\nThere is one19200-second science clock, including new RHS/H formation.\nTemporary inputs and fields stay until complete necessary readback and\nindependently observed process quiescence.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "id": "actual98-original-inputs",
+          "before": "        for key,row in request[\"original_inputs\"].items():\n            target=inputs/row[\"runtime_basename\"]\n            report[\"original_inputs\"][key]=exact_git_input(repo,row,target,transport)\n        status_transport=inputs/request[\"original_inputs\"][\"warm_status\"][\"runtime_basename\"]\n        stored=status_transport.read_bytes()\n        status_raw=gzip.decompress(stored) if stored[:2]==b\"\\x1f\\x8b\" else stored\n        expected=request[\"actual63\"][\"decoded_status\"]\n        require(len(status_raw)==expected[\"bytes\"]\n                and hashlib.sha256(status_raw).hexdigest()==expected[\"sha256\"],\n                \"Actual63 original decoded status bytes, without reserialization\")\n        status=inputs/\"actual63-driver-status.json\"\n        with status.open(\"xb\") as stream:\n            stream.write(status_raw)\n        warm_path=inputs/request[\"original_inputs\"][\"warm\"][\"runtime_basename\"]\n        warm=read(warm_path)\n        producer=warm[\"optimization_warm\"][\"source_sha256\"]\n        require(isinstance(producer,dict) and producer,\"Actual63 complete producer source ledger\")\n        report[\"actual63_producer_sources\"]={}\n        for name,digest in producer.items():\n            require(request[\"source_sha256\"].get(name)==digest,\n                    \"Actual63 producer is explicitly in the new source closure: \"+name)\n            checked_source(name,digest)\n            report[\"actual63_producer_sources\"][name]=digest\n        # This is an explicitly new transport file containing the actual saved\n        # warm's complete original port object. It is not an old port-file SHA.\n        port=inputs/\"actual63-original-port-object.json\"\n        write(port,warm[\"complete_scalar_profile\"][\"complete_original_port\"])\n        report[\"original_port_object\"]=dict(actual=receipt(port),source=receipt(warm_path),\n            source_JSON_pointer=\"/complete_scalar_profile/complete_original_port\",\n            complete_JSON_object_preserved=True,original_port_file_bytes_claimed=False)\n        report[\"decoded_status\"]=dict(actual=receipt(status),transport=receipt(status_transport),\n            original_JSON_reserialized=False)\n",
+          "after": "        # The two actual63 prefix members are retained declarations only.\n        # Four other original input files remain actual inputs to this run.\n        report[\"retained_actual63_input_ancestry\"]={key:request[\"original_inputs\"][key]\n            for key in (\"warm\",\"warm_status\")}\n        for key,row in request[\"original_inputs\"].items():\n            if key in (\"warm\",\"warm_status\"):\n                continue\n            target=inputs/row[\"runtime_basename\"]\n            report[\"original_inputs\"][key]=exact_git_input(repo,row,target,transport)\n        prefix=load_source(PREFIX_INITIALIZER,PREFIX_INITIALIZER_SHA,\"actual98_prefix_input\")\n        report[\"phase\"]=\"restore-complete-actual98-prefix-input\"\n        write(base/\"preparation.json\",report,replace=True)\n        record=prefix.restore_prefix(request[\"actual98_prefix_input\"],base/\"actual98-prefix\",\n            read,lambda path,value:write(path,value,replace=True),request[\"source_sha256\"])\n        actual=record[\"exact_current_prefix_inputs\"]\n        warm_path=Path(actual[\"warm\"][\"file\"])\n        status=Path(actual[\"warm_status\"][\"file\"])\n        port=Path(actual[\"port\"][\"file\"])\n        report[\"actual98_prefix_input\"]=receipt(base/\"actual98-prefix\"/\"input-receipt.json\")\n        report[\"actual98_producer_sources\"]=record[\"actual_producer_sources\"]\n        report[\"original_port_object\"]=record[\"port_transport\"]\n        report[\"decoded_status\"]=dict(actual=receipt(status),\n            original_JSON_reserialized=False,original98_member_already_plain_JSON=True)\n        seed=base/\"initial-scalar-seed.json\"\n        write(seed,request[\"initial_scalar_seed\"])\n        report[\"initial_scalar_seed\"]=receipt(seed)\n        report[\"initial_scalar_seed_is_not_a_complete_parent_field\"]=True\n",
+          "count": 1
+        },
+        {
+          "id": "actual-prefix-scope",
+          "before": "actual91_is_only_initial_tail_guess=True,actual63_is_only_initial_prefix_warm=True,",
+          "after": "actual91_is_only_initial_tail_guess=True,actual98_is_only_initial_prefix_warm=True,\n            actual63_original_prefix_inputs_are_retained_ancestry_only=True,\n            actual228_only_three_parameters_supplied_no_field_imported=True,",
+          "count": 1
+        },
+        {
+          "id": "new-input-command",
+          "before": "        \"--out\",str(base/\"science\"),\"--work\",str(base/\"prefix-work\")]",
+          "after": "        \"--out\",str(base/\"science\"),\"--work\",str(base/\"prefix-work\"),\n        \"--initial-scalar-seed\",preparation[\"initial_scalar_seed\"][\"file\"],\n        \"--initial-scalar-seed-sha256\",preparation[\"initial_scalar_seed\"][\"sha256\"]]",
+          "count": 1
+        },
+        {
+          "id": "policy-current-initial-source",
+          "before": "        resources=request[\"live_call_resources\"],retain_optional_tangent_predictor=True)",
+          "after": "        resources=request[\"live_call_resources\"],retain_optional_tangent_predictor=True,\n        actual_outer_request=receipt(request_path),actual_request_number=242,\n        native_arithmetic_policy_source=\"R573 unchanged current owner128 and explicit64 model\",\n        current_initial_prefix=preparation[\"actual98_prefix_input\"],\n        explicit_three_scalar_initial_guess=preparation[\"initial_scalar_seed\"],\n        prior_actual228_native_or_field_imported=False)",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_actual98_three_scalar_live128_owned_run.py",
+        "bytes": 40009,
+        "sha256": "34a6e4da2c00319ad50008148f3db7d6b559cdba4b39e86a4d1153a98da3e958"
+      }
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_named_necessary.py",
+        "bytes": 65528,
+        "sha256": "e210adeaa8925ffa3daa5e2287808098f6be3ad553c398914341fc96714357eb"
+      },
+      "patches": [
+        {
+          "id": "current-reader-schema",
+          "before": "SCHEMA=\"R589-live128-named-necessary-original-full112-necessary-v1\"",
+          "after": "SCHEMA=\"R578-actual98-three-scalar-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "current-request-schema",
+          "before": "REQUEST_SCHEMA=\"public-live128-named-necessary-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA=\"public-actual98-three-scalar-initial-guess-live128-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "current-namespace",
+          "before": "NAMESPACE=\"visible-live128-named-necessary246\"",
+          "after": "NAMESPACE=\"visible-actual98-three-scalar-live128-fullDN242\"",
+          "count": 1
+        },
+        {
+          "id": "current-runtime",
+          "before": "RUNTIME=\"geometry_20261116_live128_named_necessary_owned_run.py\"\nRUNTIME_SHA=\"457a1ca8f575f2192664b0e5583b0bb3672d3b4dce4c6d56ec0e17844dc6b3a6\"",
+          "after": "RUNTIME=\"geometry_20261116_actual98_three_scalar_live128_owned_run.py\"\nRUNTIME_SHA=\"34a6e4da2c00319ad50008148f3db7d6b559cdba4b39e86a4d1153a98da3e958\"",
+          "count": 1
+        },
+        {
+          "id": "request-number-guards",
+          "before": "request[\"request_number\"]==246",
+          "after": "request[\"request_number\"]==242",
+          "count": 1
+        },
+        {
+          "id": "current-number-fields",
+          "before": "request_number=246",
+          "after": "request_number=242",
+          "count": 3
+        },
+        {
+          "id": "current-transport-names",
+          "before": "request246",
+          "after": "request242",
+          "count": 3
+        },
+        {
+          "id": "current-doc",
+          "before": "Request246 readback",
+          "after": "Request242 readback",
+          "count": 1
+        },
+        {
+          "id": "current-frame",
+          "before": "REQUEST246_NAMED_NECESSARY_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "after": "REQUEST242_ACTUAL98_THREE_SCALAR_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "id": "current-runtime-import",
+          "before": "spec_from_file_location(\"_R589_necessary_runtime\",HERE/RUNTIME)",
+          "after": "spec_from_file_location(\"_R578_necessary_runtime\",HERE/RUNTIME)",
+          "count": 1
+        },
+        {
+          "id": "explicit-source-initialization",
+          "before": "        R589_source_composition=request.get(\"R589_source_composition\"),",
+          "after": "        inherited_R589_source_composition=request.get(\"R589_source_composition\"),\n        R578_initialization=request.get(\"R578_initialization\"),",
+          "count": 1
+        },
+        {
+          "id": "actual98-and-fresh-scalar-initialization-necessary",
+          "before": "    execution=reader.get(base/\"execution.json\",\"execution\")",
+          "after": "    original98=reader.get(base/\"actual98-prefix\"/\"input-receipt.json\",\"actual98-original-input\")\n    if original98 is not None:\n        answer[\"actual98_original_input\"]=keep(original98,(\"schema\",\"run\",\"source\",\"complete\",\n            \"phase\",\"error\",\"archive\",\"selected_members\",\"scientific_evaluation_performed\",\n            \"original_member_bytes_not_reserialized\",\"prior_actual228_payload_not_consumed\",\n            \"original63_input_ancestry_not_relabelled_as_actual98\",\n            \"current_prefix_acceptance_not_inherited\",\"archive_removed\",\n            \"original_archive_entry_count\",\"port_transport\",\"exact_current_prefix_inputs\",\n            \"genuine_prefix_source\",\"complete_current_field_or_native_acceptance\",\n            \"original_producer_source_map_identity\",\"pending_original_producer_sources\"))\n        metadata=original98.get(\"artifact_metadata\")\n        if isinstance(metadata,dict):\n            answer[\"actual98_original_input\"][\"official_artifact\"]=keep(metadata,\n                (\"id\",\"name\",\"size_in_bytes\",\"expired\",\"created_at\",\"updated_at\",\n                 \"expires_at\",\"workflow_run\"))\n        answer[\"actual98_original_input\"][\"verified_producer_source_count\"]=len(\n            original98.get(\"actual_producer_sources\",{}))\n        answer[\"actual98_original_input\"][\"declaration_in_current_request\"]={\n            \"actual_request\":receipt(request_path),\"JSON_pointer\":\"/actual98_prefix_input\"}\n    initialization=reader.get(base/\"science\"/\"parameter-initialization\"/\"initialization.json\",\n        \"actual-three-scalar-initialization\")\n    if initialization is not None:\n        # The new helper writes only these necessary metadata, three values,\n        # source identities and true phase/error facts. No saved array/profile\n        # payload is nested here; the original complete files remain temporary.\n        answer[\"actual_three_scalar_initialization\"]=initialization\n    execution=reader.get(base/\"execution.json\",\"execution\")",
+          "count": 1
+        },
+        {
+          "id": "current-preparation-fields",
+          "before": "            \"actual91_is_only_initial_tail_guess\",\"actual63_is_only_initial_prefix_warm\",\n            \"no_completed61_parent_or_old_native_cache\",\"actual_readme_blobs\"))",
+          "after": "            \"actual91_is_only_initial_tail_guess\",\"actual63_is_only_initial_prefix_warm\",\n            \"actual98_is_only_initial_prefix_warm\",\"actual98_prefix_input\",\"initial_scalar_seed\",\n            \"initial_scalar_seed_is_not_a_complete_parent_field\",\n            \"actual63_original_prefix_inputs_are_retained_ancestry_only\",\n            \"actual228_only_three_parameters_supplied_no_field_imported\",\n            \"retained_actual63_input_ancestry\",\n            \"no_completed61_parent_or_old_native_cache\",\"actual_readme_blobs\"))",
+          "count": 1
+        },
+        {
+          "id": "initialization-actual-unstarted-scopes",
+          "before": "    answer[\"unstarted_or_unreturned_scope\"]=dict(\n        current_H_anchor_not_returned=not (status or {}).get(\"actual_anchor\"),",
+          "after": "    answer[\"unstarted_or_unreturned_scope\"]=dict(\n        original98_inputs_not_completely_returned=(original98 or {}).get(\"complete\") is not True,\n        new_parameter_initialization_not_returned=(initialization or {}).get(\"complete\") is not True,\n        fresh_original_augmented_RHS_not_returned=(initialization or {}).get(\"original_RHS_returned\") is not True,\n        new_initial_H_not_returned=(initialization or {}).get(\"original_height_returned\") is not True,\n        current_H_anchor_not_returned=not (status or {}).get(\"actual_anchor\"),",
+          "count": 1
+        },
+        {
+          "id": "original63-source-count-is-ancestry",
+          "before": "        answer[\"preparation\"][\"actual63_producer_source_count\"]=len(preparation.get(\"actual63_producer_sources\",{}))",
+          "after": "        answer[\"preparation\"][\"retained_actual63_source_count_scope\"]=\"The original63 prefix pair is ancestry only; it is not restored or represented as the current prefix\"\n        answer[\"preparation\"][\"actual98_producer_source_count\"]=len(preparation.get(\"actual98_producer_sources\",{}))",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_actual98_three_scalar_live128_necessary.py",
+        "bytes": 68491,
+        "sha256": "68be73bde230ce09c0c02efbf5080ece8a2233d62da3e1b7b86445dca7fb80a0"
+      }
+    }
+  ],
+  "source_scope": {
+    "all_original451_pins_retained": true,
+    "new_actual98_initialization_only": true,
+    "actual128_and_projected64_native_math_unchanged": true,
+    "all_original_FD_fullDN_gates_and_full_338_rows_preserved": true,
+    "original_R588_complete_source_and_RootStats_relations_retained": true,
+    "new_scientific_clock": false,
+    "generated_views_are_source_text_not_scientific_output": true,
+    "local_scientific_import_AST_compile_or_test_performed": false
+  }
+}
