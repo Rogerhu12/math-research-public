@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：dc63f11031d61f9ef846efc6f4e90fac814d141c；2026-11-16 10:35:31 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:29:26 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
+- 最近已读规则提交：bd4a01c68f0919d9783f8ae5db0d19f15c9114f8；2026-11-16 10:37:15 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:29:26 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -43,5 +43,6 @@ R861/R865原a*=−34C_H对齐、完整gflat及参考恢复3H[w4]BW3保，L1=q2/3
 ## 其它原门与同步
 
 R834/836单位块、R837三长/两长和自然47/12的q1/2缺口保；旧47/8须真第三长，HN为9κ−3χ−12b。R840同Kcorr/Hcorr两高前缀、第三3η/第四短行、末同cF³仍未全付；disc²读所有分支。R842 WT上[b0]=−BD−Pr未知，全部negative/moving/十九角/同P保。
+[原全CM文献门](notes/2026-11-16-original-cm-diagonal-euler-system-big-image-scope.md)已核：ACR四维big image和Castella–Do非CM秩一应用均不适用原输入；类构造不否定，原AJ仍须实付。
 O4/O6/O7、R364/R561/R654/R712及全部旧open未闭；有限p、复秩1、局部unit、条件height或别cycle不完成；AST/strict/fine不替通常全Selmer。
 10:34:48实际CI pull成功，run43850106584/job133240146686/headdc63f110，两README差异空且blob一致；下一11:20前。坐标run43835679463/job133191600105继续，尚未认证；R878原第一F已付同B867的η12-sign/真实w4零平移：8ΔC³=H B²(A²−17ΔB²)²，全末端612(k+6)。独立run43839815472已启k2/4（同M2乘积基），不预设Manin1；实际两映射和shadow仍未认证。

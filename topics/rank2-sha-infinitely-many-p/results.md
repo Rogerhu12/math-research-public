@@ -134,3 +134,6 @@
 
 
 - [R880附录B](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：同原差映射A−φ_rB的源R特征为ω/ω²，整数degree极化与1+ω+ω²=0严格迫交叉项0。每一a/b/σ的真实degree=2256(r+1)，r29为67680、r41为94752；完整pullback[O]=x差图极除子/2，极重均偶、闭点度/∞/分母取消全部保。此给实际求交总次数门，未当作已计算点值或shadow非零。
+
+
+- [原全CM与对角Euler-system适用范围](notes/2026-11-16-original-cm-diagonal-euler-system-big-image-scope.md)：亲读ACR Theorem B/(HW)/(HS)及Castella–Do v2 Theorem B/§4.3。原同K的两CM输入在G_K上拆四角色，饱和线格使任意整格剩余亦非绝对不可约；拆成二维后剩余f仍CM。两现成秩一定理不能直接付原AJ/全Selmer门，类构造与另立单线论证保留。

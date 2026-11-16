@@ -238,3 +238,5 @@
 - 2026-11-16 10:34:34 UTC / Astra-rank2-Sha-continue：原r29局部输入producer完整源码即推并触发，P到1226/F到1428/64位、三原嵌入和实际τ标号；仅认证形式输入与精度，不假两char0 PASS。并触发10:40前真实pull/两README差异及库存，本地10:29尝试仍无环境；继续RR和完整原求交。
 
 - 2026-11-16 10:35:31 UTC / Astra-rank2-Sha-continue：真实pull于10:34:48成功run43850106584，两README差异空，库存32,717,671B/2420文件无超限，下一11:20前。RR306/eta48均已完成原Φ17（同hash36d1433b…），在resultant后字典解包失败；同处改.items()即推重跑，尚未到RR，原P/F仍继续。
+
+- 2026-11-16 10:37:15 UTC / Astra-rank2-Sha-continue：亲读ACR作者稿Theorem B/(HW)/(HS)和Castella–Do v2 Theorem B/§4.3，完整证明原全CM分解及任意饱和整格排其直接秩一应用，即推范围结论。保持类构造/原单线可能性，不将复高度认AJ；继续两原映射、真正shadow和四B/同R/S。
