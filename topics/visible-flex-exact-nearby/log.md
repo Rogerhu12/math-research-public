@@ -300,3 +300,7 @@ WPC92f5e51a /16086B /2bc45c4c全文root读并核输入4/3输出−2/3留下n5/3�
 ## 2026-11-16 05:35:38 UTC — WCE同物理系数误差完整新recipe独推
 
 WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真实Xfr mean0、Ecoeff仅经P_h等于E0的正确式，兩完整rank后才限域、P_h真norm和保留(h−1)ρi。原TF后两I/FJ、S左右各一次，SEI实际ci/BesselH2/已算CI_B及WT同Js整RN在S0=0时付A2均完整；Newton/Tail亲回四actual/原IC/TN/WT source表核17原球+3资格。两同Dalg whole候选分别保，不与CG系数单界混选；新source由Newton/Phase合一，尚无新SCI/运行，README核94fe0093eb52b319742923bb159d460323a4fb7b两blob不变。 H仅凝缩已有WGT/WUB/WUE索引，完整原式/范围/义务在各proof与open保；未删任何门。
+
+## 2026-11-16 05:48:08 UTC — 单一phase24派生失败报告窄白名单
+
+已审并先推9647B白名单：仅458499B浮点report，完整54 mixed rows/N正/非特征跨零失败与原note/producer/manifest及历史NPZ恢复链不改；无大body读取/无科学执行。fresh两README核c882eff07f406325f5e433eb187c5fef788c6e88不变，随后仅fresh metadata guard普通删除。
