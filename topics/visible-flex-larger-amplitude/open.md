@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R570/request239](results/R570-actual-same-call-cubic-current-field-and-complete-source-chain.md)/[接口](notes/2026-11-16-request239-same-call-cubic-complete-chain-interface.md)八件完整刊**：618源/11层、原557全保、56真实view；三原driver同次PPoly/九数组全成员、同CP与真实675/target、原全DFS旁诊断、三phase完整正常/recovery及总reader均接。原单worker/原接受/钟/90K70不改，R575未自动调用、无实际接受或fit承诺；刊后唯一POST，R571 geometry唯一。233已两job终态、R555按原一次日志成文。
+
 **[R552实际232](results/R552-actual232-root-reuse-and-two-incomplete-necessary-readbacks.md)**：全402source/原prepare实际完成，science/rules/outer1、quiet true、resource/external null；source169036→1818/70、science144265→1130/70，内部科学/错误全未返，cleanup removed=false。报告成功不代科学门，无父。root优先R588原R573全必要具名无损共享，R589/246/R590；原90K/70及全部unknown/error/address保，R583草稿暂保。
 
 本段压缩前全部原词保[a04e5a75固定完整§1.3](https://github.com/Rogerhu12/math-research-public/blob/a04e5a75a147fdfe273542b2126003001c62ae93/topics/visible-flex-larger-amplitude/open.md)；全部完整证明、接口、源计划及正式运行notes不减，§4–6逐字保。
