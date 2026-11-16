@@ -80,5 +80,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 
 [R925低系数/同h喷流](results/R925-original-low-normal-coefficients-and-same-label-critical-jet.md)：完整calibrated log≡id modp；char0先消N_h得到全部j≤J的(q_j/q_J)²=[(3J)!/(3j)!·(81B⁶)^(j−J)Σ_j/f_*]²。故真J32≠0 iff 原P_(h−1)(1/s)·Q′_h(0)≠0；保a_h与v(c_cal)=a_h−1−v(N_h)/2，不选共同符号、不判低项非零。下一步原低项/Legendre约束继续。
 
+[R929](results/R929-original-Legendre-auxiliary-ordinary-curve-and-central-shift.md)新证全p≥41、p5mod12：原λ=(1−1/s)/2的j2048/3曲线以d=3s twist成E*:v²=w³+6w+7；(-4,9i)真4阶，a_p≡2mod4配Hasse界迫普通。原A=P_((p−1)/2)(1/s)是单位，实际phase δ_p=(-27)^((p−1)/4)、δ²=−1且a_p=δ_p A。原h=(p+9)/2偏移恰(169A+896xA′)/105，零等价A′/A=−169/(896x)；此等式尚未排除、Q′_h(0)仍未知，不能用未移位单位冒J32非零。原模型/微分d^−1/2/两prime类边界完整保留。
+
 原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0/P1/ν/theta二挠/fullCorr/nonp/splitting继续生效。ordinary43/776bitGaussian5已排、R779 Shapiroθ同Σ/C4杯积已闭。
 
