@@ -117,3 +117,7 @@ R586八件327430B独立刊：旧234的616来源全保→626/13层，原PYPINS真
 ## 2026-11-16 15:16 UTC /root — R580同次复角解析带及完整指数尾与alias
 
 R580三件74680B独立刊：真实R575/R553同次全系数/joint正管，准确cylindrical复带/两完整向量sup、全无限尾和alias及正有理定向实现，原coverage/phase/FFT/ρ责任不减，无实际strip或run承诺。补245正式5664/43894406245/133393934544唯一POST200与真pull已读71372双README未变；R587 exact唯一。
+
+## 2026-11-16 15:29 UTC /root — R589/request246完整具名必要入口
+
+R589五件完整入口独立刊：原447→451只加helper/generator/两caller，R573数学和编译链不改；source同job原70/fullbody真读、八RootStats catalogue完整值/last/unknown同scope可逆且全candidate严格较短才用。两90K/原19200与所有门/quiet清理不减，不猜实际体积/父；唯一派246，R590 root读。两24实际审计完整，最终delta未做，R591容量释放后紧接。

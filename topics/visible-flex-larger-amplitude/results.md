@@ -89,3 +89,5 @@
 - [R586：request245真实sampler schema与完整来源生成具名关系](results/R586-current-sampler-schema-and-complete-generation-relations.md)：626/13层、旧616全保，真实预检来源修复与原必要无损较小选择，数学/资源/90K不改；实际R587另付。
 
 - [R580：同次完整复角解析带、无限Fourier尾与全部DFT alias](results/R580-complete-complex-angle-strip-and-exponential-tail-alias.md)：完整cylindrical消元/WP正带/向量sup与全部signed bins、两mean、正有理幂和；条件全覆盖、实际FFT/metric未付，薄库无新科学门。
+
+- [R589：原完整科学调用的来源与RootStats必要入口](results/R589-complete-current-source-and-root-statistics-necessary-entry.md)：451完整源/原447全保、两metadata caller，R588同scope严格较小可逆关系与旧70/false/full last原样；真实246单派，R590另付。
