@@ -243,3 +243,8 @@
 ## R439 — 实际202的十控制原停止与完整最终消费者
 
 [R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)：run43784544723/source1a757004，两job同65926B/ae541e15必要全文已读；3接受/4α，原W.00008469756→6.792856894e−20，Decimal三式/112右端原tol过。首末120FD齐，投影Arb1687叶/1244split/0未决及453圆参考域齐；binary64投影unit第三7.70654e−8未过1e−8，不能与Decimal混用。53.339689176秒非resourcepartial；125方向/15块未访，必要/错误/quiet后01:10:46真清三树。末十词553B/ba7d7fe3只供fresh初猜，finite Gauss及binary64表lift不冒准确C/native/非零闭面；全文保所有原计数/门/未访/来源。
+
+
+## R445 — 实际199的单处明确stats类型
+
+[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)：原stage b6537c6c只将literal_stats类型从BatchStats限定为simd_digit_trace128::BatchStats，新12691B/eca87efc独立源，逆替换整文件字词同；其它算法/数值/控制流与R423三调用限定保。旧歧义程序未生成可执行文件，不冒运行等价/编译通过。204须新launcher/helper/bridge/reader真实绑定新stage与编号，真91重新生成原19200完整128/replay/576×224/112/338/audit，R446待实际run。

@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 01:33:36 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1075bff599ef34347957006c98b5a6307968c35d。
+规则同步记录：2026-11-16 01:35:23 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c0387d67eebf240b1c13f2e2300fb21d79bbaad3。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。全部科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布；代理交文本/blob。PAT只瞬时CLI，禁入文件/提交/connector/回复。
 
@@ -33,11 +33,13 @@
 
 [R430实际201](results/R430-actual201-complete-ten-49-accepted-and-resource-partial.md)49接受/148α后2400资源partial，553B/6997f1f3真实末十词仅作202初猜；其末FD/Arb453未起/raw已清，完整原责任保正文与[202入口](notes/2026-11-16-request202-actual201-returned-owner-full3-continuation-interface.md)。
 
-[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)：run43784544723/source1a757004，两job同65926B/ae541e15必要全文已读；3接受/4α，原W.00008469756→6.792856894e−20，Decimal三式/112右端原tol过。首末120FD齐，投影Arb1687叶/1244split/0未决及453圆参考域齐；binary64投影unit第三7.70654e−8未过1e−8，不能与Decimal混用。53.339689176秒非resourcepartial；125方向/15块未访，必要/错误/quiet后01:10:46真清三树。末十词553B/ba7d7fe3只供fresh初猜，finite Gauss及binary64表lift不冒准确C/native/非零闭面；全文保所有原计数/门/未访/来源。
+[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)：3接受/4α后Decimal unit/112tol过，W6.792856894e−20；120FD及投影Arb/453圆参考齐，但binary64 unit第三7.70654e−8未过1e−8。53秒非partial/无native，末十词553B/ba7d7fe3只供fresh初猜；65926B/ae541e15必要全文与错误/quiet后真清三树。准确C/非零闭面责任不转移。
 
 [R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)：128首α1/原tol及226 replay同，stage仅24完整/4partial；audit576/7488查询/6943推进齐，仅C-based有限程序。112/338未起/native=false；必要/quiet后真清三树。旧192/196硬190阻与190ADL原因不得移植，199实际结果如下。
 
 [R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)：128首α1达9.68582474751023176056740816374984163e−11/226 replay同；stage.cpp:44 BatchStats歧义真编译失败，112/338未起。audit1800秒仅560/576、7305/7488query、6771advance，partial/unvisited完整保正文，不冒fullD。必要69567B/ed04510c及原3462B错误全文/quiet后01:14:49真清三树，旧raw不可借；R445/204只补类型限定后重生原全链。
+
+[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)：原stage b6537c6c只将literal_stats类型从BatchStats限定为simd_digit_trace128::BatchStats，新12691B/eca87efc独立源，逆替换整文件字词同；其它算法/数值/控制流与R423三调用限定保。旧歧义程序未生成可执行文件，不冒运行等价/编译通过。204须新launcher/helper/bridge/reader真实绑定新stage与编号，真91重新生成原19200完整128/replay/576×224/112/338/audit，R446待实际run。
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)/[200](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)真98重做完整39八对/106pins/free461仿射/原全部H、FD、17α与预算；abf42d92保全部trial/失败/末pair三参数/90KB。191八对曾进展但必要超限、末场未返，已毁raw不可借用。其余195/R411真实trace、197/R419关联θ/w、193/R400真453→450的完整门均保原接口，实际负责人见表。
 
@@ -55,7 +57,7 @@ R437（amplitude）：首个真实radial后才选H、冻结W和全marker；share
 
 R444（exact）：把197真实joint provider接连续十真实453→450，派生driver/hooks/pipeline/launcher/owner/reader六独立源；不只在workflow换sampler。原43f/3bc可保，完整双phase/lease/所有原门与钟不改；新tuple交amplitude。随后R442完整M维数派生继续；195/197/200终态责任优先。
 
-root独占203总request/workflow/闭面编排，源自193原全链并明确纳入R444/R437；尚未派发，结果R440=root。先解同provider/source/schema实际绑定，不能再照抄旧独立角/幅中点双0分支。R441（geometry）继续真实N/尾步/角加密及共同物理角拉回，完整新450和同场几何都重做，旧来源不改。R445/root准备199 BatchStats限定类型后继204，R446终态负责人待正式绑定，不预填科学成功。
+root独占203总request/workflow/闭面编排，源自193原全链并明确纳入R444/R437；尚未派发，结果R440=root。先解同provider/source/schema实际绑定，不能再照抄旧独立角/幅中点双0分支。R441（geometry）继续真实N/尾步/角加密及共同物理角拉回，完整新450和同场几何都重做，旧来源不改。R445类型源码已独立冻结；root正在编排204原完整后继，R446终态负责人待正式绑定。
 
 继续实际闭面及固定同g的全精化到README全标准，不停在接口、纸证或阶段发布。
 

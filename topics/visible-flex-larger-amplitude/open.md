@@ -24,7 +24,9 @@
 
 [R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)run43775312697/source51a38839，compute133000173495/report133030931599同69567B/ed04510c必要全文已读。128唯一α1达9.68582474751023176056740816374984163e−11，full残差/226 replay词同；stage.cpp:44未限定BatchStats实际编译歧义，3462B原错误全文保，stage科学未起，112/338依赖未起，非协议70。audit内部1800秒仅560/576、7305/7488查询、6771推进：560/561各query9后advance未返、562 query4后advance未返、563 query0读回未完、564..575未起；所有极值仅partial，fullD不是闭面D。必要/错误/quiet后01:14:49真清三树；不借已删raw，不称SIMD性能/native/fullDN接受。R445/204只补真实类型限定后重生原完整链。
 
-[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)保原84→89pins、三column_environment限定及199 reader编号；真91→fresh64/J/R273→128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800、330/350min及全阈值/算术/90KB/quiet保。R445单一类型限定不改原SIMD/digit算法/预算，不据源码推编译通过；实际204仍须新完整运行。
+[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)的原89pins/全部组件预算、完整数学及三调用限定仍保。
+
+[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)：原stage b6537c6c只将literal_stats类型从BatchStats限定为simd_digit_trace128::BatchStats，新12691B/eca87efc独立源，逆替换整文件字词同；其它算法/数值/控制流与R423三调用限定保。旧歧义程序未生成可执行文件，不冒运行等价/编译通过。204须新launcher/helper/bridge/reader真实绑定新stage与编号，真91重新生成原19200完整128/replay/576×224/112/338/audit，R446待实际run。
 
 ### 1C. 真37→38、实际独立39及原非线性域
 
