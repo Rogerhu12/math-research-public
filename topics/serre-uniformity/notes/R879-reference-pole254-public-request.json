@@ -1,0 +1,110 @@
+{
+  "result": "R879-original-reference-pole254-pencil",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R879_original_reference_pole254_function.py",
+  "core_sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33",
+  "wrapper": "R879_public_original_reference_pole254_function.py",
+  "wrapper_sha256": "2703bec3094e8050f1830dca5be02c10df504252ebef1a53f08ab796e3a8fd35",
+  "workflow": ".github/workflows/serre-R879-reference-pole254.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R879-original-reference-pole254-function-method.md",
+  "method_sha256": "7734c14b3438d91de0357f6033302029223be0f0357c28b9f120eec08d413caf",
+  "proofs": {
+    "R879": {
+      "path": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+    },
+    "R876": {
+      "path": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+      "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    }
+  },
+  "source_artifact": {
+    "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+    "run_id": "43830071469",
+    "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+    "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+    "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+    "manifest_bytes": 48387,
+    "manifest_file_count": 314,
+    "certificate": {
+      "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+      "bytes": 17961,
+      "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+    },
+    "artifact_id": 14207558653,
+    "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+    "archive_bytes": 146222980,
+    "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+    "expected_conclusion": "success",
+    "artifact_expires_at": "2026-11-17T08:19:10Z"
+  },
+  "input_pins": {
+    "source_audit": {
+      "file": "R872-source-audit.json.gz",
+      "bytes": 4948,
+      "sha256": "35adf0983784fd361e4480fef3a9af6ec91129b4f3aef7cd265a75e61c3fd1a6"
+    },
+    "point_linearization": {
+      "file": "R872-point-linearization.json.gz",
+      "bytes": 1133054,
+      "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+    },
+    "V2_jets": {
+      "file": "R872-V2-original-point-jet-matrix.json.gz",
+      "bytes": 581694,
+      "sha256": "025a29fed69d8575c757454309bad6fca3198457a967d5ed88766d83f82d2ec7"
+    },
+    "V2_point_kernel": {
+      "file": "R872-complete-V2-272P0-kernel.json.gz",
+      "bytes": 952477,
+      "sha256": "d38661144bce336cef1c43ac0b8865b4943086a597a514bde5796c57c4379ee9"
+    },
+    "anchor_u": {
+      "file": "R872-anchor-u.json.gz",
+      "bytes": 7216,
+      "sha256": "f74b130ccff9f4c1cccc8098e49b9bb315487a4b8b41627e3ba6c488b726ef97"
+    },
+    "anchor_b": {
+      "file": "R872-anchor-b-trial-000001.json.gz",
+      "bytes": 7193,
+      "sha256": "71da5ad510e62083d2b7eb314bfa2c7960c3cb779ae892d103915cdd83f2c81e"
+    },
+    "pencil_profile": {
+      "file": "R872-pencil-trial-000001-rank-profile.json.gz",
+      "bytes": 5119,
+      "sha256": "6c73ccd16d9e07893ec93713e810798e9e43fdb25dcccf0caf6d17725d58f28b"
+    },
+    "paired_kernel": {
+      "file": "R872-pencil-trial-000001-complete-fixed-chi-kernel.json.gz",
+      "bytes": 2798517,
+      "sha256": "250489e7a5a37b52527b44fee79354d7e916eb1243079ffd656d143d40398324"
+    },
+    "fixed_divisor": {
+      "file": "R872-original-fixed-chi-divisor-and-section-source.json.gz",
+      "bytes": 5175,
+      "sha256": "d5563991714939e61cbab26c93fb07d1628e0307d5f1a7057243c1d11b0256e1"
+    }
+  },
+  "budget_minutes": 30,
+  "resume": null,
+  "rules_last_read_commit": "968b553605c05ffcadb42e04268fdaa06892e38e",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "new_scope": "one563_by418_system_and291_unit_solution_for_reference_pole254_pencil",
+  "old_R872_jets_kernels_products_or_inverses_recomputed": false,
+  "old_R872_large_source_carrier_requested": false,
+  "unread_old_source_dependencies_remain_certified_external_unit_solve_leaves": true,
+  "reference128_or_five_Lj128_requested": false,
+  "nine_norms_Hecke_active_support_or_height_requested": false
+}
