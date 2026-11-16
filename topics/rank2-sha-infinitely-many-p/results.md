@@ -312,3 +312,5 @@
 - [R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：原惰性raw全Λ范数−(ℓ+1)²/ℓ；全部有限角色Gauss/旧坏位准确给根数奇偶，真τ后已发表compact BK零杀奇数新支撑。原单ℓ类准确−(ℓ+1)²/(ℓhℓ)resD1，17惯性支付同格下降和除ℓ+1，有限原AJ及Ep,ℓ全保；双新整余项两迹零、root−，尚无双因子整除或s0。
 
 - [R900 附A](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：同原split修正/三单位保留后，单惰性返回对任旧split层成立；全惰性幂集的显式整Möbius新块各部分迹零，奇数全新块由真实根数/compact BK严格0，奇数总层得min v_p(ℓ+1)整除。惰性主理想在全部原环类塔Frob恒1，准确排R891长剩余次数的这次移用；偶数新块的乘积整除仍开。
+
+- [R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：原F已结束run43839815472在1000000007给1021×852满列秩；完整M8/M2与全分母单位支付任意特征零扩张的原权8/2比值排除。若同V=eta¹²y延成亚纯权6截面，其极除子次数≥120；不混作权0函数/映射次数。k4仅84素数/2512bits/rank1116，未认证也未排除。
