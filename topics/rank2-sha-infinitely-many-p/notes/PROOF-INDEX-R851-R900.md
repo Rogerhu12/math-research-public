@@ -288,3 +288,6 @@
 
 
 - [原Tate全迹独立实现核验](2026-11-16-original-tate-trace-complete-scalar-comparison.md)：公开run43862778281/source84fd72748e36a2cbfd42201c623d0b86eb780303成功；两个r的全部底ell挠点、辅助异常、d2以及dell的独立ell²点均与完整scalar全迹相等，并另核dell底基迹零。实际基配对矩阵/全部记录hash保，原底群逐点全枚举修PARI变量冲突。只验证R883G实现，尚未计算原四个影子除子。
+
+
+- [R882附录D](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原B+的全部J极为P0+289P∞+16个简单cusp；单首一24次系数c_m的t0极仅c24至多1，有限非零分母总degree≤16，∞pole≤floor(289m/24)。故t^εc_m num≤306/den≤16，330项唯一。原u24=t、Q~u使24个全迹由J(Q(u))^j抽24倍指数，Newton只除1..24；Q单位/逆精度8000准确覆盖全部所需项。于是原24模型可直接唯一Padé恢复，不构造576/288 resultant/factor，仍保原48域/U-GCD/两RR返回，未执行替代前端。
