@@ -1,0 +1,96 @@
+{
+  "request": "true53-all-paid-finite-master-central-path-once",
+  "repository": "Rogerhu12/math-research-public",
+  "goal": "Solve the unresolved finite original-unit maximin master using all already-paid selected gradients, before any new complete-grid direction evaluation.",
+  "source": {
+    "run_id": "43811870681",
+    "job_id": "133115100791",
+    "source_commit": "42f95905deec3024dfee7a687bdc806d38c79baf",
+    "workflow": ".github/workflows/visible-true53-projected-direction.yml",
+    "log_bytes": 35105831,
+    "log_sha256": "fa7edaf1419325ce31e6926de44f8c9ebbddf1ea554d140fafef61aecbc9ceb9"
+  },
+  "source_records": {
+    "MODEL": {
+      "JSON_plus_LF_bytes": 27365833,
+      "JSON_plus_LF_sha256": "926681688d09311883c64dfa1dc40599a62d1904d7f6dbcaf478893fe14bd539"
+    },
+    "PROJECTION_RESULT": {
+      "JSON_plus_LF_bytes": 1531224,
+      "JSON_plus_LF_sha256": "1750945efef7fed6f85b31205fd3ea8504c2f7411d03bedf1b11d6a0832beae7"
+    },
+    "COMPLETE": {
+      "JSON_plus_LF_bytes": 5316472,
+      "JSON_plus_LF_sha256": "f2638d46b440afdb7336334cdc2ffe1c31b1ced18a5493e5fe39100a6daf03ba"
+    },
+    "FINAL_CLOCK": {
+      "JSON_plus_LF_bytes": 127108,
+      "JSON_plus_LF_sha256": "b513907be93a9220bfd61487b6d07e885fd6c1547554dacfa15a10079372dc53"
+    }
+  },
+  "ancestor_final_scientific_seconds": 1594.440227096,
+  "ancestor_actual_values": 128,
+  "source_model_binding_sha256": "e095e93d1455302af6904e703e762adad05d9cdef7220761c468e3ea0efca9a1",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "parameters": {
+    "policy": "same159-true53-all-paid-finite-master-central-path-v1",
+    "science_seconds": 240,
+    "maximum_iterations": 96,
+    "maximum_newton_systems": 192,
+    "finite_LP_calls": 1,
+    "gain_scale_from_original_common_radius": 0.001,
+    "original_norm_penalty_mu": 0.000001,
+    "hard_original_tolerance": 1e-7,
+    "metric_original_tolerance": 1e-9,
+    "original_selected_soft_gradient_count": 5743,
+    "original_selected_hard_row_count": 2937,
+    "additional_original_paid_gradients": 5,
+    "physical_norm_row_count": 652,
+    "outer160_bound_row_count": 320,
+    "constant_target_rows": 1,
+    "total_finite_rows": 9658,
+    "new_geometry_values": 0,
+    "new_hard_J": 0,
+    "new_JVP": 0,
+    "new_metric_gradients": 0,
+    "new_scalar_searches": 0,
+    "new_actual_trials": 0,
+    "development_or_old_independent_checks": 0,
+    "source_raw_log_reads": 1,
+    "earlier_source_log_reads": 0,
+    "source_accepted_index": 53,
+    "source_physical_state_sha256": "9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e",
+    "old_HiGHS64_cone32_projection_scopes_closed": true,
+    "all_started_failed_work_is_charged": true,
+    "numerical_primal_dual_diagnostics_not_interval_optimality_certificate": true,
+    "positive_finite_primal_requires_later_original_complete_separation_and_actual_gates": true,
+    "tolerated_dual_box_support_uses_original_bound_row_expansion": true
+  },
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    "topics/visible-flex-new-mechanism/scripts/frame_entry_body_subspace.py": "09f91a1d53c807ff58bb8862c7e7765cb21d09ca93bc0ccfc100f19ef446d022",
+    "topics/visible-flex-new-mechanism/scripts/frame_height_null_coordinates.py": "5ebfde0a3322bd119704fda517b2f15db48964fad7a3a344b1e863ec4c2f2f22",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_input.py": "194cd32f67ebba88fe61efdfe57b500210ea2a16a2c6f41a70a03976849d8020",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_audit.py": "be0d4a1a4d456d417f95da0403ba8443f74f5a0e415c65300f03971f9712e302",
+    "topics/visible-flex-new-mechanism/notes/true53-all-paid-finite-master-central-path-design-20261116.md": "5f4c6e8eeec1cc4c82bb87febd1b13475ad18dc613f2187fb89d13f9b409461a",
+    "topics/visible-flex-new-mechanism/notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md": "5af6b33ca483ff045a50557428978c4fd10bc417ee583c0f8b37467a00602ed4",
+    ".github/workflows/visible-true53-paid-master-central-path.yml": "87a74156e9f5de26f0dbd35e1801bc148c51ca865247a6c1794929ba3b69fb13",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_central_path.py": "29672cb2cd041adfce547c3fb04a679b7d4d6238f464c3af3ee6e9f061e56ae6"
+  },
+  "scientific_imports": "New input/core/audit modules, NumPy2.3.5, standard library, and the pinned standard-library original-log reader; no old research entry or backend.",
+  "publication_policy": "Only scripts, request, design, run references, hashes and human conclusions in Git. Source arrays read once from original stdout. New result is one ordinary original stdout record. No artifact, Release, cache, encoded or chunked payload.",
+  "completion_claim": false,
+  "new_python_sources": [
+    "frame_metric_true53_paid_master_central_path.py",
+    "frame_metric_true53_paid_master_input.py",
+    "frame_metric_true53_paid_master_audit.py"
+  ]
+}

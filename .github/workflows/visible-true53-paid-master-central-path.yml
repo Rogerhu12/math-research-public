@@ -1,0 +1,76 @@
+name: visible-flex all-paid finite master at true53
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-true53-paid-master-central-path.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-true53-paid-master-central-path
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-true53-paid-master-central-path.yml
+            /topics/visible-flex-new-mechanism/
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install the pinned numerical runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5
+      - name: Pull both rule sets and solve the new all-paid finite problem once
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          root=Path.cwd();topic='topics/visible-flex-new-mechanism'
+          request_path=topic+'/computations/request-true53-paid-master-central-path.json'
+          request=json.loads(Path(request_path).read_bytes())
+          source=os.environ['GITHUB_SHA']
+          sys.path.insert(0,str((root/topic/'scripts').resolve()))
+          import read_original_actions_log as reader
+          expected=request['source_sha256'][topic+'/scripts/read_original_actions_log.py']
+          reader.require(hashlib.sha256(Path(reader.__file__).read_bytes()).hexdigest()==expected,'rule reader source changed')
+          def emit(tag,value):
+              print(tag+' '+reader.encoded(value).decode('utf-8'),flush=True)
+          public=reader.actual_pull(root,request,source)
+          emit('TRUE53_PAID_MASTER_PUBLIC_PULL',public)
+          reader.require(public['passed'],'public README changed or actual pull failed; apply only its diff before science')
+          private={}
+          try:
+              reader.private_rule_pull(request,private)
+          finally:
+              emit('TRUE53_PAID_MASTER_PRIVATE_PULL',private)
+          os.environ.pop('MR_TOKEN',None)
+          reader.git_ok(root,['checkout','--detach',source])
+          for path,expected in request['source_sha256'].items():
+              reader.require(hashlib.sha256(Path(path).read_bytes()).hexdigest()==expected,'requested source changed: '+path)
+          # No old developer suite, compile gate, model rebuild or backend replay.
+          result=subprocess.run([
+              sys.executable,topic+'/scripts/frame_metric_true53_paid_master_audit.py',
+              '--request',request_path],check=False)
+          raise SystemExit(result.returncode)
+          PY

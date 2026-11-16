@@ -191,9 +191,12 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 [R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原χ5/χ6否定全partial的vertical响应覆盖；平移仅到NQ，桥2VA仅O(1)。13近1H与13小c给最小有限仿射闭包，Q0非零使旧D单独不可逆。新actual引理须同一满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，保真(H,c)放大/两次商/prototype×n/Klein基准；R465现给准确两头self门，负权满锥仍另付。
 
 
-### true53全已付有限主问题的新中心路径
+### true53全已付有限主问题首次入口已提交
 
-[设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)完整证明d=rγ与旧gain的正可逆等价、原全盒/guard重建、primal/slack/dual Newton方程和带外盒误差修正的dual上界。一次性使用原MODEL保存的5743soft/2937hard及五新gradient；这是未解的原始可行有限问题，不再跑旧40行Hildreth。拟一次有限LP、96迭代/192Newton系统/240秒，0新J/JVP/geometry/actual，所有成本另计祖先1594.440227096秒/128值。先执行并消费；正有限gain只为下一确切方向完整分离的输入，不授全网或actual。没有重新求来源模型/旧开发，全部原始门保留。
+[设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)及三新Python源码、[唯一请求](computations/request-true53-paid-master-central-path.json)已提交，首次run待回读。只读取原run43811870681的MODEL/COMPLETE/FINAL_CLOCK/PROJECTION_RESULT，保全5743soft/2937hard+5新gradient及652物理/范数/320外界/target，9658行；不重建模型/J/JVP/几何。新primal/slack/dual中心路径≤96迭代/192系统/240秒，一次LP，0旧backend/dev/actual。原tol上界也同步扩展真实bound行外盒，非outward证书。
+
+先消费唯一首次actual；若finite repaired gain正且原始门通过，立即用确切新方向继续全网分离及实际门，不冒已经全网下降。费用从祖先1594.440227096秒/128值另计，不重旧64/32/投影余额。完整新向量仅stdout，源/请求/结论入Git。
+
 
 ### R464：原九行与seed已由同一真period核支付
 
