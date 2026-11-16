@@ -264,3 +264,8 @@
 ## 2026-11-16 04:39 UTC /root — R468增量模态完整组合
 
 **已证明（限明确来源与编排条件）；尚无request209数值执行。** [R468](results/R468-same-job-incremental-mode-joint-refinement-and-display-composition.md)/[209完整接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)三源0dc290a2/96b969e5/acdea641、proof13255B/4f2b5fe7、interface28001B/c691f252经全文差异和最终文字核后刊。原205154+原20775+新增16=245已刊源，实际生成15新名视图后共260；先全核生成再绑定角色，旧文件不改。真205接受450→R456五因子2的112场→R464/R463/R462增M128四因子1，旧112 far全族/μ与实际新父分责；全新deep/grid/native/J/BVP/两mean/原末门仍付。三级同场五几何/held、新schema固定g误差及独立3/5/9帧display；不由显示或几何增加BVP前门。原18900+2700/单90KB超70/所有owner静止及八读取条件保，display保末900、measure/compare用终测余额；完整源生成/union必要范围/每帧错误与未访保持。入口另次推；无实际场、误差下降、全域几何或最终容差预付，不增无限精化/跨级C²门。
+
+
+## 2026-11-16 04:41 UTC /root — Request209完整联合细化入口
+
+[209完整接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)及R468三源/证明已刊 `8e897f9932b0266605ac1b21a62ab53ee0d67489`。本次仅新增请求36220B/aaf74021和workflow96476B/1c53b3c2触发公开Actions；原205子合同全保，245已刊来源先绑定、15实际视图生成后再接角色，真实三级父/原18900+2700/所有原门/单90KB与quiet清理不改。完整diff和最终说明已读，没有新fixture或独立科学门；实际209/R469 source/run待官方绑定，geometry唯一终态读者，不能预填父场或误差下降。 本次新增.github/workflows/visible-current-C-actual202-incremental-M-refinement209.yml供本课题计算。
