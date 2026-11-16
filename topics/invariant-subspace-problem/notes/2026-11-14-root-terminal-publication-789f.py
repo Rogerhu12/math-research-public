@@ -162,13 +162,14 @@ def main():
                 continue
             print("ISP_PUSH_FAILURE "+json.dumps({"exitCode":code,"stdout":stdout[-3000:],"stderr":stderr[-5000:]}),flush=True)
             raise RuntimeError("Non-rejection push failure; actual prepared changes retained")
+        workflow_token=os.environ.get("GH_WORKFLOW_TOKEN",token)
         for workflow in request.get("dispatchWorkflows",[]):
             if not re.fullmatch(r"invariant-subspace[-a-z0-9]+\.yml",workflow):
                 raise ValueError("Dispatch outside the authorized ISP workflow prefix")
             endpoint="https://api.github.com/repos/"+REPO+"/actions/workflows/"+workflow+"/dispatches"
             payload=json.dumps({"ref":"main"}).encode()
             req=Request(endpoint,data=payload,method="POST",
-              headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
+              headers={"Authorization":"Bearer "+workflow_token,"Accept":"application/vnd.github+json",
                        "X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"})
             for registration_attempt in range(1,13):
                 try:

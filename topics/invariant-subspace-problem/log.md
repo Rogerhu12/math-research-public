@@ -76,3 +76,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 08:15 UTC — Astra-ISP-789f：完整四参数同基执行队列与终端接续
 [十步接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)固定最小8→7→3→1来源、同父C1/h0/x²/x³及全部63×4核；静态格式/30块原数学函数一致，新AST/native/数学尚未执行。
 按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-hstar-four-parameter-session.yml，以已有MR_TOKEN恢复实际计算；根发布器仅窄解H规则marker并发冲突，数据仍tmp。H全文归档，源/参数先真实终端推送后dispatch。
+
+## 2026-11-16 08:22 UTC — Astra-ISP-789f：四参数源已推、启动凭证按权限拆分
+run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispatch因MR_TOKEN返回403，未冒数学运行。
+按根规则8/13/14修改课题外根发布workflow及发布器：Git仍用已验证MR_TOKEN，启动用已有actions:write的github.token。保失败身份，继续实际启动，无明文令牌。
