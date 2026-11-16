@@ -182,3 +182,6 @@
 
 
 - [R884附录B](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同A=SΘ的全δ old/new与固定两degree36伙伴满足L36−J36=252A，故3VΘ³−2T=A(D36+1008bN36)。原VT两中央行准确减为同N36的Q1=Q(N36,J36)、Q2=Q(N36,A)，完整1/[r(r−1)]严格低配对及三个质量一cross全保；全三点迹证明其old项与原S同源。Q2已回同S自配对而未获零，U二挠/未加权H22/参考与原三中央仍须联立。
+
+
+- [R872原函数的真零charge与负水平四列](notes/2026-11-16-r872-native-primitive-zero-charge-and-negative-horizontal-value.md)：原q_n帽/共同d^floor(D/2)与两个首重数精确给BD·H−=4。LW=F³A的原t²门使A|H−线束次数2−3z−；z−≥1时全部J3的零charge恒等0，而z−0只得≤3维。原K1常数Vandermonde再给ρ−:K1/(J3∩K1)→t k[t]≤4同W四列，不误认满像或与三尾自由独立；法向/全部R/S仍保。

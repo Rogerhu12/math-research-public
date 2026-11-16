@@ -300,3 +300,5 @@
 - 2026-11-16 11:51:51 UTC / Astra-rank2-Sha-continue：独立原Tate实现对照producer/workflow完成即推并公开执行；固定r29/41全底ell挠点、O/−U/−2U、d2及dell真正独立ell²点，逐点与完整((1−(−r)^d)/ell)P同实际嵌入核相等。仅验证已证算法实现，非原shadow输入/地图认证或无限p证据；不存点表，尚待实际结果。
 
 - 2026-11-16 11:52:24 UTC / Astra-rank2-Sha-continue：固定Tate对照的点生成循环补上len=1门，取得两独立ell²点后不继续增列；在补齐12个一般点前保准确两点数量。源码修正即推触发后续公开run，原算法/trace公式不变，实际回执继续取。
+
+- 2026-11-16 11:54:23 UTC / Astra-rank2-Sha-continue：原负水平次数4及J3真零charge完整结论即推；root核原帽/两首重数、A额外t²与3C相加，以及K1三charge常数Vandermonde。z−≥1时ρ−确降同实际余商，四列与Π尚不自由；其它同R/S/normal/conductor门不删。
