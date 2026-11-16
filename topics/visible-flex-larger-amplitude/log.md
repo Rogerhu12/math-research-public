@@ -97,3 +97,7 @@
 ## 2026-11-16 09:17:25 UTC /root — Request222官方绑定及当前检查范围
 
 [222绑定](notes/2026-11-16-request222-official-run-binding.md)正式run43837980277/source6643ea83/compute133199299786，09:14:40Z单次POST200；09:14:51metadata-view step3，不填科学。wf31200586的继承PYPINS仅查祖先220.yml，原科学/四outer/179源范围不改，冻结run不回改/不重启；217在自身caller查实际217。R511/amplitude唯一；H/open§3全文历史保6643，§4–6逐字保，223/217完整入口继续普通发布。
+
+## 2026-11-16 09:18:29 UTC /root — Request217同C精化完整入口
+
+[217接口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)34979/5c25连六执行件完整刊/dispatch，真222/derived2d1底座458＋7public＋8gen=473；首shared后一次1440/six/cut并测首场，原精化后测两真后继/比较，原全部场/材料/全域/全t责任保，不以包围收紧冒真误差降。原18900+2700贯穿/无新科学门，217自己的workflow实际路径明确；八必要与217→222→220九scope/quiet清理完整。R490/geometry唯一、run待官方；共享workflow86586B用于本题，题内新增253367B无raw/展开/diff。

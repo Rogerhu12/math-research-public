@@ -1,0 +1,541 @@
+{
+  "schema": "public-current-C-same-semantic-head-refinement217-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 217,
+  "upstream": {
+    "request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99330,
+      "sha256": "2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2"
+    },
+    "request_schema": "public-current-C-coast-base-zero-linear-gzip-incremental-M-refinement-and-displays-request-v1",
+    "request_number": 220,
+    "workflow": {
+      "file": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml",
+      "bytes": 94508,
+      "sha256": "c1cb332dc9bd9b9b2c0b94b94477152c55d4448323dbd32f6b727142ae39524f"
+    },
+    "source_commit": "3ea0620a199e08deb542eaca10b4cee2db5dd45b",
+    "owner": {
+      "file": "geometry_20261116_request220_owned_roles.py",
+      "bytes": 25670,
+      "sha256": "4afc01350bbaa239556f3b3edab6260b727e772df3b04351e357b0831149efc3",
+      "schema": "request220-zero-linear-gzip-owned-nested-role-v1"
+    },
+    "runner": {
+      "file": "geometry_20261116_request220_joint_refinement.py",
+      "bytes": 48824,
+      "sha256": "7dbc1dc3a52a812eef742e892601a539bd8908cf62179e0c68527f6a0b5af55b",
+      "schema": "request220-zero-linear-gzip-complete-refinement-evidence-displays-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request220_refinement_necessary.py",
+      "bytes": 42493,
+      "sha256": "e887a1ced3906a4975d34815c12900a2b817318c02e9354db2e23883b7309a1c",
+      "schema": "request220-zero-linear-gzip-refinement-one-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request220_sampling_refinement_composition.py",
+      "bytes": 47343,
+      "sha256": "f3e8ce8ebdfdd7df7f2ccd78da7c203f185de3f9c17403e0fb489e2f5cf18fca"
+    },
+    "namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "deadline_schema": "request205-owned-job-science-deadline-v1",
+    "refinement_directory": "refinement220",
+    "actual_origin": {
+      "kind": "actual202220",
+      "driver": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_ten_full453_frozen450.py",
+        "bytes": 34462,
+        "sha256": "b754fc536d00e90e8e18ecb1f160bb01f635b0ba2b77b2f685a942b7df942d6c",
+        "schema": "R503-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-physical-DN-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      },
+      "launcher": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_ten_full453_frozen450_launch.py",
+        "bytes": 20522,
+        "sha256": "b3ce2f2ae7b018236d5a20e1d3177d1cfc337dc698e2939539a560e474bba08f",
+        "schema": "R503-actual202-coast-base-ten-full453-frozen450-owned-process-launch-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      }
+    },
+    "original_binding_block": {
+      "heredoc": "PYPINS",
+      "bytes": 19255,
+      "sha256": "cc39da8308e718f4b755670730d855c204c0785a9ebb21b025b62868cf1b0281",
+      "source_workflow": {
+        "file": ".github/workflows/visible-current-C-coast-base-source-classification-repair222.yml",
+        "bytes": 99393,
+        "sha256": "312005867b9a144c04e2cc47afb7620de2d43b1ecb3f9f9ad2a509f8746458d3"
+      },
+      "source_scope": "Complete explicit222 repaired original220 metadata block; only the actual workflow pathname changes",
+      "original_frozen220_block": {
+        "bytes": 19255,
+        "sha256": "fa217ddf76aee2a2c71dfb8dd9efbb30248fb84a473ae0dc37e37cbf4d27e111"
+      }
+    },
+    "full457_sources_and_all_old_geometry_native_FD_final_acceptance_remain_original": true,
+    "old_run_or_raw_or_accepted_parent_not_reused": true,
+    "frozen220_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99218,
+      "sha256": "f6ca63871733d3f5e48ef3eb8d540fc137806ceb1ae74cef01af6b21e25f3aba"
+    },
+    "repair": {
+      "request": {
+        "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-source-classification-repair222-request.json",
+        "bytes": 9442,
+        "sha256": "37f0b3b767eb233d2e714a143b4055e47dfc4629f2963e046b0511e05ba63672"
+      },
+      "request_schema": "public-frozen220-source-classification-repair-request-v1",
+      "entry": {
+        "file": "root_20261116_request222_source_classification_repair.py",
+        "bytes": 28224,
+        "sha256": "20360bb001f3849b3468071b4ca6f7b4017d5aa2bb7fb476791316d1a96a432f"
+      },
+      "schema": "request222-frozen220-source-classification-repair-v1",
+      "workflow": {
+        "file": ".github/workflows/visible-current-C-coast-base-source-classification-repair222.yml",
+        "bytes": 99393,
+        "sha256": "312005867b9a144c04e2cc47afb7620de2d43b1ecb3f9f9ad2a509f8746458d3"
+      },
+      "receipt": "source-preparation222/result.json",
+      "frozen_request_copy": "source-preparation222/frozen220-request.json",
+      "working_view": "request222-runtime-metadata-workspace",
+      "environment_script": "request222-runtime-env.sh",
+      "necessary_marker": "request222-repair-readback-complete.json",
+      "necessary_marker_schema": "request222-frozen220-source-classification-repair-v1-readback-complete-v1",
+      "source_only_metadata_repair_preserves_all_four_outer_and_46_scientific_output_bytes": true,
+      "separately_bound_metadata_entry_not_counted_as_a_generated_scientific_view": true
+    },
+    "explicit222_repair_retains_original457_and_adds_one_repaired_plan": true
+  },
+  "roles": {
+    "runner": {
+      "file": "geometry_20261116_request217_same_C_refinement.py",
+      "bytes": 45394,
+      "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7",
+      "schema": "request217-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request217_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e",
+      "schema": "request217-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request217_same_C_composition.py",
+      "bytes": 30178,
+      "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f",
+      "schema": "request217-frozen220-and-same-C-source-composition-v1"
+    },
+    "head": {
+      "file": "geometry_20261116_request217_same_C_full_head.py",
+      "bytes": 42305,
+      "sha256": "061cccfe69eea8121ceac1026d3962a06b067bdf877de580d35633a40d5c1b99",
+      "schema": "request217-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST217_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "leaf": {
+      "file": "geometry_20261116_request217_same_C_leaf_target_cut.py",
+      "bytes": 35531,
+      "sha256": "d856dd587792a7954d8b2973c6f64ae10c72d2e7907f78c15434c7e4093b9c97",
+      "schema": "request217-same-C-refined-leaf-target-cut-v1"
+    },
+    "bridge": {
+      "file": "geometry_20261116_request217_same_C_metric_family.py",
+      "bytes": 12358,
+      "sha256": "380669effe0187bfee7a09aa9e6e8585292a7ed0f828a9d0ffbfa405472c4877",
+      "schema": "request217-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "tail": {
+      "file": "geometry_20261116_request217_same_C_tail_queries.py",
+      "bytes": 29686,
+      "sha256": "c5f08411bc4d051e23f7107197c395d320cfc2c6fbf230ae51d853bd7b977ba3",
+      "schema": "request217-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "metric0": {
+      "file": "geometry_20261116_request217_same_C_original112_metric.py",
+      "bytes": 57273,
+      "sha256": "ed8b07eaf0cf44913892c64dca54f2bfc2c51d662137f0ee8f3492d43fc2e776",
+      "schema": "request217-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "metric1": {
+      "file": "geometry_20261116_request217_same_C_resolution112_metric.py",
+      "bytes": 57300,
+      "sha256": "f133274cf0296083e93b9582056e84bbe1cabd5ec11b0a473033eb0380fbd987",
+      "schema": "request217-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "metric2": {
+      "file": "geometry_20261116_request217_same_C_incremental_M_metric.py",
+      "bytes": 57429,
+      "sha256": "41b6ea186be015b59f30d01f1de06f5e28e6bc455cacded0fdc9489201d7ead8",
+      "schema": "request217-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "evidence": {
+      "file": "geometry_20261116_request217_same_C_metric_evidence.py",
+      "bytes": 65311,
+      "sha256": "86477b9ee1610ed363bcd898d423552c02ca5134b4712c5f5914de6d1922cb2a",
+      "schema": "request217-fixed-target-recomputed-C-metric-evidence-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+    }
+  },
+  "additional_public_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "geometry_20261116_request217_same_C_refinement.py": {
+      "file": "geometry_20261116_request217_same_C_refinement.py",
+      "bytes": 45394,
+      "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7",
+      "schema": "request217-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request217_same_C_necessary.py": {
+      "file": "root_20261116_request217_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e",
+      "schema": "request217-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "root_20261116_request217_same_C_composition.py": {
+      "file": "root_20261116_request217_same_C_composition.py",
+      "bytes": 30178,
+      "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f",
+      "schema": "request217-frozen220-and-same-C-source-composition-v1"
+    }
+  },
+  "runtime_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "geometry_20261116_request217_same_C_refinement.py": {
+      "file": "geometry_20261116_request217_same_C_refinement.py",
+      "bytes": 45394,
+      "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7",
+      "schema": "request217-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request217_same_C_necessary.py": {
+      "file": "root_20261116_request217_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e",
+      "schema": "request217-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "root_20261116_request217_same_C_composition.py": {
+      "file": "root_20261116_request217_same_C_composition.py",
+      "bytes": 30178,
+      "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f",
+      "schema": "request217-frozen220-and-same-C-source-composition-v1"
+    },
+    "geometry_20261116_request217_same_C_full_head.py": {
+      "file": "geometry_20261116_request217_same_C_full_head.py",
+      "bytes": 42305,
+      "sha256": "061cccfe69eea8121ceac1026d3962a06b067bdf877de580d35633a40d5c1b99",
+      "schema": "request217-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST217_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "geometry_20261116_request217_same_C_leaf_target_cut.py": {
+      "file": "geometry_20261116_request217_same_C_leaf_target_cut.py",
+      "bytes": 35531,
+      "sha256": "d856dd587792a7954d8b2973c6f64ae10c72d2e7907f78c15434c7e4093b9c97",
+      "schema": "request217-same-C-refined-leaf-target-cut-v1"
+    },
+    "geometry_20261116_request217_same_C_metric_family.py": {
+      "file": "geometry_20261116_request217_same_C_metric_family.py",
+      "bytes": 12358,
+      "sha256": "380669effe0187bfee7a09aa9e6e8585292a7ed0f828a9d0ffbfa405472c4877",
+      "schema": "request217-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "geometry_20261116_request217_same_C_tail_queries.py": {
+      "file": "geometry_20261116_request217_same_C_tail_queries.py",
+      "bytes": 29686,
+      "sha256": "c5f08411bc4d051e23f7107197c395d320cfc2c6fbf230ae51d853bd7b977ba3",
+      "schema": "request217-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "geometry_20261116_request217_same_C_original112_metric.py": {
+      "file": "geometry_20261116_request217_same_C_original112_metric.py",
+      "bytes": 57273,
+      "sha256": "ed8b07eaf0cf44913892c64dca54f2bfc2c51d662137f0ee8f3492d43fc2e776",
+      "schema": "request217-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "geometry_20261116_request217_same_C_resolution112_metric.py": {
+      "file": "geometry_20261116_request217_same_C_resolution112_metric.py",
+      "bytes": 57300,
+      "sha256": "f133274cf0296083e93b9582056e84bbe1cabd5ec11b0a473033eb0380fbd987",
+      "schema": "request217-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "geometry_20261116_request217_same_C_incremental_M_metric.py": {
+      "file": "geometry_20261116_request217_same_C_incremental_M_metric.py",
+      "bytes": 57429,
+      "sha256": "41b6ea186be015b59f30d01f1de06f5e28e6bc455cacded0fdc9489201d7ead8",
+      "schema": "request217-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "geometry_20261116_request217_same_C_metric_evidence.py": {
+      "file": "geometry_20261116_request217_same_C_metric_evidence.py",
+      "bytes": 65311,
+      "sha256": "86477b9ee1610ed363bcd898d423552c02ca5134b4712c5f5914de6d1922cb2a",
+      "schema": "request217-fixed-target-recomputed-C-metric-evidence-v1",
+      "frame": "REQUEST217_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+    }
+  },
+  "source_generation": {
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/request217-complete-same-C-source-plan.json",
+      "bytes": 80964,
+      "sha256": "68c284041ccb330e4d61f66161a0799643b9fd83c90016ddcdde3d9649a4b4de"
+    },
+    "receipt": "same-C217-source-views/result.json",
+    "receipt_schema": "request217-actual-same-C-source-generation-v1",
+    "generated_sources": {
+      "geometry_20261116_request217_same_C_full_head.py": {
+        "file": "geometry_20261116_request217_same_C_full_head.py",
+        "bytes": 42305,
+        "sha256": "061cccfe69eea8121ceac1026d3962a06b067bdf877de580d35633a40d5c1b99",
+        "schema": "request217-actual220-same-C-complete-head-and-cut-refinement-v1",
+        "frame": "REQUEST217_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+      },
+      "geometry_20261116_request217_same_C_leaf_target_cut.py": {
+        "file": "geometry_20261116_request217_same_C_leaf_target_cut.py",
+        "bytes": 35531,
+        "sha256": "d856dd587792a7954d8b2973c6f64ae10c72d2e7907f78c15434c7e4093b9c97",
+        "schema": "request217-same-C-refined-leaf-target-cut-v1"
+      },
+      "geometry_20261116_request217_same_C_metric_family.py": {
+        "file": "geometry_20261116_request217_same_C_metric_family.py",
+        "bytes": 12358,
+        "sha256": "380669effe0187bfee7a09aa9e6e8585292a7ed0f828a9d0ffbfa405472c4877",
+        "schema": "request217-same-C-refined-leaf-actual220-metric-family-v1"
+      },
+      "geometry_20261116_request217_same_C_tail_queries.py": {
+        "file": "geometry_20261116_request217_same_C_tail_queries.py",
+        "bytes": 29686,
+        "sha256": "c5f08411bc4d051e23f7107197c395d320cfc2c6fbf230ae51d853bd7b977ba3",
+        "schema": "request217-same-semantic-C-recomputed-head-tail-queries-v1"
+      },
+      "geometry_20261116_request217_same_C_original112_metric.py": {
+        "file": "geometry_20261116_request217_same_C_original112_metric.py",
+        "bytes": 57273,
+        "sha256": "ed8b07eaf0cf44913892c64dca54f2bfc2c51d662137f0ee8f3492d43fc2e776",
+        "schema": "request217-same-C-original112-live-complete-metric-v1",
+        "frame": "REQUEST217_RECOMPUTED_C_ORIGINAL112_METRIC"
+      },
+      "geometry_20261116_request217_same_C_resolution112_metric.py": {
+        "file": "geometry_20261116_request217_same_C_resolution112_metric.py",
+        "bytes": 57300,
+        "sha256": "f133274cf0296083e93b9582056e84bbe1cabd5ec11b0a473033eb0380fbd987",
+        "schema": "request217-same-C-resolution112-live-complete-metric-v1",
+        "frame": "REQUEST217_RECOMPUTED_C_RESOLUTION112_METRIC"
+      },
+      "geometry_20261116_request217_same_C_incremental_M_metric.py": {
+        "file": "geometry_20261116_request217_same_C_incremental_M_metric.py",
+        "bytes": 57429,
+        "sha256": "41b6ea186be015b59f30d01f1de06f5e28e6bc455cacded0fdc9489201d7ead8",
+        "schema": "request217-same-C-incremental_M-live-complete-metric-v1",
+        "frame": "REQUEST217_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+      },
+      "geometry_20261116_request217_same_C_metric_evidence.py": {
+        "file": "geometry_20261116_request217_same_C_metric_evidence.py",
+        "bytes": 65311,
+        "sha256": "86477b9ee1610ed363bcd898d423552c02ca5134b4712c5f5914de6d1922cb2a",
+        "schema": "request217-fixed-target-recomputed-C-metric-evidence-v1",
+        "frame": "REQUEST217_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+      }
+    },
+    "all_eight_target_names_new_before_any_write": true,
+    "original_R495_and_R504_intermediate_texts_bound_before_current_registration": true,
+    "generated_sources_are_not_Git_downloads_or_pretended_preexisting_inputs": true,
+    "source_syntax_only_in_actual_Actions": true
+  },
+  "same_C_work": {
+    "head_work": {
+      "precision_bits": 384,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 112,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 100000,
+      "value_width_bits": 32,
+      "max_depth": 48,
+      "query_depth": 16,
+      "max_panels": 400000,
+      "max_query_nodes": 400000,
+      "budget_seconds": 1650
+    },
+    "head_resources": {
+      "complete_phase_budget_seconds": 1800,
+      "cut_readout_budget_seconds": 120,
+      "child_shutdown_reserve_seconds": 30,
+      "free_bytes_reserve": 2147483648
+    },
+    "child_shutdown_reserve_seconds": 30,
+    "free_bytes_resource_stop": 2147483648,
+    "terminal_measurement_and_close_reserve_seconds": 900,
+    "metric_budget_seconds": 240,
+    "comparison_budget_seconds": 120,
+    "metadata_reader_cap_seconds": 300,
+    "measurement": {
+      "budget_seconds": 300,
+      "free_bytes_reserve": 2147483648,
+      "interval_bits": 256,
+      "sqrt_bits": 128,
+      "initial_angular_depth": 2,
+      "max_depth": 20,
+      "max_cells": 100000,
+      "measurement_width_goal": "1/100000000",
+      "metric_reference_eta": "1/1000000",
+      "max_inverse_steps": 80,
+      "max_phase_query_cells": 100000
+    },
+    "c_queries": {
+      "precision_bits": 256,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 128,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 200000,
+      "value_width_bits": 80,
+      "integral_max_depth": 40,
+      "inverse_max_depth": 40,
+      "max_panels": 100000,
+      "max_nodes": 200000,
+      "budget_seconds": 900
+    },
+    "time_subdivisions": [
+      4,
+      8,
+      16
+    ],
+    "common_time_witnesses": [
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": true
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": true
+      }
+    ],
+    "all_caps_clipped_to_actual_original_deadline": true,
+    "stages_run_once_per_real_input_no_automatic_retry": true,
+    "budget_total_is_a_plan_not_a_completion_or_timing_guarantee": true
+  },
+  "execution": {
+    "job_timeout_minutes": 360,
+    "original_science_seconds": 18900,
+    "original_readback_seconds": 2700,
+    "original_clock_reset": false,
+    "first_slot": "After the genuine first shared field and its original readback; before unchanged220 refinement",
+    "successor_slot": "After the unchanged220 joint mesh/M/geometry/evidence/display role returns",
+    "new_rules_parent_uses_original_2700_second_sync_runner": true,
+    "original_metric_and_reach_pass_not_required_to_start_same_C_consumers": true,
+    "missing_first_material_B_only_leaves_common_material_measurement_unpaid": true,
+    "repair_original_clock_precedes_source_copy": true,
+    "metadata_working_view": "Explicit222 temporary copy; original checked-out request bytes stay frozen"
+  },
+  "scientific_scope": {
+    "original_full1440_ordered_head_six_primitives_and_complete_original_query_plan_recomputed": true,
+    "original_config_calibration_stored_reference_queries_proof_and_restored_source_origin_bound": true,
+    "same_accurate_C_original_all_root_family_cut_and_ten_words_unchanged": true,
+    "current_C_queries_can_remain_partial_with_complete_old_coarse_bounds_retained": true,
+    "cut_leaf_intersection_is_not_a_new_midpoint_or_field": true,
+    "entire_accepted_CP_definition_nodes_R249_background_material_and_construction_preserved": true,
+    "newly_registered_actual_field_families": [
+      "original112",
+      "resolution112",
+      "incrementalM"
+    ],
+    "complete_tail_E_values_query_the_genuine_new_head_and_preserve_original_valid_bounds": true,
+    "whole_tail_Er_Err_not_newly_claimed": true,
+    "same_field_actual_error_sup_does_not_change_when_only_enclosures_are_refined": true,
+    "operator_error_actual_lower_and_upper_separately_returned": true,
+    "full_time_transfer_uses_original_common_material_congruence_and_all_angle_coverage": true,
+    "real_nested_t_queries_not_substituted_for_all_time_theorem": true,
+    "interval_overlap_or_failed_metric_is_not_an_original_BVP_or_refinement_rejection": true,
+    "actual_450_or_error_decrease_machine_precision_or_solver_floor_not_preset": true
+  },
+  "retention": {
+    "full_scientific_temporary_raw_remains_until_original_and_new_complete_readbacks": true,
+    "each_semantically_distinct_head_metric_measurement_compare_body_limit": 90000,
+    "no_encoded_or_split_large_payload_transport": true,
+    "new_composition_frame": "REQUEST217_SAME_C_SOURCE_COMPOSITION_NECESSARY",
+    "new_combined_frame": "REQUEST217_SAME_C_COMPLETE_NECESSARY",
+    "necessary_marker_schema": "request217-complete-same-C-consumer-readback-marker-v1",
+    "necessary_marker": "same-C217-readback/readback-complete.json",
+    "original_all_readback_outcomes_and_cleanup_predicates_preserved": true,
+    "new_rule_directories_are_explicit_distinct_semantic_scopes_not_old_raw_partitions": true,
+    "original_full_reports_not_duplicated_into_job_outputs": true,
+    "report_receives_new_identity_and_step_outcomes_only": true,
+    "source_generation_failure_or_unknown_process_scope_retains_actual_raw": true,
+    "original222_repair_necessary_marker_and_cleanup_predicates_preserved": true,
+    "cleanup_order": "New217 composition/necessary/quiet; unchanged222 repair scope; unchanged220 full original cleanup",
+    "complete_repair_source_scope_frame": "REQUEST222_SOURCE_CLASSIFICATION_REPAIR_NECESSARY"
+  },
+  "workflow": ".github/workflows/visible-current-C-same-semantic-head-refinement217.yml",
+  "status": "Source contract for a new actual same-job experiment; no actual217 run or accepted field is preset",
+  "source_counts": {
+    "original205": 154,
+    "repaired_parent_additional_source_map": 125,
+    "repaired_parent_public": 279,
+    "repaired_parent_generated": 179,
+    "repaired_parent_complete": 458,
+    "additional_public": 7,
+    "additional_generated": 8,
+    "complete_public": 286,
+    "complete_generated": 187,
+    "complete_declared_union": 473,
+    "original_ancestors_retained_without_replacement": true,
+    "separately_bound_222_metadata_entry_not_a_generated_scientific_source": true
+  }
+}
