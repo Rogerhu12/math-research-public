@@ -448,7 +448,7 @@
 
 ### R150：原17式、完整参数模与尚待消去的乘子
 
-- **原精确对象与全外除子。** [外除子原证](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)以全部56原行、21单位与两单右端证明Ω=f60²，degree120。原K158Ω共同因子degree278。当前结合下述127真实系数正证，278≤degΔaff≤298、齐次≤364，μ=Rout/Ω≤20；九μh*tj有原degree≤3来源、μh*≤43，三费用8406/8411/191，max8411。旧D31既有全精度解统一费8535，固定e任意高n才升exact。
+- **原精确对象与全外除子。** [外除子原证](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)以全部56原行、21单位与两单右端证明Ω=f60²，degree120。原K158Ω共同因子degree278。当前结合下述完整首连接及127系数正证，284≤degΔaff≤298、齐次≤364，μ=Rout/Ω≤14；九μh*tj有原degree≤3来源、μh*≤37，三费用8406/8411/191，max8411。旧D31既有全精度解统一费8535，固定e任意高n才升exact。
 - **完整相对正常商。** [6012原来源presentation](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)保5100+864+48原零投影源、56core尾和rank34核。[不倒Ω投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)由z_j=1/Mz=f²q、image基E、Mᵀ=EV与真Bezout给VR=I/P=I−RV，严格T=coker[B6012,H_MP]。原R/P及全部W尾尚未数值构造。
 - **31系数页与root2。** [完整197第二像](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)全原505/315/J/DAG给I2=U7、χ=(s−1)²(s−2)^5、t2=5。[原J31](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)恰s−2，所以C31/31长314；至少15系数方向/长44。root2前五谱(1,4,2,4,2)、u=f2−16与v=Σa≥6m_a(2)满足u+v=2，真p7/第四像仍未付；I3保197纠偏、7图关系、b8/pb9。
 - **全部原F127模型。** [完整NF](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)恢复660来源（658零、6046/6063非零）并入2855补集。[完整torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)由全6188来源、GB1021/free13/B8、805状态/506观测及全部CK/AK=KJ产生，原field维数299不变。
@@ -482,3 +482,5 @@
 - **R150原127首个完整广义检测族（2026-11-16）：** [E8-1两泛函完整证明](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)保全部1021 GB行，586真常单位后435×448；正规表示870×896 rank866、完整12×90残余rank2，88核含78自由jet＋10主分量。两泛函限制rank6→10，12252原GB jet及120参数作用乘回真；实际9.149秒。尚未4367运输或系数Bockstein，继续同源其余四factor。
 
 - **R150五critical主分量的全部广义检测（2026-11-16）：** [完整88维分离证明](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)同v2真实完成五factor，每个两泛函；覆盖24/24/10/10/20，完整jet核219/219/88/88/176保702自由jet。110268原GB jet零式及2160参数作用乘回真；余四实际15.365/15.384/7.252/18.686秒。尚未原4367运输或系数进位；全族现可检测第一系数像。
+
+- **R150两cubic完整首连接rank1与全局下界284（2026-11-16）：** [完整15头/原全高低证明](results/R150-appendix-complete-critical-first-connection-and-local-lengths.md)实付S rank86、G7 modS独立、完整170×9残余rank8，故β3=1；十四头各346528原乘回。F±谱(3,4或5)/局部长7…8，K164Ω给284≤Δ≤298、μ≤14/μh*≤37、barμ|F+F−E8；B14×两cubic全21系数复核。另付[13 formal-free头及单条nonfree正延准则](results/R150-appendix-critical-formal-free-heads-and-single-nonfree-prolongation.md)，未预称下一正延或E8结果。
