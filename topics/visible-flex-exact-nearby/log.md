@@ -53,3 +53,9 @@ WPS36、WRP9完整冻结manifest与WSMF完整proof当前输入说明，均无26�
 新x²<5给完整lift<6/5；新reference inverse/ρ-defect/odd-endpoint/outercorrection必须分别完整新算。只复用同ΔBHL S^-1、原collarAc、同physicalmeanreceiver及全部原15对象；旧familykernel依赖旧source不能转名。actual A/B/C/R、projections、高空间及已成tailκ3不变，故新e+3dt<1仍是同一完整finite门。56新和条件gap/inverse2为待机械封源码的合同，未执行新科学，也未由旧false推出奇异。WPS60原完整false保持冻结。
 
 open的WQS/WPSA及WDGA/WBFA/WJRA长段以完整proof及immutable4ef462296a239c5abf90ea3239f210cfc23be002同open索引保原全部scope，不减mean/端/费用/失败记录。
+
+## 2026-11-16：三份已完成 beta 派生报告普通清理
+
+2026-11-16 14:24:09 UTC；两README核418bd32a9529d5e0dcea83321b6063bcc4d8e1e9未变。只删除恢复说明列出的三条完整旧派生报告，gross294984B；三complete=true原状态/所有limitations均保持，不提高其参数域或实际匹配资格。每个全文UTF8<100000B已完整读取并核bytes/SHA，原167cell、全部旧原球/来源/参数及全部剩余义务可由immutable418bd32a9529d5e0dcea83321b6063bcc4d8e1e9同path原字恢复。完整恢复说明d25409616ce794ee3c3b64263bfd7ef8fbedb7cd/8648/SHA7dc73de7cfb986767d06c28f801c377c8829f93a8454eb695fdba453cf81bee6。
+
+WPS/WRP完整current manifests、WSMF proof/math/owner、W4M proof/science及WVC proof的限定活动闭包无三basename引用，WVC作者另核原WPS main/assembly/kernel/reference；不声称全历史无引用。fresh main下三path/blob/bytes再次guard后普通删除，保所有源、exact对象、原parts及其他输出；本次未调用任何科学函数或重做成功目标。容量供两套新mean consumer完整source/publication及并行120KB预留。
