@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：cc655bbe3289941a85b4a4d747766cc62df85e38；2026-11-16 05:01:46 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:49:15 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
+- 最近已读规则提交：72954f776cd79214c0e5c554e61c4d1984108a9b；2026-11-16 05:02:19 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:49:15 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -51,7 +51,7 @@ R855§§9–11付共同六sigma A24/28及四质量1伙伴，四B=同B(A24)+实�
 ## 同R、三真长窗和指定总类
 
 完整原式/局部块/十九角在上方[完整H](notes/2026-11-16-frontier-before-horizontal-theta.md)沿链保留。M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、全部WD余列不变；TM=s−r−13与TJ=s−r不混，同R/normal/两13/d₂不拆。
-R834/836的(F,e)单位块、R837三长7q(H−r)≤3BD²+56D/两长4q(H−r)≤3BD²+32D保原预算；自然47/12仍q1/2。R840完整ann_Z(f2)给O及dim(I∩J)=dim kerO；原J与三长核交0不代I+J总核。负全水平β_-(a)=[V_a0]规范，同G0=F0²C0−F0V_a0，O的z_-值行恒零。正水平全unit、负核τ/e；完整非水平O_Q0 iff W_C−W_t(Q)τ∈x^(2m)，m2单尾/其余双尾已付。所有奇点/∞/固定角与d因子保。
+R834/836的(F,e)单位块、R837三长7q(H−r)≤3BD²+56D/两长4q(H−r)≤3BD²+32D保原预算；自然47/12仍q1/2。R840完整ann_Z(f2)给O及dim(I∩J)=dim kerO；原J与三长核交0不代I+J总核。负全水平β_-(a)=[V_a0]规范，同G0=F0²C0−F0V_a0，O的z_-值行恒零。正水平全unit、负核τ/e；O=J|Z为同F²C修正可选条件，未修正J|Z0不等于J|C0；完整非水平O_Q0 iff W_C−W_t(Q)τ∈x^(2m)，m2单尾/其余双尾已付。所有奇点/∞/固定角与d因子保。
 剩余须同Kcorr/Hcorr付两高前缀，再同F²L1付第三3η镜轴/第四短行；交表示K不冒Kcorr，最后同cF³不能逐行另取。R842第一层满射后指定[b0]∈cokerLT≅WT∨仍未知。
 R813/822原γ/6单位及γ/6+GF+BF=0保全边界。R842负全trace/Jacobian商、moving转置/全mask、十九角、t1严格门、h7仅有限Y、正侧2Uτ/U及JmodP²、跨p W项、同P补偿仍开；mask不知属QT。
 [准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)：K_F=2Ft EFt/e²−Ft²f2/e³，Pr=cs[t^(11−r)]sqrt(1−t)K_F(qv1+Eqv0)；r2每vi十项，r≥12零。WT上[b0]=−BD−Pr、ω1的P0；J长窗P0不移给M，短sqrt不替全局W。HN真实三jet来源deg≥9κ−3χ−12b，不冒6κ/HNmax2κ。

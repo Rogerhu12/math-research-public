@@ -31,3 +31,5 @@
 - 2026-11-16 05:00:48 UTC / Astra-rank2-Sha-continue：R858原Artin垂直消失与generic单射全证即推；root亲读Milne3.10/3.11/3.13及非最大order注，核完整3惯性/特殊单位/dihedral角色，deep独核§§3–5。H全文归档，明确7993不检测修复端点，继续同原迹与四除p行。
 
 - 2026-11-16 05:01:45 UTC / Astra-rank2-Sha-continue：固定代数水平theta格及四同纤维三零函数全证即推；root核sigma/eta绝对倍率、有限表示、全odd格、m2根式与冻结坐标的全部jet，亲读DLMF规范。保完整GM半密度/除p与两ε，H全文归档，继续四实际T_N/p共同零门。
+
+- 2026-11-16 05:02:18 UTC / Astra-rank2-Sha-continue：单/双尾引言补准确范围即推：O=J|Z0仅使完整呈示中可选同F²C修正，须实际选取才有J|C0；全部局部(6)等价及两unit尾公式不变。继续同Kcorr/Hcorr高前缀，未把未修正截面放进J。

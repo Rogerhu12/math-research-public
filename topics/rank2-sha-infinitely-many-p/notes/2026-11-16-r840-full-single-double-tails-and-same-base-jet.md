@@ -19,7 +19,9 @@ $$
 \mathcal O(a,B)=J|_Z,\qquad Z=V(F,e).
 \tag{2}
 $$
-因此 $\mathcal O=0$ 才使 (1) 落入真正的 $\mathcal I\cap\mathcal J$。
+$\mathcal O=0$ 给的是完整呈示中可用同一 $F^2C$ 修正的条件；
+该修正仍须实际选取以令 $J|_C=0$。
+不能把尚未修正的 $J|_Z=0$ 直接当成 $J|_C=0$。
 
 取原移动非水平点 $Q$，要求 $F_t(Q)\ne0$、
 $Y_Q\ne0,\infty$，且不在原固定角。用同一剩余域 $k_Q$ 和原坐标
