@@ -456,3 +456,7 @@
 - [四cut增广交换首实际接受54](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)：5个严格新行集/164迭代/328系统、5完整双网/10新梯度后方向合格；62scalar与唯一实际pair使η细.26601238103375724、降2.76319609660014e−6，原两网14门全真，κ细57.99930616102216。原53任务含失败218.31438091800004秒/祖先1877.294171609秒130值；点54实际U/T/e/f缓存已付，新的Jac/硬模型须真新建。未达.26中间及主完成门。
 
 - [R483：完整cap五门紧化与全类端形状两端排除](results/R483-complete-cap-compactification-and-global-end-shape-bounds.md)（已证明）：完整12项给全部Aj统一远尾，凸v紧化保常数C/曲率测度；H↓3/5全类趋critical非零，H≥10¹²全类ReE≥H⁴/10。零目标只能在严格有限端比区间；共同严格窗与五控制可逆时可有限恢复已找到的零极限，未证零在闭包中。
+
+- [R485：两条完整offset帽族及其真实凸曲率近似均非零](results/R485-two-complete-offset-cap-families-and-their-nonvanishing-complex-obstructions.md)（已证明）：uniform和critical全部C≥0原复积分有准确cubic/quartic，两族各唯一虚部零点均有严格负实部；保全部C/C² primitive与左常数。远尾/正v″两矩拼接/精确ψ3 germ/末简单Af给紧C盒一致有限真实非零族；不能仅由象限端点推degree，不排其它cap或五门零。
+
+- [R484：同规范有理芽延拓锁定及有限加速度判别集](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)（已证明，前提明确）：固定κ/ω后h⁶C_h/k次数≤6；若实际两相位minor非零，同真实前缀的完整解由13状态ODE锁在抛物线，首次离开须全相位降秩，候选高度含于≤12次非零多项式根。未判当前minor，未排退化库/奇点C∞分支；常段完整平方/一次/常数门全保。

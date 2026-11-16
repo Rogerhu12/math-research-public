@@ -146,3 +146,13 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### R483：完整五门零只能在有限端形状区间内寻找
 
 [全类证明](results/R483-complete-cap-compactification-and-global-end-shape-bounds.md)归一p*=r*=1、H=h/s²，原12项Aj真远尾统一O(H⁵T^(−j−2))；凸v=p^(2/3)紧化保远左常数C≥0、测度原子/线性段与原primitive连续。H↓3/5所有允许cap趋同critical非零，H≥10¹²完整端势给ReE≥H⁴/10，故真零需3/5+ε*≤H<10¹²。原极限若已有五门0并保统一C³正性内窗与五个真实可逆控制，可在有限n准确提升；未证闭包含0或任意广义测度可平滑实现。接真正ρ=v″>0族的五门搜索/全局障碍，不由局部开放或端界收尾。
+
+
+### R485：两offset边均穿负实轴，需真正新的五门族
+
+[完整两个族](results/R485-two-complete-offset-cap-families-and-their-nonvanishing-complex-obstructions.md)保critical/uniform的全部C≥0原积分和端primitive。两族Im各只有一个零，分别在v∈(12/25,1/2)、(3/5,5/8)，那里Re严格负，所以全半轴均E非零。正v″远尾实际提供C，精确ψ3左germ及两矩正曲率拼接、末simple-A保持；每个紧C盒可取共同有限参数得真实非零族。不能从不同象限及大C正Re直接猜非零degree。下一真实ρ正15参数族须求同cap五门，不以这两个明确族排所有cap；全部原q4/F★/20安装和共同成本条件保留。
+
+
+### R484：有理芽正则延拓锁定，退化与真平方门继续
+
+[完整证明](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)保同一最终w/χ、真实前缀八矩及端点势；若两相位C加速度minor非零，真实13状态ODE唯一性锁定原抛物线解析延拓。固定κ/ω时h⁶C次数≤6，离开须全相位rank降，候选h在≤12次非零多项式有限根中；单个pair根不等于真降秩。未判本实际库minor，恒rank≤1/新F_acc退化库/奇点平坦光滑分支仍可研究；即使进常scalar段还需原平方、一次与常数三门。下一完整F主三导平方与C²余表/真约束路径，不把加速度行清零当任意路径可走。

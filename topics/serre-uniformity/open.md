@@ -57,7 +57,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **A.1**：七小L真条件不代A0−qB0=0。原full43790194976真BudgetStop/124，370current11a4f187、371正残差f26fe3db、原target000a9bbc/Jb384a331/1481原源全部保；详[激活](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)。半坐标coreffe5dcff/wrapper1552e403/request9492c873只七支17920RR再全35840准确乘回；HP.2合法完整current反例或全Theta/Delta才判A.1，RR失败不拒q。不混primal570。
 
-**R854/R858**：R854实际exit125/非外层timeout，532stage/artifact14207739171/b0a8babc；停止原因及所需新精度正在读取，R858不启动。同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
+**R854/R858**：R854实际exit125/非外层timeout，532stage/artifact14207739171/b0a8babc；首纯IO因原core_sha256字段差异停止，现修正只读适配后续读，R858不启动。同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
 
 ### 原Y：已成准确源与正在执行的矩阵
 
@@ -72,6 +72,8 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 **R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)与[消费者](notes/R873-original-cyclic-seven-correspondence-activation.md)。原8H+4E/2058截面、110阶注入、真P与靶w=K/P′、∞尺度/椭圆4E与−3下降保真；真dual同源交换给R870方向和c0c1。coreefe62506/wrapper03c2d227/request846d9850，300min仅四M2新尾196..763、八节点范数、17rhs/2058新逆。源码6d5ab806后首dispatch404，恢复a07453ec已接受run43830067416，当前queued无job；无重复数学。旧2050minor不冒新逆，实际系数/η支持未成。
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)记两次纯IO。首43826442405/source5a21f9d9/artifact14206388855/42a3155f保R7992050原V8 tar175356258/df08e833和R801同2050 q109 tar152592418/e9595cc2；补43827207676/sourceee98d42e/artifact14207385683/67ea4155成功保R80082E1+四M2/旧carrier tar7217285/113be338与R827七原件tar10114176/d5a5641a。包内original/，原身份/meta/manifest逐字保；R827原exit124/no-final不造成功，真实ζ根549966761匹配R868旧逆。小metadata run43827843962已真读current与596历史，complete/target/full lift spec完全相同；同核requestba760988只改resume。不重606历史或数学。
+
+**R877单A源续接**：[真实IO激活](notes/R877-original-single-A-source-intake-activation.md)。先读原R827 B/旧逆，依Bnormal逐spec取原R787的1234行；R842旧8MB S5/R849十小源并行，全部原artifact仍活跃。只新A右端待算，旧B/矩阵/逆不重做。
 
 **真正高度缺口**：FM a5d65aa4/YP bdbb6cc5仍需原128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N和完整nonp。原I_Z不是real-descent Lj³，c0/h与c0/c1方向不改。R862已成d_A=1596092727686814808731/E_Aφ*=0不代YP投影。R330/R596原Y各块L1=0，秩零绕路闭；UE第二类全函数相消仍有dY+2 period，End⁰G=F、非零torus商≥g+1、μ3 qφ*=0均不删Y。
 

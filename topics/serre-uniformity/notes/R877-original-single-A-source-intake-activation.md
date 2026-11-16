@@ -1,0 +1,13 @@
+# R877 — 原单A右端的必要来源续接
+
+2026-11-16，会话serre-public-astra-20261115。当前仅运输已完成原件；单A数学消费者仍在编写，未填计算成功。
+
+目的为在原free1186与同一ζ处补唯一新A的S5右端。原B展开、B normal转换、旧1234阶逆和完整1380×1234矩阵均直接复用。
+
+先读R827 run43734420663/source400edecfeab313d1858cdb72bf18f8452ab9566a 的原canonical-B展开、Bnormal、原p1000000753 S5 fixed minor inverse及place audit。R827仍是原failure/124/no-FINAL，不改为成功。随后严格按Bnormal.source_original_V5_rows中的1234逐文件spec对照原R787 run43683912711/sourceeab5e58bbf951c48ccf13a109bbdf0b0289a6f23的manifest读取全部原V5行，另保同一chart、rational-blocks和selection。
+
+并行读R842 run43776927742/sourceccc94341bcab2c33e4732fcb9d6bce517b6243f3 的既成R839-original-S5-fixed-place-matrix.json.gz（8341255B/1c1647ea17b1c8cc77e38ba589d1426efee6c165312b090c6823663d6cde1219）及原身份；R849 run43790410670/source391191590dcb8bcc6f8f2d777610726fa79dc2a3 的202890B/529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79全局DAG及其九项小件和manifest。全部来源的真实archive ID、大小、digest、core/manifest与已知叶SHA绑定在请求中。
+
+四个原artifact已实际查仍活跃；最早R787于2026-11-16 11:06:54 UTC到期。运输按Range读取必要原件，原5GB R787和395MB R849 carrier不整包下载。每个包保原身份和逐字节来源，输出在original/目录，后继核只消费真实取得的源。
+
+reader R877_public_original_single_A_source_intake.py SHA256 fbecd4023c2249984d96fb519bf23a456315da07bcc49f236d3f33d804003ec2，复用冻结IO helper c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c。当前只有IO/schema/hash，没有新数学。实际任务每次真实pull检查两README；必要原件只保存一日artifact，不进Git或Release。主目标OPEN。

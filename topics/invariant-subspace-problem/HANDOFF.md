@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 0f101b697beb04db9bf6c225a488755e191f3a54（2026-11-16 08:20:34 UTC，Actions run43830422159实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43830422159-1.json。
+- **最近成功实际 pull 与已读规则提交：** 2596c21030c29e59e9b9d28ccd84a6ef1816d89b（2026-11-16 08:23:37 UTC，临时研究session run43830684123实际pull --rebase，两README无差异；详见notes/r150-hstar-four-parameter-execution-789f/）。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 2026-11-16约07:20共享executor失效，旧tmp不可读且未声称存活；最后本地push42478da8。按根规则8/13转现有Actions实际pull/rebase/push；已用已有MR_TOKEN修复bot403，run43824697306实际推007f073e，后续均真实发布。API准备不算pull/push。发布器仅对并发worker造成的H最后规则marker冲突作逐块窄合并，保全部其他研究文本；其他冲突仍报实错。
@@ -11,6 +11,7 @@
 
 ## 当前实际执行接续
 
+- run43830422159已实际pull 0f101b697beb04db9bf6c225a488755e191f3a54并推3cc80375成功；启动API因MR_TOKEN无相应权限403，数学未启动。启动改用现有actions:write的github.token，Git仍已有MR_TOKEN；无新增明文凭证。
 - **四参数同基job已备，结果未跑：** [完整接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)、[全路径/SHA清单](notes/2026-11-16-r150-original-hstar-four-parameter-complete-manifest-789f.json)。workflow invariant-subspace-r150-hstar-four-parameter-session.yml；request notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json。一个job十步：恢复原14项、六小系统、四真族/原map、H25；选列8→7→3→1重建；同父C1、h0控制、x²/x³七socle；最后63×4及逐九7×4真核。完整30阶段、6188/4367原乘回、104/505/315门、同高p父SHA全保。不重全210，不混旧carry坐标。
 - 新源仅静态核：30块数学函数与旧版逐字节相同，parent/reader/consumer格式标签相容；本次AST/native/数学未执行，Actions实际编译后才记结果。数学每步1800秒/4GiB、exit75同binding最多三续；整个job180分钟、每步及30分钟实际pull核规则。所有来源数组/结果留tmp和完成日志，Git仅小执行身份/SHA；最终读真实run/job后逐结论发布。
 - normal并行准备完整原17梯度+Bell齐次source前缀：有限域127/d100为系数域特化、全部y/H参数保留；degree2→3 continuation自测后做degree5起完整层，原来源全乘回。特征零只能经原E完整18源复乘得到1，不能从有限域unit外推。source c5e81e3e、E consumer6aa939b3，尚未真实运行；另起同job field→E，保所有失败和已完成前缀。

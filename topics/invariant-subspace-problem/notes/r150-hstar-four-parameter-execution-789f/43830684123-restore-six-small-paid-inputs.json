@@ -1,0 +1,53 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43830684123",
+  "stepId": "restore-six-small-paid-inputs",
+  "executionSourceCommit": "56c54857532834530ac6980364fa56648f62adf3",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+  "scriptSHA256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+  "argvTemplate": [
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/root2-fourth-small-inputs"
+  ],
+  "timeoutSeconds": 600,
+  "exitCode": 0,
+  "wallSeconds": 6.077273834000003,
+  "fullTemporaryReceiptBytes": 5454,
+  "fullTemporaryReceiptSHA256": "e45a401c81aa17cdedb8ec8364c8dade36a7a41ffa64024896b822c0fc55b675",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 08:23:13 UTC",
+      "beforeReadCommit": "491703056cbadf0a30a8f380f01179da17f94a05",
+      "originMainAfterPull": "56c54857532834530ac6980364fa56648f62adf3",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 08:23:20 UTC",
+      "beforeReadCommit": "56c54857532834530ac6980364fa56648f62adf3",
+      "originMainAfterPull": "56c54857532834530ac6980364fa56648f62adf3",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 7,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2402,
+    "logicalJsonSHA256": "3b7e26cc712a94034f878ba1af4e1a6fd998aab5c0ff1f2c9a028fa9d6096503",
+    "itemCount": 7
+  },
+  "lastRulesReadCommit": "56c54857532834530ac6980364fa56648f62adf3",
+  "summaryExcludesRecomputableArraysOnly": false
+}

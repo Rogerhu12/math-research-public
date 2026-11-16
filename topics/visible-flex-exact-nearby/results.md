@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WEJA：23 个完整实际图及完整失败前缀](results/R133-supplement-actual-complete-waist-error-prefix-and-preserved-first-attempt.md)：43827705714/1 的全部 30 件科学文件、23 份完整 shape/binding、原始 212 门/280 字段、19 原对象/15 完整子结论、两份 preGit 原字重建及 39 条事件与语义记录均已独核。已保存 1639 条新记录与9原复制，零已算记录丢失；原运行保持 failure，剩余仅 30 新记录。完整物理 mean、两窗 N6、3070 真跳点、负侧接收及133槽腰重建的范围已分别记录；极大有限界不授高门、finite 逆或背景。
+
 - [WHR：完整正侧径向 head 的精确 Fredholm 约化](results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md)：真实 193 维角向 fiber 上的径向 L²函数自块为 Id−紧算子，指标零；未知核/余核全部转入兼容行与全交叉项。端点采用有界 Volterra 行，补列取 H¹；新径向投影尾门与完整有限因子均已解析给出。未判定 mH=0，未扩至负侧或未合格粗输入，true96/Θ/ν/两mean/finite/背景仍待；没有新数值执行。
 
 - 43827705714/1 的完整失败回执已保存：23 个完整节点、27 门，第24图已有39条新记录；后因只含相位导数的对象被误索零阶值而停止。全部已算记录均保全，原失败状态保持；[精确续算合同](notes/2026-11-16-R133-WEJ-preserved-prefix-continuation-contract.json)仅允许剩余13+8+9=30条新记录，禁止重复23个完整图及39条前缀。whole新界仍未完成。

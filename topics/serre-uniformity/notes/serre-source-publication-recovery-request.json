@@ -2,45 +2,66 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0825-R872-certified-jets-and-fixed-Picard-spaces",
-  "commit_message": "serre: certify original point jets and complete fixed Picard spaces",
-  "rules_last_read_commit": "0efd294396688cb5c0905b1d7a299cb4d5ad77ba",
+  "request_id": "20261116-0827-R877-original-A-source-intake-and-R854-schema",
+  "commit_message": "serre: preserve the exact single-A sources and read the p41 stop",
+  "rules_last_read_commit": "754eeff98d66f5cb6f8515d5bf9ef856839c1f8f",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "27b9b53b32da4c6726ddd7cf6f745bcf128ff24f75d052b4beeaa7f46ec91283",
+  "expected_previous_request_sha256": "22a7f7e15a206257cf7a83bec2ebe84f8c605a3d416f09630490367d8284c2fa",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md",
-      "sha256": "dd75ec17528ca71818fc6342cfa6ffa3bac669864dae4a947fb41dcdfd7a92e8",
+      "path": "topics/serre-uniformity/scripts/R877_public_original_single_A_source_intake.py",
+      "sha256": "fbecd4023c2249984d96fb519bf23a456315da07bcc49f236d3f33d804003ec2",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "26bb9af25ec9208b0b0479e86d9d3c58e701f3f81f4ae28ed3a6453cb0bef2d8",
-      "expected_previous_sha256": "cdf28541e8bce21812f4d07ba30c27608b5433d07e17eba009f4d123a7707507"
+      "path": "topics/serre-uniformity/notes/R877-single-A-source-intake-request.json",
+      "sha256": "092cec5965dd298bfd9645ec9f675d9c172dc39fa190bdbfe8ebe6b0619adc57",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "663935675233c9623ec3202f83a681fc7ac35bdfbb221b7d1a4a0506b44a0ce4",
-      "expected_previous_sha256": "d0ea9585bd06af1dcf0e9d024638b2d001de248e93b1321c408493dea88e2a6c"
+      "path": ".github/workflows/serre-R877-single-A-source-intake.yml",
+      "sha256": "8598f087a1e413c699efff0fa97598ae209cd932d35d0233871ab0bed9fb1025",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/results.md",
-      "sha256": "370636266f15c38b1c210383f0a4672b4d3c9ae2df26857d8e87bde887376e6a",
-      "expected_previous_sha256": "df48e4734ebb8a303d3ba6583ac50fe440aa2c52fecd52ca78021b9bcdabcf53"
+      "path": "topics/serre-uniformity/notes/R877-original-single-A-source-intake-activation.md",
+      "sha256": "96763b5caf504736da92d701513dae710a22b99628cfbadb43b0d71e9dd525f9",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/log.md",
-      "sha256": "5e751e2c9edb40030389a7be9f69c3ed2d0ce464675580853c9c29b349000b98",
-      "expected_previous_sha256": "0ff7f88cac7b87fede4b381266290f5a370728aba24ff74d88041052f8bdeb19"
+      "path": "topics/serre-uniformity/scripts/serre_public_artifact_source_intake.py",
+      "sha256": "36c1534097396ee6213b57d16335fd8b26c92d1963e3eb43bd0518e1fb2cfecc",
+      "expected_previous_sha256": "1370ce20977ffdf62354c9a2898200f408ca2d58093c1277686b2b020884327e"
     },
     {
       "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "sha256": "6fd6a4681c527436a5555a0fc3bca17a71045c1b42a8620f4853bf2b7161bb4d",
-      "expected_previous_sha256": "b18f14e4ad7829289fc492aef941f7f208713bf07c592fe4f30c05fe9663ca1f"
+      "sha256": "79c761ecd4810e429e5df6eb578a3628d67bd5ac5a97fd8c161bca6447e1444e",
+      "expected_previous_sha256": "6fd6a4681c527436a5555a0fc3bca17a71045c1b42a8620f4853bf2b7161bb4d"
+    },
+    {
+      "path": "topics/serre-uniformity/HANDOFF.md",
+      "sha256": "cce90d813f570b23f2d82f1957f9114e7db2a0151cae07cb0de5d80963c303d0",
+      "expected_previous_sha256": "5a726c4c7b59ff9462a8656bbdad84bf28cafadb830233c81c6603151135dca4"
+    },
+    {
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "1962271247669317eb8c5933bfe9ce7c8dffb17a9f954df5f8702a4d59f1ba66",
+      "expected_previous_sha256": "663935675233c9623ec3202f83a681fc7ac35bdfbb221b7d1a4a0506b44a0ce4"
+    },
+    {
+      "path": "topics/serre-uniformity/log.md",
+      "sha256": "b8d22fced1811540f26fc9e2ec8c52f85bad6efcd09bf517d975e6cb983790ca",
+      "expected_previous_sha256": "1ffc71505d69021c606c50e3acac03a19dba945600af8f1bc3da7523f9bd31b8"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R877-single-A-source-intake.yml",
+      "request_path": "topics/serre-uniformity/notes/R877-single-A-source-intake-request.json",
+      "request_sha256": "092cec5965dd298bfd9645ec9f675d9c172dc39fa190bdbfe8ebe6b0619adc57"
+    }
+  ]
 }
