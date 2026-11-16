@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261116T0409-rule-pull",
-  "utc": "2026-11-16 04:09:19 UTC",
-  "last_rules_read": "4cd3bfc115f812278e54df96ced1b103b270275a",
-  "reason": "Regular read-only actual git pull --rebase, two-README difference check, and rule-15 inventory before 04:15 UTC. The local exec process was unavailable on the immediate 04:08 retry; an API head refresh is not an actual pull."
+  "request_id": "rank2-20261116T0450-rule-pull",
+  "utc": "2026-11-16 04:49:15 UTC",
+  "last_rules_read": "051d8b3ad01d51413aa7aa15d6451c3bdb30dd63",
+  "reason": "Regular actual git pull --rebase and two-README delta check before the 05:00 UTC deadline; include the rule-15 inventory. The immediate local retry failed before process creation, so the API head read is not an actual pull."
 }
