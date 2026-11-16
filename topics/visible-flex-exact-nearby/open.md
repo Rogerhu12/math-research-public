@@ -56,7 +56,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
 
-[WHR/WHV/W96原范围检查点](notes/2026-11-16-positive-head-open-scope-before-signed-residual.md)9f69ecd3逐字保三完整已成段及所有原未付义务。WHR289935c3仍是193angular fiber上无限径向Fredholm index0，未知mH/全cokernel/H¹补列/trace-safe端点/完整dual/cross保；WHVe993f068的零V0变换全源/初值/jump/逆伴随/endpoint直接项同改。WHVA9274e696实际43838214094已成24目标冻结，但eps35.51628…/N4096门false、requiredN145475超cap，无矩阵/resolvent、不证奇异。W9602f93880真实outer193行给T核96+ℓ、ℓcompat及actual reconstruction，至少96列存在；prescribed-root96的193+mH square/signed entries/数值basis/Gram仍待。原PW全density两mean/WPL左receiver、全Θ/ν/cross及消head新high反馈保，旧WGB E不可照抄；rough资格见WHS，实际finite逆/最终族未授。
+[WHR/WHV/W96完整原scope](notes/2026-11-16-positive-head-open-scope-before-signed-residual.md)9f69ecd3保原三段及全部未付义务：193是angular fiber，真radial Fredholm index0/mH/coker/H¹补列/dual/trace-safe端点和cross不减。WHVA43838214094已成24目标，eps35.51628/N4096充分门false、requiredN145475超cap，无resolvent或奇异结论。W96真实outer193行给核96+ℓ，至少96列存在；指定root96仍须signed193+mH square/basis/Gram。PW全density两mean→WPL、Θ/ν/cross及消head全部high新费保；旧WGB E不可复用，最终族未授。
 
 
 
@@ -185,7 +185,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。当前tail门及signed有限逆仍待。
 
-WOBSA37量冻结及WMF完整恒等式的原段逐字保[完整outer与归一mean scope](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。原球/域/两物理mean/全部terminal与g1/Jr、WHVA false及未知G/Btarget/high右因子/signed逆义务不变。
+WOBSA37/WMF原全scope与未付门保[完整outer与归一mean](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。[WML局部六步mean](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5：原实local/真r*、4完整初amplitudes/6步/10terminal与原Jr/g1/两mean/四端/jump保，无1/T根除。247新量未算，因WMTA非mean主导暂缓数值部署；旧mean冻结，signed逆/高门仍待。
 
 [WPTV值域尾](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)dda500b8/[WPTVR](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)62adc53e及inventoryf7dd2ed0的同GH/frozen B0/全signed差/真正T*、外Q_iV0/ramp/193mean/四Schur块不减。[WPTVS保前缀续算](results/R133-supplement-retained-collar-continuation-and-complete-ball-input-contract.md)461d0feb：43854566735/1已成collar0原字保留，只续body1..152与预锁m1,2；27current/19history，原4650行3594接口/全96/65repair不变。原3/5字段用producer的lower/upper hull，完整有限ball语法只选参考，actual坏token未保存。manifest296d3f66冻结，续body已排CI；尾门通过才授同tail逆，0finite逆，false不扩网。
 

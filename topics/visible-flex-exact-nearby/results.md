@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WML：原local归一L1与完整六步mean强迫** — [完整证明](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)，SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。真实local区间/根条件下21归一核、4完整初amplitude、6次mean操作/10terminal、两窗传播与全部原物理边界给247新scalar的解析合同；全radial项/两mean/四端/jump保，不在root除T。0新算术，247尚未执行；WMTA显示非mean主导，故保留定理而暂缓该数值部署。
+
 - **WDS：真实有限Schur的双侧残差证书** — [完整定理与有限实现合同](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)，SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。对真tail R及primal/dual trial有 $I-Q_fM=E+D^*R^{-1}T$，完整误差门 $e+\kappa dt<1$ 才证真实Schur逆；两rhs与重建均保，97root补/96outer/193mean/所有七port弱Green和全部δ不减。只是完整解析证书及有理trial实现边界，当前无通过tail门或数值finite逆。
 
 - **WPTVS：保留领口完成前缀的body续算与完整输入语义** — [完整证明与合同](results/R133-supplement-retained-collar-continuation-and-complete-ball-input-contract.md)，SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05341eadbd29495b。原43854566735失败后的5 running maxima/witness/chain全部只读继承；修复完整有限Arb文本与原lower/upper interval语义，所有actual-reference差和完整96费用保。27current/19history/10AST、预锁body1..152与m1,2，manifest296d3f66；本次无新数学执行，不授tail或finite逆。

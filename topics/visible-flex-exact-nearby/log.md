@@ -247,3 +247,9 @@ WPTVS证明da32e8e0/16633B/SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05
 保存proof5e93ca37c37d82787ea870aad977712f41b2d4ea/32943B/SHA4c7c9d6e582a486f0fe233ac2e617b0f3136ac8a1ed168001f7134050b2230f9。完整证明给D=B*Qf*−R*Y、T=C−RZ与E的真signed配对，恒等I−QfM=E+D*R^-1T；须同Hilbert权e+κdt<1才证真实square逆。双rhs公式与z重建完整闭合，不把无符号上界当signed矩阵。dual原弱Green含identity/Volterra/head/mean/端点/jump及H−1、H−2/3的真实对偶Riesz，全部七port旧receivers仅只读。centre32+65repair+full96差、真outer H−5/6、97root补+96outer、193mean/ν/coker全部保。
 
 WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝试实现，精确pivot/action/transpose/norm及完整残差仍未算；root不能由旧WHVA false或未完WPTV授逆。WPTVS43859287399/1目前运行中。完整清理旧H段只压成fe7649afa86974eba204533434e24b7cae903307同H及原白名单索引，全部原scope/恢复/失败/lost仍保，未增审批或重跑门。本次纯证明新结论，0新数/0旧重算。89be4f87df9a733f53519b58bafdad2844083c99两README同已读。
+
+## 2026-11-16 11:38:53 UTC — WML完整local正权六步mean定理
+
+保存04827463ed6c8f81bcd54f278c004bcae668f7d5/31888B/SHAa67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6。原实[rc,r*]和z_ph(r*)=0下p=aJ/DJ、w≥3/4给L1核，完整e/ek角0..6共21，Mr与4真实radial强迫amplitudes35；N6保7×4至2×9全部169记录/10terminal；8mean+6negative+2endpoint+6whole共22，总247为新未算目标。全mean/原Jr/g1/3070jump/四端/完整H/ν/coker/96及whole/reduced均不变，严格flux公式不延到root且无1/T局部除法。
+
+原已完成local γ桥、local mean_N6、WMR42/2exp及WMT195均只读禁止重算。root及代理已闭完整形式和原typed source使用；角6使用完整physical_coefficients_local，不拿旧c4×5替代。WMT真实结果已显示主项是nonmean strict/collar，故本次只保存已证定理，247不启动；下一新数值优先完整retained-profile重分解，不能假称WML改善已算。open原WHR/WHV/W96长重复摘要压到既有9f69ecd3完整逐字档索引，全部未付义务保。本次新算术0；89f20ce86430eb65199268e1e8d6add6619f0ee5两README同已读。
