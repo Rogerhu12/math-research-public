@@ -341,3 +341,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R522 — 完整dyadic矩阵双输出与共享整数位平面
 
 **已证明（完整点积字等价与真实组件源码），未编译/科学运行。** [全文](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)14577/12db5415、[接口](notes/2026-11-16-native128-paired-digit-complete-component-interface.md)13964/1b28，连kernel8729/480b、generator10717/1554和plan16347/724e五件64334B。原R414每dot准确整数和后一次RN113，在scalar/AVX2共享左plane读/奇位移；各2048项部分和<2^51，两个独立ExactSum及normal/subnormal/符号零/overflow规则全保。全矩阵两列＋奇尾、原zero/wide fallback、相同一行packing与全部224列/226双mean/原系数/nominalfactor/C residual/RK不变；仅完成点积对R414词同，不冒R305旧图或完整严格导数。3临时view operator082d/stage49a7/component93ec真接原四组件，R515物理缓存保；旧pin/新source/准备receipt/真实compiler返回分责，当前R518外层尚未注册。原绝对clock不重开，pair至多两个原block后poll；无时序/性能/实际接受声称或额外试验门。
+
+## R520 — 当前派生整像来源与原owned商距离接口
+
+**已证明（实际来源/条件调用），尚无科学执行。** [完整接口](results/R520-generated-current-images-original-owned-quotient-interface.md)22264/7c21a84e、entry47597/8d48和plan11453/e288，三件81314B。原c87b/0ff1、resolution144da/ca53、当前union c9d4/f7f6三准确tuple，后两份R517来源常量view仅Actions，无Fraction数学复制；同场held wrapper/postsolve/完整位置账/member/cap来源真实核。prepare/launch/run/readback复用4afc OwnedTree真实session/PID/startticks、原停止/reap/namespace quiet；222 startup文件与BVP-launch实际deadline分别绑，后一source_namespace_deadline接前者，保同18900+2700/900/30/原8–2GiB和BVP32GiB不降。双向全target/八根/所有partial/错误/未返/单90K70保，无新gamma/帽点默认、当前request或预填接受，cleanup_allowed始终false。实际workflow尚未调用；当前冻结217/222保持原源，不增原科学门。
