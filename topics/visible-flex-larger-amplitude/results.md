@@ -59,3 +59,8 @@
 ## R531 — 原完整576 cellflow并行与条件字词保持
 
 **已证明完整源码组成及有限原路径的条件字词保持；新源未执行。** [R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)/[接口](notes/2026-11-16-complete576-parallel-cellflow-source-interface.md)七件189535B：parent21284/9434、pool29074/ab6d、reader20373/da99、generator10495/b628、plan63026/4996、proof17455/b0a7、interface27828/d898。原224全部181来源保，四public＋八gen成193；实际same HERE完整runner/client/reader已接。主线程按原n/profile/k顺序取完整实际profile，worker每engine保持原n序、全226×224/双mean；主线程原port除法/累加/边界次序保。仅withJ并行，原noJ/endpoint/audit/十trial/R273门保；只声明固定实际源有限成功全路径，不冒任意callback/FIFO中断或资源前沿等价。全stage地址先记、完整partial/首原numeric error条件与每worker/主engine统计分责保；unknown/resource不补数学拒。线程old-generation总预算≤6144MiB另保main6144，不冒RSS；原单18000钟/90K70/quiet保持。实际R538/227将选2×3072并接原224准备后新193，尚未dispatch/预填收益，R539预留唯一amplitude。
+
+
+## R538 — Request227完整576并行的实际full112入口
+
+**完整实际入口已成，实际结果留R539。** [R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)三件94103B/topic40357B：request19994/56c9、workflow53746/3305、证明接口20363/46ae；R531七件原字保。真新job先原224全部181恢复，再同HERE四helper/八view形成193，原224 request88551/6aa2、recipe21539/0c9完整祖先另列。实际runner15716/4c7e、reader50519/fb88、report/cleanup/来源receipt和当前workflow语法范围全部用真新source，不仅换外层标签。明确2×3072MiB线程old-generation，原main6144另保，不冒RSS；原M112/N2048/576/226×224/双mean/全部H/J/FD/fullDN/末audit、18000/330/350min/2700规则/90K70/owned quiet保持。source准备与科学一次钟分层，新源失败与超限保raw，旧已删父不续、未返不补。新增.github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml仅本题入口；发布后官方一次dispatch，实际run/head另记，amplitude唯一R539，不预填速度或接受。
