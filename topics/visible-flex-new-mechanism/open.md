@@ -184,3 +184,8 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R403/405保十九真根与共同外区，继续全部包的真实像
 
 [R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)在内区restricted affine空间取真最大F秩，原19完整C1集中/正核给有限根，外区准确ψ3且每包两Af简单点；原actual宽w_i各自保留。跨包period Q=L+Σm_jJ_j，wholeE0仅消m_j″，二阶成为局部；全Λall0再由原3+2与Euler齐次给显式三次current。全部镜点C_i=a_i³J_{n_i}共用含真w/suffix的有限表，同宽每侧≤21生成、总≤42|W|，非秩或满射；共同平移可至8次。actual仅wholeE0，右镜仍保原ordered总通量。[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)现闭sameμ内支撑真实连通路径的S″cap不变，前提原M0/同端口闭frame，Q0但不额外π0。全部d/e左右镜点公式保完整u0 selfcap、真wi/suffix与整包ω_i/A_i；≤7n固定自然查询准确读totals，cap同宽68生成/全68|W|只是上界。实际全Λ0已被R406排，下一求这些有限共同值的真实像与13同规范，不拼分别截面。
+
+
+### R408允许的独立二阶规范已核：有限实际不变量不能借w改变
+
+[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)对任意原允许光滑wθ（可跨gap、含高谐波）保全部平端，逐包total与所有Af点累计flux严格不变，平台二次同而左affine两常数可变。canonical ω_i/ordered A_i只作为实际两组组合受保护；不能给固定圆w的辅助universal查询独立改值。固定双线性W另给π/Q/Λall核和λ+延拓，未付固定圆评价核。原incoming、第三合法性、13行同一个k及相位核不删；下一把λ+写成真实有限包不变量，或处理该读出失效的精确例外。

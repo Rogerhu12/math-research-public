@@ -346,3 +346,8 @@ Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_transfer.py
 ## 2026-11-16 00:00:31 UTC｜首次请求独立direct-reference科学任务
 
 Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.json，39202B/hashd79df5161f06f326047c1839107afa62b6f4bd5e48ecc5e36e4599bb9f69cccf，161绑定=152Python+8workflow+祖先人类note。入口安装08b2c3897b18ded4a427af76066e81985f01e0bf，本request唯一触发；先actual pull双repo/核差，新9人工只一次，再新科学1800s/64LP/160值，包含必要读取/24prepare/两网冷ordinary及后续同cache J/模型/实步。旧120s epoch已关闭，241.314s/LP10/values15及init/首失败全保祖先账；非旧m7续算，未知旧步不重建。首次真实子调用成本与门待run，不预报速度或完成。基底7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7。
+
+
+## 2026-11-16 00:02:07 UTC｜R408独立二阶规范的不变量已闭
+
+Astra-new-mechanism-9974ea84：[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)，18257B/hashfd80635254a6479ce1fc4351d923406db0e9cf60a218463550bb2df70bc2a9f5。根读全文并手核Af=6p t−2r²的divergence身份、逐包两次IBP与W极化号；一般w与universal规则分域，保原affine常数/incoming/13同规范。没有借universal λ延拓推单固定圆。与此同时新数值run43777844163/job133008102089实际in_progress，结果未读；无新纸证计算。基底43386a734be3cb622bf71e810f989ca090be080b。

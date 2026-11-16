@@ -354,3 +354,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R407｜同矩连通路径固定self外区与全部实际通量的有限数据
 
 [R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)（17154B；SHA256 8a0cf4baef0d60db4e0a7312c3a266dab38cf8ea510d69c18ececc4150f93007）。原M0/同端口闭frame下sameµ内区路径使完整Z(u,dotu)双侧0；dS=−4PH(Z,Zdot)左P2/右0，wholeQ0杀二次而非仿射，故两cap S″准确等于完整固定u0。R405有限N纠正盒含0给真实同纤维路径，不称中间19值仍零/全fiber连通。全部镜点两通道给原cap+实际ω_i/ordered A_i；保真wi与suffix，总量可由7n固定自然查询±极化准确读出。cap每宽68生成、全68|W|非rank。R406使universalΛ0不可实际建，本稿只把有限actual问题显式化；全像/仿射平台/k值/13同规范未付。纸证无新执行。
+
+
+## R408｜独立二阶规范的准确不变量与字符延拓
+
+[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)（18257B；SHA256 fd80635254a6479ce1fc4351d923406db0e9cf60a218463550bb2df70bc2a9f5）。原forcing平方/Gram项、同锚Lf完整保留；pLf″=[Af(pw″−rw′)]′使每包total、Af点部分flux与平台二次对任意允许w不变，真实affine尾仍须匹配。两实际ω/A组合准确，单圆w不定义各辅助natural改量。固定compact-output双线性W的G_W全π/Q/Λ0，λ+在U+G上良定义；固定圆仍需额外因子化条件，未授无解。两谐波特解可有限秩提升，任意kernel相位与原13门仍保。全文纸证无新执行。

@@ -42,10 +42,12 @@ R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A�
 
 [R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)改在内支撑限制空间取真max-F/同19根，全部包外区精确ψ3、各自真实宽wi保留。跨包Q=L+ΣmJ，wholeE0只给m″0；全Λ0再给三次局部Euler current，全部C_i=a_i³J(n_i)，同宽≤42生成、共≤42|W|非秩。actual仅E0右镜仍保ordered总通量；[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)补原M0/同端口闭frame下sameμ内区连通路径：Zdot两cap0，dS左P2/右0，wholeQ杀二次使S″cap同完整u0。全d/e镜点=共同cap+真ω_i/ordered A_i，≤7n固定自然查询可准确读全部totals；同宽68生成/总68|W|非秩。真实全包像仍欠。
 
-R394只在实际wholeE0/Λall0前提下：全部简单Af两通道、k′延拓、gap积分与k值双collar、真实incoming m*和平台代价进入13rhs。sinθ付0/π seed；原deg4矩阵/deg6rhs的Smith零行恒等与圆上整除jets给全相位光滑iff，局部重数≤4r≤52不含零行条件，非rank。全period与同一k/同规范仍未实际支付。
+[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)：任意允许相位w（可跨gap/高谐波）不改每包total、全部Af点累计flux或平台二次；左affine两常数保留。固定compact-output双线性W给universal G_W核π/Q/Λall，λ+延拓并杀它；单固定圆仍需实际读出因子化，未冒称一般period无解。原incoming/第三合法性/13同一k全保。
+
+R394同13规范接口保Af/germ/gap k值/incoming与平台成本；deg4矩阵/deg6rhs Smith零行与圆上整除jets给全相位smooth iff，≤52重数非rank。其全Λall0条件不能实际构成，须改付R407有限totals；同一k完整解仍欠。
 
 Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″²−u″²)²迫连通C²首阶轨道恒f；不排高阶才动、别机制或一般C²面。下一新有理母形/全部内部门、完整自然joint及真正同g有限族，不能回已阻断芽。
 
 ## 5. 继续
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)及[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接6新Python与独立workflow：原metric/height/fixed center直取，删未用四角jets/被覆盖积分；完整当前jets/J/null映射同原，新ordinary身份。438法向保序迁freshcontext，4support另附，8学习events保祖先；新科学1800s/64LP/160值含输入/prepare/冷值，同进程续J/模型/实步。首两网各14门与timing保本次收据，祖先账不算新计数。首次request已发，3组9新人工后接独立新科学任务；结果待原log，不预称加速/通过。理论继续有限actual ordered总量/全部内部像/原允许w及13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open，每小时actual pull。
+[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)首run43777844163/job133008102089进行中，source ad3b104606347c345020d229b6fbc1c648dabacc。161绑定，9新人工后新科学1800s/64LP/160值含输入/prepare/两网冷值；同cache续J/实步，438+4分离/freshcontext/祖先γ。初始两网各14门与timing取本次收据，结果待原log，不预称加速。理论继续实际finite totals/原w不变量的正字符读出与13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度均欠，继续open、每小时actual pull。
