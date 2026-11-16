@@ -333,3 +333,6 @@
 
 
 - **R456：真实同宽全部角色的有序评价商恰剩D5、D6。** [真实suffix、完整镜点多项式与共同补偿](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)（19950B/SHA244048f3ce29dd891acf75d0dd4cab3be25e493211b9d7302798598ab2ae4ddf）。完整13列及实际n(t)给两degree7；原末low/high n0非零、cell三矩闭合/12中心和γ7归一使最高degree7差/degree5和真实读取D6/D5。显式二次c blind提升给全部同宽role共同DkerEval=Pol≤4；多宽的宽不变c=1,x仅付Pol≤3，至多另余D4，保实际联合边界。0新执行/旧秩。
+
+
+- **R457：全U自然七余商与完整Γ正规化给权零λ正核。** [raw有序/whole主项、全M0端点乘子与完整证明](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)（20760B/SHA10cf8b733cbcfc486534b2cc6846d33d2675942be33c99b61be587d742b814ca）。新d=draw−TrFhat/8杀全R、真H^-5协变、像Pol≤6；先以真倒行去T，再用R130全端点群/同乘子与开路径分时长微幅，保Γm0/m2，正规四层d全0。dC2=−3x5/128、dC4=dC6=+3x5/128，C20类系数c0=−1；同母H*+J4/J6是J⁺/D0且λ1的signed权零成员。全C/self实际联合仍欠，0新执行/旧rank。

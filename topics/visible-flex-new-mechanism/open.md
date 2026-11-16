@@ -154,7 +154,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 R399–405有限对应点、R408规范不变量、R409–431四约束/D,E/完整有限自然与共同cap、R430–434原18核/144三尾像的全部原文见[已付背景](notes/open-paid-common-cap-and-natural-background-through-R454-20261116.md)。R429/433的actual J⁺截面保全部原型、桥、两次商和共同窗口；它仍不授新partial/同13门。R455现在另给同四矩/20目标唯一Af镜对的新母，原宽度、suffix、完整cap和实际基准继续保留。
 
-[R454](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)已从全部W71交换子和全Z原右三常数统一证明Tr F_R=8DΣ；原左二次self的完整C²余量/边项保留，高频纸证给wholeQ0→F_R0。R344 raw pure有序2+2=2q_J且local无ur，所以(S−P)定义域也准确；不外推一般U。结合R434反向包含，整个R∩ker(π,Q)在39维规范current中的像恰kerD32；先改E再用响应改回也不能留下D改变。H*六旧响应修正DΣ0准确定位但不冒C2单YC值。当前实际像仍Eval_actual(kerD)，七形式不等七实际障碍；R456已把同宽所有role的真实商降为D5/D6；多宽至多另余D4，接R457原canonical自然D，R453局部action继续。
+[R454](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)已从全部W71交换子和全Z原右三常数统一证明Tr F_R=8DΣ；原左二次self的完整C²余量/边项保留，高频纸证给wholeQ0→F_R0。R344 raw pure有序2+2=2q_J且local无ur，所以(S−P)定义域也准确；不外推一般U。结合R434反向包含，整个R∩ker(π,Q)在39维规范current中的像恰kerD32；先改E再用响应改回也不能留下D改变。H*六旧响应修正DΣ0准确定位但不冒C2单YC值。当前实际像仍Eval_actual(kerD)，七形式不等七实际障碍；R456已把同宽所有role的真实商降为D5/D6；多宽至多另余D4，R457已付全U自然d/完整Γ/权零signed正核，接同一全C/self补偿与actual。
 
 ### R449：完整响应核与Af诊断核分清
 
@@ -177,4 +177,13 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 同一显式二次c镜盲提升，在任意suffix及全部位置/role共用，给DkerEval=Pol≤4，故全R_E的实际formal商恰D5,D6，二者0 iff同一signed响应能清这一宽度全部C。不同宽度仍共用一个成本：κcap=ur/p²不变的c=1,x盲式只普遍付Pol≤3，已知Pol≤3⊂DkerEval_full⊂Pol≤4，可能另余D4；不授额外秩或移植各宽右逆。
 
-下一把R453完整action及新的自然D延伸作用于原canonical/Γ正规值，寻找同λ1/J⁺0且D0的原signed代表。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。
+该原canonical/Γ正规化已由R457支付：H*+J4或H*+J6同λ1/J⁺0且整个D0。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。
+
+
+### R457：自然d已给λ1/D0权零代表；接全C与self同成本
+
+[R457](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)在整个U定义d=local ur[(S−P)ordered/4]−Tr(Fhat_Q)/8，保原三primitive唯一分裂、全部真边项；R454 raw pure-cross无ur桥给d杀全部R，真仿射律H^-5d(Hx+c)。完整canonical action就是R453的ρ0+ρ2，不先假Q0；原R130全M0零积分经真倒行/端点纤维/同乘子提升到开平端路径，才合法分时长及微幅，准确扣Γm0与Γm2。
+
+正规F0的顶两式给dC2=−3x5/128、dC4=dC6=+3x5/128；正规加速度/H/Q4全d0，故旧C20=C4+c0C6+R中的c0=−1。实际正常F0值有非零六次项，真小平移使d(U)=Pol≤6（纸面函数商，不是positive实际rank）。同母四自然矩和ordered闭包给Hhat=H*+J4或+J6∈U0∩ker(J⁺,d)，λ+=1，universal Λ仍n2非零。
+
+下一同权0选择整个formal C的R_E右逆，保证补偿后仍可用R451平移≤8及R448同一个W清全部roles self。要证明该右逆可保真权0、全C0使全部suffix partial恒0、不同宽在共同评价内处理；之后才能把新partial核接原实际有限锥/基准。signed λ1不自动授positive cone，更不授全Lf range/p极性/平台/germ或同十三规范。0新执行。
