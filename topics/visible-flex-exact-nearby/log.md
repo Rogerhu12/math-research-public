@@ -424,3 +424,9 @@ main 8617e13f488c64795b96b0b569a7b8f03733f0bb 两README未变。045ac035同H9883
 ## 2026-11-16 07:51:38 UTC — 真实pull 43826099623/1完整回执
 
 公开自身rules-only Actions全5步success；07:46:04.055479启动、07:46:04.469750完成 git pull --rebase origin main，before/after均fb33e5e95e502f4c028c3201cd582376a6c22785。两README差异为空（SHAe3b0c442…），root独立核当前两blob仍21bd547f/7e2b93d6，未假称新规已读。完整小回执 notes/actual-public-rules-pull.md /3cc88def4c6bc90d38e7f6ce61f0106590a3e2cd。0科学/0旧重算。下次真pull≤08:46:04；本次只读README核a8959238bf4a4889a652e21b5da5a2dd718eaa09。
+
+## 2026-11-16 07:54:13 UTC — 完整WEJ后继科学源与输出合同冻结
+
+新support d4f887d637a709331977ef24cd48d930ea396b40 /73459B/c42b14e1；WNR3288b02946fc2c53d70505cfcbabd6a5c1f841eb /53183B/b8332d68；WZE4a753f83469a356b46be3ee9af5ffcbda1dc134f /35021B/2d524113；driver a8271fb2f45f8140f2a4178b2f24787f30a11275 /25137B/ab8e6dc8；admission4b54ed72a935e0e0ce39220becb57f6bd1faad40 /14098B/2e330660。三完整shape文件0fa8b53c、7b5934e3、8f12b73f固定所有字段/原球与26节点。原输入合同eb00287deeb27be451a27591b4e018950dcea9dc /98068B/ca2a2cf5；独立peer逐12完整原JSON、212门、280exact_checks、19原对象与15 whole-conclusions全部相等。local J0/L0原三字段仍保，工作只投影原ball；Ni原string无重格式化。新几何/幅度仍sup，strict d的A0用独立旧proof。
+
+输出合同caada3e879b0d0bc704dce55432d31455014bb09 /50656B/38b2d414：32-key index、26整图/32门、1684saved槽（1669新+15原copy），每图source/参数/12old/5module及direct predecessor hash绑定。纯JSON模型按256B球串/2048B错误，完整success847592B、最大唯一partial分支900840B；三projection保原conclusion/events/explicit prefix，并要求原canonical byte/SHA完整复原。不把静态占位串当数值；0科学run。所有真实96/Θ/ν/两mean/infinite radial head/FJ/ranks/rho_i/ell2/背景和最终几何仍保。接着冻结纯运维worker+manifest，启动唯一公开自身Actions child。README dd5e657434d9007313a835cb1be9941ef1efe0a4两blob不变。

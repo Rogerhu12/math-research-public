@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WEJ 后继的五份新数学/只读 admission 源及[完整输出合同](notes/2026-11-16-R133-WEJ-posterior-complete-output-contract.json)已冻结：26 个自然完整图、32 门、1684 槽（1669 新、15 原字复制）。12 份原实际结论、212 门、280 身份/域字段、19 原对象与15完整旧子结论已独核。完整成功和每一种失败前缀均有保存合同；当前没有新增科学计算或数值成功声明。
+
 - 容量：在83bac7b8已发布白名单后，fresh current tree 核准e81bf7dd/505865B，仅普通删除该linear512/s3派生诊断；原大正文未获取，历史可精确恢复。无数学重算，全部旧失败及独立canonical/native/source保留。
 
 - 容量：linear512/s3 派生诊断的单路径[完整可恢复白名单](notes/2026-11-16-R133-linear-positive-weight-s3-trial-cleanup-whitelist.json)已立；505865B 原blob/SHA与a8be95d8同path恢复点均固定。五个浮点tube失败结论、全部原失败行的Git历史、canonical权重/native和源全部保留；此提交未删除或重算。
