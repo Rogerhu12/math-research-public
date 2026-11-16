@@ -20,9 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin轴响应与完整Π记忆，不能删Xs/Xss；圆背景显式δe和4个metric盲/κ响应组合仅属该背景，不冒56秩；曲率保实际I/normal/全Π。
-
-[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)M含±I168，rho/h行补det±1有限170子式；正权Newton精确SPD，未授条件数/可行/收敛。两辅助量可精确PL消元；56曲率峰在body内且P8/P8′非零，未证可行下降。
+[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)保完整Π与所有位置jets；[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)给M含±I168和有限170子式/精确SPD，但不授条件数/实际下降。56峰仍在body，不能删曲率门。
 
 [R504](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)付真实168线Tα/Uα全角差式、完整e″/f″与无1/ε放大的三阶余项；原qI±τK四PSD行二阶余项保面积/scale/直接门。U/T不足B0或b_s；非线性predictor另有浮点身份/舍入点，不承继旧affine凸性。0执行，未证56下降。
 
@@ -63,3 +61,5 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 仍h≤1/128、全部168/原172盒/14门，复用9002行J/g＋8梯度＋56 U/T，仅补新原metric行；原8scan/32行/8master/64scalar/3pair6值不变。request-true56-small168-continue.json 66092B/b916203748980f07a60c2d911cbb1117ed5ce7f11d76f0ddffb7c7cb16e4d2cf；workflow visible-true56-small168-continue.yml。当前finite/actual尚0，R504新predictor未插入本任务。
 
 理论接同图.6<H<H*的Re/Im联合零、R503之间真实桥内部K/全period/13；R505已付同形库非secant局部路径，接实际桥内部/共同period。三/四原子闭账不重跑。主完成未付，继续open。
+
+[后继源码](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)已实现actual168直接非线性metric预测与paid selected二jets导出/J适配，0执行。独立浮点身份/预算；导出须实际学习完且ordinary仍在内存，不补56已丢二jets，不改当前small168。

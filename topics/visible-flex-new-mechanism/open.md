@@ -185,3 +185,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真13状态/2输入受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
 
 下一理论项：在同一新母库/χ上解决参考secant与正规局部族之间的真实桥内部能量等式，或直接构造该族的全frame/位置/八矩返回；随后同一整词付全部period/十三行。局部端点常秩纤维仅保持其自身真实端口，不能赋予预指定返回；原主C²/等距/reach/幅度门全保。
+
+## 2026-11-16 11:13 UTC：后继非线性metric与必要二jets出口
+
+[源码接口](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)已实现实际168坐标的全Π非线性metric预测（独立浮点身份）与原paid selected二jets导出/未来全168 J适配。0执行，不改当前small168；未来接受后先学习pool再导出，未存hard点不补零。继续完整曲率预测所需B0/b_s及原两网14门，所有新调用归后继新范围。
