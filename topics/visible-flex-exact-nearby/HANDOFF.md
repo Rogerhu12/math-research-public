@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 03:49:19 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 03:51:10 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 03:31:44定时CLI仍无executor，下一≤04:31:44。最新CI真pull为NIF 11-16 03:04:55.477901→bc20ed50d94fc4236f887d71696d353d3c945c3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：feae8d8ee402b7abe23b825555e76bd531ee9112；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：3eed546e78041770e66ed7c0d8f26f428b928b6b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -23,6 +23,7 @@ SNA43751213826/1/21、SCA43754452928/1/20、CEBA43780532148/1/22全部成功锁�
 ## 当前已付链与下一实际计算
 
 已成链完整原段/球/域/费用/失败逐字保[反射腰部scope索引](notes/2026-11-16-completed-reflected-waist-scope-index.md)、[03:31检查点](notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md)及各proof；只缩已成索引，未付义务不减，全部成功禁重。
+open2至WPL完整原段另保notes/2026-11-16-completed-inverse-chain-through-physical-waist-leading.md；当前正确physical row/输入/一loss model与真正finite/ν/背景门分列，旧成功/失败/域不变。
 SJA/KLA/TFA/CGA/WEA/PGA/PIBA原pins/球见open2–3。SEIA87055721仅fullcircle ci>0/co<0同逆K0<1.034/K−<7.823，不授Xfr限制逆；SJcut/CG/右ΛTF/S各一次。MS44038eae真return=UR B− Z^S B+逆且sign无限，DZA50d9712b完整D/ToD/comm/two-sign/meanrank锁，DZF new/old/lost0；不授全incoming/return。
 R97Ab2d4bb56、RNEA257644a4、NIFA1b2c3b70唯一43789221154/43792291190/43795909913各/1成功锁；219/276/23原槽/两preGit/旧失败保completed-actual-input-and-root-inverse索引。root97核0、两natural负窗逆、Xfr=S*D+Hnat与Ni±/Cs已闭；NIFC仅Ni opnorm、逐频前提下Cs strong/joint/compact-data，非M/C opnorm或C1/KAM族。
 WPR707b8269/RRF803302f2/WPM65cc1ede：真paired KH=Ra−2hΠ，a保；腰目标P FixRa与Xfr不同，Ti/To非Xfr endomorphism。反射两mean槽rank1只令odd腰平均自动零；evenmean ODE/source/ν/外cap/amp全保，boundary mean/amp local rank2不授PDE square；endpoint mean方向不授Poisson自由kernel。

@@ -140,3 +140,7 @@ root写12,818B/4998ef8208e3dc9e5474fe456bed53ebf4e7d987f7684d888f6705c9f1f55d0a�
 root全文独核31,021B/052bd8ed9550ffebd9cb56744f7d4e56a9b6de5405c363d438813f9a100c8e24，并亲取R77 ba843df6/9207/0a727623、germ c042452a/10948/bb9a14f2及P 1b73111e/11606/43ee65f2回exact parity、公共knot C4/C3/C2与bump(.05,.18)。phase正式全文范围核2–3/7–8并回PF/CT/metric；tail核4–6/9。ηw明确为−γmeanv，非intrinsicη0。没有以小bound推S0=0，也没有删Z0的Sr。
 
 全row QaTi+E∂三项及trueoutput PFixRa闭合，root/finite/mean/radial/source/secondref全保。新C∂仅符号完整positive majorant；state直接row45与三项40是两种同对象表示，不相加重复付。需要真正可用整row界及finite/ν/背景门。独推，read feae8d8ee402b7abe23b825555e76bd531ee9112两README未变，旧成功零重算。
+
+## 2026-11-16 03:51:10 UTC — 已成逆链归档与当前open门整理
+
+把44f19c4f状态的完整open2逐字保 `notes/2026-11-16-completed-inverse-chain-through-physical-waist-leading.md`，14224B/965a4a09ba4b2a767f138a611fcf59206926d0decd4f48c27c0cbfe2cb976d26；新本节按actual physical row、原paid sources、root/finite/trueν门整理，源球/单位/失败/lost在原文及各proof完整保留。新WRA/WPL的窄same-column结论不改旧receipt flags；GH原有序return gate不误接WCS reflected model。未付complete E、实际finite columns/cross/mean/ν、all-s/背景/Nash全保，0科学/0旧重算。read 3eed546e78041770e66ed7c0d8f26f428b928b6b两README未变。
