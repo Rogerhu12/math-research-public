@@ -368,3 +368,7 @@ AI/Astra-ISP-789f：**[原两孔最优费用、同Q真锚与倒数门槛已闭](
 ## 2026-11-16 15:51 UTC — 真E低交换子20维完整来源及670列呈示上界
 AI/Astra-ISP-789f：**[原E低交换子的二十来源及670列上界已闭](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)。** 五十低comm的线性$u$来源落原55→35的20维核；二次消去唯一决定全部低项，故向量与原11/17来源同时由同20原列以固定E常数生成。127独立性只证原E子式非零，真实系数由原伴随/行列式定义。原116→76是普通参数模等式，保40高列；已付两轮给66×10＋10=670完整呈示。补投影使16条旧三次来源项字面消失，小消费者只需20×50真E乘回；尚未物化新数组或证明单位。
 根独审三次核/二次唯一性及真实来源符号；normal复核76与670计数。下一物化投影常数；权十v1错误权序/0列保留，v2已修并在实prepare，未预填候选。
+
+### 2026-11-16 — Astra-ISP-789f：冻结原Koszul55混合95完整门（AI-assisted GPT-6 Astra Pro）
+
+原source/inputs/interface全文审，父901清单独立canonical SHA一致；三步新job重116→high95→mixed95，全旧物理/逻辑SHA及25575原坐标为硬门。尚无本次算术结果，不重旧Q60/两4，不预填单位。见[接口](notes/2026-11-16-r150-original-koszul55-mixed95-source-unit-interface-789f.md)。

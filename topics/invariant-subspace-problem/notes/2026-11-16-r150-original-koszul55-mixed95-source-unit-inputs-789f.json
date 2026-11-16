@@ -1,0 +1,252 @@
+{
+  "format": "r150-original-koszul55-mixed95-source-unit-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator with /root; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
+    "bytes": 16461,
+    "sha256": "fc1dfea5219a773af1140c3c9e8ba52bcb6acfd36ae67bd325c9317e416d0ab5",
+    "gitBlob": "65c4d8a2bcf950c4911044d216faefad0877733b"
+  },
+  "paidParent": {
+    "format": "r150-original-quartic-syzygy95-small-field-gate127-v1",
+    "binding": "9f0ee10f7e4cece784d8140d063f94c210105e7dded9f811710d6ec6f2825fa1",
+    "source": {
+      "bytes": 15520,
+      "path": "2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
+    },
+    "phases": {
+      "complete-original-quartic95-unit": {
+        "bytes": 20816,
+        "logicalBytes": 63121,
+        "logicalSha256": "b711688351ce47161d8e898f1322a2e4e0c355bf8d7033d7a6bb2884a95343eb",
+        "path": "complete-original-quartic95-unit.json.gz",
+        "sha256": "71d679b394ab9c58f542c576690397d8f1cbcba627d74daffd72f9bbb2e3302e"
+      },
+      "whole-original-quartic95-input": {
+        "bytes": 16730,
+        "logicalBytes": 95934,
+        "logicalSha256": "bf86bf186cd64d3ed78e0bf66b794bca62aa72e71abd3de3335e905c7cea0589",
+        "path": "whole-original-quartic95-input.json.gz",
+        "sha256": "a2d91336495f29ff2a15958ab26cf2cefcb782eb2e7acac2c88d90fb91a2de07"
+      }
+    },
+    "manifest": {
+      "path": "original-quartic95-manifest.json",
+      "bytes": 901,
+      "sha256": "11ad47693c39437e3f7d4711a84817e87d96392886802471116da34e1f79dacc"
+    }
+  },
+  "paidParentExecution": {
+    "runId": 43911869940,
+    "jobId": 133455626806,
+    "stepId": "original-low20-original-quartic-syzygy95-unit60",
+    "sourceCommit": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+    "rawBytes": 8429,
+    "rawSha256": "7b23309fe6d5d80c52624f3f9f66b4a9ed311d62a23952cbce3a5e7e5e964f0b",
+    "sourceBlob": "a472cf1b3d9fd3e45319e0b4b2a9060f1adce9e8",
+    "manifestPinProvenance": "Canonical reconstruction from the complete actual two descriptors, source identity, binding and frozen manifest writer; the new consumer must verify every physical byte against this pin."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "requiresSingular": false
+  },
+  "stage": {
+    "id": "original-koszul55-mixed95-unit60",
+    "requires": [
+      "original-koszul55-rebuild-paid-high95-60"
+    ],
+    "seconds": 60,
+    "memoryMiB": 512,
+    "outerTimeoutSeconds": 120,
+    "observerHeartbeatSeconds": 10
+  },
+  "arguments": [
+    "--parent-source",
+    "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+    "--parent-out",
+    "{work}/original-quartic-syzygy95-small-gate127",
+    "--out",
+    "{work}/original-koszul55-mixed95-unit127",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "parameters": {
+    "prime": 127,
+    "coefficientRoot": 100,
+    "originalQuadraticTops": 11,
+    "ordinaryQuadraticMonomials": 15,
+    "originalQuarticMatrix": [
+      70,
+      165
+    ],
+    "originalMultipliedLowSourceMatrix": [
+      165,
+      100
+    ],
+    "koszulPairs": 55,
+    "restrictedMixedMatrix": [
+      95,
+      155
+    ],
+    "mixedMinor": [
+      95,
+      95
+    ],
+    "chosenOriginalMultipliedColumns": 40,
+    "originalAllColumns": [
+      165,
+      155
+    ],
+    "selectedLowSeedIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12,
+      13,
+      14,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "selectionRule": "Paid original95 rows, all55 original Koszul columns first, then all100 original multiplied-low columns in paid order"
+  },
+  "hardGates": {
+    "exactPaidSourceManifestAndBothStoredLogicalPhaseIdentities": true,
+    "sameOriginalOrdinaryMonomialSourceLabels": true,
+    "originalQuadraticRank": 11,
+    "originalQuarticReconstructionCoordinates": 11550,
+    "originalMultipliedReconstructionCoordinates": 16500,
+    "koszulRank": 55,
+    "koszulKernelProducts": 3850,
+    "mixedRank": 95,
+    "koszulColumnsAllFirst55Pivots": true,
+    "actualNonzeroMixedMinor": true,
+    "bothMixedInverseProducts": 18050,
+    "everyOriginalColumnFullCoordinateProducts": 25575,
+    "allSelectedMixedIdentityProducts": 9025,
+    "allSelectedFortyIdentityProducts": 3800
+  },
+  "outputs": {
+    "manifest": "original-koszul55-mixed95-manifest.json",
+    "receipt": "original-koszul55-mixed95-receipt.json",
+    "completePhase": "complete-original-koszul55-mixed95-unit.json.gz",
+    "arraysTemporaryOnly": true
+  },
+  "newJobRebuild": {
+    "rationale": "The earlier job is closed. Rebuild only the deterministic116 field model and its completed high95 parent, in this same new job; do not assume old temporary files survived.",
+    "model": {
+      "id": "original-koszul55-rebuild-field-model180",
+      "sourcePath": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sourceBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "bytes": 23879,
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
+      "arguments": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--through",
+        "seeds",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "2048"
+      ],
+      "seconds": 180,
+      "memoryMiB": 2048,
+      "outerTimeoutSeconds": 240
+    },
+    "high95": {
+      "id": "original-koszul55-rebuild-paid-high95-60",
+      "requires": [
+        "original-koszul55-rebuild-field-model180"
+      ],
+      "sourcePath": "notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "sourceBlob": "a472cf1b3d9fd3e45319e0b4b2a9060f1adce9e8",
+      "sourceBytes": 15520,
+      "sourceSha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c",
+      "arguments": [
+        "--exact-helper",
+        "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+        "--field-model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--field-model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--out",
+        "{work}/original-quartic-syzygy95-small-gate127",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "seconds": 60,
+      "memoryMiB": 512,
+      "outerTimeoutSeconds": 120
+    },
+    "supportSources": [
+      {
+        "path": "notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+        "gitBlob": "541c14b36925e3cc94018edd8a17a6a765041f5d",
+        "bytes": 33539,
+        "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da",
+        "scope": "Only read_paid_base and literal dictionaries; no exact constant build or UI solve invoked"
+      },
+      {
+        "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "gitBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+        "bytes": 23879,
+        "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+      },
+      {
+        "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "bytes": 31156,
+        "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+      },
+      {
+        "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "bytes": 16964,
+        "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+      },
+      {
+        "path": "notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+        "gitBlob": "f8aea7924d8becc10e50303a1c9b36f34d718014",
+        "bytes": 5855,
+        "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+      }
+    ],
+    "excludedComputations": [
+      "exact six inverse recovery",
+      "old rational60 solve",
+      "two-four exact solve",
+      "parameter polynomial matrices"
+    ]
+  },
+  "mathematicalBoundary": {
+    "exactESelection": "A successful original mixed minor is a legal-place unit for the same E source matrix. Define exact E coefficients by its original adjugate. Do not lift field coordinates.",
+    "sourceTransport": "For the E theorem subtract the true G Koszul sources, whose image is identically zero; do not replace this step by only the quadratic tops.",
+    "presentation": "The already-proved two-round/canonical-source theorem then yields at most200 gradient columns and210 columns with Bell. This run does not materialize those parameter arrays.",
+    "noBellUnit": true,
+    "noFirstRoundStabilityClaim": true,
+    "noCharacteristicZeroCoordinateArrayClaim": true
+  },
+  "continuation": "Fresh independent output only. A budget or error leaves the actual completed phase descriptors; it is not a resumable arithmetic prefix and must not trigger an empty retry.",
+  "dataPolicy": "Only source/parameters/proofs/execution identities/output SHA in Git. All matrices, raw receipts, profiles and logical phase payloads remain temporary or completed job logs.",
+  "status": "Static frozen; shared executor unavailable; no new local AST or arithmetic"
+}
