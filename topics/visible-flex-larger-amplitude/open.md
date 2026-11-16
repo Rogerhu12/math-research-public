@@ -6,95 +6,58 @@
 
 ## 1. 完整非零112场与原末门
 
-本次压缩前全部逐字保[9f355941时open](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/open.md)，同时[HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/HANDOFF.md)保所有run/source、原词/参数/资源、失败/未返/未访/清理及a7b/5af/bd4a/368e/bfe等全部更早链。下述是当前工作入口，未删除或改写任何旧结论责任；§4–6逐字不动。
+本次压缩前完整正文逐字保[3034a206固定open](https://github.com/Rogerhu12/math-research-public/blob/3034a2069904a391deaad55ec8fa3a4ea836100b/topics/visible-flex-larger-amplitude/open.md)及[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/3034a2069904a391deaad55ec8fa3a4ea836100b/topics/visible-flex-larger-amplitude/HANDOFF.md)，其9f/e05/924ea/90624及更早链保全部词/参数/失败/未返/未访/资源/清理。以下为当前可执行入口，旧科学责任不变；§4–6逐字保。
 
-**当前只接受M96/N1024/scalar=.99开放前缀，完整非零112/338/450仍无。** 原M112/N2048、699×453、3active+109core、338/112、双mean及全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减。每模型fresh W/J，不跨模型相减merit；未返/未访不是数学拒绝。R491/R493/R501真实每H全J/十数组/R273→同H128 owner/replay/全组件→正常338×112响应；13scalar/hex一次RN64、负零/两mean/原阈值保。63全453未接受warm＋96/port为真prefix，91仅尾seed。c6a原三次全J及末门保持，FD只检查当前affine实现，不构成真实DD精度证书。
+**当前只接受M96/N1024/scalar=.99开放前缀，完整非零112/338/450仍无。** 原M112/N2048、699×453、3active+109core、338/112、双mean、全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减。每模型fresh W/J，不跨模型相减merit，未返/未访不是数学拒绝。R491/R493/R501真每H全J/十数组/R273→同H128 owner/replay/全组件→正常338×112；13scalar/hex一次RN64、负零/双mean保。63全453未接受warm＋96/port为真prefix，91仅尾seed，旧已删父不能续。
 
-### 1.1 实际结果与当前计算
+### 1.1 当前实际结果与唯一读者
 
-|实际请求|当前完整结论与未付|
+| 请求 | 已知事实与下一责任 |
 |---|---|
-|221 / [R509](results/R509-actual221-current-H-one-accepted-and-owner-resource-partial.md)|run43835161762/source8b352；71252/efd2两job同字齐，当前H全J/R273/两包真返。128初norm14074125.721549422871→iter0 α1全576/129248行接受到.0011938401993273305。iter1 α1仅133stage/30016行，133..575预算错误，非数学拒。owner5999.327/6000、原2e−9未过/fresh replay未完；全部post/protocol/FD/fullDN未起，global余11852而outer resource_stop=null。10:56:30.9007389Z真清，无可续末state。|
-|215 / [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)|85438/5923全读；另一原H的owner1方向α1 norm1.22096e−4→9.68582e−11/replay词同；stage8000s478/576、audit574/576/7479queries，boundary/endpoint/fullDN未起。原父partial口径及完整未访保正文，10:17:38真清，不能借204旗或混作221的H。|
-|211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)|81156/5994全读；零H284.145s收敛，首1/64全576J/R273后α1真实接受196395.0911309943→5181.565456345417；下方向iteration1 stage105/cell1/segment4原18000预算止，正response/338/audit/FD-fullDN未付，10:25:27真清。|
-|223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)|run43839064900/source035d，16exit0＋8原eligible和f847控制流付8warm/freshFD交接，非native/coupled/fullDN。whole113011/fc09、recovery113361/1cc7超90K70无body；具体α/merit/FD值/末三词/末父7未返。八必要先存再退原大payload，quiet但cleanup skip；runner销毁后无可续末父。|
+| 221 / [R509](results/R509-actual221-current-H-one-accepted-and-owner-resource-partial.md) | 当前H128 iter0 α1全576接受norm14074125.721549→.001193840199327；iter1只133stage后原6000预算，tol2e−9/replay未过，post/FD/fullDN未起；真quiet删除，无父。 |
+| 215 / [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md) | 另一H owner/replay过，stage8000s478/576、audit574/576/7479queries预算；不能混221的H。原末门未付，真清无父。 |
+| 211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md) | 零H完成、首1/64原全J/R273后α1真接受196395.091→5181.565；下方向stage105原18000预算，正fullDN/final未付，真清无父。 |
+| 223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md) | 16exit0与八eligible/固定控制流付八warm/freshFD交接；whole113011/recovery113361超90K，具体数值/末父未返，quiet而cleanup skip，无可续父。 |
+| 224/R525、227/R539 | amplitude各唯一；run43851068999/23176与43860144962/5b5dd，实际科学中。 |
+| 225/R528、228/R541 | exact各唯一；run43852521165/5af07与43858623707/99f4，实际科学中；228 compute133283168757。 |
+| 226/R537 | root唯一；run43863878883/headf93b、compute133287356711，单POST200，前1–10success/11科学；[官方绑定](notes/2026-11-16-request226-official-run-binding.md)。 |
+| 229/R543 | geometry唯一；run43863347779/head4a0f、compute133285545704，单POST200，前1–10success/11科学；[官方绑定](notes/2026-11-16-request229-official-run-binding.md)。 |
 
-204/R446虽四组件旗返但111829必要超限、不能补215；208/R467零H5774s而首1/64 stage366停、0R273/0trial，原清理与完整记录均保正文。206/R455及213/R480原八39交接亦不冒完整BVP。运行中如下五个，以唯一读者终态正文为准，root不重复取科学日志：
+六run均不读running科学日志，各终态job由指定读者唯一一次。完整真实头与全部元数据见HANDOFF/官方notes；phase成功不替最终科学门，未返不补拒。
 
-|请求/结果|真实run / source / compute|唯一终态读者|
-|---|---|---|
-|224/R525|43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89 /133243448382|amplitude；11:00 step11全H/J/R273|
-|225/R528|43852521165 /5af07ed64877475bc05a488306246c9be22926bb /133248437738|exact；11:00 step11原科学|
-|222/R511|43837980277 /6643ea831419fb5adf1fd5d21fdbc918fe86c4cd /133199299786|amplitude；11:00 step18全physical/far|
-|228/R541|43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /官方job待reader记录|exact；11:33官方queued，唯一POST200；217已终态R490|
-|227/R539|43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805|amplitude；单POST200，11:43 setup；[官方绑定](notes/2026-11-16-request227-official-run-binding.md)|
+### 1.2 原128缓存、完整并行与当前模型
 
-### 1.2 已接来源与实际瓶颈
+[R524/224](results/R524-actual-input-support-complete-original-full112-composition.md)181源保原211全部，R523按真实有限T支撑保全部226×224/双mean/原j序/非零下溢和fallback；14计数/last/presence完整。R531/R538的227为193源，真withJ主线程按原n/profile/k取完整profile、每engine原n序、完整226×224/双mean与主端原port/reduction；原noJ/endpoint/audit/十trial/R273不改。全partial/首原numeric error与资源不同，2×3072MiB线程heap另main6144（非RSS），原单18000和90K70/quiet保持。见[R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)、[正式R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)。不预填收益。
 
-[R524/224](results/R524-actual-input-support-complete-original-full112-composition.md)七件已498c03a7且单次dispatch；[官方绑定](notes/2026-11-16-request224-official-run-binding.md)证实际23176为直接子头，整topic/.github与发布同字。150public+31gen=181，原211168身份全保；R523实际有限T支撑保完整226×224/两mean/非零j序/非零下溢项/原fallback、14计数/last/absent-null。原六词λ=.001/全H/J/FD/fullDN/18000/quiet/单90K70不改，不迁211已删接受点。不提前推断速度/收敛/资源前沿；Inf/NaN分类不冒payload。
+[R527/225](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)356源，真R522三个paired组件和R515三physical compiler分责，全列/双mean/每次RN113、有限资格及原fallback保。[R535](results/R535-original128-local-finite-root-words-and-real-compiler-hook.md)同root有限词/18计数/full last，实际原root/owner次序与残差门保；R536/226六件225426B实际361源，在真owner_scope安装后原main/replay，原persistentCPP及19200/6000/1200/8000/600/600/1800/allgates不改。五physical源真目录，全部RootStats/compile/三安装source与八具名完整可逆表，whole90K70不保证fit。R534模型不混；完整[正文](results/R536-original128-root-finite-words-complete-full112-entry.md)及[接口](notes/2026-11-16-request226-root-finite-words-full112-interface.md)。
 
-[R527/225](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)及[接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)已5af07ed6、单POST200，[官方绑定](notes/2026-11-16-request225-official-run-binding.md)确认实际同head。原336＋6public＋3R522/11caller=356，R518十二中间view仅内存；component93ec/operator082d/stage49a7含R515真物理缓存，paired完整compiler及三physical site实际回执分责保。原19200/owner6000-replay1200/stage8000/boundary600/endpoint600/audit1800、全列/mean/全部门/quiet/独立90K70不改。R527两文已勘误338真行序slope/second/两mean/height，原冻结request历史说明不作索引，不追改运行源码。
+[R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)/[R532](results/R532-current-owner128-projection-and-complete64-stage-library.md)/[R534](results/R534-current-owner128-same-DN-complete64-model-and-original-gates.md)保原128 owner/tol/replay权威，旧post明确deferred；同次全577×224 RN64→同实际DN全576×226×224/port/双mean→有限64准确lift128→全boundary/338endpoint/独立audit/assembly/FD/fullDN。重新anchor L(H)=D(H)但近似B不冒DD/收敛；FD只验当前affine实现，原BC1e−11/RMS1e−6/freshJ/audit责任保。投影/flow/lift同stage8000窗口、真owned guard ready/TERM→KILL/reap/quiet，不混Python/Node epoch；非finite不补0、全partial/未访/尾字保。R542/229已正式372源，request79743/934d、最终wf22634/cc34，原19200/allcaps/90K70/quiet、缺必要或运输失败清complete；R535不含，R509前置owner停止不能由后置模型补。[R542](results/R542-request229-current-owner-projected-model-complete-entry.md)。
 
-[R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[R518](results/R518-live128-radial-cache-complete-source-composition.md)及[R522](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)保各有限资格/非finite原fallback/准确整数双dot各一次RN113/全224列及双mean；不是整体性能、导数精度或同预算停止的证明。R465/466/470/471/473/474/523各局部合同原样保。
+**下一独立结论R547已完整交付105526B，立即刊**：真R535原owner有限词与R534同DN模型在同scope合并，原三boundary/components/assembly逐字保，10新caller及全8统计/来源表形成387源，原128权威及全部钟/门保持；geometry接R548/request231/R549。实际226/229数值不迁入231。
 
-**当前实际推进：** R531/R538的227、R533/R540的228、R534/R542的229已分别正式派发；原224/225继续原运行。根R536/226本次完成真实缓存与必要reader全链并单次派发；exact R544→R545/230修实际来源与完整composition；geometry R547→R548/231诚实合并已刊两种改动。科学状态以各唯一终态正文为准，未返/未访不补数学拒绝。
-
-**[R533](results/R533-complete39-lossless-necessary-semantic-relations.md)/[接口](notes/2026-11-16-complete39-lossless-necessary-semantic-relations-interface.md)完整三件65743B已付表示定理**：真实f793原compose之后，对两个RMS角色的同batch/trial/check全rows严格相等才共享；两index-set、17具名节点、五原file receipts、真实pair/query及具名bool/null/metadata常量列保全部值/类型/负零/presence/列表顺序/错误/未访。明确逆映射精确还原原R512已选对象；每项及最终whole body计入全部header/来源后严格更短才采用，否则原对象，不是通用JSON编码。单selected-index24行仅省1773B，不冒解决23K超限；未知113011/113361无实际减后数值，原90K/70不变。真实overflow分项仅大小，正常与recovery共用两真实接点；R540/228完整新source闭包/namespace/双合法格式及原八组门继续，尚未dispatch或复用旧父。
-
-**完整真实原128入口及条件保持已付，实际结果留R537。** [R536](results/R536-original128-root-finite-words-complete-full112-entry.md)/[接口](notes/2026-11-16-request226-root-finite-words-full112-interface.md)六件225426B/topic206671B：gen30464/14a8、plan62193/772e、request71828/6685、workflow18755/0d23、proof18510/6d6f、接口23676/28f2。原342public＋R535两public＋新gen=345，三R522＋两R535＋十一caller=16，实际361源；R518/R527中间仅完整文本。真owner_scope先安装R535编译函数再原main，原persistent CPP/main/solve/replay及19200/6000/1200/8000/600/600/1800全门不改；旧frozen旗false、准备/安装/真正g++回执分列。完整RootStats/18cache计数/full last/实际compiler/三安装来源/五物理source manifest真回读，八具名关系完整逆含全部header计原90K70、不保证fit。五原源真目录修复不改数值packet；原R522/R515后置保字，R534模型不混。新workflow只dispatch，必要缺失/运输错误清complete、原quiet/清理保。只纠正338行序说明，全scientific对象其余逐值核；完整源码即发布后单次官方派发，不添测试/科学门或恢复已删父。同笔[229官方绑定](notes/2026-11-16-request229-official-run-binding.md)确认run43863347779、actual与发布同4a0f、compute133285545704前1–10success/11科学，geometry唯一R543。
-
-**[R540/228](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件本次完整刊**：114public+6生成=120保原223全部116，当前helper75760/bb02与worker29708/ea2d在真HERE实际接R533，原f793 compose无输入schema guard，旧223格式名与真实228 run/source分清。原八39/98原父/完整freshFD/全部门/10500/175/195min/90K70/owned quiet保持；normal/recovery同一新表示，overflow只具名大小，成功后cleanup补实际comp到sys.path且不改范围/规则。R541 exact唯一读者，单次官方dispatch完成后另绑实际run/head；当前没有新数值或fit保证，不以来源120推无限动态闭包。
-
-**已证明完整源码组成及有限原路径的条件字词保持；新源未执行。** [R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)/[接口](notes/2026-11-16-complete576-parallel-cellflow-source-interface.md)七件189535B：parent21284/9434、pool29074/ab6d、reader20373/da99、generator10495/b628、plan63026/4996、proof17455/b0a7、interface27828/d898。原224全部181来源保，四public＋八gen成193；实际same HERE完整runner/client/reader已接。主线程按原n/profile/k顺序取完整实际profile，worker每engine保持原n序、全226×224/双mean；主线程原port除法/累加/边界次序保。仅withJ并行，原noJ/endpoint/audit/十trial/R273门保；只声明固定实际源有限成功全路径，不冒任意callback/FIFO中断或资源前沿等价。全stage地址先记、完整partial/首原numeric error条件与每worker/主engine统计分责保；unknown/resource不补数学拒。线程old-generation总预算≤6144MiB另保main6144，不冒RSS；原单18000钟/90K70/quiet保持。实际R538/227将选2×3072并接原224准备后新193，尚未dispatch/预填收益，R539预留唯一amplitude。
-
-**完整实际入口已成，实际结果留R539。** [R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)三件94103B/topic40357B：request19994/56c9、workflow53746/3305、证明接口20363/46ae；R531七件原字保。真新job先原224全部181恢复，再同HERE四helper/八view形成193，原224 request88551/6aa2、recipe21539/0c9完整祖先另列。实际runner15716/4c7e、reader50519/fb88、report/cleanup/来源receipt和当前workflow语法范围全部用真新source，不仅换外层标签。明确2×3072MiB线程old-generation，原main6144另保，不冒RSS；原M112/N2048/576/226×224/双mean/全部H/J/FD/fullDN/末audit、18000/330/350min/2700规则/90K70/owned quiet保持。source准备与科学一次钟分层，新源失败与超限保raw，旧已删父不续、未返不补。新增.github/workflows/visible-larger-public-complete576-parallel-cellflow-full112.yml仅本题入口；发布后官方一次dispatch，实际run/head另记，amplitude唯一R539，不预填速度或接受。
-
-### 1.3 当前128权威解与完整64模型
-
-[R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476/f930已刊完整纸证：同次X128全577×224一次RN64、同实际DN全576×226×224/port/两mean形成明示近似模型；有限64字准确嵌入128。原128值/residual/replay/audit仍权威；重新anchor L(H)=D(H)保原最终真实BC1e−11/RMS1e−6/fresh J+audit责任。完整338mixed J可随新模型变，FD只检affine一致性，不证DD；不新增全解析门，无J误差/收敛/速度保证。c218旧fixed64禁止/false及R501旧全128stage绑定不能冒用。
-
-**[R532](results/R532-current-owner128-projection-and-complete64-stage-library.md)本次完整三件84417B**：Python25000/fab3绑定真实四source/七schema/run/call/H/全state/residual/stage和fresh replay，原b233一次投影全577×224；JS32316/2279在同DN原engine/profiles/steps调用完整576×226×224，保端口前/后224²/双mean、原输出/诊断和每stage完整ledger。只在全部实际输出齐后complete；当前partial保未付后缀和实际数组尾字，非finite不补0。实际原clock回调及同步cell owned hard-stop由调用者接，Python/Node钟epoch不能混同。原128state及所有非线性门不改，单90K超限70、raw全保/无cleanup权。
-
-**已证明完整来源/全返回及有限算术条件组成；没有新科学运行。** [R534](results/R534-current-owner128-same-DN-complete64-model-and-original-gates.md)/[完整接口](notes/2026-11-16-current-owner128-same-DN-projected-model-complete-interface.md)五件225478B：gen18862/990c、core-plan72022/826a、complete-plan83541/def1、proof21178/0385、接口29875/5b76。372=原342public+14gen+两R532库+新gen+13独立view；原225全部356身份保。实际owner先完成原tol/replay，旧post明确deferred；同次全577×224一次RN64→原同一个DN全部576×226×224/port/双mean→有限64字整数准确lift128→原全boundary/338endpoint/独立audit/assembly及原FD/fullDN末门。原128值权威，模型不冒准确DD/收敛；原19200/6000/1200/8000/600/600/1800保，投影/flow/lift共stage窗口，同步cell有真owned guard ready/TERM→KILL/wait/reap/quiet。五原物理来源真目录及完整manifest修路径，packet数值体不改；新所有partial/未访/来源/必要scope保，单90K超70，科学失败必要全返且原quiet真时仍可清理。R535不混，R509先行owner成本未由此解决；R542/229入口继续、R543 geometry唯一，尚未创建或dispatch，无速度/模型质量或接受预填。
-
-原a090入口先readG，R534真实供齐而不冒现有noJ接口；R509未tol/replay时仍不具模型输入。新229尚未运行，不补真实J或accepted父。
-
-**228实际已单POST200**：run43858623707/attempt1、实际head99f4ee650e031448e9fcb33ead672e48a8babd3d为发布e5af直接子提交，仅HANDOFF规则一行改变，comp/.github/双README同字，详[官方绑定](notes/2026-11-16-request228-official-run-binding.md)；R541 exact唯一，无数值预填。
-
-**完整入口来源与控制流条件已付，实际结果留R543。** [R542](results/R542-request229-current-owner-projected-model-complete-entry.md)三件121837B/topic99203B：request79743/934d、最终workflow22634/cc34、证明接口19460/08e3。原225全部356源保，新345public+27gen=372；R534真13view先生成后全map绑定，原输入/runtime/livecaps/resources/双README对象逐值不改，338只纠正说明。实际owner-first/同DN全576模型/准确lift/全boundary/endpoint/audit/FD/fullDN末门和19200/allcaps保，R535未接。source必要真读文件核schema/plan/run/SHA送report，science独立90K70；缺正文或运输校验失败明确清complete，原quiet/清理保。新增.github/workflows/visible-larger-public-live128-projected-model-original-fullDN.yml仅workflow_dispatch；首稿7f11已废，只派最终cc34。正式发布后单POST另记真实run/head，geometry唯一R543，无性能/模型质量或接受预填。
+[R533](results/R533-complete39-lossless-necessary-semantic-relations.md)保原R512全部已选值/类型/负零/缺键/行序，固定RMS/角色/receipt关系有明确逆；全部header计whole严格较小才采用，90K70不变且不承诺未知113011降到90K。R540/228120源真helper/worker在HERE接，normal/recovery同用、八原39/全freshFD/10500/175/195min/quiet原门保，当前已真实运行，不能保留早期“未dispatch”描述。[R540](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)。
 
 ## 2. 准确十族候选与完整453→450
 
-完整旧段及全部原九p/84trial/18FD、七态112三列/双mean、全G/H/span、QR/clip/Cauchy/每alpha原Armijo与S球均固定在[9f355941 open](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/open.md)及其368e/f863链。有限拒绝不证无解或秩亏；旧201末响应不能由202补。
+原九p/84trial/18FD、七态112三列/双mean、全G/H/span、QR/clip/Cauchy/每alpha原Armijo与S球详3034及其9f/368e/f863固定历史。有限拒绝不证无解或秩亏，旧201末响应不能由202补。
 
-[R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)的Decimal单位投影、末十词、完整域/未返/失败责任仍保。R489/R492准确同C交叶、R495/R500/R504真family/target/L/七cut系数/六jet/Loewner/evidence均不得省；新累计E只0阶tail半径，旧粗合法fallback不补E_r/E_rr。工作SHA不混固定g语义签名，source组合不冒接受或误差下降。
+[R439](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)的Decimal单位投影/末十词及全部域/未返边界保。[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)只将actual202投影p3/theta3/eta3设明确+0，其余七词保，新g/点不继承旧域/J/接受；p3仍active、theta3/eta3冻结，真453后十词全冻结fresh450，原7200共享/32GiB/绝对钟/全部门不减。coast仿射与零二jet条件不替非coast/全域/BVP。
 
-[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)只将实际202投影p3/theta3/eta3显式+0，其余七词保，新g/点不继承旧域/J/接受。coast正端且0<κ<1条件仿射基底和零二jet已证，非coast/全域/BVP另付；p3仍active，theta3/eta3冻结，真453后十词全冻结fresh450，原7200共享/32GiB/绝对钟/全部门保。
+**[R490实际217](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)与[R511实际222](results/R511-actual222-coast-base-domain-complete-and-native-source-binding-stop.md)均完整刊。** 两独立run新十点requested域1028/1637且未决/未访0；112far/joint、13850点/16128occ、四数组、gzipstored20359322057/decoded95028212980的完整身份齐。217BVPchild1.029s、222child1.379754821s实起后同b3ce旧client argv对b754/387源码guard；closed另9c7a ENTRY缺coast_base，均科学前来源停止。composition旧原文件93236不是未返necessary长度，原90K超限缺marker；15精化未起，217另8sameC未起，真quiet而cleanup skip，无accepted父。两run时间/正文/SHA/工作分辨率不同，全部不可补范围按各实际正文，不混C账、stderr、derived源。
 
-[R488实际216](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)全112far/joint、13850点/16128field完成，但free12456181760<34359738368，BVP/453/450及15后继未始；八必要齐而rules98410>90K未返/cleanup skip，无可续父。C/factory未付与coast中心严格反证各按原域保。当前222/217已真实另接R498首行gzip及所有stored/decoded消费者、R499全规则reader，不能倒填216或预保证空间。
+218/R507裸dict语法与220/R506政策JSON误入source-only均科学前止；R510/222只修分类，279public+179gen=458，原四outer/46source全文及derived22099330/2d1c真实登记，原f6ca checkout不改，实际HERE/原18900+2700/32GiB/九scope/90K70/quiet保持。PYPINS只覆盖祖先220，不能扩大成新shell全部核。216/R488全far后原32GiB门未达，不能由217/222反填。旧已删SHA无接受父。
 
-218/R507的union57beb裸dict语法错与220/R506政策JSON误入source-only名单均在科学前停止；完整source/pin/失败/未返/cleanup skip保各正文与固定旧open。当前222独立修复分类，原既有run不追改、不把源准备成功冒数值成功。首完整accepted453→同g真450仍未返，不能从已删原state、SHA或任何同C采样补接受父。
-
-**[R490实际217](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d本次完整刊**：source4a08/run43838608475，compute133207238555/report133265145172两终志各唯一。新R503准确十点factory requested域1028 passed/1637 processed且unresolved/unvisited0；全C有效包围仍有2609工作分辨率未达，非新数学门。全112far/joint/13850点/16128field/4数组齐；R498 stored20359322057与decoded95028212980/1604049行真核，末free86813122560，BVP实际已启动1.029s后native source guard而非旧空间门。closed另独立orchestrator guard；旧220 composition原件93236且necessary超90K无marker，refinement71079 body返但依赖不全。R499 rules85398与21755742完整，原15后继和新8roles全not-started，没有453/450。原quiet范围齐仍实际cleanup skipped，绿色step不冒删除，无下一job可用父。exact续R544真实launcher/owner/orchestrator来源和完整composition具名语义修复→R545/230/R546；原scientific/32GiB/钟/全门不减，不以source错误判无解。
+**[R544](results/R544-current-C-actual-source-bindings-and-lossless-composition-relations.md)/[完整接口](notes/2026-11-16-current-C-actual-source-binding-and-composition-relations-interface.md)本次五件136350B完整刊。** 两真实argv/ENTRY修复保原guard，41核心+8sameC共49views/95透明literal，展开1972880B仅Actions，先原217八历史视图。具名source新增行用完整地址/name/SHA三列及全literal/其余对象，原键/行序、presence/类型/±0完整逆；whole含全部header严格缩短才用，原90K保持且不保证fit。原完整composition文件与necessary body身份必须分开，真caller/reader/marker/cleanup一致。exact继续R545/request230/R546实际完整入口；原9scope/sameC/全部科学门/owned quiet和clock不得减。
 
 ## 3. 完整C/far、闭场与固定目标精化
 
-完整旧段逐字保[9f355941 open](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/open.md)，其bfe/6643/ad086/3559/fbe97/289f等保全部原来源/词/参数/失败/资源/清理。所有连续几何责任、强C²及固定参数精化不因新数值实现缩减。
+R489/R492准确同C交叶、R495/R500/R504真family/target/L/七cut系数/六jet/Loewner/evidence不得省；新累计E仅0阶tail半径，旧粗合法fallback不补E_r/E_rr，工作SHA不混固定g语义签名。217继承222底座共473源，其sameC8roles先首shared、同原钟重算1440/six/cut；各真acceptedlevel1/2全metric/measure/compare。原head1800含cut120/close30，metric240/measure300/compare120、末900裁原18900+2700，不能分阶段重开钟，原held/solver门保。
 
-[R510/222](results/R510-frozen220-source-list-repair-and-single-clock-composition.md)/[接口](notes/2026-11-16-request222-frozen220-source-classification-repair-interface.md)279public+179gen=458，只修JSON分类保全文pin/四outer/46源；derived22099330/2d1c、原f6ca checkout不改，实际HERE与namespace始钟包含准备，18900+2700/32GiB/九scope/90K70/quiet原样。PYPINS只核祖先220，非222新增shell。唯一run/读者见§1。
+首闭场R437/433/434/438/452须同C全field/cut/真两帽/atlas/shared、metric/reach/独立held，A/B与材料共轭真实付。R456只复用同C/root/μ/全112far族，五factor的新节点/450/H/J/FD/fullDN/final重付；R462/R464增M须真新父，新增模式/深尾/2M槽/全(3M+2)×M J/双mean保。R459同准确材料广义谱付全t，真实下降/仅upper改善/未分辨分列；R443/R447更强跨级C²未付不增门。R461每帧完整cut/帽/marker/错误地址，顶点不代全域，多网格按根15保源/配方/run/SHA。
 
-[217接口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)真222/2d1c底座458+7public+8gen=473；首shared后同原钟1440/six/cut与level0，原真accepted level1/2各同C全metric/measure/compare，8独立scope/各90K。1800含cut120/close30、metric240/measure300/compare120、末900均裁原18900+2700；原所有held与求解门不依新consumer，查自身workflow，217→222→220原quiet链保。
+[R514](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)/[R519](results/R519-same-evaluation-sixjet-local-defects-and-metric-consumption.md)/[R521](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)同准确F/Frenet六jet、三family同次18jet和Fourier/cubic Bernstein给条件全Gram界；公共u含Lnum链因，原Gram/DFS/globalnorm尚未消费。R354/R314、真实正域/常数/形成差/tail μ′/角投影/材料/B/双mean/patch/全闭积分仍未付，RMS1e−6不代全域界，不增BVP逆门或fixture。
 
-首闭场R437/433/434/438/452仍需同C全field/cut/真两帽/atlas/shared、metric/reach/独立held，A/B与材料共轭真实支付。R456只复用同C/root/μ/全112far族；五factor后所有新节点/450/H/J/FD/fullDN/final重付。R462/R464增M须真新父，新增模式/深尾/2M槽/全(3M+2)×M J/双mean保持。R459同准确材料广义谱付全t，真误差下降/仅upper改善/未分辨分列。R443/R447更强跨级C²未付不增原门；R461每帧完整cut/帽/marker/错误地址，顶点不代全域，多网格按根15保源/配方/run/SHA。
-
-[R514](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)同准确F与合法Frenet/六jet输运给全Gram条件界；[R519](results/R519-same-evaluation-sixjet-local-defects-and-metric-consumption.md)真三family同次18jet诊断旁接，公共u含Lnum链因，原Gram/DFS/globalnorm不消费；[R521](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)有限Fourier/Frenet tube与cubic Bernstein给η_C条件界。原R354/R314责任、全部实际正域/常数/形成差、tail μ′/角投影/材料/B/双mean/patch/全闭积分仍未付；RMS1e−6不代全域界，不增全BVP逆门或fixture。
-
-[R516](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)/[R517](results/R517-rational-full-E3-kernel-and-current-image-binding.md)/R520完整E(3)覆盖、真像/帽见证及原owner双deadline已付，实际当前γ仍无。[R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)及[R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)全双向可重复对应/交叉边/frontier给0≤L*≤Δ≤dE、Δ=0 iff含反射全等，误差2E+ω/2+h；仅γ<Δ有细化保证。首未分离叶仅未证，原R425全账/真帽成员、source绑定、90K70/raw保/无cleanup权及R520原钟/三tuple仍须实际付，不把条件构造当完整场或比例通过。
-
-
-### R511 / actual222：完整新coast域与真正源码停止
-
-[R511](results/R511-actual222-coast-base-domain-complete-and-native-source-binding-stop.md)32170/5d95；run43837980277、source6643ea831419fb5adf1fd5d21fdbc918fe86c4cd，两终日志amplitude各唯一已读。requested新十点域1028通过/1637处理、未决/未访0；112far/joint、13850点/16128occ/65102work、四数组与gzip20.36GB/decoded95.03GB身份齐。BVP child实起1.379754821s/exit1，旧client argv对新driver来源guard，在prepare_design/phase之前；closed另ENTRY缺coast_base。composition必要超过原90K且无body/准确失败长度，15精化未起；原quiet真而cleanup明确skip，无接受父。与217实际b3ce/b754/387相同但不混本次时钟/正文；R544两guard及完整source关系后继继续，所有原门保。226官方run43863878883/headf93b、compute133287356711已step11科学，root唯一R537终态读者，running日志0。
+[R516](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)/[R517](results/R517-rational-full-E3-kernel-and-current-image-binding.md)/R520真像/帽与全E(3)覆盖、owner双deadline；[R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)/[R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)全双向可重复对应/所有交叉边/frontier给0≤L*≤Δ≤dE、Δ=0 iff含反射全等，误差2E+ω/2+h，仅γ<Δ有细化保证。首未分离叶只未证；原R425全账/真帽成员/source/90K70/raw保/无cleanup权及原三tuple/钟仍须实际付，无当前γ或完整场比例证书。
 
 ## 4. 同一g闭合与真正九冻结450
 
