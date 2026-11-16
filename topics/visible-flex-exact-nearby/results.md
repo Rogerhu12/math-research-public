@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WMT：strict完整输运通量与角L1均值强迫界](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)：同genuine trial/全Vext，三个完整幅值经五次mean递推保八terminal及原n^-23/6；真root/local/全部jump/两mean与完整回接保，旧42目标冻结，未评新数。
+
 - [WPTVR：五个整体最大值与继承式网格细分](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)：保完整T*给同算子的更细tail gate，仅A/Eb/Ub/L/B五whole maxima；预锁m细分不重系数收缩，mean/ramp及全部signed Schur保；无新数值。
 
 - [WPTV：同一正侧head的冻结交叉块值域尾证书](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)：精确constant/reference split避开新径导，保原collar/body双source、完整193mean/ramp/所有交叉；17现有小text+19历史恢复件闭包，不授新数值或finite逆。
