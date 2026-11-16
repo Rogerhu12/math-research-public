@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0859-R879-completed-reference-pencil-certificate",
+  "request_id": "20261116-0920-R883-original-t-frame-minimal-sources",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "07bcd8608a6fd2e178593ce8f830375689ed7461",
+  "rules_last_read_commit": "8dfc6d8c0fe4bcc414c842e473a11286487bc2ff",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,18 +12,132 @@
   "reader_sha256": "d9960e9e9539740b9a4597bb5454b111782c5920f75a7d75b83ee786054dfa9b",
   "sources": [
     {
-      "label": "R879-certified",
-      "mode": "ended",
+      "label": "R807-t-frame",
+      "mode": "selected",
       "source": {
-        "run_id": "43835253379",
-        "source_commit": "0f74fb43a6eba2646e34b2950f5de1131470fe29",
-        "artifact_id": 14210388032,
-        "artifact_name": "serre-global-R879-reference-pole254-43835253379-1",
-        "archive_bytes": 6787421,
-        "archive_sha256": "4b1d3a03d861049f614aaad98d9065b64e82050a11cecf1bc891ab5bbbe10100",
+        "result": "R807-original-M6-pole-clearing",
+        "run_id": "43707939269",
+        "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+        "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+        "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+        "manifest_bytes": 350485,
+        "manifest_file_count": 1003,
+        "certificate_name": "p41-original-M6-pole-clearing-certificate.json",
+        "certificate_sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b",
+        "artifact_id": 14159481627,
+        "artifact_name": "serre-global-R807-original-M6-pole-clearing-43707939269-1",
+        "archive_bytes": 60771931,
+        "archive_sha256": "74c801509f554024d0246bf62227e38c30f4e84a14d4e0af8fa917350f875a56",
+        "expected_conclusion": "success"
+      },
+      "files": [
+        {
+          "file": "R807-original-nonzero-pole-clearing-theta.json.gz",
+          "bytes": 2464,
+          "sha256": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970"
+        },
+        {
+          "file": "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+          "bytes": 690799,
+          "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
+        },
+        {
+          "file": "R807-exact-V4-M6-index-693.json.gz",
+          "bytes": 985133,
+          "sha256": "fb9b9e759ef17d9e023b7e71041aec063566c9c11ba101aa6322d3ac24ad0dd6"
+        },
+        {
+          "file": "R807-original-four-M6-pole-clearing-coordinate-index.json.gz",
+          "bytes": 2729,
+          "sha256": "358e73a299eae7f108f05142e66ee7d1109011fdcd6ef9c431a064251e6eb5de"
+        }
+      ],
+      "print_json_files": [
+        "R807-original-nonzero-pole-clearing-theta.json.gz",
+        "R807-original-four-M6-pole-clearing-coordinate-index.json.gz"
+      ],
+      "print_json_summary_files": [
+        "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+        "R807-exact-V4-M6-index-693.json.gz"
+      ]
+    },
+    {
+      "label": "R801-t-frame",
+      "mode": "selected",
+      "source": {
+        "result": "R801-original-power6-to8-long-tails",
+        "run_id": "43701282817",
+        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
+        "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f",
+        "manifest_bytes": 8877946,
+        "manifest_file_count": 30781,
+        "certificate_name": "p41-original-power6-to8-long-tails-certificate.json",
+        "certificate_sha256": "1fbcd66fb639ac94942d6f82df5ca0c291fdf3cb7af3a13c7971a6b42992c64b",
+        "artifact_id": 14156204348,
+        "artifact_name": "serre-global-R801-original-power6-to8-long-tails-43701282817-1",
+        "archive_bytes": 1049535812,
+        "archive_sha256": "dad8f653dd672099a873618992f32425902298250b1f62a46d8436983a6ef792",
+        "expected_conclusion": "success"
+      },
+      "files": [
+        {
+          "file": "R801-original-recipe-dependency-plan.json.gz",
+          "bytes": 1104557,
+          "sha256": "b9d98f46026da8049878d780ac6b597920d61f260224e307f04a5757ef0078ce"
+        }
+      ],
+      "print_json_summary_files": [
+        "R801-original-recipe-dependency-plan.json.gz"
+      ]
+    },
+    {
+      "label": "R872-t-frame",
+      "mode": "selected",
+      "source": {
+        "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+        "run_id": "43830071469",
+        "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+        "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+        "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+        "manifest_bytes": 48387,
+        "manifest_file_count": 314,
+        "certificate": {
+          "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+          "bytes": 17961,
+          "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+        },
+        "artifact_id": 14207558653,
+        "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+        "archive_bytes": 146222980,
+        "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
         "expected_conclusion": "success",
-        "core_sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33"
-      }
+        "artifact_expires_at": "2026-11-17T08:19:10Z"
+      },
+      "files": [
+        {
+          "file": "R872-source-audit.json.gz",
+          "bytes": 4948,
+          "sha256": "35adf0983784fd361e4480fef3a9af6ec91129b4f3aef7cd265a75e61c3fd1a6"
+        },
+        {
+          "file": "R872-point-linearization.json.gz",
+          "bytes": 1133054,
+          "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+        },
+        {
+          "file": "R872-V2-original-point-jet-matrix.json.gz",
+          "bytes": 581694,
+          "sha256": "025a29fed69d8575c757454309bad6fca3198457a967d5ed88766d83f82d2ec7"
+        }
+      ],
+      "print_json_summary_files": [
+        "R872-point-linearization.json.gz",
+        "R872-V2-original-point-jet-matrix.json.gz"
+      ],
+      "print_json_files": [
+        "R872-source-audit.json.gz"
+      ]
     }
   ]
 }
