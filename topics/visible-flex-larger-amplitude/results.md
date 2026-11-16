@@ -329,3 +329,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R519 — 同次准确六jet的局部缺陷诊断与原完整metric消费
 
 **已证明（局部包含/真实源码条件），尚无科学运行。** [全文](results/R519-same-evaluation-sixjet-local-defects-and-metric-consumption.md)12851/9df3edb4、[接口](notes/2026-11-16-same-evaluation-sixjet-metric-diagnostic-interface.md)17896/d4e2及helper15385/f704、generator9950/4ebd、plan18003/e600，共74085B。原R459同次target/18jet给角长h、六jet径向τ与两代数Frenet参考缺陷/局部Gram上界；公共u的Ax/μ含真实Lnum链式因子，无另field/target/C/material inverse查询。17literal生成69439/8159 view仅Actions，原三family和真实来源保持，R504/union未接。原Gram/DFS/split/globalnorm/series不消费诊断，未隔正仅该项unpaid；原两临时ledger保每实际观察，必要小计数/最大地址/首末未付/完整pending身份不冒全域或全部正文返回。无BC锚/径向积分/worker分支或RHS误差/solver floor，原钟/单90K/quiet责任不改，无新workflow/run/科学门。
+
+## R523 — 实际切向行支撑与完整有限轨迹线性乘积
+
+**已证明（明确局部输入/字语义/实际caller），未运行科学。** [全文](results/R523-actual-tangent-row-support-and-complete-linear-products.md)16055/4c73a3ce、[接口](notes/2026-11-16-finite-trace-actual-input-support-interface.md)13496/3dbe及helper6246/e16b、flow9504/14c6，共45301B。原R474同次有限扫描记录当前T每行非零列，全部非零/次正常/下溢乘积和每输出原j序保，只省实际A或T零项；完整226×224/双mean/原四field/RK/cusp与fallback不改。有限最终词同，有限输入可能overflow/NaN只承诺分类、不冒payload；原非finite输入走全循环，无新finite-output门。14实际计数、部分扫描/当前段地址和未逐k记录范围明确。实际208零H iteration0先求完整内部J，5774秒无分项时不能推提速或免J/mean/predictor；旧R470/R471/R474责任保，无新run、当前loader/reader改动或原门放宽。
