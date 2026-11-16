@@ -407,3 +407,5 @@
 - [R887 §17](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原P6·P28/66/130/60二因子模型保四α/五块窗，两个Z^p真消全部非O补极；二挠极<2p³与原[-1]不变共同给完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6与四QbRν的γ1，原全A-root trace及exact各保为模型差；仍未证明四指定读数联合非零或替换原p²/p³预算。
 
 - [R887 §18](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。
+
+- [R887 §19](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原二因子减P2幂的第六Gaussian块已准确支付：e_a,p=c_a(p)+(1−a)κ5 c_a(s)，原连接误差完整求和为零；四实际差由同f_<p低卷积L3/L(n−3)和s行M给出，共同c2(p)严格消去。仍仅modp首缺陷，不替R699两位边界或四中央非零。

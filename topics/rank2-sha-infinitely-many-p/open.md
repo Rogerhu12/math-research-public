@@ -31,6 +31,8 @@ R863/H22、R876/879、R884A–I 已付全部原 norm-three/norm-two trace、old/
 
 R887§18原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。
 
+R887§19首个第六Gaussian块准确由同f_<p的L3/L(n−3)与κ5的s行卷积给出；原Taylor及完整连接误差求和支付e_a,p，共同c2(p)严格消去。只付modp首乘法缺陷，未付R699两位边界。
+
 **下一实质门：** 同一Q6与四个指定Q_(m−6)Rν方向的实际双线性关系及最终两次Cartier联合非零。四个实际 Fν,p、同一 trace 与原 P2 幂−Pm 的联合关系继续保留。不能由 adj 可逆、simple Smith 退化或 trace 配对非退化推四个指定 α 非零；不再逐个扩大已付运输家族。
 
 ## O4/O6/O7. 其它原全群路线仍开

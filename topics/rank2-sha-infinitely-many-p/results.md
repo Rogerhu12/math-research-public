@@ -340,3 +340,5 @@
 - [R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。
 
 - [R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。
+
+- [R887 §19](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原二因子减P2幂的第六Gaussian块已准确支付：e_a,p=c_a(p)+(1−a)κ5 c_a(s)，原连接误差完整求和为零；四实际差由同f_<p低卷积L3/L(n−3)和s行M给出，共同c2(p)严格消去。仍仅modp首缺陷，不替R699两位边界或四中央非零。
