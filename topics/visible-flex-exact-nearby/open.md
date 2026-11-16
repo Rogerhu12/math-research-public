@@ -194,4 +194,4 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WRPA实际相对pullback](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38/43881690924全40/14门冻结；Bc约8.421e235/Bt9.109e225，whole/reduced各选new。44原/9scope及原mean/端全保，old0/lost0，无smallness。
 
-[W4M完整四步mean](results/R133-supplement-complete-four-step-mean-source-and-physical-Hilbert-Schmidt-reception.md)73497dba：n^-17/6全输入HS、两patch/两mean/3070及四端完整接收已证，WMTA/WRPA只读；30新+1copy源码/合同已封，首次Actions已触发待核。
+[W4M完整四步mean](results/R133-supplement-complete-four-step-mean-source-and-physical-Hilbert-Schmidt-reception.md)73497dba：n^-17/6全输入HS、两patch/两mean/3070及四端完整接收已证，WMTA/WRPA只读；30新+1copy源码/合同已封，43886171523预核failed，child0/new0/lost0；30未算待窄修。
