@@ -1,0 +1,299 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-generalized-FMinus-1-detectors-v2-300",
+  "executionSourceCommit": "638a25b3f459dfc31b309189466efbc59c1ea7b1",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-complete-generalized-critical-detectors-v2-789f.py",
+  "scriptSHA256": "e762cf7703e83c63de4c121a926844fd4e5583a4e4ec59ed889fe79cd51fd9ad",
+  "argvTemplate": [
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--profile-out",
+    "{work}/original127-critical-primary-profiles",
+    "--sources-root",
+    "{scripts}",
+    "--factor",
+    "FMinus-1",
+    "--out",
+    "{work}/original127-generalized-critical-detectors-v2",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 15.501750785000695,
+  "fullTemporaryReceiptBytes": 7235,
+  "fullTemporaryReceiptSHA256": "dc0da0827abd776d51107542a4514dbeb709237146c9fd01835ab3cf8ae5794e",
+  "result": {
+    "binding": "45dfea7c2c8ac12c7f3e5bd0ecd0e4e29937c11f767625e2ab36e9cd2ec6c35e",
+    "elapsedSeconds": 15.383769546999247,
+    "format": "r150-original127-complete-generalized-critical-detectors-v1",
+    "outcome": "complete-critical-primary-separated-by-original-GB-jets",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "characteristicZeroConclusionInferred": false,
+      "coefficientBocksteinComputed": false,
+      "completeGeneralizedDetectors": {
+        "allCriticalPrimaryDirectionsSeparated": true,
+        "allOriginalGBJetProductsVerified": true,
+        "allOriginalPositiveRowJetProductsVerified": true,
+        "allPrimaryParameterIntertwiningProductsVerified": true,
+        "characteristicZeroConclusionInferred": false,
+        "coefficientBocksteinComputed": false,
+        "coefficientOrder": "parameter-t-power,original-NF-component,alpha-power,detector-column",
+        "completePrimaryRestrictionRank": 24,
+        "coverageRanks": [
+          15,
+          24
+        ],
+        "detectorCount": 2,
+        "extensionDegree": 3,
+        "factorCoefficients": [
+          122,
+          122,
+          27,
+          1
+        ],
+        "factorLabel": "FMinus-1",
+        "fieldAlphaRelationCoefficients": [
+          122,
+          122,
+          27,
+          1
+        ],
+        "jetOrder": 5,
+        "original4367TransportComplete": false,
+        "originalGBJetProductCoordinates": 30630,
+        "originalNFComponentCount": 1034,
+        "primaryDimension": 24,
+        "primaryIntertwiningProductCoordinates": 720
+      },
+      "completeLocalKernel": {
+        "allConstantUnitAndResidualRowsCovered": true,
+        "allSmallOriginalSchurProductsVerified": true,
+        "completeKernelDimension": 219,
+        "criticalPrimaryDimension": 24,
+        "freePolynomialJetDimension": 195,
+        "noHigherIncomingDirectionDeleted": true,
+        "smallSchurColumns": 225,
+        "smallSchurRank": 6,
+        "smallSchurRows": 30
+      },
+      "completedTemporaryPhases": {
+        "E8-1-complete-original-component-detectors": {
+          "bytes": 8719,
+          "file": "E8-1-complete-original-component-detectors.json.gz",
+          "payloadSHA256": "16ef89f558b80e2ac47636de269c839768e17b79badc933e8bedc22e115ac91a",
+          "sha256": "92e1408685efeccf8a656bf51f0a293eef4bcfd1e85ced62a697ed662be85caf",
+          "temporaryOnly": true
+        },
+        "E8-1-complete-truncated-kernel": {
+          "bytes": 61535,
+          "file": "E8-1-complete-truncated-kernel.json.gz",
+          "payloadSHA256": "c5c6a1103d6ca79b156650718abc393dc328c4ddd2cc4cc7469edd4547600695",
+          "sha256": "4398954828211a57d48220102b73d478fe28c543fcaf98c253e148bf5488b305",
+          "temporaryOnly": true
+        },
+        "E8-1-constant-unit-formal-graph": {
+          "bytes": 1121977,
+          "file": "E8-1-constant-unit-formal-graph.json.gz",
+          "payloadSHA256": "e596716a3e6866f8812b3b73604d4c9a3d40fdd0804072a1bfc49b4f9a1c9a68",
+          "sha256": "c91c11284193d340a3ab05178fe6ffc0f61e28bc3f2a0f57812853665a07bfd5",
+          "temporaryOnly": true
+        },
+        "FMinus-1-complete-original-component-detectors": {
+          "bytes": 19992,
+          "file": "FMinus-1-complete-original-component-detectors.json.gz",
+          "payloadSHA256": "c2dd039b3dee767d3483e778f27d147fa2af19f55389229b1dcf67184c41f43e",
+          "sha256": "a524b7d29166fe04ed825404af330a99ffb1e83189ad3104f2812bcf51cc21d3",
+          "temporaryOnly": true
+        },
+        "FMinus-1-complete-truncated-kernel": {
+          "bytes": 350449,
+          "file": "FMinus-1-complete-truncated-kernel.json.gz",
+          "payloadSHA256": "b1e1a5cb6a9633f8ad0bd55f05bc82e63dcd9e9867e21447f7801d5bde4cc5c0",
+          "sha256": "1c2a8e8640584332e98e9f46209ac37a940ce2ba37c6d6777c38f86ae0e8ba15",
+          "temporaryOnly": true
+        },
+        "FMinus-1-constant-unit-formal-graph": {
+          "bytes": 2321974,
+          "file": "FMinus-1-constant-unit-formal-graph.json.gz",
+          "payloadSHA256": "005780f0d14066545974a49fd4a29f40dc177a5fa6e55c8a5bd518ac94a6f9ff",
+          "sha256": "e631abb42e6a34cffef974d46b78c2690185919c3212b51ebc48603db7084d4c",
+          "temporaryOnly": true
+        },
+        "FPlus-1-complete-original-component-detectors": {
+          "bytes": 20031,
+          "file": "FPlus-1-complete-original-component-detectors.json.gz",
+          "payloadSHA256": "d5b02935e1360b609aa26cefb765bdfce587436d7515b3462968677919908d06",
+          "sha256": "22643b1d8c2a8a22dfde91d0966863a665134ac58e3c470778e8c5a11805a01d",
+          "temporaryOnly": true
+        },
+        "FPlus-1-complete-truncated-kernel": {
+          "bytes": 350840,
+          "file": "FPlus-1-complete-truncated-kernel.json.gz",
+          "payloadSHA256": "6d3d78f4d19faec5da650848d1fc57b006ce41e63feff40d04f5a7de86a08e17",
+          "sha256": "6e65ffaad615761d6cc038893cc5efee6dc9b587b32763892be93193185b97ba",
+          "temporaryOnly": true
+        },
+        "FPlus-1-constant-unit-formal-graph": {
+          "bytes": 2323537,
+          "file": "FPlus-1-constant-unit-formal-graph.json.gz",
+          "payloadSHA256": "474ae8f157437c7825a2abf08d26804f5b7feaf9f9913b0f885e5be6d06823d4",
+          "sha256": "7c3c3de1e3ea20f3eabec63bfa718ecc593a78ba64e711bd4d29e959812ebe1c",
+          "temporaryOnly": true
+        },
+        "original-degree-zero-unit-quotient": {
+          "bytes": 482684,
+          "file": "original-degree-zero-unit-quotient.json.gz",
+          "payloadSHA256": "ba8a8802a68aaf517a0eb0e13b998b79b831c0e94d4c7bc8a222a673c4692e03",
+          "sha256": "183a89e1a073fd4e77674e5af104132a69d3cb8878c57f30137fb21f20a6d9fd",
+          "temporaryOnly": true
+        }
+      },
+      "cyclicBlockCount": 2,
+      "degreeZeroQuotient": {
+        "allOriginalZeroRowProductsVerified": true,
+        "allPositiveOriginalRowsProjected": true,
+        "constantGraphHasOriginalFreeIdentity": true,
+        "polynomialDegreeBound": 8,
+        "positiveCoefficientProducts": 1753920,
+        "remainingColumns": 448,
+        "remainingRows": 435,
+        "removedConstantUnitRows": 586,
+        "zeroRowProductCoordinates": 262528
+      },
+      "extensionDegree": 3,
+      "factorCoefficients": [
+        122,
+        122,
+        27,
+        1
+      ],
+      "factorLabel": "FMinus-1",
+      "finiteFieldScopeOnly": true,
+      "gradedBasisRecomputed": false,
+      "identity": {
+        "algorithm": "degree-zero-GB-unit-quotient-complete-local-jet-kernel-and-whole-primary-restriction-v1",
+        "helperSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+        "originalGBBinding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "originalGBBytes": 43787388,
+        "originalGBSHA256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d",
+        "phasesIndependentlyKeyedByAllFiveFactorLabels": true,
+        "prime": 127,
+        "profileBinding": "7fd6a5d4a535e55f7fb06909bcec10634e7c8e0706f8fa1bd6dfd115a6da51c2",
+        "profileManifestSHA256": "1a5901c7b7621dbfcc4b73bf3ee032872948e0a988291b6c7a3ac1d8017cd654",
+        "wholeBinding": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211",
+        "wholeStateSHA256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60",
+        "wrapperSHA256": "e762cf7703e83c63de4c121a926844fd4e5583a4e4ec59ed889fe79cd51fd9ad"
+      },
+      "jetOrder": 5,
+      "memoryMiB": 4096,
+      "normalFormsRecomputed": false,
+      "original4367TransportComplete": false,
+      "originalGBAudit": {
+        "allHigherCoefficientsAndPaddingZero": true,
+        "allOriginalLeadingTermsVerified": true,
+        "allOriginalPolynomialCoefficientsRead": 1780548,
+        "allOriginalPositiveRowsRetained": true,
+        "basisRows": 1021,
+        "components": 1034,
+        "degreeHistogram": {
+          "0": 586,
+          "1": 257,
+          "2": 127,
+          "3": 42,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 8,
+          "8": 1
+        },
+        "maximumDegree": 8
+      },
+      "primaryDimension": 24,
+      "prime": 127,
+      "pythonFlintVersion": "0.9.0",
+      "regularGraph": {
+        "allConstantUnitInverseProductsVerified": true,
+        "allOriginalUnitJetProductsVerified": true,
+        "allResidualRowsRetained": true,
+        "constantKernelDimension": 45,
+        "constantRank": 1299,
+        "expandedColumns": 1344,
+        "expandedRows": 1305,
+        "ordersRetained": 5,
+        "schurRows": 6
+      },
+      "seconds": 300.0,
+      "temporaryManifest": {
+        "bytes": 3076,
+        "file": "generalized-detectors-manifest.json",
+        "sha256": "2af462b3e61f84ed8ed124b23b66494097c25ba97d08487b2934bbb059842ddc",
+        "temporaryOnly": true
+      },
+      "wholeTorsionRecomputed": false
+    },
+    "events": [
+      {
+        "phase": "original-degree-zero-unit-quotient",
+        "reused": true
+      },
+      {
+        "elapsedSeconds": 12.995694160999847,
+        "phase": "FMinus-1-constant-unit-formal-graph",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 14.209957099999883,
+        "phase": "FMinus-1-complete-truncated-kernel",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 15.38334917300017,
+        "phase": "FMinus-1-complete-original-component-detectors",
+        "reused": false
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:09:27 UTC",
+      "beforeReadCommit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "originMainAfterPull": "638a25b3f459dfc31b309189466efbc59c1ea7b1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:09:43 UTC",
+      "beforeReadCommit": "638a25b3f459dfc31b309189466efbc59c1ea7b1",
+      "originMainAfterPull": "83b008aecf9c2e2a53b4f65802f6bf97fa84111e",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 45,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 15436,
+    "logicalJsonSHA256": "98527c6bea2361c6c178cd1c448247007903fa86a2d483f84ba2d7d3a33055cc",
+    "itemCount": 45
+  },
+  "lastRulesReadCommit": "83b008aecf9c2e2a53b4f65802f6bf97fa84111e",
+  "summaryExcludesRecomputableArraysOnly": false
+}
