@@ -432,3 +432,7 @@
 ## R474｜完整从起点母库也可保留非零复 cap 障碍
 
 [R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)（12285B；SHA256 `9c7dce9391fd36fcd3242b6f37f4bb80b888a27520b12bc6a3646362e3a5b976`）。固定R455同一有限N及四内部normal，R473外cap偶紧扰动与正常支持不交；真实有限IFT精确回补q4而不改cap复积分。缩参数保正性/根germ/唯一镜对/simple-p/DE和已付M3，选非例外后冻结新cap，再在其内部受限类重新选最大F★与完整20根，所有最终母共该非零cap。正仿射幅宽输运E乘a⁵H⁻²，非零保留。它是完整允许新库中的成员障碍，非冻结ψ3评价，也不保旧F★/DE/μ数值；证明其它自然/20目标不能自动授R468比例。0新执行，根全文读IFT同点与范围；继续具体cap及例外。
+
+## R475｜四列精确投影及可从起点支付的单个真实 cap 门
+
+[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)（18186B；SHA256 `55c1ae6b4910dfdb87e45729ba0512169eed10abbcfb98bc91e944d1db166617`）。四最高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根零后余a×实二次，常项=−2h²s²Δ6/D，完整比例等价E(z±)=0及Δ6/Δ3/Δ4同零。原密度在临界幂与指数极限的有理积分给Δ6两严格号；v=p^(2/3)正曲率密度将它们实现为真平端/末简单解析Af根的有限光滑cap，再同芽密度凸组合精确清Δ6。接原凹glue/M5真根后，从该新cap重选q4/F★/20/M3完整库，外cap正幅宽协变保零。只支付一门，另外四实门与冻结旧库仍欠；0新执行，根全文读有限构造/边界。

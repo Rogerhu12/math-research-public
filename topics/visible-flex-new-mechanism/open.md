@@ -140,3 +140,7 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R474：完整新库存在非零cap障碍，仍须判当前ψ3与例外cap
 
 [R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)（12285B；SHA256 `9c7dce9391fd36fcd3242b6f37f4bb80b888a27520b12bc6a3646362e3a5b976`）把R473用真实四normal IFT装入同一固定有限N的q4=0母，回补支持严格在内部、不碰E；选λ后再冻结新cap并重选restricted-max F★、完整20根，得到全库条件仍可E≠0。末cap三矩、自然q4、全母μ三种数据分清；不保旧冻结F★/DE/μ，不判当前ψ3或普遍非零。接着判具体ψ3，另由R475方向研究完整五cap门的实际可消；不能由原20门推比例，也不以坏新库结束主问题。
+
+### R475：真实新cap的Δ6单门已可支付，继续另外四门
+
+[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)（18186B；SHA256 `55c1ae6b4910dfdb87e45729ba0512169eed10abbcfb98bc91e944d1db166617`）给完整比例iff E(z±)=0、Δ6=Δ3=Δ4=0；四高项投影后复根0使余a×二次，Δ6清常项。真正允许有限cap的Δ6可两号，固定同平端的正v″密度连续选择使其准确零；接R410/R455/R464从起点新库保q4/F★/20/M3。两非允许极限仅用于严格号，最终用实际有限光滑cap；不改旧冻结母，也不授其余四门。下一先将单门提升为真实compact normal的正规接口，再在同cap约束下解E两实门及Δ3/4；同时具体ψ3与R476全段工作继续。
