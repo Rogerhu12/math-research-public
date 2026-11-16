@@ -103,3 +103,8 @@ R834/836/837全单位块和真三长/两长预算保旧完整open；自然Bost47
 ### 原 quartic 全球连接核的最新缩小
 
 [R872原quartic的两charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)：同一非零t³F⁴q来源迫余乘子最低charge j≤2，真实residual次数逐charge单调，故A1/A3/A4的H¹均只保0/1。j0时全部D的全球连接核消失；j1/2的H¹A4维≤3/14。准确核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，A1行由实际F²束态射冗余，所有原Gauss框和f0非单位可能保。有限纤维、全K1长前缀/Π及同R/S仍需联立。
+
+
+### 原相对范数终幂
+
+R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)/ell准确等于N_(kQ/F_(r²))(h)^((r²−1)/ell)。新helper以绝对Frob参数2m/4m保全部d及原嵌入，禁默认到Fr范数；默认norm，保power/norm_compare。仅因这项实际实现变化重用已有固定r29/41独立scalar对照，尚未收到新回执；不替原两map/RR门。

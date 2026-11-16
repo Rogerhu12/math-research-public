@@ -5,6 +5,8 @@ This is an optional in-process replacement of
     ((1-(-r)^d)//ell) * P
 in the original relative-four consumer.  It does not construct a divisor,
 change a multiplicity, certify a map, or assume the input point is torsion.
+The final exponent uses the complete relative Norm to the ORIGINAL F_(r^2)
+(default), or the unchanged direct power.  No absolute Norm to F_r is used.
 Only the public Actions execution is permitted.  No data files are written.
 """
 import os
@@ -75,10 +77,38 @@ def _evaluate_miller(chain, point, embed, target_field):
     return value
 
 
+def _relative_norm_over_original_base(value, degree):
+    """Full Norm to F_(r^2), retained INSIDE the actual residue field.
+
+    Finite-field element.norm() would return the norm to F_r and is forbidden
+    here.  The binary product uses only the absolute even Frobenius powers.
+    """
+    degree = int(degree)
+    assert degree >= 1 and int(value.parent().degree()) == 2*degree
+    assert value != 0
+    assert 2*degree < 2**31  # Sage pth_power(k) takes a C int.
+
+    def product(length):
+        if length == 1:
+            return value
+        half = length//2
+        part = product(half)
+        out = part*part.pth_power(2*half)
+        if length % 2:
+            out *= value.pth_power(4*half)
+        return out
+
+    norm = product(degree)
+    assert norm != 0 and norm.pth_power(2) == norm
+    return norm
+
+
 class OriginalTateTraceReader:
     """Read [6] Tr_{F_(r^(2d))/F_(r^2)} P in the SAME original torsion basis."""
 
-    def __init__(self, torsion, prime):
+    def __init__(self, torsion, prime, reduction_method="norm"):
+        assert reduction_method in ("norm", "power", "norm_compare")
+        self.reduction_method = reduction_method
         self.r = int(prime)
         self.ell = int(torsion["ell"])
         assert (self.r, self.ell) in ((29, 5), (41, 7))
@@ -128,6 +158,9 @@ class OriginalTateTraceReader:
                 [_coordinates(T[0]), _coordinates(T[1])] for T in self.basis],
             "base_non_degeneracy":"Frob_(r^2)=-r; t1(T,P)=epsilon(T,-6P)",
             "complete_degree_norm_compatibility":True,
+            "final_exponent_method":self.reduction_method,
+            "relative_norm_target_cardinality":str(self.q),
+            "default_absolute_norm_to_prime_field_used":False,
         }
         self.calibration["sha256"] = hashlib.sha256(
             _canonical(self.calibration).encode()).hexdigest()
@@ -173,7 +206,13 @@ class OriginalTateTraceReader:
             denominator = _evaluate_miller(self.chains[i], R, embed, target_field)
             ratio = numerator/denominator
             assert ratio != 0
-            reduced = ratio**exponent
+            if self.reduction_method == "power":
+                reduced = ratio**exponent
+            else:
+                norm = _relative_norm_over_original_base(ratio, degree)
+                reduced = norm**((self.q-1)//self.ell)
+                if self.reduction_method == "norm_compare":
+                    assert reduced == ratio**exponent
             assert reduced**self.ell == 1
             assert reduced in root_log
             values.append(root_log[reduced])
@@ -205,6 +244,9 @@ class OriginalTateTraceReader:
             "residue_degree":d,
             "degree_divisible_by_ell":bool(d % self.ell == 0),
             "reduced_pairing_exponent_bits":int((numerator//self.ell).nbits()),
+            "final_exponent_method":self.reduction_method,
+            "relative_norm_target_cardinality":str(self.q),
+            "default_absolute_norm_to_prime_field_used":False,
             "pairing_logs":[int(c) for c in logs],
             "auxiliary_multipliers":chosen,
             "six_trace_coordinates":[int(c) for c in coordinate],
