@@ -1,0 +1,67 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "completedExecution": {
+    "binding": "2ecf894bfe25aa1ac1fa405475f5dfc32fdab0e071bf1839f8d2ea43095b31fc",
+    "elapsedSeconds": 18.598877007010742,
+    "exitCode": 0,
+    "frozenCandidateInputChanged": false,
+    "log": {
+      "bytes": 46026,
+      "path": "/tmp/literature_bell_rank4_789f/bell-monic-remainder-diagnostic-v2.log",
+      "sha256": "42b0ecf88f54824cdc2b301d99168409be58b78f8fd9abd4fc00a0af635281bd"
+    },
+    "peakRssKiB": 105788,
+    "rawReceipt": {
+      "bytes": 45542,
+      "path": "/tmp/literature_bell_rank4_789f/bell-monic-remainder-diagnostic-v2/bell-monic-diagnostic-receipt.json",
+      "sha256": "51fc80327265306d0e0c8c7a576038173ef329b2f63edd554edb777b97a933b5"
+    },
+    "sessionId": 96979,
+    "status": "completed-diagnostic",
+    "unitSearchPerformed": false
+  },
+  "dataPolicy": {
+    "mathematicalArraysInRepository": false,
+    "rawMathematicalReceiptInRepository": false,
+    "uploadedArtifact": false
+  },
+  "executionKind": "actual-local-executor",
+  "format": "r150-original-Bell-monic-diagnostic-execution-identity-v1",
+  "parameters": {
+    "memoryMiB": 1024,
+    "modelOut": "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+    "modelSource": "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "out": "/tmp/literature_bell_rank4_789f/bell-monic-remainder-diagnostic-v2",
+    "outV2": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2",
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "seconds": 180,
+    "sourceV2": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py"
+  },
+  "preservedPriorFailure": {
+    "correction": "Convert the source-weight statistic to a Python int; use a separate format, source binding and output directory. All mathematical gates unchanged.",
+    "exitCode": 1,
+    "log": {
+      "bytes": 1983,
+      "path": "/tmp/literature_bell_rank4_789f/bell-monic-remainder-diagnostic.log",
+      "sha256": "16c368ed2db224063599ffee52376646546d9ec4d5a3e79e4d40bfae8db80bd6"
+    },
+    "observedError": "TypeError: Object of type fmpz is not JSON serializable",
+    "rawReceiptProduced": false,
+    "sessionId": 47593,
+    "source": {
+      "bytes": 10748,
+      "gitBlob": "41aaac3c6ac074cbec65ee038dd6567968a5fbed",
+      "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-bell-monic-remainder-diagnostic127-789f.py",
+      "sha256": "28ada4a7314226d60fd39f9e9bfacf623799bda1dfd99ff5ae35853a15b1c449"
+    }
+  },
+  "scope": "Read-only complete original Bell-monic coordinate and source diagnostic. Per-column counts, weights and source hashes are in the complete temporary receipt. No local unit or characteristic-zero conclusion.",
+  "source": {
+    "bytes": 10753,
+    "gitBlob": "f9123f05b7d7fee1a6c29192099368447dbedb7d",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-bell-monic-remainder-diagnostic127-v2-789f.py",
+    "sha256": "2a16dfe11601d39fde0d701b07416d55df347bbc9fe602483932bcd81ee70296"
+  }
+}

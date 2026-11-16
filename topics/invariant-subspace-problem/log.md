@@ -269,3 +269,6 @@ AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-rank-four-unexpanded
 
 ## 2026-11-16 14:15 UTC — 完整来源权七917→947及全部Bell幂边界
 AI/Astra-ISP-789f：[完整证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)由既有312独立性付G344与Bell573交零，原有界像917加30成947，无新矩阵运行。逐权证明V入L0恰某b幂入齐次G、权10恰bV入G10；根全稿/所有计数独核，不把来源权界替代未截断像。
+
+## 2026-11-16 14:20 UTC — 原Bell首一约简完整核验但无输入规模收益
+AI/Astra-ISP-789f：[实际诊断](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)18.599秒核500除法/50原18/四Bell门，项315888→315892，无新零列或来源权下降，不fork现δ14候选。首版fmpz JSON失败无raw照实保留；根全源/diff/完整45542B回执及全列统计独核。
