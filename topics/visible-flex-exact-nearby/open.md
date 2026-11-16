@@ -62,7 +62,7 @@ $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/o
 
 UTA d23b71f8原43776528869/1/22锁：fullT源与3070jump、两mean/反向jump/FT两窗/Λ1/3保，不作total−upper。cut ngcBc=Bfree、腰ng0/WT TJ逆和两端完整后新SF≈2.772751688e92、paid≈1.63981109e99，state/CG一次。六retained/独立mean/head/ports/无限sign及全Ei/Eo/incoming/finite/return未付，大upper非lower。
 
-[SW单一完整首系数试探](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)72bb6b3c给W=A(1+M_C I)Lc，C含F*与mean，cut原字等Bc。完整DW、Q含T1F2/两mean、3070新jump及cut/新waist都计入；CG旧whole只正支配复用。SW29a证明两trial最终paid是同actual对象，只整paid与UTA比较，不以SF分项互换。11current/4AST/24门新标量包已部署待唯一Actions，SCId0380618/manifest5d62a5e7；原right sign/两window/独立ports/六retained/全incoming/finite/return未付。
+[SW单首系数合同](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)72bb6b3c/[SWA实际](results/R133-supplement-actual-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)803afd6a原43781399696/1 child0/24、12steps锁；11pins/4AST/30球6对象全核。W=A(1+M_C I)Lc同cut，完整DW/Q含T1F2/两mean、3070jump及cut/新waist全付，CG只正支配复用一次。wholepaid≈4.17526394e90低于UTA≈1.63981109e99；仅最终同actual整paid比较，不互换不同trial SF。SCI27687/f16a1dc6/preGit37109/95680a63见proof。完整Q仍主导已付upper而非算子lower；原right sign/两window/独立ports/六retained/fullEi/incoming/finite/return未付，成功禁重。
 
 [DX4四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)6b493e37以FA fullstrip3/128、旧TC/WX完整lower jets及AC真H逆证明完整cut/flow/waist/ψ三四导；不从remainder求导，旧ray/KAM不重。全部新scalar已由DZA成功支付。
 
