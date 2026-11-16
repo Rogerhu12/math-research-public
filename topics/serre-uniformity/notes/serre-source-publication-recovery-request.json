@@ -2,71 +2,61 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R922-certified-shared-trace-dual-R923-target-activation",
-  "commit_message": "serre: certify shared trace dual and execute original endpoint target coordinates",
-  "rules_last_read_commit": "aeab769e3066a3984abea3274298f2dcf78d88a8",
+  "request_id": "20261116-R926-original-seven-bounded-connection-numerators-activation",
+  "commit_message": "serre: execute seven original bounded connection polynomial numerators",
+  "rules_last_read_commit": "be1eadf4caf2bfba813f8a5d4cee87a22aa1218f",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "e404ec430ab1f1c6552a6667e98243d0649aa4e13e686dd2de1995b0ea4d30cb",
+  "expected_previous_request_sha256": "b3a53a97cba3f7aae7c14ba0fd82f59db1c96bf6d86aea4390b66ee1f9916cb8",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R922-certified-original-shared-polynomial-trace-dual-multiplier.md",
-      "sha256": "a7ff2778ff1a65e3c3f55cb6155af3abdd8f47fedd9c87d52f02427a90a8f72e",
+      "path": "topics/serre-uniformity/scripts/R926_original_seven_connection_polynomial_numerators.py",
+      "sha256": "970a539931f7d101b8c624b2c7fc56b74b96b75e727e65fe22808de37af9583d",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R923_original_two_endpoint_target_normal_coordinates.py",
-      "sha256": "4aef4b448338f62216d3ce44135ace89f83c5be966acb6f90dc47adaed4d334c",
+      "path": "topics/serre-uniformity/scripts/R926_public_original_seven_connection_polynomial_numerators.py",
+      "sha256": "a1b5ec8e061cc91e6427adf6311a4ba2d0ea711db7b290aef9c9fac9d61a698d",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R923_public_original_two_endpoint_target_normal_coordinates.py",
-      "sha256": "d6bda530f750d8c7bdf8d4f302ea83ad2bcf23e116d4dcf364d98983bffeeddf",
+      "path": "topics/serre-uniformity/notes/R926-original-seven-bounded-connection-polynomial-numerators-method.md",
+      "sha256": "c4d05c61187dfcc5997e737f3a072d40b540e67d81bbe899089fb0120b9506c2",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-method.md",
-      "sha256": "dfd781d304b1d0fbb8de6b7267b1cbc543403ce47e1226316e97893a62c48cef",
+      "path": "topics/serre-uniformity/notes/R926-seven-connection-polynomial-numerators-public-request.json",
+      "sha256": "29dd4349fd7bd1b6ee36d40ddea76a5b4bc7db94908df4af626fcc1208c0369d",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-public-request.json",
-      "sha256": "0dfbba7aa8bba6f03a04cce565c937d7fa81e39bff9cb4b1b3c6275140e3fe5e",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R923-two-endpoint-target-normal-coordinates.yml",
-      "sha256": "32286cdd0902219dce5533fe3cabdfc43a0fc40dba8ca8043c316dfc1306dffa",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-trace-dual-and-endpoint-targets.md",
-      "sha256": "2bc1439bed260699c59b9f9b047d1ac7f66b6f09d96abbb7c8ed2c40127af61b",
+      "path": ".github/workflows/serre-R926-seven-connection-polynomial-numerators.yml",
+      "sha256": "e496f246c93673ba48b8cbbf3b229964a170f40fafece01f821089ac21b9dd85",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c299ae0b74a91fb8568d3eaf3d73c4ff78e1c03b1fa70366251ddae7dc32d34b",
-      "expected_previous_sha256": "2bc1439bed260699c59b9f9b047d1ac7f66b6f09d96abbb7c8ed2c40127af61b"
+      "sha256": "c47b867ca2fd807a50c1085ba6aa8d7e3f4617fb1e49f52ced3034fcc6059d48",
+      "expected_previous_sha256": "eee05e9483db81b21c105e78c6cb14750a251cdcffcbf2b0264396b1d2f95cc0"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "2ce20a03598d2538a3c2ddf587734b794eeb028c2a61a2eff6948d591bff147d",
-      "expected_previous_sha256": "a4d8c5a2ef085296ad7d91d71952c0367b86eeafa7e094b3c3eedad99e2e6ed7"
+      "sha256": "35c3cab2f1307150537bfa6e759c497a580406c6e965801dafcd0b11d1b65270",
+      "expected_previous_sha256": "2ce20a03598d2538a3c2ddf587734b794eeb028c2a61a2eff6948d591bff147d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "6e86b6e2ae28899161aa73ab1807e99f73595369f117b11bdf8bb70df32c8bf6",
-      "expected_previous_sha256": "dfd8f6f0c9499c76662c4c5b2140b9829068845b9a796b9f5f518340fcf098c9"
+      "sha256": "0e54d28ae83478b29dbe5f54fbb4508c5803f1dd35551b4600699d39feca17a4",
+      "expected_previous_sha256": "b47db56a974b5d7d7cd8c5277d8569e43b00aaec91d0b92f8fbaac354e6bf977"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R923-two-endpoint-target-normal-coordinates.yml",
-      "request_path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-public-request.json",
-      "request_sha256": "0dfbba7aa8bba6f03a04cce565c937d7fa81e39bff9cb4b1b3c6275140e3fe5e"
+      "workflow": "serre-R926-seven-connection-polynomial-numerators.yml",
+      "request_path": "topics/serre-uniformity/notes/R926-seven-connection-polynomial-numerators-public-request.json",
+      "request_sha256": "29dd4349fd7bd1b6ee36d40ddea76a5b4bc7db94908df4af626fcc1208c0369d"
     }
   ]
 }
