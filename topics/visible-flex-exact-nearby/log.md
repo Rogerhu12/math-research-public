@@ -392,3 +392,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 07:11:37 UTC — WGSA完整实际结论独立成文
 
 已推R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md，blob a6c817a4/17939B/SHAcd82f7340bcb5bae91d9f3f3554fa9a77886f746e2d140b9f51d4acd2c1af3ce。全文保唯一WGS43820816332/1实际24门/8图/437槽、全部4file/full pins/19roles/2history及旧formatter失败；两patch/精确degreegroup/a!b! decoder、9个实际正下界原字、sup与A0类型边界和所有false flags清楚。根已全读8个实际新图、local c72与stage40、完整exec/report；40项机械身份/形状/hash全过，无球重算。独立同伴复核双件/673项JSON形状与4preGit通过。新增actual证明不授全received/mean/finite/high/背景，继续后半；eb46ca019bfe2098799cd97a5b31dab27ad3c9a1两README无变化。
+
+### 2026-11-16 07:12:08 UTC — WZR真实腰点的完整精确简化
+
+独推R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md，blob65a382de/14044B/SHAf5e690908c07ebcd121852c3a2b2efdc2c4e0b1bd3d40398c242fa8201a9d249。回原N2/4–9、FA13–23及WPL32–37确认是同metric β=a_phys'/a_phys、真腰β=d=0；A奇→偶0，J偶0→奇的类型已亲核修正。六innermean/两innertail各自系数真0，g0..3的full residual仅z³ηg3φ、两实际L2 primitive给direct1/16；完整outermean/terminal、zphys(-u/m,1)、βr/Jr/eκ及第二Z和四端全保。新WGS Csup不冒A0，g0..3不取误差界之导。根全文+三处小diff已读，Newton/Phase/Tail分别回原式核完整性；0数值执行、0旧重算。接下去用该完整同算子recipe作新endpoint消费者，其他全域mean/source门不减。282735ad06d3f209ff9d8d4a992c8f4f5ce2aafe两README未变。

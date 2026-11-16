@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WZR同真实腰点的精确角逆与完整有限重建已闭**：[证明](results/R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md)，SHAf5e69090。由同metric β=d=0，Jw:Hs_even,0→Hs+1_odd=ηw^-1I；完整FA六inner mean和两inner tail逐项真0，residual精确仅z³ηg3φ，直接新Crec首项Rw P*||g3φ||/16。outer mean/terminal、independent physical z、βr/Jr与第二Z均保，仍四endpoint；0新数、不改旧successful upper、不授全域或finite。
+
 - **WGSA实际完整全局fold与free transport有限jet已取得**：[完整证明](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)，SHA cd82f734。唯一43820816332/1/24门/8图/437槽；SCI72251B、原copy31632B保全部66+40旧球/9scope/whole c72，严格与根patch同germ。geometry I(15,3)、w0 I(14,3)、full forcing I(12,1)、free w1 I(12,2)，ordinary one-sided/sup类型及全部mean/3070接口保；不授genuine/N6/高门/finite。四preGit和stdout全部hash独复原，旧/新已成量禁止重算。
 
 - **WEJ局部mean/γ输入桥已闭解析资格（数值门待）**：[完整合同](notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json)，SHA14158b39。只在[rc,r+]同原germ，以FA2原切点|m|下界减长度×完整普通V_r，正门后由η=−γm给γ/γ_r；完整FA2参数/24门/RR scope及whole c资格保。4原记录+8新槽未求值，不把row790移根，不授对称盘或省mean。

@@ -65,6 +65,8 @@ JI/WUA/WUR/WUC/WES/WUB完整六项说明、全部原球/域/mean/失败/lost及�
 
 [WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
 
+[WZR真腰点精确重建](results/R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md)f5e69090：同metric β(0)=d(0)=0，Jw:even0→odd=ηw^-1I；FA六inner mean/两inner terminal逐项真0，完整residual仅z³ηg3φ，Crec首项可直接Rw P*||g3φ||/16。outer mean/terminal、physical z及(-u/m,1)、βr/Jr/第二Z、四endpoint均保。仅解析0新球，不从旧upper相减；各sup/L2/A0类型保。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
