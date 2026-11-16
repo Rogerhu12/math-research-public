@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。新9续接run43842056373/report133219956044于09:55:44.036693→09:55:49.455112 UTC真实public pull，已读 **4376ccbb84ea7c6aacbe6acdf005de94942ec731**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**10:55:49 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。四原子run43845218578/report133223910029于10:03:34.618258→10:03:38.122121 UTC真实public pull，已读 **0e259e94af3666e2b110b60392dde7990d57c1a9**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**11:03:38 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-同report私有09:55:52.644336→09:55:53.479721已读 **4177ac45d0ed73f40bca6b90e345705e14e52b5d**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。私有正文不发表。
+同report私有10:03:42.742401→10:03:44.026377已读 **2d9aabe77e779601aebe2d8a3ac60b19dc6fda20**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。原research两次pull见[本条](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)。私有正文不发表。
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -46,8 +46,8 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 ## 5. 正在接续（2026-11-16 10:00:04 UTC）
 
-[三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
+[三原子](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)36起点/2119值/4.541460807000007秒，best原G∞.0014877791991098396；[四原子](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)run43845218578/research133223574326/report133223910029/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8，64起点全返回/2071值0fail/最后 **6.541216640999892秒**，best原G∞ **.0014851172678647607**、H.6104871150176137（start46中间seq2925）。均无候选/无有理证书，账户随固定起点完成闭，不重开余额、不推全局无解；接完整凹图的联立符号条件。
 
-[全168当前导数设计](notes/complete-body168-current-state-selected-jacobian-design-20261116.md)复用当前u9/v8/Q1角核，新8列不增FFT，旧5+γ高度完整收缩；方向全网JVP不铺168张量。新9已完整接受56，下一步对非零新9的同一当前场求全168联合模型。旧基函数可复用，但T及所有混合链式导数、原scalar收缩须用当前56；不能把55旧159导数拼到新9。R498四原子源/请求已发布并由push触发唯一新run43845218578/research133223574326/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8；workflow visible-four-atom-cap5-search.yml，request 455cccb65950fad0a45d699460e6f36ff9b922d280f616099fcf9e9ad838d6c9。64新起点、总180秒/6000；旧cap任务闭、不读旧输出，首候选才有向验证。
+[全168当前导数设计](notes/complete-body168-current-state-selected-jacobian-design-20261116.md)复用当前u9/v8/Q1角核，新8列不增FFT，旧5+γ高度完整收缩；方向全网JVP不铺168张量。新9已完整接受56，下一步对非零新9的同一当前场求全168联合模型。旧基函数可复用，但T及所有混合链式导数、原scalar收缩须用当前56；不能把55旧159导数拼到新9。原四原子账户已闭。全168新task以真实56为中心，172准确物理盒和h=4||Mδ||∞≤1、原hard/soft/actual门均保；从当前完整场重新求必要导数，旧55任务不重开。
 
 主完成门未付，继续open。
