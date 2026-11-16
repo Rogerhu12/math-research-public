@@ -179,3 +179,9 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R882](results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原18覆盖由独立E_src:y²=x³+1和T=((x³+1)(x³−8)²)/x⁶显式给出，完整源群/全branch与q0/q2根B0/B2均固定。原17塔/一次gcd付两个端点三坐标；认证后F/P分别用底上原完美三次根和ε=−Ty′/A⁶消费，两目标缩放/全Artin/正规化闭点与边界保。不是另一个level36循环，实际r29 RR前端及原求交继续。
+
+
+- [R872全首修正交数门](notes/2026-11-16-r872-all-correctors-intersection-cost.md)：在原几何整C、同预算Pfact/同M/p³下，所有R统一必要B_D·C≥s+2。F∤R时严格f0余截面在原点接触≥s−1且Cf0=3；F|R时同H交数2h和κ≥1给相同门，当前nef/b≥3实际κ≥9。没有删总fiber或判末尾像，主阶仍不足关闭低松弛forcing。
+
+
+- [R879附录B](results/R879-original-v66-heat-and-degree22-trace-defect.md)：同C30与原σ(2az)/(2a)的全D7 Leibniz保三个高端、原Cp与binomial模p²及八阶分母cross。D7V−D7S消D6C30，D7V−9D7S消degree4高行；209倍后一差加3528倍原热trace缺陷再精确消显式q_p(3)。仅在原BS0下用O_C=真实低卷积，剩D6C30/new热余项/所有cross及H22两个不同读者均保，不赋新中央零。

@@ -441,3 +441,199 @@ $7\cdot66\,\widehat c_pj_6(R_V)$ 的完整减项。
 下一步仍须处理两种实际读者的完整连接与(A11)中的余项；
 本附录没有由有限来源循环性、非零向量或 Fermat 商系数的单位性
 推出四个原 $\mathfrak B$ 不能同时为零。
+
+
+## 附录 B. 原 S／V 的两个高端消元与同一 Fermat 项的消去
+
+本附录只用原 $C=C_{30}$ 及
+$$
+B_4=\frac{\sigma(2z)}2,\qquad
+B_a=\frac1a[a]^*B_4=\frac{\sigma(2az)}{2a},\qquad
+A_a=CB_a,\quad a\in\{1,3\}.
+\tag{B1}
+$$
+其实际 degree 是 $30,4a^2,30+4a^2$，
+$A_1=S$、$A_3=V$。
+特别 $j_5(C)=120$、$j_1(B_a)=1$、
+$j_7(B_a)=1536a^6b$，而 $j_6(A_a)=720$。
+全部 sigma 输入均为原规范，没有新增算术来源。
+
+简记
+$$
+O_C=\frac{j_p(C)}p,\quad
+D_6^C=\mathcal D_{30,p,6}(C),\quad
+D_2^B=\mathcal D_{4,p,2}(B_4),\quad
+D_7^{(a)}=\mathcal D_{30+4a^2,p,7}(A_a).
+\tag{B2}
+$$
+这些均为同一 whole 格的原整行；$O_C$ 的整性使用
+R856(20)和 $j_1(C)=0$。下文的等式读模 $p$，
+但首先对这些准确特征零分子作除法。
+
+### B.1 全部高端和严格低于 p 的 cross
+
+定义没有删项的低卷积
+$$
+\mathcal X_a=
+-5040\!\!
+\sum_{\substack{11\le r\le p-6\\r\equiv5\ (6)}}
+\frac{j_r(C)\,j_{p+7-r}(B_a)}
+ {r(r-1)(r-2)(r-3)(r-4)(r-5)(r-6)(r-7)}.
+\tag{B3}
+$$
+这里两个 jet 指标都严格小于 $p$，所有显示分母均为单位。
+则有
+$$
+\boxed{
+\begin{aligned}
+D_7^{(a)}={}&
+7D_6^C+1536a^6b\,O_C+2520a^2D_2^B\\
+&+\bigl(21600+22032a^2+
+20160a^2q_p(a)\bigr)c_p+\mathcal X_a .
+\end{aligned}
+}
+\tag{B4}
+$$
+约定 $q_p(1)=0$，$q_p(3)$ 与(A8)相同。
+
+为证明(B4)，完整 Leibniz 和式只有三个高端：
+$$
+\begin{aligned}
+j_{p+7}(CB_a)={}&
+(p+7)j_{p+6}(C)
++\binom{p+7}{7}j_p(C)j_7(B_a)\\
+&+\binom{p+7}{5}j_5(C)j_{p+2}(B_a)
++\sum_{\substack{11\le r\le p-6\\r\equiv5\ (6)}}
+ \binom{p+7}{r}j_r(C)j_{p+7-r}(B_a).
+\end{aligned}
+\tag{B5}
+$$
+原完整减项为 $5040(30+4a^2)\widehat c_p$。
+同一 whole 递推准确给
+$$
+j_{p+6}(C)=21600\widehat c_p+pD_6^C,\qquad
+j_{p+2}(B_a)=8a^2\widehat c_p+
+p\,\mathcal D_{4a^2,p,2}(B_a).
+\tag{B6}
+$$
+整数倍点的实际除 $p$ 行是
+$$
+\mathcal D_{4a^2,p,2}(B_a)
+=a^{p+1}D_2^B+8a^2\widehat c_pq_p(a)
+\equiv a^2D_2^B+8a^2c_pq_p(a)\pmod p.
+\tag{B7}
+$$
+这由 $j_r(B_a)=a^{r-1}j_r(B_4)$ 直接证明，
+仍不改变原 $\widehat c_p$ 的提升。
+
+需要保到模 $p^2$ 的二项式恰为
+$$
+\binom{p+7}{5}
+\equiv21+\frac{459}{20}p\pmod{p^2},
+\qquad
+\binom{p+7}{7}\equiv1\pmod p.
+\tag{B8}
+$$
+第一式的系数是
+$21(1/3+1/4+1/5+1/6+1/7)=459/20$。
+对(B5)最后一段，
+$$
+\frac1p\binom{p+7}{r}
+\equiv
+-\frac{5040}{r(r-1)\cdots(r-7)}\pmod p,
+\tag{B9}
+$$
+因为实际 $r\equiv5\pmod6$ 为奇数。
+将(B6)–(B9)代入，两个 Hasse 主项恰为
+$151200\widehat c_p+20160a^2\widehat c_p$，
+与原减项完全相消。其余为
+$21600c_p$、$22032a^2c_p$ 及(B4)各项，证明结束。
+
+### B.2 两个实际差分分别消掉哪个高端
+
+对 $a=3$ 和 $a=1$ 作差，(B4)给
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{66,p,7}(V)-\mathcal D_{34,p,7}(S)
+={}&1118208\,b\,O_C+20160D_2^B\\
+&+176256c_p+181440c_pq_p(3)
++\mathcal X_3-\mathcal X_1.
+\end{aligned}
+}
+\tag{B10}
+$$
+因此同一个 $D_6^C$ 已准确消失；没有先将它赋零。
+
+若改取原不同 degree 所决定的系数九，则
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{66,p,7}(V)-9\mathcal D_{34,p,7}(S)
+={}&-56D_6^C+1105920\,b\,O_C\\
+&-172800c_p+181440c_pq_p(3)
++\mathcal X_3-9\mathcal X_1.
+\end{aligned}
+}
+\tag{B11}
+$$
+这次 $D_2^B$ 和与它同尺度的 $22032a^2c_p$ 同时消掉。
+(B10)、(B11)不是额外中央条件，而是同一原 $S,V$ 的准确高行关系。
+
+原首行仍可在同一个 $C$ 上读取：
+$$
+\mathcal P_S=
+\sum_{\substack{5\le r\le p-6\\r\equiv5\ (6)}}
+ \frac{j_r(C)j_{p+1-r}(B_4)}{r(r-1)},
+\qquad
+\boxed{\mathfrak B(S)=O_C-\mathcal P_S.}
+\tag{B12}
+$$
+故原 $S$ 中央首必要零使 $O_C=\mathcal P_S$。
+这是使用原零条件后的一次合法高端消去；
+它不让(B10)、(B11)左端的 $D_7$ 行为零。
+
+### B.3 与附录 A 的同一 Fermat 项精确联立
+
+保留(A11)的三个真实来源，记
+$$
+\mathcal T_p=
+\mathcal D_{66,p,5}(V^{[1]})
+-\mathcal D_{66,p,5}(V^{[1]}_{\mathrm{new}})
+-9\mathcal D_{22,p,5}(G_{22}).
+\tag{B13}
+$$
+于是 $\mathcal T_p=-75240\,c_pq_p(3)/7$。
+因为
+$209\cdot181440=(3528/7)\cdot75240$，
+(B11)与(B13)准确给出不含显式 Fermat 商的关系
+$$
+\boxed{
+\begin{aligned}
+&209\bigl(\mathcal D_{66,p,7}(V)
+ -9\mathcal D_{34,p,7}(S)\bigr)+3528\mathcal T_p\\
+&\qquad=
+209\left(
+-56D_6^C+1105920b\,O_C-172800c_p
++\mathcal X_3-9\mathcal X_1
+\right)\pmod p.
+\end{aligned}
+}
+\tag{B14}
+$$
+其中 $209=11\cdot19$ 也在原范围内为单位。
+在原 $\mathfrak B(S)=0$ 下，可以且仅可以按(B12)
+把右端 $O_C$ 换成实际低卷积 $\mathcal P_S$。
+(A12)还可逐式替换(B13)中的第一项，
+保留原全参数 $L_2\mathcal D_{66,p,5}(R_V)$；
+没有将其冻结为零。
+
+(B14)同时消掉了同一个 degree4 高行和显式 $q_p(3)$，
+因此不需要假设任何 Fermat 商在无限多素数处非零。
+但它仍包含原 $C_{30}$ 的 $D_6^C$、两个实际 $D_7$、
+原热 trace 零余项和所有低 cross。
+R863(A22)的 $H_{22}$ 低配对须按(A5)整个运输；
+它依然不同于(B13)的 $\mathcal D_{22,p,5}$。
+本附录没有把两种读者相认，也没有从所示单位常数推 forcing。
+所得是原两中央、原 V 热返回与全部伙伴之间的一条准确消元，
+后续必须在同一原来源上控制其余项。

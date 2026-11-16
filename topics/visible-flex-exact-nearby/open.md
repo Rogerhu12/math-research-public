@@ -183,8 +183,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 [WEJ局部mean/γ桥](notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json)14158b39：只[rc,r+]∩同germ，FA2切点mean下界+原whole c普通V_r给新Lipschitz正门，η=−γm给完整γ/γ_r；ep≥|η|、eta_log_r是原norm upper。12槽含4原copy/8新数均待，未向对称盘或原row790外推。
 
-[WHS完整粗域正侧反馈](results/R133-supplement-rough-stable-inputs-and-complete-positive-head-feedback.md)3e274258：原PC whole两候选扩97..288真壳，C+完整源接negative-one得Fs C:Xfr−4/3→L²rE193；χ(R)=0/bodyYsup给真实外端H−5/6。SE同distribution逆+自然稠密识别旧ell²图；V/G/Pa反馈compact但未知Gnorm，全coker/ℓ兼容/96+ℓ核保。PW mixedroot两mean→WPL强腰反馈、WGB左右因子和zeroV0全端点finite式闭。0新数；WHVA4096充分门false，实际signed有限逆/真实96 normalization/全费用仍待。
+完整WHS/WOB/WPT已成原段逐字保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md；上述原域/七port/两mean/全部coker和finite交叉/严格充分门/未付signed逆及系数导数义务不变。
 
-[WOB外端与signed root96证书](results/R133-supplement-complete-outer-rows-and-signed-root96-inverse-certificate.md)f13024a7：actual pR、193行真mean/affine、37原record/七port全保；Jc等价193+m signed方阵。A_c为identity+compact/index0，完整四块左残差<1才授逆，C0Q/未知G/coker/ℓ不删。旧finite193对象不同且signed矩阵未存；新fee/structured Q/actual matrix仍待，WHVA4096充分门false不证奇异。
-
-[WPT结构化radial tail](results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md)22fb6fac：cell skew primitive×frozen symmetric D精确逆≤1，root D0=0/S0=I；A−D全项及真实GH adjoint输入尾给max(h_i e_i/π)+hmax² C_K*1/π²充分门。全部S条件/seams/mean/有限交叉/trace-safe端点保；新系数与导数、该门和signed193N+193 Schur仍未算。
+[WOBS完整标量包](scripts/fourfold_codazzi_outer_rows_and_rough_positive_observations.py)a12df86c与manifest390a3992已冻结：6旧actual/42原record/73scope全保，拟6图37新/1exp1pow7sqrt；旧sqrt2直接读。只算WOB完整outer/source/rough/root费用，未知G/Btarget与signed finite逆不赋值；待单次公开Actions，尚无新数。

@@ -1,0 +1,25 @@
+{
+  "result": "R885-success-small-IO",
+  "producer_inputs_pending": false,
+  "script": "R885_success_small_IO.py",
+  "script_sha256": "93fc413d00bc50908606cd64b3b44217d32a22736ca621d80cf2410d0af0ad4f",
+  "source": {
+    "result": "R885-original-polynomial-one-row-adjugate",
+    "run_id": "43842694142",
+    "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+    "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+    "wrapper_sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+    "artifact_id": 14214590084,
+    "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+    "archive_bytes": 64381078,
+    "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+    "expected_conclusion": "success"
+  },
+  "certificate_sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "f5321aabd77f7d0b02796627722e0e5e09026411",
+  "new_mathematics_requested": false
+}

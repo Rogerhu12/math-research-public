@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。新9run43840452377的research133207481935（09:31:25→09:31:27）及report133208451697（09:33:19.668266→09:33:21.691505 UTC）真实public pull，依次已读34b5e45ecfd1d533e136c322f78f0d687d8c996c、**076cad7ab77d4056ab660e0e53967b7c3f4a6777**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**10:33:21 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。新9续接run43842056373/report133219956044于09:55:44.036693→09:55:49.455112 UTC真实public pull，已读 **4376ccbb84ea7c6aacbe6acdf005de94942ec731**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一≤**10:55:49 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-私有research/report分别已读88456e284d4284093abc93076c7141d21b004819、**a38683a549d1a505bbbc4c547c3565f2161788bc**（最后09:33:23.502949→09:33:23.987151）。根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中；[新9原记录](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)保两次实际pull身份。私有正文不发表。
+同report私有09:55:52.644336→09:55:53.479721已读 **4177ac45d0ed73f40bca6b90e345705e14e52b5d**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE唯一进行中。私有正文不发表。
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -30,6 +30,8 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 **[R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)新全类门：** A=ReZ、b²=2H−1，原图给A/R≥(b²−1)/2及完整单调相位；精确IBP得ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]dr。因此H≥2时ImE≤−8b³(b²−1)/15015<0，任何实际五门零须 **3/5<H<2**；弱原子/远尾C均保。平方余量另给原比例λ必要区间；有形式八系数通过这些有限门，不当实际cap或剩余区间无解。接真正新四原子/7参及全图问题，不重开旧36。
 
+[R498](results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md)付4真原子/7参完整12L、8Aj、5G及5×7解析J；质量≥1/18、真实间距≥3/50、H<2，新64起点180秒/6000值。C0根只能用5个shape列有向验证与正尾IFT，C>0可选7中5；未宣零/秩，旧36账户仍闭。
+
 **完整真实路径。** R469/472保A/T、双芽、所有W/V和一般w；R480全W外三矩只付重复A0无漂移。R482给原13状态/2输入完整K=F+Chh″+Ckk″，第三入值/真实Mraw不删；R484离开保护芽要实际rank退化，R486排开状态域F恒0而非所有路径。R488真sec支(k0,ω常,h=Hsec)的全K=(a+bv+cv²)/h，t1′<0排自身M0返回/常collar接合；R492 even母period核odd β锁在原13行中。R494任意紧输入β不依H/对ω仿射，双真中心odd差只读β((A2−A1)D)；R70桥tP除至多一ω有严格残值，不能由同w/后置复位消，但非全路径障碍。单段even、真实桥全s与全部成本须同一规范解；高阶收敛与主几何仍欠。
 
 ## 4. 当前真正接受点55与闭合任务
@@ -46,6 +48,6 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw/hash见原note。[最小续接](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)源/请求已发布，后继run43842056373/source86852956f10ec609ba423990a40327284f081c44正在运行；恢复已付coarse，不ordinary重算。原75.06856296999999秒/started1先载入同600钟，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
+[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw/hash见原note。[最小续接](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)源/请求已发布，后继run43842056373/source86852956f10ec609ba423990a40327284f081c44已完成、原报告已取回正在读；恢复已付coarse，不ordinary重算。原75.06856296999999秒/started1先载入同600钟，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
 
 主完成门未付，继续open。

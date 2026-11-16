@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "result": "R887-original-common-cusp-flip-and-bounded-RR-space",
+  "p": 41,
+  "request_id": "20261116-R887-original-common-cusp-flip-complete418",
+  "rules_last_read_commit": "f5321aabd77f7d0b02796627722e0e5e09026411",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "producer_inputs_pending": false,
+  "core": "R887_original_common_cusp_flip.py",
+  "core_sha256": "d469ef046e8575eaed34e5670275f80554edf8cdae723ef3fb029b979e07508c",
+  "wrapper": "R887_public_original_common_cusp_flip.py",
+  "wrapper_sha256": "78a00876c4ecc7309df237de6457068745c65e5b6e65e226db0ce1d362f0cf7e",
+  "legacy_core": "R880_original_D_and_cusp_bounded_RR_inputs.py",
+  "legacy_core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+  "legacy_wrapper": "R880_public_original_D_and_cusp_bounded_RR_inputs.py",
+  "legacy_wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R887-original-common-cusp-flip-execution-method.md",
+  "method_sha256": "ae992344dc1305012fe69229d201fa807b84ad96456f97d6cd826accaafb128a",
+  "proofs": {
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R845": {
+      "path": "results/R845-certified-original-D-pencil-and-eight-pole-generators.md",
+      "sha256": "e365e82958d540fa503776e847f34f01911381b913409e0096a2ffffbeba9460"
+    }
+  },
+  "parent_source": {
+    "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+    "run_id": "43840391925",
+    "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+    "artifact_id": 14212028755,
+    "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+    "archive_bytes": 105609871,
+    "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+    "expected_conclusion": "success",
+    "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+    "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+    "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+    "manifest_file_count": 50,
+    "manifest_bytes": 8526,
+    "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+    "certificate": {
+      "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+      "bytes": 18296,
+      "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+    },
+    "configuration_stage": null,
+    "files": {
+      "R880-common-cusp-and-252P0-constraint-matrix.json.gz": {
+        "file": "R880-common-cusp-and-252P0-constraint-matrix.json.gz",
+        "bytes": 986214,
+        "sha256": "b382a2ba0b35c6e4b96a70a1af23de3384019aaf93fcd796b245652bd8f1c7ae"
+      },
+      "R880-complete-common-cusp-418-kernel.json.gz": {
+        "file": "R880-complete-common-cusp-418-kernel.json.gz",
+        "bytes": 963130,
+        "sha256": "6fe5b5b8f9a0433125eac34eae682f4ddcd39829af1cea1dd8bb2c213af052f7"
+      },
+      "R880-current.json.gz": {
+        "file": "R880-current.json.gz",
+        "bytes": 5658,
+        "sha256": "76dcf1a340ee59f05a2ab5f7f08e5ed8185373b55c88e2de0e5b8fd7a59accad"
+      },
+      "R880-exact-stages-manifest.json.gz": {
+        "file": "R880-exact-stages-manifest.json.gz",
+        "bytes": 6322,
+        "sha256": "8053fe0b34237d8b9e0ac5fde2fc0186da9317fdf132444b865ec7dc87864327"
+      },
+      "R880-fixed-v-section.json.gz": {
+        "file": "R880-fixed-v-section.json.gz",
+        "bytes": 7386,
+        "sha256": "c46a1d37745dfe6fd27d63d549a82daad81da00a4b206b71e554a8eba724dbd5"
+      },
+      "R880-original-D-cusp-chi-principal-inputs.json.gz": {
+        "file": "R880-original-D-cusp-chi-principal-inputs.json.gz",
+        "bytes": 6588,
+        "sha256": "e31404734f964c75b902e756ad19b0f7db493d6f674cf4b84955a5a336328432"
+      },
+      "R880-original-P0-unit-anchor-selection.json.gz": {
+        "file": "R880-original-P0-unit-anchor-selection.json.gz",
+        "bytes": 4823,
+        "sha256": "ba4e1de2c230ed62e425f2b78da9afe511dc475bbcda95d8beed34e6d6fc0891"
+      },
+      "R880-original-source-place-and-block-audit.json.gz": {
+        "file": "R880-original-source-place-and-block-audit.json.gz",
+        "bytes": 5272,
+        "sha256": "897771aa2518717a54b91f73b4ca10f1a23357011141b61126e0e3c75d956d4a"
+      },
+      "R880-standardizing-146-original-V3-basis.json.gz": {
+        "file": "R880-standardizing-146-original-V3-basis.json.gz",
+        "bytes": 485663,
+        "sha256": "6bde28657c4a304ffde59347d29072d183356149102b130a1897b62c17b95c37"
+      },
+      "R880-trial-000001-Dstar-projected-original-V3-basis.json.gz": {
+        "file": "R880-trial-000001-Dstar-projected-original-V3-basis.json.gz",
+        "bytes": 1793292,
+        "sha256": "33af46de42dde8fa39f53dadde93a72c2beb3a2304ef538e53d71fa7a0c11adc"
+      },
+      "R880-trial-000001-five-fiber-rank.json.gz": {
+        "file": "R880-trial-000001-five-fiber-rank.json.gz",
+        "bytes": 7705,
+        "sha256": "2b4e8b2dbed26a3afdac8219aeecaf763a8c76cad1b00926e84c15ddf1c0f8a1"
+      },
+      "R880-trial-000001-w-section.json.gz": {
+        "file": "R880-trial-000001-w-section.json.gz",
+        "bytes": 9368,
+        "sha256": "4e5b6a538ec2eb0de38ff6a8504641edd52bcd2805b57c899b857d54a40c49a4"
+      },
+      "core-receipt.json": {
+        "file": "core-receipt.json",
+        "bytes": 723,
+        "sha256": "466bf415d2ef100a9033c7f8e18c2bc2f293c90179fbe6a73344b599f69737a4"
+      },
+      "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "public-actions-input.json": {
+        "file": "public-actions-input.json",
+        "bytes": 25780,
+        "sha256": "5239a1f8a149f48083b2372add788db1f712288e4fc0bebd678c86032cc09199"
+      },
+      "run-receipt.json": {
+        "file": "run-receipt.json",
+        "bytes": 598,
+        "sha256": "8aac05f7e224ea972803a5a1fade201ea809d05fff9778623edbc4531c5405ad"
+      },
+      "full-outputs-manifest.json": {
+        "file": "full-outputs-manifest.json",
+        "bytes": 8526,
+        "sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db"
+      },
+      "full-outputs-manifest-reference.json": {
+        "file": "full-outputs-manifest-reference.json",
+        "bytes": 181,
+        "sha256": "0b9a0702e6a35303bea7be225a9ed92500cca61cfae885ca72cf6f4a87c39f13"
+      }
+    },
+    "selected_file_count": 18,
+    "expires_at": "2026-11-17T09:31:44Z"
+  },
+  "input_selectors": {
+    "parent_cusp_matrix": {
+      "source_group": "R880",
+      "file": "R880-common-cusp-and-252P0-constraint-matrix.json.gz",
+      "bytes": 986214,
+      "sha256": "b382a2ba0b35c6e4b96a70a1af23de3384019aaf93fcd796b245652bd8f1c7ae"
+    },
+    "parent_complete_cusp": {
+      "source_group": "R880",
+      "file": "R880-complete-common-cusp-418-kernel.json.gz",
+      "bytes": 963130,
+      "sha256": "6fe5b5b8f9a0433125eac34eae682f4ddcd39829af1cea1dd8bb2c213af052f7"
+    },
+    "parent_principal_inputs": {
+      "source_group": "R880",
+      "file": "R880-original-D-cusp-chi-principal-inputs.json.gz",
+      "bytes": 6588,
+      "sha256": "e31404734f964c75b902e756ad19b0f7db493d6f674cf4b84955a5a336328432"
+    },
+    "parent_source_audit": {
+      "source_group": "R880",
+      "file": "R880-original-source-place-and-block-audit.json.gz",
+      "bytes": 5272,
+      "sha256": "897771aa2518717a54b91f73b4ca10f1a23357011141b61126e0e3c75d956d4a"
+    },
+    "V2_jets": {
+      "source_group": "R872",
+      "file": "R872-V2-original-point-jet-matrix.json.gz"
+    },
+    "old_normal_index": {
+      "source_group": "R845",
+      "file": "R839-pole-original-V3-normal-index.json.gz",
+      "bytes": 112114,
+      "sha256": "19bc45e50852072815408114d0f4c890fcff971368fb94057a26d58d9cd8639a"
+    },
+    "old_rank": {
+      "source_group": "R845",
+      "file": "R839-pole-candidate-000001-five-fiber-rank.json.gz"
+    },
+    "W_reduction": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz"
+    },
+    "place_audit": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "bytes": 4261,
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    }
+  },
+  "budget_minutes": 300,
+  "maximum_trials": 4,
+  "resume": null,
+  "transport_policy": "Only original R880 selected outputs and its R845/R872/R827 carriers; old944 identity unchanged",
+  "original_R880_944_sources_retransported": false,
+  "only_old_three_source_carrier_member_count": 370
+}

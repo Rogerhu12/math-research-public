@@ -587,3 +587,8 @@ R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立�
 ### 2026-11-16 09:48:38 UTC — R497 完整角原函数与轴上度量曲率响应
 
 [R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)已证明sin新列在轴仅保T/Ts/Tss、Xt/Xst有限不变，Xs/Xss的全角零均值Π不能删；f0/e非0时八列是否metric盲准确取8条U·∂s(aΠδT)投影。圆背景δeu=4j a_s(aP)_s(−1)^(jk)/(4j²−1)、δev=−b(aQ)_s(−1)^(jk)/j可非零。完整实际I/II/normal与主曲率变分保Π记忆；该背景另4组合可保全轴位置/径向二jet/度量一阶而独立动两轴类κθ。不是55真实峰/秩/下降或全圈等距证据；0执行，当前同账新9仍在公开Actions运行。
+
+
+### 2026-11-16 09:57:57 UTC — R498 四个非退化曲率原子的七参数完整五门
+
+[R498](results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md)给4个质量≥1/18、真实间距≥3/50的曲率原子及C≥0，7参完整原12L/8Aj/5G与物理5×7、chart全H导数。Jsh≤18/25与C=(7/5−Jsh)ζ严格保H≤2−17/25600；新64预定起点、每起80/总6000、统一180秒/150秒搜索，不读旧36结果。首近零仅候选；C>0选7中5、C0仅6shape中5，经同原有理收缩才给真根/秩，随后有限正ψ3尾/两矩修正/C1-IFT保所有5门。0执行，尚无新根；旧账户闭，主门欠。原新9续接report实际pull4376ccbb…双README空diff、私有4177ac45…QUEUE唯一进行中。
