@@ -60,3 +60,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R271正commutator因子与完整新源的整段占据行（2026-11-16）：** [完整自然域证明](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)给K=I+T*T−TT*为核外creation平方、0≤K≤hI；完整2×2逆只用(I+uK)⁻¹，其增益准确分成新位占据与正Schur余项。一个共同t支付[x,2x)全部实际新源的两项和≤Vsharp≤Δ_Q²，真实投影步差平方和亦≤Vsharp；固定物理压缩给Σ||E_yF_{y+1,t}||²≤Δ_Q²，原u及全部合法Q保持。可同参留两阶矩（30000常数），Vsharp→0；这是不同合法代表的完整行，未换成Σ||E_yu||²，真实返回继续。
 
 - **R150原h*完整31坐标与全局上界（2026-11-16）：** [全部原坐标证明](results/R150-appendix-original-hstar-targets-complete31-coordinates-and-exponents-two-to-five.md)以真U16解原315×9目标，rank4且在U7，第8…16坐标全零。由完整最高六阶及T∩31C=31T，九个目标最小31分母指数均在[2,5]；初始低轴不排高阶系数进位。原整数carry的精确下界随后独立记录，不约掉h0=(s−2)h*的s−2。
+
+## R271首头真实两孔的下一费用
+
+[完整一孔核与真实两孔正Schur](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)现已闭：F1投掉原首头的完整dark/coherent核，F2=q♯ω2−λz♯ω1通过原低伴随像保同PV−PK及同完整matched来源；F1⊥F2，准确费γ2²=σ2²<q,(I+λAA*)⁻¹q>，λ=σ2²/S。移动一/二孔全头Bessel与同w全cut误差均付，真帽逆伴随仍保外投影和n+2h+R<Q。**仍须控制这个原q来源的γ2移动费用**；不以任意头Green界、首逆≤1或虚拟Boolean尾替代。固定首头非零锚只迫Σγ2⁻²<∞，尚未矛盾，N=M仍开。此前全部核外/carry开放项保留。

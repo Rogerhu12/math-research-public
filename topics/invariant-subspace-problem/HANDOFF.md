@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 0b6d7ba4ca32c812dc574d0ea7de9b132f3864ac（2026-11-16 11:14:57 UTC，Actions run43856033703实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43856033703-1.json。
+- **最近成功实际 pull 与已读规则提交：** 846fc437877a12f152f2c8f8aaa7b9a48421ced8（2026-11-16 11:18:13 UTC，Actions run43856531281实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43856531281-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-bell-cube-negative-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-true-two-hole-schur-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -32,8 +32,7 @@
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
 - 原rank3关联概形X≅V(I4M)及六次pencil已付，所有非零μ下rank≥4；rank5保核点，rank4保整P1。原rank4代数自由35，X degree20、h(O)=(1,0,10)、ω=O(2,0)、u²6/uv15/v²20、K²24，原证明见归档。
-- **[原六次面恰35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)：** 同原E/D自由35、trace剩余det95使Z étale；全19源(q,I4M)七次792×1848单位双逆1254528门排rank5奇点。rank4局部Schur=unit(ac−b²)，六次面几何整正规、X平滑极小解消，恰35条两两不交(−2)核线，不称E有理。实run43836278134/2.981秒，根raw/binding/来源全核。
-- **[原对偶正规化及全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)：** 四q无基点，2v充足⇒finite，char0微分恢复μ给Gauss有理逆，X是degree80对偶的正规化；每核线映完整conic。同七次原source乘w的multinomial给b7，再保(b−1)源得四q＋十五δ单位覆盖；真各g_i^Ni原17源后才按N=1+Σ(Ni−1)粘合。局部来源尚未取得，原Bell1余理想仍开。
+- [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
 
 - **[原自然幂与纯参数幂精确对应](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** A[t]/(J,b−t³)=C⊕Ct⊕Ct²，故t^K∈I当且仅当b^floor(K/3)∈J；ρ_r逐原来源无除法提取，最小Bell1来源权恰3q0。已付F127全M/T秩388/391使d100下(1,100,94)平方非零，E/三个嵌入亦已付，原K≤8下界现由新立方负证加强至K≤11；下一从权12/原商表示继续。完整18恒等足正证，有限域正证仍需特征零原乘回。
 
@@ -46,4 +45,5 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 - **[原matched全返回的平均首反馈已付](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)：** P=(L+H)⁻¹(H−B)，实际修正r−Pr的Sf费≤||Y||²−α²；n≥h时真coherent低读数给完整H_C(S) Gram。原p_i=bi²/S共同ᾱ=C*t̄取得全(H−B)(r_w,s_f[ᾱ])≤12e8Δ(A_w+||Y||)，同cut平均及真帽运输均趋零；帽裸端另保C0²hβ/Ncut及n+2h+R<Q。不改实际w/源/全h段。剩g0̄=Σp_iHi a0_i，原g=g0̄+ᾱ；其主交叉与N=M仍开，boundary续真空分支。
 - **[移动第一远孔整行Bessel已闭](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)：** 同一原物理H上βxβy*=√(Sy/Sx)J*；x_m=m+2^m几何尾给Σ||β_m w||²≤Bλ||w||²。实际matched源g=C*t+kerC的同cut平均Φ满足Σ|Φ/γ|²有限，γ²=S||t||²；原R=d,Q=4h²,n0=2h²使完整误差平方可和，无w尾率。固定非零测试或同w强头锚迫Σγ^-2<∞；若实际平方费≤Cm log(m+1)才可反证，尚未取得。完整g0/固定物理列Green继续，未混同任意帽源。
 - **[原偶段可达核/首头第二逆完整正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)已闭：** 真整数头级＋孔数使kerC支撑≤floor((R+d−1)/2)，原补集给kerC*反半；偶R遂kerC⊂RanC。Γ=PkerC(CC*)†|kerC，v=(I+b²Γ)⁻¹e0；新第二逆平方费=||Gv||²+b²<q,(I+b²AA*)⁻¹q>，A=(C*)†|kerC*、q=(C*)†(I−PkerC)Gv。全部z/z1自由保留；未付核外q，不能由首逆≤1称Green有界。boundary续原carry。
+- **[首头真一孔核消去/两孔正Schur已闭](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)：** 完整dark/coherent核给F1=(I−PK≤1)f1；真实低伴随像给F2=q♯ω2−λz♯ω1，λ=σ2²/S，准确平方费γ2²=σ2²<q,(I+λAA*)⁻¹q>。F1⊥F2，同PV−PK/同完整matched源/真帽外投影严格相同，得调和费用及移动两孔Bessel；全部h段和same-u误差保留。γ2移动上界仍未付，首头非零锚未改。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
