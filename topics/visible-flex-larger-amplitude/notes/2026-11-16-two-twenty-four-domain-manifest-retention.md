@@ -624,3 +624,34 @@ root已完整读取本次fixed之后自己正式发表的R563/R571/R586/R580/R58
 逆映射先按完整行列恢复九族原字典序列，再仅将path的单键RT4_actual_changed_path引用展开为同body的完整路径，恢复原数组位置及原键顺序；最后删除唯一新增relation成员。以原ASCII JSON insertion order、逗号/冒号separator、无附加LF canonical，必须恢复记录的原整个object bytes/SHA。有限列表的每个列值来自完整原行，constant仅全等时共享，故这项逆是逐字段原对象的精确逆；缺失字段不是null，空列表不是未运行。原allowed判定不改变，仍要求全部未知/未扫/错误为空与容量合格。
 
 只有这个全候选body比全原body严格短才采用；新一轮若仍超过90000仍70且不发布。完整必要仍一份，未分片、抬限或删字段；实际第二轮范围和最终push回执仍需其真实终态，不能由本表示证明提前得到。
+
+
+## 11. 第二次实际完整delta、精确逆与普通push回执
+
+第二次行政publisher run43898233580/job133407510586，workflowhead ad40aa4c3568c15c1a62e9572ba4481c589fa309，来源提交687704e253104aaba1d8a76ba5bc50196a7a8707。2026-11-16 15:36:58.2907396Z及15:36:59.3465247Z真实pull后核已读bf30a01f2e26a906cb62f2b2482ae629019de42b，根README21bd547f56590b7f2dd279d0297efb289a9b2783及本题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变。
+
+| 此轮真正完整返回项 | 实际值 |
+| --- | --- |
+| 完整单body必要字节/SHA | 88874 / 55287e8df6d362bff43158bd7483b58e34b544c650dc2440a7bbe47892937093 |
+| 同次原完整行政对象字节/SHA | 141568 / 4e6189aaf90da8ff7f6a3a0e1105982864c84cc6679392115a6a223481925a07 |
+| 全部变化 | 138 |
+| 全source/config/input完整扫描 | 56 |
+| 历史文本完整扫描 | 79 |
+| 先前已删除路径 | 3，均在其它topic；不是本次新增删除 |
+| 未扫变化/错误 | [] / [] |
+| source命中 | 21，恰为第10节完整request246的21条原source pins |
+| 未解释source命中 | [] |
+| 完整path catalogue | 211个完整原字符串 |
+| 实际topic容量变更行 | 95 |
+| 候选再核 | 两原blob、650502/650500及全SHA均准确相同 |
+| 检索实现 | rg不可用，完整字节逐行fallback |
+| 完整原allowed | true |
+| 普通main push | 2026-11-16T15:38:07.1149659Z成功，无本轮NFF |
+| 正式main | 8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46 |
+| 完整实际topic bytes | 198761353，小于200000000 |
+
+root仅一次取第二轮终态行政日志，完整88874 body已回返；按本篇九族逆规则恢复所有原记录、完整路径、键顺序和其余原成员，其完整ASCII canonical字节/SHA准确等于此轮141568/4e6189aa。此为行政metadata的完整逆核，不是科学算术、科学fixture或新接受门。第一轮131809与第二轮141568来自不同实际pull头，不能混为同一个原对象或推断第一轮未返内部值。
+
+此轮全部3个“先前已删除”地址是：topics/visible-flex-exact-nearby/notes/2026-11-12-actual-canonical-physical-constant-split.json、topics/visible-flex-exact-nearby/notes/2026-11-12-saved-circle-field-multidomain-budgets.json、topics/visible-flex-exact-nearby/notes/2026-11-13-R109-paired-E-and-compact-gap-budget.json。这里只完整报告固定439d到实际pull之间的变化，不认领这些删除，不对它们另作操作。
+
+本次源提交和正式main只删除第1节两份24-domain manifest；原兄弟/所有真实输入保留。actual_proposed_head与最终main同8d1cfb2，工作树空。最终完整guard代码14432/fd69e9f9063bf919a0704a51f255f6493e8b814fd60c47aa3054a3fb7f997d6c；完整行政publisher21585/e58595bdb94bb8e25993aebb51974f2a5677b6166f1e2ab7848baec11220bce9，均在上述行政workflow固定head可恢复，main不新增行政workflow。实际raw/完整必要对象未保存到Git；这里是作者范围判读、完整身份与精确恢复责任。

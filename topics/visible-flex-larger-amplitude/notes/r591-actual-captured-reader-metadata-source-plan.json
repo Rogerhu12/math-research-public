@@ -1,0 +1,365 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R591-actual-captured-reader-and-metadata-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Retain every original239 public/generated source and all56 R570 scientific/diagnostic outputs unchanged. Only six independent metadata callers bind the actual captured239 reader, the new current composer and the original absolute clock, complete necessary scopes and cleanup predicates. No old run/raw/accepted parent is used.",
+  "generator": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "root_20261116_request247_sampling_refinement_composition.py",
+      "bytes": 77251,
+      "sha256": "d7520c1897ee3bbc53d60fdd9f2a6ebd21d24f13e46b8712acbe99d0a79446c2"
+    },
+    {
+      "file": "root_20261116_request247_actual_source_entry.py",
+      "bytes": 38200,
+      "sha256": "156d6738ae064af53e66420ecc5f59d291b2c2f1878ec1dbe6134483c00e6847"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request239-zero-linear-gzip-owned-nested-role-v1": "request247-zero-linear-gzip-owned-nested-role-v1",
+    "request239-zero-linear-gzip-complete-refinement-evidence-displays-v1": "request247-zero-linear-gzip-complete-refinement-evidence-displays-v1",
+    "request239-zero-linear-gzip-refinement-one-necessary-readback-v1": "request247-zero-linear-gzip-refinement-one-necessary-readback-v1",
+    "request239-refinement-necessary-readback-complete-v1": "request247-refinement-necessary-readback-complete-v1",
+    "request239-actual-source-and-same-C-registration-composition-v1": "request247-actual-source-and-same-C-registration-composition-v1",
+    "request239-actual-same-C-source-registration-v1": "request247-actual-same-C-source-registration-v1",
+    "request239-same-C-head-refinement-and-complete-field-consumers-v1": "request247-same-C-head-refinement-and-complete-field-consumers-v1",
+    "request239-complete-same-C-consumer-necessary-readback-v1": "request247-complete-same-C-consumer-necessary-readback-v1",
+    "request239-complete-same-C-consumer-readback-marker-v1": "request247-complete-same-C-consumer-readback-marker-v1",
+    "public-current-C-bound239-coast-base-source-closure-request-v1": "public-current-C-bound247-coast-base-source-closure-request-v1",
+    "public-current-C-same-semantic-head-bound239-request-v1": "public-current-C-same-semantic-head-bound247-request-v1"
+  },
+  "view_count": 6,
+  "literal_patches": {
+    "p0000": {
+      "before": "request239",
+      "after": "request247"
+    },
+    "p0001": {
+      "before": "Request239",
+      "after": "Request247"
+    },
+    "p0002": {
+      "before": "bound239",
+      "after": "bound247"
+    },
+    "p0003": {
+      "before": "actual239",
+      "after": "actual247"
+    },
+    "p0004": {
+      "before": "explicit239",
+      "after": "explicit247"
+    },
+    "p0005": {
+      "before": "\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==239,\n",
+      "after": "\n    require(request.get(\"schema\")==REQUEST_SCHEMA and request.get(\"request_number\")==247,\n"
+    },
+    "p0006": {
+      "before": "ebd89315edd17a1e9da8b49c73ec770e108213ef4f4c58d59ddaf0da92224d41",
+      "after": "d7520c1897ee3bbc53d60fdd9f2a6ebd21d24f13e46b8712acbe99d0a79446c2"
+    },
+    "p0007": {
+      "before": "require(len(specs)==11,\"Keep all original ten source layers and all56 current source successors\")",
+      "after": "require(len(specs)==12,\"Keep all original eleven source layers and six current metadata callers\")"
+    },
+    "p0008": {
+      "before": "(15,5,13,49,51,46,57,6,6,7,56)",
+      "after": "(15,5,13,49,51,46,57,6,6,7,56,6)"
+    },
+    "p0009": {
+      "before": "require(len(expected)==311,\"Keep all255 original source identities and all56 actual247 successors\")",
+      "after": "require(len(expected)==317,\"Keep all311 original source identities and six actual247 metadata callers\")"
+    },
+    "p0010": {
+      "before": "\n            original205_namespace=str(self.base), declared_outer_request_number=239,\n",
+      "after": "\n            original205_namespace=str(self.base), declared_outer_request_number=247,\n"
+    },
+    "p0011": {
+      "before": "df66d5ee07df57ad2136257a8659a0d51acdc5f2b250d6d314d617cbdf9da4a5",
+      "after": "135dd5bb30081c2b2067086093c6cb37ea332f02567e502a0b0baede23d869f8"
+    },
+    "p0012": {
+      "before": "REQUEST239",
+      "after": "REQUEST247"
+    },
+    "p0013": {
+      "before": "refinement239",
+      "after": "refinement247"
+    },
+    "p0014": {
+      "before": "same-C239",
+      "after": "same-C247"
+    },
+    "p0015": {
+      "before": "independent239",
+      "after": "independent247"
+    },
+    "p0016": {
+      "before": "generated239",
+      "after": "generated247"
+    },
+    "p0017": {
+      "before": "\n    require(request.get(\"schema\") == REQUEST_SCHEMA and request.get(\"request_number\") == 239\n",
+      "after": "\n    require(request.get(\"schema\") == REQUEST_SCHEMA and request.get(\"request_number\") == 247\n"
+    },
+    "p0018": {
+      "before": "\n        and parent.get(\"request_number\") == upstream[\"request_number\"] == 239\n",
+      "after": "\n        and parent.get(\"request_number\") == upstream[\"request_number\"] == 247\n"
+    },
+    "p0019": {
+      "before": "\n        require(r.get(\"schema\") == REQUEST_SCHEMA and r.get(\"request_number\") == 239,\n",
+      "after": "\n        require(r.get(\"schema\") == REQUEST_SCHEMA and r.get(\"request_number\") == 247,\n"
+    }
+  },
+  "views": [
+    {
+      "role": "meta_owner",
+      "baseline": {
+        "file": "geometry_20261116_request239_owned_roles.py",
+        "bytes": 25730,
+        "sha256": "df66d5ee07df57ad2136257a8659a0d51acdc5f2b250d6d314d617cbdf9da4a5"
+      },
+      "output": {
+        "file": "geometry_20261116_request247_owned_roles.py",
+        "bytes": 25736,
+        "sha256": "135dd5bb30081c2b2067086093c6cb37ea332f02567e502a0b0baede23d869f8"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 7
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 2
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_runner",
+      "baseline": {
+        "file": "geometry_20261116_request239_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "622db7398cc4eb6383a1cc78652abe36a4cf7b9810c21ab6cecd9429d79f66e6"
+      },
+      "output": {
+        "file": "geometry_20261116_request247_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "702bc37f82e1fab4cbc5b81693ba9e903b5e458b98351cb047c16ff85229be6b"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 9
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_reader",
+      "baseline": {
+        "file": "root_20261116_request239_refinement_necessary.py",
+        "bytes": 44584,
+        "sha256": "e98445e937f999610bd67cf1d233f34e75530232dc46879447e60340a3903505"
+      },
+      "output": {
+        "file": "root_20261116_request247_refinement_necessary.py",
+        "bytes": 44584,
+        "sha256": "3535c678c017bd5c44dda8e5333deb4814e1b8d53d53bca16f507fa9fe57531e"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 18
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 2
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_composer",
+      "baseline": {
+        "file": "root_20261116_request239_same_C_composition.py",
+        "bytes": 33381,
+        "sha256": "57cb048fb13e776f277422bbaee9a37f9d8023d504650f386bb4870dbb37bd99"
+      },
+      "output": {
+        "file": "root_20261116_request247_same_C_composition.py",
+        "bytes": 33381,
+        "sha256": "67d50c732ef1c4ccbf35e2eb489944d2daa0783b906dfc1e3c5c4b90b4f84047"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 11
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 3
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 10
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_runner",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "db734305e2c27ed01fbb41a0b4971de226c92cbc2ab3bf08022498c66c0376ae"
+      },
+      "output": {
+        "file": "geometry_20261116_request247_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "e0d791a5c2938af7d0fb2a76dcc743f0f6812fc860dc41aa268f41e459f43388"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 8
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 4
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "meta_same_reader",
+      "baseline": {
+        "file": "root_20261116_request239_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "0d19752ff3280a77a6ba8ee522960d3ef1826d2f5439dd15e5e261d8ae2eb75b"
+      },
+      "output": {
+        "file": "root_20261116_request247_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "549e1791274e97a17e1154419ffeff46c552ccdb729294eb071a2c67a6ab8132"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 6
+        },
+        {
+          "patch": "p0012",
+          "count": 2
+        },
+        {
+          "patch": "p0014",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "original239_plan": {
+    "file": "r570-same-call-cubic-complete-source-plan.json",
+    "bytes": 71198,
+    "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504",
+    "repository_file": "topics/visible-flex-larger-amplitude/notes/r570-same-call-cubic-complete-source-plan.json"
+  }
+}

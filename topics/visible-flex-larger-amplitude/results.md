@@ -93,3 +93,5 @@
 - [R589：原完整科学调用的来源与RootStats必要入口](results/R589-complete-current-source-and-root-statistics-necessary-entry.md)：451完整源/原447全保、两metadata caller，R588同scope严格较小可逆关系与旧70/false/full last原样；真实246单派，R590另付。
 
 - [两旧24-domain manifest完整引用、实际读者与固定恢复](notes/2026-11-16-two-twenty-four-domain-manifest-retention.md)：本次76213必要/31352当前与77gzip/17组94行全返，真实临时artifact I/O；仅两清单1301002B，最后全delta及容量守护，全部现用输入与兄弟保。
+
+- [R591：actual captured reader四项绑定修复与完整request247](results/R591-actual-captured-reader-and-complete-source-chain-repair.md)：原618及56科学view不改→627/12层，只修真实名称/新metadata；原资源/门/90K70保，R592另付。
