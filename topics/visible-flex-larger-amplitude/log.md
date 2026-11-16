@@ -65,3 +65,7 @@
 ## 2026-11-16 08:40:00 UTC /root — 219正式dispatch与真实身份
 
 [绑定](notes/2026-11-16-request219-official-run-binding.md)：R501/219真Git发布及实际source同f0c78734；admin43832851637遇NFF后立即pull/rebase重推成，再核workflow419898247已登记后单POST200→run43832887523/attempt1/main。08:39 compute133182240807前1–8源/容量成功、9prepare失败、10science skip；report133182459836当时in_progress，exact唯一终态各读一次，root未取科学log，不猜原因或清理。H正文题内新增件数明确19个467160B，workflow另计；全部科学未付保。
+
+## 2026-11-16 08:46:00 UTC /root — R505与220明确新点/完整链
+
+[R505接口](notes/2026-11-16-request220-explicit-coast-base-complete-chain-interface.md)41174/8f9b连七源完成即刊并dispatch，request99218/f6ca、workflow94508/c1cb；278＋179=457原218全405保，六层实生成46新/124literal/364应用，展开不入Git。R503三词+0/另七词保、全10candidate_rows与新点全部来源真接；当前union owner77443/b8ff修dict unpack，只有两旧错owner历史hash/不AST不调用。原453→450/五factor2/M128/几何held/t显示、32GiB/18900+2700/九读回quiet全保，无科学结果预填；R506唯一amplitude。R502完整已交root紧接单推，221继续三工程修复。
