@@ -30,6 +30,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R467实际208](results/R467-actual208-contracted-trace-resource-partial-and-complete-readback.md)25544/c870已返：run43804793905/source9b05、compute133092971995 failure/report133209057444 success，两终志各唯一，53307/d5b5单必要完整且同字。零H5774.44365s收敛/residual0、无J/audit；首1/64H12195.31508s在finite-trace-direction-resource-budget停于stage366/cell5/segment8，0当前R273系统/方向、0trial、完整FD/fullDN/末audit未入。45434 root/45433 localJ/28278收缩/6334272方向仅原累计局部范围，非全576当前J或端到端速度。内层resource=true与原18000钟/外层budget_exhausted=false/无external_signal分列；实际单90K已完整、marker/owner与父静止后removed=true，原raw已删，无可续非零父。不追加同源重跑/缩门，211原新源单独等实际结果。
 
+[R518](results/R518-live128-radial-cache-complete-source-composition.md)/[完整接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)四件99187B已成：generator c694/plan4f20接R515真实组件→owner/assembly/system/QR/pipeline/call/worker/client/fullDN/R508 runner/reader，336祖先pin＋3public＋12generated=351，71明确literal，不存展开源。原221请求实际computations/HERE；新派生合同用实际完整SHA，221仅内部祖先号，无新实验或当前221变更。原19200/64GiB启动/全部112×224/576/338×112/双mean/FD/fullDN/quiet/单90K70保；必要reader实读R515 binding与真正返回compiler process，准备receipt不冒执行。没有编译、速度、当前H或接受结果；后续只按原实际需要接执行，不添fixture/科学门。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
