@@ -56,13 +56,13 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
 
-[WHR正侧径向head](results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md)289935c3保真实193angular fiber上的无限径向L² Fredholm index0、未知mH核/cokernel/H¹补列、真正Volterra端点及全cross；完整dual不截输入。旧V尾及新WHV零V0都是充分条件，finite signed entries/全逆仍待；rough资格见WHS，true96仅W96存在而数值basis未付。
+[WHR/WHV/W96原范围检查点](notes/2026-11-16-positive-head-open-scope-before-signed-residual.md)9f69ecd3逐字保三完整已成段及所有原未付义务。WHR289935c3仍是193angular fiber上无限径向Fredholm index0，未知mH/全cokernel/H¹补列/trace-safe端点/完整dual/cross保；WHVe993f068的零V0变换全源/初值/jump/逆伴随/endpoint直接项同改。WHVA9274e696实际43838214094已成24目标冻结，但eps35.51628…/N4096门false、requiredN145475超cap，无矩阵/resolvent、不证奇异。W9602f93880真实outer193行给T核96+ℓ、ℓcompat及actual reconstruction，至少96列存在；prescribed-root96的193+mH square/signed entries/数值basis/Gram仍待。原PW全density两mean/WPL左receiver、全Θ/ν/cross及消head新high反馈保，旧WGB E不可照抄；rough资格见WHS，实际finite逆/最终族未授。
 
-[WHV零Volterra完整预处理](results/R133-supplement-zero-Volterra-preconditioning-and-readonly-positive-head-mesh-contract.md)e993f068保F0=(Id−V0A)F、全源/初值/jump、逆伴随cokernel和endpoint直接项；193N只是完整输出有限因子。[WHVA实际](results/R133-supplement-actual-zero-Volterra-positive-head-mesh.md)9274e696：43838214094/1成功/14门24目标，3wholemax+18球/旧0、15current/13history/4650rows+3594interfaces全保，原progress4608不改。eps35.51628…在N=cap4096严格充分门false，requiredN145475超cap；0矩阵/0resolvent，不证真实奇异。24已成目标冻结；首次43837109596仅运维修复前science0见e6b6f079。实际finite signed逆/负head及全finite仍待。
 
-[W96真实低96列和完整正侧有限关系](results/R133-supplement-genuine-low96-Poisson-columns-and-exact-positive-boundary-completion.md)02f93880：同真实outer低96 odd+96 chart identities+1 even mean=193行，WHR完整mH余核给T:R^(289+mH)→R^(193+mH)。kernel96+ℓ重构单射至actual positive homogeneous解，至少96真实列存在；ℓ额外列/ℓcompatibility及全部inhom RHS保，不把a*任意给定或把存在当数值basis。指定root even96坐标另须真实193+mH方阵逆。混合root经原PW全density/两means、WPL半行/左B^-1给真正Hphys，无高输入rightfactor；所有Θ/finite/high/νcross保。消head后high列完整反馈需新界/rough域，旧WGB E不能照抄；数值pairings、finite逆及最终族仍待。
 
-[WMR正权physical mean与完整重组](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)550866c0：同aJw/DJ正概率测度精确约共同权，strictδ79/128与localδ3/4分域各证；原metric给实际negative区间β≥0，独立原Π与weighted mean、Aabs和backward负部界全保。新两patch Z/Zr及g1=JQf−z′k−zTk仿射组装保kr/非mean B/T/两jumps/三个旧端/orderedreadout，whole只对oldwhole/reduced只对oldreduced整选；未减旧upper。仅新公式0数；全physicalmean/ν/96/head/finite/背景仍待。
+
+
+[WMR正权证明](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)550866c0及[WMRA实际](results/R133-supplement-actual-positive-weight-physical-mean-and-whole-error-refinement.md)b2df8a12：43840219992/1完整18门/7图42记录/2exp、旧0；19current/69旧球/13图669非球leaf/原failed-success资格全保。共同aJw/DJ正weight先约，strict/local gap分域、β≥0仅原negative域、两类均值不混；Z/Zr和全仿射g1、原B/T/3070jump/四端/Calg/RF/orderedreadout重组完整。whole只比whole/reduced只比reduced，两者实际选new约2.1163e465，仍仅upper、不授高门/有限逆；42量冻结。更细完整mean源、ν/96/head/finite/背景未付。
 
 ### 2b. 已付系数、坐标与原强界
 

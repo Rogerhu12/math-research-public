@@ -13,3 +13,9 @@
 ### 2026-11-16 09:29:29 UTC｜WMR 冻结 workflow 一次自然触发
 
 包已先推2d4f1fa1；workflow5becfacc/2990B/SHA958a452efe98a3c748afbe2e833e611101baa6c3cce879d1b8ad907587e63986只由自身path提交触发，共用worker7abb8783、manifest eccd4b23与科学源e8c3ca95全锁。fresh topic 199692662B，完整130000B输出+120000B预留可纳；readonly/marker/立即启动前二次容量与README核仍由runner强制。原15已成science只读，唯一新增7图42记录/2exp，不重WHV或WECA。实际run与完整prefix另核后推结论；README只读核2d4f1fa1e5ff73b6632b3c3fdbc1b7f7fc96fdbc，继续。
+
+### 2026-11-16 09:36:17 UTC｜WMRA 实际18门/42量完成，完整whole/reduced新上界冻结
+
+公开43840219992/1，eventf7f77c5f、真实科学dfd6759e。SCI39a2d96a/51030B、exec0c181a20/19357B、report457B，共70844B；根全读并核完整32字段/18门/7图schema/42槽/16进度、全部19current五键/2AST/0history、69旧record/13图669非球叶/两原index failed-success状态及3copied hash。preflight7134B和4真pull hashchain独核；最新成功真pull09:30:07.754563两README diff空。完整stdout2803431B只引用receipt，未取大正文。
+
+两完整候选比较均选new_positive_weight：whole约2.116312512140667e465（完整球在proof/SCI），reduced独立保；旧4.3424e341224436仍保存。上界改善不代表充分高门或finite逆通过；全mean/Calg/RF/orderedreadout/旧B-T-jump/四端及原失败资格不减。42新record/2新exp从此冻结/old0/lost0。完整结论b2df8a12推送；正侧旧3段open原字归档9f69ecd3并保主动索引，未删未付义务。README只读核c09aaf9a6e1661efeacb34e4158f0322733bd2a9；继续WOB/结构signed inverse/完整源细化。
