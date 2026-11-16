@@ -385,3 +385,6 @@
 
 
 - **true53全部9658已知行的finite master首次正收益，仍欠全网与actual。** [数值记录](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671，1LP/34迭代/68系统、gain7.0414711481267545e−6；新任务14.132776896秒含输入失败，祖先累计1608.573003992/128值。0新J/JVP/ordinary/actual。立刻继续新方向完整分离及原门，非完成候选。
+
+
+- **权零四完整self/current首次源码与入口已提交。** [设计](notes/weight-zero-complete-self-four-column-design-20261116.md)、[请求](computations/request-weight-zero-complete-self-currents.json)（20871B/SHAe328bb129fe0f5d2a996bafa68e3f816cc3dba8f3d034d5d4fb70368e2551f83）；源码65100B/7f992c389661d731cbb873e42c7ddab84f37ad3a521b8128cfcfb338a9bdb412，只复用七Qpivot/seq707并求四新完整self，保X_H左n2。180秒共享输入/符号/失败/全部输出，末clock权威；0旧rank/dev/固定母测试。待首次实际输出后续联合h/y关系。

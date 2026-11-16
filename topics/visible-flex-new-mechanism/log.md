@@ -603,3 +603,9 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 - 原run43817336585/job133132261671/source de1c7d5a…，唯一1LP/34迭代/68系统，全部9658行通过；修复gain7.0414711481267545e−6，方向SHA3fade7f7…，0新J/JVP/geometry/actual。
 - 同任务14.132776896秒含输入失败，累计1608.573003992/128值；原向量仅stdout，note记完整指纹/dual浮点口径；双actual pull/空README差异已读，H读ed935a6…下一07:31:53。
 - 立即继续新方向完整双网分离、原guard/round/actual；四self源码及R466/R467并行，主目标未完。
+
+
+## 2026-11-16 06:34:56 UTC — 权零四完整self/current首次入口提交
+- 新源码65100B/7f992c38…与20871B请求e328bb129fe0f5d2a996bafa68e3f816cc3dba8f3d034d5d4fb70368e2551f83，完整37项闭包；std库、0旧rank/dev，仅三静态八响应输入恢复、七已付Qpivot/seq707与四新self，保原n2和所有残词。
+- 新增课题外.github/workflows/visible-weight-zero-complete-self-currents.yml以在本公开Actions执行这四个新收缩；先双actual pull/README与QUEUE，再单180秒含失败/大输出，末FINAL_CLOCK如实计超限；无artifact/Release/cache。
+- root全文读源码与BOM/末clock差异，未另设执行检查；消费原run后继续h/y共同关系和true53全网方向，主目标未完。

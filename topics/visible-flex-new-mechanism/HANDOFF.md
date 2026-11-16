@@ -32,7 +32,8 @@ R456同宽全角色只检D5/D6；R458两实际宽各三末low/≥8copy才另检D
 
 R437最高P2θ=κell_f/24杀kerLf；R460由H′=pG″付所有simple-p无留数/同C光滑匹配，不增核。一般range仍保Af/平台/totals/两germ，再gap调∫k′与原右锚灭affine差；R455 canonical E/totals0下恰每包两Af×d,e四门，R459 signed已可接真特解，actual实现未付。incoming XD/p点真逆值与gap平台变化都进规范rhs。
 
-[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)全Bhat(BD)=RE+2ER2、原cubic使BD全13盲；R280逐布局二次矩/三真实circle base的Vandermonde给kerLf且全port盲的三合法矩右逆。最高d/e通过后余原九行，dP≠0后六固定hook，不授rank6/9或逐θ换z。相位矩阵度≤2/rhs≤3，Smith非零局部重数≤36且零行另保。R464续原九行包装/seed与M3非零同起点构造。
+[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)原BD全13盲；三合法矩右逆保kerLf及全部port。最高d/e通过后原九行由R464条件付；不逐θ换规范。
+
 
 R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧逆≤11、最高e≤17。新初选11+7差分清e，完整F_rat/每宏三矩与全部新基准入20目标；不移植旧range。R449八hook独立、144像≥137及K11增广≥148非全R分类。
 
@@ -59,4 +60,4 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 [新finite正方向](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行通过，修复gain **7.0414711481267545e−6**；方向SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。原失败5.828010012+本进程8.304766884=新任务14.132776896秒；祖先累计 **1608.573003992秒/128值**。0新geometry/J/JVP/scalar/actual。立刻恢复必要U/T作确切新方向完整双网分离，原e/f复用；不重finite LP/旧J/ordinary几何。通过才接原guard/round/actual。
 
-[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。拟一次180秒包含输入/全部失败、无旧rank/dev；源码在写，未执行。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。
+[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。唯一源码/请求已提交待首次run；同180秒包含输入/失败/全部大输出，末FINAL_CLOCK权威、0旧rank/dev。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。

@@ -210,4 +210,4 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 ### 权零四列真正新观察已定范围
 
-[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码在写，未运行。
+[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码/唯一入口已提交，首次输出待消费，未运行。

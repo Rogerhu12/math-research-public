@@ -1,0 +1,386 @@
+{
+  "schema": "visible-flex-weight-zero-complete-self-four-currents-v1",
+  "request": "visible-flex-weight-zero-complete-self-four-currents-20261116",
+  "repository": "Rogerhu12/math-research-public",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self_currents.py",
+  "purpose": "Four genuinely new complete self/current contractions, using the paid seven Q pivots and one current pivot. Preserve common coordinates for the subsequent joint h/y quotient relation, not only two MEMBER booleans.",
+  "domain": {
+    "targets": [
+      "response_old8",
+      "response_old9",
+      "normal_XH",
+      "normal_XY"
+    ],
+    "new_complete_self_currents": 4,
+    "new_current_scalar_RHS": 4,
+    "necessary_static_mixed_inputs": 3,
+    "necessary_response_mixed_inputs": 8,
+    "paid_Q_pivots_replayed": 7,
+    "paid_current_pivot_sequence": 707,
+    "old_pure_Q_Omega_current_rank_or_development_executions": 0,
+    "new_profile_or_root_evaluations": 0,
+    "new_development_suites": 0,
+    "all_input_reads_and_restoration_in_one_science_clock": true,
+    "whole_target_same_right_anchor": true,
+    "XH_left_constant": "published_n2_not_universally_zero",
+    "XH_left_constant_zero_domain": "the_same_published_four_constraint_affine_mother_library",
+    "actual_joint_or_period_claimed": false,
+    "nonzero_remainder_is_fixed_mother_nonmembership": false,
+    "automatic_mirror_membership_or_rank_executed": false
+  },
+  "limits": {
+    "seconds": 180,
+    "memory_mib": 1024,
+    "nodes": 500000,
+    "atoms": 60000,
+    "terms": 80000,
+    "word_calls": 500000,
+    "cache_entries": 300000,
+    "rational_bits": 8192,
+    "monitored_rational_operations": 5000000,
+    "mathematical_stdout_bytes": 2500000,
+    "stdout_final_reserve_bytes": 131072,
+    "original_log_read_bytes": 16777216,
+    "network_json_bytes": 2097152,
+    "network_timeout_seconds": 40
+  },
+  "paid_inputs": {
+    "R316": {
+      "run_id": 43735872441,
+      "job_id": 132878270740,
+      "source_commit": "ca186db057ed753abe565d0c3c2c8305278b5af7",
+      "log_bytes": 182877,
+      "log_sha256": "4d658489abd694f9f4cde2204aec9d23dc507d9ebae47168e42123cf4ff1288f",
+      "report_tag": "COMPLETE_REPORT",
+      "report_bytes": 61441,
+      "report_sha256": "731ffae43cc8f06346801c444a7de010fe2cf6f9f05ecf4b650d319fa2ee06fd"
+    },
+    "R329": {
+      "run_id": 43740129876,
+      "job_id": 132891272196,
+      "source_commit": "a5383f62d353890cc24e927b669dd2d6b67f8c78",
+      "log_bytes": 136609,
+      "log_sha256": "6808d07a3ed6b20d503691de9c979ab5accd9526f52861906c4196ff53d49758",
+      "report_tag": "COMPLETE_REPORT",
+      "report_bytes": 37516,
+      "report_sha256": "d4c5709c150392118ea0189be0f2114e52e9511df12d90f139836cace3863ca3"
+    },
+    "R434": {
+      "run_id": 43796872698,
+      "job_id": 133067569306,
+      "source_commit": "563defb46bc785295265c3f48fcad3fc8897c617",
+      "log_bytes": 1322512,
+      "log_sha256": "1edd4dd8ac34e2a9fe6fc1cf7ae08dc2d91fa279c02e6c32365bff9830e013b1",
+      "report_tag": "COMPLETE_CURRENT_Q_REPORT",
+      "report_bytes": 15639,
+      "report_sha256": "c4b4031bddacca0c84050c7efdf8b43f80e7553553305d55dd52637f96af292d",
+      "record_tag": "CURRENT_Q_RECORD",
+      "records": 1020,
+      "record_file_bytes": 1170464,
+      "record_file_sha256": "dd936dc713d3461cfbf2652c4e88c89ac4b918eb7949bb379f3b940d62cb8ec7",
+      "record_chain_sha256": "673061557c1b53e78bf300d18e11e510d091378ad3431e159f6049404cde5101",
+      "request_path": "topics/visible-flex-new-mechanism/computations/request-complete-response-self-current.json",
+      "request_bytes": 9269,
+      "request_sha256": "fd6e8526d6f7e9492911848b17a852d64a31654513a267ba61e5bdb9390ffb01"
+    },
+    "R443": {
+      "run_id": 43801705436,
+      "job_id": 133083261189,
+      "source_commit": "9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac",
+      "log_bytes": 421834,
+      "log_sha256": "d4a266bb80006a56918f21600ecce75ade0b7522ddbfc45459f89958f5b2c1e8",
+      "report_tag": "COMPLETE_SELF_KERNEL_REPORT",
+      "report_bytes": 17727,
+      "report_sha256": "070de2b03125ef6a3be251919dc99ecc736b47a00261708cea0727e5c7d36dc4",
+      "record_tag": "SELF_KERNEL_RECORD",
+      "records": 249,
+      "record_file_bytes": 299732,
+      "record_file_sha256": "1ea691a9cb902e6be7bdbf09b892c3f39d665dbd45174a309be7445686611ca8",
+      "record_chain_sha256": "6565a3135f586abdbeda18ae58dae8b156e820d81e1f448e1afa0f5339a190c5",
+      "request_path": "topics/visible-flex-new-mechanism/computations/request-joint-kernel-complete-self.json",
+      "request_bytes": 11809,
+      "request_sha256": "f3523f5ee89d820150e52e22c54afd25d5d7deb79fa8adc0d5cbefc7496f4532"
+    }
+  },
+  "source_manifest": [
+    {
+      "path": ".github/workflows/visible-weight-zero-complete-self-currents.yml",
+      "bytes": 3313,
+      "sha256": "45639022958960b8d1cf6fb3512654aff17f1c7b50d267210059365effea9e30"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/notes/weight-zero-complete-self-four-column-design-20261116.md",
+      "bytes": 15516,
+      "sha256": "9c93fc0862e2ff79fb1ee949d175469bb331217be3d9f738752faea1cab4f009"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py",
+      "bytes": 47656,
+      "sha256": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_c7_transverse_tail_probe.py",
+      "bytes": 11020,
+      "sha256": "98c879d83799e275e145310f5c9fdd9b85a87503d15f1690925d2f648ebc305b"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py",
+      "bytes": 58885,
+      "sha256": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_character_head_minus2.py",
+      "bytes": 58856,
+      "sha256": "fcc41b4d5a640a1ac411e7f6f29622db81c39cb2be37aed7811136418a045f11"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_character_head_zero.py",
+      "bytes": 42361,
+      "sha256": "337966b4fb9a417ed62d650cac87ffc4c41bedc9938e11c1520fe1136b53dee4"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_character_zero_endpoint_layer.py",
+      "bytes": 29604,
+      "sha256": "bb7be8fc3fa6b98f3f69aca96e5145c6df1f3d581ea85d14aa7fb6ccfefe6a94"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_character_zero_pure_readout.py",
+      "bytes": 29283,
+      "sha256": "8d99414bda0a9bf61925f74e5378bfe80532fc8d9b9d35d6cc73625f8f15f7d1"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_closed_c1_endpoint.py",
+      "bytes": 21532,
+      "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py",
+      "bytes": 21642,
+      "sha256": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py",
+      "bytes": 15738,
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py",
+      "bytes": 54281,
+      "sha256": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py",
+      "bytes": 24202,
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_endpoint_first_layer.py",
+      "bytes": 11829,
+      "sha256": "cf14e26c215bd93feb43dc4b56b8ecdcf9f9013084236e772229404eb9401b69"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py",
+      "bytes": 32096,
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_phase_bridge_exact.py",
+      "bytes": 35368,
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_phase_rational_dual.py",
+      "bytes": 19492,
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py",
+      "bytes": 10966,
+      "sha256": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py",
+      "bytes": 26885,
+      "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py",
+      "bytes": 39670,
+      "sha256": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py",
+      "bytes": 31222,
+      "sha256": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_linear_third_bridge_quotient.py",
+      "bytes": 24699,
+      "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py",
+      "bytes": 22205,
+      "sha256": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py",
+      "bytes": 38857,
+      "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_local_third_bridge_decompose.py",
+      "bytes": 30635,
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py",
+      "bytes": 33718,
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py",
+      "bytes": 32310,
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py",
+      "bytes": 33169,
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_rational_volterra_polynomial.py",
+      "bytes": 19803,
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py",
+      "bytes": 16444,
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py",
+      "bytes": 37293,
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self_currents.py",
+      "bytes": 65100,
+      "sha256": "7f992c389661d731cbb873e42c7ddab84f37ad3a521b8128cfcfb338a9bdb412"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self.py",
+      "bytes": 27626,
+      "sha256": "9347caeb4ff7ed54cc88f6c38183d4773d8e12125a5a9631412674550d42b78f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_joint_self_completion.py",
+      "bytes": 50184,
+      "sha256": "1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_natural_flux.py",
+      "bytes": 42478,
+      "sha256": "be12b9338cf5558eacb4d05b43f201871fae5d4262dd330304eaa56df3c2e12f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py",
+      "bytes": 50679,
+      "sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+    }
+  ],
+  "source_sha256": {
+    ".github/workflows/visible-weight-zero-complete-self-currents.yml": "45639022958960b8d1cf6fb3512654aff17f1c7b50d267210059365effea9e30",
+    "topics/visible-flex-new-mechanism/notes/weight-zero-complete-self-four-column-design-20261116.md": "9c93fc0862e2ff79fb1ee949d175469bb331217be3d9f738752faea1cab4f009",
+    "topics/visible-flex-new-mechanism/scripts/literature_acceleration_layer_mixed.py": "271dd150fe95d280fdf3cad0f5bbb5b5fde6f81631a96e7fdbfeb628711ebf7c",
+    "topics/visible-flex-new-mechanism/scripts/literature_c7_transverse_tail_probe.py": "98c879d83799e275e145310f5c9fdd9b85a87503d15f1690925d2f648ebc305b",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_literal_relations.py": "80ab553a2dbb35fd4547beaf1b7ad094e831a2cb7f02e4968b867c4654cd9995",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_minus2.py": "fcc41b4d5a640a1ac411e7f6f29622db81c39cb2be37aed7811136418a045f11",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_head_zero.py": "337966b4fb9a417ed62d650cac87ffc4c41bedc9938e11c1520fe1136b53dee4",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_zero_endpoint_layer.py": "bb7be8fc3fa6b98f3f69aca96e5145c6df1f3d581ea85d14aa7fb6ccfefe6a94",
+    "topics/visible-flex-new-mechanism/scripts/literature_character_zero_pure_readout.py": "8d99414bda0a9bf61925f74e5378bfe80532fc8d9b9d35d6cc73625f8f15f7d1",
+    "topics/visible-flex-new-mechanism/scripts/literature_closed_c1_endpoint.py": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1",
+    "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9",
+    "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
+    "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_constrained_static_fourth.py": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4",
+    "topics/visible-flex-new-mechanism/scripts/literature_endpoint_first_layer.py": "cf14e26c215bd93feb43dc4b56b8ecdcf9f9013084236e772229404eb9401b69",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_phase_bridge_exact.py": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_phase_rational_dual.py": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_translation_successor.py": "a4583ea776facd4ec4d92a121fed2e79af8de20d57bffc5fa22e47a8026ef406",
+    "topics/visible-flex-new-mechanism/scripts/literature_h_axis_sharp_coefficient.py": "7f4ee057a16a620e089102ea9c84fccafd922306e8febf8b73391b478e4a4a0b",
+    "topics/visible-flex-new-mechanism/scripts/literature_linear_third_bridge_quotient.py": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
+    "topics/visible-flex-new-mechanism/scripts/literature_local_third_bridge_decompose.py": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
+    "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+    "topics/visible-flex-new-mechanism/scripts/literature_rational_volterra_polynomial.py": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22",
+    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
+    "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa",
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self_currents.py": "7f992c389661d731cbb873e42c7ddab84f37ad3a521b8128cfcfb338a9bdb412",
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_complete_self.py": "9347caeb4ff7ed54cc88f6c38183d4773d8e12125a5a9631412674550d42b78f",
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_joint_self_completion.py": "1f5d671598ca6fc4a804c6f22a65d145b5ced3743506a2144d507717ff4789d3",
+    "topics/visible-flex-new-mechanism/scripts/literature_weight_zero_natural_flux.py": "be12b9338cf5558eacb4d05b43f201871fae5d4262dd330304eaa56df3c2e12f",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+  },
+  "execution": {
+    "research_args": [
+      "--request",
+      "@REQUEST@",
+      "--out",
+      "@OUT@/weight-zero-complete-self-currents.json"
+    ],
+    "public_Actions_only": true,
+    "new_development": 0,
+    "old_development": 0,
+    "one_scientific_clock_seconds": 180,
+    "total_clock_includes_all_log_reads_original_input_restoration_new_symbols_failures_and_main_report_output": true,
+    "authoritative_terminal_record": "FINAL_CLOCK",
+    "main_report_tag": "COMPLETE_WEIGHT_ZERO_SELF_REPORT",
+    "record_tag": "WEIGHT_ZERO_SELF_RECORD",
+    "scientific_environment": "stdlib only; no pip or optional scientific libraries",
+    "original_machine_payload_read_only": true,
+    "automatic_profile_evaluation_rank_or_member_test": 0,
+    "after_observation": "Directly continue the two targets' common quotient/member comparison from the emitted exact formulas, including the h in span(y) question."
+  },
+  "original_root_source": {
+    "static_source": "notes/actions-43645177423-1-local_fourth_quotient",
+    "response_source": "notes/actions-43649525432-1-g_first_translation",
+    "static_mixed_indices": [
+      2,
+      4,
+      6
+    ],
+    "response_R126_old_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "Gamma_reference_sha256": "c6276335dd47380509870798123478dc1b5a25ad83f3eef15d30cedcef4ece0b",
+    "full_original_N0_Gamma_history_and_left_tail_retained": true
+  },
+  "publication_policy": "No artifacts, Releases, raw logs, recomputable outputs or certificates in Git. Mathematical records and final report only in original public stdout and runner temporary files. Source/design/request and human results may be committed.",
+  "completion_claim": false,
+  "sync_private_rules": true,
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "last_read_public_commit": "ed935a62fc7b1f5b266ce3de05723a4d021bd7b5",
+  "last_read_private_commit": "832093cccbd36dbbe437eed703bf85a19e7dc339",
+  "queue_session": "Astra-new-mechanism-9974ea84"
+}
