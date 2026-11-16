@@ -86,3 +86,7 @@
 ## R511 — actual222新coast点完整域、全采样与确定source guard
 
 **实际终态及源码停点已证明，完整BVP/闭面未付。** [R511](results/R511-actual222-coast-base-domain-complete-and-native-source-binding-stop.md)32170/5d95；run43837980277/source6643ea、compute133199299786与report133280480728终态failure，各日志唯一。新十词requested域1028/1637/0未决/0未访，112far/joint、13850点/16128occ、gzipstored20.36GB/decoded95.03GB真齐；BVP child1.379754821s实起后旧client argv与新driver源guard止，closed ENTRY独立错。composition必要超90K无body/准确失败长度，15精化未起；quiet而cleanup skip，无accepted父。完整数字/word/身份、coarse责任、stderr未返5行及C账其余2608行边界保正文。附[226官方绑定](notes/2026-11-16-request226-official-run-binding.md)：单POST200/run43863878883/head同f93b、compute133287356711，前1–10success/11科学；root唯一R537，未读running日志。
+
+## R544 — 实际来源两guard修复与完整composition具名关系
+
+**完整源码/条件实现已证明，实际230未运行。** [R544](results/R544-current-C-actual-source-bindings-and-lossless-composition-relations.md)/[接口](notes/2026-11-16-current-C-actual-source-binding-and-composition-relations-interface.md)五件136350B：relation8567/7bc3、generator16140/78ac、plan76039/1000、proof19451/d5f1、interface16153/2301。原actual217/222真实b3ce旧argv与9c7a ENTRY断口修复，来源guard保；41核心+8sameC、95literal，1972880B展开只Actions。具名source新增三列+全literal/其余对象保原键/行/顺序/类型/presence/±0，明确逆；whole含header严格更短才用，不保证90K内且不加限额。原完整composition与necessary身份分责、全部science/clock/quiet门保，exact继续R545/request230/R546实际caller。H/open以3034固定历史压缩，原open§4–6逐字保；R511日志时间更正为真实12:13，226状态不再使用提前的12:14观察标签。
