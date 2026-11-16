@@ -198,3 +198,5 @@
 - **原偶强段可达核及完整第二逆。** [原半级支撑与首头第二逆正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)证明偶R的完整kerC⊂RanC，真新增核图付同forcing投影增益；完整min z∈kerC*保全部第二逆自由，得到||Gv||²及核外q的正Schur两项。真实N/Y/全强位/原补集均保；第二逆统一费用与N=M仍开。
 
 - **原Bell立方完整模七输入。** [全原系数与权九字典](results/R150-appendix-original-bell-cube-prime-seven-admission-and-complete-weight-nine-dictionaries.md)本地13.410秒核134399原Q系数7整、f7不可约与全部3个F343立方分量、49368行/16442来源；根全源及raw/binding/双模型SHA核。仅使未来F7完整增广秩>16046可接Q负门，本次无新矩阵秩或立方非成员结论。
+
+- **R150原共同M的完整整自由格及两个真简单直和项（2026-11-16，已证明）：** [完整单位minor提升与扩张范围](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)以全部225原Krylov和真T16给自由影像饱和25，完整约化特征/最小多项式为s²h/h；23循环单位格及sU饱和使自由格严格R/s⊕R/s⊕R/h。s在完整系数扭子可逆，故两R/s在实际M真分裂，余E仅知0→S→E→R/h→0；D型D²⁵⊕S。原全域像34、最少6生成，根1交像0/根2交像9仍不识别S/pS，dR(M)保持8或9。实际本地3.923秒及远端run43849025211选源307.279秒/消费者2.168秒双成；根全raw/binding/阶段独审，所有共同数学字段16834B/SHA c1ad1438…完全相同。

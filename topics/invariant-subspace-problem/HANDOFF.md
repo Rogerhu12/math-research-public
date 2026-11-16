@@ -6,8 +6,8 @@
 - **最近成功实际 pull 与已读规则提交：** 98924967bf87b1fa30f8dd367f932511235355a8（2026-11-16 11:02:02 UTC，Actions run43854099366实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43854099366-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
-- 共享executor约07:20失效，10:38:47真实恢复；本地main真pull已恢复。旧tmp不冒存活，自有旧full210目录正按全SHA核；固定flint0.9在独立tmp venv已实际安装。现可本地计算，既有Actions亦保真实pull/rebase/push；API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-even-prefix-second-green-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-joint-m-integral-free-lattice-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -25,7 +25,7 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
-- **共同M实际下一步：** [全225列资格队列](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)已全审：真T16商后的自由25饱和/两根primitive与交像Nakayama，另逐primary最少生成数；真域像需9才夹dR(M)=9，否则仍8或9。实run43849025211已dispatch，重建已付35项父、不重210，五步后取全日志；高p carry未算。
+- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 原225列/真T16商给饱和自由25，R模恰R/s⊕R/s⊕R/h；s在T上可逆使前两项真分裂，余E为R/h与S=M∩T的扩张。full210本地3.923秒与远端run43849025211选源307.279秒＋消费2.168秒独立全成；全部共同数学字段SHA一致。域像34/最少6生成，根1交像0、根2交像9，仍8≤dR(M)≤9。续高carry/完整S，root1保自有G/V；cap50在244.275秒因旧检查点4.5MB格式守卫安全停，保前4阶段；审有界新接口，p12原乘回未算。
 
 ## R150完整非rank-one及Bell1
 
