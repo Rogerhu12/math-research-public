@@ -1,0 +1,621 @@
+{
+  "kind": "R133_completed_derived_R127_certificate_cleanup_whitelist_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "proposed_whitelist_path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-completed-R127-waist-certificate-cleanup-whitelist.json",
+  "scope": "Exactly one already-completed derived validation report; no candidate definition, source, conclusion, failed attempt, current science input, or history is rewritten.",
+  "status": "Prepared as an unattached reviewable blob only; no main mutation or deletion by this reviewer.",
+  "root_rule_basis": {
+    "path": "README.md",
+    "git_blob_sha": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "bytes": 10233,
+    "sha256": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "rules_read_completely": [
+      12,
+      15
+    ],
+    "rule15_application": "Generated certificates, data and Actions outputs need not remain in current files when their script/parameter/result identity and historical recovery are retained. A native or certificate label alone is not a prohibition.",
+    "rule12_application": "No new freeze, independent rerun, or approval requirement is asserted. The parent requested this limited metadata/evidence review and owns any ordinary deletion.",
+    "no_scientific_recalculation_authorized_or_performed": true
+  },
+  "restore": {
+    "commit": "40eeef92de9f7cb7868062a3697baa8d427f644f",
+    "tree_path": [
+      {
+        "component": "repository",
+        "tree": "3cc70074c02e681f736595efc1f9afa5d697e753"
+      },
+      {
+        "component": "topics",
+        "tree": "ed333cee3813caec43e730a4fb8fae301818a8fd"
+      },
+      {
+        "component": "visible-flex-exact-nearby",
+        "tree": "8d375840a69991f941028973224410191b6c8b73"
+      },
+      {
+        "component": "notes",
+        "tree": "d0a2c57b33c3866330950dc0a7e380d5767d078b"
+      }
+    ],
+    "all_path_trees_complete_and_untruncated": true,
+    "target": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-continuation-r001-v3-native.json",
+      "mode": "100644",
+      "type": "blob",
+      "git_blob_sha": "1c0abbebb166c6b85a87cb52b4aeab8378567b4c",
+      "bytes": 644624,
+      "sha256": "0f7aa2f4e9a1df567b209cd873f2af5f6428feafc01a9613fc75a46259fb75eb",
+      "Git_and_bytes_source": "Complete immutable Git notes tree; target content was not fetched.",
+      "SHA256_source": "R127 section 4, exact R128 consumer literal and complete R128 actual success all agree; target bytes were not independently hashed in this review."
+    },
+    "future_use": "Restore this same original path from this immutable commit and verify Git blob, exact bytes and SHA256 before use. Do not regenerate or substitute the later source output."
+  },
+  "complete_small_evidence": [
+    {
+      "role": "R127_complete_success_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R127-certified-continuous-exact-waist-strip.md",
+      "git_blob_sha": "f998f14384a491773cb9a95ca29a9c94b08994a6",
+      "bytes": 9057,
+      "sha256": "e75d0cb9988d9eb78e692a5980a1797844c948844454ac45aa3ce1ac357fd529",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "R126_exact_system_and_comparison_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R126-exact-Codazzi-reconstruction-and-continuation.md",
+      "git_blob_sha": "2f41e0f6b3c521fc42e204e9d6c1cbf7b88f3012",
+      "bytes": 15369,
+      "sha256": "dcca5ad0aab420426a8e00b9220c88ac7b298d934a6574a3636e167311bdb562",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "R128_completed_downstream_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R128-quantitative-embedding-of-the-exact-waist-annulus.md",
+      "git_blob_sha": "29b7758b05665a744f61366016216ea64a22c6ae",
+      "bytes": 7528,
+      "sha256": "d462541bdeb821d033255f765eacf7ecb627dc8ab94315d6eecf2ed68b7d37f3",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "R128_complete_actual_success",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R128-waist-annulus-embedding-native.json",
+      "git_blob_sha": "46454133620b509b997b0ad5f136ee12bf366331",
+      "bytes": 3333,
+      "sha256": "dd2af9b78335533a3d5e6ce227a9b5c78a0e35da1996a558820b11849d3398c7",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "R128_exact_actual_consumer_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_waist_embedding_budget.py",
+      "git_blob_sha": "c76e701f57637325440f4b5df31ca0c862eb6bd9",
+      "bytes": 6389,
+      "sha256": "0b60614602662f74195c27fe36adbd9d985f2921070ea13597e156342918f767",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "current_later_native_producer",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_continuation_validate.py",
+      "git_blob_sha": "e7b1ff43cfd708fbb4d7894ea19d6361a972eb3b",
+      "bytes": 16537,
+      "sha256": "1c97e0bd58d49514501ede6d98b909567fb59d933813d2cc74d9e2813fc60258",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "current_later_coefficient_provider",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_coefficients.py",
+      "git_blob_sha": "b8848cf8f6a1f363b54381e4e0db823526a41356",
+      "bytes": 9196,
+      "sha256": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    },
+    {
+      "role": "R129_explicit_later_version_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R129-piecewise-certified-exact-waist-to-005.md",
+      "git_blob_sha": "fb2e7de24507a687e1964bb98e24a17cacd9cf43",
+      "bytes": 11364,
+      "sha256": "ccc4b6fc62c894a3ccfcc89c568be2461af9a77a004bbae120f908eb0e003ba6",
+      "complete_small_UTF8_read": true,
+      "preserved": true
+    }
+  ],
+  "original_success": {
+    "kind": "actual_R126_continuous_Codazzi_Cauchy_validation",
+    "original_report_path": "notes/2026-11-13-Codazzi-continuation-r001-v3-native.json",
+    "exact_center_parameter": "-7789843107295549/4611686018427387904",
+    "parameter_half_width": "1/1000000000",
+    "requested_and_covered_positive_interval": [
+      "0",
+      "1/1000"
+    ],
+    "reflected_conclusion_interval": [
+      "-1/1000",
+      "1/1000"
+    ],
+    "finite_candidate": "21-piece degree-7 finite Fourier candidate; this calculation consumes the first four pieces clipped exactly at 1/1000.",
+    "subdivision_per_consumed_piece": 16,
+    "complete_closed_radial_boxes": 64,
+    "whole_real_angular_circle": true,
+    "whole_affine_parameter_interval": true,
+    "primitive_nodes": 512,
+    "closed_angular_cells": 16384,
+    "arithmetic_bits": 192,
+    "complete_original_primitive_and_infinite_tail_retained": true,
+    "strict_negative_curvature_and_C_denominator_on_every_box": true,
+    "complete_original_final_barrier_gate_count": 8,
+    "all_final_barrier_gates_passed_as_attested_by_complete_proof_and_successful_consumer": true,
+    "original_wall_seconds_as_approximately_reported": "364.8",
+    "original_Actions_run_id": null,
+    "original_process_returncode": null,
+    "run_identity_limit": "The retained R127 note identifies an executed local command and approximate runtime, not an Actions run ID or separate process return code. No such identity is invented.",
+    "command_as_preserved": "PYTHONPATH=/workspace/scratch/ac0d699811ad/python-deps OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 python -u scripts/fourfold_phase_codazzi_continuation_validate.py --right 1/1000 --subdivide 16 --out notes/2026-11-13-Codazzi-continuation-r001-v3-native.json",
+    "original_four_identities": {
+      "source_sha256": "ea61a2d27273352b65951900359301df41e9a29a2a9c2ef62836809de4981acc",
+      "coefficient_provider_sha256": "4a37d58640b54b091fab9bfd677b55e3392c30405d08073a2ad90f13205cf9f1",
+      "candidate_sha256": "a3e43fc8ee7ab8b6a0e080edccb107ac1e2d92634b0325783f7a99711cf6842f",
+      "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    "conclusion": "The complete continuous C0/C1 comparison certifies the same real Cauchy branch on the stated narrow annulus. R128 independently consumes the whole report to certify embedding on that annulus.",
+    "limitations": [
+      "No common-metric flex parameter is obtained from the auxiliary delta family.",
+      "No full closed surface, cap/tail attachment, turning-root passage, global reach or visible flex completion is claimed."
+    ]
+  },
+  "producer_version_boundary": {
+    "original_success_validator_sha256": "ea61a2d27273352b65951900359301df41e9a29a2a9c2ef62836809de4981acc",
+    "original_success_provider_sha256": "4a37d58640b54b091fab9bfd677b55e3392c30405d08073a2ad90f13205cf9f1",
+    "these_hashes_are_preserved_in_complete_R127_proof_and_R128_actual": true,
+    "current_validator_sha256": "1c97e0bd58d49514501ede6d98b909567fb59d933813d2cc74d9e2813fc60258",
+    "current_provider_sha256": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+    "current_sources_are_the_later_R129_versions_not_original_R127_versions": true,
+    "later_validator_static_role": "Reads separate candidate NPZ and object definition; computes full closed-box coefficient/residual rows and final barrier; writes the derived report. The report is not loaded to define its candidate.",
+    "public_path_history_checked": "The current producer path has one public migration entry, 6a53642d050b9290c8434db1c249c011707d3306, snapshot 207052640db353f77e3c602aabb51f10107712cc.",
+    "original_source_bytes_fetched_in_this_review": false,
+    "no_claim_original_success_source_is_current": true,
+    "recovery_policy": "The certificate itself is exactly recoverable from the immutable public commit. No rerun of either original or later producer is requested, and the later source may not replace the original certificate."
+  },
+  "downstream_dependency": {
+    "consumer_path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_waist_embedding_budget.py",
+    "consumer_source_sha256": "0b60614602662f74195c27fe36adbd9d985f2921070ea13597e156342918f767",
+    "current_consumer_matches_its_actual_success_source_exactly": true,
+    "actual_path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R128-waist-annulus-embedding-native.json",
+    "actual_sha256": "dd2af9b78335533a3d5e6ce227a9b5c78a0e35da1996a558820b11849d3398c7",
+    "actual_proved": true,
+    "actual_embedding_certified": true,
+    "actual_gate_count": 17,
+    "all_actual_gates_true": true,
+    "complete_checks_before_success": [
+      "Entire target SHA256",
+      "Original validator/provider/candidate/object hashes",
+      "complete and continuation_certified",
+      "whole affine parameter interval and real angular circle",
+      "exact requested and covered interval [0,1/1000]",
+      "parameter half-width 1/1000000000",
+      "barrier.passed and every barrier gate"
+    ],
+    "historical_direct_dependency_is_explicitly_present": true,
+    "preservation": "Keep the complete R128 actual, source and proof. Any future consumer reading its historical target must first restore the original complete target. This is not a claim that no historical source references the target."
+  },
+  "exact_object_and_failed_attempt_exclusions": {
+    "sole_selected_candidate_definition": false,
+    "selected_candidate_path": "notes/2026-11-13-codazzi-dense-r0005-n1024-candidate.npz.gz",
+    "selected_candidate_sha256": "a3e43fc8ee7ab8b6a0e080edccb107ac1e2d92634b0325783f7a99711cf6842f",
+    "selected_candidate_current_flat_notes_entry_absent": true,
+    "selected_candidate_observation_limit": "Only its absence from the complete current flat notes tree was observed; it is not a deletion target and no binary was fetched.",
+    "exact_object_path": "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+    "exact_object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "all_exact_input_definitions_and_their_history_untouched": true,
+    "failed_reports_preserved": [
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-continuation-r001-native.json",
+        "git_blob_sha": "f3c30bc33790059a6cea0d0cff82a826441fa9f8",
+        "bytes": 6878,
+        "status_as_complete_small_proof": "earlier candidate-C denominator failure"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-continuation-r001-v2-native.json",
+        "git_blob_sha": "324b6f6c248f136a06e8278ba9807143dabd8992",
+        "bytes": 53456,
+        "status_as_complete_small_proof": "subdivide=1 full cover with continuation_certified=false"
+      }
+    ],
+    "no_old_failed_output_in_deletion_set": true
+  },
+  "current_activity_audit": {
+    "exact_basename": "2026-11-13-Codazzi-continuation-r001-v3-native.json",
+    "audit_commit": "40eeef92de9f7cb7868062a3697baa8d427f644f",
+    "handoff": {
+      "path": "topics/visible-flex-exact-nearby/HANDOFF.md",
+      "blob": "0b00bbb0bfd8a6767240a09ccff845eab7fbfb8d",
+      "bytes": 9724,
+      "sha256": "399f671068b1acc68c2e57ed0de054148789ca3847a4ce8b372387771d264694",
+      "exact_basename_occurrences": 0
+    },
+    "open": {
+      "path": "topics/visible-flex-exact-nearby/open.md",
+      "blob": "e55b25a1c15566ffe499f9082c47747537ef0454",
+      "bytes": 29858,
+      "sha256": "598372041fa6a76dfef4b74c7ea4e88f89ad0caf78d7ee863a0c76683c19fc65",
+      "exact_basename_occurrences": 0
+    },
+    "WPTV_current_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-current-inputs.json",
+      "git_blob_sha": "c1228b9d5984a0a2d11de37b6dcd6e6eebbb5801",
+      "bytes": 45380,
+      "sha256": "9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4",
+      "exact_basename_occurrences": 0,
+      "complete_current_roles": 24,
+      "historical_roles": 19
+    },
+    "all_24_complete_current_UTF8_texts": [
+      {
+        "role": "negative_one_summary",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+        "git_blob_sha": "3abd0f6b7291e0f9318dc035a58a4b6e8dfb851c",
+        "bytes": 41797,
+        "sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "negative_one_process",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+        "git_blob_sha": "4dc9280cb3761b36af71f795fbafcb8749af4663",
+        "bytes": 16380,
+        "sha256": "f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "negative_one_source",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+        "git_blob_sha": "327f24e3c4a2864d8ba401f0d574f112a4a90d26",
+        "bytes": 22029,
+        "sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "collar_process",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+        "git_blob_sha": "d10f4681c84ab579b8121b16e6246604a608a715",
+        "bytes": 11340,
+        "sha256": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "collar_source",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_budget.py",
+        "git_blob_sha": "602a8a3df10c4319446909a56d532ba88b0a6367",
+        "bytes": 15041,
+        "sha256": "8d3ab188d47a1aa81cbc304350655f2172333b435fdf0e09482b245f957917bf",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "body_process",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+        "git_blob_sha": "eb294ed3b3a1cef61a3a6a1ecf7e469a7842167c",
+        "bytes": 11040,
+        "sha256": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "body_summary",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+        "git_blob_sha": "ffea3e8fa1690c3c9492857728057d9d6e17bf64",
+        "bytes": 21555,
+        "sha256": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "body_source",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py",
+        "git_blob_sha": "f4dd9ad8b324e39fed478183b88095c949d5c09a",
+        "bytes": 19660,
+        "sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "body_parts_manifest",
+        "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts.json",
+        "git_blob_sha": "aabe1eb46cb52e41c8191960a2a998b437ca47e7",
+        "bytes": 6002,
+        "sha256": "7b1967565a0ff0a4d9855734a3f0a0621c8049160099e066d8f34ecb35cdd3a3",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "WHV_actual",
+        "path": "topics/visible-flex-exact-nearby/notes/zero_volterra_positive_head_ci/run-43838214094-1/actual-scientific-conclusion.json",
+        "git_blob_sha": "ebe7ae42c2482ce9b20e7af1d41e02f89b920010",
+        "bytes": 12011,
+        "sha256": "ff5d6e5231e6be66107217d670133b18727dd5b24b81e7566fa884973b29df72",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "WHV_readonly_inventory",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-zero-Volterra-positive-head-readonly-input-inventory.json",
+        "git_blob_sha": "18428ac8d144863cf831a10eb8af17e51d3c2ddc",
+        "bytes": 23789,
+        "sha256": "80f9f606f14f8cea41f3a4f18a5d6b9c7d59274ea8016199b1cc086cf58b59ce",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "WPT_contract",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md",
+        "git_blob_sha": "b37c59bc05a2131b27014f37c1a6555d6f7e2c58",
+        "bytes": 22954,
+        "sha256": "22fb6fac312540818390bea1bb3a3ed2c750f515ad91bbbb1b0790fcdfe1fd6e",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "candidate_index",
+        "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "git_blob_sha": "2257c4327fcafcad3ed50f0362fb089e9cfd56d2",
+        "bytes": 6750,
+        "sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "complete_coefficient_definition",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+        "git_blob_sha": "45ce0d7171ad35aa3175ea03fdac22f5158fa855",
+        "bytes": 21756,
+        "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "continuous_repair_definition",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+        "git_blob_sha": "67d7de2adf36c916123f7c9cf7a5db09af3c7b58",
+        "bytes": 9076,
+        "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "repaired_value_inflation_definition",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py",
+        "git_blob_sha": "538ca4f6c9f25f669daf2ce1a175fd0bfbacb40a",
+        "bytes": 21932,
+        "sha256": "8c4c734d3bf23e44aff5c8ad15ac248da52b79d05de3b4512cda42cb3cafa64d",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "lossless_shard_format",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+        "git_blob_sha": "81a21dba0077137601382781b6b3298bdd7d5ade",
+        "bytes": 4187,
+        "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "inventory",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json",
+        "git_blob_sha": "18ec6014b06315aaf24cf9068e6fa31e05e6025a",
+        "bytes": 38086,
+        "sha256": "f7dd2ed019b30c076aa70ad1536601813095ef59bb504049d976eb0cd93b1547",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "proof_WPTV",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md",
+        "git_blob_sha": "ddccd14e855ba95048fe92cbd21edfb82ebd8e6f",
+        "bytes": 21178,
+        "sha256": "dda500b8f5e2d02a39fbef4efcc5c2ad10dac93eef194f6e8d5b9b5a816cd0e9",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "proof_WPTVR",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md",
+        "git_blob_sha": "49cb657d9aefd809857aeac0229124738978a05d",
+        "bytes": 11659,
+        "sha256": "62adc53eedc1ea339e02f6e2a8fa654e38c92fe04784343557e23c84ddd696c2",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "science",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_value_tail.py",
+        "git_blob_sha": "ea13f35eca6968168093d05e1f23e6c6cdb535e4",
+        "bytes": 30712,
+        "sha256": "bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "readonly_admission",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_readonly.py",
+        "git_blob_sha": "10ec74b5e0f31255b58b45b440c91dd41a3325fb",
+        "bytes": 29294,
+        "sha256": "d084a228b8c7962468536476a56cef1c4efda4f82b2790adbd70467db20e9893",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "worker",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_public_worker.py",
+        "git_blob_sha": "4342e8a163b022407089c87d487eb4804221e4b2",
+        "bytes": 29560,
+        "sha256": "a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "role": "rules",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+        "git_blob_sha": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+        "bytes": 2461,
+        "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+        "exact_basename_occurrences": 0
+      }
+    ],
+    "historical_scope": "All 19 existing historical path/identity descriptors in that complete manifest were scanned. No target basename appears; no historical binary body was fetched.",
+    "remaining_body_proposed_source_and_prior_files": [
+      {
+        "cache_key": "WPTV_suffix_reader_first_text",
+        "bytes": 44792,
+        "sha256": "858a23686729f0d714dd623c9687830ca999b0a0f756d5c2d649dec07d41e4dc",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "WPTV_suffix_science_first_text",
+        "bytes": 31266,
+        "sha256": "159d8fdc153cadf844e1d28f2e0271ae12e55c38d560d7330ee28f164bf21d3c",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "CLEAN9_suffix_proof_text",
+        "bytes": 16667,
+        "sha256": "79829a80fc43d2e8c25641010c00e9f1833e2c7ff6d1b455d45c7ec8e8d2fb60",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "CLEAN9_suffix_interface_text",
+        "bytes": 28726,
+        "sha256": "fe08c27fcbe74524ad0bbe4774c3b80b10023b0bbfb62393f815a5dd9cde6a89",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "WPTV_suffix_prior_science_text",
+        "bytes": 15309,
+        "sha256": "b8812b6b940b17532c7643555d3393da71c2190606082862ccf651fbff762274",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "WPTV_suffix_prior_execution_text",
+        "bytes": 31256,
+        "sha256": "e7246476bc02fe196ec10186783bcda8892621ec1c105d4b99dc612647cd3eca",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "WML_first_text",
+        "bytes": 31888,
+        "sha256": "a67961a5cbf7bf6ec759a238c11f54f98fd131d0d6e0b8cf4fe682052b6469a6",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "GMR_first_text",
+        "bytes": 12615,
+        "sha256": "f03b79bc5577a4f6e8bd5fe333916b7b5abad7f93250ac008a5e8ccaa0faa7e2",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "cache_key": "WDS_first_text",
+        "bytes": 32474,
+        "sha256": "4414a667412b637595f5a4f8f827f810b826a74e34fe74836cfa92cf6299b8e5",
+        "exact_basename_occurrences": 0
+      }
+    ],
+    "WMT_current_manifest": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-strict-flux-mean-forcing-current-inputs.json",
+      "blob": "2512f52ca819c1ff75c3edfd68295a72b2f6bacb",
+      "bytes": 19329,
+      "sha256": "8870b8bec287616d08eb5ff7639f544b247bc52845d98647f9cf58197b12cd64",
+      "exact_basename_occurrences": 0,
+      "current_roles": 9,
+      "historical_roles": 0
+    },
+    "all_9_complete_WMT_current_UTF8_texts": [
+      {
+        "bytes": 72251,
+        "git_blob_sha": "32ff92c516fcc5c43f3619930d4845d294289270",
+        "path": "topics/visible-flex-exact-nearby/notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/actual-scientific-conclusion.json",
+        "role": "wgs_main",
+        "sha256": "8af3af0a2dc08a6611189178099c63b0e2ac5ae8e9d767c0e211861c6d63de1e",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 31632,
+        "git_blob_sha": "d6d13860e322d82ce354c8c0d0eb0f279ca63b3c",
+        "path": "topics/visible-flex-exact-nearby/notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/complete-original-inputs.json",
+        "role": "wgs_copies",
+        "sha256": "3c5588f13de4dc544f519b2fb99f372bba3200ccee79def665ce5bd1d3c3dd66",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 9627,
+        "git_blob_sha": "81bd01b84d8ebf5613ec0821e7c4ae770c39dfc9",
+        "path": "topics/visible-flex-exact-nearby/notes/global_genuine_waist_error_posterior_ci/run-43827705714-1/graphs/extended_amplitude_strict.json",
+        "role": "extended_strict",
+        "sha256": "fc2077f4fc24d6105e9e483c1b584e53bfd60987ad1a1a9718e9459c6830a0c2",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 9131,
+        "git_blob_sha": "f2a2687ae736d291c5d5b85e0309e625d729e5d8",
+        "path": "topics/visible-flex-exact-nearby/notes/global_genuine_waist_error_posterior_ci/run-43827705714-1/graphs/profile_block_strict.json",
+        "role": "profile_strict",
+        "sha256": "6e781157c43f7ba7f7e4ac454308545444164138920cbab027a7af56dd1d89a6",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 51030,
+        "git_blob_sha": "5fdb01ed62008489bca34a4b6231519af4f60793",
+        "path": "topics/visible-flex-exact-nearby/notes/positive_weight_physical_mean_refinement_ci/run-43840219992-1/actual-scientific-conclusion.json",
+        "role": "prior_mean",
+        "sha256": "39a2d96accdbe1b4a8073674cabeda97878876f11fc24a055b910ed61567b432",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 31256,
+        "git_blob_sha": "c8049ef93eca8f84f135ab4338d6485081fb8424",
+        "path": "topics/visible-flex-exact-nearby/results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md",
+        "role": "proof_WMT",
+        "sha256": "51eb08d0b110b8a5b171538c3be023efb94df587fdab880ebddac518665f73ce",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 93439,
+        "git_blob_sha": "d9e5e8f6a80623b326fa8daf127ff9bf26356dac",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_flux_mean_forcing.py",
+        "role": "science",
+        "sha256": "1962475219dd355520560ca9c01ca133423c03a15acdb1700b1e156e9055edb6",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 25584,
+        "git_blob_sha": "f966a6a05b18794927c3674956fb617e7dbaa244",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_small_frozen_public_worker.py",
+        "role": "worker",
+        "sha256": "7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "bytes": 2461,
+        "git_blob_sha": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+        "role": "rules",
+        "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+        "exact_basename_occurrences": 0
+      }
+    ],
+    "peer_limited_readonly_checks": [
+      {
+        "reviewer": "phase_inverse",
+        "scope": "Previously held complete WMT source d9e5/93439, final interface 58177/83265, proof c804/31256, actual edd66/90421, WML proof048274/31888, WNR source3288/53183, N6_strict actual16541 and N6_local15998.",
+        "exact_basename_occurrences_in_each": 0,
+        "new_body_fetch": false,
+        "scope_limit": "New nonmean follow-up remains analytic work with no frozen new source/manifest; no claim about unseen future files."
+      }
+    ],
+    "limits": "These are direct literal and declared-input checks on complete named texts and path lists. No repo-wide absence or absence of every transitive historical dependency is claimed. R128's historical dependency is specifically retained above. The parent may check any newly finalized manifest before applying its ordinary deletion."
+  },
+  "execution_and_review_counters": {
+    "target_body_reads": 0,
+    "target_binary_reads": 0,
+    "single_file_contents_requests_for_target": 0,
+    "old_scientific_targets_recomputed": 0,
+    "new_scientific_targets_computed": 0,
+    "Actions_runs_triggered": 0,
+    "main_mutations": 0,
+    "files_deleted": 0,
+    "review_method": "Complete small UTF8 proof/source/actual reads, immutable Git-tree metadata, literal source-scope scans and text hashes only."
+  },
+  "proposed_deletion": {
+    "paths": [
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-continuation-r001-v3-native.json"
+    ],
+    "gross_bytes": 644624,
+    "ordinary_git_deletion_only": true,
+    "force_push": false,
+    "history_rewrite": false,
+    "all_small_sources_proofs_actual_summaries_and_manifests_preserved": true
+  }
+}
