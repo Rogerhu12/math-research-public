@@ -55,3 +55,5 @@
 - [R919 §6](../results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
 
 - [R915](../results/R915-original-connection-integral-window-and-second-digit-kernel.md)原ζ在严格2p²窗的全部p分母经Lucas/同LT微分相消，实际a_j整(1≤j≤2p−3)。全i中央核ε_m,i∈1+p²O，准确模p³修正binom(i+2,2)a1/(mc²)，同a1=2[z^(2d)]log(σ/z)；原全尾/regular补项/四来源及R708真O(p²)窗保，未推中央零到边界零。
+
+- [R913](../results/R913-original-wild-inert-specialization-and-augmentation-stability.md)同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每p且不随n/q/b。原diamond表/完整det/half-norm/sf/整CM-Shapiro全保，不作p角色平均；先回原局部T/(q+1)才取零。全部Möbius新项同杀，若实际同格可除T则局部零保持；不推s0/global/ordinary，未付c_p=0或跨p统一尺度。

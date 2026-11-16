@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：4416ce6fcb0504e466b981d7811f8aa208f2c61f；2026-11-16 18:02:05 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：9a0d0ea8af208199bf5f8a42c7991700eb5ca96b；2026-11-16 18:03:39 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即推；非快进立即实际pull --rebase并以新head非强推循环。令牌不存/回显。
 - 根/题README blob：21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。实际pull后仅读两README差异并记head；至少每小时，下一最迟18:25 UTC。
 - 数学执行仅公开Actions；重算输出不入库/Release、不分块，只保源/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-16-frontier-before-geometry-first.md)逐字保存压缩前所有条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；deep完成R918后续R920真实K′链；theta已付R915、续四指定低商；literature的R913完整稿已到，正接原依赖即推、续同derived底strict/ordinary。R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-16-frontier-before-geometry-first.md)逐字保存压缩前所有条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；deep完成R918后续R920真实K′链；theta已付R915、续四指定低商；literature已付R913、续R921真实局部连接矩阵及同derived底strict/ordinary。R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：原映射、完整函数域RR、原shadow
 
@@ -31,7 +31,9 @@ R880/883完整18×9/双轴/四除子/真实A,C/全部返回不删；Norm含ell²
 R885/897原finite/wild范数、全Artin/尺度/旧副本及spDn=Ep,n cn整unit保持；整族除T恰**所有tame底类零**。R891同原anti-Kummer/全交域/17惯性与双点cup给c1非零⇒Selbal=E c1、usual core0，未付c1/ordinary或无穷p。
 R893在c1非零前提有本原D=UZ°、Uunit、ccan=H Dfun D、Ccan=H Dfun²；阶s/2s。ordinary/canonical底非零恰s0；derived底不能复用未除T strict核。
 R900/901原Aq=−(q+1)²/q、根号奇偶/Möbius/完整端点与自然格保。奇全新compact BK零不等有限Selmer零；偶新乘积整除未付。双norm核饱和唯一除双增广，scalar格阶不增，old/new O/(h)不删。
-[R908附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)固定D独立p/n/q给全部prime-to-p tame新增惰性位Dloc raw=0，Da12fin=0与真实wild增广同零；完整R/Igusa/Drinfeld/任意p常数/(q−1)u(q+1)/q均付。非平凡wild全层待R913；不推原全局类零或ordinary。新增位模p H0非零，不能用基域strict秩作无条件Nakayama。
+[R908附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)固定D独立p/n/q给全部prime-to-p tame新增惰性位Dloc raw=0，Da12fin=0与真实wild增广同零；完整R/Igusa/Drinfeld/任意p常数/(q−1)u(q+1)/q均付。非平凡wild全层见R913；不推原全局类零或ordinary。新增位模p H0非零，不能用基域strict秩作无条件Nakayama。
+
+[R913](results/R913-original-wild-inert-specialization-and-augmentation-stability.md)同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每p且不随n/q/b。原diamond表/完整det/half-norm/sf/整CM-Shapiro全保，不作p角色平均；先回原局部T/(q+1)才取零。全部Möbius新项同杀，若实际同格可除T则局部零保持；不推s0/global/ordinary，未付c_p=0或跨p统一尺度。
 
 ## 第三门：四原中央与真正全边界
 
