@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 14:00:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 14:02:24 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 13:51:40非FF真CLI仍无executor，下一本地尝试≤14:51:40。最新CI真pull为43878765372/1于11-16 13:54:30.868767→9c46f3876ee7197963aca6f5e5cb17b772888e4f；6次完整diff空/同已读，exec保首及末3全回执+chain。下一真pull≤14:54:30；ref读取不冒真pull。
-最近只读README核：1379b70d249e362bce236054a1d0e8e41882593a；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：8d5cbfaeaf9f00900d8c9954529b5e680a3bd48d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -74,7 +74,7 @@ WJRA51fa2f5f/43873739440/1全15门4图56成，SCI80499e42/69002/806fbeaa、exec9
 
 Wiener V0/V1四报告与physical-tail共464459B普通清理；完整原scope/依赖/身份/restore19d780见notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md；旧成功禁重算。
 
-WRP95be269f密度伴随先微分→旧K0乘完整3×3范数、全负二/负5/3与15profile权已证。后继读成功WSM全N6/profile仅算40新；原mean/跳/端/whole-reduced保，40未执行。
+WRP95be269f全pullback/15权已证。首次40新/44copy/9scope包f31bb418/d4a3bb10，9current/2AST/0history；源40841675/worker3770e29d。156KB+120KB预留，待首次公开CI；原mean/跳/端/whole-reduced保，旧不重算。
 
 WRT/WDG/WBF/WJR四已成exec92566B普通清理，restore4e724981及完整身份见notes/2026-11-16-completed-four-small-execution-receipts-restore-note.md（6971c631/10121/5f8fa468）；SCI仍保，禁重算。
 
