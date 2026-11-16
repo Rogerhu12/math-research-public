@@ -1,0 +1,405 @@
+{
+  "format": "r150-root2-fourth-positive-two-p7-sources-and-inputs-v1",
+  "date": "2026-11-16",
+  "author": "ChatGPT (AI), literature_audit",
+  "status": "prepared-no-new-mathematics-executed",
+  "prime": 31,
+  "modulus": 27512614111,
+  "mathematicalScope": {
+    "completeOriginalSources": 6188,
+    "completeOriginalOutputs": 4367,
+    "selectedOriginalF3IndicesZeroBased": [
+      208,
+      209
+    ],
+    "sourceCounts": {
+      "L3": 7,
+      "L4": 6,
+      "L5": 2,
+      "L6": 2
+    },
+    "precisionChain": [
+      25,
+      20,
+      15,
+      10,
+      5
+    ],
+    "incomingDimension": 15,
+    "completeNegativeClaimed": false,
+    "positiveConditionalConclusion": "A nonzero class modulo the entire incoming15 proves the unique remaining exponent E=6."
+  },
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-common-789f.hpp",
+      "blob": "b7f9d223328f58b50bc001cb2037498f2232e7f5",
+      "bytes": 7766,
+      "sha256": "beb0168cbbecbbc961482066961eb5bc36b241e311ee847f4a4d36a6851b7655"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-vq-789f.cpp",
+      "blob": "76a617917aacfca7c95284daed5757c677233f39",
+      "bytes": 10054,
+      "sha256": "c0d233014dd71816f956021bd669ca3b9254768cc3186b920be2133cd27c19ae"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-original-transport-789f.cpp",
+      "blob": "2ca04becdf462b3f28e8e25cbe3cffb58ae78823",
+      "bytes": 26039,
+      "sha256": "00a1b72e02b09f20bac3115dc81ff77c4ce7c51efc52a987c8507bdd8159af48"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-normal-789f.cpp",
+      "blob": "9fc310281f77317596b2499dbc8cac1591b318c3",
+      "bytes": 14859,
+      "sha256": "9d070b6030538fa7c5b412b7ee00c819c7db68fa5c1f6ca2a9e9aeb00bd8dda0"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-unit-solve-789f.py",
+      "blob": "c0ca5d7eb2723d574209100d3873e098525b1227",
+      "bytes": 23737,
+      "sha256": "f4e5934b387d5800060b0aef77e41e627680e771eadb1dad890090a58de5f7f7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-integer-p7-jets-789f.cpp",
+      "blob": "cec76ea7c53a1f3ebf0a1029d6f93ee1236549c0",
+      "bytes": 18789,
+      "sha256": "7623e3297d2cda154f1afdaddb4dc8cf00be29c98d6b131c6f2564827a4c6cd5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-original-model-p7-789f.py",
+      "blob": "4c2cb45bc3934dad73692f1ae85bac86508c1555",
+      "bytes": 4283,
+      "sha256": "00deeeca38867d24043a6f842996e1e84116cfab03b36eb144ccff1928f5bf92"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+      "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp",
+      "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+      "sha256": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "blob": "a1b600e6c5f77491920c1b324f390e5358a6100b",
+      "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+      "blob": "80bd9645d41f6c7975aa5dd6dbee8467abdada6a",
+      "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+      "blob": "aa37439e4f71f45083fcb0bb21cb6d9f5d87ce4a",
+      "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-runner-789f.py",
+      "blob": "2b3c5c0c5a28bd4f87e2770b650b2a60cc5c2c7d",
+      "bytes": 32960,
+      "sha256": "16ce81045e0c40ba875894ee926df138b7db0210efa5ce3fcf677b19eaabb01c"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-interface-789f.md",
+      "blob": "cc72ce2fa585c7c15cc11be2c9d5589fd1e35336",
+      "bytes": 13169,
+      "sha256": "361b1619d6beaf806a517b50c278e9b84db5ccc38d4d118a9de7f07df4512d67"
+    }
+  ],
+  "originalInputs": {
+    "model": {
+      "name": "model.txt",
+      "bytes": 128145,
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "graph": {
+      "name": "graph.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "normalTrace": {
+      "name": "normalTrace.bin",
+      "bytes": 101244784,
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "forward": {
+      "name": "forward.bin",
+      "bytes": 2378937,
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward": {
+      "name": "backward.bin",
+      "bytes": 3052119,
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "oldK": {
+      "name": "oldK.bin",
+      "bytes": 48275717,
+      "sha256": "ec067d86ce7c838697369d1f6a986c823de8564823d85b6684fe7a2926127a88"
+    },
+    "oldQ": {
+      "name": "oldQ.bin",
+      "bytes": 16649150,
+      "sha256": "0bd81e4ae045daef1e224922ff0cceabd81436dc1680af29595ba2e169865338"
+    },
+    "oldTrace": {
+      "name": "oldTrace.bin",
+      "bytes": 113614260,
+      "sha256": "85105ff9a84a81c05b88ee09d1f3a8de4bd9a1e7faf5657889c74e95f4f441ae"
+    },
+    "integerModel": {
+      "name": "integerModel.txt",
+      "bytes": 22824,
+      "sha256": "2785c53d015d05db4550e1978c05db7d42009cfa8942e915541599a76d3701cc"
+    },
+    "state": {
+      "name": "state.bin",
+      "bytes": 1470456,
+      "sha256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf"
+    }
+  },
+  "originalInputRecovery": {
+    "source": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+    "sourceSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+    "sourceBytes": 10061,
+    "manifest": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "manifestBlob": "b1e3a87ea2840f794cdb2a829c300f9cdaa8fa8c",
+    "manifestSHA256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac",
+    "historicalArchives": [
+      {
+        "scope": "T96 graph and paid original NF/DAG only",
+        "run": 43597823809,
+        "artifact": 14114364261,
+        "artifactName": "isp-r150-t96-graph-recovery-43597823809-1",
+        "bytes": 299422058,
+        "archiveSHA256": "970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241",
+        "members": [
+          "isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+          "isp-r150-native-nf/nf-normal-forms.bin",
+          "isp-r150-native-nf/nf-reduction.bin",
+          "isp-r150-native-nf/nf-forward.bin",
+          "isp-r150-native-nf/nf-backward.bin"
+        ]
+      },
+      {
+        "scope": "old complete 200 true first kernels, quotient and trace",
+        "run": 43605503242,
+        "artifact": 14118112895,
+        "artifactName": "isp-r150-high-kernel-bockstein-recovery-43605503242-1",
+        "bytes": 160817149,
+        "archiveSHA256": "c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b",
+        "members": [
+          "original/kernel-original-kernels.bin",
+          "normal/beta-normal-forms.bin",
+          "normal/beta-reduction.bin",
+          "image/image-image-quotients.bin",
+          "image/image-image-remainders.bin"
+        ]
+      }
+    ],
+    "historicalSmallPaths": {
+      "state": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz",
+      "selector": "topics/invariant-subspace-problem/notes/r150-one31-h0-actions-789f/43626632693-1/rebuilt-selector/first-residual-in-actual-second-saturation.bin.gz",
+      "integerModel": "topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+      "model": "topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt"
+    },
+    "historicalSmallRef": "0d642288dbc6f42f3765edd8c104d48881dae208",
+    "scope": "reuse complete paid restoration, or extract its pinned original members; no NF/GB elimination"
+  },
+  "smallInputRecovery": {
+    "source": {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "blob": "a91dcb5625f4126af454941f2268e3a2eddae2eb",
+      "sha256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+      "bytes": 6018
+    },
+    "historicalRef": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalDirectories": {
+      "second": "topics/invariant-subspace-problem/notes/r150-saturated-second-page-actions-789f/43662590949-1",
+      "third": "topics/invariant-subspace-problem/notes/r150-saturated-third-page-actions-789f/43664532571-1"
+    },
+    "historicalObjects": [
+      {
+        "key": "second-prepared-receipt",
+        "scope": "second",
+        "originalFile": "prepared-second/prepared-saturated-second-receipt.json",
+        "file": "second-prepared-receipt.json",
+        "bytes": 18840,
+        "sha256": "f8ffc939972363e79d0027946c5268c32f869e90adc6fead115fbd29b0ea1ca4"
+      },
+      {
+        "key": "second-prepared-system",
+        "scope": "second",
+        "originalFile": "prepared-second/prepared-saturated-second.bin.gz",
+        "file": "second-prepared-system.bin.gz",
+        "bytes": 42012,
+        "sha256": "691717421b0b7558f7ca053054c6c3f23bde5aa96fc93f36a744ad1171c4ba03"
+      },
+      {
+        "key": "second-complete-receipt",
+        "scope": "second",
+        "originalFile": "complete-second/complete-saturated-second-page-receipt.json",
+        "file": "second-complete-receipt.json",
+        "bytes": 22107,
+        "sha256": "50e8aa0cecafc697b1d52a43792e095be35c4dadc71eff07b861569591d092b7"
+      },
+      {
+        "key": "second-complete-system",
+        "scope": "second",
+        "originalFile": "complete-second/complete-saturated-second.bin.gz",
+        "file": "second-complete-system.bin.gz",
+        "bytes": 72934,
+        "sha256": "f20487d290193e738a5df67dccdf0c6d11c1c0b9e224dbd310fdc1a0180acaf7"
+      },
+      {
+        "key": "third-complete-receipt",
+        "scope": "third",
+        "originalFile": "complete-third/complete-saturated-third-page-receipt.json",
+        "file": "third-complete-receipt.json",
+        "bytes": 17757,
+        "sha256": "3bb98210ccf8a7941f2a9a71c0d8d1a5fc8c0e11891c26d0e76d8079fa413619"
+      },
+      {
+        "key": "third-complete-system",
+        "scope": "third",
+        "originalFile": "complete-third/complete-saturated-third.bin.gz",
+        "file": "third-complete-system.bin.gz",
+        "bytes": 70591,
+        "sha256": "786333a4baa562a15e38666a31207e3ce0179e03a0e9505da2d6a4cc5fbe7c2c"
+      }
+    ]
+  },
+  "recipe": {
+    "file": "complete210-fourth-source-recipes.json.gz",
+    "bytes": 33227,
+    "sha256": "aa7e3bfc13c416e3cecf0835e020d962bf528e7b2a3f8d12ed141d78b693b316",
+    "payloadBytes": 709918,
+    "payloadSHA256": "d4d486d0d1c6a33e091da3e99d58cb604d7b2ef828a84a20ba23edf76d19a63c",
+    "binding": "918f7a2c9663741bcb670bded5dff4b22a7a9b84d19e579faaad6501703a8b05",
+    "mayRebuildFromSixSmallInputs": true,
+    "requiredIdentity": "payload identity and full preparation binding; compressed-byte identity recorded on actual input"
+  },
+  "exactPrimitive": {
+    "historicalRef": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalPath": "topics/invariant-subspace-problem/notes/r150-first-padic-residual-789f/original-primitive-integer-equations.json.gz",
+    "bytes": 65159,
+    "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe",
+    "payloadBytes": 158741,
+    "payloadSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+  },
+  "jetMap": {
+    "historicalRef": "8c6304e273e64b0544d3dd58bc0e48a672a87c36",
+    "historicalDirectory": "topics/invariant-subspace-problem/notes/r150-second-bockstein-jet-quotient-map-789f",
+    "files": [
+      {
+        "file": "jet-quotient-map.bin",
+        "bytes": 181038,
+        "sha256": "3f291285db5a6e97a5db977b3402dbdcc9f7b9e5fb8a48d31b0e219e89e71716"
+      },
+      {
+        "file": "jet-quotient-map-receipt.json",
+        "blob": "2d21d9f3f022884992e45adaf1e7a19faefe43e8",
+        "bytes": 34774,
+        "sha256": "5d3e09b26487355b32f20600764664def3dee0be34120e1c8202307eda5526df"
+      }
+    ]
+  },
+  "additionalSourceArchives": [
+    {
+      "run": 43619888599,
+      "artifact": 14124017685,
+      "bytes": 117446956,
+      "sha256": "ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117",
+      "onlyUniqueSuffixMembers": [
+        {
+          "memberSuffix": "inputs/kernels.bin",
+          "output": "kernels.bin",
+          "bytes": 2200126,
+          "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f"
+        },
+        {
+          "memberSuffix": "inputs/fourK2.bin",
+          "output": "fourK2.bin",
+          "bytes": 2236198,
+          "sha256": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7"
+        },
+        {
+          "memberSuffix": "selected-delta/selected-delta-primitive-source-mod29791.bin",
+          "output": "selectedK2.bin",
+          "bytes": 4700740,
+          "sha256": "5ab8223d69912ea5b102f71ad3439b3860594188386fce9b82f937944c90a554"
+        }
+      ]
+    },
+    {
+      "run": 43630666145,
+      "artifact": 14127663630,
+      "bytes": 50572502,
+      "sha256": "9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4",
+      "onlyUniqueSuffixMembers": [
+        {
+          "memberSuffix": "seven-and-current-original/seven-and-current-original-primitive-source-mod923521.bin",
+          "output": "newOriginal.bin",
+          "bytes": 17260416,
+          "sha256": "0258b6690b107a3cd45d9f6ace7ddb3003bb64ff1345ab0eab7ac4d650c49f34"
+        }
+      ]
+    }
+  ],
+  "suggestedCLI": [
+    "python",
+    "{scripts}/2026-11-16-r150-root2-fourth-positive-two-p7-runner-789f.py",
+    "--notes-root",
+    "{scripts}",
+    "--original-input-dir",
+    "{work}/global197-original-inputs",
+    "--small-input-dir",
+    "{work}/root2-fourth-small-inputs",
+    "--true-source-dir",
+    "{work}/root2-fourth-true-source-inputs",
+    "--exact-gzip",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--jet-map-dir",
+    "{work}/root2-fourth-jet-map",
+    "--recipe",
+    "{work}/root2-fourth-complete210-preparation/complete210-fourth-source-recipes.json.gz",
+    "--out",
+    "{work}/root2-fourth-positive-two-p7",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "final"
+  ],
+  "budget": {
+    "mathematicalAndCompilationSeconds": 600,
+    "memoryMiB": 4096,
+    "suggestedOuterSeconds": 660,
+    "repeatedSameBindingContinuation": true
+  },
+  "outputs": {
+    "temporaryReceipt": "root2-fourth-positive-two-receipt.json",
+    "temporaryExactResult": "positive-two-exact-result.json",
+    "completionSource": "final compact job-log JSON plus matching source/run/output SHA; no new calculation-output JSON is committed"
+  },
+  "validation": {
+    "localASTExecuted": false,
+    "localCompileExecuted": false,
+    "newMathematicsExecuted": false,
+    "staticReviewOnly": true
+  },
+  "storage": {
+    "sourceAndParametersMayBeCommitted": true,
+    "newComputedJSONCommitted": false,
+    "arraysTemporaryOnly": true,
+    "newReleaseAsset": false,
+    "newCertificateArchive": false
+  }
+}

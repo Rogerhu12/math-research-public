@@ -112,3 +112,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **向下方差薄窗的同actual来源。** [完整非交换逆/物理Gram证明](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)在同D_m及固定c下允许Se^(−c/m)≤s≤S，给逆差≤(L−1)(X−X²)+τI和同F_s/u缺陷平方≤(L²−L+1)Δ²+Lτ||g||²，L=e2c、τ=2e^(−770m4/256)。全H(s²/S)费用保留；固定k可取标量S_(m+k)，不换物理尾。qcut≥d−1、原carry/完整终端/Schur仍需支付，不以强趋P_M完成N=M。
 
 **实际强前缀远方差已付。** [完整Gram比较与同源极限](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)给C−A_x=原carry压缩、η≤e^−d⁴，全J差≤14ηs⁻¹e^(49/s)。x+1≤d^(4/3)/8、s≥S_x时≤e^−d⁴/2；R=d,h=2d原母参数成立。于是原a_m/F_m在真正远方差S_(m+d)强趋P_M，同PV/PK/u、全Q≥R+J保留，一次/二次MP可在4d≤Q≤e26d³接回。剩余仍是全深返回/实际a_m中间Schur及完整核修复、同源两费；ε无免费移动速率，未证N=M。
+
+**31原p7两探针已排。** 独立短会话逐原14输入、六small、四真来源和jet-map恢复；全部25→20→15→10→5整数进位/4367乘回与完整incoming15商，读取第208/209原recipe。任一新增rank1才E=6及旧p²h0提升；两零继续全210，不能写完整负证。1800秒/4GiB，预算75同绑定自动续接，只有临时计算数据与run/SHA执行记录。
