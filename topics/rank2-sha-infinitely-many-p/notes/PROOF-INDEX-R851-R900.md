@@ -171,3 +171,6 @@
 
 
 - [R877](../results/R877-original-norm-three-common-source-and-h22-partner.md)：同原标准δ三点迹全证C30及V66为δ-new；C24三列投影和乘F6后的不同真行保全部multiplier，旧算术平面内后行核恰原c*。实际K30=σ(2z)²H22的trace=−11B10/3，old=33σ30X²(X+4b)²、新部分全保；原完整除p读者作用于两七阶伙伴，不据trace0删项或添中央零。
+
+
+- [R874§12](../results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：当前λ目标准确vnew=(−34−17a+11a²)/3，λ=e aβ、β=(a²+2a+7)/3且Normβ2；小全局最小模型参数119−18a²。首项一尺度只在唯一范数2位非最小，全部惯性好r>3返回仍整单位；原Néron/首β保留，未认实际Hom。
