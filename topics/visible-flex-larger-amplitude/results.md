@@ -223,3 +223,8 @@
 ## Request202 — 官方运行绑定
 
 [202官方绑定](notes/2026-11-16-request202-official-run-binding.md)：run43784544723/source1a757004b7ebff1f43563bd57b5d13961648d681，compute133029129971已由公开push启动，root唯一实际R439。只观察元数据，未取运行中日志、未推断科学成功；原201资源partial父与全部原门仍按完整接口。
+
+
+## R438 — 原始或细化450的完整块reach与held来源
+
+[R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c将R435/e3fcd9eb明确接真193或真R431新450的原五阶段，原15pins逐值保→16，R422仍实依赖；两个父bind/OwnedChild/原deadline/invoke/五阶段正文/finish不改。原12个reach参数加3显式工作资源，全部当前blockfrontier/原singleton空间相位栈/union frames/曲率pending完整返；union仅完整canonical字节相同才引用去重，历史未付叶只原ledger地址/身份。held新增严格第四source/schema/input三元组、仍原R425/三真实前件，metric/reach非前门。原90KB超限70/raw不删，首次W/帽高/全marker/材料/尾帽仍须R437冻结；无actualparent/recipe/run或几何接受。

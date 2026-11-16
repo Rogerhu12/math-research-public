@@ -107,6 +107,8 @@ R429原五阶段与R426现场完整闭查询的全部来源、11查询资源、�
 
 [R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)/43565f7c+a565bc88+ad492e57显式接原193或真R431/70a/43f新450，核同origin/直接父/实际checkpoint/全十词/C-DAG/原deadline，13旧pins逐值保→15；原writer/SavedPrefix/径向/atlas/shared已动态支持新driver和mesh，数学源不改。五阶段及独立held都从新场重做，原参数/门/剩余钟/owner/90KB保，旧几何不转贴。全闭同g另须冻结首次W/帽高/完整marker/材料运输/尾帽及源码解释，当前入口不自动跨postsolve比较；R437付首次冻结。单90KB超限70/raw不删，没有新actual450/参数/run或几何接受；R438再明确接块reach。
 
+[R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c将R435/e3fcd9eb明确接真193或真R431新450的原五阶段，原15pins逐值保→16，R422仍实依赖；两个父bind/OwnedChild/原deadline/invoke/五阶段正文/finish不改。原12个reach参数加3显式工作资源，全部当前blockfrontier/原singleton空间相位栈/union frames/曲率pending完整返；union仅完整canonical字节相同才引用去重，历史未付叶只原ledger地址/身份。held新增严格第四source/schema/input三元组、仍原R425/三真实前件，metric/reach非前门。原90KB超限70/raw不删，首次W/帽高/全marker/材料/尾帽仍须R437冻结；无actualparent/recipe/run或几何接受。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

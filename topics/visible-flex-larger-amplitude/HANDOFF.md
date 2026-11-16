@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 01:10:43 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 211aeb2d1f61c1258a60673d137b3df6baa5e2e5。
+规则同步记录：2026-11-16 01:11:02 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f48a18cd2ec255d3cadf35d962eb1f4ce9b97a07。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -53,7 +53,9 @@ R409/R413全径向/两mean/B/原cuff与同准确target，R416准确cut三jet、R
 
 [R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)43565f7c+a565bc88+ad492e57：真193或真R431/70a/43f新450，核origin/直接父/checkpoint/全十词/C-DAG/原deadline，旧13pins保→15。五阶段和held从新场重做，原门/剩余钟/owner/90KB保。**全闭同g还须固定首次W、帽高、全部marker、材料运输/尾帽及源码解释；R436本身不自动跨postsolve比较。**
 
-R437（amplitude）做首次真实radial后H/W/全markers及同g复用入口；拟203/R440=root，未派发。R438（geometry）块reach三源与最终接口root已全文核，待单独发布，无run。R441（geometry）继续固定全g的真实N/tailsteps/角加密，M完整维数仍未付。
+[R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c将R435/e3fcd9eb明确接真193或真R431新450的原五阶段，原15pins逐值保→16，R422仍实依赖；两个父bind/OwnedChild/原deadline/invoke/五阶段正文/finish不改。原12个reach参数加3显式工作资源，全部当前blockfrontier/原singleton空间相位栈/union frames/曲率pending完整返；union仅完整canonical字节相同才引用去重，历史未付叶只原ledger地址/身份。held新增严格第四source/schema/input三元组、仍原R425/三真实前件，metric/reach非前门。原90KB超限70/raw不删，首次W/帽高/全marker/材料/尾帽仍须R437冻结；无actualparent/recipe/run或几何接受。
+
+R437（amplitude）做首次真实radial后H/W/全markers及同g复用入口；拟203/R440=root，未派发。R438三源与完整接口已发布如下，尚无run。R441（geometry）继续固定全g的真实N/tailsteps/角加密，M完整维数仍未付。
 
 [202完整入口](notes/2026-11-16-request202-actual201-returned-owner-full3-continuation-interface.md)七件874d81ae/b146e743/e07f1cf8、配方4ccea87c、请求f56f97cb、workflow193fa3af已按原201全文及六完整diff核。真实201双路径553B/6997f1f3十词仅新初猜，父仍resourcepartial/无final/已清raw；原122+19pins逐值保→123+21，当前52→53，旧历史常量/两核心续算函数逐字保。固定S/半径1/16×8/20α/3×20法向、2400全钟/120FD/160bit深14/453全门、quiet/单90KB保；只纠正当前owner说明中Actual189旧文字为201，不改冻结183历史标签。公开run43784544723/compute133029129971已启动，来源见[绑定](notes/2026-11-16-request202-official-run-binding.md)，R439由root唯一读，未有科学接受。
 
