@@ -22,7 +22,7 @@ R465/466/470/471/473/474各限明确有限输入/原fallback与局部语义。[R
 
 [R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)actual202投影后仅p3/theta3/eta3显式+0，七词保；新g/点不继承旧域/J/接受，coast正端/0<κ<1条件仿射基底及零二jet已证，非coast/全域/BVP另付。p3仍active、theta3/eta3固定，真453后十末词冻结fresh450；原7200共享/32GiB/绝对钟与全部门保持。
 
-[R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[R518](results/R518-live128-radial-cache-complete-source-composition.md)每physical查询只共享已形成finite dp；完整12临时链339public＋12gen=351，原物理Csolve/全角/endpoint/audit/所有门保。R522新paired-dot完整准确和/一次RN113/全列/mean/zero-wide fallback另证；R527/request225正在真正组合两者及原221完整FD/fullDN，R528预留，不追改运行221或添benchmark。source准备receipt不冒实际compiler返回/科学接受。
+[R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[R518](results/R518-live128-radial-cache-complete-source-composition.md)完整缓存/12链与[R522](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)准确双dot已付。**[R527/request225](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[完整接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)本次六件201991B发布并单POST启动，实际run另绑，R528/exact唯一。** 原336＋6public＋3R522/11新caller=356；R51812中间仅内存，正式component93ec/082d operator/49a7 stage真接原221全FD/fullDN。实际paired完整binding与R515三编译site分责读；来源不冒compiler返回/科学接受。原policy/ns显式225，19200/全列/mean/全部原门/quiet/各独立单90K70不改，不预保证fit或速度，不追改运行221。
 
 ## 2. 准确十族候选与完整453→450
 
