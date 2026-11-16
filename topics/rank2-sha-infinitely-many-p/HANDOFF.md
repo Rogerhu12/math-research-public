@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：8abf4bef4d13740fa94952cc584476c7381d47c1；2026-11-16 04:50:42 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:49:15 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
+- 最近已读规则提交：9f581240800e07612f7846dfc4350258357c2b98；2026-11-16 04:53:52 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:49:15 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,15 +13,14 @@
 
 ## 完整检查点与分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-complete-joint-tails.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-gm-half-density.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–857已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者。deep续I+J实际联合交/真W_T（保ann_Z(f2)）；theta续四指定Rν的R855除p行共同约束；literature续R857原泛纤维迹/3-local及R854指定cycle对应。R852原Chow逆、R853同源Cartier、R854真CM收缩、R855全热连接均已成稿。
 
 ## 原循环与canonical主门
 
 R804/806/811/814保原z=(1/30)prK twν(eηu∞)、固定7/13 good pair、三λ/34δ、全部Euler/period和原三I线性组合。指定I_j,-2≠0 iff同loc/AJ/z≠0；R817仅p7993，R818仅复秩1，均不付跨p。R831唯一Z02=Z/Z20=−Z与6^-2/12^-2/1632/816不变。
-R839/841保最高Π的全CH²平移不变、原Ceresa表达、实际Hom/polarization和S/W sign⊕std；属3/4/5/6排除均只对原来源。
-R846/847排原generating g4/5/6；R849只余两种g7必要signature/核，完整Hom、整数CM order与三种商见归档，未赋实际存在。
+R839/841与R846/847保原最高Π的CH²平移、Ceresa/Hom与全S/W表示，排原generating属3/4/5/6；R849两种g7必要signature、全部CM order/商保前检，尚无实际存在。
 R848–851付原光滑商及Schoen degree9图形；原τ∞水平只排literal竖直，17 Artin/异常/source3全保。
 [R852](results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)：原CM可逆线与完整u/σ等变付ΓᵗΓ=9Π，P9=ΓΓᵗ/9、Λ=Γᵗ/9真Chow逆；AJ正逆−18/−1/18。原Artin/source3/6/12/1632/816全保，仅运输同原Z。
 [R854](results/R854-original-canonical-cm-contraction-and-threefold-heegner-cycles.md)：固定Dδ²=−6给真CM收缩/外积与mixed投影；原φ逐项CδΔφ=(degφ/34)H_B。clDδ=−2δsA、B_j,p=−2δA_j,p及平方+12·34⁴保全部Euler/period/χ。7993证三固定H_j非零/finiteχ独立；其它p及指定非Dirichlet KS到原端点cycle相认仍开。
@@ -31,7 +30,7 @@ R848–851付原光滑商及Schoen degree9图形；原τ∞水平只排literal�
 
 ## 完整critical与四固定torsion
 
-R838完整critical Artin格/最高dν及变权e=2s_p、偶u/b和Cbar=2τC保归档；全Euler/period、指定主项与canonical未付，不假e2/noble/ordinary第一支。
+R838完整critical Artin格/最高dν、e=2s_p与偶u/b、Cbar=2τC保前检；全Euler/period及canonical主项未付，不假e2/noble/ordinary首支。
 S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全Selmer保。R816/820付E−11 rank≥2；R824同G0给r+2h≥s+1，R828同K1/C1的χ2原像未付，q_p(3)不预赋单位。
 [固定torsion原注](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)保原M/P2,M/CM13全frame及p²/p³全极。p幂+exact联合式与无权C³固定帽已付，但旧Δf可保C²/C³而改首行，不保四指定Rν。固定K(X)^pV范围已排，不能代R853的p依赖输入。
 [R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原加权η全极/C³固定帽L=9/18/34/17及C⁴η=−α^(1/p⁴)(x²/y)ω已付；唯一ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH。四原η̄仍同J_p/Θ_p/四fν；指定A_m简单根与M=1范围保前检。只读原首行，四α同时零仍开，续真实共同Θ_p约束。
@@ -41,6 +40,8 @@ S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全S
 R855§§9–11付共同六sigma A24/28及四质量1伙伴，四B=同B(A24)+实际低jet反对角配对，balanced热项不删。[R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)全偶格D^pA=Ha DA+m(L2Ha)zA与四指定j_(p+1)/p双变量整、权p−5已付。§§7–8原Hasse缺陷R_p整，L2²R_p|CM=110bc_p单位；全D_k非齐次热递推保横向/g2/模p²初始，原四D1共同零仍开。
 
 [同角色整germ及附录A/B](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：完整Schwartz闭包=ΣaκF(κz)、全JΦ=QΦJ及inert整Γ_h运输已付；r+1个真独立的最小coverℓ^r、原整R_h差分和同degree49m两代数独立源全保。两个中央导数全好p自动零来自局部因子，不能代primitive单位/免费carrier；原norm-one与共同Gaussian/ρ0尺度见完整前检。
+
+[原GM半密度曲率](notes/2026-11-16-original-gauss-manin-half-density-p-curvature-and-hurwitz-interface.md)：参数D^p0，周期Pp=[[HC,−H²],[C²,−HC]]的常数1由互素/结点全证。标量Q在真Hurwitz环Q^p=−∂v^p+(H+Cv)²∂v+C(H+Cv)/2；全T_(p+j)与原D_z^(2p)同一。CM c_p²单位不代T_N/p或四B。
 
 ## 同R、三真长窗和指定总类
 

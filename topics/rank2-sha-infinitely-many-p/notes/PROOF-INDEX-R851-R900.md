@@ -45,3 +45,6 @@
 
 
 [R840完整单/双尾](2026-11-16-r840-full-single-double-tails-and-same-base-jet.md)：在原非水平F_t-unit厚点，完整O_Q=0准确等价于W_t|C−W_t(Q)∈x^m、W_C−W_t(Q)τ∈x^(2m)、K_C−W_t(Q)τ/e∈x^(m+1)。m≥3两尾的原三角对角−YQ²(m−2)(2m−2)、−YQ²(m−1)(2m−1)全unit；m2只留−3YQ²单行。λ=同W_t(Q)，K是联合交表示，不能冒任意高前缀Kcorr；同cF³仍读第三/第四行。
+
+
+[原GM半密度与完整Hurwitz曲率](2026-11-16-original-gauss-manin-half-density-p-curvature-and-hurwitz-interface.md)：原D=L2在p5mod6满足D^p=0；周期方程D²ℓ+g2ℓ/12=0的Pp准确为[[HC,−H²],[C²,−HC]]。H/C互素由原Hasse方程/权因子证明，结点H=(3u)^((p−1)/2)及真实第二形式解支付常数1。Q=D−(1+g2v²/12)∂v−g2v/24在普通环p次幂为(H+Cv)²∂v+C(H+Cv)/2；真Hurwitz环另保−∂v^p。全T_(p+j)递推与原物理D_z^(2p)逐项同一，CM单位c_p²不替指定T_N/p。
