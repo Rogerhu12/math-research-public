@@ -352,3 +352,11 @@ proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724
 两README于74982ed4c356539dd3eef8368179b1c5208292a2同已读。WPS36/19新包需要151016B源+31551B worker+48445B manifest、183000B完整pub与120000B余量；当前199487337B再加这些已越200MB，故普通删已完整读核且非WSM20/WPS36输入的WRT/WDG/WBF/WJR四exec共92566B。精确restore4e7249810f4b71922daf3cc88557cb30c21cd5e1，完整path/Git/SHA/bytes、原source/manifest/run/stdout身份/原scope与四次pull链均保notes/2026-11-16-completed-four-small-execution-receipts-restore-note.md，6971c631/10121/5f8fa468。既往科学结论及失败不改，禁止重算，未来仅历史原字临时恢复。
 
 WSM43877268949/1实际已全152新39copy/22门成，root完整3图/index/exec资格45组通过；末真pull13:36:16.081258→61a4fcd6，两README全diff空，链aba13310fe0658d62bf6dbd6011e12bc02f4e968789984b8ab29873c61fc7e59。科学actual3f35c86e、3.154379049秒，完整whole/reduced新约1.90736e323，mean仍e319主导；WSMA完整证明正在登记，此处不宣称smallness或最终完成。继续WPS首次完整有限候选与WRP后继40，不重任何旧目标。
+
+## 2026-11-16 13:44:15 UTC — WPS首次完整paired有限候选包
+
+两README于466876331d3da924155a9873538eddfd0a4deb85同已读。manifest ed9aede898fcb79523a188ecee54a00763593019/48445/aabc28e194b27377d26f24ec7fff03708c0ff903841881233429ab0e36b76981，36current/19immutable history(13native+5原cubic+1repair)、5new+10old-definition+worker=16AST；30已存current逐metadata与原pin同。science d715c5a9、readonly a7e0d015、kernel30335240、assemblyc0f8a543、referencecc48f2e6，worker85d72a06。reader严核WPTVS五对象archive与WHVA全原字；15原记录2627/b313df91、完整旧scope8502/94c59517、19恢复13771/4705f2c3均保，不运行旧producer/旧max/原m1/m2 false。
+
+153原parents/4650rows/3594interfaces/4801intersections→24480细cell×96的完整新reference receiver，paired E0/D/T保193mean、97root+96outer、7port/2rhs/full96真实家族误差与Λ388高费，完整60或62记录/40fields/22gates/20progress。true77829、late83173、exec late61853、preflight2064的完整静态模型已核；SCI90000/exec85000/report8000总183000，120000余量与4000marker，child18000秒，runner每1800秒真pull并读两README差异。全成功/失败原字保，false只说明本候选未给充分逆，禁止重跑。
+
+fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pub183000+reserve120000+marker4000+文档8000+WSMA证明20000保守计199962177 B<200MB；下个consumer须计并行未发布预算并再fresh核。package先main，随后独立workflow自然触发。本次仅源码/静态合同，未做新数学。13:41:51工具环境重置后真CLI pull仍无executor，结果/源码全在公开Git原字恢复；无已成科学丢失或重算。
