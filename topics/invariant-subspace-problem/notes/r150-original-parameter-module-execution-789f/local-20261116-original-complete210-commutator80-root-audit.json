@@ -1,0 +1,33 @@
+{
+  "format": "isp-root-complete210-commutator80-independent-execution-v1",
+  "author": "OpenAI ChatGPT /root; GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete210-commutator80-source-audit-789f.py",
+    "bytes": 7440,
+    "sha256": "be2cf5d779a677501d579886ab9466bdeeb03bcbc55b4b33deba1e2613de0a22"
+  },
+  "execution": {
+    "sessionId": 15362,
+    "dateUTC": "2026-11-16",
+    "exitCode": 0,
+    "elapsedSeconds": 158.70670321000216,
+    "peakRssKiB": 216876
+  },
+  "binding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+  "inputManifest": {
+    "bytes": 144113,
+    "sha256": "74eb5557203192b2b3e37b43189ceaa7ec34afeb698884f336331210d1bcf2ff"
+  },
+  "rawOutput": {
+    "path": "isp-root-complete210-commutator-source-audit.json",
+    "bytes": 834,
+    "sha256": "894339ed3e81755834521c47c7226571839b78a60dc4397450e1dc8ce43a6a53"
+  },
+  "paidMeanAudit": {
+    "rawBytes": 752,
+    "rawSha256": "639e14945451dc71e5b348cd5449a11265f5f7dfba6081fa1e03f63119672af8"
+  },
+  "scope": "all80 whole ten-vector and18-source recurrences, all80 original polynomial products and same-weight checks; no producer import; prior24 arithmetic not repeated",
+  "dataPolicy": "Only source, parameters, actual identity and output hashes; no mathematical arrays."
+}
