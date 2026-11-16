@@ -69,3 +69,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:32 UTC /root — R572五原合成乘积同RN128词与完整接口
 
 [R572](results/R572-exact-root-synthesis-products-and-original-sum-order.md)四件57061B独立完整刊；五原合成逐调用未变R564核保RN128词与原+=/左式/table/构词/方向，资格外原乘法，公共数值前缀归纳不冒fenv/资源/速度同。5×17/full last、7/3 literal、20deps、原scope一次安装→原main实际g++/全门/caps/CLI partial70完整，无数值实验。R537已f2a641a6，R573/240下一独立刊并单POST；H/open/索引同步§4–6保。
+
+## 2026-11-16 14:35 UTC /root — R573完整240五路径真实模型入口
+
+[R573](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)五件278766B/topic254471B独立完整刊，原237正式99347全部432/八对象+lanes保→447；十caller一次R572、全部5×17/旧unknown统计、原70两reader全保，三R534数学consumer/全门/19200/allcaps/90K不改。R572已b0ae8ff5，正式刊后唯一POST240、R574 amplitude唯一；publisher每次pull后实际Git变化blob计topic≤200MB，H/open/索引同步§4–6原字。

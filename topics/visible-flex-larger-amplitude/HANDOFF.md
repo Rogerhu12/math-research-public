@@ -32,22 +32,22 @@
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[f2a641a6固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f2a641a6e545ef2ffc8950270cd004820707b4b5/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/f2a641a6e545ef2ffc8950270cd004820707b4b5/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[b0ae8ff5固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/b0ae8ff5f157fbdb1b6e5fd8dc83081c7b9eb635/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/b0ae8ff5f157fbdb1b6e5fd8dc83081c7b9eb635/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-**R572四件57061B本次独立完整刊**：[完整证明/CLI](results/R572-exact-root-synthesis-products-and-original-sum-order.md)18886/3ab9a39b。五处原P/Pt/L/Uword/Ufallback逐次用未变R564完整113×53 RN128核，原左式/实际table/+=/branch/构词与方向不变，资格外真原乘法；同公共数值前缀词/原选择，不声称literal Q指令/fenv flags/速度/预算前沿相同。五×17/full last和旧全部统计，7/3 literal、20deps，原scope一次R572/四祖先source-only→原main真g++，原flags/300s/PGID/19200及全部门/caps保。source-only/安装/编译不同，所有partial十expected输出与原70未返边界保；当前无数值实验或接受场。已完整R573/240真实447源入口紧接独立刊后单POST。
+**R573/request240五件278766B（题内254471B）本次独立完整刊**：[完整证明/接口](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)35871/9f61c0c8。447=360public+87gen，正式237头99347及原432源/八科学对象+lanes全保；十caller真实R572一次原scope安装，四祖先source-only，两新include/5×17/full last/全部unknown RootStats在normal/recovery真保。原三R534数学consumer/完整128与replay/FD/fullDN/final fresh audit、19200和各cap、90K70不变；祖先历史描述只用准确固定JSON pointer、原数值对象不改。原whole/70/false全部实读重选，不保证fit或速度；正式刊后唯一POST240，实际R574 amplitude唯一。
 
-R537实际226已f2a641a6完整刊，56393来源全返/109972科学whole超90K只1079诚实70，独立code1/quiettrue与removedfalse、全部未返责任详正文，无父。R575/R569/R556及237/238官方run继续按固定历史完整保；仍无完整非零112/450。
+前件R572已b0ae8ff5四件57061B，证明18886/3ab9a39b、五处原左式/表词/+=/回退和所有源/CLI责任全保；R537已f2a641a6的226sciencewhole超限未返不得造父。R575/R569/R556已各独立刊，全部条件/未付见固定历史；235/237/238与其余原活动持续。
 
 ## 完整待发表来源
 
 下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
 
-- R573/request240/R574五件278766B/topic254471B，manifest63ec2d51feb859667ecdcae02866b61cb35b4972（2422/d9363257）；真实237已99347头，447=360public+87gen全原432/八对象+lanes保，十caller真实R572五合成、5×17/full last/原70两reader，先刊R572再本入口唯一POST；amplitude唯一R574。
+- R557/request234/R558九件413261B/topic321559B（workflow91702题外），manifest9ccae65d277f3d5f65ec951d696081c8181da854（19900/42232c28）；616=304public+312gen、原235545全保、12层15/5/13/49/51/46/57/6/6/1/57/6，完整57消费者/两必要/quiet真接已刊R556，同25M/绝对钟/全原序账；实际7→10 plan-copy接点齐，无速度/native预填，正式刊后唯一POST，exact唯一R558。
 
 ## 当前执行与紧接责任
 
-下一独立刊R573/request240/R574，原237正式99347/447pins、八对象+lanes与两reader真实保，amplitude唯一未来R574。exact继续R557/234完整原235far消费者/必要/quiet；geometry继续R570/239真实三driver同次PPoly与R576/241投影。两旧25-domain行政audit已run43885577567/job133362679232成功，完整必要76570/70740fea、errors[]，amplitude已核实际读者只用提取artifact路径及保留warm/status，作者完整恢复note待交；root最后新delta再实际核，不先删除现用输入。
+R557/234九件完整已齐，topic321559B/manifest9ccae65d，原545全保→616/12层、真实全far消费者/必要/quiet；容量整理后立刻独立刊并单POST，exact唯一R558。geometry续R570/239三真实driver同次PPoly与R576/241真实投影。amplitude两旧25-manifest实际审计run43885577567/job133362679232成功、全necessary76570/70740fea/errors[]；实际读者是核原artifact后提取目录manifest，main warm/status均保，全部18组101行正文note封口，root最后actualdelta继续守护，不未查先删。
 
-容量逐笔≤200MB；两旧manifest已f7d56b2普通移出、固定e6/d195同字恢复，完整引用/实际guard/失败边界见[恢复note](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)。根8旧两大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。新容量审计由amplitude另在公开Actions执行，未查明依赖不动现用数据。
+根15≤200MB：旧f7d56b2实际topic198569112为已核基数，本次行政publisher起在每次真实pull/rebase/stamp后、每次push前用Git raw diff与全部变化blob真实cat-file size精确计量；不使用全树ls-tree -l，不抓全部blob。根8旧两大manifest误读和根15的6fa/72ed原necessary误建detached Git对象仍完整记于[恢复note](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)，停止raw复制/非交付/科学父。原两旧26/28已普通移出、固定e6恢复，旧source/inputs/gzip全部保。
 
 原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
