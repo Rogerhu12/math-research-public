@@ -375,6 +375,10 @@
 
 按根README第15条，[actual62两生成清单清理说明](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)经全文及原紧凑结论/来源核后刊，保真实run43642866864/sourcecc813fa7、原60父、原request/完整参数与producer。仅普通删除当前树domain-operator/manifest.json（493850B/4f68195d）及optimization-intent.json（858344B/17101fd3），共1352194B；暂存前再次核实际index blobs。现204/207/208/209/211/212实际恢复链不消费二者，其余四文件、全部原输入/历史warm与status/紧凑结论及Git历史保留。旧字节仍可从9a9dbfa8历史路径取回，不保证新科学运行逐词同，不重取artifact或科学日志，不改在跑入口或数学状态。最新真实容量另用官方topic tree核。
 
-## 2026-11-16 05:46 UTC /root — Request213完整来源与必要上下文接口
+## 2026-11-16 05:45 UTC /root — Request213完整来源与必要上下文接口
 
 **Request213来源合同完整核定；实际结果尚未发生。** [完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)17393B/748dfc98、本次plan5652B/5cd405f3与recipe40583B/f2176b25先刊；R479三核心已刊a9ff7bec。保原206全部108公开祖先，加formatter/生成器及两个现场view共112显式身份（110public+2生成），实际HERE仍原computations，不把pins计数冒递归导入完备。原真98父、39查询、8model/freshFD、17α、原10500/1200/600/90/30/4096及全部原门不变。新helper只在原必要对象完整形成后实际调用R479，保全部数值/错误/行序；单90KB/超70、不保证装下。生成失败真实保错误/partial，科学未起，不调缺失helper或假清理；正常always仍须真owner静止、完整必要/rules成功才清。request/workflow另次推，R480/exact唯一实际读者，不重用206末pair或补未返字段。
+
+## 2026-11-16 05:45 UTC /root — Request213完整必要上下文公开入口
+
+[213完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)及plan/recipe已刊 `f7ba484fb3bdb0428b4b1efef815673b513a78a8`，R479核心已a9ff7bec。本次独立刊request22988B/bb4005b4与workflow19127B/c0543ec8，由新请求路径触发公开仓库自身Actions；原98父、108旧来源/110public+2现场view、全39八批/17α/全部原门/10500秒/单90KB超70均保持。科学生成和必要读回严格按实际范围报告，不以step success补数学通过；实际run/source待官方绑定，R480由exact唯一终态读取。

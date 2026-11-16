@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:45:13 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 77682d9e2408a3a0a6096f4a7a74d112fe6a9fe9。
+规则同步记录：2026-11-16 05:45:56 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f7ba484fb3bdb0428b4b1efef815673b513a78a8。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -53,9 +53,9 @@ R454/20347abf与206/e8e4be9f保真98父、39八组/108pins/全17α/原钟，实�
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊完整接口/父源重做，不靠已删raw或SHA造证。此前此节全文在77fae38c42e6247b70abbce1f1c81dd26a4b5ff5同路径，所有原失败/未返/未访保持。
-- exact：唯一207/R460、208/R467及未来213/R480终态。R479三核心已a9ff7bec；213五最终件全读，plan5cd405f3/recipef2176b25/interface748dfc98本次刊；requestbb4005b4/workflowc0543ec8待下一独立推及官方绑定。110public+2现场源、原108祖先/39八批/17α/原钟/真98父/FD/quiet不变；不保证90KB。206/210终态已刊不重取。
+- exact：唯一207/R460、208/R467及未来213/R480终态。R479三核心已a9ff7bec；213五最终件全读，plan5cd405f3/recipef2176b25/interface748dfc98已f7ba484f；requestbb4005b4/workflowc0543ec8本次独立刊，实际run/source待官方绑定。110public+2现场源、原108祖先/39八批/17α/原钟/真98父/FD/quiet不变；不保证90KB。206/210终态已刊不重取。
 - geometry：唯一209/R469和212/R478终态。R476/helper00831470、212入口9a9dbfa8、run43810550597已绑；只inverse工作depth24→2与R477完整point/stack，全部候选/原门保，不保证预算/误差。205/207/209原冻结入口不改。仅据已有源码整理闭面各真实证据责任，不加门。
 - amplitude：唯一204/R446及211/R475终态。211前四件4f326cd1、入口7e62fb22、run43810051801已绑；168来源/真实c216依赖/R474九计数与全112原门保。R453实际205已3f08ce43，日志不重取；续查R481准确族coast区间表达式及原验收责任，纸面等价不冒未决原因或必过。
-- root：逐结论立即推，续刊213入口/绑定后继续open；actual62两生成清单已77fae38c普通删1352194B，仅4d61/ef5e，其余/父/源/历史保；63已b696cc15。结果索引完整旧字在results-index-through-request212.md，open§4–6逐字保持。每pull核双README。
+- root：逐结论立即推，213三件f7ba484f及本次入口已刊，下一官方绑定后继续open；actual62两生成清单已77fae38c普通删1352194B，仅4d61/ef5e，其余/父/源/历史保；63已b696cc15。结果索引完整旧字在results-index-through-request212.md，open§4–6逐字保持。每pull核双README。
 
 77fae38c官方topic tree35c18e7283380cf5b46617dd8cdbc59127a75202：9261blobs/196581478B、9633entries，truncated=false；62/63清理均已计入。不存新raw。

@@ -32,6 +32,8 @@
 
 **Request213来源合同完整核定；实际结果尚未发生。** [完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)17393B/748dfc98、本次plan5652B/5cd405f3与recipe40583B/f2176b25先刊；R479三核心已刊a9ff7bec。保原206全部108公开祖先，加formatter/生成器及两个现场view共112显式身份（110public+2生成），实际HERE仍原computations，不把pins计数冒递归导入完备。原真98父、39查询、8model/freshFD、17α、原10500/1200/600/90/30/4096及全部原门不变。新helper只在原必要对象完整形成后实际调用R479，保全部数值/错误/行序；单90KB/超70、不保证装下。生成失败真实保错误/partial，科学未起，不调缺失helper或假清理；正常always仍须真owner静止、完整必要/rules成功才清。request/workflow另次推，R480/exact唯一实际读者，不重用206末pair或补未返字段。
 
+[213完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)及plan/recipe已刊 `f7ba484fb3bdb0428b4b1efef815673b513a78a8`，R479核心已a9ff7bec。本次独立刊request22988B/bb4005b4与workflow19127B/c0543ec8，由新请求路径触发公开仓库自身Actions；原98父、108旧来源/110public+2现场view、全39八批/17α/全部原门/10500秒/单90KB超70均保持。科学生成和必要读回严格按实际范围报告，不以step success补数学通过；实际run/source待官方绑定，R480由exact唯一终态读取。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
