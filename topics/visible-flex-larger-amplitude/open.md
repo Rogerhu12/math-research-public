@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R443前检查点](notes/2026-11-16-open-checkpoint-before-R443.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R437前检查点](notes/2026-11-16-open-checkpoint-before-R437.md)，内链回R443/R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -109,6 +109,8 @@ R429原五阶段与R426现场完整闭查询的全部来源、11查询资源、�
 [R435](results/R435-complete-root-pair-blocks-and-closed-separation-cover.md)/e3fcd9eb完整根块仅原全phase distance≥2τ可支付，未决落原singleton/四门/两RP1/R282；原Kτ/完整D/当前空间相位和union/历史未付地址保持。[R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)明确原193或R431新450/父与C-DAG/十词/截止，原13→15pins；[R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c再接R435，原15→16pins/两bind/五阶段/owner原钟不改。完整当前block/frontier/空间相位/union/曲率pending返，union只canonical字节相同引用去重；原12+3资源、90KB超限70/raw不删、严格第四tuple held及metric/reach非前门保。全部原参数、源码范围、错误/未访/清理和首次构造责任逐字保[R443前检查点](notes/2026-11-16-open-checkpoint-before-R443.md)与各结果，未有actual450/几何接受。
 
 [R444](results/R444-continuous-ten-joint-provider-two-phase-source-composition.md)六独立源62010f35/5400aa4a/c825f632/cb05724b/cc9e1fa3/4e9a46fb将已刊197的真实joint sampler/client/native来源接原连续十453→450；完整27865B diff及接口已读。原19398pins逐值保+197新增9+新6=113（几何前），实际native30/预期导出70；原prepare_design/prepare_frozen/run_phase/PhaseLease/hooks.solve与主要reader正文不变，原43f/3bc动态来源可保。203 schema/namespace/deadline显式新，原全部门/7200及18900+2700资源合同保，不冒所有前置phase统一绝对强杀。actual180+xi0原父不暗换202；尚无203run，R437/R441必须真实新增tuple后才能消费新450。
+
+[R437](results/R437-first-current-closed-construction-and-material-definition-freeze.md)/[接口](notes/2026-11-16-current-ten450-first-closed-parameters-and-joint-postsolve-interface.md)：d7d01460/0f03ad49/f6176dba/28b48f0c在真实radial后选首次H、W=.01/全四marker并保存A，shared后保存完整core/Phi/registration/normalization/phase的B与原首prefix四cardinal见证。明确193/R431/新203 tuple，原五阶段/OwnedChild/18900+2700/全参数与90KB不改；held与metric/reach独立。reuse真读A/B且逐词构造相同，材料差异只诊断，共同角拉回尚未执行。全实际定义/raw同job暂存至全部必要+quiet；无当前H/450/比例或几何成功。
 
 [R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)核当前core→Phi、R418前缀/径向Phi_q²目标及R413固定笛卡尔帽。首图到当前图须psi_j=Theta_j^{-1}∘Theta_0，prefix另用公共u；原严格正材料逆前提下准确拉回同一g，帽靠共同cuff过渡保持恒等，不将非线性角换元伸到中心。四Loewner合同保原eta，整像/固定帽H/reach/含反射差异不变；全部混合/高jet、真实消费者和统一C²收敛仍未付。H常量不进入帽metric，W/H冻结另是README构造责任；不以坐标纸证冒实际闭面或精化。
 

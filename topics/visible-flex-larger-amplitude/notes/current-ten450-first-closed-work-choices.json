@@ -1,0 +1,90 @@
+{
+  "author": "ChatGPT amplitude agent (AI)",
+  "c_queries": {
+    "analytic_guard_bits": 8,
+    "budget_seconds": 900,
+    "integral_absolute_bits": 128,
+    "integral_evaluation_limit": 200000,
+    "integral_max_depth": 40,
+    "integral_relative_bits": 128,
+    "inverse_max_depth": 40,
+    "max_nodes": 200000,
+    "max_panels": 100000,
+    "precision_bits": 256,
+    "value_width_bits": 80
+  },
+  "construction_mode": "initial-construction",
+  "construction_policy_basename": "current-ten450-first-closed-parameter-policy.json",
+  "held": {
+    "active_depth": 2,
+    "interval_bits": 256,
+    "max_position_cells": 200000,
+    "max_prefix_points": 4096,
+    "max_tail_witnesses": 4096,
+    "position_max_depth": 20,
+    "position_radius_goal": "1/1000000",
+    "sqrt_bits": 128
+  },
+  "held_resources": {
+    "child_shutdown_reserve_seconds": 30,
+    "free_bytes_reserve": 2147483648,
+    "held_budget_seconds": 1800
+  },
+  "metric": {
+    "eta": "1/1000000",
+    "initial_angular_depth": 2,
+    "interval_bits": 256,
+    "max_depth": 20,
+    "max_visited_cells": 100000,
+    "sqrt_bits": 128
+  },
+  "reach": {
+    "active_depth": 2,
+    "block_cache_entries": 4096,
+    "cache_entries": 4096,
+    "curvature_max_depth": 20,
+    "curvature_upper": "1250/149",
+    "interval_bits": 256,
+    "max_block_nodes": 1000000,
+    "max_cells": 200000,
+    "max_constant_levels": 8,
+    "max_pair_nodes": 1000000,
+    "max_pairs": 1000000,
+    "max_union_cells": 4096,
+    "pair_max_depth": 20,
+    "sqrt_bits": 128,
+    "target_reach": "1183/10000"
+  },
+  "resources": {
+    "child_shutdown_reserve_seconds": 30,
+    "free_bytes_reserve": 2147483648,
+    "node_heap_mib": 12288,
+    "parameter_budgets_seconds": {
+      "construction_parameters": 120,
+      "held_witnesses": 120
+    },
+    "stage_budgets_seconds": {
+      "metric": 1800,
+      "original_cuff_atlas": 120,
+      "radial_replay": 1800,
+      "reach": 1800,
+      "shared_field": 600
+    }
+  },
+  "schema": "R437-explicit-first-closed-experiment-work-choices-v1",
+  "source_and_scope": {
+    "K_and_tau": "Explicit trial constants from the R24 conditional example; all original K/reach/diameter/ratio conditions must still be paid on the actual field",
+    "W_and_marker_scale": "Explicit free choices; actual cuff comes only from current C and H only from completed current radial replay",
+    "geometry_choices": "R24 conditional example plus original four weak-marker construction; not a current certificate",
+    "original_global_clock": "Use actual original193 or joint203 deadline receipt unchanged:18900 science seconds from namespace plus2700 readback reserve; stage caps are clipped to remaining time",
+    "parent": "No accepted450 or actual run is asserted; the root job binds real same-job source outputs",
+    "raw": "All field/ledger/definition records stay in RUNNER_TEMP; no new artifacts or encoded split summaries",
+    "resources": "New finite work caps, not changed scientific thresholds and not promised sufficient",
+    "same_closed_g": "First material definition and complete construction are frozen; current source does not execute common-material pullback; R443 conditions remain explicit"
+  },
+  "status": "source-only explicit choices; no actual field, request, run or certified ratio",
+  "witness_resolution": {
+    "interval_bits": 256,
+    "sqrt_bits": 128
+  }
+}

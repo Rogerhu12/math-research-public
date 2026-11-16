@@ -253,3 +253,8 @@
 ## R444 — 真正联合provider的连续十453→450来源组合
 
 [R444](results/R444-continuous-ten-joint-provider-two-phase-source-composition.md)六独立源62010f35/5400aa4a/c825f632/cb05724b/cc9e1fa3/4e9a46fb将已刊197的真实joint sampler/client/native来源接原连续十453→450；完整27865B diff及接口已读。原19398pins逐值保+197新增9+新6=113（几何前），实际native30/预期导出70；原prepare_design/prepare_frozen/run_phase/PhaseLease/hooks.solve与主要reader正文不变，原43f/3bc动态来源可保。203 schema/namespace/deadline显式新，原全部门/7200及18900+2700资源合同保，不冒所有前置phase统一绝对强杀。actual180+xi0原父不暗换202；尚无203run，R437/R441必须真实新增tuple后才能消费新450。
+
+
+## R437 — 首次真实闭构造、材料定义与联合来源
+
+[R437](results/R437-first-current-closed-construction-and-material-definition-freeze.md)/[接口](notes/2026-11-16-current-ten450-first-closed-parameters-and-joint-postsolve-interface.md)：d7d01460/0f03ad49/f6176dba/28b48f0c在真实radial后选首次H、W=.01/全四marker并保存A，shared后保存完整core/Phi/registration/normalization/phase的B与原首prefix四cardinal见证。明确193/R431/新203 tuple，原五阶段/OwnedChild/18900+2700/全参数与90KB不改；held与metric/reach独立。reuse真读A/B且逐词构造相同，材料差异只诊断，共同角拉回尚未执行。全实际定义/raw同job暂存至全部必要+quiet；无当前H/450/比例或几何成功。
