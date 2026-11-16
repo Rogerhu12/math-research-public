@@ -61,3 +61,7 @@
 ## 2026-11-16 08:38:00 UTC /root — R501与219完整逐H live128入口
 
 [R501](results/R501-live128-original-full112-same-call-executable-composition.md)17047/04ee80d5及[219接口](notes/2026-11-16-request219-live128-original-full112-interface.md)21110/bc484aa4连16源376388B/334pins、request52615/1c940011、workflow13262/a32461ef完成即刊并dispatch。真63prefix/96/port＋91仅尾初猜；逐H fullJ/R273→128/replay/全组件→准确RN64/原normal协议→原FD/fullDN/fresh audit，所有原门/负零/两mean保；350/320min单钟不每call重置，三session真quiet/单90K全必要，超限不清。无新科学成功；actual R502/exact唯一，真实head/run随后绑定；open§1压缩全文保e3abaf73、§4–6逐字保。
+
+## 2026-11-16 08:40:00 UTC /root — 219正式dispatch与真实身份
+
+[绑定](notes/2026-11-16-request219-official-run-binding.md)：R501/219真Git发布及实际source同f0c78734；admin43832851637遇NFF后立即pull/rebase重推成，再核workflow419898247已登记后单POST200→run43832887523/attempt1/main。08:39 compute133182240807前1–8源/容量成功、9prepare失败、10science skip；report133182459836当时in_progress，exact唯一终态各读一次，root未取科学log，不猜原因或清理。H正文题内新增件数明确19个467160B，workflow另计；全部科学未付保。
