@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 04:57:00 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 84059ce21c213a53e038169efb8dac9ed4b128f6。
+规则同步记录：2026-11-16 04:57:58 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e62bd729d7b0f8e81c7f63842a1c97dd430b8f94。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -54,9 +54,9 @@ R471已刊d004a4e4，helper7111/e6ce9308、variation12597/d4f2f32b、proof15466/
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
-- exact：唯一206/207/208及未来210/R472终态；210六件及全部完整diff已读，generator/plan/recipe/interface本次刊（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7下一独立推。143已刊+11实际view=154，原参数/18000/全门保持。
+- exact：唯一206/207/208及未来210/R472终态；210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7本次独立推触发，run待官方绑定。143已刊+11实际view=154，原参数/18000/全门保持。
 - geometry：唯一203/209终态；203七份必要JSON已取一次并核身份，R440全文未归纳前不填数学结论；209原C。并行只源/纸证定位当前C准确C²闭合最小未付点（R476预留），不添科学门。
 - amplitude：唯一204/205终态；R474四件完整候选在zero-linear-R474待root全文读，helper4832/eb487b2d、flow9510/1a5ce3f7、proofc7ab29f0/interface09bf81b6。独立211/R475接线草案进行，不改冻结210。
-- root：本次刊210源码组成/配方/接口，下一推request/workflow并绑定实际run；随后R474全文与R440实际终态。actual63已普通清理b696cc15；每pull核双README。
+- root：本次刊210 request/workflow，下一绑定实际run；R474四件全文已读，随后立即刊出及处理R440实际终态。actual63已普通清理b696cc15；每pull核双README。
 
 actual63清理后b696cc15的官方topic tree2a8bf41ceadb7be792d6dcb89405741bc3178eac：9234blobs/197185171B、9607entries，truncated=false。两生成清单1441937B普通删除，重做/全SHA见清理记录；不存新raw。
