@@ -15,8 +15,8 @@ concurrency:
 
 env:
   PYTHONDONTWRITEBYTECODE: '1'
-  EXPECTED_WORKER_SHA: '0699ff330b6a1abd0fe369a81679dd816bcd4a922e2c2a959c631ace53a78c36'
-  EXPECTED_MANIFEST_SHA: '4470a77b832b95ca6050912296eb1b45d8d6e84b4d65377d7a39e1c14a498423'
+  EXPECTED_WORKER_SHA: 'a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c'
+  EXPECTED_MANIFEST_SHA: '73102dc7ac71cb7f951cf1ca7b5e0bfe24f8938bb81a58aace93a2d6aba62c8b'
 
 jobs:
   one-new-target:
@@ -59,7 +59,7 @@ jobs:
                   ast.parse(raw.decode("utf-8"), filename=relative)
           print("Complete frozen operational inputs verified; no scientific function called.")
           PY_FROZEN
-      - name: Restore exact original inputs and run five new whole maxima with two fixed refinements
+      - name: Restore exact inputs and preserve readonly diagnostics with the scientific child forbidden
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
