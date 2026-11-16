@@ -37,3 +37,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:11 UTC /root — R559真实引擎接口及完整235入口
 
 [R559](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B完整独立刊，原535全保→545；实际__file__/comp修复保engine.main guard，九层248来源/早期完整错误及缺cleanup真回读，原49+8科学与C/全门/18900+2700/32GiB/90K不改。新增正式235 workflow，真实刊后唯一POST，R560 exact唯一；两旧manifest普通移出已f7d56b2，最终93变化守护/实际topic198569112与预算同，实际回执写入恢复note。H/open/index同步，下一完整结论立即接续。
+
+## 2026-11-16 14:13 UTC /root — R564准确完整首乘积及真实编译接口
+
+[R564](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B独立完整刊，完整113×53/余数/最近偶数保三处首RN128字，所有资格外原乘法；快捷不执行原第一Q指令、不冒fenv flags同，原R561第二选择器/累加/方向/全部门/caps保。3×17计数/full last与旧统计/16deps/原scope一次安装齐，无速度/接受结论；R565/237下一独立入口。235[官方](notes/2026-11-16-request235-official-run-binding.md)唯一POST200/run43883302810/head63a1/compute133354643341、R560 exact唯一，H/open/索引同步。

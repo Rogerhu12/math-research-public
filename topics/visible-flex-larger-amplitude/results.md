@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R564：已证明完整113×53乘积与准确RN128舍入及真实编译接口。** [完整证明/CLI](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B；三原primal首乘积保RN字、资格外真原乘法，快捷不执行原Q指令、不声称fenv flags同；3×17/full last和所有旧统计/原方向/全门/caps保，未报运行或速度。R565/237独立真接。[235官方绑定](notes/2026-11-16-request235-official-run-binding.md)已记录唯一run43883302810/head63a1。
+
 - **R559：已证明真实源码引擎接口与完整早期生成读回的条件保持。** [证明](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B；原535全保→545=297public+248gen，实际__file__/comp修复/engine.main HERE guard保、原49+8科学源和全部C/末门/钟/caps不改，早期错误与缺cleanup真实回读。仅正式dispatch，实际R560另据唯一终态。
 
 - **R541：实际228完整数值证据，尚无coupled/native/fullDN接受。** [完整结论](results/R541-actual228-eight-complete39-pairs-and-one-necessary-summary.md)32986/45d99826：八模型+八新warm FD、24trial/全部失败地址/末参数与单whole87376完整，原最大八批停止，原门与实际quiet/清理边界保；不混各批权、不由job success补科学接受。

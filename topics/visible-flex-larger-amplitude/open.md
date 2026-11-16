@@ -37,10 +37,10 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
-R553已完整独立刊，R559/request235本次完整独立刊并正式刊后唯一派发；R564、R565/request237、R567/request238、R556与修正后的R569最终组完整证明/来源已齐，各独立立即正式发布，实际入口刊后唯一派发；精确恢复manifest在HANDOFF。本次仅两旧26/28 domain manifest普通移出1456843B，[完整引用/固定历史恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)保全部当前输入/源。根15容量与原门/钟/90K保持；最终pull新delta亦实际守护。
+R553已完整独立刊，R559/request235本次完整独立刊并正式刊后唯一派发；R564本次四件70734B完整独立刊；R565/request237、R567/request238、R556与修正后的R569最终组完整证明/来源已齐，各独立立即正式发布，实际入口刊后唯一派发；精确恢复manifest在HANDOFF。本次仅两旧26/28 domain manifest普通移出1456843B，[完整引用/固定历史恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)保全部当前输入/源。根15容量与原门/钟/90K保持；最终pull新delta亦实际守护。
 
-R564完整113×53整数乘积与最近偶数舍入保持首RN128字；快捷分支**不执行原第一Q乘法**，不主张fenv异常flags等价。三原primal点/原方向/R561第二选择器保，3×17计数/full last及旧统计全保。R565原417全保→432=357public+75gen，十真实caller一次直接R564，八对象加lanes/原128/replay/模型/FD/fullDN/末audit/caps保；先刊R564再刊237并唯一POST，实际R566归amplitude。
-[R559完整证明](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B本次刊，以实际__file__/comp身份修旧module.HERE接口，原engine.main guard保；545=297public+248gen、原535和49+8科学源全保。早期generation全reader与缺cleanup明确未执行，18900+2700/32GiB/全C门/90K保，实际R560归exact。
+[R564完整证明/CLI](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B本次刊，完整113×53整数乘积与最近偶数舍入保持首RN128字；快捷分支**不执行原第一Q乘法**，不主张fenv异常flags等价。三原primal点/原方向/R561第二选择器保，3×17计数/full last及旧统计全保。R565原417全保→432=357public+75gen，十真实caller一次直接R564，八对象加lanes/原128/replay/模型/FD/fullDN/末audit/caps保；先刊R564再刊237并唯一POST，实际R566归amplitude。
+[R559完整证明](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B本次刊，以实际__file__/comp身份修旧module.HERE接口，原engine.main guard保；545=297public+248gen、原535和49+8科学源全保。早期generation全reader与缺cleanup明确未执行，18900+2700/32GiB/全C门/90K保，[235官方](notes/2026-11-16-request235-official-run-binding.md)已唯一POST200/run43883302810/head63a1/compute133354643341，实际R560归exact。
 [R553完整证明](results/R553-actual-prefix-coefficient-tubes-and-Frenet-majorants.md)/[接口](notes/2026-11-16-actual-prefix-tube-and-complete-metric-interface.md)五件80428B本次正式刊，用真实675全quintic prefix系数与全部原角cell给joint tube正域P和Fourier–Frenet常数；原cubic/FFT形成误差未付，原metric/DFS门不读diagnostic。R567真接235当前sameC evidence，557=302public+255gen、原545全保；新观察与原normal prior evidence分清、旧门/钟不改；先刊235与R553再刊238并唯一POST，实际R568归geometry。
 R556→R557/request234/R558续112far两mode并行，同原25M/绝对钟、arb精确dyadic传输、原mode序全部账/commit/prepared行SHA和95GB decoded范围保；组件不冒全入口，失败/partial完整保。
 
