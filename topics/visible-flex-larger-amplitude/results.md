@@ -99,3 +99,5 @@
 - [R578：actual98全453三控制新初猜与当前H完整fullDN入口](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)：七件147266B/topic122097B，原451全保→457；只三guess值/全部fresh RHS和H，FD/fullDN同新file与原全门/clock保持；实际242/R579另付。
 
 - [R525：actual224零高原收敛、正高一次内部试步与原资源停止](results/R525-actual224-input-support-zero-height-and-positive-resource-partial.md)：完整28608B；正高未接受/18000耗尽，107463正文未返、1505诚实70，quiet却未清理，无父；全部原scope与异常分责保。
+
+- [R576：同次全角投影、原完整覆盖与真实request241](results/R576-same-return-full-angle-projection-and-complete-current-caller.md)：六件357108B，642来源/13层/25runtime；原R553返回直接接R575并沿原退栈、完整R586关系与90K/70；原科学门和未付范围保，实际R577另付。
