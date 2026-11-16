@@ -1,0 +1,98 @@
+{
+  "format": "r150-original-mean-first-source-frontier127-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+    "gitBlob": "049028bbcfa486e8335d589c203d7cf682c4d7ac",
+    "bytes": 18470,
+    "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+  },
+  "helpers": [
+    {
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "gitBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "bytes": 23879,
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "gitBlob": "025821b76d7b9a982a52d0ecc205065097ecd66b",
+      "bytes": 20434,
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+      "gitBlob": "fb7f7eb7ace4230080eb470594e6aca601ac5f24",
+      "bytes": 9682,
+      "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "gitBlob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "bytes": 4691,
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    }
+  ],
+  "parents": {
+    "modelBinding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+    "modelManifest": {
+      "bytes": 30466,
+      "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+    },
+    "compressionBinding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+    "compressionMathematics": {
+      "bytes": 620742,
+      "sha256": "a1d73ea1ce5809c87bdc34724c1eb4407d6a5c0ae78fbf16aa3650563aa089dd"
+    },
+    "actualParentFiles": "Read the completed current model and compression receipts and all referenced full temporary phase SHA256. No previous temporary directory is assumed alive."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "compiler": "g++ -std=c++17 -O3",
+    "singularRequired": false
+  },
+  "arguments": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--compression-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--compression-out",
+    "{work}/original-parameter-seed-compression127",
+    "--native-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+    "--header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "{work}/original-mean-first-frontier127",
+    "--through",
+    "final",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "768"
+  ],
+  "budget": {
+    "seconds": 180,
+    "memoryMiB": 768,
+    "outerTimeoutSeconds": 240
+  },
+  "continuation": "Same source, arguments, parent files and output binding; only complete hashed image, native row and expression prefixes may be reused. Exit75 is incomplete, and native errors are not budget exits.",
+  "scope": {
+    "prime": 127,
+    "coefficientRoot": 100,
+    "newColumns": 30,
+    "originalOldPrefixColumns": 282,
+    "allOutputRows": 7754,
+    "allInputColumns": 312,
+    "fullParameterVariables": 12,
+    "originalSourceCoordinates": 18,
+    "originalModuleCoordinates": 10,
+    "stableClosureClaim": false,
+    "unitIdealClaim": false,
+    "characteristicZeroClaim": false
+  },
+  "dataPolicy": "All matrices, polynomial coefficients, raw receipts and native states remain temporary. Persist only source, parameters, proof and actual execution identities/SHA256."
+}
