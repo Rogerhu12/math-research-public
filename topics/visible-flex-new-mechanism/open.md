@@ -199,3 +199,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### 正方向完整观察已闭：带四个新cuts继续真正增广主问题
 
 [本次完整观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)（9171B；SHA256 `4754c7c3e37a70f7704bc289b4d36eefedb24be2a810124db29855fad133e165`）给唯一实际舍入方向全网修复gain−.00031326043820264013，0scalar/actual，点53仍在。新cuts coarse43322/91304、fine86645/182607和完整U/T输入已付；先将这四行加入原finite约束，再做必要新方向分离，不能把旧有限正gain当全网合格。原CACHE 30232607B/0c1826ad…，原MODEL/J不重建，累计1658.9797906909998秒/128值。合格才用原guard scalar与14门，原g/b0/159→163/guard/pool账保持；完成此任务继续下一open。
+
+### R472：A/T真实同步已经可做，接新桥内部的同一全段方程
+
+[R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)（29452B；SHA256 `34ae8e05134c9439101fe8917de7d28a6f608d4f08547f3ec60936f839dca476`）给任意A的完整第三仿射类与相容Θ前缀门；真返回桥B使任意同常端G闭为P=GB整A=T0，多个同向保护芽共全部incoming。只有在原R468比例/共同窗口条件下才统一调用actual截面，全部新增V基准进入R467同一目标。下一全段问题用原K_B^(a,b)=K0+B_B(a)−E(a,a)+2E(φ,b)，重复块保j与j²完整系数；整A=T0只付副本相同。∫kh(ω−ωc)=∫k²>0迫返回桥真正进入非恒ω新段，不能只按旧rational芽算；它们、控制词和原背景必须在同一个13核/同一第三矩补偿下全零，gap仍全s盲、平台真历史保留。零新执行，主门继续。

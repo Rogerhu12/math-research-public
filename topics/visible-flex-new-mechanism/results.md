@@ -420,3 +420,7 @@
 ## true53 finite正方向：完整双网不合格，新增四条原行
 
 [本次完整观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)（9171B；SHA256 `4754c7c3e37a70f7704bc289b4d36eefedb24be2a810124db29855fad133e165`）。run43821568604/research133145590135/report133148800350成功；原finite正gain不覆盖新完整attainer，实际舍入p的完整最大.2663281546680455、修复gain−.00031326043820264013，0scalar/actual，仍53。四新原行完整gradient及必要U/T/cache只原stdout，0旧J/finite/base geometry重算。1input/1pair/4gradient耗50.40678669899998秒，祖先累计1658.9797906909998秒/128普通值。两次实际双pull均空diff，最新已读d5cf6ec0…；继续新增四行的有限问题，不推不可行或主完成。
+
+## R472｜二三阶真实前缀复位与必须保留的桥内 ruling
+
+[R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)（29452B；SHA256 `34ae8e05134c9439101fe8917de7d28a6f608d4f08547f3ec60936f839dca476`）。完整第三可达类扩到任意A：Tend−A²/2+W；修正类Θ=T+A²/2给所有相容前缀门，R70+完整W实际控制可同时归一A/T。任意同常端模板G有真实B使GB整A=T0，有限P^qG保护芽共享整个真实incoming；条件R468/R467统一支付全新增V、全period及这些相同同向芽。原内部ruling与重复号二次式完整保平方/第三history；整复位不付块内零。λ+(VP)=∫k²=L+∫(h′/h)²>0、真倒行同号，八矩迫∫kh(ω−ωc)=∫k²，故返回桥必经新非恒ω段；不能删成中性连接。全段仍同一13核/原平台累计，无新自由规范。全文纸证0执行，根读原式，不宣主完成。
