@@ -240,3 +240,9 @@
 - 13Range/575116B；currentcd8dcb11、history01f47338、lifta2f5c38c、manifestd2d54554；原612MB必要输入71b16a02不变，artifact14192476595/7f1c8d82。
 - 请求只换resume，core1ece3cf4/wrapperc5907739、原八来源/129/142/280Q及free1186保留不变，从502继续；27+244准确生成元和主目标仍OPEN。
 - 本push规则：本地真实pull至50d25a093d20d5783881a201731074180ea02c23（2026-11-16T02:33:31.825895+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:35 Asia/Taipei — serre-public-astra-20261115
+- 原半线性对偶定理281de249：A.1成立必迫cχ_m=(−1)^(m−1)χ_m，原真实选行支撑不混，35840个Q未知量减至17920。
+- 完整认证current的禁用半块非零严格拒q；七代表支解后按奇偶补另七支并全Θ乘回，原清分母/κ/J/Δ全保；普通RR失败不拒q，精确算法有限终止无速度承诺。
+- 当前full dual保持运行，后继只接其真实current，从n+1并保旧tag/字节；R824501续算已推33f5c328。H/open完整前态逐字归档，所有闭路/来源保留；主目标OPEN。
+- 本push规则：本地真实pull至a6ca911815e8965c37e1a99d41d7a0b15cf078f0（2026-11-16T02:35:58.126359+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

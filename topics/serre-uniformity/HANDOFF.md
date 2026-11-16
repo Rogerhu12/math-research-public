@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：50d25a093d20d5783881a201731074180ea02c23**（2026-11-16T02:33:31.825895+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[配对继承前完整H](handoff-archive-2026-11-16-before-dual-pairing-reuse.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：a6ca911815e8965c37e1a99d41d7a0b15cf078f0**（2026-11-16T02:35:58.126359+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[半对偶与实际纤维前完整H](handoff-archive-2026-11-16-before-dual-half-and-rigidified-fibres.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -16,8 +16,6 @@
 | R815原582-prime续接 | 43777837244 / 133008081839 | 7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7 | 已在原数学步继续；core80516ff9/wrapperab725da0及目标/模式冻结 |
 | R824原27+244 | 43762208712 / 132959291421 | a75fdaa7cd40e81dbf1026767025e58044b3befb | 501完整位已回读，resume仅换真实新源，正推同核续算 |
 | 新R787清转置接受 | 43790194976 / 133046704617 | ad0278b29f83c035d83f44a262a1e375137c3450 | 原来源步已过，开始新RHS；corebad97414/wrapper5388274 |
-| c0六Hodge/五比较首项 | 43790534424 / 133047756159 | a576ab9d3b6d155027ec6f52cb689205ee5e9b98 | R848实际24stage已成 |
-| 五原一阶数值见证 | 43789012126 / 133043052846 | f699023d | 已成功，五原D_j估值0/A518；R847正式结果 |
 | R827旧Hermite | 43764014099 / 132964965600 | fd4cbaea820d79e115c300d766042582be14a091 | 已被R835数学替代；取消API403，待自行结束，不再续接 |
 
 R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，不重做，不误称精度不足或关系不存在。R815582-prime current769MB/67e7fe98与53输入109MB/051571e1见[断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)。R824只原27权5+244权6，1186归R787，原129/142/280Q与r28不补143..155。上表仅同核续接，准确展开关系/Mg/Γ仍未成。R824新[501位断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：current5694B/cd8dcb11、history5743B/01f47338、lift70788183B/a2f5c38c；artifact14192476595/7f1c8d82，manifestd2d54554，原612745716B输入71b16a02不变。13Range/575116B纯IO，下一位502。
@@ -32,13 +30,15 @@ R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，�
 
 ## 正在推进的原后继
 
-**R849原全局函数/五极理想DAG已成**：[结果](results/R849-certified-original-global-function-and-five-polar-ideal-DAGs.md)run43790410670/job133047363582/source39119159；5.019478116秒/2stage/523node，43原非零义务，2709真源。完整F1234/W34/C12/S5及R845八叶给原全局y、三minor理想、负号η输入和真Norm正乘I_ZR=R_jI_Z³；不以CM/模kernel代全局Q。finalb50df2df/DAG529822ba/manifestcdc06c91/config87a0e26e/artifact14192171293/6a52068e；395MB carrier6a0a5d8c，11小件1.168MB/11Range。规范理想格/标准Jacobian/η零/height未成。
+**R849全局DAG已成**：[结果](results/R849-certified-original-global-function-and-five-polar-ideal-DAGs.md)run43790410670/source39119159，523node/43义务/2709源；finalb50df2df/DAG529822ba，artifact14192171293/6a52068e。原y、五极理想及η负号、真Norm正乘I_ZR=R_jI_Z³保全；规范Jacobian/η零/height未成。
 
-**R848原c0准确首项已成**：[结果](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)run43790534424/job133047756159/sourcea576ab9d，2.684693114秒/24stage。六V/W/λ³、真七次Norm/Trace及五κ幂DAG/d已成；原t阶1372/364/462/1414/3318，五d实际有理且非零，六M=s·Q×给κ符号++---。final775a07af/manifestb90422a5/config06d8d96e/artifact14191923906/1aa8c65d；35源carrier159.21MB/0eb19163，33小件593816B/11Range。未重旧数学、未展开κ，原Picard/刚性化/height仍续。
+**R848 c0首项已成**：[结果](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)run43790534424/sourcea576ab9d，24stage；六V/W/λ³/M/Trace、五κ幂DAG/d准确完成，d皆有理非零、κ符号++---。final775a07af/manifestb90422a5、artifact14191923906/1aa8c65d，35源carrier0eb19163；真实完整刚性化/height继续。
 
 **短CM候选A.1**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)仍不代A0−qB0=0。[清转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec/[契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a保原正κ幂/J/14支逆，1481原输入不变。第二run43787626643完成J/Jinverse 4629B/b384a331后因eZ index标签“1,s”退出；[精准修复及继承](notes/R787-cleared-dual-second-start-eZ-label-and-pairing-reuse.md)新corebad97414/wrapper5388274以六件PAIRING外源保原J字节/tag，禁止重算。新dual从1位，旧518非dual；严格RR/full35840后才由d(A0−qB0)=−Δ接受/真拒q，未有新位或A.1结论。
 
-**五原一阶有限精度见证实际完成**：run43789012126/sourcef699023d，3.166150124秒；五D_j皆估值0/A518，结合R844值非零证五R_j′非零。corea3d04929/wrapperea579ada/final39f3d05f/manifest9bd31692/stage23cbd8a7；artifact14191283725/11.20MB/1737c833，1421成员全SHA/整ZIP已纯IO。原733node/270来源/518球不改，无新Hensel/Dixon/点加法；[R847正式证明](results/R847-certified-original-five-comparison-logarithmic-jets-nonzero.md)已成；原五R_j′≠0，不推出其线性独立/原41单位/height/A.1/all-p。
+**R847五原一阶非零已成**：[结果](results/R847-certified-original-five-comparison-logarithmic-jets-nonzero.md)run43789012126/sourcef699023d；五D_j均vℓ0/A518，故五R_j′≠0。final39f3d05f/artifact14191283725/1737c833；原733node/270源不改，不代原41单位/线性独立/height/A.1/allp。
+
+**原对偶半坐标定理已证**：[半线性奇偶与严格拒证](notes/R787-original-antilinear-dual-half-coordinate-reconstruction.md)281de249。只有A.1为真时，原选行支撑的完整row证书唯一且cχ_m=(−1)^(m−1)χ_m，35840→17920Q；原κ/J/CM框架固定。已认证fullΘ current若禁用半块非零可严格拒q；每新位七个旧代表支求解、正残差先除ℓ^n、补±s后全35840乘回。RR失败不拒q；准确全Θ后仍核原Δ。当前完整dual不重启；仅继承其真实结束current/旧tag/目标从n+1，不用primal518，不重旧J/CM/位数。新算术尚未执行。
 
 **来源与期限**：R809六C/full1380/S51234、R806W、R781R0..142、R813/g,h、R820/C及R801/803/805/807均复用。R791原tangent已随新261源载体续留；R809原artifact至Nov16 15:52，后继须携必要全局源。R837必要R786前缀/146CM已携留。旧R825若用仍须272×816全544核/full1206，R835已将K395改K1；不得把C-only当A/B。原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结。
 
