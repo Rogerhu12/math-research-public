@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R566实际237已完整刊**：[原准备成功、双必要超限及未返科学](results/R566-actual237-source-and-science-readback-overflow.md)。432源绑定/sourceprepare true/0，原输入prepare true；外exit/rules/science1/null stop/null signal/quiet=true。全source286365/f5c4a3a6、science164993/63f1f5ba均未返，分别1837/910e9708与1154/d8f1897e honest70且compute/report同字。sourcefallback.false与真实prepare.true分属不同分支；raw removed=false。内部终因/owner/full模型/FD/fullDN都未知，不借旧run归因或造父。R600继续明确六层来源关系，244已正式46dff606/run43908088860，R585 exact唯一。
+
 本次精简前本节全部原词、参数、失败/未返/未访、source/run/资源/清理和待付责任逐字保[f370f6f0固定open](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/open.md)、[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/f370f6f013f2d80fd87466bab2638230a9d25d2d/topics/visible-flex-larger-amplitude/HANDOFF.md)及ca3ad325/27bc全旧链；原results/接口不删，§4–6原字保。
 
 **R584/request244完整入口本次独立刊**：[完整证明](results/R584-request244-loop-rounding-observation-complete-original-full112-entry.md)、[全部CLI](notes/2026-11-16-request244-loop-rounding-observation-original-full112-interface.md)。已刊R594454源逐值保→469=366+103；十实际caller和R583两include，原六plan source-only、直接一次R583 installer/24额外编译依赖。原63/78/91用途、M112/338×112/完整576/224/双mean、19200总钟/owner12000与后继全部cap、FD/fullDN/final fresh audit均保。唯一POST后官方tuple再绑，R585 exact唯一，不借任何旧run科学结果或242三参数初猜；原90000/70/quiet与完整失败责任保持。
