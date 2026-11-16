@@ -165,3 +165,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R858原单Z执行引理已证**：[方法](notes/R858-original-p41-single-Z-from-chain-and-tail.md)39bca8a3：原加法链1/2/4/5/10/20/21/42累积β42，Z(P)=(Z(42P)−β42)/42，正号/规范与SP相同。实际t/u双条件后H_n整数及(N+1)a−c−7ceil_log41(6N+5)≥T对N≥2认证全部tail；原14基单位球、负赋值/σ全作用与Trace14保cχ/2。helper767b01cb、driver/wrapper正在接；R854成功源尚缺，请求pending，不称Z/五行/height已算。
+
+
+- **R859原目标到显式CM模型的p-unit比较已证**：[结果](results/R859-original-prime-to-p-CM-model-and-normal-content-transport.md) b8218a4b；直接用R390整谱/稳定格唯一性与完整BT，原End_K(A)在p为O_E，F弱逼近校准Q同源并除p分母得degree prime-to-p到R728模型。原逆different Néron格真运输；同h归一盘坐标Htilde_h=u_hX+pX²V_h保每个content理想及首余项/同c_h赋值。原c0/c1/权/粗参数保留，Hecke型与rec单位的反号明确；不求content数值、首项单位、q的Manin或height。

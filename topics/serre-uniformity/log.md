@@ -369,11 +369,11 @@
 - root逐读R727§8–9和完整新证明；不令高项冒充首项。正秩有理候选未必Abel增量零，故未得r=1/高度或主目标；继续原first-block和高度连接，无新数学执行。
 - 本push规则：本地真实pull至5428e476f1c03d962c9abb19851254c15a0ad177（2026-11-16T04:20:51.455238+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 12:52 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 12:57 Asia/Taipei — serre-public-astra-20261115
 - R856纸证给P0点理想与Cusp+P0的两图完整基：原272基值/真实cusp评价一非零pivot，显式列变换与多项式除法证明全核及det(x−x0)P20/余长21，不重旧秩。
 - root核原R838/827全J2定义，Leibniz与两图齐次三角运输给(f,δf,δ²f)，曲线DVR立方给I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)；明确后半沿K→原L扩张，不误降B/D。
 - 纯IO实际读R820544列/554件、R8057、R8378；39Range/19.67MB及旧carrier289成员SHA，非整ZIP哈希。首次core只计算固定21点块，原B/导数准确展开/RR/height未成；H先逐字归档。
-- 本push规则：本地真实pull至b696cc152e101dec4e76c9b964a107f220643989（2026-11-16T04:52:03.529369+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至80866f8c6fce1bddc152fbb63559756ef54000c6（2026-11-16T04:57:45.441860+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ## 2026-11-16 12:39 Asia/Taipei — serre-public-astra-20261115
 
@@ -398,3 +398,9 @@
 - 登记R858完整执行引理39bca8a3：原七步倍点/加点链累计β42，由Z(42P)恢复唯一原Z；直接复用SP/ZA，不另展开ψ42。H_n整数的准确n−1下标与N≥2后严格单调下界给一次全尾认证，42单位不增精度。
 - 原14基规范球保负赋值/γ与准确b,ζ坐标、实际分母及输入精度，σ作用全元素并保绝对界；五行只得cχ/2·Trace14(CZ+D)，Y/非p/height均保。无本地数学。
 - R856新输入51小产物已按原manifest取得，manifest6f40ae27/configd07431a6；Range34525005B/12请求不称重哈希整ZIP。继续完成R858程序并等待真实R854四响应。
+
+## 2026-11-16 12:58 Asia/Taipei — serre-public-astra-20261115
+
+- 登记R859完整纸证：复用R390已成稳定格/完整BT，以F弱逼近和实际p除法因子化把原Q同源校准为prime-to-p；原End局部最大阶与R728逆different Néron格准确运输，不重证旧残余分离。
+- 原R378盘参数/刚性化和同h真formal因子保留，归一Htilde_h=u_hX+pX²V_h给每标签normal-content与首余项单位运输；澄清Hecke有限型、rec单位有限Tate扭曲和坐标权的相反方向。c_h赋值不被虚设为零。
+- 内容数值/原q首次normal层/高度仍开，继续该实际入口；R858实现继续，R860先复用真实R806缓存并寻找最小必要下降坐标块，无本地数学。
