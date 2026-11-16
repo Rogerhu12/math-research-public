@@ -191,11 +191,11 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 [R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原χ5/χ6否定全partial的vertical响应覆盖；平移仅到NQ，桥2VA仅O(1)。13近1H与13小c给最小有限仿射闭包，Q0非零使旧D单独不可逆。新actual引理须同一满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，保真(H,c)放大/两次商/prototype×n/Klein基准；R465现给准确两头self门，负权满锥仍另付。
 
 
-### true53全已付有限主问题首次入口已提交
+### true53全已付有限主问题：输入修复后同账户续行
 
-[设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)及三新Python源码、[唯一请求](computations/request-true53-paid-master-central-path.json)已提交，首次run待回读。只读取原run43811870681的MODEL/COMPLETE/FINAL_CLOCK/PROJECTION_RESULT，保全5743soft/2937hard+5新gradient及652物理/范数/320外界/target，9658行；不重建模型/J/JVP/几何。新primal/slack/dual中心路径≤96迭代/192系统/240秒，一次LP，0旧backend/dev/actual。原tol上界也同步扩展真实bound行外盒，非outward证书。
+[首次失败](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，MODEL/COMPLETE内部行前BOM使锚首时间解析漏行；raw log指纹已过。0LP/0Newton/0新geometry/J/JVP/actual，5.828010012秒照计，同新finite任务240秒不重置；原5743soft/2937hard+5/652物理范数/320外界/target的9658行和96/192/1范围不变。修timestamp前BOM、原payload逐个SHA仍不变后续首次有限求解；原日志再读一次单列。祖先累计1600.268237108秒/128值。
 
-先消费唯一首次actual；若finite repaired gain正且原始门通过，立即用确切新方向继续全网分离及实际门，不冒已经全网下降。费用从祖先1594.440227096秒/128值另计，不重旧64/32/投影余额。完整新向量仅stdout，源/请求/结论入Git。
+正finite候选仍须完整双网分离、原guard/round/actual；不宣新实际点、全网下降或不可行。下一actual pull07:25:49前，已读01614a9…两README空diff。
 
 
 ### R464：原九行与seed已由同一真period核支付

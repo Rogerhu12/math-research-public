@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读；最新actual双pull为run43811870681/report job133116787814。公开05:46:51.539801→05:46:51.955126 UTC，从42f95905deec3024dfee7a687bdc806d38c79baf到已读 **8184486663a0480a9805ed8efa5c6b4739cc08d8**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。此前同run research05:41:48 actual公开pull before=after42f959…亦双空diff。四原pull及指纹完整保本次actual note。下次actual pull最迟 **06:46:51 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
+根/题README已全文读；最新actual双pull为run43816639046/job133130076418。公开06:25:49.056606→06:25:49.474729 UTC，before=after已读 **01614a9cbbc2ce1cfe93318915dee05292dc586a**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:25:49 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
 
-私有同report05:46:54.007619→05:46:55.187011，从8d9caf92c263faeea363e822af26effbff7b73f4到 **b3a11fe6e1797a6f91d299091a5bfa52573f0a5c**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前research私有05:41:51已读26811132f0f77f361fec6a464f93d2ee19ec1a24亦无差。私有内容不发表。
+私有同run06:25:51.896233→06:25:52.492655，before=after **914004a08eca6ae9769bf2e2a4846dac599c3cb4**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。全部pull元数据保本次input-failure note，私有内容不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:25再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -57,6 +57,6 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 ## 5. 当前工作
 
-[全已付finite master](notes/true53-all-paid-finite-master-central-path-design-20261116.md)源码/请求已提交，首次Actions待回读；复用5743soft/2937hard+5新gradient，共9658行；request e8746af4de865e855a2b682c38279606fc3a2e2c60a385d849b3931b1e66f730；一次LP≤96迭代/192系统/240秒，0J/JVP/值。原始/对偶中心路径非旧Hildreth，正finite gain仍欠完整分离及actual。
+[全已付finite master](notes/true53-all-paid-finite-master-central-path-design-20261116.md)首次run43816639046输入BOM漏行失败，0LP/0Newton；已耗5.828010012秒计入同240秒后续，只修parser不改模型；复用5743soft/2937hard+5新gradient，共9658行；request e8746af4de865e855a2b682c38279606fc3a2e2c60a385d849b3931b1e66f730；一次LP≤96迭代/192系统/240秒，0J/JVP/值。原始/对偶中心路径非旧Hildreth，正finite gain仍欠完整分离及actual。
 
 [四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。拟一次180秒包含输入/全部失败、无旧rank/dev；源码在写，未执行。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。

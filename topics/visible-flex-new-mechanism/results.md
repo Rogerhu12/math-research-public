@@ -376,3 +376,6 @@
 
 
 - **true53全已付finite master源码及唯一首次入口已提交。** [设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)、[请求](computations/request-true53-paid-master-central-path.json)（5375B/SHAe8746af4de865e855a2b682c38279606fc3a2e2c60a385d849b3931b1e66f730），三Python+新workflow保全部9658原单位行，单次96/192/240范围，0新J/JVP/geometry/dev。tol dual上界用原bound放宽外盒。待消费首次run，未宣新方向/actual成功。
+
+
+- **true53 finite master首次输入BOM失败，0LP/0Newton，同240秒续行。** [原始失败及续行口径](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，5.828010012秒，累计1600.268237108秒/128值。原MODEL/COMPLETE行前BOM已定位，仅修输入；本次actual双pull/双空diff已读记H。无有限/全网结论。
