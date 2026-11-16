@@ -370,3 +370,226 @@ R838 的完整临界 Hecke projector、最高主极项、
 - [R838](R838-original-critical-hecke-reader-and-three-endpoint-periods.md)
   附录 C：同一三阶平移在完整变权 packet 的 self-twist、
   $e$ 偶及原三条临界系数的奇性。
+
+
+## 附录 A. 原实际曲线像的最低亏格与 genus-four 分支型
+
+本附录加强 R839 §7 的**这份原端点表达**。它不对任意
+三条曲线态射强加对称性，而是先在真实 Jacobian 同态上
+逐项平均，使原完整权一对应保持不变。
+
+### A.1. 对原整个权一对应作等变平均
+
+取 R839 §7 的固定有限定义域 $F$、系数域 $\mathcal E$
+和原三个对应 $\Gamma_i$。仍以各原 cusp $\infty$ 为基点，
+令
+$$
+J_i=J(C_i),\qquad C_f=X,\quad C_g=C_h=C,
+$$
+令 $r_i$ 是 $R_{C_i}$ 在 $J_i$ 上诱导的真实群自同构。
+在 $E_0$ 上固定 $u=[\omega]$，规范为
+$u^*\omega_{E_0}=\omega\,\omega_{E_0}$。
+
+R839 的 CM 相容权一同构，以及本篇 §3 的完整特征，给
+$$
+\Gamma_i r_i=u\Gamma_i
+\quad\text{于 }\operatorname{Hom}(J_i,E_0)\otimes\mathcal E .
+\tag{A1}
+$$
+这里用的是 Jacobian 的协变同态；等价的微分式为
+$r_i^*\Gamma_i^*=\Gamma_i^*u^*$。
+原 $\Gamma_i$ 经整个 $e_i$，而非只经最高三重张量分量；
+在该权一因子的全纯与反全纯两线上，(A1)都成立。
+权一同态的实现忠实，故 (A1) 是实际同态等式。
+这不改变正文(9)对 Chow 推前特征的约定。
+
+把原展开写为
+$$
+\Gamma_i=\sum_\alpha c_{i,\alpha}\varphi_{i,\alpha},
+\qquad \varphi_{i,\alpha}\in\operatorname{Hom}(J_i,E_0).
+$$
+原有理分母已吸收进 $c_{i,\alpha}$。定义实际整数和同态
+$$
+\varphi^\circ_{i,\alpha}
+=\sum_{a=0}^2u^{-a}\varphi_{i,\alpha}r_i^a .
+\tag{A2}
+$$
+于是逐项有
+$$
+\varphi^\circ_{i,\alpha}r_i=u\varphi^\circ_{i,\alpha},
+\qquad
+\boxed{\Gamma_i=\frac13
+ \sum_\alpha c_{i,\alpha}\varphi^\circ_{i,\alpha}.}
+\tag{A3}
+$$
+第二式直接由 (A1) 得到；它保持**原整个 $\Gamma_i$**，
+不是只保持其最高投影。所有 $\varphi^\circ$ 仍定义于同一个
+固定有限域上；(A2)只使用已定义的 $R$ 与 $[\omega]$，
+未加入随 $p$ 变化的对象。
+
+置
+$a^\circ_{i,\alpha}=\varphi^\circ_{i,\alpha}\circ
+\operatorname{AJ}_{C_i,\infty}$。
+因为 $R_{C_i}\infty=\infty$，它们满足真实曲线态射恒等式
+$$
+a^\circ_{i,\alpha}R_{C_i}=u\,a^\circ_{i,\alpha}.
+\tag{A4}
+$$
+用这些态射和 (A3) 的系数重新展开 R839(18)，得到同一
+$\widetilde Z$ 的有限曲线表达；每个实际三元态射
+$$
+\Phi:X\longrightarrow E_0^3,\qquad
+\Phi=(a_f^\circ,\ a_g^\circ q_0,\ a_h^\circ q_2)
+$$
+都严格满足
+$$
+\boxed{\Phi R_N=u_A\Phi,\qquad u_A=[\omega]^{\times3}.}
+\tag{A5}
+$$
+这里使用正文(7)的两条原退化等式。三个 $1/3$ 只在展开
+$\Gamma_f\otimes\Gamma_g\otimes\Gamma_h$ 的系数中出现；
+它们不改变原 Chow 类，不引入新的 $q/q^4$ 次数。
+正文(21)–(23)的全部 $X_0/X_1$ 倍率保持不变。
+
+### A.2. 生成整个 $E_0^3$ 的原像必须有亏格至少四
+
+对 (A5) 中一个非恒定 $\Phi$，取其像的正规化 $D$，
+写
+$$
+X\xrightarrow{\vartheta}D\xrightarrow{\iota}A=E_0^3.
+$$
+保留有限推前次数：
+$\Phi_*[X]=\deg(\vartheta)\,\iota_*[D]$。
+若像落在一个真阿贝尔子簇的平移中，R839 §6 已给其
+最高投影为零。因此以下只考虑像生成整个 $A$ 的项。
+
+(A5)使 $u_A$ 在 $D$ 上唯一提升为自同构 $v$，且
+$v^3=1$。它的阶确为3：若 $v=1$，整个像逐点被 $u_A$
+固定，便落在有限群 $A[u_A-1]$ 中，与像为曲线矛盾。
+取 $\vartheta(\infty)$ 作基点；它由 $v$ 固定。
+于是原 $\iota$ 给满同态
+$$
+q:J(D)\longrightarrow A,\qquad qv_J=u_Aq .
+\tag{A6}
+$$
+其微分拉回是三维单射，故
+$$
+\dim H^0(D,\Omega^1)_{\omega}\ge3.
+\tag{A7}
+$$
+
+若 $g(D)=3$，(A7)使 $v^*$ 在全部全纯微分上都是标量
+$\omega$，因而在 canonical projective space 上恒等。
+非超椭圆曲线的 canonical map 是嵌入，所以迫 $v=1$；
+超椭圆曲线的 canonical map 为二次映射，其自同构核
+至多为阶2，仍不含这个阶3的 $v$。两种情况均矛盾。
+故
+$$
+\boxed{g(D)\ge4.}
+\tag{A8}
+$$
+这比 R839 对任意曲线表达得到的亏格至少三更强，
+但准确范围是本附录保持原 $\Gamma_i$ 后得到的等变表达。
+它不证明任一曲线项或它们的指定线性组合非零。
+
+### A.3. 最小亏格四时的完整 Riemann–Hurwitz 与特征计算
+
+设 $g(D)=4$，记 $B=D/\langle v\rangle$，$g_0=g(B)$。
+除 (A7) 的三条 $\omega$ 线外，仅有一个剩余特征。
+若它也是 $\omega$，canonical map 的同一论证再次排除。
+若它是1，则 $g_0=1$；若是 $\omega^2$，则 $g_0=0$。
+
+下面给出所需 cyclic-cover 维数式，包含可能的未分歧
+线丛扭曲。设分支点局部 monodromy 分别为 $v$、$v^2$，
+数目为 $r_1,r_2$；$r=r_1+r_2$。特征零下每个非平凡
+稳定子均为整个三阶群，故
+$$
+2g(D)-2=3(2g_0-2)+2r.
+\tag{A9}
+$$
+取循环覆盖线丛 $\mathscr L$，使
+$\mathscr L^3\simeq\mathcal O_B(D_1+2D_2)$，
+其中 $D_i$ 为相应的约化分支除子。局部正规化给
+$$
+\pi_*\mathcal O_D
+=\mathcal O_B\oplus\mathscr L^{-1}
+ \oplus\mathscr L^{-2}(D_2),
+\quad
+\deg\mathscr L=(r_1+2r_2)/3.
+\tag{A10}
+$$
+按 $v(y)=\omega y$ 规范，后两项的特征依次为
+$\omega,\omega^2$。对 (A10) 作相对 duality，再用
+Riemann–Roch，得到
+$$
+\begin{aligned}
+d_\omega&:=\dim H^0(D,\Omega^1)_\omega
+ =g_0-1+\frac{2r_1+r_2}{3},\\
+d_{\omega^2}&:=\dim H^0(D,\Omega^1)_{\omega^2}
+ =g_0-1+\frac{r_1+2r_2}{3}.
+\end{aligned}
+\tag{A11}
+$$
+此处后两条 line-bundle correction 的次数均严格为正，
+因为本段 (A9) 的 $r$ 为3或6；故相应的 $H^1$ 项为零。
+这也说明 (A11) 不依赖未分歧的 degree-zero 扭曲。
+
+在剩余特征为1的假设下，$g_0=1$，(A9)给 $r=3$。
+又 $r_1+2r_2$ 被3整除，所以 $(r_1,r_2)$ 只能为
+$(3,0)$ 或 $(0,3)$。由 (A11)，非平凡特征维数为
+$(2,1)$ 或 $(1,2)$，与 (A7)要求 $(3,0)$ 矛盾。
+故该假设也不成立。
+
+唯一可能是
+$$
+\boxed{
+g_0=0,\qquad
+(d_1,d_\omega,d_{\omega^2})=(0,3,1),\qquad r=6.
+}
+\tag{A12}
+$$
+将 $d_\omega=3,d_{\omega^2}=1$ 代回 (A11)，得
+$$
+\boxed{r_1=6,\qquad r_2=0.}
+\tag{A13}
+$$
+即六个分支点的 monodromy **全部相同**。
+若同时反转生成元及 $\omega$ 的标签，则变成六个 $v^2$；
+这只是同一结论的整体共轭，不能逐点任意改号。
+
+在一个仍先于 $p$ 固定的有限扩域上，把一个未分歧点移到
+$\mathbf P^1$ 的无穷远，便可写成
+$$
+D:\quad y^3=c\prod_{a=1}^6(x-b_a),
+\qquad b_a\ne b_b\ (a\ne b),\quad c\ne0,\quad v(y)=\omega y.
+\tag{A14}
+$$
+无穷远不分歧。全纯微分基可取
+$$
+\frac{dx}{y^2},\quad\frac{x\,dx}{y^2},\quad
+\frac{x^2\,dx}{y^2},\quad\frac{dx}{y}.
+\tag{A15}
+$$
+前三条的特征为 $\omega$，最后一条为 $\omega^2$，
+与 (A12) 完全一致。
+
+### A.4. 最小情形还保原 $E_0^3$ 的同源约束
+
+在 $g(D)=4$ 时，(A6)的连通核是一个椭圆曲线 $B_1$。
+它由 $v_J$ 保持；由全纯微分的正合列及 (A12)，
+$v_J|_{B_1}$ 在其微分上的特征是 $\omega^2$。
+因此 $B_1$ 有原点保持的阶3自同构，几何 $j$-不变量为0。
+完全可约性遂给
+$$
+\boxed{J(D)\sim E_0^4}
+\tag{A16}
+$$
+（在某个固定有限扩域上），其中 $v_J$ 的全纯
+特征 signature 为 $(3,1)$。它不是在整个 $J(D)$ 上的
+标量 $[\omega]$；这个区别正是 (A8) 的要点。
+
+(A14) 的一般六点覆盖不满足 (A16)。因此不能任取一个
+六点三重覆盖来替换原 $\Phi$，也不能由本附录的必要条件
+推断它具有原17处 Artin 数据或等于 R814 的 canonical 类。
+原实际同态、三个完整角色、$q_0/q_2$ 与完整临界 period
+仍须保持。这里没有任何新的数值计算或目标素数扫描。

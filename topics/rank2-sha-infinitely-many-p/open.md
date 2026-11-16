@@ -131,3 +131,6 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 
 [固定有限代数来源池及p次幂加exact的范围](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§17–18以先固定的代数参数、不同Laurent首阶和非零增广minor，证明原Ahat、真f=Z^-2Ahat及P2均不属任意固定有限池K(X)^p V（充分大p、固定有限坏集外、不加exact）。特征零σ^mR与σ^mR/z²的非代数性分别用Dζ=−x和Dz=1的有限域迹付清。但可变p幂与exact联合确有完整fνω=hν^p dlogx+dvν，hν=xCν/(2y)，原未知αν=(−2[z]hν)^p及p²极帽仍保；未作错误的联合排除，也未推出原四α不同时零。
+
+
+[R841 原等变曲线像的最低亏格](results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：附录A在真实Hom(JC,E0)上三项平均，保持整个原Γ_i及其有限展开，得到每个实际ΦR=[ω]³Φ。生成E0³的像正规化有三条ω微分，canonical映射核≤2排属三，故最低属四。属四时完整cyclic line-bundle/RR含degree-zero扭曲，迫商P1、六branch同monodromy、signature(3,1)，模型y³=c∏6(x−ba)，且连通椭圆核的阶三作用给J(D)∼E0⁴。原有限推前degree、1/3展开系数与6/12/1632/816全保；这些只是原表达的必要条件，未认任意六点模型具有原17角色或canonical非零。
