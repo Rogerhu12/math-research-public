@@ -410,3 +410,48 @@ $$
 及
 [Modular forms of weight 2](https://wstein.org/books/modform/modform/weight_two.html)。
 次数界与零恒等式界已在第3–5节自含证明，不依赖软件判定一条未知全局恒等式。
+
+## 附录 A：首批公开低权运行及已证明的17整性门
+
+原源提交 dd7b2881f12e353e0c54e1de8e0e88a0bbe3391a 的
+公开 [run43827859642](https://github.com/Rogerhu12/math-research-public/actions/runs/43827859642)、
+job133165840111，使用同提交的
+scripts/produce-original-low-weight-map.py、original_low_weight_cm_tools.py
+与 ci/original-low-weight-map-request.json。
+原顺序是 $(n,k)=(1,2),(2,2),(1,4)$。
+
+前两个固定候选均已计算出完整有限矩阵；其严格结论为：
+
+| n | k | 模形式维数 | 矩阵形状 | 好辅助素数 | 剩余秩 |
+|---|---|---|---|---|---|
+| 1 | 2 | 120 | 410×240 | 1000037 | 240 |
+| 2 | 2 | 120 | 410×240 | 1000037 | 240 |
+
+使用的原 $a^3=17$ 约化值为 $923276$；基前缀的 SHA256 为
+7cc12d88e0dd795172ad285e965daeaa50780bf52f9839880c27a97a86f7ba51。
+producer 明确检查全部所读分母在该素数为单位，且原全局模形式基
+约化后仍有秩120。完整原 CM 前缀精度9187约用2.14秒，
+两个低权秩门分别在该脚本第138.76、139.25秒前完成。
+
+因此这两份**实际固定矩阵**在特征零也满列秩，低重建空间为零：
+若有特征零非零核，清分母并选原局部整格的 primitive 向量，必在该好
+约化给非零核，和秩240矛盾。这个证明不需要另求特征零巨大矩阵的核。
+
+第三个 $(1,4)$ 候选停在模形式基构造阶段，随后被取消；
+没有权4矩阵、候选或认证结论。此取消是因为
+[R866附录A](R866-original-modular-function-certificate-and-level-nine-model.md)
+已独立全证实际 $n\Xi_0$ 必须 $17\mid n$，所以所有这些 $n=1,2$
+请求在任意权都不可能给真实原映射，继续扩权已无必要。
+
+提交8564014195a7cbdc6c0d4460513c7f179dff435c加入该真实参数门，
+并以同一专用 workflow 的 concurrency 机制 supersede 旧运行。
+[run43832115772](https://github.com/Rogerhu12/math-research-public/actions/runs/43832115772)、
+job133179793850 于08:33:58 UTC成功返回 request_blocked_by_proved_17_integrality，
+未执行新的模形式矩阵或 shadow 计算。该 guard 的 script SHA256 为
+12cffa406ceb31cb834b16145f6e084d746d8498c2aa543e3347c8f53e0b59d7，
+结果 SHA256 为
+46a9e4c63a579b8b01d54321c86686ad7c1098cbeba342e1d9e073a5661337d0。
+
+后续先计算同一原三条 CM 形式的真实 Petersson/次数界，
+连同 $17\mid n$ 再选可行权和同格方向；不能把更大的 $n$ 当作免费尺度。
+尚未认证一条原映射，也未得到原非零 shadow。

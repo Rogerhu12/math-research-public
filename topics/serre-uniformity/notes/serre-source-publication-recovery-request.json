@@ -2,71 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0836-R873-window-fix-and-R854-N112-continuation",
-  "commit_message": "serre: resume the true cyclic-seven coefficients and p41 precision",
-  "rules_last_read_commit": "8564014195a7cbdc6c0d4460513c7f179dff435c",
+  "request_id": "20261116-0846-publish-R877-single-canonical-A",
+  "commit_message": "serre: compute the original canonical A using one new normal right hand side",
+  "rules_last_read_commit": "39cc6b4ebb82938774b21d2c3546d174a822514d",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "2475f18e4ae05bd7a94527d07b59f54a24c46ce22145c5dbce566b49605f42b2",
+  "expected_previous_request_sha256": "785b023863f3882cd3f465fc2d04008a86357596ea47ec18b1206825bcccc530",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R873_original_cyclic_seven_correspondence.py",
-      "sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
-      "expected_previous_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd"
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R873_public_original_cyclic_seven_correspondence.py",
-      "sha256": "033a8cacb5d9699f3426e0a66cb11d2659a724e1300a5f4d4488f27483d2560a",
-      "expected_previous_sha256": "03c2d2275704e773117cc3e075c0b0868c43d763f0d50426f5637b722241820b"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-public-request.json",
-      "sha256": "b1e8090c57747d7e0c4191bc7cca010645fcec35a2c47985b2eaa4676769a6a6",
-      "expected_previous_sha256": "846d985088c8d40e6d349c3dba744e8d8fb829b03bb38d499d5a1fc5a8686bf0"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R873-original-selection-window-repair-and-source-carrier-reuse.md",
-      "sha256": "86596d2cc0ec9547c69639c56fafc3c19bd5c3bef7726bdd43efb712cc6c0a00",
+      "path": "topics/serre-uniformity/scripts/R877_original_canonical_A_normal_input.py",
+      "sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "sha256": "68d12483e8f75ce0134ac008b42cf05433652680f983f92a763c0e2360120905",
-      "expected_previous_sha256": "f6cfe6fbd6a1405a3668a56ea18cde6ba0767e1b344ab5e055918e5c8d5f7878"
+      "path": "topics/serre-uniformity/notes/R877-original-canonical-A-single-normal-RHS-method.md",
+      "sha256": "8b2f5cc4360f43931492c54ccd8f175469148a956a8b9a4777b97821173afe27",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R854-actual-N56-precision-stop-and-N112-continuation.md",
-      "sha256": "46e841786142e77e7ce2646d259d6bd0193c14460eb465d800c241ad5679fbba",
+      "path": "topics/serre-uniformity/scripts/R877_public_original_canonical_A_normal_input.py",
+      "sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R877-canonical-A-public-request.json",
+      "sha256": "c7690bde16c5b6165463aa7b2ef4b1feccbc7e8c48fc7f3e0aa3cf3a2746b654",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R877-canonical-A-normal-input.yml",
+      "sha256": "be636790228f9962350d09148ea2723c0bf1cfb644a3037902530ae40cd32920",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R877-original-canonical-A-normal-input-activation.md",
+      "sha256": "16a3e409fb672bc028df86ea5b23f25ad0516e286793cd4ada9d5c5a75543280",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-single-canonical-A.md",
+      "sha256": "5f8e12bce4dc9aac50fca321576b11e7c511b1ca0f6a4a82bdb207cab1ac6095",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "5c7ed3fa56ae1cd230444a319683c018c966503da8f4a6516bbecabeda5ae248",
-      "expected_previous_sha256": "64904bc35fffd8cc7fa6d58973c73d949e7f54b7a80f8fdcf0e387da6024a90c"
+      "sha256": "6037b59e1425761e7ba772b21414a9216eff0e069585fa62236d853270f7f0bf",
+      "expected_previous_sha256": "5f8e12bce4dc9aac50fca321576b11e7c511b1ca0f6a4a82bdb207cab1ac6095"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "79c5a7a7d1ce2797e22b81d5eac6ab0184b3c30ab2713ea42905224f4f171d68",
-      "expected_previous_sha256": "59be8257ba0d30663089244afbc9d5075343c2daac13a33152472e978fc450df"
+      "sha256": "0b3cbf518077ed361fccf9b36b34ea6ff5f70d7a2df3bdcb072cb3b1c3b22bee",
+      "expected_previous_sha256": "79c5a7a7d1ce2797e22b81d5eac6ab0184b3c30ab2713ea42905224f4f171d68"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "28aa6bd9c4f3f4b4b8b96b384a78690311faf5065420fa125fa1fb8eeba2d569",
-      "expected_previous_sha256": "97f02e6886c8ee4b093e7cb368953de5f817058873d112be752dc92953667707"
+      "sha256": "dd4b319705a8d038f332a005dfae9b6bd020ac4d6e97c6a513de1d460c7007e7",
+      "expected_previous_sha256": "c2d085de2326e4b5aab863f4da23362354fac1f754673c247c4c3a15151bb86d"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R873-original-cyclic-seven-correspondence.yml",
-      "request_path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-public-request.json",
-      "request_sha256": "b1e8090c57747d7e0c4191bc7cca010645fcec35a2c47985b2eaa4676769a6a6"
-    },
-    {
-      "workflow": "serre-R854-original-p41-response-solver.yml",
-      "request_path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "request_sha256": "68d12483e8f75ce0134ac008b42cf05433652680f983f92a763c0e2360120905"
+      "workflow": "serre-R877-canonical-A-normal-input.yml",
+      "request_path": "topics/serre-uniformity/notes/R877-canonical-A-public-request.json",
+      "request_sha256": "c7690bde16c5b6165463aa7b2ef4b1feccbc7e8c48fc7f3e0aa3cf3a2746b654"
     }
   ]
 }

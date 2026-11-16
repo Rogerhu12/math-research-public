@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 原式、文献、严格范围和历史费用见[results](results.md)，当前任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff；R455/464初选同真宽/母/右锚付q4/F★、共同20根、非零最高响应。R460付simple-p自动留数与不变解析端芽，真range仍保Af partial/平台/整包量/双germ/gap/右锚；同13规范和最高period未付不能提前用。
 
-R471同cap五门Δ1/2/3/4/6全0 iff完整self比例；R475保全部十二L项/八Aj，四列minor真非零。R481原尾Euler给五个真compact控制满秩；[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)用g=((2/3)p^−1/3φ′)″/ρ准确提升logρ，三normal经8参数IFT保全端germ和正性后作有限径向下降。预选15列未自动满秩，盒内真非零驻点必有模型外下降；无统一步长/全局零。R483真尾紧化保远左常数C/凸v曲率测度，零仅可能3/5+ε*≤h/s²<10¹²；零极限须另付C³正窗和实际逆才提升。R485完整critical/uniform全部C≥0 offset族非零，真ψ3左germ及simple-A端近似保留；不排其它cap。冻结ψ3一次严格完整ImE>0，故同冻结库h不在span(y)，R466只在同Jaff/canonical正时长/同端口/M0作用。一般新cap/新机制未排。
+R471同cap五门Δ1/2/3/4/6全0 iff完整self比例；R475保全部十二L项/八Aj，四列minor真非零。R481原尾Euler给五个真compact控制满秩；[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)用g=((2/3)p^−1/3φ′)″/ρ准确提升logρ，三normal经8参数IFT保全端germ和正性后作有限径向下降。预选15列未自动满秩，盒内真非零驻点必有模型外下降；无统一步长/全局零。R483真尾紧化保远左常数C/凸v曲率测度，零仅可能3/5+ε*≤h/s²<10¹²；零极限须另付C³正窗和实际逆才提升。[R489](results/R489-no-single-curvature-concentration-for-the-five-cap-conditions.md)用ν质量/一次矩、η=v(−3/2)=W1/3及完整Aj模数，排critical+任意远左C的单原子集中薄层；全零必η>统一正数并保两个分离曲率质量窗，仍无点态正窗/五维统一逆。R485完整critical/uniform全部C≥0 offset族非零，真ψ3左germ及simple-A端近似保留；不排其它cap。冻结ψ3一次严格完整ImE>0，故同冻结库h不在span(y)，R466只在同Jaff/canonical正时长/同端口/M0作用。一般新cap/新机制未排。
 
 R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说明的真传递接口逐函数盲。R480从起点有限扩F（≤924生成，不称秩）付全W三外矩0，重复原型K无第三历史漂移，但A/全V仍在。R482逐点T=Pend−A²/2+W，完整K=F(X;θ)+Ch h″+Ck k″；13真状态/2共用输入、原Mraw/水平ODE和全θ相容/切向性都要满足，未构成闭返回。常scalar段另需−E(AcD,AcD)+2E(φ,Ac(φ;AcD))全θ0。R484若真实两相位加速度minor非零，同前缀全s解锁在有理抛物线；离开须全相位rank降，候选h在≤12次判别根。当前minor值、rank≤1库或奇点平坦分支尚未判。[R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)保任意真路径完整principal平方及初端常数，付两完整H差=−10∫g″⁴<0，排完整F在13状态开域恒0；真实低维路径和常scalar关联族M_c=bvᵀ/physical权b/(4h)仍未判。54高阶/108完整生成不是秩，新增C²观察不抹平方门。
 
@@ -38,6 +38,6 @@ R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说�
 
 ## 5. 正在接续（2026-11-16 08:29:38 UTC）
 
-root以原接受54的完整checkpoint和实际缓存建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
+root已发布[真正54新模型入口](notes/true54-fresh-original-model-exchange-design-20261116.md)，public首运行待结果：必要两普通值/两J/两firstjet，19标签在54刷新，全部硬/软行动态完整装入；32新行集/32双网/147新行，1/64scalar及3pair/6actual值，同新600秒（祖先1877.294171609秒/130值另带）。建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
 
 新的[cap五门设计](notes/cap-five-positive-curvature-search-design-20261116.md)已冻：15个真实正ρ参数、6固定起点、完整左germ/十二L/八Aj/五Δ及解析敏感度，同120秒/400started积分含失败/输出。首执行[启动失败](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：prefix已付，首cap第14RHS overflow；总.5630522320000182秒/2started(1complete,1fail)，无任何完整五门值。正在修复首步，原120秒/400started中带费用、只恢复prefix。R481局部正规与真实全局0仍有距离；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。

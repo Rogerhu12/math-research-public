@@ -62,7 +62,7 @@ R866/R869公开producer已给原T9的Φ17（18×18，总degree34，291项）与�
 
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)给真正小入口D=X0(867)：h(Q)=H0(q)³∈S6，A,B∈M_k、C=(DQ A)B−A DQ B。完整C³=n³h A²(A+vB)²B²检验0..612(k+1)项，连同原germ和∞基点即严格认原nΞ0。k2的M维120、低截止409、最后截止1836，成功degree≤204；degree≤119保证有k2表示。任意非零低核给同一比值，允许共同cusp零。
 
-**原候选已理论排除：** R866附A证实17|n是必要条件，所以原run43827859642的n1/2在所有权都不能产生真实映射。本提交以17整性guard替代这组不可能请求；先算R873实际范数下界，再选择真实n/权，不认n17充分。
+**原整数/单位低权轨道已排除：** R866附A证17|n必要；R873公开完整范数给所有整数单位实际degree>23194880、三同源>7731626，故k2/4/6/8全部排除。n1/2旧矩阵满秩另已记录，k4无结果。下一搜索一般有理Hecke方向u的全q整性格I∞={u:λ(uO_E)⊂aO_F}，并用同正度数范数筛选；实际Hom仍须完整坐标证书，不认q整性已充分。
 
 [R867附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md)给真实整R=2T7²+7T7−8T13−28，其packet值r³−3r+1=0、逆3−R²；仅在原Hom格互逆，不认整个J可逆。原完整8/64/14邻点迹与闭点重数保留。原同nΞ0一旦认证，δζ两式给3nΞ_i全部真整，改进旧57；可用整unit换同格映射并以整逆返回，首微分系数不得免费归一。
 
@@ -125,3 +125,7 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 继续判同原K1三个最后尾的真实受限像与同R补偿；单行单位响应、L1闭式或纯quartic子格零均不代完整第三类非零。
 
 - [R866附录A](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原17处最小模型a3′=17v、ordΔ8给ωv=aω′；原X0(2601)的∞整光滑q盘上Néron延拓迫首系数n/a整，故实际nΞ0必有17|n（理性r亦v17(r)≥1）。原整unit与3同源备选经已付整逆/dual返回，同样排除17∤n；与权和截断无关，不认17已足够。
+
+- [R870附录A](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：公开run43827859642的(n,k)=(1,2)/(2,2)真实410×240矩阵在好素数1000037均秩240，严格排各固定低核；k4只到基构造，取消无结果。R866原17必要条件后，run43832115772成功执行参数门并停止无效请求；完整source/args/run/hash保，不假原坐标成功。
+
+原CM范数producer已公开触发，先由真实n17和全部unit的次数下界判定可行权；k4取消没有提供结果。

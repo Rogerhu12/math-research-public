@@ -1,0 +1,65 @@
+{
+  "kind": "single_obsolete_operational_repack_inspection_report_cleanup_v1",
+  "exact_deletion_set": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-duplicate-repack-inspection.json",
+      "git_blob_sha": "f8724691f389a433dff5c546d623dd2847808d43",
+      "bytes": 154047,
+      "complete_sha256_inherited_from_original_verified_summary": "d676f7ae24675478754baec8230ecfe5b5515906c12ca792ff266cfa9b5ea1bd",
+      "restore_commit": "d5f61af9a000131263eb396b64e64796138c633a",
+      "restore_same_path": true
+    }
+  ],
+  "purpose": "Free current-tree capacity for new research outputs under root rule 15; preserve the original operational outcome and immutable full recovery.",
+  "classification": "Old nonmathematical detailed inspection of duplicate temporary repack outputs; not a native mathematical input, candidate, endpoint definition or numerical certificate.",
+  "evidence": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-verified-duplicate-repack-cleanup.json",
+      "git_blob_sha": "ee39087b3551792ca64fc2af1638b9cc2a97980e",
+      "bytes": 4640,
+      "sha256": "a73b271d11f966c01d8bd813572ce907828603c1f5944def7f16a117552cd18c",
+      "read_complete_utf8": true,
+      "original_complete": true,
+      "scope": "The original small cleanup record explicitly binds inspection_sha256 and records that all removed temporary-pack objects existed in unchanged recognized pack indexes."
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-handoff-after-queue35-complete.md",
+      "git_blob_sha": "1d363a14987fe4af3175e4b2433f15081976a87c",
+      "bytes": 9988,
+      "sha256": "879deeae8618d3c165ed807fb83eb7f7430c4fe9b2c7b5eba350abaebea4da04",
+      "read_complete_utf8": true,
+      "scope": "The original handoff explicitly names this inspection report and the unchanged small verified cleanup record."
+    }
+  ],
+  "original_operational_outcome": {
+    "recognized_pack_count": 375,
+    "recognized_unique_objects": 222426,
+    "removed_temporary_outputs": 36,
+    "bytes_released": 8748668660,
+    "all_removed_objects_already_present": true,
+    "normal_packs_indexes_refs_worktree_untouched": true
+  },
+  "original_large_report_body_fetched": false,
+  "inherited_SHA256_is_not_a_new_independent_large_body_hash": true,
+  "exact_git_blob_and_bytes_verified_at_restore_commit": true,
+  "active_dependency_scan": {
+    "scope": "the frozen 58 complete WECA current files only",
+    "all_complete_texts": 58,
+    "hits": [],
+    "rules": "Only these specified complete inputs were checked; historical prose references remain valid through the exact restoration commit."
+  },
+  "preserve": [
+    "Original small verified duplicate-repack cleanup record",
+    "All archived HANDOFF records",
+    "All mathematical sources, native files, candidates, endpoints, numerical reports and failed scientific attempts",
+    "Git history and all original commits"
+  ],
+  "no_scientific_work": {
+    "new_computations": 0,
+    "old_mathematics_recomputed": 0,
+    "producer_imports": 0,
+    "binary_bodies_retrieved": 0,
+    "new_arrays": 0
+  },
+  "deletion_method": "Ordinary new Git commit only after this whitelist is public; fresh exact path/Git-blob/size guard; no wildcard, force push or history rewrite."
+}

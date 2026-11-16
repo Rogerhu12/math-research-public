@@ -255,3 +255,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R507 — 实际218来源生成后、科学启动前的语法停止
 
 **实际218：来源物化完成，当前union owner语法绑定失败，科学未起。** [全文](results/R507-actual218-source-binding-stop-before-science.md)18208/5f33d330，run43830433500/source0f101b69，compute133174205129/report133174986936各终志仅一次。五层15/5/13/49/51共133生成与272公开/405组合身份成功，不冒全语法/科学通过；首错77279/57beb568 owner第119行在普通字典项后裸推导式，R496祖先77205/f6b48也有同结构。正式dispatch/refinement未建立，所有后继缺文件不数数学拒；C485B为未起null，R4994468B完整仅两实际资源记录，composition79007B只返回身份。原owner真quiet，cleanup正文明确skip，report缺四primary/refinement；无C、far、BVP、FD/fullDN、闭面或误差结果。后继当前owner须独立dict unpack源并全来源级联；历史错误源保原字节但不冒语法过，不改旧218/原科学门、32GiB及18900+2700钟。
+
+## R501 — 逐H live128到原全112 FD/fullDN的实际源码组合
+
+**已证明（明确来源、表示与条件接口组合）；219尚待正式运行。** [全文](results/R501-live128-original-full112-same-call-executable-composition.md)17047/04ee80d5与[接口](notes/2026-11-16-request219-live128-original-full112-interface.md)21110/bc484aa4，16源码376388B/334完整pin，request52615/1c940011、workflow13262/a32461ef同步发表。真actual63全453未接受前缀＋accepted96/原port，91仅尾初猜；真实topic/repro/source-root及原3b8当前baseline已接。每当前H fullJ/十数组/R273→same-call128 owner/replay/全stage/boundary/混合338/audit→13/9scalar与全数组一次RN-even64，保负零/双mean，原文正常协议进入1cdf solve和原7ba FD/fullDN；不沿旧378覆写，不把混合J提升全解析。原2×10/3层FD/收缩、fullDN/17trial/RMS/BC/final audit全保，350min job/320min科学19200一钟、各H/cap裁剩余，64GiB与18call不是完成承诺。三session真own/quiet、单90K必要/完整失败/未付，超70不清。仅源级条件结论；normal response/FD/组件不单独推出原fullDN，更不推出闭面与README目标。R502留真实run终态。

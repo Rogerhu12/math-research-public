@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：8564014195a7cbdc6c0d4460513c7f179dff435c**（2026-11-16T08:32:55.369353+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-nine-norm-generators.md)（9845B/b388bed6），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：39cc6b4ebb82938774b21d2c3546d174a822514d**（2026-11-16T08:37:10.605312+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-single-canonical-A.md)（9880B/5f8e12bc），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -15,16 +15,16 @@
 |R787原函数570后|43827877594 / 133165978118|38abf72112113bcd39d41ad68dbb301518040e5f|实际原数学步，120min/core93d3d72b/wrapper42157e0d|
 |R824原27+244从596后|43828509061 / 133167910211|9829a0385c61e9262c6038a365bc3de1c26015d2|实际原数学步，300min/core1ece3cf4/wrapperc5907739|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|300min/core80516ff9/wrapperab725da0，原数学继续|
-|R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|旧N56退出；N112同核续接已提交，真实响应仍待证|
+|R854原41四响应N112|43832705685 / 133181715849|2ee14751d7b2cb4403931886b587ca6f64138c73|同核新工作精度实际运算，仍未有响应球|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|已由370及371正残差进入七支续接，300min|
 
-**R787真实570**：[完整同核断点](notes/R787-570-digit-checkpoint-and-same-core-continuation.md)。lift d97acf14/carrier2f4371c9/artifact14204698566（Nov17 07:20）；原核/包不变，不重545前或518全56格，实际续算仍运行。
+**R787真实570**：[同核断点](notes/R787-570-digit-checkpoint-and-same-core-continuation.md)，lift d97acf14/carrier2f4371c9/artifact14204698566（Nov17 07:20）；不重545前或518全56格。
 
-**R824真实596**：[完整同核断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)。current/history target/lift相同，lift071c3390/carrier71b16a02/artifact14205663835（Nov17 07:36）。原27权5+244权6/free1187，1186归R787；129/142/280Q/r28不延143–155，Mg/Γ未成。
+**R824真实596**：[同核断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)，lift071c3390/carrier71b16a02/artifact14205663835（Nov17 07:36）。原27+244/free1187；129/142/280Q/r28不延143–155，Mg/Γ未成。
 
 **A.1**：七小L不代A0−qB0=0。[真实370/371激活](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)保full原BudgetStop124、370current11a4f187、371正残差f26fe3db、target000a9bbc/Jb384a331/1481源；半核ffe5dcff只七支17920RR后全35840乘回。HP.2真反例或完整Theta/Delta才判，RR失败不拒q，不混primal570。
 
-**R854/R858**：原R854 run43805506433于08:19真实NeedPrecision/exit125，13099.282846s/532stage，N_B56在depth55用尽。纯IO43831552484读两端profile rank0，未有单位逆/响应球；artifact14207739171/b0a8babc，原1665源carrier135471278/bca10118。[同核N112续接](notes/R854-actual-N56-precision-stop-and-N112-continuation.md)只升工作精度、目标仍7，原532stage及55前profiles/旧低位全保，不假定112足够。R858 pending5288ae54两input/source仍null；只真球后启动。原同2420/free1186/full2560/S_m/两分母不变；ZP正号、t/u双条件、全H_n/tail和Trace14/2/cχ保留，辅助ℓ不代41精度。
+**R854/R858**：旧run43805506433真实NeedPrecision/exit125，13099.282846s/532stage，N56在depth55用尽；两端profile rank0，无单位逆/响应球。artifact14207739171/b0a8babc/carrierbca10118。现[同核N112](notes/R854-actual-N56-precision-stop-and-N112-continuation.md)复用原532stage/profiles/旧低位，只添高精度，目标仍7，不预断112够。R858 pending5288ae54两input/source仍null；ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ不变。
 
 ## 原Y：已成准确源与正在执行的矩阵
 
@@ -36,11 +36,11 @@
 
 **R864/866/865/R870**：原127核、H/J/逆、cY/Q-fixed even54odd73、T7全560×127和16无重谱均闭。R870[真实整数c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)已成N0=χ7(8)、16ni、1959位d*/80输入；run43822039811/artifact14205027300/723ec402/42源6a9d22de。原ξj有理、含7-primary挠单射保留；合法好约化niPiξj非零⇒Eiηj活跃，模零未决。实际支持/eη/主函数/nonp未算。
 
-**R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)与[消费者](notes/R873-original-cyclic-seven-correspondence-activation.md)。原8H+4E/2058、110阶、真P与靶K/P′、dual交换/c0c1/−3保真。首run43830067416/job133175720690/sourcea07453ec已读4960原件，carrier344533352B/73069a32、artifact14207709262/6ed2434e；0stage因误读R775选基窗口273而停，trace line356已核；[准确修复](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)core3c4922ee/wrapper033a8cac，改核273与原max_exponent_qY≥763，旧finite全比较保留，复用carrier续接。17系数/实际η支持仍未成。
+**R873原循环7正在实际续算**：[纸证](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)保原8H+4E/2058、110阶、真P及K/P′、dual/c0c1/−3。修复后run43832703159/job133181675900/source2ee14751已进原数学；core3c4922ee/wrapper033a8cac，仅改R775窗口273与原max_exponent≥763核对，196..763全比较保留。首跑4960原件carrier73069a32/artifact14207709262直接续用；完整失败及修复见[修复记录](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)。17系数/实际η支持未成。
 
 **必要原源续载已成**：[运输记录](notes/2026-11-16-required-original-source-intake.md)与H归档保所有SHA；43826442405/R799+R801、43827207676/R800+R827均保必要源。原身份/manifest及R827 failure124/no-FINAL不改，新消费者只读复用。
 
-**R877单A原源实际已到**：[原源契约](notes/R877-original-single-A-source-intake-activation.md)，run43831246621/job133176926303/source7789431a success，artifact14209030975/72467824B/8f4b5cc9（Nov17 08:27）。R827 B/旧逆、R842旧S5、R849小DAG及Bnormal逐spec绑定的1234原R787行全到；四tar f8cb9665/b9152b53/6eeba209/9ec69157。只新A右端待算，旧B/矩阵/逆不重。
+**R877单A消费者已激活**：[方法](notes/R877-original-canonical-A-single-normal-RHS-method.md)/[激活](notes/R877-original-canonical-A-normal-input-activation.md)。corea40ed5b1/wrappera574bd4f，唯一新F69·A右端、旧1234逆与全部1380行乘回，原branch0/free1186及82^10一次保留。源run43831246621/job133176926303/source7789431a success；artifact14209030975/8f4b5cc9（Nov17 08:27），1270原件含1234行、旧S5/B/DAG全在。实际数学run待发布后回填，未报A已成。七同ζ分支/五Lj128或144/height仍缺。
 
 **R876九范数原Hecke理想路线已证**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)。原M_j=L_j(254P0)真无基点二截面，九个8次域范数完整生成Nm_p(q*M_j)，含非étale/剩余次数；共同M0取消移动，再真dual7运输冻结Nm_q(p*)与P0刚性化。三完整z纤维816×836的672minor认证无基点；一次目标271右端solve/全272关系复用全部方向。128截面/九理想/实际支持未算，模零不判inactive。
 

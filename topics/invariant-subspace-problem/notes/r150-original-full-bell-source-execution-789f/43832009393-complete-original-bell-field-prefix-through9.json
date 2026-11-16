@@ -1,0 +1,63 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43832009393",
+  "stepId": "complete-original-bell-field-prefix-through9",
+  "executionSourceCommit": "afe6f63e6c5db215ce235875f095be556135820f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+  "scriptSHA256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d",
+  "argvTemplate": [
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-full-bell-homogeneous-source-prefix",
+    "--singular",
+    "Singular",
+    "--through",
+    "field",
+    "--through-degree",
+    "9",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 75,
+  "wallSeconds": 598.466838265,
+  "fullTemporaryReceiptBytes": 11655,
+  "fullTemporaryReceiptSHA256": "213ba7ff6edce6f4f78363d07e906149f303f81f325bc30be479a5177812e978",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 08:32:33 UTC",
+      "beforeReadCommit": "494cc311a431553e61ad44202985e2737c6e92a2",
+      "originMainAfterPull": "afe6f63e6c5db215ce235875f095be556135820f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 08:42:33 UTC",
+      "beforeReadCommit": "afe6f63e6c5db215ce235875f095be556135820f",
+      "originMainAfterPull": "2d165fca4969e1674ade02a9315041593f1c14c5",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "ab5fc1ccf8aa5d50eda68ac775be4cc68b6941b504a705e86b9e230f7f3f04c9",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "2d165fca4969e1674ade02a9315041593f1c14c5",
+  "summaryExcludesRecomputableArraysOnly": false
+}

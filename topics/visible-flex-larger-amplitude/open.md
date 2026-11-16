@@ -8,21 +8,19 @@
 
 仅$M96/N1024/\mathrm{scalar}=.99$开放前缀接受；完整非零112/338/450仍无。原$M112/T112/N2048$、699×453/236036、三active+109core、338/112、两mean及完整H/J/FD/RMS/域/BC/merit/final fresh J+audit全部保。每模型fresh W/J，不跨模型相减merit；未返call或未访后缀不补拒。
 
-本节压缩前全部原文逐字保在[6dc0dd1e时open](https://github.com/Rogerhu12/math-research-public/blob/6dc0dd1efca5447ae251c5e1f630503f1d16c32a/topics/visible-flex-larger-amplitude/open.md)，包括其全部更早检查点、固定参数/原词、来源、失败/未返/未访、预算和清理；当前仅去重复，责任不撤。§4–6逐字保。
+本节压缩前全部原文逐字保在[e3abaf73时open](https://github.com/Rogerhu12/math-research-public/blob/e3abaf736edc8d2fe2f96988b3f0d42355ca1e8a/topics/visible-flex-larger-amplitude/open.md)，其6dc0/f863与全部更早检查点继续保全部参数/原词、来源、失败/未返/未访、预算和清理；责任不撤。§4–6逐字保。
 
-[R446实际204](results/R446-actual204-complete-four-components-and-necessary-readback-overflow.md)完整128原容差、fresh全词replay与四postowner程序已执行；111829必要超90K只795B错误回传，详细极值/逐trial未读且cleanup skip，不能从SHA恢复。原64受控无正常response，外fullDN未起。215独立从真91再生全原四科学/94pins+R485reader95，19200原钟/全部门保；R486/amplitude唯一终态。其stage_columns0是旧owner诊断，不撤真实postowner224列责任。
+[R446实际204](results/R446-actual204-complete-four-components-and-necessary-readback-overflow.md)已执行完整128/replay/四组件，111829必要超90K只795B错误返，正文未读/cleanup skip，原64无正常response/fullDN。215按真91 fresh再生，19200单钟、全部原门和224postowner列不减，amplitude唯一R486。
 
-[R491](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)明确原338×112混合J是原合同，不添全解析门；内层只取前M不许删完整payload。已刊[R493](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)要求每个真实H独立evaluate/R273→128 owner/replay/四组件，13scalar真正128 raw/hex一次ties-to-even投影64、保负零/原严格容差/双mean，显式调用不沿旧378覆盖J。真实完整prefix父沿7ba的actual63＋accepted96/原port，91仅尾初猜，原320min/350minjob不套连续C216钟；normal live source/worker/fullDN真消费仍在完成。
+[R491](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)/[R493](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)要求每个真实H完整evaluate/R273→128 owner/replay/四组件→原混合338×112 response；13scalar raw/hex一次RN-even64、负零/双mean/双方原严格阈值保。真完整prefix父为7ba实际actual63＋accepted96/原port，91仅尾初猜；不沿旧378覆盖J，不加全解析门。219具体实现与实际运行状态见本次登记和HANDOFF。
 
-R465/466/471/474只付各自明确实际有限输入/原fallback的局部语义，不冒IEEE导数、whole-run词同或速度。210在native前缺lifted_modes_response；211按真实HERE补递归闭包，原六词/λ=.001/18000/112/224方向/338J/全FD/fullDN/audit不变，R475/amplitude唯一。不要把这个finite-root-trace链与当前C captured-product链混用。
+R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导数、whole-run词同或速度。211补210真实HERE递归缺件，保原六词/λ=.001/18000/112/224方向/338J/fullFD/fullDN/final audit；finite-root-trace与当前C captured-product链不混，R475/amplitude唯一。
 
-[R455实际206](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)八组39/freshFD与24trial仅计数，119344/119694单份超90K正文未返、末pair已失。[R480实际213](results/R480-actual213-eight-original39-pairs-and-necessary-readback-overflow.md)已从原98真再生八批39；16子程exit0与八next_actual_parent_pair_retained=true结合唯一eligible控制流，确认八个原新warm接受/完整pair校验及fresh FD门/当次warm身份，非仅看step状态。原八档39/17α/10500/1200/600/90/30/4096与全门保；trial计数4/3/4/3/3/2/2/3共24。R479表示下whole115134/3b27adee、recovery115484/72ae354a均超90000而70，完整正文未返；各trial值/失败query/FD误差/末pair不由gate或SHA补。批次大payload先按原必要记录持久化后退，最终quiet后cleanup明确skip，末pair未跨run保留。当前H/native/fullDN未调用；不盲目追加八批重算或扩大/分包90K，live128主线继续。
+[R455/206](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)/[R480/213](results/R480-actual213-eight-original39-pairs-and-necessary-readback-overflow.md)完整原八档39/freshFD及实际交接范围已刊；213八真实warm接受由唯一eligible事件加固定源码确认，非exit0独证，24trial只计数。原10500/1200/600/90/30/4096与17α保；whole115134/recovery115484仍单90K超70，具体trial/错误/末pair正文未返，最终cleanup skip，当前H/native/fullDN未起。不盲目重跑八批、扩大或分包90K，不从SHA造父。
 
-[R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)/[接口](notes/2026-11-16-current-C-three-level-zero-eliding-native-interface.md)49独立source views以正式216为基线，实际将R494/R474接三层captured205b runtime，真实新/祖先noJ receipt分列，九计数/未返地址保；sampler/三worker/client/config/driver、union CP及完整几何材料消费者真接。samefar按实际legacy SHA选匹配hook，修源码断口不归因未运行之失败、原FD不跳过。普通plan77274/e1bef含166literal/445应用，旧33先实际生成；49展开源不入Git。未执行/无提速或接受承诺。218须完成R498完整临时账表示及真实消费者、R499单90K必要读回、公开workflow_dispatch入口；原全部科学、唯一18900+2700钟和32GiB门不减。
+[R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)49原view接三captured205b/R494/R474和九统计/fallback，samefar匹配真实legacy；[R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)保完整far账stored/decoded与所有消费者，原32GiB/绝对钟保；[R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)完整原选择的可逆可读语义表/原owner/单90K/错误/marker保，不保证fit。218已完成来源组合但在当前union owner字典SyntaxError停于科学前，完整[R507](results/R507-actual218-source-binding-stop-before-science.md)见下；220须独立修当前unpack与全真实来源，旧错误字节仅历史身份，不能冒语法过。
 
-[R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)/[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)完整新reader17117/b42e80eb已成：先按原6000/600b选择出全部必要规则/资源，再用明确列名、原恒true字段和README原词对形成可读语义表；逐分支显式逆恢复原selected对象与原canonical，未知/不合格行整行原样保，错误/遗漏/完整性不删。UTF-8直写只缩JSON非ASCII转义，不改数值/负零/错误全文；原run/source/owner/quiet、单90000B超70、完整marker与清理条件保持。新source/祖先身份明确，表格可能仍超限，不恢复212已失94138正文。冻结reader仍绑定原f779 owner，218须新真实owner来源view并把composition必要读回拆独立always步骤；这是实际接线，不加科学门。
-
-[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)/[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)明确下一独立初点：原202十词按R449真实投影后，仅p3/theta3/eta3指定+0，另七投影词保；新点/metric不继承旧域/J/接受。R478已回中心反证与R449-C说明原三active p不能修固定theta3中心，不能由此伪造实际数值RHS失败。三个零使整个准确coast为原仿射基底，在原全族正端值/0<κ<1条件下完整半径/速度合法，原两端零二jet/非coast表达式保；其它全域/数值初猜/完整BVP/几何仍另付。第一phase p3初始0但仍active，theta3/eta3才固定0；真正453接受后全末十词再冻结450。gen/plan三个独立preview保所有原门/32GiB/7200共享与绝对钟，candidate/driver/launcher schema真实相配，未执行不冒可接受父。未来220须对218真实zero-linear/gzip来源完整级联并消费全10新candidate_rows/新R503帧，预览不冒其最终SHA；不改冻结218或运行入口，不加中心/domain前门。
+[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)下一独立初点：原202/R449投影后仅p3/theta3/eta3显式+0、另七词保；新点/new g不继承旧域/J/接受。R478中心反证与R449-C说明固定theta3的原三active p不能修中心，不冒数值RHS实测失败。三个零使整个准确coast回原仿射基底，在原全族正端值/0<κ<1条件下半径/速度合法，两端零二jet/非coast表达式保；其余全域/初猜/BVP/几何另付。p3仍active、theta3/eta3固定0，真实453接受后全末十词再冻结450；原FD/fullDN/7200共享/32GiB/绝对钟保。220以218真来源接完整candidate_rows/新帧和当前owner修复，preview不冒最终SHA，不改218，不添center/domain门。
 
 ## 2. 准确十族候选与完整453→450
 
@@ -69,6 +67,9 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 
 [R507实际218](results/R507-actual218-source-binding-stop-before-science.md)18208/5f33d330已完整：run43830433500/source0f101b69，compute133174205129/report133174986936各终志唯一。五层133view/405组合身份成功，但原全来源语法循环在当前77279/57beb568 union owner第119行遇普通项后裸字典推导式SyntaxError；R496旧77205/f6b48文本同结构，不能据此给其他run倒填原因。正式dispatch/refinement副本未提交，后续FileNotFound不是数学反证；C485B只是null未启动，R4994468B只两真实资源条目完整，临时composition79007B只回身份不冒逐值读。真正owner quiet不补缺读回；cleanup步骤success而正文明确skip，无C/far/gzip/native/453/450/metric等科学结果。220须独立修当前owner为dict unpack并完整级联，旧错误owner可保历史字节身份但不得冒当前语法通过；原全部科学/预算/32GiB不减，R503新点与生成修复都仍须实际执行。
+
+
+[R501](results/R501-live128-original-full112-same-call-executable-composition.md)/[219完整接口](notes/2026-11-16-request219-live128-original-full112-interface.md)已完成实际可执行组合：16新源376388B，334完整pin，request52615/1c940011、workflow13262/a32461ef；原actual63全453未接受warm＋accepted96/原port，91仅尾初猜，source_root真实topic/repro/source-root。每当前H完整withJ/十数组/R273、同call128 owner/replay/全224/226 stage/112boundary/混合338×112/audit，13/9scalar与全数组一次准确RN-even64/负零/两mean，normal JSON原文交原1cdf solve。原2×10仿射FD各3层/2Richardson/收缩、原fullDN全部outer/17trial/RMS1e−6/BC1e−11/末fresh audit保持；有限接受仍不补闭面/全t/reach/幅度。原350/320min/19200同钟，恢复后先规则再native、所有call共享剩余；64GiB容量计划与2GiB资源止不保证18call完成。原3b8显式当前README baseline，三own session真quiet；单90K完整必要/错误/未付，超70不拆不清。源完整即发表并官方dispatch；R502/exact唯一实际终态，不由source/组件/正常协议或FD预填fullDN成功。
 
 ## 4. 同一g闭合与真正九冻结450
 

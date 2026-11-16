@@ -48,7 +48,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 |R787原函数570后|43827877594 / 133165978118|38abf72112113bcd39d41ad68dbb301518040e5f|实际原数学步，120min/core93d3d72b/wrapper42157e0d|
 |R824原27+244从596后|43828509061 / 133167910211|9829a0385c61e9262c6038a365bc3de1c26015d2|实际原数学步，300min/core1ece3cf4/wrapperc5907739|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|300min/core80516ff9/wrapperab725da0，原数学继续|
-|R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|旧N56退出；N112同核续接已提交，真实响应仍待证|
+|R854原41四响应N112|43832705685 / 133181715849|2ee14751d7b2cb4403931886b587ca6f64138c73|同核新工作精度实际运算，仍未有响应球|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|已由370及371正残差进入七支续接，300min|
 
 **R787真实570**：[同核续接](notes/R787-570-digit-checkpoint-and-same-core-continuation.md)。intake43826442405已读manifest430709B/20d5e10f（1262项）、history133262B/00c503b1的570条与compaction3b70bf85一致。最新lift80520179B/d97acf14；原carrier123713383B/2f4371c9。原artifact14204698566/1c044998（Nov17 07:20到期）。core93d3d72b/wrapper42157e0d不变；不重545以前、旧518全56格。小件Range不冒大lift重哈希；公开续接须读真实完整lift。
@@ -69,11 +69,11 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **R864/866/865/R870**：原127核、真H/J/逆、cY/Q-fixed基even54odd73、真T7全部560×127及16无重谱均闭，旧算术不重。R870[正式c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)，run43822039811/sourceeb46ca01，20stage/0.579488830s；N0=χ7(8)、16ni、1959位共同d*/80输入已成，finalbe29c872/artifact14205027300/723ec402、42源carrier6a9d22de。原ξj∈JY(Q)，含7-primary的挠判保留；合法好约化处niPiξj真非零⇒Eiηj活跃，模零未定。实际η支持/eη/主函数/nonp未算。
 
-**R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)与[消费者](notes/R873-original-cyclic-seven-correspondence-activation.md)。原8H+4E/2058、110阶、真P与靶K/P′、dual交换/c0c1/−3保真。首run43830067416/job133175720690/sourcea07453ec已读4960原件，carrier344533352B/73069a32、artifact14207709262/6ed2434e；0stage因误读R775选基窗口273而停，trace line356已核；[准确修复](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)core3c4922ee/wrapper033a8cac，改核273与原max_exponent_qY≥763，旧finite全比较保留，复用carrier续接。17系数/实际η支持仍未成。
+**R873原循环7正在实际续算**：[纸证](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)保原8H+4E/2058、110阶、真P及K/P′、dual/c0c1/−3。修复后run43832703159/job133181675900/source2ee14751已进原数学；core3c4922ee/wrapper033a8cac，仅改R775窗口273与原max_exponent≥763核对，196..763全比较保留。首跑4960原件carrier73069a32/artifact14207709262直接续用；完整失败及修复见[修复记录](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)。17系数/实际η支持未成。
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)记两次纯IO。首43826442405/source5a21f9d9/artifact14206388855/42a3155f保R7992050原V8 tar175356258/df08e833和R801同2050 q109 tar152592418/e9595cc2；补43827207676/sourceee98d42e/artifact14207385683/67ea4155成功保R80082E1+四M2/旧carrier tar7217285/113be338与R827七原件tar10114176/d5a5641a。包内original/，原身份/meta/manifest逐字保；R827原exit124/no-final不造成功，真实ζ根549966761匹配R868旧逆。小metadata run43827843962已真读current与596历史，complete/target/full lift spec完全相同；同核requestba760988只改resume。不重606历史或数学。
 
-**R877单A原源实际已到**：[原源契约](notes/R877-original-single-A-source-intake-activation.md)，run43831246621/job133176926303/source7789431a success，artifact14209030975/72467824B/8f4b5cc9（Nov17 08:27）。R827 B/旧逆、R842旧S5、R849小DAG及Bnormal逐spec绑定的1234原R787行全到；四tar f8cb9665/b9152b53/6eeba209/9ec69157。只新A右端待算，旧B/矩阵/逆不重。
+**R877单A消费者已激活**：[方法](notes/R877-original-canonical-A-single-normal-RHS-method.md)/[激活](notes/R877-original-canonical-A-normal-input-activation.md)。corea40ed5b1/wrappera574bd4f，唯一新F69·A右端、旧1234逆与全部1380行乘回，原branch0/free1186及82^10一次保留。源run43831246621/job133176926303/source7789431a success；artifact14209030975/8f4b5cc9（Nov17 08:27），1270原件含1234行、旧S5/B/DAG全在。实际数学run待发布后回填，未报A已成。七同ζ分支/五Lj128或144/height仍缺。
 
 **R876九范数原Hecke理想路线已证**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)。原M_j=L_j(254P0)真无基点二截面，九个8次域范数完整生成Nm_p(q*M_j)，含非étale/剩余次数；共同M0取消移动，再真dual7运输冻结Nm_q(p*)与P0刚性化。三完整z纤维816×836的672minor认证无基点；一次目标271右端solve/全272关系复用全部方向。128截面/九理想/实际支持未算，模零不判inactive。
 

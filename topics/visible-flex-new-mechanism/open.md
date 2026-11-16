@@ -172,3 +172,11 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 2026-11-16 08:33:00 UTC — R487 真log曲率提升与固定全端germ的五门下降
 
 [R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)把R481任一紧δU=φ准确提升为gφ=((2/3)p^(−1/3)φ′)″/ρ，原同锚恢复给δU=φ、端数据一阶0。三真normal核1/−t/K且K″=3√v/2>0，五+三可逆block通过有限IFT保整个右germ/左germ和正ρ，准确实现F→(1−ε)F；一般normal的端势与全部归一敏感度保留。当前15预选正bump并未获这个满秩收据；盒内精确非零驻点必有模型外允许下降，边界或浮点optimality不作该断言。无统一步长/有限全局零结论。0执行/旧重算，下一可消费首次真实cap的新适配方向，主几何未完成。
+
+### 2026-11-16 08:38:20 UTC — 接受54的新原约束模型与新行交换首入口
+
+[设计](notes/true54-fresh-original-model-exchange-design-20261116.md)保同g/b0/159→163/reference/guard/14门。在真正54只付必要hard-model两普通值、两selected-J和两firstjet上下文；原CACHE2缺positions/curvature/二jet，仅读为来源、不混基线。19旧标签在54刷新/与新池J去重；全部原硬/软行动态完整装入，最多32严格新矩阵/32双网分离/147新行、3072iter/6144系统。末方向原legal-line1/64，再最多3actualpair/6值；任何新接受才是55。新600秒从imports前含输入/失败/输出；祖先1877.294171609秒/130值原样带入，53全部task已闭不回开。源码文本未本地执行/编译/测试；public Actions唯一首跑，0旧checks/开发。原stdout112MiB/只读report128MiB读取上界，payload不进Git。仍欠主完成门，继续open。
+
+### 2026-11-16 08:42:28 UTC — R489 排真实单曲率集中及两个分离质量窗
+
+[R489](results/R489-no-single-curvature-concentration-for-the-five-cap-conditions.md)在p*=r*=1归一保ν=v″dt质量2/3与一次矩1，有界H尾一次矩一致可积；单原子只能(2/3)δ−3/2。η=v(−3/2)=||v−vcrit||∞=W1/3，并得r差L1≤6η；完整十二L/八Aj含真实远左C偏置给|Aj−Ajcritical-offset(H)|≤Kj(M)η^((j+2)/9)。原E的端势同端相消，R485全部C≥0非零和R483大H界遂付统一η*>0：任何真五门零必须η>η*，而且两个固定分离区间各有正曲率质量。此结论不把质量当点态正窗或五控制统一逆，也未排两簇/线性v/其它边界；0新执行，继续真实全零或新边界，主完成未付。
