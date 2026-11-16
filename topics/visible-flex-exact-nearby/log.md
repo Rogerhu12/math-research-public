@@ -420,3 +420,7 @@ main 8617e13f488c64795b96b0b569a7b8f03733f0bb 两README未变。045ac035同H9883
 ## 2026-11-16 07:45:52 UTC — 定时真实pull请求
 
 仅在已审rules-only workflow加请求注释，触发公开仓库自身Actions的真git pull --rebase和两README差异核。无科学child/旧成功重跑；尚未取得回执，不把APIref充作pull。6c3c3eadc4dd46dcfa183c73847f25a55035213f两README blob与已读版本相同。
+
+## 2026-11-16 07:51:38 UTC — 真实pull 43826099623/1完整回执
+
+公开自身rules-only Actions全5步success；07:46:04.055479启动、07:46:04.469750完成 git pull --rebase origin main，before/after均fb33e5e95e502f4c028c3201cd582376a6c22785。两README差异为空（SHAe3b0c442…），root独立核当前两blob仍21bd547f/7e2b93d6，未假称新规已读。完整小回执 notes/actual-public-rules-pull.md /3cc88def4c6bc90d38e7f6ce61f0106590a3e2cd。0科学/0旧重算。下次真pull≤08:46:04；本次只读README核a8959238bf4a4889a652e21b5da5a2dd718eaa09。
