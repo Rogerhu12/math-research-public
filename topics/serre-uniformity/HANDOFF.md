@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：71b2eb5b59e437fe9d2f201bf51301c6edc62740**（2026-11-16T15:25:42.917833+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。R901另一次真pull c2359e514c58df71f6fa74012a62f3d6aad9471d/15:10:22.721057UTC也已读、两SHA不变。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：795295ce36e139df60be65c1c5c71ed683b98a95**（2026-11-16T15:29:01.149991+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。R901另一次真pull c2359e514c58df71f6fa74012a62f3d6aad9471d/15:10:22.721057UTC也已读、两SHA不变。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -12,7 +12,7 @@
 
 |任务|实际run / job|状态和原对象|
 |---|---|---|
-|R787 primal|43846878233 / 133229330888|fe3da6c7，15:17:39实际exit124/completefalse；art14237434353/85bb4732。真manifest确认最新670；续请求只补严格IO分支|
+|R787 primal670后|新request待实际run；父43846878233 / 133229330888|真670/f756e254/8c9052ec，core93d3d72b不变；wrapperdff10f45仅缺receipt严格IO分支|
 |R824原27+244从693后|43877576209 / 133334539270|7e0e27d9，同core1ece3cf4/wrapperc5907739；原current761b228c/liftf8972f29|
 |R854原41 N112续|43880489423 / 133344905148|20984736，同核从旧1041stage续，四球未成|
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
@@ -20,7 +20,7 @@
 |R901固定126树|43893483097 / 133390762003|dbfb172d，实际compute进行中，core2cacb66f/wrapperc2aad47b不变|
 |R905七连接|43893738459 / 133391640404|f4589d2b，实际complete=true/87stage；正独立读取七证书，尚未正式登记认证|
 
-R787 primal核93d3d72b/wrapper42157e0d：v23确认timeout无core receipt/完整670/manifestf756e254及旧history保留。IO43895402826真pull1c20b804/15:21:19UTC两README不变已读。所有续算不重旧位/行；完整pins沿前态。[N112](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)完整112/末profile63输入49rank7，cfg22776712不变，四球与R858两源未成；full2560/free1186/ZP正号/t-u双条件/全tail/Trace14/2/cχ保留。[半dual541](notes/R787-half-coordinate-dual-541-checkpoint-and-same-core-continuation.md)1481源/542正残差，A.1须35840原Theta/Delta；R824 free1187不混。R815准确g696prime/20809bit及全272/17块已成，Γ继续。
+[R787原670同核续](notes/R787-original-power5-670-outer-timeout-continuation.md)：原wrapper42157e0d→dff10f45只容许失败exit124/null coreSHA/无trueFINAL的缺receipt来源；新请求直接原art14237434353，不取metadata小包冒lift。v23确认timeout无core receipt/完整670/manifestf756e254及旧history保留。IO43895402826真pull1c20b804/15:21:19UTC两README不变已读。所有续算不重旧位/行；完整pins沿前态。[N112](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)完整112/末profile63输入49rank7，cfg22776712不变，四球与R858两源未成；full2560/free1186/ZP正号/t-u双条件/全tail/Trace14/2/cχ保留。[半dual541](notes/R787-half-coordinate-dual-541-checkpoint-and-same-core-continuation.md)1481源/542正残差，A.1须35840原Theta/Delta；R824 free1187不混。R815准确g696prime/20809bit及全272/17块已成，Γ继续。
 
 ## 原Y已成来源，禁止重做
 
