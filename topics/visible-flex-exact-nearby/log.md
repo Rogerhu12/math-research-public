@@ -316,3 +316,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 05:51:52 UTC — WPC/WCE唯一新正标量图与公开Actions接线
 
 冻结SCI1dfbb387、workerf1f0a98e、manifest11389e0b和完整预算59f84d2a：10current/2AST/5旧success只读，42原界+3资格/5完整scope，7graph/38fields/22门/18progress/90slots含复制。各图先atomic、全stdout先size门、old0/history0；容量fresh bb91e616为199382380B，四新topic文件187540B，留足150KB。两README在8eeab7e4d19081f47053c89e084734adefdcb82e同原blob；该新workflow提交触发唯一child，尚无新结果或whole逆声称。
+
+## 2026-11-16 05:52:29 UTC — 唯一WPC/WCE公开执行身份
+
+公开新run43812987299/1、event feebf07a4514fb317a3360f5ff057dc3362b0ad9已in_progress；此处仅原身份/状态，无重跑与新数学声称。等待其完整atomic科学/执行小件再核，两README3e31c9735b5ecf85948b4447782a5e0062e32167不变。
