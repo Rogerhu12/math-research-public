@@ -39,3 +39,5 @@
 - [R867附录C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原Cv到Y′²+vY′=X′³−7v²的两条显式对偶3同源、微分1/3及全部9/27常数已付。Ψ=φΞ0/3有度数degΞ0/3，但最小分母仅n0|nΨ|3n0，整性未定；同M_k完整新证书成功后以dual直接返回nΞ0。Petersson规范为原指数3672与目标实际面积，选unit可仅用|Gj|²Nj比。
 
 - [R864附录A](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：原e=18−7a与η=324+126a+49a²整互逆，η²=−av，故同一目标小参数v_sm=e³v=7−18a²/17满足x³−21x²+147x+1/17。显式整单位同构保原n/次数/全部Artin，微分变ηHi；形式参数(nη)³v_sm=n³v不变，不假称度数或germ改善。
+
+- [R865附录A](results/R865-actual-high-axis-product-and-first-divided-row.md)：同一原有限L1准确为q_p(2)/3−3q_p(3)/4+1/3 modp，完整Rflat/a=1−q2/3+3q3/4。两binomial/cubic-unit谐和式及六分之一截断自含证明付全常数；h1和四中央下同Qc规范同步。未证该Fermat商组合无穷非零，更高谐和位/原三残差/同P/R/S全部保。
