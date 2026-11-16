@@ -204,8 +204,10 @@ R432原18维Z的cτ0恰5维，a=p²/Af/xAf+2pr/x²Af+4xpr−4p²/x³Af+6x²pr−
 
 现在对同一真实cap目标使用七关系与所有实际suffix，再与R435/R436 self列同控。原条件−P(V)∈P(R0)及全kerJ像包含仍用于同一实际有限词的全部prototype/J基准；本144模块结论不扩全R0。全部内点付后真period/gap平台值/同13规范仍继续。
 
-### R433：actual全ordered零值与完整local current接口
+### R433/R439：actual全ordered零值与真实全点对角商
 
-[R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)将O_all=[s³t²]Λ_(su+tv)加入同一J⁺，不加辅助self。R344/R352已证全R自然0，故全部原E响应补偿也杀O；完整局部/零的Q4、n2及关键−6/−4 static/hh/kk使原六权正字符排除逐项提升，同一有限C1真词及两次商基准完整保留。共同合法窗口仍为实施前提；H*在新核且λ1，未构造不可能的Λall0。
+R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与Klein背景；全部R自然零不被扩成actual Λall0。E/O0下完整local current13=7p-only+6含u代表，三真实suffix共享同一系数。
 
-actual E/O0后，R405原L+ΣmJ的完整pU″有局部K，六C² cubic系数与六ODE准确等价。Af处K/4是u³、up²、upr、ur²、p³、p²r、pr²七项；显式x次数0/2/3/4/3/4/5。形式空间13=R432七个p-only+六个含u代表，三suffix给至多18个准确剩余系数，非真实秩。R434已付该144模块完整像32=21+11及七条关系，直接消费原证书；self cap、实际全点/全部13同规范另继续。
+[R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。整个实际C目标可由该模块同一signed成本消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解，尚未计算该真商维数。
+
+D的原路径式是∫[kQβ_n/(4h)+kQ²τ_n/(16h³)]ds后代n=(1,x,x²)，β原起点及全部history、连接段/周期端值保留；未证actual E/O使D0、恒号或可调。实际增强仍须支付同一prototype/J基准，不从signed像授截面。原允许w不改这些Af点门；P2的两个特解兼容另独立。下一真D、Eval余商/144外响应，以及同包self/全period/同一规范。
