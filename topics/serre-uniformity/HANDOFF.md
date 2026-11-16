@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f6dd10290eeb483ba2a72d4c01925d3574aaad5c**（2026-11-16T06:13:47.933226+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[真Q下降激活前H](handoff-archive-2026-11-16-before-holomorphic-descent-activation.md)（9685B/fe03a4e6），内接全部归档，旧结论/规范/限制继续生效。open归档notes/2026-11-16-open-before-original-Rosati-projector.md。
+**已读规则提交：a655016374483e0f82612ab761513697ba09a732**（2026-11-16T06:18:09.110561+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[Drinfeld de Rham结果前H](handoff-archive-2026-11-16-before-Drinfeld-de-Rham-result.md)（9696B/7fb4b381），内接全部归档，旧结论/规范/限制继续生效。open归档notes/2026-11-16-open-before-original-Rosati-projector.md。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,9 +31,7 @@ R824[501](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artif
 
 原R835/R837/R838理想、R842两图2451/415/395、R845八V11/full1380、R840响应表达、R841/R843/R844/R846点/非挠/733jet已成，不重。R847辅助ℓ五jet非零不代41。R849/R848/R850全局DAG/六M与Trace/五κd/五刚性化纤维已成；R850 artifact14194427829/b466d4c1保395MB全局源及270点叶，cχ/period/完整height未成。
 
-**R852**：五C原14坐标/Q秩5，839节点保733，新逆/点加0，D原DAG；artifact14196442913/01ae4657至Nov17 04:02，9件载体44d40476保270叶。
-**R853**：cτ=τ/cσ=e1−e73/cw=w，全560×3已成，原6724保；artifact14197275258/807c974b至Nov17 04:05。旧载体W34/R805仅规格，不代真字节。
-**R856**：两图pivot0、点余长1/Cusp+P0余长21、各272列完整基；artifact14198217155/125c93ef至Nov17 04:43，569源载体fd6329bd。理论e2f61908给L上I_E=mP0 C^-2(f³,(δf)³,(δ²f)³)；实际B/导数/RR/η未成。
+**已成直接前源**：R852五C/Q秩5、839节点保733，artifact14196442913/01ae4657，270叶carrier44d40476；R853三个原共轭全560×3成，artifact14197275258/807c974b，169原件carriere17c356b。R856两图点/尖点+P0完整272基，余长1/21，artifact14198217155/125c93ef，569原件carrierfd6329bd。理论e2f61908的I_E=mP0 C^-2(f³,(δf)³,(δ²f)³)仍需实际f/导数/RR。全部完整SHA/原规范在上述归档及正式结果。
 
 **R854**：[记录](notes/R854-original-p41-response-solver-activation.md)；core1feb579a/helperfa545b18/wrapperf6b97a7d，同2420/free1186/全2560原行。整化92cb6ec5与全行ab970169保S_m/左逆界/完整残差及两种分母，才能认实际四响应。所有同tag原行变换/Dixon位/残差续载；保1645叶+20元数据。实际精度/B0单位/A.1不预设。
 
@@ -43,7 +41,7 @@ R824[501](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artif
 
 **R864实际127基已成**：[正式结果](results/R864-certified-original-canonical-holomorphic-basis.md)；run43813041008/source3e31c973，1.090806223s/40stage，rank19、原0..18非零minor、自由行19..145 identity与两图20×127全核。final54583705/kernelb36915cb/basis7f2ee6a0/config670acc38。artifact14201401009/d83abe95至Nov17 05:53，16源carrier523475B/80122621；root整ZIP/57产物实际SHA核。保σ图vf/e73加a1/ν82原尺度，非原Q固定基。
 
-**后继RR/Hecke**：FM a5d65aa4完整两图有限kernel；YP bdbb6cc5仍需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact续R868原Y实际RR，ordinary续R865原T7；R866供同一560×127H和127逆。原e_i已含82²，H不得再缩放，微分coeff恰82H；R866纸证[真Q下降](notes/R866-original-holomorphic-semilinear-action-and-Q-fixed-basis.md)0ecc3760：C=Q^-1S_JQ、全HC=SH与C²=I；P=Q^-1diag(1或1/s)给完整Q固定基并全560检查。只新127块，保原尺度/ξ固定+s共轭/e73负转换。[R866激活](notes/R866-original-holomorphic-descent-activation.md)：core2b8aa7c1/wrapper70749054/request510668d4/60min，178原源闭合。首run43814823286因pip行冒号导致YAML解析失败，jobs=[]/未做数学；workflow5fc6cc63仅改块标量后再触发。
+**后继RR/Hecke**：FM a5d65aa4两图有限kernel；YP bdbb6cc5还需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N/nonp。exact续R868实际原Y RR，ordinary续R865原T7；后者真双陪集/σ6和σ7已证并读原文，共用R866的H/J/127逆。R866方法0ecc3760保原e_i含82²、H直接F系数、微分82H、c0固定ξ/共轭s/e73一次负项；真run43815338283/job133126104764/source6373b025已success，artifact14202411654/007b72c8的实际矩阵/证书正IO读取。首run43814823286仅YAML冒号无job，已修workflow5fc6cc63/request510668d4，不重数学。
 
 ## 真正全p及原高度缺口
 
@@ -51,7 +49,9 @@ R317余p2/5mod9完整非分裂正规化子，a³+db³1/p|b但D/bc无界；R707�
 
 R851 afe25117给充分大p原g单位；R855 efde3e02在p>104190883给同h增长高阶m的Abel单位，非固定m2/首height。R85734d9f444开深盘根数≤J不排正秩候选。旧R750全h/alljet实相位、R742 firstjet/depth7、R744某低firstjet闭depth4非center≤3、双标签543d03f8及R739/R741/R737异标签限制全继承，不拼单位。
 
-**R859/R861**：b8218a4b用原R390完整BT/稳定格给原目标到R728显式模型的实际prime-to-p同源、同h content/首余项运输。3461121b给原r0/α、r6=b/16、v真实投影、u=r/v单位；f_h=u v^(1−h)逆different全基，β_h=v^-hΩ_h、Néron指数(p−1)h和整参数v^-h c*Y_h。深盘G_h是真原q拉回，但M_h/首余项/Manin/KS及height仍未得。R863 fbac90d2已证原R592全Weyl与非split扩张U*=(Sym^(p+1)det^-1/W3)*准确对应；原CM torus全部μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，0≤k≤p−2，给π^(p−1)模下完整C(−log(1−π)Θ) cusp相位。只是原cusp，仍需坏模型专化与q-normal比较；sigma续R867真实Drinfeld de Rham源。
+**R859/R861**：b8218a4b用原R390完整BT/稳定格给原目标到R728显式模型的实际prime-to-p同源、同h content/首余项运输。3461121b给原r0/α、r6=b/16、v真实投影、u=r/v单位；f_h=u v^(1−h)逆different全基，β_h=v^-hΩ_h、Néron指数(p−1)h和整参数v^-h c*Y_h。深盘G_h是真原q拉回，但M_h/首余项/Manin/KS及height仍未得。R863 fbac90d2已证原R592全Weyl与非split扩张U*=(Sym^(p+1)det^-1/W3)*准确对应；原CM torus全部μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，0≤k≤p−2，给π^(p−1)模下完整C(−log(1−π)Θ) cusp相位。只是原cusp，仍需坏模型专化与q-normal比较；R867现已证真实Drinfeld de Rham源，见下一段。
+
+**R867已证**：[原de Rham扩张与Cartier像](results/R867-original-Drinfeld-de-Rham-extension-and-Cartan-Cartier-image.md)8610e41d。保v^p−v=cw^(p+1)实际c、原左有限型补偿u^−(p−1)(ug^-1)*；e_r对应[(v−r)^(p−2)w dw]，完整0→Sym^(p−3)det→H→1非split。原Cartan代表H(v)w dw、H=(v^p+v+1)/(v²+v+1)，conjugate-filtration Cartier给c^(-2/p)dv/w²，在两原CM点单位。仅local有限型；全局multiplicity/实际q拉回normal/height未成。sigma续R869原所有cusp整格及原tame/companion接缝。
 
 **R862实际整投影已成**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8；d_A=1596092727686814808731，原6次Norm/12全乘回/23node四stage已成。首run43812454495仅final命名失败；completion-only run43813805093/job133121204720/sourceaa45ec93成功，final41a58265、manifest14/85ebbce2，整ZIP及14产物已root核。artifact14201721469/1e820ead至Nov17 06:00；原17源carrier00db03fb。旧4656250c tag/four-stage/inventory字节全保，新dca646e3只finish；不重Hom/Gram/Norm。E_Aφ*=0，非YP eη/d/N或nonp。
 

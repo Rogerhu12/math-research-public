@@ -494,3 +494,9 @@
 - completion-only run43813805093/job133121204720/sourceaa45ec93 success，final41a58265、manifest14/85ebbce2；完整ZIP及14产物纯IO核，四旧stage/inventory/tag全原字节，0.002890824s仅收尾，不重原数学。
 - R866首run43814823286实际无job，定位YAML第101行pip冒号；只改run块标量，workflow5fc6cc63/request510668d4重新触发，core2b8aa7c1/wrapper70749054/178源均不变。R865真实双陪集/σ6,σ7方法已完整读，继续原T7。
 - 本push规则：本地真实pull至f6dd10290eeb483ba2a72d4c01925d3574aaad5c（2026-11-16T06:13:47.933226+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 14:18 Asia/Taipei — serre-public-astra-20261115
+- R867完整纸证8610e41d已成：原实际c/惯性det补偿给完整非split de Rham格，e_r准确对应二类Čech类；原Cartan代表的Cartier像为c^(-2/p)dv/w²，在两原CM点单位。
+- root读完整证明、原R376坐标/作用/CM段与EP primary式4/5/10/13；仅把§5 kernel范围澄清为scalar eigenspace H。未将局部代表/Cartier单位冒充原q-normal或global multiplicity，R869继续所有cusp原格接缝。
+- R862正式结果5eca1ff8已推6373b025。R866修YAML后的真run43815338283/job133126104764成功，实际5722522B artifact14202411654/007b72c8正在纯IO取回交R865。H完整归档后缩并旧已成来源，所有边界继承。
+- 本push规则：本地真实pull至a655016374483e0f82612ab761513697ba09a732（2026-11-16T06:18:09.110561+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

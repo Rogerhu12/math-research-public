@@ -146,3 +146,5 @@ E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相�
 **R866真实源消费者已激活**：[执行记录](notes/R866-original-holomorphic-descent-activation.md)，core2b8aa7c1/wrapper70749054/request8ae7299c/60min，178原件闭合。只新H/Q/准确逆/C/P并全560行乘回；R865共享同矩阵，原127核不重。实际run与数值待真实输出；R868接原Y亚纯RR。R862 completion-only真run43813805093已success，正式证书正读取。
 
 **R862真实算术与结尾全部闭合**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8。d_A=1596092727686814808731、6次Norm/原12阶全乘回/23node整对应已成；completion-only run43813805093成功，final41a58265、manifest14/85ebbce2，四旧stage和tag/字节未变。E_Aφ*=0，后继原Y活跃投影仍由R865及η实际投影处理，不重原Hom/Norm。R866首run43814823286实际jobs=[]：pip未引用冒号造成YAML错误；仅修块标量并更新request 510668d4再触发，数学未启动。
+
+**R867原Drinfeld完整de Rham扩张与Cartier像已证**：[结果](results/R867-original-Drinfeld-de-Rham-extension-and-Cartan-Cartier-image.md)8610e41d。实际c保留、原左右作用/惯性det补偿明确；e_r↦[(v−r)^(p−2)w dw]给原完整非split扩张，Cartan代表(v^p+v+1)/(v²+v+1)·w dw，真实conjugate-filtration Cartier为c^(-2/p)dv/w²，在两原CM lift单位。此local有限型同构未给全局multiplicity坐标或q的normal拉回；仍须原cusp格与nearby-fiber比较，sigma续R869。R866新run43815338283/source6373b025已success，实际产物正读后交R865，不重H/逆。
