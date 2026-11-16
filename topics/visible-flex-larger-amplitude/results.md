@@ -382,3 +382,8 @@
 ## R457 — 真实205及R456父的完整M来源与首材料登记
 
 **已证明（限来源组合及所列条件命题）**：[R457](results/R457-actual202-complete-M-source-and-first-material-registration.md)/[完整接口](notes/2026-11-16-actual202-complete-M-source-and-material-interface.md)六独立源已全diff/正文核后发布。owner23a3b218明确真205的56cb/227e/ee367及原deadline，也真认R456 1a1d/9d765/bf7d与b778/5f14/43ab父，并实际读原far/config/C/source全部来源。原395da M driver/18399 writer及全部数学源不改；其原callee已能读真bf7d，保R456配置未声明字段和父新mesh/角/steps，故不另复制driver。新M仍全deep/全Mfar/双mean/全$4M+2$/H/J/FD/fullDN/final/audit重算。post a177cd7a/held99634dcc真接R452 first112 A/B与全部构造词；首target按原112身份读，当前M准确目标另完整比较。material059d0df3只新增R437/R452首源，准确逆/六jet正文不变，默认未调用。单原钟/原门/90KB/quiet保持；没有实际M/父/运行/几何或公共材料查询接受。
+
+
+## R459 — 固定闭目标的完整误差与真实精化证据
+
+**已证明（限明确条件与源码实现）**：[R459](results/R459-fixed-closed-target-relative-error-and-refinement-evidence.md)/[完整接口](notes/2026-11-16-fixed-target-whole-metric-refinement-evidence-interface.md)及独立source62091B/494fea70已全读后发布。对同一首材料目标，以二维广义特征值的准确相对算子范数和向外有理平方根包围完整闭域误差，帽在同完整图定义下为零；准确共同相位同余与整角双射把基相位完整覆盖转至全$t$，不假设非轴对称帽或目标旋转不变。全部根/父界/未访/失败保留，另真实执行声明的nested t查询；只有完整域已界才给全域upper。相邻上界改善、严格真实sup下降、重叠未分辨分别报告，严格界分离只是充分证据，不新增接受门。原RMS/BC/native/FD/audit原样保，但没有误差转移定理时不冒metricfloor；原单90KB/70、同绝对钟/外层owned child保持，本源无cleanup。当前没有真实场误差、精化数值或标准5完成结论，后继207接实际调用。
