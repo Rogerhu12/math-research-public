@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R590（实际246，本次独立刊）**：[完整结论](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)。451源与原63/78/91恢复实际完成，原科学外层/rules/science均1，signal/stopnull，ownedquiet事件true；两终态log各由公开Actions一次读取，全10event及双描述返。完整source454913/be88aa4e及science150098/2d0cbfb4未返，分别1802/61b6f07b和1094/bf7997c5/70，cleanup removed=false。R589overflow分支固定source_preparation_complete=false不覆盖原prepare true，report success不覆盖双70。内层RootStats/H/J/FD/fullDN/error仍未知，不能推owner6000耗尽或数学失败；原246不重派，后继保具名完整同体关系与原90K。
+
 **R610（同一实际前缀锚/完整相对Gram消费者，独立刊）**：[证明](results/R610-actual-prefix-anchor-and-R601-relative-metric-transport.md)与[完整接口](notes/2026-11-16-actual-prefix-anchor-R601-metric-interface.md)，source31602/4b49ea2a。真实R553原retirement取得A(0)全cell交集、R596全首节点/core词与原rho正界，支付R514全模式锚；只消费一次已实际完成R601的B0/B1，同原完整覆盖/ledger下沿Lnum积分，再向外形成δ/q及相对Gram谱界。两mean、物理φ、μ、全部角/端点/反射保，原clock/接受/必要90000未改。仅条件源码结论，尚无实际run/数值常数；未来完整caller真实接线，common-first-material/full-phase和tail/collar/patch/caps/seams、闭面floor/精化/reach/held-image/全D仍未付。
 
 **R609（实际252，本次独立刊）**：见[完整结论](results/R609-actual252-source-bridge-guard-and-complete-necessary-overflow.md)。run43917735686/af893010的两终态各唯一读；原248454来源已逐值核过的控制流前缀与当前471未完成明确分开。R604桥同步返回后八项回执合取失败，具体子项/内层exit/异常未知；新十caller未入，当前reader缺失，输入恢复/原科学均未启动。完整source487426/f41a1094未返、同1626/8017fc1b描述70，raw removed=false且quiet未证。后继只按真实源和实际producer建立完整可逆必要关系，不猜487426内部、不改252冻结件、不重派已知坏链；原全部数学/资源/90000门继续。

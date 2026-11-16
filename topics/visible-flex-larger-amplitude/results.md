@@ -153,3 +153,5 @@
 - **R609**：[actual252 来源桥联合检查、完整必要超限与科学未启动](results/R609-actual252-source-bridge-guard-and-complete-necessary-overflow.md)：两实际终态唯一读取；原454前缀通过但新十caller未入；487426完整source未返，双job同1626/70，reader缺失/removed=false/quiet未知。
 
 - **R610**：[真实前缀入口锚与R601到完整相对Gram输运](results/R610-actual-prefix-anchor-and-R601-relative-metric-transport.md)，[调用接口](notes/2026-11-16-actual-prefix-anchor-R601-metric-interface.md)：同一原retirement/全模式/正分母/实际径向积分，原完整R601消费一次；条件证明，无实际新数值或闭面证书。
+
+- **R590**：[actual246 来源完成、原科学exit1与双必要超限](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)：451源/恢复true、外层quiet事件true；454913及150098完整正文未返、双70、removed=false；两原log各一次，内层原因未知。
