@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e742c2d57564645aa90cc2d2bc144fe615ae326e**（2026-11-16T01:07:04.506633+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R846前完整H](handoff-archive-2026-11-16-before-R846-certified.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：aac7107299507d3dc6de93a1f88cf53c6ae6594c**（2026-11-16T01:08:13.567848+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R846前完整H](handoff-archive-2026-11-16-before-R846-certified.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -55,3 +55,5 @@ R317仍余p2/5mod9完整非分裂正规化子、a³+db³1且p|b，D/bc无统一�
 sigma仍须同一primitive/Legendre可见h的三个原单位。R739/R741/R737不同标签不拼；R808/810有限Gram/Howe、unitary交叉heat、原八源/R830真conductor-p、R831/833/834源已闭。CR指定P0的S=αRp/1458仍未知；HC全留数及CN有限例外外全局Carβ≠0已成，不外推指定值或same-h。C^-5、Wronskian1−κU^pJ及原Fermat/Ωη相位保留。
 
 ordinary原p43/776bitq已Gaussian5排，不是反例；Shapiro/θ-lift同Σ、唯一Kglob/Θ=i a_q与C4/T²杯积只复R779，仍无独立Θ，不巨大q枚举。R729/816/818/819/821/823共同c1不分歧不代高度单位。sigma_uniform继续原同h整格/配对。
+
+**全p中央二标签窗口已证**：[原二标签](notes/2026-11-16-sigma-two-central-primitive-Legendre-labels.md)9560403b：p=12k+5≥41，h−=(p−3)/2、h+=(p+9)/2均自动primitive；原R734六步递推在d=(p−5)/2给U5=27x/8，若P_d(x)=0则P_(d+6)(x)=(12x/7)P_(d−1)(x)≠0。故两个原Legendre范数不全零，未证明同h的f_(k−1)g_k或f_k g_(k−1)与之同时单位；仅充分窗口，未替代全部标签或p11mod12。

@@ -138,3 +138,9 @@
 - finalb3569055/program555e3c6c/manifest07f58e44/config0b9025c1；artifact14189930390/16d214a1，261源carrier2d364825。完整2.17MB ZIP/12成员与全部父子来源纯IO读回；jet非零/A.1/展开/c0刚性化/eta-height仍false。
 - R806/W34、R809/C12、R787/F1234三份纯IO均结束；全局consumer只接真实旧源。H逐字归档后压缩所有已成摘要，完整结果、规则与已封边界保留；继续原全局极理想和无逆dual接受。
 - 本push规则：本地真实pull至e742c2d57564645aa90cc2d2bc144fe615ae326e（2026-11-16T01:07:04.506633+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:08 Asia/Taipei — serre-public-astra-20261115
+- 新纸证9560403b固定p=12k+5≥41的两个原标签h−=(p−3)/2、h+=(p+9)/2；2h−−(p+1)=−4、2h+−(p+1)=8且h皆奇，自动primitive，无p+1因子假设。
+- 原R734.7–.11在d=(p−5)/2给r=−45/4、二次障碍243/16、U5=27x/8，P_d=0即P_(d+6)=(12x/7)P_(d−1)≠0。root读原递推与R770真实标签，纯纸证，无新扫描或本地数学。
+- 只缩出原f_(k−1)g_k与f_k g_(k−1)的二标签充分窗口；同h三个单位、p11mod12及高度仍缺。R846已推e1370eb2，过程中非快进已立即真实pull/rebase循环成功。
+- 本push规则：本地真实pull至aac7107299507d3dc6de93a1f88cf53c6ae6594c（2026-11-16T01:08:13.567848+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
