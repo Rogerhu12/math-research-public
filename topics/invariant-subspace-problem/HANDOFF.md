@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-all-height-coherent-row-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-whole-W127-complete-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -21,11 +21,9 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B长24与八生成已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35完整来源使B的D型 $(1^6,2,3,4,4,5)$、dD11/dR8，xB型(1,1,1,2)、pxB型(1)。完整18×22真D呈示/原x作用/全部单循环及96原阶段双raw均独核，实际push59d9cd0e；全身份见正文和归档。
 
-- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 全225原列/真T16给自由25饱和，恰 $R/(s)\oplus R/(s)\oplus R/(h)$；原t2前23列单位，末项可用其自由像。full210与独立p9/35远端全数学字段一致，源/身份见正文。两s轴已真分裂，余完整扩张见下。
+- **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** [整自由像](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)为 $(R/s)^2\oplus R/h$，原t2可选末项；[全部扭子](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)的D型 $(1,2^7,4,5,5,6)$、长35。全M的D型 $D^{25}\oplus S$、dD37/dR8，R型 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$；真27×53呈示保K/X/c，末扩张类恰31阶非裂。$S/B=(1^5,2^3)$。原双根/全源/失败/只读修复及根独立HNF/SNF全身份见正文/归档；此M分类已闭。
 
-- **[共同M全部系数扭子已闭](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)：** $S_1=R/(31,s-1)$，总S的D型 $(1,2^7,4,5,5,6)$、长35/dD12/dR8；$M\simeq_D D^{25}\oplus S$、dD37/dR8。根1独立中心G/V两位/11阶段全0，37输出/原315/free/整数乘回及独立gcd均核；根二完整26关系/x作用与133输出另HNF独核，50项父/末B失败及只读修复身份全保正文。
-
-- **[共同M完整R呈示及非裂扩张已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** $M\simeq_R(R/(s))^2\oplus R/(31,s-1)\oplus E_2$，$E_2=(Rf\oplus S_2)/R(hf-b_2/3125)$，真27×53呈示保全K/X/c；扩张类恰31阶且primitive。$S_2/hS_2=(1^5,2^3)$，$S/B=(1^5,2^3)$。实0.103秒HNF，根另0.042秒相对格SNF及原多项式直接代入独核全商/类阶。此支M分类已闭；续全W的127整源资格和Bell1/普通ISP，单目标不代全W。
+- **[全W在127处完整整结构已闭](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)：** 原6188×155投影在63点rank142、真142子式det97、80444核乘回全0。完整U127=M127⊕R127/(127,s+64)，D型D127^25⊕D127/127、dD26/dR3；AnnU=h*(127,s+64)，h*qW入像恰q(63)=0 mod127，系数指数恰1。原0.884秒/根另0.510秒从primitive以二次型重建全部6188行及FLINT秩独核，无新展开来源费。下一全W31：U31/M嵌T/S、长≤15，尚未算满。
 
 ## R150完整非rank-one及Bell1
 

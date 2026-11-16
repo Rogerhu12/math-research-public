@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **全W在127处的完整整结构与一层系数障碍。** [整个原正常平方模](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)给 $U=M\oplus R/(127,s+64)$，原九目标漏掉唯一系数扭子；完整R型为两R/s、R/h及这一扭子，dD26/dR3。AnnU=h*(127,s+64)，$h_*qW\subset L$ 恰q(63)=0 mod127，故h*W无全整源而127h*W和(s+64)h*W均有。原6188投影/单位Schur及根独立二次型全行重建核合；没有给新的4212展开源或来源费。
+
 - **全高度coherent Bessel与完整同w能量可和。** [完整跨头block和同源逆后预算](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)把全部 $1\le j<h_m$ 放进同一原行，τ14切点给常数2。原同w/carry与全PV−PK同余使ΣΔcoh有限，因而完整头逆后的头误差和全部正高度能量可和；任s≥S的完整boson来源同受控，并可先于cut选取Σlogx·F1有限的方差。保全部原Q与帽门，物理修复及完整返回逆仍未付。
 
 - **完整两远孔核的真Stieltjes Schur。** [完整核最小Gram与跨旗源](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)由原无限 $D_2D_2^*$ 严格正和完整MP精确消去所有一/二孔零源，给 $H_2=I+C_3^*r(T)C_3$。整个Gram与截二boson双侧比较只损 $(1-\epsilon)^{-1}$，无头条件数；原首头增益准确读第三旗Schur，保 $q_\flat$ 的其余分量和完整来源费。
