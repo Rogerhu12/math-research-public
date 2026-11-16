@@ -1,0 +1,49 @@
+{
+  "format": "r150-original-complete-weight8-frontier127-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+    "gitBlob": "4e8f554b0979ec9c05d0c8c2dfdb024151de3b6b",
+    "bytes": 22828,
+    "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+  },
+  "parameters": {
+    "inputManifest": "notes/2026-11-16-r150-original-complete-weight8-frontier127-inputs-789f.json",
+    "through": "prepare",
+    "seconds": 180,
+    "memoryMiB": 768,
+    "outerTimeoutSeconds": 240,
+    "sameOutputDirectory": "original-complete-weight8-frontier127",
+    "sameBinding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "shell": "bash",
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "exitCode": 0,
+    "status": "completed-prefix",
+    "elapsedSeconds": 102.7196072509978,
+    "peakRssKiB": 255228,
+    "childPeakRssKiB": 0,
+    "compileIncluded": false,
+    "nativeNotRun": true
+  },
+  "rawOutput": {
+    "bytes": 46356,
+    "sha256": "c56e0a8a5024ec55b428131fbd543ae05b2278792427c95f3bf968cff1169fa1"
+  },
+  "manifest": {
+    "bytes": 46915,
+    "path": "complete-weight8-frontier-manifest.json",
+    "sha256": "e4174861bbec3316c9a6a730afaf69a82a93ef3da4f786e038a28a6a408ad1bf"
+  },
+  "completePhaseCount": 100,
+  "fullLog": {
+    "path": "original-complete-weight8-frontier127-prepare180.log",
+    "bytes": 59083,
+    "sha256": "e4c1dec307d1fe2f1bb828939eda3bbff9351d0a0760d56e6a18f5e009b50fe8"
+  },
+  "dataPolicy": "No raw mathematical arrays or coefficients are stored in this execution identity. Source, parameters and actual output identities only."
+}

@@ -275,3 +275,6 @@ AI/Astra-ISP-789f：[实际诊断](notes/2026-11-16-r150-original-bell-monic-rem
 
 ## 2026-11-16 14:28 UTC — 同物理尾的首核参数与完整二孔正铅笔
 AI/Astra-ISP-789f：[完整证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)给任v∈K的真核+低伴随等价源，保所有PV/PK/cut/h/真帽；固定比例窗一孔新项可和，二孔Ξ=E*M_T⁻¹E恰为原正铅笔边界导数。根全文与normal独立域/投影审计通过，不用有限增量免费付该导数；H/open全文归档，继续Ξ/高旗费。
+
+## 2026-11-16 14:35 UTC — 完整原权八秩1312及74全核
+AI/Astra-ISP-789f：实际17674×1386全输入秩1312，1286原前缀独立，100个NiC留26/删74；201阶段与全10/18乘回闭。根独立原1312子式det4及1,307,876核坐标全零、核秩74。来源≤8维3425→3451为分级推论，不跑新大矩阵；未称稳定/单位/E。[正式证明](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)。

@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** c553f06feff3d0cf911d9b4f1da5fee2359890ca（2026-11-16 14:28:56 UTC，Actions run43886143066实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43886143066-1.json。
+- **最近成功实际 pull 与已读规则提交：** bce880e0037870ce0977abc5d54d0cf2bd24d2cd（2026-11-16 14:36:08 UTC，Actions run43887403409实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43887403409-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
@@ -26,6 +26,8 @@
 - **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [固定运行时后三步实际边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)：run43878449638/job133337613806模型0/压缩0；真实module正负/SSI/U=I自测与全部500原坐标真。候选实584.999秒仅START，整体592.055秒/exit75，无candidate/source、null→null不空续。根独读全日志并核三raw/全manifest SHA。改用新来源或受控局部入口；全10/18/17和另E门仍欠，未判稳定闭包或成员正负。
 
 - **[完整来源权≤7的917→947及Bell饱和边界](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)：** 已付30个NiYj及7754×312满列秩保原18源，root全2,419,248产品/312主元核。完整G≤7维344与Bell系数573由最低权交零，旧有界像917、加30为947，完整输出12713；纯代数推出，未跑新矩阵。来源权界不等于L0∩F≤7。权7齐次V入L0恰存在q使b^qV∈G；≤10恰bV∈G10，原10122＋30目标/77276接口未跑，不能由q=0独立排全部饱和。
+
+- **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。复用完成状态审14旧D换源及δ的具体RHS，不重消元。
 
 - **[原rank4δ14的稀疏10×56正门](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)：** v2 prepare实9.871秒/140588KiB，原50/17运输、全部480 adj、四Bell40坐标/4原18乘回真，保原46列315860项及10局部器；仅初始模局部同模。原list/tuple失败另保，仅规范四indices；[六行MemoryError/完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)仍保。根全源/wrapper差异/request/原raw与5MB ASCII SHA核；独立run43883188532以Python3.12.14按180/180/600秒实重建中，不预填候选。仅75加新完整candidate/验证前缀续；正证须清ρ后原10/18/17全乘回，再另付E/19图。
 

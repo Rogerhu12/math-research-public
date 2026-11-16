@@ -1,0 +1,83 @@
+{
+  "format": "r150-original-complete-weight8-frontier127-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+    "gitBlob": "4e8f554b0979ec9c05d0c8c2dfdb024151de3b6b",
+    "bytes": 22828,
+    "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+  },
+  "parameters": {
+    "inputManifest": "notes/2026-11-16-r150-original-complete-weight8-frontier127-inputs-789f.json",
+    "through": "final",
+    "seconds": 180,
+    "memoryMiB": 768,
+    "outerTimeoutSeconds": 240,
+    "sameOutputDirectory": "original-complete-weight8-frontier127",
+    "sameBinding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "shell": "bash",
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "exitCode": 0,
+    "status": "completed",
+    "elapsedSeconds": 85.21685763800633,
+    "peakRssKiB": 272028,
+    "childPeakRssKiB": 262300,
+    "compileIncluded": true
+  },
+  "rawOutput": {
+    "bytes": 73556,
+    "sha256": "10c6ba5e961b9b1c06e87589df34ebaadfd227486725b8d4dda0b6a29f439804"
+  },
+  "manifest": {
+    "bytes": 73953,
+    "path": "complete-weight8-frontier-manifest.json",
+    "sha256": "08254a15dbbf01c44fc53ee4e88d8dfd7b5f8b815ee377dd30167547df6b68d1"
+  },
+  "completePhaseCount": 201,
+  "fullLog": {
+    "path": "original-complete-weight8-frontier127-final180.log",
+    "bytes": 86279,
+    "sha256": "7a35c7b82cc7df615c4f36a6f48030f5a8b20f94606adf1ef7007b60d637b367"
+  },
+  "dataPolicy": "No raw mathematical arrays or coefficients are stored in this execution identity. Source, parameters and actual output identities only.",
+  "nativeOutputFiles": {
+    "binding": "721ca4b226e01fe685efc7753fbf24aa335e82f7863b82118024b829c18b5d6d",
+    "checkpoint": {
+      "bytes": 22008128,
+      "path": "complete-row-state.bin",
+      "sha256": "e561e3652a0dd2583c8c6b2206c34f5e1c8b0ab4d77275a35b25f16db5ae581e"
+    },
+    "dictionary": {
+      "bytes": 586948,
+      "path": "complete-original-dictionaries.json",
+      "sha256": "4164b25bfaa7504c12cb40d20fa3f9d22887d71b75bae943121808a4fc686ab0"
+    },
+    "dictionarySHA256": "4164b25bfaa7504c12cb40d20fa3f9d22887d71b75bae943121808a4fc686ab0",
+    "input": {
+      "bytes": 24496256,
+      "path": "all-original-row-input.bin",
+      "sha256": "b9c8085459685cdf728e9ba8cbc005daccfc80a0d8047ddccddb008e4002249a"
+    },
+    "lastExitCode": 0,
+    "log": {
+      "bytes": 434,
+      "path": "last-native.log",
+      "sha256": "0a9fc9428693c8f0aac1c0b7db05f0f45eca2366320c50aa9fd4ac59b75ed9af"
+    },
+    "receipt": {
+      "bytes": 433,
+      "path": "parameter-seed-native-receipt.json",
+      "sha256": "acadf40256b074297a726ea21e7a2f252bc88a4e39a3a898b61d881859462cc1"
+    },
+    "result": {
+      "bytes": 113472,
+      "path": "complete-row-result.bin",
+      "sha256": "c866eab92a0aa9a5c451b96135647a6391b9f6dc242b5ae9fa03aa9da54eb36d"
+    }
+  }
+}
