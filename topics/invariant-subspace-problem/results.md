@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **全高度coherent Bessel与完整同w能量可和。** [完整跨头block和同源逆后预算](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)把全部 $1\le j<h_m$ 放进同一原行，τ14切点给常数2。原同w/carry与全PV−PK同余使ΣΔcoh有限，因而完整头逆后的头误差和全部正高度能量可和；任s≥S的完整boson来源同受控，并可先于cut选取Σlogx·F1有限的方差。保全部原Q与帽门，物理修复及完整返回逆仍未付。
+
 - **完整两远孔核的真Stieltjes Schur。** [完整核最小Gram与跨旗源](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)由原无限 $D_2D_2^*$ 严格正和完整MP精确消去所有一/二孔零源，给 $H_2=I+C_3^*r(T)C_3$。整个Gram与截二boson双侧比较只损 $(1-\epsilon)^{-1}$，无头条件数；原首头增益准确读第三旗Schur，保 $q_\flat$ 的其余分量和完整来源费。
 
 - **原九行十二参数模与完整稳定闭包。** [完整稳定闭包及原18来源递推](results/R150-appendix-original-nine-generator-parameter-module-and-certified-stable-closure.md)将原57关系准确化为45个 $u_iI-N_i$ 与110个参数种子的最小共同Ni稳定子模，给 $B^9/L\cong S/I$。所有删轴、Bell、交换子与后继Ni列保逐原来源，全部参数例外保留；有限层常数1来源可作正证，完整商仍须实际付稳定性。此为已证代数接口，未填新GB或Bell1成功。

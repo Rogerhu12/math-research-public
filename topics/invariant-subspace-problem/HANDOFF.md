@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** fedc8542910d90a80d15f70788ad6dedf3cefa21（2026-11-16 12:22:47 UTC，Actions run43866014539实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43866014539-1.json。
+- **最近成功实际 pull 与已读规则提交：** 6f6747a2ed9447dd4c2020299c6319258326d2c7（2026-11-16 12:27:43 UTC，Actions run43866750022实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43866750022-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-full-two-hole-stieltjes-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-all-height-coherent-row-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -43,8 +43,8 @@
 M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersection旗和MP自然域。此前native/adjoint-D/相邻整行/真帽及creation完整返回均保上列H全文归档与open原索引，未删其费用或开放边界。
 
 - **[原matched首反馈](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)** 指定creation/相邻旗返回已付；同u/全部h段/真帽外投影仍保。原真空g0交叉与完整返回逆尚开，费见正文/归档。
-- **[移动一孔Bessel](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)** 保同物理H/完整同cut源，βxβy*=√(Sy/Sx)J*；几何x给完整行预算。此前锚/全部h段/同u费用见正文及归档；任意来源费不可用首逆标量冒充。
-- **[偶段可达核与第二Green](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)** 已付真整数头级/孔数半支撑，偶R时kerC⊂RanC；所有kerC*自由均保。第二逆仍需核外(C*)†(I−PK)Gv，不能由首逆≤1代替。
+- **[全高度coherent行及完整同w能量已闭](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)：** 原τ14切点使所有 $1\le j<h_m$ 的整block跨头Bessel≤2，压缩概率取max_j而非逐j累费。同actual W/g=P_xw、原PV−PK/全Q给 $\sum\Delta_m\le(4+8\sum\eta_m^2)\|w\|^2$，付完整Hcoh逆后的头误差与全部高度。任 $s_m\ge S_m$ 的完整H_C(s)同受控；共同log选择给 $\sum\log x_m F_{1,m}<\infty$。源非物理真核，MP/修复/帽费仍开，根全文/父carry独审。
+- **[偶段可达核](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)** 已付真整数头级/半支撑，偶R有kerC⊂RanC；保全部kerC*。第二逆的核外(C*)†(I−PK)Gv仍须实际控制，首逆标量≤1不足。
 - **[首头纯两孔无罚源已闭](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)：** 完整低链给β1U∈RanC、β2U∈RanC²；真伴随消去Z/AZ后，$F_\flat=P_{\operatorname{Ran}C^2}q\,\omega_2$ 保同PV−PK/完整U源，费 $\gamma_\flat^2=\sigma_2^2\|P_{\operatorname{Ran}C^2}q\|^2$。准确受限C*C逆、两孔Bessel/单位锚/同w/全部h段及真帽外投影均付，完整式见正文；费用上界仍开。
 
 - **[完整两远孔核Stieltjes Schur已闭](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)：** 原无限 $F=D_2D_2^*=SI-2Z+bb^*>0$，保全部primitive/零源后，$H_2=I+C_3^*r(T)C_3$、$r(t)=\langle b,F(F+tI)^{-1}b\rangle^{-1}$。整Gram与截二boson相差至多 $(1-\epsilon)^{-1}$，$\epsilon\le6/(x+1)$，无头条件数。真K2−K1增益恰第三旗Schur，只读 $q_\flat$ 的 $K\cap\operatorname{Ran}C^2$ 部分；不能代全受限费。根完整MP/伴随/端点及跨旗独审。
