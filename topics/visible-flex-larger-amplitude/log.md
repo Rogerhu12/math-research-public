@@ -244,3 +244,8 @@
 ## 2026-11-16 04:29 UTC /root — R464增量M完整来源组合
 
 **已证明（限真实来源组合和控制流条件）；无新科学运行。** [R464](results/R464-incremental-M-owned-chain-and-explicit-source-view-composition.md)/[完整接口](notes/2026-11-16-incremental-M-owned-source-views-and-geometry-interface.md)七源与全部完整delta、15视图及两文全文读后刊出：owner f3720817、reader602c9abd、material50bf2d04、post480ed1eb、postreader5d7bc6bf、held07876025、generator68ae7071。原112 far/config与真实接受父分列，真R462 sample/configure共原采样帽，R463 cf866/754596全新M求解、双mean/4M+2/原末门保持。15新名视图由原全文身份、有序字面替换/次数和生成全文身份确定，在实际computations/HERE先全核后独占写；旧源不变，不将union重标为旧sampler。新几何/held只认匹配的真实源，首112 A/B与当前M分列，缺B不添BVP/几何门；R459/R461新view显式增incrementalM，原科学正文与旧families保留。原18900+2700钟、全部实际owner静止、单90KB/超限70和未访范围保持，组件不清raw。未发生源生成/deep/far/新M/几何/误差/显示，无速度或完成预付；request209真实组合另刊。
+
+
+## 2026-11-16 04:31 UTC /root — R466完整因子收缩实现
+
+**已证明（限R465名义模型与明确源码条件）；未执行新科学。** [R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)/[208完整接口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)及13独立运行源、配方已读完整195差异后刊。helper2592a0a5、variatione6be662b、flowc29b0120、loader65f6e211保真实R/z/s与原root/noJ；准确dyadic形成完整b再显式RN投影，含subnormal和2^53进位情形，非零丢失/overflow走保留的原显式fallback，资源/来源异常不捕获。全225 literal Gram、有序(r,s)、全224列与实际R两回代保；只在完整ds返回后提交更新。零更新/原角形成、226双mean、dense RK/cusp/端口、129248行R273、原十档noJ/FD/fullDN/338×112最终J/audit均保。必要reader保实际整数计数、模型/回退与未完成地址，单90KB/70、原quiet/cleanup不变，不搬b/Q/大tape。原127pins+13=140，原六参数/λ=.001/699节点/18000秒/全部门不变，13源与配方/接口现刊，request/workflow另次推触发208/R467。新舍入顺序不冒逐字等价/误差界/速度，195零H成本未被本收缩消除。
