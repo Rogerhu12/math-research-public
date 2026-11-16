@@ -1,0 +1,89 @@
+{
+  "allMathematicalArraysTemporaryOnly": true,
+  "author": "ChatGPT (AI), literature_audit",
+  "correctedFullDriverNotExecutedInThisIdentity": true,
+  "date": "2026-11-16",
+  "format": "r150-original-source-and-actual-local-execution-v1",
+  "independentRootLatticeAudit": {
+    "source": {
+      "bytes": 9124,
+      "sha256": "a4b5763e081d4595aafeb3a87a6d04e9a247bf2ef2f37f23f785630fd6fc581e"
+    },
+    "sourcePath": "/tmp/isp-root-p12-independent-lattice-audit.py",
+    "temporaryOutput": {
+      "bytes": 1590,
+      "sha256": "07a328a8437930b0a345353a57fb6352dfddfeb4a1aa9141a0245e2fe58bd056"
+    },
+    "temporaryOutputPath": "/tmp/isp-root-p12-independent-lattice-audit.json"
+  },
+  "noNewMathematicalOutputArtifactPublished": true,
+  "originalRun": {
+    "allOriginalMathematicalStagesCompletedBeforeTerminalFailure": true,
+    "binding": "38139cd17a0a87190fc7302d7f9a271cd6370e379090de91ed9706eb3fa673e9",
+    "completedStageCount": 42,
+    "elapsedSeconds": 611.7180227659992,
+    "exitCode": 1,
+    "failureMessage": "independent complete original joint-B type and parameter images are reproduced from the new raw targets",
+    "failureType": "ValueError",
+    "outputIdentity": {
+      "bytes": 37792,
+      "sha256": "e6867a8f20e37f90aeaa08b8df44ead2fdac73475a6725a5114285609142afc2",
+      "temporaryPath": "/tmp/literature_joint_m_789f/original-joint-m-root2-p12/original-joint-m-root-two-complete-p12-receipt.json"
+    },
+    "parameters": {
+      "memoryMiB": 6144,
+      "seconds": 1800,
+      "through": "final"
+    },
+    "startTimeUTC": "2026-11-16T11:24:40Z",
+    "status": "failed"
+  },
+  "pythonExecutable": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "readOnlyCompletion": {
+    "actualCompletedStageOutputIdentitiesVerified": 133,
+    "argv": [
+      "--notes-root",
+      "/tmp/literature_joint_m_789f/p12-source",
+      "--parent-out",
+      "/tmp/literature_joint_m_789f/original-joint-m-root2-p12",
+      "--out",
+      "/tmp/literature_joint_m_789f/original-joint-m-root2-readonly-completion"
+    ],
+    "binding": "4d3f5dbf2bd02328ba5e7cea47641cd2c21cdc6467950eaee97c2b22d4864222",
+    "completeTemporaryDataIdentity": {
+      "bytes": 16797,
+      "file": "root-two-complete-presentation-and-action.json",
+      "sha256": "46cb736d61e85daf6af0a4476ffa857c98b06f84d8c6e149b6180ce054d14a5c"
+    },
+    "completedOutputModificationTimeUTC": "2026-11-16T11:38:33.019113+00:00",
+    "elapsedSeconds": 2.945797792999656,
+    "exitCode": 0,
+    "noOriginalProductOrSolveRepeated": true,
+    "outputIdentity": {
+      "bytes": 10067,
+      "sha256": "18085ddfc8be6d691c87588ed6ee03a5470f1996588cea0fc0d08f4ca97ce0bf",
+      "temporaryPath": "/tmp/literature_joint_m_789f/original-joint-m-root2-readonly-completion/original-joint-m-root-two-p12-readonly-completion-receipt.json"
+    },
+    "parentFailureRetainedWithoutMutation": true,
+    "status": "completed"
+  },
+  "sourceFiles": [
+    {
+      "bytes": 41088,
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-m-root-two-complete-p12-789f.py",
+      "sha256": "d43f2b3af1f629d0ee0fb880a51ea1667f30a2b0f2079793537644aa71a210a8"
+    },
+    {
+      "bytes": 41116,
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-m-root-two-complete-p12-closed-b-789f.py",
+      "sha256": "0443a2bffccfcdab88cf5f0f7f11a3ccb88b4c64aeabbbddc943233dd3cc979a"
+    },
+    {
+      "bytes": 11055,
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-m-root-two-p12-readonly-completion-789f.py",
+      "sha256": "d227f6a0c4dbb0f6654d2a8567e9174c18a4aca22a23231bfc1c62aeac413db6"
+    }
+  ],
+  "sourceRevisionChangesOnlyCompleteBSpanAndFormat": true,
+  "status": "completed-by-independent-readonly-consumer"
+}
