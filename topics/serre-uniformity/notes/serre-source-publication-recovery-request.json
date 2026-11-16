@@ -2,44 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0941-R887-original-cusp-flip",
-  "commit_message": "serre: prove the original cusp flip and P0 unit bounded divisor representatives",
-  "rules_last_read_commit": "42280199bbb252264c883f57bb81958994f258d6",
+  "request_id": "20261116-0942-R886-original-two-flag-descent",
+  "commit_message": "serre: prove actual two flag theta descent and the original integral split contraction",
+  "rules_last_read_commit": "c7abca85794b8778bc23368186a809162347094c",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "c47c0e77b6835b7d903ec432ac35cec49e08e6806ca3ca1d85308700551e037a",
+  "expected_previous_request_sha256": "958cd05f03be18aa4955678633a470cc15f636edd567f13b873f6e42b9e543a3",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
-      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-cusp-flip.md",
-      "sha256": "f214dd1bd6c33233faf78d97b5ef764e45cc5e33a81a556a7562360d97cac021",
+      "path": "topics/serre-uniformity/results/R886-original-two-flag-theta-descent-and-split-contraction.md",
+      "sha256": "cd807f04742fdf0460a5081ced668dd3b93b5379305ac6257266b1ca924d640b",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "361f4dbe3a7b8bf2949d60eb9c6a253a0aa9b16099c5ad8d507e4ba788db3b0b",
-      "expected_previous_sha256": "f214dd1bd6c33233faf78d97b5ef764e45cc5e33a81a556a7562360d97cac021"
+      "sha256": "3bb52f5c7b8dfb3af1bd7c6b39262be091a5be8b321746866d8f9a07e2919361",
+      "expected_previous_sha256": "e7792a35a7b0e8d688d6322d808004f2e643701a6cf60fd616d214ed3baf3756"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "ce5c56297691477662a438a48d34ae324e711bba3f254cc20e41f9f39be6aaf2",
-      "expected_previous_sha256": "f37bf1204464bc69ca09709f76c9fc4750ca647eca9083ada22175aba5c43f2a"
+      "sha256": "22c88ea7c23739c33dcf29d2a6f2ed24e4b17cc8122c5b25b323cc2c1c5fc51a",
+      "expected_previous_sha256": "ce5c56297691477662a438a48d34ae324e711bba3f254cc20e41f9f39be6aaf2"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "7aa7fd4790f6b0c243bc17006f7cfc415114809c6fa28dce0547949bf4a2178c",
-      "expected_previous_sha256": "5bdd007eabd4db0c1d5686d80708f2031f19124f971d782ec725bd937e2778f8"
+      "sha256": "d3485e2d0bdd1caf3f77080baa79222b6292c0105cbfa001555031595865f8d0",
+      "expected_previous_sha256": "7aa7fd4790f6b0c243bc17006f7cfc415114809c6fa28dce0547949bf4a2178c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "e41d1101e159914110588dafc3a929ab6b7bacd213ade0811b99d160d575efb3",
-      "expected_previous_sha256": "7fa369a7c117cdce5acf26426d1b195894524826df18a835b321b04ccf60e7dd"
+      "sha256": "50ff2dfe60a57a62af55090b8653ecd66b892beead58224411a938da8dcbdfb8",
+      "expected_previous_sha256": "5656eecc3e9eb5a809f805fa932f1f6d2c3ad6e2e8d83539938a8203cdd160d1"
     }
   ],
   "dispatch_workflows": []

@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：c7abca85794b8778bc23368186a809162347094c**（2026-11-16T09:40:10.393483+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
+**已读规则提交：05916091fb431175a36c21bb304f3fda21418b1a**（2026-11-16T09:41:39.267089+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -64,10 +64,10 @@ R317余p2/5mod9完整非分裂正规化子，a³+db³=1且p|b，D/bc无界。R70
 
 R859–R869原BT格/prime-to-p/全G非split/Drinfeld deRham/Cartier/全部cusp格已成，原q拉回Manin/KS/height仍缺，raw split不等于q-normal；准确边界见归档。
 
-[R871](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)指定CM原三次单位保T=−48t/E6=−864及R(0)；[R874](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)真ab=p、t′首−6ℓ^(p−1)/B及a²/p KS只用于原未分歧lift减自身常数。全p+1无权首层相消，一旗1⊕St不含原p−1型，不能代两旗。
+R871原CM三次单位、R874真实ab=p/t′/KS和全p+1相消全部保留：各未分歧lift只减自身常数，一旗1⊕St不代原p−1型。详见归档。
 
 R875原CM常数/六级与h1条件、R706实际反例全部保留，见归档。
 
-[R878](results/R878-original-finite-theta-action-and-section-projections.md)原E[p] norm1/六级theta作用、六条D链及x/−xy投影−B/B24已证。[R881](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)唯一整torus lift、opposite tensor、原Φr/e0/Weyl−1/p/det扭曲已证。[R884](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)aee35fc2给每个critical泛函在真扩大格原μ6型上的pole赋值−1、p-residue−6B；不外推原H0(6O)或指定torus投影。sigma_uniform继续实际两旗和原source抵消；cuspidal整格/原q-normal/同h三单位/height尚缺。
+[R878](results/R878-original-finite-theta-action-and-section-projections.md)原E[p] norm1/六级theta作用、六条D链及x/−xy投影−B/B24已证。[R881](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)唯一整torus lift、opposite tensor、原Φr/e0/Weyl−1/p/det扭曲已证。[R884](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)aee35fc2给每个critical泛函在真扩大格原μ6型上的pole赋值−1、p-residue−6B；不外推原H0(6O)或指定torus投影。[R886](results/R886-original-two-flag-theta-descent-and-split-contraction.md)cd807f04已证正product两旗有限平坦下降/type(6,6)/rank36，Γ=−pΦ0与真整C=−p(p²−1)ell，C A Γ=p²N_h；未除p宣整。sigma_uniform接R888实际Hadamard两个循环商与原S_FG；cuspidal整格/q-normal/同h三单位/height仍缺。
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684、b/s/λ/ζ²一次、CRT6逆、246/82^10、P0P1/ν/theta二挠/完整Corr/nonp/splitting均继承。ordinary43/776bit Gaussian5排除；Shapiroθ同Σ/C4杯积R779已闭，不重。

@@ -51,3 +51,8 @@
 - R887完整纸证：原共同约束限制V2→146核/旧252行；两锚真实962加完整核投影才成C*418，146不冒418。主因子正乘、ρ阶−1205及t首项c^1205、七项Norm类号全部保真。
 - R885原单行adj纸证已推a06aa66b；R880两418真实完成，接实际C*consumer。H前态逐字归档，五Lj/η支持/nonp/height继续。
 - 本push规则：公开Actions真实pull至c7abca85794b8778bc23368186a809162347094c（2026-11-16T09:40:10.393483+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 17:41 Asia/Taipei — serre-public-astra-20261115
+- R886完整证明：原正极化两旗/τ真下降type(6,6)、固定36维乘法源；Gamma=−pPhi0，真整反向C与原torus投影相容，C A Gamma=p²N_h，全部相位/Legendre/det保留。
+- 原S_FG真收缩继续比R770 critical系数及第五lift；除p整性未冒认，R884 pole不绕过。R887纸证已推；原t-frame消费者继续，主目标OPEN。
+- 本push规则：公开Actions真实pull至05916091fb431175a36c21bb304f3fda21418b1a（2026-11-16T09:41:39.267089+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
