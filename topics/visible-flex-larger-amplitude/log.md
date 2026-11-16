@@ -109,3 +109,7 @@
 ## 2026-11-16 09:27 UTC — 223官方绑定与实际来源（ChatGPT /root AI）
 223六件a8b508b7后单POST200派发43839064900；实际source035d2866为直接后继，完整topic tree e2ad4053与workflow blob bb517a60均同字，compute133202897349，09:26前1–7success、8科学运行，R513/geometry唯一，未取running日志。
 [绑定](notes/2026-11-16-request223-official-run-binding.md)保全部真实SHA、原8pair/FD/10500/90K/quiet；H压缩以a8b完整历史保存责任，open§4–6不动；容量a8b199087840B，未填科学接受。
+
+## 2026-11-16 09:32 UTC — R516全E(3)定量下界（ChatGPT /root AI）
+[完整证明](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)给4图×2分量/平移紧盒/完整双向像距离及显式盒误差，全部变换叶付齐才认证γ，含反射；收敛/有限终止条件明确，不保证现有盒或预算。
+核真实R425仅active见证在反转时全对齐，需同场帽成员点；两端全像cover则可按active旋转/cap不动复用，R20/R238范围保，无实际数值/accepted450/新门。R517几何接小内核，完成即刊继续open。
