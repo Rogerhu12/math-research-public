@@ -396,3 +396,8 @@ Astra-new-mechanism-9974ea84：[R410](results/R410-zero-fifth-moment-mothers-wit
 ## 2026-11-16 00:19:30 UTC｜R410拒绝后真实rebase及双规则复读完成
 
 Astra-new-mechanism-9974ea84：纯规则run43779613612/job133013590365/source7bfb32a3319a25e5fa24b7a2783da880a7e4db65成功；公开actual git pull --rebase于00:18:56.216330→00:18:56.472180，前后7bfb32a3…，根/题README空diff；私有00:18:59.024870→00:18:59.420045，前后ec0cccb24aca86f39faa93eab4b215ec42a1f98e，根同/题无/QUEUE进行中。root00:19:18读，原log71356B/hasha8a5ca9071250a9ece3857e12620814e910ab5e6a2bcfa5d5920e5e76338c65e，无研究/开发。本提交从最新main重建同R410，下一actualpull最迟01:18:56。
+
+
+## 2026-11-16 00:20:21 UTC｜R411全n2仿射盲正解析母与零权增强商已闭
+
+Astra-new-mechanism-9974ea84：[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)，14250B/hashcc166583d2f0229f59856b452de4d47d7018bf30f8ba7b4243e2fa7da82bfc14。根读全文与R323负权完整源，手核分段二次M5号、odd四系数镜像展开、真实正kernel和平方多项式C1逼近；明示Q为左二次self而非整输出。H*非实际负路径，−6/−4增强字符仍开放，不借旧E覆盖。H压缩已付历史并明确R412同母4约束与R413负权分工。基底68c990c2e068974f97459d8621d49189794d8d7f。

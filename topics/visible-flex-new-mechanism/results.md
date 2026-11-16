@@ -374,3 +374,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R410｜零第五矩与一对退化点、原十九个完整目标同点成立
 
 [R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)（19066B；SHA256 35f5a94e645a248a9188c583ba38b2f239b060db24972f8ad936eae0bb3df9d2）。固定cap用q=v^(2/3)的严格凹密度及0/1矩修补接原ψ3尾；两长坡+短cap的准确M5标量−2(1−β⁴+ηP(β))给小正η唯一简单零。保共同外区，在M5正则C²流形选真限制max-F与19jet minor，r切向+1正常向纠正同时保持M5/F；原正核/完整C1集中给有限N的全部19真根，实际p号保护不添Af根。每个实际副本同付，仍正单峰/一对Af。只新初选母与数据，未付自然低次/period/13同规范，无执行。
+
+
+## R411｜完整n2仿射轨道全零的正解析母与增强商边界
+
+[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)（14250B；SHA256 cc166583d2f0229f59856b452de4d47d7018bf30f8ba7b4243e2fa7da82bfc14）。精确两类非负偶母M5异号，4真实半径/16不交包给8正第五幅权与有限可逆4minor；以ψ3乘严格正偶多项式作参数C1逼近，有限IFT精确清全部4个n2平移系数。全正仿射轨道0，H*给ker(E,A_u)/λ1的真实signed反例；J零权商确0。原完整权界、R356/R323及R188/R196排掉其它候选，actual闭锥只余−6/−4新增natural的完整正字符，未称可达。具体原19/内部退化/实际joint仍欠，无执行。

@@ -26,31 +26,23 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 ## 4. 纸证与准确剩余门
 
-原U保全部N0/N2/N3、history、Γ及端势（R105/109/130）；R84倒行第四同号，线性span非实际逆元，R156只α∈πZ合法。R333已实际whole E=(pure,self)满射/紧集C1截面，全部原型/桥/复制基准保留；只有E(U0)=E(R0)维10，不是全权等像。完整非线性同g仍欠。
+原U保N0/N2/N3、全部history/Γ/同锚端势（R105/109/130）；倒行第四同号，span非实际逆元，仅R156的α∈πZ合法。R333已付whole E=(pure,self左二次)实际满射/紧集C1截面，E(U0)=E(R0)维10，非全权等像或完整mixed消失。R402/R393完整静态/Q4自然读出保原稿，旧H非零/7–13秩已撤回。
 
-自然Λ用R344/352完整有序三矩尾，杀R。完整Abar及更正后正常H全Λ0（R350/382），旧H非零/7–13秩已撤回。[R393](results/R393-nine-dimensional-natural-Q4-affine-image-and-two-character-heads.md)完整Q4函数像9维、权−7…−2及−4/−2两头已付；Q4非负平方action不授全U正字符。R398已排F0/三Q2全部自然恒零。
+[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)：run43775998866唯一新两Ω给n4=n6=0、n2=∫12项L≠0，Lrr=3x²(p−xr)(u−xp+x²r/2)²。完整N权零像恰1、kerNall⊂kerλ+；canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，T=τH亦同。故actual全Λall0背景不可建；有限固定圆另须实际读出。8新check/全部成本保[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/rank不重。
 
-[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：完整静态V*的Λ=3∫(u′−xu″)⁴u‴/32≠0，原history/Γ/左右尾全保；线性系数非实际负路径。全自然权零已由R406结清。
+[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)：任意原允许wθ可跨gap/高谐波，仍不改每包total、全部Af点累计flux和平台二次；真实affine两常数保留。固定compact-output双线性W给universal π/Q/Λ核与λ延拓；固定圆一般w不定义辅助profile改量，仍须其实际因子化。incoming/第三合法性/同13行完整保。
 
-[R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)：唯一公开run43775998866给n6=n4=0、n2=∫12项L≠0，完整24Euler之Lrr=3x²(p−xr)(u−xp+x²r/2)²。权零自然/增强商恰1；Nall核自身缩放稳定，故kerNall⊂kerλ+，λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h亦不例外；全Λall0实际背景不可建。有限profiles/有限通量/独立新增w及主课题未排。8新人工过、旧π/self/秩0；完整源/费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)。
+[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)：全自然平移degree≤7，七次=−3λ+M5/80。原八复制同形同宽末包suffix R/T全0，16真实d/e totals可Lagrange读λ+>0且w不变；M5非零时原点不可达。旧冻结母未测M5只得M5=0必要，不扩一般芽/非π0背景。
 
-R390/392/396可实际(P_LE,双固定A,≤11 Hd)，L=E(R)；清A原型×n、后A通量与一次有限n收缩全保，qE三项原基准未消。固定A核非已知仿射稳定，不能沿其推广全自然商。R395旧K0…10在R71∩ker(E,Λall)，对应partial独立、非零给真log障碍。
+[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)：v=−u′两坡+固定凹接ψ3尾，准确五次标量给有限正η的M5=0简单根。在该正则C²流形取真restricted max-F及19minor，以r+1列精确保M5/F、原C1集中付19真根；正单峰/一对Af/共同外区同点，全部copy保。只新母数据，旧纤维不改。
 
-R391原同锚逆germ：p中心单零不容residue抵消，每Af点准确累计flux0。R403/405从起点重选ψ3+内扰动母形，真限制max-F minor/19点对minor/12正核给有限N十九完整根；每包恰一对Af简单镜点、p中心单零，全部F_rat/复制保留，非改旧数值g。R397原raw Hd/He对incoming Lf不变，真实suffix矩不可删。
+[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)：两类非负偶母M5异号、4半径16包/8正第五权与有限4minor，正多项式前因子逼近+有限IFT给全部n2四平移系数准确0，故全正仿射轨道0。H*∈ker(E,A_u)、λ1是signed核见证，非实际路径。增强J=(E,A_u)零权商已0；满闭锥仍只剩−6/−4完整增强正字符，旧E响应等像不能替新natural像。未保19或一对Af；下一与R410法在同一个四约束流形接完，不能拼两母。
 
-[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)/[R401](results/R401-one-packet-mirror-degeneracies-and-four-complete-period-flux-controls.md)：τ*核E/Λall、Af点partial=2p²(pw″−rw′)；真倒二包suffix非零，12copy C像ερ⁷Pol≤3。同包K0/K1+τ*两C给4×4镜点控制；actual wholeE0+指定点与actual(P_LE,A,指定点)分开，不授全部joint。
+R403/405原19正核/真实F_rat/有号三导集中与p号保护可复用；R391逆germ在p中心不容residue抵消，每Af点须原同锚累计flux0。[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)/[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)：同μ内区真实连通路径固定self两cap S″，原M0/同端口闭frame/Q0，affine尾可动。跨包wholeE0只消primitive二导；actual右镜保ω_i/ordered A_i，7n固定自然查询可读总量；保真wi/suffix，68|W|生成非rank。全Λ核的Euler current不能免费用于actual。
 
-[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)改在内支撑限制空间取真max-F/同19根，全部包外区精确ψ3、各自真实宽wi保留。跨包Q=L+ΣmJ，wholeE0只给m″0；全Λ0再给三次局部Euler current，全部C_i=a_i³J(n_i)，同宽≤42生成、共≤42|W|非秩。actual仅E0右镜仍保ordered总通量；[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)补原M0/同端口闭frame下sameμ内区连通路径：Zdot两cap0，dS左P2/右0，wholeQ杀二次使S″cap同完整u0。全d/e镜点=共同cap+真ω_i/ordered A_i，≤7n固定自然查询可准确读全部totals；同宽68生成/总68|W|非秩。真实全包像仍欠。
+R390/392/396的actual(P_LE,双固定Λ,≤11Hd)与R399/401的actual wholeE0+指定包4镜点为不同截面，不拼全joint。τ*在Af点partial=2p²(pw″−rw′)，负倒二包suffix非零、12copy C像ερ⁷Pol≤3；仅指定门已付。R394保全部germ/gap k值/incoming/平台代价的同13规范：deg4矩阵/deg6rhs Smith零行与圆上整除jets给smooth iff，≤52重数非rank；真正全period与同一k解仍欠。
 
-[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)：任意允许相位w（可跨gap/高谐波）不改每包total、全部Af点累计flux或平台二次；左affine两常数保留。固定compact-output双线性W给universal G_W核π/Q/Λall，λ+延拓并杀它；单固定圆仍需实际读出因子化，未冒称一般period无解。原incoming/第三合法性/13同一k全保。
-
-[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)：原完整自然平移degree≤7，七次=−3λ+∫u″⁵/80。原八复制同形同宽末包的R/T suffix全0，16真实d/e totals经Lagrange准确读λ+>0，任意同圆w不变；M5≠0时这些门不能全零。可在新母minor初选同时保M5≠0/原19根；旧冻结圆未测M5，只获M5=0必要条件。下一真正构造M5=0共点或改机制，不能再沿该非零第五矩路线付全period。
-
-[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)从v=−u′两坡+固定凹接ψ3尾，准确五次标量给有限正η的M5=0简单根；在该正则C²流形取真限制max-F/19minor，以r+1列保M5/F并付原19根。所有包仍正单峰/一对Af/共同外区，只新母数据；低次自然与period欠。
-
-R394同13规范保Af/germ/gap k值/incoming/平台；原Smith零行及整除jets给smooth iff，≤52重数非rank。须真实有限totals和同一k，未完成。
-
-Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″²−u″²)²迫连通C²首阶轨道恒f；不排高阶才动、别机制或一般C²面。下一新有理母形/全部内部门、完整自然joint及真正同g有限族，不能回已阻断芽。
+R388的正D4身份只在同Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不得回被排同类增频。完整第四、高阶收敛和同g有限族从未由这些有限门授予。
 
 ## 5. 继续
 
