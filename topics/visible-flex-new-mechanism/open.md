@@ -34,8 +34,8 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 [R513完整分离](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保同一C≥0、全部原密度、双端和完成跳图；H∈[3/5,2]有
 $
-\Delta_4-\beta(H)\Delta_6>7(4+34H)/(1500L(H))>0
-$，
+\Delta_4-\beta(H)\Delta_6>7(4+34H)/(1500L(H))>0.
+$
 其中L=4H²+136H−76、β=(270H²−1196H+576)/L。接R496的H≥2完整ImE<0，当前R471/R491允许cap类没有五门共同零。此前单门/局部IFT/形式八系数仍保准确原义，不能升级成共同真零；旧cap15/三原子/四原子/唯一LP均不再重跑。
 
 下一真正入口必须明确避开这个结论的适用链，而不能只给同类cap增参数：研究固定物理宽度的真实joint观察是否足以处理原门，及同一规范下有限幅值非恒路径；全部wholeE、partial、端germ、M/T、frame/位置和period仍须从原实际成本取得。当前尚未给合法替代的完整实际截面或闭词；该cap排除不等于一般C²几何无解。
@@ -199,3 +199,10 @@ R1的Tss平方/交叉及normal变化、R0完整θ+u/c(v)/Π、前102与后51中�
 [R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)四个临界端势给同一个正Af缺量测度；保完整C尾/跳图后，原λ及A0列准确消元成D0+∫g dν。真实h≥3s²/5、s+2T/3≥1把密度上界归于一个S≥1三次式；全部有理P0/P1/P2和D三导/局部强凸判号付严格裕度。H∈[3/5,2]得到Δ4−βΔ6>7(4+34H)/(1500L)>0，接原R496覆盖H≥2，故允许类全五门无共同零。
 
 这不是有限搜索失败外推，也不撤单门实际构造；原正字符在该同一仿射增强商的下降按R471/R465/R466接线。未来固定宽真实joint、不同profile或同规范全路径必须各自支付其原门与适用条件，不能借改名移植旧收据。私有于12:28:02实际pull至199fa7501eef29206e301da42ef4062f1b5810e6，README空diff/QUEUE唯一进行中；主目标未付，继续下一项。
+
+
+## 2026-11-16 12:32 UTC：R517周期ruling自动原八矩返回
+
+[R517](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)用固定Δ各非零差幅、三个真实母矩Vandermonde和全部gap尾，证明Φ_MΔ=0必M=0。真正周期scalar保所有端germ并重复时，完整K对次数为准确二次式；[0,2L]三个原端点0/L/2L的二差给−2sin²θ E(Φ_MΔ)，故两次全K0迫原八矩M0。反之已付一次K0且M0则所有正时长重复都K0。
+
+若同一个scalar本来定义在合法实解析整圆上，固定C∞profile仍只进入有界固定配对，完整K对时间实解析；一周期K0由解析延拓自动给M0。它不允许把局部secant随意周期化，也不把R507三个端值返回当全周期jet匹配。下一项是真正构造该有限幅值周期轨道；frame/位置/全T,V/period/13及主完成门仍须另付。

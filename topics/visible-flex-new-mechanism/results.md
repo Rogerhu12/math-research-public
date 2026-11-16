@@ -444,3 +444,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R514 完整51环控制与条件17维曲率问题](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)：**已证明**原三jet层、实际G形算子及34低阶+17条件线性缩减；三层同原172盒，完整R1二次/normal、R0相位/Π和前102中段混合保。真实metric二次条件及幅界法向障碍已付；未授全body/连续reach或实际可行候选。
 
 - [R513 完整两行cap分离与全五门障碍](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)：**已证明**H∈[3/5,2]的Δ4−β(H)Δ6严格正裕度，保同一正Af缺量、全部C尾/跳图和原完整积分；接R496排当前允许cap全五门共同零。关闭该路线的同类搜索，不据此宣一般几何无解；原正字符下降范围严格按同一商接线。
+
+- [R517 周期scalar完整ruling与自动真实八矩返回](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)：**已证明**固定Δ八维尾忠实性、0/L/2L完整二差及两次重复判据；真正合法实解析整圆上一周期K0自动M0。未授周期轨道存在或frame/位置/第三第四period返回，主目标继续。
