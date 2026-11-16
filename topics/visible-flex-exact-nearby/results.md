@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [完整 collar Volterra 双侧反馈候选](results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md)：给出固定 WVC 参考上的两步 primal／dual collar 修正、完整过渡项和 family 差；由 compact-core 逼近保留真实 homogeneous graph。五图 50 个无条件新目标、严格门通过另 2；尚未运行，所需 signed collar 输入明确列为 Actions admission。
+
 - [WCTR 完整首次消费合同](notes/2026-11-16-R133-clipped-scalar-trace-current-inputs.json)：五份已审源码，45 current / 19 history / 16 AST；36 新＋20 原球复制，严格门成功另 2，全零时原六图和五条前缀全部复制。11 个完整静态输出模型独立重建同 SHA256，旧 WVC 43 科学／44 执行字段、WPS 全资格及 20 原记录保持；尚未执行科学目标。
 
 - [WEXA：31 项腰部端点界的完整实际证明](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)：全31新对象、62原记录和精确typed paths、18整体scope、15gates/16progress、两完整选择与32 SCI/43实际exec资格全保；同完整whole/reduced界约3.790258283e255，未宣告小门或总验收。
