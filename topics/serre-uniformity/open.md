@@ -48,7 +48,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 |R787原函数570后|43827877594 / 133165978118|38abf72112113bcd39d41ad68dbb301518040e5f|实际原数学步，120min/core93d3d72b/wrapper42157e0d|
 |R824原27+244从596后|43828509061 / 133167910211|9829a0385c61e9262c6038a365bc3de1c26015d2|实际原数学步，300min/core1ece3cf4/wrapperc5907739|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|300min/core80516ff9/wrapperab725da0，原数学继续|
-|R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|300min/core1feb579a/wrapperf6b97a7d，原数学继续|
+|R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|08:19结束exit125，532stage；实际41球未成，读取停止原因|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|已由370及371正残差进入七支续接，300min|
 
 **R787真实570**：[同核续接](notes/R787-570-digit-checkpoint-and-same-core-continuation.md)。intake43826442405已读manifest430709B/20d5e10f（1262项）、history133262B/00c503b1的570条与compaction3b70bf85一致。最新lift80520179B/d97acf14；原carrier123713383B/2f4371c9。原artifact14204698566/1c044998（Nov17 07:20到期）。core93d3d72b/wrapper42157e0d不变；不重545以前、旧518全56格。小件Range不冒大lift重哈希；公开续接须读真实完整lift。
@@ -57,7 +57,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **A.1**：七小L真条件不代A0−qB0=0。原full43790194976真BudgetStop/124，370current11a4f187、371正残差f26fe3db、原target000a9bbc/Jb384a331/1481原源全部保；详[激活](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)。半坐标coreffe5dcff/wrapper1552e403/request9492c873只七支17920RR再全35840准确乘回；HP.2合法完整current反例或全Theta/Delta才判A.1，RR失败不拒q。不混primal570。
 
-**R854/R858**：同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
+**R854/R858**：R854实际exit125/非外层timeout，532stage/artifact14207739171/b0a8babc；停止原因及所需新精度正在读取，R858不启动。同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
 
 ### 原Y：已成准确源与正在执行的矩阵
 
@@ -65,7 +65,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **R868准确P0已闭**：[正式60d92f04](results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md)，run43819875762/source9586473c，699stage/120.828237493s；rank271、真实自由坐标271=1、584位准确h5de7d08d及full272K，逆点13de406d/十模块0e73e6cc。两271模逆a36b8271直接复用；artifact14203769509/d57536f9、80源carriere7cd24e2。128/144截面和height仍未算。
 
-**R872原jets/有界RR纸证已闭**：[完整纸证](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)bd6ee11a，[真实消费者](notes/R872-original-point-jets-and-fixed-Picard-space-activation.md)。core0e589751/wrapper2b3d0763/request87494fc2，90原件、ζ549966761、旧第二271逆及五Krylov0..4，300min/8试。rank271正规参数求273jets，完整272×418→146；u恰272阶，秩962/Schur272给固定χ的418核。run43830071469/job133173089548/sourcea07453ec已在实际数学步；数值未冒成功。六真极方向须11/23/15/15/25/27完整纤维，五Lj128/144与t帧/height仍未成；unit-solve与模值分开。
+**R872原点jets与固定χ空间实际已成**：[正式结果](results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md)。run43830071469/job133173089548/sourcea07453ec，13.596525042s/299stage；273原jets、完整146核d3866114、固定degree272 χ的418核250489e7，trial1/rank962，finalb2837667。artifact14207558653/146222980B/b91d6fcc（Nov17 08:19），90源carrier1844eeef；小IO43830573335已读实际cert/manifest5001e5be。准确char0 unit-solve与实际模值分开，char0系数展开false；五Lj128/144、t帧/Γ/height仍false。六真极方向11/23/15/15/25/27完整纤维接下去。
 
 **R864/866/865/R870**：原127核、真H/J/逆、cY/Q-fixed基even54odd73、真T7全部560×127及16无重谱均闭，旧算术不重。R870[正式c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)，run43822039811/sourceeb46ca01，20stage/0.579488830s；N0=χ7(8)、16ni、1959位共同d*/80输入已成，finalbe29c872/artifact14205027300/723ec402、42源carrier6a9d22de。原ξj∈JY(Q)，含7-primary的挠判保留；合法好约化处niPiξj真非零⇒Eiηj活跃，模零未定。实际η支持/eη/主函数/nonp未算。
 

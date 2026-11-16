@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0800-R824-current-and-last-history-metadata",
+  "request_id": "20261116-0825-R854-ended-original-precision-state",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "9bff804799c7dbf06685eeb3a03578cf8f200eb6",
+  "rules_last_read_commit": "0efd294396688cb5c0905b1d7a299cb4d5ad77ba",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,35 +12,18 @@
   "reader_sha256": "1370ce20977ffdf62354c9a2898200f408ca2d58093c1277686b2b020884327e",
   "sources": [
     {
-      "label": "R824-current",
-      "mode": "selected",
+      "label": "R854",
+      "mode": "ended",
       "source": {
-        "run_id": "43792912432",
-        "source_commit": "33f5c3288305cdfc8ed1adb5e1e4fee3ed940870",
-        "artifact_id": 14205663835,
-        "artifact_name": "serre-global-R824-original-global-polar-generators-43792912432-1",
-        "archive_bytes": 1391989692,
-        "archive_sha256": "fd1084f9742b715efa7a305ce724ffc6900ba45c64d5437d9baf1ad550a3aab6",
+        "run_id": "43805506433",
+        "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3",
+        "artifact_id": 14207739171,
+        "artifact_name": "serre-global-R854-original-p41-four-responses-43805506433-1",
+        "archive_bytes": 151091181,
+        "archive_sha256": "b0a8babc0eb1e2951e461cde1f47ddf37c1a07a87988ad8a453abf964ff3cf05",
         "expected_conclusion": "failure",
-        "manifest_sha256": "27a030ff753d8ca155654b2e1ae451e76005e2943dfaf7b4f83b9f9608aa3c9a",
-        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb"
-      },
-      "files": [
-        {
-          "file": "R824-power5-free-1187-current.json.gz",
-          "bytes": 5693,
-          "sha256": "e0aaa50aff3706e745580747b8eeb8cd753805c3eae9116d9b94dc087e1dff4f"
-        },
-        {
-          "file": "R824-power5-free-1187-history-00000596.json.gz",
-          "bytes": 5737,
-          "sha256": "31993dac408b593b67817123c707bfac6687e9ec6377980edbddf2c120be70ad"
-        }
-      ],
-      "print_json_files": [
-        "R824-power5-free-1187-current.json.gz",
-        "R824-power5-free-1187-history-00000596.json.gz"
-      ]
+        "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f"
+      }
     }
   ]
 }

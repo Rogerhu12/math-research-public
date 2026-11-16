@@ -616,3 +616,8 @@
 - R875纸证闭合原tame CM常数与首Cartier因子：B²R(P†)²=ζ²α²C_p；原六级/共轭/局部投影1/2/周期及Hasse B全部固定，不断言C_p非零，不删C_(p−3)或R706。
 - R872真实run43830071469/job133173089548已在数学步；R873首dispatch404后已接受run43830067416、queued。源码均main a07453ec，H归档完整保旧态并更新真实边界。
 - 本push规则：公开Actions真实pull至0efd294396688cb5c0905b1d7a299cb4d5ad77ba（2026-11-16T08:19:50.301843+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:24 Asia/Taipei — serre-public-astra-20261115
+- R872实际完成13.596525042s/299stage：273原jets、146核、trial1/rank962与固定χ418核；finalb2837667/manifest5001e5be，90源保真。char0仅准确unit-solve、五Lj/t帧/height仍false。
+- 同次公开verify已全核输出字节；纯IO43830573335读取实际cert与原身份，无重复数学。R854另于08:19以125结束、532stage、非外层timeout；只读取真实停止原因，R858仍pending。
+- 本push规则：公开Actions真实pull至754eeff98d66f5cb6f8515d5bf9ef856839c1f8f（2026-11-16T08:24:41.196685+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
