@@ -1,0 +1,595 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "critical-plus-quadratic-tangent-two-positive-jets",
+  "executionSourceCommit": "d911b71c93dd43ea63c6faa66d29e43df2205c0d",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-quadratic-tangent-two-positive-jets-789f.py",
+  "scriptSHA256": "ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac",
+  "argvTemplate": [
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--weak-driver",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--field",
+    "plus",
+    "--parent-out",
+    "{work}/critical-plus-weak-quadratic-positive-jets",
+    "--parent-receipt",
+    "{scripts}/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+    "--out",
+    "{work}/critical-plus-quadratic-tangent-two-positive-jets",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 330,
+  "exitCode": 0,
+  "wallSeconds": 19.357063618997927,
+  "fullTemporaryReceiptBytes": 6265,
+  "fullTemporaryReceiptSHA256": "7bd8cf63125751bcdbf95e07f7663af34874ccfa793328df283da523a262e352",
+  "result": {
+    "binding": "60f622f497289f0c64d0133c769012de6816b100c336813f2492b1bc00960f24",
+    "elapsedSeconds": 19.256911595999554,
+    "format": "r150-critical-quadratic-tangent-two-positive-jets-v1",
+    "scriptSHA256": "ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac",
+    "status": "completed",
+    "parameters": {
+      "actualLeadingRank": 11,
+      "additionalPositiveLengthLowerBound": 0,
+      "all6188OriginalJetProductsZero": true,
+      "allExpandedLowEmbeddingRowsVerified": true,
+      "allOldCanonicalHeadsRetained": 11,
+      "allParentTaylorCoefficientsMatched": true,
+      "checkpointManifest": {
+        "bytes": 11053,
+        "file": "checkpoints/manifest.json",
+        "sha256": "99dfb5b7fdbc86c04b570a7e6c0b9a033583cd95ba872f6cd7ef411b8a338c63"
+      },
+      "completeCochainCheckpoint": {
+        "bytes": 123661,
+        "file": "expanded-full-positive-jets-verified-2a6dbb8213ad69a8a5b05b63afe035ab35ec88be27ed562b4c8fa57d7ee243ea.json.gz",
+        "payloadSHA256": "2a6dbb8213ad69a8a5b05b63afe035ab35ec88be27ed562b4c8fa57d7ee243ea",
+        "sha256": "4202e2a389d59041f61299ae5e08e5cef79928429001185d6f7dd09cc67a9661",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "completeHighSpaceBeyondThisSliceNotClaimed": true,
+      "completeQuadraticTangentTwoSlice": {
+        "all6086OutsideRowsZero": true,
+        "allOldHighColumnsIncluded": true,
+        "highDimension": 2,
+        "highSHA256": "c6e32be3286aa85e1120b91c810c74f2b5707d8cce04ab4a5b2749edfd0d5877",
+        "lowReturnSHA256": "4906c2befd80776d7bfdade06230be7e069072c43b089f2f3160e59c44bfdf75",
+        "originalProductCoordinates": 12376,
+        "symmetricCompatibility": {
+          "allOriginalRowsVerified": true,
+          "allUnitRowsVerified": true,
+          "freeColumns": [
+            0,
+            46
+          ],
+          "independentColumns": [
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            45,
+            2,
+            1,
+            16,
+            23,
+            29,
+            34,
+            38,
+            41,
+            43,
+            44,
+            15,
+            22,
+            28,
+            33,
+            37,
+            40,
+            42,
+            14,
+            21,
+            27,
+            32,
+            36,
+            39,
+            13,
+            20,
+            26,
+            31,
+            35,
+            12,
+            11,
+            19,
+            18,
+            25,
+            24,
+            30,
+            10,
+            9,
+            17
+          ],
+          "independentRows": [
+            81,
+            90,
+            63,
+            72,
+            0,
+            9,
+            54,
+            45,
+            18,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            97,
+            89,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            88,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            73,
+            74,
+            75,
+            76,
+            77,
+            55,
+            28,
+            56,
+            29,
+            57,
+            30,
+            58,
+            46,
+            1,
+            47
+          ],
+          "inputSHA256": "8daa6dd5d10173649469573db4e41caab3b826dc3b0947bf8699459bf1abc314",
+          "kernelSHA256": "5dae6af50778c7233c66964b4321e627ff4dfbc52f90f2e35357b9c1f57168a6",
+          "rank": 45,
+          "shape": [
+            153,
+            47
+          ]
+        },
+        "topPencil": {
+          "allOriginalRowsVerified": true,
+          "allUnitRowsVerified": true,
+          "freeColumns": [
+            0,
+            9
+          ],
+          "independentColumns": [
+            8,
+            17,
+            7,
+            16,
+            6,
+            15,
+            5,
+            14,
+            4,
+            3,
+            13,
+            12,
+            19,
+            2,
+            1,
+            18,
+            11,
+            10
+          ],
+          "independentRows": [
+            9,
+            26,
+            10,
+            27,
+            7,
+            24,
+            8,
+            25,
+            6,
+            3,
+            17,
+            18,
+            23,
+            5,
+            0,
+            4,
+            22,
+            19
+          ],
+          "inputSHA256": "f8cc16c0b06b95ded111370b90bc245670cd11b5761360f33fa7651b6c663d43",
+          "kernelSHA256": "ff7df429cecda715ae1cda085a78c5732a53d282815f313e7fdd0627b6bb8104",
+          "rank": 18,
+          "shape": [
+            34,
+            20
+          ]
+        }
+      },
+      "currentPhase": {
+        "name": "constant-profile",
+        "step": 13
+      },
+      "expandedCombined": {
+        "allOriginalRowsVerified": true,
+        "inputShape": [
+          102,
+          74
+        ],
+        "kernelDimension": 24,
+        "kernelSHA256": "bc7ff6e5a1508ebe1ca794be90f870f612887abaffa7266db8a919158fe6335e",
+        "originalInputSHA256": "c53a13e324c37cf22ad668bc0f85cc5bbc0f55c9dab8cff95645f8a48485af17",
+        "rank": 50,
+        "reusedUnitRank": 25,
+        "schurRank": 25,
+        "schurShape": [
+          77,
+          49
+        ]
+      },
+      "expandedLowConstant": {
+        "allOriginalRowsVerified": true,
+        "inputShape": [
+          102,
+          59
+        ],
+        "kernelDimension": 13,
+        "kernelSHA256": "44320d6618c51e128ef3801f67ce274aef0826615af40f6d7f878dfdfd76d8f9",
+        "originalInputSHA256": "0fcd9478986ae7c86f8254b03dc69bf4f5704afbaa87e00eb0ce816ff106082c",
+        "rank": 46,
+        "reusedUnitRank": 25,
+        "schurRank": 21,
+        "schurShape": [
+          77,
+          34
+        ]
+      },
+      "expandedLowShape": [
+        102,
+        59
+      ],
+      "field": "plus",
+      "fieldArithmetic": {
+        "multiplications": 337332,
+        "verifiedInverses": 431
+      },
+      "fieldPolynomialAscending": [
+        -8,
+        32,
+        -25,
+        5
+      ],
+      "fullLeadingRank": 13,
+      "fullOriginalLengthLowerBound": 6,
+      "helperSHA256": {
+        "field_helper": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c",
+        "generator": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186",
+        "jet_actions": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+        "low_generator": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+      },
+      "largeDataUploadedOrCommitted": false,
+      "lastJetOrder": 3,
+      "memoryMiB": 2048,
+      "naturalParameter": "t=s-alpha",
+      "newCanonicalSeriesSolved": false,
+      "newExactDegreeFourHeads": 2,
+      "nineOriginalSquareReadouts": [
+        {
+          "nonzeroEntries": 0,
+          "order": 0,
+          "sha256": "53444ae3d13ff6e3607bbc5bc2c52f8829e5516b5cd02ec5acb9e82bc4f1aa8f",
+          "shape": [
+            9,
+            13
+          ]
+        },
+        {
+          "nonzeroEntries": 0,
+          "order": 1,
+          "sha256": "53444ae3d13ff6e3607bbc5bc2c52f8829e5516b5cd02ec5acb9e82bc4f1aa8f",
+          "shape": [
+            9,
+            13
+          ]
+        },
+        {
+          "nonzeroEntries": 0,
+          "order": 2,
+          "sha256": "53444ae3d13ff6e3607bbc5bc2c52f8829e5516b5cd02ec5acb9e82bc4f1aa8f",
+          "shape": [
+            9,
+            13
+          ]
+        },
+        {
+          "nonzeroEntries": 0,
+          "order": 3,
+          "sha256": "53444ae3d13ff6e3607bbc5bc2c52f8829e5516b5cd02ec5acb9e82bc4f1aa8f",
+          "shape": [
+            9,
+            13
+          ]
+        }
+      ],
+      "noFullConnectionLowerBoundOrGlobalMembershipClaimed": true,
+      "original25UnitSHA256": "3ef01bcde90e1a1dee1539d5f6fc667afcc3e790b525f1542f02fc2f68359501",
+      "originalEquations": 17,
+      "originalJetProductCoordinates": 321776,
+      "originalProductSHA256": [
+        "9e4ed58fd649587d7fd9c67987435d303e43b8b9427d95a3c734d45aab501f2b",
+        "9e4ed58fd649587d7fd9c67987435d303e43b8b9427d95a3c734d45aab501f2b",
+        "9e4ed58fd649587d7fd9c67987435d303e43b8b9427d95a3c734d45aab501f2b",
+        "9e4ed58fd649587d7fd9c67987435d303e43b8b9427d95a3c734d45aab501f2b"
+      ],
+      "originalSourceRows": 6188,
+      "originalTargetCoordinates": 4367,
+      "paidFullLocalUpperBound": 8,
+      "parent": {
+        "binding": "fc1dd340764a2c3f419f2f8fa2cb13581585be8af1a680871ddac1d7fa157593",
+        "manifest": {
+          "bytes": 10739,
+          "file": "checkpoints/manifest.json",
+          "sha256": "3a6c668298211eb5831ab35876f59ce88be6f164f50077a7dbb2e8f402aa8e98"
+        },
+        "rawBytes": 14425,
+        "rawSHA256": "c7b70b2ec6155d0d9e3e4dc706ba5c39b3cd6433383458551f695c162600557e",
+        "receiptBytes": 29268,
+        "receiptSHA256": "30043fb3e263f861166f439c198af93bc10a69a8c5940acad42fe0429c3d86e6"
+      },
+      "parentIsReadOnly": true,
+      "parentSourceSHA256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b",
+      "quadraticPhysicalChecks": {
+        "all17PureAnd27LinearCrossChecksVerified": true,
+        "higherQuadraticTaylorCoefficientsNotFabricated": true,
+        "ordinaryMonomialPairs": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "originalJ2SHA256": "a47d1a5085bdf065ed8b6d18469917e39466fa1d98829f70d4a629d6377ae7b8",
+        "originalJ3SHA256": "699ff843b64769b884e0f45503b9e2082696815d2fb1fdc472d0af7cf23c8ec6",
+        "quadraticConstantSHA256": "89f14a3eeccd2da0d9f108e256d1f08b3bb2798fa2d16b4597981e24aad47a6c"
+      },
+      "remainingSeconds": 300.0,
+      "zeroGainOnlyConcernsTheStatedSupportAndLowerJets": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:05:43 UTC",
+      "beforeReadCommit": "08c878d8af0122fb16c77cf33253415e18cadff3",
+      "originMainAfterPull": "d911b71c93dd43ea63c6faa66d29e43df2205c0d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:06:02 UTC",
+      "beforeReadCommit": "d911b71c93dd43ea63c6faa66d29e43df2205c0d",
+      "originMainAfterPull": "d911b71c93dd43ea63c6faa66d29e43df2205c0d",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 98,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 33615,
+    "logicalJsonSHA256": "0a62a83aeadff51a52cac0eac705ffbe941d1e83b65bd5447f6a5d6ad346250a",
+    "itemCount": 98
+  },
+  "lastRulesReadCommit": "d911b71c93dd43ea63c6faa66d29e43df2205c0d",
+  "summaryExcludesRecomputableArraysOnly": false
+}
