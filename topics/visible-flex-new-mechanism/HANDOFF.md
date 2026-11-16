@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。R493推送遇并发更新后立即实际rebase：run43779613612/rules133191649865，公开08:59:04.474386→08:59:06.366345 UTC，源7bfb32a3…到已读 **2d0af06a7b6f7c0871076f0389ad7ff8890a5bf8**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:59:04 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
+根/题README已全文读。最新三原子run43837374645的research133197253175在09:10:54→09:10:56及report133197546045在09:11:24.085628→09:11:24.356105 UTC均真实public pull，源7f341445…到已读 **45c5df467d193aebd8ad3c8b48ddcd54086fdb35**，rc0、双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **10:11:24 UTC**；变化只读diff立即执行/记SHA，NFF立即真实rebase续推，不force。
 
-私有同job08:59:10.088082→08:59:10.556228，before=after **73387e21925c17732705091c85d4f07644161775**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。此前pull完整来源保原note；私有正文不发表。
+私有同两job实际pull分别已读 **3e53058255f12241b79f3de052c81cb753af56d0** 与 **71de2e18df5515e9c9aa5590ff593be8ffa850fd**（最后09:11:26.239161→09:11:26.568886）。私有根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。每次pull详时/来源见[本次note](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)及原notes；私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端08:59再试仍无可用执行环境、进程未启动（不是审批拒绝），依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -38,9 +38,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 完整**54** MODEL27410526B/**2aeadf3edb066a2687af605ef6d33a24322221d886751c177977199b68212ed5**，bindinge69cafa6a8e8811d3595f4490a95c14a1cdea390aa94ab71079b5a5095777ced。真实**55** CACHE2 **29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f**，binding **697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6**，只含本次已付U/T/e/f/radial/theta/159（0额外重算）；不含positions/curvature/二jets/J。54完整模型不冒55模型，原方向已闭。全部payload原stdout，不进Git/artifact/Release/cache。
 
-## 5. 正在接续（2026-11-16 09:10:25 UTC）
+## 5. 正在接续（2026-11-16 09:14:07 UTC）
 
-真正三原子五参数cap已建新请求与源码：[执行边界](notes/three-curvature-atom-cap5-new-model-design-20261116.md)，workflow visible-three-atom-cap5-search.yml。完整12L/8Aj/五Delta/解析5J，36固定起点；同120秒/5000完整值J，105秒停搜索，首原G∞≤1e−8才同账有向收缩。0旧cap15/ψ3/self/ODE/J/rank/开发重算，原stdout不入Git。新研究及只读报告启动后立即记run/job/源和实际pull；真零尚未得到。
+[三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
 新几何从真正55开始，冻结旧159，仅增加R490完整9列：独立168/物理172。旧54 MODEL不冒55；55原CACHE缺二jets，必要两网ordinary与新9导数同一新600秒；最多16新行集/完整双网分离、64新attainer、64scalar、3actualpairs。所有原14门及准确172盒，须比55新降≥1e−7才接受56。旧159 defect不当新9证书；有限9fiber失败不排完整168族。源码装配中。
 

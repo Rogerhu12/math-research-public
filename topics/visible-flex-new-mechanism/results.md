@@ -331,3 +331,7 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 09:10:25 UTC — 三曲率原子完整五门新模型启动
 
 [执行设计](notes/three-curvature-atom-cap5-new-model-design-20261116.md)与源/请求/工作流同提交。新五实参数、全12L/8Aj/五Delta及完整解析J，36固定起点，120秒含imports/input/output与5000完整值J，105秒停搜索；仅首原G∞≤1e−8候选可同账有理收缩。旧15族/ψ3/self/ODE/rank/开发0，日志/证书只在原Actions stdout。此处尚无数值结果；主任务仍进行，根同时装配55的完整新9fiber，纸面接真实source商与桥。
+
+### 2026-11-16 09:14:07 UTC — 三原子36起点完整观察闭合，继续新问题
+
+[原结果](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)：run43837374645/research133197253175/report133197546045/source7f341445…，36起点全返回、2119值J完成0失败，总4.541460807000007秒。原best G∞.0014877791991098396、H.6101807800524467，未触发真零候选/有理证书；许多末点在chart边界，不当全族极小或不存在证明。旧全部研究0，原stdout6863912B/59b01cff…；任务闭，不重开余额。双job实际public/privatepull均README空diff，最新已读公开45c5df46…/私有71de2e18…，QUEUE唯一进行中，下一≤10:11:24。继续55新9完整几何与五门/真实桥新问题，主完成门未付。
