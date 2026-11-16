@@ -632,3 +632,234 @@ $$
 来源。该局部计算本身不构造 division Shimura 来源，也不提供
 它与 $\mathcal Z_{\rm orig}$ 或 R854 的 $H_j$ 之间的循环对应。
 它尤其不改变第9节关于7993检测对象的区别。
+
+## 附录 B. 原 CM 符号、Artin 方向和完整 toric 乘积
+
+本附录核对同一 $\mathcal Z_{\rm orig}$ 的实际 $L$-动机。
+结论有两个必须同时保留的部分：
+
+- 原端点选定的全同号 CM 分量确为 R814 的
+  $\lambda_j=\eta_j^{-1}\psi_0^3$，不是另一个 root-positive 角色。
+- 仅取完整 $\Pi$ 和一个有限 point-factor 角色、却不再区分两个 CM 符号，
+  会保留一个更大的对象。其 toric Rankin $L$-函数有两个权四 CM 因子；
+  它不能代替第一条单独的 $\lambda_j$。
+
+### B.1 原循环的角色方向
+
+沿 R832，置
+$$
+M_+=H_+^{\otimes3},\qquad M_-=H_-^{\otimes3},
+$$
+其实现分别为 $\psi_0^3,\bar\psi_0^3$。
+以 $A(\rho)$ 表示实现为有限角色 $\rho$ 的 Artin 动机。
+R832 的实际 $h^1$ 同构和 tensor 投影给
+$$
+\boxed{
+(M_{\lambda_j}^{\rm orig})_K
+=A(\eta_j^{-1})M_+
+ \oplus A(\eta_j)M_- .
+}
+\tag{B1}
+$$
+这里仍是原 $f,g,h$ 的全同号因子，保原 $q_0,q_2$、Hecke
+幂等元和全部次数；不是从新的 theta series 反认原循环。
+
+为避免把有限角色反写，固定 Artin 平凡化域 $H$。
+若基向量 $e_\rho$ 满足
+$g e_\rho=\rho(g)e_\rho$，则一个 $K$ 上循环写为
+$e_\rho\otimes z$ 后，下降条件准确是
+$$
+g z=\rho(g)^{-1}z.
+\tag{B2}
+$$
+此式中的代数系数作为标量固定，投影只作用于 point factor。
+所以(B1)的 $M_+$ 部分属于几何角色 $\chi=\eta_j$，
+而 $M_-$ 部分属于 $\chi=\eta_j^{-1}$。
+反向选择 CM 符号时，不能仍称为原 $\lambda_j$ 线。
+
+具体而言，令 $\pi_\pm$ 为原 $\Pi$ 内的两个 CM 幂等元，则
+$$
+\mathcal Z_{\rm orig}
+=(\pi_+e_{\eta_j}+\pi_-e_{\eta_j^{-1}})
+ \mathcal Z_{\rm orig}.
+\tag{B3}
+$$
+这是 R832 的真实 Artin–CM 分解在平凡化域中的写法。
+一般的 $\Pi e_{\eta_j}$ 还允许
+$\pi_-e_{\eta_j}$；后者不是(B3)所选的分量。
+
+定义另一条固定角色
+$$
+\lambda_j^\sharp=\eta_j\psi_0^3.
+\tag{B4}
+$$
+则反向配对的两条线组成
+$$
+(M_{\lambda_j^\sharp})_K
+=A(\eta_j)M_+\oplus A(\eta_j^{-1})M_-.
+\tag{B5}
+$$
+(B1)与(B5)有不同的有限角色，不能只因其无穷型均为 $(3,0)$
+就把它们相认。
+
+### B.2 两条权四角色的全部坏处与无穷位
+
+沿 R806 的原 unitary 规范，写
+$\vartheta=\vartheta_{l_j}$。
+原 $\lambda_j$ 和(B4)的完整有限表为
+$$
+\begin{array}{c|c|c|c}
+v&\lambda_j\text{ 的单位角色}
+ &\lambda_j^\sharp\text{ 的单位角色}
+ &\text{两者的 uniformizer 值}\\ \hline
+2&\operatorname{Teich}_{\mu_3}
+ &\operatorname{Teich}_{\mu_3}^{-1}&-1\\
+3&u\bmod\delta&u\bmod\delta&+i\\
+17&\vartheta^{-1}&\vartheta&-1.
+\end{array}
+\tag{B6}
+$$
+三处两者相同，是因为原 $\eta_j$ 在此不分歧且
+$\eta_j(\delta)=\eta_j^{-1}(\delta)=-1$。
+无穷位两者都为 type-$(3,0)$。
+
+这也直接核定两条角色的相同 epsilon，而不由全局 root 猜局部号。
+二处在同一 trace 加性角色下，$\mathbf F_4^\times$ 的两个非平凡
+cubic 角色 $\xi,\xi^{-1}$ 满足
+$$
+\sum_{a\in\mathbf F_4^\times}
+ \xi^{\pm1}(a)(-1)^{\operatorname{Tr}_{\mathbf F_4/\mathbf F_2}(a)}
+=1-\omega-\omega^2=2.
+$$
+其 uniformizer 值和原 additive conductor 相同，故两条二处
+epsilon 相同。十七处 R806 的原完整计算同时适用于
+$\vartheta,\vartheta^{-1}$，因为两者在 $\mathbf F_{17}^\times$ 上平凡且
+$$
+\vartheta(\delta)=\vartheta^{-1}(\delta)=-1.
+$$
+两条 trace Gauss 和均为 $-17$。
+三处完整角色相同；无穷 Hermite 方向也相同。
+因此由 R806 已付的绝对规范，准确得到
+$$
+\begin{array}{c|cccc|c}
+&2&3&17&\infty& W\\ \hline
+\lambda_j&1&-i&1&-i&-1\\
+\lambda_j^\sharp&1&-i&1&-i&-1 .
+\end{array}
+\tag{B7}
+$$
+
+两条角色的导子均为 $(34\delta)$，对应权四新形式的 level 均为
+$10404$，primitive 坏 Euler 因子在 $2,3,17$ 均为1。
+在好 split 素数 $\ell=\mathfrak l\bar{\mathfrak l}$，原两 Euler
+多项式分别是
+$$
+\begin{aligned}
+&\bigl(1-\eta_j(\mathfrak l)^{-1}
+          \psi_0(\mathfrak l)^3\ell^{-s}\bigr)
+ \bigl(1-\eta_j(\mathfrak l)
+          \bar\psi_0(\mathfrak l)^3\ell^{-s}\bigr),\\
+&\bigl(1-\eta_j(\mathfrak l)
+          \psi_0(\mathfrak l)^3\ell^{-s}\bigr)
+ \bigl(1-\eta_j(\mathfrak l)^{-1}
+          \bar\psi_0(\mathfrak l)^3\ell^{-s}\bigr).
+\end{aligned}
+\tag{B8}
+$$
+在好 inert 素数 $\ell$，两者均为
+$1+\ell^{\,3-2s}$。
+各自的无穷因子是 $\Gamma_{\mathbf C}(s)$，中心是2。
+
+故(B1)的完整 Euler 和无穷数据，与 R814、R818 使用的原
+$\lambda_j$ 完全一致。这里没有发现单条原动机的 root 差异。
+这仍不构造 R814 的 Kuga–Sato 来源到(B1)的实际循环对应，
+也不把两个来源的 Abel–Jacobi 值相认。
+
+### B.3 满三级 toric Rankin 对象是两个因子的乘积
+
+令 $\pi_9=AI(\psi_0^3)$ 为附录A的同一个 $g_9$。
+在 $K$ 上
+$$
+\operatorname{BC}_K(\pi_9)=\psi_0^3\oplus\bar\psi_0^3.
+$$
+所以对 $\chi=\eta_j^{-1}$，
+$$
+\begin{aligned}
+L(s,\operatorname{BC}_K(\pi_9)\otimes\chi)
+&=L(\eta_j^{-1}\psi_0^3,s)
+  L(\eta_j^{-1}\bar\psi_0^3,s)\\
+&=L(\lambda_j,s)L(\lambda_j^\sharp,s).
+\end{aligned}
+\tag{B9}
+$$
+第二个等号只用理想共轭置换：
+$L(\eta_j^{-1}\bar\psi_0^3,s)
+ =L((\eta_j^{-1}\bar\psi_0^3)^c,s)
+ =L(\eta_j\psi_0^3,s)$。
+若取 $\chi=\eta_j$，两个因子的次序交换，乘积相同。
+
+等价地，完整四维诱导表示精确分解为
+$$
+\pi_9\otimes AI(\eta_j)
+=AI(\lambda_j)\oplus AI(\lambda_j^\sharp).
+\tag{B10}
+$$
+在已经构造的 Artin–CM Chow 范畴内，同样由(B1)、(B5)逐线分解；
+无需假设一般高权 Chow 实现全忠实。
+(B10)的无穷因子为 $\Gamma_{\mathbf C}(s)^2$，
+有限导子为 $10404^2$，坏 Euler 因子仍全部为1。
+
+由(B7)，这个完整 toric Rankin 对象的 global root 是 $+1$，
+而且两因子在中心 $s=2$ 各至少单零，故
+$$
+\boxed{
+\operatorname{ord}_{s=2}
+ L(s,\operatorname{BC}_K(\pi_9)\otimes\eta_j^{\pm1})\ge2.
+}
+\tag{B11}
+$$
+R818 已付第一因子准确单零；本篇不预付
+$\lambda_j^\sharp$ 的准确解析秩或任何 $p$-adic 非零。
+
+### B.4 local3 与无穷位的 division 条件
+
+附录A已付原3处
+$\epsilon_{\rm BC}=-1$，以及所选 toric Hom 要求 division。
+无穷位同样可直接核，不必由(B11)倒推：
+$\pi_{9,\infty}$ 是权四离散系列，其 split compact torus 权为
+$\pm4,\pm6,\ldots$，不含有限 $\chi_\infty=1$。
+其 Hamilton quaternion 转移的代数部分为
+$\operatorname{Sym}^2\mathbf C^2\otimes\det^{-1}$，
+在同一 torus 上的权为 $2,0,-2$，恰含一条平凡线。
+所以无穷位也要求 division。
+
+这与附录A的同一 epsilon 规范逐项相合：
+$$
+\begin{array}{c|cccc}
+v&2&3&17&\infty\\ \hline
+\epsilon_{\rm BC,v}&+1&-1&+1&-1\\
+\epsilon_{K_v/\mathbf Q_v}(-1)&+1&-1&+1&-1\\
+\epsilon_{\rm RS,v}&+1&+1&+1&+1\\
+\epsilon(B_v)\text{（toric Hom 所需）}&+1&-1&+1&-1 .
+\end{array}
+\tag{B12}
+$$
+其它地方也为 split：好 inert 地方由球向量的 torus 不变性，
+split 地方由同一中心角色相容的局部 toric 模型；
+二、十七处亦可直接用不分歧 principal series 的开轨道模型，
+或用(B12)的 Tunnell–Saito 判据。
+故相容的是在 $3,\infty$ 分歧的 coherent definite quaternion。
+
+(B12)解释的是完整(B9)，不是给单条(B1)改一个 root。
+即便换到该 division 来源，中心 toric 周期的 Waldspurger
+乘积仍含(B11)的两个零因子；不能据“局部向量现在非零”
+就取得原 canonical Abel–Jacobi 非零。
+
+综上，R858 的满三级垂直消失、原所选 $\lambda_j$ 的 root $-1$、
+完整 toric 对象的 root $+1$ 与 $3,\infty$ 两处 division 条件
+彼此相容。当前需要的仍是同一 $\mathcal Z_{\rm orig}$ 的同步迹
+或实际 canonical 循环对应；没有产生可以替代它的符号矛盾。
+
+本附录只引用 R832 的实际 Chow 分解、R806 的原局部角色和 Gauss
+规范、R814/R818 的原 $\lambda_j$，以及附录A已列的
+Cai–Shu–Tian 局部规范。没有新增计算或不同来源的非零输入。

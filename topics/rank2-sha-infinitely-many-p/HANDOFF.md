@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：89b04703cbea19afdbaf6dccc2c9ca48562a3ee2；2026-11-16 05:33:06 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:28:45 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
+- 最近已读规则提交：cb6f93b61fb58ec077ed38502479df33edd27404；2026-11-16 05:36:22 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:36:21 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -21,7 +21,7 @@ R1–363、365–560、562–653、655–711、713–858已登记；R364/R561/R6
 原R804/806/811/814保z=(1/30)prK twν(eηu∞)、固定7/13 good pair、三λ/34δ、完整Euler/period及原三I组合。R831唯一Z02=Z、Z20=−Z与source3/6^-2/12^-2/1632/816全保。R817的7993仅检测R814固定Δ_j及R854固定H_j，**没有检测修复端点Zorig**。
 [R852](results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)给原degree9 Γ的真Chow逆及AJ−18/−1/18；[R857](results/R857-original-full-three-scholl-and-generic-cm-cycle-criterion.md)给实际全三挠φ及完整648项ε3、ΘᵗΘ=81Π、ΘΘᵗ=81ε3，原AJ仍读−Ω3/18。所有解消/水平例外/Artin保。
 [R854](results/R854-original-canonical-cm-contraction-and-threefold-heegner-cycles.md)保Dδ²−6、真Cδ/Iδ、每φ的(degφ/34)H_B、Bj,p=−2δAj,p及平方+12·34⁴；7993给三个canonical H_j非零/finiteχ独立。它们到原端点的实际循环对应与其它p非零未付。
-[R858](results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：同full3每个order3 deck平均全Chow零；任意CM fibre类定义于KH3c(F)。F=K的3惯性迹零含c1特殊单位，F≠K的dihedral一维角色仅阶≤2；原η在3不分歧/平方阶9，故全垂直χ部分零。原res单射，Zorigχ0 iff同同步双点迹Tτχ0。实际3边保34/102及3/1/9，附A核εRS=ηK(−1)εBC、split Hom0。**尚未判Zorig或Tτ零/非零。**
+[R858](results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：同full3每个order3 deck平均全Chow零；任意CM fibre类定义于KH3c(F)。F=K的3惯性迹零含c1特殊单位，F≠K的dihedral一维角色仅阶≤2；原η在3不分歧/平方阶9，故全垂直χ部分零。原res单射，Zorigχ0 iff同同步双点迹Tτχ0。实际3边保34/102及3/1/9，附A核εRS=ηK(−1)εBC、split Hom0。**尚未判Zorig或Tτ零/非零。** 附B付原CM±/pointχ反向与同λ：单线root−，全toric λ×λ♯的root+及至少二阶中心零不产生sign矛盾。
 R839–849保原CH²平移/Ceresa/Hom/全S,W；原generating属3–6已排，g7两必要signature不代实际存在。同最高动机不赋CH rank1/AJ单射/跨p非零；R835伴随根数、所有旧height/critical Artin范围继续按完整前检。
 
 ## 四原输入、同水平格与真正除p

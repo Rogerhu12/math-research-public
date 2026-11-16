@@ -63,3 +63,6 @@
 
 
 - [原全族临界值的判别式平方](2026-11-16-r840-complete-primitive-critical-value-discriminant.md)：原同一Euler原函数族Q→∫F²Q mod(F,底常数)在升幂基的det准确为2^b disc(F)²/(3b−1)!；五阶根碰撞及最高根极限自含支付全部常数。故一般可分的DVR族总余核长恰2v(disc)，真实X^m−τ模型各指数2。非首一为该式/f_b^(2b−2)，仿射转框和所有非单位边界另保。回原J时同L/Y消最高F_Y项须保实际−aF0³/3零charge；相对k(t)商不用于物理前缀。未判同Kcorr/Hcorr受限像、WT或forcing。
+
+
+- [R858附录B](../results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：R858附B付原CM±/pointχ的准确反向：原all-plus取A(η⁻¹)M+、几何χ=η，选定两线正是R814的λ=η⁻¹ψ0³。另λ♯=ηψ0³的2/3/17/∞ epsilon同为(1,−i,1,−i)，各root−；全g9 toric Rankin=AIλ⊕AIλ♯，导子10404²、ΓC(s)²、root+且中心阶≥2，3/∞都需division。无原单线sign mismatch；不据完整乘积或局部Hom把7993移给Zorig。
