@@ -177,7 +177,7 @@ R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1
 
 R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)给dual αp坐标及通常Lie同ζ²，Picard–Serre配到ω的ζ层；不把它套成半线性惯性descent的两次逆号。全部显示角色/公式和非零边界不变，R916整ann证明独立。
 
-**R914完整原146几何反射与P1 jets执行源已激活**：[执行契约](notes/R914-original-full-V1-involution-and-P1-jets-method.md)。五件已全文读，corec7dded45/wrappera6a26387，六原数学组469件从四真实载体取；仅143新准确RHS，原三列/选行/273阶/CM值/帧复用。全560准确方程与C²保原K线性；P1用ρ1=ι*ρ0及c1=−c0，正常函数273项/t帧三项分别保留。不重W/Γ/Mg/Hensel/旧三解，不拿127全纯矩阵代146。实际run43898224893已success，完整输出正读；rank8、九Norm、rigidification与height均false，R917继续真实小端点order。
+**[R914完整反射及P1实际认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：run43898224893/job133407590978/source1b397d40，26stage/0.658301383s；143新准确RHS、81760原方程/C²全过，完整146有理C、272×273原P1正常jets均已成。ρ1=ι*ρ0不换z−zP1，c1=645187085=−c0，t1仅前三项；原CM公共τ恰取消一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505及469原成员完整pin见结果；rank8/九Norm/刚性帧仍false，R917直接消费。rules真pullbf30a01f2e26a906cb62f2b2482ae629019de42b/15:36:57UTC两README无diff已读。
 
 
 **[R918原中央Igusa向量](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)**：全部允许p≡11mod12取h=(p+3)/2，primitive/r=2；R916实际非零L̄_h=c_hΦ4(V4†)，c_h≠0。全H6整S4秩一与基变、Cais满射/无SS极点、完整Norm及det−1/ζ²/1/6均已证明；指定fine Igusa SS点准确阶2p−5、cusp首项c_h非零。保原a_h和未知c_h，不把fine参数认作coarse c1 normal，不推另一λ_h(Vp−1†)或同h Legendre/J32/height。另一同余类固定权10由R920接续。

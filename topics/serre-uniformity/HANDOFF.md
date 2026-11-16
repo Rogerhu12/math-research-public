@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：701ae6f96a69869ac17f42ba6223ece787d9afb3**（2026-11-16T15:43:43.651011+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[原权四向量前H](handoff-archive-2026-11-16-before-original-weight4-vector.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：c2c61d1a20caa5ef28a1c45d83fe058f999d8aef**（2026-11-16T15:47:05.528398+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[原权四向量前H](handoff-archive-2026-11-16-before-original-weight4-vector.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -18,7 +18,6 @@
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
 |R815准确Γ|43853995004 / 133253466821|c1b3bfb1，core80516ff9/wrapperab725da0；准确g直接复用|
 |R901固定126树|43893483097 / 133390762003|dbfb172d，实际compute进行中，core2cacb66f/wrapperc2aad47b不变|
-|R914完整反射|43898224893|1b397d40，实际success；正读完整C/P1源，rank8由R917续|
 
 [R787原670同核续](notes/R787-original-power5-670-outer-timeout-continuation.md)：wrapper仅严格exit124/null coreSHA/无trueFINAL的缺receipt来源；直接原art14237434353，完整670/manifestf756e254/history保留，不拿v23 metadata包冒lift。R787真pull8767592f/15:31:43UTC及R914发布d716114d/15:36:40UTC，两README不变已读。R854112/末63输入49rank7、cfg22776712四球未成；半dual541/542正残差与R824693均同核续；全部原输入/tail/Trace/参数尺度沿逐字前态。R815准确g696prime/20809bit及272/17块已成，Γ继续。
 
@@ -37,7 +36,8 @@ R896五146/418、R894 DN/QN、R899全K固定418、R900 K定义DK272及QK、[R902
 **[R905七源实际认证](results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md)**：43893738459/133391640404/f4589d2b，87stage/48.831s；七z=0完整272格、670源/544主部/真543及全回代。七unit与原选行列给准确连接表达式，char0数组未展开；QN先校正/Gal7/真cY给五I_Z，全部分歧/幂零/交点、原帧和κν保留。FINAL24045a35/manifestb11afeda/art14238516346全pins见结果；canonical/Hecke/nonp/height仍缺。
 
 [R907九范数源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90；原128→真672，完整A272/E2176一次A[T]范数/19584坐标CH，正乘NormΦ及原dual7保留。R903/R901仍null，R899已成待激活填；无旧a0插值叶，必要时只补四旧节点。两图colon逆、P0/P1数值false。
-[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0；原2+3+3秩8/discrim阶4，trace-radical/idealizer小核保幂零。九纤维帧Nm(q*Φ)detUj/detU0及原t/dual7不删，两端共用λ∈0..16。[R914五件执行源](notes/R914-original-full-V1-involution-and-P1-jets-method.md)已全文读并激活：corec7dded45/wrappera6a26387，仅143新准确RHS，560全行/C²、273旧P0阶经完整146运输P1；六数学组469原件/四实际载体保原身份，t帧只三项。未算rank8/Norm/rigidification；R917续原端点小核。
+[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0；原2+3+3秩8/discrim阶4，trace-radical/idealizer小核保幂零。九纤维帧Nm(q*Φ)detUj/detU0及原t/dual7不删，两端共用λ∈0..16。
+**[R914完整反射及P1实际认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：run43898224893/job133407590978/source1b397d40，26stage/0.658301383s；143新准确RHS、81760原方程/C²全过，完整146有理C、272×273原P1正常jets均已成。ρ1=ι*ρ0不换z−zP1，c1=645187085=−c0，t1仅前三项；原CM公共τ恰取消一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505及469原成员完整pin见结果；rank8/九Norm/刚性帧仍false，R917直接消费。rules真pullbf30a01f2e26a906cb62f2b2482ae629019de42b/15:36:57UTC两README无diff已读。
 
 五Lj128/144、YP/FM128/634/508rank507、c/a(P1)、活跃eη、d/N/nonp、Poincaré/splitting/高度仍缺；I_Z不代real Rcal I_Z³。R870原16 ni/1959位d*与7-primary挠判只在合法好约化niPiξj非零时判活跃。
 

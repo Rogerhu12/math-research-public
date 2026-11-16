@@ -406,7 +406,12 @@
 - 原QN先校正再Gal7、Qj负χ幂一次、真cY给五原I_Z表达式；原P0/P1帧和κν保留，不冒canonical/Hecke/period/nonp/height。H逐字归档；R914实际43898224893 success，输出正读接R917。
 - 本push规则：公开Actions真实pull至701ae6f96a69869ac17f42ba6223ece787d9afb3（2026-11-16T15:43:43.651011+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 23:46 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 23:47 Asia/Taipei — serre-public-astra-20261115
 - R918纸证：所有允许p≡11mod12、原h=(p+3)/2/r2实际L̄_h=c_hΦ4(V4†)且c_h≠0；全H6整S4秩一、基变、Cais满射及原完整Norm/det−1/相位全部保留。
 - 原fine Igusa指定SS准确阶2p−5、cusp系数c_h非零；保a_h、不认作coarse c1 normal/指定Legendre/J32或height。Brau–Jones与Cais原文独立核；H前态逐字归档，继续R920权10及原normal桥。
-- 本push规则：实际pull701ae6f/15:43:43UTC两README无diff已读；公开Actions真实pull并核两README后发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至c2c61d1a20caa5ef28a1c45d83fe058f999d8aef（2026-11-16T15:47:05.528398+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:49 Asia/Taipei — serre-public-astra-20261115
+- R914真run43898224893/1b397d40认证：143新准确RHS、81760原方程与C²，完整146有理反射及原P1的272×273正常jets；26stage/0.658301383s，469原来源全保。
+- 原ρ1=ι*ρ0、c1=−c0=645187085/t1三项及CM公共τ保留；rank8/Norm/刚性帧/height仍false。R917直接接真实源；正文对角作用用(n,r)行标明(−1)^n。
+- 本push规则：R914 rules真pullbf30a01f/15:36:57UTC与最新发布pull两README不变已读；公开Actions真实pull核规则后发布，主目标OPEN。
