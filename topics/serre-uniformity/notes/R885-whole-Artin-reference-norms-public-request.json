@@ -1,0 +1,190 @@
+{
+  "result": "R885-original-whole-Artin-reference-norms",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R885_original_whole_Artin_norms.py",
+  "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+  "helper": "R885_whole_Artin_algebra.py",
+  "helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "wrapper": "R885_public_original_whole_Artin_norms.py",
+  "wrapper_sha256": "ed310d9c340cf09c98cb71c10c01948f101121d9d6c30329ccf78f6e3d0cebe5",
+  "workflow": ".github/workflows/serre-R885-whole-Artin-reference-norms.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R885-original-whole-Artin-reference-norms-method.md",
+  "method_sha256": "1e9dde8d14ddd4f29a5ce96d747e902e428c1e83cffa948231dd85c208372cd9",
+  "proofs": {
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R882": {
+      "path": "results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
+      "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R876": {
+      "path": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+      "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+    },
+    "R879": {
+      "path": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+    }
+  },
+  "source_artifacts": {
+    "POLY": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "certificate": {
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30",
+        "bytes": 7104
+      },
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:47:33Z",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560
+    },
+    "R882": {
+      "result": "R882-original-cyclic-seven-common-place-coefficients",
+      "run_id": "43839076365",
+      "source_commit": "cb2385cca1fd2c336c7da0e3070bde77129e8e17",
+      "core_sha256": "901466ae4d34bf1b558132a3b7c57c1c0bf6f2a8f097bc2283cd562607ba2e0f",
+      "manifest_sha256": "262eccbc897addf8f4d9d4623352d48aa55bb5f83fa9375bc02aa0e53fcd864e",
+      "manifest_bytes": 13197,
+      "certificate": {
+        "file": "p41-original-cyclic-seven-common-place-coefficients-certificate.json",
+        "bytes": 8198,
+        "sha256": "717768f087fa709a4412f16b12accf6cd132ac917b082df43b26bbb60e21ad31"
+      },
+      "artifact_id": 14211339984,
+      "artifact_name": "serre-global-R882-common-place-coefficients-43839076365-1",
+      "archive_bytes": 386598220,
+      "archive_sha256": "3adfa48450a7be0a336c557891c1e86f91ef2d563d1defd607ec02d0d86413ca",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:24:51Z"
+    },
+    "R873": {
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43832703159",
+      "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+      "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
+      "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+      "manifest_bytes": 55619,
+      "certificate": {
+        "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+        "bytes": 11215,
+        "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+      },
+      "artifact_id": 14209317175,
+      "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
+      "archive_bytes": 382153683,
+      "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:42:36Z"
+    },
+    "R879": {
+      "result": "R879-original-reference-pole254-pencil",
+      "run_id": "43835253379",
+      "source_commit": "0f74fb43a6eba2646e34b2950f5de1131470fe29",
+      "core_sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33",
+      "manifest_sha256": "dff31b60a5b711b5f9c9337a04d9e637d742ae225ac97b5f66cf9cc20acfb3f3",
+      "manifest_bytes": 2190,
+      "manifest_file_count": 15,
+      "certificate": {
+        "file": "p41-original-reference-pole254-pencil-certificate.json",
+        "bytes": 7379,
+        "sha256": "bf7172a28ad7efa883b9039ecb6767281e6130885591bd51e52db621b6648bab"
+      },
+      "artifact_id": 14210388032,
+      "artifact_name": "serre-global-R879-reference-pole254-43835253379-1",
+      "archive_bytes": 6787421,
+      "archive_sha256": "4b1d3a03d861049f614aaad98d9065b64e82050a11cecf1bc891ab5bbbe10100",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:56:14Z"
+    },
+    "R807": {
+      "result": "R807-original-M6-pole-clearing",
+      "run_id": "43707939269",
+      "source_commit": "2c44d02595d57c22b5ea2c10defa93f63252061d",
+      "core_sha256": "d92cf79bb3a30fe8e28709a4e2eaa706a724e195c8d8393e7649466a79cec018",
+      "manifest_sha256": "eeac0a85efa554bcfec2a55d5bb440b23ed0d91f803e1920349cce3fe9b05de5",
+      "manifest_bytes": 350485,
+      "manifest_file_count": 1003,
+      "certificate": {
+        "file": "p41-original-M6-pole-clearing-certificate.json",
+        "sha256": "2680e9224eef98cc34117156b02605e5a1425f5a5fdd34b6596aa0e5e93bd07b"
+      }
+    }
+  },
+  "prepared_transport": {
+    "R807": {
+      "archive": {
+        "result": "serre-required-original-source-intake",
+        "run_id": "43838586512",
+        "source_commit": "bef0523f8613e59ce770a418cebd79108a125f82",
+        "artifact_id": 14211447977,
+        "artifact_name": "serre-required-original-source-intake-43838586512-1",
+        "archive_bytes": 7864509,
+        "archive_sha256": "8e563fbf502b4c674dccdac2ef3fe4ceaa4207ef3cd6964a89a425e0a70c48ff",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T09:19:05Z"
+      },
+      "package": {
+        "file": "R807-t-frame-intake-selected-original-sources.tar.gz",
+        "bytes": 1796873,
+        "sha256": "9651935f5ec01ff23c66db88f81b2f8aab464a2ef74d416457c1e571905600fb"
+      }
+    }
+  },
+  "input_pins": {
+    "seventeen_coordinates": {
+      "file": "R882-common-place-seventeen-coordinates.json.gz",
+      "bytes": 173770,
+      "sha256": "5c79985f7f004633e8bae857c2d23c880739934555a9c85946871543387058ea"
+    },
+    "correspondence_DAG": {
+      "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+      "bytes": 32165,
+      "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
+    },
+    "theta": {
+      "file": "R807-original-nonzero-pole-clearing-theta.json.gz",
+      "bytes": 2464,
+      "sha256": "f11e7225d3a4cdb6bd32403514e07aa54ea8d3df7f371f680828d1c5360c8970"
+    },
+    "E6_clearing": {
+      "file": "R807-exact-V4-M6-index-692-from-kernel.json.gz",
+      "bytes": 690799,
+      "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
+    }
+  },
+  "budget_minutes": 300,
+  "required_successful_fibres": 1,
+  "maximum_source_nodes": 8,
+  "resume": null,
+  "rules_last_read_commit": "db844bc1a9567aa4525c2aa0975d4d910cbc7f4e",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "new_scope": "whole272_source_Artin_fibre_rank8_correspondence_complete_target_normal_row_and_nine_reference_norms",
+  "old_W_Krylov_polynomial_adjugate_and17coordinates_recomputed": false,
+  "old_reference_solution_or_exact_E6_clearing_recomputed": false,
+  "full_factor_or_nilpotent_components_removed": false,
+  "original_Picard_support_nonp_calibration_or_height_requested": false
+}

@@ -96,4 +96,10 @@
 ### 2026-11-16 18:23 Asia/Taipei — serre-public-astra-20261115
 - R887实际完成正式登记：原146/252/962/418完整认证，u252=207667877、Qtilde首项267133051与ρ阶−1205；全部源/残差/准确函数DAG完整保留。
 - 小IO43846120888读取实际14件；原t帧正乘c^1205，不冒Q下降、其余六D*、五Lj或height。六分支intake已成并接新12rhs，主目标OPEN。
-- 本push规则：由公开恢复Actions实际pull/rebase并比较两README，准确提交号由发布器在本条与H登记。
+- 本push规则：公开Actions真实pull至db844bc1a9567aa4525c2aa0975d4d910cbc7f4e（2026-11-16T10:23:24.922716+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 18:26 Asia/Taipei — serre-public-astra-20261115
+- R890原Ef八次有界flip方法完成：7完整纤维、962像/544核/146/完整418及原P0单位；主函数Fnew=(qFaFb)^−1保八步符号，原t首项另乘c^1205，新算术继续实现。
+- R885整Artin消费者激活，直接用真实273节点/单行adj/17列/原v0；整272×8、全272关系、一次charpoly九范数，首1成功旧8节点/300min，不删因子。R787594续算43846878233已进新数学。
+- 本push规则：公开恢复Actions真实pull/rebase比较两README并登记准确SHA，H前态逐字归档，主目标OPEN。

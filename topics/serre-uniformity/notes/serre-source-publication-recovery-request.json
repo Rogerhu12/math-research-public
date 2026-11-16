@@ -2,40 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1023-R887-actual-common-cusp-flip",
-  "commit_message": "serre: certify the actual original common cusp flip and bounded RR inputs",
-  "rules_last_read_commit": "f763b778f7fb85d30b4ce341a73054d93fe85dcd",
+  "request_id": "20261116-1026-R890-method-and-R885-whole-Artin",
+  "commit_message": "serre: bind original Ef eight flips and activate complete Artin reference norms",
+  "rules_last_read_commit": "db844bc1a9567aa4525c2aa0975d4d910cbc7f4e",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "fd20973a3331ea272721aaa44ac187a4a33588fac4c3ea362793d130724feedf",
+  "expected_previous_request_sha256": "97896614f85b47d2b39cd1cb48fd94d5d3541daf705716248defca37a0b4af2c",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md",
-      "sha256": "81bd4dd38ee613d5b5188dff5f6ea7f417b830f65edec1026f8cb79c0d47c032",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-whole-artin-and-Ef.md",
+      "sha256": "355113db8a8b12b1e9a943a2df6812991057ff0677d01dadd00292a917e21d23",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R885_whole_Artin_algebra.py",
+      "sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R885_original_whole_Artin_norms.py",
+      "sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R885_public_original_whole_Artin_norms.py",
+      "sha256": "ed310d9c340cf09c98cb71c10c01948f101121d9d6c30329ccf78f6e3d0cebe5",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R885-original-whole-Artin-reference-norms-method.md",
+      "sha256": "1e9dde8d14ddd4f29a5ce96d747e902e428c1e83cffa948231dd85c208372cd9",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R885-whole-Artin-reference-norms-public-request.json",
+      "sha256": "d308b1088d0c149be6abbc8623e81cf111efb8675026edfb5111ef710efd8a19",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R885-whole-Artin-reference-norms.yml",
+      "sha256": "cecf65808b621fb848aef2810991d670fa77203133426463c08a37afe08395a0",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "ba5320e519a7ded88eff3d05192e83fc7a9e208ea16f0f8683f8c559ed3fae9a",
-      "expected_previous_sha256": "c9544ed519a623a815eed60b0c41ba1641ea8de7adf257bbff13c7e3dcb16cae"
-    },
-    {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "da49eeea4b9980d73bf8beaece00224c47e1a082c1a931e693c234d5e8166810",
-      "expected_previous_sha256": "8d0ffd32a4b6efd2fa90e1528c024219b220225103292bcd8453cd74b7ecab84"
-    },
-    {
-      "path": "topics/serre-uniformity/results.md",
-      "sha256": "8fd46b19b354318afd16326ff8fcf3fce4adc2295df5d33f8c62e30b0c24a466",
-      "expected_previous_sha256": "78806751fc346c06c2e7e3666c106d5276d71aed035141f2b83d30e1d69b48b0"
+      "sha256": "9da15f9c146afc523fb5c0098c459ffeb96ab68401240f13d2c5c256f318e676",
+      "expected_previous_sha256": "355113db8a8b12b1e9a943a2df6812991057ff0677d01dadd00292a917e21d23"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "43c9175a316a4286bf7629fb39358b5b17fd7219f9c2f1b081b318e4d9de281a",
-      "expected_previous_sha256": "672e8862fcb9b354eb303ddc5de915459756df5192908821074cb32ee3e1074a"
+      "sha256": "40c02c9a8bc7faea49e6e54bb6f228c9f41a0946a4001183f2d6a2ff343ad8fd",
+      "expected_previous_sha256": "834e38397c9a8d2ddaf93446b4d974a04a87b54a9b9d791bfacf2d912adb10e2"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R885-whole-Artin-reference-norms.yml",
+      "request_path": "topics/serre-uniformity/notes/R885-whole-Artin-reference-norms-public-request.json",
+      "request_sha256": "d308b1088d0c149be6abbc8623e81cf111efb8675026edfb5111ef710efd8a19"
+    }
+  ]
 }

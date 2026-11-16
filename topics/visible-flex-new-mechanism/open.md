@@ -165,3 +165,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16：真实56全168联合模型正式进入公开Actions
 
 [设计](notes/true56-full168-joint-model-design-20261116.md)将全部168列在非零新9的实际56场求导，保原全部pool行、172准确盒及原14实际门。新600秒账户，h=4||Mδ||∞≤1，2ordinary/2selectedJ、8分离/8新增行集master、32新tag、64scalar、3actualpairs。来源56run43842056373+只读55构造COMPLETE；旧56余额不重开。继续读取原stdout后付真实候选或明确本新任务界限，不停在阶段结论；主完成门仍未付。
+
+## 2026-11-16 10:22:12 UTC：R499已证明更强全类高度门
+
+[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)用完整Af图R/Rc递减、两次反向Chebyshev和正负斜率分区，付N≤(13/4+c*/y)D−(1/4+c*/y)Dd。P*在[8/3,∞)唯一根给H*∈(13/7,67/36)，H≥H*时完整ImE严格负，等号由Dd>0付。全部五门零只剩3/5<H<H*；原C≥0/线性图段/端项不删。§5付完整Re身份，下一步仍需真实同图的Re/Im耦合或真零，不能从旧64/36有限搜索推全局无解。全168新Actions继续运行，主完成未付。
