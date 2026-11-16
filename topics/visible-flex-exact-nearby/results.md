@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WPTV consumer frozen：主 bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1、reader cdbf14ee、typed worker0699ff33及[执行清单](notes/2026-11-16-R133-frozen-cross-block-current-inputs.json)4470a77b。24 current/19 history/10 AST，5 whole maxima、两预锁完整mesh候选和条件tail inverse；17门/11或12新records。仅静态核通过，数学尚未执行，未授finite逆或最终族。
+
 - [WMT：strict完整输运通量与角L1均值强迫界](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)：同genuine trial/全Vext，三个完整幅值经五次mean递推保八terminal及原n^-23/6；真root/local/全部jump/两mean与完整回接保，旧42目标冻结，未评新数。
 
 - [WPTVR：五个整体最大值与继承式网格细分](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)：保完整T*给同算子的更细tail gate，仅A/Eb/Ub/L/B五whole maxima；预锁m细分不重系数收缩，mean/ramp及全部signed Schur保；无新数值。
