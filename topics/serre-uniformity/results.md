@@ -212,3 +212,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R874 原循环p商尺度与Kodaira–Spencer首项已证明**：[完整证明](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)，SHA256 6ca20e6c92b83c3ed9149b2d4b19f7c77c0855c8529c6b6b05650f88046c4d43。真ab=p、t′首层、a²/p KS、未分歧lift的原Abel与微分单位，以及全p+1首层相消/一旗标类型阻碍；原q-normal/同h M2/高度仍未闭。
 
 - **R872 原P0 jets与有界两权RR有限核已证明**：[完整方法](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)，SHA256 bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2。真rank271给平面局部正规与旧逆转置jets；完整272×418→146、原五Krylov点及Schur给固定χ的418空间。六极方向完整采样界11/23/15/15/25/27，最后18行128核和144补列；准确unit-solve与模值严格区分。新数值核、原t帧与period尚未计算。
+
+- **R875 原tame CM常数与首Cartier因子已证明**：[完整证明](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)，SHA256 2ba59332a91001d794748f23e26b26c440660023254758fb8fc64790f9843b60。保原六级相位、平坦ω、P2/P3投影半因子和准确周期，得B²R(P†)²=ζ²α²C_p；特征零共轭先消去后原Hasse帧约化。原h1最小条件等价R(P†)≠0且C_(p−3)≠0，未断言常数非零；R706反例、R871三次单位与两旗/q-normal/height边界均保留。
