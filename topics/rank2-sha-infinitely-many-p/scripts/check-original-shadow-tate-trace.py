@@ -104,7 +104,7 @@ for r in (29, 41):
                     if not primitive:
                         primitive.append(Q)
                         primitive_cyclic = {j*(ell*Q) for j in range(ell)}
-                    elif ell*Q not in primitive_cyclic:
+                    elif len(primitive) == 1 and ell*Q not in primitive_cyclic:
                         primitive.append(Q)
             if len(raw_points) == 12 and (d != ell or len(primitive) == 2):
                 break
