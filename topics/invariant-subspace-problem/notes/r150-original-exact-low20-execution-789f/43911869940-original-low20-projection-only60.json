@@ -1,0 +1,161 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43911869940",
+  "stepId": "original-low20-projection-only60",
+  "executionSourceCommit": "c366a11eff64deefa2f9596eaaaa88fece25e031",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+  "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+  "argvTemplate": [
+    "--outer-seconds",
+    "120",
+    "--heartbeat-seconds",
+    "10",
+    "--stdout",
+    "{work}/original-low20-projection-only60.math.log",
+    "--heartbeats",
+    "{work}/original-low20-projection-only60.heartbeats.jsonl",
+    "--identity",
+    "{work}/original-low20-projection-only60.observed.json",
+    "--",
+    "python",
+    "{scripts}/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+    "--exact-helper",
+    "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "--parent-out",
+    "{work}/original-low-commutator-twenty-exact-constants-v2",
+    "--out",
+    "{work}/original-low20-projection-only-exact",
+    "--through",
+    "projected",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "pinnedSupportSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-789f.py",
+      "sha256": "b451d296c705bd9c95de7e35bffc6396a006bcb4d3d968f9b986ee4f11aeb071"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+    }
+  ],
+  "preexistingReceipt": null,
+  "receiptUnchangedFromBeforeStep": false,
+  "observerIdentity": {
+    "path": "original-low20-projection-only60.observed.json",
+    "bytes": 1848,
+    "sha256": "2e668211147843bc22f92e4cafb097885c303c28cfab1977659a5f8f31bd973c"
+  },
+  "observerExecution": {
+    "childPid": 2909,
+    "childReturnCode": 0,
+    "command": [
+      "python",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "--exact-helper",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "--parent-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-low-commutator-twenty-exact-constants-v2",
+      "--out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-low20-projection-only-exact",
+      "--through",
+      "projected",
+      "--seconds",
+      "60",
+      "--memory-mib",
+      "512"
+    ],
+    "cwd": "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940",
+    "elapsedSeconds": 1.0027016500000059,
+    "finishedAtUTC": "2026-11-16T16:50:59.274309+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 2,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 590,
+      "path": "original-low20-projection-only60.heartbeats.jsonl",
+      "sha256": "abaf81c0a720d9a45f811bf9b29e46f4e1ccecd30a4fca3790dfb11bfc43ae83"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 120.0,
+    "sampledPeakVmRSSKiB": 544,
+    "shellEquivalentExitCode": 0,
+    "source": {
+      "bytes": 21178,
+      "path": "2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+      "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+    },
+    "startedAtUTC": "2026-11-16T16:50:58.271419+00:00",
+    "status": "completed",
+    "stdout": {
+      "bytes": 2233,
+      "path": "original-low20-projection-only60.math.log",
+      "sha256": "85a1186eca8bc0f6ea52485f9aa119e7b19eb40c60a46d1e62f0f4a36cf081d7"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 45660
+  },
+  "timeoutSeconds": 180,
+  "exitCode": 0,
+  "wallSeconds": 1.1657812429999979,
+  "fullTemporaryReceiptBytes": 1976,
+  "fullTemporaryReceiptSHA256": "39f9c4ff6bd891ac70cccb0cc294ab59c47bc8b59ff19e739810b5d46a65a483",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 16:50:58 UTC",
+      "beforeReadCommit": "fa24af8a80311dbf7cfd0c01e1bfffb5f6045bda",
+      "originMainAfterPull": "c366a11eff64deefa2f9596eaaaa88fece25e031",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 16:50:59 UTC",
+      "beforeReadCommit": "c366a11eff64deefa2f9596eaaaa88fece25e031",
+      "originMainAfterPull": "c366a11eff64deefa2f9596eaaaa88fece25e031",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 8,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2745,
+    "logicalJsonSHA256": "06761a0a00ffb288e05231d8ed1ad6ab95df7242b6c72bafa91e8c4515d09273",
+    "itemCount": 8
+  },
+  "lastRulesReadCommit": "c366a11eff64deefa2f9596eaaaa88fece25e031",
+  "summaryExcludesRecomputableArraysOnly": false
+}
