@@ -86,6 +86,10 @@ R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal 
 
 下一R451追H*的真实全根目标是否落此像、全copy多项式次数与任何明确余量，不以再列形式rank替代实际目标。actual J⁺/其它C仍须同一增强等像、原型×n/两次商/桥/Klein全部基准与共同合法窗口；真实period特解、gap/平台值及13同规范继续。未授全R_p0=144+K，原Θ71(kerΠ71)来源仍开放；不重53 self/union或旧检查。
 
+[R452](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)补正母r*=0简单镜点：p*≠0/t*=0，准确像Pol5图+right Pol2、rank9/49核40；K5…10与V31/44/51给真实6左+3右。原K0…4全盲但成本非零；其它根仍用同一Π原source，保全C/actual共同前提。
+
+这不制造当前母的r0根。全部53已付r0项仅22非零，显式x≤3且最高p5左右反号；K完整生成式给Pol5左逆，三新右leading为a·(13/128,5x/468,−67x²/92)，a=u*/p*≠0。若离开正母允许u*=0则rank6/核43，不强除a；实际全根目标未由此自动入像。
+
 ### 完整period与同一w joint仍须真正求解
 
 R184/221把固定圆第四可解性写成同一w的仿射联立：V0+2κL_f w=0，以及K0+Bθw在同三矩W。两period成员、五相位45span及48×135增广子式只是完整iff，尚无实际解。不能两式各选一个不同w；pure零不授member。

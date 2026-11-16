@@ -22,17 +22,19 @@ R105/109/130保同锚全history，真倒行第四同号、signed非实际逆元�
 
 R344/R352的全R自然λ零不能外推actual。R406 canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，故actual全Λ0背景不可建。R409末包16d/e读M5λ+，当前母须M5零；R408允许w不能改totals、Af partial或平台G″。
 
-R411/412/R431从起点同选四自然约束、F_rat/19真目标/全部Af根/共同外cap，原U′集中非C3-small、有限N不增根、内C∞外端解析。R405/407同μ路径保完整self″cap，不能只留六jets。R415–429已闭低权/共同母自然式，R428/429在同一合法窗口给J=(E,A)真有限C1词，不重跑。
+R411/412/431从起点同q4/F★/19门/全部共同外Af根，有限N与有号集中保原根；R405/407保完整self″cap，不能只留六jets。R429同一合法窗口已付有限自然目录，不重旧研究。
 
 [R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)把全部ordered O加入同一J⁺=(E,A,O)，两次商/桥2VA/真倒行/原型/Klein基准全保；不是signed列免费插入actual。E/O0使原pU″变完整local current；H*仍λ1，不造Λall0。
 
-[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)原144：wholeQ秩59/核85、39current像32=21p-only+11u，7annihilator/35fresh已付。全部真实suffix共享同成本，不逐根换参数。[R446](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)用whole-Q真实2+2极化得三个局部νj，再四次homotopy/4保双端，u4原式相消；剩3个Jj系数恰三尾current，故联合核Af局部≤3。无p分母仍是R443实际，不由纸证偷授。R439该像恰kerD，D=c(x;(1,x,x²))；同成本全部根signed补偿iff[D]=0于Pol≤6/D(kerEval)，formal D非零不授actual障碍。
+R434原144的Q秩59/核85、三尾current像32/核53与7ann已付，全部suffix须同成本。R446以真实2+2、二/四次homotopy和原u4相消证明联合核Af局部≤3；无分母另属R443实际。R439 D=c(x;(1,x,x²))障碍仅属当前响应/实际评价商，不外推全R或actual。
 
 [R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)保M0/周期两种端项：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]。D0 iff三次矩型被n0n2−n1²整除；真实路径值/actual原型基准仍未付。
 
-[R443完整实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac：53新完整self全部五次local无分母/高jet，fresh53+adapter2全过；self38/核15，K11合49，旧11 current全MEMBER，新增27formal；249原记录，0旧rank/实际根。MEMBER不等完整成本相等。
+[R443](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)唯一run43801705436的53完整self全五次local/无分母或高jet，fresh53+adapter2全过；self38/核15、K11合49、旧11 current全MEMBER。249原记录/所有source已发，0旧rank或实际根；MEMBER不等完整成本相等。
 
 [R448](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)在同一物理镜对r*≠0、s≠0上，准确像(P,T P+Q)、P∈Pol10/Q∈Pol7，恰19维，无generic h例外。给K11+L8全部原lift/完整左逆，真实11左+8右幅权Vandermonde可逆；49选定lift空间余核30，明确Π0原49列生成。先同成本付全部C，清19核心后全其它根signed iff剩η在这30的真实jets像；旧16/六blind不再完整。64输入的另15 Af盲关系不是完整成本零；actual全部根/period仍须同一原型基准与共同窗口。
+
+[R452](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)补正母r*=0简单镜点：p*≠0/t*=0，准确像Pol5图+right Pol2、rank9/49核40；K5…10与V31/44/51给真实6左+3右。原K0…4全盲但成本非零；其它根仍用同一Π原source，保全C/actual共同前提。
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
@@ -46,7 +48,7 @@ R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核
 
 ## 4. 数值费用与最新实际末态
 
-原冷epoch205.448292651s单列关闭；旧HiGHS64=63primary+1SOC/62value/356.129820261s关闭，LP64缺向量禁重演。[锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)已31cone/27model/25接受到52；[已付p31](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)三尺度14门/163盒真但η上升全拒，学fine159001后停止。全部旧费用/失败保原稿。
+旧冷epoch205.448292651s、HiGHS64/62值/356.129820261s均已封存；原cone前31已到真实52，p31三尺度全14门/盒真但η上升，学fine159001后拒绝停止。全部旧源、费用与失败保原actual notes/索引，不重试旧点。
 
 [cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)run43800505444/job133079366251/source8dfe5272b6d4f4fb752c8962689b22a95c61f78a：唯一新model28/cone32返回AlmostSolved，原完整161/p159/rho/norm/scale已在筛选前保存；linear/box/included-cone门真。完整两网新fine87417抬rho至.0060297012571054465，gain−.000011406471767227977，故0物理trial/0接受。finite tags5761→5762，但32槽耗尽未再解，不宣驻点/实际几何失败。
 
@@ -58,4 +60,4 @@ R444原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核
 
 ## 5. 当前工作
 
-R443实际、R446局部性及R448准确19/30接口已发；接R451真实H*全根目标与同一actual增强。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值新first-jet唯一request已发，等待原report并续实际；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443实际/R446局部性及R448的19/30、R452的r0九/四十接口已发；接R451真实H*全根目标与同一actual增强。R447新母已付dP非零，继续真实最高e基准与余9端口行；R442真D与period/同规范不放下。数值新first-jet唯一request已发，等待原report并续实际；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。

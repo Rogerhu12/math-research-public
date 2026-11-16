@@ -449,3 +449,8 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ## 2026-11-16 04:30:52 UTC：新p32 first-jet唯一入口审源完成即发
 
 会话Astra-new-mechanism-9974ea84：root全文读六源34656/6461/22034/18532/24035/19016B、workflow7048B与request44738B，末audit/report只读精确差异；200闭包、旧189/170及98args、11新绑定逐SHA同。一次first-jet保原参考/null加法、Π和两网，24 paid adapter比较/3新case，64完整query/3真实点/6值均在独立600秒（含30dev）；旧32/64不续。新增workflow因大cache须留原stdout，后置report只读且无科学imports，partial只发已完成网格，最后FINAL_CLOCK含所有输出并覆scope错误。04:29终端pwd仍进程未启动，沿根8小UTF8 fallback；新源/request触发唯一公开实际，未本地运行，不预授改进。
+
+
+## 2026-11-16 04:38:09 UTC：R452零二阶jet真实镜像与完整余核写毕即推
+
+会话Astra-new-mechanism-9974ea84：root只读取R443原53条r指数0项，完整列22非零原式；手从K生成式得128/15、−32/3与k/4，左右最高反号及三次高系数准确给13/128、5/468、−67/92。mechanism独立纸核(5–14)/原lift/Vandermonde通过，0代码/符号/数值/检查执行。49原空间像9/核40与64输入核55分清，K0…4非零成本仍保；正母/简单根、实际共同C和全根目标范围明确，H/open即同步继续。

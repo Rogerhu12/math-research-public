@@ -306,3 +306,6 @@
 
 
 - **新p32 first-jet唯一入口完成源审读并提交实际。** [完整入口审读](notes/paid-p32-first-jet-line-entry-review-20261116.md)（7666B/SHA6a725a6e552387af2f3506bf038fbbb98eee2ee08cb45e8958ed11c8c586b56d），request44738B/SHA7b300c90eeb4c4b7c1fefc5b449fd8c80ec8aa836b10324b2e34c9942d3936a4。六源200绑定=176py/13wf/8MD/3历史JSON，原189/98args全同；保全p32/raw161/source52，1完整cache/2网/1生产scalar/64queries/3实际点/6值，600秒含30秒3新开发case。两网 first-jet不用无关位置冷前缀；实际trial仍原完整几何/14门/163盒。partial原cache一次保留，report只读语义/指纹，最终钟收费全部大输出且可覆盖早COMPLETE状态；未在本地执行或预报成功。
+
+
+- **R452：r=0真镜对准确九维像及四十维余核。** [完整原K左逆、九行及投影](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)（9404B/SHA055cabe0c30b6d975c0ec7d4549d7ce0e52e92e021c04425c7c47881b57dfc99）。只读R443既有r0项；K0…4零/K5…10给Pol5左基，三原pivot镜差最高a·(13/128,5x/468,−67x²/92)，故a≠0时准确Pol5图+Pol2、9像/40核；真实6左+3右幅权Vandermonde、全原lift投影保齐。a=0另为6像，简单r0根必p非零。保其它C/全根/actual基准前提，无新计算。
