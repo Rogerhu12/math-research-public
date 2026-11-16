@@ -104,3 +104,5 @@
 - [R861](../results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：R856真实C_H=(p+1)binom(3s−1,2s−1)b^s给pcσ≡−C_H，故Gaussian可整重标为a*=−34C_H；原矩阵固定b=1，g/AΦ/a/Rcal同步后M逐列不变且H_p/hΘ/B保留。完整Λ0(a*)M/p准确读取同whole degree34Q列的D_(p,79)、D_(p,p+80)、D_(p,2p+81)，另保仅charge40/41/42的阶乘商低项；三系数末项−1/(a*³81!)unit。所有c*U0/P134、真实首Hasse项、同P/R/S和g2 J_(p−1)热项保留，不添中央零或判非零。
 
 - [R862](../results/R862-original-seventeen-torsion-product-and-complete-cubic-hom-matrix.md)：原E0[17]满C288及完整η角色给指定16项乘积h，K(h)=H9、h³生成K(∛17)、范数−2^96/17；固定扭曲与真实Λ(含2处)付GL原projector=3Id、三条准Hom矩阵和实际首系数hL。清整数分母后原(F,a q0,b q2) cusp阶准确(1,1,4)，Schoen极6/三商后2；未算原非零shadow或认canonical。
+
+- [R863](../results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Witt交叉多项式扣cD^p后准确含D·N²，完整Q的奇N项不能删除；四原源中cD^p确被whole质量零消掉。原三差逐项等于所有真实法向伙伴V_r的指定低jet和，r2完整保Ξ/σ(2z)²L，r3有含连接的显示多项式及σ(2z)Ltilde。法向Frobenius递推完整保前缀，首尾单位和伙伴非零不替四原B共同非零。

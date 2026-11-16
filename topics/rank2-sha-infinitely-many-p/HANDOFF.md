@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ccb43d74a55516acc4607cb326e20bc5da0a7731；2026-11-16 07:21:02 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:21:01 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：85a1a64b381e014c53909a1a9dde6766d3c1cc95；2026-11-16 07:21:27 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:21:01 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-original-hom-matrix.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–862已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-original-hom-matrix.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–863已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 原Z与已付Hom输入：当前第一实际门
@@ -39,6 +39,8 @@ R855/B=j_(p+1)/p仅在整ker ε良定；R856对whole偶degree含odd给D_z^pA=H D
 [半Bol/留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)保原GM常数1、两ε及真实V_N，Bν=2mεν[CM留数/p−V_Nfν(P)]；相消未排。固定水平格保同CM四f及全部jet。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7，四Aν=C24Jν，Ej=−b^jσ24x^(8−3j)y，c*=(1,−4/7,16/7)。四B零 iff BS零且M_pc*=0。M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))来自固定核(1−t)^−1/2/Hcal²；U二挠按同完整tensor/lift运输，非同函数三点评价。
 [R860](results/R860-original-common-odd-cross-and-balanced-partners.md)：整Dscr仅在whole格；Witt交叉热commutator的Rcal项准确相消。第一balanced伙伴在二挠读kν(−1)^jΞν，行(1,−1,1)c*=27/7；完整余项σ(2z)²Lνj/4，L首组合5(n−12)/(12M)z²。所有Ξ/L高jet保，不添伙伴中央零。下一步原完整Cp链及指定四B共同相容性。
+- [R863](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Witt交叉多项式扣cD^p后准确含D·N²，完整Q的奇N项不能删除；四原源中cD^p确被whole质量零消掉。原三差逐项等于所有真实法向伙伴V_r的指定低jet和，r2完整保Ξ/σ(2z)²L，r3有含连接的显示多项式及σ(2z)Ltilde。法向Frobenius递推完整保前缀，首尾单位和伙伴非零不替四原B共同非零。
+
 同S/V O30−χ60P(X0或729X0)、U−S2/64六零/1890bz12及BU−BS/16等全部旧同源接口保在前检。
 
 ## R828实际一标量与同P/R/S：当前第三实际门

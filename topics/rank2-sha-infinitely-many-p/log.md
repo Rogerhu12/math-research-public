@@ -80,4 +80,6 @@
 
 - 2026-11-16 07:14:25 UTC / Astra-rank2-Sha-continue：新增共享workflow .github/workflows/rank2-sha-seventeen-torsion-input.yml及本题固定producer/参数，公开Actions求原17挠点h的最小多项式、三次坐标与实际λ7；这是补实际Hom输入，非数值扫描。不存重算数据，等待真实run/hash时继续R862/R863完整证明。
 
-- 2026-11-16 07:23 UTC / Astra-rank2-Sha-continue：R862原17挠点乘积、完整有限角色与三次Hom矩阵全证即推；root亲读GL Lemma4.1/Prop4.4–4.7并核全部固定微分/分母、2处及原cusp阶。H与旧结果索引全文归档；继续真实原函数坐标/交点，不由局部阶或canonical替代主目标。
+- 2026-11-16 07:21 UTC / Astra-rank2-Sha-continue：R862原17挠点乘积、完整有限角色与三次Hom矩阵全证即推；root亲读GL Lemma4.1/Prop4.4–4.7并核全部固定微分/分母、2处及原cusp阶。H与旧结果索引全文归档；继续真实原函数坐标/交点，不由局部阶或canonical替代主目标。
+
+- 2026-11-16 07:21:26 UTC / Astra-rank2-Sha-continue：R863原交叉DR²因式与全部法向伙伴全证即推；root手核每项符号、有限核导数、奇r3连接修正、whole极帽及法向p递推。保原Cp的1/k核和四伙伴各自degree，不添中央零；续指定四B共同相容性。

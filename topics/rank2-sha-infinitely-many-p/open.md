@@ -179,3 +179,7 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 - [R862](results/R862-original-seventeen-torsion-product-and-complete-cubic-hom-matrix.md)：原E0[17]满C288及完整η角色给指定16项乘积h，K(h)=H9、h³生成K(∛17)、范数−2^96/17；固定扭曲与真实Λ(含2处)付GL原projector=3Id、三条准Hom矩阵和实际首系数hL。清整数分母后原(F,a q0,b q2) cusp阶准确(1,1,4)，Schoen极6/三商后2；未算原非零shadow或认canonical。
 
 续同一原有限Hom的完整函数域坐标和R859原交点。准同态整数分母、原Artin线性组合与全部闭点重数必须保留；首系数非零或局部极阶不替原总循环/AJ非零。
+
+- [R863](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Witt交叉多项式扣cD^p后准确含D·N²，完整Q的奇N项不能删除；四原源中cD^p确被whole质量零消掉。原三差逐项等于所有真实法向伙伴V_r的指定低jet和，r2完整保Ξ/σ(2z)²L，r3有含连接的显示多项式及σ(2z)Ltilde。法向Frobenius递推完整保前缀，首尾单位和伙伴非零不替四原B共同非零。
+
+续(17)的同一全法向链；其奇项与所有高端都保留，任何异方向theta等距重指标必须先回原四来源。
