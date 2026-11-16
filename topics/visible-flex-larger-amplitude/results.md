@@ -349,3 +349,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R486 — actual215完整必要读回与真实stage／audit预算后缀
 
 **实际215终态，完整必要读回和清理成功；原native/fullDN尚未接受。** [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077B/2331fc82，run43816406919/sourceb952df81，compute133129348123/report133231387864两终log各仅amplitude取一次。85438B/5923ad0e正文两job逐字同且完整读回，R485表示本次适用，不能和204未返111829B作压缩率。owner全576/129248行1方向1trial α1原严格下降，norm0.00012209605459741098949→9.68582474751023176057e−11，独立全残差/226输出replay逐词同。后stage8000s只完整478段，478为7/12、479为1/12、480..575零推进，全部地址/统计/错误保；boundary/endpoint因完整前件未生未启动。audit574段/7479query，574:q12与575:q5及后1advance尚未完成，partial极值不外推。原audit缺顶层budget字段导致父resource_partial=false，原stage错误明确预算停止，两者均保。原64受控停止、native/fullDN false、原当前H FD/完整外场/最终门未执行。10:17:38必要与quiet后实际三树清除，无可恢复raw，不借204flag补本次；没有提预算或新增小试。
+
+## R526 — 双向全对应距离判据与准确终止范围
+
+**已证明，纯纸证；未选择实际γ/未运行。** [R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B，真实双向成员球到对方完整cover全部联合对应（允许重复），全部同侧/交叉边给0≤L*≤Δ≤dE，含全部反射/平移。证明紧集Δ=0当且仅当环境全等，真实非空cover/全成员h网及距离区间误差给max(0,Δ−2E−ω/2−h)≤L*；这些是有限终止条件，成功证书不额外要求它们。只γ<Δ可保证细化有限终止，三点弯折例Δ<ε/4<dE=ε/2显示不能扩大为所有γ<dE。部分失败边可退役整笛卡尔后缀，完整未访仍保；不假定marker唯一/支撑中心为峰，不把单向包含当全等。现有R520全像/真帽点/全部stored-decoded消费仍须真实同场，未添计算或门。

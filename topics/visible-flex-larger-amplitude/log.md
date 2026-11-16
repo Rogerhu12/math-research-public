@@ -161,3 +161,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:25:02 UTC /root — R486实际215完整读回与原预算部分完成
 
 [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077/2331，run43816406919/sourceb952df、两终log仅amplitude各一次，85438/5923ad0e必要同字全读；owner1方向α1 norm1.22096e−4→9.68582e−11、完整replay词同。stage8000s仅478/576、audit1800s574/576与7479/7488，原活动query/advance/全部地址/errors/partial统计保，boundary/endpoint依赖未起；父audit resource_partial=false按原缺字段口径不覆盖预算错。原64controlled stop/native-fullDN false，10:17:38必要quiet后三树真清，不能以204补或由rawSHA续；规则/原完整门不改。
+
+## 2026-11-16 10:29:57 UTC /root — R526双向全对应的定量商距离下界
+
+[R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B完整纸证即刊：允许重复的双向全部对应＋全部交叉边，0≤L*≤Δ≤dE；紧集Δ=0 iff含反射全等，完整误差账给γ<Δ有限终止，三点例阻止夸大至任意γ<dE。原R520完整像/真成员/所有候选/后缀责任保，无新run/阈值/门。只将原稿526.18的单$显示段改$$，公式不变；同时更正open的residual措辞，更新已核222/217 gzip消费者来源。
