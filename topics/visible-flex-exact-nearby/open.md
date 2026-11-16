@@ -199,3 +199,5 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
 
 [WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC供体后拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。
+
+[WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4全BFV通量→原B0/B1同P+完整一/二primitive T1/T2，cB,n固定乘子拆分/C1C2负窗与同profile插值合法。8原小件/62对象只读，31新=12+6+6+7尚未算；Cs/WT/physicalmean/四端/RF/whole/reduced全保，finite/负head/ν/Θ/全matching独立。下一执行精确旧JSON合同和新31 source。

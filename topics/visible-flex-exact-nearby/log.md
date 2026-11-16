@@ -155,3 +155,11 @@ manifest42e413021cbc4f0f7bcdfe5cc75f505e3862fead/24859/SHAb2f0fa9c4f92e5d4b5b2f8
 §9保same hightrial完整四项residual，无source导数、full96 errors不截32；新的lowreceiver/odd/normalizer全新目标。§10只有完整完成WVC才可作供体，20完整原records可copy、36为未来新目标，真finitegate另2；alltrace0全samecandidate复制保原6/5，混合模式旧global只用于未变restriction。当前无新source/manifest/科学运行，43891414339/1仍首次WVC；原WPSfalse/physicalmean/7ports/两rhs/负head/ν/Θ及nonlinear全部保。H/open仅精简已成proof索引，原详细scope保c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219本文件。两README核7e7d0246bde4158731a0b2e5c31f55e62e909fce未改。
 
 同时将5段旧H和9段旧open逐字移入完整索引f1acc9e451ad057d42d48f7cd3d2b70eb72bf4b4 /5498B/1c0f2435eaf594ca4daa2b25e8f5b62d84cd54c384d4972f77d7dcad151be9ac，来源c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219；所有旧球/域/限制、失败/lost与未付门不删，具体proof与实际结论仍在原路径。
+
+## 2026-11-16 15:13:41 UTC — WEX：真实腰端的完整通量、两primitive terminal与31目标合同
+
+完整纯证明 bb4a4dcf445a17735bfa452bc4a430ffbd3ce9d7 /32416B/SHA256 6ffd46a4b4af3bd315039d667b7514fb7c47d4b8d749b72937dec69249142627 已全文读10节52式。相对040bb12a仅182个inline math delimiter转换，全部display数学块逐字相同。根亲读WUA14–15/WZR/FA18–23/WES24–32/WRP同profile原文并独推Lw/qf/HC及两primitive顺序；Tail完整独立证明审通过。
+
+同实际waist beta=d=qr=0只作点值，不微分为径向零。完整BFV四block中B0/B1恰是原FA系数且同P，故不另引入旧aux mean比较误差；真正z_ph两storedmean与初始z(r*)=0、全forcing/drift/Jr仍保。T1/T2逐频先分成fixed angular与cB,n输入scalar，完整M1/M2负1/2窗口保低频/zero；同genuine profile0/2插值得1，原sign/reference及S^-1系数各一次。两terminal均N^-2，完整Cs/Ξ0/Ξ2/WT/current physicalmean以及四端、whole/reduced按序。
+
+根从八完整原JSON独核62个精确path与完整{ball}对象，WGS group0..3确为单独degree且普通j!一次；reconstruction/extension是原parent后续失败之前已成node，非整体parent success，旧partial资格不改。31新图12/6/6/7尚未执行：新源/完整alias/context/成功失败模型正封，root不跑任何新scientific算术。每成功旧target冻结，原完整负窗口/3070jump/真96/7ports/两rhs/ν/Θ/finite/head/nonlinear义务全留。两README最近核365ea8aea94dc15c942397da210b31e9f9ae92da全hash同已读。
