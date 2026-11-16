@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：adc7e36204ecb8e180afa97fe3cbb0ce57d22af3；2026-11-16 17:50:25 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：721aba34aa874e13ac7852f601f311c3d9fd4900；2026-11-16 17:52:32 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。每次实际pull核两README、仅读变更并记提交，至少每小时。下次最迟18:25 UTC。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；log每轮≤5行，不写根LOG。
@@ -27,7 +27,7 @@ R882原18源/36cusps/两端点/DS204不变。当前函数域RR未PASS：
 - fricke24 run43860032290/job133274126644于17:33 exit137；原24次支已选，最后仍U恢复，未到正规化/RR，详见上述实际卡点。tate24 run43865460680/job133292732291、tate19 run43866568746/job133296518979仍运行。
 - [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)保原模型，仅改已定位gcd：完整可分特化、线性子结式唯一U与两Phi复核；首run43912835484大表达式回转编译失败。修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行；仍保q4500/ξ170、两Atkin/全部四27+27+33+33/205行/at^m返回，无PASS。
 
-[R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
+[R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)逐系数真除/一次停止保原全部Phi/分支/四RR门；run43922594376/job133493496664/source45b7e91f3d7dfdcf667999634dd23e669d71acf5运行，无PASS，未猜旧R910卡点。
 
 [R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)独立全局RR格已PASS：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce，ℓ29、120×205原完整QQ基，固定子式赋值0、整变换/全约化秩/同S除法全部过，用时2.549s。结果hash5a1d6494…eb663b、RRjets765f854d…2b0fb。原L(DS)完整全局基已付；**尚无degree48基坐标/闭点求值，不能冒R910四块接口PASS**。新整饱和算法严格终止，不是任意formal串。
 
@@ -48,7 +48,7 @@ R901原端点/period/自然Kirillov格/CM比较及双norm核饱和全保：N12�
 R863/H22、R876/879和R884A–I完整低配对保旧H；Ĉp=(p+1)cint、DR3/Γ16/Fermat不删，U三纤维run43870426107不给中央零。
 [R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/sigma初值、Hurwitz顶值/cpFp法向和第六块低卷积齐。原P6P_(m−6)保α/五modp窗、消Z补极并给C³η[2]=−α^(1/p³)rω。共同L^p=V^pL，A加权质量H再Cartier零；四真实带权伴随全部保，不能用共同质量迫α非零。
 [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)原[p]完整𝒯^p²=𝒯(pv−v^p²)S/Sc给全2p²−p−9窗p⁵误差；规范根除p²后保p³。原除点modp⁵恢复LT modp⁴和根modp²，全部V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)及2p−3位输入齐。**中央零⇒全部边界零仍未证**，不能新增伙伴零。
-R700固定D/全嵌入界给原非零trace vpB≤1+O(1/logp)；仍须同源中央零迫R699两位全行，不能只付modp或前五块。
+R707/708已将原m34/72/136非零迹界降至3/4+o(1)：边界零等价g_m,h模p在h≤ceil(α(p−1))−1全零（固定α>3/4、大p）。这是z^(dh)=w^(sh)的O(p²)窗；R887只保前5块，不能替代。中央部分和仍含真实除p商；V66全迹门未自动付。R699/R912两位完整输入也保。
 
 ## 第三门：同P/R/S、实际有限类与forcing
 

@@ -145,3 +145,11 @@ scripts/produce-r919-original-shadow-rr-tate19-fraction-free.py
 所有可重算系数留在实际运行内，仓库只保源、请求、run与哈希。
 依据为原 R882/R910 完整分支及认证证明、上述已亲读的固定 Sage 源码，
 以及本篇(2)–(7)的直接代数验证。
+
+## 5. 实际启动回执
+
+[run43922594376](https://github.com/Rogerhu12/math-research-public/actions/runs/43922594376)、
+job133493496664，source 45b7e91f3d7dfdcf667999634dd23e669d71acf5，
+已进入原数学步骤。该记录只确认真实执行；尚无本路径的
+U 恢复、正规化、四块 RR 或完整205行成功回执。
+旧 R910 run43913500850仍运行，不能根据未返回的日志替它定位新卡点。

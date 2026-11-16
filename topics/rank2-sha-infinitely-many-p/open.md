@@ -185,3 +185,6 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 原fricke24 run43860032290/job133274126644/sourcebe4e0074已于17:33 exit137；完整24次原支已选，最后阶段是原U恢复，未到正规化/RR。全部阶段/hash见[实际卡点](notes/2026-11-16-original-rr-stopped-before-normalization.md)；不能将此终止当数学反证或确定OOM。
 
 - [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
+
+
+重读已发表 [R708](results/R708-original-mod-p-prefix-and-integral-gaussian-return.md) 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66尚需其自身全迹范围。此处更新既有门的优先级，不登记新定理。
