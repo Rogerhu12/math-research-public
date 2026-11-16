@@ -146,6 +146,12 @@ W*>0在原33目标的辅助hc=0极限上保持正核/minor后，选单个小正h
 
 下一接口是这个实际k<0/dc>0端的同χ慢控制、总p2与正t1恢复；新p2正密度不授正总p2，更不授全八矩或可加零端口块。另一R521母的R550/R552不能跨接，本母原20/cap/13前提仍须整条路径保持。
 
+### R554：同33母双真实保持与准确p1/p2联合接口
+
+[R554](results/R554-two-real-holds-and-exact-joint-p1-p2-control-with-one-fixed-gauge.md)在原起点一次选母/χ，两个完整高度loop和两个真实hold共用原源；第一段正p2且Π/p2=3δ1，第二负p2且比例δ2>3δ1。第一hold后的真实H1,L、全部m/T/p漂移、第二mean根和两桥全保，完整两时长Jac=AB(δ2−3δ1)≠0。含全部基准费后实际IFT给总p2=0/Π<0，同族另一正时长根还给p1=p2=0；p0未清。
+
+原t1逐点仍负。可将R540/R553完整有限后继及C¹费用一起放进同一端映射，再解原两时长，在真实k<0/dc>0端准确保p2=0/Π负；这是从原起点整体初选的新词，不是改变R553既定末history。继续同χ慢t1和其余矩；局部两矩端截面不授M0、末germ/pose或period。
+
 ### R542：整个短快族的第二总矩障碍与恢复时长
 
 [R542](results/R542-complete-second-matrix-sign-and-duration-gates-for-the-fast-ruling-family.md)从原R73原读出定义固定中心t1^c=t1+(ωc/2)p2，完整记录t1/t1^c在真实长度t0=L⁻²常态前缀各−t0/8；R536全部回路/保持及R540选支段继续负。任意同合法盒后继准确有8T_c(final)=8T_c(entry)+∫(2hkη−k²−1)−∫(h′/h)²。

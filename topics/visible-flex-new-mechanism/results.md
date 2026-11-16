@@ -146,3 +146,5 @@
 - [R552 同一固定规范的三个准确p零与正原t1](results/R552-three-exact-p-moments-with-one-gauge-and-a-positive-t1-remainder.md)：**已证明**同R521母/一次χ/真零history，通过真实低尾、完整有序第三与真水平上升，在实际P2零事件上用两参数C¹端图/IFT准确付P0=P1=P2=0。总原T1严格正含全部成本；余五矩/末germ/pose/第三第四period/13仍未闭，不授M0或跨母拼接。
 
 - [真正58 full62成功后端的严格metric失败](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)：**完整原观察**。SLSQP0/true、54iter/70值/52J、K16.393442622950822；准确盒/norm及曲率/PSD/area通过，但fine η高于严格预算，0预测/actual仍58。新115.53521002299999秒，总3757.97482037/147；十记录完整、0disk、余额关闭，继续完整168联合问题。
+
+- [R554 同一33母的双真实保持与准确p1/p2联调](results/R554-two-real-holds-and-exact-joint-p1-p2-control-with-one-fixed-gauge.md)：**已证明**含全部桥/前缀/真实m,T的两时长IFT，给总p2=0/Π<0及同族另一p1=p2=0词；纳入R553完整快后继后，真负k端亦可保前者。原t1仍负、p0及余矩未清，不授既定末态改史、全M0或慢恢复。
