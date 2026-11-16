@@ -394,4 +394,9 @@
 ### 2026-11-16 23:33 Asia/Taipei — serre-public-astra-20261115
 - R913 §2最小证明更正：几何自然对偶δ^D由Cartier配对得坐标与通常Lie同ζ²，Picard–Serre配到余切ζ层；明确区别于半线性惯性descent逆作用。
 - 原角色值/公式/两伴随结论不改；R916整模ann证明不依赖该旧措辞。R787真670续请求已推并受理，R914五件已全文读，正按原来源激活。
+- 本push规则：公开Actions真实pull至5b02d2b878ab91e1f5bad59316c246657ef209c4（2026-11-16T15:33:49.086437+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:35 Asia/Taipei — serre-public-astra-20261115
+- R914五件完整执行源已全文核读激活：corec7dded45/wrappera6a26387，仅143新准确RHS，原三列/选行及273阶P0直接复用；完整560行/C²和原P1参数/三项t帧逐项保留。
+- 六数学组469原件由四真实载体运输，原标签不变；执行method只统一公式显示与完成时态，不改数学。rank8/Norm/rigidification/height未成；R787实际run43897255536已进入compute，未重复派发。
 - 本push规则：公开Actions真实pull后比较两README并记录实际提交；root6979d793/topic35f82f3d，主目标OPEN。

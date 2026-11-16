@@ -2,34 +2,61 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R913-geometric-dual-endomorphism-convention",
-  "commit_message": "serre: distinguish geometric duality from semilinear descent in R913",
-  "rules_last_read_commit": "dc85bc9751fcf568d5c3fd30391004e4279ab413",
+  "request_id": "20261116-R914-full-original-V1-iota-and-P1-jets",
+  "commit_message": "serre: activate full original V1 involution and P1 jet transport",
+  "rules_last_read_commit": "5b02d2b878ab91e1f5bad59316c246657ef209c4",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "d852753b244f80e76c3809b6a8dd9cd6018314e69be2631345fe89f1c04d35b3",
+  "expected_previous_request_sha256": "a9b0b631c26b0a336dcc467b18329d9e9d0ebbae589f281f25ad84bbfdbc324a",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md",
-      "sha256": "07b150af4ae1459246c85a68cf13e72ba8731a973e94f41c5ac2ed1da3980191",
-      "expected_previous_sha256": "744265662e5cb39a4c0ae85d0874fa2a1ec464a986c218f8a968d8a1c187db19"
+      "path": "topics/serre-uniformity/scripts/R914_original_full_V1_involution_and_P1_jets.py",
+      "sha256": "c7dded45af13c7cd37b9c5261d917c2e81d3c179debe963296bbd8caf746e004",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R914_public_original_full_V1_involution_and_P1_jets.py",
+      "sha256": "a6a26387e76bbd6387aa47d7bb90384e3a3ccc129f09f4717bb2ec4e1098a206",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R914-original-full-V1-involution-and-P1-jets-method.md",
+      "sha256": "8c8d188627c69d720d83e166403f9ba8f3b23c51dc46d28a2c11890bdf66a897",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R914-original-full-V1-involution-and-P1-jets-public-request.json",
+      "sha256": "59cae2f02c930b6cc08bce19a4e3ea95502465517a5d048f328685943c0de46a",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R914-full-V1-involution-and-P1-jets.yml",
+      "sha256": "1e57f5f10e905bde9059039d7eb8ebdeca4cc095b4728aa361d5ecf5f4cb715e",
+      "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "b4de632279c6fcdd70127c37c3e80ab5405451f81689540597ecacf2f08e8b52",
-      "expected_previous_sha256": "c6dedd039e907f2d2490e5986ba1d4ccfaf6869490ab2827d98867f9a2180ab0"
+      "sha256": "17b3089b876f8f0910fc925906102820153e00121fcde7cd489f449739e85431",
+      "expected_previous_sha256": "2f7fdaa747f40cda6d1cafb2f3961aa69ec30d492d10af36d1fff0f9d383ba35"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "cd60521b96fe23a6b0ca58ba2335859d6a274791ec56b8279c46c2cf9f85a94d",
-      "expected_previous_sha256": "08b23032d9a307642fcff9b24e4b10a6a2d3eeeb22ad6869fde8f1fb00b49d6c"
+      "sha256": "76df81f3cec65fa29b80baafded735a434eb047a84a72e6c052542e9e1053649",
+      "expected_previous_sha256": "cd60521b96fe23a6b0ca58ba2335859d6a274791ec56b8279c46c2cf9f85a94d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "c8093bb58f431430f1ae59caf94f1ac574d4b8e389c61b9677c5b2effcd7721e",
-      "expected_previous_sha256": "8c0b184fd256ff73b1bf06022319dc820a980f3d04a1100aeeae6adb93d377d9"
+      "sha256": "7630d3d3e73b10623ad823e8c12535b63ba14f42901b72a74aa4856faf28a8e5",
+      "expected_previous_sha256": "65318dedcb21af8b024f6ba07796e6b8e135054c725df6d75354c0312df442f4"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R914-full-V1-involution-and-P1-jets.yml",
+      "request_path": "topics/serre-uniformity/notes/R914-original-full-V1-involution-and-P1-jets-public-request.json",
+      "request_sha256": "59cae2f02c930b6cc08bce19a4e3ea95502465517a5d048f328685943c0de46a"
     }
   ]
 }

@@ -1,0 +1,264 @@
+{
+  "budget_minutes": 300,
+  "carriers": {
+    "R853": {
+      "actual_original_carrier_member_count": 169,
+      "bundle": {
+        "bytes": 3237190,
+        "file": "R853-retained-original-inputs.tar.gz",
+        "sha256": "e17c356b73a1e08c64c71e02373b9afa58ddcd219956d437c7d20881ec5ed13c"
+      },
+      "inventory": {
+        "bytes": 31959,
+        "file": "R853-original-source-inventory.json",
+        "sha256": "89c1807f1822ec9fe0a774596d5f0d025fc2835eea47953eeaf7ec0269466369"
+      },
+      "original_groups": [
+        "R786",
+        "R837"
+      ],
+      "receipt": {
+        "bytes": 11764,
+        "file": "R853-retained-inputs-receipt.json",
+        "sha256": "7f9569ccb4fbbfda1f3498500e81bb0596cebc33274ba80614008ae47407789f"
+      }
+    },
+    "R856": {
+      "actual_original_carrier_member_count": 569,
+      "bundle": {
+        "bytes": 13406926,
+        "file": "R856-retained-original-inputs.tar.gz",
+        "sha256": "fd6329bd17f2d729a3c3834e78fe7b4b626be84b692e77d0e51bbdf205f01e41"
+      },
+      "inventory": {
+        "bytes": 115028,
+        "file": "R856-original-source-inventory.json",
+        "sha256": "df1c712d4e5caec933cc1e46ff7a56e35972d541edd1fd8873de2d51a5f56f38"
+      },
+      "original_groups": [
+        "R805",
+        "R837"
+      ],
+      "receipt": {
+        "bytes": 7509,
+        "file": "R856-retained-inputs-receipt.json",
+        "sha256": "2533c38a4b423404c6c06d5f3ae4c2ffeb3585dae038a9ad8582d45d0eccc8e2"
+      }
+    }
+  },
+  "core": "R914_original_full_V1_involution_and_P1_jets.py",
+  "core_sha256": "c7dded45af13c7cd37b9c5261d917c2e81d3c179debe963296bbd8caf746e004",
+  "execution_environment": "public_GitHub_Actions_only",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "mathematical_raw_data_written_to_git": false,
+  "method": "notes/R914-original-full-V1-involution-and-P1-jets-method.md",
+  "method_sha256": "8c8d188627c69d720d83e166403f9ba8f3b23c51dc46d28a2c11890bdf66a897",
+  "old_R837_platform_artifact_required": false,
+  "original_selected_source_count": 469,
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "R802": {
+      "file": "results/R802-original-semilinear-parity-and-degree-seven-relations.md",
+      "sha256": "2e8a3b19685d6f607d4f1b000c98e34a98370aa54a98ffeeb2c59e892ba393ca"
+    },
+    "R805": {
+      "file": "results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md",
+      "sha256": "b48d9f8dd5d8d1a89aa2574ab7f9ee014b83ca21baf41694252b9c53993571e8"
+    },
+    "R853": {
+      "file": "results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md",
+      "sha256": "f9635345f5f1ab4a3911fc34d8a5f303b73205486faef1ab3b06fe79f8087333"
+    },
+    "R872": {
+      "file": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R883": {
+      "file": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R912": {
+      "file": "results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md",
+      "sha256": "273ef827c365b7901f349150f0665cffd57e330e2806dd8113649b3482671e97"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "request_scope": "143 new exact RHS; full146 geometric iota; transport old273 jets; no endpoint order or norm calibration",
+  "result": "R914-original-full-V1-involution-and-P1-local-jets",
+  "resume": null,
+  "rules_last_read_commit": "5b02d2b878ab91e1f5bad59316c246657ef209c4",
+  "run_mode": "fresh",
+  "sources": {
+    "R786": {
+      "certificate": {
+        "bytes": 8510,
+        "file": "p41-exact-original-power5-short-basis-certificate.json",
+        "sha256": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+      },
+      "configuration_sha256": "fb62a25c326ece7550813849457e39479d17eec2d7fd31741e7e65e84feb9061",
+      "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+      "manifest_bytes": 1085673,
+      "manifest_file_count": 3740,
+      "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+      "result": "R786-exact-original-power5-short-basis",
+      "run_id": "43682100611",
+      "selected_file_count": 152,
+      "selected_files_sha256": "4cbeb1485d06e0f525108e52cc13ac6698dd924ab22d3477de1a5d9e22057b43",
+      "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670"
+    },
+    "R805": {
+      "certificate": {
+        "bytes": 5108,
+        "file": "p41-original-affine-pencil-free-basis-certificate.json",
+        "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+      },
+      "configuration_sha256": "176dcb479f730ff647490a0aaa587195d615a4ded4edac7a64f8331fd46300d4",
+      "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+      "manifest_bytes": 451608,
+      "manifest_file_count": 1322,
+      "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+      "result": "R805-original-affine-pencil-free-basis",
+      "run_id": "43705580592",
+      "selected_file_count": 7,
+      "selected_files_sha256": "8c00fab2f8e28ab9744b0a54d8ebefdd1519197fad576f16811bc9de4cc8992d",
+      "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700"
+    },
+    "R837": {
+      "certificate": {
+        "bytes": 5040,
+        "file": "p41-original-fixed-branch-pencil-certificate.json",
+        "sha256": "83234905bd30dd774ec4fd4ed6bfaef46f7bcacc1ff8fe0f5b00e4119ca31eb1"
+      },
+      "configuration_sha256": "1fbdd4c7173879f69cac92f39b2c485a583deb1cada140b4ac9afadc7d2622f9",
+      "core_sha256": "5702b42ee014ab7552e61383e24b738fe5ed48955dfc207ad3d85cae08e8b924",
+      "manifest_bytes": 26808,
+      "manifest_file_count": 151,
+      "manifest_sha256": "fe2aee5e584b5e6e8800d2ef30ff17ed76fdfb349d5f783880c1e08cf7a64e43",
+      "result": "R837-original-fixed-branch-pencil",
+      "run_id": "43770995901",
+      "selected_file_count": 9,
+      "selected_files_sha256": "8a068ab3ae2028c86654f2a67d64dd2e1e36b376942c3b940a42b05453f2e388",
+      "source_commit": "fa17c77fe36fddd9df06677569984d1ea71a6b41"
+    },
+    "R853": {
+      "certificate": {
+        "bytes": 5897,
+        "file": "p41-original-semilinear-V1-conjugates-certificate.json",
+        "sha256": "c1e162160acda34cdefb9879e44286dd4c2bb39c8b46e01215639836b8a29f54"
+      },
+      "configuration_sha256": "3fcb2f72309d5bb60c674665072f9b7ccc513d5ff52cbe6fa8e2222fb9037920",
+      "core_sha256": "5b65e7ccf7c6663949155fdd30abc4c765823e861259c8f9b90b26d0bc1511df",
+      "manifest_bytes": 2248,
+      "manifest_file_count": 13,
+      "manifest_sha256": "f5e82a8c1cf1ccaaef85dc0818b4f62555685ded1df82542bbcb7c0b5c3326ae",
+      "result": "R853-original-semilinear-V1-generator-conjugates",
+      "run_id": "43801910753",
+      "selected_file_count": 9,
+      "selected_files_sha256": "28d3f453c2aea9eb2971b7c065a311967443d1b3e6ee645353accb6c7f7196db",
+      "source_commit": "813f9b813fe131dedadd3891bfedfbc2074e3406"
+    },
+    "R872": {
+      "certificate": {
+        "bytes": 17961,
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "configuration_sha256": "74f6b6fa625084ad550d46bfa4ca9426fd7641fe8b7b20095ec51b196e11e5ba",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "selected_file_count": 282,
+      "selected_files_sha256": "5fb8f73b68bcd4a68f0a3567eccd57853bfefda203bd8deda6421563bb840c1b",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13"
+    },
+    "R883": {
+      "certificate": {
+        "bytes": 9033,
+        "file": "p41-original-t-first-order-frame-certificate.json",
+        "sha256": "3ae22a7651cecd492c170c44a034bea71356e01bd4fdc880851b86742298daeb"
+      },
+      "configuration_sha256": "ea27184f1beb64978adfa1940cf0b01343461e978319b4531b283d5b80b62a99",
+      "core_sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
+      "manifest_bytes": 2783,
+      "manifest_file_count": 19,
+      "manifest_sha256": "d2e9de1f1d969695f1d7b8b3ebbd933264d292e377113f622ed623a68076390f",
+      "result": "R883-original-t-first-order-frame",
+      "run_id": "43843430426",
+      "selected_file_count": 10,
+      "selected_files_sha256": "42c869e4d2030b7672229ba1cc18ddb82aaae49be6a852d1ce548c0d87104fc8",
+      "source_commit": "a41eaf283496222761525ba06efd1e3d61ab4f47"
+    }
+  },
+  "temporary_active_checkpoint_retention_days": 1,
+  "transport_helper": "R837_original_branch_pencil_public.py",
+  "transport_helper_sha256": "eec99c9e849c051a8314f00ff594037e962d9bc23e2d2bfaa6334307a3bb5eae",
+  "transports": {
+    "R853": {
+      "archive_bytes": 3370404,
+      "archive_sha256": "807c974bc188c21aa0ea75c51c3da5a3f5717178fb149ec4314a54f27a40997b",
+      "artifact_id": 14197275258,
+      "artifact_name": "serre-global-R853-original-semilinear-V1-generator-conjugates-43801910753-1",
+      "core_sha256": "5b65e7ccf7c6663949155fdd30abc4c765823e861259c8f9b90b26d0bc1511df",
+      "expected_conclusion": "success",
+      "manifest_bytes": 2248,
+      "manifest_file_count": 13,
+      "manifest_sha256": "f5e82a8c1cf1ccaaef85dc0818b4f62555685ded1df82542bbcb7c0b5c3326ae",
+      "result": "R853-original-semilinear-V1-generator-conjugates",
+      "run_id": "43801910753",
+      "source_commit": "813f9b813fe131dedadd3891bfedfbc2074e3406"
+    },
+    "R856": {
+      "archive_bytes": 47922521,
+      "archive_sha256": "125c93efac847e7b14ba8a256897f6e6c362b3fd060a87bc5befd43ba38b7c25",
+      "artifact_id": 14198217155,
+      "artifact_name": "serre-global-R856-original-fixed-branch-ideal-bases-43805659598-1",
+      "core_sha256": "80c4e508cd0ddc15bcc3f8a5b3a4053ce141233fd3d259c1bcf0935db6a6311b",
+      "expected_conclusion": "success",
+      "manifest_bytes": 9130,
+      "manifest_file_count": 52,
+      "manifest_sha256": "6f40ae27f660816057442e12562d7a4a38d6fa5f4422bbd3f865acf22951b8cc",
+      "result": "R856-original-fixed-branch-ideal-bases",
+      "run_id": "43805659598",
+      "source_commit": "ebdb4e512bb3cb8f8fadbb3bf2b9e69f11127051"
+    },
+    "R872": {
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "expected_conclusion": "success",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13"
+    },
+    "R883": {
+      "archive_bytes": 8018550,
+      "archive_sha256": "3041116aa53b458e37635b8b5fccab6a2b988f4a57a05d6e5ba086229f0392bc",
+      "artifact_id": 14214835037,
+      "artifact_name": "serre-global-R883-original-t-first-order-frame-43843430426-1",
+      "core_sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
+      "expected_conclusion": "success",
+      "manifest_bytes": 2783,
+      "manifest_file_count": 19,
+      "manifest_sha256": "d2e9de1f1d969695f1d7b8b3ebbd933264d292e377113f622ed623a68076390f",
+      "result": "R883-original-t-first-order-frame",
+      "run_id": "43843430426",
+      "source_commit": "a41eaf283496222761525ba06efd1e3d61ab4f47"
+    }
+  },
+  "workflow": ".github/workflows/serre-R914-full-V1-involution-and-P1-jets.yml",
+  "wrapper": "R914_public_original_full_V1_involution_and_P1_jets.py",
+  "wrapper_sha256": "a6a26387e76bbd6387aa47d7bb90384e3a3ccc129f09f4717bb2ec4e1098a206"
+}

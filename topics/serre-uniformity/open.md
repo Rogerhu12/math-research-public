@@ -176,3 +176,5 @@ R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1
 **R787真670同核续已准备并激活**：[实际断点与唯一IO修复](notes/R787-original-power5-670-outer-timeout-continuation.md)。原run43846878233外层exit124、无core receipt/null coreSHA，真实manifestf756e254/1261项与完整670 lift8c9052ec已核，76旧lift身份留history。wrapperdff10f45只在失败124且无trueFINAL时容许缺receipt，所有manifest/配置/完整模关系保留；数学core93d3d72b与300min/1372源/14支不变，直接原artifact续，不重旧位或造负结论。
 
 R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)给dual αp坐标及通常Lie同ζ²，Picard–Serre配到ω的ζ层；不把它套成半线性惯性descent的两次逆号。全部显示角色/公式和非零边界不变，R916整ann证明独立。
+
+**R914完整原146几何反射与P1 jets执行源已激活**：[执行契约](notes/R914-original-full-V1-involution-and-P1-jets-method.md)。五件已全文读，corec7dded45/wrappera6a26387，六原数学组469件从四真实载体取；仅143新准确RHS，原三列/选行/273阶/CM值/帧复用。全560准确方程与C²保原K线性；P1用ρ1=ι*ρ0及c1=−c0，正常函数273项/t帧三项分别保留。不重W/Γ/Mg/Hensel/旧三解，不拿127全纯矩阵代146。实际输出待run；rank8、九Norm、rigidification与height均false，R917继续真实小端点order。
