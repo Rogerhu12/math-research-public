@@ -114,6 +114,12 @@ $
 
 完整二次系数先由原R73/R482提取，再按R54的同一个profile迁移及R521共同0…10矩回到真实正副本。迁移只在整个实际/参考/领圈包络无极点时成立；原复尾和h²尺度均保。R526的常态端germ仅为条件例，在该域实际不可达；继续非恒偶germs与同一真实反馈的M0返回，不借无ruling的常态控制段。
 
+### R530同一正交库的双边完整反馈与四偶末矩
+
+[R530](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)从起点强窗口付两半Ch<0/Ck>0，完整两条K=0的2×2加速度矩阵行列式严格正；保真实反时A/T及同一固定χ。交换ODE唯一性付中心全jets，h偶/k与ω−ωc奇，不借profile空间反射。原八维恰四奇四偶；中心四个E8奇参数经小L真实端映射IFT清共同奇端值，真正左重锚w=B D、χ=χν+2T左(φ;D)保全部字段和collars。
+
+剩余同一路径的p1/t1/r1/s0四偶根尚未付，小L t1严格负。有限L端映射须实际继续，不能沿程重选最终规范或用另一无ruling水平曲线代替。四根若真实达到则M0且w0；第三、两端反射germs、pose与完整第四双半积分仍按原公式支付。中心全jets并不把±L变成反射中心。接下来继续这同一有限反馈族的大幅四偶配平与R520三q全0路线。
+
 ### 已付接口与旧排除的完整来源
 
 旧强圆、R333 wholeE、R389/R460 真range、R443–R462 原49模块和同一规范的详细原式，逐字保于[原接口记录](notes/open-O4-paid-interfaces-before-fixed-width-actual-section-20261116.md)。R304/306的同Gaussian芽rank-one排除、R387的一层障碍及其它窄族排除继续有效；不据此排一般C²构造。

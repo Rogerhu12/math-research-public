@@ -4,9 +4,9 @@
 
 ## 1. 已读规则与实际pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于14:08:24→14:08:30 UTC真实pull --rebase，已读上游 **e32b3c4b8bc49afdd9d85c02ea37095ad7113766**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**14:20:49 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于14:08:24→14:08:30 UTC真实pull --rebase，已读上游 **e32b3c4b8bc49afdd9d85c02ea37095ad7113766**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**15:08:30 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-private于13:20:33.071808→13:20:49.550954实际pull读 **f30bd4b570719904bebe98f2bc5e5e605f67da7b**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
+private于14:08:50.558190→14:09:12.326653实际pull读 **e7f3575ad7152555fab208113400647bd0aad04f**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
 联合19两个job的实际pull已读：public25c98ff4198cfc10552ddcd0dc9307110a6be8de（13:53:50）/2d24741f9fdd36088ff28184eab749159044f25e（13:54:32）；privated0f167e40e085e3d4508d658c8bf14b9241ebf11/0e2bfe83d4592292f66350dcf4a102f06ffe235f（13:54:37）。README空diff、QUEUE唯一进行中，私有正文不发表；完整时间及源身份见[新闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)。
 
@@ -47,12 +47,14 @@ private于13:20:33.071808→13:20:49.550954实际pull读 **f30bd4b570719904bebe9
 
 **R526**只对真实M0/K0块、w0/固定χ与匹配反射germs：继承T_P后PP^R末M/T零，第四2V_P；pose闭须GD=DG、v∥N。另同germs/G=D/T_P(φ;D)0时P²(P^R)²闭pose/M/T，第四4V_P；hook逐函数盲只给充分目标，实际M0块未构造。**R528**在同R521整个共同窗口的Möbius分母1−k(h(x+ω)−k)无零时，常态时间二次系数严格为−Λc sin²θ，独立入A/T及固定w/χ；正长度K0常态不可能。覆盖合法k≤0，不排非恒偶germs、穿极点或R520另一母。
 
+**R530**同R521母在强正窗口用两实际半段的完整K方程解hss/kss，原A/T正反时号和交换ODE付中心全jets。四E8奇中心参数小L准确清共同奇端值，剩p1/t1/r1/s0四偶根；小L t1<0，非M0。左重锚w=B D、χ=χν+2T左(φ;D)真紧固定；中心奇偶不授端germs/pose，第四仍双半原和。
+
 R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周期K0→M0；不能移植给R520/521。原R469–509、所有尾/13/period条件和费用保索引/原文。
 
 ## 5. 已在继续的真实下一问题
 
 **O2**回到R514原51控制：先在固定R0态中释放17个R1自由方向，与17个R2同172盒；不重启已闭α/xstar的19变量实例或只换初点/solver。完整已付MODEL字段先按原source文本核；尚缺的L17、完整R1二次交互及其新系数必须新scope收费，不能用单Hxstar,xstar补造。需要R0则连同实际值/Π/G的新模型支付。所有真正候选仍须全body预测、原14门/准确盒；有限环不授连续reach/主门。R525的完整实际G谱三门、原盒trace/minimax继续可用，R519 mean≈.11228并未消失。
 
-**O4**在同一个可变母/固定规范中继续三q全零的真实历史反馈，或真实有限幅M0配平；另一R521库继续非恒偶germs/全m,T控制。literature的无ruling原水平奇偶配平仅是支架，不能先宣K0。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
+**O4**在同一个可变母/固定规范中继续三q全零的真实历史反馈，或真实有限幅M0配平；另一R521库继续非恒偶germs/全m,T控制。R530双边全K已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
 
 每一子问题结束接open下一项；不因阶段、运行余额、时长或条件定理停主课题。最新费用/来源/规则随真实进展更新。

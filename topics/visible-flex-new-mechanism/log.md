@@ -150,3 +150,8 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:07 UTC：公开来源复核与旧日志原文归档
 
 [来源状态](notes/public-source-topics-current-state-20261116.md)按固定ec067fabbc723f7c1a45c05212d4a0353381f55c重读三个完整HANDOFF：仍无可直接迁入的本题全门解，条件证书/组件观察不冒接受。本题仍58、2902.366570826秒/147值，自由R1/R2源码准备中，0新科学。为遵守文件上限，旧log前缀逐字存[归档](log-archive-20261116-0332-through-1118.md)81881B/SHA256 37db1413e5028f3ec1c5ec1f763e1485655020b72d1651153abf9aaf9e90e6f1，旧索引前缀逐字存[归档](results-index-R420-R505-and-numerics-20261116.md)84021B/SHA256 553af5bdc8e9eb615bd115b91a9f1ea79b23e1bb2c7eb6782580e6f7d1b53130；完整条目边界及原相对链接保留，任何条件/费用均未撤销。
+
+
+## 2026-11-16 14:12 UTC：R530双边全ruling与四个真实偶端矩
+
+[R530](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)付同母两半完整加速度反馈、真A/T反时号、中心全jets和四奇端IFT；真实左重锚一次规范保紧性。四偶根、小L负t1、端germs/pose/第四仍明列未付。root及独立纸审通过，并区分ambient位移和左frame相对pose；0新科学执行。private14:08:50→14:09:12实际pull读e7f3575ad7152555fab208113400647bd0aad04f，根README未变、QUEUE唯一进行中；当前58与2902.366570826秒147值不变。

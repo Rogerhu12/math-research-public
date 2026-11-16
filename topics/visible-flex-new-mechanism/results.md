@@ -71,3 +71,6 @@
 
 
 - [真正58联合α/R2的status8原返回与闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)：**实际观察完成**，局部SLSQP8/false、nit16/46完整新评价，原谱门仍负，无候选或actual。新增19.9540876秒/0值、累计2902.366570826秒/147值；当前58不变，不授准确全射线不可行，继续原51中自由R1/R2的新模型。
+
+
+- [R530 双边完整反馈与四个真实偶端矩](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)：**已证明**同R521两半完整K方程共同解加速度，真历史正反时和交换ODE付中心全jets；四奇中心参数小L准确清奇端入值，原八矩缩为同轨道四偶根。左端一次合法w/χ准确恢复；四偶根、端germs、pose及完整第四尚未付，小L严格非M0。
