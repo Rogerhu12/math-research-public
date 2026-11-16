@@ -154,3 +154,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R906原整Tate像已证**：[完整证明](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)。原fine Cartan/level6源在σ=τ^(e/2)下的period lattice固定；原正CM实际残余指数皆奇，σ−1在实际q(TpJ)整可逆。由原Raynaud整序列得qTpJ=qB TpB，逐h及原清分母p-index全部保留，未换optimal商。高分歧e=p²−1不满足Mazur–Raynaud小分歧cotangent条件，故Hodge饱和/原CM normal-content与指定第五jet仍待实际finite-flat比较。
+
+
+**R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。尚无新连接矩阵，原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
