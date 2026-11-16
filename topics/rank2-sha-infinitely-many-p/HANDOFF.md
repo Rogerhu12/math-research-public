@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：42f95905deec3024dfee7a687bdc806d38c79baf；2026-11-16 05:41:48 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:36:21 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
+- 最近已读规则提交：7d3b606b96d6961118bf17de562abcdd986ff388；2026-11-16 05:57:28 UTC核两README无变。实际CI pull 2026-11-16 05:25:10 UTC/505428b6dea898190f7afb07a3ae9a9183621829（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:57:27 UTC仍无环境。最迟2026-11-16 06:15 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,8 +13,8 @@
 
 ## 完整检查点与分工
 
-[本轮压缩前完整H](notes/2026-11-16-frontier-before-critical-value-discriminant.md)、[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、条件、来源和未付门；没有撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
-R1–363、365–560、562–653、655–711、713–858已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep续同Kcorr/Hcorr与真WT，theta续四原来源的实际乘法/除p，literature续同Zorig的generic迹和canonical实际对应。
+[本轮压缩前完整H](notes/2026-11-16-frontier-before-original-frobenius-shadow.md)、[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、条件、来源和未付门；没有撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+R1–363、365–560、562–653、655–711、713–859已登记；R364/R561/R654/R712及主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep续同Kcorr/Hcorr与真WT，theta续四原来源的实际乘法/除p，literature续同Zorig的generic迹和canonical实际对应。
 
 ## 原循环、同Artin及canonical门
 
@@ -22,7 +22,9 @@ R1–363、365–560、562–653、655–711、713–858已登记；R364/R561/R6
 [R852](results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)给原degree9 Γ的真Chow逆及AJ−18/−1/18；[R857](results/R857-original-full-three-scholl-and-generic-cm-cycle-criterion.md)给实际全三挠φ及完整648项ε3、ΘᵗΘ=81Π、ΘΘᵗ=81ε3，原AJ仍读−Ω3/18。所有解消/水平例外/Artin保。
 [R854](results/R854-original-canonical-cm-contraction-and-threefold-heegner-cycles.md)保Dδ²−6、真Cδ/Iδ、每φ的(degφ/34)H_B、Bj,p=−2δAj,p及平方+12·34⁴；7993给三个canonical H_j非零/finiteχ独立。它们到原端点的实际循环对应与其它p非零未付。
 [R858](results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：同full3每个order3 deck平均全Chow零；任意CM fibre类定义于KH3c(F)。F=K的3惯性迹零含c1特殊单位，F≠K的dihedral一维角色仅阶≤2；原η在3不分歧/平方阶9，故全垂直χ部分零。原res单射，Zorigχ0 iff同同步双点迹Tτχ0。实际3边保34/102及3/1/9，附A核εRS=ηK(−1)εBC、split Hom0。**尚未判Zorig或Tτ零/非零。** 附B付原CM±/pointχ反向与同λ：单线root−，全toric λ×λ♯的root+及至少二阶中心零不产生sign矛盾。
-R839–849保原CH²平移/Ceresa/Hom/全S,W；原generating属3–6已排，g7两必要signature不代实际存在。同最高动机不赋CH rank1/AJ单射/跨p非零；R835伴随根数、所有旧height/critical Artin范围继续按完整前检。
+R839–849的完整原CH²/Ceresa/Hom/S,W与低属排除保前检；同最高动机不赋CH rank1、AJ单射或跨p非零。
+
+[R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：原r≡2mod3在H34的剩余域准确F_(r²)，φr²=−r且反交换CM。D_r=Γφ−E×O−r O×E给最高Π两线到H1(E)(1)的整diag(a,−b)同构、det r。5/11的Frob−1/5、−1/11排所有ℓ>3全局H1 torsion；故实际原整shadow的任一ℓ部分非零即证同Zorig及原generic trace非零。完整点公式3S=Σ原c Σ_k[ω^k]Σ_{G=[ω^k]φF} mult·Tr H，所有χ conjugate在同素理想逐项约化，不冒剩余域Galois平均。尚无原Jacobian Hom函数域坐标或非零检测，亦不付普通loc/跨p。
 
 ## 四原输入、同水平格与真正除p
 
@@ -31,12 +33,12 @@ R839–849保原CH²平移/Ceresa/Hom/全S,W；原generating属3–6已排，g7�
 [R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：whole H_m和整核ker ε上的B=j_(p+1)/p、α=−B；仅εmodp0不良定。共同A24六sigma绝对/28、四质量1伙伴10/48/112/42及全低卷积/balanced项保。
 [R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：**任意偶degree的whole格含odd列**有D_z^pA=H D_zA+mCzA。四原双变量j_(p+1)/p整且权p−5。原R=(D²H+g2H/12)/p整，CM R/g2²=55cp/(576b)、D²R=110bcp；全部D_k非齐次递推/横向/g2/模p²初始保。110单位及较晚p+7单位均不代四B。
 [固定水平theta格](notes/2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)：有限代数水平基保全部odd，原惰性p有H_m^p0。同纤维冻结得四先于p的fνflat，保所有物理jet；P处恰三零，D³=90/mν³。原B=(2m)^N(T_Nf)(P)/p；T0=1,T1=D,T_(r+1)=DT_r−r(2r−1)g2T_(r−1)/24，不能冻结g2或移系数进syzygy。
-[原GM半密度](notes/2026-11-16-original-gauss-manin-half-density-p-curvature-and-hurwitz-interface.md)：D^p0，Pp=[[HC,−H²],[C²,−HC]]常数1已付；真Hurwitz Q^p另有−∂v^p，不能套普通环核。
+原GM半密度保持D^p0、Pp=[[HC,−H²],[C²,−HC]]及真Hurwitz额外−∂v^p，全部绝对规范见[已付正文](notes/2026-11-16-original-gauss-manin-half-density-p-curvature-and-hurwitz-interface.md)。
 [半长Bol/留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)：n=(p−1)/2,N=n+1，T_N模p是Sym^nGM。δ=H²D满足δ^p=H^(2p)δ，两ε核交H^nF^p。保a_H=a−pR/H的整修正V_N，CM特征零H=H''0，准确
 Bν=2mεν[N!C^(N+1)Res(fνflat ω/H^(N+1))/p−V_Nfνflat(P)]。
 留数/p整由原R856，不来自三零。四原相消未排。
 [共同A24完整乘法](notes/2026-11-16-common-a24-horizontal-product-and-relative-theta-gluing.md)：真实整数同源给17/3/17/11标签、相对K2040/144/5712/1848；四fνflat为同二参数核的固定CM相对收缩。切锥15/M³(v+nu/24)³，ε_Mε_K=ε24εn；两个混合Jp,1/p、J1,p/p全保并还原同BA及低卷积。辅助K不添新中央，常矩阵不冒参数Hecke。
-[同角色germ附录A/B](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)保全JΦ=QΦJ/Gaussian整Γ_h、coverℓ^r及同degree49m两独立源；其中央零来自局部因子，不代primitive非零或免费预算。
+同角色germ的全Gaussian整Γ_h、覆盖与独立源沿前检：局部因子中央零不代primitive非零或免费预算。
 
 [原共同奇来源与同度六零](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：原S/V共用C30=−σ30 x²y(X−8b)(7X²−4bX+16b²)/7：S=C30σ2z/2、V=C30σ6z/6，真实[3]换最后输入。固定奇水平g恰双零、D²g=1/30；whole j_p/p在CM为canonical O30。两原B准确O30−χ60 P_p(X0)、O30−χ60 P_p(729X0)，X0=(2/15)³，P_p保全低卷积；奇Bol只取真ε份额，原留数/p及R/H修正全保。U−S(2z)/64同degree136恰六零，原b归一为Θ68 a tK17/(91b)，首1890b z12；B差为BU−BS/16。四固定f在Qbar上独立，不代Frob常数独立或四B非零。
 

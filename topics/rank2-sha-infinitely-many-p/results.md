@@ -458,3 +458,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [原共同奇来源与同度六零](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：原S/V共用C30=−σ30 x²y(X−8b)(7X²−4bX+16b²)/7：S=C30σ2z/2、V=C30σ6z/6，真实[3]换最后输入。固定奇水平g恰双零、D²g=1/30；whole j_p/p在CM为canonical O30。两原B准确O30−χ60 P_p(X0)、O30−χ60 P_p(729X0)，X0=(2/15)³，P_p保全低卷积；奇Bol只取真ε份额，原留数/p及R/H修正全保。U−S(2z)/64同degree136恰六零，原b归一为Θ68 a tK17/(91b)，首1890b z12；B差为BU−BS/16。四固定f在Qbar上独立，不代Frob常数独立或四B非零。
+
+
+- [R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：原r≡2mod3在H34的剩余域准确F_(r²)，φr²=−r且反交换CM。D_r=Γφ−E×O−r O×E给最高Π两线到H1(E)(1)的整diag(a,−b)同构、det r。5/11的Frob−1/5、−1/11排所有ℓ>3全局H1 torsion；故实际原整shadow的任一ℓ部分非零即证同Zorig及原generic trace非零。完整点公式3S=Σ原c Σ_k[ω^k]Σ_{G=[ω^k]φF} mult·Tr H，所有χ conjugate在同素理想逐项约化，不冒剩余域Galois平均。尚无原Jacobian Hom函数域坐标或非零检测，亦不付普通loc/跨p。

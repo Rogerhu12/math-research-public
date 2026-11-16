@@ -1,0 +1,536 @@
+# R859 — 原最高 CM 分量的惯性约化 shadow 与整 Abel–Jacobi 检测
+
+日期：2026-11-16。**状态：下述真实 Frobenius 除子、最高块的整收缩同构、原系数与角色保留的点公式、全局 torsion-free 判据已证明。尚未计算出原点公式的非零值；不据此宣布原端点、原同步迹或指定普通局部化非零。**
+
+本篇直接处理 R831 修复后的同一个端点类，经 R832、R839 的实际
+Chow 对应写入 $E_0^3$。检测的是该原类；R817 的7993证书仍只属于
+R814/R854 的 canonical 来源，不用于本篇。
+
+有限约化素数记为 $r$，系数素数记为 $\ell$。二者均不与主问题
+沿原 ordinary ray 变化的 $p$ 混用。本文没有运行素数扫描，也未用
+只有名字而没有实际输入的 producer。
+
+## 1. 同一个固定源、系数及 Artin 域
+
+沿 R832、R858 置
+$$
+K=\mathbf Q(\omega),\qquad
+E_0:\ y^2=x^3+1,\qquad A=E_0^3,\qquad H=H_{34}.
+\tag{1}
+$$
+$H/K$ 是原三个十八阶角色 $\eta_j$ 的共同核域；
+系数域 $\mathbb E$ 含 $K,\zeta_{18}$ 及原 Hecke 提取系数。
+几何基域与系数域分别保留：$\mathbb E$ 中的系数不受 point-factor
+Galois 投影作用。
+
+令 $\pi_1$ 为以 $O$ 为基点的椭圆 $h^1$ Chow 幂等元。
+写
+$$
+R=([\omega],[\omega],[\omega]),\qquad
+\boxed{\Pi=\pi_1^{\otimes3}\frac{1+R_*+R_*^2}{3}.}
+\tag{2}
+$$
+原 CM 分解给
+$$
+\operatorname{im}\Pi=M_+\oplus M_-,
+\qquad M_\pm=H_\pm^{\otimes3}.
+\tag{3}
+$$
+式(2)是实际 Chow 投影：在 $\pi_1^{\otimes3}$ 内，
+两个全同号特征为1，其余六条特征为 $\omega,\omega^2$。
+因此它与 R839/R852 的原最高投影相同，不另引入一个只在实现上
+定义的投影。它在所有 $\ell>3$ 上为整投影。
+
+对原一个固定有序对，R832、R839 的真正 $h^1$ 同构给
+$$
+\boxed{
+\mathcal Z_{\rm orig}
+ =\sum_{\rho}c_\rho\,
+    \Pi\,(\Phi_\rho)_*[X],\qquad
+\Phi_\rho=(F_\rho,G_\rho,H_\rho):X\longrightarrow E_0^3,
+\quad X=X_0(10404).
+}
+\tag{4}
+$$
+这里
+$$
+G_\rho=a_\rho\circ q_0,\qquad
+H_\rho=b_\rho\circ q_2
+$$
+保持原 $q_0(z)=z,\ q_2(z)=4z$，第一份 $F_\rho$ 经原 $f$ 因子。
+有限 $h^1$ 表达中的有理倍 Hom 可先清分母成为实际同态，所需
+逆倍数保入 $c_\rho$，从而(4)中的各 $\Phi_\rho$ 都是实际态射。
+
+所有这些映射可取在 $H$ 上：R832 的 Artin 因子在 $H$ 上平凡，
+其 $h^1$ 同构由该域上的实际 Hom 给出。扩张 $\mathbb E$ 只改变
+线性提取系数，不要求把几何 Hom 的域免费扩大。
+原 $X_1/X_0$、old pullback、source3 等尺度均在同一个
+$c_\rho$ 中保留；本文不把它们重新归一为1。
+
+若处理有限 point-factor $\chi=\eta_j^{\pm1}$，则按 R858
+附录B与实际 CM 符号一起投影：
+$$
+e_\chi=\frac1{18}\sum_{\sigma\in\operatorname{Gal}(H/K)}
+                 \chi(\sigma)^{-1}\sigma.
+\tag{5}
+$$
+可把(5)展开为(4)的一个更长的有限和。原 all-plus 使用
+$\chi=\eta_j$，all-minus 使用 $\chi=\eta_j^{-1}$；
+不得在不选 CM 符号时把满 $\Pi e_\chi$ 全称作单条 $\lambda_j$。
+
+固定整数 $D>0$，使(4)及已采用的(5)中除2、3外的所有系数分母
+均由 $D$ 清除。对每个 $\mathfrak l\mid\ell>3$，令
+$\mathcal O=\mathcal O_{\mathbb E,\mathfrak l}$，
+可把 $D\mathcal Z_{\rm orig}$ 视作
+$$
+\widetilde{\mathcal Z}\in
+\Pi\,CH^2(A_H)_{\rm hom}\otimes\mathcal O.
+\tag{6}
+$$
+即使 $\ell\mid D$，后面的非零检测仍有效；只是该整倍数可能使
+某一次有限检测变为零，不能据零检测反推原类为零。
+
+## 2. 惯性素数的实际剩余域与 Frobenius
+
+取
+$$
+r>3,\qquad r\ne17,\qquad r\equiv2\bmod3.
+\tag{7}
+$$
+$r$ 在 $K$ 惯性。其 $K$ 上素理想是主理想 $(r)$，
+生成元 $r$ 属于原 order $\mathcal O_{34}$，且素于其 conductor。
+环类 reciprocity 因而给 $(r)$ 在 $H_{34}/K$ 完全分裂。
+对任何 $\mathfrak r\mid r$，准确有
+$$
+k_{\mathfrak r}=\mathbf F_{r^2}.
+\tag{8}
+$$
+这不是把整个 $\operatorname{Gal}(H/K)$ 当成剩余域的 Galois 群。
+
+$E_0/\mathbf F_r$ 的 $r$-次 Frobenius 态射记为 $\varphi_r$。
+因为 $r\equiv2\bmod3$，$x\mapsto x^3$ 在 $\mathbf F_r$ 上双射，
+故 $\#E_0(\mathbf F_r)=r+1$，迹为0。
+于是实际椭圆同态满足
+$$
+\boxed{
+\varphi_r^2=[-r],\qquad
+\varphi_r[\omega]=[\omega^2]\varphi_r.
+}
+\tag{9}
+$$
+第二式也可直接在坐标
+$[\omega](x,y)=(\omega x,y)$ 上核对。
+特别
+$$
+E_0(\mathbf F_{r^2})=E_0[r+1],\qquad
+E_0(\mathbf F_{r^2})\simeq
+(\mathbf Z/(r+1)\mathbf Z)^2.
+\tag{10}
+$$
+所有原 Jacobian Hom 在好约化处延拓，故(4)可在所选
+$\mathfrak r$ 上逐项约化；原 $q_0,q_2$ 也保持。
+
+## 3. 真实 cross divisor 与轴的准确次序
+
+在 $E_0^2/\mathbf F_{r^2}$ 上定义
+$$
+\boxed{
+D_r=\Gamma_{\varphi_r}
+      -(E_0\times\{O\})
+      -r(\{O\}\times E_0),
+\qquad
+\Gamma_{\varphi_r}=\{(P,\varphi_rP)\}.
+}
+\tag{11}
+$$
+系数 $r$ 必须在第二条轴上。
+确实图形投向第一因子次数1，投向第二因子次数 $r$；
+(11)的两次推出均为零。
+
+更精确地，(11)的线丛限制到两条轴均平凡：
+在 $\{O\}\times E_0$ 上图形给 $[O]$；
+在 $E_0\times\{O\}$ 上给
+$\ker\varphi_r=r[O]$，这里是实际非分离核的 scheme 长度。
+因此(11)是以两条轴刚化的 cross 线丛，其真正 Chow 分量位于
+$h^1(E_0)\otimes h^1(E_0)$。
+这说明对 $\pi_1^{\otimes3}$ 的使用不会在下述点公式中遗漏
+Picard 或轴项。
+
+对 $\widetilde{\mathcal Z}_{\mathfrak r}$ 定义原 shadow
+$$
+\boxed{
+\mathscr S_{\mathfrak r}(\widetilde{\mathcal Z})
+=(\operatorname{pr}_3)_*
+ \left(
+ \widetilde{\mathcal Z}_{\mathfrak r}
+ \cdot\operatorname{pr}_{12}^*D_r
+ \right)
+\in E_0(\mathbf F_{r^2})\otimes\mathcal O.
+}
+\tag{12}
+$$
+右侧用 $O$ 把 degree0 零维循环认作椭圆点。
+原类同调平凡，故交积推出确有 degree0。
+若某几何代表与图形相交不适当，(12)仍取线丛第一 Chern 类的
+交积；下一节给相容的可执行 divisor 读法。
+
+这里的有限点并不是有理系数的有限域 Chow 群值。
+后者张量 $\mathbf Q$ 后会消失。检测必须先保(6)的整代表，
+再在(12)的 $\ell$-primary 模中读取。
+
+## 4. 最高两条 CM 线的整收缩同构
+
+固定 $\ell>3,\ell\ne r$。令
+$$
+V=H^1_{\rm et}(E_{0,\overline{\mathbf F}_r},\mathcal O).
+$$
+$\omega-\omega^2$ 在 $\mathcal O$ 中为单位，所以
+$$
+V=V_+\oplus V_-
+$$
+是两条整直和线。主极化的 cup pairing 在 $V_+\times V_-$ 上
+完美。选择基 $e_\pm$ 并固定 Tate 基，使
+$\langle e_+,e_-\rangle=1$。
+
+由(9)，存在 $a,b\in\mathcal O^\times$ 使
+$$
+\varphi_r^*e_+=a e_-,
+\qquad \varphi_r^*e_-=b e_+,
+\qquad ab=-r.
+\tag{13}
+$$
+最后一式同时证明两系数为单位，未把复 period 或有限 Gauss
+系数当成额外单位输入。
+
+与(11)交积的 cohomological contraction 是
+$$
+c_r(x\otimes y\otimes z)
+=\langle x,\varphi_r^*y\rangle z.
+\tag{14}
+$$
+轴项在这个 $h^1\otimes h^1$ 分量上为零。
+由图形的第一、第二坐标约定，(14)的顺序就是所显示的顺序。
+
+在最高块
+$$
+T_{\rm top}=(V_+^{\otimes3}\oplus V_-^{\otimes3})(2)
+$$
+上，(14)准确成为
+$$
+e_+^{\otimes3}\longmapsto a e_+,\qquad
+e_-^{\otimes3}\longmapsto -b e_-.
+\tag{15}
+$$
+目标是 $V(1)$；两个输入 cup 因子提供所需 Tate 移位。
+因此
+$$
+\boxed{
+c_r:T_{\rm top}\xrightarrow{\;\sim\;}V(1)
+\quad\text{为 }\mathcal O\text{-整的 }G_{\mathbf F_{r^2}}\text{ 同构},
+\qquad \det(c_r)=r.
+}
+\tag{16}
+$$
+这里用的是(13)的真实反交换，不是只比较两边的维数或 Frobenius
+特征多项式。对 ordinary split 约化，Frobenius 保持两个 CM
+符号，(14)反而杀最高两条线；所以(7)是此检测的实质条件。
+
+几何 Frobenius $\operatorname{Frob}_{r^2}$ 在
+$T_{\rm top}$ 和 $V(1)$ 上均为标量 $-1/r$。
+这与(16)相容，但不是(16)的替代证明。
+
+## 5. 同一源 specialization 与有限域 AJ 的完整读取
+
+令
+$$
+T_A=H^3_{\rm et}(A_{\overline H},\mathcal O)(2),
+\qquad T=\Pi T_A.
+$$
+采用几何 Frobenius 规范，$\mathcal O(1)$ 在剩余域
+$\mathbf F_q$ 上的 Frobenius 值为 $q^{-1}$。
+Bloch 的整 étale AJ 给
+$$
+AJ_\ell(\widetilde{\mathcal Z})\in H^1(H,T).
+$$
+好约化 specialization、代数对应与 cup/Gysin 的相容性给交换图：
+$$
+\begin{array}{ccc}
+AJ_\ell(\widetilde{\mathcal Z})
+ &\longmapsto&
+AJ_\ell(\widetilde{\mathcal Z}_{\mathfrak r})
+ \in H^1(\mathbf F_{r^2},T_{\rm top})\\
+&&\downarrow\,H^1(c_r)\\
+&&\kappa_\ell\bigl(
+ \mathscr S_{\mathfrak r}(\widetilde{\mathcal Z})\bigr)
+ \in H^1(\mathbf F_{r^2},V(1)).
+\end{array}
+\tag{17}
+$$
+上行是同一个原全局类的局部 restriction 与 unramified
+specialization，未换成另一个 CM cycle。
+
+椭圆主极化识别 $V(1)$ 与 Tate module。
+有限域 Kummer 映射准确给
+$$
+E_0(\mathbf F_{r^2})\otimes\mathcal O
+ \xrightarrow{\;\sim\;}
+H^1(\mathbf F_{r^2},V(1)).
+\tag{18}
+$$
+例如两边均是相应整格模
+$\operatorname{Frob}_{r^2}-1$；因 $r$ 在 $\mathcal O$ 中为单位，
+它也就是模 $r+1$ 的两维整格。
+
+由(16)–(18)，不是只有一个单向蕴含，而有
+$$
+\boxed{
+AJ_\ell(\widetilde{\mathcal Z}_{\mathfrak r})=0
+\ \Longleftrightarrow\
+\mathscr S_{\mathfrak r}(\widetilde{\mathcal Z})=0.
+}
+\tag{19}
+$$
+(19)准确读取此 prime 上的原最高块有限域 AJ；
+它不反推全局类在所有地方为零。
+
+可直接用的 primary 依据是 Ellenberg–Logan–Srinivasan,
+*Certifying nontriviality of Ceresa classes of curves*，
+Propositions2.10、2.11：它们把实际交积 shadow、Kummer 和好约化
+specialization 放入同一个交换图，引用的是
+Buhler–Schoen–Top 的一般光滑射影 cycle-class 相容性。
+本篇额外支付了其一般算法所没有的指定最高块整同构(16)。
+
+## 6. 原 Artin 域上全局 H1 的无挠性
+
+**引理。** 对任意 $\ell>3$ 及上述 $\mathcal O$，
+$$
+\boxed{H^1(H,T_A)\text{ 没有非零 }\mathcal O\text{-torsion}.}
+\tag{20}
+$$
+同一结论适用于直和因子 $T$。
+
+证明。5、11均在 $K$ 惯性，素于34。
+与(8)相同的 principal ideal 论证给 $H$ 上剩余域
+$\mathbf F_{25}$、$\mathbf F_{121}$。
+在 $E_0$ 的 $H^1$ 上，它们的几何 Frobenius 分别为
+$-5,-11$。所以在**整个** $T_A$ 上分别是
+$$
+\boxed{
+\operatorname{Frob}_{25}=-1/5,\qquad
+\operatorname{Frob}_{121}=-1/11.
+}
+\tag{21}
+$$
+这里 $H^3(A)$ 由三份 $H^1(A)$ 的外幂给出；
+Tate twist2分别除以 $25^2,121^2$。
+也可以逐个原 product Künneth 分量得到同一标量。
+
+置 $V_A=T_A\otimes_{\mathcal O}\operatorname{Frac}\mathcal O$。
+由(21)，$H^0(H,V_A)=0$。
+短正合列
+$$
+0\longrightarrow T_A\longrightarrow V_A
+ \longrightarrow V_A/T_A\longrightarrow0
+$$
+把 $H^1(H,T_A)$ 的 torsion 部分识别为
+$H^0(H,V_A/T_A)$。
+当 $\ell>3,\ell\ne5$ 时，
+$$
+\operatorname{Frob}_{25}-1=-6/5
+$$
+为 $\mathcal O$ 单位，故该不变量为0。
+$\ell=5$ 时改用
+$$
+\operatorname{Frob}_{121}-1=-12/11,
+$$
+仍为单位。证毕。
+
+这个证明不假设原全局 AJ 非零，也不使用一般 Selmer rank-one
+的局部注入猜想。它只排除一个全局整 AJ 类可能是非零 torsion。
+原有限 $\eta_j$ 的实现也相容：在上述惯性主理想上
+$\eta_j((5))=\eta_j((11))=1$。
+但证明本身已经对平凡化域上整个 $H^3(E_0^3)(2)$ 成立。
+
+由(17)、(20)立即得到实际检测定理：
+
+**定理。** 若某个满足(7)的 $r$、某个 $\mathfrak r\mid r$、
+某个 $\ell>3,\ell\ne r$ 使
+$$
+\boxed{\mathscr S_{\mathfrak r}(\widetilde{\mathcal Z})\ne0}
+\tag{22}
+$$
+在 $E_0(\mathbf F_{r^2})\otimes\mathcal O$ 中成立，则
+$$
+AJ_\ell(\mathcal Z_{\rm orig})\ne0
+\quad\text{于有理 }\ell\text{-adic cohomology},
+\qquad
+\mathcal Z_{\rm orig}\ne0
+\quad\text{于原 }\mathbb E\text{-系数 Chow 群}.
+\tag{23}
+$$
+事实上有限域 AJ 非零迫整全局 AJ 非零，(20)再使其有理化仍非零。
+若原有理 Chow 类为零，任一整代表的 AJ 必为 torsion，和(20)
+矛盾。清分母整数 $D$ 不影响这个蕴含。
+
+对原 $\chi$ 部分，R858 的真实 restriction 单射还给
+$$
+(22)\ \Longrightarrow\ \mathfrak T_{\tau,\chi}\ne0
+\tag{24}
+$$
+的同一个同步 generic trace 结论。
+此处没有使用 canonical7993来满足(22)。
+
+## 7. 从原 Φ 写出的完整有限点公式
+
+以下公式不要求曲线源 genus3，不要求源的 Jacobian 全为
+$E_0$ 幂，也不要求任一映射是 degree2。
+
+先取(4)的一项，记其约化为
+$$
+\Phi=(F,G,H_0):X_{k_{\mathfrak r}}\longrightarrow E_0^3.
+$$
+为避免与基域 $H$ 混淆，本节第三映射写为 $H_0$。
+对 $k=0,1,2$ 定义实际差映射
+$$
+d_k=G-[\omega^k]\varphi_r F,
+\qquad
+\mathfrak d_k=d_k^*(O)\in\operatorname{Pic}(X_{k_{\mathfrak r}}).
+\tag{25}
+$$
+若 $d_k$ 非常数，$\mathfrak d_k$ 由其真实零纤维表示，所有
+inseparable multiplicity 均保留。
+若 $d_k$ 为常数，其 pullback 线丛平凡，应取
+$\mathfrak d_k=0$ 的 divisor class；尤其不能把恒为 $O$ 的差映射
+误当作一个可数的有限零集。
+
+设 $\mathfrak d_k=\sum_x m_{k,x}[x]$ 为任一代表，定义
+$$
+B_k(\Phi)
+ =\sum_xm_{k,x}
+      \operatorname{Tr}_{k(x)/k_{\mathfrak r}} H_0(x)
+ \in E_0(k_{\mathfrak r}).
+\tag{26}
+$$
+这是把推出 divisor 的 degree0 部分用 $O$ 取 Albanese。
+更换 divisor 代表不改变这个点。
+所有闭点和其剩余域的 trace 必须保留，不能只求
+$X(\mathbf F_{r^2})$ 中的解。
+
+**准确点公式是**
+$$
+\boxed{
+3\,\mathscr S_{\mathfrak r}
+       \bigl(\Pi\Phi_*[X]\bigr)
+   =\sum_{k=0}^2[\omega^k]\,B_k(\Phi).
+}
+\tag{27}
+$$
+
+证明。由(9)，$R_*^k\Phi$ 的两前坐标落在 $\Gamma_{\varphi_r}$
+上的条件是
+$$
+[\omega^k]G
+ =\varphi_r[\omega^k]F
+ =[\omega^{-k}]\varphi_r F,
+$$
+等价于 $G=[\omega^k]\varphi_r F$，正是(25)。
+其第三坐标为 $[\omega^k]H_0$。
+由(11)，对应 pullback divisor class 为
+$$
+\mathfrak d_k-G^*(O)-rF^*(O).
+\tag{28}
+$$
+两个轴项与 $k$ 无关，推第三因子后乘 $[\omega^k]$。
+它们在完整三项求和中由
+$$
+[1]+[\omega]+[\omega^2]=0
+\quad\text{于 }\operatorname{End}(E_0)
+$$
+准确消去。
+$D_r$ 的真实 cross 性使前两个 $\pi_1$ 不添项；
+第三个 $\pi_1$ 正是取 degree0/Albanese 的规范。
+代入(2)即得(27)。证毕。
+
+因此对(6)的完整原来源，
+$$
+\boxed{
+3\,\mathscr S_{\mathfrak r}(\widetilde{\mathcal Z})
+ =D\sum_\rho c_\rho
+       \sum_{k=0}^2[\omega^k] B_k(\Phi_\rho).
+}
+\tag{29}
+$$
+若尚未把(5)并入 $\rho$，则右侧还必须显示
+$$
+\frac1{18}\sum_{\sigma\in\operatorname{Gal}(H/K)}
+       \chi(\sigma)^{-1}
+       \sum_\rho c_\rho\sum_{k=0}^2
+           [\omega^k]B_k(\Phi_\rho^\sigma).
+\tag{30}
+$$
+所有 $\Phi_\rho^\sigma$ 都在同一个所选 $\mathfrak r$ 上约化。
+因为 $r$ 在 $H/K$ 完全分裂，$\sigma$ 通常移动该素理想；
+不能把(30)替换成对 $\mathbf F_{r^2}$ 的一个域自同构平均。
+这是本篇完整角色与实际有限点计算的必要区别。
+
+在 affine 非无穷输入上，(25)可用精确方程
+$$
+x_G=\omega^k x_F^{\,r},\qquad y_G=y_F^{\,r}
+\tag{31}
+$$
+计算；原点、极点、scheme multiplicity 和闭点 trace 仍按(25)处理。
+(31)只是实际态射方程的一个坐标区，不替代全 divisor 公式。
+
+## 8. 可执行输入与目前未完成的计算
+
+(25)–(30)把一次真正的非零检测化为有限数据：
+
+1. R839 同一有限展开中实际 $F_\rho,a_\rho,b_\rho$ 的函数域表达，
+   原 $q_0,q_2$ 和全部 $c_\rho$；
+2. 原 $H_{34}$ 的所选素理想 $\mathfrak r$ 及全部 $\sigma$ 对该展开的作用；
+3. $d_k^*(O)$ 的完整 divisor、推出点及有限域 trace；
+4. 目标 $\ell$-primary 点模中的(29)或(30)。
+
+这些输入一旦明确，(29)是精确代数算法，不需近似积分或猜
+$p$-adic period。完整计算输出应含原展开/模型哈希、$r,\mathfrak r,\ell$、
+清分母整数、每份 divisor 的 degree 与实际 trace、角色加权点及其
+$\ell$-primary 阶。
+
+现有 R839 给出实际 Hom 的有限存在与规范，但未列出这些
+Jacobian 映射的函数域坐标；本篇没有把存在性伪装成一份已经能运行的
+producer。也没有因为 $r+1$ 含某个 $\ell>3$ 就预认(29)非零。
+这里不新增无来源的素数扫描。
+
+即便以后(22)成立，结论是同一原端点的非零及某一整 étale AJ
+的非零。它不自动给原普通 $p$ 处的指定 localization 非零，
+不把它等同 R814 canonical 类，也不完成无穷 $p$ 的
+$\Sha[p^\infty]$ 主目标。
+
+## 9. 引用与证据
+
+- [R831](R831-original-dyadic-old-space-and-unique-endpoint-class.md)：
+  唯一真实端点、$q_0/q_2$、原所有 old/X0/X1 次数。
+- [R832](R832-original-triple-chow-purity-and-rank-zero-contractions.md)、
+  [R839](R839-top-cm-translation-invariance-and-original-ceresa-expression.md)：
+  真正 $h^1$ Artin–CM 对应及(4)的同源有限态射表达。
+- [R852](R852-original-schoen-correspondence-and-exact-chow-inverse.md)：
+  两条 CM Chow 线和原最高投影的实际分解。
+- [R858](R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：
+  $H_{34}$、原 $\chi$ 与 CM 符号、同一同步 trace 和 restriction 单射；
+  本篇(24)只沿它已经证明的真实对象使用。
+- J. Ellenberg, A. Logan, P. Srinivasan,
+  *Certifying nontriviality of Ceresa classes of curves*，
+  [作者全文](https://padmask.github.io/CertifyingCeresa.pdf)，
+  [arXiv:2412.02015](https://arxiv.org/abs/2412.02015)：
+  Definition2.2、Propositions2.10、2.11、3.1、3.4及§4.5–4.6。
+  本篇使用实际交积/Kummer/specialization 的原定理，
+  不套其 full-GSp 的算法终止假设，也不套只陈述 semidiagonal
+  genus3 的特殊点公式；(27)另由本篇对原 $\Phi$ 完整推导。
+- J. Buhler, C. Schoen, J. Top,
+  *Cycles, L-functions and triple products of elliptic curves*，
+  J. reine angew. Math. **492** (1997), 93–133，
+  Proposition1.9(5)–(6)。
+  此处相容性通过前一作者全文中 Proposition2.10–2.11 的明确转述使用；
+  本篇没有声称已经亲读不可提取的原 PDF 全文。
+- 原(20)的全局无挠性和(16)的最高块整同构均在本文自含证明，
+  不以任何新数值或待证 regulator 假设为输入。

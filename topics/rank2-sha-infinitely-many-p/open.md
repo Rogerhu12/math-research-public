@@ -118,3 +118,10 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 1. 同一实际g和完整P_p的X0/729X0两值，再联同S/U六零与T的原行，付无穷p至少一B非零；不能由固定函数独立、谱份额、一般留数单位跳过相消。
 2. 同Zorig的同步泛纤维双点迹或到R814/R854固定canonical类的真正Chow对应；7993不替修复端点，toric乘积不改原单λ。
 3. 原同Kcorr/Hcorr两高前缀、第三3η/第四短行与R842的WT指定−BD−Pr；完整disc²同构读所有分支值，P处一条长窗不自动恢复其余分支。主目标未完成，持续推进。
+
+
+## R859：原循环的实际有限域检测
+
+[R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：原r≡2mod3在H34的剩余域准确F_(r²)，φr²=−r且反交换CM。D_r=Γφ−E×O−r O×E给最高Π两线到H1(E)(1)的整diag(a,−b)同构、det r。5/11的Frob−1/5、−1/11排所有ℓ>3全局H1 torsion；故实际原整shadow的任一ℓ部分非零即证同Zorig及原generic trace非零。完整点公式3S=Σ原c Σ_k[ω^k]Σ_{G=[ω^k]φF} mult·Tr H，所有χ conjugate在同素理想逐项约化，不冒剩余域Galois平均。尚无原Jacobian Hom函数域坐标或非零检测，亦不付普通loc/跨p。
+
+续R839原Hom的明确表达、全部Artin conjugate及交点迹；不以r+1可被ℓ整除替影子非零。ELS原文2.10/2.11的specialization适用本E0³，无需full-GSp假设，尚不赋计算终止或无穷系数素数。
