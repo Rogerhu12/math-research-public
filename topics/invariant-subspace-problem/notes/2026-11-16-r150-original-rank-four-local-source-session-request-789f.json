@@ -1,0 +1,158 @@
+{
+  "format": "isp-original-rank-four-local-source-manifest-session-v1",
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "400b1f73f9a177e69d75c9b62e31b8f85dad72cc",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "sessionScriptSHA256": "289355d438035cdd38347c681f680c8ba72fddb69c8ae0b2604364b3413102d0",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 300,
+  "closeSessionWhenStepsComplete": true,
+  "sessionWorkMinutes": 80,
+  "workflowHardMinutes": 90,
+  "steps": [
+    {
+      "id": "original-ten-parameter-model116-180",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "scriptSHA256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--through",
+        "seeds"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-ten-parameter-module127-v2/original-parameter-module-receipt.json",
+      "mathematicalScope": "Fresh exact source rebuild of the original17 gradients, complete50 border relations, six means, all100 commutators and ten Bell columns; all116 full original18 source products."
+    },
+    {
+      "id": "original-parameter-seed-compression50-180",
+      "requires": [
+        "original-ten-parameter-model116-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "scriptSHA256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+          "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+        "--header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+        "--out",
+        "{work}/original-parameter-seed-compression127",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-parameter-seed-compression127/complete-parameter-seed-compression-receipt.json",
+      "mathematicalScope": "Full3188/17674 output dictionaries and every omitted original seed source relation. Only finite-field initial module equality, no stability, E lift or unit-ideal claim."
+    },
+    {
+      "id": "original-rank-four-unexpanded-local-positive600",
+      "requires": [
+        "original-parameter-seed-compression50-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+      "scriptSHA256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+          "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--compression-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+        "--compression-out",
+        "{work}/original-parameter-seed-compression127",
+        "--out",
+        "{work}/original-rank-four-unexpanded-local-source127",
+        "--singular",
+        "Singular",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--through",
+        "final",
+        "--chart",
+        "14"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600,
+        1200,
+        1800
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "budgetResumeWholeProgress": {
+        "manifestPath": "{work}/original-rank-four-unexpanded-local-source127/rank-four-local-source-manifest.json",
+        "format": "r150-original-rank-four-unexpanded-local-source127-v2-manifest",
+        "binding": "8e701750318d6bed82bd5e202266e025a60da1d23397f2c740badae301ad0bff"
+      },
+      "receiptPath": "{work}/original-rank-four-unexpanded-local-source127/rank-four-local-source-receipt.json",
+      "mathematicalScope": "All twelve original parameters; ten original generator axes; forty-six literal source columns after four source-certified Bell removals; ten delta localizers. Exact original50 localized initial-module equality; no stable closure. Any positive requires all10 localized and cleared products, all18 original products and all17 original physical gradient transport. No E lift is prefilled."
+    }
+  ],
+  "sameJobPolicy": {
+    "wholeProgressResume": "Only exit75 and a new complete candidate/source/verification prefix with identical binding permit the next larger budget; materialized input alone or a still-running slimgb is insufficient. An unchanged mathematical prefix stops automatic repetition.",
+    "failure": "Syntax, source, arithmetic, memory and original-product failures never automatically resume.",
+    "data": "All arrays, logs, polynomial texts and SSI remain temporary. Repository records only source, parameters, run identity, size and SHA256. No Release data.",
+    "exactArithmeticScope": "This job prepares finite-field candidates and complete original source identities. No E-lift consumer is prefilled; a genuine positive candidate determines the subsequent exact lift.",
+    "deadline": "Every complete next attempt plus120seconds must fit the80minute work/88minute after-workflow-start deadline; otherwise no attempt starts.",
+    "rules": "Actual pull and both README identities before steps/publication and within28minutes of long arithmetic."
+  },
+  "computationalOutputsInRepositoryAllowed": false,
+  "largeDataPersistenceAllowed": false,
+  "mathematicalProgramStatus": "Original unexpanded local prepare was actual9.871052995seconds, 140588KiB, all original-source gates. New Singular candidate/lift is unrun; earlier expanded MemoryError and list/tuple guard failure are separately preserved."
+}

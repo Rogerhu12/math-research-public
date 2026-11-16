@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 400b1f73f9a177e69d75c9b62e31b8f85dad72cc（2026-11-16 14:07:25 UTC，Actions run43882440900实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43882440900-1.json。
+- **最近成功实际 pull 与已读规则提交：** 4beb78ba33aa29c17554ded6d17513cf119a484a（2026-11-16 14:11:40 UTC，Actions run43883132846实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43883132846-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-mean-frontier-rank312-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-rank-four-sparse-source-job-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -18,8 +18,6 @@
 ## R150原rank-one精确系数接续
 
 - 沿原17梯度/6188来源/4367输出与degree23的h*；全Q相对25/来源费8391及rank-one Bell8只按原范围用，完整原来源和范围见归档。
-
-- **[D31共同M完整结构已闭](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)：** 自由像 $(R/s)^2\oplus R/h$ 饱和25，原t2取末项；S型 $(1,2^7,4,5,5,6)$ 长35，M的dD37/dR8。真27×53呈示、恰31阶非裂扩张及独立HNF/SNF全付；原双根/全源/失败修复见正文和H归档。
 
 - **[全W127整结构](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)/[全基来源费](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)已闭：** U=M⊕R/(127,s+64)，D型D^25⊕D/127、dD26/dR3；AnnU=h*(127,s+64)，共同指数1。原6188/142子式与完整∞谱66/55已付，Δ298/完整权界给全4212基cost≤max(26410,124+degq)；两ann家族均26410。仅存在原minor，未枚举或展开源/给高度。
 
@@ -33,7 +31,7 @@
 
 - **[30均值首层原来源及完整权7秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)：** V_ij=NiYj、τ_ij=uiσj−SiYj，全原18乘回；全部7754×312满列秩，旧282前缀与30新增商维30。实17.097秒；root另读61双SHA并核全部2,419,248原来源坐标产品/312真主元，实15.649秒。仅此有限权前缀，不声称相对整个L0严格新增/稳定/e0/E；后继沿完整来源继续。
 
-- **[rank4局部准备边界](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)：** 六行v1实62.532秒/exit1/MemoryError，无完整Schur。独立诊断102.749秒/exit0，全部480 adj与460原坐标真；δ14含124项、6×46含4,768,130项、峰值607836KiB，未封存矩阵或调Singular。后继另绑定稀疏10×56入口，须核四Bell冗余及清ρ后全10/18/17来源；失败不抹、不判成员。
+- **[原rank4δ14的稀疏10×56正门](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)：** v2 prepare实9.871秒/140588KiB，原50/17运输、全部480 adj、四Bell40坐标/4原18乘回真，保原46列315860项及10局部器；仅初始模局部同模。原list/tuple失败另保，仅规范四indices；[六行MemoryError/完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)仍保。根全源/wrapper差异/request/原raw与5MB ASCII SHA核；独立Python3.12.14 job按180/180/600秒实重建并派发，不预填Singular。仅75加新完整candidate/验证前缀续；正证须清ρ后原10/18/17全乘回，再另付E/19图。
 
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
 

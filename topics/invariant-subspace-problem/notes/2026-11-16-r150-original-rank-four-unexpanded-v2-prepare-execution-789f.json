@@ -1,0 +1,78 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "continuation": "Original source-certified sparse input is complete. Singular candidate/lift is unrun locally. Only completed same-binding candidate or validation progress permits a budget75 continuation.",
+  "dataPolicy": {
+    "mathematicalArraysInRepository": false,
+    "rawMathematicalReceiptInRepository": false,
+    "uploadedArtifact": false
+  },
+  "executionKind": "actual-local-executor",
+  "format": "r150-original-rank-four-unexpanded-local-execution-identity-v1",
+  "inputs": {
+    "bytes": 2510,
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source-inputs-789f.json",
+    "sha256": "e631d05250e97f804e72899cc1ca9fbf7b636d6200589d235c98e86cea24d4a3"
+  },
+  "interface": {
+    "bytes": 9077,
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md",
+    "sha256": "e42ac3052d627d6df4420c79a1e55275104f50425d6a8566334f6fd62b63ad53"
+  },
+  "outcome": {
+    "binding": "8e701750318d6bed82bd5e202266e025a60da1d23397f2c740badae301ad0bff",
+    "characteristicZeroConclusion": false,
+    "elapsedSeconds": 9.871052995003993,
+    "exitCode": 0,
+    "lastWholePhase": "complete-original-unexpanded-local-module",
+    "peakRssKiB": 140588,
+    "positiveUnitIdentityClaimed": false,
+    "singularInvoked": false,
+    "status": "completed-prefix"
+  },
+  "parameters": {
+    "chart": "14",
+    "memoryMiB": 2048,
+    "out": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2",
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "seconds": 300,
+    "through": "prepare"
+  },
+  "sessionId": 86359,
+  "source": {
+    "bytes": 35070,
+    "gitBlob": "11f6bf80f1ced7e5a2a21ae0f763ffb7225102d6",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+    "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+  },
+  "temporaryOutputIdentities": {
+    "asciiModule": {
+      "bytes": 5081971,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2/literal-ten-by-fifty-six.sing",
+      "sha256": "af4b2277ddf5216aee3a2ec38d75119a47f1d90972bb65c4cd0fa55961c2acb8"
+    },
+    "completedInputPhase": {
+      "bytes": 9856,
+      "logicalBytes": 50474,
+      "logicalSha256": "dd656b62218cdf53086c61f2a92649739762cc6c303c1163f092b0998ba6df29",
+      "path": "complete-original-rank-four-unexpanded-input.json.gz",
+      "sha256": "c14d2aa943d2c3d0436d7265e762f3ed2de0a3c20d58dd5e8aee28fe92bd4a95"
+    },
+    "log": {
+      "bytes": 18733,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-v2-prepare.log",
+      "sha256": "d2824abf44cdfdc6a847977ce61dff2636316e9d287584aa5ff3b605cf3d5c03"
+    },
+    "manifest": {
+      "bytes": 16438,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2/rank-four-local-source-manifest.json",
+      "sha256": "b0d7349d9a1b27f91f0b4ac12483a065ae8063a5f304d7c3f8ff6861b2d96bf9"
+    },
+    "rawReceipt": {
+      "bytes": 18411,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2/rank-four-local-source-receipt.json",
+      "sha256": "16cc0dddd8680857c0dc9df1bfe2702cd5d9687653eacb0a4b51b14dc1783d38"
+    }
+  }
+}

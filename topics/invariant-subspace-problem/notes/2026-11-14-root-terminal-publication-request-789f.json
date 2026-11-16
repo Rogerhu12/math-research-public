@@ -1,19 +1,29 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "079f9a9b426545050e4e249a972475d00810aba5",
-  "createdUtc": "2026-11-16 14:07:09 UTC",
-  "message": "ISP R150: record real module selftest and complete600 budget boundary without blank resume",
+  "parentCommit": "f7d56b2da6e2c85f059f37277ad3026c31bb6667",
+  "createdUtc": "2026-11-16 14:11:17 UTC",
+  "message": "ISP R150: launch source-certified unexpanded original rank-four local module",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-v1-guard-failure-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-v2-prepare-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-local-source-session-789f.py",
+    ".github/workflows/invariant-subspace-r150-original-rank-four-local-source-session.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-rank-four-sparse-source-job-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-local-source-session-request-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-original-rank-four-local-source-session.yml"
+  ]
 }
