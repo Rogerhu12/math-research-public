@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 01:35:23 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c0387d67eebf240b1c13f2e2300fb21d79bbaad3。
+规则同步记录：2026-11-16 01:36:35 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 00dd915451868adb3557f24c67b4579033139ed5。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。全部科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布；代理交文本/blob。PAT只瞬时CLI，禁入文件/提交/connector/回复。
 
@@ -39,7 +39,7 @@
 
 [R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)：128首α1达9.68582474751023176056740816374984163e−11/226 replay同；stage.cpp:44 BatchStats歧义真编译失败，112/338未起。audit1800秒仅560/576、7305/7488query、6771advance，partial/unvisited完整保正文，不冒fullD。必要69567B/ed04510c及原3462B错误全文/quiet后01:14:49真清三树，旧raw不可借；R445/204只补类型限定后重生原全链。
 
-[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)：原stage b6537c6c只将literal_stats类型从BatchStats限定为simd_digit_trace128::BatchStats，新12691B/eca87efc独立源，逆替换整文件字词同；其它算法/数值/控制流与R423三调用限定保。旧歧义程序未生成可执行文件，不冒运行等价/编译通过。204须新launcher/helper/bridge/reader真实绑定新stage与编号，真91重新生成原19200完整128/replay/576×224/112/338/audit，R446待实际run。
+[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)独立stage12691B/eca87efc仅限定literal_stats类型，整文件逆替换同；旧编译未通过不冒运行等价。root204重生原19200完整链/所有89旧pin，R446待正式run，原参数/未付全保文稿。
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)/[200](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)真98重做完整39八对/106pins/free461仿射/原全部H、FD、17α与预算；abf42d92保全部trial/失败/末pair三参数/90KB。191八对曾进展但必要超限、末场未返，已毁raw不可借用。其余195/R411真实trace、197/R419关联θ/w、193/R400真453→450的完整门均保原接口，实际负责人见表。
 
@@ -53,9 +53,11 @@ R409/R413准确原cuff/B/尾帽、R416准确cut三jet、R417完整帽六jet、R4
 
 ## 正在执行的直接后继
 
-R437（amplitude）：首个真实radial后才选H、冻结W和全marker；shared后保存完整真实core/material、registration/normalization定义。当前reuse只记录材料责任未付，不以不同core拒solver或冒同g；原source分支要与R444明确组合。199终态R424已完整读回并发表。
+R437（amplitude）：首个真实radial后才选H、冻结W和全marker；shared后保存完整真实core/material、registration/normalization定义。当前reuse只记录材料责任未付，不以不同core拒solver或冒同g；原source分支与R444新203 tuple明确组合。
 
-R444（exact）：把197真实joint provider接连续十真实453→450，派生driver/hooks/pipeline/launcher/owner/reader六独立源；不只在workflow换sampler。原43f/3bc可保，完整双phase/lease/所有原门与钟不改；新tuple交amplitude。随后R442完整M维数派生继续；195/197/200终态责任优先。
+[R444](results/R444-continuous-ten-joint-provider-two-phase-source-composition.md)六独立源62010f35/5400aa4a/c825f632/cb05724b/cc9e1fa3/4e9a46fb将已刊197的真实joint sampler/client/native来源接原连续十453→450；完整27865B diff及接口已读。原19398pins逐值保+197新增9+新6=113（几何前），实际native30/预期导出70；原prepare_design/prepare_frozen/run_phase/PhaseLease/hooks.solve与主要reader正文不变，原43f/3bc动态来源可保。203 schema/namespace/deadline显式新，原全部门/7200及18900+2700资源合同保，不冒所有前置phase统一绝对强杀。actual180+xi0原父不暗换202；尚无203run，R437/R441必须真实新增tuple后才能消费新450。
+
+exact继续R442完整M维数派生，195/197/200终态唯一读回优先。
 
 root独占203总request/workflow/闭面编排，源自193原全链并明确纳入R444/R437；尚未派发，结果R440=root。先解同provider/source/schema实际绑定，不能再照抄旧独立角/幅中点双0分支。R441（geometry）继续真实N/尾步/角加密及共同物理角拉回，完整新450和同场几何都重做，旧来源不改。R445类型源码已独立冻结；root正在编排204原完整后继，R446终态负责人待正式绑定。
 
