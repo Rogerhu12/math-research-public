@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 15:06:08 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 15:08:10 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:57:36非FF真CLI仍无executor，下一本地尝试≤15:57:36。最新CI真pull为43887930151/1于11-16 14:39:21.134198→cc26411371171d0bc2d06ea37c340999e140a94c；4次两README完整diff空/同已读，exec全保。下一真pull≤15:39:21；ref读取不冒真pull。
-最近只读README核：11c271950a968d0c31a5bfadc92f2db32bba14ff；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：166262ba30d31fdb5de8be36d00b446ddcb632ad；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -53,3 +53,5 @@ W4MA4817fed3全实际proof已推；43887930151首次sciencechild30新+T0原copy�
 WVCfade78e6完整新候选及五源195500B已封：连续χG0χB_HLc全残差不微分source，tracefree clip保actual A/B/C/R/S/P/Q/κ3及两mean/7port；变reference全新界，同一未变模态只读，全部未变才7原copy。源owner126af29d/reader c84bd805/3math5e62a3c4、0b3cc24c、9ff4d6ca；manifest229198f5/60844，41current/19history/16AST。拟56新或49新+7copy、另2仅真gate，原目标全部未算；10完整静态模型/85原字段hash已核，95K+85K+8K+120K预算；package64a042ff/launch62353730已推，首次43891414339/1运行中；actual待核，WPS60 false冻结不改。
 
 WDH06cad487已证selected homogeneous高块：同WSMF whole及9完整原界，经全WBP/WIT、原transported P97，精确J=2^4608给χ<2^-44、逆<2。新球0/旧重算0；有限补J−1及Θ96/真96列/两physicalmean/ν/无限head仍待，非全物理逆、非all-s tame。见完整WDH proof，旧false不改。
+
+8旧派生report/清单630208B普通删，完整原球/浮点或partial资格/失败边界及exact恢复cdaa6c62dac6726abafc17284c1ba25475cff8fe见notes/2026-11-16-eight-derived-reports-and-inventories-history-recovery.md；仅8exact文件，不删内列对象，已成禁重。

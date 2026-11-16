@@ -141,3 +141,9 @@ manifest42e413021cbc4f0f7bcdfe5cc75f505e3862fead/24859/SHAb2f0fa9c4f92e5d4b5b2f8
 已完整审读九条原记录、WSMFA whole、WBP两侧、WIT两窗口与WFI closed graph/真实96约束。证明b469ec7c3ad17acbea4f79bdadf920d12ece1d48 /32216B/SHA256 06cad487fa670b15395f849cc4724c1b2be825951b376a15e204c45b3d0c1bd3，全35原式及新增原WFR.7顺序式保；只修新式display delimiter。原whole含N_i与readout各一次，非源carrier裸界；全C_E<2^1167、transported P费<2^316，WGT χ_J<2^1492 Λ_J^-1/3，精确J=2^4608给χ<2^-44和高块逆<2。所有原球全文附录保，0新ball/0旧target重算。
 
 这只闭selected homogeneous右预条件高target块；finite补维数J−1远非96，原Θ96与实际列、全Schur第二RHS负号、finite factor可有high输出、两个physicalmean/ν/无限radialhead、背景/all-s/nonlinear义务全留。T0=2^1500000仅旧smoothing尺度比较，不给physical H8193或全族逆。H/open压缩仅索引已发表全proof与不可变62353730862c1defd1379abcacc3099357d09e70原文，任何原scope不删。WVC43891414339/1仍首次运行，旧WPSfalse保。最近两README核11c271950a968d0c31a5bfadc92f2db32bba14ff，hash不变。
+
+## 2026-11-16 15:08:10 UTC — 八份旧派生报告/清单的完整不可变恢复与容量回收
+
+仅对恢复记录列出的8exact UTF-8小件普通删，gross630208B；原全文均在cdaa6c62dac6726abafc17284c1ba25475cff8fe同path/blob/bytes/SHA256，完整记录25f8291a4d9b02e51edee595233fb2af5b2aaeef /16744B/bb6fb5d32d84a5f080bc94c9d9b56ad92539f9eba3a88944ecb866ccd8f034c6。包括beta未完18保存子cell、浮点D5预测/central phase24、5项已成或partial清单；各原complete/false、全scope/失败原因未知边界和未完成域逐字保，不升级为beta-prime/完整leg/KAM/closed-metric结论。全部内部列举文件、源、对象、native证书均不删，旧producer禁重算。
+
+8basename在当前WVC/WPS/WSMF/W4M manifest与WVC五源和WMC/WDH proof无匹配；历史引用仍按完整不可变身份恢复。当前WVC43891414339/1仍首次运行，188000B未发表输出以及每新consumer120000B reserve持续计入，发布后重核实际Git-tree容量。根/题README于166262ba30d31fdb5de8be36d00b446ddcb632ad全文hash同已读，无新diff。
