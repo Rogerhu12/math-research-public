@@ -435,3 +435,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **末槽支持合同与不同的有限锥接口。** [原最后slot](notes/terminal-paid-attainer-final-slot-design-20261116.md)和新core24723B/dev9528B已写，尚无执行/通过声明，原63/58/257.595同账及64/160/1800不变。[有限锥原式证明](notes/finite-cone-affine-metric-design-20261116.md)给每行φ≤target+ρ iff (2(target+ρ)−σe,e,2f,ε)∈L4，准确支付该行全部单位球支持，保完整oracle和实际原门；先完成末slot再选择新算法，未选求解器/未增预算。
 
 - **R421：负六完整kk全曲率自然身份及该共同正字符全消。** [证明](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)给ΛVkk,−6(k)=S²(5∫p r⁴−3∫x r⁵)/640；先付原τ3全outer自然0，真正Y使D2=−P/32h²，30720四行/19T self及两真实尾准确消。共同M5零偶母及有序查询全0，结合R416/R419排同一增强商的非零−6字符。非原Q2算子全零；−4速度和actual joint仍欠，无新执行。
+
+- **R422：负四hh的完整两项曲率结构。** [证明](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)给Λ[h^-6]Qhh=S²(ΛV0+k²ΛW)，V0原k0、W原k6；完整c/normal、两次IBP、−Ψ、b链、N0势及ZZ两history均保，原CA/N2只在natural层含尾相消。两个新函数尚未知，未执行观察；静态W4零不能代替。下一只付两新完整Ω及−4kk，不重旧pure/rank。

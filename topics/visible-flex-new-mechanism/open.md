@@ -82,9 +82,9 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
 
-### R327/R330：把已付端口后的同规范联合门落实到实际列
+### R327/R330的同规范门仍保完整接口
 
-[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)沿R221既有一般核结论，证明当前R324解析正prefactor包的p/Af只有有限阶退化可跨接；完整kerLf每包u_i/平台χ_i两方向加间隙。间隙对原13门全盲；给两类明确列，平台保原二次tail的(0,−2A,2B)。必须先真的支付两原退化period函数，之后同k联合问题iff Cθβ=−Aθk0，保rank下降的解析消失阶/种子多一阶及光滑相位。继续评价当前真实目标的period平台/flux/端germ或有限兼容之一，不能再按包数宣满射；其它段仍须同一k/第三规范。
+[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)原13行/降秩整除/全圆光滑相位仍须同一个k；原平台列及gap不可见性保留。R394下方已给当前完整条件性接口，不能按包数宣满射或重做旧有限秩。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 
@@ -187,7 +187,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
 
-[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
+[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD。[R422](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)已将完整hh自然压为S²(ΛV0+k²ΛW)，V0=[h^-6k0]Qhh、W=[h^-6k6]Qhh。两个未知natural须独立支付，不能拿静态W4零替代；准备直接读原v2/N0/N2槽与paidpure坐标，只新增必要的两完整Ω，原CA/N2在natural层消掉不授权在raw层删后沿旧pure。kk仍继续完整原式；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实

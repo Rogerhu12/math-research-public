@@ -36,7 +36,7 @@ R411/R412：原16个4minor/正解析IFT付n2四平移系数0，再于同流形�
 
 [R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)/[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。完整self/pure/有序尾给−6全k静态a≡0、μ0，仅余速度PSD；−4静态自然恰S³(A+k²B)，a(k)=a1 k²S³/8。[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)唯一Ω run43784526298完整左word空，ΛW4=0，故a1=a(k)=μ=0；一般ΛV4=3S³F_Q4/32并非零。科学1.370958935s/RSS94920KiB、36源、旧研究0重跑。原N0/N2、Γ所需幂、真实水平微分及左尾不删；旧pure坐标不能代full mixed。
 
-[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)闭全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640=−3S²B_Q4/64；新τ3势natural0、原水平D2=−P/32h²及两19/3072尾全保。共同偶M5零母/不交3+2全0；结合R419的hh全k0/PSD cross0和R416静态0，**共同增强商非零−6正字符已排**。R418单锚现在由完整全k证明扩展；不宣原Q2算子0。只余−4速度PSD，mechanism续hh两锚、literature续kk。
+[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)闭全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640=−3S²B_Q4/64；新τ3势natural0、原水平D2=−P/32h²及两19/3072尾全保。共同偶M5零母/不交3+2全0；结合R419的hh全k0/PSD cross0和R416静态0，**共同增强商非零−6正字符已排**。R418单锚现在由完整全k证明扩展；不宣原Q2算子0。只余−4速度PSD。[R422](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)保完整原势/−Ψ/b/history/加速度，给Λ[h^-6]Qhh=S²(ΛV0+k²ΛW)，动态W=h^-6k6非静态W4。两函数尚未知；准备只新两Ω，CA/N2的natural消项不冒raw删项。另续−4 kk。
 
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)：共同A只含actual self与ordered3+2的affine轨道，辅助self不加；A(U0)=0。删自然≤−4为真不变商，逐权排正字符，原两次商校正/全部基准给wholeE+高自然商同一有限C1截面。物理实施明确须库/矩基/右锚/完整有限controls共享合法窗口，从起点一次坐标识别后冻结，不授旧seed。新F★=(F_rat,D,E5)同流形付19及共同D/E；全低自然/整包period仍欠。
 

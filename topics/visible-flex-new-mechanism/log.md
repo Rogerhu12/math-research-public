@@ -513,3 +513,7 @@ root已读末槽设计12857B、core24723B/dev9528B全源；发布这些新源和
 全文读results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md（16896B/SHAb25fcb099e62fddc3f085bdbb58938fe7b84990689d18255300c46bceb2283ff）。root另外从R417原六映射手核无1/x全outer(8)及对角(10)，核完整τ3 pure/Γ的±T/120、真正D2和E2三幂、7a+½center的30720后三行、19T/3072及ZZ二倍有序因子。所有原N0/N2、右锚、history/水平项保持，未执行研究或机械复核。
 
 R421给ΛVkk,−6(k)=S²ΛVkk,−6(0)，新top natural0；同共同母的偶/M5零与局部五次性使全self/ordered查询0，同权E响应消去后b0全k0。连同R416静态/R419hh与PSD cross，非零−6正字符已排。下一−4 hh两锚结构与kk完整原势；原静态自然仍可非0，actual全joint/全period/13同一规范未付。HANDOFF去旧链接重复但原证明均保results索引，无历史删除。
+
+## 2026-11-16 01:27:52 UTC：R422负四hh两项结构已写即推
+
+root全文读results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md（13659B/SHA728d7fec55d7df0eb70b4d2dae27c8f31bd16e22bedf9b481ddca7caffa2b5e3），手核c_q的同锚IBP式、J_s两低幂及N0/−Ψ乘积系数，修正文中三处display delimiter；无数学内容改动、无研究/人工执行。完整原场及真实有序两尾给S²(A+k²B)，未知恰两natural函数。R210只有已付pure坐标，是否有完整正规mixed根先按原schema核，不能假已保存。若新装配原self，CA/N2必须保到正确pure消去；不得删natural零pair的rawself后沿用原pure。已将这具体风险交新最小两目标接口，原forcing/旧pure/rank不得重编。
