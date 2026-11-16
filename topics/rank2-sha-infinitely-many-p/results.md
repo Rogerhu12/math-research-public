@@ -314,3 +314,5 @@
 - [R900 附A](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：同原split修正/三单位保留后，单惰性返回对任旧split层成立；全惰性幂集的显式整Möbius新块各部分迹零，奇数全新块由真实根数/compact BK严格0，奇数总层得min v_p(ℓ+1)整除。惰性主理想在全部原环类塔Frob恒1，准确排R891长剩余次数的这次移用；偶数新块的乘积整除仍开。
 
 - [R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：原F已结束run43839815472在1000000007给1021×852满列秩；完整M8/M2与全分母单位支付任意特征零扩张的原权8/2比值排除。若同V=eta¹²y延成亚纯权6截面，其极除子次数≥120；不混作权0函数/映射次数。k4仅84素数/2512bits/rank1116，未认证也未排除。
+
+- [R887 §17](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原P6·P28/66/130/60二因子模型保四α/五块窗，两个Z^p真消全部非O补极；二挠极<2p³与原[-1]不变共同给完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6与四QbRν的γ1，原全A-root trace及exact各保为模型差；仍未证明四指定读数联合非零或替换原p²/p³预算。

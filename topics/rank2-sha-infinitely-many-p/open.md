@@ -27,7 +27,9 @@ R863/H22、R876/879、R884A–I 已付全部原 norm-three/norm-two trace、old/
 - 三次 Cartier 完整保同原 étale A_(3s−1) 的 Frobenius 逆、全部 trace 和原 exact 项；四 α 同时零只删 log 行。
 - §16 给四固定 m 倒幂递推/真实 Miller 除点函数读取；平移连接 p 曲率恰为 −m cp Z(B)，每根一次退化。原 sigma 低卷积、p 级极帽与 B 法向保留，D_B 不能穿过只在纤维成立的平坦式。
 
-**下一实质门：** 四个实际 Fν,p、同一 trace 与原 P2 幂−Pm 的联合关系。不能由 adj 可逆、simple Smith 退化或 trace 配对非退化推四个指定 α 非零；不再逐个扩大已付运输家族。
+- §17 的同原二因子P6·P_(m−6)保四α和前五个modp窗，逐点消所有非O的Z零点补极；二挠极<2p³后原[-1]不变排二阶，完整C³η[2]=−α^(1/p³)rω，无exact尾。首次C为同Q6 Qb Rν的指定γ1^(1/p)ω，旧单因子全trace及原exact分别准确保为模型差；没有modp²/p³替换授权。
+
+**下一实质门：** 同一Q6与四个指定Q_(m−6)Rν方向的实际双线性关系及最终两次Cartier联合非零。四个实际 Fν,p、同一 trace 与原 P2 幂−Pm 的联合关系继续保留。不能由 adj 可逆、simple Smith 退化或 trace 配对非退化推四个指定 α 非零；不再逐个扩大已付运输家族。
 
 ## O4/O6/O7. 其它原全群路线仍开
 
