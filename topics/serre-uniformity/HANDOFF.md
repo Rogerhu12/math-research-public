@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7914840f8cb10be437179c2609de373afb4ab708**（2026-11-16T12:29:13.606668+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K有效trace代表前H](handoff-archive-2026-11-16-before-K-defined-trace-representative.md)，内接完整Cartan前H及全部旧归档，原来源/已成结论/关闭边界持续有效。
+**已读规则提交：c51c4b74716466c19389f456642b8e77951ab63d**（2026-11-16T12:35:55.867831+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K有效trace代表前H](handoff-archive-2026-11-16-before-K-defined-trace-representative.md)，内接完整Cartan前H及全部旧归档，原来源/已成结论/关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -15,7 +15,7 @@
 |R787 primal594后|43846878233 / 133229330888|fe3da6c7，core93d3d72b/wrapper42157e0d，10:13入算300min|
 |R824原27+244从596后|43828509061 / 133167910211|9829a038，core1ece3cf4/wrapperc5907739，08:05入算300min|
 |R854原41响应N112|43832705685 / 133181715849|2ee14751，08:37入算300min，目标7须真逆界/四球|
-|R787半坐标dual|43823979328 / 133153392094|6110d6a1，07:27入算300min，370/371后七支，12:32仍算|
+|R787半坐标dual|43823979328 / 133153392094|6110d6a1，真BudgetStop至541位，12:31结束；必要IO v18取原断点待同核续|
 |R815准确Γ|43853995004 / 133253466821|c1b3bfb1，core80516ff9/wrapperab725da0，11:01入算300min|
 
 全部先前真实断点/source pins见上链归档，同core续不重已成位/行。A.1仍须原35840 Theta/Delta，失败RR不拒q；R854 N112不预断足够，原S_m/full2560、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ不丢。R858源仍pending/null。
@@ -34,7 +34,7 @@
 
 **[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，真实五minor/所有Schur与整纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)，artifact14224626902/cc7cc8e5至Nov17 12:03:18。IO v17 43864802081/art14224774305/tarc599a933真392件，五A/B及全纤维值、0..7旧K/8..26新K已可直接消费。
 
-**[R896低权残余核纸证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同B空间两截面真rank690+δ排额外共同零，N>n+3注入；核投影690−δ经原k=544−δ点jet得146，再真962/418。原τ权/负χ幂/m0=1不改。首次run43867022534/job133298190829/sourcebea476a4在wrapper source_review line472假定所有旧JSON有result而KeyError，数学core尚未执行，只有3件1492B失败IO。ordinary修实际schema后重启，corecb1b669a不改；R893/R890旧核/正常/273jets不重。
+**[R896低权残余核纸证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同B空间两截面真rank690+δ排额外共同零，N>n+3注入；核投影690−δ经原k=544−δ点jet得146，再真962/418。原τ权/负χ幂/m0=1不改。首次run43867022534/job133298190829/sourcebea476a4在wrapper source_review line472假定所有旧JSON有result而KeyError，数学core尚未执行，只有3件1492B失败IO。实际原W与5旧K纯IO均证R827只configuration.result；仅两处源schema改为严格旧格式，core23281231/wrapper558ad67f已重启，数学不改且无旧stage可重算。R893/R890旧核/正常/273jets直接复用。
 
 **[R894七极trace](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：3Σ(Dj−H)+7(−C*+H+4χ)用18flip，R890两节点直接复用只新16。QN=Qorb FN正乘，ρ阶−8435，t正乘(c^1205)^7；末D_N只L定义，旧K下降(γQN/QN)γs。实际run43864869152/job133290893516/sourcebf74b397正在新16flip，core9a2793c7/wrapperbcf31979，保原56源/旧H与E14评价，闭合后才清非live扫描并留hash史。
 

@@ -216,7 +216,11 @@ class Source:
         assert self.files[row["file"]]==plain(row)
         value=self.raw(row["file"])
         assert value["complete"] is True and value["configuration"]==self.tag
-        assert value["result"]==self.item["result"]
+        if self.label=="R827":
+            assert "result" not in value
+            assert value["configuration"]["result"]==self.item["result"]
+        else:
+            assert value["result"]==self.item["result"]
         return value
     def ref(self,row):
         assert self.files[row["file"]]==plain(row)

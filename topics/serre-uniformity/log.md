@@ -224,4 +224,9 @@
 ### 2026-11-16 20:35 Asia/Taipei — serre-public-astra-20261115
 - R900：从原K固定函数基用七整纤维1234→146及962→418的准确充分构造，给新K有效272代表与QK=QN·w0/v；保原ρ/t首项正c^8435，实际秩仍pending。
 - R899仅修原a0执行源：旧五纤维值直接消费，确需5/6才V3插值；R896首run只旧source schema KeyError/core未执行，正修wrapper。H前态逐字归档。
-- 本push规则：公开Actions真实pull并比两README；已读7914840f8cb10be437179c2609de373afb4ab708，两SHA6979d793/35f82f3d无diff；每结论单独推，主目标OPEN。
+- 本push规则：公开Actions真实pull至c51c4b74716466c19389f456642b8e77951ab63d（2026-11-16T12:35:55.867831+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 20:38 Asia/Taipei — serre-public-astra-20261115
+- R896首run未入数学core；实际旧W/K原字节确认R827结果仅在configuration，修两处严格schema，core23281231/wrapper558ad67f续原五任务，未改数学或重旧stage。
+- R787半坐标dual实际BudgetStop至541位、A.1仍未决；启动必要IO v18读原current/index/manifest，准备同core从真实断点续，不从370重算。
+- 本push规则：公开Actions真实pull并比两README；已读c51c4b74716466c19389f456642b8e77951ab63d，两SHA6979d793/35f82f3d无diff；原raw仅必要一日artifact，主目标OPEN。
