@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W2C 真 collar 有符号系数与完整族差源码合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)：原65 signed offsets、13 intrinsic complex、193族误差及实际η均按原字段绑定；完整二次差和三primitive词、真实mean行与转置伴随、body与collar各自域及224/896费用已实现。源码无入口、无文件读写；只做纯式/字段核，未执行科学或AST，完整consumer仍在接线。
+
 - [WCTRA：clipped scalar-trace 候选的完整实际结果](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)：43901776543/1全36新＋20原复制、五独立前缀、24结构门、45当前/19历史/16AST与全部原范围保留；充分门11976.30849仍false，不推出奇异。根核全部56表项、23完整JSON块/组合与原文件、45输入和16AST逐字吻合，old0/lost0；此36冻结。
 
 - [WJK：完整联合中心 Green 核与 collar 交叉项](results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md)：在固定WVC参考上精确提出同一个完整Gf，保五个collar项和真J*上限R；主体两χ′路径只在联合核中准确抵消，原primal/dual残差不删项。两Green三角、实际角带、全mean/atoms/ports均保；此为纯恒等式，不给新数值界或有限逆。

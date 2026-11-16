@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 16:45:11 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 16:51:39 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。旧无executor阶段依根规8仅小UTF8 connector；16:00后CLI恢复，现回正常git。禁本机科学执行。H≤10KB，open≤30KB。
 checkout原路径/workspace/scratch/0df957a82d09/math-research-public，partial/sparse，无AGENTS。最近真pull --rebase于2026-11-16 16:28:30 UTC→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README差异空；下一真pull≤17:28:30。共享盘满后仅把本会话workspace/cache移至独立/tmp并保原路径symlink，写入/git clean核通过；16:31环境再变unavailable，16:33真CLI pull尝试返回No usable execution environment，按根规8暂仅UTF8<100KB集成，API ref核不冒真pull。
-最近只读README核：b4ae77296f9df20a70bd5a0aa6b467b536e8c420；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：d3a3dbe54ba288c59e42a34fb1e0835f3f977bb7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -48,7 +48,7 @@ WDH06cad487已证selected homogeneous高块：同WSMF whole及9完整原界，�
 
 WEX31/WEXA de1dc669完整43896937318/1已冻结：31新+62原记录/18全context，whole/reduced各整候选约3.790258283e255仍非小门。四端/physicalmean/负域/Cs/WT及SCI/exec完整资格见原H全文与actual proof，old0/lost0；finite/head/ν/Θ/全matching未闭。
 
-W2H72bef388双侧恒等式及W2C09ada380完整collar-Volterra纯证已推：固定WVC实际/参考，V=Vb+ψ(JB+JAJB)、W=Wb+ψ(−JC*+JA*JC*)，collar余项均二阶；全transition/ΔA/B/C/signed-centre/true dual H1和mean/ports/两rhs保。有限band H1_0经compact-core进入真实GH图；角224/残差416非径160。新50(+2)未算，旧T等同算子整球可copy、旧EHigh不可移。完整W2CI389e6c6a/45161B/8258111d已封：两native精确恢复、原19history、29同算子原球4653B/f1ec45f0根独核；piece2549/65 signed offsets/13 intrinsic complex/193 family upper全合同，实际η不换。新trial224用896 drift及完整adjoint，native payload仍未读，future CI验；source继续，WVC/WEX/WCTR全锁。
+W2H72bef388双侧恒等式及W2C09ada380完整collar-Volterra纯证已推：固定WVC实际/参考，V=Vb+ψ(JB+JAJB)、W=Wb+ψ(−JC*+JA*JC*)，collar余项均二阶；全transition/ΔA/B/C/signed-centre/true dual H1和mean/ports/两rhs保。有限band H1_0经compact-core进入真实GH图；角224/残差416非径160。新50(+2)未算，旧T等同算子整球可copy、旧EHigh不可移。完整W2CI389e6c6a/45161B/8258111d已封：两native精确恢复、原19history、29同算子原球4653B/f1ec45f0根独核；piece2549/65 signed offsets/13 intrinsic complex/193 family upper全合同，实际η不换。collar源fb065375/35870/891702f1及接口02a6522b/21336/62d86a42已刊：全signed/三wordΔ/真mean/adjoint/body，224漂移896；仅Decimal诊断兼容，无科学/AST执行，native仅CI。reference/5图/readonly/owner继续；WVC/WEX/WCTR全锁。
 
 [九旧execution恢复](notes/2026-11-16-nine-old-execution-wrappers-history-recovery.md)保存9完整原件identity/总体scope/参数/门/false，restore e689aa98060c7062549c9af62eca66e9355ccc8e；普通删除476973B派生wrapper，原小结论/native/source/current79依赖不动。完整原球和其余资格只从原字恢复，禁重算；新科学0/lost0。open的WVCA/WEXA两完成段逐字移至notes索引，全部未付门保。
 
