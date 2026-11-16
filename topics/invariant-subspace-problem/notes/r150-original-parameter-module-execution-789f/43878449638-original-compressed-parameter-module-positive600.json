@@ -1,0 +1,67 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43878449638",
+  "stepId": "original-compressed-parameter-module-positive600",
+  "executionSourceCommit": "9374e61150db974448d99dcfdfad96949769cd7b",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-compressed-parameter-module-positive127-789f.py",
+  "scriptSHA256": "4741ca5f21a087f7c8a5248f1a8fb2559b60635ff60552643061c407dfcb3626",
+  "argvTemplate": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--compression-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--compression-out",
+    "{work}/original-parameter-seed-compression127",
+    "--out",
+    "{work}/original-compressed-parameter-positive127",
+    "--singular",
+    "Singular",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096",
+    "--through",
+    "final"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 75,
+  "wallSeconds": 592.3023985030001,
+  "fullTemporaryReceiptBytes": 34846,
+  "fullTemporaryReceiptSHA256": "ae429213e7c756aed85b3c1e638174c32a63338f5f0e85a5179a19393fbf8a68",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 13:44:51 UTC",
+      "beforeReadCommit": "0e832795412808486dc3d9df74e9e34cfb35051b",
+      "originMainAfterPull": "9374e61150db974448d99dcfdfad96949769cd7b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 13:54:44 UTC",
+      "beforeReadCommit": "9374e61150db974448d99dcfdfad96949769cd7b",
+      "originMainAfterPull": "baccdb6ceab03c5e139fa88e7b7e5934b012aaa1",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 8,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2745,
+    "logicalJsonSHA256": "89b29ff4aad7806e7ce952db99875c7478d16bcb7b9c5fc9474be2b576de4a64",
+    "itemCount": 8
+  },
+  "lastRulesReadCommit": "baccdb6ceab03c5e139fa88e7b7e5934b012aaa1",
+  "summaryExcludesRecomputableArraysOnly": false
+}
