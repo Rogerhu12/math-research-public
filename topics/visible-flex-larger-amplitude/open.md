@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R552实际232](results/R552-actual232-root-reuse-and-two-incomplete-necessary-readbacks.md)**：全402source/原prepare实际完成，science/rules/outer1、quiet true、resource/external null；source169036→1818/70、science144265→1130/70，内部科学/错误全未返，cleanup removed=false。报告成功不代科学门，无父。root优先R588原R573全必要具名无损共享，R589/246/R590；原90K/70及全部unknown/error/address保，R583草稿暂保。
+
 本段压缩前全部原词保[a04e5a75固定完整§1.3](https://github.com/Rogerhu12/math-research-public/blob/a04e5a75a147fdfe273542b2126003001c62ae93/topics/visible-flex-larger-amplitude/open.md)；全部完整证明、接口、源计划及正式运行notes不减，§4–6逐字保。
 
 **[R558实际234](results/R558-actual234-source-schema-preflight-stop-and-complete-readback-overflow.md)**：12层实际source materialization完成，616=304public+312gen、76driver来源事件已返；原PYPINS第206行仍断言旧单worker schema，与真实R556新schema冲突，科学前AssertionError。另完整generation必要107643B超90K/70、正文未返、marker未建，cleanup真实skip；same-C及所有科学未起、空owner quiet只限其scope，不造父。R586/request245按此真实来源断口修，同一完整必要对象作具名关系可逆共享，原数学/clock/caps/90K不变。
