@@ -313,3 +313,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R514 — 当前完整场缺陷到相对度量的条件传递
 
 **完整解析条件证明；无新数值、metric floor或新接受门。** [全文](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)26256/e2bf2189，固定同一C/根族/十词/完整场：准确Frenet速度V满足|V|=μ、Fφ·V=0及角二阶恒等式；真实P/A/μ/ρ正界和σ支明确，反射/径向反向的支同步变换。r=Fx−V与六jet角长τ=(Fφ·Fxφ−A′/A|Fφ|²)/(Aρ|Fφ|)经完整径向路径给q，再以δ,q形成显式2×2全相对Gram界，不需先找未知准确等距参考。原BC完整M权、ρ下界和实际core/投影，冻结physical_rhs与cubic斜率差、DDY五次重构、有限角投影/浮点形成/准确C目标/B/两mean/patch全部差额分责。未得实际δ/Ti/ηC/KN，不把原RMS1e−6/BC1e−11/native2e−9等同metric floor；合法V未付只影响此可选估计，原R459直接测量可独立继续，同g真实精化责任不减。
+
+## R467 — 实际208收缩路径、首正高度资源停止与完整读回
+
+**实际数值/执行证据；无新非零接受或全J。** [全文](results/R467-actual208-contracted-trace-resource-partial-and-complete-readback.md)25544/c8709222，run43804793905/source9b05bfc5、compute133092971995 failure/report133209057444 success，两终志各唯一；单53307/d5b5必要逐字一致且complete。140pins/4数学+2几何输入、原actual119六词λ=.001/112/226/224/338×112/两mean/全部原门与18000一钟保。零H5774.44365s收敛/residual0，无J/audit；首1/64H12195.31508s finite-trace-direction-resource-budget停stage366/cell5/segment8，0非零完整iteration/0trial/0当前R273/完整FD-fullDN未入。累计45434 root/45433 localJ/28278收缩与6334272方向列真返，不冒当前全J、严格IEEE导数或提速。内层resource=true、wrapper75/outer budget_exhausted=false/external_signal=null明确分列；完整读回/原marker/owner与规则父静止后真实removed=true，不能从SHA续旧场。规则round0–6无README变；非数学拒绝/无解，后续原各门保持未付。
