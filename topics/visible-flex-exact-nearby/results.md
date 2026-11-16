@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WBF：sharp Bernstein与完整角向流变分的精确积分**。[完整证明](results/R133-supplement-sharp-Bernstein-and-integrated-finite-flow-jets.md)2dd1cdc5自证三角Riesz行绝对和N，故known-reference d的k阶导≤768^(k−1)D；以原positive F1预算解完整有限角jet得非负Stirling多项式。新flow2..15、phase2..15、bulk/transport及relativeω83新标量合同闭；F1/P1/K1和WDG80只读，0旧重算/0新exp/log/ODE。实际数尚未算，不授mixed/whole小门或逆。
+
 ### WDGA：正漂移完整相对角界的实际80项结果
 
 [完整证明与实际输出](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)（SHA-256 8f2134de25ed430ba49be74f5c3d3acb642051677fb18a327d7f45966927bc05）：公开Actions 43865837250/1全16门、5图80新、35原record/7scope；source282efceb、manifest a88caba5，SCI67c7070e/47714/04b75743，old0/lost0。WDG正cut与全普通dr证明给同strict实域ordinary relativeω1..14；WSJ初始行只除一次b!，高阶界仍大。完整输入/域/原失败/运行/全14球保正文；不授完整mixed/received bound、finite逆、高门或matching。

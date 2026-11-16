@@ -35,12 +35,9 @@ WAD/WTS、JI/WUA/WUR/WUC/WES/WUB及WPC/PCRA本节逐项完整原说明亦逐字�
 
 上述已成反射/同列/双边坐标/graph的逐项原说明，另逐字保[最新完整检查点](notes/2026-11-16-completed-positive-coefficient-and-global-input-checkpoint.md)（9fccddef同H/open）；每项域/单位/mean与未付physical96/ν/无限head约束不减。
 
-[WPL实际leading](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)052bd8ed：完整反射给$c_o=-R_bc_i,b=a+\Omega$；真metric偶性及C2/近腰bump零给$\mathbf S(0)=0$。二阶$\mathbf Z(0)$含$\mathbf S_r$保。实际归一化primitive行为
-$Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
-完整余项为$Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
-物理first mean为$\nu_i=\Pi c_i$；式45直接state row与三项余式不双计，不只在error侧消共同Ni。same-operator可用新预算仍待。
+WPL052bd8ed/WUEe191f96a完整原式与scope逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及各proof：同物理primitive leading/two-I/first mean与完整Dalg、R±/RF/Tneg/Eend/Ni保；同ambient插值只1<σ≤4/3，WUC列法独立1<σ<7/6。新same-operator whole预算/finite/ν/背景未闭。
 
-[WUE完整同物理行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)e191f96a：$E_\partial^{fr}=D_{alg}+L_\partial(R_++R_F+T_{neg}+E_{end})N_i$，同旧WPL leading、$1<\sigma\le4/3$。全trial替换精确望远镜接WES端差，旧ST4不另重复；原PC两received及CG一次仍全额，完整mean/two-I/原Js保。Ni用同ambient有界延拓插值，4/3直接原A−；WUC列法仍仅1<σ<7/6独立替代。所有旧五球逐字锁，未算whole新数/高门，未授finite/ν/背景/总验收。
+
 
 **当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
@@ -196,3 +193,5 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 [WDG实际全相对角界WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de：43865837250/1全16门、五图80新/35copy/7scope冻结；SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999，old0/lost0。完整正cut+普通dr及同d变分资格见WDG212385b5；source282efceb/manifest a88caba5。ordinary Rω1..14接WSJ只除一次b!，高阶仍大，未授whole小界/relative15/root盘/mean/finite逆；原local及所有receiver义务不减。
 
 [WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。actual e+3dt<1未算，真实finite逆待。
+
+[WBF sharp Bernstein完整流jet](results/R133-supplement-sharp-Bernstein-and-integrated-finite-flow-jets.md)2dd1cdc5：新完整积分多项式去sqrt385与逐阶长度放大，原positive算法F1才可作e^∫D预算。83新前驱未算；WSM可接同域typed flow/phase/Rω，旧WDG80与K1/P1/F1不重做。真实mean/所有receiver/finite与matching不减。

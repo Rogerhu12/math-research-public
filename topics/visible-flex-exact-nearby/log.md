@@ -300,3 +300,5 @@ fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publicat
 ### 2026-11-16 12:30:22 UTC — WDGA：80项实际正漂移角界完整登记
 
 本次从259e7c5f510a00bf42eb5899935c5d05761d1a09核两README未变；公开run43865837250/1完成16门/5图80新，35原record/7完整scope、6current/2AST/0history，旧调用/重算/lost均0。主程序12:21:56.218598→12:21:56.775245，唯一child return0。SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999、report438，总68297B；stdout3940550B只核hash未取正文。root全文结构/80record/原身份/4pull全链共24组核通过，无本地科学计算。WDGA正文371a515a/19954/8f2134de保存同strict real全部14球与正cut/普通dr推论；最终Rω1..14已冻结，WSJ仅除一次b!。不授relative15、root复盘、whole smallness/finite逆/非线性。继续完整scaled mixed/profile和paired signed finite residual。
+
+2026-11-16 12:36:29 UTC WBF纯证明0c1a3593617a4134ea875697a268b7b6eea3bb3b/16027/2dd1cdc598fde3ca47ca1cf0d787fdc60b9ced5601654865cfc3736cdba6c323完成：Riesz exact derivative formula与absolute row sum给sharp real Bernstein；finite formal flow majorant完整积分到正Stirling多项式，无任何本地新数。新83目标精确定义：14flow+14phase+14bulk+27composition+14relative，33原scalar从WGS2完整件及WDG实际件只读；F1/P1/K1与旧80不重复。保持true cut/root/全部scope，下一完整WSM接typed新前驱。H/open仅压缩已逐字存1fe66a453当前检查点的旧WOBSA/WMF/WPL/WUE段，全部未付义务保。两README于15df2fc56c4ea759b9dad4c8633e405d4ab0e3f7未变。
