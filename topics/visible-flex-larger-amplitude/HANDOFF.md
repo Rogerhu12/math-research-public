@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 02:14:11 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b1adbed3cfd799a00fbbbd91d072469dfe991bef。
+规则同步记录：2026-11-16 02:15:07 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 24746e262166c7c76d0918d7a03418ade7c15aa9。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。所有科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布，代理交文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 
@@ -20,7 +20,7 @@
 
 |请求/结果|run / source|负责人及状态|
 |---|---|---|
-|203/R440|本次发布入口，真实run/source待官方绑定|geometry：唯一终态必要日志负责人，root不重复抓日志|
+|203/R440|43790929300 /557b1d47cd637d268cf292c86f77218ccc3b5458|geometry：compute133048929054已启动，唯一终态必要日志负责人|
 |204/R446|43789310271 /189579b508930d99d9c2dbc481967fd972766919|amplitude：compute133043887128已入step14完整SIMD；无编译/科学接受预填|
 |200/R432|43780457519 /cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de|exact：compute133016222219 step7原八对science；真98/完整39/106pins|
 |197/R420|43774486084 /68fa2d402bb7c3695b50a28739566abe6ece3511|exact：compute132997520684 step17全112 sampler；deep16已完成、BVP18未起|

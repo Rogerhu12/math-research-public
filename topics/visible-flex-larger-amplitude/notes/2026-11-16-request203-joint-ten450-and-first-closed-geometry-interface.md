@@ -90,3 +90,8 @@ R437 subprocess由已刊R438 OwnedChild启动。新外层对TERM转发，并把f
 root全文读完新helper47013B及其接口、R444原完整六源diff、R437原四源及全部接口，再读本次相对193完整58994B workflow diff和135项完整语义request差异；owner五处差异逐字核读。141个已刊source字节身份与实际HEAD相合。只进行了文本/JSON/字节/元数据操作，全部语法、import和科学运算留公开Actions。
 
 当前规则根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blob bff8aea253a9e6a7a4fac28d810ac454c5499fec；每真实pull核差异，读过提交记HANDOFF。root唯一Git/ref发布，遇NFF立即pull --rebase再推；R440由geometry唯一终态必要日志读回。代码刊布和官方run绑定均各自立即推送，不把job颜色或源码合成当README完成。
+
+
+## 8. 实际source/run绑定
+
+[203实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43790929300)已由公开push启动，source557b1d47cd637d268cf292c86f77218ccc3b5458，compute133048929054；官方in_progress，steps1–5完成、step6安装runtime。request84af713a/workflowc67f3bef未改，R440由geometry唯一终态读回；新postsolve/held/组合必要全文在compute，原五体继续report。当前仅官方元数据，无数学/编译结果预填，不取运行中大日志。

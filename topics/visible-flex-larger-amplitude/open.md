@@ -53,6 +53,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 R441最终18源待根读完发布：真N/tailsteps/material/physical四因子及完整新450/所有几何，M112不改，不冒径向网格。R448另补第五radial_mesh因子/真插点/同joint来源，纯mesh也允许，保所有父词与literal knots；R442独立完整M须重付2M端点/两mean/2M+2RK/全native/QR/deep/Prüfer/全DN，不能把仅M112的深界换标签。均无真实新父/因子/run/精化接受预填。
 [R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)准确psi_j=Theta_j逆∘Theta_0、prefix公共u、固定帽Cartesian恒等/共同cuff；严格正材料图下同g、四Loewner合同和整像不变量只条件成立，实际实现/当前误差/跨j统一C²仍欠。R447正在分别整理README所需全t强C²连续与更强t二阶C²可微；后者不增为必需门。A/B是来源/参数记录，不是误差证书。
 
+[203实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43790929300)已由公开push启动，source557b1d47cd637d268cf292c86f77218ccc3b5458，compute133048929054；官方in_progress，steps1–5完成、step6安装runtime。request84af713a/workflowc67f3bef未改，R440由geometry唯一终态读回；新postsolve/held/组合必要全文在compute，原五体继续report。当前仅官方元数据，无数学/编译结果预填，不取运行中大日志。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
