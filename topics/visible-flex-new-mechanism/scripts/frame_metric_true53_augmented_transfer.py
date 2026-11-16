@@ -11,6 +11,7 @@ from frame_height_null_coordinates import digest
 from frame_metric_true53_projection_transfer import prepare as prepare_original_inputs
 from frame_metric_true53_augmented_scope import (
     POLICY,require,SOURCE_GLOBAL_SECONDS,SOURCE_ORIGINAL_VALUES,
+    CARRIED_SCIENCE_SECONDS,CARRIED_FAILED_SOURCE,CARRIED_FINAL_CLOCK,
     SOURCE_ACCEPTED_INDEX,SOURCE_PHYSICAL_SHA,SOURCE_CFG_SHA,SOURCE_FIELD_SHA)
 
 REPO="Rogerhu12/math-research-public"
@@ -105,11 +106,66 @@ def decode_paid_records(raw):
     require(set(found)==set(expected),"all original paid cache/cuts/outcome records required")
     return found
 
+
+def read_carried_input_failure(request,ledger,capture):
+    """Read the original failed FINAL_CLOCK; no science or cache reconstruction."""
+    require(request["input_repair_source"]==CARRIED_FAILED_SOURCE
+            and request["input_repair_final_clock"]==CARRIED_FINAL_CLOCK,
+            "one original failed input source is carried into this same task")
+    tick=time.monotonic()
+    capture["failed_input_log_attempts"]=1
+    try:
+        api=reader.GitHubReader(REPO)
+        source=CARRIED_FAILED_SOURCE
+        run=api.api_json("/actions/runs/"+source["run_id"])
+        job=api.api_json("/actions/jobs/"+source["job_id"])
+        require(str(run["id"])==str(job["run_id"])==source["run_id"]
+                and str(job["id"])==source["job_id"]
+                and run["head_sha"]==job["head_sha"]==source["source_commit"]
+                and run["path"]==source["workflow"]
+                and run["status"]==job["status"]=="completed"
+                and job["conclusion"]=="failure" and job["name"]=="research",
+                "the failed original research job identity differs")
+        raw,redirects=api.job_log(source["job_id"])
+        require(len(raw)==source["log_bytes"]
+                and reader.digest(raw)==source["log_sha256"],
+                "the failed original stdout differs")
+        found=[]
+        for line in raw.decode("utf-8-sig").splitlines():
+            clean=reader.ANSI.sub("",line).lstrip("\ufeff")
+            match=reader.TIME_PREFIX.match(clean)
+            if match is None:
+                continue
+            body=match.group(2)
+            prefix="TRUE53_AUGMENTED_FINAL_CLOCK "
+            if body.startswith(prefix):
+                literal=body[len(prefix):].encode("utf-8")+b"\n"
+                require(len(literal)==CARRIED_FINAL_CLOCK["JSON_plus_LF_bytes"]
+                        and reader.digest(literal)==CARRIED_FINAL_CLOCK["JSON_plus_LF_sha256"],
+                        "the failed original final-clock record differs")
+                found.append(reader.decode_json(literal))
+        require(len(found)==1,"exactly one original final clock is required")
+        receipt={"source":copy.deepcopy(source),
+                 "final_clock_record":copy.deepcopy(CARRIED_FINAL_CLOCK),
+                 "redirects":redirects,
+                 "original_log_read_once_without_scientific_recomputation":True,
+                 "carried_failed_scientific_seconds":CARRIED_SCIENCE_SECONDS,
+                 "unemitted_context_arrays_are_not_claimed_reusable":True}
+        ledger.bind_carried_failed_attempt(found[0],receipt)
+        capture["carried_failed_input_receipt"]=copy.deepcopy(receipt)
+        return receipt
+    except Exception as error:
+        capture["failed_input_read_error"]={"type":type(error).__name__,"message":str(error)}
+        raise
+    finally:
+        capture["failed_input_log_seconds"]=time.monotonic()-tick
+
 def read_sources(request,ledger,*,capture=None):
     ledger.check()
     capture={} if capture is None else capture
     require(isinstance(capture,dict) and not capture,"fresh read capture required")
     capture.update(status="started",model_log_attempts=0,new_cache_log_attempts=0)
+    failed_receipt=read_carried_input_failure(request,ledger,capture)
     require(request["augmented_source"]==SOURCE
             and request["augmented_source_records"]==RECORDS,
             "one already observed original four-cut/cache source required")
@@ -191,6 +247,7 @@ def read_sources(request,ledger,*,capture=None):
                  "source_model_binding_sha256":model["binding_sha256"],
                  "source_actual_direction_sha256":SOURCE_ACTUAL_DIRECTION,
                  "read_original_model_and_new_cache_logs_once":True,
+                 "carried_failed_input":copy.deepcopy(failed_receipt),
                  "redirects":redirects,"scientific_recomputations":0,
                  "source_global_scientific_seconds":SOURCE_GLOBAL_SECONDS,
                  "source_original_values":SOURCE_ORIGINAL_VALUES,

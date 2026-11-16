@@ -81,8 +81,9 @@ jobs:
               'private-rule credential must not enter scientific execution')
           out=Path(os.environ['RUNNER_TEMP'])/'visible-true53-augmented-master'/'true53-augmented-master-audit.json'
           # No developer gate, source Jacobian rebuild or closed-task replay.
-          # The new audit starts its own 600-second ledger before source input,
-          # paid cache/context restoration, all new augmented problems, line and trials.
+          # The same 600-second allocation now carries the original failed
+          # input clock before imports, source input, one explicit context repair,
+          # all never-yet-solved augmented problems, line and actual trials.
           result=subprocess.run([
               sys.executable,
               topic+'/scripts/frame_metric_true53_augmented_audit.py',

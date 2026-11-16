@@ -46,10 +46,10 @@ actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
 ## 5. 当前工作
 
-[finite正方向](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行通过，gain7.0414711481267545e−6；p SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。含失败finite14.132776896秒，祖先累计1608.573003992秒/128值，原点53不变。
+[原finite正primal](notes/true53-all-paid-finite-master-positive-primal-20261116.md)run43817336585的9658行只给gain7.0414711481267545e−6；[完整方向](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)run43821568604实际舍入p62b27d05…给完整修复gain−.00031326043820264013，未合格、0scalar/actual。coarse43322/91304、fine86645/182607四新原梯度已付；U/T缓存30232607B/0c1826ad…，binding75e07691…，任务前祖先1658.9797906909998秒/128值。
 
-[完整正方向观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)：run43821568604/research133145590135/report133148800350/source323f36fe…成功。唯一实际舍入p SHA62b27d05…的完整最大.2663281546680455、含μ修复gain−.00031326043820264013，未合格；0scalar/actual，仍点53。新增原行coarse43322/91304、fine86645/182607完整gradient已付。1input/1pair JVP/4gradient，50.40678669899998秒；祖先累计 **1658.9797906909998秒/128普通值**。原CACHE30232607B/0c1826ad…保必要U/T/de/df，binding75e07691…，完整clock和记录SHA见note。立即接增加这四行的真正新finite/fullgrid问题，复用输入，旧任务/方向不重跑；合格才原guard/scalar/14门。大数组只原stdout。
+[四cut增广设计](notes/true53-four-cut-exchange-master-design-20261116.md)首run43825241350/research133157415075在9662行装配后输入失败，[记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。0finite/JVP/新gradient/scalar/actual；36.79963991600005秒含全部失败/输出，累计 **1695.779430607秒/128值**，仍点53。
 
-[新四cut交换任务](notes/true53-four-cut-exchange-master-design-20261116.md)run43825241350/research133157415075/source5189a1a7…首输入失败，[原记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。9662行已装配、两网缺失context已恢复，但pool IDs⊆已付gradient断言失败；0finite/JVP/新gradient/scalar/actual，仍点53。36.79963991600005秒含全部输入/失败/输出，祖先累计 **1695.779430607秒/128值**。context只保hash未交付数组，明确允许一次有账修复恢复；同600秒需携带旧36.7996秒，全部其余配额不重置。正修pool/实际选行语义，0旧finite/J/源ordinary重算，修后继续；大数组只原stdout。
+[原分类修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)已推request触发唯一续run，run待登记。原classify证明support外metric导数0，5743可变行逐序/全部installed hash仍硬匹配；四cuts/原全网约束不删。首失败clock与事件读原log继承，同600秒elapsed=已付36.79963991600005+当前全部工作；保原restore debit1，因未导出context而另明列修复恢复1。全部finite/JVP/gradient/scalar/actual配额不重置；0旧finite/J/源ordinary重算。5源码/241绑定，request54701B/23a9bc66…；合格才原guard/14门，全部payload只原stdout。
 
-理论R477已付正则单门与四门局部开放；R479继续同cap全零目标，文学线解冻结ψ3，R476解同一w全段。主完成门未付，不以任一任务预算/阶段停下。
+理论R477已付正则单门与四门局部开放，R479继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476解同一w全s重复，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。

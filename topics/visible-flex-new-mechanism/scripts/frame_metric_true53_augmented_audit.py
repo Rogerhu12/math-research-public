@@ -14,7 +14,8 @@ import resource
 import sys
 import traceback
 from frame_metric_true53_augmented_scope import (
-    POLICY, LIMITS, AugmentedDirectionLedger, AugmentedDirectionLimit, require,
+    POLICY, LIMITS, CARRIED_SCIENCE_SECONDS,
+    AugmentedDirectionLedger, AugmentedDirectionLimit, require,
     SOURCE_PHYSICAL_SHA, SOURCE_ACCEPTED_INDEX, SOURCE_GLOBAL_SECONDS,
     SOURCE_ORIGINAL_VALUES)
 
@@ -359,6 +360,8 @@ def main():
                 and params["old_checks_executed"]==params["new_development_executed"]==0
                 and params["source_original_actual_values"]==SOURCE_ORIGINAL_VALUES
                 and params["ancestor_final_original_scientific_seconds"]==SOURCE_GLOBAL_SECONDS
+                and params["carried_failed_scientific_seconds"]==CARRIED_SCIENCE_SECONDS
+                and params["same600_second_allocation_continued_after_input_failure"] is True
                 and params["maximum_mathematical_stdout_bytes"]==MAX_MATH_STDOUT_BYTES
                 and params["seed_original_rows"]==[
                     ["coarse",43322],["coarse",91304],["fine",86645],["fine",182607]],
@@ -380,7 +383,7 @@ def main():
         try:
             sources=read_sources(request,ledger,capture=input_capture)
         finally:
-            report["timing_segments"]["two_paid_source_logs_seconds"]=time.monotonic()-tick
+            report["timing_segments"]["paid_model_cache_and_failed_input_logs_seconds"]=time.monotonic()-tick
         paid_model=sources["model"]
         completed=sources["prepared_source"]
         receipt=sources["receipt"]

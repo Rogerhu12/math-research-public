@@ -30,6 +30,8 @@ class AugmentedFiniteLedger(NewMasterLedger):
         self.problem_binding=problem_binding
         self.added_row_count=added_row_count
         self.outer_event=None
+    def elapsed(self):
+        return self.owner.elapsed()
     def check(self,stage=""):
         return self.owner.check(stage)
     def _claim_core(self):
