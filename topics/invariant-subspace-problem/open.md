@@ -126,3 +126,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R271完整源的log方差一阶矩（2026-11-16）：** [完整证明](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)直接给q̇(logs)=ΣjE_j，选一次s保所有Q≥R+J的同PV/PK/u。固定倍数窗使实际一阶高度矩趋零；[Sx,xSx]给ΣjE≤Δ_Q²/logx且s→0，另有s/Sx→1的无预设速率选择。仅在真实修复系数已证≤Kj时才付KΔ²/logx；canonical M_j/y_j完整系数和中段Schur仍须处理。
 
 - **R271真强头幂支付完整深修复高段（2026-11-16）：** [全常数证明](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)由真实借位及强位幂零给||C^j||≤7^j exp[−(770/256)(j−x)_+⁴]；在x≥1024，整个j≥ceil(x+2√x(logx)^(1/4))的canonical同源差平方≤exp(−x²logx)||a||²。任意a/J<h及任何h=d+R均成立，保真正逐层MP自然域，不假a低孔；R=d原Q窗中先前j≥3x/2线性门已付。剩下真实中段与完整Schur，不据此称全修复或N=M。
+
+- **R150完整31谱与原九个精确p²h0来源（2026-11-16）：** [自足证明](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)的全210 p7实际1104.606秒/30stage，新商rank1、315合并rank16、I4(B)=9，唯一E恰6。全部tors指数1²/2⁵/3²/4⁴/5²/6、长度50；123717110原整除坐标及完整自由/参数作用核真，旧两探针零仍保。结合N的p饱和、C/T自由及已付原p6身份，九个31²h0*t均在原L中，原source费用≤8515；不消s−2、不把有限模直接当exact。最少分母e仍1或2，完整七socle继续。

@@ -1,0 +1,57 @@
+{
+  "format": "r150-root2-fourth-complete210-local-execution-v1",
+  "source": {
+    "path": "notes/2026-11-16-r150-root2-fourth-complete210-p7-runner-789f.py",
+    "blob": "6b1c59588784109cd522c250db75699afdf61ff9",
+    "bytes": 36750,
+    "sha256": "ad18b9749976bbc2c011575c29960709e0b954d54f3ef0cda75c8f4d126fc60d"
+  },
+  "inputAndHelperManifest": {
+    "path": "notes/2026-11-16-r150-root2-fourth-complete210-p7-manifest-789f.json",
+    "blob": "7dab70cdd8f1f3e84be7ff40b923bfa5af802606",
+    "bytes": 24693,
+    "sha256": "ffbdfa3067f2536155c9f847a5bf372aefef9c2df2790089472aa6d3c6f1b39e"
+  },
+  "execution": {
+    "id": "local-root2-fourth-complete210-20261116T040442Z",
+    "startedAtUTC": "2026-11-16T04:04:42Z",
+    "completedOutputMtimeUTC": "2026-11-16T04:23:08.052996Z",
+    "exitCode": 0,
+    "attempts": 1,
+    "elapsedSeconds": 1104.605775173004,
+    "binding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+    "runtime": {
+      "pythonFlint": "0.9.0",
+      "compiler": "g++ 14.2.0"
+    },
+    "parameters": {
+      "seconds": 1800,
+      "memoryMiB": 6144,
+      "through": "final"
+    },
+    "workingDirectory": "/tmp/literature_root2_789f",
+    "outputDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-complete210-p7"
+  },
+  "outputs": {
+    "receipt": {
+      "name": "root2-fourth-complete210-receipt.json",
+      "bytes": 42372,
+      "sha256": "dd867cfbbefcce2d7a846016807b1da6f56c73fd82ea9a364036348467bdc5b9"
+    },
+    "completeTemporaryResult": {
+      "name": "complete210-exact-result.json",
+      "bytes": 141288,
+      "sha256": "30d9c04e68e337e2ac5019e527e97e211104b1e9276ff7caf24619a804fde8b9"
+    },
+    "terminalLog": {
+      "name": "full210-attempt-1.log",
+      "bytes": 89983,
+      "sha256": "9f525143bc2c8d4c72e55ce4bb9bbdd30977860924de0d75adedb408ab1e245a"
+    },
+    "finalLogLineWithoutLineFeed": {
+      "bytes": 42371,
+      "sha256": "9a0b982d3658ad8309bfc9bfa87c5b3d3e6e3f43c24d9195dce63900a56c6fac"
+    }
+  },
+  "storage": "Only source, input pins, parameters, execution metadata and output identities are recorded here. Mathematical outputs and source cochains remain temporary."
+}

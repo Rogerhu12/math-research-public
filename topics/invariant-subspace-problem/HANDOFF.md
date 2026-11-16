@@ -3,14 +3,14 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 958e9f99f6bcce37c488efcdf35a40149769f25f（2026-11-16 04:29:01 UTC，临时研究session run43772109844实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** e177c8aa0aa6c4fb45ff6b461aa3a8037b055b90（2026-11-16 04:33:45 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0432-complete31-exponent-six.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地CLI已恢复，仓库/workspace/scratch/789f3e887d7c/math-research-public，exec必须显式workdir；旧cwd消失曾造成工具失败。Actions bot push403，现授权CLI真pull/push；API source不算push。Actions原预算约4核16GB/job≤6h/账号≤20。
 - 完整前态/所有未列问题与来源保[本次H全文](notes/2026-11-16-handoff-before-log-variance-selection-789f.md)及归档链；完整结果索引保[本轮results归档](notes/2026-11-16-results-before-continuous-tower-barrier-789f.md)。未列条目不算关闭。
 
-## R150：已付范围与正在运行的31完整页
+## R150：已付范围、完整31谱与原最少分母接续
 
 原归一rank-one图：17梯度、原A6188→4367、Q泛秩4354，完整高normal W4212。以下只按各原范围使用。
 
@@ -18,10 +18,10 @@
 - [原Δ与完整来源费](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)：aff Δ298/齐次364，strictΣ0外μ1；全部4212已证member共同源费8391，原moment三以下有限来源，不移给其他图。fullcritical F±谱(3,5)、E8(2,3)，目标各指数2/2/1。
 - [唯一127与整源](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)：D127唯一tors D/127在s63，原p²读40，九h*t有D127[s]源。五广义完整I1均0本身不排高层，完整唯一系数定理另付；不扩整个W的整费用。
 - [rank-one Bell8](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)/[整个𝔫⁸](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)：45真quadratic CRT保所有混合八次，原source moment≤18；rank≤1均值matched remainder零。振幅清分母、全J/essT3≥4及实际Bell算子桥仍开。
-- **[31只余E](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：** T/pT16，χ=(s−1)²(s−2)^14；global t1…t5=(2,5,2,4,2)，唯一root2 E≥6，tors长度44+E。B第四累计8+新增m6，不能只报新增。旧e0 mod961负证/原h0源限制不变；E6条件七socle接口未启用。
+- **[完整31指数谱](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)：** 原C=D^298⊕tors，完整tors指数1²/2⁵/3²/4⁴/5²/6、D长50、最高恰6；χ(T/pT)=(s−1)²(s−2)^14，root1为1/2、root2为(1,4,2,4,2,1)。原九h0目标现exact 31²h0*t∈L，source cost≤8515；保s−2，不取消它。旧e0已排，每目标最少e为1或2，七socle开始实际判别。
 - **[两第四探针零](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：** run43798780106实219.281秒，30stage/356730全G坐标及104/315/505核真；两列商rank0、incoming合并15，raw26380·1ac76082，只限两列，不能判E≥7。
-- **[全210真p7](notes/2026-11-16-r150-root2-fourth-complete210-p7-interface-789f.md)已实际完成，正式稿接续：** 本地04:04:42启动，源ad18b974，binding712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093。实1104.606秒/30stage全完，完整D3/D4/D5及旧两探针逐全315坐标复旧；六field零配方整数carry、25→20→15→10→5全保。最终raw42372·dd867cfb，完整秩/原分母推论另条立即正式接入。
-- 31 scripts/logs=/tmp/literature_root2_789f；work指向/workspace/scratch/789f3e887d7c/literature_root2_789f_work，6GiB/1800秒/outer1860，exit75只续同source/out/binding。原14/extra7/六small/K4均逐SHA恢复；extra首次Go资源失败保史，同源GOMAXPROCS2/GOMEMLIMIT256MiB已成功。全部源已真推f6801a25；具体运行identity见notes/r150-root2-p7-execution-789f/20261116-local-complete210-running.json。
+- **[全210完整正页](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)：** 本地04:04:42启动，1104.606秒/30stage exit0；原197→204→208→210、六field零整数carry、31+t及25→20→15→10→5全保。完整315合并rank16/incoming15，新商rank1，I4(B)累计9，187非零列，首index12/label30013；旧208/209仍零。123717110原整除坐标及完整field/free/参数作用真，独立flint复核15/16/15；raw42372·dd867cfb、binding712f9b42。
+- 31 scripts/logs=/tmp/literature_root2_789f；work指向/workspace/scratch/789f3e887d7c/literature_root2_789f_work，完整原source cochains暂留。完成identity见notes/2026-11-16-r150-root2-fourth-complete210-local-execution-789f.json；源ad18b974/全部恢复pins不动。后继[完整七socle](notes/2026-11-16-r150-original-h0-complete-seven-socle-interface-789f.md)保真实U13而非canonical前13，接L5两列与新L6 index12，15→10→5及全315/104/505，消费原九pb不只固定来源。
 
 ## R150：真实非rank-one完整纤维与参数异常集
 

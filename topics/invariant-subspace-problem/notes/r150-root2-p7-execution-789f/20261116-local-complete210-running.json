@@ -1,7 +1,7 @@
 {
   "format": "r150-source-parameters-local-execution-identity-v1",
   "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
-  "status": "running-at-publication",
+  "status": "completed-see-execution-manifest",
   "execution": {
     "kind": "local-executor",
     "startUTC": "2026-11-16T04:04:42Z",
@@ -39,6 +39,9 @@
     },
     "credentialsWrittenToFile": false
   },
-  "outputs": null,
-  "recomputableOutputDataIncluded": false
+  "outputs": {
+    "identitiesIn": "notes/2026-11-16-r150-root2-fourth-complete210-local-execution-789f.json"
+  },
+  "recomputableOutputDataIncluded": false,
+  "completionManifest": "notes/2026-11-16-r150-root2-fourth-complete210-local-execution-789f.json"
 }
