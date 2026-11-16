@@ -58,7 +58,7 @@ R805–R883原W/两图/146/418/273jets与原未缩放t、R860真cY、R866的127�
 
 [R907](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)执行源已冻结，仍须R901/R903实际完成后整体填源。原128→真672、A272/E2176的一次A[T] Berkowitz/19584坐标CH和九正范数、NormΦ及两图colon/dual7保留；R899已成来源可填，a0仅在无旧全插值时补四原节点。原P0/P1数值及完整刚性化仍false。
 
-[R927](results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md)闭原两端局部理想的有限算法：八次范数多项式content等于全理想指数μ；两端同λ∈0..16给整个(a,b)=(a+λb)，两矩阵精度N−μ并全16列双向乘回。完整NmΦ沿真实函数叶的范数首项在Z×k×累积，不能删除它。原参考使用Ann(I^8)分出整个target-P0块且保留补块/幂零；Nm(qρ0)的真实阶m≤8，9项已足，旧254极阶和U272给原参考首项；补块用原配对(f−ηg)/(u+ηb)只除单位。保NmΦ·Nm(a+λb)·Nm(u)/Nm(u+λ0f)及原t单位/dual7，有限域新赋值不冒特征零赋值。首参考消费者只等R923真实目标，五未来来源保持null；新端点数值未成。
+[R927](results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md)闭原两端局部理想的有限算法：八次范数多项式content等于全理想指数μ；两端同λ∈0..16给整个(a,b)=(a+λb)，两矩阵精度N−μ并全16列双向乘回。完整NmΦ沿真实函数叶的范数首项在Z×k×累积，不能删除它。原参考使用Ann(I^8)分出整个target-P0块且保留补块/幂零；Nm(qρ0)的真实阶m≤8，9项已足，旧254极阶和U272给原参考首项；补块用原配对(f−ηg)/(u+ηb)只除单位。保NmΦ·Nm(a+λb)·Nm(u)/Nm(u+λ0f)及原t单位/dual7，有限域新赋值不冒特征零赋值。R927参考消费者五件已全文核读并按真R923/R917/R914/R879/R872激活；core4d0be4a7/wrapper302c960c/method74347cfb，真实267项只取前9，全部8维/空块/254极阶/U272/两t/dual7保留，五未来来源保持null；新端点数值未成。
 
 真正高度接口：五Lj128/144与real Rcal I_Z³不可混；YP/FM原128/634、254度/508主部rank507、P1的c/a、活跃eη、d/N、完整nonp、Poincaré/splitting与height尚缺。R870原16 ni/1959位d*与含7-primary挠判，须合法好约化niPiξj非零才判活跃。YL1=0非rank0，UE仍有dY+2period，End⁰G=F/torus≥g+1，μ3qφ*=0不删Y。
 

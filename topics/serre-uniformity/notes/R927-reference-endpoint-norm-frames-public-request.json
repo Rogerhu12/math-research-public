@@ -1,0 +1,192 @@
+{
+  "result": "R927-original-two-endpoint-reference-ideal-and-norm-frames",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R927_original_two_endpoint_reference_norm_frames.py",
+  "core_sha256": "4d0be4a7ced92ca57dad14863fe7433903e2b0c82df1e47e7c1520dfc10aaa28",
+  "helper": "R917_endpoint_order_arithmetic.py",
+  "helper_sha256": "c728c8e06cef3dfbe4d33f3a988cbbc1c3012909d67b4684d941effdec67033d",
+  "wrapper": "R927_public_original_reference_norm_frames.py",
+  "wrapper_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R927-original-reference-endpoint-norm-frames-method.md",
+  "method_sha256": "74347cfb1b6029e3975fbcbc1220c437a01abe0ca61adb61dc309c2878f8feaf",
+  "proofs": {
+    "R927": {
+      "file": "results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md",
+      "sha256": "100f4630e695316cc692989e1c8e05866bb0a3cddde19741ada0148fc19c3ea4"
+    },
+    "R912": {
+      "file": "results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md",
+      "sha256": "273ef827c365b7901f349150f0665cffd57e330e2806dd8113649b3482671e97"
+    },
+    "R923": {
+      "file": "results/R923-original-target-normal-coordinates-in-certified-endpoint-orders.md",
+      "sha256": "d0c2ceada8d5d2888efe8258a390d4625ad4193958d840332f3830733ef9fc97"
+    },
+    "R879": {
+      "file": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+    },
+    "R876": {
+      "file": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+      "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+    },
+    "R872": {
+      "file": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    }
+  },
+  "workflow": ".github/workflows/serre-R927-reference-endpoint-norm-frames.yml",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "85b4f0dca5ee12913449be16d832e4240de47c03",
+  "budget_minutes": 300,
+  "resume": null,
+  "source_artifacts": {
+    "R923": {
+      "result": "R923-original-two-endpoint-target-normal-coordinates",
+      "run_id": "43915625047",
+      "source_commit": "8f02956cf5e1bea1716ff96add3267f4f36aafda",
+      "core_sha256": "4aef4b448338f62216d3ce44135ace89f83c5be966acb6f90dc47adaed4d334c",
+      "wrapper_sha256": "d6bda530f750d8c7bdf8d4f302ea83ad2bcf23e116d4dcf364d98983bffeeddf",
+      "manifest_sha256": "1d619081ded7437e9b79e8fc6b20b8a2c084b66754e0e3912a999b210f3afba3",
+      "manifest_bytes": 119902,
+      "manifest_file_count": 666,
+      "configuration_sha256": "68cdf0129572392d596afafe61fb240d37f15c3c244f75c6323c97dfd6013660",
+      "certificate": {
+        "file": "p41-original-two-endpoint-target-normal-coordinates-certificate.json",
+        "bytes": 57910,
+        "sha256": "5de47282ab645a18c820d1522e765f1315debf0535ea093a7bbdb3d3912fe528"
+      },
+      "artifact_id": 14250662137,
+      "artifact_name": "serre-R923-two-endpoint-target-normal-coordinates-43915625047-1",
+      "archive_bytes": 197804394,
+      "archive_sha256": "d4b23f024a63114cddea7f71cd986db04a3916b858c3af34a89194e05ee23f55",
+      "artifact_expires_at": "2026-11-17T17:24:18Z",
+      "expected_conclusion": "success"
+    },
+    "R917": {
+      "result": "R917-original-two-endpoint-normal-orders",
+      "run_id": "43904492746",
+      "source_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
+      "core_sha256": "f0e321a19ef6dbd259e88de1b670f514b0f9ed0df5b24659a9f787978b8fd743",
+      "manifest_sha256": "d8bac1cf2d29e385afd7222d87805506732e2dfecc440980b187e6112bb2af2b",
+      "manifest_bytes": 32468,
+      "manifest_file_count": 184,
+      "configuration_sha256": "1d1e0b7e6cd16ad4108e0674c2a9cca73ff1eadf35902269f1673a2199b5fb4b",
+      "certificate": {
+        "file": "p41-original-two-endpoint-normal-orders-certificate.json",
+        "bytes": 13981,
+        "sha256": "cf539a58a7ab8212bb0e0d56c9621c2c6916ca25c2cbc3b50ce7be3890c15349"
+      },
+      "artifact_id": 14244312360,
+      "artifact_name": "serre-R917-two-endpoint-normal-orders-43904492746-1",
+      "archive_bytes": 13739001,
+      "archive_sha256": "4ae6c58082f591a195978646039658a40c850df5c8c66803de234f29b7eb3056",
+      "artifact_expires_at": "2026-11-17T16:10:56Z",
+      "expected_conclusion": "success"
+    },
+    "R914": {
+      "result": "R914-original-full-V1-involution-and-P1-local-jets",
+      "run_id": "43898224893",
+      "source_commit": "1b397d402ac0d6ff5872f77c1409fba356ff77c6",
+      "core_sha256": "c7dded45af13c7cd37b9c5261d917c2e81d3c179debe963296bbd8caf746e004",
+      "manifest_sha256": "fbc71afa26e27789c02814da7004db2b442bd2312441c22a3e9303d63e8b3f36",
+      "manifest_bytes": 6251,
+      "manifest_file_count": 37,
+      "certificate": {
+        "file": "p41-original-full-V1-involution-and-P1-jets-certificate.json",
+        "bytes": 13921,
+        "sha256": "8c2ce53f706174878076587879cff870abb3549783145156295f4601ae3bbdb0"
+      },
+      "configuration_sha256": "feb2b20f1e95bd9be878d47b2045b4da57352489c24c02f3ac1bce8ab0b2a432",
+      "artifact_id": 14241065505,
+      "artifact_name": "serre-R914-full-V1-involution-and-P1-jets-43898224893-1",
+      "archive_bytes": 6647816,
+      "archive_sha256": "94eba2eaa86ad7ee48796b6d93d7df39b637b260683d08970488150848f91bee",
+      "artifact_expires_at": "2026-11-17T15:37:49Z",
+      "expected_conclusion": "success"
+    },
+    "R879": {
+      "result": "R879-original-reference-pole254-pencil",
+      "run_id": "43835253379",
+      "source_commit": "0f74fb43a6eba2646e34b2950f5de1131470fe29",
+      "core_sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33",
+      "manifest_sha256": "dff31b60a5b711b5f9c9337a04d9e637d742ae225ac97b5f66cf9cc20acfb3f3",
+      "manifest_bytes": 2190,
+      "manifest_file_count": 15,
+      "certificate": {
+        "file": "p41-original-reference-pole254-pencil-certificate.json",
+        "bytes": 7379,
+        "sha256": "bf7172a28ad7efa883b9039ecb6767281e6130885591bd51e52db621b6648bab"
+      },
+      "artifact_id": 14210388032,
+      "artifact_name": "serre-global-R879-reference-pole254-43835253379-1",
+      "archive_bytes": 6787421,
+      "archive_sha256": "4b1d3a03d861049f614aaad98d9065b64e82050a11cecf1bc891ab5bbbe10100",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:56:14Z"
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:19:10Z"
+    }
+  },
+  "input_pins": {
+    "reference_function": {
+      "file": "R879-reference-function-and-pencil.json.gz",
+      "bytes": 14159,
+      "sha256": "bfc553e539371229fc668531030ca6c8327091d2105c00f743427ed09b8a2556"
+    },
+    "anchor_u": {
+      "file": "R872-anchor-u.json.gz",
+      "bytes": 7216,
+      "sha256": "f74b130ccff9f4c1cccc8098e49b9bb315487a4b8b41627e3ba6c488b726ef97"
+    },
+    "anchor_b": {
+      "file": "R872-anchor-b-trial-000001.json.gz",
+      "bytes": 7193,
+      "sha256": "71da5ad510e62083d2b7eb314bfa2c7960c3cb779ae892d103915cdd83f2c81e"
+    },
+    "P0_V1_jets": {
+      "file": "R914-iota-original-P0-V1-jets.json.gz",
+      "bytes": 205777,
+      "sha256": "b0d5137d3ddeb3df57570782b308729583f7c052d905f6b3113de968a39c9c44"
+    },
+    "P1_point_check": {
+      "file": "R914-iota-exact-original-P1-point-and-zero-order.json.gz",
+      "bytes": 8592,
+      "sha256": "c2cab789f3a141ccd36307ed8bca82e34ac30e9eedf38603bb2bd77b2f14173c"
+    }
+  },
+  "future_target_sources": {
+    "R903": null,
+    "R907": null
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "new_scope": "complete_original_reference_endpoint_ideals_relative_nine_coordinates_and_full_Norm_t_frames",
+  "old_order_target_coordinates_reference_function_coefficients_and_original_jets_recomputed": false,
+  "all_factors_and_nilpotents_preserved": true,
+  "new_five_target_NormPhi_detU_or_Hecke_active_support_or_height_requested": false
+}
