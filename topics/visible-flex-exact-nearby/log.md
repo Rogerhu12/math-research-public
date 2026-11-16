@@ -91,3 +91,9 @@ WPS/WRP完整current manifests、WSMF proof/math/owner、W4M proof/science及WVC
 三自然图32+7+13=52新，26/13/27=66copy其中62原+4新readback；34SCI字段/18门/14progress全封。每记录完整单SCI fsync/dirfsync/stdout/readback后才下游；失败全部prefix先保存不截科学。所有θforcing/genuine Vext tail、两mean/四端/3070与两个同算子整选保原proof。
 
 根只在JS重构纯JSON模型，无球解析或科学求值：4完整选择成功70433–70747、4晚失败75875–76189、3完整partial58006/63062/73982，11场景fullSHA全部同interface；完整preflight25109、两exec35348/61564、report446也逐个同hash。SCI85000/exec65000/report2000=152000全publication，另120000。fresh199190661B@44aac64a，含两套剩余包/W4M窄修文本余量/两份完整输出/双120K，保守投影199915612B。W4M首次已preflight失败且child0，其完整回执已推；WSMF成为唯一livechild，W4M明确未算目标待本次实际输出发布后接续。此提交仅source/manifest，workflow单独触发。
+
+## 2026-11-16：WSMF52 首次公开 Actions 单次触发
+
+2026-11-16 14:33:10 UTC；README核b0ae8ff5f157fbdb1b6e5fd8dc83081c7b9eb635未变。源/manifest先独推e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c；本次新workflow006e6a3835cb178e8d9376dda5293f9d561e6678/2943B/SHA5e459b8a5c90baa1a81ce4d88c33826fe30e565f8a048909a59af753e8b799d5单次push触发，绑定manifest909b8961、原worker3770e29d。公开main partial clone后真pull/两README完整diff/13全部输入/3AST/完整8原资格预核，consumed marker与fresh立即prechild容量门后只启动52新的一次child。旧52尚未执行；WGS/WBF/WJR/WDG/WMT/WRP所有已成目标只读，旧extension父失败不改。
+
+152000全输出+120000预留，实际成功/失败全prefix发布按≤200MB；W4M首次child0失败回执已完整公开，当前无其他live数学child。待本次完整结果发布再接W4M明确未算的30目标；任何失败先保存前缀和lost/未算边界，不自动重跑。
