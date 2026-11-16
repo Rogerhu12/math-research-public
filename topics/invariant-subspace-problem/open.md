@@ -42,6 +42,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **纯两孔无罚来源现已闭。** [全左低链及准确伴随消去](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)由完整0/1行得β1U∈RanC、β2U∈RanC²；真实低L*源消去Z一孔和AZ两孔，故固定首头可以用Fflat=P_RanC²q⊗ω2保持同PV−PK及同完整最小源。其费γflat²=σ2²||P_RanC²q||²≤旧正饱和费，准确等于T=K⊥∩RanC上的压缩C*C逆二次型；纯两孔Bessel、单位首头锚、同w及真帽外投影全部保。下一只估这一原受限费用，不再为已消去的Z行收费；未证其上界或N=M。
 
+**完整两孔核Schur现已闭。** [R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)完整消去一/二孔所有primitive与零源，真实 $D_2D_2^*=SI-2Z+bb^*$ 在原无限层严格正；给定真空头的最小费 $H_2=I+C_3^*r(T)C_3$，$r(t)=\langle b,F(F+tI)^{-1}b\rangle^{-1}$。同真头旗上 $H_{\rm b}\le H_2\le(1-\epsilon)^{-1}H_{\rm b}$，$\epsilon\le6/(x+1)$，比较无头条件数。首头K2−K1增益准确等于第三旗 $P_{\ker C^3\ominus\ker C^2}C^*r$ 的真Schur逆二次型，仅看到 $q_\flat$ 在 $K\cap\operatorname{Ran}C^2$ 的分量；下一仍估跨旗余源及全 $q_\flat$ 费用，不从增益可和删除它们。
+
 **最新原第二逆接口。** [偶段可达核与首头完整正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)已付全部原N/Y半级核支撑和偶R的kerC⊂RanC；完整新增核图与全部kerC_b*自由给真正第二逆能量公式。还必须控制同一原来源的核外返回q=(C*)†(I−PkerC)G(I+b²Γ)⁻¹e0，不能用第一逆标量≤1、短池截面或首逆单调性代替；标准R=d合法，奇段下一步不自动沿用核正交。
 
 

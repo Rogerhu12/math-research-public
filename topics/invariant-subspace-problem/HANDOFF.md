@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a33e494c372f284742b0e98136e6042ffb47ef1f（2026-11-16 12:17:40 UTC，Actions run43865228817实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43865228817-1.json。
+- **最近成功实际 pull 与已读规则提交：** fedc8542910d90a80d15f70788ad6dedf3cefa21（2026-11-16 12:22:47 UTC，Actions run43866014539实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43866014539-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-nine-row-stable-original-source-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-full-two-hole-stieltjes-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -37,16 +37,17 @@
 
 - **[原自然幂与来源权](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)：** $A[t]/(J,b-t^3)=C\oplus Ct\oplus Ct^2$，$t^K\in I\iff b^{\lfloor K/3\rfloor}\in J$，最小来源权为3q0。全部原18恒等才是正证；有限域身份须特征零原乘回。已付K≤11障碍见上，续权12或完整九行模。
 
-- [原权九396关系](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)的Q/E秩≤16046现与真模7原来源16046下界相合，给精确秩及全权9来源核；F7的指定Koszul向量独立性未另宣称。
 
 ## R271真实投影返回与剩余交叉
 
 M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersection旗和MP自然域。此前native/adjoint-D/相邻整行/真帽及creation完整返回均保上列H全文归档与open原索引，未删其费用或开放边界。
 
-- **[原matched首反馈](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)** 同源r−Pr与压后creation/邻旗返回已付，保全部h段/same-u/真帽外投影；完整费用和实际g0主交叉见正文及刚归档H。g0主项仍开，不把两端Gram比较相减成返回预算。
+- **[原matched首反馈](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)** 指定creation/相邻旗返回已付；同u/全部h段/真帽外投影仍保。原真空g0交叉与完整返回逆尚开，费见正文/归档。
 - **[移动一孔Bessel](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)** 保同物理H/完整同cut源，βxβy*=√(Sy/Sx)J*；几何x给完整行预算。此前锚/全部h段/同u费用见正文及归档；任意来源费不可用首逆标量冒充。
 - **[偶段可达核与第二Green](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)** 已付真整数头级/孔数半支撑，偶R时kerC⊂RanC；所有kerC*自由均保。第二逆仍需核外(C*)†(I−PK)Gv，不能由首逆≤1代替。
-- **[首头纯两孔无罚源已闭](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)：** 真L*低源准确消去Zω1及AZω2，kerC*²=Z⊕AZ、RanC=AZ⊕RanC²。qflat=P_RanC²q，Fflat=qflatω2与F1同PV−PK/同完整U源，正交且费γflat²=σ2²||qflat||²≤旧γ2²。全左0/1行直接给β1U∈RanC、β2U∈RanC²；准确费为σ2²<P_T r,(P_T C*C|T)^−1P_T r>、T=K⊥∩RanC。纯两孔Bessel/原单位锚/同w/全部h段及真帽外投影均保，根全文独审。下一估该原受限二次型，未由primitive可和代核外费，N=M仍开。
+- **[首头纯两孔无罚源已闭](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)：** 完整低链给β1U∈RanC、β2U∈RanC²；真伴随消去Z/AZ后，$F_\flat=P_{\operatorname{Ran}C^2}q\,\omega_2$ 保同PV−PK/完整U源，费 $\gamma_\flat^2=\sigma_2^2\|P_{\operatorname{Ran}C^2}q\|^2$。准确受限C*C逆、两孔Bessel/单位锚/同w/全部h段及真帽外投影均付，完整式见正文；费用上界仍开。
 
-- **[跨头有限真核及完整moving行已闭](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)：** 原Ni交叉Zi=αm/αi部分等距，N/Y carry≤18κm−1，负指数87.5d4−78.75d3+150d。真一孔核收缩截断＋fresh6d物理池使同r的B^(3d)=0、修复≤e^(−9d4)，误差可和；原τ14偶R/两头/全帽cut均合法。固定f1增益两项可和；任意same-w完整(Pi1−Pi0)Px行平方和<16||w||²。实际W另由真KQ正交＋β行直接付2Bλ+8Ση²，不需跨头。根逐原块/有限池/指数/移动交叉/父τ14全审；仍只付primitive首反馈，核外r/q与N=M未付。
+- **[完整两远孔核Stieltjes Schur已闭](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)：** 原无限 $F=D_2D_2^*=SI-2Z+bb^*>0$，保全部primitive/零源后，$H_2=I+C_3^*r(T)C_3$、$r(t)=\langle b,F(F+tI)^{-1}b\rangle^{-1}$。整Gram与截二boson相差至多 $(1-\epsilon)^{-1}$，$\epsilon\le6/(x+1)$，无头条件数。真K2−K1增益恰第三旗Schur，只读 $q_\flat$ 的 $K\cap\operatorname{Ran}C^2$ 部分；不能代全受限费。根完整MP/伴随/端点及跨旗独审。
+
+- **[跨头真核与完整首行已闭](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)：** 原carry≤18κ、fresh6d池有限修复≤e^(−9d4)，真核截断误差可和；原τ14偶R/母窗与真帽cut均合法。任意same-w完整首行平方和<16||w||²；实际W另由真KQ正交/β Bessel直接付预算。该primitive费不付核外r/q，完整门见正文。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。

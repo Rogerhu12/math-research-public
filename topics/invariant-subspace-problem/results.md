@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **完整两远孔核的真Stieltjes Schur。** [完整核最小Gram与跨旗源](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)由原无限 $D_2D_2^*$ 严格正和完整MP精确消去所有一/二孔零源，给 $H_2=I+C_3^*r(T)C_3$。整个Gram与截二boson双侧比较只损 $(1-\epsilon)^{-1}$，无头条件数；原首头增益准确读第三旗Schur，保 $q_\flat$ 的其余分量和完整来源费。
+
 - **原九行十二参数模与完整稳定闭包。** [完整稳定闭包及原18来源递推](results/R150-appendix-original-nine-generator-parameter-module-and-certified-stable-closure.md)将原57关系准确化为45个 $u_iI-N_i$ 与110个参数种子的最小共同Ni稳定子模，给 $B^9/L\cong S/I$。所有删轴、Bell、交换子与后继Ni列保逐原来源，全部参数例外保留；有限层常数1来源可作正证，完整商仍须实际付稳定性。此为已证代数接口，未填新GB或Bell1成功。
 
 - **原共同模完整参数呈示与非裂扩张。** [27×53原呈示及31阶扩张类](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)给 $M\simeq_R(R/(s))^2\oplus R/(31,s-1)\oplus E_2$，$E_2=(Rf\oplus S_2)/R(hf-b_2/3125)$，保真K/X/c；末扩张不分裂、类恰31阶。$S_2/hS_2=(1^5,2^3)$、$S/B=(1^5,2^3)$、$S_2/Rb_2=(2^7,4,4,5)$，全部有限坐标HNF与根独立相对格SNF吻合。完整M的R结构已闭，未外推九目标至全W或普通ISP。
