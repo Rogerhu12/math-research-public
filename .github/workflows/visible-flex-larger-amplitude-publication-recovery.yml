@@ -1,0 +1,98 @@
+name: visible-flex publication recovery CheckpointRetention
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-publish-checkpointretention-20261116
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-larger-amplitude-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GIT_TERMINAL_PROMPT: '0'
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+      VISIBLE_PUBLICATION_COMMIT: 'cfaa5e6cb26a8096fc72e575259b3065c0b893a0'
+      VISIBLE_PUBLICATION_FILES: '["topics/visible-flex-larger-amplitude/log-checkpoint-before-R431.md","topics/visible-flex-larger-amplitude/log-through-R478-2026-11-16.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R456.md","topics/visible-flex-larger-amplitude/open-checkpoint-through-request105-dispatch-2026-11-15.md","topics/visible-flex-larger-amplitude/open-checkpoint-through-request155-2026-11-15.md","topics/visible-flex-larger-amplitude/notes/2026-11-12-HANDOFF-before-cut-schur-checkpoint.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R391.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R396.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R399.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R400.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R404.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R409.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R410.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R413.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R415.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R416.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R417.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R418.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R419.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-R422.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request190.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request193.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request194.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request195.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request196.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request197.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request198.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-handoff-checkpoint-before-request199.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R368.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R372.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R377.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R385.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R387.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R389.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R390.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R396.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R399.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R404.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R409.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R415.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R416.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R417.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R418.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-R422.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request174.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request175.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request178.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request182.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request183.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request184.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request192.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request193.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request194.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request195.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request196.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request197.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-request199.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-requests185-187.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-requests186-188.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-before-requests190-191.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-through-R355.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-through-R370.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-through-R371-and-173.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-through-R373.md","topics/visible-flex-larger-amplitude/notes/2026-11-15-open-checkpoint-through-request168.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R397.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R420.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R421.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R425.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R426.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R427.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R429.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R430.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R431.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R432.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R434.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R437.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R443.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R457.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-R459.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-request201.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-request202.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-handoff-checkpoint-before-request203.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R397.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R421.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R425.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R426.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R429.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R430.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R431.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R434.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R437.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-R443.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-request201.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-request202.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-request203.md","topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request137-2026-11-15.md","topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request139-2026-11-15.md","topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request142-2026-11-15.md","topics/visible-flex-larger-amplitude/notes/open-checkpoint-through-request99-2026-11-15.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-historical-checkpoints-index.md","topics/visible-flex-larger-amplitude/HANDOFF.md","topics/visible-flex-larger-amplitude/open.md","topics/visible-flex-larger-amplitude/log.md"]'
+    steps:
+      - name: Restore one conclusion with actual pull and README checks
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_PUBLICATION_PY'
+          import subprocess,pathlib,re,json,datetime,sys,os
+          repo="Rogerhu12/math-research-public"
+          hp="topics/visible-flex-larger-amplitude/HANDOFF.md"
+          r=pathlib.Path(os.environ["RUNNER_TEMP"])/("visible-publish-"+os.environ["GITHUB_RUN_ID"]+"-"+os.environ["GITHUB_RUN_ATTEMPT"])
+          if r.exists():raise SystemExit("Refuse to reuse a previous clone")
+          pins={"README.md":"21bd547f56590b7f2dd279d0297efb289a9b2783","topics/visible-flex-larger-amplitude/README.md":"bff8aea253a9e6a7a4fac28d810ac454c5499fec"}
+          def g(*a,check=True,editor=False):
+           env={**os.environ,"GIT_EDITOR":"true"} if editor else None
+           print("GIT_OPERATION "+a[0],flush=True)
+           p=subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","-C",str(r),*a],text=True,capture_output=True,env=env)
+           if p.stdout:print(p.stdout,end="",flush=True)
+           if p.stderr:print(p.stderr,end="",file=sys.stderr,flush=True)
+           if check and p.returncode:raise SystemExit(p.returncode)
+           return p
+          def quiet(*a):return subprocess.check_output(["git","-C",str(r),*a],text=True).strip()
+          def check_rules():
+           global last_read_head
+           head=quiet("rev-parse","origin/main")
+           for path,pin in pins.items():
+            actual=quiet("rev-parse","origin/main:"+path)
+            if actual!=pin:
+             print("README_CHANGED "+json.dumps({"path":path,"old_blob":pin,"new_blob":actual,"pulled_head":head}),flush=True)
+             g("diff",pin,"origin/main:"+path,check=False)
+             raise SystemExit("New README differences require model reading before publication")
+           last_read_head=head
+           print("TRUE_PULL_RULES_UNCHANGED "+json.dumps({"read_head":head,"README_blobs":pins}),flush=True)
+           return head
+          def rule_line(head):
+           return "规则同步记录："+datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")+" root委托本公开仓库Actions run"+os.environ["GITHUB_RUN_ID"]+"真实 git pull --rebase origin main 后核双README；根"+pins["README.md"]+"、题"+pins["topics/visible-flex-larger-amplitude/README.md"]+"未变，已读提交 "+head+"。"
+          def resolve_rule_only_conflict(operation):
+           head=check_rules()
+           conflicts=quiet("diff","--name-only","--diff-filter=U").splitlines()
+           if conflicts!=[hp]:raise SystemExit("Substantive conflict requires explicit merge of source text")
+           path=r/hp;s=path.read_text()
+           blocks=re.findall(r"^<<<<<<< HEAD\n(.*?)^=======\n(.*?)^>>>>>>>[^\n]*\n",s,re.M|re.S)
+           if len(blocks)!=1 or not all(x.strip().startswith("规则同步记录：") and "\n" not in x.strip() for x in blocks[0]):
+            raise SystemExit("Substantive HANDOFF conflict requires explicit resolution")
+           s=re.sub(r"^<<<<<<< HEAD\n.*?^>>>>>>>[^\n]*\n",lambda m:rule_line(head)+"\n",s,flags=re.M|re.S)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g(operation,"--continue",editor=True)
+          def stamp():
+           head=check_rules();path=r/hp;s=path.read_text()
+           if not re.search(r"^规则同步记录：.*$",s,re.M):raise SystemExit("Missing original HANDOFF rules line")
+           s=re.sub(r"^规则同步记录：.*$",lambda m:rule_line(head),s,flags=re.M)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g("commit","--amend","--no-edit","--reset-author")
+          def real_pull():
+           p=g("pull","--rebase","origin","main",check=False)
+           if p.returncode:resolve_rule_only_conflict("rebase")
+           else:check_rules()
+          print("RECOVERY_SOURCE_ONLY "+json.dumps({"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"branch":os.environ["GITHUB_REF_NAME"],"scientific_program_executed":False}),flush=True)
+          subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","clone","--filter=blob:none","--no-checkout","--depth=8","--single-branch","--branch",os.environ["GITHUB_REF_NAME"],"https://github.com/"+repo+".git",str(r)],check=True)
+          g("config","user.name","ChatGPT");g("config","user.email","chatgpt@openai.com")
+          g("config","--add","remote.origin.fetch","+refs/heads/main:refs/remotes/origin/main")
+          g("fetch","--filter=blob:none","--depth=128","origin","refs/heads/main:refs/remotes/origin/main")
+          paths=json.loads(os.environ["VISIBLE_PUBLICATION_FILES"])
+          g("sparse-checkout","init","--no-cone")
+          g("sparse-checkout","set","--no-cone",*["/"+p for p in sorted(set(paths)|set(pins))])
+          g("checkout","-b","visible-publication-work","origin/main")
+          real_pull()
+          p=g("cherry-pick",os.environ["VISIBLE_PUBLICATION_COMMIT"],check=False)
+          if p.returncode:resolve_rule_only_conflict("cherry-pick")
+          stamp()
+          while True:
+           p=g("-c","credential.helper=","-c",'credential.helper=!f() { if [ "$1" = get ]; then printf "%s\\n" "username=x-access-token" "password=$VISIBLE_REPO_TOKEN"; fi; }; f',"push","origin","HEAD:main",check=False)
+           if p.returncode==0:
+            print("PUBLISHED_JSON "+json.dumps({"head":quiet("rev-parse","HEAD"),"status":quiet("status","--short"),"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"true_pull_read_head":last_read_head,"README_blobs":pins}),flush=True)
+            break
+           if not any(x in p.stderr for x in ["[rejected]","fetch first","non-fast-forward","cannot lock ref 'refs/heads/main': is at"]):
+            raise SystemExit(p.returncode)
+           real_pull();stamp()
+          VISIBLE_PUBLICATION_PY
