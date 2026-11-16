@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:30 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:32 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -90,3 +90,9 @@
 - 新算术只23组690个S5右端/全1380乘回/分次支撑与五纤维aV3、bV3；固定a输出跨候选复用。实际1360×1380矩阵达到1111才接受八生成元，原评价不假定注入；首四参数失败只记不足，不否定特征零存在。
 - 原全局y与CM点值分开，实下降必须正乘(y²−b)，不宣称η、高度或规范Jacobian代表。Hom消费者已实际推5ebcfafb，正读取其真实run。
 - 本push规则：本地真实pull至84a4bff41a469826a58dfa5d62e7a79a805bc4d2（2026-11-16T00:30:32.841833+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:34（Asia/Taipei）— 激活原D两锚与八极理想生成元
+- core601b0b5a/wrapper8be3fb61/requestcaefb388/workflow228ed65f；root已读全核、封装、方法与工作流，原七源1979件/108686012B/expanded45bbe4b4/configd6d7e284绑定，旧R842完整基和旧S5/Krylov逆直接消费。
+- 只23组690新RHS全1380乘回、分次支撑与五纤维作用；参数从1起首4项，固定a的5乘法跨候选不重。实际1111子式才给完整D理想和八个V11 DAG，失败有限候选只保存真实秩。
+- 五原Hom消费者run43780702248/source5ebcfafb实际success，正在读真2.02MB artifact14188376841；不会因workflow绿色预填点DAG结论。主目标OPEN继续全局五极除子和A.1新转置接口。
+- 本push规则：本地真实pull至5f5257d576d45a3d1bbdd0037225394f32384671（2026-11-16T00:32:05.802558+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

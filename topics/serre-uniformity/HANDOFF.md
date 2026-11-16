@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：84a4bff41a469826a58dfa5d62e7a79a805bc4d2**（2026-11-16T00:30:32.841833+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：5f5257d576d45a3d1bbdd0037225394f32384671**（2026-11-16T00:32:05.802558+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -35,9 +35,11 @@
 
 **R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，待实际DAG产物。
 
-**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run待实际读取。
+**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run43780702248/job133017074300/source5ebcfafb已结束，待读真实产物。
 
-**原D铅笔与八生成元方法已证**：[完整方法](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498：原Ey=ℬ+3D，W_D完整且deg(3H−D)=421全局生成；两截面a,b共同零D+Z时原V3²→V6秩1111−degZ。因此五旧纤维1360×1380的真1111minor足证I_D=(a,b)，无需评价注入。原u/v给八个V11乘法DAG，I_Ey=I_ℬ I_D³；实下降I_EyR=(y²−b)I_Ey³保原主函数。仅新690个旧τ²V3=V5 RHS/full1380与五纤维乘法；旧Krylov/S5逆/前缀复用，[五纤维执行契约](notes/R839-original-five-fiber-pole-pencil-method.md)f8bc9d63固定七源1979件、690新RHS/23组和原五节点；1111任务待真输出。五加法极除子/η未成。
+**原D铅笔与八生成元已激活待真产物**：[完整证明](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498、[执行契约](notes/R839-original-five-fiber-pole-pencil-method.md)f8bc9d63。R842原295单位解基；共同零D+Z时V3²乘法秩1111−degZ，五旧纤维只需真1111下界，原u/v给八个V11生成元。I_Ey=I_ℬ I_D³；实下降正乘I_EyR=(y²−b)I_Ey³，先前逆号已更正。
+
+core601b0b5a/wrapper8be3fb61/requestcaefb388/workflow228ed65f，七源1979件/108686012B/expanded45bbe4b4，配置d6d7e284。只690新RHS/23组全1380代回与五旧纤维乘法，旧S5/Krylov逆/real行不重；首4整数参数、300min，已成固定a跨参数复用。未预填1111或八生成元成功；五加法极除子/全局y/eta-height未成，run待读。
 
 ## 后继来源与期限
 
