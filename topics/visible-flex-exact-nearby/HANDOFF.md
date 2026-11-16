@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 14:45:31 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 14:46:25 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:38:20非FF真CLI仍无executor，下一本地尝试≤15:38:20。最新CI真pull为43887930151/1于11-16 14:39:21.134198→cc26411371171d0bc2d06ea37c340999e140a94c；4次两README完整diff空/同已读，exec全保。下一真pull≤15:39:21；ref读取不冒真pull。
-最近只读README核：65198ece5f1a55dfd6cb4853563688208ec59157；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：1418d76e5a9e5dd0666fecdc224bbb620c1c6b4d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -30,7 +30,7 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 
 WIC527fc35e解析m160真tailκ3已成，δ<80553/128000<2/3，N24480/4724833维；完整reference/193mean/7port/两rhs/rho2修正保原proof。WPNdc553f11已证同WPS门e+3dt<1⇒全系统双边Neumann逆/两残差界/指定root-even I96。WPS首次实际门false；其他readout/负head/ν/Θ/matching不消。
 
-WCPR642e6fd2全cut/profile义务保。WSMAdc566db3/43877268949/1全22门/3图152新39copy成功冻结，index7caabc2c/30834/3cb8fa2a、execb63ab5aa/21759/5b2ee674；whole/reduced约1.90736e323各选new，old0/lost0。源84c2b166/manifestb9add676；mean e319现主导，仍无finite/小量/匹配。
+WCPR642e6fd2全cut/profile义务保。WSMAdc566db3/43877268949全22门/152新39copy冻结，index7caabc2c/30834/3cb8fa2a、execb63ab5aa/21759/5b2ee674；源84c2b166/manifestb9add676及完整旧whole/reduced/两mean/四端/3070保proof与b353a12d同H，old0/lost0。WRPA/WSMF已接，仍无finite/小量/匹配。
 
 WPSA470d2547全实际proof已推，WPSffd000ff原义务保；43878765372/1完整6图60新/22门、36current/19history/16AST成功冻结。SCI17a70a8a/65347/0c246786、exec21bf7ec0/35857/01d18a44；e+3dt约635240.55，充分门false/finite0，不推出奇异。96mode/24480cell/4650row/4801交集全成，old0/lost0，不重算。
 
@@ -38,7 +38,7 @@ WRPAb6c22c38/43881690924首次40新/14门/3图成功冻结；SCI146904d0/82508/4
 
 WSMF5845b880/43886938106首次52全成冻结：SCIc20713f5/61398/3243348d、exec8bf42887/35338/1b725baa；3图32/7/13、18门、13current/3AST/0history、62old+4upstream，old0/lost0。whole/reduced各new≈2.095886e302；rawmean≈1.3496e171、mean端≈2.178e142，旧scattering≈5.01187e295现主导。完整两mean/四端/3070/独立门保原proof与actual；禁止重算52，完整实际proof正在写。
 
-WMLa67961a5的local247仍未执行；无1/T根除及全部局部资格保原proof。WSMF先改strict主导项，剩余独立scattering/second-order waist端点另做完整新目标，禁从旧上界相减。
+WMLa67961a5 local247仍未算；WMC06e0d860完整mean-flux已证精确消漂移：B=eκI−∂φ(eC)+eL中scalar c=2βmKΠ(pv)+βΠ(Se)及全投影费保，L1全系数不省；无新κ/e6，拟27+7+13=47新量未算。完整forcing/两mean/四端/3070与原n^-23/6保，不混W4M单位；不重WSMF52。mean已非主导，先推进独立scattering/second-order腰端，禁从旧上界相减。
 
 ## 执行与继续
 

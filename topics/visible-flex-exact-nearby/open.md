@@ -48,7 +48,7 @@ WPL052bd8ed/WUEe191f96a完整原式与scope逐字保[当前完整检查点](note
 
 WUI/WEJ/WZR/WEJA/WECA/WGS原完整typed DAG、58输入、1600+9失败prefix和1684完成后继及其全部scope/恢复/未付门逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)。同真实trial、J、两mean、3070跳点与四端不改；已成禁止重算，旧失败不改成成功。
 
-[WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
+[WGSA](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734/43820816332全24门/8图437槽冻结；原域/copy/两patch、a!b!恢复及sup/component-sum非A0、完整hash/pull全保proof与b353a12d同open；后继只读，余门不减。
 
 [WHR/WHV/W96完整原scope](notes/2026-11-16-positive-head-open-scope-before-signed-residual.md)9f69ecd3保原三段及全部未付义务：193是angular fiber，真radial Fredholm index0/mH/coker/H¹补列/dual/trace-safe端点和cross不减。WHVA43838214094已成24目标，eps35.51628/N4096充分门false、requiredN145475超cap，无resolvent或奇异结论。W96真实outer193行给核96+ℓ，至少96列存在；指定root96仍须signed193+mH square/basis/Gram。PW全density两mean→WPL、Θ/ν/cross及消head全部high新费保；旧WGB E不可复用，最终族未授。
 
@@ -168,7 +168,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。真tail已由WIC闭合；signed有限逆仍待。
 
-WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及原proof。[WML](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5已证原实local归一mean六步/10terminal，无1/T根除；247新量未算，因非mean主导暂缓。原Jr/g1/两mean/四端/jump及signed逆/高门不减。
+WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)与原proof。[WML](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5 local247未算；[WMC](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)06e0d860证全mean-flux精确消漂移，scalar mean项及两投影费用完整保，47新量未算。Jr/g1/两mean/四端/jump及signed逆/高门不减；mean已非主导，先推进腰端。
 
 [WPTSA原实际结果](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：153parents/4801交集与5max全成，m1/2两false冻结；原完整scope/193mean/四块/失败prefix保proof/manifest296d3f66，禁重算。
 
@@ -182,9 +182,9 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WDGA80](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250、[WBFA83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355与[JRA56](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f/43873739440全冻结。所有原球/对象/单位/域/cut/dr/一次阶乘/mean/祖先scope/失败和未付门保各proof及4ef462296a239c5abf90ea3239f210cfc23be002同open；old0/lost0，非relative15/root盘/finite/matching。
 
-[WQS完整双向试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372的全部域/mean/两state/7port/ε和WPS false保原proof及4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
+[WQS](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372全域/mean/两state/7port/ε及WPS false保proof与4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
 
-[WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
+[WSMA](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)dc566db3/43877268949全22门/152新39copy冻结，完整原scope/两mean/四端/3070及旧whole界保proof与b353a12dd8d1fb2d03c5c2cc4d606c9be820f662同open；已接WRPA/WSMF，非finite/matching。
 
 [WPSA实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372：6图60新/22门成，e+3dt约635240.55充分门false/finite0，不推出奇异；全mean/7port/两rhs/full96/原对象保proof与SCI17a70a8a。old0/lost0，禁重算。
 

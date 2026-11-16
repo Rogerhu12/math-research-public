@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WMC：完整归一均值通量中的精确漂移消去](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)：在同一真实 mean 源里合并 eκI−∂φ(eC)+eL，精确保留 scalar c、Π(Se) 的正号及两个零阶投影费用；省去 κ/e 的冗余高导上界，未删 forcing、真势、两 mean、四端或 3070 接缝。完整 47 新量合同仅为未执行候选，WSMF52 已成实际量不重算；不改变 n^-23/6 原单位，不声称数值改善或有限逆。完整 proof SHA256 06e0d860。
+
 - [W4M 实际完整四步均值](notes/four_step_physical_mean_ci/run-43887930151-1/actual-scientific-conclusion.json)：公开 run 43887930151/1 首次科学子进程保存全部 30 新量和 1 原记录副本，16 门/5 图全成；47 原标量、11 全资格和 n^-17/6 的完整输入 HS 接收均保。whole/reduced 各只与 WRPA 原完整候选比较选 new，约 2.095886e302；已有 WSMF 完整界仍更好。首 run 43886171523 仅预核失败、child0，保持原失败；现 completed targets 全锁、old0/lost0，无有限逆或小量结论。
 
 - **WVC新完整有限候选已证**：[连续修复中心试探与有符号tracefree参考](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6。完整variable source残差无需径向导数；p≥1/16、两向衰减与正Padé枢轴、全action/transpose/两moment及lift6/5齐。actual A/B/C/R与tailκ3不变；拟56新+2条件槽未算，旧false仍独立。
