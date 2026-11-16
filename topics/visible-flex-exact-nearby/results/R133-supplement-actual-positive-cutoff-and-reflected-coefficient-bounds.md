@@ -64,7 +64,7 @@ $$
        P\operatorname{Fix}(R_a)\cap L^2.
  \tag{PCRA.2}
 $$
-Here \(X^{fr}=S D_+\mathcal H_{\mathrm{nat}}\) is the actual transported reflected source, not the full signed circle. The density coordinate S preserves the integral. This coefficient conclusion is only at the original selected real member and fixed intrinsic reference; it is not extended to the full parameter family or a nonlinear neighborhood.
+Here $X^{fr}=S D_+\mathcal H_{\mathrm{nat}}$ is the actual transported reflected source, not the full signed circle. The density coordinate S preserves the integral. This coefficient conclusion is only at the original selected real member and fixed intrinsic reference; it is not extended to the full parameter family or a nonlinear neighborhood.
 
 The full root identity retains its original right inverse and both means:
 $$
@@ -73,7 +73,7 @@ $$
  R_S=c_i\otimes p_\psi-(c_i p_\psi)\otimes1.
  \tag{PCRA.3}
 $$
-The two ranks are written on the full space before restricting to the actual zero-mean input. Projection then gives the exact coefficient \(v_i-\nu_i(h-1)\) in the surviving primitive rank. The physical density-mean term \(-(h-1)\rho_i\) remains. The identity used is \(P_hE_{\mathrm{coeff}}=P_hE_0\), not equality before projection.
+The two ranks are written on the full space before restricting to the actual zero-mean input. Projection then gives the exact coefficient $v_i-\nu_i(h-1)$ in the surviving primitive rank. The physical density-mean term $-(h-1)\rho_i$ remains. The identity used is $P_hE_{\mathrm{coeff}}=P_hE_0$, not equality before projection.
 
 | Same complete coefficient operator | Actual outward record |
 |---|---|

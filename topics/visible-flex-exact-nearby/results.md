@@ -6,7 +6,9 @@
 
 ## 新增结论
 
-- [PCRA：实际完整positive与反射系数界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)：唯一43812987299/1成功，22门/7graph/SCI e2cb2aac；同Rplus选1.0395639775…e30，同Dalg投影选2.1334995458…e10。完整原42+3/5scope与两candidate保，数学锁；whole负源/端点/高门/finite未闭。4e15a413。
+- [WSP：同positive cutoff的非对称Schur与Parseval完整界](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)：变化symbol的ROW只用pointwise，固定input COLUMN用Parseval，完整两和sqrt(RC)及原物理两row/receiver给新whole候选；读已成PCRA无需旧重算。80d28207，新数未算。
+
+- [PCRA：实际完整positive与反射系数界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)：唯一43812987299/1成功，22门/7graph/SCI e2cb2aac；同Rplus选1.0395639775…e30，同Dalg投影选2.1334995458…e10。完整原42+3/5scope与两candidate保，数学锁；whole负源/端点/高门/finite未闭。f2b1e603。
 
 - [WUI：全局真试探完整输入闭包与有限导数图](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)：区分全部原小界和新全局jet/forcing/Jost/N6+4/负窗/J/mean/jump/四端；root4501B可核原恢复，旧数学不重算。2a77f1cd，尚无新whole数值或高逆门。
 

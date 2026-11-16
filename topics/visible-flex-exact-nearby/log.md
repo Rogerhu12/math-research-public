@@ -324,3 +324,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 05:57:12 UTC — PCRA唯一实际成功与完整回执核定
 
 43812987299/1/job133118585496十二step成功，22门/38fields/18progress/7graph/90slots含复制，五旧/42+3/5scope全hash锁；root全读actual SCI55533/exec14961/report3659且复核完整science+report preGit59593/20b6c6dc。selected Rplus1.0395639775…e30、Dalg2.1334995458…e10，只替同whole式对应项；新math一次、旧0，truepull05:52:33两README空diff，当前fedcc67e9a96ccf67145cd61540209ea1f5dcaf8同原blob。
+
+## 2026-11-16 06:05:41 UTC — WSP全矩阵非对称Schur/Parseval新配方
+
+完整校验ROW/COLUMN区别、4l导数/256、L128头尾及全两sign/mean、CX与Jwords/Kχ/receiver原序；新whole positive只读PCRA原界，数值0。依根规4仅把PCRA四处inline分隔符改为美元格式（f2b1e603），其actual/数学与成功锁不变；两READMEbf0fa1fd5026bfceade4372d27ca03ea9f2a1f8c仍同blob。

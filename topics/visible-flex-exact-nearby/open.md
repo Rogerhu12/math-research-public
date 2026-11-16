@@ -68,7 +68,9 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WPC完整新cut](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c与[WCE同Dalg](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b的完整预执行说明保05b386115aa5ba1d63caf008ee8890977b6f288b同open。原trial/χ/两row/mean/TF after-right/twoI/同Js与selected范围全保。
 
-[PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)4e15a413：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
+[PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)f2b1e603：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
+
+[WSP非对称Schur/Parseval](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)80d28207：ROW用完整pointwise界，固定j COLUMN用Parseval；L128只分和，全output/mean/两row与原receiver保。直接读PCRA已成D0/D2/CX/Jwords/Kχ，新的wholepositive正组合未算。
 
 [WUI全局输入与有限DAG](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd：旧小receipt只读，strict真flow/原root商接全w1 forcing、C64 potential与非零Bext尾、N6后全C4/physicalmean/J负窗、3070接口和四endpoint。旧FA局部jet/SJ积分不冒全局；global新jet/whole预算尚未算，缺全fold仅按4501B原stage临时恢复。
 
