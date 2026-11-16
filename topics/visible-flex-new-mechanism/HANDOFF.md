@@ -28,19 +28,19 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 新32.28273412599998秒/0值闭、0overrun；最新累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保全环A/B/C/ell、I/II/二jets，不含X/fullgrid二jets/J或完整17个Π三向量。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a；report9条0parseerror。所有新frame/Π/height含总钟；余额已闭，不重解R2。当前无待读科学run。
 
-## 4. 已闭cap路线与真正不同的入口
+## 4. 已闭cap路线与原库真实路径
 
-[R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491全部密度、C≥0、双germ与完成跳图，以同一正Af缺量证明H∈[3/5,2]时Δ4−βΔ6>7(4+34H)/(1500L)>0，L=4H²+136H−76、β=(270H²−1196H+576)/L；接R496的H≥2完整ImE<0，**排当前允许cap全五门共同零**。由原R471/R465/R466接同一仿射增强商的正字符障碍；不排不同合法观察空间/profile或一般几何。
+[R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491的C≥0、正Af密度、全部尾/跳图与双端，严格分离H∈[3/5,2]的Δ4−βΔ6；接R496覆盖H≥2，排当前允许cap五门共同零。旧cap15/三原子/四原子/唯一LP已闭不重跑；原LP183.90384485000004秒、nit270738、x/dual None的no-decision仍按[原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)保留，不追写当时已有证书。
 
-旧cap15/三原子/四原子搜索均闭且无零；唯一LP183.90384485000004秒/1LP/0judge/nit270738/xNone的[原no-decision](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)仍保当时原义，不改写成已有证书。禁止重开同类cap搜索。[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)已付固定宽Jtr=(J0,FN^j)完整实际C1截面：双极端在Jaff排非零权、同宽混权核排λ+；原响应/仿射桥导数加真实高度脉冲给非零基准开球，再以有限非负配平和整数复制覆盖紧目标。一次共同ω平移/真桥保原窗口与全部成本，接原period/13规范；不要求已排的伸缩partial零。此为R459内区可变母库，不能拼R512同形母；全词逐点K仍欠。
+[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付固定宽Jtr=(J0,FN^j)实际C1成本截面：双极端正字符/同宽混权核、实际满像导数、保非零基准开球、有限正配平和整数复制；一次共同ω平移与真桥保原窗口/全部成本，按同库R467/R464接period/13规范。此R459内区可变母库不能拼R512字面同形母；同一完整实现字的逐点K仍欠。
 
-## 5. 同规范路径的当前严格边界
+[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强同一R459类有限C²纤维，保四自然/共同cap/原20目标，另以真实22行正核取得完整常态平方Qc=0、速度Gc=1。纯self只在三项三导平方完整抵消后才降C²，全部YC/左尾保。固定一次χ得到A=tAc≠0、T=−t²Ac²/2的全相位K0常态段，并在其真实t0前缀以∂ksF=t0非零、自由hs和真实八矩ODE平滑非恒离开。未付返回桥、已锁13规范或末M/T/V/frame/位置，不能借R518末成本替代全路径。
 
-R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ和全部费用保[索引](results.md)。R507仅scalar端值返回；R508/509只给secant局部出口/正半像，未付完整词。
+## 5. 不同母库的范围与新的完整history反馈
 
-[R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)同形母一次固定二/三规范的全路径线性方程保真实history；最右真gap给常态bulk严格正t²项，排该同形圆的正长度常态段，不排其它圆。R515在任意合法secant区间给真实p1二次系数Q≥15∫b²/32，排延长区间加非零首阶小扰动取负p1，不排一般有限幅值h。R517以八维尾忠实性证明：同一已付K0的光滑周期scalar模板第二次重复也K0 iff M0；合法实解析整圆的一周期K0可延拓迫M0。未构造此轨道，未付frame/位置/T/V/period/13返回；这些结论只属各自字面同形库，不能移植到下面保YC的新库。
+原R469–509、R512/515/517和全部成本保[索引](results.md)。R507只有scalar端值；R508/509只给secant局部端口。R512字面同形母一次固定规范的完整方程在常态bulk有正t²障碍；R515任何合法secant上p1二次系数Q≥15∫b²/32；R517在同一特殊库中证明光滑周期模板第二次K0 iff M0，合法实解析整圆一周期K0可延拓迫M0。这些不排一般有限幅值/可变母，也未构造周期轨道；不能移植其YC全消前提给R520/521。
 
-[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)新from-start库以4包三矩/8副本完整cubic及16元O(2)正复制的共同0…10矩，将完整含第三history的ruling准确化为sin²θ一式。在预定h,z,e=hz−k均正紧域，kss系数=(16/(3072h⁵))Σ正权∫eF⁴/Q²严格正；固定w=χ=0可显式解kss，hss为自由控制，保真实m/T有限ODE。未给周期/M/frame/位置/T/period；不继承R518另一母库。
+[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本全cubic，16元O(2)正复制共同0…10矩，完整含第三history的ruling准确为sin²θ一式。在预定h,z,e=hz−k均正紧域，原kss积分系数严格正；固定w=χ=0可解kss，hss为自由控制，真实m/T有限ODE全保。该库不继承R518/520的共同cap/20目标/13规范；尚无完整周期、M/T/frame/位置/period。
 
 ## 6. O2后继及当前工作顺序
 

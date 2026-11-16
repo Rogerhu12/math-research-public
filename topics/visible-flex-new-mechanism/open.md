@@ -54,6 +54,12 @@ $
 
 下一未付的是R518这个同一实际控制字的**全路径逐点ruling**及全局几何。R518使用R459的内区可变母库，R512/517是字面同形母库，不能把两库局部收据拼成同圆；已有常态collar/高度脉冲成本可控也不说明K0。继续寻找保完整history的一致非恒实现子类，或者从起点重付全部母/复制接口；同g有限嵌入族、reach与可见幅度仍独立未付。
 
+### R520同一加强母库的常态ruling与真实局部出口
+
+[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点在R459共同cap/四自然约束/原20目标的同一类中加入完整有限C² pure-self/第三外矩观察。三导平方先保second square、第三local和第三history三项再准确抵消；一般source仍留高阶目标。两条新常态Qc/Gc与原20共同独立并有真实正核/有限根，取得Qc=0、Gc=1；所有左尾/Green及非零基准保。
+
+一次固定第三χ使真实A=tAc、T=−t²Ac²/2的整常态段全相位K0，且原second能量严格正由完整YC相抵。在具有真实历史的内部t0，∂ksF=t0≠0，故自由hs与原八矩ODE给同一w=0/χ下平滑非恒离开。它尚非返回桥；末scalar/frame/位置/M/T/V、已锁保护芽13规范和两period须在同一路径继续支付，不允许逐段重选χ。R518实际成本截面不能代替这里未付的完整端点控制；R517自动M0只属YC已消的另一字面同形库。
+
 ### R521新的有限正复制与完整history反馈
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)从起点选择4包三矩、8副本全cubic基本块，再用16个正交旋转/反射及每组11个互异正节点的共同0…10矩，令完整第四ruling准确只剩sin²θ一条。整base双collar保证跨base加法，内部真尾与全部第三history保留。在预定h>0、x+ω>0、e=h(x+ω)−k>0紧域，原kss系数有严格正积分及统一正下界；以固定w=χ=0显式解kss，hss是真实自由控制，原m和完整有限第三状态同步演化。
