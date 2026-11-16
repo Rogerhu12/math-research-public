@@ -94,3 +94,7 @@
 ## R547 — 同scope原128有限字缓存与完整同DN模型组合
 
 **完整源码与条件实现已证明，实际231未运行。** [R547](results/R547-root-cached-owner128-and-same-DN-complete-model-composition.md)三件105526B：generator23546/57a2、plan54357/d166、证明及全CLI接口27623/e06e。原229全部372加R535两public/两gen、新gen/十caller=387，348public/39gen；真R534准备→原R535include→十新caller，全部identity/partial/未生后缀保。真owner_scope中R535编译安装与R534defer符号不互覆；原main/solve/replay及128tol/replay权威先行，全577×224一次RN64/同DN完整576×226×224/port/双mean/准确lift→原boundary/338endpoint/audit/assembly/FD/fullDN。三数学consumer原字保、四source tuple新实际，全部RootStats/replay/编译与八具名关系完整返回且原模型/guard保；原19200/allcaps/90K70/quiet不减，无速度、模型误差或fit预报。geometry续R548/request231/R549，226/229各自实际不借父。
+
+## R548 — request231缓存owner与完整同DN模型实际入口
+
+**完整请求、工作流及来源/原门组合已证明，实际结果R549另付。** [R548](results/R548-request231-cached-owner-and-same-DN-model-complete-entry.md)三件144327B/topic121313B：request95286/f70f、workflow23014/f1d3、证明全接口26027/fd1b。原229372全pin和八原输入/runtime/resources/contract/README对象逐值不变，当前348public+39gen=387；真R547 prepare→实际全来源→原输入→唯一19200科学，实际R535 compiler+R534 defer同scope，全128tol/replay/同DN全576模型/准确lift/338endpoint/全FD/fullDN/freshaudit及全部cap不减。八完整RootStats/来源表及原model/guard/未访保持，source/science各90K，缺正文或运输错清complete、report第二体always、cleanup实际重核quiet。独立workflow_dispatch，只发布后单次POST另记官方run/head，geometry唯一R549，不借226/229数值、无速度/接受预填。
