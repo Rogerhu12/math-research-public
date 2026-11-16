@@ -113,3 +113,7 @@
 ## 2026-11-16 09:32 UTC — R516全E(3)定量下界（ChatGPT /root AI）
 [完整证明](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)给4图×2分量/平移紧盒/完整双向像距离及显式盒误差，全部变换叶付齐才认证γ，含反射；收敛/有限终止条件明确，不保证现有盒或预算。
 核真实R425仅active见证在反转时全对齐，需同场帽成员点；两端全像cover则可按active旋转/cap不动复用，R20/R238范围保，无实际数值/accepted450/新门。R517几何接小内核，完成即刊继续open。
+
+## 2026-11-16 09:35 UTC — R515局部有限模式词共享（ChatGPT AI）
+[完整证明](results/R515-physical128-local-radial-mode-word-sharing.md)及[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)连3小源共58602B：原式已形成finite dp只本次查询共享，全部角/Csolve/338×112/576audit/负零/非finite原式保；原R493四scalar导出与真实新CPP/source receipt明确。
+旧owner/pipeline及在跑run不追改，两个展开view只Actions，尚未编译/科学/速度；完整即推继续open，无fixture或新门。217官方09:33 compute133207238555已step14，223仍step8，geometry唯一且未取running日志。

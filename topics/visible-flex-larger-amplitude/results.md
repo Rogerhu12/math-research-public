@@ -305,3 +305,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R516 — 全E(3)有限覆盖与定量欧氏商距离
 
 **已证明（完整有限覆盖定理）；无实际数值或新科学门。** [全文](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)16623/3f6b5ea3：全像球/真实成员球→双向整面距离下界，四最大四元数坐标图×两个正交分量覆盖含反射全部O(3)，平移外界B=R0+R1+γ，六维闭盒下界L−ηR1−β；全叶支付才得δE≥γ及γ/Dupper。完整证明球误差/网密度/平方根/变换网收紧的条件有限终止，不保证既有C盒或预算。真实R425 active终端转1/4周、caps保持可复用两端覆盖；但原活动见证在反转时两向全对齐，必须补同场真实帽点才可能量出非全等，支撑圆心不冒峰顶。R20上界/R238定性路线仍有效，不把本路线添为完成门；R517/geometry接小内核，尚无accepted450或当前γ。
+
+## R515 — 同次physical128查询的有限径向模式词共享
+
+**已证明（明确局部词等价与实际源码接线）；未编译或科学运行。** [正文](results/R515-physical128-local-radial-mode-word-sharing.md)16739/93d225ae、[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)14713/2693a118，连header5253/959d43bf、adapter13235/22e64c73及plan8662/5950052f五件共58602B。原4b0569 physical_jets的dp不依赖角n，首次原位置原式形成有限Q才每调用缓存，非有限继续原式；负零/subnormal/完整角乘加与顺序/Csolve及全338×112 endpoint/576 independent audit保。实际编译先调用原R493四scalar导出工厂，再include1/cut3/audit1换同类型callee，祖先receipt只准备、实际CPP20048/c036与组件32429/0a7f全字单独绑定、两展开不入Git。旧owner/pipeline仍原固定tuple，未改当前211/215/221/222；后继真实整链须接新来源/必要receipt。没有跨call复用、零j改写、精度/门/原钟变化；不承诺编译器未已有消除或实际速度，也不把C-based物理诊断升为准确导数或fullDN接受。
