@@ -17,3 +17,5 @@
 - [R906](../results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。
 
 - [R903](../results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
+
+- [R909](../results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。

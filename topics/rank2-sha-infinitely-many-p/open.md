@@ -70,6 +70,8 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
+- [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。新公开任务将登记实际run；旧R905继续。
+
 ### 真 RR 与完整消费者
 
 R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。五个实际任务尚无RR PASS：

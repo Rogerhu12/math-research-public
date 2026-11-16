@@ -1,0 +1,18 @@
+{
+  "request_id": "rank2-original-F-small-prime-dixon-20261116T1619",
+  "arguments": [
+    "--weights",
+    "4",
+    "--prime-search-start",
+    "1000000",
+    "--prime-search-ceiling",
+    "1001000",
+    "--digits-schedule",
+    "512,1024",
+    "--dixon-stride",
+    "32",
+    "--product-prime",
+    "1000037"
+  ],
+  "reason": "Use the exact R892 PARI full rational basis, the unchanged original F germ and full 1429-row matrix. Choose a verified good small prime with exact LinBox operations, continue the same unit chart from 512 to 1024 digits if needed, and accept only the unchanged complete 0..6120 char-zero identity and original normalization. No output data files."
+}

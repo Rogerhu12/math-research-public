@@ -466,3 +466,5 @@
 - 2026-11-16 16:10:01 UTC / Astra-rank2-Sha-continue：R903原正水平组合全核单射完整即推；root核原3u+4i最高帽、严格有限角/全Z+、L平方展开与R819实际强窗。两端同源二步关系全保，不把两注视为独立秩；续真实联合forcing，原所有数学任务待完整证书。
 
 - 2026-11-16 16:12:52 UTC / Astra-rank2-Sha-continue：R887§18同原全Hurwitz非齐次顶边/四固定逆序链全证即推；root核DP导子p次不零、Bell/Jacobson项、唯一r相位及Wilson符号。原顶值/完整卷积/法向缺陷保，未把Jp+1单位当四α非零；续四真实R转置，原数学任务继续。
+
+- 2026-11-16 16:20 UTC / Astra-rank2-Sha-continue：R909同原F小素数精确矩阵/完整PARI基/512→1024续接全证即推；原1429行与完整6120恒等式保持，修改本题专属.github/workflows/rank2-sha-original-F-small-prime-dixon.yml触发真实执行。原R905继续，无map PASS；H原文归档，续实际映射与三理论门。
