@@ -813,3 +813,179 @@ $$
 这是 §§7–10 与原全 Hurwitz/Hasse 规范的精确相接。
 它不改变(39)中原 $G,P2$ 的定义，也不消去(41)、(42)的实际初值项。
 本节没有新增数学运行。
+
+
+## 12. 固定 torsion 的全部 addition 常数与原 Mumford 倍率
+
+本节固定先于 $p$ 的非零挠点 $T$，其阶为 $M$，并排除 $p\mid M$
+及固定代数数据的坏集。允许作固定常数扩张以定义全部 $E[M^2]$。
+仍用原 $\omega=dx/(2y)$，故准确的 addition 函数是
+$$
+j_T(P)=\frac{y(P)-y(T)}{x(P)-x(T)},\qquad
+D_Pj_T=-x(P+T)+x(P).
+\tag{49}
+$$
+这里没有额外的二分之一：
+$y=\wp'/2$ 已经包含该因子。
+在泛点 $P=T$，连续值为
+$3x(T)^2/(2y(T))=j_2(T)$，其中 $j_2$ 是(35)的二倍点函数。
+
+同一个(31)的 $\mathscr F_p$ 满足
+$$
+\boxed{
+\mathscr F_p(P+T)-\mathscr F_p(P)-\mathscr F_p(T)
+=(-\rho_pj_T(P))^p.
+}
+\tag{50}
+$$
+先对泛点 $T$ 证明：左边不含 $\mathscr F_p(T)$ 的差被 $D_P$ 杀掉；
+取 $p$ 次根后，极只在 $O,-T$，各简单。
+其主系数与 $-\rho_pj_T$ 完全相同。
+因此两者相差常数。
+在 $P=T$ 以(36)的 $\alpha=2$ 定该常数，
+正好给(50)。所得是有理 addition 恒等式，
+故延拓到所有 $T\ne O$ 的适用纤维，特别包含非零二挠点。
+没有把各点的常数分别自由归一。
+
+定义一个先于 $p$ 固定的代数常数
+$$
+\lambda_T=-\frac1M\sum_{k=0}^{M-1}j_T(P+kT).
+\tag{51}
+$$
+在特征零，(49)使该和的导数望远镜为零，故与 $P$ 无关；
+因为全部项是固定代数曲线上的有理函数，所得常数是代数的。
+其约化仍是原完整有限和。
+将(50)沿整个 $M$ 周期求和，准确得到
+$$
+\boxed{\mathscr F_p(T)=(-\rho_p\lambda_T)^p.}
+\tag{52}
+$$
+这里 $M^p=M$ 只在最后的特征 $p$ 运算使用。
+没有假定 $\lambda_T^p=\lambda_T$，也没有假定 $T$ 在 $\mathbf F_p$ 上。
+
+于是原 $Z$ 的完整平移为
+$$
+\boxed{
+\begin{aligned}
+Z(P+T)-Z(P)&=h_{T,p}(P)^p,\\
+h_{T,p}(P)
+&=-\rho_p\bigl(j_T(P)+\lambda_T+r(P+T)-r(P)\bigr).
+\end{aligned}}
+\tag{53}
+$$
+$h_{T,p}/\rho_p$ 是固定有理函数。
+其极只可能在 $\mathcal D_2\cup(\mathcal D_2-T)$，各至多简单；
+$j_T$ 在 $O,-T$ 的极与 $r(P+T)-r(P)$ 的相应极完整抵消，
+除非该点本就在所示二挠极集合内。
+
+若 $T\notin\mathcal D_2\cup\{O\}$，(52)还给准确原点值
+$$
+Z(T)=\bigl(-\rho_p(\lambda_T+r(T))\bigr)^p.
+\tag{54}
+$$
+二挠点的 $Z(T)$ 不定义，不能在(54)代入；
+它们的 $\mathscr F_p(T)=0$ 和 $\lambda_T=0$ 则均合法。
+
+为核对符号和 $T,-T$：
+$$
+\lambda_{-T}=-\lambda_T,\quad
+j_{-T}(P+T)=-j_T(P),\quad
+h_{-T,p}(P+T)=-h_{T,p}(P).
+\tag{55}
+$$
+第一式由(51)在特征零重排，或由(49)的奇性得到；
+其余逐项代入(53)。更一般的平移复合式
+$h_{T+U,p}=h_{T,p}\circ t_U+h_{U,p}$
+只在同一个原 $Z$ 上取唯一 $p$ 次根，因而没有附加自由常数。
+
+### 12.1 固定 cover 上的绝对 multiplier
+
+用复 uniformization 只为识别原绝对规范。
+写 $T=t\bmod\Lambda$、$Mt=\ell\in\Lambda$，令
+$\pi=[M]$，cover 上的变量为 $w$。
+在这一固定 cover 上取
+$$
+q_T(w)=
+e^{-\eta_\ell w}
+\frac{\sigma(Mw+t)}{\sigma(Mw)\sigma(t)}.
+\tag{56}
+$$
+其全部周期倍率为
+$e^{\eta_{\ell'}\ell-\eta_\ell\ell'}=1$；
+分子分母 sigma 的符号同时抵消。
+更换 $t$ 的格代表时，新增指数也准确抵消，故(56)不依赖该选择。
+
+$q_T$ 的除子是
+$\pi^*(-T)-\pi^*(O)$，在 $w=0$ 的首项准确为 $1/(Mw)$。
+因此它是由这个代数除子和首项唯一确定的代数有理函数，
+定义于固定 $E[M^2]$ 域。这个论证保留了原 Mumford 相位，
+没有只保其对数导数后再选一个不同常数。
+此外(51)的绝对解析值是
+$\lambda_T=\zeta(t)-\eta_\ell/M$，所以
+$$
+D_w\log q_T
+=M\bigl(j_T+\lambda_T\bigr)\circ\pi.
+\tag{57}
+$$
+
+## 13. 同固定 cover 上必须保留的 G/P2 平移初值
+
+记 $\pi_0=[M]$、$\pi_T=[M]+T$，
+$Z_i=Z\circ\pi_i$、$G_i=G\circ\pi_i$、
+$H_i=H\circ\pi_i$、$P_i=\mathcal P_2\circ\pi_i$，
+其中 $i=0,T$。
+令 $h=h_{T,p}\circ\pi_0$。全部是原指定函数的拉回，且
+$Z_T-Z_0=h^p$、$D_wZ_i=M$。
+定义
+$$
+\mathcal J_{T,p}=M(G_T-G_0)-D_w\log q_T,\qquad
+Q_{T,p}=q_T^2P_0,\qquad
+\Xi_{T,p}=P_T-Q_{T,p}.
+\tag{58}
+$$
+由(49)、(57)和原 $DG$ 式，准确有
+$$
+D_w\mathcal J_{T,p}
+=M^2c_p\{(Z_0+h^p)^{p-1}-Z_0^{p-1}\}.
+$$
+因此
+$$
+\boxed{
+\mathcal J_{T,p}
+=-Mc_p\sum_{j=1}^{p-1}\frac{(-1)^j}{j}
+h^{pj}Z_0^{p-j}
++\kappa_{T,p}^{\,p}.
+}
+\tag{59}
+$$
+$\kappa_{T,p}^p$ 仍定义为(58)的原函数减去显示和。
+(53)已经确定整个 $h$，但不能据此删掉这一指定水平项。
+
+同一 $P2$ 的完整方程为
+$$
+\boxed{
+\begin{aligned}
+&(D_w-2MG_T)\Xi_{T,p}\\
+&=2M H_T^p(Z_0+h^p)^{p+1}
+ +2\mathcal J_{T,p}Q_{T,p}
+ -2Mq_T^2H_0^pZ_0^{p+1}.
+\end{aligned}}
+\tag{60}
+$$
+这由对(58)的整个 $q_T^2P_0$ 作乘积微分直接得到。
+特别当 $T$ 不是二挠点时，$Q_{T,p}$ 在 cover 原点的值为一，
+而 $P_T$ 的值是原实际 $\mathcal P_2(T)$：
+$$
+\Xi_{T,p}(0)=\mathcal P_2(T)-1.
+\tag{61}
+$$
+(52)、(54)没有将此值变成零。
+若 $T$ 为非零二挠点，则 $P_T$ 在该点有原极，
+不能套用(61)。
+
+本节完成的是固定 torsion 的整个 $Z$ cocycle 和绝对 multiplier，
+以及它们对原 $G/P2$ 的准确缺陷式。
+四个原 $\alpha_\nu$ 与(30)的低配对保持原样。
+后续需要使用的是(58)–(61)及原有限 $p$ 基初始资料，
+不能由固定 torsion 常数已显式就断言四个指定读数非零。
+本增补没有数学执行或素数扫描。

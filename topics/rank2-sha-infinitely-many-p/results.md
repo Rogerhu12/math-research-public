@@ -272,3 +272,6 @@
 
 
 - [R886附录A](results/R886-original-highest-cm-auxiliary-units-and-base-preserving-normalization.md)：原γ=τ17使三个输入全部四角色为−1，γ辅助素数的最高P0(1)≡2、extra Q(1)≡8均为unit。已付全split有限tame可真实扩大到L1∪Uγ，原同格/统一分母/n1=原AJ不变；l分裂此前K[nq]时，两角都由同一P0(1)真unit norm返回。尚须付anti-Kummer分解群选择及完整paired finite–singular，未预用Selmer结论。
+
+
+- [R887 §§12–13](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：固定M⊥p挠点的原addition恒等式与完整M周期付λT=−ΣjT/M，Fp(T)=(−ρλT)^p，故全Z平移hT=−ρ(jT+λT+r∘tT−r)。fixed[M] cover上的绝对Mumford乘子首项1/(Mw)，准周期/代表更换/全部极及T、−T规范齐。同G/P2的J、κ、Ξ全部ODE与ΞT(0)=P2(T)−1保，四中央未增零。

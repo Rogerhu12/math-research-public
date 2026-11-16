@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：9d33799f1ef08f16829ef35b2e9ce3c403f5b8d8；2026-11-16 14:05:27 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：f7d56b2da6e2c85f059f37277ad3026c31bb6667；2026-11-16 14:09:38 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -45,7 +45,7 @@ R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 H
 R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
 
 R884附C–I的原U全部2/δ迹、C9/D9/N/P72°/R24/H18/P16及原四中央三联式详见正文与上方完整H；两固定Fraction运行均成功，未给任何trace赋中央零。H已把BQ48/BW0全化严格低配对，I第二δ返回−P16/(26208b)，质量1且2-new；D16=−16DR3/3+全低L16。原chat=(p+1)cint、Γ16/Fermat项、全部new/cross/原Unew144保。
-新[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρp r^p=xyP_(s−1)(X)，ρp cp=1且Fp=−cp⁻¹D^(p−2)x，全部有限多项式保。任固定CM α的hα=−ρp(α⁻¹Dlogqα+r∘α−barα r)，绝对qα/半特征/所有极与复合齐。原P2的Ξα与实际kα,p、完整ODE仍保；δ核首−3x²/4不可删。全四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM按§10独立充分大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍须联合非零，theta续同原初值。
+新[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρp r^p=xyP_(s−1)(X)，ρp cp=1且Fp=−cp⁻¹D^(p−2)x，全部有限多项式保。任固定CM α的hα=−ρp(α⁻¹Dlogqα+r∘α−barα r)，绝对qα/半特征/所有极与复合齐。P2的Ξα/原kα,p全ODE保，δ核首−3x²/4。§12–13付fixed torsion的全hT与Mumford绝对倍率；ΞT(0)=P2(T)−1仍保。全四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM按§10独立充分大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍须联合非零，theta续同原初值。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
