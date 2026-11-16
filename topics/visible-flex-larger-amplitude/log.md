@@ -41,3 +41,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:13 UTC /root — R564准确完整首乘积及真实编译接口
 
 [R564](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B独立完整刊，完整113×53/余数/最近偶数保三处首RN128字，所有资格外原乘法；快捷不执行原第一Q指令、不冒fenv flags同，原R561第二选择器/累加/方向/全部门/caps保。3×17计数/full last与旧统计/16deps/原scope一次安装齐，无速度/接受结论；R565/237下一独立入口。235[官方](notes/2026-11-16-request235-official-run-binding.md)唯一POST200/run43883302810/head63a1/compute133354643341、R560 exact唯一，H/open/索引同步。
+
+## 2026-11-16 14:20 UTC /root — R565完整237真实首乘积入口
+
+[R565](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)五件266169B/topic242214B独立完整刊；原417/八对象+lanes保→432，十caller直接R564、旧祖先source-only及三R534消费者不变，3×17/full last和旧统计/原overflow70两reader全保。实际所有门/19200及分cap/90K不改，不声称速度/已接受；正式刊后唯一POST237、R566 amplitude唯一。H/open/索引同步，open§4–6原字，容量逐笔。

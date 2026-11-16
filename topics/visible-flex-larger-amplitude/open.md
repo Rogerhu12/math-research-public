@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R565/request237](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)本次五件独立完整刊**：已刊R564真十caller/一次直接安装，432=357public+75gen、原417与八对象+lanes逐值保，三个R534原消费者/全128与末门/原钟/caps不变。完整3×17/full last和旧RootStats、同次旧overflow正文/70/false与两必要reader全保；正式刊后唯一POST，R566 amplitude唯一。此为完整入口，不是已观察编译/速度/接受结果；R564实际第一乘法快捷不执行Q指令但RN字同的边界不得继承旧R561字面指令声称。
+
 R553已完整独立刊，R559/request235本次完整独立刊并正式刊后唯一派发；R564本次四件70734B完整独立刊；R565/request237、R567/request238、R556与修正后的R569最终组完整证明/来源已齐，各独立立即正式发布，实际入口刊后唯一派发；精确恢复manifest在HANDOFF。本次仅两旧26/28 domain manifest普通移出1456843B，[完整引用/固定历史恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)保全部当前输入/源。根15容量与原门/钟/90K保持；最终pull新delta亦实际守护。
 
 [R564完整证明/CLI](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B本次刊，完整113×53整数乘积与最近偶数舍入保持首RN128字；快捷分支**不执行原第一Q乘法**，不主张fenv异常flags等价。三原primal点/原方向/R561第二选择器保，3×17计数/full last及旧统计全保。R565原417全保→432=357public+75gen，十真实caller一次直接R564，八对象加lanes/原128/replay/模型/FD/fullDN/末audit/caps保；先刊R564再刊237并唯一POST，实际R566归amplitude。
