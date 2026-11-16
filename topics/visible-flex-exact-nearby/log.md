@@ -340,3 +340,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 06:11:43 UTC — phase24 nonlinear单报告按已推白名单清理
 
 080b9157白名单先推，随后fresh main/path guard核d6d72745/414823B，只普通删该派生JSON；完整恢复9fccddef、原note/manifest/linear报告/source与NPZ旧恢复链全保。新数学0/旧重跑0，两README080b91575ef8132122a82403ff35f5306950a48a不变，继续未闭源/端点/有限门。
+
+## 2026-11-16 06:12:35 UTC — WCF系数有限因子与同graph剩余式
+
+全读23257B稿及NIF10/10a/18a真sign/反射commutation、WGB10–14 reference扩张，核Ph新ell2正号/旧ρi/原右逆/五旧输入/双窗type与全部高低cross；原两rank、2431/1119载体均不冒physical96。新D∞/ell2只给直接recipe，旧数0重算；两READMEeda684bd58f08a353914756a0bc0f4573e60415a同原blob。

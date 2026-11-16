@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WCF：精确系数有限因子与剩余graph误差](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)：FJ与两rank及ρi/ell2完整列行分出，剩余两two-I按原序给新直接正费；2431/1119仅aux载体，同WFR/WGB的Θ/真实96列/ν/全cross不变。452ee9e4，无新数/有限逆声称。
+
 - [WSP：同positive cutoff的非对称Schur与Parseval完整界](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)：变化symbol的ROW只用pointwise，固定input COLUMN用Parseval，完整两和sqrt(RC)及原物理两row/receiver给新whole候选；读已成PCRA无需旧重算。80d28207，新数未算。
 
 - [PCRA：实际完整positive与反射系数界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)：唯一43812987299/1成功，22门/7graph/SCI e2cb2aac；同Rplus选1.0395639775…e30，同Dalg投影选2.1334995458…e10。完整原42+3/5scope与两candidate保，数学锁；whole负源/端点/高门/finite未闭。f2b1e603。

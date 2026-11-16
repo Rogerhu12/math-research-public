@@ -60,6 +60,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
 
+[WCF精确系数有限因子](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)452ee9e4：同Dalg保完整FJ、两primitive ranks、原−(h−1)ρi及新+(h−1)ell2；仅其余两twoI组成D∞，直接正费无Ph，不减wholeupper。安全2431/实际反射可1119只是aux维数；与WFR接同WGB high/finite全部cross、Θ/真96列/ν/无限head，实际entries及passinggate仍待。
+
 [WPC完整新cut](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c与[WCE同Dalg](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b的完整预执行说明保05b386115aa5ba1d63caf008ee8890977b6f288b同open。原trial/χ/两row/mean/TF after-right/twoI/同Js与selected范围全保。
 
 [PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)f2b1e603：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
