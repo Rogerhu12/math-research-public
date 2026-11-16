@@ -154,3 +154,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 原finite tame系统已完整付：同C02 n1=原AJ，全split四因子/显式二次误差修正/统一分母/全balanced齐；R886受限最高线性norm现在真实存在。继续允许split-σ集合的定理门、原底类非零及ordinary loc，DR tame/wild相容仍独立继续。
+
+
+- 新Do双二次CM预稿已亲核：正文Theorem6.8.5及证明仍要求指定底类非挠，导言D省略该前提；不能拿摘要闭本题原AJ/ordinary loc或无穷p。原文核验见[完整短注](notes/2026-11-16-selfdual-hecke-preprint-rank-two-hypothesis-check.md)。
