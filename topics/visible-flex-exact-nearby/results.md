@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WECA：实际完整腰误差、四端点和精确有限因子后的完整界](results/R133-supplement-actual-complete-global-genuine-waist-error-and-all-endpoints.md)：公开43831678361/1成功，9门/3整图只补13+8+9=30新量；此前39条部分记录和6条原输入复制逐字保持，全26图1684槽锁。全部7件、58完整输入收据、所有shape/binding、admission原字及report/exec两preGit完整独核。same whole与reduced界均约4.3424e341224436，保全部原finite/mean/parameter/cross；它是完整保守上界，不是实际误差下界，不授high小量门、finite逆或最终族。
+
 - 仅余30记录的公开新 workflow 已提交一次触发；先执行独立 AST 与全部旧记录纯 JSON 验收，再允许唯一科学 child。原43827705714失败记录保持原样；本次实际运行状态及完整输出尚待读取。
 
 - [仅余30记录的完整输入合同](notes/2026-11-16-R133-WEJ-remaining-current-inputs.json)已冻结：58份完整当前文本1480349B、3 AST、53原输入绑定/2新模块、0history。新 driver/worker 在原23图和39前缀全部原字验收后，只调用13/8/9新记录；原12receipt、212门/280字段、两原copy、旧绑定与失败状态完整保留。完整成功/每种失败前缀独立预算193256/最多208616B；所有值先保存及完整打印再做格式门。尚未触发新科学。
