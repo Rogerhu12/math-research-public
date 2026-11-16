@@ -1,8 +1,8 @@
 # 未解决的问题
 
-**[完整两轮呈示的24条新均值来源实际完成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)。** 独立v2保原106父来源，24新十坐标/十八来源全乘回；根未导入producer，独核240/432递推和全部24原多项式产品，同权9、Bell来源0。真实向量901884项/来源278113项；v1统计序列化失败与新列0如实保留。80条交换子像仍由独立final继续，不预填完整210实际生产。
+**[原十八来源与完整200列的加权过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)已闭。** 固定有序 $\pi(f)=f(N)e_0$ 保权且仅在商中可交换；完整齐次核给 $\Gamma\cap F_{\le K}=\sum B_{\le K-\nu_j}\gamma_j$，与同权原源回填双向无损。因此原十八方程中，非零规范 $q$ 组合没有加权来源权 $\le10$ 的表示，$\delta_{14}$ 没有 $\le9$ 的表示。权是 $y:1,w/u:2$，不改称普通次数或特征零界；更高来源仍开放。
 
-**[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
+**[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。原十八加权来源界现由独立过滤等价补齐，仍不升特征零。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
 
 **[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
 
@@ -14,7 +14,7 @@
 
 **原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；[完整权8前沿](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)实际17674×1386秩1312，保26个NiC、74全核，根原子式det4及全核独核。来源≤8维3425→3451；只在声明有界空间内独立。旧D换源与七δ RHS有限空间负已闭；全局50候选600秒未返完整candidate，不空续。[δ14稀疏10×56实际600秒边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)已核：run43883188532的全部原门/560 SSI完成，但candidate583.183秒仅START、整体exit75，完整前缀null→null即停，无source/remainder；其七个只读RHS现已完成，全部有限空间余式非零。单图更高δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
 
-完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-nonbell200-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
+完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-original-source-filtration-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
 
 ## 主目标与完成标准
 

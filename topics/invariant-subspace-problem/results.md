@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[原十八来源与完整200列的加权过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)已闭。** 固定有序 $\pi(f)=f(N)e_0$ 保权且仅在商中可交换；完整齐次核给 $\Gamma\cap F_{\le K}=\sum B_{\le K-\nu_j}\gamma_j$，与同权原源回填双向无损。因此原十八方程中，非零规范 $q$ 组合没有加权来源权 $\le10$ 的表示，$\delta_{14}$ 没有 $\le9$ 的表示。权是 $y:1,w/u:2$，不改称普通次数或特征零界；更高来源仍开放。
 - **[完整两轮呈示的24条新均值来源实际完成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)。** 独立v2保原106父来源，24新十坐标/十八来源全乘回；根未导入producer，独核240/432递推和全部24原多项式产品，同权9、Bell来源0。真实向量901884项/来源278113项；v1统计序列化失败与新列0如实保留。80条交换子像仍由独立final继续，不预填完整210实际生产。
 - **[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
 - **[四规范q完整权8非成员、四维商独立与增广秩1316](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)**：原规范化全32+168/八poly门；qb²四余非零且系数全0，根独构70696坐标及1312原unit坐标零。det8的q系数块与原unit det4给模G8独立，增广17674×1390恰1316，无新消元；不扩到高来源、全理想或E。
