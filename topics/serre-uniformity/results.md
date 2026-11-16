@@ -307,3 +307,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R893实际执行入口（非结果）**：**R893初始RR执行已激活**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。所有新数学仅公开Actions，真实run/阶段据回执登记；未预判任何核成功。
 
 - **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。 SHA256 9155d9043a3dc015ff6807d143d22f03a4d6e9d97b19da771686cd3e877660bf。
+
+- **R890原Ef有界代表与固定t首项实际已成**：[认证](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)，八个完整962/146/418与原未缩放q/F全成。Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902、阶−1205；t正乘c^1205。56旧源/9228stage、run43853462674；R894复用D2/E而只新16节点，R896按共同节点复用7正常评价，不推其他六Ef或五Lj/height。 SHA256 cbbc5192c1f950482619cced1a8ac26f22510f01c6f463016009c9ca1cb5d423。
