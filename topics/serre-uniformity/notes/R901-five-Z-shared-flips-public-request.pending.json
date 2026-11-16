@@ -1,0 +1,378 @@
+{
+  "schema": "R901-fixed-original-five-Z-public-source-contract-v1",
+  "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+  "p": 41,
+  "producer_inputs_pending": true,
+  "session": "serre-public-astra-20261115",
+  "core": "R901_original_five_Z_shared_bounded_flips.py",
+  "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+  "wrapper": "R901_public_original_five_Z_shared_bounded_flips.py",
+  "wrapper_sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+  "workflow": ".github/workflows/serre-R901-five-Z-shared-flips.yml",
+  "legacy_core": "R890_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+  "compact_core": "R894_original_seven_conjugate_pole_trace.py",
+  "compact_core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+  "legacy_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R901-original-five-Z-shared-flip-execution-method.md",
+  "method_sha256": "d5a5c611fef2a5c9dc465fd5b9baac85505828d9bd7f3fbd62ad0f52f0620124",
+  "fixed_plan": "notes/R901-original-five-Z-shared-flip-source-plan.pending.json",
+  "fixed_plan_sha256": "7d5300ec14bf83119768d6f41d44e940e5e073348d765538f154f51ddf69431a",
+  "proofs": {
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R890_method": {
+      "path": "notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R896": {
+      "path": "results/R896-original-two-denominator-low-weight-residual-RR-kernels.md",
+      "sha256": "ca0d8891a04683f712c1fe347f1da3e707854aa889163c7c3207ec8656b70341"
+    },
+    "R900": {
+      "path": "results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md",
+      "sha256": "af61b2f016d8280f6abcb23988e6d71aaeb3ffffc7575e3ff08d22ee805d1dcb"
+    },
+    "R901": {
+      "path": "results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md",
+      "sha256": "83a18d8a4236567bbd3b0f76920f37de1ded1085b33bf4275507c039922125f2"
+    }
+  },
+  "source_artifacts": {
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    },
+    "R896": {
+      "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
+      "run_id": "43872960726",
+      "source_commit": "259e2448c7c51131fecc231ee55f7d457397dde8",
+      "core_sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
+      "artifact_id": 14228364447,
+      "artifact_name": "serre-global-R896-five-sum-Hom-low-weight-RR-43872960726-1",
+      "archive_bytes": 525499323,
+      "archive_sha256": "09709b33882b32bab65b1ff855e7cd246561cac8ba344251bcab26e3067634bd",
+      "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "558ad67f7b05662d7692060dcd7ea0742329c3fc85271a4be1e2b4155b2e9129",
+      "configuration_sha256": "0f52c636cacceaef9db290f15a492b05db188228680ae84997bb89d2d06d8782",
+      "manifest_bytes": 91794,
+      "certificate": {
+        "file": "p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json",
+        "bytes": 15429,
+        "sha256": "66218771f4b0f8d7822282839ca94bcb34049fc3d867248ae4eddf6348fdb24c"
+      }
+    },
+    "R900": null,
+    "R902": null
+  },
+  "prepared_transport": {
+    "R890": {
+      "archive": {
+        "run_id": "43860838780",
+        "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+        "artifact_id": 14222928598,
+        "artifact_name": "serre-required-original-source-intake-43860838780-1",
+        "archive_bytes": 31320925,
+        "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T11:48:03Z"
+      },
+      "package": {
+        "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 30951546,
+        "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+      }
+    },
+    "R896": null,
+    "R900": null,
+    "R902": null
+  },
+  "R890_original_carrier": {
+    "source_inventory": {
+      "bytes": 26817,
+      "file": "R890-original-source-inventory.json",
+      "sha256": "f96cf226055895758f48e1d48d8b4a87c1a7bad68951b29d6df7d0ecd41100da"
+    },
+    "retained_inputs_receipt": {
+      "file": "R890-retained-inputs-receipt.json",
+      "bytes": 3976,
+      "sha256": "95086c49ca01a156dd14f077b65fcda0d49fb4d6fb90245da81433f0ebfffda1"
+    },
+    "package": {
+      "bytes": 21816968,
+      "file": "R890-retained-original-inputs.tar.gz",
+      "sha256": "16446595a648183151560d6060350c8b692e727fb4a3acbd719e68a87b2562d3"
+    },
+    "selected_original_member_count": 56
+  },
+  "future_input_slots": {
+    "R900": null,
+    "R896_original_orbits": [
+      {
+        "j": 1,
+        "original_Hom_word": "1+T^1",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6671,
+              "file": "R896-j1-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "86c051f4d7a1af96e90f4dbe5a2ebbbc9dc2be8617822587c728692fbb5ac2f2",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 590190,
+              "file": "R896-j1-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "b2609005ce42de2b4b66bf804565b10d9123c66f5bc2e085f4c7254f6c9bf2c2",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7336,
+              "file": "R896-j1-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "fb69ccce5d2a4eb4b09bf0ff79d7d3cad69cc45ab1ee710df45e77fb0e40b1b2",
+              "source_group": "R896"
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "j": 2,
+        "original_Hom_word": "1+T^2",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6647,
+              "file": "R896-j2-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "41d62ab6086e2d12fb6af7bce86f9aaad81a925128979c9ddda31ece476b7caf",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589663,
+              "file": "R896-j2-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "993f41214df6ed5a649e6e5136941417552f7e2d3958faa339f9d23086a1bb6e",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7330,
+              "file": "R896-j2-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "36df5c3f5fff2042c67b7f84110e36422a3d4f5148ec1e8626f0870de65189f7",
+              "source_group": "R896"
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "j": 3,
+        "original_Hom_word": "1+T^3",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6632,
+              "file": "R896-j3-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "e08cca3ab6c30c647ffdc69bb8e916c72b94b97e44001125c55ff6bb2d3ce30f",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589767,
+              "file": "R896-j3-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "feebd0bd413075fc74c6cecd362ca120e6d148ebea2f20cd71afa0225b115aa6",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7318,
+              "file": "R896-j3-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "38631f4072d97f77365bdd7c2ed1dd818fd1ef453ac01a69f6342ddb4e250720",
+              "source_group": "R896"
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "j": 4,
+        "original_Hom_word": "1+T^4",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6664,
+              "file": "R896-j4-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "96f6b100ede5880bcefdbeec080269fc1e01ff314693d3efeb5c509d08271393",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589801,
+              "file": "R896-j4-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "b64019b921d88d07fa35bfd9d195573aa343e2d5cbc98010f1027b4909a7c0d5",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7341,
+              "file": "R896-j4-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "2485696058fe3b758e55c01a84d5504b1eebcc7b2a90f732b2a732066705145c",
+              "source_group": "R896"
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "j": 5,
+        "original_Hom_word": "1+T^5",
+        "conjugate_sources": [
+          {
+            "sigma_power": 0,
+            "original_branch": 0,
+            "complete": {
+              "bytes": 6665,
+              "file": "R896-j5-complete-low-weight-RR-certificate.json.gz",
+              "sha256": "7abcdd1593f95e0375b6814560f382e8627d839947d7c616889f3199b3f08345",
+              "source_group": "R896"
+            },
+            "space": {
+              "bytes": 589995,
+              "file": "R896-j5-bounded-pencil-trial-000001-complete-normal418-space.json.gz",
+              "sha256": "e35804c8d07ca8df771aee35710ba19cbbc87f00b7c069c4f318eb01edc4a46e",
+              "source_group": "R896"
+            },
+            "principal": {
+              "bytes": 7344,
+              "file": "R896-j5-original-bounded-divisor-and-marked-principal-Q.json.gz",
+              "sha256": "b8d979169aa5c593a170f0ccf36658626541d5e7059ce9b39040db9e9912570b",
+              "source_group": "R896"
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "budget_minutes": 300,
+  "maximum_product_anchors": 418,
+  "maximum_pencil_trials": 4,
+  "maximum_new_flips": 126,
+  "minimum_free_disk_bytes": 805306368,
+  "resume": null,
+  "rules_last_read_commit": "fbfccc056bf0680827b008fe6a83705fdc96b528",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "source_selection": {
+    "original_source_groups": [
+      "R827",
+      "R872",
+      "R883",
+      "R890",
+      "R896",
+      "R900",
+      "R902"
+    ],
+    "original_R890_carrier": "hash all 56 original files, retain the three needed old groups without nesting the source package again",
+    "original_chi_flips": "D2/E complete certificates, complete normal418 spaces, unscaled q anchors and unchanged accumulated principal functions",
+    "original_fibres": "seven actual R890 normal/cyclic V3 arrays plus fourteen old H/E space fibre arrays; only Range for absent original bytes",
+    "R896": "all five complete_direction_certificates with complete_normal418_space, marked_principal_Q and local original unscaled function-definition leaves",
+    "R902": "all thirty complete_direction_conjugate_certificates[j][k], plus original_sigma0_direction_certificates agreeing with R896 and explicit strict original selection contract",
+    "R900": "actual complete_K_defined_degree272_certificate and marked_original_principal_QK, full principal DAG and local unscaled function-definition leaves",
+    "all_future_producer_and_stage_pins_must_be_actual": true,
+    "old_stage_tags_or_source_commit_relabelled": false
+  },
+  "mathematical_scope": {
+    "fixed_handwritten_new_flips": 126,
+    "already_completed_reused_flips": 2,
+    "actual_new_flips_completed": 0,
+    "original_I_Z_not_real_descent_cube": true,
+    "new_terminal_divisors_not_claimed_K_defined": true,
+    "all_later_K_evaluation_denominators_require_actual_whole_Artin_units": true,
+    "original_rho_orders": [
+      -686,
+      -182,
+      -231,
+      -707,
+      -1659
+    ],
+    "positive_t_scaling_powers": [
+      686,
+      182,
+      231,
+      707,
+      1659
+    ],
+    "Hecke_norm_RR128_144_connection_or_height_requested": false
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "old_W_Krylov_jets_spaces_and_R890_D2_E_recomputed": false,
+  "completed_work_compacted_only_after_complete_live_witness_closure": true
+}
