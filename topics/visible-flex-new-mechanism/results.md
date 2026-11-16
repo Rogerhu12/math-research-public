@@ -433,3 +433,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R420：W4完整自然零、负四静态字符余量消失。** [完整证明与首次实际](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)：run43784526298/job133029071528/sourcece04a915bf8d57d6b233aa329e602c6156ef7095，唯一新Ω的真实左word/local/nonlocal全空，旧研究0重跑；科学1.370958935s/RSS94920KiB/36源全符。R417遂给ΛV4(k)=3(1+k²)^3F_Q4/32，所余下降正字符a1=a(k)=μ=0；原报告false字段不改，Q2/actual joint仍欠。
 
 - **末槽支持合同与不同的有限锥接口。** [原最后slot](notes/terminal-paid-attainer-final-slot-design-20261116.md)和新core24723B/dev9528B已写，尚无执行/通过声明，原63/58/257.595同账及64/160/1800不变。[有限锥原式证明](notes/finite-cone-affine-metric-design-20261116.md)给每行φ≤target+ρ iff (2(target+ρ)−σe,e,2f,ε)∈L4，准确支付该行全部单位球支持，保完整oracle和实际原门；先完成末slot再选择新算法，未选求解器/未增预算。
+
+- **R421：负六完整kk全曲率自然身份及该共同正字符全消。** [证明](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)给ΛVkk,−6(k)=S²(5∫p r⁴−3∫x r⁵)/640；先付原τ3全outer自然0，真正Y使D2=−P/32h²，30720四行/19T self及两真实尾准确消。共同M5零偶母及有序查询全0，结合R416/R419排同一增强商的非零−6字符。非原Q2算子全零；−4速度和actual joint仍欠，无新执行。

@@ -507,3 +507,9 @@ Astra-new-mechanism-9974ea84：[设计](notes/static-minus4-natural-flux-design-
 root已读末槽设计12857B、core24723B/dev9528B全源；发布这些新源和合同但不触发工作流。3组4/3/4共11新分支仅待首次公开Actions，旧九组与旧研究不重。当前恢复constructor/transfer/显式recovery/audit仍在落实，特别保pending0、原模型binding、完整池/有序bank与已经收费的63LP/58value/257.595331213秒。
 
 另完成纸面notes/finite-cone-affine-metric-design-20261116.md，9219B/SHAd9c20ce56c32952bee9d2b5b9ae235b33259ed0ec6b6133a1e92e23d7cfa5097：原谱函数与有限4维Lorentz锥精确等价，完整同一行范数约束强于有限支持且不保证新物理改善。原线性约束、bank、曲率guard、完整两网oracle及实际14门不删；明确未来入口取末slot真实结局、旧未知向量不伪造、全费用保留、solver原语独立计数。该设计无数值/人工执行或求解器选型，不授额外64次旧LP，不替当前slot，也不作连续存在声明。
+
+## 2026-11-16 01:25:19 UTC：R421全曲率kk闭合并立即推送
+
+全文读results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md（16896B/SHAb25fcb099e62fddc3f085bdbb58938fe7b84990689d18255300c46bceb2283ff）。root另外从R417原六映射手核无1/x全outer(8)及对角(10)，核完整τ3 pure/Γ的±T/120、真正D2和E2三幂、7a+½center的30720后三行、19T/3072及ZZ二倍有序因子。所有原N0/N2、右锚、history/水平项保持，未执行研究或机械复核。
+
+R421给ΛVkk,−6(k)=S²ΛVkk,−6(0)，新top natural0；同共同母的偶/M5零与局部五次性使全self/ordered查询0，同权E响应消去后b0全k0。连同R416静态/R419hh与PSD cross，非零−6正字符已排。下一−4 hh两锚结构与kk完整原势；原静态自然仍可非0，actual全joint/全period/13同一规范未付。HANDOFF去旧链接重复但原证明均保results索引，无历史删除。

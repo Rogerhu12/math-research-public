@@ -187,8 +187,9 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
 
-[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)付−6 kk在k=ω0的自然−3B_Q4/64，共同偶M5零母的全affine self/不交3+2为0；[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)付−6 hh的h^-8自然全k0，PSD迫hh/cross全k0。负六只余b0(k)≥0、b0(0)=0的全k kk；负四仍须完整2×2 PSD。不得单锚外推或删原势、水平微分、history、真实左右尾。全部actual joint、内部flux/全period及13同一k仍欠。
+[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
+
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
 
-[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负六全k kk及负四完整二速度。
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负四完整二速度。
