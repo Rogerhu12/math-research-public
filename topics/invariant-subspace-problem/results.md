@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **原共同模完整系数扭子长35。** [全部系数扭子与整模结构](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)以独立中心一G/V及两位原进位补出 $S_1=R/(31,s-1)$，合根二得 $S\simeq_D D/p\oplus(D/p^2)^7\oplus D/p^4\oplus(D/p^5)^2\oplus D/p^6$，长35/dD12/dR8；$M\simeq_D D^{25}\oplus S$，dD37/dR8。11实际阶段及全部37输出、315坐标、自由条件与原整数乘回均核，另以整数gcd独审；原参数扩张仍保留。
+
 - **完整九目标field25。** [25维及最小h*](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)付全7245/7475/2691原乘回和双包含；九cyclic各23、joint25/χ=s²mon(h*)、h*/h0像均零。仅F127成员，未升Q或p²；25图不能当有理图。
 - **真正的127系数正证。** [原globalZ/完整p²乘回/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)核1834 Z，首node26969742/原3463反传6188支持4324，并新核4367原产品读40。I1占满simple s+64，barΔ|χ299/(s+64)、barμ|F+²F−²E8。925非零端点不是925维；raw12445/2a7dd4da、bindingc62fcba9。root全300/22系数独立乘回，χ'(63)=79。
 - **critical完整受限切片。** [135坐标](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)与[270坐标tangent2](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域实际高维均2且相等，leading13/gain0；全6188各阶乘回真，原局部仍6…8/6…8/4…5。只这些支撑配指定低jet无增，不排更高normal或完整连接。
