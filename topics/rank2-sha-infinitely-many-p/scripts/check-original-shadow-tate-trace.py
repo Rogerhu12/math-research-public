@@ -4,6 +4,7 @@ Fixed r=29,41 only; include all base ell-torsion, both auxiliary exceptions,
 and genuine ell^2 points over residue degree ell.  This is an implementation
 check, not an original-shadow calculation or an infinite-prime assertion.
 All arithmetic runs only in the public repository Actions; summaries only.
+The actual small base group is enumerated pointwise without PARI symbol names.
 """
 import os
 if (os.environ.get("GITHUB_ACTIONS") != "true" or

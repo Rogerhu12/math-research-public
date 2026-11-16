@@ -380,8 +380,18 @@ def verified_torsion_basis(k,omega,r):
     ell=(r+1)//6
     assert (r,ell) in ((29,5),(41,7))
     E=EllipticCurve(k,[0,0,0,0,1])
-    points=E.points()
-    assert len(points)==(r+1)**2
+    # Enumerate this fixed small field directly.  E.points() delegates to
+    # PARI, where a legitimate coefficient-field name such as omega can
+    # collide with a built-in symbol.  All geometric points are retained.
+    points=[E(0)]
+    for xx in k:
+        rhs=xx**3+1
+        if rhs==0:
+            points.append(E([xx,k(0)]))
+        elif rhs.is_square():
+            yy=rhs.sqrt()
+            points.extend((E([xx,yy]),E([xx,-yy])))
+    assert len(set(points))==len(points)==(r+1)**2
     torsion={6*P for P in points}
     assert len(torsion)==ell**2
     def order_key(P):
