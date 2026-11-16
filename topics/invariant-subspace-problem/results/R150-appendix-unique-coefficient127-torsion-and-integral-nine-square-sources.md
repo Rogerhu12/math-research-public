@@ -223,9 +223,9 @@ $$
 \tag{6.1}
 $$
 The [independent exact-integer cross-audit](../notes/2026-11-16-r150-original-hstar-at63-exact-integer-cross-audit-789f.json) reconstructs all 24 integer coefficients from the three original factor arrays and matches the paid coefficient file byte-for-byte at the coefficient level. Integer Horner evaluation and the factored evaluation both give
-$
+$$
 h_*(63)=1630159488059100357895588625989620223385900352.
-$
+$$
 Its reduction is 44. The original leading coefficient has residue $3125\bmod127=77$, whose inverse is 33; the monic normalization is therefore a $D$-unit normalization.
 
 Thus multiplication by $h_*$ is a unit on the one-dimensional module $T$.

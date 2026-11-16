@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** c8bc329f66f625131a1c29a4391081cbc1cc01c4（2026-11-16 02:58:45 UTC，临时研究session run43772109844实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** af8d11654013b0bf488f9c4ccc083cf82893a5b3（2026-11-16 03:00:43 UTC，Actions run43795534068实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43795534068-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -17,7 +17,7 @@
 - **[三域完整谱](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)/[九目标精确指数](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)：** F±full(3,5)、E8full(2,3)，完整P(3,3)/(3,3)/(2,2)由下界及目标dual再证。每个目标critical指数(2,2,1)，各生成整个局部T。F±各30940、E8重验259896原products；完整高核7/低rank86/完整首连接rank1，不以受限切片代完整。
 - **rank-one Bell：** 同原17式中br^16∈I，显式源构造的moment次数≤26；不把8391移给高m来源。全rank≤1均值临界点matched remainder为0，B_r∈√(J+C1)；全J的非rank-one/ess(T3)≥4、振幅清分母及实际Bell算子桥仍开，不倒h*。
 - **原相对商：** T=W/(L∩W)在Σ0外已零；[全6012原源/投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保VR=I、P=I−RV。实际R/P与全W尾未展开；原s=0完整P长度及九joint的Q维数继续，不能搬∞小P61或field25。
-- **[31全I2](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197原源给I2=U7、χ=(s−1)²(s−2)^5，t2=5；C31/pC长314、J31=s−2。root2首五(1,4,2,4,2)已成；全210 recipe与六smallinput仍临时，真p7/第四新像未付。新Δ298后的完整系数分布正核，原I3的197纠偏/7图关系/b8,pb9接口保归档。
+- **[31全I2](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197原源给I2=U7、χ=(s−1)²(s−2)^5，t2=5；C31/pC长314、J31=s−2。root2首五(1,4,2,4,2)已成；全210 recipe与六smallinput仍临时，真p7/第四新像未付。[新完整系数分布](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：T/pT恰16、χ=(s−1)²(s−2)^14，global t1…t5=(2,5,2,4,2)，只余root2一个E≥6，u=v=w=1。全B第四新增像为m6∈{0,1}（累计I4=8+m6），不混用。
 - **[原F127全模块](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** NF3333+2855、GB1021/free13/B8、state805/obs506稳定57，全部原CK/AK=KJ核真。完整tors299，五critical primary总88/原52624乘回；五广义检测族每处两泛函全分离88维。原4367运输/1834Z消费五处I1均0，不单从零像否高层。
 - **[root63系数正证](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原node26969742/3463反传支持4324，4367 p²读40；simple s+64占一I1方向，原925非零端点不当维数。Q/127∞同谱66及原J127=0/Ω127=Ψ60²均付，C127有限；[唯一D127系数挠结](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)现证T127=D/127、参数s=63；没有更高127指数。
 - **[九目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** 九singlecyclic23、joint25/χ=s²mon(h*)，全7245/7475/2691原乘回。九h*tj已有精确D127[s]原来源；每个D127循环模=D127[s]/mon(h*)，故各Q最小多项式恰h*23（零点指数3）；joint25不自动升Q。全部旧失败、∞原证与31深页pins保归档。

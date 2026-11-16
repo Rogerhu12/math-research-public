@@ -1,0 +1,28 @@
+{
+  "format": "r150-original-coefficient31-characteristic16-execution-manifest-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "execution": "JavaScript V8 exact finite-field arithmetic; independent root invocation",
+  "executedUtc": "2026-11-16 03:00:27 UTC",
+  "sourcePath": "notes/2026-11-16-r150-coefficient31-characteristic16-small-audit-789f.js",
+  "sourceSHA256": "85600a405db117d29172d14bea3da52c4124b159bef312a3eb0c8f58699dbcd6",
+  "parameters": {
+    "prime": 31
+  },
+  "inputs": {
+    "omega": {
+      "blob": "eca924ad72aa808edd03f0cedaf81a7a9a78a20f",
+      "bytes": 11089,
+      "sha256": "b5ee9b9d2a7a2fe68106cc5f66a88dc964e988e4286dc896b18ed70a2b30b37b"
+    },
+    "i2": {
+      "blob": "f6b83a6efa1d913685af099ab1102d12b5952f75",
+      "bytes": 77304,
+      "sha256": "4590ad661b71bc0480dfaa43755bdab778fe53be3d473caa91367e9e829ca4aa"
+    }
+  },
+  "output": {
+    "bytes": 760,
+    "sha256": "b6bc492f44ab333d41b36a3890b4b1520722c874d00366c654051e61233026fb"
+  },
+  "outputDataPersisted": false
+}

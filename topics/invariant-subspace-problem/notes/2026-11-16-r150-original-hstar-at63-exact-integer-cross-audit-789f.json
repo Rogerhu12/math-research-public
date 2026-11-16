@@ -1,53 +1,23 @@
 {
-  "format": "r150-original-hstar-at63-exact-integer-cross-audit-v1",
-  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
-  "execution": "Exact JavaScript BigInt arithmetic in the tool runtime; no matrix or native source computation.",
-  "originalInput": {
+  "format": "r150-original-hstar-at63-execution-manifest-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "execution": "JavaScript V8 exact BigInt",
+  "executedUtc": "2026-11-16 03:00:27 UTC",
+  "sourcePath": "notes/2026-11-16-r150-original-hstar-exact-small-audit-789f.js",
+  "sourceSHA256": "a7e8ee7e05fd96fb37a3a8c0d5105a01ee06b9cccc07df5a8e9489f3353ecd73",
+  "parameters": {
+    "point": "63",
+    "prime": "127"
+  },
+  "input": {
     "path": "notes/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
     "blob": "bb66e2938a2625aa67059cea7f35a4816b64f4bc",
-    "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31",
-    "bytes": 1286
+    "bytes": 1286,
+    "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31"
   },
-  "coefficientOrder": "ascending",
-  "all24PaidOriginalCoefficientsEqual": true,
-  "point": "63",
-  "prime": "127",
-  "exactIntegerEvaluations": {
-    "FPlus": "1153018",
-    "FMinus": "1841346",
-    "E8": "1446323583669324",
-    "hstar": "1630159488059100357895588625989620223385900352"
+  "output": {
+    "bytes": 251,
+    "sha256": "92a8cae07e17e4d7394f02efbf0d3ee3e34752888f0cfbc7fb8a7d42eb6b07a6"
   },
-  "fieldEvaluations": {
-    "FPlus": "112",
-    "FMinus": "100",
-    "E8": "77",
-    "hstar": "44"
-  },
-  "integerHornerEqualsFactoredEvaluation": true,
-  "degree": 23,
-  "leadingCoefficient": "3125",
-  "leadingModulo127": "77",
-  "leadingInverseModulo127": "33",
-  "monicHstarAt63Modulo127": "55",
-  "hstarUnitOnSimpleRoot63Primary": true,
-  "rootIndependentRecalculation": {
-    "inputSHA256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31",
-    "all24OriginalCoefficientsMatched": true,
-    "values": {
-      "FPlus": "1153018",
-      "FMinus": "1841346",
-      "E8": "1446323583669324",
-      "hstar": "1630159488059100357895588625989620223385900352"
-    },
-    "mod127": {
-      "FPlus": "112",
-      "FMinus": "100",
-      "E8": "77",
-      "hstar": "44"
-    },
-    "monicAt63": "55",
-    "independentRootVerified": true
-  },
-  "noRecomputedCoefficientArrayPersisted": true
+  "outputDataPersisted": false
 }

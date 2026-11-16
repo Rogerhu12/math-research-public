@@ -497,3 +497,6 @@
 
 
 - **R150唯一127系数挠结与九精确D127来源（2026-11-16）：** [原有限载体证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)由rank_D298及C/pC299得一循环因子，root63真p²读40迫其指数恰1、参数s=63。N的p饱和与T∩pC=pT=0将九Q/field成员升为精确D127[s]来源。h*(63)=44为单位，九循环模各=D127[s]/mon(h*)，故每个Q最小h*恰degree23，零点指数3；不从field joint25抄Q维数、不移用8391作D127分母费用。
+
+
+- **R150完整31系数分布只余一个指数（2026-11-16）：** [原有限载体定理](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)以monΔ298、完整Ω31及J=s−2给χ(T/pT)=(s−1)²(s−2)^14、恰16循环因子；完整global t1…t5=(2,5,2,4,2)，只余root2一个E≥6，D挠长度44+E，f2=17/u=v=w=1。全B第四累计像8+m6、增量m6∈{0,1}；若E6，旧完整modp6来源可升精确p²h0，当前仅条件。小多项式121/9/315/316系数已复算。
