@@ -134,3 +134,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。
+
+
+- [R863附录A.4–A.5](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Z2−(455/2664)S准确等于∇Θ17 C0，固定whole C0从z7起，故消去全部Θ17高商与连接高端。C0=−σ(2z)^3 H22/21312给完整两个严格低于p的配对，binomial常数−1/10656付清；原q_F低连接项保留。未把H22认作V66/免费中央，也未判指定配对非零。

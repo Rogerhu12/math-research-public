@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：3b047150f4beecb9bbe1106a9826a36176c74feb；2026-11-16 09:01:18 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:55:41 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
+- 最近已读规则提交：b3caf94bc816d8b54d1d58cf03bcbc79fd42c469；2026-11-16 09:02:04 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:55:41 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -36,7 +36,7 @@ R866/R869原Cv:Y²+vY=X³，Ξ_i*ωv=Hi，Ai=2^11κΞi；H0/Ξ0真下降F=Q(∛1
 R855/R856 whole整除p与全参数Frobenius、[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p相消、共同A24的固定相对theta核全部保。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Ej=−b^jσ24x^(8−3j)y、c*=(1,−4/7,16/7)。四B零 iff BS0且M_pc*0；三相邻系数来自四不同真实伙伴，U二挠仍同全tensor/lift。S/V的X0/729X0真实低卷积、[3]完整W3及S/U六零不省略。
 R860/R863保 Cp−cD^p=D·N²Q/(2mnM)、奇N项与全法向伙伴；r2含Ξ+σ2²L/4，r3含全部连接及σ2 Ltilde。边界27/7、首尾unit或Frob递推不代指定四B forcing。
-R863附A付span(Zj)与原三算术线恰二维交、商坐标−4c0+c1+2c2；真实f2在剩余方向。唯一全纯C2满足Z2=∇C2−351/(2816b)Θ17，whole除p行保首对数商/所有低卷积，不能增中央零。theta续同M_pc*/BS。
+R863附A付span(Zj)与原三算术线二维交、商坐标−4c0+c1+2c2。进一步Z2−455S/2664=∇Θ17 C0，C0=−σ(2z)^3H22/21312从z7起，消Θ17高商后剩完整低于p的whole/连接配对。H22未认V66中央，theta续原身份与M_pc*/BS。
 
 ## 当前第三门：低松弛同P/R/S的真正后两页
 

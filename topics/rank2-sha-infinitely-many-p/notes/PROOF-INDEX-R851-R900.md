@@ -153,3 +153,6 @@
 
 
 - [R875](../results/R875-original-exact-eisenstein-degree-gram.md)：原实周期格的指数3/负号和完整Hecke正则化将L(β²,2)/面积化成原17挠点有限E2和；h/T0与定向α压成三次trace。公开run43835263367在21.106秒给exact Q、q(1)=1389480/17，I∞基Gram=[[376,−40,−88],[−40,664,−416],[−88,−416,880]]。纯AM–GM/8整除/mod3证全I∞最小准度数恰376，非窗口最优；整个极化Gram整是实际Hom必要条件，仍未认候选已整。
+
+
+- [R863附录A.4–A.5](../results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Z2−(455/2664)S准确等于∇Θ17 C0，固定whole C0从z7起，故消去全部Θ17高商与连接高端。C0=−σ(2z)^3 H22/21312给完整两个严格低于p的配对，binomial常数−1/10656付清；原q_F低连接项保留。未把H22认作V66/免费中央，也未判指定配对非零。
