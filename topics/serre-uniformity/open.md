@@ -146,3 +146,5 @@ R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代�
 **R868实际已成，R870整数消费者激活**：原P0 run43819875762/source9586473c成功，finalef1dc965、完整h5de7d08d与两图逆点13de406d/十模块0e73e6cc真实取得；128/144截面仍未算，R872直接消费。R870[执行记录](notes/R870-original-Y-torsion-Hecke-inputs-activation.md)固定core0e32a7f0/wrapperfc0fb7a7/method42799fe5，42原件只新N0/ni/共同d*及80原Picard输入；不重T7/CRT，不把计划当η支持。R873推进真实循环7函数域/norm；R330/R596已登记原Y全部L1=0，不重新走秩零绕路。
 
 **R868正式单极源已闭、A.1沿370续接**：[R868准确结果](results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md)60d92f04给实际271子式/584位准确h（自由坐标271=1）/全272K乘回、两图逆点理想和十模块，共699stage；128/144RR仍由R872继续。原full dual43790194976真实BudgetStop保370位11a4f187与371正残差f26fe3db；[半坐标激活](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)request9492c873从同target/配对续，HP.2或全Theta/Delta才判A.1，不把RR失败当拒证。
+
+**R870真实整数已闭**：[正式结果](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)c2436b74，run43822039811/sourceeb46ca01/20stage；N0=m7(8)=χ7(8)、16个ni与1959位共同d*及80原Picard输入全成，finalbe29c872、最小42源carrier6a9d22de。合法好约化处[ni]Piξj的真非零可严格判原Eiηj活跃，模零仍未定。R873继续完整循环7范数，未把计划当支持、d*当YP所选d或删nonp。半坐标dual已从370真实启动run43823979328/source6110d6a1，不重371正残差。
