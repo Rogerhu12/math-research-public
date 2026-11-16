@@ -299,3 +299,8 @@
 ## 2026-11-16 04:57 UTC /root — Request210完整零通量入口
 
 [210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)四件已刊 `a95eefc03cbe903a5167e5a2f00723da83b11094`。本次独立发布request67622B/5b6e8787与workflow37506B/818a97f7，真实新路径触发本公开仓库Actions。最终完整差异及两摘要边界已核；143公开+11现场源、R471/R466及原实际六词/λ=.001/699节点/18000秒/全部112与原最终门不变。实际run/source尚待官方绑定，R472/exact唯一终态；未填正H/J/试步/接受或快路径计时结果。 本次新增.github/workflows/visible-larger-public-six-control-zero-flux-contracted-trace-r273.yml供本课题计算。
+
+
+## 2026-11-16 04:58 UTC /root — Request210实际source/run
+
+[210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)实际source `b418c6e6e5428be5774917210878c41b4245fdf0`，公开Actions [run43807229341](https://github.com/Rogerhu12/math-research-public/actions/runs/43807229341)于2026-11-16T04:58:06Z/attempt1启动；compute133100660526在04:58官方metadata为前1–5成功、6安装runtime，实际源生成/绑定/科学及必要读回待起。exact唯一R472终态；执行状态不补数学通过。官方topic tree0a1b950e968fb58cace9745254ab775dc7f3a2b8为9239blobs/197348719B、9612entries且未截断。
