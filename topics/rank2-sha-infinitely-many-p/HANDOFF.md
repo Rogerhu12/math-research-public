@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：9070cb76eb300d4c00e3c29f1536a368b8035e88；2026-11-16 09:03:49 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:03:47 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
+- 最近已读规则提交：b5667036c77d13d94048c5c1ee88b4a46ca01c5e；2026-11-16 09:06:11 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:03:47 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -36,7 +36,7 @@ R866/R869原Cv:Y²+vY=X³，Ξ_i*ωv=Hi，Ai=2^11κΞi；H0/Ξ0真下降F=Q(∛1
 R855/R856 whole整除p与全参数Frobenius、[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p相消、共同A24的固定相对theta核全部保。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Ej=−b^jσ24x^(8−3j)y、c*=(1,−4/7,16/7)。四B零 iff BS0且M_pc*0；三相邻系数来自四不同真实伙伴，U二挠仍同全tensor/lift。S/V的X0/729X0真实低卷积、[3]完整W3及S/U六零不省略。
 R860/R863保 Cp−cD^p=D·N²Q/(2mnM)、奇N项与全法向伙伴；r2含Ξ+σ2²L/4，r3含全部连接及σ2 Ltilde。边界27/7、首尾unit或Frob递推不代指定四B forcing。
-R863附A付span(Zj)与原三算术线二维交、商坐标−4c0+c1+2c2。进一步Z2−455S/2664=∇Θ17 C0，C0=−σ(2z)^3H22/21312从z7起，消Θ17高商后剩完整低于p的whole/连接配对。H22未认V66中央，theta续原身份与M_pc*/BS。
+R863附A付span(Zj)与原三算术线二维交、商坐标−4c0+c1+2c2。进一步Z2−455S/2664=∇Θ17 C0，C0=−σ(2z)^3H22/21312从z7起，消Θ17高商后剩完整低于p的whole/连接配对。H22未认V66中央；完整CM7/13公开producer已启，theta续原身份与M_pc*/BS。
 
 ## 当前第三门：低松弛同P/R/S的真正后两页
 
@@ -47,7 +47,7 @@ R861/R865实际a*=−34C_H对齐保持M，H/h0有限乘积与三谐和位给Rcal
 R868原σ_t=min(ord P_n−A_n)控制t^-τ返回；τ=k−13≤σ_t且ell≤s−h时首像unit，故Λ0不下降第二页左行，R/S调标量同时改全余类。最小r=b0=3,c0≤2时σ_t0，仍开。
 [R871](results/R871-original-sigma-thirteen-unit-and-low-hurwitz-readers.md)：真实V_S^-13单位保w13/39carry，BΦ=Φ/S13全whole并保P134/十九角；完整ΛS给D1/Dp+2/D2p+3、J0和绝对γ。模p行差仅39低带，整高尾不能删；k>13首位仍零。deep续低松弛同P/R/S与四原中央，不再新增gauge等价或免费伙伴。
 
-- [R872及附A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：τ1/2/3第三carry对H首高位响应−6ab0γF（第二块+12a保），同X必要Bτ+6aγF Qc=0。更早同P+pR第二页baseline₂+a²b0γF/3=0，调整口为K1末三W2尾。τ4改用Λ0，响应−36b0γF/a²、第二页加2b0γF/a；τ≥5仅这39carry/Λ0看不见H首位。原未知baseline、全同R/S、normal及四中央不删。
+- [R872及附A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：τ1/2/3第三carry对H首高位响应−6ab0γF（第二块+12a保），同X必要Bτ+6aγF Qc=0。更早同P+pR第二页baseline₂+a²b0γF/3=0，调整口为K1末三W2尾。τ4改用Λ0，响应−36b0γF/a²、第二页加2b0γF/a；τ≥5仅这39carry/Λ0看不见H首位。τ1/r3/F0 degree3另迫R0=0、R1恰三重零，故F²∤同R（见首修正短注）；全baseline/同R/S/normal及四中央保。
 
 ## 其它原门与同步
 

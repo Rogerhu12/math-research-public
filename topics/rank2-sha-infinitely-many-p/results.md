@@ -68,3 +68,6 @@
 
 
 - [R875附录A](results/R875-original-exact-eisenstein-degree-gram.md)：同I∞的精确整二次型完成平方证明q<664仅±u，q≤712仅±u、±uθ、±u(θ+eps2)，三者都是同真整unit轨道；k6帽612无其它候选。迹权w′=(376−56θ−72eps2)/3及codifferent式付整个Gram整性，仍不替实际Hom。
+
+
+- [R872首修正平方排除](notes/2026-11-16-r872-first-carry-corrector-square-exclusion.md)：最小τ1/r3/F0 degree3的原同M/p²强迫R0=0、R1=(Y−1)³A，deg A≤3且A(1)为指定frame单位。因此同R在k(t)[Y]中亦不能含F²；若F|R只余一参数最低项。全K1改变不改该单位，但仍未排其它R或判末尾像。
