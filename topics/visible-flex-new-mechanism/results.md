@@ -114,3 +114,5 @@
 - [R541 稳定非零Gram支的真实有限k与正总矩](results/R541-finite-curvature-and-positive-total-matrix-entry-on-one-stable-gram-branch.md)：**已证明**同R521母从零history一次选大Gram，完整非零支快慢能量和强准备给真实有限高路径/慢尾，k>2且总中心t1^c>0。总p1^c仍正、p2负，规范与R539不同，不授M0或拼接；常高尾实际scalar微变，完整A/T保留。
 
 - [R543 稳定叶的严格正总矩与准确离叶记忆](results/R543-stable-large-gram-leaf-positive-matrix-density-and-exact-transverse-memory.md)：**已证明**任意非恒稳定叶高度往返仍总p1>0，固定有限TV路径的真实Oδ²跟踪保号；准确ρ′给重新落叶的负号门。合法有限几何目标兼容p1<0/t1^c>0，但真实进入与驻留尚未支付，不授同χ桥或M0。
+
+- [真正58全后缀34控制的实际迭代上限和准确盒失败](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：**已闭账**。SLSQP9/false/120iter，盒58/61及准确norm失败，0预测/actual，仍58。184.71003744799998秒闭至3231.8129525510003秒/147原full值，另142新两网物理点/120J。现有日志只3条尾记录，旧大MODEL/J/trace正文不可复用；下一释放原完整51系数，不重启旧scope。

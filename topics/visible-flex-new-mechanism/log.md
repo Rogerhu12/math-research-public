@@ -234,6 +234,10 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 
 [R541](results/R541-finite-curvature-and-positive-total-matrix-entry-on-one-stable-gram-branch.md)从真零history一次选大Gram，完整q(h)稳定支、无快加速度第三重写及真f/f′零准备给e/e′=Oδ²；先有限高h1/尾长后δ，原K0全段到k>2并净总中心t1^c>0。root全文纸核并明示固定y坐标读出以免混raw t1；全A/T保，p1正/p2负，未同规范配平，无科学执行。whole-suffix研究/报告已结束，原后端9/false/120iter无合格向量，0预测/actual；新184.71003744799998秒，祖3231.8129525510003秒147值，完整原输出正整理，仍58。
 
-## 2026-11-16 16:13 UTC：R543稳定叶障碍与真实离叶接口
+## 2026-11-16 16:11 UTC：R543稳定叶障碍与真实离叶接口
 
 [R543](results/R543-stable-large-gram-leaf-positive-matrix-density-and-exact-transverse-memory.md)完整纸证稳定叶u′<0/W′>0及任意非恒高度往返的总p1严格正，并把R541全历史Oδ²跟踪用于固定有限T/TV路径。准确ρ′记录真正离叶的唯一水平记忆入口；同窗口有限目标可兼容负p1和正t1^c，但实际桥/保持仍待。无科学执行，继续完整快回路与同规范进入。R541已推4ddcafb14dfd75b78937a1a229c52e5e79c974a9，最新实际pull双README空diff；数值仍58，已结束whole34的原输出可用范围/费用随后单独闭账。
+
+## 2026-11-16 16:13 UTC：全后缀34控制的失败闭账与缺失输出边界
+
+[原观察](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)保SLSQP9/false、原raw36/q168/172、准确盒58/61与norm失败，0预测/actual，未59。最终新184.71003744799998秒/142新两网q/120J/1920导数block，祖3231.8129525510003秒/147原ordinary值；所有临时IO/大输出计同钟。joblog API复读及CLI原run ZIP均只获3条尾记录，未重跑科学恢复；明确MODEL/J/完整OptimizeResult/大trace正文缺失，报告器的尾日志完整标志不冒整输出完整。下一释放原51系数的新53变量scope，唯一true58，原g/b0/盒/actual门保。R543已推d1f50f30cc030d5ee1ea02ed48c04d475fb57800；16:11:20/16:11:36实际pull均双README空diff，后者读52c151fab240bae385f924c11e2ebd3d11fd6c93。
