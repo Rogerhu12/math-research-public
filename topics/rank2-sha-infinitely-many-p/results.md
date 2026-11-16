@@ -56,3 +56,6 @@
 
 
 - [R874](results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：原全局最小微分ωv/a与全Hecke系数Z-span=OE给精确全q必要理想I∞；9×3 Smith/Hermite与全packet范数下界、实际逆Hecke返回均全证。公开run43834068620给I∞=u*OE、NormI=17/55569，u*=(915+1097θ+2962eps2)/55569、λu*=(68+7a−13a²)/3，u*(106+59θ+185eps2)=17。全packetdegree>364.3945排k2；u*准度数严格距376<10^-88但未取整或认Hom，续原完整坐标。
+
+
+- [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。

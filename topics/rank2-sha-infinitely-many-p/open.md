@@ -131,3 +131,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 - [R870附录A](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：公开run43827859642的(n,k)=(1,2)/(2,2)真实410×240矩阵在好素数1000037均秩240，严格排各固定低核；k4只到基构造，取消无结果。R866原17必要条件后，run43832115772成功执行参数门并停止无效请求；完整source/args/run/hash保，不假原坐标成功。
 
 原CM范数producer已公开触发，先由真实n17和全部unit的次数下界判定可行权；k4取消没有提供结果。
+
+
+- [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。
