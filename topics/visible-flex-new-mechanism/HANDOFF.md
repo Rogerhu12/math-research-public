@@ -24,6 +24,8 @@ R471同cap五门Δ1/2/3/4/6全0 iff完整self比例；R475保全部十二L项/�
 
 R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说明的真传递接口逐函数盲。R480从起点有限扩F（≤924生成，不称秩）付全W三外矩0，重复原型K无第三历史漂移，但A/全V仍在。R482逐点T=Pend−A²/2+W，完整K=F(X;θ)+Ch h″+Ck k″；13真状态/2共用输入、原Mraw/水平ODE和全θ相容/切向性都要满足，未构成闭返回。常scalar段另需−E(AcD,AcD)+2E(φ,Ac(φ;AcD))全θ0。R484若真实两相位加速度minor非零，同前缀全s解锁在有理抛物线；离开须全相位rank降，候选h在≤12次判别根。当前minor值、rank≤1库或奇点平坦分支尚未判。[R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)保任意真路径完整principal平方及初端常数，付两完整H差=−10∫g″⁴<0，排完整F在13状态开域恒0；真实低维路径和常scalar关联族M_c=bvᵀ/physical权b/(4h)仍未判。54高阶/108完整生成不是秩，新增C²观察不抹平方门。
 
+[R488](results/R488-real-secant-height-patches-and-complete-same-gauge-ruling.md)分类真L≡0强分支为k0/ω常/h=Hsec，原实际history固定；完整二三阶场对v=tan仿射，全ruling=(a+bv+cv²)/h保全部尾与入值。中心全profile清理使b0，单patch两even有原Gram右逆；旧芽已锁χ时须同13核中新增三个线性兼容行，不能逐patch重选。t1′=−(1+v²)/8<0排该分支自身M0返回/平常collar接合；真实桥/新增行像仍待。
+
 同cap五门真零、实际全成本/全s同规范、高阶收敛及主几何门仍未付。
 
 ## 4. 当前真正接受点54与闭合任务
