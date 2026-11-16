@@ -16,3 +16,5 @@
 - [R854](../results/R854-original-canonical-cm-contraction-and-threefold-heegner-cycles.md)：同一R814 good pair与原三χ/norm orbit上，Dδ=Γδ−A×0−3(0×A)满足εA Dδ=Dδ、Dδ²=−6；真实收缩Cδ与外积Iδ给CδIδ=−6及mixed投影−IδCδ/6。逐isogeny准确CδΔφ=(degφ/34)H_B，原有限权全保。BDP对称乘积与cup规范给cl(Dδ)=−2δωAηA，故原三维AJ B_j,p=−2δ A_j,p，平方系数+12·34⁴及全部Euler/period/基比齐保。原7993检测付三固定H_j非零、不同finiteχ独立；未付其与R831/R852端点的实际相认或其它p非零。
 
 - [原三Euler值束](2026-11-16-original-euler-three-jet-bundle-and-hn-source-cost.md)：原κ≥3、χ>1、p>101下，全H3在奇C点也分离曲面完整长度6二阶jet；正规化上的未饱和三Euler值像束泛秩3，全部固定水平/十九角的det缺陷≤3χ+12b，故deg E_act≥9κ−3χ−12b。κ>χ+4b时，任何承全原来源且同generic三值的rank3束不可能degree6κ或HNmax≤2κ。保完整线性化框与奇点各支；只排未付来源成本的正常分次捷径，不代原三长核/WT或forcing。
+
+- [同角色完整germ](2026-11-16-original-same-character-schwartz-and-central-germ.md)：原紧角色投影后，nonsplit本征一线及split径向球的有限函数展开，连同有理norm-one环面的线性theta不变性，准确给FΦ=ΣaκF(κz)，全部相位/half-character保留。普通单位Mellin与惰性全Gaussian–Newton分别给JΦ=QΦJ；inert bκ=κ^(p+1)=1+pqκ，完整exp(aqκX)修正不可删。零质量中央仅读Σaκ·j，首行与除p后仍单行；全部原w-Hurwitz Γh=(hs−1)!gh由显示整三角矩阵/整逆运输。固定isogeny覆盖不添代数独立坐标，也未付原carrier/全旗标预算。
