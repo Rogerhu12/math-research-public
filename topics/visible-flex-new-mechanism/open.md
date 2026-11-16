@@ -202,3 +202,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R426：负四kk的k0完整锚已付
 
 [R426](results/R426-complete-zero-curvature-kk-minus4-natural-anchor-and-common-query-reduction.md)从原水平Y、YC/ZZ全scalar、两个真实ordered尾及N0三槽给ΛV0=−∫upr³/32+3∫xp²r³/64−3∫x²pr⁴/128+3∫x³r⁵/640=3F_Q4/128+∫(3p³r²−2upr³)/64。所有primitive及第一矩余项在最后合成才消。后项对偶母所有真幅宽中心0、任意不交ordered3+2也0，原共同D/E和同权响应补wholeE后给λkk(0)=0；不追加M25、不外推全k，仍须两新曲率系数和完整period。
+
+### R427：只余两个完整kk自然读出
+
+[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；只续B=[h⁻⁴k²]、C=[h⁻⁴k⁴]两新Ω。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
