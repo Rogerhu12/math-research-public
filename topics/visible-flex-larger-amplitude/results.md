@@ -134,3 +134,7 @@
 ## R528 — actual225一次完整128接受与原owner预算partial
 
 **启发式/数值证据；完整官方实际范围。** [R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)28538/8ab4完整，两日志exact各唯一。真同H fullJ/R273及原128首α1全576接受14074125.7215534695603754375431894587→0.00119384020061276193473229654960738502；第二α1只534stage/119840行，42stage原预算错误，normnull/未接受，owner5999.060112429触原6000，保存前完整接受态。tol/replay未付，replay两false仅未完成非词不等；四post/FD/fullDN未起，R522/R515后置无实际覆盖，不能作速度结论。原外19200仅6982.009654177，非总钟/磁盘/外信号；完整来源49780与科学51982正文（无LF）两job同，完整错误/未访/参数/三轮rules保。ownedquiet真且实际removed=true，无可续父或完整112/338/450接受。
+
+## R561 — 保原首乘积与原累加的准确normal二次平均
+
+**已证明完整有限字条件与真实来源接口。** [R561](results/R561-exact-normal-dyadic-average-and-original-first-products.md)29409/98e6连三源共68403B；实际首乘积原字保，原N/invN真核、只在normal准确指数移动或带符号零时替原第二乘法，其余一律原fallback，全部项/加法/次序保。三个primal点、trace方向正文保持，完整三路径十实际计数/full last、旧统计与R550/R535祖先保。实际source-only→两新视图26420/0e01、35787/07b8→原scope一次直接装6256/97e5→原main真正原g++，原CPP/main/replay/全末门/caps保，准备/安装/编译/数值各分责。无科学run或速度/fit/前沿承诺；R562/236/R563另实际入口，不改已有运行。

@@ -1,0 +1,229 @@
+{
+  "schema": "R561-normal-dyadic-average-complete-source-plan-v1",
+  "scientific_execution_performed": false,
+  "source_root_policy": "Only the actual public repository Actions computations directory; bind complete original and generated sources; direct installation in untouched original owner_scope",
+  "header": {
+    "file": "root_20261116_exact_dyadic_average.hpp",
+    "bytes": 6760,
+    "sha256": "e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac"
+  },
+  "ancestor_R550": {
+    "adapter": {
+      "file": "root_20261116_accepted_root_evaluation_reuse.py",
+      "bytes": 16634,
+      "sha256": "66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c"
+    },
+    "source_plan": {
+      "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+      "bytes": 12303,
+      "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+    },
+    "header": {
+      "file": "root_20261116_accepted_root_evaluation_reuse.hpp",
+      "bytes": 7311,
+      "sha256": "8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26"
+    },
+    "root_word_source_plan": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    },
+    "views": [
+      {
+        "role": "primal",
+        "generated": {
+          "file": "root_20261116_accepted_root_evaluation_reuse_primal128.cpp",
+          "bytes": 25794,
+          "sha256": "40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1"
+        }
+      },
+      {
+        "role": "trace",
+        "generated": {
+          "file": "root_20261116_accepted_root_evaluation_reuse_trace128.cpp",
+          "bytes": 35565,
+          "sha256": "822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71"
+        }
+      }
+    ]
+  },
+  "views": [
+    {
+      "role": "primal",
+      "base": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_primal128.cpp",
+        "bytes": 25794,
+        "sha256": "40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1"
+      },
+      "output": {
+        "file": "root_20261116_exact_dyadic_average_primal128.cpp",
+        "bytes": 26420,
+        "sha256": "0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_accepted_root_evaluation_reuse.hpp\"\n",
+          "new": "#include \"root_20261116_accepted_root_evaluation_reuse.hpp\"\n#include \"root_20261116_exact_dyadic_average.hpp\"\n",
+          "count": 1
+        },
+        {
+          "old": "struct RootStats {\n  R550RootReuseStats r550_reuse;",
+          "new": "struct RootStats {\n  R561AverageStats r561_average;\n  R550RootReuseStats r550_reuse;",
+          "count": 1
+        },
+        {
+          "old": "  void join(const RootStats &s) {\n    r550_reuse.join(s.r550_reuse);",
+          "new": "  void join(const RootStats &s) {\n    r561_average.join(s.r561_average);\n    r550_reuse.join(s.r550_reuse);",
+          "count": 1
+        },
+        {
+          "old": "  RootEval result; result.residual.assign(p.J,0); result.rows.resize(p.N);\n  const Q invN=1/static_cast<Q>(p.N);",
+          "new": "  RootEval result; result.residual.assign(p.J,0); result.rows.resize(p.N);\n  const Q invN=1/static_cast<Q>(p.N);\n  const R561DyadicScale average(p.N,invN);",
+          "count": 1
+        },
+        {
+          "old": "    for (int i=0;i<p.J;++i) result.residual[i]+=quad*cs[i]*invN;",
+          "new": "    for (int i=0;i<p.J;++i)\n      result.residual[i]+=r561_average_actual_product(quad*cs[i],average,\n        stats.r561_average.root_residual,n,i);",
+          "count": 1
+        },
+        {
+          "old": "static V root_matrix(const Problem &p,const Geometry &g,const std::vector<Angular> &rows){",
+          "new": "static V root_matrix(const Problem &p,const Geometry &g,const std::vector<Angular> &rows,RootStats &stats){",
+          "count": 1
+        },
+        {
+          "old": "  V bm(2*p.M+1,0),B(size_t(p.J)*p.J,0);\n  const Q invN=1/static_cast<Q>(p.N);",
+          "new": "  V bm(2*p.M+1,0),B(size_t(p.J)*p.J,0);\n  const Q invN=1/static_cast<Q>(p.N);\n  const R561DyadicScale average(p.N,invN);",
+          "count": 1
+        },
+        {
+          "old": "    for(int k=0;k<=2*p.M;++k)bm[k]+=value*gc[k]*invN;",
+          "new": "    for(int k=0;k<=2*p.M;++k)\n      bm[k]+=r561_average_actual_product(value*gc[k],average,\n        stats.r561_average.root_gram,n,k);",
+          "count": 1
+        },
+        {
+          "old": "    const V step=spd_solve(root_matrix(p,g,ev.rows),ev.residual,p.J); ++stats.newton_steps;",
+          "new": "    const V step=spd_solve(root_matrix(p,g,ev.rows,stats),ev.residual,p.J); ++stats.newton_steps;",
+          "count": 1
+        },
+        {
+          "old": "          sigma=g.dr/g.r, pref=static_cast<Q>(p.orientation)*p.sq2*r3*g.dr*g.w2/(p.sq12*cell.mu);\n  for (int n=0;n<p.N;++n) {",
+          "new": "          sigma=g.dr/g.r, pref=static_cast<Q>(p.orientation)*p.sq2*r3*g.dr*g.w2/(p.sq12*cell.mu);\n  const R561DyadicScale average(p.N,invN);\n  for (int n=0;n<p.N;++n) {",
+          "count": 1
+        },
+        {
+          "old": "    for (int j=0;j<p.M;++j) flux[j]+=f*sn[j]*invN;",
+          "new": "    for (int j=0;j<p.M;++j)\n      flux[j]+=r561_average_actual_product(f*sn[j],average,\n        stats.r561_average.primal_flux,n,j);",
+          "count": 1
+        },
+        {
+          "old": "  r550_print_reuse_stats(std::cout,s.r550_reuse);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "new": "  r550_print_reuse_stats(std::cout,s.r550_reuse);\n  std::cout<<\",\\\"exact_dyadic_angular_average\\\":\";\n  r561_print_average_stats(std::cout,s.r561_average);\n  std::cout<<\"},\\\"failed_stages\\\":[\";",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "trace",
+      "base": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_trace128.cpp",
+        "bytes": 35565,
+        "sha256": "822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71"
+      },
+      "output": {
+        "file": "root_20261116_exact_dyadic_average_trace128.cpp",
+        "bytes": 35787,
+        "sha256": "07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\"",
+          "new": "#include \"root_20261116_exact_dyadic_average_primal128.cpp\"",
+          "count": 1
+        },
+        {
+          "old": "static constexpr const char *included_R550_primal_cpp_sha256 =\n    \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\";",
+          "new": "static constexpr const char *included_R550_primal_ancestor_sha256 =\n    \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\";\nstatic constexpr const char *included_R561_primal_cpp_sha256 =\n    \"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\";",
+          "count": 1
+        },
+        {
+          "old": "      const V C=root_matrix(p,g,ev.rows);",
+          "new": "      const V C=root_matrix(p,g,ev.rows,stats);",
+          "count": 1
+        },
+        {
+          "old": "  o<<\",\\\"root_accepted_evaluation_reuse\\\":\";r550_print_reuse_stats(o,s.r550_reuse);o<<\"}\";",
+          "new": "  o<<\",\\\"root_accepted_evaluation_reuse\\\":\";r550_print_reuse_stats(o,s.r550_reuse);\n  o<<\",\\\"exact_dyadic_angular_average\\\":\";r561_print_average_stats(o,s.r561_average);o<<\"}\";",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "compiler_function": {
+    "base": {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    "start": "def compile_owner(work, expected_cpp):\n",
+    "next_definition": "\ndef ",
+    "original": {
+      "bytes": 3860,
+      "sha256": "be019045058f4616f98b07e19c0d8d3901e979ce2b1ba7d4259c65fcae4ae46d"
+    },
+    "derived": {
+      "bytes": 6256,
+      "sha256": "97e534367318ae3f16e3d24b0628cc603ca99c0cbb7e6b830db6d59e6a5afc03"
+    },
+    "patches": [
+      {
+        "old": "def compile_owner(work, expected_cpp):\n",
+        "new": "def compile_owner(work, expected_cpp):\n    cache_binding = _R561_SOURCE_BINDING\n    require(cache_binding[\"schema\"] == \"R561-exact-dyadic-average-source-binding-v1\", \"Actual R561 source binding\")\n    require(Path(cache_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R561 compiler source directory\")\n    reuse_ancestry = cache_binding[\"actual_R550_source_binding\"]\n    word_ancestry = reuse_ancestry[\"actual_R535_source_binding\"]\n    dependencies = cache_binding[\"actual_generated_sources\"] + cache_binding[\"actual_headers\"]\n    dependencies += reuse_ancestry[\"actual_generated_sources\"] + word_ancestry[\"actual_generated_sources\"]\n    dependencies += [cache_binding[\"actual_adapter\"], reuse_ancestry[\"actual_adapter\"], word_ancestry[\"actual_adapter\"]]\n    for desc in dependencies:\n        actual = HERE / desc[\"file\"]\n        require(actual.stat().st_size == desc[\"bytes\"] and file_sha(actual) == desc[\"sha256\"], \"Complete R561 compile dependency\")\n",
+        "count": 1
+      },
+      {
+        "old": "\"Complete frozen trace source\"",
+        "new": "\"Complete declared R561 trace view\"",
+        "count": 1
+      },
+      {
+        "old": "\"Unique frozen standalone trace main\"",
+        "new": "\"Unique declared R561 trace standalone main\"",
+        "count": 1
+      },
+      {
+        "old": "    record = dict(command=command, source=receipt(HERE/CPP), included_original_source=receipt(HERE/ORIGINAL_CPP),\n        frozen_R283_source=receipt(HERE/TRACE_CPP), generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=True, only_frozen_trace_standalone_main_excluded=True,\n",
+        "new": "    record = dict(command=command, source=receipt(HERE/CPP),\n        included_primal_source=receipt(HERE/ORIGINAL_CPP), included_trace_source_view=receipt(HERE/TRACE_CPP),\n        original_primal_ancestor=receipt(HERE/\"geometry_20261115_native_primal128.cpp\"),\n        original_R283_ancestor=receipt(HERE/\"geometry_20261115_native_trace_variation128.cpp\"),\n        R535_primal_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_primal128.cpp\"),\n        R535_trace_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_trace128.cpp\"),\n        R550_primal_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\"),\n        R550_trace_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\"),\n        generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=False, only_frozen_trace_standalone_main_excluded=False,\n        root_finite_word_cache_compilation_source_binding=dict(cache_binding,\n            actual_compiler_command=command, actual_generated_include=receipt(include),\n            actual_compile_returncode=code, actual_executable=receipt(executable),\n            actual_compile_stdout=receipt(work/\"compile.stdout.log\"), actual_compile_stderr=receipt(work/\"compile.stderr.log\"),\n            compiler_completed=True, source_preparation_alone_is_not_compilation=True,\n            original_persistent_CPP_source_unchanged=True, original_evaluate_observer_and_all_stage_rows_unchanged=True,\n            actual_R535_finite_words_R550_reuse_and_R561_exact_dyadic_sources=True,\n            original_first_products_reduction_order_and_root_choices_retained=True,\n            actual_first_word_selects_exact_dyadic_second_product_or_original_fallback=True),\n",
+        "count": 1
+      }
+    ]
+  },
+  "original_persistent_cpp": {
+    "file": "geometry_20261115_native_persistent128.cpp",
+    "bytes": 22364,
+    "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+  },
+  "numeric_contract": {
+    "original_first_product_always_computed": true,
+    "original_inverse_expression": "1/static_cast<Q>(p.N)",
+    "supported_word_layout": "Native little-endian GCC IEEE binary128 with 16-byte unsigned __int128, 113 mantissa bits, original exponent range and eight-bit bytes",
+    "inverse_qualification": "N is positive power of two and actual original inverse word is exactly positive 2^-k",
+    "exact_shortcut": "Preserve actual signed zero; for an actual finite normal first product with biased exponent e>k, subtract k from exponent and retain full sign and fraction",
+    "fallback": "All non-supported scales/layouts, nonfinite words, nonzero subnormal words, and potentially subnormal scaled normal words execute original product*inverse",
+    "changed_primal_sites": [
+      "root_evaluate residual angular normalization",
+      "root_matrix gram angular normalization",
+      "primal rhs flux angular normalization"
+    ],
+    "trace_directional_arithmetic_body_unchanged": true,
+    "trace_calls_actual_new_primal_root_matrix_with_original_RootStats": true,
+    "original_sum_order_all_terms_root_iterations_trials_and_acceptance_unchanged": true,
+    "no_second_evaluation_no_fixture_no_candidate_or_domain_gate": true,
+    "no_cross_root_state_geometry_or_H_cache": true,
+    "original_counters_count_actual_executed_calls": true,
+    "complete_three_path_ten_counters_and_last_per_path": true,
+    "all_original_tolerances_budgets_FD_fullDN_final_audit_unchanged": true,
+    "resource_frontier_or_wall_speed_equivalence_not_claimed": true
+  },
+  "actual_scientific_run_registered": false
+}
