@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R579 / actual242，18:08。** 新初猜路线实际457source与原98/78/91准备完成，science/rules1且外resource_stop/external_signal=null、ownedquiettrue；source完整477592/38eb133c、science156637/5a136f15均超原90K，分别只回1661/3832ae、1002/fade实际70。内H/native/J/FD/fullDN各开始/返回/数值仍未返，不能写未起或由时长猜owner预算。真cleanup removedfalse。行政43924716100/c4a11056各原log仅Actions GET1，全部14可见scope全回（这不等于两overflow正文回），16短adminlog各一次最大30924。完整原事件/身份/时序/限制另文刊；不造旧raw父，不盲重复242，后继仅按具体源/同体必要关系推进。
+
 **R617 / request254，18:04。** R616已普通刊86199c7ab026378152e53c1ff41710562b83852c，当前完整五件独立接原248全部454对，471=368public+103generated、原六plan/两CPP/10caller全字面绑定。修复adapter8067/bridge8c2d是实际当前源，原R605仅作者模板而非执行父，旧坏adapter不在新表，全部当前compile原门保；真实bridge stdout全字在联合guard前进入source record和prepare-return，stderr与父完整70/必要正文不省。R616/R600具名完整逆只选whole更短；source/science各90000/实际70原样，原owner12000/总19200/全112/fullDN/FD/双mean/freshaudit全不变。完整证明含所有输入/资源/CLI/失败/cleanup范围，本次普通刊后只POST一次；R618 amplitude唯一终态，尚无254实际值或接受。242一次完整scope行政reader与251实际首错回读同步继续。
 
 **R616 / 实际来源首错与最小字面修复，18:04。** 新诊断run43921640781/headce45c6d5/job133490187970在原248454完整祖先之后，原R583 import实际报L221 unterminated string literal，prepare_sources未入、两C++/binding/bridge缺失；完整正文17868/847960a3、子stdout2006/6cac2f45均真实全返，旧252未返字段不补造。新adapter22649/8067ed32只加一个双引号；新bridge25399/8c2d2cec按完整字面关系接同六plan/原完整错误/90000/70，所有数学与原compile不改，完整literal plan/证明接口同刊。R617/254已完整接原248454，待本次后独立发布/唯一派发；251已69910618派run43923406697且两job终态，首source-ancestry步骤失败，geometry待一次必要读真实cause。尚无新增科学接受。
