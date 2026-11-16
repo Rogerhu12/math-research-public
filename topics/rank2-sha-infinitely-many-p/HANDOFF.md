@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：19e306e4b7aa1a806c12782f739fc3161d923a2e；2026-11-16 08:00:25 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:47:48 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
+- 最近已读规则提交：27286239a9edc20620da705629ea57bb2f0af289；2026-11-16 08:01:14 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:01:13 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -52,7 +52,7 @@ R861原b=1、a*=−34C_H整对齐使M不变；完整Λ0读取三个D_(m,p,79/p+8
 - [R868](results/R868-original-t-slack-and-native-bockstein-image-unit.md)：原σ_t=min_n(ord P_n−A_n)准确控制t^-τ仍在同W_D。实际quartic若τ=k−13≤σ_t且ell≤s−h，P0=t^-τP真在K1并读首像单位；故Λ0不下降第二页左行，R/S沿同P0能调该标量但同时改全余类。σ_t≤r−b0−floor((c0+1)/4)，最小r=b0=3,c0≤2时零松弛，不被此机制覆盖；续其真联合第二/第三页。
 
 deep继续低松弛同P/R/S的真正第二/第三整商；theta与其协作单S端点，但modp相消不授权除p后删项。
-- 07:26:25实际CI pull成功；run43823860359/job133152919965，两README差异空且blob一致；下一08:10前。
+- 07:26:25实际CI pull成功；run43823860359/job133152919965，两README差异空。已触发08:05规则pull请求（08:10期限前）；待run回执时续原映射与实际第二/第三页。
 
 ## 其余原门不撤销
 
