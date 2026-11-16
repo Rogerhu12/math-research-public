@@ -277,3 +277,7 @@ R616已普通推86199c7a，NFF后立刻真pull/rebase成功且双README不变。
 ## 2026-11-16 18:08 UTC /root — actual242全source准备与两必要超限
 
 独立刊actual242/R579完整原source/input成功、science1/真实quiet、两必要超限与未删范围；14原可见scope全回而两原overflow正文未返，原日志仅公开Actions各一次。254已普通刊并唯一派发、全部471原syntax成功；继续251实际来源修复、R610真实Gram消费者与容量维护。
+
+## 2026-11-16 18:14 UTC /root — 仅两20历史域清单的完整来源与普通移出
+
+固定4d572940两20manifest实际完整审计与一次小回读已付，13具体引用/真实producer与artifact消费者/原67显式lambda27完整解释；仅两清单按最终真pull/23模式/全容量guard普通移出，保原所有数学源与输入，原字恢复/边界另文。open§1.3按9c9feb26固定全史缩写，§4–6不动；继续R608/R619和当前数学实接。

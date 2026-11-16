@@ -167,3 +167,5 @@
 - [R617：254 实际字面修复六计划与完整必要入口](results/R617-request254-literal-repaired-six-plan-source-and-complete-necessary-entry.md) — 471源完整条件闭包；源子程序原stdout/exit在guard前完整保存，原科学/资源/compile与双90K/70保持；实际R618另付。
 
 - [R579：actual242 新初猜准备、科学返回与两份必要超限](results/R579-actual242-initial-guess-preparation-and-two-necessary-overflows.md) — 457源及输入准备真完成，科学1/quiet、双70、removed=false；内部科学未返不冒未起，全部14原可见scope一次有界回读。
+
+- [两份二十查询历史域清单：真实来源、消费者与固定恢复](notes/2026-11-16-two-twenty-domain-manifest-retention.md) — 固定4d572940完整audit及具体消费者；仅两548177B可再生manifest按最终真pull增量guard普通移出，全部科学源/输入/warm/status/数组保留。
