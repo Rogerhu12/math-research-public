@@ -1,0 +1,198 @@
+{
+  "schema": "R503-explicit-coast-base-complete-candidate-and-original-two-phase-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Source-only explicit new initial point; original three-active453 and true frozen450 phase bodies and resource gates preserved. These three preview views precede future complete entry source closure.",
+  "scientific_execution": false,
+  "original_202_word_bytes": 553,
+  "original_202_word_sha256": "ba7d7fe3c7fd2599bb7f06863c117b11c6c9f4feb255a160de13023e22129369",
+  "policy": "Original ten-word binary64 projection, then explicit positive zero only for indices2/5/8; all other projected words retained; changed accurate point and target metric.",
+  "views": [
+    {
+      "base": {
+        "file": "geometry_20261116_actual202_accurate_ten_candidate.py",
+        "bytes": 31509,
+        "sha256": "ee3675ce3465930f2ce32283a468f5fad464639ca6ccda6352f027f00f0c6c38"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_coast_base_ten_candidate.py",
+        "bytes": 33550,
+        "sha256": "5c62dd98ae8bf2e861248ccb0eabbacc86aceaa5f13cbc195cc6e42b511eae5c"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R449: explicit actual202 parameter candidate for a NEW accurate C ten-family.\n\nThis source does not execute C, the scalar factory, a native call or a BVP.\nIts prepare phase explicitly projects the published Decimal50 words to ten\nbinary64 words and declares their exact dyadics as a new accurate family point.\nIts bind phase consumes this job's real72c factory and current joint-provider\nconfiguration before producing a separately typed two-problem BVP recipe.\nThe former finite-Gauss solution, J, RHS, domain and acceptance are not inputs.\nAll rational/projection/interval work, including the optional necessary coast\ncenter diagnostic, belongs only to public Actions. No diagnostic adds a gate.\n\"\"\"",
+          "after": "\"\"\"R503: an explicit NEW coast-base point sourced from actual202's ten words.\n\nFirst perform the original complete Decimal50-to-binary64 projection. Then\nexplicitly set only p3/theta3/eta3 to positive zero and retain the other seven\nprojected words. All original words, projection differences, changed indices\nand new accurate dyadics are returned. This is a different parameter point\nand target metric, not a continuation or acceptance of the R449 point.\nThe original same-job full C/factory/current geometry and complete453 then\ngenuine frozen450 input contracts remain. This adapter does not solve them.\nNo center or sufficient coast-domain diagnostic creates a BVP gate. The\nunchanged numerical RHS/domain and full original solve remain responsible.\nAll arithmetic and scientific preparation run only in the public Actions.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R449-actual202-new-accurate-ten-candidate-adapter-v1\"",
+          "after": "SCHEMA = \"R503-actual202-explicit-coast-base-new-accurate-ten-candidate-adapter-v1\"",
+          "count": 1
+        },
+        {
+          "before": "POLICY = \"explicit-binary64-projection-then-exact-dyadic-new-accurate-family-point\"",
+          "after": "ORIGINAL_INPUT_POLICY = \"explicit-binary64-projection-then-exact-dyadic-new-accurate-family-point\"\nPOLICY = \"original-ten-word-projection-then-explicit-positive-zero-p3-theta3-eta3-new-point\"\nCOAST_PARAMETER_INDICES = (2, 5, 8)",
+          "count": 1
+        },
+        {
+          "before": "and value.get(\"candidate_policy\") == POLICY,",
+          "after": "and value.get(\"candidate_policy\") == ORIGINAL_INPUT_POLICY,",
+          "count": 1
+        },
+        {
+          "before": "BVP_RECIPE_SCHEMA = \"R449-explicit-actual202-projected-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "after": "BVP_RECIPE_SCHEMA = \"R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "count": 1
+        },
+        {
+          "before": "BVP_DRIVER_NAME = \"geometry_20261116_actual202_accurate_ten_full453_frozen450.py\"",
+          "after": "BVP_DRIVER_NAME = \"geometry_20261116_actual202_coast_base_ten_full453_frozen450.py\"",
+          "count": 1
+        },
+        {
+          "before": "projected_binary64_parameters",
+          "after": "candidate_binary64_parameters",
+          "count": 6
+        },
+        {
+          "before": "projected_binary64le",
+          "after": "candidate_binary64le",
+          "count": 12
+        },
+        {
+          "before": "projection_rows",
+          "after": "candidate_rows",
+          "count": 7
+        },
+        {
+          "before": "actual202-projected-accurate-ten-model-recipe.json",
+          "after": "actual202-coast-base-accurate-ten-model-recipe.json",
+          "count": 1
+        },
+        {
+          "before": "actual202-accurate-ten-full453-frozen450-recipe.json",
+          "after": "actual202-coast-base-ten-full453-frozen450-recipe.json",
+          "count": 1
+        },
+        {
+          "before": "R449_candidate_necessary_over_limit",
+          "after": "R503_candidate_necessary_over_limit",
+          "count": 1
+        },
+        {
+          "before": "BEGIN_R449_CANDIDATE_NECESSARY",
+          "after": "BEGIN_R503_CANDIDATE_NECESSARY",
+          "count": 1
+        },
+        {
+          "before": "END_R449_CANDIDATE_NECESSARY",
+          "after": "END_R503_CANDIDATE_NECESSARY",
+          "count": 1
+        },
+        {
+          "before": "R449_candidate_adapter_returned",
+          "after": "R503_candidate_adapter_returned",
+          "count": 1
+        },
+        {
+          "before": "same_job(value, \"R449 bound candidate\")",
+          "after": "same_job(value, \"R503 explicit coast-base bound candidate\")",
+          "count": 1
+        },
+        {
+          "before": "actual202_only_provides_explicit_new_candidate_coordinates=True",
+          "after": "actual202_words_are_projected_then_explicit_coast_coefficients_changed=True",
+          "count": 1
+        },
+        {
+          "before": "def project_candidate(value):\n    # This is scientific candidate arithmetic, performed only in Actions.\n    require_actions()\n    exact = [Q(word) for word in value[\"original_decimal50_words\"]]\n    projected = [float(word) for word in exact]\n    require(all(math.isfinite(word) for word in projected), \"Candidate binary64 projection is nonfinite\")\n    dyadic = [Q.from_float(word) for word in projected]\n    rows = [dict(index=i, parameter=PARAMETERS[i], original_decimal50_word=word,\n        original_exact_rational=str(a), projected_binary64_value=v,\n        candidate_binary64le=struct.pack(\"<d\", v).hex(),\n        projected_binary64_hex=v.hex(), new_accurate_parameter_exact_dyadic=str(b),\n        exact_projection_difference_binary64_minus_original=str(b-a),\n        original_rational_exactly_represented=(a == b))\n        for i, (word, a, v, b) in enumerate(zip(value[\"original_decimal50_words\"], exact, projected, dyadic))]\n    return dict(schema=SCHEMA+\"-parameter-point\", parameter_order=list(PARAMETERS),\n        policy=POLICY, original_decimal50_words=value[\"original_decimal50_words\"],\n        original_parameter_array=copy.deepcopy(value[\"original_parameter_array\"]),\n        candidate_binary64_parameters=projected, candidate_binary64le=raw_words(projected),\n        new_accurate_ten_parameters=[str(v) for v in dyadic], candidate_rows=rows,\n        all_original_rationals_exactly_represented=all(row[\"original_rational_exactly_represented\"] for row in rows),\n        new_factory_and_initial_BVP_use_the_same_declared_dyadic_point=True,\n        original_decimal_point_silently_relabelled=False,\n        finite_Gauss_g_residual_J_domain_or_acceptance_transferred=False)\n",
+          "after": "def project_candidate(value):\n    \"\"\"An explicit changed point; the other seven original projected words stay.\"\"\"\n    require_actions()\n    exact = [Q(word) for word in value[\"original_decimal50_words\"]]\n    original_projection = [float(word) for word in exact]\n    require(all(math.isfinite(word) for word in original_projection),\n        \"Original candidate binary64 projection is nonfinite\")\n    chosen = list(original_projection)\n    for index in COAST_PARAMETER_INDICES:\n        chosen[index] = 0.0\n    original_dyadic = [Q.from_float(word) for word in original_projection]\n    dyadic = [Q.from_float(word) for word in chosen]\n    rows = [dict(index=i, parameter=PARAMETERS[i], original_decimal50_word=word,\n        original_exact_rational=str(a),\n        original_projection_binary64_value=v0,\n        original_projection_binary64le=struct.pack(\"<d\",v0).hex(),\n        original_projection_binary64_hex=v0.hex(),\n        original_projection_exact_dyadic=str(a0),\n        exact_original_projection_difference=str(a0-a),\n        candidate_binary64_value=v,\n        candidate_binary64le=struct.pack(\"<d\",v).hex(),\n        candidate_binary64_hex=v.hex(),\n        new_accurate_parameter_exact_dyadic=str(b),\n        exact_candidate_minus_original_projection=str(b-a0),\n        exact_candidate_minus_original_decimal=str(b-a),\n        explicitly_assigned_positive_zero=(i in COAST_PARAMETER_INDICES),\n        original_projected_word_retained=(struct.pack(\"<d\",v)==struct.pack(\"<d\",v0)))\n        for i,(word,a,v0,a0,v,b) in enumerate(zip(\n            value[\"original_decimal50_words\"],exact,original_projection,\n            original_dyadic,chosen,dyadic))]\n    return dict(schema=SCHEMA+\"-parameter-point\",parameter_order=list(PARAMETERS),\n        policy=POLICY,original_input_policy=ORIGINAL_INPUT_POLICY,\n        original_decimal50_words=value[\"original_decimal50_words\"],\n        original_parameter_array=copy.deepcopy(value[\"original_parameter_array\"]),\n        original_projection_binary64_parameters=original_projection,\n        original_projection_binary64le=raw_words(original_projection),\n        candidate_binary64_parameters=chosen,candidate_binary64le=raw_words(chosen),\n        new_accurate_ten_parameters=[str(v) for v in dyadic],candidate_rows=rows,\n        explicit_positive_zero_indices=list(COAST_PARAMETER_INDICES),\n        explicit_positive_zero_parameters=[PARAMETERS[i] for i in COAST_PARAMETER_INDICES],\n        retained_original_projection_indices=[i for i in range(10)\n            if i not in COAST_PARAMETER_INDICES],\n        all_original_rationals_exactly_represented_by_original_projection=all(\n            a==b for a,b in zip(exact,original_dyadic)),\n        all_original_rationals_equal_new_candidate=all(a==b for a,b in zip(exact,dyadic)),\n        exact_beta_for_initial_coast_three_terms=\"0\",\n        exact_other_supports_and_boundary_twojets_unchanged_by_coast_terms=True,\n        original_whole_numeric_profile_bitwise_equality_not_claimed=True,\n        changed_parameter_point_and_new_target_metric_explicit=True,\n        new_factory_and_initial_BVP_use_the_same_declared_dyadic_point=True,\n        original_decimal_or_R449_point_silently_relabelled=False,\n        finite_Gauss_or_R449_g_residual_J_domain_or_acceptance_transferred=False,\n        complete_new_parameter_domain_or_initial_RHS_or_BVP_not_proved=True,\n        new_BVP_acceptance_gate=False)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_actual202_accurate_ten_full453_frozen450.py",
+        "bytes": 34835,
+        "sha256": "56cbf3b23d80600121adc2bbeb368e3930d4e5cffe6a2e2a0ab4919cc1018615"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_coast_base_ten_full453_frozen450.py",
+        "bytes": 34418,
+        "sha256": "02ca1f2476f74cf3a5d83a044f689449fd785e4bc1018a039b5709340a211890"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"R449: explicit actual202 candidate in NEW accurate-ten full453, then frozen450.\n\nBoth phases execute the unchanged full-DN core and complete-band main.  The\nfirst fixes seven shape coordinates and three low-core targets; the second\nfixes all ten scalar words and has zero fixed low-core targets and zero active\nscalar rows.  A genuine original453 acceptance is only a new450 seed.\nEach phase separately pays original preflight/current-H FD, full nonlinear\ncalls, all338 by112 endpoint response and fresh final audit.  One live native\nworker with the published197 complete-family/joint-nominal rows remains owned\nby this driver until its finally block; phase leases\ndo not close it.  No old response, affine map, successful tail or relabelled\nrow-deleted field supplies the new acceptance.\n\nThe accurate continuous-ten definition, disclosed finite compiler and current\nfinite C/native evaluator remain separate.  Neither finite acceptance proves\nthe exact-real target, continuous metric/C2 seam, embedding, reach or closure.\nActual202 supplies only the published ten Decimal50 words. The R449 adapter\nexplicitly chooses their binary64 projection as a new accurate dyadic point;\nno finite-Gauss residual, domain, field or acceptance is inherited. Nonzero xi\nis a declared input, not a changed equation or a repaired coast assertion.\nRun science only in public Actions. A separately bound external owner must\nretain the original absolute clock, quiet/readback and cleanup; this source\nis not implicitly accepted by the old203 launcher or downstream tuples.\n\"\"\"",
+          "after": "\"\"\"R503: explicit new coast-base ten point, original full453 then frozen450.\n\nThe source point is the original actual202 ten-word projection with only\np3/theta3/eta3 explicitly assigned positive zero. The other seven projected\nwords are retained. This changes the accurate point and metric; it inherits\nno R449/finite-Gauss domain, residual, Jacobian or acceptance.\nThe first problem still fixes seven shape coefficients and three low-core\ntargets while p1/p2/p3 remain the three active scalar coordinates. Its genuine\ncurrent full453 acceptance is only an initial guess for a separate frozen450.\nBoth original complete phase bodies, physical338/core112, current H/FD/fullDN,\nall338 by112 response, fresh final audit, one owner and original clock remain.\nThe actual factory/finite compiler/current C representative remain distinct;\ncoast-base initialization does not certify the other pieces, exact C2 seams,\nwhole metric, full-time geometry, or any successful numerical initial RHS.\nRun science only in this public repository Actions. New outer source tuples,\nreaders and request registration are required; no old entry is relabelled.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA=\"R449-actual202-projected-accurate-ten-joint-full453-to-frozen450-physical-DN-v1\"",
+          "after": "SCHEMA=\"R503-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-physical-DN-v1\"",
+          "count": 1
+        },
+        {
+          "before": "RECIPE_SCHEMA=\"R449-explicit-actual202-projected-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "after": "RECIPE_SCHEMA=\"R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "count": 1
+        },
+        {
+          "before": "CANDIDATE_NAME=\"geometry_20261116_actual202_accurate_ten_candidate.py\"",
+          "after": "CANDIDATE_NAME=\"geometry_20261116_actual202_coast_base_ten_candidate.py\"",
+          "count": 1
+        },
+        {
+          "before": "CANDIDATE_NAME:\"ee3675ce3465930f2ce32283a468f5fad464639ca6ccda6352f027f00f0c6c38\"",
+          "after": "CANDIDATE_NAME:\"5c62dd98ae8bf2e861248ccb0eabbacc86aceaa5f13cbc195cc6e42b511eae5c\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_actual202_accurate_ten_full453_frozen450_launch.py",
+        "bytes": 20657,
+        "sha256": "227ef601ad910cb424f115cf93f8bb55e56dc74be5bb451839dab06f0ce627c7"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_coast_base_ten_full453_frozen450_launch.py",
+        "bytes": 20494,
+        "sha256": "d2a3107b5f3a556828a8031180fdf9b52ab8d2725061a1f68077a241cdf8b18b"
+      },
+      "replacements": [
+        {
+          "before": "\"\"\"Own actual202 projected NEW accurate-ten full453 then genuine frozen450.\n\nR449 candidate binding is a current same-job source input, not an inherited\nfinite-Gauss field or acceptance. The original cb057 owned-process algorithm\nis preserved, including the shared7200 ceiling and absolute namespace clock.\n\nThis is transport/resource control, not a mathematical acceptance test.\nThe fixed original solve's 17 trials/eight outers and native32/10 are untouched.\nOne live owner remains from the first453 actual-H call through both complete\nphase-specific FD/full-DN/final audits. The same original7200s process budget\ncovers both phases; no intermediate worker split or clock reset is allowed.\nAuthor: AI, 2026-11-15. Raw remains temporary until complete actual readback.\n\"\"\"",
+          "after": "\"\"\"Own the explicit R503 coast-base full453 then genuine frozen450.\n\nThis separately typed entry binds the new three-positive-zero initial point,\nits actual current factory and actual driver. It does not use the old R449\npoint identity. The original resource supervisor, shared7200 BVP ceiling,\nabsolute namespace clock, 34359738368-byte startup storage requirement,\noriginal solve/FD/fullDN/final/audit and one live owner remain unchanged.\nNo diagnostic or sufficient coast bound adds a new mathematical gate.\nRaw stays temporary until complete original readback and actual quiet.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA=\"R449-actual202-accurate-ten-full453-frozen450-owned-process-launch-v1\"",
+          "after": "SCHEMA=\"R503-actual202-coast-base-ten-full453-frozen450-owned-process-launch-v1\"",
+          "count": 1
+        },
+        {
+          "before": "RECIPE_SCHEMA=\"R449-explicit-actual202-projected-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "after": "RECIPE_SCHEMA=\"R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1\"",
+          "count": 1
+        },
+        {
+          "before": "DRIVER=\"geometry_20261116_actual202_accurate_ten_full453_frozen450.py\"",
+          "after": "DRIVER=\"geometry_20261116_actual202_coast_base_ten_full453_frozen450.py\"",
+          "count": 1
+        },
+        {
+          "before": "DRIVER_SHA=\"56cbf3b23d80600121adc2bbeb368e3930d4e5cffe6a2e2a0ab4919cc1018615\"",
+          "after": "DRIVER_SHA=\"02ca1f2476f74cf3a5d83a044f689449fd785e4bc1018a039b5709340a211890\"",
+          "count": 1
+        },
+        {
+          "before": "\"R449-actual202-new-accurate-ten-candidate-adapter-v1\"",
+          "after": "\"R503-actual202-explicit-coast-base-new-accurate-ten-candidate-adapter-v1\"",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
