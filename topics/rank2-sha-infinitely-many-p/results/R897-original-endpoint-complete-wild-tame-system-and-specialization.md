@@ -761,3 +761,189 @@ Proposition6.3、Theorem6.5、Proposition6.6；
 这关闭了原有限 tame note 与 R885 单独 n=1 wild 之间的
 同源兼容门。它不改变 R891/R893 的非零前提，不证明其 $s=0$，
 也没有把高权全局 Heegner 类非零升成局部非零。
+
+
+## 附录 B：原 Δ 来源的单侧 ray 提取及无界层度数
+
+本附录只讨论正文已经构造的原来源，以及将它 pull 到完整 ray 层、
+再向单侧 ray 层 trace 的操作。固定普通 p、原最高角色 i，并暂假设
+原首层 $c_{i,1}\ne0$。不把这一假设补成已证的非零。
+
+### B.1 原来源确实杀掉哪一个 diamond 群
+
+在 ACR Lemma 3.5 / Corollary 3.6 中，第一槽经过的实际曲线为
+$Y(1,N_\psi(n^2))$。将它 pull 到 $Y_1(N_\psi n^2)$ 后，得到的
+cohomology 来源被
+$$
+\Delta_n=\{\langle d\rangle':d\equiv1\pmod {N_\psi}\}
+$$
+固定。该事实是 Lemma 3.5 证明中
+$H^1_c(Y(1,N_\psi(n^2)))=H^1_c(Y_1(N_\psi n^2))^{\Delta_n}$
+的实际来源身份，不是从最后的一个边际或某个范数关系推出。
+
+由同文 Proposition 3.2，CM Hecke 商上的 diamond 为
+$$
+\langle d\rangle'\longmapsto
+ \chi(d)\varepsilon_K(d)[(d)] .
+\tag{B1}
+$$
+在新增辅助 q 处，可取 d 在原固定导子、全部旧辅助素数和任一固定
+wild 层的 p 模数上均为1，而在 q 处任取单位。
+此时 (B1) 的固定有限角色为1；剩余作用恰是有理整数的 ray Artin
+作用。原第二、三槽已回到固定 tame level，原 q/q⁴ 的二处端点及
+$C_5=-216$ 不改变此新 q-diamond 身份。
+
+正文的所有退化对应、群环乘子、有限 divisor-sum 修正和
+R886 的另外三个 Euler 因子单位归一均与这个作用交换。
+因此附录 A 的完整原最高系统仍属于该 Δ 来源。
+这一步没有改变其 n=1 归一。
+
+### B.2 三个实际 p 类域
+
+取正文允许的分裂辅助素数
+$q=\mathfrak q\bar{\mathfrak q}$，并置
+$$
+h=h_q=p^{v_p(q-1)} .
+$$
+令 L 为 K 的模 $(q)$ 的最大 p-ray 类域，令
+$R=K[q]$ 为原 p-ring-class 层，令
+$S=K(\mathfrak q)$ 为模 $\mathfrak q$ 的最大 p-ray 层。
+本 K 的类数为1，且单位群 $\mu_6$ 的阶与 p 互素，故实际类域序列给
+$$
+\operatorname{Gal}(L/K)
+ =C_h\times C_h,\qquad
+\operatorname{Gal}(R/K)
+ =(C_h\times C_h)/\Delta C_h,\qquad
+\operatorname{Gal}(S/K)=C_h .
+\tag{B2}
+$$
+最后一个商是第一坐标商；交换两个坐标只会交换所选单侧。
+于是
+$$
+R\cap S=K,\qquad RS=L,\qquad
+[L:R]=[L:S]=[R:K]=[S:K]=h .
+\tag{B3}
+$$
+
+同一断言在任意既有 tame/wild 基层上成立：新 q 的两个惯性因子
+与旧模数由中国剩余定理分开；全 p 类域不存在由类数带来的额外商。
+特别地可先在每个有限 wild 层证明下面的 Mackey 等式，再取原
+有界逆极限。这里没有把模 $(q)$ 的 ray 层与模 $\mathfrak q$
+的 ray 层相认。
+
+### B.3 同原类的 pull/trace 精确多出 h
+
+先在有限首层写清。由 (B3) 的线性不交及 Mackey 公式，对任何
+$x\in H^1(R,T_i)$ 都有
+$$
+\operatorname{cor}_{L/S}\operatorname{res}_{L/R}x
+ =
+\operatorname{res}_{S/K}\operatorname{cor}_{R/K}x .
+\tag{B4}
+$$
+因此将正文已经归一的原 $c_{i,q}$ pull 到 L、再 trace 到 S，
+得到的实际类是
+$$
+y_{\mathfrak q}:=
+\operatorname{cor}_{L/S}\operatorname{res}_{L/R}c_{i,q}
+ =
+P_{i,q}\operatorname{res}_{S/K}c_{i,1}.
+\tag{B5}
+$$
+这里 $P_{i,q}$ 是正文实际 rank-one Euler 因子在底层 Frobenius
+上的值；完整 wild 版本保留其总群 Frobenius，不改成常数。
+
+再向 K corestrict，得到
+$$
+\boxed{
+\operatorname{cor}_{S/K}y_{\mathfrak q}
+ =h\,P_{i,q}c_{i,1}.
+}
+\tag{B6}
+$$
+所以 (B5) 不是所需的 one-place Euler 关系
+$\operatorname{cor}y=P_{i,q}c_{i,1}$。
+在同一条旧来源线上，要恢复该关系须使用
+$$
+y_{\mathfrak q}^{\,\mathrm{one}}
+ =\frac{P_{i,q}}h\,\operatorname{res}_{S/K}c_{i,1}.
+\tag{B7}
+$$
+不能把这枚 $1/h$ 隐藏在 Shapiro 同构、CM 特征幂等元或 “规范 trace”
+中。它是实际扩张度数。
+
+(B.1) 还解释了为什么这组操作没有给出新的单侧角色分量：
+原 full-ray 来源的对角 $C_h$ 固定性，使它只含
+$(C_h\times C_h)/\Delta C_h$ 的角色；要求同时经第一坐标商时，
+唯一共同角色是平凡角色。因此 pull/trace 的像落在 (B5) 的旧
+restriction 来源。对此像再施任意整群环操作，只作用为其增广标量。
+在该旧线上加入有限个同类 pull/trace 操作，也不能生成一个新的
+单侧非平凡角色类。
+
+### B.4 固定 p 格中的分母下界
+
+固定一次共同格 $\mathcal T=p^{-c_p}T_i$，使原有限系统全在
+$H^1(K[n],\mathcal T)$ 中。置
+$$
+v=\max\{a\ge0:c_{i,1}\in
+ p^aH^1(K,\mathcal T)\}.
+\tag{B8}
+$$
+由于 $c_{i,1}\ne0$，这是有限整数：十七惯性使所有 $H^0(K,\mathcal T/p^N\mathcal T)$ 为零，连续上同调的逆极限正合列因而给 $H^1(K,\mathcal T)\hookrightarrow\varprojlim_N H^1(K,\mathcal T/p^N\mathcal T)$；一个无限 p 可除类必在此逆极限中为零。若系数环相对 $\mathbf Z_p$
+分歧，(B8) 仍按理性 p 的整幂定义，正好与 $h=p^{v_p(q-1)}$
+的分母比较。
+
+原十七惯性中的元素在 $T_i/p^N T_i$ 上作用为 $-1$。
+S/K 只在 q 分歧，所以这个惯性仍包含于 $G_S$。
+因为 p 是奇数，
+$$
+H^0(S,\mathcal T/p^N\mathcal T)=0
+\qquad(N\ge1).
+$$
+Hochschild–Serre 因而给真正的注入
+$$
+H^1(K,\mathcal T/p^N\mathcal T)
+ \hookrightarrow H^1(S,\mathcal T/p^N\mathcal T).
+\tag{B9}
+$$
+系数正合列又给
+$H^1(-,\mathcal T)/p^N\hookrightarrow
+ H^1(-,\mathcal T/p^N\mathcal T)$。
+合起来说明 restriction 不会提高 (B8) 的 p 整除阶。
+
+现让 q 在 R886 已付的 $\gamma$ 辅助集合中变化。
+该集合可同时要求 $q\equiv1\pmod {p^M}$，M 任意；
+原最高角色在 $\gamma$ 上为−1，故
+$$
+P_{i,q}\equiv 2\pmod{\mathfrak m_{\mathcal O}},
+\tag{B10}
+$$
+是整单位。于是 (B7) 需要的理性 p 分母至少为
+$$
+\boxed{
+\max\{0,\ v_p(h_q)-v\}.
+}
+\tag{B11}
+$$
+此下界随 M 无界。若先用完整 wild 系统尝试相同的有界单侧
+pull/trace 归一，其增广特殊化仍须等于 (B7)，所以 (B11)
+同样排除一个与 q 无关的共同格。
+原最低权 Euler $\mathcal E_{p,1}$ 是单位，不改变这个阶。
+
+### B.5 准确结论
+
+原有界系统的 Δ 来源、(B2)–(B4) 的实际类域和 Mackey 关系，
+严格迫使这条 ray pull/trace 路径产生 (B6) 的额外 h；
+在 $c_{i,1}\ne0$ 时，不能有界地把它除掉。
+因此不能仅凭 ACR Theorem 3.3 存在一般 ray CM 商，
+就把 R897 已付的 ring-class 系统改称为一个相同底类的
+one-place ray Euler 系统，再套用这种更强系统的 strict-Selmer 界。
+
+本结论只排除保留原 Δ 来源并使用上述 pull/trace、整群环操作的
+这条路径。它不排除新的非 Δ 几何来源，也不排除另行构造并支付
+真实单侧新字符类。R893 的 $s=0$ 仍未由本附录推出。
+
+原文依据是 ACR 正式刊本 Proposition 3.2、Lemma 3.5 的
+$\Delta$-invariant 身份、Corollary 3.6，以及 §4–§6 的实际固定
+test-vector 投影；其余 (B2)–(B11) 已对本题 $K=\mathbf Q(\omega)$、
+原十七惯性和原 $\gamma$ 辅助集合逐项证明。

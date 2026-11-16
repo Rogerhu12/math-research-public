@@ -395,3 +395,5 @@
 - [R898](../results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)：原P公开run43835679463的k4矩阵818×648在1000000033、a=50539607满列秩；结合完整M4基与分母单位，严格排所有特征零权4比值，也排权2。若原Ynew延成X0(867)有理函数，RR迫次数≥324。k6只53素数/1585位后取消，未认证也未排除。
 
 - [R887 §16](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：固定m四输入的sigma/Bloch精确分解和递推齐；原平移连接的p曲率准确为−m cp Z(B)，原每根局部Smith一项一次。真实hB除子[−B]+(p−1)O−p[−C]、首项及对数常数全定，T_m,p以原sigma低卷积/截断指数精确读取；仍保p级极帽和D_B法向缺陷，不冒固定RR或α非零。
+
+- [R897 附B](../results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)：原Δ来源的full-ray pull/单侧trace准确落在Pq res c1旧线上，corestriction多出h；γ集Pq单位且17惯性保restriction整阶，若原c1≠0，除h所需p分母随辅助层无界。只排该原操作路径，未排新单侧类或推出s0。
