@@ -273,3 +273,7 @@ producer 从 R892 blob b1a6be2cf9ff2addf0f83bccd6b6d6837813a019 派生。
 所有数学执行仅在公开 Actions。本篇未在本地或工具编排器运行数学代码，
 也未记录新 PASS。按根规则15，只保脚本、参数、run 与输出 SHA-256；
 不保存可重算系数、矩阵或证书输出。
+
+## 8. 已启动的公开执行
+
+本次 source 为 `1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f`；[run 43895102858](https://github.com/Rogerhu12/math-research-public/actions/runs/43895102858)，job `133396398465`，2026-11-16 15:19:30 UTC 创建。15:23 UTC 已进入实际数学步骤，尚无 PASS。参数仍为本篇固定三嵌入/128位数码/权6，不另换原输入。

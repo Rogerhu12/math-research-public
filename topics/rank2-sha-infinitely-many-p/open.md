@@ -55,7 +55,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 继续，k2/4。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同原 Newton germ 全残差/唯一性已证。run43883945027，P job133356889710、F job133356889202，尚无PASS。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
-- 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run待取。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
+- 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run43895102858/job133396398465已运行，source1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f，尚无PASS。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
@@ -85,6 +85,8 @@ R891已直接证明原受限辅助集的anti-Kummer、17惯性Sah/Nakayama双点
 R893在上述非零前提下，实际Castella Cor4.6.1/控制给R814固定Heegner增广本原；D=U Z°，U为单位。全部iota/period/平滑/Euler保，得到同H单位的ccan=H Dfun·D、Ccan=H Dfun²。s=ordDfun仍可能>0；ordinary loc及同p原canonical底非零恰等价s=0。derived canonical不能套未除T的strict-kernel结论。
 
 R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace到单侧，真Mackey关系多出h=p^vp(q−1)；γ集使Pq为unit、17惯性使restriction保持整阶，所以归一分母无界。它只排该组原pull/trace操作，不排新的单侧非平凡来源。
+
+[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。双新N12整、双迹零、root−，尚未付两因子除法；不推出s0。
 
 **下一实质门：** 原c1非零、Dfun阶s=0及同目标p的无穷性。继续实际同源关系或新的合法几何输入，不能把条件rank1或一个辅助层非零当成ordinary loc注入。
 
