@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 06:35:57 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 83862fbd5dbf368ea3f57b4c40cbb08b2e78b69b。
+规则同步记录：2026-11-16 06:38:21 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 919803fd827b3e2a079742d87a0f9b8d1f2e70a7。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -33,10 +33,11 @@
 
 压缩前H全文在0e78e97fa380327094b85bd3413b1653ad60ef4c同路径，继续保fedcc67e/04bc6f9d/77fae38c/3f08ce43及更早完整检查点。全部参数、原词、失败/未返/未访、预算和清理仍有效；只去当前重复。完整来源见[results](results.md)/各正文，旧索引在results-index-through-request212.md；open§4–6逐字保。
 
-R412实际195正H总18000钟停stage368，J/residual/trial未返，R273/FD/fullDN/final/audit未起，原224已批/未重算primal，quiet真清，非接受父。R420实际197105far完整/m212 partial；R432实际200八pair必要超90K末pair失；R439实际202第三binary64 unit未过、553B/ba7d仅初猜。
-R440/88f38904实际203、R453/3f08ce43实际205：C/全112far/joint齐，1M physical inverse work只3point/0field，无BVP；旧selector漏point/stack且raw真清不能补。205固定十dyadic controls-on域10594终端未决/16未访，非非法或新增前门；原native-ready false使binding未起453/450/闭面。
-R472/8206abdf实际210缺lifted_modes_response，1.033246秒native前停；154身份非递归导入证明，16973/e299两job同且真清。R455/e66b7885实际206八model/freshFD/真父交接、24trial仅计数，119344/119694B皆70/正文0，cleanup真skip，末pair失。
-R446/fedcc67e实际204（21458/96d5775c）：128原容差及fresh replay全词同、四postowner程序完整，native/fullDN未接受；111829B必要超90K只795B错误正文。详细极值/backend/逐trial未返，guard0/最后匹配空但quiet全证未返且cleanup真skip。两日志不重取。
+各实际终态完整原词、参数、bytes/SHA、失败/未返/未访及清理逐字保在919803fd827b3e2a079742d87a0f9b8d1f2e70a7同路径及results各正文，以下只留当前接续要点。
+R412/195正H总18000停stage368，未返J/trial、非接受父。R420/197 m212 partial、R432/200八pair超90K末pair失。R439/202第三binary64 unit未过，553B/ba7d仅新准确族初猜。
+R440/203与R453/205：C/全112far齐，1M inverse work只3point/0field，BVP未起；旧selector漏point/stack且raw真清不能补。205controls-on域10594终端未决/16未访不判非法或加前门，binding native_ready false。
+R472/210缺lifted_modes_response在native前停、16973/e299两job同且真清；R455/206八model/freshFD原24trial仅计数，119344/119694皆70正文0，quiet/cleanup skip、末pair失。
+R446/204在fedcc67e：128原容差及fresh全词replay、四postowner程序完成；111829必要超90K只795/f74e错误正文，详细极值/backend/逐trial未读。原64受控无响应、外fullDN未起；guard0但完整quiet证据未读、cleanup skip。R491说明原混合J合法，未接正常响应/原fullDN不冒数值拒；终态日志不重取。
 
 ## 原主线与本次来源
 
@@ -50,9 +51,9 @@ R477两reader47d7/6e40与接口6dda已8df750ba，8个原point/stack字段直接�
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；遗失依已刊原源/完整接口重做，不靠已删raw。root唯一Git/ref，每结论立即推、每pull核双README。源文/完整证明写成即登记，不等额外审查或重跑。
-- geometry：唯一209/R469、212/R478、214/R484终态。214入口29df28d3/43815427382，原251+15/三层depth2/唯一钟/九scope/全部门保，完整接口与manifest仍在R482。R489三件本次刊：source42246/0ce2f7ab、proof11974/4ade14ea、interface15697/6df55f1a；原f12f/1c39真同C全头重算与合法交，实际205钟/quiet保，未执行/未改CP或下游叶。R492继续原R400/R416真实只读叶adapter，分清target/cut/query各消费范围；217/R490暂未建，不添BVP门。
-- amplitude：唯一211/R475与未来215/R486终态。R446已fedcc67e；R485三件d2f2b000/936a5403/05f4f38b已915f148b，215入口84775/2bceb3ea与31916/7bf02c8b已b952df81，实际43816406919/133129348123已官方绑定。原204四科学/lifecycle/94pins全字保，新增reader得95；19200/32×10/2e-9/单90K/70/quiet不变。完整原selected值/错误/地址/数字词保，只实际同值固定语义共享，不保证装下；不新增fixture。
+- geometry：唯一209/R469、212/R478、214/R484终态。214入口29df28d3/43815427382，原251+15/三层depth2/唯一钟/九scope/全部门保，完整接口与manifest仍在R482。R489三件已919803fd：source42246/0ce2f7ab、proof11974/4ade14ea、interface15697/6df55f1a；原f12f/1c39真同C全头重算与合法交，实际205钟/quiet保，未执行/未改CP或下游叶。R492继续原R400/R416真实只读叶adapter，分清target/cut/query各消费范围；217/R490暂未建，不添BVP门。
+- amplitude：唯一211/R475、215/R486终态；215实际b952df81/43816406919，原204四科学/94pins全字复用加R485 reader得95，原钟/全门/90K/quiet保。R49132598/890ecf40本次刊：混合338J为原合同，内层只取前M但全payload保；live128正常response与原FD/fullDN仍待真接，不添全解析门。续核205/214/216实际native loader是否覆盖R466/R471/R474，211优化不自动迁移。
 - exact：唯一207/R460、208/R467、213/R480终态。R483五件已3559e04e，manifest8574/b39ed7a0、合计95161B，未执行；216/R487继续实际214的15个R464 union views之后再生成独立metric/post/reader/held来源，R488实际预留，不退回旧M族。初点factory域仍未付，原定义/field/全部原门保。
-- root：R482六件0e78e97f、214入口29df28d3及实际绑定已刊；R485已915f148b、215入口b952df81及实际绑定已刊；R483五件已3559e04e、固定C说明已e99341ea，R489三件本次刊；续216、R492真实叶消费及R491原native主门说明/open下项。实际partial/失败/接受分责，未启动不补拒；不停在阶段报告或等待用户。
+- root：R482六件0e78e97f、214入口29df28d3及实际绑定已刊；R485已915f148b、215入口b952df81及实际绑定已刊；R483五件已3559e04e、固定C说明已e99341ea，R489已919803fd，R491本次刊；续216、R492真实叶消费及实际native优化接点/open下项。实际partial/失败/接受分责，未启动不补拒；不停在阶段报告或等待用户。
 
 215入口b952df81官方topic tree6df144a6952c33e7b3efc8e6fd1cdeae70316537：9278blobs/197116135B、9650entries，truncated=false。62两生成清单已77fae38c普通删1352194B（仅4d61/ef5e），63已b696cc15；原父/源/历史保，不存新raw。

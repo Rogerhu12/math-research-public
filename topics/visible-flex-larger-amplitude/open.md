@@ -32,6 +32,8 @@
 
 R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明时open](https://github.com/Rogerhu12/math-research-public/blob/e99341ea80eb7ba5a634ee6c21bc9ac73252562d/topics/visible-flex-larger-amplitude/open.md)，参数及未付仍有效。[R485](results/R485-fixed-semantic-sharing-of-native128-necessary-metadata.md)/[215接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)三件已915f148b：仅实际全字同的固定必要metadata共享，原全部selected科学/数字原词/负零/null/地址/错误/顺序保。原204四科学/lifecycle与94pins全字保，新增reader得95；19200/32×10/2e-9/16KB工程选择/90KB超70/quiet不变，不保证装下。request84775/2bceb3ea与workflow31916/7bf02c8b入口b952df814c98ef5927a4f5013364d2eed6002d74；真实run43816406919/compute133129348123/06:23:20Z，amplitude唯一R486，未取running日志，不预填接受。入口topic tree6df144a6952c33e7b3efc8e6fd1cdeae70316537为9278blobs/197116135B、9650entries/truncated=false。
 
+**R491：原native/fullDN主门与128末态的正向消费合同；无新执行。** [完整逐源结论](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)32598B/890ecf40本次刊。原338×112本就混合解析first-slope/meanSlope与原对称差分，内层AffineTail只用前112行；其余完整行/两mean/末态仍须保，全338解析不是原接受门。204/215原bridge受控停止64、未返回新128正常响应，也未调用完整前缀fullDN，固定false不表示数值拒绝。真正后继须同job逐当前H消费全128state/jets/J/audit、明确128→原数值接口的投影/来源，再实际执行原FD、完整内层RMS≤1e-6/BC≤1e-11、新H非线性回算、冻结参数physical RMS、fresh同H J/audit、audited BC及原cut/H/材料合法性合同；不凭四complete改flag或从SHA造payload。215必要字段可判组件范围/原极值/实际错误但不传全数组，溢出仍未读。准确全解析、有限trace径向导数、C=Fe和连续几何属于更强另付声明，不增原门；未接live client、accepted前缀/闭面均未预付。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。

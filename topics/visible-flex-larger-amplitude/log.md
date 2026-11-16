@@ -430,3 +430,7 @@
 ## 2026-11-16 06:34 UTC /root — R489同C完整头部重算与原cut交
 
 **R489：同C完整重积分及合法包围交的来源实现；无新数值。** [证明](results/R489-same-C-complete-head-recomputation-and-cut-enclosure-intersection.md)11974B/4ade14ea、[接口](notes/2026-11-16-same-C-complete-head-refinement-interface.md)15697B/6df55f1a与source42246B/0ce2f7ab本次刊。原f12f全1440/six、1c39完整point叶的E/E_r/E_rr读取、5bb2 OwnedChild原字复用；五实际输入/完整非work binding与原深根族相同才允许同语义交，所有真实成员仍被包围，不取midpoint共同实现。重算新累计端点/全头/自然外端/原闭query，cut三叶及完整六积分/自然端逐项交；不保证严格收紧，空交报来源/算术不一致。只登记真实205内部227e/56cb与18900+2700钟，新phase不重开；中断保实际原件和未付，未登记child result仅metadata读回不补算，单90KB/超70/quiet保且本组件不清raw。独立新包围不改CP/definition/field；R400/R416消费未接、原query E宽目标不冒导数精度，217/R490未建。R492继续真实同语义叶adapter，非BVP前门。 open§1只压缩215重复并链e99341ea原文，§4–6逐字保。
+
+## 2026-11-16 06:36 UTC /root — R491原native/fullDN主门与128响应接点
+
+**R491：原native/fullDN主门与128末态的正向消费合同；无新执行。** [完整逐源结论](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)32598B/890ecf40本次刊。原338×112本就混合解析first-slope/meanSlope与原对称差分，内层AffineTail只用前112行；其余完整行/两mean/末态仍须保，全338解析不是原接受门。204/215原bridge受控停止64、未返回新128正常响应，也未调用完整前缀fullDN，固定false不表示数值拒绝。真正后继须同job逐当前H消费全128state/jets/J/audit、明确128→原数值接口的投影/来源，再实际执行原FD、完整内层RMS≤1e-6/BC≤1e-11、新H非线性回算、冻结参数physical RMS、fresh同H J/audit、audited BC及原cut/H/材料合法性合同；不凭四complete改flag或从SHA造payload。215必要字段可判组件范围/原极值/实际错误但不传全数组，溢出仍未读。准确全解析、有限trace径向导数、C=Fe和连续几何属于更强另付声明，不增原门；未接live client、accepted前缀/闭面均未预付。 H终态重复仅压缩并链919803fd全文，open§4–6逐字不变。
