@@ -151,3 +151,9 @@
 - R885实际整Artin认证单独登记：519.34968726s/323stage，首z=0整272×8及全部272目标方程、原v0与单charpoly九Norm通过；全部因子/幂零、dual7和原两帧保留。
 - 小IO只回读所需成员，不冒整145MB重哈希；旧W/K/273节点/17列/参考系统不重。全局Norm展开/Picard支持/五Lj/height未成，六D*消费者继续接源。
 - 本push规则：公开Actions真实pull至eff7070bb9324eac442dd7566ea4f8d7c984ac0b（2026-11-16T11:18:56.972927+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:20 Asia/Taipei — serre-public-astra-20261115
+- 六共轭D*消费者激活：core5421c814/wrapper9c2fac9d、230原件/六支/300min；五成功tar及R827修复tar直接复用，AB仅14件Range，旧K0/逆/S5/point jets不重。
+- 新正阶jets/原固定图单位与全关系保所有原行列、free/v/trial1及σ次序；实际418/首项待运行。R885整Artin正式已推，R890与R815等原运行继续。
+- 本push规则：公开Actions真实pull至1251e24b8d52762f083708249280ca7e4b8f3598（2026-11-16T11:20:09.835229+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

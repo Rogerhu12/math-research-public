@@ -157,3 +157,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R885原完整Artin目标正常坐标与九Norm实际完成**：[认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)。run43848870181/519.34968726s/323stage，首z=0整A272与E2176、所有272目标方程及原v0九Norm全部通过；无因子/幂零丢弃，单rank8 charpoly给九值，原dual7/两帧保全。真正全局Norm系数/Picard支持/五Lj/height仍缺；完成纤维直接供下游，旧273节点/17列不重。
+
+
+**R880六共轭D*实际消费者激活**：[执行方法](notes/R880-original-six-conjugate-Dstar-RR-execution-method.md)。core5421c814/wrapper9c2fac9d，230必要原件，六分支/300min；复用完整五组旧tar与R827-only修复tar，AB14小件直接Range。原五节点正阶K/逆jets是新部分，旧K0/逆/S5/point jets不重；全部原选行列/自由坐标/v/trial1及真实σ次序不变。仅实际新原minor为单位并全行回代才认证六个418，实际结果待跑。

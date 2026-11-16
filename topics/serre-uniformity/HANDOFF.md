@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：eff7070bb9324eac442dd7566ea4f8d7c984ac0b**（2026-11-16T11:18:56.972927+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[高分布前H](handoff-archive-2026-11-16-before-full-theta-distributions.md)（9973B/ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e）；该归档连接全部早先状态，所有已证结论、原pins和限制仍有效。
+**已读规则提交：1251e24b8d52762f083708249280ca7e4b8f3598**（2026-11-16T11:20:09.835229+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[高分布前H](handoff-archive-2026-11-16-before-full-theta-distributions.md)（9973B/ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e）；该归档连接全部早先状态，所有已证结论、原pins和限制仍有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。07:19终端失联后使用本公开恢复workflow真实partial/sparse git发布；10:54终端恢复，已备发布继续同流程。
 
@@ -41,7 +41,7 @@ R787 [594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)�
 
 **R880十二新输入真实success**：43849775574/job133249757658/source4a459acc；37stage/4.386065837s/80源、全部1380×12回代/七原σ输入已成；cfg839ee1e/cert1392b1d2/fullmanifest60项c7deae05。artifact14219900447/128117604B/8e05d15a，至Nov17 10:54:13。小IO43853961723已读取七输入/六pair，[正式认证](results/R880-certified-original-seven-Galois-normal-inputs.md)已登记；真σ次序(0,6,1,2,4,3,5)不可换；旧branch0/F69/S5逆不重。
 
-**六D*方法**：[原固定共轭图](notes/R880-original-six-conjugate-bounded-Dstar-spaces.md)b2e52317。原G/Γ与五旧节点12合流条件补F0/F1/F2；σ补列zF1−(5+ε)GF0及2451/415/830/395/1111/269/123/146/962/418全原图，a/v/trial1不换；每原minor在新嵌入须真实单位。旧源IO43853465428已成R842/R845/R880/R887/R872五组，artifact14217904616/75152268B/53814315、index6287ceae；R827误用17步长已更正为17块×16行；仅此组retry43854607823/job133255609873真实success，artifact14221081225/12926425B/a333e11c至Nov17 11:06:13，其余5tar直接复用。core消费者由exact_height继续。
+**六D*方法**：[原固定共轭图](notes/R880-original-six-conjugate-bounded-Dstar-spaces.md)b2e52317。原G/Γ与五旧节点12合流条件补F0/F1/F2；σ补列zF1−(5+ε)GF0及2451/415/830/395/1111/269/123/146/962/418全原图，a/v/trial1不换；每原minor在新嵌入须真实单位。旧源IO43853465428已成R842/R845/R880/R887/R872五组，artifact14217904616/75152268B/53814315、index6287ceae；R827误用17步长已更正为17块×16行；仅此组retry43854607823/job133255609873真实success，artifact14221081225/12926425B/a333e11c至Nov17 11:06:13，其余5tar直接复用。[六D*消费者](notes/R880-original-six-conjugate-Dstar-RR-execution-method.md)已激活：core5421c814/wrapper9c2fac9d、230原件/六支/300min；AB14件直接Range，其余六组只复用完成tar。实际新单位/418与首项待跑。
 
 **R885整Artin真实success**：43848870181/job133246024646/sourcea22acdb0，519.34968726s/323stage，原node0整A272/E2176/全272目标关系与九参考Norm全成，0失败纤维；cfg9e419bbb/certbb4866e7/fullmanifest334项8bbbe3d0。artifact14218009053/145477237B/7a0e8785至Nov17 10:56:08；小IO43853961723已读节点证书/index/Norm摘要，[正式认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)已核并登记。原273节点/单行adj与15件载体见[producer认证](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)，不重；全部nilpotent/剩余次数/因子与真单位保留，不冒Picard/height。
 
