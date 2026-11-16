@@ -607,3 +607,8 @@ R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立�
 ### 2026-11-16 10:02:28 UTC — 启动R498四原子完整五门唯一新搜索
 
 四原子7参完整12L/8Aj/5G源、参数和workflow现发布；request 6928B/455cccb65950fad0a45d699460e6f36ff9b922d280f616099fcf9e9ad838d6c9。R498原64起点、每起80/总6000完整值、统一180秒/150秒搜索；C0仅5shape切片，C>0七选五，只首新候选作同原有理收缩。新source61649B/1e0a0a…，root逐段读源码和原公式，未执行开发suite；不读旧cap15/三原子科学输出。共享.github/workflows/visible-four-atom-cap5-search.yml仅为本题新public研究+只读报告；两job均实际pull双规矩、私有QUEUE，全部可重算输出只留stdout。推送触发唯一新run，尚不宣候选或完成。
+
+
+### 2026-11-16 10:03:22 UTC — 四原子唯一run身份
+
+Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research133223574326/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8；只取运行元数据，待完整只读report后解读科学结果；继续56全168当前场模型。
