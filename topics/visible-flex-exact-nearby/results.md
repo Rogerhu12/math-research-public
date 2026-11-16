@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WBFA：83项新sharp Bernstein完整流界实际成功。** [完整结论与端口](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a；公开run43870348355/1，全16门5图83新、33copy/12scope，SCI df5ea6fff610d70ad98fbebc9dd004d24388ce86/59417B/SHA87621adee76080dbbc14abdd7f8e5dce5d3e2742ba299fc941d13ff40f4410c0。ordinary flow/phase2..15及完整Rω1..14已成，14阶约1.496e94；原F1/P1/K1与WDG80只读，old0/lost0。全两mean/真实96/finite/高门/非线性matching尚待。
+
 - **WPS：成对普通源与真实有限残差全候选**。[完整证明及两向Green](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff证明普通source body/endpoint必须同接，有限投影由两正交moment精确收到；principal tail合并后Jρ=(I−QfΔρ)PfGD保全L2输入。完整actual E0,D,T与degree32+χG0χB0/zero-b-trial的全部error、q_o/q_m外端、mean/7port给明确式24候选。连续/离散reference K∈[0,1]纯证；无入口module388cb56b完整apply/transpose/weighted Schur。数值e+3dt<1尚未算，不授真实finite逆。
 
 - **WCPR：完整非零cut初始化与正profile预算复用**。[完整证明](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2给真实free cut $G^{-1}p_σ^{-2}(a_1+iεσ√t,b_1)$，原cut strip/phase lower/各component及全ordinary-dr方向保；free运输后才加genuine correction。near两项/far四项各除固定正预算，原whole0独copy，3×5全signed输出权保low/zero与完整mean/端/jump。不重算旧profile/Jost；新完整候选尚未算。
