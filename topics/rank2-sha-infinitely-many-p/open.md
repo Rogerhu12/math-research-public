@@ -112,4 +112,4 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 ### 原 U 的下一实际三纤维读取
 
-已发布 check-r884-original-u-theta4-norm-three-trace.py 及对应公开 workflow，无参数、原b=1齐次缩放恢复全b。输入原C5/C6全部因子，按(X+4)^3+27a³X²及其倒根的全部Newton矩读取Q48=Tδ(UΘ4)，并独立读T2Q48与T2TδUnew。只输出完整来源坐标/质量、来源和结果hash到运行日志，不扫目标p、不存数据文件。尚未读回执，不能预报结果；继续与四原B的同质量减项联立。
+已发布 check-r884-original-u-theta4-norm-three-trace.py 及对应公开 workflow，无参数、原b=1齐次缩放恢复全b。输入原C5/C6全部因子，按(X+4)^3+27a³X²及其倒根的全部Newton矩读取Q48=Tδ(UΘ4)，并独立读T2Q48与T2TδUnew。只输出完整来源坐标/质量、来源和结果hash到运行日志，不扫目标p、不存数据文件。run43870426107/job133309825034已成功：Q48质量0、W48=TδUnew质量1/(78624b)且T2W48=0；原j_(p+1)(W48)≡c_p/(1638b)单位，必须使用完整D1的C_p=(p+1)c_p^int质量减项。来源/hash见[执行注](notes/2026-11-16-original-u-theta4-complete-three-fiber-trace.md)；继续与四原B联立。

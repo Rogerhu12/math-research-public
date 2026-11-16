@@ -227,3 +227,6 @@
 
 
 - [R883附录H.7/H.8](results/R883-original-relative-six-shadow-and-complete-boundary.md)：同原Kummer塔的完整支持/负floor/剩余嵌入与逐地方终止证明并入正文；Tate全终幂准确经原F_(r²)相对范数返回，用N2m=Nm·Nm^(r^(2m))、N2m+1=N2m·h^(r^(4m))，保全部d含ell|d及原μell嵌入。实现默认norm，旧power及逐值compare仍保；已有独立完整scalar对照只因这次终幂变更重跑，原双map认证及真实四除子未跳过。
+
+
+- [原UΘ4的完整三纤维迹](notes/2026-11-16-original-u-theta4-complete-three-fiber-trace.md)：公开Fraction全系数run43870426107成功；Q48质量0，W48=TδUnew质量1/(78624b)，独立全四纤维核T2Q48=[2]*R3/(19656b)、T2W48=0。R856原whole首行因而给j_(p+1)W48=c_p/(1638b) modp单位，合法读者须用完整D1减48C_p质量，CM处C_p=(p+1)c_p^int。原四中央未新增，继续同new/cross及高精度约束。
