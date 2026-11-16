@@ -18,13 +18,13 @@
 
 ### 1B. 完整128末态和固定trace
 
-原完整段逐字保[R397前检查点](notes/2026-11-16-open-checkpoint-before-R397.md)，内链回R429/199及全部历史；原参数、完整577×224/226态/112模态/129248行、全C/两回代缺陷、预算、错误与未访不撤。R302/R305/R314/R325及R345单field230列严格界不付全链/准确ODE/IEEE/分支；不跨run拼576段。
+原完整段逐字保[R443前检查点](notes/2026-11-16-open-checkpoint-before-R443.md)，内链全部历史/各入口/参数/计数/错误和未访。完整577×224/226态/112模态/129248行、全C/两回代缺陷/两mean及实际末态绑定不撤。R302/R305/R314/R325及R345单field230列严格界不付全链/准确ODE/IEEE/分支；不跨run拼576段。
 
-[R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)run43760800088/source3fe28c27，compute132954941845/report133023305181均success；同78878B/6f736764必要由amplitude全文读回。128首α1把原norm .0001220960545974降至9.68582474751023176032080482454992093e−11，fresh replay全残差/226输出词同。hoist真实编译0，原8000秒仅stage0..23完整；24..26各5/12、27为4/12、28..575未起，内部预算return2而非协议70。独立audit576/576、7488/7488查询及6943推进完整，仅原C-based有限程序；其fullD不是闭面D。112/338未起、native/fullDN=false；原必要/错误/quiet后真清三树，已删raw不可SHA恢复，199继续同全链。
+[R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)原128α1/replay接受，hoist编译0但8000秒仅24stage完整、4partial；独立audit576/7488查询/6943推进齐，仅原C-based有限程序，112/338未起/native=false/raw已清。R394实际160同预算20完整stage，不把24/20当benchmark。R403实际190ADL编译阻/partial audit、R406实际192和R415实际196reader硬190阻，各原原因和未返不互相填补；旧raw不可SHA恢复。
 
-[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)同8000秒20完整stage，不能把186的24/20当受控benchmark。[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)ADL编译阻/audit575及7485partial，不移植到其它run。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)/[R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)各128/replay接受但reader硬190阻；stage/112/338=false、audit仅flag、具体原因/backend/覆盖未返，raw已随runner消失，不凭SHA恢复。
+[R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)run43775312697/source51a38839，compute133000173495/report133030931599同69567B/ed04510c必要全文已读。128唯一α1达9.68582474751023176056740816374984163e−11，full残差/226 replay词同；stage.cpp:44未限定BatchStats实际编译歧义，3462B原错误全文保，stage科学未起，112/338依赖未起，非协议70。audit内部1800秒仅560/576、7305/7488查询、6771推进：560/561各query9后advance未返、562 query4后advance未返、563 query0读回未完、564..575未起；所有极值仅partial，fullD不是闭面D。必要/错误/quiet后01:14:49真清三树；不借已删raw，不称SIMD性能/native/fullDN接受。R445/204只补真实类型限定后重生原完整链。
 
-[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)保原84→89pins、三限定逆换全b16、reader两编号199；真91→fresh64/J/R273→持久128/replay→全576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800、330/350min及全部输入/阈值/算术/未访/错误保。单90KB/quiet/条件清理不变；原186/190/192/196接口逐项仍保检查点。amplitude唯一R424，未返不得预称编译/native成功。
+[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)保原84→89pins、三column_environment限定及199 reader编号；真91→fresh64/J/R273→128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800、330/350min及全阈值/算术/90KB/quiet保。R445单一类型限定不改原SIMD/digit算法/预算，不据源码推编译通过；实际204仍须新完整运行。
 
 ### 1C. 真37→38、实际独立39及原非线性域
 

@@ -233,3 +233,8 @@
 ## R443 — 固定首图的准确材料拉回与完整同g
 
 [R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)核当前core→Phi、R418前缀/径向Phi_q²目标及R413固定笛卡尔帽。首图到当前图须psi_j=Theta_j^{-1}∘Theta_0，prefix另用公共u；原严格正材料逆前提下准确拉回同一g，帽靠共同cuff过渡保持恒等，不将非线性角换元伸到中心。四Loewner合同保原eta，整像/固定帽H/reach/含反射差异不变；全部混合/高jet、真实消费者和统一C²收敛仍未付。H常量不进入帽metric，W/H冻结另是README构造责任；不以坐标纸证冒实际闭面或精化。
+
+
+## R424 — 实际199类型编译阻与独立审计partial
+
+[R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)run43775312697/source51a38839，compute133000173495/report133030931599同69567B/ed04510c必要全文已读。128唯一α1达9.68582474751023176056740816374984163e−11，full残差/226 replay词同；stage.cpp:44未限定BatchStats实际编译歧义，3462B原错误全文保，stage科学未起，112/338依赖未起，非协议70。audit内部1800秒仅560/576、7305/7488查询、6771推进：560/561各query9后advance未返、562 query4后advance未返、563 query0读回未完、564..575未起；所有极值仅partial，fullD不是闭面D。必要/错误/quiet后01:14:49真清三树；不借已删raw，不称SIMD性能/native/fullDN接受。R445/204只补真实类型限定后重生原完整链。

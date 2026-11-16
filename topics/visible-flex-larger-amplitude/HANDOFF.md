@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 01:24:04 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 53c9aaecd1ceec340efaba73f5546dc9c0dfa70a。
+规则同步记录：2026-11-16 01:25:41 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 aa508bfc447a0b472d3b593ffe48db04fde8b852。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。全部科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布；代理交文本/blob。PAT只瞬时CLI，禁入文件/提交/connector/回复。
 
@@ -22,7 +22,6 @@
 |---|---|---|
 |202/R439|43784544723 /1a757004b7ebff1f43563bd57b5d13961648d681|root：compute133029129971已启动；真201十词/123+21pins/完整原算法，未有终态|
 |200/R432|43780457519 /cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de|exact：compute133016222219已入step7原八对science；真98/完整39/106pins|
-|199/R424|43775312697 /51a38839e6dd2763a3fbe2796715bcc0479d3b01|amplitude：compute133000173495/report133030931599终态success，唯一全文读回R424中；不据job绿补科学接受|
 |197/R420|43774486084 /68fa2d402bb7c3695b50a28739566abe6ece3511|exact：compute132997520684已入step17原全112实角/取向关联行；真180/fresh C/全112族/完整453|
 |193/R408|43769481114 /51fb1430e588a622fa233b9534b73b7f17d98f20|amplitude：compute132981965313已入step17原完整far/unit传播；真十族453→同十词450、共用原7200总钟|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859已入step10原完整science；127pins/78源/18000全终门|
@@ -35,7 +34,9 @@
 
 [R430实际201](results/R430-actual201-complete-ten-49-accepted-and-resource-partial.md)：49接受/148α，W.0516490→.00008469756；dir49/α1/update1未返，初60FD齐，末60/Arb453/native未起，2400 SIGTERM/75。72021B/05677609必要全文与错误/quiet后真清raw。两路径553B/6997f1f3真实十词只供[202](notes/2026-11-16-request202-actual201-returned-owner-full3-continuation-interface.md)fresh初猜；123+21pins/53源，原两核心函数/16×8/20α/3×20/120FD/160bit深14/453/2400/90KB/quiet全保。[202官方绑定](notes/2026-11-16-request202-official-run-binding.md)见表，R439=root。
 
-[R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)：128首α1/原tol及226 replay同，stage仅24完整/4partial；audit576/7488查询/6943推进齐，仅C-based有限程序。112/338未起/native=false；必要/quiet后真清三树。199新终态R424正在读，旧192/196硬190阻与190ADL原因不得移植。
+[R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)：128首α1/原tol及226 replay同，stage仅24完整/4partial；audit576/7488查询/6943推进齐，仅C-based有限程序。112/338未起/native=false；必要/quiet后真清三树。旧192/196硬190阻与190ADL原因不得移植，199实际结果如下。
+
+[R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)run43775312697/source51a38839，compute133000173495/report133030931599同69567B/ed04510c必要全文已读。128唯一α1达9.68582474751023176056740816374984163e−11，full残差/226 replay词同；stage.cpp:44未限定BatchStats实际编译歧义，3462B原错误全文保，stage科学未起，112/338依赖未起，非协议70。audit内部1800秒仅560/576、7305/7488查询、6771推进：560/561各query9后advance未返、562 query4后advance未返、563 query0读回未完、564..575未起；所有极值仅partial，fullD不是闭面D。必要/错误/quiet后01:14:49真清三树；不借已删raw，不称SIMD性能/native/fullDN接受。R445/204只补真实类型限定后重生原完整链。
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)/[200](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)真98重做完整39八对/106pins/free461仿射/原全部H、FD、17α与预算；abf42d92保全部trial/失败/末pair三参数/90KB。191八对曾进展但必要超限、末场未返，已毁raw不可借用。其余195/R411真实trace、197/R419关联θ/w、193/R400真453→450的完整门均保原接口，实际负责人见表。
 
@@ -49,7 +50,7 @@ R409/R413准确原cuff/B/尾帽、R416准确cut三jet、R417完整帽六jet、R4
 
 ## 正在执行的直接后继
 
-R437（amplitude）：首个真实radial后才选H、冻结W和全marker；shared后保存完整真实core/material、registration/normalization定义。当前reuse只记录材料责任未付，不以不同core拒solver或冒同g；原source分支要与R444明确组合。199终态R424优先。
+R437（amplitude）：首个真实radial后才选H、冻结W和全marker；shared后保存完整真实core/material、registration/normalization定义。当前reuse只记录材料责任未付，不以不同core拒solver或冒同g；原source分支要与R444明确组合。199终态R424已完整读回并发表。
 
 R444（exact）：把197真实joint provider接连续十真实453→450，派生driver/hooks/pipeline/launcher/owner/reader六独立源；不只在workflow换sampler。原43f/3bc可保，完整双phase/lease/所有原门与钟不改；新tuple交amplitude。随后R442完整M维数派生继续；195/197/200终态责任优先。
 
