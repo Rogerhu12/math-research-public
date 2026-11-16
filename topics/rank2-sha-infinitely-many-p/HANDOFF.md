@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：1e0ecf187b6e282226833c6c45c5e94661a0a9b1；2026-11-16 16:09:24 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
+- 最近已读规则提交：2f3331f7cd0fecc612476fec960f375aeb745d9c；2026-11-16 16:11:22 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-inert-local-period.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–902及R904–906已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-positive-horizontal-values.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–906已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀（缺口保档），theta续四原低多项式，literature续原端点s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -47,9 +47,9 @@ R886/897同原finite/wild split范数、统一格及spDn=Ep,n cn全证，Ep,n整
 [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)已付原anti-Kummer/γ全交域、完整cochain/双点cup及κq(σ)=−c1(Frq)，得c1≠0⇒Selbal=E c1；不再缺受限JNS接口。原c1非零/ordinary loc/无穷p仍开。
 [R893](results/R893-original-endpoint-augmentation-square-and-primitive-heegner-comparison.md)：c1≠0时同Heegner增广本原、D=U Z°且U单位。全iota/period/Euler保，ccan=H Dfun D、Ccan=H Dfun²，同H unit；ord分别s/2s。原ordinary loc与canonical底非零等价s0，s>0仍开，derived底不复用未除T的strict核结论。
 
-[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A付所有旧split层单惰性返回/全整Möbius分解，奇数全新块0、奇数层仅min v整除；偶数新块未付乘积整除。惰性主理想在原环类塔Frob恒1，R891长剩余次数不可套，不推s0。
+[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：原惰性Aℓ=−(ℓ+1)²/ℓ、真Gauss/坏位给root=(−1)^(1+#新惰性)，compact BK零杀奇数全新块。单ℓDℓ=Aℓ/hℓ resD1可除−(ℓ+1)，全split底/整Möbius/有限Ep保。奇数层只min估值整除；偶数N12未付scalar乘积整除。惰性Frob主理想恒1，旧γ长剩余次数不可套。
 
-[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A真Kirillov格⊗邻点商格有整不变泛函ℒ(endpoint)=1，coinvariant/tors=O；全χ/度数/p非unit保，附B付原全新CM系数/测试类型整同构与两范数核饱和；N12唯一除两个σ−1，scalar p格阶不增。old/new余核O/(h)、邻点dual余核和共同目标inverse degree仍保；原AJ非零/双新标量整除开。
+[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：真ℓ²端点只02/20反号；Iℓ=(ℓ+1)/ℓ³、volK1归一(ℓ+1)⁻²、YZZ Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A/B付原Kirillov/邻点全格与CM类型、ℒ(endpoint)=1、双norm核饱和；N12唯一除(σ1−1)(σ2−1)，scalar p格阶不增。old/new余核O/(h)、邻点dual余核及共同目标inverse degree保。原AJ非零/s0/双新scalar整除仍开。
 
 ## 第二门：四原中央与同一低配对
 
@@ -65,7 +65,9 @@ R872同R零类仅在14s≤3BD²+8D−26−12j可能；47/8窗迫oR非零而不�
 R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reader均保，未加M零或付o(K2)。
 [R902](results/R902-original-four-block-kernel-and-first-normal-injectivity.md)原四块核的V1=0分支真单射H0(N²(−H*P))，H*=min(T,h+ell_eff)。H*>2κ时G↦V1单射；ell_eff≥T−h给真二步W_T∩H0(N³(−TP−Z−))，同指定目标/同V1至多一源。须保T−h>κ、T>3z−、3b<p/F0非零和原qsrc H3全部帽，未付像满/WT类或删其它WD列。
 
+[R903](results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)同核正水平V1−3bV0亦单射，需H*>2κ/T>3(e_++μ01)；原r2/m3/b≥5自动付帽门，非零核必要T+e_+≤3κ。两端共用同G/V2，未把消失除子或秩相加。
+
 ## 其余原门与同步
 
 R834/836/837全部预算与R840同Kcorr/Hcorr高前缀、R842指定WT[b0]保完整H。真实未闭窗2κ<T≤3κ；V0,V1,V2∈VT及第四短行不付E稳定/同E³G高尾。EG=FA只在A|C0时返旧排块。
-R895同P/R/S不假oR0，得N_D−2s≥D+16+2j；≤D+15+2j仅排τ1 quartic p³，δ可负/三长另加s。R896逐p最小D低松弛集密度p11mod12中12/47、全素数3/47；只排该来源，不改固定D旗标或全K1。O4/O6/O7与通常全Sha主目标仍开。Wang2026外部完成声称的K条件已由全坏位split⇒w(E/K)=−1严格排除，见对应11-16核查注。
+R895同P/R/S不假oR0，得N_D−2s≥D+16+2j；≤D+15+2j仅排τ1 quartic p³，δ可负/三长另加s。R896逐p最小D低松弛集密度p11mod12中12/47、全素数3/47；只排该来源，不改固定D旗标或全K1。O4/O6/O7与通常全Sha主目标仍开。

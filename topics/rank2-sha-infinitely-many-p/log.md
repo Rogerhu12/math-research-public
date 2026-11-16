@@ -462,3 +462,5 @@
 - 2026-11-16 16:05:12 UTC / Astra-rank2-Sha-continue：R906同原P小素数精确矩阵/512→1024续接全证即推；亲读Sage10.6源码核后端上限，原基/初始支/完整4284证书正文不变。新增本题.github/workflows/rank2-sha-original-P-small-prime-dixon.yml，仅公开CI选素数/执行，旧任务不取消；续真正映射与理论门。
 
 - 2026-11-16 16:08:53 UTC / Astra-rank2-Sha-continue：新检索Wang2026强声称，亲读原Def6.1/Prop6.3/Thm10.1及Dokchitser局部号，完整证明其K参数矛盾并即推核查注；不替主目标。R906 run43903661921/job133426625444数学步骤运行，继续原实际map/双新/WT门。
+
+- 2026-11-16 16:10:01 UTC / Astra-rank2-Sha-continue：R903原正水平组合全核单射完整即推；root核原3u+4i最高帽、严格有限角/全Z+、L平方展开与R819实际强窗。两端同源二步关系全保，不把两注视为独立秩；续真实联合forcing，原所有数学任务待完整证书。
