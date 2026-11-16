@@ -368,3 +368,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R850](results/R850-original-smooth-cubic-quotient-and-exact-top-cycle-transport.md)：原E0³的对角μ3固定点恰27个Q点，吹起后取商q得固定光滑刚性CY三fold Z，q有限平坦degree3且q*ΩZ=b*ΩA精确归一。原Π=π3·(1+R+R²)/3为真正Chow等式；ΠZ=q*b*Πb*q*/3、α=q*b*Π、β=Πb*q*/3严格互逆，未假高CH实现忠实。原每条Φ唯一提升后由X0(10404)→X0(3468)下降，αΠΦ*X=3ΠZφZ*X̄，投影支付严格变换差；AJ运输无额外未知倍率。全Artin、6^-2/12^-2/1632/816保持，未付R814 canonical比较或原非零。
+
+
+[R842 负纤维的全局同源mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)：由已付d_Q精确构造R_Q=[Y^(d_Q−1)qtilde(1−Dx)²S]_<d_Q、N_Q=Y^(ℓ−d_Q)f_QR_Q，degY N_Q≤b−1。原Θ_Q=c_s tQ^rWQ·G N_Q dY/((t−tQ)Ft)的整有限纤维残数恰负行，完整有序留数/dualizing消同fiber其它有限点，所有moving点合并底分母degree≤2。真实正水平帽3b+1、十九角和底∞T^(3−2u_F)及交图/两链全部付；Dhat=D_R−Θ_-把负行准确并入同G无穷边界。W_T上V1∈V_T迫原ResP(V1ω1/e²)=0，故[b0]=G_F，但r≤11原尾仍保、r2读十项。未称Θ/G为Q_T截面，未付全局限制像或指定总类非零。
