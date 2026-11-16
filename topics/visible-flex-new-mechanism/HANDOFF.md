@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。最新actual双pull在run43827509699/report133170452996：公开08:12:06.012009→08:12:07.047398 UTC，源513aa99d…到已读 **114e432d64c370608f4a849743425b91088c964d**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:12:06 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
+根/题README已全文读。最新actual双pull在run43831664308/job133178210211：公开08:30:10.280694→08:30:13.960397 UTC，源03bfffd1…到已读 **0620f8d68bb4b06637ee3cdba916cce5e11906d1**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:30:10 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
 
-私有同report08:12:09.851301→08:12:10.459656，before=after **94d71c2d27d9072ded2df601ceaa1e42d5aeeddf**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。研究前双pull也空diff，完整出处见[接受54](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)；私有正文不发表。
+私有同job08:30:17.979083→08:30:18.931957，before=after **ef9137d638db4223eb669caa01d95781f99f7a54**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。此前pull完整来源保原note；私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -40,4 +40,4 @@ R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说�
 
 root以原接受54的完整checkpoint和实际缓存建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
 
-新的[cap五门设计](notes/cap-five-positive-curvature-search-design-20261116.md)已冻：15个真实正ρ参数、6固定起点、完整左germ/十二L/八Aj/五Δ及解析敏感度，同120秒/400started积分含失败/输出。只首运行，不把浮点小残差称严格零。R481局部正规与真实全局0仍有距离；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。
+新的[cap五门设计](notes/cap-five-positive-curvature-search-design-20261116.md)已冻：15个真实正ρ参数、6固定起点、完整左germ/十二L/八Aj/五Δ及解析敏感度，同120秒/400started积分含失败/输出。首执行[启动失败](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：prefix已付，首cap第14RHS overflow；总.5630522320000182秒/2started(1complete,1fail)，无任何完整五门值。正在修复首步，原120秒/400started中带费用、只恢复prefix。R481局部正规与真实全局0仍有距离；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。

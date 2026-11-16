@@ -474,3 +474,7 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ### 2026-11-16 08:29:38 UTC — 真正新的正曲率 cap 五门搜索入口
 
 [设计](notes/cap-five-positive-curvature-search-design-20261116.md)冻结15个实际ρ=v″>0参数，固定6起点/盒[-6,6]；完整左平端/右simple-A、八原Aj和五Δ同次积分，15解析敏感度；候选至多两次同参数精化。唯一120秒/400started预算从imports前到最终输出，旧ψ3E/self/rank和独立开发均0。仅准备源码未有执行结果；public workflow自动首运行后原样记录结果与费用。并行继续接受54的新模型与原门下降、R486完整principal平方门。主课题未完成。
+
+### 2026-11-16 08:32:08 UTC — cap五门真实首步失败，原预算内继续
+
+[原结果](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：run43831664308/job133178210211/source03bfffd1…，prefix63回调完成；首零参数cap第14RHS溢出，尚无完整五门/J。FINAL0.5630522320000182秒，started2/complete1/fail1；原日志106370B/0e78611c…保全。不称有限或全局失败；只修首步并读回已付prefix，原同120秒/400started中carry失败。双actualpull空diff，公开已读0620f8d6…、私有ef9137d6…，QUEUE唯一进行中。新54模型与R486/487同步继续，主门未付。

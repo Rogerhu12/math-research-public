@@ -460,3 +460,7 @@
 - [R485：两条完整offset帽族及其真实凸曲率近似均非零](results/R485-two-complete-offset-cap-families-and-their-nonvanishing-complex-obstructions.md)（已证明）：uniform和critical全部C≥0原复积分有准确cubic/quartic，两族各唯一虚部零点均有严格负实部；保全部C/C² primitive与左常数。远尾/正v″两矩拼接/精确ψ3 germ/末简单Af给紧C盒一致有限真实非零族；不能仅由象限端点推degree，不排其它cap或五门零。
 
 - [R484：同规范有理芽延拓锁定及有限加速度判别集](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)（已证明，前提明确）：固定κ/ω后h⁶C_h/k次数≤6；若实际两相位minor非零，同真实前缀的完整解由13状态ODE锁在抛物线，首次离开须全相位降秩，候选高度含于≤12次非零多项式根。未判当前minor，未排退化库/奇点C∞分支；常段完整平方/一次/常数门全保。
+
+### 2026-11-16 08:32:08 UTC — cap五门真实首步失败，原预算内继续
+
+[原结果](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：run43831664308/job133178210211/source03bfffd1…，prefix63回调完成；首零参数cap第14RHS溢出，尚无完整五门/J。FINAL0.5630522320000182秒，started2/complete1/fail1；原日志106370B/0e78611c…保全。不称有限或全局失败；只修首步并读回已付prefix，原同120秒/400started中carry失败。双actualpull空diff，公开已读0620f8d6…、私有ef9137d6…，QUEUE唯一进行中。新54模型与R486/487同步继续，主门未付。
