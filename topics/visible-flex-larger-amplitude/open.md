@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R537实际226](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)完整可见结论本次独立刊**：361源准备/source56393完整；sciencewhole109972/74163314超90K，仅1079/33a0f490诚实70/false/cleanup禁止，具体科学与错误内容未返。独立code1/1/1、resource_stop/external null、owned quiet true、cleanup removed false；两终态/root各一次，report success不代科学成功，不借225数值推预算/迭代/速度/末门，无可续算父。
+
 **[R575](results/R575-complete-cylindrical-projection-tail-and-alias-defect.md)/[接口](notes/2026-11-16-same-evaluation-full-angle-projection-defect-interface.md)三件59453B本次独立刊**：原π周期三cylindrical向量/完整signed频率/两mean/全无限alias，原偶N≥4M+4下界B2/(2M)+min{4(2M+1)B2/(N−2M)²,B2/(2M)}；B2包含R521二阶方向与非仿射加速度项。真实R553同次全DFS/joint管全正才global，phase拉回已证defect，FFT形成另付；无新科学门/实际全caller/运行，R576/241/R577另付。226两job已终态、109972原必要超限未返，R537另记完整可见边界。
 
 **[R569最终](results/R569-same-call-literal-cubic-accurate-quintic-and-complete-defect.md)/[接口](notes/2026-11-16-same-call-literal-cubic-and-accurate-quintic-interface.md)三件74959B本次独立刊**：同次真实sol.sol.c四幂×所有interval×全部augmented列，Q−C_lit完整含辅助C*与literal差，E0/E1全Bernstein和joint段正域条件Gram齐。物理角A²ρ²/rho_lower真实675，P本身不另乘ρ；未刊f349旧版本被最终45975取代。旧节点/raw没有literalPPoly不能重造；源组件未注册新run/reader/quiet，R570/239真实三driver捕获另付，FFT形成及投影缺陷另付。
