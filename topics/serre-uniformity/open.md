@@ -128,3 +128,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原c0首项与五比较一阶**：[c0完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)保原t=a³、六V末四行/Φ0/Φ73、λ³=108W及五ord14(p−q)、真实κ与d；仅指定帧比较纤维，非完整刚性化。原五D_j有限见证run43789012126已实际全得估值0/A518，五R_j′非零的正式结果正在登记；真实高度、标准Jacobian、A.1及全p仍缺。原Toeplitz零子式边界e3ba7a28及中央二标签9560403b全保，不拼不同h。
 
 **原全局第二次启动修复**：[原字段与chart](notes/R839-global-polar-original-field-and-chart-schema-fix.md)。2709源已全通过，core544241ac仅按真实源把完整M+维数断言14改280及初始chart历史flag true改false；关系系数L14、原20坐标、R840完整关系证明和DAG不变。wrapper39bef619不变重新触发；该失败没有新数学stage。
+
+**原c0首项消费者已公开激活**：[方法](notes/R803-original-c0-Hodge-jets-and-comparison-leading-coefficients-method.md)6a277f79，core4f8a4193/wrappera7b91ecd，35原源指纹d689a039。原六M6末四行与Φ0/Φ73消费既证d29ef204公式；只产六V/六W/λ³、真七次Norm/Trace及五κ准确整数幂DAG和d的1,s两坐标，除法乘回，不展开巨大κ幂或取立方根。预算300min/完整原阶段可续接；实际数值尚待run，不能预填d非零或完整刚性化/height。
