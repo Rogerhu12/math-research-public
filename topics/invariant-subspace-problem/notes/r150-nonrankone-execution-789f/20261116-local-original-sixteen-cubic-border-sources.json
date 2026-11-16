@@ -1,0 +1,69 @@
+{
+  "format": "r150-local-original-sixteen-cubic-border-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "scope": "original constant cubic sources over the matched field; no parameter lower refill claimed",
+  "sourcePins": [
+    {
+      "path": "notes/2026-11-16-r150-original-sixteen-cubic-border-constant-source-solve-789f.py",
+      "blob": "7899e7fed90e3b156c338335a50f5fe1ed1fb93c",
+      "bytes": 8874,
+      "sha256": "752353033cbf877cdcd784077c8ca0816b2a72206bd60d84afce892612fb2aae"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-sixteen-cubic-border-integer-product-verification-789f.py",
+      "blob": "9546bde89bf10a10ac82cffc87b15c082426499f",
+      "bytes": 10293,
+      "sha256": "cb02b6b0564982a4f29ff0320a548713c34d634c8884364b459ad9a6b5da5fd9"
+    }
+  ],
+  "first": {
+    "environment": "local explicit workdir /",
+    "startChunk": "41eae0",
+    "sessionId": 18289,
+    "completionChunk": "1c6c56",
+    "completedUtc": "2026-11-16T06:00:40.136153+00:00",
+    "exitCode": 75,
+    "status": "budget-checkpoint",
+    "elapsedSeconds": 183.7710828449999,
+    "dixonSolveSeconds": 163.63335927799926,
+    "maxResidentKiB": 246432,
+    "binding": "883430390f24f79cf127df1df44645f091b345372ef2b36915c212c1787ae35e",
+    "outputReceipt": {
+      "bytes": 7450,
+      "sha256": "58c7b7686a7334aa966e0b0efcf4b62e2bbc3814f75d1da8624f278313971cc4"
+    },
+    "lastCompletedPhase": "all16-complete-original-E-columns-saved",
+    "candidateCheckpoint": {
+      "path": "original-cubic-source-candidate-checkpoint.json",
+      "bytes": 5041,
+      "sha256": "c477bbb0acc38c651a011f76cd0433273825cf14e51883de51f857a933714dfb",
+      "binding": "883430390f24f79cf127df1df44645f091b345372ef2b36915c212c1787ae35e"
+    }
+  },
+  "continuation": {
+    "startChunk": "e1746e",
+    "sessionId": 17132,
+    "completionChunk": "17e969",
+    "completedUtc": "2026-11-16T06:02:33.578349+00:00",
+    "exitCode": 0,
+    "status": "completed",
+    "elapsedSeconds": 24.702726178999,
+    "maxResidentKiB": 132364,
+    "binding": "bb79e9288b5fe0c033b2a3c51c62938b3cb9ae50c482ff30ab3c7e72af90930f",
+    "outputReceipt": {
+      "bytes": 1490,
+      "sha256": "6b6bb6a7a4901558ebb0ffc583c6e8dd78927611442ea1f936228bdda6cf23c0"
+    },
+    "model": {
+      "bytes": 2679,
+      "logicalBytes": 6994,
+      "logicalSha256": "9d492e238da77ee3610bad61987bc8442f9caac3e39c91226c7c83a2b4c7168c",
+      "path": "complete-verified-original-cubic-border-sources.json.gz",
+      "sha256": "e5277e55afd111ce7038aead9989d1d1a236adae38edd7962cbd3548f8fe569e"
+    },
+    "actualProducts": 1680
+  },
+  "largeOutputsCommitted": false
+}

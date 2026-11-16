@@ -128,3 +128,7 @@
 
 
 - **R271准确同w相邻返回整行与无速率合法慢窗（2026-11-16）：** [原物理与完整整行证明](results/R271-appendix-canonical-strong-head-forcing-and-same-w-adjacent-return-row.md)核P_x为原ℓ²标准头投影，真Q孔有限头/后尾分解给κ≤1+log(1+Q/x)。四项源运输保两条交叉的缺陷；进一步原actual carry直接给完整同w行≤||w||τ_x/√(x+1)+√κ(τ_x²+4e−6d⁴||w||²)，原4d+1≤Q≤exp(1601d³/64)全窗成立。θ=τ_x/||w||、L=exp min(logd,θ⁻²)、Q=ceil8dL给Q/h→∞、Q≤8d²+1及行→0，未假尾速率；整个指数母窗仍保τ_x²√logQ，不升为删除范数行或全MP封口。
+
+
+
+- **R150十六完整原三次边界来源及精确全参数回填身份（2026-11-16）：** [原35常单位与全部16右端证明](results/R150-appendix-complete-original-sixteen-cubic-border-source-certificates.md)保所有35三次输出及原五du/前两NFdw各乘全部u；真Q105×105 Dixon给16完整来源，首次163.633秒solve并保存后180秒预算停75。独立24.703秒续验按行/列整数清分母，全部1680有理乘回（560原E）准确真；根独核16完整压缩/逻辑SHA及全560的原系数有限域复核。列公分母最大72436bits但全为固定E常数。二次原单位与16恒等给全部lower精确SLP和u次数≤1的原source，未称已展开参数数组、自由10、交换闭包或Bell根式。

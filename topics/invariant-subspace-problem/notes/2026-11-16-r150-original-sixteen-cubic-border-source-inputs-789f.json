@@ -1,0 +1,67 @@
+{
+  "format": "r150-original-sixteen-cubic-border-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "producers": [
+    {
+      "path": "notes/2026-11-16-r150-original-sixteen-cubic-border-constant-source-solve-789f.py",
+      "blob": "7899e7fed90e3b156c338335a50f5fe1ed1fb93c",
+      "bytes": 8874,
+      "sha256": "752353033cbf877cdcd784077c8ca0816b2a72206bd60d84afce892612fb2aae"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-sixteen-cubic-border-integer-product-verification-789f.py",
+      "blob": "9546bde89bf10a10ac82cffc87b15c082426499f",
+      "bytes": 10293,
+      "sha256": "cb02b6b0564982a4f29ff0320a548713c34d634c8884364b459ad9a6b5da5fd9"
+    }
+  ],
+  "parent": {
+    "path": "complete-original-eleven-quadratic-leading-model.json.gz",
+    "bytes": 1653920,
+    "sha256": "005484500176a294a3a14788843f1ad50031f2e2bce3e599c512e45ac5dacbb6",
+    "logicalBytes": 3341015,
+    "logicalSha256": "da5839f34930081d56df84d9d803daf2b226ac98de8364135463f6f94b6db1d2",
+    "binding": "41ee91c353da2b8a33bbb631d46bc48e11709dcf42e131ebf4d417c7a3e98b63"
+  },
+  "actualCandidateCheckpoint": {
+    "path": "original-cubic-source-candidate-checkpoint.json",
+    "bytes": 5041,
+    "sha256": "c477bbb0acc38c651a011f76cd0433273825cf14e51883de51f857a933714dfb",
+    "binding": "883430390f24f79cf127df1df44645f091b345372ef2b36915c212c1787ae35e"
+  },
+  "actualCandidateReceipt": {
+    "path": "original-cubic-border-source-solve-receipt.json",
+    "bytes": 7450,
+    "sha256": "58c7b7686a7334aa966e0b0efcf4b62e2bbc3814f75d1da8624f278313971cc4"
+  },
+  "mathematics": {
+    "fieldCubic": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "originalUnitShape": [
+      35,
+      35
+    ],
+    "rationalRepresentation": [
+      105,
+      105
+    ],
+    "rightHandSides": 16,
+    "noParameterSpecialization": true,
+    "fullParameterLowerRefillComputed": false
+  },
+  "limits": {
+    "secondsPerStage": 180,
+    "memoryMiB": 4096,
+    "outerSeconds": 240
+  },
+  "storage": {
+    "largeTemporaryCandidatesCommitted": false,
+    "onlySourceParametersExecutionIdentityAndOutputHashesCommitted": true
+  }
+}

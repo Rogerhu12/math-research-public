@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** af325469da275766a548436f3c9926ca7ee51853（2026-11-16 06:12:17 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0612-same-w-adjacent-slow-window.json。
+- **最近成功实际 pull 与已读规则提交：** 6373b025e7a4ea02a2beb3bb36a01447176903c9（2026-11-16 06:14:08 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0615-sixteen-original-cubic-border.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -28,7 +28,8 @@
 - [剩12梯度完整NF](results/R150-appendix-complete-original-twelve-gradient-low-normal-forms-over-all-parameters.md)：全12×16及12×5校正逐原G−NF=λF真，17source完整可逆；146.204秒/binding8fb21996/raw6274·afc272f8，根独核15输出SHA。v1序列化137保失败，数组在twelve-nf-actual-v2。
 - **[原11H商十生成](results/R150-appendix-original-eleven-moment-ideal-has-ten-parameter-module-generators.md)：** 原6×10 rank6、全35×55 rank35，两unit det127=1/32；1、五u及u1u4/u2u3/u2u4/u3u4生成全参数商，source u-degree≤max(D−2,0)，不称free10。2.453秒/binding41ee91c3，根独重55列和det。
 - **[六y完整6×10及全Bell九生成](results/R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md)：** 96/30/72原门全真，Gy−Ghat=(λy−μλw)F+μGw；四Ti对称/E可逆。wᵀT1⁻¹给Bell·u1u4原恒等，整个B=1商九生成，无额外参数逆。150.141秒/binding2c120983，根独核9输出和四det；完整源暂在six-mean-ten-actual。
-- **[原I3(M)=(y)³](results/R150-appendix-original-mean-three-minor-ideal-is-the-cube-of-the-mean-ideal.md)：** 全80原3minor→56三次满行，unit det127=56，根独重系数。固定E源给理想等式，非零y rank≥3；Bell基局部≤7生成/rank4≤6，不称free。原35常unit16 cubic RHS真solve163.633秒、180秒停75后，独立24.703秒全1680整乘回真/bindingbb79e928/raw1490·6b6bb6a7，不重solve。normal_annihilator续lower精确SLP/非自由乘法及完整关系；/tmp/normal_nonrankone_789f。
+- [原I3(M)=(y)³](results/R150-appendix-original-mean-three-minor-ideal-is-the-cube-of-the-mean-ideal.md)：全80原3minor→56三次满行，unit det127=56，根独重系数；固定E源给理想等式，非零y rank≥3，Bell基局部≤7生成/rank4≤6，不称free。
+- **[十六完整原三次来源](results/R150-appendix-complete-original-sixteen-cubic-border-source-certificates.md)：** 原35E常unit的16真RHS/105×16全部有理解已核1680乘回；首次163.633秒solve后180秒停75保原失败，续24.703秒独验真/bindingbb79e928/raw1490·6b6bb6a7。根核全部16压缩/逻辑SHA及独立全560原E的127/d100乘回；列常分母最大72436bits，不是参数分母。正式给lower回填原source恒等，u源次数≤1；normal_annihilator续五乘法代表/commutator与完整稳定关系，不称自由10或已展开。/tmp/normal_nonrankone_789f。
 
 ## R271完整原源与真实投影返回
 
