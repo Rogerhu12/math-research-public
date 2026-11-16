@@ -242,3 +242,11 @@ RDA blob5a7b91eea967053bb1e68e0cc60a41fd5183cd69，11486B/SHA8d2570c7b28304001c7
 RDA19–22仅全角/全δ前瞻正上界合同；Ar=−iM_R(P+−P−)准确，无two-sign重复2，输出P及右D_A N^-1保持，388只原high input，不赋physicalmeans逆频率。没有新科学运行/数值球；D³a0/DFb/Db1、其他RD完整项、actualstablepass、fullincoming/finite/return/非线性全部仍待。
 
 首次RDA小文本发布计划在任何create_blob之前被open 30149B守卫截停；缩写已成NPKA索引后发布，原全文/所有球与未付门保7a037e78同open和proof，未触发或重做科学。
+
+## 2026-11-16 00:34:53 UTC：SW完整单首系数解析合同独推
+
+在a4e6ba40f8e76223500e88a888511a3f64778d78核两README同原blob。SW最终d01094f9dd6b858dd80fe12da5d0790f0c210d1a，24343B/SHA72bb6b3c9a7ae6ac660ded4d08ac67a986a43d58fcd3d1d7a95e3deb14d0ae6d；根全文432行、phase全文及各有序式核通过。根另亲取WY847a7dd3/30764/ebf87135的39–48、CTc60256f5/17825/341a9463的3–5、PFe384f871/20413/5856c8cf的20a–b与原leading mean，以及CG aa666b7f/31227/25452372实际正算法，核fullC双sign相同、真密度组合、完整mean residual及CG正支配。
+
+真实W=A(1+M_C I)Lc满足同cut，C保F*和scalarmean；DW含两原primitive rank与两个有序I，完整源(P[T DW−QW],−ZyTW)保全第二normalizer/T1F2、所有3070接缝、cut原UT和新waist FT。Lc的√2只两physical wave，输入sign正交；wholecut/逆方向WX/原Ng不倒置upper。SW29a精确保同actual normalized operator−principal，CG Cproj=(1+BX)Ralg+BX PC的识别正项只向前支配，不作upper减法；仅最终完整paid可和UTA整选。
+
+本次已成scope归档1052267b8ad3681d3cd3e5abb596572971aa252e，6409B/SHAeb6f922835bba9c3ce5849d83ad1b2be62b5817d0c683c1d47f44c531c8eea33，原十段全文从84a4bff41a469826a58dfa5d62e7a79a805bc4d2同open搬入notes，仅结果链接前缀改../results/；原条件/球/失败lost/恢复和全部未付门保，H/open只缩已成索引。没有新科学运行，SW新包尚未部署；旧成功冻结，全Ei/Eo/incoming/finite/return/非线性仍未付。

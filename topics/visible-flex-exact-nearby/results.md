@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/SW：单一完整根首系数试探与同对象有序腰误差](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)：W=A(1+M_C I)Lc在原cut准确等Bc；C含F*及mean，完整DW/Q含T1F2、两mean/全部3070jump/双端原序保留。SW29a确认最终paid对象不因试探函数改变，CGwhole只经已识别正加数支配复用；仅提出current-only新标量组合，未授新数字或incoming/finite/return。
+
 - [R133/RDA：原完整forcing下首Airy幅度的精确根导数](results/R133-supplement-exact-root-first-Airy-amplitude-derivative.md)：Da1=−iε[6dφφ/5+D(ell/η)/2−(ell/η)dφ/2]，由原径向项、完整mean与zero-trace transport直接推出；genuine修正首导为0，两sign完整乘子无额外2。低jet输入的正预算是未来consumer合同，实际球、完整RD门、incoming和finite逆仍未付。
 
 - [R133/RBJ：精确leading二阶根jet与首Airy b根值](results/R133-supplement-exact-leading-second-root-jet-and-first-Airy-b-value.md)：同真实解析折叠的三阶展开给D²a0完整mean/drift，原H^-1HD保径向项并证明b1两sign相同。明确Db1所需完整邻域DFb与D³a0未付，genuine potential与完整RD余项原序保留；无新数值、稳定门或incoming结论。
