@@ -50,6 +50,8 @@ $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 
 [WTS完整过渡替换与强窗阶数](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原Q大预算的qstar不含Js；即使改善三源，旧PC仍是该positive recipe的大项，并非真operator下界。新$V_\chi=V+(U-V)\chi$严格保新cut、ordinary source、所有3070jumps和waist term；只在same实际stable/head/rest及原source域下用positive graph uniqueness。critical $\rho_n\sim n^{-2/3}$没有频率衰减，$\chi'$乘宽度不免费；whole received列须$p>11/6$（HS），有true block界可用$p>4/3$。当前继续构造明确uniform U和完整PC/ST4同signed tuple的新界，不能靠删旧upper或重跑旧source。
 
+[WGT实际高块与完整源阶数](results/R133-supplement-sharp-graph-high-block-tests-and-complete-source-thresholds.md)231ff8b1：任$1<\sigma\le4/3$，同完整$E:H^{-\sigma}_{true}\to L^2$足graph紧性；真高块因$P_J(M_\nu-\overline M)=0$只需$2K_{CYA}C_{E,\sigma}K_{P,\sigma}\Lambda_J^{-(\sigma-1)}<1$。低reference完整留Q块/Theta，未删96物理约束。完整received列需$p>\sigma+1/2$，真block需$p>\sigma$；存在某σ>1的充分门分别$p>3/2,p>1$。真实n7/6、两primitive、ordinarydr/jumps、positive/root/waist和全部坐标均先付，source阶不能冒whole E。
+
 [JI全实区间角向真逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)01e4a33b：在原完整[0,rc]及real $|\delta|\le10^{-8}$，保全P/primitive的奇→偶mean0角算子$A$精确化为一个标量分母。由原SJ全pair Fourier A0及角A0，不用I的L∞错误界，解析得$D_J\ge(79/128)e^{-7/4}>0$；显式逆在每个固定$s$为同一个$H^s_{even,0}\to H^{s+1}_{odd}$映射。原rootJ仅真实交域/端点一致，不搬旧数费；N7 physicalmean与第一行、source/jump/boundary仍独立。新J0/J1仅完整符号recipe，未求新球或全段complex strip。这一入口已闭，可继续完整uniformU两行残差。
 
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
