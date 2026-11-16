@@ -285,3 +285,6 @@
 
 
 - **R445：两个已付最高规范零方向与完整P自配对。** [完整证明](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)（11415B/SHA88ee07ba6f18660687000271e2e9bf98b23e429c557cc70d8f7f8f8814a266da）从原ρ2和完整有理Z4保中心常数/所有幂次，准确得d(Bε)=d(Y)=0；R444未知第一通道缩为P/R/S/L/U/V六真值，未判非零。十二copy正binomial平均不消非零整多项式但冻结点可零。原P左常/Y左纯x²跨micro配对全消，单包I2(Y,P)=−2∫x4Cr t²+2∫(u−xp)²r²−∫x4r4/12保全部低项/端。新可调方案还须same-q/F★、正核、19完整门，未预授。无新执行。
+
+
+- **R443实际：完整self像38维、K链增广49维。** [完整结果与证明](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)（24231B/SHA8e191ac0039d77bae18f79d45f3fa811550268b4ee8ad96ec61f3c29d9694a04），唯一run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac。已付53关系全部完整Af local五次、无p分母/高jet/非local；fresh53及2adapter全过。self38/系数核15，K11 union49，11旧非K全member，新增27formal；全38基/15核/11成员原来源齐备。science1.2916408s/entry3.150114956s/RSS45356KiB，0旧研究/实际根。旧16/六blind仅旧22范围，继续49真实镜/全根与actual共同period。

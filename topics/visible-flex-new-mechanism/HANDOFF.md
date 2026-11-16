@@ -30,7 +30,7 @@ R411/412/R431从起点同选四自然约束、F_rat/19真目标/全部Af根/共�
 
 [R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)保M0/周期两种端项：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]。D0 iff三次矩型被n0n2−n1²整除；真实路径值/actual原型基准仍未付。
 
-R435/R440/R441旧有限self模块22formal、同镜16/六blind；真实K左常数与r0例外保原稿。先同成本付全C，再16核心后的全部其它根落六blind像才可signed清，这是旧22模块范围。R443唯一run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac已完成：53新完整self全部local无分母/无高jet，fresh53+adapter2全过；新self38/核15，K11合49，11旧非K全member，新增27formal。249原记录/全部source完整；0旧rank/检查、0实际根。**旧16/六blind不可当新49的完整评价像**，下一新49同镜/全根评价；实际联合控制未付。
+R435/R440/R441旧有限self模块22formal、同镜16/六blind；真实K左常数与r0例外保原稿。先同成本付全C，再16核心后的全部其它根落六blind像才可signed清，这是旧22模块范围。[R443实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)唯一run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac已完成：53新完整self全部local无分母/无高jet，fresh53+adapter2全过；新self38/核15，K11合49，11旧非K全member，新增27formal。249原记录/全部source完整；0旧rank/检查、0实际根。**旧16/六blind不可当新49的完整评价像**，下一新49同镜/全根评价；实际联合控制未付。
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
@@ -52,4 +52,4 @@ R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f�
 
 ## 5. 当前工作
 
-R443实际已核，写完整人读稿即推；接R446局部性纸证和49新同镜/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet标量线包络设计与唯一公开执行。继续open，不以阶段/预算/时长结束。
+R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；接R446局部性与R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet标量线包络设计与唯一公开执行。继续open，不以阶段/预算/时长结束。

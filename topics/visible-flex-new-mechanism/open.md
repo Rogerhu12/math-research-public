@@ -90,16 +90,13 @@ R384/385已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-tota
 
 在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
 
-### R345/R435–R441：完整兼容self模块与全部根六列余商
+### R345/R435–R443：完整49 self模块，继续全部真实根像
 
-R435完整current保左常数，K0=−8r⁵/45、r0首K5=1024p⁵；同母同宽同基点≤11或r0≤6，单点非盲不授全点同时。R440列全原c0 universal C核：8 P/S常尾+3Ξ，另τ0八列Af盲；完整J尾消，加K21formal。K4真常数与Ξ2给左0/rightκx4，原11左+5右actual16，全镜像(P≤10,TP+Q≤4)。
+R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal C核与R441非零c的Wronskian/ur⁴给旧22formal，同固定镜16/六blind。旧六列余商仍只属于该22子模块，不能称增广模块的完整核。所有原K/J尾及实际prototype/J⁺基准保其原稿。
 
-[R441](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)从原c≠0的J0/2、H1/6出发，P和Q=R−S满足c_j=Q''''、c_η=P''''。完整Wronskian两端与三右常数保留，V=BPj−BQη whole-E零；扣BRτ1/3同时消同包P和ordered，U*=−9V0/2−6BPσ−3BPτ2/4在全部Af根准确给ur⁴，E/J⁺/C全零。故formal22，但同固定镜仍16；第六blind为r⁴(u−h*r)，不可把每点不同p/r比例当全局成本关系。
+[R443完整实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac，直接读R434已付18算子/85Q核/53关系。新53完整2K current先保同锚/左常数，再仅外Af替换，全部成为无p分母的五次local多项式、无非local/高jet残余。fresh53与2新adapter全过；新self像38/系数核15，K11+53 union49/核15，11旧非K全member，旧22包含且新增27formal。完整38基/15核/11成员的原144来源与249记录定位已发表；science1.2916408s、entry3.150114956s、RSS45356KiB；0旧rank/检查、0实际profile/root。
 
-同一V的全部C共同支付后，normalized通道η=(R Hd−T He)/(a³(R²+T²))保R0。先16核心清原目标，再用六个原blind成本对所有其它真实根共同评价，真实残差落该像 iff 本模块可signed清全部根。前四为r³Δ、xr³Δ、pr²Δ、pr³(u−h*r)，第五保Ξ1/W3/K2全低项，第六如上；r0六列全盲，不宣当前母有此点或全R障碍。实际J⁺追加/原型、两次商、桥/Klein全基准与其它C联合条件均保，signed判据不授免费几何插入。
-
-[R443唯一入口](notes/joint-kernel-complete-self-entry-review-20261116.md)已发，直接消费R434已付53条current dependent/85原Q核/18算子；保完整同锚self后仅外Af替换，2新adapter+53fresh证书。任何非local/高jet原样保且不判完整秩；全local才新self/K11 union与11旧current成员比较。十一源码闭包已核；0旧rank/144恢复/旧检查。等唯一原stdout，仍须真实全根与actual联合、period/规范。
-
+下一把49完整函数对同一实际母的全部根评价，保真wi/ξi/幅权/suffix及共同h=u*/r*、s=p*/r*，不能把自由jet秩当固定母满秩。先同一成本付全部C，再清self余量，signed评价与actual J⁺/两次商/桥/Klein/原型×n联合仍分清；真实period特解、gap/平台值及13同规范继续。R446纸证局部性、R448固定镜限制只消费本次原记录，不重53 self/union秩或旧检查。
 
 ### 完整period与同一w joint仍须真正求解
 
@@ -154,13 +151,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 两个solver额度均永久用尽；科学时间/values余额不授权cone33。新任务若用已付p32考察α∈[0,1]，先证明全metric谱分支凸及全active右导条件，核必要完整e0/f0/de/df输入。原四attainer不能代表全184320点；可研究不需位置的first-jet诊断以免无用cold prefix。任何新增标量优化/完整oracle都明记次数、身份、限额与全部科学时间，真实试点仍原完整几何/14门/精确盒，不改固定g、.26中间目标或主README门。
 
-### R399新的第二period内部通道已实际付至四点
+### R399–R405已付有限对应点，不外推全根
 
-[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)原τ*全c0/a2p²/𝔄u0，八响应保wholeE/Λall0；partial在Af点为2p²(pw″−rw′)，不沿旧Af因子。真负布局倒二微包suffix非零、12副本C像准确ε·ρ⁷Pol≤3，≤4第二通道与≤11 Hd块三角独立。可实际(F,A,Hd,C)，另可actual wholeE0并付≤4点两个germ；两截面不拼。其它退化点、全Λ及13同规范仍欠；下一继续原Z内其它c0局部方向的真实内部像。
-
-
-R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R403/405使该包恰一对Af根，不能据此升级全包实际满射。
-
+[R399](results/R399-new-whole-E-natural-kernel-and-four-ordered-internal-period-controls.md)的c0/a2p²响应保E/Λ，真倒二包suffix使C像ε·ρ⁷Pol≤3，≤4第二通道与≤11 Hd块独立；actual(F,A,Hd,C)与wholeE0两截面不拼。R401同负penultimate4×4镜点已付，R403/405使该包恰一对Af；这些只保原指定点，不授新母全根。当前一般共同cap母及49模块见R431/R443。
 
 ### R403–R431：同四约束/十九根母库的全部退化点现有共同外区
 
