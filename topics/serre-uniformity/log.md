@@ -472,7 +472,12 @@
 - 更正先前H/open/log摘要漏括号：准确b0=k_+(p−1)，正式R921(921.25)一直正确且原稿不改；旧归档中相同摘要误写均受此更正。R924原中心/坐标与R859/861/376及Stacks0C5H已读。
 - 本push规则：公开Actions真实pull至3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17（2026-11-16T16:43:58.860368+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 00:53 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 00:54 Asia/Taipei — serre-public-astra-20261115
 - R824真job日志runner shutdown143且artifact空；R787旧run已failure、仅规则artifact，数学log404且无新current，不从步骤success冒认数学完成。
 - 两原请求073d0963/0ef37410逐字不改，从实际已存693/670同核心重续；不重已登记阶段/不改缺receipt例外，不将平台失败当数学否定。
-- 本push规则：公开Actions将真实pull并比两README，读过3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17；有变只读diff，NFF立即rebase重推；主目标OPEN。
+- 本push规则：公开Actions真实pull至da2c64d3a7f5d940266fe42064cbf933790be937（2026-11-16T16:54:08.178259+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:00 Asia/Taipei — serre-public-astra-20261115
+- R922共享迹对偶执行五件全文读完并激活：仅新五G点、四旧全可分点的R及完整八系数RG=Mg；原Mg六系数/17块和全部K/χ直接消费，不重原算。
+- 真实R827/POLY与实际manifest展开进入数学tag，缺字段不预填；七连接分子/δK/目标单位和height尚未成。R824/R787真新run43912577191/43912581432已从693/670续，H逐字归档压缩。
+- 本push规则：已核真实pull至da2c64d3a7f5d940266fe42064cbf933790be937（2026-11-16T16:54:08.178259+00:00），两README SHA6979d793/35f82f3d无diff；本次发布再真实pull并记录，主目标OPEN。

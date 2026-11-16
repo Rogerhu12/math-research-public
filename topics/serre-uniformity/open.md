@@ -54,7 +54,7 @@ R805–R883原W/两图/146/418/273jets与原未缩放t、R860真cY、R866的127�
 
 [R919](notes/R919-original-whole-Artin-Hecke-differential-trace-method.md)五执行源已全文读、激活公开Actions：原δ=ν^−1d在减纤维前作用；只新九δP，再由−a8^−1[U7](hδP modp)得到完整8维Euler迹行及272目标正常基像。保A272/E2176所有幂零及真实θ/a8/χT分母、真dual7/diamond/−3/ν/Nm帧；73必要原件直接消费，不重旧逆/Γ。[R919实际认证](results/R919-certified-original-whole-Artin-Hecke-differential-trace.md)已完成66stage/1.784166740s，九δP/完整八维行/全部272正常基像与八个全A0恒等式均成；FINALc5b5a3a4/manifest3caecf79/art14245060474。不能把正常基迹行当作七连接或canonical投影已成。
 
-[R922](results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md)原七连接目标求值纸证已成：完整O_D中u=τ/(σ−aτ)给d_D=det(I−(z−a)Z_D)；七分子y_i次数≤271+ε_i，274步只用原逆并全Fᵗy=dc。共同R=MgG^−1权≤3−ε_i−ε_j，以4旧可分K点/5旧G点和全RG=Mg避免目标χ_T分母。原后8列是分子K，V=K/P_U；新增8δK并复用旧δP_U/P_UU/P_U逆，完整商法则及Jg_t=dotU/Jh_t=dotV均全E乘回。七d_D(U)和g_t+t h_t仍需真实整个E单位，不丢分歧/幂零；数值尚未运行，R919冻结，非canonical/height。
+[R922](results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md)原七连接目标求值纸证已成：完整O_D中u=τ/(σ−aτ)给d_D=det(I−(z−a)Z_D)；七分子y_i次数≤271+ε_i，274步只用原逆并全Fᵗy=dc。共同R=MgG^−1权≤3−ε_i−ε_j，以4旧可分K点/5旧G点和全RG=Mg避免目标χ_T分母。原后8列是分子K，V=K/P_U；新增8δK并复用旧δP_U/P_UU/P_U逆，完整商法则及Jg_t=dotU/Jh_t=dotV均全E乘回。七d_D(U)和g_t+t h_t仍需真实整个E单位，不丢分歧/幂零；共享R执行五件已全文核读并激活：corea03394a5/wrapper6465d4c7，直接消费R827/POLY；只新五G节点、四实际可分R节点和完整八系数RG=Mg，尚无实际完成声明。七分子、δK及目标单位接着做；R919冻结，非canonical/height。
 
 [R907](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)执行源已冻结，仍须R901/R903实际完成后整体填源。原128→真672、A272/E2176的一次A[T] Berkowitz/19584坐标CH和九正范数、NormΦ及两图colon/dual7保留；R899已成来源可填，a0仅在无旧全插值时补四原节点。原P0/P1数值及完整刚性化仍false。
 

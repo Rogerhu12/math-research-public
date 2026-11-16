@@ -1,0 +1,337 @@
+{
+  "schema": "source-bound-public-Action-v2-manifest-expanded",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R922-original-shared-low-weight-trace-dual",
+  "result": "R922-original-shared-low-weight-trace-dual-multiplier",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "budget_minutes": 300,
+  "resume": null,
+  "core": "R922_original_shared_low_weight_trace_dual.py",
+  "core_sha256": "a03394a509a14bd6f29df404f7f66c2877185c932e206ba32adecfa3192d90db",
+  "wrapper": "R922_public_original_shared_low_weight_trace_dual.py",
+  "wrapper_sha256": "6465d4c7e1f2474bd4745a5b2c5b4fa16d4e8ac134897f32f13476465e5e972c",
+  "workflow": ".github/workflows/serre-R922-shared-low-weight-trace-dual.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R922-original-shared-low-weight-trace-dual-method.md",
+  "method_sha256": "5e293257730be33228a01dd8091e8f9e818027cfc30978aed497e4ed56661d25",
+  "proofs": {
+    "R922": {
+      "path": "results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md",
+      "sha256": "75e0e04e986203598b556403b4ea8eec3706da838e934ae11810c5abda569731"
+    },
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    }
+  },
+  "sources": {
+    "R827": {
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "accepted_process_exit_codes": [
+        124
+      ],
+      "files": null,
+      "stage_result_location": "configuration",
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "R827-original-W-g-h-reductions.json.gz",
+        "R827-original-place-and-unit-source-audit.json.gz",
+        "R827-complete-short-operator-identities-and-sigma-transport.json.gz",
+        "R827-target-g-tau-polynomial-index.json.gz",
+        "R827-target-g-tau-rows-000.json.gz",
+        "R827-target-g-tau-rows-016.json.gz",
+        "R827-target-g-tau-rows-032.json.gz",
+        "R827-target-g-tau-rows-048.json.gz",
+        "R827-target-g-tau-rows-064.json.gz",
+        "R827-target-g-tau-rows-080.json.gz",
+        "R827-target-g-tau-rows-096.json.gz",
+        "R827-target-g-tau-rows-112.json.gz",
+        "R827-target-g-tau-rows-128.json.gz",
+        "R827-target-g-tau-rows-144.json.gz",
+        "R827-target-g-tau-rows-160.json.gz",
+        "R827-target-g-tau-rows-176.json.gz",
+        "R827-target-g-tau-rows-192.json.gz",
+        "R827-target-g-tau-rows-208.json.gz",
+        "R827-target-g-tau-rows-224.json.gz",
+        "R827-target-g-tau-rows-240.json.gz",
+        "R827-target-g-tau-rows-256.json.gz",
+        "R827-prime-1000000753-z-0-Krylov.json.gz",
+        "R827-prime-1000000753-z-1-Krylov.json.gz",
+        "R827-prime-1000000753-z-2-Krylov.json.gz",
+        "R827-prime-1000000753-z-3-Krylov.json.gz",
+        "R827-prime-1000000753-z-4-Krylov.json.gz"
+      ],
+      "pinned_files": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 14624,
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 441,
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 378,
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 19902271,
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "R827-original-W-g-h-reductions.json.gz": {
+          "file": "R827-original-W-g-h-reductions.json.gz",
+          "bytes": 763994,
+          "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "bytes": 4261,
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "R827-complete-short-operator-identities-and-sigma-transport.json.gz": {
+          "file": "R827-complete-short-operator-identities-and-sigma-transport.json.gz",
+          "bytes": 2479,
+          "sha256": "8aebc342bd263a00f306de6b2b6fc1775a7a246cf06622152e7d5c9edd5410a6"
+        },
+        "R827-prime-1000000753-z-0-Krylov.json.gz": {
+          "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
+          "bytes": 1114714,
+          "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703"
+        },
+        "R827-target-g-tau-polynomial-index.json.gz": {
+          "file": "R827-target-g-tau-polynomial-index.json.gz",
+          "bytes": 3403,
+          "sha256": "eaf38623b9f32102614f983f14438ce685668975374fd818be6ac368df12eb8e"
+        },
+        "R827-prime-1000000753-z-1-Krylov.json.gz": {
+          "file": "R827-prime-1000000753-z-1-Krylov.json.gz",
+          "bytes": 1114628,
+          "sha256": "f874694d3dbb46df1480112ed2c2ee6bca56b9a0ec62ba4cc34f65f157d34f52"
+        },
+        "R827-prime-1000000753-z-2-Krylov.json.gz": {
+          "file": "R827-prime-1000000753-z-2-Krylov.json.gz",
+          "bytes": 1114827,
+          "sha256": "3eb36f786cf3a24c458b97e85fb74716df494619a753d7870dff5284b3273978"
+        },
+        "R827-prime-1000000753-z-3-Krylov.json.gz": {
+          "file": "R827-prime-1000000753-z-3-Krylov.json.gz",
+          "bytes": 1114390,
+          "sha256": "784493e30234ca1c099b53892cdf6ccf2843d364ae2c0bf38abbe8eccef011de"
+        }
+      }
+    },
+    "POLY": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "stage_result_location": "top_level",
+      "certificate": {
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "bytes": 7104,
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      },
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "R885-adjugate-polynomial-characteristic-relation.json.gz"
+      ],
+      "pinned_files": {
+        "p41-original-polynomial-one-row-adjugate-certificate.json": {
+          "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+          "bytes": 7104,
+          "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+        },
+        "R885-adjugate-polynomial-characteristic-relation.json.gz": {
+          "file": "R885-adjugate-polynomial-characteristic-relation.json.gz",
+          "bytes": 194378,
+          "sha256": "fb8dbdd0a97eef2cd10a08f61afc55865203267c157d7e64c78c9a311a73486b"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 77918,
+          "sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154"
+        }
+      }
+    }
+  },
+  "input_bindings": {
+    "original_W": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz"
+    },
+    "original_place": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz"
+    },
+    "operator_identity": {
+      "source_group": "R827",
+      "file": "R827-complete-short-operator-identities-and-sigma-transport.json.gz"
+    },
+    "original_Mg": {
+      "source_group": "R827",
+      "file": "R827-target-g-tau-polynomial-index.json.gz"
+    },
+    "Mg_blocks": [
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-000.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-016.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-032.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-048.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-064.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-080.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-096.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-112.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-128.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-144.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-160.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-176.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-192.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-208.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-224.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-240.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-target-g-tau-rows-256.json.gz"
+      }
+    ],
+    "original_Krylov_points": [
+      {
+        "source_group": "R827",
+        "file": "R827-prime-1000000753-z-0-Krylov.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-prime-1000000753-z-1-Krylov.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-prime-1000000753-z-2-Krylov.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-prime-1000000753-z-3-Krylov.json.gz"
+      },
+      {
+        "source_group": "R827",
+        "file": "R827-prime-1000000753-z-4-Krylov.json.gz"
+      }
+    ],
+    "characteristic_relation": {
+      "source_group": "POLY",
+      "file": "R885-adjugate-polynomial-characteristic-relation.json.gz"
+    }
+  },
+  "prepared_transports": {
+    "R827": {
+      "archive": {
+        "run_id": "43854607823",
+        "source_commit": "ed3ed6bf901aa66b3b8668d24b2173e608d82b72",
+        "artifact_id": 14221081225,
+        "artifact_name": "serre-R880-six-Dstar-source-intake-43854607823-1",
+        "archive_bytes": 12926425,
+        "archive_sha256": "a333e11c9c99617d6c8f66c0e61cd47ae36009f57afacb14fdada74c67043b99",
+        "expected_conclusion": "success"
+      },
+      "package": {
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "bytes": 12876078,
+        "sha256": "f89b94019e6a8e567444e5b6326d449c9d21ea1c2878e3f1efa5a18b2d3e9766"
+      }
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "da2c64d3a7f5d940266fe42064cbf933790be937"
+}
