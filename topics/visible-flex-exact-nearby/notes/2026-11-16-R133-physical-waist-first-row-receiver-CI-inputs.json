@@ -1,0 +1,241 @@
+{
+  "kind": "complete_physical_waist_first_row_receiver_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_receiver.py",
+  "source_sha256": "437b69ea0d6790d2880b381e6747f2ced0da86a35ded73767886ded1657a1684",
+  "contract_git_blob": "1dfa6d56a249157b27d23d6249fb451cb9fdb6d0",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md",
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": 0,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_receiver.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py",
+    "rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md",
+    "st_execution": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+    "sw_science": "topics/visible-flex-exact-nearby/notes/single_root_first_symbol_trial_ci/run-43781399696-1/actual-scientific-conclusion.json",
+    "st_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py"
+  },
+  "current_text_input_roles": [
+    "source",
+    "worker",
+    "rules",
+    "contract",
+    "st_execution",
+    "sw_science",
+    "st_source"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_receiver.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md",
+    "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/single_root_first_symbol_trial_ci/run-43781399696-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_receiver.py": "437b69ea0d6790d2880b381e6747f2ced0da86a35ded73767886ded1657a1684",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py": "c4f211cdaa63b5ead89343d96efe61c3a496fe4cb9f33e9ca65aac4fe9cb0656",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md": "0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a",
+    "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637",
+    "topics/visible-flex-exact-nearby/notes/single_root_first_symbol_trial_ci/run-43781399696-1/actual-scientific-conclusion.json": "f16a1dc6177ef8a76d34e859fa37a51461a6ed142f20714e3dcb9212a3647659",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py": "743e4318ca0cbdf57afde3a188013a64c2bacba0958c31fde3b42fcf8a7aa7d5"
+  },
+  "mathematical_input_sha256": {
+    "contract": "0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a",
+    "st_execution": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637",
+    "sw_science": "f16a1dc6177ef8a76d34e859fa37a51461a6ed142f20714e3dcb9212a3647659",
+    "st_source": "743e4318ca0cbdf57afde3a188013a64c2bacba0958c31fde3b42fcf8a7aa7d5"
+  },
+  "expected_actual_gate_count": 16,
+  "expected_immutable_AST_files": 3,
+  "expected_input_count": 7,
+  "complete_input_bytes": 250616,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "exact_complete_radial_interval": [
+      "0",
+      "76285779072683/320000000000000"
+    ],
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "continuous_response_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+    "input_cutoff_abs_j": 97,
+    "exact_moving_normalizer_cutoff_abs_j": 268435456,
+    "physical_frequency": "n=4|j|",
+    "selected_parameter_absolute_upper": "0.00000000009368259853002",
+    "reference_column": "same terminal Ai free P8 first column",
+    "exact_row": "B_partial Q_R (Y_A - Y_WJ)",
+    "exact_row_input": "same reflected natural root H^(-4/3) with |j|>=97",
+    "exact_row_output": "raw moving-angle even meanzero L2 primitive row",
+    "same_trial": "single W=A(1+M_C I)Lc and original compressed TJ",
+    "same_cut_density_error": "original full-T cut difference from SW/UT",
+    "ordinary_source": "(P[T DW-Q W], -Zy T W), ungauged primitive and complete mean",
+    "complete_source_rows": 3071,
+    "complete_interface_rows": 3070,
+    "genuine_interface_rows": 2549,
+    "conservative_interface_rows": 521,
+    "independent_physical_mean_coordinates": 2,
+    "old_ST_gate_count": 25,
+    "old_SW_gate_count": 24,
+    "saved_original_scalar_record_count": 14,
+    "copied_complete_scope_object_count": 9,
+    "new_gain_scalar_count": 4,
+    "new_contribution_scalar_count": 5,
+    "expected_actual_gate_count": 16,
+    "whole_selection": "final serialized complete upper endpoints; old candidate wins ties",
+    "old_successful_scientific_calls_allowed": 0,
+    "signed_adjoint_cancellation_numerically_certified": false,
+    "full_incoming_or_finite_Schur_or_return_R0_claimed": false
+  },
+  "scope": {
+    "same_complete_reflected_primitive_waist_row": true,
+    "same_selected_parameter_and_original_terminal_Ai_column": true,
+    "same_single_W_and_same_compressed_TJ_trial": true,
+    "input_window": "same reflected natural root H^(-4/3), original |j|>=97",
+    "output_window": "raw moving-angle even meanzero L2 primitive row",
+    "complete_mean_source_and_both_physical_mean_coordinates_retained": true,
+    "raw_h1_mean_redundancy_does_not_delete_even_mean_or_amplitude": true,
+    "all_3070_interfaces_without_length_factor_retained": true,
+    "PC_ST4_cut_and_saved_waist_FT_each_retained_once": true,
+    "old_ST_and_SW_successes_read_only": true,
+    "old_scientific_imports_calls_native_restoration_and_new_grids": 0,
+    "whole_selection_same_object_and_same_output_units_only": true,
+    "signed_adjoint_cancellation_numerically_certified": false,
+    "raw_L2_derivative_readout_proved": false,
+    "physical_leading_row_square_inverse_proved": false,
+    "full_incoming_inverse_proved": false,
+    "finite_Schur_inverse_proved": false,
+    "whole_return_R0_proved": false,
+    "actual_nonlinear_background_proved": false,
+    "final_surface_proved": false,
+    "independent_even_mean_amplitude_nu_head_and_other_ports_retained": true
+  },
+  "static_scientific_interface": {
+    "blob": "c0202e06296a535cf9c2902221a10212b36b3c44",
+    "bytes": 9214,
+    "sha256": "bc8abe31041c014dd33887cecbb8cb54dad8f6418f270011a4dd4f1c56d38a4b"
+  },
+  "static_complete_science_budget": {
+    "bytes": 2528,
+    "sha256": "01a1c76d1233f727c89aefbebbe3946a073189631000e8c3f6d9a48b0fa2ead4",
+    "blob": "8d955f11081b721b00f21885b8a73d7a53450081"
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_science_target_bytes": 35000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_receiver.py",
+      "git_blob": "8cd75a860b37ca4d22e63851dc69bc3d9401db8e",
+      "bytes": 32693,
+      "sha256": "437b69ea0d6790d2880b381e6747f2ced0da86a35ded73767886ded1657a1684"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py",
+      "git_blob": "8f9d482f560d9c16ef6c79c30594554c70b3349e",
+      "bytes": 62016,
+      "sha256": "c4f211cdaa63b5ead89343d96efe61c3a496fe4cb9f33e9ca65aac4fe9cb0656"
+    },
+    {
+      "role": "rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md",
+      "git_blob": "1dfa6d56a249157b27d23d6249fb451cb9fdb6d0",
+      "bytes": 28366,
+      "sha256": "0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a"
+    },
+    {
+      "role": "st_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_tail_true_cut_to_waist_ci/run-43757644616-1/execution.json",
+      "git_blob": "94eb4c7d643edc33f696d101753e4d23a7936a26",
+      "bytes": 47282,
+      "sha256": "b3fac70f696197e94464d0fdd16e86ce94c8216b8227593974313eb24cb7e637"
+    },
+    {
+      "role": "sw_science",
+      "path": "topics/visible-flex-exact-nearby/notes/single_root_first_symbol_trial_ci/run-43781399696-1/actual-scientific-conclusion.json",
+      "git_blob": "3dbcf931b1b98fb7a7822ef5c1ed7df10135b894",
+      "bytes": 27687,
+      "sha256": "f16a1dc6177ef8a76d34e859fa37a51461a6ed142f20714e3dcb9212a3647659"
+    },
+    {
+      "role": "st_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_tail_true_cut_to_waist.py",
+      "git_blob": "e47bdce4d3716b800f6282be6a45cc3323b8119b",
+      "bytes": 50111,
+      "sha256": "743e4318ca0cbdf57afde3a188013a64c2bacba0958c31fde3b42fcf8a7aa7d5"
+    }
+  ],
+  "expected_current_input_count": 7,
+  "historical_inputs": [],
+  "manifest_not_a_self_hashed_input": true,
+  "workflow_not_reverse_pinned_from_manifest": true,
+  "original_worker_basis": {
+    "git_blob": "e7a841117c4c082e0e869a193963866be12b6c06",
+    "bytes": 65113,
+    "sha256": "5b5a9b7571372eae4ba2a0231902db6f30fcbdd7df16ed9272f2e82b32eb2b51",
+    "actual_success": "43795909913/1",
+    "scope": "operational helpers only; new science validator renderer CLI and target protection explicitly replaced; no old mathematical routine imported"
+  },
+  "bounded_prior_target_audit": {
+    "new_distinct_target": "complete physical waist first-row receiver WAD.32--36",
+    "new_scalar_slots": 9,
+    "old_successful_targets_recomputed": 0,
+    "prior_success_reuse_required": true,
+    "prior_incomplete_same_target_blocks_new_arithmetic": true,
+    "source_or_worker_changes_do_not_authorize_repeat": true
+  },
+  "static_publication_budget_review": {
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-physical-waist-first-row-static-output-budget.json",
+    "git_blob": "898a529f981d2f97b8ccbe2e395949204d0febba",
+    "bytes": 9089,
+    "sha256": "3ca3b69b94f56c6f71df11725708cb1c9da54623b14805b78116c8dbe35dec38",
+    "independent_root_four_whole_models_reconstructed": true,
+    "source_and_worker_static_review_only": true,
+    "scientific_arithmetic_executed": 0
+  },
+  "static_schema_review": {
+    "complete_science_top_fields": 32,
+    "expected_gates": 16,
+    "expected_progress_fields": 12,
+    "current_inputs": 7,
+    "mathematical_inputs": 4,
+    "Python_AST_files": 3,
+    "saved_original_scalar_records": 14,
+    "saved_complete_scope_objects": 9,
+    "new_scalar_slots": 9,
+    "new_gain_slots": 4,
+    "new_contribution_slots": 5,
+    "whole_candidates_retained_before_comparison": 2,
+    "complete_success_and_failure_models_preserve_every_graph": true
+  }
+}

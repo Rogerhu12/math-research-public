@@ -186,3 +186,11 @@ root全文27,396B/bb7dff28独核所有cut/source/jump/waist符号及HS/block权�
 root全文23,476B/7abf7f41独核real相位basis、graph闭性与dense core、真实finite投影列/dual和紧嵌的精确方向；Newton正式核3–5/13–26，Tail正式核2/6–7。L2入graph来自Mbar L2有界而非只靠L2⊂H−1；E仅在真实子域，不虚造全圆扩张。Dtrue→H−1仅有界，紧的是下一H−1→H−4/3。完整physical E/meanrank都留，actualrow index−96；只投hightarget要保96条actual输出式，补真96physical列只调index，不当reference已是解。
 
 全系数固定同δ*，不给其它s/背景/νchart或wholePDE Fredholm资格。继续正确graph参数化与真finiteborder、实际源控制。此结论独推，read 713d0afc89b88995b94d9fa747b4027c0375072b两README未变。
+
+## 2026-11-16 04:18:32 UTC — WAD first-row scalar包冻结，尚未启动
+
+新source8cd75a86/32693/437b69ea与最终worker8f9d482f/62016/c4f211cd、manifest50088f4e/12910/a0c625e4独立冻结。科学仅4gain+4贡献+1wholecandidate，最终两whole record选择不重算旧值；两个旧success ST25/SW24 schema各按原字，14原球与9完整scope锁。Newton完整旧输入四入口peer、Phase四新数学函数peer、Tail全worker/CLI/renderer/oplogicpeer及root独核均通过。7current/3AST/4math共250616B，零history/native恢复、旧数学调用0。
+
+静态预算898a529f/9089/3ca3b69b及JS纯字节构造器cb0cd815/15090/461d6e01保存。root从完整旧scope+NIF执行形状独立重建4whole models，全部字节/hash相同：success science30127/report4406/preGit34932/exec11249；两不同2000B诊断且全图保留时science32816/report7667/preGit40929/exec13285。预留150000与live硬门保持。失败摘要只省去SCI中已有的重复数值表，完整science/exec/failure不裁；已完成new stages总在atomic文件及stdout保全后才检查发布门。
+
+只静态文字/hash/元数据，无Python或FLINT/科学执行，lost0。下一独立flow push才唯一新launch；read 504323de9cb94bbe55e104ca0e0c9856f4e44303两README未变。
