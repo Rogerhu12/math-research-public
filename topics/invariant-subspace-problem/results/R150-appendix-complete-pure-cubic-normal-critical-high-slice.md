@@ -177,3 +177,27 @@ $$
 Its [interface](../notes/2026-11-16-r150-critical-weak-cubic-positive-jets-interface-789f.json) fixes the three actual parent receipts, their immutable manifests, the original physical generator, all action and field helpers, and three independent commands. Each default task has $300$ seconds and $2$ GiB. A saved budget prefix exits $75$; completed status requires every stated original product and rank gate.
 
 The three new cubic-slice computations had not run when this proof was frozen. No new numerical critical gain is claimed here.
+
+## 7. Actual result over all three critical fields
+
+All three tasks completed in run **43756208221** using the frozen source SHA256 in §6, with exit code zero and the same immutable first-round parents.
+
+| Field | Mathematical seconds | Complete pencil rank / nullity | Final equation rank | Low leading rank | Full leading rank | Additional length |
+|---|---:|---|---:|---:|---:|---:|
+| $F_+$ | 1.6565226160018938 | 10 / 2 | 29 | 9 | 13 | 0 |
+| $F_-$ | 1.8808102780021727 | 10 / 2 | 29 | 9 | 13 | 0 |
+| $E_8$ | 3.4594687310018344 | 10 / 2 | 29 | 9 | 13 | 0 |
+
+The previous quadratic high slice has dimension two and is explicitly included. The complete new 300-coordinate slice also has dimension two, so these two high spaces are equal. In particular the cubic parameter $\lambda$ is zero throughout the actual new kernel. The quadratic-column and low-return hashes equal their corresponding first-round hashes in every field, independently confirming the same original high columns.
+
+The complete final system has shape $51\times49$ and rank 29, with kernel dimension 20. Reusing the actual 25-unit gives a $26\times24$ Schur block of rank four. Its leading coefficient image has rank nine; the four exact pure heads give full rank thirteen. All original 6188 products vanish at every computed order: 321776 coordinates for either cubic and 241332 for $E_8$. The two high columns contribute another 12376 original products in each field.
+
+Thus adding the entire declared pure cubic-normal layer does not improve the local lower lengths $6,6,4$. This does not determine the complete local lengths or the full next connection. The next step must address the complete high kernel or a genuinely larger coupled correction space, with all original source constraints preserved.
+
+### Receipt and temporary certificate identities
+
+- **plus:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-plus-weak-cubic-positive-jets.json); execution `45f9057305f468af7cabb89e288a9d15f3823966`; raw 5606 bytes / `4b4e6d3fb058f5ec5c4425acde31857bc98c9460f8069739afe6cbf7ce471b4c`; binding `e5f589a5fb26b58587ea2c662a1d91927beef3db93c16159e9ff3745fb9f0ef6`. Complete cochains: 140186 bytes / `605950fac2277a896e426ec3ac0d65564df46f08853da0dd1f7d940b7a10bce0`, payload `97c7c590805ef95733790b5077b41600d579b2e819464a43cb38b8fc3cb01b07`, temporary only.
+- **minus:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-minus-weak-cubic-positive-jets.json); execution `ffebf163f8d467d08fb319f7e1f5828868094ef9`; raw 5609 bytes / `6153030aefdab3bb35c2081464f6a607ed341490dbcc011e3380794d943ee712`; binding `8d9102a2c86599c0c0305bcb964dfc160932930029745f97c380d89748f9a459`. Complete cochains: 184459 bytes / `30dd160f13c835d63ee93ddbe796873eda6bc8c197bf435e2abe7d4df35058d2`, payload `475735e4b31384ad09a6436b5d1089f1e14de571b12af3c83d8cb32dd3c441f7`, temporary only.
+- **e8:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-e8-weak-cubic-positive-jets.json); execution `13e260d7e925b57cf14ef6a83cf2c14b096f1ba6`; raw 5447 bytes / `47f5f0d8f78afd02180d32105f33b59af481c2c5cf741a8ed411d8f29306f387`; binding `7a9ebc028a4634690aeb0c45fc9a949328706ac589a38339b31a55d86b4e9e95`. Complete cochains: 511264 bytes / `99e8f4c350924d1a3ec507feabe8ec5ff2bb6aa3ff2fc9200fd09c2d8707c411`, payload `b3049f8f31d0f09737f6eefc54c7a0d8e67c6f0cdd52adcdb48b9c1f6e13368d`, temporary only.
+
+The independent coefficient-127 result has already lowered the global affine upper bound to 298 and the outside multiplier bound to 20. The zero gains here do not lower either bound further, and do not establish characteristic-zero target membership.
