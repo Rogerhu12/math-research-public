@@ -133,3 +133,6 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 
 
 同角色闭包的真实覆盖/整差分已见[2026-11-16-original-same-character-schwartz-and-central-germ.md](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)附录A：同note附录A：r+1个F(κ^kz)真线性独立，单整CM共同cover最小Normβ=ℓ^r、degree=mℓ^r；中央差分乘数含p^r，但全非中央jet无此增益。原整行R_h=p^(h−1)(hs−1)![z^{h(p+1)}]F逐式付清，除p^r后只读(hqκ)^rR_h，qκ未预赋单位。零质量已使r≥1差分的中央导数无条件零，是局部因子零，不增原primitive中央。 继续原四primitive来源，不能把局部因子零当新算术中央失败。
+
+
+[R840实际联合交](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)已付：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。 下一步须把这枚真实O与唯一K/H高前缀联立，保原三长与第四短行、同来源/全carry。

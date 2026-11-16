@@ -404,3 +404,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [同角色覆盖与实际整差分](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：同note附录A：r+1个F(κ^kz)真线性独立，单整CM共同cover最小Normβ=ℓ^r、degree=mℓ^r；中央差分乘数含p^r，但全非中央jet无此增益。原整行R_h=p^(h−1)(hs−1)![z^{h(p+1)}]F逐式付清，除p^r后只读(hqκ)^rR_h，qκ未预赋单位。零质量已使r≥1差分的中央导数无条件零，是局部因子零，不增原primitive中央。
+
+
+[R840 完整联合交](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。

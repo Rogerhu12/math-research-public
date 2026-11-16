@@ -22,3 +22,5 @@
 - [R855](../results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：原whole V_m上H_m=L_alg−(m−1)x/2−D²/(2m)确保持格，双变量对偶热递推完整保二次势项。整核I_m=ker ε上B_m,p=j_(p+1)/p modp与lift无关，原首α=−B；只中心值modp为零则不良定。Ha的原横向导数L2Ha=c_p与D^(p−1)x=−c_p同号，不能先冻结g2。四实际m=34/72/136/66的B与R853 C⁴读数准确相认，未付四B不同时零。
 
 - [同角色附录A](2026-11-16-original-same-character-schwartz-and-central-germ.md)：同note附录A：r+1个F(κ^kz)真线性独立，单整CM共同cover最小Normβ=ℓ^r、degree=mℓ^r；中央差分乘数含p^r，但全非中央jet无此增益。原整行R_h=p^(h−1)(hs−1)![z^{h(p+1)}]F逐式付清，除p^r后只读(hqκ)^rR_h，qκ未预赋单位。零质量已使r≥1差分的中央导数无条件零，是局部因子零，不增原primitive中央。
+
+- [R840联合交](2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。
