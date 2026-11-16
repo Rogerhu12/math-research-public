@@ -69,3 +69,7 @@
 ## 2026-11-16 08:46:00 UTC /root — R505与220明确新点/完整链
 
 [R505接口](notes/2026-11-16-request220-explicit-coast-base-complete-chain-interface.md)41174/8f9b连七源完成即刊并dispatch，request99218/f6ca、workflow94508/c1cb；278＋179=457原218全405保，六层实生成46新/124literal/364应用，展开不入Git。R503三词+0/另七词保、全10candidate_rows与新点全部来源真接；当前union owner77443/b8ff修dict unpack，只有两旧错owner历史hash/不AST不调用。原453→450/五factor2/M128/几何held/t显示、32GiB/18900+2700/九读回quiet全保，无科学结果预填；R506唯一amplitude。R502完整已交root紧接单推，221继续三工程修复。
+
+## 2026-11-16 08:49:00 UTC /root — R502实际219三工程失败及勘误
+
+[R502](results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)13503/4391677e，run43832887523/sourcef0c78734，两终志各唯一/必要2101同字；原ledger-ready SHA漏e成63字，第五输入guard拒，后78/91和全部科学/19200钟未起。quiet无归属证据的同uid权限错使未证静止；cleanup heredoc未解析，无删除/保留事件。R501接口改明示原正确64字并保f0历史、原219执行件不改；221仅三实际修复，真own不可读仍unknown，全14科学/门/钟保。220已正式run43833995131/source3ea0620a，由amplitude唯一终态。
