@@ -26,7 +26,7 @@ R411/412/R431从起点同选四自然约束、F_rat/19真目标/全部Af根/共�
 
 [R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)把全部ordered O加入同一J⁺=(E,A,O)，两次商/桥2VA/真倒行/原型/Klein基准全保；不是signed列免费插入actual。E/O0使原pU″变完整local current；H*仍λ1，不造Λall0。
 
-[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)原144：wholeQ秩59/核85、39current像32=21p-only+11u，7annihilator/35fresh已付。全部真实suffix共享同成本，不逐根换参数。R439该像恰kerD，D=c(x;(1,x,x²))；同成本全部根signed补偿iff[D]=0于Pol≤6/D(kerEval)，formal D非零不授actual障碍。
+[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)原144：wholeQ秩59/核85、39current像32=21p-only+11u，7annihilator/35fresh已付。全部真实suffix共享同成本，不逐根换参数。[R446](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)用whole-Q真实2+2极化得三个局部νj，再四次homotopy/4保双端，u4原式相消；剩3个Jj系数恰三尾current，故联合核Af局部≤3。无p分母仍是R443实际，不由纸证偷授。R439该像恰kerD，D=c(x;(1,x,x²))；同成本全部根signed补偿iff[D]=0于Pol≤6/D(kerEval)，formal D非零不授actual障碍。
 
 [R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)保M0/周期两种端项：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]。D0 iff三次矩型被n0n2−n1²整除；真实路径值/actual原型基准仍未付。
 
@@ -48,10 +48,10 @@ R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f�
 
 真实末52，physical0c03e09059cac846ec5ab6a246236c52b42d28394930aa35759953ea2ce1fc21；细η.2660182947853381/粗.26601808038739305/κ细57.999249547251196。pool4448/4544v13/13、8supp、学习62/61/0与B.00025/streak0/0不变；bank512仅四个真实affine观察更新，原模型520支持未删。两网原14门/163盒真，原点收据与本次恢复分开，不冒独立末验收。
 
-权威COMPLETE末钟：新195.33557086899998s/2必要恢复值；锥968.6757049859999s/62值，原1324.8055252469999s/124值=62+62。1200/1800秒交集余231.32429501400009s，96/160值尚余，但**32/32cone及64HiGHS均封存**。backend自报10.225351891s/完整call11.260506271s全部收费；冷reference prefix101.695936018s、两geometry129.486163084s属本attempt，不混旧组件。189绑定/170Python与原182/98args全闭，6/12/11/9旧检查只复用，0新开发/tinycone。完整原stdout/指纹在actual笔记，payload不外存。
+权威COMPLETE新195.335570869s/2恢复值，锥968.675704986s/62值，原1324.805525247s/124值。原1200/1800秒、96/160值未改；32/32cone与旧64均封存，余额不授cone33。全部backend超名义10秒、冷prefix/geometry/J、189源及6/12/11/9复用账保实际note；不重旧研究。
 
 [p32线包络](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)已纸证完整Φ凸，正向有严格模型下降iff全部精确active在0的最大导数<0；全步失败不排中段。原4attainer只给下界，缺全184320点系数。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)已发：1完整cache/2grid/1scalar/≤64query/≤3真实trialpairs；新600秒总science含≤30秒dev，原1324.805525247祖先全部保。新源准备中，不续cone33/旧64。模型不授加强guard缩放可行或实际14门，真实trial仍原完整geometry。
 
 ## 5. 当前工作
 
-R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；接R446局部性与R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443完整实际已发（24231B人读稿，249原记录，1.2916408s science/3.150114956s entry）；R446局部性已发；接R448新49镜对/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet源与唯一公开执行；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。

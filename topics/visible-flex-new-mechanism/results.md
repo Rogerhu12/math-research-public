@@ -294,3 +294,6 @@
 
 
 - **R449：八个完整hook真独立及144响应像至少137维。** [完整纸证](results/R449-eight-complete-hook-responses-and-a-137-dimensional-response-image.md)（10015B/SHAfd1beb92545d45510a9460a0fce7b9590a85490ab5b49d839775d2b189699ee8）：完整零B_EH迫2Af(pqE″−rqE′)=0；单峰解析bump跨唯一简单p零给qE=c(u)u，真实八左尾及三矩平移span3迫E0。R434/R443旗标59/32/38、末15核含8真完整方向，故144完整像≥137/系数核≤7。K11 self独立再给它与整个144像交零，完整增广≥148。不是49 Af像、固定圆或actual rank，不称剩七关系完整零；0新执行。
+
+
+- **R446：联合核完整self局部性的独立纸证。** [完整证明](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)（12517B/SHA45aa16f02004cc4070bcb4ececc83d371adfd52d0f614884c6d0d86c1a49a895）：whole-Q真实不交2+2与三矩平移基得局部νj=I(ΣctEj)；quartic密度H的Euler0给M=homotopy/4，双端全保，I(Σcq)=M+ΣνjJj。h′=−cu与最高jet系数准确抵消u4；三剩J系数恰完整三尾current，联合核Af局部≤3/仅外t替换。分母消零另属R443实际，不扩全R或fixed-profile像。0新执行。

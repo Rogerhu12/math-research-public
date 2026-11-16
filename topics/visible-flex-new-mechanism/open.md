@@ -38,39 +38,17 @@ R308真弱入口只需单hook AfW0，允许Af=0曲开段内W≠0；紧光滑双h
 
 另一分支R312初装新有理芽h=he(1+εσ²)、k=κ，其E=atan(√εσ)/√ε、L=log(1+εσ²) monodromy给完整ruling iff；R315/318/321/324原真尾、有限N全角正锥现已付全部E²/log/E及Rrat∈We共19门。R326同全局wc=−XD加合法第三Gram付指定端口，但同时改变两period；同一k还须3合法矩、7σh幂、3Eh系数和2τLf k=−Vc。R327的13行兼容、降秩整除、其它段同k ruling与相位/seed仍欠；不能逐端口重锚。所有详细原式/有限复制/失败保原results。
 
-### 已付有限原式可复用，不能把低阶保持当自动零
+### 已付原式与全成本背景
 
-R259/263的72面积/81有序状态是准确接口非rank；R277–281同母面积/三矩/third、R293/294二层history、R299完整self/Γ与R300/305完整商保原证。R304原Gaussian余基线后由R387/388阻断，不再重跑principal。R281端类/R288指数层只保原逐包比例输入；新重叠/其它轨道须另核真实尾/端条件。
-
-### 全成本、实际pure控制与结构几何
-
-R208–210给 whole pure 的真实可达 S=P、闭锥Cp=P；Q=P/πR仍未知。不能再用λ+否定已付pure，也不能从pure0推出完整mixed/左尾0。
-
-R222一般有限观测真实控制保全部原型基准、mixed成本和最后有限复制；R223/227付Morse/位移/框架闭hook与例外芽安装。R302补共享整块倒行、自由h跨整个长词、允许τ漂移后全目标增强IFT，故pure/T9/一个预固定self可与新结构几何同付。这通常选定一个新seed/g，不冒已固定g的有限flex。
-
-R105/109/130原有限U保完整history，非零M的N²/N³项不能删。R84真倒行成本同号；span或闭锥不是实际逆元。R156仅α∈πZ的输入相位合法。
-
-### 全self已付接口，继续完整mixed与真实共同控制
-
-R292/295平台/self、R297九矩、R298能量、R303全平移≤9、R307/309最高系数、R310新J及R313十五维保原证；固定even母平移不忠实分离所有profile函数，不能孤立增rank。[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)的whole-pure核完整self含九矩非local与local quartic三jet，Euler六jet/九矩忠实，原尾保。R322真权移σ→σ−2，跨权不补同权缺口。R316完整H*全π/self0而λ+=1已付，不授mixed0/实际负路径；R333进一步给全pure/self实际截面。旧成员/rank7/forcing不重，继续同成本内部period/同w联合。
+R259–324原面积/有序history/完整self、R208–227实际pure与有限观测控制、R302基准joint、R314忠实self及R322同权限制均保原证；原单包尾/原型/真倒行不得删。详细旧背景移至[摘录](notes/open-paid-background-through-R443-20261116.md)，当前继续同一成本内部period/同规范，不重旧rank/forcing。
 
 ### R333已付全pure/self实际控制；继续同一成本的内部period与规范
 
 [R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)已消费C4/C6原old组合及fresh完整mixed/T/Euler证书：E(U0)=E(R0)维10，零权商0；两次真实商截面、闭锥、有限复制和全基准给相容pure/self整对的紧集C1实际截面。不是全权E(U)=E(R)或不相容积空间。零目标付全Q/T0，不授Ω0。R336原δK的Q非0，R340改用完整E核两列与原商付两flux。C2/C4/C6、rank7/forcing均已付不重；当前继续完整内部period与同w joint，有限自然见R429。
 
-### R383有限表保留；R387/R388已阻断原Gaussian同芽分支
+### 已排Gaussian同芽与有限自然控制背景
 
-[R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)已保实际8/12/镜像母、半母三矩、九self和J/K，同母常秩IFT/有限N付17行、十个对称乘积三外矩及area/T/Ψ/three-directed/third。旧冻结O与局部门结局见原稿，不重做。
-
-[R387](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)的完整一层正余量在原各门保持时不能被合法gauge/incoming/同Gaussian真词抵消；[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两row不除P，排同种子连通C²首阶轨道。只转不同端芽/第三结构或有理芽同规范；高阶才动、一般C²机制未排。大κ仅条件于已实际安装的芽，不能继承其它芽wholeE/Morse/period。
-
-### 完整H读出已零；整个Q4自然读出已闭，继续实际joint
-
-R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及紧profile的ΛH1=ΛH2=0；旧R358/362/365/371的非零、模C²维12/≥13和具体7/13控制已撤回。R366仅一般满秩条件式有效，此HΛ族不满足；未称H算子0或H⊂R，历史过程见原带撤回说明的稿，不再把旧秩当当前控制入口。
-
-[R386](results/R386-complete-quartic-velocity-natural-flux-and-a-new-mixed-direction.md)现已从完整原CA m2/BN2、−Ψ、两P/B history与有序真尾推得 ΛQ4[γ,δ]=−∫Q[γv−(γx+δ)r]⁴t/(32h⁸)。完整加速度及速度势逐state准确抵消，余ρ消全部真实primitive而无丢左尾；全局部C²多项式式保全部五速度槽。纯δ式回R370，h1d0混合γδ³=∫(7x²−1)r⁵/160−∫xvr⁴/16，偶母平移的二次项证明比R384 X/M多一真正函数方向。它是整个Q4的读出，尚非整个U/同g joint；Q2/静态等不能因该式被免费局部化。
-
-R384/385已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)付两个固定真实Λ的实际joint：原严格正核/四次幅、真实桥/倒行、完整基准、单一有限C1截面保留，非wholeE/同g/13规范。[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)再付响应P_LE⊕R²，原型清零成本×n、后置校正完整F保；非wholeE0。旧fixed两Λ核不自动仿射稳定，不能套字符排除；现继续J⁺/内部门的同actual基准。
+R383原有限表保留，但R387/388完整正余量已阻断原Gaussian同芽连续C²首阶轨道；不排高阶才动/其它芽/一般C²面。R378/381/382撤回旧H非零和7–13秩。R390两Λ、R392响应P_LE⊕R²实际控制保完整基准，未授wholeE/同g或全部规范。原证明/费用及详细边界见[已付背景](notes/open-paid-background-through-R443-20261116.md)和各结果，不重跑；当前继续J⁺/全部内部门。
 
 ### R327/R330/R437/R442/R444：最高规范兼容与原八响应盲行
 
@@ -95,6 +73,8 @@ R384/385已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-tota
 R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal C核与R441非零c的Wronskian/ur⁴给旧22formal，同固定镜16/六blind。旧六列余商仍只属于该22子模块，不能称增广模块的完整核。所有原K/J尾及实际prototype/J⁺基准保其原稿。
 
 [R443完整实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac，直接读R434已付18算子/85Q核/53关系。新53完整2K current先保同锚/左常数，再仅外Af替换，全部成为无p分母的五次local多项式、无非local/高jet残余。fresh53与2新adapter全过；新self像38/系数核15，K11+53 union49/核15，11旧非K全member，旧22包含且新增27formal。完整38基/15核/11成员的原144来源与249记录定位已发表；science1.2916408s、entry3.150114956s、RSS45356KiB；0旧rank/检查、0实际profile/root。
+
+[R446](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)已纸证whole-Q universal的不交2+2迫三密度各有真局部νj；四次M=homotopy/4保双端，h′=−cu使全部u4消，3剩Jj系数恰原current的4倍。因此联合核必Af局部Laurent，R443无p分母是额外实际；不能用少数suffix零代formal核。
 
 下一把49完整函数对同一实际母的全部根评价，保真wi/ξi/幅权/suffix及共同h=u*/r*、s=p*/r*，不能把自由jet秩当固定母满秩。先同一成本付全部C，再清self余量，signed评价与actual J⁺/两次商/桥/Klein/原型×n联合仍分清；真实period特解、gap/平台值及13同规范继续。R446纸证局部性、R448固定镜限制只消费本次原记录，不重53 self/union秩或旧检查。
 
