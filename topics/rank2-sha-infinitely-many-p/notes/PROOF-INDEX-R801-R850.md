@@ -176,3 +176,6 @@
 
 
 - [R841](../results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：原9|N,M的三阶R:z↦z+1/3正规化、K定义域及q0/q2全交换齐付；原CM理想级数完整支撑1模3，h1忠实性回真实Chow特征，modified diagonal及基点不变迫原Z直接纯最高λ，无需mixed rank0输入。实际degree3循环商X0(L)→X0(L/3)及九项1/9原角色提取保持全来源；push/pull特征分开，X0 old 6^-2和X1 1632/816/12^-2全保。未赋非零、未增加端点或canonical比较。
+
+
+[R839 属三自同构行列式与 Picard 来源](../results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)：§9–10对任意属三C→E0³证明det(v*|H0Ω)≠1即最高Chow像零。满像时q:J(C)→E0³为同源，完整q_*共轭次数相消，中心CM使Π与有限作用交换；零实现的平均幂等经Kimura有限维严格为零，并用原平移不变性付任意基点。于是所有Picard y³=f4的实际曲线像均被杀，未把一般高余维实现当忠实；其已知Ceresa椭圆点公式读取混合Hodge型，不能供应原最高λ非零。
