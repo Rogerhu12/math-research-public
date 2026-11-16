@@ -357,3 +357,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R488 — actual216完整far与采样、BVP启动空间停止及规则未返
 
 **实际216完整必要范围已读，BVP未启动。** [R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748B/8f85ed9e，run43819978588/source634c4c85，compute133140597135/report133232554737各仅exact取一次。八必要scope齐、六report同字；C1440/six/全合法粗域保，2873resolution+1integral未付；当前factory1810passed/8617未决/13未访与原coast中心严格速度反证分开，不冒本次停止原因。全部112far/joint、13850unique/16128fields齐；95GB prepared账仅完整bytes/SHA/rows，parsed_rows0。启动实际12456181760<34359738368，child=false/exitnull，453/450/native-FD-fullDN及15后继未始，退出124是startup资源分支非运行超时。rules98410/90K70无marker未返，实际cleanup_skipped，静止不补清理完成，raw只随runner销毁。R498/R499后继不倒填216，不新开重复存储入口或降低原门。
+
+## R475 — actual211正高度首个完整J/R273与真实接受步
+
+**数值证据；正高native仍未收敛。** [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967B/bdf29d59，run43810051801/source7e62fb22，compute133109494332/report133235382702终log各仅amplitude一次；81156B/5994fe81必要同字全部读。零H原完整内部J/mean/predictor后284.14535s收敛；首1/64H完整576 J及129248行R273校正返回，trial0/step1原norm196395.0911309943→5181.565456345417真实接受。下一iteration1 stage105/rawCell1/rawSegment4触有限trace方向资源停止，原18000/TERM124，正H完整response/338J/FD-fullDN未付。完整R273行/模型诊断（含1.0273e22梯度）、原累计R466/R471/R474、全部engine末位/原null/错误/未访均保，不冒准确导数或新门。10:25:27完整必要quiet后真清，不凭已删state续；与208计时是两个实际run，非分项微基准。初猜prepared SHA已据唯一缓存原body补全漏录字词，科学值未改。
