@@ -58,6 +58,8 @@ $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 
 [WUR完整伴随、mean及strict第一行接收](results/R133-supplement-mean-completed-scalar-flux-adjoint-and-first-row-reception.md)948ad192：完成第二方程后仅raw $(g_1,0)$；原SP同q权精确相消，完整接收为$O_0m_{11}(\int\|Ig_1\|dr+\sum\|Ij_1\|)$，无额外Jstar。三块adjoint/physicalmean反馈、weakflux、$z+\ell_f f$真root值、原parity有限IJ两gain和全部3070真jump均保；完整signedtuple留E_AW/cut/waist。同源p2先依WUA全N6，不从局部forcing推得，不授root或wholeE。
 
+[WUC原root窗口完整接收](results/R133-supplement-root-window-interpolation-and-complete-negative-source-reception.md)6ced5a93：WUA完整$g_1=JQf+F_mk_2-zR_m$经实际J的L2/I两界、全频H−2/3插值及普通L²dr给rootcollar列$p=5/3$；所有truejump同阶，strict为p2。只用原PW cut $r_+-1/200$ 与SP43731464771/1原20门完整CO/CR/C1，原root/mean/源单位保；由逐列HS准$1<\sigma<7/6$，未授4/3或端点。全negative同源已闭，positive/root与waist同signedtuple另接，无新球或旧数学重跑。
+
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
