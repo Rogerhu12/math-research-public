@@ -21,7 +21,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
 
-本轮完整前态另保[root63前全文](notes/2026-11-16-open-before-root63-bockstein-789f.md)。所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
+本轮完整前态另保[root63正证前全文](notes/2026-11-16-open-before-positive-root63-789f.md)。所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
 **原式来源与31饱和。** 已付原h0模31²分母指数恰1、完整原17模31³费用87及e0任意次数mod961负证；详细来源/旧计数保[完整前态](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)。最新同原全局因子、系数tors与p6范围见末节；有限模身份不代char0。
 
@@ -109,12 +109,12 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **原有限点。** 二点full/P均长12且完整W局部入像；负六同为12。零点完整长66、九 $s^3t_j$ 局部入像且 $t_2$ 恰需3；$F_\pm^2W$、$E_8W$ 已付。准确原来源和局部normal校正均保快照。
 - **无穷远。** Q/F31完整同谱 $1^4,3,4^3,5,6,7,8,10,11$，full66/sub55/max11、自由13/右核1834。D31完整Smith、1632/E216原直和和同202规范整核已付；新原minor degree8769/leading31单位。旧243指定平方与此区分。
-- **有限系数载体。** $C/pC$ 为field315除精确 $J=k[s]/(s-2)$，长314；$\operatorname{rank}_D C=\deg\Delta_{\rm aff}$。root2前五系数p谱 $(1,4,2,4,2)$，全球至少15个tors方向/系数长至少44。$278\le\deg\Delta_{\rm aff}\le299$；九真差源p阶5不等于h0分母。
+- **有限系数载体。** $C/pC$ 为field315除精确 $J=k[s]/(s-2)$，长314；$\operatorname{rank}_D C=\deg\Delta_{\rm aff}$。root2前五系数p谱 $(1,4,2,4,2)$，全球至少15个tors方向/系数长至少44。$278\le\deg\Delta_{\rm aff}\le298$；九真差源p阶5不等于h0分母。
 - **完整外除子与剩余乘子。** [原56行全核](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)已证 $\Omega=f_{60}^2$、投影商 $S^{13}\oplus S/(f^2)$。$\mu=R_{\rm out}/\Omega$ 度数至多21，九 $\mu h_*t_j$ 有原Q来源/共同费8411；$\mu=1$ 仍未证。根/独立全系数乘回已核 $\overline\Omega_{31}=Q_{60}^2$ 和 $\overline\mu_{31}\mid(s-1)(s-2)^2P_+^2P_-^2E_6$。
 - **已有来源全精度8535。** Ω首一D31整且原D* leading单位给q8491，任意已有同余保原e/n降费 $\max(8535,\tau+1)$；固定e任意高n才exact，单p6不够。e0任意次数mod961负证保持。
 - **完整I2与后继。** [全197原除源](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)实得 $I_2=U_7$、$\chi=(s-1)^2(s-2)^5$、exact指数2五个。完整I3须197纠偏源、七个参数图关系及b8/pb9，保原p4算术。root2全210 recipe已付但p7/六整数零carry/第四像未付，仍 $u+v=2$。
 - **独立F127完整模块。** [全6188正常形/基](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)实际补齐660来源，其中658零、6046/6063非零；全2855补集得到rank1021/free13/B8/Σd701。[全torsion](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)在完整805状态中去506观测，实际长度299、全参数作用/9目标/源DAG真。$\chi_{127}=s^{66}(s-2)^{12}(s+6)^{12}\widehat F_+^8\widehat F_-^8\widehat E_8^5(s+64)\Psi_{60}^2$ 全300系数根乘回；独立小审计现已逐121系数实核Ψ²=barΩ，完整J127实际为0；s+64仍须解释。
-- **[F127自然∞与Gauss已成](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)。** 实际3959098系数分母单位、完整H3760/C580/全部incoming/第11原forcing给∞66/sub55/max11/free13。Q与127在同自然chart均66，原同次齐次minor中有u66单位，故Δ首一D127整、约化保次数且barΔ|χ299，独立给278≤degΔ≤299。Ω127已逐121系数匹配Ψ²；完整Q13的J127实际0，Q/field small均230，299不能据此降298。九目标共同子模/精确最小式、未乘μ的Q来源继续。
+- **[F127自然∞/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** 同原Q/127完整∞66、3959098单位给原单位首项minor、有限D127系数载体和monic Δ保次数。J127=0本身不降299；随后真正root63系数正证已独立降至298，见下。
 
 旧live43756208221保Q/∞/Ω所有付费缓存，新live43772109844保127原basis/state及global197/root2 recipe；只小源码、参数、run/SHA、回执永久。精确步号/失败和恢复以HANDOFF及原小回执为准。
 
@@ -139,7 +139,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
-- **原127系数载体。** [Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127全299和degΔ+Σt127=299；s+64不是J。[2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md](notes/2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md)已排180秒/1GiB，仅用全参数1834个Z来源，正值须反传6188并新核4367原p²产品。正才付至少1个指数1方向/上界298；零只限第一系数页。
+- **[原127第一系数正证/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 全1834 global Z中925读数非零，首node26969742反传原6188并新核4367 p²产品，读40。原simple s+64全由系数tors占据，barΔ|χ299/(s+64)、278≤degΔ≤298/齐次≤364、barμ|F+²F−²E8且μ≤20、μh*≤43；原三源费8406/8411/191。925不是独立方向数；其余primary、critical额外20、未乘μ的Q来源仍开。
 
 - **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；Q或p127²来源未付，25图只作原relative T选元参考。
 
@@ -147,4 +147,4 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **第二次完整顺次MP已付，第三次及全返回仍开。** [真实primitive回馈证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω_j=(D²)†ω_j−D†ΠkerD D(D²)†ω_j，两项正交，明确原primitive常数512√(j+4)(x+j+4)^(3/2)。τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ使q1=D†(C+D)f、q2=CD†q1同时平方O((1+||C||⁴)τ²)Δ_g²；两最高top全保。z2=f−q1+q2只有准确残量(C+D)z2=Cq2，不是原真核。继续更深完整核旗/中间Schur与同w全部partial，不将第二次primitive分解免费复制到任意高度。
 
-**原critical135支撑已完整穷尽但无增。** [R150-appendix-complete-135-coordinate-quadratic-high-slice.md](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)证明该支撑的全部高零列恰为 $\ker[L,Cv,Dv]$；三个actual均dim2、51×49 rank29/leading13、全6188乘回通过，局部低界仍6/6/4且全局278…299。无增只限这个完整135支撑搭配指定低jet。[完整tangent2实际](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域均high维2且含旧high，故两空间相等；102×74秩50、leading11/full13，增量仍0。继续加入真实normal3常数张量、核17×12原pencil；不把此负结果当完整连接下界。
+**原critical135支撑已完整穷尽但无增。** [R150-appendix-complete-135-coordinate-quadratic-high-slice.md](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)证明该支撑的全部高零列恰为 $\ker[L,Cv,Dv]$；三个actual均dim2、51×49 rank29/leading13、全6188乘回通过，局部低界仍6/6/4且全局278…298。无增只限这个完整135支撑搭配指定低jet。[完整tangent2实际](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域均high维2且含旧high，故两空间相等；102×74秩50、leading11/full13，增量仍0。继续加入真实normal3常数张量、核17×12原pencil；不把此负结果当完整连接下界。

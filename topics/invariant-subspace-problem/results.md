@@ -551,3 +551,7 @@
 ### 原tangent≤2三域实算：两高切片完全相等且无长度增量（2026-11-16）
 
 [完整原回执与证明](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)：plus/minus/e8实际19.2569/23.8411/132.4905秒，34×20 rank18、153×47 rank45，完整新high维2且实际含旧2，故两高空间相等。低102×59 rank46、完整102×74 rank50、leading11/full13；所有原6188乘回和父Taylor身份真。仅此扩大空间无增，不排normal≥3/full连接，局部仍6…8/6…8/4…5。
+
+## R150：原globalZ的第一系数127正证、剔除s+64与仿射界298（2026-11-16）
+
+[完整原证明/实际回执](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：全部1834 Z中925标量非零，首node26969742/原3463反传6188（支持4324）后新核4367原mod16129产品，ℓ读40。参数稳定I1占满唯一simple s+64，严格barΔ|χ299/(s+64)及Δaff≤298/齐次≤364。保K158Ω278，μ≤20、μh*≤43、三费8406/8411/191/max8411；D31既有解费8535不改。总elapsed7.2124含compile2.8288；root独立全300/22系数乘回、χ'(63)=79。原field299仍全保，925不作维数，μ1/Q成员未证。
