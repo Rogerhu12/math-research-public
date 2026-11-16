@@ -39,7 +39,7 @@
 
 - 已付真实e=f−PVf、k=PKf、Δ²=e²+k²及全暗矩/全旗；位置生成元||Gposu||≤40QΔ。真PE/帽PE反馈、逆芽和零源正交保留，Riordan专窗与小窗分开，所有常数/原来源见前态。
 - 原低forcing完整creation行≤4I/3、双缺陷≤8I/3保GΔ和交叉；Z*D*DZ=Z*𝒱Z，受限完整源逆≤3(L+r+1)³/p。同u须联合(De,Dk)加2，帽返回不免费认作ZR。
-- **[兼容Bernoulli塔/真核比较](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)：** 同事件Dv_r=v_(r−1)、真W_L压缩Gram已付；moving模型logχ≤47d⁴/4和Chebyshev小量保留。母carry含R0^(j+ℓ+1)、跨块2z−1，旧logQ≤26d³合法窗未扩大；全参数/来源见归档。
+- **[直接actual-u Chebyshev](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)：** 在完整E=V_Q^0上I≤G_E≤κ²、grade带宽d−1；ν=floor((Q−s)/(d−1))给真k_pol∈K_Q及||u_f||≤2ρ^ν/(1+ρ^(2ν))||PVf||。Q=s+(d−1)ceil(m expΨ_m)使u≤2e^−2m，logQ=35d⁴/6+O(d³)，无额外远池。旧兼容塔/真实头/全双幂来源保前态；母carry仍O(d⁵)、旧logQ≤26d³窗未扩，不代原N=M。
 - **[放大方差/同源阻尼](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)：** s_m≥S_m→0，任意R_m和1≤J_m<h_m，完整H_(C,J)(s)^−1强趋P_M；ε=q−||a||²→0。Q≥R+J时f=Σ(-C)^jaω_j/(s^j j!)保原V/K/u，远孔指数矩≤q、||f−a||²≤(S_x/s)ε。全塔残量=[1−r+W/s]Cf，截断top保留；强头a的孔尾不删。
 - **[完整一次MP](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)：** τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ给||D†(C+D)f||²≤O((1+||C||²)τ²)Δ²；top保留、无χ。R=0保原u/f→P_M，别的R=d门不消；残−CD†(C+D)f仍在。
 - **[真实二次MP](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)：** (D†)²ω=(D²)†ω−D†ΠkerD D(D²)†ω，真primitive回馈保留；τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ付q1/q2平方O((1+||C||⁴)τ²)Δ²。两top保留，z2仍残Cq2；全核旗/帽返回/carry未闭。
