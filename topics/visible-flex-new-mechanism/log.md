@@ -431,3 +431,8 @@ Astra-new-mechanism-9974ea84：[R413](results/R413-common-mother-Q4-chain-and-ex
 ## 2026-11-16 00:38:06 UTC｜R415原左尾与两有序尾准确抵消，双静态锚已消
 
 Astra-new-mechanism-9974ea84：[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)，13277B/hash2c83583bd1d2c3f75af02412f0060280d2b2e3961b0073b0d87811563c125948。根从R56/R402原式手推V6与a0消去，mechanism独立核完整左边界及两有序尾并合稿；根全文读定稿并逐项核R73原m2五坐标和最低h幂，R164同μ原参考式保留。未执行积分/符号/人工检查，未把线性系数当实际路径。第三direct run43780594182 success只是元数据，两个原日志读取均Transport closed，另建只读observer消费，未复算或虚报研究结果。基底f593825d036e3c923ee1675c697f64531c8d7595。
+
+
+## 2026-11-16 00:40:06 UTC｜第三direct完成日志只读观察请求
+
+Astra-new-mechanism-9974ea84：第三科学run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba于00:33:09完成success，原生joblog两次Transport closed、未获raw。现发布薄stdlib reader与唯一只读request；只在公开Actions消费原job一次、记首次真实raw/tag指纹、输出全部模型/试验14门及成本与迁移标量，数组/状态只留原日志与runner内存。复用原helper实际pull公开/私有并核规则/QUEUE；无研究模块、无开发/LP/geometry重跑、无artifact/Release/cache/ref写，stdout上限660000B。scripts/read_direct_reference_completed_log.py 29786B/hash77d49363ce18ab1c02b80cfb7b9965f57b6ea521d099ee905f4bf1f0ebe1a705；.github/workflows/visible-direct-reference-log-readback.yml 2102B/hash833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694；computations/direct-reference-log-readback.json 2097B/hashce926d06203a8149f94efc51f57e1f404cf8ba354b478733385d1355393cb614。根读全部源与模板，00:38终端再次exec-server缺失，根8小UTF8发布；当前仅确认运行元数据，不由success宣科学下降。基底ca46558d8367824bbd82523da78818fcdc620a64。

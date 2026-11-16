@@ -1,0 +1,48 @@
+name: visible-flex completed direct-reference log readback
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'topics/visible-flex-new-mechanism/computations/direct-reference-log-readback.json'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-direct-reference-log-readback
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/visible-direct-reference-log-readback.yml
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py
+            /topics/visible-flex-new-mechanism/scripts/read_direct_reference_completed_log.py
+            /topics/visible-flex-new-mechanism/computations/direct-reference-log-readback.json
+      - name: Read the completed original direct-reference log without research or developer execution
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os,pathlib,subprocess,sys
+          path='topics/visible-flex-new-mechanism/scripts/read_direct_reference_completed_log.py'
+          sys.path.insert(0,str(pathlib.Path(path).parent))
+          sys.argv=[path,'--request','topics/visible-flex-new-mechanism/computations/direct-reference-log-readback.json','--source-path',path]
+          content=subprocess.check_output(['git','show',os.environ['GITHUB_SHA']+':'+path])
+          exec(compile(content,path,'exec'),{'__name__':'__main__','__file__':path})
+          PY
+      # Original payload remains in runner memory; stdout is at most660000 bytes.
+      # No science, developer suite, artifact, Release, result commit or ref write.

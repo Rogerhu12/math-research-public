@@ -8,7 +8,7 @@
 
 私有actual pull：ec0cccb24aca86f39faa93eab4b215ec42a1f98e，00:18:59.420045 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。ref冲突均已真实rebase/核差，保log。
 
-新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
+新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（00:38复核exec-server仍缺失），依根8小UTF8发布；API非pull。
 
 ## 2. 完成门及冻结几何
 
@@ -48,4 +48,4 @@ R388的正D4身份只在同Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨�
 
 ## 5. 继续
 
-[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，正接只读observer，科学明细未读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；续R414共同高自然商及R415余下四低函数/PSD，主完成门欠，持续open/actualpull。
+[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，只读observer源码/唯一请求已发，科学明细待读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；续R414共同高自然商及R415余下四低函数/PSD，主完成门欠，持续open/actualpull。

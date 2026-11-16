@@ -1,0 +1,39 @@
+{
+  "mode": "read-only-completed-direct-reference-log-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "goal": "Read the already completed third direct-reference result once after both native transports closed; inspect original costs, gates, migration and model decisions without research or development replay.",
+  "original_run_id": "43780594182",
+  "original_job_id": "133016656592",
+  "original_source_commit": "a0d71ea94446f0fcf64d1f69e4dbadd5910204ba",
+  "expected_original_conclusion": "success",
+  "original_request_bytes": 41005,
+  "original_request_sha256": "f622a092cbae2b8279f14aebea3f6a3708f1b09b5aa45dd336f3fc7ab74f1cc4",
+  "original_log_identity_unobserved": true,
+  "source_sha256": "77d49363ce18ab1c02b80cfb7b9965f57b6ea521d099ee905f4bf1f0ebe1a705",
+  "helper_source_sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+  "workflow_path": ".github/workflows/visible-direct-reference-log-readback.yml",
+  "workflow_sha256": "833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "stdout_byte_limit": 660000,
+  "publication_policy": "root-README15-reproducible-outputs-metadata-only",
+  "observation_scope": {
+    "original_direct_reference_science_executions": 0,
+    "developer_check_executions": 0,
+    "original_log_downloads": 1,
+    "scientific_module_imports": 0,
+    "original_payload_only_in_memory": true,
+    "no_payload_file_artifact_release_or_commit": true,
+    "semantic_selector_only_copies_original_values": true,
+    "metadata_hashes_and_lengths_do_not_certify_mathematics": true,
+    "observed_original_run_success_is_not_a_substitute_for_original_science_records": true,
+    "original_log_download_count_is_per_observer_run": true
+  }
+}
