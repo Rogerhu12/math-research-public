@@ -1,0 +1,51 @@
+{
+  "format": "r150-weight10-macaulay-controls-root-log-audit-execution-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "status": "completed",
+  "executedUtc": "2026-11-16 18:03:54 UTC",
+  "runtime": "functions.exec V8",
+  "sourceHelpers": {
+    "path": "notes/2026-11-16-r150-original-koszul55-mixed95-completed-log-audit-789f.js",
+    "blob": "f96e760731917e7046ef040cf53583ef6838a8fb",
+    "sha256": "c0c8bccb22a6cc964438faa58a5208760175faf6194d7b0519ff3a04cd382527",
+    "functions": [
+      "selectRecord",
+      "canon",
+      "sha256"
+    ],
+    "wholeSourceReviewed": true
+  },
+  "runId": "43922052588",
+  "jobId": "133491622542",
+  "stepId": "original-weight10-macaulay-compile-controls120",
+  "executionSourceCommit": "f43a00089a71d5e954106a2bd69c2cd64d359829",
+  "jobLog": {
+    "bytes": 31417,
+    "sha256": "3390e24d7c0b19260adf667c4c0b5d3378ec74967af85d334aa5ed24f51457c3"
+  },
+  "raw": {
+    "bytes": 4022,
+    "sha256": "45225626d24c434a302f2af86a91f4be0a781f6d90ff1105aa4e61f7ddb875d9"
+  },
+  "stdout": {
+    "bytes": 4023,
+    "sha256": "76f555934fe48731e608cc4a6cc3605eb65155b6aee4e2dc2884906db358c753"
+  },
+  "manifestReconstructed": {
+    "bytes": 1945,
+    "sha256": "16a63e9001d9a3ad99d68904086371533c06a4f13fbc975c37089ba8f7d28176"
+  },
+  "semanticBinding": "12cc5bff4faf0914561e4377e14ff0351ea587beeaf65ca79ee146d5f737420c",
+  "allActualChildExitCodesZero": true,
+  "completedChildProcesses": 4,
+  "newCompleteUnits": 2,
+  "allRawCanonicalBytesMatched": true,
+  "manifestCanonicalBytesMatched": true,
+  "semanticBindingMatched": true,
+  "floatLexemesPreserved": true,
+  "physicalManifestIndependentlyReopened": false,
+  "controlArithmeticRepeatedByReader": false,
+  "fullOriginalMatrixGenerated": false,
+  "original200ParentRead": false,
+  "mathArraysStoredInGit": false
+}

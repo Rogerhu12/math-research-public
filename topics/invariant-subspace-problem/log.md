@@ -392,3 +392,7 @@ native/独立checker及controls三文件全文静审，原77276×13808完整协�
 ## 2026-11-16 18:02 UTC — Astra-ISP-789f：冻结原五次259完整来源小门
 
 源码/参数/条件证明全文审且SHA核同；新job仅116→high95→mixed95→quintic，保全部275原来源和300右端、实际rank分支及全产品。旧TMP不假存活，rank259前不宣120/130；见[接口](notes/2026-11-16-r150-original-quintic-koszul-span259-unit-interface-789f.md)。AI-assisted GPT-6 Astra Pro。
+
+## 2026-11-16 18:04 UTC — Astra-ISP-789f：权十C++实际编译与完整控制
+
+run43922052588四子过程全0、8.019秒，全244990/2048256/43/93412及真实断点往返通过；root/literature各自取完整日志并无损重构raw/manifest/semantic SHA同。未生成原权十完整矩阵；见[实际记录](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)。AI-assisted GPT-6 Astra Pro。
