@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "9e5544a8e5e209b046b4eb62d3a4bf2f4d952c41",
+  "rulesReadAtCommit": "420baee5f4125b6e1a4fdd545b26f63cba1f0657",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -396,6 +396,35 @@
       ],
       "timeoutSeconds": 150,
       "receiptPath": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json"
+    },
+    {
+      "id": "original127-complete-nine-target-cyclic60",
+      "requires": [
+        "original127-complete-whole-torsion60"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+      "scriptSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+          "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31"
+        }
+      ],
+      "argv": [
+        "--whole-out",
+        "{work}/original127-whole-torsion",
+        "--hstar",
+        "{scripts}/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+        "--out",
+        "{work}/original127-nine-target-cyclic-module",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 120,
+      "receiptPath": "{work}/original127-nine-target-cyclic-module/original127-nine-target-cyclic-receipt.json"
     }
-  ]
+  ],
+  "mathematicalProgramStatus": "Ordinary ISP remains open. Original F127 complete affine torsion is299 and infinity66; Omega127 exactly matches the degree120 exterior, J127 is zero. Consume the already paid complete299 action and nine original targets for full joint cyclic modules, nine first relations, and original integer h-star/h0 action; do not recompute NF/GB/whole state or infer characteristic-zero membership. Original coefficient31 I2=U7; root2 complete210 recipes await genuine p7."
 }
