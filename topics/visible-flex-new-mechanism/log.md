@@ -383,3 +383,8 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 - 首失败36.79963991600005秒/restore1读原clock继承；另明列一次未导出context修复恢复，同600秒与全部其他配额不重置。
 - 5源码/241绑定，request54701B/23a9bc66…；推小request触发唯一续run，全部旧科学任务仍闭合。
 - 共享.github/workflows仅改账户说明以准确说明carry，执行/双pull步骤不变；主理论与几何门继续。
+
+
+### 2026-11-16 07:49:34 UTC — 登记唯一输入修复继续运行
+- run43826338594/research133160965959/source de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5；沿同600秒有账继续，未再次触发旧源。
+- 当前执行新finite/fullgrid阶段，真实pull及结论待同run只读报告；三条纸面子题继续。

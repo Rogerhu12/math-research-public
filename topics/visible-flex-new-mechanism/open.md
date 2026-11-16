@@ -168,4 +168,4 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 
 ### 四cut输入分类修复：同一个600秒账户继续
 
-[准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run待登记。闭合或失败后继续真实下一子题，所有几何完成门保持。
+[准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run43826338594/research133160965959/source de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5正在执行。闭合或失败后继续真实下一子题，所有几何完成门保持。
