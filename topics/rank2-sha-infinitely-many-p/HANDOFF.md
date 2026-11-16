@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：2d7cfc98c0bd5348a6707d122233500149312424；2026-11-16 17:09:17 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：25265e7eaca1b00a879311032a8520546516416c；2026-11-16 17:16:37 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -55,7 +55,7 @@ R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfu
 
 四原S34/T72/U136/V66及全部CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
 R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完整H。Ĉp=(p+1)cint、DR3/Γ16/Fermat项不删；U三纤维run43870426107成功不赋中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/原sigma初值保。§16固定m/Miller/p曲率；§17 P6P_(m−6)保四α/前五modp窗，消全Z补极，二挠<2p³加偶性给C³η[2]=−α^(1/p³)rω，首次C真读同Q6QbR的γ1。旧trace/exact准确作模型差，不授权p²/p³替换。§18全Hurwitz顶边∂pFm=−mcp(Fp+v)Fm，真实T由原a_(p−1)/非齐次cpFp固定逆链读；r卷积/法向保；§19第六块准确读同低卷积/κ5，公共c2(p)消去，§20同Fa共用算子/Cartier质量，真实exact差给同F6²加四完整带权伴随；未付两位边界或四方向非零。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/原sigma初值保。§16固定m/Miller/p曲率；§17 P6P_(m−6)保四α/前五modp窗，消全Z补极，二挠<2p³加偶性给C³η[2]=−α^(1/p³)rω，首次C真读同Q6QbR的γ1。旧trace/exact准确作模型差，不授权p²/p³替换。§18全Hurwitz顶边∂pFm=−mcp(Fp+v)Fm，真实T由原a_(p−1)/非齐次cpFp固定逆链读；r卷积/法向保；§19第六块准确读同低卷积/κ5，公共c2(p)消去，§20同Fa共用算子/Cartier质量且此质量再Cartier为0；真实exact差给同F6²加四完整带权伴随；未付两位边界或四方向非零。
 
 ## 第三门：同P/R/S与全实际有限类
 

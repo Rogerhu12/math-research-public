@@ -2123,6 +2123,20 @@ $$
 其共同零特征分量非零，在原点的值是 $21/20$。
 这属于带 $\mathfrak A$ 的质量；它并不是原四个 $\alpha_\nu$。
 
+这个共同质量的下一次 Cartier 实际为零：
+$$
+\mathcal C(H\omega)=0,\qquad
+\mathcal C^2(\mathfrak A F_a\omega)=0.
+\tag{116a}
+$$
+确实，原 $r=x^2/y$ 给 $r\omega=\frac13d\log y$，故
+$\mathcal C(r\omega)=r\omega$。而原 $D^{p-1}G=r^p$
+及 $(p-1)!=-1$ 给 $[G]_{p-1}=-r^p$，
+所以 $\mathcal C(G\omega)=-r\omega$；二者准确相消。
+因此(116)的非零质量并不会自行传到最终中央读数；
+(117)的实际权和(120)–(122)的完整伴随仍须保留。
+
+
 原实际权必须明确写为
 $$
 W_\nu=\frac{Z^{m_\nu-p-2}R_\nu}{\mathfrak A},\qquad b_\nu=m_\nu-6 .
