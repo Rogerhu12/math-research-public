@@ -276,3 +276,9 @@ WUE final9b5b13f0178c9a292ae8ba11264051c1fe438c14 /32557B /e191f96acc39ab802adb9
 同一完整物理row等于 Dalg+L∂(R++RF+Tneg+Eend)Ni。原root误差e+−PFhG不漏；PC两whole received费不重复receiver，旧ST4在完整trial替换中精确望远镜入WES端差而不从upper相减。原leading/选中真实反射域Xfr、CG完整finite/twoI及两mean、ng一次、原Js保。WUB完整负源blocks给原H−4/3，WUC逐列仅作1<σ<7/6替代；主全式1<σ≤4/3，Ni中间窗由同ambient延拓插值且4/3直接原A−。五旧完整ball和域未变，不评新乘积，不重任何成功数学。
 
 这是完整替代解析budget，尚无新的可用数界或finite cutoff；旧PC正侧和CG粗费仍大，不能据upper判真算子大。继续同原Poisson稳定/head/outer对象的χ/ζ紧支试探及IC同ci纯系数完整新预算，同时审全局r_n/jump/J负窗实际输入闭包。全部physical finite/交叉/mean/ν/背景/wholecore和最终曲面门仍保。
+
+## 2026-11-16 05:24:10 UTC — 独立真实拉取与README同步
+
+只新增共享路径.github/workflows/visible-exact-actual-public-rules-pull.yml，理由是本地executor持续不可用且须实际pull至少每小时。workflow仅部分checkout、真实git pull --rebase origin main、与已读提交两README的diff及小运行结论；完全不运行旧或新数学、无数值数组/新artifact/Release。每次非快进立即真pull/rebase再push，两个README每次重核；规则变化只记待人工读diff，不冒已审。
+
+flow 348e0a2ca536da5238dd28f832e4442421450298 /6139B /ef057896ee240d434240a50762e01951362321002cfaee2fec5a47f7bc4306d8，只自身path push触发；记录notes/actual-public-rules-pull.md并检查topic≤200MB。本次准备与发布不冒实际run成功，待Actions回读后把真pull提交记入H；当前README核4f326cd1e0079026ad26bdafcabcc8ebdaacb635两blob不变。
