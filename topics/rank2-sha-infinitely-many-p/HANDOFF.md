@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：fc3dd340a0fd942565c4b99594ae977bca48d388；2026-11-16 11:41:54 UTC核两README无变。实际CI pull 2026-11-16 11:01:37 UTC/98924967bf87b1fa30f8dd367f932511235355a8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:41:53 UTC仍无环境。最迟2026-11-16 11:50 UTC再实际pull。
+- 最近已读规则提交：f99dfa9a59ac3b0d42b9df92bacefcc71510f1c5；2026-11-16 11:43:35 UTC核两README无变。实际CI pull 2026-11-16 11:01:37 UTC/98924967bf87b1fa30f8dd367f932511235355a8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:43:09 UTC仍无环境。最迟2026-11-16 11:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -29,7 +29,7 @@ R881 r29原局部输入成功：run43850679589/job133242082519/source de42a2c8�
 R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V给原degree48底，最低权绝对选支、T/U/V/all36cusps/D204不变。RR两初run的resultant字典解包已修：
 - 306重跑43850251992/job133240631228；
 - eta48重跑43850252040/job133240628667；
-共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24独立producer/workflow已提交并触发，实际run待回执；仍未获RR PASS。附C原w3/w289均无固定点，完整商k(s,L)属19/9cusps，u²=s²−4、v²=L²−2916；同Dt四角色RR为27+27+33+33，含真实Au扭曲和St/S返回，尚未实现。
+共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24 run43860032290/job133274126644/source be4e0074e90508b3f7bd6e2ce3ee083165049288已实际运行；两map及三RR均无PASS。附C原w3/w289均无固定点，完整商k(s,L)属19/9cusps，u²=s²−4、v²=L²−2916；同Dt四角色RR为27+27+33+33，含真实Au扭曲和St/S返回，尚未实现。
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
