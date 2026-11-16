@@ -155,3 +155,6 @@
 
 
 - [R883附录D](results/R883-original-relative-six-shadow-and-complete-boundary.md)：所选r29/41常数反射为c∞ε而非c∞，实h0/a0与θ^r=−θ给原A0固定、A1↔ω²A2和F变负。完整闭点迹后φp_ab=−[ω]^(u_a+u_b)p_a*b*；配原W对称，只需00/01/11/12四完整除子，02/22由真实Frob填回。全次数/高重/闭点d不缩短、角色不被Frob作用，仍未报告原shadow非零。
+
+
+- [R883附录E](results/R883-original-relative-six-shadow-and-complete-boundary.md)：在原F25/F7上ζ³=ω²不可约，完整对称九项原角色读数为(A+ζω^m B+ζ²ω^(2m)C)/9。三pair单个零等价全零；真实Frob关系进一步给A点=p00−ω²p12、C点=p11+ωφp01，全部原读数非零 iff其中一点非零。φ反交换付ell7分裂的另一CM线，不误称单投影全单射；仍待实际四除子计算，未付无穷系数p。

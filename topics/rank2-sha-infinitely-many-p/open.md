@@ -65,7 +65,7 @@ R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V�
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
-R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。
+R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。
 
 original_shadow_relative_six_tools.py已写完整288次模型/正规化/真端点/全六除子/迹/实际E[ell]基/18×9与九项读数，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none，未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 

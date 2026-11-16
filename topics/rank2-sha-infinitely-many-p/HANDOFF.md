@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：843ac899ca0ff38da6656fc4c7d0268becec96f7；2026-11-16 11:10:48 UTC核两README无变。实际CI pull 2026-11-16 11:01:37 UTC/98924967bf87b1fa30f8dd367f932511235355a8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:00:22 UTC仍无环境。最迟2026-11-16 11:50 UTC再实际pull。
+- 最近已读规则提交：e8f54fcec1a4a2303166bf5fe2b7c17c9505b9ed；2026-11-16 11:12:31 UTC核两README无变。实际CI pull 2026-11-16 11:01:37 UTC/98924967bf87b1fa30f8dd367f932511235355a8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:00:22 UTC仍无环境。最迟2026-11-16 11:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -33,7 +33,7 @@ R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V�
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
-R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。
+R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。
 
 original_shadow_relative_six_tools.py已写完整288次模型/正规化/真端点/全六除子/迹/实际E[ell]基/18×9与九项读数，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none，未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
