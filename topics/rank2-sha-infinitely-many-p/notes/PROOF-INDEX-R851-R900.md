@@ -42,3 +42,6 @@
 
 
 - [R857](../results/R857-original-full-three-scholl-and-generic-cm-cycle-criterion.md)：实际三同源φ:Eτ→E′τ全full3已付；完整648项ε3给Θ=ε3CΓ，ΘᵗΘ=81Π、ΘΘᵗ=81ε3，后式用degree81来源的有限维性及零实现幂等元。原AJ仍−Ω3/18，全部Artin/来源倍率保。原泛纤维反对称闭点迹Tη=0 iff同Scholl类有有限CM纤维graph代表；cusp两ruling与非CM光滑项由真投影消。未证Tη零，也未认作R814指定K/order34/orbit。
+
+
+[R840完整单/双尾](2026-11-16-r840-full-single-double-tails-and-same-base-jet.md)：在原非水平F_t-unit厚点，完整O_Q=0准确等价于W_t|C−W_t(Q)∈x^m、W_C−W_t(Q)τ∈x^(2m)、K_C−W_t(Q)τ/e∈x^(m+1)。m≥3两尾的原三角对角−YQ²(m−2)(2m−2)、−YQ²(m−1)(2m−1)全unit；m2只留−3YQ²单行。λ=同W_t(Q)，K是联合交表示，不能冒任意高前缀Kcorr；同cF³仍读第三/第四行。
