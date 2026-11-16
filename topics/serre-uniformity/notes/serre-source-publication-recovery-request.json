@@ -2,34 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R928-certified-target-differential-R923-required-source-IO-source-IO-already-complete",
-  "commit_message": "serre: certify whole target differential transport and read endpoint source metadata",
-  "rules_last_read_commit": "cc190facb9cc01480faf26598cc654e3e730cc8c",
+  "request_id": "20261116-R923-certified-two-endpoint-target-normal-coordinates",
+  "commit_message": "serre: certify both complete endpoint target normal coordinates",
+  "rules_last_read_commit": "24d17b9332e535e9be33684b9dbe84bac1542b5e",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "330dc34a90ee1def95aa96b319052e0ea5450553b51c8864c6d3c51c8f1a9bab",
+  "expected_previous_request_sha256": "e4fd0a43b9caa0b20e9ee7cc5b338caaee0d6e350580dec93d9b2482b827a1c9",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R928-certified-original-whole-Artin-target-differential-transport.md",
-      "sha256": "fea22d958bfd6cc4c9df583b109a9901cd2e3a2c94857ebedd134d747e721b18",
+      "path": "topics/serre-uniformity/results/R923-certified-original-two-endpoint-target-normal-coordinates.md",
+      "sha256": "49d7ae340eb9fe8877d232016ffe13edf4c54414ed41e7cf94016b538fed443b",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "620c8bc67f09b71a0ba9868398e7c1ad6cb5918a0335a4ce67c1dccd4a539696",
-      "expected_previous_sha256": "4505c1172015a543d0a693a04877bef8f84a8241f8f7f5898592e004926641de"
+      "sha256": "4ab2949f7884e6984b089de429c9a57a202cd2767076ae274bb5daf37dbd96c3",
+      "expected_previous_sha256": "62d9d287711c87d647daee593feb3b738aa25f1ee639a255f84d9b72947e281c"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "ecbb8adde2bcbc085f53971fe4dff01cf7eea4b2c655523b1ca3f3c9a7006fff",
-      "expected_previous_sha256": "a6a6e4271f058290c44019804a4f8aff27e803b016c92b37517554965f246bb9"
+      "sha256": "3a50da3d031abeb4674b0109ee56223d3d10d65bbf0c85527ac04258c30177ce",
+      "expected_previous_sha256": "ecbb8adde2bcbc085f53971fe4dff01cf7eea4b2c655523b1ca3f3c9a7006fff"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "16a09cc3c3b5cdccc609cb352311f2ed144df09a0f82bcb05af67d31a14c72b0",
-      "expected_previous_sha256": "06a27cd38ea0986212e56ae85fcdc89c6ad631d6ad3ed72d2e68447041f592aa"
+      "sha256": "7e86ed84ec94900de95b6e5eaa890b828bdcdb4500fee373e5730c08d081a51f",
+      "expected_previous_sha256": "aeb06dd39772f28820f80fc80168f204326086ecfe5da3174f6ec660325ecb68"
     }
   ]
 }
