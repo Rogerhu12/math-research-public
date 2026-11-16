@@ -135,3 +135,5 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 
 **R859原目标到显式CM模型的p-unit比较已证**：[结果](results/R859-original-prime-to-p-CM-model-and-normal-content-transport.md) b8218a4b；直接用R390整谱/稳定格唯一性与完整BT，原End_K(A)在p为O_E，F弱逼近校准Q同源并除p分母得degree prime-to-p到R728模型。原逆different Néron格真运输；同h归一盘坐标Htilde_h=u_hX+pX²V_h保每个content理想及首余项/同c_h赋值。原c0/c1/权/粗参数保留，Hecke型与rec单位的反号明确；不求content数值、首项单位、q的Manin或height。
+
+**R860原函数域/微分下降（已证明）**：[余子式定理](notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md)8c9ea5ae。原W上A=TI−W、D=adj(A)00、N=adj(A)0,72（删行72/列0）；D首一T271保证D(z,w)非零，β72=N/D，总次数271/272。原cY按barF(z−2N/D,w)；实际normal右端可用同D和有边框行列式，不先Krylov全逆。原D0与c交换且cτ=τ，故δ/ν=82τdq/q下降，FM23真实比值1。D可能在点消失，仍按原正规两图membership；实际余子式展开、RR核及period未成。W34真实缓存已取，三共轭/W不重算。
