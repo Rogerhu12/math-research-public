@@ -1,0 +1,122 @@
+{
+  "budget_minutes": 30,
+  "composition_helper_core": "R839_original_global_polar_DAG.py",
+  "composition_helper_core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+  "core": "R850_original_rigidified_fibres.py",
+  "core_sha256": "ad8a8237092e907a44a4e4fc679ee40512afd980f801a6063b744a9fa3caa975",
+  "expanded_sources_sha256": "25bd537ce0c9f573cff99eb731d948b55f268dcbdbf7d7748648ebf619973bc7",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R850-original-rigidified-fibres-consumer-method.md",
+  "method_sha256": "9fd821a471d90a43ba4c27d3a971b323747ea56b3f2da8f9869d6770b7154609",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proof": "notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md",
+  "proof_sha256": "e2b87b990914fe7b47bbbc10348a9f4512dd48da0e28dcddf1883ca42fa232f5",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R850-original-rigidified-Poincare-fibres-and-theta-section",
+  "resume": null,
+  "rules_last_read_commit": "7c610c5fb8483e28409543eb3782e5bb66977e71",
+  "selected_original_file_count": 40,
+  "sources": {
+    "C0": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 159795243,
+      "archive_sha256": "1aa8c65d83443f56095bcda4abd7958f98f8d944cb83fbb984cd32aa9940b625",
+      "artifact_id": 14191923906,
+      "artifact_name": "serre-global-R803-original-c0-Hodge-jets-and-comparison-leading-coefficients-43790534424-1",
+      "certificate_name": "p41-original-c0-Hodge-jets-and-comparison-leading-coefficients-certificate.json",
+      "configuration_sha256": "06d8d96e468abc71be779d34084cdbb17bbe40ea779e1f198e7f58366110c78f",
+      "core_sha256": "4f8a41933c16727932308a52100376a86dc8b4e57458c4559ab00648fc33019e",
+      "expected_conclusion": "success",
+      "manifest_bytes": 5889,
+      "manifest_file_count": 34,
+      "manifest_sha256": "b90422a5c839f59cfa500d717c83ab7b27352dbbac44d1d8beecd279f0b4d049",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "reference": {
+        "bytes": 290,
+        "file": "full-outputs-manifest-reference.json",
+        "sha256": "cbaf38f6ce05a7086f82f2faa9cf89d91c55c682118bbddf0c569540b20bf3dc"
+      },
+      "result": "R803-original-c0-Hodge-jets-and-comparison-leading-coefficients",
+      "run_id": "43790534424",
+      "selected_file_count": 19,
+      "selected_files_sha256": "1292785b042c8cee149faa47f8fd179bfdccebb13e733acc64930508291fc77c",
+      "source_commit": "a576ab9d3b6d155027ec6f52cb689205ee5e9b98",
+      "wrapper_sha256": "a7b91ecd18b8f185e4f1a78ef82549c0ce4d8f56fa62dde4f707f48550cbf7d2"
+    },
+    "GLOBAL": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 396226833,
+      "archive_sha256": "6a52068e04e91bc7b45b13de08a143ca2baef4a3bdfd1f8fac9bab1946d94083",
+      "artifact_id": 14192171293,
+      "artifact_name": "serre-global-R839-original-global-addition-polar-ideal-DAGs-43790410670-1",
+      "certificate_name": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "expected_conclusion": "success",
+      "manifest_bytes": 2144,
+      "manifest_file_count": 12,
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "reference": {
+        "bytes": 228,
+        "file": "full-outputs-manifest-reference.json",
+        "sha256": "82e4ca163df7e266181ff45036b99d6a71818bf4daf64555d3f7df03fa0bcbdb"
+      },
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "run_id": "43790410670",
+      "selected_file_count": 12,
+      "selected_files_sha256": "f4ec6b19e20dfff1ed1e104d7f59883658d460251a6e3921a046267b9b1bd9a6",
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541"
+    },
+    "POINTS": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 11198983,
+      "archive_sha256": "1737c833763f617e192447f1656d6793cd6d7eb6b78dfdbac0e4d8a9192aac98",
+      "artifact_id": 14191283725,
+      "artifact_name": "serre-global-R792-log-jet-padic-witness-43789012126-1",
+      "certificate_name": "p41-original-comparison-log-jet-padic-witness-certificate.json",
+      "configuration_sha256": "7b2a243eb552a619e8c65ab626cfa4adcb1e6e0e560193a99063efe9ca66dade",
+      "core_sha256": "a3d04929db13d1c73414807f0a7c73b18c0e0e4e749d2349e3a44fdafc160335",
+      "expected_conclusion": "success",
+      "manifest_bytes": 290468,
+      "manifest_file_count": 1421,
+      "manifest_sha256": "9bd3169295d20c87ab72c2c7ed149438db7a257e1197072b2d3bbb992fb3185c",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "reference": {
+        "bytes": 200,
+        "file": "full-outputs-manifest-reference.json",
+        "sha256": "7ec015222e8df34395909af74c688281e4e3c1b9a5e1771699e08b2266399b2d"
+      },
+      "result": "R792-original-comparison-log-jet-padic-witness",
+      "run_id": "43789012126",
+      "selected_file_count": 9,
+      "selected_files_sha256": "bc5e1c682e41b1312895cf57c6971173f342d083a72271b373eeb23305bd892a",
+      "source_commit": "f699023d15daacb7d7e176f52da41899d69ae26c",
+      "wrapper_sha256": "ea579ada26e837b01250d670be7620f114066967e2ef62dd783aa8cd48dda187"
+    }
+  },
+  "workflow": ".github/workflows/serre-R850-original-rigidified-fibres.yml",
+  "wrapper": "R850_public_original_rigidified_fibres.py",
+  "wrapper_sha256": "ff318ca06e5bf2a385c866df2abb0ea102d6606eb2af2a818a0493f075b123cf",
+  "session": "serre-public-astra-20261115"
+}

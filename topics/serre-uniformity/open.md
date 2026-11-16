@@ -113,3 +113,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原完整刚性化纤维/截面已构造**：[实际Poincaré与theta帧](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99。原I_Z、P1帧1/P0帧t^(−7δ)给v_j；正乘R给v_j^R=(κ_j/R_j(P1))v_j³，只动第二槽。ν_j=(3s)^(7δ)M_f^p/M_g^q=3^(11δ)m_f^p/m_g^q；原归一截面νu³v_R，与N_h^(3q)由完整Corr唯一运输，theta二挠及其Picard反因子同保。原地方λ=(χ(νκ/R)+½τ_J(z³)+3τ_Y(v))/(3q)，全部真实Q纤维/原C_h/splitting/非p项保留。指定periods与高度不相消未成。
 
 **原CM对称period已有小输入公式**：[原sigma/全尾](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea。原μ3唯一补空间〈xω〉；u=ξ²x满足u²(1−u)=bξ⁶、w=(3u−2)^−1，H=bξ⁴(9u+4)/(u²(3u−2))，F=∫w∫H。原line-log=logξ+F，ψ₂=−2y，原点帧/cubical正乘严格定号；[n]P深盘给值及Z=Dωlogσ的一次period，SP25–28给完整尾及n/trace损失。RF对称项=3(q A_g−p A_f)，原Y/ℓ/nonp与旧split差不删。现518球仅辅助ℓ；真实41需完整U.1或已接受A.1及合法嵌入，尚无新数值。
+
+**R850原纤维消费者已激活**：[执行契约](notes/R850-original-rigidified-fibres-consumer-method.md)9fd821a4；coread8a8237/wrapperff318ca0/requestbf0259b8，预算30min。本push触发，待读实际run。三真源GLOBAL12/C019/POINTS9共40件；395MB旧全局载体原字节续留，POINTS270旧件已IO核。仅两stage组装RF准确图及−d/2、−3d/2帧项，不重旧Norm/CM/点加法；原C_h具名、period/height/A.1/allp仍false。
