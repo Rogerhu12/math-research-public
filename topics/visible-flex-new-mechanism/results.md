@@ -154,3 +154,5 @@
 - [R555 三p返回后的余五矩Gram能量与真实历史面积](results/R555-five-remaining-moments-gram-energy-and-real-history-area-interfaces.md)：**已证明**完整原M2的三槽矩阵身份、严格正定/端点能量门，以及r1/r0含incoming的有序面积式。正高度r1项同步付负t1，恒真高度限定障碍不排一般路径；原/中心变换与实际Schur端接口保，不预授修复或满秩。
 
 - [R558 真实零高度速度正t1弧及恒高累计成本](results/R558-real-zero-height-velocity-positive-t1-arcs-and-complete-constant-height-cost.md)：**已证明**同33母/同χ/同正则支的真实开放γ=0接入与严格正t1增量，制备负费和完整历史不删；准确恒等8Δt1+(2Zraw/H)Δp2=−T排单高度保p2的净t1修复。R554实际端IFT可保p2零/Π负于指定端，未授任意长流、变高度净修复或全M0。
+
+- [R557 同一规范的真实快高度回路与五个中心矩准确零](results/R557-five-centered-matrix-moments-with-a-real-fast-height-loop-and-one-gauge.md)：**已证明**同R521母/同χ的完整incoming加速度回路、真正末germ与五维实际端IFT；准确P0=P1=P2=T1=R1^y=0，原R1^x仍需S1。正R1速度项同步负T1/S0，全第三交叉/端势保；同词S0^y严格负，余三个独立槽及全period/13未闭。
