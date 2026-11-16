@@ -1,6 +1,6 @@
 {
   "format": "isp-global197-original-second-image-session-v1",
-  "rulesReadAtCommit": "d464e8dad668247f3d8cdab8cf5cbdb49dc1e785",
+  "rulesReadAtCommit": "d1a6ca274495038f1932e71cd43729316da0355d",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1449,6 +1449,68 @@
       "receiptPath": "{work}/critical-e8-complete-first-exit/critical-complete-first-exit-receipt.json",
       "requires": [
         "recompute-critical-e8-high-original"
+      ]
+    },
+    {
+      "id": "original127-complete-generalized-E8-one-source-bockstein300",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-complete-generalized-source-bockstein-789f.py",
+      "scriptSHA256": "ef64345c95bdb156843ce346c269ed6fc84ef6d94746848118ab201f1aba2261",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-generalized-source-bockstein-native-789f.cpp",
+          "sha256": "61e2c2dbbbb0c07e4c936f29ab17bb74b18e453aacea7e3ff207e627f8dbdc55"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-root63-source-bockstein-native-789f.cpp",
+          "sha256": "6a932e17fbeb7c81f335281c88bd1dfe0003a09371d454ea23f1861c86823bfc"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-root63-source-bockstein-789f.py",
+          "sha256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+          "sha256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3"
+        }
+      ],
+      "argv": [
+        "--model-out",
+        "{work}/original127-model-all6188",
+        "--normal-forms-out",
+        "{work}/original127-normal-forms-all6188",
+        "--gb-out",
+        "{work}/original127-complete-graded-module",
+        "--whole-out",
+        "{work}/original127-whole-torsion",
+        "--profile-out",
+        "{work}/original127-critical-primary-profiles",
+        "--detectors-out",
+        "{work}/original127-generalized-critical-detectors-v2",
+        "--primitive",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--sources-root",
+        "{scripts}",
+        "--factor",
+        "E8-1",
+        "--detector-receipt-bytes",
+        "5461",
+        "--detector-receipt-sha256",
+        "ca99e3cba1d61dacdd64928fc1b20869e684edf943868117aa9344a8fd2617e7",
+        "--out",
+        "{work}/original127-generalized-source-bockstein-E8-1",
+        "--seconds",
+        "300",
+        "--memory-mib",
+        "4096",
+        "--compile-seconds",
+        "30",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 360,
+      "receiptPath": "{work}/original127-generalized-source-bockstein-E8-1/original127-generalized-source-bockstein-receipt.json",
+      "requires": [
+        "original127-complete-generalized-E8-one-detectors-v2-300"
       ]
     }
   ],

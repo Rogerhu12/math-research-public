@@ -860,3 +860,7 @@ E8-1 v2实际9.148795829秒，435×448原常单位商、88完整jet核及两泛�
 ## 2026-11-16 02:22:29 UTC — 两cubic完整首连接rank一与次数下界284
 plus/minus实际6.884980137/10.851476776秒；完整S86、G modS7、170×9残余8，β3=1/十四独立头，各346528全原乘回。此前新父完整phase哈希与旧原物全部一致。
 F±长度各7…8，K164Ω给284≤Δ≤298/μ≤14/μh*≤37，B14乘两cubic全21系数真；13 formal-free头的DVR及一条nonfree正延门另付。归档H/open、E8续算，实际pull核两README后push。
+
+## 2026-11-16 02:24:17 UTC — 原完整广义E8-1第一系数像入队
+根全文核native61e2c2db/37127B及wrapper ef64345c/35403B：全4367转置运输、6188原p²可除叶、全部1834 global Z、原primary坐标与J稳定像；真正正源反传后全4367及6188独立收缩。
+同新live第30步300秒/4GiB，父selected/common phase不锁追加manifest。75只为保留进度，零仅否第一系数像；全参数合法性来自原DAG，最终产品在真实unramified jet环。实际pull核两README后push。

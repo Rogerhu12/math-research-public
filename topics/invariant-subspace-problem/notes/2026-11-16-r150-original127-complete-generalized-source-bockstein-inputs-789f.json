@@ -1,0 +1,206 @@
+{
+  "format": "r150-original127-complete-generalized-source-bockstein-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "prime": 127,
+  "coefficientModulus": 16129,
+  "parentRun": "43772109844",
+  "factorLabel": "E8-1",
+  "actualPrimaryDimension": 10,
+  "actualLocalExponent": 3,
+  "actualDetectorCount": 2,
+  "coefficientVectorDimension": 12,
+  "sourceFiles": [
+    {
+      "path": "notes/2026-11-16-r150-original127-complete-generalized-source-bockstein-789f.py",
+      "gitBlob": "f3f774fc49e0a3d5d90a5c9d18b8a4256d6fe07c",
+      "sha256": "ef64345c95bdb156843ce346c269ed6fc84ef6d94746848118ab201f1aba2261",
+      "bytes": 35403
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-generalized-source-bockstein-native-789f.cpp",
+      "gitBlob": "178de86c07fdb736a6e4df0b27ef9d4bfeef7d92",
+      "sha256": "61e2c2dbbbb0c07e4c936f29ab17bb74b18e453aacea7e3ff207e627f8dbdc55",
+      "bytes": 37127
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-root63-source-bockstein-native-789f.cpp",
+      "gitBlob": "2220492326f5bea20bc03706b9f22c4d6784b6bd",
+      "bytes": 24871,
+      "sha256": "6a932e17fbeb7c81f335281c88bd1dfe0003a09371d454ea23f1861c86823bfc"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-root63-source-bockstein-789f.py",
+      "gitBlob": "935d6458b34bfc948821fb195ca94e7e13e0cf7c",
+      "bytes": 27228,
+      "sha256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-nine-target-cyclic-module-789f.py",
+      "gitBlob": "b4e735dc12e8dee8b483728b895677dcfff23a09",
+      "bytes": 20947,
+      "sha256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3"
+    }
+  ],
+  "actualInputs": [
+    {
+      "path": "{work}/original127-model-all6188/original127-normal-form-input.txt",
+      "bytes": 140346,
+      "sha256": "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/original127-normal-form-pipeline-receipt.json",
+      "bytes": 4468,
+      "sha256": "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-prebasis.bin",
+      "bytes": 34229300,
+      "sha256": "c08fb8308bd96fb926e7ae3176e627766b7c6930a2af92afafff318be812f926"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-forward.bin",
+      "bytes": 2434477,
+      "sha256": "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-backward.bin",
+      "bytes": 3145942,
+      "sha256": "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-component-dictionary.bin",
+      "bytes": 8348,
+      "sha256": "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-reduction.bin",
+      "bytes": 118454308,
+      "sha256": "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/original127-graded-module-pipeline-receipt.json",
+      "bytes": 5289,
+      "sha256": "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/gb-basis.bin",
+      "bytes": 43787388,
+      "sha256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/gb-operations.bin",
+      "bytes": 763659470,
+      "sha256": "7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json",
+      "bytes": 9819,
+      "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/torsion-whole-state.bin",
+      "bytes": 1414575,
+      "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/whole-torsion-characteristic.json",
+      "bytes": 2560,
+      "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+    },
+    {
+      "path": "{work}/original127-generalized-critical-detectors-v2/original-degree-zero-unit-quotient.json.gz",
+      "bytes": 482684,
+      "sha256": "183a89e1a073fd4e77674e5af104132a69d3cb8878c57f30137fb21f20a6d9fd",
+      "payloadSHA256": "ba8a8802a68aaf517a0eb0e13b998b79b831c0e94d4c7bc8a222a673c4692e03",
+      "phase": "original-degree-zero-unit-quotient"
+    },
+    {
+      "path": "{work}/original127-generalized-critical-detectors-v2/E8-1-complete-original-component-detectors.json.gz",
+      "bytes": 8719,
+      "sha256": "92e1408685efeccf8a656bf51f0a293eef4bcfd1e85ced62a697ed662be85caf",
+      "payloadSHA256": "16ef89f558b80e2ac47636de269c839768e17b79badc933e8bedc22e115ac91a",
+      "phase": "E8-1-complete-original-component-detectors"
+    },
+    {
+      "path": "{work}/original127-generalized-critical-detectors-v2/original127-generalized-detectors-E8-1-receipt.json",
+      "bytes": 5461,
+      "sha256": "ca99e3cba1d61dacdd64928fc1b20869e684edf943868117aa9344a8fd2617e7"
+    },
+    {
+      "path": "{work}/original127-critical-primary-profiles/critical-primary-manifest.json",
+      "bytes": 1379,
+      "sha256": "1a5901c7b7621dbfcc4b73bf3ee032872948e0a988291b6c7a3ac1d8017cd654"
+    },
+    {
+      "path": "{work}/original127-critical-primary-profiles/primary-E8-1.json.gz",
+      "bytes": 3418,
+      "sha256": "5cc86b6777d4ca9fc07ae11607542f2831ebd998e7a5fa4cb51e0bfe260d7728",
+      "payloadSHA256": "b4405ed53fa654cc6fcbb66c5791a8237e3f2943b98ce64d729f389e7f77bc75"
+    }
+  ],
+  "primitiveDecoded": {
+    "path": "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "decodedBytes": 158741,
+    "decodedSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+  },
+  "parentManifestPolicy": {
+    "file": "{work}/original127-generalized-critical-detectors-v2/generalized-detectors-manifest.json",
+    "binding": "45dfea7c2c8ac12c7f3e5bd0ecd0e4e29937c11f767625e2ab36e9cd2ec6c35e",
+    "exactAggregateBytesNotRequired": true,
+    "immutableRequiredPhases": [
+      "original-degree-zero-unit-quotient",
+      "E8-1-complete-original-component-detectors"
+    ],
+    "extraFactorPhasesAllowed": true
+  },
+  "argv": [
+    "--model-out",
+    "{work}/original127-model-all6188",
+    "--normal-forms-out",
+    "{work}/original127-normal-forms-all6188",
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--profile-out",
+    "{work}/original127-critical-primary-profiles",
+    "--detectors-out",
+    "{work}/original127-generalized-critical-detectors-v2",
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--sources-root",
+    "{scripts}",
+    "--factor",
+    "E8-1",
+    "--detector-receipt-bytes",
+    "5461",
+    "--detector-receipt-sha256",
+    "ca99e3cba1d61dacdd64928fc1b20869e684edf943868117aa9344a8fd2617e7",
+    "--out",
+    "{work}/original127-generalized-source-bockstein-E8-1",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096",
+    "--compile-seconds",
+    "30",
+    "--through",
+    "final"
+  ],
+  "completedDependencies": [
+    "original127-complete-generalized-E8-one-detectors-v2-300"
+  ],
+  "outerSeconds": 360,
+  "allLargeDataTemporaryOnly": true,
+  "localExecutionOrASTClaimed": false,
+  "budgetContinuation": {
+    "sameSourceSameOutAndBinding": true,
+    "allWholePhasesReused": true,
+    "originalDAGScanTwoSlots": true,
+    "noSuccessDependencyOnBudgetExit75": true
+  },
+  "acceptance": "All original4367 transport, all6188 p-square divisible scalar columns, complete global1834 polynomial Z source scan, recovery through all complete primary restrictions, full parameter-stable image, every selected positive source reverse and all original4367 products in the unramified t^3 quotient; global source identity comes from the all-parameter original DAG.",
+  "newResultNotPredeclared": true,
+  "zeroImageScope": "Only the complete first coefficient127 image on this primary. Does not exclude coefficient exponents >=2 or prove Q target membership."
+}
