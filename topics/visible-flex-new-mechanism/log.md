@@ -173,3 +173,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:33 UTC：自由36环成功、全body失败的完整闭账
 
 [原输出观察](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)完整读11记录，原后端SLSQP0/true及两网环门通过，但唯一全bodymetric/曲率失败；0actual/0接受，仍58。72.22285305100002秒/0值闭、祖2974.589423877/147，余额关闭，报告3.608391687秒只读单列。两job各真实pull及README空diff已记H；候选准确身份、未存预测数组与环/全body不同frame费用明确。R516/R519/R525背景按完整条目逐字移至[同根归档](open-archive-R516-R519-R525-ring-background-20261116.md)，当前open继续原102前缀新问题；0本地科学。
+
+## 2026-11-16 14:39 UTC：R534同库真零历史负入口与平滑恒负支
+
+[R534](results/R534-real-zero-history-entry-into-negative-matrix-density-and-fixed-gauge-continuation.md)对原完整C/YC/A/T逐项缩放，真参数ODE与首零IFT给负密度入口、δ¹⁰负极小和δ⁷正累计；同χ的K/ρ″双行反馈与二阶cutoff支付准确恒负局部延续。root及机制独立纸审通过，仅统一末节T导数记号避免混淆真实累计A；0新科学。未授足量负累计或M0，切换后恢复全八矩。当前58和2974.589423877秒/147值不变，prefix102新源码继续。

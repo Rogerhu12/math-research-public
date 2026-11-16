@@ -84,3 +84,5 @@
 - [R532 双边全反馈族的中心jets与真实四偶开像](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)：**已证明**一次三Gram配真实中心jets并共同清四奇端，原四偶半端映射det=v²L⁷/(11520H⁵)+O(L⁹)>0。小L t₁严格负，零不在开像；参数间最终χ会变，不授固定规范拼接、M0或其余端口。
 
 - [真正58自由R1/R2环成功与完整曲面失败](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)：**实际观察完成**，SLSQP0/true、11完整评价，原盒和环谱通过，κ环约16.39344；唯一全bodyη6.979414564941248/κ69803.90363577171失败，0actual，仍58。新72.22285305100002秒/0值，累计2974.589423877秒/147值；完整L17/H125已存，预测大数组未存。继续固定环的原102中部修复，不重开旧范围。
+
+- [R534 真零历史负矩密度入口与同规范延续](results/R534-real-zero-history-entry-into-negative-matrix-density-and-fixed-gauge-continuation.md)：**已证明**同R521原库的一次奇异Gram完整缩放给真负p₁入口，负极小δ¹⁰而prefix累计正δ⁷；原K/ρ″两行可逆及平滑cutoff给同χ准确恒负局部支。完整A/T未删或重置，切换后保全八矩；长负累计/M0/末端及全部period未付。

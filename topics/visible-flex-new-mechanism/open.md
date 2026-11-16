@@ -132,6 +132,10 @@ R459的原同宽混权核现由R518推进为真正Jtr实际成本截面，原sim
 
 [完整证明](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)以同一三个固定Gram配置中心h″=h⁽⁴⁾=0、k‴=b，并与四奇端条件共同求解。原四偶半端对(L,H,v,b)的det=v²L⁷/(11520H⁵)+O(L⁹)，总端为v²L⁷/(720H⁵)+O(L⁹)，故足够小正L的实际完整K0族有四维开像。t₁<−L/16，零不在该开像；改变参数会改变最终左锚χ，不准将多个局部逆结果当成同规范可拼接块。下一继续有限L真零点及同一路径的germs、M/T/V/pose/period，全部主门保留。
 
+### R534：同R521库真零历史的负密度入口
+
+[完整证明](results/R534-real-zero-history-entry-into-negative-matrix-density-and-fixed-gauge-continuation.md)固定原窗口/母库、w0、A/T0，以一次Gram ν₁=2Ck,c/δ²从k_s=δ²起。原C速度/加速度权与完整A/T重缩放给真有限ODE极限Ktt=−K；首个k0的真实η>0，原p₁极小−a²π²δ¹⁰/(8H²)+O(δ¹²)，但prefix累计πδ⁷/4+O(δ⁹)>0。负极小点原K与ρ″两行det>0，用保全部jets的二阶密度cutoff在同χ/真history下达到准确常负−Pδ。仅付局部时长；切换脱离双边奇偶，全部八矩/第三/pose/第四必须重新全保。继续同一实际轨道足够负累计及闭合，不能把局部负值冒M0或混入R531另母。
+
 ## O1：双圆领相位机制，保留备选
 
 本题没有δE正下限。同轴双圆领可先行；若非轴对称环带与两端开圆领相接且度量旋转不变，相位可固定材料握持区而改变整像，允许如实δE=0。偏心/非平行端口另有完整端口门；帽材料刚体位移不是整体Hausdorff下界。R17只处理旋转参考的m≥2线性端口，m=1或非旋转参考须自己的完整方程。
