@@ -469,3 +469,8 @@
 ## 2026-11-16 07:26:00 UTC /root — R493当前H响应投影与原fullDN合同
 
 [R493](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)27709/115e78be明确每真实H独立完整evaluate/R273→128 owner/replay/四组件，577×224节点/576×226输出/338×112混合J和两mean贡献全保；显式调用覆盖旧correction hook遗漏，不沿旧378覆盖J。13scalar须实际128 raw/hex再整数ties-to-even一次64投影，保负零/subnormal/overflow及owner与TailClient各自原严格容差；qstr/64均值重组不冒该合同。原FD/fullDN/RMS/BC/final fresh J+audit/cut/material门保，91尾初猜不是完整prefix父，新live源/入口与实际结果继续，不能套216钟或添加全解析门。
+
+
+## 2026-11-16 07:29:00 UTC /root — R497完整闭片缓存与原工作计数
+
+[R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)五件helper10239/cf517、gen6299/0d785、plan3050/ddefa、proof12955/f101、接口8801/75ad已成；固定原head/panel/F/B/精确闭片与精度上下文，只复用完整成功五球/全部分支，显式subclass不改旧全局，原sample完整闭覆盖/每点hull/误差/异常pending继承。hit仍原attempt/range，miss原call一次，1M停止未解；LRU默认4096不冒字节或提速保证，原计算返回与新调用完成分列。五唯一literal产生70299/ae9dde main只Actions物化，真实全SHA来源，新request/driver/必要reader未接；原科学门/钟不减，未执行不补成功。

@@ -44,6 +44,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 **R469实际209：完整C/112 far已返，首点采样工作停止，后15角色未起。** [完整记录](results/R469-request209-complete-far-physical-point-resource-stop-and-unstarted-refinement.md)26460B/f56166e5，run43805615033/sourcecfd63e66，compute133095582437/report133141870659均终态failure，两日志各唯一读取。C1440/six/完整闭query与cut三盒、deep112/finitefar112/joint nominal112齐；固定十词域10669终端未决/13未访，不添BVP门。原depth24/32bits/1M下实际linear2044754units/4677.433387661s，point1M/270.6135328909995s仅3unique point、499929coarse叶（总499931）、0field，真实WorkStop工作上限，非时间/磁盘或数学拒。旧19878/80c2 selector漏8项point/stack，未返回半径/role/完整pending不借别run补。两个BVP、first closed/held及后15精化/测量/display角色全未起；245+15生成成功不冒数学成功。8必要scope全返，各<90K，两job6正文相同；step29重新quiet后真实raw_removed，无上传，已删缺失不恢复。212/214/216原浅逆实验继续，不预言接受。
 
+[R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)只复用固定同head/panel/F/B/精度上下文、准确闭区间的原完整成功球；原全candidate/闭端点/branches/每点hull/原错误不减。helper显式subclass与五文字编辑new main，旧全局不替换，LRU0..65536/default4096。每hit仍原attempt/range_count，miss完整原call一次；原1M停止未解除，无同wall-clock或提速承诺。source/helper/plan/生成身份及异常已计算/未返回分列；五件已刊、new main70299/ae9dde只Actions生成，尚无request/reader/driver登记，不阻塞R496或旧运行。实际采样/native/FD/fullDN/闭面与metric全部另付。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。

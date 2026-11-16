@@ -173,3 +173,10 @@
 
 13个物理标量须从实际128表达式导出raw/hex；逐值按准确整数、ties-to-even一次投影64，保负零/subnormal/overflow，不用qstr或64重组均值假称单次舍入。owner原128容差与TailClient投影后严格容差分别真实付；cp.cutHeight用实际H、jets.height用实际末端值，不能强写相等。全当前H/配置/call/snapshot/原source身份匹配，cache仅原同H且所需J齐，audit fresh；原完整FD、全fullDN、RMS/BC、最终fresh J+audit、cut/material门不减。新入口必须选真实完整prefix父与原唯一总钟，不能用91尾初猜冒完整场或套216连续C预算；实际source/worker、scalar出口与新调用链继续，未起/未返不补通过。
 
+
+## R497 — 完整逆像闭片缓存与不变逻辑工作
+
+**已证明（固定输入、原完整返回包含）；新源码未执行。** [R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)五件：helper10239B/cf517af6、generator6299/0d7853ea、plan3050/ddefa7df、proof12955/f1017fce、接口8801/75ad967d。原32b0点cache不缓存不同半径重复请求的complete_box，原F.GeometryCache.get也非此调用。显式新subclass按真实head/panel/piece/F/B、精确闭区间、精度/线程与原base_speed状态，仅复用已完整返回五Arb球和全部branches/method；新dict/list不改原球，不经midpoint/十进制或删根。原sample逐字、全候选/闭端点/异常pending/每点全hull与误差不减，不把coarse或命中冒完整field。
+
+每hit仍原attempt/range_count；每miss原complete_box一次，未返/异常不cache。原1M逻辑上限未解除，管理成本/内部检查不同不冒相同时间停止或速度。LRU0..65536/default4096只限条目；原计算返回与新调用返回分列，后续分配失败仍完整记录未返回。完整32b0经五唯一文字编辑生成70299/ae9dde独立main，只在Actions物化；真实helper/class owner/F/B全SHA同目录，旧全局/数学/预算不改。新main/必要统计尚未在request/driver/reader登记，不改冻结212/214/216，不把科学接受或性能当附加前门。原全部native/fullDN/453→450/metric/geometry继续。
+
