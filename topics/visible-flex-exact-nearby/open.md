@@ -157,7 +157,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 执行规则与当前可恢复记录
 
-本节此前完整清理表、全部原path/Git/SHA256/bytes/restore及成功/失败/scope逐字见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)，并递归03:31档/b16923509deae4d293a0ffe4c9c0e71b89081976。既成删除不可重复，任何旧输入须按原表完整历史恢复核SHA、禁重算。旧表各次对native/source等的排除只描述当次清理范围，不创设根规15之外的永久豁免或未来审批门。
+旧清理全部path/Git/SHA256/bytes/restore及成功/失败/scope保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)和递归原表。已删不重复；未来只原字恢复核SHA、禁重算；各次旧排除范围不创设永久native/source豁免。
 
 只在公开Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据，成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；每consumer实核topic≤200MB且预留120KB。
 
@@ -191,3 +191,5 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 [WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
+
+[WRP相对pullback](results/R133-supplement-relative-phase-pullbacks-and-complete-receiver-refinement.md)95be269f：同密度伴随给全负二/负5/3及15权，已证。后继只读成功WSM全N6/profile算40新；旧152不重，mean/端/whole-reduced保。
