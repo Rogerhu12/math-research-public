@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：14f696e354df5ef83405fd9c0160c86bd89e6612**（2026-11-16T11:47:45.533689+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[七极trace前H](handoff-archive-2026-11-16-before-seven-pole-trace.md)（9775B/0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2）；全部早先源、已证结论、关闭边界仍有效。
+**已读规则提交：3e6d904d330516a8ef81ba6378340debbaaf102d**（2026-11-16T11:52:26.160592+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[七极trace前H](handoff-archive-2026-11-16-before-seven-pole-trace.md)（9775B/0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2）；全部早先源、已证结论、关闭边界仍有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。07:19终端失联后使用本公开恢复workflow真实partial/sparse git发布；10:54终端恢复，已备发布继续同流程。
 
@@ -44,7 +44,7 @@ R787 [594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)�
 
 **R885整Artin已成**：[认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)，43848870181/519.34968726s/323stage，原z0整A272/E2176、全272方程与九Norm、0失败纤维；原dual7/帧/全部nilpotents保留。artifact14218009053/145477237B/7a0e8785至Nov17 10:56，cfg9e419bbb/certbb4866e7/manifest8bbbe3d0。已成273节点/单行adj不重，真全局Norm展开/Picard/height未成。
 
-**[R893五真实sum-Hom初始RR](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)**：同权98原P/Q、真DVR极除子，n=(12,8,8,13,14)、N=(23,15,15,25,27)，完整Schur全行；原ρ/θ/82一次、σ次序不改。初始N不冒V2n注入，ordinary_local接冻结corec199ccbf的最小wrapper。**[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；尚无本项新秩，旧初始核/评价/273jets不重。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
+**[R893五真实sum-Hom初始RR](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)**：同权98原P/Q、真DVR极除子，n=(12,8,8,13,14)、N=(23,15,15,25,27)，完整Schur全行；原ρ/θ/82一次、σ次序不改。初始N不冒V2n注入，corec199ccbf/wrapper247980f1现激活300min/128节点，实际run待读；仅初始RR。**[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；尚无本项新秩，旧初始核/评价/273jets不重。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
 
 **[R894七极trace完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：六D*后直接18flip聚合3Σ(Dj−H)+7(−C*+H+4χ)，R890 D/E实际可读则只新16；不先做另六Ef各八flip。QN=Qorb FN正乘，ρ阶−8435/t首项正乘(c^1205)^7；非对称末代表只L定义，原K下降为(γQN/QN)γs、七重cocycle=1。实际聚合/下降矩阵/五Lj/Hecke高度待算。
 
@@ -56,7 +56,8 @@ R859–R875原BT/非p/全G/Drinfeld/cusp格/CM单位/ab=p/t′/KS已成，q拉�
 
 [R889](results/R889-original-theta-distribution-and-same-label-sigma-jet.md)：Θp=d_p−6Bq、非交换[d_p,q]、Q^p=0和Bell/Frob/首p jet，J32(S_h^flip)=(6B)^5/12(fi gj)^p；显式flip不冒原Γ/C/split源，det半周期不合并。
 [R891](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)：原fi/gj零等价整个对应V_r在O有基点，36六挠点同重数、degD_r∈36Z及ν_r准确公式，仅ν_r≤(p−5)/6；互补primitive/Legendre同h非零未成。
-**[R892](results/R892-original-theta-recursion-and-divided-split-contraction.md)新完整证明**：真实群律total degree<p²与κ(SY^p−S^pY)标量Weil log给全部非交换Θ递推，Θ3p跨p修正保真；原γ两旗/θ_h/未分歧S_FG下完整K_h,n，真实饱和π*给C_h(S)/p整 iff所有n<e带零，单位向量再须末带非零。原varpi^e/p≡+1有来源；低带消失/原标量jet非零尚未证，sigma_uniform继续。错误简单算子指数候选已撤回，不引用。
+**[R892原Θ递推](results/R892-original-theta-recursion-and-divided-split-contraction.md)**：真实Weil log、全部跨p非交换修正与饱和π*、varpi^e/p≡+1已证，旧错误简单指数撤回；完整band与未分歧源结论现接R895，不重旧递推。
+
 
 **[R895全band已证](results/R895-original-all-band-theta-contraction-and-unramified-content.md)**：原未分歧源的完整TLGh闭式，只有r=p+1−h+a/s=h+a的奇a分量可入，系数Ca全单位；C_h(S)/p整 iff这些36维分量全零，整则残值必零。关闭这条unit-content桥，不推原R770同h标量为零；实际source/ramified quotient及Γ首层由sigma_uniform接R897，原Legendre项不删。
 

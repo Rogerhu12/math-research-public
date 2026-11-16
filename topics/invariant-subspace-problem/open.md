@@ -38,6 +38,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 当前接续：R271完整源的实际中段返回
 
+**新完整首反馈行已闭。** [跨头真实有限核比较](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)把原一步carry严格估为18κm−1，用fresh6d实际池和B^(3d)r=0终止修复；真一孔核截断误差O(m⁻6)，固定首头真实增益可和。保原τ14偶R/全部母窗口及真帽cut，任意同一个w的完整(Pi1−Pi0)Px行平方和<16||w||²，准确支付Σ[S||t||²+S²||C†t||²]。实际W还有独立真KQ正交＋β Bessel证明，任何合法几何窗口均用2Bλ+8Ση²，不需要跨头修复。全部dark核和全强头来源保留；该primitive预算不控制核外r=(I−PK)Gv、第二逆或二孔饱和费，下一继续这些真实项。
+
 **最新原第二逆接口。** [偶段可达核与首头完整正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)已付全部原N/Y半级核支撑和偶R的kerC⊂RanC；完整新增核图与全部kerC_b*自由给真正第二逆能量公式。还必须控制同一原来源的核外返回q=(C*)†(I−PkerC)G(I+b²Γ)⁻¹e0，不能用第一逆标量≤1、短池截面或首逆单调性代替；标准R=d合法，奇段下一步不自动沿用核正交。
 
 

@@ -208,3 +208,5 @@
 - **R150 原t2指定循环自由项（2026-11-16）：** [完整整自由格§7](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)的全225列实际只读核验给原t2前23自由列单位，因而可取U=R·t2的自由像≅R/h，实际M≅(R/s)²⊕E、E=S+Rt2；不抹系数扭子或未定扩张。其余原九模31秩逐实报告，4/10为22。
 
 - **R150 原共同M根二长34与全局八生成（2026-11-16）：** [完整定理](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)以六位原carry/完整26D关系给S2型(2^7,4,5,5,6)、长34/dD11，xS2=(1,2,2,3)、pxS2=(1,1,2)，dR(S2)=dR(M)=8；补18列B后只读完成，根用独立整数HNF复核。S1仍0或p、完整S长34或35，余R/h扩张保留。
+
+- **R271 跨头有限真核与完整首反馈行（2026-11-16）：** [完整证明](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)以原一步carry≤18κ、fresh6d池及同残量B^(3d)=0给可和真实核运输；固定首头投影增益可和，任意同一w的完整moving首反馈行<16||w||²，actual W另有独立2Bλ+8Ση²预算。原τ14与全帽cut保留，未控制核外第二逆。

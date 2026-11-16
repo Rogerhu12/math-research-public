@@ -109,7 +109,7 @@ principal因子取正方向。每条实际ρ阶为−1205，且
 
 ## 5. 已成 B 导数直接接 R893
 
-六条B的 \(\delta B,\delta^2B\) 是已经生成F1/F2的原第一列，额外保存为正常坐标多项式向量，两个矩阵均为8×272；没有为后继重算ΓB或Γ²B。
+六条B的 \(\delta B,\delta^2B\) 是已经生成F1/F2的原第一列，额外保存为正常坐标多项式向量，一阶矩阵为8×272，二阶矩阵为10×272；没有为后继重算ΓB或Γ²B。
 
 文件统一名为R880-six-Dstar-branch-XX-original-B-derivative-vectors.json.gz：
 
