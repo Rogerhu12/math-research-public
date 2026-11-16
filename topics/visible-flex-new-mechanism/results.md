@@ -315,3 +315,6 @@
 
 
 - **p32完整线首次实际：接受53，真实η下降3.1505554842770067e−6。** [完整实际结论及全部来源指纹](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)（28403B/SHAe9e02036b5ad77f9b755a8184a9301358259fe8e0fc0c09b0f1780ef80ad6b8a）。run43804573954/sourceab1ba331…：一次完整15.234MB系数cache、生产62queries，alpha≈.5421904710711004的唯一实际两网原28门/163盒真，η至.26601514422985384/κ57.9992694544513，target.26未达。5新fine soft行、池13/14，bank/γ/controller被动保留。FINAL_CLOCK新81.445727845s/总1406.2512530919998s及126值，UTC530s另列；3新开发case/186人工query单列，24adapter误差0，0旧检查/新LP/cone/J/factory。缓存仍属52，首线已完，继续53新完整方向。
+
+
+- **R451：H*真实全copy目标可由一个原49模块成本补偿。** [完整原目标与七次全根余量](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)（20019B/SHAa9c1bcbd1b9908d960254034183d717e04197ef45532fb204b11e4b1ad179a16）。H*真权0的完整self≤8；原最低两模板与真非紧P尾给共同γK8支付所有根八次项。一个原K0…8/L0…7组合清指定非零r镜对全部同宽/同cap对应copy，保持J⁺/λ1；同角色真实suffix≤7且第五幅齐备，C不自动清。其余全部根只余八个原cap系数与30blind像比较，r0另七条件；混权C补偿/actual额外查询/一对Af与q4共同母仍欠，0新执行。

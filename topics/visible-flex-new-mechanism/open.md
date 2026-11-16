@@ -84,7 +84,11 @@ R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal 
 
 49选定独立lift空间的镜对核恰30，Π0 C=C−K[f−]−Σ[x^j](f+−Tf−)L_j给全部原source生成。先同一成本付全部C、用真实normalized η/(ρ⁵r*⁵)清19核心；其余所有根signed可付 iff剩η落Π0原49列在每个真实jet的像。不同母/宽度或r0点保原多项式读出，不沿用旧六blind全盲。64输入的45镜核中另15只是全Af输出盲，不宣完整成本零。
 
-下一R451追H*的真实全根目标是否落此像、全copy多项式次数与任何明确余量，不以再列形式rank替代实际目标。actual J⁺/其它C仍须同一增强等像、原型×n/两次商/桥/Klein全部基准与共同合法窗口；真实period特解、gap/平台值及13同规范继续。未授全R_p0=144+K，原Θ71(kerΠ71)来源仍开放；不重53 self/union或旧检查。
+[R451](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)已直接把原H*真实目标送入本像：H*∈U0/λ1/J⁺0，ΣN9=0故self平移≤8；ΣN8H*=αTR+βr4，原2TR=−r4/3−2Lf(Puu)/3给共同γ=(α−6β)/(8!10!)，减γK8后所有根partial≤7。完整K左逆加L0…7得到一个原W，清固定非零r镜对全部同宽对应copy，保λ1/J⁺0；同μ真实内区路径使共同cap最终母全部适用，不只比较jets。
+
+完整对应cell角色的suffix按三矩二次输运，原ordered current次数≤5，故eta额外≤7亦能同一W清；C保原值，首/末角色C因E为0、其它角色未付。所有其它根仅剩八个真正原cap系数与30blind同source像比较，r0按R452另保七高系数。任意混权C修正可增至11次，只有同权0/单独已证八次项一致时能继承H*结论；signed见证不授all-copy actual增强。R410一对根只q0、与q4 regular流形交集尚无证明，不能拼两母。
+
+继续R453真实D_path/全C与R454原Θ71(kerΠ71)外部来源，先真实全根/period，再同一原型×n/两次商/桥/Klein与合法窗口的actual联合。未授全R_p0=144+K，不重R443/旧rank。
 
 [R452](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)补正母r*=0简单镜点：p*≠0/t*=0，准确像Pol5图+right Pol2、rank9/49核40；K5…10与V31/44/51给真实6左+3右。原K0…4全盲但成本非零；其它根仍用同一Π原source，保全C/actual共同前提。
 
