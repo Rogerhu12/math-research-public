@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：14f696e354df5ef83405fd9c0160c86bd89e6612**（2026-11-16T11:47:45.533689+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[七极trace前H](handoff-archive-2026-11-16-before-seven-pole-trace.md)（9775B/0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2）；全部早先源、已证结论、关闭边界仍有效。
+**已读规则提交：3e6d904d330516a8ef81ba6378340debbaaf102d**（2026-11-16T11:52:26.160592+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[七极trace前H](handoff-archive-2026-11-16-before-seven-pole-trace.md)（9775B/0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2）；全部早先源、已证结论、关闭边界仍有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。07:19终端失联后使用本公开恢复workflow真实partial/sparse git发布；10:54终端恢复，已备发布继续同流程。
 
@@ -40,7 +40,7 @@ R787 [594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)�
 
 **R880七输入已成**：[认证](results/R880-certified-original-seven-Galois-normal-inputs.md)，43849775574/37stage/4.386s，全1380×12回代；真σ次序(0,6,1,2,4,3,5)，原free1186不换。artifact14219900447/128117604B/8e05d15a至Nov17 10:54；七输入24b236ef/六pair原身份保全，不重branch0/F69/S5逆。
 
-**六D*已真实success**：43857317518/job133264906689/source4478c31d，351.082761716s/1093stage/230原件，六新418与七总输入全成；core5421c814/wrapper9c2fac9d、cfg28724072/cert3e48e09c。artifact14222091280/889731055B/0763bf87至Nov17 11:29:59。必要IO v15只读六完整出口/首项/六418及δB，正式认证与R894消费者接着做。原固定图/free/a/v/trial1不换，旧K/branch0不重；计数笔误勘误在R894。
+**[六D*实际已成](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)**：43857317518/job133264906689/source4478c31d，351.082761716s/1093stage/230源；六新418与七总输入全成。core5421c814/cfg28724072/cert3e48e09c/manifest462bd2c6。σ次序(0,6,1,2,4,3,5)与branch分清，ρ阶−1205原λ全留、t未算；原图/free/a/v/trial1/branch0不重。artifact14222091280/889731055B/0763bf87至Nov17 11:29:59；必要IO43859441027/art14222183067/tar4a25c55a现给六原418/主函数/δB，R893/R894直接消费。
 
 **R885整Artin已成**：[认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)，43848870181/519.34968726s/323stage，原z0整A272/E2176、全272方程与九Norm、0失败纤维；原dual7/帧/全部nilpotents保留。artifact14218009053/145477237B/7a0e8785至Nov17 10:56，cfg9e419bbb/certbb4866e7/manifest8bbbe3d0。已成273节点/单行adj不重，真全局Norm展开/Picard/height未成。
 
