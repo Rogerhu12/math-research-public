@@ -157,3 +157,7 @@ R581六件379862B独立刊：原R576642全保→653/14层/26runtime，同R575/R5
 ## 2026-11-16 16:05 UTC /root — R594/request248原完整链的owner12000资源入口
 
 R594新request8964/接口20437/workflow25123独立刊，已刊R593三件保；454完整源/原63输入，唯一owner6000→12000同19200/replay及后继cap和原全部门不动，actual分配未返不由请求填，单派248、R595 exact唯一。补243正式beb6/run43903254017单POST200与NFF真pull读fbe0fda8双README未变、16:04队列未知compute；H/open/index同步§4–6原字，22/23恢复只读未删。
+
+## 2026-11-16 16:18 UTC /root — R583 完整内循环模式观察与实际一次编译安装
+
+R583 header/adapter/plan及完整证明写完即普通发布；原全核两替换、四完整loop/八路径等价有明确actual mode条件，六plan source-only+一次真owner安装，所有原科学门/失败保。248唯一正式run43903713053/headb38a46a6/job133426820200与真实NFF立即pull回执一并记；未读running日志，无新科学成功。
