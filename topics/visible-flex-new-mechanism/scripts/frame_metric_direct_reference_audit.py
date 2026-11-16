@@ -16,6 +16,7 @@ import numpy as np
 
 from frame_collar_bvp import atomic_save
 from frame_height_null_coordinates import digest
+from frame_height_null_gate import FiveNullHeightGate
 from frame_curvature_soc_metric_reserve_audit import exact_vector
 from frame_metric_budget_recovery import require_public_research_environment
 from frame_metric_height159_soc_hold import compact_with_all_actual_gates
@@ -50,37 +51,38 @@ def implementation_hashes():
 
 
 
-FIRST_ATTEMPT = {
-    "run_id": "43777844163", "job_id": "133008102089",
-    "source_commit": "ad3b104606347c345020d229b6fbc1c648dabacc",
-    "log_bytes": 185504,
-    "log_sha256": "1890cc27b6f6ca3ff28cf2d821c73e9c4e78b8912822452cd6ec17c52a61b0cf",
-    "request_record_bytes": 26268,
-    "request_record_sha256": "948243d9dbf009e2a1634db26ee636fa5a3eb143851f6bf3c004fcf918e6462e",
-    "original_request_bytes": 39202,
-    "original_request_sha256": "d79df5161f06f326047c1839107afa62b6f4bd5e48ecc5e36e4599bb9f69cccf",
-    "development_bytes": 25953,
-    "development_sha256": "717719da39d867b3206c12250ccc1df92e5276245cc48d8d9e4e6ba76b4accae",
-    "complete_payload_bytes": 52471,
-    "complete_payload_sha256": "d7d82f9646ca3e5da536f7622645e81cb7e402062ff3039190edd6c49d42c648",
+
+PAID_PREVIOUS_ATTEMPT = {
+    "run_id": "43778983026", "job_id": "133011642024",
+    "source_commit": "439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c",
+    "log_bytes": 208955,
+    "log_sha256": "68d723fd4132084e61f20b96fa3012e00e44b325a83c797b266be0046063e86c",
+    "request_record_bytes": 26904,
+    "request_record_sha256": "8029a35a421d93d57a90ea575fd10062e9d66fd69c64602c2a8870f664165881",
+    "original_request_bytes": 40389,
+    "original_request_sha256": "52645511b072a72ba2d8498094893dfe9a4dd4c87255c252ba416577987800e5",
+    "development_reuse_bytes": 2298,
+    "development_reuse_sha256": "ac54fae177ec63e7e232048731c651b5a306420e28d4080728dc7e99c37127f6",
+    "complete_payload_bytes": 99050,
+    "complete_payload_sha256": "8731e263ea059b0069260cd1e1774ddedb321226ab6cd29f4ca5d2084d7fb989",
     "prior_reuse_payload_bytes": 1135,
     "prior_reuse_payload_sha256": "46480623a3a683dd1a202c9b1f2f47f7105ca43580c5e64d85aa1546a1944661",
-    "paid_scientific_seconds": 13.756976061000046,
+    "paid_scientific_seconds": 28.690336299000023,
 }
-FIRST_ALLOWED_CHANGED = {
+PREVIOUS_ALLOWED_CHANGED = {
     "topics/visible-flex-new-mechanism/scripts/frame_metric_direct_reference_audit.py":
-        "7bc6910328ce6d6b82fafd0693030416a4736c0e6473a4cd08520e5c9d868ccd",
+        "8008a7f92024bd745107784647fd1502a78ab3c5978dba3221abbebc66fc4eee",
     ".github/workflows/visible-direct-reference-new-task.yml":
-        "d3bc80e47107656794c057c46d8b28cbe3000e0b610800be1fbf9d41d08c6f6f",
+        "24c9dba46d1213ef385d6b6916edf8c5f6e2aab46021700a904b7b7695f8fd25",
 }
 
 
 def read_paid_nine_checks(request, *, scientific_started):
-    """Authenticate the one failed constructor run; execute none of its9 cases."""
+    """Consume the second failure and its authenticated nine-check reuse chain."""
     transfer.check_clock(scientific_started)
-    source = request["paid_first_attempt"]
-    transfer.require(all(source.get(k) == v for k, v in FIRST_ATTEMPT.items()),
-                     "only the pinned first direct-reference attempt can be consumed")
+    source = request["paid_previous_attempt"]
+    transfer.require(all(source.get(k) == v for k, v in PAID_PREVIOUS_ATTEMPT.items()),
+                     "only the pinned second direct-reference attempt can be consumed")
     api = reader.GitHubReader(transfer.REPO)
     run = api.api_json("/actions/runs/"+source["run_id"])
     job = api.api_json("/actions/jobs/"+source["job_id"])
@@ -90,19 +92,21 @@ def read_paid_nine_checks(request, *, scientific_started):
         and run["head_sha"] == job["head_sha"] == source["source_commit"]
         and run["status"] == job["status"] == "completed"
         and run["conclusion"] == job["conclusion"] == "failure",
-        "paid first-attempt run/job/head/conclusion link differs")
+        "previous run/job/head/conclusion link differs")
     raw, redirects = api.job_log(source["job_id"])
     transfer.check_clock(scientific_started)
     transfer.require(len(raw) == source["log_bytes"] and reader.digest(raw) == source["log_sha256"],
-                     "paid first-attempt original log bytes differ")
-    tags = tuple(TAG+x for x in ("REQUEST", "DEVELOPMENT", "PRIOR_WORK_REUSED",
-                                "COMPLETE", "MODEL", "ENTRY_ERROR"))
+                     "paid previous original log bytes differ")
+    tags = tuple(TAG+x for x in ("REQUEST", "DEVELOPMENT", "DEVELOPMENT_REUSED",
+                                "PRIOR_WORK_REUSED", "COMPLETE", "MODEL", "ENTRY_ERROR"))
     records = transfer.paid.inherited.tagged_records(raw, tags)
-    transfer.require(not records[TAG+"MODEL"] and not records[TAG+"ENTRY_ERROR"],
-                     "the pinned pre-objective failure cannot contain models or a different entry error")
+    transfer.require(not records[TAG+"DEVELOPMENT"] and not records[TAG+"MODEL"]
+                     and not records[TAG+"ENTRY_ERROR"],
+                     "the second attempt must have reused development and stopped without models")
     one = transfer.paid._one
     old_request = one(records, TAG+"REQUEST", source, "request_record_bytes", "request_record_sha256")
-    dev = one(records, TAG+"DEVELOPMENT", source, "development_bytes", "development_sha256")
+    reused = one(records, TAG+"DEVELOPMENT_REUSED", source,
+                 "development_reuse_bytes", "development_reuse_sha256")
     complete = one(records, TAG+"COMPLETE", source, "complete_payload_bytes", "complete_payload_sha256")
     prior = one(records, TAG+"PRIOR_WORK_REUSED", source,
                 "prior_reuse_payload_bytes", "prior_reuse_payload_sha256")
@@ -110,15 +114,15 @@ def read_paid_nine_checks(request, *, scientific_started):
         old_request["source_commit"] == source["source_commit"]
         and old_request["request_bytes"] == source["original_request_bytes"]
         and old_request["request_sha256"] == source["original_request_sha256"],
-        "paid first-request identity differs")
+        "previous161-file request identity differs")
     old_files, current_files = old_request["source_sha256"], request["source_sha256"]
     transfer.require(
         len(old_files) == len(current_files) == 161 and set(old_files) == set(current_files)
-        and set(FIRST_ALLOWED_CHANGED).issubset(old_files),
+        and set(PREVIOUS_ALLOWED_CHANGED).issubset(old_files),
         "the same complete161-file binding is required")
     for path, expected in old_files.items():
-        if path in FIRST_ALLOWED_CHANGED:
-            transfer.require(expected == FIRST_ALLOWED_CHANGED[path],
+        if path in PREVIOUS_ALLOWED_CHANGED:
+            transfer.require(expected == PREVIOUS_ALLOWED_CHANGED[path],
                              "unexpected old identity of an allowed changed file: "+path)
         else:
             transfer.require(current_files[path] == expected, "an already-paid source changed: "+path)
@@ -127,61 +131,71 @@ def read_paid_nine_checks(request, *, scientific_started):
     old_python = {Path(p).name: h for p, h in old_files.items() if p.endswith(".py")}
     transfer.require(
         len(old_python) == 152 and sum(p.endswith(".py") for p in old_files) == 152
-        and sum(p.endswith(".py") and p not in FIRST_ALLOWED_CHANGED for p in old_files) == 151
-        and dev["source_files_sha256"] == complete["source_files_sha256"] == old_python
-        and all(old_python.get(name) == h for name, h in dev["source_sha256"].items()),
-        "paid152-Python closure or unchanged151-source identities differ")
-    counts = {"reference_and_Jacobian_branches": 3,
-              "deleted_calls_cache_and_failure_cost": 3,
-              "new_identity_and_selected_binding": 3}
+        and sum(p.endswith(".py") and p not in PREVIOUS_ALLOWED_CHANGED for p in old_files) == 151
+        and complete["source_files_sha256"] == old_python,
+        "previous152-Python closure or unchanged151-source identities differ")
     transfer.require(
-        dev["schema"] == "same159-direct-immutable-reference-geometry-v1-new-artificial-development"
-        and dev["all_passed"] is True and dev["artificial_inputs_only"] is True
-        and dev["new_group_count"] == 3
-        and dev["new_case_count"] == dev["executed_check_count"] == 9
-        and dev["group_case_counts"] == counts
-        and [g["name"] for g in dev["groups"]] == list(counts)
-        and all(g["passed"] is True and g["case_count"] == g["check_count"] == 3
-                and len(g["checks"]) == len(g["cases"]) == 3
-                and all(v is True for v in g["checks"].values())
-                and all(c["passed"] is True and c["execution_status"] == "completed"
-                        for c in g["cases"]) for g in dev["groups"]),
-        "the complete paid three-group nine-case receipt differs")
-    expected_execution = {
-        "old_artificial_input_factory_calls": 2,
-        "artificial_original_comparison_geometry_calls_started": 3,
-        "artificial_original_comparison_Jacobian_calls_started": 2,
-        "artificial_adapter_geometry_calls_started": 6,
-        "artificial_adapter_geometry_calls_completed": 5,
-        "artificial_adapter_geometry_calls_failed": 1,
-        "artificial_adapter_Jacobian_calls_started": 2,
-        "new_selected_factorizer_constructors": 1,
-        "new_selected_ordinary_bindings": 1,
-        "selected_J_evaluate_calls": 0, "full_directional_JVP_calls": 0,
-        "real_LP_calls": 0, "optimizer_calls": 0, "research_geometry_calls": 0,
-        "old_developer_suites_executed": 0,
-        "top_level_geometry_counts_do_not_count_nested_legacy_comparator_calls_again": True}
-    transfer.require(dev["execution"] == expected_execution
-                     and dev["controlled_failed_geometry_calls_expected"] == 1,
-                     "paid artificial or zero scientific-execution scope differs")
+        reused["schema"] == POLICY+"-paid-nine-check-reuse"
+        and reused["passed"] is True and reused["all_paid_cases_passed"] is True
+        and reused["source_run_id"] == "43777844163"
+        and reused["source_job_id"] == "133008102089"
+        and reused["source_commit"] == "ad3b104606347c345020d229b6fbc1c648dabacc"
+        and reused["log_bytes"] == 185504
+        and reused["log_sha256"] == "1890cc27b6f6ca3ff28cf2d821c73e9c4e78b8912822452cd6ec17c52a61b0cf"
+        and reused["development_JSON_plus_LF_bytes"] == 25953
+        and reused["development_JSON_plus_LF_sha256"] ==
+            "717719da39d867b3206c12250ccc1df92e5276245cc48d8d9e4e6ba76b4accae"
+        and (reused["bound_files"], reused["Python_files"], reused["unchanged_Python_files"]) == (161, 152, 151)
+        and (reused["paid_groups"], reused["paid_cases"]) == (3, 9)
+        and reused["new_development_groups_executed"] == reused["new_development_cases_executed"] == 0
+        and reused["old_scientific_replays"] == 0
+        and reused["adapter_core_and_development_and_epoch_outer_transfer_unchanged"] is True,
+        "the source-pinned transitive original nine-check receipt differs")
+    first_cost = reused["first_failure_cost"]
+    transfer.require(first_cost["paid_scientific_seconds_including_source_read_and_prepare"] ==
+                     13.756976061000046
+                     and first_cost["paid_process_seconds"] == 17.244257307999987
+                     and first_cost["paid_development_seconds_separate_from_science"] ==
+                     1.5606790740000633
+                     and all(first_cost[k] == 0 for k in (
+                         "new_J_batches", "new_LPs", "new_accepted_iterates",
+                         "new_models", "new_ordinary_values")),
+                     "first-attempt paid clock or zero-science counters differ")
     stage = complete[STAGE]
+    timing = stage["direct_reference_geometry_timing"]
+    solver = stage["solver"]
     transfer.require(
         complete["schema"] == SCHEMA
-        and complete["status"] == "new-direct-reference-task-audit-error"
+        and complete["status"] == "new-task-stopped-before-two-grid-initial-point"
         and complete["github_sha"] == source["source_commit"]
         and str(complete["github_run_id"]) == source["run_id"]
         and complete["github_repository"] == transfer.REPO
-        and complete["error"]["type"] == "KeyError"
-        and complete["error"]["message"] == "'primitive_order'"
-        and "frame_metric_direct_reference_audit.py" in complete["error"]["traceback"]
-        and complete["new_scientific_recovery_entries"] == 0
+        and complete["new_scientific_recovery_entries"] == 1
         and complete["old_developer_suite_optimizer_LP_JVP_trial_replays"] == 0
-        and stage["model_count"] == 0 and stage["solver"] == {}
-        and stage["selected_two_grid_physical_point"] is None
-        and stage["snapshot_scalar_counters"] == {}
+        and stage["status"] == "direct-reference-guarded-recovery-error"
+        and stage["error"] == {"type": "ValueError",
+            "message": "height primitive or exact-polynomial evaluation changed during this stage"}
+        and stage["model_count"] == 0 and stage["selected_two_grid_physical_point"] is None
+        and stage["snapshot_scalar_counters"]["total_full_value_physical_evaluations"] == 0
+        and stage["snapshot_scalar_counters"]["value_geometry_seconds"] == 0
+        and all(solver[k] == 0 for k in ("linear_program_invocation_count",
+                "primary_LP_invocation_count", "correction_LP_invocation_count"))
+        and all(timing[k] == 0 for k in (
+            "geometry_calls_started", "geometry_calls_completed", "geometry_calls_failed"))
+        and complete["complete_original_grid_oracle_progress"] == []
+        and all(complete["factorized_selected_J_execution"][g][k] == 0
+                for g in ("coarse", "fine") for k in ("batches", "refreshes"))
         and "future_direct_checkpoint" not in complete
-        and complete["source_initial_physical_state_sha256"] == request["source"]["final_physical_sha256"],
-        "only the exact pre-objective KeyError with zero new scientific evaluations is reusable")
+        and complete["source_initial_physical_state_sha256"] == request["source"]["final_physical_sha256"]
+        and complete["original_query_quadrature_order"]["value"] == 8,
+        "only the exact pre-ordinary gate-identity failure with zero values/J/LPs is reusable")
+    transfer.require(
+        stage["direct_reference_bank_migration"]["passed_input_validation"] is True
+        and stage["direct_reference_bank_migration"]["first_actual_complete_factory_bound"] is False
+        and stage["direct_reference_bank_migration"]["source_state_sha256"] ==
+            request["source"]["terminal_norm_bank_state_sha256"]
+        and stage["curvature_learning_context_migration"]["old_event_retraining_calls"] == 0,
+        "previous migration or pending-current-model boundary differs")
     transfer.require(prior["passed"] is True and prior["original_source_python_files"] == 140
                      and prior["original_request_bound_files"] == 146
                      and prior["original_guard_development_checks"] == 18
@@ -191,47 +205,101 @@ def read_paid_nine_checks(request, *, scientific_started):
                      "original paid source and transitive development receipt differs")
     science = complete["new_scientific_elapsed_seconds_including_input_prepare"]
     process = complete["process_total_elapsed_seconds"]
-    timing = complete["timing_segments"]
-    transfer.require(
-        type(science) in (int, float) and np.isfinite(science) and science >= 0
-        and science == source["paid_scientific_seconds"]
-        and type(process) in (int, float) and np.isfinite(process) and process >= science
-        and process == 17.244257307999987
-        and timing["all_scientific_input_prepare_seconds"] == 13.652855353000064
-        and dev["actual_development_entry_wall_seconds"] == 1.5606790740000633,
-        "first-attempt paid scientific/process/development clock differs")
+    first_science = first_cost["paid_scientific_seconds_including_source_read_and_prepare"]
+    transfer.require(type(science) in (int, float) and np.isfinite(science)
+                     and science == source["paid_scientific_seconds"] and science >= first_science
+                     and type(process) in (int, float) and np.isfinite(process)
+                     and process == 16.883830578999948
+                     and complete["timing_segments"]["already_paid_first_attempt_scientific_seconds"]
+                         == first_science,
+                     "previous cumulative scientific/process clock differs")
     cost = {
-        "paid_scientific_seconds_including_source_read_and_prepare": science,
-        "paid_process_seconds": process,
+        "cumulative_paid_scientific_seconds": science,
+        "previous_attempt_scientific_increment_seconds": science-first_science,
+        "previous_attempt_process_seconds": process,
+        "first_attempt_cost": copy.deepcopy(first_cost),
+        "previous_attempt_timing_segments": copy.deepcopy(complete["timing_segments"]),
         "paid_development_seconds_separate_from_science":
-            dev["actual_development_entry_wall_seconds"],
-        "paid_timing_segments": copy.deepcopy(timing),
+            first_cost["paid_development_seconds_separate_from_science"],
         "new_LPs": 0, "new_ordinary_values": 0, "new_J_batches": 0,
         "new_models": 0, "new_accepted_iterates": 0,
-        "only_scientific_seconds_carried_into_the_same1800s_task_clock": True,
+        "latest_cumulative28_seconds_inherited_once_not_added_to_first13_again": True,
         "process_import_and_development_seconds_not_added_again": True}
     receipt = {
-        "schema": POLICY+"-paid-nine-check-reuse", "passed": True,
+        "schema": POLICY+"-paid-nine-check-chain-reuse", "passed": True,
         "source_run_id": source["run_id"], "source_job_id": source["job_id"],
         "source_commit": source["source_commit"], "original_conclusion": "failure",
         "log_bytes": len(raw), "log_sha256": reader.digest(raw),
         "request_JSON_plus_LF_bytes": source["request_record_bytes"],
         "request_JSON_plus_LF_sha256": source["request_record_sha256"],
-        "development_JSON_plus_LF_bytes": source["development_bytes"],
-        "development_JSON_plus_LF_sha256": source["development_sha256"],
+        "development_reuse_JSON_plus_LF_bytes": source["development_reuse_bytes"],
+        "development_reuse_JSON_plus_LF_sha256": source["development_reuse_sha256"],
         "complete_JSON_plus_LF_bytes": source["complete_payload_bytes"],
         "complete_JSON_plus_LF_sha256": source["complete_payload_sha256"],
-        "prior_JSON_plus_LF_bytes": source["prior_reuse_payload_bytes"],
-        "prior_JSON_plus_LF_sha256": source["prior_reuse_payload_sha256"],
+        "original_nine_check_evidence": {
+            "run_id": reused["source_run_id"], "source_commit": reused["source_commit"],
+            "development_JSON_plus_LF_bytes": reused["development_JSON_plus_LF_bytes"],
+            "development_JSON_plus_LF_sha256": reused["development_JSON_plus_LF_sha256"]},
         "bound_files": 161, "Python_files": 152, "unchanged_Python_files": 151,
         "paid_groups": 3, "paid_cases": 9, "all_paid_cases_passed": True,
         "new_development_groups_executed": 0, "new_development_cases_executed": 0,
-        "old_scientific_replays": 0, "allowed_changed_paths": list(FIRST_ALLOWED_CHANGED),
+        "old_scientific_replays": 0, "first_failed_log_downloads_this_attempt": 0,
+        "previous_failed_log_downloads_this_attempt": 1,
+        "allowed_changed_paths": list(PREVIOUS_ALLOWED_CHANGED),
         "adapter_core_and_development_and_epoch_outer_transfer_unchanged": True,
-        "first_failure_cost": cost, "redirects_without_authorization": redirects,
+        "paid_cost": cost, "redirects_without_authorization": redirects,
         "payload_only_in_runner_memory_no_repository_or_artifact_upload": True}
     transfer.check_clock(scientific_started)
     return receipt, cost
+
+
+def fresh_adapter_gate(original_gate, problem, state, lower, upper):
+    """Rebuild only the numerical gate identity through its original constructor."""
+    # Keep the original physical163 cap gate, exact H/reference and box.  Its
+    # strict context check remains inside from_original and assert_context.
+    gate = FiveNullHeightGate.from_original(
+        original_gate.original_gate, problem,
+        original_gate.original_lower, original_gate.original_upper)
+    expected = copy.deepcopy(original_gate.numerical_definition)
+    expected["problem_evaluation"] = copy.deepcopy(problem.evaluation_definition())
+    transfer.require(
+        gate.original_gate is original_gate.original_gate
+        and gate.coordinates is original_gate.coordinates is problem.coordinates
+        and gate.physical_definition == original_gate.physical_definition
+        and gate.physical_sha256 == original_gate.physical_sha256
+        and gate.coordinate_definition_sha256 == original_gate.coordinate_definition_sha256
+        and gate.reference_provenance == original_gate.reference_provenance
+        and gate.numerical_definition == expected
+        and gate.numerical_sha256 == digest(expected)
+        and gate.problem_evaluation_sha256 == digest(problem.evaluation_definition())
+        and gate.numerical_sha256 != original_gate.numerical_sha256,
+        "fresh gate may change only the declared ordinary evaluation identity")
+    for name in ("kind", "nunknown", "side", "length", "target",
+                 "reference_height", "intercept", "height_slice", "family"):
+        transfer.require(getattr(gate, name) == getattr(original_gate, name),
+                         "physical null-cap gate scalar changed: "+name)
+    for name in ("row", "weights", "original_lower", "original_upper",
+                 "coordinate_lower", "coordinate_upper"):
+        a, b = np.asarray(getattr(gate, name)), np.asarray(getattr(original_gate, name))
+        transfer.require(a.dtype == b.dtype and a.shape == b.shape and a.tobytes() == b.tobytes(),
+                         "physical/null gate array changed: "+name)
+    transfer.require(gate.coordinate_lower.tobytes() == np.asarray(lower).tobytes()
+                     and gate.coordinate_upper.tobytes() == np.asarray(upper).tobytes(),
+                     "caller159 pivot envelope changed")
+    gate.assert_context(problem, state)
+    return gate, {
+        "original_physical_gate_sha256": gate.physical_sha256,
+        "coordinate_definition_sha256": gate.coordinate_definition_sha256,
+        "old_numerical_gate_sha256": original_gate.numerical_sha256,
+        "new_numerical_gate_sha256": gate.numerical_sha256,
+        "old_ordinary_evaluation_sha256": original_gate.problem_evaluation_sha256,
+        "new_ordinary_evaluation_sha256": gate.problem_evaluation_sha256,
+        "original_physical_gate_and_exact_H_objects_shared": True,
+        "only_numerical_definition_problem_evaluation_field_changed": True,
+        "original_assert_context_executed_without_bypass": True,
+        "all_physical_rows_height_target_boxes_and159_bounds_bitwise_unchanged": True,
+        "no_geometry_J_LP_or_value_call": True}
+
 
 
 def emit(suffix, value):
@@ -421,7 +489,7 @@ def accepted_receipts(stage, point):
 
 
 def run_audit(prepared, output, *, scientific_started, preparation_segments, development_receipt,
-              paid_first_attempt):
+              paid_previous_attempt):
     restored, bindings, tenth, replay, coarse_pool, fine_pool = prepared
     problem, initial, gate, lower, upper, source_cfg, cfg = restored
     real, source_cp = replay["original_report"], replay["source_checkpoint"]
@@ -435,8 +503,8 @@ def run_audit(prepared, output, *, scientific_started, preparation_segments, dev
         "scientific_started_monotonic": scientific_started,
         "new_scientific_resource_limits": dict(RESOURCE_LIMITS, per_LP_seconds=10),
         "development_receipt": copy.deepcopy(development_receipt),
-        "paid_first_attempt_receipt": copy.deepcopy(paid_first_attempt),
-        "same_new_task_scientific_clock_inherits_failed_first_attempt": True,
+        "paid_previous_attempt_receipt": copy.deepcopy(paid_previous_attempt),
+        "same_new_task_scientific_clock_inherits_both_failed_attempts_once": True,
         "current_development_group_and_case_executions": 0,
         "source_transfer": copy.deepcopy(replay["source_completed_log_transfer"]),
         "ancestor_costs": copy.deepcopy(replay["ancestor_costs"]),
@@ -470,6 +538,8 @@ def run_audit(prepared, output, *, scientific_started, preparation_segments, dev
         report["original_query_quadrature_order"] = {
             "value": order, "source": "problem.original_problem.base.primitive_order",
             "same_fixed_primitive_order": True, "no_default_or_solver_cfg_mutation": True}
+        gate, gate_receipt = fresh_adapter_gate(gate, problem, initial, lower, upper)
+        report["fresh_adapter_cap_gate_binding"] = gate_receipt
         def checkpoint(snapshot):
             report[STAGE] = {"status": "new-task-last-qualified-checkpoint",
                              "checkpoint": snapshot, "solver": {}}
@@ -554,7 +624,7 @@ def run_audit(prepared, output, *, scientific_started, preparation_segments, dev
         report["final_exact_box"] = exact_box
         report["future_direct_checkpoint"] = new_checkpoint(objective, problem, point, stage)
         report["future_direct_checkpoint"]["paid_attempts_of_this_new_task"] = [
-            copy.deepcopy(paid_first_attempt)]
+            copy.deepcopy(paid_previous_attempt)]
         report["value_evaluation_counts"] = {
             "new_shared_values": objective.full_value_evaluations,
             "new_shared_value_cap": 160,
@@ -617,25 +687,27 @@ def main():
             "request_bytes": len(raw_request), "request_sha256": reader.digest(raw_request),
             "source_sha256": request["source_sha256"], "parameters": request["parameters"]})
         transfer.require(
-            all(request.get("paid_first_attempt", {}).get(k) == v
-                for k, v in FIRST_ATTEMPT.items()),
-            "explicit pinned nine-check reuse and failed scientific cost required")
-        # This is the SAME independent1800s task, not another epoch.  The first
-        # attempt spent no values/J/LPs, but all13.756976061s of its scientific
-        # source/input/prepare clock remains spent.  Its process/import/dev time
-        # is separate, never added a second time to the scientific ledger.
+            all(request.get("paid_previous_attempt", {}).get(k) == v
+                for k, v in PAID_PREVIOUS_ATTEMPT.items()),
+            "explicit pinned transitive nine-check reuse and cumulative failed cost required")
+        # This is the SAME independent1800s task.  Both failed attempts used
+        # zero values/J/LPs, but their cumulative28.690336299s remains spent.
+        # It already includes the first13.756976061s: never add them twice.
+        # Prior process/import/development costs remain separate receipts.
         current_scientific_started = time.monotonic()
-        scientific_started = current_scientific_started-FIRST_ATTEMPT["paid_scientific_seconds"]
+        scientific_started = current_scientific_started-PAID_PREVIOUS_ATTEMPT["paid_scientific_seconds"]
         reuse_started = time.monotonic()
-        paid_first, paid_cost = read_paid_nine_checks(
+        paid_previous, paid_cost = read_paid_nine_checks(
             request, scientific_started=scientific_started)
         paid_failure_read_seconds = time.monotonic()-reuse_started
-        emit("DEVELOPMENT_REUSED", paid_first)
+        emit("DEVELOPMENT_REUSED", paid_previous)
         dev_receipt = {
             "paid_groups": 3, "paid_cases": 9, "all_paid_cases_passed": True,
             "current_new_groups_executed": 0, "current_new_cases_executed": 0,
-            "canonical_JSON_plus_LF_bytes": FIRST_ATTEMPT["development_bytes"],
-            "canonical_JSON_plus_LF_sha256": FIRST_ATTEMPT["development_sha256"],
+            "canonical_JSON_plus_LF_bytes":
+                paid_previous["original_nine_check_evidence"]["development_JSON_plus_LF_bytes"],
+            "canonical_JSON_plus_LF_sha256":
+                paid_previous["original_nine_check_evidence"]["development_JSON_plus_LF_sha256"],
             "paid_development_seconds_separate_from_science":
                 paid_cost["paid_development_seconds_separate_from_science"],
             "current_development_execution_seconds": 0,
@@ -649,9 +721,11 @@ def main():
             request, output, PROCESS_STARTED, completed=completed,
             scientific_started=scientific_started)
         segments = {
-            "already_paid_first_attempt_scientific_seconds":
-                paid_cost["paid_scientific_seconds_including_source_read_and_prepare"],
-            "paid_first_failed_log_read_and_reuse_validation_seconds": paid_failure_read_seconds,
+            "already_paid_cumulative_scientific_seconds":
+                paid_cost["cumulative_paid_scientific_seconds"],
+            "previous_attempt_scientific_increment_seconds":
+                paid_cost["previous_attempt_scientific_increment_seconds"],
+            "paid_second_failed_log_read_and_transitive_reuse_validation_seconds": paid_failure_read_seconds,
             "paid_source_log_read_and_receipt_validation_seconds": source_read_seconds,
             "necessary24_input_and_immutable_prepare_seconds": time.monotonic()-input_started,
             "current_attempt_scientific_input_prepare_seconds":
@@ -663,7 +737,7 @@ def main():
             "prior_process_import_development_not_added_to_scientific_clock": True}
         result = run_audit(prepared, output, scientific_started=scientific_started,
                            preparation_segments=segments, development_receipt=dev_receipt,
-                           paid_first_attempt=paid_first)
+                           paid_previous_attempt=paid_previous)
         raw = output.read_bytes()
         emit("OUTPUT_METADATA", {"name": output.name, "bytes": len(raw), "sha256": reader.digest(raw),
                                  "only_runner_temporary_output_no_payload_upload": True})

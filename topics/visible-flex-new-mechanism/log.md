@@ -411,3 +411,8 @@ Astra-new-mechanism-9974ea84：[direct第二次gate身份停止](notes/direct-re
 ## 2026-11-16 00:27:18 UTC｜R412同四约束母族与原十九根联合完成
 
 Astra-new-mechanism-9974ea84：[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)，19702B/hashd12b2ace10398efd2590c987d80e56752aff6f4db8f3505a8c9de4d5402ca620。根全文手核16minor/away-normal支持、有限Sard和端collar、restricted max-rank/r+4、脉冲p号保护与different-mother3+2；保全部原假设。实际joint仍需完整低−6/−4，未拼旧wholeE截面。H及open将已付R409–412合并为准确继续入口；基底cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de。
+
+
+## 2026-11-16 00:28:20 UTC｜原构造重绑direct gate并传递两次失败累计成本
+
+Astra-new-mechanism-9974ea84：audit 46667B/hash80a9d4f43a08d375dc0a0ac11d2eadb49e2061e7030b87eff59a71753353bab2，workflow 4330B/hash5f7313fe0a73d6ea559ed99280d010cf5641742467d6881b035ae926668a0a9f。生产差异为objective前经原FiveNullHeightGate.from_original生成同物理门的新求值身份，原assert_context保留；原physical gate/H/coordinates对象、family/target/rows、163exact box/159bounds均保持，numerical_definition只改problem_evaluation。其余是第二失败43778983026的认证收据消费与累计28.690336299000023秒（已含首13.756976061秒）一次继承；9人工只经原已付链复用，第一失败log不再下载。根读全部差异与原gate；子代理窄读首ordinary→cache→factory→model身份无新阻断，不增人工/研究执行。仍161绑定，仅audit/workflow允许变，其余151py及旧门/预算不动。此安装不触发研究，下一单独唯一request；基底c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb。

@@ -157,9 +157,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 直接reference九项已付、迁移通过，修新gate身份后进入首次真实求值
+### direct gate原构造修复已安装，待同预算首次真实求值
 
-[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026仅复用9项，primitive order8和objective/438/祖先γ迁移构造通过；原159 gate仍绑定旧field，完整assert_context在首次adapter调用前拒绝，geometry/value/J/model/LP/接受0。累计同任务science28.690336299000023s（本次14.933360238），所有历史保留。下一用原FiveNullHeightGate.from_original绑定新adapter，逐项保持同物理门/163box/159bounds与全部14验收，不删检查；核其它身份消费者后唯一修复。同1800/64/160累计，9只读传递复用，实际factory绑定/速度/下降尚未发生。
+[第二次身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026几何/value/J/model/LP/接受全0，science累计28.690336299000023s。现用原FiveNullHeightGate.from_original重绑adapter并照常assert_context，物理门/163box/159bounds/14门逐项保持；仅audit及workflow文本变，其余151py不动。9项通过沿第二失败认证收据复用，新开发0；两必要log与prepare继续计同1800s/64LP/160值，不重加已含的首13.756976061s。源码已装，下一唯一请求，实际factory绑定/速度/下降仍欠。
 
 
 ### R399新的第二period内部通道已实际付至四点

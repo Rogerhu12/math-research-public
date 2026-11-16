@@ -45,7 +45,7 @@ jobs:
           python-version: '3.12.14'
       - name: Install the original pinned numerical runtime
         run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
-      - name: Pull both rules, reuse the nine paid checks, carry failed scientific time, then enter the original remaining task
+      - name: Pull both rules, reuse the authenticated nine-check chain, bind the adapter gate, and carry cumulative science
         env:
           GITHUB_TOKEN: ${{ github.token }}
           MR_TOKEN: ${{ secrets.MR_TOKEN }}
@@ -84,4 +84,4 @@ jobs:
               emit('DIRECT_REFERENCE_WORKFLOW_OUTPUT_METADATA',{'filename':path.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'payload_committed_or_uploaded':False})
           raise SystemExit(code)
           PY
-      # Reuse the nine completed checks; carry their failed attempt's science time; no study, check, LP or direction replay.
+      # Reuse the nine completed checks through the second receipt; carry both failed attempts once; no study, check, LP or direction replay.
