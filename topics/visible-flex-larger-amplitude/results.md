@@ -379,3 +379,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R513 — 实际223八个原39交接与必要摘要超限
 
 **实际223八原warm/freshFD交接；整份必要科学正文未返。** [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)22053B/ca75全文刊，run43839064900/source035d/compute133202897349；geometry终志116544/c65d唯一一次。16child exit0和空stderr，8次next_actual_parent_pair_retained=true结合f847真实status/identity/freshFD控制流，确认8个原eligible，不以exit0独推科学验收。trial计数4/3/4/3/3/2/2/3仅计数；whole113011/fc09、recovery113361/1cc7均超90K70无body，具体α/merit/错误地址/FD值/末三词和parent-after-007身份未返，不从前七父SHA补末点。原8必要先落盘后大batch已退，最后quiet真但cleanup step success实为skip；必要/末父留至runner销毁，原支线native/fullDN从未请求。原rules两轮无change/error；不复取日志、抬限、分包或添门，R533继续实际语义组织。同期[225官方绑定](notes/2026-11-16-request225-official-run-binding.md)3285/9599确认发布与实际同5af07ed6/run43852521165，前1–10success/11科学；R528 exact唯一。R527两文338行序勘误为真实slope/second/两mean/height，proof现18998/2028、接口22190/5eea，冻结执行源/request不改，原历史output_jets_order说明不参与数值索引。
+
+
+## R529 — 当前128末解与完整64模型、重新锚定和原末门
+
+**已证明的完整当前模型分责与条件末门保持；无新科学运行。** [R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476B/f930：固定真实H/owner/replay/snapshot/packet/clock，对实际X128全577×224由b233一次整数RN64；真实DN各engine/profiles/原cusp全576×226×224，保before-port全行、after-port224²与两mean，不拿投影残差覆盖原128norm。所有有限64字准确嵌入128，原全far/cut QR可在明确新系数模型上定义；旧c218 fixed64禁止/false声明与R501全128stage绑定须真实另接，非旁路。a090 base338/13scalar和原独立audit在固定X/packet下不依G，完整338mixed J仍随新G变化；原endpoint入口先readG，不能冒noJ独立入口。重新anchor的L(H)=D(H)使原候选H重求值、末BC1e−11/physical RMS1e−6/final fresh J+audit仍真实支付；源核材料角/SeparatedBoundary同H路径。原FD仅affine一致性，纸例D(s)=s²说明不证DD；原所有FD门仍保，不增全解析门。不保证矩阵误差、轨迹、速度或资源前沿；原19200/所有caps/90K/quiet保。真正owner→post拆分、Node真实DN调度、stage/lift/consumer/assembly新source仍未实现成完整入口，R532及root继续，不追改221/225。

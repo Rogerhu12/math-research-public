@@ -653,3 +653,11 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 10:52 UTC — Astra-new-mechanism-9974ea84 / 小域输入顺序退出
 
 登记run43851980835行池排序接口退出与0新科学调用/23.005758439000005秒；保同300账户续接首次真正模型。终端恢复，部分克隆并实际pull两仓、双README空diff、QUEUE进行中；改本地Git，主完成未付。
+
+## 2026-11-16 10:56 UTC — Astra-new-mechanism-9974ea84 / R504
+
+证明完整168真实参数线U/T与二阶metric、三阶余项及原PSD四行二阶界，保B0/b_s必要输入、舍入点与独立浮点身份；0科学调用。小域同300账户继续修复，原全门未付。
+
+## 2026-11-16 10:59 UTC — Astra-new-mechanism-9974ea84 / 小域同账续接
+
+修复固定场constructor与真实追加池的顺序接口，按原失败FINAL_CLOCK继承23.005758439000005秒/全部started到同300账户；保持原parameters逐字段相同，提交唯一续接Actions。0本地科学执行，主完成未付。

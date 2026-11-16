@@ -2,51 +2,56 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1100-R891-six-torsion-base-divisors",
-  "commit_message": "serre: prove the original sigma zero base divisor interpretation",
-  "rules_last_read_commit": "9ed93794bd39da91bb3aaccba19ea194cff9d13f",
+  "request_id": "20261116-1104-R892-full-theta-distributions",
+  "commit_message": "serre: prove full theta recursion and original divided contraction criterion",
+  "rules_last_read_commit": "ae7e1f6246a48476713081e7b2affc7aa2c1c980",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "a3dbc272e4f5fb1872d7353f162fb6410b276802dfb86607e0e58a0f962ec61f",
+  "expected_previous_request_sha256": "ae349c3993a3335583309c4bbeebe4260d356659e028acceb5b60c9efecbcb4d",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md",
-      "sha256": "7ed8ff000434db230023f8023daf1d3257f2bd52a5e7eab9a54609a1c7a49901",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-full-theta-distributions.md",
+      "sha256": "ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R815-public-original-normal-derivation-operators-request.json",
-      "sha256": "90221570e10c7b25f02848442a7a5511affcdf5a49974fd27f4e2141698e01f3",
-      "expected_previous_sha256": "3716cd371f257acb71ec645e3e56984e96dce0dea6d666dcd2b1c787af2c12fe"
+      "path": "topics/serre-uniformity/results/R892-original-theta-recursion-and-divided-split-contraction.md",
+      "sha256": "5c46551eb6de7350b651c14a2c8d6ee36098a41adb2d5b8de405b894d65250ed",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
+      "sha256": "634060679eac27d699f02e346f2c7b801f2784c5bec0bd988695581c3b1c980c",
+      "expected_previous_sha256": "ca80ba378daf514b556d6d4cc1e722da6b8b075a35eb9eef4e56b7d376d2124a"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "dfd8c81f3a089349eb32917fe1c5105e276036cb91e13860a33becc3e5fb7c9d",
-      "expected_previous_sha256": "245783d1e22f2219d3c75a7c2156e64c51a96f252affd4d1277ad4d13301e019"
+      "sha256": "bc040a6262902641dea64fd3984e69d50bb51d351e0d4bc26c58a3ee765e651a",
+      "expected_previous_sha256": "ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "0bf6637c51d84044a59fcdd0fd6e7669c16d2a284531521a34ffe60287f79684",
-      "expected_previous_sha256": "5a59d78326a685102c4807981211c4e1b711d2cf2f06ad33931e0de9cbd11a45"
+      "sha256": "0561173b1d663e5253c020532445898bc7dda8da16730f42cace3150a99bc1d1",
+      "expected_previous_sha256": "0bf6637c51d84044a59fcdd0fd6e7669c16d2a284531521a34ffe60287f79684"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "d3dfb05fc0e037693e29529952711fbc6778b9a21c49bdedf9b47ab7582eac68",
-      "expected_previous_sha256": "db1354a4b1ea5e3b9eb35b5744a498cc2fecdea5ee4a6305df9ea5d9582f256f"
+      "sha256": "28c5f7d0a82ae262ec1394e96f539219292e4bce7e8cbb92e6ad05cb63cf4499",
+      "expected_previous_sha256": "d3dfb05fc0e037693e29529952711fbc6778b9a21c49bdedf9b47ab7582eac68"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "588bd3be6cf349164c55c36153841c843f0e60f5dc9bfe526e35803ae82fe615",
-      "expected_previous_sha256": "9f95d3051217d6e5d69efc937a75d067e78f0fe62a807bdb70e4c8bcafa44ee9"
+      "sha256": "a94925a55ef5d7b7bce1de6401466df6c3cf4a459378a6738247b1e285c4a782",
+      "expected_previous_sha256": "2f86d8d17d5714b13da1e0ec89cb9259f752c7b02f813f479a4fde1a42e6bc85"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-p41-original-normal-derivation-operators.yml",
-      "request_path": "topics/serre-uniformity/notes/R815-public-original-normal-derivation-operators-request.json",
-      "request_sha256": "90221570e10c7b25f02848442a7a5511affcdf5a49974fd27f4e2141698e01f3"
+      "workflow": "serre-R880-six-Dstar-source-intake.yml",
+      "request_path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
+      "request_sha256": "634060679eac27d699f02e346f2c7b801f2784c5bec0bd988695581c3b1c980c"
     }
   ]
 }

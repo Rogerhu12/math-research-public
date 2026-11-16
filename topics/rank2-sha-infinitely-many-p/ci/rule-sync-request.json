@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261116T1034-rule-pull",
-  "utc": "2026-11-16 10:34:34 UTC",
-  "last_rules_read": "f45773bb703cfb7e0c6c9f0c7f25eb17deeedd39",
-  "reason": "Actual git pull --rebase, compare both README rules and inventory before 10:40 UTC. Local execution remains unavailable; API reads are not counted as a pull."
+  "request_id": "rank2-20261116T1101-rule-pull",
+  "utc": "2026-11-16 11:01:23 UTC",
+  "last_rules_read": "27f03ffa04c8714c399f47392054a6eb9e0926c5",
+  "reason": "Actual git pull --rebase after recent ref retries; compare both README rules and rule-15 inventory. Local execution still unavailable; API head reads do not count as pull."
 }

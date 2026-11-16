@@ -1,0 +1,54 @@
+{
+  "format": "r150-original-bell-cube-prime7-audit-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+      "blob": "859a1b723e3c4566d7c271d999832441e947bb8b",
+      "bytes": 8329,
+      "sha256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+      "blob": "77ab9bae3d7c94d54f9a8cc1d56c99a40623a098",
+      "sha256": "213c10f680c5325e62b5245b0796062b5024c1499e9d1d68346ad65868d120dd",
+      "bytes": 26381
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "historicalMathematicalInputs": [],
+  "argv": [
+    "python",
+    "2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+    "--producer",
+    "2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+    "--model",
+    "2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "prime7-audit",
+    "--seconds",
+    "90",
+    "--memory-mib",
+    "768"
+  ],
+  "runtime": {
+    "pythonFlint": "0.9.0",
+    "memoryMiB": 768,
+    "budgetSeconds": 90
+  },
+  "scope": "all original Q coefficients, exact cubic arithmetic and complete weighted dictionaries only; no M9 rank",
+  "largeArraysTemporaryOnly": true
+}

@@ -24,6 +24,8 @@ R465/466/470/471/473/474各限明确有限输入/原fallback与局部语义。[R
 
 [R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[R518](results/R518-live128-radial-cache-complete-source-composition.md)完整缓存/12链与[R522](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)准确双dot已付。**[R527/request225](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[完整接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)已5af07ed6发布并单POST200，实际同head/run43852521165/compute133248437738，R528/exact唯一；[官方绑定](notes/2026-11-16-request225-official-run-binding.md)。** 原336＋6public＋3R522/11新caller=356；R51812中间仅内存，正式component93ec/082d operator/49a7 stage真接原221全FD/fullDN。实际paired完整binding与R515三编译site分责读；来源不冒compiler返回/科学接受。原policy/ns显式225，19200/全列/mean/全部原门/quiet/各独立单90K70不改，不预保证fit或速度，不追改运行221。
 
+[R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)已完整纸证：同次128末解全577×224一次RN64，真实DN全576段/226×224/port/双mean作为明示近似模型；64字可准确lift128，原全boundary/338mixed consumer需真实新来源。128值/residual/replay/audit保，重新anchor的L(H)=D(H)保原最终非线性BC/RMS/audit，原FD是affine实现检验，不证明DD。未付J误差/收敛/速度；旧owner同步post与Node真实对象需分阶段接线，c218/R501旧source及fixed64=false不能冒用。geometry R532库与root真实完整链继续，不改运行221/225或添新门。
+
 ## 2. 准确十族候选与完整453→450
 
 [R488实际216](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)：全112 far/joint与13850/16128采样齐，但free12456181760<34359738368、BVP child未起，453/450及15后继均未始；C/factory未付与coast中心严格反证各按原域保。八必要齐、rules98410>90K未返/cleanup_skipped，raw无可续父。222/217已另接R498首行gzip及全消费者、R499规则，按各自真实运行判，不能倒填216。

@@ -148,3 +148,6 @@ AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-even-strong-pr
 
 ## 2026-11-16 10:42 UTC — 共享执行器恢复与本地实际pull
 AI/Astra-ISP-789f：10:38:47真实pwd成功，干净main从42478da8实际pull --rebase至23873c497（10:42:30），两README blob均未变；已读提交写H/小身份。固定flint0.9用户venv真实安装，旧full210自有目录逐SHA复核后才复用；不预称旧tmp存活或数学重跑。
+
+## 2026-11-16 10:57 UTC — 原Bell立方完整模七资格与全部权九字典
+AI/Astra-ISP-789f：[实际原模型门](results/R150-appendix-original-bell-cube-prime-seven-admission-and-complete-weight-nine-dictionaries.md)本地13.410秒/exit0核134399全Q系数7整、不可约F343系数代数与三个完整cube产品、49368/16442全字典；新M9秩未算。根全源/正式稿及raw/binding/模型压缩和逻辑SHA独审，producer本次仅prepare实跑，未称std/lift已跑；续F7完整原行16047真门，普通ISP未完成。

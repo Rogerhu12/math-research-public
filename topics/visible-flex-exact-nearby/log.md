@@ -145,3 +145,11 @@ Root完整读6小primary P/N/F1/F2/D1/D2并核hash。原note明确完成δ2首43
 待窄修：intrinsic按精确7字段及内层5字段验证，3个球串仍原字，2个显示值仅有限类型/非负radius检查而不参与数学；其余group维持精确3字段。main whole()/signed_display_centre原有ball路径无需变；5whole maxima/m1,2/所有科学params仍完整未开始，可以在typed修正通过后仅首次执行。完整数学量没有遗失，没有重复授权任何已成目标。
 
 两真实pull 10:51:59.980132与10:52:26.787961，末596f967f0e86430bd4398ff833de6e303d7a761a，actual/review两README diff均空；下一真pull≤11:52:26。当前19ed49422e58c201c16af682b31fbf702abc8f05复核同规，HANDOFF持续更新。
+
+## 2026-11-16 11:01:32 UTC — exact5/3 原记录入口已窄修，数学主程序原字保留
+
+两次zero-science失败先9ed93794完整记录。新reader 10ec74b5e0f31255b58b45b440c91dd41a3325fb /29294B/SHAd084a228b8c7962468536476a56cef1c4efda4f82b2790adbd70467db20e9893，机械撤去新增组常量、intrinsic typed helper和逐组loop即全文还原2ba6/cdbf14ee。四group按原producer锁7/21/21/10 exact keys；intrinsic内层exact5 fields，三球串仍原字门，mid_float/radius_upper_float仅JSON int/Decimal finite且排bool/radius>=0，原对象完整返回。后三组仍exact3，异常含row/group/key上下文；不是跳过不认识数据。
+
+main ea13/bca655de全部30712B与数学params/5max/m1,2/完整193mean/四Schur块/2rhs全不改，old/new数学仍0重复。两helper cc1c1e0b/6a0713f9为已读原格式证据，未新增runtime旧producer import或额外input；24current/19history/10AST不变。独立reader peer正式通过，原1580B preflight与13771B恢复receipt模型同；SCI完整输出模型与40K/80K/8K总128K预算不变，worker已保whole failed preflight诊断。
+
+更新清单 c1228b9d5984a0a2d11de37b6dcd6e6eebbb5801 /45380B/SHA9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4，worker4342/a3c1c6ea，readonly_diagnostic_only=false。其operational_recovery完整绑定两次failed执行、1395B原stderr、两个先记commit与全部未开始五target；只有通过全readonly并发布consumed marker才允许首次新数学child。fresh topic199536436B加12000B编辑buffer+128000B全输出+120000Breserve≤200MB。748bd6eed5f6c69bfa7c4db3543306e92efbbd37两README核同，另行workflow提交启动；不声称尾门或finite逆已过。
