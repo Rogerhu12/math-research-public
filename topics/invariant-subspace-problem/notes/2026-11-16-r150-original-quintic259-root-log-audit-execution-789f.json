@@ -1,0 +1,115 @@
+{
+  "format": "r150-original-quintic259-root-log-audit-execution-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "status": "completed",
+  "executedUtc": "2026-11-16 18:12:22 UTC",
+  "runtime": "functions.exec V8",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-quintic259-completed-log-audit-789f.js",
+    "gitBlob": "5bbee369c50360c4d778386b92cad4eee6d2f776",
+    "bytes": 17356,
+    "sha256": "1df5983d758813ce1b4bde066b6cf0b12e56f4d957a68f1478792ec87943443a",
+    "fullSourceReviewed": true
+  },
+  "runId": "43924670391",
+  "jobId": "133500854331",
+  "jobLog": {
+    "bytes": 111428,
+    "sha256": "f4dee885fa1a3d6e1a91b8386be8c7a8439cb8df6b5ed40494635fe6c5b4a9c3"
+  },
+  "auditOutput": {
+    "bytes": 4095,
+    "sha256": "755d66e5636edd07e6c17a04cdd74cc75626f3bb64e94730b6ccd2bdadc924d9"
+  },
+  "raw": {
+    "bytes": 8827,
+    "sha256": "c5298003adaa92487b53a2dac9b4f5d430f18ea035674b7c459daaaba8e88eba"
+  },
+  "semanticBinding": "c01cdd8fe8f2613e559aad696115d0c64bd2286af592c4ce8efab7512c5a977c",
+  "reconstructedManifest": {
+    "bytes": 896,
+    "sha256": "c23d40650d8291252c6de50b3e96e852066dd164a153a88c1fa4118838d7a39f",
+    "physicalFileIndependentlyRead": false
+  },
+  "allOriginalDictionariesReconstructed": true,
+  "allActualProductFlagsChecked": true,
+  "floatLexemesPreserved": true,
+  "sourceRawCanonicalBytesMatched": true,
+  "records": [
+    {
+      "stepId": "original-quintic-rebuild-field-model180",
+      "status": "completed",
+      "exitCode": 0,
+      "rawBytes": 30919,
+      "rawSHA256": "0cc1c085f3d154733ca39d8ad70ac996f7535f196aabef83a46259e3858b1360",
+      "rawReconstructed": true,
+      "observerSeconds": 18.504756081000004,
+      "mathSeconds": 17.880890373
+    },
+    {
+      "stepId": "original-quintic-rebuild-paid-high95-60",
+      "status": "completed",
+      "exitCode": 0,
+      "rawBytes": 8430,
+      "rawSHA256": "3573e27fc32a541752d1b9b637eb593d5a3dfaa80f2cd70c184db0acaeb31916",
+      "rawReconstructed": true,
+      "observerSeconds": 0.5023199239999983,
+      "mathSeconds": 0.25375387300000085
+    },
+    {
+      "stepId": "original-quintic-rebuild-paid-mixed95-60",
+      "status": "completed",
+      "exitCode": 0,
+      "rawBytes": 9336,
+      "rawSHA256": "c88c84117c852f8b81bcf3da1f838b46d8e11024a3e8e76b039c3a65ff3d47fb",
+      "rawReconstructed": true,
+      "observerSeconds": 0.5024019250000009,
+      "mathSeconds": 0.10234722399999896
+    },
+    {
+      "stepId": "original-quintic-koszul259-unit60",
+      "status": "completed",
+      "exitCode": 0,
+      "rawBytes": 8827,
+      "rawSHA256": "c5298003adaa92487b53a2dac9b4f5d430f18ea035674b7c459daaaba8e88eba",
+      "rawReconstructed": true,
+      "observerSeconds": 1.0182344799999896,
+      "mathSeconds": 0.5167087129999999
+    }
+  ],
+  "phaseChecks": [
+    {
+      "stepId": "original-quintic-rebuild-field-model180",
+      "key": "wholePhaseDescriptors",
+      "identical": true,
+      "count": 2
+    },
+    {
+      "stepId": "original-quintic-rebuild-field-model180",
+      "key": "wholeSeedDescriptors",
+      "identical": true,
+      "count": 116
+    },
+    {
+      "stepId": "original-quintic-rebuild-field-model180",
+      "key": "manifest",
+      "identical": true,
+      "count": 3
+    },
+    {
+      "stepId": "original-quintic-rebuild-paid-high95-60",
+      "key": "completePhases",
+      "identical": true,
+      "count": 2
+    },
+    {
+      "stepId": "original-quintic-rebuild-paid-mixed95-60",
+      "key": "completePhase",
+      "identical": true,
+      "count": 5
+    }
+  ],
+  "matrixProductsRepeatedByReader": false,
+  "phasePayloadsIndependentlyReopened": false,
+  "mathArraysSavedInGit": false
+}

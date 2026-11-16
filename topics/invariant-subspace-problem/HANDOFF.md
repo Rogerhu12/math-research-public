@@ -3,20 +3,20 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 4d8862a5e3910b37fd173784f734a16e81aca6b6（2026-11-16 18:04:43 UTC，Actions run43924997109实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43924997109-1.json。
+- **最近成功实际 pull 与已读规则提交：** 1e85aa7c462cb0d62a0d80e745622a6874497378（2026-11-16 18:12:55 UTC，Actions run43926430589实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43926430589-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
-- 完整此前状态、所有未列开放项保[刚归档H](notes/2026-11-16-handoff-before-original-quintic259-gate-789f.md)、[完整open](notes/2026-11-16-open-before-weight10-input-audit-789f.md)及归档链；省略不算关闭。
+- 完整此前状态、所有未列开放项保[刚归档H](notes/2026-11-16-handoff-before-quintic259-minimal120-789f.md)、[完整open](notes/2026-11-16-open-before-weight10-input-audit-789f.md)及归档链；省略不算关闭。
 
 ## 当前实际执行接续
 
 - 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
-- **[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
+- 原mixed95实际unit69、选J40=0..33/40..44/60，全25575/18050/9025/3800已核；[正式原40选择](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)给本次quintic父件。
 - **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
 - 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。完整77276×13808尚未生成；full driver/原子式审计已全文审，最终输入/CLI审核中。
 
-- **原五次Koszul259小门run43924670391正在执行。** [完整接口](notes/2026-11-16-r150-original-quintic-koszul-span259-unit-interface-789f.md)：同新job116→high95→mixed95→quintic，预算180/60/60/60秒，实际读两个完整manifest/三父phase。保原385×275和全部300右端；若259则全115500目标坐标及两侧逆/16关系，才可用原E单位给稳定C60与120/130呈示；低秩仅field诊断。当前无新rank/actual声明，不恢复旧exact/Q60/参数大阵。
+- **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
 
 ## R150已付结构与仍开范围
 
@@ -26,9 +26,9 @@
 - **[实际完整210/200原来源](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)：** 24均值+80交换子二字像十向量/十八源全真，Bell槽0，最终291.639秒exit0。根独立1040/1872递推坐标、104原乘回及权9/10全真；新增7034750向量项/2707447来源项。全部106phase双SHA。不是新秩/GB/单位。
 - **[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
 - 原权8全17674×1386秩1312、74全核、root原unit det4/1307876核坐标已闭；14高列全原换源，36低种子一轮完整106、第二轮稳定是上界，不认最小轮2。
-- [原E低20因子化](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)及[实际精确坐标](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)已闭：完整1000E/3000Q/400selected，参数/原源全保；670旧上界由下一条改进。
-- 原四次核95与E260/270已闭：原DT=0及unit38，完整三字降次给P2稳定；保[正式证明](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)，上界由E200/210改进。
-- **[原E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 原十一q独立给Koszul55⊂kerD95，余商40由原T100张成；减真正G-Koszul零来源后canonical校正回C20。全部NC100由NC40+C20生成，保全部参数/原11和17源；P2稳定、非Bell200+Bell10，权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。不同于旧field40换源；本次实际40索引与混合单位已核。
+- 原E低20因子化、精确坐标及原四次95降次完整源/hash保归档与[索引](results.md)，不重算。
+
+- 原E200/210完整呈示及权5/6/7/8/9/10来源分组保[原证明](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)；本次原120删除80个权10冗余二字低来源，旧全部原200数组仍供完整权10任务。
 
 ## R271真实投影返回与剩余交叉
 

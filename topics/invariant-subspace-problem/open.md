@@ -1,8 +1,10 @@
 # 未解决的问题
 
+**[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
+
 **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
 
-此前完整open及所有未列任务保[本次快照](notes/2026-11-16-open-before-weight10-rank-ceiling-789f.md)，未列不算关闭。
+此前完整open及所有未列任务保[本次快照](notes/2026-11-16-open-before-quintic259-minimal120-789f.md)，未列不算关闭。
 
 **[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
 
@@ -12,11 +14,9 @@
 
 **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
 
-**[原55条Koszul来源给E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 十一原二次项独立，使55条$q_ae_b-q_be_a$在95维四次核中独立；余商40维由原100条$u_i z_s$张成。按同原行投影贪心选40并以原伴随定义系数，减真正$G_ae_b-G_be_a$零来源后canonical校正落C20，故全部NC100普通B模由NC40+C20生成。第一轮106、第二轮210，非Bell200，保原参数/11/17源和权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新40索引和混合单位现已实际支付，见本页最新结果；仍不把field系数提升。
+原40混合单位、原degree5来源和完整120呈示已闭；继续完整权十δb²原矩阵/原左证、权十一qb³及R271真实费用。原200/210历史证明与全部未列开放项保本次快照。
 
-原40标签/混合95单位及全部原常数乘回已闭；继续完整权十直接矩阵、原degree5来源与R271完整费用。
-
-**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。下一完整77276×13808直接消元与原左证接口已全文审，独立native/driver待冻结。
+**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，full driver/原子式/独立全列门已全文审；新作业接口最终审核中。
 
 **R271实际费用继续。** 已付最优两孔锚、真旗代表、无包络倒数门和本次纯高度联合门；完整强头逆的实际费用及匹配/帽逆后的真实误差仍开。全部此前状态与未闭接口保[本次完整open快照](notes/2026-11-16-open-before-pure-far-height-789f.md)及归档链，未列不算关闭。
 
