@@ -110,3 +110,6 @@
 - **R840（实际准确完成）**：[原CM值、首jet及有限点准确表达式](results/R840-certified-original-implicit-CM-value-and-first-jet.md)。run43773420733/sourcec3bcfc0d，35.797080241秒；准确双数五次乘积/eZ与原518方向收缩，全部14 B0分支unit，原有限y/y′的准确单位solve表达式及518位全部十四坐标乘回已成。两组14个RR候选全返回，但无准确零证，不改旧R792成功入口。246完成stage、四组176源；final5de210b5/manifestbe2a58b2，artifact14185198226/0ae63e2c。旧Dixon/Schur/CM迹不重，接既有R791消根式和真实h0，原eta/height仍缺。
 
 - **R841（实际准确表达式完成）**：[原CM点及指定下降点](results/R841-certified-original-CM-point-and-descent-DAG.md)。run43774984563/sourcecbcaa616，0.037801001秒；原四准确响应＋真实h0消费791R.16，B0/Q/N非零证明给β_C=(3h0Q/N,A0/B0)及原三同源像f_R(c1)，4完成stage/50node/174旧源。final52b80ce2/manifestde6b334f，artifact14185648917/f848bab0；1.21MB载体保必要输入。原v/κ、T7=[ζ²]及所有尺度不变；展开坐标/抽象A前像/eta/height未得，后继点加法保具体准确零判义务。
+
+
+- **R842（实际准确单位解完成）**：[原两图短RR与D完整295基](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)。run43776927742/sourceccc94341，35.966809456秒/101stage；20新σ列续4..9给81移位，旧435商增量秩20，实际T11秩2451/det483777893；完整T5秩415/det628817039，原两锚830×690核秩395/det422341556。295个原自由坐标规范单位解基及全830乘回已成，保两图/原scale，未展开大有理坐标。final51dff9f0/manifest5bb824d2，artifact14186901203/9a4b0b02；2919源保115.52MB carrier。单τ2431与更正边界不撤回，旧导数/矩阵/S5逆不重，eta-height仍缺。

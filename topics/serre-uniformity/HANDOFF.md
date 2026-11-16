@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：261102b0eb4e09984c8f3dd6c1bfbd6b82a84a95**（2026-11-16T00:05:42.447459+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次非挠前H](handoff-archive-2026-11-16-before-original-nontorsion.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：f87f8a4bedace3c8c27efc40f39f322ad80d8c29**（2026-11-16T00:09:11.375606+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次非挠前H](handoff-archive-2026-11-16-before-original-nontorsion.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -25,7 +25,7 @@
 
 **准确前置已成、不重算**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)真I4=C、D约化/K1；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)原146CM值、U397与两锚共同零恰C20+P0（p000009真1213minor）；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)真J2=I2/E2=C20+D、P0∉D、完整I3=C且最小阶3。全部run/source/artifact/hash逐字保[本次双图前H](handoff-archive-2026-11-15-before-R839-two-chart.md)及各正式结果；不再开q3或旧导数/旧两锚/旧前缀。三个结果均非D坐标/eta/height。
 
-**R839两图短RR已激活**：首run43773898829/sourceac885f5a真实τ矩阵2866×2886秩2431，T5/D未跑；[结束/源修正](notes/R839-ended-tau-source-rank-and-two-chart-completion.md)e9269c0e及更正proof f0044713保留，单τ高权保证撤回。[两图执行](notes/R839-original-two-chart-short-RR-and-D-kernel-method.md)c649f95f，新core6fe0a0d3/wrapperf27a4585消费2919原件（旧2782+σ123+旧R83914），expanded016087b3/tag7597a9d5。仅20原σ列续4..9，旧0..3复用；81移位＋435×81增量/20阶Schur，实际2451/415/395依次才给D短基295。旧matrix59fdca20、独立2431列/旧S5逆不重算；新source由本次推送激活，待实际run/秩，不预填。
+**R842原两图短RR与D完整基已成**：[正式结果](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)run43776927742/job133005301364/sourceccc94341，35.966809456秒/101stage；实际T11秩2451/det483777893、T5秩415/det628817039、D秩395/det422341556，原H0(3H−D)295准确单位解基及全830乘回已成。final51dff9f0/manifest5bb824d2/config7597a9d5；artifact14186901203/9a4b0b02至Nov16 23:52:18，2919原源carrier115.52MB/a1f8b947。原D基ec71c061、D矩阵42e09dcc、S5矩阵1c1647ea已纯IO取。首τ2431不足/源修正e9269c0e保留；仅续20σ列4..9和81移位、旧矩阵/0..3/S5逆不重。准确展开坐标/eta/height仍false；后继真实D极理想。
 
 **R840原CM值与首jet已成**：[正式结果](results/R840-certified-original-implicit-CM-value-and-first-jet.md)run43773420733/job132994211824/sourcec3bcfc0d，35.797080241秒；全14 B0 unit，准确有限y/y′表达式和518位十四坐标乘回已成。final5de210b5/manifestbe2a58b2/config2a3bd8ce，246stage；artifact14185198226/0ae63e2c至Nov16 23:13:32，四组176源carrier89.84MB/e28a33f3。255小件纯IO完成。两组14个RR均candidate，准确展开false。接既有R791(791R.16)与原h0构造β_C及下降点DAG，保原v/κ；eta/height未得。
 
