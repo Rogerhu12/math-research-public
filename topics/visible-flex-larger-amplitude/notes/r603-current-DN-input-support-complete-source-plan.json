@@ -1,0 +1,708 @@
+{
+  "schema": "R603-live128-input-support-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_live128_input_support_source_views.py",
+    "bytes": 29284,
+    "sha256": "ae2167c351f728089fdd308adbb8acbed6c6318ac28a99a264e9384ae73c7426"
+  },
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-extended-owner-budget-composition-request.json",
+      "bytes": 8964,
+      "sha256": "002265d96fc7dedaa4500708b8a028f3ccb660eef55c21528325555e3b9e2cc8"
+    },
+    "request_number": 248,
+    "request_schema": "public-live128-extended-owner-budget-composition-request-v1",
+    "source_generator": {
+      "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+      "bytes": 26239,
+      "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+    },
+    "source_plan": {
+      "file": "notes/r593-live128-extended-owner-budget-complete-source-plan.json",
+      "bytes": 10168,
+      "sha256": "4d7cee7c4d51c5415a5e22a10f3e21b6f00ab045a84260a484299b7426417229"
+    },
+    "preparation_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1",
+    "necessary_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1-necessary-v1",
+    "current_request_schema": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+    "source_preparation_directory": "request248-source-preparation",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true,
+    "published_main": "b38a46a6d0f34f250cff6d13c64ffafa65931ef8"
+  },
+  "current_factory": {
+    "file": "geometry_20261116_current_DN_input_support_fourier_product_flow.mjs",
+    "bytes": 5625,
+    "sha256": "f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0"
+  },
+  "current_product_helper": {
+    "file": "geometry_20261116_finite_trace_actual_input_support_linear.mjs",
+    "bytes": 6246,
+    "sha256": "e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3"
+  },
+  "current_factory_published_main": "93e41c94d276b57e7f56c140cce2ecc0f5bb50dd",
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_current_DN_input_support_fourier_product_flow.mjs",
+      "bytes": 5625,
+      "sha256": "f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0"
+    },
+    {
+      "file": "geometry_20261116_finite_trace_actual_input_support_linear.mjs",
+      "bytes": 6246,
+      "sha256": "e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3"
+    }
+  ],
+  "counts": {
+    "parent_complete_sources": 454,
+    "parent_public_sources": 363,
+    "parent_generated_sources": 91,
+    "new_public_sources": 3,
+    "new_generated_views": 9,
+    "complete_sources": 466,
+    "public_sources": 366,
+    "generated_sources": 100
+  },
+  "roles": {
+    "system": {
+      "file": "exact_20261116_live128_input_support_current576_system.py",
+      "bytes": 29109,
+      "sha256": "d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338"
+    },
+    "qr": {
+      "file": "exact_20261116_live128_input_support_current576_chain_qr.py",
+      "bytes": 21844,
+      "sha256": "1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67"
+    },
+    "pipeline": {
+      "file": "geometry_20261116_live128_input_support_call_pipeline.py",
+      "bytes": 43258,
+      "sha256": "de7cb5aae4e80694a899ca36eaa6e067d14f8af60dfd7da074805316a8ff3303"
+    },
+    "call": {
+      "file": "geometry_20261116_live128_input_support_current_call.mjs",
+      "bytes": 48864,
+      "sha256": "678a216ea7c030ca2b66129befb6a4f9f8f53845c46daa4bfc32b668b8c830cb"
+    },
+    "worker": {
+      "file": "geometry_20261116_live128_input_support_worker.mjs",
+      "bytes": 8878,
+      "sha256": "18a6da3f8a9133128e048686fd78c11b05d7cbecbac9e459e652cd6c30520370"
+    },
+    "client": {
+      "file": "geometry_20261116_live128_input_support_tail_client.py",
+      "bytes": 41346,
+      "sha256": "c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39"
+    },
+    "fulldn": {
+      "file": "geometry_20261116_live128_input_support_original_full_dn.py",
+      "bytes": 47523,
+      "sha256": "b2bae392a4746db7e9741fa6b26c893f124cb48c4c2448f2c9a277fe2934e542"
+    },
+    "runner": {
+      "file": "geometry_20261116_live128_input_support_owned_run.py",
+      "bytes": 39323,
+      "sha256": "4ad124b99196e6574a3f2cecc9e731dd8a32858e1f9fd9e03dc3312b9e9a3489"
+    },
+    "reader": {
+      "file": "root_20261116_live128_input_support_necessary.py",
+      "bytes": 68099,
+      "sha256": "e08f0e5f4077e337e95c1fbb3f9bb74c37eab44dbebf72093169d5b2bd2ef8e5"
+    }
+  },
+  "unchanged_model_consumers": {
+    "owner": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+      "bytes": 26666,
+      "sha256": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17"
+    },
+    "model_library": {
+      "file": "geometry_20261116_live128_same_dn_projected_stages.mjs",
+      "bytes": 32316,
+      "sha256": "2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a"
+    },
+    "final_components": {
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    "response_assembly": {
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  },
+  "views": [
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+        "bytes": 29077,
+        "sha256": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14"
+      },
+      "output": {
+        "file": "exact_20261116_live128_input_support_current576_system.py",
+        "bytes": 29109,
+        "sha256": "d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338"
+      },
+      "patches": [
+        {
+          "id": "actual-client",
+          "before": "SNAPSHOT_LAUNCHER='geometry_20261116_live128_synthesis_product_projected_tail_client.py'",
+          "after": "SNAPSHOT_LAUNCHER='geometry_20261116_live128_input_support_tail_client.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-call",
+          "before": "SNAPSHOT_HOOK='geometry_20261116_live128_synthesis_product_projected_current_call.mjs'",
+          "after": "SNAPSHOT_HOOK='geometry_20261116_live128_input_support_current_call.mjs'",
+          "count": 1
+        },
+        {
+          "id": "honest-original-evaluate-scope",
+          "before": "'No RHS/J/flow source patch'",
+          "after": "'Original evaluate body; actual R602 flow factory is declared by this snapshot producer'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py",
+        "bytes": 21858,
+        "sha256": "ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f"
+      },
+      "output": {
+        "file": "exact_20261116_live128_input_support_current576_chain_qr.py",
+        "bytes": 21844,
+        "sha256": "1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67"
+      },
+      "patches": [
+        {
+          "id": "actual-system-name",
+          "before": "SYSTEM_NAME='exact_20261116_live128_synthesis_product_projected_current576_system.py'",
+          "after": "SYSTEM_NAME='exact_20261116_live128_input_support_current576_system.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-system-pin",
+          "before": "SYSTEM_SHA='b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14'",
+          "after": "SYSTEM_SHA='d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_call_pipeline.py",
+        "bytes": 43286,
+        "sha256": "1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_input_support_call_pipeline.py",
+        "bytes": 43258,
+        "sha256": "de7cb5aae4e80694a899ca36eaa6e067d14f8af60dfd7da074805316a8ff3303"
+      },
+      "patches": [
+        {
+          "id": "actual-system-name",
+          "before": "SYSTEM = \"exact_20261116_live128_synthesis_product_projected_current576_system.py\"",
+          "after": "SYSTEM = \"exact_20261116_live128_input_support_current576_system.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-system-pin",
+          "before": "SYSTEM_SHA = \"b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14\"",
+          "after": "SYSTEM_SHA = \"d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338\"",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-name",
+          "before": "QR = \"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"",
+          "after": "QR = \"exact_20261116_live128_input_support_current576_chain_qr.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-pin",
+          "before": "QR_SHA = \"ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f\"",
+          "after": "QR_SHA = \"1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+        "bytes": 45476,
+        "sha256": "cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_input_support_current_call.mjs",
+        "bytes": 48864,
+        "sha256": "678a216ea7c030ca2b66129befb6a4f9f8f53845c46daa4bfc32b668b8c830cb"
+      },
+      "patches": [
+        {
+          "id": "actual-client-verifier",
+          "before": "fileSHA(path.join(here,'geometry_20261116_live128_synthesis_product_projected_tail_client.py'))",
+          "after": "fileSHA(path.join(here,'geometry_20261116_live128_input_support_tail_client.py'))",
+          "count": 1
+        },
+        {
+          "id": "actual-R532-client",
+          "before": "client:'geometry_20261116_live128_synthesis_product_projected_tail_client.py'",
+          "after": "client:'geometry_20261116_live128_input_support_tail_client.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-R532-current_call",
+          "before": "current_call:'geometry_20261116_live128_synthesis_product_projected_current_call.mjs'",
+          "after": "current_call:'geometry_20261116_live128_input_support_current_call.mjs'",
+          "count": 1
+        },
+        {
+          "id": "actual-R532-worker",
+          "before": "worker:'geometry_20261116_live128_synthesis_product_projected_worker.mjs'",
+          "after": "worker:'geometry_20261116_live128_input_support_worker.mjs'",
+          "count": 1
+        },
+        {
+          "id": "actual-engine-source-and-complete-statistics",
+          "before": "function currentModelSourceTuple(){",
+          "after": "\nconst INPUT_SUPPORT_SCHEMA='R602-original-Fourier-product-current-DN-actual-input-support-v1';\nfunction bindInputSupportObservers(dn){\n const engines=[],indexes=new Map(),stage_to_engine=[],bindings=[];\n for(const cell of dn.tail.cells){\n  const engine=cell.engine;\n  if(!indexes.has(engine)){\n   const binding=engine.linearInputSupportSourceBinding;\n   if(engine.linearEvaluation!==INPUT_SUPPORT_SCHEMA||!binding||\n      binding.current_source.sha256!=='f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0'||\n      binding.helper.sha256!=='e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3'||\n      spec.frozen_sources[path.basename(binding.current_source.file)]!==binding.current_source.sha256||\n      spec.frozen_sources[path.basename(binding.helper.file)]!==binding.helper.sha256)\n    throw Error('Actual current-DN R602 factory/helper source binding');\n   let source_index=bindings.findIndex(row=>encode(row)===encode(binding));\n   if(source_index<0){source_index=bindings.length;bindings.push(binding);}\n   indexes.set(engine,engines.length);\n   engines.push({engine,source_index,actual_flow_source_sha256:sha(engine.flowStateWithJacobian.toString())});\n  }\n  stage_to_engine.push(indexes.get(engine));\n }\n return {engines,stage_to_engine,bindings};\n}\nfunction saveInputSupport(ctx,phase,original_model_clock_context=null){\n const value={schema:'R603-current-DN-actual-engine-input-support-progress-v1',\n  native_call:ctx.call,phase,sequence:(ctx.supportSequence=(ctx.supportSequence??0)+1),\n  source_sha256:spec.source_sha256,hook_sha256:fileSHA(selfPath),job_deadline:spec.job_deadline,\n  actual_stage_to_engine:ctx.support.stage_to_engine,\n  actual_source_bindings:ctx.support.bindings,\n  engines:ctx.support.engines.map((row,index)=>({\n   engine_index:index,source_binding_index:row.source_index,\n   actual_flow_source_sha256:row.actual_flow_source_sha256,\n   actual_statistics:row.engine.linearInputSupportStatistics})),\n  original_model_clock_context,\n  statistics_are_actual_cumulative_engine_objects:true,\n  no_counter_delta_or_current_call_only_count_fabricated:true,\n  last_saved_snapshot_is_not_a_hard_stop_location:true,\n  synchronous_inflight_work_after_this_snapshot_is_unreturned:true,\n  statistics_do_not_replace_full_J_mean_rows_or_acceptance:true};\n const file=path.join(ctx.directory,'input-support-progress.json'),temp=file+'.writing';\n const raw=Buffer.from(encode(value));\n fs.writeFileSync(temp,raw,{flag:'wx'});\n fs.renameSync(temp,file);\n ctx.record.actual_input_support_progress=absoluteReceipt(file);\n return value;\n}\n\nfunction currentModelSourceTuple(){",
+          "count": 1
+        },
+        {
+          "id": "truthful-capture-flow-source",
+          "before": "  original_evaluate_and_flow_source_not_instrumented:true",
+          "after": "  original_evaluate_body_not_instrumented:true,\n  current_flow_factory_is_declared_R602:true,\n  original_717ac_flow_schedule_with_R523_input_support_product:true",
+          "count": 1
+        },
+        {
+          "id": "bind-engine-observers-once",
+          "before": " const before=liveIdentity(dn);\n const seed=readSeed(dn);",
+          "after": " const before=liveIdentity(dn);\n const inputSupport=bindInputSupportObservers(dn);\n const seed=readSeed(dn);",
+          "count": 1
+        },
+        {
+          "id": "actual-flow-core-receipt",
+          "before": "  original_core_file_sha256:fileSHA(originalCore),actual_evaluate_source_sha256:sha(actualEvaluate),",
+          "after": "  actual_input_support_source_bindings:inputSupport.bindings,\n  actual_input_support_stage_to_engine:inputSupport.stage_to_engine,\n  actual_flow_factory_is_R602:true,original_flow_source_claimed_identical:false,\n  original_core_file_sha256:fileSHA(originalCore),actual_evaluate_source_sha256:sha(actualEvaluate),",
+          "count": 1
+        },
+        {
+          "id": "same-actual-observers-in-call",
+          "before": "   const ctx={call,directory,before,metadata,requestFile,inputHashes:null,record:{",
+          "after": "   const ctx={call,directory,before,metadata,requestFile,inputHashes:null,support:inputSupport,record:{",
+          "count": 1
+        },
+        {
+          "id": "snapshot-original-initial-evaluate",
+          "before": "    const ev=dn.tail.evaluate(states,target,true,scales);\n    ctx.record.fresh_original_withJ_returned=true;",
+          "after": "    saveInputSupport(ctx,'before-original-initial-evaluate');\n    const ev=dn.tail.evaluate(states,target,true,scales);\n    ctx.record.fresh_original_withJ_returned=true;\n    saveInputSupport(ctx,'after-original-initial-evaluate');",
+          "count": 1
+        },
+        {
+          "id": "same-original-clock-model-context",
+          "before": "   checkResource:async()=>{const seq=ctx.modelClockSequence=(ctx.modelClockSequence??0)+1;\n    runPipeline('model-clock',ctx,{model_window:owner.model_window},\n                'model-clock-'+String(seq).padStart(6,'0'));}});",
+          "after": "   checkResource:async clockContext=>{const seq=ctx.modelClockSequence=(ctx.modelClockSequence??0)+1;\n    runPipeline('model-clock',ctx,{model_window:owner.model_window},\n                'model-clock-'+String(seq).padStart(6,'0'));\n    saveInputSupport(ctx,'after-original-model-clock',clockContext);}});",
+          "count": 1
+        },
+        {
+          "id": "returned-model-statistics",
+          "before": "  modelResult=value.delivery.result;",
+          "after": "  saveInputSupport(ctx,'after-projected-model-return');\n  modelResult=value.delivery.result;",
+          "count": 1
+        },
+        {
+          "id": "normal-call-statistics",
+          "before": "    ctx.record.elapsed_seconds=(Date.now()-started)/1000;\n    // This file",
+          "after": "    saveInputSupport(ctx,'before-current-response-return');\n    ctx.record.elapsed_seconds=(Date.now()-started)/1000;\n    // This file",
+          "count": 1
+        },
+        {
+          "id": "failed-call-statistics-original-error-retained",
+          "before": "    ctx.record.actual_error=cleanError(error);\n    ctx.record.actual_failure_location",
+          "after": "    ctx.record.actual_error=cleanError(error);\n    try{saveInputSupport(ctx,'caught-original-call-failure');}\n    catch(metadataError){ctx.record.input_support_snapshot_error=cleanError(metadataError);}\n    ctx.record.actual_failure_location",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_worker.mjs",
+        "bytes": 8327,
+        "sha256": "ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_input_support_worker.mjs",
+        "bytes": 8878,
+        "sha256": "18a6da3f8a9133128e048686fd78c11b05d7cbecbac9e459e652cd6c30520370"
+      },
+      "patches": [
+        {
+          "id": "actual-call-module",
+          "before": "./geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+          "after": "./geometry_20261116_live128_input_support_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-current-factory-url",
+          "before": "const liveURL=",
+          "after": "const supportURL=new URL('./geometry_20261116_current_DN_input_support_fourier_product_flow.mjs',import.meta.url).href;\nconst liveURL=",
+          "count": 1
+        },
+        {
+          "id": "real-factory-selection",
+          "before": "replaceOnce('const physical=createRecalibrationFactory(cfg).assemble();',",
+          "after": "replaceOnce(\" (await import('./78718-tail-fourier-root-split-engine.mjs')).createFourierRootSplitFluxEngine:null;\",\n ' (await import('+JSON.stringify(supportURL)+')).createFourierRootSplitFluxEngine:null;');\nreplaceOnce('const physical=createRecalibrationFactory(cfg).assemble();',",
+          "count": 1
+        },
+        {
+          "id": "manifest-factory-source",
+          "before": " actualCallModule:liveURL,",
+          "after": " actualCurrentDNFactory:supportURL,actualCurrentDNFactorySHA256:sha256(fs.readFileSync(new URL(supportURL))),\n original_Fourier_product_local_J_and_717ac_grid_retained:true,\n R602_replaces_only_withJ_A_times_T_actual_input_support:true,\n actualCallModule:liveURL,",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+        "bytes": 40476,
+        "sha256": "3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f"
+      },
+      "patches": [
+        {
+          "id": "all-old-pins-plus-actual-source-tuple",
+          "before": "\ndef sha(path):",
+          "after": "\nLIVE_SOURCE_PINS.update({\n    \"geometry_20261116_current_DN_input_support_fourier_product_flow.mjs\": \"f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0\",\n    \"geometry_20261116_finite_trace_actual_input_support_linear.mjs\": \"e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3\",\n    \"geometry_20261116_live128_input_support_current_call.mjs\": \"678a216ea7c030ca2b66129befb6a4f9f8f53845c46daa4bfc32b668b8c830cb\",\n    \"geometry_20261116_live128_input_support_worker.mjs\": \"18a6da3f8a9133128e048686fd78c11b05d7cbecbac9e459e652cd6c30520370\",\n    \"exact_20261116_live128_input_support_current576_system.py\": \"d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338\",\n    \"exact_20261116_live128_input_support_current576_chain_qr.py\": \"1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67\",\n    \"geometry_20261116_live128_input_support_call_pipeline.py\": \"de7cb5aae4e80694a899ca36eaa6e067d14f8af60dfd7da074805316a8ff3303\"\n})\n\ndef sha(path):",
+          "count": 1
+        },
+        {
+          "id": "actual-hook-source",
+          "before": "hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_current_call.mjs\"]",
+          "after": "hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_input_support_current_call.mjs\"]",
+          "count": 1
+        },
+        {
+          "id": "actual-node-worker",
+          "before": "str(HERE/\"geometry_20261116_live128_synthesis_product_projected_worker.mjs\")",
+          "after": "str(HERE/\"geometry_20261116_live128_input_support_worker.mjs\")",
+          "count": 1
+        },
+        {
+          "id": "bridge-source_file",
+          "before": "source_file=\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"",
+          "after": "source_file=\"exact_20261116_live128_input_support_current576_chain_qr.py\"",
+          "count": 1
+        },
+        {
+          "id": "bridge-source_sha256",
+          "before": "source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"]",
+          "after": "source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_input_support_current576_chain_qr.py\"]",
+          "count": 1
+        },
+        {
+          "id": "bridge-system_source_sha256",
+          "before": "system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_system.py\"]",
+          "after": "system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_input_support_current576_system.py\"]",
+          "count": 1
+        },
+        {
+          "id": "pipeline-file",
+          "before": "pipeline=dict(source_file=\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\"",
+          "after": "pipeline=dict(source_file=\"geometry_20261116_live128_input_support_call_pipeline.py\"",
+          "count": 1
+        },
+        {
+          "id": "pipeline-pin",
+          "before": "source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\"]",
+          "after": "source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_input_support_call_pipeline.py\"]",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_input_support_tail_client.py",
+        "bytes": 41346,
+        "sha256": "c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39"
+      }
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+        "bytes": 46439,
+        "sha256": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63"
+      },
+      "patches": [
+        {
+          "id": "actual-client-name",
+          "before": "CLIENT_NAME = \"geometry_20261116_live128_synthesis_product_projected_tail_client.py\"",
+          "after": "CLIENT_NAME = \"geometry_20261116_live128_input_support_tail_client.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-pin",
+          "before": "CLIENT_NAME: \"3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f\"",
+          "after": "CLIENT_NAME: \"c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39\"",
+          "count": 1
+        },
+        {
+          "id": "old-closure-plus-actual-caller",
+          "before": "\ndef sha(path):",
+          "after": "\nSOURCE_PINS.update({\n    \"geometry_20261116_current_DN_input_support_fourier_product_flow.mjs\": \"f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0\",\n    \"geometry_20261116_finite_trace_actual_input_support_linear.mjs\": \"e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3\",\n    \"geometry_20261116_live128_input_support_current_call.mjs\": \"678a216ea7c030ca2b66129befb6a4f9f8f53845c46daa4bfc32b668b8c830cb\",\n    \"geometry_20261116_live128_input_support_worker.mjs\": \"18a6da3f8a9133128e048686fd78c11b05d7cbecbac9e459e652cd6c30520370\",\n    \"exact_20261116_live128_input_support_current576_system.py\": \"d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338\",\n    \"exact_20261116_live128_input_support_current576_chain_qr.py\": \"1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67\",\n    \"geometry_20261116_live128_input_support_call_pipeline.py\": \"de7cb5aae4e80694a899ca36eaa6e067d14f8af60dfd7da074805316a8ff3303\",\n    \"geometry_20261116_live128_synthesis_product_projected_tail_client.py\": \"3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f\"\n})\n\ndef sha(path):",
+          "count": 1
+        },
+        {
+          "id": "actual-entry-schema",
+          "before": "\"R573-live128-root-synthesis-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "after": "\"R603-live128-input-support-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_input_support_original_full_dn.py",
+        "bytes": 47523,
+        "sha256": "b2bae392a4746db7e9741fa6b26c893f124cb48c4c2448f2c9a277fe2934e542"
+      }
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+        "bytes": 39341,
+        "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_input_support_owned_run.py",
+        "bytes": 39323,
+        "sha256": "4ad124b99196e6574a3f2cecc9e731dd8a32858e1f9fd9e03dc3312b9e9a3489"
+      },
+      "patches": [
+        {
+          "id": "current-0",
+          "before": "Request248",
+          "after": "Request250",
+          "count": 1
+        },
+        {
+          "id": "current-1",
+          "before": "request248",
+          "after": "request250",
+          "count": 9
+        },
+        {
+          "id": "current-2",
+          "before": "request_number\"]==248",
+          "after": "request_number\"]==250",
+          "count": 2
+        },
+        {
+          "id": "current-3",
+          "before": "R593-live128-extended-owner-budget-original-full112-owned-procedure-v1",
+          "after": "R603-live128-input-support-original-full112-owned-procedure-v1",
+          "count": 1
+        },
+        {
+          "id": "current-4",
+          "before": "R593-live128-extended-owner-budget-original-full112-necessary-v1",
+          "after": "R603-live128-input-support-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-5",
+          "before": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-input-support-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-6",
+          "before": "visible-live128-extended-owner-budget248",
+          "after": "visible-live128-input-support250",
+          "count": 1
+        },
+        {
+          "id": "current-7",
+          "before": "_R593_",
+          "after": "_R603_",
+          "count": 1
+        },
+        {
+          "id": "current-8",
+          "before": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+          "after": "geometry_20261116_live128_input_support_original_full_dn.py",
+          "count": 1
+        },
+        {
+          "id": "current-9",
+          "before": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63",
+          "after": "b2bae392a4746db7e9741fa6b26c893f124cb48c4c2448f2c9a277fe2934e542",
+          "count": 1
+        },
+        {
+          "id": "truthful-current-source-scope",
+          "before": "Only this public Actions job may restore inputs or execute the unchanged\noriginal full-DN consumer.",
+          "after": "Only this public Actions job may restore inputs or execute the declared\noriginal full-DN consumer with R602 current A*T source.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+        "bytes": 65727,
+        "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+      },
+      "output": {
+        "file": "root_20261116_live128_input_support_necessary.py",
+        "bytes": 68099,
+        "sha256": "e08f0e5f4077e337e95c1fbb3f9bb74c37eab44dbebf72093169d5b2bd2ef8e5"
+      },
+      "patches": [
+        {
+          "id": "current-source-0",
+          "before": "Request248",
+          "after": "Request250",
+          "count": 1
+        },
+        {
+          "id": "current-source-1",
+          "before": "request248",
+          "after": "request250",
+          "count": 3
+        },
+        {
+          "id": "current-source-2",
+          "before": "request_number\"]==248",
+          "after": "request_number\"]==250",
+          "count": 1
+        },
+        {
+          "id": "current-source-3",
+          "before": "request_number=248",
+          "after": "request_number=250",
+          "count": 3
+        },
+        {
+          "id": "current-source-4",
+          "before": "R593-live128-extended-owner-budget-original-full112-necessary-v1",
+          "after": "R603-live128-input-support-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-source-5",
+          "before": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-input-support-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-source-6",
+          "before": "visible-live128-extended-owner-budget248",
+          "after": "visible-live128-input-support250",
+          "count": 1
+        },
+        {
+          "id": "current-source-7",
+          "before": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+          "after": "geometry_20261116_live128_input_support_owned_run.py",
+          "count": 1
+        },
+        {
+          "id": "current-source-8",
+          "before": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c",
+          "after": "4ad124b99196e6574a3f2cecc9e731dd8a32858e1f9fd9e03dc3312b9e9a3489",
+          "count": 1
+        },
+        {
+          "id": "current-source-9",
+          "before": "REQUEST248_EXTENDED_OWNER_BUDGET",
+          "after": "REQUEST250_CURRENT_INPUT_SUPPORT",
+          "count": 1
+        },
+        {
+          "id": "current-source-10",
+          "before": "_R593_necessary_runtime",
+          "after": "_R603_necessary_runtime",
+          "count": 1
+        },
+        {
+          "id": "complete-engine-snapshot-consumer",
+          "before": "    def call(self,path):",
+          "after": "    def current_input_support(self, call, call_record):\n        label=call.name+\"/input-support-progress\"\n        value=self.get(call/\"input-support-progress.json\",label)\n        answer=dict(actual_file=self.files[label],\n            metadata_is_full_actual_saved_snapshot_not_final_inflight_state=True,\n            statistics_not_a_full_J_or_native_fullDN_acceptance=True)\n        answer[\"original_value\"]=value\n        pending=call/\"input-support-progress.json.writing\"\n        answer[\"interrupted_atomic_write\"]=dict(present=pending.exists())\n        if pending.is_file():\n            answer[\"interrupted_atomic_write\"][\"actual\"]=receipt(pending,self.base)\n            answer[\"interrupted_atomic_write\"][\"contents_not_a_committed_snapshot\"]=True\n        if isinstance(call_record,dict):\n            for key in (\"actual_input_support_progress\",\"input_support_snapshot_error\"):\n                if key in call_record:answer[key]=call_record[key]\n        if value is None:\n            return answer\n        try:\n            require(isinstance(value,dict) and\n                value[\"schema\"]==\"R603-current-DN-actual-engine-input-support-progress-v1\",\n                \"Actual complete R603 engine snapshot schema\")\n            require(value[\"hook_sha256\"]==self.sources[\"geometry_20261116_live128_input_support_current_call.mjs\"]\n                and value[\"source_sha256\"]==self.sources[\"geometry_20261116_live128_input_support_tail_client.py\"],\n                \"Actual engine statistics belong to the current source tuple\")\n            require(value[\"native_call\"]==int(call.name.removeprefix(\"call-\")),\n                \"Actual engine statistics belong to this real call directory\")\n            # Full objects, all counters/last/unknown keys and all stage addresses\n            # are already retained in original_value. Missing/null stay distinct.\n            answer[\"source_and_call_binding_complete\"]=True\n        except Exception as error:\n            self.errors.append(dict(file=str((call/\"input-support-progress.json\").relative_to(self.base)),\n                type=type(error).__name__,error=str(error)))\n            answer[\"source_and_call_binding_complete\"]=False\n        return answer\n\n    def call(self,path):",
+          "count": 1
+        },
+        {
+          "id": "actual-engine-scope-for-every-real-call",
+          "before": "        out=dict(directory=str(path.relative_to(self.base)),call_result_returned=obj is not None)",
+          "after": "        out=dict(directory=str(path.relative_to(self.base)),call_result_returned=obj is not None)\n        out[\"actual_current_DN_input_support\"]=self.current_input_support(path,obj)",
+          "count": 1
+        },
+        {
+          "id": "explicit-new-contract-body",
+          "before": "        R593_resource_strategy=request.get(\"R593_resource_strategy\"),",
+          "after": "        R593_resource_strategy=request.get(\"R593_resource_strategy\"),\n        R603_current_DN_input_support=request.get(\"R603_current_DN_input_support\"),",
+          "count": 1
+        },
+        {
+          "id": "current-source-map-reference",
+          "before": "        self.root_word_metadata=RootWordMetadata(actual_source_hashes)",
+          "after": "        self.root_word_metadata=RootWordMetadata(actual_source_hashes)\n        self.sources=actual_source_hashes",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_scope": {
+    "all454_prior_pins_retained": true,
+    "original_source_restoration_real_and_unchanged": true,
+    "all_generated_views_beside_real_callers": true,
+    "all_generated_full_hashes_checked": true,
+    "zero_numerical_operations_in_generator": true,
+    "no_generated_expanded_sources_committed": true,
+    "current_schemas_of_unchanged_mathematical_consumers_are_retained_with_actual_new_source_receipts": true,
+    "old_R593_R573_records_are_ancestry_not_current_flow_byte_identity": true
+  },
+  "original_resource_contract": {
+    "live_call_resources": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "owner_seconds_cap": 12000,
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "total_scientific_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "job_minutes": 350,
+    "science_step_minutes": 320,
+    "all_values_equal_actual_derived248": true
+  },
+  "necessary_scope": {
+    "all_original_R588_RootStats_relations_and_unknown_fields_retained": true,
+    "actual_current_input_support_progress_schema": "R603-current-DN-actual-engine-input-support-progress-v1",
+    "all14_counters_full_fallback_reasons_last_and_unknown_fields": true,
+    "all_actual_stage_to_engine_addresses": true,
+    "no_success_inferred_from_saved_cumulative_statistics": true,
+    "last_saved_snapshot_not_hard_stop_location": true,
+    "source_and_science_each_original_limit": 90000,
+    "whole_body_overflow_exit": 70,
+    "original_R593_readback_called_once": true,
+    "original_parent_overflow_read_completely_and_old_exit_preserved": true,
+    "optional_R588_relation_only_current_source_record_with_full_inverse": true,
+    "full_parent_representation_not_transcribed_or_pruned": true
+  }
+}
