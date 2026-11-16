@@ -163,3 +163,8 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 ### R845：二挠点及四同源结构已付，原对应仍缺
 
 [R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)在原条件g4项上明确给E+[2]、实际三个二同源、非回溯循环四同源及同原三同源交换方块；原域H17(E+[2])=H34。尚须原全层级/实际Hom来源比较，不能由这些核和j域认成q/q4或指定canonical cycle。R846续核完整Hom是否反而排除g4；在证明前不关闭此条件分支。全部原系数/次数保。
+
+
+### R842：已付的实际纤维消去及保留边界
+
+[R842 两类实际固定纤维消去](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：新增§9–10用同一个原q及每个G∈H3。3s>(3b+degYq+1)ord_1F_b时，原局部环(t−1)^h1∈(x)同时付conductor，整t=1纤维的D_R残数消去；充分门9s>(D+1)(M_D−r−deg_tQ)不预设成立。真实t^rF³q∈WD在h7根特化Y次数≤2，迫无有限交点或q含该纤维因子，故有限Y全消。保h7在Y∞四步链及所有移动正水平，保B_D/B_F的原点补偿；没有声称每纤维Ξ_R与D_R相等或全[b0]消失。

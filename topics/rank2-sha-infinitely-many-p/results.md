@@ -335,3 +335,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)：同一E+上ρ给三个非零二挠点、Fourier逆严格付全部二挠点域；每个实际degree2商、核与微分符号自含核定。不同邻点复合φ_jφ_i∨为循环4，同邻点为[2]，并保与原degree3同源的互素交换方块。原g4分支用R844准确得到Kρ=H34=H17(E+[2])、三个order34邻点j域H34；未将这些几何自动认作原q/q4/fulllevel或R814 cycle，原全部有限系数及6/12/1632/816不变。
+
+
+[R842 两类实际固定纤维消去](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：新增§9–10用同一个原q及每个G∈H3。3s>(3b+degYq+1)ord_1F_b时，原局部环(t−1)^h1∈(x)同时付conductor，整t=1纤维的D_R残数消去；充分门9s>(D+1)(M_D−r−deg_tQ)不预设成立。真实t^rF³q∈WD在h7根特化Y次数≤2，迫无有限交点或q含该纤维因子，故有限Y全消。保h7在Y∞四步链及所有移动正水平，保B_D/B_F的原点补偿；没有声称每纤维Ξ_R与D_R相等或全[b0]消失。

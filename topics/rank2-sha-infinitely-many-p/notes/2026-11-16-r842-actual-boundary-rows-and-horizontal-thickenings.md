@@ -531,3 +531,204 @@ $$
 
 没有新中央零，没有改 $q$ 或 $R$，
 也没有将 $b_0$ 的任一局部单位当作主目标的非零证明。
+
+
+## 9. 原全 $\mathcal H_3$ 来源的整 $t=1$ 纤维消去
+
+本节使用原曲线的两个非恒定投影都为驯分歧的范围。
+这由原次数门
+$$
+a=\deg_tF<p,\qquad b=\deg_YF<p
+$$
+保证：每个投影的非零分歧指数小于 $p$。
+仍取同一 $R_V=qt^rG_V$，其中 $G_V\in\mathcal H_3$；
+不要求 $G_V$ 为 $F$ 的倍数，不增加其前缀。
+记
+$$
+c=\deg_Yq,\qquad N_*=3b+c,\qquad
+h_1=\operatorname{ord}_{t=1}F_b(t),
+\quad F_b(t)=[Y^b]F.
+\tag{24}
+$$
+原 $q$ 仅有 $d$ 分母，而 $d(1)=9$ 是单位，故在此整纤维正则。
+
+**整纤维结论。** 若
+$$
+\boxed{3s>(N_*+1)h_1,}
+\tag{25}
+$$
+则 (7) 的 $\mathcal D_{R_V}$ 在整个 $t=1$ 纤维的全部边界残数和为零。
+这里包括两个原水平、全部三步吹起链和每个奇点的全部正规化分支。
+这是对同一个原 $q$ 和每个 $G_V\in\mathcal H_3$ 的结论。
+若 $h_1=0$，没有 $Y=\infty$ 的点位于该纤维，(25) 自动满足。
+
+证明分开处理两个真实项。逐正规化分支作一次有理分部，
+$$
+\operatorname{Res}\mathcal D_{R_V}
+=c_s\operatorname{Res}
+\left\{
+\frac{WF_t}{e}\,dX_{R_V}
++
+X_{R_V}\frac{W'F_t+WF_{tt}}e\,dt
+\right\}.
+\tag{26}
+$$
+这只使用一个全导数的残数为零，两个剩余项仍全部保留。
+
+先取有限 $Y$ 的点。此处 $R_V$ 正则，
+$X_{R_V}=Y\partial_YR_V$ 正则且可被 $Y$ 整除。
+在正规化参数 $v$ 中，记
+$m_t=\operatorname{ord}_v(t-1)$。
+由
+$$
+\frac{F_t}{e}=-\frac{dY/Y}{dt}
+\tag{27}
+$$
+可知：在 $Y$ 为单位的分支上，其阶至少 $1-m_t$；
+在 $Y=0$ 的分支上，其阶为 $-m_t$。
+后者 $dX_{R_V}$ 的阶至少 $\operatorname{ord}_vY-1$。
+$W$ 的阶为 $3s\,m_t$，所以 (26) 第一项在每个有限分支正则。
+
+(26) 的第二项可写成
+$$
+\frac{X_{R_V}}Y\,(W'F_t+WF_{tt})\,\frac{dt}{F_Y}.
+\tag{28}
+$$
+其系数在原平面曲线的局部环正则，
+而 $dt/F_Y$ 是该平面完整交的对偶化生成元。
+所以此项属于原对偶化层：光滑点残数零，
+奇点的全部正规化分支残数和为零。
+这里没有把各奇点分支残数分别设为零。
+
+再取 $Y=\infty$ 的点，令
+$$
+x=Y^{-1},\qquad f=x^bF,\qquad
+J_+=x^{N_*}qG_V,\qquad
+H_{N_*}=(N_*-x\partial_x)J_+ .
+$$
+$J_+$ 和 $H_{N_*}$ 在原图正则，且
+$X_{R_V}=t^rx^{-N_*}H_{N_*}$。
+在这个原平面曲线的局部环，
+$$
+f(t,0)=F_b(t)=(t-1)^{h_1}a_1(t),\qquad a_1(1)\ne0,
+$$
+以及 $f=0$ 给出真正的环内整除
+$$
+\boxed{(t-1)^{h_1}\in (x)\subset\mathcal O_{C,Q}.}
+\tag{29}
+$$
+这比逐正规化支的阶不等式更强，因而保留 conductor 下降。
+
+由 (25)，整数指数满足
+$3s-1\ge(N_*+1)h_1$。
+于是 $W/x^{N_*+1}$ 和 $W'/x^{N_*+1}$
+都在该原局部环正则。
+(26) 第二项现在是
+$$
+-t^rx^{-N_*-1}H_{N_*}
+(W'f_t+Wf_{tt})\,\frac{dt}{f_x}.
+\tag{30}
+$$
+其系数正则，故再次属于原对偶化层；
+其全部分支残数和准确为零。
+
+对第一项，记
+$m_x=\operatorname{ord}_v x$。
+(29) 给 $m_x\le h_1m_t$。
+因为 $m_x,m_t<p$，(27) 在 $Y=x^{-1}$ 时的阶为 $-m_t$；
+又有
+$\operatorname{ord}_v(dX_{R_V})\ge-N_*m_x-1$。
+所以
+$$
+\begin{aligned}
+\operatorname{ord}_v\left(\frac{WF_t}{e}\,dX_{R_V}\right)
+&\ge(3s-1)m_t-N_*m_x-1\\
+&\ge(3s-1-N_*h_1)m_t-1\\
+&\ge h_1m_t-1\ge0.
+\end{aligned}
+\tag{31}
+$$
+它在每支正则。吹起不改变这些正规化分支及其残数，
+故整条三步链和 conductor 残数已一起处理，(25) 得证。
+
+本条件也有一个直接可检查的原来源充分门。
+由原完整返回
+$$
+3a+r+\deg_tQ\le M_D,\quad N_*\le D,\quad h_1\le a,
+\qquad q=d^{-C_D}Q,
+$$
+可用
+$$
+\boxed{9s>(D+1)(M_D-r-\deg_tQ)}
+\tag{32}
+$$
+推出 (25)。
+(32) 是充分条件，不是在所有现有窗口上自动成立的假设。
+没有用渐近主项替代这一实际有限不等式。
+
+## 10. $h_7$ 纤维的有限 $Y$ 部分无条件消去
+
+本节使用当前 R842 继承的真实三次幂来源
+$$
+t^rF^3q\in\mathcal W_D,
+\tag{33}
+$$
+不是只使用一般的 $qt^r\mathcal H_3$ 包含。
+设 $\alpha$ 为原 $h_7$ 的任一根。
+它不在 $0,1,d=0$ 上，所有分母在此为单位；
+如 $\alpha$ 不在基域，以下先在其剩余域证明，再作原剩余域迹。
+
+原 $\mathcal W_D$ 的第 $n$ 个 charge 列含
+$$
+h_7^{A_n},\qquad A_n=\left\lfloor\frac{n+1}{4}\right\rfloor.
+$$
+所以将 (33) 在 $t=\alpha$ 特化，其非零 $Y$ 次数至多为 $2$。
+$F$ 原始且定义当前非垂直不可约曲线，故 $F(\alpha,Y)$ 不恒零。
+由此有精确二择：
+
+- 若 $q(\alpha,Y)\ne0$，则
+  $3\deg_YF(\alpha,Y)+\deg_Yq(\alpha,Y)\le2$。
+  因而 $F(\alpha,Y)$ 是非零常数，此纤维没有有限 $Y$ 曲线点。
+- 若 $q(\alpha,Y)=0$，则在同一原局部多项式环
+  $q\in(t-\alpha)$。
+  对每个当前 $G_V$，
+  $X_{R_V}=\mathcal E(qt^rG_V)$ 同时含 $t-\alpha$ 和 $Y$。
+
+第二种情形中，(26) 可继续逐原分支使用。
+$W,W'$ 在此正则且 $W$ 为单位。
+在 $Y$ 为单位的分支，
+$\operatorname{ord}(F_t/e)\ge1-m_t$、
+$\operatorname{ord}dX_{R_V}\ge m_t-1$，
+所以第一项正则。
+在 $Y=0$ 的分支，记 $m_Y=\operatorname{ord}Y$，
+则
+$$
+\operatorname{ord}(F_t/e)=-m_t,\qquad
+\operatorname{ord}dX_{R_V}\ge m_t+m_Y-1,
+$$
+第一项仍正则。
+第二项仍有 (28) 的形式，其系数在原局部环正则，
+故每个原有限点的全部 conductor 分支残数和为零。
+
+因此得到同源完整消去
+$$
+\boxed{
+\sum_{\substack{Q\text{ 在 }t=\alpha\\Y(Q)\ne\infty}}
+\operatorname{Res}_Q\mathcal D_{R_V}=0
+\qquad(\alpha\mid h_7),
+}
+\tag{34}
+$$
+对同一个原 $q$ 和所有 $G_V\in\mathcal H_3$ 成立。
+这里不要求 $G_V=FH$，也没有高前缀或额外长窗口条件。
+
+(34) **不包括** $h_7$ 纤维在 $Y=\infty$ 的点及其四步链。
+它也不删去第4节的其它移动正水平。
+这些部分仍用 (15)、(17) 和全部 conductor 条件。
+
+最后，(25)、(34) 删除的是 (10) 的
+$\mathfrak B_{\mathcal D}$ 中相应的整块；
+(11) 的原 $P$ 点补偿逐字保留。
+它们没有声称 $\Xi_R$ 与 $\mathcal D_R$ 在每个固定纤维分别有相同残数，
+也没有直接将原 $\mathfrak B_F$ 的同名子和设零。
+原剩余类仍是同一个 (5)/(10)，全部未消边界和同一 $\omega_1$ 未变。
