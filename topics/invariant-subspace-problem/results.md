@@ -468,3 +468,5 @@
 - **普通结论仍缺。** M=kerT、N=closureBM的N=M未证；须原same-w合并负部≤c_m Q||F_mu||²并Σ1/c_m发散，当前没有这个完整界。所有其它原open接口继续。
 
 - **R150完整critical高块界（2026-11-16）：** [原6018×4266全行全列](results/R150-appendix-complete-critical-high-rank-bounds-and-seven-residue-directions.md)三域规定残点均实rank4259/null7；与两条真实Q核夹得4259≤rank_Q≤4264、2≤ker≤7。全部原缩放/乘回/有限域单位/DAG已核；未关全高核或完整首连接。run43756208221，三次9.010/8.925/13.248秒，完整低170×101待实际全高核。
+
+- **R150原127完整五critical循环指数（2026-11-16）：** [实际原J299完整核序列](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)给F±各两块(3,5)、E8三个因子各两块(2,3)，五primary直和维88，52624原kernel/action坐标全真。run43772109844实际0.803227379秒；完整U/Jh/free-I均临时，maxjet精度5/3但须覆盖双块；无新Q次数结论。
