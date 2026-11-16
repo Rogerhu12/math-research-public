@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R434前检查点](notes/2026-11-16-open-checkpoint-before-R434.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R431前检查点](notes/2026-11-16-open-checkpoint-before-R431.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -96,7 +96,7 @@ R334完整八次/Bernstein及453 Hermite全RHS缺陷、158入口全部75776×17�
 
 R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Loewner保，固定盒宽不因空间细分收紧；R422/3ea1ef9f保完整AA/CC/AC/self/反射/两RP1、共同q全一jet/原六jet/全部marker/四球OR/R282逐叶/R24同帽，嵌入后reach及完整F0的D各付；R425/c87b3a9b保全F0/held/固定H/非平面/四marker/R238含反射刚性，actual_delta_E=false。所有原source、参数、全DFS/失败/当前/未访和90KB范围逐字保[R434前检查点](notes/2026-11-16-open-checkpoint-before-R434.md)及各完整结果；没有actual450、K/τ/D、metric/held/δE接受。
 
-[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d：同job真43f217 frozen450、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+全部knots只作新seed/preflight，450 RHS/H/338×112J/FD/8×17/fullDN/final/audit/writer全新。机器无新点/容量不足显式partial，最终state/mesh以真solver输出为准；外层clock/90KB/清理/实际parent/配方/run未接，M/N/native不变。
+[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/70a5709d保同job真43f217/十词/C/DAG/公共u的完整父mesh+准确midpoint→RN64+knots初猜及全部450新求解；容量/无新点是partial，最终state/mesh以solver为准，M/N/native不改。原完整接口与当前未付逐字保R431前检查点；原钟和必要读回由下述R431接。
 
 [R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)原193两阶段accepted450/十词/43f217/同C及原钟、五原阶段与独立reach保；[R426](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)07fc4e41/77be1d98保原f12f六primitive/1440片/深根族/闭逆像，现场新界∩原粗界、原四Loewner、准确径向缓存/总钟/事务异常撤销与精度恢复。完整参数、原当前/未访、90KB/quiet及清理条件逐字保R434前检查点与各结果；累计半径/深族/前缀宽仍在，无实际450或metric。
 
@@ -105,6 +105,9 @@ R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Lo
 
 
 [R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd仅接受R429/84d0450f或R434/88996287的明确source/schema/input三元分支；重读同193真450/全十词/C/原钟及径向、atlas、shared实际输出。三前件真实完成才调用原R425/c87b3a9b，metric/reach状态保留但不当held前门；全部W/H/marker/witness及八资源参数仍须显式给定，原剩余钟/OwnedChild/quiet不变。原R425全部必要结论、失败/当前/未访及绑定原件保单90KB，超限70/raw不删；不伪加原R425 run/source字段，wrapper用实际子程与文件receipt绑定。无实际参数/450/request/比例或δE接受，新mesh来源仍待R436。
+
+
+[R431](results/R431-same-clock-frozen450-mesh-owned-execution-and-necessary-readback.md)/[完整接口](notes/2026-11-16-current-C-frozen450-mesh-owned-launch-and-necessary-readback-interface.md)/4375375b+3949b61a接原R427/70a5709d：仅消费真193两阶段或同一冻结R431已接受mesh，原43f217完整450/十词/准确target、accepted96/native config实际receipt和原source-root保持；父mesh/精确中点/knots只作初猜，RHS/H/338×112J/FD/8×17/fullDN/final/audit全新。原18900+2700总钟不重置，容量/无新点仍原75资源partial；原owner身份/同关闭窗口/静止后读，保全部FD选中层、原native调用及失败/当前/未访。通用长文本/日志/大列表仅原选段及身份，单90KB超限70/raw不删；无实际parent/maxnodes/资源/recipe/run，不称网格收敛。新mesh几何须R436真实分支后重做全部场消费者。
 
 ## 4. 同一g闭合与真正九冻结450
 
