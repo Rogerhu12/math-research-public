@@ -283,3 +283,8 @@
 ### Request203 实际source/run绑定
 
 [203实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43790929300)已由公开push启动，source557b1d47cd637d268cf292c86f77218ccc3b5458，compute133048929054；官方in_progress，steps1–5完成、step6安装runtime。request84af713a/workflowc67f3bef未改，R440由geometry唯一终态读回；新postsolve/held/组合必要全文在compute，原五体继续report。当前仅官方元数据，无数学/编译结果预填，不取运行中大日志。
+
+
+## R441 — 同固定目标的实际角度与尾步完整450精化
+
+[R441](results/R441-fixed-target-angular-and-tail-step-refinement.md)/[完整接口](notes/2026-11-16-current-C-ten450-angular-step-and-angle-refinement-interface.md)发布18独立源：bf7d writer、bf1f driver、2247 owner按真193/joint203/原R431或自身实际接受450，真实整数四因子改N/原steps/材料与物理角；同原18900+2700钟先重生完整112 sampler再解新全450，保父全节点/词/knots仅初猜、全新RHS/H/J/FD/fullDN/final/audit，原门不变。全新Saved/radial/shared/准确cut/帽/四Loewner/块reach/独立held与实际N全FFT/DC/Nyquist/两mean绑定；第一真实W/H/全marker/cuff逐词冻、材料Phi差异仅R443条件运输。18全diff/证明/接口已读，无本地科学/AST/import/compile；无实际因子/父/run/收敛预填，非径向网格或M精化。

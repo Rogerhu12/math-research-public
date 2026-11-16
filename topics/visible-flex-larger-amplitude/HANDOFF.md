@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 02:17:30 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 b2b45f062d3f0106e15fea943849ce5c16932348。
+规则同步记录：2026-11-16 02:17:51 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 bad204fd212d2fb93234b43cfba0c3dc3438838e。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。所有科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布，代理交文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 
@@ -49,7 +49,7 @@
 
 ## 正在执行的后继
 
-root完成203实际派发/官方绑定后读R441最终18源及完整diff（最终manifest92a3061f，非旧8914）；R441只加N/tailsteps/材料和物理角，新完整450和几何，非真实径向网格精化。
+203已派发并绑定，root已全文读并发布[R441](results/R441-fixed-target-angular-and-tail-step-refinement.md)/[接口](notes/2026-11-16-current-C-ten450-angular-step-and-angle-refinement-interface.md)18源最终diff/证明/接口（原manifest92a3061f，接口只澄清暂存清单）。bf7d writer/bf1f driver/2247 owner真N/tailsteps/两角与完整新450、所有几何/必要读取；第一W/H/全marker/cuff冻结、材料Phi非同词。没有真实因子/父/run或收敛，非mesh/M精化。
 geometry负责203/R440终态并写R448真radial_mesh第五因子；保父全部字词/knots，准确有理插点再RN64，max_nodes/无新增点只资源partial；不改冻结203/R441。
 exact写R442完整M native/QR/deep/Prüfer/client/profile/checkpoint/fullDN与全部means/consumer，M112专属深界不能换标签，新的nu/b/A与epsilon_M前提须完整证明；唯一195/197/200终态。
 amplitude唯一204/R446终态，另作R447准确公共材料逆/全t强C²连续条件。README强C²连续与对t二次可微入C²不是同一要求；后一更强混合高jet只可作可选命题，不能增必需门。
