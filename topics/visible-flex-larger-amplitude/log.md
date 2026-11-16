@@ -25,3 +25,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 13:49 UTC /root — R553真实prefix管与原metric完整接口
 
 [R553](results/R553-actual-prefix-coefficient-tubes-and-Frenet-majorants.md)/[接口](notes/2026-11-16-actual-prefix-tube-and-complete-metric-interface.md)五件80428B独立完整刊；实际675全quintic/全角joint tube正域P付条件Frenet常数，原metric/DFS/BVP门不读diagnostic，原cubic/FFT及尾帽/全闭责任未付，无新run。topic log/index缩短前全文固定6a520319以腾容量，旧科学正文/原数据未改；H/open同步，R567真当前接入另刊，r4必要209282超90K和r5具体依赖scope记入H。
+
+## 2026-11-16 14:01 UTC /root — R541实际228完整整链结果
+
+[R541](results/R541-actual228-eight-complete39-pairs-and-one-necessary-summary.md)32986/45d99826完整独立刊；八模型+八新warm FD/24trial、单whole87376/46fff9e3原90K内全返，全部失败地址/原QP后验/末参数保。8warm改善后原八批止，success/new_coupled_acceptance=false、native/fullDN未起，跨批权不同不相减；quiet且原raw清。72ed原necessary误建detached Git对象如实记且不再复制，H/open/索引同步；r6完整行政body已返，root补实际delta后普通容量整理，原科学继续。
